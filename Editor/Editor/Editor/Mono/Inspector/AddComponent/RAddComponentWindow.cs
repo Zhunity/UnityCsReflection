@@ -1,11 +1,10 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using SMFrame.Editor.Refleaction;
 using Event = SMFrame.Editor.Refleaction.Event;
 using System;
 
-namespace SMFrame.Editor
+namespace SMFrame.Editor.Refleaction
 {
 	public class RAddComponentWindow : Class
 	{

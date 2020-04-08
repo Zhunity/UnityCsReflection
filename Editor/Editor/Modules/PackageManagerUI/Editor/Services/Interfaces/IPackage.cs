@@ -44,7 +44,7 @@ public class IPackage : Property
 			return false;
 		}
 
-		//Manifest.SetVersion(packageName.GetValue().ToString(), recommendedVersion.versionId.GetValue().ToString());
+		Manifest.SetVersion(packageName.GetValue().ToString(), recommendedVersion.versionId.GetValue().ToString());
 		return true;
 	}
 

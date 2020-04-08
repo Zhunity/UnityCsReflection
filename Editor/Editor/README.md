@@ -1,0 +1,2 @@
+这个Eidtor文件夹跟UnityCsReference的文件夹路径一致。
+表示当前文件夹反射的是编辑器代码
