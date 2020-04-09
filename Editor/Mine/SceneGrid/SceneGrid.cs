@@ -18,6 +18,10 @@ namespace SMFrame.Editor.Extension
 
 		public void OnSceneGUI()
 		{
+			if(grid == null)
+			{
+				return;
+			}
 			manager.DrawGrid(grid);
 		}
 	}
