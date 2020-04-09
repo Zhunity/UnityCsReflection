@@ -15,18 +15,25 @@ namespace SMFrame.Editor.Extension
 		{
 			Init();
 			EditorApplication.update += Update;
+			SceneView.duringSceneGui += OnSceneGUI;
 		}
 
 		static private void Init()
 		{
 			ComponentListener.Instance.Init();
 			PackageManager.Instance.Init();
+			SceneGrid.Instance.Init();
 		}
 
 		static private void Update()
 		{
 			ComponentListener.Instance.Update();
 			PackageManager.Instance.Update();
+		}
+
+		static private void OnSceneGUI(SceneView view)
+		{
+			SceneGrid.Instance.OnSceneGUI();
 		}
 	}
 }
