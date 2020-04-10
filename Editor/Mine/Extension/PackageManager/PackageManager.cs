@@ -19,7 +19,6 @@ namespace SMFrame.Editor.Extension
 	/// </summary>
 	public class PackageManager : Singleton<PackageManager>
 	{
-#if UNITY_EDITOR
 		PackageWindow packageWindow = new PackageWindow();
 
 
@@ -36,6 +35,5 @@ namespace SMFrame.Editor.Extension
 				packageWindow.SetInstance(window);
 			}
 		}
-#endif
 	}
 }
