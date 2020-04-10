@@ -13,7 +13,7 @@ public class PackageWindow : Member
 	PackageDetails packageDetails;
 	PackageList packageList;
 
-	public PackageWindow(Type type) : base(type)
+	public PackageWindow() : base("PackageManagerWindow")
 	{
 		packageDetails = new PackageDetails(this, packageDetailsName);
 		packageList = new PackageList(this, "packageList");

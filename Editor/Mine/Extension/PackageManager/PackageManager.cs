@@ -20,22 +20,17 @@ namespace SMFrame.Editor.Extension
 	public class PackageManager : Singleton<PackageManager>
 	{
 #if UNITY_EDITOR
-		string packageManagerWidowName = "PackageManagerWindow";
-		Type windowType;
-		PackageWindow packageWindow;
+		PackageWindow packageWindow = new PackageWindow();
 
 
 		public void Init()
 		{
-			windowType = NativeCodeReader.Instance.GetType(packageManagerWidowName);
-			packageWindow = new PackageWindow(windowType);
-
 			Manifest.LoadManifest();
 		}
 
 		public void Update()
 		{
-			var window = Resources.FindObjectsOfTypeAll(windowType).FirstOrDefault();
+			var window = Resources.FindObjectsOfTypeAll(packageWindow.type).FirstOrDefault();
 			if (window != null)
 			{
 				packageWindow.SetInstance(window);
