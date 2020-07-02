@@ -22,7 +22,7 @@ namespace SMFrame.Editor.Extension
 		{
 			ComponentListener.Instance.Init();
 			PackageManager.Instance.Init();
-			SceneGrid.Instance.Init();
+			//SceneGrid.Instance.Init();
 		}
 
 		static private void Update()
@@ -33,7 +33,7 @@ namespace SMFrame.Editor.Extension
 
 		static private void OnSceneGUI(SceneView view)
 		{
-			SceneGrid.Instance.OnSceneGUI();
+			//SceneGrid.Instance.OnSceneGUI();
 		}
 	}
 }
