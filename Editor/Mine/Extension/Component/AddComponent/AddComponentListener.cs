@@ -25,7 +25,7 @@ namespace SMFrame.Editor.Extension
 #if UNITY_EDITOR
 		#region Common 通用逻辑
 		// 添加组件的窗口对象
-		RAddComponentWindow addComponentWindow = new RAddComponentWindow("AddComponentWindow");
+		RAddComponentWindow addComponentWindow = new RAddComponentWindow();
 
 		Delegate closedDelegate;
 		Delegate selectDelegate;
@@ -82,6 +82,7 @@ namespace SMFrame.Editor.Extension
 		}
 		#endregion
 
+		#region 选中组件之后，进行分类操作
 		/// <summary>
 		/// 选中要添加的组件
 		/// </summary>
@@ -105,17 +106,17 @@ namespace SMFrame.Editor.Extension
 					{
 						case ("Image"):
 							{
-								ComponentOptimizing.OptimizingImage(com as Image);
+								AddComponentOptimizing.OptimizingImage(com as Image);
 								break;
 							}
 						case ("Text"):
 							{
-								ComponentOptimizing.OptimizingText(com as Text);
+								AddComponentOptimizing.OptimizingText(com as Text);
 								break;
 							}
 						case ("Mask"):
 							{
-								ComponentOptimizing.OptimizingMask(com as Mask);
+								AddComponentOptimizing.OptimizingMask(com as Mask);
 								break;
 							}
 						default:
@@ -129,6 +130,7 @@ namespace SMFrame.Editor.Extension
 				isClear = false;
 			}
 		}
+		#endregion
 #endif
 	}
 }

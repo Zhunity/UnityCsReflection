@@ -14,7 +14,7 @@ namespace SMFrame.Editor.Refleaction
 		// AddComponentWindow窗口关闭时的Event
 		public Event windowClosed;
 
-		public RAddComponentWindow(string name) : base(name)
+		public RAddComponentWindow() : base("AddComponentWindow")
 		{
 			selectionChanged = new Event(this, "selectionChanged");
 			windowClosed = new Event(this, "windowClosed");

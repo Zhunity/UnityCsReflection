@@ -8,7 +8,7 @@ namespace SMFrame.Editor.Extension
 	/// <summary>
 	/// 组件优化
 	/// </summary>
-	public class ComponentOptimizing
+	public class AddComponentOptimizing
 	{
 		#region Image
 		public static void OptimizingImage(Image image)
