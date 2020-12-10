@@ -9,9 +9,16 @@ namespace SMFrame.Editor.Extension
 {
 	public static class AddComponentDataSource
 	{
-		[MenuItem("aa/a")]
-		private static void ShowNameToTypeName()
+		static Dictionary<string, string> _showNameToComponentName = new Dictionary<string, string>();
+
+		public static string GetComponentName(string showName)
 		{
+			return _showNameToComponentName[showName];
+		}
+
+		public static void ShowNameToComponentName()
+		{
+			_showNameToComponentName.Clear();
 			var menuDictionary = GetMenuDictionary();
 			menuDictionary.Sort(CompareItems);
 			for (var i = 0; i < menuDictionary.Count; i++)
@@ -25,9 +32,10 @@ namespace SMFrame.Editor.Extension
 				var menuPath = menu.Key;
 				var paths = menuPath.Split('/');
 				var path = paths[paths.Length - 1];
+				var componentName = GetComponentNameInternal(menu.Value);
+				_showNameToComponentName[path] = componentName;
 				//var element = new ComponentDropdownItem(path, L10n.Tr(path), menuPath, menu.Value);
-				var trueName = NameToName(menu.Value);
-				Debug.LogErrorFormat("path : {0}\nL10n.Tr(path) : {1}\nmenuPath : {2}\nmenu.Value : {3}\ntrueName : {4}", path, L10n.Tr(path), menuPath, menu.Value, trueName);
+				//Debug.LogErrorFormat("path : {0}\nL10n.Tr(path) : {1}\nmenuPath : {2}\nmenu.Value : {3}\ncomponentName : {4}", path, L10n.Tr(path), menuPath, menu.Value, componentName);
 			}
 		}
 
@@ -58,7 +66,7 @@ namespace SMFrame.Editor.Extension
 			return x.Key.CompareTo(y.Key);
 		}
 
-		private static string NameToName(string command)
+		private static string GetComponentNameInternal(string command)
 		{
 			if (command.StartsWith("SCRIPT"))
 			{

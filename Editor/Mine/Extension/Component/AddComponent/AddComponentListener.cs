@@ -20,7 +20,7 @@ namespace SMFrame.Editor.Extension
 	/// AddComponentWindow.OnItemSelected 目测时这个选中
 	/// AddComponentWindow.
 	/// </summary>
-	public class ComponentListener : Singleton<ComponentListener>
+	public class AddComponentListener : Singleton<AddComponentListener>
 	{
 #if UNITY_EDITOR
 		#region Common 通用逻辑
@@ -92,7 +92,8 @@ namespace SMFrame.Editor.Extension
 			if (para.GetType().Name == COMPONENT_ITEM_TYPE_NAME)
 			{
 				componentItem.SetInstance(para);
-				string componentName = (string)componentItem.displayName.GetValue();
+				string showName = (string)componentItem.displayName.GetValue();
+				string componentName = AddComponentDataSource.GetComponentName(showName);
 				var gos = Selection.gameObjects;
 				foreach (var go in gos)
 				{
@@ -102,6 +103,7 @@ namespace SMFrame.Editor.Extension
 						Debug.LogError("can not find com ", go);
 						continue;
 					}
+
 					switch (componentName)
 					{
 						case ("Image"):

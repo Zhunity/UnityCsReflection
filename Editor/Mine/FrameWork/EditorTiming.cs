@@ -20,14 +20,15 @@ namespace SMFrame.Editor.Extension
 
 		static private void Init()
 		{
-			ComponentListener.Instance.Init();
+			AddComponentDataSource.ShowNameToComponentName();
+			AddComponentListener.Instance.Init();
 			PackageManager.Instance.Init();
 			//SceneGrid.Instance.Init();
 		}
 
 		static private void Update()
 		{
-			ComponentListener.Instance.Update();
+			AddComponentListener.Instance.Update();
 			PackageManager.Instance.Update();
 		}
 
