@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
@@ -36,8 +37,10 @@ namespace SMFrame.Editor
 			string name = typeof(T).Name;
 			GameObject go = new GameObject(name);
 			Transform parent = GetUIParent();
+			GetEventSystem();
 			go.transform.SetParent(parent, false);
 			T com = go.AddComponent<T>();
+			Selection.activeGameObject = go;
 			return com;
 		}
 
@@ -110,6 +113,18 @@ namespace SMFrame.Editor
 				canvas.transform.SetParent(parent, false);
 			}
 			return canvas;
+		}
+
+		private static EventSystem GetEventSystem()
+		{
+			EventSystem system = Object.FindObjectOfType<EventSystem>();
+			if(system == null)
+			{
+				GameObject go = new GameObject("EventSystem");
+				go.AddComponent<StandaloneInputModule>();
+				system = go.AddComponent<EventSystem>();
+			}
+			return system;
 		}
 	}
 }
