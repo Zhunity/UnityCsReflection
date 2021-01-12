@@ -22,14 +22,18 @@ namespace SMFrame.Editor.Extension
 		{
 			AddComponentDataSource.ShowNameToComponentName();
 			AddComponentListener.Instance.Init();
+#if !UNITY_2020_2
 			PackageManager.Instance.Init();
+#endif
 			//SceneGrid.Instance.Init();
 		}
 
 		static private void Update()
 		{
 			AddComponentListener.Instance.Update();
+#if !UNITY_2020_2
 			PackageManager.Instance.Update();
+#endif
 		}
 
 		static private void OnSceneGUI(SceneView view)
