@@ -16,6 +16,7 @@ namespace SMFrame.Editor
 	{
 		/// <summary>
 		/// 创建Image
+		/// UISystem->MenuOptions.AddImage
 		/// </summary>
 		public static void InstanceImage()
 		{
@@ -30,6 +31,15 @@ namespace SMFrame.Editor
 		{
 			Text text = CreateComponent<Text>();
 			AddComponentOptimizing.OptimizingText(text);
+		}
+
+		/// <summary>
+		/// TODO 创建空的ui子节点
+		/// UnityReferenceSource->GOCreationCommands.CreateEmpty
+		/// </summary>
+		public static void InstanceEmpty()
+		{
+
 		}
 
 		private static T CreateComponent<T>() where T : Component
