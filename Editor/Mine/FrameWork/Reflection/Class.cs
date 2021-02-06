@@ -126,6 +126,31 @@ namespace SMFrame.Editor.Refleaction
 			return ReleactionUtils.ConvertObject(Value, type);
 		}
 
+		public Member CreateMember(string name)
+		{
+			return new Member(this, name);
+		}
+
+		public Field CreateField(string name)
+		{
+			return new Field(this, name);
+		}
+
+		public Property CreateProperty(string name)
+		{
+			return new Property(this, name);
+		}
+
+		public Method CreateMethod(string name)
+		{
+			return new Method(this, name);
+		}
+
+		public Event CreateEvent(string name)
+		{
+			return new Event(this, name);
+		}
+
 		/// <summary>
 		/// Name:变量名
 		/// ReflectedType：当前变量所在的变量
