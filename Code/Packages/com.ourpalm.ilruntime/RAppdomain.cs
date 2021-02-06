@@ -7,13 +7,18 @@ public class RAppdomain : Class
 {
 	RThreadSafeDictionary _mapType;
 
-	public RAppdomain() : base("Appdomain")
+	public RAppdomain() : base("ILRuntime.Runtime.Enviorment.AppDomain")
 	{
 		_mapType = new RThreadSafeDictionary(this, "mapType");
 	}
 
-	public object GetMapType()
+	public void GetMapType()
 	{
-		return _mapType.Value;
+		var d = _mapType.InnerDictionary.Value as IDictionary;
+		var iter = d.GetEnumerator();
+		while (iter.MoveNext())
+		{
+			Debug.Log(iter.Key);
+		}
 	}
 }
