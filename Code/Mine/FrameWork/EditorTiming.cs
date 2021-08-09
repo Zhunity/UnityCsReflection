@@ -22,7 +22,7 @@ namespace SMFrame.Editor.Extension
 		{
 			AddComponentDataSource.ShowNameToComponentName();
 			AddComponentListener.Instance.Init();
-#if !UNITY_2020_2
+#if !UNITY_2020_2_OR_NEWER
 			PackageManager.Instance.Init();
 #endif
 			//SceneGrid.Instance.Init();
@@ -31,7 +31,7 @@ namespace SMFrame.Editor.Extension
 		static private void Update()
 		{
 			AddComponentListener.Instance.Update();
-#if !UNITY_2020_2
+#if !UNITY_2020_2_OR_NEWER
 			PackageManager.Instance.Update();
 #endif
 		}
