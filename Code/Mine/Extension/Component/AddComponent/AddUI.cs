@@ -1,6 +1,7 @@
 ﻿using SMFrame.Editor.Extension;
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEditor;
 using UnityEngine;
 using UnityEngine.EventSystems;
@@ -31,6 +32,12 @@ namespace SMFrame.Editor
 		{
 			Text text = CreateComponent<Text>();
 			AddComponentOptimizing.OptimizingText(text);
+		}
+
+		public static void InstacneTMP()
+		{
+			TextMeshPro text = CreateComponent<TextMeshPro>();
+			AddComponentOptimizing.OptimizingTMP(text);
 		}
 
 		/// <summary>

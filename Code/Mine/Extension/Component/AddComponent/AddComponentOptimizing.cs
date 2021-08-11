@@ -1,7 +1,9 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEditor;
 
 namespace SMFrame.Editor.Extension
 {
@@ -23,6 +25,12 @@ namespace SMFrame.Editor.Extension
 		{
 			text.raycastTarget = false;
 			text.supportRichText = false;
+		}
+
+		public static void OptimizingTMP(TextMeshPro tmp)
+		{
+			tmp.raycastTarget = false;
+			tmp.font = AssetDatabase.LoadAssetAtPath<TMP_FontAsset>("Assets/ABRes/Font/simsun SDF.asset");
 		}
 		#endregion
 
