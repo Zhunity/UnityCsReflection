@@ -13,7 +13,8 @@ namespace SMFrame.Editor.Extension
 
 		public static string GetComponentName(string showName)
 		{
-			return _showNameToComponentName[showName];
+			_showNameToComponentName.TryGetValue(showName, out string name);
+			return name;
 		}
 
 		public static void ShowNameToComponentName()
