@@ -30,7 +30,7 @@ namespace SMFrame.Editor.Extension
 		public static void OptimizingTMP(TextMeshPro tmp)
 		{
 			tmp.raycastTarget = false;
-			tmp.font = AssetDatabase.LoadAssetAtPath<TMP_FontAsset>("Assets/ABRes/Font/simsun SDF.asset");
+			tmp.font = AssetDatabase.LoadAssetAtPath<TMP_FontAsset>("Assets/Resource/ABRes/Font/simsun SDF.asset");
 		}
 		#endregion
 
