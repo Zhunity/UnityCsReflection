@@ -179,7 +179,7 @@ namespace SMFrame.Editor.Refleaction
 			// 兼容Class
 			if (memberInfo == null)
 			{
-				return instance;
+				return Instance;
 			}
 
 			// 兼容Property， Field
