@@ -12,7 +12,7 @@ namespace SMFrame.Editor.Refleaction
         [MenuItem("Tools/fff")]
         static void G()
         {
-            Generate<UnityEngine.UI.Text>();
+            Generate<UnityEngine.UI.Button>();
         }
 
         public static void Generate(Type classType)
@@ -41,19 +41,24 @@ namespace SMFrame.Editor.Refleaction
 
         public static void GenerateInternal(Type classType)
         {
-            var properties = classType.GetProperties();
+            
             var nameSpaceStr = string.Empty;
             var delcareStr = string.Empty;
             var newStr = string.Empty;
             HashSet<string> nameSpaceCache = new HashSet<string>();
+            HashSet<MethodInfo> getSetHash = new HashSet<MethodInfo>();
+
+            var properties = classType.GetProperties(BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance | BindingFlags.Static);
             foreach (var property in properties)
             {
+                getSetHash.Add(property.SetMethod);
+                getSetHash.Add(property.GetMethod);
                 nameSpaceStr += GenerateMemberNameSpace(property.PropertyType, nameSpaceCache);
                 delcareStr += GenerateMemberDeclare(property.PropertyType, property.Name, "Property");
                 newStr += GenerateMemberNew(property.PropertyType, property.Name, "Property");
             }
 
-            var fields = classType.GetFields();
+            var fields = classType.GetFields(BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance | BindingFlags.Static);
             foreach (var field in fields)
             {
                 nameSpaceStr += GenerateMemberNameSpace(field.FieldType, nameSpaceCache);
@@ -61,21 +66,29 @@ namespace SMFrame.Editor.Refleaction
                 newStr += GenerateMemberNew(field.FieldType, field.Name, "Field");
             }
 
-            Debug.Log(nameSpaceStr);
-            Debug.Log(delcareStr);
-            Debug.Log(newStr);
-
-            var events = classType.GetEvents();
+            var events = classType.GetEvents(BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance | BindingFlags.Static);
             foreach (var @event in events)
             {
-                //Debug.Log(@event.Name + "  " + @event.MemberType + "  " + @event.DeclaringType);
+                getSetHash.Add(@event.AddMethod);
+                getSetHash.Add(@event.RemoveMethod);
+                delcareStr += GenerateMemberDeclare(null, @event.Name, "Event");
+                newStr += GenerateMemberNew(null, @event.Name, "Event");
             }
 
             var methods = classType.GetMethods();
             foreach (var method in methods)
             {
-                //Debug.Log(method.Name + "  " + method.MemberType + "  " + method.DeclaringType);
+                if(getSetHash.Contains(method))
+                {
+                    continue;
+                }
+                delcareStr += GenerateMemberDeclare(null, method.Name, "Method");
+                newStr += GenerateMemberNew(null, method.Name, "Method");
             }
+
+            Debug.Log(nameSpaceStr);
+            Debug.Log(delcareStr);
+            Debug.Log(newStr);
         }
 
         private static string GenerateMemberNameSpace(Type type, HashSet<string> nameSpaceCache)
@@ -92,13 +105,12 @@ namespace SMFrame.Editor.Refleaction
         private static string GenerateMemberDeclare(Type type, string name, string memberType)
         {
             string propertyType = IsPrimitive(type) ? memberType : "R" + type.Name;
-            return $"\t\tpublic {propertyType} {name}; //{type.FullName}\n";
+            return $"\t\tpublic {propertyType} {name}; //{type?.FullName}\n";
         }
 
         private static string GenerateMemberNew(Type type, string name, string memberType)
         {
             string propertyType = IsPrimitive(type) ? memberType : "R" + type.Name;
-            //m_PackageItemsLookup = new Field(this, "m_PackageItemsLookup");
             return $"\t\t\t{name} = new {propertyType}(this, \"{name}\");\n";
         }
 
@@ -120,7 +132,8 @@ namespace SMFrame.Editor.Refleaction
 
         private static bool IsPrimitive(Type type)
         {
-            return PrimitiveType.Contains(type) || // 字符串
+            return type == null ||
+                PrimitiveType.Contains(type) || 
                 type.IsEnum || type.IsPrimitive; // int float等值类型
         }
         #endregion
