@@ -86,9 +86,26 @@ namespace SMFrame.Editor.Refleaction
                 newStr += GenerateMemberNew(null, method.Name, "Method");
             }
 
+            var generateStr = $@"{nameSpaceStr}using SMFrame.Editor.Refleaction;
+
+namespace SMFrame.Editor.Refleaction.{classType.Namespace}
+{{
+    public class R{classType.Name} : Member
+    {{
+{delcareStr}
+
+        public R{classType.Name}(Type type) : base(type)
+	    {{
+{newStr}
+	    }}
+    }}
+}}
+";
+
             Debug.Log(nameSpaceStr);
             Debug.Log(delcareStr);
             Debug.Log(newStr);
+            Debug.Log(generateStr);
         }
 
         private static string GenerateMemberNameSpace(Type type, HashSet<string> nameSpaceCache)
