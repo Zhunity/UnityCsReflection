@@ -10,7 +10,7 @@ namespace SMFrame.Editor.Refleaction
 {
     class A
     {
-        public int N<T1,T2>(int a, string b, float c)
+        public int N<T1,T2>(int a, string b, T2 c)
         {
             return 0;
         }

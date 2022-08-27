@@ -113,12 +113,15 @@ namespace SMFrame.Editor.Refleaction
             declareStr += "(";
             for (int i = 0; i < parameters.Length; i++)
             {
-                if (parameters[i].ParameterType.IsNotPublic)
+                var param = parameters[i];
+                var paramType = param.ParameterType;
+                if (paramType.IsNotPublic)
                 {
                     return string.Empty;
                 }
-                declareStr += parameters[i].ParameterType.FullName + " " + parameters[i].Name;
-                paramStr += parameters[i].Name;
+                var paramTypeStr = string.IsNullOrEmpty(paramType.FullName) ? paramType.Name : paramType.FullName;
+                declareStr += paramTypeStr + " " + param.Name;
+                paramStr += param.Name;
                 if (i < parameters.Length - 1)
                 {
                     declareStr += ", ";
