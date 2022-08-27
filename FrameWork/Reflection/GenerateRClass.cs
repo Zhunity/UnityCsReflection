@@ -22,7 +22,7 @@ namespace SMFrame.Editor.Refleaction
 
         public string N()
         {
-            return "";
+            return "12312312";
         }
     }
 
@@ -31,7 +31,17 @@ namespace SMFrame.Editor.Refleaction
         [MenuItem("Tools/fff")]
         static void G()
         {
-            Generate<A>();
+            // Generate<A>();
+
+            A b = new A();
+
+            SMFrame.Editor.Refleaction.RA a = new SMFrame.Editor.Refleaction.RA();
+            a.SetInstance(b);
+
+            Debug.Log(a.N<int, float>(1, " ", 2f));
+            Debug.Log(a.N<float>());
+
+            Debug.Log(a.N());
         }
 
         public static void Generate(Type classType)
@@ -94,6 +104,7 @@ namespace SMFrame.Editor.Refleaction
                 //newStr += GenerateMemberNew(null, @event.Name, "Event");
             }
 
+            string methodInvoke = string.Empty;
             var methods = classType.GetMethods(Class.flags);
             foreach (var method in methods)
             {
@@ -103,6 +114,7 @@ namespace SMFrame.Editor.Refleaction
                 }
                 delcareStr += GenerateMethodDeclare(method);
                 newStr += GenerateMethodNew(method);
+                methodInvoke += GenerateMethodInvoke(method);
             }
 
             var generateStr = $@"{nameSpaceStr}using SMFrame.Editor.Refleaction;
@@ -128,6 +140,7 @@ namespace SMFrame.Editor.Refleaction.{classType.Namespace}
         {{
 {newStr}
         }}
+{methodInvoke}
     }}
 }}
 ";
@@ -136,18 +149,18 @@ namespace SMFrame.Editor.Refleaction.{classType.Namespace}
             Debug.Log(delcareStr);
             Debug.Log(newStr);
             Debug.Log(generateStr);
-            var path = $"{Application.dataPath}/UnityCsReflection/Generate/{classType.FullName.Replace(".", "/")}.cs";
+            var path = $"{Application.dataPath}/UnityCsReflection/Generate/{classType.Namespace.Replace(".", "/")}/R{classType.Name}.cs";
             var folder = Path.GetDirectoryName(path);
-            if(!Directory.Exists(folder))
+            if (!Directory.Exists(folder))
             {
                 Directory.CreateDirectory(folder);
             }
-            if(File.Exists(path))
+            if (File.Exists(path))
             {
                 File.Delete(path);
             }
             File.WriteAllText(path, generateStr);
-            AssetDatabase.Refresh();            
+            AssetDatabase.Refresh();
         }
 
         private static string GenerateMemberNameSpace(Type type, HashSet<string> nameSpaceCache)
@@ -228,10 +241,69 @@ namespace SMFrame.Editor.Refleaction.{classType.Namespace}
             return $"\t\t\t{name} = new Method(this, \"{method.Name}\", {generics.Length}{paramStr});\n";
         }
 
+        private static string GenerateMethodInvoke(MethodInfo method)
+        {
+            string name = GetMethodName(method);
+
+            string declareStr = $"public object {method.Name}";
+            var parameters = method.GetParameters();
+
+            var paramStr = string.Empty;
+            var generics = method.GetGenericArguments();
+            if (generics.Length > 0)
+            {
+                declareStr += "<";
+                paramStr = "new Type[] { ";
+                for (int i = 0; i < generics.Length; i++)
+                {
+                    declareStr += generics[i].Name;
+                    paramStr += $"typeof({generics[i].Name})";
+                    if (i < generics.Length - 1)
+                    {
+                        declareStr += ", ";
+                        paramStr += ", ";
+                    }
+                }
+                declareStr += ">";
+                paramStr += " }";
+
+                if(parameters.Length > 0)
+                {
+                    paramStr += ", ";
+                }
+            }
+
+            
+            declareStr += "(";
+            for (int i = 0; i < parameters.Length; i++)
+            {
+                if(parameters[i].ParameterType.IsNotPublic)
+                {
+                    return string.Empty;
+                }
+                declareStr += parameters[i].ParameterType.FullName + " " + parameters[i].Name;
+                paramStr += parameters[i].Name;
+                if (i < parameters.Length - 1)
+                {
+                    declareStr += ", ";
+                    paramStr += ", ";
+                }
+            }
+            declareStr += ")";
+
+            var result = $@"
+        {declareStr}
+        {{
+            return {name}.Invoke({paramStr});
+        }}
+";
+            return result;
+        }
+
         static private string GetMethodName(MethodInfo method)
         {
             var generics = method.GetGenericArguments();
-            string paramStr = method.Name;
+            string paramStr = "R" + method.Name;
             foreach (var generic in generics)
             {
                 paramStr += "_G" + generic.Name;
