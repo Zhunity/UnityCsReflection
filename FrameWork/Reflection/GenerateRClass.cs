@@ -4,15 +4,34 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEditor;
 using System.Reflection;
+using static Codice.Client.Common.WebApi.WebApiEndpoints;
 
 namespace SMFrame.Editor.Refleaction
 {
+    class A
+    {
+        public int N<T1,T2>(int a, string b, float c)
+        {
+            return 0;
+        }
+
+        public  float N<T>()
+        {
+            return 1;
+        }
+
+        public string N()
+        {
+            return "";
+        }
+    }
+
     public class GenerateRClass
     {
         [MenuItem("Tools/fff")]
         static void G()
         {
-            Generate<UnityEngine.UI.Button>();
+            Generate<A>();
         }
 
         public static void Generate(Type classType)
@@ -53,17 +72,17 @@ namespace SMFrame.Editor.Refleaction
             {
                 getSetHash.Add(property.SetMethod);
                 getSetHash.Add(property.GetMethod);
-                nameSpaceStr += GenerateMemberNameSpace(property.PropertyType, nameSpaceCache);
-                delcareStr += GenerateMemberDeclare(property.PropertyType, property.Name, "Property");
-                newStr += GenerateMemberNew(property.PropertyType, property.Name, "Property");
+                //nameSpaceStr += GenerateMemberNameSpace(property.PropertyType, nameSpaceCache);
+                //delcareStr += GenerateMemberDeclare(property.PropertyType, property.Name, "Property");
+                //newStr += GenerateMemberNew(property.PropertyType, property.Name, "Property");
             }
 
             var fields = classType.GetFields(BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance | BindingFlags.Static);
             foreach (var field in fields)
             {
-                nameSpaceStr += GenerateMemberNameSpace(field.FieldType, nameSpaceCache);
-                delcareStr += GenerateMemberDeclare(field.FieldType, field.Name, "Field");
-                newStr += GenerateMemberNew(field.FieldType, field.Name, "Field");
+                //nameSpaceStr += GenerateMemberNameSpace(field.FieldType, nameSpaceCache);
+                //delcareStr += GenerateMemberDeclare(field.FieldType, field.Name, "Field");
+                //newStr += GenerateMemberNew(field.FieldType, field.Name, "Field");
             }
 
             var events = classType.GetEvents(BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance | BindingFlags.Static);
@@ -71,8 +90,8 @@ namespace SMFrame.Editor.Refleaction
             {
                 getSetHash.Add(@event.AddMethod);
                 getSetHash.Add(@event.RemoveMethod);
-                delcareStr += GenerateMemberDeclare(null, @event.Name, "Event");
-                newStr += GenerateMemberNew(null, @event.Name, "Event");
+                //delcareStr += GenerateMemberDeclare(null, @event.Name, "Event");
+                //newStr += GenerateMemberNew(null, @event.Name, "Event");
             }
 
             var methods = classType.GetMethods();
@@ -82,8 +101,8 @@ namespace SMFrame.Editor.Refleaction
                 {
                     continue;
                 }
-                delcareStr += GenerateMemberDeclare(null, method.Name, "Method");
-                newStr += GenerateMemberNew(null, method.Name, "Method");
+                delcareStr += GenerateMethodDeclare(method);
+                newStr += GenerateMethodNew(method);
             }
 
             var generateStr = $@"{nameSpaceStr}using SMFrame.Editor.Refleaction;
@@ -119,16 +138,92 @@ namespace SMFrame.Editor.Refleaction.{classType.Namespace}
             return $"using SMFrame.Editor.Refleaction.{nameSpace};\n";
         }
 
+        private static string GenerateDeclare(string typeName, string name, string note)
+        {
+            return $"\t\tpublic {typeName} {name}; //{note}\n";
+        }
+
         private static string GenerateMemberDeclare(Type type, string name, string memberType)
         {
             string propertyType = IsPrimitive(type) ? memberType : "R" + type.Name;
-            return $"\t\tpublic {propertyType} {name}; //{type?.FullName}\n";
+            return GenerateDeclare(propertyType, name, type?.FullName);
         }
 
         private static string GenerateMemberNew(Type type, string name, string memberType)
         {
             string propertyType = IsPrimitive(type) ? memberType : "R" + type.Name;
             return $"\t\t\t{name} = new {propertyType}(this, \"{name}\");\n";
+        }
+
+        private static string GenerateMethodDeclare(MethodInfo method)
+        {
+            string name = GetMethodName(method);
+
+            var generics = method.GetGenericArguments();
+            var parameters = method.GetParameters();
+
+            var noteStr = method.ReturnType.Name + " " + method.Name;
+            if(generics.Length > 0)
+            {
+                noteStr += "<";
+                for(int i = 0; i < generics.Length; i++)
+                {
+                    noteStr += generics[i].Name;
+                    if(i < generics.Length - 1)
+                    {
+                        noteStr += ", ";
+                    }
+                }
+                noteStr += ">";
+            }
+
+            noteStr += "(";
+            for (int i = 0; i < parameters.Length; i++)
+            {
+                noteStr += parameters[i].ParameterType.Name + " " + parameters[i].Name;
+                if (i < parameters.Length - 1)
+                {
+                    noteStr += ", ";
+                }
+            }
+            noteStr += ")";
+            return GenerateDeclare("Method", name, noteStr);
+        }
+
+        private static string GenerateMethodNew(MethodInfo method)
+        {
+            string name = GetMethodName(method);
+
+            var generics = method.GetGenericArguments();
+            var parameters = method.GetParameters();
+            var paramStr = string.Empty;
+            for (int i = 0; i < parameters.Length; i++)
+            {
+                paramStr += $"ReleactionUtils.GetType({parameters[i].ParameterType.FullName})";
+                if (i < parameters.Length - 1)
+                {
+                    paramStr += ", ";
+                }
+            }
+
+            return $"\t\t\t{name} = new Method(this, \"{name}\", {generics.Length}, {paramStr});\n";
+        }
+
+        static private string GetMethodName(MethodInfo method)
+        {
+            var generics = method.GetGenericArguments();
+            string paramStr = method.Name;
+            foreach (var generic in generics)
+            {
+                paramStr += "_G" + generic.Name;
+            }
+
+            var parameters = method.GetParameters();
+            foreach (var parameter in parameters)
+            {
+                paramStr += "_" + parameter.ParameterType.Name;
+            }
+            return paramStr;
         }
 
 

@@ -10,19 +10,26 @@ namespace SMFrame.Editor.Refleaction
 	public sealed class Method : Member
 	{
 		MethodInfo methodInfo;
+		int genericCount = -1;
+		Type[] types;
 
-		public Method(Class belongMember, string name) : base(belongMember, name)
+		public Method(Class belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name)
 		{
-		}
+			this.genericCount = genericCount; 
+            this.types = types;
+        }
 
-		public Method(Type belongType, string name) : base(belongType, name)
+		public Method(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name)
 		{
-		}
+            this.genericCount = genericCount;
+            this.types = types;
+        }
 
 		protected override void SetInfo(Type belongType, string name)
 		{
-			methodInfo = belongType.GetMethod(name, BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance | BindingFlags.Static);
-		}
+			methodInfo = belongType.GetMethod(name, BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance | BindingFlags.Static, null, types, null);
+
+        }
 
 		/// <summary>
 		/// 这个好像也没其他类型可以用了
