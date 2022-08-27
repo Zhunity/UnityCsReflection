@@ -39,7 +39,7 @@ namespace SMFrame.Editor.Refleaction
 
 		protected override void SetInfo(Type belongType, string name)
 		{
-			eventInfo = belongType.GetEvent(name, BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance | BindingFlags.Static);
+			eventInfo = belongType.GetEvent(name, flags);
 		}
 
 		protected override void SetType()

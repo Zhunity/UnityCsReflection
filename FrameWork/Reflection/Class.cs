@@ -9,7 +9,10 @@ namespace SMFrame.Editor.Refleaction
 {
 	public class Class
 	{
-		public string name;         // 名字（在member中相当于变量名）
+		public const BindingFlags flags = BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance | BindingFlags.Static;
+
+
+        public string name;         // 名字（在member中相当于变量名）
 		public Type type;           // 对象的实际类型
 
 
@@ -189,7 +192,7 @@ namespace SMFrame.Editor.Refleaction
 		/// </summary>
 		public void ShowMembers()
 		{
-			var list = type.GetMembers(BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance | BindingFlags.Static);
+			var list = type.GetMembers(flags);
 			foreach (var item in list)
 			{
 				Debug.Log("Name:\t\t" + item.Name + "\nReflectedType:\t" + item.ReflectedType + "\nMemberType:\t" + item.MemberType + "\nDeclaringType:\t" + item.DeclaringType);
@@ -209,7 +212,7 @@ namespace SMFrame.Editor.Refleaction
 
 			Debug.Log("");
 			Debug.Log("----------------------------" + name + "  " + desc + " begin--------------------------------");
-			var list = type.GetMembers(BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance | BindingFlags.Static);
+			var list = type.GetMembers(flags);
 			foreach (var item in list)
 			{
 				if (item.MemberType == MemberTypes.Property)

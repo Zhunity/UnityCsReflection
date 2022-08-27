@@ -70,7 +70,7 @@ namespace SMFrame.Editor.Refleaction
 		/// <returns></returns>
 		protected virtual void SetInfo(Type belongType, string name)
 		{
-			memberInfo = belongType.GetMember(name, BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance | BindingFlags.Static).First();
+			memberInfo = belongType.GetMember(name, flags).First();
 		}
 
 		/// <summary>

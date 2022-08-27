@@ -67,7 +67,7 @@ namespace SMFrame.Editor.Refleaction
             HashSet<string> nameSpaceCache = new HashSet<string>();
             HashSet<MethodInfo> getSetHash = new HashSet<MethodInfo>();
 
-            var properties = classType.GetProperties(BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance | BindingFlags.Static);
+            var properties = classType.GetProperties(Class.flags);
             foreach (var property in properties)
             {
                 getSetHash.Add(property.SetMethod);
@@ -77,7 +77,7 @@ namespace SMFrame.Editor.Refleaction
                 //newStr += GenerateMemberNew(property.PropertyType, property.Name, "Property");
             }
 
-            var fields = classType.GetFields(BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance | BindingFlags.Static);
+            var fields = classType.GetFields(Class.flags);
             foreach (var field in fields)
             {
                 //nameSpaceStr += GenerateMemberNameSpace(field.FieldType, nameSpaceCache);
@@ -85,7 +85,7 @@ namespace SMFrame.Editor.Refleaction
                 //newStr += GenerateMemberNew(field.FieldType, field.Name, "Field");
             }
 
-            var events = classType.GetEvents(BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance | BindingFlags.Static);
+            var events = classType.GetEvents(Class.flags);
             foreach (var @event in events)
             {
                 getSetHash.Add(@event.AddMethod);
@@ -94,7 +94,7 @@ namespace SMFrame.Editor.Refleaction
                 //newStr += GenerateMemberNew(null, @event.Name, "Event");
             }
 
-            var methods = classType.GetMethods();
+            var methods = classType.GetMethods(Class.flags);
             foreach (var method in methods)
             {
                 if(getSetHash.Contains(method))
@@ -199,14 +199,10 @@ namespace SMFrame.Editor.Refleaction.{classType.Namespace}
             var paramStr = string.Empty;
             for (int i = 0; i < parameters.Length; i++)
             {
-                paramStr += $"ReleactionUtils.GetType({parameters[i].ParameterType.FullName})";
-                if (i < parameters.Length - 1)
-                {
-                    paramStr += ", ";
-                }
+                paramStr += $", ReleactionUtils.GetType({parameters[i].ParameterType.FullName})";
             }
 
-            return $"\t\t\t{name} = new Method(this, \"{name}\", {generics.Length}, {paramStr});\n";
+            return $"\t\t\t{name} = new Method(this, \"{method.Name}\", {generics.Length}{paramStr});\n";
         }
 
         static private string GetMethodName(MethodInfo method)

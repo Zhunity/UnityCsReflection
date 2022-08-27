@@ -83,7 +83,7 @@ namespace SMFrame.Editor.Refleaction
 
 		protected override void SetInfo(Type belongType, string name)
 		{
-			propertyInfo = belongType.GetProperty(name, BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance | BindingFlags.Static);
+			propertyInfo = belongType.GetProperty(name, flags);
 		}
 
 		protected override void SetType()

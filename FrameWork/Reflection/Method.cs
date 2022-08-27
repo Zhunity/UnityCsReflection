@@ -27,8 +27,21 @@ namespace SMFrame.Editor.Refleaction
 
 		protected override void SetInfo(Type belongType, string name)
 		{
-			methodInfo = belongType.GetMethod(name, BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance | BindingFlags.Static, null, types, null);
-
+			if(genericCount < 0)
+			{
+				if(types == null)
+				{
+                    methodInfo = belongType.GetMethod(name, flags);
+                }
+				else
+				{
+                    methodInfo = belongType.GetMethod(name, flags, null, types, null);
+                }
+			}
+			else
+			{
+                methodInfo = belongType.GetMethod(name, 0, flags, null, types, null);
+            }          
         }
 
 		/// <summary>
