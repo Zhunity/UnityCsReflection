@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEditor;
 using System.Reflection;
-using static Codice.Client.Common.WebApi.WebApiEndpoints;
+using System.IO;
 
 namespace SMFrame.Editor.Refleaction
 {
@@ -106,6 +106,7 @@ namespace SMFrame.Editor.Refleaction
             }
 
             var generateStr = $@"{nameSpaceStr}using SMFrame.Editor.Refleaction;
+using System;
 
 namespace SMFrame.Editor.Refleaction.{classType.Namespace}
 {{
@@ -113,7 +114,7 @@ namespace SMFrame.Editor.Refleaction.{classType.Namespace}
     {{
 {delcareStr}
 
-        public R{classType.Name}(Type type) : base(type)
+        public R{classType.Name}(Member belongMember, string name) : base(belongMember, name)
 	    {{
 {newStr}
 	    }}
@@ -125,6 +126,18 @@ namespace SMFrame.Editor.Refleaction.{classType.Namespace}
             Debug.Log(delcareStr);
             Debug.Log(newStr);
             Debug.Log(generateStr);
+            var path = $"{Application.dataPath}/UnityCsReflection/Generate/{classType.FullName.Replace(".", "/")}.cs";
+            var folder = Path.GetDirectoryName(path);
+            if(!Directory.Exists(folder))
+            {
+                Directory.CreateDirectory(folder);
+            }
+            if(File.Exists(path))
+            {
+                File.Delete(path);
+            }
+            File.WriteAllText(path, generateStr);
+            AssetDatabase.Refresh();            
         }
 
         private static string GenerateMemberNameSpace(Type type, HashSet<string> nameSpaceCache)
@@ -199,7 +212,7 @@ namespace SMFrame.Editor.Refleaction.{classType.Namespace}
             var paramStr = string.Empty;
             for (int i = 0; i < parameters.Length; i++)
             {
-                paramStr += $", ReleactionUtils.GetType({parameters[i].ParameterType.FullName})";
+                paramStr += $", ReleactionUtils.GetType(\"{parameters[i].ParameterType.FullName}\")";
             }
 
             return $"\t\t\t{name} = new Method(this, \"{method.Name}\", {generics.Length}{paramStr});\n";
