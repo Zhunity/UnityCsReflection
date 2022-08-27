@@ -8,22 +8,41 @@ using System.IO;
 
 namespace SMFrame.Editor.Refleaction
 {
+
     class A
     {
-        public int N<T1,T2>(int a, string b, T2 c)
-        {
-            return 0;
-        }
 
-        public  float N<T>()
-        {
-            return 1;
-        }
+        //public static float N<T>(int e, out T a, ref float b, in long c, params bool[][][] d)
+        //{
+        //    a = default;
+        //    return 1;
+        //}
 
-        public string N()
+        //public string N(float a = 0)
+        //{
+        //    return "12312312";
+        //}
+
+        //public string N(out bool a )
+        //{
+        //    a = true;
+        //    return "12312312";
+        //}
+
+        public string N(bool[][][][] a)
         {
             return "12312312";
         }
+
+        public string N(in Dictionary<int[], List<string[][]>>[][] a)
+        {
+            return "12312312";
+        }
+
+        //public string N(ref List<int> a)
+        //{
+        //    return "12312312";
+        //}
     }
 
     public partial class GenerateRClass
@@ -31,7 +50,9 @@ namespace SMFrame.Editor.Refleaction
         [MenuItem("Tools/fff")]
         static void G()
         {
-            Generate<A>();
+            var a = GenerateParameterType(typeof(Dictionary<int[], List<string[][]>>[][]));
+            Debug.Log(a);
+            //Generate<A>();
 
             A b = new A();
 
@@ -138,18 +159,18 @@ namespace SMFrame.Editor.Refleaction.{classType.Namespace}
             Debug.Log(delcareStr);
             Debug.Log(newStr);
             Debug.Log(generateStr);
-            var path = $"{Application.dataPath}/UnityCsReflection/Generate/{classType.Namespace.Replace(".", "/")}/R{classType.Name}.cs";
-            var folder = Path.GetDirectoryName(path);
-            if (!Directory.Exists(folder))
-            {
-                Directory.CreateDirectory(folder);
-            }
-            if (File.Exists(path))
-            {
-                File.Delete(path);
-            }
-            File.WriteAllText(path, generateStr);
-            AssetDatabase.Refresh();
+            //var path = $"{Application.dataPath}/UnityCsReflection/Generate/{classType.Namespace.Replace(".", "/")}/R{classType.Name}.cs";
+            //var folder = Path.GetDirectoryName(path);
+            //if (!Directory.Exists(folder))
+            //{
+            //    Directory.CreateDirectory(folder);
+            //}
+            //if (File.Exists(path))
+            //{
+            //    File.Delete(path);
+            //}
+            //File.WriteAllText(path, generateStr);
+            //AssetDatabase.Refresh();
         }
 
         private static string GenerateMemberNameSpace(Type type, HashSet<string> nameSpaceCache)

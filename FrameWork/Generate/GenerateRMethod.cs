@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Data.Common;
 using System.Reflection;
 using UnityEngine;
 using UnityEngine.Rendering;
@@ -151,9 +152,74 @@ namespace SMFrame.Editor.Refleaction
             var parameters = method.GetParameters();
             foreach (var parameter in parameters)
             {
-                paramStr += "_" + parameter.ParameterType.Name;
+                Type parameterType = parameter.ParameterType;
+
+                var name = GenerateParameterType(parameter.ParameterType);
+
+                bool isRef = name.IndexOf('&') > 0;
+                if (!isRef)
+                {
+                    paramStr += "_" + name;
+                    continue;
+                }
+
+                name = name.Replace("&", "");
+                if (parameter.IsOut)
+                {
+                    paramStr += "_Out_" + name;
+                }
+                else if(parameter.IsIn)
+                {
+                    paramStr += "_In_" + name;
+                }
+                else
+                {
+                    paramStr += "_Ref_" + name;
+                }    
+                
             }
             return paramStr;
+        }
+
+        static private string GenerateParameterType(Type parameterType)
+        {
+            string name = String.Empty;
+            if(parameterType.IsArray)
+            {
+                var curElementType = parameterType;
+                var elementType = parameterType.GetElementType();
+                int rank = 0;
+                while (elementType != null)
+                {
+                    curElementType = elementType;
+                    elementType = elementType.GetElementType();
+                    rank++;
+                }
+
+                name = GenerateParameterType(curElementType);
+                for(int i = 0; i <= rank; i ++)
+                {
+                    name += "Array";
+                }
+            }
+
+
+
+            var genericTypes = parameterType.GetGenericArguments();
+
+          
+
+
+            bool isGeneric = genericTypes.Length > 0;
+            if (isGeneric)
+            {
+                foreach (var genericType in genericTypes)
+                {
+                    name += GenerateParameterType(genericType);
+                }
+            }
+
+            return name;
         }
     }
 }
