@@ -14,50 +14,20 @@ namespace SMFrame.Editor.Refleaction
 
         public string name;         // 名字（在member中相当于变量名）
 		public Type type;           // 对象的实际类型
+		public Object instance;     // 这个对象的实例
+		protected List<Member> memberList = new List<Member>();
 
-
-		protected Object instance;     // 这个对象的实例
-		public Object Instance
+		public Object Value
 		{
-			get => instance;
 			set
 			{
-                // 如果是同一个，无需继续操作
-                if (instance == value)
-                {
-                    return;
-                }
-
-                instance = value;
-
-                // 给反射成员设置所属对象
-                if (memberList != null && memberList.Count > 0)
-                {
-                    foreach (var member in memberList)
-                    {
-                        member.SetBelong(instance);
-                    }
-                }
-
-                OnSetInstance();
-            }
+				SetValue(value);
+			}
+			get
+			{
+				return GetValue();
+			}
 		}
-
-        public virtual Object Value
-        {
-            set
-            {
-                Instance = value;
-            }
-            get
-            {
-                return Instance;
-            }
-        }
-
-        protected List<Member> memberList = new List<Member>();
-
-		
 
 		protected Class()
 		{
@@ -94,7 +64,7 @@ namespace SMFrame.Editor.Refleaction
 
 		public virtual Object GetValue()
 		{
-			return Instance;
+			return instance;
 		}
 
 		/// <summary>
@@ -104,12 +74,12 @@ namespace SMFrame.Editor.Refleaction
 		public void SetInstance(Object instance)
 		{
 			// 如果是同一个，无需继续操作
-			if (this.Instance == instance)
+			if (this.instance == instance)
 			{
 				return;
 			}
 
-			this.Instance = instance;
+			this.instance = instance;
 
 			// 给反射成员设置所属对象
 			if (memberList != null && memberList.Count > 0)
