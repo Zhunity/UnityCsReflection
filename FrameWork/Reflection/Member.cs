@@ -97,6 +97,10 @@ namespace SMFrame.Editor.Refleaction
 		/// </summary>
 		protected virtual void SetType()
 		{
+			if(memberInfo == null)
+			{
+				return;
+			}
 			if (memberInfo.MemberType == MemberTypes.Property)
 			{
 				PropertyInfo info = memberInfo as PropertyInfo;

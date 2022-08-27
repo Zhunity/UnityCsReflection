@@ -114,10 +114,20 @@ namespace SMFrame.Editor.Refleaction.{classType.Namespace}
     {{
 {delcareStr}
 
+        public R{classType.Name}() : base(""{classType.FullName}"")
+        {{
+            NewMembers();
+        }}
+
         public R{classType.Name}(Member belongMember, string name) : base(belongMember, name)
 	    {{
-{newStr}
+            NewMembers();
 	    }}
+
+        private void NewMembers()
+        {{
+{newStr}
+        }}
     }}
 }}
 ";

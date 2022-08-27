@@ -9,24 +9,37 @@ namespace SMFrame.Editor.Refleaction
 {
 	public sealed class Method : Member
 	{
+		static Type[] Empty = new Type[] { };
+
 		MethodInfo methodInfo;
 		int genericCount = -1;
 		Type[] types;
+
+		bool hasInit = false;
+
 
 		public Method(Class belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name)
 		{
 			this.genericCount = genericCount; 
             this.types = types;
+			hasInit = true;
+            SetInfo(belongMember.type, name);
         }
 
 		public Method(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name)
 		{
             this.genericCount = genericCount;
             this.types = types;
+            hasInit = true;
+			SetInfo(belongType, name);
         }
 
 		protected override void SetInfo(Type belongType, string name)
 		{
+			if(!hasInit)
+			{
+				return;
+			}
 			if(genericCount < 0)
 			{
 				if(types == null)
@@ -40,18 +53,9 @@ namespace SMFrame.Editor.Refleaction
 			}
 			else
 			{
-                methodInfo = belongType.GetMethod(name, 0, flags, null, types, null);
+                methodInfo = belongType.GetMethod(name, genericCount, flags, null, types ?? Empty, null);
             }          
         }
-
-		/// <summary>
-		/// 这个好像也没其他类型可以用了
-		/// 反正也不需要继承，不管了，也用不上
-		/// </summary>
-		protected override void SetType()
-		{
-			type = methodInfo.ReturnType;
-		}
 
 		/// <summary>
 		/// 创建回调
@@ -60,8 +64,8 @@ namespace SMFrame.Editor.Refleaction
 		/// <returns></returns>
 		public Delegate CreateDelegate(Type delegateType)
 		{
-			if (belong == null && !methodInfo.IsStatic)
-			{
+            if (methodInfo == null || (belong == null && !methodInfo.IsStatic))
+            {
 				return null;
 			}
 			return methodInfo.CreateDelegate(delegateType, belong);
@@ -74,11 +78,20 @@ namespace SMFrame.Editor.Refleaction
 		/// <returns></returns>
 		public object Invoke(params object[] parameters)
 		{
-			if(belong == null && !methodInfo.IsStatic)
+			if(methodInfo == null || (belong == null && !methodInfo.IsStatic))
 			{
 				return null;
 			}
 			return methodInfo.Invoke(belong, parameters);
 		}
+
+		public object Invoke(Type[] types, params object[] parameters)
+		{
+            if (methodInfo == null || (belong == null && !methodInfo.IsStatic))
+            {
+                return null;
+            }
+            return methodInfo.MakeGenericMethod(types).Invoke(belong, parameters);
+        }
 	}
 }
