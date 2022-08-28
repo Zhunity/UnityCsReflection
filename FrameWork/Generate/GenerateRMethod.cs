@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Data.Common;
 using System.Reflection;
+using System.Text.RegularExpressions;
 using UnityEngine;
 using UnityEngine.Rendering;
 
@@ -197,19 +198,15 @@ namespace SMFrame.Editor.Refleaction
                 }
 
                 name = GenerateParameterType(curElementType);
-                for(int i = 0; i <= rank; i ++)
+                for(int i = 0; i < rank; i ++)
                 {
                     name += "Array";
                 }
             }
-
-
-            // https://docs.microsoft.com/zh-cn/dotnet/framework/reflection-and-codedom/how-to-examine-and-instantiate-generic-types-with-reflection
-            var genericTypes = parameterType.GetGenericArguments();
-
-            bool isGeneric = genericTypes.Length > 0;
-            if (isGeneric)
+            else if(parameterType.IsGenericType)
             {
+                // https://docs.microsoft.com/zh-cn/dotnet/framework/reflection-and-codedom/how-to-examine-and-instantiate-generic-types-with-reflection
+                var genericTypes = parameterType.GetGenericArguments();
                 var genericDefine = parameterType.GetGenericTypeDefinition();
                 string genericParamStr = string.Empty;
                 foreach (var genericType in genericTypes)
@@ -217,8 +214,15 @@ namespace SMFrame.Editor.Refleaction
                     var paramName = GenerateParameterType(genericType);
                     genericParamStr += paramName;
                 }
-                name += genericDefine.Name.Replace(@"`\d+\[([A-Za-z_]([\w\.])+)+\]$", genericParamStr);
+                Regex regex = new Regex(@"`\d+");
+                var a = Regex.Replace(genericDefine.Name, @"`\d+", $"_d_{genericParamStr}_p_");
+                name += a;
             }
+            else
+            {
+                name = parameterType.Name;
+            }
+            
 
             return name;
         }
