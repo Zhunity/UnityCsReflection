@@ -204,19 +204,20 @@ namespace SMFrame.Editor.Refleaction
             }
 
 
-
+            // https://docs.microsoft.com/zh-cn/dotnet/framework/reflection-and-codedom/how-to-examine-and-instantiate-generic-types-with-reflection
             var genericTypes = parameterType.GetGenericArguments();
-
-          
-
 
             bool isGeneric = genericTypes.Length > 0;
             if (isGeneric)
             {
+                var genericDefine = parameterType.GetGenericTypeDefinition();
+                string genericParamStr = string.Empty;
                 foreach (var genericType in genericTypes)
                 {
-                    name += GenerateParameterType(genericType);
+                    var paramName = GenerateParameterType(genericType);
+                    genericParamStr += paramName;
                 }
+                name += genericDefine.Name.Replace(@"`\d+\[([A-Za-z_]([\w\.])+)+\]$", genericParamStr);
             }
 
             return name;
