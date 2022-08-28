@@ -157,14 +157,12 @@ namespace SMFrame.Editor.Refleaction
 
                 var name = GenerateParameterType(parameter.ParameterType);
 
-                bool isRef = name.IndexOf('&') > 0;
+                bool isRef = parameterType.IsByRef;
                 if (!isRef)
                 {
                     paramStr += "_" + name;
                     continue;
                 }
-
-                name = name.Replace("&", "");
                 if (parameter.IsOut)
                 {
                     paramStr += "_Out_" + name;
@@ -185,7 +183,8 @@ namespace SMFrame.Editor.Refleaction
         static private string GenerateParameterType(Type parameterType)
         {
             string name = String.Empty;
-            if(parameterType.IsArray)
+            var d = parameterType.MemberType;
+            if (parameterType.IsArray)
             {
                 var curElementType = parameterType;
                 var elementType = parameterType.GetElementType();
@@ -217,6 +216,11 @@ namespace SMFrame.Editor.Refleaction
                 Regex regex = new Regex(@"`\d+");
                 var a = Regex.Replace(genericDefine.Name, @"`\d+", $"_d_{genericParamStr}_p_");
                 name += a;
+            }
+            else if(parameterType.IsByRef)
+            {
+                var t = parameterType.GetElementType();
+                name = GenerateParameterType(t);
             }
             else
             {
