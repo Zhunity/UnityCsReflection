@@ -182,53 +182,10 @@ namespace SMFrame.Editor.Refleaction
 
         static private string GenerateParameterType(Type parameterType)
         {
-            string name = String.Empty;
-            var d = parameterType.MemberType;
-            if (parameterType.IsArray)
-            {
-                var curElementType = parameterType;
-                var elementType = parameterType.GetElementType();
-                int rank = 0;
-                while (elementType != null)
-                {
-                    curElementType = elementType;
-                    elementType = elementType.GetElementType();
-                    rank++;
-                }
-
-                name = GenerateParameterType(curElementType);
-                for(int i = 0; i < rank; i ++)
-                {
-                    name += "Array";
-                }
-            }
-            else if(parameterType.IsGenericType)
-            {
-                // https://docs.microsoft.com/zh-cn/dotnet/framework/reflection-and-codedom/how-to-examine-and-instantiate-generic-types-with-reflection
-                var genericTypes = parameterType.GetGenericArguments();
-                var genericDefine = parameterType.GetGenericTypeDefinition();
-                string genericParamStr = string.Empty;
-                foreach (var genericType in genericTypes)
-                {
-                    var paramName = GenerateParameterType(genericType);
-                    genericParamStr += paramName;
-                }
-                Regex regex = new Regex(@"`\d+");
-                var a = Regex.Replace(genericDefine.Name, @"`\d+", $"_d_{genericParamStr}_p_");
-                name += a;
-            }
-            else if(parameterType.IsByRef)
-            {
-                var t = parameterType.GetElementType();
-                name = GenerateParameterType(t);
-            }
-            else
-            {
-                name = parameterType.Name;
-            }
+           
             
 
-            return name;
+            return parameterType.ToFieldName();
         }
     }
 }

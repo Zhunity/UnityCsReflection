@@ -52,7 +52,7 @@ namespace SMFrame.Editor.Refleaction
         {
             var a = GenerateParameterType(typeof(Dictionary<int[], List<string[][]>>[][]));
             Debug.Log(a);
-            //Generate<A>();
+            //Generate<Dictionary<int[], List<string[][]>>[][]>();
 
             A b = new A();
 
