@@ -18,10 +18,10 @@ namespace SMFrame.Editor.Refleaction
         //    return 1;
         //}
 
-        //public string N(float a = 0)
-        //{
-        //    return "12312312";
-        //}
+        public string N(float a = 0)
+        {
+            return "12312312";
+        }
 
         //public string N(out bool a )
         //{
@@ -52,14 +52,14 @@ namespace SMFrame.Editor.Refleaction
         {
             //var a = GenerateParameterType(typeof(Dictionary<int[], List<string[][]>>[][]));
             //Debug.Log(a);
-            Generate<Dictionary<int[], List<string[][]>>[][]>();
+            //Generate<Dictionary<int[], List<string[][]>>[][]>();
 
             A b = new A();
-
-            //SMFrame.Editor.Refleaction.RA a = new SMFrame.Editor.Refleaction.RA();
-            //a.SetInstance(b);
-
-            //Debug.Log(a.N<int, float>(1, " ", 2f));
+            //Generate(b);
+            SMFrame.Editor.Refleaction.RA a = new();
+            a.SetInstance(b);
+            Debug.Log( a.N(1));
+            //         Debug.Log(a.N<int, float>(1, " ", 2f));
             //Debug.Log(a.N<float>());
 
             //Debug.Log(a.N());
@@ -103,17 +103,17 @@ namespace SMFrame.Editor.Refleaction
             {
                 getSetHash.Add(property.SetMethod);
                 getSetHash.Add(property.GetMethod);
-                //nameSpaceStr += GenerateMemberNameSpace(property.PropertyType, nameSpaceCache);
-                //delcareStr += GenerateMemberDeclare(property.PropertyType, property.Name, "Property");
-                //newStr += GenerateMemberNew(property.PropertyType, property.Name, "Property");
+                nameSpaceStr += GenerateMemberNameSpace(property.PropertyType, nameSpaceCache);
+                delcareStr += GenerateMemberDeclare(property.PropertyType, property.Name, "Property");
+                newStr += GenerateMemberNew(property.PropertyType, property.Name, "Property");
             }
 
             var fields = classType.GetFields(Class.flags);
             foreach (var field in fields)
             {
-                //nameSpaceStr += GenerateMemberNameSpace(field.FieldType, nameSpaceCache);
-                //delcareStr += GenerateMemberDeclare(field.FieldType, field.Name, "Field");
-                //newStr += GenerateMemberNew(field.FieldType, field.Name, "Field");
+                nameSpaceStr += GenerateMemberNameSpace(field.FieldType, nameSpaceCache);
+                delcareStr += GenerateMemberDeclare(field.FieldType, field.Name, "Field");
+                newStr += GenerateMemberNew(field.FieldType, field.Name, "Field");
             }
 
             var events = classType.GetEvents(Class.flags);
@@ -121,8 +121,8 @@ namespace SMFrame.Editor.Refleaction
             {
                 getSetHash.Add(@event.AddMethod);
                 getSetHash.Add(@event.RemoveMethod);
-                //delcareStr += GenerateMemberDeclare(null, @event.Name, "Event");
-                //newStr += GenerateMemberNew(null, @event.Name, "Event");
+                delcareStr += GenerateMemberDeclare(null, @event.Name, "Event");
+                newStr += GenerateMemberNew(null, @event.Name, "Event");
             }
 
             string methodInvoke = GenerateMethod(classType, getSetHash, ref delcareStr, ref newStr);
@@ -132,11 +132,11 @@ using System;
 
 namespace SMFrame.Editor.Refleaction.{classType.Namespace}
 {{
-    public class R{classType.ToDeclareName()} : Member
+    public class R{classType.ToDeclareName(false)} : Member
     {{
 {delcareStr}
 
-        public R{classType.ToDeclareName()}() : base(""{classType.FullName}"")
+        public R{classType.ToDeclareName(false)}() : base(""{classType.FullName}"")
         {{
             NewMembers();
         }}
@@ -159,18 +159,18 @@ namespace SMFrame.Editor.Refleaction.{classType.Namespace}
             Debug.Log(delcareStr);
             Debug.Log(newStr);
             Debug.Log(generateStr);
-            //var path = $"{Application.dataPath}/UnityCsReflection/Generate/{classType.Namespace.Replace(".", "/")}/R{classType.Name}.cs";
-            //var folder = Path.GetDirectoryName(path);
-            //if (!Directory.Exists(folder))
-            //{
-            //    Directory.CreateDirectory(folder);
-            //}
-            //if (File.Exists(path))
-            //{
-            //    File.Delete(path);
-            //}
-            //File.WriteAllText(path, generateStr);
-            //AssetDatabase.Refresh();
+            var path = $"{Application.dataPath}/Script/UnityCsReflection/Generate/{classType.Namespace.Replace(".", "/")}/R{classType.Name}.cs";
+            var folder = Path.GetDirectoryName(path);
+            if (!Directory.Exists(folder))
+            {
+                Directory.CreateDirectory(folder);
+            }
+            if (File.Exists(path))
+            {
+                File.Delete(path);
+            }
+            File.WriteAllText(path, generateStr);
+            AssetDatabase.Refresh();
         }
 
         private static string GenerateMemberNameSpace(Type type, HashSet<string> nameSpaceCache)

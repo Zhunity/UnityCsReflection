@@ -36,13 +36,13 @@ namespace SMFrame.Editor.Refleaction
             var generics = method.GetGenericArguments();
             var parameters = method.GetParameters();
 
-            var noteStr = method.ReturnType.Name + " " + method.Name;
+            var noteStr = method.ReturnType.ToDeclareName() + " " + method.Name;
             if (generics.Length > 0)
             {
                 noteStr += "<";
                 for (int i = 0; i < generics.Length; i++)
                 {
-                    noteStr += generics[i].Name;
+                    noteStr += generics[i].ToDeclareName();
                     if (i < generics.Length - 1)
                     {
                         noteStr += ", ";
@@ -54,7 +54,7 @@ namespace SMFrame.Editor.Refleaction
             noteStr += "(";
             for (int i = 0; i < parameters.Length; i++)
             {
-                noteStr += parameters[i].ParameterType.Name + " " + parameters[i].Name;
+                noteStr += parameters[i].ParameterType.ToDeclareName() + " " + parameters[i].Name;
                 if (i < parameters.Length - 1)
                 {
                     noteStr += ", ";
@@ -83,7 +83,8 @@ namespace SMFrame.Editor.Refleaction
         {
             string name = GetMethodName(method);
 
-			string declareStr = $"public {method.ReturnType.ToDeclareName()} {method.Name}";
+            bool hasReturn = method.ReturnType != typeof(void);
+			string declareStr = $"public {(hasReturn ?  method.ReturnType.ToDeclareName() : "void")} {method.Name}";
             var parameters = method.GetParameters();
 
             var paramStr = string.Empty;
@@ -121,8 +122,8 @@ namespace SMFrame.Editor.Refleaction
                 {
                     return string.Empty;
                 }
-                var paramTypeStr = string.IsNullOrEmpty(paramType.FullName) ? paramType.Name : paramType.FullName;
-                declareStr += paramTypeStr + " " + param.Name;
+
+                declareStr += paramType.ToDeclareName() + " " + param.Name;
                 paramStr += param.Name;
                 if (i < parameters.Length - 1)
                 {
@@ -135,7 +136,7 @@ namespace SMFrame.Editor.Refleaction
             var result = $@"
         {declareStr}
         {{
-            return {name}.Invoke({paramStr});
+            {(hasReturn ? "return (" + method.ReturnType.ToDeclareName() + ")" : "")}{name}.Invoke({paramStr});
         }}
 ";
             return result;

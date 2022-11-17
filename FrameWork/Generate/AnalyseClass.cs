@@ -60,7 +60,7 @@ namespace SMFrame.Editor.Refleaction
             return name;
         }
 
-        public static string ToDeclareName(this Type type)
+        public static string ToDeclareName(this Type type, bool needNameSpace = true)
         {
 			string name = String.Empty;
 			if (type.IsArray)
@@ -75,7 +75,7 @@ namespace SMFrame.Editor.Refleaction
 					rank++;
 				}
 
-				name = curElementType.ToDeclareName();
+				name = curElementType.ToDeclareName(true);
 				for (int i = 0; i < rank; i++)
 				{
 					name += "[]";
@@ -90,7 +90,7 @@ namespace SMFrame.Editor.Refleaction
                 for(int i = 0; i < genericTypes.Length; i ++)
 				{
                     var genericType = genericTypes[i];
-					var paramName = genericType.ToDeclareName();
+					var paramName = genericType.ToDeclareName(true);
 					genericParamStr += paramName;
                     if(i != genericTypes.Length - 1)
                     {
@@ -98,16 +98,30 @@ namespace SMFrame.Editor.Refleaction
 					}
 				}
 				var a = Regex.Replace(genericDefine.Name, @"`\d+", $"<{genericParamStr}>");
-				name += a;
+                if(needNameSpace)
+                {
+					name += genericDefine.Namespace + "." + a;
+				}
+                else
+                {
+					name += a;
+				}
 			}
 			else if (type.IsByRef)
 			{
 				var t = type.GetElementType();
-				name = t.ToDeclareName();
+				name = t.ToDeclareName(true);
 			}
 			else
 			{
-				name = type.Name;
+                if(needNameSpace)
+                {
+					name = type.Namespace + "." + type.Name;
+				}
+                else
+                {
+					name = type.Name;
+				}
 			}
 
 
