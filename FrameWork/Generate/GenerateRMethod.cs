@@ -83,7 +83,7 @@ namespace SMFrame.Editor.Refleaction
         {
             string name = GetMethodName(method);
 
-            string declareStr = $"public object {method.Name}";
+			string declareStr = $"public {method.ReturnType.ToDeclareName()} {method.Name}";
             var parameters = method.GetParameters();
 
             var paramStr = string.Empty;
@@ -155,7 +155,7 @@ namespace SMFrame.Editor.Refleaction
             {
                 Type parameterType = parameter.ParameterType;
 
-                var name = GenerateParameterType(parameter.ParameterType);
+                var name = parameterType.ToFieldName();
 
                 bool isRef = parameterType.IsByRef;
                 if (!isRef)
@@ -178,14 +178,6 @@ namespace SMFrame.Editor.Refleaction
                 
             }
             return paramStr;
-        }
-
-        static private string GenerateParameterType(Type parameterType)
-        {
-           
-            
-
-            return parameterType.ToFieldName();
         }
     }
 }

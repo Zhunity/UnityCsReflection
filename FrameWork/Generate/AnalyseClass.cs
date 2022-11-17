@@ -60,9 +60,58 @@ namespace SMFrame.Editor.Refleaction
             return name;
         }
 
-        public static string ToDeclare(this Type type)
+        public static string ToDeclareName(this Type type)
         {
+			string name = String.Empty;
+			if (type.IsArray)
+			{
+				var curElementType = type;
+				var elementType = type.GetElementType();
+				int rank = 0;
+				while (elementType != null)
+				{
+					curElementType = elementType;
+					elementType = elementType.GetElementType();
+					rank++;
+				}
 
-        }
+				name = curElementType.ToDeclareName();
+				for (int i = 0; i < rank; i++)
+				{
+					name += "[]";
+				}
+			}
+			else if (type.IsGenericType)
+			{
+				// https://docs.microsoft.com/zh-cn/dotnet/framework/reflection-and-codedom/how-to-examine-and-instantiate-generic-types-with-reflection
+				var genericTypes = type.GetGenericArguments();
+				var genericDefine = type.GetGenericTypeDefinition();
+				string genericParamStr = string.Empty;
+                for(int i = 0; i < genericTypes.Length; i ++)
+				{
+                    var genericType = genericTypes[i];
+					var paramName = genericType.ToDeclareName();
+					genericParamStr += paramName;
+                    if(i != genericTypes.Length - 1)
+                    {
+                        genericParamStr += ", ";
+					}
+				}
+				var a = Regex.Replace(genericDefine.Name, @"`\d+", $"<{genericParamStr}>");
+				name += a;
+			}
+			else if (type.IsByRef)
+			{
+				var t = type.GetElementType();
+				name = t.ToDeclareName();
+			}
+			else
+			{
+				name = type.Name;
+			}
+
+
+			return name;
+		}
     }
 }

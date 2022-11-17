@@ -50,9 +50,9 @@ namespace SMFrame.Editor.Refleaction
         [MenuItem("Tools/fff")]
         static void G()
         {
-            var a = GenerateParameterType(typeof(Dictionary<int[], List<string[][]>>[][]));
-            Debug.Log(a);
-            //Generate<Dictionary<int[], List<string[][]>>[][]>();
+            //var a = GenerateParameterType(typeof(Dictionary<int[], List<string[][]>>[][]));
+            //Debug.Log(a);
+            Generate<Dictionary<int[], List<string[][]>>[][]>();
 
             A b = new A();
 
@@ -132,11 +132,11 @@ using System;
 
 namespace SMFrame.Editor.Refleaction.{classType.Namespace}
 {{
-    public class R{classType.Name} : Member
+    public class R{classType.ToDeclareName()} : Member
     {{
 {delcareStr}
 
-        public R{classType.Name}() : base(""{classType.FullName}"")
+        public R{classType.ToDeclareName()}() : base(""{classType.FullName}"")
         {{
             NewMembers();
         }}
