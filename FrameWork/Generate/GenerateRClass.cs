@@ -23,32 +23,48 @@ namespace SMFrame.Editor.Refleaction
             return "12312312";
         }
 
-        //public string N(out bool a )
-        //{
-        //    a = true;
-        //    return "12312312";
-        //}
+		public string N<T, U>(T a, U b)
+		{
+			return "wwwww";
+		}
 
-        //public string N(bool[][][][] a)
-        //{
-        //    return "12312312";
-        //}
+        /// <summary>
+        /// out找不到
+        /// </summary>
+        /// <param name="a"></param>
+        /// <returns></returns>
+        public string N(out bool a)
+        {
+            a = true;
+            return "12312312";
+        }
 
-        //public string N(in Dictionary<int[], List<string[][]>>[][] a)
-        //{
-        //    return "12312312";
-        //}
+		public string N( bool a)
+		{
+			a = true;
+			return "iiiii";
+		}
 
-        //public string N(ref List<int> a)
-        //{
-        //    return "12312312";
-        //}
-    }
+		//public string N(bool[][][][] a)
+		//{
+		//    return "12312312";
+		//}
+
+		//public string N(in Dictionary<int[], List<string[][]>>[][] a)
+		//{
+		//    return "12312312";
+		//}
+
+		//public string N(ref List<int> a)
+		//{
+		//    return "12312312";
+		//}
+	}
 
     public partial class GenerateRClass
     {
         [MenuItem("Tools/fff")]
-        static void G()
+        static void f()
         {
             //var a = GenerateParameterType(typeof(Dictionary<int[], List<string[][]>>[][]));
             //Debug.Log(a);
@@ -56,16 +72,28 @@ namespace SMFrame.Editor.Refleaction
 
             A b = new A();
             Generate(b);
-            //SMFrame.Editor.Refleaction.RA a = new();
-            //a.SetInstance(b);
-            //Debug.Log( a.N(1));
-            //         Debug.Log(a.N<int, float>(1, " ", 2f));
-            //Debug.Log(a.N<float>());
 
-            //Debug.Log(a.N());
         }
 
-        public static void Generate(Type classType)
+		[MenuItem("Tools/ggg")]
+		static void G()
+		{
+			//var a = GenerateParameterType(typeof(Dictionary<int[], List<string[][]>>[][]));
+			//Debug.Log(a);
+			//Generate<Dictionary<int[], List<string[][]>>[][]>();
+
+			A b = new A();
+			//Generate(b);
+			SMFrame.Editor.Refleaction.RA a = new();
+			a.SetInstance(b);
+			Debug.Log(a.N<int>(1));
+			Debug.Log(a.N<int, float>(1, 2f));
+
+            Debug.Log(a.N(false));
+			//Debug.Log(a.N());
+		}
+
+		public static void Generate(Type classType)
         {
             GenerateInternal(classType);
         }
@@ -141,12 +169,12 @@ namespace SMFrame.Editor.Refleaction.{classType.Namespace}
     {{
 {delcareStr}
 
-        public R{classType.ToDeclareName(false)}() : base(""{classType.FullName}"")
+        public R{classType.ToDeclareName(false)}() : base(""{classType.ToDeclareName()}"")
         {{
             NewMembers();
         }}
 
-        public R{classType.Name}(Member belongMember, string name) : base(belongMember, name)
+        public R{classType.ToDeclareName(false)}(Member belongMember, string name) : base(belongMember, name)
 	    {{
             NewMembers();
 	    }}

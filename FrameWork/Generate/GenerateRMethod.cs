@@ -73,7 +73,7 @@ namespace SMFrame.Editor.Refleaction
             var paramStr = string.Empty;
             for (int i = 0; i < parameters.Length; i++)
             {
-                paramStr += $", ReleactionUtils.GetType(\"{parameters[i].ParameterType.FullName}\")";
+                paramStr += $", {parameters[i].ParameterType.ToGetMethod()})";
             }
 
             return $"\t\t\t{name} = new Method(this, \"{method.Name}\", {generics.Length}{paramStr});\n";
