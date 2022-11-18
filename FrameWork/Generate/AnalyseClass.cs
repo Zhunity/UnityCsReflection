@@ -114,7 +114,7 @@ namespace SMFrame.Editor.Refleaction
 			}
 			else
 			{
-                if(needNameSpace)
+                if(needNameSpace && !type.IsGenericParameter)
                 {
 					name = type.Namespace + "." + type.Name;
 				}

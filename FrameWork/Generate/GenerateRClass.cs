@@ -18,7 +18,7 @@ namespace SMFrame.Editor.Refleaction
         //    return 1;
         //}
 
-        public string N(float a = 0)
+        public string N<T>(T a = default)
         {
             return "12312312";
         }
@@ -29,15 +29,15 @@ namespace SMFrame.Editor.Refleaction
         //    return "12312312";
         //}
 
-        public string N(bool[][][][] a)
-        {
-            return "12312312";
-        }
+        //public string N(bool[][][][] a)
+        //{
+        //    return "12312312";
+        //}
 
-        public string N(in Dictionary<int[], List<string[][]>>[][] a)
-        {
-            return "12312312";
-        }
+        //public string N(in Dictionary<int[], List<string[][]>>[][] a)
+        //{
+        //    return "12312312";
+        //}
 
         //public string N(ref List<int> a)
         //{
@@ -55,10 +55,10 @@ namespace SMFrame.Editor.Refleaction
             //Generate<Dictionary<int[], List<string[][]>>[][]>();
 
             A b = new A();
-            //Generate(b);
-            SMFrame.Editor.Refleaction.RA a = new();
-            a.SetInstance(b);
-            Debug.Log( a.N(1));
+            Generate(b);
+            //SMFrame.Editor.Refleaction.RA a = new();
+            //a.SetInstance(b);
+            //Debug.Log( a.N(1));
             //         Debug.Log(a.N<int, float>(1, " ", 2f));
             //Debug.Log(a.N<float>());
 
@@ -91,8 +91,13 @@ namespace SMFrame.Editor.Refleaction
 
         public static void GenerateInternal(Type classType)
         {
-            
-            var nameSpaceStr = string.Empty;
+			if (IsPrimitive(classType) || _cacheType.Contains(classType))
+			{
+				return;
+			}
+			_cacheType.Add(classType);
+
+			var nameSpaceStr = string.Empty;
             var delcareStr = string.Empty;
             var newStr = string.Empty;
             HashSet<string> nameSpaceCache = new HashSet<string>();
@@ -201,22 +206,16 @@ namespace SMFrame.Editor.Refleaction.{classType.Namespace}
             return $"\t\t\t{name} = new {propertyType}(this, \"{name}\");\n";
         }
 
-
-        private static void GenerateType(Type type)
-        {
-            if(IsPrimitive(type) || _cacheType.Contains(type))
-            {
-                return;
-            }
-            _cacheType.Add(type);
-            Generate(type);
-        }
-
         static HashSet<Type> PrimitiveType = new HashSet<Type>()
         {
             typeof(string),
         };
 
+        /// <summary>
+        /// 判断是否是原始类型
+        /// </summary>
+        /// <param name="type"></param>
+        /// <returns></returns>
         private static bool IsPrimitive(Type type)
         {
             return type == null ||
