@@ -16,21 +16,8 @@ namespace SMFrame.Editor.Refleaction
             string name = String.Empty;
             if (type.IsArray)
             {
-                var curElementType = type;
                 var elementType = type.GetElementType();
-                int rank = 0;
-                while (elementType != null)
-                {
-                    curElementType = elementType;
-                    elementType = elementType.GetElementType();
-                    rank++;
-                }
-
-                name = curElementType.ToFieldName();
-                for (int i = 0; i < rank; i++)
-                {
-                    name += "Array";
-                }
+				name += elementType.ToFieldName() + "Array";
             }
             else if (type.IsGenericType)
             {
