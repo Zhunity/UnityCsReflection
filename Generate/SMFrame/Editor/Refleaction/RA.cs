@@ -5,13 +5,13 @@ namespace SMFrame.Editor.Refleaction.SMFrame.Editor.Refleaction
 {
     public partial class RA : Member
     {
-		public Method RN_GT_TArray; //System.String N<T>(T[] a)
-		public Method RN_Ref_StringArray; //System.Int32 N(System.String[] s)
-		public Method RN_Ga_Gb_Gc_Gd_Ge_Gf_Gg_Dictionary_d_aInt32_p__bArray_HashSet_d_Dictionary_d_ecArray_p__p_; //System.Void N<a, b, c, d, e, f, g>(System.Collections.Generic.Dictionary<a, System.Int32> s, b[] asdf, System.Collections.Generic.HashSet<System.Collections.Generic.Dictionary<e, c[]>> wer)
-		public Method RN_BooleanArrayArrayArrayArray; //System.String N(System.Boolean[][][][] a)
-		public Method REquals_Object; //System.Boolean Equals(System.Object obj)
-		public Method RFinalize; //System.Void Finalize()
-		public Method RGetHashCode; //System.Int32 GetHashCode()
+		public Method RN_GT_TArray; //System.String N[T](T[])
+		public Method RN_Ref_StringArray; //Int32 N(System.String[] ByRef)
+		public Method RN_Ga_Gb_Gc_Gd_Ge_Gf_Gg_Dictionary_d_aInt32_p__bArray_HashSet_d_Dictionary_d_ecArray_p__p_; //Void N[a,b,c,d,e,f,g](System.Collections.Generic.Dictionary`2[a,System.Int32], b[], System.Collections.Generic.HashSet`1[System.Collections.Generic.Dictionary`2[e,c[]]])
+		public Method RN_BooleanArrayArrayArrayArray; //System.String N(Boolean[][][][])
+		public Method REquals_Object; //Boolean Equals(System.Object)
+		public Method RFinalize; //Void Finalize()
+		public Method RGetHashCode; //Int32 GetHashCode()
 		public Method RGetType; //System.Type GetType()
 		public Method RMemberwiseClone; //System.Object MemberwiseClone()
 		public Method RToString; //System.String ToString()

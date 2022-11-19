@@ -34,35 +34,7 @@ namespace SMFrame.Editor.Refleaction
         {
             string name = GetMethodName(method);
 
-            var generics = method.GetGenericArguments();
-            var parameters = method.GetParameters();
-
-            var noteStr = method.ReturnType.ToDeclareName() + " " + method.Name;
-            if (generics.Length > 0)
-            {
-                noteStr += "<";
-                for (int i = 0; i < generics.Length; i++)
-                {
-                    noteStr += generics[i].ToDeclareName();
-                    if (i < generics.Length - 1)
-                    {
-                        noteStr += ", ";
-                    }
-                }
-                noteStr += ">";
-            }
-
-            noteStr += "(";
-            for (int i = 0; i < parameters.Length; i++)
-            {
-                noteStr += parameters[i].ParameterType.ToDeclareName() + " " + parameters[i].Name;
-                if (i < parameters.Length - 1)
-                {
-                    noteStr += ", ";
-                }
-            }
-            noteStr += ")";
-            return GenerateDeclare("Method", name, noteStr);
+            return GenerateDeclare("Method", name, method.ToString());
         }
 
         private static string GenerateMethodNew(MethodInfo method)
