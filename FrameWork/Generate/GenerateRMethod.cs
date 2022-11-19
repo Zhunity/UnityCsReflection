@@ -137,6 +137,7 @@ namespace SMFrame.Editor.Refleaction
 					else
 					{
 						str += "ref ";
+						outAssignStr += $"\t\t\t{param.Name} = ({paramType.ToDeclareName()})parameters[{param.Position}];\n";
 					}
 				}
 

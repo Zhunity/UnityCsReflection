@@ -41,8 +41,14 @@ namespace SMFrame.Editor.Refleaction
         public string N(out bool a)
         {
             a = true;
-            return "qerwer";
+            return "out bool";
         }
+
+		public string N(ref int a)
+		{
+			a = 234234;
+			return "ref www";
+		}
 
 		public string N( bool a)
 		{
@@ -50,21 +56,26 @@ namespace SMFrame.Editor.Refleaction
 			return "iiiii";
 		}
 
-		//public string N(bool[][][][] a)
-		//{
-		//    return "12312312";
-		//}
+        //public string N(bool[][][][] a)
+        //{
+        //    return "12312312";
+        //}
 
-		//public string N(in Dictionary<int[], List<string[][]>>[][] a)
-		//{
-		//    return "12312312";
-		//}
+        public string N(in Dictionary<int[], List<string[][]>>[][] a)
+        {
+            return "Dictionary<int[], List<string[][]>>[][]";
+        }
 
-		//public string N(ref List<int> a)
-		//{
-		//    return "12312312";
-		//}
-	}
+        public int N<T, U, A, z>(Dictionary<T, U> www, A fff, float e)
+        {
+            return 999;
+        }
+
+        //public string N(ref List<int> a)
+        //{
+        //    return "12312312";
+        //}
+    }
 
     public partial class GenerateRClass
     {
@@ -99,6 +110,17 @@ namespace SMFrame.Editor.Refleaction
             bool s = false;
             Debug.Log(a.N(out s));
             Debug.Log(s);
+
+            int e = 0;
+            Debug.Log(a.N(ref e));
+            Debug.Log(e);
+
+            Dictionary<int[], List<string[][]>>[][] starnge = new Dictionary<int[], List<string[][]>>[1][];
+            Debug.Log(a.N(in starnge));
+
+
+            Dictionary<int, string> d = new Dictionary<int, string>();
+            Debug.Log(a.N<int, string, int, string>(d, 1, 2));
         }
 
 		public static void Generate(Type classType)
