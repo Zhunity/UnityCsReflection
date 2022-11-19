@@ -3,8 +3,9 @@ using System;
 
 namespace SMFrame.Editor.Refleaction.SMFrame.Editor.Refleaction
 {
-    public class RA : Member
+    public partial class RA : Member
     {
+		public Method RN; //System.Void N()
 		public Method RN_GT_T; //System.String N<T>(T a)
 		public Method RN_GT_GU_T_U; //System.String N<T, U>(T a, U b)
 		public Method RN_Out_Boolean; //System.String N(System.Boolean a)
@@ -29,6 +30,7 @@ namespace SMFrame.Editor.Refleaction.SMFrame.Editor.Refleaction
 
         private void NewMembers()
         {
+			RN = new Method(this, "N", 0);
 			RN_GT_T = new Method(this, "N", 1, Type.MakeGenericMethodParameter(0));
 			RN_GT_GU_T_U = new Method(this, "N", 2, Type.MakeGenericMethodParameter(0), Type.MakeGenericMethodParameter(1));
 			RN_Out_Boolean = new Method(this, "N", 0, typeof(System.Boolean).MakeByRefType());
@@ -42,58 +44,116 @@ namespace SMFrame.Editor.Refleaction.SMFrame.Editor.Refleaction
 
         }
 
-        public System.String N<T>(T a)
+        public virtual void N()
         {
-            return (System.String)RN_GT_T.Invoke(new Type[] { typeof(T) }, a);
+
+            var genericsType = new Type[] {};
+            var parameters = new object[]{};
+            var result = RN.Invoke(genericsType, parameters);
+
+            
         }
 
-        public System.String N<T, U>(T a, U b)
+        public virtual System.String N<T>(T a)
         {
-            return (System.String)RN_GT_GU_T_U.Invoke(new Type[] { typeof(T), typeof(U) }, a, b);
+
+            var genericsType = new Type[] {typeof(T)};
+            var parameters = new object[]{a};
+            var result = RN_GT_T.Invoke(genericsType, parameters);
+
+            return (System.String)result;
         }
 
-        public System.String N(out System.Boolean a)
+        public virtual System.String N<T, U>(T a, U b)
         {
-            a = default;
-            var args = new object[] { a };
-            var result =  (System.String)RN_Out_Boolean.Invoke(args);
-            a = (bool)args[0];
-            return result;
+
+            var genericsType = new Type[] {typeof(T), typeof(U)};
+            var parameters = new object[]{a, b};
+            var result = RN_GT_GU_T_U.Invoke(genericsType, parameters);
+
+            return (System.String)result;
         }
 
-        public System.String N(System.Boolean a)
+        public virtual System.String N(out System.Boolean a)
         {
-            return (System.String)RN_Boolean.Invoke(a);
+			a = default;
+
+            var genericsType = new Type[] {};
+            var parameters = new object[]{a};
+            var result = RN_Out_Boolean.Invoke(genericsType, parameters);
+			a = (System.Boolean)parameters[0];
+
+            return (System.String)result;
         }
 
-        public System.Boolean Equals(System.Object obj)
+        public virtual System.String N(System.Boolean a)
         {
-            return (System.Boolean)REquals_Object.Invoke(obj);
+
+            var genericsType = new Type[] {};
+            var parameters = new object[]{a};
+            var result = RN_Boolean.Invoke(genericsType, parameters);
+
+            return (System.String)result;
         }
 
-        public void Finalize()
+        public virtual System.Boolean Equals(System.Object obj)
         {
-            RFinalize.Invoke();
+
+            var genericsType = new Type[] {};
+            var parameters = new object[]{obj};
+            var result = REquals_Object.Invoke(genericsType, parameters);
+
+            return (System.Boolean)result;
         }
 
-        public System.Int32 GetHashCode()
+        public virtual void Finalize()
         {
-            return (System.Int32)RGetHashCode.Invoke();
+
+            var genericsType = new Type[] {};
+            var parameters = new object[]{};
+            var result = RFinalize.Invoke(genericsType, parameters);
+
+            
         }
 
-        public System.Type GetType()
+        public virtual System.Int32 GetHashCode()
         {
-            return (System.Type)RGetType.Invoke();
+
+            var genericsType = new Type[] {};
+            var parameters = new object[]{};
+            var result = RGetHashCode.Invoke(genericsType, parameters);
+
+            return (System.Int32)result;
         }
 
-        public System.Object MemberwiseClone()
+        public virtual System.Type GetType()
         {
-            return (System.Object)RMemberwiseClone.Invoke();
+
+            var genericsType = new Type[] {};
+            var parameters = new object[]{};
+            var result = RGetType.Invoke(genericsType, parameters);
+
+            return (System.Type)result;
         }
 
-        public System.String ToString()
+        public virtual System.Object MemberwiseClone()
         {
-            return (System.String)RToString.Invoke();
+
+            var genericsType = new Type[] {};
+            var parameters = new object[]{};
+            var result = RMemberwiseClone.Invoke(genericsType, parameters);
+
+            return (System.Object)result;
+        }
+
+        public virtual System.String ToString()
+        {
+
+            var genericsType = new Type[] {};
+            var parameters = new object[]{};
+            var result = RToString.Invoke(genericsType, parameters);
+
+            return (System.String)result;
         }
 
     }

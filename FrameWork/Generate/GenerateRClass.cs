@@ -18,6 +18,11 @@ namespace SMFrame.Editor.Refleaction
         //    return 1;
         //}
 
+        public void N()
+        {
+            Debug.Log("no param");
+        }
+
         public string N<T>(T a = default)
         {
             return "12312312";
@@ -83,11 +88,11 @@ namespace SMFrame.Editor.Refleaction
 			//Generate<Dictionary<int[], List<string[][]>>[][]>();
 
 			A b = new A();
-			//Generate(b);
-			SMFrame.Editor.Refleaction.RA a = new();
-			a.SetInstance(b);
-			Debug.Log(a.N<int>(1));
-			Debug.Log(a.N<int, float>(1, 2f));
+
+            SMFrame.Editor.Refleaction.RA a = new();
+            a.SetInstance(b);
+            Debug.Log(a.N<int>(1));
+            Debug.Log(a.N<int, float>(1, 2f));
 
             Debug.Log(a.N(false));
 
@@ -122,11 +127,11 @@ namespace SMFrame.Editor.Refleaction
 
         public static void GenerateInternal(Type classType)
         {
-			if (IsPrimitive(classType) || _cacheType.Contains(classType))
-			{
-				return;
-			}
-			_cacheType.Add(classType);
+			//if (IsPrimitive(classType) || _cacheType.Contains(classType))
+			//{
+			//	return;
+			//}
+			//_cacheType.Add(classType);
 
 			var nameSpaceStr = string.Empty;
             var delcareStr = string.Empty;
@@ -168,7 +173,7 @@ using System;
 
 namespace SMFrame.Editor.Refleaction.{classType.Namespace}
 {{
-    public class R{classType.ToDeclareName(false)} : Member
+    public partial class R{classType.ToDeclareName(false)} : Member
     {{
 {delcareStr}
 
@@ -195,18 +200,18 @@ namespace SMFrame.Editor.Refleaction.{classType.Namespace}
             Debug.Log(delcareStr);
             Debug.Log(newStr);
             Debug.Log(generateStr);
-            //var path = $"{Application.dataPath}/Script/UnityCsReflection/Generate/{classType.Namespace.Replace(".", "/")}/R{classType.Name}.cs";
-            //var folder = Path.GetDirectoryName(path);
-            //if (!Directory.Exists(folder))
-            //{
-            //    Directory.CreateDirectory(folder);
-            //}
-            //if (File.Exists(path))
-            //{
-            //    File.Delete(path);
-            //}
-            //File.WriteAllText(path, generateStr);
-            //AssetDatabase.Refresh();
+            var path = $"{Application.dataPath}/Script/UnityCsReflection/Generate/{classType.Namespace.Replace(".", "/")}/R{classType.Name}.cs";
+            var folder = Path.GetDirectoryName(path);
+            if (!Directory.Exists(folder))
+            {
+                Directory.CreateDirectory(folder);
+            }
+            if (File.Exists(path))
+            {
+                File.Delete(path);
+            }
+            File.WriteAllText(path, generateStr);
+            AssetDatabase.Refresh();
         }
 
         private static string GenerateMemberNameSpace(Type type, HashSet<string> nameSpaceCache)

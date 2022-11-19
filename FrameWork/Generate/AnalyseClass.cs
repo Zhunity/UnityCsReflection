@@ -134,7 +134,7 @@ namespace SMFrame.Editor.Refleaction
             if (type.IsGenericParameter)
             {
 
-                return $"Type.MakeGenericMethodParameter({type.GenericParameterPosition}";
+                return $"Type.MakeGenericMethodParameter({type.GenericParameterPosition})";
             }
             else if(type.IsByRef)
             {
@@ -144,7 +144,7 @@ namespace SMFrame.Editor.Refleaction
 			}
             else if (type.IsPublic)
             {
-                return $"typeof({type.ToDeclareName(true)}";
+                return $"typeof({type.ToDeclareName(true)})";
             }
             else
             {

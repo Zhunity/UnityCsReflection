@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Data.Common;
 using System.Reflection;
+using System.Reflection.Metadata;
 using System.Text.RegularExpressions;
 using UnityEngine;
 using UnityEngine.Rendering;
@@ -73,7 +74,7 @@ namespace SMFrame.Editor.Refleaction
             var paramStr = string.Empty;
             for (int i = 0; i < parameters.Length; i++)
             {
-                paramStr += $", {parameters[i].ParameterType.ToGetMethod()})";
+                paramStr += $", {parameters[i].ParameterType.ToGetMethod()}";
             }
 
             return $"\t\t\t{name} = new Method(this, \"{method.Name}\", {generics.Length}{paramStr});\n";
@@ -82,34 +83,35 @@ namespace SMFrame.Editor.Refleaction
         private static string GenerateMethodInvoke(MethodInfo method)
         {
             string name = GetMethodName(method);
-            bool hasReturn = method.ReturnType != typeof(void);
 
-            
-
-            var genericArgsDelcareStr = string.Empty;
-            var geericAgruments = string.Empty;
+			#region 处理泛型
+			var genericArgsDelcareStr = string.Empty;
+            var genricArgsStr = string.Empty;
             var generics = method.GetGenericArguments();
             if (generics.Length > 0)
             {
 				genericArgsDelcareStr += "<";
-				geericAgruments = "new Type[] { ";
                 for (int i = 0; i < generics.Length; i++)
                 {
 					genericArgsDelcareStr += generics[i].Name;
-					geericAgruments += $"typeof({generics[i].Name})";
+					genricArgsStr += $"typeof({generics[i].Name})";
                     if (i < generics.Length - 1)
                     {
 						genericArgsDelcareStr += ", ";
-						geericAgruments += ", ";
+						genricArgsStr += ", ";
                     }
                 }
 				genericArgsDelcareStr += ">";
-				geericAgruments += " }";
             }
+			#endregion
 
+			#region 处理参数
 			var parameters = method.GetParameters();
 			var paramStr = string.Empty;
 			string paramDeclareStr = string.Empty;
+            string outDefaultStr = string.Empty;
+            string outAssignStr = string.Empty;
+
             for (int i = 0; i < parameters.Length; i++)
             {
                 var param = parameters[i];
@@ -119,7 +121,27 @@ namespace SMFrame.Editor.Refleaction
                     return string.Empty;
                 }
 
-				paramDeclareStr += paramType.ToDeclareName() + " " + param.Name;
+                string str = string.Empty;
+				if (paramType.IsByRef)
+				{
+					if (param.IsOut)
+					{
+						str += "out ";
+                        outDefaultStr += $"\t\t\t{param.Name} = default;\n";
+						outAssignStr += $"\t\t\t{param.Name} = ({paramType.ToDeclareName()})parameters[{param.Position}];\n";
+					}
+					else if (param.IsIn)
+					{
+						str += "in ";
+					}
+					else
+					{
+						str += "ref ";
+					}
+				}
+
+				str += paramType.ToDeclareName() + " " + param.Name;
+                paramDeclareStr += str;
                 paramStr += param.Name;
                 if (i < parameters.Length - 1)
                 {
@@ -127,11 +149,21 @@ namespace SMFrame.Editor.Refleaction
                     paramStr += ", ";
                 }
             }
+			#endregion
 
-            var result = $@"
-        public {(hasReturn ? method.ReturnType.ToDeclareName() : "void")} {method.Name}{genericArgsDelcareStr}({paramDeclareStr})
+			#region 处理返回值
+			bool hasReturn = method.ReturnType != typeof(void);
+			#endregion
+
+			var result = $@"
+        public virtual {(hasReturn ? method.ReturnType.ToDeclareName() : "void")} {method.Name}{genericArgsDelcareStr}({paramDeclareStr})
         {{
-            {(hasReturn ? "return (" + method.ReturnType.ToDeclareName() + ")" : "")}{name}.Invoke({geericAgruments}{(parameters.Length > 0 ? ", " : string.Empty)}{paramStr});
+{outDefaultStr}
+            var genericsType = new Type[] {{{genricArgsStr}}};
+            var parameters = new object[]{{{paramStr}}};
+            var result = {name}.Invoke(genericsType, parameters);
+{outAssignStr}
+            {(hasReturn ? "return (" + method.ReturnType.ToDeclareName() + ")result;" : "")}
         }}
 ";
             return result;

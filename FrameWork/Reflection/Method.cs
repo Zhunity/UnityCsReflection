@@ -91,7 +91,14 @@ namespace SMFrame.Editor.Refleaction
             {
                 return null;
             }
-            return methodInfo.MakeGenericMethod(types).Invoke(belong, parameters);
+			if (types == null || types.Length <= 0)
+			{
+				return methodInfo.Invoke(belong, parameters);
+			}
+			else
+			{
+				return methodInfo.MakeGenericMethod(types).Invoke(belong, parameters);
+			}
         }
 	}
 }
