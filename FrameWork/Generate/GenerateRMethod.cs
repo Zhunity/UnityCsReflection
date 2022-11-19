@@ -23,6 +23,7 @@ namespace SMFrame.Editor.Refleaction
                     continue;
                 }
                 delcareStr += GenerateMethodDeclare(method);
+                newStr += GenerateMethodNew(method);
                 methodInvoke += GenerateMethodInvoke(method);
             }
 
@@ -33,25 +34,41 @@ namespace SMFrame.Editor.Refleaction
         {
             string name = GetMethodName(method);
 
-			return $@"
-        // {method.ToString()}
-        public Method _{name.ToLower()};
-        public virtual Method {name}
-        {{
-            get
-            {{
-                if(_{name.ToLower()} == null)
-                {{
-                    _{name.ToLower()} = {GenerateMethodNew(method)};
-                }}
-                return _{name.ToLower()};
-            }}
-        }}
-";
+            var generics = method.GetGenericArguments();
+            var parameters = method.GetParameters();
+
+            var noteStr = method.ReturnType.ToDeclareName() + " " + method.Name;
+            if (generics.Length > 0)
+            {
+                noteStr += "<";
+                for (int i = 0; i < generics.Length; i++)
+                {
+                    noteStr += generics[i].ToDeclareName();
+                    if (i < generics.Length - 1)
+                    {
+                        noteStr += ", ";
+                    }
+                }
+                noteStr += ">";
+            }
+
+            noteStr += "(";
+            for (int i = 0; i < parameters.Length; i++)
+            {
+                noteStr += parameters[i].ParameterType.ToDeclareName() + " " + parameters[i].Name;
+                if (i < parameters.Length - 1)
+                {
+                    noteStr += ", ";
+                }
+            }
+            noteStr += ")";
+            return GenerateDeclare("Method", name, noteStr);
         }
 
         private static string GenerateMethodNew(MethodInfo method)
         {
+            string name = GetMethodName(method);
+
             var generics = method.GetGenericArguments();
             var parameters = method.GetParameters();
             var paramStr = string.Empty;
@@ -60,7 +77,7 @@ namespace SMFrame.Editor.Refleaction
                 paramStr += $", {parameters[i].ParameterType.ToGetMethod()}";
             }
 
-            return $"new Method(this, \"{method.Name}\", {generics.Length}{paramStr})";
+            return $"\t\t\t{name} = new Method(this, \"{method.Name}\", {generics.Length}{paramStr});\n";
         }
 
         private static string GenerateMethodInvoke(MethodInfo method)
