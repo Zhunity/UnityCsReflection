@@ -5,7 +5,6 @@ using UnityEngine;
 using UnityEditor;
 using System.Reflection;
 using System.IO;
-
 namespace SMFrame.Editor.Refleaction
 {
 
@@ -120,7 +119,10 @@ namespace SMFrame.Editor.Refleaction
 
 
             Dictionary<int, string> d = new Dictionary<int, string>();
-            Debug.Log(a.N<int, string, int, string>(d, 1, 2));
+            //Debug.Log(a.N<int, string, int, string>(d, 1, 2));
+
+            var tyope = d.GetType().GetGenericTypeDefinition();
+			Debug.Log(tyope.Name + "  " + tyope.ToString() + "  " + tyope.ToDeclareName() + "  " + tyope.ToGetMethod());
         }
 
 		public static void Generate(Type classType)

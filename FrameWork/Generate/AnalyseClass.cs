@@ -89,22 +89,25 @@ namespace SMFrame.Editor.Refleaction
                 string genericParamStr = string.Empty;
                 for (int i = 0; i < genericTypes.Length; i++)
                 {
-                    var genericType = genericTypes[i];
-                    var paramName = genericType.ToDeclareName(true);
-                    genericParamStr += paramName;
+                    if(!type.IsGenericTypeDefinition)
+                    {
+						var genericType = genericTypes[i];
+						var paramName = genericType.ToDeclareName(true);
+						genericParamStr += paramName;
+					}
                     if (i != genericTypes.Length - 1)
                     {
                         genericParamStr += ", ";
                     }
                 }
-                var a = Regex.Replace(genericDefine.Name, @"`\d+", $"<{genericParamStr}>");
+                var defineName = Regex.Replace(genericDefine.Name, @"`\d+", $"<{genericParamStr}>");
                 if (needNameSpace)
                 {
-                    name += genericDefine.Namespace + "." + a;
+                    name += genericDefine.Namespace + "." + defineName;
                 }
                 else
                 {
-                    name += a;
+                    name += defineName;
                 }
             }
             else if (type.IsByRef)
@@ -133,16 +136,35 @@ namespace SMFrame.Editor.Refleaction
         {
             if (type.IsGenericParameter)
             {
-
                 return $"Type.MakeGenericMethodParameter({type.GenericParameterPosition})";
             }
             else if(type.IsByRef)
             {
 				var t = type.GetElementType();
                 return $"{t.ToGetMethod()}.MakeByRefType()";
-
 			}
-            else if (type.IsPublic)
+			else if (type.IsGenericType && !type.IsGenericTypeDefinition)
+            {
+				var genericTypes = type.GetGenericArguments();
+				var genericDefine = type.GetGenericTypeDefinition();
+
+                var genericDefineStr = genericDefine.ToGetMethod();
+
+				string genericParamStr = string.Empty;
+				for (int i = 0; i < genericTypes.Length; i++)
+				{
+					var genericType = genericTypes[i];
+					var paramName = genericType.ToGetMethod();
+					genericParamStr += paramName;
+					if (i != genericTypes.Length - 1)
+					{
+						genericParamStr += ", ";
+					}
+				}
+                return $"{genericDefineStr}.MakeGenericType({genericParamStr})";
+			}
+
+			else if (type.IsPublic)
             {
                 return $"typeof({type.ToDeclareName(true)})";
             }
