@@ -65,22 +65,9 @@ namespace SMFrame.Editor.Refleaction
             string name = String.Empty;
             if (type.IsArray)
             {
-                var curElementType = type;
                 var elementType = type.GetElementType();
-                int rank = 0;
-                while (elementType != null)
-                {
-                    curElementType = elementType;
-                    elementType = elementType.GetElementType();
-                    rank++;
-                }
-
-                name = curElementType.ToDeclareName(true);
-                for (int i = 0; i < rank; i++)
-                {
-                    name += "[]";
-                }
-            }
+				name = elementType.ToDeclareName(true) + "[]";
+			}
             else if (type.IsGenericType)
             {
                 // https://docs.microsoft.com/zh-cn/dotnet/framework/reflection-and-codedom/how-to-examine-and-instantiate-generic-types-with-reflection
@@ -134,7 +121,12 @@ namespace SMFrame.Editor.Refleaction
 
         public static string ToGetMethod(this Type type)
         {
-            if (type.IsGenericParameter)
+            if(type.IsArray)
+            {
+				var elementType = type.GetElementType();
+				return elementType.ToGetMethod() + ".MakeArrayType()";
+			}
+            else if (type.IsGenericParameter)
             {
                 return $"Type.MakeGenericMethodParameter({type.GenericParameterPosition})";
             }

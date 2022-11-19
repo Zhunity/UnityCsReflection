@@ -17,58 +17,68 @@ namespace SMFrame.Editor.Refleaction
         //    return 1;
         //}
 
-        public void N()
-        {
-            Debug.Log("no param");
-        }
+        //public void N()
+        //{
+        //    Debug.Log("no param");
+        //}
 
-        public string N<T>(T a = default)
+        public string N<T>(T[] a = default)
         {
             return "12312312";
         }
 
-		public string N<T, U>(T a, U b)
-		{
-			return "wwwww";
-		}
-
-        /// <summary>
-        /// out找不到
-        /// </summary>
-        /// <param name="a"></param>
-        /// <returns></returns>
-        public string N(out bool a)
+        public int N(ref string[] s)
         {
-            a = true;
-            return "out bool";
+            return 1111;
         }
 
-		public string N(ref int a)
-		{
-			a = 234234;
-			return "ref www";
-		}
+        public void N<a, b, c, d, e, f, g>(Dictionary<a, int> s, b[] asdf, HashSet<Dictionary<e, c[]>> wer)
+        {
+            Debug.Log("N ???");
+        }
 
-		public string N( bool a)
-		{
-			a = true;
-			return "iiiii";
-		}
-
-        //public string N(bool[][][][] a)
+        //public string N<T, U>(T a, U b)
         //{
-        //    return "12312312";
+        //	return "wwwww";
         //}
 
-        public string N(in Dictionary<int[], List<string[][]>>[][] a)
+        //      /// <summary>
+        //      /// out找不到
+        //      /// </summary>
+        //      /// <param name="a"></param>
+        //      /// <returns></returns>
+        //      public string N(out bool a)
+        //      {
+        //          a = true;
+        //          return "out bool";
+        //      }
+
+        //public string N(ref int a)
+        //{
+        //	a = 234234;
+        //	return "ref www";
+        //}
+
+        //public string N( bool a)
+        //{
+        //	a = true;
+        //	return "iiiii";
+        //}
+
+        public string N(bool[][][][] a)
         {
-            return "Dictionary<int[], List<string[][]>>[][]";
+            return "12312312";
         }
 
-        public int N<T, U, A, z>(Dictionary<T, U> www, A fff, float e)
-        {
-            return 999;
-        }
+        //      public string N(in Dictionary<int[], List<string[][]>>[][] a)
+        //      {
+        //          return "Dictionary<int[], List<string[][]>>[][]";
+        //      }
+
+        //      public int N<T, U, A, z>(Dictionary<T, U> www, A fff, float e)
+        //      {
+        //          return 999;
+        //      }
 
         //public string N(ref List<int> a)
         //{
@@ -101,29 +111,34 @@ namespace SMFrame.Editor.Refleaction
 
             SMFrame.Editor.Refleaction.RA a = new();
             a.SetInstance(b);
-            Debug.Log(a.N<int>(1));
-            Debug.Log(a.N<int, float>(1, 2f));
 
-            Debug.Log(a.N(false));
+            Debug.Log( a.N(new int[] { }));
 
-            bool s = false;
-            Debug.Log(a.N(out s));
-            Debug.Log(s);
+            string[] e = new string[] { };
+			Debug.Log(a.N(ref e));
+			//         Debug.Log(a.N<int>(1));
+			//         Debug.Log(a.N<int, float>(1, 2f));
 
-            int e = 0;
-            Debug.Log(a.N(ref e));
-            Debug.Log(e);
+			//         Debug.Log(a.N(false));
 
-            Dictionary<int[], List<string[][]>>[][] starnge = new Dictionary<int[], List<string[][]>>[1][];
-            Debug.Log(a.N(in starnge));
+			//         bool s = false;
+			//         Debug.Log(a.N(out s));
+			//         Debug.Log(s);
+
+			//         int e = 0;
+			//         Debug.Log(a.N(ref e));
+			//         Debug.Log(e);
+
+			//         Dictionary<int[], List<string[][]>>[][] starnge = new Dictionary<int[], List<string[][]>>[1][];
+			//         Debug.Log(a.N(in starnge));
 
 
-            Dictionary<int, string> d = new Dictionary<int, string>();
-            //Debug.Log(a.N<int, string, int, string>(d, 1, 2));
+			//         Dictionary<int, string> d = new Dictionary<int, string>();
+			//         Debug.Log(a.N<int, string, int, string>(d, 1, 2));
 
-            var tyope = d.GetType().GetGenericTypeDefinition();
-			Debug.Log(tyope.Name + "  " + tyope.ToString() + "  " + tyope.ToDeclareName() + "  " + tyope.ToGetMethod());
-        }
+			//         var tyope = d.GetType().GetGenericTypeDefinition();
+			//Debug.Log(tyope.Name + "  " + tyope.ToString() + "  " + tyope.ToDeclareName() + "  " + tyope.ToGetMethod());
+		}
 
 		public static void Generate(Type classType)
         {
