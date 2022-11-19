@@ -31,7 +31,7 @@ namespace SMFrame.Editor.Refleaction.SMFrame.Editor.Refleaction
         {
 			RN_GT_T = new Method(this, "N", 1, Type.MakeGenericMethodParameter(0));
 			RN_GT_GU_T_U = new Method(this, "N", 2, Type.MakeGenericMethodParameter(0), Type.MakeGenericMethodParameter(1));
-			RN_Out_Boolean = new Method(this, "N", 0, typeof(System.Boolean));
+			RN_Out_Boolean = new Method(this, "N", 0, typeof(System.Boolean).MakeByRefType());
 			RN_Boolean = new Method(this, "N", 0, typeof(System.Boolean));
 			REquals_Object = new Method(this, "Equals", 0, typeof(System.Object));
 			RFinalize = new Method(this, "Finalize", 0);
@@ -52,7 +52,14 @@ namespace SMFrame.Editor.Refleaction.SMFrame.Editor.Refleaction
             return (System.String)RN_GT_GU_T_U.Invoke(new Type[] { typeof(T), typeof(U) }, a, b);
         }
 
-
+        public System.String N(out System.Boolean a)
+        {
+            a = default;
+            var args = new object[] { a };
+            var result =  (System.String)RN_Out_Boolean.Invoke(args);
+            a = (bool)args[0];
+            return result;
+        }
 
         public System.String N(System.Boolean a)
         {

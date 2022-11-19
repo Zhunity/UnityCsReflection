@@ -136,6 +136,12 @@ namespace SMFrame.Editor.Refleaction
 
                 return $"Type.MakeGenericMethodParameter({type.GenericParameterPosition}";
             }
+            else if(type.IsByRef)
+            {
+				var t = type.GetElementType();
+                return $"{t.ToGetMethod()}.MakeByRefType()";
+
+			}
             else if (type.IsPublic)
             {
                 return $"typeof({type.ToDeclareName(true)}";

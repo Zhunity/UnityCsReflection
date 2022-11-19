@@ -82,38 +82,34 @@ namespace SMFrame.Editor.Refleaction
         private static string GenerateMethodInvoke(MethodInfo method)
         {
             string name = GetMethodName(method);
-
             bool hasReturn = method.ReturnType != typeof(void);
-			string declareStr = $"public {(hasReturn ?  method.ReturnType.ToDeclareName() : "void")} {method.Name}";
-            var parameters = method.GetParameters();
 
-            var paramStr = string.Empty;
+            
+
+            var genericArgsDelcareStr = string.Empty;
+            var geericAgruments = string.Empty;
             var generics = method.GetGenericArguments();
             if (generics.Length > 0)
             {
-                declareStr += "<";
-                paramStr = "new Type[] { ";
+				genericArgsDelcareStr += "<";
+				geericAgruments = "new Type[] { ";
                 for (int i = 0; i < generics.Length; i++)
                 {
-                    declareStr += generics[i].Name;
-                    paramStr += $"typeof({generics[i].Name})";
+					genericArgsDelcareStr += generics[i].Name;
+					geericAgruments += $"typeof({generics[i].Name})";
                     if (i < generics.Length - 1)
                     {
-                        declareStr += ", ";
-                        paramStr += ", ";
+						genericArgsDelcareStr += ", ";
+						geericAgruments += ", ";
                     }
                 }
-                declareStr += ">";
-                paramStr += " }";
-
-                if (parameters.Length > 0)
-                {
-                    paramStr += ", ";
-                }
+				genericArgsDelcareStr += ">";
+				geericAgruments += " }";
             }
 
-
-            declareStr += "(";
+			var parameters = method.GetParameters();
+			var paramStr = string.Empty;
+			string paramDeclareStr = string.Empty;
             for (int i = 0; i < parameters.Length; i++)
             {
                 var param = parameters[i];
@@ -123,20 +119,19 @@ namespace SMFrame.Editor.Refleaction
                     return string.Empty;
                 }
 
-                declareStr += paramType.ToDeclareName() + " " + param.Name;
+				paramDeclareStr += paramType.ToDeclareName() + " " + param.Name;
                 paramStr += param.Name;
                 if (i < parameters.Length - 1)
                 {
-                    declareStr += ", ";
+					paramDeclareStr += ", ";
                     paramStr += ", ";
                 }
             }
-            declareStr += ")";
 
             var result = $@"
-        {declareStr}
+        public {(hasReturn ? method.ReturnType.ToDeclareName() : "void")} {method.Name}{genericArgsDelcareStr}({paramDeclareStr})
         {{
-            {(hasReturn ? "return (" + method.ReturnType.ToDeclareName() + ")" : "")}{name}.Invoke({paramStr});
+            {(hasReturn ? "return (" + method.ReturnType.ToDeclareName() + ")" : "")}{name}.Invoke({geericAgruments}{(parameters.Length > 0 ? ", " : string.Empty)}{paramStr});
         }}
 ";
             return result;

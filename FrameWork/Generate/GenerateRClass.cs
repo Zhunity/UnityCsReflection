@@ -36,7 +36,7 @@ namespace SMFrame.Editor.Refleaction
         public string N(out bool a)
         {
             a = true;
-            return "12312312";
+            return "qerwer";
         }
 
 		public string N( bool a)
@@ -63,7 +63,7 @@ namespace SMFrame.Editor.Refleaction
 
     public partial class GenerateRClass
     {
-        [MenuItem("Tools/fff")]
+        [MenuItem("Tools/generate a file")]
         static void f()
         {
             //var a = GenerateParameterType(typeof(Dictionary<int[], List<string[][]>>[][]));
@@ -75,7 +75,7 @@ namespace SMFrame.Editor.Refleaction
 
         }
 
-		[MenuItem("Tools/ggg")]
+		[MenuItem("Tools/ra invoke")]
 		static void G()
 		{
 			//var a = GenerateParameterType(typeof(Dictionary<int[], List<string[][]>>[][]));
@@ -90,8 +90,11 @@ namespace SMFrame.Editor.Refleaction
 			Debug.Log(a.N<int, float>(1, 2f));
 
             Debug.Log(a.N(false));
-			//Debug.Log(a.N());
-		}
+
+            bool s = false;
+            Debug.Log(a.N(out s));
+            Debug.Log(s);
+        }
 
 		public static void Generate(Type classType)
         {
@@ -192,18 +195,18 @@ namespace SMFrame.Editor.Refleaction.{classType.Namespace}
             Debug.Log(delcareStr);
             Debug.Log(newStr);
             Debug.Log(generateStr);
-            var path = $"{Application.dataPath}/Script/UnityCsReflection/Generate/{classType.Namespace.Replace(".", "/")}/R{classType.Name}.cs";
-            var folder = Path.GetDirectoryName(path);
-            if (!Directory.Exists(folder))
-            {
-                Directory.CreateDirectory(folder);
-            }
-            if (File.Exists(path))
-            {
-                File.Delete(path);
-            }
-            File.WriteAllText(path, generateStr);
-            AssetDatabase.Refresh();
+            //var path = $"{Application.dataPath}/Script/UnityCsReflection/Generate/{classType.Namespace.Replace(".", "/")}/R{classType.Name}.cs";
+            //var folder = Path.GetDirectoryName(path);
+            //if (!Directory.Exists(folder))
+            //{
+            //    Directory.CreateDirectory(folder);
+            //}
+            //if (File.Exists(path))
+            //{
+            //    File.Delete(path);
+            //}
+            //File.WriteAllText(path, generateStr);
+            //AssetDatabase.Refresh();
         }
 
         private static string GenerateMemberNameSpace(Type type, HashSet<string> nameSpaceCache)
