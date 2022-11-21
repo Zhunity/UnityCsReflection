@@ -152,5 +152,31 @@ namespace SMFrame.Editor.Refleaction
                 return $" ReleactionUtils.GetType(\"{type.ToDeclareName(true)}\")";
             }
         }
+
+        public static Type ToBasicType(this Type type)
+        {
+			if (type.IsArray)
+			{
+				var elementType = type.GetElementType();
+				return elementType.ToBasicType();
+			}
+			else if (type.IsGenericParameter)
+            {
+                return null;
+            }
+            else if(type.IsByRef)
+            {
+				var elementType = type.GetElementType();
+				return elementType.ToBasicType();
+			}
+			else if (type.IsGenericType && !type.IsGenericTypeDefinition)
+            {
+                return type.GetGenericTypeDefinition().ToBasicType();
+			}
+            else
+            {
+                return type;
+            }
+		}
     }
 }

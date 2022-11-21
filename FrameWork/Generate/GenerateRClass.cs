@@ -8,137 +8,45 @@ using System.IO;
 namespace SMFrame.Editor.Refleaction
 {
 
-    class A
-    {
-
-        //public static float N<T>(int e, out T a, ref float b, in long c, params bool[][][] d)
-        //{
-        //    a = default;
-        //    return 1;
-        //}
-
-        //public void N()
-        //{
-        //    Debug.Log("no param");
-        //}
-
-        public string N<T>(T[] a = default)
-        {
-            return "12312312";
-        }
-
-        public int N(ref string[] s)
-        {
-            return 1111;
-        }
-
-        public void N<a, b, c, d, e, f, g>(Dictionary<a, int> s, b[] asdf, HashSet<Dictionary<e, c[]>> wer)
-        {
-            Debug.Log("N ???");
-        }
-
-        //public string N<T, U>(T a, U b)
-        //{
-        //	return "wwwww";
-        //}
-
-        //      /// <summary>
-        //      /// out找不到
-        //      /// </summary>
-        //      /// <param name="a"></param>
-        //      /// <returns></returns>
-        //      public string N(out bool a)
-        //      {
-        //          a = true;
-        //          return "out bool";
-        //      }
-
-        //public string N(ref int a)
-        //{
-        //	a = 234234;
-        //	return "ref www";
-        //}
-
-        //public string N( bool a)
-        //{
-        //	a = true;
-        //	return "iiiii";
-        //}
-
-        public string N(bool[][][][] a)
-        {
-            return "12312312";
-        }
-
-        //      public string N(in Dictionary<int[], List<string[][]>>[][] a)
-        //      {
-        //          return "Dictionary<int[], List<string[][]>>[][]";
-        //      }
-
-        //      public int N<T, U, A, z>(Dictionary<T, U> www, A fff, float e)
-        //      {
-        //          return 999;
-        //      }
-
-        //public string N(ref List<int> a)
-        //{
-        //    return "12312312";
-        //}
-    }
-
     public partial class GenerateRClass
     {
         [MenuItem("Tools/generate a file")]
         static void f()
         {
-            //var a = GenerateParameterType(typeof(Dictionary<int[], List<string[][]>>[][]));
-            //Debug.Log(a);
-            //Generate<Dictionary<int[], List<string[][]>>[][]>();
-
-            A b = new A();
-            Generate(b);
-
-        }
+            var types = CollectClass(typeof(GameObject));
+            foreach(var type in types)
+            {
+                Debug.Log(type);
+            }
+			//Generate(typeof(GameObject));
+		}
 
 		[MenuItem("Tools/ra invoke")]
 		static void G()
 		{
-			//var a = GenerateParameterType(typeof(Dictionary<int[], List<string[][]>>[][]));
-			//Debug.Log(a);
-			//Generate<Dictionary<int[], List<string[][]>>[][]>();
-
-			A b = new A();
-
-            SMFrame.Editor.Refleaction.RA a = new();
-            a.SetInstance(b);
-
-            Debug.Log( a.N(new int[] { }));
-
-            string[] e = new string[] { };
-			Debug.Log(a.N(ref e));
-			//         Debug.Log(a.N<int>(1));
-			//         Debug.Log(a.N<int, float>(1, 2f));
-
-			//         Debug.Log(a.N(false));
-
-			//         bool s = false;
-			//         Debug.Log(a.N(out s));
-			//         Debug.Log(s);
-
-			//         int e = 0;
-			//         Debug.Log(a.N(ref e));
-			//         Debug.Log(e);
-
-			//         Dictionary<int[], List<string[][]>>[][] starnge = new Dictionary<int[], List<string[][]>>[1][];
-			//         Debug.Log(a.N(in starnge));
-
-
-			//         Dictionary<int, string> d = new Dictionary<int, string>();
-			//         Debug.Log(a.N<int, string, int, string>(d, 1, 2));
-
-			//         var tyope = d.GetType().GetGenericTypeDefinition();
-			//Debug.Log(tyope.Name + "  " + tyope.ToString() + "  " + tyope.ToDeclareName() + "  " + tyope.ToGetMethod());
+			
 		}
+
+        private static Queue<Type> _waitToGenerate = new Queue<Type>();
+		static HashSet<Type> _cacheType = new HashSet<Type>();
+		public static void AddGenerateClass(Type type)
+        {
+            _waitToGenerate.Enqueue(type);
+		}
+
+        public static void GenerateClasses()
+        {
+            while(_waitToGenerate.Count > 0)
+            {
+                Type type = _waitToGenerate.Dequeue();
+                if (IsPrimitive(type) || _cacheType.Contains(type))
+                {
+                    return;
+                }
+                _cacheType.Add(type);
+                Generate(type);
+			}
+        }
 
 		public static void Generate(Type classType)
         {
@@ -162,28 +70,29 @@ namespace SMFrame.Editor.Refleaction
 
 
         #region 生成文件代码
-        static HashSet<Type> _cacheType = new HashSet<Type>();
+        
 
         public static void GenerateInternal(Type classType)
         {
-			//if (IsPrimitive(classType) || _cacheType.Contains(classType))
-			//{
-			//	return;
-			//}
-			//_cacheType.Add(classType);
-
 			var nameSpaceStr = string.Empty;
             var delcareStr = string.Empty;
             var newStr = string.Empty;
             HashSet<string> nameSpaceCache = new HashSet<string>();
-            HashSet<MethodInfo> getSetHash = new HashSet<MethodInfo>();
+			var types = CollectClass(classType);
+			foreach (var type in types)
+			{
+				Debug.Log(type);
+                AddGenerateClass(type);
+				nameSpaceStr += GenerateMemberNameSpace(type, nameSpaceCache);
+			}
+
+			HashSet<MethodInfo> getSetHash = new HashSet<MethodInfo>();
 
             var properties = classType.GetProperties(Class.flags);
             foreach (var property in properties)
             {
                 getSetHash.Add(property.SetMethod);
                 getSetHash.Add(property.GetMethod);
-                nameSpaceStr += GenerateMemberNameSpace(property.PropertyType, nameSpaceCache);
                 delcareStr += GenerateMemberDeclare(property.PropertyType, property.Name, "Property");
                 newStr += GenerateMemberNew(property.PropertyType, property.Name, "Property");
             }
@@ -191,7 +100,6 @@ namespace SMFrame.Editor.Refleaction
             var fields = classType.GetFields(Class.flags);
             foreach (var field in fields)
             {
-                nameSpaceStr += GenerateMemberNameSpace(field.FieldType, nameSpaceCache);
                 delcareStr += GenerateMemberDeclare(field.FieldType, field.Name, "Field");
                 newStr += GenerateMemberNew(field.FieldType, field.Name, "Field");
             }
@@ -271,7 +179,7 @@ namespace SMFrame.Editor.Refleaction.{classType.Namespace}
 
         private static string GenerateMemberDeclare(Type type, string name, string memberType)
         {
-            string propertyType = IsPrimitive(type) ? memberType : "R" + type.Name;
+            string propertyType = (IsPrimitive(type) || type.IsPublic) ? memberType : "R" + type.ToDeclareName(false);
             return GenerateDeclare(propertyType, name, type?.FullName);
         }
 
