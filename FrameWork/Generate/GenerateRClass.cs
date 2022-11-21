@@ -13,17 +13,9 @@ namespace SMFrame.Editor.Refleaction
         [MenuItem("Tools/generate a file")]
         static void f()
         {
-			var nameSpaceStr = string.Empty;
-			HashSet<string> nameSpaceCache = new HashSet<string>();
-			var types = CollectClass(typeof(GameObject));
-            foreach(var type in types)
-            {
-                Debug.Log(type);
-				nameSpaceStr += GenerateMemberNameSpace(type, nameSpaceCache);
-			}
-            Debug.Log(nameSpaceStr);
-            //AddGenerateClass(typeof(GameObject));
-            //GenerateClasses();
+            AddGenerateClass(typeof(GameObject));
+            GenerateClasses();
+			AssetDatabase.Refresh();
 		}
 
 		[MenuItem("Tools/ra invoke")]
@@ -41,17 +33,31 @@ namespace SMFrame.Editor.Refleaction
 
         public static void GenerateClasses()
         {
-            while(_waitToGenerate.Count > 0)
+            int i = 0;
+			while (_waitToGenerate.Count > 0)
             {
-                Type type = _waitToGenerate.Dequeue();
-                if (IsPrimitive(type) || type.IsPublic || _cacheType.Contains(type))
+				i++;
+				if (EditorUtility.DisplayCancelableProgressBar("生成文件", $"已生成{i}， 剩余{_waitToGenerate.Count}", (float)i / (float)_waitToGenerate.Count))
+				{
+					break;
+				}
+				Type type = _waitToGenerate.Dequeue();
+				try
                 {
-                    return;
+                    if (IsPrimitive(type) || _cacheType.Contains(type))
+                    {
+                        continue;
+                    }
+                    _cacheType.Add(type);
+                    Generate(type);
                 }
-                _cacheType.Add(type);
-                Generate(type);
+                catch(Exception e)
+                {
+                    Debug.LogError(type + "\n" + e.ToString());
+                }
 			}
-        }
+            EditorUtility.ClearProgressBar();
+		}
 
 		public static void Generate(Type classType)
         {
@@ -86,7 +92,6 @@ namespace SMFrame.Editor.Refleaction
 			var types = CollectClass(classType);
 			foreach (var type in types)
 			{
-				Debug.Log(type);
                 AddGenerateClass(type);
 				nameSpaceStr += GenerateMemberNameSpace(type, nameSpaceCache);
 			}
@@ -121,7 +126,6 @@ namespace SMFrame.Editor.Refleaction
             string methodInvoke = GenerateMethod(classType, getSetHash, ref delcareStr, ref newStr);
 
             var generateStr = $@"{nameSpaceStr}using SMFrame.Editor.Refleaction;
-using System;
 
 namespace SMFrame.Editor.Refleaction.{classType.Namespace}
 {{
@@ -148,9 +152,9 @@ namespace SMFrame.Editor.Refleaction.{classType.Namespace}
 }}
 ";
 
-            Debug.Log(nameSpaceStr);
-            Debug.Log(delcareStr);
-            Debug.Log(newStr);
+            //Debug.Log(nameSpaceStr);
+            //Debug.Log(delcareStr);
+            //Debug.Log(newStr);
             Debug.Log(generateStr);
             var path = $"{Application.dataPath}/Script/UnityCsReflection/Generate/{classType.Namespace.Replace(".", "/")}/R{classType.Name}.cs";
             var folder = Path.GetDirectoryName(path);
@@ -163,7 +167,6 @@ namespace SMFrame.Editor.Refleaction.{classType.Namespace}
                 File.Delete(path);
             }
             File.WriteAllText(path, generateStr);
-            AssetDatabase.Refresh();
         }
 
         private static string GenerateMemberNameSpace(Type type, HashSet<string> nameSpaceCache)
