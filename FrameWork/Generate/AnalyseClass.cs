@@ -169,6 +169,11 @@ namespace SMFrame.Editor.Refleaction
 				var elementType = type.GetElementType();
 				return elementType.ToBasicType();
 			}
+            else if(type.IsPointer)
+            {
+				var elementType = type.GetElementType();
+				return elementType.ToBasicType();
+			}
 			else if (type.IsGenericType && !type.IsGenericTypeDefinition)
             {
                 return type.GetGenericTypeDefinition().ToBasicType();

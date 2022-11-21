@@ -13,7 +13,10 @@ namespace SMFrame.Editor.Refleaction
         [MenuItem("Tools/generate a file")]
         static void f()
         {
-            AddGenerateClass(typeof(GameObject));
+			_waitToGenerate.Clear();
+			_cacheType.Clear();
+
+			AddGenerateClass(typeof(GameObject));
             GenerateClasses();
 			AssetDatabase.Refresh();
 		}
@@ -21,7 +24,8 @@ namespace SMFrame.Editor.Refleaction
 		[MenuItem("Tools/ra invoke")]
 		static void G()
 		{
-			
+			var t = typeof(int).MakePointerType();
+            Debug.Log(t + "  " + t.ToBasicType());
 		}
 
         private static Queue<Type> _waitToGenerate = new Queue<Type>();
@@ -126,8 +130,9 @@ namespace SMFrame.Editor.Refleaction
             string methodInvoke = GenerateMethod(classType, getSetHash, ref delcareStr, ref newStr);
 
             var generateStr = $@"{nameSpaceStr}using SMFrame.Editor.Refleaction;
+using System;
 
-namespace SMFrame.Editor.Refleaction.{classType.Namespace}
+namespace SMFrame.Editor.Refleaction.R{classType.Namespace.Replace(".", ".R")}
 {{
     public partial class R{classType.ToDeclareName(false)} : Member
     {{
@@ -181,10 +186,10 @@ namespace SMFrame.Editor.Refleaction.{classType.Namespace}
                 return string.Empty;
             }
             nameSpaceCache.Add(nameSpace);
-            var result = $"using {nameSpace};\n";
-            if(!IsPrimitive(type) && !type.IsPublic)
+            var result = $"";
+            if(!IsPrimitive(type))
             {
-				result += $"using SMFrame.Editor.Refleaction.{nameSpace};\n";
+				result += $"using SMFrame.Editor.Refleaction.R{nameSpace.Replace(".", ".R")};\n";
 
 			}
 			return result;
@@ -197,14 +202,14 @@ namespace SMFrame.Editor.Refleaction.{classType.Namespace}
 
         private static string GenerateMemberDeclare(Type type, string name, string memberType)
         {
-            string propertyType = (IsPrimitive(type) || type.IsPublic) ? memberType : "R" + type.ToDeclareName(false);
+            string propertyType = (IsPrimitive(type)) ? memberType : "R" + type.ToDeclareName(false);
             return GenerateDeclare(propertyType, name, type?.FullName);
         }
 
         private static string GenerateMemberNew(Type type, string name, string memberType)
         {
-            string propertyType = IsPrimitive(type) ? memberType : "R" + type.Name;
-            return $"\t\t\t{name} = new {propertyType}(this, \"{name}\");\n";
+            string propertyType = IsPrimitive(type) ? memberType : "R" + type.ToDeclareName(false);
+			return $"\t\t\t{name} = new {propertyType}(this, \"{name}\");\n";
         }
 
         static HashSet<Type> PrimitiveType = new HashSet<Type>()
