@@ -13,12 +13,17 @@ namespace SMFrame.Editor.Refleaction
         [MenuItem("Tools/generate a file")]
         static void f()
         {
-            var types = CollectClass(typeof(GameObject));
+			var nameSpaceStr = string.Empty;
+			HashSet<string> nameSpaceCache = new HashSet<string>();
+			var types = CollectClass(typeof(GameObject));
             foreach(var type in types)
             {
                 Debug.Log(type);
-            }
-			//Generate(typeof(GameObject));
+				nameSpaceStr += GenerateMemberNameSpace(type, nameSpaceCache);
+			}
+            Debug.Log(nameSpaceStr);
+            //AddGenerateClass(typeof(GameObject));
+            //GenerateClasses();
 		}
 
 		[MenuItem("Tools/ra invoke")]
@@ -39,7 +44,7 @@ namespace SMFrame.Editor.Refleaction
             while(_waitToGenerate.Count > 0)
             {
                 Type type = _waitToGenerate.Dequeue();
-                if (IsPrimitive(type) || _cacheType.Contains(type))
+                if (IsPrimitive(type) || type.IsPublic || _cacheType.Contains(type))
                 {
                     return;
                 }
@@ -163,13 +168,23 @@ namespace SMFrame.Editor.Refleaction.{classType.Namespace}
 
         private static string GenerateMemberNameSpace(Type type, HashSet<string> nameSpaceCache)
         {
+            if(type == null)
+            {
+                return String.Empty;
+            }
             var nameSpace = type.Namespace;
-            if (IsPrimitive(type) || string.IsNullOrEmpty(nameSpace) || nameSpaceCache.Contains(nameSpace))
+            if (string.IsNullOrEmpty(nameSpace) || nameSpaceCache.Contains(nameSpace))
             {
                 return string.Empty;
             }
             nameSpaceCache.Add(nameSpace);
-            return $"using SMFrame.Editor.Refleaction.{nameSpace};\n";
+            var result = $"using {nameSpace};\n";
+            if(!IsPrimitive(type) && !type.IsPublic)
+            {
+				result += $"using SMFrame.Editor.Refleaction.{nameSpace};\n";
+
+			}
+			return result;
         }
 
         private static string GenerateDeclare(string typeName, string name, string note)
