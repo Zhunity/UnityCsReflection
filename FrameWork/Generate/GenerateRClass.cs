@@ -140,6 +140,7 @@ namespace SMFrame.Editor.Refleaction
 
             var generateStr = $@"{nameSpaceStr}using SMFrame.Editor.Refleaction;
 using System;
+using System.Reflection;
 
 namespace SMFrame.Editor.Refleaction.R{classType.Namespace.Replace(".", ".R")}
 {{

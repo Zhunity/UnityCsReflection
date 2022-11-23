@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Data.Common;
 using System.Reflection;
 using System.Reflection.Metadata;
+using System.Runtime.Remoting.Messaging;
 using System.Text.RegularExpressions;
 using UnityEngine;
 using UnityEngine.Rendering;
@@ -120,7 +121,7 @@ namespace SMFrame.Editor.Refleaction
 
 				str += paramType.ToDeclareName() + "  @" + param.Name;
                 paramDeclareStr += str;
-                paramStr += "@" + param.Name;
+                paramStr += GetParamName(param);
                 if (i < parameters.Length - 1)
                 {
 					paramDeclareStr += ", ";
@@ -131,6 +132,7 @@ namespace SMFrame.Editor.Refleaction
 
 			#region 处理返回值
 			bool hasReturn = method.ReturnType != typeof(void);
+            string returnStr = GetReturn(method.ReturnType, out string returnTypeStr);
             if(method.ReturnType.IsPointer)
             {
                 isUnsafe = true;
@@ -138,18 +140,53 @@ namespace SMFrame.Editor.Refleaction
 			#endregion
 
 			var result = $@"
-        public {(isUnsafe ? "unsafe " : "")}{(method.IsStatic ? "static" : "virtual")} {method.ReturnType.ToDeclareName()} {method.Name}{genericArgsDelcareStr}({paramDeclareStr})
+        public {(isUnsafe ? "unsafe " : "")}{(method.IsStatic ? "static" : "virtual")} {returnTypeStr} {method.Name}{genericArgsDelcareStr}({paramDeclareStr})
         {{
 {outDefaultStr}
             var ___genericsType = new Type[] {{{genricArgsStr}}};
             var ___parameters = new object[]{{{paramStr}}};
             var ___result = {name}.Invoke(___genericsType, ___parameters);
 {outAssignStr}
-            {(hasReturn ? "return (" + method.ReturnType.ToDeclareName() + ")___result;" : "")}
+            {returnStr}
         }}
 ";
             return result;
         }
+
+        static string GetParamName(ParameterInfo param)
+        {
+            if(param.ParameterType.IsPointer)
+            {
+				return $"Pointer.Box(@{param.Name}, typeof({param.ParameterType.GetElementType().ToDeclareName()}))";
+			}
+            else if(param.ParameterType == typeof(TypedReference))
+            {
+				return $"TypedReference.ToObject(@{param.Name})";
+			}
+            else
+            {
+                return "@" + param.Name;
+			}
+        }
+
+
+        private static HashSet<Type> CanNotConvertToObject = new HashSet<Type>()
+        {
+            typeof(TypedReference),
+        };
+
+        static string GetReturn(Type returnType, out string returnTypeStr)
+        {
+            bool canConvertToObject = !CanNotConvertToObject.Contains(returnType);
+            returnTypeStr = canConvertToObject ? returnType.ToDeclareName() : typeof(System.Object).ToDeclareName();
+            bool hasReturn = returnType != typeof(void);
+            if (!hasReturn)
+            {
+                return String.Empty;
+            }
+
+            return $"return ({returnTypeStr})___result;";
+	}
 
         static private string GetMethodName(MethodInfo method)
         {
