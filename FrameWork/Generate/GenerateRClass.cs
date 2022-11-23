@@ -16,16 +16,24 @@ namespace SMFrame.Editor.Refleaction
 			_waitToGenerate.Clear();
 			_cacheType.Clear();
 
-			AddGenerateClass(typeof(GameObject));
+			AddGenerateClass(typeof(a));
             GenerateClasses();
 			AssetDatabase.Refresh();
 		}
 
+
+		struct a 
+        {
+            public void test(object @object)
+            {
+                Debug.Log(@object);
+            }
+        }
 		[MenuItem("Tools/ra invoke")]
 		static void G()
 		{
-			var t = typeof(int).MakePointerType();
-            Debug.Log(t + "  " + t.ToBasicType());
+			Generate(typeof(TypedReference));
+
 		}
 
         private static Queue<Type> _waitToGenerate = new Queue<Type>();
@@ -107,14 +115,15 @@ namespace SMFrame.Editor.Refleaction
             {
                 getSetHash.Add(property.SetMethod);
                 getSetHash.Add(property.GetMethod);
-                delcareStr += GenerateMemberDeclare(property.PropertyType, property.Name, "Property");
+
+                delcareStr += GenerateMemberDeclare(property.PropertyType, property.Name, "Property", property.IsStatic());
                 newStr += GenerateMemberNew(property.PropertyType, property.Name, "Property");
             }
 
             var fields = classType.GetFields(Class.flags);
             foreach (var field in fields)
             {
-                delcareStr += GenerateMemberDeclare(field.FieldType, field.Name, "Field");
+                delcareStr += GenerateMemberDeclare(field.FieldType, field.Name, "Field", field.IsStatic);
                 newStr += GenerateMemberNew(field.FieldType, field.Name, "Field");
             }
 
@@ -123,7 +132,7 @@ namespace SMFrame.Editor.Refleaction
             {
                 getSetHash.Add(@event.AddMethod);
                 getSetHash.Add(@event.RemoveMethod);
-                delcareStr += GenerateMemberDeclare(null, @event.Name, "Event");
+                delcareStr += GenerateMemberDeclare(null, @event.Name, "Event", @event.IsStatic());
                 newStr += GenerateMemberNew(null, @event.Name, "Event");
             }
 
@@ -195,15 +204,15 @@ namespace SMFrame.Editor.Refleaction.R{classType.Namespace.Replace(".", ".R")}
 			return result;
         }
 
-        private static string GenerateDeclare(string typeName, string name, string note)
+        private static string GenerateDeclare(string typeName, string name, string note, bool isStatic)
         {
-            return $"\t\tpublic {typeName} {name}; //{note}\n";
+            return $"\t\tpublic {(isStatic ? "static" : "")} {typeName} {name}; //{note}\n";
         }
 
-        private static string GenerateMemberDeclare(Type type, string name, string memberType)
+        private static string GenerateMemberDeclare(Type type, string name, string memberType, bool isStatic)
         {
             string propertyType = (IsPrimitive(type)) ? memberType : "R" + type.ToDeclareName(false);
-            return GenerateDeclare(propertyType, name, type?.FullName);
+            return GenerateDeclare(propertyType, name, type?.FullName, isStatic);
         }
 
         private static string GenerateMemberNew(Type type, string name, string memberType)

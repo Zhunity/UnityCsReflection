@@ -19,7 +19,12 @@ namespace SMFrame.Editor.Refleaction
                 var elementType = type.GetElementType();
 				name += elementType.ToFieldName() + "Array";
             }
-            else if (type.IsGenericType)
+			else if(type.IsPointer)
+			{
+				var elementType = type.GetElementType();
+				name += elementType.ToFieldName() + "Pointer";
+			}
+			else if (type.IsGenericType)
             {
                 // https://docs.microsoft.com/zh-cn/dotnet/framework/reflection-and-codedom/how-to-examine-and-instantiate-generic-types-with-reflection
                 var genericTypes = type.GetGenericArguments();
@@ -55,7 +60,12 @@ namespace SMFrame.Editor.Refleaction
                 var elementType = type.GetElementType();
 				name = elementType.ToDeclareName(true) + "[]";
 			}
-            else if (type.IsGenericType)
+			else if (type.IsPointer)
+			{
+				var elementType = type.GetElementType();
+				name += elementType.ToDeclareName(true) + "*";
+			}
+			else if (type.IsGenericType)
             {
                 // https://docs.microsoft.com/zh-cn/dotnet/framework/reflection-and-codedom/how-to-examine-and-instantiate-generic-types-with-reflection
                 var genericTypes = type.GetGenericArguments();
@@ -91,6 +101,10 @@ namespace SMFrame.Editor.Refleaction
             }
             else
             {
+                if(type == typeof(void))
+                {
+                    return "void";
+                }
                 if (needNameSpace && !type.IsGenericParameter)
                 {
                     name = type.Namespace + "." + type.Name;
@@ -113,7 +127,12 @@ namespace SMFrame.Editor.Refleaction
 				var elementType = type.GetElementType();
 				return elementType.ToGetMethod() + ".MakeArrayType()";
 			}
-            else if (type.IsGenericParameter)
+			else if (type.IsPointer)
+			{
+				var elementType = type.GetElementType();
+				return elementType.ToGetMethod() + ".MakePointerType()";
+			}
+			else if (type.IsGenericParameter)
             {
                 return $"Type.MakeGenericMethodParameter({type.GenericParameterPosition})";
             }
@@ -183,5 +202,17 @@ namespace SMFrame.Editor.Refleaction
                 return type;
             }
 		}
-    }
+
+		public static bool IsStatic(this PropertyInfo propertyInfo)
+		{
+			return ((propertyInfo.CanRead && propertyInfo.GetMethod.IsStatic) ||
+				(propertyInfo.CanWrite && propertyInfo.SetMethod.IsStatic));
+		}
+
+		public static bool IsStatic(this EventInfo eventInfo)
+		{
+			return ((eventInfo.AddMethod != null && eventInfo.AddMethod.IsStatic) ||
+				(eventInfo.RemoveMethod != null && eventInfo.RemoveMethod.IsStatic));
+		}
+	}
 }

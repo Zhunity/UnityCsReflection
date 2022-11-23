@@ -34,7 +34,7 @@ namespace SMFrame.Editor.Refleaction
         {
             string name = GetMethodName(method);
 
-            return GenerateDeclare("Method", name, method.ToString());
+            return GenerateDeclare("Method", name, method.ToString(), method.IsStatic);
         }
 
         private static string GenerateMethodNew(MethodInfo method)
@@ -55,6 +55,7 @@ namespace SMFrame.Editor.Refleaction
         private static string GenerateMethodInvoke(MethodInfo method)
         {
             string name = GetMethodName(method);
+            bool isUnsafe = false;
 
 			#region 处理泛型
 			var genericArgsDelcareStr = string.Empty;
@@ -100,7 +101,7 @@ namespace SMFrame.Editor.Refleaction
 					{
 						str += "out ";
                         outDefaultStr += $"\t\t\t{param.Name} = default;\n";
-						outAssignStr += $"\t\t\t{param.Name} = ({paramType.ToDeclareName()})parameters[{param.Position}];\n";
+						outAssignStr += $"\t\t\t{param.Name} = ({paramType.ToDeclareName()})___parameters[{param.Position}];\n";
 					}
 					else if (param.IsIn)
 					{
@@ -109,13 +110,17 @@ namespace SMFrame.Editor.Refleaction
 					else
 					{
 						str += "ref ";
-						outAssignStr += $"\t\t\t{param.Name} = ({paramType.ToDeclareName()})parameters[{param.Position}];\n";
+						outAssignStr += $"\t\t\t{param.Name} = ({paramType.ToDeclareName()})___parameters[{param.Position}];\n";
 					}
 				}
+                if(paramType.IsPointer)
+                {
+                    isUnsafe = true;
+                }
 
-				str += paramType.ToDeclareName() + " " + param.Name;
+				str += paramType.ToDeclareName() + "  @" + param.Name;
                 paramDeclareStr += str;
-                paramStr += param.Name;
+                paramStr += "@" + param.Name;
                 if (i < parameters.Length - 1)
                 {
 					paramDeclareStr += ", ";
@@ -126,17 +131,21 @@ namespace SMFrame.Editor.Refleaction
 
 			#region 处理返回值
 			bool hasReturn = method.ReturnType != typeof(void);
+            if(method.ReturnType.IsPointer)
+            {
+                isUnsafe = true;
+            }
 			#endregion
 
 			var result = $@"
-        public virtual {(hasReturn ? method.ReturnType.ToDeclareName() : "void")} {method.Name}{genericArgsDelcareStr}({paramDeclareStr})
+        public {(isUnsafe ? "unsafe " : "")}{(method.IsStatic ? "static" : "virtual")} {method.ReturnType.ToDeclareName()} {method.Name}{genericArgsDelcareStr}({paramDeclareStr})
         {{
 {outDefaultStr}
-            var genericsType = new Type[] {{{genricArgsStr}}};
-            var parameters = new object[]{{{paramStr}}};
-            var result = {name}.Invoke(genericsType, parameters);
+            var ___genericsType = new Type[] {{{genricArgsStr}}};
+            var ___parameters = new object[]{{{paramStr}}};
+            var ___result = {name}.Invoke(___genericsType, ___parameters);
 {outAssignStr}
-            {(hasReturn ? "return (" + method.ReturnType.ToDeclareName() + ")result;" : "")}
+            {(hasReturn ? "return (" + method.ReturnType.ToDeclareName() + ")___result;" : "")}
         }}
 ";
             return result;
