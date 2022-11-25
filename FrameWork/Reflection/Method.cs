@@ -12,7 +12,7 @@ namespace SMFrame.Editor.Refleaction
 		static Type[] Empty = new Type[] { };
 
 		MethodInfo methodInfo;
-		int genericCount = -1;
+		
 		Type[] types;
 
 		bool hasInit = false;
@@ -20,7 +20,6 @@ namespace SMFrame.Editor.Refleaction
 
 		public Method(Class belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name)
 		{
-			this.genericCount = genericCount; 
             this.types = types;
 			hasInit = true;
             SetInfo(belongMember.type, name);

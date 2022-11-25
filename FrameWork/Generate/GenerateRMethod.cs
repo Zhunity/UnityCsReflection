@@ -13,7 +13,15 @@ namespace SMFrame.Editor.Refleaction
 {
     public partial class GenerateRClass
     {
-        private static string GenerateMethod(Type classType, HashSet<MethodInfo> getSetHash, ref string delcareStr,  ref string newStr)
+		/// <summary>
+		/// GenericTypeArguments defineation 也有shu， GenericTypeArguments美术
+		/// </summary>
+		/// <param name="classType"></param>
+		/// <param name="getSetHash"></param>
+		/// <param name="delcareStr"></param>
+		/// <param name="newStr"></param>
+		/// <returns></returns>
+		private static string GenerateMethod(Type classType, HashSet<MethodInfo> getSetHash, ref string delcareStr,  ref string newStr)
         {
             string methodInvoke = string.Empty;
             var methods = classType.GetMethods(Class.flags);

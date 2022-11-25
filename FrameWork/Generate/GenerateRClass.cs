@@ -16,25 +16,38 @@ namespace SMFrame.Editor.Refleaction
 			_waitToGenerate.Clear();
 			_cacheType.Clear();
 
-			AddGenerateClass(typeof(a));
+			AddGenerateClass(typeof(GameObject));
             GenerateClasses();
 			AssetDatabase.Refresh();
 		}
 
 
-		struct a 
+		struct a <T>
         {
-            public void test(object @object)
+        }
+
+        class b
+        {
+            a<int> generic;
+            int[] array;
+            void c<T>()
             {
-                Debug.Log(@object);
+                Debug.Log("sssss");
             }
         }
 		[MenuItem("Tools/ra invoke")]
 		static void G()
 		{
-			Generate(typeof(TypedReference));
-
-		}
+            var type = typeof(a<>);
+            Debug.Log(ReleactionUtils.GetType("a`1"));
+            Debug.Log(type+ " ----  " + type.Name + " ----  " + type.GetGenericArguments().Length);
+            //Generate(typeof(b));
+            //AssetDatabase.Refresh();
+            //a<int> ss = new a<int> ();
+            //RSMFrame.REditor.RRefleaction.Ra<int> test = new();
+            //test.SetBelong(ss);
+            //Debug.Log( test.ToString());
+        }
 
         private static Queue<Type> _waitToGenerate = new Queue<Type>();
 		static HashSet<Type> _cacheType = new HashSet<Type>();
