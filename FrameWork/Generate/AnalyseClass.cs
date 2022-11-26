@@ -84,7 +84,8 @@ namespace SMFrame.Editor.Refleaction
                         genericParamStr += ", ";
                     }
                 }
-                var defineName = Regex.Replace(genericDefine.Name, @"`\d+", $"<{genericParamStr}>");
+				//  typeof(System.Collections.Generic.Dictionary<, >).MakeGenericType(Type.MakeGenericMethodParameter(0), Type.MakeGenericMethodParameter(1))
+				var defineName = Regex.Replace(genericDefine.Name, @"`\d+", $"<{genericParamStr}>");
                 if (needNameSpace)
                 {
                     name += genericDefine.Namespace + "." + defineName;
