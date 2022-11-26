@@ -58,12 +58,12 @@ namespace SMFrame.Editor.Refleaction
             if (type.IsArray)
             {
                 var elementType = type.GetElementType();
-				name = elementType.ToDeclareName(true) + "[]";
+				name = elementType.ToDeclareName(needNameSpace) + "[]";
 			}
 			else if (type.IsPointer)
 			{
 				var elementType = type.GetElementType();
-				name += elementType.ToDeclareName(true) + "*";
+				name += elementType.ToDeclareName(needNameSpace) + "*";
 			}
 			else if (type.IsGenericType)
             {
@@ -76,7 +76,7 @@ namespace SMFrame.Editor.Refleaction
                     if(!type.IsGenericTypeDefinition)
                     {
 						var genericType = genericTypes[i];
-						var paramName = genericType.ToDeclareName(true);
+						var paramName = genericType.ToDeclareName(needNameSpace);
 						genericParamStr += paramName;
 					}
                     if (i != genericTypes.Length - 1)
@@ -97,7 +97,7 @@ namespace SMFrame.Editor.Refleaction
             else if (type.IsByRef)
             {
                 var t = type.GetElementType();
-                name = t.ToDeclareName(true);
+                name = t.ToDeclareName(needNameSpace);
             }
             else
             {

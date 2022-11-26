@@ -18,14 +18,14 @@ namespace SMFrame.Editor.Refleaction
 		bool hasInit = false;
 
 
-		public Method(Class belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name)
+		public Method(Class belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount)
 		{
             this.types = types;
 			hasInit = true;
             SetInfo(belongMember.type, name);
         }
 
-		public Method(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name)
+		public Method(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount)
 		{
             this.genericCount = genericCount;
             this.types = types;

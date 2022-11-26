@@ -53,9 +53,10 @@ namespace SMFrame.Editor.Refleaction
 		/// 直接传进类型，省去查找类型的过程
 		/// </summary>
 		/// <param name="type"></param>
-		public Class(Type type)
+		public Class(Type type, int genericCount = -1)
 		{
 			this.type = type;
+			this.genericCount = genericCount;
 			name = type.FullName;
 			memberList.Clear();
 		}

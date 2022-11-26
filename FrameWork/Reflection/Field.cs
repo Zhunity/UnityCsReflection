@@ -11,11 +11,11 @@ namespace SMFrame.Editor.Refleaction
 	{
 		FieldInfo fieldInfo;
 
-		public Field(Class belongMember, string name) : base(belongMember, name)
+		public Field(Class belongMember, string name, int genericCount = -1) : base(belongMember, name, genericCount)
 		{
 		}
 
-		public Field(Type belongType, string name) : base(belongType, name)
+		public Field(Type belongType, string name, int genericCount = -1) : base(belongType, name, genericCount)
 		{
 		}
 
