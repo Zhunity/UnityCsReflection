@@ -40,9 +40,9 @@ namespace SMFrame.Editor.Refleaction
 		{
             var type = typeof(a<>);
             Debug.Log(ReleactionUtils.GetType("a`1"));
-            Debug.Log(type+ " ----  " + type.Name + " ----  " + type.GetGenericArguments().Length);
-            //Generate(typeof(b));
-            //AssetDatabase.Refresh();
+            //Debug.Log(type+ " ----  " + type.Name + " ----  " + type.GetGenericArguments().Length);
+            Generate(typeof(b));
+            AssetDatabase.Refresh();
             //a<int> ss = new a<int> ();
             //RSMFrame.REditor.RRefleaction.Ra<int> test = new();
             //test.SetBelong(ss);
