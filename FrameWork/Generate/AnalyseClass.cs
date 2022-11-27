@@ -16,11 +16,16 @@ namespace SMFrame.Editor.Refleaction
     {
 		const string defaultFormat = "{0}";
 
+		public bool can = true;
 		public string format = defaultFormat;
 		public Format fun;
 
 		public string Format(params string[] elementStr)
         {
+			if(!can)
+			{
+				return String.Empty;
+			}
 			if(fun != null)
 			{
 				return fun(elementStr);
@@ -51,8 +56,37 @@ namespace SMFrame.Editor.Refleaction
 			typeTranslater.needNameSpace = false;
 			typeTranslater.Array.format = "{0}Array";
 			typeTranslater.Pointer.format = "{0}Pointer";
-			typeTranslater.GenericTypeDefinition.format = "_d_{0}_p_";
-			typeTranslater.GenericType.format = "_d_{0}_p_";
+			typeTranslater.GenericTypeDefinition.fun = (strs) =>
+			{
+				string genericDefine = strs[0];
+				string genericParamStr = string.Empty;
+				for(int i = 1; i < strs.Length; i++)
+				{
+					var paramName = strs[i];
+					genericParamStr += paramName;
+					if (i != strs.Length - 1)
+					{
+						genericParamStr += "_";
+					}
+				}
+				var a = Regex.Replace(genericDefine, @"`\d+", $"_d_{genericParamStr}_p_");
+				return a;
+			};
+			typeTranslater.GenericType.fun = (strs) => {
+				string genericDefine = strs[1];
+				string genericParamStr = string.Empty;
+				for (int i = 2; i < strs.Length; i++)
+				{
+					var paramName = strs[i];
+					genericParamStr += paramName;
+					if (i != strs.Length - 1)
+					{
+						genericParamStr += "_";
+					}
+				}
+				var a = Regex.Replace(genericDefine, @"`\d+", $"_d_{genericParamStr}_p_");
+				return a;
+			};
 
             return type.ToString(typeTranslater);
         }
@@ -68,7 +102,6 @@ namespace SMFrame.Editor.Refleaction
 				string genericParamStr = string.Empty;
 				for (int i = 1; i < strs.Length; i++)
 				{
-					genericParamStr += strs[i];
 					if (i != strs.Length - 1)
 					{
 						genericParamStr += ", ";
@@ -78,9 +111,9 @@ namespace SMFrame.Editor.Refleaction
 				return defineName;
 			};
 			typeTranslater.GenericType.fun = (strs) => {
-				var genericDefine = strs[0];
+				var genericDefine = strs[1];
 				string genericParamStr = string.Empty;
-				for (int i = 1; i < strs.Length; i++)
+				for (int i = 2; i < strs.Length; i++)
 				{
 					var paramName = strs[i];
 					genericParamStr += paramName;
@@ -89,7 +122,7 @@ namespace SMFrame.Editor.Refleaction
 						genericParamStr += ", ";
 					}
 				}
-				var defineName = Regex.Replace(genericDefine, @"`<,*>", $"<{genericParamStr}>");
+				var defineName = Regex.Replace(genericDefine, @"`\d+", $"<{genericParamStr}>");
 				return defineName;
 			};
 
@@ -111,66 +144,48 @@ namespace SMFrame.Editor.Refleaction
 		}
 
 
-        public static string ToGetMethod(this Type type)
+		static bool PublicToGetMethod(Type t, TypeTranslater translater, out string result)
+		{
+			if (t.IsPublic)
+			{
+				result = $"typeof({t.ToDeclareName(true)})";
+			}
+			else
+			{
+				result = $" ReleactionUtils.GetType(\"{t.ToDeclareName(true)}\")";
+			}
+			return true;
+		}
+
+		public static string ToGetMethod(this Type type)
         {
 			TypeTranslater typeTranslater = new TypeTranslater();
 			typeTranslater.needNameSpace = false;
 			typeTranslater.Array.format = "{0}.MakeArrayType()";
 			typeTranslater.Pointer.format = "{0}.MakePointerType()";
 			typeTranslater.ByRef.format = "{0}.MakeByRefType()";
-			typeTranslater.GenericTypeDefinition.format = "<{0}>";
-			typeTranslater.GenericType.format = "<{0}>";
-
-
-			if (type.IsArray)
-            {
-				var elementType = type.GetElementType();
-				return elementType.ToGetMethod() + ".MakeArrayType()";
-			}
-			else if (type.IsPointer)
+			typeTranslater.GenericTypeDefinition.can = false;
+			typeTranslater.GenericType.fun = (strs) =>
 			{
-				var elementType = type.GetElementType();
-				return elementType.ToGetMethod() + ".MakePointerType()";
-			}
-			else if (type.IsGenericParameter)
-            {
-                return $"Type.MakeGenericMethodParameter({type.GenericParameterPosition})";
-            }
-            else if(type.IsByRef)
-            {
-				var t = type.GetElementType();
-                return $"{t.ToGetMethod()}.MakeByRefType()";
-			}
-			else if (type.IsGenericType && !type.IsGenericTypeDefinition)
-            {
-				var genericTypes = type.GetGenericArguments();
-				var genericDefine = type.GetGenericTypeDefinition();
-
-                var genericDefineStr = genericDefine.ToGetMethod();
-
+				string genericDefineStr = strs[0];
 				string genericParamStr = string.Empty;
-				for (int i = 0; i < genericTypes.Length; i++)
+				for (int i = 2; i < strs.Length; i++)
 				{
-					var genericType = genericTypes[i];
-					var paramName = genericType.ToGetMethod();
+					var paramName = strs[i];
 					genericParamStr += paramName;
-					if (i != genericTypes.Length - 1)
+					if (i != strs.Length - 1)
 					{
 						genericParamStr += ", ";
 					}
 				}
-                return $"{genericDefineStr}.MakeGenericType({genericParamStr})";
-			}
+				return $"{genericDefineStr}.MakeGenericType({genericParamStr})";
+			};
+			typeTranslater.GenericParameter.format = "Type.MakeGenericMethodParameter({1})";
+			typeTranslater.translate = PublicToGetMethod;
 
-			else if (type.IsPublic)
-            {
-                return $"typeof({type.ToDeclareName(true)})";
-            }
-            else
-            {
-                return $" ReleactionUtils.GetType(\"{type.ToDeclareName(true)}\")";
-            }
-        }
+
+			return type.ToString(typeTranslater);
+		}
 
         public static Type ToBasicType(this Type type)
         {
@@ -211,27 +226,23 @@ namespace SMFrame.Editor.Refleaction
 			{
 				return String.Empty;
 			}
-			else if (translater.translate != null && translater.translate(type, translater, out string result))
-			{
-				return result;
-			}
-			else if (type.IsArray)
+			else if (type.IsArray && translater.Array.can)
 			{
 				var elementType = type.GetElementType();
 				return translater.Array.Format(elementType.ToString(translater));
 			}
-			else if (type.IsPointer)
+			else if (type.IsPointer && translater.Pointer.can)
 			{
 				var elementType = type.GetElementType();
 				return translater.Pointer.Format(elementType.ToString(translater));
 			}
-			else if (type.IsByRef)
+			else if (type.IsByRef && translater.ByRef.can)
 			{
 				var elementType = type.GetElementType();
 				return translater.ByRef.Format(elementType.ToString(translater));
 			}
 			// 这个要在IsGenericType前，因为IsGenericTypeDefinition也是IsGenericType
-			else if (type.IsGenericTypeDefinition)
+			else if (type.IsGenericTypeDefinition && translater.GenericTypeDefinition.can)
 			{
 				var genericTypes = type.GetGenericArguments();
 				var genericDefine = type.GetGenericTypeDefinition();
@@ -252,26 +263,38 @@ namespace SMFrame.Editor.Refleaction
 					return defineName;
 				}
 			}
-			else if (type.IsGenericType)
+			else if (type.IsGenericType && !type.IsGenericTypeDefinition && translater.GenericType.can)
 			{
 				// https://docs.microsoft.com/zh-cn/dotnet/framework/reflection-and-codedom/how-to-examine-and-instantiate-generic-types-with-reflection
 				var genericTypes = type.GetGenericArguments();
 				var genericDefine = type.GetGenericTypeDefinition();
-				string[] genericParamStr = new string[genericTypes.Length + 1];
+				string[] genericParamStr = new string[genericTypes.Length + 2];
 				genericParamStr[0] = genericDefine.ToString(translater);
+				genericParamStr[1] = genericDefine.Name;
 				for (int i = 0; i < genericTypes.Length; i++)
 				{
 					var genericType = genericTypes[i];
 					var paramName = genericType.ToString(translater);
-					genericParamStr[i + 1] = paramName;
+					genericParamStr[i + 2] = paramName;
 				}
 
 				var defineName = translater.GenericType.Format(genericParamStr);
-				return defineName;
+				if (needNameSpace && !defineName.StartsWith(genericDefine.Namespace))
+				{
+					return genericDefine.Namespace + "." + defineName;
+				}
+				else
+				{
+					return defineName;
+				}
 			}
-			else if (type.IsGenericParameter)
+			else if (type.IsGenericParameter && translater.GenericParameter.can)
 			{
-				return type.Name;
+				return translater.GenericParameter.Format(type.Name, type.GenericParameterPosition.ToString());
+			}
+			else if (translater.translate != null && translater.translate(type, translater, out string result))
+			{
+				return result;
 			}
 			else
 			{
