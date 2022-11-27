@@ -88,25 +88,36 @@ namespace SMFrame.Editor.Refleaction
 		}
 	}
 
-	public partial class GenerateRClass
+    public partial class GenerateRClass
     {
         [MenuItem("Tools/generate a file")]
         static void f()
         {
-			_waitToGenerate.Clear();
-			_cacheType.Clear();
+            _waitToGenerate.Clear();
+            _cacheType.Clear();
 
-			AddGenerateClass(typeof(GameObject));
+            AddGenerateClass(typeof(GameObject));
             GenerateClasses();
-			AssetDatabase.Refresh();
-		}
+            AssetDatabase.Refresh();
+        }
 
+        class s {
+            public class ins {
 
+            }
+
+        };
 		
 		[MenuItem("Tools/ra invoke")]
 		static void G()
 		{
-            //var type = typeof(a<>);
+
+            var type = typeof(s.ins);
+            Debug.Log(type.Name + "  " + type.FullName + "  " + type.ToString());
+            // TODO
+            // 1. 类种类
+            Debug.Log(ReleactionUtils.GetType(" SMFrame.Editor.Refleaction.GenerateRClass+s+ins"));
+            // 2.泛型
             //Debug.Log(ReleactionUtils.GetType("a`1"));
             //Debug.Log(type+ " ----  " + type.Name + " ----  " + type.GetGenericArguments().Length);
             //Generate(typeof(A));
@@ -115,12 +126,12 @@ namespace SMFrame.Editor.Refleaction
             //RSMFrame.REditor.RRefleaction.Ra<int> test = new();
             //test.SetBelong(ss);
             //Debug.Log( test.ToString());
-            A a = new A();
-            RA ra = new RA();
-            ra.SetInstance(a);
-            ra.N();
+   //         A a = new A();
+   //         RA ra = new RA();
+   //         ra.SetInstance(a);
+   //         ra.N();
 
-			Debug.Log(ra.N(new int[] { }));
+			//Debug.Log(ra.N(new int[] { }));
         }
 
         private static Queue<Type> _waitToGenerate = new Queue<Type>();
