@@ -148,7 +148,7 @@ namespace SMFrame.Editor.Refleaction
 			#endregion
 
 			var result = $@"
-        public {(isUnsafe ? "unsafe " : "")}{(method.IsStatic ? "static" : "virtual")} {returnTypeStr} {method.Name}{genericArgsDelcareStr}({paramDeclareStr})
+        public {(isUnsafe ? "unsafe " : "")}{(method.IsStatic ? "static" : "virtual")} {returnTypeStr} {method.Name.Replace('.', '_')}{genericArgsDelcareStr}({paramDeclareStr})
         {{
 {outDefaultStr}
             var ___genericsType = new Type[] {{{genricArgsStr}}};
@@ -199,8 +199,8 @@ namespace SMFrame.Editor.Refleaction
         static private string GetMethodName(MethodInfo method)
         {
             var generics = method.GetGenericArguments();
-            string paramStr = "R" + method.Name;
-            foreach (var generic in generics)
+            string paramStr =method.Name.Replace('.', '_') ;
+			foreach (var generic in generics)
             {
                 paramStr += "_G" + generic.Name;
             }
@@ -230,9 +230,9 @@ namespace SMFrame.Editor.Refleaction
                 {
                     paramStr += "_Ref_" + name;
                 }    
-                
             }
-            return paramStr;
+            paramStr = "R" + paramStr;
+			return paramStr;
         }
     }
 }

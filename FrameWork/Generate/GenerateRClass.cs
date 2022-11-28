@@ -100,33 +100,48 @@ namespace SMFrame.Editor.Refleaction
             AssetDatabase.Refresh();
         }
 
-        class s {
+        class s : IDisposable
+        {
+             void IDisposable.Dispose()
+            {
+                throw new NotImplementedException();
+            }
+
+            void Dispose()
+            {
+
+            }
+
             public class ins {
 
             }
 
-        };
-
+        }
         class g<T> { }
 		
 		[MenuItem("Tools/ra invoke")]
 		static void G()
 		{
 
-			// TODO
-			// 1. 类中类
-			var type = typeof(s.ins);
-            Debug.Log(type.Name + "  " + type.FullName + "  " + type.ToString());
-            Debug.Log(ReleactionUtils.GetType(" SMFrame.Editor.Refleaction.GenerateRClass+s+ins"));
+            // TODO
+            // 1. 类中类
+            var type = typeof(s.ins);
+            //         Debug.Log(type.Name + "  " + type.FullName + "  " + type.ToString());
+            //         Debug.Log(ReleactionUtils.GetType(" SMFrame.Editor.Refleaction.GenerateRClass+s+ins"));
 
-			// 2.泛型
-			type = typeof(Dictionary<,>);
-			Debug.Log(type.Name + "  " + type.FullName + "  " + type.ToString());
+            //// 2.泛型
+            //type = typeof(Dictionary<,>);
+            //Debug.Log(type.Name + "  " + type.FullName + "  " + type.ToString());
+            //         Debug.Log(ReleactionUtils.GetType("System.Collections.Generic.Dictionary`2"));
 
-            Debug.Log(ReleactionUtils.GetType("System.Collections.Generic.Dictionary`2"));
+            // 3.接口里面的xxx.xxx
+            type = typeof(DateTime);
+            var m = type.GetMethod("System.IConvertible.ToBoolean", Class.flags);
+            Debug.Log(m);
+
             //Debug.Log(type+ " ----  " + type.Name + " ----  " + type.GetGenericArguments().Length);
-            //Generate(typeof(A));
-            //AssetDatabase.Refresh();
+            Generate(typeof(DateTime));
+            AssetDatabase.Refresh();
             //a<int> ss = new a<int> ();
             //RSMFrame.REditor.RRefleaction.Ra<int> test = new();
             //test.SetBelong(ss);
@@ -310,7 +325,9 @@ namespace SMFrame.Editor.Refleaction.R{classType.Namespace.Replace(".", ".R")}
 
         private static string GenerateDeclare(string typeName, string name, string note, bool isStatic)
         {
-            return $"\t\tpublic {(isStatic ? "static" : "")} {typeName} {name}; //{note}\n";
+            name = name.Substring(name.LastIndexOf('.') + 1);
+
+			return $"\t\tpublic {(isStatic ? "static" : "")} {typeName} {name}; //{note}\n";
         }
 
         private static string GenerateMemberDeclare(Type type, string name, string memberType, bool isStatic)

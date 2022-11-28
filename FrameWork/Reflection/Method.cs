@@ -86,17 +86,25 @@ namespace SMFrame.Editor.Refleaction
 
 		public object Invoke(Type[] types, params object[] parameters)
 		{
-            if (methodInfo == null || (belong == null && !methodInfo.IsStatic))
-            {
-                return null;
-            }
-			if (types == null || types.Length <= 0)
+			try
 			{
-				return methodInfo.Invoke(belong, parameters);
+				if (methodInfo == null || (belong == null && !methodInfo.IsStatic))
+				{
+					return null;
+				}
+				if (types == null || types.Length <= 0)
+				{
+					return methodInfo.Invoke(belong, parameters);
+				}
+				else
+				{
+					return methodInfo.MakeGenericMethod(types).Invoke(belong, parameters);
+				}
 			}
-			else
+			catch(Exception e)
 			{
-				return methodInfo.MakeGenericMethod(types).Invoke(belong, parameters);
+				Debug.Log(e.ToString());
+				return null;
 			}
         }
 	}
