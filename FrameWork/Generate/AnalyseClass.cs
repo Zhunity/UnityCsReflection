@@ -91,7 +91,84 @@ namespace SMFrame.Editor.Refleaction
             return type.ToString(typeTranslater);
         }
 
-        public static string ToDeclareName(this Type type, bool needNameSpace = true)
+		public static string ToClassName(this Type type)
+		{
+			TypeTranslater typeTranslater = new TypeTranslater();
+			typeTranslater.needNameSpace = false;
+			typeTranslater.Array.format = "{0}[]";
+			typeTranslater.Pointer.format = "{0}*";
+			typeTranslater.GenericTypeDefinition.fun = (strs) => {
+				var genericDefine = strs[0];
+				string genericParamStr = string.Empty;
+				for (int i = 1; i < strs.Length; i++)
+				{
+					var paramName = strs[i];
+					genericParamStr += paramName;
+					if (i != strs.Length - 1)
+					{
+						genericParamStr += ", ";
+					}
+				}
+				var defineName = Regex.Replace(genericDefine, @"`\d+", $"<{genericParamStr}>");
+				return defineName;
+			};
+			typeTranslater.GenericType.fun = (strs) => {
+				var genericDefine = strs[1];
+				string genericParamStr = string.Empty;
+				for (int i = 2; i < strs.Length; i++)
+				{
+					var paramName = strs[i];
+					genericParamStr += paramName;
+					if (i != strs.Length - 1)
+					{
+						genericParamStr += ", ";
+					}
+				}
+				var defineName = Regex.Replace(genericDefine, @"`\d+", $"<{genericParamStr}>");
+				return defineName;
+			};
+
+			typeTranslater.translate = VoidToDeclareName;
+
+
+			return type.ToString(typeTranslater);
+		}
+
+		public static string ToConstructorName(this Type type)
+		{
+			TypeTranslater typeTranslater = new TypeTranslater();
+			typeTranslater.needNameSpace = false;
+			typeTranslater.Array.format = "{0}[]";
+			typeTranslater.Pointer.format = "{0}*";
+			typeTranslater.GenericTypeDefinition.fun = (strs) => {
+				var genericDefine = strs[0];
+				var defineName = Regex.Replace(genericDefine, @"`\d+", $"");
+				return defineName;
+			};
+			typeTranslater.GenericType.fun = (strs) => {
+				var genericDefine = strs[1];
+				string genericParamStr = string.Empty;
+				for (int i = 2; i < strs.Length; i++)
+				{
+					var paramName = strs[i];
+					genericParamStr += paramName;
+					if (i != strs.Length - 1)
+					{
+						genericParamStr += ", ";
+					}
+				}
+				var defineName = Regex.Replace(genericDefine, @"`\d+", $"<{genericParamStr}>");
+				return defineName;
+			};
+
+			typeTranslater.translate = VoidToDeclareName;
+
+
+			return type.ToString(typeTranslater);
+		}
+
+
+		public static string ToDeclareName(this Type type, bool needNameSpace = true)
         {
 			TypeTranslater typeTranslater = new TypeTranslater();
 			typeTranslater.needNameSpace = needNameSpace;

@@ -5,7 +5,6 @@ using UnityEngine;
 using UnityEditor;
 using System.Reflection;
 using System.IO;
-using SMFrame.Editor.Refleaction.RSMFrame.REditor.RRefleaction;
 
 namespace SMFrame.Editor.Refleaction
 {
@@ -107,18 +106,24 @@ namespace SMFrame.Editor.Refleaction
             }
 
         };
+
+        class g<T> { }
 		
 		[MenuItem("Tools/ra invoke")]
 		static void G()
 		{
 
-            var type = typeof(s.ins);
+			// TODO
+			// 1. 类中类
+			var type = typeof(s.ins);
             Debug.Log(type.Name + "  " + type.FullName + "  " + type.ToString());
-            // TODO
-            // 1. 类种类
             Debug.Log(ReleactionUtils.GetType(" SMFrame.Editor.Refleaction.GenerateRClass+s+ins"));
-            // 2.泛型
-            //Debug.Log(ReleactionUtils.GetType("a`1"));
+
+			// 2.泛型
+			type = typeof(Dictionary<,>);
+			Debug.Log(type.Name + "  " + type.FullName + "  " + type.ToString());
+
+            Debug.Log(ReleactionUtils.GetType("System.Collections.Generic.Dictionary`2"));
             //Debug.Log(type+ " ----  " + type.Name + " ----  " + type.GetGenericArguments().Length);
             //Generate(typeof(A));
             //AssetDatabase.Refresh();
@@ -126,12 +131,12 @@ namespace SMFrame.Editor.Refleaction
             //RSMFrame.REditor.RRefleaction.Ra<int> test = new();
             //test.SetBelong(ss);
             //Debug.Log( test.ToString());
-   //         A a = new A();
-   //         RA ra = new RA();
-   //         ra.SetInstance(a);
-   //         ra.N();
+            //         A a = new A();
+            //         RA ra = new RA();
+            //         ra.SetInstance(a);
+            //         ra.N();
 
-			//Debug.Log(ra.N(new int[] { }));
+            //Debug.Log(ra.N(new int[] { }));
         }
 
         private static Queue<Type> _waitToGenerate = new Queue<Type>();
@@ -242,16 +247,16 @@ using System.Reflection;
 
 namespace SMFrame.Editor.Refleaction.R{classType.Namespace.Replace(".", ".R")}
 {{
-    public partial class R{classType.ToDeclareName(false)} : Member
+    public partial class R{classType.ToClassName()} : Member
     {{
 {delcareStr}
 
-        public R{classType.ToDeclareName(false)}() : base(""{classType.ToDeclareName()}"")
+        public R{classType.ToConstructorName()}() : base(""{classType.FullName}"")
         {{
             NewMembers();
         }}
 
-        public R{classType.ToDeclareName(false)}(Member belongMember, string name) : base(belongMember, name)
+        public R{classType.ToConstructorName()}(Member belongMember, string name) : base(belongMember, name)
 	    {{
             NewMembers();
 	    }}
