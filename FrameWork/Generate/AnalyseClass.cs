@@ -295,6 +295,41 @@ namespace SMFrame.Editor.Refleaction
             }
 		}
 
+		public static void GetRefType(this Type type, ref HashSet<Type> child)
+		{
+			if (type.IsArray)
+			{
+				var elementType = type.GetElementType();
+				elementType.GetRefType(ref child);
+			}
+			else if (type.IsGenericParameter)
+			{
+				return;
+			}
+			else if (type.IsByRef)
+			{
+				var elementType = type.GetElementType();
+				elementType.GetRefType(ref child);
+			}
+			else if (type.IsPointer)
+			{
+				var elementType = type.GetElementType();
+				elementType.GetRefType(ref child);
+			}
+			else if (type.IsGenericType && !type.IsGenericTypeDefinition)
+			{
+				var definition = type.GetGenericTypeDefinition();
+				definition.GetRefType(ref child);
+
+				var paras = type.GetGenericArguments();
+				foreach(var para in paras)
+				{
+					para.GetRefType(ref child);
+				}
+			}
+			child.Add(type);
+		}
+
 		public static string ToString(this Type type, TypeTranslater translater)
 		{
 			bool needNameSpace = translater.needNameSpace;

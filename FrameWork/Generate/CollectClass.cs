@@ -14,30 +14,35 @@ namespace SMFrame.Editor.Refleaction
 	{
 		private static HashSet<Type> CollectClass(Type classType)
 		{
-			HashSet <Type> types = new HashSet<Type>();
+			HashSet<Type> refs = new HashSet<Type>();
 			var properties = classType.GetProperties(Class.flags);
 			foreach(var property in properties)
 			{
-				types.Add(property.PropertyType.ToBasicType());
+				property.PropertyType.GetRefType(ref refs);
 			}
 
 			var fields = classType.GetFields(Class.flags);
 			foreach (var field in fields)
 			{
-				types.Add(field.FieldType.ToBasicType());
+				field.FieldType.GetRefType(ref refs);
 			}
 
 			var methods = classType.GetMethods(Class.flags);
 			foreach (var method in methods)
 			{
-				types.Add(method.ReturnType.ToBasicType());
+				method.ReturnType.GetRefType(ref refs);
 				var parameters = method.GetParameters();
 				foreach (var param in parameters)
 				{
-					types.Add(param.ParameterType.ToBasicType());
+					param.ParameterType.GetRefType(ref refs);
 				}
 			}
 
+			HashSet<Type> types = new HashSet<Type>();
+			foreach (var type in refs)
+			{
+				types.Add(type.ToBasicType());
+			}
 			return types;
 		}
     }
