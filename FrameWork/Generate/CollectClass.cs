@@ -27,14 +27,15 @@ namespace SMFrame.Editor.Refleaction
 				field.FieldType.GetRefType(ref refs);
 			}
 
+			HashSet<Type> methodTypes = new HashSet<Type>();
 			var methods = classType.GetMethods(Class.flags);
 			foreach (var method in methods)
 			{
-				method.ReturnType.GetRefType(ref refs);
+				method.ReturnType.GetRefType(ref methodTypes);
 				var parameters = method.GetParameters();
 				foreach (var param in parameters)
 				{
-					param.ParameterType.GetRefType(ref refs);
+					param.ParameterType.GetRefType(ref methodTypes);
 				}
 			}
 
@@ -42,6 +43,17 @@ namespace SMFrame.Editor.Refleaction
 			foreach (var type in refs)
 			{
 				types.Add(type.ToBasicType());
+			}
+
+			// 函数只用生成非共有的类
+			foreach(var type in methodTypes)
+			{
+				var basicType = type.ToBasicType();
+				if(basicType == null || basicType.IsPublic)
+				{
+					continue;
+				}
+				types.Add(basicType);
 			}
 			return types;
 		}
