@@ -126,6 +126,10 @@ namespace SMFrame.Editor.Refleaction
 		static void G()
 		{
 			UnityCSReflectionPath = $"{Application.dataPath}/Script/UnityCsReflection/";
+			LoadReplace();
+			string s = "adfsdsdf.,1.\\q\\qeqqwe\\~";
+			LegalName(s);
+
 			// TODO
 			// 1. 类中类
 			var type = typeof(s.ins);
@@ -138,9 +142,9 @@ namespace SMFrame.Editor.Refleaction
             //         Debug.Log(ReleactionUtils.GetType("System.Collections.Generic.Dictionary`2"));
 
             // 3.接口里面的xxx.xxx
-            type = typeof(DateTime);
-            var m = type.GetMethod("System.IConvertible.ToBoolean", Class.flags);
-            Debug.Log(m);
+            //type = typeof(DateTime);
+            //var m = type.GetMethod("System.IConvertible.ToBoolean", Class.flags);
+            //Debug.Log(m);
 
             //Debug.Log(type+ " ----  " + type.Name + " ----  " + type.GetGenericArguments().Length);
             Generate(typeof(DateTime));

@@ -52,18 +52,24 @@ namespace SMFrame.Editor.Refleaction
 			replace = JsonUtility.FromJson<JsonDictionary<string, int>>(str);
 		}
 
-		static void Replace(string str)
+		static string LegalName(string str)
 		{
 			var matches = Regex.Matches(str, @"\W");
 			if(matches == null || matches.Count <= 0)
 			{
-				return;
+				return str;
 			}
 			foreach(var match in matches)
 			{
 				var c = match.ToString();
-				Debug.Log(c);
+				if(!replace.TryGetValue(c, out int value))
+				{
+					value = replace.Count;
+					replace[c] = value;
+				}
+				str = str.Replace(c, "__" + value.ToString() + "__");
 			}
+			return str;
 		}
 
 		static void SaveReplace()
