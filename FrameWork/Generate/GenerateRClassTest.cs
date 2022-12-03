@@ -97,9 +97,11 @@ namespace SMFrame.Editor.Refleaction
 
             _waitToGenerate.Clear();
             _cacheType.Clear();
+			LoadReplace();
 
-            AddGenerateClass(typeof(GameObject));
+			AddGenerateClass(typeof(GameObject));
             GenerateClasses();
+			SaveReplace();
             AssetDatabase.Refresh();
         }
 
@@ -146,9 +148,12 @@ namespace SMFrame.Editor.Refleaction
             //var m = type.GetMethod("System.IConvertible.ToBoolean", Class.flags);
             //Debug.Log(m);
 
+			// 4.数组
+
             //Debug.Log(type+ " ----  " + type.Name + " ----  " + type.GetGenericArguments().Length);
             Generate(typeof(DateTime));
-            AssetDatabase.Refresh();
+			SaveReplace();
+			AssetDatabase.Refresh();
             //a<int> ss = new a<int> ();
             //RSMFrame.REditor.RRefleaction.Ra<int> test = new();
             //test.SetBelong(ss);

@@ -185,7 +185,7 @@ namespace SMFrame.Editor.Refleaction.R{classType.Namespace.Replace(".", ".R")}
 
         private static string GenerateDeclare(string typeName, string name, string note, bool isStatic)
         {
-            name = name.Substring(name.LastIndexOf('.') + 1);
+            name = LegalName(name);
 
 			return $"\t\tpublic {(isStatic ? "static" : "")} {typeName} {name}; //{note}\n";
         }
@@ -199,7 +199,7 @@ namespace SMFrame.Editor.Refleaction.R{classType.Namespace.Replace(".", ".R")}
         private static string GenerateMemberNew(Type type, string name, string memberType)
         {
             string propertyType = IsPrimitive(type) ? memberType : "R" + type.ToDeclareName(false);
-			return $"\t\t\t{name} = new {propertyType}(this, \"{name}\");\n";
+			return $"\t\t\t{LegalName(name)} = new {propertyType}(this, \"{name}\");\n";
         }
 
         static HashSet<Type> PrimitiveType = new HashSet<Type>()
@@ -215,7 +215,8 @@ namespace SMFrame.Editor.Refleaction.R{classType.Namespace.Replace(".", ".R")}
         private static bool IsPrimitive(Type type)
         {
             return type == null ||
-                PrimitiveType.Contains(type) || 
+                PrimitiveType.Contains(type) ||
+                type.IsGenericParameter ||
                 type.IsEnum || type.IsPrimitive; // int float等值类型
         }
         #endregion

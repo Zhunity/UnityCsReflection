@@ -412,11 +412,11 @@ namespace SMFrame.Editor.Refleaction
 			{
 				if (needNameSpace)
 				{
-					return type.Namespace + "." + type.Name;
+					return type.Namespace + "." + GenerateRClass.LegalName(type.Name);
 				}
 				else
 				{
-					return type.Name;
+					return GenerateRClass.LegalName(type.Name);
 				}
 			}
 		}

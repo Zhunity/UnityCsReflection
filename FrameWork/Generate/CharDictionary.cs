@@ -52,7 +52,7 @@ namespace SMFrame.Editor.Refleaction
 			replace = JsonUtility.FromJson<JsonDictionary<string, int>>(str);
 		}
 
-		static string LegalName(string str)
+		public static string LegalName(string str)
 		{
 			var matches = Regex.Matches(str, @"\W");
 			if(matches == null || matches.Count <= 0)
