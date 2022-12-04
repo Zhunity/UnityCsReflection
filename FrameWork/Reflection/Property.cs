@@ -11,12 +11,21 @@ namespace SMFrame.Editor.Refleaction
 	{
 		public PropertyInfo propertyInfo;
 
-		public Property(Class belongMember, string name, int genericCount = -1) : base(belongMember, name, genericCount)
+		Type[] types;
+		bool hasInit = false;
+
+		public Property(Class belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount)
 		{
+			this.types = types;
+			hasInit = true;
+			SetInfo(belongMember.type, name);
 		}
 
-		public Property(Type belongType, string name, int genericCount = -1) : base(belongType, name, genericCount)
+		public Property(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount)
 		{
+			this.types = types;
+			hasInit = true;
+			SetInfo(belongType, name);
 		}
 
 
@@ -83,7 +92,11 @@ namespace SMFrame.Editor.Refleaction
 
 		protected override void SetInfo(Type belongType, string name)
 		{
-			propertyInfo = belongType.GetProperty(name, flags);
+			if (!hasInit)
+			{
+				return;
+			}
+			propertyInfo = belongType.GetProperty(name, Class.flags, null, null, types, null); ;
 		}
 
 		protected override void SetType()

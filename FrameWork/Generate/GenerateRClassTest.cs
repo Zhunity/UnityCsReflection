@@ -102,6 +102,7 @@ namespace SMFrame.Editor.Refleaction
 			AddGenerateClass(typeof(GameObject));
             GenerateClasses();
 			SaveReplace();
+			Debug.Log(_cacheType.Count);
             AssetDatabase.Refresh();
         }
 
@@ -165,5 +166,30 @@ namespace SMFrame.Editor.Refleaction
 
             //Debug.Log(ra.N(new int[] { }));
         }
+
+		class testItem
+		{
+			public int this[int a]
+			{
+				get
+				{
+					return 1;
+				}
+			}
+		}
+
+		[MenuItem("Tools/Matrix4x4e")]
+		static void Mat()
+		{
+			var t = typeof(Matrix4x4);
+			//var p = t.GetProperties(Class.flags);
+			//foreach(var item in p)
+			//{
+			//	Debug.Log(item.GetMethod + "  " + item.SetMethod);
+			//}
+			var p1 = t.GetProperty("Item", Class.flags, null, null, new Type[] { typeof(int)}, null); ;
+			var p2 = t.GetProperty("Item", Class.flags, null, null, new Type[] { typeof(int), typeof(int) }, null);
+			Debug.Log(p1 + "  " + p2);
+		}
     }
 }

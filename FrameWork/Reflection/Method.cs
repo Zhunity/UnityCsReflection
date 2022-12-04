@@ -27,7 +27,6 @@ namespace SMFrame.Editor.Refleaction
 
 		public Method(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount)
 		{
-            this.genericCount = genericCount;
             this.types = types;
             hasInit = true;
 			SetInfo(belongType, name);
