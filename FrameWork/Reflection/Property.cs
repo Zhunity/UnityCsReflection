@@ -11,11 +11,11 @@ namespace SMFrame.Editor.Refleaction
 	{
 		public PropertyInfo propertyInfo;
 
-		public Property(Class belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount)
+		public Property(Class belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
 		{
 		}
 
-		public Property(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount)
+		public Property(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
 		{
 		}
 

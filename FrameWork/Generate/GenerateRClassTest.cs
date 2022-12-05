@@ -5,6 +5,7 @@ using UnityEngine;
 using UnityEditor;
 using System.Reflection;
 using System.IO;
+using SMFrame.Editor.Refleaction.RUnityEngine;
 
 namespace SMFrame.Editor.Refleaction
 {
@@ -190,6 +191,14 @@ namespace SMFrame.Editor.Refleaction
 			var p1 = t.GetProperty("Item", Class.flags, null, null, new Type[] { typeof(int)}, null); ;
 			var p2 = t.GetProperty("Item", Class.flags, null, null, new Type[] { typeof(int), typeof(int) }, null);
 			Debug.Log(p1 + "  " + p2);
+		}
+
+		[MenuItem("Tools/TestGameObject")]
+		static void TestGameObject()
+		{
+			GameObject go = GameObject.CreatePrimitive(UnityEngine.PrimitiveType.Cube);
+			RGameObject rgo = new RGameObject(go);
+			rgo.transform.position.SetValue(new Vector3(100, 22, 542));
 		}
     }
 }
