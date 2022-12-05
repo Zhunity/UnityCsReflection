@@ -56,7 +56,7 @@ namespace SMFrame.Editor.Refleaction
             }
 
 			string propertyType = IsPrimitive(property.PropertyType) ? "Property" : "R" + property.PropertyType.ToDeclareName(false);
-			return $"\t\t\t{LegalName(name)} = new {propertyType}(this, \"{name}\", -1{paramStr});\n";
+			return $"\t\t\t{LegalName(name)} = new {propertyType}(this, \"{property.Name}\", -1{paramStr});\n";
 		}
 
 
@@ -64,6 +64,7 @@ namespace SMFrame.Editor.Refleaction
         {
             var method = property.GetMethod == null ? property.SetMethod : property.GetMethod;
 			string paramStr = GetMethodName(method);
+            paramStr = paramStr.Replace("Rget_", "").Replace("Rset_", "");
 			return paramStr;
         }
     }

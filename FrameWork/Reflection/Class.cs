@@ -17,6 +17,7 @@ namespace SMFrame.Editor.Refleaction
 		public Object instance;     // 这个对象的实例
 
 		protected int genericCount = -1;
+		protected Type[] types;
 		protected List<Member> memberList = new List<Member>();
 
 		public Object Value
@@ -41,9 +42,10 @@ namespace SMFrame.Editor.Refleaction
 		/// 毕竟主工程中可能拿不到该类型，只能通过传名字来完成操作
 		/// </summary>
 		/// <param name="type"></param>
-		public Class(string type, int genericCount = -1)
+		public Class(string type, int genericCount = -1, params Type[] types)
 		{
 			this.genericCount = genericCount;
+			this.types = types;
 			this.type = ReleactionUtils.GetType(type);
 			name = type;
 			memberList.Clear();
@@ -53,10 +55,11 @@ namespace SMFrame.Editor.Refleaction
 		/// 直接传进类型，省去查找类型的过程
 		/// </summary>
 		/// <param name="type"></param>
-		public Class(Type type, int genericCount = -1)
+		public Class(Type type, int genericCount = -1, params Type[] types)
 		{
 			this.type = type;
 			this.genericCount = genericCount;
+			this.types = types;
 			name = type.FullName;
 			memberList.Clear();
 		}

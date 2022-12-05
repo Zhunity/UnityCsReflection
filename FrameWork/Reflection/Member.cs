@@ -24,7 +24,7 @@ namespace SMFrame.Editor.Refleaction
 		/// 由于可能需要单独成为一个类型，而不是作为成员，所以需要实现类型的定义的构造函数
 		/// </summary>
 		/// <param name="type"></param>
-		public Member(string type, int genericCount = -1) : base(type, genericCount)
+		public Member(string type, int genericCount = -1, params Type[] types) : base(type, genericCount, types)
 		{
 		}
 
@@ -32,7 +32,7 @@ namespace SMFrame.Editor.Refleaction
 		/// 这个是定义类型用的，同上
 		/// </summary>
 		/// <param name="type"></param>
-		public Member(Type type, int genericCount = -1) : base(type, genericCount)
+		public Member(Type type, int genericCount = -1, params Type[] types) : base(type, genericCount, types)
 		{
 		}
 
@@ -42,7 +42,7 @@ namespace SMFrame.Editor.Refleaction
 		/// </summary>
 		/// <param name="belongMember"></param>
 		/// <param name="name"></param>
-		public Member(Class belongMember, string name, int genericCount = -1) : this(belongMember.type, name, genericCount)
+		public Member(Class belongMember, string name, int genericCount = -1, params Type[] types) : this(belongMember.type, name, genericCount, types)
 		{
 			belongMember.AddMember(this as Member);
 		}
@@ -54,9 +54,10 @@ namespace SMFrame.Editor.Refleaction
 		/// </summary>
 		/// <param name="belongType"></param>
 		/// <param name="name"></param>
-		public Member(Type belongType, string name, int genericCount = -1)
+		public Member(Type belongType, string name, int genericCount = -1, params Type[] types)
 		{
 			this.genericCount = genericCount;
+			this.types = types;
 			SetInfo(belongType, name);
 			SetBelongType(belongType);
 			SetName(name);

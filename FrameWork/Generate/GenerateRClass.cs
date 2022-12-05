@@ -123,7 +123,7 @@ namespace SMFrame.Editor.Refleaction.R{classType.Namespace.Replace(".", ".R")}
             NewMembers();
         }}
 
-        public R{classType.ToConstructorName()}(Member belongMember, string name) : base(belongMember, name)
+        public R{classType.ToConstructorName()}(Member belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
 	    {{
             NewMembers();
 	    }}

@@ -12,32 +12,18 @@ namespace SMFrame.Editor.Refleaction
 		static Type[] Empty = new Type[] { };
 
 		MethodInfo methodInfo;
-		
-		Type[] types;
-
-		bool hasInit = false;
 
 
 		public Method(Class belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount)
 		{
-            this.types = types;
-			hasInit = true;
-            SetInfo(belongMember.type, name);
         }
 
 		public Method(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount)
 		{
-            this.types = types;
-            hasInit = true;
-			SetInfo(belongType, name);
         }
 
 		protected override void SetInfo(Type belongType, string name)
 		{
-			if(!hasInit)
-			{
-				return;
-			}
 			if(genericCount < 0)
 			{
 				if(types == null)
