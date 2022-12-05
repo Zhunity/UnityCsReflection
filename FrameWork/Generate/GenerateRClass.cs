@@ -88,17 +88,9 @@ namespace SMFrame.Editor.Refleaction
 
 			HashSet<MethodInfo> getSetHash = new HashSet<MethodInfo>();
 
-            var properties = classType.GetProperties(Class.flags);
-            foreach (var property in properties)
-            {
-                getSetHash.Add(property.SetMethod);
-                getSetHash.Add(property.GetMethod);
+			GenerateProperty(classType, ref delcareStr, ref newStr, getSetHash);
 
-                delcareStr += GenerateMemberDeclare(property.PropertyType, property.Name, "Property", property.IsStatic());
-                newStr += GenerateMemberNew(property.PropertyType, property.Name, "Property");
-            }
-
-            var fields = classType.GetFields(Class.flags);
+			var fields = classType.GetFields(Class.flags);
             foreach (var field in fields)
             {
                 delcareStr += GenerateMemberDeclare(field.FieldType, field.Name, "Field", field.IsStatic);

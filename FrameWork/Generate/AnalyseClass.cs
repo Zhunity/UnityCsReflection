@@ -421,6 +421,20 @@ namespace SMFrame.Editor.Refleaction
 			}
 		}
 
+		public static bool IsPublic(this Type type)
+		{
+			HashSet<Type> refTypes = new HashSet<Type>();
+			type.GetRefType(ref refTypes);
+			foreach(var refType in refTypes)
+			{
+				if(!refType.IsPublic)
+				{
+					return false;
+				}
+			}
+			return true;
+		}
+
 		public static bool IsStatic(this PropertyInfo propertyInfo)
 		{
 			return ((propertyInfo.CanRead && propertyInfo.GetMethod.IsStatic) ||

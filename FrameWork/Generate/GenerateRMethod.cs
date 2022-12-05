@@ -98,7 +98,7 @@ namespace SMFrame.Editor.Refleaction
             {
                 var param = parameters[i];
                 var paramType = param.ParameterType;
-                if (paramType.IsNotPublic)
+                if (!paramType.IsPublic())
                 {
                     return string.Empty;
                 }
@@ -186,7 +186,8 @@ namespace SMFrame.Editor.Refleaction
         static string GetReturn(Type returnType, out string returnTypeStr)
         {
             bool canConvertToObject = !CanNotConvertToObject.Contains(returnType);
-            returnTypeStr = canConvertToObject ? returnType.ToDeclareName() : typeof(System.Object).ToDeclareName();
+            bool isPublic = returnType.IsPublic();
+            returnTypeStr = (canConvertToObject && isPublic) ? returnType.ToDeclareName() : typeof(System.Object).ToDeclareName();
             bool hasReturn = returnType != typeof(void);
             if (!hasReturn)
             {
