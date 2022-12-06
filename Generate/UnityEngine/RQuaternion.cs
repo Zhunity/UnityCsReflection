@@ -85,7 +85,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
         public RQuaternion() : base("UnityEngine.Quaternion")
         {
-            NewMembers();
+           // NewMembers();
         }
 
         public RQuaternion(System.Object instance) : base("UnityEngine.Quaternion")
@@ -96,7 +96,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
         public RQuaternion(Member belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
 	    {
-            NewMembers();
+           // NewMembers();
 	    }
 
         private void NewMembers()

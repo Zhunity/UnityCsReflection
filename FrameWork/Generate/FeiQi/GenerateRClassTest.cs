@@ -198,7 +198,8 @@ namespace SMFrame.Editor.Refleaction
 		{
 			GameObject go = GameObject.CreatePrimitive(UnityEngine.PrimitiveType.Cube);
 			RGameObject rgo = new RGameObject(go);
-			rgo.transform.position.SetValue(new Vector3(100, 22, 542));
+			var t= rgo.GetComponent<Transform>();
+			Debug.Log(t, t);
 		}
     }
 }

@@ -7,36 +7,30 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 {
     public partial class RVector3 : Member
     {
-		public  Property Item_Int32; //System.Single
-		public  RVector3 normalized; //UnityEngine.Vector3
-		public  Property magnitude; //System.Single
-		public  Property sqrMagnitude; //System.Single
-		public static RVector3 zero; //UnityEngine.Vector3
-		public static RVector3 one; //UnityEngine.Vector3
-		public static RVector3 forward; //UnityEngine.Vector3
-		public static RVector3 back; //UnityEngine.Vector3
-		public static RVector3 up; //UnityEngine.Vector3
-		public static RVector3 down; //UnityEngine.Vector3
-		public static RVector3 left; //UnityEngine.Vector3
-		public static RVector3 right; //UnityEngine.Vector3
-		public static RVector3 positiveInfinity; //UnityEngine.Vector3
-		public static RVector3 negativeInfinity; //UnityEngine.Vector3
-		public static RVector3 fwd; //UnityEngine.Vector3
+
+        private RVector3 m_rVector3;
+        public RVector3 normalized //UnityEngine.Vector3
+        {
+            get
+            {
+                if(m_rVector3 == null)
+                {
+					m_rVector3 = new RVector3(this, "normalized", -1);
+                    m_rVector3.SetBelong(this.instance);
+				}
+                return m_rVector3;
+
+			}
+        }
+
+
+
 		public static Field kEpsilon; //System.Single
 		public static Field kEpsilonNormalSqrt; //System.Single
 		public  Field x; //System.Single
 		public  Field y; //System.Single
 		public  Field z; //System.Single
-		public static RVector3 zeroVector; //UnityEngine.Vector3
-		public static RVector3 oneVector; //UnityEngine.Vector3
-		public static RVector3 upVector; //UnityEngine.Vector3
-		public static RVector3 downVector; //UnityEngine.Vector3
-		public static RVector3 leftVector; //UnityEngine.Vector3
-		public static RVector3 rightVector; //UnityEngine.Vector3
-		public static RVector3 forwardVector; //UnityEngine.Vector3
-		public static RVector3 backVector; //UnityEngine.Vector3
-		public static RVector3 positiveInfinityVector; //UnityEngine.Vector3
-		public static RVector3 negativeInfinityVector; //UnityEngine.Vector3
+	
 		public static Method RSlerp_Vector3_Vector3_Single; //UnityEngine.Vector3 Slerp(UnityEngine.Vector3, UnityEngine.Vector3, Single)
 		public static Method RSlerpUnclamped_Vector3_Vector3_Single; //UnityEngine.Vector3 SlerpUnclamped(UnityEngine.Vector3, UnityEngine.Vector3, Single)
 		public static Method ROrthoNormalize2_Ref_Vector3_Ref_Vector3; //Void OrthoNormalize2(UnityEngine.Vector3 ByRef, UnityEngine.Vector3 ByRef)
@@ -94,7 +88,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
         public RVector3() : base("UnityEngine.Vector3")
         {
-            NewMembers();
+            //NewMembers();
         }
 
         public RVector3(System.Object instance) : base("UnityEngine.Vector3")
@@ -105,41 +99,19 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
         public RVector3(Member belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
 	    {
-            NewMembers();
+           // NewMembers();
 	    }
 
         private void NewMembers()
         {
-			Item_Int32 = new Property(this, "Item", -1, typeof(System.Int32));
-			normalized = new RVector3(this, "normalized", -1);
-			magnitude = new Property(this, "magnitude", -1);
-			sqrMagnitude = new Property(this, "sqrMagnitude", -1);
-			zero = new RVector3(this, "zero", -1);
-			one = new RVector3(this, "one", -1);
-			forward = new RVector3(this, "forward", -1);
-			back = new RVector3(this, "back", -1);
-			up = new RVector3(this, "up", -1);
-			down = new RVector3(this, "down", -1);
-			left = new RVector3(this, "left", -1);
-			right = new RVector3(this, "right", -1);
-			positiveInfinity = new RVector3(this, "positiveInfinity", -1);
-			negativeInfinity = new RVector3(this, "negativeInfinity", -1);
-			fwd = new RVector3(this, "fwd", -1);
+			
+			
 			kEpsilon = new Field(this, "kEpsilon");
 			kEpsilonNormalSqrt = new Field(this, "kEpsilonNormalSqrt");
 			x = new Field(this, "x");
 			y = new Field(this, "y");
 			z = new Field(this, "z");
-			zeroVector = new RVector3(this, "zeroVector");
-			oneVector = new RVector3(this, "oneVector");
-			upVector = new RVector3(this, "upVector");
-			downVector = new RVector3(this, "downVector");
-			leftVector = new RVector3(this, "leftVector");
-			rightVector = new RVector3(this, "rightVector");
-			forwardVector = new RVector3(this, "forwardVector");
-			backVector = new RVector3(this, "backVector");
-			positiveInfinityVector = new RVector3(this, "positiveInfinityVector");
-			negativeInfinityVector = new RVector3(this, "negativeInfinityVector");
+			
 			RSlerp_Vector3_Vector3_Single = new Method(this, "Slerp", 0, typeof(UnityEngine.Vector3), typeof(UnityEngine.Vector3), typeof(System.Single));
 			RSlerpUnclamped_Vector3_Vector3_Single = new Method(this, "SlerpUnclamped", 0, typeof(UnityEngine.Vector3), typeof(UnityEngine.Vector3), typeof(System.Single));
 			ROrthoNormalize2_Ref_Vector3_Ref_Vector3 = new Method(this, "OrthoNormalize2", 0, typeof(UnityEngine.Vector3).MakeByRefType(), typeof(UnityEngine.Vector3).MakeByRefType());

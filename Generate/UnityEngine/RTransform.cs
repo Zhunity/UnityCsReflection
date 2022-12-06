@@ -194,7 +194,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
         public RTransform() : base("UnityEngine.Transform")
         {
-            NewMembers();
+          //  NewMembers();
         }
 
         public RTransform(System.Object instance) : base("UnityEngine.Transform")
@@ -205,7 +205,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
         public RTransform(Member belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
 	    {
-            NewMembers();
+            //NewMembers();
 	    }
 
         private void NewMembers()

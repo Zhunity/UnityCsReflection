@@ -127,32 +127,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
         private void NewMembers()
         {
-			transform = new RTransform(this, "transform", -1);
-			layer = new Property(this, "layer", -1);
-			active = new Property(this, "active", -1);
-			activeSelf = new Property(this, "activeSelf", -1);
-			activeInHierarchy = new Property(this, "activeInHierarchy", -1);
-			isStatic = new Property(this, "isStatic", -1);
-			isStaticBatchable = new Property(this, "isStaticBatchable", -1);
-			tag = new Property(this, "tag", -1);
-			scene = new RScene(this, "scene", -1);
-			sceneCullingMask = new Property(this, "sceneCullingMask", -1);
-			gameObject = new RGameObject(this, "gameObject", -1);
-			rigidbody = new RComponent(this, "rigidbody", -1);
-			rigidbody2D = new RComponent(this, "rigidbody2D", -1);
-			camera = new RComponent(this, "camera", -1);
-			light = new RComponent(this, "light", -1);
-			animation = new RComponent(this, "animation", -1);
-			constantForce = new RComponent(this, "constantForce", -1);
-			renderer = new RComponent(this, "renderer", -1);
-			audio = new RComponent(this, "audio", -1);
-			networkView = new RComponent(this, "networkView", -1);
-			collider = new RComponent(this, "collider", -1);
-			collider2D = new RComponent(this, "collider2D", -1);
-			hingeJoint = new RComponent(this, "hingeJoint", -1);
-			particleSystem = new RComponent(this, "particleSystem", -1);
-			name = new Property(this, "name", -1);
-			hideFlags = new Property(this, "hideFlags", -1);
+			
 			RCreatePrimitive_PrimitiveType = new Method(this, "CreatePrimitive", 0, typeof(UnityEngine.PrimitiveType));
 			RGetComponent_GT = new Method(this, "GetComponent", 1);
 			RGetComponent_Type = new Method(this, "GetComponent", 0, typeof(System.Type));

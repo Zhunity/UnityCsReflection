@@ -49,7 +49,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RSceneManagement
 
         public RScene() : base("UnityEngine.SceneManagement.Scene")
         {
-            NewMembers();
+            //NewMembers();
         }
 
         public RScene(System.Object instance) : base("UnityEngine.SceneManagement.Scene")
@@ -60,7 +60,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RSceneManagement
 
         public RScene(Member belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
 	    {
-            NewMembers();
+            //NewMembers();
 	    }
 
         private void NewMembers()
