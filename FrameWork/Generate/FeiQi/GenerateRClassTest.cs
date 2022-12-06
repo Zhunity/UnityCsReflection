@@ -201,5 +201,14 @@ namespace SMFrame.Editor.Refleaction
 			var t= rgo.GetComponent<Transform>();
 			Debug.Log(t, t);
 		}
-    }
+
+		[MenuItem("Tools/TestVector")]
+		static void TestVector()
+		{
+			Vector3 v = new Vector3(100, 22, 3);
+			RVector3 rv = new RVector3(v);
+			
+			Debug.Log(rv.normalized.Value + "  " + v.normalized);
+		}
+	}
 }

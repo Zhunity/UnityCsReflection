@@ -106,12 +106,6 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         {
 			
 			
-			kEpsilon = new Field(this, "kEpsilon");
-			kEpsilonNormalSqrt = new Field(this, "kEpsilonNormalSqrt");
-			x = new Field(this, "x");
-			y = new Field(this, "y");
-			z = new Field(this, "z");
-			
 			RSlerp_Vector3_Vector3_Single = new Method(this, "Slerp", 0, typeof(UnityEngine.Vector3), typeof(UnityEngine.Vector3), typeof(System.Single));
 			RSlerpUnclamped_Vector3_Vector3_Single = new Method(this, "SlerpUnclamped", 0, typeof(UnityEngine.Vector3), typeof(UnityEngine.Vector3), typeof(System.Single));
 			ROrthoNormalize2_Ref_Vector3_Ref_Vector3 = new Method(this, "OrthoNormalize2", 0, typeof(UnityEngine.Vector3).MakeByRefType(), typeof(UnityEngine.Vector3).MakeByRefType());
