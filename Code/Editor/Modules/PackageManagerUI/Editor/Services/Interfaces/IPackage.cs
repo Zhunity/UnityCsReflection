@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using SMFrame.Editor.Refleaction;
 
-public class IPackage : Property
+public class IPackage : RProperty
 {
-	Property displayName;
-	Property packageName;
+	RProperty displayName;
+	RProperty packageName;
 	IPackageVersion installedVersion;
 	IPackageVersion latestVersion;
 
@@ -18,10 +18,10 @@ public class IPackage : Property
 	// it will be the default that will be displayed if no versions are selected
 	IPackageVersion primaryVersion;
 
-	public IPackage(Class belongMember, string name) : base(belongMember, name)
+	public IPackage(RClass belongMember, string name) : base(belongMember, name)
 	{
-		displayName = new Property(this, "displayName");
-		packageName = new Property(this, "name");
+		displayName = new RProperty(this, "displayName");
+		packageName = new RProperty(this, "name");
 		installedVersion = new IPackageVersion(this, "installedVersion");
 		latestVersion = new IPackageVersion(this, "latestVersion");
 		recommendedVersion = new IPackageVersion(this, "recommendedVersion");

@@ -24,7 +24,7 @@ namespace SMFrame.Editor.Refleaction
 		private static string GenerateMethod(Type classType, HashSet<MethodInfo> getSetHash, ref string delcareStr,  ref string newStr)
         {
             string methodInvoke = string.Empty;
-            var methods = classType.GetMethods(Class.flags);
+            var methods = classType.GetMethods(RClass.flags);
             foreach (var method in methods)
             {
                 if (getSetHash.Contains(method))
@@ -43,7 +43,7 @@ namespace SMFrame.Editor.Refleaction
         {
             string name = GetMethodName(method);
 
-            return GenerateDeclare("Method", name, method.ToString(), method.IsStatic);
+            return GenerateDeclare("RMethod", name, method.ToString(), method.IsStatic);
         }
 
         private static string GenerateMethodNew(MethodInfo method)
@@ -58,7 +58,7 @@ namespace SMFrame.Editor.Refleaction
                 paramStr += $", {parameters[i].ParameterType.ToGetMethod()}";
             }
 
-            return $"\t\t\t{name} = new Method(this, \"{method.Name}\", {generics.Length}{paramStr});\n";
+            return $"\t\t\t{name} = new RMethod(this, \"{method.Name}\", {generics.Length}{paramStr});\n";
         }
 
         private static string GenerateMethodInvoke(MethodInfo method)

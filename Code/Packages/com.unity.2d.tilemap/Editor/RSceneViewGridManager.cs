@@ -5,13 +5,13 @@ using UnityEngine;
 
 namespace UnityEditor.Tilemaps
 {
-	public class RSceneViewGridManager : Class
+	public class RSceneViewGridManager : RClass
 	{
-		Method _drawGrid;
+		RMethod _drawGrid;
 
 		public RSceneViewGridManager() : base("SceneViewGridManager")
 		{
-			_drawGrid = new Method(this, "DrawGrid");
+			_drawGrid = new RMethod(this, "DrawGrid");
 		}
 
 		public void DrawGrid(GridLayout gridLayout)

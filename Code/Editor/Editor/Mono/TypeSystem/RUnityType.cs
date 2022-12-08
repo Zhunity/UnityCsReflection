@@ -5,10 +5,10 @@ using UnityEngine;
 
 namespace SMFrame.Editor.Refleaction
 {
-	public class RUnityType : Class
+	public class RUnityType : RClass
 	{
-		public Property _name;
-		private Method _FindTypeByPersistentTypeID;
+		public RProperty _name;
+		private RMethod _FindTypeByPersistentTypeID;
 
 		private static RUnityType _instance;
 		public static RUnityType Instance
@@ -25,8 +25,8 @@ namespace SMFrame.Editor.Refleaction
 
 		public RUnityType() : base("UnityType")
 		{
-			_name = new Property(this, "name");
-			_FindTypeByPersistentTypeID = new Method(this, "FindTypeByPersistentTypeID");
+			_name = new RProperty(this, "name");
+			_FindTypeByPersistentTypeID = new RMethod(this, "FindTypeByPersistentTypeID");
 		}
 
 		public static RUnityType FindTypeByPersistentTypeID(int classId)

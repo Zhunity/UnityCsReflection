@@ -7,15 +7,15 @@ using Object = System.Object;
 
 namespace SMFrame.Editor.Refleaction
 {
-	public class Field : Member
+	public class RField : RMember
 	{
 		FieldInfo fieldInfo;
 
-		public Field(Class belongMember, string name, int genericCount = -1) : base(belongMember, name, genericCount)
+		public RField(RClass belongMember, string name, int genericCount = -1) : base(belongMember, name, genericCount)
 		{
 		}
 
-		public Field(Type belongType, string name, int genericCount = -1) : base(belongType, name, genericCount)
+		public RField(Type belongType, string name, int genericCount = -1) : base(belongType, name, genericCount)
 		{
 		}
 

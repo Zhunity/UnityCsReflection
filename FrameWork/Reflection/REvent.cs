@@ -7,15 +7,15 @@ using Object = System.Object;
 
 namespace SMFrame.Editor.Refleaction
 {
-	public sealed class Event : Member
+	public sealed class REvent : RMember
 	{
 		EventInfo eventInfo;
 
-		public Event(Class belongMember, string name) : base(belongMember, name)
+		public REvent(RClass belongMember, string name) : base(belongMember, name)
 		{
 		}
 
-		public Event(Type belongType, string name) : base(belongType, name)
+		public REvent(Type belongType, string name) : base(belongType, name)
 		{
 		}
 

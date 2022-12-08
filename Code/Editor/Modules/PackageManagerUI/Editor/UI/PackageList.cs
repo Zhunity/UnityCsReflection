@@ -8,15 +8,15 @@ using SMFrame.Editor.Refleaction;
 /// <summary>
 /// 显示出来的package列表
 /// </summary>
-public class PackageList : Member
+public class PackageList : RMember
 {
-	Field m_PackageItemsLookup;
+	RField m_PackageItemsLookup;
 	Type packageItemType;
 	Dictionary<string, RPackageItem> r_PackageItemsLookup = new Dictionary<string, RPackageItem>(); // 122个
 
-	public PackageList(Member belongMember, string name) : base(belongMember, name)
+	public PackageList(RMember belongMember, string name) : base(belongMember, name)
 	{
-		m_PackageItemsLookup = new Field(this, "m_PackageItemsLookup");
+		m_PackageItemsLookup = new RField(this, "m_PackageItemsLookup");
 		var arguments = m_PackageItemsLookup.GetGenericTypeArguments();
 		r_PackageItemsLookup.Clear();
 		packageItemType = arguments[1];

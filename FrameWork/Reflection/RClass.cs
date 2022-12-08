@@ -7,7 +7,7 @@ using Object = System.Object;
 
 namespace SMFrame.Editor.Refleaction
 {
-	public class Class
+	public class RClass
 	{
 		public const BindingFlags flags = BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance | BindingFlags.Static;
 
@@ -18,7 +18,7 @@ namespace SMFrame.Editor.Refleaction
 
 		protected int genericCount = -1;
 		protected Type[] types;
-		protected List<Member> memberList = new List<Member>();
+		protected List<RMember> memberList = new List<RMember>();
 
 		public Object Value
 		{
@@ -32,7 +32,7 @@ namespace SMFrame.Editor.Refleaction
 			}
 		}
 
-		protected Class()
+		protected RClass()
 		{
 			memberList.Clear();
 		}
@@ -42,7 +42,7 @@ namespace SMFrame.Editor.Refleaction
 		/// 毕竟主工程中可能拿不到该类型，只能通过传名字来完成操作
 		/// </summary>
 		/// <param name="type"></param>
-		public Class(string type, int genericCount = -1, params Type[] types)
+		public RClass(string type, int genericCount = -1, params Type[] types)
 		{
 			this.genericCount = genericCount;
 			this.types = types;
@@ -55,7 +55,7 @@ namespace SMFrame.Editor.Refleaction
 		/// 直接传进类型，省去查找类型的过程
 		/// </summary>
 		/// <param name="type"></param>
-		public Class(Type type, int genericCount = -1, params Type[] types)
+		public RClass(Type type, int genericCount = -1, params Type[] types)
 		{
 			this.type = type;
 			this.genericCount = genericCount;
@@ -113,7 +113,7 @@ namespace SMFrame.Editor.Refleaction
 		/// 添加反射类成员
 		/// </summary>
 		/// <param name="belongMember"></param>
-		public void AddMember(Member member)
+		public void AddMember(RMember member)
 		{
 			memberList.Add(member);
 		}
@@ -136,35 +136,35 @@ namespace SMFrame.Editor.Refleaction
 			return ReleactionUtils.ConvertObject(Value, type);
 		}
 
-		public Member CreateMember(string name)
+		public RMember CreateMember(string name)
 		{
-			return new Member(this, name);
+			return new RMember(this, name);
 		}
 
-		public Field CreateField(string name)
+		public RField CreateField(string name)
 		{
-			return new Field(this, name);
+			return new RField(this, name);
 		}
 
-		public Property CreateProperty(string name)
+		public RProperty CreateProperty(string name)
 		{
-			return new Property(this, name);
+			return new RProperty(this, name);
 		}
 
-		public Method CreateMethod(string name)
+		public RMethod CreateMethod(string name)
 		{
-			return new Method(this, name);
+			return new RMethod(this, name);
 		}
 
-		public Event CreateEvent(string name)
+		public REvent CreateEvent(string name)
 		{
-			return new Event(this, name);
+			return new REvent(this, name);
 		}
 
 		/// <summary>
 		/// Name:变量名
 		/// ReflectedType：当前变量所在的变量
-		/// MemberType：Property, Field等类型
+		/// MemberType：RProperty, Field等类型
 		/// DeclaringType：定义这个变量的类型位置
 		/// </summary>
 		public void ShowMembers()
@@ -195,13 +195,13 @@ namespace SMFrame.Editor.Refleaction
 				if (item.MemberType == MemberTypes.Property)
 				{
 					PropertyInfo info = item as PropertyInfo;
-					object value = Property.GetPropertyValue(info, instance);
+					object value = RProperty.GetPropertyValue(info, instance);
 					Debug.Log("Name:\t\t" + item.Name + "\nvalue:\t\t" + value + "\nReflectedType:\t" + item.ReflectedType + "\nMemberType:\t" + item.MemberType + "\nPropertyType:\t" + info.PropertyType + "\ndesc:\t\t" + desc);
 				}
 				else if (item.MemberType == MemberTypes.Field)
 				{
 					FieldInfo info = item as FieldInfo;
-					object value = Field.GetFieldValue(info, instance);
+					object value = RField.GetFieldValue(info, instance);
 					Debug.Log("Name:\t\t" + item.Name + "\nvalue:\t\t" + value + "\nReflectedType:\t" + item.ReflectedType + "\nMemberType:\t" + item.MemberType + "\nFieldType:\t" + info.FieldType + "\ndesc:\t\t" + desc);
 				}
 			}

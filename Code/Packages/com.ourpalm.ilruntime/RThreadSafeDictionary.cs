@@ -3,11 +3,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class RThreadSafeDictionary : Field
+public class RThreadSafeDictionary : RField
 {
-	public Property InnerDictionary;
+	public RProperty InnerDictionary;
 
-	public RThreadSafeDictionary(Class belong, string name) : base(belong, name)
+	public RThreadSafeDictionary(RClass belong, string name) : base(belong, name)
 	{
 		InnerDictionary = CreateProperty("InnerDictionary");
 	}

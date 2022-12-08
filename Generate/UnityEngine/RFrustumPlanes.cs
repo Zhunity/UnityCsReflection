@@ -4,20 +4,20 @@ using System.Reflection;
 
 namespace SMFrame.Editor.Refleaction.RUnityEngine
 {
-    public partial class RFrustumPlanes : Member
+    public partial class RFrustumPlanes : RMember
     {
-		public  Field left; //System.Single
-		public  Field right; //System.Single
-		public  Field bottom; //System.Single
-		public  Field top; //System.Single
-		public  Field zNear; //System.Single
-		public  Field zFar; //System.Single
-		public  Method REquals_Object; //Boolean Equals(System.Object)
-		public  Method RGetHashCode; //Int32 GetHashCode()
-		public  Method RToString; //System.String ToString()
-		public  Method RFinalize; //Void Finalize()
-		public  Method RGetType; //System.Type GetType()
-		public  Method RMemberwiseClone; //System.Object MemberwiseClone()
+		public  RField left; //System.Single
+		public  RField right; //System.Single
+		public  RField bottom; //System.Single
+		public  RField top; //System.Single
+		public  RField zNear; //System.Single
+		public  RField zFar; //System.Single
+		public  RMethod REquals_Object; //Boolean Equals(System.Object)
+		public  RMethod RGetHashCode; //Int32 GetHashCode()
+		public  RMethod RToString; //System.String ToString()
+		public  RMethod RFinalize; //Void Finalize()
+		public  RMethod RGetType; //System.Type GetType()
+		public  RMethod RMemberwiseClone; //System.Object MemberwiseClone()
 
 
         public RFrustumPlanes() : base("UnityEngine.FrustumPlanes")
@@ -31,25 +31,25 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             SetInstance(instance);
 		}
 
-        public RFrustumPlanes(Member belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+        public RFrustumPlanes(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
 	    {
             NewMembers();
 	    }
 
         private void NewMembers()
         {
-			left = new Field(this, "left");
-			right = new Field(this, "right");
-			bottom = new Field(this, "bottom");
-			top = new Field(this, "top");
-			zNear = new Field(this, "zNear");
-			zFar = new Field(this, "zFar");
-			REquals_Object = new Method(this, "Equals", 0, typeof(System.Object));
-			RGetHashCode = new Method(this, "GetHashCode", 0);
-			RToString = new Method(this, "ToString", 0);
-			RFinalize = new Method(this, "Finalize", 0);
-			RGetType = new Method(this, "GetType", 0);
-			RMemberwiseClone = new Method(this, "MemberwiseClone", 0);
+			left = new RField(this, "left");
+			right = new RField(this, "right");
+			bottom = new RField(this, "bottom");
+			top = new RField(this, "top");
+			zNear = new RField(this, "zNear");
+			zFar = new RField(this, "zFar");
+			REquals_Object = new RMethod(this, "Equals", 0, typeof(System.Object));
+			RGetHashCode = new RMethod(this, "GetHashCode", 0);
+			RToString = new RMethod(this, "ToString", 0);
+			RFinalize = new RMethod(this, "Finalize", 0);
+			RGetType = new RMethod(this, "GetType", 0);
+			RMemberwiseClone = new RMethod(this, "MemberwiseClone", 0);
 
         }
 

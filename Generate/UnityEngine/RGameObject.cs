@@ -6,18 +6,18 @@ using System.Reflection;
 
 namespace SMFrame.Editor.Refleaction.RUnityEngine
 {
-    public partial class RGameObject : Member
+    public partial class RGameObject : RMember
     {
 		public  RTransform transform; //UnityEngine.Transform
-		public  Property layer; //System.Int32
-		public  Property active; //System.Boolean
-		public  Property activeSelf; //System.Boolean
-		public  Property activeInHierarchy; //System.Boolean
-		public  Property isStatic; //System.Boolean
-		public  Property isStaticBatchable; //System.Boolean
-		public  Property tag; //System.String
+		public  RProperty layer; //System.Int32
+		public  RProperty active; //System.Boolean
+		public  RProperty activeSelf; //System.Boolean
+		public  RProperty activeInHierarchy; //System.Boolean
+		public  RProperty isStatic; //System.Boolean
+		public  RProperty isStaticBatchable; //System.Boolean
+		public  RProperty tag; //System.String
 		public  RScene scene; //UnityEngine.SceneManagement.Scene
-		public  Property sceneCullingMask; //System.UInt64
+		public  RProperty sceneCullingMask; //System.UInt64
 		public  RGameObject gameObject; //UnityEngine.GameObject
 		public  RComponent rigidbody; //UnityEngine.Component
 		public  RComponent rigidbody2D; //UnityEngine.Component
@@ -32,81 +32,81 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		public  RComponent collider2D; //UnityEngine.Component
 		public  RComponent hingeJoint; //UnityEngine.Component
 		public  RComponent particleSystem; //UnityEngine.Component
-		public  Property name; //System.String
-		public  Property hideFlags; //UnityEngine.HideFlags
-		public static Method RCreatePrimitive_PrimitiveType; //UnityEngine.GameObject CreatePrimitive(UnityEngine.PrimitiveType)
-		public  Method RGetComponent_GT; //T GetComponent[T]()
-		public  Method RGetComponent_Type; //UnityEngine.Component GetComponent(System.Type)
-		public  Method RGetComponentFastPath_Type_IntPtr; //Void GetComponentFastPath(System.Type, IntPtr)
-		public  Method RGetComponentByName_String; //UnityEngine.Component GetComponentByName(System.String)
-		public  Method RGetComponent_String; //UnityEngine.Component GetComponent(System.String)
-		public  Method RGetComponentInChildren_Type_Boolean; //UnityEngine.Component GetComponentInChildren(System.Type, Boolean)
-		public  Method RGetComponentInChildren_Type; //UnityEngine.Component GetComponentInChildren(System.Type)
-		public  Method RGetComponentInChildren_GT; //T GetComponentInChildren[T]()
-		public  Method RGetComponentInChildren_GT_Boolean; //T GetComponentInChildren[T](Boolean)
-		public  Method RGetComponentInParent_Type_Boolean; //UnityEngine.Component GetComponentInParent(System.Type, Boolean)
-		public  Method RGetComponentInParent_Type; //UnityEngine.Component GetComponentInParent(System.Type)
-		public  Method RGetComponentInParent_GT; //T GetComponentInParent[T]()
-		public  Method RGetComponentInParent_GT_Boolean; //T GetComponentInParent[T](Boolean)
-		public  Method RGetComponentsInternal_Type_Boolean_Boolean_Boolean_Boolean_Object; //System.Array GetComponentsInternal(System.Type, Boolean, Boolean, Boolean, Boolean, System.Object)
-		public  Method RGetComponents_Type; //UnityEngine.Component[] GetComponents(System.Type)
-		public  Method RGetComponents_GT; //T[] GetComponents[T]()
-		public  Method RGetComponents_Type_List_d_Component_p_; //Void GetComponents(System.Type, System.Collections.Generic.List`1[UnityEngine.Component])
-		public  Method RGetComponents_GT_List_d_T_p_; //Void GetComponents[T](System.Collections.Generic.List`1[T])
-		public  Method RGetComponentsInChildren_Type; //UnityEngine.Component[] GetComponentsInChildren(System.Type)
-		public  Method RGetComponentsInChildren_Type_Boolean; //UnityEngine.Component[] GetComponentsInChildren(System.Type, Boolean)
-		public  Method RGetComponentsInChildren_GT_Boolean; //T[] GetComponentsInChildren[T](Boolean)
-		public  Method RGetComponentsInChildren_GT_Boolean_List_d_T_p_; //Void GetComponentsInChildren[T](Boolean, System.Collections.Generic.List`1[T])
-		public  Method RGetComponentsInChildren_GT; //T[] GetComponentsInChildren[T]()
-		public  Method RGetComponentsInChildren_GT_List_d_T_p_; //Void GetComponentsInChildren[T](System.Collections.Generic.List`1[T])
-		public  Method RGetComponentsInParent_Type; //UnityEngine.Component[] GetComponentsInParent(System.Type)
-		public  Method RGetComponentsInParent_Type_Boolean; //UnityEngine.Component[] GetComponentsInParent(System.Type, Boolean)
-		public  Method RGetComponentsInParent_GT_Boolean_List_d_T_p_; //Void GetComponentsInParent[T](Boolean, System.Collections.Generic.List`1[T])
-		public  Method RGetComponentsInParent_GT_Boolean; //T[] GetComponentsInParent[T](Boolean)
-		public  Method RGetComponentsInParent_GT; //T[] GetComponentsInParent[T]()
-		public  Method RTryGetComponent_GT_Out_T; //Boolean TryGetComponent[T](T ByRef)
-		public  Method RTryGetComponent_Type_Out_Component; //Boolean TryGetComponent(System.Type, UnityEngine.Component ByRef)
-		public  Method RTryGetComponentInternal_Type; //UnityEngine.Component TryGetComponentInternal(System.Type)
-		public  Method RTryGetComponentFastPath_Type_IntPtr; //Void TryGetComponentFastPath(System.Type, IntPtr)
-		public static Method RFindWithTag_String; //UnityEngine.GameObject FindWithTag(System.String)
-		public  Method RSendMessageUpwards_String_SendMessageOptions; //Void SendMessageUpwards(System.String, UnityEngine.SendMessageOptions)
-		public  Method RSendMessage_String_SendMessageOptions; //Void SendMessage(System.String, UnityEngine.SendMessageOptions)
-		public  Method RBroadcastMessage_String_SendMessageOptions; //Void BroadcastMessage(System.String, UnityEngine.SendMessageOptions)
-		public  Method RAddComponentInternal_String; //UnityEngine.Component AddComponentInternal(System.String)
-		public  Method RInternal_AddComponentWithType_Type; //UnityEngine.Component Internal_AddComponentWithType(System.Type)
-		public  Method RAddComponent_Type; //UnityEngine.Component AddComponent(System.Type)
-		public  Method RAddComponent_GT; //T AddComponent[T]()
-		public  Method RSetActive_Boolean; //Void SetActive(Boolean)
-		public  Method RSetActiveRecursively_Boolean; //Void SetActiveRecursively(Boolean)
-		public  Method RCompareTag_String; //Boolean CompareTag(System.String)
-		public static Method RFindGameObjectWithTag_String; //UnityEngine.GameObject FindGameObjectWithTag(System.String)
-		public static Method RFindGameObjectsWithTag_String; //UnityEngine.GameObject[] FindGameObjectsWithTag(System.String)
-		public  Method RSendMessageUpwards_String_Object_SendMessageOptions; //Void SendMessageUpwards(System.String, System.Object, UnityEngine.SendMessageOptions)
-		public  Method RSendMessageUpwards_String_Object; //Void SendMessageUpwards(System.String, System.Object)
-		public  Method RSendMessageUpwards_String; //Void SendMessageUpwards(System.String)
-		public  Method RSendMessage_String_Object_SendMessageOptions; //Void SendMessage(System.String, System.Object, UnityEngine.SendMessageOptions)
-		public  Method RSendMessage_String_Object; //Void SendMessage(System.String, System.Object)
-		public  Method RSendMessage_String; //Void SendMessage(System.String)
-		public  Method RBroadcastMessage_String_Object_SendMessageOptions; //Void BroadcastMessage(System.String, System.Object, UnityEngine.SendMessageOptions)
-		public  Method RBroadcastMessage_String_Object; //Void BroadcastMessage(System.String, System.Object)
-		public  Method RBroadcastMessage_String; //Void BroadcastMessage(System.String)
-		public static Method RInternal_CreateGameObject_GameObject_String; //Void Internal_CreateGameObject(UnityEngine.GameObject, System.String)
-		public static Method RFind_String; //UnityEngine.GameObject Find(System.String)
-		public  Method RCalculateBounds; //UnityEngine.Bounds CalculateBounds()
-		public  Method RIsMarkedVisible; //Int32 IsMarkedVisible()
-		public  Method RSampleAnimation_Object_Single; //Void SampleAnimation(UnityEngine.Object, Single)
-		public  Method RAddComponent_String; //UnityEngine.Component AddComponent(System.String)
-		public  Method RPlayAnimation_Object; //Void PlayAnimation(UnityEngine.Object)
-		public  Method RStopAnimation; //Void StopAnimation()
-		public  Method Rget_scene_Injected_Out_Scene; //Void get_scene_Injected(UnityEngine.SceneManagement.Scene ByRef)
-		public  Method RCalculateBounds_Injected_Out_Bounds; //Void CalculateBounds_Injected(UnityEngine.Bounds ByRef)
-		public  Method RGetInstanceID; //Int32 GetInstanceID()
-		public  Method RGetHashCode; //Int32 GetHashCode()
-		public  Method REquals_Object; //Boolean Equals(System.Object)
-		public  Method RToString; //System.String ToString()
-		public  Method RFinalize; //Void Finalize()
-		public  Method RGetType; //System.Type GetType()
-		public  Method RMemberwiseClone; //System.Object MemberwiseClone()
+		public  RProperty name; //System.String
+		public  RProperty hideFlags; //UnityEngine.HideFlags
+		public static RMethod RCreatePrimitive_PrimitiveType; //UnityEngine.GameObject CreatePrimitive(UnityEngine.PrimitiveType)
+		public  RMethod RGetComponent_GT; //T GetComponent[T]()
+		public  RMethod RGetComponent_Type; //UnityEngine.Component GetComponent(System.Type)
+		public  RMethod RGetComponentFastPath_Type_IntPtr; //Void GetComponentFastPath(System.Type, IntPtr)
+		public  RMethod RGetComponentByName_String; //UnityEngine.Component GetComponentByName(System.String)
+		public  RMethod RGetComponent_String; //UnityEngine.Component GetComponent(System.String)
+		public  RMethod RGetComponentInChildren_Type_Boolean; //UnityEngine.Component GetComponentInChildren(System.Type, Boolean)
+		public  RMethod RGetComponentInChildren_Type; //UnityEngine.Component GetComponentInChildren(System.Type)
+		public  RMethod RGetComponentInChildren_GT; //T GetComponentInChildren[T]()
+		public  RMethod RGetComponentInChildren_GT_Boolean; //T GetComponentInChildren[T](Boolean)
+		public  RMethod RGetComponentInParent_Type_Boolean; //UnityEngine.Component GetComponentInParent(System.Type, Boolean)
+		public  RMethod RGetComponentInParent_Type; //UnityEngine.Component GetComponentInParent(System.Type)
+		public  RMethod RGetComponentInParent_GT; //T GetComponentInParent[T]()
+		public  RMethod RGetComponentInParent_GT_Boolean; //T GetComponentInParent[T](Boolean)
+		public  RMethod RGetComponentsInternal_Type_Boolean_Boolean_Boolean_Boolean_Object; //System.Array GetComponentsInternal(System.Type, Boolean, Boolean, Boolean, Boolean, System.Object)
+		public  RMethod RGetComponents_Type; //UnityEngine.Component[] GetComponents(System.Type)
+		public  RMethod RGetComponents_GT; //T[] GetComponents[T]()
+		public  RMethod RGetComponents_Type_List_d_Component_p_; //Void GetComponents(System.Type, System.Collections.Generic.List`1[UnityEngine.Component])
+		public  RMethod RGetComponents_GT_List_d_T_p_; //Void GetComponents[T](System.Collections.Generic.List`1[T])
+		public  RMethod RGetComponentsInChildren_Type; //UnityEngine.Component[] GetComponentsInChildren(System.Type)
+		public  RMethod RGetComponentsInChildren_Type_Boolean; //UnityEngine.Component[] GetComponentsInChildren(System.Type, Boolean)
+		public  RMethod RGetComponentsInChildren_GT_Boolean; //T[] GetComponentsInChildren[T](Boolean)
+		public  RMethod RGetComponentsInChildren_GT_Boolean_List_d_T_p_; //Void GetComponentsInChildren[T](Boolean, System.Collections.Generic.List`1[T])
+		public  RMethod RGetComponentsInChildren_GT; //T[] GetComponentsInChildren[T]()
+		public  RMethod RGetComponentsInChildren_GT_List_d_T_p_; //Void GetComponentsInChildren[T](System.Collections.Generic.List`1[T])
+		public  RMethod RGetComponentsInParent_Type; //UnityEngine.Component[] GetComponentsInParent(System.Type)
+		public  RMethod RGetComponentsInParent_Type_Boolean; //UnityEngine.Component[] GetComponentsInParent(System.Type, Boolean)
+		public  RMethod RGetComponentsInParent_GT_Boolean_List_d_T_p_; //Void GetComponentsInParent[T](Boolean, System.Collections.Generic.List`1[T])
+		public  RMethod RGetComponentsInParent_GT_Boolean; //T[] GetComponentsInParent[T](Boolean)
+		public  RMethod RGetComponentsInParent_GT; //T[] GetComponentsInParent[T]()
+		public  RMethod RTryGetComponent_GT_Out_T; //Boolean TryGetComponent[T](T ByRef)
+		public  RMethod RTryGetComponent_Type_Out_Component; //Boolean TryGetComponent(System.Type, UnityEngine.Component ByRef)
+		public  RMethod RTryGetComponentInternal_Type; //UnityEngine.Component TryGetComponentInternal(System.Type)
+		public  RMethod RTryGetComponentFastPath_Type_IntPtr; //Void TryGetComponentFastPath(System.Type, IntPtr)
+		public static RMethod RFindWithTag_String; //UnityEngine.GameObject FindWithTag(System.String)
+		public  RMethod RSendMessageUpwards_String_SendMessageOptions; //Void SendMessageUpwards(System.String, UnityEngine.SendMessageOptions)
+		public  RMethod RSendMessage_String_SendMessageOptions; //Void SendMessage(System.String, UnityEngine.SendMessageOptions)
+		public  RMethod RBroadcastMessage_String_SendMessageOptions; //Void BroadcastMessage(System.String, UnityEngine.SendMessageOptions)
+		public  RMethod RAddComponentInternal_String; //UnityEngine.Component AddComponentInternal(System.String)
+		public  RMethod RInternal_AddComponentWithType_Type; //UnityEngine.Component Internal_AddComponentWithType(System.Type)
+		public  RMethod RAddComponent_Type; //UnityEngine.Component AddComponent(System.Type)
+		public  RMethod RAddComponent_GT; //T AddComponent[T]()
+		public  RMethod RSetActive_Boolean; //Void SetActive(Boolean)
+		public  RMethod RSetActiveRecursively_Boolean; //Void SetActiveRecursively(Boolean)
+		public  RMethod RCompareTag_String; //Boolean CompareTag(System.String)
+		public static RMethod RFindGameObjectWithTag_String; //UnityEngine.GameObject FindGameObjectWithTag(System.String)
+		public static RMethod RFindGameObjectsWithTag_String; //UnityEngine.GameObject[] FindGameObjectsWithTag(System.String)
+		public  RMethod RSendMessageUpwards_String_Object_SendMessageOptions; //Void SendMessageUpwards(System.String, System.Object, UnityEngine.SendMessageOptions)
+		public  RMethod RSendMessageUpwards_String_Object; //Void SendMessageUpwards(System.String, System.Object)
+		public  RMethod RSendMessageUpwards_String; //Void SendMessageUpwards(System.String)
+		public  RMethod RSendMessage_String_Object_SendMessageOptions; //Void SendMessage(System.String, System.Object, UnityEngine.SendMessageOptions)
+		public  RMethod RSendMessage_String_Object; //Void SendMessage(System.String, System.Object)
+		public  RMethod RSendMessage_String; //Void SendMessage(System.String)
+		public  RMethod RBroadcastMessage_String_Object_SendMessageOptions; //Void BroadcastMessage(System.String, System.Object, UnityEngine.SendMessageOptions)
+		public  RMethod RBroadcastMessage_String_Object; //Void BroadcastMessage(System.String, System.Object)
+		public  RMethod RBroadcastMessage_String; //Void BroadcastMessage(System.String)
+		public static RMethod RInternal_CreateGameObject_GameObject_String; //Void Internal_CreateGameObject(UnityEngine.GameObject, System.String)
+		public static RMethod RFind_String; //UnityEngine.GameObject Find(System.String)
+		public  RMethod RCalculateBounds; //UnityEngine.Bounds CalculateBounds()
+		public  RMethod RIsMarkedVisible; //Int32 IsMarkedVisible()
+		public  RMethod RSampleAnimation_Object_Single; //Void SampleAnimation(UnityEngine.Object, Single)
+		public  RMethod RAddComponent_String; //UnityEngine.Component AddComponent(System.String)
+		public  RMethod RPlayAnimation_Object; //Void PlayAnimation(UnityEngine.Object)
+		public  RMethod RStopAnimation; //Void StopAnimation()
+		public  RMethod Rget_scene_Injected_Out_Scene; //Void get_scene_Injected(UnityEngine.SceneManagement.Scene ByRef)
+		public  RMethod RCalculateBounds_Injected_Out_Bounds; //Void CalculateBounds_Injected(UnityEngine.Bounds ByRef)
+		public  RMethod RGetInstanceID; //Int32 GetInstanceID()
+		public  RMethod RGetHashCode; //Int32 GetHashCode()
+		public  RMethod REquals_Object; //Boolean Equals(System.Object)
+		public  RMethod RToString; //System.String ToString()
+		public  RMethod RFinalize; //Void Finalize()
+		public  RMethod RGetType; //System.Type GetType()
+		public  RMethod RMemberwiseClone; //System.Object MemberwiseClone()
 
 
         public RGameObject() : base("UnityEngine.GameObject")
@@ -120,7 +120,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             SetInstance(instance);
 		}
 
-        public RGameObject(Member belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+        public RGameObject(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
 	    {
             NewMembers();
 	    }
@@ -128,79 +128,79 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         private void NewMembers()
         {
 			
-			RCreatePrimitive_PrimitiveType = new Method(this, "CreatePrimitive", 0, typeof(UnityEngine.PrimitiveType));
-			RGetComponent_GT = new Method(this, "GetComponent", 1);
-			RGetComponent_Type = new Method(this, "GetComponent", 0, typeof(System.Type));
-			RGetComponentFastPath_Type_IntPtr = new Method(this, "GetComponentFastPath", 0, typeof(System.Type), typeof(System.IntPtr));
-			RGetComponentByName_String = new Method(this, "GetComponentByName", 0, typeof(System.String));
-			RGetComponent_String = new Method(this, "GetComponent", 0, typeof(System.String));
-			RGetComponentInChildren_Type_Boolean = new Method(this, "GetComponentInChildren", 0, typeof(System.Type), typeof(System.Boolean));
-			RGetComponentInChildren_Type = new Method(this, "GetComponentInChildren", 0, typeof(System.Type));
-			RGetComponentInChildren_GT = new Method(this, "GetComponentInChildren", 1);
-			RGetComponentInChildren_GT_Boolean = new Method(this, "GetComponentInChildren", 1, typeof(System.Boolean));
-			RGetComponentInParent_Type_Boolean = new Method(this, "GetComponentInParent", 0, typeof(System.Type), typeof(System.Boolean));
-			RGetComponentInParent_Type = new Method(this, "GetComponentInParent", 0, typeof(System.Type));
-			RGetComponentInParent_GT = new Method(this, "GetComponentInParent", 1);
-			RGetComponentInParent_GT_Boolean = new Method(this, "GetComponentInParent", 1, typeof(System.Boolean));
-			RGetComponentsInternal_Type_Boolean_Boolean_Boolean_Boolean_Object = new Method(this, "GetComponentsInternal", 0, typeof(System.Type), typeof(System.Boolean), typeof(System.Boolean), typeof(System.Boolean), typeof(System.Boolean), typeof(System.Object));
-			RGetComponents_Type = new Method(this, "GetComponents", 0, typeof(System.Type));
-			RGetComponents_GT = new Method(this, "GetComponents", 1);
-			RGetComponents_Type_List_d_Component_p_ = new Method(this, "GetComponents", 0, typeof(System.Type), typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(UnityEngine.Component)));
-			RGetComponents_GT_List_d_T_p_ = new Method(this, "GetComponents", 1, typeof(System.Collections.Generic.List<>).MakeGenericType(Type.MakeGenericMethodParameter(0)));
-			RGetComponentsInChildren_Type = new Method(this, "GetComponentsInChildren", 0, typeof(System.Type));
-			RGetComponentsInChildren_Type_Boolean = new Method(this, "GetComponentsInChildren", 0, typeof(System.Type), typeof(System.Boolean));
-			RGetComponentsInChildren_GT_Boolean = new Method(this, "GetComponentsInChildren", 1, typeof(System.Boolean));
-			RGetComponentsInChildren_GT_Boolean_List_d_T_p_ = new Method(this, "GetComponentsInChildren", 1, typeof(System.Boolean), typeof(System.Collections.Generic.List<>).MakeGenericType(Type.MakeGenericMethodParameter(0)));
-			RGetComponentsInChildren_GT = new Method(this, "GetComponentsInChildren", 1);
-			RGetComponentsInChildren_GT_List_d_T_p_ = new Method(this, "GetComponentsInChildren", 1, typeof(System.Collections.Generic.List<>).MakeGenericType(Type.MakeGenericMethodParameter(0)));
-			RGetComponentsInParent_Type = new Method(this, "GetComponentsInParent", 0, typeof(System.Type));
-			RGetComponentsInParent_Type_Boolean = new Method(this, "GetComponentsInParent", 0, typeof(System.Type), typeof(System.Boolean));
-			RGetComponentsInParent_GT_Boolean_List_d_T_p_ = new Method(this, "GetComponentsInParent", 1, typeof(System.Boolean), typeof(System.Collections.Generic.List<>).MakeGenericType(Type.MakeGenericMethodParameter(0)));
-			RGetComponentsInParent_GT_Boolean = new Method(this, "GetComponentsInParent", 1, typeof(System.Boolean));
-			RGetComponentsInParent_GT = new Method(this, "GetComponentsInParent", 1);
-			RTryGetComponent_GT_Out_T = new Method(this, "TryGetComponent", 1, Type.MakeGenericMethodParameter(0).MakeByRefType());
-			RTryGetComponent_Type_Out_Component = new Method(this, "TryGetComponent", 0, typeof(System.Type), typeof(UnityEngine.Component).MakeByRefType());
-			RTryGetComponentInternal_Type = new Method(this, "TryGetComponentInternal", 0, typeof(System.Type));
-			RTryGetComponentFastPath_Type_IntPtr = new Method(this, "TryGetComponentFastPath", 0, typeof(System.Type), typeof(System.IntPtr));
-			RFindWithTag_String = new Method(this, "FindWithTag", 0, typeof(System.String));
-			RSendMessageUpwards_String_SendMessageOptions = new Method(this, "SendMessageUpwards", 0, typeof(System.String), typeof(UnityEngine.SendMessageOptions));
-			RSendMessage_String_SendMessageOptions = new Method(this, "SendMessage", 0, typeof(System.String), typeof(UnityEngine.SendMessageOptions));
-			RBroadcastMessage_String_SendMessageOptions = new Method(this, "BroadcastMessage", 0, typeof(System.String), typeof(UnityEngine.SendMessageOptions));
-			RAddComponentInternal_String = new Method(this, "AddComponentInternal", 0, typeof(System.String));
-			RInternal_AddComponentWithType_Type = new Method(this, "Internal_AddComponentWithType", 0, typeof(System.Type));
-			RAddComponent_Type = new Method(this, "AddComponent", 0, typeof(System.Type));
-			RAddComponent_GT = new Method(this, "AddComponent", 1);
-			RSetActive_Boolean = new Method(this, "SetActive", 0, typeof(System.Boolean));
-			RSetActiveRecursively_Boolean = new Method(this, "SetActiveRecursively", 0, typeof(System.Boolean));
-			RCompareTag_String = new Method(this, "CompareTag", 0, typeof(System.String));
-			RFindGameObjectWithTag_String = new Method(this, "FindGameObjectWithTag", 0, typeof(System.String));
-			RFindGameObjectsWithTag_String = new Method(this, "FindGameObjectsWithTag", 0, typeof(System.String));
-			RSendMessageUpwards_String_Object_SendMessageOptions = new Method(this, "SendMessageUpwards", 0, typeof(System.String), typeof(System.Object), typeof(UnityEngine.SendMessageOptions));
-			RSendMessageUpwards_String_Object = new Method(this, "SendMessageUpwards", 0, typeof(System.String), typeof(System.Object));
-			RSendMessageUpwards_String = new Method(this, "SendMessageUpwards", 0, typeof(System.String));
-			RSendMessage_String_Object_SendMessageOptions = new Method(this, "SendMessage", 0, typeof(System.String), typeof(System.Object), typeof(UnityEngine.SendMessageOptions));
-			RSendMessage_String_Object = new Method(this, "SendMessage", 0, typeof(System.String), typeof(System.Object));
-			RSendMessage_String = new Method(this, "SendMessage", 0, typeof(System.String));
-			RBroadcastMessage_String_Object_SendMessageOptions = new Method(this, "BroadcastMessage", 0, typeof(System.String), typeof(System.Object), typeof(UnityEngine.SendMessageOptions));
-			RBroadcastMessage_String_Object = new Method(this, "BroadcastMessage", 0, typeof(System.String), typeof(System.Object));
-			RBroadcastMessage_String = new Method(this, "BroadcastMessage", 0, typeof(System.String));
-			RInternal_CreateGameObject_GameObject_String = new Method(this, "Internal_CreateGameObject", 0, typeof(UnityEngine.GameObject), typeof(System.String));
-			RFind_String = new Method(this, "Find", 0, typeof(System.String));
-			RCalculateBounds = new Method(this, "CalculateBounds", 0);
-			RIsMarkedVisible = new Method(this, "IsMarkedVisible", 0);
-			RSampleAnimation_Object_Single = new Method(this, "SampleAnimation", 0, typeof(UnityEngine.Object), typeof(System.Single));
-			RAddComponent_String = new Method(this, "AddComponent", 0, typeof(System.String));
-			RPlayAnimation_Object = new Method(this, "PlayAnimation", 0, typeof(UnityEngine.Object));
-			RStopAnimation = new Method(this, "StopAnimation", 0);
-			Rget_scene_Injected_Out_Scene = new Method(this, "get_scene_Injected", 0, typeof(UnityEngine.SceneManagement.Scene).MakeByRefType());
-			RCalculateBounds_Injected_Out_Bounds = new Method(this, "CalculateBounds_Injected", 0, typeof(UnityEngine.Bounds).MakeByRefType());
-			RGetInstanceID = new Method(this, "GetInstanceID", 0);
-			RGetHashCode = new Method(this, "GetHashCode", 0);
-			REquals_Object = new Method(this, "Equals", 0, typeof(System.Object));
-			RToString = new Method(this, "ToString", 0);
-			RFinalize = new Method(this, "Finalize", 0);
-			RGetType = new Method(this, "GetType", 0);
-			RMemberwiseClone = new Method(this, "MemberwiseClone", 0);
+			RCreatePrimitive_PrimitiveType = new RMethod(this, "CreatePrimitive", 0, typeof(UnityEngine.PrimitiveType));
+			RGetComponent_GT = new RMethod(this, "GetComponent", 1);
+			RGetComponent_Type = new RMethod(this, "GetComponent", 0, typeof(System.Type));
+			RGetComponentFastPath_Type_IntPtr = new RMethod(this, "GetComponentFastPath", 0, typeof(System.Type), typeof(System.IntPtr));
+			RGetComponentByName_String = new RMethod(this, "GetComponentByName", 0, typeof(System.String));
+			RGetComponent_String = new RMethod(this, "GetComponent", 0, typeof(System.String));
+			RGetComponentInChildren_Type_Boolean = new RMethod(this, "GetComponentInChildren", 0, typeof(System.Type), typeof(System.Boolean));
+			RGetComponentInChildren_Type = new RMethod(this, "GetComponentInChildren", 0, typeof(System.Type));
+			RGetComponentInChildren_GT = new RMethod(this, "GetComponentInChildren", 1);
+			RGetComponentInChildren_GT_Boolean = new RMethod(this, "GetComponentInChildren", 1, typeof(System.Boolean));
+			RGetComponentInParent_Type_Boolean = new RMethod(this, "GetComponentInParent", 0, typeof(System.Type), typeof(System.Boolean));
+			RGetComponentInParent_Type = new RMethod(this, "GetComponentInParent", 0, typeof(System.Type));
+			RGetComponentInParent_GT = new RMethod(this, "GetComponentInParent", 1);
+			RGetComponentInParent_GT_Boolean = new RMethod(this, "GetComponentInParent", 1, typeof(System.Boolean));
+			RGetComponentsInternal_Type_Boolean_Boolean_Boolean_Boolean_Object = new RMethod(this, "GetComponentsInternal", 0, typeof(System.Type), typeof(System.Boolean), typeof(System.Boolean), typeof(System.Boolean), typeof(System.Boolean), typeof(System.Object));
+			RGetComponents_Type = new RMethod(this, "GetComponents", 0, typeof(System.Type));
+			RGetComponents_GT = new RMethod(this, "GetComponents", 1);
+			RGetComponents_Type_List_d_Component_p_ = new RMethod(this, "GetComponents", 0, typeof(System.Type), typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(UnityEngine.Component)));
+			RGetComponents_GT_List_d_T_p_ = new RMethod(this, "GetComponents", 1, typeof(System.Collections.Generic.List<>).MakeGenericType(Type.MakeGenericMethodParameter(0)));
+			RGetComponentsInChildren_Type = new RMethod(this, "GetComponentsInChildren", 0, typeof(System.Type));
+			RGetComponentsInChildren_Type_Boolean = new RMethod(this, "GetComponentsInChildren", 0, typeof(System.Type), typeof(System.Boolean));
+			RGetComponentsInChildren_GT_Boolean = new RMethod(this, "GetComponentsInChildren", 1, typeof(System.Boolean));
+			RGetComponentsInChildren_GT_Boolean_List_d_T_p_ = new RMethod(this, "GetComponentsInChildren", 1, typeof(System.Boolean), typeof(System.Collections.Generic.List<>).MakeGenericType(Type.MakeGenericMethodParameter(0)));
+			RGetComponentsInChildren_GT = new RMethod(this, "GetComponentsInChildren", 1);
+			RGetComponentsInChildren_GT_List_d_T_p_ = new RMethod(this, "GetComponentsInChildren", 1, typeof(System.Collections.Generic.List<>).MakeGenericType(Type.MakeGenericMethodParameter(0)));
+			RGetComponentsInParent_Type = new RMethod(this, "GetComponentsInParent", 0, typeof(System.Type));
+			RGetComponentsInParent_Type_Boolean = new RMethod(this, "GetComponentsInParent", 0, typeof(System.Type), typeof(System.Boolean));
+			RGetComponentsInParent_GT_Boolean_List_d_T_p_ = new RMethod(this, "GetComponentsInParent", 1, typeof(System.Boolean), typeof(System.Collections.Generic.List<>).MakeGenericType(Type.MakeGenericMethodParameter(0)));
+			RGetComponentsInParent_GT_Boolean = new RMethod(this, "GetComponentsInParent", 1, typeof(System.Boolean));
+			RGetComponentsInParent_GT = new RMethod(this, "GetComponentsInParent", 1);
+			RTryGetComponent_GT_Out_T = new RMethod(this, "TryGetComponent", 1, Type.MakeGenericMethodParameter(0).MakeByRefType());
+			RTryGetComponent_Type_Out_Component = new RMethod(this, "TryGetComponent", 0, typeof(System.Type), typeof(UnityEngine.Component).MakeByRefType());
+			RTryGetComponentInternal_Type = new RMethod(this, "TryGetComponentInternal", 0, typeof(System.Type));
+			RTryGetComponentFastPath_Type_IntPtr = new RMethod(this, "TryGetComponentFastPath", 0, typeof(System.Type), typeof(System.IntPtr));
+			RFindWithTag_String = new RMethod(this, "FindWithTag", 0, typeof(System.String));
+			RSendMessageUpwards_String_SendMessageOptions = new RMethod(this, "SendMessageUpwards", 0, typeof(System.String), typeof(UnityEngine.SendMessageOptions));
+			RSendMessage_String_SendMessageOptions = new RMethod(this, "SendMessage", 0, typeof(System.String), typeof(UnityEngine.SendMessageOptions));
+			RBroadcastMessage_String_SendMessageOptions = new RMethod(this, "BroadcastMessage", 0, typeof(System.String), typeof(UnityEngine.SendMessageOptions));
+			RAddComponentInternal_String = new RMethod(this, "AddComponentInternal", 0, typeof(System.String));
+			RInternal_AddComponentWithType_Type = new RMethod(this, "Internal_AddComponentWithType", 0, typeof(System.Type));
+			RAddComponent_Type = new RMethod(this, "AddComponent", 0, typeof(System.Type));
+			RAddComponent_GT = new RMethod(this, "AddComponent", 1);
+			RSetActive_Boolean = new RMethod(this, "SetActive", 0, typeof(System.Boolean));
+			RSetActiveRecursively_Boolean = new RMethod(this, "SetActiveRecursively", 0, typeof(System.Boolean));
+			RCompareTag_String = new RMethod(this, "CompareTag", 0, typeof(System.String));
+			RFindGameObjectWithTag_String = new RMethod(this, "FindGameObjectWithTag", 0, typeof(System.String));
+			RFindGameObjectsWithTag_String = new RMethod(this, "FindGameObjectsWithTag", 0, typeof(System.String));
+			RSendMessageUpwards_String_Object_SendMessageOptions = new RMethod(this, "SendMessageUpwards", 0, typeof(System.String), typeof(System.Object), typeof(UnityEngine.SendMessageOptions));
+			RSendMessageUpwards_String_Object = new RMethod(this, "SendMessageUpwards", 0, typeof(System.String), typeof(System.Object));
+			RSendMessageUpwards_String = new RMethod(this, "SendMessageUpwards", 0, typeof(System.String));
+			RSendMessage_String_Object_SendMessageOptions = new RMethod(this, "SendMessage", 0, typeof(System.String), typeof(System.Object), typeof(UnityEngine.SendMessageOptions));
+			RSendMessage_String_Object = new RMethod(this, "SendMessage", 0, typeof(System.String), typeof(System.Object));
+			RSendMessage_String = new RMethod(this, "SendMessage", 0, typeof(System.String));
+			RBroadcastMessage_String_Object_SendMessageOptions = new RMethod(this, "BroadcastMessage", 0, typeof(System.String), typeof(System.Object), typeof(UnityEngine.SendMessageOptions));
+			RBroadcastMessage_String_Object = new RMethod(this, "BroadcastMessage", 0, typeof(System.String), typeof(System.Object));
+			RBroadcastMessage_String = new RMethod(this, "BroadcastMessage", 0, typeof(System.String));
+			RInternal_CreateGameObject_GameObject_String = new RMethod(this, "Internal_CreateGameObject", 0, typeof(UnityEngine.GameObject), typeof(System.String));
+			RFind_String = new RMethod(this, "Find", 0, typeof(System.String));
+			RCalculateBounds = new RMethod(this, "CalculateBounds", 0);
+			RIsMarkedVisible = new RMethod(this, "IsMarkedVisible", 0);
+			RSampleAnimation_Object_Single = new RMethod(this, "SampleAnimation", 0, typeof(UnityEngine.Object), typeof(System.Single));
+			RAddComponent_String = new RMethod(this, "AddComponent", 0, typeof(System.String));
+			RPlayAnimation_Object = new RMethod(this, "PlayAnimation", 0, typeof(UnityEngine.Object));
+			RStopAnimation = new RMethod(this, "StopAnimation", 0);
+			Rget_scene_Injected_Out_Scene = new RMethod(this, "get_scene_Injected", 0, typeof(UnityEngine.SceneManagement.Scene).MakeByRefType());
+			RCalculateBounds_Injected_Out_Bounds = new RMethod(this, "CalculateBounds_Injected", 0, typeof(UnityEngine.Bounds).MakeByRefType());
+			RGetInstanceID = new RMethod(this, "GetInstanceID", 0);
+			RGetHashCode = new RMethod(this, "GetHashCode", 0);
+			REquals_Object = new RMethod(this, "Equals", 0, typeof(System.Object));
+			RToString = new RMethod(this, "ToString", 0);
+			RFinalize = new RMethod(this, "Finalize", 0);
+			RGetType = new RMethod(this, "GetType", 0);
+			RMemberwiseClone = new RMethod(this, "MemberwiseClone", 0);
 
         }
 

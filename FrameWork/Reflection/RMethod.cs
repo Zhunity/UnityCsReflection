@@ -7,18 +7,18 @@ using Object = System.Object;
 
 namespace SMFrame.Editor.Refleaction
 {
-	public sealed class Method : Member
+	public sealed class RMethod : RMember
 	{
 		static Type[] Empty = new Type[] { };
 
 		MethodInfo methodInfo;
 
 
-		public Method(Class belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount)
+		public RMethod(RClass belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount)
 		{
         }
 
-		public Method(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount)
+		public RMethod(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount)
 		{
         }
 

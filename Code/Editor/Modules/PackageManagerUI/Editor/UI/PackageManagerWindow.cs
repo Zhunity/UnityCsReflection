@@ -7,7 +7,7 @@ using SMFrame.Editor.Refleaction;
 /// <summary>
 /// package管理界面
 /// </summary>
-public class PackageWindow : Member
+public class PackageWindow : RMember
 {
 	const string packageDetailsName = "packageDetails";
 	PackageDetails packageDetails;

@@ -90,20 +90,20 @@ namespace SMFrame.Editor.Refleaction
 
 			GenerateProperty(classType, ref delcareStr, ref newStr, getSetHash);
 
-			var fields = classType.GetFields(Class.flags);
+			var fields = classType.GetFields(RClass.flags);
             foreach (var field in fields)
             {
-                delcareStr += GenerateMemberDeclare(field.FieldType, field.Name, "Field", field.IsStatic);
-                newStr += GenerateMemberNew(field.FieldType, field.Name, "Field");
+                delcareStr += GenerateMemberDeclare(field.FieldType, field.Name, "RField", field.IsStatic);
+                newStr += GenerateMemberNew(field.FieldType, field.Name, "RField");
             }
 
-            var events = classType.GetEvents(Class.flags);
+            var events = classType.GetEvents(RClass.flags);
             foreach (var @event in events)
             {
                 getSetHash.Add(@event.AddMethod);
                 getSetHash.Add(@event.RemoveMethod);
-                delcareStr += GenerateMemberDeclare(null, @event.Name, "Event", @event.IsStatic());
-                newStr += GenerateMemberNew(null, @event.Name, "Event");
+                delcareStr += GenerateMemberDeclare(null, @event.Name, "REvent", @event.IsStatic());
+                newStr += GenerateMemberNew(null, @event.Name, "REvent");
             }
 
             string methodInvoke = GenerateMethod(classType, getSetHash, ref delcareStr, ref newStr);
@@ -114,7 +114,7 @@ using System.Reflection;
 
 namespace SMFrame.Editor.Refleaction.R{classType.Namespace.Replace(".", ".R")}
 {{
-    public partial class R{classType.ToClassName()} : Member
+    public partial class R{classType.ToClassName()} : RMember
     {{
 {delcareStr}
 
@@ -129,7 +129,7 @@ namespace SMFrame.Editor.Refleaction.R{classType.Namespace.Replace(".", ".R")}
             SetInstance(instance);
 		}}
 
-        public R{classType.ToConstructorName()}(Member belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+        public R{classType.ToConstructorName()}(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
 	    {{
             NewMembers();
 	    }}

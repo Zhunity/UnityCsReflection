@@ -7,15 +7,15 @@ using Object = System.Object;
 
 namespace SMFrame.Editor.Refleaction
 {
-	public class Property : Member
+	public class RProperty : RMember
 	{
 		public PropertyInfo propertyInfo;
 
-		public Property(Class belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+		public RProperty(RClass belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
 		{
 		}
 
-		public Property(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+		public RProperty(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
 		{
 		}
 
@@ -83,7 +83,7 @@ namespace SMFrame.Editor.Refleaction
 
 		protected override void SetInfo(Type belongType, string name)
 		{
-			propertyInfo = belongType.GetProperty(name, Class.flags, null, null, types, null); ;
+			propertyInfo = belongType.GetProperty(name, RClass.flags, null, null, types, null); ;
 		}
 
 		protected override void SetType()

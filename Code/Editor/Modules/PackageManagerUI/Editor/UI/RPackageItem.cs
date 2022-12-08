@@ -4,16 +4,16 @@ using System.Collections.Generic;
 using UnityEngine;
 using SMFrame.Editor.Refleaction;
 
-public class RPackageItem : Class
+public class RPackageItem : RClass
 {
 
-	Property Item;  // UnityEngine.UIElements.VisualElement Item [Int32]
+	RProperty Item;  // UnityEngine.UIElements.VisualElement Item [Int32]
 	IPackage package;
 
 	public RPackageItem(Type type) : base(type)
 	{
 		// 索引器
-		Item = new Property(this, "Item");
+		Item = new RProperty(this, "Item");
 		package = new IPackage(this, "package");
 	}
 

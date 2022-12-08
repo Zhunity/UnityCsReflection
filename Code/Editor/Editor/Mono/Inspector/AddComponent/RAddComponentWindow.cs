@@ -1,23 +1,23 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using Event = SMFrame.Editor.Refleaction.Event;
+using Event = SMFrame.Editor.Refleaction.REvent;
 using System;
 
 namespace SMFrame.Editor.Refleaction
 {
-	public class RAddComponentWindow : Class
+	public class RAddComponentWindow : RClass
 	{
 		// 选中Component修改时的Event
-		public Event selectionChanged;
+		public REvent selectionChanged;
 
 		// AddComponentWindow窗口关闭时的Event
-		public Event windowClosed;
+		public REvent windowClosed;
 
 		public RAddComponentWindow() : base("AddComponentWindow")
 		{
-			selectionChanged = new Event(this, "selectionChanged");
-			windowClosed = new Event(this, "windowClosed");
+			selectionChanged = new REvent(this, "selectionChanged");
+			windowClosed = new REvent(this, "windowClosed");
 		}
 
 		public void AddSelectionEventHandler(Delegate action)

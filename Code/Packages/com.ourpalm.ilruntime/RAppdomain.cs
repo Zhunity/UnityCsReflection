@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class RAppdomain : Class
+public class RAppdomain : RClass
 {
 	RThreadSafeDictionary _mapType;
 

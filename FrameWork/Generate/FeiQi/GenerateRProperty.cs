@@ -24,7 +24,7 @@ namespace SMFrame.Editor.Refleaction
 		private static string GenerateProperty(Type classType, ref string delcareStr,  ref string newStr, HashSet<MethodInfo> getSetHash)
         {
             string methodInvoke = string.Empty;
-            var properties = classType.GetProperties(Class.flags);
+            var properties = classType.GetProperties(RClass.flags);
             foreach (var property in properties)
             {
 				getSetHash.Add(property.SetMethod);
@@ -40,7 +40,7 @@ namespace SMFrame.Editor.Refleaction
         {
             string name = GetPropertyName(property);
 
-            return GenerateMemberDeclare(property.PropertyType, name, "Property", property.IsStatic());
+            return GenerateMemberDeclare(property.PropertyType, name, "RProperty", property.IsStatic());
         }
 
         private static string GeneratePropertyNew(PropertyInfo property)
@@ -55,7 +55,7 @@ namespace SMFrame.Editor.Refleaction
                 paramStr += $", {parameters[i].ParameterType.ToGetMethod()}";
             }
 
-			string propertyType = IsPrimitive(property.PropertyType) ? "Property" : "R" + property.PropertyType.ToDeclareName(false);
+			string propertyType = IsPrimitive(property.PropertyType) ? "RProperty" : "R" + property.PropertyType.ToDeclareName(false);
 			return $"\t\t\t{LegalName(name)} = new {propertyType}(this, \"{property.Name}\", -1{paramStr});\n";
 		}
 

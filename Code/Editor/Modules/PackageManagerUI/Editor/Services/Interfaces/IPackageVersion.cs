@@ -7,22 +7,22 @@ using SMFrame.Editor.Refleaction;
 /// <summary>
 /// 显示选中package的信息
 /// </summary>
-public class IPackageVersion : Property
+public class IPackageVersion : RProperty
 {
-	public Property displayName;
-	public Property description;
-	public Property versionId;
-	public Property dependencies;
-	public Property resolvedDependencies;
-	public Property isInstalled;
+	public RProperty displayName;
+	public RProperty description;
+	public RProperty versionId;
+	public RProperty dependencies;
+	public RProperty resolvedDependencies;
+	public RProperty isInstalled;
 
-	public IPackageVersion(Class belongMember, string name) : base(belongMember, name)
+	public IPackageVersion(RClass belongMember, string name) : base(belongMember, name)
 	{
-		displayName = new Property(this, "displayName");
-		versionId = new Property(this, "versionId");
-		dependencies = new Property(this, "dependencies");
-		resolvedDependencies = new Property(this, "resolvedDependencies");
-		isInstalled = new Property(this, "isInstalled");
+		displayName = new RProperty(this, "displayName");
+		versionId = new RProperty(this, "versionId");
+		dependencies = new RProperty(this, "dependencies");
+		resolvedDependencies = new RProperty(this, "resolvedDependencies");
+		isInstalled = new RProperty(this, "isInstalled");
 	}
 
 	protected override void OnSetBelong()

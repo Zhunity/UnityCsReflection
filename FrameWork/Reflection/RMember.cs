@@ -13,7 +13,7 @@ namespace SMFrame.Editor.Refleaction
 	/// 如果一种类型既有在Property成员，也有Field类型，建议使用Member
 	/// 继承Class是因为，一种类型，既可能是单独定义出来的，也可能是别的类型中的一个成员，适配这种情况
 	/// </summary>
-	public class Member : Class
+	public class RMember : RClass
 	{
 		public MemberInfo memberInfo;   // 反射出来的信息
 		public Type belongType;         // 在哪个类里面反射出来的成员
@@ -24,7 +24,7 @@ namespace SMFrame.Editor.Refleaction
 		/// 由于可能需要单独成为一个类型，而不是作为成员，所以需要实现类型的定义的构造函数
 		/// </summary>
 		/// <param name="type"></param>
-		public Member(string type, int genericCount = -1, params Type[] types) : base(type, genericCount, types)
+		public RMember(string type, int genericCount = -1, params Type[] types) : base(type, genericCount, types)
 		{
 		}
 
@@ -32,19 +32,19 @@ namespace SMFrame.Editor.Refleaction
 		/// 这个是定义类型用的，同上
 		/// </summary>
 		/// <param name="type"></param>
-		public Member(Type type, int genericCount = -1, params Type[] types) : base(type, genericCount, types)
+		public RMember(Type type, int genericCount = -1, params Type[] types) : base(type, genericCount, types)
 		{
 		}
 
 		/// <summary>
 		/// 这个是递归引用时用的
-		/// 即在一个Class（or Member）中，需要添加成员变量，调用这个接口，完成成员的绑定
+		/// 即在一个Class（or RMember）中，需要添加成员变量，调用这个接口，完成成员的绑定
 		/// </summary>
 		/// <param name="belongMember"></param>
 		/// <param name="name"></param>
-		public Member(Class belongMember, string name, int genericCount = -1, params Type[] types) : this(belongMember.type, name, genericCount, types)
+		public RMember(RClass belongMember, string name, int genericCount = -1, params Type[] types) : this(belongMember.type, name, genericCount, types)
 		{
-			belongMember.AddMember(this as Member);
+			belongMember.AddMember(this as RMember);
 		}
 
 		/// <summary>
@@ -54,7 +54,7 @@ namespace SMFrame.Editor.Refleaction
 		/// </summary>
 		/// <param name="belongType"></param>
 		/// <param name="name"></param>
-		public Member(Type belongType, string name, int genericCount = -1, params Type[] types)
+		public RMember(Type belongType, string name, int genericCount = -1, params Type[] types)
 		{
 			this.genericCount = genericCount;
 			this.types = types;
@@ -138,7 +138,7 @@ namespace SMFrame.Editor.Refleaction
 			OnSetBelong();
 		}
 
-		public void SetBelong(Member belong)
+		public void SetBelong(RMember belong)
 		{
 			var obj = belong.GetValue();
 			SetBelong(obj);
@@ -162,7 +162,7 @@ namespace SMFrame.Editor.Refleaction
 				base.SetValue(value);
 			}
 
-			// 兼容Property， Field
+			// 兼容Property， RField
 			if (memberInfo.MemberType == MemberTypes.Property)
 			{
 				// TODO 可能索引器需要注意
@@ -188,16 +188,16 @@ namespace SMFrame.Editor.Refleaction
 				return instance;
 			}
 
-			// 兼容Property， Field
+			// 兼容Property， RField
 			if (memberInfo.MemberType == MemberTypes.Property)
 			{
 				PropertyInfo info = memberInfo as PropertyInfo;
-				return Property.GetPropertyValue(info, belong);
+				return RProperty.GetPropertyValue(info, belong);
 			}
 			else if (memberInfo.MemberType == MemberTypes.Field)
 			{
 				FieldInfo info = memberInfo as FieldInfo;
-				return Field.GetFieldValue(info, belong);
+				return RField.GetFieldValue(info, belong);
 			}
 			return null;
 		}

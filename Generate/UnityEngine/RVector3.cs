@@ -5,7 +5,7 @@ using System.Reflection;
 
 namespace SMFrame.Editor.Refleaction.RUnityEngine
 {
-    public partial class RVector3 : Member
+    public partial class RVector3 : RMember
     {
 
         private RVector3 m_rVector3;
@@ -25,65 +25,65 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
 
 
-		public static Field kEpsilon; //System.Single
-		public static Field kEpsilonNormalSqrt; //System.Single
-		public  Field x; //System.Single
-		public  Field y; //System.Single
-		public  Field z; //System.Single
+		public static RField kEpsilon; //System.Single
+		public static RField kEpsilonNormalSqrt; //System.Single
+		public  RField x; //System.Single
+		public  RField y; //System.Single
+		public  RField z; //System.Single
 	
-		public static Method RSlerp_Vector3_Vector3_Single; //UnityEngine.Vector3 Slerp(UnityEngine.Vector3, UnityEngine.Vector3, Single)
-		public static Method RSlerpUnclamped_Vector3_Vector3_Single; //UnityEngine.Vector3 SlerpUnclamped(UnityEngine.Vector3, UnityEngine.Vector3, Single)
-		public static Method ROrthoNormalize2_Ref_Vector3_Ref_Vector3; //Void OrthoNormalize2(UnityEngine.Vector3 ByRef, UnityEngine.Vector3 ByRef)
-		public static Method ROrthoNormalize_Ref_Vector3_Ref_Vector3; //Void OrthoNormalize(UnityEngine.Vector3 ByRef, UnityEngine.Vector3 ByRef)
-		public static Method ROrthoNormalize3_Ref_Vector3_Ref_Vector3_Ref_Vector3; //Void OrthoNormalize3(UnityEngine.Vector3 ByRef, UnityEngine.Vector3 ByRef, UnityEngine.Vector3 ByRef)
-		public static Method ROrthoNormalize_Ref_Vector3_Ref_Vector3_Ref_Vector3; //Void OrthoNormalize(UnityEngine.Vector3 ByRef, UnityEngine.Vector3 ByRef, UnityEngine.Vector3 ByRef)
-		public static Method RRotateTowards_Vector3_Vector3_Single_Single; //UnityEngine.Vector3 RotateTowards(UnityEngine.Vector3, UnityEngine.Vector3, Single, Single)
-		public static Method RLerp_Vector3_Vector3_Single; //UnityEngine.Vector3 Lerp(UnityEngine.Vector3, UnityEngine.Vector3, Single)
-		public static Method RLerpUnclamped_Vector3_Vector3_Single; //UnityEngine.Vector3 LerpUnclamped(UnityEngine.Vector3, UnityEngine.Vector3, Single)
-		public static Method RMoveTowards_Vector3_Vector3_Single; //UnityEngine.Vector3 MoveTowards(UnityEngine.Vector3, UnityEngine.Vector3, Single)
-		public static Method RSmoothDamp_Vector3_Vector3_Ref_Vector3_Single_Single; //UnityEngine.Vector3 SmoothDamp(UnityEngine.Vector3, UnityEngine.Vector3, UnityEngine.Vector3 ByRef, Single, Single)
-		public static Method RSmoothDamp_Vector3_Vector3_Ref_Vector3_Single; //UnityEngine.Vector3 SmoothDamp(UnityEngine.Vector3, UnityEngine.Vector3, UnityEngine.Vector3 ByRef, Single)
-		public static Method RSmoothDamp_Vector3_Vector3_Ref_Vector3_Single_Single_Single; //UnityEngine.Vector3 SmoothDamp(UnityEngine.Vector3, UnityEngine.Vector3, UnityEngine.Vector3 ByRef, Single, Single, Single)
-		public  Method RSet_Single_Single_Single; //Void Set(Single, Single, Single)
-		public static Method RScale_Vector3_Vector3; //UnityEngine.Vector3 Scale(UnityEngine.Vector3, UnityEngine.Vector3)
-		public  Method RScale_Vector3; //Void Scale(UnityEngine.Vector3)
-		public static Method RCross_Vector3_Vector3; //UnityEngine.Vector3 Cross(UnityEngine.Vector3, UnityEngine.Vector3)
-		public  Method RGetHashCode; //Int32 GetHashCode()
-		public  Method REquals_Object; //Boolean Equals(System.Object)
-		public  Method REquals_Vector3; //Boolean Equals(UnityEngine.Vector3)
-		public static Method RReflect_Vector3_Vector3; //UnityEngine.Vector3 Reflect(UnityEngine.Vector3, UnityEngine.Vector3)
-		public static Method RNormalize_Vector3; //UnityEngine.Vector3 Normalize(UnityEngine.Vector3)
-		public  Method RNormalize; //Void Normalize()
-		public static Method RDot_Vector3_Vector3; //Single Dot(UnityEngine.Vector3, UnityEngine.Vector3)
-		public static Method RProject_Vector3_Vector3; //UnityEngine.Vector3 Project(UnityEngine.Vector3, UnityEngine.Vector3)
-		public static Method RProjectOnPlane_Vector3_Vector3; //UnityEngine.Vector3 ProjectOnPlane(UnityEngine.Vector3, UnityEngine.Vector3)
-		public static Method RAngle_Vector3_Vector3; //Single Angle(UnityEngine.Vector3, UnityEngine.Vector3)
-		public static Method RSignedAngle_Vector3_Vector3_Vector3; //Single SignedAngle(UnityEngine.Vector3, UnityEngine.Vector3, UnityEngine.Vector3)
-		public static Method RDistance_Vector3_Vector3; //Single Distance(UnityEngine.Vector3, UnityEngine.Vector3)
-		public static Method RClampMagnitude_Vector3_Single; //UnityEngine.Vector3 ClampMagnitude(UnityEngine.Vector3, Single)
-		public static Method RMagnitude_Vector3; //Single Magnitude(UnityEngine.Vector3)
-		public static Method RSqrMagnitude_Vector3; //Single SqrMagnitude(UnityEngine.Vector3)
-		public static Method RMin_Vector3_Vector3; //UnityEngine.Vector3 Min(UnityEngine.Vector3, UnityEngine.Vector3)
-		public static Method RMax_Vector3_Vector3; //UnityEngine.Vector3 Max(UnityEngine.Vector3, UnityEngine.Vector3)
-		public static Method Rop_Addition_Vector3_Vector3; //UnityEngine.Vector3 op_Addition(UnityEngine.Vector3, UnityEngine.Vector3)
-		public static Method Rop_Subtraction_Vector3_Vector3; //UnityEngine.Vector3 op_Subtraction(UnityEngine.Vector3, UnityEngine.Vector3)
-		public static Method Rop_UnaryNegation_Vector3; //UnityEngine.Vector3 op_UnaryNegation(UnityEngine.Vector3)
-		public static Method Rop_Multiply_Vector3_Single; //UnityEngine.Vector3 op_Multiply(UnityEngine.Vector3, Single)
-		public static Method Rop_Multiply_Single_Vector3; //UnityEngine.Vector3 op_Multiply(Single, UnityEngine.Vector3)
-		public static Method Rop_Division_Vector3_Single; //UnityEngine.Vector3 op_Division(UnityEngine.Vector3, Single)
-		public static Method Rop_Equality_Vector3_Vector3; //Boolean op_Equality(UnityEngine.Vector3, UnityEngine.Vector3)
-		public static Method Rop_Inequality_Vector3_Vector3; //Boolean op_Inequality(UnityEngine.Vector3, UnityEngine.Vector3)
-		public  Method RToString; //System.String ToString()
-		public  Method RToString_String; //System.String ToString(System.String)
-		public  Method RToString_String_IFormatProvider; //System.String ToString(System.String, System.IFormatProvider)
-		public static Method RAngleBetween_Vector3_Vector3; //Single AngleBetween(UnityEngine.Vector3, UnityEngine.Vector3)
-		public static Method RExclude_Vector3_Vector3; //UnityEngine.Vector3 Exclude(UnityEngine.Vector3, UnityEngine.Vector3)
-		public static Method RSlerp_Injected_Ref_Vector3_Ref_Vector3_Single_Out_Vector3; //Void Slerp_Injected(UnityEngine.Vector3 ByRef, UnityEngine.Vector3 ByRef, Single, UnityEngine.Vector3 ByRef)
-		public static Method RSlerpUnclamped_Injected_Ref_Vector3_Ref_Vector3_Single_Out_Vector3; //Void SlerpUnclamped_Injected(UnityEngine.Vector3 ByRef, UnityEngine.Vector3 ByRef, Single, UnityEngine.Vector3 ByRef)
-		public static Method RRotateTowards_Injected_Ref_Vector3_Ref_Vector3_Single_Single_Out_Vector3; //Void RotateTowards_Injected(UnityEngine.Vector3 ByRef, UnityEngine.Vector3 ByRef, Single, Single, UnityEngine.Vector3 ByRef)
-		public  Method RFinalize; //Void Finalize()
-		public  Method RGetType; //System.Type GetType()
-		public  Method RMemberwiseClone; //System.Object MemberwiseClone()
+		public static RMethod RSlerp_Vector3_Vector3_Single; //UnityEngine.Vector3 Slerp(UnityEngine.Vector3, UnityEngine.Vector3, Single)
+		public static RMethod RSlerpUnclamped_Vector3_Vector3_Single; //UnityEngine.Vector3 SlerpUnclamped(UnityEngine.Vector3, UnityEngine.Vector3, Single)
+		public static RMethod ROrthoNormalize2_Ref_Vector3_Ref_Vector3; //Void OrthoNormalize2(UnityEngine.Vector3 ByRef, UnityEngine.Vector3 ByRef)
+		public static RMethod ROrthoNormalize_Ref_Vector3_Ref_Vector3; //Void OrthoNormalize(UnityEngine.Vector3 ByRef, UnityEngine.Vector3 ByRef)
+		public static RMethod ROrthoNormalize3_Ref_Vector3_Ref_Vector3_Ref_Vector3; //Void OrthoNormalize3(UnityEngine.Vector3 ByRef, UnityEngine.Vector3 ByRef, UnityEngine.Vector3 ByRef)
+		public static RMethod ROrthoNormalize_Ref_Vector3_Ref_Vector3_Ref_Vector3; //Void OrthoNormalize(UnityEngine.Vector3 ByRef, UnityEngine.Vector3 ByRef, UnityEngine.Vector3 ByRef)
+		public static RMethod RRotateTowards_Vector3_Vector3_Single_Single; //UnityEngine.Vector3 RotateTowards(UnityEngine.Vector3, UnityEngine.Vector3, Single, Single)
+		public static RMethod RLerp_Vector3_Vector3_Single; //UnityEngine.Vector3 Lerp(UnityEngine.Vector3, UnityEngine.Vector3, Single)
+		public static RMethod RLerpUnclamped_Vector3_Vector3_Single; //UnityEngine.Vector3 LerpUnclamped(UnityEngine.Vector3, UnityEngine.Vector3, Single)
+		public static RMethod RMoveTowards_Vector3_Vector3_Single; //UnityEngine.Vector3 MoveTowards(UnityEngine.Vector3, UnityEngine.Vector3, Single)
+		public static RMethod RSmoothDamp_Vector3_Vector3_Ref_Vector3_Single_Single; //UnityEngine.Vector3 SmoothDamp(UnityEngine.Vector3, UnityEngine.Vector3, UnityEngine.Vector3 ByRef, Single, Single)
+		public static RMethod RSmoothDamp_Vector3_Vector3_Ref_Vector3_Single; //UnityEngine.Vector3 SmoothDamp(UnityEngine.Vector3, UnityEngine.Vector3, UnityEngine.Vector3 ByRef, Single)
+		public static RMethod RSmoothDamp_Vector3_Vector3_Ref_Vector3_Single_Single_Single; //UnityEngine.Vector3 SmoothDamp(UnityEngine.Vector3, UnityEngine.Vector3, UnityEngine.Vector3 ByRef, Single, Single, Single)
+		public  RMethod RSet_Single_Single_Single; //Void Set(Single, Single, Single)
+		public static RMethod RScale_Vector3_Vector3; //UnityEngine.Vector3 Scale(UnityEngine.Vector3, UnityEngine.Vector3)
+		public  RMethod RScale_Vector3; //Void Scale(UnityEngine.Vector3)
+		public static RMethod RCross_Vector3_Vector3; //UnityEngine.Vector3 Cross(UnityEngine.Vector3, UnityEngine.Vector3)
+		public  RMethod RGetHashCode; //Int32 GetHashCode()
+		public  RMethod REquals_Object; //Boolean Equals(System.Object)
+		public  RMethod REquals_Vector3; //Boolean Equals(UnityEngine.Vector3)
+		public static RMethod RReflect_Vector3_Vector3; //UnityEngine.Vector3 Reflect(UnityEngine.Vector3, UnityEngine.Vector3)
+		public static RMethod RNormalize_Vector3; //UnityEngine.Vector3 Normalize(UnityEngine.Vector3)
+		public  RMethod RNormalize; //Void Normalize()
+		public static RMethod RDot_Vector3_Vector3; //Single Dot(UnityEngine.Vector3, UnityEngine.Vector3)
+		public static RMethod RProject_Vector3_Vector3; //UnityEngine.Vector3 Project(UnityEngine.Vector3, UnityEngine.Vector3)
+		public static RMethod RProjectOnPlane_Vector3_Vector3; //UnityEngine.Vector3 ProjectOnPlane(UnityEngine.Vector3, UnityEngine.Vector3)
+		public static RMethod RAngle_Vector3_Vector3; //Single Angle(UnityEngine.Vector3, UnityEngine.Vector3)
+		public static RMethod RSignedAngle_Vector3_Vector3_Vector3; //Single SignedAngle(UnityEngine.Vector3, UnityEngine.Vector3, UnityEngine.Vector3)
+		public static RMethod RDistance_Vector3_Vector3; //Single Distance(UnityEngine.Vector3, UnityEngine.Vector3)
+		public static RMethod RClampMagnitude_Vector3_Single; //UnityEngine.Vector3 ClampMagnitude(UnityEngine.Vector3, Single)
+		public static RMethod RMagnitude_Vector3; //Single Magnitude(UnityEngine.Vector3)
+		public static RMethod RSqrMagnitude_Vector3; //Single SqrMagnitude(UnityEngine.Vector3)
+		public static RMethod RMin_Vector3_Vector3; //UnityEngine.Vector3 Min(UnityEngine.Vector3, UnityEngine.Vector3)
+		public static RMethod RMax_Vector3_Vector3; //UnityEngine.Vector3 Max(UnityEngine.Vector3, UnityEngine.Vector3)
+		public static RMethod Rop_Addition_Vector3_Vector3; //UnityEngine.Vector3 op_Addition(UnityEngine.Vector3, UnityEngine.Vector3)
+		public static RMethod Rop_Subtraction_Vector3_Vector3; //UnityEngine.Vector3 op_Subtraction(UnityEngine.Vector3, UnityEngine.Vector3)
+		public static RMethod Rop_UnaryNegation_Vector3; //UnityEngine.Vector3 op_UnaryNegation(UnityEngine.Vector3)
+		public static RMethod Rop_Multiply_Vector3_Single; //UnityEngine.Vector3 op_Multiply(UnityEngine.Vector3, Single)
+		public static RMethod Rop_Multiply_Single_Vector3; //UnityEngine.Vector3 op_Multiply(Single, UnityEngine.Vector3)
+		public static RMethod Rop_Division_Vector3_Single; //UnityEngine.Vector3 op_Division(UnityEngine.Vector3, Single)
+		public static RMethod Rop_Equality_Vector3_Vector3; //Boolean op_Equality(UnityEngine.Vector3, UnityEngine.Vector3)
+		public static RMethod Rop_Inequality_Vector3_Vector3; //Boolean op_Inequality(UnityEngine.Vector3, UnityEngine.Vector3)
+		public  RMethod RToString; //System.String ToString()
+		public  RMethod RToString_String; //System.String ToString(System.String)
+		public  RMethod RToString_String_IFormatProvider; //System.String ToString(System.String, System.IFormatProvider)
+		public static RMethod RAngleBetween_Vector3_Vector3; //Single AngleBetween(UnityEngine.Vector3, UnityEngine.Vector3)
+		public static RMethod RExclude_Vector3_Vector3; //UnityEngine.Vector3 Exclude(UnityEngine.Vector3, UnityEngine.Vector3)
+		public static RMethod RSlerp_Injected_Ref_Vector3_Ref_Vector3_Single_Out_Vector3; //Void Slerp_Injected(UnityEngine.Vector3 ByRef, UnityEngine.Vector3 ByRef, Single, UnityEngine.Vector3 ByRef)
+		public static RMethod RSlerpUnclamped_Injected_Ref_Vector3_Ref_Vector3_Single_Out_Vector3; //Void SlerpUnclamped_Injected(UnityEngine.Vector3 ByRef, UnityEngine.Vector3 ByRef, Single, UnityEngine.Vector3 ByRef)
+		public static RMethod RRotateTowards_Injected_Ref_Vector3_Ref_Vector3_Single_Single_Out_Vector3; //Void RotateTowards_Injected(UnityEngine.Vector3 ByRef, UnityEngine.Vector3 ByRef, Single, Single, UnityEngine.Vector3 ByRef)
+		public  RMethod RFinalize; //Void Finalize()
+		public  RMethod RGetType; //System.Type GetType()
+		public  RMethod RMemberwiseClone; //System.Object MemberwiseClone()
 
 
         public RVector3() : base("UnityEngine.Vector3")
@@ -97,7 +97,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             SetInstance(instance);
 		}
 
-        public RVector3(Member belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+        public RVector3(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
 	    {
            // NewMembers();
 	    }
@@ -106,59 +106,59 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         {
 			
 			
-			RSlerp_Vector3_Vector3_Single = new Method(this, "Slerp", 0, typeof(UnityEngine.Vector3), typeof(UnityEngine.Vector3), typeof(System.Single));
-			RSlerpUnclamped_Vector3_Vector3_Single = new Method(this, "SlerpUnclamped", 0, typeof(UnityEngine.Vector3), typeof(UnityEngine.Vector3), typeof(System.Single));
-			ROrthoNormalize2_Ref_Vector3_Ref_Vector3 = new Method(this, "OrthoNormalize2", 0, typeof(UnityEngine.Vector3).MakeByRefType(), typeof(UnityEngine.Vector3).MakeByRefType());
-			ROrthoNormalize_Ref_Vector3_Ref_Vector3 = new Method(this, "OrthoNormalize", 0, typeof(UnityEngine.Vector3).MakeByRefType(), typeof(UnityEngine.Vector3).MakeByRefType());
-			ROrthoNormalize3_Ref_Vector3_Ref_Vector3_Ref_Vector3 = new Method(this, "OrthoNormalize3", 0, typeof(UnityEngine.Vector3).MakeByRefType(), typeof(UnityEngine.Vector3).MakeByRefType(), typeof(UnityEngine.Vector3).MakeByRefType());
-			ROrthoNormalize_Ref_Vector3_Ref_Vector3_Ref_Vector3 = new Method(this, "OrthoNormalize", 0, typeof(UnityEngine.Vector3).MakeByRefType(), typeof(UnityEngine.Vector3).MakeByRefType(), typeof(UnityEngine.Vector3).MakeByRefType());
-			RRotateTowards_Vector3_Vector3_Single_Single = new Method(this, "RotateTowards", 0, typeof(UnityEngine.Vector3), typeof(UnityEngine.Vector3), typeof(System.Single), typeof(System.Single));
-			RLerp_Vector3_Vector3_Single = new Method(this, "Lerp", 0, typeof(UnityEngine.Vector3), typeof(UnityEngine.Vector3), typeof(System.Single));
-			RLerpUnclamped_Vector3_Vector3_Single = new Method(this, "LerpUnclamped", 0, typeof(UnityEngine.Vector3), typeof(UnityEngine.Vector3), typeof(System.Single));
-			RMoveTowards_Vector3_Vector3_Single = new Method(this, "MoveTowards", 0, typeof(UnityEngine.Vector3), typeof(UnityEngine.Vector3), typeof(System.Single));
-			RSmoothDamp_Vector3_Vector3_Ref_Vector3_Single_Single = new Method(this, "SmoothDamp", 0, typeof(UnityEngine.Vector3), typeof(UnityEngine.Vector3), typeof(UnityEngine.Vector3).MakeByRefType(), typeof(System.Single), typeof(System.Single));
-			RSmoothDamp_Vector3_Vector3_Ref_Vector3_Single = new Method(this, "SmoothDamp", 0, typeof(UnityEngine.Vector3), typeof(UnityEngine.Vector3), typeof(UnityEngine.Vector3).MakeByRefType(), typeof(System.Single));
-			RSmoothDamp_Vector3_Vector3_Ref_Vector3_Single_Single_Single = new Method(this, "SmoothDamp", 0, typeof(UnityEngine.Vector3), typeof(UnityEngine.Vector3), typeof(UnityEngine.Vector3).MakeByRefType(), typeof(System.Single), typeof(System.Single), typeof(System.Single));
-			RSet_Single_Single_Single = new Method(this, "Set", 0, typeof(System.Single), typeof(System.Single), typeof(System.Single));
-			RScale_Vector3_Vector3 = new Method(this, "Scale", 0, typeof(UnityEngine.Vector3), typeof(UnityEngine.Vector3));
-			RScale_Vector3 = new Method(this, "Scale", 0, typeof(UnityEngine.Vector3));
-			RCross_Vector3_Vector3 = new Method(this, "Cross", 0, typeof(UnityEngine.Vector3), typeof(UnityEngine.Vector3));
-			RGetHashCode = new Method(this, "GetHashCode", 0);
-			REquals_Object = new Method(this, "Equals", 0, typeof(System.Object));
-			REquals_Vector3 = new Method(this, "Equals", 0, typeof(UnityEngine.Vector3));
-			RReflect_Vector3_Vector3 = new Method(this, "Reflect", 0, typeof(UnityEngine.Vector3), typeof(UnityEngine.Vector3));
-			RNormalize_Vector3 = new Method(this, "Normalize", 0, typeof(UnityEngine.Vector3));
-			RNormalize = new Method(this, "Normalize", 0);
-			RDot_Vector3_Vector3 = new Method(this, "Dot", 0, typeof(UnityEngine.Vector3), typeof(UnityEngine.Vector3));
-			RProject_Vector3_Vector3 = new Method(this, "Project", 0, typeof(UnityEngine.Vector3), typeof(UnityEngine.Vector3));
-			RProjectOnPlane_Vector3_Vector3 = new Method(this, "ProjectOnPlane", 0, typeof(UnityEngine.Vector3), typeof(UnityEngine.Vector3));
-			RAngle_Vector3_Vector3 = new Method(this, "Angle", 0, typeof(UnityEngine.Vector3), typeof(UnityEngine.Vector3));
-			RSignedAngle_Vector3_Vector3_Vector3 = new Method(this, "SignedAngle", 0, typeof(UnityEngine.Vector3), typeof(UnityEngine.Vector3), typeof(UnityEngine.Vector3));
-			RDistance_Vector3_Vector3 = new Method(this, "Distance", 0, typeof(UnityEngine.Vector3), typeof(UnityEngine.Vector3));
-			RClampMagnitude_Vector3_Single = new Method(this, "ClampMagnitude", 0, typeof(UnityEngine.Vector3), typeof(System.Single));
-			RMagnitude_Vector3 = new Method(this, "Magnitude", 0, typeof(UnityEngine.Vector3));
-			RSqrMagnitude_Vector3 = new Method(this, "SqrMagnitude", 0, typeof(UnityEngine.Vector3));
-			RMin_Vector3_Vector3 = new Method(this, "Min", 0, typeof(UnityEngine.Vector3), typeof(UnityEngine.Vector3));
-			RMax_Vector3_Vector3 = new Method(this, "Max", 0, typeof(UnityEngine.Vector3), typeof(UnityEngine.Vector3));
-			Rop_Addition_Vector3_Vector3 = new Method(this, "op_Addition", 0, typeof(UnityEngine.Vector3), typeof(UnityEngine.Vector3));
-			Rop_Subtraction_Vector3_Vector3 = new Method(this, "op_Subtraction", 0, typeof(UnityEngine.Vector3), typeof(UnityEngine.Vector3));
-			Rop_UnaryNegation_Vector3 = new Method(this, "op_UnaryNegation", 0, typeof(UnityEngine.Vector3));
-			Rop_Multiply_Vector3_Single = new Method(this, "op_Multiply", 0, typeof(UnityEngine.Vector3), typeof(System.Single));
-			Rop_Multiply_Single_Vector3 = new Method(this, "op_Multiply", 0, typeof(System.Single), typeof(UnityEngine.Vector3));
-			Rop_Division_Vector3_Single = new Method(this, "op_Division", 0, typeof(UnityEngine.Vector3), typeof(System.Single));
-			Rop_Equality_Vector3_Vector3 = new Method(this, "op_Equality", 0, typeof(UnityEngine.Vector3), typeof(UnityEngine.Vector3));
-			Rop_Inequality_Vector3_Vector3 = new Method(this, "op_Inequality", 0, typeof(UnityEngine.Vector3), typeof(UnityEngine.Vector3));
-			RToString = new Method(this, "ToString", 0);
-			RToString_String = new Method(this, "ToString", 0, typeof(System.String));
-			RToString_String_IFormatProvider = new Method(this, "ToString", 0, typeof(System.String), typeof(System.IFormatProvider));
-			RAngleBetween_Vector3_Vector3 = new Method(this, "AngleBetween", 0, typeof(UnityEngine.Vector3), typeof(UnityEngine.Vector3));
-			RExclude_Vector3_Vector3 = new Method(this, "Exclude", 0, typeof(UnityEngine.Vector3), typeof(UnityEngine.Vector3));
-			RSlerp_Injected_Ref_Vector3_Ref_Vector3_Single_Out_Vector3 = new Method(this, "Slerp_Injected", 0, typeof(UnityEngine.Vector3).MakeByRefType(), typeof(UnityEngine.Vector3).MakeByRefType(), typeof(System.Single), typeof(UnityEngine.Vector3).MakeByRefType());
-			RSlerpUnclamped_Injected_Ref_Vector3_Ref_Vector3_Single_Out_Vector3 = new Method(this, "SlerpUnclamped_Injected", 0, typeof(UnityEngine.Vector3).MakeByRefType(), typeof(UnityEngine.Vector3).MakeByRefType(), typeof(System.Single), typeof(UnityEngine.Vector3).MakeByRefType());
-			RRotateTowards_Injected_Ref_Vector3_Ref_Vector3_Single_Single_Out_Vector3 = new Method(this, "RotateTowards_Injected", 0, typeof(UnityEngine.Vector3).MakeByRefType(), typeof(UnityEngine.Vector3).MakeByRefType(), typeof(System.Single), typeof(System.Single), typeof(UnityEngine.Vector3).MakeByRefType());
-			RFinalize = new Method(this, "Finalize", 0);
-			RGetType = new Method(this, "GetType", 0);
-			RMemberwiseClone = new Method(this, "MemberwiseClone", 0);
+			RSlerp_Vector3_Vector3_Single = new RMethod(this, "Slerp", 0, typeof(UnityEngine.Vector3), typeof(UnityEngine.Vector3), typeof(System.Single));
+			RSlerpUnclamped_Vector3_Vector3_Single = new RMethod(this, "SlerpUnclamped", 0, typeof(UnityEngine.Vector3), typeof(UnityEngine.Vector3), typeof(System.Single));
+			ROrthoNormalize2_Ref_Vector3_Ref_Vector3 = new RMethod(this, "OrthoNormalize2", 0, typeof(UnityEngine.Vector3).MakeByRefType(), typeof(UnityEngine.Vector3).MakeByRefType());
+			ROrthoNormalize_Ref_Vector3_Ref_Vector3 = new RMethod(this, "OrthoNormalize", 0, typeof(UnityEngine.Vector3).MakeByRefType(), typeof(UnityEngine.Vector3).MakeByRefType());
+			ROrthoNormalize3_Ref_Vector3_Ref_Vector3_Ref_Vector3 = new RMethod(this, "OrthoNormalize3", 0, typeof(UnityEngine.Vector3).MakeByRefType(), typeof(UnityEngine.Vector3).MakeByRefType(), typeof(UnityEngine.Vector3).MakeByRefType());
+			ROrthoNormalize_Ref_Vector3_Ref_Vector3_Ref_Vector3 = new RMethod(this, "OrthoNormalize", 0, typeof(UnityEngine.Vector3).MakeByRefType(), typeof(UnityEngine.Vector3).MakeByRefType(), typeof(UnityEngine.Vector3).MakeByRefType());
+			RRotateTowards_Vector3_Vector3_Single_Single = new RMethod(this, "RotateTowards", 0, typeof(UnityEngine.Vector3), typeof(UnityEngine.Vector3), typeof(System.Single), typeof(System.Single));
+			RLerp_Vector3_Vector3_Single = new RMethod(this, "Lerp", 0, typeof(UnityEngine.Vector3), typeof(UnityEngine.Vector3), typeof(System.Single));
+			RLerpUnclamped_Vector3_Vector3_Single = new RMethod(this, "LerpUnclamped", 0, typeof(UnityEngine.Vector3), typeof(UnityEngine.Vector3), typeof(System.Single));
+			RMoveTowards_Vector3_Vector3_Single = new RMethod(this, "MoveTowards", 0, typeof(UnityEngine.Vector3), typeof(UnityEngine.Vector3), typeof(System.Single));
+			RSmoothDamp_Vector3_Vector3_Ref_Vector3_Single_Single = new RMethod(this, "SmoothDamp", 0, typeof(UnityEngine.Vector3), typeof(UnityEngine.Vector3), typeof(UnityEngine.Vector3).MakeByRefType(), typeof(System.Single), typeof(System.Single));
+			RSmoothDamp_Vector3_Vector3_Ref_Vector3_Single = new RMethod(this, "SmoothDamp", 0, typeof(UnityEngine.Vector3), typeof(UnityEngine.Vector3), typeof(UnityEngine.Vector3).MakeByRefType(), typeof(System.Single));
+			RSmoothDamp_Vector3_Vector3_Ref_Vector3_Single_Single_Single = new RMethod(this, "SmoothDamp", 0, typeof(UnityEngine.Vector3), typeof(UnityEngine.Vector3), typeof(UnityEngine.Vector3).MakeByRefType(), typeof(System.Single), typeof(System.Single), typeof(System.Single));
+			RSet_Single_Single_Single = new RMethod(this, "Set", 0, typeof(System.Single), typeof(System.Single), typeof(System.Single));
+			RScale_Vector3_Vector3 = new RMethod(this, "Scale", 0, typeof(UnityEngine.Vector3), typeof(UnityEngine.Vector3));
+			RScale_Vector3 = new RMethod(this, "Scale", 0, typeof(UnityEngine.Vector3));
+			RCross_Vector3_Vector3 = new RMethod(this, "Cross", 0, typeof(UnityEngine.Vector3), typeof(UnityEngine.Vector3));
+			RGetHashCode = new RMethod(this, "GetHashCode", 0);
+			REquals_Object = new RMethod(this, "Equals", 0, typeof(System.Object));
+			REquals_Vector3 = new RMethod(this, "Equals", 0, typeof(UnityEngine.Vector3));
+			RReflect_Vector3_Vector3 = new RMethod(this, "Reflect", 0, typeof(UnityEngine.Vector3), typeof(UnityEngine.Vector3));
+			RNormalize_Vector3 = new RMethod(this, "Normalize", 0, typeof(UnityEngine.Vector3));
+			RNormalize = new RMethod(this, "Normalize", 0);
+			RDot_Vector3_Vector3 = new RMethod(this, "Dot", 0, typeof(UnityEngine.Vector3), typeof(UnityEngine.Vector3));
+			RProject_Vector3_Vector3 = new RMethod(this, "Project", 0, typeof(UnityEngine.Vector3), typeof(UnityEngine.Vector3));
+			RProjectOnPlane_Vector3_Vector3 = new RMethod(this, "ProjectOnPlane", 0, typeof(UnityEngine.Vector3), typeof(UnityEngine.Vector3));
+			RAngle_Vector3_Vector3 = new RMethod(this, "Angle", 0, typeof(UnityEngine.Vector3), typeof(UnityEngine.Vector3));
+			RSignedAngle_Vector3_Vector3_Vector3 = new RMethod(this, "SignedAngle", 0, typeof(UnityEngine.Vector3), typeof(UnityEngine.Vector3), typeof(UnityEngine.Vector3));
+			RDistance_Vector3_Vector3 = new RMethod(this, "Distance", 0, typeof(UnityEngine.Vector3), typeof(UnityEngine.Vector3));
+			RClampMagnitude_Vector3_Single = new RMethod(this, "ClampMagnitude", 0, typeof(UnityEngine.Vector3), typeof(System.Single));
+			RMagnitude_Vector3 = new RMethod(this, "Magnitude", 0, typeof(UnityEngine.Vector3));
+			RSqrMagnitude_Vector3 = new RMethod(this, "SqrMagnitude", 0, typeof(UnityEngine.Vector3));
+			RMin_Vector3_Vector3 = new RMethod(this, "Min", 0, typeof(UnityEngine.Vector3), typeof(UnityEngine.Vector3));
+			RMax_Vector3_Vector3 = new RMethod(this, "Max", 0, typeof(UnityEngine.Vector3), typeof(UnityEngine.Vector3));
+			Rop_Addition_Vector3_Vector3 = new RMethod(this, "op_Addition", 0, typeof(UnityEngine.Vector3), typeof(UnityEngine.Vector3));
+			Rop_Subtraction_Vector3_Vector3 = new RMethod(this, "op_Subtraction", 0, typeof(UnityEngine.Vector3), typeof(UnityEngine.Vector3));
+			Rop_UnaryNegation_Vector3 = new RMethod(this, "op_UnaryNegation", 0, typeof(UnityEngine.Vector3));
+			Rop_Multiply_Vector3_Single = new RMethod(this, "op_Multiply", 0, typeof(UnityEngine.Vector3), typeof(System.Single));
+			Rop_Multiply_Single_Vector3 = new RMethod(this, "op_Multiply", 0, typeof(System.Single), typeof(UnityEngine.Vector3));
+			Rop_Division_Vector3_Single = new RMethod(this, "op_Division", 0, typeof(UnityEngine.Vector3), typeof(System.Single));
+			Rop_Equality_Vector3_Vector3 = new RMethod(this, "op_Equality", 0, typeof(UnityEngine.Vector3), typeof(UnityEngine.Vector3));
+			Rop_Inequality_Vector3_Vector3 = new RMethod(this, "op_Inequality", 0, typeof(UnityEngine.Vector3), typeof(UnityEngine.Vector3));
+			RToString = new RMethod(this, "ToString", 0);
+			RToString_String = new RMethod(this, "ToString", 0, typeof(System.String));
+			RToString_String_IFormatProvider = new RMethod(this, "ToString", 0, typeof(System.String), typeof(System.IFormatProvider));
+			RAngleBetween_Vector3_Vector3 = new RMethod(this, "AngleBetween", 0, typeof(UnityEngine.Vector3), typeof(UnityEngine.Vector3));
+			RExclude_Vector3_Vector3 = new RMethod(this, "Exclude", 0, typeof(UnityEngine.Vector3), typeof(UnityEngine.Vector3));
+			RSlerp_Injected_Ref_Vector3_Ref_Vector3_Single_Out_Vector3 = new RMethod(this, "Slerp_Injected", 0, typeof(UnityEngine.Vector3).MakeByRefType(), typeof(UnityEngine.Vector3).MakeByRefType(), typeof(System.Single), typeof(UnityEngine.Vector3).MakeByRefType());
+			RSlerpUnclamped_Injected_Ref_Vector3_Ref_Vector3_Single_Out_Vector3 = new RMethod(this, "SlerpUnclamped_Injected", 0, typeof(UnityEngine.Vector3).MakeByRefType(), typeof(UnityEngine.Vector3).MakeByRefType(), typeof(System.Single), typeof(UnityEngine.Vector3).MakeByRefType());
+			RRotateTowards_Injected_Ref_Vector3_Ref_Vector3_Single_Single_Out_Vector3 = new RMethod(this, "RotateTowards_Injected", 0, typeof(UnityEngine.Vector3).MakeByRefType(), typeof(UnityEngine.Vector3).MakeByRefType(), typeof(System.Single), typeof(System.Single), typeof(UnityEngine.Vector3).MakeByRefType());
+			RFinalize = new RMethod(this, "Finalize", 0);
+			RGetType = new RMethod(this, "GetType", 0);
+			RMemberwiseClone = new RMethod(this, "MemberwiseClone", 0);
 
         }
 

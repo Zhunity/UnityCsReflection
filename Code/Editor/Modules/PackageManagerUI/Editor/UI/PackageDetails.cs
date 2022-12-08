@@ -6,12 +6,12 @@ using UnityEngine;
 using Object = UnityEngine.Object;
 using SMFrame.Editor.Refleaction;
 
-public class PackageDetails : Property
+public class PackageDetails : RProperty
 {
 	IPackageVersion displayVersion;
 	IPackageVersion targetVersion;
 
-	public PackageDetails(Member belongMember, string name) : base(belongMember, name)
+	public PackageDetails(RMember belongMember, string name) : base(belongMember, name)
 	{
 		displayVersion = new IPackageVersion(this, "displayVersion");
 	}

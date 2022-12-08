@@ -147,7 +147,7 @@ namespace SMFrame.Editor.Refleaction
 
             // 3.接口里面的xxx.xxx
             //type = typeof(DateTime);
-            //var m = type.GetMethod("System.IConvertible.ToBoolean", Class.flags);
+            //var m = type.GetMethod("System.IConvertible.ToBoolean", RClass.flags);
             //Debug.Log(m);
 
 			// 4.数组
@@ -183,13 +183,13 @@ namespace SMFrame.Editor.Refleaction
 		static void Mat()
 		{
 			var t = typeof(Matrix4x4);
-			//var p = t.GetProperties(Class.flags);
+			//var p = t.GetProperties(RClass.flags);
 			//foreach(var item in p)
 			//{
 			//	Debug.Log(item.GetMethod + "  " + item.SetMethod);
 			//}
-			var p1 = t.GetProperty("Item", Class.flags, null, null, new Type[] { typeof(int)}, null); ;
-			var p2 = t.GetProperty("Item", Class.flags, null, null, new Type[] { typeof(int), typeof(int) }, null);
+			var p1 = t.GetProperty("Item", RClass.flags, null, null, new Type[] { typeof(int)}, null); ;
+			var p2 = t.GetProperty("Item", RClass.flags, null, null, new Type[] { typeof(int), typeof(int) }, null);
 			Debug.Log(p1 + "  " + p2);
 		}
 
