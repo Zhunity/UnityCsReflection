@@ -7,7 +7,7 @@ using Object = System.Object;
 
 namespace SMFrame.Editor.Refleaction
 {
-	public class RClass
+	public class RType
 	{
 		public const BindingFlags flags = BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance | BindingFlags.Static;
 
@@ -32,7 +32,7 @@ namespace SMFrame.Editor.Refleaction
 			}
 		}
 
-		protected RClass()
+		protected RType()
 		{
 			memberList.Clear();
 		}
@@ -42,7 +42,7 @@ namespace SMFrame.Editor.Refleaction
 		/// 毕竟主工程中可能拿不到该类型，只能通过传名字来完成操作
 		/// </summary>
 		/// <param name="type"></param>
-		public RClass(string type, int genericCount = -1, params Type[] types)
+		public RType(string type, int genericCount = -1, params Type[] types)
 		{
 			this.genericCount = genericCount;
 			this.types = types;
@@ -55,7 +55,7 @@ namespace SMFrame.Editor.Refleaction
 		/// 直接传进类型，省去查找类型的过程
 		/// </summary>
 		/// <param name="type"></param>
-		public RClass(Type type, int genericCount = -1, params Type[] types)
+		public RType(Type type, int genericCount = -1, params Type[] types)
 		{
 			this.type = type;
 			this.genericCount = genericCount;

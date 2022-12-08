@@ -6,7 +6,7 @@ using System;
 
 namespace SMFrame.Editor.Refleaction
 {
-	public class RAddComponentWindow : RClass
+	public class RAddComponentWindow : RType
 	{
 		// 选中Component修改时的Event
 		public REvent selectionChanged;

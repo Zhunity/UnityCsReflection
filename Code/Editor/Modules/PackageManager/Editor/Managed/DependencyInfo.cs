@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using SMFrame.Editor.Refleaction;
 
-public class DependencyInfo : RClass
+public class DependencyInfo : RType
 {
 	public RProperty version;
 	public RProperty packageName;

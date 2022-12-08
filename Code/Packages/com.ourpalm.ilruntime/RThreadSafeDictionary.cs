@@ -7,7 +7,7 @@ public class RThreadSafeDictionary : RField
 {
 	public RProperty InnerDictionary;
 
-	public RThreadSafeDictionary(RClass belong, string name) : base(belong, name)
+	public RThreadSafeDictionary(RType belong, string name) : base(belong, name)
 	{
 		InnerDictionary = CreateProperty("InnerDictionary");
 	}

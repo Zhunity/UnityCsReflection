@@ -11,7 +11,7 @@ namespace SMFrame.Editor.Refleaction
 	{
 		public PropertyInfo propertyInfo;
 
-		public RProperty(RClass belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+		public RProperty(RType belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
 		{
 		}
 
@@ -83,7 +83,7 @@ namespace SMFrame.Editor.Refleaction
 
 		protected override void SetInfo(Type belongType, string name)
 		{
-			propertyInfo = belongType.GetProperty(name, RClass.flags, null, null, types, null); ;
+			propertyInfo = belongType.GetProperty(name, RType.flags, null, null, types, null); ;
 		}
 
 		protected override void SetType()

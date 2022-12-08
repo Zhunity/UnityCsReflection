@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace UnityEditor
 {
-	public class RTools : RClass
+	public class RTools : RType
 	{
 		public RTools() : base("Tools")
 		{

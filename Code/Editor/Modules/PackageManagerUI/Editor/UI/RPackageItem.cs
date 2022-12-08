@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using SMFrame.Editor.Refleaction;
 
-public class RPackageItem : RClass
+public class RPackageItem : RType
 {
 
 	RProperty Item;  // UnityEngine.UIElements.VisualElement Item [Int32]

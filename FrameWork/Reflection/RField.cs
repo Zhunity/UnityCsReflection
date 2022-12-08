@@ -11,7 +11,7 @@ namespace SMFrame.Editor.Refleaction
 	{
 		FieldInfo fieldInfo;
 
-		public RField(RClass belongMember, string name, int genericCount = -1) : base(belongMember, name, genericCount)
+		public RField(RType belongMember, string name, int genericCount = -1) : base(belongMember, name, genericCount)
 		{
 		}
 

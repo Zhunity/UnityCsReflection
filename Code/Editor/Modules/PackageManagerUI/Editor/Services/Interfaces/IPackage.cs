@@ -18,7 +18,7 @@ public class IPackage : RProperty
 	// it will be the default that will be displayed if no versions are selected
 	IPackageVersion primaryVersion;
 
-	public IPackage(RClass belongMember, string name) : base(belongMember, name)
+	public IPackage(RType belongMember, string name) : base(belongMember, name)
 	{
 		displayName = new RProperty(this, "displayName");
 		packageName = new RProperty(this, "name");

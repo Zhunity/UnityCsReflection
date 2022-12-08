@@ -8,7 +8,7 @@ namespace SMFrame.Editor
 	/// <summary>
 	/// ComponentItem的对象的对象
 	/// </summary>
-	public class RComponentDropdownItem : RClass
+	public class RComponentDropdownItem : RType
 	{
 		// ComponentItem在AddComponentWindow显示的名字
 		public RProperty displayName;

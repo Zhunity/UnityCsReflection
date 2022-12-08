@@ -90,14 +90,14 @@ namespace SMFrame.Editor.Refleaction
 
 			GenerateProperty(classType, ref delcareStr, ref newStr, getSetHash);
 
-			var fields = classType.GetFields(RClass.flags);
+			var fields = classType.GetFields(RType.flags);
             foreach (var field in fields)
             {
                 delcareStr += GenerateMemberDeclare(field.FieldType, field.Name, "RField", field.IsStatic);
                 newStr += GenerateMemberNew(field.FieldType, field.Name, "RField");
             }
 
-            var events = classType.GetEvents(RClass.flags);
+            var events = classType.GetEvents(RType.flags);
             foreach (var @event in events)
             {
                 getSetHash.Add(@event.AddMethod);

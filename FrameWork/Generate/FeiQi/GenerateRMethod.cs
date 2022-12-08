@@ -24,7 +24,7 @@ namespace SMFrame.Editor.Refleaction
 		private static string GenerateMethod(Type classType, HashSet<MethodInfo> getSetHash, ref string delcareStr,  ref string newStr)
         {
             string methodInvoke = string.Empty;
-            var methods = classType.GetMethods(RClass.flags);
+            var methods = classType.GetMethods(RType.flags);
             foreach (var method in methods)
             {
                 if (getSetHash.Contains(method))

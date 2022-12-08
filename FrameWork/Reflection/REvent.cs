@@ -11,7 +11,7 @@ namespace SMFrame.Editor.Refleaction
 	{
 		EventInfo eventInfo;
 
-		public REvent(RClass belongMember, string name) : base(belongMember, name)
+		public REvent(RType belongMember, string name) : base(belongMember, name)
 		{
 		}
 

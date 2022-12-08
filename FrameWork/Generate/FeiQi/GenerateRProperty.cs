@@ -24,7 +24,7 @@ namespace SMFrame.Editor.Refleaction
 		private static string GenerateProperty(Type classType, ref string delcareStr,  ref string newStr, HashSet<MethodInfo> getSetHash)
         {
             string methodInvoke = string.Empty;
-            var properties = classType.GetProperties(RClass.flags);
+            var properties = classType.GetProperties(RType.flags);
             foreach (var property in properties)
             {
 				getSetHash.Add(property.SetMethod);

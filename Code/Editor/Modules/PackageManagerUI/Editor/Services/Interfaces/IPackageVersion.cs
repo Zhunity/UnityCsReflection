@@ -16,7 +16,7 @@ public class IPackageVersion : RProperty
 	public RProperty resolvedDependencies;
 	public RProperty isInstalled;
 
-	public IPackageVersion(RClass belongMember, string name) : base(belongMember, name)
+	public IPackageVersion(RType belongMember, string name) : base(belongMember, name)
 	{
 		displayName = new RProperty(this, "displayName");
 		versionId = new RProperty(this, "versionId");

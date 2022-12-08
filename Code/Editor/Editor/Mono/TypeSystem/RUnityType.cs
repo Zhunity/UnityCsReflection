@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace SMFrame.Editor.Refleaction
 {
-	public class RUnityType : RClass
+	public class RUnityType : RType
 	{
 		public RProperty _name;
 		private RMethod _FindTypeByPersistentTypeID;

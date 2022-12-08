@@ -13,7 +13,7 @@ namespace SMFrame.Editor.Refleaction
 	/// 如果一种类型既有在Property成员，也有Field类型，建议使用Member
 	/// 继承Class是因为，一种类型，既可能是单独定义出来的，也可能是别的类型中的一个成员，适配这种情况
 	/// </summary>
-	public class RMember : RClass
+	public class RMember : RType
 	{
 		public MemberInfo memberInfo;   // 反射出来的信息
 		public Type belongType;         // 在哪个类里面反射出来的成员
@@ -42,7 +42,7 @@ namespace SMFrame.Editor.Refleaction
 		/// </summary>
 		/// <param name="belongMember"></param>
 		/// <param name="name"></param>
-		public RMember(RClass belongMember, string name, int genericCount = -1, params Type[] types) : this(belongMember.type, name, genericCount, types)
+		public RMember(RType belongMember, string name, int genericCount = -1, params Type[] types) : this(belongMember.type, name, genericCount, types)
 		{
 			belongMember.AddMember(this as RMember);
 		}

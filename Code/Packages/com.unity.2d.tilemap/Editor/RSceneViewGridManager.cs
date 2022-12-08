@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace UnityEditor.Tilemaps
 {
-	public class RSceneViewGridManager : RClass
+	public class RSceneViewGridManager : RType
 	{
 		RMethod _drawGrid;
 
