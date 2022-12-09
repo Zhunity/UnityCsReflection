@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Reflection;
 using System.Text;
+using System.Text.RegularExpressions;
 using UnityEngine;
 
 namespace SMFrame.Editor.Refleaction
@@ -34,6 +35,22 @@ namespace SMFrame.Editor.Refleaction
             {
                 return $"RFieldArray<{GetFieldType(type.GetElementType())}>";
             }
+            else if(type.IsGenericType)
+            {
+				var genericTypes = type.GetGenericArguments();
+                string gstr = String.Empty;
+                for(int i = 0; i < genericTypes.Length; i ++)
+                {
+					gstr += GetFieldType(genericTypes[i]);
+                    if(i < genericTypes.Length - 1)
+                    {
+						gstr += ", ";
+                    }
+				}
+				var genericDefine = type.GetGenericTypeDefinition();
+				var result = Regex.Replace(genericDefine.Name, @"`\d+", $"<{gstr}>");
+                return "R" + result;
+			}
             else
             {
                 return (PrimitiveTypeConfig.IsPrimitive(type)) ? "RField" : "R" + type.ToDeclareName(false);
