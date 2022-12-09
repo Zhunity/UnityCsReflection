@@ -14,11 +14,11 @@ namespace SMFrame.Editor.Refleaction
 		MethodInfo methodInfo;
 
 
-		public RMethod(RType belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount)
+		public RMethod(RType belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
 		{
         }
 
-		public RMethod(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount)
+		public RMethod(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
 		{
         }
 
