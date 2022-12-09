@@ -1,18 +1,22 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Reflection;
 using UnityEngine;
 
-public class GField : MonoBehaviour
+namespace SMFrame.Editor.Refleaction
 {
-    // Start is called before the first frame update
-    void Start()
+    public class GField : GMember
     {
-        
-    }
+        FieldInfo field;
+        public GField(FieldInfo info)
+        {
+            field = info;
+		}
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+        public void GetRefTypes(HashSet<Type> refTypes)
+        {
+			field.FieldType.GetRefType(ref refTypes);
+		}
     }
 }

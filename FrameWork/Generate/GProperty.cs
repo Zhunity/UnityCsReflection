@@ -1,18 +1,23 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Reflection;
 using UnityEngine;
 
-public class GProperty : MonoBehaviour
+namespace SMFrame.Editor.Refleaction
 {
-    // Start is called before the first frame update
-    void Start()
+    public class GProperty : GMember
     {
-        
-    }
+        PropertyInfo property;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+        public GProperty(PropertyInfo property)
+        {
+            this.property = property;
+        }
+
+		public void GetRefTypes(HashSet<Type> refTypes)
+		{
+			property.PropertyType.GetRefType(ref refTypes);
+		}
+	}
 }

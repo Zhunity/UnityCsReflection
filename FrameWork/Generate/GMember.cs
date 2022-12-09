@@ -1,18 +1,12 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GMember : MonoBehaviour
+namespace SMFrame.Editor.Refleaction
 {
-    // Start is called before the first frame update
-    void Start()
+    public interface GMember
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+		void GetRefTypes(HashSet<Type> refTypes);
+	}
 }

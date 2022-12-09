@@ -10,7 +10,7 @@ using SMFrame.Editor.Refleaction.RUnityEngine;
 namespace SMFrame.Editor.Refleaction
 {
 
-	class A
+	class ATestGenericMethod
 	{
 
 		public static float N<T>(int e, out T a, ref float b, in long c, params bool[][][] d)
@@ -160,7 +160,7 @@ namespace SMFrame.Editor.Refleaction
             //RSMFrame.REditor.RRefleaction.Ra<int> test = new();
             //test.SetBelong(ss);
             //Debug.Log( test.ToString());
-            //         A a = new A();
+            //         ATestGenericMethod a = new ATestGenericMethod();
             //         RA ra = new RA();
             //         ra.SetInstance(a);
             //         ra.N();
@@ -209,6 +209,16 @@ namespace SMFrame.Editor.Refleaction
 			RVector3 rv = new RVector3(v);
 			
 			Debug.Log(rv.normalized.Value + "  " + v.normalized);
+		}
+
+		[MenuItem("Tools/NewGenerate")]
+		static void GenerateNewWay()
+		{
+			GenerateInput.UnityCSReflectionPath = $"{Application.dataPath}/Script/UnityCsReflection/";
+
+
+			
+			GenerateInput.Generate(typeof(ATestGenericMethod), false);
 		}
 	}
 }
