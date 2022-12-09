@@ -6,7 +6,6 @@ using UnityEditor;
 using System.Reflection;
 using System.IO;
 using SMFrame.Editor.Refleaction.RUnityEngine;
-using SMFrame.Editor.Refleaction.RSMFrame.REditor.RRefleaction;
 
 namespace SMFrame.Editor.Refleaction
 {
@@ -228,8 +227,8 @@ namespace SMFrame.Editor.Refleaction
 		static void TestNewWay()
 		{
 			ATestGenericMethod a = new();
-			RATestGenericMethod ra = new(a);
-			Debug.Log(ra.sdfsdf.Value + "  " + RATestGenericMethod.qeqwe.Value);
+			//RATestGenericMethod ra = new(a);
+			//Debug.Log(ra.sdfsdf.Value + "  " + RATestGenericMethod.qeqwe.Value);
 		}
 	}
 }

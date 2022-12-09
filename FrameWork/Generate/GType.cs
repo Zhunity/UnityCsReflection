@@ -78,7 +78,7 @@ namespace SMFrame.Editor.Refleaction
 		{
 			string nameSpaceStr = GetNameSpace();
 			string delcareStr = GetMemberDeclareStr();
-			string methodInvoke = "";
+			string methodInvoke = GetMethodInvokeStr();
 
 
 			return $@"{nameSpaceStr}using SMFrame.Editor.Refleaction;
@@ -182,6 +182,16 @@ namespace SMFrame.Editor.Refleaction.R{type.Namespace.Replace(".", ".R")}
 			foreach(var member in members)
 			{
 				member.GetDeclareStr(sb);
+			}
+			return sb.ToString();
+		}
+
+		private string GetMethodInvokeStr()
+		{
+			StringBuilder sb = new StringBuilder();
+			foreach (var method in methods)
+			{
+				sb.AppendLine(method.GenerateMethodInvoke());
 			}
 			return sb.ToString();
 		}
