@@ -135,7 +135,7 @@ namespace SMFrame.Editor.Refleaction
 					{
 						str += "out ";
 						outDefaultStr += $"\t\t\t{param.Name} = default;\n";
-						outAssignStr += $"\t\t\t{param.Name} = ({paramType.ToDeclareName()})___parameters[{param.Position}];\n";
+						outAssignStr += $"\t\t\t{param.Name} = ({paramType.ToClassName(true)})___parameters[{param.Position}];\n";
 					}
 					else if (param.IsIn)
 					{
@@ -144,7 +144,7 @@ namespace SMFrame.Editor.Refleaction
 					else
 					{
 						str += "ref ";
-						outAssignStr += $"\t\t\t{param.Name} = ({paramType.ToDeclareName()})___parameters[{param.Position}];\n";
+						outAssignStr += $"\t\t\t{param.Name} = ({paramType.ToClassName(true)})___parameters[{param.Position}];\n";
 					}
 				}
 				if (paramType.IsPointer)
@@ -152,7 +152,7 @@ namespace SMFrame.Editor.Refleaction
 					isUnsafe = true;
 				}
 
-				str += paramType.ToDeclareName() + "  @" + param.Name;
+				str += paramType.ToClassName(true) + "  @" + param.Name;
 				paramDeclareStr += str;
 				paramStr += GetParamName(param);
 				if (i < parameters.Length - 1)
@@ -212,7 +212,7 @@ namespace SMFrame.Editor.Refleaction
 		{
 			bool canConvertToObject = !CanNotConvertToObject.Contains(returnType);
 			bool isPublic = returnType.IsPublic();
-			returnTypeStr = (canConvertToObject && isPublic) ? returnType.ToDeclareName() : typeof(System.Object).ToDeclareName();
+			returnTypeStr = (canConvertToObject && isPublic) ? returnType.ToClassName(true) : typeof(System.Object).ToClassName(true);
 			bool hasReturn = returnType != typeof(void);
 			if (!hasReturn)
 			{

@@ -10,6 +10,9 @@ using UnityEngine.Rendering;
 
 namespace SMFrame.Editor.Refleaction
 {
+	/// <summary>
+	/// 
+	/// </summary>
     public class GType
     {
         List<GField> fields = new List<GField> ();
@@ -86,6 +89,9 @@ using System.Reflection;
 
 namespace SMFrame.Editor.Refleaction.R{type.Namespace.Replace(".", ".R")}
 {{
+	/// <summary>
+	/// {type.FullName}
+	/// </summary>
     public partial class R{type.ToClassName()} : RMember
     {{
 {delcareStr}
