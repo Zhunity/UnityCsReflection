@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Reflection;
+using System.Text;
 using UnityEngine;
 
 namespace SMFrame.Editor.Refleaction
@@ -19,6 +20,34 @@ namespace SMFrame.Editor.Refleaction
 		public override void GetRefTypes(HashSet<Type> refTypes)
 		{
 			property.PropertyType.GetRefType(ref refTypes);
+		}
+
+		public override void GetDeclareStr(StringBuilder sb)
+		{
+			string fieldType = (PrimitiveTypeConfig.IsPrimitive(property.PropertyType)) ? "RProperty" : "R" + property.PropertyType.ToDeclareName(false);
+			string name = GetPropertyName(property);
+			var declareStr = GetDeclareStr(fieldType, name, property.Name, property.ToString());
+			sb.AppendLine(declareStr);
+		}
+
+		static private string GetPropertyName(PropertyInfo property)
+		{
+			var method = property.GetMethod == null ? property.SetMethod : property.GetMethod;
+			string paramStr = GMethod.GetMethodName(method);
+			paramStr = paramStr.Replace("Rget_", "").Replace("Rset_", "");
+			return paramStr;
+		}
+
+		protected override string GetNewParamStr()
+		{
+			var method = property.GetMethod == null ? property.SetMethod : property.GetMethod;
+			var parameters = method.GetParameters();
+			var paramStr = string.Empty;
+			for (int i = 0; i < parameters.Length; i++)
+			{
+				paramStr += $", {parameters[i].ParameterType.ToGetMethod()}";
+			}
+			return ", -1" + paramStr;
 		}
 	}
 }

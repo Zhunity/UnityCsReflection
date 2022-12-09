@@ -8,7 +8,7 @@ namespace SMFrame.Editor.Refleaction.RSMFrame.REditor.RRefleaction
     {
 
 		/// <summary>
-		/// System.Int32
+		/// System.Int32 qeqwe
 		/// </summary>
 		protected static RField r_qeqwe;
 		public static RField qeqwe
@@ -25,7 +25,7 @@ namespace SMFrame.Editor.Refleaction.RSMFrame.REditor.RRefleaction
 		}
 
 		/// <summary>
-		/// System.String
+		/// System.String sdfsdf
 		/// </summary>
 		protected RField r_sdfsdf;
 		public virtual RField sdfsdf
@@ -38,6 +38,57 @@ namespace SMFrame.Editor.Refleaction.RSMFrame.REditor.RRefleaction
 					r_sdfsdf.SetBelong(this.instance);
 				}
 				return r_sdfsdf;
+			}
+		}
+
+		/// <summary>
+		/// System.String s
+		/// </summary>
+		protected RProperty r_s;
+		public virtual RProperty s
+		{
+			get
+			{
+				if(r_s == null)
+				{
+					r_s = new RProperty(this, "s", -1);
+					r_s.SetBelong(this.instance);
+				}
+				return r_s;
+			}
+		}
+
+		/// <summary>
+		/// Int32 Item [Int32]
+		/// </summary>
+		protected RProperty r_Item_Int32;
+		public virtual RProperty Item_Int32
+		{
+			get
+			{
+				if(r_Item_Int32 == null)
+				{
+					r_Item_Int32 = new RProperty(this, "Item", -1, typeof(System.Int32));
+					r_Item_Int32.SetBelong(this.instance);
+				}
+				return r_Item_Int32;
+			}
+		}
+
+		/// <summary>
+		/// System.String Item [System.String]
+		/// </summary>
+		protected RProperty r_Item_String;
+		public virtual RProperty Item_String
+		{
+			get
+			{
+				if(r_Item_String == null)
+				{
+					r_Item_String = new RProperty(this, "Item", -1, typeof(System.String));
+					r_Item_String.SetBelong(this.instance);
+				}
+				return r_Item_String;
 			}
 		}
 

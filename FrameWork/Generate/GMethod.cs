@@ -47,7 +47,7 @@ namespace SMFrame.Editor.Refleaction
 			return $", {generics.Length}{paramStr}";
 		}
 
-		static private string GetMethodName(MethodInfo method)
+		static public string GetMethodName(MethodInfo method)
 		{
 			var generics = method.GetGenericArguments();
 			string paramStr = LegalNameConfig.LegalName(method.Name);

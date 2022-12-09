@@ -15,6 +15,24 @@ namespace SMFrame.Editor.Refleaction
 		static int qeqwe = 345345345;
 		string sdfsdf = "wffewfwefwefwef";
 
+		string s { get { return "rrrrr"; } }
+
+		int this[int x]
+		{
+			get
+			{
+				return x + 999;
+			}
+		}
+
+		string this[string s]
+		{
+			get
+			{
+				return "ssss" + s;
+			}
+		}
+
 		public static float N<T>(int e, out T a, ref float b, in long c, params bool[][][] d)
 		{
 			a = default;
