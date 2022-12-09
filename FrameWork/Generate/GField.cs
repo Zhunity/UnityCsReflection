@@ -53,13 +53,24 @@ namespace SMFrame.Editor.Refleaction
 				}
 				var genericDefine = type.GetGenericTypeDefinition();
 				var result = Regex.Replace(genericDefine.Name, @"`\d+", $"<{gstr}>");
-                return "R" + result;
+				string nameSpace = GetNameSpace(genericDefine);
+				return nameSpace + "R" + result;
 			}
             else
             {
-                return (PrimitiveTypeConfig.IsPrimitive(type)) ? "RField" : "R" + type.ToDeclareName(false);
+                string nameSpace = GetNameSpace(type);
+				return (PrimitiveTypeConfig.IsPrimitive(type)) ? "RField" : nameSpace + "R" + type.ToDeclareName(false);
 
 			}
         }
+
+        private string GetNameSpace(Type type)
+        {
+			if (type == null || string.IsNullOrEmpty(type.Namespace) || GenerateInput.IsPrimitive(type))
+			{
+				return string.Empty;
+			}
+            return $"SMFrame.Editor.Refleaction.R{type.Namespace.Replace(".", ".R")}.";
+		}
     }
 }

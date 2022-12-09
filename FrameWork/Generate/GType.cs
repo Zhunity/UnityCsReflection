@@ -76,12 +76,11 @@ namespace SMFrame.Editor.Refleaction
 
 		public override string ToString()
 		{
-			string nameSpaceStr = GetNameSpace();
 			string delcareStr = GetMemberDeclareStr();
 			string methodInvoke = GetMethodInvokeStr();
 
 
-			return $@"{nameSpaceStr}using SMFrame.Editor.Refleaction;
+			return $@"using SMFrame.Editor.Refleaction;
 using System;
 using System.Reflection;
 
@@ -131,31 +130,6 @@ namespace SMFrame.Editor.Refleaction.R{type.Namespace.Replace(".", ".R")}
 				refs.Add(type.ToBasicType());
 			}
 			return refs;
-		}
-
-		private string GetNameSpace()
-		{
-			var refTypes = GetRefTypes();
-			if(refTypes == null || refTypes.Count <= 0)
-			{
-				return string.Empty;
-			}
-			HashSet<string> nameSpaces = new();
-			foreach(var refType in refTypes)
-			{
-				if(refType == null || string.IsNullOrEmpty(refType.Namespace) || GenerateInput.IsPrimitive(refType))
-				{
-					continue;
-				}
-				nameSpaces.Add(refType.Namespace);
-			}
-
-			StringBuilder sb = new StringBuilder();
-			foreach(var nameSpace in nameSpaces)
-			{
-				sb.AppendLine($"using SMFrame.Editor.Refleaction.R{nameSpace.Replace(".", ".R")};");
-			}
-			return sb.ToString();
 		}
 
 		private string GetMemberDeclareStr()
