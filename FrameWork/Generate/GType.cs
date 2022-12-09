@@ -143,7 +143,7 @@ namespace SMFrame.Editor.Refleaction.R{type.Namespace.Replace(".", ".R")}
 			HashSet<string> nameSpaces = new();
 			foreach(var refType in refTypes)
 			{
-				if(string.IsNullOrEmpty(refType.Namespace) || GenerateInput.IsPrimitive(refType))
+				if(refType == null || string.IsNullOrEmpty(refType.Namespace) || GenerateInput.IsPrimitive(refType))
 				{
 					continue;
 				}
