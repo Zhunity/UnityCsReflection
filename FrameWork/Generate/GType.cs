@@ -2,7 +2,9 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
 using System.Text;
+using UnityEditor.PackageManager;
 using UnityEngine;
 using UnityEngine.Rendering;
 
@@ -31,9 +33,12 @@ namespace SMFrame.Editor.Refleaction
                 this.fields.Add(gField);
 			}
 
+			HashSet<MethodInfo> getSetHash = new HashSet<MethodInfo>();
 			var properties = type.GetProperties(RType.flags);
 			foreach (var property in properties)
 			{
+				getSetHash.Add(property.GetMethod);
+				getSetHash.Add(property.SetMethod);
 				GProperty gProperty = new(property);
 				this.properties.Add(gProperty);
 			}
@@ -41,14 +46,20 @@ namespace SMFrame.Editor.Refleaction
 			var events = type.GetEvents(RType.flags);
 			foreach (var @event in events)
 			{
+				getSetHash.Add(@event.AddMethod);
+				getSetHash.Add(@event.RemoveMethod);
 				GEvent gEvent = new(@event);
 				this.events.Add(gEvent);
 			}
 
 			var methods = type.GetMethods(RType.flags);
-			foreach (var metod in methods)
+			foreach (var method in methods)
 			{
-				GMethod gMethod = new(metod);
+				if (getSetHash.Contains(method))
+				{
+					continue;
+				}
+				GMethod gMethod = new(method);
 				this.methods.Add(gMethod);
 			}
 

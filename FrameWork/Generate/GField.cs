@@ -24,8 +24,8 @@ namespace SMFrame.Editor.Refleaction
         public override void GetDeclareStr(StringBuilder sb)
         {
 			string fieldType = (PrimitiveTypeConfig.IsPrimitive(field.FieldType)) ? "RField" : "R" + field.FieldType.ToDeclareName(false);
-            var declareStr = GetDeclareStr(fieldType, field.Name, field.FieldType.ToString());
-            sb.Append(declareStr);
+            var declareStr = GetDeclareStr(fieldType, field.Name, field.Name, field.FieldType.ToString());
+            sb.AppendLine(declareStr);
 		}
     }
 }

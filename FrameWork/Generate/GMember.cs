@@ -21,27 +21,27 @@ namespace SMFrame.Editor.Refleaction
 			return string.Empty;
 		}
 
-		protected string GetDeclareStr(string type, string name, string note)
+		protected string GetDeclareStr(string type, string declareName, string findName, string note)
 		{
 			string staticFieldStr = isStatic ? "static " : string.Empty;
 			string statiPropertyStr = isStatic ? "static " : "virtual ";
 			string belong = isStatic ? gType.type.ToGetMethod() : "this";
 			string setBelong = isStatic ? "null" : "this.instance";
-			name = LegalNameConfig.LegalName(name);
-			string protectedName = "r_" + name;
+			declareName = LegalNameConfig.LegalName(declareName);
+			string protectedName = "r_" + declareName;
 			string paramStr = GetNewParamStr();
 			string result = @$"
 		/// <summary>
 		/// {note}
 		/// </summary>
 		protected {staticFieldStr}{type} {protectedName};
-		public {statiPropertyStr}{type} {name}
+		public {statiPropertyStr}{type} {declareName}
 		{{
 			get
 			{{
 				if({protectedName} == null)
 				{{
-					{protectedName} = new {type}({belong}, ""{name}""{paramStr});
+					{protectedName} = new {type}({belong}, ""{findName}""{paramStr});
 					{protectedName}.SetBelong({setBelong});
 				}}
 				return {protectedName};
