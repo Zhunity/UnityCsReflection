@@ -42,7 +42,7 @@ namespace SMFrame.Editor.Refleaction
 		/// </summary>
 		/// <param name="belongMember"></param>
 		/// <param name="name"></param>
-		public RMember(RType belongMember, string name, int genericCount = -1, params Type[] types) : this(belongMember.type, name, genericCount, types)
+		public RMember(RType belongMember, string name, int genericCount = -1, params Type[] types) : this(belongMember?.type, name, genericCount, types)
 		{
 			belongMember.AddMember(this as RMember);
 		}
@@ -140,7 +140,7 @@ namespace SMFrame.Editor.Refleaction
 
 		public void SetBelong(RMember belong)
 		{
-			var obj = belong.GetValue();
+			var obj = belong?.GetValue();
 			SetBelong(obj);
 		}
 

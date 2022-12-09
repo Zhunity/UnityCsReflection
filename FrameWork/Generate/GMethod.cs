@@ -13,9 +13,10 @@ namespace SMFrame.Editor.Refleaction
         public GMethod(MethodInfo method)
         {
             this.method = method;
+			isStatic = method.IsStatic;
         }
 
-		public void GetRefTypes(HashSet<Type> refTypes)
+		public override void GetRefTypes(HashSet<Type> refTypes)
 		{
 			method.ReturnType.GetRefType(ref refTypes);
 			var parameters = method.GetParameters();

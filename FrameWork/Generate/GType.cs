@@ -19,7 +19,7 @@ namespace SMFrame.Editor.Refleaction
 
 		HashSet<Type> refs = new HashSet<Type>();
 
-		Type type;
+		public Type type;
 
         public GType(Type type)
         {
@@ -56,12 +56,17 @@ namespace SMFrame.Editor.Refleaction
 			members.AddRange(this.properties);
 			members.AddRange(this.events);
 			members.AddRange(this.methods);
+
+			foreach(var member in members)
+			{
+				member.gType = this;
+			}
 		}
 
 		public override string ToString()
 		{
 			string nameSpaceStr = GetNameSpace();
-			string delcareStr = "";
+			string delcareStr = GetMemberDeclareStr();
 			string methodInvoke = "";
 
 
@@ -156,6 +161,16 @@ namespace SMFrame.Editor.Refleaction.R{type.Namespace.Replace(".", ".R")}
 			foreach(var nameSpace in nameSpaces)
 			{
 				sb.AppendLine($"using SMFrame.Editor.Refleaction.R{nameSpace.Replace(".", ".R")};");
+			}
+			return sb.ToString();
+		}
+
+		private string GetMemberDeclareStr()
+		{
+			StringBuilder sb = new StringBuilder();
+			foreach(var member in members)
+			{
+				member.GetDeclareStr(sb);
 			}
 			return sb.ToString();
 		}

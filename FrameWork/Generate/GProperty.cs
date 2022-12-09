@@ -13,9 +13,10 @@ namespace SMFrame.Editor.Refleaction
         public GProperty(PropertyInfo property)
         {
             this.property = property;
+            isStatic = property.IsStatic();
         }
 
-		public void GetRefTypes(HashSet<Type> refTypes)
+		public override void GetRefTypes(HashSet<Type> refTypes)
 		{
 			property.PropertyType.GetRefType(ref refTypes);
 		}

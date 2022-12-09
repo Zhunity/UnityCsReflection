@@ -6,12 +6,15 @@ using UnityEditor;
 using System.Reflection;
 using System.IO;
 using SMFrame.Editor.Refleaction.RUnityEngine;
+using SMFrame.Editor.Refleaction.RSMFrame.REditor.RRefleaction;
 
 namespace SMFrame.Editor.Refleaction
 {
 
 	class ATestGenericMethod
 	{
+		static int qeqwe = 345345345;
+		string sdfsdf = "wffewfwefwefwef";
 
 		public static float N<T>(int e, out T a, ref float b, in long c, params bool[][][] d)
 		{
@@ -90,7 +93,7 @@ namespace SMFrame.Editor.Refleaction
 
     public partial class GenerateRClass
     {
-        [MenuItem("Tools/generate a file")]
+       // [MenuItem("Tools/generate a file")]
         static void f()
         {
             UnityCSReflectionPath = $"{Application.dataPath}/Script/UnityCsReflection/";
@@ -126,7 +129,7 @@ namespace SMFrame.Editor.Refleaction
         }
         class g<T> { }
 		
-		[MenuItem("Tools/ra invoke")]
+		//[MenuItem("Tools/ra invoke")]
 		static void G()
 		{
 			UnityCSReflectionPath = $"{Application.dataPath}/Script/UnityCsReflection/";
@@ -179,7 +182,7 @@ namespace SMFrame.Editor.Refleaction
 			}
 		}
 
-		[MenuItem("Tools/Matrix4x4e")]
+		//[MenuItem("Tools/Matrix4x4e")]
 		static void Mat()
 		{
 			var t = typeof(Matrix4x4);
@@ -193,7 +196,7 @@ namespace SMFrame.Editor.Refleaction
 			Debug.Log(p1 + "  " + p2);
 		}
 
-		[MenuItem("Tools/TestGameObject")]
+		//[MenuItem("Tools/TestGameObject")]
 		static void TestGameObject()
 		{
 			GameObject go = GameObject.CreatePrimitive(UnityEngine.PrimitiveType.Cube);
@@ -202,7 +205,7 @@ namespace SMFrame.Editor.Refleaction
 			Debug.Log(t, t);
 		}
 
-		[MenuItem("Tools/TestVector")]
+		//[MenuItem("Tools/TestVector")]
 		static void TestVector()
 		{
 			Vector3 v = new Vector3(100, 22, 3);
@@ -219,6 +222,14 @@ namespace SMFrame.Editor.Refleaction
 
 			
 			GenerateInput.Generate(typeof(ATestGenericMethod), false);
+		}
+
+		[MenuItem("Tools/TestNewWay")]
+		static void TestNewWay()
+		{
+			ATestGenericMethod a = new();
+			RATestGenericMethod ra = new(a);
+			Debug.Log(ra.sdfsdf.Value + "  " + RATestGenericMethod.qeqwe.Value);
 		}
 	}
 }

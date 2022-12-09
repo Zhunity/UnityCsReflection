@@ -13,9 +13,10 @@ namespace SMFrame.Editor.Refleaction
         public GEvent(EventInfo @event)
         {
             this.@event = @event;
+            isStatic = @event.IsStatic();
         }
 
-		public void GetRefTypes(HashSet<Type> refTypes)
+		public override void GetRefTypes(HashSet<Type> refTypes)
 		{
 		}
 	}
