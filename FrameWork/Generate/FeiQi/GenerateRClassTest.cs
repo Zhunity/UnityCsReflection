@@ -213,16 +213,16 @@ namespace SMFrame.Editor.Refleaction
 			Debug.Log(p1 + "  " + p2);
 		}
 
-		//[MenuItem("Tools/TestGameObject")]
+		[MenuItem("Tools/TestGameObject")]
 		static void TestGameObject()
 		{
-			GameObject go = GameObject.CreatePrimitive(UnityEngine.PrimitiveType.Cube);
+			GameObject go = RGameObject.CreatePrimitive(UnityEngine.PrimitiveType.Cube);
 			RGameObject rgo = new RGameObject(go);
 			var t= rgo.GetComponent<Transform>();
 			Debug.Log(t, t);
 		}
 
-		//[MenuItem("Tools/TestVector")]
+		[MenuItem("Tools/TestVector")]
 		static void TestVector()
 		{
 			Vector3 v = new Vector3(100, 22, 3);

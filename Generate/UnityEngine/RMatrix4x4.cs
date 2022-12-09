@@ -7,198 +7,1469 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 {
     public partial class RMatrix4x4 : RMember
     {
-		public  RQuaternion rotation; //UnityEngine.Quaternion
-		public  RVector3 lossyScale; //UnityEngine.Vector3
-		public  RProperty isIdentity; //System.Boolean
-		public  RProperty determinant; //System.Single
-		public  RFrustumPlanes decomposeProjection; //UnityEngine.FrustumPlanes
-		public  RMatrix4x4 inverse; //UnityEngine.Matrix4x4
-		public  RMatrix4x4 transpose; //UnityEngine.Matrix4x4
-		public  RProperty Item_Int32_Int32; //System.Single
-		public  RProperty Item_Int32; //System.Single
-		public static RMatrix4x4 zero; //UnityEngine.Matrix4x4
-		public static RMatrix4x4 identity; //UnityEngine.Matrix4x4
-		public  RField m00; //System.Single
-		public  RField m10; //System.Single
-		public  RField m20; //System.Single
-		public  RField m30; //System.Single
-		public  RField m01; //System.Single
-		public  RField m11; //System.Single
-		public  RField m21; //System.Single
-		public  RField m31; //System.Single
-		public  RField m02; //System.Single
-		public  RField m12; //System.Single
-		public  RField m22; //System.Single
-		public  RField m32; //System.Single
-		public  RField m03; //System.Single
-		public  RField m13; //System.Single
-		public  RField m23; //System.Single
-		public  RField m33; //System.Single
-		public static RMatrix4x4 zeroMatrix; //UnityEngine.Matrix4x4
-		public static RMatrix4x4 identityMatrix; //UnityEngine.Matrix4x4
-		public  RMethod RGetRotation; //UnityEngine.Quaternion GetRotation()
-		public  RMethod RGetLossyScale; //UnityEngine.Vector3 GetLossyScale()
-		public  RMethod RIsIdentity; //Boolean IsIdentity()
-		public  RMethod RGetDeterminant; //Single GetDeterminant()
-		public  RMethod RDecomposeProjection; //UnityEngine.FrustumPlanes DecomposeProjection()
-		public  RMethod RValidTRS; //Boolean ValidTRS()
-		public static RMethod RDeterminant_Matrix4x4; //Single Determinant(UnityEngine.Matrix4x4)
-		public static RMethod RTRS_Vector3_Quaternion_Vector3; //UnityEngine.Matrix4x4 TRS(UnityEngine.Vector3, UnityEngine.Quaternion, UnityEngine.Vector3)
-		public  RMethod RSetTRS_Vector3_Quaternion_Vector3; //Void SetTRS(UnityEngine.Vector3, UnityEngine.Quaternion, UnityEngine.Vector3)
-		public static RMethod RInverse3DAffine_Matrix4x4_Ref_Matrix4x4; //Boolean Inverse3DAffine(UnityEngine.Matrix4x4, UnityEngine.Matrix4x4 ByRef)
-		public static RMethod RInverse_Matrix4x4; //UnityEngine.Matrix4x4 Inverse(UnityEngine.Matrix4x4)
-		public static RMethod RTranspose_Matrix4x4; //UnityEngine.Matrix4x4 Transpose(UnityEngine.Matrix4x4)
-		public static RMethod ROrtho_Single_Single_Single_Single_Single_Single; //UnityEngine.Matrix4x4 Ortho(Single, Single, Single, Single, Single, Single)
-		public static RMethod RPerspective_Single_Single_Single_Single; //UnityEngine.Matrix4x4 Perspective(Single, Single, Single, Single)
-		public static RMethod RLookAt_Vector3_Vector3_Vector3; //UnityEngine.Matrix4x4 LookAt(UnityEngine.Vector3, UnityEngine.Vector3, UnityEngine.Vector3)
-		public static RMethod RFrustum_Single_Single_Single_Single_Single_Single; //UnityEngine.Matrix4x4 Frustum(Single, Single, Single, Single, Single, Single)
-		public static RMethod RFrustum_FrustumPlanes; //UnityEngine.Matrix4x4 Frustum(UnityEngine.FrustumPlanes)
-		public  RMethod RGetHashCode; //Int32 GetHashCode()
-		public  RMethod REquals_Object; //Boolean Equals(System.Object)
-		public  RMethod REquals_Matrix4x4; //Boolean Equals(UnityEngine.Matrix4x4)
-		public static RMethod Rop_Multiply_Matrix4x4_Matrix4x4; //UnityEngine.Matrix4x4 op_Multiply(UnityEngine.Matrix4x4, UnityEngine.Matrix4x4)
-		public static RMethod Rop_Multiply_Matrix4x4_Vector4; //UnityEngine.Vector4 op_Multiply(UnityEngine.Matrix4x4, UnityEngine.Vector4)
-		public static RMethod Rop_Equality_Matrix4x4_Matrix4x4; //Boolean op_Equality(UnityEngine.Matrix4x4, UnityEngine.Matrix4x4)
-		public static RMethod Rop_Inequality_Matrix4x4_Matrix4x4; //Boolean op_Inequality(UnityEngine.Matrix4x4, UnityEngine.Matrix4x4)
-		public  RMethod RGetColumn_Int32; //UnityEngine.Vector4 GetColumn(Int32)
-		public  RMethod RGetRow_Int32; //UnityEngine.Vector4 GetRow(Int32)
-		public  RMethod RGetPosition; //UnityEngine.Vector3 GetPosition()
-		public  RMethod RSetColumn_Int32_Vector4; //Void SetColumn(Int32, UnityEngine.Vector4)
-		public  RMethod RSetRow_Int32_Vector4; //Void SetRow(Int32, UnityEngine.Vector4)
-		public  RMethod RMultiplyPoint_Vector3; //UnityEngine.Vector3 MultiplyPoint(UnityEngine.Vector3)
-		public  RMethod RMultiplyPoint3x4_Vector3; //UnityEngine.Vector3 MultiplyPoint3x4(UnityEngine.Vector3)
-		public  RMethod RMultiplyVector_Vector3; //UnityEngine.Vector3 MultiplyVector(UnityEngine.Vector3)
-		public  RMethod RTransformPlane_Plane; //UnityEngine.Plane TransformPlane(UnityEngine.Plane)
-		public static RMethod RScale_Vector3; //UnityEngine.Matrix4x4 Scale(UnityEngine.Vector3)
-		public static RMethod RTranslate_Vector3; //UnityEngine.Matrix4x4 Translate(UnityEngine.Vector3)
-		public static RMethod RRotate_Quaternion; //UnityEngine.Matrix4x4 Rotate(UnityEngine.Quaternion)
-		public  RMethod RToString; //System.String ToString()
-		public  RMethod RToString_String; //System.String ToString(System.String)
-		public  RMethod RToString_String_IFormatProvider; //System.String ToString(System.String, System.IFormatProvider)
-		public static RMethod RGetRotation_Injected_Ref_Matrix4x4_Out_Quaternion; //Void GetRotation_Injected(UnityEngine.Matrix4x4 ByRef, UnityEngine.Quaternion ByRef)
-		public static RMethod RGetLossyScale_Injected_Ref_Matrix4x4_Out_Vector3; //Void GetLossyScale_Injected(UnityEngine.Matrix4x4 ByRef, UnityEngine.Vector3 ByRef)
-		public static RMethod RIsIdentity_Injected_Ref_Matrix4x4; //Boolean IsIdentity_Injected(UnityEngine.Matrix4x4 ByRef)
-		public static RMethod RGetDeterminant_Injected_Ref_Matrix4x4; //Single GetDeterminant_Injected(UnityEngine.Matrix4x4 ByRef)
-		public static RMethod RDecomposeProjection_Injected_Ref_Matrix4x4_Out_FrustumPlanes; //Void DecomposeProjection_Injected(UnityEngine.Matrix4x4 ByRef, UnityEngine.FrustumPlanes ByRef)
-		public static RMethod RValidTRS_Injected_Ref_Matrix4x4; //Boolean ValidTRS_Injected(UnityEngine.Matrix4x4 ByRef)
-		public static RMethod RTRS_Injected_Ref_Vector3_Ref_Quaternion_Ref_Vector3_Out_Matrix4x4; //Void TRS_Injected(UnityEngine.Vector3 ByRef, UnityEngine.Quaternion ByRef, UnityEngine.Vector3 ByRef, UnityEngine.Matrix4x4 ByRef)
-		public static RMethod RInverse3DAffine_Injected_Ref_Matrix4x4_Ref_Matrix4x4; //Boolean Inverse3DAffine_Injected(UnityEngine.Matrix4x4 ByRef, UnityEngine.Matrix4x4 ByRef)
-		public static RMethod RInverse_Injected_Ref_Matrix4x4_Out_Matrix4x4; //Void Inverse_Injected(UnityEngine.Matrix4x4 ByRef, UnityEngine.Matrix4x4 ByRef)
-		public static RMethod RTranspose_Injected_Ref_Matrix4x4_Out_Matrix4x4; //Void Transpose_Injected(UnityEngine.Matrix4x4 ByRef, UnityEngine.Matrix4x4 ByRef)
-		public static RMethod ROrtho_Injected_Single_Single_Single_Single_Single_Single_Out_Matrix4x4; //Void Ortho_Injected(Single, Single, Single, Single, Single, Single, UnityEngine.Matrix4x4 ByRef)
-		public static RMethod RPerspective_Injected_Single_Single_Single_Single_Out_Matrix4x4; //Void Perspective_Injected(Single, Single, Single, Single, UnityEngine.Matrix4x4 ByRef)
-		public static RMethod RLookAt_Injected_Ref_Vector3_Ref_Vector3_Ref_Vector3_Out_Matrix4x4; //Void LookAt_Injected(UnityEngine.Vector3 ByRef, UnityEngine.Vector3 ByRef, UnityEngine.Vector3 ByRef, UnityEngine.Matrix4x4 ByRef)
-		public static RMethod RFrustum_Injected_Single_Single_Single_Single_Single_Single_Out_Matrix4x4; //Void Frustum_Injected(Single, Single, Single, Single, Single, Single, UnityEngine.Matrix4x4 ByRef)
-		public  RMethod RFinalize; //Void Finalize()
-		public  RMethod RGetType; //System.Type GetType()
-		public  RMethod RMemberwiseClone; //System.Object MemberwiseClone()
+
+		/// <summary>
+		/// System.Single m00
+		/// </summary>
+		protected RField r_m00;
+		public virtual RField m00
+		{
+			get
+			{
+				if(r_m00 == null)
+				{
+					r_m00 = new RField(this, "m00");
+					r_m00.SetBelong(this.instance);
+				}
+				return r_m00;
+			}
+		}
+
+		/// <summary>
+		/// System.Single m10
+		/// </summary>
+		protected RField r_m10;
+		public virtual RField m10
+		{
+			get
+			{
+				if(r_m10 == null)
+				{
+					r_m10 = new RField(this, "m10");
+					r_m10.SetBelong(this.instance);
+				}
+				return r_m10;
+			}
+		}
+
+		/// <summary>
+		/// System.Single m20
+		/// </summary>
+		protected RField r_m20;
+		public virtual RField m20
+		{
+			get
+			{
+				if(r_m20 == null)
+				{
+					r_m20 = new RField(this, "m20");
+					r_m20.SetBelong(this.instance);
+				}
+				return r_m20;
+			}
+		}
+
+		/// <summary>
+		/// System.Single m30
+		/// </summary>
+		protected RField r_m30;
+		public virtual RField m30
+		{
+			get
+			{
+				if(r_m30 == null)
+				{
+					r_m30 = new RField(this, "m30");
+					r_m30.SetBelong(this.instance);
+				}
+				return r_m30;
+			}
+		}
+
+		/// <summary>
+		/// System.Single m01
+		/// </summary>
+		protected RField r_m01;
+		public virtual RField m01
+		{
+			get
+			{
+				if(r_m01 == null)
+				{
+					r_m01 = new RField(this, "m01");
+					r_m01.SetBelong(this.instance);
+				}
+				return r_m01;
+			}
+		}
+
+		/// <summary>
+		/// System.Single m11
+		/// </summary>
+		protected RField r_m11;
+		public virtual RField m11
+		{
+			get
+			{
+				if(r_m11 == null)
+				{
+					r_m11 = new RField(this, "m11");
+					r_m11.SetBelong(this.instance);
+				}
+				return r_m11;
+			}
+		}
+
+		/// <summary>
+		/// System.Single m21
+		/// </summary>
+		protected RField r_m21;
+		public virtual RField m21
+		{
+			get
+			{
+				if(r_m21 == null)
+				{
+					r_m21 = new RField(this, "m21");
+					r_m21.SetBelong(this.instance);
+				}
+				return r_m21;
+			}
+		}
+
+		/// <summary>
+		/// System.Single m31
+		/// </summary>
+		protected RField r_m31;
+		public virtual RField m31
+		{
+			get
+			{
+				if(r_m31 == null)
+				{
+					r_m31 = new RField(this, "m31");
+					r_m31.SetBelong(this.instance);
+				}
+				return r_m31;
+			}
+		}
+
+		/// <summary>
+		/// System.Single m02
+		/// </summary>
+		protected RField r_m02;
+		public virtual RField m02
+		{
+			get
+			{
+				if(r_m02 == null)
+				{
+					r_m02 = new RField(this, "m02");
+					r_m02.SetBelong(this.instance);
+				}
+				return r_m02;
+			}
+		}
+
+		/// <summary>
+		/// System.Single m12
+		/// </summary>
+		protected RField r_m12;
+		public virtual RField m12
+		{
+			get
+			{
+				if(r_m12 == null)
+				{
+					r_m12 = new RField(this, "m12");
+					r_m12.SetBelong(this.instance);
+				}
+				return r_m12;
+			}
+		}
+
+		/// <summary>
+		/// System.Single m22
+		/// </summary>
+		protected RField r_m22;
+		public virtual RField m22
+		{
+			get
+			{
+				if(r_m22 == null)
+				{
+					r_m22 = new RField(this, "m22");
+					r_m22.SetBelong(this.instance);
+				}
+				return r_m22;
+			}
+		}
+
+		/// <summary>
+		/// System.Single m32
+		/// </summary>
+		protected RField r_m32;
+		public virtual RField m32
+		{
+			get
+			{
+				if(r_m32 == null)
+				{
+					r_m32 = new RField(this, "m32");
+					r_m32.SetBelong(this.instance);
+				}
+				return r_m32;
+			}
+		}
+
+		/// <summary>
+		/// System.Single m03
+		/// </summary>
+		protected RField r_m03;
+		public virtual RField m03
+		{
+			get
+			{
+				if(r_m03 == null)
+				{
+					r_m03 = new RField(this, "m03");
+					r_m03.SetBelong(this.instance);
+				}
+				return r_m03;
+			}
+		}
+
+		/// <summary>
+		/// System.Single m13
+		/// </summary>
+		protected RField r_m13;
+		public virtual RField m13
+		{
+			get
+			{
+				if(r_m13 == null)
+				{
+					r_m13 = new RField(this, "m13");
+					r_m13.SetBelong(this.instance);
+				}
+				return r_m13;
+			}
+		}
+
+		/// <summary>
+		/// System.Single m23
+		/// </summary>
+		protected RField r_m23;
+		public virtual RField m23
+		{
+			get
+			{
+				if(r_m23 == null)
+				{
+					r_m23 = new RField(this, "m23");
+					r_m23.SetBelong(this.instance);
+				}
+				return r_m23;
+			}
+		}
+
+		/// <summary>
+		/// System.Single m33
+		/// </summary>
+		protected RField r_m33;
+		public virtual RField m33
+		{
+			get
+			{
+				if(r_m33 == null)
+				{
+					r_m33 = new RField(this, "m33");
+					r_m33.SetBelong(this.instance);
+				}
+				return r_m33;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.Matrix4x4 zeroMatrix
+		/// </summary>
+		protected static RMatrix4x4 r_zeroMatrix;
+		public static RMatrix4x4 zeroMatrix
+		{
+			get
+			{
+				if(r_zeroMatrix == null)
+				{
+					r_zeroMatrix = new RMatrix4x4(typeof(UnityEngine.Matrix4x4), "zeroMatrix");
+					r_zeroMatrix.SetBelong(null);
+				}
+				return r_zeroMatrix;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.Matrix4x4 identityMatrix
+		/// </summary>
+		protected static RMatrix4x4 r_identityMatrix;
+		public static RMatrix4x4 identityMatrix
+		{
+			get
+			{
+				if(r_identityMatrix == null)
+				{
+					r_identityMatrix = new RMatrix4x4(typeof(UnityEngine.Matrix4x4), "identityMatrix");
+					r_identityMatrix.SetBelong(null);
+				}
+				return r_identityMatrix;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.Quaternion rotation
+		/// </summary>
+		protected RQuaternion r_rotation;
+		public virtual RQuaternion rotation
+		{
+			get
+			{
+				if(r_rotation == null)
+				{
+					r_rotation = new RQuaternion(this, "rotation", -1);
+					r_rotation.SetBelong(this.instance);
+				}
+				return r_rotation;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.Vector3 lossyScale
+		/// </summary>
+		protected RVector3 r_lossyScale;
+		public virtual RVector3 lossyScale
+		{
+			get
+			{
+				if(r_lossyScale == null)
+				{
+					r_lossyScale = new RVector3(this, "lossyScale", -1);
+					r_lossyScale.SetBelong(this.instance);
+				}
+				return r_lossyScale;
+			}
+		}
+
+		/// <summary>
+		/// Boolean isIdentity
+		/// </summary>
+		protected RProperty r_isIdentity;
+		public virtual RProperty isIdentity
+		{
+			get
+			{
+				if(r_isIdentity == null)
+				{
+					r_isIdentity = new RProperty(this, "isIdentity", -1);
+					r_isIdentity.SetBelong(this.instance);
+				}
+				return r_isIdentity;
+			}
+		}
+
+		/// <summary>
+		/// Single determinant
+		/// </summary>
+		protected RProperty r_determinant;
+		public virtual RProperty determinant
+		{
+			get
+			{
+				if(r_determinant == null)
+				{
+					r_determinant = new RProperty(this, "determinant", -1);
+					r_determinant.SetBelong(this.instance);
+				}
+				return r_determinant;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.FrustumPlanes decomposeProjection
+		/// </summary>
+		protected RFrustumPlanes r_decomposeProjection;
+		public virtual RFrustumPlanes decomposeProjection
+		{
+			get
+			{
+				if(r_decomposeProjection == null)
+				{
+					r_decomposeProjection = new RFrustumPlanes(this, "decomposeProjection", -1);
+					r_decomposeProjection.SetBelong(this.instance);
+				}
+				return r_decomposeProjection;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.Matrix4x4 inverse
+		/// </summary>
+		protected RMatrix4x4 r_inverse;
+		public virtual RMatrix4x4 inverse
+		{
+			get
+			{
+				if(r_inverse == null)
+				{
+					r_inverse = new RMatrix4x4(this, "inverse", -1);
+					r_inverse.SetBelong(this.instance);
+				}
+				return r_inverse;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.Matrix4x4 transpose
+		/// </summary>
+		protected RMatrix4x4 r_transpose;
+		public virtual RMatrix4x4 transpose
+		{
+			get
+			{
+				if(r_transpose == null)
+				{
+					r_transpose = new RMatrix4x4(this, "transpose", -1);
+					r_transpose.SetBelong(this.instance);
+				}
+				return r_transpose;
+			}
+		}
+
+		/// <summary>
+		/// Single Item [Int32, Int32]
+		/// </summary>
+		protected RProperty r_Item_Int32_Int32;
+		public virtual RProperty Item_Int32_Int32
+		{
+			get
+			{
+				if(r_Item_Int32_Int32 == null)
+				{
+					r_Item_Int32_Int32 = new RProperty(this, "Item", -1, typeof(System.Int32), typeof(System.Int32));
+					r_Item_Int32_Int32.SetBelong(this.instance);
+				}
+				return r_Item_Int32_Int32;
+			}
+		}
+
+		/// <summary>
+		/// Single Item [Int32]
+		/// </summary>
+		protected RProperty r_Item_Int32;
+		public virtual RProperty Item_Int32
+		{
+			get
+			{
+				if(r_Item_Int32 == null)
+				{
+					r_Item_Int32 = new RProperty(this, "Item", -1, typeof(System.Int32));
+					r_Item_Int32.SetBelong(this.instance);
+				}
+				return r_Item_Int32;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.Matrix4x4 zero
+		/// </summary>
+		protected static RMatrix4x4 r_zero;
+		public static RMatrix4x4 zero
+		{
+			get
+			{
+				if(r_zero == null)
+				{
+					r_zero = new RMatrix4x4(typeof(UnityEngine.Matrix4x4), "zero", -1);
+					r_zero.SetBelong(null);
+				}
+				return r_zero;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.Matrix4x4 identity
+		/// </summary>
+		protected static RMatrix4x4 r_identity;
+		public static RMatrix4x4 identity
+		{
+			get
+			{
+				if(r_identity == null)
+				{
+					r_identity = new RMatrix4x4(typeof(UnityEngine.Matrix4x4), "identity", -1);
+					r_identity.SetBelong(null);
+				}
+				return r_identity;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.Quaternion GetRotation()
+		/// </summary>
+		protected RMethod r_RGetRotation;
+		public virtual RMethod RGetRotation
+		{
+			get
+			{
+				if(r_RGetRotation == null)
+				{
+					r_RGetRotation = new RMethod(this, "GetRotation", 0);
+					r_RGetRotation.SetBelong(this.instance);
+				}
+				return r_RGetRotation;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.Vector3 GetLossyScale()
+		/// </summary>
+		protected RMethod r_RGetLossyScale;
+		public virtual RMethod RGetLossyScale
+		{
+			get
+			{
+				if(r_RGetLossyScale == null)
+				{
+					r_RGetLossyScale = new RMethod(this, "GetLossyScale", 0);
+					r_RGetLossyScale.SetBelong(this.instance);
+				}
+				return r_RGetLossyScale;
+			}
+		}
+
+		/// <summary>
+		/// Boolean IsIdentity()
+		/// </summary>
+		protected RMethod r_RIsIdentity;
+		public virtual RMethod RIsIdentity
+		{
+			get
+			{
+				if(r_RIsIdentity == null)
+				{
+					r_RIsIdentity = new RMethod(this, "IsIdentity", 0);
+					r_RIsIdentity.SetBelong(this.instance);
+				}
+				return r_RIsIdentity;
+			}
+		}
+
+		/// <summary>
+		/// Single GetDeterminant()
+		/// </summary>
+		protected RMethod r_RGetDeterminant;
+		public virtual RMethod RGetDeterminant
+		{
+			get
+			{
+				if(r_RGetDeterminant == null)
+				{
+					r_RGetDeterminant = new RMethod(this, "GetDeterminant", 0);
+					r_RGetDeterminant.SetBelong(this.instance);
+				}
+				return r_RGetDeterminant;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.FrustumPlanes DecomposeProjection()
+		/// </summary>
+		protected RMethod r_RDecomposeProjection;
+		public virtual RMethod RDecomposeProjection
+		{
+			get
+			{
+				if(r_RDecomposeProjection == null)
+				{
+					r_RDecomposeProjection = new RMethod(this, "DecomposeProjection", 0);
+					r_RDecomposeProjection.SetBelong(this.instance);
+				}
+				return r_RDecomposeProjection;
+			}
+		}
+
+		/// <summary>
+		/// Boolean ValidTRS()
+		/// </summary>
+		protected RMethod r_RValidTRS;
+		public virtual RMethod RValidTRS
+		{
+			get
+			{
+				if(r_RValidTRS == null)
+				{
+					r_RValidTRS = new RMethod(this, "ValidTRS", 0);
+					r_RValidTRS.SetBelong(this.instance);
+				}
+				return r_RValidTRS;
+			}
+		}
+
+		/// <summary>
+		/// Single Determinant(UnityEngine.Matrix4x4)
+		/// </summary>
+		protected static RMethod r_RDeterminant_Matrix4x4;
+		public static RMethod RDeterminant_Matrix4x4
+		{
+			get
+			{
+				if(r_RDeterminant_Matrix4x4 == null)
+				{
+					r_RDeterminant_Matrix4x4 = new RMethod(typeof(UnityEngine.Matrix4x4), "Determinant", 0, typeof(UnityEngine.Matrix4x4));
+					r_RDeterminant_Matrix4x4.SetBelong(null);
+				}
+				return r_RDeterminant_Matrix4x4;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.Matrix4x4 TRS(UnityEngine.Vector3, UnityEngine.Quaternion, UnityEngine.Vector3)
+		/// </summary>
+		protected static RMethod r_RTRS_Vector3_Quaternion_Vector3;
+		public static RMethod RTRS_Vector3_Quaternion_Vector3
+		{
+			get
+			{
+				if(r_RTRS_Vector3_Quaternion_Vector3 == null)
+				{
+					r_RTRS_Vector3_Quaternion_Vector3 = new RMethod(typeof(UnityEngine.Matrix4x4), "TRS", 0, typeof(UnityEngine.Vector3), typeof(UnityEngine.Quaternion), typeof(UnityEngine.Vector3));
+					r_RTRS_Vector3_Quaternion_Vector3.SetBelong(null);
+				}
+				return r_RTRS_Vector3_Quaternion_Vector3;
+			}
+		}
+
+		/// <summary>
+		/// Void SetTRS(UnityEngine.Vector3, UnityEngine.Quaternion, UnityEngine.Vector3)
+		/// </summary>
+		protected RMethod r_RSetTRS_Vector3_Quaternion_Vector3;
+		public virtual RMethod RSetTRS_Vector3_Quaternion_Vector3
+		{
+			get
+			{
+				if(r_RSetTRS_Vector3_Quaternion_Vector3 == null)
+				{
+					r_RSetTRS_Vector3_Quaternion_Vector3 = new RMethod(this, "SetTRS", 0, typeof(UnityEngine.Vector3), typeof(UnityEngine.Quaternion), typeof(UnityEngine.Vector3));
+					r_RSetTRS_Vector3_Quaternion_Vector3.SetBelong(this.instance);
+				}
+				return r_RSetTRS_Vector3_Quaternion_Vector3;
+			}
+		}
+
+		/// <summary>
+		/// Boolean Inverse3DAffine(UnityEngine.Matrix4x4, UnityEngine.Matrix4x4 ByRef)
+		/// </summary>
+		protected static RMethod r_RInverse3DAffine_Matrix4x4_Ref_Matrix4x4;
+		public static RMethod RInverse3DAffine_Matrix4x4_Ref_Matrix4x4
+		{
+			get
+			{
+				if(r_RInverse3DAffine_Matrix4x4_Ref_Matrix4x4 == null)
+				{
+					r_RInverse3DAffine_Matrix4x4_Ref_Matrix4x4 = new RMethod(typeof(UnityEngine.Matrix4x4), "Inverse3DAffine", 0, typeof(UnityEngine.Matrix4x4), typeof(UnityEngine.Matrix4x4).MakeByRefType());
+					r_RInverse3DAffine_Matrix4x4_Ref_Matrix4x4.SetBelong(null);
+				}
+				return r_RInverse3DAffine_Matrix4x4_Ref_Matrix4x4;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.Matrix4x4 Inverse(UnityEngine.Matrix4x4)
+		/// </summary>
+		protected static RMethod r_RInverse_Matrix4x4;
+		public static RMethod RInverse_Matrix4x4
+		{
+			get
+			{
+				if(r_RInverse_Matrix4x4 == null)
+				{
+					r_RInverse_Matrix4x4 = new RMethod(typeof(UnityEngine.Matrix4x4), "Inverse", 0, typeof(UnityEngine.Matrix4x4));
+					r_RInverse_Matrix4x4.SetBelong(null);
+				}
+				return r_RInverse_Matrix4x4;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.Matrix4x4 Transpose(UnityEngine.Matrix4x4)
+		/// </summary>
+		protected static RMethod r_RTranspose_Matrix4x4;
+		public static RMethod RTranspose_Matrix4x4
+		{
+			get
+			{
+				if(r_RTranspose_Matrix4x4 == null)
+				{
+					r_RTranspose_Matrix4x4 = new RMethod(typeof(UnityEngine.Matrix4x4), "Transpose", 0, typeof(UnityEngine.Matrix4x4));
+					r_RTranspose_Matrix4x4.SetBelong(null);
+				}
+				return r_RTranspose_Matrix4x4;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.Matrix4x4 Ortho(Single, Single, Single, Single, Single, Single)
+		/// </summary>
+		protected static RMethod r_ROrtho_Single_Single_Single_Single_Single_Single;
+		public static RMethod ROrtho_Single_Single_Single_Single_Single_Single
+		{
+			get
+			{
+				if(r_ROrtho_Single_Single_Single_Single_Single_Single == null)
+				{
+					r_ROrtho_Single_Single_Single_Single_Single_Single = new RMethod(typeof(UnityEngine.Matrix4x4), "Ortho", 0, typeof(System.Single), typeof(System.Single), typeof(System.Single), typeof(System.Single), typeof(System.Single), typeof(System.Single));
+					r_ROrtho_Single_Single_Single_Single_Single_Single.SetBelong(null);
+				}
+				return r_ROrtho_Single_Single_Single_Single_Single_Single;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.Matrix4x4 Perspective(Single, Single, Single, Single)
+		/// </summary>
+		protected static RMethod r_RPerspective_Single_Single_Single_Single;
+		public static RMethod RPerspective_Single_Single_Single_Single
+		{
+			get
+			{
+				if(r_RPerspective_Single_Single_Single_Single == null)
+				{
+					r_RPerspective_Single_Single_Single_Single = new RMethod(typeof(UnityEngine.Matrix4x4), "Perspective", 0, typeof(System.Single), typeof(System.Single), typeof(System.Single), typeof(System.Single));
+					r_RPerspective_Single_Single_Single_Single.SetBelong(null);
+				}
+				return r_RPerspective_Single_Single_Single_Single;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.Matrix4x4 LookAt(UnityEngine.Vector3, UnityEngine.Vector3, UnityEngine.Vector3)
+		/// </summary>
+		protected static RMethod r_RLookAt_Vector3_Vector3_Vector3;
+		public static RMethod RLookAt_Vector3_Vector3_Vector3
+		{
+			get
+			{
+				if(r_RLookAt_Vector3_Vector3_Vector3 == null)
+				{
+					r_RLookAt_Vector3_Vector3_Vector3 = new RMethod(typeof(UnityEngine.Matrix4x4), "LookAt", 0, typeof(UnityEngine.Vector3), typeof(UnityEngine.Vector3), typeof(UnityEngine.Vector3));
+					r_RLookAt_Vector3_Vector3_Vector3.SetBelong(null);
+				}
+				return r_RLookAt_Vector3_Vector3_Vector3;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.Matrix4x4 Frustum(Single, Single, Single, Single, Single, Single)
+		/// </summary>
+		protected static RMethod r_RFrustum_Single_Single_Single_Single_Single_Single;
+		public static RMethod RFrustum_Single_Single_Single_Single_Single_Single
+		{
+			get
+			{
+				if(r_RFrustum_Single_Single_Single_Single_Single_Single == null)
+				{
+					r_RFrustum_Single_Single_Single_Single_Single_Single = new RMethod(typeof(UnityEngine.Matrix4x4), "Frustum", 0, typeof(System.Single), typeof(System.Single), typeof(System.Single), typeof(System.Single), typeof(System.Single), typeof(System.Single));
+					r_RFrustum_Single_Single_Single_Single_Single_Single.SetBelong(null);
+				}
+				return r_RFrustum_Single_Single_Single_Single_Single_Single;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.Matrix4x4 Frustum(UnityEngine.FrustumPlanes)
+		/// </summary>
+		protected static RMethod r_RFrustum_FrustumPlanes;
+		public static RMethod RFrustum_FrustumPlanes
+		{
+			get
+			{
+				if(r_RFrustum_FrustumPlanes == null)
+				{
+					r_RFrustum_FrustumPlanes = new RMethod(typeof(UnityEngine.Matrix4x4), "Frustum", 0, typeof(UnityEngine.FrustumPlanes));
+					r_RFrustum_FrustumPlanes.SetBelong(null);
+				}
+				return r_RFrustum_FrustumPlanes;
+			}
+		}
+
+		/// <summary>
+		/// Int32 GetHashCode()
+		/// </summary>
+		protected RMethod r_RGetHashCode;
+		public virtual RMethod RGetHashCode
+		{
+			get
+			{
+				if(r_RGetHashCode == null)
+				{
+					r_RGetHashCode = new RMethod(this, "GetHashCode", 0);
+					r_RGetHashCode.SetBelong(this.instance);
+				}
+				return r_RGetHashCode;
+			}
+		}
+
+		/// <summary>
+		/// Boolean Equals(System.Object)
+		/// </summary>
+		protected RMethod r_REquals_Object;
+		public virtual RMethod REquals_Object
+		{
+			get
+			{
+				if(r_REquals_Object == null)
+				{
+					r_REquals_Object = new RMethod(this, "Equals", 0, typeof(System.Object));
+					r_REquals_Object.SetBelong(this.instance);
+				}
+				return r_REquals_Object;
+			}
+		}
+
+		/// <summary>
+		/// Boolean Equals(UnityEngine.Matrix4x4)
+		/// </summary>
+		protected RMethod r_REquals_Matrix4x4;
+		public virtual RMethod REquals_Matrix4x4
+		{
+			get
+			{
+				if(r_REquals_Matrix4x4 == null)
+				{
+					r_REquals_Matrix4x4 = new RMethod(this, "Equals", 0, typeof(UnityEngine.Matrix4x4));
+					r_REquals_Matrix4x4.SetBelong(this.instance);
+				}
+				return r_REquals_Matrix4x4;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.Matrix4x4 op_Multiply(UnityEngine.Matrix4x4, UnityEngine.Matrix4x4)
+		/// </summary>
+		protected static RMethod r_Rop_Multiply_Matrix4x4_Matrix4x4;
+		public static RMethod Rop_Multiply_Matrix4x4_Matrix4x4
+		{
+			get
+			{
+				if(r_Rop_Multiply_Matrix4x4_Matrix4x4 == null)
+				{
+					r_Rop_Multiply_Matrix4x4_Matrix4x4 = new RMethod(typeof(UnityEngine.Matrix4x4), "op_Multiply", 0, typeof(UnityEngine.Matrix4x4), typeof(UnityEngine.Matrix4x4));
+					r_Rop_Multiply_Matrix4x4_Matrix4x4.SetBelong(null);
+				}
+				return r_Rop_Multiply_Matrix4x4_Matrix4x4;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.Vector4 op_Multiply(UnityEngine.Matrix4x4, UnityEngine.Vector4)
+		/// </summary>
+		protected static RMethod r_Rop_Multiply_Matrix4x4_Vector4;
+		public static RMethod Rop_Multiply_Matrix4x4_Vector4
+		{
+			get
+			{
+				if(r_Rop_Multiply_Matrix4x4_Vector4 == null)
+				{
+					r_Rop_Multiply_Matrix4x4_Vector4 = new RMethod(typeof(UnityEngine.Matrix4x4), "op_Multiply", 0, typeof(UnityEngine.Matrix4x4), typeof(UnityEngine.Vector4));
+					r_Rop_Multiply_Matrix4x4_Vector4.SetBelong(null);
+				}
+				return r_Rop_Multiply_Matrix4x4_Vector4;
+			}
+		}
+
+		/// <summary>
+		/// Boolean op_Equality(UnityEngine.Matrix4x4, UnityEngine.Matrix4x4)
+		/// </summary>
+		protected static RMethod r_Rop_Equality_Matrix4x4_Matrix4x4;
+		public static RMethod Rop_Equality_Matrix4x4_Matrix4x4
+		{
+			get
+			{
+				if(r_Rop_Equality_Matrix4x4_Matrix4x4 == null)
+				{
+					r_Rop_Equality_Matrix4x4_Matrix4x4 = new RMethod(typeof(UnityEngine.Matrix4x4), "op_Equality", 0, typeof(UnityEngine.Matrix4x4), typeof(UnityEngine.Matrix4x4));
+					r_Rop_Equality_Matrix4x4_Matrix4x4.SetBelong(null);
+				}
+				return r_Rop_Equality_Matrix4x4_Matrix4x4;
+			}
+		}
+
+		/// <summary>
+		/// Boolean op_Inequality(UnityEngine.Matrix4x4, UnityEngine.Matrix4x4)
+		/// </summary>
+		protected static RMethod r_Rop_Inequality_Matrix4x4_Matrix4x4;
+		public static RMethod Rop_Inequality_Matrix4x4_Matrix4x4
+		{
+			get
+			{
+				if(r_Rop_Inequality_Matrix4x4_Matrix4x4 == null)
+				{
+					r_Rop_Inequality_Matrix4x4_Matrix4x4 = new RMethod(typeof(UnityEngine.Matrix4x4), "op_Inequality", 0, typeof(UnityEngine.Matrix4x4), typeof(UnityEngine.Matrix4x4));
+					r_Rop_Inequality_Matrix4x4_Matrix4x4.SetBelong(null);
+				}
+				return r_Rop_Inequality_Matrix4x4_Matrix4x4;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.Vector4 GetColumn(Int32)
+		/// </summary>
+		protected RMethod r_RGetColumn_Int32;
+		public virtual RMethod RGetColumn_Int32
+		{
+			get
+			{
+				if(r_RGetColumn_Int32 == null)
+				{
+					r_RGetColumn_Int32 = new RMethod(this, "GetColumn", 0, typeof(System.Int32));
+					r_RGetColumn_Int32.SetBelong(this.instance);
+				}
+				return r_RGetColumn_Int32;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.Vector4 GetRow(Int32)
+		/// </summary>
+		protected RMethod r_RGetRow_Int32;
+		public virtual RMethod RGetRow_Int32
+		{
+			get
+			{
+				if(r_RGetRow_Int32 == null)
+				{
+					r_RGetRow_Int32 = new RMethod(this, "GetRow", 0, typeof(System.Int32));
+					r_RGetRow_Int32.SetBelong(this.instance);
+				}
+				return r_RGetRow_Int32;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.Vector3 GetPosition()
+		/// </summary>
+		protected RMethod r_RGetPosition;
+		public virtual RMethod RGetPosition
+		{
+			get
+			{
+				if(r_RGetPosition == null)
+				{
+					r_RGetPosition = new RMethod(this, "GetPosition", 0);
+					r_RGetPosition.SetBelong(this.instance);
+				}
+				return r_RGetPosition;
+			}
+		}
+
+		/// <summary>
+		/// Void SetColumn(Int32, UnityEngine.Vector4)
+		/// </summary>
+		protected RMethod r_RSetColumn_Int32_Vector4;
+		public virtual RMethod RSetColumn_Int32_Vector4
+		{
+			get
+			{
+				if(r_RSetColumn_Int32_Vector4 == null)
+				{
+					r_RSetColumn_Int32_Vector4 = new RMethod(this, "SetColumn", 0, typeof(System.Int32), typeof(UnityEngine.Vector4));
+					r_RSetColumn_Int32_Vector4.SetBelong(this.instance);
+				}
+				return r_RSetColumn_Int32_Vector4;
+			}
+		}
+
+		/// <summary>
+		/// Void SetRow(Int32, UnityEngine.Vector4)
+		/// </summary>
+		protected RMethod r_RSetRow_Int32_Vector4;
+		public virtual RMethod RSetRow_Int32_Vector4
+		{
+			get
+			{
+				if(r_RSetRow_Int32_Vector4 == null)
+				{
+					r_RSetRow_Int32_Vector4 = new RMethod(this, "SetRow", 0, typeof(System.Int32), typeof(UnityEngine.Vector4));
+					r_RSetRow_Int32_Vector4.SetBelong(this.instance);
+				}
+				return r_RSetRow_Int32_Vector4;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.Vector3 MultiplyPoint(UnityEngine.Vector3)
+		/// </summary>
+		protected RMethod r_RMultiplyPoint_Vector3;
+		public virtual RMethod RMultiplyPoint_Vector3
+		{
+			get
+			{
+				if(r_RMultiplyPoint_Vector3 == null)
+				{
+					r_RMultiplyPoint_Vector3 = new RMethod(this, "MultiplyPoint", 0, typeof(UnityEngine.Vector3));
+					r_RMultiplyPoint_Vector3.SetBelong(this.instance);
+				}
+				return r_RMultiplyPoint_Vector3;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.Vector3 MultiplyPoint3x4(UnityEngine.Vector3)
+		/// </summary>
+		protected RMethod r_RMultiplyPoint3x4_Vector3;
+		public virtual RMethod RMultiplyPoint3x4_Vector3
+		{
+			get
+			{
+				if(r_RMultiplyPoint3x4_Vector3 == null)
+				{
+					r_RMultiplyPoint3x4_Vector3 = new RMethod(this, "MultiplyPoint3x4", 0, typeof(UnityEngine.Vector3));
+					r_RMultiplyPoint3x4_Vector3.SetBelong(this.instance);
+				}
+				return r_RMultiplyPoint3x4_Vector3;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.Vector3 MultiplyVector(UnityEngine.Vector3)
+		/// </summary>
+		protected RMethod r_RMultiplyVector_Vector3;
+		public virtual RMethod RMultiplyVector_Vector3
+		{
+			get
+			{
+				if(r_RMultiplyVector_Vector3 == null)
+				{
+					r_RMultiplyVector_Vector3 = new RMethod(this, "MultiplyVector", 0, typeof(UnityEngine.Vector3));
+					r_RMultiplyVector_Vector3.SetBelong(this.instance);
+				}
+				return r_RMultiplyVector_Vector3;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.Plane TransformPlane(UnityEngine.Plane)
+		/// </summary>
+		protected RMethod r_RTransformPlane_Plane;
+		public virtual RMethod RTransformPlane_Plane
+		{
+			get
+			{
+				if(r_RTransformPlane_Plane == null)
+				{
+					r_RTransformPlane_Plane = new RMethod(this, "TransformPlane", 0, typeof(UnityEngine.Plane));
+					r_RTransformPlane_Plane.SetBelong(this.instance);
+				}
+				return r_RTransformPlane_Plane;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.Matrix4x4 Scale(UnityEngine.Vector3)
+		/// </summary>
+		protected static RMethod r_RScale_Vector3;
+		public static RMethod RScale_Vector3
+		{
+			get
+			{
+				if(r_RScale_Vector3 == null)
+				{
+					r_RScale_Vector3 = new RMethod(typeof(UnityEngine.Matrix4x4), "Scale", 0, typeof(UnityEngine.Vector3));
+					r_RScale_Vector3.SetBelong(null);
+				}
+				return r_RScale_Vector3;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.Matrix4x4 Translate(UnityEngine.Vector3)
+		/// </summary>
+		protected static RMethod r_RTranslate_Vector3;
+		public static RMethod RTranslate_Vector3
+		{
+			get
+			{
+				if(r_RTranslate_Vector3 == null)
+				{
+					r_RTranslate_Vector3 = new RMethod(typeof(UnityEngine.Matrix4x4), "Translate", 0, typeof(UnityEngine.Vector3));
+					r_RTranslate_Vector3.SetBelong(null);
+				}
+				return r_RTranslate_Vector3;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.Matrix4x4 Rotate(UnityEngine.Quaternion)
+		/// </summary>
+		protected static RMethod r_RRotate_Quaternion;
+		public static RMethod RRotate_Quaternion
+		{
+			get
+			{
+				if(r_RRotate_Quaternion == null)
+				{
+					r_RRotate_Quaternion = new RMethod(typeof(UnityEngine.Matrix4x4), "Rotate", 0, typeof(UnityEngine.Quaternion));
+					r_RRotate_Quaternion.SetBelong(null);
+				}
+				return r_RRotate_Quaternion;
+			}
+		}
+
+		/// <summary>
+		/// System.String ToString()
+		/// </summary>
+		protected RMethod r_RToString;
+		public virtual RMethod RToString
+		{
+			get
+			{
+				if(r_RToString == null)
+				{
+					r_RToString = new RMethod(this, "ToString", 0);
+					r_RToString.SetBelong(this.instance);
+				}
+				return r_RToString;
+			}
+		}
+
+		/// <summary>
+		/// System.String ToString(System.String)
+		/// </summary>
+		protected RMethod r_RToString_String;
+		public virtual RMethod RToString_String
+		{
+			get
+			{
+				if(r_RToString_String == null)
+				{
+					r_RToString_String = new RMethod(this, "ToString", 0, typeof(System.String));
+					r_RToString_String.SetBelong(this.instance);
+				}
+				return r_RToString_String;
+			}
+		}
+
+		/// <summary>
+		/// System.String ToString(System.String, System.IFormatProvider)
+		/// </summary>
+		protected RMethod r_RToString_String_IFormatProvider;
+		public virtual RMethod RToString_String_IFormatProvider
+		{
+			get
+			{
+				if(r_RToString_String_IFormatProvider == null)
+				{
+					r_RToString_String_IFormatProvider = new RMethod(this, "ToString", 0, typeof(System.String), typeof(System.IFormatProvider));
+					r_RToString_String_IFormatProvider.SetBelong(this.instance);
+				}
+				return r_RToString_String_IFormatProvider;
+			}
+		}
+
+		/// <summary>
+		/// Void GetRotation_Injected(UnityEngine.Matrix4x4 ByRef, UnityEngine.Quaternion ByRef)
+		/// </summary>
+		protected static RMethod r_RGetRotation_Injected_Ref_Matrix4x4_Out_Quaternion;
+		public static RMethod RGetRotation_Injected_Ref_Matrix4x4_Out_Quaternion
+		{
+			get
+			{
+				if(r_RGetRotation_Injected_Ref_Matrix4x4_Out_Quaternion == null)
+				{
+					r_RGetRotation_Injected_Ref_Matrix4x4_Out_Quaternion = new RMethod(typeof(UnityEngine.Matrix4x4), "GetRotation_Injected", 0, typeof(UnityEngine.Matrix4x4).MakeByRefType(), typeof(UnityEngine.Quaternion).MakeByRefType());
+					r_RGetRotation_Injected_Ref_Matrix4x4_Out_Quaternion.SetBelong(null);
+				}
+				return r_RGetRotation_Injected_Ref_Matrix4x4_Out_Quaternion;
+			}
+		}
+
+		/// <summary>
+		/// Void GetLossyScale_Injected(UnityEngine.Matrix4x4 ByRef, UnityEngine.Vector3 ByRef)
+		/// </summary>
+		protected static RMethod r_RGetLossyScale_Injected_Ref_Matrix4x4_Out_Vector3;
+		public static RMethod RGetLossyScale_Injected_Ref_Matrix4x4_Out_Vector3
+		{
+			get
+			{
+				if(r_RGetLossyScale_Injected_Ref_Matrix4x4_Out_Vector3 == null)
+				{
+					r_RGetLossyScale_Injected_Ref_Matrix4x4_Out_Vector3 = new RMethod(typeof(UnityEngine.Matrix4x4), "GetLossyScale_Injected", 0, typeof(UnityEngine.Matrix4x4).MakeByRefType(), typeof(UnityEngine.Vector3).MakeByRefType());
+					r_RGetLossyScale_Injected_Ref_Matrix4x4_Out_Vector3.SetBelong(null);
+				}
+				return r_RGetLossyScale_Injected_Ref_Matrix4x4_Out_Vector3;
+			}
+		}
+
+		/// <summary>
+		/// Boolean IsIdentity_Injected(UnityEngine.Matrix4x4 ByRef)
+		/// </summary>
+		protected static RMethod r_RIsIdentity_Injected_Ref_Matrix4x4;
+		public static RMethod RIsIdentity_Injected_Ref_Matrix4x4
+		{
+			get
+			{
+				if(r_RIsIdentity_Injected_Ref_Matrix4x4 == null)
+				{
+					r_RIsIdentity_Injected_Ref_Matrix4x4 = new RMethod(typeof(UnityEngine.Matrix4x4), "IsIdentity_Injected", 0, typeof(UnityEngine.Matrix4x4).MakeByRefType());
+					r_RIsIdentity_Injected_Ref_Matrix4x4.SetBelong(null);
+				}
+				return r_RIsIdentity_Injected_Ref_Matrix4x4;
+			}
+		}
+
+		/// <summary>
+		/// Single GetDeterminant_Injected(UnityEngine.Matrix4x4 ByRef)
+		/// </summary>
+		protected static RMethod r_RGetDeterminant_Injected_Ref_Matrix4x4;
+		public static RMethod RGetDeterminant_Injected_Ref_Matrix4x4
+		{
+			get
+			{
+				if(r_RGetDeterminant_Injected_Ref_Matrix4x4 == null)
+				{
+					r_RGetDeterminant_Injected_Ref_Matrix4x4 = new RMethod(typeof(UnityEngine.Matrix4x4), "GetDeterminant_Injected", 0, typeof(UnityEngine.Matrix4x4).MakeByRefType());
+					r_RGetDeterminant_Injected_Ref_Matrix4x4.SetBelong(null);
+				}
+				return r_RGetDeterminant_Injected_Ref_Matrix4x4;
+			}
+		}
+
+		/// <summary>
+		/// Void DecomposeProjection_Injected(UnityEngine.Matrix4x4 ByRef, UnityEngine.FrustumPlanes ByRef)
+		/// </summary>
+		protected static RMethod r_RDecomposeProjection_Injected_Ref_Matrix4x4_Out_FrustumPlanes;
+		public static RMethod RDecomposeProjection_Injected_Ref_Matrix4x4_Out_FrustumPlanes
+		{
+			get
+			{
+				if(r_RDecomposeProjection_Injected_Ref_Matrix4x4_Out_FrustumPlanes == null)
+				{
+					r_RDecomposeProjection_Injected_Ref_Matrix4x4_Out_FrustumPlanes = new RMethod(typeof(UnityEngine.Matrix4x4), "DecomposeProjection_Injected", 0, typeof(UnityEngine.Matrix4x4).MakeByRefType(), typeof(UnityEngine.FrustumPlanes).MakeByRefType());
+					r_RDecomposeProjection_Injected_Ref_Matrix4x4_Out_FrustumPlanes.SetBelong(null);
+				}
+				return r_RDecomposeProjection_Injected_Ref_Matrix4x4_Out_FrustumPlanes;
+			}
+		}
+
+		/// <summary>
+		/// Boolean ValidTRS_Injected(UnityEngine.Matrix4x4 ByRef)
+		/// </summary>
+		protected static RMethod r_RValidTRS_Injected_Ref_Matrix4x4;
+		public static RMethod RValidTRS_Injected_Ref_Matrix4x4
+		{
+			get
+			{
+				if(r_RValidTRS_Injected_Ref_Matrix4x4 == null)
+				{
+					r_RValidTRS_Injected_Ref_Matrix4x4 = new RMethod(typeof(UnityEngine.Matrix4x4), "ValidTRS_Injected", 0, typeof(UnityEngine.Matrix4x4).MakeByRefType());
+					r_RValidTRS_Injected_Ref_Matrix4x4.SetBelong(null);
+				}
+				return r_RValidTRS_Injected_Ref_Matrix4x4;
+			}
+		}
+
+		/// <summary>
+		/// Void TRS_Injected(UnityEngine.Vector3 ByRef, UnityEngine.Quaternion ByRef, UnityEngine.Vector3 ByRef, UnityEngine.Matrix4x4 ByRef)
+		/// </summary>
+		protected static RMethod r_RTRS_Injected_Ref_Vector3_Ref_Quaternion_Ref_Vector3_Out_Matrix4x4;
+		public static RMethod RTRS_Injected_Ref_Vector3_Ref_Quaternion_Ref_Vector3_Out_Matrix4x4
+		{
+			get
+			{
+				if(r_RTRS_Injected_Ref_Vector3_Ref_Quaternion_Ref_Vector3_Out_Matrix4x4 == null)
+				{
+					r_RTRS_Injected_Ref_Vector3_Ref_Quaternion_Ref_Vector3_Out_Matrix4x4 = new RMethod(typeof(UnityEngine.Matrix4x4), "TRS_Injected", 0, typeof(UnityEngine.Vector3).MakeByRefType(), typeof(UnityEngine.Quaternion).MakeByRefType(), typeof(UnityEngine.Vector3).MakeByRefType(), typeof(UnityEngine.Matrix4x4).MakeByRefType());
+					r_RTRS_Injected_Ref_Vector3_Ref_Quaternion_Ref_Vector3_Out_Matrix4x4.SetBelong(null);
+				}
+				return r_RTRS_Injected_Ref_Vector3_Ref_Quaternion_Ref_Vector3_Out_Matrix4x4;
+			}
+		}
+
+		/// <summary>
+		/// Boolean Inverse3DAffine_Injected(UnityEngine.Matrix4x4 ByRef, UnityEngine.Matrix4x4 ByRef)
+		/// </summary>
+		protected static RMethod r_RInverse3DAffine_Injected_Ref_Matrix4x4_Ref_Matrix4x4;
+		public static RMethod RInverse3DAffine_Injected_Ref_Matrix4x4_Ref_Matrix4x4
+		{
+			get
+			{
+				if(r_RInverse3DAffine_Injected_Ref_Matrix4x4_Ref_Matrix4x4 == null)
+				{
+					r_RInverse3DAffine_Injected_Ref_Matrix4x4_Ref_Matrix4x4 = new RMethod(typeof(UnityEngine.Matrix4x4), "Inverse3DAffine_Injected", 0, typeof(UnityEngine.Matrix4x4).MakeByRefType(), typeof(UnityEngine.Matrix4x4).MakeByRefType());
+					r_RInverse3DAffine_Injected_Ref_Matrix4x4_Ref_Matrix4x4.SetBelong(null);
+				}
+				return r_RInverse3DAffine_Injected_Ref_Matrix4x4_Ref_Matrix4x4;
+			}
+		}
+
+		/// <summary>
+		/// Void Inverse_Injected(UnityEngine.Matrix4x4 ByRef, UnityEngine.Matrix4x4 ByRef)
+		/// </summary>
+		protected static RMethod r_RInverse_Injected_Ref_Matrix4x4_Out_Matrix4x4;
+		public static RMethod RInverse_Injected_Ref_Matrix4x4_Out_Matrix4x4
+		{
+			get
+			{
+				if(r_RInverse_Injected_Ref_Matrix4x4_Out_Matrix4x4 == null)
+				{
+					r_RInverse_Injected_Ref_Matrix4x4_Out_Matrix4x4 = new RMethod(typeof(UnityEngine.Matrix4x4), "Inverse_Injected", 0, typeof(UnityEngine.Matrix4x4).MakeByRefType(), typeof(UnityEngine.Matrix4x4).MakeByRefType());
+					r_RInverse_Injected_Ref_Matrix4x4_Out_Matrix4x4.SetBelong(null);
+				}
+				return r_RInverse_Injected_Ref_Matrix4x4_Out_Matrix4x4;
+			}
+		}
+
+		/// <summary>
+		/// Void Transpose_Injected(UnityEngine.Matrix4x4 ByRef, UnityEngine.Matrix4x4 ByRef)
+		/// </summary>
+		protected static RMethod r_RTranspose_Injected_Ref_Matrix4x4_Out_Matrix4x4;
+		public static RMethod RTranspose_Injected_Ref_Matrix4x4_Out_Matrix4x4
+		{
+			get
+			{
+				if(r_RTranspose_Injected_Ref_Matrix4x4_Out_Matrix4x4 == null)
+				{
+					r_RTranspose_Injected_Ref_Matrix4x4_Out_Matrix4x4 = new RMethod(typeof(UnityEngine.Matrix4x4), "Transpose_Injected", 0, typeof(UnityEngine.Matrix4x4).MakeByRefType(), typeof(UnityEngine.Matrix4x4).MakeByRefType());
+					r_RTranspose_Injected_Ref_Matrix4x4_Out_Matrix4x4.SetBelong(null);
+				}
+				return r_RTranspose_Injected_Ref_Matrix4x4_Out_Matrix4x4;
+			}
+		}
+
+		/// <summary>
+		/// Void Ortho_Injected(Single, Single, Single, Single, Single, Single, UnityEngine.Matrix4x4 ByRef)
+		/// </summary>
+		protected static RMethod r_ROrtho_Injected_Single_Single_Single_Single_Single_Single_Out_Matrix4x4;
+		public static RMethod ROrtho_Injected_Single_Single_Single_Single_Single_Single_Out_Matrix4x4
+		{
+			get
+			{
+				if(r_ROrtho_Injected_Single_Single_Single_Single_Single_Single_Out_Matrix4x4 == null)
+				{
+					r_ROrtho_Injected_Single_Single_Single_Single_Single_Single_Out_Matrix4x4 = new RMethod(typeof(UnityEngine.Matrix4x4), "Ortho_Injected", 0, typeof(System.Single), typeof(System.Single), typeof(System.Single), typeof(System.Single), typeof(System.Single), typeof(System.Single), typeof(UnityEngine.Matrix4x4).MakeByRefType());
+					r_ROrtho_Injected_Single_Single_Single_Single_Single_Single_Out_Matrix4x4.SetBelong(null);
+				}
+				return r_ROrtho_Injected_Single_Single_Single_Single_Single_Single_Out_Matrix4x4;
+			}
+		}
+
+		/// <summary>
+		/// Void Perspective_Injected(Single, Single, Single, Single, UnityEngine.Matrix4x4 ByRef)
+		/// </summary>
+		protected static RMethod r_RPerspective_Injected_Single_Single_Single_Single_Out_Matrix4x4;
+		public static RMethod RPerspective_Injected_Single_Single_Single_Single_Out_Matrix4x4
+		{
+			get
+			{
+				if(r_RPerspective_Injected_Single_Single_Single_Single_Out_Matrix4x4 == null)
+				{
+					r_RPerspective_Injected_Single_Single_Single_Single_Out_Matrix4x4 = new RMethod(typeof(UnityEngine.Matrix4x4), "Perspective_Injected", 0, typeof(System.Single), typeof(System.Single), typeof(System.Single), typeof(System.Single), typeof(UnityEngine.Matrix4x4).MakeByRefType());
+					r_RPerspective_Injected_Single_Single_Single_Single_Out_Matrix4x4.SetBelong(null);
+				}
+				return r_RPerspective_Injected_Single_Single_Single_Single_Out_Matrix4x4;
+			}
+		}
+
+		/// <summary>
+		/// Void LookAt_Injected(UnityEngine.Vector3 ByRef, UnityEngine.Vector3 ByRef, UnityEngine.Vector3 ByRef, UnityEngine.Matrix4x4 ByRef)
+		/// </summary>
+		protected static RMethod r_RLookAt_Injected_Ref_Vector3_Ref_Vector3_Ref_Vector3_Out_Matrix4x4;
+		public static RMethod RLookAt_Injected_Ref_Vector3_Ref_Vector3_Ref_Vector3_Out_Matrix4x4
+		{
+			get
+			{
+				if(r_RLookAt_Injected_Ref_Vector3_Ref_Vector3_Ref_Vector3_Out_Matrix4x4 == null)
+				{
+					r_RLookAt_Injected_Ref_Vector3_Ref_Vector3_Ref_Vector3_Out_Matrix4x4 = new RMethod(typeof(UnityEngine.Matrix4x4), "LookAt_Injected", 0, typeof(UnityEngine.Vector3).MakeByRefType(), typeof(UnityEngine.Vector3).MakeByRefType(), typeof(UnityEngine.Vector3).MakeByRefType(), typeof(UnityEngine.Matrix4x4).MakeByRefType());
+					r_RLookAt_Injected_Ref_Vector3_Ref_Vector3_Ref_Vector3_Out_Matrix4x4.SetBelong(null);
+				}
+				return r_RLookAt_Injected_Ref_Vector3_Ref_Vector3_Ref_Vector3_Out_Matrix4x4;
+			}
+		}
+
+		/// <summary>
+		/// Void Frustum_Injected(Single, Single, Single, Single, Single, Single, UnityEngine.Matrix4x4 ByRef)
+		/// </summary>
+		protected static RMethod r_RFrustum_Injected_Single_Single_Single_Single_Single_Single_Out_Matrix4x4;
+		public static RMethod RFrustum_Injected_Single_Single_Single_Single_Single_Single_Out_Matrix4x4
+		{
+			get
+			{
+				if(r_RFrustum_Injected_Single_Single_Single_Single_Single_Single_Out_Matrix4x4 == null)
+				{
+					r_RFrustum_Injected_Single_Single_Single_Single_Single_Single_Out_Matrix4x4 = new RMethod(typeof(UnityEngine.Matrix4x4), "Frustum_Injected", 0, typeof(System.Single), typeof(System.Single), typeof(System.Single), typeof(System.Single), typeof(System.Single), typeof(System.Single), typeof(UnityEngine.Matrix4x4).MakeByRefType());
+					r_RFrustum_Injected_Single_Single_Single_Single_Single_Single_Out_Matrix4x4.SetBelong(null);
+				}
+				return r_RFrustum_Injected_Single_Single_Single_Single_Single_Single_Out_Matrix4x4;
+			}
+		}
+
+		/// <summary>
+		/// Void Finalize()
+		/// </summary>
+		protected RMethod r_RFinalize;
+		public virtual RMethod RFinalize
+		{
+			get
+			{
+				if(r_RFinalize == null)
+				{
+					r_RFinalize = new RMethod(this, "Finalize", 0);
+					r_RFinalize.SetBelong(this.instance);
+				}
+				return r_RFinalize;
+			}
+		}
+
+		/// <summary>
+		/// System.Type GetType()
+		/// </summary>
+		protected RMethod r_RGetType;
+		public virtual RMethod RGetType
+		{
+			get
+			{
+				if(r_RGetType == null)
+				{
+					r_RGetType = new RMethod(this, "GetType", 0);
+					r_RGetType.SetBelong(this.instance);
+				}
+				return r_RGetType;
+			}
+		}
+
+		/// <summary>
+		/// System.Object MemberwiseClone()
+		/// </summary>
+		protected RMethod r_RMemberwiseClone;
+		public virtual RMethod RMemberwiseClone
+		{
+			get
+			{
+				if(r_RMemberwiseClone == null)
+				{
+					r_RMemberwiseClone = new RMethod(this, "MemberwiseClone", 0);
+					r_RMemberwiseClone.SetBelong(this.instance);
+				}
+				return r_RMemberwiseClone;
+			}
+		}
 
 
         public RMatrix4x4() : base("UnityEngine.Matrix4x4")
         {
-            NewMembers();
         }
 
         public RMatrix4x4(System.Object instance) : base("UnityEngine.Matrix4x4")
 		{
-			NewMembers();
             SetInstance(instance);
 		}
 
         public RMatrix4x4(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
 	    {
-            NewMembers();
 	    }
 
-        private void NewMembers()
-        {
-			rotation = new RQuaternion(this, "rotation", -1);
-			lossyScale = new RVector3(this, "lossyScale", -1);
-			isIdentity = new RProperty(this, "isIdentity", -1);
-			determinant = new RProperty(this, "determinant", -1);
-			decomposeProjection = new RFrustumPlanes(this, "decomposeProjection", -1);
-			inverse = new RMatrix4x4(this, "inverse", -1);
-			transpose = new RMatrix4x4(this, "transpose", -1);
-			Item_Int32_Int32 = new RProperty(this, "Item", -1, typeof(System.Int32), typeof(System.Int32));
-			Item_Int32 = new RProperty(this, "Item", -1, typeof(System.Int32));
-			zero = new RMatrix4x4(this, "zero", -1);
-			identity = new RMatrix4x4(this, "identity", -1);
-			m00 = new RField(this, "m00");
-			m10 = new RField(this, "m10");
-			m20 = new RField(this, "m20");
-			m30 = new RField(this, "m30");
-			m01 = new RField(this, "m01");
-			m11 = new RField(this, "m11");
-			m21 = new RField(this, "m21");
-			m31 = new RField(this, "m31");
-			m02 = new RField(this, "m02");
-			m12 = new RField(this, "m12");
-			m22 = new RField(this, "m22");
-			m32 = new RField(this, "m32");
-			m03 = new RField(this, "m03");
-			m13 = new RField(this, "m13");
-			m23 = new RField(this, "m23");
-			m33 = new RField(this, "m33");
-			zeroMatrix = new RMatrix4x4(this, "zeroMatrix");
-			identityMatrix = new RMatrix4x4(this, "identityMatrix");
-			RGetRotation = new RMethod(this, "GetRotation", 0);
-			RGetLossyScale = new RMethod(this, "GetLossyScale", 0);
-			RIsIdentity = new RMethod(this, "IsIdentity", 0);
-			RGetDeterminant = new RMethod(this, "GetDeterminant", 0);
-			RDecomposeProjection = new RMethod(this, "DecomposeProjection", 0);
-			RValidTRS = new RMethod(this, "ValidTRS", 0);
-			RDeterminant_Matrix4x4 = new RMethod(this, "Determinant", 0, typeof(UnityEngine.Matrix4x4));
-			RTRS_Vector3_Quaternion_Vector3 = new RMethod(this, "TRS", 0, typeof(UnityEngine.Vector3), typeof(UnityEngine.Quaternion), typeof(UnityEngine.Vector3));
-			RSetTRS_Vector3_Quaternion_Vector3 = new RMethod(this, "SetTRS", 0, typeof(UnityEngine.Vector3), typeof(UnityEngine.Quaternion), typeof(UnityEngine.Vector3));
-			RInverse3DAffine_Matrix4x4_Ref_Matrix4x4 = new RMethod(this, "Inverse3DAffine", 0, typeof(UnityEngine.Matrix4x4), typeof(UnityEngine.Matrix4x4).MakeByRefType());
-			RInverse_Matrix4x4 = new RMethod(this, "Inverse", 0, typeof(UnityEngine.Matrix4x4));
-			RTranspose_Matrix4x4 = new RMethod(this, "Transpose", 0, typeof(UnityEngine.Matrix4x4));
-			ROrtho_Single_Single_Single_Single_Single_Single = new RMethod(this, "Ortho", 0, typeof(System.Single), typeof(System.Single), typeof(System.Single), typeof(System.Single), typeof(System.Single), typeof(System.Single));
-			RPerspective_Single_Single_Single_Single = new RMethod(this, "Perspective", 0, typeof(System.Single), typeof(System.Single), typeof(System.Single), typeof(System.Single));
-			RLookAt_Vector3_Vector3_Vector3 = new RMethod(this, "LookAt", 0, typeof(UnityEngine.Vector3), typeof(UnityEngine.Vector3), typeof(UnityEngine.Vector3));
-			RFrustum_Single_Single_Single_Single_Single_Single = new RMethod(this, "Frustum", 0, typeof(System.Single), typeof(System.Single), typeof(System.Single), typeof(System.Single), typeof(System.Single), typeof(System.Single));
-			RFrustum_FrustumPlanes = new RMethod(this, "Frustum", 0, typeof(UnityEngine.FrustumPlanes));
-			RGetHashCode = new RMethod(this, "GetHashCode", 0);
-			REquals_Object = new RMethod(this, "Equals", 0, typeof(System.Object));
-			REquals_Matrix4x4 = new RMethod(this, "Equals", 0, typeof(UnityEngine.Matrix4x4));
-			Rop_Multiply_Matrix4x4_Matrix4x4 = new RMethod(this, "op_Multiply", 0, typeof(UnityEngine.Matrix4x4), typeof(UnityEngine.Matrix4x4));
-			Rop_Multiply_Matrix4x4_Vector4 = new RMethod(this, "op_Multiply", 0, typeof(UnityEngine.Matrix4x4), typeof(UnityEngine.Vector4));
-			Rop_Equality_Matrix4x4_Matrix4x4 = new RMethod(this, "op_Equality", 0, typeof(UnityEngine.Matrix4x4), typeof(UnityEngine.Matrix4x4));
-			Rop_Inequality_Matrix4x4_Matrix4x4 = new RMethod(this, "op_Inequality", 0, typeof(UnityEngine.Matrix4x4), typeof(UnityEngine.Matrix4x4));
-			RGetColumn_Int32 = new RMethod(this, "GetColumn", 0, typeof(System.Int32));
-			RGetRow_Int32 = new RMethod(this, "GetRow", 0, typeof(System.Int32));
-			RGetPosition = new RMethod(this, "GetPosition", 0);
-			RSetColumn_Int32_Vector4 = new RMethod(this, "SetColumn", 0, typeof(System.Int32), typeof(UnityEngine.Vector4));
-			RSetRow_Int32_Vector4 = new RMethod(this, "SetRow", 0, typeof(System.Int32), typeof(UnityEngine.Vector4));
-			RMultiplyPoint_Vector3 = new RMethod(this, "MultiplyPoint", 0, typeof(UnityEngine.Vector3));
-			RMultiplyPoint3x4_Vector3 = new RMethod(this, "MultiplyPoint3x4", 0, typeof(UnityEngine.Vector3));
-			RMultiplyVector_Vector3 = new RMethod(this, "MultiplyVector", 0, typeof(UnityEngine.Vector3));
-			RTransformPlane_Plane = new RMethod(this, "TransformPlane", 0, typeof(UnityEngine.Plane));
-			RScale_Vector3 = new RMethod(this, "Scale", 0, typeof(UnityEngine.Vector3));
-			RTranslate_Vector3 = new RMethod(this, "Translate", 0, typeof(UnityEngine.Vector3));
-			RRotate_Quaternion = new RMethod(this, "Rotate", 0, typeof(UnityEngine.Quaternion));
-			RToString = new RMethod(this, "ToString", 0);
-			RToString_String = new RMethod(this, "ToString", 0, typeof(System.String));
-			RToString_String_IFormatProvider = new RMethod(this, "ToString", 0, typeof(System.String), typeof(System.IFormatProvider));
-			RGetRotation_Injected_Ref_Matrix4x4_Out_Quaternion = new RMethod(this, "GetRotation_Injected", 0, typeof(UnityEngine.Matrix4x4).MakeByRefType(), typeof(UnityEngine.Quaternion).MakeByRefType());
-			RGetLossyScale_Injected_Ref_Matrix4x4_Out_Vector3 = new RMethod(this, "GetLossyScale_Injected", 0, typeof(UnityEngine.Matrix4x4).MakeByRefType(), typeof(UnityEngine.Vector3).MakeByRefType());
-			RIsIdentity_Injected_Ref_Matrix4x4 = new RMethod(this, "IsIdentity_Injected", 0, typeof(UnityEngine.Matrix4x4).MakeByRefType());
-			RGetDeterminant_Injected_Ref_Matrix4x4 = new RMethod(this, "GetDeterminant_Injected", 0, typeof(UnityEngine.Matrix4x4).MakeByRefType());
-			RDecomposeProjection_Injected_Ref_Matrix4x4_Out_FrustumPlanes = new RMethod(this, "DecomposeProjection_Injected", 0, typeof(UnityEngine.Matrix4x4).MakeByRefType(), typeof(UnityEngine.FrustumPlanes).MakeByRefType());
-			RValidTRS_Injected_Ref_Matrix4x4 = new RMethod(this, "ValidTRS_Injected", 0, typeof(UnityEngine.Matrix4x4).MakeByRefType());
-			RTRS_Injected_Ref_Vector3_Ref_Quaternion_Ref_Vector3_Out_Matrix4x4 = new RMethod(this, "TRS_Injected", 0, typeof(UnityEngine.Vector3).MakeByRefType(), typeof(UnityEngine.Quaternion).MakeByRefType(), typeof(UnityEngine.Vector3).MakeByRefType(), typeof(UnityEngine.Matrix4x4).MakeByRefType());
-			RInverse3DAffine_Injected_Ref_Matrix4x4_Ref_Matrix4x4 = new RMethod(this, "Inverse3DAffine_Injected", 0, typeof(UnityEngine.Matrix4x4).MakeByRefType(), typeof(UnityEngine.Matrix4x4).MakeByRefType());
-			RInverse_Injected_Ref_Matrix4x4_Out_Matrix4x4 = new RMethod(this, "Inverse_Injected", 0, typeof(UnityEngine.Matrix4x4).MakeByRefType(), typeof(UnityEngine.Matrix4x4).MakeByRefType());
-			RTranspose_Injected_Ref_Matrix4x4_Out_Matrix4x4 = new RMethod(this, "Transpose_Injected", 0, typeof(UnityEngine.Matrix4x4).MakeByRefType(), typeof(UnityEngine.Matrix4x4).MakeByRefType());
-			ROrtho_Injected_Single_Single_Single_Single_Single_Single_Out_Matrix4x4 = new RMethod(this, "Ortho_Injected", 0, typeof(System.Single), typeof(System.Single), typeof(System.Single), typeof(System.Single), typeof(System.Single), typeof(System.Single), typeof(UnityEngine.Matrix4x4).MakeByRefType());
-			RPerspective_Injected_Single_Single_Single_Single_Out_Matrix4x4 = new RMethod(this, "Perspective_Injected", 0, typeof(System.Single), typeof(System.Single), typeof(System.Single), typeof(System.Single), typeof(UnityEngine.Matrix4x4).MakeByRefType());
-			RLookAt_Injected_Ref_Vector3_Ref_Vector3_Ref_Vector3_Out_Matrix4x4 = new RMethod(this, "LookAt_Injected", 0, typeof(UnityEngine.Vector3).MakeByRefType(), typeof(UnityEngine.Vector3).MakeByRefType(), typeof(UnityEngine.Vector3).MakeByRefType(), typeof(UnityEngine.Matrix4x4).MakeByRefType());
-			RFrustum_Injected_Single_Single_Single_Single_Single_Single_Out_Matrix4x4 = new RMethod(this, "Frustum_Injected", 0, typeof(System.Single), typeof(System.Single), typeof(System.Single), typeof(System.Single), typeof(System.Single), typeof(System.Single), typeof(UnityEngine.Matrix4x4).MakeByRefType());
-			RFinalize = new RMethod(this, "Finalize", 0);
-			RGetType = new RMethod(this, "GetType", 0);
-			RMemberwiseClone = new RMethod(this, "MemberwiseClone", 0);
-
-        }
+		 public RMatrix4x4(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
 
         public virtual UnityEngine.Quaternion GetRotation()
         {
@@ -210,6 +1481,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             return (UnityEngine.Quaternion)___result;
         }
 
+
         public virtual UnityEngine.Vector3 GetLossyScale()
         {
 
@@ -219,6 +1491,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             return (UnityEngine.Vector3)___result;
         }
+
 
         public virtual System.Boolean IsIdentity()
         {
@@ -230,6 +1503,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             return (System.Boolean)___result;
         }
 
+
         public virtual System.Single GetDeterminant()
         {
 
@@ -239,6 +1513,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             return (System.Single)___result;
         }
+
 
         public virtual UnityEngine.FrustumPlanes DecomposeProjection()
         {
@@ -250,6 +1525,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             return (UnityEngine.FrustumPlanes)___result;
         }
 
+
         public virtual System.Boolean ValidTRS()
         {
 
@@ -259,6 +1535,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             return (System.Boolean)___result;
         }
+
 
         public static System.Single Determinant(UnityEngine.Matrix4x4  @m)
         {
@@ -270,6 +1547,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             return (System.Single)___result;
         }
 
+
         public static UnityEngine.Matrix4x4 TRS(UnityEngine.Vector3  @pos, UnityEngine.Quaternion  @q, UnityEngine.Vector3  @s)
         {
 
@@ -280,6 +1558,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             return (UnityEngine.Matrix4x4)___result;
         }
 
+
         public virtual void SetTRS(UnityEngine.Vector3  @pos, UnityEngine.Quaternion  @q, UnityEngine.Vector3  @s)
         {
 
@@ -289,6 +1568,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             
         }
+
 
         public static System.Boolean Inverse3DAffine(UnityEngine.Matrix4x4  @input, ref UnityEngine.Matrix4x4  @result)
         {
@@ -301,6 +1581,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             return (System.Boolean)___result;
         }
 
+
         public static UnityEngine.Matrix4x4 Inverse(UnityEngine.Matrix4x4  @m)
         {
 
@@ -310,6 +1591,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             return (UnityEngine.Matrix4x4)___result;
         }
+
 
         public static UnityEngine.Matrix4x4 Transpose(UnityEngine.Matrix4x4  @m)
         {
@@ -321,6 +1603,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             return (UnityEngine.Matrix4x4)___result;
         }
 
+
         public static UnityEngine.Matrix4x4 Ortho(System.Single  @left, System.Single  @right, System.Single  @bottom, System.Single  @top, System.Single  @zNear, System.Single  @zFar)
         {
 
@@ -330,6 +1613,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             return (UnityEngine.Matrix4x4)___result;
         }
+
 
         public static UnityEngine.Matrix4x4 Perspective(System.Single  @fov, System.Single  @aspect, System.Single  @zNear, System.Single  @zFar)
         {
@@ -341,6 +1625,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             return (UnityEngine.Matrix4x4)___result;
         }
 
+
         public static UnityEngine.Matrix4x4 LookAt(UnityEngine.Vector3  @from, UnityEngine.Vector3  @to, UnityEngine.Vector3  @up)
         {
 
@@ -350,6 +1635,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             return (UnityEngine.Matrix4x4)___result;
         }
+
 
         public static UnityEngine.Matrix4x4 Frustum(System.Single  @left, System.Single  @right, System.Single  @bottom, System.Single  @top, System.Single  @zNear, System.Single  @zFar)
         {
@@ -361,6 +1647,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             return (UnityEngine.Matrix4x4)___result;
         }
 
+
         public static UnityEngine.Matrix4x4 Frustum(UnityEngine.FrustumPlanes  @fp)
         {
 
@@ -370,6 +1657,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             return (UnityEngine.Matrix4x4)___result;
         }
+
 
         public virtual System.Int32 GetHashCode()
         {
@@ -381,6 +1669,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             return (System.Int32)___result;
         }
 
+
         public virtual System.Boolean Equals(System.Object  @other)
         {
 
@@ -390,6 +1679,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             return (System.Boolean)___result;
         }
+
 
         public virtual System.Boolean Equals(UnityEngine.Matrix4x4  @other)
         {
@@ -401,6 +1691,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             return (System.Boolean)___result;
         }
 
+
         public static UnityEngine.Matrix4x4 op_Multiply(UnityEngine.Matrix4x4  @lhs, UnityEngine.Matrix4x4  @rhs)
         {
 
@@ -410,6 +1701,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             return (UnityEngine.Matrix4x4)___result;
         }
+
 
         public static UnityEngine.Vector4 op_Multiply(UnityEngine.Matrix4x4  @lhs, UnityEngine.Vector4  @vector)
         {
@@ -421,6 +1713,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             return (UnityEngine.Vector4)___result;
         }
 
+
         public static System.Boolean op_Equality(UnityEngine.Matrix4x4  @lhs, UnityEngine.Matrix4x4  @rhs)
         {
 
@@ -430,6 +1723,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             return (System.Boolean)___result;
         }
+
 
         public static System.Boolean op_Inequality(UnityEngine.Matrix4x4  @lhs, UnityEngine.Matrix4x4  @rhs)
         {
@@ -441,6 +1735,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             return (System.Boolean)___result;
         }
 
+
         public virtual UnityEngine.Vector4 GetColumn(System.Int32  @index)
         {
 
@@ -450,6 +1745,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             return (UnityEngine.Vector4)___result;
         }
+
 
         public virtual UnityEngine.Vector4 GetRow(System.Int32  @index)
         {
@@ -461,6 +1757,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             return (UnityEngine.Vector4)___result;
         }
 
+
         public virtual UnityEngine.Vector3 GetPosition()
         {
 
@@ -470,6 +1767,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             return (UnityEngine.Vector3)___result;
         }
+
 
         public virtual void SetColumn(System.Int32  @index, UnityEngine.Vector4  @column)
         {
@@ -481,6 +1779,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             
         }
 
+
         public virtual void SetRow(System.Int32  @index, UnityEngine.Vector4  @row)
         {
 
@@ -490,6 +1789,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             
         }
+
 
         public virtual UnityEngine.Vector3 MultiplyPoint(UnityEngine.Vector3  @point)
         {
@@ -501,6 +1801,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             return (UnityEngine.Vector3)___result;
         }
 
+
         public virtual UnityEngine.Vector3 MultiplyPoint3x4(UnityEngine.Vector3  @point)
         {
 
@@ -510,6 +1811,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             return (UnityEngine.Vector3)___result;
         }
+
 
         public virtual UnityEngine.Vector3 MultiplyVector(UnityEngine.Vector3  @vector)
         {
@@ -521,6 +1823,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             return (UnityEngine.Vector3)___result;
         }
 
+
         public virtual UnityEngine.Plane TransformPlane(UnityEngine.Plane  @plane)
         {
 
@@ -530,6 +1833,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             return (UnityEngine.Plane)___result;
         }
+
 
         public static UnityEngine.Matrix4x4 Scale(UnityEngine.Vector3  @vector)
         {
@@ -541,6 +1845,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             return (UnityEngine.Matrix4x4)___result;
         }
 
+
         public static UnityEngine.Matrix4x4 Translate(UnityEngine.Vector3  @vector)
         {
 
@@ -550,6 +1855,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             return (UnityEngine.Matrix4x4)___result;
         }
+
 
         public static UnityEngine.Matrix4x4 Rotate(UnityEngine.Quaternion  @q)
         {
@@ -561,6 +1867,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             return (UnityEngine.Matrix4x4)___result;
         }
 
+
         public virtual System.String ToString()
         {
 
@@ -570,6 +1877,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             return (System.String)___result;
         }
+
 
         public virtual System.String ToString(System.String  @format)
         {
@@ -581,6 +1889,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             return (System.String)___result;
         }
 
+
         public virtual System.String ToString(System.String  @format, System.IFormatProvider  @formatProvider)
         {
 
@@ -590,6 +1899,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             return (System.String)___result;
         }
+
 
         public static void GetRotation_Injected(ref UnityEngine.Matrix4x4  @_unity_self, out UnityEngine.Quaternion  @ret)
         {
@@ -604,6 +1914,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             
         }
 
+
         public static void GetLossyScale_Injected(ref UnityEngine.Matrix4x4  @_unity_self, out UnityEngine.Vector3  @ret)
         {
 			ret = default;
@@ -617,6 +1928,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             
         }
 
+
         public static System.Boolean IsIdentity_Injected(ref UnityEngine.Matrix4x4  @_unity_self)
         {
 
@@ -628,6 +1940,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             return (System.Boolean)___result;
         }
 
+
         public static System.Single GetDeterminant_Injected(ref UnityEngine.Matrix4x4  @_unity_self)
         {
 
@@ -638,6 +1951,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             return (System.Single)___result;
         }
+
 
         public static void DecomposeProjection_Injected(ref UnityEngine.Matrix4x4  @_unity_self, out UnityEngine.FrustumPlanes  @ret)
         {
@@ -652,6 +1966,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             
         }
 
+
         public static System.Boolean ValidTRS_Injected(ref UnityEngine.Matrix4x4  @_unity_self)
         {
 
@@ -662,6 +1977,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             return (System.Boolean)___result;
         }
+
 
         public static void TRS_Injected(ref UnityEngine.Vector3  @pos, ref UnityEngine.Quaternion  @q, ref UnityEngine.Vector3  @s, out UnityEngine.Matrix4x4  @ret)
         {
@@ -678,6 +1994,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             
         }
 
+
         public static System.Boolean Inverse3DAffine_Injected(ref UnityEngine.Matrix4x4  @input, ref UnityEngine.Matrix4x4  @result)
         {
 
@@ -689,6 +2006,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             return (System.Boolean)___result;
         }
+
 
         public static void Inverse_Injected(ref UnityEngine.Matrix4x4  @m, out UnityEngine.Matrix4x4  @ret)
         {
@@ -703,6 +2021,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             
         }
 
+
         public static void Transpose_Injected(ref UnityEngine.Matrix4x4  @m, out UnityEngine.Matrix4x4  @ret)
         {
 			ret = default;
@@ -716,6 +2035,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             
         }
 
+
         public static void Ortho_Injected(System.Single  @left, System.Single  @right, System.Single  @bottom, System.Single  @top, System.Single  @zNear, System.Single  @zFar, out UnityEngine.Matrix4x4  @ret)
         {
 			ret = default;
@@ -728,6 +2048,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             
         }
 
+
         public static void Perspective_Injected(System.Single  @fov, System.Single  @aspect, System.Single  @zNear, System.Single  @zFar, out UnityEngine.Matrix4x4  @ret)
         {
 			ret = default;
@@ -739,6 +2060,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             
         }
+
 
         public static void LookAt_Injected(ref UnityEngine.Vector3  @from, ref UnityEngine.Vector3  @to, ref UnityEngine.Vector3  @up, out UnityEngine.Matrix4x4  @ret)
         {
@@ -755,6 +2077,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             
         }
 
+
         public static void Frustum_Injected(System.Single  @left, System.Single  @right, System.Single  @bottom, System.Single  @top, System.Single  @zNear, System.Single  @zFar, out UnityEngine.Matrix4x4  @ret)
         {
 			ret = default;
@@ -767,6 +2090,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             
         }
 
+
         public virtual void Finalize()
         {
 
@@ -776,6 +2100,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             
         }
+
 
         public virtual System.Type GetType()
         {
@@ -787,6 +2112,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             return (System.Type)___result;
         }
 
+
         public virtual System.Object MemberwiseClone()
         {
 
@@ -796,6 +2122,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             return (System.Object)___result;
         }
+
 
     }
 }

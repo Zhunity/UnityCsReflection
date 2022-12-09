@@ -7,176 +7,1282 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 {
     public partial class RQuaternion : RMember
     {
-		public  RProperty Item_Int32; //System.Single
-		public static RQuaternion identity; //UnityEngine.Quaternion
-		public  RVector3 eulerAngles; //UnityEngine.Vector3
-		public  RQuaternion normalized; //UnityEngine.Quaternion
-		public  RField x; //System.Single
-		public  RField y; //System.Single
-		public  RField z; //System.Single
-		public  RField w; //System.Single
-		public static RQuaternion identityQuaternion; //UnityEngine.Quaternion
-		public static RField kEpsilon; //System.Single
-		public static RMethod RFromToRotation_Vector3_Vector3; //UnityEngine.Quaternion FromToRotation(UnityEngine.Vector3, UnityEngine.Vector3)
-		public static RMethod RInverse_Quaternion; //UnityEngine.Quaternion Inverse(UnityEngine.Quaternion)
-		public static RMethod RSlerp_Quaternion_Quaternion_Single; //UnityEngine.Quaternion Slerp(UnityEngine.Quaternion, UnityEngine.Quaternion, Single)
-		public static RMethod RSlerpUnclamped_Quaternion_Quaternion_Single; //UnityEngine.Quaternion SlerpUnclamped(UnityEngine.Quaternion, UnityEngine.Quaternion, Single)
-		public static RMethod RLerp_Quaternion_Quaternion_Single; //UnityEngine.Quaternion Lerp(UnityEngine.Quaternion, UnityEngine.Quaternion, Single)
-		public static RMethod RLerpUnclamped_Quaternion_Quaternion_Single; //UnityEngine.Quaternion LerpUnclamped(UnityEngine.Quaternion, UnityEngine.Quaternion, Single)
-		public static RMethod RInternal_FromEulerRad_Vector3; //UnityEngine.Quaternion Internal_FromEulerRad(UnityEngine.Vector3)
-		public static RMethod RInternal_ToEulerRad_Quaternion; //UnityEngine.Vector3 Internal_ToEulerRad(UnityEngine.Quaternion)
-		public static RMethod RInternal_ToAxisAngleRad_Quaternion_Out_Vector3_Out_Single; //Void Internal_ToAxisAngleRad(UnityEngine.Quaternion, UnityEngine.Vector3 ByRef, Single ByRef)
-		public static RMethod RAngleAxis_Single_Vector3; //UnityEngine.Quaternion AngleAxis(Single, UnityEngine.Vector3)
-		public static RMethod RLookRotation_Vector3_Vector3; //UnityEngine.Quaternion LookRotation(UnityEngine.Vector3, UnityEngine.Vector3)
-		public static RMethod RLookRotation_Vector3; //UnityEngine.Quaternion LookRotation(UnityEngine.Vector3)
-		public  RMethod RSet_Single_Single_Single_Single; //Void Set(Single, Single, Single, Single)
-		public static RMethod Rop_Multiply_Quaternion_Quaternion; //UnityEngine.Quaternion op_Multiply(UnityEngine.Quaternion, UnityEngine.Quaternion)
-		public static RMethod Rop_Multiply_Quaternion_Vector3; //UnityEngine.Vector3 op_Multiply(UnityEngine.Quaternion, UnityEngine.Vector3)
-		public static RMethod RIsEqualUsingDot_Single; //Boolean IsEqualUsingDot(Single)
-		public static RMethod Rop_Equality_Quaternion_Quaternion; //Boolean op_Equality(UnityEngine.Quaternion, UnityEngine.Quaternion)
-		public static RMethod Rop_Inequality_Quaternion_Quaternion; //Boolean op_Inequality(UnityEngine.Quaternion, UnityEngine.Quaternion)
-		public static RMethod RDot_Quaternion_Quaternion; //Single Dot(UnityEngine.Quaternion, UnityEngine.Quaternion)
-		public  RMethod RSetLookRotation_Vector3; //Void SetLookRotation(UnityEngine.Vector3)
-		public  RMethod RSetLookRotation_Vector3_Vector3; //Void SetLookRotation(UnityEngine.Vector3, UnityEngine.Vector3)
-		public static RMethod RAngle_Quaternion_Quaternion; //Single Angle(UnityEngine.Quaternion, UnityEngine.Quaternion)
-		public static RMethod RInternal_MakePositive_Vector3; //UnityEngine.Vector3 Internal_MakePositive(UnityEngine.Vector3)
-		public static RMethod REuler_Single_Single_Single; //UnityEngine.Quaternion Euler(Single, Single, Single)
-		public static RMethod REuler_Vector3; //UnityEngine.Quaternion Euler(UnityEngine.Vector3)
-		public  RMethod RToAngleAxis_Out_Single_Out_Vector3; //Void ToAngleAxis(Single ByRef, UnityEngine.Vector3 ByRef)
-		public  RMethod RSetFromToRotation_Vector3_Vector3; //Void SetFromToRotation(UnityEngine.Vector3, UnityEngine.Vector3)
-		public static RMethod RRotateTowards_Quaternion_Quaternion_Single; //UnityEngine.Quaternion RotateTowards(UnityEngine.Quaternion, UnityEngine.Quaternion, Single)
-		public static RMethod RNormalize_Quaternion; //UnityEngine.Quaternion Normalize(UnityEngine.Quaternion)
-		public  RMethod RNormalize; //Void Normalize()
-		public  RMethod RGetHashCode; //Int32 GetHashCode()
-		public  RMethod REquals_Object; //Boolean Equals(System.Object)
-		public  RMethod REquals_Quaternion; //Boolean Equals(UnityEngine.Quaternion)
-		public  RMethod RToString; //System.String ToString()
-		public  RMethod RToString_String; //System.String ToString(System.String)
-		public  RMethod RToString_String_IFormatProvider; //System.String ToString(System.String, System.IFormatProvider)
-		public static RMethod REulerRotation_Single_Single_Single; //UnityEngine.Quaternion EulerRotation(Single, Single, Single)
-		public static RMethod REulerRotation_Vector3; //UnityEngine.Quaternion EulerRotation(UnityEngine.Vector3)
-		public  RMethod RSetEulerRotation_Single_Single_Single; //Void SetEulerRotation(Single, Single, Single)
-		public  RMethod RSetEulerRotation_Vector3; //Void SetEulerRotation(UnityEngine.Vector3)
-		public  RMethod RToEuler; //UnityEngine.Vector3 ToEuler()
-		public static RMethod REulerAngles_Single_Single_Single; //UnityEngine.Quaternion EulerAngles(Single, Single, Single)
-		public static RMethod REulerAngles_Vector3; //UnityEngine.Quaternion EulerAngles(UnityEngine.Vector3)
-		public  RMethod RToAxisAngle_Out_Vector3_Out_Single; //Void ToAxisAngle(UnityEngine.Vector3 ByRef, Single ByRef)
-		public  RMethod RSetEulerAngles_Single_Single_Single; //Void SetEulerAngles(Single, Single, Single)
-		public  RMethod RSetEulerAngles_Vector3; //Void SetEulerAngles(UnityEngine.Vector3)
-		public static RMethod RToEulerAngles_Quaternion; //UnityEngine.Vector3 ToEulerAngles(UnityEngine.Quaternion)
-		public  RMethod RToEulerAngles; //UnityEngine.Vector3 ToEulerAngles()
-		public  RMethod RSetAxisAngle_Vector3_Single; //Void SetAxisAngle(UnityEngine.Vector3, Single)
-		public static RMethod RAxisAngle_Vector3_Single; //UnityEngine.Quaternion AxisAngle(UnityEngine.Vector3, Single)
-		public static RMethod RFromToRotation_Injected_Ref_Vector3_Ref_Vector3_Out_Quaternion; //Void FromToRotation_Injected(UnityEngine.Vector3 ByRef, UnityEngine.Vector3 ByRef, UnityEngine.Quaternion ByRef)
-		public static RMethod RInverse_Injected_Ref_Quaternion_Out_Quaternion; //Void Inverse_Injected(UnityEngine.Quaternion ByRef, UnityEngine.Quaternion ByRef)
-		public static RMethod RSlerp_Injected_Ref_Quaternion_Ref_Quaternion_Single_Out_Quaternion; //Void Slerp_Injected(UnityEngine.Quaternion ByRef, UnityEngine.Quaternion ByRef, Single, UnityEngine.Quaternion ByRef)
-		public static RMethod RSlerpUnclamped_Injected_Ref_Quaternion_Ref_Quaternion_Single_Out_Quaternion; //Void SlerpUnclamped_Injected(UnityEngine.Quaternion ByRef, UnityEngine.Quaternion ByRef, Single, UnityEngine.Quaternion ByRef)
-		public static RMethod RLerp_Injected_Ref_Quaternion_Ref_Quaternion_Single_Out_Quaternion; //Void Lerp_Injected(UnityEngine.Quaternion ByRef, UnityEngine.Quaternion ByRef, Single, UnityEngine.Quaternion ByRef)
-		public static RMethod RLerpUnclamped_Injected_Ref_Quaternion_Ref_Quaternion_Single_Out_Quaternion; //Void LerpUnclamped_Injected(UnityEngine.Quaternion ByRef, UnityEngine.Quaternion ByRef, Single, UnityEngine.Quaternion ByRef)
-		public static RMethod RInternal_FromEulerRad_Injected_Ref_Vector3_Out_Quaternion; //Void Internal_FromEulerRad_Injected(UnityEngine.Vector3 ByRef, UnityEngine.Quaternion ByRef)
-		public static RMethod RInternal_ToEulerRad_Injected_Ref_Quaternion_Out_Vector3; //Void Internal_ToEulerRad_Injected(UnityEngine.Quaternion ByRef, UnityEngine.Vector3 ByRef)
-		public static RMethod RInternal_ToAxisAngleRad_Injected_Ref_Quaternion_Out_Vector3_Out_Single; //Void Internal_ToAxisAngleRad_Injected(UnityEngine.Quaternion ByRef, UnityEngine.Vector3 ByRef, Single ByRef)
-		public static RMethod RAngleAxis_Injected_Single_Ref_Vector3_Out_Quaternion; //Void AngleAxis_Injected(Single, UnityEngine.Vector3 ByRef, UnityEngine.Quaternion ByRef)
-		public static RMethod RLookRotation_Injected_Ref_Vector3_Ref_Vector3_Out_Quaternion; //Void LookRotation_Injected(UnityEngine.Vector3 ByRef, UnityEngine.Vector3 ByRef, UnityEngine.Quaternion ByRef)
-		public  RMethod RFinalize; //Void Finalize()
-		public  RMethod RGetType; //System.Type GetType()
-		public  RMethod RMemberwiseClone; //System.Object MemberwiseClone()
+
+		/// <summary>
+		/// System.Single x
+		/// </summary>
+		protected RField r_x;
+		public virtual RField x
+		{
+			get
+			{
+				if(r_x == null)
+				{
+					r_x = new RField(this, "x");
+					r_x.SetBelong(this.instance);
+				}
+				return r_x;
+			}
+		}
+
+		/// <summary>
+		/// System.Single y
+		/// </summary>
+		protected RField r_y;
+		public virtual RField y
+		{
+			get
+			{
+				if(r_y == null)
+				{
+					r_y = new RField(this, "y");
+					r_y.SetBelong(this.instance);
+				}
+				return r_y;
+			}
+		}
+
+		/// <summary>
+		/// System.Single z
+		/// </summary>
+		protected RField r_z;
+		public virtual RField z
+		{
+			get
+			{
+				if(r_z == null)
+				{
+					r_z = new RField(this, "z");
+					r_z.SetBelong(this.instance);
+				}
+				return r_z;
+			}
+		}
+
+		/// <summary>
+		/// System.Single w
+		/// </summary>
+		protected RField r_w;
+		public virtual RField w
+		{
+			get
+			{
+				if(r_w == null)
+				{
+					r_w = new RField(this, "w");
+					r_w.SetBelong(this.instance);
+				}
+				return r_w;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.Quaternion identityQuaternion
+		/// </summary>
+		protected static RQuaternion r_identityQuaternion;
+		public static RQuaternion identityQuaternion
+		{
+			get
+			{
+				if(r_identityQuaternion == null)
+				{
+					r_identityQuaternion = new RQuaternion(typeof(UnityEngine.Quaternion), "identityQuaternion");
+					r_identityQuaternion.SetBelong(null);
+				}
+				return r_identityQuaternion;
+			}
+		}
+
+		/// <summary>
+		/// System.Single kEpsilon
+		/// </summary>
+		protected static RField r_kEpsilon;
+		public static RField kEpsilon
+		{
+			get
+			{
+				if(r_kEpsilon == null)
+				{
+					r_kEpsilon = new RField(typeof(UnityEngine.Quaternion), "kEpsilon");
+					r_kEpsilon.SetBelong(null);
+				}
+				return r_kEpsilon;
+			}
+		}
+
+		/// <summary>
+		/// Single Item [Int32]
+		/// </summary>
+		protected RProperty r_Item_Int32;
+		public virtual RProperty Item_Int32
+		{
+			get
+			{
+				if(r_Item_Int32 == null)
+				{
+					r_Item_Int32 = new RProperty(this, "Item", -1, typeof(System.Int32));
+					r_Item_Int32.SetBelong(this.instance);
+				}
+				return r_Item_Int32;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.Quaternion identity
+		/// </summary>
+		protected static RQuaternion r_identity;
+		public static RQuaternion identity
+		{
+			get
+			{
+				if(r_identity == null)
+				{
+					r_identity = new RQuaternion(typeof(UnityEngine.Quaternion), "identity", -1);
+					r_identity.SetBelong(null);
+				}
+				return r_identity;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.Vector3 eulerAngles
+		/// </summary>
+		protected RVector3 r_eulerAngles;
+		public virtual RVector3 eulerAngles
+		{
+			get
+			{
+				if(r_eulerAngles == null)
+				{
+					r_eulerAngles = new RVector3(this, "eulerAngles", -1);
+					r_eulerAngles.SetBelong(this.instance);
+				}
+				return r_eulerAngles;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.Quaternion normalized
+		/// </summary>
+		protected RQuaternion r_normalized;
+		public virtual RQuaternion normalized
+		{
+			get
+			{
+				if(r_normalized == null)
+				{
+					r_normalized = new RQuaternion(this, "normalized", -1);
+					r_normalized.SetBelong(this.instance);
+				}
+				return r_normalized;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.Quaternion FromToRotation(UnityEngine.Vector3, UnityEngine.Vector3)
+		/// </summary>
+		protected static RMethod r_RFromToRotation_Vector3_Vector3;
+		public static RMethod RFromToRotation_Vector3_Vector3
+		{
+			get
+			{
+				if(r_RFromToRotation_Vector3_Vector3 == null)
+				{
+					r_RFromToRotation_Vector3_Vector3 = new RMethod(typeof(UnityEngine.Quaternion), "FromToRotation", 0, typeof(UnityEngine.Vector3), typeof(UnityEngine.Vector3));
+					r_RFromToRotation_Vector3_Vector3.SetBelong(null);
+				}
+				return r_RFromToRotation_Vector3_Vector3;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.Quaternion Inverse(UnityEngine.Quaternion)
+		/// </summary>
+		protected static RMethod r_RInverse_Quaternion;
+		public static RMethod RInverse_Quaternion
+		{
+			get
+			{
+				if(r_RInverse_Quaternion == null)
+				{
+					r_RInverse_Quaternion = new RMethod(typeof(UnityEngine.Quaternion), "Inverse", 0, typeof(UnityEngine.Quaternion));
+					r_RInverse_Quaternion.SetBelong(null);
+				}
+				return r_RInverse_Quaternion;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.Quaternion Slerp(UnityEngine.Quaternion, UnityEngine.Quaternion, Single)
+		/// </summary>
+		protected static RMethod r_RSlerp_Quaternion_Quaternion_Single;
+		public static RMethod RSlerp_Quaternion_Quaternion_Single
+		{
+			get
+			{
+				if(r_RSlerp_Quaternion_Quaternion_Single == null)
+				{
+					r_RSlerp_Quaternion_Quaternion_Single = new RMethod(typeof(UnityEngine.Quaternion), "Slerp", 0, typeof(UnityEngine.Quaternion), typeof(UnityEngine.Quaternion), typeof(System.Single));
+					r_RSlerp_Quaternion_Quaternion_Single.SetBelong(null);
+				}
+				return r_RSlerp_Quaternion_Quaternion_Single;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.Quaternion SlerpUnclamped(UnityEngine.Quaternion, UnityEngine.Quaternion, Single)
+		/// </summary>
+		protected static RMethod r_RSlerpUnclamped_Quaternion_Quaternion_Single;
+		public static RMethod RSlerpUnclamped_Quaternion_Quaternion_Single
+		{
+			get
+			{
+				if(r_RSlerpUnclamped_Quaternion_Quaternion_Single == null)
+				{
+					r_RSlerpUnclamped_Quaternion_Quaternion_Single = new RMethod(typeof(UnityEngine.Quaternion), "SlerpUnclamped", 0, typeof(UnityEngine.Quaternion), typeof(UnityEngine.Quaternion), typeof(System.Single));
+					r_RSlerpUnclamped_Quaternion_Quaternion_Single.SetBelong(null);
+				}
+				return r_RSlerpUnclamped_Quaternion_Quaternion_Single;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.Quaternion Lerp(UnityEngine.Quaternion, UnityEngine.Quaternion, Single)
+		/// </summary>
+		protected static RMethod r_RLerp_Quaternion_Quaternion_Single;
+		public static RMethod RLerp_Quaternion_Quaternion_Single
+		{
+			get
+			{
+				if(r_RLerp_Quaternion_Quaternion_Single == null)
+				{
+					r_RLerp_Quaternion_Quaternion_Single = new RMethod(typeof(UnityEngine.Quaternion), "Lerp", 0, typeof(UnityEngine.Quaternion), typeof(UnityEngine.Quaternion), typeof(System.Single));
+					r_RLerp_Quaternion_Quaternion_Single.SetBelong(null);
+				}
+				return r_RLerp_Quaternion_Quaternion_Single;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.Quaternion LerpUnclamped(UnityEngine.Quaternion, UnityEngine.Quaternion, Single)
+		/// </summary>
+		protected static RMethod r_RLerpUnclamped_Quaternion_Quaternion_Single;
+		public static RMethod RLerpUnclamped_Quaternion_Quaternion_Single
+		{
+			get
+			{
+				if(r_RLerpUnclamped_Quaternion_Quaternion_Single == null)
+				{
+					r_RLerpUnclamped_Quaternion_Quaternion_Single = new RMethod(typeof(UnityEngine.Quaternion), "LerpUnclamped", 0, typeof(UnityEngine.Quaternion), typeof(UnityEngine.Quaternion), typeof(System.Single));
+					r_RLerpUnclamped_Quaternion_Quaternion_Single.SetBelong(null);
+				}
+				return r_RLerpUnclamped_Quaternion_Quaternion_Single;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.Quaternion Internal_FromEulerRad(UnityEngine.Vector3)
+		/// </summary>
+		protected static RMethod r_RInternal_FromEulerRad_Vector3;
+		public static RMethod RInternal_FromEulerRad_Vector3
+		{
+			get
+			{
+				if(r_RInternal_FromEulerRad_Vector3 == null)
+				{
+					r_RInternal_FromEulerRad_Vector3 = new RMethod(typeof(UnityEngine.Quaternion), "Internal_FromEulerRad", 0, typeof(UnityEngine.Vector3));
+					r_RInternal_FromEulerRad_Vector3.SetBelong(null);
+				}
+				return r_RInternal_FromEulerRad_Vector3;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.Vector3 Internal_ToEulerRad(UnityEngine.Quaternion)
+		/// </summary>
+		protected static RMethod r_RInternal_ToEulerRad_Quaternion;
+		public static RMethod RInternal_ToEulerRad_Quaternion
+		{
+			get
+			{
+				if(r_RInternal_ToEulerRad_Quaternion == null)
+				{
+					r_RInternal_ToEulerRad_Quaternion = new RMethod(typeof(UnityEngine.Quaternion), "Internal_ToEulerRad", 0, typeof(UnityEngine.Quaternion));
+					r_RInternal_ToEulerRad_Quaternion.SetBelong(null);
+				}
+				return r_RInternal_ToEulerRad_Quaternion;
+			}
+		}
+
+		/// <summary>
+		/// Void Internal_ToAxisAngleRad(UnityEngine.Quaternion, UnityEngine.Vector3 ByRef, Single ByRef)
+		/// </summary>
+		protected static RMethod r_RInternal_ToAxisAngleRad_Quaternion_Out_Vector3_Out_Single;
+		public static RMethod RInternal_ToAxisAngleRad_Quaternion_Out_Vector3_Out_Single
+		{
+			get
+			{
+				if(r_RInternal_ToAxisAngleRad_Quaternion_Out_Vector3_Out_Single == null)
+				{
+					r_RInternal_ToAxisAngleRad_Quaternion_Out_Vector3_Out_Single = new RMethod(typeof(UnityEngine.Quaternion), "Internal_ToAxisAngleRad", 0, typeof(UnityEngine.Quaternion), typeof(UnityEngine.Vector3).MakeByRefType(), typeof(System.Single).MakeByRefType());
+					r_RInternal_ToAxisAngleRad_Quaternion_Out_Vector3_Out_Single.SetBelong(null);
+				}
+				return r_RInternal_ToAxisAngleRad_Quaternion_Out_Vector3_Out_Single;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.Quaternion AngleAxis(Single, UnityEngine.Vector3)
+		/// </summary>
+		protected static RMethod r_RAngleAxis_Single_Vector3;
+		public static RMethod RAngleAxis_Single_Vector3
+		{
+			get
+			{
+				if(r_RAngleAxis_Single_Vector3 == null)
+				{
+					r_RAngleAxis_Single_Vector3 = new RMethod(typeof(UnityEngine.Quaternion), "AngleAxis", 0, typeof(System.Single), typeof(UnityEngine.Vector3));
+					r_RAngleAxis_Single_Vector3.SetBelong(null);
+				}
+				return r_RAngleAxis_Single_Vector3;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.Quaternion LookRotation(UnityEngine.Vector3, UnityEngine.Vector3)
+		/// </summary>
+		protected static RMethod r_RLookRotation_Vector3_Vector3;
+		public static RMethod RLookRotation_Vector3_Vector3
+		{
+			get
+			{
+				if(r_RLookRotation_Vector3_Vector3 == null)
+				{
+					r_RLookRotation_Vector3_Vector3 = new RMethod(typeof(UnityEngine.Quaternion), "LookRotation", 0, typeof(UnityEngine.Vector3), typeof(UnityEngine.Vector3));
+					r_RLookRotation_Vector3_Vector3.SetBelong(null);
+				}
+				return r_RLookRotation_Vector3_Vector3;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.Quaternion LookRotation(UnityEngine.Vector3)
+		/// </summary>
+		protected static RMethod r_RLookRotation_Vector3;
+		public static RMethod RLookRotation_Vector3
+		{
+			get
+			{
+				if(r_RLookRotation_Vector3 == null)
+				{
+					r_RLookRotation_Vector3 = new RMethod(typeof(UnityEngine.Quaternion), "LookRotation", 0, typeof(UnityEngine.Vector3));
+					r_RLookRotation_Vector3.SetBelong(null);
+				}
+				return r_RLookRotation_Vector3;
+			}
+		}
+
+		/// <summary>
+		/// Void Set(Single, Single, Single, Single)
+		/// </summary>
+		protected RMethod r_RSet_Single_Single_Single_Single;
+		public virtual RMethod RSet_Single_Single_Single_Single
+		{
+			get
+			{
+				if(r_RSet_Single_Single_Single_Single == null)
+				{
+					r_RSet_Single_Single_Single_Single = new RMethod(this, "Set", 0, typeof(System.Single), typeof(System.Single), typeof(System.Single), typeof(System.Single));
+					r_RSet_Single_Single_Single_Single.SetBelong(this.instance);
+				}
+				return r_RSet_Single_Single_Single_Single;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.Quaternion op_Multiply(UnityEngine.Quaternion, UnityEngine.Quaternion)
+		/// </summary>
+		protected static RMethod r_Rop_Multiply_Quaternion_Quaternion;
+		public static RMethod Rop_Multiply_Quaternion_Quaternion
+		{
+			get
+			{
+				if(r_Rop_Multiply_Quaternion_Quaternion == null)
+				{
+					r_Rop_Multiply_Quaternion_Quaternion = new RMethod(typeof(UnityEngine.Quaternion), "op_Multiply", 0, typeof(UnityEngine.Quaternion), typeof(UnityEngine.Quaternion));
+					r_Rop_Multiply_Quaternion_Quaternion.SetBelong(null);
+				}
+				return r_Rop_Multiply_Quaternion_Quaternion;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.Vector3 op_Multiply(UnityEngine.Quaternion, UnityEngine.Vector3)
+		/// </summary>
+		protected static RMethod r_Rop_Multiply_Quaternion_Vector3;
+		public static RMethod Rop_Multiply_Quaternion_Vector3
+		{
+			get
+			{
+				if(r_Rop_Multiply_Quaternion_Vector3 == null)
+				{
+					r_Rop_Multiply_Quaternion_Vector3 = new RMethod(typeof(UnityEngine.Quaternion), "op_Multiply", 0, typeof(UnityEngine.Quaternion), typeof(UnityEngine.Vector3));
+					r_Rop_Multiply_Quaternion_Vector3.SetBelong(null);
+				}
+				return r_Rop_Multiply_Quaternion_Vector3;
+			}
+		}
+
+		/// <summary>
+		/// Boolean IsEqualUsingDot(Single)
+		/// </summary>
+		protected static RMethod r_RIsEqualUsingDot_Single;
+		public static RMethod RIsEqualUsingDot_Single
+		{
+			get
+			{
+				if(r_RIsEqualUsingDot_Single == null)
+				{
+					r_RIsEqualUsingDot_Single = new RMethod(typeof(UnityEngine.Quaternion), "IsEqualUsingDot", 0, typeof(System.Single));
+					r_RIsEqualUsingDot_Single.SetBelong(null);
+				}
+				return r_RIsEqualUsingDot_Single;
+			}
+		}
+
+		/// <summary>
+		/// Boolean op_Equality(UnityEngine.Quaternion, UnityEngine.Quaternion)
+		/// </summary>
+		protected static RMethod r_Rop_Equality_Quaternion_Quaternion;
+		public static RMethod Rop_Equality_Quaternion_Quaternion
+		{
+			get
+			{
+				if(r_Rop_Equality_Quaternion_Quaternion == null)
+				{
+					r_Rop_Equality_Quaternion_Quaternion = new RMethod(typeof(UnityEngine.Quaternion), "op_Equality", 0, typeof(UnityEngine.Quaternion), typeof(UnityEngine.Quaternion));
+					r_Rop_Equality_Quaternion_Quaternion.SetBelong(null);
+				}
+				return r_Rop_Equality_Quaternion_Quaternion;
+			}
+		}
+
+		/// <summary>
+		/// Boolean op_Inequality(UnityEngine.Quaternion, UnityEngine.Quaternion)
+		/// </summary>
+		protected static RMethod r_Rop_Inequality_Quaternion_Quaternion;
+		public static RMethod Rop_Inequality_Quaternion_Quaternion
+		{
+			get
+			{
+				if(r_Rop_Inequality_Quaternion_Quaternion == null)
+				{
+					r_Rop_Inequality_Quaternion_Quaternion = new RMethod(typeof(UnityEngine.Quaternion), "op_Inequality", 0, typeof(UnityEngine.Quaternion), typeof(UnityEngine.Quaternion));
+					r_Rop_Inequality_Quaternion_Quaternion.SetBelong(null);
+				}
+				return r_Rop_Inequality_Quaternion_Quaternion;
+			}
+		}
+
+		/// <summary>
+		/// Single Dot(UnityEngine.Quaternion, UnityEngine.Quaternion)
+		/// </summary>
+		protected static RMethod r_RDot_Quaternion_Quaternion;
+		public static RMethod RDot_Quaternion_Quaternion
+		{
+			get
+			{
+				if(r_RDot_Quaternion_Quaternion == null)
+				{
+					r_RDot_Quaternion_Quaternion = new RMethod(typeof(UnityEngine.Quaternion), "Dot", 0, typeof(UnityEngine.Quaternion), typeof(UnityEngine.Quaternion));
+					r_RDot_Quaternion_Quaternion.SetBelong(null);
+				}
+				return r_RDot_Quaternion_Quaternion;
+			}
+		}
+
+		/// <summary>
+		/// Void SetLookRotation(UnityEngine.Vector3)
+		/// </summary>
+		protected RMethod r_RSetLookRotation_Vector3;
+		public virtual RMethod RSetLookRotation_Vector3
+		{
+			get
+			{
+				if(r_RSetLookRotation_Vector3 == null)
+				{
+					r_RSetLookRotation_Vector3 = new RMethod(this, "SetLookRotation", 0, typeof(UnityEngine.Vector3));
+					r_RSetLookRotation_Vector3.SetBelong(this.instance);
+				}
+				return r_RSetLookRotation_Vector3;
+			}
+		}
+
+		/// <summary>
+		/// Void SetLookRotation(UnityEngine.Vector3, UnityEngine.Vector3)
+		/// </summary>
+		protected RMethod r_RSetLookRotation_Vector3_Vector3;
+		public virtual RMethod RSetLookRotation_Vector3_Vector3
+		{
+			get
+			{
+				if(r_RSetLookRotation_Vector3_Vector3 == null)
+				{
+					r_RSetLookRotation_Vector3_Vector3 = new RMethod(this, "SetLookRotation", 0, typeof(UnityEngine.Vector3), typeof(UnityEngine.Vector3));
+					r_RSetLookRotation_Vector3_Vector3.SetBelong(this.instance);
+				}
+				return r_RSetLookRotation_Vector3_Vector3;
+			}
+		}
+
+		/// <summary>
+		/// Single Angle(UnityEngine.Quaternion, UnityEngine.Quaternion)
+		/// </summary>
+		protected static RMethod r_RAngle_Quaternion_Quaternion;
+		public static RMethod RAngle_Quaternion_Quaternion
+		{
+			get
+			{
+				if(r_RAngle_Quaternion_Quaternion == null)
+				{
+					r_RAngle_Quaternion_Quaternion = new RMethod(typeof(UnityEngine.Quaternion), "Angle", 0, typeof(UnityEngine.Quaternion), typeof(UnityEngine.Quaternion));
+					r_RAngle_Quaternion_Quaternion.SetBelong(null);
+				}
+				return r_RAngle_Quaternion_Quaternion;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.Vector3 Internal_MakePositive(UnityEngine.Vector3)
+		/// </summary>
+		protected static RMethod r_RInternal_MakePositive_Vector3;
+		public static RMethod RInternal_MakePositive_Vector3
+		{
+			get
+			{
+				if(r_RInternal_MakePositive_Vector3 == null)
+				{
+					r_RInternal_MakePositive_Vector3 = new RMethod(typeof(UnityEngine.Quaternion), "Internal_MakePositive", 0, typeof(UnityEngine.Vector3));
+					r_RInternal_MakePositive_Vector3.SetBelong(null);
+				}
+				return r_RInternal_MakePositive_Vector3;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.Quaternion Euler(Single, Single, Single)
+		/// </summary>
+		protected static RMethod r_REuler_Single_Single_Single;
+		public static RMethod REuler_Single_Single_Single
+		{
+			get
+			{
+				if(r_REuler_Single_Single_Single == null)
+				{
+					r_REuler_Single_Single_Single = new RMethod(typeof(UnityEngine.Quaternion), "Euler", 0, typeof(System.Single), typeof(System.Single), typeof(System.Single));
+					r_REuler_Single_Single_Single.SetBelong(null);
+				}
+				return r_REuler_Single_Single_Single;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.Quaternion Euler(UnityEngine.Vector3)
+		/// </summary>
+		protected static RMethod r_REuler_Vector3;
+		public static RMethod REuler_Vector3
+		{
+			get
+			{
+				if(r_REuler_Vector3 == null)
+				{
+					r_REuler_Vector3 = new RMethod(typeof(UnityEngine.Quaternion), "Euler", 0, typeof(UnityEngine.Vector3));
+					r_REuler_Vector3.SetBelong(null);
+				}
+				return r_REuler_Vector3;
+			}
+		}
+
+		/// <summary>
+		/// Void ToAngleAxis(Single ByRef, UnityEngine.Vector3 ByRef)
+		/// </summary>
+		protected RMethod r_RToAngleAxis_Out_Single_Out_Vector3;
+		public virtual RMethod RToAngleAxis_Out_Single_Out_Vector3
+		{
+			get
+			{
+				if(r_RToAngleAxis_Out_Single_Out_Vector3 == null)
+				{
+					r_RToAngleAxis_Out_Single_Out_Vector3 = new RMethod(this, "ToAngleAxis", 0, typeof(System.Single).MakeByRefType(), typeof(UnityEngine.Vector3).MakeByRefType());
+					r_RToAngleAxis_Out_Single_Out_Vector3.SetBelong(this.instance);
+				}
+				return r_RToAngleAxis_Out_Single_Out_Vector3;
+			}
+		}
+
+		/// <summary>
+		/// Void SetFromToRotation(UnityEngine.Vector3, UnityEngine.Vector3)
+		/// </summary>
+		protected RMethod r_RSetFromToRotation_Vector3_Vector3;
+		public virtual RMethod RSetFromToRotation_Vector3_Vector3
+		{
+			get
+			{
+				if(r_RSetFromToRotation_Vector3_Vector3 == null)
+				{
+					r_RSetFromToRotation_Vector3_Vector3 = new RMethod(this, "SetFromToRotation", 0, typeof(UnityEngine.Vector3), typeof(UnityEngine.Vector3));
+					r_RSetFromToRotation_Vector3_Vector3.SetBelong(this.instance);
+				}
+				return r_RSetFromToRotation_Vector3_Vector3;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.Quaternion RotateTowards(UnityEngine.Quaternion, UnityEngine.Quaternion, Single)
+		/// </summary>
+		protected static RMethod r_RRotateTowards_Quaternion_Quaternion_Single;
+		public static RMethod RRotateTowards_Quaternion_Quaternion_Single
+		{
+			get
+			{
+				if(r_RRotateTowards_Quaternion_Quaternion_Single == null)
+				{
+					r_RRotateTowards_Quaternion_Quaternion_Single = new RMethod(typeof(UnityEngine.Quaternion), "RotateTowards", 0, typeof(UnityEngine.Quaternion), typeof(UnityEngine.Quaternion), typeof(System.Single));
+					r_RRotateTowards_Quaternion_Quaternion_Single.SetBelong(null);
+				}
+				return r_RRotateTowards_Quaternion_Quaternion_Single;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.Quaternion Normalize(UnityEngine.Quaternion)
+		/// </summary>
+		protected static RMethod r_RNormalize_Quaternion;
+		public static RMethod RNormalize_Quaternion
+		{
+			get
+			{
+				if(r_RNormalize_Quaternion == null)
+				{
+					r_RNormalize_Quaternion = new RMethod(typeof(UnityEngine.Quaternion), "Normalize", 0, typeof(UnityEngine.Quaternion));
+					r_RNormalize_Quaternion.SetBelong(null);
+				}
+				return r_RNormalize_Quaternion;
+			}
+		}
+
+		/// <summary>
+		/// Void Normalize()
+		/// </summary>
+		protected RMethod r_RNormalize;
+		public virtual RMethod RNormalize
+		{
+			get
+			{
+				if(r_RNormalize == null)
+				{
+					r_RNormalize = new RMethod(this, "Normalize", 0);
+					r_RNormalize.SetBelong(this.instance);
+				}
+				return r_RNormalize;
+			}
+		}
+
+		/// <summary>
+		/// Int32 GetHashCode()
+		/// </summary>
+		protected RMethod r_RGetHashCode;
+		public virtual RMethod RGetHashCode
+		{
+			get
+			{
+				if(r_RGetHashCode == null)
+				{
+					r_RGetHashCode = new RMethod(this, "GetHashCode", 0);
+					r_RGetHashCode.SetBelong(this.instance);
+				}
+				return r_RGetHashCode;
+			}
+		}
+
+		/// <summary>
+		/// Boolean Equals(System.Object)
+		/// </summary>
+		protected RMethod r_REquals_Object;
+		public virtual RMethod REquals_Object
+		{
+			get
+			{
+				if(r_REquals_Object == null)
+				{
+					r_REquals_Object = new RMethod(this, "Equals", 0, typeof(System.Object));
+					r_REquals_Object.SetBelong(this.instance);
+				}
+				return r_REquals_Object;
+			}
+		}
+
+		/// <summary>
+		/// Boolean Equals(UnityEngine.Quaternion)
+		/// </summary>
+		protected RMethod r_REquals_Quaternion;
+		public virtual RMethod REquals_Quaternion
+		{
+			get
+			{
+				if(r_REquals_Quaternion == null)
+				{
+					r_REquals_Quaternion = new RMethod(this, "Equals", 0, typeof(UnityEngine.Quaternion));
+					r_REquals_Quaternion.SetBelong(this.instance);
+				}
+				return r_REquals_Quaternion;
+			}
+		}
+
+		/// <summary>
+		/// System.String ToString()
+		/// </summary>
+		protected RMethod r_RToString;
+		public virtual RMethod RToString
+		{
+			get
+			{
+				if(r_RToString == null)
+				{
+					r_RToString = new RMethod(this, "ToString", 0);
+					r_RToString.SetBelong(this.instance);
+				}
+				return r_RToString;
+			}
+		}
+
+		/// <summary>
+		/// System.String ToString(System.String)
+		/// </summary>
+		protected RMethod r_RToString_String;
+		public virtual RMethod RToString_String
+		{
+			get
+			{
+				if(r_RToString_String == null)
+				{
+					r_RToString_String = new RMethod(this, "ToString", 0, typeof(System.String));
+					r_RToString_String.SetBelong(this.instance);
+				}
+				return r_RToString_String;
+			}
+		}
+
+		/// <summary>
+		/// System.String ToString(System.String, System.IFormatProvider)
+		/// </summary>
+		protected RMethod r_RToString_String_IFormatProvider;
+		public virtual RMethod RToString_String_IFormatProvider
+		{
+			get
+			{
+				if(r_RToString_String_IFormatProvider == null)
+				{
+					r_RToString_String_IFormatProvider = new RMethod(this, "ToString", 0, typeof(System.String), typeof(System.IFormatProvider));
+					r_RToString_String_IFormatProvider.SetBelong(this.instance);
+				}
+				return r_RToString_String_IFormatProvider;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.Quaternion EulerRotation(Single, Single, Single)
+		/// </summary>
+		protected static RMethod r_REulerRotation_Single_Single_Single;
+		public static RMethod REulerRotation_Single_Single_Single
+		{
+			get
+			{
+				if(r_REulerRotation_Single_Single_Single == null)
+				{
+					r_REulerRotation_Single_Single_Single = new RMethod(typeof(UnityEngine.Quaternion), "EulerRotation", 0, typeof(System.Single), typeof(System.Single), typeof(System.Single));
+					r_REulerRotation_Single_Single_Single.SetBelong(null);
+				}
+				return r_REulerRotation_Single_Single_Single;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.Quaternion EulerRotation(UnityEngine.Vector3)
+		/// </summary>
+		protected static RMethod r_REulerRotation_Vector3;
+		public static RMethod REulerRotation_Vector3
+		{
+			get
+			{
+				if(r_REulerRotation_Vector3 == null)
+				{
+					r_REulerRotation_Vector3 = new RMethod(typeof(UnityEngine.Quaternion), "EulerRotation", 0, typeof(UnityEngine.Vector3));
+					r_REulerRotation_Vector3.SetBelong(null);
+				}
+				return r_REulerRotation_Vector3;
+			}
+		}
+
+		/// <summary>
+		/// Void SetEulerRotation(Single, Single, Single)
+		/// </summary>
+		protected RMethod r_RSetEulerRotation_Single_Single_Single;
+		public virtual RMethod RSetEulerRotation_Single_Single_Single
+		{
+			get
+			{
+				if(r_RSetEulerRotation_Single_Single_Single == null)
+				{
+					r_RSetEulerRotation_Single_Single_Single = new RMethod(this, "SetEulerRotation", 0, typeof(System.Single), typeof(System.Single), typeof(System.Single));
+					r_RSetEulerRotation_Single_Single_Single.SetBelong(this.instance);
+				}
+				return r_RSetEulerRotation_Single_Single_Single;
+			}
+		}
+
+		/// <summary>
+		/// Void SetEulerRotation(UnityEngine.Vector3)
+		/// </summary>
+		protected RMethod r_RSetEulerRotation_Vector3;
+		public virtual RMethod RSetEulerRotation_Vector3
+		{
+			get
+			{
+				if(r_RSetEulerRotation_Vector3 == null)
+				{
+					r_RSetEulerRotation_Vector3 = new RMethod(this, "SetEulerRotation", 0, typeof(UnityEngine.Vector3));
+					r_RSetEulerRotation_Vector3.SetBelong(this.instance);
+				}
+				return r_RSetEulerRotation_Vector3;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.Vector3 ToEuler()
+		/// </summary>
+		protected RMethod r_RToEuler;
+		public virtual RMethod RToEuler
+		{
+			get
+			{
+				if(r_RToEuler == null)
+				{
+					r_RToEuler = new RMethod(this, "ToEuler", 0);
+					r_RToEuler.SetBelong(this.instance);
+				}
+				return r_RToEuler;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.Quaternion EulerAngles(Single, Single, Single)
+		/// </summary>
+		protected static RMethod r_REulerAngles_Single_Single_Single;
+		public static RMethod REulerAngles_Single_Single_Single
+		{
+			get
+			{
+				if(r_REulerAngles_Single_Single_Single == null)
+				{
+					r_REulerAngles_Single_Single_Single = new RMethod(typeof(UnityEngine.Quaternion), "EulerAngles", 0, typeof(System.Single), typeof(System.Single), typeof(System.Single));
+					r_REulerAngles_Single_Single_Single.SetBelong(null);
+				}
+				return r_REulerAngles_Single_Single_Single;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.Quaternion EulerAngles(UnityEngine.Vector3)
+		/// </summary>
+		protected static RMethod r_REulerAngles_Vector3;
+		public static RMethod REulerAngles_Vector3
+		{
+			get
+			{
+				if(r_REulerAngles_Vector3 == null)
+				{
+					r_REulerAngles_Vector3 = new RMethod(typeof(UnityEngine.Quaternion), "EulerAngles", 0, typeof(UnityEngine.Vector3));
+					r_REulerAngles_Vector3.SetBelong(null);
+				}
+				return r_REulerAngles_Vector3;
+			}
+		}
+
+		/// <summary>
+		/// Void ToAxisAngle(UnityEngine.Vector3 ByRef, Single ByRef)
+		/// </summary>
+		protected RMethod r_RToAxisAngle_Out_Vector3_Out_Single;
+		public virtual RMethod RToAxisAngle_Out_Vector3_Out_Single
+		{
+			get
+			{
+				if(r_RToAxisAngle_Out_Vector3_Out_Single == null)
+				{
+					r_RToAxisAngle_Out_Vector3_Out_Single = new RMethod(this, "ToAxisAngle", 0, typeof(UnityEngine.Vector3).MakeByRefType(), typeof(System.Single).MakeByRefType());
+					r_RToAxisAngle_Out_Vector3_Out_Single.SetBelong(this.instance);
+				}
+				return r_RToAxisAngle_Out_Vector3_Out_Single;
+			}
+		}
+
+		/// <summary>
+		/// Void SetEulerAngles(Single, Single, Single)
+		/// </summary>
+		protected RMethod r_RSetEulerAngles_Single_Single_Single;
+		public virtual RMethod RSetEulerAngles_Single_Single_Single
+		{
+			get
+			{
+				if(r_RSetEulerAngles_Single_Single_Single == null)
+				{
+					r_RSetEulerAngles_Single_Single_Single = new RMethod(this, "SetEulerAngles", 0, typeof(System.Single), typeof(System.Single), typeof(System.Single));
+					r_RSetEulerAngles_Single_Single_Single.SetBelong(this.instance);
+				}
+				return r_RSetEulerAngles_Single_Single_Single;
+			}
+		}
+
+		/// <summary>
+		/// Void SetEulerAngles(UnityEngine.Vector3)
+		/// </summary>
+		protected RMethod r_RSetEulerAngles_Vector3;
+		public virtual RMethod RSetEulerAngles_Vector3
+		{
+			get
+			{
+				if(r_RSetEulerAngles_Vector3 == null)
+				{
+					r_RSetEulerAngles_Vector3 = new RMethod(this, "SetEulerAngles", 0, typeof(UnityEngine.Vector3));
+					r_RSetEulerAngles_Vector3.SetBelong(this.instance);
+				}
+				return r_RSetEulerAngles_Vector3;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.Vector3 ToEulerAngles(UnityEngine.Quaternion)
+		/// </summary>
+		protected static RMethod r_RToEulerAngles_Quaternion;
+		public static RMethod RToEulerAngles_Quaternion
+		{
+			get
+			{
+				if(r_RToEulerAngles_Quaternion == null)
+				{
+					r_RToEulerAngles_Quaternion = new RMethod(typeof(UnityEngine.Quaternion), "ToEulerAngles", 0, typeof(UnityEngine.Quaternion));
+					r_RToEulerAngles_Quaternion.SetBelong(null);
+				}
+				return r_RToEulerAngles_Quaternion;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.Vector3 ToEulerAngles()
+		/// </summary>
+		protected RMethod r_RToEulerAngles;
+		public virtual RMethod RToEulerAngles
+		{
+			get
+			{
+				if(r_RToEulerAngles == null)
+				{
+					r_RToEulerAngles = new RMethod(this, "ToEulerAngles", 0);
+					r_RToEulerAngles.SetBelong(this.instance);
+				}
+				return r_RToEulerAngles;
+			}
+		}
+
+		/// <summary>
+		/// Void SetAxisAngle(UnityEngine.Vector3, Single)
+		/// </summary>
+		protected RMethod r_RSetAxisAngle_Vector3_Single;
+		public virtual RMethod RSetAxisAngle_Vector3_Single
+		{
+			get
+			{
+				if(r_RSetAxisAngle_Vector3_Single == null)
+				{
+					r_RSetAxisAngle_Vector3_Single = new RMethod(this, "SetAxisAngle", 0, typeof(UnityEngine.Vector3), typeof(System.Single));
+					r_RSetAxisAngle_Vector3_Single.SetBelong(this.instance);
+				}
+				return r_RSetAxisAngle_Vector3_Single;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.Quaternion AxisAngle(UnityEngine.Vector3, Single)
+		/// </summary>
+		protected static RMethod r_RAxisAngle_Vector3_Single;
+		public static RMethod RAxisAngle_Vector3_Single
+		{
+			get
+			{
+				if(r_RAxisAngle_Vector3_Single == null)
+				{
+					r_RAxisAngle_Vector3_Single = new RMethod(typeof(UnityEngine.Quaternion), "AxisAngle", 0, typeof(UnityEngine.Vector3), typeof(System.Single));
+					r_RAxisAngle_Vector3_Single.SetBelong(null);
+				}
+				return r_RAxisAngle_Vector3_Single;
+			}
+		}
+
+		/// <summary>
+		/// Void FromToRotation_Injected(UnityEngine.Vector3 ByRef, UnityEngine.Vector3 ByRef, UnityEngine.Quaternion ByRef)
+		/// </summary>
+		protected static RMethod r_RFromToRotation_Injected_Ref_Vector3_Ref_Vector3_Out_Quaternion;
+		public static RMethod RFromToRotation_Injected_Ref_Vector3_Ref_Vector3_Out_Quaternion
+		{
+			get
+			{
+				if(r_RFromToRotation_Injected_Ref_Vector3_Ref_Vector3_Out_Quaternion == null)
+				{
+					r_RFromToRotation_Injected_Ref_Vector3_Ref_Vector3_Out_Quaternion = new RMethod(typeof(UnityEngine.Quaternion), "FromToRotation_Injected", 0, typeof(UnityEngine.Vector3).MakeByRefType(), typeof(UnityEngine.Vector3).MakeByRefType(), typeof(UnityEngine.Quaternion).MakeByRefType());
+					r_RFromToRotation_Injected_Ref_Vector3_Ref_Vector3_Out_Quaternion.SetBelong(null);
+				}
+				return r_RFromToRotation_Injected_Ref_Vector3_Ref_Vector3_Out_Quaternion;
+			}
+		}
+
+		/// <summary>
+		/// Void Inverse_Injected(UnityEngine.Quaternion ByRef, UnityEngine.Quaternion ByRef)
+		/// </summary>
+		protected static RMethod r_RInverse_Injected_Ref_Quaternion_Out_Quaternion;
+		public static RMethod RInverse_Injected_Ref_Quaternion_Out_Quaternion
+		{
+			get
+			{
+				if(r_RInverse_Injected_Ref_Quaternion_Out_Quaternion == null)
+				{
+					r_RInverse_Injected_Ref_Quaternion_Out_Quaternion = new RMethod(typeof(UnityEngine.Quaternion), "Inverse_Injected", 0, typeof(UnityEngine.Quaternion).MakeByRefType(), typeof(UnityEngine.Quaternion).MakeByRefType());
+					r_RInverse_Injected_Ref_Quaternion_Out_Quaternion.SetBelong(null);
+				}
+				return r_RInverse_Injected_Ref_Quaternion_Out_Quaternion;
+			}
+		}
+
+		/// <summary>
+		/// Void Slerp_Injected(UnityEngine.Quaternion ByRef, UnityEngine.Quaternion ByRef, Single, UnityEngine.Quaternion ByRef)
+		/// </summary>
+		protected static RMethod r_RSlerp_Injected_Ref_Quaternion_Ref_Quaternion_Single_Out_Quaternion;
+		public static RMethod RSlerp_Injected_Ref_Quaternion_Ref_Quaternion_Single_Out_Quaternion
+		{
+			get
+			{
+				if(r_RSlerp_Injected_Ref_Quaternion_Ref_Quaternion_Single_Out_Quaternion == null)
+				{
+					r_RSlerp_Injected_Ref_Quaternion_Ref_Quaternion_Single_Out_Quaternion = new RMethod(typeof(UnityEngine.Quaternion), "Slerp_Injected", 0, typeof(UnityEngine.Quaternion).MakeByRefType(), typeof(UnityEngine.Quaternion).MakeByRefType(), typeof(System.Single), typeof(UnityEngine.Quaternion).MakeByRefType());
+					r_RSlerp_Injected_Ref_Quaternion_Ref_Quaternion_Single_Out_Quaternion.SetBelong(null);
+				}
+				return r_RSlerp_Injected_Ref_Quaternion_Ref_Quaternion_Single_Out_Quaternion;
+			}
+		}
+
+		/// <summary>
+		/// Void SlerpUnclamped_Injected(UnityEngine.Quaternion ByRef, UnityEngine.Quaternion ByRef, Single, UnityEngine.Quaternion ByRef)
+		/// </summary>
+		protected static RMethod r_RSlerpUnclamped_Injected_Ref_Quaternion_Ref_Quaternion_Single_Out_Quaternion;
+		public static RMethod RSlerpUnclamped_Injected_Ref_Quaternion_Ref_Quaternion_Single_Out_Quaternion
+		{
+			get
+			{
+				if(r_RSlerpUnclamped_Injected_Ref_Quaternion_Ref_Quaternion_Single_Out_Quaternion == null)
+				{
+					r_RSlerpUnclamped_Injected_Ref_Quaternion_Ref_Quaternion_Single_Out_Quaternion = new RMethod(typeof(UnityEngine.Quaternion), "SlerpUnclamped_Injected", 0, typeof(UnityEngine.Quaternion).MakeByRefType(), typeof(UnityEngine.Quaternion).MakeByRefType(), typeof(System.Single), typeof(UnityEngine.Quaternion).MakeByRefType());
+					r_RSlerpUnclamped_Injected_Ref_Quaternion_Ref_Quaternion_Single_Out_Quaternion.SetBelong(null);
+				}
+				return r_RSlerpUnclamped_Injected_Ref_Quaternion_Ref_Quaternion_Single_Out_Quaternion;
+			}
+		}
+
+		/// <summary>
+		/// Void Lerp_Injected(UnityEngine.Quaternion ByRef, UnityEngine.Quaternion ByRef, Single, UnityEngine.Quaternion ByRef)
+		/// </summary>
+		protected static RMethod r_RLerp_Injected_Ref_Quaternion_Ref_Quaternion_Single_Out_Quaternion;
+		public static RMethod RLerp_Injected_Ref_Quaternion_Ref_Quaternion_Single_Out_Quaternion
+		{
+			get
+			{
+				if(r_RLerp_Injected_Ref_Quaternion_Ref_Quaternion_Single_Out_Quaternion == null)
+				{
+					r_RLerp_Injected_Ref_Quaternion_Ref_Quaternion_Single_Out_Quaternion = new RMethod(typeof(UnityEngine.Quaternion), "Lerp_Injected", 0, typeof(UnityEngine.Quaternion).MakeByRefType(), typeof(UnityEngine.Quaternion).MakeByRefType(), typeof(System.Single), typeof(UnityEngine.Quaternion).MakeByRefType());
+					r_RLerp_Injected_Ref_Quaternion_Ref_Quaternion_Single_Out_Quaternion.SetBelong(null);
+				}
+				return r_RLerp_Injected_Ref_Quaternion_Ref_Quaternion_Single_Out_Quaternion;
+			}
+		}
+
+		/// <summary>
+		/// Void LerpUnclamped_Injected(UnityEngine.Quaternion ByRef, UnityEngine.Quaternion ByRef, Single, UnityEngine.Quaternion ByRef)
+		/// </summary>
+		protected static RMethod r_RLerpUnclamped_Injected_Ref_Quaternion_Ref_Quaternion_Single_Out_Quaternion;
+		public static RMethod RLerpUnclamped_Injected_Ref_Quaternion_Ref_Quaternion_Single_Out_Quaternion
+		{
+			get
+			{
+				if(r_RLerpUnclamped_Injected_Ref_Quaternion_Ref_Quaternion_Single_Out_Quaternion == null)
+				{
+					r_RLerpUnclamped_Injected_Ref_Quaternion_Ref_Quaternion_Single_Out_Quaternion = new RMethod(typeof(UnityEngine.Quaternion), "LerpUnclamped_Injected", 0, typeof(UnityEngine.Quaternion).MakeByRefType(), typeof(UnityEngine.Quaternion).MakeByRefType(), typeof(System.Single), typeof(UnityEngine.Quaternion).MakeByRefType());
+					r_RLerpUnclamped_Injected_Ref_Quaternion_Ref_Quaternion_Single_Out_Quaternion.SetBelong(null);
+				}
+				return r_RLerpUnclamped_Injected_Ref_Quaternion_Ref_Quaternion_Single_Out_Quaternion;
+			}
+		}
+
+		/// <summary>
+		/// Void Internal_FromEulerRad_Injected(UnityEngine.Vector3 ByRef, UnityEngine.Quaternion ByRef)
+		/// </summary>
+		protected static RMethod r_RInternal_FromEulerRad_Injected_Ref_Vector3_Out_Quaternion;
+		public static RMethod RInternal_FromEulerRad_Injected_Ref_Vector3_Out_Quaternion
+		{
+			get
+			{
+				if(r_RInternal_FromEulerRad_Injected_Ref_Vector3_Out_Quaternion == null)
+				{
+					r_RInternal_FromEulerRad_Injected_Ref_Vector3_Out_Quaternion = new RMethod(typeof(UnityEngine.Quaternion), "Internal_FromEulerRad_Injected", 0, typeof(UnityEngine.Vector3).MakeByRefType(), typeof(UnityEngine.Quaternion).MakeByRefType());
+					r_RInternal_FromEulerRad_Injected_Ref_Vector3_Out_Quaternion.SetBelong(null);
+				}
+				return r_RInternal_FromEulerRad_Injected_Ref_Vector3_Out_Quaternion;
+			}
+		}
+
+		/// <summary>
+		/// Void Internal_ToEulerRad_Injected(UnityEngine.Quaternion ByRef, UnityEngine.Vector3 ByRef)
+		/// </summary>
+		protected static RMethod r_RInternal_ToEulerRad_Injected_Ref_Quaternion_Out_Vector3;
+		public static RMethod RInternal_ToEulerRad_Injected_Ref_Quaternion_Out_Vector3
+		{
+			get
+			{
+				if(r_RInternal_ToEulerRad_Injected_Ref_Quaternion_Out_Vector3 == null)
+				{
+					r_RInternal_ToEulerRad_Injected_Ref_Quaternion_Out_Vector3 = new RMethod(typeof(UnityEngine.Quaternion), "Internal_ToEulerRad_Injected", 0, typeof(UnityEngine.Quaternion).MakeByRefType(), typeof(UnityEngine.Vector3).MakeByRefType());
+					r_RInternal_ToEulerRad_Injected_Ref_Quaternion_Out_Vector3.SetBelong(null);
+				}
+				return r_RInternal_ToEulerRad_Injected_Ref_Quaternion_Out_Vector3;
+			}
+		}
+
+		/// <summary>
+		/// Void Internal_ToAxisAngleRad_Injected(UnityEngine.Quaternion ByRef, UnityEngine.Vector3 ByRef, Single ByRef)
+		/// </summary>
+		protected static RMethod r_RInternal_ToAxisAngleRad_Injected_Ref_Quaternion_Out_Vector3_Out_Single;
+		public static RMethod RInternal_ToAxisAngleRad_Injected_Ref_Quaternion_Out_Vector3_Out_Single
+		{
+			get
+			{
+				if(r_RInternal_ToAxisAngleRad_Injected_Ref_Quaternion_Out_Vector3_Out_Single == null)
+				{
+					r_RInternal_ToAxisAngleRad_Injected_Ref_Quaternion_Out_Vector3_Out_Single = new RMethod(typeof(UnityEngine.Quaternion), "Internal_ToAxisAngleRad_Injected", 0, typeof(UnityEngine.Quaternion).MakeByRefType(), typeof(UnityEngine.Vector3).MakeByRefType(), typeof(System.Single).MakeByRefType());
+					r_RInternal_ToAxisAngleRad_Injected_Ref_Quaternion_Out_Vector3_Out_Single.SetBelong(null);
+				}
+				return r_RInternal_ToAxisAngleRad_Injected_Ref_Quaternion_Out_Vector3_Out_Single;
+			}
+		}
+
+		/// <summary>
+		/// Void AngleAxis_Injected(Single, UnityEngine.Vector3 ByRef, UnityEngine.Quaternion ByRef)
+		/// </summary>
+		protected static RMethod r_RAngleAxis_Injected_Single_Ref_Vector3_Out_Quaternion;
+		public static RMethod RAngleAxis_Injected_Single_Ref_Vector3_Out_Quaternion
+		{
+			get
+			{
+				if(r_RAngleAxis_Injected_Single_Ref_Vector3_Out_Quaternion == null)
+				{
+					r_RAngleAxis_Injected_Single_Ref_Vector3_Out_Quaternion = new RMethod(typeof(UnityEngine.Quaternion), "AngleAxis_Injected", 0, typeof(System.Single), typeof(UnityEngine.Vector3).MakeByRefType(), typeof(UnityEngine.Quaternion).MakeByRefType());
+					r_RAngleAxis_Injected_Single_Ref_Vector3_Out_Quaternion.SetBelong(null);
+				}
+				return r_RAngleAxis_Injected_Single_Ref_Vector3_Out_Quaternion;
+			}
+		}
+
+		/// <summary>
+		/// Void LookRotation_Injected(UnityEngine.Vector3 ByRef, UnityEngine.Vector3 ByRef, UnityEngine.Quaternion ByRef)
+		/// </summary>
+		protected static RMethod r_RLookRotation_Injected_Ref_Vector3_Ref_Vector3_Out_Quaternion;
+		public static RMethod RLookRotation_Injected_Ref_Vector3_Ref_Vector3_Out_Quaternion
+		{
+			get
+			{
+				if(r_RLookRotation_Injected_Ref_Vector3_Ref_Vector3_Out_Quaternion == null)
+				{
+					r_RLookRotation_Injected_Ref_Vector3_Ref_Vector3_Out_Quaternion = new RMethod(typeof(UnityEngine.Quaternion), "LookRotation_Injected", 0, typeof(UnityEngine.Vector3).MakeByRefType(), typeof(UnityEngine.Vector3).MakeByRefType(), typeof(UnityEngine.Quaternion).MakeByRefType());
+					r_RLookRotation_Injected_Ref_Vector3_Ref_Vector3_Out_Quaternion.SetBelong(null);
+				}
+				return r_RLookRotation_Injected_Ref_Vector3_Ref_Vector3_Out_Quaternion;
+			}
+		}
+
+		/// <summary>
+		/// Void Finalize()
+		/// </summary>
+		protected RMethod r_RFinalize;
+		public virtual RMethod RFinalize
+		{
+			get
+			{
+				if(r_RFinalize == null)
+				{
+					r_RFinalize = new RMethod(this, "Finalize", 0);
+					r_RFinalize.SetBelong(this.instance);
+				}
+				return r_RFinalize;
+			}
+		}
+
+		/// <summary>
+		/// System.Type GetType()
+		/// </summary>
+		protected RMethod r_RGetType;
+		public virtual RMethod RGetType
+		{
+			get
+			{
+				if(r_RGetType == null)
+				{
+					r_RGetType = new RMethod(this, "GetType", 0);
+					r_RGetType.SetBelong(this.instance);
+				}
+				return r_RGetType;
+			}
+		}
+
+		/// <summary>
+		/// System.Object MemberwiseClone()
+		/// </summary>
+		protected RMethod r_RMemberwiseClone;
+		public virtual RMethod RMemberwiseClone
+		{
+			get
+			{
+				if(r_RMemberwiseClone == null)
+				{
+					r_RMemberwiseClone = new RMethod(this, "MemberwiseClone", 0);
+					r_RMemberwiseClone.SetBelong(this.instance);
+				}
+				return r_RMemberwiseClone;
+			}
+		}
 
 
         public RQuaternion() : base("UnityEngine.Quaternion")
         {
-           // NewMembers();
         }
 
         public RQuaternion(System.Object instance) : base("UnityEngine.Quaternion")
 		{
-			NewMembers();
             SetInstance(instance);
 		}
 
         public RQuaternion(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
 	    {
-           // NewMembers();
 	    }
 
-        private void NewMembers()
-        {
-			Item_Int32 = new RProperty(this, "Item", -1, typeof(System.Int32));
-			identity = new RQuaternion(this, "identity", -1);
-			eulerAngles = new RVector3(this, "eulerAngles", -1);
-			normalized = new RQuaternion(this, "normalized", -1);
-			x = new RField(this, "x");
-			y = new RField(this, "y");
-			z = new RField(this, "z");
-			w = new RField(this, "w");
-			identityQuaternion = new RQuaternion(this, "identityQuaternion");
-			kEpsilon = new RField(this, "kEpsilon");
-			RFromToRotation_Vector3_Vector3 = new RMethod(this, "FromToRotation", 0, typeof(UnityEngine.Vector3), typeof(UnityEngine.Vector3));
-			RInverse_Quaternion = new RMethod(this, "Inverse", 0, typeof(UnityEngine.Quaternion));
-			RSlerp_Quaternion_Quaternion_Single = new RMethod(this, "Slerp", 0, typeof(UnityEngine.Quaternion), typeof(UnityEngine.Quaternion), typeof(System.Single));
-			RSlerpUnclamped_Quaternion_Quaternion_Single = new RMethod(this, "SlerpUnclamped", 0, typeof(UnityEngine.Quaternion), typeof(UnityEngine.Quaternion), typeof(System.Single));
-			RLerp_Quaternion_Quaternion_Single = new RMethod(this, "Lerp", 0, typeof(UnityEngine.Quaternion), typeof(UnityEngine.Quaternion), typeof(System.Single));
-			RLerpUnclamped_Quaternion_Quaternion_Single = new RMethod(this, "LerpUnclamped", 0, typeof(UnityEngine.Quaternion), typeof(UnityEngine.Quaternion), typeof(System.Single));
-			RInternal_FromEulerRad_Vector3 = new RMethod(this, "Internal_FromEulerRad", 0, typeof(UnityEngine.Vector3));
-			RInternal_ToEulerRad_Quaternion = new RMethod(this, "Internal_ToEulerRad", 0, typeof(UnityEngine.Quaternion));
-			RInternal_ToAxisAngleRad_Quaternion_Out_Vector3_Out_Single = new RMethod(this, "Internal_ToAxisAngleRad", 0, typeof(UnityEngine.Quaternion), typeof(UnityEngine.Vector3).MakeByRefType(), typeof(System.Single).MakeByRefType());
-			RAngleAxis_Single_Vector3 = new RMethod(this, "AngleAxis", 0, typeof(System.Single), typeof(UnityEngine.Vector3));
-			RLookRotation_Vector3_Vector3 = new RMethod(this, "LookRotation", 0, typeof(UnityEngine.Vector3), typeof(UnityEngine.Vector3));
-			RLookRotation_Vector3 = new RMethod(this, "LookRotation", 0, typeof(UnityEngine.Vector3));
-			RSet_Single_Single_Single_Single = new RMethod(this, "Set", 0, typeof(System.Single), typeof(System.Single), typeof(System.Single), typeof(System.Single));
-			Rop_Multiply_Quaternion_Quaternion = new RMethod(this, "op_Multiply", 0, typeof(UnityEngine.Quaternion), typeof(UnityEngine.Quaternion));
-			Rop_Multiply_Quaternion_Vector3 = new RMethod(this, "op_Multiply", 0, typeof(UnityEngine.Quaternion), typeof(UnityEngine.Vector3));
-			RIsEqualUsingDot_Single = new RMethod(this, "IsEqualUsingDot", 0, typeof(System.Single));
-			Rop_Equality_Quaternion_Quaternion = new RMethod(this, "op_Equality", 0, typeof(UnityEngine.Quaternion), typeof(UnityEngine.Quaternion));
-			Rop_Inequality_Quaternion_Quaternion = new RMethod(this, "op_Inequality", 0, typeof(UnityEngine.Quaternion), typeof(UnityEngine.Quaternion));
-			RDot_Quaternion_Quaternion = new RMethod(this, "Dot", 0, typeof(UnityEngine.Quaternion), typeof(UnityEngine.Quaternion));
-			RSetLookRotation_Vector3 = new RMethod(this, "SetLookRotation", 0, typeof(UnityEngine.Vector3));
-			RSetLookRotation_Vector3_Vector3 = new RMethod(this, "SetLookRotation", 0, typeof(UnityEngine.Vector3), typeof(UnityEngine.Vector3));
-			RAngle_Quaternion_Quaternion = new RMethod(this, "Angle", 0, typeof(UnityEngine.Quaternion), typeof(UnityEngine.Quaternion));
-			RInternal_MakePositive_Vector3 = new RMethod(this, "Internal_MakePositive", 0, typeof(UnityEngine.Vector3));
-			REuler_Single_Single_Single = new RMethod(this, "Euler", 0, typeof(System.Single), typeof(System.Single), typeof(System.Single));
-			REuler_Vector3 = new RMethod(this, "Euler", 0, typeof(UnityEngine.Vector3));
-			RToAngleAxis_Out_Single_Out_Vector3 = new RMethod(this, "ToAngleAxis", 0, typeof(System.Single).MakeByRefType(), typeof(UnityEngine.Vector3).MakeByRefType());
-			RSetFromToRotation_Vector3_Vector3 = new RMethod(this, "SetFromToRotation", 0, typeof(UnityEngine.Vector3), typeof(UnityEngine.Vector3));
-			RRotateTowards_Quaternion_Quaternion_Single = new RMethod(this, "RotateTowards", 0, typeof(UnityEngine.Quaternion), typeof(UnityEngine.Quaternion), typeof(System.Single));
-			RNormalize_Quaternion = new RMethod(this, "Normalize", 0, typeof(UnityEngine.Quaternion));
-			RNormalize = new RMethod(this, "Normalize", 0);
-			RGetHashCode = new RMethod(this, "GetHashCode", 0);
-			REquals_Object = new RMethod(this, "Equals", 0, typeof(System.Object));
-			REquals_Quaternion = new RMethod(this, "Equals", 0, typeof(UnityEngine.Quaternion));
-			RToString = new RMethod(this, "ToString", 0);
-			RToString_String = new RMethod(this, "ToString", 0, typeof(System.String));
-			RToString_String_IFormatProvider = new RMethod(this, "ToString", 0, typeof(System.String), typeof(System.IFormatProvider));
-			REulerRotation_Single_Single_Single = new RMethod(this, "EulerRotation", 0, typeof(System.Single), typeof(System.Single), typeof(System.Single));
-			REulerRotation_Vector3 = new RMethod(this, "EulerRotation", 0, typeof(UnityEngine.Vector3));
-			RSetEulerRotation_Single_Single_Single = new RMethod(this, "SetEulerRotation", 0, typeof(System.Single), typeof(System.Single), typeof(System.Single));
-			RSetEulerRotation_Vector3 = new RMethod(this, "SetEulerRotation", 0, typeof(UnityEngine.Vector3));
-			RToEuler = new RMethod(this, "ToEuler", 0);
-			REulerAngles_Single_Single_Single = new RMethod(this, "EulerAngles", 0, typeof(System.Single), typeof(System.Single), typeof(System.Single));
-			REulerAngles_Vector3 = new RMethod(this, "EulerAngles", 0, typeof(UnityEngine.Vector3));
-			RToAxisAngle_Out_Vector3_Out_Single = new RMethod(this, "ToAxisAngle", 0, typeof(UnityEngine.Vector3).MakeByRefType(), typeof(System.Single).MakeByRefType());
-			RSetEulerAngles_Single_Single_Single = new RMethod(this, "SetEulerAngles", 0, typeof(System.Single), typeof(System.Single), typeof(System.Single));
-			RSetEulerAngles_Vector3 = new RMethod(this, "SetEulerAngles", 0, typeof(UnityEngine.Vector3));
-			RToEulerAngles_Quaternion = new RMethod(this, "ToEulerAngles", 0, typeof(UnityEngine.Quaternion));
-			RToEulerAngles = new RMethod(this, "ToEulerAngles", 0);
-			RSetAxisAngle_Vector3_Single = new RMethod(this, "SetAxisAngle", 0, typeof(UnityEngine.Vector3), typeof(System.Single));
-			RAxisAngle_Vector3_Single = new RMethod(this, "AxisAngle", 0, typeof(UnityEngine.Vector3), typeof(System.Single));
-			RFromToRotation_Injected_Ref_Vector3_Ref_Vector3_Out_Quaternion = new RMethod(this, "FromToRotation_Injected", 0, typeof(UnityEngine.Vector3).MakeByRefType(), typeof(UnityEngine.Vector3).MakeByRefType(), typeof(UnityEngine.Quaternion).MakeByRefType());
-			RInverse_Injected_Ref_Quaternion_Out_Quaternion = new RMethod(this, "Inverse_Injected", 0, typeof(UnityEngine.Quaternion).MakeByRefType(), typeof(UnityEngine.Quaternion).MakeByRefType());
-			RSlerp_Injected_Ref_Quaternion_Ref_Quaternion_Single_Out_Quaternion = new RMethod(this, "Slerp_Injected", 0, typeof(UnityEngine.Quaternion).MakeByRefType(), typeof(UnityEngine.Quaternion).MakeByRefType(), typeof(System.Single), typeof(UnityEngine.Quaternion).MakeByRefType());
-			RSlerpUnclamped_Injected_Ref_Quaternion_Ref_Quaternion_Single_Out_Quaternion = new RMethod(this, "SlerpUnclamped_Injected", 0, typeof(UnityEngine.Quaternion).MakeByRefType(), typeof(UnityEngine.Quaternion).MakeByRefType(), typeof(System.Single), typeof(UnityEngine.Quaternion).MakeByRefType());
-			RLerp_Injected_Ref_Quaternion_Ref_Quaternion_Single_Out_Quaternion = new RMethod(this, "Lerp_Injected", 0, typeof(UnityEngine.Quaternion).MakeByRefType(), typeof(UnityEngine.Quaternion).MakeByRefType(), typeof(System.Single), typeof(UnityEngine.Quaternion).MakeByRefType());
-			RLerpUnclamped_Injected_Ref_Quaternion_Ref_Quaternion_Single_Out_Quaternion = new RMethod(this, "LerpUnclamped_Injected", 0, typeof(UnityEngine.Quaternion).MakeByRefType(), typeof(UnityEngine.Quaternion).MakeByRefType(), typeof(System.Single), typeof(UnityEngine.Quaternion).MakeByRefType());
-			RInternal_FromEulerRad_Injected_Ref_Vector3_Out_Quaternion = new RMethod(this, "Internal_FromEulerRad_Injected", 0, typeof(UnityEngine.Vector3).MakeByRefType(), typeof(UnityEngine.Quaternion).MakeByRefType());
-			RInternal_ToEulerRad_Injected_Ref_Quaternion_Out_Vector3 = new RMethod(this, "Internal_ToEulerRad_Injected", 0, typeof(UnityEngine.Quaternion).MakeByRefType(), typeof(UnityEngine.Vector3).MakeByRefType());
-			RInternal_ToAxisAngleRad_Injected_Ref_Quaternion_Out_Vector3_Out_Single = new RMethod(this, "Internal_ToAxisAngleRad_Injected", 0, typeof(UnityEngine.Quaternion).MakeByRefType(), typeof(UnityEngine.Vector3).MakeByRefType(), typeof(System.Single).MakeByRefType());
-			RAngleAxis_Injected_Single_Ref_Vector3_Out_Quaternion = new RMethod(this, "AngleAxis_Injected", 0, typeof(System.Single), typeof(UnityEngine.Vector3).MakeByRefType(), typeof(UnityEngine.Quaternion).MakeByRefType());
-			RLookRotation_Injected_Ref_Vector3_Ref_Vector3_Out_Quaternion = new RMethod(this, "LookRotation_Injected", 0, typeof(UnityEngine.Vector3).MakeByRefType(), typeof(UnityEngine.Vector3).MakeByRefType(), typeof(UnityEngine.Quaternion).MakeByRefType());
-			RFinalize = new RMethod(this, "Finalize", 0);
-			RGetType = new RMethod(this, "GetType", 0);
-			RMemberwiseClone = new RMethod(this, "MemberwiseClone", 0);
-
-        }
+		 public RQuaternion(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
 
         public static UnityEngine.Quaternion FromToRotation(UnityEngine.Vector3  @fromDirection, UnityEngine.Vector3  @toDirection)
         {
@@ -188,6 +1294,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             return (UnityEngine.Quaternion)___result;
         }
 
+
         public static UnityEngine.Quaternion Inverse(UnityEngine.Quaternion  @rotation)
         {
 
@@ -197,6 +1304,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             return (UnityEngine.Quaternion)___result;
         }
+
 
         public static UnityEngine.Quaternion Slerp(UnityEngine.Quaternion  @a, UnityEngine.Quaternion  @b, System.Single  @t)
         {
@@ -208,6 +1316,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             return (UnityEngine.Quaternion)___result;
         }
 
+
         public static UnityEngine.Quaternion SlerpUnclamped(UnityEngine.Quaternion  @a, UnityEngine.Quaternion  @b, System.Single  @t)
         {
 
@@ -217,6 +1326,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             return (UnityEngine.Quaternion)___result;
         }
+
 
         public static UnityEngine.Quaternion Lerp(UnityEngine.Quaternion  @a, UnityEngine.Quaternion  @b, System.Single  @t)
         {
@@ -228,6 +1338,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             return (UnityEngine.Quaternion)___result;
         }
 
+
         public static UnityEngine.Quaternion LerpUnclamped(UnityEngine.Quaternion  @a, UnityEngine.Quaternion  @b, System.Single  @t)
         {
 
@@ -237,6 +1348,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             return (UnityEngine.Quaternion)___result;
         }
+
 
         public static UnityEngine.Quaternion Internal_FromEulerRad(UnityEngine.Vector3  @euler)
         {
@@ -248,6 +1360,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             return (UnityEngine.Quaternion)___result;
         }
 
+
         public static UnityEngine.Vector3 Internal_ToEulerRad(UnityEngine.Quaternion  @rotation)
         {
 
@@ -257,6 +1370,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             return (UnityEngine.Vector3)___result;
         }
+
 
         public static void Internal_ToAxisAngleRad(UnityEngine.Quaternion  @q, out UnityEngine.Vector3  @axis, out System.Single  @angle)
         {
@@ -272,6 +1386,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             
         }
 
+
         public static UnityEngine.Quaternion AngleAxis(System.Single  @angle, UnityEngine.Vector3  @axis)
         {
 
@@ -281,6 +1396,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             return (UnityEngine.Quaternion)___result;
         }
+
 
         public static UnityEngine.Quaternion LookRotation(UnityEngine.Vector3  @forward, UnityEngine.Vector3  @upwards)
         {
@@ -292,6 +1408,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             return (UnityEngine.Quaternion)___result;
         }
 
+
         public static UnityEngine.Quaternion LookRotation(UnityEngine.Vector3  @forward)
         {
 
@@ -301,6 +1418,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             return (UnityEngine.Quaternion)___result;
         }
+
 
         public virtual void Set(System.Single  @newX, System.Single  @newY, System.Single  @newZ, System.Single  @newW)
         {
@@ -312,6 +1430,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             
         }
 
+
         public static UnityEngine.Quaternion op_Multiply(UnityEngine.Quaternion  @lhs, UnityEngine.Quaternion  @rhs)
         {
 
@@ -321,6 +1440,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             return (UnityEngine.Quaternion)___result;
         }
+
 
         public static UnityEngine.Vector3 op_Multiply(UnityEngine.Quaternion  @rotation, UnityEngine.Vector3  @point)
         {
@@ -332,6 +1452,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             return (UnityEngine.Vector3)___result;
         }
 
+
         public static System.Boolean IsEqualUsingDot(System.Single  @dot)
         {
 
@@ -341,6 +1462,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             return (System.Boolean)___result;
         }
+
 
         public static System.Boolean op_Equality(UnityEngine.Quaternion  @lhs, UnityEngine.Quaternion  @rhs)
         {
@@ -352,6 +1474,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             return (System.Boolean)___result;
         }
 
+
         public static System.Boolean op_Inequality(UnityEngine.Quaternion  @lhs, UnityEngine.Quaternion  @rhs)
         {
 
@@ -361,6 +1484,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             return (System.Boolean)___result;
         }
+
 
         public static System.Single Dot(UnityEngine.Quaternion  @a, UnityEngine.Quaternion  @b)
         {
@@ -372,6 +1496,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             return (System.Single)___result;
         }
 
+
         public virtual void SetLookRotation(UnityEngine.Vector3  @view)
         {
 
@@ -381,6 +1506,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             
         }
+
 
         public virtual void SetLookRotation(UnityEngine.Vector3  @view, UnityEngine.Vector3  @up)
         {
@@ -392,6 +1518,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             
         }
 
+
         public static System.Single Angle(UnityEngine.Quaternion  @a, UnityEngine.Quaternion  @b)
         {
 
@@ -401,6 +1528,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             return (System.Single)___result;
         }
+
 
         public static UnityEngine.Vector3 Internal_MakePositive(UnityEngine.Vector3  @euler)
         {
@@ -412,6 +1540,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             return (UnityEngine.Vector3)___result;
         }
 
+
         public static UnityEngine.Quaternion Euler(System.Single  @x, System.Single  @y, System.Single  @z)
         {
 
@@ -422,6 +1551,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             return (UnityEngine.Quaternion)___result;
         }
 
+
         public static UnityEngine.Quaternion Euler(UnityEngine.Vector3  @euler)
         {
 
@@ -431,6 +1561,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             return (UnityEngine.Quaternion)___result;
         }
+
 
         public virtual void ToAngleAxis(out System.Single  @angle, out UnityEngine.Vector3  @axis)
         {
@@ -446,6 +1577,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             
         }
 
+
         public virtual void SetFromToRotation(UnityEngine.Vector3  @fromDirection, UnityEngine.Vector3  @toDirection)
         {
 
@@ -455,6 +1587,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             
         }
+
 
         public static UnityEngine.Quaternion RotateTowards(UnityEngine.Quaternion  @from, UnityEngine.Quaternion  @to, System.Single  @maxDegreesDelta)
         {
@@ -466,6 +1599,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             return (UnityEngine.Quaternion)___result;
         }
 
+
         public static UnityEngine.Quaternion Normalize(UnityEngine.Quaternion  @q)
         {
 
@@ -475,6 +1609,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             return (UnityEngine.Quaternion)___result;
         }
+
 
         public virtual void Normalize()
         {
@@ -486,6 +1621,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             
         }
 
+
         public virtual System.Int32 GetHashCode()
         {
 
@@ -495,6 +1631,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             return (System.Int32)___result;
         }
+
 
         public virtual System.Boolean Equals(System.Object  @other)
         {
@@ -506,6 +1643,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             return (System.Boolean)___result;
         }
 
+
         public virtual System.Boolean Equals(UnityEngine.Quaternion  @other)
         {
 
@@ -515,6 +1653,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             return (System.Boolean)___result;
         }
+
 
         public virtual System.String ToString()
         {
@@ -526,6 +1665,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             return (System.String)___result;
         }
 
+
         public virtual System.String ToString(System.String  @format)
         {
 
@@ -535,6 +1675,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             return (System.String)___result;
         }
+
 
         public virtual System.String ToString(System.String  @format, System.IFormatProvider  @formatProvider)
         {
@@ -546,6 +1687,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             return (System.String)___result;
         }
 
+
         public static UnityEngine.Quaternion EulerRotation(System.Single  @x, System.Single  @y, System.Single  @z)
         {
 
@@ -555,6 +1697,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             return (UnityEngine.Quaternion)___result;
         }
+
 
         public static UnityEngine.Quaternion EulerRotation(UnityEngine.Vector3  @euler)
         {
@@ -566,6 +1709,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             return (UnityEngine.Quaternion)___result;
         }
 
+
         public virtual void SetEulerRotation(System.Single  @x, System.Single  @y, System.Single  @z)
         {
 
@@ -575,6 +1719,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             
         }
+
 
         public virtual void SetEulerRotation(UnityEngine.Vector3  @euler)
         {
@@ -586,6 +1731,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             
         }
 
+
         public virtual UnityEngine.Vector3 ToEuler()
         {
 
@@ -595,6 +1741,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             return (UnityEngine.Vector3)___result;
         }
+
 
         public static UnityEngine.Quaternion EulerAngles(System.Single  @x, System.Single  @y, System.Single  @z)
         {
@@ -606,6 +1753,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             return (UnityEngine.Quaternion)___result;
         }
 
+
         public static UnityEngine.Quaternion EulerAngles(UnityEngine.Vector3  @euler)
         {
 
@@ -615,6 +1763,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             return (UnityEngine.Quaternion)___result;
         }
+
 
         public virtual void ToAxisAngle(out UnityEngine.Vector3  @axis, out System.Single  @angle)
         {
@@ -630,6 +1779,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             
         }
 
+
         public virtual void SetEulerAngles(System.Single  @x, System.Single  @y, System.Single  @z)
         {
 
@@ -639,6 +1789,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             
         }
+
 
         public virtual void SetEulerAngles(UnityEngine.Vector3  @euler)
         {
@@ -650,6 +1801,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             
         }
 
+
         public static UnityEngine.Vector3 ToEulerAngles(UnityEngine.Quaternion  @rotation)
         {
 
@@ -659,6 +1811,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             return (UnityEngine.Vector3)___result;
         }
+
 
         public virtual UnityEngine.Vector3 ToEulerAngles()
         {
@@ -670,6 +1823,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             return (UnityEngine.Vector3)___result;
         }
 
+
         public virtual void SetAxisAngle(UnityEngine.Vector3  @axis, System.Single  @angle)
         {
 
@@ -680,6 +1834,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             
         }
 
+
         public static UnityEngine.Quaternion AxisAngle(UnityEngine.Vector3  @axis, System.Single  @angle)
         {
 
@@ -689,6 +1844,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             return (UnityEngine.Quaternion)___result;
         }
+
 
         public static void FromToRotation_Injected(ref UnityEngine.Vector3  @fromDirection, ref UnityEngine.Vector3  @toDirection, out UnityEngine.Quaternion  @ret)
         {
@@ -704,6 +1860,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             
         }
 
+
         public static void Inverse_Injected(ref UnityEngine.Quaternion  @rotation, out UnityEngine.Quaternion  @ret)
         {
 			ret = default;
@@ -716,6 +1873,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             
         }
+
 
         public static void Slerp_Injected(ref UnityEngine.Quaternion  @a, ref UnityEngine.Quaternion  @b, System.Single  @t, out UnityEngine.Quaternion  @ret)
         {
@@ -731,6 +1889,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             
         }
 
+
         public static void SlerpUnclamped_Injected(ref UnityEngine.Quaternion  @a, ref UnityEngine.Quaternion  @b, System.Single  @t, out UnityEngine.Quaternion  @ret)
         {
 			ret = default;
@@ -744,6 +1903,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             
         }
+
 
         public static void Lerp_Injected(ref UnityEngine.Quaternion  @a, ref UnityEngine.Quaternion  @b, System.Single  @t, out UnityEngine.Quaternion  @ret)
         {
@@ -759,6 +1919,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             
         }
 
+
         public static void LerpUnclamped_Injected(ref UnityEngine.Quaternion  @a, ref UnityEngine.Quaternion  @b, System.Single  @t, out UnityEngine.Quaternion  @ret)
         {
 			ret = default;
@@ -773,6 +1934,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             
         }
 
+
         public static void Internal_FromEulerRad_Injected(ref UnityEngine.Vector3  @euler, out UnityEngine.Quaternion  @ret)
         {
 			ret = default;
@@ -786,6 +1948,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             
         }
 
+
         public static void Internal_ToEulerRad_Injected(ref UnityEngine.Quaternion  @rotation, out UnityEngine.Vector3  @ret)
         {
 			ret = default;
@@ -798,6 +1961,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             
         }
+
 
         public static void Internal_ToAxisAngleRad_Injected(ref UnityEngine.Quaternion  @q, out UnityEngine.Vector3  @axis, out System.Single  @angle)
         {
@@ -814,6 +1978,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             
         }
 
+
         public static void AngleAxis_Injected(System.Single  @angle, ref UnityEngine.Vector3  @axis, out UnityEngine.Quaternion  @ret)
         {
 			ret = default;
@@ -826,6 +1991,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             
         }
+
 
         public static void LookRotation_Injected(ref UnityEngine.Vector3  @forward, ref UnityEngine.Vector3  @upwards, out UnityEngine.Quaternion  @ret)
         {
@@ -841,6 +2007,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             
         }
 
+
         public virtual void Finalize()
         {
 
@@ -850,6 +2017,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             
         }
+
 
         public virtual System.Type GetType()
         {
@@ -861,6 +2029,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             return (System.Type)___result;
         }
 
+
         public virtual System.Object MemberwiseClone()
         {
 
@@ -870,6 +2039,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             return (System.Object)___result;
         }
+
 
     }
 }

@@ -7,168 +7,1214 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 {
     public partial class RComponent : RMember
     {
-		public  RTransform transform; //UnityEngine.Transform
-		public  RGameObject gameObject; //UnityEngine.GameObject
-		public  RProperty tag; //System.String
-		public  RComponent rigidbody; //UnityEngine.Component
-		public  RComponent rigidbody2D; //UnityEngine.Component
-		public  RComponent camera; //UnityEngine.Component
-		public  RComponent light; //UnityEngine.Component
-		public  RComponent animation; //UnityEngine.Component
-		public  RComponent constantForce; //UnityEngine.Component
-		public  RComponent renderer; //UnityEngine.Component
-		public  RComponent audio; //UnityEngine.Component
-		public  RComponent networkView; //UnityEngine.Component
-		public  RComponent collider; //UnityEngine.Component
-		public  RComponent collider2D; //UnityEngine.Component
-		public  RComponent hingeJoint; //UnityEngine.Component
-		public  RComponent particleSystem; //UnityEngine.Component
-		public  RProperty name; //System.String
-		public  RProperty hideFlags; //UnityEngine.HideFlags
-		public  RMethod RGetComponent_Type; //UnityEngine.Component GetComponent(System.Type)
-		public  RMethod RGetComponentFastPath_Type_IntPtr; //Void GetComponentFastPath(System.Type, IntPtr)
-		public  RMethod RGetComponent_GT; //T GetComponent[T]()
-		public  RMethod RTryGetComponent_Type_Out_Component; //Boolean TryGetComponent(System.Type, UnityEngine.Component ByRef)
-		public  RMethod RTryGetComponent_GT_Out_T; //Boolean TryGetComponent[T](T ByRef)
-		public  RMethod RGetComponent_String; //UnityEngine.Component GetComponent(System.String)
-		public  RMethod RGetComponentInChildren_Type_Boolean; //UnityEngine.Component GetComponentInChildren(System.Type, Boolean)
-		public  RMethod RGetComponentInChildren_Type; //UnityEngine.Component GetComponentInChildren(System.Type)
-		public  RMethod RGetComponentInChildren_GT_Boolean; //T GetComponentInChildren[T](Boolean)
-		public  RMethod RGetComponentInChildren_GT; //T GetComponentInChildren[T]()
-		public  RMethod RGetComponentsInChildren_Type_Boolean; //UnityEngine.Component[] GetComponentsInChildren(System.Type, Boolean)
-		public  RMethod RGetComponentsInChildren_Type; //UnityEngine.Component[] GetComponentsInChildren(System.Type)
-		public  RMethod RGetComponentsInChildren_GT_Boolean; //T[] GetComponentsInChildren[T](Boolean)
-		public  RMethod RGetComponentsInChildren_GT_Boolean_List_d_T_p_; //Void GetComponentsInChildren[T](Boolean, System.Collections.Generic.List`1[T])
-		public  RMethod RGetComponentsInChildren_GT; //T[] GetComponentsInChildren[T]()
-		public  RMethod RGetComponentsInChildren_GT_List_d_T_p_; //Void GetComponentsInChildren[T](System.Collections.Generic.List`1[T])
-		public  RMethod RGetComponentInParent_Type_Boolean; //UnityEngine.Component GetComponentInParent(System.Type, Boolean)
-		public  RMethod RGetComponentInParent_Type; //UnityEngine.Component GetComponentInParent(System.Type)
-		public  RMethod RGetComponentInParent_GT_Boolean; //T GetComponentInParent[T](Boolean)
-		public  RMethod RGetComponentInParent_GT; //T GetComponentInParent[T]()
-		public  RMethod RGetComponentsInParent_Type_Boolean; //UnityEngine.Component[] GetComponentsInParent(System.Type, Boolean)
-		public  RMethod RGetComponentsInParent_Type; //UnityEngine.Component[] GetComponentsInParent(System.Type)
-		public  RMethod RGetComponentsInParent_GT_Boolean; //T[] GetComponentsInParent[T](Boolean)
-		public  RMethod RGetComponentsInParent_GT_Boolean_List_d_T_p_; //Void GetComponentsInParent[T](Boolean, System.Collections.Generic.List`1[T])
-		public  RMethod RGetComponentsInParent_GT; //T[] GetComponentsInParent[T]()
-		public  RMethod RGetComponents_Type; //UnityEngine.Component[] GetComponents(System.Type)
-		public  RMethod RGetComponentsForListInternal_Type_Object; //Void GetComponentsForListInternal(System.Type, System.Object)
-		public  RMethod RGetComponents_Type_List_d_Component_p_; //Void GetComponents(System.Type, System.Collections.Generic.List`1[UnityEngine.Component])
-		public  RMethod RGetComponents_GT_List_d_T_p_; //Void GetComponents[T](System.Collections.Generic.List`1[T])
-		public  RMethod RGetComponents_GT; //T[] GetComponents[T]()
-		public  RMethod RCompareTag_String; //Boolean CompareTag(System.String)
-		public  RMethod RGetCoupledComponent; //UnityEngine.Component GetCoupledComponent()
-		public  RMethod RIsCoupledComponent; //Boolean IsCoupledComponent()
-		public  RMethod RSendMessageUpwards_String_Object_SendMessageOptions; //Void SendMessageUpwards(System.String, System.Object, UnityEngine.SendMessageOptions)
-		public  RMethod RSendMessageUpwards_String_Object; //Void SendMessageUpwards(System.String, System.Object)
-		public  RMethod RSendMessageUpwards_String; //Void SendMessageUpwards(System.String)
-		public  RMethod RSendMessageUpwards_String_SendMessageOptions; //Void SendMessageUpwards(System.String, UnityEngine.SendMessageOptions)
-		public  RMethod RSendMessage_String_Object; //Void SendMessage(System.String, System.Object)
-		public  RMethod RSendMessage_String; //Void SendMessage(System.String)
-		public  RMethod RSendMessage_String_Object_SendMessageOptions; //Void SendMessage(System.String, System.Object, UnityEngine.SendMessageOptions)
-		public  RMethod RSendMessage_String_SendMessageOptions; //Void SendMessage(System.String, UnityEngine.SendMessageOptions)
-		public  RMethod RBroadcastMessage_String_Object_SendMessageOptions; //Void BroadcastMessage(System.String, System.Object, UnityEngine.SendMessageOptions)
-		public  RMethod RBroadcastMessage_String_Object; //Void BroadcastMessage(System.String, System.Object)
-		public  RMethod RBroadcastMessage_String; //Void BroadcastMessage(System.String)
-		public  RMethod RBroadcastMessage_String_SendMessageOptions; //Void BroadcastMessage(System.String, UnityEngine.SendMessageOptions)
-		public  RMethod RGetInstanceID; //Int32 GetInstanceID()
-		public  RMethod RGetHashCode; //Int32 GetHashCode()
-		public  RMethod REquals_Object; //Boolean Equals(System.Object)
-		public  RMethod RToString; //System.String ToString()
-		public  RMethod RFinalize; //Void Finalize()
-		public  RMethod RGetType; //System.Type GetType()
-		public  RMethod RMemberwiseClone; //System.Object MemberwiseClone()
+
+		/// <summary>
+		/// UnityEngine.Transform transform
+		/// </summary>
+		protected RTransform r_transform;
+		public virtual RTransform transform
+		{
+			get
+			{
+				if(r_transform == null)
+				{
+					r_transform = new RTransform(this, "transform", -1);
+					r_transform.SetBelong(this.instance);
+				}
+				return r_transform;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.GameObject gameObject
+		/// </summary>
+		protected RGameObject r_gameObject;
+		public virtual RGameObject gameObject
+		{
+			get
+			{
+				if(r_gameObject == null)
+				{
+					r_gameObject = new RGameObject(this, "gameObject", -1);
+					r_gameObject.SetBelong(this.instance);
+				}
+				return r_gameObject;
+			}
+		}
+
+		/// <summary>
+		/// System.String tag
+		/// </summary>
+		protected RProperty r_tag;
+		public virtual RProperty tag
+		{
+			get
+			{
+				if(r_tag == null)
+				{
+					r_tag = new RProperty(this, "tag", -1);
+					r_tag.SetBelong(this.instance);
+				}
+				return r_tag;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.Component rigidbody
+		/// </summary>
+		protected RComponent r_rigidbody;
+		public virtual RComponent rigidbody
+		{
+			get
+			{
+				if(r_rigidbody == null)
+				{
+					r_rigidbody = new RComponent(this, "rigidbody", -1);
+					r_rigidbody.SetBelong(this.instance);
+				}
+				return r_rigidbody;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.Component rigidbody2D
+		/// </summary>
+		protected RComponent r_rigidbody2D;
+		public virtual RComponent rigidbody2D
+		{
+			get
+			{
+				if(r_rigidbody2D == null)
+				{
+					r_rigidbody2D = new RComponent(this, "rigidbody2D", -1);
+					r_rigidbody2D.SetBelong(this.instance);
+				}
+				return r_rigidbody2D;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.Component camera
+		/// </summary>
+		protected RComponent r_camera;
+		public virtual RComponent camera
+		{
+			get
+			{
+				if(r_camera == null)
+				{
+					r_camera = new RComponent(this, "camera", -1);
+					r_camera.SetBelong(this.instance);
+				}
+				return r_camera;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.Component light
+		/// </summary>
+		protected RComponent r_light;
+		public virtual RComponent light
+		{
+			get
+			{
+				if(r_light == null)
+				{
+					r_light = new RComponent(this, "light", -1);
+					r_light.SetBelong(this.instance);
+				}
+				return r_light;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.Component animation
+		/// </summary>
+		protected RComponent r_animation;
+		public virtual RComponent animation
+		{
+			get
+			{
+				if(r_animation == null)
+				{
+					r_animation = new RComponent(this, "animation", -1);
+					r_animation.SetBelong(this.instance);
+				}
+				return r_animation;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.Component constantForce
+		/// </summary>
+		protected RComponent r_constantForce;
+		public virtual RComponent constantForce
+		{
+			get
+			{
+				if(r_constantForce == null)
+				{
+					r_constantForce = new RComponent(this, "constantForce", -1);
+					r_constantForce.SetBelong(this.instance);
+				}
+				return r_constantForce;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.Component renderer
+		/// </summary>
+		protected RComponent r_renderer;
+		public virtual RComponent renderer
+		{
+			get
+			{
+				if(r_renderer == null)
+				{
+					r_renderer = new RComponent(this, "renderer", -1);
+					r_renderer.SetBelong(this.instance);
+				}
+				return r_renderer;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.Component audio
+		/// </summary>
+		protected RComponent r_audio;
+		public virtual RComponent audio
+		{
+			get
+			{
+				if(r_audio == null)
+				{
+					r_audio = new RComponent(this, "audio", -1);
+					r_audio.SetBelong(this.instance);
+				}
+				return r_audio;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.Component networkView
+		/// </summary>
+		protected RComponent r_networkView;
+		public virtual RComponent networkView
+		{
+			get
+			{
+				if(r_networkView == null)
+				{
+					r_networkView = new RComponent(this, "networkView", -1);
+					r_networkView.SetBelong(this.instance);
+				}
+				return r_networkView;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.Component collider
+		/// </summary>
+		protected RComponent r_collider;
+		public virtual RComponent collider
+		{
+			get
+			{
+				if(r_collider == null)
+				{
+					r_collider = new RComponent(this, "collider", -1);
+					r_collider.SetBelong(this.instance);
+				}
+				return r_collider;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.Component collider2D
+		/// </summary>
+		protected RComponent r_collider2D;
+		public virtual RComponent collider2D
+		{
+			get
+			{
+				if(r_collider2D == null)
+				{
+					r_collider2D = new RComponent(this, "collider2D", -1);
+					r_collider2D.SetBelong(this.instance);
+				}
+				return r_collider2D;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.Component hingeJoint
+		/// </summary>
+		protected RComponent r_hingeJoint;
+		public virtual RComponent hingeJoint
+		{
+			get
+			{
+				if(r_hingeJoint == null)
+				{
+					r_hingeJoint = new RComponent(this, "hingeJoint", -1);
+					r_hingeJoint.SetBelong(this.instance);
+				}
+				return r_hingeJoint;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.Component particleSystem
+		/// </summary>
+		protected RComponent r_particleSystem;
+		public virtual RComponent particleSystem
+		{
+			get
+			{
+				if(r_particleSystem == null)
+				{
+					r_particleSystem = new RComponent(this, "particleSystem", -1);
+					r_particleSystem.SetBelong(this.instance);
+				}
+				return r_particleSystem;
+			}
+		}
+
+		/// <summary>
+		/// System.String name
+		/// </summary>
+		protected RProperty r_name;
+		public virtual RProperty name
+		{
+			get
+			{
+				if(r_name == null)
+				{
+					r_name = new RProperty(this, "name", -1);
+					r_name.SetBelong(this.instance);
+				}
+				return r_name;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.HideFlags hideFlags
+		/// </summary>
+		protected RProperty r_hideFlags;
+		public virtual RProperty hideFlags
+		{
+			get
+			{
+				if(r_hideFlags == null)
+				{
+					r_hideFlags = new RProperty(this, "hideFlags", -1);
+					r_hideFlags.SetBelong(this.instance);
+				}
+				return r_hideFlags;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.Component GetComponent(System.Type)
+		/// </summary>
+		protected RMethod r_RGetComponent_Type;
+		public virtual RMethod RGetComponent_Type
+		{
+			get
+			{
+				if(r_RGetComponent_Type == null)
+				{
+					r_RGetComponent_Type = new RMethod(this, "GetComponent", 0, typeof(System.Type));
+					r_RGetComponent_Type.SetBelong(this.instance);
+				}
+				return r_RGetComponent_Type;
+			}
+		}
+
+		/// <summary>
+		/// Void GetComponentFastPath(System.Type, IntPtr)
+		/// </summary>
+		protected RMethod r_RGetComponentFastPath_Type_IntPtr;
+		public virtual RMethod RGetComponentFastPath_Type_IntPtr
+		{
+			get
+			{
+				if(r_RGetComponentFastPath_Type_IntPtr == null)
+				{
+					r_RGetComponentFastPath_Type_IntPtr = new RMethod(this, "GetComponentFastPath", 0, typeof(System.Type), typeof(System.IntPtr));
+					r_RGetComponentFastPath_Type_IntPtr.SetBelong(this.instance);
+				}
+				return r_RGetComponentFastPath_Type_IntPtr;
+			}
+		}
+
+		/// <summary>
+		/// T GetComponent[T]()
+		/// </summary>
+		protected RMethod r_RGetComponent_GT;
+		public virtual RMethod RGetComponent_GT
+		{
+			get
+			{
+				if(r_RGetComponent_GT == null)
+				{
+					r_RGetComponent_GT = new RMethod(this, "GetComponent", 1);
+					r_RGetComponent_GT.SetBelong(this.instance);
+				}
+				return r_RGetComponent_GT;
+			}
+		}
+
+		/// <summary>
+		/// Boolean TryGetComponent(System.Type, UnityEngine.Component ByRef)
+		/// </summary>
+		protected RMethod r_RTryGetComponent_Type_Out_Component;
+		public virtual RMethod RTryGetComponent_Type_Out_Component
+		{
+			get
+			{
+				if(r_RTryGetComponent_Type_Out_Component == null)
+				{
+					r_RTryGetComponent_Type_Out_Component = new RMethod(this, "TryGetComponent", 0, typeof(System.Type), typeof(UnityEngine.Component).MakeByRefType());
+					r_RTryGetComponent_Type_Out_Component.SetBelong(this.instance);
+				}
+				return r_RTryGetComponent_Type_Out_Component;
+			}
+		}
+
+		/// <summary>
+		/// Boolean TryGetComponent[T](T ByRef)
+		/// </summary>
+		protected RMethod r_RTryGetComponent_GT_Out_T;
+		public virtual RMethod RTryGetComponent_GT_Out_T
+		{
+			get
+			{
+				if(r_RTryGetComponent_GT_Out_T == null)
+				{
+					r_RTryGetComponent_GT_Out_T = new RMethod(this, "TryGetComponent", 1, Type.MakeGenericMethodParameter(0).MakeByRefType());
+					r_RTryGetComponent_GT_Out_T.SetBelong(this.instance);
+				}
+				return r_RTryGetComponent_GT_Out_T;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.Component GetComponent(System.String)
+		/// </summary>
+		protected RMethod r_RGetComponent_String;
+		public virtual RMethod RGetComponent_String
+		{
+			get
+			{
+				if(r_RGetComponent_String == null)
+				{
+					r_RGetComponent_String = new RMethod(this, "GetComponent", 0, typeof(System.String));
+					r_RGetComponent_String.SetBelong(this.instance);
+				}
+				return r_RGetComponent_String;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.Component GetComponentInChildren(System.Type, Boolean)
+		/// </summary>
+		protected RMethod r_RGetComponentInChildren_Type_Boolean;
+		public virtual RMethod RGetComponentInChildren_Type_Boolean
+		{
+			get
+			{
+				if(r_RGetComponentInChildren_Type_Boolean == null)
+				{
+					r_RGetComponentInChildren_Type_Boolean = new RMethod(this, "GetComponentInChildren", 0, typeof(System.Type), typeof(System.Boolean));
+					r_RGetComponentInChildren_Type_Boolean.SetBelong(this.instance);
+				}
+				return r_RGetComponentInChildren_Type_Boolean;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.Component GetComponentInChildren(System.Type)
+		/// </summary>
+		protected RMethod r_RGetComponentInChildren_Type;
+		public virtual RMethod RGetComponentInChildren_Type
+		{
+			get
+			{
+				if(r_RGetComponentInChildren_Type == null)
+				{
+					r_RGetComponentInChildren_Type = new RMethod(this, "GetComponentInChildren", 0, typeof(System.Type));
+					r_RGetComponentInChildren_Type.SetBelong(this.instance);
+				}
+				return r_RGetComponentInChildren_Type;
+			}
+		}
+
+		/// <summary>
+		/// T GetComponentInChildren[T](Boolean)
+		/// </summary>
+		protected RMethod r_RGetComponentInChildren_GT_Boolean;
+		public virtual RMethod RGetComponentInChildren_GT_Boolean
+		{
+			get
+			{
+				if(r_RGetComponentInChildren_GT_Boolean == null)
+				{
+					r_RGetComponentInChildren_GT_Boolean = new RMethod(this, "GetComponentInChildren", 1, typeof(System.Boolean));
+					r_RGetComponentInChildren_GT_Boolean.SetBelong(this.instance);
+				}
+				return r_RGetComponentInChildren_GT_Boolean;
+			}
+		}
+
+		/// <summary>
+		/// T GetComponentInChildren[T]()
+		/// </summary>
+		protected RMethod r_RGetComponentInChildren_GT;
+		public virtual RMethod RGetComponentInChildren_GT
+		{
+			get
+			{
+				if(r_RGetComponentInChildren_GT == null)
+				{
+					r_RGetComponentInChildren_GT = new RMethod(this, "GetComponentInChildren", 1);
+					r_RGetComponentInChildren_GT.SetBelong(this.instance);
+				}
+				return r_RGetComponentInChildren_GT;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.Component[] GetComponentsInChildren(System.Type, Boolean)
+		/// </summary>
+		protected RMethod r_RGetComponentsInChildren_Type_Boolean;
+		public virtual RMethod RGetComponentsInChildren_Type_Boolean
+		{
+			get
+			{
+				if(r_RGetComponentsInChildren_Type_Boolean == null)
+				{
+					r_RGetComponentsInChildren_Type_Boolean = new RMethod(this, "GetComponentsInChildren", 0, typeof(System.Type), typeof(System.Boolean));
+					r_RGetComponentsInChildren_Type_Boolean.SetBelong(this.instance);
+				}
+				return r_RGetComponentsInChildren_Type_Boolean;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.Component[] GetComponentsInChildren(System.Type)
+		/// </summary>
+		protected RMethod r_RGetComponentsInChildren_Type;
+		public virtual RMethod RGetComponentsInChildren_Type
+		{
+			get
+			{
+				if(r_RGetComponentsInChildren_Type == null)
+				{
+					r_RGetComponentsInChildren_Type = new RMethod(this, "GetComponentsInChildren", 0, typeof(System.Type));
+					r_RGetComponentsInChildren_Type.SetBelong(this.instance);
+				}
+				return r_RGetComponentsInChildren_Type;
+			}
+		}
+
+		/// <summary>
+		/// T[] GetComponentsInChildren[T](Boolean)
+		/// </summary>
+		protected RMethod r_RGetComponentsInChildren_GT_Boolean;
+		public virtual RMethod RGetComponentsInChildren_GT_Boolean
+		{
+			get
+			{
+				if(r_RGetComponentsInChildren_GT_Boolean == null)
+				{
+					r_RGetComponentsInChildren_GT_Boolean = new RMethod(this, "GetComponentsInChildren", 1, typeof(System.Boolean));
+					r_RGetComponentsInChildren_GT_Boolean.SetBelong(this.instance);
+				}
+				return r_RGetComponentsInChildren_GT_Boolean;
+			}
+		}
+
+		/// <summary>
+		/// Void GetComponentsInChildren[T](Boolean, System.Collections.Generic.List`1[T])
+		/// </summary>
+		protected RMethod r_RGetComponentsInChildren_GT_Boolean_List_d_T_p_;
+		public virtual RMethod RGetComponentsInChildren_GT_Boolean_List_d_T_p_
+		{
+			get
+			{
+				if(r_RGetComponentsInChildren_GT_Boolean_List_d_T_p_ == null)
+				{
+					r_RGetComponentsInChildren_GT_Boolean_List_d_T_p_ = new RMethod(this, "GetComponentsInChildren", 1, typeof(System.Boolean), typeof(System.Collections.Generic.List<>).MakeGenericType(Type.MakeGenericMethodParameter(0)));
+					r_RGetComponentsInChildren_GT_Boolean_List_d_T_p_.SetBelong(this.instance);
+				}
+				return r_RGetComponentsInChildren_GT_Boolean_List_d_T_p_;
+			}
+		}
+
+		/// <summary>
+		/// T[] GetComponentsInChildren[T]()
+		/// </summary>
+		protected RMethod r_RGetComponentsInChildren_GT;
+		public virtual RMethod RGetComponentsInChildren_GT
+		{
+			get
+			{
+				if(r_RGetComponentsInChildren_GT == null)
+				{
+					r_RGetComponentsInChildren_GT = new RMethod(this, "GetComponentsInChildren", 1);
+					r_RGetComponentsInChildren_GT.SetBelong(this.instance);
+				}
+				return r_RGetComponentsInChildren_GT;
+			}
+		}
+
+		/// <summary>
+		/// Void GetComponentsInChildren[T](System.Collections.Generic.List`1[T])
+		/// </summary>
+		protected RMethod r_RGetComponentsInChildren_GT_List_d_T_p_;
+		public virtual RMethod RGetComponentsInChildren_GT_List_d_T_p_
+		{
+			get
+			{
+				if(r_RGetComponentsInChildren_GT_List_d_T_p_ == null)
+				{
+					r_RGetComponentsInChildren_GT_List_d_T_p_ = new RMethod(this, "GetComponentsInChildren", 1, typeof(System.Collections.Generic.List<>).MakeGenericType(Type.MakeGenericMethodParameter(0)));
+					r_RGetComponentsInChildren_GT_List_d_T_p_.SetBelong(this.instance);
+				}
+				return r_RGetComponentsInChildren_GT_List_d_T_p_;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.Component GetComponentInParent(System.Type, Boolean)
+		/// </summary>
+		protected RMethod r_RGetComponentInParent_Type_Boolean;
+		public virtual RMethod RGetComponentInParent_Type_Boolean
+		{
+			get
+			{
+				if(r_RGetComponentInParent_Type_Boolean == null)
+				{
+					r_RGetComponentInParent_Type_Boolean = new RMethod(this, "GetComponentInParent", 0, typeof(System.Type), typeof(System.Boolean));
+					r_RGetComponentInParent_Type_Boolean.SetBelong(this.instance);
+				}
+				return r_RGetComponentInParent_Type_Boolean;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.Component GetComponentInParent(System.Type)
+		/// </summary>
+		protected RMethod r_RGetComponentInParent_Type;
+		public virtual RMethod RGetComponentInParent_Type
+		{
+			get
+			{
+				if(r_RGetComponentInParent_Type == null)
+				{
+					r_RGetComponentInParent_Type = new RMethod(this, "GetComponentInParent", 0, typeof(System.Type));
+					r_RGetComponentInParent_Type.SetBelong(this.instance);
+				}
+				return r_RGetComponentInParent_Type;
+			}
+		}
+
+		/// <summary>
+		/// T GetComponentInParent[T](Boolean)
+		/// </summary>
+		protected RMethod r_RGetComponentInParent_GT_Boolean;
+		public virtual RMethod RGetComponentInParent_GT_Boolean
+		{
+			get
+			{
+				if(r_RGetComponentInParent_GT_Boolean == null)
+				{
+					r_RGetComponentInParent_GT_Boolean = new RMethod(this, "GetComponentInParent", 1, typeof(System.Boolean));
+					r_RGetComponentInParent_GT_Boolean.SetBelong(this.instance);
+				}
+				return r_RGetComponentInParent_GT_Boolean;
+			}
+		}
+
+		/// <summary>
+		/// T GetComponentInParent[T]()
+		/// </summary>
+		protected RMethod r_RGetComponentInParent_GT;
+		public virtual RMethod RGetComponentInParent_GT
+		{
+			get
+			{
+				if(r_RGetComponentInParent_GT == null)
+				{
+					r_RGetComponentInParent_GT = new RMethod(this, "GetComponentInParent", 1);
+					r_RGetComponentInParent_GT.SetBelong(this.instance);
+				}
+				return r_RGetComponentInParent_GT;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.Component[] GetComponentsInParent(System.Type, Boolean)
+		/// </summary>
+		protected RMethod r_RGetComponentsInParent_Type_Boolean;
+		public virtual RMethod RGetComponentsInParent_Type_Boolean
+		{
+			get
+			{
+				if(r_RGetComponentsInParent_Type_Boolean == null)
+				{
+					r_RGetComponentsInParent_Type_Boolean = new RMethod(this, "GetComponentsInParent", 0, typeof(System.Type), typeof(System.Boolean));
+					r_RGetComponentsInParent_Type_Boolean.SetBelong(this.instance);
+				}
+				return r_RGetComponentsInParent_Type_Boolean;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.Component[] GetComponentsInParent(System.Type)
+		/// </summary>
+		protected RMethod r_RGetComponentsInParent_Type;
+		public virtual RMethod RGetComponentsInParent_Type
+		{
+			get
+			{
+				if(r_RGetComponentsInParent_Type == null)
+				{
+					r_RGetComponentsInParent_Type = new RMethod(this, "GetComponentsInParent", 0, typeof(System.Type));
+					r_RGetComponentsInParent_Type.SetBelong(this.instance);
+				}
+				return r_RGetComponentsInParent_Type;
+			}
+		}
+
+		/// <summary>
+		/// T[] GetComponentsInParent[T](Boolean)
+		/// </summary>
+		protected RMethod r_RGetComponentsInParent_GT_Boolean;
+		public virtual RMethod RGetComponentsInParent_GT_Boolean
+		{
+			get
+			{
+				if(r_RGetComponentsInParent_GT_Boolean == null)
+				{
+					r_RGetComponentsInParent_GT_Boolean = new RMethod(this, "GetComponentsInParent", 1, typeof(System.Boolean));
+					r_RGetComponentsInParent_GT_Boolean.SetBelong(this.instance);
+				}
+				return r_RGetComponentsInParent_GT_Boolean;
+			}
+		}
+
+		/// <summary>
+		/// Void GetComponentsInParent[T](Boolean, System.Collections.Generic.List`1[T])
+		/// </summary>
+		protected RMethod r_RGetComponentsInParent_GT_Boolean_List_d_T_p_;
+		public virtual RMethod RGetComponentsInParent_GT_Boolean_List_d_T_p_
+		{
+			get
+			{
+				if(r_RGetComponentsInParent_GT_Boolean_List_d_T_p_ == null)
+				{
+					r_RGetComponentsInParent_GT_Boolean_List_d_T_p_ = new RMethod(this, "GetComponentsInParent", 1, typeof(System.Boolean), typeof(System.Collections.Generic.List<>).MakeGenericType(Type.MakeGenericMethodParameter(0)));
+					r_RGetComponentsInParent_GT_Boolean_List_d_T_p_.SetBelong(this.instance);
+				}
+				return r_RGetComponentsInParent_GT_Boolean_List_d_T_p_;
+			}
+		}
+
+		/// <summary>
+		/// T[] GetComponentsInParent[T]()
+		/// </summary>
+		protected RMethod r_RGetComponentsInParent_GT;
+		public virtual RMethod RGetComponentsInParent_GT
+		{
+			get
+			{
+				if(r_RGetComponentsInParent_GT == null)
+				{
+					r_RGetComponentsInParent_GT = new RMethod(this, "GetComponentsInParent", 1);
+					r_RGetComponentsInParent_GT.SetBelong(this.instance);
+				}
+				return r_RGetComponentsInParent_GT;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.Component[] GetComponents(System.Type)
+		/// </summary>
+		protected RMethod r_RGetComponents_Type;
+		public virtual RMethod RGetComponents_Type
+		{
+			get
+			{
+				if(r_RGetComponents_Type == null)
+				{
+					r_RGetComponents_Type = new RMethod(this, "GetComponents", 0, typeof(System.Type));
+					r_RGetComponents_Type.SetBelong(this.instance);
+				}
+				return r_RGetComponents_Type;
+			}
+		}
+
+		/// <summary>
+		/// Void GetComponentsForListInternal(System.Type, System.Object)
+		/// </summary>
+		protected RMethod r_RGetComponentsForListInternal_Type_Object;
+		public virtual RMethod RGetComponentsForListInternal_Type_Object
+		{
+			get
+			{
+				if(r_RGetComponentsForListInternal_Type_Object == null)
+				{
+					r_RGetComponentsForListInternal_Type_Object = new RMethod(this, "GetComponentsForListInternal", 0, typeof(System.Type), typeof(System.Object));
+					r_RGetComponentsForListInternal_Type_Object.SetBelong(this.instance);
+				}
+				return r_RGetComponentsForListInternal_Type_Object;
+			}
+		}
+
+		/// <summary>
+		/// Void GetComponents(System.Type, System.Collections.Generic.List`1[UnityEngine.Component])
+		/// </summary>
+		protected RMethod r_RGetComponents_Type_List_d_Component_p_;
+		public virtual RMethod RGetComponents_Type_List_d_Component_p_
+		{
+			get
+			{
+				if(r_RGetComponents_Type_List_d_Component_p_ == null)
+				{
+					r_RGetComponents_Type_List_d_Component_p_ = new RMethod(this, "GetComponents", 0, typeof(System.Type), typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(UnityEngine.Component)));
+					r_RGetComponents_Type_List_d_Component_p_.SetBelong(this.instance);
+				}
+				return r_RGetComponents_Type_List_d_Component_p_;
+			}
+		}
+
+		/// <summary>
+		/// Void GetComponents[T](System.Collections.Generic.List`1[T])
+		/// </summary>
+		protected RMethod r_RGetComponents_GT_List_d_T_p_;
+		public virtual RMethod RGetComponents_GT_List_d_T_p_
+		{
+			get
+			{
+				if(r_RGetComponents_GT_List_d_T_p_ == null)
+				{
+					r_RGetComponents_GT_List_d_T_p_ = new RMethod(this, "GetComponents", 1, typeof(System.Collections.Generic.List<>).MakeGenericType(Type.MakeGenericMethodParameter(0)));
+					r_RGetComponents_GT_List_d_T_p_.SetBelong(this.instance);
+				}
+				return r_RGetComponents_GT_List_d_T_p_;
+			}
+		}
+
+		/// <summary>
+		/// T[] GetComponents[T]()
+		/// </summary>
+		protected RMethod r_RGetComponents_GT;
+		public virtual RMethod RGetComponents_GT
+		{
+			get
+			{
+				if(r_RGetComponents_GT == null)
+				{
+					r_RGetComponents_GT = new RMethod(this, "GetComponents", 1);
+					r_RGetComponents_GT.SetBelong(this.instance);
+				}
+				return r_RGetComponents_GT;
+			}
+		}
+
+		/// <summary>
+		/// Boolean CompareTag(System.String)
+		/// </summary>
+		protected RMethod r_RCompareTag_String;
+		public virtual RMethod RCompareTag_String
+		{
+			get
+			{
+				if(r_RCompareTag_String == null)
+				{
+					r_RCompareTag_String = new RMethod(this, "CompareTag", 0, typeof(System.String));
+					r_RCompareTag_String.SetBelong(this.instance);
+				}
+				return r_RCompareTag_String;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.Component GetCoupledComponent()
+		/// </summary>
+		protected RMethod r_RGetCoupledComponent;
+		public virtual RMethod RGetCoupledComponent
+		{
+			get
+			{
+				if(r_RGetCoupledComponent == null)
+				{
+					r_RGetCoupledComponent = new RMethod(this, "GetCoupledComponent", 0);
+					r_RGetCoupledComponent.SetBelong(this.instance);
+				}
+				return r_RGetCoupledComponent;
+			}
+		}
+
+		/// <summary>
+		/// Boolean IsCoupledComponent()
+		/// </summary>
+		protected RMethod r_RIsCoupledComponent;
+		public virtual RMethod RIsCoupledComponent
+		{
+			get
+			{
+				if(r_RIsCoupledComponent == null)
+				{
+					r_RIsCoupledComponent = new RMethod(this, "IsCoupledComponent", 0);
+					r_RIsCoupledComponent.SetBelong(this.instance);
+				}
+				return r_RIsCoupledComponent;
+			}
+		}
+
+		/// <summary>
+		/// Void SendMessageUpwards(System.String, System.Object, UnityEngine.SendMessageOptions)
+		/// </summary>
+		protected RMethod r_RSendMessageUpwards_String_Object_SendMessageOptions;
+		public virtual RMethod RSendMessageUpwards_String_Object_SendMessageOptions
+		{
+			get
+			{
+				if(r_RSendMessageUpwards_String_Object_SendMessageOptions == null)
+				{
+					r_RSendMessageUpwards_String_Object_SendMessageOptions = new RMethod(this, "SendMessageUpwards", 0, typeof(System.String), typeof(System.Object), typeof(UnityEngine.SendMessageOptions));
+					r_RSendMessageUpwards_String_Object_SendMessageOptions.SetBelong(this.instance);
+				}
+				return r_RSendMessageUpwards_String_Object_SendMessageOptions;
+			}
+		}
+
+		/// <summary>
+		/// Void SendMessageUpwards(System.String, System.Object)
+		/// </summary>
+		protected RMethod r_RSendMessageUpwards_String_Object;
+		public virtual RMethod RSendMessageUpwards_String_Object
+		{
+			get
+			{
+				if(r_RSendMessageUpwards_String_Object == null)
+				{
+					r_RSendMessageUpwards_String_Object = new RMethod(this, "SendMessageUpwards", 0, typeof(System.String), typeof(System.Object));
+					r_RSendMessageUpwards_String_Object.SetBelong(this.instance);
+				}
+				return r_RSendMessageUpwards_String_Object;
+			}
+		}
+
+		/// <summary>
+		/// Void SendMessageUpwards(System.String)
+		/// </summary>
+		protected RMethod r_RSendMessageUpwards_String;
+		public virtual RMethod RSendMessageUpwards_String
+		{
+			get
+			{
+				if(r_RSendMessageUpwards_String == null)
+				{
+					r_RSendMessageUpwards_String = new RMethod(this, "SendMessageUpwards", 0, typeof(System.String));
+					r_RSendMessageUpwards_String.SetBelong(this.instance);
+				}
+				return r_RSendMessageUpwards_String;
+			}
+		}
+
+		/// <summary>
+		/// Void SendMessageUpwards(System.String, UnityEngine.SendMessageOptions)
+		/// </summary>
+		protected RMethod r_RSendMessageUpwards_String_SendMessageOptions;
+		public virtual RMethod RSendMessageUpwards_String_SendMessageOptions
+		{
+			get
+			{
+				if(r_RSendMessageUpwards_String_SendMessageOptions == null)
+				{
+					r_RSendMessageUpwards_String_SendMessageOptions = new RMethod(this, "SendMessageUpwards", 0, typeof(System.String), typeof(UnityEngine.SendMessageOptions));
+					r_RSendMessageUpwards_String_SendMessageOptions.SetBelong(this.instance);
+				}
+				return r_RSendMessageUpwards_String_SendMessageOptions;
+			}
+		}
+
+		/// <summary>
+		/// Void SendMessage(System.String, System.Object)
+		/// </summary>
+		protected RMethod r_RSendMessage_String_Object;
+		public virtual RMethod RSendMessage_String_Object
+		{
+			get
+			{
+				if(r_RSendMessage_String_Object == null)
+				{
+					r_RSendMessage_String_Object = new RMethod(this, "SendMessage", 0, typeof(System.String), typeof(System.Object));
+					r_RSendMessage_String_Object.SetBelong(this.instance);
+				}
+				return r_RSendMessage_String_Object;
+			}
+		}
+
+		/// <summary>
+		/// Void SendMessage(System.String)
+		/// </summary>
+		protected RMethod r_RSendMessage_String;
+		public virtual RMethod RSendMessage_String
+		{
+			get
+			{
+				if(r_RSendMessage_String == null)
+				{
+					r_RSendMessage_String = new RMethod(this, "SendMessage", 0, typeof(System.String));
+					r_RSendMessage_String.SetBelong(this.instance);
+				}
+				return r_RSendMessage_String;
+			}
+		}
+
+		/// <summary>
+		/// Void SendMessage(System.String, System.Object, UnityEngine.SendMessageOptions)
+		/// </summary>
+		protected RMethod r_RSendMessage_String_Object_SendMessageOptions;
+		public virtual RMethod RSendMessage_String_Object_SendMessageOptions
+		{
+			get
+			{
+				if(r_RSendMessage_String_Object_SendMessageOptions == null)
+				{
+					r_RSendMessage_String_Object_SendMessageOptions = new RMethod(this, "SendMessage", 0, typeof(System.String), typeof(System.Object), typeof(UnityEngine.SendMessageOptions));
+					r_RSendMessage_String_Object_SendMessageOptions.SetBelong(this.instance);
+				}
+				return r_RSendMessage_String_Object_SendMessageOptions;
+			}
+		}
+
+		/// <summary>
+		/// Void SendMessage(System.String, UnityEngine.SendMessageOptions)
+		/// </summary>
+		protected RMethod r_RSendMessage_String_SendMessageOptions;
+		public virtual RMethod RSendMessage_String_SendMessageOptions
+		{
+			get
+			{
+				if(r_RSendMessage_String_SendMessageOptions == null)
+				{
+					r_RSendMessage_String_SendMessageOptions = new RMethod(this, "SendMessage", 0, typeof(System.String), typeof(UnityEngine.SendMessageOptions));
+					r_RSendMessage_String_SendMessageOptions.SetBelong(this.instance);
+				}
+				return r_RSendMessage_String_SendMessageOptions;
+			}
+		}
+
+		/// <summary>
+		/// Void BroadcastMessage(System.String, System.Object, UnityEngine.SendMessageOptions)
+		/// </summary>
+		protected RMethod r_RBroadcastMessage_String_Object_SendMessageOptions;
+		public virtual RMethod RBroadcastMessage_String_Object_SendMessageOptions
+		{
+			get
+			{
+				if(r_RBroadcastMessage_String_Object_SendMessageOptions == null)
+				{
+					r_RBroadcastMessage_String_Object_SendMessageOptions = new RMethod(this, "BroadcastMessage", 0, typeof(System.String), typeof(System.Object), typeof(UnityEngine.SendMessageOptions));
+					r_RBroadcastMessage_String_Object_SendMessageOptions.SetBelong(this.instance);
+				}
+				return r_RBroadcastMessage_String_Object_SendMessageOptions;
+			}
+		}
+
+		/// <summary>
+		/// Void BroadcastMessage(System.String, System.Object)
+		/// </summary>
+		protected RMethod r_RBroadcastMessage_String_Object;
+		public virtual RMethod RBroadcastMessage_String_Object
+		{
+			get
+			{
+				if(r_RBroadcastMessage_String_Object == null)
+				{
+					r_RBroadcastMessage_String_Object = new RMethod(this, "BroadcastMessage", 0, typeof(System.String), typeof(System.Object));
+					r_RBroadcastMessage_String_Object.SetBelong(this.instance);
+				}
+				return r_RBroadcastMessage_String_Object;
+			}
+		}
+
+		/// <summary>
+		/// Void BroadcastMessage(System.String)
+		/// </summary>
+		protected RMethod r_RBroadcastMessage_String;
+		public virtual RMethod RBroadcastMessage_String
+		{
+			get
+			{
+				if(r_RBroadcastMessage_String == null)
+				{
+					r_RBroadcastMessage_String = new RMethod(this, "BroadcastMessage", 0, typeof(System.String));
+					r_RBroadcastMessage_String.SetBelong(this.instance);
+				}
+				return r_RBroadcastMessage_String;
+			}
+		}
+
+		/// <summary>
+		/// Void BroadcastMessage(System.String, UnityEngine.SendMessageOptions)
+		/// </summary>
+		protected RMethod r_RBroadcastMessage_String_SendMessageOptions;
+		public virtual RMethod RBroadcastMessage_String_SendMessageOptions
+		{
+			get
+			{
+				if(r_RBroadcastMessage_String_SendMessageOptions == null)
+				{
+					r_RBroadcastMessage_String_SendMessageOptions = new RMethod(this, "BroadcastMessage", 0, typeof(System.String), typeof(UnityEngine.SendMessageOptions));
+					r_RBroadcastMessage_String_SendMessageOptions.SetBelong(this.instance);
+				}
+				return r_RBroadcastMessage_String_SendMessageOptions;
+			}
+		}
+
+		/// <summary>
+		/// Int32 GetInstanceID()
+		/// </summary>
+		protected RMethod r_RGetInstanceID;
+		public virtual RMethod RGetInstanceID
+		{
+			get
+			{
+				if(r_RGetInstanceID == null)
+				{
+					r_RGetInstanceID = new RMethod(this, "GetInstanceID", 0);
+					r_RGetInstanceID.SetBelong(this.instance);
+				}
+				return r_RGetInstanceID;
+			}
+		}
+
+		/// <summary>
+		/// Int32 GetHashCode()
+		/// </summary>
+		protected RMethod r_RGetHashCode;
+		public virtual RMethod RGetHashCode
+		{
+			get
+			{
+				if(r_RGetHashCode == null)
+				{
+					r_RGetHashCode = new RMethod(this, "GetHashCode", 0);
+					r_RGetHashCode.SetBelong(this.instance);
+				}
+				return r_RGetHashCode;
+			}
+		}
+
+		/// <summary>
+		/// Boolean Equals(System.Object)
+		/// </summary>
+		protected RMethod r_REquals_Object;
+		public virtual RMethod REquals_Object
+		{
+			get
+			{
+				if(r_REquals_Object == null)
+				{
+					r_REquals_Object = new RMethod(this, "Equals", 0, typeof(System.Object));
+					r_REquals_Object.SetBelong(this.instance);
+				}
+				return r_REquals_Object;
+			}
+		}
+
+		/// <summary>
+		/// System.String ToString()
+		/// </summary>
+		protected RMethod r_RToString;
+		public virtual RMethod RToString
+		{
+			get
+			{
+				if(r_RToString == null)
+				{
+					r_RToString = new RMethod(this, "ToString", 0);
+					r_RToString.SetBelong(this.instance);
+				}
+				return r_RToString;
+			}
+		}
+
+		/// <summary>
+		/// Void Finalize()
+		/// </summary>
+		protected RMethod r_RFinalize;
+		public virtual RMethod RFinalize
+		{
+			get
+			{
+				if(r_RFinalize == null)
+				{
+					r_RFinalize = new RMethod(this, "Finalize", 0);
+					r_RFinalize.SetBelong(this.instance);
+				}
+				return r_RFinalize;
+			}
+		}
+
+		/// <summary>
+		/// System.Type GetType()
+		/// </summary>
+		protected RMethod r_RGetType;
+		public virtual RMethod RGetType
+		{
+			get
+			{
+				if(r_RGetType == null)
+				{
+					r_RGetType = new RMethod(this, "GetType", 0);
+					r_RGetType.SetBelong(this.instance);
+				}
+				return r_RGetType;
+			}
+		}
+
+		/// <summary>
+		/// System.Object MemberwiseClone()
+		/// </summary>
+		protected RMethod r_RMemberwiseClone;
+		public virtual RMethod RMemberwiseClone
+		{
+			get
+			{
+				if(r_RMemberwiseClone == null)
+				{
+					r_RMemberwiseClone = new RMethod(this, "MemberwiseClone", 0);
+					r_RMemberwiseClone.SetBelong(this.instance);
+				}
+				return r_RMemberwiseClone;
+			}
+		}
 
 
         public RComponent() : base("UnityEngine.Component")
         {
-            NewMembers();
         }
 
         public RComponent(System.Object instance) : base("UnityEngine.Component")
 		{
-			NewMembers();
             SetInstance(instance);
 		}
 
         public RComponent(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
 	    {
-            NewMembers();
 	    }
 
-        private void NewMembers()
-        {
-			transform = new RTransform(this, "transform", -1);
-			gameObject = new RGameObject(this, "gameObject", -1);
-			tag = new RProperty(this, "tag", -1);
-			rigidbody = new RComponent(this, "rigidbody", -1);
-			rigidbody2D = new RComponent(this, "rigidbody2D", -1);
-			camera = new RComponent(this, "camera", -1);
-			light = new RComponent(this, "light", -1);
-			animation = new RComponent(this, "animation", -1);
-			constantForce = new RComponent(this, "constantForce", -1);
-			renderer = new RComponent(this, "renderer", -1);
-			audio = new RComponent(this, "audio", -1);
-			networkView = new RComponent(this, "networkView", -1);
-			collider = new RComponent(this, "collider", -1);
-			collider2D = new RComponent(this, "collider2D", -1);
-			hingeJoint = new RComponent(this, "hingeJoint", -1);
-			particleSystem = new RComponent(this, "particleSystem", -1);
-			name = new RProperty(this, "name", -1);
-			hideFlags = new RProperty(this, "hideFlags", -1);
-			RGetComponent_Type = new RMethod(this, "GetComponent", 0, typeof(System.Type));
-			RGetComponentFastPath_Type_IntPtr = new RMethod(this, "GetComponentFastPath", 0, typeof(System.Type), typeof(System.IntPtr));
-			RGetComponent_GT = new RMethod(this, "GetComponent", 1);
-			RTryGetComponent_Type_Out_Component = new RMethod(this, "TryGetComponent", 0, typeof(System.Type), typeof(UnityEngine.Component).MakeByRefType());
-			RTryGetComponent_GT_Out_T = new RMethod(this, "TryGetComponent", 1, Type.MakeGenericMethodParameter(0).MakeByRefType());
-			RGetComponent_String = new RMethod(this, "GetComponent", 0, typeof(System.String));
-			RGetComponentInChildren_Type_Boolean = new RMethod(this, "GetComponentInChildren", 0, typeof(System.Type), typeof(System.Boolean));
-			RGetComponentInChildren_Type = new RMethod(this, "GetComponentInChildren", 0, typeof(System.Type));
-			RGetComponentInChildren_GT_Boolean = new RMethod(this, "GetComponentInChildren", 1, typeof(System.Boolean));
-			RGetComponentInChildren_GT = new RMethod(this, "GetComponentInChildren", 1);
-			RGetComponentsInChildren_Type_Boolean = new RMethod(this, "GetComponentsInChildren", 0, typeof(System.Type), typeof(System.Boolean));
-			RGetComponentsInChildren_Type = new RMethod(this, "GetComponentsInChildren", 0, typeof(System.Type));
-			RGetComponentsInChildren_GT_Boolean = new RMethod(this, "GetComponentsInChildren", 1, typeof(System.Boolean));
-			RGetComponentsInChildren_GT_Boolean_List_d_T_p_ = new RMethod(this, "GetComponentsInChildren", 1, typeof(System.Boolean), typeof(System.Collections.Generic.List<>).MakeGenericType(Type.MakeGenericMethodParameter(0)));
-			RGetComponentsInChildren_GT = new RMethod(this, "GetComponentsInChildren", 1);
-			RGetComponentsInChildren_GT_List_d_T_p_ = new RMethod(this, "GetComponentsInChildren", 1, typeof(System.Collections.Generic.List<>).MakeGenericType(Type.MakeGenericMethodParameter(0)));
-			RGetComponentInParent_Type_Boolean = new RMethod(this, "GetComponentInParent", 0, typeof(System.Type), typeof(System.Boolean));
-			RGetComponentInParent_Type = new RMethod(this, "GetComponentInParent", 0, typeof(System.Type));
-			RGetComponentInParent_GT_Boolean = new RMethod(this, "GetComponentInParent", 1, typeof(System.Boolean));
-			RGetComponentInParent_GT = new RMethod(this, "GetComponentInParent", 1);
-			RGetComponentsInParent_Type_Boolean = new RMethod(this, "GetComponentsInParent", 0, typeof(System.Type), typeof(System.Boolean));
-			RGetComponentsInParent_Type = new RMethod(this, "GetComponentsInParent", 0, typeof(System.Type));
-			RGetComponentsInParent_GT_Boolean = new RMethod(this, "GetComponentsInParent", 1, typeof(System.Boolean));
-			RGetComponentsInParent_GT_Boolean_List_d_T_p_ = new RMethod(this, "GetComponentsInParent", 1, typeof(System.Boolean), typeof(System.Collections.Generic.List<>).MakeGenericType(Type.MakeGenericMethodParameter(0)));
-			RGetComponentsInParent_GT = new RMethod(this, "GetComponentsInParent", 1);
-			RGetComponents_Type = new RMethod(this, "GetComponents", 0, typeof(System.Type));
-			RGetComponentsForListInternal_Type_Object = new RMethod(this, "GetComponentsForListInternal", 0, typeof(System.Type), typeof(System.Object));
-			RGetComponents_Type_List_d_Component_p_ = new RMethod(this, "GetComponents", 0, typeof(System.Type), typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(UnityEngine.Component)));
-			RGetComponents_GT_List_d_T_p_ = new RMethod(this, "GetComponents", 1, typeof(System.Collections.Generic.List<>).MakeGenericType(Type.MakeGenericMethodParameter(0)));
-			RGetComponents_GT = new RMethod(this, "GetComponents", 1);
-			RCompareTag_String = new RMethod(this, "CompareTag", 0, typeof(System.String));
-			RGetCoupledComponent = new RMethod(this, "GetCoupledComponent", 0);
-			RIsCoupledComponent = new RMethod(this, "IsCoupledComponent", 0);
-			RSendMessageUpwards_String_Object_SendMessageOptions = new RMethod(this, "SendMessageUpwards", 0, typeof(System.String), typeof(System.Object), typeof(UnityEngine.SendMessageOptions));
-			RSendMessageUpwards_String_Object = new RMethod(this, "SendMessageUpwards", 0, typeof(System.String), typeof(System.Object));
-			RSendMessageUpwards_String = new RMethod(this, "SendMessageUpwards", 0, typeof(System.String));
-			RSendMessageUpwards_String_SendMessageOptions = new RMethod(this, "SendMessageUpwards", 0, typeof(System.String), typeof(UnityEngine.SendMessageOptions));
-			RSendMessage_String_Object = new RMethod(this, "SendMessage", 0, typeof(System.String), typeof(System.Object));
-			RSendMessage_String = new RMethod(this, "SendMessage", 0, typeof(System.String));
-			RSendMessage_String_Object_SendMessageOptions = new RMethod(this, "SendMessage", 0, typeof(System.String), typeof(System.Object), typeof(UnityEngine.SendMessageOptions));
-			RSendMessage_String_SendMessageOptions = new RMethod(this, "SendMessage", 0, typeof(System.String), typeof(UnityEngine.SendMessageOptions));
-			RBroadcastMessage_String_Object_SendMessageOptions = new RMethod(this, "BroadcastMessage", 0, typeof(System.String), typeof(System.Object), typeof(UnityEngine.SendMessageOptions));
-			RBroadcastMessage_String_Object = new RMethod(this, "BroadcastMessage", 0, typeof(System.String), typeof(System.Object));
-			RBroadcastMessage_String = new RMethod(this, "BroadcastMessage", 0, typeof(System.String));
-			RBroadcastMessage_String_SendMessageOptions = new RMethod(this, "BroadcastMessage", 0, typeof(System.String), typeof(UnityEngine.SendMessageOptions));
-			RGetInstanceID = new RMethod(this, "GetInstanceID", 0);
-			RGetHashCode = new RMethod(this, "GetHashCode", 0);
-			REquals_Object = new RMethod(this, "Equals", 0, typeof(System.Object));
-			RToString = new RMethod(this, "ToString", 0);
-			RFinalize = new RMethod(this, "Finalize", 0);
-			RGetType = new RMethod(this, "GetType", 0);
-			RMemberwiseClone = new RMethod(this, "MemberwiseClone", 0);
-
-        }
+		 public RComponent(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
 
         public virtual UnityEngine.Component GetComponent(System.Type  @type)
         {
@@ -180,6 +1226,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             return (UnityEngine.Component)___result;
         }
 
+
         public virtual void GetComponentFastPath(System.Type  @type, System.IntPtr  @oneFurtherThanResultValue)
         {
 
@@ -190,6 +1237,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             
         }
 
+
         public virtual T GetComponent<T>()
         {
 
@@ -199,6 +1247,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             return (T)___result;
         }
+
 
         public virtual System.Boolean TryGetComponent(System.Type  @type, out UnityEngine.Component  @component)
         {
@@ -212,6 +1261,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             return (System.Boolean)___result;
         }
 
+
         public virtual System.Boolean TryGetComponent<T>(out T  @component)
         {
 			component = default;
@@ -224,6 +1274,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             return (System.Boolean)___result;
         }
 
+
         public virtual UnityEngine.Component GetComponent(System.String  @type)
         {
 
@@ -233,6 +1284,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             return (UnityEngine.Component)___result;
         }
+
 
         public virtual UnityEngine.Component GetComponentInChildren(System.Type  @t, System.Boolean  @includeInactive)
         {
@@ -244,6 +1296,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             return (UnityEngine.Component)___result;
         }
 
+
         public virtual UnityEngine.Component GetComponentInChildren(System.Type  @t)
         {
 
@@ -253,6 +1306,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             return (UnityEngine.Component)___result;
         }
+
 
         public virtual T GetComponentInChildren<T>(System.Boolean  @includeInactive)
         {
@@ -264,6 +1318,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             return (T)___result;
         }
 
+
         public virtual T GetComponentInChildren<T>()
         {
 
@@ -273,6 +1328,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             return (T)___result;
         }
+
 
         public virtual UnityEngine.Component[] GetComponentsInChildren(System.Type  @t, System.Boolean  @includeInactive)
         {
@@ -284,6 +1340,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             return (UnityEngine.Component[])___result;
         }
 
+
         public virtual UnityEngine.Component[] GetComponentsInChildren(System.Type  @t)
         {
 
@@ -293,6 +1350,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             return (UnityEngine.Component[])___result;
         }
+
 
         public virtual T[] GetComponentsInChildren<T>(System.Boolean  @includeInactive)
         {
@@ -304,6 +1362,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             return (T[])___result;
         }
 
+
         public virtual void GetComponentsInChildren<T>(System.Boolean  @includeInactive, System.Collections.Generic.List<T>  @result)
         {
 
@@ -313,6 +1372,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             
         }
+
 
         public virtual T[] GetComponentsInChildren<T>()
         {
@@ -324,6 +1384,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             return (T[])___result;
         }
 
+
         public virtual void GetComponentsInChildren<T>(System.Collections.Generic.List<T>  @results)
         {
 
@@ -333,6 +1394,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             
         }
+
 
         public virtual UnityEngine.Component GetComponentInParent(System.Type  @t, System.Boolean  @includeInactive)
         {
@@ -344,6 +1406,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             return (UnityEngine.Component)___result;
         }
 
+
         public virtual UnityEngine.Component GetComponentInParent(System.Type  @t)
         {
 
@@ -353,6 +1416,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             return (UnityEngine.Component)___result;
         }
+
 
         public virtual T GetComponentInParent<T>(System.Boolean  @includeInactive)
         {
@@ -364,6 +1428,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             return (T)___result;
         }
 
+
         public virtual T GetComponentInParent<T>()
         {
 
@@ -373,6 +1438,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             return (T)___result;
         }
+
 
         public virtual UnityEngine.Component[] GetComponentsInParent(System.Type  @t, System.Boolean  @includeInactive)
         {
@@ -384,6 +1450,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             return (UnityEngine.Component[])___result;
         }
 
+
         public virtual UnityEngine.Component[] GetComponentsInParent(System.Type  @t)
         {
 
@@ -393,6 +1460,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             return (UnityEngine.Component[])___result;
         }
+
 
         public virtual T[] GetComponentsInParent<T>(System.Boolean  @includeInactive)
         {
@@ -404,6 +1472,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             return (T[])___result;
         }
 
+
         public virtual void GetComponentsInParent<T>(System.Boolean  @includeInactive, System.Collections.Generic.List<T>  @results)
         {
 
@@ -413,6 +1482,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             
         }
+
 
         public virtual T[] GetComponentsInParent<T>()
         {
@@ -424,6 +1494,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             return (T[])___result;
         }
 
+
         public virtual UnityEngine.Component[] GetComponents(System.Type  @type)
         {
 
@@ -433,6 +1504,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             return (UnityEngine.Component[])___result;
         }
+
 
         public virtual void GetComponentsForListInternal(System.Type  @searchType, System.Object  @resultList)
         {
@@ -444,6 +1516,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             
         }
 
+
         public virtual void GetComponents(System.Type  @type, System.Collections.Generic.List<UnityEngine.Component>  @results)
         {
 
@@ -453,6 +1526,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             
         }
+
 
         public virtual void GetComponents<T>(System.Collections.Generic.List<T>  @results)
         {
@@ -464,6 +1538,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             
         }
 
+
         public virtual T[] GetComponents<T>()
         {
 
@@ -473,6 +1548,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             return (T[])___result;
         }
+
 
         public virtual System.Boolean CompareTag(System.String  @tag)
         {
@@ -484,6 +1560,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             return (System.Boolean)___result;
         }
 
+
         public virtual UnityEngine.Component GetCoupledComponent()
         {
 
@@ -493,6 +1570,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             return (UnityEngine.Component)___result;
         }
+
 
         public virtual System.Boolean IsCoupledComponent()
         {
@@ -504,6 +1582,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             return (System.Boolean)___result;
         }
 
+
         public virtual void SendMessageUpwards(System.String  @methodName, System.Object  @value, UnityEngine.SendMessageOptions  @options)
         {
 
@@ -513,6 +1592,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             
         }
+
 
         public virtual void SendMessageUpwards(System.String  @methodName, System.Object  @value)
         {
@@ -524,6 +1604,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             
         }
 
+
         public virtual void SendMessageUpwards(System.String  @methodName)
         {
 
@@ -533,6 +1614,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             
         }
+
 
         public virtual void SendMessageUpwards(System.String  @methodName, UnityEngine.SendMessageOptions  @options)
         {
@@ -544,6 +1626,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             
         }
 
+
         public virtual void SendMessage(System.String  @methodName, System.Object  @value)
         {
 
@@ -553,6 +1636,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             
         }
+
 
         public virtual void SendMessage(System.String  @methodName)
         {
@@ -564,6 +1648,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             
         }
 
+
         public virtual void SendMessage(System.String  @methodName, System.Object  @value, UnityEngine.SendMessageOptions  @options)
         {
 
@@ -573,6 +1658,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             
         }
+
 
         public virtual void SendMessage(System.String  @methodName, UnityEngine.SendMessageOptions  @options)
         {
@@ -584,6 +1670,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             
         }
 
+
         public virtual void BroadcastMessage(System.String  @methodName, System.Object  @parameter, UnityEngine.SendMessageOptions  @options)
         {
 
@@ -593,6 +1680,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             
         }
+
 
         public virtual void BroadcastMessage(System.String  @methodName, System.Object  @parameter)
         {
@@ -604,6 +1692,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             
         }
 
+
         public virtual void BroadcastMessage(System.String  @methodName)
         {
 
@@ -613,6 +1702,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             
         }
+
 
         public virtual void BroadcastMessage(System.String  @methodName, UnityEngine.SendMessageOptions  @options)
         {
@@ -624,6 +1714,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             
         }
 
+
         public virtual System.Int32 GetInstanceID()
         {
 
@@ -633,6 +1724,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             return (System.Int32)___result;
         }
+
 
         public virtual System.Int32 GetHashCode()
         {
@@ -644,6 +1736,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             return (System.Int32)___result;
         }
 
+
         public virtual System.Boolean Equals(System.Object  @other)
         {
 
@@ -653,6 +1746,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             return (System.Boolean)___result;
         }
+
 
         public virtual System.String ToString()
         {
@@ -664,6 +1758,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             return (System.String)___result;
         }
 
+
         public virtual void Finalize()
         {
 
@@ -673,6 +1768,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             
         }
+
 
         public virtual System.Type GetType()
         {
@@ -684,6 +1780,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             return (System.Type)___result;
         }
 
+
         public virtual System.Object MemberwiseClone()
         {
 
@@ -693,6 +1790,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
             return (System.Object)___result;
         }
+
 
     }
 }
