@@ -238,7 +238,7 @@ namespace SMFrame.Editor.Refleaction
 
 
 			
-			GenerateInput.Generate(typeof(GameObject));
+			GenerateInput.Generate("AddComponentWindow");
 		}
 
 		[MenuItem("Tools/TestNewWay")]

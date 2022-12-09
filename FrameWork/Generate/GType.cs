@@ -121,36 +121,14 @@ namespace SMFrame.Editor.Refleaction.R{type.Namespace.Replace(".", ".R")}
 			}
 
 			HashSet<Type> types = new HashSet<Type>();
-			foreach (var field in fields)
+			foreach(var member in members)
 			{
-				field.GetRefTypes(types);
-			}
-
-			foreach(var property in properties)
-			{
-				property.GetRefTypes(types);
-			}
-
-			HashSet<Type> methodTypes = new HashSet<Type>();
-			foreach(var method in methods)
-			{
-				method.GetRefTypes(methodTypes);
+				member.GetRefTypes(types);
 			}
 
 			foreach (var type in types)
 			{
 				refs.Add(type.ToBasicType());
-			}
-
-			// 函数只用生成非共有的类
-			foreach (var type in methodTypes)
-			{
-				var basicType = type.ToBasicType();
-				if (basicType == null || basicType.IsPublic)
-				{
-					continue;
-				}
-				refs.Add(basicType);
 			}
 			return refs;
 		}
