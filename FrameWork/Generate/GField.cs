@@ -35,7 +35,11 @@ namespace SMFrame.Editor.Refleaction
             {
                 return $"RFieldArray<{GetFieldType(type.GetElementType())}>";
             }
-            else if(type.IsGenericType)
+			else if (type.IsPointer)
+			{
+				return $"RFieldPointer<{GetFieldType(type.GetElementType())}>";
+			}
+			else if(type.IsGenericType)
             {
 				var genericTypes = type.GetGenericArguments();
                 string gstr = String.Empty;

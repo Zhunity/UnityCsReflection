@@ -57,6 +57,10 @@ namespace SMFrame.Editor.Refleaction
 			{
 				return $"RPropertyArray<{GetPropertyType(type.GetElementType())}>";
 			}
+			else if (type.IsPointer)
+			{
+				return $"RPropertyPointer<{GetPropertyType(type.GetElementType())}>";
+			}
 			else if (type.IsGenericType)
 			{
 				var genericTypes = type.GetGenericArguments();
