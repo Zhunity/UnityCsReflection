@@ -41,7 +41,7 @@ namespace SMFrame.Editor.Refleaction
 			{{
 				if({protectedName} == null)
 				{{
-					{protectedName} = new {type}({belong}, ""{findName}""{paramStr});
+					{protectedName} = new({belong}, ""{findName}""{paramStr});
 					{protectedName}.SetBelong({setBelong});
 				}}
 				return {protectedName};

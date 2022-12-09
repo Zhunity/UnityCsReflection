@@ -24,7 +24,7 @@ namespace SMFrame.Editor.Refleaction
 
 		public override void GetDeclareStr(StringBuilder sb)
 		{
-			string fieldType = (PrimitiveTypeConfig.IsPrimitive(property.PropertyType)) ? "RProperty" : "R" + property.PropertyType.ToDeclareName(false);
+			string fieldType = GetPropertyType(property.PropertyType); 
 			string name = GetPropertyName(property);
 			var declareStr = GetDeclareStr(fieldType, name, property.Name, property.ToString());
 			sb.AppendLine(declareStr);
@@ -48,6 +48,19 @@ namespace SMFrame.Editor.Refleaction
 				paramStr += $", {parameters[i].ParameterType.ToGetMethod()}";
 			}
 			return ", -1" + paramStr;
+		}
+
+		private string GetPropertyType(Type type)
+		{
+			if (type.IsArray)
+			{
+				return $"RPropertyArray<{GetPropertyType(type.GetElementType())}>";
+			}
+			else
+			{
+				return (PrimitiveTypeConfig.IsPrimitive(type)) ? "RProperty" : "R" + type.ToDeclareName(false);
+
+			}
 		}
 	}
 }

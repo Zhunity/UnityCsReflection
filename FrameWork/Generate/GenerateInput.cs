@@ -86,7 +86,7 @@ namespace SMFrame.Editor.Refleaction
 			}
 
 			var generateStr = gType.ToString();
-			var path = $"{UnityCSReflectionPath}Generate/{classType.Namespace.Replace(".", "/")}/R{classType.Name}.cs";
+			var path = $"{UnityCSReflectionPath}Generate/{classType.Namespace.Replace(".", "/")}/R{LegalNameConfig.LegalName(classType.Name)}.cs";
 			var folder = Path.GetDirectoryName(path);
 			if (!Directory.Exists(folder))
 			{
