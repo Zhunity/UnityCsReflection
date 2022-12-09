@@ -103,6 +103,10 @@ namespace SMFrame.Editor.Refleaction.R{type.Namespace.Replace(".", ".R")}
         public R{type.ToConstructorName()}(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
 	    {{
 	    }}
+
+		 public R{type.ToConstructorName()}(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {{
+	    }}
 {methodInvoke}
     }}
 }}
@@ -111,31 +115,31 @@ namespace SMFrame.Editor.Refleaction.R{type.Namespace.Replace(".", ".R")}
 
 		public HashSet<Type> GetRefTypes()
 		{
-			if(refs != null || refs.Count > 0)
+			if(refs != null && refs.Count > 0)
 			{
 				return refs;
 			}
-			
-			foreach(var field in fields)
+
+			HashSet<Type> types = new HashSet<Type>();
+			foreach (var field in fields)
 			{
-				field.GetRefTypes(refs);
+				field.GetRefTypes(types);
 			}
 
 			foreach(var property in properties)
 			{
-				property.GetRefTypes(refs);
+				property.GetRefTypes(types);
 			}
 
 			HashSet<Type> methodTypes = new HashSet<Type>();
 			foreach(var method in methods)
 			{
-				method.GetRefTypes(refs);
+				method.GetRefTypes(methodTypes);
 			}
 
-			HashSet<Type> types = new HashSet<Type>();
-			foreach (var type in refs)
+			foreach (var type in types)
 			{
-				types.Add(type.ToBasicType());
+				refs.Add(type.ToBasicType());
 			}
 
 			// 函数只用生成非共有的类
@@ -146,9 +150,9 @@ namespace SMFrame.Editor.Refleaction.R{type.Namespace.Replace(".", ".R")}
 				{
 					continue;
 				}
-				types.Add(basicType);
+				refs.Add(basicType);
 			}
-			return types;
+			return refs;
 		}
 
 		private string GetNameSpace()

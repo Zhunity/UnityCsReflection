@@ -238,7 +238,7 @@ namespace SMFrame.Editor.Refleaction
 
 
 			
-			GenerateInput.Generate(typeof(ATestGenericMethod), false);
+			GenerateInput.Generate(typeof(GameObject));
 		}
 
 		[MenuItem("Tools/TestNewWay")]
