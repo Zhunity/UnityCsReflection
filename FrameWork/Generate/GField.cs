@@ -31,46 +31,52 @@ namespace SMFrame.Editor.Refleaction
 
         private string GetFieldType(Type type)
         {
-            if(type.IsArray)
+            if (type.IsArray)
             {
                 return $"RFieldArray<{GetFieldType(type.GetElementType())}>";
             }
-			else if (type.IsPointer)
-			{
-				return $"RFieldPointer<{GetFieldType(type.GetElementType())}>";
-			}
-			else if(type.IsGenericType)
+            else if (type.IsPointer)
             {
-				var genericTypes = type.GetGenericArguments();
+                return $"RFieldPointer<{GetFieldType(type.GetElementType())}>";
+            }
+            else if (type.IsGenericType)
+            {
+                var genericTypes = type.GetGenericArguments();
                 string gstr = String.Empty;
-                for(int i = 0; i < genericTypes.Length; i ++)
+                for (int i = 0; i < genericTypes.Length; i++)
                 {
-					gstr += GetFieldType(genericTypes[i]);
-                    if(i < genericTypes.Length - 1)
+                    gstr += GetFieldType(genericTypes[i]);
+                    if (i < genericTypes.Length - 1)
                     {
-						gstr += ", ";
+                        gstr += ", ";
                     }
-				}
-				var genericDefine = type.GetGenericTypeDefinition();
-				var result = Regex.Replace(genericDefine.Name, @"`\d+", $"<{gstr}>");
-				string nameSpace = GetNameSpace(genericDefine);
-				return nameSpace + "R" + result;
-			}
+                }
+                var genericDefine = type.GetGenericTypeDefinition();
+                var declare = genericDefine.ToDeclareName(true);
+
+                string nameSpace = GetNameSpace(declare);
+                var result = Regex.Replace(nameSpace, @"<\,*>", $"<{gstr}>");
+                return result;
+            }
+            else if (PrimitiveTypeConfig.IsPrimitive(type))
+            {
+                return "RField";
+            }
             else
             {
-                string nameSpace = GetNameSpace(type);
-				return (PrimitiveTypeConfig.IsPrimitive(type)) ? "RField" : nameSpace + "R" + type.ToDeclareName(false);
-
+				var declare = type.ToDeclareName(true);
+				string nameSpace = GetNameSpace(declare);
+				return nameSpace;
 			}
         }
 
-        private string GetNameSpace(Type type)
+        private string GetNameSpace(string declare)
         {
-			if (type == null || string.IsNullOrEmpty(type.Namespace) || GenerateInput.IsPrimitive(type))
+			if (string.IsNullOrEmpty(declare))
 			{
 				return string.Empty;
 			}
-            return $"SMFrame.Editor.Refleaction.R{type.Namespace.Replace(".", ".R")}.";
+            return $"SMFrame.Editor.Refleaction.R{declare.Replace(".", ".R")}";
 		}
     }
 }

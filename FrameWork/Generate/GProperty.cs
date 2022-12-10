@@ -74,24 +74,31 @@ namespace SMFrame.Editor.Refleaction
 					}
 				}
 				var genericDefine = type.GetGenericTypeDefinition();
-				var result = Regex.Replace(genericDefine.Name, @"`\d+", $"<{gstr}>");
-				string nameSpace = GetNameSpace(genericDefine);
-				return nameSpace + "R" + result;
+				var declare = genericDefine.ToDeclareName(true);
+
+				string nameSpace = GetNameSpace(declare);
+				var result = Regex.Replace(nameSpace, @"<\,*>", $"<{gstr}>");
+				return result;
+			}
+			else if(PrimitiveTypeConfig.IsPrimitive(type))
+			{
+				return "RProperty";
 			}
 			else
 			{
-				string nameSpace = GetNameSpace(type);
-				return (PrimitiveTypeConfig.IsPrimitive(type)) ? "RProperty" : nameSpace + "R" + type.ToDeclareName(false);
+				var declare = type.ToDeclareName(true);
+				string nameSpace = GetNameSpace(declare);
+				return nameSpace;
 			}
 		}
 
-		private string GetNameSpace(Type type)
+		private string GetNameSpace(string declare)
 		{
-			if (type == null || string.IsNullOrEmpty(type.Namespace) || GenerateInput.IsPrimitive(type))
+			if (string.IsNullOrEmpty(declare))
 			{
 				return string.Empty;
 			}
-			return $"SMFrame.Editor.Refleaction.R{type.Namespace.Replace(".", ".R")}.";
+			return $"SMFrame.Editor.Refleaction.R{declare.Replace(".", ".R")}";
 		}
 	}
 }

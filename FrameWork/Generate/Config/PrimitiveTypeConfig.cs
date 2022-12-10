@@ -10,6 +10,7 @@ namespace SMFrame.Editor.Refleaction
 		static HashSet<Type> PrimitiveType = new HashSet<Type>()
 		{
 			typeof(string),
+			typeof(void),
 		};
 
 		/// <summary>

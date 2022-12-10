@@ -208,25 +208,27 @@ namespace SMFrame.Editor.Refleaction
 			{
 				public class innest { }
 			}
+			inner aaa;
+			List<int> list;
+
+			HashSet<string> s
+			{ get; set; }
 		}
 
 		[MenuItem("Tools/TestNewWay")]
 		static void TestNewWay()
 		{
 			ATestGenericMethod a = new();
-			var name = typeof(outest.inner.innest).FullName;
+			var name = typeof(outest).FullName;
 			var type = ReleactionUtils.GetType(name);
-			Debug.Log(type +  "  " + type.Namespace + "  " + type.Name + "  " + type.FullName);
-			var nestedTypes = type.FullName.Replace(type.Namespace, "").Split('+');
-			foreach(var nestedType in nestedTypes)
-			{
-				Debug.Log(nestedType);
-			}
+			
+
 			GenerateInput.UnityCSReflectionPath = $"{Application.dataPath}/Script/UnityCsReflection/";
 
 
 
 			GenerateInput.Generate(type, false);
+			GenerateInput.Generate(typeof(outest.inner), false);
 		}
 	}
 }

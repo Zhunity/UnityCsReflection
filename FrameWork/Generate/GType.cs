@@ -81,18 +81,15 @@ namespace SMFrame.Editor.Refleaction
 		{
 			string delcareStr = GetMemberDeclareStr();
 			string methodInvoke = GetMethodInvokeStr();
-			var nestedTypes = type.FullName.Split('+');
-			var nestedTypeName = string.Empty;
+			Type declaringType = type.DeclaringType;
 			var nestedTypeDefine = "";
-			for(int i = 0; i < nestedTypes.Length - 1; i ++)
+			while (declaringType != null)
 			{
-				var nestedType = nestedTypes[i];
-				nestedTypeName += nestedType;
-				var nowDefine = $@"public partial class R{ReleactionUtils.GetType(nestedType).ToClassName()}
+				var nowDefine = $@"public partial class R{declaringType.ToClassName()}
 {{
 	";
-				nestedTypeDefine += nowDefine;
-				nestedTypeName += "+";
+				nestedTypeDefine = nowDefine + nestedTypeDefine;
+				declaringType = declaringType.DeclaringType;
 			}
 
 			string nameSpaceStr = $@"using SMFrame.Editor.Refleaction;
@@ -131,9 +128,11 @@ namespace SMFrame.Editor.Refleaction.R{type.Namespace.Replace(".", ".R")}
 }}
 ";
 			nestedTypeDefine += curType;
-			for (int i = 0; i < nestedTypes.Length - 1; i++)
+			declaringType = type.DeclaringType;
+			while (declaringType != null)
 			{
 				nestedTypeDefine += "}";
+				declaringType = declaringType.DeclaringType;
 			}
 			return nameSpaceStr + nestedTypeDefine;
 		}

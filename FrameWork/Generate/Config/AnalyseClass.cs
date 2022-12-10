@@ -391,7 +391,7 @@ namespace SMFrame.Editor.Refleaction
 				var defineName = translater.GenericTypeDefinition.Format(genericParamStr);
 				if (needNameSpace)
 				{
-					return genericDefine.Namespace + "." + defineName;
+					return GetNestedFullName(genericDefine, translater, defineName); 
 				}
 				else
 				{
@@ -416,7 +416,7 @@ namespace SMFrame.Editor.Refleaction
 				var defineName = translater.GenericType.Format(genericParamStr);
 				if (needNameSpace && !defineName.StartsWith(genericDefine.Namespace))
 				{
-					return genericDefine.Namespace + "." + defineName;
+					return GetNestedFullName(genericDefine, translater, defineName);
 				}
 				else
 				{
@@ -435,16 +435,27 @@ namespace SMFrame.Editor.Refleaction
 			{
 				if (needNameSpace)
 				{
-					//var typeNames = type.FullName.Split("+");
-					//var ss = "";
-
-					//foreach(var typeNames)
-					return type.Namespace + "." + LegalNameConfig.LegalName(type.Name);
+					return GetNestedFullName(type, translater, LegalNameConfig.LegalName(type.Name));
 				}
 				else
 				{
 					return LegalNameConfig.LegalName(type.Name);
 				}
+			}
+		}
+
+		static string GetNestedFullName(Type type, TypeTranslater translater, string name)
+		{
+			if (type.IsNested)
+			{
+				string result = name;
+				var declareStr = type.DeclaringType.ToString(translater);
+				result = declareStr + "." + result;
+				return result;
+			}
+			else
+			{
+				return type.Namespace + "." + name;
 			}
 		}
 
