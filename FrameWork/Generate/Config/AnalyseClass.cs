@@ -32,11 +32,20 @@ namespace SMFrame.Editor.Refleaction
 			}
             return string.Format(format, elementStr);
         }
+
+		public TypeFormater Clone()
+		{
+			var result = new TypeFormater();
+			result.can = this.can;
+			result.format = this.format;
+			result.fun = this.fun;
+			return result;
+		}
 	}
 
 	public class TypeTranslater
     {
-		public bool needNameSpace;
+		public bool fullName;
 		public Translate translate;
 		public TypeFormater Array = new TypeFormater();
 		public TypeFormater ByRef = new TypeFormater();
@@ -44,6 +53,20 @@ namespace SMFrame.Editor.Refleaction
         public TypeFormater GenericTypeDefinition = new TypeFormater();
 		public TypeFormater GenericType = new TypeFormater();
         public TypeFormater GenericParameter = new TypeFormater();
+
+		public TypeTranslater Clone()
+		{
+			var result = new TypeTranslater();
+			result.fullName = this.fullName;
+			result.translate = this.translate;
+			result.Array = this.Array.Clone();
+			result.ByRef = this.ByRef.Clone();
+			result.Pointer = this.Pointer.Clone();
+			result.GenericTypeDefinition = this.GenericTypeDefinition.Clone();
+			result.GenericType = this.GenericType.Clone();
+			result.GenericParameter = this.GenericParameter.Clone();
+			return result;
+		}
 	}
 
     public static class TypeToString
@@ -53,7 +76,7 @@ namespace SMFrame.Editor.Refleaction
         public static string ToFieldName(this Type type)
         {
 			TypeTranslater typeTranslater = new TypeTranslater();
-			typeTranslater.needNameSpace = false;
+			typeTranslater.fullName = false;
 			typeTranslater.Array.format = "{0}Array";
 			typeTranslater.Pointer.format = "{0}Pointer";
 			typeTranslater.GenericTypeDefinition.fun = (strs) =>
@@ -94,7 +117,7 @@ namespace SMFrame.Editor.Refleaction
 		public static string ToClassName(this Type type, bool needNameSpace = false)
 		{
 			TypeTranslater typeTranslater = new TypeTranslater();
-			typeTranslater.needNameSpace = needNameSpace;
+			typeTranslater.fullName = needNameSpace;
 			typeTranslater.Array.format = "{0}[]";
 			typeTranslater.Pointer.format = "{0}*";
 			typeTranslater.GenericTypeDefinition.fun = (strs) => {
@@ -137,7 +160,7 @@ namespace SMFrame.Editor.Refleaction
 		public static string ToConstructorName(this Type type)
 		{
 			TypeTranslater typeTranslater = new TypeTranslater();
-			typeTranslater.needNameSpace = false;
+			typeTranslater.fullName = false;
 			typeTranslater.Array.format = "{0}[]";
 			typeTranslater.Pointer.format = "{0}*";
 			typeTranslater.GenericTypeDefinition.fun = (strs) => {
@@ -171,7 +194,7 @@ namespace SMFrame.Editor.Refleaction
 		public static string ToDeclareName(this Type type, bool needNameSpace = true)
         {
 			TypeTranslater typeTranslater = new TypeTranslater();
-			typeTranslater.needNameSpace = needNameSpace;
+			typeTranslater.fullName = needNameSpace;
 			typeTranslater.Array.format = "{0}[]";
 			typeTranslater.Pointer.format = "{0}*";
 			typeTranslater.GenericTypeDefinition.fun = (strs) => {
@@ -229,7 +252,7 @@ namespace SMFrame.Editor.Refleaction
 			}
 			else
 			{
-				result = $" ReleactionUtils.GetType(\"{t.ToDeclareName(true)}\")";
+				result = $" ReleactionUtils.GetType(\"{t.FullName}\")";
 			}
 			return true;
 		}
@@ -237,7 +260,7 @@ namespace SMFrame.Editor.Refleaction
 		public static string ToGetMethod(this Type type)
         {
 			TypeTranslater typeTranslater = new TypeTranslater();
-			typeTranslater.needNameSpace = false;
+			typeTranslater.fullName = false;
 			typeTranslater.Array.format = "{0}.MakeArrayType()";
 			typeTranslater.Pointer.format = "{0}.MakePointerType()";
 			typeTranslater.ByRef.format = "{0}.MakeByRefType()";
@@ -332,7 +355,7 @@ namespace SMFrame.Editor.Refleaction
 
 		public static string ToString(this Type type, TypeTranslater translater)
 		{
-			bool needNameSpace = translater.needNameSpace;
+			bool needNameSpace = translater.fullName;
 
 			if(type == null)
 			{
@@ -412,6 +435,10 @@ namespace SMFrame.Editor.Refleaction
 			{
 				if (needNameSpace)
 				{
+					//var typeNames = type.FullName.Split("+");
+					//var ss = "";
+
+					//foreach(var typeNames)
 					return type.Namespace + "." + LegalNameConfig.LegalName(type.Name);
 				}
 				else

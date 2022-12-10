@@ -9,7 +9,7 @@ using System.IO;
 namespace SMFrame.Editor.Refleaction
 {
 
-	class ATestGenericMethod
+	public class ATestGenericMethod
 	{
 		static int qeqwe = 345345345;
 		string sdfsdf = "wffewfwefwefwef";
@@ -202,12 +202,31 @@ namespace SMFrame.Editor.Refleaction
 			GenerateInput.Generate("AddComponentWindow");
 		}
 
+		public class outest
+		{
+			public class inner : ATestGenericMethod
+			{
+				public class innest { }
+			}
+		}
+
 		[MenuItem("Tools/TestNewWay")]
 		static void TestNewWay()
 		{
 			ATestGenericMethod a = new();
-			//RATestGenericMethod ra = new(a);
-			//Debug.Log(ra.sdfsdf.Value + "  " + RATestGenericMethod.qeqwe.Value);
+			var name = typeof(outest.inner.innest).FullName;
+			var type = ReleactionUtils.GetType(name);
+			Debug.Log(type +  "  " + type.Namespace + "  " + type.Name + "  " + type.FullName);
+			var nestedTypes = type.FullName.Replace(type.Namespace, "").Split('+');
+			foreach(var nestedType in nestedTypes)
+			{
+				Debug.Log(nestedType);
+			}
+			GenerateInput.UnityCSReflectionPath = $"{Application.dataPath}/Script/UnityCsReflection/";
+
+
+
+			GenerateInput.Generate(type, false);
 		}
 	}
 }

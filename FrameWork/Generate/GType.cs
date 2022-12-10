@@ -81,14 +81,28 @@ namespace SMFrame.Editor.Refleaction
 		{
 			string delcareStr = GetMemberDeclareStr();
 			string methodInvoke = GetMethodInvokeStr();
+			var nestedTypes = type.FullName.Split('+');
+			var nestedTypeName = string.Empty;
+			var nestedTypeDefine = "";
+			for(int i = 0; i < nestedTypes.Length - 1; i ++)
+			{
+				var nestedType = nestedTypes[i];
+				nestedTypeName += nestedType;
+				var nowDefine = $@"public partial class R{ReleactionUtils.GetType(nestedType).ToClassName()}
+{{
+	";
+				nestedTypeDefine += nowDefine;
+				nestedTypeName += "+";
+			}
 
-
-			return $@"using SMFrame.Editor.Refleaction;
+			string nameSpaceStr = $@"using SMFrame.Editor.Refleaction;
 using System;
 using System.Reflection;
 
 namespace SMFrame.Editor.Refleaction.R{type.Namespace.Replace(".", ".R")}
-{{
+{{";
+
+			string curType = $@"
 	/// <summary>
 	/// {type.FullName}
 	/// </summary>
@@ -116,6 +130,12 @@ namespace SMFrame.Editor.Refleaction.R{type.Namespace.Replace(".", ".R")}
     }}
 }}
 ";
+			nestedTypeDefine += curType;
+			for (int i = 0; i < nestedTypes.Length - 1; i++)
+			{
+				nestedTypeDefine += "}";
+			}
+			return nameSpaceStr + nestedTypeDefine;
 		}
 
 		public HashSet<Type> GetRefTypes()
