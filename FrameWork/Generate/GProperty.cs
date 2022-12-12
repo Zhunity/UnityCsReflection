@@ -74,7 +74,7 @@ namespace SMFrame.Editor.Refleaction
 					}
 				}
 				var genericDefine = type.GetGenericTypeDefinition();
-				var declare = genericDefine.ToDeclareName(true);
+				var declare = genericDefine.ToClassName(true);
 
 				string nameSpace = GetNameSpace(declare);
 				var result = Regex.Replace(nameSpace, @"<\,*>", $"<{gstr}>");
@@ -86,7 +86,7 @@ namespace SMFrame.Editor.Refleaction
 			}
 			else
 			{
-				var declare = type.ToDeclareName(true);
+				var declare = type.ToClassName(true);
 				string nameSpace = GetNameSpace(declare);
 				return nameSpace;
 			}

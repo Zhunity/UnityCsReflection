@@ -227,8 +227,8 @@ namespace SMFrame.Editor.Refleaction
 
 
 
-			GenerateInput.Generate(type, false);
-			GenerateInput.Generate(typeof(outest.inner), false);
+			GenerateInput.Generate(typeof(Dictionary<,>), false);
+			//GenerateInput.Generate(typeof(outest.inner), false);
 		}
 	}
 }
