@@ -55,8 +55,8 @@ namespace SMFrame.Editor.Refleaction
 		{
 			TypeTranslater typeTranslater = new TypeTranslater();
 			typeTranslater.fullName = true;
-			typeTranslater.Array.format = "RPropertyArray<{0}>";
-			typeTranslater.Pointer.format = "RPropertyPointer<{0}>";
+			typeTranslater.Array.format = "PropertyArray<{0}>";
+			typeTranslater.Pointer.format = "PropertyPointer<{0}>";
 			typeTranslater.GenericTypeDefinition.fun = (strs) =>
 			{
 				var genericDefine = strs[0];
@@ -89,7 +89,7 @@ namespace SMFrame.Editor.Refleaction
 				var defineName = Regex.Replace(genericDefine, @"`\d+", $"<{genericParamStr}>");
 				return defineName;
 			};
-			typeTranslater.GenericParameter.format = "RProperty";
+			typeTranslater.GenericParameter.format = "Property";
 			typeTranslater.translate = Translater;
 
 
@@ -104,7 +104,7 @@ namespace SMFrame.Editor.Refleaction
 		{
 			if (PrimitiveTypeConfig.IsPrimitive(t))
 			{
-				result = "RProperty";
+				result = "Property";
 				return true;
 			}
 			result = String.Empty;
@@ -117,7 +117,7 @@ namespace SMFrame.Editor.Refleaction
 			{
 				return string.Empty;
 			}
-			return $"SMFrame.Editor.Refleaction.R{declare.Replace(".", ".R")}";
+			return $"R{declare.Replace(".", ".R").Replace("<", "<R").Replace(", ", ", R")}";
 		}
 	}
 }
