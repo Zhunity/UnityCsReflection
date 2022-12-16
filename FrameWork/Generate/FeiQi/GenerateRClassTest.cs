@@ -227,24 +227,16 @@ namespace SMFrame.Editor.Refleaction
 			ATestGenericMethod a = new();
 			var name = typeof(outest.inner.innest<>).FullName;
 			var type = ReleactionUtils.GetType(name);
-			Debug.Log(type)
-
-;			var ts = type.GetGenericArguments();
-			foreach(var t in ts)
-			{
-				var con = t.GetGenericParameterConstraints();
-				foreach (var imte in con)
-				{
-					Debug.Log(imte);
-				}
-			}
-				
-			//GenerateInput.UnityCSReflectionPath = $"{Application.dataPath}/Script/UnityCsReflection/";
+			Debug.Log(type);
 
 
 
-			//GenerateInput.Generate(typeof(outest), false);
-			//GenerateInput.Generate(typeof(outest.inner), false);
+			GenerateInput.UnityCSReflectionPath = $"{Application.dataPath}/Script/UnityCsReflection/";
+
+
+
+			GenerateInput.Generate(typeof(outest), false);
+			GenerateInput.Generate(typeof(outest.inner), false);
 		}
 	}
 }

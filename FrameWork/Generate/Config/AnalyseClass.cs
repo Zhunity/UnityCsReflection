@@ -191,10 +191,10 @@ namespace SMFrame.Editor.Refleaction
 		}
 
 
-		public static string ToDeclareName(this Type type, bool needNameSpace = true)
+		public static string ToDeclareName(this Type type, bool fullName = true)
         {
 			TypeTranslater typeTranslater = new TypeTranslater();
-			typeTranslater.fullName = needNameSpace;
+			typeTranslater.fullName = fullName;
 			typeTranslater.Array.format = "{0}[]";
 			typeTranslater.Pointer.format = "{0}*";
 			typeTranslater.GenericTypeDefinition.fun = (strs) => {

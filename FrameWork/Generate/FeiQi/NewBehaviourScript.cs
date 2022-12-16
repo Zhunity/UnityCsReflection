@@ -23,7 +23,7 @@ public class Base {
 public class Test<T, U, V, W, X, Y> : Base
 	where T : Base, ITest
 	where U : class, new()
-	where V : struct, IComparable<T>
+	where V : struct
 	where W : unmanaged
 	where X : notnull
 	//where Y : defaultk
@@ -36,7 +36,12 @@ public class Test<T, U, V, W, X, Y> : Base
 
 // Define a type that derives from Base and implements ITest. This type
 // satisfies the constraints on T in class Test.
-public class Derived : Base, ITest { }
+public class Derived : Base, ITest { 
+	//void test<T, U, V, W, X, Y>(Test<T, U, V, W, X, Y> a)
+	//{
+
+	//}
+}
 
 public class Example
 {
@@ -56,8 +61,7 @@ public class Example
 		Type[] defparams = def.GetGenericArguments();
 		foreach (Type tp in defparams)
 		{
-			Debug.LogFormat("Type parameter: {0}\t{1}", tp.Name,
-				ListGenericParameterAttributes(tp));
+			
 
 			// List the base class and interface constraints. The
 			// constraints are returned in no particular order. If 
@@ -65,10 +69,14 @@ public class Example
 			// array is returned.
 			//
 			Type[] tpConstraints = tp.GetGenericParameterConstraints();
+			var str = "";
 			foreach (Type tpc in tpConstraints)
 			{
+				str += tpc + "\t";
 				//Debug.LogFormat("\t{0}", tpc);
 			}
+			Debug.LogFormat("Type parameter: {0}\tcon : {1}\ttype :{2}", tp.Name,
+				ListGenericParameterAttributes(tp), str);
 		}
 	}
 

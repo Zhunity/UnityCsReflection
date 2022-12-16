@@ -53,43 +53,62 @@ namespace SMFrame.Editor.Refleaction
 
 		private string GetPropertyType(Type type)
 		{
-			if (type.IsArray)
+			TypeTranslater typeTranslater = new TypeTranslater();
+			typeTranslater.fullName = true;
+			typeTranslater.Array.format = "RPropertyArray<{0}>";
+			typeTranslater.Pointer.format = "RPropertyPointer<{0}>";
+			typeTranslater.GenericTypeDefinition.fun = (strs) =>
 			{
-				return $"RPropertyArray<{GetPropertyType(type.GetElementType())}>";
-			}
-			else if (type.IsPointer)
-			{
-				return $"RPropertyPointer<{GetPropertyType(type.GetElementType())}>";
-			}
-			else if (type.IsGenericType)
-			{
-				var genericTypes = type.GetGenericArguments();
-				string gstr = String.Empty;
-				for (int i = 0; i < genericTypes.Length; i++)
+				var genericDefine = strs[0];
+				string genericParamStr = string.Empty;
+				for (int i = 1; i < strs.Length; i++)
 				{
-					gstr += GetPropertyType(genericTypes[i]);
-					if (i < genericTypes.Length - 1)
+					var paramName = strs[i];
+					genericParamStr += paramName;
+					if (i != strs.Length - 1)
 					{
-						gstr += ", ";
+						genericParamStr += ", ";
 					}
 				}
-				var genericDefine = type.GetGenericTypeDefinition();
-				var declare = genericDefine.ToClassName(true);
+				var defineName = Regex.Replace(genericDefine, @"`\d+", $"<{genericParamStr}>");
+				return defineName;
+			};
+			typeTranslater.GenericType.fun = (strs) =>
+			{
+				var genericDefine = strs[1];
+				string genericParamStr = string.Empty;
+				for (int i = 2; i < strs.Length; i++)
+				{
+					var paramName = strs[i];
+					genericParamStr += paramName;
+					if (i != strs.Length - 1)
+					{
+						genericParamStr += ", ";
+					}
+				}
+				var defineName = Regex.Replace(genericDefine, @"`\d+", $"<{genericParamStr}>");
+				return defineName;
+			};
+			typeTranslater.GenericParameter.format = "RProperty";
+			typeTranslater.translate = Translater;
 
-				string nameSpace = GetNameSpace(declare);
-				var result = Regex.Replace(nameSpace, @"<\,*>", $"<{gstr}>");
-				return result;
-			}
-			else if(PrimitiveTypeConfig.IsPrimitive(type))
+
+
+
+			var declare = type.ToString(typeTranslater);
+			string nameSpace = GetNameSpace(declare);
+			return nameSpace;
+		}
+
+		private bool Translater(Type t, TypeTranslater translater, out string result)
+		{
+			if (PrimitiveTypeConfig.IsPrimitive(t))
 			{
-				return "RProperty";
+				result = "RProperty";
+				return true;
 			}
-			else
-			{
-				var declare = type.ToClassName(true);
-				string nameSpace = GetNameSpace(declare);
-				return nameSpace;
-			}
+			result = String.Empty;
+			return false;
 		}
 
 		private string GetNameSpace(string declare)

@@ -31,44 +31,63 @@ namespace SMFrame.Editor.Refleaction
 
         private string GetFieldType(Type type)
         {
-            if (type.IsArray)
+			TypeTranslater typeTranslater = new TypeTranslater();
+			typeTranslater.fullName = true;
+			typeTranslater.Array.format = "RFieldArray<{0}>";
+			typeTranslater.Pointer.format = "RFieldPointer<{0}>";
+            typeTranslater.GenericTypeDefinition.fun = (strs) =>
             {
-                return $"RFieldArray<{GetFieldType(type.GetElementType())}>";
-            }
-            else if (type.IsPointer)
+				var genericDefine = strs[0];
+				string genericParamStr = string.Empty;
+				for (int i = 1; i < strs.Length; i++)
+				{
+					var paramName = strs[i];
+					genericParamStr += paramName;
+					if (i != strs.Length - 1)
+					{
+						genericParamStr += ", ";
+					}
+				}
+				var defineName = Regex.Replace(genericDefine, @"`\d+", $"<{genericParamStr}>");
+				return defineName;
+			};
+            typeTranslater.GenericType.fun = (strs) =>
             {
-                return $"RFieldPointer<{GetFieldType(type.GetElementType())}>";
-            }
-            else if (type.IsGenericType)
-            {
-                var genericTypes = type.GetGenericArguments();
-                string gstr = String.Empty;
-                for (int i = 0; i < genericTypes.Length; i++)
-                {
-                    gstr += GetFieldType(genericTypes[i]);
-                    if (i < genericTypes.Length - 1)
-                    {
-                        gstr += ", ";
-                    }
-                }
-                var genericDefine = type.GetGenericTypeDefinition();
-                var declare = genericDefine.ToClassName(true);
+				var genericDefine = strs[1];
+				string genericParamStr = string.Empty;
+				for (int i = 2; i < strs.Length; i++)
+				{
+					var paramName = strs[i];
+					genericParamStr += paramName;
+					if (i != strs.Length - 1)
+					{
+						genericParamStr += ", ";
+					}
+				}
+				var defineName = Regex.Replace(genericDefine, @"`\d+", $"<{genericParamStr}>");
+				return defineName;
+			};
+            typeTranslater.GenericParameter.format = "RField";
+            typeTranslater.translate = Translater;
 
-                string nameSpace = GetNameSpace(declare);
-                var result = Regex.Replace(nameSpace, @"<\,*>", $"<{gstr}>");
-                return result;
-            }
-            else if (PrimitiveTypeConfig.IsPrimitive(type))
-            {
-                return "RField";
-            }
-            else
-            {
-				var declare = type.ToClassName(true);
-				string nameSpace = GetNameSpace(declare);
-				return nameSpace;
+			
+
+
+			var declare = type.ToString(typeTranslater);
+			string nameSpace = GetNameSpace(declare);
+			return nameSpace;
+		}
+
+        private bool Translater(Type t, TypeTranslater translater, out string result)
+        {
+			if (PrimitiveTypeConfig.IsPrimitive(t))
+			{
+                result = "RField";
+				return true;
 			}
-        }
+            result = String.Empty;
+            return false;
+		}
 
         private string GetNameSpace(string declare)
         {
