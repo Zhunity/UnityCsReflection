@@ -206,28 +206,44 @@ namespace SMFrame.Editor.Refleaction
 		{
 			public class inner : ATestGenericMethod
 			{
-				public class innest { }
+				public class innest<U> where U : outest
+				{ }
 			}
 			inner aaa;
 			List<int> list;
 
 			HashSet<string> s
 			{ get; set; }
+
+			T gT<T>(T g) where T : new()
+			{
+				return default;
+			}
 		}
 
 		[MenuItem("Tools/TestNewWay")]
 		static void TestNewWay()
 		{
 			ATestGenericMethod a = new();
-			var name = typeof(outest).FullName;
+			var name = typeof(outest.inner.innest<>).FullName;
 			var type = ReleactionUtils.GetType(name);
-			
+			Debug.Log(type)
 
-			GenerateInput.UnityCSReflectionPath = $"{Application.dataPath}/Script/UnityCsReflection/";
+;			var ts = type.GetGenericArguments();
+			foreach(var t in ts)
+			{
+				var con = t.GetGenericParameterConstraints();
+				foreach (var imte in con)
+				{
+					Debug.Log(imte);
+				}
+			}
+				
+			//GenerateInput.UnityCSReflectionPath = $"{Application.dataPath}/Script/UnityCsReflection/";
 
 
 
-			GenerateInput.Generate(typeof(Dictionary<,>), false);
+			//GenerateInput.Generate(typeof(outest), false);
 			//GenerateInput.Generate(typeof(outest.inner), false);
 		}
 	}
