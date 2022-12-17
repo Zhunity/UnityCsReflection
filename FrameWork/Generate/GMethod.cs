@@ -93,6 +93,7 @@ namespace SMFrame.Editor.Refleaction
 
 			#region ´¦Àí·ºÐÍ
 			var genericArgsDelcareStr = string.Empty;
+			var genericArgsConstraints = string.Empty;
 			var genricArgsStr = string.Empty;
 			var generics = method.GetGenericArguments();
 			if (generics.Length > 0)
@@ -109,6 +110,12 @@ namespace SMFrame.Editor.Refleaction
 					}
 				}
 				genericArgsDelcareStr += ">";
+
+				for (int i = 0; i < generics.Length; i++)
+				{
+					var genericArgs = new GGenericArgument(generics[i]);
+					genericArgsConstraints += genericArgs.ToString();
+				}
 			}
 			#endregion
 
@@ -172,7 +179,7 @@ namespace SMFrame.Editor.Refleaction
 			#endregion
 
 			var result = $@"
-        public {(isUnsafe ? "unsafe " : "")}{(method.IsStatic ? "static" : "virtual")} {returnTypeStr} {LegalNameConfig.LegalName(method.Name)}{genericArgsDelcareStr}({paramDeclareStr})
+        public {(isUnsafe ? "unsafe " : "")}{(method.IsStatic ? "static" : "virtual")} {returnTypeStr} {LegalNameConfig.LegalName(method.Name)}{genericArgsDelcareStr}({paramDeclareStr}){genericArgsConstraints}
         {{
 {outDefaultStr}
             var ___genericsType = new Type[] {{{genricArgsStr}}};

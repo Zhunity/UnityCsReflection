@@ -114,10 +114,10 @@ namespace SMFrame.Editor.Refleaction
             return type.ToString(typeTranslater);
         }
 
-		public static string ToClassName(this Type type, bool needNameSpace = false)
+		public static string ToClassName(this Type type, bool fullName = false)
 		{
 			TypeTranslater typeTranslater = new TypeTranslater();
-			typeTranslater.fullName = needNameSpace;
+			typeTranslater.fullName = fullName;
 			typeTranslater.Array.format = "{0}[]";
 			typeTranslater.Pointer.format = "{0}*";
 			typeTranslater.GenericTypeDefinition.fun = (strs) => {
