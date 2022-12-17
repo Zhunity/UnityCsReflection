@@ -15,6 +15,8 @@ namespace SMFrame.Editor.Refleaction
 	/// </summary>
     public class GType
     {
+		List<GGenericArgument> genericArgs = new List<GGenericArgument>();
+
         List<GField> fields = new List<GField> ();
         List<GProperty> properties = new List<GProperty> ();
         List<GEvent> events = new List<GEvent> ();
@@ -29,6 +31,14 @@ namespace SMFrame.Editor.Refleaction
         public GType(Type type)
         {
             this.type = type;
+
+			var genericArgs = type.GetGenericArgumentsWithoutDeclareType();
+			for(int i = 0; i < genericArgs.Length; i++)
+			{
+				GGenericArgument arg = new GGenericArgument(genericArgs[i]);
+				this.genericArgs.Add(arg);
+			}
+
 			var fields = type.GetFields(RType.flags);
 			foreach (var field in fields)
 			{
@@ -81,6 +91,7 @@ namespace SMFrame.Editor.Refleaction
 		{
 			string delcareStr = GetMemberDeclareStr();
 			string methodInvoke = GetMethodInvokeStr();
+			#region 嵌入类？
 			Type declaringType = type.DeclaringType;
 			var nestedTypeDefine = "";
 			while (declaringType != null)
@@ -91,6 +102,15 @@ namespace SMFrame.Editor.Refleaction
 				nestedTypeDefine = nowDefine + nestedTypeDefine;
 				declaringType = declaringType.DeclaringType;
 			}
+			#endregion
+
+			#region 泛型约束
+			var genericArgsConstraints = string.Empty;
+			foreach(var genericArg in genericArgs)
+			{
+				genericArgsConstraints += genericArg.ToString();
+			}
+			#endregion
 
 			string nameSpaceStr = $@"using SMFrame.Editor.Refleaction;
 using System;
@@ -103,7 +123,7 @@ namespace SMFrame.Editor.Refleaction.R{type.Namespace.Replace(".", ".R")}
 	/// <summary>
 	/// {type.FullName}
 	/// </summary>
-    public partial class R{type.ToClassName()} : RMember
+    public partial class R{type.ToClassName()} : RMember{genericArgsConstraints}
     {{
 {delcareStr}
 

@@ -379,7 +379,7 @@ namespace SMFrame.Editor.Refleaction
 			// 这个要在IsGenericType前，因为IsGenericTypeDefinition也是IsGenericType
 			else if (type.IsGenericTypeDefinition && translater.GenericTypeDefinition.can)
 			{
-				var genericTypes = type.GetGenericArguments();
+				var genericTypes = type.GetGenericArgumentsWithoutDeclareType();
 				var genericDefine = type.GetGenericTypeDefinition();
 				string[] genericParamStr = new string[genericTypes.Length + 1];
 				genericParamStr[0] = genericDefine.Name;
@@ -483,6 +483,34 @@ namespace SMFrame.Editor.Refleaction
 		{
 			return ((eventInfo.AddMethod != null && eventInfo.AddMethod.IsStatic) ||
 				(eventInfo.RemoveMethod != null && eventInfo.RemoveMethod.IsStatic));
+		}
+
+		public static Type[] GetGenericArgumentsWithoutDeclareType(this Type type)
+		{
+			var totalGenericArguments = type.GetGenericArguments();
+			if (!type.IsNested)
+			{
+				return totalGenericArguments;
+			}
+
+			int declareGenericCount = 0;
+			var declareType = type.DeclaringType;
+			while (declareType != null)
+			{
+				if (declareType.IsGenericType)
+				{
+					var genericArgs2 = declareType.GetGenericArguments();
+					declareGenericCount += genericArgs2.Length;
+				}
+				declareType = declareType.DeclaringType;
+			}
+
+			Type[] genericArgs = new Type[totalGenericArguments.Length - declareGenericCount];
+			for(int i = declareGenericCount; i < totalGenericArguments.Length; i++)
+			{
+				genericArgs[i - declareGenericCount] = totalGenericArguments[i];
+			}
+			return genericArgs;
 		}
 	}
 }

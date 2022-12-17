@@ -207,7 +207,12 @@ namespace SMFrame.Editor.Refleaction
 			public class inner : ATestGenericMethod
 			{
 				public class innest<U> where U : outest
-				{ }
+				{
+					public class moreInnest<T> where T : struct
+					{ }
+
+					public class anotherInnest { }
+				}
 			}
 			inner aaa;
 			List<int> list;
@@ -235,8 +240,9 @@ namespace SMFrame.Editor.Refleaction
 
 
 
-			GenerateInput.Generate(typeof(outest), false);
-			GenerateInput.Generate(typeof(outest.inner), false);
+
+			GenerateInput.Generate(typeof(outest.inner.innest<>.moreInnest<>), false);
+			GenerateInput.Generate(typeof(outest.inner.innest<>.anotherInnest), false);
 		}
 	}
 }
