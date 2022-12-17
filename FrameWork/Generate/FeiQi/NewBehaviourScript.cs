@@ -14,19 +14,21 @@ public class Base {
 	}
 }
 
+public struct SValue { }
+
 // Define the generic type to examine. The first generic type parameter,
 // T, derives from the class Base and implements ITest. This demonstrates
 // a base class constraint and an interface constraint. The second generic 
 // type parameter, U, must be a reference type (class) and must have a 
 // default constructor (new()). This demonstrates special constraints.
 //
-public class Test<T, U, V, W, X, Y> : Base
+public class Test<T, U, V, W, X, Y, z> : Base
 	where T : Base, ITest
 	where U : class, new()
-	where V : struct
+	where V : struct, ITest
 	where W : unmanaged
 	where X : notnull
-	//where Y : defaultk
+	//where Y : SValue
 {
 	protected override void haha<z>() where z : default
 	{
@@ -52,7 +54,7 @@ public class Example
 		// arguments but retain the comma to indicate the number
 		// of type arguments. 
 		//
-		Type def = typeof(Test<,,,,,>);
+		Type def = typeof(Test<,,,,,,>);
 		Debug.LogFormat("\r\nExamining generic type {0}", def);
 
 		// Get the type parameters of the generic type definition,
@@ -69,12 +71,43 @@ public class Example
 			// array is returned.
 			//
 			Type[] tpConstraints = tp.GetGenericParameterConstraints();
-			var str = "";
+
+			GenericParameterAttributes gpa = tp.GenericParameterAttributes;
+			GenericParameterAttributes constraints = gpa &
+			GenericParameterAttributes.SpecialConstraintMask;
+			if(tpConstraints.Length <= 0 && constraints == GenericParameterAttributes.None)
+			{
+				//continue;
+			}
+
+
+			var str = $"where {tp.Name} : ";
+			if((constraints & GenericParameterAttributes.ReferenceTypeConstraint) != 0)
+			{
+				str += "class,";
+			}
+
+			if ((constraints & GenericParameterAttributes.NotNullableValueTypeConstraint) != 0)
+			{
+				str += "struct,";
+			}
+
+
 			foreach (Type tpc in tpConstraints)
 			{
-				str += tpc + "\t";
+				if(tpc == typeof(ValueType))
+				{
+					continue;
+				}
+				str += tpc + ", ";
 				//Debug.LogFormat("\t{0}", tpc);
 			}
+
+			if ((constraints & GenericParameterAttributes.DefaultConstructorConstraint) != 0 && (constraints & GenericParameterAttributes.NotNullableValueTypeConstraint) == 0)
+			{
+				str += "new()";
+			}
+
 			Debug.LogFormat("Type parameter: {0}\tcon : {1}\ttype :{2}", tp.Name,
 				ListGenericParameterAttributes(tp), str);
 		}

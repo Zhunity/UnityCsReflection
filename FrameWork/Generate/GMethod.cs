@@ -164,7 +164,6 @@ namespace SMFrame.Editor.Refleaction
 			#endregion
 
 			#region 处理返回值
-			bool hasReturn = method.ReturnType != typeof(void);
 			string returnStr = GetReturn(method.ReturnType, out string returnTypeStr);
 			if (method.ReturnType.IsPointer)
 			{
