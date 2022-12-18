@@ -473,6 +473,20 @@ namespace SMFrame.Editor.Refleaction
 			return true;
 		}
 
+		public static bool ContainType(this Type type, Type targetType)
+		{
+			HashSet<Type> refTypes = new HashSet<Type>();
+			type.GetRefType(ref refTypes);
+			foreach(var refType in refTypes)
+			{
+				if(refType == targetType)
+				{
+					return true;
+				}
+			}
+			return false;
+		}
+
 		public static bool IsStatic(this PropertyInfo propertyInfo)
 		{
 			return ((propertyInfo.CanRead && propertyInfo.GetMethod.IsStatic) ||

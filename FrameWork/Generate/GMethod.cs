@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Reflection;
 using System.Text;
+using Unity.Collections;
 using UnityEngine;
 
 namespace SMFrame.Editor.Refleaction
@@ -209,14 +210,23 @@ namespace SMFrame.Editor.Refleaction
 		}
 
 
-		private static HashSet<Type> CanNotConvertToObject = new HashSet<Type>()
+		private static List<Type> CanNotConvertToObjects = new List<Type>()
 		{
 			typeof(TypedReference),
+			typeof(NativeArray<>),
+			typeof(NativeSlice<>),
 		};
 
 		static string GetReturn(Type returnType, out string returnTypeStr)
 		{
-			bool canConvertToObject = !CanNotConvertToObject.Contains(returnType);
+			bool canConvertToObject = true;
+			foreach(var canNot in CanNotConvertToObjects)
+			{
+				if(returnType.ContainType(canNot))
+				{
+					canConvertToObject = false;
+				}
+			}
 			bool isPublic = returnType.IsPublic();
 			returnTypeStr = (canConvertToObject && isPublic) ? returnType.ToClassName(true) : typeof(System.Object).ToClassName(true);
 			bool hasReturn = returnType != typeof(void);

@@ -123,7 +123,7 @@ namespace SMFrame.Editor.Refleaction.R{type.Namespace.Replace(".", ".R")}
 	/// <summary>
 	/// {type.FullName}
 	/// </summary>
-    public partial class R{type.ToClassName()} : RMember{genericArgsConstraints}
+    public partial class R{type.ToClassName()} : RMember //{genericArgsConstraints}
     {{
 {delcareStr}
 
