@@ -3,3 +3,17 @@
 3\buneng zhuan object de leixing zhuli
 4\jicheng guanxi
 5\chengyuan yong get huoqu, buzai new chushihua
+
+AddComponentWindow
+internal new void OnGUI()
+		{
+			if (m_GameObjects.Any((GameObject g) => !g))
+			{
+				Close();
+				GUIUtility.ExitGUI();
+			}
+			else
+			{
+				base.OnGUI();
+			}
+		}
