@@ -53,12 +53,13 @@ namespace SMFrame.Editor.Refleaction
         public TypeFormater GenericTypeDefinition = new TypeFormater();
 		public TypeFormater GenericType = new TypeFormater();
         public TypeFormater GenericParameter = new TypeFormater();
+        public Translate defaultTran;
 
-		public TypeTranslater Clone()
+        public TypeTranslater Clone()
 		{
 			var result = new TypeTranslater();
 			result.fullName = this.fullName;
-			result.translate = this.translate;
+			result.defaultTran = this.defaultTran;
 			result.Array = this.Array.Clone();
 			result.ByRef = this.ByRef.Clone();
 			result.Pointer = this.Pointer.Clone();
@@ -151,7 +152,7 @@ namespace SMFrame.Editor.Refleaction
 				return defineName;
 			};
 
-			typeTranslater.translate = VoidToDeclareName;
+			typeTranslater.defaultTran = VoidToDeclareName;
 
 
 			return type.ToString(typeTranslater);
@@ -184,7 +185,7 @@ namespace SMFrame.Editor.Refleaction
 				return defineName;
 			};
 
-			typeTranslater.translate = VoidToDeclareName;
+			typeTranslater.defaultTran = VoidToDeclareName;
 
 
 			return type.ToString(typeTranslater);
@@ -226,7 +227,7 @@ namespace SMFrame.Editor.Refleaction
 				return defineName;
 			};
 
-			typeTranslater.translate = VoidToDeclareName;
+			typeTranslater.defaultTran = VoidToDeclareName;
 
 
             return type.ToString(typeTranslater);
@@ -281,7 +282,7 @@ namespace SMFrame.Editor.Refleaction
 				return $"{genericDefineStr}.MakeGenericType({genericParamStr})";
 			};
 			typeTranslater.GenericParameter.format = "Type.MakeGenericMethodParameter({1})";
-			typeTranslater.translate = PublicToGetMethod;
+			typeTranslater.defaultTran = PublicToGetMethod;
 
 
 			return type.ToString(typeTranslater);
@@ -357,7 +358,12 @@ namespace SMFrame.Editor.Refleaction
 		{
 			bool needNameSpace = translater.fullName;
 
-			if(type == null)
+
+            if (translater.translate != null && translater.translate(type, translater, out string result))
+            {
+                return result;
+            }
+            else if(type == null)
 			{
 				return String.Empty;
 			}
@@ -427,7 +433,7 @@ namespace SMFrame.Editor.Refleaction
 			{
 				return translater.GenericParameter.Format(type.Name, type.GenericParameterPosition.ToString());
 			}
-			else if (translater.translate != null && translater.translate(type, translater, out string result))
+			else if (translater.defaultTran != null && translater.defaultTran(type, translater, out result))
 			{
 				return result;
 			}
