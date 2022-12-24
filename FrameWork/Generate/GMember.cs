@@ -12,6 +12,11 @@ namespace SMFrame.Editor.Refleaction
 
 		protected bool isStatic = false;
 
+		public virtual string GetDeclareName()
+		{
+			return string.Empty;
+		}
+
 		public virtual void GetRefTypes(HashSet<Type> refTypes) { }
 
 		public virtual void GetDeclareStr(StringBuilder sb) { }
@@ -21,13 +26,13 @@ namespace SMFrame.Editor.Refleaction
 			return string.Empty;
 		}
 
-		protected string GetDeclareStr(string type, string declareName, string findName, string note)
+		protected string GetDeclareStr(string type, string findName, string note)
 		{
 			string staticFieldStr = isStatic ? "static " : string.Empty;
 			string statiPropertyStr = isStatic ? "static " : "virtual ";
 			string belong = isStatic ? gType.type.ToGetMethod() : "this";
 			string setBelong = isStatic ? "null" : "this.instance";
-			declareName = LegalNameConfig.LegalName(declareName);
+			string declareName = LegalNameConfig.LegalName(GetDeclareName());
 			string protectedName = "r_" + declareName;
 			string paramStr = GetNewParamStr();
 			string result = @$"

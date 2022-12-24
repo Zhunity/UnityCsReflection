@@ -22,10 +22,15 @@ namespace SMFrame.Editor.Refleaction
 			field.FieldType.GetRefType(ref refTypes);
 		}
 
-        public override void GetDeclareStr(StringBuilder sb)
+		public override string GetDeclareName()
+		{
+			return field.Name;
+		}
+
+		public override void GetDeclareStr(StringBuilder sb)
         {
             string fieldType = GetFieldType(field.FieldType);
-            var declareStr = GetDeclareStr(fieldType, field.Name, field.Name, field.ToString());
+			var declareStr = GetDeclareStr(fieldType, field.Name, field.ToString());
             sb.AppendLine(declareStr);
 		}
 

@@ -23,11 +23,15 @@ namespace SMFrame.Editor.Refleaction
 			property.PropertyType.GetRefType(ref refTypes);
 		}
 
+		public override string GetDeclareName()
+		{
+			return GetPropertyName(property);
+		}
+
 		public override void GetDeclareStr(StringBuilder sb)
 		{
 			string fieldType = GetPropertyType(property.PropertyType); 
-			string name = GetPropertyName(property);
-			var declareStr = GetDeclareStr(fieldType, name, property.Name, property.ToString());
+			var declareStr = GetDeclareStr(fieldType, property.Name, property.ToString());
 			sb.AppendLine(declareStr);
 		}
 

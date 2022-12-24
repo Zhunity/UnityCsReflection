@@ -17,12 +17,12 @@ namespace SMFrame.Editor.Refleaction
     {
 		List<GGenericArgument> genericArgs = new List<GGenericArgument>();
 
-        List<GField> fields = new List<GField> ();
-        List<GProperty> properties = new List<GProperty> ();
-        List<GEvent> events = new List<GEvent> ();
-        List<GMethod> methods = new List<GMethod> ();
+        Dictionary<string, GField> fields = new ();
+		Dictionary<string, GProperty> properties = new ();
+		Dictionary<string, GEvent> events = new();
+		Dictionary<string, GMethod> methods = new();
 
-		List<GMember> members = new List<GMember>();
+		Dictionary<string, GMember> members = new();
 
 		HashSet<Type> refs = new HashSet<Type>();
 
@@ -43,7 +43,11 @@ namespace SMFrame.Editor.Refleaction
 			foreach (var field in fields)
 			{
                 GField gField = new(field);
-                this.fields.Add(gField);
+				string name = gField.GetDeclareName();
+                if(!this.fields.TryAdd(name, gField) || !this.members.TryAdd(name, gField))
+				{
+					Debug.LogError(type.Name + "ÃÌº”field ß∞‹:" + name);
+				}
 			}
 
 			HashSet<MethodInfo> getSetHash = new HashSet<MethodInfo>();
@@ -53,7 +57,12 @@ namespace SMFrame.Editor.Refleaction
 				getSetHash.Add(property.GetMethod);
 				getSetHash.Add(property.SetMethod);
 				GProperty gProperty = new(property);
-				this.properties.Add(gProperty);
+
+				string name = gProperty.GetDeclareName();
+				if (!this.properties.TryAdd(name, gProperty) || !this.members.TryAdd(name, gProperty))
+				{
+					Debug.LogError(type.Name + "ÃÌº”properties ß∞‹:" + name);
+				}
 			}
 
 			var events = type.GetEvents(RType.flags);
@@ -62,7 +71,12 @@ namespace SMFrame.Editor.Refleaction
 				getSetHash.Add(@event.AddMethod);
 				getSetHash.Add(@event.RemoveMethod);
 				GEvent gEvent = new(@event);
-				this.events.Add(gEvent);
+
+				string name = gEvent.GetDeclareName();
+				if (!this.events.TryAdd(name, gEvent) || !this.members.TryAdd(name, gEvent))
+				{
+					Debug.LogError(type.Name + "ÃÌº”events ß∞‹:" + name);
+				}
 			}
 
 			var methods = type.GetMethods(RType.flags);
@@ -73,15 +87,15 @@ namespace SMFrame.Editor.Refleaction
 					continue;
 				}
 				GMethod gMethod = new(method);
-				this.methods.Add(gMethod);
+
+				string name = gMethod.GetDeclareName();
+				if (!this.methods.TryAdd(name, gMethod) || !this.members.TryAdd(name, gMethod))
+				{
+					Debug.LogError(type.Name + "ÃÌº”methods ß∞‹:" + name);
+				}
 			}
 
-			members.AddRange(this.fields);
-			members.AddRange(this.properties);
-			members.AddRange(this.events);
-			members.AddRange(this.methods);
-
-			foreach(var member in members)
+			foreach(var member in members.Values)
 			{
 				member.gType = this;
 			}
@@ -165,7 +179,7 @@ namespace SMFrame.Editor.Refleaction.R{type.Namespace.Replace(".", ".R")}
 			}
 
 			HashSet<Type> types = new HashSet<Type>();
-			foreach(var member in members)
+			foreach(var member in members.Values)
 			{
 				member.GetRefTypes(types);
 			}
@@ -180,7 +194,7 @@ namespace SMFrame.Editor.Refleaction.R{type.Namespace.Replace(".", ".R")}
 		private string GetMemberDeclareStr()
 		{
 			StringBuilder sb = new StringBuilder();
-			foreach(var member in members)
+			foreach(var member in members.Values)
 			{
 				member.GetDeclareStr(sb);
 			}
@@ -190,7 +204,7 @@ namespace SMFrame.Editor.Refleaction.R{type.Namespace.Replace(".", ".R")}
 		private string GetMethodInvokeStr()
 		{
 			StringBuilder sb = new StringBuilder();
-			foreach (var method in methods)
+			foreach (var method in methods.Values)
 			{
 				sb.AppendLine(method.GenerateMethodInvoke());
 			}

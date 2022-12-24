@@ -30,8 +30,7 @@ namespace SMFrame.Editor.Refleaction
 
 		public override void GetDeclareStr(StringBuilder sb)
 		{
-			string name = GetMethodName(method);
-			var declareStr = GetDeclareStr("RMethod", name, method.Name, method.ToString());
+			var declareStr = GetDeclareStr("RMethod", method.Name, method.ToString());
 			sb.AppendLine(declareStr);
 		}
 
@@ -46,6 +45,11 @@ namespace SMFrame.Editor.Refleaction
 			}
 
 			return $", {generics.Length}{paramStr}";
+		}
+
+		public override string GetDeclareName()
+		{
+			return GetMethodName(method);
 		}
 
 		static public string GetMethodName(MethodInfo method)

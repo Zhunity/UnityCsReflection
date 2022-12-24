@@ -21,10 +21,15 @@ namespace SMFrame.Editor.Refleaction
 		{
 		}
 
-        public override void GetDeclareStr(StringBuilder sb)
+		public override string GetDeclareName()
+		{
+			return @event.Name;
+		}
+
+		public override void GetDeclareStr(StringBuilder sb)
         {
 			string fieldType = "REvent";
-			var declareStr = GetDeclareStr(fieldType, @event.Name, @event.Name, @event.ToString());
+			var declareStr = GetDeclareStr(fieldType, @event.Name, @event.ToString());
 			sb.AppendLine(declareStr);
 		}
     }

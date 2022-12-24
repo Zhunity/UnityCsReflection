@@ -5,6 +5,7 @@ using UnityEngine;
 using UnityEditor;
 using System.Reflection;
 using System.IO;
+using System.Runtime.CompilerServices;
 
 namespace SMFrame.Editor.Refleaction
 {
@@ -226,23 +227,49 @@ namespace SMFrame.Editor.Refleaction
 			}
 		}
 
+		class aBase
+		{
+			public void newmethod()
+			{
+
+			}
+
+			public virtual void virtualmethod()
+			{
+
+			}
+		}
+
+		class child : aBase
+		{
+			public new void newmethod()
+			{
+
+			}
+
+			public override void virtualmethod()
+			{
+				base.virtualmethod();
+			}
+		}
+
 		[MenuItem("Tools/TestNewWay")]
 		static void TestNewWay()
 		{
-			ATestGenericMethod a = new();
-			var name = typeof(outest.inner.innest<>).FullName;
-			var type = ReleactionUtils.GetType(name);
-			Debug.Log(type);
+			Type t = typeof(child);
+			var m = t.GetMethods(RType.flags);
+			foreach(var s in m )
+			{
+				Debug.Log(s.ToString() + " " + s.IsHideBySig + "  " + s.DeclaringType);
+			}
+
+			//GenerateInput.UnityCSReflectionPath = $"{Application.dataPath}/Script/UnityCsReflection/";
 
 
 
-			GenerateInput.UnityCSReflectionPath = $"{Application.dataPath}/Script/UnityCsReflection/";
 
-
-
-
-			GenerateInput.Generate(typeof(outest.inner.innest<>.moreInnest<>), false);
-			GenerateInput.Generate(typeof(outest.inner.innest<>.anotherInnest), false);
+			//GenerateInput.Generate(typeof(outest.inner.innest<>.moreInnest<>), false);
+			//GenerateInput.Generate(typeof(outest.inner.innest<>.anotherInnest), false);
 		}
 	}
 }
