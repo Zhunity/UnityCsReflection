@@ -17,3 +17,9 @@ internal new void OnGUI()
 				base.OnGUI();
 			}
 		}
+
+
+
+
+6、指针函数咋整
+7、泛型struct咋整

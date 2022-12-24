@@ -159,14 +159,19 @@ namespace SMFrame.Editor.Refleaction
 						outAssignStr += $"\t\t\t{param.Name} = ({paramType.ToClassName(true)})___parameters[{param.Position}];\n";
 					}
 				}
-				if (paramType.IsPointer)
+				if (paramType.IsUnsafe())
 				{
 					isUnsafe = true;
 				}
 
 				str += paramType.ToClassName(true) + "  @" + param.Name;
 				paramDeclareStr += str;
-				paramStr += GetParamName(param);
+				
+				if (!GetParamName(param, out var paramName))
+				{
+					return string.Empty;
+				}
+				paramStr += paramName;
 				if (i < parameters.Length - 1)
 				{
 					paramDeclareStr += ", ";
@@ -177,12 +182,16 @@ namespace SMFrame.Editor.Refleaction
 
 			#region 处理返回值
 			string returnStr = GetReturn(method.ReturnType, out string returnTypeStr);
-			if (method.ReturnType.IsPointer)
+			if (method.ReturnType.IsUnsafe())
 			{
 				isUnsafe = true;
 			}
 			#endregion
 
+			if(isUnsafe)
+			{
+				return string.Empty;
+			}
 			var result = $@"
         public {(isUnsafe ? "unsafe " : "")}{(method.IsStatic ? "static" : "virtual")} {returnTypeStr} {LegalNameConfig.LegalName(method.Name)}{genericArgsDelcareStr}({paramDeclareStr}){genericArgsConstraints}
         {{
@@ -197,20 +206,29 @@ namespace SMFrame.Editor.Refleaction
 			return result;
 		}
 
-		static string GetParamName(ParameterInfo param)
+		static bool GetParamName(ParameterInfo param, out string result)
 		{
+			result = string.Empty;
+			foreach (var canNot in CanNotConvertToObjects)
+			{
+				if (param.ParameterType.ContainType(canNot))
+				{
+					return false;
+				}
+			}
 			if (param.ParameterType.IsPointer)
 			{
-				return $"Pointer.Box(@{param.Name}, typeof({param.ParameterType.GetElementType().ToDeclareName()}))";
+				result = $"Pointer.Box(@{param.Name}, typeof({param.ParameterType.GetElementType().ToDeclareName()}))";
 			}
 			else if (param.ParameterType == typeof(TypedReference))
 			{
-				return $"TypedReference.ToObject(@{param.Name})";
+				result = $"TypedReference.ToObject(@{param.Name})";
 			}
 			else
 			{
-				return "@" + param.Name;
+				result = "@" + param.Name;
 			}
+			return true;
 		}
 
 
@@ -219,6 +237,8 @@ namespace SMFrame.Editor.Refleaction
 			typeof(TypedReference),
 			typeof(NativeArray<>),
 			typeof(NativeSlice<>),
+			typeof(Span<>),
+			typeof(ReadOnlySpan<>),
 		};
 
 		static string GetReturn(Type returnType, out string returnTypeStr)

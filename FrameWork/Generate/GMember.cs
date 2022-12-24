@@ -34,13 +34,14 @@ namespace SMFrame.Editor.Refleaction
 			string setBelong = isStatic ? "null" : "this.instance";
 			string declareName = LegalNameConfig.LegalName(GetDeclareName());
 			string protectedName = "r_" + declareName;
+			string publicName = declareName.StartsWith("R") ? declareName : "R" + declareName;
 			string paramStr = GetNewParamStr();
 			string result = @$"
 		/// <summary>
 		/// {note}
 		/// </summary>
 		protected {staticFieldStr}{type} {protectedName};
-		public {statiPropertyStr}{type} {declareName}
+		public {statiPropertyStr}{type} {publicName}
 		{{
 			get
 			{{
