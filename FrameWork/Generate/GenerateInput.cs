@@ -108,6 +108,34 @@ namespace SMFrame.Editor.Refleaction
 			LegalNameConfig.SaveReplace(jsonFile);
 			AssetDatabase.Refresh();
 		}
+
+		public static void Generate(List<object> objs)
+		{
+			_waitToGenerate.Clear();
+			_cacheType.Clear();
+			string jsonFile = UnityCSReflectionPath + "FrameWork/Generate/Config/Replace.txt";
+			LegalNameConfig.LoadReplace(jsonFile);
+			foreach (var obj in objs)
+			{
+				Type type;
+				switch(obj)
+				{
+					case Type t:
+						type = t;
+						break;
+					case string name:
+						type = ReleactionUtils.GetType(name);
+						break;
+					default:
+						type = obj.GetType();
+						break;
+				}
+				AddGenerateClass(type);
+			}
+			GenerateClasses();
+			LegalNameConfig.SaveReplace(jsonFile);
+			AssetDatabase.Refresh();
+		}
 		#endregion
 
 		public static void GenerateInternal(Type classType, bool refType = true)
@@ -123,7 +151,8 @@ namespace SMFrame.Editor.Refleaction
 			}	
 
 			var generateStr = gType.ToString();
-			var path = $"{UnityCSReflectionPath}Generate/{classType.FullName.Replace(classType.Name, "").Replace(".", "/").Replace("+", "/")}/R{LegalNameConfig.LegalName(classType.Name)}.cs";
+			var path = GetPath(classType);
+
 			var folder = Path.GetDirectoryName(path);
 			if (!Directory.Exists(folder))
 			{
@@ -136,6 +165,34 @@ namespace SMFrame.Editor.Refleaction
 			File.WriteAllText(path, generateStr);
 		}
 
+
+		private static string GetPath(Type classType)
+		{
+			string path = classType.FullName.Replace(classType.Name, "");
+			var nameSpaceSplits = path.Split(".");
+			string result = $"{UnityCSReflectionPath}Generate/";
+			for(int i = 0; i < nameSpaceSplits.Length; i ++)
+			{
+				var nameSpaceSplit = nameSpaceSplits[i];
+				if(string.IsNullOrEmpty(nameSpaceSplit))
+				{
+					continue;
+				}
+				var nestedTypeSplits = nameSpaceSplit.Split("+");
+				for(int j = 0; j < nestedTypeSplits.Length; j ++)
+				{
+					var nestedTypeSplit = nestedTypeSplits[j];
+					if (string.IsNullOrEmpty(nestedTypeSplit))
+					{
+						continue;
+					}
+					result += LegalNameConfig.LegalName(nestedTypeSplit) + "/";
+				}
+
+			}
+			result += $"R{ LegalNameConfig.LegalName(classType.Name)}.cs";
+			return result;
+		}
 		
 
 		/// <summary>

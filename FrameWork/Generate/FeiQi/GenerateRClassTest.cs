@@ -198,9 +198,7 @@ namespace SMFrame.Editor.Refleaction
 		{
 			GenerateInput.UnityCSReflectionPath = $"{Application.dataPath}/Script/UnityCsReflection/";
 
-			GenerateInput.Generate("UnityType");
-			GenerateInput.Generate("ComponentDropdownItem");
-			GenerateInput.Generate("AddComponentWindow");
+			GenerateInput.Generate(new List<string> { "UnityType", "ComponentDropdownItem", "AddComponentWindow" });
 		}
 
 		public class outest
@@ -256,19 +254,19 @@ namespace SMFrame.Editor.Refleaction
 		[MenuItem("Tools/TestNewWay")]
 		static void TestNewWay()
 		{
-			Type t = typeof(child);
-			var m = t.GetMethods(RType.flags);
-			foreach(var s in m )
-			{
-				Debug.Log(s.ToString() + " " + s.IsHideBySig + "  " + s.DeclaringType);
-			}
+			//Type t = typeof(child);
+			//var m = t.GetMethods(RType.flags);
+			//foreach(var s in m )
+			//{
+			//	Debug.Log(s.ToString() + " " + s.IsHideBySig + "  " + s.DeclaringType);
+			//}
 
-			//GenerateInput.UnityCSReflectionPath = $"{Application.dataPath}/Script/UnityCsReflection/";
-
-
+			GenerateInput.UnityCSReflectionPath = $"{Application.dataPath}/Script/UnityCsReflection/";
 
 
-			//GenerateInput.Generate(typeof(outest.inner.innest<>.moreInnest<>), false);
+
+
+			GenerateInput.Generate(typeof(outest.inner.innest<>.moreInnest<>), false);
 			//GenerateInput.Generate(typeof(outest.inner.innest<>.anotherInnest), false);
 		}
 	}
