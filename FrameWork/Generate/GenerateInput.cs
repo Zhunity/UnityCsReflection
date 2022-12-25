@@ -46,6 +46,7 @@ namespace SMFrame.Editor.Refleaction
 			EditorUtility.ClearProgressBar();
 		}
 
+		#region 生成单个
 		public static void Generate(Type classType, bool refType = true)
 		{
 			_waitToGenerate.Clear();
@@ -75,6 +76,39 @@ namespace SMFrame.Editor.Refleaction
 		{
 			Generate(instance.GetType());
 		}
+		#endregion
+
+		#region 生成多个
+		public static void Generate(List<Type> types)
+		{
+			_waitToGenerate.Clear();
+			_cacheType.Clear();
+			string jsonFile = UnityCSReflectionPath + "FrameWork/Generate/Config/Replace.txt";
+			LegalNameConfig.LoadReplace(jsonFile);
+			foreach (var type in types)
+			{
+				AddGenerateClass(type);
+			}
+			GenerateClasses();
+			LegalNameConfig.SaveReplace(jsonFile);
+			AssetDatabase.Refresh();
+		}
+
+		public static void Generate(List<string> types)
+		{
+			_waitToGenerate.Clear();
+			_cacheType.Clear();
+			string jsonFile = UnityCSReflectionPath + "FrameWork/Generate/Config/Replace.txt";
+			LegalNameConfig.LoadReplace(jsonFile);
+			foreach (var type in types)
+			{
+				AddGenerateClass(ReleactionUtils.GetType(type));
+			}
+			GenerateClasses();
+			LegalNameConfig.SaveReplace(jsonFile);
+			AssetDatabase.Refresh();
+		}
+		#endregion
 
 		public static void GenerateInternal(Type classType, bool refType = true)
 		{
