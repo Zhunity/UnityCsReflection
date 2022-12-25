@@ -3,19 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 using SMFrame.Editor.Refleaction;
 
-namespace SMFrame.Editor
+namespace SMFrame.Editor.Refleaction.RUnityEditor.RAddComponent
 {
 	/// <summary>
 	/// ComponentItem的对象的对象
 	/// </summary>
-	public class RComponentDropdownItem : RType
+	public partial class RComponentDropdownItem
 	{
 		// ComponentItem在AddComponentWindow显示的名字
-		public RProperty displayName;
-
-		public RComponentDropdownItem(string name) : base(name)
-		{
-			displayName = new RProperty(this, "name");
-		}
+		public RProperty displayName => RdisplayName;
 	}
 }

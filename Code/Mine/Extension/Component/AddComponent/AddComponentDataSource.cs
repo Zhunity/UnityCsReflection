@@ -1,4 +1,5 @@
 ﻿using SMFrame.Editor.Refleaction;
+using SMFrame.Editor.Refleaction.RUnityEditor;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
@@ -79,7 +80,8 @@ namespace SMFrame.Editor.Extension
 			{
 				var classId = int.Parse(command);
 				var unityType = RUnityType.FindTypeByPersistentTypeID(classId);
-				return unityType._name.GetValue().ToString();
+				RUnityType runityType = new(unityType);
+				return runityType.Rname.GetValue().ToString();
 			}
 		}
 	}

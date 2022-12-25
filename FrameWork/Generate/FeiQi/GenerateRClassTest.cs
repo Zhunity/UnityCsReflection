@@ -198,8 +198,8 @@ namespace SMFrame.Editor.Refleaction
 		{
 			GenerateInput.UnityCSReflectionPath = $"{Application.dataPath}/Script/UnityCsReflection/";
 
-
-			
+			GenerateInput.Generate("UnityType");
+			GenerateInput.Generate("ComponentDropdownItem");
 			GenerateInput.Generate("AddComponentWindow");
 		}
 

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEditor;
+using UnityEditor.Callbacks;
 
 namespace SMFrame.Editor.Extension
 {
@@ -11,15 +12,12 @@ namespace SMFrame.Editor.Extension
 	[InitializeOnLoad]
 	public static class EditorTiming
 	{
-		static EditorTiming()
-		{
-			Init();
-			EditorApplication.update += Update;
-			SceneView.duringSceneGui += OnSceneGUI;
-		}
 
+		[DidReloadScripts]
 		static private void Init()
 		{
+			EditorApplication.update += Update;
+			SceneView.duringSceneGui += OnSceneGUI;
 			AddComponentDataSource.ShowNameToComponentName();
 			AddComponentListener.Instance.Init();
 #if !UNITY_2020_2_OR_NEWER
