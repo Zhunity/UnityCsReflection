@@ -9,7 +9,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using Object = System.Object;
 using System.Linq;
-using SMFrame.Editor.Refleaction;
+using SMFrame.Editor.Refleaction.RUnityEditor.RAddComponent;
 
 namespace SMFrame.Editor.Extension
 {
@@ -38,8 +38,8 @@ namespace SMFrame.Editor.Extension
 
 		public void Init()
 		{
-			closedDelegate = CreateDelegate(addComponentWindow.windowClosed.type, "WindowClosed");
-			selectDelegate = CreateDelegate(addComponentWindow.selectionChanged.type, "ItemSelect");
+			closedDelegate = CreateDelegate(addComponentWindow.RwindowClosed.type, "WindowClosed");
+			selectDelegate = CreateDelegate(addComponentWindow.RselectionChanged.type, "ItemSelect");
 		}
 
 

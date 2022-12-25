@@ -52,7 +52,7 @@ namespace SMFrame.Editor.Refleaction
 			_cacheType.Clear();
 			string jsonFile = UnityCSReflectionPath + "FrameWork/Generate/Config/Replace.txt";
 			LegalNameConfig.LoadReplace(jsonFile);
-			GenerateInternal(classType);
+			GenerateInternal(classType, refType);
 			if(refType)
 			{
 				GenerateClasses();
@@ -76,14 +76,17 @@ namespace SMFrame.Editor.Refleaction
 			Generate(instance.GetType());
 		}
 
-		public static void GenerateInternal(Type classType)
+		public static void GenerateInternal(Type classType, bool refType = true)
 		{
 			GType gType = new(classType);
-			var types = gType.GetRefTypes();
-			foreach (var type in types)
+			if(refType)
 			{
-				AddGenerateClass(type);
-			}
+				var types = gType.GetRefTypes();
+				foreach (var type in types)
+				{
+					AddGenerateClass(type);
+				}
+			}	
 
 			var generateStr = gType.ToString();
 			var path = $"{UnityCSReflectionPath}Generate/{classType.FullName.Replace(classType.Name, "").Replace(".", "/").Replace("+", "/")}/R{LegalNameConfig.LegalName(classType.Name)}.cs";
