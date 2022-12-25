@@ -46,7 +46,7 @@ namespace SMFrame.Editor.Refleaction
 				string name = gField.GetDeclareName();
                 if(!this.fields.TryAdd(name, gField) || !this.members.TryAdd(name, gField))
 				{
-					Debug.LogError(type.Name + "ÃÌº”field ß∞‹:" + name);
+					Debug.Log(type.Name + "ÃÌº”field ß∞‹:" + name);
 				}
 			}
 
@@ -61,7 +61,7 @@ namespace SMFrame.Editor.Refleaction
 				string name = gProperty.GetDeclareName();
 				if (!this.properties.TryAdd(name, gProperty) || !this.members.TryAdd(name, gProperty))
 				{
-					Debug.LogError(type.Name + "ÃÌº”properties ß∞‹:" + name);
+					Debug.Log(type.Name + "ÃÌº”properties ß∞‹:" + name);
 				}
 			}
 
@@ -75,7 +75,7 @@ namespace SMFrame.Editor.Refleaction
 				string name = gEvent.GetDeclareName();
 				if (!this.events.TryAdd(name, gEvent) || !this.members.TryAdd(name, gEvent))
 				{
-					Debug.LogError(type.Name + "ÃÌº”events ß∞‹:" + name);
+					Debug.Log(type.Name + "ÃÌº”events ß∞‹:" + name);
 				}
 			}
 
@@ -91,7 +91,7 @@ namespace SMFrame.Editor.Refleaction
 				string name = gMethod.GetDeclareName();
 				if (!this.methods.TryAdd(name, gMethod) || !this.members.TryAdd(name, gMethod))
 				{
-					Debug.LogError(type.Name + "ÃÌº”methods ß∞‹:" + name);
+					Debug.Log(type.Name + "ÃÌº”methods ß∞‹:" + name);
 				}
 			}
 
@@ -126,11 +126,11 @@ namespace SMFrame.Editor.Refleaction
 			}
 			#endregion
 
-			string nameSpaceStr = $@"using SMFrame.Editor.Refleaction;
+			string headerStr = $@"using SMFrame.Editor.Refleaction;
 using System;
 using System.Reflection;
 
-namespace SMFrame.Editor.Refleaction.R{type.Namespace.Replace(".", ".R")}
+namespace SMFrame.Editor.Refleaction{GetNameSpace()}
 {{";
 
 			string curType = $@"
@@ -168,7 +168,32 @@ namespace SMFrame.Editor.Refleaction.R{type.Namespace.Replace(".", ".R")}
 				nestedTypeDefine += "}";
 				declaringType = declaringType.DeclaringType;
 			}
-			return nameSpaceStr + nestedTypeDefine;
+			return headerStr + nestedTypeDefine;
+		}
+
+
+		string GetNameSpace()
+		{
+			if(string.IsNullOrEmpty(type.Namespace))
+			{
+				return string.Empty;
+			}
+			var nameSpaceSplits = type.Namespace.Split(".");
+			string result = ".R";
+			for (int i = 0; i < nameSpaceSplits.Length; i++)
+			{
+				var nameSpaceSplit = nameSpaceSplits[i];
+				if (string.IsNullOrEmpty(nameSpaceSplit))
+				{
+					continue;
+				}
+				result += LegalNameConfig.LegalName(nameSpaceSplit);
+				if(i != nameSpaceSplits.Length - 1)
+				{
+					result += ".R";
+				}
+			}
+			return result;
 		}
 
 		public HashSet<Type> GetRefTypes()

@@ -34,6 +34,10 @@ namespace SMFrame.Editor.Refleaction
 		/// <returns></returns>
 		public static bool IsPrimitive(Type type)
 		{
+			if(type == null)
+			{
+				return true;
+			}
 			if(type.IsGenericType)
 			{
 				var define = type.GetGenericTypeDefinition();
@@ -43,7 +47,7 @@ namespace SMFrame.Editor.Refleaction
 				}
 			}
 
-			return type == null ||
+			return 
 				PrimitiveType.Contains(type) ||
 				type.IsGenericParameter ||
 				type.IsEnum || type.IsPrimitive; // int float等值类型

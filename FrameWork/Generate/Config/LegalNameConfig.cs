@@ -72,6 +72,10 @@ namespace SMFrame.Editor.Refleaction
 			{
 				File.Delete(jsonFile);
 			}
+			if(!Directory.Exists(Path.GetDirectoryName(jsonFile)))
+			{
+				Directory.CreateDirectory(Path.GetDirectoryName(jsonFile));
+			}
 			File.WriteAllText(jsonFile, JsonUtility.ToJson(replace));
 		}
 	}

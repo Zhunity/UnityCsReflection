@@ -29,6 +29,11 @@ namespace SMFrame.Editor.Refleaction
 					break;
 				}
 				Type type = _waitToGenerate.Dequeue();
+				if(type == null)
+				{
+					continue;
+				}
+				type = type.ToBasicType();
 				try
 				{
 					if (IsPrimitive(type) || _cacheType.Contains(type))
@@ -79,7 +84,7 @@ namespace SMFrame.Editor.Refleaction
 		#endregion
 
 		#region 生成多个
-		public static void Generate(List<Type> types)
+		public static void Generate(IEnumerable<Type> types)
 		{
 			_waitToGenerate.Clear();
 			_cacheType.Clear();
@@ -94,7 +99,7 @@ namespace SMFrame.Editor.Refleaction
 			AssetDatabase.Refresh();
 		}
 
-		public static void Generate(List<string> types)
+		public static void Generate(IEnumerable<string> types)
 		{
 			_waitToGenerate.Clear();
 			_cacheType.Clear();
@@ -109,7 +114,7 @@ namespace SMFrame.Editor.Refleaction
 			AssetDatabase.Refresh();
 		}
 
-		public static void Generate(List<object> objs)
+		public static void Generate(IEnumerable<object> objs)
 		{
 			_waitToGenerate.Clear();
 			_cacheType.Clear();

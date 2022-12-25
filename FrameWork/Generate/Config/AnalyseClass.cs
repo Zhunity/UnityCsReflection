@@ -356,7 +356,7 @@ namespace SMFrame.Editor.Refleaction
 
 		public static string ToString(this Type type, TypeTranslater translater)
 		{
-			bool needNameSpace = translater.fullName;
+			bool needFullName = translater.fullName;
 
 
             if (translater.translate != null && translater.translate(type, translater, out string result))
@@ -395,7 +395,7 @@ namespace SMFrame.Editor.Refleaction
 				}
 
 				var defineName = translater.GenericTypeDefinition.Format(genericParamStr);
-				if (needNameSpace)
+				if (needFullName)
 				{
 					return GetNestedFullName(genericDefine, translater, defineName); 
 				}
@@ -420,14 +420,7 @@ namespace SMFrame.Editor.Refleaction
 				}
 
 				var defineName = translater.GenericType.Format(genericParamStr);
-				if (needNameSpace && !defineName.StartsWith(genericDefine.Namespace))
-				{
-					return GetNestedFullName(genericDefine, translater, defineName);
-				}
-				else
-				{
-					return defineName;
-				}
+				return defineName;
 			}
 			else if (type.IsGenericParameter && translater.GenericParameter.can)
 			{
@@ -439,7 +432,7 @@ namespace SMFrame.Editor.Refleaction
 			}
 			else
 			{
-				if (needNameSpace)
+				if (needFullName)
 				{
 					return GetNestedFullName(type, translater, LegalNameConfig.LegalName(type.Name));
 				}
@@ -454,14 +447,25 @@ namespace SMFrame.Editor.Refleaction
 		{
 			if (type.IsNested)
 			{
-				string result = name;
+				string result = LegalNameConfig.LegalName(name);
 				var declareStr = type.DeclaringType.ToString(translater);
 				result = declareStr + "." + result;
 				return result;
 			}
+			else if(string.IsNullOrEmpty(type.Namespace))
+			{
+				return LegalNameConfig.LegalName(name);
+			}
 			else
 			{
-				return type.Namespace + "." + name;
+				var nameSpaceSplit = type.Namespace.Split(".");
+				string result = string.Empty;
+				foreach(var item in nameSpaceSplit)
+				{
+					result += LegalNameConfig.LegalName(item) + ".";
+				}
+				result += LegalNameConfig.LegalName(name);
+				return result;
 			}
 		}
 
