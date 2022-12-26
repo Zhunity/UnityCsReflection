@@ -103,11 +103,18 @@ namespace SMFrame.Editor.Refleaction
 			var generics = method.GetGenericArguments();
 			if (generics.Length > 0)
 			{
-				genericArgsDelcareStr += "<";
+				List<GGenericArgument> gGenericArguments = new List<GGenericArgument>();
 				for (int i = 0; i < generics.Length; i++)
 				{
-					genericArgsDelcareStr += generics[i].Name;
-					genricArgsStr += $"typeof({generics[i].Name})";
+					var genericArgs = new GGenericArgument(generics[i]);
+					gGenericArguments.Add(genericArgs);
+				}
+
+				genericArgsDelcareStr += "<";
+				for (int i = 0; i < gGenericArguments.Count; i++)
+				{
+					genericArgsDelcareStr += gGenericArguments[i].GetName();
+					genricArgsStr += $"typeof({gGenericArguments[i].GetName()})";
 					if (i < generics.Length - 1)
 					{
 						genericArgsDelcareStr += ", ";
@@ -116,9 +123,9 @@ namespace SMFrame.Editor.Refleaction
 				}
 				genericArgsDelcareStr += ">";
 
-				for (int i = 0; i < generics.Length; i++)
+				for (int i = 0; i < gGenericArguments.Count; i++)
 				{
-					var genericArgs = new GGenericArgument(generics[i]);
+					var genericArgs = gGenericArguments[i];
 					genericArgsConstraints += genericArgs.ToString();
 				}
 			}

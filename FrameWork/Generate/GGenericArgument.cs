@@ -61,7 +61,7 @@ namespace SMFrame.Editor.Refleaction
 			{
 				return string.Empty;
 			}
-			string result = $" where {genericArgument.Name} : ";
+			string result = $" where {GetName()} : ";
 			for(int i = 0; i < constraints.Count; i++)
 			{
 				result += constraints[i];
@@ -71,6 +71,11 @@ namespace SMFrame.Editor.Refleaction
 				}
 			}
 			return result;
+		}
+
+		public string GetName()
+		{
+			return LegalNameConfig.LegalName(genericArgument.Name);
 		}
 	}
 }

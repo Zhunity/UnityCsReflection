@@ -526,6 +526,10 @@ namespace SMFrame.Editor.Refleaction
 		public static Type[] GetGenericArgumentsWithoutDeclareType(this Type type)
 		{
 			var totalGenericArguments = type.GetGenericArguments();
+			if(totalGenericArguments == null)
+			{
+				return new Type[] { };
+			}
 			if (!type.IsNested)
 			{
 				return totalGenericArguments;
