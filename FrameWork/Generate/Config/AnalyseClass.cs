@@ -424,7 +424,7 @@ namespace SMFrame.Editor.Refleaction
 			}
 			else if (type.IsGenericParameter && translater.GenericParameter.can)
 			{
-				return translater.GenericParameter.Format(type.Name, type.GenericParameterPosition.ToString());
+				return translater.GenericParameter.Format(LegalNameConfig.LegalName(type.Name), type.GenericParameterPosition.ToString());
 			}
 			else if (translater.defaultTran != null && translater.defaultTran(type, translater, out result))
 			{
@@ -545,6 +545,11 @@ namespace SMFrame.Editor.Refleaction
 					declareGenericCount += genericArgs2.Length;
 				}
 				declareType = declareType.DeclaringType;
+			}
+
+			if(totalGenericArguments.Length - declareGenericCount <= 0)
+			{
+				return new Type[] { };
 			}
 
 			Type[] genericArgs = new Type[totalGenericArguments.Length - declareGenericCount];
