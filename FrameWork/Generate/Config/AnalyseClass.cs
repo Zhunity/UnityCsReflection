@@ -93,7 +93,7 @@ namespace SMFrame.Editor.Refleaction
 						genericParamStr += "_";
 					}
 				}
-				var a = Regex.Replace(genericDefine, @"`\d+", $"_d_{genericParamStr}_p_");
+				var a =  $"{genericDefine}_d_{genericParamStr}_p_";
 				return a;
 			};
 			typeTranslater.GenericType.fun = (strs) => {
@@ -108,7 +108,7 @@ namespace SMFrame.Editor.Refleaction
 						genericParamStr += "_";
 					}
 				}
-				var a = Regex.Replace(genericDefine, @"`\d+", $"_d_{genericParamStr}_p_");
+				var a =  $"{genericDefine}_d_{genericParamStr}_p_";
 				return a;
 			};
 
@@ -133,7 +133,7 @@ namespace SMFrame.Editor.Refleaction
 						genericParamStr += ", ";
 					}
 				}
-				var defineName = Regex.Replace(genericDefine, @"`\d+", $"<{genericParamStr}>");
+				var defineName = $"{genericDefine}<{genericParamStr}>";
 				return defineName;
 			};
 			typeTranslater.GenericType.fun = (strs) => {
@@ -148,7 +148,7 @@ namespace SMFrame.Editor.Refleaction
 						genericParamStr += ", ";
 					}
 				}
-				var defineName = Regex.Replace(genericDefine, @"`\d+", $"<{genericParamStr}>");
+				var defineName = $"{genericDefine}<{genericParamStr}>";
 				return defineName;
 			};
 
@@ -165,9 +165,7 @@ namespace SMFrame.Editor.Refleaction
 			typeTranslater.Array.format = "{0}[]";
 			typeTranslater.Pointer.format = "{0}*";
 			typeTranslater.GenericTypeDefinition.fun = (strs) => {
-				var genericDefine = strs[0];
-				var defineName = Regex.Replace(genericDefine, @"`\d+", $"");
-				return defineName;
+				return strs[0];
 			};
 			typeTranslater.GenericType.fun = (strs) => {
 				var genericDefine = strs[1];
@@ -181,7 +179,7 @@ namespace SMFrame.Editor.Refleaction
 						genericParamStr += ", ";
 					}
 				}
-				var defineName = Regex.Replace(genericDefine, @"`\d+", $"<{genericParamStr}>");
+				var defineName = $"{genericDefine}<{genericParamStr}>";
 				return defineName;
 			};
 
@@ -208,7 +206,7 @@ namespace SMFrame.Editor.Refleaction
 						genericParamStr += ", ";
 					}
 				}
-				var defineName = Regex.Replace(genericDefine, @"`\d+", $"<{genericParamStr}>");
+				var defineName = $"{genericDefine}<{genericParamStr}>";
 				return defineName;
 			};
 			typeTranslater.GenericType.fun = (strs) => {
@@ -223,7 +221,7 @@ namespace SMFrame.Editor.Refleaction
 						genericParamStr += ", ";
 					}
 				}
-				var defineName = Regex.Replace(genericDefine, @"`\d+", $"<{genericParamStr}>");
+				var defineName = $"{genericDefine}<{genericParamStr}>";
 				return defineName;
 			};
 
@@ -386,32 +384,35 @@ namespace SMFrame.Editor.Refleaction
 			else if (type.IsGenericTypeDefinition && translater.GenericTypeDefinition.can)
 			{
 				var genericTypes = type.GetGenericArgumentsWithoutDeclareType();
-				var genericDefine = type.GetGenericTypeDefinition();
 				string[] genericParamStr = new string[genericTypes.Length + 1];
-				genericParamStr[0] = genericDefine.Name;
+				string defineName = Regex.Replace(type.Name, @"`\d+", $""); 
+				genericParamStr[0] = LegalNameConfig.LegalName(defineName);
 				for (int i = 0; i < genericTypes.Length; i++)
 				{
 					genericParamStr[i + 1] = genericTypes[i].ToString(translater);
 				}
 
-				var defineName = translater.GenericTypeDefinition.Format(genericParamStr);
+				result = translater.GenericTypeDefinition.Format(genericParamStr);
 				if (needFullName)
 				{
-					return GetNestedFullName(genericDefine, translater, defineName); 
+					return GetNestedFullName(type, translater, result); 
 				}
 				else
 				{
-					return defineName;
+					return result;
 				}
 			}
 			else if (type.IsGenericType && !type.IsGenericTypeDefinition && translater.GenericType.can)
 			{
 				// https://docs.microsoft.com/zh-cn/dotnet/framework/reflection-and-codedom/how-to-examine-and-instantiate-generic-types-with-reflection
-				var genericTypes = type.GetGenericArguments();
+				var genericTypes = type.GetGenericArgumentsWithoutDeclareType();
 				var genericDefine = type.GetGenericTypeDefinition();
 				string[] genericParamStr = new string[genericTypes.Length + 2];
 				genericParamStr[0] = genericDefine.ToString(translater);
-				genericParamStr[1] = genericDefine.Name;
+
+				string defineName = Regex.Replace(type.Name, @"`\d+", $"");
+				genericParamStr[1] = LegalNameConfig.LegalName(defineName);
+
 				for (int i = 0; i < genericTypes.Length; i++)
 				{
 					var genericType = genericTypes[i];
@@ -419,8 +420,8 @@ namespace SMFrame.Editor.Refleaction
 					genericParamStr[i + 2] = paramName;
 				}
 
-				var defineName = translater.GenericType.Format(genericParamStr);
-				return defineName;
+				result = translater.GenericType.Format(genericParamStr);
+				return result;
 			}
 			else if (type.IsGenericParameter && translater.GenericParameter.can)
 			{

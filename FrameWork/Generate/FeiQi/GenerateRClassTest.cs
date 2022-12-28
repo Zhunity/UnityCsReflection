@@ -6,6 +6,7 @@ using UnityEditor;
 using System.Reflection;
 using System.IO;
 using System.Runtime.CompilerServices;
+using System.Text.RegularExpressions;
 
 namespace SMFrame.Editor.Refleaction
 {
@@ -268,6 +269,14 @@ namespace SMFrame.Editor.Refleaction
 
 			GenerateInput.Generate(typeof(outest.inner.innest<>.moreInnest<>), false);
 			//GenerateInput.Generate(typeof(outest.inner.innest<>.anotherInnest), false);
+		}
+
+		[MenuItem("Tools/test generic")]
+		static void SHow()
+		{
+			string a = "fffffff`3";
+			var m = Regex.Match(a, @"`\d+");
+			Debug.Log(m.Index);
 		}
 	}
 }
