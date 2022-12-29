@@ -209,7 +209,9 @@ namespace SMFrame.Editor.Refleaction
 				public class innest<U> where U : outest
 				{
 					public class moreInnest<T> where T : struct
-					{ }
+					{
+						inner field;
+					}
 
 					public class anotherInnest { }
 				}
@@ -267,7 +269,7 @@ namespace SMFrame.Editor.Refleaction
 
 
 
-			GenerateInput.Generate(typeof(outest.inner.innest<>.moreInnest<>), false);
+			GenerateInput.Generate(typeof(UnityEngine.UIElements.Slider), false);
 			//GenerateInput.Generate(typeof(outest.inner.innest<>.anotherInnest), false);
 		}
 

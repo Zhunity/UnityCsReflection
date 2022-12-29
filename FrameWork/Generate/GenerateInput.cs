@@ -11,6 +11,14 @@ namespace SMFrame.Editor.Refleaction
     {
 		public static string UnityCSReflectionPath;
 
+		public static string GenerateDirectory
+		{
+			get
+			{
+				return $"{UnityCSReflectionPath}Generate/";
+			}
+		}
+
 		private static Queue<Type> _waitToGenerate = new Queue<Type>();
 		static HashSet<Type> _cacheType = new HashSet<Type>();
 		public static void AddGenerateClass(Type type)
@@ -29,11 +37,6 @@ namespace SMFrame.Editor.Refleaction
 					break;
 				}
 				Type type = _waitToGenerate.Dequeue();
-				if(type == null)
-				{
-					continue;
-				}
-				type = type.ToBasicType();
 				try
 				{
 					if (IsPrimitive(type) || _cacheType.Contains(type))
@@ -86,6 +89,7 @@ namespace SMFrame.Editor.Refleaction
 		#region 生成多个
 		public static void Generate(IEnumerable<Type> types)
 		{
+			ClearGenerateDirectory();
 			_waitToGenerate.Clear();
 			_cacheType.Clear();
 			string jsonFile = UnityCSReflectionPath + "FrameWork/Generate/Config/Replace.txt";
@@ -101,6 +105,7 @@ namespace SMFrame.Editor.Refleaction
 
 		public static void Generate(IEnumerable<string> types)
 		{
+			ClearGenerateDirectory();
 			_waitToGenerate.Clear();
 			_cacheType.Clear();
 			string jsonFile = UnityCSReflectionPath + "FrameWork/Generate/Config/Replace.txt";
@@ -116,6 +121,7 @@ namespace SMFrame.Editor.Refleaction
 
 		public static void Generate(IEnumerable<object> objs)
 		{
+			ClearGenerateDirectory();
 			_waitToGenerate.Clear();
 			_cacheType.Clear();
 			string jsonFile = UnityCSReflectionPath + "FrameWork/Generate/Config/Replace.txt";
@@ -145,6 +151,7 @@ namespace SMFrame.Editor.Refleaction
 
 		public static void GenerateInternal(Type classType, bool refType = true)
 		{
+			classType = classType.ToBasicType();
 			GType gType = new(classType);
 			if(refType)
 			{
@@ -168,6 +175,7 @@ namespace SMFrame.Editor.Refleaction
 				File.Delete(path);
 			}
 			File.WriteAllText(path, generateStr);
+			//Debug.Log(generateStr);
 		}
 
 
@@ -175,7 +183,7 @@ namespace SMFrame.Editor.Refleaction
 		{
 			string path = classType.FullName.Replace(classType.Name, "");
 			var nameSpaceSplits = path.Split(".");
-			string result = $"{UnityCSReflectionPath}Generate/";
+			string result = GenerateDirectory;
 			for(int i = 0; i < nameSpaceSplits.Length; i ++)
 			{
 				var nameSpaceSplit = nameSpaceSplits[i];
@@ -208,6 +216,15 @@ namespace SMFrame.Editor.Refleaction
 		public static bool IsPrimitive(Type type)
 		{
 			return PrimitiveTypeConfig.IsPrimitive(type);
+		}
+
+		private static void ClearGenerateDirectory()
+		{
+			if(!Directory.Exists(GenerateDirectory))
+			{
+				return;
+			}
+			Directory.Delete(GenerateDirectory, true);
 		}
 	}
 }

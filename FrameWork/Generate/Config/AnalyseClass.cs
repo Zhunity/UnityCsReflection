@@ -32,15 +32,13 @@ namespace SMFrame.Editor.Refleaction
 			}
             return string.Format(format, elementStr);
         }
+	}
 
-		public TypeFormater Clone()
-		{
-			var result = new TypeFormater();
-			result.can = this.can;
-			result.format = this.format;
-			result.fun = this.fun;
-			return result;
-		}
+	public class GenericTypeFormater : TypeFormater
+	{
+		public const string GenericSuffix = @"`\d+";
+
+		public bool needDeclareTypeGeneric = false;
 	}
 
 	public class TypeTranslater
@@ -50,24 +48,10 @@ namespace SMFrame.Editor.Refleaction
 		public TypeFormater Array = new TypeFormater();
 		public TypeFormater ByRef = new TypeFormater();
 		public TypeFormater Pointer = new TypeFormater();
-        public TypeFormater GenericTypeDefinition = new TypeFormater();
-		public TypeFormater GenericType = new TypeFormater();
+        public GenericTypeFormater GenericTypeDefinition = new GenericTypeFormater();
+		public GenericTypeFormater GenericType = new GenericTypeFormater();
         public TypeFormater GenericParameter = new TypeFormater();
         public Translate defaultTran;
-
-        public TypeTranslater Clone()
-		{
-			var result = new TypeTranslater();
-			result.fullName = this.fullName;
-			result.defaultTran = this.defaultTran;
-			result.Array = this.Array.Clone();
-			result.ByRef = this.ByRef.Clone();
-			result.Pointer = this.Pointer.Clone();
-			result.GenericTypeDefinition = this.GenericTypeDefinition.Clone();
-			result.GenericType = this.GenericType.Clone();
-			result.GenericParameter = this.GenericParameter.Clone();
-			return result;
-		}
 	}
 
     public static class TypeToString
@@ -264,6 +248,7 @@ namespace SMFrame.Editor.Refleaction
 			typeTranslater.Pointer.format = "{0}.MakePointerType()";
 			typeTranslater.ByRef.format = "{0}.MakeByRefType()";
 			typeTranslater.GenericTypeDefinition.can = false;
+			typeTranslater.GenericType.needDeclareTypeGeneric = true;
 			typeTranslater.GenericType.fun = (strs) =>
 			{
 				string genericDefineStr = strs[0];
@@ -383,16 +368,26 @@ namespace SMFrame.Editor.Refleaction
 			// 这个要在IsGenericType前，因为IsGenericTypeDefinition也是IsGenericType
 			else if (type.IsGenericTypeDefinition && translater.GenericTypeDefinition.can)
 			{
-				var genericTypes = type.GetGenericArgumentsWithoutDeclareType();
-				string[] genericParamStr = new string[genericTypes.Length + 1];
-				string defineName = Regex.Replace(type.Name, @"`\d+", $""); 
-				genericParamStr[0] = LegalNameConfig.LegalName(defineName);
-				for (int i = 0; i < genericTypes.Length; i++)
+				var genericTypes = translater.GenericTypeDefinition.needDeclareTypeGeneric ? type.GetGenericArguments() : type.GetGenericArgumentsWithoutDeclareType();
+				string defineName = Regex.Replace(type.Name, GenericTypeFormater.GenericSuffix, string.Empty);
+				defineName = LegalNameConfig.LegalName(defineName);
+				if (genericTypes.Length > 0)
 				{
-					genericParamStr[i + 1] = genericTypes[i].ToString(translater);
+					string[] genericParamStr = new string[genericTypes.Length + 1];
+					genericParamStr[0] = defineName;
+					for (int i = 0; i < genericTypes.Length; i++)
+					{
+						genericParamStr[i + 1] = genericTypes[i].ToString(translater);
+					}
+
+					result = translater.GenericTypeDefinition.Format(genericParamStr);
+				}
+				else
+				{
+					result = defineName;
 				}
 
-				result = translater.GenericTypeDefinition.Format(genericParamStr);
+				
 				if (needFullName)
 				{
 					return GetNestedFullName(type, translater, result); 
@@ -405,23 +400,39 @@ namespace SMFrame.Editor.Refleaction
 			else if (type.IsGenericType && !type.IsGenericTypeDefinition && translater.GenericType.can)
 			{
 				// https://docs.microsoft.com/zh-cn/dotnet/framework/reflection-and-codedom/how-to-examine-and-instantiate-generic-types-with-reflection
-				var genericTypes = type.GetGenericArgumentsWithoutDeclareType();
+				var genericTypes = translater.GenericTypeDefinition.needDeclareTypeGeneric ? type.GetGenericArguments() : type.GetGenericArgumentsWithoutDeclareType();
 				var genericDefine = type.GetGenericTypeDefinition();
-				string[] genericParamStr = new string[genericTypes.Length + 2];
-				genericParamStr[0] = genericDefine.ToString(translater);
+				string defineName = Regex.Replace(type.Name, GenericTypeFormater.GenericSuffix, string.Empty);
+				defineName = LegalNameConfig.LegalName(defineName);
 
-				string defineName = Regex.Replace(type.Name, @"`\d+", $"");
-				genericParamStr[1] = LegalNameConfig.LegalName(defineName);
-
-				for (int i = 0; i < genericTypes.Length; i++)
+				if (genericTypes.Length > 0)
 				{
-					var genericType = genericTypes[i];
-					var paramName = genericType.ToString(translater);
-					genericParamStr[i + 2] = paramName;
+					string[] genericParamStr = new string[genericTypes.Length + 2];
+					genericParamStr[0] = genericDefine.ToString(translater);
+					genericParamStr[1] = defineName;
+
+					for (int i = 0; i < genericTypes.Length; i++)
+					{
+						var genericType = genericTypes[i];
+						var paramName = genericType.ToString(translater);
+						genericParamStr[i + 2] = paramName;
+					}
+					result = translater.GenericType.Format(genericParamStr);
+				}
+				else
+				{
+					result = defineName;
 				}
 
-				result = translater.GenericType.Format(genericParamStr);
-				return result;
+
+				if (needFullName)
+				{
+					return GetNestedFullName(type, translater, result);
+				}
+				else
+				{
+					return result;
+				}
 			}
 			else if (type.IsGenericParameter && translater.GenericParameter.can)
 			{
@@ -448,14 +459,14 @@ namespace SMFrame.Editor.Refleaction
 		{
 			if (type.IsNested)
 			{
-				string result = LegalNameConfig.LegalName(name);
+				string result = name;
 				var declareStr = type.DeclaringType.ToString(translater);
 				result = declareStr + "." + result;
 				return result;
 			}
 			else if(string.IsNullOrEmpty(type.Namespace))
 			{
-				return LegalNameConfig.LegalName(name);
+				return name;
 			}
 			else
 			{
@@ -465,7 +476,7 @@ namespace SMFrame.Editor.Refleaction
 				{
 					result += LegalNameConfig.LegalName(item) + ".";
 				}
-				result += LegalNameConfig.LegalName(name);
+				result += name;
 				return result;
 			}
 		}

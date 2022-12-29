@@ -74,7 +74,7 @@ namespace SMFrame.Editor.Refleaction
 						genericParamStr += ", ";
 					}
 				}
-				var defineName = Regex.Replace(genericDefine, @"`\d+", $"<{genericParamStr}>");
+				var defineName = $"{genericDefine}<{genericParamStr}>";
 				return defineName;
 			};
 			typeTranslater.GenericType.fun = (strs) =>
@@ -90,7 +90,7 @@ namespace SMFrame.Editor.Refleaction
 						genericParamStr += ", ";
 					}
 				}
-				var defineName = Regex.Replace(genericDefine, @"`\d+", $"<{genericParamStr}>");
+				var defineName = $"{genericDefine}<{genericParamStr}>";
 				return defineName;
 			};
 			typeTranslater.GenericParameter.format = "Property";
