@@ -400,7 +400,7 @@ namespace SMFrame.Editor.Refleaction
 			else if (type.IsGenericType && !type.IsGenericTypeDefinition && translater.GenericType.can)
 			{
 				// https://docs.microsoft.com/zh-cn/dotnet/framework/reflection-and-codedom/how-to-examine-and-instantiate-generic-types-with-reflection
-				var genericTypes = translater.GenericTypeDefinition.needDeclareTypeGeneric ? type.GetGenericArguments() : type.GetGenericArgumentsWithoutDeclareType();
+				var genericTypes = translater.GenericType.needDeclareTypeGeneric ? type.GetGenericArguments() : type.GetGenericArgumentsWithoutDeclareType();
 				var genericDefine = type.GetGenericTypeDefinition();
 				string defineName = Regex.Replace(type.Name, GenericTypeFormater.GenericSuffix, string.Empty);
 				defineName = LegalNameConfig.LegalName(defineName);
