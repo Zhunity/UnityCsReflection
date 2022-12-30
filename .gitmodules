@@ -1,0 +1,3 @@
+[submodule "CsReflectionFramework"]
+	path = CsReflectionFramework
+	url = https://github.com/Zhunity/CsReflectionFramework.git
