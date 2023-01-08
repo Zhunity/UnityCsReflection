@@ -2187,7 +2187,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 	    {
 	    }
 
-        public static System.IntPtr Internal_Create(UnityEngine.GUIStyle  @self)
+        public static System.IntPtr Internal_Create(UnityEngine.GUIStyle @self)
         {
 
             var ___genericsType = new Type[] {};
@@ -2198,7 +2198,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static System.IntPtr Internal_Copy(UnityEngine.GUIStyle  @self, UnityEngine.GUIStyle  @other)
+        public static System.IntPtr Internal_Copy(UnityEngine.GUIStyle @self, UnityEngine.GUIStyle @other)
         {
 
             var ___genericsType = new Type[] {};
@@ -2209,7 +2209,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static void Internal_Destroy(System.IntPtr  @self)
+        public static void Internal_Destroy(System.IntPtr @self)
         {
 
             var ___genericsType = new Type[] {};
@@ -2220,7 +2220,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.IntPtr GetStyleStatePtr(System.Int32  @idx)
+        public virtual System.IntPtr GetStyleStatePtr(System.Int32 @idx)
         {
 
             var ___genericsType = new Type[] {};
@@ -2231,7 +2231,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void AssignStyleState(System.Int32  @idx, System.IntPtr  @srcStyleState)
+        public virtual void AssignStyleState(System.Int32 @idx, System.IntPtr @srcStyleState)
         {
 
             var ___genericsType = new Type[] {};
@@ -2242,7 +2242,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.IntPtr GetRectOffsetPtr(System.Int32  @idx)
+        public virtual System.IntPtr GetRectOffsetPtr(System.Int32 @idx)
         {
 
             var ___genericsType = new Type[] {};
@@ -2253,7 +2253,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void AssignRectOffset(System.Int32  @idx, System.IntPtr  @srcRectOffset)
+        public virtual void AssignRectOffset(System.Int32 @idx, System.IntPtr @srcRectOffset)
         {
 
             var ___genericsType = new Type[] {};
@@ -2264,7 +2264,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static System.Single Internal_GetLineHeight(System.IntPtr  @target)
+        public static System.Single Internal_GetLineHeight(System.IntPtr @target)
         {
 
             var ___genericsType = new Type[] {};
@@ -2275,7 +2275,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void Internal_Draw(UnityEngine.Rect  @screenRect, UnityEngine.GUIContent  @content, System.Boolean  @isHover, System.Boolean  @isActive, System.Boolean  @on, System.Boolean  @hasKeyboardFocus)
+        public virtual void Internal_Draw(UnityEngine.Rect @screenRect, UnityEngine.GUIContent @content, System.Boolean @isHover, System.Boolean @isActive, System.Boolean @on, System.Boolean @hasKeyboardFocus)
         {
 
             var ___genericsType = new Type[] {};
@@ -2286,7 +2286,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void Internal_Draw2(UnityEngine.Rect  @position, UnityEngine.GUIContent  @content, System.Int32  @controlID, System.Boolean  @on)
+        public virtual void Internal_Draw2(UnityEngine.Rect @position, UnityEngine.GUIContent @content, System.Int32 @controlID, System.Boolean @on)
         {
 
             var ___genericsType = new Type[] {};
@@ -2297,7 +2297,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void Internal_DrawCursor(UnityEngine.Rect  @position, UnityEngine.GUIContent  @content, System.Int32  @pos, UnityEngine.Color  @cursorColor)
+        public virtual void Internal_DrawCursor(UnityEngine.Rect @position, UnityEngine.GUIContent @content, System.Int32 @pos, UnityEngine.Color @cursorColor)
         {
 
             var ___genericsType = new Type[] {};
@@ -2308,7 +2308,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void Internal_DrawWithTextSelection(UnityEngine.Rect  @screenRect, UnityEngine.GUIContent  @content, System.Boolean  @isHover, System.Boolean  @isActive, System.Boolean  @on, System.Boolean  @hasKeyboardFocus, System.Boolean  @drawSelectionAsComposition, System.Int32  @cursorFirst, System.Int32  @cursorLast, UnityEngine.Color  @cursorColor, UnityEngine.Color  @selectionColor)
+        public virtual void Internal_DrawWithTextSelection(UnityEngine.Rect @screenRect, UnityEngine.GUIContent @content, System.Boolean @isHover, System.Boolean @isActive, System.Boolean @on, System.Boolean @hasKeyboardFocus, System.Boolean @drawSelectionAsComposition, System.Int32 @cursorFirst, System.Int32 @cursorLast, UnityEngine.Color @cursorColor, UnityEngine.Color @selectionColor)
         {
 
             var ___genericsType = new Type[] {};
@@ -2319,7 +2319,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual UnityEngine.Vector2 Internal_GetCursorPixelPosition(UnityEngine.Rect  @position, UnityEngine.GUIContent  @content, System.Int32  @cursorStringIndex)
+        public virtual UnityEngine.Vector2 Internal_GetCursorPixelPosition(UnityEngine.Rect @position, UnityEngine.GUIContent @content, System.Int32 @cursorStringIndex)
         {
 
             var ___genericsType = new Type[] {};
@@ -2330,7 +2330,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Int32 Internal_GetCursorStringIndex(UnityEngine.Rect  @position, UnityEngine.GUIContent  @content, UnityEngine.Vector2  @cursorPixelPosition)
+        public virtual System.Int32 Internal_GetCursorStringIndex(UnityEngine.Rect @position, UnityEngine.GUIContent @content, UnityEngine.Vector2 @cursorPixelPosition)
         {
 
             var ___genericsType = new Type[] {};
@@ -2341,7 +2341,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.String Internal_GetSelectedRenderedText(UnityEngine.Rect  @localPosition, UnityEngine.GUIContent  @mContent, System.Int32  @selectIndex, System.Int32  @cursorIndex)
+        public virtual System.String Internal_GetSelectedRenderedText(UnityEngine.Rect @localPosition, UnityEngine.GUIContent @mContent, System.Int32 @selectIndex, System.Int32 @cursorIndex)
         {
 
             var ___genericsType = new Type[] {};
@@ -2352,7 +2352,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual UnityEngine.Rect[] Internal_GetHyperlinksRect(UnityEngine.Rect  @localPosition, UnityEngine.GUIContent  @mContent)
+        public virtual UnityEngine.Rect[] Internal_GetHyperlinksRect(UnityEngine.Rect @localPosition, UnityEngine.GUIContent @mContent)
         {
 
             var ___genericsType = new Type[] {};
@@ -2363,7 +2363,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Int32 Internal_GetNumCharactersThatFitWithinWidth(System.String  @text, System.Single  @width)
+        public virtual System.Int32 Internal_GetNumCharactersThatFitWithinWidth(System.String @text, System.Single @width)
         {
 
             var ___genericsType = new Type[] {};
@@ -2374,7 +2374,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual UnityEngine.Vector2 Internal_CalcSize(UnityEngine.GUIContent  @content)
+        public virtual UnityEngine.Vector2 Internal_CalcSize(UnityEngine.GUIContent @content)
         {
 
             var ___genericsType = new Type[] {};
@@ -2385,7 +2385,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual UnityEngine.Vector2 Internal_CalcSizeWithConstraints(UnityEngine.GUIContent  @content, UnityEngine.Vector2  @maxSize)
+        public virtual UnityEngine.Vector2 Internal_CalcSizeWithConstraints(UnityEngine.GUIContent @content, UnityEngine.Vector2 @maxSize)
         {
 
             var ___genericsType = new Type[] {};
@@ -2396,7 +2396,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Single Internal_CalcHeight(UnityEngine.GUIContent  @content, System.Single  @width)
+        public virtual System.Single Internal_CalcHeight(UnityEngine.GUIContent @content, System.Single @width)
         {
 
             var ___genericsType = new Type[] {};
@@ -2407,7 +2407,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual UnityEngine.Vector2 Internal_CalcMinMaxWidth(UnityEngine.GUIContent  @content)
+        public virtual UnityEngine.Vector2 Internal_CalcMinMaxWidth(UnityEngine.GUIContent @content)
         {
 
             var ___genericsType = new Type[] {};
@@ -2418,7 +2418,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void Internal_DrawPrefixLabel(UnityEngine.Rect  @position, UnityEngine.GUIContent  @content, System.Int32  @controlID, System.Boolean  @on)
+        public virtual void Internal_DrawPrefixLabel(UnityEngine.Rect @position, UnityEngine.GUIContent @content, System.Int32 @controlID, System.Boolean @on)
         {
 
             var ___genericsType = new Type[] {};
@@ -2429,7 +2429,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void Internal_DrawContent(UnityEngine.Rect  @screenRect, UnityEngine.GUIContent  @content, System.Boolean  @isHover, System.Boolean  @isActive, System.Boolean  @on, System.Boolean  @hasKeyboardFocus, System.Boolean  @hasTextInput, System.Boolean  @drawSelectionAsComposition, System.Int32  @cursorFirst, System.Int32  @cursorLast, UnityEngine.Color  @cursorColor, UnityEngine.Color  @selectionColor, UnityEngine.Color  @imageColor, System.Single  @textOffsetX, System.Single  @textOffsetY, System.Single  @imageTopOffset, System.Single  @imageLeftOffset, System.Boolean  @overflowX, System.Boolean  @overflowY)
+        public virtual void Internal_DrawContent(UnityEngine.Rect @screenRect, UnityEngine.GUIContent @content, System.Boolean @isHover, System.Boolean @isActive, System.Boolean @on, System.Boolean @hasKeyboardFocus, System.Boolean @hasTextInput, System.Boolean @drawSelectionAsComposition, System.Int32 @cursorFirst, System.Int32 @cursorLast, UnityEngine.Color @cursorColor, UnityEngine.Color @selectionColor, UnityEngine.Color @imageColor, System.Single @textOffsetX, System.Single @textOffsetY, System.Single @imageTopOffset, System.Single @imageLeftOffset, System.Boolean @overflowX, System.Boolean @overflowY)
         {
 
             var ___genericsType = new Type[] {};
@@ -2440,7 +2440,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static void SetMouseTooltip(System.String  @tooltip, UnityEngine.Rect  @screenRect)
+        public static void SetMouseTooltip(System.String @tooltip, UnityEngine.Rect @screenRect)
         {
 
             var ___genericsType = new Type[] {};
@@ -2451,7 +2451,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static System.Boolean IsTooltipActive(System.String  @tooltip)
+        public static System.Boolean IsTooltipActive(System.String @tooltip)
         {
 
             var ___genericsType = new Type[] {};
@@ -2473,7 +2473,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static void SetDefaultFont(UnityEngine.Font  @font)
+        public static void SetDefaultFont(UnityEngine.Font @font)
         {
 
             var ___genericsType = new Type[] {};
@@ -2517,7 +2517,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void Draw(UnityEngine.Rect  @position, System.Boolean  @isHover, System.Boolean  @isActive, System.Boolean  @on, System.Boolean  @hasKeyboardFocus)
+        public virtual void Draw(UnityEngine.Rect @position, System.Boolean @isHover, System.Boolean @isActive, System.Boolean @on, System.Boolean @hasKeyboardFocus)
         {
 
             var ___genericsType = new Type[] {};
@@ -2528,7 +2528,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void Draw(UnityEngine.Rect  @position, System.String  @text, System.Boolean  @isHover, System.Boolean  @isActive, System.Boolean  @on, System.Boolean  @hasKeyboardFocus)
+        public virtual void Draw(UnityEngine.Rect @position, System.String @text, System.Boolean @isHover, System.Boolean @isActive, System.Boolean @on, System.Boolean @hasKeyboardFocus)
         {
 
             var ___genericsType = new Type[] {};
@@ -2539,7 +2539,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void Draw(UnityEngine.Rect  @position, UnityEngine.Texture  @image, System.Boolean  @isHover, System.Boolean  @isActive, System.Boolean  @on, System.Boolean  @hasKeyboardFocus)
+        public virtual void Draw(UnityEngine.Rect @position, UnityEngine.Texture @image, System.Boolean @isHover, System.Boolean @isActive, System.Boolean @on, System.Boolean @hasKeyboardFocus)
         {
 
             var ___genericsType = new Type[] {};
@@ -2550,7 +2550,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void Draw(UnityEngine.Rect  @position, UnityEngine.GUIContent  @content, System.Boolean  @isHover, System.Boolean  @isActive, System.Boolean  @on, System.Boolean  @hasKeyboardFocus)
+        public virtual void Draw(UnityEngine.Rect @position, UnityEngine.GUIContent @content, System.Boolean @isHover, System.Boolean @isActive, System.Boolean @on, System.Boolean @hasKeyboardFocus)
         {
 
             var ___genericsType = new Type[] {};
@@ -2561,7 +2561,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void Draw(UnityEngine.Rect  @position, UnityEngine.GUIContent  @content, System.Int32  @controlID)
+        public virtual void Draw(UnityEngine.Rect @position, UnityEngine.GUIContent @content, System.Int32 @controlID)
         {
 
             var ___genericsType = new Type[] {};
@@ -2572,7 +2572,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void Draw(UnityEngine.Rect  @position, UnityEngine.GUIContent  @content, System.Int32  @controlID, System.Boolean  @on)
+        public virtual void Draw(UnityEngine.Rect @position, UnityEngine.GUIContent @content, System.Int32 @controlID, System.Boolean @on)
         {
 
             var ___genericsType = new Type[] {};
@@ -2583,7 +2583,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void Draw(UnityEngine.Rect  @position, UnityEngine.GUIContent  @content, System.Int32  @controlID, System.Boolean  @on, System.Boolean  @hover)
+        public virtual void Draw(UnityEngine.Rect @position, UnityEngine.GUIContent @content, System.Int32 @controlID, System.Boolean @on, System.Boolean @hover)
         {
 
             var ___genericsType = new Type[] {};
@@ -2594,7 +2594,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void Draw(UnityEngine.Rect  @position, UnityEngine.GUIContent  @content, System.Int32  @controlId, System.Boolean  @isHover, System.Boolean  @isActive, System.Boolean  @on, System.Boolean  @hasKeyboardFocus)
+        public virtual void Draw(UnityEngine.Rect @position, UnityEngine.GUIContent @content, System.Int32 @controlId, System.Boolean @isHover, System.Boolean @isActive, System.Boolean @on, System.Boolean @hasKeyboardFocus)
         {
 
             var ___genericsType = new Type[] {};
@@ -2605,7 +2605,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void DrawPrefixLabel(UnityEngine.Rect  @position, UnityEngine.GUIContent  @content, System.Int32  @controlID)
+        public virtual void DrawPrefixLabel(UnityEngine.Rect @position, UnityEngine.GUIContent @content, System.Int32 @controlID)
         {
 
             var ___genericsType = new Type[] {};
@@ -2616,7 +2616,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void DrawCursor(UnityEngine.Rect  @position, UnityEngine.GUIContent  @content, System.Int32  @controlID, System.Int32  @character)
+        public virtual void DrawCursor(UnityEngine.Rect @position, UnityEngine.GUIContent @content, System.Int32 @controlID, System.Int32 @character)
         {
 
             var ___genericsType = new Type[] {};
@@ -2627,7 +2627,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void DrawWithTextSelection(UnityEngine.Rect  @position, UnityEngine.GUIContent  @content, System.Boolean  @isActive, System.Boolean  @hasKeyboardFocus, System.Int32  @firstSelectedCharacter, System.Int32  @lastSelectedCharacter, System.Boolean  @drawSelectionAsComposition, UnityEngine.Color  @selectionColor)
+        public virtual void DrawWithTextSelection(UnityEngine.Rect @position, UnityEngine.GUIContent @content, System.Boolean @isActive, System.Boolean @hasKeyboardFocus, System.Int32 @firstSelectedCharacter, System.Int32 @lastSelectedCharacter, System.Boolean @drawSelectionAsComposition, UnityEngine.Color @selectionColor)
         {
 
             var ___genericsType = new Type[] {};
@@ -2638,7 +2638,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void DrawWithTextSelection(UnityEngine.Rect  @position, UnityEngine.GUIContent  @content, System.Int32  @controlID, System.Int32  @firstSelectedCharacter, System.Int32  @lastSelectedCharacter, System.Boolean  @drawSelectionAsComposition)
+        public virtual void DrawWithTextSelection(UnityEngine.Rect @position, UnityEngine.GUIContent @content, System.Int32 @controlID, System.Int32 @firstSelectedCharacter, System.Int32 @lastSelectedCharacter, System.Boolean @drawSelectionAsComposition)
         {
 
             var ___genericsType = new Type[] {};
@@ -2649,7 +2649,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void DrawWithTextSelection(UnityEngine.Rect  @position, UnityEngine.GUIContent  @content, System.Int32  @controlID, System.Int32  @firstSelectedCharacter, System.Int32  @lastSelectedCharacter)
+        public virtual void DrawWithTextSelection(UnityEngine.Rect @position, UnityEngine.GUIContent @content, System.Int32 @controlID, System.Int32 @firstSelectedCharacter, System.Int32 @lastSelectedCharacter)
         {
 
             var ___genericsType = new Type[] {};
@@ -2660,7 +2660,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.GUIStyle op_Implicit(System.String  @str)
+        public static UnityEngine.GUIStyle op_Implicit(System.String @str)
         {
 
             var ___genericsType = new Type[] {};
@@ -2671,7 +2671,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual UnityEngine.Vector2 GetCursorPixelPosition(UnityEngine.Rect  @position, UnityEngine.GUIContent  @content, System.Int32  @cursorStringIndex)
+        public virtual UnityEngine.Vector2 GetCursorPixelPosition(UnityEngine.Rect @position, UnityEngine.GUIContent @content, System.Int32 @cursorStringIndex)
         {
 
             var ___genericsType = new Type[] {};
@@ -2682,7 +2682,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Int32 GetCursorStringIndex(UnityEngine.Rect  @position, UnityEngine.GUIContent  @content, UnityEngine.Vector2  @cursorPixelPosition)
+        public virtual System.Int32 GetCursorStringIndex(UnityEngine.Rect @position, UnityEngine.GUIContent @content, UnityEngine.Vector2 @cursorPixelPosition)
         {
 
             var ___genericsType = new Type[] {};
@@ -2693,7 +2693,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Int32 GetNumCharactersThatFitWithinWidth(System.String  @text, System.Single  @width)
+        public virtual System.Int32 GetNumCharactersThatFitWithinWidth(System.String @text, System.Single @width)
         {
 
             var ___genericsType = new Type[] {};
@@ -2704,7 +2704,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual UnityEngine.Vector2 CalcSize(UnityEngine.GUIContent  @content)
+        public virtual UnityEngine.Vector2 CalcSize(UnityEngine.GUIContent @content)
         {
 
             var ___genericsType = new Type[] {};
@@ -2715,7 +2715,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual UnityEngine.Vector2 CalcSizeWithConstraints(UnityEngine.GUIContent  @content, UnityEngine.Vector2  @constraints)
+        public virtual UnityEngine.Vector2 CalcSizeWithConstraints(UnityEngine.GUIContent @content, UnityEngine.Vector2 @constraints)
         {
 
             var ___genericsType = new Type[] {};
@@ -2726,7 +2726,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual UnityEngine.Vector2 CalcScreenSize(UnityEngine.Vector2  @contentSize)
+        public virtual UnityEngine.Vector2 CalcScreenSize(UnityEngine.Vector2 @contentSize)
         {
 
             var ___genericsType = new Type[] {};
@@ -2737,7 +2737,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Single CalcHeight(UnityEngine.GUIContent  @content, System.Single  @width)
+        public virtual System.Single CalcHeight(UnityEngine.GUIContent @content, System.Single @width)
         {
 
             var ___genericsType = new Type[] {};
@@ -2748,7 +2748,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void CalcMinMaxWidth(UnityEngine.GUIContent  @content, out System.Single  @minWidth, out System.Single  @maxWidth)
+        public virtual void CalcMinMaxWidth(UnityEngine.GUIContent @content, out System.Single @minWidth, out System.Single @maxWidth)
         {
 			@minWidth = default;
 			@maxWidth = default;
@@ -2774,7 +2774,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void get_contentOffset_Injected(out UnityEngine.Vector2  @ret)
+        public virtual void get_contentOffset_Injected(out UnityEngine.Vector2 @ret)
         {
 			@ret = default;
 
@@ -2787,7 +2787,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void set_contentOffset_Injected(ref UnityEngine.Vector2  @value)
+        public virtual void set_contentOffset_Injected(ref UnityEngine.Vector2 @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -2799,7 +2799,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void get_clipOffset_Injected(out UnityEngine.Vector2  @ret)
+        public virtual void get_clipOffset_Injected(out UnityEngine.Vector2 @ret)
         {
 			@ret = default;
 
@@ -2812,7 +2812,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void set_clipOffset_Injected(ref UnityEngine.Vector2  @value)
+        public virtual void set_clipOffset_Injected(ref UnityEngine.Vector2 @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -2824,7 +2824,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void get_Internal_clipOffset_Injected(out UnityEngine.Vector2  @ret)
+        public virtual void get_Internal_clipOffset_Injected(out UnityEngine.Vector2 @ret)
         {
 			@ret = default;
 
@@ -2837,7 +2837,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void set_Internal_clipOffset_Injected(ref UnityEngine.Vector2  @value)
+        public virtual void set_Internal_clipOffset_Injected(ref UnityEngine.Vector2 @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -2849,7 +2849,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void Internal_Draw_Injected(ref UnityEngine.Rect  @screenRect, UnityEngine.GUIContent  @content, System.Boolean  @isHover, System.Boolean  @isActive, System.Boolean  @on, System.Boolean  @hasKeyboardFocus)
+        public virtual void Internal_Draw_Injected(ref UnityEngine.Rect @screenRect, UnityEngine.GUIContent @content, System.Boolean @isHover, System.Boolean @isActive, System.Boolean @on, System.Boolean @hasKeyboardFocus)
         {
 
             var ___genericsType = new Type[] {};
@@ -2861,7 +2861,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void Internal_Draw2_Injected(ref UnityEngine.Rect  @position, UnityEngine.GUIContent  @content, System.Int32  @controlID, System.Boolean  @on)
+        public virtual void Internal_Draw2_Injected(ref UnityEngine.Rect @position, UnityEngine.GUIContent @content, System.Int32 @controlID, System.Boolean @on)
         {
 
             var ___genericsType = new Type[] {};
@@ -2873,7 +2873,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void Internal_DrawCursor_Injected(ref UnityEngine.Rect  @position, UnityEngine.GUIContent  @content, System.Int32  @pos, ref UnityEngine.Color  @cursorColor)
+        public virtual void Internal_DrawCursor_Injected(ref UnityEngine.Rect @position, UnityEngine.GUIContent @content, System.Int32 @pos, ref UnityEngine.Color @cursorColor)
         {
 
             var ___genericsType = new Type[] {};
@@ -2886,7 +2886,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void Internal_DrawWithTextSelection_Injected(ref UnityEngine.Rect  @screenRect, UnityEngine.GUIContent  @content, System.Boolean  @isHover, System.Boolean  @isActive, System.Boolean  @on, System.Boolean  @hasKeyboardFocus, System.Boolean  @drawSelectionAsComposition, System.Int32  @cursorFirst, System.Int32  @cursorLast, ref UnityEngine.Color  @cursorColor, ref UnityEngine.Color  @selectionColor)
+        public virtual void Internal_DrawWithTextSelection_Injected(ref UnityEngine.Rect @screenRect, UnityEngine.GUIContent @content, System.Boolean @isHover, System.Boolean @isActive, System.Boolean @on, System.Boolean @hasKeyboardFocus, System.Boolean @drawSelectionAsComposition, System.Int32 @cursorFirst, System.Int32 @cursorLast, ref UnityEngine.Color @cursorColor, ref UnityEngine.Color @selectionColor)
         {
 
             var ___genericsType = new Type[] {};
@@ -2900,7 +2900,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void Internal_GetCursorPixelPosition_Injected(ref UnityEngine.Rect  @position, UnityEngine.GUIContent  @content, System.Int32  @cursorStringIndex, out UnityEngine.Vector2  @ret)
+        public virtual void Internal_GetCursorPixelPosition_Injected(ref UnityEngine.Rect @position, UnityEngine.GUIContent @content, System.Int32 @cursorStringIndex, out UnityEngine.Vector2 @ret)
         {
 			@ret = default;
 
@@ -2914,7 +2914,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Int32 Internal_GetCursorStringIndex_Injected(ref UnityEngine.Rect  @position, UnityEngine.GUIContent  @content, ref UnityEngine.Vector2  @cursorPixelPosition)
+        public virtual System.Int32 Internal_GetCursorStringIndex_Injected(ref UnityEngine.Rect @position, UnityEngine.GUIContent @content, ref UnityEngine.Vector2 @cursorPixelPosition)
         {
 
             var ___genericsType = new Type[] {};
@@ -2927,7 +2927,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.String Internal_GetSelectedRenderedText_Injected(ref UnityEngine.Rect  @localPosition, UnityEngine.GUIContent  @mContent, System.Int32  @selectIndex, System.Int32  @cursorIndex)
+        public virtual System.String Internal_GetSelectedRenderedText_Injected(ref UnityEngine.Rect @localPosition, UnityEngine.GUIContent @mContent, System.Int32 @selectIndex, System.Int32 @cursorIndex)
         {
 
             var ___genericsType = new Type[] {};
@@ -2939,7 +2939,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual UnityEngine.Rect[] Internal_GetHyperlinksRect_Injected(ref UnityEngine.Rect  @localPosition, UnityEngine.GUIContent  @mContent)
+        public virtual UnityEngine.Rect[] Internal_GetHyperlinksRect_Injected(ref UnityEngine.Rect @localPosition, UnityEngine.GUIContent @mContent)
         {
 
             var ___genericsType = new Type[] {};
@@ -2951,7 +2951,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void Internal_CalcSize_Injected(UnityEngine.GUIContent  @content, out UnityEngine.Vector2  @ret)
+        public virtual void Internal_CalcSize_Injected(UnityEngine.GUIContent @content, out UnityEngine.Vector2 @ret)
         {
 			@ret = default;
 
@@ -2964,7 +2964,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void Internal_CalcSizeWithConstraints_Injected(UnityEngine.GUIContent  @content, ref UnityEngine.Vector2  @maxSize, out UnityEngine.Vector2  @ret)
+        public virtual void Internal_CalcSizeWithConstraints_Injected(UnityEngine.GUIContent @content, ref UnityEngine.Vector2 @maxSize, out UnityEngine.Vector2 @ret)
         {
 			@ret = default;
 
@@ -2978,7 +2978,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void Internal_CalcMinMaxWidth_Injected(UnityEngine.GUIContent  @content, out UnityEngine.Vector2  @ret)
+        public virtual void Internal_CalcMinMaxWidth_Injected(UnityEngine.GUIContent @content, out UnityEngine.Vector2 @ret)
         {
 			@ret = default;
 
@@ -2991,7 +2991,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void Internal_DrawPrefixLabel_Injected(ref UnityEngine.Rect  @position, UnityEngine.GUIContent  @content, System.Int32  @controlID, System.Boolean  @on)
+        public virtual void Internal_DrawPrefixLabel_Injected(ref UnityEngine.Rect @position, UnityEngine.GUIContent @content, System.Int32 @controlID, System.Boolean @on)
         {
 
             var ___genericsType = new Type[] {};
@@ -3003,7 +3003,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void Internal_DrawContent_Injected(ref UnityEngine.Rect  @screenRect, UnityEngine.GUIContent  @content, System.Boolean  @isHover, System.Boolean  @isActive, System.Boolean  @on, System.Boolean  @hasKeyboardFocus, System.Boolean  @hasTextInput, System.Boolean  @drawSelectionAsComposition, System.Int32  @cursorFirst, System.Int32  @cursorLast, ref UnityEngine.Color  @cursorColor, ref UnityEngine.Color  @selectionColor, ref UnityEngine.Color  @imageColor, System.Single  @textOffsetX, System.Single  @textOffsetY, System.Single  @imageTopOffset, System.Single  @imageLeftOffset, System.Boolean  @overflowX, System.Boolean  @overflowY)
+        public virtual void Internal_DrawContent_Injected(ref UnityEngine.Rect @screenRect, UnityEngine.GUIContent @content, System.Boolean @isHover, System.Boolean @isActive, System.Boolean @on, System.Boolean @hasKeyboardFocus, System.Boolean @hasTextInput, System.Boolean @drawSelectionAsComposition, System.Int32 @cursorFirst, System.Int32 @cursorLast, ref UnityEngine.Color @cursorColor, ref UnityEngine.Color @selectionColor, ref UnityEngine.Color @imageColor, System.Single @textOffsetX, System.Single @textOffsetY, System.Single @imageTopOffset, System.Single @imageLeftOffset, System.Boolean @overflowX, System.Boolean @overflowY)
         {
 
             var ___genericsType = new Type[] {};
@@ -3018,7 +3018,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static void SetMouseTooltip_Injected(System.String  @tooltip, ref UnityEngine.Rect  @screenRect)
+        public static void SetMouseTooltip_Injected(System.String @tooltip, ref UnityEngine.Rect @screenRect)
         {
 
             var ___genericsType = new Type[] {};
@@ -3030,7 +3030,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

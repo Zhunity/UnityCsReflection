@@ -285,14 +285,14 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 	    {
 	    }
 
-        public virtual System.Object GetEnumerator()
+        public virtual RUnityEngine.RRectInt.RPositionEnumerator GetEnumerator()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RGetEnumerator.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RUnityEngine.RRectInt.RPositionEnumerator(___result);
         }
 
 
@@ -329,7 +329,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

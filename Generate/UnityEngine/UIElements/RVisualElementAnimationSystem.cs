@@ -532,7 +532,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void UnregisterAnimation(RUnityEngine.RUIElements.RExperimental.RIValueAnimationUpdate  @anim)
+        public virtual void UnregisterAnimation(RUnityEngine.RUIElements.RExperimental.RIValueAnimationUpdate @anim)
         {
 
             var ___genericsType = new Type[] {};
@@ -543,7 +543,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void UnregisterAnimations(RSystem.RCollections.RGeneric.RList<RUnityEngine.RUIElements.RExperimental.RIValueAnimationUpdate>  @anims)
+        public virtual void UnregisterAnimations(RSystem.RCollections.RGeneric.RList<RUnityEngine.RUIElements.RExperimental.RIValueAnimationUpdate> @anims)
         {
 
             var ___genericsType = new Type[] {};
@@ -554,7 +554,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void RegisterAnimation(RUnityEngine.RUIElements.RExperimental.RIValueAnimationUpdate  @anim)
+        public virtual void RegisterAnimation(RUnityEngine.RUIElements.RExperimental.RIValueAnimationUpdate @anim)
         {
 
             var ___genericsType = new Type[] {};
@@ -565,7 +565,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void RegisterAnimations(RSystem.RCollections.RGeneric.RList<RUnityEngine.RUIElements.RExperimental.RIValueAnimationUpdate>  @anims)
+        public virtual void RegisterAnimations(RSystem.RCollections.RGeneric.RList<RUnityEngine.RUIElements.RExperimental.RIValueAnimationUpdate> @anims)
         {
 
             var ___genericsType = new Type[] {};
@@ -587,7 +587,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void OnVersionChanged(UnityEngine.UIElements.VisualElement  @ve, RType  @versionChangeType)
+        public virtual void OnVersionChanged(UnityEngine.UIElements.VisualElement @ve, RType @versionChangeType)
         {
 
             var ___genericsType = new Type[] {};
@@ -609,7 +609,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void Dispose(System.Boolean  @disposing)
+        public virtual void Dispose(System.Boolean @disposing)
         {
 
             var ___genericsType = new Type[] {};
@@ -620,7 +620,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

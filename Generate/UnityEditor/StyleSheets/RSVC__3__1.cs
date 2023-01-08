@@ -300,8 +300,18 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RStyleSheets
 	    {
 	    }
 
+        public static T op_Implicit(RUnityEditor.RStyleSheets.RSVC<RType> @sc)
+        {
 
-        public virtual T ReadValue(T  @defaultValue)
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@sc.Value};
+            var ___result = Rop_Implicit_SVC_d_T_p_.Invoke(___genericsType, ___parameters);
+
+            return (T)___result;
+        }
+
+
+        public virtual T ReadValue(T @defaultValue)
         {
 
             var ___genericsType = new Type[] {};
@@ -323,7 +333,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RStyleSheets
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

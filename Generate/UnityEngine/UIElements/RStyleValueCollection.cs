@@ -334,7 +334,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 	    {
 	    }
 
-        public virtual UnityEngine.UIElements.StyleLength GetStyleLength(RType  @id)
+        public virtual UnityEngine.UIElements.StyleLength GetStyleLength(RType @id)
         {
 
             var ___genericsType = new Type[] {};
@@ -345,7 +345,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual UnityEngine.UIElements.StyleFloat GetStyleFloat(RType  @id)
+        public virtual UnityEngine.UIElements.StyleFloat GetStyleFloat(RType @id)
         {
 
             var ___genericsType = new Type[] {};
@@ -356,7 +356,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual UnityEngine.UIElements.StyleInt GetStyleInt(RType  @id)
+        public virtual UnityEngine.UIElements.StyleInt GetStyleInt(RType @id)
         {
 
             var ___genericsType = new Type[] {};
@@ -367,7 +367,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual UnityEngine.UIElements.StyleColor GetStyleColor(RType  @id)
+        public virtual UnityEngine.UIElements.StyleColor GetStyleColor(RType @id)
         {
 
             var ___genericsType = new Type[] {};
@@ -378,7 +378,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual UnityEngine.UIElements.StyleBackground GetStyleBackground(RType  @id)
+        public virtual UnityEngine.UIElements.StyleBackground GetStyleBackground(RType @id)
         {
 
             var ___genericsType = new Type[] {};
@@ -389,7 +389,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual UnityEngine.UIElements.StyleBackgroundPosition GetStyleBackgroundPosition(RType  @id)
+        public virtual UnityEngine.UIElements.StyleBackgroundPosition GetStyleBackgroundPosition(RType @id)
         {
 
             var ___genericsType = new Type[] {};
@@ -400,7 +400,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual UnityEngine.UIElements.StyleBackgroundRepeat GetStyleBackgroundRepeat(RType  @id)
+        public virtual UnityEngine.UIElements.StyleBackgroundRepeat GetStyleBackgroundRepeat(RType @id)
         {
 
             var ___genericsType = new Type[] {};
@@ -411,7 +411,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual UnityEngine.UIElements.StyleFont GetStyleFont(RType  @id)
+        public virtual UnityEngine.UIElements.StyleFont GetStyleFont(RType @id)
         {
 
             var ___genericsType = new Type[] {};
@@ -422,7 +422,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual UnityEngine.UIElements.StyleFontDefinition GetStyleFontDefinition(RType  @id)
+        public virtual UnityEngine.UIElements.StyleFontDefinition GetStyleFontDefinition(RType @id)
         {
 
             var ___genericsType = new Type[] {};
@@ -433,7 +433,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean TryGetStyleValue(RType  @id, ref RUnityEngine.RUIElements.RStyleSheets.RStyleValue  @value)
+        public virtual System.Boolean TryGetStyleValue(RType @id, ref RUnityEngine.RUIElements.RStyleSheets.RStyleValue @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -445,7 +445,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void SetStyleValue(RUnityEngine.RUIElements.RStyleSheets.RStyleValue  @value)
+        public virtual void SetStyleValue(RUnityEngine.RUIElements.RStyleSheets.RStyleValue @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -456,7 +456,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

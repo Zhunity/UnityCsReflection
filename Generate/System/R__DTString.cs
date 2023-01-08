@@ -645,7 +645,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Boolean Advance(System.Int32  @count)
+        public virtual System.Boolean Advance(System.Int32 @count)
         {
 
             var ___genericsType = new Type[] {};
@@ -656,7 +656,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual void GetRegularToken(out RType  @tokenType, out System.Int32  @tokenValue, System.Globalization.DateTimeFormatInfo  @dtfi)
+        public virtual void GetRegularToken(out RType @tokenType, out System.Int32 @tokenValue, System.Globalization.DateTimeFormatInfo @dtfi)
         {
 			@tokenType = default;
 			@tokenValue = default;
@@ -671,7 +671,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Object GetSeparatorToken(System.Globalization.DateTimeFormatInfo  @dtfi, out System.Int32  @indexBeforeSeparator, out System.Char  @charBeforeSeparator)
+        public virtual RType GetSeparatorToken(System.Globalization.DateTimeFormatInfo @dtfi, out System.Int32 @indexBeforeSeparator, out System.Char @charBeforeSeparator)
         {
 			@indexBeforeSeparator = default;
 			@charBeforeSeparator = default;
@@ -682,11 +682,11 @@ namespace SMFrame.Editor.Refleaction.RSystem
 			@indexBeforeSeparator = (System.Int32)___parameters[1];
 			@charBeforeSeparator = (System.Char)___parameters[2];
 
-            return (System.Object)___result;
+            return new RType(___result);
         }
 
 
-        public virtual System.Boolean MatchSpecifiedWord(System.String  @target)
+        public virtual System.Boolean MatchSpecifiedWord(System.String @target)
         {
 
             var ___genericsType = new Type[] {};
@@ -697,7 +697,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Boolean MatchSpecifiedWords(System.String  @target, System.Boolean  @checkWordBoundary, ref System.Int32  @matchLength)
+        public virtual System.Boolean MatchSpecifiedWords(System.String @target, System.Boolean @checkWordBoundary, ref System.Int32 @matchLength)
         {
 
             var ___genericsType = new Type[] {};
@@ -709,7 +709,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Boolean Match(System.String  @str)
+        public virtual System.Boolean Match(System.String @str)
         {
 
             var ___genericsType = new Type[] {};
@@ -720,7 +720,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Boolean Match(System.Char  @ch)
+        public virtual System.Boolean Match(System.Char @ch)
         {
 
             var ___genericsType = new Type[] {};
@@ -731,7 +731,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Int32 MatchLongestWords(System.String[]  @words, ref System.Int32  @maxMatchStrLen)
+        public virtual System.Int32 MatchLongestWords(System.String[] @words, ref System.Int32 @maxMatchStrLen)
         {
 
             var ___genericsType = new Type[] {};
@@ -842,18 +842,18 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Object GetSubString()
+        public virtual RSystem.RDTSubString GetSubString()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RGetSubString.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RSystem.RDTSubString(___result);
         }
 
 
-        public virtual void ConsumeSubString(RSystem.RDTSubString  @sub)
+        public virtual void ConsumeSubString(RSystem.RDTSubString @sub)
         {
 
             var ___genericsType = new Type[] {};
@@ -864,7 +864,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

@@ -475,7 +475,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
         }
 
 
-        public virtual System.Int32 IndexOf(RUnityEngine.RUIElements.RTextureId  @id)
+        public virtual System.Int32 IndexOf(RUnityEngine.RUIElements.RTextureId @id)
         {
 
             var ___genericsType = new Type[] {};
@@ -486,7 +486,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
         }
 
 
-        public virtual void MarkUsed(System.Int32  @slotIndex)
+        public virtual void MarkUsed(System.Int32 @slotIndex)
         {
 
             var ___genericsType = new Type[] {};
@@ -508,7 +508,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
         }
 
 
-        public virtual void Bind(RUnityEngine.RUIElements.RTextureId  @id, System.Single  @sdfScale, System.Int32  @slot, UnityEngine.MaterialPropertyBlock  @mat)
+        public virtual void Bind(RUnityEngine.RUIElements.RTextureId @id, System.Single @sdfScale, System.Int32 @slot, UnityEngine.MaterialPropertyBlock @mat)
         {
 
             var ___genericsType = new Type[] {};
@@ -519,7 +519,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
         }
 
 
-        public virtual void SetGpuData(System.Int32  @slotIndex, RUnityEngine.RUIElements.RTextureId  @id, System.Int32  @textureWidth, System.Int32  @textureHeight, System.Single  @sdfScale)
+        public virtual void SetGpuData(System.Int32 @slotIndex, RUnityEngine.RUIElements.RTextureId @id, System.Int32 @textureWidth, System.Int32 @textureHeight, System.Single @sdfScale)
         {
 
             var ___genericsType = new Type[] {};
@@ -530,7 +530,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

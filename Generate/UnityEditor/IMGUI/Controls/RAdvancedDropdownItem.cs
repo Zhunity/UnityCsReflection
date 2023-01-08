@@ -538,7 +538,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 	    {
 	    }
 
-        public virtual void AddChild(UnityEditor.IMGUI.Controls.AdvancedDropdownItem  @child)
+        public virtual void AddChild(UnityEditor.IMGUI.Controls.AdvancedDropdownItem @child)
         {
 
             var ___genericsType = new Type[] {};
@@ -560,7 +560,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
         }
 
 
-        public virtual System.Int32 CompareTo(System.Object  @o)
+        public virtual System.Int32 CompareTo(System.Object @o)
         {
 
             var ___genericsType = new Type[] {};
@@ -604,7 +604,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
         }
 
 
-        public virtual void SortChildren(System.Comparison<UnityEditor.IMGUI.Controls.AdvancedDropdownItem>  @comparer, System.Boolean  @recursive)
+        public virtual void SortChildren(System.Comparison<UnityEditor.IMGUI.Controls.AdvancedDropdownItem> @comparer, System.Boolean @recursive)
         {
 
             var ___genericsType = new Type[] {};
@@ -615,7 +615,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

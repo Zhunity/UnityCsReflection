@@ -708,7 +708,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
 	    {
 	    }
 
-        public virtual void AddAttribute(System.String  @name, System.String  @value)
+        public virtual void AddAttribute(System.String @name, System.String @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -719,7 +719,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
         }
 
 
-        public virtual void AddChild(System.Security.SecurityElement  @child)
+        public virtual void AddChild(System.Security.SecurityElement @child)
         {
 
             var ___genericsType = new Type[] {};
@@ -730,7 +730,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
         }
 
 
-        public virtual System.String Attribute(System.String  @name)
+        public virtual System.String Attribute(System.String @name)
         {
 
             var ___genericsType = new Type[] {};
@@ -752,7 +752,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
         }
 
 
-        public virtual System.Boolean Equal(System.Security.SecurityElement  @other)
+        public virtual System.Boolean Equal(System.Security.SecurityElement @other)
         {
 
             var ___genericsType = new Type[] {};
@@ -763,7 +763,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
         }
 
 
-        public static System.String Escape(System.String  @str)
+        public static System.String Escape(System.String @str)
         {
 
             var ___genericsType = new Type[] {};
@@ -774,7 +774,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
         }
 
 
-        public static System.String Unescape(System.String  @str)
+        public static System.String Unescape(System.String @str)
         {
 
             var ___genericsType = new Type[] {};
@@ -785,7 +785,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
         }
 
 
-        public static System.Security.SecurityElement FromString(System.String  @xml)
+        public static System.Security.SecurityElement FromString(System.String @xml)
         {
 
             var ___genericsType = new Type[] {};
@@ -796,7 +796,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
         }
 
 
-        public static System.Boolean IsValidAttributeName(System.String  @name)
+        public static System.Boolean IsValidAttributeName(System.String @name)
         {
 
             var ___genericsType = new Type[] {};
@@ -807,7 +807,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
         }
 
 
-        public static System.Boolean IsValidAttributeValue(System.String  @value)
+        public static System.Boolean IsValidAttributeValue(System.String @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -818,7 +818,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
         }
 
 
-        public static System.Boolean IsValidTag(System.String  @tag)
+        public static System.Boolean IsValidTag(System.String @tag)
         {
 
             var ___genericsType = new Type[] {};
@@ -829,7 +829,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
         }
 
 
-        public static System.Boolean IsValidText(System.String  @text)
+        public static System.Boolean IsValidText(System.String @text)
         {
 
             var ___genericsType = new Type[] {};
@@ -840,7 +840,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
         }
 
 
-        public virtual System.Security.SecurityElement SearchForChildByTag(System.String  @tag)
+        public virtual System.Security.SecurityElement SearchForChildByTag(System.String @tag)
         {
 
             var ___genericsType = new Type[] {};
@@ -851,7 +851,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
         }
 
 
-        public virtual System.String SearchForTextOfTag(System.String  @tag)
+        public virtual System.String SearchForTextOfTag(System.String @tag)
         {
 
             var ___genericsType = new Type[] {};
@@ -873,7 +873,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
         }
 
 
-        public virtual void ToXml(ref System.Text.StringBuilder  @s, System.Int32  @level)
+        public virtual void ToXml(ref System.Text.StringBuilder @s, System.Int32 @level)
         {
 
             var ___genericsType = new Type[] {};
@@ -885,18 +885,18 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
         }
 
 
-        public virtual System.Object GetAttribute(System.String  @name)
+        public virtual RSystem.RSecurity.RSecurityElement.RSecurityAttribute GetAttribute(System.String @name)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@name};
             var ___result = RGetAttribute_String.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RSystem.RSecurity.RSecurityElement.RSecurityAttribute(___result);
         }
 
 
-        public virtual System.String SearchForTextOfLocalName(System.String  @strLocalName)
+        public virtual System.String SearchForTextOfLocalName(System.String @strLocalName)
         {
 
             var ___genericsType = new Type[] {};
@@ -907,7 +907,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

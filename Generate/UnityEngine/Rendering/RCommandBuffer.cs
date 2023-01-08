@@ -8426,7 +8426,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 	    {
 	    }
 
-        public virtual void ConvertTexture(UnityEngine.Rendering.RenderTargetIdentifier  @src, UnityEngine.Rendering.RenderTargetIdentifier  @dst)
+        public virtual void ConvertTexture(UnityEngine.Rendering.RenderTargetIdentifier @src, UnityEngine.Rendering.RenderTargetIdentifier @dst)
         {
 
             var ___genericsType = new Type[] {};
@@ -8437,7 +8437,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void ConvertTexture(UnityEngine.Rendering.RenderTargetIdentifier  @src, System.Int32  @srcElement, UnityEngine.Rendering.RenderTargetIdentifier  @dst, System.Int32  @dstElement)
+        public virtual void ConvertTexture(UnityEngine.Rendering.RenderTargetIdentifier @src, System.Int32 @srcElement, UnityEngine.Rendering.RenderTargetIdentifier @dst, System.Int32 @dstElement)
         {
 
             var ___genericsType = new Type[] {};
@@ -8459,7 +8459,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void RequestAsyncReadback(UnityEngine.ComputeBuffer  @src, System.Action<UnityEngine.Rendering.AsyncGPUReadbackRequest>  @callback)
+        public virtual void RequestAsyncReadback(UnityEngine.ComputeBuffer @src, System.Action<UnityEngine.Rendering.AsyncGPUReadbackRequest> @callback)
         {
 
             var ___genericsType = new Type[] {};
@@ -8470,7 +8470,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void RequestAsyncReadback(UnityEngine.GraphicsBuffer  @src, System.Action<UnityEngine.Rendering.AsyncGPUReadbackRequest>  @callback)
+        public virtual void RequestAsyncReadback(UnityEngine.GraphicsBuffer @src, System.Action<UnityEngine.Rendering.AsyncGPUReadbackRequest> @callback)
         {
 
             var ___genericsType = new Type[] {};
@@ -8481,7 +8481,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void RequestAsyncReadback(UnityEngine.ComputeBuffer  @src, System.Int32  @size, System.Int32  @offset, System.Action<UnityEngine.Rendering.AsyncGPUReadbackRequest>  @callback)
+        public virtual void RequestAsyncReadback(UnityEngine.ComputeBuffer @src, System.Int32 @size, System.Int32 @offset, System.Action<UnityEngine.Rendering.AsyncGPUReadbackRequest> @callback)
         {
 
             var ___genericsType = new Type[] {};
@@ -8492,7 +8492,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void RequestAsyncReadback(UnityEngine.GraphicsBuffer  @src, System.Int32  @size, System.Int32  @offset, System.Action<UnityEngine.Rendering.AsyncGPUReadbackRequest>  @callback)
+        public virtual void RequestAsyncReadback(UnityEngine.GraphicsBuffer @src, System.Int32 @size, System.Int32 @offset, System.Action<UnityEngine.Rendering.AsyncGPUReadbackRequest> @callback)
         {
 
             var ___genericsType = new Type[] {};
@@ -8503,7 +8503,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void RequestAsyncReadback(UnityEngine.Texture  @src, System.Action<UnityEngine.Rendering.AsyncGPUReadbackRequest>  @callback)
+        public virtual void RequestAsyncReadback(UnityEngine.Texture @src, System.Action<UnityEngine.Rendering.AsyncGPUReadbackRequest> @callback)
         {
 
             var ___genericsType = new Type[] {};
@@ -8514,7 +8514,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void RequestAsyncReadback(UnityEngine.Texture  @src, System.Int32  @mipIndex, System.Action<UnityEngine.Rendering.AsyncGPUReadbackRequest>  @callback)
+        public virtual void RequestAsyncReadback(UnityEngine.Texture @src, System.Int32 @mipIndex, System.Action<UnityEngine.Rendering.AsyncGPUReadbackRequest> @callback)
         {
 
             var ___genericsType = new Type[] {};
@@ -8525,7 +8525,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void RequestAsyncReadback(UnityEngine.Texture  @src, System.Int32  @mipIndex, UnityEngine.TextureFormat  @dstFormat, System.Action<UnityEngine.Rendering.AsyncGPUReadbackRequest>  @callback)
+        public virtual void RequestAsyncReadback(UnityEngine.Texture @src, System.Int32 @mipIndex, UnityEngine.TextureFormat @dstFormat, System.Action<UnityEngine.Rendering.AsyncGPUReadbackRequest> @callback)
         {
 
             var ___genericsType = new Type[] {};
@@ -8536,7 +8536,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void RequestAsyncReadback(UnityEngine.Texture  @src, System.Int32  @mipIndex, UnityEngine.Experimental.Rendering.GraphicsFormat  @dstFormat, System.Action<UnityEngine.Rendering.AsyncGPUReadbackRequest>  @callback)
+        public virtual void RequestAsyncReadback(UnityEngine.Texture @src, System.Int32 @mipIndex, UnityEngine.Experimental.Rendering.GraphicsFormat @dstFormat, System.Action<UnityEngine.Rendering.AsyncGPUReadbackRequest> @callback)
         {
 
             var ___genericsType = new Type[] {};
@@ -8547,7 +8547,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void RequestAsyncReadback(UnityEngine.Texture  @src, System.Int32  @mipIndex, System.Int32  @x, System.Int32  @width, System.Int32  @y, System.Int32  @height, System.Int32  @z, System.Int32  @depth, System.Action<UnityEngine.Rendering.AsyncGPUReadbackRequest>  @callback)
+        public virtual void RequestAsyncReadback(UnityEngine.Texture @src, System.Int32 @mipIndex, System.Int32 @x, System.Int32 @width, System.Int32 @y, System.Int32 @height, System.Int32 @z, System.Int32 @depth, System.Action<UnityEngine.Rendering.AsyncGPUReadbackRequest> @callback)
         {
 
             var ___genericsType = new Type[] {};
@@ -8558,7 +8558,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void RequestAsyncReadback(UnityEngine.Texture  @src, System.Int32  @mipIndex, System.Int32  @x, System.Int32  @width, System.Int32  @y, System.Int32  @height, System.Int32  @z, System.Int32  @depth, UnityEngine.TextureFormat  @dstFormat, System.Action<UnityEngine.Rendering.AsyncGPUReadbackRequest>  @callback)
+        public virtual void RequestAsyncReadback(UnityEngine.Texture @src, System.Int32 @mipIndex, System.Int32 @x, System.Int32 @width, System.Int32 @y, System.Int32 @height, System.Int32 @z, System.Int32 @depth, UnityEngine.TextureFormat @dstFormat, System.Action<UnityEngine.Rendering.AsyncGPUReadbackRequest> @callback)
         {
 
             var ___genericsType = new Type[] {};
@@ -8569,7 +8569,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void RequestAsyncReadback(UnityEngine.Texture  @src, System.Int32  @mipIndex, System.Int32  @x, System.Int32  @width, System.Int32  @y, System.Int32  @height, System.Int32  @z, System.Int32  @depth, UnityEngine.Experimental.Rendering.GraphicsFormat  @dstFormat, System.Action<UnityEngine.Rendering.AsyncGPUReadbackRequest>  @callback)
+        public virtual void RequestAsyncReadback(UnityEngine.Texture @src, System.Int32 @mipIndex, System.Int32 @x, System.Int32 @width, System.Int32 @y, System.Int32 @height, System.Int32 @z, System.Int32 @depth, UnityEngine.Experimental.Rendering.GraphicsFormat @dstFormat, System.Action<UnityEngine.Rendering.AsyncGPUReadbackRequest> @callback)
         {
 
             var ___genericsType = new Type[] {};
@@ -8611,7 +8611,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 
 
 
-        public virtual void SetInvertCulling(System.Boolean  @invertCulling)
+        public virtual void SetInvertCulling(System.Boolean @invertCulling)
         {
 
             var ___genericsType = new Type[] {};
@@ -8622,7 +8622,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void ConvertTexture_Internal(UnityEngine.Rendering.RenderTargetIdentifier  @src, System.Int32  @srcElement, UnityEngine.Rendering.RenderTargetIdentifier  @dst, System.Int32  @dstElement)
+        public virtual void ConvertTexture_Internal(UnityEngine.Rendering.RenderTargetIdentifier @src, System.Int32 @srcElement, UnityEngine.Rendering.RenderTargetIdentifier @dst, System.Int32 @dstElement)
         {
 
             var ___genericsType = new Type[] {};
@@ -8633,7 +8633,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void Internal_SetSinglePassStereo(UnityEngine.Rendering.SinglePassStereoMode  @mode)
+        public virtual void Internal_SetSinglePassStereo(UnityEngine.Rendering.SinglePassStereoMode @mode)
         {
 
             var ___genericsType = new Type[] {};
@@ -8655,7 +8655,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual System.IntPtr CreateGPUFence_Internal(UnityEngine.Rendering.GraphicsFenceType  @fenceType, UnityEngine.Rendering.SynchronisationStageFlags  @stage)
+        public virtual System.IntPtr CreateGPUFence_Internal(UnityEngine.Rendering.GraphicsFenceType @fenceType, UnityEngine.Rendering.SynchronisationStageFlags @stage)
         {
 
             var ___genericsType = new Type[] {};
@@ -8666,7 +8666,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void WaitOnGPUFence_Internal(System.IntPtr  @fencePtr, UnityEngine.Rendering.SynchronisationStageFlags  @stage)
+        public virtual void WaitOnGPUFence_Internal(System.IntPtr @fencePtr, UnityEngine.Rendering.SynchronisationStageFlags @stage)
         {
 
             var ___genericsType = new Type[] {};
@@ -8688,7 +8688,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetComputeFloatParam(UnityEngine.ComputeShader  @computeShader, System.Int32  @nameID, System.Single  @val)
+        public virtual void SetComputeFloatParam(UnityEngine.ComputeShader @computeShader, System.Int32 @nameID, System.Single @val)
         {
 
             var ___genericsType = new Type[] {};
@@ -8699,7 +8699,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetComputeIntParam(UnityEngine.ComputeShader  @computeShader, System.Int32  @nameID, System.Int32  @val)
+        public virtual void SetComputeIntParam(UnityEngine.ComputeShader @computeShader, System.Int32 @nameID, System.Int32 @val)
         {
 
             var ___genericsType = new Type[] {};
@@ -8710,7 +8710,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetComputeVectorParam(UnityEngine.ComputeShader  @computeShader, System.Int32  @nameID, UnityEngine.Vector4  @val)
+        public virtual void SetComputeVectorParam(UnityEngine.ComputeShader @computeShader, System.Int32 @nameID, UnityEngine.Vector4 @val)
         {
 
             var ___genericsType = new Type[] {};
@@ -8721,7 +8721,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetComputeVectorArrayParam(UnityEngine.ComputeShader  @computeShader, System.Int32  @nameID, UnityEngine.Vector4[]  @values)
+        public virtual void SetComputeVectorArrayParam(UnityEngine.ComputeShader @computeShader, System.Int32 @nameID, UnityEngine.Vector4[] @values)
         {
 
             var ___genericsType = new Type[] {};
@@ -8732,7 +8732,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetComputeMatrixParam(UnityEngine.ComputeShader  @computeShader, System.Int32  @nameID, UnityEngine.Matrix4x4  @val)
+        public virtual void SetComputeMatrixParam(UnityEngine.ComputeShader @computeShader, System.Int32 @nameID, UnityEngine.Matrix4x4 @val)
         {
 
             var ___genericsType = new Type[] {};
@@ -8743,7 +8743,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetComputeMatrixArrayParam(UnityEngine.ComputeShader  @computeShader, System.Int32  @nameID, UnityEngine.Matrix4x4[]  @values)
+        public virtual void SetComputeMatrixArrayParam(UnityEngine.ComputeShader @computeShader, System.Int32 @nameID, UnityEngine.Matrix4x4[] @values)
         {
 
             var ___genericsType = new Type[] {};
@@ -8754,7 +8754,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void Internal_SetComputeFloats(UnityEngine.ComputeShader  @computeShader, System.Int32  @nameID, System.Single[]  @values)
+        public virtual void Internal_SetComputeFloats(UnityEngine.ComputeShader @computeShader, System.Int32 @nameID, System.Single[] @values)
         {
 
             var ___genericsType = new Type[] {};
@@ -8765,7 +8765,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void Internal_SetComputeInts(UnityEngine.ComputeShader  @computeShader, System.Int32  @nameID, System.Int32[]  @values)
+        public virtual void Internal_SetComputeInts(UnityEngine.ComputeShader @computeShader, System.Int32 @nameID, System.Int32[] @values)
         {
 
             var ___genericsType = new Type[] {};
@@ -8776,7 +8776,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void Internal_SetComputeTextureParam(UnityEngine.ComputeShader  @computeShader, System.Int32  @kernelIndex, System.Int32  @nameID, ref UnityEngine.Rendering.RenderTargetIdentifier  @rt, System.Int32  @mipLevel, UnityEngine.Rendering.RenderTextureSubElement  @element)
+        public virtual void Internal_SetComputeTextureParam(UnityEngine.ComputeShader @computeShader, System.Int32 @kernelIndex, System.Int32 @nameID, ref UnityEngine.Rendering.RenderTargetIdentifier @rt, System.Int32 @mipLevel, UnityEngine.Rendering.RenderTextureSubElement @element)
         {
 
             var ___genericsType = new Type[] {};
@@ -8788,7 +8788,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void Internal_SetComputeBufferParam(UnityEngine.ComputeShader  @computeShader, System.Int32  @kernelIndex, System.Int32  @nameID, UnityEngine.ComputeBuffer  @buffer)
+        public virtual void Internal_SetComputeBufferParam(UnityEngine.ComputeShader @computeShader, System.Int32 @kernelIndex, System.Int32 @nameID, UnityEngine.ComputeBuffer @buffer)
         {
 
             var ___genericsType = new Type[] {};
@@ -8799,7 +8799,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void Internal_SetComputeGraphicsBufferHandleParam(UnityEngine.ComputeShader  @computeShader, System.Int32  @kernelIndex, System.Int32  @nameID, UnityEngine.GraphicsBufferHandle  @bufferHandle)
+        public virtual void Internal_SetComputeGraphicsBufferHandleParam(UnityEngine.ComputeShader @computeShader, System.Int32 @kernelIndex, System.Int32 @nameID, UnityEngine.GraphicsBufferHandle @bufferHandle)
         {
 
             var ___genericsType = new Type[] {};
@@ -8810,7 +8810,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void Internal_SetComputeGraphicsBufferParam(UnityEngine.ComputeShader  @computeShader, System.Int32  @kernelIndex, System.Int32  @nameID, UnityEngine.GraphicsBuffer  @buffer)
+        public virtual void Internal_SetComputeGraphicsBufferParam(UnityEngine.ComputeShader @computeShader, System.Int32 @kernelIndex, System.Int32 @nameID, UnityEngine.GraphicsBuffer @buffer)
         {
 
             var ___genericsType = new Type[] {};
@@ -8821,7 +8821,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void Internal_SetComputeConstantComputeBufferParam(UnityEngine.ComputeShader  @computeShader, System.Int32  @nameID, UnityEngine.ComputeBuffer  @buffer, System.Int32  @offset, System.Int32  @size)
+        public virtual void Internal_SetComputeConstantComputeBufferParam(UnityEngine.ComputeShader @computeShader, System.Int32 @nameID, UnityEngine.ComputeBuffer @buffer, System.Int32 @offset, System.Int32 @size)
         {
 
             var ___genericsType = new Type[] {};
@@ -8832,7 +8832,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void Internal_SetComputeConstantGraphicsBufferParam(UnityEngine.ComputeShader  @computeShader, System.Int32  @nameID, UnityEngine.GraphicsBuffer  @buffer, System.Int32  @offset, System.Int32  @size)
+        public virtual void Internal_SetComputeConstantGraphicsBufferParam(UnityEngine.ComputeShader @computeShader, System.Int32 @nameID, UnityEngine.GraphicsBuffer @buffer, System.Int32 @offset, System.Int32 @size)
         {
 
             var ___genericsType = new Type[] {};
@@ -8843,7 +8843,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void Internal_SetComputeParamsFromMaterial(UnityEngine.ComputeShader  @computeShader, System.Int32  @kernelIndex, UnityEngine.Material  @material)
+        public virtual void Internal_SetComputeParamsFromMaterial(UnityEngine.ComputeShader @computeShader, System.Int32 @kernelIndex, UnityEngine.Material @material)
         {
 
             var ___genericsType = new Type[] {};
@@ -8854,7 +8854,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void Internal_DispatchCompute(UnityEngine.ComputeShader  @computeShader, System.Int32  @kernelIndex, System.Int32  @threadGroupsX, System.Int32  @threadGroupsY, System.Int32  @threadGroupsZ)
+        public virtual void Internal_DispatchCompute(UnityEngine.ComputeShader @computeShader, System.Int32 @kernelIndex, System.Int32 @threadGroupsX, System.Int32 @threadGroupsY, System.Int32 @threadGroupsZ)
         {
 
             var ___genericsType = new Type[] {};
@@ -8865,7 +8865,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void Internal_DispatchComputeIndirect(UnityEngine.ComputeShader  @computeShader, System.Int32  @kernelIndex, UnityEngine.ComputeBuffer  @indirectBuffer, System.UInt32  @argsOffset)
+        public virtual void Internal_DispatchComputeIndirect(UnityEngine.ComputeShader @computeShader, System.Int32 @kernelIndex, UnityEngine.ComputeBuffer @indirectBuffer, System.UInt32 @argsOffset)
         {
 
             var ___genericsType = new Type[] {};
@@ -8876,7 +8876,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void Internal_DispatchComputeIndirectGraphicsBuffer(UnityEngine.ComputeShader  @computeShader, System.Int32  @kernelIndex, UnityEngine.GraphicsBuffer  @indirectBuffer, System.UInt32  @argsOffset)
+        public virtual void Internal_DispatchComputeIndirectGraphicsBuffer(UnityEngine.ComputeShader @computeShader, System.Int32 @kernelIndex, UnityEngine.GraphicsBuffer @indirectBuffer, System.UInt32 @argsOffset)
         {
 
             var ___genericsType = new Type[] {};
@@ -8887,7 +8887,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void Internal_SetRayTracingBufferParam(UnityEngine.Experimental.Rendering.RayTracingShader  @rayTracingShader, System.Int32  @nameID, UnityEngine.ComputeBuffer  @buffer)
+        public virtual void Internal_SetRayTracingBufferParam(UnityEngine.Experimental.Rendering.RayTracingShader @rayTracingShader, System.Int32 @nameID, UnityEngine.ComputeBuffer @buffer)
         {
 
             var ___genericsType = new Type[] {};
@@ -8898,7 +8898,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void Internal_SetRayTracingConstantComputeBufferParam(UnityEngine.Experimental.Rendering.RayTracingShader  @rayTracingShader, System.Int32  @nameID, UnityEngine.ComputeBuffer  @buffer, System.Int32  @offset, System.Int32  @size)
+        public virtual void Internal_SetRayTracingConstantComputeBufferParam(UnityEngine.Experimental.Rendering.RayTracingShader @rayTracingShader, System.Int32 @nameID, UnityEngine.ComputeBuffer @buffer, System.Int32 @offset, System.Int32 @size)
         {
 
             var ___genericsType = new Type[] {};
@@ -8909,7 +8909,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void Internal_SetRayTracingConstantGraphicsBufferParam(UnityEngine.Experimental.Rendering.RayTracingShader  @rayTracingShader, System.Int32  @nameID, UnityEngine.GraphicsBuffer  @buffer, System.Int32  @offset, System.Int32  @size)
+        public virtual void Internal_SetRayTracingConstantGraphicsBufferParam(UnityEngine.Experimental.Rendering.RayTracingShader @rayTracingShader, System.Int32 @nameID, UnityEngine.GraphicsBuffer @buffer, System.Int32 @offset, System.Int32 @size)
         {
 
             var ___genericsType = new Type[] {};
@@ -8920,7 +8920,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void Internal_SetRayTracingTextureParam(UnityEngine.Experimental.Rendering.RayTracingShader  @rayTracingShader, System.Int32  @nameID, ref UnityEngine.Rendering.RenderTargetIdentifier  @rt)
+        public virtual void Internal_SetRayTracingTextureParam(UnityEngine.Experimental.Rendering.RayTracingShader @rayTracingShader, System.Int32 @nameID, ref UnityEngine.Rendering.RenderTargetIdentifier @rt)
         {
 
             var ___genericsType = new Type[] {};
@@ -8932,7 +8932,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void Internal_SetRayTracingFloatParam(UnityEngine.Experimental.Rendering.RayTracingShader  @rayTracingShader, System.Int32  @nameID, System.Single  @val)
+        public virtual void Internal_SetRayTracingFloatParam(UnityEngine.Experimental.Rendering.RayTracingShader @rayTracingShader, System.Int32 @nameID, System.Single @val)
         {
 
             var ___genericsType = new Type[] {};
@@ -8943,7 +8943,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void Internal_SetRayTracingIntParam(UnityEngine.Experimental.Rendering.RayTracingShader  @rayTracingShader, System.Int32  @nameID, System.Int32  @val)
+        public virtual void Internal_SetRayTracingIntParam(UnityEngine.Experimental.Rendering.RayTracingShader @rayTracingShader, System.Int32 @nameID, System.Int32 @val)
         {
 
             var ___genericsType = new Type[] {};
@@ -8954,7 +8954,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void Internal_SetRayTracingVectorParam(UnityEngine.Experimental.Rendering.RayTracingShader  @rayTracingShader, System.Int32  @nameID, UnityEngine.Vector4  @val)
+        public virtual void Internal_SetRayTracingVectorParam(UnityEngine.Experimental.Rendering.RayTracingShader @rayTracingShader, System.Int32 @nameID, UnityEngine.Vector4 @val)
         {
 
             var ___genericsType = new Type[] {};
@@ -8965,7 +8965,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void Internal_SetRayTracingVectorArrayParam(UnityEngine.Experimental.Rendering.RayTracingShader  @rayTracingShader, System.Int32  @nameID, UnityEngine.Vector4[]  @values)
+        public virtual void Internal_SetRayTracingVectorArrayParam(UnityEngine.Experimental.Rendering.RayTracingShader @rayTracingShader, System.Int32 @nameID, UnityEngine.Vector4[] @values)
         {
 
             var ___genericsType = new Type[] {};
@@ -8976,7 +8976,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void Internal_SetRayTracingMatrixParam(UnityEngine.Experimental.Rendering.RayTracingShader  @rayTracingShader, System.Int32  @nameID, UnityEngine.Matrix4x4  @val)
+        public virtual void Internal_SetRayTracingMatrixParam(UnityEngine.Experimental.Rendering.RayTracingShader @rayTracingShader, System.Int32 @nameID, UnityEngine.Matrix4x4 @val)
         {
 
             var ___genericsType = new Type[] {};
@@ -8987,7 +8987,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void Internal_SetRayTracingMatrixArrayParam(UnityEngine.Experimental.Rendering.RayTracingShader  @rayTracingShader, System.Int32  @nameID, UnityEngine.Matrix4x4[]  @values)
+        public virtual void Internal_SetRayTracingMatrixArrayParam(UnityEngine.Experimental.Rendering.RayTracingShader @rayTracingShader, System.Int32 @nameID, UnityEngine.Matrix4x4[] @values)
         {
 
             var ___genericsType = new Type[] {};
@@ -8998,7 +8998,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void Internal_SetRayTracingFloats(UnityEngine.Experimental.Rendering.RayTracingShader  @rayTracingShader, System.Int32  @nameID, System.Single[]  @values)
+        public virtual void Internal_SetRayTracingFloats(UnityEngine.Experimental.Rendering.RayTracingShader @rayTracingShader, System.Int32 @nameID, System.Single[] @values)
         {
 
             var ___genericsType = new Type[] {};
@@ -9009,7 +9009,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void Internal_SetRayTracingInts(UnityEngine.Experimental.Rendering.RayTracingShader  @rayTracingShader, System.Int32  @nameID, System.Int32[]  @values)
+        public virtual void Internal_SetRayTracingInts(UnityEngine.Experimental.Rendering.RayTracingShader @rayTracingShader, System.Int32 @nameID, System.Int32[] @values)
         {
 
             var ___genericsType = new Type[] {};
@@ -9020,7 +9020,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void Internal_BuildRayTracingAccelerationStructure(UnityEngine.Experimental.Rendering.RayTracingAccelerationStructure  @accelerationStructure, UnityEngine.Vector3  @relativeOrigin)
+        public virtual void Internal_BuildRayTracingAccelerationStructure(UnityEngine.Experimental.Rendering.RayTracingAccelerationStructure @accelerationStructure, UnityEngine.Vector3 @relativeOrigin)
         {
 
             var ___genericsType = new Type[] {};
@@ -9031,7 +9031,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void Internal_SetRayTracingAccelerationStructure(UnityEngine.Experimental.Rendering.RayTracingShader  @rayTracingShader, System.Int32  @nameID, UnityEngine.Experimental.Rendering.RayTracingAccelerationStructure  @accelerationStructure)
+        public virtual void Internal_SetRayTracingAccelerationStructure(UnityEngine.Experimental.Rendering.RayTracingShader @rayTracingShader, System.Int32 @nameID, UnityEngine.Experimental.Rendering.RayTracingAccelerationStructure @accelerationStructure)
         {
 
             var ___genericsType = new Type[] {};
@@ -9042,7 +9042,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetRayTracingShaderPass(UnityEngine.Experimental.Rendering.RayTracingShader  @rayTracingShader, System.String  @passName)
+        public virtual void SetRayTracingShaderPass(UnityEngine.Experimental.Rendering.RayTracingShader @rayTracingShader, System.String @passName)
         {
 
             var ___genericsType = new Type[] {};
@@ -9053,7 +9053,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void Internal_DispatchRays(UnityEngine.Experimental.Rendering.RayTracingShader  @rayTracingShader, System.String  @rayGenShaderName, System.UInt32  @width, System.UInt32  @height, System.UInt32  @depth, UnityEngine.Camera  @camera)
+        public virtual void Internal_DispatchRays(UnityEngine.Experimental.Rendering.RayTracingShader @rayTracingShader, System.String @rayGenShaderName, System.UInt32 @width, System.UInt32 @height, System.UInt32 @depth, UnityEngine.Camera @camera)
         {
 
             var ___genericsType = new Type[] {};
@@ -9064,7 +9064,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void Internal_GenerateMips(UnityEngine.Rendering.RenderTargetIdentifier  @rt)
+        public virtual void Internal_GenerateMips(UnityEngine.Rendering.RenderTargetIdentifier @rt)
         {
 
             var ___genericsType = new Type[] {};
@@ -9075,7 +9075,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void Internal_ResolveAntiAliasedSurface(UnityEngine.RenderTexture  @rt, UnityEngine.RenderTexture  @target)
+        public virtual void Internal_ResolveAntiAliasedSurface(UnityEngine.RenderTexture @rt, UnityEngine.RenderTexture @target)
         {
 
             var ___genericsType = new Type[] {};
@@ -9086,7 +9086,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void CopyCounterValueCC(UnityEngine.ComputeBuffer  @src, UnityEngine.ComputeBuffer  @dst, System.UInt32  @dstOffsetBytes)
+        public virtual void CopyCounterValueCC(UnityEngine.ComputeBuffer @src, UnityEngine.ComputeBuffer @dst, System.UInt32 @dstOffsetBytes)
         {
 
             var ___genericsType = new Type[] {};
@@ -9097,7 +9097,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void CopyCounterValueGC(UnityEngine.GraphicsBuffer  @src, UnityEngine.ComputeBuffer  @dst, System.UInt32  @dstOffsetBytes)
+        public virtual void CopyCounterValueGC(UnityEngine.GraphicsBuffer @src, UnityEngine.ComputeBuffer @dst, System.UInt32 @dstOffsetBytes)
         {
 
             var ___genericsType = new Type[] {};
@@ -9108,7 +9108,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void CopyCounterValueCG(UnityEngine.ComputeBuffer  @src, UnityEngine.GraphicsBuffer  @dst, System.UInt32  @dstOffsetBytes)
+        public virtual void CopyCounterValueCG(UnityEngine.ComputeBuffer @src, UnityEngine.GraphicsBuffer @dst, System.UInt32 @dstOffsetBytes)
         {
 
             var ___genericsType = new Type[] {};
@@ -9119,7 +9119,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void CopyCounterValueGG(UnityEngine.GraphicsBuffer  @src, UnityEngine.GraphicsBuffer  @dst, System.UInt32  @dstOffsetBytes)
+        public virtual void CopyCounterValueGG(UnityEngine.GraphicsBuffer @src, UnityEngine.GraphicsBuffer @dst, System.UInt32 @dstOffsetBytes)
         {
 
             var ___genericsType = new Type[] {};
@@ -9141,7 +9141,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void Internal_DrawMesh(UnityEngine.Mesh  @mesh, UnityEngine.Matrix4x4  @matrix, UnityEngine.Material  @material, System.Int32  @submeshIndex, System.Int32  @shaderPass, UnityEngine.MaterialPropertyBlock  @properties)
+        public virtual void Internal_DrawMesh(UnityEngine.Mesh @mesh, UnityEngine.Matrix4x4 @matrix, UnityEngine.Material @material, System.Int32 @submeshIndex, System.Int32 @shaderPass, UnityEngine.MaterialPropertyBlock @properties)
         {
 
             var ___genericsType = new Type[] {};
@@ -9152,7 +9152,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void Internal_DrawRenderer(UnityEngine.Renderer  @renderer, UnityEngine.Material  @material, System.Int32  @submeshIndex, System.Int32  @shaderPass)
+        public virtual void Internal_DrawRenderer(UnityEngine.Renderer @renderer, UnityEngine.Material @material, System.Int32 @submeshIndex, System.Int32 @shaderPass)
         {
 
             var ___genericsType = new Type[] {};
@@ -9163,7 +9163,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void Internal_DrawRendererList(UnityEngine.Rendering.RendererList  @rendererList)
+        public virtual void Internal_DrawRendererList(UnityEngine.Rendering.RendererList @rendererList)
         {
 
             var ___genericsType = new Type[] {};
@@ -9174,7 +9174,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void Internal_DrawRenderer(UnityEngine.Renderer  @renderer, UnityEngine.Material  @material, System.Int32  @submeshIndex)
+        public virtual void Internal_DrawRenderer(UnityEngine.Renderer @renderer, UnityEngine.Material @material, System.Int32 @submeshIndex)
         {
 
             var ___genericsType = new Type[] {};
@@ -9185,7 +9185,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void Internal_DrawRenderer(UnityEngine.Renderer  @renderer, UnityEngine.Material  @material)
+        public virtual void Internal_DrawRenderer(UnityEngine.Renderer @renderer, UnityEngine.Material @material)
         {
 
             var ___genericsType = new Type[] {};
@@ -9196,7 +9196,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void Internal_DrawProcedural(UnityEngine.Matrix4x4  @matrix, UnityEngine.Material  @material, System.Int32  @shaderPass, UnityEngine.MeshTopology  @topology, System.Int32  @vertexCount, System.Int32  @instanceCount, UnityEngine.MaterialPropertyBlock  @properties)
+        public virtual void Internal_DrawProcedural(UnityEngine.Matrix4x4 @matrix, UnityEngine.Material @material, System.Int32 @shaderPass, UnityEngine.MeshTopology @topology, System.Int32 @vertexCount, System.Int32 @instanceCount, UnityEngine.MaterialPropertyBlock @properties)
         {
 
             var ___genericsType = new Type[] {};
@@ -9207,7 +9207,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void Internal_DrawProceduralIndexed(UnityEngine.GraphicsBuffer  @indexBuffer, UnityEngine.Matrix4x4  @matrix, UnityEngine.Material  @material, System.Int32  @shaderPass, UnityEngine.MeshTopology  @topology, System.Int32  @indexCount, System.Int32  @instanceCount, UnityEngine.MaterialPropertyBlock  @properties)
+        public virtual void Internal_DrawProceduralIndexed(UnityEngine.GraphicsBuffer @indexBuffer, UnityEngine.Matrix4x4 @matrix, UnityEngine.Material @material, System.Int32 @shaderPass, UnityEngine.MeshTopology @topology, System.Int32 @indexCount, System.Int32 @instanceCount, UnityEngine.MaterialPropertyBlock @properties)
         {
 
             var ___genericsType = new Type[] {};
@@ -9218,7 +9218,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void Internal_DrawProceduralIndirect(UnityEngine.Matrix4x4  @matrix, UnityEngine.Material  @material, System.Int32  @shaderPass, UnityEngine.MeshTopology  @topology, UnityEngine.ComputeBuffer  @bufferWithArgs, System.Int32  @argsOffset, UnityEngine.MaterialPropertyBlock  @properties)
+        public virtual void Internal_DrawProceduralIndirect(UnityEngine.Matrix4x4 @matrix, UnityEngine.Material @material, System.Int32 @shaderPass, UnityEngine.MeshTopology @topology, UnityEngine.ComputeBuffer @bufferWithArgs, System.Int32 @argsOffset, UnityEngine.MaterialPropertyBlock @properties)
         {
 
             var ___genericsType = new Type[] {};
@@ -9229,7 +9229,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void Internal_DrawProceduralIndexedIndirect(UnityEngine.GraphicsBuffer  @indexBuffer, UnityEngine.Matrix4x4  @matrix, UnityEngine.Material  @material, System.Int32  @shaderPass, UnityEngine.MeshTopology  @topology, UnityEngine.ComputeBuffer  @bufferWithArgs, System.Int32  @argsOffset, UnityEngine.MaterialPropertyBlock  @properties)
+        public virtual void Internal_DrawProceduralIndexedIndirect(UnityEngine.GraphicsBuffer @indexBuffer, UnityEngine.Matrix4x4 @matrix, UnityEngine.Material @material, System.Int32 @shaderPass, UnityEngine.MeshTopology @topology, UnityEngine.ComputeBuffer @bufferWithArgs, System.Int32 @argsOffset, UnityEngine.MaterialPropertyBlock @properties)
         {
 
             var ___genericsType = new Type[] {};
@@ -9240,7 +9240,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void Internal_DrawProceduralIndirectGraphicsBuffer(UnityEngine.Matrix4x4  @matrix, UnityEngine.Material  @material, System.Int32  @shaderPass, UnityEngine.MeshTopology  @topology, UnityEngine.GraphicsBuffer  @bufferWithArgs, System.Int32  @argsOffset, UnityEngine.MaterialPropertyBlock  @properties)
+        public virtual void Internal_DrawProceduralIndirectGraphicsBuffer(UnityEngine.Matrix4x4 @matrix, UnityEngine.Material @material, System.Int32 @shaderPass, UnityEngine.MeshTopology @topology, UnityEngine.GraphicsBuffer @bufferWithArgs, System.Int32 @argsOffset, UnityEngine.MaterialPropertyBlock @properties)
         {
 
             var ___genericsType = new Type[] {};
@@ -9251,7 +9251,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void Internal_DrawProceduralIndexedIndirectGraphicsBuffer(UnityEngine.GraphicsBuffer  @indexBuffer, UnityEngine.Matrix4x4  @matrix, UnityEngine.Material  @material, System.Int32  @shaderPass, UnityEngine.MeshTopology  @topology, UnityEngine.GraphicsBuffer  @bufferWithArgs, System.Int32  @argsOffset, UnityEngine.MaterialPropertyBlock  @properties)
+        public virtual void Internal_DrawProceduralIndexedIndirectGraphicsBuffer(UnityEngine.GraphicsBuffer @indexBuffer, UnityEngine.Matrix4x4 @matrix, UnityEngine.Material @material, System.Int32 @shaderPass, UnityEngine.MeshTopology @topology, UnityEngine.GraphicsBuffer @bufferWithArgs, System.Int32 @argsOffset, UnityEngine.MaterialPropertyBlock @properties)
         {
 
             var ___genericsType = new Type[] {};
@@ -9262,7 +9262,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void Internal_DrawMeshInstanced(UnityEngine.Mesh  @mesh, System.Int32  @submeshIndex, UnityEngine.Material  @material, System.Int32  @shaderPass, UnityEngine.Matrix4x4[]  @matrices, System.Int32  @count, UnityEngine.MaterialPropertyBlock  @properties)
+        public virtual void Internal_DrawMeshInstanced(UnityEngine.Mesh @mesh, System.Int32 @submeshIndex, UnityEngine.Material @material, System.Int32 @shaderPass, UnityEngine.Matrix4x4[] @matrices, System.Int32 @count, UnityEngine.MaterialPropertyBlock @properties)
         {
 
             var ___genericsType = new Type[] {};
@@ -9273,7 +9273,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void Internal_DrawMeshInstancedProcedural(UnityEngine.Mesh  @mesh, System.Int32  @submeshIndex, UnityEngine.Material  @material, System.Int32  @shaderPass, System.Int32  @count, UnityEngine.MaterialPropertyBlock  @properties)
+        public virtual void Internal_DrawMeshInstancedProcedural(UnityEngine.Mesh @mesh, System.Int32 @submeshIndex, UnityEngine.Material @material, System.Int32 @shaderPass, System.Int32 @count, UnityEngine.MaterialPropertyBlock @properties)
         {
 
             var ___genericsType = new Type[] {};
@@ -9284,7 +9284,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void Internal_DrawMeshInstancedIndirect(UnityEngine.Mesh  @mesh, System.Int32  @submeshIndex, UnityEngine.Material  @material, System.Int32  @shaderPass, UnityEngine.ComputeBuffer  @bufferWithArgs, System.Int32  @argsOffset, UnityEngine.MaterialPropertyBlock  @properties)
+        public virtual void Internal_DrawMeshInstancedIndirect(UnityEngine.Mesh @mesh, System.Int32 @submeshIndex, UnityEngine.Material @material, System.Int32 @shaderPass, UnityEngine.ComputeBuffer @bufferWithArgs, System.Int32 @argsOffset, UnityEngine.MaterialPropertyBlock @properties)
         {
 
             var ___genericsType = new Type[] {};
@@ -9295,7 +9295,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void Internal_DrawMeshInstancedIndirectGraphicsBuffer(UnityEngine.Mesh  @mesh, System.Int32  @submeshIndex, UnityEngine.Material  @material, System.Int32  @shaderPass, UnityEngine.GraphicsBuffer  @bufferWithArgs, System.Int32  @argsOffset, UnityEngine.MaterialPropertyBlock  @properties)
+        public virtual void Internal_DrawMeshInstancedIndirectGraphicsBuffer(UnityEngine.Mesh @mesh, System.Int32 @submeshIndex, UnityEngine.Material @material, System.Int32 @shaderPass, UnityEngine.GraphicsBuffer @bufferWithArgs, System.Int32 @argsOffset, UnityEngine.MaterialPropertyBlock @properties)
         {
 
             var ___genericsType = new Type[] {};
@@ -9306,7 +9306,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void Internal_DrawOcclusionMesh(UnityEngine.RectInt  @normalizedCamViewport)
+        public virtual void Internal_DrawOcclusionMesh(UnityEngine.RectInt @normalizedCamViewport)
         {
 
             var ___genericsType = new Type[] {};
@@ -9317,7 +9317,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetRandomWriteTarget_Texture(System.Int32  @index, ref UnityEngine.Rendering.RenderTargetIdentifier  @rt)
+        public virtual void SetRandomWriteTarget_Texture(System.Int32 @index, ref UnityEngine.Rendering.RenderTargetIdentifier @rt)
         {
 
             var ___genericsType = new Type[] {};
@@ -9329,7 +9329,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetRandomWriteTarget_Buffer(System.Int32  @index, UnityEngine.ComputeBuffer  @uav, System.Boolean  @preserveCounterValue)
+        public virtual void SetRandomWriteTarget_Buffer(System.Int32 @index, UnityEngine.ComputeBuffer @uav, System.Boolean @preserveCounterValue)
         {
 
             var ___genericsType = new Type[] {};
@@ -9340,7 +9340,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetRandomWriteTarget_GraphicsBuffer(System.Int32  @index, UnityEngine.GraphicsBuffer  @uav, System.Boolean  @preserveCounterValue)
+        public virtual void SetRandomWriteTarget_GraphicsBuffer(System.Int32 @index, UnityEngine.GraphicsBuffer @uav, System.Boolean @preserveCounterValue)
         {
 
             var ___genericsType = new Type[] {};
@@ -9362,7 +9362,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetViewport(UnityEngine.Rect  @pixelRect)
+        public virtual void SetViewport(UnityEngine.Rect @pixelRect)
         {
 
             var ___genericsType = new Type[] {};
@@ -9373,7 +9373,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void EnableScissorRect(UnityEngine.Rect  @scissor)
+        public virtual void EnableScissorRect(UnityEngine.Rect @scissor)
         {
 
             var ___genericsType = new Type[] {};
@@ -9395,7 +9395,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void CopyTexture_Internal(ref UnityEngine.Rendering.RenderTargetIdentifier  @src, System.Int32  @srcElement, System.Int32  @srcMip, System.Int32  @srcX, System.Int32  @srcY, System.Int32  @srcWidth, System.Int32  @srcHeight, ref UnityEngine.Rendering.RenderTargetIdentifier  @dst, System.Int32  @dstElement, System.Int32  @dstMip, System.Int32  @dstX, System.Int32  @dstY, System.Int32  @mode)
+        public virtual void CopyTexture_Internal(ref UnityEngine.Rendering.RenderTargetIdentifier @src, System.Int32 @srcElement, System.Int32 @srcMip, System.Int32 @srcX, System.Int32 @srcY, System.Int32 @srcWidth, System.Int32 @srcHeight, ref UnityEngine.Rendering.RenderTargetIdentifier @dst, System.Int32 @dstElement, System.Int32 @dstMip, System.Int32 @dstX, System.Int32 @dstY, System.Int32 @mode)
         {
 
             var ___genericsType = new Type[] {};
@@ -9408,7 +9408,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void Blit_Texture(UnityEngine.Texture  @source, ref UnityEngine.Rendering.RenderTargetIdentifier  @dest, UnityEngine.Material  @mat, System.Int32  @pass, UnityEngine.Vector2  @scale, UnityEngine.Vector2  @offset, System.Int32  @sourceDepthSlice, System.Int32  @destDepthSlice)
+        public virtual void Blit_Texture(UnityEngine.Texture @source, ref UnityEngine.Rendering.RenderTargetIdentifier @dest, UnityEngine.Material @mat, System.Int32 @pass, UnityEngine.Vector2 @scale, UnityEngine.Vector2 @offset, System.Int32 @sourceDepthSlice, System.Int32 @destDepthSlice)
         {
 
             var ___genericsType = new Type[] {};
@@ -9420,7 +9420,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void Blit_Identifier(ref UnityEngine.Rendering.RenderTargetIdentifier  @source, ref UnityEngine.Rendering.RenderTargetIdentifier  @dest, UnityEngine.Material  @mat, System.Int32  @pass, UnityEngine.Vector2  @scale, UnityEngine.Vector2  @offset, System.Int32  @sourceDepthSlice, System.Int32  @destDepthSlice)
+        public virtual void Blit_Identifier(ref UnityEngine.Rendering.RenderTargetIdentifier @source, ref UnityEngine.Rendering.RenderTargetIdentifier @dest, UnityEngine.Material @mat, System.Int32 @pass, UnityEngine.Vector2 @scale, UnityEngine.Vector2 @offset, System.Int32 @sourceDepthSlice, System.Int32 @destDepthSlice)
         {
 
             var ___genericsType = new Type[] {};
@@ -9433,7 +9433,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void GetTemporaryRT(System.Int32  @nameID, System.Int32  @width, System.Int32  @height, System.Int32  @depthBuffer, UnityEngine.FilterMode  @filter, UnityEngine.Experimental.Rendering.GraphicsFormat  @format, System.Int32  @antiAliasing, System.Boolean  @enableRandomWrite, UnityEngine.RenderTextureMemoryless  @memorylessMode, System.Boolean  @useDynamicScale)
+        public virtual void GetTemporaryRT(System.Int32 @nameID, System.Int32 @width, System.Int32 @height, System.Int32 @depthBuffer, UnityEngine.FilterMode @filter, UnityEngine.Experimental.Rendering.GraphicsFormat @format, System.Int32 @antiAliasing, System.Boolean @enableRandomWrite, UnityEngine.RenderTextureMemoryless @memorylessMode, System.Boolean @useDynamicScale)
         {
 
             var ___genericsType = new Type[] {};
@@ -9444,7 +9444,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void GetTemporaryRT(System.Int32  @nameID, System.Int32  @width, System.Int32  @height, System.Int32  @depthBuffer, UnityEngine.FilterMode  @filter, UnityEngine.Experimental.Rendering.GraphicsFormat  @format, System.Int32  @antiAliasing, System.Boolean  @enableRandomWrite, UnityEngine.RenderTextureMemoryless  @memorylessMode)
+        public virtual void GetTemporaryRT(System.Int32 @nameID, System.Int32 @width, System.Int32 @height, System.Int32 @depthBuffer, UnityEngine.FilterMode @filter, UnityEngine.Experimental.Rendering.GraphicsFormat @format, System.Int32 @antiAliasing, System.Boolean @enableRandomWrite, UnityEngine.RenderTextureMemoryless @memorylessMode)
         {
 
             var ___genericsType = new Type[] {};
@@ -9455,7 +9455,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void GetTemporaryRT(System.Int32  @nameID, System.Int32  @width, System.Int32  @height, System.Int32  @depthBuffer, UnityEngine.FilterMode  @filter, UnityEngine.Experimental.Rendering.GraphicsFormat  @format, System.Int32  @antiAliasing, System.Boolean  @enableRandomWrite)
+        public virtual void GetTemporaryRT(System.Int32 @nameID, System.Int32 @width, System.Int32 @height, System.Int32 @depthBuffer, UnityEngine.FilterMode @filter, UnityEngine.Experimental.Rendering.GraphicsFormat @format, System.Int32 @antiAliasing, System.Boolean @enableRandomWrite)
         {
 
             var ___genericsType = new Type[] {};
@@ -9466,7 +9466,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void GetTemporaryRT(System.Int32  @nameID, System.Int32  @width, System.Int32  @height, System.Int32  @depthBuffer, UnityEngine.FilterMode  @filter, UnityEngine.Experimental.Rendering.GraphicsFormat  @format, System.Int32  @antiAliasing)
+        public virtual void GetTemporaryRT(System.Int32 @nameID, System.Int32 @width, System.Int32 @height, System.Int32 @depthBuffer, UnityEngine.FilterMode @filter, UnityEngine.Experimental.Rendering.GraphicsFormat @format, System.Int32 @antiAliasing)
         {
 
             var ___genericsType = new Type[] {};
@@ -9477,7 +9477,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void GetTemporaryRT(System.Int32  @nameID, System.Int32  @width, System.Int32  @height, System.Int32  @depthBuffer, UnityEngine.FilterMode  @filter, UnityEngine.Experimental.Rendering.GraphicsFormat  @format)
+        public virtual void GetTemporaryRT(System.Int32 @nameID, System.Int32 @width, System.Int32 @height, System.Int32 @depthBuffer, UnityEngine.FilterMode @filter, UnityEngine.Experimental.Rendering.GraphicsFormat @format)
         {
 
             var ___genericsType = new Type[] {};
@@ -9488,7 +9488,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void GetTemporaryRT(System.Int32  @nameID, System.Int32  @width, System.Int32  @height, System.Int32  @depthBuffer, UnityEngine.FilterMode  @filter, UnityEngine.RenderTextureFormat  @format, UnityEngine.RenderTextureReadWrite  @readWrite, System.Int32  @antiAliasing, System.Boolean  @enableRandomWrite, UnityEngine.RenderTextureMemoryless  @memorylessMode, System.Boolean  @useDynamicScale)
+        public virtual void GetTemporaryRT(System.Int32 @nameID, System.Int32 @width, System.Int32 @height, System.Int32 @depthBuffer, UnityEngine.FilterMode @filter, UnityEngine.RenderTextureFormat @format, UnityEngine.RenderTextureReadWrite @readWrite, System.Int32 @antiAliasing, System.Boolean @enableRandomWrite, UnityEngine.RenderTextureMemoryless @memorylessMode, System.Boolean @useDynamicScale)
         {
 
             var ___genericsType = new Type[] {};
@@ -9499,7 +9499,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void GetTemporaryRT(System.Int32  @nameID, System.Int32  @width, System.Int32  @height, System.Int32  @depthBuffer, UnityEngine.FilterMode  @filter, UnityEngine.RenderTextureFormat  @format, UnityEngine.RenderTextureReadWrite  @readWrite, System.Int32  @antiAliasing, System.Boolean  @enableRandomWrite, UnityEngine.RenderTextureMemoryless  @memorylessMode)
+        public virtual void GetTemporaryRT(System.Int32 @nameID, System.Int32 @width, System.Int32 @height, System.Int32 @depthBuffer, UnityEngine.FilterMode @filter, UnityEngine.RenderTextureFormat @format, UnityEngine.RenderTextureReadWrite @readWrite, System.Int32 @antiAliasing, System.Boolean @enableRandomWrite, UnityEngine.RenderTextureMemoryless @memorylessMode)
         {
 
             var ___genericsType = new Type[] {};
@@ -9510,7 +9510,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void GetTemporaryRT(System.Int32  @nameID, System.Int32  @width, System.Int32  @height, System.Int32  @depthBuffer, UnityEngine.FilterMode  @filter, UnityEngine.RenderTextureFormat  @format, UnityEngine.RenderTextureReadWrite  @readWrite, System.Int32  @antiAliasing, System.Boolean  @enableRandomWrite)
+        public virtual void GetTemporaryRT(System.Int32 @nameID, System.Int32 @width, System.Int32 @height, System.Int32 @depthBuffer, UnityEngine.FilterMode @filter, UnityEngine.RenderTextureFormat @format, UnityEngine.RenderTextureReadWrite @readWrite, System.Int32 @antiAliasing, System.Boolean @enableRandomWrite)
         {
 
             var ___genericsType = new Type[] {};
@@ -9521,7 +9521,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void GetTemporaryRT(System.Int32  @nameID, System.Int32  @width, System.Int32  @height, System.Int32  @depthBuffer, UnityEngine.FilterMode  @filter, UnityEngine.RenderTextureFormat  @format, UnityEngine.RenderTextureReadWrite  @readWrite, System.Int32  @antiAliasing)
+        public virtual void GetTemporaryRT(System.Int32 @nameID, System.Int32 @width, System.Int32 @height, System.Int32 @depthBuffer, UnityEngine.FilterMode @filter, UnityEngine.RenderTextureFormat @format, UnityEngine.RenderTextureReadWrite @readWrite, System.Int32 @antiAliasing)
         {
 
             var ___genericsType = new Type[] {};
@@ -9532,7 +9532,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void GetTemporaryRT(System.Int32  @nameID, System.Int32  @width, System.Int32  @height, System.Int32  @depthBuffer, UnityEngine.FilterMode  @filter, UnityEngine.RenderTextureFormat  @format, UnityEngine.RenderTextureReadWrite  @readWrite)
+        public virtual void GetTemporaryRT(System.Int32 @nameID, System.Int32 @width, System.Int32 @height, System.Int32 @depthBuffer, UnityEngine.FilterMode @filter, UnityEngine.RenderTextureFormat @format, UnityEngine.RenderTextureReadWrite @readWrite)
         {
 
             var ___genericsType = new Type[] {};
@@ -9543,7 +9543,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void GetTemporaryRT(System.Int32  @nameID, System.Int32  @width, System.Int32  @height, System.Int32  @depthBuffer, UnityEngine.FilterMode  @filter, UnityEngine.RenderTextureFormat  @format)
+        public virtual void GetTemporaryRT(System.Int32 @nameID, System.Int32 @width, System.Int32 @height, System.Int32 @depthBuffer, UnityEngine.FilterMode @filter, UnityEngine.RenderTextureFormat @format)
         {
 
             var ___genericsType = new Type[] {};
@@ -9554,7 +9554,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void GetTemporaryRT(System.Int32  @nameID, System.Int32  @width, System.Int32  @height, System.Int32  @depthBuffer, UnityEngine.FilterMode  @filter)
+        public virtual void GetTemporaryRT(System.Int32 @nameID, System.Int32 @width, System.Int32 @height, System.Int32 @depthBuffer, UnityEngine.FilterMode @filter)
         {
 
             var ___genericsType = new Type[] {};
@@ -9565,7 +9565,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void GetTemporaryRT(System.Int32  @nameID, System.Int32  @width, System.Int32  @height, System.Int32  @depthBuffer)
+        public virtual void GetTemporaryRT(System.Int32 @nameID, System.Int32 @width, System.Int32 @height, System.Int32 @depthBuffer)
         {
 
             var ___genericsType = new Type[] {};
@@ -9576,7 +9576,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void GetTemporaryRT(System.Int32  @nameID, System.Int32  @width, System.Int32  @height)
+        public virtual void GetTemporaryRT(System.Int32 @nameID, System.Int32 @width, System.Int32 @height)
         {
 
             var ___genericsType = new Type[] {};
@@ -9587,7 +9587,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void GetTemporaryRTWithDescriptor(System.Int32  @nameID, UnityEngine.RenderTextureDescriptor  @desc, UnityEngine.FilterMode  @filter)
+        public virtual void GetTemporaryRTWithDescriptor(System.Int32 @nameID, UnityEngine.RenderTextureDescriptor @desc, UnityEngine.FilterMode @filter)
         {
 
             var ___genericsType = new Type[] {};
@@ -9598,7 +9598,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void GetTemporaryRT(System.Int32  @nameID, UnityEngine.RenderTextureDescriptor  @desc, UnityEngine.FilterMode  @filter)
+        public virtual void GetTemporaryRT(System.Int32 @nameID, UnityEngine.RenderTextureDescriptor @desc, UnityEngine.FilterMode @filter)
         {
 
             var ___genericsType = new Type[] {};
@@ -9609,7 +9609,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void GetTemporaryRT(System.Int32  @nameID, UnityEngine.RenderTextureDescriptor  @desc)
+        public virtual void GetTemporaryRT(System.Int32 @nameID, UnityEngine.RenderTextureDescriptor @desc)
         {
 
             var ___genericsType = new Type[] {};
@@ -9620,7 +9620,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void GetTemporaryRTArray(System.Int32  @nameID, System.Int32  @width, System.Int32  @height, System.Int32  @slices, System.Int32  @depthBuffer, UnityEngine.FilterMode  @filter, UnityEngine.Experimental.Rendering.GraphicsFormat  @format, System.Int32  @antiAliasing, System.Boolean  @enableRandomWrite, System.Boolean  @useDynamicScale)
+        public virtual void GetTemporaryRTArray(System.Int32 @nameID, System.Int32 @width, System.Int32 @height, System.Int32 @slices, System.Int32 @depthBuffer, UnityEngine.FilterMode @filter, UnityEngine.Experimental.Rendering.GraphicsFormat @format, System.Int32 @antiAliasing, System.Boolean @enableRandomWrite, System.Boolean @useDynamicScale)
         {
 
             var ___genericsType = new Type[] {};
@@ -9631,7 +9631,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void GetTemporaryRTArray(System.Int32  @nameID, System.Int32  @width, System.Int32  @height, System.Int32  @slices, System.Int32  @depthBuffer, UnityEngine.FilterMode  @filter, UnityEngine.Experimental.Rendering.GraphicsFormat  @format, System.Int32  @antiAliasing, System.Boolean  @enableRandomWrite)
+        public virtual void GetTemporaryRTArray(System.Int32 @nameID, System.Int32 @width, System.Int32 @height, System.Int32 @slices, System.Int32 @depthBuffer, UnityEngine.FilterMode @filter, UnityEngine.Experimental.Rendering.GraphicsFormat @format, System.Int32 @antiAliasing, System.Boolean @enableRandomWrite)
         {
 
             var ___genericsType = new Type[] {};
@@ -9642,7 +9642,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void GetTemporaryRTArray(System.Int32  @nameID, System.Int32  @width, System.Int32  @height, System.Int32  @slices, System.Int32  @depthBuffer, UnityEngine.FilterMode  @filter, UnityEngine.Experimental.Rendering.GraphicsFormat  @format, System.Int32  @antiAliasing)
+        public virtual void GetTemporaryRTArray(System.Int32 @nameID, System.Int32 @width, System.Int32 @height, System.Int32 @slices, System.Int32 @depthBuffer, UnityEngine.FilterMode @filter, UnityEngine.Experimental.Rendering.GraphicsFormat @format, System.Int32 @antiAliasing)
         {
 
             var ___genericsType = new Type[] {};
@@ -9653,7 +9653,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void GetTemporaryRTArray(System.Int32  @nameID, System.Int32  @width, System.Int32  @height, System.Int32  @slices, System.Int32  @depthBuffer, UnityEngine.FilterMode  @filter, UnityEngine.Experimental.Rendering.GraphicsFormat  @format)
+        public virtual void GetTemporaryRTArray(System.Int32 @nameID, System.Int32 @width, System.Int32 @height, System.Int32 @slices, System.Int32 @depthBuffer, UnityEngine.FilterMode @filter, UnityEngine.Experimental.Rendering.GraphicsFormat @format)
         {
 
             var ___genericsType = new Type[] {};
@@ -9664,7 +9664,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void GetTemporaryRTArray(System.Int32  @nameID, System.Int32  @width, System.Int32  @height, System.Int32  @slices, System.Int32  @depthBuffer, UnityEngine.FilterMode  @filter, UnityEngine.RenderTextureFormat  @format, UnityEngine.RenderTextureReadWrite  @readWrite, System.Int32  @antiAliasing, System.Boolean  @enableRandomWrite)
+        public virtual void GetTemporaryRTArray(System.Int32 @nameID, System.Int32 @width, System.Int32 @height, System.Int32 @slices, System.Int32 @depthBuffer, UnityEngine.FilterMode @filter, UnityEngine.RenderTextureFormat @format, UnityEngine.RenderTextureReadWrite @readWrite, System.Int32 @antiAliasing, System.Boolean @enableRandomWrite)
         {
 
             var ___genericsType = new Type[] {};
@@ -9675,7 +9675,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void GetTemporaryRTArray(System.Int32  @nameID, System.Int32  @width, System.Int32  @height, System.Int32  @slices, System.Int32  @depthBuffer, UnityEngine.FilterMode  @filter, UnityEngine.RenderTextureFormat  @format, UnityEngine.RenderTextureReadWrite  @readWrite, System.Int32  @antiAliasing)
+        public virtual void GetTemporaryRTArray(System.Int32 @nameID, System.Int32 @width, System.Int32 @height, System.Int32 @slices, System.Int32 @depthBuffer, UnityEngine.FilterMode @filter, UnityEngine.RenderTextureFormat @format, UnityEngine.RenderTextureReadWrite @readWrite, System.Int32 @antiAliasing)
         {
 
             var ___genericsType = new Type[] {};
@@ -9686,7 +9686,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void GetTemporaryRTArray(System.Int32  @nameID, System.Int32  @width, System.Int32  @height, System.Int32  @slices, System.Int32  @depthBuffer, UnityEngine.FilterMode  @filter, UnityEngine.RenderTextureFormat  @format, UnityEngine.RenderTextureReadWrite  @readWrite)
+        public virtual void GetTemporaryRTArray(System.Int32 @nameID, System.Int32 @width, System.Int32 @height, System.Int32 @slices, System.Int32 @depthBuffer, UnityEngine.FilterMode @filter, UnityEngine.RenderTextureFormat @format, UnityEngine.RenderTextureReadWrite @readWrite)
         {
 
             var ___genericsType = new Type[] {};
@@ -9697,7 +9697,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void GetTemporaryRTArray(System.Int32  @nameID, System.Int32  @width, System.Int32  @height, System.Int32  @slices, System.Int32  @depthBuffer, UnityEngine.FilterMode  @filter, UnityEngine.RenderTextureFormat  @format)
+        public virtual void GetTemporaryRTArray(System.Int32 @nameID, System.Int32 @width, System.Int32 @height, System.Int32 @slices, System.Int32 @depthBuffer, UnityEngine.FilterMode @filter, UnityEngine.RenderTextureFormat @format)
         {
 
             var ___genericsType = new Type[] {};
@@ -9708,7 +9708,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void GetTemporaryRTArray(System.Int32  @nameID, System.Int32  @width, System.Int32  @height, System.Int32  @slices, System.Int32  @depthBuffer, UnityEngine.FilterMode  @filter)
+        public virtual void GetTemporaryRTArray(System.Int32 @nameID, System.Int32 @width, System.Int32 @height, System.Int32 @slices, System.Int32 @depthBuffer, UnityEngine.FilterMode @filter)
         {
 
             var ___genericsType = new Type[] {};
@@ -9719,7 +9719,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void GetTemporaryRTArray(System.Int32  @nameID, System.Int32  @width, System.Int32  @height, System.Int32  @slices, System.Int32  @depthBuffer)
+        public virtual void GetTemporaryRTArray(System.Int32 @nameID, System.Int32 @width, System.Int32 @height, System.Int32 @slices, System.Int32 @depthBuffer)
         {
 
             var ___genericsType = new Type[] {};
@@ -9730,7 +9730,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void GetTemporaryRTArray(System.Int32  @nameID, System.Int32  @width, System.Int32  @height, System.Int32  @slices)
+        public virtual void GetTemporaryRTArray(System.Int32 @nameID, System.Int32 @width, System.Int32 @height, System.Int32 @slices)
         {
 
             var ___genericsType = new Type[] {};
@@ -9741,7 +9741,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void ReleaseTemporaryRT(System.Int32  @nameID)
+        public virtual void ReleaseTemporaryRT(System.Int32 @nameID)
         {
 
             var ___genericsType = new Type[] {};
@@ -9752,7 +9752,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void ClearRenderTarget(UnityEngine.Rendering.RTClearFlags  @clearFlags, UnityEngine.Color  @backgroundColor, System.Single  @depth, System.UInt32  @stencil)
+        public virtual void ClearRenderTarget(UnityEngine.Rendering.RTClearFlags @clearFlags, UnityEngine.Color @backgroundColor, System.Single @depth, System.UInt32 @stencil)
         {
 
             var ___genericsType = new Type[] {};
@@ -9763,7 +9763,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void ClearRenderTarget(System.Boolean  @clearDepth, System.Boolean  @clearColor, UnityEngine.Color  @backgroundColor)
+        public virtual void ClearRenderTarget(System.Boolean @clearDepth, System.Boolean @clearColor, UnityEngine.Color @backgroundColor)
         {
 
             var ___genericsType = new Type[] {};
@@ -9774,7 +9774,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void ClearRenderTarget(System.Boolean  @clearDepth, System.Boolean  @clearColor, UnityEngine.Color  @backgroundColor, System.Single  @depth)
+        public virtual void ClearRenderTarget(System.Boolean @clearDepth, System.Boolean @clearColor, UnityEngine.Color @backgroundColor, System.Single @depth)
         {
 
             var ___genericsType = new Type[] {};
@@ -9785,7 +9785,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetGlobalFloat(System.Int32  @nameID, System.Single  @value)
+        public virtual void SetGlobalFloat(System.Int32 @nameID, System.Single @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -9796,7 +9796,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetGlobalInt(System.Int32  @nameID, System.Int32  @value)
+        public virtual void SetGlobalInt(System.Int32 @nameID, System.Int32 @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -9807,7 +9807,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetGlobalInteger(System.Int32  @nameID, System.Int32  @value)
+        public virtual void SetGlobalInteger(System.Int32 @nameID, System.Int32 @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -9818,7 +9818,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetGlobalVector(System.Int32  @nameID, UnityEngine.Vector4  @value)
+        public virtual void SetGlobalVector(System.Int32 @nameID, UnityEngine.Vector4 @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -9829,7 +9829,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetGlobalColor(System.Int32  @nameID, UnityEngine.Color  @value)
+        public virtual void SetGlobalColor(System.Int32 @nameID, UnityEngine.Color @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -9840,7 +9840,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetGlobalMatrix(System.Int32  @nameID, UnityEngine.Matrix4x4  @value)
+        public virtual void SetGlobalMatrix(System.Int32 @nameID, UnityEngine.Matrix4x4 @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -9851,7 +9851,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void EnableShaderKeyword(System.String  @keyword)
+        public virtual void EnableShaderKeyword(System.String @keyword)
         {
 
             var ___genericsType = new Type[] {};
@@ -9862,7 +9862,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void EnableGlobalKeyword(UnityEngine.Rendering.GlobalKeyword  @keyword)
+        public virtual void EnableGlobalKeyword(UnityEngine.Rendering.GlobalKeyword @keyword)
         {
 
             var ___genericsType = new Type[] {};
@@ -9873,7 +9873,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void EnableMaterialKeyword(UnityEngine.Material  @material, UnityEngine.Rendering.LocalKeyword  @keyword)
+        public virtual void EnableMaterialKeyword(UnityEngine.Material @material, UnityEngine.Rendering.LocalKeyword @keyword)
         {
 
             var ___genericsType = new Type[] {};
@@ -9884,7 +9884,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void EnableComputeKeyword(UnityEngine.ComputeShader  @computeShader, UnityEngine.Rendering.LocalKeyword  @keyword)
+        public virtual void EnableComputeKeyword(UnityEngine.ComputeShader @computeShader, UnityEngine.Rendering.LocalKeyword @keyword)
         {
 
             var ___genericsType = new Type[] {};
@@ -9895,7 +9895,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void EnableKeyword(in UnityEngine.Rendering.GlobalKeyword  @keyword)
+        public virtual void EnableKeyword(in UnityEngine.Rendering.GlobalKeyword @keyword)
         {
 
             var ___genericsType = new Type[] {};
@@ -9906,7 +9906,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void EnableKeyword(UnityEngine.Material  @material, in UnityEngine.Rendering.LocalKeyword  @keyword)
+        public virtual void EnableKeyword(UnityEngine.Material @material, in UnityEngine.Rendering.LocalKeyword @keyword)
         {
 
             var ___genericsType = new Type[] {};
@@ -9917,7 +9917,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void EnableKeyword(UnityEngine.ComputeShader  @computeShader, in UnityEngine.Rendering.LocalKeyword  @keyword)
+        public virtual void EnableKeyword(UnityEngine.ComputeShader @computeShader, in UnityEngine.Rendering.LocalKeyword @keyword)
         {
 
             var ___genericsType = new Type[] {};
@@ -9928,7 +9928,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void DisableShaderKeyword(System.String  @keyword)
+        public virtual void DisableShaderKeyword(System.String @keyword)
         {
 
             var ___genericsType = new Type[] {};
@@ -9939,7 +9939,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void DisableGlobalKeyword(UnityEngine.Rendering.GlobalKeyword  @keyword)
+        public virtual void DisableGlobalKeyword(UnityEngine.Rendering.GlobalKeyword @keyword)
         {
 
             var ___genericsType = new Type[] {};
@@ -9950,7 +9950,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void DisableMaterialKeyword(UnityEngine.Material  @material, UnityEngine.Rendering.LocalKeyword  @keyword)
+        public virtual void DisableMaterialKeyword(UnityEngine.Material @material, UnityEngine.Rendering.LocalKeyword @keyword)
         {
 
             var ___genericsType = new Type[] {};
@@ -9961,7 +9961,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void DisableComputeKeyword(UnityEngine.ComputeShader  @computeShader, UnityEngine.Rendering.LocalKeyword  @keyword)
+        public virtual void DisableComputeKeyword(UnityEngine.ComputeShader @computeShader, UnityEngine.Rendering.LocalKeyword @keyword)
         {
 
             var ___genericsType = new Type[] {};
@@ -9972,7 +9972,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void DisableKeyword(in UnityEngine.Rendering.GlobalKeyword  @keyword)
+        public virtual void DisableKeyword(in UnityEngine.Rendering.GlobalKeyword @keyword)
         {
 
             var ___genericsType = new Type[] {};
@@ -9983,7 +9983,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void DisableKeyword(UnityEngine.Material  @material, in UnityEngine.Rendering.LocalKeyword  @keyword)
+        public virtual void DisableKeyword(UnityEngine.Material @material, in UnityEngine.Rendering.LocalKeyword @keyword)
         {
 
             var ___genericsType = new Type[] {};
@@ -9994,7 +9994,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void DisableKeyword(UnityEngine.ComputeShader  @computeShader, in UnityEngine.Rendering.LocalKeyword  @keyword)
+        public virtual void DisableKeyword(UnityEngine.ComputeShader @computeShader, in UnityEngine.Rendering.LocalKeyword @keyword)
         {
 
             var ___genericsType = new Type[] {};
@@ -10005,7 +10005,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetGlobalKeyword(UnityEngine.Rendering.GlobalKeyword  @keyword, System.Boolean  @value)
+        public virtual void SetGlobalKeyword(UnityEngine.Rendering.GlobalKeyword @keyword, System.Boolean @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -10016,7 +10016,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetMaterialKeyword(UnityEngine.Material  @material, UnityEngine.Rendering.LocalKeyword  @keyword, System.Boolean  @value)
+        public virtual void SetMaterialKeyword(UnityEngine.Material @material, UnityEngine.Rendering.LocalKeyword @keyword, System.Boolean @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -10027,7 +10027,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetComputeKeyword(UnityEngine.ComputeShader  @computeShader, UnityEngine.Rendering.LocalKeyword  @keyword, System.Boolean  @value)
+        public virtual void SetComputeKeyword(UnityEngine.ComputeShader @computeShader, UnityEngine.Rendering.LocalKeyword @keyword, System.Boolean @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -10038,7 +10038,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetKeyword(in UnityEngine.Rendering.GlobalKeyword  @keyword, System.Boolean  @value)
+        public virtual void SetKeyword(in UnityEngine.Rendering.GlobalKeyword @keyword, System.Boolean @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -10049,7 +10049,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetKeyword(UnityEngine.Material  @material, in UnityEngine.Rendering.LocalKeyword  @keyword, System.Boolean  @value)
+        public virtual void SetKeyword(UnityEngine.Material @material, in UnityEngine.Rendering.LocalKeyword @keyword, System.Boolean @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -10060,7 +10060,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetKeyword(UnityEngine.ComputeShader  @computeShader, in UnityEngine.Rendering.LocalKeyword  @keyword, System.Boolean  @value)
+        public virtual void SetKeyword(UnityEngine.ComputeShader @computeShader, in UnityEngine.Rendering.LocalKeyword @keyword, System.Boolean @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -10071,7 +10071,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetViewMatrix(UnityEngine.Matrix4x4  @view)
+        public virtual void SetViewMatrix(UnityEngine.Matrix4x4 @view)
         {
 
             var ___genericsType = new Type[] {};
@@ -10082,7 +10082,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetProjectionMatrix(UnityEngine.Matrix4x4  @proj)
+        public virtual void SetProjectionMatrix(UnityEngine.Matrix4x4 @proj)
         {
 
             var ___genericsType = new Type[] {};
@@ -10093,7 +10093,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetViewProjectionMatrices(UnityEngine.Matrix4x4  @view, UnityEngine.Matrix4x4  @proj)
+        public virtual void SetViewProjectionMatrices(UnityEngine.Matrix4x4 @view, UnityEngine.Matrix4x4 @proj)
         {
 
             var ___genericsType = new Type[] {};
@@ -10104,7 +10104,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetGlobalDepthBias(System.Single  @bias, System.Single  @slopeBias)
+        public virtual void SetGlobalDepthBias(System.Single @bias, System.Single @slopeBias)
         {
 
             var ___genericsType = new Type[] {};
@@ -10115,7 +10115,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetExecutionFlags(UnityEngine.Rendering.CommandBufferExecutionFlags  @flags)
+        public virtual void SetExecutionFlags(UnityEngine.Rendering.CommandBufferExecutionFlags @flags)
         {
 
             var ___genericsType = new Type[] {};
@@ -10126,7 +10126,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual System.Boolean ValidateAgainstExecutionFlags(UnityEngine.Rendering.CommandBufferExecutionFlags  @requiredFlags, UnityEngine.Rendering.CommandBufferExecutionFlags  @invalidFlags)
+        public virtual System.Boolean ValidateAgainstExecutionFlags(UnityEngine.Rendering.CommandBufferExecutionFlags @requiredFlags, UnityEngine.Rendering.CommandBufferExecutionFlags @invalidFlags)
         {
 
             var ___genericsType = new Type[] {};
@@ -10137,7 +10137,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetGlobalFloatArrayListImpl(System.Int32  @nameID, System.Object  @values)
+        public virtual void SetGlobalFloatArrayListImpl(System.Int32 @nameID, System.Object @values)
         {
 
             var ___genericsType = new Type[] {};
@@ -10148,7 +10148,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetGlobalVectorArrayListImpl(System.Int32  @nameID, System.Object  @values)
+        public virtual void SetGlobalVectorArrayListImpl(System.Int32 @nameID, System.Object @values)
         {
 
             var ___genericsType = new Type[] {};
@@ -10159,7 +10159,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetGlobalMatrixArrayListImpl(System.Int32  @nameID, System.Object  @values)
+        public virtual void SetGlobalMatrixArrayListImpl(System.Int32 @nameID, System.Object @values)
         {
 
             var ___genericsType = new Type[] {};
@@ -10170,7 +10170,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetGlobalFloatArray(System.Int32  @nameID, System.Single[]  @values)
+        public virtual void SetGlobalFloatArray(System.Int32 @nameID, System.Single[] @values)
         {
 
             var ___genericsType = new Type[] {};
@@ -10181,7 +10181,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetGlobalVectorArray(System.Int32  @nameID, UnityEngine.Vector4[]  @values)
+        public virtual void SetGlobalVectorArray(System.Int32 @nameID, UnityEngine.Vector4[] @values)
         {
 
             var ___genericsType = new Type[] {};
@@ -10192,7 +10192,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetGlobalMatrixArray(System.Int32  @nameID, UnityEngine.Matrix4x4[]  @values)
+        public virtual void SetGlobalMatrixArray(System.Int32 @nameID, UnityEngine.Matrix4x4[] @values)
         {
 
             var ___genericsType = new Type[] {};
@@ -10203,7 +10203,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetLateLatchProjectionMatrices(UnityEngine.Matrix4x4[]  @projectionMat)
+        public virtual void SetLateLatchProjectionMatrices(UnityEngine.Matrix4x4[] @projectionMat)
         {
 
             var ___genericsType = new Type[] {};
@@ -10214,7 +10214,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void MarkLateLatchMatrixShaderPropertyID(UnityEngine.Rendering.CameraLateLatchMatrixType  @matrixPropertyType, System.Int32  @shaderPropertyID)
+        public virtual void MarkLateLatchMatrixShaderPropertyID(UnityEngine.Rendering.CameraLateLatchMatrixType @matrixPropertyType, System.Int32 @shaderPropertyID)
         {
 
             var ___genericsType = new Type[] {};
@@ -10225,7 +10225,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void UnmarkLateLatchMatrix(UnityEngine.Rendering.CameraLateLatchMatrixType  @matrixPropertyType)
+        public virtual void UnmarkLateLatchMatrix(UnityEngine.Rendering.CameraLateLatchMatrixType @matrixPropertyType)
         {
 
             var ___genericsType = new Type[] {};
@@ -10236,7 +10236,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetGlobalTexture_Impl(System.Int32  @nameID, ref UnityEngine.Rendering.RenderTargetIdentifier  @rt, UnityEngine.Rendering.RenderTextureSubElement  @element)
+        public virtual void SetGlobalTexture_Impl(System.Int32 @nameID, ref UnityEngine.Rendering.RenderTargetIdentifier @rt, UnityEngine.Rendering.RenderTextureSubElement @element)
         {
 
             var ___genericsType = new Type[] {};
@@ -10248,7 +10248,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetGlobalBufferInternal(System.Int32  @nameID, UnityEngine.ComputeBuffer  @value)
+        public virtual void SetGlobalBufferInternal(System.Int32 @nameID, UnityEngine.ComputeBuffer @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -10259,7 +10259,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetGlobalGraphicsBufferInternal(System.Int32  @nameID, UnityEngine.GraphicsBuffer  @value)
+        public virtual void SetGlobalGraphicsBufferInternal(System.Int32 @nameID, UnityEngine.GraphicsBuffer @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -10270,7 +10270,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetShadowSamplingMode_Impl(ref UnityEngine.Rendering.RenderTargetIdentifier  @shadowmap, UnityEngine.Rendering.ShadowSamplingMode  @mode)
+        public virtual void SetShadowSamplingMode_Impl(ref UnityEngine.Rendering.RenderTargetIdentifier @shadowmap, UnityEngine.Rendering.ShadowSamplingMode @mode)
         {
 
             var ___genericsType = new Type[] {};
@@ -10282,7 +10282,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void IssuePluginEventInternal(System.IntPtr  @callback, System.Int32  @eventID)
+        public virtual void IssuePluginEventInternal(System.IntPtr @callback, System.Int32 @eventID)
         {
 
             var ___genericsType = new Type[] {};
@@ -10293,7 +10293,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void BeginSample(System.String  @name)
+        public virtual void BeginSample(System.String @name)
         {
 
             var ___genericsType = new Type[] {};
@@ -10304,7 +10304,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void EndSample(System.String  @name)
+        public virtual void EndSample(System.String @name)
         {
 
             var ___genericsType = new Type[] {};
@@ -10315,7 +10315,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void BeginSample(UnityEngine.Profiling.CustomSampler  @sampler)
+        public virtual void BeginSample(UnityEngine.Profiling.CustomSampler @sampler)
         {
 
             var ___genericsType = new Type[] {};
@@ -10326,7 +10326,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void EndSample(UnityEngine.Profiling.CustomSampler  @sampler)
+        public virtual void EndSample(UnityEngine.Profiling.CustomSampler @sampler)
         {
 
             var ___genericsType = new Type[] {};
@@ -10337,7 +10337,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void BeginSample_CustomSampler(UnityEngine.Profiling.CustomSampler  @sampler)
+        public virtual void BeginSample_CustomSampler(UnityEngine.Profiling.CustomSampler @sampler)
         {
 
             var ___genericsType = new Type[] {};
@@ -10348,7 +10348,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void EndSample_CustomSampler(UnityEngine.Profiling.CustomSampler  @sampler)
+        public virtual void EndSample_CustomSampler(UnityEngine.Profiling.CustomSampler @sampler)
         {
 
             var ___genericsType = new Type[] {};
@@ -10359,7 +10359,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void BeginSample(Unity.Profiling.ProfilerMarker  @marker)
+        public virtual void BeginSample(Unity.Profiling.ProfilerMarker @marker)
         {
 
             var ___genericsType = new Type[] {};
@@ -10370,7 +10370,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void EndSample(Unity.Profiling.ProfilerMarker  @marker)
+        public virtual void EndSample(Unity.Profiling.ProfilerMarker @marker)
         {
 
             var ___genericsType = new Type[] {};
@@ -10381,7 +10381,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void BeginSample_ProfilerMarker(System.IntPtr  @markerHandle)
+        public virtual void BeginSample_ProfilerMarker(System.IntPtr @markerHandle)
         {
 
             var ___genericsType = new Type[] {};
@@ -10392,7 +10392,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void EndSample_ProfilerMarker(System.IntPtr  @markerHandle)
+        public virtual void EndSample_ProfilerMarker(System.IntPtr @markerHandle)
         {
 
             var ___genericsType = new Type[] {};
@@ -10403,7 +10403,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void IssuePluginEventAndDataInternal(System.IntPtr  @callback, System.Int32  @eventID, System.IntPtr  @data)
+        public virtual void IssuePluginEventAndDataInternal(System.IntPtr @callback, System.Int32 @eventID, System.IntPtr @data)
         {
 
             var ___genericsType = new Type[] {};
@@ -10414,7 +10414,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void IssuePluginEventAndDataInternalWithFlags(System.IntPtr  @callback, System.Int32  @eventID, UnityEngine.Rendering.CustomMarkerCallbackFlags  @flags, System.IntPtr  @data)
+        public virtual void IssuePluginEventAndDataInternalWithFlags(System.IntPtr @callback, System.Int32 @eventID, UnityEngine.Rendering.CustomMarkerCallbackFlags @flags, System.IntPtr @data)
         {
 
             var ___genericsType = new Type[] {};
@@ -10425,7 +10425,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void IssuePluginCustomBlitInternal(System.IntPtr  @callback, System.UInt32  @command, ref UnityEngine.Rendering.RenderTargetIdentifier  @source, ref UnityEngine.Rendering.RenderTargetIdentifier  @dest, System.UInt32  @commandParam, System.UInt32  @commandFlags)
+        public virtual void IssuePluginCustomBlitInternal(System.IntPtr @callback, System.UInt32 @command, ref UnityEngine.Rendering.RenderTargetIdentifier @source, ref UnityEngine.Rendering.RenderTargetIdentifier @dest, System.UInt32 @commandParam, System.UInt32 @commandFlags)
         {
 
             var ___genericsType = new Type[] {};
@@ -10438,7 +10438,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void IssuePluginCustomTextureUpdateInternal(System.IntPtr  @callback, UnityEngine.Texture  @targetTexture, System.UInt32  @userData, System.Boolean  @useNewUnityRenderingExtTextureUpdateParamsV2)
+        public virtual void IssuePluginCustomTextureUpdateInternal(System.IntPtr @callback, UnityEngine.Texture @targetTexture, System.UInt32 @userData, System.Boolean @useNewUnityRenderingExtTextureUpdateParamsV2)
         {
 
             var ___genericsType = new Type[] {};
@@ -10449,7 +10449,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetGlobalConstantBufferInternal(UnityEngine.ComputeBuffer  @buffer, System.Int32  @nameID, System.Int32  @offset, System.Int32  @size)
+        public virtual void SetGlobalConstantBufferInternal(UnityEngine.ComputeBuffer @buffer, System.Int32 @nameID, System.Int32 @offset, System.Int32 @size)
         {
 
             var ___genericsType = new Type[] {};
@@ -10460,7 +10460,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetGlobalConstantGraphicsBufferInternal(UnityEngine.GraphicsBuffer  @buffer, System.Int32  @nameID, System.Int32  @offset, System.Int32  @size)
+        public virtual void SetGlobalConstantGraphicsBufferInternal(UnityEngine.GraphicsBuffer @buffer, System.Int32 @nameID, System.Int32 @offset, System.Int32 @size)
         {
 
             var ___genericsType = new Type[] {};
@@ -10471,7 +10471,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void IncrementUpdateCount(UnityEngine.Rendering.RenderTargetIdentifier  @dest)
+        public virtual void IncrementUpdateCount(UnityEngine.Rendering.RenderTargetIdentifier @dest)
         {
 
             var ___genericsType = new Type[] {};
@@ -10482,7 +10482,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetInstanceMultiplier(System.UInt32  @multiplier)
+        public virtual void SetInstanceMultiplier(System.UInt32 @multiplier)
         {
 
             var ___genericsType = new Type[] {};
@@ -10493,7 +10493,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetFoveatedRenderingMode(UnityEngine.Rendering.FoveatedRenderingMode  @foveatedRenderingMode)
+        public virtual void SetFoveatedRenderingMode(UnityEngine.Rendering.FoveatedRenderingMode @foveatedRenderingMode)
         {
 
             var ___genericsType = new Type[] {};
@@ -10504,7 +10504,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void ConfigureFoveatedRendering(System.IntPtr  @platformData)
+        public virtual void ConfigureFoveatedRendering(System.IntPtr @platformData)
         {
 
             var ___genericsType = new Type[] {};
@@ -10515,7 +10515,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetRenderTarget(UnityEngine.Rendering.RenderTargetIdentifier  @rt)
+        public virtual void SetRenderTarget(UnityEngine.Rendering.RenderTargetIdentifier @rt)
         {
 
             var ___genericsType = new Type[] {};
@@ -10526,7 +10526,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetRenderTarget(UnityEngine.Rendering.RenderTargetIdentifier  @rt, UnityEngine.Rendering.RenderBufferLoadAction  @loadAction, UnityEngine.Rendering.RenderBufferStoreAction  @storeAction)
+        public virtual void SetRenderTarget(UnityEngine.Rendering.RenderTargetIdentifier @rt, UnityEngine.Rendering.RenderBufferLoadAction @loadAction, UnityEngine.Rendering.RenderBufferStoreAction @storeAction)
         {
 
             var ___genericsType = new Type[] {};
@@ -10537,7 +10537,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetRenderTarget(UnityEngine.Rendering.RenderTargetIdentifier  @rt, UnityEngine.Rendering.RenderBufferLoadAction  @colorLoadAction, UnityEngine.Rendering.RenderBufferStoreAction  @colorStoreAction, UnityEngine.Rendering.RenderBufferLoadAction  @depthLoadAction, UnityEngine.Rendering.RenderBufferStoreAction  @depthStoreAction)
+        public virtual void SetRenderTarget(UnityEngine.Rendering.RenderTargetIdentifier @rt, UnityEngine.Rendering.RenderBufferLoadAction @colorLoadAction, UnityEngine.Rendering.RenderBufferStoreAction @colorStoreAction, UnityEngine.Rendering.RenderBufferLoadAction @depthLoadAction, UnityEngine.Rendering.RenderBufferStoreAction @depthStoreAction)
         {
 
             var ___genericsType = new Type[] {};
@@ -10548,7 +10548,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetRenderTarget(UnityEngine.Rendering.RenderTargetIdentifier  @rt, System.Int32  @mipLevel)
+        public virtual void SetRenderTarget(UnityEngine.Rendering.RenderTargetIdentifier @rt, System.Int32 @mipLevel)
         {
 
             var ___genericsType = new Type[] {};
@@ -10559,7 +10559,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetRenderTarget(UnityEngine.Rendering.RenderTargetIdentifier  @rt, System.Int32  @mipLevel, UnityEngine.CubemapFace  @cubemapFace)
+        public virtual void SetRenderTarget(UnityEngine.Rendering.RenderTargetIdentifier @rt, System.Int32 @mipLevel, UnityEngine.CubemapFace @cubemapFace)
         {
 
             var ___genericsType = new Type[] {};
@@ -10570,7 +10570,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetRenderTarget(UnityEngine.Rendering.RenderTargetIdentifier  @rt, System.Int32  @mipLevel, UnityEngine.CubemapFace  @cubemapFace, System.Int32  @depthSlice)
+        public virtual void SetRenderTarget(UnityEngine.Rendering.RenderTargetIdentifier @rt, System.Int32 @mipLevel, UnityEngine.CubemapFace @cubemapFace, System.Int32 @depthSlice)
         {
 
             var ___genericsType = new Type[] {};
@@ -10581,7 +10581,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetRenderTarget(UnityEngine.Rendering.RenderTargetIdentifier  @color, UnityEngine.Rendering.RenderTargetIdentifier  @depth)
+        public virtual void SetRenderTarget(UnityEngine.Rendering.RenderTargetIdentifier @color, UnityEngine.Rendering.RenderTargetIdentifier @depth)
         {
 
             var ___genericsType = new Type[] {};
@@ -10592,7 +10592,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetRenderTarget(UnityEngine.Rendering.RenderTargetIdentifier  @color, UnityEngine.Rendering.RenderTargetIdentifier  @depth, System.Int32  @mipLevel)
+        public virtual void SetRenderTarget(UnityEngine.Rendering.RenderTargetIdentifier @color, UnityEngine.Rendering.RenderTargetIdentifier @depth, System.Int32 @mipLevel)
         {
 
             var ___genericsType = new Type[] {};
@@ -10603,7 +10603,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetRenderTarget(UnityEngine.Rendering.RenderTargetIdentifier  @color, UnityEngine.Rendering.RenderTargetIdentifier  @depth, System.Int32  @mipLevel, UnityEngine.CubemapFace  @cubemapFace)
+        public virtual void SetRenderTarget(UnityEngine.Rendering.RenderTargetIdentifier @color, UnityEngine.Rendering.RenderTargetIdentifier @depth, System.Int32 @mipLevel, UnityEngine.CubemapFace @cubemapFace)
         {
 
             var ___genericsType = new Type[] {};
@@ -10614,7 +10614,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetRenderTarget(UnityEngine.Rendering.RenderTargetIdentifier  @color, UnityEngine.Rendering.RenderTargetIdentifier  @depth, System.Int32  @mipLevel, UnityEngine.CubemapFace  @cubemapFace, System.Int32  @depthSlice)
+        public virtual void SetRenderTarget(UnityEngine.Rendering.RenderTargetIdentifier @color, UnityEngine.Rendering.RenderTargetIdentifier @depth, System.Int32 @mipLevel, UnityEngine.CubemapFace @cubemapFace, System.Int32 @depthSlice)
         {
 
             var ___genericsType = new Type[] {};
@@ -10625,7 +10625,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetRenderTarget(UnityEngine.Rendering.RenderTargetIdentifier  @color, UnityEngine.Rendering.RenderBufferLoadAction  @colorLoadAction, UnityEngine.Rendering.RenderBufferStoreAction  @colorStoreAction, UnityEngine.Rendering.RenderTargetIdentifier  @depth, UnityEngine.Rendering.RenderBufferLoadAction  @depthLoadAction, UnityEngine.Rendering.RenderBufferStoreAction  @depthStoreAction)
+        public virtual void SetRenderTarget(UnityEngine.Rendering.RenderTargetIdentifier @color, UnityEngine.Rendering.RenderBufferLoadAction @colorLoadAction, UnityEngine.Rendering.RenderBufferStoreAction @colorStoreAction, UnityEngine.Rendering.RenderTargetIdentifier @depth, UnityEngine.Rendering.RenderBufferLoadAction @depthLoadAction, UnityEngine.Rendering.RenderBufferStoreAction @depthStoreAction)
         {
 
             var ___genericsType = new Type[] {};
@@ -10636,7 +10636,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetRenderTarget(UnityEngine.Rendering.RenderTargetIdentifier[]  @colors, UnityEngine.Rendering.RenderTargetIdentifier  @depth)
+        public virtual void SetRenderTarget(UnityEngine.Rendering.RenderTargetIdentifier[] @colors, UnityEngine.Rendering.RenderTargetIdentifier @depth)
         {
 
             var ___genericsType = new Type[] {};
@@ -10647,7 +10647,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetRenderTarget(UnityEngine.Rendering.RenderTargetIdentifier[]  @colors, UnityEngine.Rendering.RenderTargetIdentifier  @depth, System.Int32  @mipLevel, UnityEngine.CubemapFace  @cubemapFace, System.Int32  @depthSlice)
+        public virtual void SetRenderTarget(UnityEngine.Rendering.RenderTargetIdentifier[] @colors, UnityEngine.Rendering.RenderTargetIdentifier @depth, System.Int32 @mipLevel, UnityEngine.CubemapFace @cubemapFace, System.Int32 @depthSlice)
         {
 
             var ___genericsType = new Type[] {};
@@ -10658,7 +10658,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetRenderTarget(UnityEngine.Rendering.RenderTargetBinding  @binding, System.Int32  @mipLevel, UnityEngine.CubemapFace  @cubemapFace, System.Int32  @depthSlice)
+        public virtual void SetRenderTarget(UnityEngine.Rendering.RenderTargetBinding @binding, System.Int32 @mipLevel, UnityEngine.CubemapFace @cubemapFace, System.Int32 @depthSlice)
         {
 
             var ___genericsType = new Type[] {};
@@ -10669,7 +10669,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetRenderTarget(UnityEngine.Rendering.RenderTargetBinding  @binding)
+        public virtual void SetRenderTarget(UnityEngine.Rendering.RenderTargetBinding @binding)
         {
 
             var ___genericsType = new Type[] {};
@@ -10680,7 +10680,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetRenderTargetSingle_Internal(UnityEngine.Rendering.RenderTargetIdentifier  @rt, UnityEngine.Rendering.RenderBufferLoadAction  @colorLoadAction, UnityEngine.Rendering.RenderBufferStoreAction  @colorStoreAction, UnityEngine.Rendering.RenderBufferLoadAction  @depthLoadAction, UnityEngine.Rendering.RenderBufferStoreAction  @depthStoreAction)
+        public virtual void SetRenderTargetSingle_Internal(UnityEngine.Rendering.RenderTargetIdentifier @rt, UnityEngine.Rendering.RenderBufferLoadAction @colorLoadAction, UnityEngine.Rendering.RenderBufferStoreAction @colorStoreAction, UnityEngine.Rendering.RenderBufferLoadAction @depthLoadAction, UnityEngine.Rendering.RenderBufferStoreAction @depthStoreAction)
         {
 
             var ___genericsType = new Type[] {};
@@ -10691,7 +10691,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetRenderTargetColorDepth_Internal(UnityEngine.Rendering.RenderTargetIdentifier  @color, UnityEngine.Rendering.RenderTargetIdentifier  @depth, UnityEngine.Rendering.RenderBufferLoadAction  @colorLoadAction, UnityEngine.Rendering.RenderBufferStoreAction  @colorStoreAction, UnityEngine.Rendering.RenderBufferLoadAction  @depthLoadAction, UnityEngine.Rendering.RenderBufferStoreAction  @depthStoreAction, UnityEngine.Rendering.RenderTargetFlags  @flags)
+        public virtual void SetRenderTargetColorDepth_Internal(UnityEngine.Rendering.RenderTargetIdentifier @color, UnityEngine.Rendering.RenderTargetIdentifier @depth, UnityEngine.Rendering.RenderBufferLoadAction @colorLoadAction, UnityEngine.Rendering.RenderBufferStoreAction @colorStoreAction, UnityEngine.Rendering.RenderBufferLoadAction @depthLoadAction, UnityEngine.Rendering.RenderBufferStoreAction @depthStoreAction, UnityEngine.Rendering.RenderTargetFlags @flags)
         {
 
             var ___genericsType = new Type[] {};
@@ -10702,7 +10702,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetRenderTargetMulti_Internal(UnityEngine.Rendering.RenderTargetIdentifier[]  @colors, UnityEngine.Rendering.RenderTargetIdentifier  @depth, UnityEngine.Rendering.RenderBufferLoadAction[]  @colorLoadActions, UnityEngine.Rendering.RenderBufferStoreAction[]  @colorStoreActions, UnityEngine.Rendering.RenderBufferLoadAction  @depthLoadAction, UnityEngine.Rendering.RenderBufferStoreAction  @depthStoreAction, UnityEngine.Rendering.RenderTargetFlags  @flags)
+        public virtual void SetRenderTargetMulti_Internal(UnityEngine.Rendering.RenderTargetIdentifier[] @colors, UnityEngine.Rendering.RenderTargetIdentifier @depth, UnityEngine.Rendering.RenderBufferLoadAction[] @colorLoadActions, UnityEngine.Rendering.RenderBufferStoreAction[] @colorStoreActions, UnityEngine.Rendering.RenderBufferLoadAction @depthLoadAction, UnityEngine.Rendering.RenderBufferStoreAction @depthStoreAction, UnityEngine.Rendering.RenderTargetFlags @flags)
         {
 
             var ___genericsType = new Type[] {};
@@ -10713,7 +10713,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetRenderTargetColorDepthSubtarget(UnityEngine.Rendering.RenderTargetIdentifier  @color, UnityEngine.Rendering.RenderTargetIdentifier  @depth, UnityEngine.Rendering.RenderBufferLoadAction  @colorLoadAction, UnityEngine.Rendering.RenderBufferStoreAction  @colorStoreAction, UnityEngine.Rendering.RenderBufferLoadAction  @depthLoadAction, UnityEngine.Rendering.RenderBufferStoreAction  @depthStoreAction, System.Int32  @mipLevel, UnityEngine.CubemapFace  @cubemapFace, System.Int32  @depthSlice)
+        public virtual void SetRenderTargetColorDepthSubtarget(UnityEngine.Rendering.RenderTargetIdentifier @color, UnityEngine.Rendering.RenderTargetIdentifier @depth, UnityEngine.Rendering.RenderBufferLoadAction @colorLoadAction, UnityEngine.Rendering.RenderBufferStoreAction @colorStoreAction, UnityEngine.Rendering.RenderBufferLoadAction @depthLoadAction, UnityEngine.Rendering.RenderBufferStoreAction @depthStoreAction, System.Int32 @mipLevel, UnityEngine.CubemapFace @cubemapFace, System.Int32 @depthSlice)
         {
 
             var ___genericsType = new Type[] {};
@@ -10724,7 +10724,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetRenderTargetMultiSubtarget(UnityEngine.Rendering.RenderTargetIdentifier[]  @colors, UnityEngine.Rendering.RenderTargetIdentifier  @depth, UnityEngine.Rendering.RenderBufferLoadAction[]  @colorLoadActions, UnityEngine.Rendering.RenderBufferStoreAction[]  @colorStoreActions, UnityEngine.Rendering.RenderBufferLoadAction  @depthLoadAction, UnityEngine.Rendering.RenderBufferStoreAction  @depthStoreAction, System.Int32  @mipLevel, UnityEngine.CubemapFace  @cubemapFace, System.Int32  @depthSlice)
+        public virtual void SetRenderTargetMultiSubtarget(UnityEngine.Rendering.RenderTargetIdentifier[] @colors, UnityEngine.Rendering.RenderTargetIdentifier @depth, UnityEngine.Rendering.RenderBufferLoadAction[] @colorLoadActions, UnityEngine.Rendering.RenderBufferStoreAction[] @colorStoreActions, UnityEngine.Rendering.RenderBufferLoadAction @depthLoadAction, UnityEngine.Rendering.RenderBufferStoreAction @depthStoreAction, System.Int32 @mipLevel, UnityEngine.CubemapFace @cubemapFace, System.Int32 @depthSlice)
         {
 
             var ___genericsType = new Type[] {};
@@ -10735,7 +10735,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void Internal_ProcessVTFeedback(UnityEngine.Rendering.RenderTargetIdentifier  @rt, System.IntPtr  @resolver, System.Int32  @slice, System.Int32  @x, System.Int32  @width, System.Int32  @y, System.Int32  @height, System.Int32  @mip)
+        public virtual void Internal_ProcessVTFeedback(UnityEngine.Rendering.RenderTargetIdentifier @rt, System.IntPtr @resolver, System.Int32 @slice, System.Int32 @x, System.Int32 @width, System.Int32 @y, System.Int32 @height, System.Int32 @mip)
         {
 
             var ___genericsType = new Type[] {};
@@ -10746,7 +10746,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetBufferData(UnityEngine.ComputeBuffer  @buffer, System.Array  @data)
+        public virtual void SetBufferData(UnityEngine.ComputeBuffer @buffer, System.Array @data)
         {
 
             var ___genericsType = new Type[] {};
@@ -10757,7 +10757,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetBufferData<T>(UnityEngine.ComputeBuffer  @buffer, System.Collections.Generic.List<T>  @data) where T : struct
+        public virtual void SetBufferData<T>(UnityEngine.ComputeBuffer @buffer, System.Collections.Generic.List<T> @data) where T : struct
         {
 
             var ___genericsType = new Type[] {typeof(T)};
@@ -10769,7 +10769,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 
 
 
-        public virtual void SetBufferData(UnityEngine.ComputeBuffer  @buffer, System.Array  @data, System.Int32  @managedBufferStartIndex, System.Int32  @graphicsBufferStartIndex, System.Int32  @count)
+        public virtual void SetBufferData(UnityEngine.ComputeBuffer @buffer, System.Array @data, System.Int32 @managedBufferStartIndex, System.Int32 @graphicsBufferStartIndex, System.Int32 @count)
         {
 
             var ___genericsType = new Type[] {};
@@ -10780,7 +10780,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetBufferData<T>(UnityEngine.ComputeBuffer  @buffer, System.Collections.Generic.List<T>  @data, System.Int32  @managedBufferStartIndex, System.Int32  @graphicsBufferStartIndex, System.Int32  @count) where T : struct
+        public virtual void SetBufferData<T>(UnityEngine.ComputeBuffer @buffer, System.Collections.Generic.List<T> @data, System.Int32 @managedBufferStartIndex, System.Int32 @graphicsBufferStartIndex, System.Int32 @count) where T : struct
         {
 
             var ___genericsType = new Type[] {typeof(T)};
@@ -10792,7 +10792,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 
 
 
-        public virtual void SetBufferCounterValue(UnityEngine.ComputeBuffer  @buffer, System.UInt32  @counterValue)
+        public virtual void SetBufferCounterValue(UnityEngine.ComputeBuffer @buffer, System.UInt32 @counterValue)
         {
 
             var ___genericsType = new Type[] {};
@@ -10803,7 +10803,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void InternalSetComputeBufferNativeData(UnityEngine.ComputeBuffer  @buffer, System.IntPtr  @data, System.Int32  @nativeBufferStartIndex, System.Int32  @graphicsBufferStartIndex, System.Int32  @count, System.Int32  @elemSize)
+        public virtual void InternalSetComputeBufferNativeData(UnityEngine.ComputeBuffer @buffer, System.IntPtr @data, System.Int32 @nativeBufferStartIndex, System.Int32 @graphicsBufferStartIndex, System.Int32 @count, System.Int32 @elemSize)
         {
 
             var ___genericsType = new Type[] {};
@@ -10814,7 +10814,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void InternalSetComputeBufferData(UnityEngine.ComputeBuffer  @buffer, System.Array  @data, System.Int32  @managedBufferStartIndex, System.Int32  @graphicsBufferStartIndex, System.Int32  @count, System.Int32  @elemSize)
+        public virtual void InternalSetComputeBufferData(UnityEngine.ComputeBuffer @buffer, System.Array @data, System.Int32 @managedBufferStartIndex, System.Int32 @graphicsBufferStartIndex, System.Int32 @count, System.Int32 @elemSize)
         {
 
             var ___genericsType = new Type[] {};
@@ -10825,7 +10825,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void InternalSetComputeBufferCounterValue(UnityEngine.ComputeBuffer  @buffer, System.UInt32  @counterValue)
+        public virtual void InternalSetComputeBufferCounterValue(UnityEngine.ComputeBuffer @buffer, System.UInt32 @counterValue)
         {
 
             var ___genericsType = new Type[] {};
@@ -10836,7 +10836,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetBufferData(UnityEngine.GraphicsBuffer  @buffer, System.Array  @data)
+        public virtual void SetBufferData(UnityEngine.GraphicsBuffer @buffer, System.Array @data)
         {
 
             var ___genericsType = new Type[] {};
@@ -10847,7 +10847,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetBufferData<T>(UnityEngine.GraphicsBuffer  @buffer, System.Collections.Generic.List<T>  @data) where T : struct
+        public virtual void SetBufferData<T>(UnityEngine.GraphicsBuffer @buffer, System.Collections.Generic.List<T> @data) where T : struct
         {
 
             var ___genericsType = new Type[] {typeof(T)};
@@ -10859,7 +10859,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 
 
 
-        public virtual void SetBufferData(UnityEngine.GraphicsBuffer  @buffer, System.Array  @data, System.Int32  @managedBufferStartIndex, System.Int32  @graphicsBufferStartIndex, System.Int32  @count)
+        public virtual void SetBufferData(UnityEngine.GraphicsBuffer @buffer, System.Array @data, System.Int32 @managedBufferStartIndex, System.Int32 @graphicsBufferStartIndex, System.Int32 @count)
         {
 
             var ___genericsType = new Type[] {};
@@ -10870,7 +10870,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetBufferData<T>(UnityEngine.GraphicsBuffer  @buffer, System.Collections.Generic.List<T>  @data, System.Int32  @managedBufferStartIndex, System.Int32  @graphicsBufferStartIndex, System.Int32  @count) where T : struct
+        public virtual void SetBufferData<T>(UnityEngine.GraphicsBuffer @buffer, System.Collections.Generic.List<T> @data, System.Int32 @managedBufferStartIndex, System.Int32 @graphicsBufferStartIndex, System.Int32 @count) where T : struct
         {
 
             var ___genericsType = new Type[] {typeof(T)};
@@ -10882,7 +10882,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 
 
 
-        public virtual void SetBufferCounterValue(UnityEngine.GraphicsBuffer  @buffer, System.UInt32  @counterValue)
+        public virtual void SetBufferCounterValue(UnityEngine.GraphicsBuffer @buffer, System.UInt32 @counterValue)
         {
 
             var ___genericsType = new Type[] {};
@@ -10893,7 +10893,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void InternalSetGraphicsBufferNativeData(UnityEngine.GraphicsBuffer  @buffer, System.IntPtr  @data, System.Int32  @nativeBufferStartIndex, System.Int32  @graphicsBufferStartIndex, System.Int32  @count, System.Int32  @elemSize)
+        public virtual void InternalSetGraphicsBufferNativeData(UnityEngine.GraphicsBuffer @buffer, System.IntPtr @data, System.Int32 @nativeBufferStartIndex, System.Int32 @graphicsBufferStartIndex, System.Int32 @count, System.Int32 @elemSize)
         {
 
             var ___genericsType = new Type[] {};
@@ -10904,7 +10904,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void InternalSetGraphicsBufferData(UnityEngine.GraphicsBuffer  @buffer, System.Array  @data, System.Int32  @managedBufferStartIndex, System.Int32  @graphicsBufferStartIndex, System.Int32  @count, System.Int32  @elemSize)
+        public virtual void InternalSetGraphicsBufferData(UnityEngine.GraphicsBuffer @buffer, System.Array @data, System.Int32 @managedBufferStartIndex, System.Int32 @graphicsBufferStartIndex, System.Int32 @count, System.Int32 @elemSize)
         {
 
             var ___genericsType = new Type[] {};
@@ -10915,7 +10915,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void InternalSetGraphicsBufferCounterValue(UnityEngine.GraphicsBuffer  @buffer, System.UInt32  @counterValue)
+        public virtual void InternalSetGraphicsBufferCounterValue(UnityEngine.GraphicsBuffer @buffer, System.UInt32 @counterValue)
         {
 
             var ___genericsType = new Type[] {};
@@ -10926,7 +10926,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void CopyBufferImpl(UnityEngine.GraphicsBuffer  @source, UnityEngine.GraphicsBuffer  @dest)
+        public virtual void CopyBufferImpl(UnityEngine.GraphicsBuffer @source, UnityEngine.GraphicsBuffer @dest)
         {
 
             var ___genericsType = new Type[] {};
@@ -10959,7 +10959,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void Dispose(System.Boolean  @disposing)
+        public virtual void Dispose(System.Boolean @disposing)
         {
 
             var ___genericsType = new Type[] {};
@@ -10992,7 +10992,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual UnityEngine.Rendering.GraphicsFence CreateAsyncGraphicsFence(UnityEngine.Rendering.SynchronisationStage  @stage)
+        public virtual UnityEngine.Rendering.GraphicsFence CreateAsyncGraphicsFence(UnityEngine.Rendering.SynchronisationStage @stage)
         {
 
             var ___genericsType = new Type[] {};
@@ -11003,7 +11003,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual UnityEngine.Rendering.GraphicsFence CreateGraphicsFence(UnityEngine.Rendering.GraphicsFenceType  @fenceType, UnityEngine.Rendering.SynchronisationStageFlags  @stage)
+        public virtual UnityEngine.Rendering.GraphicsFence CreateGraphicsFence(UnityEngine.Rendering.GraphicsFenceType @fenceType, UnityEngine.Rendering.SynchronisationStageFlags @stage)
         {
 
             var ___genericsType = new Type[] {};
@@ -11014,7 +11014,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void WaitOnAsyncGraphicsFence(UnityEngine.Rendering.GraphicsFence  @fence)
+        public virtual void WaitOnAsyncGraphicsFence(UnityEngine.Rendering.GraphicsFence @fence)
         {
 
             var ___genericsType = new Type[] {};
@@ -11025,7 +11025,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void WaitOnAsyncGraphicsFence(UnityEngine.Rendering.GraphicsFence  @fence, UnityEngine.Rendering.SynchronisationStage  @stage)
+        public virtual void WaitOnAsyncGraphicsFence(UnityEngine.Rendering.GraphicsFence @fence, UnityEngine.Rendering.SynchronisationStage @stage)
         {
 
             var ___genericsType = new Type[] {};
@@ -11036,7 +11036,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void WaitOnAsyncGraphicsFence(UnityEngine.Rendering.GraphicsFence  @fence, UnityEngine.Rendering.SynchronisationStageFlags  @stage)
+        public virtual void WaitOnAsyncGraphicsFence(UnityEngine.Rendering.GraphicsFence @fence, UnityEngine.Rendering.SynchronisationStageFlags @stage)
         {
 
             var ___genericsType = new Type[] {};
@@ -11047,7 +11047,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetComputeFloatParam(UnityEngine.ComputeShader  @computeShader, System.String  @name, System.Single  @val)
+        public virtual void SetComputeFloatParam(UnityEngine.ComputeShader @computeShader, System.String @name, System.Single @val)
         {
 
             var ___genericsType = new Type[] {};
@@ -11058,7 +11058,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetComputeIntParam(UnityEngine.ComputeShader  @computeShader, System.String  @name, System.Int32  @val)
+        public virtual void SetComputeIntParam(UnityEngine.ComputeShader @computeShader, System.String @name, System.Int32 @val)
         {
 
             var ___genericsType = new Type[] {};
@@ -11069,7 +11069,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetComputeVectorParam(UnityEngine.ComputeShader  @computeShader, System.String  @name, UnityEngine.Vector4  @val)
+        public virtual void SetComputeVectorParam(UnityEngine.ComputeShader @computeShader, System.String @name, UnityEngine.Vector4 @val)
         {
 
             var ___genericsType = new Type[] {};
@@ -11080,7 +11080,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetComputeVectorArrayParam(UnityEngine.ComputeShader  @computeShader, System.String  @name, UnityEngine.Vector4[]  @values)
+        public virtual void SetComputeVectorArrayParam(UnityEngine.ComputeShader @computeShader, System.String @name, UnityEngine.Vector4[] @values)
         {
 
             var ___genericsType = new Type[] {};
@@ -11091,7 +11091,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetComputeMatrixParam(UnityEngine.ComputeShader  @computeShader, System.String  @name, UnityEngine.Matrix4x4  @val)
+        public virtual void SetComputeMatrixParam(UnityEngine.ComputeShader @computeShader, System.String @name, UnityEngine.Matrix4x4 @val)
         {
 
             var ___genericsType = new Type[] {};
@@ -11102,7 +11102,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetComputeMatrixArrayParam(UnityEngine.ComputeShader  @computeShader, System.String  @name, UnityEngine.Matrix4x4[]  @values)
+        public virtual void SetComputeMatrixArrayParam(UnityEngine.ComputeShader @computeShader, System.String @name, UnityEngine.Matrix4x4[] @values)
         {
 
             var ___genericsType = new Type[] {};
@@ -11113,7 +11113,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetComputeFloatParams(UnityEngine.ComputeShader  @computeShader, System.String  @name, System.Single[]  @values)
+        public virtual void SetComputeFloatParams(UnityEngine.ComputeShader @computeShader, System.String @name, System.Single[] @values)
         {
 
             var ___genericsType = new Type[] {};
@@ -11124,7 +11124,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetComputeFloatParams(UnityEngine.ComputeShader  @computeShader, System.Int32  @nameID, System.Single[]  @values)
+        public virtual void SetComputeFloatParams(UnityEngine.ComputeShader @computeShader, System.Int32 @nameID, System.Single[] @values)
         {
 
             var ___genericsType = new Type[] {};
@@ -11135,7 +11135,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetComputeIntParams(UnityEngine.ComputeShader  @computeShader, System.String  @name, System.Int32[]  @values)
+        public virtual void SetComputeIntParams(UnityEngine.ComputeShader @computeShader, System.String @name, System.Int32[] @values)
         {
 
             var ___genericsType = new Type[] {};
@@ -11146,7 +11146,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetComputeIntParams(UnityEngine.ComputeShader  @computeShader, System.Int32  @nameID, System.Int32[]  @values)
+        public virtual void SetComputeIntParams(UnityEngine.ComputeShader @computeShader, System.Int32 @nameID, System.Int32[] @values)
         {
 
             var ___genericsType = new Type[] {};
@@ -11157,7 +11157,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetComputeTextureParam(UnityEngine.ComputeShader  @computeShader, System.Int32  @kernelIndex, System.String  @name, UnityEngine.Rendering.RenderTargetIdentifier  @rt)
+        public virtual void SetComputeTextureParam(UnityEngine.ComputeShader @computeShader, System.Int32 @kernelIndex, System.String @name, UnityEngine.Rendering.RenderTargetIdentifier @rt)
         {
 
             var ___genericsType = new Type[] {};
@@ -11168,7 +11168,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetComputeTextureParam(UnityEngine.ComputeShader  @computeShader, System.Int32  @kernelIndex, System.Int32  @nameID, UnityEngine.Rendering.RenderTargetIdentifier  @rt)
+        public virtual void SetComputeTextureParam(UnityEngine.ComputeShader @computeShader, System.Int32 @kernelIndex, System.Int32 @nameID, UnityEngine.Rendering.RenderTargetIdentifier @rt)
         {
 
             var ___genericsType = new Type[] {};
@@ -11179,7 +11179,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetComputeTextureParam(UnityEngine.ComputeShader  @computeShader, System.Int32  @kernelIndex, System.String  @name, UnityEngine.Rendering.RenderTargetIdentifier  @rt, System.Int32  @mipLevel)
+        public virtual void SetComputeTextureParam(UnityEngine.ComputeShader @computeShader, System.Int32 @kernelIndex, System.String @name, UnityEngine.Rendering.RenderTargetIdentifier @rt, System.Int32 @mipLevel)
         {
 
             var ___genericsType = new Type[] {};
@@ -11190,7 +11190,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetComputeTextureParam(UnityEngine.ComputeShader  @computeShader, System.Int32  @kernelIndex, System.Int32  @nameID, UnityEngine.Rendering.RenderTargetIdentifier  @rt, System.Int32  @mipLevel)
+        public virtual void SetComputeTextureParam(UnityEngine.ComputeShader @computeShader, System.Int32 @kernelIndex, System.Int32 @nameID, UnityEngine.Rendering.RenderTargetIdentifier @rt, System.Int32 @mipLevel)
         {
 
             var ___genericsType = new Type[] {};
@@ -11201,7 +11201,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetComputeTextureParam(UnityEngine.ComputeShader  @computeShader, System.Int32  @kernelIndex, System.String  @name, UnityEngine.Rendering.RenderTargetIdentifier  @rt, System.Int32  @mipLevel, UnityEngine.Rendering.RenderTextureSubElement  @element)
+        public virtual void SetComputeTextureParam(UnityEngine.ComputeShader @computeShader, System.Int32 @kernelIndex, System.String @name, UnityEngine.Rendering.RenderTargetIdentifier @rt, System.Int32 @mipLevel, UnityEngine.Rendering.RenderTextureSubElement @element)
         {
 
             var ___genericsType = new Type[] {};
@@ -11212,7 +11212,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetComputeTextureParam(UnityEngine.ComputeShader  @computeShader, System.Int32  @kernelIndex, System.Int32  @nameID, UnityEngine.Rendering.RenderTargetIdentifier  @rt, System.Int32  @mipLevel, UnityEngine.Rendering.RenderTextureSubElement  @element)
+        public virtual void SetComputeTextureParam(UnityEngine.ComputeShader @computeShader, System.Int32 @kernelIndex, System.Int32 @nameID, UnityEngine.Rendering.RenderTargetIdentifier @rt, System.Int32 @mipLevel, UnityEngine.Rendering.RenderTextureSubElement @element)
         {
 
             var ___genericsType = new Type[] {};
@@ -11223,7 +11223,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetComputeBufferParam(UnityEngine.ComputeShader  @computeShader, System.Int32  @kernelIndex, System.Int32  @nameID, UnityEngine.ComputeBuffer  @buffer)
+        public virtual void SetComputeBufferParam(UnityEngine.ComputeShader @computeShader, System.Int32 @kernelIndex, System.Int32 @nameID, UnityEngine.ComputeBuffer @buffer)
         {
 
             var ___genericsType = new Type[] {};
@@ -11234,7 +11234,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetComputeBufferParam(UnityEngine.ComputeShader  @computeShader, System.Int32  @kernelIndex, System.String  @name, UnityEngine.ComputeBuffer  @buffer)
+        public virtual void SetComputeBufferParam(UnityEngine.ComputeShader @computeShader, System.Int32 @kernelIndex, System.String @name, UnityEngine.ComputeBuffer @buffer)
         {
 
             var ___genericsType = new Type[] {};
@@ -11245,7 +11245,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetComputeBufferParam(UnityEngine.ComputeShader  @computeShader, System.Int32  @kernelIndex, System.Int32  @nameID, UnityEngine.GraphicsBufferHandle  @bufferHandle)
+        public virtual void SetComputeBufferParam(UnityEngine.ComputeShader @computeShader, System.Int32 @kernelIndex, System.Int32 @nameID, UnityEngine.GraphicsBufferHandle @bufferHandle)
         {
 
             var ___genericsType = new Type[] {};
@@ -11256,7 +11256,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetComputeBufferParam(UnityEngine.ComputeShader  @computeShader, System.Int32  @kernelIndex, System.String  @name, UnityEngine.GraphicsBufferHandle  @bufferHandle)
+        public virtual void SetComputeBufferParam(UnityEngine.ComputeShader @computeShader, System.Int32 @kernelIndex, System.String @name, UnityEngine.GraphicsBufferHandle @bufferHandle)
         {
 
             var ___genericsType = new Type[] {};
@@ -11267,7 +11267,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetComputeBufferParam(UnityEngine.ComputeShader  @computeShader, System.Int32  @kernelIndex, System.Int32  @nameID, UnityEngine.GraphicsBuffer  @buffer)
+        public virtual void SetComputeBufferParam(UnityEngine.ComputeShader @computeShader, System.Int32 @kernelIndex, System.Int32 @nameID, UnityEngine.GraphicsBuffer @buffer)
         {
 
             var ___genericsType = new Type[] {};
@@ -11278,7 +11278,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetComputeBufferParam(UnityEngine.ComputeShader  @computeShader, System.Int32  @kernelIndex, System.String  @name, UnityEngine.GraphicsBuffer  @buffer)
+        public virtual void SetComputeBufferParam(UnityEngine.ComputeShader @computeShader, System.Int32 @kernelIndex, System.String @name, UnityEngine.GraphicsBuffer @buffer)
         {
 
             var ___genericsType = new Type[] {};
@@ -11289,7 +11289,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetComputeConstantBufferParam(UnityEngine.ComputeShader  @computeShader, System.Int32  @nameID, UnityEngine.ComputeBuffer  @buffer, System.Int32  @offset, System.Int32  @size)
+        public virtual void SetComputeConstantBufferParam(UnityEngine.ComputeShader @computeShader, System.Int32 @nameID, UnityEngine.ComputeBuffer @buffer, System.Int32 @offset, System.Int32 @size)
         {
 
             var ___genericsType = new Type[] {};
@@ -11300,7 +11300,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetComputeConstantBufferParam(UnityEngine.ComputeShader  @computeShader, System.String  @name, UnityEngine.ComputeBuffer  @buffer, System.Int32  @offset, System.Int32  @size)
+        public virtual void SetComputeConstantBufferParam(UnityEngine.ComputeShader @computeShader, System.String @name, UnityEngine.ComputeBuffer @buffer, System.Int32 @offset, System.Int32 @size)
         {
 
             var ___genericsType = new Type[] {};
@@ -11311,7 +11311,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetComputeConstantBufferParam(UnityEngine.ComputeShader  @computeShader, System.Int32  @nameID, UnityEngine.GraphicsBuffer  @buffer, System.Int32  @offset, System.Int32  @size)
+        public virtual void SetComputeConstantBufferParam(UnityEngine.ComputeShader @computeShader, System.Int32 @nameID, UnityEngine.GraphicsBuffer @buffer, System.Int32 @offset, System.Int32 @size)
         {
 
             var ___genericsType = new Type[] {};
@@ -11322,7 +11322,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetComputeConstantBufferParam(UnityEngine.ComputeShader  @computeShader, System.String  @name, UnityEngine.GraphicsBuffer  @buffer, System.Int32  @offset, System.Int32  @size)
+        public virtual void SetComputeConstantBufferParam(UnityEngine.ComputeShader @computeShader, System.String @name, UnityEngine.GraphicsBuffer @buffer, System.Int32 @offset, System.Int32 @size)
         {
 
             var ___genericsType = new Type[] {};
@@ -11333,7 +11333,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetComputeParamsFromMaterial(UnityEngine.ComputeShader  @computeShader, System.Int32  @kernelIndex, UnityEngine.Material  @material)
+        public virtual void SetComputeParamsFromMaterial(UnityEngine.ComputeShader @computeShader, System.Int32 @kernelIndex, UnityEngine.Material @material)
         {
 
             var ___genericsType = new Type[] {};
@@ -11344,7 +11344,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void DispatchCompute(UnityEngine.ComputeShader  @computeShader, System.Int32  @kernelIndex, System.Int32  @threadGroupsX, System.Int32  @threadGroupsY, System.Int32  @threadGroupsZ)
+        public virtual void DispatchCompute(UnityEngine.ComputeShader @computeShader, System.Int32 @kernelIndex, System.Int32 @threadGroupsX, System.Int32 @threadGroupsY, System.Int32 @threadGroupsZ)
         {
 
             var ___genericsType = new Type[] {};
@@ -11355,7 +11355,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void DispatchCompute(UnityEngine.ComputeShader  @computeShader, System.Int32  @kernelIndex, UnityEngine.ComputeBuffer  @indirectBuffer, System.UInt32  @argsOffset)
+        public virtual void DispatchCompute(UnityEngine.ComputeShader @computeShader, System.Int32 @kernelIndex, UnityEngine.ComputeBuffer @indirectBuffer, System.UInt32 @argsOffset)
         {
 
             var ___genericsType = new Type[] {};
@@ -11366,7 +11366,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void DispatchCompute(UnityEngine.ComputeShader  @computeShader, System.Int32  @kernelIndex, UnityEngine.GraphicsBuffer  @indirectBuffer, System.UInt32  @argsOffset)
+        public virtual void DispatchCompute(UnityEngine.ComputeShader @computeShader, System.Int32 @kernelIndex, UnityEngine.GraphicsBuffer @indirectBuffer, System.UInt32 @argsOffset)
         {
 
             var ___genericsType = new Type[] {};
@@ -11377,7 +11377,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void BuildRayTracingAccelerationStructure(UnityEngine.Experimental.Rendering.RayTracingAccelerationStructure  @accelerationStructure)
+        public virtual void BuildRayTracingAccelerationStructure(UnityEngine.Experimental.Rendering.RayTracingAccelerationStructure @accelerationStructure)
         {
 
             var ___genericsType = new Type[] {};
@@ -11388,7 +11388,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void BuildRayTracingAccelerationStructure(UnityEngine.Experimental.Rendering.RayTracingAccelerationStructure  @accelerationStructure, UnityEngine.Vector3  @relativeOrigin)
+        public virtual void BuildRayTracingAccelerationStructure(UnityEngine.Experimental.Rendering.RayTracingAccelerationStructure @accelerationStructure, UnityEngine.Vector3 @relativeOrigin)
         {
 
             var ___genericsType = new Type[] {};
@@ -11399,7 +11399,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetRayTracingAccelerationStructure(UnityEngine.Experimental.Rendering.RayTracingShader  @rayTracingShader, System.String  @name, UnityEngine.Experimental.Rendering.RayTracingAccelerationStructure  @rayTracingAccelerationStructure)
+        public virtual void SetRayTracingAccelerationStructure(UnityEngine.Experimental.Rendering.RayTracingShader @rayTracingShader, System.String @name, UnityEngine.Experimental.Rendering.RayTracingAccelerationStructure @rayTracingAccelerationStructure)
         {
 
             var ___genericsType = new Type[] {};
@@ -11410,7 +11410,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetRayTracingAccelerationStructure(UnityEngine.Experimental.Rendering.RayTracingShader  @rayTracingShader, System.Int32  @nameID, UnityEngine.Experimental.Rendering.RayTracingAccelerationStructure  @rayTracingAccelerationStructure)
+        public virtual void SetRayTracingAccelerationStructure(UnityEngine.Experimental.Rendering.RayTracingShader @rayTracingShader, System.Int32 @nameID, UnityEngine.Experimental.Rendering.RayTracingAccelerationStructure @rayTracingAccelerationStructure)
         {
 
             var ___genericsType = new Type[] {};
@@ -11421,7 +11421,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetRayTracingBufferParam(UnityEngine.Experimental.Rendering.RayTracingShader  @rayTracingShader, System.String  @name, UnityEngine.ComputeBuffer  @buffer)
+        public virtual void SetRayTracingBufferParam(UnityEngine.Experimental.Rendering.RayTracingShader @rayTracingShader, System.String @name, UnityEngine.ComputeBuffer @buffer)
         {
 
             var ___genericsType = new Type[] {};
@@ -11432,7 +11432,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetRayTracingBufferParam(UnityEngine.Experimental.Rendering.RayTracingShader  @rayTracingShader, System.Int32  @nameID, UnityEngine.ComputeBuffer  @buffer)
+        public virtual void SetRayTracingBufferParam(UnityEngine.Experimental.Rendering.RayTracingShader @rayTracingShader, System.Int32 @nameID, UnityEngine.ComputeBuffer @buffer)
         {
 
             var ___genericsType = new Type[] {};
@@ -11443,7 +11443,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetRayTracingConstantBufferParam(UnityEngine.Experimental.Rendering.RayTracingShader  @rayTracingShader, System.Int32  @nameID, UnityEngine.ComputeBuffer  @buffer, System.Int32  @offset, System.Int32  @size)
+        public virtual void SetRayTracingConstantBufferParam(UnityEngine.Experimental.Rendering.RayTracingShader @rayTracingShader, System.Int32 @nameID, UnityEngine.ComputeBuffer @buffer, System.Int32 @offset, System.Int32 @size)
         {
 
             var ___genericsType = new Type[] {};
@@ -11454,7 +11454,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetRayTracingConstantBufferParam(UnityEngine.Experimental.Rendering.RayTracingShader  @rayTracingShader, System.String  @name, UnityEngine.ComputeBuffer  @buffer, System.Int32  @offset, System.Int32  @size)
+        public virtual void SetRayTracingConstantBufferParam(UnityEngine.Experimental.Rendering.RayTracingShader @rayTracingShader, System.String @name, UnityEngine.ComputeBuffer @buffer, System.Int32 @offset, System.Int32 @size)
         {
 
             var ___genericsType = new Type[] {};
@@ -11465,7 +11465,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetRayTracingConstantBufferParam(UnityEngine.Experimental.Rendering.RayTracingShader  @rayTracingShader, System.Int32  @nameID, UnityEngine.GraphicsBuffer  @buffer, System.Int32  @offset, System.Int32  @size)
+        public virtual void SetRayTracingConstantBufferParam(UnityEngine.Experimental.Rendering.RayTracingShader @rayTracingShader, System.Int32 @nameID, UnityEngine.GraphicsBuffer @buffer, System.Int32 @offset, System.Int32 @size)
         {
 
             var ___genericsType = new Type[] {};
@@ -11476,7 +11476,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetRayTracingConstantBufferParam(UnityEngine.Experimental.Rendering.RayTracingShader  @rayTracingShader, System.String  @name, UnityEngine.GraphicsBuffer  @buffer, System.Int32  @offset, System.Int32  @size)
+        public virtual void SetRayTracingConstantBufferParam(UnityEngine.Experimental.Rendering.RayTracingShader @rayTracingShader, System.String @name, UnityEngine.GraphicsBuffer @buffer, System.Int32 @offset, System.Int32 @size)
         {
 
             var ___genericsType = new Type[] {};
@@ -11487,7 +11487,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetRayTracingTextureParam(UnityEngine.Experimental.Rendering.RayTracingShader  @rayTracingShader, System.String  @name, UnityEngine.Rendering.RenderTargetIdentifier  @rt)
+        public virtual void SetRayTracingTextureParam(UnityEngine.Experimental.Rendering.RayTracingShader @rayTracingShader, System.String @name, UnityEngine.Rendering.RenderTargetIdentifier @rt)
         {
 
             var ___genericsType = new Type[] {};
@@ -11498,7 +11498,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetRayTracingTextureParam(UnityEngine.Experimental.Rendering.RayTracingShader  @rayTracingShader, System.Int32  @nameID, UnityEngine.Rendering.RenderTargetIdentifier  @rt)
+        public virtual void SetRayTracingTextureParam(UnityEngine.Experimental.Rendering.RayTracingShader @rayTracingShader, System.Int32 @nameID, UnityEngine.Rendering.RenderTargetIdentifier @rt)
         {
 
             var ___genericsType = new Type[] {};
@@ -11509,7 +11509,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetRayTracingFloatParam(UnityEngine.Experimental.Rendering.RayTracingShader  @rayTracingShader, System.String  @name, System.Single  @val)
+        public virtual void SetRayTracingFloatParam(UnityEngine.Experimental.Rendering.RayTracingShader @rayTracingShader, System.String @name, System.Single @val)
         {
 
             var ___genericsType = new Type[] {};
@@ -11520,7 +11520,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetRayTracingFloatParam(UnityEngine.Experimental.Rendering.RayTracingShader  @rayTracingShader, System.Int32  @nameID, System.Single  @val)
+        public virtual void SetRayTracingFloatParam(UnityEngine.Experimental.Rendering.RayTracingShader @rayTracingShader, System.Int32 @nameID, System.Single @val)
         {
 
             var ___genericsType = new Type[] {};
@@ -11531,7 +11531,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetRayTracingFloatParams(UnityEngine.Experimental.Rendering.RayTracingShader  @rayTracingShader, System.String  @name, System.Single[]  @values)
+        public virtual void SetRayTracingFloatParams(UnityEngine.Experimental.Rendering.RayTracingShader @rayTracingShader, System.String @name, System.Single[] @values)
         {
 
             var ___genericsType = new Type[] {};
@@ -11542,7 +11542,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetRayTracingFloatParams(UnityEngine.Experimental.Rendering.RayTracingShader  @rayTracingShader, System.Int32  @nameID, System.Single[]  @values)
+        public virtual void SetRayTracingFloatParams(UnityEngine.Experimental.Rendering.RayTracingShader @rayTracingShader, System.Int32 @nameID, System.Single[] @values)
         {
 
             var ___genericsType = new Type[] {};
@@ -11553,7 +11553,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetRayTracingIntParam(UnityEngine.Experimental.Rendering.RayTracingShader  @rayTracingShader, System.String  @name, System.Int32  @val)
+        public virtual void SetRayTracingIntParam(UnityEngine.Experimental.Rendering.RayTracingShader @rayTracingShader, System.String @name, System.Int32 @val)
         {
 
             var ___genericsType = new Type[] {};
@@ -11564,7 +11564,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetRayTracingIntParam(UnityEngine.Experimental.Rendering.RayTracingShader  @rayTracingShader, System.Int32  @nameID, System.Int32  @val)
+        public virtual void SetRayTracingIntParam(UnityEngine.Experimental.Rendering.RayTracingShader @rayTracingShader, System.Int32 @nameID, System.Int32 @val)
         {
 
             var ___genericsType = new Type[] {};
@@ -11575,7 +11575,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetRayTracingIntParams(UnityEngine.Experimental.Rendering.RayTracingShader  @rayTracingShader, System.String  @name, System.Int32[]  @values)
+        public virtual void SetRayTracingIntParams(UnityEngine.Experimental.Rendering.RayTracingShader @rayTracingShader, System.String @name, System.Int32[] @values)
         {
 
             var ___genericsType = new Type[] {};
@@ -11586,7 +11586,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetRayTracingIntParams(UnityEngine.Experimental.Rendering.RayTracingShader  @rayTracingShader, System.Int32  @nameID, System.Int32[]  @values)
+        public virtual void SetRayTracingIntParams(UnityEngine.Experimental.Rendering.RayTracingShader @rayTracingShader, System.Int32 @nameID, System.Int32[] @values)
         {
 
             var ___genericsType = new Type[] {};
@@ -11597,7 +11597,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetRayTracingVectorParam(UnityEngine.Experimental.Rendering.RayTracingShader  @rayTracingShader, System.String  @name, UnityEngine.Vector4  @val)
+        public virtual void SetRayTracingVectorParam(UnityEngine.Experimental.Rendering.RayTracingShader @rayTracingShader, System.String @name, UnityEngine.Vector4 @val)
         {
 
             var ___genericsType = new Type[] {};
@@ -11608,7 +11608,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetRayTracingVectorParam(UnityEngine.Experimental.Rendering.RayTracingShader  @rayTracingShader, System.Int32  @nameID, UnityEngine.Vector4  @val)
+        public virtual void SetRayTracingVectorParam(UnityEngine.Experimental.Rendering.RayTracingShader @rayTracingShader, System.Int32 @nameID, UnityEngine.Vector4 @val)
         {
 
             var ___genericsType = new Type[] {};
@@ -11619,7 +11619,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetRayTracingVectorArrayParam(UnityEngine.Experimental.Rendering.RayTracingShader  @rayTracingShader, System.String  @name, UnityEngine.Vector4[]  @values)
+        public virtual void SetRayTracingVectorArrayParam(UnityEngine.Experimental.Rendering.RayTracingShader @rayTracingShader, System.String @name, UnityEngine.Vector4[] @values)
         {
 
             var ___genericsType = new Type[] {};
@@ -11630,7 +11630,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetRayTracingVectorArrayParam(UnityEngine.Experimental.Rendering.RayTracingShader  @rayTracingShader, System.Int32  @nameID, UnityEngine.Vector4[]  @values)
+        public virtual void SetRayTracingVectorArrayParam(UnityEngine.Experimental.Rendering.RayTracingShader @rayTracingShader, System.Int32 @nameID, UnityEngine.Vector4[] @values)
         {
 
             var ___genericsType = new Type[] {};
@@ -11641,7 +11641,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetRayTracingMatrixParam(UnityEngine.Experimental.Rendering.RayTracingShader  @rayTracingShader, System.String  @name, UnityEngine.Matrix4x4  @val)
+        public virtual void SetRayTracingMatrixParam(UnityEngine.Experimental.Rendering.RayTracingShader @rayTracingShader, System.String @name, UnityEngine.Matrix4x4 @val)
         {
 
             var ___genericsType = new Type[] {};
@@ -11652,7 +11652,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetRayTracingMatrixParam(UnityEngine.Experimental.Rendering.RayTracingShader  @rayTracingShader, System.Int32  @nameID, UnityEngine.Matrix4x4  @val)
+        public virtual void SetRayTracingMatrixParam(UnityEngine.Experimental.Rendering.RayTracingShader @rayTracingShader, System.Int32 @nameID, UnityEngine.Matrix4x4 @val)
         {
 
             var ___genericsType = new Type[] {};
@@ -11663,7 +11663,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetRayTracingMatrixArrayParam(UnityEngine.Experimental.Rendering.RayTracingShader  @rayTracingShader, System.String  @name, UnityEngine.Matrix4x4[]  @values)
+        public virtual void SetRayTracingMatrixArrayParam(UnityEngine.Experimental.Rendering.RayTracingShader @rayTracingShader, System.String @name, UnityEngine.Matrix4x4[] @values)
         {
 
             var ___genericsType = new Type[] {};
@@ -11674,7 +11674,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetRayTracingMatrixArrayParam(UnityEngine.Experimental.Rendering.RayTracingShader  @rayTracingShader, System.Int32  @nameID, UnityEngine.Matrix4x4[]  @values)
+        public virtual void SetRayTracingMatrixArrayParam(UnityEngine.Experimental.Rendering.RayTracingShader @rayTracingShader, System.Int32 @nameID, UnityEngine.Matrix4x4[] @values)
         {
 
             var ___genericsType = new Type[] {};
@@ -11685,7 +11685,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void DispatchRays(UnityEngine.Experimental.Rendering.RayTracingShader  @rayTracingShader, System.String  @rayGenName, System.UInt32  @width, System.UInt32  @height, System.UInt32  @depth, UnityEngine.Camera  @camera)
+        public virtual void DispatchRays(UnityEngine.Experimental.Rendering.RayTracingShader @rayTracingShader, System.String @rayGenName, System.UInt32 @width, System.UInt32 @height, System.UInt32 @depth, UnityEngine.Camera @camera)
         {
 
             var ___genericsType = new Type[] {};
@@ -11696,7 +11696,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void GenerateMips(UnityEngine.Rendering.RenderTargetIdentifier  @rt)
+        public virtual void GenerateMips(UnityEngine.Rendering.RenderTargetIdentifier @rt)
         {
 
             var ___genericsType = new Type[] {};
@@ -11707,7 +11707,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void GenerateMips(UnityEngine.RenderTexture  @rt)
+        public virtual void GenerateMips(UnityEngine.RenderTexture @rt)
         {
 
             var ___genericsType = new Type[] {};
@@ -11718,7 +11718,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void ResolveAntiAliasedSurface(UnityEngine.RenderTexture  @rt, UnityEngine.RenderTexture  @target)
+        public virtual void ResolveAntiAliasedSurface(UnityEngine.RenderTexture @rt, UnityEngine.RenderTexture @target)
         {
 
             var ___genericsType = new Type[] {};
@@ -11729,7 +11729,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void DrawMesh(UnityEngine.Mesh  @mesh, UnityEngine.Matrix4x4  @matrix, UnityEngine.Material  @material, System.Int32  @submeshIndex, System.Int32  @shaderPass, UnityEngine.MaterialPropertyBlock  @properties)
+        public virtual void DrawMesh(UnityEngine.Mesh @mesh, UnityEngine.Matrix4x4 @matrix, UnityEngine.Material @material, System.Int32 @submeshIndex, System.Int32 @shaderPass, UnityEngine.MaterialPropertyBlock @properties)
         {
 
             var ___genericsType = new Type[] {};
@@ -11740,7 +11740,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void DrawMesh(UnityEngine.Mesh  @mesh, UnityEngine.Matrix4x4  @matrix, UnityEngine.Material  @material, System.Int32  @submeshIndex, System.Int32  @shaderPass)
+        public virtual void DrawMesh(UnityEngine.Mesh @mesh, UnityEngine.Matrix4x4 @matrix, UnityEngine.Material @material, System.Int32 @submeshIndex, System.Int32 @shaderPass)
         {
 
             var ___genericsType = new Type[] {};
@@ -11751,7 +11751,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void DrawMesh(UnityEngine.Mesh  @mesh, UnityEngine.Matrix4x4  @matrix, UnityEngine.Material  @material, System.Int32  @submeshIndex)
+        public virtual void DrawMesh(UnityEngine.Mesh @mesh, UnityEngine.Matrix4x4 @matrix, UnityEngine.Material @material, System.Int32 @submeshIndex)
         {
 
             var ___genericsType = new Type[] {};
@@ -11762,7 +11762,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void DrawMesh(UnityEngine.Mesh  @mesh, UnityEngine.Matrix4x4  @matrix, UnityEngine.Material  @material)
+        public virtual void DrawMesh(UnityEngine.Mesh @mesh, UnityEngine.Matrix4x4 @matrix, UnityEngine.Material @material)
         {
 
             var ___genericsType = new Type[] {};
@@ -11773,7 +11773,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void DrawRenderer(UnityEngine.Renderer  @renderer, UnityEngine.Material  @material, System.Int32  @submeshIndex, System.Int32  @shaderPass)
+        public virtual void DrawRenderer(UnityEngine.Renderer @renderer, UnityEngine.Material @material, System.Int32 @submeshIndex, System.Int32 @shaderPass)
         {
 
             var ___genericsType = new Type[] {};
@@ -11784,7 +11784,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void DrawRenderer(UnityEngine.Renderer  @renderer, UnityEngine.Material  @material, System.Int32  @submeshIndex)
+        public virtual void DrawRenderer(UnityEngine.Renderer @renderer, UnityEngine.Material @material, System.Int32 @submeshIndex)
         {
 
             var ___genericsType = new Type[] {};
@@ -11795,7 +11795,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void DrawRenderer(UnityEngine.Renderer  @renderer, UnityEngine.Material  @material)
+        public virtual void DrawRenderer(UnityEngine.Renderer @renderer, UnityEngine.Material @material)
         {
 
             var ___genericsType = new Type[] {};
@@ -11806,7 +11806,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void DrawRendererList(UnityEngine.Rendering.RendererList  @rendererList)
+        public virtual void DrawRendererList(UnityEngine.Rendering.RendererList @rendererList)
         {
 
             var ___genericsType = new Type[] {};
@@ -11817,7 +11817,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void DrawProcedural(UnityEngine.Matrix4x4  @matrix, UnityEngine.Material  @material, System.Int32  @shaderPass, UnityEngine.MeshTopology  @topology, System.Int32  @vertexCount, System.Int32  @instanceCount, UnityEngine.MaterialPropertyBlock  @properties)
+        public virtual void DrawProcedural(UnityEngine.Matrix4x4 @matrix, UnityEngine.Material @material, System.Int32 @shaderPass, UnityEngine.MeshTopology @topology, System.Int32 @vertexCount, System.Int32 @instanceCount, UnityEngine.MaterialPropertyBlock @properties)
         {
 
             var ___genericsType = new Type[] {};
@@ -11828,7 +11828,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void DrawProcedural(UnityEngine.Matrix4x4  @matrix, UnityEngine.Material  @material, System.Int32  @shaderPass, UnityEngine.MeshTopology  @topology, System.Int32  @vertexCount, System.Int32  @instanceCount)
+        public virtual void DrawProcedural(UnityEngine.Matrix4x4 @matrix, UnityEngine.Material @material, System.Int32 @shaderPass, UnityEngine.MeshTopology @topology, System.Int32 @vertexCount, System.Int32 @instanceCount)
         {
 
             var ___genericsType = new Type[] {};
@@ -11839,7 +11839,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void DrawProcedural(UnityEngine.Matrix4x4  @matrix, UnityEngine.Material  @material, System.Int32  @shaderPass, UnityEngine.MeshTopology  @topology, System.Int32  @vertexCount)
+        public virtual void DrawProcedural(UnityEngine.Matrix4x4 @matrix, UnityEngine.Material @material, System.Int32 @shaderPass, UnityEngine.MeshTopology @topology, System.Int32 @vertexCount)
         {
 
             var ___genericsType = new Type[] {};
@@ -11850,7 +11850,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void DrawProcedural(UnityEngine.GraphicsBuffer  @indexBuffer, UnityEngine.Matrix4x4  @matrix, UnityEngine.Material  @material, System.Int32  @shaderPass, UnityEngine.MeshTopology  @topology, System.Int32  @indexCount, System.Int32  @instanceCount, UnityEngine.MaterialPropertyBlock  @properties)
+        public virtual void DrawProcedural(UnityEngine.GraphicsBuffer @indexBuffer, UnityEngine.Matrix4x4 @matrix, UnityEngine.Material @material, System.Int32 @shaderPass, UnityEngine.MeshTopology @topology, System.Int32 @indexCount, System.Int32 @instanceCount, UnityEngine.MaterialPropertyBlock @properties)
         {
 
             var ___genericsType = new Type[] {};
@@ -11861,7 +11861,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void DrawProcedural(UnityEngine.GraphicsBuffer  @indexBuffer, UnityEngine.Matrix4x4  @matrix, UnityEngine.Material  @material, System.Int32  @shaderPass, UnityEngine.MeshTopology  @topology, System.Int32  @indexCount, System.Int32  @instanceCount)
+        public virtual void DrawProcedural(UnityEngine.GraphicsBuffer @indexBuffer, UnityEngine.Matrix4x4 @matrix, UnityEngine.Material @material, System.Int32 @shaderPass, UnityEngine.MeshTopology @topology, System.Int32 @indexCount, System.Int32 @instanceCount)
         {
 
             var ___genericsType = new Type[] {};
@@ -11872,7 +11872,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void DrawProcedural(UnityEngine.GraphicsBuffer  @indexBuffer, UnityEngine.Matrix4x4  @matrix, UnityEngine.Material  @material, System.Int32  @shaderPass, UnityEngine.MeshTopology  @topology, System.Int32  @indexCount)
+        public virtual void DrawProcedural(UnityEngine.GraphicsBuffer @indexBuffer, UnityEngine.Matrix4x4 @matrix, UnityEngine.Material @material, System.Int32 @shaderPass, UnityEngine.MeshTopology @topology, System.Int32 @indexCount)
         {
 
             var ___genericsType = new Type[] {};
@@ -11883,7 +11883,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void DrawProceduralIndirect(UnityEngine.Matrix4x4  @matrix, UnityEngine.Material  @material, System.Int32  @shaderPass, UnityEngine.MeshTopology  @topology, UnityEngine.ComputeBuffer  @bufferWithArgs, System.Int32  @argsOffset, UnityEngine.MaterialPropertyBlock  @properties)
+        public virtual void DrawProceduralIndirect(UnityEngine.Matrix4x4 @matrix, UnityEngine.Material @material, System.Int32 @shaderPass, UnityEngine.MeshTopology @topology, UnityEngine.ComputeBuffer @bufferWithArgs, System.Int32 @argsOffset, UnityEngine.MaterialPropertyBlock @properties)
         {
 
             var ___genericsType = new Type[] {};
@@ -11894,7 +11894,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void DrawProceduralIndirect(UnityEngine.Matrix4x4  @matrix, UnityEngine.Material  @material, System.Int32  @shaderPass, UnityEngine.MeshTopology  @topology, UnityEngine.ComputeBuffer  @bufferWithArgs, System.Int32  @argsOffset)
+        public virtual void DrawProceduralIndirect(UnityEngine.Matrix4x4 @matrix, UnityEngine.Material @material, System.Int32 @shaderPass, UnityEngine.MeshTopology @topology, UnityEngine.ComputeBuffer @bufferWithArgs, System.Int32 @argsOffset)
         {
 
             var ___genericsType = new Type[] {};
@@ -11905,7 +11905,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void DrawProceduralIndirect(UnityEngine.Matrix4x4  @matrix, UnityEngine.Material  @material, System.Int32  @shaderPass, UnityEngine.MeshTopology  @topology, UnityEngine.ComputeBuffer  @bufferWithArgs)
+        public virtual void DrawProceduralIndirect(UnityEngine.Matrix4x4 @matrix, UnityEngine.Material @material, System.Int32 @shaderPass, UnityEngine.MeshTopology @topology, UnityEngine.ComputeBuffer @bufferWithArgs)
         {
 
             var ___genericsType = new Type[] {};
@@ -11916,7 +11916,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void DrawProceduralIndirect(UnityEngine.GraphicsBuffer  @indexBuffer, UnityEngine.Matrix4x4  @matrix, UnityEngine.Material  @material, System.Int32  @shaderPass, UnityEngine.MeshTopology  @topology, UnityEngine.ComputeBuffer  @bufferWithArgs, System.Int32  @argsOffset, UnityEngine.MaterialPropertyBlock  @properties)
+        public virtual void DrawProceduralIndirect(UnityEngine.GraphicsBuffer @indexBuffer, UnityEngine.Matrix4x4 @matrix, UnityEngine.Material @material, System.Int32 @shaderPass, UnityEngine.MeshTopology @topology, UnityEngine.ComputeBuffer @bufferWithArgs, System.Int32 @argsOffset, UnityEngine.MaterialPropertyBlock @properties)
         {
 
             var ___genericsType = new Type[] {};
@@ -11927,7 +11927,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void DrawProceduralIndirect(UnityEngine.GraphicsBuffer  @indexBuffer, UnityEngine.Matrix4x4  @matrix, UnityEngine.Material  @material, System.Int32  @shaderPass, UnityEngine.MeshTopology  @topology, UnityEngine.ComputeBuffer  @bufferWithArgs, System.Int32  @argsOffset)
+        public virtual void DrawProceduralIndirect(UnityEngine.GraphicsBuffer @indexBuffer, UnityEngine.Matrix4x4 @matrix, UnityEngine.Material @material, System.Int32 @shaderPass, UnityEngine.MeshTopology @topology, UnityEngine.ComputeBuffer @bufferWithArgs, System.Int32 @argsOffset)
         {
 
             var ___genericsType = new Type[] {};
@@ -11938,7 +11938,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void DrawProceduralIndirect(UnityEngine.GraphicsBuffer  @indexBuffer, UnityEngine.Matrix4x4  @matrix, UnityEngine.Material  @material, System.Int32  @shaderPass, UnityEngine.MeshTopology  @topology, UnityEngine.ComputeBuffer  @bufferWithArgs)
+        public virtual void DrawProceduralIndirect(UnityEngine.GraphicsBuffer @indexBuffer, UnityEngine.Matrix4x4 @matrix, UnityEngine.Material @material, System.Int32 @shaderPass, UnityEngine.MeshTopology @topology, UnityEngine.ComputeBuffer @bufferWithArgs)
         {
 
             var ___genericsType = new Type[] {};
@@ -11949,7 +11949,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void DrawProceduralIndirect(UnityEngine.Matrix4x4  @matrix, UnityEngine.Material  @material, System.Int32  @shaderPass, UnityEngine.MeshTopology  @topology, UnityEngine.GraphicsBuffer  @bufferWithArgs, System.Int32  @argsOffset, UnityEngine.MaterialPropertyBlock  @properties)
+        public virtual void DrawProceduralIndirect(UnityEngine.Matrix4x4 @matrix, UnityEngine.Material @material, System.Int32 @shaderPass, UnityEngine.MeshTopology @topology, UnityEngine.GraphicsBuffer @bufferWithArgs, System.Int32 @argsOffset, UnityEngine.MaterialPropertyBlock @properties)
         {
 
             var ___genericsType = new Type[] {};
@@ -11960,7 +11960,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void DrawProceduralIndirect(UnityEngine.Matrix4x4  @matrix, UnityEngine.Material  @material, System.Int32  @shaderPass, UnityEngine.MeshTopology  @topology, UnityEngine.GraphicsBuffer  @bufferWithArgs, System.Int32  @argsOffset)
+        public virtual void DrawProceduralIndirect(UnityEngine.Matrix4x4 @matrix, UnityEngine.Material @material, System.Int32 @shaderPass, UnityEngine.MeshTopology @topology, UnityEngine.GraphicsBuffer @bufferWithArgs, System.Int32 @argsOffset)
         {
 
             var ___genericsType = new Type[] {};
@@ -11971,7 +11971,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void DrawProceduralIndirect(UnityEngine.Matrix4x4  @matrix, UnityEngine.Material  @material, System.Int32  @shaderPass, UnityEngine.MeshTopology  @topology, UnityEngine.GraphicsBuffer  @bufferWithArgs)
+        public virtual void DrawProceduralIndirect(UnityEngine.Matrix4x4 @matrix, UnityEngine.Material @material, System.Int32 @shaderPass, UnityEngine.MeshTopology @topology, UnityEngine.GraphicsBuffer @bufferWithArgs)
         {
 
             var ___genericsType = new Type[] {};
@@ -11982,7 +11982,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void DrawProceduralIndirect(UnityEngine.GraphicsBuffer  @indexBuffer, UnityEngine.Matrix4x4  @matrix, UnityEngine.Material  @material, System.Int32  @shaderPass, UnityEngine.MeshTopology  @topology, UnityEngine.GraphicsBuffer  @bufferWithArgs, System.Int32  @argsOffset, UnityEngine.MaterialPropertyBlock  @properties)
+        public virtual void DrawProceduralIndirect(UnityEngine.GraphicsBuffer @indexBuffer, UnityEngine.Matrix4x4 @matrix, UnityEngine.Material @material, System.Int32 @shaderPass, UnityEngine.MeshTopology @topology, UnityEngine.GraphicsBuffer @bufferWithArgs, System.Int32 @argsOffset, UnityEngine.MaterialPropertyBlock @properties)
         {
 
             var ___genericsType = new Type[] {};
@@ -11993,7 +11993,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void DrawProceduralIndirect(UnityEngine.GraphicsBuffer  @indexBuffer, UnityEngine.Matrix4x4  @matrix, UnityEngine.Material  @material, System.Int32  @shaderPass, UnityEngine.MeshTopology  @topology, UnityEngine.GraphicsBuffer  @bufferWithArgs, System.Int32  @argsOffset)
+        public virtual void DrawProceduralIndirect(UnityEngine.GraphicsBuffer @indexBuffer, UnityEngine.Matrix4x4 @matrix, UnityEngine.Material @material, System.Int32 @shaderPass, UnityEngine.MeshTopology @topology, UnityEngine.GraphicsBuffer @bufferWithArgs, System.Int32 @argsOffset)
         {
 
             var ___genericsType = new Type[] {};
@@ -12004,7 +12004,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void DrawProceduralIndirect(UnityEngine.GraphicsBuffer  @indexBuffer, UnityEngine.Matrix4x4  @matrix, UnityEngine.Material  @material, System.Int32  @shaderPass, UnityEngine.MeshTopology  @topology, UnityEngine.GraphicsBuffer  @bufferWithArgs)
+        public virtual void DrawProceduralIndirect(UnityEngine.GraphicsBuffer @indexBuffer, UnityEngine.Matrix4x4 @matrix, UnityEngine.Material @material, System.Int32 @shaderPass, UnityEngine.MeshTopology @topology, UnityEngine.GraphicsBuffer @bufferWithArgs)
         {
 
             var ___genericsType = new Type[] {};
@@ -12015,7 +12015,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void DrawMeshInstanced(UnityEngine.Mesh  @mesh, System.Int32  @submeshIndex, UnityEngine.Material  @material, System.Int32  @shaderPass, UnityEngine.Matrix4x4[]  @matrices, System.Int32  @count, UnityEngine.MaterialPropertyBlock  @properties)
+        public virtual void DrawMeshInstanced(UnityEngine.Mesh @mesh, System.Int32 @submeshIndex, UnityEngine.Material @material, System.Int32 @shaderPass, UnityEngine.Matrix4x4[] @matrices, System.Int32 @count, UnityEngine.MaterialPropertyBlock @properties)
         {
 
             var ___genericsType = new Type[] {};
@@ -12026,7 +12026,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void DrawMeshInstanced(UnityEngine.Mesh  @mesh, System.Int32  @submeshIndex, UnityEngine.Material  @material, System.Int32  @shaderPass, UnityEngine.Matrix4x4[]  @matrices, System.Int32  @count)
+        public virtual void DrawMeshInstanced(UnityEngine.Mesh @mesh, System.Int32 @submeshIndex, UnityEngine.Material @material, System.Int32 @shaderPass, UnityEngine.Matrix4x4[] @matrices, System.Int32 @count)
         {
 
             var ___genericsType = new Type[] {};
@@ -12037,7 +12037,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void DrawMeshInstanced(UnityEngine.Mesh  @mesh, System.Int32  @submeshIndex, UnityEngine.Material  @material, System.Int32  @shaderPass, UnityEngine.Matrix4x4[]  @matrices)
+        public virtual void DrawMeshInstanced(UnityEngine.Mesh @mesh, System.Int32 @submeshIndex, UnityEngine.Material @material, System.Int32 @shaderPass, UnityEngine.Matrix4x4[] @matrices)
         {
 
             var ___genericsType = new Type[] {};
@@ -12048,7 +12048,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void DrawMeshInstancedProcedural(UnityEngine.Mesh  @mesh, System.Int32  @submeshIndex, UnityEngine.Material  @material, System.Int32  @shaderPass, System.Int32  @count, UnityEngine.MaterialPropertyBlock  @properties)
+        public virtual void DrawMeshInstancedProcedural(UnityEngine.Mesh @mesh, System.Int32 @submeshIndex, UnityEngine.Material @material, System.Int32 @shaderPass, System.Int32 @count, UnityEngine.MaterialPropertyBlock @properties)
         {
 
             var ___genericsType = new Type[] {};
@@ -12059,7 +12059,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void DrawMeshInstancedIndirect(UnityEngine.Mesh  @mesh, System.Int32  @submeshIndex, UnityEngine.Material  @material, System.Int32  @shaderPass, UnityEngine.ComputeBuffer  @bufferWithArgs, System.Int32  @argsOffset, UnityEngine.MaterialPropertyBlock  @properties)
+        public virtual void DrawMeshInstancedIndirect(UnityEngine.Mesh @mesh, System.Int32 @submeshIndex, UnityEngine.Material @material, System.Int32 @shaderPass, UnityEngine.ComputeBuffer @bufferWithArgs, System.Int32 @argsOffset, UnityEngine.MaterialPropertyBlock @properties)
         {
 
             var ___genericsType = new Type[] {};
@@ -12070,7 +12070,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void DrawMeshInstancedIndirect(UnityEngine.Mesh  @mesh, System.Int32  @submeshIndex, UnityEngine.Material  @material, System.Int32  @shaderPass, UnityEngine.ComputeBuffer  @bufferWithArgs, System.Int32  @argsOffset)
+        public virtual void DrawMeshInstancedIndirect(UnityEngine.Mesh @mesh, System.Int32 @submeshIndex, UnityEngine.Material @material, System.Int32 @shaderPass, UnityEngine.ComputeBuffer @bufferWithArgs, System.Int32 @argsOffset)
         {
 
             var ___genericsType = new Type[] {};
@@ -12081,7 +12081,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void DrawMeshInstancedIndirect(UnityEngine.Mesh  @mesh, System.Int32  @submeshIndex, UnityEngine.Material  @material, System.Int32  @shaderPass, UnityEngine.ComputeBuffer  @bufferWithArgs)
+        public virtual void DrawMeshInstancedIndirect(UnityEngine.Mesh @mesh, System.Int32 @submeshIndex, UnityEngine.Material @material, System.Int32 @shaderPass, UnityEngine.ComputeBuffer @bufferWithArgs)
         {
 
             var ___genericsType = new Type[] {};
@@ -12092,7 +12092,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void DrawMeshInstancedIndirect(UnityEngine.Mesh  @mesh, System.Int32  @submeshIndex, UnityEngine.Material  @material, System.Int32  @shaderPass, UnityEngine.GraphicsBuffer  @bufferWithArgs, System.Int32  @argsOffset, UnityEngine.MaterialPropertyBlock  @properties)
+        public virtual void DrawMeshInstancedIndirect(UnityEngine.Mesh @mesh, System.Int32 @submeshIndex, UnityEngine.Material @material, System.Int32 @shaderPass, UnityEngine.GraphicsBuffer @bufferWithArgs, System.Int32 @argsOffset, UnityEngine.MaterialPropertyBlock @properties)
         {
 
             var ___genericsType = new Type[] {};
@@ -12103,7 +12103,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void DrawMeshInstancedIndirect(UnityEngine.Mesh  @mesh, System.Int32  @submeshIndex, UnityEngine.Material  @material, System.Int32  @shaderPass, UnityEngine.GraphicsBuffer  @bufferWithArgs, System.Int32  @argsOffset)
+        public virtual void DrawMeshInstancedIndirect(UnityEngine.Mesh @mesh, System.Int32 @submeshIndex, UnityEngine.Material @material, System.Int32 @shaderPass, UnityEngine.GraphicsBuffer @bufferWithArgs, System.Int32 @argsOffset)
         {
 
             var ___genericsType = new Type[] {};
@@ -12114,7 +12114,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void DrawMeshInstancedIndirect(UnityEngine.Mesh  @mesh, System.Int32  @submeshIndex, UnityEngine.Material  @material, System.Int32  @shaderPass, UnityEngine.GraphicsBuffer  @bufferWithArgs)
+        public virtual void DrawMeshInstancedIndirect(UnityEngine.Mesh @mesh, System.Int32 @submeshIndex, UnityEngine.Material @material, System.Int32 @shaderPass, UnityEngine.GraphicsBuffer @bufferWithArgs)
         {
 
             var ___genericsType = new Type[] {};
@@ -12125,7 +12125,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void DrawOcclusionMesh(UnityEngine.RectInt  @normalizedCamViewport)
+        public virtual void DrawOcclusionMesh(UnityEngine.RectInt @normalizedCamViewport)
         {
 
             var ___genericsType = new Type[] {};
@@ -12136,7 +12136,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetRandomWriteTarget(System.Int32  @index, UnityEngine.Rendering.RenderTargetIdentifier  @rt)
+        public virtual void SetRandomWriteTarget(System.Int32 @index, UnityEngine.Rendering.RenderTargetIdentifier @rt)
         {
 
             var ___genericsType = new Type[] {};
@@ -12147,7 +12147,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetRandomWriteTarget(System.Int32  @index, UnityEngine.ComputeBuffer  @buffer, System.Boolean  @preserveCounterValue)
+        public virtual void SetRandomWriteTarget(System.Int32 @index, UnityEngine.ComputeBuffer @buffer, System.Boolean @preserveCounterValue)
         {
 
             var ___genericsType = new Type[] {};
@@ -12158,7 +12158,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetRandomWriteTarget(System.Int32  @index, UnityEngine.ComputeBuffer  @buffer)
+        public virtual void SetRandomWriteTarget(System.Int32 @index, UnityEngine.ComputeBuffer @buffer)
         {
 
             var ___genericsType = new Type[] {};
@@ -12169,7 +12169,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetRandomWriteTarget(System.Int32  @index, UnityEngine.GraphicsBuffer  @buffer, System.Boolean  @preserveCounterValue)
+        public virtual void SetRandomWriteTarget(System.Int32 @index, UnityEngine.GraphicsBuffer @buffer, System.Boolean @preserveCounterValue)
         {
 
             var ___genericsType = new Type[] {};
@@ -12180,7 +12180,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetRandomWriteTarget(System.Int32  @index, UnityEngine.GraphicsBuffer  @buffer)
+        public virtual void SetRandomWriteTarget(System.Int32 @index, UnityEngine.GraphicsBuffer @buffer)
         {
 
             var ___genericsType = new Type[] {};
@@ -12191,7 +12191,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void CopyCounterValue(UnityEngine.ComputeBuffer  @src, UnityEngine.ComputeBuffer  @dst, System.UInt32  @dstOffsetBytes)
+        public virtual void CopyCounterValue(UnityEngine.ComputeBuffer @src, UnityEngine.ComputeBuffer @dst, System.UInt32 @dstOffsetBytes)
         {
 
             var ___genericsType = new Type[] {};
@@ -12202,7 +12202,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void CopyCounterValue(UnityEngine.GraphicsBuffer  @src, UnityEngine.ComputeBuffer  @dst, System.UInt32  @dstOffsetBytes)
+        public virtual void CopyCounterValue(UnityEngine.GraphicsBuffer @src, UnityEngine.ComputeBuffer @dst, System.UInt32 @dstOffsetBytes)
         {
 
             var ___genericsType = new Type[] {};
@@ -12213,7 +12213,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void CopyCounterValue(UnityEngine.ComputeBuffer  @src, UnityEngine.GraphicsBuffer  @dst, System.UInt32  @dstOffsetBytes)
+        public virtual void CopyCounterValue(UnityEngine.ComputeBuffer @src, UnityEngine.GraphicsBuffer @dst, System.UInt32 @dstOffsetBytes)
         {
 
             var ___genericsType = new Type[] {};
@@ -12224,7 +12224,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void CopyCounterValue(UnityEngine.GraphicsBuffer  @src, UnityEngine.GraphicsBuffer  @dst, System.UInt32  @dstOffsetBytes)
+        public virtual void CopyCounterValue(UnityEngine.GraphicsBuffer @src, UnityEngine.GraphicsBuffer @dst, System.UInt32 @dstOffsetBytes)
         {
 
             var ___genericsType = new Type[] {};
@@ -12235,7 +12235,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void CopyTexture(UnityEngine.Rendering.RenderTargetIdentifier  @src, UnityEngine.Rendering.RenderTargetIdentifier  @dst)
+        public virtual void CopyTexture(UnityEngine.Rendering.RenderTargetIdentifier @src, UnityEngine.Rendering.RenderTargetIdentifier @dst)
         {
 
             var ___genericsType = new Type[] {};
@@ -12246,7 +12246,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void CopyTexture(UnityEngine.Rendering.RenderTargetIdentifier  @src, System.Int32  @srcElement, UnityEngine.Rendering.RenderTargetIdentifier  @dst, System.Int32  @dstElement)
+        public virtual void CopyTexture(UnityEngine.Rendering.RenderTargetIdentifier @src, System.Int32 @srcElement, UnityEngine.Rendering.RenderTargetIdentifier @dst, System.Int32 @dstElement)
         {
 
             var ___genericsType = new Type[] {};
@@ -12257,7 +12257,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void CopyTexture(UnityEngine.Rendering.RenderTargetIdentifier  @src, System.Int32  @srcElement, System.Int32  @srcMip, UnityEngine.Rendering.RenderTargetIdentifier  @dst, System.Int32  @dstElement, System.Int32  @dstMip)
+        public virtual void CopyTexture(UnityEngine.Rendering.RenderTargetIdentifier @src, System.Int32 @srcElement, System.Int32 @srcMip, UnityEngine.Rendering.RenderTargetIdentifier @dst, System.Int32 @dstElement, System.Int32 @dstMip)
         {
 
             var ___genericsType = new Type[] {};
@@ -12268,7 +12268,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void CopyTexture(UnityEngine.Rendering.RenderTargetIdentifier  @src, System.Int32  @srcElement, System.Int32  @srcMip, System.Int32  @srcX, System.Int32  @srcY, System.Int32  @srcWidth, System.Int32  @srcHeight, UnityEngine.Rendering.RenderTargetIdentifier  @dst, System.Int32  @dstElement, System.Int32  @dstMip, System.Int32  @dstX, System.Int32  @dstY)
+        public virtual void CopyTexture(UnityEngine.Rendering.RenderTargetIdentifier @src, System.Int32 @srcElement, System.Int32 @srcMip, System.Int32 @srcX, System.Int32 @srcY, System.Int32 @srcWidth, System.Int32 @srcHeight, UnityEngine.Rendering.RenderTargetIdentifier @dst, System.Int32 @dstElement, System.Int32 @dstMip, System.Int32 @dstX, System.Int32 @dstY)
         {
 
             var ___genericsType = new Type[] {};
@@ -12279,7 +12279,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void Blit(UnityEngine.Texture  @source, UnityEngine.Rendering.RenderTargetIdentifier  @dest)
+        public virtual void Blit(UnityEngine.Texture @source, UnityEngine.Rendering.RenderTargetIdentifier @dest)
         {
 
             var ___genericsType = new Type[] {};
@@ -12290,7 +12290,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void Blit(UnityEngine.Texture  @source, UnityEngine.Rendering.RenderTargetIdentifier  @dest, UnityEngine.Vector2  @scale, UnityEngine.Vector2  @offset)
+        public virtual void Blit(UnityEngine.Texture @source, UnityEngine.Rendering.RenderTargetIdentifier @dest, UnityEngine.Vector2 @scale, UnityEngine.Vector2 @offset)
         {
 
             var ___genericsType = new Type[] {};
@@ -12301,7 +12301,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void Blit(UnityEngine.Texture  @source, UnityEngine.Rendering.RenderTargetIdentifier  @dest, UnityEngine.Material  @mat)
+        public virtual void Blit(UnityEngine.Texture @source, UnityEngine.Rendering.RenderTargetIdentifier @dest, UnityEngine.Material @mat)
         {
 
             var ___genericsType = new Type[] {};
@@ -12312,7 +12312,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void Blit(UnityEngine.Texture  @source, UnityEngine.Rendering.RenderTargetIdentifier  @dest, UnityEngine.Material  @mat, System.Int32  @pass)
+        public virtual void Blit(UnityEngine.Texture @source, UnityEngine.Rendering.RenderTargetIdentifier @dest, UnityEngine.Material @mat, System.Int32 @pass)
         {
 
             var ___genericsType = new Type[] {};
@@ -12323,7 +12323,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void Blit(UnityEngine.Rendering.RenderTargetIdentifier  @source, UnityEngine.Rendering.RenderTargetIdentifier  @dest)
+        public virtual void Blit(UnityEngine.Rendering.RenderTargetIdentifier @source, UnityEngine.Rendering.RenderTargetIdentifier @dest)
         {
 
             var ___genericsType = new Type[] {};
@@ -12334,7 +12334,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void Blit(UnityEngine.Rendering.RenderTargetIdentifier  @source, UnityEngine.Rendering.RenderTargetIdentifier  @dest, UnityEngine.Vector2  @scale, UnityEngine.Vector2  @offset)
+        public virtual void Blit(UnityEngine.Rendering.RenderTargetIdentifier @source, UnityEngine.Rendering.RenderTargetIdentifier @dest, UnityEngine.Vector2 @scale, UnityEngine.Vector2 @offset)
         {
 
             var ___genericsType = new Type[] {};
@@ -12345,7 +12345,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void Blit(UnityEngine.Rendering.RenderTargetIdentifier  @source, UnityEngine.Rendering.RenderTargetIdentifier  @dest, UnityEngine.Material  @mat)
+        public virtual void Blit(UnityEngine.Rendering.RenderTargetIdentifier @source, UnityEngine.Rendering.RenderTargetIdentifier @dest, UnityEngine.Material @mat)
         {
 
             var ___genericsType = new Type[] {};
@@ -12356,7 +12356,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void Blit(UnityEngine.Rendering.RenderTargetIdentifier  @source, UnityEngine.Rendering.RenderTargetIdentifier  @dest, UnityEngine.Material  @mat, System.Int32  @pass)
+        public virtual void Blit(UnityEngine.Rendering.RenderTargetIdentifier @source, UnityEngine.Rendering.RenderTargetIdentifier @dest, UnityEngine.Material @mat, System.Int32 @pass)
         {
 
             var ___genericsType = new Type[] {};
@@ -12367,7 +12367,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void Blit(UnityEngine.Rendering.RenderTargetIdentifier  @source, UnityEngine.Rendering.RenderTargetIdentifier  @dest, System.Int32  @sourceDepthSlice, System.Int32  @destDepthSlice)
+        public virtual void Blit(UnityEngine.Rendering.RenderTargetIdentifier @source, UnityEngine.Rendering.RenderTargetIdentifier @dest, System.Int32 @sourceDepthSlice, System.Int32 @destDepthSlice)
         {
 
             var ___genericsType = new Type[] {};
@@ -12378,7 +12378,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void Blit(UnityEngine.Rendering.RenderTargetIdentifier  @source, UnityEngine.Rendering.RenderTargetIdentifier  @dest, UnityEngine.Vector2  @scale, UnityEngine.Vector2  @offset, System.Int32  @sourceDepthSlice, System.Int32  @destDepthSlice)
+        public virtual void Blit(UnityEngine.Rendering.RenderTargetIdentifier @source, UnityEngine.Rendering.RenderTargetIdentifier @dest, UnityEngine.Vector2 @scale, UnityEngine.Vector2 @offset, System.Int32 @sourceDepthSlice, System.Int32 @destDepthSlice)
         {
 
             var ___genericsType = new Type[] {};
@@ -12389,7 +12389,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void Blit(UnityEngine.Rendering.RenderTargetIdentifier  @source, UnityEngine.Rendering.RenderTargetIdentifier  @dest, UnityEngine.Material  @mat, System.Int32  @pass, System.Int32  @destDepthSlice)
+        public virtual void Blit(UnityEngine.Rendering.RenderTargetIdentifier @source, UnityEngine.Rendering.RenderTargetIdentifier @dest, UnityEngine.Material @mat, System.Int32 @pass, System.Int32 @destDepthSlice)
         {
 
             var ___genericsType = new Type[] {};
@@ -12400,7 +12400,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetGlobalFloat(System.String  @name, System.Single  @value)
+        public virtual void SetGlobalFloat(System.String @name, System.Single @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -12411,7 +12411,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetGlobalInt(System.String  @name, System.Int32  @value)
+        public virtual void SetGlobalInt(System.String @name, System.Int32 @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -12422,7 +12422,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetGlobalInteger(System.String  @name, System.Int32  @value)
+        public virtual void SetGlobalInteger(System.String @name, System.Int32 @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -12433,7 +12433,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetGlobalVector(System.String  @name, UnityEngine.Vector4  @value)
+        public virtual void SetGlobalVector(System.String @name, UnityEngine.Vector4 @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -12444,7 +12444,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetGlobalColor(System.String  @name, UnityEngine.Color  @value)
+        public virtual void SetGlobalColor(System.String @name, UnityEngine.Color @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -12455,7 +12455,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetGlobalMatrix(System.String  @name, UnityEngine.Matrix4x4  @value)
+        public virtual void SetGlobalMatrix(System.String @name, UnityEngine.Matrix4x4 @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -12466,7 +12466,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetGlobalFloatArray(System.String  @propertyName, System.Collections.Generic.List<System.Single>  @values)
+        public virtual void SetGlobalFloatArray(System.String @propertyName, System.Collections.Generic.List<System.Single> @values)
         {
 
             var ___genericsType = new Type[] {};
@@ -12477,7 +12477,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetGlobalFloatArray(System.Int32  @nameID, System.Collections.Generic.List<System.Single>  @values)
+        public virtual void SetGlobalFloatArray(System.Int32 @nameID, System.Collections.Generic.List<System.Single> @values)
         {
 
             var ___genericsType = new Type[] {};
@@ -12488,7 +12488,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetGlobalFloatArray(System.String  @propertyName, System.Single[]  @values)
+        public virtual void SetGlobalFloatArray(System.String @propertyName, System.Single[] @values)
         {
 
             var ___genericsType = new Type[] {};
@@ -12499,7 +12499,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetGlobalVectorArray(System.String  @propertyName, System.Collections.Generic.List<UnityEngine.Vector4>  @values)
+        public virtual void SetGlobalVectorArray(System.String @propertyName, System.Collections.Generic.List<UnityEngine.Vector4> @values)
         {
 
             var ___genericsType = new Type[] {};
@@ -12510,7 +12510,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetGlobalVectorArray(System.Int32  @nameID, System.Collections.Generic.List<UnityEngine.Vector4>  @values)
+        public virtual void SetGlobalVectorArray(System.Int32 @nameID, System.Collections.Generic.List<UnityEngine.Vector4> @values)
         {
 
             var ___genericsType = new Type[] {};
@@ -12521,7 +12521,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetGlobalVectorArray(System.String  @propertyName, UnityEngine.Vector4[]  @values)
+        public virtual void SetGlobalVectorArray(System.String @propertyName, UnityEngine.Vector4[] @values)
         {
 
             var ___genericsType = new Type[] {};
@@ -12532,7 +12532,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetGlobalMatrixArray(System.String  @propertyName, System.Collections.Generic.List<UnityEngine.Matrix4x4>  @values)
+        public virtual void SetGlobalMatrixArray(System.String @propertyName, System.Collections.Generic.List<UnityEngine.Matrix4x4> @values)
         {
 
             var ___genericsType = new Type[] {};
@@ -12543,7 +12543,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetGlobalMatrixArray(System.Int32  @nameID, System.Collections.Generic.List<UnityEngine.Matrix4x4>  @values)
+        public virtual void SetGlobalMatrixArray(System.Int32 @nameID, System.Collections.Generic.List<UnityEngine.Matrix4x4> @values)
         {
 
             var ___genericsType = new Type[] {};
@@ -12554,7 +12554,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetGlobalMatrixArray(System.String  @propertyName, UnityEngine.Matrix4x4[]  @values)
+        public virtual void SetGlobalMatrixArray(System.String @propertyName, UnityEngine.Matrix4x4[] @values)
         {
 
             var ___genericsType = new Type[] {};
@@ -12565,7 +12565,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetGlobalTexture(System.String  @name, UnityEngine.Rendering.RenderTargetIdentifier  @value)
+        public virtual void SetGlobalTexture(System.String @name, UnityEngine.Rendering.RenderTargetIdentifier @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -12576,7 +12576,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetGlobalTexture(System.Int32  @nameID, UnityEngine.Rendering.RenderTargetIdentifier  @value)
+        public virtual void SetGlobalTexture(System.Int32 @nameID, UnityEngine.Rendering.RenderTargetIdentifier @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -12587,7 +12587,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetGlobalTexture(System.String  @name, UnityEngine.Rendering.RenderTargetIdentifier  @value, UnityEngine.Rendering.RenderTextureSubElement  @element)
+        public virtual void SetGlobalTexture(System.String @name, UnityEngine.Rendering.RenderTargetIdentifier @value, UnityEngine.Rendering.RenderTextureSubElement @element)
         {
 
             var ___genericsType = new Type[] {};
@@ -12598,7 +12598,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetGlobalTexture(System.Int32  @nameID, UnityEngine.Rendering.RenderTargetIdentifier  @value, UnityEngine.Rendering.RenderTextureSubElement  @element)
+        public virtual void SetGlobalTexture(System.Int32 @nameID, UnityEngine.Rendering.RenderTargetIdentifier @value, UnityEngine.Rendering.RenderTextureSubElement @element)
         {
 
             var ___genericsType = new Type[] {};
@@ -12609,7 +12609,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetGlobalBuffer(System.String  @name, UnityEngine.ComputeBuffer  @value)
+        public virtual void SetGlobalBuffer(System.String @name, UnityEngine.ComputeBuffer @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -12620,7 +12620,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetGlobalBuffer(System.Int32  @nameID, UnityEngine.ComputeBuffer  @value)
+        public virtual void SetGlobalBuffer(System.Int32 @nameID, UnityEngine.ComputeBuffer @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -12631,7 +12631,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetGlobalBuffer(System.String  @name, UnityEngine.GraphicsBuffer  @value)
+        public virtual void SetGlobalBuffer(System.String @name, UnityEngine.GraphicsBuffer @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -12642,7 +12642,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetGlobalBuffer(System.Int32  @nameID, UnityEngine.GraphicsBuffer  @value)
+        public virtual void SetGlobalBuffer(System.Int32 @nameID, UnityEngine.GraphicsBuffer @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -12653,7 +12653,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetGlobalConstantBuffer(UnityEngine.ComputeBuffer  @buffer, System.Int32  @nameID, System.Int32  @offset, System.Int32  @size)
+        public virtual void SetGlobalConstantBuffer(UnityEngine.ComputeBuffer @buffer, System.Int32 @nameID, System.Int32 @offset, System.Int32 @size)
         {
 
             var ___genericsType = new Type[] {};
@@ -12664,7 +12664,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetGlobalConstantBuffer(UnityEngine.ComputeBuffer  @buffer, System.String  @name, System.Int32  @offset, System.Int32  @size)
+        public virtual void SetGlobalConstantBuffer(UnityEngine.ComputeBuffer @buffer, System.String @name, System.Int32 @offset, System.Int32 @size)
         {
 
             var ___genericsType = new Type[] {};
@@ -12675,7 +12675,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetGlobalConstantBuffer(UnityEngine.GraphicsBuffer  @buffer, System.Int32  @nameID, System.Int32  @offset, System.Int32  @size)
+        public virtual void SetGlobalConstantBuffer(UnityEngine.GraphicsBuffer @buffer, System.Int32 @nameID, System.Int32 @offset, System.Int32 @size)
         {
 
             var ___genericsType = new Type[] {};
@@ -12686,7 +12686,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetGlobalConstantBuffer(UnityEngine.GraphicsBuffer  @buffer, System.String  @name, System.Int32  @offset, System.Int32  @size)
+        public virtual void SetGlobalConstantBuffer(UnityEngine.GraphicsBuffer @buffer, System.String @name, System.Int32 @offset, System.Int32 @size)
         {
 
             var ___genericsType = new Type[] {};
@@ -12697,7 +12697,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetShadowSamplingMode(UnityEngine.Rendering.RenderTargetIdentifier  @shadowmap, UnityEngine.Rendering.ShadowSamplingMode  @mode)
+        public virtual void SetShadowSamplingMode(UnityEngine.Rendering.RenderTargetIdentifier @shadowmap, UnityEngine.Rendering.ShadowSamplingMode @mode)
         {
 
             var ___genericsType = new Type[] {};
@@ -12708,7 +12708,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetSinglePassStereo(UnityEngine.Rendering.SinglePassStereoMode  @mode)
+        public virtual void SetSinglePassStereo(UnityEngine.Rendering.SinglePassStereoMode @mode)
         {
 
             var ___genericsType = new Type[] {};
@@ -12719,7 +12719,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void IssuePluginEvent(System.IntPtr  @callback, System.Int32  @eventID)
+        public virtual void IssuePluginEvent(System.IntPtr @callback, System.Int32 @eventID)
         {
 
             var ___genericsType = new Type[] {};
@@ -12730,7 +12730,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void IssuePluginEventAndData(System.IntPtr  @callback, System.Int32  @eventID, System.IntPtr  @data)
+        public virtual void IssuePluginEventAndData(System.IntPtr @callback, System.Int32 @eventID, System.IntPtr @data)
         {
 
             var ___genericsType = new Type[] {};
@@ -12741,7 +12741,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void IssuePluginEventAndDataWithFlags(System.IntPtr  @callback, System.Int32  @eventID, UnityEngine.Rendering.CustomMarkerCallbackFlags  @flags, System.IntPtr  @data)
+        public virtual void IssuePluginEventAndDataWithFlags(System.IntPtr @callback, System.Int32 @eventID, UnityEngine.Rendering.CustomMarkerCallbackFlags @flags, System.IntPtr @data)
         {
 
             var ___genericsType = new Type[] {};
@@ -12752,7 +12752,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void IssuePluginCustomBlit(System.IntPtr  @callback, System.UInt32  @command, UnityEngine.Rendering.RenderTargetIdentifier  @source, UnityEngine.Rendering.RenderTargetIdentifier  @dest, System.UInt32  @commandParam, System.UInt32  @commandFlags)
+        public virtual void IssuePluginCustomBlit(System.IntPtr @callback, System.UInt32 @command, UnityEngine.Rendering.RenderTargetIdentifier @source, UnityEngine.Rendering.RenderTargetIdentifier @dest, System.UInt32 @commandParam, System.UInt32 @commandFlags)
         {
 
             var ___genericsType = new Type[] {};
@@ -12763,7 +12763,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void IssuePluginCustomTextureUpdate(System.IntPtr  @callback, UnityEngine.Texture  @targetTexture, System.UInt32  @userData)
+        public virtual void IssuePluginCustomTextureUpdate(System.IntPtr @callback, UnityEngine.Texture @targetTexture, System.UInt32 @userData)
         {
 
             var ___genericsType = new Type[] {};
@@ -12774,7 +12774,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void IssuePluginCustomTextureUpdateV1(System.IntPtr  @callback, UnityEngine.Texture  @targetTexture, System.UInt32  @userData)
+        public virtual void IssuePluginCustomTextureUpdateV1(System.IntPtr @callback, UnityEngine.Texture @targetTexture, System.UInt32 @userData)
         {
 
             var ___genericsType = new Type[] {};
@@ -12785,7 +12785,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void IssuePluginCustomTextureUpdateV2(System.IntPtr  @callback, UnityEngine.Texture  @targetTexture, System.UInt32  @userData)
+        public virtual void IssuePluginCustomTextureUpdateV2(System.IntPtr @callback, UnityEngine.Texture @targetTexture, System.UInt32 @userData)
         {
 
             var ___genericsType = new Type[] {};
@@ -12796,7 +12796,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void ProcessVTFeedback(UnityEngine.Rendering.RenderTargetIdentifier  @rt, System.IntPtr  @resolver, System.Int32  @slice, System.Int32  @x, System.Int32  @width, System.Int32  @y, System.Int32  @height, System.Int32  @mip)
+        public virtual void ProcessVTFeedback(UnityEngine.Rendering.RenderTargetIdentifier @rt, System.IntPtr @resolver, System.Int32 @slice, System.Int32 @x, System.Int32 @width, System.Int32 @y, System.Int32 @height, System.Int32 @mip)
         {
 
             var ___genericsType = new Type[] {};
@@ -12807,7 +12807,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void CopyBuffer(UnityEngine.GraphicsBuffer  @source, UnityEngine.GraphicsBuffer  @dest)
+        public virtual void CopyBuffer(UnityEngine.GraphicsBuffer @source, UnityEngine.GraphicsBuffer @dest)
         {
 
             var ___genericsType = new Type[] {};
@@ -12818,7 +12818,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual UnityEngine.Rendering.GraphicsFence CreateGPUFence(UnityEngine.Rendering.SynchronisationStage  @stage)
+        public virtual UnityEngine.Rendering.GraphicsFence CreateGPUFence(UnityEngine.Rendering.SynchronisationStage @stage)
         {
 
             var ___genericsType = new Type[] {};
@@ -12840,7 +12840,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void WaitOnGPUFence(UnityEngine.Rendering.GraphicsFence  @fence, UnityEngine.Rendering.SynchronisationStage  @stage)
+        public virtual void WaitOnGPUFence(UnityEngine.Rendering.GraphicsFence @fence, UnityEngine.Rendering.SynchronisationStage @stage)
         {
 
             var ___genericsType = new Type[] {};
@@ -12851,7 +12851,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void WaitOnGPUFence(UnityEngine.Rendering.GraphicsFence  @fence)
+        public virtual void WaitOnGPUFence(UnityEngine.Rendering.GraphicsFence @fence)
         {
 
             var ___genericsType = new Type[] {};
@@ -12862,7 +12862,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetComputeBufferData(UnityEngine.ComputeBuffer  @buffer, System.Array  @data)
+        public virtual void SetComputeBufferData(UnityEngine.ComputeBuffer @buffer, System.Array @data)
         {
 
             var ___genericsType = new Type[] {};
@@ -12873,7 +12873,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetComputeBufferData<T>(UnityEngine.ComputeBuffer  @buffer, System.Collections.Generic.List<T>  @data) where T : struct
+        public virtual void SetComputeBufferData<T>(UnityEngine.ComputeBuffer @buffer, System.Collections.Generic.List<T> @data) where T : struct
         {
 
             var ___genericsType = new Type[] {typeof(T)};
@@ -12885,7 +12885,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 
 
 
-        public virtual void SetComputeBufferData(UnityEngine.ComputeBuffer  @buffer, System.Array  @data, System.Int32  @managedBufferStartIndex, System.Int32  @graphicsBufferStartIndex, System.Int32  @count)
+        public virtual void SetComputeBufferData(UnityEngine.ComputeBuffer @buffer, System.Array @data, System.Int32 @managedBufferStartIndex, System.Int32 @graphicsBufferStartIndex, System.Int32 @count)
         {
 
             var ___genericsType = new Type[] {};
@@ -12896,7 +12896,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetComputeBufferData<T>(UnityEngine.ComputeBuffer  @buffer, System.Collections.Generic.List<T>  @data, System.Int32  @managedBufferStartIndex, System.Int32  @graphicsBufferStartIndex, System.Int32  @count) where T : struct
+        public virtual void SetComputeBufferData<T>(UnityEngine.ComputeBuffer @buffer, System.Collections.Generic.List<T> @data, System.Int32 @managedBufferStartIndex, System.Int32 @graphicsBufferStartIndex, System.Int32 @count) where T : struct
         {
 
             var ___genericsType = new Type[] {typeof(T)};
@@ -12908,7 +12908,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 
 
 
-        public virtual void SetComputeBufferCounterValue(UnityEngine.ComputeBuffer  @buffer, System.UInt32  @counterValue)
+        public virtual void SetComputeBufferCounterValue(UnityEngine.ComputeBuffer @buffer, System.UInt32 @counterValue)
         {
 
             var ___genericsType = new Type[] {};
@@ -12919,7 +12919,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void ConvertTexture_Internal_Injected(ref UnityEngine.Rendering.RenderTargetIdentifier  @src, System.Int32  @srcElement, ref UnityEngine.Rendering.RenderTargetIdentifier  @dst, System.Int32  @dstElement)
+        public virtual void ConvertTexture_Internal_Injected(ref UnityEngine.Rendering.RenderTargetIdentifier @src, System.Int32 @srcElement, ref UnityEngine.Rendering.RenderTargetIdentifier @dst, System.Int32 @dstElement)
         {
 
             var ___genericsType = new Type[] {};
@@ -12932,7 +12932,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetComputeVectorParam_Injected(UnityEngine.ComputeShader  @computeShader, System.Int32  @nameID, ref UnityEngine.Vector4  @val)
+        public virtual void SetComputeVectorParam_Injected(UnityEngine.ComputeShader @computeShader, System.Int32 @nameID, ref UnityEngine.Vector4 @val)
         {
 
             var ___genericsType = new Type[] {};
@@ -12944,7 +12944,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetComputeMatrixParam_Injected(UnityEngine.ComputeShader  @computeShader, System.Int32  @nameID, ref UnityEngine.Matrix4x4  @val)
+        public virtual void SetComputeMatrixParam_Injected(UnityEngine.ComputeShader @computeShader, System.Int32 @nameID, ref UnityEngine.Matrix4x4 @val)
         {
 
             var ___genericsType = new Type[] {};
@@ -12956,7 +12956,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void Internal_SetComputeGraphicsBufferHandleParam_Injected(UnityEngine.ComputeShader  @computeShader, System.Int32  @kernelIndex, System.Int32  @nameID, ref UnityEngine.GraphicsBufferHandle  @bufferHandle)
+        public virtual void Internal_SetComputeGraphicsBufferHandleParam_Injected(UnityEngine.ComputeShader @computeShader, System.Int32 @kernelIndex, System.Int32 @nameID, ref UnityEngine.GraphicsBufferHandle @bufferHandle)
         {
 
             var ___genericsType = new Type[] {};
@@ -12968,7 +12968,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void Internal_SetRayTracingVectorParam_Injected(UnityEngine.Experimental.Rendering.RayTracingShader  @rayTracingShader, System.Int32  @nameID, ref UnityEngine.Vector4  @val)
+        public virtual void Internal_SetRayTracingVectorParam_Injected(UnityEngine.Experimental.Rendering.RayTracingShader @rayTracingShader, System.Int32 @nameID, ref UnityEngine.Vector4 @val)
         {
 
             var ___genericsType = new Type[] {};
@@ -12980,7 +12980,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void Internal_SetRayTracingMatrixParam_Injected(UnityEngine.Experimental.Rendering.RayTracingShader  @rayTracingShader, System.Int32  @nameID, ref UnityEngine.Matrix4x4  @val)
+        public virtual void Internal_SetRayTracingMatrixParam_Injected(UnityEngine.Experimental.Rendering.RayTracingShader @rayTracingShader, System.Int32 @nameID, ref UnityEngine.Matrix4x4 @val)
         {
 
             var ___genericsType = new Type[] {};
@@ -12992,7 +12992,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void Internal_BuildRayTracingAccelerationStructure_Injected(UnityEngine.Experimental.Rendering.RayTracingAccelerationStructure  @accelerationStructure, ref UnityEngine.Vector3  @relativeOrigin)
+        public virtual void Internal_BuildRayTracingAccelerationStructure_Injected(UnityEngine.Experimental.Rendering.RayTracingAccelerationStructure @accelerationStructure, ref UnityEngine.Vector3 @relativeOrigin)
         {
 
             var ___genericsType = new Type[] {};
@@ -13004,7 +13004,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void Internal_GenerateMips_Injected(ref UnityEngine.Rendering.RenderTargetIdentifier  @rt)
+        public virtual void Internal_GenerateMips_Injected(ref UnityEngine.Rendering.RenderTargetIdentifier @rt)
         {
 
             var ___genericsType = new Type[] {};
@@ -13016,7 +13016,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void Internal_DrawMesh_Injected(UnityEngine.Mesh  @mesh, ref UnityEngine.Matrix4x4  @matrix, UnityEngine.Material  @material, System.Int32  @submeshIndex, System.Int32  @shaderPass, UnityEngine.MaterialPropertyBlock  @properties)
+        public virtual void Internal_DrawMesh_Injected(UnityEngine.Mesh @mesh, ref UnityEngine.Matrix4x4 @matrix, UnityEngine.Material @material, System.Int32 @submeshIndex, System.Int32 @shaderPass, UnityEngine.MaterialPropertyBlock @properties)
         {
 
             var ___genericsType = new Type[] {};
@@ -13028,7 +13028,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void Internal_DrawRendererList_Injected(ref UnityEngine.Rendering.RendererList  @rendererList)
+        public virtual void Internal_DrawRendererList_Injected(ref UnityEngine.Rendering.RendererList @rendererList)
         {
 
             var ___genericsType = new Type[] {};
@@ -13040,7 +13040,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void Internal_DrawProcedural_Injected(ref UnityEngine.Matrix4x4  @matrix, UnityEngine.Material  @material, System.Int32  @shaderPass, UnityEngine.MeshTopology  @topology, System.Int32  @vertexCount, System.Int32  @instanceCount, UnityEngine.MaterialPropertyBlock  @properties)
+        public virtual void Internal_DrawProcedural_Injected(ref UnityEngine.Matrix4x4 @matrix, UnityEngine.Material @material, System.Int32 @shaderPass, UnityEngine.MeshTopology @topology, System.Int32 @vertexCount, System.Int32 @instanceCount, UnityEngine.MaterialPropertyBlock @properties)
         {
 
             var ___genericsType = new Type[] {};
@@ -13052,7 +13052,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void Internal_DrawProceduralIndexed_Injected(UnityEngine.GraphicsBuffer  @indexBuffer, ref UnityEngine.Matrix4x4  @matrix, UnityEngine.Material  @material, System.Int32  @shaderPass, UnityEngine.MeshTopology  @topology, System.Int32  @indexCount, System.Int32  @instanceCount, UnityEngine.MaterialPropertyBlock  @properties)
+        public virtual void Internal_DrawProceduralIndexed_Injected(UnityEngine.GraphicsBuffer @indexBuffer, ref UnityEngine.Matrix4x4 @matrix, UnityEngine.Material @material, System.Int32 @shaderPass, UnityEngine.MeshTopology @topology, System.Int32 @indexCount, System.Int32 @instanceCount, UnityEngine.MaterialPropertyBlock @properties)
         {
 
             var ___genericsType = new Type[] {};
@@ -13064,7 +13064,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void Internal_DrawProceduralIndirect_Injected(ref UnityEngine.Matrix4x4  @matrix, UnityEngine.Material  @material, System.Int32  @shaderPass, UnityEngine.MeshTopology  @topology, UnityEngine.ComputeBuffer  @bufferWithArgs, System.Int32  @argsOffset, UnityEngine.MaterialPropertyBlock  @properties)
+        public virtual void Internal_DrawProceduralIndirect_Injected(ref UnityEngine.Matrix4x4 @matrix, UnityEngine.Material @material, System.Int32 @shaderPass, UnityEngine.MeshTopology @topology, UnityEngine.ComputeBuffer @bufferWithArgs, System.Int32 @argsOffset, UnityEngine.MaterialPropertyBlock @properties)
         {
 
             var ___genericsType = new Type[] {};
@@ -13076,7 +13076,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void Internal_DrawProceduralIndexedIndirect_Injected(UnityEngine.GraphicsBuffer  @indexBuffer, ref UnityEngine.Matrix4x4  @matrix, UnityEngine.Material  @material, System.Int32  @shaderPass, UnityEngine.MeshTopology  @topology, UnityEngine.ComputeBuffer  @bufferWithArgs, System.Int32  @argsOffset, UnityEngine.MaterialPropertyBlock  @properties)
+        public virtual void Internal_DrawProceduralIndexedIndirect_Injected(UnityEngine.GraphicsBuffer @indexBuffer, ref UnityEngine.Matrix4x4 @matrix, UnityEngine.Material @material, System.Int32 @shaderPass, UnityEngine.MeshTopology @topology, UnityEngine.ComputeBuffer @bufferWithArgs, System.Int32 @argsOffset, UnityEngine.MaterialPropertyBlock @properties)
         {
 
             var ___genericsType = new Type[] {};
@@ -13088,7 +13088,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void Internal_DrawProceduralIndirectGraphicsBuffer_Injected(ref UnityEngine.Matrix4x4  @matrix, UnityEngine.Material  @material, System.Int32  @shaderPass, UnityEngine.MeshTopology  @topology, UnityEngine.GraphicsBuffer  @bufferWithArgs, System.Int32  @argsOffset, UnityEngine.MaterialPropertyBlock  @properties)
+        public virtual void Internal_DrawProceduralIndirectGraphicsBuffer_Injected(ref UnityEngine.Matrix4x4 @matrix, UnityEngine.Material @material, System.Int32 @shaderPass, UnityEngine.MeshTopology @topology, UnityEngine.GraphicsBuffer @bufferWithArgs, System.Int32 @argsOffset, UnityEngine.MaterialPropertyBlock @properties)
         {
 
             var ___genericsType = new Type[] {};
@@ -13100,7 +13100,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void Internal_DrawProceduralIndexedIndirectGraphicsBuffer_Injected(UnityEngine.GraphicsBuffer  @indexBuffer, ref UnityEngine.Matrix4x4  @matrix, UnityEngine.Material  @material, System.Int32  @shaderPass, UnityEngine.MeshTopology  @topology, UnityEngine.GraphicsBuffer  @bufferWithArgs, System.Int32  @argsOffset, UnityEngine.MaterialPropertyBlock  @properties)
+        public virtual void Internal_DrawProceduralIndexedIndirectGraphicsBuffer_Injected(UnityEngine.GraphicsBuffer @indexBuffer, ref UnityEngine.Matrix4x4 @matrix, UnityEngine.Material @material, System.Int32 @shaderPass, UnityEngine.MeshTopology @topology, UnityEngine.GraphicsBuffer @bufferWithArgs, System.Int32 @argsOffset, UnityEngine.MaterialPropertyBlock @properties)
         {
 
             var ___genericsType = new Type[] {};
@@ -13112,7 +13112,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void Internal_DrawOcclusionMesh_Injected(ref UnityEngine.RectInt  @normalizedCamViewport)
+        public virtual void Internal_DrawOcclusionMesh_Injected(ref UnityEngine.RectInt @normalizedCamViewport)
         {
 
             var ___genericsType = new Type[] {};
@@ -13124,7 +13124,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetViewport_Injected(ref UnityEngine.Rect  @pixelRect)
+        public virtual void SetViewport_Injected(ref UnityEngine.Rect @pixelRect)
         {
 
             var ___genericsType = new Type[] {};
@@ -13136,7 +13136,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void EnableScissorRect_Injected(ref UnityEngine.Rect  @scissor)
+        public virtual void EnableScissorRect_Injected(ref UnityEngine.Rect @scissor)
         {
 
             var ___genericsType = new Type[] {};
@@ -13148,7 +13148,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void Blit_Texture_Injected(UnityEngine.Texture  @source, ref UnityEngine.Rendering.RenderTargetIdentifier  @dest, UnityEngine.Material  @mat, System.Int32  @pass, ref UnityEngine.Vector2  @scale, ref UnityEngine.Vector2  @offset, System.Int32  @sourceDepthSlice, System.Int32  @destDepthSlice)
+        public virtual void Blit_Texture_Injected(UnityEngine.Texture @source, ref UnityEngine.Rendering.RenderTargetIdentifier @dest, UnityEngine.Material @mat, System.Int32 @pass, ref UnityEngine.Vector2 @scale, ref UnityEngine.Vector2 @offset, System.Int32 @sourceDepthSlice, System.Int32 @destDepthSlice)
         {
 
             var ___genericsType = new Type[] {};
@@ -13162,7 +13162,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void Blit_Identifier_Injected(ref UnityEngine.Rendering.RenderTargetIdentifier  @source, ref UnityEngine.Rendering.RenderTargetIdentifier  @dest, UnityEngine.Material  @mat, System.Int32  @pass, ref UnityEngine.Vector2  @scale, ref UnityEngine.Vector2  @offset, System.Int32  @sourceDepthSlice, System.Int32  @destDepthSlice)
+        public virtual void Blit_Identifier_Injected(ref UnityEngine.Rendering.RenderTargetIdentifier @source, ref UnityEngine.Rendering.RenderTargetIdentifier @dest, UnityEngine.Material @mat, System.Int32 @pass, ref UnityEngine.Vector2 @scale, ref UnityEngine.Vector2 @offset, System.Int32 @sourceDepthSlice, System.Int32 @destDepthSlice)
         {
 
             var ___genericsType = new Type[] {};
@@ -13177,7 +13177,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void GetTemporaryRTWithDescriptor_Injected(System.Int32  @nameID, ref UnityEngine.RenderTextureDescriptor  @desc, UnityEngine.FilterMode  @filter)
+        public virtual void GetTemporaryRTWithDescriptor_Injected(System.Int32 @nameID, ref UnityEngine.RenderTextureDescriptor @desc, UnityEngine.FilterMode @filter)
         {
 
             var ___genericsType = new Type[] {};
@@ -13189,7 +13189,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void ClearRenderTarget_Injected(UnityEngine.Rendering.RTClearFlags  @clearFlags, ref UnityEngine.Color  @backgroundColor, System.Single  @depth, System.UInt32  @stencil)
+        public virtual void ClearRenderTarget_Injected(UnityEngine.Rendering.RTClearFlags @clearFlags, ref UnityEngine.Color @backgroundColor, System.Single @depth, System.UInt32 @stencil)
         {
 
             var ___genericsType = new Type[] {};
@@ -13201,7 +13201,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetGlobalVector_Injected(System.Int32  @nameID, ref UnityEngine.Vector4  @value)
+        public virtual void SetGlobalVector_Injected(System.Int32 @nameID, ref UnityEngine.Vector4 @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -13213,7 +13213,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetGlobalColor_Injected(System.Int32  @nameID, ref UnityEngine.Color  @value)
+        public virtual void SetGlobalColor_Injected(System.Int32 @nameID, ref UnityEngine.Color @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -13225,7 +13225,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetGlobalMatrix_Injected(System.Int32  @nameID, ref UnityEngine.Matrix4x4  @value)
+        public virtual void SetGlobalMatrix_Injected(System.Int32 @nameID, ref UnityEngine.Matrix4x4 @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -13237,7 +13237,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void EnableGlobalKeyword_Injected(ref UnityEngine.Rendering.GlobalKeyword  @keyword)
+        public virtual void EnableGlobalKeyword_Injected(ref UnityEngine.Rendering.GlobalKeyword @keyword)
         {
 
             var ___genericsType = new Type[] {};
@@ -13249,7 +13249,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void EnableMaterialKeyword_Injected(UnityEngine.Material  @material, ref UnityEngine.Rendering.LocalKeyword  @keyword)
+        public virtual void EnableMaterialKeyword_Injected(UnityEngine.Material @material, ref UnityEngine.Rendering.LocalKeyword @keyword)
         {
 
             var ___genericsType = new Type[] {};
@@ -13261,7 +13261,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void EnableComputeKeyword_Injected(UnityEngine.ComputeShader  @computeShader, ref UnityEngine.Rendering.LocalKeyword  @keyword)
+        public virtual void EnableComputeKeyword_Injected(UnityEngine.ComputeShader @computeShader, ref UnityEngine.Rendering.LocalKeyword @keyword)
         {
 
             var ___genericsType = new Type[] {};
@@ -13273,7 +13273,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void DisableGlobalKeyword_Injected(ref UnityEngine.Rendering.GlobalKeyword  @keyword)
+        public virtual void DisableGlobalKeyword_Injected(ref UnityEngine.Rendering.GlobalKeyword @keyword)
         {
 
             var ___genericsType = new Type[] {};
@@ -13285,7 +13285,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void DisableMaterialKeyword_Injected(UnityEngine.Material  @material, ref UnityEngine.Rendering.LocalKeyword  @keyword)
+        public virtual void DisableMaterialKeyword_Injected(UnityEngine.Material @material, ref UnityEngine.Rendering.LocalKeyword @keyword)
         {
 
             var ___genericsType = new Type[] {};
@@ -13297,7 +13297,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void DisableComputeKeyword_Injected(UnityEngine.ComputeShader  @computeShader, ref UnityEngine.Rendering.LocalKeyword  @keyword)
+        public virtual void DisableComputeKeyword_Injected(UnityEngine.ComputeShader @computeShader, ref UnityEngine.Rendering.LocalKeyword @keyword)
         {
 
             var ___genericsType = new Type[] {};
@@ -13309,7 +13309,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetGlobalKeyword_Injected(ref UnityEngine.Rendering.GlobalKeyword  @keyword, System.Boolean  @value)
+        public virtual void SetGlobalKeyword_Injected(ref UnityEngine.Rendering.GlobalKeyword @keyword, System.Boolean @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -13321,7 +13321,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetMaterialKeyword_Injected(UnityEngine.Material  @material, ref UnityEngine.Rendering.LocalKeyword  @keyword, System.Boolean  @value)
+        public virtual void SetMaterialKeyword_Injected(UnityEngine.Material @material, ref UnityEngine.Rendering.LocalKeyword @keyword, System.Boolean @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -13333,7 +13333,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetComputeKeyword_Injected(UnityEngine.ComputeShader  @computeShader, ref UnityEngine.Rendering.LocalKeyword  @keyword, System.Boolean  @value)
+        public virtual void SetComputeKeyword_Injected(UnityEngine.ComputeShader @computeShader, ref UnityEngine.Rendering.LocalKeyword @keyword, System.Boolean @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -13345,7 +13345,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetViewMatrix_Injected(ref UnityEngine.Matrix4x4  @view)
+        public virtual void SetViewMatrix_Injected(ref UnityEngine.Matrix4x4 @view)
         {
 
             var ___genericsType = new Type[] {};
@@ -13357,7 +13357,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetProjectionMatrix_Injected(ref UnityEngine.Matrix4x4  @proj)
+        public virtual void SetProjectionMatrix_Injected(ref UnityEngine.Matrix4x4 @proj)
         {
 
             var ___genericsType = new Type[] {};
@@ -13369,7 +13369,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetViewProjectionMatrices_Injected(ref UnityEngine.Matrix4x4  @view, ref UnityEngine.Matrix4x4  @proj)
+        public virtual void SetViewProjectionMatrices_Injected(ref UnityEngine.Matrix4x4 @view, ref UnityEngine.Matrix4x4 @proj)
         {
 
             var ___genericsType = new Type[] {};
@@ -13382,7 +13382,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void IncrementUpdateCount_Injected(ref UnityEngine.Rendering.RenderTargetIdentifier  @dest)
+        public virtual void IncrementUpdateCount_Injected(ref UnityEngine.Rendering.RenderTargetIdentifier @dest)
         {
 
             var ___genericsType = new Type[] {};
@@ -13394,7 +13394,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetRenderTargetSingle_Internal_Injected(ref UnityEngine.Rendering.RenderTargetIdentifier  @rt, UnityEngine.Rendering.RenderBufferLoadAction  @colorLoadAction, UnityEngine.Rendering.RenderBufferStoreAction  @colorStoreAction, UnityEngine.Rendering.RenderBufferLoadAction  @depthLoadAction, UnityEngine.Rendering.RenderBufferStoreAction  @depthStoreAction)
+        public virtual void SetRenderTargetSingle_Internal_Injected(ref UnityEngine.Rendering.RenderTargetIdentifier @rt, UnityEngine.Rendering.RenderBufferLoadAction @colorLoadAction, UnityEngine.Rendering.RenderBufferStoreAction @colorStoreAction, UnityEngine.Rendering.RenderBufferLoadAction @depthLoadAction, UnityEngine.Rendering.RenderBufferStoreAction @depthStoreAction)
         {
 
             var ___genericsType = new Type[] {};
@@ -13406,7 +13406,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetRenderTargetColorDepth_Internal_Injected(ref UnityEngine.Rendering.RenderTargetIdentifier  @color, ref UnityEngine.Rendering.RenderTargetIdentifier  @depth, UnityEngine.Rendering.RenderBufferLoadAction  @colorLoadAction, UnityEngine.Rendering.RenderBufferStoreAction  @colorStoreAction, UnityEngine.Rendering.RenderBufferLoadAction  @depthLoadAction, UnityEngine.Rendering.RenderBufferStoreAction  @depthStoreAction, UnityEngine.Rendering.RenderTargetFlags  @flags)
+        public virtual void SetRenderTargetColorDepth_Internal_Injected(ref UnityEngine.Rendering.RenderTargetIdentifier @color, ref UnityEngine.Rendering.RenderTargetIdentifier @depth, UnityEngine.Rendering.RenderBufferLoadAction @colorLoadAction, UnityEngine.Rendering.RenderBufferStoreAction @colorStoreAction, UnityEngine.Rendering.RenderBufferLoadAction @depthLoadAction, UnityEngine.Rendering.RenderBufferStoreAction @depthStoreAction, UnityEngine.Rendering.RenderTargetFlags @flags)
         {
 
             var ___genericsType = new Type[] {};
@@ -13419,7 +13419,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetRenderTargetMulti_Internal_Injected(UnityEngine.Rendering.RenderTargetIdentifier[]  @colors, ref UnityEngine.Rendering.RenderTargetIdentifier  @depth, UnityEngine.Rendering.RenderBufferLoadAction[]  @colorLoadActions, UnityEngine.Rendering.RenderBufferStoreAction[]  @colorStoreActions, UnityEngine.Rendering.RenderBufferLoadAction  @depthLoadAction, UnityEngine.Rendering.RenderBufferStoreAction  @depthStoreAction, UnityEngine.Rendering.RenderTargetFlags  @flags)
+        public virtual void SetRenderTargetMulti_Internal_Injected(UnityEngine.Rendering.RenderTargetIdentifier[] @colors, ref UnityEngine.Rendering.RenderTargetIdentifier @depth, UnityEngine.Rendering.RenderBufferLoadAction[] @colorLoadActions, UnityEngine.Rendering.RenderBufferStoreAction[] @colorStoreActions, UnityEngine.Rendering.RenderBufferLoadAction @depthLoadAction, UnityEngine.Rendering.RenderBufferStoreAction @depthStoreAction, UnityEngine.Rendering.RenderTargetFlags @flags)
         {
 
             var ___genericsType = new Type[] {};
@@ -13431,7 +13431,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetRenderTargetColorDepthSubtarget_Injected(ref UnityEngine.Rendering.RenderTargetIdentifier  @color, ref UnityEngine.Rendering.RenderTargetIdentifier  @depth, UnityEngine.Rendering.RenderBufferLoadAction  @colorLoadAction, UnityEngine.Rendering.RenderBufferStoreAction  @colorStoreAction, UnityEngine.Rendering.RenderBufferLoadAction  @depthLoadAction, UnityEngine.Rendering.RenderBufferStoreAction  @depthStoreAction, System.Int32  @mipLevel, UnityEngine.CubemapFace  @cubemapFace, System.Int32  @depthSlice)
+        public virtual void SetRenderTargetColorDepthSubtarget_Injected(ref UnityEngine.Rendering.RenderTargetIdentifier @color, ref UnityEngine.Rendering.RenderTargetIdentifier @depth, UnityEngine.Rendering.RenderBufferLoadAction @colorLoadAction, UnityEngine.Rendering.RenderBufferStoreAction @colorStoreAction, UnityEngine.Rendering.RenderBufferLoadAction @depthLoadAction, UnityEngine.Rendering.RenderBufferStoreAction @depthStoreAction, System.Int32 @mipLevel, UnityEngine.CubemapFace @cubemapFace, System.Int32 @depthSlice)
         {
 
             var ___genericsType = new Type[] {};
@@ -13444,7 +13444,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetRenderTargetMultiSubtarget_Injected(UnityEngine.Rendering.RenderTargetIdentifier[]  @colors, ref UnityEngine.Rendering.RenderTargetIdentifier  @depth, UnityEngine.Rendering.RenderBufferLoadAction[]  @colorLoadActions, UnityEngine.Rendering.RenderBufferStoreAction[]  @colorStoreActions, UnityEngine.Rendering.RenderBufferLoadAction  @depthLoadAction, UnityEngine.Rendering.RenderBufferStoreAction  @depthStoreAction, System.Int32  @mipLevel, UnityEngine.CubemapFace  @cubemapFace, System.Int32  @depthSlice)
+        public virtual void SetRenderTargetMultiSubtarget_Injected(UnityEngine.Rendering.RenderTargetIdentifier[] @colors, ref UnityEngine.Rendering.RenderTargetIdentifier @depth, UnityEngine.Rendering.RenderBufferLoadAction[] @colorLoadActions, UnityEngine.Rendering.RenderBufferStoreAction[] @colorStoreActions, UnityEngine.Rendering.RenderBufferLoadAction @depthLoadAction, UnityEngine.Rendering.RenderBufferStoreAction @depthStoreAction, System.Int32 @mipLevel, UnityEngine.CubemapFace @cubemapFace, System.Int32 @depthSlice)
         {
 
             var ___genericsType = new Type[] {};
@@ -13456,7 +13456,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void Internal_ProcessVTFeedback_Injected(ref UnityEngine.Rendering.RenderTargetIdentifier  @rt, System.IntPtr  @resolver, System.Int32  @slice, System.Int32  @x, System.Int32  @width, System.Int32  @y, System.Int32  @height, System.Int32  @mip)
+        public virtual void Internal_ProcessVTFeedback_Injected(ref UnityEngine.Rendering.RenderTargetIdentifier @rt, System.IntPtr @resolver, System.Int32 @slice, System.Int32 @x, System.Int32 @width, System.Int32 @y, System.Int32 @height, System.Int32 @mip)
         {
 
             var ___genericsType = new Type[] {};
@@ -13468,7 +13468,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

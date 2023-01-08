@@ -521,7 +521,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 	    {
 	    }
 
-        public virtual void System__2__Runtime__2__InteropServices__2___ParameterBuilder__2__GetIDsOfNames(in System.Guid  @riid, System.IntPtr  @rgszNames, System.UInt32  @cNames, System.UInt32  @lcid, System.IntPtr  @rgDispId)
+        public virtual void System__2__Runtime__2__InteropServices__2___ParameterBuilder__2__GetIDsOfNames(in System.Guid @riid, System.IntPtr @rgszNames, System.UInt32 @cNames, System.UInt32 @lcid, System.IntPtr @rgDispId)
         {
 
             var ___genericsType = new Type[] {};
@@ -532,7 +532,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual void System__2__Runtime__2__InteropServices__2___ParameterBuilder__2__GetTypeInfo(System.UInt32  @iTInfo, System.UInt32  @lcid, System.IntPtr  @ppTInfo)
+        public virtual void System__2__Runtime__2__InteropServices__2___ParameterBuilder__2__GetTypeInfo(System.UInt32 @iTInfo, System.UInt32 @lcid, System.IntPtr @ppTInfo)
         {
 
             var ___genericsType = new Type[] {};
@@ -543,7 +543,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual void System__2__Runtime__2__InteropServices__2___ParameterBuilder__2__GetTypeInfoCount(out System.UInt32  @pcTInfo)
+        public virtual void System__2__Runtime__2__InteropServices__2___ParameterBuilder__2__GetTypeInfoCount(out System.UInt32 @pcTInfo)
         {
 			@pcTInfo = default;
 
@@ -556,7 +556,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual void System__2__Runtime__2__InteropServices__2___ParameterBuilder__2__Invoke(System.UInt32  @dispIdMember, in System.Guid  @riid, System.UInt32  @lcid, System.Int16  @wFlags, System.IntPtr  @pDispParams, System.IntPtr  @pVarResult, System.IntPtr  @pExcepInfo, System.IntPtr  @puArgErr)
+        public virtual void System__2__Runtime__2__InteropServices__2___ParameterBuilder__2__Invoke(System.UInt32 @dispIdMember, in System.Guid @riid, System.UInt32 @lcid, System.Int16 @wFlags, System.IntPtr @pDispParams, System.IntPtr @pVarResult, System.IntPtr @pExcepInfo, System.IntPtr @puArgErr)
         {
 
             var ___genericsType = new Type[] {};
@@ -578,7 +578,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual void SetConstant(System.Object  @defaultValue)
+        public virtual void SetConstant(System.Object @defaultValue)
         {
 
             var ___genericsType = new Type[] {};
@@ -589,7 +589,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual void SetCustomAttribute(System.Reflection.Emit.CustomAttributeBuilder  @customBuilder)
+        public virtual void SetCustomAttribute(System.Reflection.Emit.CustomAttributeBuilder @customBuilder)
         {
 
             var ___genericsType = new Type[] {};
@@ -600,7 +600,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual void SetCustomAttribute(System.Reflection.ConstructorInfo  @con, System.Byte[]  @binaryAttribute)
+        public virtual void SetCustomAttribute(System.Reflection.ConstructorInfo @con, System.Byte[] @binaryAttribute)
         {
 
             var ___genericsType = new Type[] {};
@@ -611,7 +611,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual void SetMarshal(System.Reflection.Emit.UnmanagedMarshal  @unmanagedMarshal)
+        public virtual void SetMarshal(System.Reflection.Emit.UnmanagedMarshal @unmanagedMarshal)
         {
 
             var ___genericsType = new Type[] {};
@@ -622,7 +622,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

@@ -1404,7 +1404,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
         }
 
 
-        public static System.Boolean IsTempMemoryHandle(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle  @handle)
+        public static System.Boolean IsTempMemoryHandle(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @handle)
         {
 
             var ___genericsType = new Type[] {};
@@ -1415,7 +1415,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
         }
 
 
-        public static void Release(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle  @handle)
+        public static void Release(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @handle)
         {
 
             var ___genericsType = new Type[] {};
@@ -1426,7 +1426,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
         }
 
 
-        public static System.Boolean IsDefaultValue(in Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle  @handle)
+        public static System.Boolean IsDefaultValue(in Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @handle)
         {
 
             var ___genericsType = new Type[] {};
@@ -1437,7 +1437,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
         }
 
 
-        public static void SetExclusiveWeak(ref Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle  @handle, System.Boolean  @enabled)
+        public static void SetExclusiveWeak(ref Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @handle, System.Boolean @enabled)
         {
 
             var ___genericsType = new Type[] {};
@@ -1449,7 +1449,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
         }
 
 
-        public static System.Boolean GetExclusiveWeak(in Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle  @handle)
+        public static System.Boolean GetExclusiveWeak(in Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @handle)
         {
 
             var ___genericsType = new Type[] {};
@@ -1460,7 +1460,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
         }
 
 
-        public static void PrepareUndisposable(ref Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle  @handle)
+        public static void PrepareUndisposable(ref Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @handle)
         {
 
             var ___genericsType = new Type[] {};
@@ -1472,7 +1472,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
         }
 
 
-        public static void UseSecondaryVersion(ref Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle  @handle)
+        public static void UseSecondaryVersion(ref Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @handle)
         {
 
             var ___genericsType = new Type[] {};
@@ -1484,7 +1484,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
         }
 
 
-        public static void SetAllowSecondaryVersionWriting(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle  @handle, System.Boolean  @allowWriting)
+        public static void SetAllowSecondaryVersionWriting(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @handle, System.Boolean @allowWriting)
         {
 
             var ___genericsType = new Type[] {};
@@ -1495,7 +1495,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
         }
 
 
-        public static void SetBumpSecondaryVersionOnScheduleWrite(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle  @handle, System.Boolean  @value)
+        public static void SetBumpSecondaryVersionOnScheduleWrite(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @handle, System.Boolean @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -1506,7 +1506,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
         }
 
 
-        public static void SetAllowReadOrWriteAccess(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle  @handle, System.Boolean  @allowReadWriteAccess)
+        public static void SetAllowReadOrWriteAccess(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @handle, System.Boolean @allowReadWriteAccess)
         {
 
             var ___genericsType = new Type[] {};
@@ -1517,7 +1517,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
         }
 
 
-        public static System.Boolean GetAllowReadOrWriteAccess(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle  @handle)
+        public static System.Boolean GetAllowReadOrWriteAccess(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @handle)
         {
 
             var ___genericsType = new Type[] {};
@@ -1528,7 +1528,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
         }
 
 
-        public static void SetNestedContainer(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle  @handle, System.Boolean  @isNestedContainer)
+        public static void SetNestedContainer(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @handle, System.Boolean @isNestedContainer)
         {
 
             var ___genericsType = new Type[] {};
@@ -1539,7 +1539,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
         }
 
 
-        public static System.Boolean GetNestedContainer(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle  @handle)
+        public static System.Boolean GetNestedContainer(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @handle)
         {
 
             var ___genericsType = new Type[] {};
@@ -1550,7 +1550,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
         }
 
 
-        public static void CheckWriteAndBumpSecondaryVersion(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle  @handle)
+        public static void CheckWriteAndBumpSecondaryVersion(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @handle)
         {
 
             var ___genericsType = new Type[] {};
@@ -1561,7 +1561,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
         }
 
 
-        public static Unity.Collections.LowLevel.Unsafe.EnforceJobResult EnforceAllBufferJobsHaveCompleted(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle  @handle)
+        public static Unity.Collections.LowLevel.Unsafe.EnforceJobResult EnforceAllBufferJobsHaveCompleted(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @handle)
         {
 
             var ___genericsType = new Type[] {};
@@ -1572,7 +1572,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
         }
 
 
-        public static Unity.Collections.LowLevel.Unsafe.EnforceJobResult EnforceAllBufferJobsHaveCompletedAndRelease(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle  @handle)
+        public static Unity.Collections.LowLevel.Unsafe.EnforceJobResult EnforceAllBufferJobsHaveCompletedAndRelease(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @handle)
         {
 
             var ___genericsType = new Type[] {};
@@ -1583,7 +1583,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
         }
 
 
-        public static Unity.Collections.LowLevel.Unsafe.EnforceJobResult EnforceAllBufferJobsHaveCompletedAndDisableReadWrite(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle  @handle)
+        public static Unity.Collections.LowLevel.Unsafe.EnforceJobResult EnforceAllBufferJobsHaveCompletedAndDisableReadWrite(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @handle)
         {
 
             var ___genericsType = new Type[] {};
@@ -1594,7 +1594,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
         }
 
 
-        public static void CheckReadAndThrowNoEarlyOut(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle  @handle)
+        public static void CheckReadAndThrowNoEarlyOut(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @handle)
         {
 
             var ___genericsType = new Type[] {};
@@ -1605,7 +1605,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
         }
 
 
-        public static void CheckWriteAndThrowNoEarlyOut(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle  @handle)
+        public static void CheckWriteAndThrowNoEarlyOut(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @handle)
         {
 
             var ___genericsType = new Type[] {};
@@ -1616,7 +1616,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
         }
 
 
-        public static void CheckDeallocateAndThrow(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle  @handle)
+        public static void CheckDeallocateAndThrow(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @handle)
         {
 
             var ___genericsType = new Type[] {};
@@ -1627,7 +1627,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
         }
 
 
-        public static void CheckGetSecondaryDataPointerAndThrow(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle  @handle)
+        public static void CheckGetSecondaryDataPointerAndThrow(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @handle)
         {
 
             var ___genericsType = new Type[] {};
@@ -1638,7 +1638,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
         }
 
 
-        public static System.Int32 GetReaderArray(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle  @handle, System.Int32  @maxCount, System.IntPtr  @output)
+        public static System.Int32 GetReaderArray(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @handle, System.Int32 @maxCount, System.IntPtr @output)
         {
 
             var ___genericsType = new Type[] {};
@@ -1649,7 +1649,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
         }
 
 
-        public static Unity.Jobs.JobHandle GetWriter(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle  @handle)
+        public static Unity.Jobs.JobHandle GetWriter(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @handle)
         {
 
             var ___genericsType = new Type[] {};
@@ -1660,7 +1660,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
         }
 
 
-        public static void CheckReadAndThrow(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle  @handle)
+        public static void CheckReadAndThrow(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @handle)
         {
 
             var ___genericsType = new Type[] {};
@@ -1671,7 +1671,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
         }
 
 
-        public static void CheckWriteAndThrow(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle  @handle)
+        public static void CheckWriteAndThrow(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @handle)
         {
 
             var ___genericsType = new Type[] {};
@@ -1682,7 +1682,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
         }
 
 
-        public static void ValidateNonDefaultHandle(in Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle  @handle)
+        public static void ValidateNonDefaultHandle(in Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @handle)
         {
 
             var ___genericsType = new Type[] {};
@@ -1693,7 +1693,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
         }
 
 
-        public static System.Boolean IsValidNonDefaultHandle(in Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle  @handle)
+        public static System.Boolean IsValidNonDefaultHandle(in Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @handle)
         {
 
             var ___genericsType = new Type[] {};
@@ -1704,7 +1704,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
         }
 
 
-        public static void CheckExistsAndThrow(in Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle  @handle)
+        public static void CheckExistsAndThrow(in Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @handle)
         {
 
             var ___genericsType = new Type[] {};
@@ -1715,7 +1715,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
         }
 
 
-        public static System.Boolean IsHandleValid(in Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle  @handle)
+        public static System.Boolean IsHandleValid(in Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @handle)
         {
 
             var ___genericsType = new Type[] {};
@@ -1726,7 +1726,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
         }
 
 
-        public static System.String GetReaderName(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle  @handle, System.Int32  @readerIndex)
+        public static System.String GetReaderName(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @handle, System.Int32 @readerIndex)
         {
 
             var ___genericsType = new Type[] {};
@@ -1737,7 +1737,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
         }
 
 
-        public static System.String GetWriterName(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle  @handle)
+        public static System.String GetWriterName(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @handle)
         {
 
             var ___genericsType = new Type[] {};
@@ -1761,7 +1761,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
 
 
 
-        public static void SetStaticSafetyId(ref Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle  @handle, System.Int32  @staticSafetyId)
+        public static void SetStaticSafetyId(ref Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @handle, System.Int32 @staticSafetyId)
         {
 
             var ___genericsType = new Type[] {};
@@ -1773,7 +1773,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
         }
 
 
-        public static void CreateHandle(out Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle  @safety, Unity.Collections.Allocator  @allocator)
+        public static void CreateHandle(out Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @safety, Unity.Collections.Allocator @allocator)
         {
 			@safety = default;
 
@@ -1786,7 +1786,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
         }
 
 
-        public static void DisposeHandle(ref Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle  @safety)
+        public static void DisposeHandle(ref Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @safety)
         {
 
             var ___genericsType = new Type[] {};
@@ -1798,7 +1798,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
         }
 
 
-        public static void Create_Injected(out Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle  @ret)
+        public static void Create_Injected(out Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @ret)
         {
 			@ret = default;
 
@@ -1811,7 +1811,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
         }
 
 
-        public static void GetTempUnsafePtrSliceHandle_Injected(out Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle  @ret)
+        public static void GetTempUnsafePtrSliceHandle_Injected(out Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @ret)
         {
 			@ret = default;
 
@@ -1824,7 +1824,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
         }
 
 
-        public static void GetTempMemoryHandle_Injected(out Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle  @ret)
+        public static void GetTempMemoryHandle_Injected(out Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @ret)
         {
 			@ret = default;
 
@@ -1837,7 +1837,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
         }
 
 
-        public static System.Boolean IsTempMemoryHandle_Injected(ref Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle  @handle)
+        public static System.Boolean IsTempMemoryHandle_Injected(ref Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @handle)
         {
 
             var ___genericsType = new Type[] {};
@@ -1849,7 +1849,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
         }
 
 
-        public static void Release_Injected(ref Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle  @handle)
+        public static void Release_Injected(ref Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @handle)
         {
 
             var ___genericsType = new Type[] {};
@@ -1861,7 +1861,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
         }
 
 
-        public static void SetAllowSecondaryVersionWriting_Injected(ref Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle  @handle, System.Boolean  @allowWriting)
+        public static void SetAllowSecondaryVersionWriting_Injected(ref Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @handle, System.Boolean @allowWriting)
         {
 
             var ___genericsType = new Type[] {};
@@ -1873,7 +1873,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
         }
 
 
-        public static void SetBumpSecondaryVersionOnScheduleWrite_Injected(ref Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle  @handle, System.Boolean  @value)
+        public static void SetBumpSecondaryVersionOnScheduleWrite_Injected(ref Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @handle, System.Boolean @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -1885,7 +1885,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
         }
 
 
-        public static void SetAllowReadOrWriteAccess_Injected(ref Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle  @handle, System.Boolean  @allowReadWriteAccess)
+        public static void SetAllowReadOrWriteAccess_Injected(ref Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @handle, System.Boolean @allowReadWriteAccess)
         {
 
             var ___genericsType = new Type[] {};
@@ -1897,7 +1897,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
         }
 
 
-        public static System.Boolean GetAllowReadOrWriteAccess_Injected(ref Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle  @handle)
+        public static System.Boolean GetAllowReadOrWriteAccess_Injected(ref Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @handle)
         {
 
             var ___genericsType = new Type[] {};
@@ -1909,7 +1909,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
         }
 
 
-        public static void SetNestedContainer_Injected(ref Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle  @handle, System.Boolean  @isNestedContainer)
+        public static void SetNestedContainer_Injected(ref Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @handle, System.Boolean @isNestedContainer)
         {
 
             var ___genericsType = new Type[] {};
@@ -1921,7 +1921,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
         }
 
 
-        public static System.Boolean GetNestedContainer_Injected(ref Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle  @handle)
+        public static System.Boolean GetNestedContainer_Injected(ref Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @handle)
         {
 
             var ___genericsType = new Type[] {};
@@ -1933,7 +1933,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
         }
 
 
-        public static void CheckWriteAndBumpSecondaryVersion_Injected(ref Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle  @handle)
+        public static void CheckWriteAndBumpSecondaryVersion_Injected(ref Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @handle)
         {
 
             var ___genericsType = new Type[] {};
@@ -1945,7 +1945,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
         }
 
 
-        public static Unity.Collections.LowLevel.Unsafe.EnforceJobResult EnforceAllBufferJobsHaveCompleted_Injected(ref Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle  @handle)
+        public static Unity.Collections.LowLevel.Unsafe.EnforceJobResult EnforceAllBufferJobsHaveCompleted_Injected(ref Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @handle)
         {
 
             var ___genericsType = new Type[] {};
@@ -1957,7 +1957,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
         }
 
 
-        public static Unity.Collections.LowLevel.Unsafe.EnforceJobResult EnforceAllBufferJobsHaveCompletedAndRelease_Injected(ref Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle  @handle)
+        public static Unity.Collections.LowLevel.Unsafe.EnforceJobResult EnforceAllBufferJobsHaveCompletedAndRelease_Injected(ref Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @handle)
         {
 
             var ___genericsType = new Type[] {};
@@ -1969,7 +1969,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
         }
 
 
-        public static Unity.Collections.LowLevel.Unsafe.EnforceJobResult EnforceAllBufferJobsHaveCompletedAndDisableReadWrite_Injected(ref Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle  @handle)
+        public static Unity.Collections.LowLevel.Unsafe.EnforceJobResult EnforceAllBufferJobsHaveCompletedAndDisableReadWrite_Injected(ref Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @handle)
         {
 
             var ___genericsType = new Type[] {};
@@ -1981,7 +1981,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
         }
 
 
-        public static void CheckReadAndThrowNoEarlyOut_Injected(ref Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle  @handle)
+        public static void CheckReadAndThrowNoEarlyOut_Injected(ref Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @handle)
         {
 
             var ___genericsType = new Type[] {};
@@ -1993,7 +1993,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
         }
 
 
-        public static void CheckWriteAndThrowNoEarlyOut_Injected(ref Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle  @handle)
+        public static void CheckWriteAndThrowNoEarlyOut_Injected(ref Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @handle)
         {
 
             var ___genericsType = new Type[] {};
@@ -2005,7 +2005,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
         }
 
 
-        public static void CheckDeallocateAndThrow_Injected(ref Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle  @handle)
+        public static void CheckDeallocateAndThrow_Injected(ref Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @handle)
         {
 
             var ___genericsType = new Type[] {};
@@ -2017,7 +2017,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
         }
 
 
-        public static void CheckGetSecondaryDataPointerAndThrow_Injected(ref Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle  @handle)
+        public static void CheckGetSecondaryDataPointerAndThrow_Injected(ref Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @handle)
         {
 
             var ___genericsType = new Type[] {};
@@ -2029,7 +2029,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
         }
 
 
-        public static System.Int32 GetReaderArray_Injected(ref Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle  @handle, System.Int32  @maxCount, System.IntPtr  @output)
+        public static System.Int32 GetReaderArray_Injected(ref Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @handle, System.Int32 @maxCount, System.IntPtr @output)
         {
 
             var ___genericsType = new Type[] {};
@@ -2041,7 +2041,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
         }
 
 
-        public static void GetWriter_Injected(ref Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle  @handle, out Unity.Jobs.JobHandle  @ret)
+        public static void GetWriter_Injected(ref Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @handle, out Unity.Jobs.JobHandle @ret)
         {
 			@ret = default;
 
@@ -2055,7 +2055,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
         }
 
 
-        public static System.String GetReaderName_Injected(ref Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle  @handle, System.Int32  @readerIndex)
+        public static System.String GetReaderName_Injected(ref Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @handle, System.Int32 @readerIndex)
         {
 
             var ___genericsType = new Type[] {};
@@ -2067,7 +2067,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
         }
 
 
-        public static System.String GetWriterName_Injected(ref Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle  @handle)
+        public static System.String GetWriterName_Injected(ref Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @handle)
         {
 
             var ___genericsType = new Type[] {};
@@ -2079,7 +2079,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

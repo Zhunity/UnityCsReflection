@@ -946,7 +946,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 	    {
 	    }
 
-        public virtual void Init(System.Boolean  @isContainer, System.Boolean  @isDS, System.Security.AccessControl.RawAcl  @rawAcl)
+        public virtual void Init(System.Boolean @isContainer, System.Boolean @isDS, System.Security.AccessControl.RawAcl @rawAcl)
         {
 
             var ___genericsType = new Type[] {};
@@ -957,7 +957,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
         }
 
 
-        public virtual void GetBinaryForm(System.Byte[]  @binaryForm, System.Int32  @offset)
+        public virtual void GetBinaryForm(System.Byte[] @binaryForm, System.Int32 @offset)
         {
 
             var ___genericsType = new Type[] {};
@@ -968,7 +968,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
         }
 
 
-        public virtual void Purge(System.Security.Principal.SecurityIdentifier  @sid)
+        public virtual void Purge(System.Security.Principal.SecurityIdentifier @sid)
         {
 
             var ___genericsType = new Type[] {};
@@ -1012,7 +1012,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
         }
 
 
-        public virtual System.Boolean IsAceMeaningless(System.Security.AccessControl.GenericAce  @ace)
+        public virtual System.Boolean IsAceMeaningless(System.Security.AccessControl.GenericAce @ace)
         {
 
             var ___genericsType = new Type[] {};
@@ -1067,7 +1067,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
         }
 
 
-        public virtual System.Security.AccessControl.GenericAce MergeExplicitAcePair(System.Security.AccessControl.GenericAce  @ace1, System.Security.AccessControl.GenericAce  @ace2)
+        public virtual System.Security.AccessControl.GenericAce MergeExplicitAcePair(System.Security.AccessControl.GenericAce @ace1, System.Security.AccessControl.GenericAce @ace2)
         {
 
             var ___genericsType = new Type[] {};
@@ -1078,7 +1078,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
         }
 
 
-        public static void GetObjectAceTypeGuids(System.Security.AccessControl.ObjectAce  @ace, out System.Guid  @type, out System.Guid  @inheritedType)
+        public static void GetObjectAceTypeGuids(System.Security.AccessControl.ObjectAce @ace, out System.Guid @type, out System.Guid @inheritedType)
         {
 			@type = default;
 			@inheritedType = default;
@@ -1104,7 +1104,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
         }
 
 
-        public virtual void ApplyCanonicalSortToExplicitAces(System.Int32  @start, System.Int32  @count)
+        public virtual void ApplyCanonicalSortToExplicitAces(System.Int32 @start, System.Int32 @count)
         {
 
             var ___genericsType = new Type[] {};
@@ -1115,7 +1115,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
         }
 
 
-        public virtual System.String GetSddlForm(System.Security.AccessControl.ControlFlags  @sdFlags, System.Boolean  @isDacl)
+        public virtual System.String GetSddlForm(System.Security.AccessControl.ControlFlags @sdFlags, System.Boolean @isDacl)
         {
 
             var ___genericsType = new Type[] {};
@@ -1126,7 +1126,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
         }
 
 
-        public virtual void RemoveAces<T>(RSystem.RSecurity.RAccessControl.RCommonAcl.RRemoveAcesCallback<RType>  @callback) where T : System.Security.AccessControl.GenericAce
+        public virtual void RemoveAces<T>(RSystem.RSecurity.RAccessControl.RCommonAcl.RRemoveAcesCallback<RType> @callback) where T : System.Security.AccessControl.GenericAce
         {
 
             var ___genericsType = new Type[] {typeof(T)};
@@ -1137,7 +1137,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
         }
 
 
-        public virtual void AddAce(System.Security.AccessControl.AceQualifier  @aceQualifier, System.Security.Principal.SecurityIdentifier  @sid, System.Int32  @accessMask, System.Security.AccessControl.InheritanceFlags  @inheritanceFlags, System.Security.AccessControl.PropagationFlags  @propagationFlags, System.Security.AccessControl.AuditFlags  @auditFlags)
+        public virtual void AddAce(System.Security.AccessControl.AceQualifier @aceQualifier, System.Security.Principal.SecurityIdentifier @sid, System.Int32 @accessMask, System.Security.AccessControl.InheritanceFlags @inheritanceFlags, System.Security.AccessControl.PropagationFlags @propagationFlags, System.Security.AccessControl.AuditFlags @auditFlags)
         {
 
             var ___genericsType = new Type[] {};
@@ -1148,7 +1148,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
         }
 
 
-        public virtual void AddAce(System.Security.AccessControl.AceQualifier  @aceQualifier, System.Security.Principal.SecurityIdentifier  @sid, System.Int32  @accessMask, System.Security.AccessControl.InheritanceFlags  @inheritanceFlags, System.Security.AccessControl.PropagationFlags  @propagationFlags, System.Security.AccessControl.AuditFlags  @auditFlags, System.Security.AccessControl.ObjectAceFlags  @objectFlags, System.Guid  @objectType, System.Guid  @inheritedObjectType)
+        public virtual void AddAce(System.Security.AccessControl.AceQualifier @aceQualifier, System.Security.Principal.SecurityIdentifier @sid, System.Int32 @accessMask, System.Security.AccessControl.InheritanceFlags @inheritanceFlags, System.Security.AccessControl.PropagationFlags @propagationFlags, System.Security.AccessControl.AuditFlags @auditFlags, System.Security.AccessControl.ObjectAceFlags @objectFlags, System.Guid @objectType, System.Guid @inheritedObjectType)
         {
 
             var ___genericsType = new Type[] {};
@@ -1159,7 +1159,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
         }
 
 
-        public virtual System.Security.AccessControl.QualifiedAce AddAceGetQualifiedAce(System.Security.AccessControl.AceQualifier  @aceQualifier, System.Security.Principal.SecurityIdentifier  @sid, System.Int32  @accessMask, System.Security.AccessControl.InheritanceFlags  @inheritanceFlags, System.Security.AccessControl.PropagationFlags  @propagationFlags, System.Security.AccessControl.AuditFlags  @auditFlags, System.Security.AccessControl.ObjectAceFlags  @objectFlags, System.Guid  @objectType, System.Guid  @inheritedObjectType)
+        public virtual System.Security.AccessControl.QualifiedAce AddAceGetQualifiedAce(System.Security.AccessControl.AceQualifier @aceQualifier, System.Security.Principal.SecurityIdentifier @sid, System.Int32 @accessMask, System.Security.AccessControl.InheritanceFlags @inheritanceFlags, System.Security.AccessControl.PropagationFlags @propagationFlags, System.Security.AccessControl.AuditFlags @auditFlags, System.Security.AccessControl.ObjectAceFlags @objectFlags, System.Guid @objectType, System.Guid @inheritedObjectType)
         {
 
             var ___genericsType = new Type[] {};
@@ -1170,7 +1170,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
         }
 
 
-        public virtual System.Security.AccessControl.QualifiedAce AddAceGetQualifiedAce(System.Security.AccessControl.AceQualifier  @aceQualifier, System.Security.Principal.SecurityIdentifier  @sid, System.Int32  @accessMask, System.Security.AccessControl.InheritanceFlags  @inheritanceFlags, System.Security.AccessControl.PropagationFlags  @propagationFlags, System.Security.AccessControl.AuditFlags  @auditFlags)
+        public virtual System.Security.AccessControl.QualifiedAce AddAceGetQualifiedAce(System.Security.AccessControl.AceQualifier @aceQualifier, System.Security.Principal.SecurityIdentifier @sid, System.Int32 @accessMask, System.Security.AccessControl.InheritanceFlags @inheritanceFlags, System.Security.AccessControl.PropagationFlags @propagationFlags, System.Security.AccessControl.AuditFlags @auditFlags)
         {
 
             var ___genericsType = new Type[] {};
@@ -1181,7 +1181,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
         }
 
 
-        public virtual void AddAce(System.Security.AccessControl.QualifiedAce  @newAce)
+        public virtual void AddAce(System.Security.AccessControl.QualifiedAce @newAce)
         {
 
             var ___genericsType = new Type[] {};
@@ -1192,7 +1192,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
         }
 
 
-        public static System.Security.AccessControl.GenericAce CopyAce(System.Security.AccessControl.GenericAce  @ace)
+        public static System.Security.AccessControl.GenericAce CopyAce(System.Security.AccessControl.GenericAce @ace)
         {
 
             var ___genericsType = new Type[] {};
@@ -1203,7 +1203,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
         }
 
 
-        public virtual System.Int32 GetAceInsertPosition(System.Security.AccessControl.AceQualifier  @aceQualifier)
+        public virtual System.Int32 GetAceInsertPosition(System.Security.AccessControl.AceQualifier @aceQualifier)
         {
 
             var ___genericsType = new Type[] {};
@@ -1214,7 +1214,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
         }
 
 
-        public virtual System.Security.AccessControl.AceFlags GetAceFlags(System.Security.AccessControl.InheritanceFlags  @inheritanceFlags, System.Security.AccessControl.PropagationFlags  @propagationFlags, System.Security.AccessControl.AuditFlags  @auditFlags)
+        public virtual System.Security.AccessControl.AceFlags GetAceFlags(System.Security.AccessControl.InheritanceFlags @inheritanceFlags, System.Security.AccessControl.PropagationFlags @propagationFlags, System.Security.AccessControl.AuditFlags @auditFlags)
         {
 
             var ___genericsType = new Type[] {};
@@ -1225,7 +1225,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
         }
 
 
-        public virtual void RemoveAceSpecific(System.Security.AccessControl.AceQualifier  @aceQualifier, System.Security.Principal.SecurityIdentifier  @sid, System.Int32  @accessMask, System.Security.AccessControl.InheritanceFlags  @inheritanceFlags, System.Security.AccessControl.PropagationFlags  @propagationFlags, System.Security.AccessControl.AuditFlags  @auditFlags)
+        public virtual void RemoveAceSpecific(System.Security.AccessControl.AceQualifier @aceQualifier, System.Security.Principal.SecurityIdentifier @sid, System.Int32 @accessMask, System.Security.AccessControl.InheritanceFlags @inheritanceFlags, System.Security.AccessControl.PropagationFlags @propagationFlags, System.Security.AccessControl.AuditFlags @auditFlags)
         {
 
             var ___genericsType = new Type[] {};
@@ -1236,7 +1236,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
         }
 
 
-        public virtual void RemoveAceSpecific(System.Security.AccessControl.AceQualifier  @aceQualifier, System.Security.Principal.SecurityIdentifier  @sid, System.Int32  @accessMask, System.Security.AccessControl.InheritanceFlags  @inheritanceFlags, System.Security.AccessControl.PropagationFlags  @propagationFlags, System.Security.AccessControl.AuditFlags  @auditFlags, System.Security.AccessControl.ObjectAceFlags  @objectFlags, System.Guid  @objectType, System.Guid  @inheritedObjectType)
+        public virtual void RemoveAceSpecific(System.Security.AccessControl.AceQualifier @aceQualifier, System.Security.Principal.SecurityIdentifier @sid, System.Int32 @accessMask, System.Security.AccessControl.InheritanceFlags @inheritanceFlags, System.Security.AccessControl.PropagationFlags @propagationFlags, System.Security.AccessControl.AuditFlags @auditFlags, System.Security.AccessControl.ObjectAceFlags @objectFlags, System.Guid @objectType, System.Guid @inheritedObjectType)
         {
 
             var ___genericsType = new Type[] {};
@@ -1247,7 +1247,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
         }
 
 
-        public virtual void SetAce(System.Security.AccessControl.AceQualifier  @aceQualifier, System.Security.Principal.SecurityIdentifier  @sid, System.Int32  @accessMask, System.Security.AccessControl.InheritanceFlags  @inheritanceFlags, System.Security.AccessControl.PropagationFlags  @propagationFlags, System.Security.AccessControl.AuditFlags  @auditFlags)
+        public virtual void SetAce(System.Security.AccessControl.AceQualifier @aceQualifier, System.Security.Principal.SecurityIdentifier @sid, System.Int32 @accessMask, System.Security.AccessControl.InheritanceFlags @inheritanceFlags, System.Security.AccessControl.PropagationFlags @propagationFlags, System.Security.AccessControl.AuditFlags @auditFlags)
         {
 
             var ___genericsType = new Type[] {};
@@ -1258,7 +1258,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
         }
 
 
-        public virtual void SetAce(System.Security.AccessControl.AceQualifier  @aceQualifier, System.Security.Principal.SecurityIdentifier  @sid, System.Int32  @accessMask, System.Security.AccessControl.InheritanceFlags  @inheritanceFlags, System.Security.AccessControl.PropagationFlags  @propagationFlags, System.Security.AccessControl.AuditFlags  @auditFlags, System.Security.AccessControl.ObjectAceFlags  @objectFlags, System.Guid  @objectType, System.Guid  @inheritedObjectType)
+        public virtual void SetAce(System.Security.AccessControl.AceQualifier @aceQualifier, System.Security.Principal.SecurityIdentifier @sid, System.Int32 @accessMask, System.Security.AccessControl.InheritanceFlags @inheritanceFlags, System.Security.AccessControl.PropagationFlags @propagationFlags, System.Security.AccessControl.AuditFlags @auditFlags, System.Security.AccessControl.ObjectAceFlags @objectFlags, System.Guid @objectType, System.Guid @inheritedObjectType)
         {
 
             var ___genericsType = new Type[] {};
@@ -1269,7 +1269,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
         }
 
 
-        public virtual void SetAce(System.Security.AccessControl.QualifiedAce  @newAce)
+        public virtual void SetAce(System.Security.AccessControl.QualifiedAce @newAce)
         {
 
             var ___genericsType = new Type[] {};
@@ -1280,7 +1280,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
         }
 
 
-        public virtual void CopyTo(System.Security.AccessControl.GenericAce[]  @array, System.Int32  @index)
+        public virtual void CopyTo(System.Security.AccessControl.GenericAce[] @array, System.Int32 @index)
         {
 
             var ___genericsType = new Type[] {};
@@ -1302,7 +1302,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

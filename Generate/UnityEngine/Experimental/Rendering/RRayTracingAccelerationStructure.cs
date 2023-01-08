@@ -832,7 +832,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
         }
 
 
-        public virtual void Dispose(System.Boolean  @disposing)
+        public virtual void Dispose(System.Boolean @disposing)
         {
 
             var ___genericsType = new Type[] {};
@@ -843,7 +843,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
         }
 
 
-        public static System.IntPtr Create(RUnityEngine.RExperimental.RRendering.RRayTracingAccelerationStructure.RRASSettings  @desc)
+        public static System.IntPtr Create(RUnityEngine.RExperimental.RRendering.RRayTracingAccelerationStructure.RRASSettings @desc)
         {
 
             var ___genericsType = new Type[] {};
@@ -854,7 +854,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
         }
 
 
-        public static void Destroy(UnityEngine.Experimental.Rendering.RayTracingAccelerationStructure  @accelStruct)
+        public static void Destroy(UnityEngine.Experimental.Rendering.RayTracingAccelerationStructure @accelStruct)
         {
 
             var ___genericsType = new Type[] {};
@@ -887,7 +887,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
         }
 
 
-        public virtual void AddInstance(UnityEngine.Renderer  @targetRenderer, UnityEngine.Experimental.Rendering.RayTracingSubMeshFlags[]  @subMeshFlags, System.Boolean  @enableTriangleCulling, System.Boolean  @frontTriangleCounterClockwise, System.UInt32  @mask, System.UInt32  @id)
+        public virtual void AddInstance(UnityEngine.Renderer @targetRenderer, UnityEngine.Experimental.Rendering.RayTracingSubMeshFlags[] @subMeshFlags, System.Boolean @enableTriangleCulling, System.Boolean @frontTriangleCounterClockwise, System.UInt32 @mask, System.UInt32 @id)
         {
 
             var ___genericsType = new Type[] {};
@@ -898,7 +898,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
         }
 
 
-        public virtual System.Int32 AddInstance(UnityEngine.GraphicsBuffer  @aabbBuffer, System.UInt32  @aabbCount, System.Boolean  @dynamicData, UnityEngine.Matrix4x4  @matrix, UnityEngine.Material  @material, System.Boolean  @opaqueMaterial, UnityEngine.MaterialPropertyBlock  @properties, System.UInt32  @mask, System.UInt32  @id)
+        public virtual System.Int32 AddInstance(UnityEngine.GraphicsBuffer @aabbBuffer, System.UInt32 @aabbCount, System.Boolean @dynamicData, UnityEngine.Matrix4x4 @matrix, UnityEngine.Material @material, System.Boolean @opaqueMaterial, UnityEngine.MaterialPropertyBlock @properties, System.UInt32 @mask, System.UInt32 @id)
         {
 
             var ___genericsType = new Type[] {};
@@ -909,7 +909,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
         }
 
 
-        public virtual void RemoveInstance(UnityEngine.Renderer  @targetRenderer)
+        public virtual void RemoveInstance(UnityEngine.Renderer @targetRenderer)
         {
 
             var ___genericsType = new Type[] {};
@@ -920,7 +920,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
         }
 
 
-        public virtual void RemoveInstance(System.Int32  @handle)
+        public virtual void RemoveInstance(System.Int32 @handle)
         {
 
             var ___genericsType = new Type[] {};
@@ -931,7 +931,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
         }
 
 
-        public virtual void UpdateInstanceTransform(UnityEngine.Renderer  @renderer)
+        public virtual void UpdateInstanceTransform(UnityEngine.Renderer @renderer)
         {
 
             var ___genericsType = new Type[] {};
@@ -942,7 +942,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
         }
 
 
-        public virtual void UpdateInstanceTransform(System.Int32  @handle, UnityEngine.Matrix4x4  @matrix)
+        public virtual void UpdateInstanceTransform(System.Int32 @handle, UnityEngine.Matrix4x4 @matrix)
         {
 
             var ___genericsType = new Type[] {};
@@ -964,7 +964,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
         }
 
 
-        public virtual void Update(UnityEngine.Vector3  @relativeOrigin)
+        public virtual void Update(UnityEngine.Vector3 @relativeOrigin)
         {
 
             var ___genericsType = new Type[] {};
@@ -975,7 +975,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
         }
 
 
-        public virtual void AddInstance(UnityEngine.Renderer  @targetRenderer, System.Boolean[]  @subMeshMask, System.Boolean[]  @subMeshTransparencyFlags, System.Boolean  @enableTriangleCulling, System.Boolean  @frontTriangleCounterClockwise, System.UInt32  @mask, System.UInt32  @id)
+        public virtual void AddInstance(UnityEngine.Renderer @targetRenderer, System.Boolean[] @subMeshMask, System.Boolean[] @subMeshTransparencyFlags, System.Boolean @enableTriangleCulling, System.Boolean @frontTriangleCounterClockwise, System.UInt32 @mask, System.UInt32 @id)
         {
 
             var ___genericsType = new Type[] {};
@@ -986,7 +986,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
         }
 
 
-        public virtual void AddInstance(UnityEngine.GraphicsBuffer  @aabbBuffer, System.UInt32  @numElements, UnityEngine.Material  @material, System.Boolean  @isCutOff, System.Boolean  @enableTriangleCulling, System.Boolean  @frontTriangleCounterClockwise, System.UInt32  @mask, System.Boolean  @reuseBounds, System.UInt32  @id)
+        public virtual void AddInstance(UnityEngine.GraphicsBuffer @aabbBuffer, System.UInt32 @numElements, UnityEngine.Material @material, System.Boolean @isCutOff, System.Boolean @enableTriangleCulling, System.Boolean @frontTriangleCounterClockwise, System.UInt32 @mask, System.Boolean @reuseBounds, System.UInt32 @id)
         {
 
             var ___genericsType = new Type[] {};
@@ -997,7 +997,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
         }
 
 
-        public virtual void AddInstance(UnityEngine.GraphicsBuffer  @aabbBuffer, System.UInt32  @numElements, UnityEngine.Material  @material, UnityEngine.Matrix4x4  @instanceTransform, System.Boolean  @isCutOff, System.Boolean  @enableTriangleCulling, System.Boolean  @frontTriangleCounterClockwise, System.UInt32  @mask, System.Boolean  @reuseBounds, System.UInt32  @id)
+        public virtual void AddInstance(UnityEngine.GraphicsBuffer @aabbBuffer, System.UInt32 @numElements, UnityEngine.Material @material, UnityEngine.Matrix4x4 @instanceTransform, System.Boolean @isCutOff, System.Boolean @enableTriangleCulling, System.Boolean @frontTriangleCounterClockwise, System.UInt32 @mask, System.Boolean @reuseBounds, System.UInt32 @id)
         {
 
             var ___genericsType = new Type[] {};
@@ -1008,7 +1008,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
         }
 
 
-        public virtual void Build(UnityEngine.Vector3  @relativeOrigin)
+        public virtual void Build(UnityEngine.Vector3 @relativeOrigin)
         {
 
             var ___genericsType = new Type[] {};
@@ -1019,7 +1019,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
         }
 
 
-        public virtual void AddInstance_Procedural_Deprecated(UnityEngine.GraphicsBuffer  @aabbBuffer, System.UInt32  @numElements, UnityEngine.Material  @material, UnityEngine.Matrix4x4  @instanceTransform, System.Boolean  @isCutOff, System.Boolean  @enableTriangleCulling, System.Boolean  @frontTriangleCounterClockwise, System.UInt32  @mask, System.Boolean  @reuseBounds, System.UInt32  @id)
+        public virtual void AddInstance_Procedural_Deprecated(UnityEngine.GraphicsBuffer @aabbBuffer, System.UInt32 @numElements, UnityEngine.Material @material, UnityEngine.Matrix4x4 @instanceTransform, System.Boolean @isCutOff, System.Boolean @enableTriangleCulling, System.Boolean @frontTriangleCounterClockwise, System.UInt32 @mask, System.Boolean @reuseBounds, System.UInt32 @id)
         {
 
             var ___genericsType = new Type[] {};
@@ -1030,7 +1030,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
         }
 
 
-        public virtual System.Int32 AddInstance_Procedural(UnityEngine.GraphicsBuffer  @aabbBuffer, System.UInt32  @aabbCount, System.Boolean  @dynamicData, UnityEngine.Matrix4x4  @matrix, UnityEngine.Material  @material, System.Boolean  @opaqueMaterial, UnityEngine.MaterialPropertyBlock  @properties, System.UInt32  @mask, System.UInt32  @id)
+        public virtual System.Int32 AddInstance_Procedural(UnityEngine.GraphicsBuffer @aabbBuffer, System.UInt32 @aabbCount, System.Boolean @dynamicData, UnityEngine.Matrix4x4 @matrix, UnityEngine.Material @material, System.Boolean @opaqueMaterial, UnityEngine.MaterialPropertyBlock @properties, System.UInt32 @mask, System.UInt32 @id)
         {
 
             var ___genericsType = new Type[] {};
@@ -1041,7 +1041,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
         }
 
 
-        public virtual void RemoveInstance_Renderer(UnityEngine.Renderer  @targetRenderer)
+        public virtual void RemoveInstance_Renderer(UnityEngine.Renderer @targetRenderer)
         {
 
             var ___genericsType = new Type[] {};
@@ -1052,7 +1052,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
         }
 
 
-        public virtual void RemoveInstance_InstanceID(System.Int32  @instanceID)
+        public virtual void RemoveInstance_InstanceID(System.Int32 @instanceID)
         {
 
             var ___genericsType = new Type[] {};
@@ -1063,7 +1063,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
         }
 
 
-        public virtual void UpdateInstanceTransform_Renderer(UnityEngine.Renderer  @renderer)
+        public virtual void UpdateInstanceTransform_Renderer(UnityEngine.Renderer @renderer)
         {
 
             var ___genericsType = new Type[] {};
@@ -1074,7 +1074,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
         }
 
 
-        public virtual void UpdateInstanceTransform_InstanceID(System.Int32  @instanceID, UnityEngine.Matrix4x4  @matrix)
+        public virtual void UpdateInstanceTransform_InstanceID(System.Int32 @instanceID, UnityEngine.Matrix4x4 @matrix)
         {
 
             var ___genericsType = new Type[] {};
@@ -1085,7 +1085,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
         }
 
 
-        public virtual void UpdateInstanceMask(UnityEngine.Renderer  @renderer, System.UInt32  @mask)
+        public virtual void UpdateInstanceMask(UnityEngine.Renderer @renderer, System.UInt32 @mask)
         {
 
             var ___genericsType = new Type[] {};
@@ -1096,7 +1096,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
         }
 
 
-        public virtual void UpdateInstanceID(UnityEngine.Renderer  @renderer, System.UInt32  @instanceID)
+        public virtual void UpdateInstanceID(UnityEngine.Renderer @renderer, System.UInt32 @instanceID)
         {
 
             var ___genericsType = new Type[] {};
@@ -1107,7 +1107,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
         }
 
 
-        public virtual void UpdateInstancePropertyBlock(System.Int32  @handle, UnityEngine.MaterialPropertyBlock  @properties)
+        public virtual void UpdateInstancePropertyBlock(System.Int32 @handle, UnityEngine.MaterialPropertyBlock @properties)
         {
 
             var ___genericsType = new Type[] {};
@@ -1151,7 +1151,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
         }
 
 
-        public virtual UnityEngine.Experimental.Rendering.RayTracingInstanceCullingResults CullInstances(ref UnityEngine.Experimental.Rendering.RayTracingInstanceCullingConfig  @cullingConfig)
+        public virtual UnityEngine.Experimental.Rendering.RayTracingInstanceCullingResults CullInstances(ref UnityEngine.Experimental.Rendering.RayTracingInstanceCullingConfig @cullingConfig)
         {
 
             var ___genericsType = new Type[] {};
@@ -1163,7 +1163,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
         }
 
 
-        public virtual void AddInstanceSubMeshFlagsArray(UnityEngine.Renderer  @targetRenderer, UnityEngine.Experimental.Rendering.RayTracingSubMeshFlags[]  @subMeshFlags, System.Boolean  @enableTriangleCulling, System.Boolean  @frontTriangleCounterClockwise, System.UInt32  @mask, System.UInt32  @id)
+        public virtual void AddInstanceSubMeshFlagsArray(UnityEngine.Renderer @targetRenderer, UnityEngine.Experimental.Rendering.RayTracingSubMeshFlags[] @subMeshFlags, System.Boolean @enableTriangleCulling, System.Boolean @frontTriangleCounterClockwise, System.UInt32 @mask, System.UInt32 @id)
         {
 
             var ___genericsType = new Type[] {};
@@ -1174,7 +1174,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
         }
 
 
-        public static System.IntPtr Create_Injected(ref RUnityEngine.RExperimental.RRendering.RRayTracingAccelerationStructure.RRASSettings  @desc)
+        public static System.IntPtr Create_Injected(ref RUnityEngine.RExperimental.RRendering.RRayTracingAccelerationStructure.RRASSettings @desc)
         {
 
             var ___genericsType = new Type[] {};
@@ -1186,7 +1186,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
         }
 
 
-        public virtual void Update_Injected(ref UnityEngine.Vector3  @relativeOrigin)
+        public virtual void Update_Injected(ref UnityEngine.Vector3 @relativeOrigin)
         {
 
             var ___genericsType = new Type[] {};
@@ -1198,7 +1198,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
         }
 
 
-        public virtual void Build_Injected(ref UnityEngine.Vector3  @relativeOrigin)
+        public virtual void Build_Injected(ref UnityEngine.Vector3 @relativeOrigin)
         {
 
             var ___genericsType = new Type[] {};
@@ -1210,7 +1210,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
         }
 
 
-        public virtual void AddInstance_Procedural_Deprecated_Injected(UnityEngine.GraphicsBuffer  @aabbBuffer, System.UInt32  @numElements, UnityEngine.Material  @material, ref UnityEngine.Matrix4x4  @instanceTransform, System.Boolean  @isCutOff, System.Boolean  @enableTriangleCulling, System.Boolean  @frontTriangleCounterClockwise, System.UInt32  @mask, System.Boolean  @reuseBounds, System.UInt32  @id)
+        public virtual void AddInstance_Procedural_Deprecated_Injected(UnityEngine.GraphicsBuffer @aabbBuffer, System.UInt32 @numElements, UnityEngine.Material @material, ref UnityEngine.Matrix4x4 @instanceTransform, System.Boolean @isCutOff, System.Boolean @enableTriangleCulling, System.Boolean @frontTriangleCounterClockwise, System.UInt32 @mask, System.Boolean @reuseBounds, System.UInt32 @id)
         {
 
             var ___genericsType = new Type[] {};
@@ -1222,7 +1222,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
         }
 
 
-        public virtual System.Int32 AddInstance_Procedural_Injected(UnityEngine.GraphicsBuffer  @aabbBuffer, System.UInt32  @aabbCount, System.Boolean  @dynamicData, ref UnityEngine.Matrix4x4  @matrix, UnityEngine.Material  @material, System.Boolean  @opaqueMaterial, UnityEngine.MaterialPropertyBlock  @properties, System.UInt32  @mask, System.UInt32  @id)
+        public virtual System.Int32 AddInstance_Procedural_Injected(UnityEngine.GraphicsBuffer @aabbBuffer, System.UInt32 @aabbCount, System.Boolean @dynamicData, ref UnityEngine.Matrix4x4 @matrix, UnityEngine.Material @material, System.Boolean @opaqueMaterial, UnityEngine.MaterialPropertyBlock @properties, System.UInt32 @mask, System.UInt32 @id)
         {
 
             var ___genericsType = new Type[] {};
@@ -1234,7 +1234,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
         }
 
 
-        public virtual void UpdateInstanceTransform_InstanceID_Injected(System.Int32  @instanceID, ref UnityEngine.Matrix4x4  @matrix)
+        public virtual void UpdateInstanceTransform_InstanceID_Injected(System.Int32 @instanceID, ref UnityEngine.Matrix4x4 @matrix)
         {
 
             var ___genericsType = new Type[] {};
@@ -1246,7 +1246,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
         }
 
 
-        public virtual void CullInstances_Injected(ref UnityEngine.Experimental.Rendering.RayTracingInstanceCullingConfig  @cullingConfig, out UnityEngine.Experimental.Rendering.RayTracingInstanceCullingResults  @ret)
+        public virtual void CullInstances_Injected(ref UnityEngine.Experimental.Rendering.RayTracingInstanceCullingConfig @cullingConfig, out UnityEngine.Experimental.Rendering.RayTracingInstanceCullingResults @ret)
         {
 			@ret = default;
 
@@ -1260,7 +1260,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

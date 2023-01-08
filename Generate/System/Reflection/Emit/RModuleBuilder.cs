@@ -2867,7 +2867,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 	    {
 	    }
 
-        public virtual void System__2__Runtime__2__InteropServices__2___ModuleBuilder__2__GetIDsOfNames(in System.Guid  @riid, System.IntPtr  @rgszNames, System.UInt32  @cNames, System.UInt32  @lcid, System.IntPtr  @rgDispId)
+        public virtual void System__2__Runtime__2__InteropServices__2___ModuleBuilder__2__GetIDsOfNames(in System.Guid @riid, System.IntPtr @rgszNames, System.UInt32 @cNames, System.UInt32 @lcid, System.IntPtr @rgDispId)
         {
 
             var ___genericsType = new Type[] {};
@@ -2878,7 +2878,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual void System__2__Runtime__2__InteropServices__2___ModuleBuilder__2__GetTypeInfo(System.UInt32  @iTInfo, System.UInt32  @lcid, System.IntPtr  @ppTInfo)
+        public virtual void System__2__Runtime__2__InteropServices__2___ModuleBuilder__2__GetTypeInfo(System.UInt32 @iTInfo, System.UInt32 @lcid, System.IntPtr @ppTInfo)
         {
 
             var ___genericsType = new Type[] {};
@@ -2889,7 +2889,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual void System__2__Runtime__2__InteropServices__2___ModuleBuilder__2__GetTypeInfoCount(out System.UInt32  @pcTInfo)
+        public virtual void System__2__Runtime__2__InteropServices__2___ModuleBuilder__2__GetTypeInfoCount(out System.UInt32 @pcTInfo)
         {
 			@pcTInfo = default;
 
@@ -2902,7 +2902,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual void System__2__Runtime__2__InteropServices__2___ModuleBuilder__2__Invoke(System.UInt32  @dispIdMember, in System.Guid  @riid, System.UInt32  @lcid, System.Int16  @wFlags, System.IntPtr  @pDispParams, System.IntPtr  @pVarResult, System.IntPtr  @pExcepInfo, System.IntPtr  @puArgErr)
+        public virtual void System__2__Runtime__2__InteropServices__2___ModuleBuilder__2__Invoke(System.UInt32 @dispIdMember, in System.Guid @riid, System.UInt32 @lcid, System.Int16 @wFlags, System.IntPtr @pDispParams, System.IntPtr @pVarResult, System.IntPtr @pExcepInfo, System.IntPtr @puArgErr)
         {
 
             var ___genericsType = new Type[] {};
@@ -2913,7 +2913,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public static void basic_init(System.Reflection.Emit.ModuleBuilder  @ab)
+        public static void basic_init(System.Reflection.Emit.ModuleBuilder @ab)
         {
 
             var ___genericsType = new Type[] {};
@@ -2924,7 +2924,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public static void set_wrappers_type(System.Reflection.Emit.ModuleBuilder  @mb, System.Type  @ab)
+        public static void set_wrappers_type(System.Reflection.Emit.ModuleBuilder @mb, System.Type @ab)
         {
 
             var ___genericsType = new Type[] {};
@@ -2935,7 +2935,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public static void WarnAboutSymbolWriter(System.String  @message)
+        public static void WarnAboutSymbolWriter(System.String @message)
         {
 
             var ___genericsType = new Type[] {};
@@ -2968,7 +2968,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual System.Reflection.Emit.FieldBuilder DefineInitializedData(System.String  @name, System.Byte[]  @data, System.Reflection.FieldAttributes  @attributes)
+        public virtual System.Reflection.Emit.FieldBuilder DefineInitializedData(System.String @name, System.Byte[] @data, System.Reflection.FieldAttributes @attributes)
         {
 
             var ___genericsType = new Type[] {};
@@ -2979,7 +2979,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual System.Reflection.Emit.FieldBuilder DefineUninitializedData(System.String  @name, System.Int32  @size, System.Reflection.FieldAttributes  @attributes)
+        public virtual System.Reflection.Emit.FieldBuilder DefineUninitializedData(System.String @name, System.Int32 @size, System.Reflection.FieldAttributes @attributes)
         {
 
             var ___genericsType = new Type[] {};
@@ -2990,7 +2990,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual System.Reflection.Emit.FieldBuilder DefineDataImpl(System.String  @name, System.Int32  @size, System.Reflection.FieldAttributes  @attributes)
+        public virtual System.Reflection.Emit.FieldBuilder DefineDataImpl(System.String @name, System.Int32 @size, System.Reflection.FieldAttributes @attributes)
         {
 
             var ___genericsType = new Type[] {};
@@ -3001,7 +3001,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual void addGlobalMethod(System.Reflection.Emit.MethodBuilder  @mb)
+        public virtual void addGlobalMethod(System.Reflection.Emit.MethodBuilder @mb)
         {
 
             var ___genericsType = new Type[] {};
@@ -3012,7 +3012,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual System.Reflection.Emit.MethodBuilder DefineGlobalMethod(System.String  @name, System.Reflection.MethodAttributes  @attributes, System.Type  @returnType, System.Type[]  @parameterTypes)
+        public virtual System.Reflection.Emit.MethodBuilder DefineGlobalMethod(System.String @name, System.Reflection.MethodAttributes @attributes, System.Type @returnType, System.Type[] @parameterTypes)
         {
 
             var ___genericsType = new Type[] {};
@@ -3023,7 +3023,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual System.Reflection.Emit.MethodBuilder DefineGlobalMethod(System.String  @name, System.Reflection.MethodAttributes  @attributes, System.Reflection.CallingConventions  @callingConvention, System.Type  @returnType, System.Type[]  @parameterTypes)
+        public virtual System.Reflection.Emit.MethodBuilder DefineGlobalMethod(System.String @name, System.Reflection.MethodAttributes @attributes, System.Reflection.CallingConventions @callingConvention, System.Type @returnType, System.Type[] @parameterTypes)
         {
 
             var ___genericsType = new Type[] {};
@@ -3034,7 +3034,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual System.Reflection.Emit.MethodBuilder DefineGlobalMethod(System.String  @name, System.Reflection.MethodAttributes  @attributes, System.Reflection.CallingConventions  @callingConvention, System.Type  @returnType, System.Type[]  @requiredReturnTypeCustomModifiers, System.Type[]  @optionalReturnTypeCustomModifiers, System.Type[]  @parameterTypes, System.Type[][]  @requiredParameterTypeCustomModifiers, System.Type[][]  @optionalParameterTypeCustomModifiers)
+        public virtual System.Reflection.Emit.MethodBuilder DefineGlobalMethod(System.String @name, System.Reflection.MethodAttributes @attributes, System.Reflection.CallingConventions @callingConvention, System.Type @returnType, System.Type[] @requiredReturnTypeCustomModifiers, System.Type[] @optionalReturnTypeCustomModifiers, System.Type[] @parameterTypes, System.Type[][] @requiredParameterTypeCustomModifiers, System.Type[][] @optionalParameterTypeCustomModifiers)
         {
 
             var ___genericsType = new Type[] {};
@@ -3045,7 +3045,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual System.Reflection.Emit.MethodBuilder DefinePInvokeMethod(System.String  @name, System.String  @dllName, System.Reflection.MethodAttributes  @attributes, System.Reflection.CallingConventions  @callingConvention, System.Type  @returnType, System.Type[]  @parameterTypes, System.Runtime.InteropServices.CallingConvention  @nativeCallConv, System.Runtime.InteropServices.CharSet  @nativeCharSet)
+        public virtual System.Reflection.Emit.MethodBuilder DefinePInvokeMethod(System.String @name, System.String @dllName, System.Reflection.MethodAttributes @attributes, System.Reflection.CallingConventions @callingConvention, System.Type @returnType, System.Type[] @parameterTypes, System.Runtime.InteropServices.CallingConvention @nativeCallConv, System.Runtime.InteropServices.CharSet @nativeCharSet)
         {
 
             var ___genericsType = new Type[] {};
@@ -3056,7 +3056,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual System.Reflection.Emit.MethodBuilder DefinePInvokeMethod(System.String  @name, System.String  @dllName, System.String  @entryName, System.Reflection.MethodAttributes  @attributes, System.Reflection.CallingConventions  @callingConvention, System.Type  @returnType, System.Type[]  @parameterTypes, System.Runtime.InteropServices.CallingConvention  @nativeCallConv, System.Runtime.InteropServices.CharSet  @nativeCharSet)
+        public virtual System.Reflection.Emit.MethodBuilder DefinePInvokeMethod(System.String @name, System.String @dllName, System.String @entryName, System.Reflection.MethodAttributes @attributes, System.Reflection.CallingConventions @callingConvention, System.Type @returnType, System.Type[] @parameterTypes, System.Runtime.InteropServices.CallingConvention @nativeCallConv, System.Runtime.InteropServices.CharSet @nativeCharSet)
         {
 
             var ___genericsType = new Type[] {};
@@ -3067,7 +3067,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual System.Reflection.Emit.TypeBuilder DefineType(System.String  @name)
+        public virtual System.Reflection.Emit.TypeBuilder DefineType(System.String @name)
         {
 
             var ___genericsType = new Type[] {};
@@ -3078,7 +3078,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual System.Reflection.Emit.TypeBuilder DefineType(System.String  @name, System.Reflection.TypeAttributes  @attr)
+        public virtual System.Reflection.Emit.TypeBuilder DefineType(System.String @name, System.Reflection.TypeAttributes @attr)
         {
 
             var ___genericsType = new Type[] {};
@@ -3089,7 +3089,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual System.Reflection.Emit.TypeBuilder DefineType(System.String  @name, System.Reflection.TypeAttributes  @attr, System.Type  @parent)
+        public virtual System.Reflection.Emit.TypeBuilder DefineType(System.String @name, System.Reflection.TypeAttributes @attr, System.Type @parent)
         {
 
             var ___genericsType = new Type[] {};
@@ -3100,7 +3100,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual void AddType(System.Reflection.Emit.TypeBuilder  @tb)
+        public virtual void AddType(System.Reflection.Emit.TypeBuilder @tb)
         {
 
             var ___genericsType = new Type[] {};
@@ -3111,7 +3111,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual System.Reflection.Emit.TypeBuilder DefineType(System.String  @name, System.Reflection.TypeAttributes  @attr, System.Type  @parent, System.Type[]  @interfaces, System.Reflection.Emit.PackingSize  @packingSize, System.Int32  @typesize)
+        public virtual System.Reflection.Emit.TypeBuilder DefineType(System.String @name, System.Reflection.TypeAttributes @attr, System.Type @parent, System.Type[] @interfaces, System.Reflection.Emit.PackingSize @packingSize, System.Int32 @typesize)
         {
 
             var ___genericsType = new Type[] {};
@@ -3122,7 +3122,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual void RegisterTypeName(System.Reflection.Emit.TypeBuilder  @tb, RSystem.RTypeName  @name)
+        public virtual void RegisterTypeName(System.Reflection.Emit.TypeBuilder @tb, RSystem.RTypeName @name)
         {
 
             var ___genericsType = new Type[] {};
@@ -3133,7 +3133,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual System.Reflection.Emit.TypeBuilder GetRegisteredType(RSystem.RTypeName  @name)
+        public virtual System.Reflection.Emit.TypeBuilder GetRegisteredType(RSystem.RTypeName @name)
         {
 
             var ___genericsType = new Type[] {};
@@ -3144,7 +3144,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual System.Reflection.Emit.TypeBuilder DefineType(System.String  @name, System.Reflection.TypeAttributes  @attr, System.Type  @parent, System.Type[]  @interfaces)
+        public virtual System.Reflection.Emit.TypeBuilder DefineType(System.String @name, System.Reflection.TypeAttributes @attr, System.Type @parent, System.Type[] @interfaces)
         {
 
             var ___genericsType = new Type[] {};
@@ -3155,7 +3155,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual System.Reflection.Emit.TypeBuilder DefineType(System.String  @name, System.Reflection.TypeAttributes  @attr, System.Type  @parent, System.Int32  @typesize)
+        public virtual System.Reflection.Emit.TypeBuilder DefineType(System.String @name, System.Reflection.TypeAttributes @attr, System.Type @parent, System.Int32 @typesize)
         {
 
             var ___genericsType = new Type[] {};
@@ -3166,7 +3166,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual System.Reflection.Emit.TypeBuilder DefineType(System.String  @name, System.Reflection.TypeAttributes  @attr, System.Type  @parent, System.Reflection.Emit.PackingSize  @packsize)
+        public virtual System.Reflection.Emit.TypeBuilder DefineType(System.String @name, System.Reflection.TypeAttributes @attr, System.Type @parent, System.Reflection.Emit.PackingSize @packsize)
         {
 
             var ___genericsType = new Type[] {};
@@ -3177,7 +3177,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual System.Reflection.Emit.TypeBuilder DefineType(System.String  @name, System.Reflection.TypeAttributes  @attr, System.Type  @parent, System.Reflection.Emit.PackingSize  @packingSize, System.Int32  @typesize)
+        public virtual System.Reflection.Emit.TypeBuilder DefineType(System.String @name, System.Reflection.TypeAttributes @attr, System.Type @parent, System.Reflection.Emit.PackingSize @packingSize, System.Int32 @typesize)
         {
 
             var ___genericsType = new Type[] {};
@@ -3188,7 +3188,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual System.Reflection.MethodInfo GetArrayMethod(System.Type  @arrayClass, System.String  @methodName, System.Reflection.CallingConventions  @callingConvention, System.Type  @returnType, System.Type[]  @parameterTypes)
+        public virtual System.Reflection.MethodInfo GetArrayMethod(System.Type @arrayClass, System.String @methodName, System.Reflection.CallingConventions @callingConvention, System.Type @returnType, System.Type[] @parameterTypes)
         {
 
             var ___genericsType = new Type[] {};
@@ -3199,7 +3199,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual System.Reflection.Emit.EnumBuilder DefineEnum(System.String  @name, System.Reflection.TypeAttributes  @visibility, System.Type  @underlyingType)
+        public virtual System.Reflection.Emit.EnumBuilder DefineEnum(System.String @name, System.Reflection.TypeAttributes @visibility, System.Type @underlyingType)
         {
 
             var ___genericsType = new Type[] {};
@@ -3210,7 +3210,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual System.Type GetType(System.String  @className)
+        public virtual System.Type GetType(System.String @className)
         {
 
             var ___genericsType = new Type[] {};
@@ -3221,7 +3221,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual System.Type GetType(System.String  @className, System.Boolean  @ignoreCase)
+        public virtual System.Type GetType(System.String @className, System.Boolean @ignoreCase)
         {
 
             var ___genericsType = new Type[] {};
@@ -3232,7 +3232,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual System.Reflection.Emit.TypeBuilder search_in_array(System.Reflection.Emit.TypeBuilder[]  @arr, System.Int32  @validElementsInArray, RSystem.RTypeName  @className)
+        public virtual System.Reflection.Emit.TypeBuilder search_in_array(System.Reflection.Emit.TypeBuilder[] @arr, System.Int32 @validElementsInArray, RSystem.RTypeName @className)
         {
 
             var ___genericsType = new Type[] {};
@@ -3243,7 +3243,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual System.Reflection.Emit.TypeBuilder search_nested_in_array(System.Reflection.Emit.TypeBuilder[]  @arr, System.Int32  @validElementsInArray, RSystem.RTypeName  @className)
+        public virtual System.Reflection.Emit.TypeBuilder search_nested_in_array(System.Reflection.Emit.TypeBuilder[] @arr, System.Int32 @validElementsInArray, RSystem.RTypeName @className)
         {
 
             var ___genericsType = new Type[] {};
@@ -3254,7 +3254,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual System.Reflection.Emit.TypeBuilder GetMaybeNested(System.Reflection.Emit.TypeBuilder  @t, RSystem.RCollections.RGeneric.RIEnumerable<RSystem.RTypeName>  @nested)
+        public virtual System.Reflection.Emit.TypeBuilder GetMaybeNested(System.Reflection.Emit.TypeBuilder @t, RSystem.RCollections.RGeneric.RIEnumerable<RSystem.RTypeName> @nested)
         {
 
             var ___genericsType = new Type[] {};
@@ -3265,7 +3265,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual System.Type GetType(System.String  @className, System.Boolean  @throwOnError, System.Boolean  @ignoreCase)
+        public virtual System.Type GetType(System.String @className, System.Boolean @throwOnError, System.Boolean @ignoreCase)
         {
 
             var ___genericsType = new Type[] {};
@@ -3276,7 +3276,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual System.Int32 get_next_table_index(System.Object  @obj, System.Int32  @table, System.Int32  @count)
+        public virtual System.Int32 get_next_table_index(System.Object @obj, System.Int32 @table, System.Int32 @count)
         {
 
             var ___genericsType = new Type[] {};
@@ -3287,7 +3287,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual void SetCustomAttribute(System.Reflection.Emit.CustomAttributeBuilder  @customBuilder)
+        public virtual void SetCustomAttribute(System.Reflection.Emit.CustomAttributeBuilder @customBuilder)
         {
 
             var ___genericsType = new Type[] {};
@@ -3298,7 +3298,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual void SetCustomAttribute(System.Reflection.ConstructorInfo  @con, System.Byte[]  @binaryAttribute)
+        public virtual void SetCustomAttribute(System.Reflection.ConstructorInfo @con, System.Byte[] @binaryAttribute)
         {
 
             var ___genericsType = new Type[] {};
@@ -3320,7 +3320,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual System.Diagnostics.SymbolStore.ISymbolDocumentWriter DefineDocument(System.String  @url, System.Guid  @language, System.Guid  @languageVendor, System.Guid  @documentType)
+        public virtual System.Diagnostics.SymbolStore.ISymbolDocumentWriter DefineDocument(System.String @url, System.Guid @language, System.Guid @languageVendor, System.Guid @documentType)
         {
 
             var ___genericsType = new Type[] {};
@@ -3342,7 +3342,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual System.Resources.IResourceWriter DefineResource(System.String  @name, System.String  @description, System.Reflection.ResourceAttributes  @attribute)
+        public virtual System.Resources.IResourceWriter DefineResource(System.String @name, System.String @description, System.Reflection.ResourceAttributes @attribute)
         {
 
             var ___genericsType = new Type[] {};
@@ -3353,7 +3353,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual System.Resources.IResourceWriter DefineResource(System.String  @name, System.String  @description)
+        public virtual System.Resources.IResourceWriter DefineResource(System.String @name, System.String @description)
         {
 
             var ___genericsType = new Type[] {};
@@ -3364,7 +3364,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual void DefineUnmanagedResource(System.Byte[]  @resource)
+        public virtual void DefineUnmanagedResource(System.Byte[] @resource)
         {
 
             var ___genericsType = new Type[] {};
@@ -3375,7 +3375,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual void DefineUnmanagedResource(System.String  @resourceFileName)
+        public virtual void DefineUnmanagedResource(System.String @resourceFileName)
         {
 
             var ___genericsType = new Type[] {};
@@ -3386,7 +3386,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual void DefineManifestResource(System.String  @name, System.IO.Stream  @stream, System.Reflection.ResourceAttributes  @attribute)
+        public virtual void DefineManifestResource(System.String @name, System.IO.Stream @stream, System.Reflection.ResourceAttributes @attribute)
         {
 
             var ___genericsType = new Type[] {};
@@ -3397,7 +3397,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual void SetSymCustomAttribute(System.String  @name, System.Byte[]  @data)
+        public virtual void SetSymCustomAttribute(System.String @name, System.Byte[] @data)
         {
 
             var ___genericsType = new Type[] {};
@@ -3408,7 +3408,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual void SetUserEntryPoint(System.Reflection.MethodInfo  @entryPoint)
+        public virtual void SetUserEntryPoint(System.Reflection.MethodInfo @entryPoint)
         {
 
             var ___genericsType = new Type[] {};
@@ -3419,7 +3419,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual System.Reflection.Emit.MethodToken GetMethodToken(System.Reflection.MethodInfo  @method)
+        public virtual System.Reflection.Emit.MethodToken GetMethodToken(System.Reflection.MethodInfo @method)
         {
 
             var ___genericsType = new Type[] {};
@@ -3430,7 +3430,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual System.Reflection.Emit.MethodToken GetMethodToken(System.Reflection.MethodInfo  @method, System.Collections.Generic.IEnumerable<System.Type>  @optionalParameterTypes)
+        public virtual System.Reflection.Emit.MethodToken GetMethodToken(System.Reflection.MethodInfo @method, System.Collections.Generic.IEnumerable<System.Type> @optionalParameterTypes)
         {
 
             var ___genericsType = new Type[] {};
@@ -3441,7 +3441,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual System.Reflection.Emit.MethodToken GetArrayMethodToken(System.Type  @arrayClass, System.String  @methodName, System.Reflection.CallingConventions  @callingConvention, System.Type  @returnType, System.Type[]  @parameterTypes)
+        public virtual System.Reflection.Emit.MethodToken GetArrayMethodToken(System.Type @arrayClass, System.String @methodName, System.Reflection.CallingConventions @callingConvention, System.Type @returnType, System.Type[] @parameterTypes)
         {
 
             var ___genericsType = new Type[] {};
@@ -3452,7 +3452,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual System.Reflection.Emit.MethodToken GetConstructorToken(System.Reflection.ConstructorInfo  @con)
+        public virtual System.Reflection.Emit.MethodToken GetConstructorToken(System.Reflection.ConstructorInfo @con)
         {
 
             var ___genericsType = new Type[] {};
@@ -3463,7 +3463,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual System.Reflection.Emit.MethodToken GetConstructorToken(System.Reflection.ConstructorInfo  @constructor, System.Collections.Generic.IEnumerable<System.Type>  @optionalParameterTypes)
+        public virtual System.Reflection.Emit.MethodToken GetConstructorToken(System.Reflection.ConstructorInfo @constructor, System.Collections.Generic.IEnumerable<System.Type> @optionalParameterTypes)
         {
 
             var ___genericsType = new Type[] {};
@@ -3474,7 +3474,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual System.Reflection.Emit.FieldToken GetFieldToken(System.Reflection.FieldInfo  @field)
+        public virtual System.Reflection.Emit.FieldToken GetFieldToken(System.Reflection.FieldInfo @field)
         {
 
             var ___genericsType = new Type[] {};
@@ -3485,7 +3485,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual System.Reflection.Emit.SignatureToken GetSignatureToken(System.Byte[]  @sigBytes, System.Int32  @sigLength)
+        public virtual System.Reflection.Emit.SignatureToken GetSignatureToken(System.Byte[] @sigBytes, System.Int32 @sigLength)
         {
 
             var ___genericsType = new Type[] {};
@@ -3496,7 +3496,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual System.Reflection.Emit.SignatureToken GetSignatureToken(System.Reflection.Emit.SignatureHelper  @sigHelper)
+        public virtual System.Reflection.Emit.SignatureToken GetSignatureToken(System.Reflection.Emit.SignatureHelper @sigHelper)
         {
 
             var ___genericsType = new Type[] {};
@@ -3507,7 +3507,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual System.Reflection.Emit.StringToken GetStringConstant(System.String  @str)
+        public virtual System.Reflection.Emit.StringToken GetStringConstant(System.String @str)
         {
 
             var ___genericsType = new Type[] {};
@@ -3518,7 +3518,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual System.Reflection.Emit.TypeToken GetTypeToken(System.Type  @type)
+        public virtual System.Reflection.Emit.TypeToken GetTypeToken(System.Type @type)
         {
 
             var ___genericsType = new Type[] {};
@@ -3529,7 +3529,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual System.Reflection.Emit.TypeToken GetTypeToken(System.String  @name)
+        public virtual System.Reflection.Emit.TypeToken GetTypeToken(System.String @name)
         {
 
             var ___genericsType = new Type[] {};
@@ -3540,7 +3540,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public static System.Int32 getUSIndex(System.Reflection.Emit.ModuleBuilder  @mb, System.String  @str)
+        public static System.Int32 getUSIndex(System.Reflection.Emit.ModuleBuilder @mb, System.String @str)
         {
 
             var ___genericsType = new Type[] {};
@@ -3551,7 +3551,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public static System.Int32 getToken(System.Reflection.Emit.ModuleBuilder  @mb, System.Object  @obj, System.Boolean  @create_open_instance)
+        public static System.Int32 getToken(System.Reflection.Emit.ModuleBuilder @mb, System.Object @obj, System.Boolean @create_open_instance)
         {
 
             var ___genericsType = new Type[] {};
@@ -3562,7 +3562,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public static System.Int32 getMethodToken(System.Reflection.Emit.ModuleBuilder  @mb, System.Reflection.MethodBase  @method, System.Type[]  @opt_param_types)
+        public static System.Int32 getMethodToken(System.Reflection.Emit.ModuleBuilder @mb, System.Reflection.MethodBase @method, System.Type[] @opt_param_types)
         {
 
             var ___genericsType = new Type[] {};
@@ -3573,7 +3573,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual System.Int32 GetToken(System.String  @str)
+        public virtual System.Int32 GetToken(System.String @str)
         {
 
             var ___genericsType = new Type[] {};
@@ -3584,7 +3584,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual System.Int32 GetPseudoToken(System.Reflection.MemberInfo  @member, System.Boolean  @create_open_instance)
+        public virtual System.Int32 GetPseudoToken(System.Reflection.MemberInfo @member, System.Boolean @create_open_instance)
         {
 
             var ___genericsType = new Type[] {};
@@ -3595,7 +3595,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual System.Int32 GetToken(System.Reflection.MemberInfo  @member)
+        public virtual System.Int32 GetToken(System.Reflection.MemberInfo @member)
         {
 
             var ___genericsType = new Type[] {};
@@ -3606,7 +3606,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual System.Int32 GetToken(System.Reflection.MemberInfo  @member, System.Boolean  @create_open_instance)
+        public virtual System.Int32 GetToken(System.Reflection.MemberInfo @member, System.Boolean @create_open_instance)
         {
 
             var ___genericsType = new Type[] {};
@@ -3617,7 +3617,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual System.Int32 GetToken(System.Reflection.MethodBase  @method, System.Collections.Generic.IEnumerable<System.Type>  @opt_param_types)
+        public virtual System.Int32 GetToken(System.Reflection.MethodBase @method, System.Collections.Generic.IEnumerable<System.Type> @opt_param_types)
         {
 
             var ___genericsType = new Type[] {};
@@ -3628,7 +3628,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual System.Int32 GetToken(System.Reflection.MethodBase  @method, System.Type[]  @opt_param_types)
+        public virtual System.Int32 GetToken(System.Reflection.MethodBase @method, System.Type[] @opt_param_types)
         {
 
             var ___genericsType = new Type[] {};
@@ -3639,7 +3639,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual System.Int32 GetToken(System.Reflection.Emit.SignatureHelper  @helper)
+        public virtual System.Int32 GetToken(System.Reflection.Emit.SignatureHelper @helper)
         {
 
             var ___genericsType = new Type[] {};
@@ -3650,7 +3650,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual void RegisterToken(System.Object  @obj, System.Int32  @token)
+        public virtual void RegisterToken(System.Object @obj, System.Int32 @token)
         {
 
             var ___genericsType = new Type[] {};
@@ -3661,7 +3661,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual System.Object GetRegisteredToken(System.Int32  @token)
+        public virtual System.Object GetRegisteredToken(System.Int32 @token)
         {
 
             var ___genericsType = new Type[] {};
@@ -3672,18 +3672,18 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual System.Object GetTokenGenerator()
+        public virtual RSystem.RReflection.REmit.RTokenGenerator GetTokenGenerator()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RGetTokenGenerator.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RSystem.RReflection.REmit.RTokenGenerator(___result);
         }
 
 
-        public static System.Object RuntimeResolve(System.Object  @obj)
+        public static System.Object RuntimeResolve(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};
@@ -3694,7 +3694,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public static void build_metadata(System.Reflection.Emit.ModuleBuilder  @mb)
+        public static void build_metadata(System.Reflection.Emit.ModuleBuilder @mb)
         {
 
             var ___genericsType = new Type[] {};
@@ -3705,7 +3705,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual void WriteToFile(System.IntPtr  @handle)
+        public virtual void WriteToFile(System.IntPtr @handle)
         {
 
             var ___genericsType = new Type[] {};
@@ -3716,7 +3716,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual void FixupTokens(System.Collections.Generic.Dictionary<System.Int32, System.Int32>  @token_map, System.Collections.Generic.Dictionary<System.Int32, System.Reflection.MemberInfo>  @member_map, System.Collections.Generic.Dictionary<System.Reflection.MemberInfo, System.Int32>  @inst_tokens, System.Boolean  @open)
+        public virtual void FixupTokens(System.Collections.Generic.Dictionary<System.Int32, System.Int32> @token_map, System.Collections.Generic.Dictionary<System.Int32, System.Reflection.MemberInfo> @member_map, System.Collections.Generic.Dictionary<System.Reflection.MemberInfo, System.Int32> @inst_tokens, System.Boolean @open)
         {
 
             var ___genericsType = new Type[] {};
@@ -3782,7 +3782,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual System.Reflection.MethodInfo GetMethodImpl(System.String  @name, System.Reflection.BindingFlags  @bindingAttr, System.Reflection.Binder  @binder, System.Reflection.CallingConventions  @callConvention, System.Type[]  @types, System.Reflection.ParameterModifier[]  @modifiers)
+        public virtual System.Reflection.MethodInfo GetMethodImpl(System.String @name, System.Reflection.BindingFlags @bindingAttr, System.Reflection.Binder @binder, System.Reflection.CallingConventions @callConvention, System.Type[] @types, System.Reflection.ParameterModifier[] @modifiers)
         {
 
             var ___genericsType = new Type[] {};
@@ -3793,7 +3793,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual System.Reflection.FieldInfo ResolveField(System.Int32  @metadataToken, System.Type[]  @genericTypeArguments, System.Type[]  @genericMethodArguments)
+        public virtual System.Reflection.FieldInfo ResolveField(System.Int32 @metadataToken, System.Type[] @genericTypeArguments, System.Type[] @genericMethodArguments)
         {
 
             var ___genericsType = new Type[] {};
@@ -3804,7 +3804,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual System.Reflection.MemberInfo ResolveMember(System.Int32  @metadataToken, System.Type[]  @genericTypeArguments, System.Type[]  @genericMethodArguments)
+        public virtual System.Reflection.MemberInfo ResolveMember(System.Int32 @metadataToken, System.Type[] @genericTypeArguments, System.Type[] @genericMethodArguments)
         {
 
             var ___genericsType = new Type[] {};
@@ -3815,7 +3815,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual System.Reflection.MemberInfo ResolveOrGetRegisteredToken(System.Int32  @metadataToken, System.Type[]  @genericTypeArguments, System.Type[]  @genericMethodArguments)
+        public virtual System.Reflection.MemberInfo ResolveOrGetRegisteredToken(System.Int32 @metadataToken, System.Type[] @genericTypeArguments, System.Type[] @genericMethodArguments)
         {
 
             var ___genericsType = new Type[] {};
@@ -3826,7 +3826,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual System.Reflection.MethodBase ResolveMethod(System.Int32  @metadataToken, System.Type[]  @genericTypeArguments, System.Type[]  @genericMethodArguments)
+        public virtual System.Reflection.MethodBase ResolveMethod(System.Int32 @metadataToken, System.Type[] @genericTypeArguments, System.Type[] @genericMethodArguments)
         {
 
             var ___genericsType = new Type[] {};
@@ -3837,7 +3837,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual System.String ResolveString(System.Int32  @metadataToken)
+        public virtual System.String ResolveString(System.Int32 @metadataToken)
         {
 
             var ___genericsType = new Type[] {};
@@ -3848,7 +3848,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual System.Byte[] ResolveSignature(System.Int32  @metadataToken)
+        public virtual System.Byte[] ResolveSignature(System.Int32 @metadataToken)
         {
 
             var ___genericsType = new Type[] {};
@@ -3859,7 +3859,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual System.Type ResolveType(System.Int32  @metadataToken, System.Type[]  @genericTypeArguments, System.Type[]  @genericMethodArguments)
+        public virtual System.Type ResolveType(System.Int32 @metadataToken, System.Type[] @genericTypeArguments, System.Type[] @genericMethodArguments)
         {
 
             var ___genericsType = new Type[] {};
@@ -3870,7 +3870,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};
@@ -3892,7 +3892,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual System.Boolean IsDefined(System.Type  @attributeType, System.Boolean  @inherit)
+        public virtual System.Boolean IsDefined(System.Type @attributeType, System.Boolean @inherit)
         {
 
             var ___genericsType = new Type[] {};
@@ -3903,7 +3903,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual System.Object[] GetCustomAttributes(System.Boolean  @inherit)
+        public virtual System.Object[] GetCustomAttributes(System.Boolean @inherit)
         {
 
             var ___genericsType = new Type[] {};
@@ -3914,7 +3914,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual System.Object[] GetCustomAttributes(System.Type  @attributeType, System.Boolean  @inherit)
+        public virtual System.Object[] GetCustomAttributes(System.Type @attributeType, System.Boolean @inherit)
         {
 
             var ___genericsType = new Type[] {};
@@ -3925,7 +3925,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual System.Reflection.FieldInfo GetField(System.String  @name, System.Reflection.BindingFlags  @bindingAttr)
+        public virtual System.Reflection.FieldInfo GetField(System.String @name, System.Reflection.BindingFlags @bindingAttr)
         {
 
             var ___genericsType = new Type[] {};
@@ -3936,7 +3936,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual System.Reflection.FieldInfo[] GetFields(System.Reflection.BindingFlags  @bindingFlags)
+        public virtual System.Reflection.FieldInfo[] GetFields(System.Reflection.BindingFlags @bindingFlags)
         {
 
             var ___genericsType = new Type[] {};
@@ -3947,7 +3947,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual System.Reflection.MethodInfo[] GetMethods(System.Reflection.BindingFlags  @bindingFlags)
+        public virtual System.Reflection.MethodInfo[] GetMethods(System.Reflection.BindingFlags @bindingFlags)
         {
 
             var ___genericsType = new Type[] {};
@@ -3969,7 +3969,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual void GetPEKind(out System.Reflection.PortableExecutableKinds  @peKind, out System.Reflection.ImageFileMachine  @machine)
+        public virtual void GetPEKind(out System.Reflection.PortableExecutableKinds @peKind, out System.Reflection.ImageFileMachine @machine)
         {
 			@peKind = default;
 			@machine = default;
@@ -3995,7 +3995,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual System.Reflection.MethodInfo GetMethod(System.String  @name)
+        public virtual System.Reflection.MethodInfo GetMethod(System.String @name)
         {
 
             var ___genericsType = new Type[] {};
@@ -4006,7 +4006,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual System.Reflection.MethodInfo GetMethod(System.String  @name, System.Type[]  @types)
+        public virtual System.Reflection.MethodInfo GetMethod(System.String @name, System.Type[] @types)
         {
 
             var ___genericsType = new Type[] {};
@@ -4017,7 +4017,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual System.Reflection.MethodInfo GetMethod(System.String  @name, System.Reflection.BindingFlags  @bindingAttr, System.Reflection.Binder  @binder, System.Reflection.CallingConventions  @callConvention, System.Type[]  @types, System.Reflection.ParameterModifier[]  @modifiers)
+        public virtual System.Reflection.MethodInfo GetMethod(System.String @name, System.Reflection.BindingFlags @bindingAttr, System.Reflection.Binder @binder, System.Reflection.CallingConventions @callConvention, System.Type[] @types, System.Reflection.ParameterModifier[] @modifiers)
         {
 
             var ___genericsType = new Type[] {};
@@ -4039,7 +4039,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual System.Reflection.FieldInfo GetField(System.String  @name)
+        public virtual System.Reflection.FieldInfo GetField(System.String @name)
         {
 
             var ___genericsType = new Type[] {};
@@ -4061,7 +4061,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual System.Type[] FindTypes(System.Reflection.TypeFilter  @filter, System.Object  @filterCriteria)
+        public virtual System.Type[] FindTypes(System.Reflection.TypeFilter @filter, System.Object @filterCriteria)
         {
 
             var ___genericsType = new Type[] {};
@@ -4072,7 +4072,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual System.Reflection.FieldInfo ResolveField(System.Int32  @metadataToken)
+        public virtual System.Reflection.FieldInfo ResolveField(System.Int32 @metadataToken)
         {
 
             var ___genericsType = new Type[] {};
@@ -4083,7 +4083,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual System.Reflection.MemberInfo ResolveMember(System.Int32  @metadataToken)
+        public virtual System.Reflection.MemberInfo ResolveMember(System.Int32 @metadataToken)
         {
 
             var ___genericsType = new Type[] {};
@@ -4094,7 +4094,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual System.Reflection.MethodBase ResolveMethod(System.Int32  @metadataToken)
+        public virtual System.Reflection.MethodBase ResolveMethod(System.Int32 @metadataToken)
         {
 
             var ___genericsType = new Type[] {};
@@ -4105,7 +4105,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual System.Type ResolveType(System.Int32  @metadataToken)
+        public virtual System.Type ResolveType(System.Int32 @metadataToken)
         {
 
             var ___genericsType = new Type[] {};
@@ -4116,7 +4116,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual void GetObjectData(System.Runtime.Serialization.SerializationInfo  @info, System.Runtime.Serialization.StreamingContext  @context)
+        public virtual void GetObjectData(System.Runtime.Serialization.SerializationInfo @info, System.Runtime.Serialization.StreamingContext @context)
         {
 
             var ___genericsType = new Type[] {};

@@ -617,7 +617,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RJobs
         }
 
 
-        public static void CompleteAll(ref Unity.Jobs.JobHandle  @job0, ref Unity.Jobs.JobHandle  @job1)
+        public static void CompleteAll(ref Unity.Jobs.JobHandle @job0, ref Unity.Jobs.JobHandle @job1)
         {
 
             var ___genericsType = new Type[] {};
@@ -630,7 +630,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RJobs
         }
 
 
-        public static void CompleteAll(ref Unity.Jobs.JobHandle  @job0, ref Unity.Jobs.JobHandle  @job1, ref Unity.Jobs.JobHandle  @job2)
+        public static void CompleteAll(ref Unity.Jobs.JobHandle @job0, ref Unity.Jobs.JobHandle @job1, ref Unity.Jobs.JobHandle @job2)
         {
 
             var ___genericsType = new Type[] {};
@@ -656,7 +656,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RJobs
         }
 
 
-        public static void ScheduleBatchedJobsAndComplete(ref Unity.Jobs.JobHandle  @job)
+        public static void ScheduleBatchedJobsAndComplete(ref Unity.Jobs.JobHandle @job)
         {
 
             var ___genericsType = new Type[] {};
@@ -668,7 +668,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RJobs
         }
 
 
-        public static System.Boolean ScheduleBatchedJobsAndIsCompleted(ref Unity.Jobs.JobHandle  @job)
+        public static System.Boolean ScheduleBatchedJobsAndIsCompleted(ref Unity.Jobs.JobHandle @job)
         {
 
             var ___genericsType = new Type[] {};
@@ -681,7 +681,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RJobs
 
 
 
-        public static Unity.Jobs.JobHandle CombineDependencies(Unity.Jobs.JobHandle  @job0, Unity.Jobs.JobHandle  @job1)
+        public static Unity.Jobs.JobHandle CombineDependencies(Unity.Jobs.JobHandle @job0, Unity.Jobs.JobHandle @job1)
         {
 
             var ___genericsType = new Type[] {};
@@ -692,7 +692,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RJobs
         }
 
 
-        public static Unity.Jobs.JobHandle CombineDependencies(Unity.Jobs.JobHandle  @job0, Unity.Jobs.JobHandle  @job1, Unity.Jobs.JobHandle  @job2)
+        public static Unity.Jobs.JobHandle CombineDependencies(Unity.Jobs.JobHandle @job0, Unity.Jobs.JobHandle @job1, Unity.Jobs.JobHandle @job2)
         {
 
             var ___genericsType = new Type[] {};
@@ -705,7 +705,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RJobs
 
 
 
-        public static Unity.Jobs.JobHandle CombineDependenciesInternal2(ref Unity.Jobs.JobHandle  @job0, ref Unity.Jobs.JobHandle  @job1)
+        public static Unity.Jobs.JobHandle CombineDependenciesInternal2(ref Unity.Jobs.JobHandle @job0, ref Unity.Jobs.JobHandle @job1)
         {
 
             var ___genericsType = new Type[] {};
@@ -718,7 +718,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RJobs
         }
 
 
-        public static Unity.Jobs.JobHandle CombineDependenciesInternal3(ref Unity.Jobs.JobHandle  @job0, ref Unity.Jobs.JobHandle  @job1, ref Unity.Jobs.JobHandle  @job2)
+        public static Unity.Jobs.JobHandle CombineDependenciesInternal3(ref Unity.Jobs.JobHandle @job0, ref Unity.Jobs.JobHandle @job1, ref Unity.Jobs.JobHandle @job2)
         {
 
             var ___genericsType = new Type[] {};
@@ -733,7 +733,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RJobs
 
 
 
-        public static System.Boolean CheckFenceIsDependencyOrDidSyncFence(Unity.Jobs.JobHandle  @jobHandle, Unity.Jobs.JobHandle  @dependsOn)
+        public static System.Boolean CheckFenceIsDependencyOrDidSyncFence(Unity.Jobs.JobHandle @jobHandle, Unity.Jobs.JobHandle @dependsOn)
         {
 
             var ___genericsType = new Type[] {};
@@ -744,7 +744,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RJobs
         }
 
 
-        public virtual System.Boolean Equals(Unity.Jobs.JobHandle  @other)
+        public virtual System.Boolean Equals(Unity.Jobs.JobHandle @other)
         {
 
             var ___genericsType = new Type[] {};
@@ -755,7 +755,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RJobs
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};
@@ -766,7 +766,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RJobs
         }
 
 
-        public static System.Boolean op_Equality(Unity.Jobs.JobHandle  @a, Unity.Jobs.JobHandle  @b)
+        public static System.Boolean op_Equality(Unity.Jobs.JobHandle @a, Unity.Jobs.JobHandle @b)
         {
 
             var ___genericsType = new Type[] {};
@@ -777,7 +777,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RJobs
         }
 
 
-        public static System.Boolean op_Inequality(Unity.Jobs.JobHandle  @a, Unity.Jobs.JobHandle  @b)
+        public static System.Boolean op_Inequality(Unity.Jobs.JobHandle @a, Unity.Jobs.JobHandle @b)
         {
 
             var ___genericsType = new Type[] {};
@@ -799,7 +799,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RJobs
         }
 
 
-        public static void CombineDependenciesInternal2_Injected(ref Unity.Jobs.JobHandle  @job0, ref Unity.Jobs.JobHandle  @job1, out Unity.Jobs.JobHandle  @ret)
+        public static void CombineDependenciesInternal2_Injected(ref Unity.Jobs.JobHandle @job0, ref Unity.Jobs.JobHandle @job1, out Unity.Jobs.JobHandle @ret)
         {
 			@ret = default;
 
@@ -814,7 +814,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RJobs
         }
 
 
-        public static void CombineDependenciesInternal3_Injected(ref Unity.Jobs.JobHandle  @job0, ref Unity.Jobs.JobHandle  @job1, ref Unity.Jobs.JobHandle  @job2, out Unity.Jobs.JobHandle  @ret)
+        public static void CombineDependenciesInternal3_Injected(ref Unity.Jobs.JobHandle @job0, ref Unity.Jobs.JobHandle @job1, ref Unity.Jobs.JobHandle @job2, out Unity.Jobs.JobHandle @ret)
         {
 			@ret = default;
 
@@ -831,7 +831,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RJobs
 
 
 
-        public static System.Boolean CheckFenceIsDependencyOrDidSyncFence_Injected(ref Unity.Jobs.JobHandle  @jobHandle, ref Unity.Jobs.JobHandle  @dependsOn)
+        public static System.Boolean CheckFenceIsDependencyOrDidSyncFence_Injected(ref Unity.Jobs.JobHandle @jobHandle, ref Unity.Jobs.JobHandle @dependsOn)
         {
 
             var ___genericsType = new Type[] {};

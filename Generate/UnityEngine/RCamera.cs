@@ -5223,7 +5223,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SetLayerCullDistances(System.Single[]  @d)
+        public virtual void SetLayerCullDistances(System.Single[] @d)
         {
 
             var ___genericsType = new Type[] {};
@@ -5245,7 +5245,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SetReplacementShader(UnityEngine.Shader  @shader, System.String  @replacementTag)
+        public virtual void SetReplacementShader(UnityEngine.Shader @shader, System.String @replacementTag)
         {
 
             var ___genericsType = new Type[] {};
@@ -5300,7 +5300,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SetTargetBuffersImpl(UnityEngine.RenderBuffer  @color, UnityEngine.RenderBuffer  @depth)
+        public virtual void SetTargetBuffersImpl(UnityEngine.RenderBuffer @color, UnityEngine.RenderBuffer @depth)
         {
 
             var ___genericsType = new Type[] {};
@@ -5311,7 +5311,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SetTargetBuffers(UnityEngine.RenderBuffer  @colorBuffer, UnityEngine.RenderBuffer  @depthBuffer)
+        public virtual void SetTargetBuffers(UnityEngine.RenderBuffer @colorBuffer, UnityEngine.RenderBuffer @depthBuffer)
         {
 
             var ___genericsType = new Type[] {};
@@ -5322,7 +5322,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SetTargetBuffersMRTImpl(UnityEngine.RenderBuffer[]  @color, UnityEngine.RenderBuffer  @depth)
+        public virtual void SetTargetBuffersMRTImpl(UnityEngine.RenderBuffer[] @color, UnityEngine.RenderBuffer @depth)
         {
 
             var ___genericsType = new Type[] {};
@@ -5333,7 +5333,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SetTargetBuffers(UnityEngine.RenderBuffer[]  @colorBuffer, UnityEngine.RenderBuffer  @depthBuffer)
+        public virtual void SetTargetBuffers(UnityEngine.RenderBuffer[] @colorBuffer, UnityEngine.RenderBuffer @depthBuffer)
         {
 
             var ___genericsType = new Type[] {};
@@ -5377,7 +5377,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual UnityEngine.Matrix4x4 CalculateObliqueMatrix(UnityEngine.Vector4  @clipPlane)
+        public virtual UnityEngine.Matrix4x4 CalculateObliqueMatrix(UnityEngine.Vector4 @clipPlane)
         {
 
             var ___genericsType = new Type[] {};
@@ -5388,7 +5388,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual UnityEngine.Vector3 WorldToScreenPoint(UnityEngine.Vector3  @position, RType  @eye)
+        public virtual UnityEngine.Vector3 WorldToScreenPoint(UnityEngine.Vector3 @position, RType @eye)
         {
 
             var ___genericsType = new Type[] {};
@@ -5399,7 +5399,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual UnityEngine.Vector3 WorldToViewportPoint(UnityEngine.Vector3  @position, RType  @eye)
+        public virtual UnityEngine.Vector3 WorldToViewportPoint(UnityEngine.Vector3 @position, RType @eye)
         {
 
             var ___genericsType = new Type[] {};
@@ -5410,7 +5410,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual UnityEngine.Vector3 ViewportToWorldPoint(UnityEngine.Vector3  @position, RType  @eye)
+        public virtual UnityEngine.Vector3 ViewportToWorldPoint(UnityEngine.Vector3 @position, RType @eye)
         {
 
             var ___genericsType = new Type[] {};
@@ -5421,7 +5421,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual UnityEngine.Vector3 ScreenToWorldPoint(UnityEngine.Vector3  @position, RType  @eye)
+        public virtual UnityEngine.Vector3 ScreenToWorldPoint(UnityEngine.Vector3 @position, RType @eye)
         {
 
             var ___genericsType = new Type[] {};
@@ -5432,7 +5432,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual UnityEngine.Vector3 WorldToScreenPoint(UnityEngine.Vector3  @position)
+        public virtual UnityEngine.Vector3 WorldToScreenPoint(UnityEngine.Vector3 @position)
         {
 
             var ___genericsType = new Type[] {};
@@ -5443,7 +5443,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual UnityEngine.Vector3 WorldToViewportPoint(UnityEngine.Vector3  @position)
+        public virtual UnityEngine.Vector3 WorldToViewportPoint(UnityEngine.Vector3 @position)
         {
 
             var ___genericsType = new Type[] {};
@@ -5454,7 +5454,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual UnityEngine.Vector3 ViewportToWorldPoint(UnityEngine.Vector3  @position)
+        public virtual UnityEngine.Vector3 ViewportToWorldPoint(UnityEngine.Vector3 @position)
         {
 
             var ___genericsType = new Type[] {};
@@ -5465,7 +5465,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual UnityEngine.Vector3 ScreenToWorldPoint(UnityEngine.Vector3  @position)
+        public virtual UnityEngine.Vector3 ScreenToWorldPoint(UnityEngine.Vector3 @position)
         {
 
             var ___genericsType = new Type[] {};
@@ -5476,7 +5476,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual UnityEngine.Vector3 ScreenToViewportPoint(UnityEngine.Vector3  @position)
+        public virtual UnityEngine.Vector3 ScreenToViewportPoint(UnityEngine.Vector3 @position)
         {
 
             var ___genericsType = new Type[] {};
@@ -5487,7 +5487,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual UnityEngine.Vector3 ViewportToScreenPoint(UnityEngine.Vector3  @position)
+        public virtual UnityEngine.Vector3 ViewportToScreenPoint(UnityEngine.Vector3 @position)
         {
 
             var ___genericsType = new Type[] {};
@@ -5498,7 +5498,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual UnityEngine.Vector2 GetFrustumPlaneSizeAt(System.Single  @distance)
+        public virtual UnityEngine.Vector2 GetFrustumPlaneSizeAt(System.Single @distance)
         {
 
             var ___genericsType = new Type[] {};
@@ -5509,7 +5509,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual UnityEngine.Ray ViewportPointToRay(UnityEngine.Vector2  @pos, RType  @eye)
+        public virtual UnityEngine.Ray ViewportPointToRay(UnityEngine.Vector2 @pos, RType @eye)
         {
 
             var ___genericsType = new Type[] {};
@@ -5520,7 +5520,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual UnityEngine.Ray ViewportPointToRay(UnityEngine.Vector3  @pos, RType  @eye)
+        public virtual UnityEngine.Ray ViewportPointToRay(UnityEngine.Vector3 @pos, RType @eye)
         {
 
             var ___genericsType = new Type[] {};
@@ -5531,7 +5531,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual UnityEngine.Ray ViewportPointToRay(UnityEngine.Vector3  @pos)
+        public virtual UnityEngine.Ray ViewportPointToRay(UnityEngine.Vector3 @pos)
         {
 
             var ___genericsType = new Type[] {};
@@ -5542,7 +5542,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual UnityEngine.Ray ScreenPointToRay(UnityEngine.Vector2  @pos, RType  @eye)
+        public virtual UnityEngine.Ray ScreenPointToRay(UnityEngine.Vector2 @pos, RType @eye)
         {
 
             var ___genericsType = new Type[] {};
@@ -5553,7 +5553,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual UnityEngine.Ray ScreenPointToRay(UnityEngine.Vector3  @pos, RType  @eye)
+        public virtual UnityEngine.Ray ScreenPointToRay(UnityEngine.Vector3 @pos, RType @eye)
         {
 
             var ___genericsType = new Type[] {};
@@ -5564,7 +5564,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual UnityEngine.Ray ScreenPointToRay(UnityEngine.Vector3  @pos)
+        public virtual UnityEngine.Ray ScreenPointToRay(UnityEngine.Vector3 @pos)
         {
 
             var ___genericsType = new Type[] {};
@@ -5575,7 +5575,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void CalculateFrustumCornersInternal(UnityEngine.Rect  @viewport, System.Single  @z, RType  @eye, UnityEngine.Vector3[]  @outCorners)
+        public virtual void CalculateFrustumCornersInternal(UnityEngine.Rect @viewport, System.Single @z, RType @eye, UnityEngine.Vector3[] @outCorners)
         {
 
             var ___genericsType = new Type[] {};
@@ -5586,7 +5586,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void CalculateFrustumCorners(UnityEngine.Rect  @viewport, System.Single  @z, RType  @eye, UnityEngine.Vector3[]  @outCorners)
+        public virtual void CalculateFrustumCorners(UnityEngine.Rect @viewport, System.Single @z, RType @eye, UnityEngine.Vector3[] @outCorners)
         {
 
             var ___genericsType = new Type[] {};
@@ -5597,7 +5597,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static void CalculateProjectionMatrixFromPhysicalPropertiesInternal(out UnityEngine.Matrix4x4  @output, System.Single  @focalLength, UnityEngine.Vector2  @sensorSize, UnityEngine.Vector2  @lensShift, System.Single  @nearClip, System.Single  @farClip, System.Single  @gateAspect, RType  @gateFitMode)
+        public static void CalculateProjectionMatrixFromPhysicalPropertiesInternal(out UnityEngine.Matrix4x4 @output, System.Single @focalLength, UnityEngine.Vector2 @sensorSize, UnityEngine.Vector2 @lensShift, System.Single @nearClip, System.Single @farClip, System.Single @gateAspect, RType @gateFitMode)
         {
 			@output = default;
 
@@ -5610,7 +5610,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static void CalculateProjectionMatrixFromPhysicalProperties(out UnityEngine.Matrix4x4  @output, System.Single  @focalLength, UnityEngine.Vector2  @sensorSize, UnityEngine.Vector2  @lensShift, System.Single  @nearClip, System.Single  @farClip, RUnityEngine.RCamera.RGateFitParameters  @gateFitParameters)
+        public static void CalculateProjectionMatrixFromPhysicalProperties(out UnityEngine.Matrix4x4 @output, System.Single @focalLength, UnityEngine.Vector2 @sensorSize, UnityEngine.Vector2 @lensShift, System.Single @nearClip, System.Single @farClip, RUnityEngine.RCamera.RGateFitParameters @gateFitParameters)
         {
 			@output = default;
 
@@ -5623,7 +5623,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static System.Single FocalLengthToFieldOfView(System.Single  @focalLength, System.Single  @sensorSize)
+        public static System.Single FocalLengthToFieldOfView(System.Single @focalLength, System.Single @sensorSize)
         {
 
             var ___genericsType = new Type[] {};
@@ -5634,7 +5634,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static System.Single FieldOfViewToFocalLength(System.Single  @fieldOfView, System.Single  @sensorSize)
+        public static System.Single FieldOfViewToFocalLength(System.Single @fieldOfView, System.Single @sensorSize)
         {
 
             var ___genericsType = new Type[] {};
@@ -5645,7 +5645,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static System.Single HorizontalToVerticalFieldOfView(System.Single  @horizontalFieldOfView, System.Single  @aspectRatio)
+        public static System.Single HorizontalToVerticalFieldOfView(System.Single @horizontalFieldOfView, System.Single @aspectRatio)
         {
 
             var ___genericsType = new Type[] {};
@@ -5656,7 +5656,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static System.Single VerticalToHorizontalFieldOfView(System.Single  @verticalFieldOfView, System.Single  @aspectRatio)
+        public static System.Single VerticalToHorizontalFieldOfView(System.Single @verticalFieldOfView, System.Single @aspectRatio)
         {
 
             var ___genericsType = new Type[] {};
@@ -5667,7 +5667,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual UnityEngine.Matrix4x4 GetStereoNonJitteredProjectionMatrix(RType  @eye)
+        public virtual UnityEngine.Matrix4x4 GetStereoNonJitteredProjectionMatrix(RType @eye)
         {
 
             var ___genericsType = new Type[] {};
@@ -5678,7 +5678,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual UnityEngine.Matrix4x4 GetStereoViewMatrix(RType  @eye)
+        public virtual UnityEngine.Matrix4x4 GetStereoViewMatrix(RType @eye)
         {
 
             var ___genericsType = new Type[] {};
@@ -5689,7 +5689,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void CopyStereoDeviceProjectionMatrixToNonJittered(RType  @eye)
+        public virtual void CopyStereoDeviceProjectionMatrixToNonJittered(RType @eye)
         {
 
             var ___genericsType = new Type[] {};
@@ -5700,7 +5700,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual UnityEngine.Matrix4x4 GetStereoProjectionMatrix(RType  @eye)
+        public virtual UnityEngine.Matrix4x4 GetStereoProjectionMatrix(RType @eye)
         {
 
             var ___genericsType = new Type[] {};
@@ -5711,7 +5711,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SetStereoProjectionMatrix(RType  @eye, UnityEngine.Matrix4x4  @matrix)
+        public virtual void SetStereoProjectionMatrix(RType @eye, UnityEngine.Matrix4x4 @matrix)
         {
 
             var ___genericsType = new Type[] {};
@@ -5733,7 +5733,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SetStereoViewMatrix(RType  @eye, UnityEngine.Matrix4x4  @matrix)
+        public virtual void SetStereoViewMatrix(RType @eye, UnityEngine.Matrix4x4 @matrix)
         {
 
             var ___genericsType = new Type[] {};
@@ -5766,7 +5766,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static System.Int32 GetAllCamerasImpl(UnityEngine.Camera[]  @cam)
+        public static System.Int32 GetAllCamerasImpl(UnityEngine.Camera[] @cam)
         {
 
             var ___genericsType = new Type[] {};
@@ -5777,7 +5777,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static System.Int32 GetAllCameras(UnityEngine.Camera[]  @cameras)
+        public static System.Int32 GetAllCameras(UnityEngine.Camera[] @cameras)
         {
 
             var ___genericsType = new Type[] {};
@@ -5788,7 +5788,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Boolean RenderToCubemapImpl(UnityEngine.Texture  @tex, System.Int32  @faceMask)
+        public virtual System.Boolean RenderToCubemapImpl(UnityEngine.Texture @tex, System.Int32 @faceMask)
         {
 
             var ___genericsType = new Type[] {};
@@ -5799,7 +5799,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Boolean RenderToCubemap(UnityEngine.Cubemap  @cubemap, System.Int32  @faceMask)
+        public virtual System.Boolean RenderToCubemap(UnityEngine.Cubemap @cubemap, System.Int32 @faceMask)
         {
 
             var ___genericsType = new Type[] {};
@@ -5810,7 +5810,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Boolean RenderToCubemap(UnityEngine.Cubemap  @cubemap)
+        public virtual System.Boolean RenderToCubemap(UnityEngine.Cubemap @cubemap)
         {
 
             var ___genericsType = new Type[] {};
@@ -5821,7 +5821,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Boolean RenderToCubemap(UnityEngine.RenderTexture  @cubemap, System.Int32  @faceMask)
+        public virtual System.Boolean RenderToCubemap(UnityEngine.RenderTexture @cubemap, System.Int32 @faceMask)
         {
 
             var ___genericsType = new Type[] {};
@@ -5832,7 +5832,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Boolean RenderToCubemap(UnityEngine.RenderTexture  @cubemap)
+        public virtual System.Boolean RenderToCubemap(UnityEngine.RenderTexture @cubemap)
         {
 
             var ___genericsType = new Type[] {};
@@ -5854,7 +5854,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Boolean RenderToCubemapEyeImpl(UnityEngine.RenderTexture  @cubemap, System.Int32  @faceMask, RType  @stereoEye)
+        public virtual System.Boolean RenderToCubemapEyeImpl(UnityEngine.RenderTexture @cubemap, System.Int32 @faceMask, RType @stereoEye)
         {
 
             var ___genericsType = new Type[] {};
@@ -5865,7 +5865,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Boolean RenderToCubemap(UnityEngine.RenderTexture  @cubemap, System.Int32  @faceMask, RType  @stereoEye)
+        public virtual System.Boolean RenderToCubemap(UnityEngine.RenderTexture @cubemap, System.Int32 @faceMask, RType @stereoEye)
         {
 
             var ___genericsType = new Type[] {};
@@ -5887,7 +5887,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void RenderWithShader(UnityEngine.Shader  @shader, System.String  @replacementTag)
+        public virtual void RenderWithShader(UnityEngine.Shader @shader, System.String @replacementTag)
         {
 
             var ___genericsType = new Type[] {};
@@ -5909,7 +5909,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SubmitRenderRequests(RSystem.RCollections.RGeneric.RList<RUnityEngine.RCamera.RRenderRequest>  @renderRequests)
+        public virtual void SubmitRenderRequests(RSystem.RCollections.RGeneric.RList<RUnityEngine.RCamera.RRenderRequest> @renderRequests)
         {
 
             var ___genericsType = new Type[] {};
@@ -5920,7 +5920,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SubmitRenderRequest<RequestData>(RequestData  @renderRequest)
+        public virtual void SubmitRenderRequest<RequestData>(RequestData @renderRequest)
         {
 
             var ___genericsType = new Type[] {typeof(RequestData)};
@@ -5931,7 +5931,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SubmitRenderRequestsInternal(System.Object  @requests)
+        public virtual void SubmitRenderRequestsInternal(System.Object @requests)
         {
 
             var ___genericsType = new Type[] {};
@@ -5942,7 +5942,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static void SetupCurrent(UnityEngine.Camera  @cur)
+        public static void SetupCurrent(UnityEngine.Camera @cur)
         {
 
             var ___genericsType = new Type[] {};
@@ -5953,7 +5953,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void CopyFrom(UnityEngine.Camera  @other)
+        public virtual void CopyFrom(UnityEngine.Camera @other)
         {
 
             var ___genericsType = new Type[] {};
@@ -5964,7 +5964,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void RemoveCommandBuffers(UnityEngine.Rendering.CameraEvent  @evt)
+        public virtual void RemoveCommandBuffers(UnityEngine.Rendering.CameraEvent @evt)
         {
 
             var ___genericsType = new Type[] {};
@@ -5986,7 +5986,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void AddCommandBufferImpl(UnityEngine.Rendering.CameraEvent  @evt, UnityEngine.Rendering.CommandBuffer  @buffer)
+        public virtual void AddCommandBufferImpl(UnityEngine.Rendering.CameraEvent @evt, UnityEngine.Rendering.CommandBuffer @buffer)
         {
 
             var ___genericsType = new Type[] {};
@@ -5997,7 +5997,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void AddCommandBufferAsyncImpl(UnityEngine.Rendering.CameraEvent  @evt, UnityEngine.Rendering.CommandBuffer  @buffer, UnityEngine.Rendering.ComputeQueueType  @queueType)
+        public virtual void AddCommandBufferAsyncImpl(UnityEngine.Rendering.CameraEvent @evt, UnityEngine.Rendering.CommandBuffer @buffer, UnityEngine.Rendering.ComputeQueueType @queueType)
         {
 
             var ___genericsType = new Type[] {};
@@ -6008,7 +6008,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void RemoveCommandBufferImpl(UnityEngine.Rendering.CameraEvent  @evt, UnityEngine.Rendering.CommandBuffer  @buffer)
+        public virtual void RemoveCommandBufferImpl(UnityEngine.Rendering.CameraEvent @evt, UnityEngine.Rendering.CommandBuffer @buffer)
         {
 
             var ___genericsType = new Type[] {};
@@ -6019,7 +6019,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void AddCommandBuffer(UnityEngine.Rendering.CameraEvent  @evt, UnityEngine.Rendering.CommandBuffer  @buffer)
+        public virtual void AddCommandBuffer(UnityEngine.Rendering.CameraEvent @evt, UnityEngine.Rendering.CommandBuffer @buffer)
         {
 
             var ___genericsType = new Type[] {};
@@ -6030,7 +6030,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void AddCommandBufferAsync(UnityEngine.Rendering.CameraEvent  @evt, UnityEngine.Rendering.CommandBuffer  @buffer, UnityEngine.Rendering.ComputeQueueType  @queueType)
+        public virtual void AddCommandBufferAsync(UnityEngine.Rendering.CameraEvent @evt, UnityEngine.Rendering.CommandBuffer @buffer, UnityEngine.Rendering.ComputeQueueType @queueType)
         {
 
             var ___genericsType = new Type[] {};
@@ -6041,7 +6041,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void RemoveCommandBuffer(UnityEngine.Rendering.CameraEvent  @evt, UnityEngine.Rendering.CommandBuffer  @buffer)
+        public virtual void RemoveCommandBuffer(UnityEngine.Rendering.CameraEvent @evt, UnityEngine.Rendering.CommandBuffer @buffer)
         {
 
             var ___genericsType = new Type[] {};
@@ -6052,7 +6052,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual UnityEngine.Rendering.CommandBuffer[] GetCommandBuffers(UnityEngine.Rendering.CameraEvent  @evt)
+        public virtual UnityEngine.Rendering.CommandBuffer[] GetCommandBuffers(UnityEngine.Rendering.CameraEvent @evt)
         {
 
             var ___genericsType = new Type[] {};
@@ -6063,7 +6063,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static void FireOnPreCull(UnityEngine.Camera  @cam)
+        public static void FireOnPreCull(UnityEngine.Camera @cam)
         {
 
             var ___genericsType = new Type[] {};
@@ -6074,7 +6074,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static void FireOnPreRender(UnityEngine.Camera  @cam)
+        public static void FireOnPreRender(UnityEngine.Camera @cam)
         {
 
             var ___genericsType = new Type[] {};
@@ -6085,7 +6085,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static void FireOnPostRender(UnityEngine.Camera  @cam)
+        public static void FireOnPostRender(UnityEngine.Camera @cam)
         {
 
             var ___genericsType = new Type[] {};
@@ -6118,7 +6118,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Boolean TryGetCullingParameters(out UnityEngine.Rendering.ScriptableCullingParameters  @cullingParameters)
+        public virtual System.Boolean TryGetCullingParameters(out UnityEngine.Rendering.ScriptableCullingParameters @cullingParameters)
         {
 			@cullingParameters = default;
 
@@ -6131,7 +6131,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Boolean TryGetCullingParameters(System.Boolean  @stereoAware, out UnityEngine.Rendering.ScriptableCullingParameters  @cullingParameters)
+        public virtual System.Boolean TryGetCullingParameters(System.Boolean @stereoAware, out UnityEngine.Rendering.ScriptableCullingParameters @cullingParameters)
         {
 			@cullingParameters = default;
 
@@ -6144,7 +6144,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static System.Boolean GetCullingParameters_Internal(UnityEngine.Camera  @camera, System.Boolean  @stereoAware, out UnityEngine.Rendering.ScriptableCullingParameters  @cullingParameters, System.Int32  @managedCullingParametersSize)
+        public static System.Boolean GetCullingParameters_Internal(UnityEngine.Camera @camera, System.Boolean @stereoAware, out UnityEngine.Rendering.ScriptableCullingParameters @cullingParameters, System.Int32 @managedCullingParametersSize)
         {
 			@cullingParameters = default;
 
@@ -6201,7 +6201,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SetStereoViewMatrices(UnityEngine.Matrix4x4  @leftMatrix, UnityEngine.Matrix4x4  @rightMatrix)
+        public virtual void SetStereoViewMatrices(UnityEngine.Matrix4x4 @leftMatrix, UnityEngine.Matrix4x4 @rightMatrix)
         {
 
             var ___genericsType = new Type[] {};
@@ -6212,7 +6212,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SetStereoProjectionMatrices(UnityEngine.Matrix4x4  @leftMatrix, UnityEngine.Matrix4x4  @rightMatrix)
+        public virtual void SetStereoProjectionMatrices(UnityEngine.Matrix4x4 @leftMatrix, UnityEngine.Matrix4x4 @rightMatrix)
         {
 
             var ___genericsType = new Type[] {};
@@ -6245,7 +6245,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void get_transparencySortAxis_Injected(out UnityEngine.Vector3  @ret)
+        public virtual void get_transparencySortAxis_Injected(out UnityEngine.Vector3 @ret)
         {
 			@ret = default;
 
@@ -6258,7 +6258,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void set_transparencySortAxis_Injected(ref UnityEngine.Vector3  @value)
+        public virtual void set_transparencySortAxis_Injected(ref UnityEngine.Vector3 @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -6270,7 +6270,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void get_velocity_Injected(out UnityEngine.Vector3  @ret)
+        public virtual void get_velocity_Injected(out UnityEngine.Vector3 @ret)
         {
 			@ret = default;
 
@@ -6283,7 +6283,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void get_cullingMatrix_Injected(out UnityEngine.Matrix4x4  @ret)
+        public virtual void get_cullingMatrix_Injected(out UnityEngine.Matrix4x4 @ret)
         {
 			@ret = default;
 
@@ -6296,7 +6296,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void set_cullingMatrix_Injected(ref UnityEngine.Matrix4x4  @value)
+        public virtual void set_cullingMatrix_Injected(ref UnityEngine.Matrix4x4 @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -6308,7 +6308,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void get_backgroundColor_Injected(out UnityEngine.Color  @ret)
+        public virtual void get_backgroundColor_Injected(out UnityEngine.Color @ret)
         {
 			@ret = default;
 
@@ -6321,7 +6321,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void set_backgroundColor_Injected(ref UnityEngine.Color  @value)
+        public virtual void set_backgroundColor_Injected(ref UnityEngine.Color @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -6333,7 +6333,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void get_curvature_Injected(out UnityEngine.Vector2  @ret)
+        public virtual void get_curvature_Injected(out UnityEngine.Vector2 @ret)
         {
 			@ret = default;
 
@@ -6346,7 +6346,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void set_curvature_Injected(ref UnityEngine.Vector2  @value)
+        public virtual void set_curvature_Injected(ref UnityEngine.Vector2 @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -6358,7 +6358,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void get_sensorSize_Injected(out UnityEngine.Vector2  @ret)
+        public virtual void get_sensorSize_Injected(out UnityEngine.Vector2 @ret)
         {
 			@ret = default;
 
@@ -6371,7 +6371,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void set_sensorSize_Injected(ref UnityEngine.Vector2  @value)
+        public virtual void set_sensorSize_Injected(ref UnityEngine.Vector2 @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -6383,7 +6383,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void get_lensShift_Injected(out UnityEngine.Vector2  @ret)
+        public virtual void get_lensShift_Injected(out UnityEngine.Vector2 @ret)
         {
 			@ret = default;
 
@@ -6396,7 +6396,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void set_lensShift_Injected(ref UnityEngine.Vector2  @value)
+        public virtual void set_lensShift_Injected(ref UnityEngine.Vector2 @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -6408,7 +6408,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void GetGateFittedLensShift_Injected(out UnityEngine.Vector2  @ret)
+        public virtual void GetGateFittedLensShift_Injected(out UnityEngine.Vector2 @ret)
         {
 			@ret = default;
 
@@ -6421,7 +6421,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void GetLocalSpaceAim_Injected(out UnityEngine.Vector3  @ret)
+        public virtual void GetLocalSpaceAim_Injected(out UnityEngine.Vector3 @ret)
         {
 			@ret = default;
 
@@ -6434,7 +6434,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void get_rect_Injected(out UnityEngine.Rect  @ret)
+        public virtual void get_rect_Injected(out UnityEngine.Rect @ret)
         {
 			@ret = default;
 
@@ -6447,7 +6447,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void set_rect_Injected(ref UnityEngine.Rect  @value)
+        public virtual void set_rect_Injected(ref UnityEngine.Rect @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -6459,7 +6459,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void get_pixelRect_Injected(out UnityEngine.Rect  @ret)
+        public virtual void get_pixelRect_Injected(out UnityEngine.Rect @ret)
         {
 			@ret = default;
 
@@ -6472,7 +6472,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void set_pixelRect_Injected(ref UnityEngine.Rect  @value)
+        public virtual void set_pixelRect_Injected(ref UnityEngine.Rect @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -6484,7 +6484,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SetTargetBuffersImpl_Injected(ref UnityEngine.RenderBuffer  @color, ref UnityEngine.RenderBuffer  @depth)
+        public virtual void SetTargetBuffersImpl_Injected(ref UnityEngine.RenderBuffer @color, ref UnityEngine.RenderBuffer @depth)
         {
 
             var ___genericsType = new Type[] {};
@@ -6497,7 +6497,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SetTargetBuffersMRTImpl_Injected(UnityEngine.RenderBuffer[]  @color, ref UnityEngine.RenderBuffer  @depth)
+        public virtual void SetTargetBuffersMRTImpl_Injected(UnityEngine.RenderBuffer[] @color, ref UnityEngine.RenderBuffer @depth)
         {
 
             var ___genericsType = new Type[] {};
@@ -6509,7 +6509,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void get_cameraToWorldMatrix_Injected(out UnityEngine.Matrix4x4  @ret)
+        public virtual void get_cameraToWorldMatrix_Injected(out UnityEngine.Matrix4x4 @ret)
         {
 			@ret = default;
 
@@ -6522,7 +6522,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void get_worldToCameraMatrix_Injected(out UnityEngine.Matrix4x4  @ret)
+        public virtual void get_worldToCameraMatrix_Injected(out UnityEngine.Matrix4x4 @ret)
         {
 			@ret = default;
 
@@ -6535,7 +6535,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void set_worldToCameraMatrix_Injected(ref UnityEngine.Matrix4x4  @value)
+        public virtual void set_worldToCameraMatrix_Injected(ref UnityEngine.Matrix4x4 @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -6547,7 +6547,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void get_projectionMatrix_Injected(out UnityEngine.Matrix4x4  @ret)
+        public virtual void get_projectionMatrix_Injected(out UnityEngine.Matrix4x4 @ret)
         {
 			@ret = default;
 
@@ -6560,7 +6560,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void set_projectionMatrix_Injected(ref UnityEngine.Matrix4x4  @value)
+        public virtual void set_projectionMatrix_Injected(ref UnityEngine.Matrix4x4 @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -6572,7 +6572,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void get_nonJitteredProjectionMatrix_Injected(out UnityEngine.Matrix4x4  @ret)
+        public virtual void get_nonJitteredProjectionMatrix_Injected(out UnityEngine.Matrix4x4 @ret)
         {
 			@ret = default;
 
@@ -6585,7 +6585,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void set_nonJitteredProjectionMatrix_Injected(ref UnityEngine.Matrix4x4  @value)
+        public virtual void set_nonJitteredProjectionMatrix_Injected(ref UnityEngine.Matrix4x4 @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -6597,7 +6597,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void get_previousViewProjectionMatrix_Injected(out UnityEngine.Matrix4x4  @ret)
+        public virtual void get_previousViewProjectionMatrix_Injected(out UnityEngine.Matrix4x4 @ret)
         {
 			@ret = default;
 
@@ -6610,7 +6610,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void CalculateObliqueMatrix_Injected(ref UnityEngine.Vector4  @clipPlane, out UnityEngine.Matrix4x4  @ret)
+        public virtual void CalculateObliqueMatrix_Injected(ref UnityEngine.Vector4 @clipPlane, out UnityEngine.Matrix4x4 @ret)
         {
 			@ret = default;
 
@@ -6624,7 +6624,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void WorldToScreenPoint_Injected(ref UnityEngine.Vector3  @position, RType  @eye, out UnityEngine.Vector3  @ret)
+        public virtual void WorldToScreenPoint_Injected(ref UnityEngine.Vector3 @position, RType @eye, out UnityEngine.Vector3 @ret)
         {
 			@ret = default;
 
@@ -6638,7 +6638,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void WorldToViewportPoint_Injected(ref UnityEngine.Vector3  @position, RType  @eye, out UnityEngine.Vector3  @ret)
+        public virtual void WorldToViewportPoint_Injected(ref UnityEngine.Vector3 @position, RType @eye, out UnityEngine.Vector3 @ret)
         {
 			@ret = default;
 
@@ -6652,7 +6652,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void ViewportToWorldPoint_Injected(ref UnityEngine.Vector3  @position, RType  @eye, out UnityEngine.Vector3  @ret)
+        public virtual void ViewportToWorldPoint_Injected(ref UnityEngine.Vector3 @position, RType @eye, out UnityEngine.Vector3 @ret)
         {
 			@ret = default;
 
@@ -6666,7 +6666,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void ScreenToWorldPoint_Injected(ref UnityEngine.Vector3  @position, RType  @eye, out UnityEngine.Vector3  @ret)
+        public virtual void ScreenToWorldPoint_Injected(ref UnityEngine.Vector3 @position, RType @eye, out UnityEngine.Vector3 @ret)
         {
 			@ret = default;
 
@@ -6680,7 +6680,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void ScreenToViewportPoint_Injected(ref UnityEngine.Vector3  @position, out UnityEngine.Vector3  @ret)
+        public virtual void ScreenToViewportPoint_Injected(ref UnityEngine.Vector3 @position, out UnityEngine.Vector3 @ret)
         {
 			@ret = default;
 
@@ -6694,7 +6694,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void ViewportToScreenPoint_Injected(ref UnityEngine.Vector3  @position, out UnityEngine.Vector3  @ret)
+        public virtual void ViewportToScreenPoint_Injected(ref UnityEngine.Vector3 @position, out UnityEngine.Vector3 @ret)
         {
 			@ret = default;
 
@@ -6708,7 +6708,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void GetFrustumPlaneSizeAt_Injected(System.Single  @distance, out UnityEngine.Vector2  @ret)
+        public virtual void GetFrustumPlaneSizeAt_Injected(System.Single @distance, out UnityEngine.Vector2 @ret)
         {
 			@ret = default;
 
@@ -6721,7 +6721,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void ViewportPointToRay_Injected(ref UnityEngine.Vector2  @pos, RType  @eye, out UnityEngine.Ray  @ret)
+        public virtual void ViewportPointToRay_Injected(ref UnityEngine.Vector2 @pos, RType @eye, out UnityEngine.Ray @ret)
         {
 			@ret = default;
 
@@ -6735,7 +6735,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void ScreenPointToRay_Injected(ref UnityEngine.Vector2  @pos, RType  @eye, out UnityEngine.Ray  @ret)
+        public virtual void ScreenPointToRay_Injected(ref UnityEngine.Vector2 @pos, RType @eye, out UnityEngine.Ray @ret)
         {
 			@ret = default;
 
@@ -6749,7 +6749,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void CalculateFrustumCornersInternal_Injected(ref UnityEngine.Rect  @viewport, System.Single  @z, RType  @eye, UnityEngine.Vector3[]  @outCorners)
+        public virtual void CalculateFrustumCornersInternal_Injected(ref UnityEngine.Rect @viewport, System.Single @z, RType @eye, UnityEngine.Vector3[] @outCorners)
         {
 
             var ___genericsType = new Type[] {};
@@ -6761,7 +6761,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static void CalculateProjectionMatrixFromPhysicalPropertiesInternal_Injected(out UnityEngine.Matrix4x4  @output, System.Single  @focalLength, ref UnityEngine.Vector2  @sensorSize, ref UnityEngine.Vector2  @lensShift, System.Single  @nearClip, System.Single  @farClip, System.Single  @gateAspect, RType  @gateFitMode)
+        public static void CalculateProjectionMatrixFromPhysicalPropertiesInternal_Injected(out UnityEngine.Matrix4x4 @output, System.Single @focalLength, ref UnityEngine.Vector2 @sensorSize, ref UnityEngine.Vector2 @lensShift, System.Single @nearClip, System.Single @farClip, System.Single @gateAspect, RType @gateFitMode)
         {
 			@output = default;
 
@@ -6776,7 +6776,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void get_scene_Injected(out UnityEngine.SceneManagement.Scene  @ret)
+        public virtual void get_scene_Injected(out UnityEngine.SceneManagement.Scene @ret)
         {
 			@ret = default;
 
@@ -6789,7 +6789,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void set_scene_Injected(ref UnityEngine.SceneManagement.Scene  @value)
+        public virtual void set_scene_Injected(ref UnityEngine.SceneManagement.Scene @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -6801,7 +6801,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void GetStereoNonJitteredProjectionMatrix_Injected(RType  @eye, out UnityEngine.Matrix4x4  @ret)
+        public virtual void GetStereoNonJitteredProjectionMatrix_Injected(RType @eye, out UnityEngine.Matrix4x4 @ret)
         {
 			@ret = default;
 
@@ -6814,7 +6814,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void GetStereoViewMatrix_Injected(RType  @eye, out UnityEngine.Matrix4x4  @ret)
+        public virtual void GetStereoViewMatrix_Injected(RType @eye, out UnityEngine.Matrix4x4 @ret)
         {
 			@ret = default;
 
@@ -6827,7 +6827,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void GetStereoProjectionMatrix_Injected(RType  @eye, out UnityEngine.Matrix4x4  @ret)
+        public virtual void GetStereoProjectionMatrix_Injected(RType @eye, out UnityEngine.Matrix4x4 @ret)
         {
 			@ret = default;
 
@@ -6840,7 +6840,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SetStereoProjectionMatrix_Injected(RType  @eye, ref UnityEngine.Matrix4x4  @matrix)
+        public virtual void SetStereoProjectionMatrix_Injected(RType @eye, ref UnityEngine.Matrix4x4 @matrix)
         {
 
             var ___genericsType = new Type[] {};
@@ -6852,7 +6852,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SetStereoViewMatrix_Injected(RType  @eye, ref UnityEngine.Matrix4x4  @matrix)
+        public virtual void SetStereoViewMatrix_Injected(RType @eye, ref UnityEngine.Matrix4x4 @matrix)
         {
 
             var ___genericsType = new Type[] {};
@@ -6864,7 +6864,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual UnityEngine.Component GetComponent(System.Type  @type)
+        public virtual UnityEngine.Component GetComponent(System.Type @type)
         {
 
             var ___genericsType = new Type[] {};
@@ -6875,7 +6875,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void GetComponentFastPath(System.Type  @type, System.IntPtr  @oneFurtherThanResultValue)
+        public virtual void GetComponentFastPath(System.Type @type, System.IntPtr @oneFurtherThanResultValue)
         {
 
             var ___genericsType = new Type[] {};
@@ -6897,7 +6897,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Boolean TryGetComponent(System.Type  @type, out UnityEngine.Component  @component)
+        public virtual System.Boolean TryGetComponent(System.Type @type, out UnityEngine.Component @component)
         {
 			@component = default;
 
@@ -6910,7 +6910,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Boolean TryGetComponent<T>(out T  @component)
+        public virtual System.Boolean TryGetComponent<T>(out T @component)
         {
 			@component = default;
 
@@ -6923,7 +6923,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual UnityEngine.Component GetComponent(System.String  @type)
+        public virtual UnityEngine.Component GetComponent(System.String @type)
         {
 
             var ___genericsType = new Type[] {};
@@ -6934,7 +6934,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual UnityEngine.Component GetComponentInChildren(System.Type  @t, System.Boolean  @includeInactive)
+        public virtual UnityEngine.Component GetComponentInChildren(System.Type @t, System.Boolean @includeInactive)
         {
 
             var ___genericsType = new Type[] {};
@@ -6945,7 +6945,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual UnityEngine.Component GetComponentInChildren(System.Type  @t)
+        public virtual UnityEngine.Component GetComponentInChildren(System.Type @t)
         {
 
             var ___genericsType = new Type[] {};
@@ -6956,7 +6956,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual T GetComponentInChildren<T>(System.Boolean  @includeInactive)
+        public virtual T GetComponentInChildren<T>(System.Boolean @includeInactive)
         {
 
             var ___genericsType = new Type[] {typeof(T)};
@@ -6978,7 +6978,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual UnityEngine.Component[] GetComponentsInChildren(System.Type  @t, System.Boolean  @includeInactive)
+        public virtual UnityEngine.Component[] GetComponentsInChildren(System.Type @t, System.Boolean @includeInactive)
         {
 
             var ___genericsType = new Type[] {};
@@ -6989,7 +6989,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual UnityEngine.Component[] GetComponentsInChildren(System.Type  @t)
+        public virtual UnityEngine.Component[] GetComponentsInChildren(System.Type @t)
         {
 
             var ___genericsType = new Type[] {};
@@ -7000,7 +7000,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual T[] GetComponentsInChildren<T>(System.Boolean  @includeInactive)
+        public virtual T[] GetComponentsInChildren<T>(System.Boolean @includeInactive)
         {
 
             var ___genericsType = new Type[] {typeof(T)};
@@ -7011,7 +7011,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void GetComponentsInChildren<T>(System.Boolean  @includeInactive, System.Collections.Generic.List<T>  @result)
+        public virtual void GetComponentsInChildren<T>(System.Boolean @includeInactive, System.Collections.Generic.List<T> @result)
         {
 
             var ___genericsType = new Type[] {typeof(T)};
@@ -7033,7 +7033,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void GetComponentsInChildren<T>(System.Collections.Generic.List<T>  @results)
+        public virtual void GetComponentsInChildren<T>(System.Collections.Generic.List<T> @results)
         {
 
             var ___genericsType = new Type[] {typeof(T)};
@@ -7044,7 +7044,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual UnityEngine.Component GetComponentInParent(System.Type  @t, System.Boolean  @includeInactive)
+        public virtual UnityEngine.Component GetComponentInParent(System.Type @t, System.Boolean @includeInactive)
         {
 
             var ___genericsType = new Type[] {};
@@ -7055,7 +7055,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual UnityEngine.Component GetComponentInParent(System.Type  @t)
+        public virtual UnityEngine.Component GetComponentInParent(System.Type @t)
         {
 
             var ___genericsType = new Type[] {};
@@ -7066,7 +7066,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual T GetComponentInParent<T>(System.Boolean  @includeInactive)
+        public virtual T GetComponentInParent<T>(System.Boolean @includeInactive)
         {
 
             var ___genericsType = new Type[] {typeof(T)};
@@ -7088,7 +7088,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual UnityEngine.Component[] GetComponentsInParent(System.Type  @t, System.Boolean  @includeInactive)
+        public virtual UnityEngine.Component[] GetComponentsInParent(System.Type @t, System.Boolean @includeInactive)
         {
 
             var ___genericsType = new Type[] {};
@@ -7099,7 +7099,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual UnityEngine.Component[] GetComponentsInParent(System.Type  @t)
+        public virtual UnityEngine.Component[] GetComponentsInParent(System.Type @t)
         {
 
             var ___genericsType = new Type[] {};
@@ -7110,7 +7110,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual T[] GetComponentsInParent<T>(System.Boolean  @includeInactive)
+        public virtual T[] GetComponentsInParent<T>(System.Boolean @includeInactive)
         {
 
             var ___genericsType = new Type[] {typeof(T)};
@@ -7121,7 +7121,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void GetComponentsInParent<T>(System.Boolean  @includeInactive, System.Collections.Generic.List<T>  @results)
+        public virtual void GetComponentsInParent<T>(System.Boolean @includeInactive, System.Collections.Generic.List<T> @results)
         {
 
             var ___genericsType = new Type[] {typeof(T)};
@@ -7143,7 +7143,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual UnityEngine.Component[] GetComponents(System.Type  @type)
+        public virtual UnityEngine.Component[] GetComponents(System.Type @type)
         {
 
             var ___genericsType = new Type[] {};
@@ -7154,7 +7154,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void GetComponents(System.Type  @type, System.Collections.Generic.List<UnityEngine.Component>  @results)
+        public virtual void GetComponents(System.Type @type, System.Collections.Generic.List<UnityEngine.Component> @results)
         {
 
             var ___genericsType = new Type[] {};
@@ -7165,7 +7165,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void GetComponents<T>(System.Collections.Generic.List<T>  @results)
+        public virtual void GetComponents<T>(System.Collections.Generic.List<T> @results)
         {
 
             var ___genericsType = new Type[] {typeof(T)};
@@ -7187,7 +7187,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Boolean CompareTag(System.String  @tag)
+        public virtual System.Boolean CompareTag(System.String @tag)
         {
 
             var ___genericsType = new Type[] {};
@@ -7220,7 +7220,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SendMessageUpwards(System.String  @methodName, System.Object  @value, UnityEngine.SendMessageOptions  @options)
+        public virtual void SendMessageUpwards(System.String @methodName, System.Object @value, UnityEngine.SendMessageOptions @options)
         {
 
             var ___genericsType = new Type[] {};
@@ -7231,7 +7231,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SendMessageUpwards(System.String  @methodName, System.Object  @value)
+        public virtual void SendMessageUpwards(System.String @methodName, System.Object @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -7242,7 +7242,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SendMessageUpwards(System.String  @methodName)
+        public virtual void SendMessageUpwards(System.String @methodName)
         {
 
             var ___genericsType = new Type[] {};
@@ -7253,7 +7253,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SendMessageUpwards(System.String  @methodName, UnityEngine.SendMessageOptions  @options)
+        public virtual void SendMessageUpwards(System.String @methodName, UnityEngine.SendMessageOptions @options)
         {
 
             var ___genericsType = new Type[] {};
@@ -7264,7 +7264,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SendMessage(System.String  @methodName, System.Object  @value)
+        public virtual void SendMessage(System.String @methodName, System.Object @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -7275,7 +7275,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SendMessage(System.String  @methodName)
+        public virtual void SendMessage(System.String @methodName)
         {
 
             var ___genericsType = new Type[] {};
@@ -7286,7 +7286,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SendMessage(System.String  @methodName, System.Object  @value, UnityEngine.SendMessageOptions  @options)
+        public virtual void SendMessage(System.String @methodName, System.Object @value, UnityEngine.SendMessageOptions @options)
         {
 
             var ___genericsType = new Type[] {};
@@ -7297,7 +7297,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SendMessage(System.String  @methodName, UnityEngine.SendMessageOptions  @options)
+        public virtual void SendMessage(System.String @methodName, UnityEngine.SendMessageOptions @options)
         {
 
             var ___genericsType = new Type[] {};
@@ -7308,7 +7308,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void BroadcastMessage(System.String  @methodName, System.Object  @parameter, UnityEngine.SendMessageOptions  @options)
+        public virtual void BroadcastMessage(System.String @methodName, System.Object @parameter, UnityEngine.SendMessageOptions @options)
         {
 
             var ___genericsType = new Type[] {};
@@ -7319,7 +7319,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void BroadcastMessage(System.String  @methodName, System.Object  @parameter)
+        public virtual void BroadcastMessage(System.String @methodName, System.Object @parameter)
         {
 
             var ___genericsType = new Type[] {};
@@ -7330,7 +7330,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void BroadcastMessage(System.String  @methodName)
+        public virtual void BroadcastMessage(System.String @methodName)
         {
 
             var ___genericsType = new Type[] {};
@@ -7341,7 +7341,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void BroadcastMessage(System.String  @methodName, UnityEngine.SendMessageOptions  @options)
+        public virtual void BroadcastMessage(System.String @methodName, UnityEngine.SendMessageOptions @options)
         {
 
             var ___genericsType = new Type[] {};
@@ -7374,7 +7374,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @other)
+        public virtual System.Boolean Equals(System.Object @other)
         {
 
             var ___genericsType = new Type[] {};

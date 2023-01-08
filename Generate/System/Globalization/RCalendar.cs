@@ -1892,7 +1892,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public static System.Globalization.Calendar ReadOnly(System.Globalization.Calendar  @calendar)
+        public static System.Globalization.Calendar ReadOnly(System.Globalization.Calendar @calendar)
         {
 
             var ___genericsType = new Type[] {};
@@ -1914,7 +1914,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public virtual void SetReadOnlyState(System.Boolean  @readOnly)
+        public virtual void SetReadOnlyState(System.Boolean @readOnly)
         {
 
             var ___genericsType = new Type[] {};
@@ -1925,7 +1925,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public static void CheckAddResult(System.Int64  @ticks, System.DateTime  @minValue, System.DateTime  @maxValue)
+        public static void CheckAddResult(System.Int64 @ticks, System.DateTime @minValue, System.DateTime @maxValue)
         {
 
             var ___genericsType = new Type[] {};
@@ -1936,7 +1936,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public virtual System.DateTime Add(System.DateTime  @time, System.Double  @value, System.Int32  @scale)
+        public virtual System.DateTime Add(System.DateTime @time, System.Double @value, System.Int32 @scale)
         {
 
             var ___genericsType = new Type[] {};
@@ -1947,7 +1947,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public virtual System.DateTime AddMilliseconds(System.DateTime  @time, System.Double  @milliseconds)
+        public virtual System.DateTime AddMilliseconds(System.DateTime @time, System.Double @milliseconds)
         {
 
             var ___genericsType = new Type[] {};
@@ -1958,7 +1958,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public virtual System.DateTime AddDays(System.DateTime  @time, System.Int32  @days)
+        public virtual System.DateTime AddDays(System.DateTime @time, System.Int32 @days)
         {
 
             var ___genericsType = new Type[] {};
@@ -1969,7 +1969,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public virtual System.DateTime AddHours(System.DateTime  @time, System.Int32  @hours)
+        public virtual System.DateTime AddHours(System.DateTime @time, System.Int32 @hours)
         {
 
             var ___genericsType = new Type[] {};
@@ -1980,7 +1980,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public virtual System.DateTime AddMinutes(System.DateTime  @time, System.Int32  @minutes)
+        public virtual System.DateTime AddMinutes(System.DateTime @time, System.Int32 @minutes)
         {
 
             var ___genericsType = new Type[] {};
@@ -1991,7 +1991,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public virtual System.DateTime AddMonths(System.DateTime  @time, System.Int32  @months)
+        public virtual System.DateTime AddMonths(System.DateTime @time, System.Int32 @months)
         {
 
             var ___genericsType = new Type[] {};
@@ -2002,7 +2002,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public virtual System.DateTime AddSeconds(System.DateTime  @time, System.Int32  @seconds)
+        public virtual System.DateTime AddSeconds(System.DateTime @time, System.Int32 @seconds)
         {
 
             var ___genericsType = new Type[] {};
@@ -2013,7 +2013,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public virtual System.DateTime AddWeeks(System.DateTime  @time, System.Int32  @weeks)
+        public virtual System.DateTime AddWeeks(System.DateTime @time, System.Int32 @weeks)
         {
 
             var ___genericsType = new Type[] {};
@@ -2024,7 +2024,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public virtual System.DateTime AddYears(System.DateTime  @time, System.Int32  @years)
+        public virtual System.DateTime AddYears(System.DateTime @time, System.Int32 @years)
         {
 
             var ___genericsType = new Type[] {};
@@ -2035,7 +2035,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public virtual System.Int32 GetDayOfMonth(System.DateTime  @time)
+        public virtual System.Int32 GetDayOfMonth(System.DateTime @time)
         {
 
             var ___genericsType = new Type[] {};
@@ -2046,7 +2046,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public virtual System.DayOfWeek GetDayOfWeek(System.DateTime  @time)
+        public virtual System.DayOfWeek GetDayOfWeek(System.DateTime @time)
         {
 
             var ___genericsType = new Type[] {};
@@ -2057,7 +2057,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public virtual System.Int32 GetDayOfYear(System.DateTime  @time)
+        public virtual System.Int32 GetDayOfYear(System.DateTime @time)
         {
 
             var ___genericsType = new Type[] {};
@@ -2068,7 +2068,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public virtual System.Int32 GetDaysInMonth(System.Int32  @year, System.Int32  @month)
+        public virtual System.Int32 GetDaysInMonth(System.Int32 @year, System.Int32 @month)
         {
 
             var ___genericsType = new Type[] {};
@@ -2079,7 +2079,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public virtual System.Int32 GetDaysInMonth(System.Int32  @year, System.Int32  @month, System.Int32  @era)
+        public virtual System.Int32 GetDaysInMonth(System.Int32 @year, System.Int32 @month, System.Int32 @era)
         {
 
             var ___genericsType = new Type[] {};
@@ -2090,7 +2090,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public virtual System.Int32 GetDaysInYear(System.Int32  @year)
+        public virtual System.Int32 GetDaysInYear(System.Int32 @year)
         {
 
             var ___genericsType = new Type[] {};
@@ -2101,7 +2101,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public virtual System.Int32 GetDaysInYear(System.Int32  @year, System.Int32  @era)
+        public virtual System.Int32 GetDaysInYear(System.Int32 @year, System.Int32 @era)
         {
 
             var ___genericsType = new Type[] {};
@@ -2112,7 +2112,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public virtual System.Int32 GetEra(System.DateTime  @time)
+        public virtual System.Int32 GetEra(System.DateTime @time)
         {
 
             var ___genericsType = new Type[] {};
@@ -2123,7 +2123,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public virtual System.Int32 GetHour(System.DateTime  @time)
+        public virtual System.Int32 GetHour(System.DateTime @time)
         {
 
             var ___genericsType = new Type[] {};
@@ -2134,7 +2134,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public virtual System.Double GetMilliseconds(System.DateTime  @time)
+        public virtual System.Double GetMilliseconds(System.DateTime @time)
         {
 
             var ___genericsType = new Type[] {};
@@ -2145,7 +2145,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public virtual System.Int32 GetMinute(System.DateTime  @time)
+        public virtual System.Int32 GetMinute(System.DateTime @time)
         {
 
             var ___genericsType = new Type[] {};
@@ -2156,7 +2156,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public virtual System.Int32 GetMonth(System.DateTime  @time)
+        public virtual System.Int32 GetMonth(System.DateTime @time)
         {
 
             var ___genericsType = new Type[] {};
@@ -2167,7 +2167,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public virtual System.Int32 GetMonthsInYear(System.Int32  @year)
+        public virtual System.Int32 GetMonthsInYear(System.Int32 @year)
         {
 
             var ___genericsType = new Type[] {};
@@ -2178,7 +2178,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public virtual System.Int32 GetMonthsInYear(System.Int32  @year, System.Int32  @era)
+        public virtual System.Int32 GetMonthsInYear(System.Int32 @year, System.Int32 @era)
         {
 
             var ___genericsType = new Type[] {};
@@ -2189,7 +2189,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public virtual System.Int32 GetSecond(System.DateTime  @time)
+        public virtual System.Int32 GetSecond(System.DateTime @time)
         {
 
             var ___genericsType = new Type[] {};
@@ -2200,7 +2200,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public virtual System.Int32 GetFirstDayWeekOfYear(System.DateTime  @time, System.Int32  @firstDayOfWeek)
+        public virtual System.Int32 GetFirstDayWeekOfYear(System.DateTime @time, System.Int32 @firstDayOfWeek)
         {
 
             var ___genericsType = new Type[] {};
@@ -2211,7 +2211,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public virtual System.Int32 GetWeekOfYearFullDays(System.DateTime  @time, System.Int32  @firstDayOfWeek, System.Int32  @fullDays)
+        public virtual System.Int32 GetWeekOfYearFullDays(System.DateTime @time, System.Int32 @firstDayOfWeek, System.Int32 @fullDays)
         {
 
             var ___genericsType = new Type[] {};
@@ -2222,7 +2222,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public virtual System.Int32 GetWeekOfYearOfMinSupportedDateTime(System.Int32  @firstDayOfWeek, System.Int32  @minimumDaysInFirstWeek)
+        public virtual System.Int32 GetWeekOfYearOfMinSupportedDateTime(System.Int32 @firstDayOfWeek, System.Int32 @minimumDaysInFirstWeek)
         {
 
             var ___genericsType = new Type[] {};
@@ -2233,7 +2233,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public virtual System.Int32 GetWeekOfYear(System.DateTime  @time, System.Globalization.CalendarWeekRule  @rule, System.DayOfWeek  @firstDayOfWeek)
+        public virtual System.Int32 GetWeekOfYear(System.DateTime @time, System.Globalization.CalendarWeekRule @rule, System.DayOfWeek @firstDayOfWeek)
         {
 
             var ___genericsType = new Type[] {};
@@ -2244,7 +2244,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public virtual System.Int32 GetYear(System.DateTime  @time)
+        public virtual System.Int32 GetYear(System.DateTime @time)
         {
 
             var ___genericsType = new Type[] {};
@@ -2255,7 +2255,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public virtual System.Boolean IsLeapDay(System.Int32  @year, System.Int32  @month, System.Int32  @day)
+        public virtual System.Boolean IsLeapDay(System.Int32 @year, System.Int32 @month, System.Int32 @day)
         {
 
             var ___genericsType = new Type[] {};
@@ -2266,7 +2266,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public virtual System.Boolean IsLeapDay(System.Int32  @year, System.Int32  @month, System.Int32  @day, System.Int32  @era)
+        public virtual System.Boolean IsLeapDay(System.Int32 @year, System.Int32 @month, System.Int32 @day, System.Int32 @era)
         {
 
             var ___genericsType = new Type[] {};
@@ -2277,7 +2277,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public virtual System.Boolean IsLeapMonth(System.Int32  @year, System.Int32  @month)
+        public virtual System.Boolean IsLeapMonth(System.Int32 @year, System.Int32 @month)
         {
 
             var ___genericsType = new Type[] {};
@@ -2288,7 +2288,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public virtual System.Boolean IsLeapMonth(System.Int32  @year, System.Int32  @month, System.Int32  @era)
+        public virtual System.Boolean IsLeapMonth(System.Int32 @year, System.Int32 @month, System.Int32 @era)
         {
 
             var ___genericsType = new Type[] {};
@@ -2299,7 +2299,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public virtual System.Int32 GetLeapMonth(System.Int32  @year)
+        public virtual System.Int32 GetLeapMonth(System.Int32 @year)
         {
 
             var ___genericsType = new Type[] {};
@@ -2310,7 +2310,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public virtual System.Int32 GetLeapMonth(System.Int32  @year, System.Int32  @era)
+        public virtual System.Int32 GetLeapMonth(System.Int32 @year, System.Int32 @era)
         {
 
             var ___genericsType = new Type[] {};
@@ -2321,7 +2321,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public virtual System.Boolean IsLeapYear(System.Int32  @year)
+        public virtual System.Boolean IsLeapYear(System.Int32 @year)
         {
 
             var ___genericsType = new Type[] {};
@@ -2332,7 +2332,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public virtual System.Boolean IsLeapYear(System.Int32  @year, System.Int32  @era)
+        public virtual System.Boolean IsLeapYear(System.Int32 @year, System.Int32 @era)
         {
 
             var ___genericsType = new Type[] {};
@@ -2343,7 +2343,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public virtual System.DateTime ToDateTime(System.Int32  @year, System.Int32  @month, System.Int32  @day, System.Int32  @hour, System.Int32  @minute, System.Int32  @second, System.Int32  @millisecond)
+        public virtual System.DateTime ToDateTime(System.Int32 @year, System.Int32 @month, System.Int32 @day, System.Int32 @hour, System.Int32 @minute, System.Int32 @second, System.Int32 @millisecond)
         {
 
             var ___genericsType = new Type[] {};
@@ -2354,7 +2354,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public virtual System.DateTime ToDateTime(System.Int32  @year, System.Int32  @month, System.Int32  @day, System.Int32  @hour, System.Int32  @minute, System.Int32  @second, System.Int32  @millisecond, System.Int32  @era)
+        public virtual System.DateTime ToDateTime(System.Int32 @year, System.Int32 @month, System.Int32 @day, System.Int32 @hour, System.Int32 @minute, System.Int32 @second, System.Int32 @millisecond, System.Int32 @era)
         {
 
             var ___genericsType = new Type[] {};
@@ -2365,7 +2365,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public virtual System.Boolean TryToDateTime(System.Int32  @year, System.Int32  @month, System.Int32  @day, System.Int32  @hour, System.Int32  @minute, System.Int32  @second, System.Int32  @millisecond, System.Int32  @era, out System.DateTime  @result)
+        public virtual System.Boolean TryToDateTime(System.Int32 @year, System.Int32 @month, System.Int32 @day, System.Int32 @hour, System.Int32 @minute, System.Int32 @second, System.Int32 @millisecond, System.Int32 @era, out System.DateTime @result)
         {
 			@result = default;
 
@@ -2378,7 +2378,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public virtual System.Boolean IsValidYear(System.Int32  @year, System.Int32  @era)
+        public virtual System.Boolean IsValidYear(System.Int32 @year, System.Int32 @era)
         {
 
             var ___genericsType = new Type[] {};
@@ -2389,7 +2389,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public virtual System.Boolean IsValidMonth(System.Int32  @year, System.Int32  @month, System.Int32  @era)
+        public virtual System.Boolean IsValidMonth(System.Int32 @year, System.Int32 @month, System.Int32 @era)
         {
 
             var ___genericsType = new Type[] {};
@@ -2400,7 +2400,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public virtual System.Boolean IsValidDay(System.Int32  @year, System.Int32  @month, System.Int32  @day, System.Int32  @era)
+        public virtual System.Boolean IsValidDay(System.Int32 @year, System.Int32 @month, System.Int32 @day, System.Int32 @era)
         {
 
             var ___genericsType = new Type[] {};
@@ -2411,7 +2411,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public virtual System.Int32 ToFourDigitYear(System.Int32  @year)
+        public virtual System.Int32 ToFourDigitYear(System.Int32 @year)
         {
 
             var ___genericsType = new Type[] {};
@@ -2422,7 +2422,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public static System.Int64 TimeToTicks(System.Int32  @hour, System.Int32  @minute, System.Int32  @second, System.Int32  @millisecond)
+        public static System.Int64 TimeToTicks(System.Int32 @hour, System.Int32 @minute, System.Int32 @second, System.Int32 @millisecond)
         {
 
             var ___genericsType = new Type[] {};
@@ -2433,7 +2433,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public static System.Int32 GetSystemTwoDigitYearSetting(System.Int32  @CalID, System.Int32  @defaultYearValue)
+        public static System.Int32 GetSystemTwoDigitYearSetting(System.Int32 @CalID, System.Int32 @defaultYearValue)
         {
 
             var ___genericsType = new Type[] {};
@@ -2444,7 +2444,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

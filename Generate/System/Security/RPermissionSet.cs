@@ -997,7 +997,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
 	    {
 	    }
 
-        public virtual System.Security.IPermission AddPermission(System.Security.IPermission  @perm)
+        public virtual System.Security.IPermission AddPermission(System.Security.IPermission @perm)
         {
 
             var ___genericsType = new Type[] {};
@@ -1041,7 +1041,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
         }
 
 
-        public virtual void CopyTo(System.Array  @array, System.Int32  @index)
+        public virtual void CopyTo(System.Array @array, System.Int32 @index)
         {
 
             var ___genericsType = new Type[] {};
@@ -1063,7 +1063,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
         }
 
 
-        public virtual void CasOnlyDemand(System.Int32  @skip)
+        public virtual void CasOnlyDemand(System.Int32 @skip)
         {
 
             var ___genericsType = new Type[] {};
@@ -1085,7 +1085,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
         }
 
 
-        public virtual void FromXml(System.Security.SecurityElement  @et)
+        public virtual void FromXml(System.Security.SecurityElement @et)
         {
 
             var ___genericsType = new Type[] {};
@@ -1107,7 +1107,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
         }
 
 
-        public virtual System.Boolean IsSubsetOf(System.Security.PermissionSet  @target)
+        public virtual System.Boolean IsSubsetOf(System.Security.PermissionSet @target)
         {
 
             var ___genericsType = new Type[] {};
@@ -1140,7 +1140,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
         }
 
 
-        public static System.Byte[] ConvertPermissionSet(System.String  @inFormat, System.Byte[]  @inData, System.String  @outFormat)
+        public static System.Byte[] ConvertPermissionSet(System.String @inFormat, System.Byte[] @inData, System.String @outFormat)
         {
 
             var ___genericsType = new Type[] {};
@@ -1151,7 +1151,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
         }
 
 
-        public virtual System.Security.IPermission GetPermission(System.Type  @permClass)
+        public virtual System.Security.IPermission GetPermission(System.Type @permClass)
         {
 
             var ___genericsType = new Type[] {};
@@ -1162,7 +1162,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
         }
 
 
-        public virtual System.Security.PermissionSet Intersect(System.Security.PermissionSet  @other)
+        public virtual System.Security.PermissionSet Intersect(System.Security.PermissionSet @other)
         {
 
             var ___genericsType = new Type[] {};
@@ -1173,7 +1173,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
         }
 
 
-        public virtual void InternalIntersect(System.Security.PermissionSet  @intersect, System.Security.PermissionSet  @a, System.Security.PermissionSet  @b, System.Boolean  @unrestricted)
+        public virtual void InternalIntersect(System.Security.PermissionSet @intersect, System.Security.PermissionSet @a, System.Security.PermissionSet @b, System.Boolean @unrestricted)
         {
 
             var ___genericsType = new Type[] {};
@@ -1206,7 +1206,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
         }
 
 
-        public virtual System.Security.IPermission RemovePermission(System.Type  @permClass)
+        public virtual System.Security.IPermission RemovePermission(System.Type @permClass)
         {
 
             var ___genericsType = new Type[] {};
@@ -1217,7 +1217,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
         }
 
 
-        public virtual System.Security.IPermission SetPermission(System.Security.IPermission  @perm)
+        public virtual System.Security.IPermission SetPermission(System.Security.IPermission @perm)
         {
 
             var ___genericsType = new Type[] {};
@@ -1250,7 +1250,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
         }
 
 
-        public virtual System.Security.PermissionSet Union(System.Security.PermissionSet  @other)
+        public virtual System.Security.PermissionSet Union(System.Security.PermissionSet @other)
         {
 
             var ___genericsType = new Type[] {};
@@ -1261,7 +1261,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
         }
 
 
-        public virtual void System__2__Runtime__2__Serialization__2__IDeserializationCallback__2__OnDeserialization(System.Object  @sender)
+        public virtual void System__2__Runtime__2__Serialization__2__IDeserializationCallback__2__OnDeserialization(System.Object @sender)
         {
 
             var ___genericsType = new Type[] {};
@@ -1272,7 +1272,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};
@@ -1305,7 +1305,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
         }
 
 
-        public virtual void SetReadOnly(System.Boolean  @value)
+        public virtual void SetReadOnly(System.Boolean @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -1327,7 +1327,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
         }
 
 
-        public static System.Security.PermissionSet CreateFromBinaryFormat(System.Byte[]  @data)
+        public static System.Security.PermissionSet CreateFromBinaryFormat(System.Byte[] @data)
         {
 
             var ___genericsType = new Type[] {};
@@ -1338,7 +1338,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
         }
 
 
-        public static System.Int32 ReadEncodedInt(System.Byte[]  @data, ref System.Int32  @position)
+        public static System.Int32 ReadEncodedInt(System.Byte[] @data, ref System.Int32 @position)
         {
 
             var ___genericsType = new Type[] {};
@@ -1350,7 +1350,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
         }
 
 
-        public static System.Security.IPermission ProcessAttribute(System.Byte[]  @data, ref System.Int32  @position)
+        public static System.Security.IPermission ProcessAttribute(System.Byte[] @data, ref System.Int32 @position)
         {
 
             var ___genericsType = new Type[] {};
@@ -1362,7 +1362,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
         }
 
 
-        public virtual System.Security.IPermission AddPermissionImpl(System.Security.IPermission  @perm)
+        public virtual System.Security.IPermission AddPermissionImpl(System.Security.IPermission @perm)
         {
 
             var ___genericsType = new Type[] {};
@@ -1384,7 +1384,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
         }
 
 
-        public virtual System.Security.IPermission GetPermissionImpl(System.Type  @permClass)
+        public virtual System.Security.IPermission GetPermissionImpl(System.Type @permClass)
         {
 
             var ___genericsType = new Type[] {};
@@ -1395,7 +1395,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
         }
 
 
-        public virtual System.Security.IPermission RemovePermissionImpl(System.Type  @permClass)
+        public virtual System.Security.IPermission RemovePermissionImpl(System.Type @permClass)
         {
 
             var ___genericsType = new Type[] {};
@@ -1406,7 +1406,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
         }
 
 
-        public virtual System.Security.IPermission SetPermissionImpl(System.Security.IPermission  @perm)
+        public virtual System.Security.IPermission SetPermissionImpl(System.Security.IPermission @perm)
         {
 
             var ___genericsType = new Type[] {};

@@ -1150,7 +1150,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 	    {
 	    }
 
-        public virtual void OnDeserializing(System.Runtime.Serialization.StreamingContext  @ctx)
+        public virtual void OnDeserializing(System.Runtime.Serialization.StreamingContext @ctx)
         {
 
             var ___genericsType = new Type[] {};
@@ -1172,7 +1172,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public virtual void OnDeserialized(System.Runtime.Serialization.StreamingContext  @ctx)
+        public virtual void OnDeserialized(System.Runtime.Serialization.StreamingContext @ctx)
         {
 
             var ___genericsType = new Type[] {};
@@ -1183,7 +1183,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public virtual void OnSerializing(System.Runtime.Serialization.StreamingContext  @ctx)
+        public virtual void OnSerializing(System.Runtime.Serialization.StreamingContext @ctx)
         {
 
             var ___genericsType = new Type[] {};
@@ -1194,7 +1194,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public static System.Int32 GetHashCodeOrdinalIgnoreCase(System.String  @s)
+        public static System.Int32 GetHashCodeOrdinalIgnoreCase(System.String @s)
         {
 
             var ___genericsType = new Type[] {};
@@ -1205,7 +1205,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public static System.Int32 GetHashCodeOrdinalIgnoreCase(System.String  @s, System.Boolean  @forceRandomizedHashing, System.Int64  @additionalEntropy)
+        public static System.Int32 GetHashCodeOrdinalIgnoreCase(System.String @s, System.Boolean @forceRandomizedHashing, System.Int64 @additionalEntropy)
         {
 
             var ___genericsType = new Type[] {};
@@ -1216,7 +1216,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public static System.Int32 CompareOrdinalIgnoreCaseEx(System.String  @strA, System.Int32  @indexA, System.String  @strB, System.Int32  @indexB, System.Int32  @lengthA, System.Int32  @lengthB)
+        public static System.Int32 CompareOrdinalIgnoreCaseEx(System.String @strA, System.Int32 @indexA, System.String @strB, System.Int32 @indexB, System.Int32 @lengthA, System.Int32 @lengthB)
         {
 
             var ___genericsType = new Type[] {};
@@ -1227,7 +1227,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public static System.Int32 IndexOfStringOrdinalIgnoreCase(System.String  @source, System.String  @value, System.Int32  @startIndex, System.Int32  @count)
+        public static System.Int32 IndexOfStringOrdinalIgnoreCase(System.String @source, System.String @value, System.Int32 @startIndex, System.Int32 @count)
         {
 
             var ___genericsType = new Type[] {};
@@ -1238,7 +1238,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public static System.Int32 LastIndexOfStringOrdinalIgnoreCase(System.String  @source, System.String  @value, System.Int32  @startIndex, System.Int32  @count)
+        public static System.Int32 LastIndexOfStringOrdinalIgnoreCase(System.String @source, System.String @value, System.Int32 @startIndex, System.Int32 @count)
         {
 
             var ___genericsType = new Type[] {};
@@ -1260,7 +1260,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public static System.Globalization.TextInfo ReadOnly(System.Globalization.TextInfo  @textInfo)
+        public static System.Globalization.TextInfo ReadOnly(System.Globalization.TextInfo @textInfo)
         {
 
             var ___genericsType = new Type[] {};
@@ -1282,7 +1282,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public virtual void SetReadOnlyState(System.Boolean  @readOnly)
+        public virtual void SetReadOnlyState(System.Boolean @readOnly)
         {
 
             var ___genericsType = new Type[] {};
@@ -1293,7 +1293,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public virtual System.Char ToLower(System.Char  @c)
+        public virtual System.Char ToLower(System.Char @c)
         {
 
             var ___genericsType = new Type[] {};
@@ -1304,7 +1304,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public virtual System.String ToLower(System.String  @str)
+        public virtual System.String ToLower(System.String @str)
         {
 
             var ___genericsType = new Type[] {};
@@ -1315,7 +1315,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public static System.Char ToLowerAsciiInvariant(System.Char  @c)
+        public static System.Char ToLowerAsciiInvariant(System.Char @c)
         {
 
             var ___genericsType = new Type[] {};
@@ -1326,7 +1326,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public virtual System.Char ToUpper(System.Char  @c)
+        public virtual System.Char ToUpper(System.Char @c)
         {
 
             var ___genericsType = new Type[] {};
@@ -1337,7 +1337,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public virtual System.String ToUpper(System.String  @str)
+        public virtual System.String ToUpper(System.String @str)
         {
 
             var ___genericsType = new Type[] {};
@@ -1348,7 +1348,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public static System.Char ToUpperAsciiInvariant(System.Char  @c)
+        public static System.Char ToUpperAsciiInvariant(System.Char @c)
         {
 
             var ___genericsType = new Type[] {};
@@ -1359,7 +1359,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public static System.Boolean IsAscii(System.Char  @c)
+        public static System.Boolean IsAscii(System.Char @c)
         {
 
             var ___genericsType = new Type[] {};
@@ -1370,7 +1370,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};
@@ -1403,7 +1403,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public virtual System.String ToTitleCase(System.String  @str)
+        public virtual System.String ToTitleCase(System.String @str)
         {
 
             var ___genericsType = new Type[] {};
@@ -1414,7 +1414,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public static System.Int32 AddNonLetter(ref System.Text.StringBuilder  @result, ref System.String  @input, System.Int32  @inputIndex, System.Int32  @charLen)
+        public static System.Int32 AddNonLetter(ref System.Text.StringBuilder @result, ref System.String @input, System.Int32 @inputIndex, System.Int32 @charLen)
         {
 
             var ___genericsType = new Type[] {};
@@ -1427,7 +1427,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public virtual System.Int32 AddTitlecaseLetter(ref System.Text.StringBuilder  @result, ref System.String  @input, System.Int32  @inputIndex, System.Int32  @charLen)
+        public virtual System.Int32 AddTitlecaseLetter(ref System.Text.StringBuilder @result, ref System.String @input, System.Int32 @inputIndex, System.Int32 @charLen)
         {
 
             var ___genericsType = new Type[] {};
@@ -1440,7 +1440,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public static System.Boolean IsWordSeparator(System.Globalization.UnicodeCategory  @category)
+        public static System.Boolean IsWordSeparator(System.Globalization.UnicodeCategory @category)
         {
 
             var ___genericsType = new Type[] {};
@@ -1451,7 +1451,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public static System.Boolean IsLetterCategory(System.Globalization.UnicodeCategory  @uc)
+        public static System.Boolean IsLetterCategory(System.Globalization.UnicodeCategory @uc)
         {
 
             var ___genericsType = new Type[] {};
@@ -1462,7 +1462,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public virtual void System__2__Runtime__2__Serialization__2__IDeserializationCallback__2__OnDeserialization(System.Object  @sender)
+        public virtual void System__2__Runtime__2__Serialization__2__IDeserializationCallback__2__OnDeserialization(System.Object @sender)
         {
 
             var ___genericsType = new Type[] {};
@@ -1473,7 +1473,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public virtual System.Int32 GetCaseInsensitiveHashCode(System.String  @str)
+        public virtual System.Int32 GetCaseInsensitiveHashCode(System.String @str)
         {
 
             var ___genericsType = new Type[] {};
@@ -1484,7 +1484,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public virtual System.Int32 GetCaseInsensitiveHashCode(System.String  @str, System.Boolean  @forceRandomizedHashing, System.Int64  @additionalEntropy)
+        public virtual System.Int32 GetCaseInsensitiveHashCode(System.String @str, System.Boolean @forceRandomizedHashing, System.Int64 @additionalEntropy)
         {
 
             var ___genericsType = new Type[] {};
@@ -1495,7 +1495,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public virtual System.Int32 GetInvariantCaseInsensitiveHashCode(System.String  @str)
+        public virtual System.Int32 GetInvariantCaseInsensitiveHashCode(System.String @str)
         {
 
             var ___genericsType = new Type[] {};
@@ -1506,7 +1506,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public virtual System.String ToUpperInternal(System.String  @str)
+        public virtual System.String ToUpperInternal(System.String @str)
         {
 
             var ___genericsType = new Type[] {};
@@ -1517,7 +1517,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public virtual System.String ToLowerInternal(System.String  @str)
+        public virtual System.String ToLowerInternal(System.String @str)
         {
 
             var ___genericsType = new Type[] {};
@@ -1528,7 +1528,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public virtual System.Char ToUpperInternal(System.Char  @c)
+        public virtual System.Char ToUpperInternal(System.Char @c)
         {
 
             var ___genericsType = new Type[] {};
@@ -1539,7 +1539,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public virtual System.Char ToLowerInternal(System.Char  @c)
+        public virtual System.Char ToLowerInternal(System.Char @c)
         {
 
             var ___genericsType = new Type[] {};
@@ -1550,7 +1550,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public static System.Int32 InternalCompareStringOrdinalIgnoreCase(System.String  @strA, System.Int32  @indexA, System.String  @strB, System.Int32  @indexB, System.Int32  @lenA, System.Int32  @lenB)
+        public static System.Int32 InternalCompareStringOrdinalIgnoreCase(System.String @strA, System.Int32 @indexA, System.String @strB, System.Int32 @indexB, System.Int32 @lenA, System.Int32 @lenB)
         {
 
             var ___genericsType = new Type[] {};

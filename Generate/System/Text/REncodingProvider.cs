@@ -317,7 +317,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 	    {
 	    }
 
-        public virtual System.Text.Encoding GetEncoding(System.String  @name)
+        public virtual System.Text.Encoding GetEncoding(System.String @name)
         {
 
             var ___genericsType = new Type[] {};
@@ -328,7 +328,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
         }
 
 
-        public virtual System.Text.Encoding GetEncoding(System.Int32  @codepage)
+        public virtual System.Text.Encoding GetEncoding(System.Int32 @codepage)
         {
 
             var ___genericsType = new Type[] {};
@@ -339,7 +339,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
         }
 
 
-        public virtual System.Text.Encoding GetEncoding(System.String  @name, System.Text.EncoderFallback  @encoderFallback, System.Text.DecoderFallback  @decoderFallback)
+        public virtual System.Text.Encoding GetEncoding(System.String @name, System.Text.EncoderFallback @encoderFallback, System.Text.DecoderFallback @decoderFallback)
         {
 
             var ___genericsType = new Type[] {};
@@ -350,7 +350,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
         }
 
 
-        public virtual System.Text.Encoding GetEncoding(System.Int32  @codepage, System.Text.EncoderFallback  @encoderFallback, System.Text.DecoderFallback  @decoderFallback)
+        public virtual System.Text.Encoding GetEncoding(System.Int32 @codepage, System.Text.EncoderFallback @encoderFallback, System.Text.DecoderFallback @decoderFallback)
         {
 
             var ___genericsType = new Type[] {};
@@ -361,7 +361,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
         }
 
 
-        public static void AddProvider(System.Text.EncodingProvider  @provider)
+        public static void AddProvider(System.Text.EncodingProvider @provider)
         {
 
             var ___genericsType = new Type[] {};
@@ -372,7 +372,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
         }
 
 
-        public static System.Text.Encoding GetEncodingFromProvider(System.Int32  @codepage)
+        public static System.Text.Encoding GetEncodingFromProvider(System.Int32 @codepage)
         {
 
             var ___genericsType = new Type[] {};
@@ -383,7 +383,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
         }
 
 
-        public static System.Text.Encoding GetEncodingFromProvider(System.String  @encodingName)
+        public static System.Text.Encoding GetEncodingFromProvider(System.String @encodingName)
         {
 
             var ___genericsType = new Type[] {};
@@ -394,7 +394,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
         }
 
 
-        public static System.Text.Encoding GetEncodingFromProvider(System.Int32  @codepage, System.Text.EncoderFallback  @enc, System.Text.DecoderFallback  @dec)
+        public static System.Text.Encoding GetEncodingFromProvider(System.Int32 @codepage, System.Text.EncoderFallback @enc, System.Text.DecoderFallback @dec)
         {
 
             var ___genericsType = new Type[] {};
@@ -405,7 +405,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
         }
 
 
-        public static System.Text.Encoding GetEncodingFromProvider(System.String  @encodingName, System.Text.EncoderFallback  @enc, System.Text.DecoderFallback  @dec)
+        public static System.Text.Encoding GetEncodingFromProvider(System.String @encodingName, System.Text.EncoderFallback @enc, System.Text.DecoderFallback @dec)
         {
 
             var ___genericsType = new Type[] {};
@@ -416,7 +416,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

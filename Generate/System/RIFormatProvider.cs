@@ -45,7 +45,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 	    {
 	    }
 
-        public virtual System.Object GetFormat(System.Type  @formatType)
+        public virtual System.Object GetFormat(System.Type @formatType)
         {
 
             var ___genericsType = new Type[] {};

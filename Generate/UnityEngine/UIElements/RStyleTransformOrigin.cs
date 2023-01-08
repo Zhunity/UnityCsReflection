@@ -283,7 +283,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 	    {
 	    }
 
-        public static System.Boolean op_Equality(UnityEngine.UIElements.StyleTransformOrigin  @lhs, UnityEngine.UIElements.StyleTransformOrigin  @rhs)
+        public static System.Boolean op_Equality(UnityEngine.UIElements.StyleTransformOrigin @lhs, UnityEngine.UIElements.StyleTransformOrigin @rhs)
         {
 
             var ___genericsType = new Type[] {};
@@ -294,7 +294,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public static System.Boolean op_Inequality(UnityEngine.UIElements.StyleTransformOrigin  @lhs, UnityEngine.UIElements.StyleTransformOrigin  @rhs)
+        public static System.Boolean op_Inequality(UnityEngine.UIElements.StyleTransformOrigin @lhs, UnityEngine.UIElements.StyleTransformOrigin @rhs)
         {
 
             var ___genericsType = new Type[] {};
@@ -305,7 +305,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public static UnityEngine.UIElements.StyleTransformOrigin op_Implicit(UnityEngine.UIElements.StyleKeyword  @keyword)
+        public static UnityEngine.UIElements.StyleTransformOrigin op_Implicit(UnityEngine.UIElements.StyleKeyword @keyword)
         {
 
             var ___genericsType = new Type[] {};
@@ -316,7 +316,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public static UnityEngine.UIElements.StyleTransformOrigin op_Implicit(UnityEngine.UIElements.TransformOrigin  @v)
+        public static UnityEngine.UIElements.StyleTransformOrigin op_Implicit(UnityEngine.UIElements.TransformOrigin @v)
         {
 
             var ___genericsType = new Type[] {};
@@ -327,7 +327,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean Equals(UnityEngine.UIElements.StyleTransformOrigin  @other)
+        public virtual System.Boolean Equals(UnityEngine.UIElements.StyleTransformOrigin @other)
         {
 
             var ___genericsType = new Type[] {};
@@ -338,7 +338,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

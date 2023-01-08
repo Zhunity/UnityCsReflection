@@ -594,14 +594,14 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certif
         }
 
 
-        public virtual System.Object Clone()
+        public virtual RSystem.RSecurity.RCryptography.RX509Certificates.RX509CertificateImpl Clone()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RSystem.RSecurity.RCryptography.RX509Certificates.RX509CertificateImpl(___result);
         }
 
 
@@ -616,7 +616,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certif
         }
 
 
-        public virtual System.Boolean Equals(RSystem.RSecurity.RCryptography.RX509Certificates.RX509CertificateImpl  @other, out System.Boolean  @result)
+        public virtual System.Boolean Equals(RSystem.RSecurity.RCryptography.RX509Certificates.RX509CertificateImpl @other, out System.Boolean @result)
         {
 			@result = default;
 
@@ -651,7 +651,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certif
         }
 
 
-        public virtual System.Byte[] Export(System.Security.Cryptography.X509Certificates.X509ContentType  @contentType, RMicrosoft.RWin32.RSafeHandles.RSafePasswordHandle  @password)
+        public virtual System.Byte[] Export(System.Security.Cryptography.X509Certificates.X509ContentType @contentType, RMicrosoft.RWin32.RSafeHandles.RSafePasswordHandle @password)
         {
 
             var ___genericsType = new Type[] {};
@@ -662,14 +662,14 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certif
         }
 
 
-        public virtual System.Object CopyWithPrivateKey(System.Security.Cryptography.RSA  @privateKey)
+        public virtual RSystem.RSecurity.RCryptography.RX509Certificates.RX509CertificateImpl CopyWithPrivateKey(System.Security.Cryptography.RSA @privateKey)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@privateKey};
             var ___result = RCopyWithPrivateKey_RSA.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RSystem.RSecurity.RCryptography.RX509Certificates.RX509CertificateImpl(___result);
         }
 
 
@@ -684,7 +684,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certif
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};
@@ -706,7 +706,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certif
         }
 
 
-        public virtual void Dispose(System.Boolean  @disposing)
+        public virtual void Dispose(System.Boolean @disposing)
         {
 
             var ___genericsType = new Type[] {};

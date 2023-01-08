@@ -4827,7 +4827,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual UnityEditor.SerializedProperty FindPropertyRelative(System.String  @relativePropertyPath)
+        public virtual UnityEditor.SerializedProperty FindPropertyRelative(System.String @relativePropertyPath)
         {
 
             var ___genericsType = new Type[] {};
@@ -4849,7 +4849,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual UnityEditor.SerializedProperty GetArrayElementAtIndex(System.Int32  @index)
+        public virtual UnityEditor.SerializedProperty GetArrayElementAtIndex(System.Int32 @index)
         {
 
             var ___genericsType = new Type[] {};
@@ -4860,7 +4860,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual void SetToValueOfTarget(UnityEngine.Object  @target)
+        public virtual void SetToValueOfTarget(UnityEngine.Object @target)
         {
 
             var ___genericsType = new Type[] {};
@@ -4893,8 +4893,18 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
+        public virtual void Verify(RType @verifyFlags)
+        {
 
-        public virtual System.Boolean NextVisible(System.Boolean  @enterChildren)
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@verifyFlags.Value};
+            var ___result = RVerify_VerifyFlags.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual System.Boolean NextVisible(System.Boolean @enterChildren)
         {
 
             var ___genericsType = new Type[] {};
@@ -4905,7 +4915,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual System.Boolean NextVisibleInternal(System.Boolean  @enterChildren)
+        public virtual System.Boolean NextVisibleInternal(System.Boolean @enterChildren)
         {
 
             var ___genericsType = new Type[] {};
@@ -4938,7 +4948,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual System.Boolean FindPropertyInternal(System.String  @propertyPath)
+        public virtual System.Boolean FindPropertyInternal(System.String @propertyPath)
         {
 
             var ___genericsType = new Type[] {};
@@ -4949,7 +4959,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual System.Boolean FindFirstPropertyFromManagedReferencePathInternal(System.String  @managedReferencePath)
+        public virtual System.Boolean FindFirstPropertyFromManagedReferencePathInternal(System.String @managedReferencePath)
         {
 
             var ___genericsType = new Type[] {};
@@ -4971,7 +4981,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public static void Internal_Destroy(System.IntPtr  @ptr)
+        public static void Internal_Destroy(System.IntPtr @ptr)
         {
 
             var ___genericsType = new Type[] {};
@@ -4982,7 +4992,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public static System.Boolean EqualContents(UnityEditor.SerializedProperty  @x, UnityEditor.SerializedProperty  @y)
+        public static System.Boolean EqualContents(UnityEditor.SerializedProperty @x, UnityEditor.SerializedProperty @y)
         {
 
             var ___genericsType = new Type[] {};
@@ -4993,7 +5003,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public static System.Boolean EqualContentsInternal(UnityEditor.SerializedProperty  @x, UnityEditor.SerializedProperty  @y)
+        public static System.Boolean EqualContentsInternal(UnityEditor.SerializedProperty @x, UnityEditor.SerializedProperty @y)
         {
 
             var ___genericsType = new Type[] {};
@@ -5004,7 +5014,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public static System.Boolean DataEquals(UnityEditor.SerializedProperty  @x, UnityEditor.SerializedProperty  @y)
+        public static System.Boolean DataEquals(UnityEditor.SerializedProperty @x, UnityEditor.SerializedProperty @y)
         {
 
             var ___genericsType = new Type[] {};
@@ -5015,7 +5025,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public static System.Boolean VersionEquals(UnityEditor.SerializedProperty  @x, UnityEditor.SerializedProperty  @y)
+        public static System.Boolean VersionEquals(UnityEditor.SerializedProperty @x, UnityEditor.SerializedProperty @y)
         {
 
             var ___genericsType = new Type[] {};
@@ -5026,7 +5036,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public static System.Boolean DataEqualsInternal(UnityEditor.SerializedProperty  @x, UnityEditor.SerializedProperty  @y)
+        public static System.Boolean DataEqualsInternal(UnityEditor.SerializedProperty @x, UnityEditor.SerializedProperty @y)
         {
 
             var ___genericsType = new Type[] {};
@@ -5048,7 +5058,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual void SetBitAtIndexForAllTargetsImmediate(System.Int32  @index, System.Boolean  @value)
+        public virtual void SetBitAtIndexForAllTargetsImmediate(System.Int32 @index, System.Boolean @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -5059,7 +5069,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual void SetBitAtIndexForAllTargetsImmediateInternal(System.Int32  @index, System.Boolean  @value)
+        public virtual void SetBitAtIndexForAllTargetsImmediateInternal(System.Int32 @index, System.Boolean @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -5246,7 +5256,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual void SetIsExpandedInternal(System.Boolean  @value)
+        public virtual void SetIsExpandedInternal(System.Boolean @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -5345,7 +5355,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual void SetPrefabOverrideInternal(System.Boolean  @value)
+        public virtual void SetPrefabOverrideInternal(System.Boolean @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -5411,7 +5421,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual void SetIntValueInternal(System.Int64  @value)
+        public virtual void SetIntValueInternal(System.Int64 @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -5433,7 +5443,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual void SetBoolValueInternal(System.Boolean  @value)
+        public virtual void SetBoolValueInternal(System.Boolean @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -5455,7 +5465,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual void SetFloatValueInternal(System.Double  @value)
+        public virtual void SetFloatValueInternal(System.Double @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -5477,7 +5487,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual void SetAllFloatValuesImmediate(System.Double[]  @value)
+        public virtual void SetAllFloatValuesImmediate(System.Double[] @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -5499,7 +5509,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual void SetAllIntValuesImmediate(System.Int64[]  @value)
+        public virtual void SetAllIntValuesImmediate(System.Int64[] @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -5521,7 +5531,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual void SetStringValueInternal(System.String  @value)
+        public virtual void SetStringValueInternal(System.String @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -5543,7 +5553,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual void SetColorValueInternal(UnityEngine.Color  @value)
+        public virtual void SetColorValueInternal(UnityEngine.Color @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -5565,7 +5575,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual void SetAnimationCurveValueInternal(UnityEngine.AnimationCurve  @value)
+        public virtual void SetAnimationCurveValueInternal(UnityEngine.AnimationCurve @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -5587,7 +5597,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual void SetGradientValueInternal(UnityEngine.Gradient  @value)
+        public virtual void SetGradientValueInternal(UnityEngine.Gradient @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -5620,7 +5630,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual void SetManagedReferenceValueInternal(System.Object  @value)
+        public virtual void SetManagedReferenceValueInternal(System.Object @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -5631,7 +5641,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual void SetStructValueInternal(System.Object  @value)
+        public virtual void SetStructValueInternal(System.Object @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -5642,7 +5652,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual System.Object GetStructValueInternal(System.String  @assemblyName, System.String  @nameSpace, System.String  @className)
+        public virtual System.Object GetStructValueInternal(System.String @assemblyName, System.String @nameSpace, System.String @className)
         {
 
             var ___genericsType = new Type[] {};
@@ -5653,7 +5663,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual System.Object LookupInstanceByIdInternal(System.Int64  @refId)
+        public virtual System.Object LookupInstanceByIdInternal(System.Int64 @refId)
         {
 
             var ___genericsType = new Type[] {};
@@ -5675,7 +5685,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual void SetPPtrValueInternal(UnityEngine.Object  @value)
+        public virtual void SetPPtrValueInternal(UnityEngine.Object @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -5697,7 +5707,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual void SetPPtrValueFromInstanceIDInternal(System.Int32  @instanceID)
+        public virtual void SetPPtrValueFromInstanceIDInternal(System.Int32 @instanceID)
         {
 
             var ___genericsType = new Type[] {};
@@ -5719,7 +5729,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual System.Boolean ValidateObjectReferenceValue(UnityEngine.Object  @obj)
+        public virtual System.Boolean ValidateObjectReferenceValue(UnityEngine.Object @obj)
         {
 
             var ___genericsType = new Type[] {};
@@ -5730,7 +5740,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual System.Boolean ValidatePPtrValueInternal(UnityEngine.Object  @obj)
+        public virtual System.Boolean ValidatePPtrValueInternal(UnityEngine.Object @obj)
         {
 
             var ___genericsType = new Type[] {};
@@ -5741,7 +5751,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual System.Boolean ValidateObjectReferenceValueExact(UnityEngine.Object  @obj)
+        public virtual System.Boolean ValidateObjectReferenceValueExact(UnityEngine.Object @obj)
         {
 
             var ___genericsType = new Type[] {};
@@ -5752,7 +5762,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual System.Boolean ValidatePPtrValueExact(UnityEngine.Object  @obj)
+        public virtual System.Boolean ValidatePPtrValueExact(UnityEngine.Object @obj)
         {
 
             var ___genericsType = new Type[] {};
@@ -5774,7 +5784,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual void AppendFoldoutPPtrValue(UnityEngine.Object  @obj)
+        public virtual void AppendFoldoutPPtrValue(UnityEngine.Object @obj)
         {
 
             var ___genericsType = new Type[] {};
@@ -5785,7 +5795,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual void AppendFoldoutPPtrValueInternal(UnityEngine.Object  @obj)
+        public virtual void AppendFoldoutPPtrValueInternal(UnityEngine.Object @obj)
         {
 
             var ___genericsType = new Type[] {};
@@ -5796,7 +5806,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public static System.String GetLayerMaskStringValue(System.UInt32  @layers)
+        public static System.String GetLayerMaskStringValue(System.UInt32 @layers)
         {
 
             var ___genericsType = new Type[] {};
@@ -5829,7 +5839,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual void SetEnumValueIndexInternal(System.Int32  @value)
+        public virtual void SetEnumValueIndexInternal(System.Int32 @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -5840,7 +5850,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual System.String[] GetEnumNamesInternal(System.Boolean  @nicify)
+        public virtual System.String[] GetEnumNamesInternal(System.Boolean @nicify)
         {
 
             var ___genericsType = new Type[] {};
@@ -5862,7 +5872,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual void SetValueVector2Internal(UnityEngine.Vector2  @value)
+        public virtual void SetValueVector2Internal(UnityEngine.Vector2 @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -5884,7 +5894,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual void SetValueVector3Internal(UnityEngine.Vector3  @value)
+        public virtual void SetValueVector3Internal(UnityEngine.Vector3 @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -5906,7 +5916,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual void SetValueVector4Internal(UnityEngine.Vector4  @value)
+        public virtual void SetValueVector4Internal(UnityEngine.Vector4 @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -5928,7 +5938,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual void SetValueVector2IntInternal(UnityEngine.Vector2Int  @value)
+        public virtual void SetValueVector2IntInternal(UnityEngine.Vector2Int @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -5950,7 +5960,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual void SetValueVector3IntInternal(UnityEngine.Vector3Int  @value)
+        public virtual void SetValueVector3IntInternal(UnityEngine.Vector3Int @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -5972,7 +5982,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual void SetValueQuaternionInternal(UnityEngine.Quaternion  @value)
+        public virtual void SetValueQuaternionInternal(UnityEngine.Quaternion @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -5994,7 +6004,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual void SetValueRectInternal(UnityEngine.Rect  @value)
+        public virtual void SetValueRectInternal(UnityEngine.Rect @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -6016,7 +6026,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual void SetValueRectIntInternal(UnityEngine.RectInt  @value)
+        public virtual void SetValueRectIntInternal(UnityEngine.RectInt @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -6038,7 +6048,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual void SetValueBoundsInternal(UnityEngine.Bounds  @value)
+        public virtual void SetValueBoundsInternal(UnityEngine.Bounds @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -6060,7 +6070,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual void SetValueBoundsIntInternal(UnityEngine.BoundsInt  @value)
+        public virtual void SetValueBoundsIntInternal(UnityEngine.BoundsInt @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -6082,7 +6092,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual void SetHash128ValueInternal(UnityEngine.Hash128  @value)
+        public virtual void SetHash128ValueInternal(UnityEngine.Hash128 @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -6093,7 +6103,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual System.Boolean Next(System.Boolean  @enterChildren)
+        public virtual System.Boolean Next(System.Boolean @enterChildren)
         {
 
             var ___genericsType = new Type[] {};
@@ -6104,7 +6114,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual System.Boolean NextInternal(System.Boolean  @enterChildren)
+        public virtual System.Boolean NextInternal(System.Boolean @enterChildren)
         {
 
             var ___genericsType = new Type[] {};
@@ -6258,7 +6268,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual UnityEditor.SerializedProperty GetEndProperty(System.Boolean  @includeInvisible)
+        public virtual UnityEditor.SerializedProperty GetEndProperty(System.Boolean @includeInvisible)
         {
 
             var ___genericsType = new Type[] {};
@@ -6269,7 +6279,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual System.Boolean FindPropertyRelativeInternal(System.String  @propertyPath)
+        public virtual System.Boolean FindPropertyRelativeInternal(System.String @propertyPath)
         {
 
             var ___genericsType = new Type[] {};
@@ -6280,7 +6290,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual System.Boolean FindRelativeProperty(System.String  @propertyPath)
+        public virtual System.Boolean FindRelativeProperty(System.String @propertyPath)
         {
 
             var ___genericsType = new Type[] {};
@@ -6324,7 +6334,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual void ResizeArray(System.Int32  @value)
+        public virtual void ResizeArray(System.Int32 @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -6335,7 +6345,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual System.Boolean GetArrayElementAtIndexInternal(System.Int32  @index)
+        public virtual System.Boolean GetArrayElementAtIndexInternal(System.Int32 @index)
         {
 
             var ___genericsType = new Type[] {};
@@ -6346,7 +6356,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual System.Boolean GetArrayElementAtIndexImpl(System.Int32  @index)
+        public virtual System.Boolean GetArrayElementAtIndexImpl(System.Int32 @index)
         {
 
             var ___genericsType = new Type[] {};
@@ -6357,7 +6367,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual void InsertArrayElementAtIndex(System.Int32  @index)
+        public virtual void InsertArrayElementAtIndex(System.Int32 @index)
         {
 
             var ___genericsType = new Type[] {};
@@ -6368,7 +6378,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual void InsertArrayElementAtIndexInternal(System.Int32  @index)
+        public virtual void InsertArrayElementAtIndexInternal(System.Int32 @index)
         {
 
             var ___genericsType = new Type[] {};
@@ -6379,7 +6389,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual void DeleteArrayElementAtIndex(System.Int32  @index)
+        public virtual void DeleteArrayElementAtIndex(System.Int32 @index)
         {
 
             var ___genericsType = new Type[] {};
@@ -6390,7 +6400,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual void DeleteArrayElementAtIndexInternal(System.Int32  @index)
+        public virtual void DeleteArrayElementAtIndexInternal(System.Int32 @index)
         {
 
             var ___genericsType = new Type[] {};
@@ -6401,7 +6411,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual System.Boolean MoveArrayElement(System.Int32  @srcIndex, System.Int32  @dstIndex)
+        public virtual System.Boolean MoveArrayElement(System.Int32 @srcIndex, System.Int32 @dstIndex)
         {
 
             var ___genericsType = new Type[] {};
@@ -6412,7 +6422,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual System.Boolean MoveArrayElementInternal(System.Int32  @srcIndex, System.Int32  @dstIndex)
+        public virtual System.Boolean MoveArrayElementInternal(System.Int32 @srcIndex, System.Int32 @dstIndex)
         {
 
             var ___genericsType = new Type[] {};
@@ -6456,7 +6466,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual void SetIsValidDisplayNameCache(System.Boolean  @value)
+        public virtual void SetIsValidDisplayNameCache(System.Boolean @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -6478,7 +6488,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual void SetIsValidTooltipCache(System.Boolean  @value)
+        public virtual void SetIsValidTooltipCache(System.Boolean @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -6489,7 +6499,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual UnityEditor.SerializedProperty GetFixedBufferElementAtIndex(System.Int32  @index)
+        public virtual UnityEditor.SerializedProperty GetFixedBufferElementAtIndex(System.Int32 @index)
         {
 
             var ___genericsType = new Type[] {};
@@ -6500,7 +6510,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual System.Boolean GetFixedBufferAtIndexInternal(System.Int32  @index)
+        public virtual System.Boolean GetFixedBufferAtIndexInternal(System.Int32 @index)
         {
 
             var ___genericsType = new Type[] {};
@@ -6511,7 +6521,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual System.Boolean AnimationCurveValueEquals(UnityEngine.AnimationCurve  @curve)
+        public virtual System.Boolean AnimationCurveValueEquals(UnityEngine.AnimationCurve @curve)
         {
 
             var ___genericsType = new Type[] {};
@@ -6522,7 +6532,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual System.Boolean ValueEquals(UnityEngine.AnimationCurve  @curve)
+        public virtual System.Boolean ValueEquals(UnityEngine.AnimationCurve @curve)
         {
 
             var ___genericsType = new Type[] {};
@@ -6533,7 +6543,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual System.Boolean GradientValueEquals(UnityEngine.Gradient  @gradient)
+        public virtual System.Boolean GradientValueEquals(UnityEngine.Gradient @gradient)
         {
 
             var ___genericsType = new Type[] {};
@@ -6544,7 +6554,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual System.Boolean ValueEquals(UnityEngine.Gradient  @gradient)
+        public virtual System.Boolean ValueEquals(UnityEngine.Gradient @gradient)
         {
 
             var ___genericsType = new Type[] {};
@@ -6555,7 +6565,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual System.Boolean StringValueEquals(System.String  @value)
+        public virtual System.Boolean StringValueEquals(System.String @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -6566,7 +6576,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual System.Boolean ValueEquals(System.String  @value)
+        public virtual System.Boolean ValueEquals(System.String @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -6599,307 +6609,307 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual void GetColorValueInternal_Injected(out UnityEngine.Color  @ret)
+        public virtual void GetColorValueInternal_Injected(out UnityEngine.Color @ret)
         {
-			ret = default;
+			@ret = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@ret};
             var ___result = RGetColorValueInternal_Injected_Out_Color.Invoke(___genericsType, ___parameters);
-			ret = (UnityEngine.Color)___parameters[0];
+			@ret = (UnityEngine.Color)___parameters[0];
 
             
         }
 
 
-        public virtual void SetColorValueInternal_Injected(ref UnityEngine.Color  @value)
+        public virtual void SetColorValueInternal_Injected(ref UnityEngine.Color @value)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@value};
             var ___result = RSetColorValueInternal_Injected_Ref_Color.Invoke(___genericsType, ___parameters);
-			value = (UnityEngine.Color)___parameters[0];
+			@value = (UnityEngine.Color)___parameters[0];
 
             
         }
 
 
-        public virtual void GetValueVector2Internal_Injected(out UnityEngine.Vector2  @ret)
+        public virtual void GetValueVector2Internal_Injected(out UnityEngine.Vector2 @ret)
         {
-			ret = default;
+			@ret = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@ret};
             var ___result = RGetValueVector2Internal_Injected_Out_Vector2.Invoke(___genericsType, ___parameters);
-			ret = (UnityEngine.Vector2)___parameters[0];
+			@ret = (UnityEngine.Vector2)___parameters[0];
 
             
         }
 
 
-        public virtual void SetValueVector2Internal_Injected(ref UnityEngine.Vector2  @value)
+        public virtual void SetValueVector2Internal_Injected(ref UnityEngine.Vector2 @value)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@value};
             var ___result = RSetValueVector2Internal_Injected_Ref_Vector2.Invoke(___genericsType, ___parameters);
-			value = (UnityEngine.Vector2)___parameters[0];
+			@value = (UnityEngine.Vector2)___parameters[0];
 
             
         }
 
 
-        public virtual void GetValueVector3Internal_Injected(out UnityEngine.Vector3  @ret)
+        public virtual void GetValueVector3Internal_Injected(out UnityEngine.Vector3 @ret)
         {
-			ret = default;
+			@ret = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@ret};
             var ___result = RGetValueVector3Internal_Injected_Out_Vector3.Invoke(___genericsType, ___parameters);
-			ret = (UnityEngine.Vector3)___parameters[0];
+			@ret = (UnityEngine.Vector3)___parameters[0];
 
             
         }
 
 
-        public virtual void SetValueVector3Internal_Injected(ref UnityEngine.Vector3  @value)
+        public virtual void SetValueVector3Internal_Injected(ref UnityEngine.Vector3 @value)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@value};
             var ___result = RSetValueVector3Internal_Injected_Ref_Vector3.Invoke(___genericsType, ___parameters);
-			value = (UnityEngine.Vector3)___parameters[0];
+			@value = (UnityEngine.Vector3)___parameters[0];
 
             
         }
 
 
-        public virtual void GetValueVector4Internal_Injected(out UnityEngine.Vector4  @ret)
+        public virtual void GetValueVector4Internal_Injected(out UnityEngine.Vector4 @ret)
         {
-			ret = default;
+			@ret = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@ret};
             var ___result = RGetValueVector4Internal_Injected_Out_Vector4.Invoke(___genericsType, ___parameters);
-			ret = (UnityEngine.Vector4)___parameters[0];
+			@ret = (UnityEngine.Vector4)___parameters[0];
 
             
         }
 
 
-        public virtual void SetValueVector4Internal_Injected(ref UnityEngine.Vector4  @value)
+        public virtual void SetValueVector4Internal_Injected(ref UnityEngine.Vector4 @value)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@value};
             var ___result = RSetValueVector4Internal_Injected_Ref_Vector4.Invoke(___genericsType, ___parameters);
-			value = (UnityEngine.Vector4)___parameters[0];
+			@value = (UnityEngine.Vector4)___parameters[0];
 
             
         }
 
 
-        public virtual void GetValueVector2IntInternal_Injected(out UnityEngine.Vector2Int  @ret)
+        public virtual void GetValueVector2IntInternal_Injected(out UnityEngine.Vector2Int @ret)
         {
-			ret = default;
+			@ret = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@ret};
             var ___result = RGetValueVector2IntInternal_Injected_Out_Vector2Int.Invoke(___genericsType, ___parameters);
-			ret = (UnityEngine.Vector2Int)___parameters[0];
+			@ret = (UnityEngine.Vector2Int)___parameters[0];
 
             
         }
 
 
-        public virtual void SetValueVector2IntInternal_Injected(ref UnityEngine.Vector2Int  @value)
+        public virtual void SetValueVector2IntInternal_Injected(ref UnityEngine.Vector2Int @value)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@value};
             var ___result = RSetValueVector2IntInternal_Injected_Ref_Vector2Int.Invoke(___genericsType, ___parameters);
-			value = (UnityEngine.Vector2Int)___parameters[0];
+			@value = (UnityEngine.Vector2Int)___parameters[0];
 
             
         }
 
 
-        public virtual void GetValueVector3IntInternal_Injected(out UnityEngine.Vector3Int  @ret)
+        public virtual void GetValueVector3IntInternal_Injected(out UnityEngine.Vector3Int @ret)
         {
-			ret = default;
+			@ret = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@ret};
             var ___result = RGetValueVector3IntInternal_Injected_Out_Vector3Int.Invoke(___genericsType, ___parameters);
-			ret = (UnityEngine.Vector3Int)___parameters[0];
+			@ret = (UnityEngine.Vector3Int)___parameters[0];
 
             
         }
 
 
-        public virtual void SetValueVector3IntInternal_Injected(ref UnityEngine.Vector3Int  @value)
+        public virtual void SetValueVector3IntInternal_Injected(ref UnityEngine.Vector3Int @value)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@value};
             var ___result = RSetValueVector3IntInternal_Injected_Ref_Vector3Int.Invoke(___genericsType, ___parameters);
-			value = (UnityEngine.Vector3Int)___parameters[0];
+			@value = (UnityEngine.Vector3Int)___parameters[0];
 
             
         }
 
 
-        public virtual void GetValueQuaternionInternal_Injected(out UnityEngine.Quaternion  @ret)
+        public virtual void GetValueQuaternionInternal_Injected(out UnityEngine.Quaternion @ret)
         {
-			ret = default;
+			@ret = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@ret};
             var ___result = RGetValueQuaternionInternal_Injected_Out_Quaternion.Invoke(___genericsType, ___parameters);
-			ret = (UnityEngine.Quaternion)___parameters[0];
+			@ret = (UnityEngine.Quaternion)___parameters[0];
 
             
         }
 
 
-        public virtual void SetValueQuaternionInternal_Injected(ref UnityEngine.Quaternion  @value)
+        public virtual void SetValueQuaternionInternal_Injected(ref UnityEngine.Quaternion @value)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@value};
             var ___result = RSetValueQuaternionInternal_Injected_Ref_Quaternion.Invoke(___genericsType, ___parameters);
-			value = (UnityEngine.Quaternion)___parameters[0];
+			@value = (UnityEngine.Quaternion)___parameters[0];
 
             
         }
 
 
-        public virtual void GetValueRectInternal_Injected(out UnityEngine.Rect  @ret)
+        public virtual void GetValueRectInternal_Injected(out UnityEngine.Rect @ret)
         {
-			ret = default;
+			@ret = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@ret};
             var ___result = RGetValueRectInternal_Injected_Out_Rect.Invoke(___genericsType, ___parameters);
-			ret = (UnityEngine.Rect)___parameters[0];
+			@ret = (UnityEngine.Rect)___parameters[0];
 
             
         }
 
 
-        public virtual void SetValueRectInternal_Injected(ref UnityEngine.Rect  @value)
+        public virtual void SetValueRectInternal_Injected(ref UnityEngine.Rect @value)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@value};
             var ___result = RSetValueRectInternal_Injected_Ref_Rect.Invoke(___genericsType, ___parameters);
-			value = (UnityEngine.Rect)___parameters[0];
+			@value = (UnityEngine.Rect)___parameters[0];
 
             
         }
 
 
-        public virtual void GetValueRectIntInternal_Injected(out UnityEngine.RectInt  @ret)
+        public virtual void GetValueRectIntInternal_Injected(out UnityEngine.RectInt @ret)
         {
-			ret = default;
+			@ret = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@ret};
             var ___result = RGetValueRectIntInternal_Injected_Out_RectInt.Invoke(___genericsType, ___parameters);
-			ret = (UnityEngine.RectInt)___parameters[0];
+			@ret = (UnityEngine.RectInt)___parameters[0];
 
             
         }
 
 
-        public virtual void SetValueRectIntInternal_Injected(ref UnityEngine.RectInt  @value)
+        public virtual void SetValueRectIntInternal_Injected(ref UnityEngine.RectInt @value)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@value};
             var ___result = RSetValueRectIntInternal_Injected_Ref_RectInt.Invoke(___genericsType, ___parameters);
-			value = (UnityEngine.RectInt)___parameters[0];
+			@value = (UnityEngine.RectInt)___parameters[0];
 
             
         }
 
 
-        public virtual void GetValueBoundsInternal_Injected(out UnityEngine.Bounds  @ret)
+        public virtual void GetValueBoundsInternal_Injected(out UnityEngine.Bounds @ret)
         {
-			ret = default;
+			@ret = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@ret};
             var ___result = RGetValueBoundsInternal_Injected_Out_Bounds.Invoke(___genericsType, ___parameters);
-			ret = (UnityEngine.Bounds)___parameters[0];
+			@ret = (UnityEngine.Bounds)___parameters[0];
 
             
         }
 
 
-        public virtual void SetValueBoundsInternal_Injected(ref UnityEngine.Bounds  @value)
+        public virtual void SetValueBoundsInternal_Injected(ref UnityEngine.Bounds @value)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@value};
             var ___result = RSetValueBoundsInternal_Injected_Ref_Bounds.Invoke(___genericsType, ___parameters);
-			value = (UnityEngine.Bounds)___parameters[0];
+			@value = (UnityEngine.Bounds)___parameters[0];
 
             
         }
 
 
-        public virtual void GetValueBoundsIntInternal_Injected(out UnityEngine.BoundsInt  @ret)
+        public virtual void GetValueBoundsIntInternal_Injected(out UnityEngine.BoundsInt @ret)
         {
-			ret = default;
+			@ret = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@ret};
             var ___result = RGetValueBoundsIntInternal_Injected_Out_BoundsInt.Invoke(___genericsType, ___parameters);
-			ret = (UnityEngine.BoundsInt)___parameters[0];
+			@ret = (UnityEngine.BoundsInt)___parameters[0];
 
             
         }
 
 
-        public virtual void SetValueBoundsIntInternal_Injected(ref UnityEngine.BoundsInt  @value)
+        public virtual void SetValueBoundsIntInternal_Injected(ref UnityEngine.BoundsInt @value)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@value};
             var ___result = RSetValueBoundsIntInternal_Injected_Ref_BoundsInt.Invoke(___genericsType, ___parameters);
-			value = (UnityEngine.BoundsInt)___parameters[0];
+			@value = (UnityEngine.BoundsInt)___parameters[0];
 
             
         }
 
 
-        public virtual void GetHash128ValueInternal_Injected(out UnityEngine.Hash128  @ret)
+        public virtual void GetHash128ValueInternal_Injected(out UnityEngine.Hash128 @ret)
         {
-			ret = default;
+			@ret = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@ret};
             var ___result = RGetHash128ValueInternal_Injected_Out_Hash128.Invoke(___genericsType, ___parameters);
-			ret = (UnityEngine.Hash128)___parameters[0];
+			@ret = (UnityEngine.Hash128)___parameters[0];
 
             
         }
 
 
-        public virtual void SetHash128ValueInternal_Injected(ref UnityEngine.Hash128  @value)
+        public virtual void SetHash128ValueInternal_Injected(ref UnityEngine.Hash128 @value)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@value};
             var ___result = RSetHash128ValueInternal_Injected_Ref_Hash128.Invoke(___genericsType, ___parameters);
-			value = (UnityEngine.Hash128)___parameters[0];
+			@value = (UnityEngine.Hash128)___parameters[0];
 
             
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

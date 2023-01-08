@@ -345,7 +345,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
         }
 
 
-        public virtual UnityEngine.TextCore.Text.TextStyle GetStyle(System.Int32  @hashCode)
+        public virtual UnityEngine.TextCore.Text.TextStyle GetStyle(System.Int32 @hashCode)
         {
 
             var ___genericsType = new Type[] {};
@@ -356,7 +356,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
         }
 
 
-        public virtual UnityEngine.TextCore.Text.TextStyle GetStyle(System.String  @name)
+        public virtual UnityEngine.TextCore.Text.TextStyle GetStyle(System.String @name)
         {
 
             var ___genericsType = new Type[] {};
@@ -422,7 +422,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @other)
+        public virtual System.Boolean Equals(System.Object @other)
         {
 
             var ___genericsType = new Type[] {};

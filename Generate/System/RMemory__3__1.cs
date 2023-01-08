@@ -470,7 +470,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 	    {
 	    }
 
-        public static System.Memory<T> op_Implicit(T[]  @array)
+        public static System.Memory<T> op_Implicit(T[] @array)
         {
 
             var ___genericsType = new Type[] {};
@@ -481,7 +481,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Memory<T> op_Implicit(System.ArraySegment<T>  @segment)
+        public static System.Memory<T> op_Implicit(System.ArraySegment<T> @segment)
         {
 
             var ___genericsType = new Type[] {};
@@ -492,7 +492,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.ReadOnlyMemory<T> op_Implicit(System.Memory<T>  @memory)
+        public static System.ReadOnlyMemory<T> op_Implicit(System.Memory<T> @memory)
         {
 
             var ___genericsType = new Type[] {};
@@ -514,7 +514,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Memory<T> Slice(System.Int32  @start)
+        public virtual System.Memory<T> Slice(System.Int32 @start)
         {
 
             var ___genericsType = new Type[] {};
@@ -525,7 +525,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Memory<T> Slice(System.Int32  @start, System.Int32  @length)
+        public virtual System.Memory<T> Slice(System.Int32 @start, System.Int32 @length)
         {
 
             var ___genericsType = new Type[] {};
@@ -536,7 +536,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual void CopyTo(System.Memory<T>  @destination)
+        public virtual void CopyTo(System.Memory<T> @destination)
         {
 
             var ___genericsType = new Type[] {};
@@ -547,7 +547,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Boolean TryCopyTo(System.Memory<T>  @destination)
+        public virtual System.Boolean TryCopyTo(System.Memory<T> @destination)
         {
 
             var ___genericsType = new Type[] {};
@@ -580,7 +580,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};
@@ -591,7 +591,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Boolean Equals(System.Memory<T>  @other)
+        public virtual System.Boolean Equals(System.Memory<T> @other)
         {
 
             var ___genericsType = new Type[] {};
@@ -613,7 +613,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Int32 CombineHashCodes(System.Int32  @left, System.Int32  @right)
+        public static System.Int32 CombineHashCodes(System.Int32 @left, System.Int32 @right)
         {
 
             var ___genericsType = new Type[] {};
@@ -624,7 +624,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Int32 CombineHashCodes(System.Int32  @h1, System.Int32  @h2, System.Int32  @h3)
+        public static System.Int32 CombineHashCodes(System.Int32 @h1, System.Int32 @h2, System.Int32 @h3)
         {
 
             var ___genericsType = new Type[] {};

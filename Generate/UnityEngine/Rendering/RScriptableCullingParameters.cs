@@ -1116,7 +1116,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 	    {
 	    }
 
-        public virtual System.Single GetLayerCullingDistance(System.Int32  @layerIndex)
+        public virtual System.Single GetLayerCullingDistance(System.Int32 @layerIndex)
         {
 
             var ___genericsType = new Type[] {};
@@ -1127,7 +1127,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetLayerCullingDistance(System.Int32  @layerIndex, System.Single  @distance)
+        public virtual void SetLayerCullingDistance(System.Int32 @layerIndex, System.Single @distance)
         {
 
             var ___genericsType = new Type[] {};
@@ -1138,7 +1138,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual UnityEngine.Plane GetCullingPlane(System.Int32  @index)
+        public virtual UnityEngine.Plane GetCullingPlane(System.Int32 @index)
         {
 
             var ___genericsType = new Type[] {};
@@ -1149,7 +1149,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetCullingPlane(System.Int32  @index, UnityEngine.Plane  @plane)
+        public virtual void SetCullingPlane(System.Int32 @index, UnityEngine.Plane @plane)
         {
 
             var ___genericsType = new Type[] {};
@@ -1160,7 +1160,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual System.Boolean Equals(UnityEngine.Rendering.ScriptableCullingParameters  @other)
+        public virtual System.Boolean Equals(UnityEngine.Rendering.ScriptableCullingParameters @other)
         {
 
             var ___genericsType = new Type[] {};
@@ -1171,7 +1171,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};
@@ -1193,7 +1193,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public static System.Boolean op_Equality(UnityEngine.Rendering.ScriptableCullingParameters  @left, UnityEngine.Rendering.ScriptableCullingParameters  @right)
+        public static System.Boolean op_Equality(UnityEngine.Rendering.ScriptableCullingParameters @left, UnityEngine.Rendering.ScriptableCullingParameters @right)
         {
 
             var ___genericsType = new Type[] {};
@@ -1204,7 +1204,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public static System.Boolean op_Inequality(UnityEngine.Rendering.ScriptableCullingParameters  @left, UnityEngine.Rendering.ScriptableCullingParameters  @right)
+        public static System.Boolean op_Inequality(UnityEngine.Rendering.ScriptableCullingParameters @left, UnityEngine.Rendering.ScriptableCullingParameters @right)
         {
 
             var ___genericsType = new Type[] {};

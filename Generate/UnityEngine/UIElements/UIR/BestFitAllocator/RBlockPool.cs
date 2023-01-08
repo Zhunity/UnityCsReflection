@@ -234,18 +234,18 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 	    {
 	    }
 
-        public static System.Object CreateBlock()
+        public static RUnityEngine.RUIElements.RUIR.RBestFitAllocator.RBlock CreateBlock()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RCreateBlock.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RUnityEngine.RUIElements.RUIR.RBestFitAllocator.RBlock(___result);
         }
 
 
-        public static void ResetBlock(RUnityEngine.RUIElements.RUIR.RBestFitAllocator.RBlock  @block)
+        public static void ResetBlock(RUnityEngine.RUIElements.RUIR.RBestFitAllocator.RBlock @block)
         {
 
             var ___genericsType = new Type[] {};
@@ -267,18 +267,18 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
         }
 
 
-        public virtual System.Object Get()
+        public virtual RUnityEngine.RUIElements.RUIR.RBestFitAllocator.RBlock Get()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RGet.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RUnityEngine.RUIElements.RUIR.RBestFitAllocator.RBlock(___result);
         }
 
 
-        public virtual void Return(RUnityEngine.RUIElements.RUIR.RBestFitAllocator.RBlock  @item)
+        public virtual void Return(RUnityEngine.RUIElements.RUIR.RBestFitAllocator.RBlock @item)
         {
 
             var ___genericsType = new Type[] {};
@@ -289,7 +289,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

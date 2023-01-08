@@ -1269,7 +1269,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization
 	    {
 	    }
 
-        public virtual void SetType(System.Type  @type)
+        public virtual void SetType(System.Type @type)
         {
 
             var ___genericsType = new Type[] {};
@@ -1280,7 +1280,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization
         }
 
 
-        public static System.Boolean Compare(System.Byte[]  @a, System.Byte[]  @b)
+        public static System.Boolean Compare(System.Byte[] @a, System.Byte[] @b)
         {
 
             var ___genericsType = new Type[] {};
@@ -1291,7 +1291,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization
         }
 
 
-        public static void DemandForUnsafeAssemblyNameAssignments(System.String  @originalAssemblyName, System.String  @newAssemblyName)
+        public static void DemandForUnsafeAssemblyNameAssignments(System.String @originalAssemblyName, System.String @newAssemblyName)
         {
 
             var ___genericsType = new Type[] {};
@@ -1302,7 +1302,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization
         }
 
 
-        public static System.Boolean IsAssemblyNameAssignmentSafe(System.String  @originalAssemblyName, System.String  @newAssemblyName)
+        public static System.Boolean IsAssemblyNameAssignmentSafe(System.String @originalAssemblyName, System.String @newAssemblyName)
         {
 
             var ___genericsType = new Type[] {};
@@ -1335,7 +1335,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization
         }
 
 
-        public virtual void AddValue(System.String  @name, System.Object  @value, System.Type  @type)
+        public virtual void AddValue(System.String @name, System.Object @value, System.Type @type)
         {
 
             var ___genericsType = new Type[] {};
@@ -1346,7 +1346,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization
         }
 
 
-        public virtual void AddValue(System.String  @name, System.Object  @value)
+        public virtual void AddValue(System.String @name, System.Object @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -1357,7 +1357,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization
         }
 
 
-        public virtual void AddValue(System.String  @name, System.Boolean  @value)
+        public virtual void AddValue(System.String @name, System.Boolean @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -1368,7 +1368,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization
         }
 
 
-        public virtual void AddValue(System.String  @name, System.Char  @value)
+        public virtual void AddValue(System.String @name, System.Char @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -1379,7 +1379,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization
         }
 
 
-        public virtual void AddValue(System.String  @name, System.SByte  @value)
+        public virtual void AddValue(System.String @name, System.SByte @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -1390,7 +1390,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization
         }
 
 
-        public virtual void AddValue(System.String  @name, System.Byte  @value)
+        public virtual void AddValue(System.String @name, System.Byte @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -1401,7 +1401,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization
         }
 
 
-        public virtual void AddValue(System.String  @name, System.Int16  @value)
+        public virtual void AddValue(System.String @name, System.Int16 @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -1412,7 +1412,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization
         }
 
 
-        public virtual void AddValue(System.String  @name, System.UInt16  @value)
+        public virtual void AddValue(System.String @name, System.UInt16 @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -1423,7 +1423,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization
         }
 
 
-        public virtual void AddValue(System.String  @name, System.Int32  @value)
+        public virtual void AddValue(System.String @name, System.Int32 @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -1434,7 +1434,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization
         }
 
 
-        public virtual void AddValue(System.String  @name, System.UInt32  @value)
+        public virtual void AddValue(System.String @name, System.UInt32 @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -1445,7 +1445,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization
         }
 
 
-        public virtual void AddValue(System.String  @name, System.Int64  @value)
+        public virtual void AddValue(System.String @name, System.Int64 @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -1456,7 +1456,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization
         }
 
 
-        public virtual void AddValue(System.String  @name, System.UInt64  @value)
+        public virtual void AddValue(System.String @name, System.UInt64 @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -1467,7 +1467,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization
         }
 
 
-        public virtual void AddValue(System.String  @name, System.Single  @value)
+        public virtual void AddValue(System.String @name, System.Single @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -1478,7 +1478,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization
         }
 
 
-        public virtual void AddValue(System.String  @name, System.Double  @value)
+        public virtual void AddValue(System.String @name, System.Double @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -1489,7 +1489,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization
         }
 
 
-        public virtual void AddValue(System.String  @name, System.Decimal  @value)
+        public virtual void AddValue(System.String @name, System.Decimal @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -1500,7 +1500,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization
         }
 
 
-        public virtual void AddValue(System.String  @name, System.DateTime  @value)
+        public virtual void AddValue(System.String @name, System.DateTime @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -1511,7 +1511,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization
         }
 
 
-        public virtual void AddValueInternal(System.String  @name, System.Object  @value, System.Type  @type)
+        public virtual void AddValueInternal(System.String @name, System.Object @value, System.Type @type)
         {
 
             var ___genericsType = new Type[] {};
@@ -1522,7 +1522,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization
         }
 
 
-        public virtual void UpdateValue(System.String  @name, System.Object  @value, System.Type  @type)
+        public virtual void UpdateValue(System.String @name, System.Object @value, System.Type @type)
         {
 
             var ___genericsType = new Type[] {};
@@ -1533,7 +1533,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization
         }
 
 
-        public virtual System.Int32 FindElement(System.String  @name)
+        public virtual System.Int32 FindElement(System.String @name)
         {
 
             var ___genericsType = new Type[] {};
@@ -1544,7 +1544,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization
         }
 
 
-        public virtual System.Object GetElement(System.String  @name, out System.Type  @foundType)
+        public virtual System.Object GetElement(System.String @name, out System.Type @foundType)
         {
 			@foundType = default;
 
@@ -1557,7 +1557,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization
         }
 
 
-        public virtual System.Object GetElementNoThrow(System.String  @name, out System.Type  @foundType)
+        public virtual System.Object GetElementNoThrow(System.String @name, out System.Type @foundType)
         {
 			@foundType = default;
 
@@ -1570,7 +1570,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization
         }
 
 
-        public virtual System.Object GetValue(System.String  @name, System.Type  @type)
+        public virtual System.Object GetValue(System.String @name, System.Type @type)
         {
 
             var ___genericsType = new Type[] {};
@@ -1581,7 +1581,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization
         }
 
 
-        public virtual System.Object GetValueNoThrow(System.String  @name, System.Type  @type)
+        public virtual System.Object GetValueNoThrow(System.String @name, System.Type @type)
         {
 
             var ___genericsType = new Type[] {};
@@ -1592,7 +1592,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization
         }
 
 
-        public virtual System.Boolean GetBoolean(System.String  @name)
+        public virtual System.Boolean GetBoolean(System.String @name)
         {
 
             var ___genericsType = new Type[] {};
@@ -1603,7 +1603,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization
         }
 
 
-        public virtual System.Char GetChar(System.String  @name)
+        public virtual System.Char GetChar(System.String @name)
         {
 
             var ___genericsType = new Type[] {};
@@ -1614,7 +1614,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization
         }
 
 
-        public virtual System.SByte GetSByte(System.String  @name)
+        public virtual System.SByte GetSByte(System.String @name)
         {
 
             var ___genericsType = new Type[] {};
@@ -1625,7 +1625,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization
         }
 
 
-        public virtual System.Byte GetByte(System.String  @name)
+        public virtual System.Byte GetByte(System.String @name)
         {
 
             var ___genericsType = new Type[] {};
@@ -1636,7 +1636,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization
         }
 
 
-        public virtual System.Int16 GetInt16(System.String  @name)
+        public virtual System.Int16 GetInt16(System.String @name)
         {
 
             var ___genericsType = new Type[] {};
@@ -1647,7 +1647,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization
         }
 
 
-        public virtual System.UInt16 GetUInt16(System.String  @name)
+        public virtual System.UInt16 GetUInt16(System.String @name)
         {
 
             var ___genericsType = new Type[] {};
@@ -1658,7 +1658,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization
         }
 
 
-        public virtual System.Int32 GetInt32(System.String  @name)
+        public virtual System.Int32 GetInt32(System.String @name)
         {
 
             var ___genericsType = new Type[] {};
@@ -1669,7 +1669,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization
         }
 
 
-        public virtual System.UInt32 GetUInt32(System.String  @name)
+        public virtual System.UInt32 GetUInt32(System.String @name)
         {
 
             var ___genericsType = new Type[] {};
@@ -1680,7 +1680,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization
         }
 
 
-        public virtual System.Int64 GetInt64(System.String  @name)
+        public virtual System.Int64 GetInt64(System.String @name)
         {
 
             var ___genericsType = new Type[] {};
@@ -1691,7 +1691,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization
         }
 
 
-        public virtual System.UInt64 GetUInt64(System.String  @name)
+        public virtual System.UInt64 GetUInt64(System.String @name)
         {
 
             var ___genericsType = new Type[] {};
@@ -1702,7 +1702,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization
         }
 
 
-        public virtual System.Single GetSingle(System.String  @name)
+        public virtual System.Single GetSingle(System.String @name)
         {
 
             var ___genericsType = new Type[] {};
@@ -1713,7 +1713,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization
         }
 
 
-        public virtual System.Double GetDouble(System.String  @name)
+        public virtual System.Double GetDouble(System.String @name)
         {
 
             var ___genericsType = new Type[] {};
@@ -1724,7 +1724,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization
         }
 
 
-        public virtual System.Decimal GetDecimal(System.String  @name)
+        public virtual System.Decimal GetDecimal(System.String @name)
         {
 
             var ___genericsType = new Type[] {};
@@ -1735,7 +1735,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization
         }
 
 
-        public virtual System.DateTime GetDateTime(System.String  @name)
+        public virtual System.DateTime GetDateTime(System.String @name)
         {
 
             var ___genericsType = new Type[] {};
@@ -1746,7 +1746,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization
         }
 
 
-        public virtual System.String GetString(System.String  @name)
+        public virtual System.String GetString(System.String @name)
         {
 
             var ___genericsType = new Type[] {};
@@ -1757,7 +1757,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

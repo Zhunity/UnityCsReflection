@@ -317,7 +317,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 	    {
 	    }
 
-        public static System.Runtime.InteropServices.StructLayoutAttribute GetCustomAttribute(RSystem.RRuntimeType  @type)
+        public static System.Runtime.InteropServices.StructLayoutAttribute GetCustomAttribute(RSystem.RRuntimeType @type)
         {
 
             var ___genericsType = new Type[] {};
@@ -328,7 +328,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices
         }
 
 
-        public static System.Boolean IsDefined(RSystem.RRuntimeType  @type)
+        public static System.Boolean IsDefined(RSystem.RRuntimeType @type)
         {
 
             var ___genericsType = new Type[] {};
@@ -339,7 +339,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};
@@ -361,7 +361,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices
         }
 
 
-        public virtual System.Boolean Match(System.Object  @obj)
+        public virtual System.Boolean Match(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

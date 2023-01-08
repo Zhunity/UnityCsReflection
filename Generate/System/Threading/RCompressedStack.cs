@@ -316,7 +316,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public virtual void GetObjectData(System.Runtime.Serialization.SerializationInfo  @info, System.Runtime.Serialization.StreamingContext  @context)
+        public virtual void GetObjectData(System.Runtime.Serialization.SerializationInfo @info, System.Runtime.Serialization.StreamingContext @context)
         {
 
             var ___genericsType = new Type[] {};
@@ -327,7 +327,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public static void Run(System.Threading.CompressedStack  @compressedStack, System.Threading.ContextCallback  @callback, System.Object  @state)
+        public static void Run(System.Threading.CompressedStack @compressedStack, System.Threading.ContextCallback @callback, System.Object @state)
         {
 
             var ___genericsType = new Type[] {};
@@ -338,7 +338,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public virtual System.Boolean Equals(System.Threading.CompressedStack  @cs)
+        public virtual System.Boolean Equals(System.Threading.CompressedStack @cs)
         {
 
             var ___genericsType = new Type[] {};
@@ -360,7 +360,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

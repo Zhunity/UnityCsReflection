@@ -509,7 +509,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public virtual void Send(System.Threading.SendOrPostCallback  @d, System.Object  @state)
+        public virtual void Send(System.Threading.SendOrPostCallback @d, System.Object @state)
         {
 
             var ___genericsType = new Type[] {};
@@ -520,7 +520,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public virtual void Post(System.Threading.SendOrPostCallback  @d, System.Object  @state)
+        public virtual void Post(System.Threading.SendOrPostCallback @d, System.Object @state)
         {
 
             var ___genericsType = new Type[] {};
@@ -553,7 +553,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public virtual System.Int32 Wait(System.IntPtr[]  @waitHandles, System.Boolean  @waitAll, System.Int32  @millisecondsTimeout)
+        public virtual System.Int32 Wait(System.IntPtr[] @waitHandles, System.Boolean @waitAll, System.Int32 @millisecondsTimeout)
         {
 
             var ___genericsType = new Type[] {};
@@ -564,7 +564,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public static System.Int32 WaitHelper(System.IntPtr[]  @waitHandles, System.Boolean  @waitAll, System.Int32  @millisecondsTimeout)
+        public static System.Int32 WaitHelper(System.IntPtr[] @waitHandles, System.Boolean @waitAll, System.Int32 @millisecondsTimeout)
         {
 
             var ___genericsType = new Type[] {};
@@ -575,7 +575,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public static void SetSynchronizationContext(System.Threading.SynchronizationContext  @syncContext)
+        public static void SetSynchronizationContext(System.Threading.SynchronizationContext @syncContext)
         {
 
             var ___genericsType = new Type[] {};
@@ -608,7 +608,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public static System.Int32 InvokeWaitMethodHelper(System.Threading.SynchronizationContext  @syncContext, System.IntPtr[]  @waitHandles, System.Boolean  @waitAll, System.Int32  @millisecondsTimeout)
+        public static System.Int32 InvokeWaitMethodHelper(System.Threading.SynchronizationContext @syncContext, System.IntPtr[] @waitHandles, System.Boolean @waitAll, System.Int32 @millisecondsTimeout)
         {
 
             var ___genericsType = new Type[] {};
@@ -619,7 +619,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

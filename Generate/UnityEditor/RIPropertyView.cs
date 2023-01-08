@@ -215,7 +215,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 	    {
 	    }
 
-        public virtual UnityEngine.UIElements.IMGUIContainer CreateIMGUIContainer(System.Action  @headerOnGUI, System.String  @v)
+        public virtual UnityEngine.UIElements.IMGUIContainer CreateIMGUIContainer(System.Action @headerOnGUI, System.String @v)
         {
 
             var ___genericsType = new Type[] {};
@@ -226,7 +226,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual System.Boolean WasEditorVisible(UnityEditor.Editor[]  @editors, System.Int32  @editorIndex, UnityEngine.Object  @target)
+        public virtual System.Boolean WasEditorVisible(UnityEditor.Editor[] @editors, System.Int32 @editorIndex, UnityEngine.Object @target)
         {
 
             var ___genericsType = new Type[] {};
@@ -237,7 +237,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual System.Boolean ShouldCullEditor(UnityEditor.Editor[]  @editors, System.Int32  @editorIndex)
+        public virtual System.Boolean ShouldCullEditor(UnityEditor.Editor[] @editors, System.Int32 @editorIndex)
         {
 
             var ___genericsType = new Type[] {};
@@ -259,7 +259,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual void UnsavedChangesStateChanged(UnityEditor.Editor  @editor, System.Boolean  @value)
+        public virtual void UnsavedChangesStateChanged(UnityEditor.Editor @editor, System.Boolean @value)
         {
 
             var ___genericsType = new Type[] {};

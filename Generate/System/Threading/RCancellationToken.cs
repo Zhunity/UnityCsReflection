@@ -419,7 +419,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 	    {
 	    }
 
-        public virtual System.Threading.CancellationTokenRegistration Register(System.Action  @callback)
+        public virtual System.Threading.CancellationTokenRegistration Register(System.Action @callback)
         {
 
             var ___genericsType = new Type[] {};
@@ -430,7 +430,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public virtual System.Threading.CancellationTokenRegistration Register(System.Action  @callback, System.Boolean  @useSynchronizationContext)
+        public virtual System.Threading.CancellationTokenRegistration Register(System.Action @callback, System.Boolean @useSynchronizationContext)
         {
 
             var ___genericsType = new Type[] {};
@@ -441,7 +441,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public virtual System.Threading.CancellationTokenRegistration Register(System.Action<System.Object>  @callback, System.Object  @state)
+        public virtual System.Threading.CancellationTokenRegistration Register(System.Action<System.Object> @callback, System.Object @state)
         {
 
             var ___genericsType = new Type[] {};
@@ -452,7 +452,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public virtual System.Threading.CancellationTokenRegistration Register(System.Action<System.Object>  @callback, System.Object  @state, System.Boolean  @useSynchronizationContext)
+        public virtual System.Threading.CancellationTokenRegistration Register(System.Action<System.Object> @callback, System.Object @state, System.Boolean @useSynchronizationContext)
         {
 
             var ___genericsType = new Type[] {};
@@ -463,7 +463,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public virtual System.Threading.CancellationTokenRegistration InternalRegisterWithoutEC(System.Action<System.Object>  @callback, System.Object  @state)
+        public virtual System.Threading.CancellationTokenRegistration InternalRegisterWithoutEC(System.Action<System.Object> @callback, System.Object @state)
         {
 
             var ___genericsType = new Type[] {};
@@ -474,7 +474,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public virtual System.Threading.CancellationTokenRegistration Register(System.Action<System.Object>  @callback, System.Object  @state, System.Boolean  @useSynchronizationContext, System.Boolean  @useExecutionContext)
+        public virtual System.Threading.CancellationTokenRegistration Register(System.Action<System.Object> @callback, System.Object @state, System.Boolean @useSynchronizationContext, System.Boolean @useExecutionContext)
         {
 
             var ___genericsType = new Type[] {};
@@ -485,7 +485,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public virtual System.Boolean Equals(System.Threading.CancellationToken  @other)
+        public virtual System.Boolean Equals(System.Threading.CancellationToken @other)
         {
 
             var ___genericsType = new Type[] {};
@@ -496,7 +496,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @other)
+        public virtual System.Boolean Equals(System.Object @other)
         {
 
             var ___genericsType = new Type[] {};
@@ -518,7 +518,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public static System.Boolean op_Equality(System.Threading.CancellationToken  @left, System.Threading.CancellationToken  @right)
+        public static System.Boolean op_Equality(System.Threading.CancellationToken @left, System.Threading.CancellationToken @right)
         {
 
             var ___genericsType = new Type[] {};
@@ -529,7 +529,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public static System.Boolean op_Inequality(System.Threading.CancellationToken  @left, System.Threading.CancellationToken  @right)
+        public static System.Boolean op_Inequality(System.Threading.CancellationToken @left, System.Threading.CancellationToken @right)
         {
 
             var ___genericsType = new Type[] {};

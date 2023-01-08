@@ -181,7 +181,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 	    {
 	    }
 
-        public virtual void Run(System.Threading.Tasks.Task  @completedTask, System.Boolean  @bCanInlineContinuationTask)
+        public virtual void Run(System.Threading.Tasks.Task @completedTask, System.Boolean @bCanInlineContinuationTask)
         {
 
             var ___genericsType = new Type[] {};
@@ -192,7 +192,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
         }
 
 
-        public static void InlineIfPossibleOrElseQueue(System.Threading.Tasks.Task  @task, System.Boolean  @needsProtection)
+        public static void InlineIfPossibleOrElseQueue(System.Threading.Tasks.Task @task, System.Boolean @needsProtection)
         {
 
             var ___genericsType = new Type[] {};
@@ -214,7 +214,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

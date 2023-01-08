@@ -402,7 +402,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 	    {
 	    }
 
-        public static System.Boolean op_Equality(RUnityEngine.RTextCore.RText.ROffset  @lhs, RUnityEngine.RTextCore.RText.ROffset  @rhs)
+        public static System.Boolean op_Equality(RUnityEngine.RTextCore.RText.ROffset @lhs, RUnityEngine.RTextCore.RText.ROffset @rhs)
         {
 
             var ___genericsType = new Type[] {};
@@ -413,7 +413,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
         }
 
 
-        public static System.Boolean op_Inequality(RUnityEngine.RTextCore.RText.ROffset  @lhs, RUnityEngine.RTextCore.RText.ROffset  @rhs)
+        public static System.Boolean op_Inequality(RUnityEngine.RTextCore.RText.ROffset @lhs, RUnityEngine.RTextCore.RText.ROffset @rhs)
         {
 
             var ___genericsType = new Type[] {};
@@ -424,14 +424,14 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
         }
 
 
-        public static System.Object op_Multiply(RUnityEngine.RTextCore.RText.ROffset  @a, System.Single  @b)
+        public static RUnityEngine.RTextCore.RText.ROffset op_Multiply(RUnityEngine.RTextCore.RText.ROffset @a, System.Single @b)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@a.Value, @b};
             var ___result = Rop_Multiply_Offset_Single.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RUnityEngine.RTextCore.RText.ROffset(___result);
         }
 
 
@@ -446,7 +446,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};
@@ -457,7 +457,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
         }
 
 
-        public virtual System.Boolean Equals(RUnityEngine.RTextCore.RText.ROffset  @other)
+        public virtual System.Boolean Equals(RUnityEngine.RTextCore.RText.ROffset @other)
         {
 
             var ___genericsType = new Type[] {};

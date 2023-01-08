@@ -232,7 +232,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 	    {
 	    }
 
-        public static UnityEngine.UIElements.EasingFunction op_Implicit(UnityEngine.UIElements.EasingMode  @easingMode)
+        public static UnityEngine.UIElements.EasingFunction op_Implicit(UnityEngine.UIElements.EasingMode @easingMode)
         {
 
             var ___genericsType = new Type[] {};
@@ -243,7 +243,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public static System.Boolean op_Equality(UnityEngine.UIElements.EasingFunction  @lhs, UnityEngine.UIElements.EasingFunction  @rhs)
+        public static System.Boolean op_Equality(UnityEngine.UIElements.EasingFunction @lhs, UnityEngine.UIElements.EasingFunction @rhs)
         {
 
             var ___genericsType = new Type[] {};
@@ -254,7 +254,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public static System.Boolean op_Inequality(UnityEngine.UIElements.EasingFunction  @lhs, UnityEngine.UIElements.EasingFunction  @rhs)
+        public static System.Boolean op_Inequality(UnityEngine.UIElements.EasingFunction @lhs, UnityEngine.UIElements.EasingFunction @rhs)
         {
 
             var ___genericsType = new Type[] {};
@@ -265,7 +265,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean Equals(UnityEngine.UIElements.EasingFunction  @other)
+        public virtual System.Boolean Equals(UnityEngine.UIElements.EasingFunction @other)
         {
 
             var ___genericsType = new Type[] {};
@@ -276,7 +276,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

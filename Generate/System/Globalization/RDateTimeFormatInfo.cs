@@ -3419,7 +3419,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public virtual void InitializeOverridableProperties(RSystem.RGlobalization.RCultureData  @cultureData, System.Int32  @calendarId)
+        public virtual void InitializeOverridableProperties(RSystem.RGlobalization.RCultureData @cultureData, System.Int32 @calendarId)
         {
 
             var ___genericsType = new Type[] {};
@@ -3430,7 +3430,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public static System.Globalization.DateTimeFormatInfo GetInstance(System.IFormatProvider  @provider)
+        public static System.Globalization.DateTimeFormatInfo GetInstance(System.IFormatProvider @provider)
         {
 
             var ___genericsType = new Type[] {};
@@ -3441,7 +3441,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public virtual System.Object GetFormat(System.Type  @formatType)
+        public virtual System.Object GetFormat(System.Type @formatType)
         {
 
             var ___genericsType = new Type[] {};
@@ -3463,7 +3463,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public virtual System.Int32 GetEra(System.String  @eraName)
+        public virtual System.Int32 GetEra(System.String @eraName)
         {
 
             var ___genericsType = new Type[] {};
@@ -3474,7 +3474,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public virtual System.String GetEraName(System.Int32  @era)
+        public virtual System.String GetEraName(System.Int32 @era)
         {
 
             var ___genericsType = new Type[] {};
@@ -3485,7 +3485,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public virtual System.String GetAbbreviatedEraName(System.Int32  @era)
+        public virtual System.String GetAbbreviatedEraName(System.Int32 @era)
         {
 
             var ___genericsType = new Type[] {};
@@ -3496,7 +3496,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public static void CheckNullValue(System.String[]  @values, System.Int32  @length)
+        public static void CheckNullValue(System.String[] @values, System.Int32 @length)
         {
 
             var ___genericsType = new Type[] {};
@@ -3507,7 +3507,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public virtual System.String internalGetMonthName(System.Int32  @month, RType  @style, System.Boolean  @abbreviated)
+        public virtual System.String internalGetMonthName(System.Int32 @month, RType @style, System.Boolean @abbreviated)
         {
 
             var ___genericsType = new Type[] {};
@@ -3518,7 +3518,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public virtual System.String[] internalGetGenitiveMonthNames(System.Boolean  @abbreviated)
+        public virtual System.String[] internalGetGenitiveMonthNames(System.Boolean @abbreviated)
         {
 
             var ___genericsType = new Type[] {};
@@ -3540,7 +3540,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public virtual System.String GetAbbreviatedDayName(System.DayOfWeek  @dayofweek)
+        public virtual System.String GetAbbreviatedDayName(System.DayOfWeek @dayofweek)
         {
 
             var ___genericsType = new Type[] {};
@@ -3551,7 +3551,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public virtual System.String GetShortestDayName(System.DayOfWeek  @dayOfWeek)
+        public virtual System.String GetShortestDayName(System.DayOfWeek @dayOfWeek)
         {
 
             var ___genericsType = new Type[] {};
@@ -3562,7 +3562,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public static System.String[] GetCombinedPatterns(System.String[]  @patterns1, System.String[]  @patterns2, System.String  @connectString)
+        public static System.String[] GetCombinedPatterns(System.String[] @patterns1, System.String[] @patterns2, System.String @connectString)
         {
 
             var ___genericsType = new Type[] {};
@@ -3584,7 +3584,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public virtual System.String[] GetAllDateTimePatterns(System.Char  @format)
+        public virtual System.String[] GetAllDateTimePatterns(System.Char @format)
         {
 
             var ___genericsType = new Type[] {};
@@ -3595,7 +3595,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public virtual System.String GetDayName(System.DayOfWeek  @dayofweek)
+        public virtual System.String GetDayName(System.DayOfWeek @dayofweek)
         {
 
             var ___genericsType = new Type[] {};
@@ -3606,7 +3606,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public virtual System.String GetAbbreviatedMonthName(System.Int32  @month)
+        public virtual System.String GetAbbreviatedMonthName(System.Int32 @month)
         {
 
             var ___genericsType = new Type[] {};
@@ -3617,7 +3617,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public virtual System.String GetMonthName(System.Int32  @month)
+        public virtual System.String GetMonthName(System.Int32 @month)
         {
 
             var ___genericsType = new Type[] {};
@@ -3628,7 +3628,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public static System.String[] GetMergedPatterns(System.String[]  @patterns, System.String  @defaultPattern)
+        public static System.String[] GetMergedPatterns(System.String[] @patterns, System.String @defaultPattern)
         {
 
             var ___genericsType = new Type[] {};
@@ -3639,7 +3639,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public static System.Globalization.DateTimeFormatInfo ReadOnly(System.Globalization.DateTimeFormatInfo  @dtfi)
+        public static System.Globalization.DateTimeFormatInfo ReadOnly(System.Globalization.DateTimeFormatInfo @dtfi)
         {
 
             var ___genericsType = new Type[] {};
@@ -3650,7 +3650,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public virtual void SetAllDateTimePatterns(System.String[]  @patterns, System.Char  @format)
+        public virtual void SetAllDateTimePatterns(System.String[] @patterns, System.Char @format)
         {
 
             var ___genericsType = new Type[] {};
@@ -3661,7 +3661,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public static void ValidateStyles(System.Globalization.DateTimeStyles  @style, System.String  @parameterName)
+        public static void ValidateStyles(System.Globalization.DateTimeStyles @style, System.String @parameterName)
         {
 
             var ___genericsType = new Type[] {};
@@ -3672,18 +3672,18 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public virtual System.Object InitializeFormatFlags()
+        public virtual RType InitializeFormatFlags()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RInitializeFormatFlags.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RType(___result);
         }
 
 
-        public virtual System.Boolean YearMonthAdjustment(ref System.Int32  @year, ref System.Int32  @month, System.Boolean  @parsedMonthName)
+        public virtual System.Boolean YearMonthAdjustment(ref System.Int32 @year, ref System.Int32 @month, System.Boolean @parsedMonthName)
         {
 
             var ___genericsType = new Type[] {};
@@ -3729,18 +3729,18 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public virtual System.Object CreateTokenHashTable()
+        public virtual RTypeArray<RSystem.RGlobalization.RDateTimeFormatInfo.RTokenHashValue> CreateTokenHashTable()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RCreateTokenHashTable.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RTypeArray<RSystem.RGlobalization.RDateTimeFormatInfo.RTokenHashValue>(___result);
         }
 
 
-        public virtual void PopulateSpecialTokenHashTable(RTypeArray<RSystem.RGlobalization.RDateTimeFormatInfo.RTokenHashValue>  @temp, ref System.Boolean  @useDateSepAsIgnorableSymbol)
+        public virtual void PopulateSpecialTokenHashTable(RTypeArray<RSystem.RGlobalization.RDateTimeFormatInfo.RTokenHashValue> @temp, ref System.Boolean @useDateSepAsIgnorableSymbol)
         {
 
             var ___genericsType = new Type[] {};
@@ -3752,7 +3752,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public static System.Boolean IsJapaneseCalendar(System.Globalization.Calendar  @calendar)
+        public static System.Boolean IsJapaneseCalendar(System.Globalization.Calendar @calendar)
         {
 
             var ___genericsType = new Type[] {};
@@ -3763,7 +3763,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public virtual void AddMonthNames(RTypeArray<RSystem.RGlobalization.RDateTimeFormatInfo.RTokenHashValue>  @temp, System.String  @monthPostfix)
+        public virtual void AddMonthNames(RTypeArray<RSystem.RGlobalization.RDateTimeFormatInfo.RTokenHashValue> @temp, System.String @monthPostfix)
         {
 
             var ___genericsType = new Type[] {};
@@ -3774,7 +3774,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public static System.Boolean TryParseHebrewNumber(ref RSystem.R__DTString  @str, out System.Boolean  @badFormat, out System.Int32  @number)
+        public static System.Boolean TryParseHebrewNumber(ref RSystem.R__DTString @str, out System.Boolean @badFormat, out System.Int32 @number)
         {
 			@badFormat = default;
 			@number = default;
@@ -3790,7 +3790,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public static System.Boolean IsHebrewChar(System.Char  @ch)
+        public static System.Boolean IsHebrewChar(System.Char @ch)
         {
 
             var ___genericsType = new Type[] {};
@@ -3801,7 +3801,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public virtual System.Boolean IsAllowedJapaneseTokenFollowedByNonSpaceLetter(System.String  @tokenString, System.Char  @nextCh)
+        public virtual System.Boolean IsAllowedJapaneseTokenFollowedByNonSpaceLetter(System.String @tokenString, System.Char @nextCh)
         {
 
             var ___genericsType = new Type[] {};
@@ -3812,7 +3812,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public virtual System.Boolean Tokenize(RType  @TokenMask, out RType  @tokenType, out System.Int32  @tokenValue, ref RSystem.R__DTString  @str)
+        public virtual System.Boolean Tokenize(RType @TokenMask, out RType @tokenType, out System.Int32 @tokenValue, ref RSystem.R__DTString @str)
         {
 			@tokenType = default;
 			@tokenValue = default;
@@ -3828,7 +3828,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public virtual void InsertAtCurrentHashNode(RTypeArray<RSystem.RGlobalization.RDateTimeFormatInfo.RTokenHashValue>  @hashTable, System.String  @str, System.Char  @ch, RType  @tokenType, System.Int32  @tokenValue, System.Int32  @pos, System.Int32  @hashcode, System.Int32  @hashProbe)
+        public virtual void InsertAtCurrentHashNode(RTypeArray<RSystem.RGlobalization.RDateTimeFormatInfo.RTokenHashValue> @hashTable, System.String @str, System.Char @ch, RType @tokenType, System.Int32 @tokenValue, System.Int32 @pos, System.Int32 @hashcode, System.Int32 @hashProbe)
         {
 
             var ___genericsType = new Type[] {};
@@ -3839,7 +3839,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public virtual void InsertHash(RTypeArray<RSystem.RGlobalization.RDateTimeFormatInfo.RTokenHashValue>  @hashTable, System.String  @str, RType  @tokenType, System.Int32  @tokenValue)
+        public virtual void InsertHash(RTypeArray<RSystem.RGlobalization.RDateTimeFormatInfo.RTokenHashValue> @hashTable, System.String @str, RType @tokenType, System.Int32 @tokenValue)
         {
 
             var ___genericsType = new Type[] {};
@@ -3850,7 +3850,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public virtual System.Boolean CompareStringIgnoreCaseOptimized(System.String  @string1, System.Int32  @offset1, System.Int32  @length1, System.String  @string2, System.Int32  @offset2, System.Int32  @length2)
+        public virtual System.Boolean CompareStringIgnoreCaseOptimized(System.String @string1, System.Int32 @offset1, System.Int32 @length1, System.String @string2, System.Int32 @offset2, System.Int32 @length2)
         {
 
             var ___genericsType = new Type[] {};
@@ -3861,7 +3861,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

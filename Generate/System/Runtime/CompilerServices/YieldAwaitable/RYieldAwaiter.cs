@@ -268,7 +268,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RCompilerServices
 	    {
 	    }
 
-        public virtual void OnCompleted(System.Action  @continuation)
+        public virtual void OnCompleted(System.Action @continuation)
         {
 
             var ___genericsType = new Type[] {};
@@ -279,7 +279,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RCompilerServices
         }
 
 
-        public virtual void UnsafeOnCompleted(System.Action  @continuation)
+        public virtual void UnsafeOnCompleted(System.Action @continuation)
         {
 
             var ___genericsType = new Type[] {};
@@ -290,7 +290,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RCompilerServices
         }
 
 
-        public static void QueueContinuation(System.Action  @continuation, System.Boolean  @flowContext)
+        public static void QueueContinuation(System.Action @continuation, System.Boolean @flowContext)
         {
 
             var ___genericsType = new Type[] {};
@@ -301,7 +301,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RCompilerServices
         }
 
 
-        public static void RunAction(System.Object  @state)
+        public static void RunAction(System.Object @state)
         {
 
             var ___genericsType = new Type[] {};
@@ -323,7 +323,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RCompilerServices
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

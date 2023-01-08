@@ -215,7 +215,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 	    {
 	    }
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};
@@ -226,7 +226,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean Equals(UnityEngine.UIElements.CustomStyleProperty<T>  @other)
+        public virtual System.Boolean Equals(UnityEngine.UIElements.CustomStyleProperty<T> @other)
         {
 
             var ___genericsType = new Type[] {};
@@ -248,7 +248,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public static System.Boolean op_Equality(UnityEngine.UIElements.CustomStyleProperty<T>  @a, UnityEngine.UIElements.CustomStyleProperty<T>  @b)
+        public static System.Boolean op_Equality(UnityEngine.UIElements.CustomStyleProperty<T> @a, UnityEngine.UIElements.CustomStyleProperty<T> @b)
         {
 
             var ___genericsType = new Type[] {};
@@ -259,7 +259,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public static System.Boolean op_Inequality(UnityEngine.UIElements.CustomStyleProperty<T>  @a, UnityEngine.UIElements.CustomStyleProperty<T>  @b)
+        public static System.Boolean op_Inequality(UnityEngine.UIElements.CustomStyleProperty<T> @a, UnityEngine.UIElements.CustomStyleProperty<T> @b)
         {
 
             var ___genericsType = new Type[] {};

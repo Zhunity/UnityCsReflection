@@ -249,7 +249,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 	    {
 	    }
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};
@@ -260,7 +260,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public virtual System.Boolean Equals(System.Globalization.SortVersion  @other)
+        public virtual System.Boolean Equals(System.Globalization.SortVersion @other)
         {
 
             var ___genericsType = new Type[] {};
@@ -282,7 +282,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public static System.Boolean op_Equality(System.Globalization.SortVersion  @left, System.Globalization.SortVersion  @right)
+        public static System.Boolean op_Equality(System.Globalization.SortVersion @left, System.Globalization.SortVersion @right)
         {
 
             var ___genericsType = new Type[] {};
@@ -293,7 +293,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public static System.Boolean op_Inequality(System.Globalization.SortVersion  @left, System.Globalization.SortVersion  @right)
+        public static System.Boolean op_Inequality(System.Globalization.SortVersion @left, System.Globalization.SortVersion @right)
         {
 
             var ___genericsType = new Type[] {};

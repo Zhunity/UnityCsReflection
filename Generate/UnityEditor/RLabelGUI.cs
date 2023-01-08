@@ -497,7 +497,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual void AssetLabelsChangedForObject(UnityEngine.Object  @asset)
+        public virtual void AssetLabelsChangedForObject(UnityEngine.Object @asset)
         {
 
             var ___genericsType = new Type[] {};
@@ -519,8 +519,18 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
+        public virtual void AssetLabelListCallback(RUnityEditor.RPopupList.RListElement @element)
+        {
 
-        public virtual void InitLabelCache(UnityEngine.Object[]  @assets)
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@element.Value};
+            var ___result = RAssetLabelListCallback_ListElement.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void InitLabelCache(UnityEngine.Object[] @assets)
         {
 
             var ___genericsType = new Type[] {};
@@ -531,7 +541,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual void OnLabelGUI(UnityEngine.Object[]  @assets)
+        public virtual void OnLabelGUI(UnityEngine.Object[] @assets)
         {
 
             var ___genericsType = new Type[] {};
@@ -542,7 +552,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual void DrawLabelList(System.Boolean  @partiallySelected, System.Single  @xMax)
+        public virtual void DrawLabelList(System.Boolean @partiallySelected, System.Single @xMax)
         {
 
             var ___genericsType = new Type[] {};
@@ -553,22 +563,22 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual void GetLabelsForAssets(UnityEngine.Object[]  @assets, out System.Collections.Generic.List<System.String>  @all, out System.Collections.Generic.List<System.String>  @partial)
+        public virtual void GetLabelsForAssets(UnityEngine.Object[] @assets, out System.Collections.Generic.List<System.String> @all, out System.Collections.Generic.List<System.String> @partial)
         {
-			all = default;
-			partial = default;
+			@all = default;
+			@partial = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@assets, @all, @partial};
             var ___result = RGetLabelsForAssets_ObjectArray_Out_List_d_String_p__Out_List_d_String_p_.Invoke(___genericsType, ___parameters);
-			all = (System.Collections.Generic.List<System.String>)___parameters[1];
-			partial = (System.Collections.Generic.List<System.String>)___parameters[2];
+			@all = (System.Collections.Generic.List<System.String>)___parameters[1];
+			@partial = (System.Collections.Generic.List<System.String>)___parameters[2];
 
             
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

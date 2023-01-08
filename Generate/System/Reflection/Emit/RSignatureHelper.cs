@@ -776,7 +776,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 	    {
 	    }
 
-        public static System.Reflection.Emit.SignatureHelper GetFieldSigHelper(System.Reflection.Module  @mod)
+        public static System.Reflection.Emit.SignatureHelper GetFieldSigHelper(System.Reflection.Module @mod)
         {
 
             var ___genericsType = new Type[] {};
@@ -787,7 +787,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public static System.Reflection.Emit.SignatureHelper GetLocalVarSigHelper(System.Reflection.Module  @mod)
+        public static System.Reflection.Emit.SignatureHelper GetLocalVarSigHelper(System.Reflection.Module @mod)
         {
 
             var ___genericsType = new Type[] {};
@@ -809,7 +809,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public static System.Reflection.Emit.SignatureHelper GetMethodSigHelper(System.Reflection.CallingConventions  @callingConvention, System.Type  @returnType)
+        public static System.Reflection.Emit.SignatureHelper GetMethodSigHelper(System.Reflection.CallingConventions @callingConvention, System.Type @returnType)
         {
 
             var ___genericsType = new Type[] {};
@@ -820,7 +820,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public static System.Reflection.Emit.SignatureHelper GetMethodSigHelper(System.Runtime.InteropServices.CallingConvention  @unmanagedCallingConvention, System.Type  @returnType)
+        public static System.Reflection.Emit.SignatureHelper GetMethodSigHelper(System.Runtime.InteropServices.CallingConvention @unmanagedCallingConvention, System.Type @returnType)
         {
 
             var ___genericsType = new Type[] {};
@@ -831,7 +831,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public static System.Reflection.Emit.SignatureHelper GetMethodSigHelper(System.Reflection.Module  @mod, System.Reflection.CallingConventions  @callingConvention, System.Type  @returnType)
+        public static System.Reflection.Emit.SignatureHelper GetMethodSigHelper(System.Reflection.Module @mod, System.Reflection.CallingConventions @callingConvention, System.Type @returnType)
         {
 
             var ___genericsType = new Type[] {};
@@ -842,7 +842,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public static System.Reflection.Emit.SignatureHelper GetMethodSigHelper(System.Reflection.Module  @mod, System.Runtime.InteropServices.CallingConvention  @unmanagedCallConv, System.Type  @returnType)
+        public static System.Reflection.Emit.SignatureHelper GetMethodSigHelper(System.Reflection.Module @mod, System.Runtime.InteropServices.CallingConvention @unmanagedCallConv, System.Type @returnType)
         {
 
             var ___genericsType = new Type[] {};
@@ -853,7 +853,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public static System.Reflection.Emit.SignatureHelper GetMethodSigHelper(System.Reflection.Module  @mod, System.Type  @returnType, System.Type[]  @parameterTypes)
+        public static System.Reflection.Emit.SignatureHelper GetMethodSigHelper(System.Reflection.Module @mod, System.Type @returnType, System.Type[] @parameterTypes)
         {
 
             var ___genericsType = new Type[] {};
@@ -864,7 +864,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public static System.Reflection.Emit.SignatureHelper GetPropertySigHelper(System.Reflection.Module  @mod, System.Type  @returnType, System.Type[]  @parameterTypes)
+        public static System.Reflection.Emit.SignatureHelper GetPropertySigHelper(System.Reflection.Module @mod, System.Type @returnType, System.Type[] @parameterTypes)
         {
 
             var ___genericsType = new Type[] {};
@@ -875,7 +875,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public static System.Reflection.Emit.SignatureHelper GetPropertySigHelper(System.Reflection.Module  @mod, System.Type  @returnType, System.Type[]  @requiredReturnTypeCustomModifiers, System.Type[]  @optionalReturnTypeCustomModifiers, System.Type[]  @parameterTypes, System.Type[][]  @requiredParameterTypeCustomModifiers, System.Type[][]  @optionalParameterTypeCustomModifiers)
+        public static System.Reflection.Emit.SignatureHelper GetPropertySigHelper(System.Reflection.Module @mod, System.Type @returnType, System.Type[] @requiredReturnTypeCustomModifiers, System.Type[] @optionalReturnTypeCustomModifiers, System.Type[] @parameterTypes, System.Type[][] @requiredParameterTypeCustomModifiers, System.Type[][] @optionalParameterTypeCustomModifiers)
         {
 
             var ___genericsType = new Type[] {};
@@ -886,7 +886,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public static System.Reflection.Emit.SignatureHelper GetPropertySigHelper(System.Reflection.Module  @mod, System.Reflection.CallingConventions  @callingConvention, System.Type  @returnType, System.Type[]  @requiredReturnTypeCustomModifiers, System.Type[]  @optionalReturnTypeCustomModifiers, System.Type[]  @parameterTypes, System.Type[][]  @requiredParameterTypeCustomModifiers, System.Type[][]  @optionalParameterTypeCustomModifiers)
+        public static System.Reflection.Emit.SignatureHelper GetPropertySigHelper(System.Reflection.Module @mod, System.Reflection.CallingConventions @callingConvention, System.Type @returnType, System.Type[] @requiredReturnTypeCustomModifiers, System.Type[] @optionalReturnTypeCustomModifiers, System.Type[] @parameterTypes, System.Type[][] @requiredParameterTypeCustomModifiers, System.Type[][] @optionalParameterTypeCustomModifiers)
         {
 
             var ___genericsType = new Type[] {};
@@ -897,7 +897,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public static System.Int32 AppendArray(ref System.Type[]  @array, System.Type  @t)
+        public static System.Int32 AppendArray(ref System.Type[] @array, System.Type @t)
         {
 
             var ___genericsType = new Type[] {};
@@ -909,7 +909,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public static void AppendArrayAt(ref System.Type[][]  @array, System.Type[]  @t, System.Int32  @pos)
+        public static void AppendArrayAt(ref System.Type[][] @array, System.Type[] @t, System.Int32 @pos)
         {
 
             var ___genericsType = new Type[] {};
@@ -921,7 +921,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public static void ValidateParameterModifiers(System.String  @name, System.Type[]  @parameter_modifiers)
+        public static void ValidateParameterModifiers(System.String @name, System.Type[] @parameter_modifiers)
         {
 
             var ___genericsType = new Type[] {};
@@ -932,7 +932,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public static void ValidateCustomModifier(System.Int32  @n, System.Type[][]  @custom_modifiers, System.String  @name)
+        public static void ValidateCustomModifier(System.Int32 @n, System.Type[][] @custom_modifiers, System.String @name)
         {
 
             var ___genericsType = new Type[] {};
@@ -954,7 +954,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual void AddArguments(System.Type[]  @arguments, System.Type[][]  @requiredCustomModifiers, System.Type[][]  @optionalCustomModifiers)
+        public virtual void AddArguments(System.Type[] @arguments, System.Type[][] @requiredCustomModifiers, System.Type[][] @optionalCustomModifiers)
         {
 
             var ___genericsType = new Type[] {};
@@ -965,7 +965,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual void AddArgument(System.Type  @argument, System.Boolean  @pinned)
+        public virtual void AddArgument(System.Type @argument, System.Boolean @pinned)
         {
 
             var ___genericsType = new Type[] {};
@@ -976,7 +976,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual void AddArgument(System.Type  @argument, System.Type[]  @requiredCustomModifiers, System.Type[]  @optionalCustomModifiers)
+        public virtual void AddArgument(System.Type @argument, System.Type[] @requiredCustomModifiers, System.Type[] @optionalCustomModifiers)
         {
 
             var ___genericsType = new Type[] {};
@@ -987,7 +987,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual void AddArgument(System.Type  @clsArgument)
+        public virtual void AddArgument(System.Type @clsArgument)
         {
 
             var ___genericsType = new Type[] {};
@@ -1009,7 +1009,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public static System.Boolean CompareOK(System.Type[][]  @one, System.Type[][]  @two)
+        public static System.Boolean CompareOK(System.Type[][] @one, System.Type[][] @two)
         {
 
             var ___genericsType = new Type[] {};
@@ -1020,7 +1020,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};
@@ -1086,7 +1086,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public static System.Reflection.Emit.SignatureHelper GetMethodSigHelper(System.Reflection.Module  @mod, System.Reflection.CallingConventions  @callingConvention, System.Runtime.InteropServices.CallingConvention  @unmanagedCallingConvention, System.Type  @returnType, System.Type[]  @parameters)
+        public static System.Reflection.Emit.SignatureHelper GetMethodSigHelper(System.Reflection.Module @mod, System.Reflection.CallingConventions @callingConvention, System.Runtime.InteropServices.CallingConvention @unmanagedCallingConvention, System.Type @returnType, System.Type[] @parameters)
         {
 
             var ___genericsType = new Type[] {};
@@ -1097,7 +1097,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual void System__2__Runtime__2__InteropServices__2___SignatureHelper__2__GetIDsOfNames(in System.Guid  @riid, System.IntPtr  @rgszNames, System.UInt32  @cNames, System.UInt32  @lcid, System.IntPtr  @rgDispId)
+        public virtual void System__2__Runtime__2__InteropServices__2___SignatureHelper__2__GetIDsOfNames(in System.Guid @riid, System.IntPtr @rgszNames, System.UInt32 @cNames, System.UInt32 @lcid, System.IntPtr @rgDispId)
         {
 
             var ___genericsType = new Type[] {};
@@ -1108,7 +1108,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual void System__2__Runtime__2__InteropServices__2___SignatureHelper__2__GetTypeInfo(System.UInt32  @iTInfo, System.UInt32  @lcid, System.IntPtr  @ppTInfo)
+        public virtual void System__2__Runtime__2__InteropServices__2___SignatureHelper__2__GetTypeInfo(System.UInt32 @iTInfo, System.UInt32 @lcid, System.IntPtr @ppTInfo)
         {
 
             var ___genericsType = new Type[] {};
@@ -1119,7 +1119,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual void System__2__Runtime__2__InteropServices__2___SignatureHelper__2__GetTypeInfoCount(out System.UInt32  @pcTInfo)
+        public virtual void System__2__Runtime__2__InteropServices__2___SignatureHelper__2__GetTypeInfoCount(out System.UInt32 @pcTInfo)
         {
 			@pcTInfo = default;
 
@@ -1132,7 +1132,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual void System__2__Runtime__2__InteropServices__2___SignatureHelper__2__Invoke(System.UInt32  @dispIdMember, in System.Guid  @riid, System.UInt32  @lcid, System.Int16  @wFlags, System.IntPtr  @pDispParams, System.IntPtr  @pVarResult, System.IntPtr  @pExcepInfo, System.IntPtr  @puArgErr)
+        public virtual void System__2__Runtime__2__InteropServices__2___SignatureHelper__2__Invoke(System.UInt32 @dispIdMember, in System.Guid @riid, System.UInt32 @lcid, System.Int16 @wFlags, System.IntPtr @pDispParams, System.IntPtr @pVarResult, System.IntPtr @pExcepInfo, System.IntPtr @puArgErr)
         {
 
             var ___genericsType = new Type[] {};

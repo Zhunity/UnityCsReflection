@@ -249,7 +249,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 	    {
 	    }
 
-        public virtual UnityEngine.Vector3 GetPoint(System.Single  @distance)
+        public virtual UnityEngine.Vector3 GetPoint(System.Single @distance)
         {
 
             var ___genericsType = new Type[] {};
@@ -271,7 +271,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.String ToString(System.String  @format)
+        public virtual System.String ToString(System.String @format)
         {
 
             var ___genericsType = new Type[] {};
@@ -282,7 +282,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.String ToString(System.String  @format, System.IFormatProvider  @formatProvider)
+        public virtual System.String ToString(System.String @format, System.IFormatProvider @formatProvider)
         {
 
             var ___genericsType = new Type[] {};
@@ -293,7 +293,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

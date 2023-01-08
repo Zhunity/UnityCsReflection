@@ -1099,7 +1099,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 	    {
 	    }
 
-        public static System.String GetAppBase(System.String  @appBase)
+        public static System.String GetAppBase(System.String @appBase)
         {
 
             var ___genericsType = new Type[] {};
@@ -1121,7 +1121,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual void SetConfigurationBytes(System.Byte[]  @value)
+        public virtual void SetConfigurationBytes(System.Byte[] @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -1154,7 +1154,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual void SetCompatibilitySwitches(System.Collections.Generic.IEnumerable<System.String>  @switches)
+        public virtual void SetCompatibilitySwitches(System.Collections.Generic.IEnumerable<System.String> @switches)
         {
 
             var ___genericsType = new Type[] {};
@@ -1165,7 +1165,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual void SetNativeFunction(System.String  @functionName, System.Int32  @functionVersion, System.IntPtr  @functionPointer)
+        public virtual void SetNativeFunction(System.String @functionName, System.Int32 @functionVersion, System.IntPtr @functionPointer)
         {
 
             var ___genericsType = new Type[] {};
@@ -1176,7 +1176,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

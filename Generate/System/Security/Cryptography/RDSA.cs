@@ -923,7 +923,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
         }
 
 
-        public static System.Security.Cryptography.DSA Create(System.String  @algName)
+        public static System.Security.Cryptography.DSA Create(System.String @algName)
         {
 
             var ___genericsType = new Type[] {};
@@ -934,7 +934,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
         }
 
 
-        public virtual System.Byte[] CreateSignature(System.Byte[]  @rgbHash)
+        public virtual System.Byte[] CreateSignature(System.Byte[] @rgbHash)
         {
 
             var ___genericsType = new Type[] {};
@@ -945,7 +945,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
         }
 
 
-        public virtual System.Boolean VerifySignature(System.Byte[]  @rgbHash, System.Byte[]  @rgbSignature)
+        public virtual System.Boolean VerifySignature(System.Byte[] @rgbHash, System.Byte[] @rgbSignature)
         {
 
             var ___genericsType = new Type[] {};
@@ -956,7 +956,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
         }
 
 
-        public virtual System.Byte[] HashData(System.Byte[]  @data, System.Int32  @offset, System.Int32  @count, System.Security.Cryptography.HashAlgorithmName  @hashAlgorithm)
+        public virtual System.Byte[] HashData(System.Byte[] @data, System.Int32 @offset, System.Int32 @count, System.Security.Cryptography.HashAlgorithmName @hashAlgorithm)
         {
 
             var ___genericsType = new Type[] {};
@@ -967,7 +967,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
         }
 
 
-        public virtual System.Byte[] HashData(System.IO.Stream  @data, System.Security.Cryptography.HashAlgorithmName  @hashAlgorithm)
+        public virtual System.Byte[] HashData(System.IO.Stream @data, System.Security.Cryptography.HashAlgorithmName @hashAlgorithm)
         {
 
             var ___genericsType = new Type[] {};
@@ -978,7 +978,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
         }
 
 
-        public virtual System.Byte[] SignData(System.Byte[]  @data, System.Security.Cryptography.HashAlgorithmName  @hashAlgorithm)
+        public virtual System.Byte[] SignData(System.Byte[] @data, System.Security.Cryptography.HashAlgorithmName @hashAlgorithm)
         {
 
             var ___genericsType = new Type[] {};
@@ -989,7 +989,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
         }
 
 
-        public virtual System.Byte[] SignData(System.Byte[]  @data, System.Int32  @offset, System.Int32  @count, System.Security.Cryptography.HashAlgorithmName  @hashAlgorithm)
+        public virtual System.Byte[] SignData(System.Byte[] @data, System.Int32 @offset, System.Int32 @count, System.Security.Cryptography.HashAlgorithmName @hashAlgorithm)
         {
 
             var ___genericsType = new Type[] {};
@@ -1000,7 +1000,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
         }
 
 
-        public virtual System.Byte[] SignData(System.IO.Stream  @data, System.Security.Cryptography.HashAlgorithmName  @hashAlgorithm)
+        public virtual System.Byte[] SignData(System.IO.Stream @data, System.Security.Cryptography.HashAlgorithmName @hashAlgorithm)
         {
 
             var ___genericsType = new Type[] {};
@@ -1011,7 +1011,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
         }
 
 
-        public virtual System.Boolean VerifyData(System.Byte[]  @data, System.Byte[]  @signature, System.Security.Cryptography.HashAlgorithmName  @hashAlgorithm)
+        public virtual System.Boolean VerifyData(System.Byte[] @data, System.Byte[] @signature, System.Security.Cryptography.HashAlgorithmName @hashAlgorithm)
         {
 
             var ___genericsType = new Type[] {};
@@ -1022,7 +1022,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
         }
 
 
-        public virtual System.Boolean VerifyData(System.Byte[]  @data, System.Int32  @offset, System.Int32  @count, System.Byte[]  @signature, System.Security.Cryptography.HashAlgorithmName  @hashAlgorithm)
+        public virtual System.Boolean VerifyData(System.Byte[] @data, System.Int32 @offset, System.Int32 @count, System.Byte[] @signature, System.Security.Cryptography.HashAlgorithmName @hashAlgorithm)
         {
 
             var ___genericsType = new Type[] {};
@@ -1033,7 +1033,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
         }
 
 
-        public virtual System.Boolean VerifyData(System.IO.Stream  @data, System.Byte[]  @signature, System.Security.Cryptography.HashAlgorithmName  @hashAlgorithm)
+        public virtual System.Boolean VerifyData(System.IO.Stream @data, System.Byte[] @signature, System.Security.Cryptography.HashAlgorithmName @hashAlgorithm)
         {
 
             var ___genericsType = new Type[] {};
@@ -1044,7 +1044,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
         }
 
 
-        public virtual void FromXmlString(System.String  @xmlString)
+        public virtual void FromXmlString(System.String @xmlString)
         {
 
             var ___genericsType = new Type[] {};
@@ -1055,7 +1055,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
         }
 
 
-        public virtual System.String ToXmlString(System.Boolean  @includePrivateParameters)
+        public virtual System.String ToXmlString(System.Boolean @includePrivateParameters)
         {
 
             var ___genericsType = new Type[] {};
@@ -1066,7 +1066,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
         }
 
 
-        public virtual System.Security.Cryptography.DSAParameters ExportParameters(System.Boolean  @includePrivateParameters)
+        public virtual System.Security.Cryptography.DSAParameters ExportParameters(System.Boolean @includePrivateParameters)
         {
 
             var ___genericsType = new Type[] {};
@@ -1077,7 +1077,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
         }
 
 
-        public virtual void ImportParameters(System.Security.Cryptography.DSAParameters  @parameters)
+        public virtual void ImportParameters(System.Security.Cryptography.DSAParameters @parameters)
         {
 
             var ___genericsType = new Type[] {};
@@ -1110,7 +1110,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
         }
 
 
-        public static System.Security.Cryptography.DSA Create(System.Int32  @keySizeInBits)
+        public static System.Security.Cryptography.DSA Create(System.Int32 @keySizeInBits)
         {
 
             var ___genericsType = new Type[] {};
@@ -1121,7 +1121,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
         }
 
 
-        public static System.Security.Cryptography.DSA Create(System.Security.Cryptography.DSAParameters  @parameters)
+        public static System.Security.Cryptography.DSA Create(System.Security.Cryptography.DSAParameters @parameters)
         {
 
             var ___genericsType = new Type[] {};
@@ -1159,7 +1159,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
         }
 
 
-        public virtual void Dispose(System.Boolean  @disposing)
+        public virtual void Dispose(System.Boolean @disposing)
         {
 
             var ___genericsType = new Type[] {};
@@ -1202,7 +1202,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
 
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

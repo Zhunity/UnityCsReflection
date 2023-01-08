@@ -317,7 +317,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 	    {
 	    }
 
-        public static UnityEngine.Rendering.SynchronisationStageFlags TranslateSynchronizationStageToFlags(UnityEngine.Rendering.SynchronisationStage  @s)
+        public static UnityEngine.Rendering.SynchronisationStageFlags TranslateSynchronizationStageToFlags(UnityEngine.Rendering.SynchronisationStage @s)
         {
 
             var ___genericsType = new Type[] {};
@@ -328,7 +328,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public static System.Boolean HasFencePassed_Internal(System.IntPtr  @fencePtr)
+        public static System.Boolean HasFencePassed_Internal(System.IntPtr @fencePtr)
         {
 
             var ___genericsType = new Type[] {};
@@ -383,7 +383,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public static System.Int32 GetVersionNumber(System.IntPtr  @fencePtr)
+        public static System.Int32 GetVersionNumber(System.IntPtr @fencePtr)
         {
 
             var ___genericsType = new Type[] {};
@@ -394,7 +394,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

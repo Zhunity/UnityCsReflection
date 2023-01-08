@@ -147,7 +147,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
 	    {
 	    }
 
-        public virtual void Add(T  @item)
+        public virtual void Add(T @item)
         {
 
             var ___genericsType = new Type[] {};
@@ -169,7 +169,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
         }
 
 
-        public virtual System.Boolean Contains(T  @item)
+        public virtual System.Boolean Contains(T @item)
         {
 
             var ___genericsType = new Type[] {};
@@ -180,7 +180,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
         }
 
 
-        public virtual void CopyTo(T[]  @array, System.Int32  @arrayIndex)
+        public virtual void CopyTo(T[] @array, System.Int32 @arrayIndex)
         {
 
             var ___genericsType = new Type[] {};
@@ -191,7 +191,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
         }
 
 
-        public virtual System.Boolean Remove(T  @item)
+        public virtual System.Boolean Remove(T @item)
         {
 
             var ___genericsType = new Type[] {};

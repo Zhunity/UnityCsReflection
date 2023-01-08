@@ -464,19 +464,29 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.REvents
         }
 
 
-        public virtual System.Object GetRuntimeCall(UnityEngine.Events.UnityEventBase  @theEvent)
+        public virtual RUnityEngine.REvents.RBaseInvokableCall GetRuntimeCall(UnityEngine.Events.UnityEventBase @theEvent)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@theEvent};
             var ___result = RGetRuntimeCall_UnityEventBase.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RUnityEngine.REvents.RBaseInvokableCall(___result);
         }
 
 
+        public static RUnityEngine.REvents.RBaseInvokableCall GetObjectCall(UnityEngine.Object @target, System.Reflection.MethodInfo @method, RUnityEngine.REvents.RArgumentCache @arguments)
+        {
 
-        public virtual void RegisterPersistentListener(UnityEngine.Object  @ttarget, System.Type  @targetType, System.String  @mmethodName)
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@target, @method, @arguments.Value};
+            var ___result = RGetObjectCall_Object_MethodInfo_ArgumentCache.Invoke(___genericsType, ___parameters);
+
+            return new RUnityEngine.REvents.RBaseInvokableCall(___result);
+        }
+
+
+        public virtual void RegisterPersistentListener(UnityEngine.Object @ttarget, System.Type @targetType, System.String @mmethodName)
         {
 
             var ___genericsType = new Type[] {};
@@ -520,7 +530,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.REvents
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

@@ -1150,7 +1150,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections
 	    {
 	    }
 
-        public virtual System.UInt32 InitHash(System.Object  @key, System.Int32  @hashsize, out System.UInt32  @seed, out System.UInt32  @incr)
+        public virtual System.UInt32 InitHash(System.Object @key, System.Int32 @hashsize, out System.UInt32 @seed, out System.UInt32 @incr)
         {
 			@seed = default;
 			@incr = default;
@@ -1165,7 +1165,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections
         }
 
 
-        public virtual void Add(System.Object  @key, System.Object  @value)
+        public virtual void Add(System.Object @key, System.Object @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -1198,7 +1198,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections
         }
 
 
-        public virtual System.Boolean Contains(System.Object  @key)
+        public virtual System.Boolean Contains(System.Object @key)
         {
 
             var ___genericsType = new Type[] {};
@@ -1209,7 +1209,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections
         }
 
 
-        public virtual System.Boolean ContainsKey(System.Object  @key)
+        public virtual System.Boolean ContainsKey(System.Object @key)
         {
 
             var ___genericsType = new Type[] {};
@@ -1220,7 +1220,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections
         }
 
 
-        public virtual System.Boolean ContainsValue(System.Object  @value)
+        public virtual System.Boolean ContainsValue(System.Object @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -1231,7 +1231,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections
         }
 
 
-        public virtual void CopyKeys(System.Array  @array, System.Int32  @arrayIndex)
+        public virtual void CopyKeys(System.Array @array, System.Int32 @arrayIndex)
         {
 
             var ___genericsType = new Type[] {};
@@ -1242,7 +1242,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections
         }
 
 
-        public virtual void CopyEntries(System.Array  @array, System.Int32  @arrayIndex)
+        public virtual void CopyEntries(System.Array @array, System.Int32 @arrayIndex)
         {
 
             var ___genericsType = new Type[] {};
@@ -1253,7 +1253,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections
         }
 
 
-        public virtual void CopyTo(System.Array  @array, System.Int32  @arrayIndex)
+        public virtual void CopyTo(System.Array @array, System.Int32 @arrayIndex)
         {
 
             var ___genericsType = new Type[] {};
@@ -1264,18 +1264,18 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections
         }
 
 
-        public virtual System.Object ToKeyValuePairsArray()
+        public virtual RTypeArray<RSystem.RCollections.RKeyValuePairs> ToKeyValuePairsArray()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RToKeyValuePairsArray.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RTypeArray<RSystem.RCollections.RKeyValuePairs>(___result);
         }
 
 
-        public virtual void CopyValues(System.Array  @array, System.Int32  @arrayIndex)
+        public virtual void CopyValues(System.Array @array, System.Int32 @arrayIndex)
         {
 
             var ___genericsType = new Type[] {};
@@ -1319,7 +1319,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections
         }
 
 
-        public virtual void rehash(System.Int32  @newsize)
+        public virtual void rehash(System.Int32 @newsize)
         {
 
             var ___genericsType = new Type[] {};
@@ -1352,7 +1352,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections
         }
 
 
-        public virtual System.Int32 GetHash(System.Object  @key)
+        public virtual System.Int32 GetHash(System.Object @key)
         {
 
             var ___genericsType = new Type[] {};
@@ -1363,7 +1363,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections
         }
 
 
-        public virtual System.Boolean KeyEquals(System.Object  @item, System.Object  @key)
+        public virtual System.Boolean KeyEquals(System.Object @item, System.Object @key)
         {
 
             var ___genericsType = new Type[] {};
@@ -1374,7 +1374,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections
         }
 
 
-        public virtual void Insert(System.Object  @key, System.Object  @nvalue, System.Boolean  @add)
+        public virtual void Insert(System.Object @key, System.Object @nvalue, System.Boolean @add)
         {
 
             var ___genericsType = new Type[] {};
@@ -1385,7 +1385,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections
         }
 
 
-        public virtual void putEntry(RTypeArray<RSystem.RCollections.RHashtable.Rbucket>  @newBuckets, System.Object  @key, System.Object  @nvalue, System.Int32  @hashcode)
+        public virtual void putEntry(RTypeArray<RSystem.RCollections.RHashtable.Rbucket> @newBuckets, System.Object @key, System.Object @nvalue, System.Int32 @hashcode)
         {
 
             var ___genericsType = new Type[] {};
@@ -1396,7 +1396,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections
         }
 
 
-        public virtual void Remove(System.Object  @key)
+        public virtual void Remove(System.Object @key)
         {
 
             var ___genericsType = new Type[] {};
@@ -1407,7 +1407,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections
         }
 
 
-        public static System.Collections.Hashtable Synchronized(System.Collections.Hashtable  @table)
+        public static System.Collections.Hashtable Synchronized(System.Collections.Hashtable @table)
         {
 
             var ___genericsType = new Type[] {};
@@ -1418,7 +1418,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections
         }
 
 
-        public virtual void GetObjectData(System.Runtime.Serialization.SerializationInfo  @info, System.Runtime.Serialization.StreamingContext  @context)
+        public virtual void GetObjectData(System.Runtime.Serialization.SerializationInfo @info, System.Runtime.Serialization.StreamingContext @context)
         {
 
             var ___genericsType = new Type[] {};
@@ -1429,7 +1429,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections
         }
 
 
-        public virtual void OnDeserialization(System.Object  @sender)
+        public virtual void OnDeserialization(System.Object @sender)
         {
 
             var ___genericsType = new Type[] {};
@@ -1440,7 +1440,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

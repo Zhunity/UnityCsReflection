@@ -260,7 +260,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void RegisterVisualTreeAssetTracker(RUnityEngine.RUIElements.RILiveReloadAssetTracker<RUnityEngine.RUIElements.RVisualTreeAsset>  @tracker, UnityEngine.UIElements.VisualElement  @owner)
+        public virtual void RegisterVisualTreeAssetTracker(RUnityEngine.RUIElements.RILiveReloadAssetTracker<RUnityEngine.RUIElements.RVisualTreeAsset> @tracker, UnityEngine.UIElements.VisualElement @owner)
         {
 
             var ___genericsType = new Type[] {};
@@ -271,7 +271,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void UnregisterVisualTreeAssetTracker(UnityEngine.UIElements.VisualElement  @owner)
+        public virtual void UnregisterVisualTreeAssetTracker(UnityEngine.UIElements.VisualElement @owner)
         {
 
             var ___genericsType = new Type[] {};
@@ -282,7 +282,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void StartTracking(System.Collections.Generic.List<UnityEngine.UIElements.VisualElement>  @elements)
+        public virtual void StartTracking(System.Collections.Generic.List<UnityEngine.UIElements.VisualElement> @elements)
         {
 
             var ___genericsType = new Type[] {};
@@ -293,7 +293,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void StopTracking(System.Collections.Generic.List<UnityEngine.UIElements.VisualElement>  @elements)
+        public virtual void StopTracking(System.Collections.Generic.List<UnityEngine.UIElements.VisualElement> @elements)
         {
 
             var ___genericsType = new Type[] {};
@@ -304,7 +304,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void StartStyleSheetAssetTracking(UnityEngine.UIElements.StyleSheet  @styleSheet)
+        public virtual void StartStyleSheetAssetTracking(UnityEngine.UIElements.StyleSheet @styleSheet)
         {
 
             var ___genericsType = new Type[] {};
@@ -315,7 +315,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void StopStyleSheetAssetTracking(UnityEngine.UIElements.StyleSheet  @styleSheet)
+        public virtual void StopStyleSheetAssetTracking(UnityEngine.UIElements.StyleSheet @styleSheet)
         {
 
             var ___genericsType = new Type[] {};
@@ -326,7 +326,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void OnStyleSheetAssetsImported(System.Collections.Generic.HashSet<UnityEngine.UIElements.StyleSheet>  @changedAssets, System.Collections.Generic.HashSet<System.String>  @deletedAssets)
+        public virtual void OnStyleSheetAssetsImported(System.Collections.Generic.HashSet<UnityEngine.UIElements.StyleSheet> @changedAssets, System.Collections.Generic.HashSet<System.String> @deletedAssets)
         {
 
             var ___genericsType = new Type[] {};
@@ -337,7 +337,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void OnVisualTreeAssetsImported(System.Collections.Generic.HashSet<UnityEngine.UIElements.VisualTreeAsset>  @changedAssets, System.Collections.Generic.HashSet<System.String>  @deletedAssets)
+        public virtual void OnVisualTreeAssetsImported(System.Collections.Generic.HashSet<UnityEngine.UIElements.VisualTreeAsset> @changedAssets, System.Collections.Generic.HashSet<System.String> @deletedAssets)
         {
 
             var ___genericsType = new Type[] {};
@@ -348,7 +348,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void RegisterTextElement(UnityEngine.UIElements.TextElement  @element)
+        public virtual void RegisterTextElement(UnityEngine.UIElements.TextElement @element)
         {
 
             var ___genericsType = new Type[] {};
@@ -359,7 +359,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void UnregisterTextElement(UnityEngine.UIElements.TextElement  @element)
+        public virtual void UnregisterTextElement(UnityEngine.UIElements.TextElement @element)
         {
 
             var ___genericsType = new Type[] {};

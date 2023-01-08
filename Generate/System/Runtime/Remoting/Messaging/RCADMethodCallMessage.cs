@@ -436,14 +436,14 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
 	    {
 	    }
 
-        public static System.Object Create(System.Runtime.Remoting.Messaging.IMessage  @callMsg)
+        public static RSystem.RRuntime.RRemoting.RMessaging.RCADMethodCallMessage Create(System.Runtime.Remoting.Messaging.IMessage @callMsg)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@callMsg};
             var ___result = RCreate_IMessage.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RSystem.RRuntime.RRemoting.RMessaging.RCADMethodCallMessage(___result);
         }
 
 
@@ -458,7 +458,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
         }
 
 
-        public virtual System.Object[] GetArgs(System.Collections.ArrayList  @args)
+        public virtual System.Object[] GetArgs(System.Collections.ArrayList @args)
         {
 
             var ___genericsType = new Type[] {};
@@ -480,7 +480,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
         }
 
 
-        public virtual System.Object MarshalArgument(System.Object  @arg, ref System.Collections.ArrayList  @args)
+        public virtual System.Object MarshalArgument(System.Object @arg, ref System.Collections.ArrayList @args)
         {
 
             var ___genericsType = new Type[] {};
@@ -492,7 +492,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
         }
 
 
-        public virtual System.Object UnmarshalArgument(System.Object  @arg, System.Collections.ArrayList  @args)
+        public virtual System.Object UnmarshalArgument(System.Object @arg, System.Collections.ArrayList @args)
         {
 
             var ___genericsType = new Type[] {};
@@ -503,7 +503,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
         }
 
 
-        public virtual System.Object[] MarshalArguments(System.Object[]  @arguments, ref System.Collections.ArrayList  @args)
+        public virtual System.Object[] MarshalArguments(System.Object[] @arguments, ref System.Collections.ArrayList @args)
         {
 
             var ___genericsType = new Type[] {};
@@ -515,7 +515,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
         }
 
 
-        public virtual System.Object[] UnmarshalArguments(System.Object[]  @arguments, System.Collections.ArrayList  @args)
+        public virtual System.Object[] UnmarshalArguments(System.Object[] @arguments, System.Collections.ArrayList @args)
         {
 
             var ___genericsType = new Type[] {};
@@ -526,7 +526,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
         }
 
 
-        public virtual void SaveLogicalCallContext(System.Runtime.Remoting.Messaging.IMethodMessage  @msg, ref System.Collections.ArrayList  @serializeList)
+        public virtual void SaveLogicalCallContext(System.Runtime.Remoting.Messaging.IMethodMessage @msg, ref System.Collections.ArrayList @serializeList)
         {
 
             var ___genericsType = new Type[] {};
@@ -538,7 +538,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
         }
 
 
-        public virtual System.Runtime.Remoting.Messaging.LogicalCallContext GetLogicalCallContext(System.Collections.ArrayList  @args)
+        public virtual System.Runtime.Remoting.Messaging.LogicalCallContext GetLogicalCallContext(System.Collections.ArrayList @args)
         {
 
             var ___genericsType = new Type[] {};
@@ -549,7 +549,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

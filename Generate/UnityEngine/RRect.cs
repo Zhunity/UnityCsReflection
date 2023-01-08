@@ -759,7 +759,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 	    {
 	    }
 
-        public static UnityEngine.Rect MinMaxRect(System.Single  @xmin, System.Single  @ymin, System.Single  @xmax, System.Single  @ymax)
+        public static UnityEngine.Rect MinMaxRect(System.Single @xmin, System.Single @ymin, System.Single @xmax, System.Single @ymax)
         {
 
             var ___genericsType = new Type[] {};
@@ -770,7 +770,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void Set(System.Single  @x, System.Single  @y, System.Single  @width, System.Single  @height)
+        public virtual void Set(System.Single @x, System.Single @y, System.Single @width, System.Single @height)
         {
 
             var ___genericsType = new Type[] {};
@@ -781,7 +781,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Boolean Contains(UnityEngine.Vector2  @point)
+        public virtual System.Boolean Contains(UnityEngine.Vector2 @point)
         {
 
             var ___genericsType = new Type[] {};
@@ -792,7 +792,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Boolean Contains(UnityEngine.Vector3  @point)
+        public virtual System.Boolean Contains(UnityEngine.Vector3 @point)
         {
 
             var ___genericsType = new Type[] {};
@@ -803,7 +803,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Boolean Contains(UnityEngine.Vector3  @point, System.Boolean  @allowInverse)
+        public virtual System.Boolean Contains(UnityEngine.Vector3 @point, System.Boolean @allowInverse)
         {
 
             var ___genericsType = new Type[] {};
@@ -814,7 +814,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.Rect OrderMinMax(UnityEngine.Rect  @rect)
+        public static UnityEngine.Rect OrderMinMax(UnityEngine.Rect @rect)
         {
 
             var ___genericsType = new Type[] {};
@@ -825,7 +825,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Boolean Overlaps(UnityEngine.Rect  @other)
+        public virtual System.Boolean Overlaps(UnityEngine.Rect @other)
         {
 
             var ___genericsType = new Type[] {};
@@ -836,7 +836,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Boolean Overlaps(UnityEngine.Rect  @other, System.Boolean  @allowInverse)
+        public virtual System.Boolean Overlaps(UnityEngine.Rect @other, System.Boolean @allowInverse)
         {
 
             var ___genericsType = new Type[] {};
@@ -847,7 +847,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.Vector2 NormalizedToPoint(UnityEngine.Rect  @rectangle, UnityEngine.Vector2  @normalizedRectCoordinates)
+        public static UnityEngine.Vector2 NormalizedToPoint(UnityEngine.Rect @rectangle, UnityEngine.Vector2 @normalizedRectCoordinates)
         {
 
             var ___genericsType = new Type[] {};
@@ -858,7 +858,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.Vector2 PointToNormalized(UnityEngine.Rect  @rectangle, UnityEngine.Vector2  @point)
+        public static UnityEngine.Vector2 PointToNormalized(UnityEngine.Rect @rectangle, UnityEngine.Vector2 @point)
         {
 
             var ___genericsType = new Type[] {};
@@ -869,7 +869,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static System.Boolean op_Inequality(UnityEngine.Rect  @lhs, UnityEngine.Rect  @rhs)
+        public static System.Boolean op_Inequality(UnityEngine.Rect @lhs, UnityEngine.Rect @rhs)
         {
 
             var ___genericsType = new Type[] {};
@@ -880,7 +880,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static System.Boolean op_Equality(UnityEngine.Rect  @lhs, UnityEngine.Rect  @rhs)
+        public static System.Boolean op_Equality(UnityEngine.Rect @lhs, UnityEngine.Rect @rhs)
         {
 
             var ___genericsType = new Type[] {};
@@ -902,7 +902,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @other)
+        public virtual System.Boolean Equals(System.Object @other)
         {
 
             var ___genericsType = new Type[] {};
@@ -913,7 +913,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Boolean Equals(UnityEngine.Rect  @other)
+        public virtual System.Boolean Equals(UnityEngine.Rect @other)
         {
 
             var ___genericsType = new Type[] {};
@@ -935,7 +935,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.String ToString(System.String  @format)
+        public virtual System.String ToString(System.String @format)
         {
 
             var ___genericsType = new Type[] {};
@@ -946,7 +946,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.String ToString(System.String  @format, System.IFormatProvider  @formatProvider)
+        public virtual System.String ToString(System.String @format, System.IFormatProvider @formatProvider)
         {
 
             var ___genericsType = new Type[] {};

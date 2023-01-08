@@ -175,7 +175,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static void ReleaseCoroutine(System.IntPtr  @ptr)
+        public static void ReleaseCoroutine(System.IntPtr @ptr)
         {
 
             var ___genericsType = new Type[] {};
@@ -186,7 +186,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

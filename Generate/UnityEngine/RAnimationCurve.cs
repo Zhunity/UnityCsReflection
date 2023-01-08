@@ -572,7 +572,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 	    {
 	    }
 
-        public static void Internal_Destroy(System.IntPtr  @ptr)
+        public static void Internal_Destroy(System.IntPtr @ptr)
         {
 
             var ___genericsType = new Type[] {};
@@ -583,7 +583,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static System.IntPtr Internal_Create(UnityEngine.Keyframe[]  @keys)
+        public static System.IntPtr Internal_Create(UnityEngine.Keyframe[] @keys)
         {
 
             var ___genericsType = new Type[] {};
@@ -594,7 +594,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Boolean Internal_Equals(System.IntPtr  @other)
+        public virtual System.Boolean Internal_Equals(System.IntPtr @other)
         {
 
             var ___genericsType = new Type[] {};
@@ -616,7 +616,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Single Evaluate(System.Single  @time)
+        public virtual System.Single Evaluate(System.Single @time)
         {
 
             var ___genericsType = new Type[] {};
@@ -627,7 +627,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Int32 AddKey(System.Single  @time, System.Single  @value)
+        public virtual System.Int32 AddKey(System.Single @time, System.Single @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -638,7 +638,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Int32 AddKey(UnityEngine.Keyframe  @key)
+        public virtual System.Int32 AddKey(UnityEngine.Keyframe @key)
         {
 
             var ___genericsType = new Type[] {};
@@ -649,7 +649,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Int32 AddKey_Internal(UnityEngine.Keyframe  @key)
+        public virtual System.Int32 AddKey_Internal(UnityEngine.Keyframe @key)
         {
 
             var ___genericsType = new Type[] {};
@@ -660,7 +660,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Int32 MoveKey(System.Int32  @index, UnityEngine.Keyframe  @key)
+        public virtual System.Int32 MoveKey(System.Int32 @index, UnityEngine.Keyframe @key)
         {
 
             var ___genericsType = new Type[] {};
@@ -671,7 +671,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void RemoveKey(System.Int32  @index)
+        public virtual void RemoveKey(System.Int32 @index)
         {
 
             var ___genericsType = new Type[] {};
@@ -682,7 +682,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SetKeys(UnityEngine.Keyframe[]  @keys)
+        public virtual void SetKeys(UnityEngine.Keyframe[] @keys)
         {
 
             var ___genericsType = new Type[] {};
@@ -693,7 +693,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual UnityEngine.Keyframe GetKey(System.Int32  @index)
+        public virtual UnityEngine.Keyframe GetKey(System.Int32 @index)
         {
 
             var ___genericsType = new Type[] {};
@@ -715,7 +715,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SmoothTangents(System.Int32  @index, System.Single  @weight)
+        public virtual void SmoothTangents(System.Int32 @index, System.Single @weight)
         {
 
             var ___genericsType = new Type[] {};
@@ -726,7 +726,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.AnimationCurve Constant(System.Single  @timeStart, System.Single  @timeEnd, System.Single  @value)
+        public static UnityEngine.AnimationCurve Constant(System.Single @timeStart, System.Single @timeEnd, System.Single @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -737,7 +737,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.AnimationCurve Linear(System.Single  @timeStart, System.Single  @valueStart, System.Single  @timeEnd, System.Single  @valueEnd)
+        public static UnityEngine.AnimationCurve Linear(System.Single @timeStart, System.Single @valueStart, System.Single @timeEnd, System.Single @valueEnd)
         {
 
             var ___genericsType = new Type[] {};
@@ -748,7 +748,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.AnimationCurve EaseInOut(System.Single  @timeStart, System.Single  @valueStart, System.Single  @timeEnd, System.Single  @valueEnd)
+        public static UnityEngine.AnimationCurve EaseInOut(System.Single @timeStart, System.Single @valueStart, System.Single @timeEnd, System.Single @valueEnd)
         {
 
             var ___genericsType = new Type[] {};
@@ -759,7 +759,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @o)
+        public virtual System.Boolean Equals(System.Object @o)
         {
 
             var ___genericsType = new Type[] {};
@@ -770,7 +770,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Boolean Equals(UnityEngine.AnimationCurve  @other)
+        public virtual System.Boolean Equals(UnityEngine.AnimationCurve @other)
         {
 
             var ___genericsType = new Type[] {};
@@ -792,38 +792,38 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Int32 AddKey_Internal_Injected(ref UnityEngine.Keyframe  @key)
+        public virtual System.Int32 AddKey_Internal_Injected(ref UnityEngine.Keyframe @key)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@key};
             var ___result = RAddKey_Internal_Injected_Ref_Keyframe.Invoke(___genericsType, ___parameters);
-			key = (UnityEngine.Keyframe)___parameters[0];
+			@key = (UnityEngine.Keyframe)___parameters[0];
 
             return (System.Int32)___result;
         }
 
 
-        public virtual System.Int32 MoveKey_Injected(System.Int32  @index, ref UnityEngine.Keyframe  @key)
+        public virtual System.Int32 MoveKey_Injected(System.Int32 @index, ref UnityEngine.Keyframe @key)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@index, @key};
             var ___result = RMoveKey_Injected_Int32_Ref_Keyframe.Invoke(___genericsType, ___parameters);
-			key = (UnityEngine.Keyframe)___parameters[1];
+			@key = (UnityEngine.Keyframe)___parameters[1];
 
             return (System.Int32)___result;
         }
 
 
-        public virtual void GetKey_Injected(System.Int32  @index, out UnityEngine.Keyframe  @ret)
+        public virtual void GetKey_Injected(System.Int32 @index, out UnityEngine.Keyframe @ret)
         {
-			ret = default;
+			@ret = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@index, @ret};
             var ___result = RGetKey_Injected_Int32_Out_Keyframe.Invoke(___genericsType, ___parameters);
-			ret = (UnityEngine.Keyframe)___parameters[1];
+			@ret = (UnityEngine.Keyframe)___parameters[1];
 
             
         }

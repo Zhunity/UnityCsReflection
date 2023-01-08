@@ -232,7 +232,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 	    {
 	    }
 
-        public static void Reset(RUnityEngine.RUIElements.RUIR.RBasicNode<RType>  @node)
+        public static void Reset(RUnityEngine.RUIElements.RUIR.RBasicNode<RType> @node)
         {
 
             var ___genericsType = new Type[] {};
@@ -243,14 +243,14 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
         }
 
 
-        public static System.Object Create()
+        public static RUnityEngine.RUIElements.RUIR.RBasicNode<RType> Create()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RCreate.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RUnityEngine.RUIElements.RUIR.RBasicNode<RType>(___result);
         }
 
 
@@ -265,18 +265,18 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
         }
 
 
-        public virtual System.Object Get()
+        public virtual RUnityEngine.RUIElements.RUIR.RBasicNode<RType> Get()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RGet.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RUnityEngine.RUIElements.RUIR.RBasicNode<RType>(___result);
         }
 
 
-        public virtual void Return(RUnityEngine.RUIElements.RUIR.RBasicNode<RType>  @item)
+        public virtual void Return(RUnityEngine.RUIElements.RUIR.RBasicNode<RType> @item)
         {
 
             var ___genericsType = new Type[] {};
@@ -287,7 +287,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

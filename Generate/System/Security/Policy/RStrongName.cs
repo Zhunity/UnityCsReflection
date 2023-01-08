@@ -345,7 +345,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
         }
 
 
-        public virtual System.Security.IPermission CreateIdentityPermission(System.Security.Policy.Evidence  @evidence)
+        public virtual System.Security.IPermission CreateIdentityPermission(System.Security.Policy.Evidence @evidence)
         {
 
             var ___genericsType = new Type[] {};
@@ -356,7 +356,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @o)
+        public virtual System.Boolean Equals(System.Object @o)
         {
 
             var ___genericsType = new Type[] {};
@@ -389,7 +389,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
         }
 
 
-        public virtual System.Int32 System__2__Security__2__Policy__2__IBuiltInEvidence__2__GetRequiredSize(System.Boolean  @verbose)
+        public virtual System.Int32 System__2__Security__2__Policy__2__IBuiltInEvidence__2__GetRequiredSize(System.Boolean @verbose)
         {
 
             var ___genericsType = new Type[] {};
@@ -400,7 +400,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
         }
 
 
-        public virtual System.Int32 System__2__Security__2__Policy__2__IBuiltInEvidence__2__InitFromBuffer(System.Char[]  @buffer, System.Int32  @position)
+        public virtual System.Int32 System__2__Security__2__Policy__2__IBuiltInEvidence__2__InitFromBuffer(System.Char[] @buffer, System.Int32 @position)
         {
 
             var ___genericsType = new Type[] {};
@@ -411,7 +411,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
         }
 
 
-        public virtual System.Int32 System__2__Security__2__Policy__2__IBuiltInEvidence__2__OutputToBuffer(System.Char[]  @buffer, System.Int32  @position, System.Boolean  @verbose)
+        public virtual System.Int32 System__2__Security__2__Policy__2__IBuiltInEvidence__2__OutputToBuffer(System.Char[] @buffer, System.Int32 @position, System.Boolean @verbose)
         {
 
             var ___genericsType = new Type[] {};

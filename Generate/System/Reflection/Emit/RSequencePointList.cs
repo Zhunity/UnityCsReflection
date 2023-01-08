@@ -440,7 +440,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual void AddSequencePoint(System.Int32  @offset, System.Int32  @line, System.Int32  @col, System.Int32  @endLine, System.Int32  @endCol)
+        public virtual void AddSequencePoint(System.Int32 @offset, System.Int32 @line, System.Int32 @col, System.Int32 @endLine, System.Int32 @endCol)
         {
 
             var ___genericsType = new Type[] {};
@@ -451,7 +451,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

@@ -334,7 +334,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 	    {
 	    }
 
-        public virtual System.Boolean MatchPattern(System.String  @text, System.Int32  @index)
+        public virtual System.Boolean MatchPattern(System.String @text, System.Int32 @index)
         {
 
             var ___genericsType = new Type[] {};
@@ -345,7 +345,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
         }
 
 
-        public virtual System.Boolean IsMatch(System.String  @text, System.Int32  @index, System.Int32  @beglimit, System.Int32  @endlimit)
+        public virtual System.Boolean IsMatch(System.String @text, System.Int32 @index, System.Int32 @beglimit, System.Int32 @endlimit)
         {
 
             var ___genericsType = new Type[] {};
@@ -356,7 +356,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
         }
 
 
-        public virtual System.Int32 Scan(System.String  @text, System.Int32  @index, System.Int32  @beglimit, System.Int32  @endlimit)
+        public virtual System.Int32 Scan(System.String @text, System.Int32 @index, System.Int32 @beglimit, System.Int32 @endlimit)
         {
 
             var ___genericsType = new Type[] {};
@@ -367,7 +367,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

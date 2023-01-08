@@ -226,7 +226,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
         }
 
 
-        public virtual void Release(System.Text.RegularExpressions.RegexRunner  @obj)
+        public virtual void Release(System.Text.RegularExpressions.RegexRunner @obj)
         {
 
             var ___genericsType = new Type[] {};
@@ -237,7 +237,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

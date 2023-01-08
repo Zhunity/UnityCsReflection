@@ -798,7 +798,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RAddComponent
         }
 
 
-        public virtual void Create(UnityEngine.GameObject[]  @gameObjects, System.String  @searchString)
+        public virtual void Create(UnityEngine.GameObject[] @gameObjects, System.String @searchString)
         {
 
             var ___genericsType = new Type[] {};
@@ -853,7 +853,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RAddComponent
         }
 
 
-        public virtual System.Boolean ClassExists(System.String  @className)
+        public virtual System.Boolean ClassExists(System.String @className)
         {
 
             var ___genericsType = new Type[] {};
@@ -897,7 +897,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RAddComponent
         }
 
 
-        public virtual System.Int32 CompareTo(System.Object  @o)
+        public virtual System.Int32 CompareTo(System.Object @o)
         {
 
             var ___genericsType = new Type[] {};
@@ -919,7 +919,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RAddComponent
         }
 
 
-        public virtual void set_displayName(System.String  @value)
+        public virtual void set_displayName(System.String @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -930,7 +930,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RAddComponent
         }
 
 
-        public virtual void AddChild(UnityEditor.IMGUI.Controls.AdvancedDropdownItem  @child)
+        public virtual void AddChild(UnityEditor.IMGUI.Controls.AdvancedDropdownItem @child)
         {
 
             var ___genericsType = new Type[] {};
@@ -974,7 +974,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RAddComponent
         }
 
 
-        public virtual void SortChildren(System.Comparison<UnityEditor.IMGUI.Controls.AdvancedDropdownItem>  @comparer, System.Boolean  @recursive)
+        public virtual void SortChildren(System.Comparison<UnityEditor.IMGUI.Controls.AdvancedDropdownItem> @comparer, System.Boolean @recursive)
         {
 
             var ___genericsType = new Type[] {};
@@ -985,7 +985,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RAddComponent
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

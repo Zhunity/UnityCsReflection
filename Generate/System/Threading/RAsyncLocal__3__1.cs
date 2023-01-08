@@ -181,7 +181,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 	    {
 	    }
 
-        public virtual void System__2__Threading__2__IAsyncLocal__2__OnValueChanged(System.Object  @previousValueObj, System.Object  @currentValueObj, System.Boolean  @contextChanged)
+        public virtual void System__2__Threading__2__IAsyncLocal__2__OnValueChanged(System.Object @previousValueObj, System.Object @currentValueObj, System.Boolean @contextChanged)
         {
 
             var ___genericsType = new Type[] {};
@@ -192,7 +192,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

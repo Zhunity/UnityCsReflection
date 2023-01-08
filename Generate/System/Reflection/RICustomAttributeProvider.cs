@@ -79,7 +79,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 	    {
 	    }
 
-        public virtual System.Object[] GetCustomAttributes(System.Boolean  @inherit)
+        public virtual System.Object[] GetCustomAttributes(System.Boolean @inherit)
         {
 
             var ___genericsType = new Type[] {};
@@ -90,7 +90,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
         }
 
 
-        public virtual System.Object[] GetCustomAttributes(System.Type  @attributeType, System.Boolean  @inherit)
+        public virtual System.Object[] GetCustomAttributes(System.Type @attributeType, System.Boolean @inherit)
         {
 
             var ___genericsType = new Type[] {};
@@ -101,7 +101,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
         }
 
 
-        public virtual System.Boolean IsDefined(System.Type  @attributeType, System.Boolean  @inherit)
+        public virtual System.Boolean IsDefined(System.Type @attributeType, System.Boolean @inherit)
         {
 
             var ___genericsType = new Type[] {};

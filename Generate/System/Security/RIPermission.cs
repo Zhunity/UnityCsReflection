@@ -135,7 +135,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
         }
 
 
-        public virtual System.Security.IPermission Intersect(System.Security.IPermission  @target)
+        public virtual System.Security.IPermission Intersect(System.Security.IPermission @target)
         {
 
             var ___genericsType = new Type[] {};
@@ -146,7 +146,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
         }
 
 
-        public virtual System.Boolean IsSubsetOf(System.Security.IPermission  @target)
+        public virtual System.Boolean IsSubsetOf(System.Security.IPermission @target)
         {
 
             var ___genericsType = new Type[] {};
@@ -157,7 +157,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
         }
 
 
-        public virtual System.Security.IPermission Union(System.Security.IPermission  @target)
+        public virtual System.Security.IPermission Union(System.Security.IPermission @target)
         {
 
             var ___genericsType = new Type[] {};

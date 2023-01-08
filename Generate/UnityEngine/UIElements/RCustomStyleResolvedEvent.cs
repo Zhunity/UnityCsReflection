@@ -911,7 +911,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void SetTriggerEventId(System.UInt64  @id)
+        public virtual void SetTriggerEventId(System.UInt64 @id)
         {
 
             var ___genericsType = new Type[] {};
@@ -933,7 +933,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void PreDispatch(UnityEngine.UIElements.IPanel  @panel)
+        public virtual void PreDispatch(UnityEngine.UIElements.IPanel @panel)
         {
 
             var ___genericsType = new Type[] {};
@@ -955,7 +955,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void PostDispatch(UnityEngine.UIElements.IPanel  @panel)
+        public virtual void PostDispatch(UnityEngine.UIElements.IPanel @panel)
         {
 
             var ___genericsType = new Type[] {};
@@ -966,7 +966,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean Skip(UnityEngine.UIElements.IEventHandler  @h)
+        public virtual System.Boolean Skip(UnityEngine.UIElements.IEventHandler @h)
         {
 
             var ___genericsType = new Type[] {};
@@ -1021,7 +1021,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

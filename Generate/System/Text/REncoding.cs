@@ -2713,7 +2713,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
         }
 
 
-        public virtual void OnDeserializing(System.Runtime.Serialization.StreamingContext  @ctx)
+        public virtual void OnDeserializing(System.Runtime.Serialization.StreamingContext @ctx)
         {
 
             var ___genericsType = new Type[] {};
@@ -2724,7 +2724,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
         }
 
 
-        public virtual void OnDeserialized(System.Runtime.Serialization.StreamingContext  @ctx)
+        public virtual void OnDeserialized(System.Runtime.Serialization.StreamingContext @ctx)
         {
 
             var ___genericsType = new Type[] {};
@@ -2735,7 +2735,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
         }
 
 
-        public virtual void OnSerializing(System.Runtime.Serialization.StreamingContext  @ctx)
+        public virtual void OnSerializing(System.Runtime.Serialization.StreamingContext @ctx)
         {
 
             var ___genericsType = new Type[] {};
@@ -2746,7 +2746,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
         }
 
 
-        public virtual void DeserializeEncoding(System.Runtime.Serialization.SerializationInfo  @info, System.Runtime.Serialization.StreamingContext  @context)
+        public virtual void DeserializeEncoding(System.Runtime.Serialization.SerializationInfo @info, System.Runtime.Serialization.StreamingContext @context)
         {
 
             var ___genericsType = new Type[] {};
@@ -2757,7 +2757,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
         }
 
 
-        public virtual void SerializeEncoding(System.Runtime.Serialization.SerializationInfo  @info, System.Runtime.Serialization.StreamingContext  @context)
+        public virtual void SerializeEncoding(System.Runtime.Serialization.SerializationInfo @info, System.Runtime.Serialization.StreamingContext @context)
         {
 
             var ___genericsType = new Type[] {};
@@ -2768,7 +2768,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
         }
 
 
-        public static System.Byte[] Convert(System.Text.Encoding  @srcEncoding, System.Text.Encoding  @dstEncoding, System.Byte[]  @bytes)
+        public static System.Byte[] Convert(System.Text.Encoding @srcEncoding, System.Text.Encoding @dstEncoding, System.Byte[] @bytes)
         {
 
             var ___genericsType = new Type[] {};
@@ -2779,7 +2779,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
         }
 
 
-        public static System.Byte[] Convert(System.Text.Encoding  @srcEncoding, System.Text.Encoding  @dstEncoding, System.Byte[]  @bytes, System.Int32  @index, System.Int32  @count)
+        public static System.Byte[] Convert(System.Text.Encoding @srcEncoding, System.Text.Encoding @dstEncoding, System.Byte[] @bytes, System.Int32 @index, System.Int32 @count)
         {
 
             var ___genericsType = new Type[] {};
@@ -2790,7 +2790,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
         }
 
 
-        public static void RegisterProvider(System.Text.EncodingProvider  @provider)
+        public static void RegisterProvider(System.Text.EncodingProvider @provider)
         {
 
             var ___genericsType = new Type[] {};
@@ -2801,7 +2801,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
         }
 
 
-        public static System.Text.Encoding GetEncoding(System.Int32  @codepage)
+        public static System.Text.Encoding GetEncoding(System.Int32 @codepage)
         {
 
             var ___genericsType = new Type[] {};
@@ -2812,7 +2812,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
         }
 
 
-        public static System.Text.Encoding GetEncoding(System.Int32  @codepage, System.Text.EncoderFallback  @encoderFallback, System.Text.DecoderFallback  @decoderFallback)
+        public static System.Text.Encoding GetEncoding(System.Int32 @codepage, System.Text.EncoderFallback @encoderFallback, System.Text.DecoderFallback @decoderFallback)
         {
 
             var ___genericsType = new Type[] {};
@@ -2823,7 +2823,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
         }
 
 
-        public static System.Text.Encoding GetEncoding(System.String  @name)
+        public static System.Text.Encoding GetEncoding(System.String @name)
         {
 
             var ___genericsType = new Type[] {};
@@ -2834,7 +2834,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
         }
 
 
-        public static System.Text.Encoding GetEncoding(System.String  @name, System.Text.EncoderFallback  @encoderFallback, System.Text.DecoderFallback  @decoderFallback)
+        public static System.Text.Encoding GetEncoding(System.String @name, System.Text.EncoderFallback @encoderFallback, System.Text.DecoderFallback @decoderFallback)
         {
 
             var ___genericsType = new Type[] {};
@@ -2889,7 +2889,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
         }
 
 
-        public virtual System.Int32 GetByteCount(System.Char[]  @chars)
+        public virtual System.Int32 GetByteCount(System.Char[] @chars)
         {
 
             var ___genericsType = new Type[] {};
@@ -2900,7 +2900,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
         }
 
 
-        public virtual System.Int32 GetByteCount(System.String  @s)
+        public virtual System.Int32 GetByteCount(System.String @s)
         {
 
             var ___genericsType = new Type[] {};
@@ -2911,7 +2911,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
         }
 
 
-        public virtual System.Int32 GetByteCount(System.Char[]  @chars, System.Int32  @index, System.Int32  @count)
+        public virtual System.Int32 GetByteCount(System.Char[] @chars, System.Int32 @index, System.Int32 @count)
         {
 
             var ___genericsType = new Type[] {};
@@ -2922,7 +2922,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
         }
 
 
-        public virtual System.Int32 GetByteCount(System.String  @str, System.Int32  @index, System.Int32  @count)
+        public virtual System.Int32 GetByteCount(System.String @str, System.Int32 @index, System.Int32 @count)
         {
 
             var ___genericsType = new Type[] {};
@@ -2935,7 +2935,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 
 
 
-        public virtual System.Byte[] GetBytes(System.Char[]  @chars)
+        public virtual System.Byte[] GetBytes(System.Char[] @chars)
         {
 
             var ___genericsType = new Type[] {};
@@ -2946,7 +2946,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
         }
 
 
-        public virtual System.Byte[] GetBytes(System.Char[]  @chars, System.Int32  @index, System.Int32  @count)
+        public virtual System.Byte[] GetBytes(System.Char[] @chars, System.Int32 @index, System.Int32 @count)
         {
 
             var ___genericsType = new Type[] {};
@@ -2957,7 +2957,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
         }
 
 
-        public virtual System.Int32 GetBytes(System.Char[]  @chars, System.Int32  @charIndex, System.Int32  @charCount, System.Byte[]  @bytes, System.Int32  @byteIndex)
+        public virtual System.Int32 GetBytes(System.Char[] @chars, System.Int32 @charIndex, System.Int32 @charCount, System.Byte[] @bytes, System.Int32 @byteIndex)
         {
 
             var ___genericsType = new Type[] {};
@@ -2968,7 +2968,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
         }
 
 
-        public virtual System.Byte[] GetBytes(System.String  @s)
+        public virtual System.Byte[] GetBytes(System.String @s)
         {
 
             var ___genericsType = new Type[] {};
@@ -2979,7 +2979,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
         }
 
 
-        public virtual System.Int32 GetBytes(System.String  @s, System.Int32  @charIndex, System.Int32  @charCount, System.Byte[]  @bytes, System.Int32  @byteIndex)
+        public virtual System.Int32 GetBytes(System.String @s, System.Int32 @charIndex, System.Int32 @charCount, System.Byte[] @bytes, System.Int32 @byteIndex)
         {
 
             var ___genericsType = new Type[] {};
@@ -2992,7 +2992,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 
 
 
-        public virtual System.Int32 GetCharCount(System.Byte[]  @bytes)
+        public virtual System.Int32 GetCharCount(System.Byte[] @bytes)
         {
 
             var ___genericsType = new Type[] {};
@@ -3003,7 +3003,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
         }
 
 
-        public virtual System.Int32 GetCharCount(System.Byte[]  @bytes, System.Int32  @index, System.Int32  @count)
+        public virtual System.Int32 GetCharCount(System.Byte[] @bytes, System.Int32 @index, System.Int32 @count)
         {
 
             var ___genericsType = new Type[] {};
@@ -3016,7 +3016,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 
 
 
-        public virtual System.Char[] GetChars(System.Byte[]  @bytes)
+        public virtual System.Char[] GetChars(System.Byte[] @bytes)
         {
 
             var ___genericsType = new Type[] {};
@@ -3027,7 +3027,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
         }
 
 
-        public virtual System.Char[] GetChars(System.Byte[]  @bytes, System.Int32  @index, System.Int32  @count)
+        public virtual System.Char[] GetChars(System.Byte[] @bytes, System.Int32 @index, System.Int32 @count)
         {
 
             var ___genericsType = new Type[] {};
@@ -3038,7 +3038,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
         }
 
 
-        public virtual System.Int32 GetChars(System.Byte[]  @bytes, System.Int32  @byteIndex, System.Int32  @byteCount, System.Char[]  @chars, System.Int32  @charIndex)
+        public virtual System.Int32 GetChars(System.Byte[] @bytes, System.Int32 @byteIndex, System.Int32 @byteCount, System.Char[] @chars, System.Int32 @charIndex)
         {
 
             var ___genericsType = new Type[] {};
@@ -3065,7 +3065,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
         }
 
 
-        public virtual System.Boolean IsAlwaysNormalized(System.Text.NormalizationForm  @form)
+        public virtual System.Boolean IsAlwaysNormalized(System.Text.NormalizationForm @form)
         {
 
             var ___genericsType = new Type[] {};
@@ -3098,7 +3098,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
         }
 
 
-        public virtual void setReadOnly(System.Boolean  @value)
+        public virtual void setReadOnly(System.Boolean @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -3120,7 +3120,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
         }
 
 
-        public virtual System.Int32 GetMaxByteCount(System.Int32  @charCount)
+        public virtual System.Int32 GetMaxByteCount(System.Int32 @charCount)
         {
 
             var ___genericsType = new Type[] {};
@@ -3131,7 +3131,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
         }
 
 
-        public virtual System.Int32 GetMaxCharCount(System.Int32  @byteCount)
+        public virtual System.Int32 GetMaxCharCount(System.Int32 @byteCount)
         {
 
             var ___genericsType = new Type[] {};
@@ -3142,7 +3142,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
         }
 
 
-        public virtual System.String GetString(System.Byte[]  @bytes)
+        public virtual System.String GetString(System.Byte[] @bytes)
         {
 
             var ___genericsType = new Type[] {};
@@ -3153,7 +3153,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
         }
 
 
-        public virtual System.String GetString(System.Byte[]  @bytes, System.Int32  @index, System.Int32  @count)
+        public virtual System.String GetString(System.Byte[] @bytes, System.Int32 @index, System.Int32 @count)
         {
 
             var ___genericsType = new Type[] {};
@@ -3164,7 +3164,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @value)
+        public virtual System.Boolean Equals(System.Object @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -3219,7 +3219,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
         }
 
 
-        public virtual void ThrowBytesOverflow(RSystem.RText.REncoderNLS  @encoder, System.Boolean  @nothingEncoded)
+        public virtual void ThrowBytesOverflow(RSystem.RText.REncoderNLS @encoder, System.Boolean @nothingEncoded)
         {
 
             var ___genericsType = new Type[] {};
@@ -3241,7 +3241,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
         }
 
 
-        public virtual void ThrowCharsOverflow(RSystem.RText.RDecoderNLS  @decoder, System.Boolean  @nothingDecoded)
+        public virtual void ThrowCharsOverflow(RSystem.RText.RDecoderNLS @decoder, System.Boolean @nothingDecoded)
         {
 
             var ___genericsType = new Type[] {};
@@ -3255,7 +3255,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 
 
 
-        public virtual System.Byte[] GetBytes(System.String  @s, System.Int32  @index, System.Int32  @count)
+        public virtual System.Byte[] GetBytes(System.String @s, System.Int32 @index, System.Int32 @count)
         {
 
             var ___genericsType = new Type[] {};

@@ -62,7 +62,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting
 	    {
 	    }
 
-        public virtual System.Boolean CanCastTo(System.Type  @fromType, System.Object  @o)
+        public virtual System.Boolean CanCastTo(System.Type @fromType, System.Object @o)
         {
 
             var ___genericsType = new Type[] {};

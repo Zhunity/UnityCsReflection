@@ -296,7 +296,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual void CopyTo(System.Object[]  @array, System.Int32  @index)
+        public virtual void CopyTo(System.Object[] @array, System.Int32 @index)
         {
 
             var ___genericsType = new Type[] {};
@@ -307,7 +307,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual void Add(T  @item)
+        public virtual void Add(T @item)
         {
 
             var ___genericsType = new Type[] {};
@@ -318,7 +318,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

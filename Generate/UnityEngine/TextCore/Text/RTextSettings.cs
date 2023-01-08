@@ -855,7 +855,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
         }
 
 
-        public virtual UnityEngine.TextCore.Text.FontAsset GetCachedFontAssetInternal(UnityEngine.Font  @font)
+        public virtual UnityEngine.TextCore.Text.FontAsset GetCachedFontAssetInternal(UnityEngine.Font @font)
         {
 
             var ___genericsType = new Type[] {};
@@ -899,7 +899,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @other)
+        public virtual System.Boolean Equals(System.Object @other)
         {
 
             var ___genericsType = new Type[] {};

@@ -203,7 +203,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void ExecuteLater(System.Int64  @delayMs)
+        public virtual void ExecuteLater(System.Int64 @delayMs)
         {
 
             var ___genericsType = new Type[] {};
@@ -214,7 +214,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual UnityEngine.UIElements.IVisualElementScheduledItem StartingIn(System.Int64  @delayMs)
+        public virtual UnityEngine.UIElements.IVisualElementScheduledItem StartingIn(System.Int64 @delayMs)
         {
 
             var ___genericsType = new Type[] {};
@@ -225,7 +225,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual UnityEngine.UIElements.IVisualElementScheduledItem Every(System.Int64  @intervalMs)
+        public virtual UnityEngine.UIElements.IVisualElementScheduledItem Every(System.Int64 @intervalMs)
         {
 
             var ___genericsType = new Type[] {};
@@ -236,7 +236,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual UnityEngine.UIElements.IVisualElementScheduledItem Until(System.Func<System.Boolean>  @stopCondition)
+        public virtual UnityEngine.UIElements.IVisualElementScheduledItem Until(System.Func<System.Boolean> @stopCondition)
         {
 
             var ___genericsType = new Type[] {};
@@ -247,7 +247,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual UnityEngine.UIElements.IVisualElementScheduledItem ForDuration(System.Int64  @durationMs)
+        public virtual UnityEngine.UIElements.IVisualElementScheduledItem ForDuration(System.Int64 @durationMs)
         {
 
             var ___genericsType = new Type[] {};

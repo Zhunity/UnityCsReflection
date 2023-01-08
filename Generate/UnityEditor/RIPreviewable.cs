@@ -249,7 +249,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 	    {
 	    }
 
-        public virtual void Initialize(UnityEngine.Object[]  @targets)
+        public virtual void Initialize(UnityEngine.Object[] @targets)
         {
 
             var ___genericsType = new Type[] {};
@@ -315,7 +315,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual void DrawPreview(UnityEngine.Rect  @previewArea)
+        public virtual void DrawPreview(UnityEngine.Rect @previewArea)
         {
 
             var ___genericsType = new Type[] {};
@@ -326,7 +326,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual void OnPreviewGUI(UnityEngine.Rect  @r, UnityEngine.GUIStyle  @background)
+        public virtual void OnPreviewGUI(UnityEngine.Rect @r, UnityEngine.GUIStyle @background)
         {
 
             var ___genericsType = new Type[] {};
@@ -337,7 +337,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual void OnInteractivePreviewGUI(UnityEngine.Rect  @r, UnityEngine.GUIStyle  @background)
+        public virtual void OnInteractivePreviewGUI(UnityEngine.Rect @r, UnityEngine.GUIStyle @background)
         {
 
             var ___genericsType = new Type[] {};

@@ -260,7 +260,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};
@@ -271,7 +271,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
         }
 
 
-        public virtual System.Boolean Equals(UnityEngine.TextCore.LowLevel.GlyphAdjustmentRecord  @other)
+        public virtual System.Boolean Equals(UnityEngine.TextCore.LowLevel.GlyphAdjustmentRecord @other)
         {
 
             var ___genericsType = new Type[] {};
@@ -282,7 +282,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
         }
 
 
-        public static System.Boolean op_Equality(UnityEngine.TextCore.LowLevel.GlyphAdjustmentRecord  @lhs, UnityEngine.TextCore.LowLevel.GlyphAdjustmentRecord  @rhs)
+        public static System.Boolean op_Equality(UnityEngine.TextCore.LowLevel.GlyphAdjustmentRecord @lhs, UnityEngine.TextCore.LowLevel.GlyphAdjustmentRecord @rhs)
         {
 
             var ___genericsType = new Type[] {};
@@ -293,7 +293,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
         }
 
 
-        public static System.Boolean op_Inequality(UnityEngine.TextCore.LowLevel.GlyphAdjustmentRecord  @lhs, UnityEngine.TextCore.LowLevel.GlyphAdjustmentRecord  @rhs)
+        public static System.Boolean op_Inequality(UnityEngine.TextCore.LowLevel.GlyphAdjustmentRecord @lhs, UnityEngine.TextCore.LowLevel.GlyphAdjustmentRecord @rhs)
         {
 
             var ___genericsType = new Type[] {};

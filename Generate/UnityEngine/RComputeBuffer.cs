@@ -730,7 +730,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void Dispose(System.Boolean  @disposing)
+        public virtual void Dispose(System.Boolean @disposing)
         {
 
             var ___genericsType = new Type[] {};
@@ -741,7 +741,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static System.IntPtr InitBuffer(System.Int32  @count, System.Int32  @stride, UnityEngine.ComputeBufferType  @type, UnityEngine.ComputeBufferMode  @usage)
+        public static System.IntPtr InitBuffer(System.Int32 @count, System.Int32 @stride, UnityEngine.ComputeBufferType @type, UnityEngine.ComputeBufferMode @usage)
         {
 
             var ___genericsType = new Type[] {};
@@ -752,7 +752,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static void DestroyBuffer(UnityEngine.ComputeBuffer  @buf)
+        public static void DestroyBuffer(UnityEngine.ComputeBuffer @buf)
         {
 
             var ___genericsType = new Type[] {};
@@ -774,7 +774,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static System.Boolean IsValidBuffer(UnityEngine.ComputeBuffer  @buf)
+        public static System.Boolean IsValidBuffer(UnityEngine.ComputeBuffer @buf)
         {
 
             var ___genericsType = new Type[] {};
@@ -796,7 +796,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SetData(System.Array  @data)
+        public virtual void SetData(System.Array @data)
         {
 
             var ___genericsType = new Type[] {};
@@ -807,7 +807,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SetData<T>(System.Collections.Generic.List<T>  @data) where T : struct
+        public virtual void SetData<T>(System.Collections.Generic.List<T> @data) where T : struct
         {
 
             var ___genericsType = new Type[] {typeof(T)};
@@ -819,7 +819,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
 
 
-        public virtual void SetData(System.Array  @data, System.Int32  @managedBufferStartIndex, System.Int32  @computeBufferStartIndex, System.Int32  @count)
+        public virtual void SetData(System.Array @data, System.Int32 @managedBufferStartIndex, System.Int32 @computeBufferStartIndex, System.Int32 @count)
         {
 
             var ___genericsType = new Type[] {};
@@ -830,7 +830,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SetData<T>(System.Collections.Generic.List<T>  @data, System.Int32  @managedBufferStartIndex, System.Int32  @computeBufferStartIndex, System.Int32  @count) where T : struct
+        public virtual void SetData<T>(System.Collections.Generic.List<T> @data, System.Int32 @managedBufferStartIndex, System.Int32 @computeBufferStartIndex, System.Int32 @count) where T : struct
         {
 
             var ___genericsType = new Type[] {typeof(T)};
@@ -842,7 +842,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
 
 
-        public virtual void InternalSetNativeData(System.IntPtr  @data, System.Int32  @nativeBufferStartIndex, System.Int32  @computeBufferStartIndex, System.Int32  @count, System.Int32  @elemSize)
+        public virtual void InternalSetNativeData(System.IntPtr @data, System.Int32 @nativeBufferStartIndex, System.Int32 @computeBufferStartIndex, System.Int32 @count, System.Int32 @elemSize)
         {
 
             var ___genericsType = new Type[] {};
@@ -853,7 +853,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void InternalSetData(System.Array  @data, System.Int32  @managedBufferStartIndex, System.Int32  @computeBufferStartIndex, System.Int32  @count, System.Int32  @elemSize)
+        public virtual void InternalSetData(System.Array @data, System.Int32 @managedBufferStartIndex, System.Int32 @computeBufferStartIndex, System.Int32 @count, System.Int32 @elemSize)
         {
 
             var ___genericsType = new Type[] {};
@@ -864,7 +864,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void GetData(System.Array  @data)
+        public virtual void GetData(System.Array @data)
         {
 
             var ___genericsType = new Type[] {};
@@ -875,7 +875,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void GetData(System.Array  @data, System.Int32  @managedBufferStartIndex, System.Int32  @computeBufferStartIndex, System.Int32  @count)
+        public virtual void GetData(System.Array @data, System.Int32 @managedBufferStartIndex, System.Int32 @computeBufferStartIndex, System.Int32 @count)
         {
 
             var ___genericsType = new Type[] {};
@@ -886,7 +886,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void InternalGetData(System.Array  @data, System.Int32  @managedBufferStartIndex, System.Int32  @computeBufferStartIndex, System.Int32  @count, System.Int32  @elemSize)
+        public virtual void InternalGetData(System.Array @data, System.Int32 @managedBufferStartIndex, System.Int32 @computeBufferStartIndex, System.Int32 @count, System.Int32 @elemSize)
         {
 
             var ___genericsType = new Type[] {};
@@ -898,7 +898,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
 
 
-        public virtual System.Object BeginWrite<T>(System.Int32  @computeBufferStartIndex, System.Int32  @count) where T : struct
+        public virtual System.Object BeginWrite<T>(System.Int32 @computeBufferStartIndex, System.Int32 @count) where T : struct
         {
 
             var ___genericsType = new Type[] {typeof(T)};
@@ -909,7 +909,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void EndBufferWrite(System.Int32  @bytesWritten)
+        public virtual void EndBufferWrite(System.Int32 @bytesWritten)
         {
 
             var ___genericsType = new Type[] {};
@@ -920,7 +920,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void EndWrite<T>(System.Int32  @countWritten) where T : struct
+        public virtual void EndWrite<T>(System.Int32 @countWritten) where T : struct
         {
 
             var ___genericsType = new Type[] {typeof(T)};
@@ -931,7 +931,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SetName(System.String  @name)
+        public virtual void SetName(System.String @name)
         {
 
             var ___genericsType = new Type[] {};
@@ -942,7 +942,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SetCounterValue(System.UInt32  @counterValue)
+        public virtual void SetCounterValue(System.UInt32 @counterValue)
         {
 
             var ___genericsType = new Type[] {};
@@ -953,7 +953,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static void CopyCount(UnityEngine.ComputeBuffer  @src, UnityEngine.ComputeBuffer  @dst, System.Int32  @dstOffsetBytes)
+        public static void CopyCount(UnityEngine.ComputeBuffer @src, UnityEngine.ComputeBuffer @dst, System.Int32 @dstOffsetBytes)
         {
 
             var ___genericsType = new Type[] {};
@@ -997,7 +997,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

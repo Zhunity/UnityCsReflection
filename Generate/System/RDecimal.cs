@@ -2136,7 +2136,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 	    {
 	    }
 
-        public static System.Object AsMutable(ref System.Decimal  @d)
+        public static RSystem.RDecimal.RDecCalc AsMutable(ref System.Decimal @d)
         {
 
             var ___genericsType = new Type[] {};
@@ -2144,11 +2144,11 @@ namespace SMFrame.Editor.Refleaction.RSystem
             var ___result = RAsMutable_Ref_Decimal.Invoke(___genericsType, ___parameters);
 			@d = (System.Decimal)___parameters[0];
 
-            return (System.Object)___result;
+            return new RSystem.RDecimal.RDecCalc(___result);
         }
 
 
-        public static System.UInt32 DecDivMod1E9(ref System.Decimal  @value)
+        public static System.UInt32 DecDivMod1E9(ref System.Decimal @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -2160,7 +2160,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Decimal FromOACurrency(System.Int64  @cy)
+        public static System.Decimal FromOACurrency(System.Int64 @cy)
         {
 
             var ___genericsType = new Type[] {};
@@ -2171,7 +2171,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Int64 ToOACurrency(System.Decimal  @value)
+        public static System.Int64 ToOACurrency(System.Decimal @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -2182,7 +2182,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Boolean IsValid(System.Int32  @flags)
+        public static System.Boolean IsValid(System.Int32 @flags)
         {
 
             var ___genericsType = new Type[] {};
@@ -2193,7 +2193,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual void System__2__Runtime__2__Serialization__2__IDeserializationCallback__2__OnDeserialization(System.Object  @sender)
+        public virtual void System__2__Runtime__2__Serialization__2__IDeserializationCallback__2__OnDeserialization(System.Object @sender)
         {
 
             var ___genericsType = new Type[] {};
@@ -2204,7 +2204,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Decimal Abs(ref System.Decimal  @d)
+        public static System.Decimal Abs(ref System.Decimal @d)
         {
 
             var ___genericsType = new Type[] {};
@@ -2216,7 +2216,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Decimal Add(System.Decimal  @d1, System.Decimal  @d2)
+        public static System.Decimal Add(System.Decimal @d1, System.Decimal @d2)
         {
 
             var ___genericsType = new Type[] {};
@@ -2227,7 +2227,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Decimal Ceiling(System.Decimal  @d)
+        public static System.Decimal Ceiling(System.Decimal @d)
         {
 
             var ___genericsType = new Type[] {};
@@ -2238,7 +2238,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Int32 Compare(System.Decimal  @d1, System.Decimal  @d2)
+        public static System.Int32 Compare(System.Decimal @d1, System.Decimal @d2)
         {
 
             var ___genericsType = new Type[] {};
@@ -2249,7 +2249,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Int32 CompareTo(System.Object  @value)
+        public virtual System.Int32 CompareTo(System.Object @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -2260,7 +2260,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Int32 CompareTo(System.Decimal  @value)
+        public virtual System.Int32 CompareTo(System.Decimal @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -2271,7 +2271,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Decimal Divide(System.Decimal  @d1, System.Decimal  @d2)
+        public static System.Decimal Divide(System.Decimal @d1, System.Decimal @d2)
         {
 
             var ___genericsType = new Type[] {};
@@ -2282,7 +2282,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @value)
+        public virtual System.Boolean Equals(System.Object @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -2293,7 +2293,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Boolean Equals(System.Decimal  @value)
+        public virtual System.Boolean Equals(System.Decimal @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -2315,7 +2315,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Boolean Equals(System.Decimal  @d1, System.Decimal  @d2)
+        public static System.Boolean Equals(System.Decimal @d1, System.Decimal @d2)
         {
 
             var ___genericsType = new Type[] {};
@@ -2326,7 +2326,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Decimal Floor(System.Decimal  @d)
+        public static System.Decimal Floor(System.Decimal @d)
         {
 
             var ___genericsType = new Type[] {};
@@ -2348,7 +2348,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.String ToString(System.String  @format)
+        public virtual System.String ToString(System.String @format)
         {
 
             var ___genericsType = new Type[] {};
@@ -2359,7 +2359,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.String ToString(System.IFormatProvider  @provider)
+        public virtual System.String ToString(System.IFormatProvider @provider)
         {
 
             var ___genericsType = new Type[] {};
@@ -2370,7 +2370,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.String ToString(System.String  @format, System.IFormatProvider  @provider)
+        public virtual System.String ToString(System.String @format, System.IFormatProvider @provider)
         {
 
             var ___genericsType = new Type[] {};
@@ -2382,7 +2382,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 
 
 
-        public static System.Decimal Parse(System.String  @s)
+        public static System.Decimal Parse(System.String @s)
         {
 
             var ___genericsType = new Type[] {};
@@ -2393,7 +2393,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Decimal Parse(System.String  @s, System.Globalization.NumberStyles  @style)
+        public static System.Decimal Parse(System.String @s, System.Globalization.NumberStyles @style)
         {
 
             var ___genericsType = new Type[] {};
@@ -2404,7 +2404,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Decimal Parse(System.String  @s, System.IFormatProvider  @provider)
+        public static System.Decimal Parse(System.String @s, System.IFormatProvider @provider)
         {
 
             var ___genericsType = new Type[] {};
@@ -2415,7 +2415,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Decimal Parse(System.String  @s, System.Globalization.NumberStyles  @style, System.IFormatProvider  @provider)
+        public static System.Decimal Parse(System.String @s, System.Globalization.NumberStyles @style, System.IFormatProvider @provider)
         {
 
             var ___genericsType = new Type[] {};
@@ -2427,7 +2427,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 
 
 
-        public static System.Boolean TryParse(System.String  @s, out System.Decimal  @result)
+        public static System.Boolean TryParse(System.String @s, out System.Decimal @result)
         {
 			@result = default;
 
@@ -2441,7 +2441,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 
 
 
-        public static System.Boolean TryParse(System.String  @s, System.Globalization.NumberStyles  @style, System.IFormatProvider  @provider, out System.Decimal  @result)
+        public static System.Boolean TryParse(System.String @s, System.Globalization.NumberStyles @style, System.IFormatProvider @provider, out System.Decimal @result)
         {
 			@result = default;
 
@@ -2455,7 +2455,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 
 
 
-        public static System.Int32[] GetBits(System.Decimal  @d)
+        public static System.Int32[] GetBits(System.Decimal @d)
         {
 
             var ___genericsType = new Type[] {};
@@ -2466,7 +2466,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static void GetBytes(in System.Decimal  @d, System.Byte[]  @buffer)
+        public static void GetBytes(in System.Decimal @d, System.Byte[] @buffer)
         {
 
             var ___genericsType = new Type[] {};
@@ -2477,7 +2477,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Decimal ToDecimal(System.Byte[]  @buffer)
+        public static System.Decimal ToDecimal(System.Byte[] @buffer)
         {
 
             var ___genericsType = new Type[] {};
@@ -2488,7 +2488,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Decimal Max(ref System.Decimal  @d1, ref System.Decimal  @d2)
+        public static System.Decimal Max(ref System.Decimal @d1, ref System.Decimal @d2)
         {
 
             var ___genericsType = new Type[] {};
@@ -2501,7 +2501,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Decimal Min(ref System.Decimal  @d1, ref System.Decimal  @d2)
+        public static System.Decimal Min(ref System.Decimal @d1, ref System.Decimal @d2)
         {
 
             var ___genericsType = new Type[] {};
@@ -2514,7 +2514,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Decimal Remainder(System.Decimal  @d1, System.Decimal  @d2)
+        public static System.Decimal Remainder(System.Decimal @d1, System.Decimal @d2)
         {
 
             var ___genericsType = new Type[] {};
@@ -2525,7 +2525,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Decimal Multiply(System.Decimal  @d1, System.Decimal  @d2)
+        public static System.Decimal Multiply(System.Decimal @d1, System.Decimal @d2)
         {
 
             var ___genericsType = new Type[] {};
@@ -2536,7 +2536,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Decimal Negate(System.Decimal  @d)
+        public static System.Decimal Negate(System.Decimal @d)
         {
 
             var ___genericsType = new Type[] {};
@@ -2547,7 +2547,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Decimal Round(System.Decimal  @d)
+        public static System.Decimal Round(System.Decimal @d)
         {
 
             var ___genericsType = new Type[] {};
@@ -2558,7 +2558,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Decimal Round(System.Decimal  @d, System.Int32  @decimals)
+        public static System.Decimal Round(System.Decimal @d, System.Int32 @decimals)
         {
 
             var ___genericsType = new Type[] {};
@@ -2569,7 +2569,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Decimal Round(System.Decimal  @d, System.MidpointRounding  @mode)
+        public static System.Decimal Round(System.Decimal @d, System.MidpointRounding @mode)
         {
 
             var ___genericsType = new Type[] {};
@@ -2580,7 +2580,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Decimal Round(System.Decimal  @d, System.Int32  @decimals, System.MidpointRounding  @mode)
+        public static System.Decimal Round(System.Decimal @d, System.Int32 @decimals, System.MidpointRounding @mode)
         {
 
             var ___genericsType = new Type[] {};
@@ -2591,7 +2591,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Decimal Round(ref System.Decimal  @d, System.Int32  @decimals, System.MidpointRounding  @mode)
+        public static System.Decimal Round(ref System.Decimal @d, System.Int32 @decimals, System.MidpointRounding @mode)
         {
 
             var ___genericsType = new Type[] {};
@@ -2603,7 +2603,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Int32 Sign(ref System.Decimal  @d)
+        public static System.Int32 Sign(ref System.Decimal @d)
         {
 
             var ___genericsType = new Type[] {};
@@ -2615,7 +2615,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Decimal Subtract(System.Decimal  @d1, System.Decimal  @d2)
+        public static System.Decimal Subtract(System.Decimal @d1, System.Decimal @d2)
         {
 
             var ___genericsType = new Type[] {};
@@ -2626,7 +2626,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Byte ToByte(System.Decimal  @value)
+        public static System.Byte ToByte(System.Decimal @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -2637,7 +2637,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.SByte ToSByte(System.Decimal  @value)
+        public static System.SByte ToSByte(System.Decimal @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -2648,7 +2648,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Int16 ToInt16(System.Decimal  @value)
+        public static System.Int16 ToInt16(System.Decimal @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -2659,7 +2659,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Double ToDouble(System.Decimal  @d)
+        public static System.Double ToDouble(System.Decimal @d)
         {
 
             var ___genericsType = new Type[] {};
@@ -2670,7 +2670,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Int32 ToInt32(System.Decimal  @d)
+        public static System.Int32 ToInt32(System.Decimal @d)
         {
 
             var ___genericsType = new Type[] {};
@@ -2681,7 +2681,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Int64 ToInt64(System.Decimal  @d)
+        public static System.Int64 ToInt64(System.Decimal @d)
         {
 
             var ___genericsType = new Type[] {};
@@ -2692,7 +2692,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.UInt16 ToUInt16(System.Decimal  @value)
+        public static System.UInt16 ToUInt16(System.Decimal @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -2703,7 +2703,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.UInt32 ToUInt32(System.Decimal  @d)
+        public static System.UInt32 ToUInt32(System.Decimal @d)
         {
 
             var ___genericsType = new Type[] {};
@@ -2714,7 +2714,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.UInt64 ToUInt64(System.Decimal  @d)
+        public static System.UInt64 ToUInt64(System.Decimal @d)
         {
 
             var ___genericsType = new Type[] {};
@@ -2725,7 +2725,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Single ToSingle(System.Decimal  @d)
+        public static System.Single ToSingle(System.Decimal @d)
         {
 
             var ___genericsType = new Type[] {};
@@ -2736,7 +2736,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Decimal Truncate(System.Decimal  @d)
+        public static System.Decimal Truncate(System.Decimal @d)
         {
 
             var ___genericsType = new Type[] {};
@@ -2747,7 +2747,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static void Truncate(ref System.Decimal  @d)
+        public static void Truncate(ref System.Decimal @d)
         {
 
             var ___genericsType = new Type[] {};
@@ -2759,7 +2759,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Decimal op_Implicit(System.Byte  @value)
+        public static System.Decimal op_Implicit(System.Byte @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -2770,7 +2770,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Decimal op_Implicit(System.SByte  @value)
+        public static System.Decimal op_Implicit(System.SByte @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -2781,7 +2781,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Decimal op_Implicit(System.Int16  @value)
+        public static System.Decimal op_Implicit(System.Int16 @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -2792,7 +2792,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Decimal op_Implicit(System.UInt16  @value)
+        public static System.Decimal op_Implicit(System.UInt16 @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -2803,7 +2803,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Decimal op_Implicit(System.Char  @value)
+        public static System.Decimal op_Implicit(System.Char @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -2814,7 +2814,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Decimal op_Implicit(System.Int32  @value)
+        public static System.Decimal op_Implicit(System.Int32 @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -2825,7 +2825,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Decimal op_Implicit(System.UInt32  @value)
+        public static System.Decimal op_Implicit(System.UInt32 @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -2836,7 +2836,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Decimal op_Implicit(System.Int64  @value)
+        public static System.Decimal op_Implicit(System.Int64 @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -2847,7 +2847,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Decimal op_Implicit(System.UInt64  @value)
+        public static System.Decimal op_Implicit(System.UInt64 @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -2858,7 +2858,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Decimal op_Explicit(System.Single  @value)
+        public static System.Decimal op_Explicit(System.Single @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -2869,7 +2869,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Decimal op_Explicit(System.Double  @value)
+        public static System.Decimal op_Explicit(System.Double @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -2880,7 +2880,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Byte op_Explicit(System.Decimal  @value)
+        public static System.Byte op_Explicit(System.Decimal @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -2891,7 +2891,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Decimal op_UnaryPlus(System.Decimal  @d)
+        public static System.Decimal op_UnaryPlus(System.Decimal @d)
         {
 
             var ___genericsType = new Type[] {};
@@ -2902,7 +2902,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Decimal op_UnaryNegation(System.Decimal  @d)
+        public static System.Decimal op_UnaryNegation(System.Decimal @d)
         {
 
             var ___genericsType = new Type[] {};
@@ -2913,7 +2913,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Decimal op_Increment(System.Decimal  @d)
+        public static System.Decimal op_Increment(System.Decimal @d)
         {
 
             var ___genericsType = new Type[] {};
@@ -2924,7 +2924,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Decimal op_Decrement(System.Decimal  @d)
+        public static System.Decimal op_Decrement(System.Decimal @d)
         {
 
             var ___genericsType = new Type[] {};
@@ -2935,7 +2935,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Decimal op_Addition(System.Decimal  @d1, System.Decimal  @d2)
+        public static System.Decimal op_Addition(System.Decimal @d1, System.Decimal @d2)
         {
 
             var ___genericsType = new Type[] {};
@@ -2946,7 +2946,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Decimal op_Subtraction(System.Decimal  @d1, System.Decimal  @d2)
+        public static System.Decimal op_Subtraction(System.Decimal @d1, System.Decimal @d2)
         {
 
             var ___genericsType = new Type[] {};
@@ -2957,7 +2957,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Decimal op_Multiply(System.Decimal  @d1, System.Decimal  @d2)
+        public static System.Decimal op_Multiply(System.Decimal @d1, System.Decimal @d2)
         {
 
             var ___genericsType = new Type[] {};
@@ -2968,7 +2968,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Decimal op_Division(System.Decimal  @d1, System.Decimal  @d2)
+        public static System.Decimal op_Division(System.Decimal @d1, System.Decimal @d2)
         {
 
             var ___genericsType = new Type[] {};
@@ -2979,7 +2979,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Decimal op_Modulus(System.Decimal  @d1, System.Decimal  @d2)
+        public static System.Decimal op_Modulus(System.Decimal @d1, System.Decimal @d2)
         {
 
             var ___genericsType = new Type[] {};
@@ -2990,7 +2990,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Boolean op_Equality(System.Decimal  @d1, System.Decimal  @d2)
+        public static System.Boolean op_Equality(System.Decimal @d1, System.Decimal @d2)
         {
 
             var ___genericsType = new Type[] {};
@@ -3001,7 +3001,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Boolean op_Inequality(System.Decimal  @d1, System.Decimal  @d2)
+        public static System.Boolean op_Inequality(System.Decimal @d1, System.Decimal @d2)
         {
 
             var ___genericsType = new Type[] {};
@@ -3012,7 +3012,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Boolean op_LessThan(System.Decimal  @d1, System.Decimal  @d2)
+        public static System.Boolean op_LessThan(System.Decimal @d1, System.Decimal @d2)
         {
 
             var ___genericsType = new Type[] {};
@@ -3023,7 +3023,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Boolean op_LessThanOrEqual(System.Decimal  @d1, System.Decimal  @d2)
+        public static System.Boolean op_LessThanOrEqual(System.Decimal @d1, System.Decimal @d2)
         {
 
             var ___genericsType = new Type[] {};
@@ -3034,7 +3034,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Boolean op_GreaterThan(System.Decimal  @d1, System.Decimal  @d2)
+        public static System.Boolean op_GreaterThan(System.Decimal @d1, System.Decimal @d2)
         {
 
             var ___genericsType = new Type[] {};
@@ -3045,7 +3045,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Boolean op_GreaterThanOrEqual(System.Decimal  @d1, System.Decimal  @d2)
+        public static System.Boolean op_GreaterThanOrEqual(System.Decimal @d1, System.Decimal @d2)
         {
 
             var ___genericsType = new Type[] {};
@@ -3067,7 +3067,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Boolean System__2__IConvertible__2__ToBoolean(System.IFormatProvider  @provider)
+        public virtual System.Boolean System__2__IConvertible__2__ToBoolean(System.IFormatProvider @provider)
         {
 
             var ___genericsType = new Type[] {};
@@ -3078,7 +3078,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Char System__2__IConvertible__2__ToChar(System.IFormatProvider  @provider)
+        public virtual System.Char System__2__IConvertible__2__ToChar(System.IFormatProvider @provider)
         {
 
             var ___genericsType = new Type[] {};
@@ -3089,7 +3089,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.SByte System__2__IConvertible__2__ToSByte(System.IFormatProvider  @provider)
+        public virtual System.SByte System__2__IConvertible__2__ToSByte(System.IFormatProvider @provider)
         {
 
             var ___genericsType = new Type[] {};
@@ -3100,7 +3100,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Byte System__2__IConvertible__2__ToByte(System.IFormatProvider  @provider)
+        public virtual System.Byte System__2__IConvertible__2__ToByte(System.IFormatProvider @provider)
         {
 
             var ___genericsType = new Type[] {};
@@ -3111,7 +3111,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Int16 System__2__IConvertible__2__ToInt16(System.IFormatProvider  @provider)
+        public virtual System.Int16 System__2__IConvertible__2__ToInt16(System.IFormatProvider @provider)
         {
 
             var ___genericsType = new Type[] {};
@@ -3122,7 +3122,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.UInt16 System__2__IConvertible__2__ToUInt16(System.IFormatProvider  @provider)
+        public virtual System.UInt16 System__2__IConvertible__2__ToUInt16(System.IFormatProvider @provider)
         {
 
             var ___genericsType = new Type[] {};
@@ -3133,7 +3133,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Int32 System__2__IConvertible__2__ToInt32(System.IFormatProvider  @provider)
+        public virtual System.Int32 System__2__IConvertible__2__ToInt32(System.IFormatProvider @provider)
         {
 
             var ___genericsType = new Type[] {};
@@ -3144,7 +3144,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.UInt32 System__2__IConvertible__2__ToUInt32(System.IFormatProvider  @provider)
+        public virtual System.UInt32 System__2__IConvertible__2__ToUInt32(System.IFormatProvider @provider)
         {
 
             var ___genericsType = new Type[] {};
@@ -3155,7 +3155,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Int64 System__2__IConvertible__2__ToInt64(System.IFormatProvider  @provider)
+        public virtual System.Int64 System__2__IConvertible__2__ToInt64(System.IFormatProvider @provider)
         {
 
             var ___genericsType = new Type[] {};
@@ -3166,7 +3166,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.UInt64 System__2__IConvertible__2__ToUInt64(System.IFormatProvider  @provider)
+        public virtual System.UInt64 System__2__IConvertible__2__ToUInt64(System.IFormatProvider @provider)
         {
 
             var ___genericsType = new Type[] {};
@@ -3177,7 +3177,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Single System__2__IConvertible__2__ToSingle(System.IFormatProvider  @provider)
+        public virtual System.Single System__2__IConvertible__2__ToSingle(System.IFormatProvider @provider)
         {
 
             var ___genericsType = new Type[] {};
@@ -3188,7 +3188,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Double System__2__IConvertible__2__ToDouble(System.IFormatProvider  @provider)
+        public virtual System.Double System__2__IConvertible__2__ToDouble(System.IFormatProvider @provider)
         {
 
             var ___genericsType = new Type[] {};
@@ -3199,7 +3199,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Decimal System__2__IConvertible__2__ToDecimal(System.IFormatProvider  @provider)
+        public virtual System.Decimal System__2__IConvertible__2__ToDecimal(System.IFormatProvider @provider)
         {
 
             var ___genericsType = new Type[] {};
@@ -3210,7 +3210,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.DateTime System__2__IConvertible__2__ToDateTime(System.IFormatProvider  @provider)
+        public virtual System.DateTime System__2__IConvertible__2__ToDateTime(System.IFormatProvider @provider)
         {
 
             var ___genericsType = new Type[] {};
@@ -3221,7 +3221,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Object System__2__IConvertible__2__ToType(System.Type  @type, System.IFormatProvider  @provider)
+        public virtual System.Object System__2__IConvertible__2__ToType(System.Type @type, System.IFormatProvider @provider)
         {
 
             var ___genericsType = new Type[] {};

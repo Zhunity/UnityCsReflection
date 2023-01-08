@@ -300,7 +300,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 	    {
 	    }
 
-        public virtual void Add(RUnityEngine.RUIElements.RStyleVariable  @sv)
+        public virtual void Add(RUnityEngine.RUIElements.RStyleVariable @sv)
         {
 
             var ___genericsType = new Type[] {};
@@ -311,7 +311,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void AddInitialRange(RUnityEngine.RUIElements.RStyleVariableContext  @other)
+        public virtual void AddInitialRange(RUnityEngine.RUIElements.RStyleVariableContext @other)
         {
 
             var ___genericsType = new Type[] {};
@@ -333,7 +333,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean TryFindVariable(System.String  @name, out RUnityEngine.RUIElements.RStyleVariable  @v)
+        public virtual System.Boolean TryFindVariable(System.String @name, out RUnityEngine.RUIElements.RStyleVariable @v)
         {
 			@v = default;
 
@@ -357,7 +357,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

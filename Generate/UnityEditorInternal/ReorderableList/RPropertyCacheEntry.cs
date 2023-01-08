@@ -217,7 +217,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditorInternal
 	    {
 	    }
 
-        public virtual System.Boolean Set(UnityEditor.SerializedProperty  @property, System.Single  @height, System.Single  @offset)
+        public virtual System.Boolean Set(UnityEditor.SerializedProperty @property, System.Single @height, System.Single @offset)
         {
 
             var ___genericsType = new Type[] {};
@@ -228,7 +228,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditorInternal
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

@@ -317,7 +317,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 	    {
 	    }
 
-        public virtual void SetLinkId(System.Char[]  @text, System.Int32  @startIndex, System.Int32  @length)
+        public virtual void SetLinkId(System.Char[] @text, System.Int32 @startIndex, System.Int32 @length)
         {
 
             var ___genericsType = new Type[] {};
@@ -328,7 +328,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
         }
 
 
-        public virtual System.String GetLinkText(RUnityEngine.RTextCore.RText.RTextInfo  @textInfo)
+        public virtual System.String GetLinkText(RUnityEngine.RTextCore.RText.RTextInfo @textInfo)
         {
 
             var ___genericsType = new Type[] {};
@@ -350,7 +350,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

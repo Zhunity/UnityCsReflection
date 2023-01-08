@@ -957,7 +957,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void BeginProcessEvent(UnityEngine.UIElements.EventBase  @evt, UnityEngine.UIElements.IEventHandler  @mouseCapture)
+        public virtual void BeginProcessEvent(UnityEngine.UIElements.EventBase @evt, UnityEngine.UIElements.IEventHandler @mouseCapture)
         {
 
             var ___genericsType = new Type[] {};
@@ -968,7 +968,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void EndProcessEvent(UnityEngine.UIElements.EventBase  @evt, System.Int64  @duration, UnityEngine.UIElements.IEventHandler  @mouseCapture)
+        public virtual void EndProcessEvent(UnityEngine.UIElements.EventBase @evt, System.Int64 @duration, UnityEngine.UIElements.IEventHandler @mouseCapture)
         {
 
             var ___genericsType = new Type[] {};
@@ -979,7 +979,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void LogCall(System.Int32  @cbHashCode, System.String  @cbName, UnityEngine.UIElements.EventBase  @evt, System.Boolean  @propagationHasStopped, System.Boolean  @immediatePropagationHasStopped, System.Boolean  @defaultHasBeenPrevented, System.Int64  @duration, UnityEngine.UIElements.IEventHandler  @mouseCapture)
+        public virtual void LogCall(System.Int32 @cbHashCode, System.String @cbName, UnityEngine.UIElements.EventBase @evt, System.Boolean @propagationHasStopped, System.Boolean @immediatePropagationHasStopped, System.Boolean @defaultHasBeenPrevented, System.Int64 @duration, UnityEngine.UIElements.IEventHandler @mouseCapture)
         {
 
             var ___genericsType = new Type[] {};
@@ -990,7 +990,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void LogIMGUICall(UnityEngine.UIElements.EventBase  @evt, System.Int64  @duration, UnityEngine.UIElements.IEventHandler  @mouseCapture)
+        public virtual void LogIMGUICall(UnityEngine.UIElements.EventBase @evt, System.Int64 @duration, UnityEngine.UIElements.IEventHandler @mouseCapture)
         {
 
             var ___genericsType = new Type[] {};
@@ -1001,7 +1001,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void LogExecuteDefaultAction(UnityEngine.UIElements.EventBase  @evt, UnityEngine.UIElements.PropagationPhase  @phase, System.Int64  @duration, UnityEngine.UIElements.IEventHandler  @mouseCapture)
+        public virtual void LogExecuteDefaultAction(UnityEngine.UIElements.EventBase @evt, UnityEngine.UIElements.PropagationPhase @phase, System.Int64 @duration, UnityEngine.UIElements.IEventHandler @mouseCapture)
         {
 
             var ___genericsType = new Type[] {};
@@ -1012,7 +1012,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public static void LogPropagationPaths(UnityEngine.UIElements.EventBase  @evt, RUnityEngine.RUIElements.RPropagationPaths  @paths)
+        public static void LogPropagationPaths(UnityEngine.UIElements.EventBase @evt, RUnityEngine.RUIElements.RPropagationPaths @paths)
         {
 
             var ___genericsType = new Type[] {};
@@ -1023,7 +1023,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void LogPropagationPathsInternal(UnityEngine.UIElements.EventBase  @evt, RUnityEngine.RUIElements.RPropagationPaths  @paths)
+        public virtual void LogPropagationPathsInternal(UnityEngine.UIElements.EventBase @evt, RUnityEngine.RUIElements.RPropagationPaths @paths)
         {
 
             var ___genericsType = new Type[] {};
@@ -1034,51 +1034,51 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Object GetCalls(UnityEngine.UIElements.IPanel  @panel, RUnityEngine.RUIElements.REventDebuggerEventRecord  @evt)
+        public virtual RSystem.RCollections.RGeneric.RList<RUnityEngine.RUIElements.REventDebuggerCallTrace> GetCalls(UnityEngine.UIElements.IPanel @panel, RUnityEngine.RUIElements.REventDebuggerEventRecord @evt)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@panel, @evt.Value};
             var ___result = RGetCalls_IPanel_EventDebuggerEventRecord.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RSystem.RCollections.RGeneric.RList<RUnityEngine.RUIElements.REventDebuggerCallTrace>(___result);
         }
 
 
-        public virtual System.Object GetDefaultActions(UnityEngine.UIElements.IPanel  @panel, RUnityEngine.RUIElements.REventDebuggerEventRecord  @evt)
+        public virtual RSystem.RCollections.RGeneric.RList<RUnityEngine.RUIElements.REventDebuggerDefaultActionTrace> GetDefaultActions(UnityEngine.UIElements.IPanel @panel, RUnityEngine.RUIElements.REventDebuggerEventRecord @evt)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@panel, @evt.Value};
             var ___result = RGetDefaultActions_IPanel_EventDebuggerEventRecord.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RSystem.RCollections.RGeneric.RList<RUnityEngine.RUIElements.REventDebuggerDefaultActionTrace>(___result);
         }
 
 
-        public virtual System.Object GetPropagationPaths(UnityEngine.UIElements.IPanel  @panel, RUnityEngine.RUIElements.REventDebuggerEventRecord  @evt)
+        public virtual RSystem.RCollections.RGeneric.RList<RUnityEngine.RUIElements.REventDebuggerPathTrace> GetPropagationPaths(UnityEngine.UIElements.IPanel @panel, RUnityEngine.RUIElements.REventDebuggerEventRecord @evt)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@panel, @evt.Value};
             var ___result = RGetPropagationPaths_IPanel_EventDebuggerEventRecord.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RSystem.RCollections.RGeneric.RList<RUnityEngine.RUIElements.REventDebuggerPathTrace>(___result);
         }
 
 
-        public virtual System.Object GetBeginEndProcessedEvents(UnityEngine.UIElements.IPanel  @panel, RUnityEngine.RUIElements.REventDebuggerEventRecord  @evt)
+        public virtual RSystem.RCollections.RGeneric.RList<RUnityEngine.RUIElements.REventDebuggerTrace> GetBeginEndProcessedEvents(UnityEngine.UIElements.IPanel @panel, RUnityEngine.RUIElements.REventDebuggerEventRecord @evt)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@panel, @evt.Value};
             var ___result = RGetBeginEndProcessedEvents_IPanel_EventDebuggerEventRecord.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RSystem.RCollections.RGeneric.RList<RUnityEngine.RUIElements.REventDebuggerTrace>(___result);
         }
 
 
-        public virtual System.Int64 GetModificationCount(UnityEngine.UIElements.IPanel  @panel)
+        public virtual System.Int64 GetModificationCount(UnityEngine.UIElements.IPanel @panel)
         {
 
             var ___genericsType = new Type[] {};
@@ -1100,7 +1100,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void SaveReplaySessionFromSelection(System.String  @path, RSystem.RCollections.RGeneric.RList<RUnityEngine.RUIElements.REventDebuggerEventRecord>  @eventList)
+        public virtual void SaveReplaySessionFromSelection(System.String @path, RSystem.RCollections.RGeneric.RList<RUnityEngine.RUIElements.REventDebuggerEventRecord> @eventList)
         {
 
             var ___genericsType = new Type[] {};
@@ -1111,18 +1111,18 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Object LoadReplaySession(System.String  @path)
+        public virtual RUnityEngine.RUIElements.REventDebuggerRecordList LoadReplaySession(System.String @path)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@path};
             var ___result = RLoadReplaySession_String.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RUnityEngine.RUIElements.REventDebuggerRecordList(___result);
         }
 
 
-        public virtual System.Collections.IEnumerator ReplayEvents(RSystem.RCollections.RGeneric.RIEnumerable<RUnityEngine.RUIElements.REventDebuggerEventRecord>  @eventBases, System.Action<System.Int32, System.Int32>  @refreshList)
+        public virtual System.Collections.IEnumerator ReplayEvents(RSystem.RCollections.RGeneric.RIEnumerable<RUnityEngine.RUIElements.REventDebuggerEventRecord> @eventBases, System.Action<System.Int32, System.Int32> @refreshList)
         {
 
             var ___genericsType = new Type[] {};
@@ -1144,7 +1144,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Collections.IEnumerator DoReplayEvents(RSystem.RCollections.RGeneric.RIEnumerable<RUnityEngine.RUIElements.REventDebuggerEventRecord>  @eventBases, System.Action<System.Int32, System.Int32>  @refreshList)
+        public virtual System.Collections.IEnumerator DoReplayEvents(RSystem.RCollections.RGeneric.RIEnumerable<RUnityEngine.RUIElements.REventDebuggerEventRecord> @eventBases, System.Action<System.Int32, System.Int32> @refreshList)
         {
 
             var ___genericsType = new Type[] {};
@@ -1155,18 +1155,18 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Object ComputeHistogram(RSystem.RCollections.RGeneric.RList<RUnityEngine.RUIElements.REventDebuggerEventRecord>  @eventBases)
+        public virtual RSystem.RCollections.RGeneric.RDictionary<RType, RUnityEngine.RUIElements.REventDebugger.RHistogramRecord> ComputeHistogram(RSystem.RCollections.RGeneric.RList<RUnityEngine.RUIElements.REventDebuggerEventRecord> @eventBases)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@eventBases.Value};
             var ___result = RComputeHistogram_List_d_EventDebuggerEventRecord_p_.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RSystem.RCollections.RGeneric.RDictionary<RType, RUnityEngine.RUIElements.REventDebugger.RHistogramRecord>(___result);
         }
 
 
-        public virtual void AddCallObject(System.Int32  @cbHashCode, System.String  @cbName, UnityEngine.UIElements.EventBase  @evt, System.Boolean  @propagationHasStopped, System.Boolean  @immediatePropagationHasStopped, System.Boolean  @defaultHasBeenPrevented, System.Int64  @duration, UnityEngine.UIElements.IEventHandler  @mouseCapture)
+        public virtual void AddCallObject(System.Int32 @cbHashCode, System.String @cbName, UnityEngine.UIElements.EventBase @evt, System.Boolean @propagationHasStopped, System.Boolean @immediatePropagationHasStopped, System.Boolean @defaultHasBeenPrevented, System.Int64 @duration, UnityEngine.UIElements.IEventHandler @mouseCapture)
         {
 
             var ___genericsType = new Type[] {};
@@ -1177,7 +1177,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void AddExecuteDefaultAction(UnityEngine.UIElements.EventBase  @evt, UnityEngine.UIElements.PropagationPhase  @phase, System.Int64  @duration, UnityEngine.UIElements.IEventHandler  @mouseCapture)
+        public virtual void AddExecuteDefaultAction(UnityEngine.UIElements.EventBase @evt, UnityEngine.UIElements.PropagationPhase @phase, System.Int64 @duration, UnityEngine.UIElements.IEventHandler @mouseCapture)
         {
 
             var ___genericsType = new Type[] {};
@@ -1188,7 +1188,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void AddPropagationPaths(UnityEngine.UIElements.EventBase  @evt, RUnityEngine.RUIElements.RPropagationPaths  @paths)
+        public virtual void AddPropagationPaths(UnityEngine.UIElements.EventBase @evt, RUnityEngine.RUIElements.RPropagationPaths @paths)
         {
 
             var ___genericsType = new Type[] {};
@@ -1199,7 +1199,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void AddIMGUICall(UnityEngine.UIElements.EventBase  @evt, System.Int64  @duration, UnityEngine.UIElements.IEventHandler  @mouseCapture)
+        public virtual void AddIMGUICall(UnityEngine.UIElements.EventBase @evt, System.Int64 @duration, UnityEngine.UIElements.IEventHandler @mouseCapture)
         {
 
             var ___genericsType = new Type[] {};
@@ -1210,7 +1210,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void AddBeginProcessEvent(UnityEngine.UIElements.EventBase  @evt, UnityEngine.UIElements.IEventHandler  @mouseCapture)
+        public virtual void AddBeginProcessEvent(UnityEngine.UIElements.EventBase @evt, UnityEngine.UIElements.IEventHandler @mouseCapture)
         {
 
             var ___genericsType = new Type[] {};
@@ -1221,7 +1221,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void AddEndProcessEvent(UnityEngine.UIElements.EventBase  @evt, System.Int64  @duration, UnityEngine.UIElements.IEventHandler  @mouseCapture)
+        public virtual void AddEndProcessEvent(UnityEngine.UIElements.EventBase @evt, System.Int64 @duration, UnityEngine.UIElements.IEventHandler @mouseCapture)
         {
 
             var ___genericsType = new Type[] {};
@@ -1232,7 +1232,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public static System.String GetObjectDisplayName(System.Object  @obj, System.Boolean  @withHashCode)
+        public static System.String GetObjectDisplayName(System.Object @obj, System.Boolean @withHashCode)
         {
 
             var ___genericsType = new Type[] {};
@@ -1243,7 +1243,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public static System.String GetTypeDisplayName(System.Type  @type)
+        public static System.String GetTypeDisplayName(System.Type @type)
         {
 
             var ___genericsType = new Type[] {};
@@ -1254,7 +1254,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

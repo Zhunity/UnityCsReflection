@@ -1711,7 +1711,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 	    {
 	    }
 
-        public virtual System.TimeSpan Add(System.TimeSpan  @ts)
+        public virtual System.TimeSpan Add(System.TimeSpan @ts)
         {
 
             var ___genericsType = new Type[] {};
@@ -1722,7 +1722,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Int32 Compare(System.TimeSpan  @t1, System.TimeSpan  @t2)
+        public static System.Int32 Compare(System.TimeSpan @t1, System.TimeSpan @t2)
         {
 
             var ___genericsType = new Type[] {};
@@ -1733,7 +1733,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Int32 CompareTo(System.Object  @value)
+        public virtual System.Int32 CompareTo(System.Object @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -1744,7 +1744,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Int32 CompareTo(System.TimeSpan  @value)
+        public virtual System.Int32 CompareTo(System.TimeSpan @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -1755,7 +1755,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.TimeSpan FromDays(System.Double  @value)
+        public static System.TimeSpan FromDays(System.Double @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -1777,7 +1777,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @value)
+        public virtual System.Boolean Equals(System.Object @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -1788,7 +1788,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Boolean Equals(System.TimeSpan  @obj)
+        public virtual System.Boolean Equals(System.TimeSpan @obj)
         {
 
             var ___genericsType = new Type[] {};
@@ -1799,7 +1799,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Boolean Equals(System.TimeSpan  @t1, System.TimeSpan  @t2)
+        public static System.Boolean Equals(System.TimeSpan @t1, System.TimeSpan @t2)
         {
 
             var ___genericsType = new Type[] {};
@@ -1821,7 +1821,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.TimeSpan FromHours(System.Double  @value)
+        public static System.TimeSpan FromHours(System.Double @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -1832,7 +1832,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.TimeSpan Interval(System.Double  @value, System.Int32  @scale)
+        public static System.TimeSpan Interval(System.Double @value, System.Int32 @scale)
         {
 
             var ___genericsType = new Type[] {};
@@ -1843,7 +1843,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.TimeSpan FromMilliseconds(System.Double  @value)
+        public static System.TimeSpan FromMilliseconds(System.Double @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -1854,7 +1854,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.TimeSpan FromMinutes(System.Double  @value)
+        public static System.TimeSpan FromMinutes(System.Double @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -1876,7 +1876,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.TimeSpan FromSeconds(System.Double  @value)
+        public static System.TimeSpan FromSeconds(System.Double @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -1887,7 +1887,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.TimeSpan Subtract(System.TimeSpan  @ts)
+        public virtual System.TimeSpan Subtract(System.TimeSpan @ts)
         {
 
             var ___genericsType = new Type[] {};
@@ -1898,7 +1898,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.TimeSpan Multiply(System.Double  @factor)
+        public virtual System.TimeSpan Multiply(System.Double @factor)
         {
 
             var ___genericsType = new Type[] {};
@@ -1909,7 +1909,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.TimeSpan Divide(System.Double  @divisor)
+        public virtual System.TimeSpan Divide(System.Double @divisor)
         {
 
             var ___genericsType = new Type[] {};
@@ -1920,7 +1920,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Double Divide(System.TimeSpan  @ts)
+        public virtual System.Double Divide(System.TimeSpan @ts)
         {
 
             var ___genericsType = new Type[] {};
@@ -1931,7 +1931,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.TimeSpan FromTicks(System.Int64  @value)
+        public static System.TimeSpan FromTicks(System.Int64 @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -1942,7 +1942,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Int64 TimeToTicks(System.Int32  @hour, System.Int32  @minute, System.Int32  @second)
+        public static System.Int64 TimeToTicks(System.Int32 @hour, System.Int32 @minute, System.Int32 @second)
         {
 
             var ___genericsType = new Type[] {};
@@ -1953,7 +1953,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static void ValidateStyles(System.Globalization.TimeSpanStyles  @style, System.String  @parameterName)
+        public static void ValidateStyles(System.Globalization.TimeSpanStyles @style, System.String @parameterName)
         {
 
             var ___genericsType = new Type[] {};
@@ -1964,7 +1964,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.TimeSpan Parse(System.String  @s)
+        public static System.TimeSpan Parse(System.String @s)
         {
 
             var ___genericsType = new Type[] {};
@@ -1975,7 +1975,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.TimeSpan Parse(System.String  @input, System.IFormatProvider  @formatProvider)
+        public static System.TimeSpan Parse(System.String @input, System.IFormatProvider @formatProvider)
         {
 
             var ___genericsType = new Type[] {};
@@ -1987,7 +1987,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 
 
 
-        public static System.TimeSpan ParseExact(System.String  @input, System.String  @format, System.IFormatProvider  @formatProvider)
+        public static System.TimeSpan ParseExact(System.String @input, System.String @format, System.IFormatProvider @formatProvider)
         {
 
             var ___genericsType = new Type[] {};
@@ -1998,7 +1998,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.TimeSpan ParseExact(System.String  @input, System.String[]  @formats, System.IFormatProvider  @formatProvider)
+        public static System.TimeSpan ParseExact(System.String @input, System.String[] @formats, System.IFormatProvider @formatProvider)
         {
 
             var ___genericsType = new Type[] {};
@@ -2009,7 +2009,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.TimeSpan ParseExact(System.String  @input, System.String  @format, System.IFormatProvider  @formatProvider, System.Globalization.TimeSpanStyles  @styles)
+        public static System.TimeSpan ParseExact(System.String @input, System.String @format, System.IFormatProvider @formatProvider, System.Globalization.TimeSpanStyles @styles)
         {
 
             var ___genericsType = new Type[] {};
@@ -2021,7 +2021,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 
 
 
-        public static System.TimeSpan ParseExact(System.String  @input, System.String[]  @formats, System.IFormatProvider  @formatProvider, System.Globalization.TimeSpanStyles  @styles)
+        public static System.TimeSpan ParseExact(System.String @input, System.String[] @formats, System.IFormatProvider @formatProvider, System.Globalization.TimeSpanStyles @styles)
         {
 
             var ___genericsType = new Type[] {};
@@ -2033,7 +2033,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 
 
 
-        public static System.Boolean TryParse(System.String  @s, out System.TimeSpan  @result)
+        public static System.Boolean TryParse(System.String @s, out System.TimeSpan @result)
         {
 			@result = default;
 
@@ -2047,7 +2047,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 
 
 
-        public static System.Boolean TryParse(System.String  @input, System.IFormatProvider  @formatProvider, out System.TimeSpan  @result)
+        public static System.Boolean TryParse(System.String @input, System.IFormatProvider @formatProvider, out System.TimeSpan @result)
         {
 			@result = default;
 
@@ -2061,7 +2061,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 
 
 
-        public static System.Boolean TryParseExact(System.String  @input, System.String  @format, System.IFormatProvider  @formatProvider, out System.TimeSpan  @result)
+        public static System.Boolean TryParseExact(System.String @input, System.String @format, System.IFormatProvider @formatProvider, out System.TimeSpan @result)
         {
 			@result = default;
 
@@ -2075,7 +2075,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 
 
 
-        public static System.Boolean TryParseExact(System.String  @input, System.String[]  @formats, System.IFormatProvider  @formatProvider, out System.TimeSpan  @result)
+        public static System.Boolean TryParseExact(System.String @input, System.String[] @formats, System.IFormatProvider @formatProvider, out System.TimeSpan @result)
         {
 			@result = default;
 
@@ -2089,7 +2089,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 
 
 
-        public static System.Boolean TryParseExact(System.String  @input, System.String  @format, System.IFormatProvider  @formatProvider, System.Globalization.TimeSpanStyles  @styles, out System.TimeSpan  @result)
+        public static System.Boolean TryParseExact(System.String @input, System.String @format, System.IFormatProvider @formatProvider, System.Globalization.TimeSpanStyles @styles, out System.TimeSpan @result)
         {
 			@result = default;
 
@@ -2103,7 +2103,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 
 
 
-        public static System.Boolean TryParseExact(System.String  @input, System.String[]  @formats, System.IFormatProvider  @formatProvider, System.Globalization.TimeSpanStyles  @styles, out System.TimeSpan  @result)
+        public static System.Boolean TryParseExact(System.String @input, System.String[] @formats, System.IFormatProvider @formatProvider, System.Globalization.TimeSpanStyles @styles, out System.TimeSpan @result)
         {
 			@result = default;
 
@@ -2128,7 +2128,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.String ToString(System.String  @format)
+        public virtual System.String ToString(System.String @format)
         {
 
             var ___genericsType = new Type[] {};
@@ -2139,7 +2139,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.String ToString(System.String  @format, System.IFormatProvider  @formatProvider)
+        public virtual System.String ToString(System.String @format, System.IFormatProvider @formatProvider)
         {
 
             var ___genericsType = new Type[] {};
@@ -2151,7 +2151,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 
 
 
-        public static System.TimeSpan op_UnaryNegation(System.TimeSpan  @t)
+        public static System.TimeSpan op_UnaryNegation(System.TimeSpan @t)
         {
 
             var ___genericsType = new Type[] {};
@@ -2162,7 +2162,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.TimeSpan op_Subtraction(System.TimeSpan  @t1, System.TimeSpan  @t2)
+        public static System.TimeSpan op_Subtraction(System.TimeSpan @t1, System.TimeSpan @t2)
         {
 
             var ___genericsType = new Type[] {};
@@ -2173,7 +2173,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.TimeSpan op_UnaryPlus(System.TimeSpan  @t)
+        public static System.TimeSpan op_UnaryPlus(System.TimeSpan @t)
         {
 
             var ___genericsType = new Type[] {};
@@ -2184,7 +2184,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.TimeSpan op_Addition(System.TimeSpan  @t1, System.TimeSpan  @t2)
+        public static System.TimeSpan op_Addition(System.TimeSpan @t1, System.TimeSpan @t2)
         {
 
             var ___genericsType = new Type[] {};
@@ -2195,7 +2195,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.TimeSpan op_Multiply(System.TimeSpan  @timeSpan, System.Double  @factor)
+        public static System.TimeSpan op_Multiply(System.TimeSpan @timeSpan, System.Double @factor)
         {
 
             var ___genericsType = new Type[] {};
@@ -2206,7 +2206,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.TimeSpan op_Multiply(System.Double  @factor, System.TimeSpan  @timeSpan)
+        public static System.TimeSpan op_Multiply(System.Double @factor, System.TimeSpan @timeSpan)
         {
 
             var ___genericsType = new Type[] {};
@@ -2217,7 +2217,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.TimeSpan op_Division(System.TimeSpan  @timeSpan, System.Double  @divisor)
+        public static System.TimeSpan op_Division(System.TimeSpan @timeSpan, System.Double @divisor)
         {
 
             var ___genericsType = new Type[] {};
@@ -2228,7 +2228,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Double op_Division(System.TimeSpan  @t1, System.TimeSpan  @t2)
+        public static System.Double op_Division(System.TimeSpan @t1, System.TimeSpan @t2)
         {
 
             var ___genericsType = new Type[] {};
@@ -2239,7 +2239,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Boolean op_Equality(System.TimeSpan  @t1, System.TimeSpan  @t2)
+        public static System.Boolean op_Equality(System.TimeSpan @t1, System.TimeSpan @t2)
         {
 
             var ___genericsType = new Type[] {};
@@ -2250,7 +2250,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Boolean op_Inequality(System.TimeSpan  @t1, System.TimeSpan  @t2)
+        public static System.Boolean op_Inequality(System.TimeSpan @t1, System.TimeSpan @t2)
         {
 
             var ___genericsType = new Type[] {};
@@ -2261,7 +2261,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Boolean op_LessThan(System.TimeSpan  @t1, System.TimeSpan  @t2)
+        public static System.Boolean op_LessThan(System.TimeSpan @t1, System.TimeSpan @t2)
         {
 
             var ___genericsType = new Type[] {};
@@ -2272,7 +2272,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Boolean op_LessThanOrEqual(System.TimeSpan  @t1, System.TimeSpan  @t2)
+        public static System.Boolean op_LessThanOrEqual(System.TimeSpan @t1, System.TimeSpan @t2)
         {
 
             var ___genericsType = new Type[] {};
@@ -2283,7 +2283,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Boolean op_GreaterThan(System.TimeSpan  @t1, System.TimeSpan  @t2)
+        public static System.Boolean op_GreaterThan(System.TimeSpan @t1, System.TimeSpan @t2)
         {
 
             var ___genericsType = new Type[] {};
@@ -2294,7 +2294,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Boolean op_GreaterThanOrEqual(System.TimeSpan  @t1, System.TimeSpan  @t2)
+        public static System.Boolean op_GreaterThanOrEqual(System.TimeSpan @t1, System.TimeSpan @t2)
         {
 
             var ___genericsType = new Type[] {};

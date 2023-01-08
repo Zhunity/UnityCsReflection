@@ -362,7 +362,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};
@@ -373,7 +373,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore
         }
 
 
-        public virtual System.Boolean Equals(UnityEngine.TextCore.GlyphRect  @other)
+        public virtual System.Boolean Equals(UnityEngine.TextCore.GlyphRect @other)
         {
 
             var ___genericsType = new Type[] {};
@@ -384,7 +384,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore
         }
 
 
-        public static System.Boolean op_Equality(UnityEngine.TextCore.GlyphRect  @lhs, UnityEngine.TextCore.GlyphRect  @rhs)
+        public static System.Boolean op_Equality(UnityEngine.TextCore.GlyphRect @lhs, UnityEngine.TextCore.GlyphRect @rhs)
         {
 
             var ___genericsType = new Type[] {};
@@ -395,7 +395,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore
         }
 
 
-        public static System.Boolean op_Inequality(UnityEngine.TextCore.GlyphRect  @lhs, UnityEngine.TextCore.GlyphRect  @rhs)
+        public static System.Boolean op_Inequality(UnityEngine.TextCore.GlyphRect @lhs, UnityEngine.TextCore.GlyphRect @rhs)
         {
 
             var ___genericsType = new Type[] {};

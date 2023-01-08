@@ -368,18 +368,18 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 	    {
 	    }
 
-        public static System.Object GetOrCreate(RSystem.RWeakReference<RSystem.RText.RRegularExpressions.RRegexReplacement>  @replRef, System.String  @replacement, System.Collections.Hashtable  @caps, System.Int32  @capsize, System.Collections.Hashtable  @capnames, System.Text.RegularExpressions.RegexOptions  @roptions)
+        public static RSystem.RText.RRegularExpressions.RRegexReplacement GetOrCreate(RSystem.RWeakReference<RSystem.RText.RRegularExpressions.RRegexReplacement> @replRef, System.String @replacement, System.Collections.Hashtable @caps, System.Int32 @capsize, System.Collections.Hashtable @capnames, System.Text.RegularExpressions.RegexOptions @roptions)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@replRef.Value, @replacement, @caps, @capsize, @capnames, @roptions};
             var ___result = RGetOrCreate_WeakReference_d_RegexReplacement_p__String_Hashtable_Int32_Hashtable_RegexOptions.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RSystem.RText.RRegularExpressions.RRegexReplacement(___result);
         }
 
 
-        public virtual void ReplacementImpl(System.Text.StringBuilder  @sb, System.Text.RegularExpressions.Match  @match)
+        public virtual void ReplacementImpl(System.Text.StringBuilder @sb, System.Text.RegularExpressions.Match @match)
         {
 
             var ___genericsType = new Type[] {};
@@ -390,7 +390,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
         }
 
 
-        public virtual void ReplacementImplRTL(System.Collections.Generic.List<System.String>  @al, System.Text.RegularExpressions.Match  @match)
+        public virtual void ReplacementImplRTL(System.Collections.Generic.List<System.String> @al, System.Text.RegularExpressions.Match @match)
         {
 
             var ___genericsType = new Type[] {};
@@ -401,7 +401,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
         }
 
 
-        public virtual System.String Replacement(System.Text.RegularExpressions.Match  @match)
+        public virtual System.String Replacement(System.Text.RegularExpressions.Match @match)
         {
 
             var ___genericsType = new Type[] {};
@@ -412,7 +412,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
         }
 
 
-        public virtual System.String Replace(System.Text.RegularExpressions.Regex  @regex, System.String  @input, System.Int32  @count, System.Int32  @startat)
+        public virtual System.String Replace(System.Text.RegularExpressions.Regex @regex, System.String @input, System.Int32 @count, System.Int32 @startat)
         {
 
             var ___genericsType = new Type[] {};
@@ -423,7 +423,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

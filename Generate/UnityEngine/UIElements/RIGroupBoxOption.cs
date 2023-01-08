@@ -45,7 +45,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 	    {
 	    }
 
-        public virtual void SetSelected(System.Boolean  @selected)
+        public virtual void SetSelected(System.Boolean @selected)
         {
 
             var ___genericsType = new Type[] {};

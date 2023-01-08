@@ -283,25 +283,25 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 	    {
 	    }
 
-        public static System.Object Copy(RUnityEngine.RUIElements.RPropagationPaths  @paths)
+        public static RUnityEngine.RUIElements.RPropagationPaths Copy(RUnityEngine.RUIElements.RPropagationPaths @paths)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@paths.Value};
             var ___result = RCopy_PropagationPaths.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RUnityEngine.RUIElements.RPropagationPaths(___result);
         }
 
 
-        public static System.Object Build(UnityEngine.UIElements.VisualElement  @elem, UnityEngine.UIElements.EventBase  @evt)
+        public static RUnityEngine.RUIElements.RPropagationPaths Build(UnityEngine.UIElements.VisualElement @elem, UnityEngine.UIElements.EventBase @evt)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@elem, @evt};
             var ___result = RBuild_VisualElement_EventBase.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RUnityEngine.RUIElements.RPropagationPaths(___result);
         }
 
 
@@ -316,7 +316,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

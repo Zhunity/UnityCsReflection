@@ -198,7 +198,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections
 	    {
 	    }
 
-        public virtual System.Boolean Contains(System.Object  @key)
+        public virtual System.Boolean Contains(System.Object @key)
         {
 
             var ___genericsType = new Type[] {};
@@ -209,7 +209,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections
         }
 
 
-        public virtual void Add(System.Object  @key, System.Object  @value)
+        public virtual void Add(System.Object @key, System.Object @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -242,7 +242,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections
         }
 
 
-        public virtual void Remove(System.Object  @key)
+        public virtual void Remove(System.Object @key)
         {
 
             var ___genericsType = new Type[] {};

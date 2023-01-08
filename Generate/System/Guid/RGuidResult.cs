@@ -353,7 +353,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 	    {
 	    }
 
-        public virtual void Init(RType  @canThrow)
+        public virtual void Init(RType @canThrow)
         {
 
             var ___genericsType = new Type[] {};
@@ -364,7 +364,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual void SetFailure(System.Exception  @nativeException)
+        public virtual void SetFailure(System.Exception @nativeException)
         {
 
             var ___genericsType = new Type[] {};
@@ -375,7 +375,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual void SetFailure(RType  @failure, System.String  @failureMessageID)
+        public virtual void SetFailure(RType @failure, System.String @failureMessageID)
         {
 
             var ___genericsType = new Type[] {};
@@ -386,7 +386,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual void SetFailure(RType  @failure, System.String  @failureMessageID, System.Object  @failureMessageFormatArgument)
+        public virtual void SetFailure(RType @failure, System.String @failureMessageID, System.Object @failureMessageFormatArgument)
         {
 
             var ___genericsType = new Type[] {};
@@ -397,7 +397,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual void SetFailure(RType  @failure, System.String  @failureMessageID, System.Object  @failureMessageFormatArgument, System.String  @failureArgumentName, System.Exception  @innerException)
+        public virtual void SetFailure(RType @failure, System.String @failureMessageID, System.Object @failureMessageFormatArgument, System.String @failureArgumentName, System.Exception @innerException)
         {
 
             var ___genericsType = new Type[] {};
@@ -419,7 +419,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

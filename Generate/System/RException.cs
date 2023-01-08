@@ -1008,7 +1008,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Boolean IsImmutableAgileException(System.Exception  @e)
+        public static System.Boolean IsImmutableAgileException(System.Exception @e)
         {
 
             var ___genericsType = new Type[] {};
@@ -1019,7 +1019,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual void AddExceptionDataForRestrictedErrorInfo(System.String  @restrictedError, System.String  @restrictedErrorReference, System.String  @restrictedCapabilitySid, System.Object  @restrictedErrorObject, System.Boolean  @hasrestrictedLanguageErrorObject)
+        public virtual void AddExceptionDataForRestrictedErrorInfo(System.String @restrictedError, System.String @restrictedErrorReference, System.String @restrictedCapabilitySid, System.Object @restrictedErrorObject, System.Boolean @hasrestrictedLanguageErrorObject)
         {
 
             var ___genericsType = new Type[] {};
@@ -1030,7 +1030,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Boolean TryGetRestrictedLanguageErrorObject(out System.Object  @restrictedErrorObject)
+        public virtual System.Boolean TryGetRestrictedLanguageErrorObject(out System.Object @restrictedErrorObject)
         {
 			@restrictedErrorObject = default;
 
@@ -1065,7 +1065,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.String GetStackTrace(System.Boolean  @needFileInfo)
+        public virtual System.String GetStackTrace(System.Boolean @needFileInfo)
         {
 
             var ___genericsType = new Type[] {};
@@ -1076,7 +1076,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual void SetErrorCode(System.Int32  @hr)
+        public virtual void SetErrorCode(System.Int32 @hr)
         {
 
             var ___genericsType = new Type[] {};
@@ -1098,7 +1098,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.String ToString(System.Boolean  @needFileLineInfo, System.Boolean  @needMessage)
+        public virtual System.String ToString(System.Boolean @needFileLineInfo, System.Boolean @needMessage)
         {
 
             var ___genericsType = new Type[] {};
@@ -1109,7 +1109,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual void GetObjectData(System.Runtime.Serialization.SerializationInfo  @info, System.Runtime.Serialization.StreamingContext  @context)
+        public virtual void GetObjectData(System.Runtime.Serialization.SerializationInfo @info, System.Runtime.Serialization.StreamingContext @context)
         {
 
             var ___genericsType = new Type[] {};
@@ -1131,7 +1131,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual void OnDeserialized(System.Runtime.Serialization.StreamingContext  @context)
+        public virtual void OnDeserialized(System.Runtime.Serialization.StreamingContext @context)
         {
 
             var ___genericsType = new Type[] {};
@@ -1153,7 +1153,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.String StripFileInfo(System.String  @stackTrace, System.Boolean  @isRemoteStackTrace)
+        public virtual System.String StripFileInfo(System.String @stackTrace, System.Boolean @isRemoteStackTrace)
         {
 
             var ___genericsType = new Type[] {};
@@ -1164,7 +1164,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual void RestoreExceptionDispatchInfo(System.Runtime.ExceptionServices.ExceptionDispatchInfo  @exceptionDispatchInfo)
+        public virtual void RestoreExceptionDispatchInfo(System.Runtime.ExceptionServices.ExceptionDispatchInfo @exceptionDispatchInfo)
         {
 
             var ___genericsType = new Type[] {};
@@ -1197,7 +1197,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Boolean nIsTransient(System.Int32  @hr)
+        public static System.Boolean nIsTransient(System.Int32 @hr)
         {
 
             var ___genericsType = new Type[] {};
@@ -1208,7 +1208,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.String GetMessageFromNativeResources(RType  @kind)
+        public static System.String GetMessageFromNativeResources(RType @kind)
         {
 
             var ___genericsType = new Type[] {};
@@ -1219,7 +1219,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual void SetMessage(System.String  @s)
+        public virtual void SetMessage(System.String @s)
         {
 
             var ___genericsType = new Type[] {};
@@ -1230,7 +1230,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual void SetStackTrace(System.String  @s)
+        public virtual void SetStackTrace(System.String @s)
         {
 
             var ___genericsType = new Type[] {};
@@ -1252,7 +1252,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static void ReportUnhandledException(System.Exception  @exception)
+        public static void ReportUnhandledException(System.Exception @exception)
         {
 
             var ___genericsType = new Type[] {};
@@ -1263,7 +1263,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

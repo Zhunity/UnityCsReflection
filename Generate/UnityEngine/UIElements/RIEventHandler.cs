@@ -96,7 +96,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 	    {
 	    }
 
-        public virtual void SendEvent(UnityEngine.UIElements.EventBase  @e)
+        public virtual void SendEvent(UnityEngine.UIElements.EventBase @e)
         {
 
             var ___genericsType = new Type[] {};
@@ -107,7 +107,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void HandleEvent(UnityEngine.UIElements.EventBase  @evt)
+        public virtual void HandleEvent(UnityEngine.UIElements.EventBase @evt)
         {
 
             var ___genericsType = new Type[] {};

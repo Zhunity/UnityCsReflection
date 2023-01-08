@@ -266,7 +266,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 	    {
 	    }
 
-        public static System.Boolean IsNullOrEmpty(UnityEngine.PropertyName  @prop)
+        public static System.Boolean IsNullOrEmpty(UnityEngine.PropertyName @prop)
         {
 
             var ___genericsType = new Type[] {};
@@ -277,7 +277,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static System.Boolean op_Equality(UnityEngine.PropertyName  @lhs, UnityEngine.PropertyName  @rhs)
+        public static System.Boolean op_Equality(UnityEngine.PropertyName @lhs, UnityEngine.PropertyName @rhs)
         {
 
             var ___genericsType = new Type[] {};
@@ -288,7 +288,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static System.Boolean op_Inequality(UnityEngine.PropertyName  @lhs, UnityEngine.PropertyName  @rhs)
+        public static System.Boolean op_Inequality(UnityEngine.PropertyName @lhs, UnityEngine.PropertyName @rhs)
         {
 
             var ___genericsType = new Type[] {};
@@ -310,7 +310,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @other)
+        public virtual System.Boolean Equals(System.Object @other)
         {
 
             var ___genericsType = new Type[] {};
@@ -321,7 +321,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Boolean Equals(UnityEngine.PropertyName  @other)
+        public virtual System.Boolean Equals(UnityEngine.PropertyName @other)
         {
 
             var ___genericsType = new Type[] {};
@@ -332,7 +332,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.PropertyName op_Implicit(System.String  @name)
+        public static UnityEngine.PropertyName op_Implicit(System.String @name)
         {
 
             var ___genericsType = new Type[] {};
@@ -343,7 +343,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.PropertyName op_Implicit(System.Int32  @id)
+        public static UnityEngine.PropertyName op_Implicit(System.Int32 @id)
         {
 
             var ___genericsType = new Type[] {};

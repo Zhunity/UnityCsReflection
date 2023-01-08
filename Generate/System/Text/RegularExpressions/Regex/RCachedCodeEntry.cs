@@ -336,7 +336,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 	    {
 	    }
 
-        public virtual void AddCompiled(System.Text.RegularExpressions.RegexRunnerFactory  @factory)
+        public virtual void AddCompiled(System.Text.RegularExpressions.RegexRunnerFactory @factory)
         {
 
             var ___genericsType = new Type[] {};
@@ -347,7 +347,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

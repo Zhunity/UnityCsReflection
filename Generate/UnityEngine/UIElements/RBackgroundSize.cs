@@ -311,7 +311,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};
@@ -322,7 +322,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean Equals(UnityEngine.UIElements.BackgroundSize  @other)
+        public virtual System.Boolean Equals(UnityEngine.UIElements.BackgroundSize @other)
         {
 
             var ___genericsType = new Type[] {};
@@ -344,7 +344,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public static System.Boolean op_Equality(UnityEngine.UIElements.BackgroundSize  @style1, UnityEngine.UIElements.BackgroundSize  @style2)
+        public static System.Boolean op_Equality(UnityEngine.UIElements.BackgroundSize @style1, UnityEngine.UIElements.BackgroundSize @style2)
         {
 
             var ___genericsType = new Type[] {};
@@ -355,7 +355,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public static System.Boolean op_Inequality(UnityEngine.UIElements.BackgroundSize  @style1, UnityEngine.UIElements.BackgroundSize  @style2)
+        public static System.Boolean op_Inequality(UnityEngine.UIElements.BackgroundSize @style1, UnityEngine.UIElements.BackgroundSize @style2)
         {
 
             var ___genericsType = new Type[] {};

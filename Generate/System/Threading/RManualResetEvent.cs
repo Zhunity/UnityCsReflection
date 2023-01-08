@@ -571,7 +571,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public virtual void SetAccessControl(System.Security.AccessControl.EventWaitHandleSecurity  @eventSecurity)
+        public virtual void SetAccessControl(System.Security.AccessControl.EventWaitHandleSecurity @eventSecurity)
         {
 
             var ___genericsType = new Type[] {};
@@ -582,7 +582,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public virtual void SetHandleInternal(Microsoft.Win32.SafeHandles.SafeWaitHandle  @handle)
+        public virtual void SetHandleInternal(Microsoft.Win32.SafeHandles.SafeWaitHandle @handle)
         {
 
             var ___genericsType = new Type[] {};
@@ -593,7 +593,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public virtual System.Boolean WaitOne(System.Int32  @millisecondsTimeout, System.Boolean  @exitContext)
+        public virtual System.Boolean WaitOne(System.Int32 @millisecondsTimeout, System.Boolean @exitContext)
         {
 
             var ___genericsType = new Type[] {};
@@ -604,7 +604,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public virtual System.Boolean WaitOne(System.TimeSpan  @timeout, System.Boolean  @exitContext)
+        public virtual System.Boolean WaitOne(System.TimeSpan @timeout, System.Boolean @exitContext)
         {
 
             var ___genericsType = new Type[] {};
@@ -626,7 +626,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public virtual System.Boolean WaitOne(System.Int32  @millisecondsTimeout)
+        public virtual System.Boolean WaitOne(System.Int32 @millisecondsTimeout)
         {
 
             var ___genericsType = new Type[] {};
@@ -637,7 +637,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public virtual System.Boolean WaitOne(System.TimeSpan  @timeout)
+        public virtual System.Boolean WaitOne(System.TimeSpan @timeout)
         {
 
             var ___genericsType = new Type[] {};
@@ -670,7 +670,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public virtual void Dispose(System.Boolean  @explicitDisposing)
+        public virtual void Dispose(System.Boolean @explicitDisposing)
         {
 
             var ___genericsType = new Type[] {};
@@ -692,7 +692,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public virtual System.Object GetObjectIdentity(System.MarshalByRefObject  @obj, out System.Boolean  @IsClient)
+        public virtual RSystem.RRuntime.RRemoting.RIdentity GetObjectIdentity(System.MarshalByRefObject @obj, out System.Boolean @IsClient)
         {
 			@IsClient = default;
 
@@ -701,11 +701,11 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
             var ___result = RGetObjectIdentity_MarshalByRefObject_Out_Boolean.Invoke(___genericsType, ___parameters);
 			@IsClient = (System.Boolean)___parameters[1];
 
-            return (System.Object)___result;
+            return new RSystem.RRuntime.RRemoting.RIdentity(___result);
         }
 
 
-        public virtual System.Runtime.Remoting.ObjRef CreateObjRef(System.Type  @requestedType)
+        public virtual System.Runtime.Remoting.ObjRef CreateObjRef(System.Type @requestedType)
         {
 
             var ___genericsType = new Type[] {};
@@ -738,7 +738,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public virtual System.MarshalByRefObject MemberwiseClone(System.Boolean  @cloneIdentity)
+        public virtual System.MarshalByRefObject MemberwiseClone(System.Boolean @cloneIdentity)
         {
 
             var ___genericsType = new Type[] {};
@@ -749,7 +749,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

@@ -249,7 +249,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 	    {
 	    }
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};
@@ -260,7 +260,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean Equals(UnityEngine.UIElements.TextShadow  @other)
+        public virtual System.Boolean Equals(UnityEngine.UIElements.TextShadow @other)
         {
 
             var ___genericsType = new Type[] {};
@@ -282,7 +282,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public static System.Boolean op_Equality(UnityEngine.UIElements.TextShadow  @style1, UnityEngine.UIElements.TextShadow  @style2)
+        public static System.Boolean op_Equality(UnityEngine.UIElements.TextShadow @style1, UnityEngine.UIElements.TextShadow @style2)
         {
 
             var ___genericsType = new Type[] {};
@@ -293,7 +293,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public static System.Boolean op_Inequality(UnityEngine.UIElements.TextShadow  @style1, UnityEngine.UIElements.TextShadow  @style2)
+        public static System.Boolean op_Inequality(UnityEngine.UIElements.TextShadow @style1, UnityEngine.UIElements.TextShadow @style2)
         {
 
             var ___genericsType = new Type[] {};
@@ -315,7 +315,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public static UnityEngine.UIElements.TextShadow LerpUnclamped(UnityEngine.UIElements.TextShadow  @a, UnityEngine.UIElements.TextShadow  @b, System.Single  @t)
+        public static UnityEngine.UIElements.TextShadow LerpUnclamped(UnityEngine.UIElements.TextShadow @a, UnityEngine.UIElements.TextShadow @b, System.Single @t)
         {
 
             var ___genericsType = new Type[] {};

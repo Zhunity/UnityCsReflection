@@ -232,7 +232,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 	    {
 	    }
 
-        public virtual void OnGUI(UnityEngine.Rect  @position)
+        public virtual void OnGUI(UnityEngine.Rect @position)
         {
 
             var ___genericsType = new Type[] {};
@@ -276,7 +276,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

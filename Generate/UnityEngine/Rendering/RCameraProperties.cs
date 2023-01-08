@@ -827,7 +827,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 	    {
 	    }
 
-        public virtual UnityEngine.Plane GetShadowCullingPlane(System.Int32  @index)
+        public virtual UnityEngine.Plane GetShadowCullingPlane(System.Int32 @index)
         {
 
             var ___genericsType = new Type[] {};
@@ -838,7 +838,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetShadowCullingPlane(System.Int32  @index, UnityEngine.Plane  @plane)
+        public virtual void SetShadowCullingPlane(System.Int32 @index, UnityEngine.Plane @plane)
         {
 
             var ___genericsType = new Type[] {};
@@ -849,7 +849,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual UnityEngine.Plane GetCameraCullingPlane(System.Int32  @index)
+        public virtual UnityEngine.Plane GetCameraCullingPlane(System.Int32 @index)
         {
 
             var ___genericsType = new Type[] {};
@@ -860,7 +860,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetCameraCullingPlane(System.Int32  @index, UnityEngine.Plane  @plane)
+        public virtual void SetCameraCullingPlane(System.Int32 @index, UnityEngine.Plane @plane)
         {
 
             var ___genericsType = new Type[] {};
@@ -871,7 +871,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual System.Boolean Equals(UnityEngine.Rendering.CameraProperties  @other)
+        public virtual System.Boolean Equals(UnityEngine.Rendering.CameraProperties @other)
         {
 
             var ___genericsType = new Type[] {};
@@ -882,7 +882,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};
@@ -904,7 +904,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public static System.Boolean op_Equality(UnityEngine.Rendering.CameraProperties  @left, UnityEngine.Rendering.CameraProperties  @right)
+        public static System.Boolean op_Equality(UnityEngine.Rendering.CameraProperties @left, UnityEngine.Rendering.CameraProperties @right)
         {
 
             var ___genericsType = new Type[] {};
@@ -915,7 +915,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public static System.Boolean op_Inequality(UnityEngine.Rendering.CameraProperties  @left, UnityEngine.Rendering.CameraProperties  @right)
+        public static System.Boolean op_Inequality(UnityEngine.Rendering.CameraProperties @left, UnityEngine.Rendering.CameraProperties @right)
         {
 
             var ___genericsType = new Type[] {};

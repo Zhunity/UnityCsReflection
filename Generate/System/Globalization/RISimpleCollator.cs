@@ -215,7 +215,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 	    {
 	    }
 
-        public virtual System.Globalization.SortKey GetSortKey(System.String  @source, System.Globalization.CompareOptions  @options)
+        public virtual System.Globalization.SortKey GetSortKey(System.String @source, System.Globalization.CompareOptions @options)
         {
 
             var ___genericsType = new Type[] {};
@@ -226,7 +226,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public virtual System.Int32 Compare(System.String  @s1, System.String  @s2)
+        public virtual System.Int32 Compare(System.String @s1, System.String @s2)
         {
 
             var ___genericsType = new Type[] {};
@@ -237,7 +237,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public virtual System.Int32 Compare(System.String  @s1, System.Int32  @idx1, System.Int32  @len1, System.String  @s2, System.Int32  @idx2, System.Int32  @len2, System.Globalization.CompareOptions  @options)
+        public virtual System.Int32 Compare(System.String @s1, System.Int32 @idx1, System.Int32 @len1, System.String @s2, System.Int32 @idx2, System.Int32 @len2, System.Globalization.CompareOptions @options)
         {
 
             var ___genericsType = new Type[] {};
@@ -248,7 +248,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public virtual System.Boolean IsPrefix(System.String  @src, System.String  @target, System.Globalization.CompareOptions  @opt)
+        public virtual System.Boolean IsPrefix(System.String @src, System.String @target, System.Globalization.CompareOptions @opt)
         {
 
             var ___genericsType = new Type[] {};
@@ -259,7 +259,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public virtual System.Boolean IsSuffix(System.String  @src, System.String  @target, System.Globalization.CompareOptions  @opt)
+        public virtual System.Boolean IsSuffix(System.String @src, System.String @target, System.Globalization.CompareOptions @opt)
         {
 
             var ___genericsType = new Type[] {};
@@ -270,7 +270,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public virtual System.Int32 IndexOf(System.String  @s, System.String  @target, System.Int32  @start, System.Int32  @length, System.Globalization.CompareOptions  @opt)
+        public virtual System.Int32 IndexOf(System.String @s, System.String @target, System.Int32 @start, System.Int32 @length, System.Globalization.CompareOptions @opt)
         {
 
             var ___genericsType = new Type[] {};
@@ -281,7 +281,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public virtual System.Int32 IndexOf(System.String  @s, System.Char  @target, System.Int32  @start, System.Int32  @length, System.Globalization.CompareOptions  @opt)
+        public virtual System.Int32 IndexOf(System.String @s, System.Char @target, System.Int32 @start, System.Int32 @length, System.Globalization.CompareOptions @opt)
         {
 
             var ___genericsType = new Type[] {};
@@ -292,7 +292,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public virtual System.Int32 LastIndexOf(System.String  @s, System.String  @target, System.Globalization.CompareOptions  @opt)
+        public virtual System.Int32 LastIndexOf(System.String @s, System.String @target, System.Globalization.CompareOptions @opt)
         {
 
             var ___genericsType = new Type[] {};
@@ -303,7 +303,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public virtual System.Int32 LastIndexOf(System.String  @s, System.String  @target, System.Int32  @start, System.Int32  @length, System.Globalization.CompareOptions  @opt)
+        public virtual System.Int32 LastIndexOf(System.String @s, System.String @target, System.Int32 @start, System.Int32 @length, System.Globalization.CompareOptions @opt)
         {
 
             var ___genericsType = new Type[] {};
@@ -314,7 +314,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public virtual System.Int32 LastIndexOf(System.String  @s, System.Char  @target, System.Globalization.CompareOptions  @opt)
+        public virtual System.Int32 LastIndexOf(System.String @s, System.Char @target, System.Globalization.CompareOptions @opt)
         {
 
             var ___genericsType = new Type[] {};
@@ -325,7 +325,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public virtual System.Int32 LastIndexOf(System.String  @s, System.Char  @target, System.Int32  @start, System.Int32  @length, System.Globalization.CompareOptions  @opt)
+        public virtual System.Int32 LastIndexOf(System.String @s, System.Char @target, System.Int32 @start, System.Int32 @length, System.Globalization.CompareOptions @opt)
         {
 
             var ___genericsType = new Type[] {};

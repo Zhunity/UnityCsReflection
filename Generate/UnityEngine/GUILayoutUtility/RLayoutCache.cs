@@ -268,7 +268,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 	    {
 	    }
 
-        public virtual void CopyState(RUnityEngine.RGUILayoutUtility.RLayoutCacheState  @other)
+        public virtual void CopyState(RUnityEngine.RGUILayoutUtility.RLayoutCacheState @other)
         {
 
             var ___genericsType = new Type[] {};
@@ -290,7 +290,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

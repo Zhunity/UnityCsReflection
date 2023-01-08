@@ -260,7 +260,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public static System.UInt32 GetGlobalKeywordIndex(System.String  @keyword)
+        public static System.UInt32 GetGlobalKeywordIndex(System.String @keyword)
         {
 
             var ___genericsType = new Type[] {};
@@ -271,7 +271,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public static void CreateGlobalKeyword(System.String  @keyword)
+        public static void CreateGlobalKeyword(System.String @keyword)
         {
 
             var ___genericsType = new Type[] {};
@@ -282,7 +282,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public static UnityEngine.Rendering.GlobalKeyword Create(System.String  @name)
+        public static UnityEngine.Rendering.GlobalKeyword Create(System.String @name)
         {
 
             var ___genericsType = new Type[] {};
@@ -304,7 +304,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

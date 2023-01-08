@@ -62,7 +62,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
 	    {
 	    }
 
-        public virtual System.Boolean Equals(T  @x, T  @y)
+        public virtual System.Boolean Equals(T @x, T @y)
         {
 
             var ___genericsType = new Type[] {};
@@ -73,7 +73,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
         }
 
 
-        public virtual System.Int32 GetHashCode(T  @obj)
+        public virtual System.Int32 GetHashCode(T @obj)
         {
 
             var ___genericsType = new Type[] {};

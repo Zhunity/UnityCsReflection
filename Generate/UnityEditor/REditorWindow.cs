@@ -2867,15 +2867,25 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 	    {
 	    }
 
+        public static void Internal_MakeModal(RUnityEditor.RContainerWindow @win)
+        {
 
-        public virtual System.Object GetDataModeController_Internal()
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@win.Value};
+            var ___result = RInternal_MakeModal_ContainerWindow.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual RUnityEditor.RDataModeController GetDataModeController_Internal()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RGetDataModeController_Internal.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RUnityEditor.RDataModeController(___result);
         }
 
 
@@ -2901,14 +2911,14 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual System.Object GetViewDataDictionary()
+        public virtual RUnityEngine.RUIElements.RISerializableJsonDictionary GetViewDataDictionary()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RGetViewDataDictionary.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RUnityEngine.RUIElements.RISerializableJsonDictionary(___result);
         }
 
 
@@ -2967,7 +2977,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual void OnBackgroundViewResized(UnityEngine.Rect  @pos)
+        public virtual void OnBackgroundViewResized(UnityEngine.Rect @pos)
         {
 
             var ___genericsType = new Type[] {};
@@ -3000,7 +3010,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public static UnityEngine.GUIContent GetLocalizedTitleContentFromType(System.Type  @t)
+        public static UnityEngine.GUIContent GetLocalizedTitleContentFromType(System.Type @t)
         {
 
             var ___genericsType = new Type[] {};
@@ -3011,7 +3021,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public static UnityEditor.EditorWindowTitleAttribute GetEditorWindowTitleAttribute(System.Type  @t)
+        public static UnityEditor.EditorWindowTitleAttribute GetEditorWindowTitleAttribute(System.Type @t)
         {
 
             var ___genericsType = new Type[] {};
@@ -3022,7 +3032,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual void ShowNotification(UnityEngine.GUIContent  @notification)
+        public virtual void ShowNotification(UnityEngine.GUIContent @notification)
         {
 
             var ___genericsType = new Type[] {};
@@ -3033,7 +3043,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual void ShowNotification(UnityEngine.GUIContent  @notification, System.Double  @fadeoutWait)
+        public virtual void ShowNotification(UnityEngine.GUIContent @notification, System.Double @fadeoutWait)
         {
 
             var ___genericsType = new Type[] {};
@@ -3209,9 +3219,29 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
+        public virtual void ShowPopupWithMode(RType @mode, System.Boolean @giveFocus)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@mode.Value, @giveFocus};
+            var ___result = RShowPopupWithMode_ShowMode_Boolean.Invoke(___genericsType, ___parameters);
+
+            
+        }
 
 
-        public virtual void ShowAsDropDown(UnityEngine.Rect  @buttonRect, UnityEngine.Vector2  @windowSize)
+        public virtual void ShowWithMode(RType @mode)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@mode.Value};
+            var ___result = RShowWithMode_ShowMode.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void ShowAsDropDown(UnityEngine.Rect @buttonRect, UnityEngine.Vector2 @windowSize)
         {
 
             var ___genericsType = new Type[] {};
@@ -3222,8 +3252,48 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
+        public virtual void ShowAsDropDown(UnityEngine.Rect @buttonRect, UnityEngine.Vector2 @windowSize, RTypeArray<RType> @locationPriorityOrder)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@buttonRect, @windowSize, @locationPriorityOrder.Value};
+            var ___result = RShowAsDropDown_Rect_Vector2_PopupLocationArray.Invoke(___genericsType, ___parameters);
+
+            
+        }
 
 
+        public virtual void ShowAsDropDown(UnityEngine.Rect @buttonRect, UnityEngine.Vector2 @windowSize, RTypeArray<RType> @locationPriorityOrder, RType @mode)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@buttonRect, @windowSize, @locationPriorityOrder.Value, @mode.Value};
+            var ___result = RShowAsDropDown_Rect_Vector2_PopupLocationArray_ShowMode.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void ShowAsDropDown(UnityEngine.Rect @buttonRect, UnityEngine.Vector2 @windowSize, RTypeArray<RType> @locationPriorityOrder, RType @mode, System.Boolean @giveFocus)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@buttonRect, @windowSize, @locationPriorityOrder.Value, @mode.Value, @giveFocus};
+            var ___result = RShowAsDropDown_Rect_Vector2_PopupLocationArray_ShowMode_Boolean.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual UnityEngine.Rect ShowAsDropDownFitToScreen(UnityEngine.Rect @buttonRect, UnityEngine.Vector2 @windowSize, RTypeArray<RType> @locationPriorityOrder)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@buttonRect, @windowSize, @locationPriorityOrder.Value};
+            var ___result = RShowAsDropDownFitToScreen_Rect_Vector2_PopupLocationArray.Invoke(___genericsType, ___parameters);
+
+            return (UnityEngine.Rect)___result;
+        }
 
 
         public virtual void Show()
@@ -3237,7 +3307,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual void Show(System.Boolean  @immediateDisplay)
+        public virtual void Show(System.Boolean @immediateDisplay)
         {
 
             var ___genericsType = new Type[] {};
@@ -3270,7 +3340,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public static UnityEditor.EditorWindow GetWindowPrivate(System.Type  @t, System.Boolean  @utility, System.String  @title, System.Boolean  @focus)
+        public static UnityEditor.EditorWindow GetWindowPrivate(System.Type @t, System.Boolean @utility, System.String @title, System.Boolean @focus)
         {
 
             var ___genericsType = new Type[] {};
@@ -3281,7 +3351,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public static UnityEditor.EditorWindow GetWindow(System.Type  @t, System.Boolean  @utility, System.String  @title, System.Boolean  @focus)
+        public static UnityEditor.EditorWindow GetWindow(System.Type @t, System.Boolean @utility, System.String @title, System.Boolean @focus)
         {
 
             var ___genericsType = new Type[] {};
@@ -3292,7 +3362,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public static UnityEditor.EditorWindow GetWindow(System.Type  @t, System.Boolean  @utility, System.String  @title)
+        public static UnityEditor.EditorWindow GetWindow(System.Type @t, System.Boolean @utility, System.String @title)
         {
 
             var ___genericsType = new Type[] {};
@@ -3303,7 +3373,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public static UnityEditor.EditorWindow GetWindow(System.Type  @t, System.Boolean  @utility)
+        public static UnityEditor.EditorWindow GetWindow(System.Type @t, System.Boolean @utility)
         {
 
             var ___genericsType = new Type[] {};
@@ -3314,7 +3384,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public static UnityEditor.EditorWindow GetWindow(System.Type  @t)
+        public static UnityEditor.EditorWindow GetWindow(System.Type @t)
         {
 
             var ___genericsType = new Type[] {};
@@ -3325,7 +3395,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public static UnityEditor.EditorWindow GetWindowWithRect(System.Type  @t, UnityEngine.Rect  @rect, System.Boolean  @utility, System.String  @title)
+        public static UnityEditor.EditorWindow GetWindowWithRect(System.Type @t, UnityEngine.Rect @rect, System.Boolean @utility, System.String @title)
         {
 
             var ___genericsType = new Type[] {};
@@ -3336,7 +3406,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public static UnityEditor.EditorWindow GetWindowWithRect(System.Type  @t, UnityEngine.Rect  @rect, System.Boolean  @utility)
+        public static UnityEditor.EditorWindow GetWindowWithRect(System.Type @t, UnityEngine.Rect @rect, System.Boolean @utility)
         {
 
             var ___genericsType = new Type[] {};
@@ -3347,7 +3417,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public static UnityEditor.EditorWindow GetWindowWithRect(System.Type  @t, UnityEngine.Rect  @rect)
+        public static UnityEditor.EditorWindow GetWindowWithRect(System.Type @t, UnityEngine.Rect @rect)
         {
 
             var ___genericsType = new Type[] {};
@@ -3369,7 +3439,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public static T GetWindow<T>(System.Boolean  @utility) where T : UnityEditor.EditorWindow
+        public static T GetWindow<T>(System.Boolean @utility) where T : UnityEditor.EditorWindow
         {
 
             var ___genericsType = new Type[] {typeof(T)};
@@ -3380,7 +3450,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public static T GetWindow<T>(System.Boolean  @utility, System.String  @title) where T : UnityEditor.EditorWindow
+        public static T GetWindow<T>(System.Boolean @utility, System.String @title) where T : UnityEditor.EditorWindow
         {
 
             var ___genericsType = new Type[] {typeof(T)};
@@ -3391,7 +3461,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public static T GetWindow<T>(System.String  @title) where T : UnityEditor.EditorWindow
+        public static T GetWindow<T>(System.String @title) where T : UnityEditor.EditorWindow
         {
 
             var ___genericsType = new Type[] {typeof(T)};
@@ -3402,7 +3472,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public static T GetWindow<T>(System.String  @title, System.Boolean  @focus) where T : UnityEditor.EditorWindow
+        public static T GetWindow<T>(System.String @title, System.Boolean @focus) where T : UnityEditor.EditorWindow
         {
 
             var ___genericsType = new Type[] {typeof(T)};
@@ -3413,7 +3483,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public static T GetWindow<T>(System.Boolean  @utility, System.String  @title, System.Boolean  @focus) where T : UnityEditor.EditorWindow
+        public static T GetWindow<T>(System.Boolean @utility, System.String @title, System.Boolean @focus) where T : UnityEditor.EditorWindow
         {
 
             var ___genericsType = new Type[] {typeof(T)};
@@ -3424,7 +3494,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public static T GetWindow<T>(System.Type[]  @desiredDockNextTo) where T : UnityEditor.EditorWindow
+        public static T GetWindow<T>(System.Type[] @desiredDockNextTo) where T : UnityEditor.EditorWindow
         {
 
             var ___genericsType = new Type[] {typeof(T)};
@@ -3435,7 +3505,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public static T GetWindow<T>(System.String  @title, System.Type[]  @desiredDockNextTo) where T : UnityEditor.EditorWindow
+        public static T GetWindow<T>(System.String @title, System.Type[] @desiredDockNextTo) where T : UnityEditor.EditorWindow
         {
 
             var ___genericsType = new Type[] {typeof(T)};
@@ -3446,7 +3516,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public static T GetWindow<T>(System.String  @title, System.Boolean  @focus, System.Type[]  @desiredDockNextTo) where T : UnityEditor.EditorWindow
+        public static T GetWindow<T>(System.String @title, System.Boolean @focus, System.Type[] @desiredDockNextTo) where T : UnityEditor.EditorWindow
         {
 
             var ___genericsType = new Type[] {typeof(T)};
@@ -3457,7 +3527,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public static T CreateWindow<T>(System.Type[]  @desiredDockNextTo) where T : UnityEditor.EditorWindow
+        public static T CreateWindow<T>(System.Type[] @desiredDockNextTo) where T : UnityEditor.EditorWindow
         {
 
             var ___genericsType = new Type[] {typeof(T)};
@@ -3468,7 +3538,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public static T CreateWindow<T>(System.String  @title, System.Type[]  @desiredDockNextTo) where T : UnityEditor.EditorWindow
+        public static T CreateWindow<T>(System.String @title, System.Type[] @desiredDockNextTo) where T : UnityEditor.EditorWindow
         {
 
             var ___genericsType = new Type[] {typeof(T)};
@@ -3490,7 +3560,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public static void FocusWindowIfItsOpen(System.Type  @t)
+        public static void FocusWindowIfItsOpen(System.Type @t)
         {
 
             var ___genericsType = new Type[] {};
@@ -3523,7 +3593,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public static UnityEditor.EditorWindow GetWindowWithRectPrivate(System.Type  @t, UnityEngine.Rect  @rect, System.Boolean  @utility, System.String  @title)
+        public static UnityEditor.EditorWindow GetWindowWithRectPrivate(System.Type @t, UnityEngine.Rect @rect, System.Boolean @utility, System.String @title)
         {
 
             var ___genericsType = new Type[] {};
@@ -3534,7 +3604,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public static T GetWindowWithRect<T>(UnityEngine.Rect  @rect) where T : UnityEditor.EditorWindow
+        public static T GetWindowWithRect<T>(UnityEngine.Rect @rect) where T : UnityEditor.EditorWindow
         {
 
             var ___genericsType = new Type[] {typeof(T)};
@@ -3545,7 +3615,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public static T GetWindowWithRect<T>(UnityEngine.Rect  @rect, System.Boolean  @utility) where T : UnityEditor.EditorWindow
+        public static T GetWindowWithRect<T>(UnityEngine.Rect @rect, System.Boolean @utility) where T : UnityEditor.EditorWindow
         {
 
             var ___genericsType = new Type[] {typeof(T)};
@@ -3556,7 +3626,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public static T GetWindowWithRect<T>(UnityEngine.Rect  @rect, System.Boolean  @utility, System.String  @title) where T : UnityEditor.EditorWindow
+        public static T GetWindowWithRect<T>(UnityEngine.Rect @rect, System.Boolean @utility, System.String @title) where T : UnityEditor.EditorWindow
         {
 
             var ___genericsType = new Type[] {typeof(T)};
@@ -3567,7 +3637,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public static T GetWindowWithRect<T>(UnityEngine.Rect  @rect, System.Boolean  @utility, System.String  @title, System.Boolean  @focus) where T : UnityEditor.EditorWindow
+        public static T GetWindowWithRect<T>(UnityEngine.Rect @rect, System.Boolean @utility, System.String @title, System.Boolean @focus) where T : UnityEditor.EditorWindow
         {
 
             var ___genericsType = new Type[] {typeof(T)};
@@ -3644,7 +3714,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual void SetParentGameViewDimensions(UnityEngine.Rect  @rect, UnityEngine.Rect  @clippedRect, UnityEngine.Vector2  @targetSize)
+        public virtual void SetParentGameViewDimensions(UnityEngine.Rect @rect, UnityEngine.Rect @clippedRect, UnityEngine.Vector2 @targetSize)
         {
 
             var ___genericsType = new Type[] {};
@@ -3655,7 +3725,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual void SetPlayModeViewSize(UnityEngine.Vector2  @targetSize)
+        public virtual void SetPlayModeViewSize(UnityEngine.Vector2 @targetSize)
         {
 
             var ___genericsType = new Type[] {};
@@ -3666,7 +3736,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual void SetMainPlayModeViewSize(UnityEngine.Vector2  @targetSize)
+        public virtual void SetMainPlayModeViewSize(UnityEngine.Vector2 @targetSize)
         {
 
             var ___genericsType = new Type[] {};
@@ -3677,7 +3747,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual void SetDisplayViewSize(System.Int32  @displayId, UnityEngine.Vector2  @targetSize)
+        public virtual void SetDisplayViewSize(System.Int32 @displayId, UnityEngine.Vector2 @targetSize)
         {
 
             var ___genericsType = new Type[] {};
@@ -3688,7 +3758,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual UnityEngine.Vector2 GetDisplayViewSize(System.Int32  @displayId)
+        public virtual UnityEngine.Vector2 GetDisplayViewSize(System.Int32 @displayId)
         {
 
             var ___genericsType = new Type[] {};
@@ -3699,7 +3769,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual void SetPlayModeView(System.Boolean  @value)
+        public virtual void SetPlayModeView(System.Boolean @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -3710,7 +3780,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual System.Boolean SendEvent(UnityEngine.Event  @e)
+        public virtual System.Boolean SendEvent(UnityEngine.Event @e)
         {
 
             var ___genericsType = new Type[] {};
@@ -3754,7 +3824,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public static void CreateNewWindowForEditorWindow(UnityEditor.EditorWindow  @window, System.Boolean  @loadPosition, System.Boolean  @showImmediately, System.Boolean  @setFocus)
+        public static void CreateNewWindowForEditorWindow(UnityEditor.EditorWindow @window, System.Boolean @loadPosition, System.Boolean @showImmediately, System.Boolean @setFocus)
         {
 
             var ___genericsType = new Type[] {};
@@ -3831,7 +3901,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public static void ToggleAllOverlays(UnityEditor.ShortcutManagement.ShortcutArguments  @args)
+        public static void ToggleAllOverlays(UnityEditor.ShortcutManagement.ShortcutArguments @args)
         {
 
             var ___genericsType = new Type[] {};
@@ -3842,7 +3912,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public static void HideOverlay(UnityEditor.ShortcutManagement.ShortcutArguments  @args)
+        public static void HideOverlay(UnityEditor.ShortcutManagement.ShortcutArguments @args)
         {
 
             var ___genericsType = new Type[] {};
@@ -3853,7 +3923,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public static void ShowOverlayMenu(UnityEditor.ShortcutManagement.ShortcutArguments  @args)
+        public static void ShowOverlayMenu(UnityEditor.ShortcutManagement.ShortcutArguments @args)
         {
 
             var ___genericsType = new Type[] {};
@@ -3864,14 +3934,14 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual System.Boolean TryGetOverlay(System.String  @id, out UnityEditor.Overlays.Overlay  @match)
+        public virtual System.Boolean TryGetOverlay(System.String @id, out UnityEditor.Overlays.Overlay @match)
         {
-			match = default;
+			@match = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@id, @match};
             var ___result = RTryGetOverlay_String_Out_Overlay.Invoke(___genericsType, ___parameters);
-			match = (UnityEditor.Overlays.Overlay)___parameters[1];
+			@match = (UnityEditor.Overlays.Overlay)___parameters[1];
 
             return (System.Boolean)___result;
         }
@@ -3932,7 +4002,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @other)
+        public virtual System.Boolean Equals(System.Object @other)
         {
 
             var ___genericsType = new Type[] {};

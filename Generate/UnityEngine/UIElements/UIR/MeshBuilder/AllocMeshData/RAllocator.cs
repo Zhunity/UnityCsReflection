@@ -406,7 +406,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 	    {
 	    }
 
-        public virtual UnityEngine.UIElements.MeshWriteData Invoke(System.UInt32  @vertexCount, System.UInt32  @indexCount, ref RUnityEngine.RUIElements.RUIR.RMeshBuilder.RAllocMeshData  @allocatorData)
+        public virtual UnityEngine.UIElements.MeshWriteData Invoke(System.UInt32 @vertexCount, System.UInt32 @indexCount, ref RUnityEngine.RUIElements.RUIR.RMeshBuilder.RAllocMeshData @allocatorData)
         {
 
             var ___genericsType = new Type[] {};
@@ -418,7 +418,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
         }
 
 
-        public virtual System.IAsyncResult BeginInvoke(System.UInt32  @vertexCount, System.UInt32  @indexCount, ref RUnityEngine.RUIElements.RUIR.RMeshBuilder.RAllocMeshData  @allocatorData, System.AsyncCallback  @callback, System.Object  @object)
+        public virtual System.IAsyncResult BeginInvoke(System.UInt32 @vertexCount, System.UInt32 @indexCount, ref RUnityEngine.RUIElements.RUIR.RMeshBuilder.RAllocMeshData @allocatorData, System.AsyncCallback @callback, System.Object @object)
         {
 
             var ___genericsType = new Type[] {};
@@ -430,7 +430,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
         }
 
 
-        public virtual UnityEngine.UIElements.MeshWriteData EndInvoke(ref RUnityEngine.RUIElements.RUIR.RMeshBuilder.RAllocMeshData  @allocatorData, System.IAsyncResult  @result)
+        public virtual UnityEngine.UIElements.MeshWriteData EndInvoke(ref RUnityEngine.RUIElements.RUIR.RMeshBuilder.RAllocMeshData @allocatorData, System.IAsyncResult @result)
         {
 
             var ___genericsType = new Type[] {};
@@ -442,7 +442,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
         }
 
 
-        public virtual void GetObjectData(System.Runtime.Serialization.SerializationInfo  @info, System.Runtime.Serialization.StreamingContext  @context)
+        public virtual void GetObjectData(System.Runtime.Serialization.SerializationInfo @info, System.Runtime.Serialization.StreamingContext @context)
         {
 
             var ___genericsType = new Type[] {};
@@ -453,7 +453,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
         }
 
 
-        public virtual System.Object DynamicInvokeImpl(System.Object[]  @args)
+        public virtual System.Object DynamicInvokeImpl(System.Object[] @args)
         {
 
             var ___genericsType = new Type[] {};
@@ -464,7 +464,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};
@@ -508,7 +508,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
         }
 
 
-        public virtual System.Delegate CombineImpl(System.Delegate  @follow)
+        public virtual System.Delegate CombineImpl(System.Delegate @follow)
         {
 
             var ___genericsType = new Type[] {};
@@ -519,7 +519,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
         }
 
 
-        public virtual System.Delegate RemoveImpl(System.Delegate  @value)
+        public virtual System.Delegate RemoveImpl(System.Delegate @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -541,7 +541,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
         }
 
 
-        public virtual System.Object DynamicInvoke(System.Object[]  @args)
+        public virtual System.Object DynamicInvoke(System.Object[] @args)
         {
 
             var ___genericsType = new Type[] {};

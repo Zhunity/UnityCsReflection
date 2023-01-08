@@ -402,7 +402,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 	    {
 	    }
 
-        public virtual TOutput Invoke(TInput  @input)
+        public virtual TOutput Invoke(TInput @input)
         {
 
             var ___genericsType = new Type[] {};
@@ -413,7 +413,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.IAsyncResult BeginInvoke(TInput  @input, System.AsyncCallback  @callback, System.Object  @object)
+        public virtual System.IAsyncResult BeginInvoke(TInput @input, System.AsyncCallback @callback, System.Object @object)
         {
 
             var ___genericsType = new Type[] {};
@@ -424,7 +424,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual TOutput EndInvoke(System.IAsyncResult  @result)
+        public virtual TOutput EndInvoke(System.IAsyncResult @result)
         {
 
             var ___genericsType = new Type[] {};
@@ -435,7 +435,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual void GetObjectData(System.Runtime.Serialization.SerializationInfo  @info, System.Runtime.Serialization.StreamingContext  @context)
+        public virtual void GetObjectData(System.Runtime.Serialization.SerializationInfo @info, System.Runtime.Serialization.StreamingContext @context)
         {
 
             var ___genericsType = new Type[] {};
@@ -446,7 +446,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Object DynamicInvokeImpl(System.Object[]  @args)
+        public virtual System.Object DynamicInvokeImpl(System.Object[] @args)
         {
 
             var ___genericsType = new Type[] {};
@@ -457,7 +457,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};
@@ -501,7 +501,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Delegate CombineImpl(System.Delegate  @follow)
+        public virtual System.Delegate CombineImpl(System.Delegate @follow)
         {
 
             var ___genericsType = new Type[] {};
@@ -512,7 +512,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Delegate RemoveImpl(System.Delegate  @value)
+        public virtual System.Delegate RemoveImpl(System.Delegate @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -534,7 +534,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Object DynamicInvoke(System.Object[]  @args)
+        public virtual System.Object DynamicInvoke(System.Object[] @args)
         {
 
             var ___genericsType = new Type[] {};

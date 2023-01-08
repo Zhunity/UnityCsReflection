@@ -775,7 +775,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
         }
 
 
-        public virtual UnityEngine.Vector2 GetCursorPositionFromStringIndexUsingCharacterHeight(System.Int32  @index, System.Boolean  @inverseYAxis)
+        public virtual UnityEngine.Vector2 GetCursorPositionFromStringIndexUsingCharacterHeight(System.Int32 @index, System.Boolean @inverseYAxis)
         {
 
             var ___genericsType = new Type[] {};
@@ -786,7 +786,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
         }
 
 
-        public virtual UnityEngine.Vector2 GetCursorPositionFromStringIndexUsingLineHeight(System.Int32  @index, System.Boolean  @useXAdvance, System.Boolean  @inverseYAxis)
+        public virtual UnityEngine.Vector2 GetCursorPositionFromStringIndexUsingLineHeight(System.Int32 @index, System.Boolean @useXAdvance, System.Boolean @inverseYAxis)
         {
 
             var ___genericsType = new Type[] {};
@@ -797,7 +797,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
         }
 
 
-        public virtual System.Int32 GetCursorIndexFromPosition(UnityEngine.Vector2  @position, System.Boolean  @inverseYAxis)
+        public virtual System.Int32 GetCursorIndexFromPosition(UnityEngine.Vector2 @position, System.Boolean @inverseYAxis)
         {
 
             var ___genericsType = new Type[] {};
@@ -808,7 +808,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
         }
 
 
-        public virtual System.Int32 LineDownCharacterPosition(System.Int32  @originalPos)
+        public virtual System.Int32 LineDownCharacterPosition(System.Int32 @originalPos)
         {
 
             var ___genericsType = new Type[] {};
@@ -819,7 +819,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
         }
 
 
-        public virtual System.Int32 LineUpCharacterPosition(System.Int32  @originalPos)
+        public virtual System.Int32 LineUpCharacterPosition(System.Int32 @originalPos)
         {
 
             var ___genericsType = new Type[] {};
@@ -830,7 +830,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
         }
 
 
-        public virtual System.Int32 FindWordIndex(System.Int32  @cursorIndex)
+        public virtual System.Int32 FindWordIndex(System.Int32 @cursorIndex)
         {
 
             var ___genericsType = new Type[] {};
@@ -841,7 +841,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
         }
 
 
-        public virtual System.Int32 FindNearestLine(UnityEngine.Vector2  @position)
+        public virtual System.Int32 FindNearestLine(UnityEngine.Vector2 @position)
         {
 
             var ___genericsType = new Type[] {};
@@ -852,7 +852,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
         }
 
 
-        public virtual System.Int32 FindNearestCharacterOnLine(UnityEngine.Vector2  @position, System.Int32  @line, System.Boolean  @visibleOnly)
+        public virtual System.Int32 FindNearestCharacterOnLine(UnityEngine.Vector2 @position, System.Int32 @line, System.Boolean @visibleOnly)
         {
 
             var ___genericsType = new Type[] {};
@@ -863,7 +863,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
         }
 
 
-        public virtual System.Int32 FindIntersectingLink(UnityEngine.Vector3  @position, System.Boolean  @inverseYAxis)
+        public virtual System.Int32 FindIntersectingLink(UnityEngine.Vector3 @position, System.Boolean @inverseYAxis)
         {
 
             var ___genericsType = new Type[] {};
@@ -874,7 +874,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
         }
 
 
-        public static System.Boolean PointIntersectRectangle(UnityEngine.Vector3  @m, UnityEngine.Vector3  @a, UnityEngine.Vector3  @b, UnityEngine.Vector3  @c, UnityEngine.Vector3  @d)
+        public static System.Boolean PointIntersectRectangle(UnityEngine.Vector3 @m, UnityEngine.Vector3 @a, UnityEngine.Vector3 @b, UnityEngine.Vector3 @c, UnityEngine.Vector3 @d)
         {
 
             var ___genericsType = new Type[] {};
@@ -885,7 +885,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
         }
 
 
-        public static System.Single DistanceToLine(UnityEngine.Vector3  @a, UnityEngine.Vector3  @b, UnityEngine.Vector3  @point)
+        public static System.Single DistanceToLine(UnityEngine.Vector3 @a, UnityEngine.Vector3 @b, UnityEngine.Vector3 @point)
         {
 
             var ___genericsType = new Type[] {};
@@ -896,7 +896,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
         }
 
 
-        public virtual System.Int32 GetLineNumber(System.Int32  @index)
+        public virtual System.Int32 GetLineNumber(System.Int32 @index)
         {
 
             var ___genericsType = new Type[] {};
@@ -907,7 +907,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
         }
 
 
-        public virtual System.Single GetLineHeight(System.Int32  @lineNumber)
+        public virtual System.Single GetLineHeight(System.Int32 @lineNumber)
         {
 
             var ___genericsType = new Type[] {};
@@ -918,7 +918,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
         }
 
 
-        public virtual System.Single GetLineHeightFromCharacterIndex(System.Int32  @index)
+        public virtual System.Single GetLineHeightFromCharacterIndex(System.Int32 @index)
         {
 
             var ___genericsType = new Type[] {};
@@ -929,7 +929,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
         }
 
 
-        public virtual System.Single GetCharacterHeightFromIndex(System.Int32  @index)
+        public virtual System.Single GetCharacterHeightFromIndex(System.Int32 @index)
         {
 
             var ___genericsType = new Type[] {};
@@ -951,7 +951,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
         }
 
 
-        public virtual System.String Substring(System.Int32  @startIndex, System.Int32  @length)
+        public virtual System.String Substring(System.Int32 @startIndex, System.Int32 @length)
         {
 
             var ___genericsType = new Type[] {};
@@ -962,7 +962,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
         }
 
 
-        public virtual System.Int32 IndexOf(System.Char  @value, System.Int32  @startIndex)
+        public virtual System.Int32 IndexOf(System.Char @value, System.Int32 @startIndex)
         {
 
             var ___genericsType = new Type[] {};
@@ -973,7 +973,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
         }
 
 
-        public virtual System.Int32 LastIndexOf(System.Char  @value, System.Int32  @startIndex)
+        public virtual System.Int32 LastIndexOf(System.Char @value, System.Int32 @startIndex)
         {
 
             var ___genericsType = new Type[] {};
@@ -984,7 +984,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
         }
 
 
-        public virtual System.Single ComputeTextWidth(RUnityEngine.RTextCore.RText.RTextGenerationSettings  @tgs)
+        public virtual System.Single ComputeTextWidth(RUnityEngine.RTextCore.RText.RTextGenerationSettings @tgs)
         {
 
             var ___genericsType = new Type[] {};
@@ -995,7 +995,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
         }
 
 
-        public virtual System.Single ComputeTextHeight(RUnityEngine.RTextCore.RText.RTextGenerationSettings  @tgs)
+        public virtual System.Single ComputeTextHeight(RUnityEngine.RTextCore.RText.RTextGenerationSettings @tgs)
         {
 
             var ___genericsType = new Type[] {};
@@ -1006,7 +1006,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
         }
 
 
-        public virtual void UpdatePreferredValues(RUnityEngine.RTextCore.RText.RTextGenerationSettings  @tgs)
+        public virtual void UpdatePreferredValues(RUnityEngine.RTextCore.RText.RTextGenerationSettings @tgs)
         {
 
             var ___genericsType = new Type[] {};
@@ -1017,29 +1017,29 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
         }
 
 
-        public virtual System.Object Update(System.String  @newText)
+        public virtual RUnityEngine.RTextCore.RText.RTextInfo Update(System.String @newText)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@newText};
             var ___result = RUpdate_String.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RUnityEngine.RTextCore.RText.RTextInfo(___result);
         }
 
 
-        public virtual System.Object Update(RUnityEngine.RTextCore.RText.RTextGenerationSettings  @tgs)
+        public virtual RUnityEngine.RTextCore.RText.RTextInfo Update(RUnityEngine.RTextCore.RText.RTextGenerationSettings @tgs)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@tgs.Value};
             var ___result = RUpdate_TextGenerationSettings.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RUnityEngine.RTextCore.RText.RTextInfo(___result);
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

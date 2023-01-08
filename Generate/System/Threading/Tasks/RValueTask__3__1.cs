@@ -447,7 +447,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};
@@ -458,7 +458,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
         }
 
 
-        public virtual System.Boolean Equals(System.Threading.Tasks.ValueTask<TResult>  @other)
+        public virtual System.Boolean Equals(System.Threading.Tasks.ValueTask<TResult> @other)
         {
 
             var ___genericsType = new Type[] {};
@@ -469,7 +469,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
         }
 
 
-        public static System.Boolean op_Equality(System.Threading.Tasks.ValueTask<TResult>  @left, System.Threading.Tasks.ValueTask<TResult>  @right)
+        public static System.Boolean op_Equality(System.Threading.Tasks.ValueTask<TResult> @left, System.Threading.Tasks.ValueTask<TResult> @right)
         {
 
             var ___genericsType = new Type[] {};
@@ -480,7 +480,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
         }
 
 
-        public static System.Boolean op_Inequality(System.Threading.Tasks.ValueTask<TResult>  @left, System.Threading.Tasks.ValueTask<TResult>  @right)
+        public static System.Boolean op_Inequality(System.Threading.Tasks.ValueTask<TResult> @left, System.Threading.Tasks.ValueTask<TResult> @right)
         {
 
             var ___genericsType = new Type[] {};
@@ -513,7 +513,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
         }
 
 
-        public virtual System.Threading.Tasks.Task<TResult> GetTaskForValueTaskSource(System.Threading.Tasks.Sources.IValueTaskSource<TResult>  @t)
+        public virtual System.Threading.Tasks.Task<TResult> GetTaskForValueTaskSource(System.Threading.Tasks.Sources.IValueTaskSource<TResult> @t)
         {
 
             var ___genericsType = new Type[] {};
@@ -535,7 +535,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
         }
 
 
-        public virtual System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable<TResult> ConfigureAwait(System.Boolean  @continueOnCapturedContext)
+        public virtual System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable<TResult> ConfigureAwait(System.Boolean @continueOnCapturedContext)
         {
 
             var ___genericsType = new Type[] {};

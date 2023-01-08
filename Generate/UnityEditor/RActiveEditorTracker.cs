@@ -1048,7 +1048,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 	    {
 	    }
 
-        public static void Internal_Create(UnityEditor.ActiveEditorTracker  @self)
+        public static void Internal_Create(UnityEditor.ActiveEditorTracker @self)
         {
 
             var ___genericsType = new Type[] {};
@@ -1059,7 +1059,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @o)
+        public virtual System.Boolean Equals(System.Object @o)
         {
 
             var ___genericsType = new Type[] {};
@@ -1081,7 +1081,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public static void Internal_Dispose(UnityEditor.ActiveEditorTracker  @self)
+        public static void Internal_Dispose(UnityEditor.ActiveEditorTracker @self)
         {
 
             var ___genericsType = new Type[] {};
@@ -1103,7 +1103,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public static void Internal_Destroy(UnityEditor.ActiveEditorTracker  @self)
+        public static void Internal_Destroy(UnityEditor.ActiveEditorTracker @self)
         {
 
             var ___genericsType = new Type[] {};
@@ -1125,7 +1125,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public static System.Array Internal_GetActiveEditors(UnityEditor.ActiveEditorTracker  @self)
+        public static System.Array Internal_GetActiveEditors(UnityEditor.ActiveEditorTracker @self)
         {
 
             var ___genericsType = new Type[] {};
@@ -1136,7 +1136,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public static void Internal_GetActiveEditorsNonAlloc(UnityEditor.ActiveEditorTracker  @self, UnityEditor.Editor[]  @editors)
+        public static void Internal_GetActiveEditorsNonAlloc(UnityEditor.ActiveEditorTracker @self, UnityEditor.Editor[] @editors)
         {
 
             var ___genericsType = new Type[] {};
@@ -1147,7 +1147,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual void GetObjectsLockedByThisTracker(System.Collections.Generic.List<UnityEngine.Object>  @lockedObjects)
+        public virtual void GetObjectsLockedByThisTracker(System.Collections.Generic.List<UnityEngine.Object> @lockedObjects)
         {
 
             var ___genericsType = new Type[] {};
@@ -1158,7 +1158,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public static void Internal_GetObjectsLockedByThisTrackerInternal(UnityEditor.ActiveEditorTracker  @self, System.Object  @lockedObjects)
+        public static void Internal_GetObjectsLockedByThisTrackerInternal(UnityEditor.ActiveEditorTracker @self, System.Object @lockedObjects)
         {
 
             var ___genericsType = new Type[] {};
@@ -1169,7 +1169,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual void GetObjectsLockedByThisTrackerInternal(System.Object  @lockedObjects)
+        public virtual void GetObjectsLockedByThisTrackerInternal(System.Object @lockedObjects)
         {
 
             var ___genericsType = new Type[] {};
@@ -1180,7 +1180,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual void SetObjectsLockedByThisTracker(System.Collections.Generic.List<UnityEngine.Object>  @toBeLocked)
+        public virtual void SetObjectsLockedByThisTracker(System.Collections.Generic.List<UnityEngine.Object> @toBeLocked)
         {
 
             var ___genericsType = new Type[] {};
@@ -1191,7 +1191,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public static void Internal_SetObjectsLockedByThisTrackerInternal(UnityEditor.ActiveEditorTracker  @self, System.Object  @toBeLocked)
+        public static void Internal_SetObjectsLockedByThisTrackerInternal(UnityEditor.ActiveEditorTracker @self, System.Object @toBeLocked)
         {
 
             var ___genericsType = new Type[] {};
@@ -1202,7 +1202,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual void SetObjectsLockedByThisTrackerInternal(System.Object  @toBeLocked)
+        public virtual void SetObjectsLockedByThisTrackerInternal(System.Object @toBeLocked)
         {
 
             var ___genericsType = new Type[] {};
@@ -1213,7 +1213,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public static System.Int32 Internal_GetVisible(UnityEditor.ActiveEditorTracker  @self, System.Int32  @index)
+        public static System.Int32 Internal_GetVisible(UnityEditor.ActiveEditorTracker @self, System.Int32 @index)
         {
 
             var ___genericsType = new Type[] {};
@@ -1224,7 +1224,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual System.Int32 GetVisible(System.Int32  @index)
+        public virtual System.Int32 GetVisible(System.Int32 @index)
         {
 
             var ___genericsType = new Type[] {};
@@ -1235,7 +1235,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public static void Internal_SetVisible(UnityEditor.ActiveEditorTracker  @self, System.Int32  @index, System.Int32  @visible)
+        public static void Internal_SetVisible(UnityEditor.ActiveEditorTracker @self, System.Int32 @index, System.Int32 @visible)
         {
 
             var ___genericsType = new Type[] {};
@@ -1246,7 +1246,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual void SetVisible(System.Int32  @index, System.Int32  @visible)
+        public virtual void SetVisible(System.Int32 @index, System.Int32 @visible)
         {
 
             var ___genericsType = new Type[] {};
@@ -1257,7 +1257,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public static System.Boolean Internal_GetIsDirty(UnityEditor.ActiveEditorTracker  @self)
+        public static System.Boolean Internal_GetIsDirty(UnityEditor.ActiveEditorTracker @self)
         {
 
             var ___genericsType = new Type[] {};
@@ -1268,7 +1268,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public static void Internal_ClearDirty(UnityEditor.ActiveEditorTracker  @self)
+        public static void Internal_ClearDirty(UnityEditor.ActiveEditorTracker @self)
         {
 
             var ___genericsType = new Type[] {};
@@ -1290,7 +1290,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public static System.Boolean Internal_GetIsLocked(UnityEditor.ActiveEditorTracker  @self)
+        public static System.Boolean Internal_GetIsLocked(UnityEditor.ActiveEditorTracker @self)
         {
 
             var ___genericsType = new Type[] {};
@@ -1301,7 +1301,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public static void Internal_SetIsLocked(UnityEditor.ActiveEditorTracker  @self, System.Boolean  @value)
+        public static void Internal_SetIsLocked(UnityEditor.ActiveEditorTracker @self, System.Boolean @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -1312,7 +1312,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public static System.Boolean Internal_HasUnsavedChanges(UnityEditor.ActiveEditorTracker  @activeEditorTracker)
+        public static System.Boolean Internal_HasUnsavedChanges(UnityEditor.ActiveEditorTracker @activeEditorTracker)
         {
 
             var ___genericsType = new Type[] {};
@@ -1323,7 +1323,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public static void Internal_UnsavedChangesStateChanged(UnityEditor.ActiveEditorTracker  @self, System.Int32  @editorInstance, System.Boolean  @value)
+        public static void Internal_UnsavedChangesStateChanged(UnityEditor.ActiveEditorTracker @self, System.Int32 @editorInstance, System.Boolean @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -1334,7 +1334,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual void UnsavedChangesStateChanged(UnityEditor.Editor  @editor, System.Boolean  @value)
+        public virtual void UnsavedChangesStateChanged(UnityEditor.Editor @editor, System.Boolean @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -1356,7 +1356,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public static void Internal_SetDelayFlushDirtyRebuild(System.Boolean  @value)
+        public static void Internal_SetDelayFlushDirtyRebuild(System.Boolean @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -1367,7 +1367,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public static UnityEditor.InspectorMode Internal_GetInspectorMode(UnityEditor.ActiveEditorTracker  @self)
+        public static UnityEditor.InspectorMode Internal_GetInspectorMode(UnityEditor.ActiveEditorTracker @self)
         {
 
             var ___genericsType = new Type[] {};
@@ -1378,7 +1378,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public static void Internal_SetInspectorMode(UnityEditor.ActiveEditorTracker  @self, UnityEditor.InspectorMode  @value)
+        public static void Internal_SetInspectorMode(UnityEditor.ActiveEditorTracker @self, UnityEditor.InspectorMode @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -1389,7 +1389,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public static System.Boolean Internal_GetHasComponentsWhichCannotBeMultiEdited(UnityEditor.ActiveEditorTracker  @self)
+        public static System.Boolean Internal_GetHasComponentsWhichCannotBeMultiEdited(UnityEditor.ActiveEditorTracker @self)
         {
 
             var ___genericsType = new Type[] {};
@@ -1400,7 +1400,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public static void Internal_RebuildIfNecessary(UnityEditor.ActiveEditorTracker  @self)
+        public static void Internal_RebuildIfNecessary(UnityEditor.ActiveEditorTracker @self)
         {
 
             var ___genericsType = new Type[] {};
@@ -1444,7 +1444,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public static void Internal_ForceRebuild(UnityEditor.ActiveEditorTracker  @self)
+        public static void Internal_ForceRebuild(UnityEditor.ActiveEditorTracker @self)
         {
 
             var ___genericsType = new Type[] {};
@@ -1466,7 +1466,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public static void Internal_VerifyModifiedMonoBehaviours(UnityEditor.ActiveEditorTracker  @self)
+        public static void Internal_VerifyModifiedMonoBehaviours(UnityEditor.ActiveEditorTracker @self)
         {
 
             var ___genericsType = new Type[] {};
@@ -1488,7 +1488,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public static UnityEditor.DataMode Internal_GetDataMode(UnityEditor.ActiveEditorTracker  @self)
+        public static UnityEditor.DataMode Internal_GetDataMode(UnityEditor.ActiveEditorTracker @self)
         {
 
             var ___genericsType = new Type[] {};
@@ -1499,7 +1499,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public static void Internal_SetDataMode(UnityEditor.ActiveEditorTracker  @self, UnityEditor.DataMode  @mode)
+        public static void Internal_SetDataMode(UnityEditor.ActiveEditorTracker @self, UnityEditor.DataMode @mode)
         {
 
             var ___genericsType = new Type[] {};
@@ -1510,7 +1510,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public static UnityEditor.Editor MakeCustomEditor(UnityEngine.Object  @obj)
+        public static UnityEditor.Editor MakeCustomEditor(UnityEngine.Object @obj)
         {
 
             var ___genericsType = new Type[] {};
@@ -1521,7 +1521,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public static System.Boolean HasCustomEditor(UnityEngine.Object  @obj)
+        public static System.Boolean HasCustomEditor(UnityEngine.Object @obj)
         {
 
             var ___genericsType = new Type[] {};
@@ -1532,7 +1532,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public static void SetupSharedTracker(UnityEditor.ActiveEditorTracker  @sharedTracker)
+        public static void SetupSharedTracker(UnityEditor.ActiveEditorTracker @sharedTracker)
         {
 
             var ___genericsType = new Type[] {};

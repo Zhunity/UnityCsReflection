@@ -62,7 +62,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 	    {
 	    }
 
-        public virtual UnityEngine.UIElements.FocusChangeDirection GetFocusChangeDirection(UnityEngine.UIElements.Focusable  @currentFocusable, UnityEngine.UIElements.EventBase  @e)
+        public virtual UnityEngine.UIElements.FocusChangeDirection GetFocusChangeDirection(UnityEngine.UIElements.Focusable @currentFocusable, UnityEngine.UIElements.EventBase @e)
         {
 
             var ___genericsType = new Type[] {};
@@ -73,7 +73,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual UnityEngine.UIElements.Focusable GetNextFocusable(UnityEngine.UIElements.Focusable  @currentFocusable, UnityEngine.UIElements.FocusChangeDirection  @direction)
+        public virtual UnityEngine.UIElements.Focusable GetNextFocusable(UnityEngine.UIElements.Focusable @currentFocusable, UnityEngine.UIElements.FocusChangeDirection @direction)
         {
 
             var ___genericsType = new Type[] {};

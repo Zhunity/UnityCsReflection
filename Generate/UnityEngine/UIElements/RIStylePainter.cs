@@ -164,7 +164,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 	    {
 	    }
 
-        public virtual UnityEngine.UIElements.MeshWriteData DrawMesh(System.Int32  @vertexCount, System.Int32  @indexCount, UnityEngine.Texture  @texture, UnityEngine.Material  @material, RType  @flags)
+        public virtual UnityEngine.UIElements.MeshWriteData DrawMesh(System.Int32 @vertexCount, System.Int32 @indexCount, UnityEngine.Texture @texture, UnityEngine.Material @material, RType @flags)
         {
 
             var ___genericsType = new Type[] {};
@@ -175,7 +175,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void DrawText(UnityEngine.UIElements.TextElement  @te)
+        public virtual void DrawText(UnityEngine.UIElements.TextElement @te)
         {
 
             var ___genericsType = new Type[] {};
@@ -186,7 +186,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void DrawText(System.String  @text, UnityEngine.Vector2  @pos, System.Single  @fontSize, UnityEngine.Color  @color, UnityEngine.TextCore.Text.FontAsset  @font)
+        public virtual void DrawText(System.String @text, UnityEngine.Vector2 @pos, System.Single @fontSize, UnityEngine.Color @color, UnityEngine.TextCore.Text.FontAsset @font)
         {
 
             var ___genericsType = new Type[] {};
@@ -197,7 +197,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void DrawRectangle(RUnityEngine.RUIElements.RMeshGenerationContextUtils.RRectangleParams  @rectParams)
+        public virtual void DrawRectangle(RUnityEngine.RUIElements.RMeshGenerationContextUtils.RRectangleParams @rectParams)
         {
 
             var ___genericsType = new Type[] {};
@@ -208,7 +208,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void DrawBorder(RUnityEngine.RUIElements.RMeshGenerationContextUtils.RBorderParams  @borderParams)
+        public virtual void DrawBorder(RUnityEngine.RUIElements.RMeshGenerationContextUtils.RBorderParams @borderParams)
         {
 
             var ___genericsType = new Type[] {};
@@ -219,7 +219,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void DrawImmediate(System.Action  @callback, System.Boolean  @cullingEnabled)
+        public virtual void DrawImmediate(System.Action @callback, System.Boolean @cullingEnabled)
         {
 
             var ___genericsType = new Type[] {};
@@ -230,7 +230,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void DrawVectorImage(UnityEngine.UIElements.VectorImage  @vectorImage, UnityEngine.Vector2  @pos, UnityEngine.UIElements.Angle  @rotationAngle, UnityEngine.Vector2  @scale)
+        public virtual void DrawVectorImage(UnityEngine.UIElements.VectorImage @vectorImage, UnityEngine.Vector2 @pos, UnityEngine.UIElements.Angle @rotationAngle, UnityEngine.Vector2 @scale)
         {
 
             var ___genericsType = new Type[] {};

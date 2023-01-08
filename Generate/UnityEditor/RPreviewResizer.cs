@@ -589,7 +589,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 	    {
 	    }
 
-        public virtual void Init(System.String  @prefName)
+        public virtual void Init(System.String @prefName)
         {
 
             var ___genericsType = new Type[] {};
@@ -600,7 +600,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual System.Single ResizeHandle(UnityEngine.Rect  @windowPosition, System.Single  @minSize, System.Single  @minRemainingSize, System.Single  @resizerHeight)
+        public virtual System.Single ResizeHandle(UnityEngine.Rect @windowPosition, System.Single @minSize, System.Single @minRemainingSize, System.Single @resizerHeight)
         {
 
             var ___genericsType = new Type[] {};
@@ -611,7 +611,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual System.Single ResizeHandle(UnityEngine.Rect  @windowPosition, System.Single  @minSize, System.Single  @minRemainingSize, System.Single  @resizerHeight, UnityEngine.Rect  @dragRect)
+        public virtual System.Single ResizeHandle(UnityEngine.Rect @windowPosition, System.Single @minSize, System.Single @minRemainingSize, System.Single @resizerHeight, UnityEngine.Rect @dragRect)
         {
 
             var ___genericsType = new Type[] {};
@@ -622,7 +622,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual System.Single SetExpanded(UnityEngine.Rect  @windowPosition, System.Single  @minSize, System.Single  @minRemainingSize, System.Single  @resizerHeight, UnityEngine.Rect  @dragRect, System.Boolean  @isExpanded)
+        public virtual System.Single SetExpanded(UnityEngine.Rect @windowPosition, System.Single @minSize, System.Single @minRemainingSize, System.Single @resizerHeight, UnityEngine.Rect @dragRect, System.Boolean @isExpanded)
         {
 
             var ___genericsType = new Type[] {};
@@ -666,7 +666,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual void SetExpanded(System.Boolean  @expanded)
+        public virtual void SetExpanded(System.Boolean @expanded)
         {
 
             var ___genericsType = new Type[] {};
@@ -688,31 +688,31 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public static System.Single PixelPreciseCollapsibleSlider(System.Int32  @id, UnityEngine.Rect  @position, System.Single  @value, System.Single  @min, System.Single  @max, ref System.Boolean  @expanded)
+        public static System.Single PixelPreciseCollapsibleSlider(System.Int32 @id, UnityEngine.Rect @position, System.Single @value, System.Single @min, System.Single @max, ref System.Boolean @expanded)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@id, @position, @value, @min, @max, @expanded};
             var ___result = RPixelPreciseCollapsibleSlider_Int32_Rect_Single_Single_Single_Ref_Boolean.Invoke(___genericsType, ___parameters);
-			expanded = (System.Boolean)___parameters[5];
+			@expanded = (System.Boolean)___parameters[5];
 
             return (System.Single)___result;
         }
 
 
-        public static System.Single PixelPreciseCollapsibleSlider(System.Int32  @id, UnityEngine.Rect  @position, System.Single  @value, System.Single  @min, System.Single  @max, ref System.Boolean  @expanded, System.Boolean  @localFrame)
+        public static System.Single PixelPreciseCollapsibleSlider(System.Int32 @id, UnityEngine.Rect @position, System.Single @value, System.Single @min, System.Single @max, ref System.Boolean @expanded, System.Boolean @localFrame)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@id, @position, @value, @min, @max, @expanded, @localFrame};
             var ___result = RPixelPreciseCollapsibleSlider_Int32_Rect_Single_Single_Single_Ref_Boolean_Boolean.Invoke(___genericsType, ___parameters);
-			expanded = (System.Boolean)___parameters[5];
+			@expanded = (System.Boolean)___parameters[5];
 
             return (System.Single)___result;
         }
 
 
-        public virtual void SetContainer(UnityEngine.UIElements.IMGUIContainer  @container, System.Single  @minimumHeightCollapsed)
+        public virtual void SetContainer(UnityEngine.UIElements.IMGUIContainer @container, System.Single @minimumHeightCollapsed)
         {
 
             var ___genericsType = new Type[] {};
@@ -723,7 +723,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

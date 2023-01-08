@@ -900,7 +900,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void AddAmbientLight(UnityEngine.Color  @color)
+        public virtual void AddAmbientLight(UnityEngine.Color @color)
         {
 
             var ___genericsType = new Type[] {};
@@ -911,7 +911,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void AddDirectionalLight(UnityEngine.Vector3  @direction, UnityEngine.Color  @color, System.Single  @intensity)
+        public virtual void AddDirectionalLight(UnityEngine.Vector3 @direction, UnityEngine.Color @color, System.Single @intensity)
         {
 
             var ___genericsType = new Type[] {};
@@ -922,7 +922,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public static void AddDirectionalLightInternal(ref UnityEngine.Rendering.SphericalHarmonicsL2  @sh, UnityEngine.Vector3  @direction, UnityEngine.Color  @color)
+        public static void AddDirectionalLightInternal(ref UnityEngine.Rendering.SphericalHarmonicsL2 @sh, UnityEngine.Vector3 @direction, UnityEngine.Color @color)
         {
 
             var ___genericsType = new Type[] {};
@@ -934,7 +934,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void Evaluate(UnityEngine.Vector3[]  @directions, UnityEngine.Color[]  @results)
+        public virtual void Evaluate(UnityEngine.Vector3[] @directions, UnityEngine.Color[] @results)
         {
 
             var ___genericsType = new Type[] {};
@@ -945,7 +945,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public static void EvaluateInternal(ref UnityEngine.Rendering.SphericalHarmonicsL2  @sh, UnityEngine.Vector3[]  @directions, UnityEngine.Color[]  @results)
+        public static void EvaluateInternal(ref UnityEngine.Rendering.SphericalHarmonicsL2 @sh, UnityEngine.Vector3[] @directions, UnityEngine.Color[] @results)
         {
 
             var ___genericsType = new Type[] {};
@@ -968,7 +968,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @other)
+        public virtual System.Boolean Equals(System.Object @other)
         {
 
             var ___genericsType = new Type[] {};
@@ -979,7 +979,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual System.Boolean Equals(UnityEngine.Rendering.SphericalHarmonicsL2  @other)
+        public virtual System.Boolean Equals(UnityEngine.Rendering.SphericalHarmonicsL2 @other)
         {
 
             var ___genericsType = new Type[] {};
@@ -990,7 +990,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public static UnityEngine.Rendering.SphericalHarmonicsL2 op_Multiply(UnityEngine.Rendering.SphericalHarmonicsL2  @lhs, System.Single  @rhs)
+        public static UnityEngine.Rendering.SphericalHarmonicsL2 op_Multiply(UnityEngine.Rendering.SphericalHarmonicsL2 @lhs, System.Single @rhs)
         {
 
             var ___genericsType = new Type[] {};
@@ -1001,7 +1001,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public static UnityEngine.Rendering.SphericalHarmonicsL2 op_Multiply(System.Single  @lhs, UnityEngine.Rendering.SphericalHarmonicsL2  @rhs)
+        public static UnityEngine.Rendering.SphericalHarmonicsL2 op_Multiply(System.Single @lhs, UnityEngine.Rendering.SphericalHarmonicsL2 @rhs)
         {
 
             var ___genericsType = new Type[] {};
@@ -1012,7 +1012,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public static UnityEngine.Rendering.SphericalHarmonicsL2 op_Addition(UnityEngine.Rendering.SphericalHarmonicsL2  @lhs, UnityEngine.Rendering.SphericalHarmonicsL2  @rhs)
+        public static UnityEngine.Rendering.SphericalHarmonicsL2 op_Addition(UnityEngine.Rendering.SphericalHarmonicsL2 @lhs, UnityEngine.Rendering.SphericalHarmonicsL2 @rhs)
         {
 
             var ___genericsType = new Type[] {};
@@ -1023,7 +1023,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public static System.Boolean op_Equality(UnityEngine.Rendering.SphericalHarmonicsL2  @lhs, UnityEngine.Rendering.SphericalHarmonicsL2  @rhs)
+        public static System.Boolean op_Equality(UnityEngine.Rendering.SphericalHarmonicsL2 @lhs, UnityEngine.Rendering.SphericalHarmonicsL2 @rhs)
         {
 
             var ___genericsType = new Type[] {};
@@ -1034,7 +1034,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public static System.Boolean op_Inequality(UnityEngine.Rendering.SphericalHarmonicsL2  @lhs, UnityEngine.Rendering.SphericalHarmonicsL2  @rhs)
+        public static System.Boolean op_Inequality(UnityEngine.Rendering.SphericalHarmonicsL2 @lhs, UnityEngine.Rendering.SphericalHarmonicsL2 @rhs)
         {
 
             var ___genericsType = new Type[] {};
@@ -1045,7 +1045,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public static void SetZero_Injected(ref UnityEngine.Rendering.SphericalHarmonicsL2  @_unity_self)
+        public static void SetZero_Injected(ref UnityEngine.Rendering.SphericalHarmonicsL2 @_unity_self)
         {
 
             var ___genericsType = new Type[] {};
@@ -1057,7 +1057,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public static void AddAmbientLight_Injected(ref UnityEngine.Rendering.SphericalHarmonicsL2  @_unity_self, ref UnityEngine.Color  @color)
+        public static void AddAmbientLight_Injected(ref UnityEngine.Rendering.SphericalHarmonicsL2 @_unity_self, ref UnityEngine.Color @color)
         {
 
             var ___genericsType = new Type[] {};
@@ -1070,7 +1070,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public static void AddDirectionalLightInternal_Injected(ref UnityEngine.Rendering.SphericalHarmonicsL2  @sh, ref UnityEngine.Vector3  @direction, ref UnityEngine.Color  @color)
+        public static void AddDirectionalLightInternal_Injected(ref UnityEngine.Rendering.SphericalHarmonicsL2 @sh, ref UnityEngine.Vector3 @direction, ref UnityEngine.Color @color)
         {
 
             var ___genericsType = new Type[] {};

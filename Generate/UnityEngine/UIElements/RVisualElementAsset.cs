@@ -650,7 +650,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean HasAttribute(System.String  @attributeName)
+        public virtual System.Boolean HasAttribute(System.String @attributeName)
         {
 
             var ___genericsType = new Type[] {};
@@ -661,7 +661,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.String GetAttributeValue(System.String  @attributeName)
+        public virtual System.String GetAttributeValue(System.String @attributeName)
         {
 
             var ___genericsType = new Type[] {};
@@ -672,7 +672,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean TryGetAttributeValue(System.String  @propertyName, out System.String  @value)
+        public virtual System.Boolean TryGetAttributeValue(System.String @propertyName, out System.String @value)
         {
 			@value = default;
 
@@ -685,7 +685,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void SetAttribute(System.String  @name, System.String  @value)
+        public virtual void SetAttribute(System.String @name, System.String @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -696,7 +696,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void RemoveAttribute(System.String  @attributeName)
+        public virtual void RemoveAttribute(System.String @attributeName)
         {
 
             var ___genericsType = new Type[] {};
@@ -718,7 +718,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

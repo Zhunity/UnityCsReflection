@@ -351,7 +351,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
 	    {
 	    }
 
-        public virtual System.Boolean Check(System.Security.Policy.Evidence  @evidence)
+        public virtual System.Boolean Check(System.Security.Policy.Evidence @evidence)
         {
 
             var ___genericsType = new Type[] {};
@@ -373,7 +373,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @o)
+        public virtual System.Boolean Equals(System.Object @o)
         {
 
             var ___genericsType = new Type[] {};
@@ -395,7 +395,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
         }
 
 
-        public virtual void FromXml(System.Security.SecurityElement  @e)
+        public virtual void FromXml(System.Security.SecurityElement @e)
         {
 
             var ___genericsType = new Type[] {};
@@ -406,7 +406,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
         }
 
 
-        public virtual void FromXml(System.Security.SecurityElement  @e, System.Security.Policy.PolicyLevel  @level)
+        public virtual void FromXml(System.Security.SecurityElement @e, System.Security.Policy.PolicyLevel @level)
         {
 
             var ___genericsType = new Type[] {};
@@ -439,7 +439,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
         }
 
 
-        public virtual System.Security.SecurityElement ToXml(System.Security.Policy.PolicyLevel  @level)
+        public virtual System.Security.SecurityElement ToXml(System.Security.Policy.PolicyLevel @level)
         {
 
             var ___genericsType = new Type[] {};

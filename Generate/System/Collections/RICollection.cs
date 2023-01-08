@@ -96,7 +96,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections
 	    {
 	    }
 
-        public virtual void CopyTo(System.Array  @array, System.Int32  @index)
+        public virtual void CopyTo(System.Array @array, System.Int32 @index)
         {
 
             var ___genericsType = new Type[] {};

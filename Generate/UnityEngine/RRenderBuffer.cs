@@ -368,7 +368,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 	    {
 	    }
 
-        public virtual void SetLoadAction(UnityEngine.Rendering.RenderBufferLoadAction  @action)
+        public virtual void SetLoadAction(UnityEngine.Rendering.RenderBufferLoadAction @action)
         {
 
             var ___genericsType = new Type[] {};
@@ -379,7 +379,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SetStoreAction(UnityEngine.Rendering.RenderBufferStoreAction  @action)
+        public virtual void SetStoreAction(UnityEngine.Rendering.RenderBufferStoreAction @action)
         {
 
             var ___genericsType = new Type[] {};
@@ -423,7 +423,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static void SetLoadAction_Injected(ref UnityEngine.RenderBuffer  @_unity_self, UnityEngine.Rendering.RenderBufferLoadAction  @action)
+        public static void SetLoadAction_Injected(ref UnityEngine.RenderBuffer @_unity_self, UnityEngine.Rendering.RenderBufferLoadAction @action)
         {
 
             var ___genericsType = new Type[] {};
@@ -435,7 +435,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static void SetStoreAction_Injected(ref UnityEngine.RenderBuffer  @_unity_self, UnityEngine.Rendering.RenderBufferStoreAction  @action)
+        public static void SetStoreAction_Injected(ref UnityEngine.RenderBuffer @_unity_self, UnityEngine.Rendering.RenderBufferStoreAction @action)
         {
 
             var ___genericsType = new Type[] {};
@@ -447,7 +447,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.Rendering.RenderBufferLoadAction GetLoadAction_Injected(ref UnityEngine.RenderBuffer  @_unity_self)
+        public static UnityEngine.Rendering.RenderBufferLoadAction GetLoadAction_Injected(ref UnityEngine.RenderBuffer @_unity_self)
         {
 
             var ___genericsType = new Type[] {};
@@ -459,7 +459,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.Rendering.RenderBufferStoreAction GetStoreAction_Injected(ref UnityEngine.RenderBuffer  @_unity_self)
+        public static UnityEngine.Rendering.RenderBufferStoreAction GetStoreAction_Injected(ref UnityEngine.RenderBuffer @_unity_self)
         {
 
             var ___genericsType = new Type[] {};
@@ -471,7 +471,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static System.IntPtr GetNativeRenderBufferPtr_Injected(ref UnityEngine.RenderBuffer  @_unity_self)
+        public static System.IntPtr GetNativeRenderBufferPtr_Injected(ref UnityEngine.RenderBuffer @_unity_self)
         {
 
             var ___genericsType = new Type[] {};
@@ -483,7 +483,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

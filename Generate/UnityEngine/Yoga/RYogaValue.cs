@@ -317,18 +317,18 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
 	    {
 	    }
 
-        public static System.Object Point(System.Single  @value)
+        public static RUnityEngine.RYoga.RYogaValue Point(System.Single @value)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@value};
             var ___result = RPoint_Single.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RUnityEngine.RYoga.RYogaValue(___result);
         }
 
 
-        public virtual System.Boolean Equals(RUnityEngine.RYoga.RYogaValue  @other)
+        public virtual System.Boolean Equals(RUnityEngine.RYoga.RYogaValue @other)
         {
 
             var ___genericsType = new Type[] {};
@@ -339,7 +339,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};
@@ -361,58 +361,58 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
         }
 
 
-        public static System.Object Undefined()
+        public static RUnityEngine.RYoga.RYogaValue Undefined()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RUndefined.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RUnityEngine.RYoga.RYogaValue(___result);
         }
 
 
-        public static System.Object Auto()
+        public static RUnityEngine.RYoga.RYogaValue Auto()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RAuto.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RUnityEngine.RYoga.RYogaValue(___result);
         }
 
 
-        public static System.Object Percent(System.Single  @value)
+        public static RUnityEngine.RYoga.RYogaValue Percent(System.Single @value)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@value};
             var ___result = RPercent_Single.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RUnityEngine.RYoga.RYogaValue(___result);
         }
 
 
-        public static System.Object op_Implicit(System.Single  @pointValue)
+        public static RUnityEngine.RYoga.RYogaValue op_Implicit(System.Single @pointValue)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@pointValue};
             var ___result = Rop_Implicit_Single.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RUnityEngine.RYoga.RYogaValue(___result);
         }
 
 
-        public static System.Object MarshalValue(RUnityEngine.RYoga.RYogaValue  @value)
+        public static RUnityEngine.RYoga.RYogaValue MarshalValue(RUnityEngine.RYoga.RYogaValue @value)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@value.Value};
             var ___result = RMarshalValue_YogaValue.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RUnityEngine.RYoga.RYogaValue(___result);
         }
 
 

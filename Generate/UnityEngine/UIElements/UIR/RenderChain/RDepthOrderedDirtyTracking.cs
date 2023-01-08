@@ -285,7 +285,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 	    {
 	    }
 
-        public virtual void EnsureFits(System.Int32  @maxDepth)
+        public virtual void EnsureFits(System.Int32 @maxDepth)
         {
 
             var ___genericsType = new Type[] {};
@@ -296,7 +296,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
         }
 
 
-        public virtual void RegisterDirty(UnityEngine.UIElements.VisualElement  @ve, RType  @dirtyTypes, RType  @dirtyTypeClass)
+        public virtual void RegisterDirty(UnityEngine.UIElements.VisualElement @ve, RType @dirtyTypes, RType @dirtyTypeClass)
         {
 
             var ___genericsType = new Type[] {};
@@ -307,7 +307,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
         }
 
 
-        public virtual void ClearDirty(UnityEngine.UIElements.VisualElement  @ve, RType  @dirtyTypesInverse)
+        public virtual void ClearDirty(UnityEngine.UIElements.VisualElement @ve, RType @dirtyTypesInverse)
         {
 
             var ___genericsType = new Type[] {};
@@ -329,7 +329,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

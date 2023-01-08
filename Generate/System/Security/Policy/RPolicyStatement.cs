@@ -328,7 +328,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
         }
 
 
-        public virtual void FromXml(System.Security.SecurityElement  @et)
+        public virtual void FromXml(System.Security.SecurityElement @et)
         {
 
             var ___genericsType = new Type[] {};
@@ -339,7 +339,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
         }
 
 
-        public virtual void FromXml(System.Security.SecurityElement  @et, System.Security.Policy.PolicyLevel  @level)
+        public virtual void FromXml(System.Security.SecurityElement @et, System.Security.Policy.PolicyLevel @level)
         {
 
             var ___genericsType = new Type[] {};
@@ -361,7 +361,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
         }
 
 
-        public virtual System.Security.SecurityElement ToXml(System.Security.Policy.PolicyLevel  @level)
+        public virtual System.Security.SecurityElement ToXml(System.Security.Policy.PolicyLevel @level)
         {
 
             var ___genericsType = new Type[] {};
@@ -372,7 +372,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

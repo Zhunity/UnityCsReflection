@@ -402,9 +402,29 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 	    {
 	    }
 
+        public virtual void AddItem(UnityEngine.GUIContent @content, System.Boolean @on, RUnityEditor.RGenericMenu.RMenuFunction @func)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@content, @on, @func.Value};
+            var ___result = RAddItem_GUIContent_Boolean_MenuFunction.Invoke(___genericsType, ___parameters);
+
+            
+        }
 
 
-        public virtual void AddDisabledItem(UnityEngine.GUIContent  @content)
+        public virtual void AddItem(UnityEngine.GUIContent @content, System.Boolean @on, RUnityEditor.RGenericMenu.RMenuFunction2 @func, System.Object @userData)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@content, @on, @func.Value, @userData};
+            var ___result = RAddItem_GUIContent_Boolean_MenuFunction2_Object.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void AddDisabledItem(UnityEngine.GUIContent @content)
         {
 
             var ___genericsType = new Type[] {};
@@ -415,7 +435,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual void AddDisabledItem(UnityEngine.GUIContent  @content, System.Boolean  @on)
+        public virtual void AddDisabledItem(UnityEngine.GUIContent @content, System.Boolean @on)
         {
 
             var ___genericsType = new Type[] {};
@@ -426,7 +446,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual void AddSeparator(System.String  @path)
+        public virtual void AddSeparator(System.String @path)
         {
 
             var ___genericsType = new Type[] {};
@@ -459,7 +479,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual void DropDown(UnityEngine.Rect  @position)
+        public virtual void DropDown(UnityEngine.Rect @position)
         {
 
             var ___genericsType = new Type[] {};
@@ -470,7 +490,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual void DropDown(UnityEngine.Rect  @position, System.Boolean  @shouldDiscardMenuOnSecondClick)
+        public virtual void DropDown(UnityEngine.Rect @position, System.Boolean @shouldDiscardMenuOnSecondClick)
         {
 
             var ___genericsType = new Type[] {};
@@ -481,7 +501,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual void Popup(UnityEngine.Rect  @position, System.Int32  @selectedIndex)
+        public virtual void Popup(UnityEngine.Rect @position, System.Int32 @selectedIndex)
         {
 
             var ___genericsType = new Type[] {};
@@ -492,7 +512,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual void CatchMenu(System.Object  @userData, System.String[]  @options, System.Int32  @selected)
+        public virtual void CatchMenu(System.Object @userData, System.String[] @options, System.Int32 @selected)
         {
 
             var ___genericsType = new Type[] {};
@@ -503,7 +523,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual void ObjectContextDropDown(UnityEngine.Rect  @position, UnityEngine.Object[]  @context, System.Int32  @contextUserData)
+        public virtual void ObjectContextDropDown(UnityEngine.Rect @position, UnityEngine.Object[] @context, System.Int32 @contextUserData)
         {
 
             var ___genericsType = new Type[] {};
@@ -514,7 +534,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

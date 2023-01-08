@@ -549,7 +549,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
         }
 
 
-        public virtual void DrawItem(UnityEditor.IMGUI.Controls.AdvancedDropdownItem  @item, System.String  @name, UnityEngine.Texture2D  @icon, System.Boolean  @enabled, System.Boolean  @drawArrow, System.Boolean  @selected, System.Boolean  @hasSearch)
+        public virtual void DrawItem(UnityEditor.IMGUI.Controls.AdvancedDropdownItem @item, System.String @name, UnityEngine.Texture2D @icon, System.Boolean @enabled, System.Boolean @drawArrow, System.Boolean @selected, System.Boolean @hasSearch)
         {
 
             var ___genericsType = new Type[] {};
@@ -571,7 +571,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
         }
 
 
-        public virtual void DrawHeader(UnityEditor.IMGUI.Controls.AdvancedDropdownItem  @group, System.Action  @backButtonPressed, System.Boolean  @hasParent)
+        public virtual void DrawHeader(UnityEditor.IMGUI.Controls.AdvancedDropdownItem @group, System.Action @backButtonPressed, System.Boolean @hasParent)
         {
 
             var ___genericsType = new Type[] {};
@@ -582,7 +582,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
         }
 
 
-        public virtual void DrawSearchField(System.Boolean  @isSearchFieldDisabled, System.String  @searchString, System.Action<System.String>  @searchChanged)
+        public virtual void DrawSearchField(System.Boolean @isSearchFieldDisabled, System.String @searchString, System.Action<System.String> @searchChanged)
         {
 
             var ___genericsType = new Type[] {};
@@ -593,7 +593,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
         }
 
 
-        public virtual System.String DrawSearchFieldControl(System.String  @searchString)
+        public virtual System.String DrawSearchFieldControl(System.String @searchString)
         {
 
             var ___genericsType = new Type[] {};
@@ -604,19 +604,19 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
         }
 
 
-        public virtual UnityEngine.Rect CalculateSearchRect(ref UnityEngine.Rect  @controlRect)
+        public virtual UnityEngine.Rect CalculateSearchRect(ref UnityEngine.Rect @controlRect)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@controlRect};
             var ___result = RCalculateSearchRect_Ref_Rect.Invoke(___genericsType, ___parameters);
-			controlRect = (UnityEngine.Rect)___parameters[0];
+			@controlRect = (UnityEngine.Rect)___parameters[0];
 
             return (UnityEngine.Rect)___result;
         }
 
 
-        public virtual UnityEngine.Rect GetAnimRect(UnityEngine.Rect  @position, System.Single  @anim)
+        public virtual UnityEngine.Rect GetAnimRect(UnityEngine.Rect @position, System.Single @anim)
         {
 
             var ___genericsType = new Type[] {};
@@ -627,9 +627,29 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
         }
 
 
+        public virtual UnityEngine.Vector2 CalculateContentSize(RUnityEditor.RIMGUI.RControls.RAdvancedDropdownDataSource @dataSource)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@dataSource.Value};
+            var ___result = RCalculateContentSize_AdvancedDropdownDataSource.Invoke(___genericsType, ___parameters);
+
+            return (UnityEngine.Vector2)___result;
+        }
 
 
-        public virtual UnityEngine.Rect GetItemRect(in UnityEngine.GUIContent  @content)
+        public virtual System.Single GetSelectionHeight(RUnityEditor.RIMGUI.RControls.RAdvancedDropdownDataSource @dataSource, UnityEngine.Rect @buttonRect)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@dataSource.Value, @buttonRect};
+            var ___result = RGetSelectionHeight_AdvancedDropdownDataSource_Rect.Invoke(___genericsType, ___parameters);
+
+            return (System.Single)___result;
+        }
+
+
+        public virtual UnityEngine.Rect GetItemRect(in UnityEngine.GUIContent @content)
         {
 
             var ___genericsType = new Type[] {};
@@ -640,7 +660,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
         }
 
 
-        public virtual System.Single CalcItemHeight(UnityEngine.GUIContent  @content, System.Single  @width)
+        public virtual System.Single CalcItemHeight(UnityEngine.GUIContent @content, System.Single @width)
         {
 
             var ___genericsType = new Type[] {};
@@ -651,7 +671,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
         }
 
 
-        public virtual UnityEngine.Vector2 CalcItemSize(UnityEngine.GUIContent  @content)
+        public virtual UnityEngine.Vector2 CalcItemSize(UnityEngine.GUIContent @content)
         {
 
             var ___genericsType = new Type[] {};
@@ -662,7 +682,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
         }
 
 
-        public virtual void DrawItemContent(UnityEditor.IMGUI.Controls.AdvancedDropdownItem  @item, UnityEngine.Rect  @rect, UnityEngine.GUIContent  @content, System.Boolean  @isHover, System.Boolean  @isActive, System.Boolean  @on, System.Boolean  @hasKeyboardFocus)
+        public virtual void DrawItemContent(UnityEditor.IMGUI.Controls.AdvancedDropdownItem @item, UnityEngine.Rect @rect, UnityEngine.GUIContent @content, System.Boolean @isHover, System.Boolean @isActive, System.Boolean @on, System.Boolean @hasKeyboardFocus)
         {
 
             var ___genericsType = new Type[] {};
@@ -673,7 +693,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

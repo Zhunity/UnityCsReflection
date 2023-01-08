@@ -1643,7 +1643,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 	    {
 	    }
 
-        public virtual System.Threading.Tasks.TaskScheduler GetDefaultScheduler(System.Threading.Tasks.Task  @currTask)
+        public virtual System.Threading.Tasks.TaskScheduler GetDefaultScheduler(System.Threading.Tasks.Task @currTask)
         {
 
             var ___genericsType = new Type[] {};
@@ -1654,7 +1654,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
         }
 
 
-        public static void CheckCreationOptions(System.Threading.Tasks.TaskCreationOptions  @creationOptions)
+        public static void CheckCreationOptions(System.Threading.Tasks.TaskCreationOptions @creationOptions)
         {
 
             var ___genericsType = new Type[] {};
@@ -1665,7 +1665,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
         }
 
 
-        public virtual System.Threading.Tasks.Task StartNew(System.Action  @action)
+        public virtual System.Threading.Tasks.Task StartNew(System.Action @action)
         {
 
             var ___genericsType = new Type[] {};
@@ -1676,7 +1676,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
         }
 
 
-        public virtual System.Threading.Tasks.Task StartNew(System.Action  @action, System.Threading.CancellationToken  @cancellationToken)
+        public virtual System.Threading.Tasks.Task StartNew(System.Action @action, System.Threading.CancellationToken @cancellationToken)
         {
 
             var ___genericsType = new Type[] {};
@@ -1687,7 +1687,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
         }
 
 
-        public virtual System.Threading.Tasks.Task StartNew(System.Action  @action, System.Threading.Tasks.TaskCreationOptions  @creationOptions)
+        public virtual System.Threading.Tasks.Task StartNew(System.Action @action, System.Threading.Tasks.TaskCreationOptions @creationOptions)
         {
 
             var ___genericsType = new Type[] {};
@@ -1698,7 +1698,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
         }
 
 
-        public virtual System.Threading.Tasks.Task StartNew(System.Action  @action, System.Threading.CancellationToken  @cancellationToken, System.Threading.Tasks.TaskCreationOptions  @creationOptions, System.Threading.Tasks.TaskScheduler  @scheduler)
+        public virtual System.Threading.Tasks.Task StartNew(System.Action @action, System.Threading.CancellationToken @cancellationToken, System.Threading.Tasks.TaskCreationOptions @creationOptions, System.Threading.Tasks.TaskScheduler @scheduler)
         {
 
             var ___genericsType = new Type[] {};
@@ -1709,7 +1709,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
         }
 
 
-        public virtual System.Threading.Tasks.Task StartNew(System.Action  @action, System.Threading.CancellationToken  @cancellationToken, System.Threading.Tasks.TaskCreationOptions  @creationOptions, RType  @internalOptions, System.Threading.Tasks.TaskScheduler  @scheduler)
+        public virtual System.Threading.Tasks.Task StartNew(System.Action @action, System.Threading.CancellationToken @cancellationToken, System.Threading.Tasks.TaskCreationOptions @creationOptions, RType @internalOptions, System.Threading.Tasks.TaskScheduler @scheduler)
         {
 
             var ___genericsType = new Type[] {};
@@ -1720,7 +1720,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
         }
 
 
-        public virtual System.Threading.Tasks.Task StartNew(System.Action<System.Object>  @action, System.Object  @state)
+        public virtual System.Threading.Tasks.Task StartNew(System.Action<System.Object> @action, System.Object @state)
         {
 
             var ___genericsType = new Type[] {};
@@ -1731,7 +1731,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
         }
 
 
-        public virtual System.Threading.Tasks.Task StartNew(System.Action<System.Object>  @action, System.Object  @state, System.Threading.CancellationToken  @cancellationToken)
+        public virtual System.Threading.Tasks.Task StartNew(System.Action<System.Object> @action, System.Object @state, System.Threading.CancellationToken @cancellationToken)
         {
 
             var ___genericsType = new Type[] {};
@@ -1742,7 +1742,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
         }
 
 
-        public virtual System.Threading.Tasks.Task StartNew(System.Action<System.Object>  @action, System.Object  @state, System.Threading.Tasks.TaskCreationOptions  @creationOptions)
+        public virtual System.Threading.Tasks.Task StartNew(System.Action<System.Object> @action, System.Object @state, System.Threading.Tasks.TaskCreationOptions @creationOptions)
         {
 
             var ___genericsType = new Type[] {};
@@ -1753,7 +1753,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
         }
 
 
-        public virtual System.Threading.Tasks.Task StartNew(System.Action<System.Object>  @action, System.Object  @state, System.Threading.CancellationToken  @cancellationToken, System.Threading.Tasks.TaskCreationOptions  @creationOptions, System.Threading.Tasks.TaskScheduler  @scheduler)
+        public virtual System.Threading.Tasks.Task StartNew(System.Action<System.Object> @action, System.Object @state, System.Threading.CancellationToken @cancellationToken, System.Threading.Tasks.TaskCreationOptions @creationOptions, System.Threading.Tasks.TaskScheduler @scheduler)
         {
 
             var ___genericsType = new Type[] {};
@@ -1764,7 +1764,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
         }
 
 
-        public virtual System.Threading.Tasks.Task<TResult> StartNew<TResult>(System.Func<TResult>  @function)
+        public virtual System.Threading.Tasks.Task<TResult> StartNew<TResult>(System.Func<TResult> @function)
         {
 
             var ___genericsType = new Type[] {typeof(TResult)};
@@ -1775,7 +1775,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
         }
 
 
-        public virtual System.Threading.Tasks.Task<TResult> StartNew<TResult>(System.Func<TResult>  @function, System.Threading.CancellationToken  @cancellationToken)
+        public virtual System.Threading.Tasks.Task<TResult> StartNew<TResult>(System.Func<TResult> @function, System.Threading.CancellationToken @cancellationToken)
         {
 
             var ___genericsType = new Type[] {typeof(TResult)};
@@ -1786,7 +1786,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
         }
 
 
-        public virtual System.Threading.Tasks.Task<TResult> StartNew<TResult>(System.Func<TResult>  @function, System.Threading.Tasks.TaskCreationOptions  @creationOptions)
+        public virtual System.Threading.Tasks.Task<TResult> StartNew<TResult>(System.Func<TResult> @function, System.Threading.Tasks.TaskCreationOptions @creationOptions)
         {
 
             var ___genericsType = new Type[] {typeof(TResult)};
@@ -1797,7 +1797,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
         }
 
 
-        public virtual System.Threading.Tasks.Task<TResult> StartNew<TResult>(System.Func<TResult>  @function, System.Threading.CancellationToken  @cancellationToken, System.Threading.Tasks.TaskCreationOptions  @creationOptions, System.Threading.Tasks.TaskScheduler  @scheduler)
+        public virtual System.Threading.Tasks.Task<TResult> StartNew<TResult>(System.Func<TResult> @function, System.Threading.CancellationToken @cancellationToken, System.Threading.Tasks.TaskCreationOptions @creationOptions, System.Threading.Tasks.TaskScheduler @scheduler)
         {
 
             var ___genericsType = new Type[] {typeof(TResult)};
@@ -1808,7 +1808,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
         }
 
 
-        public virtual System.Threading.Tasks.Task<TResult> StartNew<TResult>(System.Func<System.Object, TResult>  @function, System.Object  @state)
+        public virtual System.Threading.Tasks.Task<TResult> StartNew<TResult>(System.Func<System.Object, TResult> @function, System.Object @state)
         {
 
             var ___genericsType = new Type[] {typeof(TResult)};
@@ -1819,7 +1819,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
         }
 
 
-        public virtual System.Threading.Tasks.Task<TResult> StartNew<TResult>(System.Func<System.Object, TResult>  @function, System.Object  @state, System.Threading.CancellationToken  @cancellationToken)
+        public virtual System.Threading.Tasks.Task<TResult> StartNew<TResult>(System.Func<System.Object, TResult> @function, System.Object @state, System.Threading.CancellationToken @cancellationToken)
         {
 
             var ___genericsType = new Type[] {typeof(TResult)};
@@ -1830,7 +1830,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
         }
 
 
-        public virtual System.Threading.Tasks.Task<TResult> StartNew<TResult>(System.Func<System.Object, TResult>  @function, System.Object  @state, System.Threading.Tasks.TaskCreationOptions  @creationOptions)
+        public virtual System.Threading.Tasks.Task<TResult> StartNew<TResult>(System.Func<System.Object, TResult> @function, System.Object @state, System.Threading.Tasks.TaskCreationOptions @creationOptions)
         {
 
             var ___genericsType = new Type[] {typeof(TResult)};
@@ -1841,7 +1841,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
         }
 
 
-        public virtual System.Threading.Tasks.Task<TResult> StartNew<TResult>(System.Func<System.Object, TResult>  @function, System.Object  @state, System.Threading.CancellationToken  @cancellationToken, System.Threading.Tasks.TaskCreationOptions  @creationOptions, System.Threading.Tasks.TaskScheduler  @scheduler)
+        public virtual System.Threading.Tasks.Task<TResult> StartNew<TResult>(System.Func<System.Object, TResult> @function, System.Object @state, System.Threading.CancellationToken @cancellationToken, System.Threading.Tasks.TaskCreationOptions @creationOptions, System.Threading.Tasks.TaskScheduler @scheduler)
         {
 
             var ___genericsType = new Type[] {typeof(TResult)};
@@ -1852,7 +1852,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
         }
 
 
-        public virtual System.Threading.Tasks.Task FromAsync(System.IAsyncResult  @asyncResult, System.Action<System.IAsyncResult>  @endMethod)
+        public virtual System.Threading.Tasks.Task FromAsync(System.IAsyncResult @asyncResult, System.Action<System.IAsyncResult> @endMethod)
         {
 
             var ___genericsType = new Type[] {};
@@ -1863,7 +1863,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
         }
 
 
-        public virtual System.Threading.Tasks.Task FromAsync(System.IAsyncResult  @asyncResult, System.Action<System.IAsyncResult>  @endMethod, System.Threading.Tasks.TaskCreationOptions  @creationOptions)
+        public virtual System.Threading.Tasks.Task FromAsync(System.IAsyncResult @asyncResult, System.Action<System.IAsyncResult> @endMethod, System.Threading.Tasks.TaskCreationOptions @creationOptions)
         {
 
             var ___genericsType = new Type[] {};
@@ -1874,7 +1874,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
         }
 
 
-        public virtual System.Threading.Tasks.Task FromAsync(System.IAsyncResult  @asyncResult, System.Action<System.IAsyncResult>  @endMethod, System.Threading.Tasks.TaskCreationOptions  @creationOptions, System.Threading.Tasks.TaskScheduler  @scheduler)
+        public virtual System.Threading.Tasks.Task FromAsync(System.IAsyncResult @asyncResult, System.Action<System.IAsyncResult> @endMethod, System.Threading.Tasks.TaskCreationOptions @creationOptions, System.Threading.Tasks.TaskScheduler @scheduler)
         {
 
             var ___genericsType = new Type[] {};
@@ -1885,7 +1885,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
         }
 
 
-        public virtual System.Threading.Tasks.Task FromAsync(System.Func<System.AsyncCallback, System.Object, System.IAsyncResult>  @beginMethod, System.Action<System.IAsyncResult>  @endMethod, System.Object  @state)
+        public virtual System.Threading.Tasks.Task FromAsync(System.Func<System.AsyncCallback, System.Object, System.IAsyncResult> @beginMethod, System.Action<System.IAsyncResult> @endMethod, System.Object @state)
         {
 
             var ___genericsType = new Type[] {};
@@ -1896,7 +1896,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
         }
 
 
-        public virtual System.Threading.Tasks.Task FromAsync(System.Func<System.AsyncCallback, System.Object, System.IAsyncResult>  @beginMethod, System.Action<System.IAsyncResult>  @endMethod, System.Object  @state, System.Threading.Tasks.TaskCreationOptions  @creationOptions)
+        public virtual System.Threading.Tasks.Task FromAsync(System.Func<System.AsyncCallback, System.Object, System.IAsyncResult> @beginMethod, System.Action<System.IAsyncResult> @endMethod, System.Object @state, System.Threading.Tasks.TaskCreationOptions @creationOptions)
         {
 
             var ___genericsType = new Type[] {};
@@ -1907,7 +1907,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
         }
 
 
-        public virtual System.Threading.Tasks.Task FromAsync<TArg1>(System.Func<TArg1, System.AsyncCallback, System.Object, System.IAsyncResult>  @beginMethod, System.Action<System.IAsyncResult>  @endMethod, TArg1  @arg1, System.Object  @state)
+        public virtual System.Threading.Tasks.Task FromAsync<TArg1>(System.Func<TArg1, System.AsyncCallback, System.Object, System.IAsyncResult> @beginMethod, System.Action<System.IAsyncResult> @endMethod, TArg1 @arg1, System.Object @state)
         {
 
             var ___genericsType = new Type[] {typeof(TArg1)};
@@ -1918,7 +1918,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
         }
 
 
-        public virtual System.Threading.Tasks.Task FromAsync<TArg1>(System.Func<TArg1, System.AsyncCallback, System.Object, System.IAsyncResult>  @beginMethod, System.Action<System.IAsyncResult>  @endMethod, TArg1  @arg1, System.Object  @state, System.Threading.Tasks.TaskCreationOptions  @creationOptions)
+        public virtual System.Threading.Tasks.Task FromAsync<TArg1>(System.Func<TArg1, System.AsyncCallback, System.Object, System.IAsyncResult> @beginMethod, System.Action<System.IAsyncResult> @endMethod, TArg1 @arg1, System.Object @state, System.Threading.Tasks.TaskCreationOptions @creationOptions)
         {
 
             var ___genericsType = new Type[] {typeof(TArg1)};
@@ -1929,7 +1929,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
         }
 
 
-        public virtual System.Threading.Tasks.Task FromAsync<TArg1, TArg2>(System.Func<TArg1, TArg2, System.AsyncCallback, System.Object, System.IAsyncResult>  @beginMethod, System.Action<System.IAsyncResult>  @endMethod, TArg1  @arg1, TArg2  @arg2, System.Object  @state)
+        public virtual System.Threading.Tasks.Task FromAsync<TArg1, TArg2>(System.Func<TArg1, TArg2, System.AsyncCallback, System.Object, System.IAsyncResult> @beginMethod, System.Action<System.IAsyncResult> @endMethod, TArg1 @arg1, TArg2 @arg2, System.Object @state)
         {
 
             var ___genericsType = new Type[] {typeof(TArg1), typeof(TArg2)};
@@ -1940,7 +1940,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
         }
 
 
-        public virtual System.Threading.Tasks.Task FromAsync<TArg1, TArg2>(System.Func<TArg1, TArg2, System.AsyncCallback, System.Object, System.IAsyncResult>  @beginMethod, System.Action<System.IAsyncResult>  @endMethod, TArg1  @arg1, TArg2  @arg2, System.Object  @state, System.Threading.Tasks.TaskCreationOptions  @creationOptions)
+        public virtual System.Threading.Tasks.Task FromAsync<TArg1, TArg2>(System.Func<TArg1, TArg2, System.AsyncCallback, System.Object, System.IAsyncResult> @beginMethod, System.Action<System.IAsyncResult> @endMethod, TArg1 @arg1, TArg2 @arg2, System.Object @state, System.Threading.Tasks.TaskCreationOptions @creationOptions)
         {
 
             var ___genericsType = new Type[] {typeof(TArg1), typeof(TArg2)};
@@ -1951,7 +1951,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
         }
 
 
-        public virtual System.Threading.Tasks.Task FromAsync<TArg1, TArg2, TArg3>(System.Func<TArg1, TArg2, TArg3, System.AsyncCallback, System.Object, System.IAsyncResult>  @beginMethod, System.Action<System.IAsyncResult>  @endMethod, TArg1  @arg1, TArg2  @arg2, TArg3  @arg3, System.Object  @state)
+        public virtual System.Threading.Tasks.Task FromAsync<TArg1, TArg2, TArg3>(System.Func<TArg1, TArg2, TArg3, System.AsyncCallback, System.Object, System.IAsyncResult> @beginMethod, System.Action<System.IAsyncResult> @endMethod, TArg1 @arg1, TArg2 @arg2, TArg3 @arg3, System.Object @state)
         {
 
             var ___genericsType = new Type[] {typeof(TArg1), typeof(TArg2), typeof(TArg3)};
@@ -1962,7 +1962,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
         }
 
 
-        public virtual System.Threading.Tasks.Task FromAsync<TArg1, TArg2, TArg3>(System.Func<TArg1, TArg2, TArg3, System.AsyncCallback, System.Object, System.IAsyncResult>  @beginMethod, System.Action<System.IAsyncResult>  @endMethod, TArg1  @arg1, TArg2  @arg2, TArg3  @arg3, System.Object  @state, System.Threading.Tasks.TaskCreationOptions  @creationOptions)
+        public virtual System.Threading.Tasks.Task FromAsync<TArg1, TArg2, TArg3>(System.Func<TArg1, TArg2, TArg3, System.AsyncCallback, System.Object, System.IAsyncResult> @beginMethod, System.Action<System.IAsyncResult> @endMethod, TArg1 @arg1, TArg2 @arg2, TArg3 @arg3, System.Object @state, System.Threading.Tasks.TaskCreationOptions @creationOptions)
         {
 
             var ___genericsType = new Type[] {typeof(TArg1), typeof(TArg2), typeof(TArg3)};
@@ -1973,7 +1973,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
         }
 
 
-        public virtual System.Threading.Tasks.Task<TResult> FromAsync<TResult>(System.IAsyncResult  @asyncResult, System.Func<System.IAsyncResult, TResult>  @endMethod)
+        public virtual System.Threading.Tasks.Task<TResult> FromAsync<TResult>(System.IAsyncResult @asyncResult, System.Func<System.IAsyncResult, TResult> @endMethod)
         {
 
             var ___genericsType = new Type[] {typeof(TResult)};
@@ -1984,7 +1984,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
         }
 
 
-        public virtual System.Threading.Tasks.Task<TResult> FromAsync<TResult>(System.IAsyncResult  @asyncResult, System.Func<System.IAsyncResult, TResult>  @endMethod, System.Threading.Tasks.TaskCreationOptions  @creationOptions)
+        public virtual System.Threading.Tasks.Task<TResult> FromAsync<TResult>(System.IAsyncResult @asyncResult, System.Func<System.IAsyncResult, TResult> @endMethod, System.Threading.Tasks.TaskCreationOptions @creationOptions)
         {
 
             var ___genericsType = new Type[] {typeof(TResult)};
@@ -1995,7 +1995,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
         }
 
 
-        public virtual System.Threading.Tasks.Task<TResult> FromAsync<TResult>(System.IAsyncResult  @asyncResult, System.Func<System.IAsyncResult, TResult>  @endMethod, System.Threading.Tasks.TaskCreationOptions  @creationOptions, System.Threading.Tasks.TaskScheduler  @scheduler)
+        public virtual System.Threading.Tasks.Task<TResult> FromAsync<TResult>(System.IAsyncResult @asyncResult, System.Func<System.IAsyncResult, TResult> @endMethod, System.Threading.Tasks.TaskCreationOptions @creationOptions, System.Threading.Tasks.TaskScheduler @scheduler)
         {
 
             var ___genericsType = new Type[] {typeof(TResult)};
@@ -2006,7 +2006,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
         }
 
 
-        public virtual System.Threading.Tasks.Task<TResult> FromAsync<TResult>(System.Func<System.AsyncCallback, System.Object, System.IAsyncResult>  @beginMethod, System.Func<System.IAsyncResult, TResult>  @endMethod, System.Object  @state)
+        public virtual System.Threading.Tasks.Task<TResult> FromAsync<TResult>(System.Func<System.AsyncCallback, System.Object, System.IAsyncResult> @beginMethod, System.Func<System.IAsyncResult, TResult> @endMethod, System.Object @state)
         {
 
             var ___genericsType = new Type[] {typeof(TResult)};
@@ -2017,7 +2017,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
         }
 
 
-        public virtual System.Threading.Tasks.Task<TResult> FromAsync<TResult>(System.Func<System.AsyncCallback, System.Object, System.IAsyncResult>  @beginMethod, System.Func<System.IAsyncResult, TResult>  @endMethod, System.Object  @state, System.Threading.Tasks.TaskCreationOptions  @creationOptions)
+        public virtual System.Threading.Tasks.Task<TResult> FromAsync<TResult>(System.Func<System.AsyncCallback, System.Object, System.IAsyncResult> @beginMethod, System.Func<System.IAsyncResult, TResult> @endMethod, System.Object @state, System.Threading.Tasks.TaskCreationOptions @creationOptions)
         {
 
             var ___genericsType = new Type[] {typeof(TResult)};
@@ -2028,7 +2028,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
         }
 
 
-        public virtual System.Threading.Tasks.Task<TResult> FromAsync<TArg1, TResult>(System.Func<TArg1, System.AsyncCallback, System.Object, System.IAsyncResult>  @beginMethod, System.Func<System.IAsyncResult, TResult>  @endMethod, TArg1  @arg1, System.Object  @state)
+        public virtual System.Threading.Tasks.Task<TResult> FromAsync<TArg1, TResult>(System.Func<TArg1, System.AsyncCallback, System.Object, System.IAsyncResult> @beginMethod, System.Func<System.IAsyncResult, TResult> @endMethod, TArg1 @arg1, System.Object @state)
         {
 
             var ___genericsType = new Type[] {typeof(TArg1), typeof(TResult)};
@@ -2039,7 +2039,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
         }
 
 
-        public virtual System.Threading.Tasks.Task<TResult> FromAsync<TArg1, TResult>(System.Func<TArg1, System.AsyncCallback, System.Object, System.IAsyncResult>  @beginMethod, System.Func<System.IAsyncResult, TResult>  @endMethod, TArg1  @arg1, System.Object  @state, System.Threading.Tasks.TaskCreationOptions  @creationOptions)
+        public virtual System.Threading.Tasks.Task<TResult> FromAsync<TArg1, TResult>(System.Func<TArg1, System.AsyncCallback, System.Object, System.IAsyncResult> @beginMethod, System.Func<System.IAsyncResult, TResult> @endMethod, TArg1 @arg1, System.Object @state, System.Threading.Tasks.TaskCreationOptions @creationOptions)
         {
 
             var ___genericsType = new Type[] {typeof(TArg1), typeof(TResult)};
@@ -2050,7 +2050,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
         }
 
 
-        public virtual System.Threading.Tasks.Task<TResult> FromAsync<TArg1, TArg2, TResult>(System.Func<TArg1, TArg2, System.AsyncCallback, System.Object, System.IAsyncResult>  @beginMethod, System.Func<System.IAsyncResult, TResult>  @endMethod, TArg1  @arg1, TArg2  @arg2, System.Object  @state)
+        public virtual System.Threading.Tasks.Task<TResult> FromAsync<TArg1, TArg2, TResult>(System.Func<TArg1, TArg2, System.AsyncCallback, System.Object, System.IAsyncResult> @beginMethod, System.Func<System.IAsyncResult, TResult> @endMethod, TArg1 @arg1, TArg2 @arg2, System.Object @state)
         {
 
             var ___genericsType = new Type[] {typeof(TArg1), typeof(TArg2), typeof(TResult)};
@@ -2061,7 +2061,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
         }
 
 
-        public virtual System.Threading.Tasks.Task<TResult> FromAsync<TArg1, TArg2, TResult>(System.Func<TArg1, TArg2, System.AsyncCallback, System.Object, System.IAsyncResult>  @beginMethod, System.Func<System.IAsyncResult, TResult>  @endMethod, TArg1  @arg1, TArg2  @arg2, System.Object  @state, System.Threading.Tasks.TaskCreationOptions  @creationOptions)
+        public virtual System.Threading.Tasks.Task<TResult> FromAsync<TArg1, TArg2, TResult>(System.Func<TArg1, TArg2, System.AsyncCallback, System.Object, System.IAsyncResult> @beginMethod, System.Func<System.IAsyncResult, TResult> @endMethod, TArg1 @arg1, TArg2 @arg2, System.Object @state, System.Threading.Tasks.TaskCreationOptions @creationOptions)
         {
 
             var ___genericsType = new Type[] {typeof(TArg1), typeof(TArg2), typeof(TResult)};
@@ -2072,7 +2072,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
         }
 
 
-        public virtual System.Threading.Tasks.Task<TResult> FromAsync<TArg1, TArg2, TArg3, TResult>(System.Func<TArg1, TArg2, TArg3, System.AsyncCallback, System.Object, System.IAsyncResult>  @beginMethod, System.Func<System.IAsyncResult, TResult>  @endMethod, TArg1  @arg1, TArg2  @arg2, TArg3  @arg3, System.Object  @state)
+        public virtual System.Threading.Tasks.Task<TResult> FromAsync<TArg1, TArg2, TArg3, TResult>(System.Func<TArg1, TArg2, TArg3, System.AsyncCallback, System.Object, System.IAsyncResult> @beginMethod, System.Func<System.IAsyncResult, TResult> @endMethod, TArg1 @arg1, TArg2 @arg2, TArg3 @arg3, System.Object @state)
         {
 
             var ___genericsType = new Type[] {typeof(TArg1), typeof(TArg2), typeof(TArg3), typeof(TResult)};
@@ -2083,7 +2083,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
         }
 
 
-        public virtual System.Threading.Tasks.Task<TResult> FromAsync<TArg1, TArg2, TArg3, TResult>(System.Func<TArg1, TArg2, TArg3, System.AsyncCallback, System.Object, System.IAsyncResult>  @beginMethod, System.Func<System.IAsyncResult, TResult>  @endMethod, TArg1  @arg1, TArg2  @arg2, TArg3  @arg3, System.Object  @state, System.Threading.Tasks.TaskCreationOptions  @creationOptions)
+        public virtual System.Threading.Tasks.Task<TResult> FromAsync<TArg1, TArg2, TArg3, TResult>(System.Func<TArg1, TArg2, TArg3, System.AsyncCallback, System.Object, System.IAsyncResult> @beginMethod, System.Func<System.IAsyncResult, TResult> @endMethod, TArg1 @arg1, TArg2 @arg2, TArg3 @arg3, System.Object @state, System.Threading.Tasks.TaskCreationOptions @creationOptions)
         {
 
             var ___genericsType = new Type[] {typeof(TArg1), typeof(TArg2), typeof(TArg3), typeof(TResult)};
@@ -2094,7 +2094,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
         }
 
 
-        public static void CheckFromAsyncOptions(System.Threading.Tasks.TaskCreationOptions  @creationOptions, System.Boolean  @hasBeginMethod)
+        public static void CheckFromAsyncOptions(System.Threading.Tasks.TaskCreationOptions @creationOptions, System.Boolean @hasBeginMethod)
         {
 
             var ___genericsType = new Type[] {};
@@ -2105,7 +2105,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
         }
 
 
-        public static System.Threading.Tasks.Task<System.Threading.Tasks.Task[]> CommonCWAllLogic(System.Threading.Tasks.Task[]  @tasksCopy)
+        public static System.Threading.Tasks.Task<System.Threading.Tasks.Task[]> CommonCWAllLogic(System.Threading.Tasks.Task[] @tasksCopy)
         {
 
             var ___genericsType = new Type[] {};
@@ -2116,7 +2116,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
         }
 
 
-        public static System.Threading.Tasks.Task<System.Threading.Tasks.Task<T>[]> CommonCWAllLogic<T>(System.Threading.Tasks.Task<T>[]  @tasksCopy)
+        public static System.Threading.Tasks.Task<System.Threading.Tasks.Task<T>[]> CommonCWAllLogic<T>(System.Threading.Tasks.Task<T>[] @tasksCopy)
         {
 
             var ___genericsType = new Type[] {typeof(T)};
@@ -2127,7 +2127,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
         }
 
 
-        public virtual System.Threading.Tasks.Task ContinueWhenAll(System.Threading.Tasks.Task[]  @tasks, System.Action<System.Threading.Tasks.Task[]>  @continuationAction)
+        public virtual System.Threading.Tasks.Task ContinueWhenAll(System.Threading.Tasks.Task[] @tasks, System.Action<System.Threading.Tasks.Task[]> @continuationAction)
         {
 
             var ___genericsType = new Type[] {};
@@ -2138,7 +2138,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
         }
 
 
-        public virtual System.Threading.Tasks.Task ContinueWhenAll(System.Threading.Tasks.Task[]  @tasks, System.Action<System.Threading.Tasks.Task[]>  @continuationAction, System.Threading.CancellationToken  @cancellationToken)
+        public virtual System.Threading.Tasks.Task ContinueWhenAll(System.Threading.Tasks.Task[] @tasks, System.Action<System.Threading.Tasks.Task[]> @continuationAction, System.Threading.CancellationToken @cancellationToken)
         {
 
             var ___genericsType = new Type[] {};
@@ -2149,7 +2149,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
         }
 
 
-        public virtual System.Threading.Tasks.Task ContinueWhenAll(System.Threading.Tasks.Task[]  @tasks, System.Action<System.Threading.Tasks.Task[]>  @continuationAction, System.Threading.Tasks.TaskContinuationOptions  @continuationOptions)
+        public virtual System.Threading.Tasks.Task ContinueWhenAll(System.Threading.Tasks.Task[] @tasks, System.Action<System.Threading.Tasks.Task[]> @continuationAction, System.Threading.Tasks.TaskContinuationOptions @continuationOptions)
         {
 
             var ___genericsType = new Type[] {};
@@ -2160,7 +2160,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
         }
 
 
-        public virtual System.Threading.Tasks.Task ContinueWhenAll(System.Threading.Tasks.Task[]  @tasks, System.Action<System.Threading.Tasks.Task[]>  @continuationAction, System.Threading.CancellationToken  @cancellationToken, System.Threading.Tasks.TaskContinuationOptions  @continuationOptions, System.Threading.Tasks.TaskScheduler  @scheduler)
+        public virtual System.Threading.Tasks.Task ContinueWhenAll(System.Threading.Tasks.Task[] @tasks, System.Action<System.Threading.Tasks.Task[]> @continuationAction, System.Threading.CancellationToken @cancellationToken, System.Threading.Tasks.TaskContinuationOptions @continuationOptions, System.Threading.Tasks.TaskScheduler @scheduler)
         {
 
             var ___genericsType = new Type[] {};
@@ -2171,7 +2171,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
         }
 
 
-        public virtual System.Threading.Tasks.Task ContinueWhenAll<TAntecedentResult>(System.Threading.Tasks.Task<TAntecedentResult>[]  @tasks, System.Action<System.Threading.Tasks.Task<TAntecedentResult>[]>  @continuationAction)
+        public virtual System.Threading.Tasks.Task ContinueWhenAll<TAntecedentResult>(System.Threading.Tasks.Task<TAntecedentResult>[] @tasks, System.Action<System.Threading.Tasks.Task<TAntecedentResult>[]> @continuationAction)
         {
 
             var ___genericsType = new Type[] {typeof(TAntecedentResult)};
@@ -2182,7 +2182,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
         }
 
 
-        public virtual System.Threading.Tasks.Task ContinueWhenAll<TAntecedentResult>(System.Threading.Tasks.Task<TAntecedentResult>[]  @tasks, System.Action<System.Threading.Tasks.Task<TAntecedentResult>[]>  @continuationAction, System.Threading.CancellationToken  @cancellationToken)
+        public virtual System.Threading.Tasks.Task ContinueWhenAll<TAntecedentResult>(System.Threading.Tasks.Task<TAntecedentResult>[] @tasks, System.Action<System.Threading.Tasks.Task<TAntecedentResult>[]> @continuationAction, System.Threading.CancellationToken @cancellationToken)
         {
 
             var ___genericsType = new Type[] {typeof(TAntecedentResult)};
@@ -2193,7 +2193,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
         }
 
 
-        public virtual System.Threading.Tasks.Task ContinueWhenAll<TAntecedentResult>(System.Threading.Tasks.Task<TAntecedentResult>[]  @tasks, System.Action<System.Threading.Tasks.Task<TAntecedentResult>[]>  @continuationAction, System.Threading.Tasks.TaskContinuationOptions  @continuationOptions)
+        public virtual System.Threading.Tasks.Task ContinueWhenAll<TAntecedentResult>(System.Threading.Tasks.Task<TAntecedentResult>[] @tasks, System.Action<System.Threading.Tasks.Task<TAntecedentResult>[]> @continuationAction, System.Threading.Tasks.TaskContinuationOptions @continuationOptions)
         {
 
             var ___genericsType = new Type[] {typeof(TAntecedentResult)};
@@ -2204,7 +2204,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
         }
 
 
-        public virtual System.Threading.Tasks.Task ContinueWhenAll<TAntecedentResult>(System.Threading.Tasks.Task<TAntecedentResult>[]  @tasks, System.Action<System.Threading.Tasks.Task<TAntecedentResult>[]>  @continuationAction, System.Threading.CancellationToken  @cancellationToken, System.Threading.Tasks.TaskContinuationOptions  @continuationOptions, System.Threading.Tasks.TaskScheduler  @scheduler)
+        public virtual System.Threading.Tasks.Task ContinueWhenAll<TAntecedentResult>(System.Threading.Tasks.Task<TAntecedentResult>[] @tasks, System.Action<System.Threading.Tasks.Task<TAntecedentResult>[]> @continuationAction, System.Threading.CancellationToken @cancellationToken, System.Threading.Tasks.TaskContinuationOptions @continuationOptions, System.Threading.Tasks.TaskScheduler @scheduler)
         {
 
             var ___genericsType = new Type[] {typeof(TAntecedentResult)};
@@ -2215,7 +2215,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
         }
 
 
-        public virtual System.Threading.Tasks.Task<TResult> ContinueWhenAll<TResult>(System.Threading.Tasks.Task[]  @tasks, System.Func<System.Threading.Tasks.Task[], TResult>  @continuationFunction)
+        public virtual System.Threading.Tasks.Task<TResult> ContinueWhenAll<TResult>(System.Threading.Tasks.Task[] @tasks, System.Func<System.Threading.Tasks.Task[], TResult> @continuationFunction)
         {
 
             var ___genericsType = new Type[] {typeof(TResult)};
@@ -2226,7 +2226,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
         }
 
 
-        public virtual System.Threading.Tasks.Task<TResult> ContinueWhenAll<TResult>(System.Threading.Tasks.Task[]  @tasks, System.Func<System.Threading.Tasks.Task[], TResult>  @continuationFunction, System.Threading.CancellationToken  @cancellationToken)
+        public virtual System.Threading.Tasks.Task<TResult> ContinueWhenAll<TResult>(System.Threading.Tasks.Task[] @tasks, System.Func<System.Threading.Tasks.Task[], TResult> @continuationFunction, System.Threading.CancellationToken @cancellationToken)
         {
 
             var ___genericsType = new Type[] {typeof(TResult)};
@@ -2237,7 +2237,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
         }
 
 
-        public virtual System.Threading.Tasks.Task<TResult> ContinueWhenAll<TResult>(System.Threading.Tasks.Task[]  @tasks, System.Func<System.Threading.Tasks.Task[], TResult>  @continuationFunction, System.Threading.Tasks.TaskContinuationOptions  @continuationOptions)
+        public virtual System.Threading.Tasks.Task<TResult> ContinueWhenAll<TResult>(System.Threading.Tasks.Task[] @tasks, System.Func<System.Threading.Tasks.Task[], TResult> @continuationFunction, System.Threading.Tasks.TaskContinuationOptions @continuationOptions)
         {
 
             var ___genericsType = new Type[] {typeof(TResult)};
@@ -2248,7 +2248,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
         }
 
 
-        public virtual System.Threading.Tasks.Task<TResult> ContinueWhenAll<TResult>(System.Threading.Tasks.Task[]  @tasks, System.Func<System.Threading.Tasks.Task[], TResult>  @continuationFunction, System.Threading.CancellationToken  @cancellationToken, System.Threading.Tasks.TaskContinuationOptions  @continuationOptions, System.Threading.Tasks.TaskScheduler  @scheduler)
+        public virtual System.Threading.Tasks.Task<TResult> ContinueWhenAll<TResult>(System.Threading.Tasks.Task[] @tasks, System.Func<System.Threading.Tasks.Task[], TResult> @continuationFunction, System.Threading.CancellationToken @cancellationToken, System.Threading.Tasks.TaskContinuationOptions @continuationOptions, System.Threading.Tasks.TaskScheduler @scheduler)
         {
 
             var ___genericsType = new Type[] {typeof(TResult)};
@@ -2259,7 +2259,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
         }
 
 
-        public virtual System.Threading.Tasks.Task<TResult> ContinueWhenAll<TAntecedentResult, TResult>(System.Threading.Tasks.Task<TAntecedentResult>[]  @tasks, System.Func<System.Threading.Tasks.Task<TAntecedentResult>[], TResult>  @continuationFunction)
+        public virtual System.Threading.Tasks.Task<TResult> ContinueWhenAll<TAntecedentResult, TResult>(System.Threading.Tasks.Task<TAntecedentResult>[] @tasks, System.Func<System.Threading.Tasks.Task<TAntecedentResult>[], TResult> @continuationFunction)
         {
 
             var ___genericsType = new Type[] {typeof(TAntecedentResult), typeof(TResult)};
@@ -2270,7 +2270,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
         }
 
 
-        public virtual System.Threading.Tasks.Task<TResult> ContinueWhenAll<TAntecedentResult, TResult>(System.Threading.Tasks.Task<TAntecedentResult>[]  @tasks, System.Func<System.Threading.Tasks.Task<TAntecedentResult>[], TResult>  @continuationFunction, System.Threading.CancellationToken  @cancellationToken)
+        public virtual System.Threading.Tasks.Task<TResult> ContinueWhenAll<TAntecedentResult, TResult>(System.Threading.Tasks.Task<TAntecedentResult>[] @tasks, System.Func<System.Threading.Tasks.Task<TAntecedentResult>[], TResult> @continuationFunction, System.Threading.CancellationToken @cancellationToken)
         {
 
             var ___genericsType = new Type[] {typeof(TAntecedentResult), typeof(TResult)};
@@ -2281,7 +2281,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
         }
 
 
-        public virtual System.Threading.Tasks.Task<TResult> ContinueWhenAll<TAntecedentResult, TResult>(System.Threading.Tasks.Task<TAntecedentResult>[]  @tasks, System.Func<System.Threading.Tasks.Task<TAntecedentResult>[], TResult>  @continuationFunction, System.Threading.Tasks.TaskContinuationOptions  @continuationOptions)
+        public virtual System.Threading.Tasks.Task<TResult> ContinueWhenAll<TAntecedentResult, TResult>(System.Threading.Tasks.Task<TAntecedentResult>[] @tasks, System.Func<System.Threading.Tasks.Task<TAntecedentResult>[], TResult> @continuationFunction, System.Threading.Tasks.TaskContinuationOptions @continuationOptions)
         {
 
             var ___genericsType = new Type[] {typeof(TAntecedentResult), typeof(TResult)};
@@ -2292,7 +2292,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
         }
 
 
-        public virtual System.Threading.Tasks.Task<TResult> ContinueWhenAll<TAntecedentResult, TResult>(System.Threading.Tasks.Task<TAntecedentResult>[]  @tasks, System.Func<System.Threading.Tasks.Task<TAntecedentResult>[], TResult>  @continuationFunction, System.Threading.CancellationToken  @cancellationToken, System.Threading.Tasks.TaskContinuationOptions  @continuationOptions, System.Threading.Tasks.TaskScheduler  @scheduler)
+        public virtual System.Threading.Tasks.Task<TResult> ContinueWhenAll<TAntecedentResult, TResult>(System.Threading.Tasks.Task<TAntecedentResult>[] @tasks, System.Func<System.Threading.Tasks.Task<TAntecedentResult>[], TResult> @continuationFunction, System.Threading.CancellationToken @cancellationToken, System.Threading.Tasks.TaskContinuationOptions @continuationOptions, System.Threading.Tasks.TaskScheduler @scheduler)
         {
 
             var ___genericsType = new Type[] {typeof(TAntecedentResult), typeof(TResult)};
@@ -2303,7 +2303,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
         }
 
 
-        public static System.Threading.Tasks.Task<System.Threading.Tasks.Task> CommonCWAnyLogic(System.Collections.Generic.IList<System.Threading.Tasks.Task>  @tasks)
+        public static System.Threading.Tasks.Task<System.Threading.Tasks.Task> CommonCWAnyLogic(System.Collections.Generic.IList<System.Threading.Tasks.Task> @tasks)
         {
 
             var ___genericsType = new Type[] {};
@@ -2314,7 +2314,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
         }
 
 
-        public virtual System.Threading.Tasks.Task ContinueWhenAny(System.Threading.Tasks.Task[]  @tasks, System.Action<System.Threading.Tasks.Task>  @continuationAction)
+        public virtual System.Threading.Tasks.Task ContinueWhenAny(System.Threading.Tasks.Task[] @tasks, System.Action<System.Threading.Tasks.Task> @continuationAction)
         {
 
             var ___genericsType = new Type[] {};
@@ -2325,7 +2325,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
         }
 
 
-        public virtual System.Threading.Tasks.Task ContinueWhenAny(System.Threading.Tasks.Task[]  @tasks, System.Action<System.Threading.Tasks.Task>  @continuationAction, System.Threading.CancellationToken  @cancellationToken)
+        public virtual System.Threading.Tasks.Task ContinueWhenAny(System.Threading.Tasks.Task[] @tasks, System.Action<System.Threading.Tasks.Task> @continuationAction, System.Threading.CancellationToken @cancellationToken)
         {
 
             var ___genericsType = new Type[] {};
@@ -2336,7 +2336,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
         }
 
 
-        public virtual System.Threading.Tasks.Task ContinueWhenAny(System.Threading.Tasks.Task[]  @tasks, System.Action<System.Threading.Tasks.Task>  @continuationAction, System.Threading.Tasks.TaskContinuationOptions  @continuationOptions)
+        public virtual System.Threading.Tasks.Task ContinueWhenAny(System.Threading.Tasks.Task[] @tasks, System.Action<System.Threading.Tasks.Task> @continuationAction, System.Threading.Tasks.TaskContinuationOptions @continuationOptions)
         {
 
             var ___genericsType = new Type[] {};
@@ -2347,7 +2347,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
         }
 
 
-        public virtual System.Threading.Tasks.Task ContinueWhenAny(System.Threading.Tasks.Task[]  @tasks, System.Action<System.Threading.Tasks.Task>  @continuationAction, System.Threading.CancellationToken  @cancellationToken, System.Threading.Tasks.TaskContinuationOptions  @continuationOptions, System.Threading.Tasks.TaskScheduler  @scheduler)
+        public virtual System.Threading.Tasks.Task ContinueWhenAny(System.Threading.Tasks.Task[] @tasks, System.Action<System.Threading.Tasks.Task> @continuationAction, System.Threading.CancellationToken @cancellationToken, System.Threading.Tasks.TaskContinuationOptions @continuationOptions, System.Threading.Tasks.TaskScheduler @scheduler)
         {
 
             var ___genericsType = new Type[] {};
@@ -2358,7 +2358,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
         }
 
 
-        public virtual System.Threading.Tasks.Task<TResult> ContinueWhenAny<TResult>(System.Threading.Tasks.Task[]  @tasks, System.Func<System.Threading.Tasks.Task, TResult>  @continuationFunction)
+        public virtual System.Threading.Tasks.Task<TResult> ContinueWhenAny<TResult>(System.Threading.Tasks.Task[] @tasks, System.Func<System.Threading.Tasks.Task, TResult> @continuationFunction)
         {
 
             var ___genericsType = new Type[] {typeof(TResult)};
@@ -2369,7 +2369,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
         }
 
 
-        public virtual System.Threading.Tasks.Task<TResult> ContinueWhenAny<TResult>(System.Threading.Tasks.Task[]  @tasks, System.Func<System.Threading.Tasks.Task, TResult>  @continuationFunction, System.Threading.CancellationToken  @cancellationToken)
+        public virtual System.Threading.Tasks.Task<TResult> ContinueWhenAny<TResult>(System.Threading.Tasks.Task[] @tasks, System.Func<System.Threading.Tasks.Task, TResult> @continuationFunction, System.Threading.CancellationToken @cancellationToken)
         {
 
             var ___genericsType = new Type[] {typeof(TResult)};
@@ -2380,7 +2380,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
         }
 
 
-        public virtual System.Threading.Tasks.Task<TResult> ContinueWhenAny<TResult>(System.Threading.Tasks.Task[]  @tasks, System.Func<System.Threading.Tasks.Task, TResult>  @continuationFunction, System.Threading.Tasks.TaskContinuationOptions  @continuationOptions)
+        public virtual System.Threading.Tasks.Task<TResult> ContinueWhenAny<TResult>(System.Threading.Tasks.Task[] @tasks, System.Func<System.Threading.Tasks.Task, TResult> @continuationFunction, System.Threading.Tasks.TaskContinuationOptions @continuationOptions)
         {
 
             var ___genericsType = new Type[] {typeof(TResult)};
@@ -2391,7 +2391,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
         }
 
 
-        public virtual System.Threading.Tasks.Task<TResult> ContinueWhenAny<TResult>(System.Threading.Tasks.Task[]  @tasks, System.Func<System.Threading.Tasks.Task, TResult>  @continuationFunction, System.Threading.CancellationToken  @cancellationToken, System.Threading.Tasks.TaskContinuationOptions  @continuationOptions, System.Threading.Tasks.TaskScheduler  @scheduler)
+        public virtual System.Threading.Tasks.Task<TResult> ContinueWhenAny<TResult>(System.Threading.Tasks.Task[] @tasks, System.Func<System.Threading.Tasks.Task, TResult> @continuationFunction, System.Threading.CancellationToken @cancellationToken, System.Threading.Tasks.TaskContinuationOptions @continuationOptions, System.Threading.Tasks.TaskScheduler @scheduler)
         {
 
             var ___genericsType = new Type[] {typeof(TResult)};
@@ -2402,7 +2402,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
         }
 
 
-        public virtual System.Threading.Tasks.Task<TResult> ContinueWhenAny<TAntecedentResult, TResult>(System.Threading.Tasks.Task<TAntecedentResult>[]  @tasks, System.Func<System.Threading.Tasks.Task<TAntecedentResult>, TResult>  @continuationFunction)
+        public virtual System.Threading.Tasks.Task<TResult> ContinueWhenAny<TAntecedentResult, TResult>(System.Threading.Tasks.Task<TAntecedentResult>[] @tasks, System.Func<System.Threading.Tasks.Task<TAntecedentResult>, TResult> @continuationFunction)
         {
 
             var ___genericsType = new Type[] {typeof(TAntecedentResult), typeof(TResult)};
@@ -2413,7 +2413,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
         }
 
 
-        public virtual System.Threading.Tasks.Task<TResult> ContinueWhenAny<TAntecedentResult, TResult>(System.Threading.Tasks.Task<TAntecedentResult>[]  @tasks, System.Func<System.Threading.Tasks.Task<TAntecedentResult>, TResult>  @continuationFunction, System.Threading.CancellationToken  @cancellationToken)
+        public virtual System.Threading.Tasks.Task<TResult> ContinueWhenAny<TAntecedentResult, TResult>(System.Threading.Tasks.Task<TAntecedentResult>[] @tasks, System.Func<System.Threading.Tasks.Task<TAntecedentResult>, TResult> @continuationFunction, System.Threading.CancellationToken @cancellationToken)
         {
 
             var ___genericsType = new Type[] {typeof(TAntecedentResult), typeof(TResult)};
@@ -2424,7 +2424,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
         }
 
 
-        public virtual System.Threading.Tasks.Task<TResult> ContinueWhenAny<TAntecedentResult, TResult>(System.Threading.Tasks.Task<TAntecedentResult>[]  @tasks, System.Func<System.Threading.Tasks.Task<TAntecedentResult>, TResult>  @continuationFunction, System.Threading.Tasks.TaskContinuationOptions  @continuationOptions)
+        public virtual System.Threading.Tasks.Task<TResult> ContinueWhenAny<TAntecedentResult, TResult>(System.Threading.Tasks.Task<TAntecedentResult>[] @tasks, System.Func<System.Threading.Tasks.Task<TAntecedentResult>, TResult> @continuationFunction, System.Threading.Tasks.TaskContinuationOptions @continuationOptions)
         {
 
             var ___genericsType = new Type[] {typeof(TAntecedentResult), typeof(TResult)};
@@ -2435,7 +2435,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
         }
 
 
-        public virtual System.Threading.Tasks.Task<TResult> ContinueWhenAny<TAntecedentResult, TResult>(System.Threading.Tasks.Task<TAntecedentResult>[]  @tasks, System.Func<System.Threading.Tasks.Task<TAntecedentResult>, TResult>  @continuationFunction, System.Threading.CancellationToken  @cancellationToken, System.Threading.Tasks.TaskContinuationOptions  @continuationOptions, System.Threading.Tasks.TaskScheduler  @scheduler)
+        public virtual System.Threading.Tasks.Task<TResult> ContinueWhenAny<TAntecedentResult, TResult>(System.Threading.Tasks.Task<TAntecedentResult>[] @tasks, System.Func<System.Threading.Tasks.Task<TAntecedentResult>, TResult> @continuationFunction, System.Threading.CancellationToken @cancellationToken, System.Threading.Tasks.TaskContinuationOptions @continuationOptions, System.Threading.Tasks.TaskScheduler @scheduler)
         {
 
             var ___genericsType = new Type[] {typeof(TAntecedentResult), typeof(TResult)};
@@ -2446,7 +2446,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
         }
 
 
-        public virtual System.Threading.Tasks.Task ContinueWhenAny<TAntecedentResult>(System.Threading.Tasks.Task<TAntecedentResult>[]  @tasks, System.Action<System.Threading.Tasks.Task<TAntecedentResult>>  @continuationAction)
+        public virtual System.Threading.Tasks.Task ContinueWhenAny<TAntecedentResult>(System.Threading.Tasks.Task<TAntecedentResult>[] @tasks, System.Action<System.Threading.Tasks.Task<TAntecedentResult>> @continuationAction)
         {
 
             var ___genericsType = new Type[] {typeof(TAntecedentResult)};
@@ -2457,7 +2457,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
         }
 
 
-        public virtual System.Threading.Tasks.Task ContinueWhenAny<TAntecedentResult>(System.Threading.Tasks.Task<TAntecedentResult>[]  @tasks, System.Action<System.Threading.Tasks.Task<TAntecedentResult>>  @continuationAction, System.Threading.CancellationToken  @cancellationToken)
+        public virtual System.Threading.Tasks.Task ContinueWhenAny<TAntecedentResult>(System.Threading.Tasks.Task<TAntecedentResult>[] @tasks, System.Action<System.Threading.Tasks.Task<TAntecedentResult>> @continuationAction, System.Threading.CancellationToken @cancellationToken)
         {
 
             var ___genericsType = new Type[] {typeof(TAntecedentResult)};
@@ -2468,7 +2468,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
         }
 
 
-        public virtual System.Threading.Tasks.Task ContinueWhenAny<TAntecedentResult>(System.Threading.Tasks.Task<TAntecedentResult>[]  @tasks, System.Action<System.Threading.Tasks.Task<TAntecedentResult>>  @continuationAction, System.Threading.Tasks.TaskContinuationOptions  @continuationOptions)
+        public virtual System.Threading.Tasks.Task ContinueWhenAny<TAntecedentResult>(System.Threading.Tasks.Task<TAntecedentResult>[] @tasks, System.Action<System.Threading.Tasks.Task<TAntecedentResult>> @continuationAction, System.Threading.Tasks.TaskContinuationOptions @continuationOptions)
         {
 
             var ___genericsType = new Type[] {typeof(TAntecedentResult)};
@@ -2479,7 +2479,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
         }
 
 
-        public virtual System.Threading.Tasks.Task ContinueWhenAny<TAntecedentResult>(System.Threading.Tasks.Task<TAntecedentResult>[]  @tasks, System.Action<System.Threading.Tasks.Task<TAntecedentResult>>  @continuationAction, System.Threading.CancellationToken  @cancellationToken, System.Threading.Tasks.TaskContinuationOptions  @continuationOptions, System.Threading.Tasks.TaskScheduler  @scheduler)
+        public virtual System.Threading.Tasks.Task ContinueWhenAny<TAntecedentResult>(System.Threading.Tasks.Task<TAntecedentResult>[] @tasks, System.Action<System.Threading.Tasks.Task<TAntecedentResult>> @continuationAction, System.Threading.CancellationToken @cancellationToken, System.Threading.Tasks.TaskContinuationOptions @continuationOptions, System.Threading.Tasks.TaskScheduler @scheduler)
         {
 
             var ___genericsType = new Type[] {typeof(TAntecedentResult)};
@@ -2490,7 +2490,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
         }
 
 
-        public static System.Threading.Tasks.Task[] CheckMultiContinuationTasksAndCopy(System.Threading.Tasks.Task[]  @tasks)
+        public static System.Threading.Tasks.Task[] CheckMultiContinuationTasksAndCopy(System.Threading.Tasks.Task[] @tasks)
         {
 
             var ___genericsType = new Type[] {};
@@ -2501,7 +2501,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
         }
 
 
-        public static System.Threading.Tasks.Task<TResult>[] CheckMultiContinuationTasksAndCopy<TResult>(System.Threading.Tasks.Task<TResult>[]  @tasks)
+        public static System.Threading.Tasks.Task<TResult>[] CheckMultiContinuationTasksAndCopy<TResult>(System.Threading.Tasks.Task<TResult>[] @tasks)
         {
 
             var ___genericsType = new Type[] {typeof(TResult)};
@@ -2512,7 +2512,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
         }
 
 
-        public static void CheckMultiTaskContinuationOptions(System.Threading.Tasks.TaskContinuationOptions  @continuationOptions)
+        public static void CheckMultiTaskContinuationOptions(System.Threading.Tasks.TaskContinuationOptions @continuationOptions)
         {
 
             var ___genericsType = new Type[] {};
@@ -2523,7 +2523,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

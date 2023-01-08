@@ -827,7 +827,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 	    {
 	    }
 
-        public virtual void OnTimer(UnityEngine.UIElements.TimerState  @timerState)
+        public virtual void OnTimer(UnityEngine.UIElements.TimerState @timerState)
         {
 
             var ___genericsType = new Type[] {};
@@ -871,7 +871,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void OnMouseDown(UnityEngine.UIElements.MouseDownEvent  @evt)
+        public virtual void OnMouseDown(UnityEngine.UIElements.MouseDownEvent @evt)
         {
 
             var ___genericsType = new Type[] {};
@@ -882,7 +882,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void OnMouseMove(UnityEngine.UIElements.MouseMoveEvent  @evt)
+        public virtual void OnMouseMove(UnityEngine.UIElements.MouseMoveEvent @evt)
         {
 
             var ___genericsType = new Type[] {};
@@ -893,7 +893,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void OnMouseUp(UnityEngine.UIElements.MouseUpEvent  @evt)
+        public virtual void OnMouseUp(UnityEngine.UIElements.MouseUpEvent @evt)
         {
 
             var ___genericsType = new Type[] {};
@@ -904,7 +904,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void OnMouseCaptureOut(UnityEngine.UIElements.MouseCaptureOutEvent  @evt)
+        public virtual void OnMouseCaptureOut(UnityEngine.UIElements.MouseCaptureOutEvent @evt)
         {
 
             var ___genericsType = new Type[] {};
@@ -915,7 +915,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void OnPointerDown(UnityEngine.UIElements.PointerDownEvent  @evt)
+        public virtual void OnPointerDown(UnityEngine.UIElements.PointerDownEvent @evt)
         {
 
             var ___genericsType = new Type[] {};
@@ -926,7 +926,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void OnPointerMove(UnityEngine.UIElements.PointerMoveEvent  @evt)
+        public virtual void OnPointerMove(UnityEngine.UIElements.PointerMoveEvent @evt)
         {
 
             var ___genericsType = new Type[] {};
@@ -937,7 +937,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void OnPointerUp(UnityEngine.UIElements.PointerUpEvent  @evt)
+        public virtual void OnPointerUp(UnityEngine.UIElements.PointerUpEvent @evt)
         {
 
             var ___genericsType = new Type[] {};
@@ -948,7 +948,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void OnPointerCancel(UnityEngine.UIElements.PointerCancelEvent  @evt)
+        public virtual void OnPointerCancel(UnityEngine.UIElements.PointerCancelEvent @evt)
         {
 
             var ___genericsType = new Type[] {};
@@ -959,7 +959,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void OnPointerCaptureOut(UnityEngine.UIElements.PointerCaptureOutEvent  @evt)
+        public virtual void OnPointerCaptureOut(UnityEngine.UIElements.PointerCaptureOutEvent @evt)
         {
 
             var ___genericsType = new Type[] {};
@@ -970,7 +970,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean ContainsPointer(System.Int32  @pointerId)
+        public virtual System.Boolean ContainsPointer(System.Int32 @pointerId)
         {
 
             var ___genericsType = new Type[] {};
@@ -981,7 +981,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public static System.Boolean IsNotMouseEvent(System.Int32  @pointerId)
+        public static System.Boolean IsNotMouseEvent(System.Int32 @pointerId)
         {
 
             var ___genericsType = new Type[] {};
@@ -992,7 +992,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void Invoke(UnityEngine.UIElements.EventBase  @evt)
+        public virtual void Invoke(UnityEngine.UIElements.EventBase @evt)
         {
 
             var ___genericsType = new Type[] {};
@@ -1003,7 +1003,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void SimulateSingleClick(UnityEngine.UIElements.EventBase  @evt, System.Int32  @delayMs)
+        public virtual void SimulateSingleClick(UnityEngine.UIElements.EventBase @evt, System.Int32 @delayMs)
         {
 
             var ___genericsType = new Type[] {};
@@ -1014,7 +1014,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void ProcessDownEvent(UnityEngine.UIElements.EventBase  @evt, UnityEngine.Vector2  @localPosition, System.Int32  @pointerId)
+        public virtual void ProcessDownEvent(UnityEngine.UIElements.EventBase @evt, UnityEngine.Vector2 @localPosition, System.Int32 @pointerId)
         {
 
             var ___genericsType = new Type[] {};
@@ -1025,7 +1025,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void ProcessMoveEvent(UnityEngine.UIElements.EventBase  @evt, UnityEngine.Vector2  @localPosition)
+        public virtual void ProcessMoveEvent(UnityEngine.UIElements.EventBase @evt, UnityEngine.Vector2 @localPosition)
         {
 
             var ___genericsType = new Type[] {};
@@ -1036,7 +1036,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void ProcessUpEvent(UnityEngine.UIElements.EventBase  @evt, UnityEngine.Vector2  @localPosition, System.Int32  @pointerId)
+        public virtual void ProcessUpEvent(UnityEngine.UIElements.EventBase @evt, UnityEngine.Vector2 @localPosition, System.Int32 @pointerId)
         {
 
             var ___genericsType = new Type[] {};
@@ -1047,7 +1047,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void ProcessCancelEvent(UnityEngine.UIElements.EventBase  @evt, System.Int32  @pointerId)
+        public virtual void ProcessCancelEvent(UnityEngine.UIElements.EventBase @evt, System.Int32 @pointerId)
         {
 
             var ___genericsType = new Type[] {};
@@ -1069,7 +1069,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean CanStartManipulation(UnityEngine.UIElements.IPointerEvent  @e)
+        public virtual System.Boolean CanStartManipulation(UnityEngine.UIElements.IPointerEvent @e)
         {
 
             var ___genericsType = new Type[] {};
@@ -1080,7 +1080,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean CanStopManipulation(UnityEngine.UIElements.IPointerEvent  @e)
+        public virtual System.Boolean CanStopManipulation(UnityEngine.UIElements.IPointerEvent @e)
         {
 
             var ___genericsType = new Type[] {};
@@ -1091,7 +1091,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean CanStartManipulation(UnityEngine.UIElements.IMouseEvent  @e)
+        public virtual System.Boolean CanStartManipulation(UnityEngine.UIElements.IMouseEvent @e)
         {
 
             var ___genericsType = new Type[] {};
@@ -1102,7 +1102,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean CanStopManipulation(UnityEngine.UIElements.IMouseEvent  @e)
+        public virtual System.Boolean CanStopManipulation(UnityEngine.UIElements.IMouseEvent @e)
         {
 
             var ___genericsType = new Type[] {};
@@ -1113,7 +1113,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

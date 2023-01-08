@@ -317,9 +317,29 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.REvents
 	    {
 	    }
 
+        public virtual void AddPersistentInvokableCall(RUnityEngine.REvents.RBaseInvokableCall @call)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@call.Value};
+            var ___result = RAddPersistentInvokableCall_BaseInvokableCall.Invoke(___genericsType, ___parameters);
+
+            
+        }
 
 
-        public virtual void RemoveListener(System.Object  @targetObj, System.Reflection.MethodInfo  @method)
+        public virtual void AddListener(RUnityEngine.REvents.RBaseInvokableCall @call)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@call.Value};
+            var ___result = RAddListener_BaseInvokableCall.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void RemoveListener(System.Object @targetObj, System.Reflection.MethodInfo @method)
         {
 
             var ___genericsType = new Type[] {};
@@ -352,18 +372,18 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.REvents
         }
 
 
-        public virtual System.Object PrepareInvoke()
+        public virtual RSystem.RCollections.RGeneric.RList<RUnityEngine.REvents.RBaseInvokableCall> PrepareInvoke()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RPrepareInvoke.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RSystem.RCollections.RGeneric.RList<RUnityEngine.REvents.RBaseInvokableCall>(___result);
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

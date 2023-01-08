@@ -311,7 +311,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};
@@ -322,7 +322,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
         }
 
 
-        public virtual System.Boolean Equals(System.Security.Cryptography.HashAlgorithmName  @other)
+        public virtual System.Boolean Equals(System.Security.Cryptography.HashAlgorithmName @other)
         {
 
             var ___genericsType = new Type[] {};
@@ -344,7 +344,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
         }
 
 
-        public static System.Boolean op_Equality(System.Security.Cryptography.HashAlgorithmName  @left, System.Security.Cryptography.HashAlgorithmName  @right)
+        public static System.Boolean op_Equality(System.Security.Cryptography.HashAlgorithmName @left, System.Security.Cryptography.HashAlgorithmName @right)
         {
 
             var ___genericsType = new Type[] {};
@@ -355,7 +355,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
         }
 
 
-        public static System.Boolean op_Inequality(System.Security.Cryptography.HashAlgorithmName  @left, System.Security.Cryptography.HashAlgorithmName  @right)
+        public static System.Boolean op_Inequality(System.Security.Cryptography.HashAlgorithmName @left, System.Security.Cryptography.HashAlgorithmName @right)
         {
 
             var ___genericsType = new Type[] {};

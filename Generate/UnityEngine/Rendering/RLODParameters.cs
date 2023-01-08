@@ -351,7 +351,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 	    {
 	    }
 
-        public virtual System.Boolean Equals(UnityEngine.Rendering.LODParameters  @other)
+        public virtual System.Boolean Equals(UnityEngine.Rendering.LODParameters @other)
         {
 
             var ___genericsType = new Type[] {};
@@ -362,7 +362,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};
@@ -384,7 +384,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public static System.Boolean op_Equality(UnityEngine.Rendering.LODParameters  @left, UnityEngine.Rendering.LODParameters  @right)
+        public static System.Boolean op_Equality(UnityEngine.Rendering.LODParameters @left, UnityEngine.Rendering.LODParameters @right)
         {
 
             var ___genericsType = new Type[] {};
@@ -395,7 +395,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public static System.Boolean op_Inequality(UnityEngine.Rendering.LODParameters  @left, UnityEngine.Rendering.LODParameters  @right)
+        public static System.Boolean op_Inequality(UnityEngine.Rendering.LODParameters @left, UnityEngine.Rendering.LODParameters @right)
         {
 
             var ___genericsType = new Type[] {};

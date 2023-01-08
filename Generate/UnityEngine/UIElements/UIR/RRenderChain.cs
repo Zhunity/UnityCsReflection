@@ -1609,7 +1609,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 	    {
 	    }
 
-        public virtual void Constructor(RUnityEngine.RUIElements.RBaseVisualElementPanel  @panelObj, RUnityEngine.RUIElements.RUIR.RUIRenderDevice  @deviceObj, RUnityEngine.RUIElements.RAtlasBase  @atlas, RUnityEngine.RUIElements.RUIR.RVectorImageManager  @vectorImageMan)
+        public virtual void Constructor(RUnityEngine.RUIElements.RBaseVisualElementPanel @panelObj, RUnityEngine.RUIElements.RUIR.RUIRenderDevice @deviceObj, RUnityEngine.RUIElements.RAtlasBase @atlas, RUnityEngine.RUIElements.RUIR.RVectorImageManager @vectorImageMan)
         {
 
             var ___genericsType = new Type[] {};
@@ -1642,7 +1642,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
         }
 
 
-        public virtual void Dispose(System.Boolean  @disposing)
+        public virtual void Dispose(System.Boolean @disposing)
         {
 
             var ___genericsType = new Type[] {};
@@ -1675,7 +1675,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
         }
 
 
-        public virtual void UIEOnChildAdded(UnityEngine.UIElements.VisualElement  @ve)
+        public virtual void UIEOnChildAdded(UnityEngine.UIElements.VisualElement @ve)
         {
 
             var ___genericsType = new Type[] {};
@@ -1686,7 +1686,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
         }
 
 
-        public virtual void UIEOnChildrenReordered(UnityEngine.UIElements.VisualElement  @ve)
+        public virtual void UIEOnChildrenReordered(UnityEngine.UIElements.VisualElement @ve)
         {
 
             var ___genericsType = new Type[] {};
@@ -1697,7 +1697,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
         }
 
 
-        public virtual void UIEOnChildRemoving(UnityEngine.UIElements.VisualElement  @ve)
+        public virtual void UIEOnChildRemoving(UnityEngine.UIElements.VisualElement @ve)
         {
 
             var ___genericsType = new Type[] {};
@@ -1708,7 +1708,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
         }
 
 
-        public virtual void UIEOnRenderHintsChanged(UnityEngine.UIElements.VisualElement  @ve)
+        public virtual void UIEOnRenderHintsChanged(UnityEngine.UIElements.VisualElement @ve)
         {
 
             var ___genericsType = new Type[] {};
@@ -1719,7 +1719,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
         }
 
 
-        public virtual void UIEOnClippingChanged(UnityEngine.UIElements.VisualElement  @ve, System.Boolean  @hierarchical)
+        public virtual void UIEOnClippingChanged(UnityEngine.UIElements.VisualElement @ve, System.Boolean @hierarchical)
         {
 
             var ___genericsType = new Type[] {};
@@ -1730,7 +1730,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
         }
 
 
-        public virtual void UIEOnOpacityChanged(UnityEngine.UIElements.VisualElement  @ve, System.Boolean  @hierarchical)
+        public virtual void UIEOnOpacityChanged(UnityEngine.UIElements.VisualElement @ve, System.Boolean @hierarchical)
         {
 
             var ___genericsType = new Type[] {};
@@ -1741,7 +1741,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
         }
 
 
-        public virtual void UIEOnColorChanged(UnityEngine.UIElements.VisualElement  @ve)
+        public virtual void UIEOnColorChanged(UnityEngine.UIElements.VisualElement @ve)
         {
 
             var ___genericsType = new Type[] {};
@@ -1752,7 +1752,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
         }
 
 
-        public virtual void UIEOnTransformOrSizeChanged(UnityEngine.UIElements.VisualElement  @ve, System.Boolean  @transformChanged, System.Boolean  @clipRectSizeChanged)
+        public virtual void UIEOnTransformOrSizeChanged(UnityEngine.UIElements.VisualElement @ve, System.Boolean @transformChanged, System.Boolean @clipRectSizeChanged)
         {
 
             var ___genericsType = new Type[] {};
@@ -1763,7 +1763,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
         }
 
 
-        public virtual void UIEOnVisualsChanged(UnityEngine.UIElements.VisualElement  @ve, System.Boolean  @hierarchical)
+        public virtual void UIEOnVisualsChanged(UnityEngine.UIElements.VisualElement @ve, System.Boolean @hierarchical)
         {
 
             var ___genericsType = new Type[] {};
@@ -1774,7 +1774,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
         }
 
 
-        public virtual void UIEOnOpacityIdChanged(UnityEngine.UIElements.VisualElement  @ve)
+        public virtual void UIEOnOpacityIdChanged(UnityEngine.UIElements.VisualElement @ve)
         {
 
             var ___genericsType = new Type[] {};
@@ -1807,7 +1807,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
         }
 
 
-        public virtual void EnsureFitsDepth(System.Int32  @depth)
+        public virtual void EnsureFitsDepth(System.Int32 @depth)
         {
 
             var ___genericsType = new Type[] {};
@@ -1818,7 +1818,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
         }
 
 
-        public virtual void ChildWillBeRemoved(UnityEngine.UIElements.VisualElement  @ve)
+        public virtual void ChildWillBeRemoved(UnityEngine.UIElements.VisualElement @ve)
         {
 
             var ___genericsType = new Type[] {};
@@ -1829,18 +1829,18 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
         }
 
 
-        public virtual System.Object AllocCommand()
+        public virtual RUnityEngine.RUIElements.RUIR.RRenderChainCommand AllocCommand()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RAllocCommand.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RUnityEngine.RUIElements.RUIR.RRenderChainCommand(___result);
         }
 
 
-        public virtual void FreeCommand(RUnityEngine.RUIElements.RUIR.RRenderChainCommand  @cmd)
+        public virtual void FreeCommand(RUnityEngine.RUIElements.RUIR.RRenderChainCommand @cmd)
         {
 
             var ___genericsType = new Type[] {};
@@ -1851,7 +1851,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
         }
 
 
-        public virtual void OnRenderCommandAdded(RUnityEngine.RUIElements.RUIR.RRenderChainCommand  @command)
+        public virtual void OnRenderCommandAdded(RUnityEngine.RUIElements.RUIR.RRenderChainCommand @command)
         {
 
             var ___genericsType = new Type[] {};
@@ -1862,7 +1862,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
         }
 
 
-        public virtual void OnRenderCommandsRemoved(RUnityEngine.RUIElements.RUIR.RRenderChainCommand  @firstCommand, RUnityEngine.RUIElements.RUIR.RRenderChainCommand  @lastCommand)
+        public virtual void OnRenderCommandsRemoved(RUnityEngine.RUIElements.RUIR.RRenderChainCommand @firstCommand, RUnityEngine.RUIElements.RUIR.RRenderChainCommand @lastCommand)
         {
 
             var ___genericsType = new Type[] {};
@@ -1873,18 +1873,18 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
         }
 
 
-        public static System.Object AccessRenderNodeData(System.IntPtr  @obj)
+        public static RUnityEngine.RUIElements.RUIR.RRenderChain.RRenderNodeData AccessRenderNodeData(System.IntPtr @obj)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@obj};
             var ___result = RAccessRenderNodeData_IntPtr.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RUnityEngine.RUIElements.RUIR.RRenderChain.RRenderNodeData(___result);
         }
 
 
-        public static void OnRenderNodeExecute(System.IntPtr  @obj)
+        public static void OnRenderNodeExecute(System.IntPtr @obj)
         {
 
             var ___genericsType = new Type[] {};
@@ -1895,7 +1895,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
         }
 
 
-        public static void OnRegisterIntermediateRenderers(UnityEngine.Camera  @camera)
+        public static void OnRegisterIntermediateRenderers(UnityEngine.Camera @camera)
         {
 
             var ___genericsType = new Type[] {};
@@ -1906,7 +1906,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
         }
 
 
-        public static void OnRegisterIntermediateRendererMat(RUnityEngine.RUIElements.RBaseRuntimePanel  @rtp, RUnityEngine.RUIElements.RUIR.RRenderChain  @renderChain, ref RUnityEngine.RUIElements.RUIR.RRenderChain.RRenderNodeData  @rnd, UnityEngine.Camera  @camera, System.Int32  @sameDistanceSortPriority)
+        public static void OnRegisterIntermediateRendererMat(RUnityEngine.RUIElements.RBaseRuntimePanel @rtp, RUnityEngine.RUIElements.RUIR.RRenderChain @renderChain, ref RUnityEngine.RUIElements.RUIR.RRenderChain.RRenderNodeData @rnd, UnityEngine.Camera @camera, System.Int32 @sameDistanceSortPriority)
         {
 
             var ___genericsType = new Type[] {};
@@ -1929,7 +1929,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
         }
 
 
-        public virtual void AppendTexture(UnityEngine.UIElements.VisualElement  @ve, UnityEngine.Texture  @src, RUnityEngine.RUIElements.RTextureId  @id, System.Boolean  @isAtlas)
+        public virtual void AppendTexture(UnityEngine.UIElements.VisualElement @ve, UnityEngine.Texture @src, RUnityEngine.RUIElements.RTextureId @id, System.Boolean @isAtlas)
         {
 
             var ___genericsType = new Type[] {};
@@ -1940,7 +1940,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
         }
 
 
-        public virtual void ResetTextures(UnityEngine.UIElements.VisualElement  @ve)
+        public virtual void ResetTextures(UnityEngine.UIElements.VisualElement @ve)
         {
 
             var ___genericsType = new Type[] {};
@@ -1962,7 +1962,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
         }
 
 
-        public static UnityEngine.UIElements.VisualElement GetFirstElementInPanel(UnityEngine.UIElements.VisualElement  @ve)
+        public static UnityEngine.UIElements.VisualElement GetFirstElementInPanel(UnityEngine.UIElements.VisualElement @ve)
         {
 
             var ___genericsType = new Type[] {};
@@ -1973,7 +1973,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

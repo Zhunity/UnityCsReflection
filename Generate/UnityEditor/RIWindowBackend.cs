@@ -130,18 +130,38 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 	    {
 	    }
 
-
-
-        public virtual System.Boolean GetTooltip(UnityEngine.Vector2  @windowMouseCoordinates, out System.String  @tooltip, out UnityEngine.Rect  @screenRectPosition)
+        public virtual void OnCreate(RUnityEditor.RIWindowModel @model)
         {
-			tooltip = default;
-			screenRectPosition = default;
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@model.Value};
+            var ___result = ROnCreate_IWindowModel.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void OnDestroy(RUnityEditor.RIWindowModel @model)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@model.Value};
+            var ___result = ROnDestroy_IWindowModel.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual System.Boolean GetTooltip(UnityEngine.Vector2 @windowMouseCoordinates, out System.String @tooltip, out UnityEngine.Rect @screenRectPosition)
+        {
+			@tooltip = default;
+			@screenRectPosition = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@windowMouseCoordinates, @tooltip, @screenRectPosition};
             var ___result = RGetTooltip_Vector2_Out_String_Out_Rect.Invoke(___genericsType, ___parameters);
-			tooltip = (System.String)___parameters[1];
-			screenRectPosition = (UnityEngine.Rect)___parameters[2];
+			@tooltip = (System.String)___parameters[1];
+			@screenRectPosition = (UnityEngine.Rect)___parameters[2];
 
             return (System.Boolean)___result;
         }

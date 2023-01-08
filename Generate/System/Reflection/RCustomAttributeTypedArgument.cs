@@ -266,7 +266,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 	    {
 	    }
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};
@@ -288,7 +288,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
         }
 
 
-        public static System.Boolean op_Equality(System.Reflection.CustomAttributeTypedArgument  @left, System.Reflection.CustomAttributeTypedArgument  @right)
+        public static System.Boolean op_Equality(System.Reflection.CustomAttributeTypedArgument @left, System.Reflection.CustomAttributeTypedArgument @right)
         {
 
             var ___genericsType = new Type[] {};
@@ -299,7 +299,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
         }
 
 
-        public static System.Boolean op_Inequality(System.Reflection.CustomAttributeTypedArgument  @left, System.Reflection.CustomAttributeTypedArgument  @right)
+        public static System.Boolean op_Inequality(System.Reflection.CustomAttributeTypedArgument @left, System.Reflection.CustomAttributeTypedArgument @right)
         {
 
             var ___genericsType = new Type[] {};
@@ -321,7 +321,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
         }
 
 
-        public virtual System.String ToString(System.Boolean  @typed)
+        public virtual System.String ToString(System.Boolean @typed)
         {
 
             var ___genericsType = new Type[] {};
@@ -332,7 +332,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
         }
 
 
-        public static System.Object CanonicalizeValue(System.Object  @value)
+        public static System.Object CanonicalizeValue(System.Object @value)
         {
 
             var ___genericsType = new Type[] {};

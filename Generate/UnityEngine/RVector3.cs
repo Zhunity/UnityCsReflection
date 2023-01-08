@@ -1439,7 +1439,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 	    {
 	    }
 
-        public static UnityEngine.Vector3 Slerp(UnityEngine.Vector3  @a, UnityEngine.Vector3  @b, System.Single  @t)
+        public static UnityEngine.Vector3 Slerp(UnityEngine.Vector3 @a, UnityEngine.Vector3 @b, System.Single @t)
         {
 
             var ___genericsType = new Type[] {};
@@ -1450,7 +1450,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.Vector3 SlerpUnclamped(UnityEngine.Vector3  @a, UnityEngine.Vector3  @b, System.Single  @t)
+        public static UnityEngine.Vector3 SlerpUnclamped(UnityEngine.Vector3 @a, UnityEngine.Vector3 @b, System.Single @t)
         {
 
             var ___genericsType = new Type[] {};
@@ -1461,7 +1461,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static void OrthoNormalize2(ref UnityEngine.Vector3  @a, ref UnityEngine.Vector3  @b)
+        public static void OrthoNormalize2(ref UnityEngine.Vector3 @a, ref UnityEngine.Vector3 @b)
         {
 
             var ___genericsType = new Type[] {};
@@ -1474,7 +1474,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static void OrthoNormalize(ref UnityEngine.Vector3  @normal, ref UnityEngine.Vector3  @tangent)
+        public static void OrthoNormalize(ref UnityEngine.Vector3 @normal, ref UnityEngine.Vector3 @tangent)
         {
 
             var ___genericsType = new Type[] {};
@@ -1487,7 +1487,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static void OrthoNormalize3(ref UnityEngine.Vector3  @a, ref UnityEngine.Vector3  @b, ref UnityEngine.Vector3  @c)
+        public static void OrthoNormalize3(ref UnityEngine.Vector3 @a, ref UnityEngine.Vector3 @b, ref UnityEngine.Vector3 @c)
         {
 
             var ___genericsType = new Type[] {};
@@ -1501,7 +1501,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static void OrthoNormalize(ref UnityEngine.Vector3  @normal, ref UnityEngine.Vector3  @tangent, ref UnityEngine.Vector3  @binormal)
+        public static void OrthoNormalize(ref UnityEngine.Vector3 @normal, ref UnityEngine.Vector3 @tangent, ref UnityEngine.Vector3 @binormal)
         {
 
             var ___genericsType = new Type[] {};
@@ -1515,7 +1515,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.Vector3 RotateTowards(UnityEngine.Vector3  @current, UnityEngine.Vector3  @target, System.Single  @maxRadiansDelta, System.Single  @maxMagnitudeDelta)
+        public static UnityEngine.Vector3 RotateTowards(UnityEngine.Vector3 @current, UnityEngine.Vector3 @target, System.Single @maxRadiansDelta, System.Single @maxMagnitudeDelta)
         {
 
             var ___genericsType = new Type[] {};
@@ -1526,7 +1526,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.Vector3 Lerp(UnityEngine.Vector3  @a, UnityEngine.Vector3  @b, System.Single  @t)
+        public static UnityEngine.Vector3 Lerp(UnityEngine.Vector3 @a, UnityEngine.Vector3 @b, System.Single @t)
         {
 
             var ___genericsType = new Type[] {};
@@ -1537,7 +1537,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.Vector3 LerpUnclamped(UnityEngine.Vector3  @a, UnityEngine.Vector3  @b, System.Single  @t)
+        public static UnityEngine.Vector3 LerpUnclamped(UnityEngine.Vector3 @a, UnityEngine.Vector3 @b, System.Single @t)
         {
 
             var ___genericsType = new Type[] {};
@@ -1548,7 +1548,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.Vector3 MoveTowards(UnityEngine.Vector3  @current, UnityEngine.Vector3  @target, System.Single  @maxDistanceDelta)
+        public static UnityEngine.Vector3 MoveTowards(UnityEngine.Vector3 @current, UnityEngine.Vector3 @target, System.Single @maxDistanceDelta)
         {
 
             var ___genericsType = new Type[] {};
@@ -1559,7 +1559,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.Vector3 SmoothDamp(UnityEngine.Vector3  @current, UnityEngine.Vector3  @target, ref UnityEngine.Vector3  @currentVelocity, System.Single  @smoothTime, System.Single  @maxSpeed)
+        public static UnityEngine.Vector3 SmoothDamp(UnityEngine.Vector3 @current, UnityEngine.Vector3 @target, ref UnityEngine.Vector3 @currentVelocity, System.Single @smoothTime, System.Single @maxSpeed)
         {
 
             var ___genericsType = new Type[] {};
@@ -1571,7 +1571,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.Vector3 SmoothDamp(UnityEngine.Vector3  @current, UnityEngine.Vector3  @target, ref UnityEngine.Vector3  @currentVelocity, System.Single  @smoothTime)
+        public static UnityEngine.Vector3 SmoothDamp(UnityEngine.Vector3 @current, UnityEngine.Vector3 @target, ref UnityEngine.Vector3 @currentVelocity, System.Single @smoothTime)
         {
 
             var ___genericsType = new Type[] {};
@@ -1583,7 +1583,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.Vector3 SmoothDamp(UnityEngine.Vector3  @current, UnityEngine.Vector3  @target, ref UnityEngine.Vector3  @currentVelocity, System.Single  @smoothTime, System.Single  @maxSpeed, System.Single  @deltaTime)
+        public static UnityEngine.Vector3 SmoothDamp(UnityEngine.Vector3 @current, UnityEngine.Vector3 @target, ref UnityEngine.Vector3 @currentVelocity, System.Single @smoothTime, System.Single @maxSpeed, System.Single @deltaTime)
         {
 
             var ___genericsType = new Type[] {};
@@ -1595,7 +1595,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void Set(System.Single  @newX, System.Single  @newY, System.Single  @newZ)
+        public virtual void Set(System.Single @newX, System.Single @newY, System.Single @newZ)
         {
 
             var ___genericsType = new Type[] {};
@@ -1606,7 +1606,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.Vector3 Scale(UnityEngine.Vector3  @a, UnityEngine.Vector3  @b)
+        public static UnityEngine.Vector3 Scale(UnityEngine.Vector3 @a, UnityEngine.Vector3 @b)
         {
 
             var ___genericsType = new Type[] {};
@@ -1617,7 +1617,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void Scale(UnityEngine.Vector3  @scale)
+        public virtual void Scale(UnityEngine.Vector3 @scale)
         {
 
             var ___genericsType = new Type[] {};
@@ -1628,7 +1628,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.Vector3 Cross(UnityEngine.Vector3  @lhs, UnityEngine.Vector3  @rhs)
+        public static UnityEngine.Vector3 Cross(UnityEngine.Vector3 @lhs, UnityEngine.Vector3 @rhs)
         {
 
             var ___genericsType = new Type[] {};
@@ -1650,7 +1650,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @other)
+        public virtual System.Boolean Equals(System.Object @other)
         {
 
             var ___genericsType = new Type[] {};
@@ -1661,7 +1661,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Boolean Equals(UnityEngine.Vector3  @other)
+        public virtual System.Boolean Equals(UnityEngine.Vector3 @other)
         {
 
             var ___genericsType = new Type[] {};
@@ -1672,7 +1672,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.Vector3 Reflect(UnityEngine.Vector3  @inDirection, UnityEngine.Vector3  @inNormal)
+        public static UnityEngine.Vector3 Reflect(UnityEngine.Vector3 @inDirection, UnityEngine.Vector3 @inNormal)
         {
 
             var ___genericsType = new Type[] {};
@@ -1683,7 +1683,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.Vector3 Normalize(UnityEngine.Vector3  @value)
+        public static UnityEngine.Vector3 Normalize(UnityEngine.Vector3 @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -1705,7 +1705,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static System.Single Dot(UnityEngine.Vector3  @lhs, UnityEngine.Vector3  @rhs)
+        public static System.Single Dot(UnityEngine.Vector3 @lhs, UnityEngine.Vector3 @rhs)
         {
 
             var ___genericsType = new Type[] {};
@@ -1716,7 +1716,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.Vector3 Project(UnityEngine.Vector3  @vector, UnityEngine.Vector3  @onNormal)
+        public static UnityEngine.Vector3 Project(UnityEngine.Vector3 @vector, UnityEngine.Vector3 @onNormal)
         {
 
             var ___genericsType = new Type[] {};
@@ -1727,7 +1727,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.Vector3 ProjectOnPlane(UnityEngine.Vector3  @vector, UnityEngine.Vector3  @planeNormal)
+        public static UnityEngine.Vector3 ProjectOnPlane(UnityEngine.Vector3 @vector, UnityEngine.Vector3 @planeNormal)
         {
 
             var ___genericsType = new Type[] {};
@@ -1738,7 +1738,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static System.Single Angle(UnityEngine.Vector3  @from, UnityEngine.Vector3  @to)
+        public static System.Single Angle(UnityEngine.Vector3 @from, UnityEngine.Vector3 @to)
         {
 
             var ___genericsType = new Type[] {};
@@ -1749,7 +1749,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static System.Single SignedAngle(UnityEngine.Vector3  @from, UnityEngine.Vector3  @to, UnityEngine.Vector3  @axis)
+        public static System.Single SignedAngle(UnityEngine.Vector3 @from, UnityEngine.Vector3 @to, UnityEngine.Vector3 @axis)
         {
 
             var ___genericsType = new Type[] {};
@@ -1760,7 +1760,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static System.Single Distance(UnityEngine.Vector3  @a, UnityEngine.Vector3  @b)
+        public static System.Single Distance(UnityEngine.Vector3 @a, UnityEngine.Vector3 @b)
         {
 
             var ___genericsType = new Type[] {};
@@ -1771,7 +1771,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.Vector3 ClampMagnitude(UnityEngine.Vector3  @vector, System.Single  @maxLength)
+        public static UnityEngine.Vector3 ClampMagnitude(UnityEngine.Vector3 @vector, System.Single @maxLength)
         {
 
             var ___genericsType = new Type[] {};
@@ -1782,7 +1782,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static System.Single Magnitude(UnityEngine.Vector3  @vector)
+        public static System.Single Magnitude(UnityEngine.Vector3 @vector)
         {
 
             var ___genericsType = new Type[] {};
@@ -1793,7 +1793,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static System.Single SqrMagnitude(UnityEngine.Vector3  @vector)
+        public static System.Single SqrMagnitude(UnityEngine.Vector3 @vector)
         {
 
             var ___genericsType = new Type[] {};
@@ -1804,7 +1804,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.Vector3 Min(UnityEngine.Vector3  @lhs, UnityEngine.Vector3  @rhs)
+        public static UnityEngine.Vector3 Min(UnityEngine.Vector3 @lhs, UnityEngine.Vector3 @rhs)
         {
 
             var ___genericsType = new Type[] {};
@@ -1815,7 +1815,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.Vector3 Max(UnityEngine.Vector3  @lhs, UnityEngine.Vector3  @rhs)
+        public static UnityEngine.Vector3 Max(UnityEngine.Vector3 @lhs, UnityEngine.Vector3 @rhs)
         {
 
             var ___genericsType = new Type[] {};
@@ -1826,7 +1826,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.Vector3 op_Addition(UnityEngine.Vector3  @a, UnityEngine.Vector3  @b)
+        public static UnityEngine.Vector3 op_Addition(UnityEngine.Vector3 @a, UnityEngine.Vector3 @b)
         {
 
             var ___genericsType = new Type[] {};
@@ -1837,7 +1837,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.Vector3 op_Subtraction(UnityEngine.Vector3  @a, UnityEngine.Vector3  @b)
+        public static UnityEngine.Vector3 op_Subtraction(UnityEngine.Vector3 @a, UnityEngine.Vector3 @b)
         {
 
             var ___genericsType = new Type[] {};
@@ -1848,7 +1848,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.Vector3 op_UnaryNegation(UnityEngine.Vector3  @a)
+        public static UnityEngine.Vector3 op_UnaryNegation(UnityEngine.Vector3 @a)
         {
 
             var ___genericsType = new Type[] {};
@@ -1859,7 +1859,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.Vector3 op_Multiply(UnityEngine.Vector3  @a, System.Single  @d)
+        public static UnityEngine.Vector3 op_Multiply(UnityEngine.Vector3 @a, System.Single @d)
         {
 
             var ___genericsType = new Type[] {};
@@ -1870,7 +1870,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.Vector3 op_Multiply(System.Single  @d, UnityEngine.Vector3  @a)
+        public static UnityEngine.Vector3 op_Multiply(System.Single @d, UnityEngine.Vector3 @a)
         {
 
             var ___genericsType = new Type[] {};
@@ -1881,7 +1881,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.Vector3 op_Division(UnityEngine.Vector3  @a, System.Single  @d)
+        public static UnityEngine.Vector3 op_Division(UnityEngine.Vector3 @a, System.Single @d)
         {
 
             var ___genericsType = new Type[] {};
@@ -1892,7 +1892,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static System.Boolean op_Equality(UnityEngine.Vector3  @lhs, UnityEngine.Vector3  @rhs)
+        public static System.Boolean op_Equality(UnityEngine.Vector3 @lhs, UnityEngine.Vector3 @rhs)
         {
 
             var ___genericsType = new Type[] {};
@@ -1903,7 +1903,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static System.Boolean op_Inequality(UnityEngine.Vector3  @lhs, UnityEngine.Vector3  @rhs)
+        public static System.Boolean op_Inequality(UnityEngine.Vector3 @lhs, UnityEngine.Vector3 @rhs)
         {
 
             var ___genericsType = new Type[] {};
@@ -1925,7 +1925,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.String ToString(System.String  @format)
+        public virtual System.String ToString(System.String @format)
         {
 
             var ___genericsType = new Type[] {};
@@ -1936,7 +1936,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.String ToString(System.String  @format, System.IFormatProvider  @formatProvider)
+        public virtual System.String ToString(System.String @format, System.IFormatProvider @formatProvider)
         {
 
             var ___genericsType = new Type[] {};
@@ -1947,7 +1947,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static System.Single AngleBetween(UnityEngine.Vector3  @from, UnityEngine.Vector3  @to)
+        public static System.Single AngleBetween(UnityEngine.Vector3 @from, UnityEngine.Vector3 @to)
         {
 
             var ___genericsType = new Type[] {};
@@ -1958,7 +1958,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.Vector3 Exclude(UnityEngine.Vector3  @excludeThis, UnityEngine.Vector3  @fromThat)
+        public static UnityEngine.Vector3 Exclude(UnityEngine.Vector3 @excludeThis, UnityEngine.Vector3 @fromThat)
         {
 
             var ___genericsType = new Type[] {};
@@ -1969,7 +1969,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static void Slerp_Injected(ref UnityEngine.Vector3  @a, ref UnityEngine.Vector3  @b, System.Single  @t, out UnityEngine.Vector3  @ret)
+        public static void Slerp_Injected(ref UnityEngine.Vector3 @a, ref UnityEngine.Vector3 @b, System.Single @t, out UnityEngine.Vector3 @ret)
         {
 			@ret = default;
 
@@ -1984,7 +1984,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static void SlerpUnclamped_Injected(ref UnityEngine.Vector3  @a, ref UnityEngine.Vector3  @b, System.Single  @t, out UnityEngine.Vector3  @ret)
+        public static void SlerpUnclamped_Injected(ref UnityEngine.Vector3 @a, ref UnityEngine.Vector3 @b, System.Single @t, out UnityEngine.Vector3 @ret)
         {
 			@ret = default;
 
@@ -1999,7 +1999,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static void RotateTowards_Injected(ref UnityEngine.Vector3  @current, ref UnityEngine.Vector3  @target, System.Single  @maxRadiansDelta, System.Single  @maxMagnitudeDelta, out UnityEngine.Vector3  @ret)
+        public static void RotateTowards_Injected(ref UnityEngine.Vector3 @current, ref UnityEngine.Vector3 @target, System.Single @maxRadiansDelta, System.Single @maxMagnitudeDelta, out UnityEngine.Vector3 @ret)
         {
 			@ret = default;
 

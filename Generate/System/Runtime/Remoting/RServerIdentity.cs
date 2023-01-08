@@ -657,7 +657,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting
 	    {
 	    }
 
-        public virtual void StartTrackingLifetime(System.Runtime.Remoting.Lifetime.ILease  @lease)
+        public virtual void StartTrackingLifetime(System.Runtime.Remoting.Lifetime.ILease @lease)
         {
 
             var ___genericsType = new Type[] {};
@@ -679,7 +679,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting
         }
 
 
-        public virtual System.Runtime.Remoting.ObjRef CreateObjRef(System.Type  @requestedType)
+        public virtual System.Runtime.Remoting.ObjRef CreateObjRef(System.Type @requestedType)
         {
 
             var ___genericsType = new Type[] {};
@@ -690,7 +690,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting
         }
 
 
-        public virtual void AttachServerObject(System.MarshalByRefObject  @serverObject, System.Runtime.Remoting.Contexts.Context  @context)
+        public virtual void AttachServerObject(System.MarshalByRefObject @serverObject, System.Runtime.Remoting.Contexts.Context @context)
         {
 
             var ___genericsType = new Type[] {};
@@ -701,7 +701,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting
         }
 
 
-        public virtual System.Runtime.Remoting.Messaging.IMessage SyncObjectProcessMessage(System.Runtime.Remoting.Messaging.IMessage  @msg)
+        public virtual System.Runtime.Remoting.Messaging.IMessage SyncObjectProcessMessage(System.Runtime.Remoting.Messaging.IMessage @msg)
         {
 
             var ___genericsType = new Type[] {};
@@ -712,7 +712,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting
         }
 
 
-        public virtual System.Runtime.Remoting.Messaging.IMessageCtrl AsyncObjectProcessMessage(System.Runtime.Remoting.Messaging.IMessage  @msg, System.Runtime.Remoting.Messaging.IMessageSink  @replySink)
+        public virtual System.Runtime.Remoting.Messaging.IMessageCtrl AsyncObjectProcessMessage(System.Runtime.Remoting.Messaging.IMessage @msg, System.Runtime.Remoting.Messaging.IMessageSink @replySink)
         {
 
             var ___genericsType = new Type[] {};
@@ -734,7 +734,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting
         }
 
 
-        public virtual void NotifyClientDynamicSinks(System.Boolean  @start, System.Runtime.Remoting.Messaging.IMessage  @req_msg, System.Boolean  @client_site, System.Boolean  @async)
+        public virtual void NotifyClientDynamicSinks(System.Boolean @start, System.Runtime.Remoting.Messaging.IMessage @req_msg, System.Boolean @client_site, System.Boolean @async)
         {
 
             var ___genericsType = new Type[] {};
@@ -745,7 +745,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting
         }
 
 
-        public virtual void NotifyServerDynamicSinks(System.Boolean  @start, System.Runtime.Remoting.Messaging.IMessage  @req_msg, System.Boolean  @client_site, System.Boolean  @async)
+        public virtual void NotifyServerDynamicSinks(System.Boolean @start, System.Runtime.Remoting.Messaging.IMessage @req_msg, System.Boolean @client_site, System.Boolean @async)
         {
 
             var ___genericsType = new Type[] {};
@@ -756,7 +756,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

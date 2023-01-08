@@ -3088,7 +3088,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 	    {
 	    }
 
-        public static UnityEngine.TextCore.Text.FontAsset CreateFontAsset(System.String  @familyName, System.String  @styleName, System.Int32  @pointSize)
+        public static UnityEngine.TextCore.Text.FontAsset CreateFontAsset(System.String @familyName, System.String @styleName, System.Int32 @pointSize)
         {
 
             var ___genericsType = new Type[] {};
@@ -3099,7 +3099,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
         }
 
 
-        public static UnityEngine.TextCore.Text.FontAsset CreateFontAsset(System.String  @fontFilePath, System.Int32  @faceIndex, System.Int32  @samplingPointSize, System.Int32  @atlasPadding, UnityEngine.TextCore.LowLevel.GlyphRenderMode  @renderMode, System.Int32  @atlasWidth, System.Int32  @atlasHeight)
+        public static UnityEngine.TextCore.Text.FontAsset CreateFontAsset(System.String @fontFilePath, System.Int32 @faceIndex, System.Int32 @samplingPointSize, System.Int32 @atlasPadding, UnityEngine.TextCore.LowLevel.GlyphRenderMode @renderMode, System.Int32 @atlasWidth, System.Int32 @atlasHeight)
         {
 
             var ___genericsType = new Type[] {};
@@ -3110,7 +3110,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
         }
 
 
-        public static UnityEngine.TextCore.Text.FontAsset CreateFontAsset(System.String  @fontFilePath, System.Int32  @faceIndex, System.Int32  @samplingPointSize, System.Int32  @atlasPadding, UnityEngine.TextCore.LowLevel.GlyphRenderMode  @renderMode, System.Int32  @atlasWidth, System.Int32  @atlasHeight, UnityEngine.TextCore.Text.AtlasPopulationMode  @atlasPopulationMode, System.Boolean  @enableMultiAtlasSupport)
+        public static UnityEngine.TextCore.Text.FontAsset CreateFontAsset(System.String @fontFilePath, System.Int32 @faceIndex, System.Int32 @samplingPointSize, System.Int32 @atlasPadding, UnityEngine.TextCore.LowLevel.GlyphRenderMode @renderMode, System.Int32 @atlasWidth, System.Int32 @atlasHeight, UnityEngine.TextCore.Text.AtlasPopulationMode @atlasPopulationMode, System.Boolean @enableMultiAtlasSupport)
         {
 
             var ___genericsType = new Type[] {};
@@ -3121,7 +3121,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
         }
 
 
-        public static UnityEngine.TextCore.Text.FontAsset CreateFontAsset(UnityEngine.Font  @font)
+        public static UnityEngine.TextCore.Text.FontAsset CreateFontAsset(UnityEngine.Font @font)
         {
 
             var ___genericsType = new Type[] {};
@@ -3132,7 +3132,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
         }
 
 
-        public static UnityEngine.TextCore.Text.FontAsset CreateFontAsset(UnityEngine.Font  @font, System.Int32  @samplingPointSize, System.Int32  @atlasPadding, UnityEngine.TextCore.LowLevel.GlyphRenderMode  @renderMode, System.Int32  @atlasWidth, System.Int32  @atlasHeight, UnityEngine.TextCore.Text.AtlasPopulationMode  @atlasPopulationMode, System.Boolean  @enableMultiAtlasSupport)
+        public static UnityEngine.TextCore.Text.FontAsset CreateFontAsset(UnityEngine.Font @font, System.Int32 @samplingPointSize, System.Int32 @atlasPadding, UnityEngine.TextCore.LowLevel.GlyphRenderMode @renderMode, System.Int32 @atlasWidth, System.Int32 @atlasHeight, UnityEngine.TextCore.Text.AtlasPopulationMode @atlasPopulationMode, System.Boolean @enableMultiAtlasSupport)
         {
 
             var ___genericsType = new Type[] {};
@@ -3143,7 +3143,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
         }
 
 
-        public static UnityEngine.TextCore.Text.FontAsset CreateFontAsset(UnityEngine.Font  @font, System.Int32  @faceIndex, System.Int32  @samplingPointSize, System.Int32  @atlasPadding, UnityEngine.TextCore.LowLevel.GlyphRenderMode  @renderMode, System.Int32  @atlasWidth, System.Int32  @atlasHeight, UnityEngine.TextCore.Text.AtlasPopulationMode  @atlasPopulationMode, System.Boolean  @enableMultiAtlasSupport)
+        public static UnityEngine.TextCore.Text.FontAsset CreateFontAsset(UnityEngine.Font @font, System.Int32 @faceIndex, System.Int32 @samplingPointSize, System.Int32 @atlasPadding, UnityEngine.TextCore.LowLevel.GlyphRenderMode @renderMode, System.Int32 @atlasWidth, System.Int32 @atlasHeight, UnityEngine.TextCore.Text.AtlasPopulationMode @atlasPopulationMode, System.Boolean @enableMultiAtlasSupport)
         {
 
             var ___genericsType = new Type[] {};
@@ -3154,7 +3154,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
         }
 
 
-        public static UnityEngine.TextCore.Text.FontAsset CreateFontAssetInstance(UnityEngine.Font  @font, System.Int32  @atlasPadding, UnityEngine.TextCore.LowLevel.GlyphRenderMode  @renderMode, System.Int32  @atlasWidth, System.Int32  @atlasHeight, UnityEngine.TextCore.Text.AtlasPopulationMode  @atlasPopulationMode, System.Boolean  @enableMultiAtlasSupport)
+        public static UnityEngine.TextCore.Text.FontAsset CreateFontAssetInstance(UnityEngine.Font @font, System.Int32 @atlasPadding, UnityEngine.TextCore.LowLevel.GlyphRenderMode @renderMode, System.Int32 @atlasWidth, System.Int32 @atlasHeight, UnityEngine.TextCore.Text.AtlasPopulationMode @atlasPopulationMode, System.Boolean @enableMultiAtlasSupport)
         {
 
             var ___genericsType = new Type[] {};
@@ -3297,7 +3297,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
         }
 
 
-        public virtual void AddSynthesizedCharacter(System.UInt32  @unicode, System.Boolean  @isFontFaceLoaded, System.Boolean  @addImmediately)
+        public virtual void AddSynthesizedCharacter(System.UInt32 @unicode, System.Boolean @isFontFaceLoaded, System.Boolean @addImmediately)
         {
 
             var ___genericsType = new Type[] {};
@@ -3308,7 +3308,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
         }
 
 
-        public virtual void AddCharacterToLookupCache(System.UInt32  @unicode, UnityEngine.TextCore.Text.Character  @character)
+        public virtual void AddCharacterToLookupCache(System.UInt32 @unicode, UnityEngine.TextCore.Text.Character @character)
         {
 
             var ___genericsType = new Type[] {};
@@ -3374,7 +3374,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
         }
 
 
-        public virtual System.Boolean HasCharacter(System.Int32  @character)
+        public virtual System.Boolean HasCharacter(System.Int32 @character)
         {
 
             var ___genericsType = new Type[] {};
@@ -3385,7 +3385,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
         }
 
 
-        public virtual System.Boolean HasCharacter(System.Char  @character, System.Boolean  @searchFallbacks, System.Boolean  @tryAddCharacter)
+        public virtual System.Boolean HasCharacter(System.Char @character, System.Boolean @searchFallbacks, System.Boolean @tryAddCharacter)
         {
 
             var ___genericsType = new Type[] {};
@@ -3396,7 +3396,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
         }
 
 
-        public virtual System.Boolean HasCharacter_Internal(System.UInt32  @character, System.Boolean  @searchFallbacks, System.Boolean  @tryAddCharacter)
+        public virtual System.Boolean HasCharacter_Internal(System.UInt32 @character, System.Boolean @searchFallbacks, System.Boolean @tryAddCharacter)
         {
 
             var ___genericsType = new Type[] {};
@@ -3407,7 +3407,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
         }
 
 
-        public virtual System.Boolean HasCharacters(System.String  @text, out System.Collections.Generic.List<System.Char>  @missingCharacters)
+        public virtual System.Boolean HasCharacters(System.String @text, out System.Collections.Generic.List<System.Char> @missingCharacters)
         {
 			@missingCharacters = default;
 
@@ -3420,7 +3420,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
         }
 
 
-        public virtual System.Boolean HasCharacters(System.String  @text, out System.UInt32[]  @missingCharacters, System.Boolean  @searchFallbacks, System.Boolean  @tryAddCharacter)
+        public virtual System.Boolean HasCharacters(System.String @text, out System.UInt32[] @missingCharacters, System.Boolean @searchFallbacks, System.Boolean @tryAddCharacter)
         {
 			@missingCharacters = default;
 
@@ -3433,7 +3433,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
         }
 
 
-        public virtual System.Boolean HasCharacters(System.String  @text)
+        public virtual System.Boolean HasCharacters(System.String @text)
         {
 
             var ___genericsType = new Type[] {};
@@ -3444,7 +3444,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
         }
 
 
-        public static System.String GetCharacters(UnityEngine.TextCore.Text.FontAsset  @fontAsset)
+        public static System.String GetCharacters(UnityEngine.TextCore.Text.FontAsset @fontAsset)
         {
 
             var ___genericsType = new Type[] {};
@@ -3455,7 +3455,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
         }
 
 
-        public static System.Int32[] GetCharactersArray(UnityEngine.TextCore.Text.FontAsset  @fontAsset)
+        public static System.Int32[] GetCharactersArray(UnityEngine.TextCore.Text.FontAsset @fontAsset)
         {
 
             var ___genericsType = new Type[] {};
@@ -3466,7 +3466,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
         }
 
 
-        public virtual System.UInt32 GetGlyphIndex(System.UInt32  @unicode)
+        public virtual System.UInt32 GetGlyphIndex(System.UInt32 @unicode)
         {
 
             var ___genericsType = new Type[] {};
@@ -3477,7 +3477,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
         }
 
 
-        public static void RegisterFontAssetForFontFeatureUpdate(UnityEngine.TextCore.Text.FontAsset  @fontAsset)
+        public static void RegisterFontAssetForFontFeatureUpdate(UnityEngine.TextCore.Text.FontAsset @fontAsset)
         {
 
             var ___genericsType = new Type[] {};
@@ -3499,7 +3499,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
         }
 
 
-        public static void RegisterAtlasTextureForApply(UnityEngine.Texture2D  @texture)
+        public static void RegisterAtlasTextureForApply(UnityEngine.Texture2D @texture)
         {
 
             var ___genericsType = new Type[] {};
@@ -3532,7 +3532,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
         }
 
 
-        public virtual System.Boolean TryAddCharacters(System.UInt32[]  @unicodes, System.Boolean  @includeFontFeatures)
+        public virtual System.Boolean TryAddCharacters(System.UInt32[] @unicodes, System.Boolean @includeFontFeatures)
         {
 
             var ___genericsType = new Type[] {};
@@ -3543,7 +3543,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
         }
 
 
-        public virtual System.Boolean TryAddCharacters(System.UInt32[]  @unicodes, out System.UInt32[]  @missingUnicodes, System.Boolean  @includeFontFeatures)
+        public virtual System.Boolean TryAddCharacters(System.UInt32[] @unicodes, out System.UInt32[] @missingUnicodes, System.Boolean @includeFontFeatures)
         {
 			@missingUnicodes = default;
 
@@ -3556,7 +3556,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
         }
 
 
-        public virtual System.Boolean TryAddCharacters(System.String  @characters, System.Boolean  @includeFontFeatures)
+        public virtual System.Boolean TryAddCharacters(System.String @characters, System.Boolean @includeFontFeatures)
         {
 
             var ___genericsType = new Type[] {};
@@ -3567,7 +3567,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
         }
 
 
-        public virtual System.Boolean TryAddCharacters(System.String  @characters, out System.String  @missingCharacters, System.Boolean  @includeFontFeatures)
+        public virtual System.Boolean TryAddCharacters(System.String @characters, out System.String @missingCharacters, System.Boolean @includeFontFeatures)
         {
 			@missingCharacters = default;
 
@@ -3580,7 +3580,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
         }
 
 
-        public virtual System.Boolean TryAddGlyphInternal(System.UInt32  @glyphIndex, out UnityEngine.TextCore.Glyph  @glyph)
+        public virtual System.Boolean TryAddGlyphInternal(System.UInt32 @glyphIndex, out UnityEngine.TextCore.Glyph @glyph)
         {
 			@glyph = default;
 
@@ -3593,7 +3593,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
         }
 
 
-        public virtual System.Boolean TryAddCharacterInternal(System.UInt32  @unicode, out UnityEngine.TextCore.Text.Character  @character, System.Boolean  @shouldGetFontFeatures)
+        public virtual System.Boolean TryAddCharacterInternal(System.UInt32 @unicode, out UnityEngine.TextCore.Text.Character @character, System.Boolean @shouldGetFontFeatures)
         {
 			@character = default;
 
@@ -3606,7 +3606,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
         }
 
 
-        public virtual System.Boolean TryGetCharacter_and_QueueRenderToTexture(System.UInt32  @unicode, out UnityEngine.TextCore.Text.Character  @character, System.Boolean  @shouldGetFontFeatures)
+        public virtual System.Boolean TryGetCharacter_and_QueueRenderToTexture(System.UInt32 @unicode, out UnityEngine.TextCore.Text.Character @character, System.Boolean @shouldGetFontFeatures)
         {
 			@character = default;
 
@@ -3674,7 +3674,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
         }
 
 
-        public virtual void UpdateGlyphAdjustmentRecords(System.UInt32[]  @glyphIndexes)
+        public virtual void UpdateGlyphAdjustmentRecords(System.UInt32[] @glyphIndexes)
         {
 
             var ___genericsType = new Type[] {};
@@ -3685,7 +3685,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
         }
 
 
-        public virtual void UpdateGlyphAdjustmentRecords(System.Collections.Generic.List<System.UInt32>  @glyphIndexes)
+        public virtual void UpdateGlyphAdjustmentRecords(System.Collections.Generic.List<System.UInt32> @glyphIndexes)
         {
 
             var ___genericsType = new Type[] {};
@@ -3696,7 +3696,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
         }
 
 
-        public virtual void UpdateGlyphAdjustmentRecords(System.Collections.Generic.List<System.UInt32>  @newGlyphIndexes, System.Collections.Generic.List<System.UInt32>  @allGlyphIndexes)
+        public virtual void UpdateGlyphAdjustmentRecords(System.Collections.Generic.List<System.UInt32> @newGlyphIndexes, System.Collections.Generic.List<System.UInt32> @allGlyphIndexes)
         {
 
             var ___genericsType = new Type[] {};
@@ -3707,7 +3707,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
         }
 
 
-        public virtual void CopyListDataToArray<T>(System.Collections.Generic.List<T>  @srcList, ref T[]  @dstArray)
+        public virtual void CopyListDataToArray<T>(System.Collections.Generic.List<T> @srcList, ref T[] @dstArray)
         {
 
             var ___genericsType = new Type[] {typeof(T)};
@@ -3719,7 +3719,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
         }
 
 
-        public virtual void ClearFontAssetData(System.Boolean  @setAtlasSizeToZero)
+        public virtual void ClearFontAssetData(System.Boolean @setAtlasSizeToZero)
         {
 
             var ___genericsType = new Type[] {};
@@ -3730,7 +3730,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
         }
 
 
-        public virtual void ClearFontAssetDataInternal(System.Boolean  @clearFontFeatures)
+        public virtual void ClearFontAssetDataInternal(System.Boolean @clearFontFeatures)
         {
 
             var ___genericsType = new Type[] {};
@@ -3752,7 +3752,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
         }
 
 
-        public virtual void ClearFontAssetTables(System.Boolean  @clearFontFeatures)
+        public virtual void ClearFontAssetTables(System.Boolean @clearFontFeatures)
         {
 
             var ___genericsType = new Type[] {};
@@ -3763,7 +3763,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
         }
 
 
-        public virtual void ClearAtlasTextures(System.Boolean  @setAtlasSizeToZero)
+        public virtual void ClearAtlasTextures(System.Boolean @setAtlasSizeToZero)
         {
 
             var ___genericsType = new Type[] {};
@@ -3818,7 +3818,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @other)
+        public virtual System.Boolean Equals(System.Object @other)
         {
 
             var ___genericsType = new Type[] {};

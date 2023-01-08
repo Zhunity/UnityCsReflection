@@ -487,7 +487,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 	    {
 	    }
 
-        public virtual void ResizeMeshInfo(System.Int32  @size)
+        public virtual void ResizeMeshInfo(System.Int32 @size)
         {
 
             var ___genericsType = new Type[] {};
@@ -498,7 +498,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
         }
 
 
-        public virtual void Clear(System.Boolean  @uploadChanges)
+        public virtual void Clear(System.Boolean @uploadChanges)
         {
 
             var ___genericsType = new Type[] {};
@@ -520,7 +520,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
         }
 
 
-        public virtual void ClearUnusedVertices(System.Int32  @startIndex, System.Boolean  @updateMesh)
+        public virtual void ClearUnusedVertices(System.Int32 @startIndex, System.Boolean @updateMesh)
         {
 
             var ___genericsType = new Type[] {};
@@ -531,7 +531,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
         }
 
 
-        public virtual void ClearUnusedVertices(System.Int32  @startIndex)
+        public virtual void ClearUnusedVertices(System.Int32 @startIndex)
         {
 
             var ___genericsType = new Type[] {};
@@ -542,7 +542,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
         }
 
 
-        public virtual void SortGeometry(RType  @order)
+        public virtual void SortGeometry(RType @order)
         {
 
             var ___genericsType = new Type[] {};
@@ -553,7 +553,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
         }
 
 
-        public virtual void SwapVertexData(System.Int32  @src, System.Int32  @dst)
+        public virtual void SwapVertexData(System.Int32 @src, System.Int32 @dst)
         {
 
             var ___genericsType = new Type[] {};
@@ -564,7 +564,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

@@ -379,7 +379,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RProfiling
         }
 
 
-        public static UnityEngine.Profiling.Recorder Get(System.String  @samplerName)
+        public static UnityEngine.Profiling.Recorder Get(System.String @samplerName)
         {
 
             var ___genericsType = new Type[] {};
@@ -412,7 +412,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RProfiling
         }
 
 
-        public virtual void SetEnabled(System.Boolean  @state)
+        public virtual void SetEnabled(System.Boolean @state)
         {
 
             var ___genericsType = new Type[] {};
@@ -423,7 +423,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RProfiling
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

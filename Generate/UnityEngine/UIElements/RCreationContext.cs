@@ -334,7 +334,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 	    {
 	    }
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};
@@ -345,7 +345,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean Equals(UnityEngine.UIElements.CreationContext  @other)
+        public virtual System.Boolean Equals(UnityEngine.UIElements.CreationContext @other)
         {
 
             var ___genericsType = new Type[] {};
@@ -367,7 +367,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public static System.Boolean op_Equality(UnityEngine.UIElements.CreationContext  @context1, UnityEngine.UIElements.CreationContext  @context2)
+        public static System.Boolean op_Equality(UnityEngine.UIElements.CreationContext @context1, UnityEngine.UIElements.CreationContext @context2)
         {
 
             var ___genericsType = new Type[] {};
@@ -378,7 +378,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public static System.Boolean op_Inequality(UnityEngine.UIElements.CreationContext  @context1, UnityEngine.UIElements.CreationContext  @context2)
+        public static System.Boolean op_Inequality(UnityEngine.UIElements.CreationContext @context1, UnityEngine.UIElements.CreationContext @context2)
         {
 
             var ___genericsType = new Type[] {};

@@ -572,7 +572,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
 	    {
 	    }
 
-        public virtual void AddAssembly(System.Object  @id)
+        public virtual void AddAssembly(System.Object @id)
         {
 
             var ___genericsType = new Type[] {};
@@ -583,7 +583,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
         }
 
 
-        public virtual void AddHost(System.Object  @id)
+        public virtual void AddHost(System.Object @id)
         {
 
             var ___genericsType = new Type[] {};
@@ -616,7 +616,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
         }
 
 
-        public virtual void CopyTo(System.Array  @array, System.Int32  @index)
+        public virtual void CopyTo(System.Array @array, System.Int32 @index)
         {
 
             var ___genericsType = new Type[] {};
@@ -660,7 +660,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
         }
 
 
-        public virtual void Merge(System.Security.Policy.Evidence  @evidence)
+        public virtual void Merge(System.Security.Policy.Evidence @evidence)
         {
 
             var ___genericsType = new Type[] {};
@@ -671,7 +671,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
         }
 
 
-        public virtual void RemoveType(System.Type  @t)
+        public virtual void RemoveType(System.Type @t)
         {
 
             var ___genericsType = new Type[] {};
@@ -682,7 +682,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
         }
 
 
-        public static System.Boolean IsAuthenticodePresent(System.Reflection.Assembly  @a)
+        public static System.Boolean IsAuthenticodePresent(System.Reflection.Assembly @a)
         {
 
             var ___genericsType = new Type[] {};
@@ -693,7 +693,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
         }
 
 
-        public static System.Security.Policy.Evidence GetDefaultHostEvidence(System.Reflection.Assembly  @a)
+        public static System.Security.Policy.Evidence GetDefaultHostEvidence(System.Reflection.Assembly @a)
         {
 
             var ___genericsType = new Type[] {};
@@ -704,7 +704,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
         }
 
 
-        public virtual void AddAssemblyEvidence<T>(T  @evidence)
+        public virtual void AddAssemblyEvidence<T>(T @evidence)
         {
 
             var ___genericsType = new Type[] {typeof(T)};
@@ -715,7 +715,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
         }
 
 
-        public virtual void AddHostEvidence<T>(T  @evidence)
+        public virtual void AddHostEvidence<T>(T @evidence)
         {
 
             var ___genericsType = new Type[] {typeof(T)};
@@ -748,7 +748,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

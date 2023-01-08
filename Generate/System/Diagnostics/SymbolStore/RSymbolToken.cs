@@ -237,7 +237,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RDiagnostics.RSymbolStore
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};
@@ -248,7 +248,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RDiagnostics.RSymbolStore
         }
 
 
-        public virtual System.Boolean Equals(System.Diagnostics.SymbolStore.SymbolToken  @obj)
+        public virtual System.Boolean Equals(System.Diagnostics.SymbolStore.SymbolToken @obj)
         {
 
             var ___genericsType = new Type[] {};
@@ -259,7 +259,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RDiagnostics.RSymbolStore
         }
 
 
-        public static System.Boolean op_Equality(System.Diagnostics.SymbolStore.SymbolToken  @a, System.Diagnostics.SymbolStore.SymbolToken  @b)
+        public static System.Boolean op_Equality(System.Diagnostics.SymbolStore.SymbolToken @a, System.Diagnostics.SymbolStore.SymbolToken @b)
         {
 
             var ___genericsType = new Type[] {};
@@ -270,7 +270,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RDiagnostics.RSymbolStore
         }
 
 
-        public static System.Boolean op_Inequality(System.Diagnostics.SymbolStore.SymbolToken  @a, System.Diagnostics.SymbolStore.SymbolToken  @b)
+        public static System.Boolean op_Inequality(System.Diagnostics.SymbolStore.SymbolToken @a, System.Diagnostics.SymbolStore.SymbolToken @b)
         {
 
             var ___genericsType = new Type[] {};

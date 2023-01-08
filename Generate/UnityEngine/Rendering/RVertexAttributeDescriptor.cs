@@ -339,7 +339,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @other)
+        public virtual System.Boolean Equals(System.Object @other)
         {
 
             var ___genericsType = new Type[] {};
@@ -350,7 +350,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual System.Boolean Equals(UnityEngine.Rendering.VertexAttributeDescriptor  @other)
+        public virtual System.Boolean Equals(UnityEngine.Rendering.VertexAttributeDescriptor @other)
         {
 
             var ___genericsType = new Type[] {};
@@ -361,7 +361,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public static System.Boolean op_Equality(UnityEngine.Rendering.VertexAttributeDescriptor  @lhs, UnityEngine.Rendering.VertexAttributeDescriptor  @rhs)
+        public static System.Boolean op_Equality(UnityEngine.Rendering.VertexAttributeDescriptor @lhs, UnityEngine.Rendering.VertexAttributeDescriptor @rhs)
         {
 
             var ___genericsType = new Type[] {};
@@ -372,7 +372,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public static System.Boolean op_Inequality(UnityEngine.Rendering.VertexAttributeDescriptor  @lhs, UnityEngine.Rendering.VertexAttributeDescriptor  @rhs)
+        public static System.Boolean op_Inequality(UnityEngine.Rendering.VertexAttributeDescriptor @lhs, UnityEngine.Rendering.VertexAttributeDescriptor @rhs)
         {
 
             var ___genericsType = new Type[] {};

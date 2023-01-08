@@ -889,7 +889,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
         }
 
 
-        public virtual System.Reflection.MethodInfo[] GetOtherMethods(System.Boolean  @nonPublic)
+        public virtual System.Reflection.MethodInfo[] GetOtherMethods(System.Boolean @nonPublic)
         {
 
             var ___genericsType = new Type[] {};
@@ -933,7 +933,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
         }
 
 
-        public virtual System.Reflection.MethodInfo GetAddMethod(System.Boolean  @nonPublic)
+        public virtual System.Reflection.MethodInfo GetAddMethod(System.Boolean @nonPublic)
         {
 
             var ___genericsType = new Type[] {};
@@ -944,7 +944,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
         }
 
 
-        public virtual System.Reflection.MethodInfo GetRemoveMethod(System.Boolean  @nonPublic)
+        public virtual System.Reflection.MethodInfo GetRemoveMethod(System.Boolean @nonPublic)
         {
 
             var ___genericsType = new Type[] {};
@@ -955,7 +955,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
         }
 
 
-        public virtual System.Reflection.MethodInfo GetRaiseMethod(System.Boolean  @nonPublic)
+        public virtual System.Reflection.MethodInfo GetRaiseMethod(System.Boolean @nonPublic)
         {
 
             var ___genericsType = new Type[] {};
@@ -966,7 +966,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
         }
 
 
-        public virtual void RemoveEventHandler(System.Object  @target, System.Delegate  @handler)
+        public virtual void RemoveEventHandler(System.Object @target, System.Delegate @handler)
         {
 
             var ___genericsType = new Type[] {};
@@ -977,7 +977,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};
@@ -999,7 +999,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
         }
 
 
-        public static System.Boolean op_Equality(System.Reflection.EventInfo  @left, System.Reflection.EventInfo  @right)
+        public static System.Boolean op_Equality(System.Reflection.EventInfo @left, System.Reflection.EventInfo @right)
         {
 
             var ___genericsType = new Type[] {};
@@ -1010,7 +1010,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
         }
 
 
-        public static System.Boolean op_Inequality(System.Reflection.EventInfo  @left, System.Reflection.EventInfo  @right)
+        public static System.Boolean op_Inequality(System.Reflection.EventInfo @left, System.Reflection.EventInfo @right)
         {
 
             var ___genericsType = new Type[] {};
@@ -1021,7 +1021,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
         }
 
 
-        public virtual void AddEventHandler(System.Object  @target, System.Delegate  @handler)
+        public virtual void AddEventHandler(System.Object @target, System.Delegate @handler)
         {
 
             var ___genericsType = new Type[] {};
@@ -1032,7 +1032,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
         }
 
 
-        public static void AddEventFrame<T, D>(RSystem.RReflection.REventInfo.RAddEvent<RType, RType>  @addEvent, System.Object  @obj, System.Object  @dele)
+        public static void AddEventFrame<T, D>(RSystem.RReflection.REventInfo.RAddEvent<RType, RType> @addEvent, System.Object @obj, System.Object @dele)
         {
 
             var ___genericsType = new Type[] {typeof(T), typeof(D)};
@@ -1043,7 +1043,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
         }
 
 
-        public static void StaticAddEventAdapterFrame<D>(RSystem.RReflection.REventInfo.RStaticAddEvent<RType>  @addEvent, System.Object  @obj, System.Object  @dele)
+        public static void StaticAddEventAdapterFrame<D>(RSystem.RReflection.REventInfo.RStaticAddEvent<RType> @addEvent, System.Object @obj, System.Object @dele)
         {
 
             var ___genericsType = new Type[] {typeof(D)};
@@ -1054,18 +1054,18 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
         }
 
 
-        public static System.Object CreateAddEventDelegate(System.Reflection.MethodInfo  @method)
+        public static RSystem.RReflection.REventInfo.RAddEventAdapter CreateAddEventDelegate(System.Reflection.MethodInfo @method)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@method};
             var ___result = RCreateAddEventDelegate_MethodInfo.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RSystem.RReflection.REventInfo.RAddEventAdapter(___result);
         }
 
 
-        public static System.Reflection.EventInfo internal_from_handle_type(System.IntPtr  @event_handle, System.IntPtr  @type_handle)
+        public static System.Reflection.EventInfo internal_from_handle_type(System.IntPtr @event_handle, System.IntPtr @type_handle)
         {
 
             var ___genericsType = new Type[] {};
@@ -1076,7 +1076,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
         }
 
 
-        public static System.Reflection.EventInfo GetEventFromHandle(RMono.RRuntimeEventHandle  @handle, System.RuntimeTypeHandle  @reflectedType)
+        public static System.Reflection.EventInfo GetEventFromHandle(RMono.RRuntimeEventHandle @handle, System.RuntimeTypeHandle @reflectedType)
         {
 
             var ___genericsType = new Type[] {};
@@ -1087,7 +1087,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
         }
 
 
-        public virtual void System__2__Runtime__2__InteropServices__2___EventInfo__2__GetIDsOfNames(in System.Guid  @riid, System.IntPtr  @rgszNames, System.UInt32  @cNames, System.UInt32  @lcid, System.IntPtr  @rgDispId)
+        public virtual void System__2__Runtime__2__InteropServices__2___EventInfo__2__GetIDsOfNames(in System.Guid @riid, System.IntPtr @rgszNames, System.UInt32 @cNames, System.UInt32 @lcid, System.IntPtr @rgDispId)
         {
 
             var ___genericsType = new Type[] {};
@@ -1109,7 +1109,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
         }
 
 
-        public virtual void System__2__Runtime__2__InteropServices__2___EventInfo__2__GetTypeInfo(System.UInt32  @iTInfo, System.UInt32  @lcid, System.IntPtr  @ppTInfo)
+        public virtual void System__2__Runtime__2__InteropServices__2___EventInfo__2__GetTypeInfo(System.UInt32 @iTInfo, System.UInt32 @lcid, System.IntPtr @ppTInfo)
         {
 
             var ___genericsType = new Type[] {};
@@ -1120,7 +1120,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
         }
 
 
-        public virtual void System__2__Runtime__2__InteropServices__2___EventInfo__2__GetTypeInfoCount(out System.UInt32  @pcTInfo)
+        public virtual void System__2__Runtime__2__InteropServices__2___EventInfo__2__GetTypeInfoCount(out System.UInt32 @pcTInfo)
         {
 			@pcTInfo = default;
 
@@ -1133,7 +1133,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
         }
 
 
-        public virtual void System__2__Runtime__2__InteropServices__2___EventInfo__2__Invoke(System.UInt32  @dispIdMember, in System.Guid  @riid, System.UInt32  @lcid, System.Int16  @wFlags, System.IntPtr  @pDispParams, System.IntPtr  @pVarResult, System.IntPtr  @pExcepInfo, System.IntPtr  @puArgErr)
+        public virtual void System__2__Runtime__2__InteropServices__2___EventInfo__2__Invoke(System.UInt32 @dispIdMember, in System.Guid @riid, System.UInt32 @lcid, System.Int16 @wFlags, System.IntPtr @pDispParams, System.IntPtr @pVarResult, System.IntPtr @pExcepInfo, System.IntPtr @puArgErr)
         {
 
             var ___genericsType = new Type[] {};
@@ -1144,7 +1144,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
         }
 
 
-        public virtual System.Boolean HasSameMetadataDefinitionAs(System.Reflection.MemberInfo  @other)
+        public virtual System.Boolean HasSameMetadataDefinitionAs(System.Reflection.MemberInfo @other)
         {
 
             var ___genericsType = new Type[] {};
@@ -1155,7 +1155,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
         }
 
 
-        public virtual System.Boolean IsDefined(System.Type  @attributeType, System.Boolean  @inherit)
+        public virtual System.Boolean IsDefined(System.Type @attributeType, System.Boolean @inherit)
         {
 
             var ___genericsType = new Type[] {};
@@ -1166,7 +1166,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
         }
 
 
-        public virtual System.Object[] GetCustomAttributes(System.Boolean  @inherit)
+        public virtual System.Object[] GetCustomAttributes(System.Boolean @inherit)
         {
 
             var ___genericsType = new Type[] {};
@@ -1177,7 +1177,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
         }
 
 
-        public virtual System.Object[] GetCustomAttributes(System.Type  @attributeType, System.Boolean  @inherit)
+        public virtual System.Object[] GetCustomAttributes(System.Type @attributeType, System.Boolean @inherit)
         {
 
             var ___genericsType = new Type[] {};
@@ -1199,7 +1199,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
         }
 
 
-        public virtual System.Boolean CacheEquals(System.Object  @o)
+        public virtual System.Boolean CacheEquals(System.Object @o)
         {
 
             var ___genericsType = new Type[] {};
@@ -1210,7 +1210,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
         }
 
 
-        public virtual System.Boolean HasSameMetadataDefinitionAsCore<TOther>(System.Reflection.MemberInfo  @other) where TOther : System.Reflection.MemberInfo
+        public virtual System.Boolean HasSameMetadataDefinitionAsCore<TOther>(System.Reflection.MemberInfo @other) where TOther : System.Reflection.MemberInfo
         {
 
             var ___genericsType = new Type[] {typeof(TOther)};

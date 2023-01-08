@@ -470,7 +470,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
 	    {
 	    }
 
-        public virtual void AppendChar(System.Char  @c)
+        public virtual void AppendChar(System.Char @c)
         {
 
             var ___genericsType = new Type[] {};
@@ -514,7 +514,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
         }
 
 
-        public virtual void InsertAt(System.Int32  @index, System.Char  @c)
+        public virtual void InsertAt(System.Int32 @index, System.Char @c)
         {
 
             var ___genericsType = new Type[] {};
@@ -547,7 +547,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
         }
 
 
-        public virtual void RemoveAt(System.Int32  @index)
+        public virtual void RemoveAt(System.Int32 @index)
         {
 
             var ___genericsType = new Type[] {};
@@ -558,7 +558,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
         }
 
 
-        public virtual void SetAt(System.Int32  @index, System.Char  @c)
+        public virtual void SetAt(System.Int32 @index, System.Char @c)
         {
 
             var ___genericsType = new Type[] {};
@@ -591,7 +591,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
         }
 
 
-        public virtual void Alloc(System.Int32  @length, System.Boolean  @realloc)
+        public virtual void Alloc(System.Int32 @length, System.Boolean @realloc)
         {
 
             var ___genericsType = new Type[] {};
@@ -613,7 +613,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

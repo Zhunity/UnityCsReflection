@@ -152,7 +152,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void OnVersionChanged(UnityEngine.UIElements.VisualElement  @ele, RType  @changeTypeFlag)
+        public virtual void OnVersionChanged(UnityEngine.UIElements.VisualElement @ele, RType @changeTypeFlag)
         {
 
             var ___genericsType = new Type[] {};
@@ -163,7 +163,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean InterceptEvent(UnityEngine.UIElements.EventBase  @ev)
+        public virtual System.Boolean InterceptEvent(UnityEngine.UIElements.EventBase @ev)
         {
 
             var ___genericsType = new Type[] {};
@@ -174,7 +174,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void PostProcessEvent(UnityEngine.UIElements.EventBase  @ev)
+        public virtual void PostProcessEvent(UnityEngine.UIElements.EventBase @ev)
         {
 
             var ___genericsType = new Type[] {};

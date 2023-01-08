@@ -385,7 +385,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 	    {
 	    }
 
-        public virtual void CopyTo(System.Security.AccessControl.GenericAce[]  @array, System.Int32  @index)
+        public virtual void CopyTo(System.Security.AccessControl.GenericAce[] @array, System.Int32 @index)
         {
 
             var ___genericsType = new Type[] {};
@@ -396,7 +396,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
         }
 
 
-        public virtual void System__2__Collections__2__ICollection__2__CopyTo(System.Array  @array, System.Int32  @index)
+        public virtual void System__2__Collections__2__ICollection__2__CopyTo(System.Array @array, System.Int32 @index)
         {
 
             var ___genericsType = new Type[] {};
@@ -407,7 +407,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
         }
 
 
-        public virtual void GetBinaryForm(System.Byte[]  @binaryForm, System.Int32  @offset)
+        public virtual void GetBinaryForm(System.Byte[] @binaryForm, System.Int32 @offset)
         {
 
             var ___genericsType = new Type[] {};
@@ -440,7 +440,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
         }
 
 
-        public virtual System.String GetSddlForm(System.Security.AccessControl.ControlFlags  @sdFlags, System.Boolean  @isDacl)
+        public virtual System.String GetSddlForm(System.Security.AccessControl.ControlFlags @sdFlags, System.Boolean @isDacl)
         {
 
             var ___genericsType = new Type[] {};
@@ -451,7 +451,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

@@ -1539,7 +1539,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static System.Single Determinant(UnityEngine.Matrix4x4  @m)
+        public static System.Single Determinant(UnityEngine.Matrix4x4 @m)
         {
 
             var ___genericsType = new Type[] {};
@@ -1550,7 +1550,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.Matrix4x4 TRS(UnityEngine.Vector3  @pos, UnityEngine.Quaternion  @q, UnityEngine.Vector3  @s)
+        public static UnityEngine.Matrix4x4 TRS(UnityEngine.Vector3 @pos, UnityEngine.Quaternion @q, UnityEngine.Vector3 @s)
         {
 
             var ___genericsType = new Type[] {};
@@ -1561,7 +1561,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SetTRS(UnityEngine.Vector3  @pos, UnityEngine.Quaternion  @q, UnityEngine.Vector3  @s)
+        public virtual void SetTRS(UnityEngine.Vector3 @pos, UnityEngine.Quaternion @q, UnityEngine.Vector3 @s)
         {
 
             var ___genericsType = new Type[] {};
@@ -1572,7 +1572,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static System.Boolean Inverse3DAffine(UnityEngine.Matrix4x4  @input, ref UnityEngine.Matrix4x4  @result)
+        public static System.Boolean Inverse3DAffine(UnityEngine.Matrix4x4 @input, ref UnityEngine.Matrix4x4 @result)
         {
 
             var ___genericsType = new Type[] {};
@@ -1584,7 +1584,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.Matrix4x4 Inverse(UnityEngine.Matrix4x4  @m)
+        public static UnityEngine.Matrix4x4 Inverse(UnityEngine.Matrix4x4 @m)
         {
 
             var ___genericsType = new Type[] {};
@@ -1595,7 +1595,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.Matrix4x4 Transpose(UnityEngine.Matrix4x4  @m)
+        public static UnityEngine.Matrix4x4 Transpose(UnityEngine.Matrix4x4 @m)
         {
 
             var ___genericsType = new Type[] {};
@@ -1606,7 +1606,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.Matrix4x4 Ortho(System.Single  @left, System.Single  @right, System.Single  @bottom, System.Single  @top, System.Single  @zNear, System.Single  @zFar)
+        public static UnityEngine.Matrix4x4 Ortho(System.Single @left, System.Single @right, System.Single @bottom, System.Single @top, System.Single @zNear, System.Single @zFar)
         {
 
             var ___genericsType = new Type[] {};
@@ -1617,7 +1617,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.Matrix4x4 Perspective(System.Single  @fov, System.Single  @aspect, System.Single  @zNear, System.Single  @zFar)
+        public static UnityEngine.Matrix4x4 Perspective(System.Single @fov, System.Single @aspect, System.Single @zNear, System.Single @zFar)
         {
 
             var ___genericsType = new Type[] {};
@@ -1628,7 +1628,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.Matrix4x4 LookAt(UnityEngine.Vector3  @from, UnityEngine.Vector3  @to, UnityEngine.Vector3  @up)
+        public static UnityEngine.Matrix4x4 LookAt(UnityEngine.Vector3 @from, UnityEngine.Vector3 @to, UnityEngine.Vector3 @up)
         {
 
             var ___genericsType = new Type[] {};
@@ -1639,7 +1639,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.Matrix4x4 Frustum(System.Single  @left, System.Single  @right, System.Single  @bottom, System.Single  @top, System.Single  @zNear, System.Single  @zFar)
+        public static UnityEngine.Matrix4x4 Frustum(System.Single @left, System.Single @right, System.Single @bottom, System.Single @top, System.Single @zNear, System.Single @zFar)
         {
 
             var ___genericsType = new Type[] {};
@@ -1650,7 +1650,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.Matrix4x4 Frustum(UnityEngine.FrustumPlanes  @fp)
+        public static UnityEngine.Matrix4x4 Frustum(UnityEngine.FrustumPlanes @fp)
         {
 
             var ___genericsType = new Type[] {};
@@ -1672,7 +1672,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @other)
+        public virtual System.Boolean Equals(System.Object @other)
         {
 
             var ___genericsType = new Type[] {};
@@ -1683,7 +1683,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Boolean Equals(UnityEngine.Matrix4x4  @other)
+        public virtual System.Boolean Equals(UnityEngine.Matrix4x4 @other)
         {
 
             var ___genericsType = new Type[] {};
@@ -1694,7 +1694,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.Matrix4x4 op_Multiply(UnityEngine.Matrix4x4  @lhs, UnityEngine.Matrix4x4  @rhs)
+        public static UnityEngine.Matrix4x4 op_Multiply(UnityEngine.Matrix4x4 @lhs, UnityEngine.Matrix4x4 @rhs)
         {
 
             var ___genericsType = new Type[] {};
@@ -1705,7 +1705,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.Vector4 op_Multiply(UnityEngine.Matrix4x4  @lhs, UnityEngine.Vector4  @vector)
+        public static UnityEngine.Vector4 op_Multiply(UnityEngine.Matrix4x4 @lhs, UnityEngine.Vector4 @vector)
         {
 
             var ___genericsType = new Type[] {};
@@ -1716,7 +1716,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static System.Boolean op_Equality(UnityEngine.Matrix4x4  @lhs, UnityEngine.Matrix4x4  @rhs)
+        public static System.Boolean op_Equality(UnityEngine.Matrix4x4 @lhs, UnityEngine.Matrix4x4 @rhs)
         {
 
             var ___genericsType = new Type[] {};
@@ -1727,7 +1727,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static System.Boolean op_Inequality(UnityEngine.Matrix4x4  @lhs, UnityEngine.Matrix4x4  @rhs)
+        public static System.Boolean op_Inequality(UnityEngine.Matrix4x4 @lhs, UnityEngine.Matrix4x4 @rhs)
         {
 
             var ___genericsType = new Type[] {};
@@ -1738,7 +1738,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual UnityEngine.Vector4 GetColumn(System.Int32  @index)
+        public virtual UnityEngine.Vector4 GetColumn(System.Int32 @index)
         {
 
             var ___genericsType = new Type[] {};
@@ -1749,7 +1749,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual UnityEngine.Vector4 GetRow(System.Int32  @index)
+        public virtual UnityEngine.Vector4 GetRow(System.Int32 @index)
         {
 
             var ___genericsType = new Type[] {};
@@ -1771,7 +1771,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SetColumn(System.Int32  @index, UnityEngine.Vector4  @column)
+        public virtual void SetColumn(System.Int32 @index, UnityEngine.Vector4 @column)
         {
 
             var ___genericsType = new Type[] {};
@@ -1782,7 +1782,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SetRow(System.Int32  @index, UnityEngine.Vector4  @row)
+        public virtual void SetRow(System.Int32 @index, UnityEngine.Vector4 @row)
         {
 
             var ___genericsType = new Type[] {};
@@ -1793,7 +1793,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual UnityEngine.Vector3 MultiplyPoint(UnityEngine.Vector3  @point)
+        public virtual UnityEngine.Vector3 MultiplyPoint(UnityEngine.Vector3 @point)
         {
 
             var ___genericsType = new Type[] {};
@@ -1804,7 +1804,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual UnityEngine.Vector3 MultiplyPoint3x4(UnityEngine.Vector3  @point)
+        public virtual UnityEngine.Vector3 MultiplyPoint3x4(UnityEngine.Vector3 @point)
         {
 
             var ___genericsType = new Type[] {};
@@ -1815,7 +1815,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual UnityEngine.Vector3 MultiplyVector(UnityEngine.Vector3  @vector)
+        public virtual UnityEngine.Vector3 MultiplyVector(UnityEngine.Vector3 @vector)
         {
 
             var ___genericsType = new Type[] {};
@@ -1826,7 +1826,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual UnityEngine.Plane TransformPlane(UnityEngine.Plane  @plane)
+        public virtual UnityEngine.Plane TransformPlane(UnityEngine.Plane @plane)
         {
 
             var ___genericsType = new Type[] {};
@@ -1837,7 +1837,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.Matrix4x4 Scale(UnityEngine.Vector3  @vector)
+        public static UnityEngine.Matrix4x4 Scale(UnityEngine.Vector3 @vector)
         {
 
             var ___genericsType = new Type[] {};
@@ -1848,7 +1848,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.Matrix4x4 Translate(UnityEngine.Vector3  @vector)
+        public static UnityEngine.Matrix4x4 Translate(UnityEngine.Vector3 @vector)
         {
 
             var ___genericsType = new Type[] {};
@@ -1859,7 +1859,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.Matrix4x4 Rotate(UnityEngine.Quaternion  @q)
+        public static UnityEngine.Matrix4x4 Rotate(UnityEngine.Quaternion @q)
         {
 
             var ___genericsType = new Type[] {};
@@ -1881,7 +1881,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.String ToString(System.String  @format)
+        public virtual System.String ToString(System.String @format)
         {
 
             var ___genericsType = new Type[] {};
@@ -1892,7 +1892,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.String ToString(System.String  @format, System.IFormatProvider  @formatProvider)
+        public virtual System.String ToString(System.String @format, System.IFormatProvider @formatProvider)
         {
 
             var ___genericsType = new Type[] {};
@@ -1903,7 +1903,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static void GetRotation_Injected(ref UnityEngine.Matrix4x4  @_unity_self, out UnityEngine.Quaternion  @ret)
+        public static void GetRotation_Injected(ref UnityEngine.Matrix4x4 @_unity_self, out UnityEngine.Quaternion @ret)
         {
 			@ret = default;
 
@@ -1917,7 +1917,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static void GetLossyScale_Injected(ref UnityEngine.Matrix4x4  @_unity_self, out UnityEngine.Vector3  @ret)
+        public static void GetLossyScale_Injected(ref UnityEngine.Matrix4x4 @_unity_self, out UnityEngine.Vector3 @ret)
         {
 			@ret = default;
 
@@ -1931,7 +1931,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static System.Boolean IsIdentity_Injected(ref UnityEngine.Matrix4x4  @_unity_self)
+        public static System.Boolean IsIdentity_Injected(ref UnityEngine.Matrix4x4 @_unity_self)
         {
 
             var ___genericsType = new Type[] {};
@@ -1943,7 +1943,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static System.Single GetDeterminant_Injected(ref UnityEngine.Matrix4x4  @_unity_self)
+        public static System.Single GetDeterminant_Injected(ref UnityEngine.Matrix4x4 @_unity_self)
         {
 
             var ___genericsType = new Type[] {};
@@ -1955,7 +1955,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static void DecomposeProjection_Injected(ref UnityEngine.Matrix4x4  @_unity_self, out UnityEngine.FrustumPlanes  @ret)
+        public static void DecomposeProjection_Injected(ref UnityEngine.Matrix4x4 @_unity_self, out UnityEngine.FrustumPlanes @ret)
         {
 			@ret = default;
 
@@ -1969,7 +1969,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static System.Boolean ValidTRS_Injected(ref UnityEngine.Matrix4x4  @_unity_self)
+        public static System.Boolean ValidTRS_Injected(ref UnityEngine.Matrix4x4 @_unity_self)
         {
 
             var ___genericsType = new Type[] {};
@@ -1981,7 +1981,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static void TRS_Injected(ref UnityEngine.Vector3  @pos, ref UnityEngine.Quaternion  @q, ref UnityEngine.Vector3  @s, out UnityEngine.Matrix4x4  @ret)
+        public static void TRS_Injected(ref UnityEngine.Vector3 @pos, ref UnityEngine.Quaternion @q, ref UnityEngine.Vector3 @s, out UnityEngine.Matrix4x4 @ret)
         {
 			@ret = default;
 
@@ -1997,7 +1997,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static System.Boolean Inverse3DAffine_Injected(ref UnityEngine.Matrix4x4  @input, ref UnityEngine.Matrix4x4  @result)
+        public static System.Boolean Inverse3DAffine_Injected(ref UnityEngine.Matrix4x4 @input, ref UnityEngine.Matrix4x4 @result)
         {
 
             var ___genericsType = new Type[] {};
@@ -2010,7 +2010,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static void Inverse_Injected(ref UnityEngine.Matrix4x4  @m, out UnityEngine.Matrix4x4  @ret)
+        public static void Inverse_Injected(ref UnityEngine.Matrix4x4 @m, out UnityEngine.Matrix4x4 @ret)
         {
 			@ret = default;
 
@@ -2024,7 +2024,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static void Transpose_Injected(ref UnityEngine.Matrix4x4  @m, out UnityEngine.Matrix4x4  @ret)
+        public static void Transpose_Injected(ref UnityEngine.Matrix4x4 @m, out UnityEngine.Matrix4x4 @ret)
         {
 			@ret = default;
 
@@ -2038,7 +2038,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static void Ortho_Injected(System.Single  @left, System.Single  @right, System.Single  @bottom, System.Single  @top, System.Single  @zNear, System.Single  @zFar, out UnityEngine.Matrix4x4  @ret)
+        public static void Ortho_Injected(System.Single @left, System.Single @right, System.Single @bottom, System.Single @top, System.Single @zNear, System.Single @zFar, out UnityEngine.Matrix4x4 @ret)
         {
 			@ret = default;
 
@@ -2051,7 +2051,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static void Perspective_Injected(System.Single  @fov, System.Single  @aspect, System.Single  @zNear, System.Single  @zFar, out UnityEngine.Matrix4x4  @ret)
+        public static void Perspective_Injected(System.Single @fov, System.Single @aspect, System.Single @zNear, System.Single @zFar, out UnityEngine.Matrix4x4 @ret)
         {
 			@ret = default;
 
@@ -2064,7 +2064,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static void LookAt_Injected(ref UnityEngine.Vector3  @from, ref UnityEngine.Vector3  @to, ref UnityEngine.Vector3  @up, out UnityEngine.Matrix4x4  @ret)
+        public static void LookAt_Injected(ref UnityEngine.Vector3 @from, ref UnityEngine.Vector3 @to, ref UnityEngine.Vector3 @up, out UnityEngine.Matrix4x4 @ret)
         {
 			@ret = default;
 
@@ -2080,7 +2080,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static void Frustum_Injected(System.Single  @left, System.Single  @right, System.Single  @bottom, System.Single  @top, System.Single  @zNear, System.Single  @zFar, out UnityEngine.Matrix4x4  @ret)
+        public static void Frustum_Injected(System.Single @left, System.Single @right, System.Single @bottom, System.Single @top, System.Single @zNear, System.Single @zFar, out UnityEngine.Matrix4x4 @ret)
         {
 			@ret = default;
 

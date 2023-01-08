@@ -401,7 +401,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RDiagnostics.RSymbolStore
         }
 
 
-        public virtual void CloseScope(System.Int32  @endOffset)
+        public virtual void CloseScope(System.Int32 @endOffset)
         {
 
             var ___genericsType = new Type[] {};
@@ -412,7 +412,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RDiagnostics.RSymbolStore
         }
 
 
-        public virtual System.Diagnostics.SymbolStore.ISymbolDocumentWriter DefineDocument(System.String  @url, System.Guid  @language, System.Guid  @languageVendor, System.Guid  @documentType)
+        public virtual System.Diagnostics.SymbolStore.ISymbolDocumentWriter DefineDocument(System.String @url, System.Guid @language, System.Guid @languageVendor, System.Guid @documentType)
         {
 
             var ___genericsType = new Type[] {};
@@ -423,7 +423,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RDiagnostics.RSymbolStore
         }
 
 
-        public virtual void DefineField(System.Diagnostics.SymbolStore.SymbolToken  @parent, System.String  @name, System.Reflection.FieldAttributes  @attributes, System.Byte[]  @signature, System.Diagnostics.SymbolStore.SymAddressKind  @addrKind, System.Int32  @addr1, System.Int32  @addr2, System.Int32  @addr3)
+        public virtual void DefineField(System.Diagnostics.SymbolStore.SymbolToken @parent, System.String @name, System.Reflection.FieldAttributes @attributes, System.Byte[] @signature, System.Diagnostics.SymbolStore.SymAddressKind @addrKind, System.Int32 @addr1, System.Int32 @addr2, System.Int32 @addr3)
         {
 
             var ___genericsType = new Type[] {};
@@ -434,7 +434,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RDiagnostics.RSymbolStore
         }
 
 
-        public virtual void DefineGlobalVariable(System.String  @name, System.Reflection.FieldAttributes  @attributes, System.Byte[]  @signature, System.Diagnostics.SymbolStore.SymAddressKind  @addrKind, System.Int32  @addr1, System.Int32  @addr2, System.Int32  @addr3)
+        public virtual void DefineGlobalVariable(System.String @name, System.Reflection.FieldAttributes @attributes, System.Byte[] @signature, System.Diagnostics.SymbolStore.SymAddressKind @addrKind, System.Int32 @addr1, System.Int32 @addr2, System.Int32 @addr3)
         {
 
             var ___genericsType = new Type[] {};
@@ -445,7 +445,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RDiagnostics.RSymbolStore
         }
 
 
-        public virtual void DefineLocalVariable(System.String  @name, System.Reflection.FieldAttributes  @attributes, System.Byte[]  @signature, System.Diagnostics.SymbolStore.SymAddressKind  @addrKind, System.Int32  @addr1, System.Int32  @addr2, System.Int32  @addr3, System.Int32  @startOffset, System.Int32  @endOffset)
+        public virtual void DefineLocalVariable(System.String @name, System.Reflection.FieldAttributes @attributes, System.Byte[] @signature, System.Diagnostics.SymbolStore.SymAddressKind @addrKind, System.Int32 @addr1, System.Int32 @addr2, System.Int32 @addr3, System.Int32 @startOffset, System.Int32 @endOffset)
         {
 
             var ___genericsType = new Type[] {};
@@ -456,7 +456,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RDiagnostics.RSymbolStore
         }
 
 
-        public virtual void DefineParameter(System.String  @name, System.Reflection.ParameterAttributes  @attributes, System.Int32  @sequence, System.Diagnostics.SymbolStore.SymAddressKind  @addrKind, System.Int32  @addr1, System.Int32  @addr2, System.Int32  @addr3)
+        public virtual void DefineParameter(System.String @name, System.Reflection.ParameterAttributes @attributes, System.Int32 @sequence, System.Diagnostics.SymbolStore.SymAddressKind @addrKind, System.Int32 @addr1, System.Int32 @addr2, System.Int32 @addr3)
         {
 
             var ___genericsType = new Type[] {};
@@ -467,7 +467,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RDiagnostics.RSymbolStore
         }
 
 
-        public virtual void DefineSequencePoints(System.Diagnostics.SymbolStore.ISymbolDocumentWriter  @document, System.Int32[]  @offsets, System.Int32[]  @lines, System.Int32[]  @columns, System.Int32[]  @endLines, System.Int32[]  @endColumns)
+        public virtual void DefineSequencePoints(System.Diagnostics.SymbolStore.ISymbolDocumentWriter @document, System.Int32[] @offsets, System.Int32[] @lines, System.Int32[] @columns, System.Int32[] @endLines, System.Int32[] @endColumns)
         {
 
             var ___genericsType = new Type[] {};
@@ -478,7 +478,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RDiagnostics.RSymbolStore
         }
 
 
-        public virtual void Initialize(System.IntPtr  @emitter, System.String  @filename, System.Boolean  @fFullBuild)
+        public virtual void Initialize(System.IntPtr @emitter, System.String @filename, System.Boolean @fFullBuild)
         {
 
             var ___genericsType = new Type[] {};
@@ -489,7 +489,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RDiagnostics.RSymbolStore
         }
 
 
-        public virtual void OpenMethod(System.Diagnostics.SymbolStore.SymbolToken  @method)
+        public virtual void OpenMethod(System.Diagnostics.SymbolStore.SymbolToken @method)
         {
 
             var ___genericsType = new Type[] {};
@@ -500,7 +500,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RDiagnostics.RSymbolStore
         }
 
 
-        public virtual void OpenNamespace(System.String  @name)
+        public virtual void OpenNamespace(System.String @name)
         {
 
             var ___genericsType = new Type[] {};
@@ -511,7 +511,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RDiagnostics.RSymbolStore
         }
 
 
-        public virtual System.Int32 OpenScope(System.Int32  @startOffset)
+        public virtual System.Int32 OpenScope(System.Int32 @startOffset)
         {
 
             var ___genericsType = new Type[] {};
@@ -522,7 +522,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RDiagnostics.RSymbolStore
         }
 
 
-        public virtual void SetMethodSourceRange(System.Diagnostics.SymbolStore.ISymbolDocumentWriter  @startDoc, System.Int32  @startLine, System.Int32  @startColumn, System.Diagnostics.SymbolStore.ISymbolDocumentWriter  @endDoc, System.Int32  @endLine, System.Int32  @endColumn)
+        public virtual void SetMethodSourceRange(System.Diagnostics.SymbolStore.ISymbolDocumentWriter @startDoc, System.Int32 @startLine, System.Int32 @startColumn, System.Diagnostics.SymbolStore.ISymbolDocumentWriter @endDoc, System.Int32 @endLine, System.Int32 @endColumn)
         {
 
             var ___genericsType = new Type[] {};
@@ -533,7 +533,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RDiagnostics.RSymbolStore
         }
 
 
-        public virtual void SetScopeRange(System.Int32  @scopeID, System.Int32  @startOffset, System.Int32  @endOffset)
+        public virtual void SetScopeRange(System.Int32 @scopeID, System.Int32 @startOffset, System.Int32 @endOffset)
         {
 
             var ___genericsType = new Type[] {};
@@ -544,7 +544,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RDiagnostics.RSymbolStore
         }
 
 
-        public virtual void SetSymAttribute(System.Diagnostics.SymbolStore.SymbolToken  @parent, System.String  @name, System.Byte[]  @data)
+        public virtual void SetSymAttribute(System.Diagnostics.SymbolStore.SymbolToken @parent, System.String @name, System.Byte[] @data)
         {
 
             var ___genericsType = new Type[] {};
@@ -555,7 +555,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RDiagnostics.RSymbolStore
         }
 
 
-        public virtual void SetUnderlyingWriter(System.IntPtr  @underlyingWriter)
+        public virtual void SetUnderlyingWriter(System.IntPtr @underlyingWriter)
         {
 
             var ___genericsType = new Type[] {};
@@ -566,7 +566,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RDiagnostics.RSymbolStore
         }
 
 
-        public virtual void SetUserEntryPoint(System.Diagnostics.SymbolStore.SymbolToken  @entryMethod)
+        public virtual void SetUserEntryPoint(System.Diagnostics.SymbolStore.SymbolToken @entryMethod)
         {
 
             var ___genericsType = new Type[] {};
@@ -577,7 +577,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RDiagnostics.RSymbolStore
         }
 
 
-        public virtual void UsingNamespace(System.String  @fullName)
+        public virtual void UsingNamespace(System.String @fullName)
         {
 
             var ___genericsType = new Type[] {};

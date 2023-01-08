@@ -317,7 +317,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 	    {
 	    }
 
-        public virtual UnityEngine.UIElements.MeshWriteData Allocate(System.Int32  @vertexCount, System.Int32  @indexCount, UnityEngine.Texture  @texture)
+        public virtual UnityEngine.UIElements.MeshWriteData Allocate(System.Int32 @vertexCount, System.Int32 @indexCount, UnityEngine.Texture @texture)
         {
 
             var ___genericsType = new Type[] {};
@@ -328,7 +328,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual UnityEngine.UIElements.MeshWriteData Allocate(System.Int32  @vertexCount, System.Int32  @indexCount, UnityEngine.Texture  @texture, UnityEngine.Material  @material, RType  @flags)
+        public virtual UnityEngine.UIElements.MeshWriteData Allocate(System.Int32 @vertexCount, System.Int32 @indexCount, UnityEngine.Texture @texture, UnityEngine.Material @material, RType @flags)
         {
 
             var ___genericsType = new Type[] {};
@@ -339,7 +339,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void DrawVectorImage(UnityEngine.UIElements.VectorImage  @vectorImage, UnityEngine.Vector2  @offset, UnityEngine.UIElements.Angle  @rotationAngle, UnityEngine.Vector2  @scale)
+        public virtual void DrawVectorImage(UnityEngine.UIElements.VectorImage @vectorImage, UnityEngine.Vector2 @offset, UnityEngine.UIElements.Angle @rotationAngle, UnityEngine.Vector2 @scale)
         {
 
             var ___genericsType = new Type[] {};
@@ -350,7 +350,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void DrawText(System.String  @text, UnityEngine.Vector2  @pos, System.Single  @fontSize, UnityEngine.Color  @color, UnityEngine.TextCore.Text.FontAsset  @font)
+        public virtual void DrawText(System.String @text, UnityEngine.Vector2 @pos, System.Single @fontSize, UnityEngine.Color @color, UnityEngine.TextCore.Text.FontAsset @font)
         {
 
             var ___genericsType = new Type[] {};
@@ -361,7 +361,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

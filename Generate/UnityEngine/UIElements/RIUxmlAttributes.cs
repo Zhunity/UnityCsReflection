@@ -45,7 +45,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 	    {
 	    }
 
-        public virtual System.Boolean TryGetAttributeValue(System.String  @attributeName, out System.String  @value)
+        public virtual System.Boolean TryGetAttributeValue(System.String @attributeName, out System.String @value)
         {
 			@value = default;
 

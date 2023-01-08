@@ -350,7 +350,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void UpdateText(System.String  @value)
+        public virtual void UpdateText(System.String @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -361,7 +361,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.String CullString(System.String  @s)
+        public virtual System.String CullString(System.String @s)
         {
 
             var ___genericsType = new Type[] {};

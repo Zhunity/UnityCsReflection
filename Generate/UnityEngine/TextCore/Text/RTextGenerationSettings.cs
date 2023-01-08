@@ -1065,7 +1065,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 	    {
 	    }
 
-        public virtual System.Boolean Equals(RUnityEngine.RTextCore.RText.RTextGenerationSettings  @other)
+        public virtual System.Boolean Equals(RUnityEngine.RTextCore.RText.RTextGenerationSettings @other)
         {
 
             var ___genericsType = new Type[] {};
@@ -1076,7 +1076,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};
@@ -1098,7 +1098,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
         }
 
 
-        public static System.Boolean op_Equality(RUnityEngine.RTextCore.RText.RTextGenerationSettings  @left, RUnityEngine.RTextCore.RText.RTextGenerationSettings  @right)
+        public static System.Boolean op_Equality(RUnityEngine.RTextCore.RText.RTextGenerationSettings @left, RUnityEngine.RTextCore.RText.RTextGenerationSettings @right)
         {
 
             var ___genericsType = new Type[] {};
@@ -1109,7 +1109,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
         }
 
 
-        public static System.Boolean op_Inequality(RUnityEngine.RTextCore.RText.RTextGenerationSettings  @left, RUnityEngine.RTextCore.RText.RTextGenerationSettings  @right)
+        public static System.Boolean op_Inequality(RUnityEngine.RTextCore.RText.RTextGenerationSettings @left, RUnityEngine.RTextCore.RText.RTextGenerationSettings @right)
         {
 
             var ___genericsType = new Type[] {};
@@ -1120,7 +1120,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
         }
 
 
-        public virtual void Copy(RUnityEngine.RTextCore.RText.RTextGenerationSettings  @other)
+        public virtual void Copy(RUnityEngine.RTextCore.RText.RTextGenerationSettings @other)
         {
 
             var ___genericsType = new Type[] {};

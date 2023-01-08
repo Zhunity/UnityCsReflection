@@ -260,7 +260,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @value)
+        public virtual System.Boolean Equals(System.Object @value)
         {
 
             var ___genericsType = new Type[] {};

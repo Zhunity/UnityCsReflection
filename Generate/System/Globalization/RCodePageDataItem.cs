@@ -351,7 +351,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 	    {
 	    }
 
-        public static System.String CreateString(System.String  @pStrings, System.UInt32  @index)
+        public static System.String CreateString(System.String @pStrings, System.UInt32 @index)
         {
 
             var ___genericsType = new Type[] {};
@@ -362,7 +362,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

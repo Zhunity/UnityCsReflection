@@ -251,6 +251,16 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 	    {
 	    }
 
+        public static RUnityEditor.RPropertyHandler.RNestingContext Get(RUnityEditor.RPropertyHandler @handler, System.Int32 @nestingLevel)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@handler.Value, @nestingLevel};
+            var ___result = RGet_PropertyHandler_Int32.Invoke(___genericsType, ___parameters);
+
+            return new RUnityEditor.RPropertyHandler.RNestingContext(___result);
+        }
+
 
         public virtual void Dispose()
         {
@@ -285,7 +295,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

@@ -198,29 +198,29 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 	    {
 	    }
 
-        public static System.Object Init(RUnityEngine.RUIElements.RUIR.RRenderChain  @renderChain, RUnityEngine.RUIElements.RUIR.RBMPAlloc  @alloc)
+        public static RUnityEngine.RUIElements.RColorPage Init(RUnityEngine.RUIElements.RUIR.RRenderChain @renderChain, RUnityEngine.RUIElements.RUIR.RBMPAlloc @alloc)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@renderChain.Value, @alloc.Value};
             var ___result = RInit_RenderChain_BMPAlloc.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RUnityEngine.RUIElements.RColorPage(___result);
         }
 
 
-        public virtual System.Object ToNativeColorPage()
+        public virtual RUnityEngine.RUIElements.RMeshBuilderNative.RNativeColorPage ToNativeColorPage()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RToNativeColorPage.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RUnityEngine.RUIElements.RMeshBuilderNative.RNativeColorPage(___result);
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

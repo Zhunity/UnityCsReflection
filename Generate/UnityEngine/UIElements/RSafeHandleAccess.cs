@@ -192,7 +192,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public static System.IntPtr op_Implicit(RUnityEngine.RUIElements.RSafeHandleAccess  @a)
+        public static System.IntPtr op_Implicit(RUnityEngine.RUIElements.RSafeHandleAccess @a)
         {
 
             var ___genericsType = new Type[] {};
@@ -203,7 +203,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

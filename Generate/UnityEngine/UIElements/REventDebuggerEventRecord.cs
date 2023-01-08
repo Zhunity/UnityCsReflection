@@ -1048,7 +1048,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 	    {
 	    }
 
-        public virtual void Init(UnityEngine.UIElements.EventBase  @evt)
+        public virtual void Init(UnityEngine.UIElements.EventBase @evt)
         {
 
             var ___genericsType = new Type[] {};
@@ -1070,7 +1070,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

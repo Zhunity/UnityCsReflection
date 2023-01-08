@@ -283,7 +283,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 	    {
 	    }
 
-        public static UnityEngine.UIElements.StyleFontDefinition op_Implicit(UnityEngine.UIElements.StyleKeyword  @keyword)
+        public static UnityEngine.UIElements.StyleFontDefinition op_Implicit(UnityEngine.UIElements.StyleKeyword @keyword)
         {
 
             var ___genericsType = new Type[] {};
@@ -294,7 +294,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public static UnityEngine.UIElements.StyleFontDefinition op_Implicit(UnityEngine.UIElements.FontDefinition  @f)
+        public static UnityEngine.UIElements.StyleFontDefinition op_Implicit(UnityEngine.UIElements.FontDefinition @f)
         {
 
             var ___genericsType = new Type[] {};
@@ -305,7 +305,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean Equals(UnityEngine.UIElements.StyleFontDefinition  @other)
+        public virtual System.Boolean Equals(UnityEngine.UIElements.StyleFontDefinition @other)
         {
 
             var ___genericsType = new Type[] {};
@@ -316,7 +316,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};
@@ -338,7 +338,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public static System.Boolean op_Equality(UnityEngine.UIElements.StyleFontDefinition  @left, UnityEngine.UIElements.StyleFontDefinition  @right)
+        public static System.Boolean op_Equality(UnityEngine.UIElements.StyleFontDefinition @left, UnityEngine.UIElements.StyleFontDefinition @right)
         {
 
             var ___genericsType = new Type[] {};
@@ -349,7 +349,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public static System.Boolean op_Inequality(UnityEngine.UIElements.StyleFontDefinition  @left, UnityEngine.UIElements.StyleFontDefinition  @right)
+        public static System.Boolean op_Inequality(UnityEngine.UIElements.StyleFontDefinition @left, UnityEngine.UIElements.StyleFontDefinition @right)
         {
 
             var ___genericsType = new Type[] {};

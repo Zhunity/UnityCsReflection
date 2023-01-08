@@ -521,7 +521,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting
 	    {
 	    }
 
-        public virtual System.Runtime.Remoting.ObjRef DeserializeInTheCurrentDomain(System.Int32  @domainId, System.Byte[]  @tInfo)
+        public virtual System.Runtime.Remoting.ObjRef DeserializeInTheCurrentDomain(System.Int32 @domainId, System.Byte[] @tInfo)
         {
 
             var ___genericsType = new Type[] {};
@@ -554,7 +554,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting
         }
 
 
-        public virtual void GetObjectData(System.Runtime.Serialization.SerializationInfo  @info, System.Runtime.Serialization.StreamingContext  @context)
+        public virtual void GetObjectData(System.Runtime.Serialization.SerializationInfo @info, System.Runtime.Serialization.StreamingContext @context)
         {
 
             var ___genericsType = new Type[] {};
@@ -565,7 +565,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting
         }
 
 
-        public virtual System.Object GetRealObject(System.Runtime.Serialization.StreamingContext  @context)
+        public virtual System.Object GetRealObject(System.Runtime.Serialization.StreamingContext @context)
         {
 
             var ___genericsType = new Type[] {};
@@ -609,7 +609,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting
         }
 
 
-        public virtual void SetDomainID(System.Int32  @id)
+        public virtual void SetDomainID(System.Int32 @id)
         {
 
             var ___genericsType = new Type[] {};
@@ -620,7 +620,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

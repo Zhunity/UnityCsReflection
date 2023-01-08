@@ -2224,7 +2224,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual void SetTitle(System.String  @title)
+        public virtual void SetTitle(System.String @title)
         {
 
             var ___genericsType = new Type[] {};
@@ -2246,7 +2246,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual void SetInternalGameViewDimensions(UnityEngine.Rect  @rect, UnityEngine.Rect  @clippedRect, UnityEngine.Vector2  @targetSize)
+        public virtual void SetInternalGameViewDimensions(UnityEngine.Rect @rect, UnityEngine.Rect @clippedRect, UnityEngine.Vector2 @targetSize)
         {
 
             var ___genericsType = new Type[] {};
@@ -2257,7 +2257,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual void SetMainPlayModeViewSize(UnityEngine.Vector2  @targetSize)
+        public virtual void SetMainPlayModeViewSize(UnityEngine.Vector2 @targetSize)
         {
 
             var ___genericsType = new Type[] {};
@@ -2268,7 +2268,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual void SetDisplayViewSize(System.Int32  @displayId, UnityEngine.Vector2  @targetSize)
+        public virtual void SetDisplayViewSize(System.Int32 @displayId, UnityEngine.Vector2 @targetSize)
         {
 
             var ___genericsType = new Type[] {};
@@ -2279,7 +2279,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual UnityEngine.Vector2 GetDisplayViewSize(System.Int32  @displayId)
+        public virtual UnityEngine.Vector2 GetDisplayViewSize(System.Int32 @displayId)
         {
 
             var ___genericsType = new Type[] {};
@@ -2312,7 +2312,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual void SetPlayModeView(System.Boolean  @value)
+        public virtual void SetPlayModeView(System.Boolean @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -2345,7 +2345,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual void SetEyeDropperOpen(System.Boolean  @isOpen)
+        public virtual void SetEyeDropperOpen(System.Boolean @isOpen)
         {
 
             var ___genericsType = new Type[] {};
@@ -2378,7 +2378,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual void SetKeyboardControl(System.Int32  @id)
+        public virtual void SetKeyboardControl(System.Int32 @id)
         {
 
             var ___genericsType = new Type[] {};
@@ -2400,7 +2400,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual void GrabPixels(UnityEngine.RenderTexture  @rd, UnityEngine.Rect  @rect)
+        public virtual void GrabPixels(UnityEngine.RenderTexture @rd, UnityEngine.Rect @rect)
         {
 
             var ___genericsType = new Type[] {};
@@ -2411,7 +2411,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual void MarkHotRegion(UnityEngine.Rect  @hotRegionRect)
+        public virtual void MarkHotRegion(UnityEngine.Rect @hotRegionRect)
         {
 
             var ___genericsType = new Type[] {};
@@ -2422,7 +2422,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual void EnableVSync(System.Boolean  @value)
+        public virtual void EnableVSync(System.Boolean @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -2433,7 +2433,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual void SetActualViewName(System.String  @viewName)
+        public virtual void SetActualViewName(System.String @viewName)
         {
 
             var ___genericsType = new Type[] {};
@@ -2455,7 +2455,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual void Internal_Init(System.Int32  @depthBits, System.Int32  @antiAliasing)
+        public virtual void Internal_Init(System.Int32 @depthBits, System.Int32 @antiAliasing)
         {
 
             var ___genericsType = new Type[] {};
@@ -2466,7 +2466,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual void Internal_Recreate(System.Int32  @depthBits, System.Int32  @antiAliasing)
+        public virtual void Internal_Recreate(System.Int32 @depthBits, System.Int32 @antiAliasing)
         {
 
             var ___genericsType = new Type[] {};
@@ -2488,7 +2488,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual System.Boolean Internal_SendEvent(UnityEngine.Event  @e)
+        public virtual System.Boolean Internal_SendEvent(UnityEngine.Event @e)
         {
 
             var ___genericsType = new Type[] {};
@@ -2499,7 +2499,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual void Internal_SetWantsMouseMove(System.Boolean  @wantIt)
+        public virtual void Internal_SetWantsMouseMove(System.Boolean @wantIt)
         {
 
             var ___genericsType = new Type[] {};
@@ -2510,7 +2510,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual void Internal_SetWantsMouseEnterLeaveWindow(System.Boolean  @wantIt)
+        public virtual void Internal_SetWantsMouseEnterLeaveWindow(System.Boolean @wantIt)
         {
 
             var ___genericsType = new Type[] {};
@@ -2521,7 +2521,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual void Internal_SetAutoRepaint(System.Boolean  @doit)
+        public virtual void Internal_SetAutoRepaint(System.Boolean @doit)
         {
 
             var ___genericsType = new Type[] {};
@@ -2532,7 +2532,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual void Internal_SetWindow(UnityEngine.ScriptableObject  @win)
+        public virtual void Internal_SetWindow(UnityEngine.ScriptableObject @win)
         {
 
             var ___genericsType = new Type[] {};
@@ -2543,7 +2543,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual void Internal_UnsetWindow(UnityEngine.ScriptableObject  @win)
+        public virtual void Internal_UnsetWindow(UnityEngine.ScriptableObject @win)
         {
 
             var ___genericsType = new Type[] {};
@@ -2554,7 +2554,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual void Internal_SetPosition(UnityEngine.Rect  @windowPosition)
+        public virtual void Internal_SetPosition(UnityEngine.Rect @windowPosition)
         {
 
             var ___genericsType = new Type[] {};
@@ -2565,7 +2565,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual System.Boolean SendEvent(UnityEngine.Event  @e)
+        public virtual System.Boolean SendEvent(UnityEngine.Event @e)
         {
 
             var ___genericsType = new Type[] {};
@@ -2575,6 +2575,16 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
             return (System.Boolean)___result;
         }
 
+
+        public virtual void SetWindow(RUnityEditor.RContainerWindow @win)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@win.Value};
+            var ___result = RSetWindow_ContainerWindow.Invoke(___genericsType, ___parameters);
+
+            
+        }
 
 
         public virtual void RecreateContext()
@@ -2654,7 +2664,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual void SetPosition(UnityEngine.Rect  @newPos)
+        public virtual void SetPosition(UnityEngine.Rect @newPos)
         {
 
             var ___genericsType = new Type[] {};
@@ -2720,7 +2730,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public static void BeginOffsetArea(UnityEngine.Rect  @screenRect, UnityEngine.GUIContent  @content, UnityEngine.GUIStyle  @style)
+        public static void BeginOffsetArea(UnityEngine.Rect @screenRect, UnityEngine.GUIContent @content, UnityEngine.GUIStyle @style)
         {
 
             var ___genericsType = new Type[] {};
@@ -2753,88 +2763,88 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual void SetInternalGameViewDimensions_Injected(ref UnityEngine.Rect  @rect, ref UnityEngine.Rect  @clippedRect, ref UnityEngine.Vector2  @targetSize)
+        public virtual void SetInternalGameViewDimensions_Injected(ref UnityEngine.Rect @rect, ref UnityEngine.Rect @clippedRect, ref UnityEngine.Vector2 @targetSize)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@rect, @clippedRect, @targetSize};
             var ___result = RSetInternalGameViewDimensions_Injected_Ref_Rect_Ref_Rect_Ref_Vector2.Invoke(___genericsType, ___parameters);
-			rect = (UnityEngine.Rect)___parameters[0];
-			clippedRect = (UnityEngine.Rect)___parameters[1];
-			targetSize = (UnityEngine.Vector2)___parameters[2];
+			@rect = (UnityEngine.Rect)___parameters[0];
+			@clippedRect = (UnityEngine.Rect)___parameters[1];
+			@targetSize = (UnityEngine.Vector2)___parameters[2];
 
             
         }
 
 
-        public virtual void SetMainPlayModeViewSize_Injected(ref UnityEngine.Vector2  @targetSize)
+        public virtual void SetMainPlayModeViewSize_Injected(ref UnityEngine.Vector2 @targetSize)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@targetSize};
             var ___result = RSetMainPlayModeViewSize_Injected_Ref_Vector2.Invoke(___genericsType, ___parameters);
-			targetSize = (UnityEngine.Vector2)___parameters[0];
+			@targetSize = (UnityEngine.Vector2)___parameters[0];
 
             
         }
 
 
-        public virtual void SetDisplayViewSize_Injected(System.Int32  @displayId, ref UnityEngine.Vector2  @targetSize)
+        public virtual void SetDisplayViewSize_Injected(System.Int32 @displayId, ref UnityEngine.Vector2 @targetSize)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@displayId, @targetSize};
             var ___result = RSetDisplayViewSize_Injected_Int32_Ref_Vector2.Invoke(___genericsType, ___parameters);
-			targetSize = (UnityEngine.Vector2)___parameters[1];
+			@targetSize = (UnityEngine.Vector2)___parameters[1];
 
             
         }
 
 
-        public virtual void GetDisplayViewSize_Injected(System.Int32  @displayId, out UnityEngine.Vector2  @ret)
+        public virtual void GetDisplayViewSize_Injected(System.Int32 @displayId, out UnityEngine.Vector2 @ret)
         {
-			ret = default;
+			@ret = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@displayId, @ret};
             var ___result = RGetDisplayViewSize_Injected_Int32_Out_Vector2.Invoke(___genericsType, ___parameters);
-			ret = (UnityEngine.Vector2)___parameters[1];
+			@ret = (UnityEngine.Vector2)___parameters[1];
 
             
         }
 
 
-        public virtual void GrabPixels_Injected(UnityEngine.RenderTexture  @rd, ref UnityEngine.Rect  @rect)
+        public virtual void GrabPixels_Injected(UnityEngine.RenderTexture @rd, ref UnityEngine.Rect @rect)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@rd, @rect};
             var ___result = RGrabPixels_Injected_RenderTexture_Ref_Rect.Invoke(___genericsType, ___parameters);
-			rect = (UnityEngine.Rect)___parameters[1];
+			@rect = (UnityEngine.Rect)___parameters[1];
 
             
         }
 
 
-        public virtual void MarkHotRegion_Injected(ref UnityEngine.Rect  @hotRegionRect)
+        public virtual void MarkHotRegion_Injected(ref UnityEngine.Rect @hotRegionRect)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@hotRegionRect};
             var ___result = RMarkHotRegion_Injected_Ref_Rect.Invoke(___genericsType, ___parameters);
-			hotRegionRect = (UnityEngine.Rect)___parameters[0];
+			@hotRegionRect = (UnityEngine.Rect)___parameters[0];
 
             
         }
 
 
-        public virtual void Internal_SetPosition_Injected(ref UnityEngine.Rect  @windowPosition)
+        public virtual void Internal_SetPosition_Injected(ref UnityEngine.Rect @windowPosition)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@windowPosition};
             var ___result = RInternal_SetPosition_Injected_Ref_Rect.Invoke(___genericsType, ___parameters);
-			windowPosition = (UnityEngine.Rect)___parameters[0];
+			@windowPosition = (UnityEngine.Rect)___parameters[0];
 
             
         }
@@ -2851,7 +2861,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual System.String DebugHierarchy(System.Int32  @level)
+        public virtual System.String DebugHierarchy(System.Int32 @level)
         {
 
             var ___genericsType = new Type[] {};
@@ -2862,8 +2872,18 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
+        public virtual void Initialize(RUnityEditor.RContainerWindow @win)
+        {
 
-        public virtual void SetMinMaxSizes(UnityEngine.Vector2  @min, UnityEngine.Vector2  @max)
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@win.Value};
+            var ___result = RInitialize_ContainerWindow.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void SetMinMaxSizes(UnityEngine.Vector2 @min, UnityEngine.Vector2 @max)
         {
 
             var ___genericsType = new Type[] {};
@@ -2885,7 +2905,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual void SetPositionOnly(UnityEngine.Rect  @newPos)
+        public virtual void SetPositionOnly(UnityEngine.Rect @newPos)
         {
 
             var ___genericsType = new Type[] {};
@@ -2896,11 +2916,51 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
+        public virtual System.Int32 IndexOfChild(RUnityEditor.RView @child)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@child.Value};
+            var ___result = RIndexOfChild_View.Invoke(___genericsType, ___parameters);
+
+            return (System.Int32)___result;
+        }
 
 
+        public virtual void AddChild(RUnityEditor.RView @child)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@child.Value};
+            var ___result = RAddChild_View.Invoke(___genericsType, ___parameters);
+
+            
+        }
 
 
-        public virtual void RemoveChild(System.Int32  @idx)
+        public virtual void AddChild(RUnityEditor.RView @child, System.Int32 @idx)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@child.Value, @idx};
+            var ___result = RAddChild_View_Int32.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void RemoveChild(RUnityEditor.RView @child)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@child.Value};
+            var ___result = RRemoveChild_View.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void RemoveChild(System.Int32 @idx)
         {
 
             var ___genericsType = new Type[] {};
@@ -2910,6 +2970,16 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
             
         }
 
+
+        public virtual void SetWindowRecurse(RUnityEditor.RContainerWindow @win)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@win.Value};
+            var ___result = RSetWindowRecurse_ContainerWindow.Invoke(___genericsType, ___parameters);
+
+            
+        }
 
 
         public virtual System.Boolean OnFocus()
@@ -2956,7 +3026,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @other)
+        public virtual System.Boolean Equals(System.Object @other)
         {
 
             var ___genericsType = new Type[] {};

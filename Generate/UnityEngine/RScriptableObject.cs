@@ -345,7 +345,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.ScriptableObject CreateInstance(System.String  @className)
+        public static UnityEngine.ScriptableObject CreateInstance(System.String @className)
         {
 
             var ___genericsType = new Type[] {};
@@ -356,7 +356,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.ScriptableObject CreateInstance(System.Type  @type)
+        public static UnityEngine.ScriptableObject CreateInstance(System.Type @type)
         {
 
             var ___genericsType = new Type[] {};
@@ -378,7 +378,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.ScriptableObject CreateInstance(System.Type  @type, System.Action<UnityEngine.ScriptableObject>  @initialize)
+        public static UnityEngine.ScriptableObject CreateInstance(System.Type @type, System.Action<UnityEngine.ScriptableObject> @initialize)
         {
 
             var ___genericsType = new Type[] {};
@@ -389,7 +389,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static void CreateScriptableObject(UnityEngine.ScriptableObject  @self)
+        public static void CreateScriptableObject(UnityEngine.ScriptableObject @self)
         {
 
             var ___genericsType = new Type[] {};
@@ -400,7 +400,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.ScriptableObject CreateScriptableObjectInstanceFromName(System.String  @className)
+        public static UnityEngine.ScriptableObject CreateScriptableObjectInstanceFromName(System.String @className)
         {
 
             var ___genericsType = new Type[] {};
@@ -411,7 +411,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.ScriptableObject CreateScriptableObjectInstanceFromType(System.Type  @type, System.Boolean  @applyDefaultsAndReset)
+        public static UnityEngine.ScriptableObject CreateScriptableObjectInstanceFromType(System.Type @type, System.Boolean @applyDefaultsAndReset)
         {
 
             var ___genericsType = new Type[] {};
@@ -422,7 +422,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static void ResetAndApplyDefaultInstances(UnityEngine.Object  @obj)
+        public static void ResetAndApplyDefaultInstances(UnityEngine.Object @obj)
         {
 
             var ___genericsType = new Type[] {};
@@ -455,7 +455,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @other)
+        public virtual System.Boolean Equals(System.Object @other)
         {
 
             var ___genericsType = new Type[] {};

@@ -181,7 +181,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPermissions
 	    {
 	    }
 
-        public static System.Security.Permissions.StrongNamePublicKeyBlob FromString(System.String  @s)
+        public static System.Security.Permissions.StrongNamePublicKeyBlob FromString(System.String @s)
         {
 
             var ___genericsType = new Type[] {};
@@ -192,7 +192,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPermissions
         }
 
 
-        public static System.Byte CharToByte(System.Char  @c)
+        public static System.Byte CharToByte(System.Char @c)
         {
 
             var ___genericsType = new Type[] {};
@@ -203,7 +203,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPermissions
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

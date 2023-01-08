@@ -385,7 +385,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 	    {
 	    }
 
-        public virtual UnityEngine.Texture GetTexture(RUnityEngine.RUIElements.RTextureId  @id)
+        public virtual UnityEngine.Texture GetTexture(RUnityEngine.RUIElements.RTextureId @id)
         {
 
             var ___genericsType = new Type[] {};
@@ -396,18 +396,18 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Object AllocAndAcquireDynamic()
+        public virtual RUnityEngine.RUIElements.RTextureId AllocAndAcquireDynamic()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RAllocAndAcquireDynamic.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RUnityEngine.RUIElements.RTextureId(___result);
         }
 
 
-        public virtual void UpdateDynamic(RUnityEngine.RUIElements.RTextureId  @id, UnityEngine.Texture  @texture)
+        public virtual void UpdateDynamic(RUnityEngine.RUIElements.RTextureId @id, UnityEngine.Texture @texture)
         {
 
             var ___genericsType = new Type[] {};
@@ -418,29 +418,29 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Object AllocAndAcquire(UnityEngine.Texture  @texture, System.Boolean  @dynamic)
+        public virtual RUnityEngine.RUIElements.RTextureId AllocAndAcquire(UnityEngine.Texture @texture, System.Boolean @dynamic)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@texture, @dynamic};
             var ___result = RAllocAndAcquire_Texture_Boolean.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RUnityEngine.RUIElements.RTextureId(___result);
         }
 
 
-        public virtual System.Object Acquire(UnityEngine.Texture  @tex)
+        public virtual RUnityEngine.RUIElements.RTextureId Acquire(UnityEngine.Texture @tex)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@tex};
             var ___result = RAcquire_Texture.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RUnityEngine.RUIElements.RTextureId(___result);
         }
 
 
-        public virtual void Acquire(RUnityEngine.RUIElements.RTextureId  @id)
+        public virtual void Acquire(RUnityEngine.RUIElements.RTextureId @id)
         {
 
             var ___genericsType = new Type[] {};
@@ -451,7 +451,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void Release(RUnityEngine.RUIElements.RTextureId  @id)
+        public virtual void Release(RUnityEngine.RUIElements.RTextureId @id)
         {
 
             var ___genericsType = new Type[] {};
@@ -462,29 +462,29 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Object TextureToId(UnityEngine.Texture  @texture)
+        public virtual RUnityEngine.RUIElements.RTextureId TextureToId(UnityEngine.Texture @texture)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@texture};
             var ___result = RTextureToId_Texture.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RUnityEngine.RUIElements.RTextureId(___result);
         }
 
 
-        public virtual System.Object GatherStatistics()
+        public virtual RUnityEngine.RUIElements.RTextureRegistry.RStatistics GatherStatistics()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RGatherStatistics.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RUnityEngine.RUIElements.RTextureRegistry.RStatistics(___result);
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

@@ -402,7 +402,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 	    {
 	    }
 
-        public static UnityEngine.Rendering.RenderTargetIdentifier op_Implicit(UnityEngine.Rendering.BuiltinRenderTextureType  @type)
+        public static UnityEngine.Rendering.RenderTargetIdentifier op_Implicit(UnityEngine.Rendering.BuiltinRenderTextureType @type)
         {
 
             var ___genericsType = new Type[] {};
@@ -413,7 +413,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public static UnityEngine.Rendering.RenderTargetIdentifier op_Implicit(System.String  @name)
+        public static UnityEngine.Rendering.RenderTargetIdentifier op_Implicit(System.String @name)
         {
 
             var ___genericsType = new Type[] {};
@@ -424,7 +424,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public static UnityEngine.Rendering.RenderTargetIdentifier op_Implicit(System.Int32  @nameID)
+        public static UnityEngine.Rendering.RenderTargetIdentifier op_Implicit(System.Int32 @nameID)
         {
 
             var ___genericsType = new Type[] {};
@@ -435,7 +435,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public static UnityEngine.Rendering.RenderTargetIdentifier op_Implicit(UnityEngine.Texture  @tex)
+        public static UnityEngine.Rendering.RenderTargetIdentifier op_Implicit(UnityEngine.Texture @tex)
         {
 
             var ___genericsType = new Type[] {};
@@ -446,7 +446,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public static UnityEngine.Rendering.RenderTargetIdentifier op_Implicit(UnityEngine.RenderBuffer  @buf)
+        public static UnityEngine.Rendering.RenderTargetIdentifier op_Implicit(UnityEngine.RenderBuffer @buf)
         {
 
             var ___genericsType = new Type[] {};
@@ -479,7 +479,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual System.Boolean Equals(UnityEngine.Rendering.RenderTargetIdentifier  @rhs)
+        public virtual System.Boolean Equals(UnityEngine.Rendering.RenderTargetIdentifier @rhs)
         {
 
             var ___genericsType = new Type[] {};
@@ -490,7 +490,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};
@@ -501,7 +501,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public static System.Boolean op_Equality(UnityEngine.Rendering.RenderTargetIdentifier  @lhs, UnityEngine.Rendering.RenderTargetIdentifier  @rhs)
+        public static System.Boolean op_Equality(UnityEngine.Rendering.RenderTargetIdentifier @lhs, UnityEngine.Rendering.RenderTargetIdentifier @rhs)
         {
 
             var ___genericsType = new Type[] {};
@@ -512,7 +512,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public static System.Boolean op_Inequality(UnityEngine.Rendering.RenderTargetIdentifier  @lhs, UnityEngine.Rendering.RenderTargetIdentifier  @rhs)
+        public static System.Boolean op_Inequality(UnityEngine.Rendering.RenderTargetIdentifier @lhs, UnityEngine.Rendering.RenderTargetIdentifier @rhs)
         {
 
             var ___genericsType = new Type[] {};

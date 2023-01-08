@@ -249,7 +249,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RExceptionServices
 	    {
 	    }
 
-        public static System.Runtime.ExceptionServices.ExceptionDispatchInfo Capture(System.Exception  @source)
+        public static System.Runtime.ExceptionServices.ExceptionDispatchInfo Capture(System.Exception @source)
         {
 
             var ___genericsType = new Type[] {};
@@ -271,7 +271,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RExceptionServices
         }
 
 
-        public static void Throw(System.Exception  @source)
+        public static void Throw(System.Exception @source)
         {
 
             var ___genericsType = new Type[] {};
@@ -282,7 +282,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RExceptionServices
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

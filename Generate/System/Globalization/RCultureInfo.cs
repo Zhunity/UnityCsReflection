@@ -2106,7 +2106,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @value)
+        public virtual System.Boolean Equals(System.Object @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -2117,7 +2117,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public static System.Globalization.CultureInfo[] GetCultures(System.Globalization.CultureTypes  @types)
+        public static System.Globalization.CultureInfo[] GetCultures(System.Globalization.CultureTypes @types)
         {
 
             var ___genericsType = new Type[] {};
@@ -2128,14 +2128,14 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public virtual System.Object GetTextInfoData()
+        public virtual RSystem.RGlobalization.RCultureInfo.RData GetTextInfoData()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RGetTextInfoData.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RSystem.RGlobalization.RCultureInfo.RData(___result);
         }
 
 
@@ -2150,7 +2150,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public static System.Globalization.CultureInfo ReadOnly(System.Globalization.CultureInfo  @ci)
+        public static System.Globalization.CultureInfo ReadOnly(System.Globalization.CultureInfo @ci)
         {
 
             var ___genericsType = new Type[] {};
@@ -2183,7 +2183,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public virtual System.Object GetFormat(System.Type  @formatType)
+        public virtual System.Object GetFormat(System.Type @formatType)
         {
 
             var ___genericsType = new Type[] {};
@@ -2205,7 +2205,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public virtual System.Boolean construct_internal_locale_from_lcid(System.Int32  @lcid)
+        public virtual System.Boolean construct_internal_locale_from_lcid(System.Int32 @lcid)
         {
 
             var ___genericsType = new Type[] {};
@@ -2216,7 +2216,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public virtual System.Boolean construct_internal_locale_from_name(System.String  @name)
+        public virtual System.Boolean construct_internal_locale_from_name(System.String @name)
         {
 
             var ___genericsType = new Type[] {};
@@ -2238,7 +2238,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public static System.Globalization.CultureInfo[] internal_get_cultures(System.Boolean  @neutral, System.Boolean  @specific, System.Boolean  @installed)
+        public static System.Globalization.CultureInfo[] internal_get_cultures(System.Boolean @neutral, System.Boolean @specific, System.Boolean @installed)
         {
 
             var ___genericsType = new Type[] {};
@@ -2249,7 +2249,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public virtual void ConstructInvariant(System.Boolean  @read_only)
+        public virtual void ConstructInvariant(System.Boolean @read_only)
         {
 
             var ___genericsType = new Type[] {};
@@ -2260,7 +2260,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public virtual System.Globalization.TextInfo CreateTextInfo(System.Boolean  @readOnly)
+        public virtual System.Globalization.TextInfo CreateTextInfo(System.Boolean @readOnly)
         {
 
             var ___genericsType = new Type[] {};
@@ -2271,7 +2271,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public static void insert_into_shared_tables(System.Globalization.CultureInfo  @c)
+        public static void insert_into_shared_tables(System.Globalization.CultureInfo @c)
         {
 
             var ___genericsType = new Type[] {};
@@ -2282,7 +2282,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public static System.Globalization.CultureInfo GetCultureInfo(System.Int32  @culture)
+        public static System.Globalization.CultureInfo GetCultureInfo(System.Int32 @culture)
         {
 
             var ___genericsType = new Type[] {};
@@ -2293,7 +2293,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public static System.Globalization.CultureInfo GetCultureInfo(System.String  @name)
+        public static System.Globalization.CultureInfo GetCultureInfo(System.String @name)
         {
 
             var ___genericsType = new Type[] {};
@@ -2304,7 +2304,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public static System.Globalization.CultureInfo GetCultureInfo(System.String  @name, System.String  @altName)
+        public static System.Globalization.CultureInfo GetCultureInfo(System.String @name, System.String @altName)
         {
 
             var ___genericsType = new Type[] {};
@@ -2315,7 +2315,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public static System.Globalization.CultureInfo GetCultureInfoByIetfLanguageTag(System.String  @name)
+        public static System.Globalization.CultureInfo GetCultureInfoByIetfLanguageTag(System.String @name)
         {
 
             var ___genericsType = new Type[] {};
@@ -2326,7 +2326,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public static System.Globalization.CultureInfo CreateCulture(System.String  @name, System.Boolean  @reference)
+        public static System.Globalization.CultureInfo CreateCulture(System.String @name, System.Boolean @reference)
         {
 
             var ___genericsType = new Type[] {};
@@ -2337,7 +2337,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public static System.Globalization.CultureInfo CreateSpecificCulture(System.String  @name)
+        public static System.Globalization.CultureInfo CreateSpecificCulture(System.String @name)
         {
 
             var ___genericsType = new Type[] {};
@@ -2348,7 +2348,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public virtual System.Boolean ConstructLocaleFromName(System.String  @name)
+        public virtual System.Boolean ConstructLocaleFromName(System.String @name)
         {
 
             var ___genericsType = new Type[] {};
@@ -2359,7 +2359,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public static System.Globalization.CultureInfo CreateSpecificCultureFromNeutral(System.String  @name)
+        public static System.Globalization.CultureInfo CreateSpecificCultureFromNeutral(System.String @name)
         {
 
             var ___genericsType = new Type[] {};
@@ -2370,7 +2370,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public static System.Globalization.Calendar CreateCalendar(System.Int32  @calendarType)
+        public static System.Globalization.Calendar CreateCalendar(System.Int32 @calendarType)
         {
 
             var ___genericsType = new Type[] {};
@@ -2381,7 +2381,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public static System.Exception CreateNotFoundException(System.String  @name)
+        public static System.Exception CreateNotFoundException(System.String @name)
         {
 
             var ___genericsType = new Type[] {};
@@ -2392,7 +2392,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public static void InitializeUserPreferredCultureInfoInAppX(RSystem.RGlobalization.RCultureInfo.ROnCultureInfoChangedDelegate  @onCultureInfoChangedInAppX)
+        public static void InitializeUserPreferredCultureInfoInAppX(RSystem.RGlobalization.RCultureInfo.ROnCultureInfoChangedDelegate @onCultureInfoChangedInAppX)
         {
 
             var ___genericsType = new Type[] {};
@@ -2403,7 +2403,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public static void SetUserPreferredCultureInfoInAppX(System.String  @name)
+        public static void SetUserPreferredCultureInfoInAppX(System.String @name)
         {
 
             var ___genericsType = new Type[] {};
@@ -2414,7 +2414,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public static void OnCultureInfoChangedInAppX(System.String  @language)
+        public static void OnCultureInfoChangedInAppX(System.String @language)
         {
 
             var ___genericsType = new Type[] {};
@@ -2436,7 +2436,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public static void SetCultureInfoForUserPreferredLanguageInAppX(System.Globalization.CultureInfo  @cultureInfo)
+        public static void SetCultureInfoForUserPreferredLanguageInAppX(System.Globalization.CultureInfo @cultureInfo)
         {
 
             var ___genericsType = new Type[] {};
@@ -2447,7 +2447,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public static void CheckDomainSafetyObject(System.Object  @obj, System.Object  @container)
+        public static void CheckDomainSafetyObject(System.Object @obj, System.Object @container)
         {
 
             var ___genericsType = new Type[] {};
@@ -2458,7 +2458,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public static System.Boolean VerifyCultureName(System.String  @cultureName, System.Boolean  @throwException)
+        public static System.Boolean VerifyCultureName(System.String @cultureName, System.Boolean @throwException)
         {
 
             var ___genericsType = new Type[] {};
@@ -2469,7 +2469,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public static System.Boolean VerifyCultureName(System.Globalization.CultureInfo  @culture, System.Boolean  @throwException)
+        public static System.Boolean VerifyCultureName(System.Globalization.CultureInfo @culture, System.Boolean @throwException)
         {
 
             var ___genericsType = new Type[] {};

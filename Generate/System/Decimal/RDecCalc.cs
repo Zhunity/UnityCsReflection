@@ -1050,7 +1050,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 	    {
 	    }
 
-        public static System.UInt32 GetExponent(System.Single  @f)
+        public static System.UInt32 GetExponent(System.Single @f)
         {
 
             var ___genericsType = new Type[] {};
@@ -1061,7 +1061,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.UInt32 GetExponent(System.Double  @d)
+        public static System.UInt32 GetExponent(System.Double @d)
         {
 
             var ___genericsType = new Type[] {};
@@ -1072,7 +1072,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.UInt64 UInt32x32To64(System.UInt32  @a, System.UInt32  @b)
+        public static System.UInt64 UInt32x32To64(System.UInt32 @a, System.UInt32 @b)
         {
 
             var ___genericsType = new Type[] {};
@@ -1083,7 +1083,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static void UInt64x64To128(System.UInt64  @a, System.UInt64  @b, ref RSystem.RDecimal.RDecCalc  @result)
+        public static void UInt64x64To128(System.UInt64 @a, System.UInt64 @b, ref RSystem.RDecimal.RDecCalc @result)
         {
 
             var ___genericsType = new Type[] {};
@@ -1095,7 +1095,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.UInt32 Div96By32(ref RSystem.RDecimal.RDecCalc.RBuf12  @bufNum, System.UInt32  @den)
+        public static System.UInt32 Div96By32(ref RSystem.RDecimal.RDecCalc.RBuf12 @bufNum, System.UInt32 @den)
         {
 
             var ___genericsType = new Type[] {};
@@ -1107,7 +1107,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Boolean Div96ByConst(ref System.UInt64  @high64, ref System.UInt32  @low, System.UInt32  @pow)
+        public static System.Boolean Div96ByConst(ref System.UInt64 @high64, ref System.UInt32 @low, System.UInt32 @pow)
         {
 
             var ___genericsType = new Type[] {};
@@ -1120,7 +1120,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static void Unscale(ref System.UInt32  @low, ref System.UInt64  @high64, ref System.Int32  @scale)
+        public static void Unscale(ref System.UInt32 @low, ref System.UInt64 @high64, ref System.Int32 @scale)
         {
 
             var ___genericsType = new Type[] {};
@@ -1134,7 +1134,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.UInt32 Div96By64(ref RSystem.RDecimal.RDecCalc.RBuf12  @bufNum, System.UInt64  @den)
+        public static System.UInt32 Div96By64(ref RSystem.RDecimal.RDecCalc.RBuf12 @bufNum, System.UInt64 @den)
         {
 
             var ___genericsType = new Type[] {};
@@ -1146,7 +1146,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.UInt32 Div128By96(ref RSystem.RDecimal.RDecCalc.RBuf16  @bufNum, ref RSystem.RDecimal.RDecCalc.RBuf12  @bufDen)
+        public static System.UInt32 Div128By96(ref RSystem.RDecimal.RDecCalc.RBuf16 @bufNum, ref RSystem.RDecimal.RDecCalc.RBuf12 @bufDen)
         {
 
             var ___genericsType = new Type[] {};
@@ -1159,7 +1159,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.UInt32 IncreaseScale(ref RSystem.RDecimal.RDecCalc.RBuf12  @bufNum, System.UInt32  @power)
+        public static System.UInt32 IncreaseScale(ref RSystem.RDecimal.RDecCalc.RBuf12 @bufNum, System.UInt32 @power)
         {
 
             var ___genericsType = new Type[] {};
@@ -1171,7 +1171,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static void IncreaseScale64(ref RSystem.RDecimal.RDecCalc.RBuf12  @bufNum, System.UInt32  @power)
+        public static void IncreaseScale64(ref RSystem.RDecimal.RDecCalc.RBuf12 @bufNum, System.UInt32 @power)
         {
 
             var ___genericsType = new Type[] {};
@@ -1185,7 +1185,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 
 
 
-        public static System.Int32 LeadingZeroCount(System.UInt32  @value)
+        public static System.Int32 LeadingZeroCount(System.UInt32 @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -1196,7 +1196,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Int32 OverflowUnscale(ref RSystem.RDecimal.RDecCalc.RBuf12  @bufQuo, System.Int32  @scale, System.Boolean  @sticky)
+        public static System.Int32 OverflowUnscale(ref RSystem.RDecimal.RDecCalc.RBuf12 @bufQuo, System.Int32 @scale, System.Boolean @sticky)
         {
 
             var ___genericsType = new Type[] {};
@@ -1208,7 +1208,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Int32 SearchScale(ref RSystem.RDecimal.RDecCalc.RBuf12  @bufQuo, System.Int32  @scale)
+        public static System.Int32 SearchScale(ref RSystem.RDecimal.RDecCalc.RBuf12 @bufQuo, System.Int32 @scale)
         {
 
             var ___genericsType = new Type[] {};
@@ -1220,7 +1220,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Boolean Add32To96(ref RSystem.RDecimal.RDecCalc.RBuf12  @bufNum, System.UInt32  @value)
+        public static System.Boolean Add32To96(ref RSystem.RDecimal.RDecCalc.RBuf12 @bufNum, System.UInt32 @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -1232,7 +1232,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static void DecAddSub(ref RSystem.RDecimal.RDecCalc  @d1, ref RSystem.RDecimal.RDecCalc  @d2, System.Boolean  @sign)
+        public static void DecAddSub(ref RSystem.RDecimal.RDecCalc @d1, ref RSystem.RDecimal.RDecCalc @d2, System.Boolean @sign)
         {
 
             var ___genericsType = new Type[] {};
@@ -1245,7 +1245,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Int64 VarCyFromDec(ref RSystem.RDecimal.RDecCalc  @pdecIn)
+        public static System.Int64 VarCyFromDec(ref RSystem.RDecimal.RDecCalc @pdecIn)
         {
 
             var ___genericsType = new Type[] {};
@@ -1257,7 +1257,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Int32 VarDecCmp(in System.Decimal  @d1, in System.Decimal  @d2)
+        public static System.Int32 VarDecCmp(in System.Decimal @d1, in System.Decimal @d2)
         {
 
             var ___genericsType = new Type[] {};
@@ -1268,7 +1268,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Int32 VarDecCmpSub(in System.Decimal  @d1, in System.Decimal  @d2)
+        public static System.Int32 VarDecCmpSub(in System.Decimal @d1, in System.Decimal @d2)
         {
 
             var ___genericsType = new Type[] {};
@@ -1279,7 +1279,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static void VarDecMul(ref RSystem.RDecimal.RDecCalc  @d1, ref RSystem.RDecimal.RDecCalc  @d2)
+        public static void VarDecMul(ref RSystem.RDecimal.RDecCalc @d1, ref RSystem.RDecimal.RDecCalc @d2)
         {
 
             var ___genericsType = new Type[] {};
@@ -1292,7 +1292,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static void VarDecFromR4(System.Single  @input, out RSystem.RDecimal.RDecCalc  @result)
+        public static void VarDecFromR4(System.Single @input, out RSystem.RDecimal.RDecCalc @result)
         {
 			@result = default;
 
@@ -1305,7 +1305,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static void VarDecFromR8(System.Double  @input, out RSystem.RDecimal.RDecCalc  @result)
+        public static void VarDecFromR8(System.Double @input, out RSystem.RDecimal.RDecCalc @result)
         {
 			@result = default;
 
@@ -1318,7 +1318,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Single VarR4FromDec(in System.Decimal  @value)
+        public static System.Single VarR4FromDec(in System.Decimal @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -1329,7 +1329,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Double VarR8FromDec(in System.Decimal  @value)
+        public static System.Double VarR8FromDec(in System.Decimal @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -1340,7 +1340,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Int32 GetHashCode(in System.Decimal  @d)
+        public static System.Int32 GetHashCode(in System.Decimal @d)
         {
 
             var ___genericsType = new Type[] {};
@@ -1351,7 +1351,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static void VarDecDiv(ref RSystem.RDecimal.RDecCalc  @d1, ref RSystem.RDecimal.RDecCalc  @d2)
+        public static void VarDecDiv(ref RSystem.RDecimal.RDecCalc @d1, ref RSystem.RDecimal.RDecCalc @d2)
         {
 
             var ___genericsType = new Type[] {};
@@ -1364,7 +1364,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static void VarDecMod(ref RSystem.RDecimal.RDecCalc  @d1, ref RSystem.RDecimal.RDecCalc  @d2)
+        public static void VarDecMod(ref RSystem.RDecimal.RDecCalc @d1, ref RSystem.RDecimal.RDecCalc @d2)
         {
 
             var ___genericsType = new Type[] {};
@@ -1377,7 +1377,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static void VarDecModFull(ref RSystem.RDecimal.RDecCalc  @d1, ref RSystem.RDecimal.RDecCalc  @d2, System.Int32  @scale)
+        public static void VarDecModFull(ref RSystem.RDecimal.RDecCalc @d1, ref RSystem.RDecimal.RDecCalc @d2, System.Int32 @scale)
         {
 
             var ___genericsType = new Type[] {};
@@ -1390,7 +1390,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static void InternalRound(ref RSystem.RDecimal.RDecCalc  @d, System.UInt32  @scale, RType  @mode)
+        public static void InternalRound(ref RSystem.RDecimal.RDecCalc @d, System.UInt32 @scale, RType @mode)
         {
 
             var ___genericsType = new Type[] {};
@@ -1402,7 +1402,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.UInt32 DecDivMod1E9(ref RSystem.RDecimal.RDecCalc  @value)
+        public static System.UInt32 DecDivMod1E9(ref RSystem.RDecimal.RDecCalc @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -1414,7 +1414,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

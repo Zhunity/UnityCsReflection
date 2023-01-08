@@ -45,7 +45,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 	    {
 	    }
 
-        public virtual void OnValueChanged(System.Object  @previousValue, System.Object  @currentValue, System.Boolean  @contextChanged)
+        public virtual void OnValueChanged(System.Object @previousValue, System.Object @currentValue, System.Boolean @contextChanged)
         {
 
             var ___genericsType = new Type[] {};

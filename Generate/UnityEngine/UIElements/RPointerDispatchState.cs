@@ -362,7 +362,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual UnityEngine.UIElements.IEventHandler GetCapturingElement(System.Int32  @pointerId)
+        public virtual UnityEngine.UIElements.IEventHandler GetCapturingElement(System.Int32 @pointerId)
         {
 
             var ___genericsType = new Type[] {};
@@ -373,7 +373,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean HasPointerCapture(UnityEngine.UIElements.IEventHandler  @handler, System.Int32  @pointerId)
+        public virtual System.Boolean HasPointerCapture(UnityEngine.UIElements.IEventHandler @handler, System.Int32 @pointerId)
         {
 
             var ___genericsType = new Type[] {};
@@ -384,7 +384,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void CapturePointer(UnityEngine.UIElements.IEventHandler  @handler, System.Int32  @pointerId)
+        public virtual void CapturePointer(UnityEngine.UIElements.IEventHandler @handler, System.Int32 @pointerId)
         {
 
             var ___genericsType = new Type[] {};
@@ -395,7 +395,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void ReleasePointer(System.Int32  @pointerId)
+        public virtual void ReleasePointer(System.Int32 @pointerId)
         {
 
             var ___genericsType = new Type[] {};
@@ -406,7 +406,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void ReleasePointer(UnityEngine.UIElements.IEventHandler  @handler, System.Int32  @pointerId)
+        public virtual void ReleasePointer(UnityEngine.UIElements.IEventHandler @handler, System.Int32 @pointerId)
         {
 
             var ___genericsType = new Type[] {};
@@ -417,7 +417,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void ProcessPointerCapture(System.Int32  @pointerId)
+        public virtual void ProcessPointerCapture(System.Int32 @pointerId)
         {
 
             var ___genericsType = new Type[] {};
@@ -428,7 +428,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void ActivateCompatibilityMouseEvents(System.Int32  @pointerId)
+        public virtual void ActivateCompatibilityMouseEvents(System.Int32 @pointerId)
         {
 
             var ___genericsType = new Type[] {};
@@ -439,7 +439,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void PreventCompatibilityMouseEvents(System.Int32  @pointerId)
+        public virtual void PreventCompatibilityMouseEvents(System.Int32 @pointerId)
         {
 
             var ___genericsType = new Type[] {};
@@ -450,7 +450,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean ShouldSendCompatibilityMouseEvents(UnityEngine.UIElements.IPointerEvent  @evt)
+        public virtual System.Boolean ShouldSendCompatibilityMouseEvents(UnityEngine.UIElements.IPointerEvent @evt)
         {
 
             var ___genericsType = new Type[] {};
@@ -461,7 +461,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

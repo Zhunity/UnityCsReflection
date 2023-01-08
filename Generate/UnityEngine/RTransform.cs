@@ -3139,7 +3139,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 	    {
 	    }
 
-        public virtual UnityEngine.Vector3 GetLocalEulerAngles(RType  @order)
+        public virtual UnityEngine.Vector3 GetLocalEulerAngles(RType @order)
         {
 
             var ___genericsType = new Type[] {};
@@ -3150,7 +3150,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SetLocalEulerAngles(UnityEngine.Vector3  @euler, RType  @order)
+        public virtual void SetLocalEulerAngles(UnityEngine.Vector3 @euler, RType @order)
         {
 
             var ___genericsType = new Type[] {};
@@ -3161,7 +3161,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SetLocalEulerHint(UnityEngine.Vector3  @euler)
+        public virtual void SetLocalEulerHint(UnityEngine.Vector3 @euler)
         {
 
             var ___genericsType = new Type[] {};
@@ -3183,7 +3183,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SetRotationOrderInternal(RType  @rotationOrder)
+        public virtual void SetRotationOrderInternal(RType @rotationOrder)
         {
 
             var ___genericsType = new Type[] {};
@@ -3205,7 +3205,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SetParent(UnityEngine.Transform  @p)
+        public virtual void SetParent(UnityEngine.Transform @p)
         {
 
             var ___genericsType = new Type[] {};
@@ -3216,7 +3216,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SetParent(UnityEngine.Transform  @parent, System.Boolean  @worldPositionStays)
+        public virtual void SetParent(UnityEngine.Transform @parent, System.Boolean @worldPositionStays)
         {
 
             var ___genericsType = new Type[] {};
@@ -3227,7 +3227,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SetPositionAndRotation(UnityEngine.Vector3  @position, UnityEngine.Quaternion  @rotation)
+        public virtual void SetPositionAndRotation(UnityEngine.Vector3 @position, UnityEngine.Quaternion @rotation)
         {
 
             var ___genericsType = new Type[] {};
@@ -3238,7 +3238,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SetLocalPositionAndRotation(UnityEngine.Vector3  @localPosition, UnityEngine.Quaternion  @localRotation)
+        public virtual void SetLocalPositionAndRotation(UnityEngine.Vector3 @localPosition, UnityEngine.Quaternion @localRotation)
         {
 
             var ___genericsType = new Type[] {};
@@ -3249,7 +3249,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void Translate(UnityEngine.Vector3  @translation, UnityEngine.Space  @relativeTo)
+        public virtual void Translate(UnityEngine.Vector3 @translation, UnityEngine.Space @relativeTo)
         {
 
             var ___genericsType = new Type[] {};
@@ -3260,7 +3260,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void Translate(UnityEngine.Vector3  @translation)
+        public virtual void Translate(UnityEngine.Vector3 @translation)
         {
 
             var ___genericsType = new Type[] {};
@@ -3271,7 +3271,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void Translate(System.Single  @x, System.Single  @y, System.Single  @z, UnityEngine.Space  @relativeTo)
+        public virtual void Translate(System.Single @x, System.Single @y, System.Single @z, UnityEngine.Space @relativeTo)
         {
 
             var ___genericsType = new Type[] {};
@@ -3282,7 +3282,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void Translate(System.Single  @x, System.Single  @y, System.Single  @z)
+        public virtual void Translate(System.Single @x, System.Single @y, System.Single @z)
         {
 
             var ___genericsType = new Type[] {};
@@ -3293,7 +3293,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void Translate(UnityEngine.Vector3  @translation, UnityEngine.Transform  @relativeTo)
+        public virtual void Translate(UnityEngine.Vector3 @translation, UnityEngine.Transform @relativeTo)
         {
 
             var ___genericsType = new Type[] {};
@@ -3304,7 +3304,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void Translate(System.Single  @x, System.Single  @y, System.Single  @z, UnityEngine.Transform  @relativeTo)
+        public virtual void Translate(System.Single @x, System.Single @y, System.Single @z, UnityEngine.Transform @relativeTo)
         {
 
             var ___genericsType = new Type[] {};
@@ -3315,7 +3315,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void Rotate(UnityEngine.Vector3  @eulers, UnityEngine.Space  @relativeTo)
+        public virtual void Rotate(UnityEngine.Vector3 @eulers, UnityEngine.Space @relativeTo)
         {
 
             var ___genericsType = new Type[] {};
@@ -3326,7 +3326,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void Rotate(UnityEngine.Vector3  @eulers)
+        public virtual void Rotate(UnityEngine.Vector3 @eulers)
         {
 
             var ___genericsType = new Type[] {};
@@ -3337,7 +3337,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void Rotate(System.Single  @xAngle, System.Single  @yAngle, System.Single  @zAngle, UnityEngine.Space  @relativeTo)
+        public virtual void Rotate(System.Single @xAngle, System.Single @yAngle, System.Single @zAngle, UnityEngine.Space @relativeTo)
         {
 
             var ___genericsType = new Type[] {};
@@ -3348,7 +3348,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void Rotate(System.Single  @xAngle, System.Single  @yAngle, System.Single  @zAngle)
+        public virtual void Rotate(System.Single @xAngle, System.Single @yAngle, System.Single @zAngle)
         {
 
             var ___genericsType = new Type[] {};
@@ -3359,7 +3359,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void RotateAroundInternal(UnityEngine.Vector3  @axis, System.Single  @angle)
+        public virtual void RotateAroundInternal(UnityEngine.Vector3 @axis, System.Single @angle)
         {
 
             var ___genericsType = new Type[] {};
@@ -3370,7 +3370,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void Rotate(UnityEngine.Vector3  @axis, System.Single  @angle, UnityEngine.Space  @relativeTo)
+        public virtual void Rotate(UnityEngine.Vector3 @axis, System.Single @angle, UnityEngine.Space @relativeTo)
         {
 
             var ___genericsType = new Type[] {};
@@ -3381,7 +3381,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void Rotate(UnityEngine.Vector3  @axis, System.Single  @angle)
+        public virtual void Rotate(UnityEngine.Vector3 @axis, System.Single @angle)
         {
 
             var ___genericsType = new Type[] {};
@@ -3392,7 +3392,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void RotateAround(UnityEngine.Vector3  @point, UnityEngine.Vector3  @axis, System.Single  @angle)
+        public virtual void RotateAround(UnityEngine.Vector3 @point, UnityEngine.Vector3 @axis, System.Single @angle)
         {
 
             var ___genericsType = new Type[] {};
@@ -3403,7 +3403,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void LookAt(UnityEngine.Transform  @target, UnityEngine.Vector3  @worldUp)
+        public virtual void LookAt(UnityEngine.Transform @target, UnityEngine.Vector3 @worldUp)
         {
 
             var ___genericsType = new Type[] {};
@@ -3414,7 +3414,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void LookAt(UnityEngine.Transform  @target)
+        public virtual void LookAt(UnityEngine.Transform @target)
         {
 
             var ___genericsType = new Type[] {};
@@ -3425,7 +3425,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void LookAt(UnityEngine.Vector3  @worldPosition, UnityEngine.Vector3  @worldUp)
+        public virtual void LookAt(UnityEngine.Vector3 @worldPosition, UnityEngine.Vector3 @worldUp)
         {
 
             var ___genericsType = new Type[] {};
@@ -3436,7 +3436,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void LookAt(UnityEngine.Vector3  @worldPosition)
+        public virtual void LookAt(UnityEngine.Vector3 @worldPosition)
         {
 
             var ___genericsType = new Type[] {};
@@ -3447,7 +3447,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void Internal_LookAt(UnityEngine.Vector3  @worldPosition, UnityEngine.Vector3  @worldUp)
+        public virtual void Internal_LookAt(UnityEngine.Vector3 @worldPosition, UnityEngine.Vector3 @worldUp)
         {
 
             var ___genericsType = new Type[] {};
@@ -3458,7 +3458,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual UnityEngine.Vector3 TransformDirection(UnityEngine.Vector3  @direction)
+        public virtual UnityEngine.Vector3 TransformDirection(UnityEngine.Vector3 @direction)
         {
 
             var ___genericsType = new Type[] {};
@@ -3469,7 +3469,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual UnityEngine.Vector3 TransformDirection(System.Single  @x, System.Single  @y, System.Single  @z)
+        public virtual UnityEngine.Vector3 TransformDirection(System.Single @x, System.Single @y, System.Single @z)
         {
 
             var ___genericsType = new Type[] {};
@@ -3480,7 +3480,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual UnityEngine.Vector3 InverseTransformDirection(UnityEngine.Vector3  @direction)
+        public virtual UnityEngine.Vector3 InverseTransformDirection(UnityEngine.Vector3 @direction)
         {
 
             var ___genericsType = new Type[] {};
@@ -3491,7 +3491,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual UnityEngine.Vector3 InverseTransformDirection(System.Single  @x, System.Single  @y, System.Single  @z)
+        public virtual UnityEngine.Vector3 InverseTransformDirection(System.Single @x, System.Single @y, System.Single @z)
         {
 
             var ___genericsType = new Type[] {};
@@ -3502,7 +3502,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual UnityEngine.Vector3 TransformVector(UnityEngine.Vector3  @vector)
+        public virtual UnityEngine.Vector3 TransformVector(UnityEngine.Vector3 @vector)
         {
 
             var ___genericsType = new Type[] {};
@@ -3513,7 +3513,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual UnityEngine.Vector3 TransformVector(System.Single  @x, System.Single  @y, System.Single  @z)
+        public virtual UnityEngine.Vector3 TransformVector(System.Single @x, System.Single @y, System.Single @z)
         {
 
             var ___genericsType = new Type[] {};
@@ -3524,7 +3524,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual UnityEngine.Vector3 InverseTransformVector(UnityEngine.Vector3  @vector)
+        public virtual UnityEngine.Vector3 InverseTransformVector(UnityEngine.Vector3 @vector)
         {
 
             var ___genericsType = new Type[] {};
@@ -3535,7 +3535,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual UnityEngine.Vector3 InverseTransformVector(System.Single  @x, System.Single  @y, System.Single  @z)
+        public virtual UnityEngine.Vector3 InverseTransformVector(System.Single @x, System.Single @y, System.Single @z)
         {
 
             var ___genericsType = new Type[] {};
@@ -3546,7 +3546,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual UnityEngine.Vector3 TransformPoint(UnityEngine.Vector3  @position)
+        public virtual UnityEngine.Vector3 TransformPoint(UnityEngine.Vector3 @position)
         {
 
             var ___genericsType = new Type[] {};
@@ -3557,7 +3557,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual UnityEngine.Vector3 TransformPoint(System.Single  @x, System.Single  @y, System.Single  @z)
+        public virtual UnityEngine.Vector3 TransformPoint(System.Single @x, System.Single @y, System.Single @z)
         {
 
             var ___genericsType = new Type[] {};
@@ -3568,7 +3568,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual UnityEngine.Vector3 InverseTransformPoint(UnityEngine.Vector3  @position)
+        public virtual UnityEngine.Vector3 InverseTransformPoint(UnityEngine.Vector3 @position)
         {
 
             var ___genericsType = new Type[] {};
@@ -3579,7 +3579,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual UnityEngine.Vector3 InverseTransformPoint(System.Single  @x, System.Single  @y, System.Single  @z)
+        public virtual UnityEngine.Vector3 InverseTransformPoint(System.Single @x, System.Single @y, System.Single @z)
         {
 
             var ___genericsType = new Type[] {};
@@ -3634,7 +3634,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SetSiblingIndex(System.Int32  @index)
+        public virtual void SetSiblingIndex(System.Int32 @index)
         {
 
             var ___genericsType = new Type[] {};
@@ -3645,7 +3645,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void MoveAfterSibling(UnityEngine.Transform  @transform, System.Boolean  @notifyEditorAndMarkDirty)
+        public virtual void MoveAfterSibling(UnityEngine.Transform @transform, System.Boolean @notifyEditorAndMarkDirty)
         {
 
             var ___genericsType = new Type[] {};
@@ -3667,7 +3667,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.Transform FindRelativeTransformWithPath(UnityEngine.Transform  @transform, System.String  @path, System.Boolean  @isActiveOnly)
+        public static UnityEngine.Transform FindRelativeTransformWithPath(UnityEngine.Transform @transform, System.String @path, System.Boolean @isActiveOnly)
         {
 
             var ___genericsType = new Type[] {};
@@ -3678,7 +3678,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual UnityEngine.Transform Find(System.String  @n)
+        public virtual UnityEngine.Transform Find(System.String @n)
         {
 
             var ___genericsType = new Type[] {};
@@ -3700,7 +3700,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Boolean IsChildOf(UnityEngine.Transform  @parent)
+        public virtual System.Boolean IsChildOf(UnityEngine.Transform @parent)
         {
 
             var ___genericsType = new Type[] {};
@@ -3711,7 +3711,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual UnityEngine.Transform FindChild(System.String  @n)
+        public virtual UnityEngine.Transform FindChild(System.String @n)
         {
 
             var ___genericsType = new Type[] {};
@@ -3733,7 +3733,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void RotateAround(UnityEngine.Vector3  @axis, System.Single  @angle)
+        public virtual void RotateAround(UnityEngine.Vector3 @axis, System.Single @angle)
         {
 
             var ___genericsType = new Type[] {};
@@ -3744,7 +3744,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void RotateAroundLocal(UnityEngine.Vector3  @axis, System.Single  @angle)
+        public virtual void RotateAroundLocal(UnityEngine.Vector3 @axis, System.Single @angle)
         {
 
             var ___genericsType = new Type[] {};
@@ -3755,7 +3755,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual UnityEngine.Transform GetChild(System.Int32  @index)
+        public virtual UnityEngine.Transform GetChild(System.Int32 @index)
         {
 
             var ___genericsType = new Type[] {};
@@ -3788,7 +3788,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void internal_setHierarchyCapacity(System.Int32  @value)
+        public virtual void internal_setHierarchyCapacity(System.Int32 @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -3821,7 +3821,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SetConstrainProportionsScale(System.Boolean  @isLinked)
+        public virtual void SetConstrainProportionsScale(System.Boolean @isLinked)
         {
 
             var ___genericsType = new Type[] {};
@@ -3843,7 +3843,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void get_position_Injected(out UnityEngine.Vector3  @ret)
+        public virtual void get_position_Injected(out UnityEngine.Vector3 @ret)
         {
 			@ret = default;
 
@@ -3856,7 +3856,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void set_position_Injected(ref UnityEngine.Vector3  @value)
+        public virtual void set_position_Injected(ref UnityEngine.Vector3 @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -3868,7 +3868,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void get_localPosition_Injected(out UnityEngine.Vector3  @ret)
+        public virtual void get_localPosition_Injected(out UnityEngine.Vector3 @ret)
         {
 			@ret = default;
 
@@ -3881,7 +3881,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void set_localPosition_Injected(ref UnityEngine.Vector3  @value)
+        public virtual void set_localPosition_Injected(ref UnityEngine.Vector3 @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -3893,7 +3893,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void GetLocalEulerAngles_Injected(RType  @order, out UnityEngine.Vector3  @ret)
+        public virtual void GetLocalEulerAngles_Injected(RType @order, out UnityEngine.Vector3 @ret)
         {
 			@ret = default;
 
@@ -3906,7 +3906,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SetLocalEulerAngles_Injected(ref UnityEngine.Vector3  @euler, RType  @order)
+        public virtual void SetLocalEulerAngles_Injected(ref UnityEngine.Vector3 @euler, RType @order)
         {
 
             var ___genericsType = new Type[] {};
@@ -3918,7 +3918,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SetLocalEulerHint_Injected(ref UnityEngine.Vector3  @euler)
+        public virtual void SetLocalEulerHint_Injected(ref UnityEngine.Vector3 @euler)
         {
 
             var ___genericsType = new Type[] {};
@@ -3930,7 +3930,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void get_rotation_Injected(out UnityEngine.Quaternion  @ret)
+        public virtual void get_rotation_Injected(out UnityEngine.Quaternion @ret)
         {
 			@ret = default;
 
@@ -3943,7 +3943,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void set_rotation_Injected(ref UnityEngine.Quaternion  @value)
+        public virtual void set_rotation_Injected(ref UnityEngine.Quaternion @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -3955,7 +3955,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void get_localRotation_Injected(out UnityEngine.Quaternion  @ret)
+        public virtual void get_localRotation_Injected(out UnityEngine.Quaternion @ret)
         {
 			@ret = default;
 
@@ -3968,7 +3968,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void set_localRotation_Injected(ref UnityEngine.Quaternion  @value)
+        public virtual void set_localRotation_Injected(ref UnityEngine.Quaternion @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -3980,7 +3980,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void get_localScale_Injected(out UnityEngine.Vector3  @ret)
+        public virtual void get_localScale_Injected(out UnityEngine.Vector3 @ret)
         {
 			@ret = default;
 
@@ -3993,7 +3993,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void set_localScale_Injected(ref UnityEngine.Vector3  @value)
+        public virtual void set_localScale_Injected(ref UnityEngine.Vector3 @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -4005,7 +4005,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void get_worldToLocalMatrix_Injected(out UnityEngine.Matrix4x4  @ret)
+        public virtual void get_worldToLocalMatrix_Injected(out UnityEngine.Matrix4x4 @ret)
         {
 			@ret = default;
 
@@ -4018,7 +4018,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void get_localToWorldMatrix_Injected(out UnityEngine.Matrix4x4  @ret)
+        public virtual void get_localToWorldMatrix_Injected(out UnityEngine.Matrix4x4 @ret)
         {
 			@ret = default;
 
@@ -4031,7 +4031,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SetPositionAndRotation_Injected(ref UnityEngine.Vector3  @position, ref UnityEngine.Quaternion  @rotation)
+        public virtual void SetPositionAndRotation_Injected(ref UnityEngine.Vector3 @position, ref UnityEngine.Quaternion @rotation)
         {
 
             var ___genericsType = new Type[] {};
@@ -4044,7 +4044,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SetLocalPositionAndRotation_Injected(ref UnityEngine.Vector3  @localPosition, ref UnityEngine.Quaternion  @localRotation)
+        public virtual void SetLocalPositionAndRotation_Injected(ref UnityEngine.Vector3 @localPosition, ref UnityEngine.Quaternion @localRotation)
         {
 
             var ___genericsType = new Type[] {};
@@ -4057,7 +4057,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void RotateAroundInternal_Injected(ref UnityEngine.Vector3  @axis, System.Single  @angle)
+        public virtual void RotateAroundInternal_Injected(ref UnityEngine.Vector3 @axis, System.Single @angle)
         {
 
             var ___genericsType = new Type[] {};
@@ -4069,7 +4069,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void Internal_LookAt_Injected(ref UnityEngine.Vector3  @worldPosition, ref UnityEngine.Vector3  @worldUp)
+        public virtual void Internal_LookAt_Injected(ref UnityEngine.Vector3 @worldPosition, ref UnityEngine.Vector3 @worldUp)
         {
 
             var ___genericsType = new Type[] {};
@@ -4082,7 +4082,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void TransformDirection_Injected(ref UnityEngine.Vector3  @direction, out UnityEngine.Vector3  @ret)
+        public virtual void TransformDirection_Injected(ref UnityEngine.Vector3 @direction, out UnityEngine.Vector3 @ret)
         {
 			@ret = default;
 
@@ -4096,7 +4096,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void InverseTransformDirection_Injected(ref UnityEngine.Vector3  @direction, out UnityEngine.Vector3  @ret)
+        public virtual void InverseTransformDirection_Injected(ref UnityEngine.Vector3 @direction, out UnityEngine.Vector3 @ret)
         {
 			@ret = default;
 
@@ -4110,7 +4110,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void TransformVector_Injected(ref UnityEngine.Vector3  @vector, out UnityEngine.Vector3  @ret)
+        public virtual void TransformVector_Injected(ref UnityEngine.Vector3 @vector, out UnityEngine.Vector3 @ret)
         {
 			@ret = default;
 
@@ -4124,7 +4124,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void InverseTransformVector_Injected(ref UnityEngine.Vector3  @vector, out UnityEngine.Vector3  @ret)
+        public virtual void InverseTransformVector_Injected(ref UnityEngine.Vector3 @vector, out UnityEngine.Vector3 @ret)
         {
 			@ret = default;
 
@@ -4138,7 +4138,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void TransformPoint_Injected(ref UnityEngine.Vector3  @position, out UnityEngine.Vector3  @ret)
+        public virtual void TransformPoint_Injected(ref UnityEngine.Vector3 @position, out UnityEngine.Vector3 @ret)
         {
 			@ret = default;
 
@@ -4152,7 +4152,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void InverseTransformPoint_Injected(ref UnityEngine.Vector3  @position, out UnityEngine.Vector3  @ret)
+        public virtual void InverseTransformPoint_Injected(ref UnityEngine.Vector3 @position, out UnityEngine.Vector3 @ret)
         {
 			@ret = default;
 
@@ -4166,7 +4166,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void get_lossyScale_Injected(out UnityEngine.Vector3  @ret)
+        public virtual void get_lossyScale_Injected(out UnityEngine.Vector3 @ret)
         {
 			@ret = default;
 
@@ -4179,7 +4179,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void RotateAround_Injected(ref UnityEngine.Vector3  @axis, System.Single  @angle)
+        public virtual void RotateAround_Injected(ref UnityEngine.Vector3 @axis, System.Single @angle)
         {
 
             var ___genericsType = new Type[] {};
@@ -4191,7 +4191,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void RotateAroundLocal_Injected(ref UnityEngine.Vector3  @axis, System.Single  @angle)
+        public virtual void RotateAroundLocal_Injected(ref UnityEngine.Vector3 @axis, System.Single @angle)
         {
 
             var ___genericsType = new Type[] {};
@@ -4203,7 +4203,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual UnityEngine.Component GetComponent(System.Type  @type)
+        public virtual UnityEngine.Component GetComponent(System.Type @type)
         {
 
             var ___genericsType = new Type[] {};
@@ -4214,7 +4214,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void GetComponentFastPath(System.Type  @type, System.IntPtr  @oneFurtherThanResultValue)
+        public virtual void GetComponentFastPath(System.Type @type, System.IntPtr @oneFurtherThanResultValue)
         {
 
             var ___genericsType = new Type[] {};
@@ -4236,7 +4236,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Boolean TryGetComponent(System.Type  @type, out UnityEngine.Component  @component)
+        public virtual System.Boolean TryGetComponent(System.Type @type, out UnityEngine.Component @component)
         {
 			@component = default;
 
@@ -4249,7 +4249,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Boolean TryGetComponent<T>(out T  @component)
+        public virtual System.Boolean TryGetComponent<T>(out T @component)
         {
 			@component = default;
 
@@ -4262,7 +4262,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual UnityEngine.Component GetComponent(System.String  @type)
+        public virtual UnityEngine.Component GetComponent(System.String @type)
         {
 
             var ___genericsType = new Type[] {};
@@ -4273,7 +4273,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual UnityEngine.Component GetComponentInChildren(System.Type  @t, System.Boolean  @includeInactive)
+        public virtual UnityEngine.Component GetComponentInChildren(System.Type @t, System.Boolean @includeInactive)
         {
 
             var ___genericsType = new Type[] {};
@@ -4284,7 +4284,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual UnityEngine.Component GetComponentInChildren(System.Type  @t)
+        public virtual UnityEngine.Component GetComponentInChildren(System.Type @t)
         {
 
             var ___genericsType = new Type[] {};
@@ -4295,7 +4295,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual T GetComponentInChildren<T>(System.Boolean  @includeInactive)
+        public virtual T GetComponentInChildren<T>(System.Boolean @includeInactive)
         {
 
             var ___genericsType = new Type[] {typeof(T)};
@@ -4317,7 +4317,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual UnityEngine.Component[] GetComponentsInChildren(System.Type  @t, System.Boolean  @includeInactive)
+        public virtual UnityEngine.Component[] GetComponentsInChildren(System.Type @t, System.Boolean @includeInactive)
         {
 
             var ___genericsType = new Type[] {};
@@ -4328,7 +4328,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual UnityEngine.Component[] GetComponentsInChildren(System.Type  @t)
+        public virtual UnityEngine.Component[] GetComponentsInChildren(System.Type @t)
         {
 
             var ___genericsType = new Type[] {};
@@ -4339,7 +4339,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual T[] GetComponentsInChildren<T>(System.Boolean  @includeInactive)
+        public virtual T[] GetComponentsInChildren<T>(System.Boolean @includeInactive)
         {
 
             var ___genericsType = new Type[] {typeof(T)};
@@ -4350,7 +4350,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void GetComponentsInChildren<T>(System.Boolean  @includeInactive, System.Collections.Generic.List<T>  @result)
+        public virtual void GetComponentsInChildren<T>(System.Boolean @includeInactive, System.Collections.Generic.List<T> @result)
         {
 
             var ___genericsType = new Type[] {typeof(T)};
@@ -4372,7 +4372,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void GetComponentsInChildren<T>(System.Collections.Generic.List<T>  @results)
+        public virtual void GetComponentsInChildren<T>(System.Collections.Generic.List<T> @results)
         {
 
             var ___genericsType = new Type[] {typeof(T)};
@@ -4383,7 +4383,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual UnityEngine.Component GetComponentInParent(System.Type  @t, System.Boolean  @includeInactive)
+        public virtual UnityEngine.Component GetComponentInParent(System.Type @t, System.Boolean @includeInactive)
         {
 
             var ___genericsType = new Type[] {};
@@ -4394,7 +4394,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual UnityEngine.Component GetComponentInParent(System.Type  @t)
+        public virtual UnityEngine.Component GetComponentInParent(System.Type @t)
         {
 
             var ___genericsType = new Type[] {};
@@ -4405,7 +4405,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual T GetComponentInParent<T>(System.Boolean  @includeInactive)
+        public virtual T GetComponentInParent<T>(System.Boolean @includeInactive)
         {
 
             var ___genericsType = new Type[] {typeof(T)};
@@ -4427,7 +4427,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual UnityEngine.Component[] GetComponentsInParent(System.Type  @t, System.Boolean  @includeInactive)
+        public virtual UnityEngine.Component[] GetComponentsInParent(System.Type @t, System.Boolean @includeInactive)
         {
 
             var ___genericsType = new Type[] {};
@@ -4438,7 +4438,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual UnityEngine.Component[] GetComponentsInParent(System.Type  @t)
+        public virtual UnityEngine.Component[] GetComponentsInParent(System.Type @t)
         {
 
             var ___genericsType = new Type[] {};
@@ -4449,7 +4449,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual T[] GetComponentsInParent<T>(System.Boolean  @includeInactive)
+        public virtual T[] GetComponentsInParent<T>(System.Boolean @includeInactive)
         {
 
             var ___genericsType = new Type[] {typeof(T)};
@@ -4460,7 +4460,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void GetComponentsInParent<T>(System.Boolean  @includeInactive, System.Collections.Generic.List<T>  @results)
+        public virtual void GetComponentsInParent<T>(System.Boolean @includeInactive, System.Collections.Generic.List<T> @results)
         {
 
             var ___genericsType = new Type[] {typeof(T)};
@@ -4482,7 +4482,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual UnityEngine.Component[] GetComponents(System.Type  @type)
+        public virtual UnityEngine.Component[] GetComponents(System.Type @type)
         {
 
             var ___genericsType = new Type[] {};
@@ -4493,7 +4493,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void GetComponents(System.Type  @type, System.Collections.Generic.List<UnityEngine.Component>  @results)
+        public virtual void GetComponents(System.Type @type, System.Collections.Generic.List<UnityEngine.Component> @results)
         {
 
             var ___genericsType = new Type[] {};
@@ -4504,7 +4504,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void GetComponents<T>(System.Collections.Generic.List<T>  @results)
+        public virtual void GetComponents<T>(System.Collections.Generic.List<T> @results)
         {
 
             var ___genericsType = new Type[] {typeof(T)};
@@ -4526,7 +4526,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Boolean CompareTag(System.String  @tag)
+        public virtual System.Boolean CompareTag(System.String @tag)
         {
 
             var ___genericsType = new Type[] {};
@@ -4559,7 +4559,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SendMessageUpwards(System.String  @methodName, System.Object  @value, UnityEngine.SendMessageOptions  @options)
+        public virtual void SendMessageUpwards(System.String @methodName, System.Object @value, UnityEngine.SendMessageOptions @options)
         {
 
             var ___genericsType = new Type[] {};
@@ -4570,7 +4570,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SendMessageUpwards(System.String  @methodName, System.Object  @value)
+        public virtual void SendMessageUpwards(System.String @methodName, System.Object @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -4581,7 +4581,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SendMessageUpwards(System.String  @methodName)
+        public virtual void SendMessageUpwards(System.String @methodName)
         {
 
             var ___genericsType = new Type[] {};
@@ -4592,7 +4592,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SendMessageUpwards(System.String  @methodName, UnityEngine.SendMessageOptions  @options)
+        public virtual void SendMessageUpwards(System.String @methodName, UnityEngine.SendMessageOptions @options)
         {
 
             var ___genericsType = new Type[] {};
@@ -4603,7 +4603,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SendMessage(System.String  @methodName, System.Object  @value)
+        public virtual void SendMessage(System.String @methodName, System.Object @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -4614,7 +4614,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SendMessage(System.String  @methodName)
+        public virtual void SendMessage(System.String @methodName)
         {
 
             var ___genericsType = new Type[] {};
@@ -4625,7 +4625,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SendMessage(System.String  @methodName, System.Object  @value, UnityEngine.SendMessageOptions  @options)
+        public virtual void SendMessage(System.String @methodName, System.Object @value, UnityEngine.SendMessageOptions @options)
         {
 
             var ___genericsType = new Type[] {};
@@ -4636,7 +4636,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SendMessage(System.String  @methodName, UnityEngine.SendMessageOptions  @options)
+        public virtual void SendMessage(System.String @methodName, UnityEngine.SendMessageOptions @options)
         {
 
             var ___genericsType = new Type[] {};
@@ -4647,7 +4647,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void BroadcastMessage(System.String  @methodName, System.Object  @parameter, UnityEngine.SendMessageOptions  @options)
+        public virtual void BroadcastMessage(System.String @methodName, System.Object @parameter, UnityEngine.SendMessageOptions @options)
         {
 
             var ___genericsType = new Type[] {};
@@ -4658,7 +4658,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void BroadcastMessage(System.String  @methodName, System.Object  @parameter)
+        public virtual void BroadcastMessage(System.String @methodName, System.Object @parameter)
         {
 
             var ___genericsType = new Type[] {};
@@ -4669,7 +4669,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void BroadcastMessage(System.String  @methodName)
+        public virtual void BroadcastMessage(System.String @methodName)
         {
 
             var ___genericsType = new Type[] {};
@@ -4680,7 +4680,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void BroadcastMessage(System.String  @methodName, UnityEngine.SendMessageOptions  @options)
+        public virtual void BroadcastMessage(System.String @methodName, UnityEngine.SendMessageOptions @options)
         {
 
             var ___genericsType = new Type[] {};
@@ -4713,7 +4713,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @other)
+        public virtual System.Boolean Equals(System.Object @other)
         {
 
             var ___genericsType = new Type[] {};

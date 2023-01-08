@@ -2017,7 +2017,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 	    {
 	    }
 
-        public virtual UnityEngine.Experimental.Rendering.GraphicsFormat GetColorFormat(System.Boolean  @suppressWarnings)
+        public virtual UnityEngine.Experimental.Rendering.GraphicsFormat GetColorFormat(System.Boolean @suppressWarnings)
         {
 
             var ___genericsType = new Type[] {};
@@ -2028,7 +2028,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SetColorFormat(UnityEngine.Experimental.Rendering.GraphicsFormat  @format)
+        public virtual void SetColorFormat(UnityEngine.Experimental.Rendering.GraphicsFormat @format)
         {
 
             var ___genericsType = new Type[] {};
@@ -2061,7 +2061,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static void SetActive(UnityEngine.RenderTexture  @rt)
+        public static void SetActive(UnityEngine.RenderTexture @rt)
         {
 
             var ___genericsType = new Type[] {};
@@ -2094,7 +2094,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SetMipMapCount(System.Int32  @count)
+        public virtual void SetMipMapCount(System.Int32 @count)
         {
 
             var ___genericsType = new Type[] {};
@@ -2105,7 +2105,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SetShadowSamplingMode(UnityEngine.Rendering.ShadowSamplingMode  @samplingMode)
+        public virtual void SetShadowSamplingMode(UnityEngine.Rendering.ShadowSamplingMode @samplingMode)
         {
 
             var ___genericsType = new Type[] {};
@@ -2127,7 +2127,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void DiscardContents(System.Boolean  @discardColor, System.Boolean  @discardDepth)
+        public virtual void DiscardContents(System.Boolean @discardColor, System.Boolean @discardDepth)
         {
 
             var ___genericsType = new Type[] {};
@@ -2171,7 +2171,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void ResolveAATo(UnityEngine.RenderTexture  @rt)
+        public virtual void ResolveAATo(UnityEngine.RenderTexture @rt)
         {
 
             var ___genericsType = new Type[] {};
@@ -2193,7 +2193,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void ResolveAntiAliasedSurface(UnityEngine.RenderTexture  @target)
+        public virtual void ResolveAntiAliasedSurface(UnityEngine.RenderTexture @target)
         {
 
             var ___genericsType = new Type[] {};
@@ -2204,7 +2204,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SetGlobalShaderProperty(System.String  @propertyName)
+        public virtual void SetGlobalShaderProperty(System.String @propertyName)
         {
 
             var ___genericsType = new Type[] {};
@@ -2259,7 +2259,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void ConvertToEquirect(UnityEngine.RenderTexture  @equirect, RType  @eye)
+        public virtual void ConvertToEquirect(UnityEngine.RenderTexture @equirect, RType @eye)
         {
 
             var ___genericsType = new Type[] {};
@@ -2270,7 +2270,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SetSRGBReadWrite(System.Boolean  @srgb)
+        public virtual void SetSRGBReadWrite(System.Boolean @srgb)
         {
 
             var ___genericsType = new Type[] {};
@@ -2281,7 +2281,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static void Internal_Create(UnityEngine.RenderTexture  @rt)
+        public static void Internal_Create(UnityEngine.RenderTexture @rt)
         {
 
             var ___genericsType = new Type[] {};
@@ -2292,7 +2292,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static System.Boolean SupportsStencil(UnityEngine.RenderTexture  @rt)
+        public static System.Boolean SupportsStencil(UnityEngine.RenderTexture @rt)
         {
 
             var ___genericsType = new Type[] {};
@@ -2303,7 +2303,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SetRenderTextureDescriptor(UnityEngine.RenderTextureDescriptor  @desc)
+        public virtual void SetRenderTextureDescriptor(UnityEngine.RenderTextureDescriptor @desc)
         {
 
             var ___genericsType = new Type[] {};
@@ -2325,7 +2325,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.RenderTexture GetTemporary_Internal(UnityEngine.RenderTextureDescriptor  @desc)
+        public static UnityEngine.RenderTexture GetTemporary_Internal(UnityEngine.RenderTextureDescriptor @desc)
         {
 
             var ___genericsType = new Type[] {};
@@ -2336,7 +2336,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static void ReleaseTemporary(UnityEngine.RenderTexture  @temp)
+        public static void ReleaseTemporary(UnityEngine.RenderTexture @temp)
         {
 
             var ___genericsType = new Type[] {};
@@ -2347,7 +2347,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void Initialize(System.Int32  @width, System.Int32  @height, System.Int32  @depth, UnityEngine.RenderTextureFormat  @format, UnityEngine.RenderTextureReadWrite  @readWrite, System.Int32  @mipCount)
+        public virtual void Initialize(System.Int32 @width, System.Int32 @height, System.Int32 @depth, UnityEngine.RenderTextureFormat @format, UnityEngine.RenderTextureReadWrite @readWrite, System.Int32 @mipCount)
         {
 
             var ___genericsType = new Type[] {};
@@ -2358,7 +2358,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.Experimental.Rendering.GraphicsFormat GetDepthStencilFormatLegacy(System.Int32  @depthBits, UnityEngine.Experimental.Rendering.GraphicsFormat  @colorFormat)
+        public static UnityEngine.Experimental.Rendering.GraphicsFormat GetDepthStencilFormatLegacy(System.Int32 @depthBits, UnityEngine.Experimental.Rendering.GraphicsFormat @colorFormat)
         {
 
             var ___genericsType = new Type[] {};
@@ -2369,7 +2369,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static void ValidateRenderTextureDesc(UnityEngine.RenderTextureDescriptor  @desc)
+        public static void ValidateRenderTextureDesc(UnityEngine.RenderTextureDescriptor @desc)
         {
 
             var ___genericsType = new Type[] {};
@@ -2380,7 +2380,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.Experimental.Rendering.GraphicsFormat GetCompatibleFormat(UnityEngine.RenderTextureFormat  @renderTextureFormat, UnityEngine.RenderTextureReadWrite  @readWrite)
+        public static UnityEngine.Experimental.Rendering.GraphicsFormat GetCompatibleFormat(UnityEngine.RenderTextureFormat @renderTextureFormat, UnityEngine.RenderTextureReadWrite @readWrite)
         {
 
             var ___genericsType = new Type[] {};
@@ -2391,7 +2391,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.RenderTexture GetTemporary(UnityEngine.RenderTextureDescriptor  @desc)
+        public static UnityEngine.RenderTexture GetTemporary(UnityEngine.RenderTextureDescriptor @desc)
         {
 
             var ___genericsType = new Type[] {};
@@ -2402,7 +2402,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.RenderTexture GetTemporaryImpl(System.Int32  @width, System.Int32  @height, System.Int32  @depthBuffer, UnityEngine.Experimental.Rendering.GraphicsFormat  @colorFormat, System.Int32  @antiAliasing, UnityEngine.RenderTextureMemoryless  @memorylessMode, UnityEngine.VRTextureUsage  @vrUsage, System.Boolean  @useDynamicScale)
+        public static UnityEngine.RenderTexture GetTemporaryImpl(System.Int32 @width, System.Int32 @height, System.Int32 @depthBuffer, UnityEngine.Experimental.Rendering.GraphicsFormat @colorFormat, System.Int32 @antiAliasing, UnityEngine.RenderTextureMemoryless @memorylessMode, UnityEngine.VRTextureUsage @vrUsage, System.Boolean @useDynamicScale)
         {
 
             var ___genericsType = new Type[] {};
@@ -2413,7 +2413,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.RenderTexture GetTemporary(System.Int32  @width, System.Int32  @height, System.Int32  @depthBuffer, UnityEngine.Experimental.Rendering.GraphicsFormat  @format, System.Int32  @antiAliasing, UnityEngine.RenderTextureMemoryless  @memorylessMode, UnityEngine.VRTextureUsage  @vrUsage, System.Boolean  @useDynamicScale)
+        public static UnityEngine.RenderTexture GetTemporary(System.Int32 @width, System.Int32 @height, System.Int32 @depthBuffer, UnityEngine.Experimental.Rendering.GraphicsFormat @format, System.Int32 @antiAliasing, UnityEngine.RenderTextureMemoryless @memorylessMode, UnityEngine.VRTextureUsage @vrUsage, System.Boolean @useDynamicScale)
         {
 
             var ___genericsType = new Type[] {};
@@ -2424,7 +2424,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.RenderTexture GetTemporary(System.Int32  @width, System.Int32  @height, System.Int32  @depthBuffer, UnityEngine.Experimental.Rendering.GraphicsFormat  @format, System.Int32  @antiAliasing, UnityEngine.RenderTextureMemoryless  @memorylessMode, UnityEngine.VRTextureUsage  @vrUsage)
+        public static UnityEngine.RenderTexture GetTemporary(System.Int32 @width, System.Int32 @height, System.Int32 @depthBuffer, UnityEngine.Experimental.Rendering.GraphicsFormat @format, System.Int32 @antiAliasing, UnityEngine.RenderTextureMemoryless @memorylessMode, UnityEngine.VRTextureUsage @vrUsage)
         {
 
             var ___genericsType = new Type[] {};
@@ -2435,7 +2435,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.RenderTexture GetTemporary(System.Int32  @width, System.Int32  @height, System.Int32  @depthBuffer, UnityEngine.Experimental.Rendering.GraphicsFormat  @format, System.Int32  @antiAliasing, UnityEngine.RenderTextureMemoryless  @memorylessMode)
+        public static UnityEngine.RenderTexture GetTemporary(System.Int32 @width, System.Int32 @height, System.Int32 @depthBuffer, UnityEngine.Experimental.Rendering.GraphicsFormat @format, System.Int32 @antiAliasing, UnityEngine.RenderTextureMemoryless @memorylessMode)
         {
 
             var ___genericsType = new Type[] {};
@@ -2446,7 +2446,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.RenderTexture GetTemporary(System.Int32  @width, System.Int32  @height, System.Int32  @depthBuffer, UnityEngine.Experimental.Rendering.GraphicsFormat  @format, System.Int32  @antiAliasing)
+        public static UnityEngine.RenderTexture GetTemporary(System.Int32 @width, System.Int32 @height, System.Int32 @depthBuffer, UnityEngine.Experimental.Rendering.GraphicsFormat @format, System.Int32 @antiAliasing)
         {
 
             var ___genericsType = new Type[] {};
@@ -2457,7 +2457,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.RenderTexture GetTemporary(System.Int32  @width, System.Int32  @height, System.Int32  @depthBuffer, UnityEngine.Experimental.Rendering.GraphicsFormat  @format)
+        public static UnityEngine.RenderTexture GetTemporary(System.Int32 @width, System.Int32 @height, System.Int32 @depthBuffer, UnityEngine.Experimental.Rendering.GraphicsFormat @format)
         {
 
             var ___genericsType = new Type[] {};
@@ -2468,7 +2468,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.RenderTexture GetTemporary(System.Int32  @width, System.Int32  @height, System.Int32  @depthBuffer, UnityEngine.RenderTextureFormat  @format, UnityEngine.RenderTextureReadWrite  @readWrite, System.Int32  @antiAliasing, UnityEngine.RenderTextureMemoryless  @memorylessMode, UnityEngine.VRTextureUsage  @vrUsage, System.Boolean  @useDynamicScale)
+        public static UnityEngine.RenderTexture GetTemporary(System.Int32 @width, System.Int32 @height, System.Int32 @depthBuffer, UnityEngine.RenderTextureFormat @format, UnityEngine.RenderTextureReadWrite @readWrite, System.Int32 @antiAliasing, UnityEngine.RenderTextureMemoryless @memorylessMode, UnityEngine.VRTextureUsage @vrUsage, System.Boolean @useDynamicScale)
         {
 
             var ___genericsType = new Type[] {};
@@ -2479,7 +2479,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.RenderTexture GetTemporary(System.Int32  @width, System.Int32  @height, System.Int32  @depthBuffer, UnityEngine.RenderTextureFormat  @format, UnityEngine.RenderTextureReadWrite  @readWrite, System.Int32  @antiAliasing, UnityEngine.RenderTextureMemoryless  @memorylessMode, UnityEngine.VRTextureUsage  @vrUsage)
+        public static UnityEngine.RenderTexture GetTemporary(System.Int32 @width, System.Int32 @height, System.Int32 @depthBuffer, UnityEngine.RenderTextureFormat @format, UnityEngine.RenderTextureReadWrite @readWrite, System.Int32 @antiAliasing, UnityEngine.RenderTextureMemoryless @memorylessMode, UnityEngine.VRTextureUsage @vrUsage)
         {
 
             var ___genericsType = new Type[] {};
@@ -2490,7 +2490,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.RenderTexture GetTemporary(System.Int32  @width, System.Int32  @height, System.Int32  @depthBuffer, UnityEngine.RenderTextureFormat  @format, UnityEngine.RenderTextureReadWrite  @readWrite, System.Int32  @antiAliasing, UnityEngine.RenderTextureMemoryless  @memorylessMode)
+        public static UnityEngine.RenderTexture GetTemporary(System.Int32 @width, System.Int32 @height, System.Int32 @depthBuffer, UnityEngine.RenderTextureFormat @format, UnityEngine.RenderTextureReadWrite @readWrite, System.Int32 @antiAliasing, UnityEngine.RenderTextureMemoryless @memorylessMode)
         {
 
             var ___genericsType = new Type[] {};
@@ -2501,7 +2501,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.RenderTexture GetTemporary(System.Int32  @width, System.Int32  @height, System.Int32  @depthBuffer, UnityEngine.RenderTextureFormat  @format, UnityEngine.RenderTextureReadWrite  @readWrite, System.Int32  @antiAliasing)
+        public static UnityEngine.RenderTexture GetTemporary(System.Int32 @width, System.Int32 @height, System.Int32 @depthBuffer, UnityEngine.RenderTextureFormat @format, UnityEngine.RenderTextureReadWrite @readWrite, System.Int32 @antiAliasing)
         {
 
             var ___genericsType = new Type[] {};
@@ -2512,7 +2512,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.RenderTexture GetTemporary(System.Int32  @width, System.Int32  @height, System.Int32  @depthBuffer, UnityEngine.RenderTextureFormat  @format, UnityEngine.RenderTextureReadWrite  @readWrite)
+        public static UnityEngine.RenderTexture GetTemporary(System.Int32 @width, System.Int32 @height, System.Int32 @depthBuffer, UnityEngine.RenderTextureFormat @format, UnityEngine.RenderTextureReadWrite @readWrite)
         {
 
             var ___genericsType = new Type[] {};
@@ -2523,7 +2523,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.RenderTexture GetTemporary(System.Int32  @width, System.Int32  @height, System.Int32  @depthBuffer, UnityEngine.RenderTextureFormat  @format)
+        public static UnityEngine.RenderTexture GetTemporary(System.Int32 @width, System.Int32 @height, System.Int32 @depthBuffer, UnityEngine.RenderTextureFormat @format)
         {
 
             var ___genericsType = new Type[] {};
@@ -2534,7 +2534,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.RenderTexture GetTemporary(System.Int32  @width, System.Int32  @height, System.Int32  @depthBuffer)
+        public static UnityEngine.RenderTexture GetTemporary(System.Int32 @width, System.Int32 @height, System.Int32 @depthBuffer)
         {
 
             var ___genericsType = new Type[] {};
@@ -2545,7 +2545,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.RenderTexture GetTemporary(System.Int32  @width, System.Int32  @height)
+        public static UnityEngine.RenderTexture GetTemporary(System.Int32 @width, System.Int32 @height)
         {
 
             var ___genericsType = new Type[] {};
@@ -2556,7 +2556,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SetBorderColor(UnityEngine.Color  @color)
+        public virtual void SetBorderColor(UnityEngine.Color @color)
         {
 
             var ___genericsType = new Type[] {};
@@ -2578,7 +2578,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void GetColorBuffer_Injected(out UnityEngine.RenderBuffer  @ret)
+        public virtual void GetColorBuffer_Injected(out UnityEngine.RenderBuffer @ret)
         {
 			@ret = default;
 
@@ -2591,7 +2591,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void GetDepthBuffer_Injected(out UnityEngine.RenderBuffer  @ret)
+        public virtual void GetDepthBuffer_Injected(out UnityEngine.RenderBuffer @ret)
         {
 			@ret = default;
 
@@ -2604,7 +2604,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SetRenderTextureDescriptor_Injected(ref UnityEngine.RenderTextureDescriptor  @desc)
+        public virtual void SetRenderTextureDescriptor_Injected(ref UnityEngine.RenderTextureDescriptor @desc)
         {
 
             var ___genericsType = new Type[] {};
@@ -2616,7 +2616,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void GetDescriptor_Injected(out UnityEngine.RenderTextureDescriptor  @ret)
+        public virtual void GetDescriptor_Injected(out UnityEngine.RenderTextureDescriptor @ret)
         {
 			@ret = default;
 
@@ -2629,7 +2629,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.RenderTexture GetTemporary_Internal_Injected(ref UnityEngine.RenderTextureDescriptor  @desc)
+        public static UnityEngine.RenderTexture GetTemporary_Internal_Injected(ref UnityEngine.RenderTextureDescriptor @desc)
         {
 
             var ___genericsType = new Type[] {};
@@ -2685,7 +2685,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.UInt64 GetPixelDataSize(System.Int32  @mipLevel, System.Int32  @element)
+        public virtual System.UInt64 GetPixelDataSize(System.Int32 @mipLevel, System.Int32 @element)
         {
 
             var ___genericsType = new Type[] {};
@@ -2696,7 +2696,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.UInt64 GetPixelDataOffset(System.Int32  @mipLevel, System.Int32  @element)
+        public virtual System.UInt64 GetPixelDataOffset(System.Int32 @mipLevel, System.Int32 @element)
         {
 
             var ___genericsType = new Type[] {};
@@ -2707,7 +2707,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Boolean ValidateFormat(UnityEngine.RenderTextureFormat  @format)
+        public virtual System.Boolean ValidateFormat(UnityEngine.RenderTextureFormat @format)
         {
 
             var ___genericsType = new Type[] {};
@@ -2718,7 +2718,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Boolean ValidateFormat(UnityEngine.TextureFormat  @format)
+        public virtual System.Boolean ValidateFormat(UnityEngine.TextureFormat @format)
         {
 
             var ___genericsType = new Type[] {};
@@ -2729,7 +2729,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Boolean ValidateFormat(UnityEngine.Experimental.Rendering.GraphicsFormat  @format, UnityEngine.Experimental.Rendering.FormatUsage  @usage)
+        public virtual System.Boolean ValidateFormat(UnityEngine.Experimental.Rendering.GraphicsFormat @format, UnityEngine.Experimental.Rendering.FormatUsage @usage)
         {
 
             var ___genericsType = new Type[] {};
@@ -2740,7 +2740,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual UnityEngine.UnityException CreateNonReadableException(UnityEngine.Texture  @t)
+        public virtual UnityEngine.UnityException CreateNonReadableException(UnityEngine.Texture @t)
         {
 
             var ___genericsType = new Type[] {};
@@ -2784,7 +2784,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @other)
+        public virtual System.Boolean Equals(System.Object @other)
         {
 
             var ___genericsType = new Type[] {};

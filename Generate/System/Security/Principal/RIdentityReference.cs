@@ -215,7 +215,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 	    {
 	    }
 
-        public virtual System.Boolean Equals(System.Object  @o)
+        public virtual System.Boolean Equals(System.Object @o)
         {
 
             var ___genericsType = new Type[] {};
@@ -237,7 +237,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal
         }
 
 
-        public virtual System.Boolean IsValidTargetType(System.Type  @targetType)
+        public virtual System.Boolean IsValidTargetType(System.Type @targetType)
         {
 
             var ___genericsType = new Type[] {};
@@ -259,7 +259,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal
         }
 
 
-        public virtual System.Security.Principal.IdentityReference Translate(System.Type  @targetType)
+        public virtual System.Security.Principal.IdentityReference Translate(System.Type @targetType)
         {
 
             var ___genericsType = new Type[] {};
@@ -270,7 +270,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal
         }
 
 
-        public static System.Boolean op_Equality(System.Security.Principal.IdentityReference  @left, System.Security.Principal.IdentityReference  @right)
+        public static System.Boolean op_Equality(System.Security.Principal.IdentityReference @left, System.Security.Principal.IdentityReference @right)
         {
 
             var ___genericsType = new Type[] {};
@@ -281,7 +281,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal
         }
 
 
-        public static System.Boolean op_Inequality(System.Security.Principal.IdentityReference  @left, System.Security.Principal.IdentityReference  @right)
+        public static System.Boolean op_Inequality(System.Security.Principal.IdentityReference @left, System.Security.Principal.IdentityReference @right)
         {
 
             var ___genericsType = new Type[] {};

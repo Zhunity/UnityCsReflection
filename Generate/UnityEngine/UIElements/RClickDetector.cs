@@ -266,7 +266,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 	    {
 	    }
 
-        public virtual void StartClickTracking(UnityEngine.UIElements.EventBase  @evt)
+        public virtual void StartClickTracking(UnityEngine.UIElements.EventBase @evt)
         {
 
             var ___genericsType = new Type[] {};
@@ -277,7 +277,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void SendClickEvent(UnityEngine.UIElements.EventBase  @evt)
+        public virtual void SendClickEvent(UnityEngine.UIElements.EventBase @evt)
         {
 
             var ___genericsType = new Type[] {};
@@ -288,7 +288,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void CancelClickTracking(UnityEngine.UIElements.EventBase  @evt)
+        public virtual void CancelClickTracking(UnityEngine.UIElements.EventBase @evt)
         {
 
             var ___genericsType = new Type[] {};
@@ -299,7 +299,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void ProcessEvent(UnityEngine.UIElements.EventBase  @evt)
+        public virtual void ProcessEvent(UnityEngine.UIElements.EventBase @evt)
         {
 
             var ___genericsType = new Type[] {};
@@ -310,7 +310,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public static System.Boolean ContainsPointer(UnityEngine.UIElements.VisualElement  @element, UnityEngine.Vector2  @position)
+        public static System.Boolean ContainsPointer(UnityEngine.UIElements.VisualElement @element, UnityEngine.Vector2 @position)
         {
 
             var ___genericsType = new Type[] {};
@@ -321,7 +321,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

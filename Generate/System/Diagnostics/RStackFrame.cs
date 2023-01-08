@@ -487,7 +487,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RDiagnostics
 	    {
 	    }
 
-        public static System.Boolean get_frame_info(System.Int32  @skip, System.Boolean  @needFileInfo, out System.Reflection.MethodBase  @method, out System.Int32  @iloffset, out System.Int32  @native_offset, out System.String  @file, out System.Int32  @line, out System.Int32  @column)
+        public static System.Boolean get_frame_info(System.Int32 @skip, System.Boolean @needFileInfo, out System.Reflection.MethodBase @method, out System.Int32 @iloffset, out System.Int32 @native_offset, out System.String @file, out System.Int32 @line, out System.Int32 @column)
         {
 			@method = default;
 			@iloffset = default;
@@ -631,7 +631,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RDiagnostics
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

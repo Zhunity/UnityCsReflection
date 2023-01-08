@@ -351,7 +351,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 	    {
 	    }
 
-        public static UnityEngine.Color32 op_Implicit(UnityEngine.Color  @c)
+        public static UnityEngine.Color32 op_Implicit(UnityEngine.Color @c)
         {
 
             var ___genericsType = new Type[] {};
@@ -362,7 +362,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.Color op_Implicit(UnityEngine.Color32  @c)
+        public static UnityEngine.Color op_Implicit(UnityEngine.Color32 @c)
         {
 
             var ___genericsType = new Type[] {};
@@ -373,7 +373,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.Color32 Lerp(UnityEngine.Color32  @a, UnityEngine.Color32  @b, System.Single  @t)
+        public static UnityEngine.Color32 Lerp(UnityEngine.Color32 @a, UnityEngine.Color32 @b, System.Single @t)
         {
 
             var ___genericsType = new Type[] {};
@@ -384,7 +384,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.Color32 LerpUnclamped(UnityEngine.Color32  @a, UnityEngine.Color32  @b, System.Single  @t)
+        public static UnityEngine.Color32 LerpUnclamped(UnityEngine.Color32 @a, UnityEngine.Color32 @b, System.Single @t)
         {
 
             var ___genericsType = new Type[] {};
@@ -395,7 +395,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Boolean InternalEquals(UnityEngine.Color32  @other)
+        public virtual System.Boolean InternalEquals(UnityEngine.Color32 @other)
         {
 
             var ___genericsType = new Type[] {};
@@ -417,7 +417,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.String ToString(System.String  @format)
+        public virtual System.String ToString(System.String @format)
         {
 
             var ___genericsType = new Type[] {};
@@ -428,7 +428,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.String ToString(System.String  @format, System.IFormatProvider  @formatProvider)
+        public virtual System.String ToString(System.String @format, System.IFormatProvider @formatProvider)
         {
 
             var ___genericsType = new Type[] {};
@@ -439,7 +439,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

@@ -1167,7 +1167,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 	    {
 	    }
 
-        public static UnityEngine.Vector2Int AllocToTexelCoord(ref RUnityEngine.RUIElements.RUIR.RBitmapAllocator32  @allocator, RUnityEngine.RUIElements.RUIR.RBMPAlloc  @alloc)
+        public static UnityEngine.Vector2Int AllocToTexelCoord(ref RUnityEngine.RUIElements.RUIR.RBitmapAllocator32 @allocator, RUnityEngine.RUIElements.RUIR.RBMPAlloc @alloc)
         {
 
             var ___genericsType = new Type[] {};
@@ -1179,7 +1179,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
         }
 
 
-        public static System.Int32 AllocToConstantBufferIndex(RUnityEngine.RUIElements.RUIR.RBMPAlloc  @alloc)
+        public static System.Int32 AllocToConstantBufferIndex(RUnityEngine.RUIElements.RUIR.RBMPAlloc @alloc)
         {
 
             var ___genericsType = new Type[] {};
@@ -1190,7 +1190,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
         }
 
 
-        public static System.Boolean AtlasRectMatchesPage(ref RUnityEngine.RUIElements.RUIR.RBitmapAllocator32  @allocator, RUnityEngine.RUIElements.RUIR.RBMPAlloc  @defAlloc, UnityEngine.RectInt  @atlasRect)
+        public static System.Boolean AtlasRectMatchesPage(ref RUnityEngine.RUIElements.RUIR.RBitmapAllocator32 @allocator, RUnityEngine.RUIElements.RUIR.RBMPAlloc @defAlloc, UnityEngine.RectInt @atlasRect)
         {
 
             var ___genericsType = new Type[] {};
@@ -1246,62 +1246,62 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
         }
 
 
-        public virtual System.Object AllocTransform()
+        public virtual RUnityEngine.RUIElements.RUIR.RBMPAlloc AllocTransform()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RAllocTransform.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RUnityEngine.RUIElements.RUIR.RBMPAlloc(___result);
         }
 
 
-        public virtual System.Object AllocClipRect()
+        public virtual RUnityEngine.RUIElements.RUIR.RBMPAlloc AllocClipRect()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RAllocClipRect.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RUnityEngine.RUIElements.RUIR.RBMPAlloc(___result);
         }
 
 
-        public virtual System.Object AllocOpacity()
+        public virtual RUnityEngine.RUIElements.RUIR.RBMPAlloc AllocOpacity()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RAllocOpacity.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RUnityEngine.RUIElements.RUIR.RBMPAlloc(___result);
         }
 
 
-        public virtual System.Object AllocColor()
+        public virtual RUnityEngine.RUIElements.RUIR.RBMPAlloc AllocColor()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RAllocColor.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RUnityEngine.RUIElements.RUIR.RBMPAlloc(___result);
         }
 
 
-        public virtual System.Object AllocTextCoreSettings(RUnityEngine.RUIElements.RUIR.RTextCoreSettings  @settings)
+        public virtual RUnityEngine.RUIElements.RUIR.RBMPAlloc AllocTextCoreSettings(RUnityEngine.RUIElements.RUIR.RTextCoreSettings @settings)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@settings.Value};
             var ___result = RAllocTextCoreSettings_TextCoreSettings.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RUnityEngine.RUIElements.RUIR.RBMPAlloc(___result);
         }
 
 
-        public virtual void SetTransformValue(RUnityEngine.RUIElements.RUIR.RBMPAlloc  @alloc, UnityEngine.Matrix4x4  @xform)
+        public virtual void SetTransformValue(RUnityEngine.RUIElements.RUIR.RBMPAlloc @alloc, UnityEngine.Matrix4x4 @xform)
         {
 
             var ___genericsType = new Type[] {};
@@ -1312,7 +1312,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
         }
 
 
-        public virtual void SetClipRectValue(RUnityEngine.RUIElements.RUIR.RBMPAlloc  @alloc, UnityEngine.Vector4  @clipRect)
+        public virtual void SetClipRectValue(RUnityEngine.RUIElements.RUIR.RBMPAlloc @alloc, UnityEngine.Vector4 @clipRect)
         {
 
             var ___genericsType = new Type[] {};
@@ -1323,7 +1323,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
         }
 
 
-        public virtual void SetOpacityValue(RUnityEngine.RUIElements.RUIR.RBMPAlloc  @alloc, System.Single  @opacity)
+        public virtual void SetOpacityValue(RUnityEngine.RUIElements.RUIR.RBMPAlloc @alloc, System.Single @opacity)
         {
 
             var ___genericsType = new Type[] {};
@@ -1334,7 +1334,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
         }
 
 
-        public virtual void SetColorValue(RUnityEngine.RUIElements.RUIR.RBMPAlloc  @alloc, UnityEngine.Color  @color)
+        public virtual void SetColorValue(RUnityEngine.RUIElements.RUIR.RBMPAlloc @alloc, UnityEngine.Color @color)
         {
 
             var ___genericsType = new Type[] {};
@@ -1345,7 +1345,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
         }
 
 
-        public virtual void SetTextCoreSettingValue(RUnityEngine.RUIElements.RUIR.RBMPAlloc  @alloc, RUnityEngine.RUIElements.RUIR.RTextCoreSettings  @settings)
+        public virtual void SetTextCoreSettingValue(RUnityEngine.RUIElements.RUIR.RBMPAlloc @alloc, RUnityEngine.RUIElements.RUIR.RTextCoreSettings @settings)
         {
 
             var ___genericsType = new Type[] {};
@@ -1356,7 +1356,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
         }
 
 
-        public virtual void FreeTransform(RUnityEngine.RUIElements.RUIR.RBMPAlloc  @alloc)
+        public virtual void FreeTransform(RUnityEngine.RUIElements.RUIR.RBMPAlloc @alloc)
         {
 
             var ___genericsType = new Type[] {};
@@ -1367,7 +1367,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
         }
 
 
-        public virtual void FreeClipRect(RUnityEngine.RUIElements.RUIR.RBMPAlloc  @alloc)
+        public virtual void FreeClipRect(RUnityEngine.RUIElements.RUIR.RBMPAlloc @alloc)
         {
 
             var ___genericsType = new Type[] {};
@@ -1378,7 +1378,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
         }
 
 
-        public virtual void FreeOpacity(RUnityEngine.RUIElements.RUIR.RBMPAlloc  @alloc)
+        public virtual void FreeOpacity(RUnityEngine.RUIElements.RUIR.RBMPAlloc @alloc)
         {
 
             var ___genericsType = new Type[] {};
@@ -1389,7 +1389,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
         }
 
 
-        public virtual void FreeColor(RUnityEngine.RUIElements.RUIR.RBMPAlloc  @alloc)
+        public virtual void FreeColor(RUnityEngine.RUIElements.RUIR.RBMPAlloc @alloc)
         {
 
             var ___genericsType = new Type[] {};
@@ -1400,7 +1400,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
         }
 
 
-        public virtual void FreeTextCoreSettings(RUnityEngine.RUIElements.RUIR.RBMPAlloc  @alloc)
+        public virtual void FreeTextCoreSettings(RUnityEngine.RUIElements.RUIR.RBMPAlloc @alloc)
         {
 
             var ___genericsType = new Type[] {};
@@ -1411,7 +1411,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
         }
 
 
-        public virtual UnityEngine.Color32 TransformAllocToVertexData(RUnityEngine.RUIElements.RUIR.RBMPAlloc  @alloc)
+        public virtual UnityEngine.Color32 TransformAllocToVertexData(RUnityEngine.RUIElements.RUIR.RBMPAlloc @alloc)
         {
 
             var ___genericsType = new Type[] {};
@@ -1422,7 +1422,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
         }
 
 
-        public virtual UnityEngine.Color32 ClipRectAllocToVertexData(RUnityEngine.RUIElements.RUIR.RBMPAlloc  @alloc)
+        public virtual UnityEngine.Color32 ClipRectAllocToVertexData(RUnityEngine.RUIElements.RUIR.RBMPAlloc @alloc)
         {
 
             var ___genericsType = new Type[] {};
@@ -1433,7 +1433,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
         }
 
 
-        public virtual UnityEngine.Color32 OpacityAllocToVertexData(RUnityEngine.RUIElements.RUIR.RBMPAlloc  @alloc)
+        public virtual UnityEngine.Color32 OpacityAllocToVertexData(RUnityEngine.RUIElements.RUIR.RBMPAlloc @alloc)
         {
 
             var ___genericsType = new Type[] {};
@@ -1444,7 +1444,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
         }
 
 
-        public virtual UnityEngine.Color32 ColorAllocToVertexData(RUnityEngine.RUIElements.RUIR.RBMPAlloc  @alloc)
+        public virtual UnityEngine.Color32 ColorAllocToVertexData(RUnityEngine.RUIElements.RUIR.RBMPAlloc @alloc)
         {
 
             var ___genericsType = new Type[] {};
@@ -1455,7 +1455,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
         }
 
 
-        public virtual UnityEngine.Color32 TextCoreSettingsToVertexData(RUnityEngine.RUIElements.RUIR.RBMPAlloc  @alloc)
+        public virtual UnityEngine.Color32 TextCoreSettingsToVertexData(RUnityEngine.RUIElements.RUIR.RBMPAlloc @alloc)
         {
 
             var ___genericsType = new Type[] {};
@@ -1466,7 +1466,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

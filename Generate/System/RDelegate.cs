@@ -1019,7 +1019,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Delegate CreateDelegate_internal(System.Type  @type, System.Object  @target, System.Reflection.MethodInfo  @info, System.Boolean  @throwOnBindFailure)
+        public static System.Delegate CreateDelegate_internal(System.Type @type, System.Object @target, System.Reflection.MethodInfo @info, System.Boolean @throwOnBindFailure)
         {
 
             var ___genericsType = new Type[] {};
@@ -1030,7 +1030,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Boolean arg_type_match(System.Type  @delArgType, System.Type  @argType)
+        public static System.Boolean arg_type_match(System.Type @delArgType, System.Type @argType)
         {
 
             var ___genericsType = new Type[] {};
@@ -1041,7 +1041,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Boolean arg_type_match_this(System.Type  @delArgType, System.Type  @argType, System.Boolean  @boxedThis)
+        public static System.Boolean arg_type_match_this(System.Type @delArgType, System.Type @argType, System.Boolean @boxedThis)
         {
 
             var ___genericsType = new Type[] {};
@@ -1052,7 +1052,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Boolean return_type_match(System.Type  @delReturnType, System.Type  @returnType)
+        public static System.Boolean return_type_match(System.Type @delReturnType, System.Type @returnType)
         {
 
             var ___genericsType = new Type[] {};
@@ -1063,7 +1063,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Delegate CreateDelegate(System.Type  @type, System.Object  @firstArgument, System.Reflection.MethodInfo  @method, System.Boolean  @throwOnBindFailure)
+        public static System.Delegate CreateDelegate(System.Type @type, System.Object @firstArgument, System.Reflection.MethodInfo @method, System.Boolean @throwOnBindFailure)
         {
 
             var ___genericsType = new Type[] {};
@@ -1074,7 +1074,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Delegate CreateDelegate(System.Type  @type, System.Object  @firstArgument, System.Reflection.MethodInfo  @method, System.Boolean  @throwOnBindFailure, System.Boolean  @allowClosed)
+        public static System.Delegate CreateDelegate(System.Type @type, System.Object @firstArgument, System.Reflection.MethodInfo @method, System.Boolean @throwOnBindFailure, System.Boolean @allowClosed)
         {
 
             var ___genericsType = new Type[] {};
@@ -1085,7 +1085,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Delegate CreateDelegate(System.Type  @type, System.Object  @firstArgument, System.Reflection.MethodInfo  @method)
+        public static System.Delegate CreateDelegate(System.Type @type, System.Object @firstArgument, System.Reflection.MethodInfo @method)
         {
 
             var ___genericsType = new Type[] {};
@@ -1096,7 +1096,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Delegate CreateDelegate(System.Type  @type, System.Reflection.MethodInfo  @method, System.Boolean  @throwOnBindFailure)
+        public static System.Delegate CreateDelegate(System.Type @type, System.Reflection.MethodInfo @method, System.Boolean @throwOnBindFailure)
         {
 
             var ___genericsType = new Type[] {};
@@ -1107,7 +1107,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Delegate CreateDelegate(System.Type  @type, System.Reflection.MethodInfo  @method)
+        public static System.Delegate CreateDelegate(System.Type @type, System.Reflection.MethodInfo @method)
         {
 
             var ___genericsType = new Type[] {};
@@ -1118,7 +1118,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Delegate CreateDelegate(System.Type  @type, System.Object  @target, System.String  @method)
+        public static System.Delegate CreateDelegate(System.Type @type, System.Object @target, System.String @method)
         {
 
             var ___genericsType = new Type[] {};
@@ -1129,7 +1129,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Reflection.MethodInfo GetCandidateMethod(System.Type  @type, System.Type  @target, System.String  @method, System.Reflection.BindingFlags  @bflags, System.Boolean  @ignoreCase, System.Boolean  @throwOnBindFailure)
+        public static System.Reflection.MethodInfo GetCandidateMethod(System.Type @type, System.Type @target, System.String @method, System.Reflection.BindingFlags @bflags, System.Boolean @ignoreCase, System.Boolean @throwOnBindFailure)
         {
 
             var ___genericsType = new Type[] {};
@@ -1140,7 +1140,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Delegate CreateDelegate(System.Type  @type, System.Type  @target, System.String  @method, System.Boolean  @ignoreCase, System.Boolean  @throwOnBindFailure)
+        public static System.Delegate CreateDelegate(System.Type @type, System.Type @target, System.String @method, System.Boolean @ignoreCase, System.Boolean @throwOnBindFailure)
         {
 
             var ___genericsType = new Type[] {};
@@ -1151,7 +1151,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Delegate CreateDelegate(System.Type  @type, System.Type  @target, System.String  @method)
+        public static System.Delegate CreateDelegate(System.Type @type, System.Type @target, System.String @method)
         {
 
             var ___genericsType = new Type[] {};
@@ -1162,7 +1162,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Delegate CreateDelegate(System.Type  @type, System.Type  @target, System.String  @method, System.Boolean  @ignoreCase)
+        public static System.Delegate CreateDelegate(System.Type @type, System.Type @target, System.String @method, System.Boolean @ignoreCase)
         {
 
             var ___genericsType = new Type[] {};
@@ -1173,7 +1173,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Delegate CreateDelegate(System.Type  @type, System.Object  @target, System.String  @method, System.Boolean  @ignoreCase, System.Boolean  @throwOnBindFailure)
+        public static System.Delegate CreateDelegate(System.Type @type, System.Object @target, System.String @method, System.Boolean @ignoreCase, System.Boolean @throwOnBindFailure)
         {
 
             var ___genericsType = new Type[] {};
@@ -1184,7 +1184,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Delegate CreateDelegate(System.Type  @type, System.Object  @target, System.String  @method, System.Boolean  @ignoreCase)
+        public static System.Delegate CreateDelegate(System.Type @type, System.Object @target, System.String @method, System.Boolean @ignoreCase)
         {
 
             var ___genericsType = new Type[] {};
@@ -1195,7 +1195,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Object DynamicInvoke(System.Object[]  @args)
+        public virtual System.Object DynamicInvoke(System.Object[] @args)
         {
 
             var ___genericsType = new Type[] {};
@@ -1217,7 +1217,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Object DynamicInvokeImpl(System.Object[]  @args)
+        public virtual System.Object DynamicInvokeImpl(System.Object[] @args)
         {
 
             var ___genericsType = new Type[] {};
@@ -1239,7 +1239,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};
@@ -1272,7 +1272,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual void GetObjectData(System.Runtime.Serialization.SerializationInfo  @info, System.Runtime.Serialization.StreamingContext  @context)
+        public virtual void GetObjectData(System.Runtime.Serialization.SerializationInfo @info, System.Runtime.Serialization.StreamingContext @context)
         {
 
             var ___genericsType = new Type[] {};
@@ -1294,7 +1294,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Delegate Combine(System.Delegate  @a, System.Delegate  @b)
+        public static System.Delegate Combine(System.Delegate @a, System.Delegate @b)
         {
 
             var ___genericsType = new Type[] {};
@@ -1305,7 +1305,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Delegate Combine(System.Delegate[]  @delegates)
+        public static System.Delegate Combine(System.Delegate[] @delegates)
         {
 
             var ___genericsType = new Type[] {};
@@ -1316,7 +1316,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Delegate CombineImpl(System.Delegate  @d)
+        public virtual System.Delegate CombineImpl(System.Delegate @d)
         {
 
             var ___genericsType = new Type[] {};
@@ -1327,7 +1327,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Delegate Remove(System.Delegate  @source, System.Delegate  @value)
+        public static System.Delegate Remove(System.Delegate @source, System.Delegate @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -1338,7 +1338,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Delegate RemoveImpl(System.Delegate  @d)
+        public virtual System.Delegate RemoveImpl(System.Delegate @d)
         {
 
             var ___genericsType = new Type[] {};
@@ -1349,7 +1349,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Delegate RemoveAll(System.Delegate  @source, System.Delegate  @value)
+        public static System.Delegate RemoveAll(System.Delegate @source, System.Delegate @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -1360,7 +1360,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Boolean op_Equality(System.Delegate  @d1, System.Delegate  @d2)
+        public static System.Boolean op_Equality(System.Delegate @d1, System.Delegate @d2)
         {
 
             var ___genericsType = new Type[] {};
@@ -1371,7 +1371,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Boolean op_Inequality(System.Delegate  @d1, System.Delegate  @d2)
+        public static System.Boolean op_Inequality(System.Delegate @d1, System.Delegate @d2)
         {
 
             var ___genericsType = new Type[] {};
@@ -1393,7 +1393,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Delegate CreateDelegateNoSecurityCheck(RSystem.RRuntimeType  @type, System.Object  @firstArgument, System.Reflection.MethodInfo  @method)
+        public static System.Delegate CreateDelegateNoSecurityCheck(RSystem.RRuntimeType @type, System.Object @firstArgument, System.Reflection.MethodInfo @method)
         {
 
             var ___genericsType = new Type[] {};
@@ -1404,7 +1404,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.MulticastDelegate AllocDelegateLike_internal(System.Delegate  @d)
+        public static System.MulticastDelegate AllocDelegateLike_internal(System.Delegate @d)
         {
 
             var ___genericsType = new Type[] {};

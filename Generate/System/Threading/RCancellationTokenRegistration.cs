@@ -305,7 +305,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public static System.Boolean op_Equality(System.Threading.CancellationTokenRegistration  @left, System.Threading.CancellationTokenRegistration  @right)
+        public static System.Boolean op_Equality(System.Threading.CancellationTokenRegistration @left, System.Threading.CancellationTokenRegistration @right)
         {
 
             var ___genericsType = new Type[] {};
@@ -316,7 +316,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public static System.Boolean op_Inequality(System.Threading.CancellationTokenRegistration  @left, System.Threading.CancellationTokenRegistration  @right)
+        public static System.Boolean op_Inequality(System.Threading.CancellationTokenRegistration @left, System.Threading.CancellationTokenRegistration @right)
         {
 
             var ___genericsType = new Type[] {};
@@ -327,7 +327,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};
@@ -338,7 +338,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public virtual System.Boolean Equals(System.Threading.CancellationTokenRegistration  @other)
+        public virtual System.Boolean Equals(System.Threading.CancellationTokenRegistration @other)
         {
 
             var ___genericsType = new Type[] {};

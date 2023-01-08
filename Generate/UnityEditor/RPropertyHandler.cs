@@ -674,7 +674,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 	    {
 	    }
 
-        public static void OnUndoRedo(in UnityEditor.UndoRedoInfo  @info)
+        public static void OnUndoRedo(in UnityEditor.UndoRedoInfo @info)
         {
 
             var ___genericsType = new Type[] {};
@@ -696,7 +696,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public static void InvalidateListCacheIncludingChildren(UnityEditor.SerializedProperty  @property)
+        public static void InvalidateListCacheIncludingChildren(UnityEditor.SerializedProperty @property)
         {
 
             var ___genericsType = new Type[] {};
@@ -707,7 +707,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual void HandleAttribute(UnityEditor.SerializedProperty  @property, UnityEngine.PropertyAttribute  @attribute, System.Reflection.FieldInfo  @field, System.Type  @propertyType)
+        public virtual void HandleAttribute(UnityEditor.SerializedProperty @property, UnityEngine.PropertyAttribute @attribute, System.Reflection.FieldInfo @field, System.Type @propertyType)
         {
 
             var ___genericsType = new Type[] {};
@@ -718,7 +718,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual void HandleDrawnType(UnityEditor.SerializedProperty  @property, System.Type  @drawnType, System.Type  @propertyType, System.Reflection.FieldInfo  @field, UnityEngine.PropertyAttribute  @attribute)
+        public virtual void HandleDrawnType(UnityEditor.SerializedProperty @property, System.Type @drawnType, System.Type @propertyType, System.Reflection.FieldInfo @field, UnityEngine.PropertyAttribute @attribute)
         {
 
             var ___genericsType = new Type[] {};
@@ -729,7 +729,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual System.Boolean OnGUI(UnityEngine.Rect  @position, UnityEditor.SerializedProperty  @property, UnityEngine.GUIContent  @label, System.Boolean  @includeChildren)
+        public virtual System.Boolean OnGUI(UnityEngine.Rect @position, UnityEditor.SerializedProperty @property, UnityEngine.GUIContent @label, System.Boolean @includeChildren)
         {
 
             var ___genericsType = new Type[] {};
@@ -740,7 +740,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual System.Boolean OnGUI(UnityEngine.Rect  @position, UnityEditor.SerializedProperty  @property, UnityEngine.GUIContent  @label, System.Boolean  @includeChildren, UnityEngine.Rect  @visibleArea)
+        public virtual System.Boolean OnGUI(UnityEngine.Rect @position, UnityEditor.SerializedProperty @property, UnityEngine.GUIContent @label, System.Boolean @includeChildren, UnityEngine.Rect @visibleArea)
         {
 
             var ___genericsType = new Type[] {};
@@ -751,7 +751,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual System.Boolean OnGUILayout(UnityEditor.SerializedProperty  @property, UnityEngine.GUIContent  @label, System.Boolean  @includeChildren, UnityEngine.GUILayoutOption[]  @options)
+        public virtual System.Boolean OnGUILayout(UnityEditor.SerializedProperty @property, UnityEngine.GUIContent @label, System.Boolean @includeChildren, UnityEngine.GUILayoutOption[] @options)
         {
 
             var ___genericsType = new Type[] {};
@@ -762,7 +762,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual System.Single GetHeight(UnityEditor.SerializedProperty  @property, UnityEngine.GUIContent  @label, System.Boolean  @includeChildren)
+        public virtual System.Single GetHeight(UnityEditor.SerializedProperty @property, UnityEngine.GUIContent @label, System.Boolean @includeChildren)
         {
 
             var ___genericsType = new Type[] {};
@@ -773,7 +773,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual System.Boolean CanCacheInspectorGUI(UnityEditor.SerializedProperty  @property)
+        public virtual System.Boolean CanCacheInspectorGUI(UnityEditor.SerializedProperty @property)
         {
 
             var ___genericsType = new Type[] {};
@@ -784,7 +784,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual void AddMenuItems(UnityEditor.SerializedProperty  @property, UnityEditor.GenericMenu  @menu)
+        public virtual void AddMenuItems(UnityEditor.SerializedProperty @property, UnityEditor.GenericMenu @menu)
         {
 
             var ___genericsType = new Type[] {};
@@ -795,7 +795,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual void CallMenuCallback(System.Object[]  @targets, System.Reflection.MethodInfo  @method)
+        public virtual void CallMenuCallback(System.Object[] @targets, System.Reflection.MethodInfo @method)
         {
 
             var ___genericsType = new Type[] {};
@@ -817,7 +817,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public static System.Boolean IsNonStringArray(UnityEditor.SerializedProperty  @property)
+        public static System.Boolean IsNonStringArray(UnityEditor.SerializedProperty @property)
         {
 
             var ___genericsType = new Type[] {};
@@ -828,7 +828,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public static System.Boolean IsArrayReorderable(UnityEditor.SerializedProperty  @property)
+        public static System.Boolean IsArrayReorderable(UnityEditor.SerializedProperty @property)
         {
 
             var ___genericsType = new Type[] {};
@@ -839,7 +839,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public static System.Boolean UseReorderabelListControl(UnityEditor.SerializedProperty  @property)
+        public static System.Boolean UseReorderabelListControl(UnityEditor.SerializedProperty @property)
         {
 
             var ___genericsType = new Type[] {};
@@ -850,29 +850,29 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual System.Object ApplyNestingContext(System.Int32  @nestingLevel)
+        public virtual RUnityEditor.RPropertyHandler.RNestingContext ApplyNestingContext(System.Int32 @nestingLevel)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@nestingLevel};
             var ___result = RApplyNestingContext_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RUnityEditor.RPropertyHandler.RNestingContext(___result);
         }
 
 
-        public virtual System.Object IncrementNestingContext()
+        public virtual RUnityEditor.RPropertyHandler.RNestingContext IncrementNestingContext()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RIncrementNestingContext.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RUnityEditor.RPropertyHandler.RNestingContext(___result);
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

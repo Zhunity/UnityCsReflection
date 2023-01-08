@@ -606,7 +606,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 	    {
 	    }
 
-        public virtual void System__2__Runtime__2__InteropServices__2___CustomAttributeBuilder__2__GetIDsOfNames(in System.Guid  @riid, System.IntPtr  @rgszNames, System.UInt32  @cNames, System.UInt32  @lcid, System.IntPtr  @rgDispId)
+        public virtual void System__2__Runtime__2__InteropServices__2___CustomAttributeBuilder__2__GetIDsOfNames(in System.Guid @riid, System.IntPtr @rgszNames, System.UInt32 @cNames, System.UInt32 @lcid, System.IntPtr @rgDispId)
         {
 
             var ___genericsType = new Type[] {};
@@ -617,7 +617,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual void System__2__Runtime__2__InteropServices__2___CustomAttributeBuilder__2__GetTypeInfo(System.UInt32  @iTInfo, System.UInt32  @lcid, System.IntPtr  @ppTInfo)
+        public virtual void System__2__Runtime__2__InteropServices__2___CustomAttributeBuilder__2__GetTypeInfo(System.UInt32 @iTInfo, System.UInt32 @lcid, System.IntPtr @ppTInfo)
         {
 
             var ___genericsType = new Type[] {};
@@ -628,7 +628,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual void System__2__Runtime__2__InteropServices__2___CustomAttributeBuilder__2__GetTypeInfoCount(out System.UInt32  @pcTInfo)
+        public virtual void System__2__Runtime__2__InteropServices__2___CustomAttributeBuilder__2__GetTypeInfoCount(out System.UInt32 @pcTInfo)
         {
 			@pcTInfo = default;
 
@@ -641,7 +641,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual void System__2__Runtime__2__InteropServices__2___CustomAttributeBuilder__2__Invoke(System.UInt32  @dispIdMember, in System.Guid  @riid, System.UInt32  @lcid, System.Int16  @wFlags, System.IntPtr  @pDispParams, System.IntPtr  @pVarResult, System.IntPtr  @pExcepInfo, System.IntPtr  @puArgErr)
+        public virtual void System__2__Runtime__2__InteropServices__2___CustomAttributeBuilder__2__Invoke(System.UInt32 @dispIdMember, in System.Guid @riid, System.UInt32 @lcid, System.Int16 @wFlags, System.IntPtr @pDispParams, System.IntPtr @pVarResult, System.IntPtr @pExcepInfo, System.IntPtr @puArgErr)
         {
 
             var ___genericsType = new Type[] {};
@@ -652,7 +652,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public static System.Byte[] GetBlob(System.Reflection.Assembly  @asmb, System.Reflection.ConstructorInfo  @con, System.Object[]  @constructorArgs, System.Reflection.PropertyInfo[]  @namedProperties, System.Object[]  @propertyValues, System.Reflection.FieldInfo[]  @namedFields, System.Object[]  @fieldValues)
+        public static System.Byte[] GetBlob(System.Reflection.Assembly @asmb, System.Reflection.ConstructorInfo @con, System.Object[] @constructorArgs, System.Reflection.PropertyInfo[] @namedProperties, System.Object[] @propertyValues, System.Reflection.FieldInfo[] @namedFields, System.Object[] @fieldValues)
         {
 
             var ___genericsType = new Type[] {};
@@ -674,7 +674,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual System.Boolean IsValidType(System.Type  @t)
+        public virtual System.Boolean IsValidType(System.Type @t)
         {
 
             var ___genericsType = new Type[] {};
@@ -685,7 +685,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual System.Boolean IsValidParam(System.Object  @o, System.Type  @paramType)
+        public virtual System.Boolean IsValidParam(System.Object @o, System.Type @paramType)
         {
 
             var ___genericsType = new Type[] {};
@@ -696,7 +696,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public static System.Boolean IsValidValue(System.Type  @type, System.Object  @value)
+        public static System.Boolean IsValidValue(System.Type @type, System.Object @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -707,7 +707,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual void Initialize(System.Reflection.ConstructorInfo  @con, System.Object[]  @constructorArgs, System.Reflection.PropertyInfo[]  @namedProperties, System.Object[]  @propertyValues, System.Reflection.FieldInfo[]  @namedFields, System.Object[]  @fieldValues)
+        public virtual void Initialize(System.Reflection.ConstructorInfo @con, System.Object[] @constructorArgs, System.Reflection.PropertyInfo[] @namedProperties, System.Object[] @propertyValues, System.Reflection.FieldInfo[] @namedFields, System.Object[] @fieldValues)
         {
 
             var ___genericsType = new Type[] {};
@@ -718,7 +718,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public static System.Int32 decode_len(System.Byte[]  @data, System.Int32  @pos, out System.Int32  @rpos)
+        public static System.Int32 decode_len(System.Byte[] @data, System.Int32 @pos, out System.Int32 @rpos)
         {
 			@rpos = default;
 
@@ -731,7 +731,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public static System.String string_from_bytes(System.Byte[]  @data, System.Int32  @pos, System.Int32  @len)
+        public static System.String string_from_bytes(System.Byte[] @data, System.Int32 @pos, System.Int32 @len)
         {
 
             var ___genericsType = new Type[] {};
@@ -742,7 +742,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public static System.String decode_string(System.Byte[]  @data, System.Int32  @pos, out System.Int32  @rpos)
+        public static System.String decode_string(System.Byte[] @data, System.Int32 @pos, out System.Int32 @rpos)
         {
 			@rpos = default;
 
@@ -766,7 +766,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public static System.Reflection.Emit.UnmanagedMarshal get_umarshal(System.Reflection.Emit.CustomAttributeBuilder  @customBuilder, System.Boolean  @is_field)
+        public static System.Reflection.Emit.UnmanagedMarshal get_umarshal(System.Reflection.Emit.CustomAttributeBuilder @customBuilder, System.Boolean @is_field)
         {
 
             var ___genericsType = new Type[] {};
@@ -777,7 +777,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public static System.Type elementTypeToType(System.Int32  @elementType)
+        public static System.Type elementTypeToType(System.Int32 @elementType)
         {
 
             var ___genericsType = new Type[] {};
@@ -788,7 +788,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public static System.Object decode_cattr_value(System.Type  @t, System.Byte[]  @data, System.Int32  @pos, out System.Int32  @rpos)
+        public static System.Object decode_cattr_value(System.Type @t, System.Byte[] @data, System.Int32 @pos, out System.Int32 @rpos)
         {
 			@rpos = default;
 
@@ -801,18 +801,18 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public static System.Object decode_cattr(System.Reflection.Emit.CustomAttributeBuilder  @customBuilder)
+        public static RSystem.RReflection.REmit.RCustomAttributeBuilder.RCustomAttributeInfo decode_cattr(System.Reflection.Emit.CustomAttributeBuilder @customBuilder)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@customBuilder};
             var ___result = Rdecode_cattr_CustomAttributeBuilder.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RSystem.RReflection.REmit.RCustomAttributeBuilder.RCustomAttributeInfo(___result);
         }
 
 
-        public static System.Reflection.ParameterInfo[] GetParameters(System.Reflection.ConstructorInfo  @ctor)
+        public static System.Reflection.ParameterInfo[] GetParameters(System.Reflection.ConstructorInfo @ctor)
         {
 
             var ___genericsType = new Type[] {};
@@ -823,7 +823,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

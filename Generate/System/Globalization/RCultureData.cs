@@ -1456,40 +1456,40 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 	    {
 	    }
 
-        public static System.Object GetCultureData(System.String  @cultureName, System.Boolean  @useUserOverride)
+        public static RSystem.RGlobalization.RCultureData GetCultureData(System.String @cultureName, System.Boolean @useUserOverride)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@cultureName, @useUserOverride};
             var ___result = RGetCultureData_String_Boolean.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RSystem.RGlobalization.RCultureData(___result);
         }
 
 
-        public static System.Object GetCultureData(System.String  @cultureName, System.Boolean  @useUserOverride, System.Int32  @datetimeIndex, System.Int32  @calendarId, System.Int32  @numberIndex, System.String  @iso2lang, System.Int32  @ansiCodePage, System.Int32  @oemCodePage, System.Int32  @macCodePage, System.Int32  @ebcdicCodePage, System.Boolean  @rightToLeft, System.String  @listSeparator)
+        public static RSystem.RGlobalization.RCultureData GetCultureData(System.String @cultureName, System.Boolean @useUserOverride, System.Int32 @datetimeIndex, System.Int32 @calendarId, System.Int32 @numberIndex, System.String @iso2lang, System.Int32 @ansiCodePage, System.Int32 @oemCodePage, System.Int32 @macCodePage, System.Int32 @ebcdicCodePage, System.Boolean @rightToLeft, System.String @listSeparator)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@cultureName, @useUserOverride, @datetimeIndex, @calendarId, @numberIndex, @iso2lang, @ansiCodePage, @oemCodePage, @macCodePage, @ebcdicCodePage, @rightToLeft, @listSeparator};
             var ___result = RGetCultureData_String_Boolean_Int32_Int32_Int32_String_Int32_Int32_Int32_Int32_Boolean_String.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RSystem.RGlobalization.RCultureData(___result);
         }
 
 
-        public static System.Object GetCultureData(System.Int32  @culture, System.Boolean  @bUseUserOverride)
+        public static RSystem.RGlobalization.RCultureData GetCultureData(System.Int32 @culture, System.Boolean @bUseUserOverride)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@culture, @bUseUserOverride};
             var ___result = RGetCultureData_Int32_Boolean.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RSystem.RGlobalization.RCultureData(___result);
         }
 
 
-        public virtual void fill_culture_data(System.Int32  @datetimeIndex)
+        public virtual void fill_culture_data(System.Int32 @datetimeIndex)
         {
 
             var ___genericsType = new Type[] {};
@@ -1500,29 +1500,29 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public virtual System.Object GetCalendar(System.Int32  @calendarId)
+        public virtual RSystem.RGlobalization.RCalendarData GetCalendar(System.Int32 @calendarId)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@calendarId};
             var ___result = RGetCalendar_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RSystem.RGlobalization.RCalendarData(___result);
         }
 
 
-        public virtual System.Object GetCalendarIds()
+        public virtual RTypeArray<RType> GetCalendarIds()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RGetCalendarIds.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RTypeArray<RType>(___result);
         }
 
 
-        public virtual System.String CalendarName(System.Int32  @calendarId)
+        public virtual System.String CalendarName(System.Int32 @calendarId)
         {
 
             var ___genericsType = new Type[] {};
@@ -1533,7 +1533,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public virtual System.String[] EraNames(System.Int32  @calendarId)
+        public virtual System.String[] EraNames(System.Int32 @calendarId)
         {
 
             var ___genericsType = new Type[] {};
@@ -1544,7 +1544,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public virtual System.String[] AbbrevEraNames(System.Int32  @calendarId)
+        public virtual System.String[] AbbrevEraNames(System.Int32 @calendarId)
         {
 
             var ___genericsType = new Type[] {};
@@ -1555,7 +1555,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public virtual System.String[] AbbreviatedEnglishEraNames(System.Int32  @calendarId)
+        public virtual System.String[] AbbreviatedEnglishEraNames(System.Int32 @calendarId)
         {
 
             var ___genericsType = new Type[] {};
@@ -1566,7 +1566,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public virtual System.String[] ShortDates(System.Int32  @calendarId)
+        public virtual System.String[] ShortDates(System.Int32 @calendarId)
         {
 
             var ___genericsType = new Type[] {};
@@ -1577,7 +1577,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public virtual System.String[] LongDates(System.Int32  @calendarId)
+        public virtual System.String[] LongDates(System.Int32 @calendarId)
         {
 
             var ___genericsType = new Type[] {};
@@ -1588,7 +1588,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public virtual System.String[] YearMonths(System.Int32  @calendarId)
+        public virtual System.String[] YearMonths(System.Int32 @calendarId)
         {
 
             var ___genericsType = new Type[] {};
@@ -1599,7 +1599,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public virtual System.String[] DayNames(System.Int32  @calendarId)
+        public virtual System.String[] DayNames(System.Int32 @calendarId)
         {
 
             var ___genericsType = new Type[] {};
@@ -1610,7 +1610,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public virtual System.String[] AbbreviatedDayNames(System.Int32  @calendarId)
+        public virtual System.String[] AbbreviatedDayNames(System.Int32 @calendarId)
         {
 
             var ___genericsType = new Type[] {};
@@ -1621,7 +1621,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public virtual System.String[] SuperShortDayNames(System.Int32  @calendarId)
+        public virtual System.String[] SuperShortDayNames(System.Int32 @calendarId)
         {
 
             var ___genericsType = new Type[] {};
@@ -1632,7 +1632,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public virtual System.String[] MonthNames(System.Int32  @calendarId)
+        public virtual System.String[] MonthNames(System.Int32 @calendarId)
         {
 
             var ___genericsType = new Type[] {};
@@ -1643,7 +1643,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public virtual System.String[] GenitiveMonthNames(System.Int32  @calendarId)
+        public virtual System.String[] GenitiveMonthNames(System.Int32 @calendarId)
         {
 
             var ___genericsType = new Type[] {};
@@ -1654,7 +1654,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public virtual System.String[] AbbreviatedMonthNames(System.Int32  @calendarId)
+        public virtual System.String[] AbbreviatedMonthNames(System.Int32 @calendarId)
         {
 
             var ___genericsType = new Type[] {};
@@ -1665,7 +1665,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public virtual System.String[] AbbreviatedGenitiveMonthNames(System.Int32  @calendarId)
+        public virtual System.String[] AbbreviatedGenitiveMonthNames(System.Int32 @calendarId)
         {
 
             var ___genericsType = new Type[] {};
@@ -1676,7 +1676,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public virtual System.String[] LeapYearMonthNames(System.Int32  @calendarId)
+        public virtual System.String[] LeapYearMonthNames(System.Int32 @calendarId)
         {
 
             var ___genericsType = new Type[] {};
@@ -1687,7 +1687,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public virtual System.String MonthDay(System.Int32  @calendarId)
+        public virtual System.String MonthDay(System.Int32 @calendarId)
         {
 
             var ___genericsType = new Type[] {};
@@ -1698,7 +1698,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public virtual System.String DateSeparator(System.Int32  @calendarId)
+        public virtual System.String DateSeparator(System.Int32 @calendarId)
         {
 
             var ___genericsType = new Type[] {};
@@ -1709,7 +1709,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public static System.String GetDateSeparator(System.String  @format)
+        public static System.String GetDateSeparator(System.String @format)
         {
 
             var ___genericsType = new Type[] {};
@@ -1720,7 +1720,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public static System.String GetSeparator(System.String  @format, System.String  @timeParts)
+        public static System.String GetSeparator(System.String @format, System.String @timeParts)
         {
 
             var ___genericsType = new Type[] {};
@@ -1731,7 +1731,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public static System.Int32 IndexOfTimePart(System.String  @format, System.Int32  @startIndex, System.String  @timeParts)
+        public static System.Int32 IndexOfTimePart(System.String @format, System.Int32 @startIndex, System.String @timeParts)
         {
 
             var ___genericsType = new Type[] {};
@@ -1742,7 +1742,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public static System.String UnescapeNlsString(System.String  @str, System.Int32  @start, System.Int32  @end)
+        public static System.String UnescapeNlsString(System.String @str, System.Int32 @start, System.Int32 @end)
         {
 
             var ___genericsType = new Type[] {};
@@ -1753,7 +1753,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public static System.String[] ReescapeWin32Strings(System.String[]  @array)
+        public static System.String[] ReescapeWin32Strings(System.String[] @array)
         {
 
             var ___genericsType = new Type[] {};
@@ -1764,7 +1764,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public static System.String ReescapeWin32String(System.String  @str)
+        public static System.String ReescapeWin32String(System.String @str)
         {
 
             var ___genericsType = new Type[] {};
@@ -1775,7 +1775,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public static System.Boolean IsCustomCultureId(System.Int32  @cultureId)
+        public static System.Boolean IsCustomCultureId(System.Int32 @cultureId)
         {
 
             var ___genericsType = new Type[] {};
@@ -1788,7 +1788,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 
 
 
-        public virtual System.Int32[] create_group_sizes_array(System.Int32  @gs0, System.Int32  @gs1)
+        public virtual System.Int32[] create_group_sizes_array(System.Int32 @gs0, System.Int32 @gs1)
         {
 
             var ___genericsType = new Type[] {};
@@ -1799,7 +1799,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public virtual void GetNFIValues(System.Globalization.NumberFormatInfo  @nfi)
+        public virtual void GetNFIValues(System.Globalization.NumberFormatInfo @nfi)
         {
 
             var ___genericsType = new Type[] {};
@@ -1811,7 +1811,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

@@ -351,7 +351,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 	    {
 	    }
 
-        public virtual void OnAssetBundleNameGUI(System.Collections.Generic.IEnumerable<UnityEngine.Object>  @assets)
+        public virtual void OnAssetBundleNameGUI(System.Collections.Generic.IEnumerable<UnityEngine.Object> @assets)
         {
 
             var ___genericsType = new Type[] {};
@@ -362,7 +362,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual void ShowNewAssetBundleField(System.Boolean  @isVariant)
+        public virtual void ShowNewAssetBundleField(System.Boolean @isVariant)
         {
 
             var ___genericsType = new Type[] {};
@@ -373,7 +373,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual void AssetBundleTextField(UnityEngine.Rect  @rect, System.Int32  @id, System.Collections.Generic.IEnumerable<UnityEngine.Object>  @assets, System.Boolean  @isVariant)
+        public virtual void AssetBundleTextField(UnityEngine.Rect @rect, System.Int32 @id, System.Collections.Generic.IEnumerable<UnityEngine.Object> @assets, System.Boolean @isVariant)
         {
 
             var ___genericsType = new Type[] {};
@@ -395,7 +395,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual void AssetBundlePopup(UnityEngine.Rect  @rect, System.Int32  @id, System.Collections.Generic.IEnumerable<UnityEngine.Object>  @assets, System.Boolean  @isVariant)
+        public virtual void AssetBundlePopup(UnityEngine.Rect @rect, System.Int32 @id, System.Collections.Generic.IEnumerable<UnityEngine.Object> @assets, System.Boolean @isVariant)
         {
 
             var ___genericsType = new Type[] {};
@@ -406,7 +406,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual void FilterSelected(System.Collections.Generic.IEnumerable<System.String>  @assetBundleNames)
+        public virtual void FilterSelected(System.Collections.Generic.IEnumerable<System.String> @assetBundleNames)
         {
 
             var ___genericsType = new Type[] {};
@@ -417,20 +417,20 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual System.Collections.Generic.IEnumerable<System.String> GetAssetBundlesFromAssets(System.Collections.Generic.IEnumerable<UnityEngine.Object>  @assets, System.Boolean  @isVariant, out System.Boolean  @isMixed)
+        public virtual System.Collections.Generic.IEnumerable<System.String> GetAssetBundlesFromAssets(System.Collections.Generic.IEnumerable<UnityEngine.Object> @assets, System.Boolean @isVariant, out System.Boolean @isMixed)
         {
-			isMixed = default;
+			@isMixed = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@assets, @isVariant, @isMixed};
             var ___result = RGetAssetBundlesFromAssets_IEnumerable_d_Object_p__Boolean_Out_Boolean.Invoke(___genericsType, ___parameters);
-			isMixed = (System.Boolean)___parameters[2];
+			@isMixed = (System.Boolean)___parameters[2];
 
             return (System.Collections.Generic.IEnumerable<System.String>)___result;
         }
 
 
-        public virtual void SetAssetBundleForAssets(System.Collections.Generic.IEnumerable<UnityEngine.Object>  @assets, System.String  @name, System.Boolean  @isVariant)
+        public virtual void SetAssetBundleForAssets(System.Collections.Generic.IEnumerable<UnityEngine.Object> @assets, System.String @name, System.Boolean @isVariant)
         {
 
             var ___genericsType = new Type[] {};
@@ -441,7 +441,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

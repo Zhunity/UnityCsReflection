@@ -2765,7 +2765,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 	    {
 	    }
 
-        public static System.Array CreateInstance(System.Type  @elementType, System.Int64[]  @lengths)
+        public static System.Array CreateInstance(System.Type @elementType, System.Int64[] @lengths)
         {
 
             var ___genericsType = new Type[] {};
@@ -2776,7 +2776,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Collections.ObjectModel.ReadOnlyCollection<T> AsReadOnly<T>(T[]  @array)
+        public static System.Collections.ObjectModel.ReadOnlyCollection<T> AsReadOnly<T>(T[] @array)
         {
 
             var ___genericsType = new Type[] {typeof(T)};
@@ -2787,7 +2787,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static void Resize<T>(ref T[]  @array, System.Int32  @newSize)
+        public static void Resize<T>(ref T[] @array, System.Int32 @newSize)
         {
 
             var ___genericsType = new Type[] {typeof(T)};
@@ -2799,7 +2799,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Int32 System__2__Collections__2__IList__2__Add(System.Object  @value)
+        public virtual System.Int32 System__2__Collections__2__IList__2__Add(System.Object @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -2810,7 +2810,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Boolean System__2__Collections__2__IList__2__Contains(System.Object  @value)
+        public virtual System.Boolean System__2__Collections__2__IList__2__Contains(System.Object @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -2832,7 +2832,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Int32 System__2__Collections__2__IList__2__IndexOf(System.Object  @value)
+        public virtual System.Int32 System__2__Collections__2__IList__2__IndexOf(System.Object @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -2843,7 +2843,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual void System__2__Collections__2__IList__2__Insert(System.Int32  @index, System.Object  @value)
+        public virtual void System__2__Collections__2__IList__2__Insert(System.Int32 @index, System.Object @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -2854,7 +2854,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual void System__2__Collections__2__IList__2__Remove(System.Object  @value)
+        public virtual void System__2__Collections__2__IList__2__Remove(System.Object @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -2865,7 +2865,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual void System__2__Collections__2__IList__2__RemoveAt(System.Int32  @index)
+        public virtual void System__2__Collections__2__IList__2__RemoveAt(System.Int32 @index)
         {
 
             var ___genericsType = new Type[] {};
@@ -2876,7 +2876,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual void CopyTo(System.Array  @array, System.Int32  @index)
+        public virtual void CopyTo(System.Array @array, System.Int32 @index)
         {
 
             var ___genericsType = new Type[] {};
@@ -2898,7 +2898,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Int32 System__2__Collections__2__IStructuralComparable__2__CompareTo(System.Object  @other, System.Collections.IComparer  @comparer)
+        public virtual System.Int32 System__2__Collections__2__IStructuralComparable__2__CompareTo(System.Object @other, System.Collections.IComparer @comparer)
         {
 
             var ___genericsType = new Type[] {};
@@ -2909,7 +2909,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Boolean System__2__Collections__2__IStructuralEquatable__2__Equals(System.Object  @other, System.Collections.IEqualityComparer  @comparer)
+        public virtual System.Boolean System__2__Collections__2__IStructuralEquatable__2__Equals(System.Object @other, System.Collections.IEqualityComparer @comparer)
         {
 
             var ___genericsType = new Type[] {};
@@ -2920,7 +2920,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Int32 CombineHashCodes(System.Int32  @h1, System.Int32  @h2)
+        public static System.Int32 CombineHashCodes(System.Int32 @h1, System.Int32 @h2)
         {
 
             var ___genericsType = new Type[] {};
@@ -2931,7 +2931,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Int32 System__2__Collections__2__IStructuralEquatable__2__GetHashCode(System.Collections.IEqualityComparer  @comparer)
+        public virtual System.Int32 System__2__Collections__2__IStructuralEquatable__2__GetHashCode(System.Collections.IEqualityComparer @comparer)
         {
 
             var ___genericsType = new Type[] {};
@@ -2942,7 +2942,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Int32 BinarySearch(System.Array  @array, System.Object  @value)
+        public static System.Int32 BinarySearch(System.Array @array, System.Object @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -2953,7 +2953,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static TOutput[] ConvertAll<TInput, TOutput>(TInput[]  @array, System.Converter<TInput, TOutput>  @converter)
+        public static TOutput[] ConvertAll<TInput, TOutput>(TInput[] @array, System.Converter<TInput, TOutput> @converter)
         {
 
             var ___genericsType = new Type[] {typeof(TInput), typeof(TOutput)};
@@ -2964,7 +2964,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static void Copy(System.Array  @sourceArray, System.Array  @destinationArray, System.Int64  @length)
+        public static void Copy(System.Array @sourceArray, System.Array @destinationArray, System.Int64 @length)
         {
 
             var ___genericsType = new Type[] {};
@@ -2975,7 +2975,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static void Copy(System.Array  @sourceArray, System.Int64  @sourceIndex, System.Array  @destinationArray, System.Int64  @destinationIndex, System.Int64  @length)
+        public static void Copy(System.Array @sourceArray, System.Int64 @sourceIndex, System.Array @destinationArray, System.Int64 @destinationIndex, System.Int64 @length)
         {
 
             var ___genericsType = new Type[] {};
@@ -2986,7 +2986,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual void CopyTo(System.Array  @array, System.Int64  @index)
+        public virtual void CopyTo(System.Array @array, System.Int64 @index)
         {
 
             var ___genericsType = new Type[] {};
@@ -2997,7 +2997,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static void ForEach<T>(T[]  @array, System.Action<T>  @action)
+        public static void ForEach<T>(T[] @array, System.Action<T> @action)
         {
 
             var ___genericsType = new Type[] {typeof(T)};
@@ -3008,7 +3008,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Int64 GetLongLength(System.Int32  @dimension)
+        public virtual System.Int64 GetLongLength(System.Int32 @dimension)
         {
 
             var ___genericsType = new Type[] {};
@@ -3019,7 +3019,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Object GetValue(System.Int64  @index)
+        public virtual System.Object GetValue(System.Int64 @index)
         {
 
             var ___genericsType = new Type[] {};
@@ -3030,7 +3030,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Object GetValue(System.Int64  @index1, System.Int64  @index2)
+        public virtual System.Object GetValue(System.Int64 @index1, System.Int64 @index2)
         {
 
             var ___genericsType = new Type[] {};
@@ -3041,7 +3041,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Object GetValue(System.Int64  @index1, System.Int64  @index2, System.Int64  @index3)
+        public virtual System.Object GetValue(System.Int64 @index1, System.Int64 @index2, System.Int64 @index3)
         {
 
             var ___genericsType = new Type[] {};
@@ -3052,7 +3052,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Object GetValue(System.Int64[]  @indices)
+        public virtual System.Object GetValue(System.Int64[] @indices)
         {
 
             var ___genericsType = new Type[] {};
@@ -3063,7 +3063,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Int32 BinarySearch(System.Array  @array, System.Int32  @index, System.Int32  @length, System.Object  @value)
+        public static System.Int32 BinarySearch(System.Array @array, System.Int32 @index, System.Int32 @length, System.Object @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -3074,7 +3074,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Int32 BinarySearch(System.Array  @array, System.Object  @value, System.Collections.IComparer  @comparer)
+        public static System.Int32 BinarySearch(System.Array @array, System.Object @value, System.Collections.IComparer @comparer)
         {
 
             var ___genericsType = new Type[] {};
@@ -3085,7 +3085,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Int32 BinarySearch(System.Array  @array, System.Int32  @index, System.Int32  @length, System.Object  @value, System.Collections.IComparer  @comparer)
+        public static System.Int32 BinarySearch(System.Array @array, System.Int32 @index, System.Int32 @length, System.Object @value, System.Collections.IComparer @comparer)
         {
 
             var ___genericsType = new Type[] {};
@@ -3096,7 +3096,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Int32 GetMedian(System.Int32  @low, System.Int32  @hi)
+        public static System.Int32 GetMedian(System.Int32 @low, System.Int32 @hi)
         {
 
             var ___genericsType = new Type[] {};
@@ -3107,7 +3107,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Int32 BinarySearch<T>(T[]  @array, T  @value)
+        public static System.Int32 BinarySearch<T>(T[] @array, T @value)
         {
 
             var ___genericsType = new Type[] {typeof(T)};
@@ -3118,7 +3118,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Int32 BinarySearch<T>(T[]  @array, T  @value, System.Collections.Generic.IComparer<T>  @comparer)
+        public static System.Int32 BinarySearch<T>(T[] @array, T @value, System.Collections.Generic.IComparer<T> @comparer)
         {
 
             var ___genericsType = new Type[] {typeof(T)};
@@ -3129,7 +3129,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Int32 BinarySearch<T>(T[]  @array, System.Int32  @index, System.Int32  @length, T  @value)
+        public static System.Int32 BinarySearch<T>(T[] @array, System.Int32 @index, System.Int32 @length, T @value)
         {
 
             var ___genericsType = new Type[] {typeof(T)};
@@ -3140,7 +3140,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Int32 BinarySearch<T>(T[]  @array, System.Int32  @index, System.Int32  @length, T  @value, System.Collections.Generic.IComparer<T>  @comparer)
+        public static System.Int32 BinarySearch<T>(T[] @array, System.Int32 @index, System.Int32 @length, T @value, System.Collections.Generic.IComparer<T> @comparer)
         {
 
             var ___genericsType = new Type[] {typeof(T)};
@@ -3151,7 +3151,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Int32 IndexOf(System.Array  @array, System.Object  @value)
+        public static System.Int32 IndexOf(System.Array @array, System.Object @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -3162,7 +3162,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Int32 IndexOf(System.Array  @array, System.Object  @value, System.Int32  @startIndex)
+        public static System.Int32 IndexOf(System.Array @array, System.Object @value, System.Int32 @startIndex)
         {
 
             var ___genericsType = new Type[] {};
@@ -3173,7 +3173,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Int32 IndexOf(System.Array  @array, System.Object  @value, System.Int32  @startIndex, System.Int32  @count)
+        public static System.Int32 IndexOf(System.Array @array, System.Object @value, System.Int32 @startIndex, System.Int32 @count)
         {
 
             var ___genericsType = new Type[] {};
@@ -3184,7 +3184,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Int32 IndexOf<T>(T[]  @array, T  @value)
+        public static System.Int32 IndexOf<T>(T[] @array, T @value)
         {
 
             var ___genericsType = new Type[] {typeof(T)};
@@ -3195,7 +3195,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Int32 IndexOf<T>(T[]  @array, T  @value, System.Int32  @startIndex)
+        public static System.Int32 IndexOf<T>(T[] @array, T @value, System.Int32 @startIndex)
         {
 
             var ___genericsType = new Type[] {typeof(T)};
@@ -3206,7 +3206,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Int32 IndexOf<T>(T[]  @array, T  @value, System.Int32  @startIndex, System.Int32  @count)
+        public static System.Int32 IndexOf<T>(T[] @array, T @value, System.Int32 @startIndex, System.Int32 @count)
         {
 
             var ___genericsType = new Type[] {typeof(T)};
@@ -3217,7 +3217,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Int32 LastIndexOf(System.Array  @array, System.Object  @value)
+        public static System.Int32 LastIndexOf(System.Array @array, System.Object @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -3228,7 +3228,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Int32 LastIndexOf(System.Array  @array, System.Object  @value, System.Int32  @startIndex)
+        public static System.Int32 LastIndexOf(System.Array @array, System.Object @value, System.Int32 @startIndex)
         {
 
             var ___genericsType = new Type[] {};
@@ -3239,7 +3239,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Int32 LastIndexOf(System.Array  @array, System.Object  @value, System.Int32  @startIndex, System.Int32  @count)
+        public static System.Int32 LastIndexOf(System.Array @array, System.Object @value, System.Int32 @startIndex, System.Int32 @count)
         {
 
             var ___genericsType = new Type[] {};
@@ -3250,7 +3250,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Int32 LastIndexOf<T>(T[]  @array, T  @value)
+        public static System.Int32 LastIndexOf<T>(T[] @array, T @value)
         {
 
             var ___genericsType = new Type[] {typeof(T)};
@@ -3261,7 +3261,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Int32 LastIndexOf<T>(T[]  @array, T  @value, System.Int32  @startIndex)
+        public static System.Int32 LastIndexOf<T>(T[] @array, T @value, System.Int32 @startIndex)
         {
 
             var ___genericsType = new Type[] {typeof(T)};
@@ -3272,7 +3272,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Int32 LastIndexOf<T>(T[]  @array, T  @value, System.Int32  @startIndex, System.Int32  @count)
+        public static System.Int32 LastIndexOf<T>(T[] @array, T @value, System.Int32 @startIndex, System.Int32 @count)
         {
 
             var ___genericsType = new Type[] {typeof(T)};
@@ -3283,7 +3283,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static void Reverse(System.Array  @array)
+        public static void Reverse(System.Array @array)
         {
 
             var ___genericsType = new Type[] {};
@@ -3294,7 +3294,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static void Reverse(System.Array  @array, System.Int32  @index, System.Int32  @length)
+        public static void Reverse(System.Array @array, System.Int32 @index, System.Int32 @length)
         {
 
             var ___genericsType = new Type[] {};
@@ -3305,7 +3305,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static void Reverse<T>(T[]  @array)
+        public static void Reverse<T>(T[] @array)
         {
 
             var ___genericsType = new Type[] {typeof(T)};
@@ -3316,7 +3316,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static void Reverse<T>(T[]  @array, System.Int32  @index, System.Int32  @length)
+        public static void Reverse<T>(T[] @array, System.Int32 @index, System.Int32 @length)
         {
 
             var ___genericsType = new Type[] {typeof(T)};
@@ -3327,7 +3327,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual void SetValue(System.Object  @value, System.Int64  @index)
+        public virtual void SetValue(System.Object @value, System.Int64 @index)
         {
 
             var ___genericsType = new Type[] {};
@@ -3338,7 +3338,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual void SetValue(System.Object  @value, System.Int64  @index1, System.Int64  @index2)
+        public virtual void SetValue(System.Object @value, System.Int64 @index1, System.Int64 @index2)
         {
 
             var ___genericsType = new Type[] {};
@@ -3349,7 +3349,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual void SetValue(System.Object  @value, System.Int64  @index1, System.Int64  @index2, System.Int64  @index3)
+        public virtual void SetValue(System.Object @value, System.Int64 @index1, System.Int64 @index2, System.Int64 @index3)
         {
 
             var ___genericsType = new Type[] {};
@@ -3360,7 +3360,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual void SetValue(System.Object  @value, System.Int64[]  @indices)
+        public virtual void SetValue(System.Object @value, System.Int64[] @indices)
         {
 
             var ___genericsType = new Type[] {};
@@ -3371,7 +3371,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static void Sort(System.Array  @array)
+        public static void Sort(System.Array @array)
         {
 
             var ___genericsType = new Type[] {};
@@ -3382,7 +3382,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static void Sort(System.Array  @array, System.Int32  @index, System.Int32  @length)
+        public static void Sort(System.Array @array, System.Int32 @index, System.Int32 @length)
         {
 
             var ___genericsType = new Type[] {};
@@ -3393,7 +3393,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static void Sort(System.Array  @array, System.Collections.IComparer  @comparer)
+        public static void Sort(System.Array @array, System.Collections.IComparer @comparer)
         {
 
             var ___genericsType = new Type[] {};
@@ -3404,7 +3404,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static void Sort(System.Array  @array, System.Int32  @index, System.Int32  @length, System.Collections.IComparer  @comparer)
+        public static void Sort(System.Array @array, System.Int32 @index, System.Int32 @length, System.Collections.IComparer @comparer)
         {
 
             var ___genericsType = new Type[] {};
@@ -3415,7 +3415,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static void Sort(System.Array  @keys, System.Array  @items)
+        public static void Sort(System.Array @keys, System.Array @items)
         {
 
             var ___genericsType = new Type[] {};
@@ -3426,7 +3426,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static void Sort(System.Array  @keys, System.Array  @items, System.Collections.IComparer  @comparer)
+        public static void Sort(System.Array @keys, System.Array @items, System.Collections.IComparer @comparer)
         {
 
             var ___genericsType = new Type[] {};
@@ -3437,7 +3437,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static void Sort(System.Array  @keys, System.Array  @items, System.Int32  @index, System.Int32  @length)
+        public static void Sort(System.Array @keys, System.Array @items, System.Int32 @index, System.Int32 @length)
         {
 
             var ___genericsType = new Type[] {};
@@ -3448,7 +3448,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static void Sort(System.Array  @keys, System.Array  @items, System.Int32  @index, System.Int32  @length, System.Collections.IComparer  @comparer)
+        public static void Sort(System.Array @keys, System.Array @items, System.Int32 @index, System.Int32 @length, System.Collections.IComparer @comparer)
         {
 
             var ___genericsType = new Type[] {};
@@ -3459,7 +3459,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static void Sort<T>(T[]  @array)
+        public static void Sort<T>(T[] @array)
         {
 
             var ___genericsType = new Type[] {typeof(T)};
@@ -3470,7 +3470,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static void Sort<T>(T[]  @array, System.Int32  @index, System.Int32  @length)
+        public static void Sort<T>(T[] @array, System.Int32 @index, System.Int32 @length)
         {
 
             var ___genericsType = new Type[] {typeof(T)};
@@ -3481,7 +3481,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static void Sort<T>(T[]  @array, System.Collections.Generic.IComparer<T>  @comparer)
+        public static void Sort<T>(T[] @array, System.Collections.Generic.IComparer<T> @comparer)
         {
 
             var ___genericsType = new Type[] {typeof(T)};
@@ -3492,7 +3492,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static void Sort<T>(T[]  @array, System.Int32  @index, System.Int32  @length, System.Collections.Generic.IComparer<T>  @comparer)
+        public static void Sort<T>(T[] @array, System.Int32 @index, System.Int32 @length, System.Collections.Generic.IComparer<T> @comparer)
         {
 
             var ___genericsType = new Type[] {typeof(T)};
@@ -3503,7 +3503,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static void Sort<T>(T[]  @array, System.Comparison<T>  @comparison)
+        public static void Sort<T>(T[] @array, System.Comparison<T> @comparison)
         {
 
             var ___genericsType = new Type[] {typeof(T)};
@@ -3514,7 +3514,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static void Sort<TKey, TValue>(TKey[]  @keys, TValue[]  @items)
+        public static void Sort<TKey, TValue>(TKey[] @keys, TValue[] @items)
         {
 
             var ___genericsType = new Type[] {typeof(TKey), typeof(TValue)};
@@ -3525,7 +3525,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static void Sort<TKey, TValue>(TKey[]  @keys, TValue[]  @items, System.Int32  @index, System.Int32  @length)
+        public static void Sort<TKey, TValue>(TKey[] @keys, TValue[] @items, System.Int32 @index, System.Int32 @length)
         {
 
             var ___genericsType = new Type[] {typeof(TKey), typeof(TValue)};
@@ -3536,7 +3536,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static void Sort<TKey, TValue>(TKey[]  @keys, TValue[]  @items, System.Collections.Generic.IComparer<TKey>  @comparer)
+        public static void Sort<TKey, TValue>(TKey[] @keys, TValue[] @items, System.Collections.Generic.IComparer<TKey> @comparer)
         {
 
             var ___genericsType = new Type[] {typeof(TKey), typeof(TValue)};
@@ -3547,7 +3547,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static void Sort<TKey, TValue>(TKey[]  @keys, TValue[]  @items, System.Int32  @index, System.Int32  @length, System.Collections.Generic.IComparer<TKey>  @comparer)
+        public static void Sort<TKey, TValue>(TKey[] @keys, TValue[] @items, System.Int32 @index, System.Int32 @length, System.Collections.Generic.IComparer<TKey> @comparer)
         {
 
             var ___genericsType = new Type[] {typeof(TKey), typeof(TValue)};
@@ -3558,7 +3558,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Boolean Exists<T>(T[]  @array, System.Predicate<T>  @match)
+        public static System.Boolean Exists<T>(T[] @array, System.Predicate<T> @match)
         {
 
             var ___genericsType = new Type[] {typeof(T)};
@@ -3569,7 +3569,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static void Fill<T>(T[]  @array, T  @value)
+        public static void Fill<T>(T[] @array, T @value)
         {
 
             var ___genericsType = new Type[] {typeof(T)};
@@ -3580,7 +3580,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static void Fill<T>(T[]  @array, T  @value, System.Int32  @startIndex, System.Int32  @count)
+        public static void Fill<T>(T[] @array, T @value, System.Int32 @startIndex, System.Int32 @count)
         {
 
             var ___genericsType = new Type[] {typeof(T)};
@@ -3591,7 +3591,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static T Find<T>(T[]  @array, System.Predicate<T>  @match)
+        public static T Find<T>(T[] @array, System.Predicate<T> @match)
         {
 
             var ___genericsType = new Type[] {typeof(T)};
@@ -3602,7 +3602,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static T[] FindAll<T>(T[]  @array, System.Predicate<T>  @match)
+        public static T[] FindAll<T>(T[] @array, System.Predicate<T> @match)
         {
 
             var ___genericsType = new Type[] {typeof(T)};
@@ -3613,7 +3613,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Int32 FindIndex<T>(T[]  @array, System.Predicate<T>  @match)
+        public static System.Int32 FindIndex<T>(T[] @array, System.Predicate<T> @match)
         {
 
             var ___genericsType = new Type[] {typeof(T)};
@@ -3624,7 +3624,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Int32 FindIndex<T>(T[]  @array, System.Int32  @startIndex, System.Predicate<T>  @match)
+        public static System.Int32 FindIndex<T>(T[] @array, System.Int32 @startIndex, System.Predicate<T> @match)
         {
 
             var ___genericsType = new Type[] {typeof(T)};
@@ -3635,7 +3635,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Int32 FindIndex<T>(T[]  @array, System.Int32  @startIndex, System.Int32  @count, System.Predicate<T>  @match)
+        public static System.Int32 FindIndex<T>(T[] @array, System.Int32 @startIndex, System.Int32 @count, System.Predicate<T> @match)
         {
 
             var ___genericsType = new Type[] {typeof(T)};
@@ -3646,7 +3646,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static T FindLast<T>(T[]  @array, System.Predicate<T>  @match)
+        public static T FindLast<T>(T[] @array, System.Predicate<T> @match)
         {
 
             var ___genericsType = new Type[] {typeof(T)};
@@ -3657,7 +3657,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Int32 FindLastIndex<T>(T[]  @array, System.Predicate<T>  @match)
+        public static System.Int32 FindLastIndex<T>(T[] @array, System.Predicate<T> @match)
         {
 
             var ___genericsType = new Type[] {typeof(T)};
@@ -3668,7 +3668,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Int32 FindLastIndex<T>(T[]  @array, System.Int32  @startIndex, System.Predicate<T>  @match)
+        public static System.Int32 FindLastIndex<T>(T[] @array, System.Int32 @startIndex, System.Predicate<T> @match)
         {
 
             var ___genericsType = new Type[] {typeof(T)};
@@ -3679,7 +3679,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Int32 FindLastIndex<T>(T[]  @array, System.Int32  @startIndex, System.Int32  @count, System.Predicate<T>  @match)
+        public static System.Int32 FindLastIndex<T>(T[] @array, System.Int32 @startIndex, System.Int32 @count, System.Predicate<T> @match)
         {
 
             var ___genericsType = new Type[] {typeof(T)};
@@ -3690,7 +3690,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Boolean TrueForAll<T>(T[]  @array, System.Predicate<T>  @match)
+        public static System.Boolean TrueForAll<T>(T[] @array, System.Predicate<T> @match)
         {
 
             var ___genericsType = new Type[] {typeof(T)};
@@ -3767,7 +3767,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual void InternalArray__ICollection_Add<T>(T  @item)
+        public virtual void InternalArray__ICollection_Add<T>(T @item)
         {
 
             var ___genericsType = new Type[] {typeof(T)};
@@ -3778,7 +3778,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Boolean InternalArray__ICollection_Remove<T>(T  @item)
+        public virtual System.Boolean InternalArray__ICollection_Remove<T>(T @item)
         {
 
             var ___genericsType = new Type[] {typeof(T)};
@@ -3789,7 +3789,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Boolean InternalArray__ICollection_Contains<T>(T  @item)
+        public virtual System.Boolean InternalArray__ICollection_Contains<T>(T @item)
         {
 
             var ___genericsType = new Type[] {typeof(T)};
@@ -3800,7 +3800,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual void InternalArray__ICollection_CopyTo<T>(T[]  @array, System.Int32  @arrayIndex)
+        public virtual void InternalArray__ICollection_CopyTo<T>(T[] @array, System.Int32 @arrayIndex)
         {
 
             var ___genericsType = new Type[] {typeof(T)};
@@ -3811,7 +3811,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual T InternalArray__IReadOnlyList_get_Item<T>(System.Int32  @index)
+        public virtual T InternalArray__IReadOnlyList_get_Item<T>(System.Int32 @index)
         {
 
             var ___genericsType = new Type[] {typeof(T)};
@@ -3833,7 +3833,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual void InternalArray__Insert<T>(System.Int32  @index, T  @item)
+        public virtual void InternalArray__Insert<T>(System.Int32 @index, T @item)
         {
 
             var ___genericsType = new Type[] {typeof(T)};
@@ -3844,7 +3844,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual void InternalArray__RemoveAt(System.Int32  @index)
+        public virtual void InternalArray__RemoveAt(System.Int32 @index)
         {
 
             var ___genericsType = new Type[] {};
@@ -3855,7 +3855,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Int32 InternalArray__IndexOf<T>(T  @item)
+        public virtual System.Int32 InternalArray__IndexOf<T>(T @item)
         {
 
             var ___genericsType = new Type[] {typeof(T)};
@@ -3866,7 +3866,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual T InternalArray__get_Item<T>(System.Int32  @index)
+        public virtual T InternalArray__get_Item<T>(System.Int32 @index)
         {
 
             var ___genericsType = new Type[] {typeof(T)};
@@ -3877,7 +3877,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual void InternalArray__set_Item<T>(System.Int32  @index, T  @item)
+        public virtual void InternalArray__set_Item<T>(System.Int32 @index, T @item)
         {
 
             var ___genericsType = new Type[] {typeof(T)};
@@ -3888,7 +3888,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static void GetGenericValue_icall<T>(ref System.Array  @self, System.Int32  @pos, out T  @value)
+        public static void GetGenericValue_icall<T>(ref System.Array @self, System.Int32 @pos, out T @value)
         {
 			@value = default;
 
@@ -3902,7 +3902,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static void SetGenericValue_icall<T>(ref System.Array  @self, System.Int32  @pos, ref T  @value)
+        public static void SetGenericValue_icall<T>(ref System.Array @self, System.Int32 @pos, ref T @value)
         {
 
             var ___genericsType = new Type[] {typeof(T)};
@@ -3915,7 +3915,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual void GetGenericValueImpl<T>(System.Int32  @pos, out T  @value)
+        public virtual void GetGenericValueImpl<T>(System.Int32 @pos, out T @value)
         {
 			@value = default;
 
@@ -3928,7 +3928,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual void SetGenericValueImpl<T>(System.Int32  @pos, ref T  @value)
+        public virtual void SetGenericValueImpl<T>(System.Int32 @pos, ref T @value)
         {
 
             var ___genericsType = new Type[] {typeof(T)};
@@ -3951,7 +3951,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Int32 GetLength(System.Int32  @dimension)
+        public virtual System.Int32 GetLength(System.Int32 @dimension)
         {
 
             var ___genericsType = new Type[] {};
@@ -3962,7 +3962,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Int32 GetLowerBound(System.Int32  @dimension)
+        public virtual System.Int32 GetLowerBound(System.Int32 @dimension)
         {
 
             var ___genericsType = new Type[] {};
@@ -3973,7 +3973,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Object GetValue(System.Int32[]  @indices)
+        public virtual System.Object GetValue(System.Int32[] @indices)
         {
 
             var ___genericsType = new Type[] {};
@@ -3984,7 +3984,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual void SetValue(System.Object  @value, System.Int32[]  @indices)
+        public virtual void SetValue(System.Object @value, System.Int32[] @indices)
         {
 
             var ___genericsType = new Type[] {};
@@ -3995,7 +3995,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Object GetValueImpl(System.Int32  @pos)
+        public virtual System.Object GetValueImpl(System.Int32 @pos)
         {
 
             var ___genericsType = new Type[] {};
@@ -4006,7 +4006,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual void SetValueImpl(System.Object  @value, System.Int32  @pos)
+        public virtual void SetValueImpl(System.Object @value, System.Int32 @pos)
         {
 
             var ___genericsType = new Type[] {};
@@ -4017,7 +4017,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Boolean FastCopy(System.Array  @source, System.Int32  @source_idx, System.Array  @dest, System.Int32  @dest_idx, System.Int32  @length)
+        public static System.Boolean FastCopy(System.Array @source, System.Int32 @source_idx, System.Array @dest, System.Int32 @dest_idx, System.Int32 @length)
         {
 
             var ___genericsType = new Type[] {};
@@ -4028,7 +4028,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Array CreateInstanceImpl(System.Type  @elementType, System.Int32[]  @lengths, System.Int32[]  @bounds)
+        public static System.Array CreateInstanceImpl(System.Type @elementType, System.Int32[] @lengths, System.Int32[] @bounds)
         {
 
             var ___genericsType = new Type[] {};
@@ -4039,7 +4039,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Int32 GetUpperBound(System.Int32  @dimension)
+        public virtual System.Int32 GetUpperBound(System.Int32 @dimension)
         {
 
             var ___genericsType = new Type[] {};
@@ -4050,7 +4050,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Object GetValue(System.Int32  @index)
+        public virtual System.Object GetValue(System.Int32 @index)
         {
 
             var ___genericsType = new Type[] {};
@@ -4061,7 +4061,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Object GetValue(System.Int32  @index1, System.Int32  @index2)
+        public virtual System.Object GetValue(System.Int32 @index1, System.Int32 @index2)
         {
 
             var ___genericsType = new Type[] {};
@@ -4072,7 +4072,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Object GetValue(System.Int32  @index1, System.Int32  @index2, System.Int32  @index3)
+        public virtual System.Object GetValue(System.Int32 @index1, System.Int32 @index2, System.Int32 @index3)
         {
 
             var ___genericsType = new Type[] {};
@@ -4083,7 +4083,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual void SetValue(System.Object  @value, System.Int32  @index)
+        public virtual void SetValue(System.Object @value, System.Int32 @index)
         {
 
             var ___genericsType = new Type[] {};
@@ -4094,7 +4094,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual void SetValue(System.Object  @value, System.Int32  @index1, System.Int32  @index2)
+        public virtual void SetValue(System.Object @value, System.Int32 @index1, System.Int32 @index2)
         {
 
             var ___genericsType = new Type[] {};
@@ -4105,7 +4105,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual void SetValue(System.Object  @value, System.Int32  @index1, System.Int32  @index2, System.Int32  @index3)
+        public virtual void SetValue(System.Object @value, System.Int32 @index1, System.Int32 @index2, System.Int32 @index3)
         {
 
             var ___genericsType = new Type[] {};
@@ -4116,7 +4116,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Array UnsafeCreateInstance(System.Type  @elementType, System.Int32[]  @lengths, System.Int32[]  @lowerBounds)
+        public static System.Array UnsafeCreateInstance(System.Type @elementType, System.Int32[] @lengths, System.Int32[] @lowerBounds)
         {
 
             var ___genericsType = new Type[] {};
@@ -4127,7 +4127,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Array UnsafeCreateInstance(System.Type  @elementType, System.Int32  @length1, System.Int32  @length2)
+        public static System.Array UnsafeCreateInstance(System.Type @elementType, System.Int32 @length1, System.Int32 @length2)
         {
 
             var ___genericsType = new Type[] {};
@@ -4138,7 +4138,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Array UnsafeCreateInstance(System.Type  @elementType, System.Int32[]  @lengths)
+        public static System.Array UnsafeCreateInstance(System.Type @elementType, System.Int32[] @lengths)
         {
 
             var ___genericsType = new Type[] {};
@@ -4149,7 +4149,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Array CreateInstance(System.Type  @elementType, System.Int32  @length)
+        public static System.Array CreateInstance(System.Type @elementType, System.Int32 @length)
         {
 
             var ___genericsType = new Type[] {};
@@ -4160,7 +4160,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Array CreateInstance(System.Type  @elementType, System.Int32  @length1, System.Int32  @length2)
+        public static System.Array CreateInstance(System.Type @elementType, System.Int32 @length1, System.Int32 @length2)
         {
 
             var ___genericsType = new Type[] {};
@@ -4171,7 +4171,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Array CreateInstance(System.Type  @elementType, System.Int32  @length1, System.Int32  @length2, System.Int32  @length3)
+        public static System.Array CreateInstance(System.Type @elementType, System.Int32 @length1, System.Int32 @length2, System.Int32 @length3)
         {
 
             var ___genericsType = new Type[] {};
@@ -4182,7 +4182,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Array CreateInstance(System.Type  @elementType, System.Int32[]  @lengths)
+        public static System.Array CreateInstance(System.Type @elementType, System.Int32[] @lengths)
         {
 
             var ___genericsType = new Type[] {};
@@ -4193,7 +4193,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Array CreateInstance(System.Type  @elementType, System.Int32[]  @lengths, System.Int32[]  @lowerBounds)
+        public static System.Array CreateInstance(System.Type @elementType, System.Int32[] @lengths, System.Int32[] @lowerBounds)
         {
 
             var ___genericsType = new Type[] {};
@@ -4204,7 +4204,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static void Clear(System.Array  @array, System.Int32  @index, System.Int32  @length)
+        public static void Clear(System.Array @array, System.Int32 @index, System.Int32 @length)
         {
 
             var ___genericsType = new Type[] {};
@@ -4215,7 +4215,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static void ClearInternal(System.Array  @a, System.Int32  @index, System.Int32  @count)
+        public static void ClearInternal(System.Array @a, System.Int32 @index, System.Int32 @count)
         {
 
             var ___genericsType = new Type[] {};
@@ -4226,7 +4226,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static void Copy(System.Array  @sourceArray, System.Array  @destinationArray, System.Int32  @length)
+        public static void Copy(System.Array @sourceArray, System.Array @destinationArray, System.Int32 @length)
         {
 
             var ___genericsType = new Type[] {};
@@ -4237,7 +4237,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static void Copy(System.Array  @sourceArray, System.Int32  @sourceIndex, System.Array  @destinationArray, System.Int32  @destinationIndex, System.Int32  @length)
+        public static void Copy(System.Array @sourceArray, System.Int32 @sourceIndex, System.Array @destinationArray, System.Int32 @destinationIndex, System.Int32 @length)
         {
 
             var ___genericsType = new Type[] {};
@@ -4259,7 +4259,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Boolean CanAssignArrayElement(System.Type  @source, System.Type  @target)
+        public static System.Boolean CanAssignArrayElement(System.Type @source, System.Type @target)
         {
 
             var ___genericsType = new Type[] {};
@@ -4270,7 +4270,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static void ConstrainedCopy(System.Array  @sourceArray, System.Int32  @sourceIndex, System.Array  @destinationArray, System.Int32  @destinationIndex, System.Int32  @length)
+        public static void ConstrainedCopy(System.Array @sourceArray, System.Int32 @sourceIndex, System.Array @destinationArray, System.Int32 @destinationIndex, System.Int32 @length)
         {
 
             var ___genericsType = new Type[] {};
@@ -4303,7 +4303,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Int32 IndexOfImpl<T>(T[]  @array, T  @value, System.Int32  @startIndex, System.Int32  @count)
+        public static System.Int32 IndexOfImpl<T>(T[] @array, T @value, System.Int32 @startIndex, System.Int32 @count)
         {
 
             var ___genericsType = new Type[] {typeof(T)};
@@ -4314,7 +4314,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Int32 LastIndexOfImpl<T>(T[]  @array, T  @value, System.Int32  @startIndex, System.Int32  @count)
+        public static System.Int32 LastIndexOfImpl<T>(T[] @array, T @value, System.Int32 @startIndex, System.Int32 @count)
         {
 
             var ___genericsType = new Type[] {typeof(T)};
@@ -4325,7 +4325,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static void SortImpl(System.Array  @keys, System.Array  @items, System.Int32  @index, System.Int32  @length, System.Collections.IComparer  @comparer)
+        public static void SortImpl(System.Array @keys, System.Array @items, System.Int32 @index, System.Int32 @length, System.Collections.IComparer @comparer)
         {
 
             var ___genericsType = new Type[] {};
@@ -4336,7 +4336,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static T UnsafeLoad<T>(T[]  @array, System.Int32  @index)
+        public static T UnsafeLoad<T>(T[] @array, System.Int32 @index)
         {
 
             var ___genericsType = new Type[] {typeof(T)};
@@ -4347,7 +4347,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static void UnsafeStore<T>(T[]  @array, System.Int32  @index, T  @value)
+        public static void UnsafeStore<T>(T[] @array, System.Int32 @index, T @value)
         {
 
             var ___genericsType = new Type[] {typeof(T)};
@@ -4358,7 +4358,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static R UnsafeMov<S, R>(S  @instance)
+        public static R UnsafeMov<S, R>(S @instance)
         {
 
             var ___genericsType = new Type[] {typeof(S), typeof(R)};
@@ -4369,7 +4369,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

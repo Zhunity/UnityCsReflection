@@ -829,18 +829,18 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 	    {
 	    }
 
-        public static System.Object MakeSolid(UnityEngine.Rect  @rect, UnityEngine.Color  @color, UnityEngine.UIElements.ContextType  @panelContext)
+        public static RUnityEngine.RUIElements.RMeshGenerationContextUtils.RRectangleParams MakeSolid(UnityEngine.Rect @rect, UnityEngine.Color @color, UnityEngine.UIElements.ContextType @panelContext)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@rect, @color, @panelContext};
             var ___result = RMakeSolid_Rect_Color_ContextType.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RUnityEngine.RUIElements.RMeshGenerationContextUtils.RRectangleParams(___result);
         }
 
 
-        public static void AdjustUVsForScaleMode(UnityEngine.Rect  @rect, UnityEngine.Rect  @uv, UnityEngine.Texture  @texture, UnityEngine.ScaleMode  @scaleMode, out UnityEngine.Rect  @rectOut, out UnityEngine.Rect  @uvOut)
+        public static void AdjustUVsForScaleMode(UnityEngine.Rect @rect, UnityEngine.Rect @uv, UnityEngine.Texture @texture, UnityEngine.ScaleMode @scaleMode, out UnityEngine.Rect @rectOut, out UnityEngine.Rect @uvOut)
         {
 			@rectOut = default;
 			@uvOut = default;
@@ -855,7 +855,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public static void AdjustSpriteUVsForScaleMode(UnityEngine.Rect  @rect, UnityEngine.Rect  @uv, UnityEngine.Rect  @geomRect, UnityEngine.Texture  @texture, UnityEngine.Sprite  @sprite, UnityEngine.ScaleMode  @scaleMode, out UnityEngine.Rect  @rectOut, out UnityEngine.Rect  @uvOut)
+        public static void AdjustSpriteUVsForScaleMode(UnityEngine.Rect @rect, UnityEngine.Rect @uv, UnityEngine.Rect @geomRect, UnityEngine.Texture @texture, UnityEngine.Sprite @sprite, UnityEngine.ScaleMode @scaleMode, out UnityEngine.Rect @rectOut, out UnityEngine.Rect @uvOut)
         {
 			@rectOut = default;
 			@uvOut = default;
@@ -870,7 +870,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public static UnityEngine.Rect RectIntersection(UnityEngine.Rect  @a, UnityEngine.Rect  @b)
+        public static UnityEngine.Rect RectIntersection(UnityEngine.Rect @a, UnityEngine.Rect @b)
         {
 
             var ___genericsType = new Type[] {};
@@ -881,7 +881,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public static UnityEngine.Rect ComputeGeomRect(UnityEngine.Sprite  @sprite)
+        public static UnityEngine.Rect ComputeGeomRect(UnityEngine.Sprite @sprite)
         {
 
             var ___genericsType = new Type[] {};
@@ -892,7 +892,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public static UnityEngine.Rect ComputeUVRect(UnityEngine.Sprite  @sprite)
+        public static UnityEngine.Rect ComputeUVRect(UnityEngine.Sprite @sprite)
         {
 
             var ___genericsType = new Type[] {};
@@ -903,7 +903,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public static UnityEngine.Rect ApplyPackingRotation(UnityEngine.Rect  @uv, UnityEngine.SpritePackingRotation  @rotation)
+        public static UnityEngine.Rect ApplyPackingRotation(UnityEngine.Rect @uv, UnityEngine.SpritePackingRotation @rotation)
         {
 
             var ___genericsType = new Type[] {};
@@ -914,18 +914,18 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public static System.Object MakeTextured(UnityEngine.Rect  @rect, UnityEngine.Rect  @uv, UnityEngine.Texture  @texture, UnityEngine.ScaleMode  @scaleMode, UnityEngine.UIElements.ContextType  @panelContext)
+        public static RUnityEngine.RUIElements.RMeshGenerationContextUtils.RRectangleParams MakeTextured(UnityEngine.Rect @rect, UnityEngine.Rect @uv, UnityEngine.Texture @texture, UnityEngine.ScaleMode @scaleMode, UnityEngine.UIElements.ContextType @panelContext)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@rect, @uv, @texture, @scaleMode, @panelContext};
             var ___result = RMakeTextured_Rect_Rect_Texture_ScaleMode_ContextType.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RUnityEngine.RUIElements.RMeshGenerationContextUtils.RRectangleParams(___result);
         }
 
 
-        public static System.Object MakeSprite(UnityEngine.Rect  @rect, UnityEngine.Sprite  @sprite, UnityEngine.ScaleMode  @scaleMode, UnityEngine.UIElements.ContextType  @panelContext, System.Boolean  @hasRadius, ref UnityEngine.Vector4  @slices, System.Boolean  @useForRepeat)
+        public static RUnityEngine.RUIElements.RMeshGenerationContextUtils.RRectangleParams MakeSprite(UnityEngine.Rect @rect, UnityEngine.Sprite @sprite, UnityEngine.ScaleMode @scaleMode, UnityEngine.UIElements.ContextType @panelContext, System.Boolean @hasRadius, ref UnityEngine.Vector4 @slices, System.Boolean @useForRepeat)
         {
 
             var ___genericsType = new Type[] {};
@@ -933,22 +933,22 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
             var ___result = RMakeSprite_Rect_Sprite_ScaleMode_ContextType_Boolean_Ref_Vector4_Boolean.Invoke(___genericsType, ___parameters);
 			@slices = (UnityEngine.Vector4)___parameters[5];
 
-            return (System.Object)___result;
+            return new RUnityEngine.RUIElements.RMeshGenerationContextUtils.RRectangleParams(___result);
         }
 
 
-        public static System.Object MakeVectorTextured(UnityEngine.Rect  @rect, UnityEngine.Rect  @uv, UnityEngine.UIElements.VectorImage  @vectorImage, UnityEngine.ScaleMode  @scaleMode, UnityEngine.UIElements.ContextType  @panelContext)
+        public static RUnityEngine.RUIElements.RMeshGenerationContextUtils.RRectangleParams MakeVectorTextured(UnityEngine.Rect @rect, UnityEngine.Rect @uv, UnityEngine.UIElements.VectorImage @vectorImage, UnityEngine.ScaleMode @scaleMode, UnityEngine.UIElements.ContextType @panelContext)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@rect, @uv, @vectorImage, @scaleMode, @panelContext};
             var ___result = RMakeVectorTextured_Rect_Rect_VectorImage_ScaleMode_ContextType.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RUnityEngine.RUIElements.RMeshGenerationContextUtils.RRectangleParams(___result);
         }
 
 
-        public virtual System.Boolean HasRadius(System.Single  @epsilon)
+        public virtual System.Boolean HasRadius(System.Single @epsilon)
         {
 
             var ___genericsType = new Type[] {};
@@ -959,7 +959,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean HasSlices(System.Single  @epsilon)
+        public virtual System.Boolean HasSlices(System.Single @epsilon)
         {
 
             var ___genericsType = new Type[] {};
@@ -970,18 +970,18 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Object ToNativeParams(UnityEngine.Rect  @uvRegion)
+        public virtual RUnityEngine.RUIElements.RMeshBuilderNative.RNativeRectParams ToNativeParams(UnityEngine.Rect @uvRegion)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@uvRegion};
             var ___result = RToNativeParams_Rect.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RUnityEngine.RUIElements.RMeshBuilderNative.RNativeRectParams(___result);
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

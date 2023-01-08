@@ -521,7 +521,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 	    {
 	    }
 
-        public virtual void Init(RUnityEngine.RUIElements.RStyleProperty  @property, UnityEngine.UIElements.StyleSheet  @sheet, RTypeArray<RUnityEngine.RUIElements.RStyleValueHandle>  @handles)
+        public virtual void Init(RUnityEngine.RUIElements.RStyleProperty @property, UnityEngine.UIElements.StyleSheet @sheet, RTypeArray<RUnityEngine.RUIElements.RStyleValueHandle> @handles)
         {
 
             var ___genericsType = new Type[] {};
@@ -532,7 +532,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void PushContext(UnityEngine.UIElements.StyleSheet  @sheet, RTypeArray<RUnityEngine.RUIElements.RStyleValueHandle>  @handles)
+        public virtual void PushContext(UnityEngine.UIElements.StyleSheet @sheet, RTypeArray<RUnityEngine.RUIElements.RStyleValueHandle> @handles)
         {
 
             var ___genericsType = new Type[] {};
@@ -554,7 +554,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void AddValue(RUnityEngine.RUIElements.RStyleValueHandle  @handle)
+        public virtual void AddValue(RUnityEngine.RUIElements.RStyleValueHandle @handle)
         {
 
             var ___genericsType = new Type[] {};
@@ -565,7 +565,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean ResolveVarFunction(ref System.Int32  @index)
+        public virtual System.Boolean ResolveVarFunction(ref System.Int32 @index)
         {
 
             var ___genericsType = new Type[] {};
@@ -577,7 +577,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Object ResolveVarFunction(ref System.Int32  @index, System.Int32  @argc, System.String  @varName)
+        public virtual RType ResolveVarFunction(ref System.Int32 @index, System.Int32 @argc, System.String @varName)
         {
 
             var ___genericsType = new Type[] {};
@@ -585,7 +585,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
             var ___result = RResolveVarFunction_Ref_Int32_Int32_String.Invoke(___genericsType, ___parameters);
 			@index = (System.Int32)___parameters[0];
 
-            return (System.Object)___result;
+            return new RType(___result);
         }
 
 
@@ -600,18 +600,18 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Object ResolveVariable(System.String  @variableName)
+        public virtual RType ResolveVariable(System.String @variableName)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@variableName};
             var ___result = RResolveVariable_String.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RType(___result);
         }
 
 
-        public virtual System.Object ResolveFallback(ref System.Int32  @index)
+        public virtual RType ResolveFallback(ref System.Int32 @index)
         {
 
             var ___genericsType = new Type[] {};
@@ -619,11 +619,11 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
             var ___result = RResolveFallback_Ref_Int32.Invoke(___genericsType, ___parameters);
 			@index = (System.Int32)___parameters[0];
 
-            return (System.Object)___result;
+            return new RType(___result);
         }
 
 
-        public static void ParseVarFunction(UnityEngine.UIElements.StyleSheet  @sheet, RTypeArray<RUnityEngine.RUIElements.RStyleValueHandle>  @handles, ref System.Int32  @index, out System.Int32  @argCount, out System.String  @variableName)
+        public static void ParseVarFunction(UnityEngine.UIElements.StyleSheet @sheet, RTypeArray<RUnityEngine.RUIElements.RStyleValueHandle> @handles, ref System.Int32 @index, out System.Int32 @argCount, out System.String @variableName)
         {
 			@argCount = default;
 			@variableName = default;
@@ -639,7 +639,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

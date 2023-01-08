@@ -368,29 +368,29 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 	    {
 	    }
 
-        public static System.Object AlwaysEnabled(UnityEngine.UIElements.DropdownMenuAction  @a)
+        public static RType AlwaysEnabled(UnityEngine.UIElements.DropdownMenuAction @a)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@a};
             var ___result = RAlwaysEnabled_DropdownMenuAction.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RType(___result);
         }
 
 
-        public static System.Object AlwaysDisabled(UnityEngine.UIElements.DropdownMenuAction  @a)
+        public static RType AlwaysDisabled(UnityEngine.UIElements.DropdownMenuAction @a)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@a};
             var ___result = RAlwaysDisabled_DropdownMenuAction.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RType(___result);
         }
 
 
-        public virtual void UpdateActionStatus(UnityEngine.UIElements.DropdownMenuEventInfo  @eventInfo)
+        public virtual void UpdateActionStatus(UnityEngine.UIElements.DropdownMenuEventInfo @eventInfo)
         {
 
             var ___genericsType = new Type[] {};
@@ -412,7 +412,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

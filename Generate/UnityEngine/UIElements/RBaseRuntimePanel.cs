@@ -1898,7 +1898,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 	    {
 	    }
 
-        public virtual void Dispose(System.Boolean  @disposing)
+        public virtual void Dispose(System.Boolean @disposing)
         {
 
             var ___genericsType = new Type[] {};
@@ -1909,7 +1909,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void Repaint(UnityEngine.Event  @e)
+        public virtual void Repaint(UnityEngine.Event @e)
         {
 
             var ___genericsType = new Type[] {};
@@ -1920,7 +1920,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual UnityEngine.Vector2 ScreenToPanel(UnityEngine.Vector2  @screen)
+        public virtual UnityEngine.Vector2 ScreenToPanel(UnityEngine.Vector2 @screen)
         {
 
             var ___genericsType = new Type[] {};
@@ -1931,7 +1931,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean ScreenToPanel(UnityEngine.Vector2  @screenPosition, UnityEngine.Vector2  @screenDelta, out UnityEngine.Vector2  @panelPosition, out UnityEngine.Vector2  @panelDelta, System.Boolean  @allowOutside)
+        public virtual System.Boolean ScreenToPanel(UnityEngine.Vector2 @screenPosition, UnityEngine.Vector2 @screenDelta, out UnityEngine.Vector2 @panelPosition, out UnityEngine.Vector2 @panelDelta, System.Boolean @allowOutside)
         {
 			@panelPosition = default;
 			@panelDelta = default;
@@ -1946,7 +1946,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void AssignPanelToComponents(RUnityEngine.RUIElements.RBaseRuntimePanel  @panel)
+        public virtual void AssignPanelToComponents(RUnityEngine.RUIElements.RBaseRuntimePanel @panel)
         {
 
             var ___genericsType = new Type[] {};
@@ -1957,7 +1957,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void PointerLeavesPanel(System.Int32  @pointerId, UnityEngine.Vector2  @position)
+        public virtual void PointerLeavesPanel(System.Int32 @pointerId, UnityEngine.Vector2 @position)
         {
 
             var ___genericsType = new Type[] {};
@@ -1968,7 +1968,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void PointerEntersPanel(System.Int32  @pointerId, UnityEngine.Vector2  @position)
+        public virtual void PointerEntersPanel(System.Int32 @pointerId, UnityEngine.Vector2 @position)
         {
 
             var ___genericsType = new Type[] {};
@@ -2001,7 +2001,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual UnityEngine.UIElements.VisualElement PickAll(UnityEngine.Vector2  @point, System.Collections.Generic.List<UnityEngine.UIElements.VisualElement>  @picked)
+        public virtual UnityEngine.UIElements.VisualElement PickAll(UnityEngine.Vector2 @point, System.Collections.Generic.List<UnityEngine.UIElements.VisualElement> @picked)
         {
 
             var ___genericsType = new Type[] {};
@@ -2012,7 +2012,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual UnityEngine.UIElements.VisualElement Pick(UnityEngine.Vector2  @point)
+        public virtual UnityEngine.UIElements.VisualElement Pick(UnityEngine.Vector2 @point)
         {
 
             var ___genericsType = new Type[] {};
@@ -2100,18 +2100,18 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Object GetEditorUpdater(RType  @phase)
+        public virtual RUnityEngine.RUIElements.RIVisualTreeUpdater GetEditorUpdater(RType @phase)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@phase.Value};
             var ___result = RGetEditorUpdater_VisualTreeEditorUpdatePhase.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RUnityEngine.RUIElements.RIVisualTreeUpdater(___result);
         }
 
 
-        public virtual void UpdateInlineStylesRecursively(UnityEngine.UIElements.VisualElement  @rootElement)
+        public virtual void UpdateInlineStylesRecursively(UnityEngine.UIElements.VisualElement @rootElement)
         {
 
             var ___genericsType = new Type[] {};
@@ -2122,7 +2122,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void RequestUpdateAfterExternalEvent(RUnityEngine.RUIElements.RIVisualTreeUpdater  @updater)
+        public virtual void RequestUpdateAfterExternalEvent(RUnityEngine.RUIElements.RIVisualTreeUpdater @updater)
         {
 
             var ___genericsType = new Type[] {};
@@ -2133,7 +2133,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void OnVersionChanged(UnityEngine.UIElements.VisualElement  @ve, RType  @versionChangeType)
+        public virtual void OnVersionChanged(UnityEngine.UIElements.VisualElement @ve, RType @versionChangeType)
         {
 
             var ___genericsType = new Type[] {};
@@ -2144,7 +2144,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void SetUpdater(RUnityEngine.RUIElements.RIVisualTreeUpdater  @updater, RType  @phase)
+        public virtual void SetUpdater(RUnityEngine.RUIElements.RIVisualTreeUpdater @updater, RType @phase)
         {
 
             var ___genericsType = new Type[] {};
@@ -2155,14 +2155,14 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Object GetUpdater(RType  @phase)
+        public virtual RUnityEngine.RUIElements.RIVisualTreeUpdater GetUpdater(RType @phase)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@phase.Value};
             var ___result = RGetUpdater_VisualTreeUpdatePhase.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RUnityEngine.RUIElements.RIVisualTreeUpdater(___result);
         }
 
 
@@ -2177,7 +2177,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void SendEvent(UnityEngine.UIElements.EventBase  @e, RType  @dispatchMode)
+        public virtual void SendEvent(UnityEngine.UIElements.EventBase @e, RType @dispatchMode)
         {
 
             var ___genericsType = new Type[] {};
@@ -2188,7 +2188,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual UnityEngine.UIElements.VisualElement GetTopElementUnderPointer(System.Int32  @pointerId)
+        public virtual UnityEngine.UIElements.VisualElement GetTopElementUnderPointer(System.Int32 @pointerId)
         {
 
             var ___genericsType = new Type[] {};
@@ -2199,7 +2199,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual UnityEngine.UIElements.VisualElement RecomputeTopElementUnderPointer(System.Int32  @pointerId, UnityEngine.Vector2  @pointerPos, UnityEngine.UIElements.EventBase  @triggerEvent)
+        public virtual UnityEngine.UIElements.VisualElement RecomputeTopElementUnderPointer(System.Int32 @pointerId, UnityEngine.Vector2 @pointerPos, UnityEngine.UIElements.EventBase @triggerEvent)
         {
 
             var ___genericsType = new Type[] {};
@@ -2210,7 +2210,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void ClearCachedElementUnderPointer(System.Int32  @pointerId, UnityEngine.UIElements.EventBase  @triggerEvent)
+        public virtual void ClearCachedElementUnderPointer(System.Int32 @pointerId, UnityEngine.UIElements.EventBase @triggerEvent)
         {
 
             var ___genericsType = new Type[] {};
@@ -2265,7 +2265,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void InvokeUpdateMaterial(UnityEngine.Material  @mat)
+        public virtual void InvokeUpdateMaterial(UnityEngine.Material @mat)
         {
 
             var ___genericsType = new Type[] {};
@@ -2276,7 +2276,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void InvokeHierarchyChanged(UnityEngine.UIElements.VisualElement  @ve, RType  @changeType)
+        public virtual void InvokeHierarchyChanged(UnityEngine.UIElements.VisualElement @ve, RType @changeType)
         {
 
             var ___genericsType = new Type[] {};
@@ -2320,7 +2320,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

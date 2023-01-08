@@ -1915,7 +1915,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditorInternal
 	    {
 	    }
 
-        public static System.String GetParentListPath(System.String  @propertyPath)
+        public static System.String GetParentListPath(System.String @propertyPath)
         {
 
             var ___genericsType = new Type[] {};
@@ -1926,7 +1926,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditorInternal
         }
 
 
-        public static void InvalidateParentCaches(System.String  @propertyPath)
+        public static void InvalidateParentCaches(System.String @propertyPath)
         {
 
             var ___genericsType = new Type[] {};
@@ -1970,7 +1970,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditorInternal
         }
 
 
-        public static UnityEditorInternal.ReorderableList GetReorderableListFromSerializedProperty(UnityEditor.SerializedProperty  @prop)
+        public static UnityEditorInternal.ReorderableList GetReorderableListFromSerializedProperty(UnityEditor.SerializedProperty @prop)
         {
 
             var ___genericsType = new Type[] {};
@@ -1981,7 +1981,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditorInternal
         }
 
 
-        public virtual void InitList(UnityEditor.SerializedObject  @serializedObject, UnityEditor.SerializedProperty  @elements, System.Collections.IList  @elementList, System.Boolean  @draggable, System.Boolean  @displayHeader, System.Boolean  @displayAddButton, System.Boolean  @displayRemoveButton)
+        public virtual void InitList(UnityEditor.SerializedObject @serializedObject, UnityEditor.SerializedProperty @elements, System.Collections.IList @elementList, System.Boolean @draggable, System.Boolean @displayHeader, System.Boolean @displayAddButton, System.Boolean @displayRemoveButton)
         {
 
             var ___genericsType = new Type[] {};
@@ -1992,13 +1992,13 @@ namespace SMFrame.Editor.Refleaction.RUnityEditorInternal
         }
 
 
-        public virtual void TryOverrideElementHeightWithPropertyDrawer(UnityEditor.SerializedProperty  @property, ref System.Single  @height)
+        public virtual void TryOverrideElementHeightWithPropertyDrawer(UnityEditor.SerializedProperty @property, ref System.Single @height)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@property, @height};
             var ___result = RTryOverrideElementHeightWithPropertyDrawer_SerializedProperty_Ref_Single.Invoke(___genericsType, ___parameters);
-			height = (System.Single)___parameters[1];
+			@height = (System.Single)___parameters[1];
 
             
         }
@@ -2048,7 +2048,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditorInternal
         }
 
 
-        public virtual void Select(System.Int32  @index, System.Boolean  @append)
+        public virtual void Select(System.Int32 @index, System.Boolean @append)
         {
 
             var ___genericsType = new Type[] {};
@@ -2059,7 +2059,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditorInternal
         }
 
 
-        public virtual void SelectRange(System.Int32  @indexFrom, System.Int32  @indexTo)
+        public virtual void SelectRange(System.Int32 @indexFrom, System.Int32 @indexTo)
         {
 
             var ___genericsType = new Type[] {};
@@ -2070,7 +2070,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditorInternal
         }
 
 
-        public virtual System.Boolean IsSelected(System.Int32  @index)
+        public virtual System.Boolean IsSelected(System.Int32 @index)
         {
 
             var ___genericsType = new Type[] {};
@@ -2081,7 +2081,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditorInternal
         }
 
 
-        public virtual void Deselect(System.Int32  @index)
+        public virtual void Deselect(System.Int32 @index)
         {
 
             var ___genericsType = new Type[] {};
@@ -2092,7 +2092,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditorInternal
         }
 
 
-        public virtual UnityEngine.Rect GetContentRect(UnityEngine.Rect  @rect)
+        public virtual UnityEngine.Rect GetContentRect(UnityEngine.Rect @rect)
         {
 
             var ___genericsType = new Type[] {};
@@ -2103,7 +2103,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditorInternal
         }
 
 
-        public virtual System.Single GetElementYOffset(System.Int32  @index)
+        public virtual System.Single GetElementYOffset(System.Int32 @index)
         {
 
             var ___genericsType = new Type[] {};
@@ -2114,7 +2114,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditorInternal
         }
 
 
-        public virtual System.Single GetElementYOffset(System.Int32  @index, System.Int32  @skipIndex)
+        public virtual System.Single GetElementYOffset(System.Int32 @index, System.Int32 @skipIndex)
         {
 
             var ___genericsType = new Type[] {};
@@ -2125,7 +2125,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditorInternal
         }
 
 
-        public virtual System.Single GetElementHeight(System.Int32  @index)
+        public virtual System.Single GetElementHeight(System.Int32 @index)
         {
 
             var ___genericsType = new Type[] {};
@@ -2136,7 +2136,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditorInternal
         }
 
 
-        public virtual UnityEngine.Rect GetRowRect(System.Int32  @index, UnityEngine.Rect  @listRect)
+        public virtual UnityEngine.Rect GetRowRect(System.Int32 @index, UnityEngine.Rect @listRect)
         {
 
             var ___genericsType = new Type[] {};
@@ -2158,7 +2158,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditorInternal
         }
 
 
-        public virtual void DoList(UnityEngine.Rect  @rect)
+        public virtual void DoList(UnityEngine.Rect @rect)
         {
 
             var ___genericsType = new Type[] {};
@@ -2169,7 +2169,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditorInternal
         }
 
 
-        public virtual void DoList(UnityEngine.Rect  @rect, UnityEngine.Rect  @visibleRect)
+        public virtual void DoList(UnityEngine.Rect @rect, UnityEngine.Rect @visibleRect)
         {
 
             var ___genericsType = new Type[] {};
@@ -2202,7 +2202,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditorInternal
         }
 
 
-        public virtual void DoListElements(UnityEngine.Rect  @listRect, UnityEngine.Rect  @visibleRect)
+        public virtual void DoListElements(UnityEngine.Rect @listRect, UnityEngine.Rect @visibleRect)
         {
 
             var ___genericsType = new Type[] {};
@@ -2213,7 +2213,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditorInternal
         }
 
 
-        public virtual void DoListHeader(UnityEngine.Rect  @headerRect)
+        public virtual void DoListHeader(UnityEngine.Rect @headerRect)
         {
 
             var ___genericsType = new Type[] {};
@@ -2224,7 +2224,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditorInternal
         }
 
 
-        public virtual void DoListFooter(UnityEngine.Rect  @footerRect)
+        public virtual void DoListFooter(UnityEngine.Rect @footerRect)
         {
 
             var ___genericsType = new Type[] {};
@@ -2235,7 +2235,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditorInternal
         }
 
 
-        public virtual void DoDraggingAndSelection(UnityEngine.Rect  @listRect)
+        public virtual void DoDraggingAndSelection(UnityEngine.Rect @listRect)
         {
 
             var ___genericsType = new Type[] {};
@@ -2246,7 +2246,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditorInternal
         }
 
 
-        public virtual System.Boolean IsMouseInsideActiveElement(UnityEngine.Rect  @listRect)
+        public virtual System.Boolean IsMouseInsideActiveElement(UnityEngine.Rect @listRect)
         {
 
             var ___genericsType = new Type[] {};
@@ -2257,7 +2257,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditorInternal
         }
 
 
-        public virtual void UpdateDraggedY(UnityEngine.Rect  @listRect)
+        public virtual void UpdateDraggedY(UnityEngine.Rect @listRect)
         {
 
             var ___genericsType = new Type[] {};
@@ -2268,7 +2268,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditorInternal
         }
 
 
-        public virtual System.Single GetClampedDragPosition(UnityEngine.Rect  @listRect)
+        public virtual System.Single GetClampedDragPosition(UnityEngine.Rect @listRect)
         {
 
             var ___genericsType = new Type[] {};
@@ -2279,7 +2279,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditorInternal
         }
 
 
-        public virtual System.Int32 CalculateRowIndex(UnityEngine.Rect  @listRect)
+        public virtual System.Int32 CalculateRowIndex(UnityEngine.Rect @listRect)
         {
 
             var ___genericsType = new Type[] {};
@@ -2290,7 +2290,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditorInternal
         }
 
 
-        public virtual System.Int32 GetRowIndex(System.Single  @localY, System.Boolean  @skipActiveElement)
+        public virtual System.Int32 GetRowIndex(System.Single @localY, System.Boolean @skipActiveElement)
         {
 
             var ___genericsType = new Type[] {};
@@ -2345,7 +2345,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditorInternal
         }
 
 
-        public virtual System.Boolean __0__CheckForChildInvalidation__1__b__58_0(System.String  @e)
+        public virtual System.Boolean __0__CheckForChildInvalidation__1__b__58_0(System.String @e)
         {
 
             var ___genericsType = new Type[] {};
@@ -2356,7 +2356,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditorInternal
         }
 
 
-        public virtual System.Boolean __0__DoDraggingAndSelection__1__b__130_0(System.Int32  @i)
+        public virtual System.Boolean __0__DoDraggingAndSelection__1__b__130_0(System.Int32 @i)
         {
 
             var ___genericsType = new Type[] {};
@@ -2367,7 +2367,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditorInternal
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

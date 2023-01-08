@@ -198,7 +198,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections
 	    {
 	    }
 
-        public virtual System.Int32 Add(System.Object  @value)
+        public virtual System.Int32 Add(System.Object @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -209,7 +209,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections
         }
 
 
-        public virtual System.Boolean Contains(System.Object  @value)
+        public virtual System.Boolean Contains(System.Object @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -231,7 +231,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections
         }
 
 
-        public virtual System.Int32 IndexOf(System.Object  @value)
+        public virtual System.Int32 IndexOf(System.Object @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -242,7 +242,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections
         }
 
 
-        public virtual void Insert(System.Int32  @index, System.Object  @value)
+        public virtual void Insert(System.Int32 @index, System.Object @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -253,7 +253,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections
         }
 
 
-        public virtual void Remove(System.Object  @value)
+        public virtual void Remove(System.Object @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -264,7 +264,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections
         }
 
 
-        public virtual void RemoveAt(System.Int32  @index)
+        public virtual void RemoveAt(System.Int32 @index)
         {
 
             var ___genericsType = new Type[] {};

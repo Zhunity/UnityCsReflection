@@ -810,7 +810,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 	    {
 	    }
 
-        public static System.Object GetLocalValue(RSystem.RThreading.RIAsyncLocal  @local)
+        public static System.Object GetLocalValue(RSystem.RThreading.RIAsyncLocal @local)
         {
 
             var ___genericsType = new Type[] {};
@@ -821,7 +821,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public static void SetLocalValue(RSystem.RThreading.RIAsyncLocal  @local, System.Object  @newValue, System.Boolean  @needChangeNotifications)
+        public static void SetLocalValue(RSystem.RThreading.RIAsyncLocal @local, System.Object @newValue, System.Boolean @needChangeNotifications)
         {
 
             var ___genericsType = new Type[] {};
@@ -832,7 +832,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public static void OnAsyncLocalContextChanged(System.Threading.ExecutionContext  @previous, System.Threading.ExecutionContext  @current)
+        public static void OnAsyncLocalContextChanged(System.Threading.ExecutionContext @previous, System.Threading.ExecutionContext @current)
         {
 
             var ___genericsType = new Type[] {};
@@ -854,7 +854,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public static void Run(System.Threading.ExecutionContext  @executionContext, System.Threading.ContextCallback  @callback, System.Object  @state)
+        public static void Run(System.Threading.ExecutionContext @executionContext, System.Threading.ContextCallback @callback, System.Object @state)
         {
 
             var ___genericsType = new Type[] {};
@@ -865,7 +865,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public static void Run(System.Threading.ExecutionContext  @executionContext, System.Threading.ContextCallback  @callback, System.Object  @state, System.Boolean  @preserveSyncCtx)
+        public static void Run(System.Threading.ExecutionContext @executionContext, System.Threading.ContextCallback @callback, System.Object @state, System.Boolean @preserveSyncCtx)
         {
 
             var ___genericsType = new Type[] {};
@@ -876,7 +876,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public static void RunInternal(System.Threading.ExecutionContext  @executionContext, System.Threading.ContextCallback  @callback, System.Object  @state)
+        public static void RunInternal(System.Threading.ExecutionContext @executionContext, System.Threading.ContextCallback @callback, System.Object @state)
         {
 
             var ___genericsType = new Type[] {};
@@ -887,7 +887,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public static void RunInternal(System.Threading.ExecutionContext  @executionContext, System.Threading.ContextCallback  @callback, System.Object  @state, System.Boolean  @preserveSyncCtx)
+        public static void RunInternal(System.Threading.ExecutionContext @executionContext, System.Threading.ContextCallback @callback, System.Object @state, System.Boolean @preserveSyncCtx)
         {
 
             var ___genericsType = new Type[] {};
@@ -898,7 +898,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public static void RunInternal<TState>(System.Threading.ExecutionContext  @executionContext, RSystem.RThreading.RContextCallback<RType>  @callback, ref TState  @state)
+        public static void RunInternal<TState>(System.Threading.ExecutionContext @executionContext, RSystem.RThreading.RContextCallback<RType> @callback, ref TState @state)
         {
 
             var ___genericsType = new Type[] {typeof(TState)};
@@ -910,7 +910,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public static void RunInternal<TState>(System.Threading.ExecutionContext  @executionContext, RSystem.RThreading.RContextCallback<RType>  @callback, ref TState  @state, System.Boolean  @preserveSyncCtx)
+        public static void RunInternal<TState>(System.Threading.ExecutionContext @executionContext, RSystem.RThreading.RContextCallback<RType> @callback, ref TState @state, System.Boolean @preserveSyncCtx)
         {
 
             var ___genericsType = new Type[] {typeof(TState)};
@@ -922,7 +922,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public static void EstablishCopyOnWriteScope(ref RSystem.RThreading.RExecutionContextSwitcher  @ecsw)
+        public static void EstablishCopyOnWriteScope(ref RSystem.RThreading.RExecutionContextSwitcher @ecsw)
         {
 
             var ___genericsType = new Type[] {};
@@ -934,7 +934,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public static void EstablishCopyOnWriteScope(System.Threading.Thread  @currentThread, System.Boolean  @knownNullWindowsIdentity, ref RSystem.RThreading.RExecutionContextSwitcher  @ecsw)
+        public static void EstablishCopyOnWriteScope(System.Threading.Thread @currentThread, System.Boolean @knownNullWindowsIdentity, ref RSystem.RThreading.RExecutionContextSwitcher @ecsw)
         {
 
             var ___genericsType = new Type[] {};
@@ -946,14 +946,14 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public static System.Object SetExecutionContext(System.Threading.ExecutionContext  @executionContext, System.Boolean  @preserveSyncCtx)
+        public static RSystem.RThreading.RExecutionContextSwitcher SetExecutionContext(System.Threading.ExecutionContext @executionContext, System.Boolean @preserveSyncCtx)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@executionContext, @preserveSyncCtx};
             var ___result = RSetExecutionContext_ExecutionContext_Boolean.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RSystem.RThreading.RExecutionContextSwitcher(___result);
         }
 
 
@@ -1034,7 +1034,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public static System.Threading.ExecutionContext Capture(ref RType  @stackMark, RType  @options)
+        public static System.Threading.ExecutionContext Capture(ref RType @stackMark, RType @options)
         {
 
             var ___genericsType = new Type[] {};
@@ -1046,7 +1046,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public virtual void GetObjectData(System.Runtime.Serialization.SerializationInfo  @info, System.Runtime.Serialization.StreamingContext  @context)
+        public virtual void GetObjectData(System.Runtime.Serialization.SerializationInfo @info, System.Runtime.Serialization.StreamingContext @context)
         {
 
             var ___genericsType = new Type[] {};
@@ -1057,7 +1057,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public virtual System.Boolean IsDefaultFTContext(System.Boolean  @ignoreSyncCtx)
+        public virtual System.Boolean IsDefaultFTContext(System.Boolean @ignoreSyncCtx)
         {
 
             var ___genericsType = new Type[] {};
@@ -1068,7 +1068,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

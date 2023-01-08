@@ -7763,18 +7763,18 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 	    {
 	    }
 
-        public virtual System.Object GetStylePropertyAnimationSystem()
+        public virtual RUnityEngine.RUIElements.RIStylePropertyAnimationSystem GetStylePropertyAnimationSystem()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RGetStylePropertyAnimationSystem.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RUnityEngine.RUIElements.RIStylePropertyAnimationSystem(___result);
         }
 
 
-        public virtual System.Boolean UnityEngine__2__UIElements__2__IStylePropertyAnimations__2__Start(RType  @id, System.Single  @from, System.Single  @to, System.Int32  @durationMs, System.Int32  @delayMs, System.Func<System.Single, System.Single>  @easingCurve)
+        public virtual System.Boolean UnityEngine__2__UIElements__2__IStylePropertyAnimations__2__Start(RType @id, System.Single @from, System.Single @to, System.Int32 @durationMs, System.Int32 @delayMs, System.Func<System.Single, System.Single> @easingCurve)
         {
 
             var ___genericsType = new Type[] {};
@@ -7785,7 +7785,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean UnityEngine__2__UIElements__2__IStylePropertyAnimations__2__Start(RType  @id, System.Int32  @from, System.Int32  @to, System.Int32  @durationMs, System.Int32  @delayMs, System.Func<System.Single, System.Single>  @easingCurve)
+        public virtual System.Boolean UnityEngine__2__UIElements__2__IStylePropertyAnimations__2__Start(RType @id, System.Int32 @from, System.Int32 @to, System.Int32 @durationMs, System.Int32 @delayMs, System.Func<System.Single, System.Single> @easingCurve)
         {
 
             var ___genericsType = new Type[] {};
@@ -7796,7 +7796,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean UnityEngine__2__UIElements__2__IStylePropertyAnimations__2__Start(RType  @id, UnityEngine.UIElements.Length  @from, UnityEngine.UIElements.Length  @to, System.Int32  @durationMs, System.Int32  @delayMs, System.Func<System.Single, System.Single>  @easingCurve)
+        public virtual System.Boolean UnityEngine__2__UIElements__2__IStylePropertyAnimations__2__Start(RType @id, UnityEngine.UIElements.Length @from, UnityEngine.UIElements.Length @to, System.Int32 @durationMs, System.Int32 @delayMs, System.Func<System.Single, System.Single> @easingCurve)
         {
 
             var ___genericsType = new Type[] {};
@@ -7807,7 +7807,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean UnityEngine__2__UIElements__2__IStylePropertyAnimations__2__Start(RType  @id, UnityEngine.Color  @from, UnityEngine.Color  @to, System.Int32  @durationMs, System.Int32  @delayMs, System.Func<System.Single, System.Single>  @easingCurve)
+        public virtual System.Boolean UnityEngine__2__UIElements__2__IStylePropertyAnimations__2__Start(RType @id, UnityEngine.Color @from, UnityEngine.Color @to, System.Int32 @durationMs, System.Int32 @delayMs, System.Func<System.Single, System.Single> @easingCurve)
         {
 
             var ___genericsType = new Type[] {};
@@ -7818,7 +7818,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean UnityEngine__2__UIElements__2__IStylePropertyAnimations__2__StartEnum(RType  @id, System.Int32  @from, System.Int32  @to, System.Int32  @durationMs, System.Int32  @delayMs, System.Func<System.Single, System.Single>  @easingCurve)
+        public virtual System.Boolean UnityEngine__2__UIElements__2__IStylePropertyAnimations__2__StartEnum(RType @id, System.Int32 @from, System.Int32 @to, System.Int32 @durationMs, System.Int32 @delayMs, System.Func<System.Single, System.Single> @easingCurve)
         {
 
             var ___genericsType = new Type[] {};
@@ -7829,7 +7829,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean UnityEngine__2__UIElements__2__IStylePropertyAnimations__2__Start(RType  @id, UnityEngine.UIElements.Background  @from, UnityEngine.UIElements.Background  @to, System.Int32  @durationMs, System.Int32  @delayMs, System.Func<System.Single, System.Single>  @easingCurve)
+        public virtual System.Boolean UnityEngine__2__UIElements__2__IStylePropertyAnimations__2__Start(RType @id, UnityEngine.UIElements.Background @from, UnityEngine.UIElements.Background @to, System.Int32 @durationMs, System.Int32 @delayMs, System.Func<System.Single, System.Single> @easingCurve)
         {
 
             var ___genericsType = new Type[] {};
@@ -7840,7 +7840,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean UnityEngine__2__UIElements__2__IStylePropertyAnimations__2__Start(RType  @id, UnityEngine.UIElements.FontDefinition  @from, UnityEngine.UIElements.FontDefinition  @to, System.Int32  @durationMs, System.Int32  @delayMs, System.Func<System.Single, System.Single>  @easingCurve)
+        public virtual System.Boolean UnityEngine__2__UIElements__2__IStylePropertyAnimations__2__Start(RType @id, UnityEngine.UIElements.FontDefinition @from, UnityEngine.UIElements.FontDefinition @to, System.Int32 @durationMs, System.Int32 @delayMs, System.Func<System.Single, System.Single> @easingCurve)
         {
 
             var ___genericsType = new Type[] {};
@@ -7851,7 +7851,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean UnityEngine__2__UIElements__2__IStylePropertyAnimations__2__Start(RType  @id, UnityEngine.Font  @from, UnityEngine.Font  @to, System.Int32  @durationMs, System.Int32  @delayMs, System.Func<System.Single, System.Single>  @easingCurve)
+        public virtual System.Boolean UnityEngine__2__UIElements__2__IStylePropertyAnimations__2__Start(RType @id, UnityEngine.Font @from, UnityEngine.Font @to, System.Int32 @durationMs, System.Int32 @delayMs, System.Func<System.Single, System.Single> @easingCurve)
         {
 
             var ___genericsType = new Type[] {};
@@ -7862,7 +7862,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean UnityEngine__2__UIElements__2__IStylePropertyAnimations__2__Start(RType  @id, UnityEngine.UIElements.TextShadow  @from, UnityEngine.UIElements.TextShadow  @to, System.Int32  @durationMs, System.Int32  @delayMs, System.Func<System.Single, System.Single>  @easingCurve)
+        public virtual System.Boolean UnityEngine__2__UIElements__2__IStylePropertyAnimations__2__Start(RType @id, UnityEngine.UIElements.TextShadow @from, UnityEngine.UIElements.TextShadow @to, System.Int32 @durationMs, System.Int32 @delayMs, System.Func<System.Single, System.Single> @easingCurve)
         {
 
             var ___genericsType = new Type[] {};
@@ -7873,7 +7873,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean UnityEngine__2__UIElements__2__IStylePropertyAnimations__2__Start(RType  @id, UnityEngine.UIElements.Scale  @from, UnityEngine.UIElements.Scale  @to, System.Int32  @durationMs, System.Int32  @delayMs, System.Func<System.Single, System.Single>  @easingCurve)
+        public virtual System.Boolean UnityEngine__2__UIElements__2__IStylePropertyAnimations__2__Start(RType @id, UnityEngine.UIElements.Scale @from, UnityEngine.UIElements.Scale @to, System.Int32 @durationMs, System.Int32 @delayMs, System.Func<System.Single, System.Single> @easingCurve)
         {
 
             var ___genericsType = new Type[] {};
@@ -7884,7 +7884,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean UnityEngine__2__UIElements__2__IStylePropertyAnimations__2__Start(RType  @id, UnityEngine.UIElements.Translate  @from, UnityEngine.UIElements.Translate  @to, System.Int32  @durationMs, System.Int32  @delayMs, System.Func<System.Single, System.Single>  @easingCurve)
+        public virtual System.Boolean UnityEngine__2__UIElements__2__IStylePropertyAnimations__2__Start(RType @id, UnityEngine.UIElements.Translate @from, UnityEngine.UIElements.Translate @to, System.Int32 @durationMs, System.Int32 @delayMs, System.Func<System.Single, System.Single> @easingCurve)
         {
 
             var ___genericsType = new Type[] {};
@@ -7895,7 +7895,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean UnityEngine__2__UIElements__2__IStylePropertyAnimations__2__Start(RType  @id, UnityEngine.UIElements.Rotate  @from, UnityEngine.UIElements.Rotate  @to, System.Int32  @durationMs, System.Int32  @delayMs, System.Func<System.Single, System.Single>  @easingCurve)
+        public virtual System.Boolean UnityEngine__2__UIElements__2__IStylePropertyAnimations__2__Start(RType @id, UnityEngine.UIElements.Rotate @from, UnityEngine.UIElements.Rotate @to, System.Int32 @durationMs, System.Int32 @delayMs, System.Func<System.Single, System.Single> @easingCurve)
         {
 
             var ___genericsType = new Type[] {};
@@ -7906,7 +7906,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean UnityEngine__2__UIElements__2__IStylePropertyAnimations__2__Start(RType  @id, UnityEngine.UIElements.TransformOrigin  @from, UnityEngine.UIElements.TransformOrigin  @to, System.Int32  @durationMs, System.Int32  @delayMs, System.Func<System.Single, System.Single>  @easingCurve)
+        public virtual System.Boolean UnityEngine__2__UIElements__2__IStylePropertyAnimations__2__Start(RType @id, UnityEngine.UIElements.TransformOrigin @from, UnityEngine.UIElements.TransformOrigin @to, System.Int32 @durationMs, System.Int32 @delayMs, System.Func<System.Single, System.Single> @easingCurve)
         {
 
             var ___genericsType = new Type[] {};
@@ -7917,7 +7917,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean UnityEngine__2__UIElements__2__IStylePropertyAnimations__2__Start(RType  @id, UnityEngine.UIElements.BackgroundPosition  @from, UnityEngine.UIElements.BackgroundPosition  @to, System.Int32  @durationMs, System.Int32  @delayMs, System.Func<System.Single, System.Single>  @easingCurve)
+        public virtual System.Boolean UnityEngine__2__UIElements__2__IStylePropertyAnimations__2__Start(RType @id, UnityEngine.UIElements.BackgroundPosition @from, UnityEngine.UIElements.BackgroundPosition @to, System.Int32 @durationMs, System.Int32 @delayMs, System.Func<System.Single, System.Single> @easingCurve)
         {
 
             var ___genericsType = new Type[] {};
@@ -7928,7 +7928,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean UnityEngine__2__UIElements__2__IStylePropertyAnimations__2__Start(RType  @id, UnityEngine.UIElements.BackgroundRepeat  @from, UnityEngine.UIElements.BackgroundRepeat  @to, System.Int32  @durationMs, System.Int32  @delayMs, System.Func<System.Single, System.Single>  @easingCurve)
+        public virtual System.Boolean UnityEngine__2__UIElements__2__IStylePropertyAnimations__2__Start(RType @id, UnityEngine.UIElements.BackgroundRepeat @from, UnityEngine.UIElements.BackgroundRepeat @to, System.Int32 @durationMs, System.Int32 @delayMs, System.Func<System.Single, System.Single> @easingCurve)
         {
 
             var ___genericsType = new Type[] {};
@@ -7939,7 +7939,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean UnityEngine__2__UIElements__2__IStylePropertyAnimations__2__Start(RType  @id, UnityEngine.UIElements.BackgroundSize  @from, UnityEngine.UIElements.BackgroundSize  @to, System.Int32  @durationMs, System.Int32  @delayMs, System.Func<System.Single, System.Single>  @easingCurve)
+        public virtual System.Boolean UnityEngine__2__UIElements__2__IStylePropertyAnimations__2__Start(RType @id, UnityEngine.UIElements.BackgroundSize @from, UnityEngine.UIElements.BackgroundSize @to, System.Int32 @durationMs, System.Int32 @delayMs, System.Func<System.Single, System.Single> @easingCurve)
         {
 
             var ___genericsType = new Type[] {};
@@ -7950,7 +7950,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void UnityEngine__2__UIElements__2__IStylePropertyAnimations__2__CancelAnimation(RType  @id)
+        public virtual void UnityEngine__2__UIElements__2__IStylePropertyAnimations__2__CancelAnimation(RType @id)
         {
 
             var ___genericsType = new Type[] {};
@@ -7972,7 +7972,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean UnityEngine__2__UIElements__2__IStylePropertyAnimations__2__HasRunningAnimation(RType  @id)
+        public virtual System.Boolean UnityEngine__2__UIElements__2__IStylePropertyAnimations__2__HasRunningAnimation(RType @id)
         {
 
             var ___genericsType = new Type[] {};
@@ -7983,7 +7983,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void UnityEngine__2__UIElements__2__IStylePropertyAnimations__2__UpdateAnimation(RType  @id)
+        public virtual void UnityEngine__2__UIElements__2__IStylePropertyAnimations__2__UpdateAnimation(RType @id)
         {
 
             var ___genericsType = new Type[] {};
@@ -7994,7 +7994,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void UnityEngine__2__UIElements__2__IStylePropertyAnimations__2__GetAllAnimations(RSystem.RCollections.RGeneric.RList<RType>  @outPropertyIds)
+        public virtual void UnityEngine__2__UIElements__2__IStylePropertyAnimations__2__GetAllAnimations(RSystem.RCollections.RGeneric.RList<RType> @outPropertyIds)
         {
 
             var ___genericsType = new Type[] {};
@@ -8005,7 +8005,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean TryConvertLengthUnits(RType  @id, ref UnityEngine.UIElements.Length  @from, ref UnityEngine.UIElements.Length  @to, System.Int32  @subPropertyIndex)
+        public virtual System.Boolean TryConvertLengthUnits(RType @id, ref UnityEngine.UIElements.Length @from, ref UnityEngine.UIElements.Length @to, System.Int32 @subPropertyIndex)
         {
 
             var ___genericsType = new Type[] {};
@@ -8018,7 +8018,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean TryConvertTransformOriginUnits(ref UnityEngine.UIElements.TransformOrigin  @from, ref UnityEngine.UIElements.TransformOrigin  @to)
+        public virtual System.Boolean TryConvertTransformOriginUnits(ref UnityEngine.UIElements.TransformOrigin @from, ref UnityEngine.UIElements.TransformOrigin @to)
         {
 
             var ___genericsType = new Type[] {};
@@ -8031,7 +8031,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean TryConvertTranslateUnits(ref UnityEngine.UIElements.Translate  @from, ref UnityEngine.UIElements.Translate  @to)
+        public virtual System.Boolean TryConvertTranslateUnits(ref UnityEngine.UIElements.Translate @from, ref UnityEngine.UIElements.Translate @to)
         {
 
             var ___genericsType = new Type[] {};
@@ -8044,7 +8044,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean TryConvertBackgroundPositionUnits(ref UnityEngine.UIElements.BackgroundPosition  @from, ref UnityEngine.UIElements.BackgroundPosition  @to)
+        public virtual System.Boolean TryConvertBackgroundPositionUnits(ref UnityEngine.UIElements.BackgroundPosition @from, ref UnityEngine.UIElements.BackgroundPosition @to)
         {
 
             var ___genericsType = new Type[] {};
@@ -8057,7 +8057,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean TryConvertBackgroundSizeUnits(ref UnityEngine.UIElements.BackgroundSize  @from, ref UnityEngine.UIElements.BackgroundSize  @to)
+        public virtual System.Boolean TryConvertBackgroundSizeUnits(ref UnityEngine.UIElements.BackgroundSize @from, ref UnityEngine.UIElements.BackgroundSize @to)
         {
 
             var ___genericsType = new Type[] {};
@@ -8070,7 +8070,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Nullable<System.Single> GetParentSizeForLengthConversion(RType  @id, System.Int32  @subPropertyIndex)
+        public virtual System.Nullable<System.Single> GetParentSizeForLengthConversion(RType @id, System.Int32 @subPropertyIndex)
         {
 
             var ___genericsType = new Type[] {};
@@ -8158,7 +8158,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual UnityEngine.Rect CombineClipRects(UnityEngine.Rect  @rect, UnityEngine.Rect  @parentRect)
+        public virtual UnityEngine.Rect CombineClipRects(UnityEngine.Rect @rect, UnityEngine.Rect @parentRect)
         {
 
             var ___genericsType = new Type[] {};
@@ -8169,7 +8169,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual UnityEngine.Rect SubstractBorderPadding(UnityEngine.Rect  @worldRect)
+        public virtual UnityEngine.Rect SubstractBorderPadding(UnityEngine.Rect @worldRect)
         {
 
             var ___genericsType = new Type[] {};
@@ -8180,7 +8180,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public static UnityEngine.Rect ComputeAAAlignedBound(UnityEngine.Rect  @position, UnityEngine.Matrix4x4  @mat)
+        public static UnityEngine.Rect ComputeAAAlignedBound(UnityEngine.Rect @position, UnityEngine.Matrix4x4 @mat)
         {
 
             var ___genericsType = new Type[] {};
@@ -8202,7 +8202,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public static System.Boolean IsPartOfCapturedChain(UnityEngine.UIElements.VisualElement  @self, in UnityEngine.UIElements.IEventHandler  @capturingElement)
+        public static System.Boolean IsPartOfCapturedChain(UnityEngine.UIElements.VisualElement @self, in UnityEngine.UIElements.IEventHandler @capturingElement)
         {
 
             var ___genericsType = new Type[] {};
@@ -8213,7 +8213,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void ChangeIMGUIContainerCount(System.Int32  @delta)
+        public virtual void ChangeIMGUIContainerCount(System.Int32 @delta)
         {
 
             var ___genericsType = new Type[] {};
@@ -8224,7 +8224,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void ExecuteDefaultAction(UnityEngine.UIElements.EventBase  @evt)
+        public virtual void ExecuteDefaultAction(UnityEngine.UIElements.EventBase @evt)
         {
 
             var ___genericsType = new Type[] {};
@@ -8246,7 +8246,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void SetTooltip(UnityEngine.UIElements.TooltipEvent  @e)
+        public virtual void SetTooltip(UnityEngine.UIElements.TooltipEvent @e)
         {
 
             var ___genericsType = new Type[] {};
@@ -8268,7 +8268,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void SetPanel(RUnityEngine.RUIElements.RBaseVisualElementPanel  @p)
+        public virtual void SetPanel(RUnityEngine.RUIElements.RBaseVisualElementPanel @p)
         {
 
             var ___genericsType = new Type[] {};
@@ -8279,7 +8279,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void WillChangePanel(RUnityEngine.RUIElements.RBaseVisualElementPanel  @destinationPanel)
+        public virtual void WillChangePanel(RUnityEngine.RUIElements.RBaseVisualElementPanel @destinationPanel)
         {
 
             var ___genericsType = new Type[] {};
@@ -8290,7 +8290,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void HasChangedPanel(RUnityEngine.RUIElements.RBaseVisualElementPanel  @prevPanel)
+        public virtual void HasChangedPanel(RUnityEngine.RUIElements.RBaseVisualElementPanel @prevPanel)
         {
 
             var ___genericsType = new Type[] {};
@@ -8301,7 +8301,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void SendEvent(UnityEngine.UIElements.EventBase  @e)
+        public virtual void SendEvent(UnityEngine.UIElements.EventBase @e)
         {
 
             var ___genericsType = new Type[] {};
@@ -8312,7 +8312,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void SendEvent(UnityEngine.UIElements.EventBase  @e, RType  @dispatchMode)
+        public virtual void SendEvent(UnityEngine.UIElements.EventBase @e, RType @dispatchMode)
         {
 
             var ___genericsType = new Type[] {};
@@ -8323,7 +8323,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void IncrementVersion(RType  @changeType)
+        public virtual void IncrementVersion(RType @changeType)
         {
 
             var ___genericsType = new Type[] {};
@@ -8334,7 +8334,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void InvokeHierarchyChanged(RType  @changeType)
+        public virtual void InvokeHierarchyChanged(RType @changeType)
         {
 
             var ___genericsType = new Type[] {};
@@ -8345,7 +8345,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean SetEnabledFromHierarchy(System.Boolean  @state)
+        public virtual System.Boolean SetEnabledFromHierarchy(System.Boolean @state)
         {
 
             var ___genericsType = new Type[] {};
@@ -8356,7 +8356,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean SetEnabledFromHierarchyPrivate(System.Boolean  @state)
+        public virtual System.Boolean SetEnabledFromHierarchyPrivate(System.Boolean @state)
         {
 
             var ___genericsType = new Type[] {};
@@ -8367,7 +8367,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void SetEnabled(System.Boolean  @value)
+        public virtual void SetEnabled(System.Boolean @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -8378,7 +8378,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void PropagateEnabledToChildren(System.Boolean  @value)
+        public virtual void PropagateEnabledToChildren(System.Boolean @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -8400,7 +8400,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void InvokeGenerateVisualContent(UnityEngine.UIElements.MeshGenerationContext  @mgc)
+        public virtual void InvokeGenerateVisualContent(UnityEngine.UIElements.MeshGenerationContext @mgc)
         {
 
             var ___genericsType = new Type[] {};
@@ -8411,7 +8411,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void GetFullHierarchicalViewDataKey(System.Text.StringBuilder  @key)
+        public virtual void GetFullHierarchicalViewDataKey(System.Text.StringBuilder @key)
         {
 
             var ___genericsType = new Type[] {};
@@ -8433,7 +8433,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual T GetOrCreateViewData<T>(System.Object  @existing, System.String  @key) where T : class, new()
+        public virtual T GetOrCreateViewData<T>(System.Object @existing, System.String @key) where T : class, new()
         {
 
             var ___genericsType = new Type[] {typeof(T)};
@@ -8444,7 +8444,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual T GetOrCreateViewData<T>(UnityEngine.ScriptableObject  @existing, System.String  @key) where T : UnityEngine.ScriptableObject
+        public virtual T GetOrCreateViewData<T>(UnityEngine.ScriptableObject @existing, System.String @key) where T : UnityEngine.ScriptableObject
         {
 
             var ___genericsType = new Type[] {typeof(T)};
@@ -8455,7 +8455,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void OverwriteFromViewData(System.Object  @obj, System.String  @key)
+        public virtual void OverwriteFromViewData(System.Object @obj, System.String @key)
         {
 
             var ___genericsType = new Type[] {};
@@ -8477,7 +8477,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean IsViewDataPersitenceSupportedOnChildren(System.Boolean  @existingState)
+        public virtual System.Boolean IsViewDataPersitenceSupportedOnChildren(System.Boolean @existingState)
         {
 
             var ___genericsType = new Type[] {};
@@ -8488,7 +8488,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void OnViewDataReady(System.Boolean  @enablePersistence)
+        public virtual void OnViewDataReady(System.Boolean @enablePersistence)
         {
 
             var ___genericsType = new Type[] {};
@@ -8510,7 +8510,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean ContainsPoint(UnityEngine.Vector2  @localPoint)
+        public virtual System.Boolean ContainsPoint(UnityEngine.Vector2 @localPoint)
         {
 
             var ___genericsType = new Type[] {};
@@ -8521,7 +8521,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean Overlaps(UnityEngine.Rect  @rectangle)
+        public virtual System.Boolean Overlaps(UnityEngine.Rect @rectangle)
         {
 
             var ___genericsType = new Type[] {};
@@ -8554,7 +8554,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual UnityEngine.Vector2 DoMeasure(System.Single  @desiredWidth, RType  @widthMode, System.Single  @desiredHeight, RType  @heightMode)
+        public virtual UnityEngine.Vector2 DoMeasure(System.Single @desiredWidth, RType @widthMode, System.Single @desiredHeight, RType @heightMode)
         {
 
             var ___genericsType = new Type[] {};
@@ -8565,18 +8565,18 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Object Measure(RUnityEngine.RYoga.RYogaNode  @node, System.Single  @width, RType  @widthMode, System.Single  @height, RType  @heightMode)
+        public virtual RUnityEngine.RYoga.RYogaSize Measure(RUnityEngine.RYoga.RYogaNode @node, System.Single @width, RType @widthMode, System.Single @height, RType @heightMode)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@node.Value, @width, @widthMode.Value, @height, @heightMode.Value};
             var ___result = RMeasure_YogaNode_Single_YogaMeasureMode_Single_YogaMeasureMode.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RUnityEngine.RYoga.RYogaSize(___result);
         }
 
 
-        public virtual void SetSize(UnityEngine.Vector2  @size)
+        public virtual void SetSize(UnityEngine.Vector2 @size)
         {
 
             var ___genericsType = new Type[] {};
@@ -8598,7 +8598,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void SetInlineRule(UnityEngine.UIElements.StyleSheet  @sheet, RUnityEngine.RUIElements.RStyleRule  @rule)
+        public virtual void SetInlineRule(UnityEngine.UIElements.StyleSheet @sheet, RUnityEngine.RUIElements.RStyleRule @rule)
         {
 
             var ___genericsType = new Type[] {};
@@ -8609,7 +8609,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void UpdateInlineRule(UnityEngine.UIElements.StyleSheet  @sheet, RUnityEngine.RUIElements.RStyleRule  @rule)
+        public virtual void UpdateInlineRule(UnityEngine.UIElements.StyleSheet @sheet, RUnityEngine.RUIElements.RStyleRule @rule)
         {
 
             var ___genericsType = new Type[] {};
@@ -8620,7 +8620,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void SetComputedStyle(ref RUnityEngine.RUIElements.RComputedStyle  @newStyle)
+        public virtual void SetComputedStyle(ref RUnityEngine.RUIElements.RComputedStyle @newStyle)
         {
 
             var ___genericsType = new Type[] {};
@@ -8687,7 +8687,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void AddToClassList(System.String  @className)
+        public virtual void AddToClassList(System.String @className)
         {
 
             var ___genericsType = new Type[] {};
@@ -8698,7 +8698,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void RemoveFromClassList(System.String  @className)
+        public virtual void RemoveFromClassList(System.String @className)
         {
 
             var ___genericsType = new Type[] {};
@@ -8709,7 +8709,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void ToggleInClassList(System.String  @className)
+        public virtual void ToggleInClassList(System.String @className)
         {
 
             var ___genericsType = new Type[] {};
@@ -8720,7 +8720,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void EnableInClassList(System.String  @className, System.Boolean  @enable)
+        public virtual void EnableInClassList(System.String @className, System.Boolean @enable)
         {
 
             var ___genericsType = new Type[] {};
@@ -8731,7 +8731,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean ClassListContains(System.String  @cls)
+        public virtual System.Boolean ClassListContains(System.String @cls)
         {
 
             var ___genericsType = new Type[] {};
@@ -8753,7 +8753,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Object GetProperty(UnityEngine.PropertyName  @key)
+        public virtual System.Object GetProperty(UnityEngine.PropertyName @key)
         {
 
             var ___genericsType = new Type[] {};
@@ -8764,7 +8764,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void SetProperty(UnityEngine.PropertyName  @key, System.Object  @value)
+        public virtual void SetProperty(UnityEngine.PropertyName @key, System.Object @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -8775,7 +8775,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean HasProperty(UnityEngine.PropertyName  @key)
+        public virtual System.Boolean HasProperty(UnityEngine.PropertyName @key)
         {
 
             var ___genericsType = new Type[] {};
@@ -8786,7 +8786,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean TryGetPropertyInternal(UnityEngine.PropertyName  @key, out System.Object  @value)
+        public virtual System.Boolean TryGetPropertyInternal(UnityEngine.PropertyName @key, out System.Object @value)
         {
 			@value = default;
 
@@ -8799,7 +8799,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public static void CheckUserKeyArgument(UnityEngine.PropertyName  @key)
+        public static void CheckUserKeyArgument(UnityEngine.PropertyName @key)
         {
 
             var ___genericsType = new Type[] {};
@@ -8810,7 +8810,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void SetPropertyInternal(UnityEngine.PropertyName  @key, System.Object  @value)
+        public virtual void SetPropertyInternal(UnityEngine.PropertyName @key, System.Object @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -8821,7 +8821,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void UpdateCursorStyle(System.Int64  @eventType)
+        public virtual void UpdateCursorStyle(System.Int64 @eventType)
         {
 
             var ___genericsType = new Type[] {};
@@ -8854,18 +8854,18 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Object GetAnimationSystem()
+        public virtual RUnityEngine.RUIElements.RVisualElementAnimationSystem GetAnimationSystem()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RGetAnimationSystem.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RUnityEngine.RUIElements.RVisualElementAnimationSystem(___result);
         }
 
 
-        public virtual void RegisterAnimation(RUnityEngine.RUIElements.RExperimental.RIValueAnimationUpdate  @anim)
+        public virtual void RegisterAnimation(RUnityEngine.RUIElements.RExperimental.RIValueAnimationUpdate @anim)
         {
 
             var ___genericsType = new Type[] {};
@@ -8876,7 +8876,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void UnregisterAnimation(RUnityEngine.RUIElements.RExperimental.RIValueAnimationUpdate  @anim)
+        public virtual void UnregisterAnimation(RUnityEngine.RUIElements.RExperimental.RIValueAnimationUpdate @anim)
         {
 
             var ___genericsType = new Type[] {};
@@ -8909,7 +8909,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual UnityEngine.UIElements.Experimental.ValueAnimation<System.Single> UnityEngine__2__UIElements__2__Experimental__2__ITransitionAnimations__2__Start(System.Single  @from, System.Single  @to, System.Int32  @durationMs, System.Action<UnityEngine.UIElements.VisualElement, System.Single>  @onValueChanged)
+        public virtual UnityEngine.UIElements.Experimental.ValueAnimation<System.Single> UnityEngine__2__UIElements__2__Experimental__2__ITransitionAnimations__2__Start(System.Single @from, System.Single @to, System.Int32 @durationMs, System.Action<UnityEngine.UIElements.VisualElement, System.Single> @onValueChanged)
         {
 
             var ___genericsType = new Type[] {};
@@ -8920,7 +8920,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Rect> UnityEngine__2__UIElements__2__Experimental__2__ITransitionAnimations__2__Start(UnityEngine.Rect  @from, UnityEngine.Rect  @to, System.Int32  @durationMs, System.Action<UnityEngine.UIElements.VisualElement, UnityEngine.Rect>  @onValueChanged)
+        public virtual UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Rect> UnityEngine__2__UIElements__2__Experimental__2__ITransitionAnimations__2__Start(UnityEngine.Rect @from, UnityEngine.Rect @to, System.Int32 @durationMs, System.Action<UnityEngine.UIElements.VisualElement, UnityEngine.Rect> @onValueChanged)
         {
 
             var ___genericsType = new Type[] {};
@@ -8931,7 +8931,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Color> UnityEngine__2__UIElements__2__Experimental__2__ITransitionAnimations__2__Start(UnityEngine.Color  @from, UnityEngine.Color  @to, System.Int32  @durationMs, System.Action<UnityEngine.UIElements.VisualElement, UnityEngine.Color>  @onValueChanged)
+        public virtual UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Color> UnityEngine__2__UIElements__2__Experimental__2__ITransitionAnimations__2__Start(UnityEngine.Color @from, UnityEngine.Color @to, System.Int32 @durationMs, System.Action<UnityEngine.UIElements.VisualElement, UnityEngine.Color> @onValueChanged)
         {
 
             var ___genericsType = new Type[] {};
@@ -8942,7 +8942,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Vector3> UnityEngine__2__UIElements__2__Experimental__2__ITransitionAnimations__2__Start(UnityEngine.Vector3  @from, UnityEngine.Vector3  @to, System.Int32  @durationMs, System.Action<UnityEngine.UIElements.VisualElement, UnityEngine.Vector3>  @onValueChanged)
+        public virtual UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Vector3> UnityEngine__2__UIElements__2__Experimental__2__ITransitionAnimations__2__Start(UnityEngine.Vector3 @from, UnityEngine.Vector3 @to, System.Int32 @durationMs, System.Action<UnityEngine.UIElements.VisualElement, UnityEngine.Vector3> @onValueChanged)
         {
 
             var ___genericsType = new Type[] {};
@@ -8953,7 +8953,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Vector2> UnityEngine__2__UIElements__2__Experimental__2__ITransitionAnimations__2__Start(UnityEngine.Vector2  @from, UnityEngine.Vector2  @to, System.Int32  @durationMs, System.Action<UnityEngine.UIElements.VisualElement, UnityEngine.Vector2>  @onValueChanged)
+        public virtual UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Vector2> UnityEngine__2__UIElements__2__Experimental__2__ITransitionAnimations__2__Start(UnityEngine.Vector2 @from, UnityEngine.Vector2 @to, System.Int32 @durationMs, System.Action<UnityEngine.UIElements.VisualElement, UnityEngine.Vector2> @onValueChanged)
         {
 
             var ___genericsType = new Type[] {};
@@ -8964,7 +8964,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Quaternion> UnityEngine__2__UIElements__2__Experimental__2__ITransitionAnimations__2__Start(UnityEngine.Quaternion  @from, UnityEngine.Quaternion  @to, System.Int32  @durationMs, System.Action<UnityEngine.UIElements.VisualElement, UnityEngine.Quaternion>  @onValueChanged)
+        public virtual UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Quaternion> UnityEngine__2__UIElements__2__Experimental__2__ITransitionAnimations__2__Start(UnityEngine.Quaternion @from, UnityEngine.Quaternion @to, System.Int32 @durationMs, System.Action<UnityEngine.UIElements.VisualElement, UnityEngine.Quaternion> @onValueChanged)
         {
 
             var ___genericsType = new Type[] {};
@@ -8975,7 +8975,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.UIElements.Experimental.StyleValues> UnityEngine__2__UIElements__2__Experimental__2__ITransitionAnimations__2__Start(UnityEngine.UIElements.Experimental.StyleValues  @from, UnityEngine.UIElements.Experimental.StyleValues  @to, System.Int32  @durationMs)
+        public virtual UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.UIElements.Experimental.StyleValues> UnityEngine__2__UIElements__2__Experimental__2__ITransitionAnimations__2__Start(UnityEngine.UIElements.Experimental.StyleValues @from, UnityEngine.UIElements.Experimental.StyleValues @to, System.Int32 @durationMs)
         {
 
             var ___genericsType = new Type[] {};
@@ -8986,7 +8986,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual UnityEngine.UIElements.Experimental.ValueAnimation<System.Single> UnityEngine__2__UIElements__2__Experimental__2__ITransitionAnimations__2__Start(System.Func<UnityEngine.UIElements.VisualElement, System.Single>  @fromValueGetter, System.Single  @to, System.Int32  @durationMs, System.Action<UnityEngine.UIElements.VisualElement, System.Single>  @onValueChanged)
+        public virtual UnityEngine.UIElements.Experimental.ValueAnimation<System.Single> UnityEngine__2__UIElements__2__Experimental__2__ITransitionAnimations__2__Start(System.Func<UnityEngine.UIElements.VisualElement, System.Single> @fromValueGetter, System.Single @to, System.Int32 @durationMs, System.Action<UnityEngine.UIElements.VisualElement, System.Single> @onValueChanged)
         {
 
             var ___genericsType = new Type[] {};
@@ -8997,7 +8997,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Rect> UnityEngine__2__UIElements__2__Experimental__2__ITransitionAnimations__2__Start(System.Func<UnityEngine.UIElements.VisualElement, UnityEngine.Rect>  @fromValueGetter, UnityEngine.Rect  @to, System.Int32  @durationMs, System.Action<UnityEngine.UIElements.VisualElement, UnityEngine.Rect>  @onValueChanged)
+        public virtual UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Rect> UnityEngine__2__UIElements__2__Experimental__2__ITransitionAnimations__2__Start(System.Func<UnityEngine.UIElements.VisualElement, UnityEngine.Rect> @fromValueGetter, UnityEngine.Rect @to, System.Int32 @durationMs, System.Action<UnityEngine.UIElements.VisualElement, UnityEngine.Rect> @onValueChanged)
         {
 
             var ___genericsType = new Type[] {};
@@ -9008,7 +9008,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Color> UnityEngine__2__UIElements__2__Experimental__2__ITransitionAnimations__2__Start(System.Func<UnityEngine.UIElements.VisualElement, UnityEngine.Color>  @fromValueGetter, UnityEngine.Color  @to, System.Int32  @durationMs, System.Action<UnityEngine.UIElements.VisualElement, UnityEngine.Color>  @onValueChanged)
+        public virtual UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Color> UnityEngine__2__UIElements__2__Experimental__2__ITransitionAnimations__2__Start(System.Func<UnityEngine.UIElements.VisualElement, UnityEngine.Color> @fromValueGetter, UnityEngine.Color @to, System.Int32 @durationMs, System.Action<UnityEngine.UIElements.VisualElement, UnityEngine.Color> @onValueChanged)
         {
 
             var ___genericsType = new Type[] {};
@@ -9019,7 +9019,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Vector3> UnityEngine__2__UIElements__2__Experimental__2__ITransitionAnimations__2__Start(System.Func<UnityEngine.UIElements.VisualElement, UnityEngine.Vector3>  @fromValueGetter, UnityEngine.Vector3  @to, System.Int32  @durationMs, System.Action<UnityEngine.UIElements.VisualElement, UnityEngine.Vector3>  @onValueChanged)
+        public virtual UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Vector3> UnityEngine__2__UIElements__2__Experimental__2__ITransitionAnimations__2__Start(System.Func<UnityEngine.UIElements.VisualElement, UnityEngine.Vector3> @fromValueGetter, UnityEngine.Vector3 @to, System.Int32 @durationMs, System.Action<UnityEngine.UIElements.VisualElement, UnityEngine.Vector3> @onValueChanged)
         {
 
             var ___genericsType = new Type[] {};
@@ -9030,7 +9030,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Vector2> UnityEngine__2__UIElements__2__Experimental__2__ITransitionAnimations__2__Start(System.Func<UnityEngine.UIElements.VisualElement, UnityEngine.Vector2>  @fromValueGetter, UnityEngine.Vector2  @to, System.Int32  @durationMs, System.Action<UnityEngine.UIElements.VisualElement, UnityEngine.Vector2>  @onValueChanged)
+        public virtual UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Vector2> UnityEngine__2__UIElements__2__Experimental__2__ITransitionAnimations__2__Start(System.Func<UnityEngine.UIElements.VisualElement, UnityEngine.Vector2> @fromValueGetter, UnityEngine.Vector2 @to, System.Int32 @durationMs, System.Action<UnityEngine.UIElements.VisualElement, UnityEngine.Vector2> @onValueChanged)
         {
 
             var ___genericsType = new Type[] {};
@@ -9041,7 +9041,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Quaternion> UnityEngine__2__UIElements__2__Experimental__2__ITransitionAnimations__2__Start(System.Func<UnityEngine.UIElements.VisualElement, UnityEngine.Quaternion>  @fromValueGetter, UnityEngine.Quaternion  @to, System.Int32  @durationMs, System.Action<UnityEngine.UIElements.VisualElement, UnityEngine.Quaternion>  @onValueChanged)
+        public virtual UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Quaternion> UnityEngine__2__UIElements__2__Experimental__2__ITransitionAnimations__2__Start(System.Func<UnityEngine.UIElements.VisualElement, UnityEngine.Quaternion> @fromValueGetter, UnityEngine.Quaternion @to, System.Int32 @durationMs, System.Action<UnityEngine.UIElements.VisualElement, UnityEngine.Quaternion> @onValueChanged)
         {
 
             var ___genericsType = new Type[] {};
@@ -9052,7 +9052,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public static UnityEngine.UIElements.Experimental.ValueAnimation<T> StartAnimation<T>(UnityEngine.UIElements.Experimental.ValueAnimation<T>  @anim, System.Func<UnityEngine.UIElements.VisualElement, T>  @fromValueGetter, T  @to, System.Int32  @durationMs, System.Action<UnityEngine.UIElements.VisualElement, T>  @onValueChanged)
+        public static UnityEngine.UIElements.Experimental.ValueAnimation<T> StartAnimation<T>(UnityEngine.UIElements.Experimental.ValueAnimation<T> @anim, System.Func<UnityEngine.UIElements.VisualElement, T> @fromValueGetter, T @to, System.Int32 @durationMs, System.Action<UnityEngine.UIElements.VisualElement, T> @onValueChanged)
         {
 
             var ___genericsType = new Type[] {typeof(T)};
@@ -9063,7 +9063,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public static void AssignStyleValues(UnityEngine.UIElements.VisualElement  @ve, UnityEngine.UIElements.Experimental.StyleValues  @src)
+        public static void AssignStyleValues(UnityEngine.UIElements.VisualElement @ve, UnityEngine.UIElements.Experimental.StyleValues @src)
         {
 
             var ___genericsType = new Type[] {};
@@ -9074,7 +9074,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual UnityEngine.UIElements.Experimental.StyleValues ReadCurrentValues(UnityEngine.UIElements.VisualElement  @ve, UnityEngine.UIElements.Experimental.StyleValues  @targetValuesToRead)
+        public virtual UnityEngine.UIElements.Experimental.StyleValues ReadCurrentValues(UnityEngine.UIElements.VisualElement @ve, UnityEngine.UIElements.Experimental.StyleValues @targetValuesToRead)
         {
 
             var ___genericsType = new Type[] {};
@@ -9085,7 +9085,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.UIElements.Experimental.StyleValues> UnityEngine__2__UIElements__2__Experimental__2__ITransitionAnimations__2__Start(UnityEngine.UIElements.Experimental.StyleValues  @to, System.Int32  @durationMs)
+        public virtual UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.UIElements.Experimental.StyleValues> UnityEngine__2__UIElements__2__Experimental__2__ITransitionAnimations__2__Start(UnityEngine.UIElements.Experimental.StyleValues @to, System.Int32 @durationMs)
         {
 
             var ___genericsType = new Type[] {};
@@ -9096,7 +9096,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.UIElements.Experimental.StyleValues> Start(System.Func<UnityEngine.UIElements.VisualElement, UnityEngine.UIElements.Experimental.StyleValues>  @fromValueGetter, UnityEngine.UIElements.Experimental.StyleValues  @to, System.Int32  @durationMs)
+        public virtual UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.UIElements.Experimental.StyleValues> Start(System.Func<UnityEngine.UIElements.VisualElement, UnityEngine.UIElements.Experimental.StyleValues> @fromValueGetter, UnityEngine.UIElements.Experimental.StyleValues @to, System.Int32 @durationMs)
         {
 
             var ___genericsType = new Type[] {};
@@ -9107,7 +9107,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Rect> UnityEngine__2__UIElements__2__Experimental__2__ITransitionAnimations__2__Layout(UnityEngine.Rect  @to, System.Int32  @durationMs)
+        public virtual UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Rect> UnityEngine__2__UIElements__2__Experimental__2__ITransitionAnimations__2__Layout(UnityEngine.Rect @to, System.Int32 @durationMs)
         {
 
             var ___genericsType = new Type[] {};
@@ -9118,7 +9118,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Vector2> UnityEngine__2__UIElements__2__Experimental__2__ITransitionAnimations__2__TopLeft(UnityEngine.Vector2  @to, System.Int32  @durationMs)
+        public virtual UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Vector2> UnityEngine__2__UIElements__2__Experimental__2__ITransitionAnimations__2__TopLeft(UnityEngine.Vector2 @to, System.Int32 @durationMs)
         {
 
             var ___genericsType = new Type[] {};
@@ -9129,7 +9129,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Vector2> UnityEngine__2__UIElements__2__Experimental__2__ITransitionAnimations__2__Size(UnityEngine.Vector2  @to, System.Int32  @durationMs)
+        public virtual UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Vector2> UnityEngine__2__UIElements__2__Experimental__2__ITransitionAnimations__2__Size(UnityEngine.Vector2 @to, System.Int32 @durationMs)
         {
 
             var ___genericsType = new Type[] {};
@@ -9140,7 +9140,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual UnityEngine.UIElements.Experimental.ValueAnimation<System.Single> UnityEngine__2__UIElements__2__Experimental__2__ITransitionAnimations__2__Scale(System.Single  @to, System.Int32  @durationMs)
+        public virtual UnityEngine.UIElements.Experimental.ValueAnimation<System.Single> UnityEngine__2__UIElements__2__Experimental__2__ITransitionAnimations__2__Scale(System.Single @to, System.Int32 @durationMs)
         {
 
             var ___genericsType = new Type[] {};
@@ -9151,7 +9151,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Vector3> UnityEngine__2__UIElements__2__Experimental__2__ITransitionAnimations__2__Position(UnityEngine.Vector3  @to, System.Int32  @durationMs)
+        public virtual UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Vector3> UnityEngine__2__UIElements__2__Experimental__2__ITransitionAnimations__2__Position(UnityEngine.Vector3 @to, System.Int32 @durationMs)
         {
 
             var ___genericsType = new Type[] {};
@@ -9162,7 +9162,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Quaternion> UnityEngine__2__UIElements__2__Experimental__2__ITransitionAnimations__2__Rotation(UnityEngine.Quaternion  @to, System.Int32  @durationMs)
+        public virtual UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Quaternion> UnityEngine__2__UIElements__2__Experimental__2__ITransitionAnimations__2__Rotation(UnityEngine.Quaternion @to, System.Int32 @durationMs)
         {
 
             var ___genericsType = new Type[] {};
@@ -9195,7 +9195,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean GetCachedNextParentWithEventCallback(out UnityEngine.UIElements.VisualElement  @nextParent)
+        public virtual System.Boolean GetCachedNextParentWithEventCallback(out UnityEngine.UIElements.VisualElement @nextParent)
         {
 			@nextParent = default;
 
@@ -9219,7 +9219,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean HasEventCallbacks(RType  @eventCategory)
+        public virtual System.Boolean HasEventCallbacks(RType @eventCategory)
         {
 
             var ___genericsType = new Type[] {};
@@ -9230,7 +9230,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean HasParentEventCallbacks(RType  @eventCategory)
+        public virtual System.Boolean HasParentEventCallbacks(RType @eventCategory)
         {
 
             var ___genericsType = new Type[] {};
@@ -9241,7 +9241,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean HasParentEventCallbacksOrDefaultActions(RType  @eventCategory)
+        public virtual System.Boolean HasParentEventCallbacksOrDefaultActions(RType @eventCategory)
         {
 
             var ___genericsType = new Type[] {};
@@ -9252,7 +9252,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean HasEventCallbacksOrDefaultActions(RType  @eventCategory)
+        public virtual System.Boolean HasEventCallbacksOrDefaultActions(RType @eventCategory)
         {
 
             var ___genericsType = new Type[] {};
@@ -9263,7 +9263,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean HasParentEventCallbacksOrDefaultActionAtTarget(RType  @eventCategory)
+        public virtual System.Boolean HasParentEventCallbacksOrDefaultActionAtTarget(RType @eventCategory)
         {
 
             var ___genericsType = new Type[] {};
@@ -9274,7 +9274,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean HasEventCallbacksOrDefaultActionAtTarget(RType  @eventCategory)
+        public virtual System.Boolean HasEventCallbacksOrDefaultActionAtTarget(RType @eventCategory)
         {
 
             var ___genericsType = new Type[] {};
@@ -9285,7 +9285,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean HasDefaultAction(RType  @eventCategory)
+        public virtual System.Boolean HasDefaultAction(RType @eventCategory)
         {
 
             var ___genericsType = new Type[] {};
@@ -9307,7 +9307,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void Add(UnityEngine.UIElements.VisualElement  @child)
+        public virtual void Add(UnityEngine.UIElements.VisualElement @child)
         {
 
             var ___genericsType = new Type[] {};
@@ -9318,7 +9318,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void Insert(System.Int32  @index, UnityEngine.UIElements.VisualElement  @element)
+        public virtual void Insert(System.Int32 @index, UnityEngine.UIElements.VisualElement @element)
         {
 
             var ___genericsType = new Type[] {};
@@ -9329,7 +9329,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void Remove(UnityEngine.UIElements.VisualElement  @element)
+        public virtual void Remove(UnityEngine.UIElements.VisualElement @element)
         {
 
             var ___genericsType = new Type[] {};
@@ -9340,7 +9340,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void RemoveAt(System.Int32  @index)
+        public virtual void RemoveAt(System.Int32 @index)
         {
 
             var ___genericsType = new Type[] {};
@@ -9362,7 +9362,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual UnityEngine.UIElements.VisualElement ElementAt(System.Int32  @index)
+        public virtual UnityEngine.UIElements.VisualElement ElementAt(System.Int32 @index)
         {
 
             var ___genericsType = new Type[] {};
@@ -9373,7 +9373,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Int32 IndexOf(UnityEngine.UIElements.VisualElement  @element)
+        public virtual System.Int32 IndexOf(UnityEngine.UIElements.VisualElement @element)
         {
 
             var ___genericsType = new Type[] {};
@@ -9384,7 +9384,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual UnityEngine.UIElements.VisualElement ElementAtTreePath(System.Collections.Generic.List<System.Int32>  @childIndexes)
+        public virtual UnityEngine.UIElements.VisualElement ElementAtTreePath(System.Collections.Generic.List<System.Int32> @childIndexes)
         {
 
             var ___genericsType = new Type[] {};
@@ -9395,7 +9395,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean FindElementInTree(UnityEngine.UIElements.VisualElement  @element, System.Collections.Generic.List<System.Int32>  @outChildIndexes)
+        public virtual System.Boolean FindElementInTree(UnityEngine.UIElements.VisualElement @element, System.Collections.Generic.List<System.Int32> @outChildIndexes)
         {
 
             var ___genericsType = new Type[] {};
@@ -9417,7 +9417,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void Sort(System.Comparison<UnityEngine.UIElements.VisualElement>  @comp)
+        public virtual void Sort(System.Comparison<UnityEngine.UIElements.VisualElement> @comp)
         {
 
             var ___genericsType = new Type[] {};
@@ -9450,7 +9450,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void PlaceBehind(UnityEngine.UIElements.VisualElement  @sibling)
+        public virtual void PlaceBehind(UnityEngine.UIElements.VisualElement @sibling)
         {
 
             var ___genericsType = new Type[] {};
@@ -9461,7 +9461,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void PlaceInFront(UnityEngine.UIElements.VisualElement  @sibling)
+        public virtual void PlaceInFront(UnityEngine.UIElements.VisualElement @sibling)
         {
 
             var ___genericsType = new Type[] {};
@@ -9505,7 +9505,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual UnityEngine.UIElements.VisualElement GetFirstAncestorWhere(System.Predicate<UnityEngine.UIElements.VisualElement>  @predicate)
+        public virtual UnityEngine.UIElements.VisualElement GetFirstAncestorWhere(System.Predicate<UnityEngine.UIElements.VisualElement> @predicate)
         {
 
             var ___genericsType = new Type[] {};
@@ -9516,7 +9516,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean Contains(UnityEngine.UIElements.VisualElement  @child)
+        public virtual System.Boolean Contains(UnityEngine.UIElements.VisualElement @child)
         {
 
             var ___genericsType = new Type[] {};
@@ -9527,7 +9527,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void GatherAllChildren(System.Collections.Generic.List<UnityEngine.UIElements.VisualElement>  @elements)
+        public virtual void GatherAllChildren(System.Collections.Generic.List<UnityEngine.UIElements.VisualElement> @elements)
         {
 
             var ___genericsType = new Type[] {};
@@ -9538,7 +9538,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual UnityEngine.UIElements.VisualElement FindCommonAncestor(UnityEngine.UIElements.VisualElement  @other)
+        public virtual UnityEngine.UIElements.VisualElement FindCommonAncestor(UnityEngine.UIElements.VisualElement @other)
         {
 
             var ___genericsType = new Type[] {};
@@ -9593,7 +9593,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual UnityEngine.UIElements.VisualElement RetargetElement(UnityEngine.UIElements.VisualElement  @retargetAgainst)
+        public virtual UnityEngine.UIElements.VisualElement RetargetElement(UnityEngine.UIElements.VisualElement @retargetAgainst)
         {
 
             var ___genericsType = new Type[] {};
@@ -9604,7 +9604,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void GetPivotedMatrixWithLayout(out UnityEngine.Matrix4x4  @result)
+        public virtual void GetPivotedMatrixWithLayout(out UnityEngine.Matrix4x4 @result)
         {
 			@result = default;
 
@@ -9617,7 +9617,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public static System.Single Min(System.Single  @a, System.Single  @b, System.Single  @c, System.Single  @d)
+        public static System.Single Min(System.Single @a, System.Single @b, System.Single @c, System.Single @d)
         {
 
             var ___genericsType = new Type[] {};
@@ -9628,7 +9628,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public static System.Single Max(System.Single  @a, System.Single  @b, System.Single  @c, System.Single  @d)
+        public static System.Single Max(System.Single @a, System.Single @b, System.Single @c, System.Single @d)
         {
 
             var ___genericsType = new Type[] {};
@@ -9639,7 +9639,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void TransformAlignedRectToParentSpace(ref UnityEngine.Rect  @rect)
+        public virtual void TransformAlignedRectToParentSpace(ref UnityEngine.Rect @rect)
         {
 
             var ___genericsType = new Type[] {};
@@ -9651,7 +9651,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public static UnityEngine.Rect CalculateConservativeRect(ref UnityEngine.Matrix4x4  @matrix, UnityEngine.Rect  @rect)
+        public static UnityEngine.Rect CalculateConservativeRect(ref UnityEngine.Matrix4x4 @matrix, UnityEngine.Rect @rect)
         {
 
             var ___genericsType = new Type[] {};
@@ -9663,7 +9663,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public static void TransformAlignedRect(ref UnityEngine.Matrix4x4  @matrix, ref UnityEngine.Rect  @rect)
+        public static void TransformAlignedRect(ref UnityEngine.Matrix4x4 @matrix, ref UnityEngine.Rect @rect)
         {
 
             var ___genericsType = new Type[] {};
@@ -9676,7 +9676,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public static void OrderMinMaxRect(ref UnityEngine.Rect  @rect)
+        public static void OrderMinMaxRect(ref UnityEngine.Rect @rect)
         {
 
             var ___genericsType = new Type[] {};
@@ -9688,7 +9688,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public static UnityEngine.Vector2 MultiplyMatrix44Point2(ref UnityEngine.Matrix4x4  @lhs, UnityEngine.Vector2  @point)
+        public static UnityEngine.Vector2 MultiplyMatrix44Point2(ref UnityEngine.Matrix4x4 @lhs, UnityEngine.Vector2 @point)
         {
 
             var ___genericsType = new Type[] {};
@@ -9700,7 +9700,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public static UnityEngine.Vector2 MultiplyVector2(ref UnityEngine.Matrix4x4  @lhs, UnityEngine.Vector2  @vector)
+        public static UnityEngine.Vector2 MultiplyVector2(ref UnityEngine.Matrix4x4 @lhs, UnityEngine.Vector2 @vector)
         {
 
             var ___genericsType = new Type[] {};
@@ -9712,7 +9712,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public static UnityEngine.Rect MultiplyMatrix44Rect2(ref UnityEngine.Matrix4x4  @lhs, UnityEngine.Rect  @r)
+        public static UnityEngine.Rect MultiplyMatrix44Rect2(ref UnityEngine.Matrix4x4 @lhs, UnityEngine.Rect @r)
         {
 
             var ___genericsType = new Type[] {};
@@ -9724,7 +9724,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public static void MultiplyMatrix34(ref UnityEngine.Matrix4x4  @lhs, ref UnityEngine.Matrix4x4  @rhs, out UnityEngine.Matrix4x4  @res)
+        public static void MultiplyMatrix34(ref UnityEngine.Matrix4x4 @lhs, ref UnityEngine.Matrix4x4 @rhs, out UnityEngine.Matrix4x4 @res)
         {
 			@res = default;
 
@@ -9739,7 +9739,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public static void TranslateMatrix34(ref UnityEngine.Matrix4x4  @lhs, UnityEngine.Vector3  @rhs, out UnityEngine.Matrix4x4  @res)
+        public static void TranslateMatrix34(ref UnityEngine.Matrix4x4 @lhs, UnityEngine.Vector3 @rhs, out UnityEngine.Matrix4x4 @res)
         {
 			@res = default;
 
@@ -9753,7 +9753,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public static void TranslateMatrix34InPlace(ref UnityEngine.Matrix4x4  @lhs, UnityEngine.Vector3  @rhs)
+        public static void TranslateMatrix34InPlace(ref UnityEngine.Matrix4x4 @lhs, UnityEngine.Vector3 @rhs)
         {
 
             var ___genericsType = new Type[] {};
@@ -9765,7 +9765,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual UnityEngine.UIElements.IVisualElementScheduledItem UnityEngine__2__UIElements__2__IVisualElementScheduler__2__Execute(System.Action<UnityEngine.UIElements.TimerState>  @timerUpdateEvent)
+        public virtual UnityEngine.UIElements.IVisualElementScheduledItem UnityEngine__2__UIElements__2__IVisualElementScheduler__2__Execute(System.Action<UnityEngine.UIElements.TimerState> @timerUpdateEvent)
         {
 
             var ___genericsType = new Type[] {};
@@ -9776,7 +9776,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual UnityEngine.UIElements.IVisualElementScheduledItem UnityEngine__2__UIElements__2__IVisualElementScheduler__2__Execute(System.Action  @updateEvent)
+        public virtual UnityEngine.UIElements.IVisualElementScheduledItem UnityEngine__2__UIElements__2__IVisualElementScheduler__2__Execute(System.Action @updateEvent)
         {
 
             var ___genericsType = new Type[] {};
@@ -9787,7 +9787,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void AddStyleSheetPath(System.String  @sheetPath)
+        public virtual void AddStyleSheetPath(System.String @sheetPath)
         {
 
             var ___genericsType = new Type[] {};
@@ -9798,7 +9798,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean HasStyleSheetPath(System.String  @sheetPath)
+        public virtual System.Boolean HasStyleSheetPath(System.String @sheetPath)
         {
 
             var ___genericsType = new Type[] {};
@@ -9809,7 +9809,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void RemoveStyleSheetPath(System.String  @sheetPath)
+        public virtual void RemoveStyleSheetPath(System.String @sheetPath)
         {
 
             var ___genericsType = new Type[] {};
@@ -9820,7 +9820,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual UnityEngine.UIElements.StyleFloat ResolveLengthValue(UnityEngine.UIElements.Length  @length, System.Boolean  @isRow)
+        public virtual UnityEngine.UIElements.StyleFloat ResolveLengthValue(UnityEngine.UIElements.Length @length, System.Boolean @isRow)
         {
 
             var ___genericsType = new Type[] {};
@@ -9875,25 +9875,25 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public static System.Object GetOrCreateTypeData(System.Type  @t)
+        public static RUnityEngine.RUIElements.RVisualElement.RTypeData GetOrCreateTypeData(System.Type @t)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@t};
             var ___result = RGetOrCreateTypeData_Type.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RUnityEngine.RUIElements.RVisualElement.RTypeData(___result);
         }
 
 
-        public virtual System.Object __0__AssignMeasureFunction__1__b__423_0(RUnityEngine.RYoga.RYogaNode  @node, System.Single  @f, RType  @mode, System.Single  @f1, RType  @heightMode)
+        public virtual RUnityEngine.RYoga.RYogaSize __0__AssignMeasureFunction__1__b__423_0(RUnityEngine.RYoga.RYogaNode @node, System.Single @f, RType @mode, System.Single @f1, RType @heightMode)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@node.Value, @f, @mode.Value, @f1, @heightMode.Value};
             var ___result = R__0__AssignMeasureFunction__1__b__423_0_YogaNode_Single_YogaMeasureMode_Single_YogaMeasureMode.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RUnityEngine.RYoga.RYogaSize(___result);
         }
 
 
@@ -9919,7 +9919,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void ExecuteDefaultActionDisabled(UnityEngine.UIElements.EventBase  @evt)
+        public virtual void ExecuteDefaultActionDisabled(UnityEngine.UIElements.EventBase @evt)
         {
 
             var ___genericsType = new Type[] {};
@@ -9930,7 +9930,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void RegisterCallback<TEventType>(UnityEngine.UIElements.EventCallback<TEventType>  @callback, UnityEngine.UIElements.TrickleDown  @useTrickleDown) where TEventType : UnityEngine.UIElements.EventBase<TEventType>, new()
+        public virtual void RegisterCallback<TEventType>(UnityEngine.UIElements.EventCallback<TEventType> @callback, UnityEngine.UIElements.TrickleDown @useTrickleDown) where TEventType : UnityEngine.UIElements.EventBase<TEventType>, new()
         {
 
             var ___genericsType = new Type[] {typeof(TEventType)};
@@ -9941,7 +9941,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void RegisterCallback<TEventType, TUserArgsType>(UnityEngine.UIElements.EventCallback<TEventType, TUserArgsType>  @callback, TUserArgsType  @userArgs, UnityEngine.UIElements.TrickleDown  @useTrickleDown) where TEventType : UnityEngine.UIElements.EventBase<TEventType>, new()
+        public virtual void RegisterCallback<TEventType, TUserArgsType>(UnityEngine.UIElements.EventCallback<TEventType, TUserArgsType> @callback, TUserArgsType @userArgs, UnityEngine.UIElements.TrickleDown @useTrickleDown) where TEventType : UnityEngine.UIElements.EventBase<TEventType>, new()
         {
 
             var ___genericsType = new Type[] {typeof(TEventType), typeof(TUserArgsType)};
@@ -9952,7 +9952,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void RegisterCallback<TEventType>(UnityEngine.UIElements.EventCallback<TEventType>  @callback, RType  @invokePolicy, UnityEngine.UIElements.TrickleDown  @useTrickleDown) where TEventType : UnityEngine.UIElements.EventBase<TEventType>, new()
+        public virtual void RegisterCallback<TEventType>(UnityEngine.UIElements.EventCallback<TEventType> @callback, RType @invokePolicy, UnityEngine.UIElements.TrickleDown @useTrickleDown) where TEventType : UnityEngine.UIElements.EventBase<TEventType>, new()
         {
 
             var ___genericsType = new Type[] {typeof(TEventType)};
@@ -9963,7 +9963,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void UnregisterCallback<TEventType>(UnityEngine.UIElements.EventCallback<TEventType>  @callback, UnityEngine.UIElements.TrickleDown  @useTrickleDown) where TEventType : UnityEngine.UIElements.EventBase<TEventType>, new()
+        public virtual void UnregisterCallback<TEventType>(UnityEngine.UIElements.EventCallback<TEventType> @callback, UnityEngine.UIElements.TrickleDown @useTrickleDown) where TEventType : UnityEngine.UIElements.EventBase<TEventType>, new()
         {
 
             var ___genericsType = new Type[] {typeof(TEventType)};
@@ -9974,7 +9974,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void UnregisterCallback<TEventType, TUserArgsType>(UnityEngine.UIElements.EventCallback<TEventType, TUserArgsType>  @callback, UnityEngine.UIElements.TrickleDown  @useTrickleDown) where TEventType : UnityEngine.UIElements.EventBase<TEventType>, new()
+        public virtual void UnregisterCallback<TEventType, TUserArgsType>(UnityEngine.UIElements.EventCallback<TEventType, TUserArgsType> @callback, UnityEngine.UIElements.TrickleDown @useTrickleDown) where TEventType : UnityEngine.UIElements.EventBase<TEventType>, new()
         {
 
             var ___genericsType = new Type[] {typeof(TEventType), typeof(TUserArgsType)};
@@ -9985,7 +9985,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean TryGetUserArgs<TEventType, TCallbackArgs>(UnityEngine.UIElements.EventCallback<TEventType, TCallbackArgs>  @callback, UnityEngine.UIElements.TrickleDown  @useTrickleDown, out TCallbackArgs  @userData) where TEventType : UnityEngine.UIElements.EventBase<TEventType>, new()
+        public virtual System.Boolean TryGetUserArgs<TEventType, TCallbackArgs>(UnityEngine.UIElements.EventCallback<TEventType, TCallbackArgs> @callback, UnityEngine.UIElements.TrickleDown @useTrickleDown, out TCallbackArgs @userData) where TEventType : UnityEngine.UIElements.EventBase<TEventType>, new()
         {
 			@userData = default;
 
@@ -9998,7 +9998,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void HandleEventAtTargetPhase(UnityEngine.UIElements.EventBase  @evt)
+        public virtual void HandleEventAtTargetPhase(UnityEngine.UIElements.EventBase @evt)
         {
 
             var ___genericsType = new Type[] {};
@@ -10009,7 +10009,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void HandleEventAtTargetAndDefaultPhase(UnityEngine.UIElements.EventBase  @evt)
+        public virtual void HandleEventAtTargetAndDefaultPhase(UnityEngine.UIElements.EventBase @evt)
         {
 
             var ___genericsType = new Type[] {};
@@ -10020,7 +10020,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void HandleEventAtCurrentTargetAndPhase(UnityEngine.UIElements.EventBase  @evt)
+        public virtual void HandleEventAtCurrentTargetAndPhase(UnityEngine.UIElements.EventBase @evt)
         {
 
             var ___genericsType = new Type[] {};
@@ -10031,7 +10031,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void HandleEventEditorInternal(UnityEngine.UIElements.EventBase  @evt)
+        public virtual void HandleEventEditorInternal(UnityEngine.UIElements.EventBase @evt)
         {
 
             var ___genericsType = new Type[] {};
@@ -10042,7 +10042,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void HandleEvent(UnityEngine.UIElements.EventBase  @evt)
+        public virtual void HandleEvent(UnityEngine.UIElements.EventBase @evt)
         {
 
             var ___genericsType = new Type[] {};
@@ -10075,7 +10075,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void ExecuteDefaultActionAtTarget(UnityEngine.UIElements.EventBase  @evt)
+        public virtual void ExecuteDefaultActionAtTarget(UnityEngine.UIElements.EventBase @evt)
         {
 
             var ___genericsType = new Type[] {};
@@ -10086,7 +10086,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void ExecuteDefaultActionDisabledAtTarget(UnityEngine.UIElements.EventBase  @evt)
+        public virtual void ExecuteDefaultActionDisabledAtTarget(UnityEngine.UIElements.EventBase @evt)
         {
 
             var ___genericsType = new Type[] {};
@@ -10097,7 +10097,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

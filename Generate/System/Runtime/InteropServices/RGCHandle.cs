@@ -447,7 +447,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices
         }
 
 
-        public static System.Runtime.InteropServices.GCHandle Alloc(System.Object  @value)
+        public static System.Runtime.InteropServices.GCHandle Alloc(System.Object @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -458,7 +458,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices
         }
 
 
-        public static System.Runtime.InteropServices.GCHandle Alloc(System.Object  @value, System.Runtime.InteropServices.GCHandleType  @type)
+        public static System.Runtime.InteropServices.GCHandle Alloc(System.Object @value, System.Runtime.InteropServices.GCHandleType @type)
         {
 
             var ___genericsType = new Type[] {};
@@ -480,7 +480,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices
         }
 
 
-        public static System.IntPtr op_Explicit(System.Runtime.InteropServices.GCHandle  @value)
+        public static System.IntPtr op_Explicit(System.Runtime.InteropServices.GCHandle @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -491,7 +491,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices
         }
 
 
-        public static System.Runtime.InteropServices.GCHandle op_Explicit(System.IntPtr  @value)
+        public static System.Runtime.InteropServices.GCHandle op_Explicit(System.IntPtr @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -502,7 +502,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices
         }
 
 
-        public static System.Boolean CheckCurrentDomain(System.IntPtr  @handle)
+        public static System.Boolean CheckCurrentDomain(System.IntPtr @handle)
         {
 
             var ___genericsType = new Type[] {};
@@ -513,7 +513,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices
         }
 
 
-        public static System.Object GetTarget(System.IntPtr  @handle)
+        public static System.Object GetTarget(System.IntPtr @handle)
         {
 
             var ___genericsType = new Type[] {};
@@ -524,7 +524,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices
         }
 
 
-        public static System.IntPtr GetTargetHandle(System.Object  @obj, System.IntPtr  @handle, System.Runtime.InteropServices.GCHandleType  @type)
+        public static System.IntPtr GetTargetHandle(System.Object @obj, System.IntPtr @handle, System.Runtime.InteropServices.GCHandleType @type)
         {
 
             var ___genericsType = new Type[] {};
@@ -535,7 +535,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices
         }
 
 
-        public static void FreeHandle(System.IntPtr  @handle)
+        public static void FreeHandle(System.IntPtr @handle)
         {
 
             var ___genericsType = new Type[] {};
@@ -546,7 +546,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices
         }
 
 
-        public static System.IntPtr GetAddrOfPinnedObject(System.IntPtr  @handle)
+        public static System.IntPtr GetAddrOfPinnedObject(System.IntPtr @handle)
         {
 
             var ___genericsType = new Type[] {};
@@ -557,7 +557,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices
         }
 
 
-        public static System.Boolean op_Equality(System.Runtime.InteropServices.GCHandle  @a, System.Runtime.InteropServices.GCHandle  @b)
+        public static System.Boolean op_Equality(System.Runtime.InteropServices.GCHandle @a, System.Runtime.InteropServices.GCHandle @b)
         {
 
             var ___genericsType = new Type[] {};
@@ -568,7 +568,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices
         }
 
 
-        public static System.Boolean op_Inequality(System.Runtime.InteropServices.GCHandle  @a, System.Runtime.InteropServices.GCHandle  @b)
+        public static System.Boolean op_Inequality(System.Runtime.InteropServices.GCHandle @a, System.Runtime.InteropServices.GCHandle @b)
         {
 
             var ___genericsType = new Type[] {};
@@ -579,7 +579,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @o)
+        public virtual System.Boolean Equals(System.Object @o)
         {
 
             var ___genericsType = new Type[] {};
@@ -601,7 +601,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices
         }
 
 
-        public static System.Runtime.InteropServices.GCHandle FromIntPtr(System.IntPtr  @value)
+        public static System.Runtime.InteropServices.GCHandle FromIntPtr(System.IntPtr @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -612,7 +612,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices
         }
 
 
-        public static System.IntPtr ToIntPtr(System.Runtime.InteropServices.GCHandle  @value)
+        public static System.IntPtr ToIntPtr(System.Runtime.InteropServices.GCHandle @value)
         {
 
             var ___genericsType = new Type[] {};

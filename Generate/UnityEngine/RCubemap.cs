@@ -1405,7 +1405,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 	    {
 	    }
 
-        public static System.Boolean Internal_CreateImpl(UnityEngine.Cubemap  @mono, System.Int32  @ext, System.Int32  @mipCount, UnityEngine.Experimental.Rendering.GraphicsFormat  @format, UnityEngine.Experimental.Rendering.TextureCreationFlags  @flags, System.IntPtr  @nativeTex)
+        public static System.Boolean Internal_CreateImpl(UnityEngine.Cubemap @mono, System.Int32 @ext, System.Int32 @mipCount, UnityEngine.Experimental.Rendering.GraphicsFormat @format, UnityEngine.Experimental.Rendering.TextureCreationFlags @flags, System.IntPtr @nativeTex)
         {
 
             var ___genericsType = new Type[] {};
@@ -1416,7 +1416,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static void Internal_Create(UnityEngine.Cubemap  @mono, System.Int32  @ext, System.Int32  @mipCount, UnityEngine.Experimental.Rendering.GraphicsFormat  @format, UnityEngine.Experimental.Rendering.TextureCreationFlags  @flags, System.IntPtr  @nativeTex)
+        public static void Internal_Create(UnityEngine.Cubemap @mono, System.Int32 @ext, System.Int32 @mipCount, UnityEngine.Experimental.Rendering.GraphicsFormat @format, UnityEngine.Experimental.Rendering.TextureCreationFlags @flags, System.IntPtr @nativeTex)
         {
 
             var ___genericsType = new Type[] {};
@@ -1427,7 +1427,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void ApplyImpl(System.Boolean  @updateMipmaps, System.Boolean  @makeNoLongerReadable)
+        public virtual void ApplyImpl(System.Boolean @updateMipmaps, System.Boolean @makeNoLongerReadable)
         {
 
             var ___genericsType = new Type[] {};
@@ -1438,7 +1438,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void UpdateExternalTexture(System.IntPtr  @nativeTexture)
+        public virtual void UpdateExternalTexture(System.IntPtr @nativeTexture)
         {
 
             var ___genericsType = new Type[] {};
@@ -1449,7 +1449,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SetPixelImpl(System.Int32  @image, System.Int32  @mip, System.Int32  @x, System.Int32  @y, UnityEngine.Color  @color)
+        public virtual void SetPixelImpl(System.Int32 @image, System.Int32 @mip, System.Int32 @x, System.Int32 @y, UnityEngine.Color @color)
         {
 
             var ___genericsType = new Type[] {};
@@ -1460,7 +1460,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual UnityEngine.Color GetPixelImpl(System.Int32  @image, System.Int32  @mip, System.Int32  @x, System.Int32  @y)
+        public virtual UnityEngine.Color GetPixelImpl(System.Int32 @image, System.Int32 @mip, System.Int32 @x, System.Int32 @y)
         {
 
             var ___genericsType = new Type[] {};
@@ -1471,7 +1471,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SmoothEdges(System.Int32  @smoothRegionWidthInPixels)
+        public virtual void SmoothEdges(System.Int32 @smoothRegionWidthInPixels)
         {
 
             var ___genericsType = new Type[] {};
@@ -1493,7 +1493,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual UnityEngine.Color[] GetPixels(UnityEngine.CubemapFace  @face, System.Int32  @miplevel)
+        public virtual UnityEngine.Color[] GetPixels(UnityEngine.CubemapFace @face, System.Int32 @miplevel)
         {
 
             var ___genericsType = new Type[] {};
@@ -1504,7 +1504,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual UnityEngine.Color[] GetPixels(UnityEngine.CubemapFace  @face)
+        public virtual UnityEngine.Color[] GetPixels(UnityEngine.CubemapFace @face)
         {
 
             var ___genericsType = new Type[] {};
@@ -1515,7 +1515,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SetPixels(UnityEngine.Color[]  @colors, UnityEngine.CubemapFace  @face, System.Int32  @miplevel)
+        public virtual void SetPixels(UnityEngine.Color[] @colors, UnityEngine.CubemapFace @face, System.Int32 @miplevel)
         {
 
             var ___genericsType = new Type[] {};
@@ -1526,7 +1526,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Boolean SetPixelDataImplArray(System.Array  @data, System.Int32  @mipLevel, System.Int32  @face, System.Int32  @elementSize, System.Int32  @dataArraySize, System.Int32  @sourceDataStartIndex)
+        public virtual System.Boolean SetPixelDataImplArray(System.Array @data, System.Int32 @mipLevel, System.Int32 @face, System.Int32 @elementSize, System.Int32 @dataArraySize, System.Int32 @sourceDataStartIndex)
         {
 
             var ___genericsType = new Type[] {};
@@ -1537,7 +1537,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Boolean SetPixelDataImpl(System.IntPtr  @data, System.Int32  @mipLevel, System.Int32  @face, System.Int32  @elementSize, System.Int32  @dataArraySize, System.Int32  @sourceDataStartIndex)
+        public virtual System.Boolean SetPixelDataImpl(System.IntPtr @data, System.Int32 @mipLevel, System.Int32 @face, System.Int32 @elementSize, System.Int32 @dataArraySize, System.Int32 @sourceDataStartIndex)
         {
 
             var ___genericsType = new Type[] {};
@@ -1548,7 +1548,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SetPixels(UnityEngine.Color[]  @colors, UnityEngine.CubemapFace  @face)
+        public virtual void SetPixels(UnityEngine.Color[] @colors, UnityEngine.CubemapFace @face)
         {
 
             var ___genericsType = new Type[] {};
@@ -1559,7 +1559,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle GetSafetyHandleForSlice(System.Int32  @mipLevel, System.Int32  @face)
+        public virtual Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle GetSafetyHandleForSlice(System.Int32 @mipLevel, System.Int32 @face)
         {
 
             var ___genericsType = new Type[] {};
@@ -1570,7 +1570,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.IntPtr GetWritableImageData(System.Int32  @frame)
+        public virtual System.IntPtr GetWritableImageData(System.Int32 @frame)
         {
 
             var ___genericsType = new Type[] {};
@@ -1603,7 +1603,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Boolean ValidateFormat(UnityEngine.TextureFormat  @format, System.Int32  @width)
+        public virtual System.Boolean ValidateFormat(UnityEngine.TextureFormat @format, System.Int32 @width)
         {
 
             var ___genericsType = new Type[] {};
@@ -1614,7 +1614,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Boolean ValidateFormat(UnityEngine.Experimental.Rendering.GraphicsFormat  @format, System.Int32  @width)
+        public virtual System.Boolean ValidateFormat(UnityEngine.Experimental.Rendering.GraphicsFormat @format, System.Int32 @width)
         {
 
             var ___genericsType = new Type[] {};
@@ -1625,7 +1625,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.Cubemap CreateExternalTexture(System.Int32  @width, UnityEngine.TextureFormat  @format, System.Boolean  @mipmap, System.IntPtr  @nativeTex)
+        public static UnityEngine.Cubemap CreateExternalTexture(System.Int32 @width, UnityEngine.TextureFormat @format, System.Boolean @mipmap, System.IntPtr @nativeTex)
         {
 
             var ___genericsType = new Type[] {};
@@ -1636,7 +1636,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SetPixelData<T>(T[]  @data, System.Int32  @mipLevel, UnityEngine.CubemapFace  @face, System.Int32  @sourceDataStartIndex)
+        public virtual void SetPixelData<T>(T[] @data, System.Int32 @mipLevel, UnityEngine.CubemapFace @face, System.Int32 @sourceDataStartIndex)
         {
 
             var ___genericsType = new Type[] {typeof(T)};
@@ -1648,7 +1648,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
 
 
-        public virtual System.Object GetPixelData<T>(System.Int32  @mipLevel, UnityEngine.CubemapFace  @face) where T : struct
+        public virtual System.Object GetPixelData<T>(System.Int32 @mipLevel, UnityEngine.CubemapFace @face) where T : struct
         {
 
             var ___genericsType = new Type[] {typeof(T)};
@@ -1659,7 +1659,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SetPixel(UnityEngine.CubemapFace  @face, System.Int32  @x, System.Int32  @y, UnityEngine.Color  @color)
+        public virtual void SetPixel(UnityEngine.CubemapFace @face, System.Int32 @x, System.Int32 @y, UnityEngine.Color @color)
         {
 
             var ___genericsType = new Type[] {};
@@ -1670,7 +1670,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SetPixel(UnityEngine.CubemapFace  @face, System.Int32  @x, System.Int32  @y, UnityEngine.Color  @color, System.Int32  @mip)
+        public virtual void SetPixel(UnityEngine.CubemapFace @face, System.Int32 @x, System.Int32 @y, UnityEngine.Color @color, System.Int32 @mip)
         {
 
             var ___genericsType = new Type[] {};
@@ -1681,7 +1681,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual UnityEngine.Color GetPixel(UnityEngine.CubemapFace  @face, System.Int32  @x, System.Int32  @y)
+        public virtual UnityEngine.Color GetPixel(UnityEngine.CubemapFace @face, System.Int32 @x, System.Int32 @y)
         {
 
             var ___genericsType = new Type[] {};
@@ -1692,7 +1692,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual UnityEngine.Color GetPixel(UnityEngine.CubemapFace  @face, System.Int32  @x, System.Int32  @y, System.Int32  @mip)
+        public virtual UnityEngine.Color GetPixel(UnityEngine.CubemapFace @face, System.Int32 @x, System.Int32 @y, System.Int32 @mip)
         {
 
             var ___genericsType = new Type[] {};
@@ -1703,7 +1703,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void Apply(System.Boolean  @updateMipmaps, System.Boolean  @makeNoLongerReadable)
+        public virtual void Apply(System.Boolean @updateMipmaps, System.Boolean @makeNoLongerReadable)
         {
 
             var ___genericsType = new Type[] {};
@@ -1714,7 +1714,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void Apply(System.Boolean  @updateMipmaps)
+        public virtual void Apply(System.Boolean @updateMipmaps)
         {
 
             var ___genericsType = new Type[] {};
@@ -1736,7 +1736,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static void ValidateIsNotCrunched(UnityEngine.Experimental.Rendering.TextureCreationFlags  @flags)
+        public static void ValidateIsNotCrunched(UnityEngine.Experimental.Rendering.TextureCreationFlags @flags)
         {
 
             var ___genericsType = new Type[] {};
@@ -1747,7 +1747,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SetPixelImpl_Injected(System.Int32  @image, System.Int32  @mip, System.Int32  @x, System.Int32  @y, ref UnityEngine.Color  @color)
+        public virtual void SetPixelImpl_Injected(System.Int32 @image, System.Int32 @mip, System.Int32 @x, System.Int32 @y, ref UnityEngine.Color @color)
         {
 
             var ___genericsType = new Type[] {};
@@ -1759,7 +1759,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void GetPixelImpl_Injected(System.Int32  @image, System.Int32  @mip, System.Int32  @x, System.Int32  @y, out UnityEngine.Color  @ret)
+        public virtual void GetPixelImpl_Injected(System.Int32 @image, System.Int32 @mip, System.Int32 @x, System.Int32 @y, out UnityEngine.Color @ret)
         {
 			@ret = default;
 
@@ -1772,7 +1772,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void GetSafetyHandleForSlice_Injected(System.Int32  @mipLevel, System.Int32  @face, out Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle  @ret)
+        public virtual void GetSafetyHandleForSlice_Injected(System.Int32 @mipLevel, System.Int32 @face, out Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @ret)
         {
 			@ret = default;
 
@@ -1818,7 +1818,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.UInt64 GetPixelDataSize(System.Int32  @mipLevel, System.Int32  @element)
+        public virtual System.UInt64 GetPixelDataSize(System.Int32 @mipLevel, System.Int32 @element)
         {
 
             var ___genericsType = new Type[] {};
@@ -1829,7 +1829,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.UInt64 GetPixelDataOffset(System.Int32  @mipLevel, System.Int32  @element)
+        public virtual System.UInt64 GetPixelDataOffset(System.Int32 @mipLevel, System.Int32 @element)
         {
 
             var ___genericsType = new Type[] {};
@@ -1840,7 +1840,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Boolean ValidateFormat(UnityEngine.RenderTextureFormat  @format)
+        public virtual System.Boolean ValidateFormat(UnityEngine.RenderTextureFormat @format)
         {
 
             var ___genericsType = new Type[] {};
@@ -1851,7 +1851,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Boolean ValidateFormat(UnityEngine.TextureFormat  @format)
+        public virtual System.Boolean ValidateFormat(UnityEngine.TextureFormat @format)
         {
 
             var ___genericsType = new Type[] {};
@@ -1862,7 +1862,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Boolean ValidateFormat(UnityEngine.Experimental.Rendering.GraphicsFormat  @format, UnityEngine.Experimental.Rendering.FormatUsage  @usage)
+        public virtual System.Boolean ValidateFormat(UnityEngine.Experimental.Rendering.GraphicsFormat @format, UnityEngine.Experimental.Rendering.FormatUsage @usage)
         {
 
             var ___genericsType = new Type[] {};
@@ -1873,7 +1873,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual UnityEngine.UnityException CreateNonReadableException(UnityEngine.Texture  @t)
+        public virtual UnityEngine.UnityException CreateNonReadableException(UnityEngine.Texture @t)
         {
 
             var ___genericsType = new Type[] {};
@@ -1917,7 +1917,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @other)
+        public virtual System.Boolean Equals(System.Object @other)
         {
 
             var ___genericsType = new Type[] {};

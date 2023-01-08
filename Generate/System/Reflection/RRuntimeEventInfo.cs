@@ -844,7 +844,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 	    {
 	    }
 
-        public static void get_event_info(RSystem.RReflection.RRuntimeEventInfo  @ev, out RSystem.RReflection.RMonoEventInfo  @info)
+        public static void get_event_info(RSystem.RReflection.RRuntimeEventInfo @ev, out RSystem.RReflection.RMonoEventInfo @info)
         {
 			@info = default;
 
@@ -857,40 +857,40 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
         }
 
 
-        public static System.Object GetEventInfo(RSystem.RReflection.RRuntimeEventInfo  @ev)
+        public static RSystem.RReflection.RMonoEventInfo GetEventInfo(RSystem.RReflection.RRuntimeEventInfo @ev)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@ev.Value};
             var ___result = RGetEventInfo_RuntimeEventInfo.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RSystem.RReflection.RMonoEventInfo(___result);
         }
 
 
-        public virtual System.Object GetDeclaringTypeInternal()
+        public virtual RSystem.RRuntimeType GetDeclaringTypeInternal()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RGetDeclaringTypeInternal.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RSystem.RRuntimeType(___result);
         }
 
 
-        public virtual System.Object GetRuntimeModule()
+        public virtual RSystem.RReflection.RRuntimeModule GetRuntimeModule()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RGetRuntimeModule.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RSystem.RReflection.RRuntimeModule(___result);
         }
 
 
-        public virtual void GetObjectData(System.Runtime.Serialization.SerializationInfo  @info, System.Runtime.Serialization.StreamingContext  @context)
+        public virtual void GetObjectData(System.Runtime.Serialization.SerializationInfo @info, System.Runtime.Serialization.StreamingContext @context)
         {
 
             var ___genericsType = new Type[] {};
@@ -912,7 +912,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
         }
 
 
-        public virtual System.Reflection.MethodInfo GetAddMethod(System.Boolean  @nonPublic)
+        public virtual System.Reflection.MethodInfo GetAddMethod(System.Boolean @nonPublic)
         {
 
             var ___genericsType = new Type[] {};
@@ -923,7 +923,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
         }
 
 
-        public virtual System.Reflection.MethodInfo GetRaiseMethod(System.Boolean  @nonPublic)
+        public virtual System.Reflection.MethodInfo GetRaiseMethod(System.Boolean @nonPublic)
         {
 
             var ___genericsType = new Type[] {};
@@ -934,7 +934,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
         }
 
 
-        public virtual System.Reflection.MethodInfo GetRemoveMethod(System.Boolean  @nonPublic)
+        public virtual System.Reflection.MethodInfo GetRemoveMethod(System.Boolean @nonPublic)
         {
 
             var ___genericsType = new Type[] {};
@@ -945,7 +945,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
         }
 
 
-        public virtual System.Reflection.MethodInfo[] GetOtherMethods(System.Boolean  @nonPublic)
+        public virtual System.Reflection.MethodInfo[] GetOtherMethods(System.Boolean @nonPublic)
         {
 
             var ___genericsType = new Type[] {};
@@ -967,7 +967,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
         }
 
 
-        public virtual System.Boolean IsDefined(System.Type  @attributeType, System.Boolean  @inherit)
+        public virtual System.Boolean IsDefined(System.Type @attributeType, System.Boolean @inherit)
         {
 
             var ___genericsType = new Type[] {};
@@ -978,7 +978,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
         }
 
 
-        public virtual System.Object[] GetCustomAttributes(System.Boolean  @inherit)
+        public virtual System.Object[] GetCustomAttributes(System.Boolean @inherit)
         {
 
             var ___genericsType = new Type[] {};
@@ -989,7 +989,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
         }
 
 
-        public virtual System.Object[] GetCustomAttributes(System.Type  @attributeType, System.Boolean  @inherit)
+        public virtual System.Object[] GetCustomAttributes(System.Type @attributeType, System.Boolean @inherit)
         {
 
             var ___genericsType = new Type[] {};
@@ -1011,7 +1011,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
         }
 
 
-        public virtual System.Boolean HasSameMetadataDefinitionAs(System.Reflection.MemberInfo  @other)
+        public virtual System.Boolean HasSameMetadataDefinitionAs(System.Reflection.MemberInfo @other)
         {
 
             var ___genericsType = new Type[] {};
@@ -1022,7 +1022,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
         }
 
 
-        public static System.Int32 get_metadata_token(RSystem.RReflection.RRuntimeEventInfo  @monoEvent)
+        public static System.Int32 get_metadata_token(RSystem.RReflection.RRuntimeEventInfo @monoEvent)
         {
 
             var ___genericsType = new Type[] {};
@@ -1077,7 +1077,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
         }
 
 
-        public virtual void RemoveEventHandler(System.Object  @target, System.Delegate  @handler)
+        public virtual void RemoveEventHandler(System.Object @target, System.Delegate @handler)
         {
 
             var ___genericsType = new Type[] {};
@@ -1088,7 +1088,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};
@@ -1110,7 +1110,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
         }
 
 
-        public virtual void AddEventHandler(System.Object  @target, System.Delegate  @handler)
+        public virtual void AddEventHandler(System.Object @target, System.Delegate @handler)
         {
 
             var ___genericsType = new Type[] {};
@@ -1121,7 +1121,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
         }
 
 
-        public virtual System.Boolean CacheEquals(System.Object  @o)
+        public virtual System.Boolean CacheEquals(System.Object @o)
         {
 
             var ___genericsType = new Type[] {};
@@ -1132,7 +1132,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
         }
 
 
-        public virtual System.Boolean HasSameMetadataDefinitionAsCore<TOther>(System.Reflection.MemberInfo  @other) where TOther : System.Reflection.MemberInfo
+        public virtual System.Boolean HasSameMetadataDefinitionAsCore<TOther>(System.Reflection.MemberInfo @other) where TOther : System.Reflection.MemberInfo
         {
 
             var ___genericsType = new Type[] {typeof(TOther)};

@@ -311,7 +311,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public static System.Boolean op_Equality(UnityEngine.UIElements.TransformOrigin  @lhs, UnityEngine.UIElements.TransformOrigin  @rhs)
+        public static System.Boolean op_Equality(UnityEngine.UIElements.TransformOrigin @lhs, UnityEngine.UIElements.TransformOrigin @rhs)
         {
 
             var ___genericsType = new Type[] {};
@@ -322,7 +322,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public static System.Boolean op_Inequality(UnityEngine.UIElements.TransformOrigin  @lhs, UnityEngine.UIElements.TransformOrigin  @rhs)
+        public static System.Boolean op_Inequality(UnityEngine.UIElements.TransformOrigin @lhs, UnityEngine.UIElements.TransformOrigin @rhs)
         {
 
             var ___genericsType = new Type[] {};
@@ -333,7 +333,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean Equals(UnityEngine.UIElements.TransformOrigin  @other)
+        public virtual System.Boolean Equals(UnityEngine.UIElements.TransformOrigin @other)
         {
 
             var ___genericsType = new Type[] {};
@@ -344,7 +344,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

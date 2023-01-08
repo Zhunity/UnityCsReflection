@@ -368,7 +368,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 	    {
 	    }
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};
@@ -379,7 +379,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean Equals(UnityEngine.UIElements.ManipulatorActivationFilter  @other)
+        public virtual System.Boolean Equals(UnityEngine.UIElements.ManipulatorActivationFilter @other)
         {
 
             var ___genericsType = new Type[] {};
@@ -401,7 +401,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean Matches(UnityEngine.UIElements.IMouseEvent  @e)
+        public virtual System.Boolean Matches(UnityEngine.UIElements.IMouseEvent @e)
         {
 
             var ___genericsType = new Type[] {};
@@ -412,7 +412,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean HasModifiers(UnityEngine.UIElements.IMouseEvent  @e)
+        public virtual System.Boolean HasModifiers(UnityEngine.UIElements.IMouseEvent @e)
         {
 
             var ___genericsType = new Type[] {};
@@ -423,7 +423,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean Matches(UnityEngine.UIElements.IPointerEvent  @e)
+        public virtual System.Boolean Matches(UnityEngine.UIElements.IPointerEvent @e)
         {
 
             var ___genericsType = new Type[] {};
@@ -434,7 +434,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean HasModifiers(UnityEngine.UIElements.IPointerEvent  @e)
+        public virtual System.Boolean HasModifiers(UnityEngine.UIElements.IPointerEvent @e)
         {
 
             var ___genericsType = new Type[] {};
@@ -445,7 +445,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean MatchModifiers(System.Boolean  @alt, System.Boolean  @ctrl, System.Boolean  @shift, System.Boolean  @command)
+        public virtual System.Boolean MatchModifiers(System.Boolean @alt, System.Boolean @ctrl, System.Boolean @shift, System.Boolean @command)
         {
 
             var ___genericsType = new Type[] {};
@@ -456,7 +456,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public static System.Boolean op_Equality(UnityEngine.UIElements.ManipulatorActivationFilter  @filter1, UnityEngine.UIElements.ManipulatorActivationFilter  @filter2)
+        public static System.Boolean op_Equality(UnityEngine.UIElements.ManipulatorActivationFilter @filter1, UnityEngine.UIElements.ManipulatorActivationFilter @filter2)
         {
 
             var ___genericsType = new Type[] {};
@@ -467,7 +467,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public static System.Boolean op_Inequality(UnityEngine.UIElements.ManipulatorActivationFilter  @filter1, UnityEngine.UIElements.ManipulatorActivationFilter  @filter2)
+        public static System.Boolean op_Inequality(UnityEngine.UIElements.ManipulatorActivationFilter @filter1, UnityEngine.UIElements.ManipulatorActivationFilter @filter2)
         {
 
             var ___genericsType = new Type[] {};

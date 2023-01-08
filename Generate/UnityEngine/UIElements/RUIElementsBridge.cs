@@ -147,7 +147,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 	    {
 	    }
 
-        public virtual void SetWantsMouseJumping(System.Int32  @value)
+        public virtual void SetWantsMouseJumping(System.Int32 @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -158,7 +158,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

@@ -1101,7 +1101,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 	    {
 	    }
 
-        public static System.Boolean HasVertexAttribute(System.IntPtr  @self, UnityEngine.Rendering.VertexAttribute  @attr)
+        public static System.Boolean HasVertexAttribute(System.IntPtr @self, UnityEngine.Rendering.VertexAttribute @attr)
         {
 
             var ___genericsType = new Type[] {};
@@ -1112,7 +1112,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static System.Int32 GetVertexAttributeDimension(System.IntPtr  @self, UnityEngine.Rendering.VertexAttribute  @attr)
+        public static System.Int32 GetVertexAttributeDimension(System.IntPtr @self, UnityEngine.Rendering.VertexAttribute @attr)
         {
 
             var ___genericsType = new Type[] {};
@@ -1123,7 +1123,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.Rendering.VertexAttributeFormat GetVertexAttributeFormat(System.IntPtr  @self, UnityEngine.Rendering.VertexAttribute  @attr)
+        public static UnityEngine.Rendering.VertexAttributeFormat GetVertexAttributeFormat(System.IntPtr @self, UnityEngine.Rendering.VertexAttribute @attr)
         {
 
             var ___genericsType = new Type[] {};
@@ -1134,7 +1134,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static System.Int32 GetVertexAttributeStream(System.IntPtr  @self, UnityEngine.Rendering.VertexAttribute  @attr)
+        public static System.Int32 GetVertexAttributeStream(System.IntPtr @self, UnityEngine.Rendering.VertexAttribute @attr)
         {
 
             var ___genericsType = new Type[] {};
@@ -1145,7 +1145,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static System.Int32 GetVertexAttributeOffset(System.IntPtr  @self, UnityEngine.Rendering.VertexAttribute  @attr)
+        public static System.Int32 GetVertexAttributeOffset(System.IntPtr @self, UnityEngine.Rendering.VertexAttribute @attr)
         {
 
             var ___genericsType = new Type[] {};
@@ -1156,7 +1156,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static System.Int32 GetVertexCount(System.IntPtr  @self)
+        public static System.Int32 GetVertexCount(System.IntPtr @self)
         {
 
             var ___genericsType = new Type[] {};
@@ -1167,7 +1167,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static System.Int32 GetVertexBufferCount(System.IntPtr  @self)
+        public static System.Int32 GetVertexBufferCount(System.IntPtr @self)
         {
 
             var ___genericsType = new Type[] {};
@@ -1178,7 +1178,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static System.IntPtr GetVertexDataPtr(System.IntPtr  @self, System.Int32  @stream)
+        public static System.IntPtr GetVertexDataPtr(System.IntPtr @self, System.Int32 @stream)
         {
 
             var ___genericsType = new Type[] {};
@@ -1189,7 +1189,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static System.UInt64 GetVertexDataSize(System.IntPtr  @self, System.Int32  @stream)
+        public static System.UInt64 GetVertexDataSize(System.IntPtr @self, System.Int32 @stream)
         {
 
             var ___genericsType = new Type[] {};
@@ -1200,7 +1200,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static System.Int32 GetVertexBufferStride(System.IntPtr  @self, System.Int32  @stream)
+        public static System.Int32 GetVertexBufferStride(System.IntPtr @self, System.Int32 @stream)
         {
 
             var ___genericsType = new Type[] {};
@@ -1211,7 +1211,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static void CopyAttributeIntoPtr(System.IntPtr  @self, UnityEngine.Rendering.VertexAttribute  @attr, UnityEngine.Rendering.VertexAttributeFormat  @format, System.Int32  @dim, System.IntPtr  @dst)
+        public static void CopyAttributeIntoPtr(System.IntPtr @self, UnityEngine.Rendering.VertexAttribute @attr, UnityEngine.Rendering.VertexAttributeFormat @format, System.Int32 @dim, System.IntPtr @dst)
         {
 
             var ___genericsType = new Type[] {};
@@ -1222,7 +1222,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static void CopyIndicesIntoPtr(System.IntPtr  @self, System.Int32  @submesh, System.Boolean  @applyBaseVertex, System.Int32  @dstStride, System.IntPtr  @dst)
+        public static void CopyIndicesIntoPtr(System.IntPtr @self, System.Int32 @submesh, System.Boolean @applyBaseVertex, System.Int32 @dstStride, System.IntPtr @dst)
         {
 
             var ___genericsType = new Type[] {};
@@ -1233,7 +1233,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.Rendering.IndexFormat GetIndexFormat(System.IntPtr  @self)
+        public static UnityEngine.Rendering.IndexFormat GetIndexFormat(System.IntPtr @self)
         {
 
             var ___genericsType = new Type[] {};
@@ -1244,7 +1244,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static System.Int32 GetIndexCount(System.IntPtr  @self, System.Int32  @submesh)
+        public static System.Int32 GetIndexCount(System.IntPtr @self, System.Int32 @submesh)
         {
 
             var ___genericsType = new Type[] {};
@@ -1255,7 +1255,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static System.IntPtr GetIndexDataPtr(System.IntPtr  @self)
+        public static System.IntPtr GetIndexDataPtr(System.IntPtr @self)
         {
 
             var ___genericsType = new Type[] {};
@@ -1266,7 +1266,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static System.UInt64 GetIndexDataSize(System.IntPtr  @self)
+        public static System.UInt64 GetIndexDataSize(System.IntPtr @self)
         {
 
             var ___genericsType = new Type[] {};
@@ -1277,7 +1277,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static System.Int32 GetSubMeshCount(System.IntPtr  @self)
+        public static System.Int32 GetSubMeshCount(System.IntPtr @self)
         {
 
             var ___genericsType = new Type[] {};
@@ -1288,7 +1288,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.Rendering.SubMeshDescriptor GetSubMesh(System.IntPtr  @self, System.Int32  @index)
+        public static UnityEngine.Rendering.SubMeshDescriptor GetSubMesh(System.IntPtr @self, System.Int32 @index)
         {
 
             var ___genericsType = new Type[] {};
@@ -1299,7 +1299,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static void SetVertexBufferParamsFromPtr(System.IntPtr  @self, System.Int32  @vertexCount, System.IntPtr  @attributesPtr, System.Int32  @attributesCount)
+        public static void SetVertexBufferParamsFromPtr(System.IntPtr @self, System.Int32 @vertexCount, System.IntPtr @attributesPtr, System.Int32 @attributesCount)
         {
 
             var ___genericsType = new Type[] {};
@@ -1310,7 +1310,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static void SetVertexBufferParamsFromArray(System.IntPtr  @self, System.Int32  @vertexCount, UnityEngine.Rendering.VertexAttributeDescriptor[]  @attributes)
+        public static void SetVertexBufferParamsFromArray(System.IntPtr @self, System.Int32 @vertexCount, UnityEngine.Rendering.VertexAttributeDescriptor[] @attributes)
         {
 
             var ___genericsType = new Type[] {};
@@ -1321,7 +1321,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static void SetIndexBufferParamsImpl(System.IntPtr  @self, System.Int32  @indexCount, UnityEngine.Rendering.IndexFormat  @indexFormat)
+        public static void SetIndexBufferParamsImpl(System.IntPtr @self, System.Int32 @indexCount, UnityEngine.Rendering.IndexFormat @indexFormat)
         {
 
             var ___genericsType = new Type[] {};
@@ -1332,7 +1332,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static void SetSubMeshCount(System.IntPtr  @self, System.Int32  @count)
+        public static void SetSubMeshCount(System.IntPtr @self, System.Int32 @count)
         {
 
             var ___genericsType = new Type[] {};
@@ -1343,7 +1343,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static void SetSubMeshImpl(System.IntPtr  @self, System.Int32  @index, UnityEngine.Rendering.SubMeshDescriptor  @desc, UnityEngine.Rendering.MeshUpdateFlags  @flags)
+        public static void SetSubMeshImpl(System.IntPtr @self, System.Int32 @index, UnityEngine.Rendering.SubMeshDescriptor @desc, UnityEngine.Rendering.MeshUpdateFlags @flags)
         {
 
             var ___genericsType = new Type[] {};
@@ -1354,7 +1354,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Int32 GetVertexBufferStride(System.Int32  @stream)
+        public virtual System.Int32 GetVertexBufferStride(System.Int32 @stream)
         {
 
             var ___genericsType = new Type[] {};
@@ -1365,7 +1365,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Boolean HasVertexAttribute(UnityEngine.Rendering.VertexAttribute  @attr)
+        public virtual System.Boolean HasVertexAttribute(UnityEngine.Rendering.VertexAttribute @attr)
         {
 
             var ___genericsType = new Type[] {};
@@ -1376,7 +1376,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Int32 GetVertexAttributeDimension(UnityEngine.Rendering.VertexAttribute  @attr)
+        public virtual System.Int32 GetVertexAttributeDimension(UnityEngine.Rendering.VertexAttribute @attr)
         {
 
             var ___genericsType = new Type[] {};
@@ -1387,7 +1387,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual UnityEngine.Rendering.VertexAttributeFormat GetVertexAttributeFormat(UnityEngine.Rendering.VertexAttribute  @attr)
+        public virtual UnityEngine.Rendering.VertexAttributeFormat GetVertexAttributeFormat(UnityEngine.Rendering.VertexAttribute @attr)
         {
 
             var ___genericsType = new Type[] {};
@@ -1398,7 +1398,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Int32 GetVertexAttributeStream(UnityEngine.Rendering.VertexAttribute  @attr)
+        public virtual System.Int32 GetVertexAttributeStream(UnityEngine.Rendering.VertexAttribute @attr)
         {
 
             var ___genericsType = new Type[] {};
@@ -1409,7 +1409,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Int32 GetVertexAttributeOffset(UnityEngine.Rendering.VertexAttribute  @attr)
+        public virtual System.Int32 GetVertexAttributeOffset(UnityEngine.Rendering.VertexAttribute @attr)
         {
 
             var ___genericsType = new Type[] {};
@@ -1428,7 +1428,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
 
 
-        public virtual System.Object GetVertexData<T>(System.Int32  @stream) where T : struct
+        public virtual System.Object GetVertexData<T>(System.Int32 @stream) where T : struct
         {
 
             var ___genericsType = new Type[] {typeof(T)};
@@ -1440,7 +1440,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
 
 
-        public virtual void SetVertexBufferParams(System.Int32  @vertexCount, UnityEngine.Rendering.VertexAttributeDescriptor[]  @attributes)
+        public virtual void SetVertexBufferParams(System.Int32 @vertexCount, UnityEngine.Rendering.VertexAttributeDescriptor[] @attributes)
         {
 
             var ___genericsType = new Type[] {};
@@ -1452,7 +1452,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
 
 
-        public virtual void SetIndexBufferParams(System.Int32  @indexCount, UnityEngine.Rendering.IndexFormat  @format)
+        public virtual void SetIndexBufferParams(System.Int32 @indexCount, UnityEngine.Rendering.IndexFormat @format)
         {
 
             var ___genericsType = new Type[] {};
@@ -1476,7 +1476,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual UnityEngine.Rendering.SubMeshDescriptor GetSubMesh(System.Int32  @index)
+        public virtual UnityEngine.Rendering.SubMeshDescriptor GetSubMesh(System.Int32 @index)
         {
 
             var ___genericsType = new Type[] {};
@@ -1487,7 +1487,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SetSubMesh(System.Int32  @index, UnityEngine.Rendering.SubMeshDescriptor  @desc, UnityEngine.Rendering.MeshUpdateFlags  @flags)
+        public virtual void SetSubMesh(System.Int32 @index, UnityEngine.Rendering.SubMeshDescriptor @desc, UnityEngine.Rendering.MeshUpdateFlags @flags)
         {
 
             var ___genericsType = new Type[] {};
@@ -1520,7 +1520,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static void GetSubMesh_Injected(System.IntPtr  @self, System.Int32  @index, out UnityEngine.Rendering.SubMeshDescriptor  @ret)
+        public static void GetSubMesh_Injected(System.IntPtr @self, System.Int32 @index, out UnityEngine.Rendering.SubMeshDescriptor @ret)
         {
 			@ret = default;
 
@@ -1533,7 +1533,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static void SetSubMeshImpl_Injected(System.IntPtr  @self, System.Int32  @index, ref UnityEngine.Rendering.SubMeshDescriptor  @desc, UnityEngine.Rendering.MeshUpdateFlags  @flags)
+        public static void SetSubMeshImpl_Injected(System.IntPtr @self, System.Int32 @index, ref UnityEngine.Rendering.SubMeshDescriptor @desc, UnityEngine.Rendering.MeshUpdateFlags @flags)
         {
 
             var ___genericsType = new Type[] {};
@@ -1545,7 +1545,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

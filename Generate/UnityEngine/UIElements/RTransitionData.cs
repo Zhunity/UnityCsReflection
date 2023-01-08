@@ -283,18 +283,18 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 	    {
 	    }
 
-        public virtual System.Object Copy()
+        public virtual RUnityEngine.RUIElements.RTransitionData Copy()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RCopy.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RUnityEngine.RUIElements.RTransitionData(___result);
         }
 
 
-        public virtual void CopyFrom(ref RUnityEngine.RUIElements.RTransitionData  @other)
+        public virtual void CopyFrom(ref RUnityEngine.RUIElements.RTransitionData @other)
         {
 
             var ___genericsType = new Type[] {};
@@ -306,7 +306,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public static System.Boolean op_Equality(RUnityEngine.RUIElements.RTransitionData  @lhs, RUnityEngine.RUIElements.RTransitionData  @rhs)
+        public static System.Boolean op_Equality(RUnityEngine.RUIElements.RTransitionData @lhs, RUnityEngine.RUIElements.RTransitionData @rhs)
         {
 
             var ___genericsType = new Type[] {};
@@ -317,7 +317,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public static System.Boolean op_Inequality(RUnityEngine.RUIElements.RTransitionData  @lhs, RUnityEngine.RUIElements.RTransitionData  @rhs)
+        public static System.Boolean op_Inequality(RUnityEngine.RUIElements.RTransitionData @lhs, RUnityEngine.RUIElements.RTransitionData @rhs)
         {
 
             var ___genericsType = new Type[] {};
@@ -328,7 +328,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean Equals(RUnityEngine.RUIElements.RTransitionData  @other)
+        public virtual System.Boolean Equals(RUnityEngine.RUIElements.RTransitionData @other)
         {
 
             var ___genericsType = new Type[] {};
@@ -339,7 +339,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

@@ -164,18 +164,18 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RCompilerServices
 	    {
 	    }
 
-        public virtual System.Object GetAwaiter()
+        public virtual RSystem.RRuntime.RCompilerServices.RConfiguredTaskAwaitable.RConfiguredTaskAwaiter GetAwaiter()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RGetAwaiter.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RSystem.RRuntime.RCompilerServices.RConfiguredTaskAwaitable.RConfiguredTaskAwaiter(___result);
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

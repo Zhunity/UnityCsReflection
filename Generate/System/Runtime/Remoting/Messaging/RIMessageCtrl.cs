@@ -45,7 +45,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
 	    {
 	    }
 
-        public virtual void Cancel(System.Int32  @msToCancel)
+        public virtual void Cancel(System.Int32 @msToCancel)
         {
 
             var ___genericsType = new Type[] {};

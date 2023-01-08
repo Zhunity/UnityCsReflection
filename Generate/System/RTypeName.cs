@@ -62,14 +62,14 @@ namespace SMFrame.Editor.Refleaction.RSystem
 	    {
 	    }
 
-        public virtual System.Object NestedName(RSystem.RTypeIdentifier  @innerName)
+        public virtual RSystem.RTypeName NestedName(RSystem.RTypeIdentifier @innerName)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@innerName.Value};
             var ___result = RNestedName_TypeIdentifier.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RSystem.RTypeName(___result);
         }
 
 

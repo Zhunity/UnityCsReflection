@@ -521,7 +521,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 	    {
 	    }
 
-        public virtual void SetFlags(System.Security.AccessControl.ControlFlags  @flags)
+        public virtual void SetFlags(System.Security.AccessControl.ControlFlags @flags)
         {
 
             var ___genericsType = new Type[] {};
@@ -532,7 +532,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
         }
 
 
-        public virtual void ParseSddl(System.String  @sddlForm)
+        public virtual void ParseSddl(System.String @sddlForm)
         {
 
             var ___genericsType = new Type[] {};
@@ -543,7 +543,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
         }
 
 
-        public virtual System.UInt16 ReadUShort(System.Byte[]  @buffer, System.Int32  @offset)
+        public virtual System.UInt16 ReadUShort(System.Byte[] @buffer, System.Int32 @offset)
         {
 
             var ___genericsType = new Type[] {};
@@ -554,7 +554,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
         }
 
 
-        public virtual System.Int32 ReadInt(System.Byte[]  @buffer, System.Int32  @offset)
+        public virtual System.Int32 ReadInt(System.Byte[] @buffer, System.Int32 @offset)
         {
 
             var ___genericsType = new Type[] {};
@@ -565,7 +565,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
         }
 
 
-        public virtual void GetBinaryForm(System.Byte[]  @binaryForm, System.Int32  @offset)
+        public virtual void GetBinaryForm(System.Byte[] @binaryForm, System.Int32 @offset)
         {
 
             var ___genericsType = new Type[] {};
@@ -576,7 +576,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
         }
 
 
-        public virtual System.String GetSddlForm(System.Security.AccessControl.AccessControlSections  @includeSections)
+        public virtual System.String GetSddlForm(System.Security.AccessControl.AccessControlSections @includeSections)
         {
 
             var ___genericsType = new Type[] {};
@@ -587,7 +587,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

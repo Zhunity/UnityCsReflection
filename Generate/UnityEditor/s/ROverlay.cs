@@ -2323,7 +2323,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 	    {
 	    }
 
-        public static System.String GetEventTypeErrorMessage(System.String  @errorEvent)
+        public static System.String GetEventTypeErrorMessage(System.String @errorEvent)
         {
 
             var ___genericsType = new Type[] {};
@@ -2345,7 +2345,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
         }
 
 
-        public virtual System.Boolean CanCreateRequestedLayout(UnityEditor.Overlays.Layout  @requested)
+        public virtual System.Boolean CanCreateRequestedLayout(UnityEditor.Overlays.Layout @requested)
         {
 
             var ___genericsType = new Type[] {};
@@ -2389,7 +2389,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
         }
 
 
-        public virtual System.Boolean IsSizeAuto(System.Single  @min, System.Single  @max)
+        public virtual System.Boolean IsSizeAuto(System.Single @min, System.Single @max)
         {
 
             var ___genericsType = new Type[] {};
@@ -2411,7 +2411,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
         }
 
 
-        public virtual UnityEngine.UIElements.VisualElement CreateContent(UnityEditor.Overlays.Layout  @requestedLayout)
+        public virtual UnityEngine.UIElements.VisualElement CreateContent(UnityEditor.Overlays.Layout @requestedLayout)
         {
 
             var ___genericsType = new Type[] {};
@@ -2488,18 +2488,18 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
         }
 
 
-        public static System.Object GetMenuItemState(System.Boolean  @isChecked)
+        public static RType GetMenuItemState(System.Boolean @isChecked)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@isChecked};
             var ___result = RGetMenuItemState_Boolean.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RType(___result);
         }
 
 
-        public virtual void BuildContextMenu(UnityEngine.UIElements.ContextualMenuPopulateEvent  @evt)
+        public virtual void BuildContextMenu(UnityEngine.UIElements.ContextualMenuPopulateEvent @evt)
         {
 
             var ___genericsType = new Type[] {};
@@ -2510,7 +2510,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
         }
 
 
-        public virtual void SetHighlightEnabled(System.Boolean  @highlight)
+        public virtual void SetHighlightEnabled(System.Boolean @highlight)
         {
 
             var ___genericsType = new Type[] {};
@@ -2521,7 +2521,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
         }
 
 
-        public virtual void Initialize(UnityEditor.Overlays.OverlayAttribute  @attrib)
+        public virtual void Initialize(UnityEditor.Overlays.OverlayAttribute @attrib)
         {
 
             var ___genericsType = new Type[] {};
@@ -2532,7 +2532,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
         }
 
 
-        public virtual void Initialize(System.String  @_id, System.String  @_uss, System.String  @_display)
+        public virtual void Initialize(System.String @_id, System.String @_uss, System.String @_display)
         {
 
             var ___genericsType = new Type[] {};
@@ -2543,8 +2543,18 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
         }
 
 
+        public virtual void ApplySaveData(RUnityEditor.ROverlays.RSaveData @data)
+        {
 
-        public virtual void OnFloatingChanged(System.Boolean  @floating)
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@data.Value};
+            var ___result = RApplySaveData_SaveData.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void OnFloatingChanged(System.Boolean @floating)
         {
 
             var ___genericsType = new Type[] {};
@@ -2555,9 +2565,29 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
         }
 
 
+        public virtual System.Boolean DockAt(RUnityEditor.ROverlays.ROverlayContainer @container, RType @section)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@container.Value, @section.Value};
+            var ___result = RDockAt_OverlayContainer_OverlayContainerSection.Invoke(___genericsType, ___parameters);
+
+            return (System.Boolean)___result;
+        }
 
 
-        public virtual System.Boolean DockBefore(UnityEditor.Overlays.Overlay  @target)
+        public virtual System.Boolean DockAt(RUnityEditor.ROverlays.ROverlayContainer @container, RType @section, System.Int32 @index)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@container.Value, @section.Value, @index};
+            var ___result = RDockAt_OverlayContainer_OverlayContainerSection_Int32.Invoke(___genericsType, ___parameters);
+
+            return (System.Boolean)___result;
+        }
+
+
+        public virtual System.Boolean DockBefore(UnityEditor.Overlays.Overlay @target)
         {
 
             var ___genericsType = new Type[] {};
@@ -2568,7 +2598,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
         }
 
 
-        public virtual System.Boolean DockAfter(UnityEditor.Overlays.Overlay  @target)
+        public virtual System.Boolean DockAfter(UnityEditor.Overlays.Overlay @target)
         {
 
             var ___genericsType = new Type[] {};
@@ -2601,7 +2631,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
         }
 
 
-        public virtual void SetSnappingOffset(UnityEngine.Vector2  @snapOffset, UnityEngine.Vector2  @snapOffsetDelta)
+        public virtual void SetSnappingOffset(UnityEngine.Vector2 @snapOffset, UnityEngine.Vector2 @snapOffsetDelta)
         {
 
             var ___genericsType = new Type[] {};
@@ -2612,22 +2642,46 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
         }
 
 
-
-        public virtual void FloatingToSnapPosition(UnityEngine.Vector2  @position, out UnityEngine.Vector2  @snapOffset)
+        public virtual UnityEngine.Vector2 SnapToFloatingPosition(RType @corner, UnityEngine.Vector2 @snapPosition)
         {
-			snapOffset = default;
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@corner.Value, @snapPosition};
+            var ___result = RSnapToFloatingPosition_SnapCorner_Vector2.Invoke(___genericsType, ___parameters);
+
+            return (UnityEngine.Vector2)___result;
+        }
+
+
+        public virtual void FloatingToSnapPosition(UnityEngine.Vector2 @position, out UnityEngine.Vector2 @snapOffset)
+        {
+			@snapOffset = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@position, @snapOffset};
             var ___result = RFloatingToSnapPosition_Vector2_Out_Vector2.Invoke(___genericsType, ___parameters);
-			snapOffset = (UnityEngine.Vector2)___parameters[1];
+			@snapOffset = (UnityEngine.Vector2)___parameters[1];
 
             
         }
 
 
+        public virtual void FloatingToSnapPosition(UnityEngine.Vector2 @position, out RType @snapCorner, out UnityEngine.Vector2 @snapOffset)
+        {
+			@snapCorner = default;
+			@snapOffset = default;
 
-        public virtual void OnGeometryChanged(UnityEngine.UIElements.GeometryChangedEvent  @evt)
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@position, @snapCorner.Value, @snapOffset};
+            var ___result = RFloatingToSnapPosition_Vector2_Out_SnapCorner_Out_Vector2.Invoke(___genericsType, ___parameters);
+			@snapCorner = new RType(___parameters[1]);
+			@snapOffset = (UnityEngine.Vector2)___parameters[2];
+
+            
+        }
+
+
+        public virtual void OnGeometryChanged(UnityEngine.UIElements.GeometryChangedEvent @evt)
         {
 
             var ___genericsType = new Type[] {};
@@ -2638,7 +2692,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
         }
 
 
-        public virtual void UpdateSnapping(UnityEngine.Vector2  @position)
+        public virtual void UpdateSnapping(UnityEngine.Vector2 @position)
         {
 
             var ___genericsType = new Type[] {};
@@ -2660,7 +2714,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
         }
 
 
-        public virtual void __0__ToggleCollapsedPopup__1__b__154_0(UnityEngine.UIElements.FocusOutEvent  @evt)
+        public virtual void __0__ToggleCollapsedPopup__1__b__154_0(UnityEngine.UIElements.FocusOutEvent @evt)
         {
 
             var ___genericsType = new Type[] {};
@@ -2671,7 +2725,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
         }
 
 
-        public virtual void __0__BuildContextMenu__1__b__157_0(UnityEngine.UIElements.DropdownMenuAction  @action)
+        public virtual void __0__BuildContextMenu__1__b__157_0(UnityEngine.UIElements.DropdownMenuAction @action)
         {
 
             var ___genericsType = new Type[] {};
@@ -2682,7 +2736,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
         }
 
 
-        public virtual void __0__BuildContextMenu__1__b__157_1(UnityEngine.UIElements.DropdownMenuAction  @action)
+        public virtual void __0__BuildContextMenu__1__b__157_1(UnityEngine.UIElements.DropdownMenuAction @action)
         {
 
             var ___genericsType = new Type[] {};
@@ -2693,7 +2747,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
         }
 
 
-        public virtual void __0__BuildContextMenu__1__b__157_2(UnityEngine.UIElements.DropdownMenuAction  @action)
+        public virtual void __0__BuildContextMenu__1__b__157_2(UnityEngine.UIElements.DropdownMenuAction @action)
         {
 
             var ___genericsType = new Type[] {};
@@ -2704,7 +2758,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
         }
 
 
-        public virtual void __0__BuildContextMenu__1__b__157_3(UnityEngine.UIElements.DropdownMenuAction  @action)
+        public virtual void __0__BuildContextMenu__1__b__157_3(UnityEngine.UIElements.DropdownMenuAction @action)
         {
 
             var ___genericsType = new Type[] {};
@@ -2715,7 +2769,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
         }
 
 
-        public virtual void __0__BuildContextMenu__1__b__157_4(UnityEngine.UIElements.DropdownMenuAction  @action)
+        public virtual void __0__BuildContextMenu__1__b__157_4(UnityEngine.UIElements.DropdownMenuAction @action)
         {
 
             var ___genericsType = new Type[] {};
@@ -2726,7 +2780,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
         }
 
 
-        public virtual void __0__BuildContextMenu__1__b__157_5(UnityEngine.UIElements.DropdownMenuAction  @action)
+        public virtual void __0__BuildContextMenu__1__b__157_5(UnityEngine.UIElements.DropdownMenuAction @action)
         {
 
             var ___genericsType = new Type[] {};
@@ -2737,7 +2791,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
         }
 
 
-        public virtual void __0__BuildContextMenu__1__b__157_6(UnityEngine.UIElements.DropdownMenuAction  @action)
+        public virtual void __0__BuildContextMenu__1__b__157_6(UnityEngine.UIElements.DropdownMenuAction @action)
         {
 
             var ___genericsType = new Type[] {};
@@ -2748,7 +2802,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

@@ -447,7 +447,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};
@@ -458,7 +458,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
         }
 
 
-        public virtual System.Boolean Equals(System.Threading.Tasks.ValueTask  @other)
+        public virtual System.Boolean Equals(System.Threading.Tasks.ValueTask @other)
         {
 
             var ___genericsType = new Type[] {};
@@ -469,7 +469,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
         }
 
 
-        public static System.Boolean op_Equality(System.Threading.Tasks.ValueTask  @left, System.Threading.Tasks.ValueTask  @right)
+        public static System.Boolean op_Equality(System.Threading.Tasks.ValueTask @left, System.Threading.Tasks.ValueTask @right)
         {
 
             var ___genericsType = new Type[] {};
@@ -480,7 +480,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
         }
 
 
-        public static System.Boolean op_Inequality(System.Threading.Tasks.ValueTask  @left, System.Threading.Tasks.ValueTask  @right)
+        public static System.Boolean op_Inequality(System.Threading.Tasks.ValueTask @left, System.Threading.Tasks.ValueTask @right)
         {
 
             var ___genericsType = new Type[] {};
@@ -513,7 +513,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
         }
 
 
-        public virtual System.Threading.Tasks.Task GetTaskForValueTaskSource(System.Threading.Tasks.Sources.IValueTaskSource  @t)
+        public virtual System.Threading.Tasks.Task GetTaskForValueTaskSource(System.Threading.Tasks.Sources.IValueTaskSource @t)
         {
 
             var ___genericsType = new Type[] {};
@@ -546,7 +546,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
         }
 
 
-        public virtual System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable ConfigureAwait(System.Boolean  @continueOnCapturedContext)
+        public virtual System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable ConfigureAwait(System.Boolean @continueOnCapturedContext)
         {
 
             var ___genericsType = new Type[] {};

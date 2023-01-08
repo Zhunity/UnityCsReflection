@@ -300,7 +300,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RCompilerServices
 	    {
 	    }
 
-        public virtual void OnCompleted(System.Action  @continuation)
+        public virtual void OnCompleted(System.Action @continuation)
         {
 
             var ___genericsType = new Type[] {};
@@ -311,7 +311,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RCompilerServices
         }
 
 
-        public virtual void UnsafeOnCompleted(System.Action  @continuation)
+        public virtual void UnsafeOnCompleted(System.Action @continuation)
         {
 
             var ___genericsType = new Type[] {};
@@ -333,7 +333,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RCompilerServices
         }
 
 
-        public static void ValidateEnd(System.Threading.Tasks.Task  @task)
+        public static void ValidateEnd(System.Threading.Tasks.Task @task)
         {
 
             var ___genericsType = new Type[] {};
@@ -344,7 +344,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RCompilerServices
         }
 
 
-        public static void HandleNonSuccessAndDebuggerNotification(System.Threading.Tasks.Task  @task)
+        public static void HandleNonSuccessAndDebuggerNotification(System.Threading.Tasks.Task @task)
         {
 
             var ___genericsType = new Type[] {};
@@ -355,7 +355,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RCompilerServices
         }
 
 
-        public static void ThrowForNonSuccess(System.Threading.Tasks.Task  @task)
+        public static void ThrowForNonSuccess(System.Threading.Tasks.Task @task)
         {
 
             var ___genericsType = new Type[] {};
@@ -366,7 +366,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RCompilerServices
         }
 
 
-        public static void OnCompletedInternal(System.Threading.Tasks.Task  @task, System.Action  @continuation, System.Boolean  @continueOnCapturedContext, System.Boolean  @flowExecutionContext)
+        public static void OnCompletedInternal(System.Threading.Tasks.Task @task, System.Action @continuation, System.Boolean @continueOnCapturedContext, System.Boolean @flowExecutionContext)
         {
 
             var ___genericsType = new Type[] {};
@@ -377,7 +377,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RCompilerServices
         }
 
 
-        public static System.Action OutputWaitEtwEvents(System.Threading.Tasks.Task  @task, System.Action  @continuation)
+        public static System.Action OutputWaitEtwEvents(System.Threading.Tasks.Task @task, System.Action @continuation)
         {
 
             var ___genericsType = new Type[] {};
@@ -388,7 +388,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RCompilerServices
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

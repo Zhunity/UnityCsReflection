@@ -2595,7 +2595,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 	    {
 	    }
 
-        public static void AsyncLocalSetCurrentCulture(System.Threading.AsyncLocalValueChangedArgs<System.Globalization.CultureInfo>  @args)
+        public static void AsyncLocalSetCurrentCulture(System.Threading.AsyncLocalValueChangedArgs<System.Globalization.CultureInfo> @args)
         {
 
             var ___genericsType = new Type[] {};
@@ -2606,7 +2606,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public static void AsyncLocalSetCurrentUICulture(System.Threading.AsyncLocalValueChangedArgs<System.Globalization.CultureInfo>  @args)
+        public static void AsyncLocalSetCurrentUICulture(System.Threading.AsyncLocalValueChangedArgs<System.Globalization.CultureInfo> @args)
         {
 
             var ___genericsType = new Type[] {};
@@ -2628,7 +2628,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public virtual void Start(System.Object  @parameter)
+        public virtual void Start(System.Object @parameter)
         {
 
             var ___genericsType = new Type[] {};
@@ -2639,7 +2639,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public virtual void Start(ref RType  @stackMark)
+        public virtual void Start(ref RType @stackMark)
         {
 
             var ___genericsType = new Type[] {};
@@ -2651,14 +2651,14 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public virtual System.Object GetExecutionContextReader()
+        public virtual RSystem.RThreading.RExecutionContext.RReader GetExecutionContextReader()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RGetExecutionContextReader.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RSystem.RThreading.RExecutionContext.RReader(___result);
         }
 
 
@@ -2673,7 +2673,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public virtual void SetExecutionContext(System.Threading.ExecutionContext  @value, System.Boolean  @belongsToCurrentScope)
+        public virtual void SetExecutionContext(System.Threading.ExecutionContext @value, System.Boolean @belongsToCurrentScope)
         {
 
             var ___genericsType = new Type[] {};
@@ -2684,7 +2684,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public virtual void SetExecutionContext(RSystem.RThreading.RExecutionContext.RReader  @value, System.Boolean  @belongsToCurrentScope)
+        public virtual void SetExecutionContext(RSystem.RThreading.RExecutionContext.RReader @value, System.Boolean @belongsToCurrentScope)
         {
 
             var ___genericsType = new Type[] {};
@@ -2695,7 +2695,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public virtual void SetCompressedStack(System.Threading.CompressedStack  @stack)
+        public virtual void SetCompressedStack(System.Threading.CompressedStack @stack)
         {
 
             var ___genericsType = new Type[] {};
@@ -2816,7 +2816,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public virtual void SetPriorityNative(System.Int32  @priority)
+        public virtual void SetPriorityNative(System.Int32 @priority)
         {
 
             var ___genericsType = new Type[] {};
@@ -2827,7 +2827,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public virtual System.Boolean JoinInternal(System.Int32  @millisecondsTimeout)
+        public virtual System.Boolean JoinInternal(System.Int32 @millisecondsTimeout)
         {
 
             var ___genericsType = new Type[] {};
@@ -2849,7 +2849,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public virtual System.Boolean Join(System.Int32  @millisecondsTimeout)
+        public virtual System.Boolean Join(System.Int32 @millisecondsTimeout)
         {
 
             var ___genericsType = new Type[] {};
@@ -2860,7 +2860,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public virtual System.Boolean Join(System.TimeSpan  @timeout)
+        public virtual System.Boolean Join(System.TimeSpan @timeout)
         {
 
             var ___genericsType = new Type[] {};
@@ -2871,7 +2871,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public static void SleepInternal(System.Int32  @millisecondsTimeout)
+        public static void SleepInternal(System.Int32 @millisecondsTimeout)
         {
 
             var ___genericsType = new Type[] {};
@@ -2882,7 +2882,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public static void Sleep(System.Int32  @millisecondsTimeout)
+        public static void Sleep(System.Int32 @millisecondsTimeout)
         {
 
             var ___genericsType = new Type[] {};
@@ -2893,7 +2893,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public static void Sleep(System.TimeSpan  @timeout)
+        public static void Sleep(System.TimeSpan @timeout)
         {
 
             var ___genericsType = new Type[] {};
@@ -2926,7 +2926,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public virtual void SetStartHelper(System.Delegate  @start, System.Int32  @maxStackSize)
+        public virtual void SetStartHelper(System.Delegate @start, System.Int32 @maxStackSize)
         {
 
             var ___genericsType = new Type[] {};
@@ -2948,7 +2948,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public static System.LocalDataStoreSlot AllocateNamedDataSlot(System.String  @name)
+        public static System.LocalDataStoreSlot AllocateNamedDataSlot(System.String @name)
         {
 
             var ___genericsType = new Type[] {};
@@ -2959,7 +2959,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public static System.LocalDataStoreSlot GetNamedDataSlot(System.String  @name)
+        public static System.LocalDataStoreSlot GetNamedDataSlot(System.String @name)
         {
 
             var ___genericsType = new Type[] {};
@@ -2970,7 +2970,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public static void FreeNamedDataSlot(System.String  @name)
+        public static void FreeNamedDataSlot(System.String @name)
         {
 
             var ___genericsType = new Type[] {};
@@ -2981,7 +2981,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public static System.Object GetData(System.LocalDataStoreSlot  @slot)
+        public static System.Object GetData(System.LocalDataStoreSlot @slot)
         {
 
             var ___genericsType = new Type[] {};
@@ -2992,7 +2992,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public static void SetData(System.LocalDataStoreSlot  @slot, System.Object  @data)
+        public static void SetData(System.LocalDataStoreSlot @slot, System.Object @data)
         {
 
             var ___genericsType = new Type[] {};
@@ -3047,7 +3047,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public virtual void System__2__Runtime__2__InteropServices__2___Thread__2__GetTypeInfoCount(out System.UInt32  @pcTInfo)
+        public virtual void System__2__Runtime__2__InteropServices__2___Thread__2__GetTypeInfoCount(out System.UInt32 @pcTInfo)
         {
 			@pcTInfo = default;
 
@@ -3060,7 +3060,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public virtual void System__2__Runtime__2__InteropServices__2___Thread__2__GetTypeInfo(System.UInt32  @iTInfo, System.UInt32  @lcid, System.IntPtr  @ppTInfo)
+        public virtual void System__2__Runtime__2__InteropServices__2___Thread__2__GetTypeInfo(System.UInt32 @iTInfo, System.UInt32 @lcid, System.IntPtr @ppTInfo)
         {
 
             var ___genericsType = new Type[] {};
@@ -3071,7 +3071,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public virtual void System__2__Runtime__2__InteropServices__2___Thread__2__GetIDsOfNames(in System.Guid  @riid, System.IntPtr  @rgszNames, System.UInt32  @cNames, System.UInt32  @lcid, System.IntPtr  @rgDispId)
+        public virtual void System__2__Runtime__2__InteropServices__2___Thread__2__GetIDsOfNames(in System.Guid @riid, System.IntPtr @rgszNames, System.UInt32 @cNames, System.UInt32 @lcid, System.IntPtr @rgDispId)
         {
 
             var ___genericsType = new Type[] {};
@@ -3082,7 +3082,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public virtual void System__2__Runtime__2__InteropServices__2___Thread__2__Invoke(System.UInt32  @dispIdMember, in System.Guid  @riid, System.UInt32  @lcid, System.Int16  @wFlags, System.IntPtr  @pDispParams, System.IntPtr  @pVarResult, System.IntPtr  @pExcepInfo, System.IntPtr  @puArgErr)
+        public virtual void System__2__Runtime__2__InteropServices__2___Thread__2__Invoke(System.UInt32 @dispIdMember, in System.Guid @riid, System.UInt32 @lcid, System.Int16 @wFlags, System.IntPtr @pDispParams, System.IntPtr @pVarResult, System.IntPtr @pExcepInfo, System.IntPtr @puArgErr)
         {
 
             var ___genericsType = new Type[] {};
@@ -3104,7 +3104,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public static System.Byte[] ByteArrayToRootDomain(System.Byte[]  @arr)
+        public static System.Byte[] ByteArrayToRootDomain(System.Byte[] @arr)
         {
 
             var ___genericsType = new Type[] {};
@@ -3115,7 +3115,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public static System.Byte[] ByteArrayToCurrentDomain(System.Byte[]  @arr)
+        public static System.Byte[] ByteArrayToCurrentDomain(System.Byte[] @arr)
         {
 
             var ___genericsType = new Type[] {};
@@ -3126,7 +3126,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public static void DeserializePrincipal(System.Threading.Thread  @th)
+        public static void DeserializePrincipal(System.Threading.Thread @th)
         {
 
             var ___genericsType = new Type[] {};
@@ -3137,7 +3137,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public static void SerializePrincipal(System.Threading.Thread  @th, System.Security.Principal.IPrincipal  @value)
+        public static void SerializePrincipal(System.Threading.Thread @th, System.Security.Principal.IPrincipal @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -3159,7 +3159,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public static void GetCurrentThread_icall(ref System.Threading.Thread  @thread)
+        public static void GetCurrentThread_icall(ref System.Threading.Thread @thread)
         {
 
             var ___genericsType = new Type[] {};
@@ -3193,7 +3193,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public virtual System.Boolean Thread_internal(System.MulticastDelegate  @start)
+        public virtual System.Boolean Thread_internal(System.MulticastDelegate @start)
         {
 
             var ___genericsType = new Type[] {};
@@ -3215,7 +3215,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public static System.String GetName_internal(RSystem.RThreading.RInternalThread  @thread)
+        public static System.String GetName_internal(RSystem.RThreading.RInternalThread @thread)
         {
 
             var ___genericsType = new Type[] {};
@@ -3227,7 +3227,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 
 
 
-        public static void SetName_internal(RSystem.RThreading.RInternalThread  @thread, System.String  @name)
+        public static void SetName_internal(RSystem.RThreading.RInternalThread @thread, System.String @name)
         {
 
             var ___genericsType = new Type[] {};
@@ -3238,7 +3238,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public static void Abort_internal(RSystem.RThreading.RInternalThread  @thread, System.Object  @stateInfo)
+        public static void Abort_internal(RSystem.RThreading.RInternalThread @thread, System.Object @stateInfo)
         {
 
             var ___genericsType = new Type[] {};
@@ -3260,7 +3260,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public virtual void Abort(System.Object  @stateInfo)
+        public virtual void Abort(System.Object @stateInfo)
         {
 
             var ___genericsType = new Type[] {};
@@ -3304,7 +3304,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public static void SpinWait(System.Int32  @iterations)
+        public static void SpinWait(System.Int32 @iterations)
         {
 
             var ___genericsType = new Type[] {};
@@ -3315,7 +3315,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public virtual void StartInternal(System.Object  @principal, ref RType  @stackMark)
+        public virtual void StartInternal(System.Object @principal, ref RType @stackMark)
         {
 
             var ___genericsType = new Type[] {};
@@ -3327,7 +3327,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public static void SetState(RSystem.RThreading.RInternalThread  @thread, System.Threading.ThreadState  @set)
+        public static void SetState(RSystem.RThreading.RInternalThread @thread, System.Threading.ThreadState @set)
         {
 
             var ___genericsType = new Type[] {};
@@ -3338,7 +3338,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public static void ClrState(RSystem.RThreading.RInternalThread  @thread, System.Threading.ThreadState  @clr)
+        public static void ClrState(RSystem.RThreading.RInternalThread @thread, System.Threading.ThreadState @clr)
         {
 
             var ___genericsType = new Type[] {};
@@ -3349,7 +3349,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public static System.Threading.ThreadState GetState(RSystem.RThreading.RInternalThread  @thread)
+        public static System.Threading.ThreadState GetState(RSystem.RThreading.RInternalThread @thread)
         {
 
             var ___genericsType = new Type[] {};
@@ -3360,7 +3360,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public static System.Byte VolatileRead(ref System.Byte  @address)
+        public static System.Byte VolatileRead(ref System.Byte @address)
         {
 
             var ___genericsType = new Type[] {};
@@ -3372,7 +3372,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public static System.Double VolatileRead(ref System.Double  @address)
+        public static System.Double VolatileRead(ref System.Double @address)
         {
 
             var ___genericsType = new Type[] {};
@@ -3384,7 +3384,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public static System.Int16 VolatileRead(ref System.Int16  @address)
+        public static System.Int16 VolatileRead(ref System.Int16 @address)
         {
 
             var ___genericsType = new Type[] {};
@@ -3396,7 +3396,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public static System.Int32 VolatileRead(ref System.Int32  @address)
+        public static System.Int32 VolatileRead(ref System.Int32 @address)
         {
 
             var ___genericsType = new Type[] {};
@@ -3408,7 +3408,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public static System.Int64 VolatileRead(ref System.Int64  @address)
+        public static System.Int64 VolatileRead(ref System.Int64 @address)
         {
 
             var ___genericsType = new Type[] {};
@@ -3420,7 +3420,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public static System.IntPtr VolatileRead(ref System.IntPtr  @address)
+        public static System.IntPtr VolatileRead(ref System.IntPtr @address)
         {
 
             var ___genericsType = new Type[] {};
@@ -3432,7 +3432,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public static System.Object VolatileRead(ref System.Object  @address)
+        public static System.Object VolatileRead(ref System.Object @address)
         {
 
             var ___genericsType = new Type[] {};
@@ -3444,7 +3444,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public static System.SByte VolatileRead(ref System.SByte  @address)
+        public static System.SByte VolatileRead(ref System.SByte @address)
         {
 
             var ___genericsType = new Type[] {};
@@ -3456,7 +3456,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public static System.Single VolatileRead(ref System.Single  @address)
+        public static System.Single VolatileRead(ref System.Single @address)
         {
 
             var ___genericsType = new Type[] {};
@@ -3468,7 +3468,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public static System.UInt16 VolatileRead(ref System.UInt16  @address)
+        public static System.UInt16 VolatileRead(ref System.UInt16 @address)
         {
 
             var ___genericsType = new Type[] {};
@@ -3480,7 +3480,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public static System.UInt32 VolatileRead(ref System.UInt32  @address)
+        public static System.UInt32 VolatileRead(ref System.UInt32 @address)
         {
 
             var ___genericsType = new Type[] {};
@@ -3492,7 +3492,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public static System.UInt64 VolatileRead(ref System.UInt64  @address)
+        public static System.UInt64 VolatileRead(ref System.UInt64 @address)
         {
 
             var ___genericsType = new Type[] {};
@@ -3504,7 +3504,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public static System.UIntPtr VolatileRead(ref System.UIntPtr  @address)
+        public static System.UIntPtr VolatileRead(ref System.UIntPtr @address)
         {
 
             var ___genericsType = new Type[] {};
@@ -3516,7 +3516,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public static void VolatileWrite(ref System.Byte  @address, System.Byte  @value)
+        public static void VolatileWrite(ref System.Byte @address, System.Byte @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -3528,7 +3528,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public static void VolatileWrite(ref System.Double  @address, System.Double  @value)
+        public static void VolatileWrite(ref System.Double @address, System.Double @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -3540,7 +3540,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public static void VolatileWrite(ref System.Int16  @address, System.Int16  @value)
+        public static void VolatileWrite(ref System.Int16 @address, System.Int16 @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -3552,7 +3552,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public static void VolatileWrite(ref System.Int32  @address, System.Int32  @value)
+        public static void VolatileWrite(ref System.Int32 @address, System.Int32 @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -3564,7 +3564,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public static void VolatileWrite(ref System.Int64  @address, System.Int64  @value)
+        public static void VolatileWrite(ref System.Int64 @address, System.Int64 @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -3576,7 +3576,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public static void VolatileWrite(ref System.IntPtr  @address, System.IntPtr  @value)
+        public static void VolatileWrite(ref System.IntPtr @address, System.IntPtr @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -3588,7 +3588,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public static void VolatileWrite(ref System.Object  @address, System.Object  @value)
+        public static void VolatileWrite(ref System.Object @address, System.Object @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -3600,7 +3600,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public static void VolatileWrite(ref System.SByte  @address, System.SByte  @value)
+        public static void VolatileWrite(ref System.SByte @address, System.SByte @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -3612,7 +3612,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public static void VolatileWrite(ref System.Single  @address, System.Single  @value)
+        public static void VolatileWrite(ref System.Single @address, System.Single @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -3624,7 +3624,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public static void VolatileWrite(ref System.UInt16  @address, System.UInt16  @value)
+        public static void VolatileWrite(ref System.UInt16 @address, System.UInt16 @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -3636,7 +3636,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public static void VolatileWrite(ref System.UInt32  @address, System.UInt32  @value)
+        public static void VolatileWrite(ref System.UInt32 @address, System.UInt32 @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -3648,7 +3648,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public static void VolatileWrite(ref System.UInt64  @address, System.UInt64  @value)
+        public static void VolatileWrite(ref System.UInt64 @address, System.UInt64 @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -3660,7 +3660,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public static void VolatileWrite(ref System.UIntPtr  @address, System.UIntPtr  @value)
+        public static void VolatileWrite(ref System.UIntPtr @address, System.UIntPtr @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -3683,7 +3683,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public static System.Int32 GetProcessDefaultStackSize(System.Int32  @maxStackSize)
+        public static System.Int32 GetProcessDefaultStackSize(System.Int32 @maxStackSize)
         {
 
             var ___genericsType = new Type[] {};
@@ -3694,7 +3694,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public virtual void SetStart(System.MulticastDelegate  @start, System.Int32  @maxStackSize)
+        public virtual void SetStart(System.MulticastDelegate @start, System.Int32 @maxStackSize)
         {
 
             var ___genericsType = new Type[] {};
@@ -3760,7 +3760,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public virtual void SetApartmentState(System.Threading.ApartmentState  @state)
+        public virtual void SetApartmentState(System.Threading.ApartmentState @state)
         {
 
             var ___genericsType = new Type[] {};
@@ -3771,7 +3771,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public virtual System.Boolean TrySetApartmentState(System.Threading.ApartmentState  @state)
+        public virtual System.Boolean TrySetApartmentState(System.Threading.ApartmentState @state)
         {
 
             var ___genericsType = new Type[] {};
@@ -3793,7 +3793,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public static void GetStackTraces(out System.Threading.Thread[]  @threads, out System.Object[]  @stack_frames)
+        public static void GetStackTraces(out System.Threading.Thread[] @threads, out System.Object[] @stack_frames)
         {
 			@threads = default;
 			@stack_frames = default;
@@ -3852,7 +3852,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

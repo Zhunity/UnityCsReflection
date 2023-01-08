@@ -1252,7 +1252,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 	    {
 	    }
 
-        public virtual System.Object Invoke(System.Object[]  @parameters)
+        public virtual System.Object Invoke(System.Object[] @parameters)
         {
 
             var ___genericsType = new Type[] {};
@@ -1263,7 +1263,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
         }
 
 
-        public virtual System.Object Invoke(System.Reflection.BindingFlags  @invokeAttr, System.Reflection.Binder  @binder, System.Object[]  @parameters, System.Globalization.CultureInfo  @culture)
+        public virtual System.Object Invoke(System.Reflection.BindingFlags @invokeAttr, System.Reflection.Binder @binder, System.Object[] @parameters, System.Globalization.CultureInfo @culture)
         {
 
             var ___genericsType = new Type[] {};
@@ -1274,7 +1274,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};
@@ -1296,7 +1296,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
         }
 
 
-        public static System.Boolean op_Equality(System.Reflection.ConstructorInfo  @left, System.Reflection.ConstructorInfo  @right)
+        public static System.Boolean op_Equality(System.Reflection.ConstructorInfo @left, System.Reflection.ConstructorInfo @right)
         {
 
             var ___genericsType = new Type[] {};
@@ -1307,7 +1307,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
         }
 
 
-        public static System.Boolean op_Inequality(System.Reflection.ConstructorInfo  @left, System.Reflection.ConstructorInfo  @right)
+        public static System.Boolean op_Inequality(System.Reflection.ConstructorInfo @left, System.Reflection.ConstructorInfo @right)
         {
 
             var ___genericsType = new Type[] {};
@@ -1318,7 +1318,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
         }
 
 
-        public virtual void System__2__Runtime__2__InteropServices__2___ConstructorInfo__2__GetIDsOfNames(in System.Guid  @riid, System.IntPtr  @rgszNames, System.UInt32  @cNames, System.UInt32  @lcid, System.IntPtr  @rgDispId)
+        public virtual void System__2__Runtime__2__InteropServices__2___ConstructorInfo__2__GetIDsOfNames(in System.Guid @riid, System.IntPtr @rgszNames, System.UInt32 @cNames, System.UInt32 @lcid, System.IntPtr @rgDispId)
         {
 
             var ___genericsType = new Type[] {};
@@ -1340,7 +1340,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
         }
 
 
-        public virtual void System__2__Runtime__2__InteropServices__2___ConstructorInfo__2__GetTypeInfo(System.UInt32  @iTInfo, System.UInt32  @lcid, System.IntPtr  @ppTInfo)
+        public virtual void System__2__Runtime__2__InteropServices__2___ConstructorInfo__2__GetTypeInfo(System.UInt32 @iTInfo, System.UInt32 @lcid, System.IntPtr @ppTInfo)
         {
 
             var ___genericsType = new Type[] {};
@@ -1351,7 +1351,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
         }
 
 
-        public virtual void System__2__Runtime__2__InteropServices__2___ConstructorInfo__2__GetTypeInfoCount(out System.UInt32  @pcTInfo)
+        public virtual void System__2__Runtime__2__InteropServices__2___ConstructorInfo__2__GetTypeInfoCount(out System.UInt32 @pcTInfo)
         {
 			@pcTInfo = default;
 
@@ -1364,7 +1364,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
         }
 
 
-        public virtual void System__2__Runtime__2__InteropServices__2___ConstructorInfo__2__Invoke(System.UInt32  @dispIdMember, in System.Guid  @riid, System.UInt32  @lcid, System.Int16  @wFlags, System.IntPtr  @pDispParams, System.IntPtr  @pVarResult, System.IntPtr  @pExcepInfo, System.IntPtr  @puArgErr)
+        public virtual void System__2__Runtime__2__InteropServices__2___ConstructorInfo__2__Invoke(System.UInt32 @dispIdMember, in System.Guid @riid, System.UInt32 @lcid, System.Int16 @wFlags, System.IntPtr @pDispParams, System.IntPtr @pVarResult, System.IntPtr @pExcepInfo, System.IntPtr @puArgErr)
         {
 
             var ___genericsType = new Type[] {};
@@ -1375,7 +1375,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
         }
 
 
-        public virtual System.Object System__2__Runtime__2__InteropServices__2___ConstructorInfo__2__Invoke_2(System.Object  @obj, System.Reflection.BindingFlags  @invokeAttr, System.Reflection.Binder  @binder, System.Object[]  @parameters, System.Globalization.CultureInfo  @culture)
+        public virtual System.Object System__2__Runtime__2__InteropServices__2___ConstructorInfo__2__Invoke_2(System.Object @obj, System.Reflection.BindingFlags @invokeAttr, System.Reflection.Binder @binder, System.Object[] @parameters, System.Globalization.CultureInfo @culture)
         {
 
             var ___genericsType = new Type[] {};
@@ -1386,7 +1386,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
         }
 
 
-        public virtual System.Object System__2__Runtime__2__InteropServices__2___ConstructorInfo__2__Invoke_3(System.Object  @obj, System.Object[]  @parameters)
+        public virtual System.Object System__2__Runtime__2__InteropServices__2___ConstructorInfo__2__Invoke_3(System.Object @obj, System.Object[] @parameters)
         {
 
             var ___genericsType = new Type[] {};
@@ -1397,7 +1397,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
         }
 
 
-        public virtual System.Object System__2__Runtime__2__InteropServices__2___ConstructorInfo__2__Invoke_4(System.Reflection.BindingFlags  @invokeAttr, System.Reflection.Binder  @binder, System.Object[]  @parameters, System.Globalization.CultureInfo  @culture)
+        public virtual System.Object System__2__Runtime__2__InteropServices__2___ConstructorInfo__2__Invoke_4(System.Reflection.BindingFlags @invokeAttr, System.Reflection.Binder @binder, System.Object[] @parameters, System.Globalization.CultureInfo @culture)
         {
 
             var ___genericsType = new Type[] {};
@@ -1408,7 +1408,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
         }
 
 
-        public virtual System.Object System__2__Runtime__2__InteropServices__2___ConstructorInfo__2__Invoke_5(System.Object[]  @parameters)
+        public virtual System.Object System__2__Runtime__2__InteropServices__2___ConstructorInfo__2__Invoke_5(System.Object[] @parameters)
         {
 
             var ___genericsType = new Type[] {};
@@ -1463,7 +1463,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
         }
 
 
-        public virtual System.Object Invoke(System.Object  @obj, System.Object[]  @parameters)
+        public virtual System.Object Invoke(System.Object @obj, System.Object[] @parameters)
         {
 
             var ___genericsType = new Type[] {};
@@ -1474,7 +1474,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
         }
 
 
-        public virtual System.Object Invoke(System.Object  @obj, System.Reflection.BindingFlags  @invokeAttr, System.Reflection.Binder  @binder, System.Object[]  @parameters, System.Globalization.CultureInfo  @culture)
+        public virtual System.Object Invoke(System.Object @obj, System.Reflection.BindingFlags @invokeAttr, System.Reflection.Binder @binder, System.Object[] @parameters, System.Globalization.CultureInfo @culture)
         {
 
             var ___genericsType = new Type[] {};
@@ -1507,7 +1507,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
         }
 
 
-        public virtual System.Type GetParameterType(System.Int32  @pos)
+        public virtual System.Type GetParameterType(System.Int32 @pos)
         {
 
             var ___genericsType = new Type[] {};
@@ -1518,7 +1518,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
         }
 
 
-        public virtual System.Int32 get_next_table_index(System.Object  @obj, System.Int32  @table, System.Int32  @count)
+        public virtual System.Int32 get_next_table_index(System.Object @obj, System.Int32 @table, System.Int32 @count)
         {
 
             var ___genericsType = new Type[] {};
@@ -1529,7 +1529,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
         }
 
 
-        public virtual System.String FormatNameAndSig(System.Boolean  @serialization)
+        public virtual System.String FormatNameAndSig(System.Boolean @serialization)
         {
 
             var ___genericsType = new Type[] {};
@@ -1562,7 +1562,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
         }
 
 
-        public virtual System.Boolean HasSameMetadataDefinitionAs(System.Reflection.MemberInfo  @other)
+        public virtual System.Boolean HasSameMetadataDefinitionAs(System.Reflection.MemberInfo @other)
         {
 
             var ___genericsType = new Type[] {};
@@ -1573,7 +1573,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
         }
 
 
-        public virtual System.Boolean IsDefined(System.Type  @attributeType, System.Boolean  @inherit)
+        public virtual System.Boolean IsDefined(System.Type @attributeType, System.Boolean @inherit)
         {
 
             var ___genericsType = new Type[] {};
@@ -1584,7 +1584,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
         }
 
 
-        public virtual System.Object[] GetCustomAttributes(System.Boolean  @inherit)
+        public virtual System.Object[] GetCustomAttributes(System.Boolean @inherit)
         {
 
             var ___genericsType = new Type[] {};
@@ -1595,7 +1595,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
         }
 
 
-        public virtual System.Object[] GetCustomAttributes(System.Type  @attributeType, System.Boolean  @inherit)
+        public virtual System.Object[] GetCustomAttributes(System.Type @attributeType, System.Boolean @inherit)
         {
 
             var ___genericsType = new Type[] {};
@@ -1617,7 +1617,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
         }
 
 
-        public virtual System.Boolean CacheEquals(System.Object  @o)
+        public virtual System.Boolean CacheEquals(System.Object @o)
         {
 
             var ___genericsType = new Type[] {};
@@ -1628,7 +1628,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
         }
 
 
-        public virtual System.Boolean HasSameMetadataDefinitionAsCore<TOther>(System.Reflection.MemberInfo  @other) where TOther : System.Reflection.MemberInfo
+        public virtual System.Boolean HasSameMetadataDefinitionAsCore<TOther>(System.Reflection.MemberInfo @other) where TOther : System.Reflection.MemberInfo
         {
 
             var ___genericsType = new Type[] {typeof(TOther)};

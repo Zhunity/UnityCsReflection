@@ -2816,7 +2816,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 	    {
 	    }
 
-        public virtual void AddFloat(System.String  @name, System.Single  @value)
+        public virtual void AddFloat(System.String @name, System.Single @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -2827,7 +2827,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void AddFloat(System.Int32  @nameID, System.Single  @value)
+        public virtual void AddFloat(System.Int32 @nameID, System.Single @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -2838,7 +2838,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void AddVector(System.String  @name, UnityEngine.Vector4  @value)
+        public virtual void AddVector(System.String @name, UnityEngine.Vector4 @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -2849,7 +2849,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void AddVector(System.Int32  @nameID, UnityEngine.Vector4  @value)
+        public virtual void AddVector(System.Int32 @nameID, UnityEngine.Vector4 @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -2860,7 +2860,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void AddColor(System.String  @name, UnityEngine.Color  @value)
+        public virtual void AddColor(System.String @name, UnityEngine.Color @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -2871,7 +2871,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void AddColor(System.Int32  @nameID, UnityEngine.Color  @value)
+        public virtual void AddColor(System.Int32 @nameID, UnityEngine.Color @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -2882,7 +2882,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void AddMatrix(System.String  @name, UnityEngine.Matrix4x4  @value)
+        public virtual void AddMatrix(System.String @name, UnityEngine.Matrix4x4 @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -2893,7 +2893,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void AddMatrix(System.Int32  @nameID, UnityEngine.Matrix4x4  @value)
+        public virtual void AddMatrix(System.Int32 @nameID, UnityEngine.Matrix4x4 @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -2904,7 +2904,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void AddTexture(System.String  @name, UnityEngine.Texture  @value)
+        public virtual void AddTexture(System.String @name, UnityEngine.Texture @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -2915,7 +2915,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void AddTexture(System.Int32  @nameID, UnityEngine.Texture  @value)
+        public virtual void AddTexture(System.Int32 @nameID, UnityEngine.Texture @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -2926,7 +2926,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Int32 GetIntImpl(System.Int32  @name)
+        public virtual System.Int32 GetIntImpl(System.Int32 @name)
         {
 
             var ___genericsType = new Type[] {};
@@ -2937,7 +2937,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Single GetFloatImpl(System.Int32  @name)
+        public virtual System.Single GetFloatImpl(System.Int32 @name)
         {
 
             var ___genericsType = new Type[] {};
@@ -2948,7 +2948,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual UnityEngine.Vector4 GetVectorImpl(System.Int32  @name)
+        public virtual UnityEngine.Vector4 GetVectorImpl(System.Int32 @name)
         {
 
             var ___genericsType = new Type[] {};
@@ -2959,7 +2959,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual UnityEngine.Color GetColorImpl(System.Int32  @name)
+        public virtual UnityEngine.Color GetColorImpl(System.Int32 @name)
         {
 
             var ___genericsType = new Type[] {};
@@ -2970,7 +2970,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual UnityEngine.Matrix4x4 GetMatrixImpl(System.Int32  @name)
+        public virtual UnityEngine.Matrix4x4 GetMatrixImpl(System.Int32 @name)
         {
 
             var ___genericsType = new Type[] {};
@@ -2981,7 +2981,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual UnityEngine.Texture GetTextureImpl(System.Int32  @name)
+        public virtual UnityEngine.Texture GetTextureImpl(System.Int32 @name)
         {
 
             var ___genericsType = new Type[] {};
@@ -2992,7 +2992,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Boolean HasPropertyImpl(System.Int32  @name)
+        public virtual System.Boolean HasPropertyImpl(System.Int32 @name)
         {
 
             var ___genericsType = new Type[] {};
@@ -3003,7 +3003,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Boolean HasFloatImpl(System.Int32  @name)
+        public virtual System.Boolean HasFloatImpl(System.Int32 @name)
         {
 
             var ___genericsType = new Type[] {};
@@ -3014,7 +3014,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Boolean HasIntImpl(System.Int32  @name)
+        public virtual System.Boolean HasIntImpl(System.Int32 @name)
         {
 
             var ___genericsType = new Type[] {};
@@ -3025,7 +3025,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Boolean HasTextureImpl(System.Int32  @name)
+        public virtual System.Boolean HasTextureImpl(System.Int32 @name)
         {
 
             var ___genericsType = new Type[] {};
@@ -3036,7 +3036,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Boolean HasMatrixImpl(System.Int32  @name)
+        public virtual System.Boolean HasMatrixImpl(System.Int32 @name)
         {
 
             var ___genericsType = new Type[] {};
@@ -3047,7 +3047,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Boolean HasVectorImpl(System.Int32  @name)
+        public virtual System.Boolean HasVectorImpl(System.Int32 @name)
         {
 
             var ___genericsType = new Type[] {};
@@ -3058,7 +3058,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Boolean HasBufferImpl(System.Int32  @name)
+        public virtual System.Boolean HasBufferImpl(System.Int32 @name)
         {
 
             var ___genericsType = new Type[] {};
@@ -3069,7 +3069,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Boolean HasConstantBufferImpl(System.Int32  @name)
+        public virtual System.Boolean HasConstantBufferImpl(System.Int32 @name)
         {
 
             var ___genericsType = new Type[] {};
@@ -3080,7 +3080,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SetIntImpl(System.Int32  @name, System.Int32  @value)
+        public virtual void SetIntImpl(System.Int32 @name, System.Int32 @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -3091,7 +3091,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SetFloatImpl(System.Int32  @name, System.Single  @value)
+        public virtual void SetFloatImpl(System.Int32 @name, System.Single @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -3102,7 +3102,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SetVectorImpl(System.Int32  @name, UnityEngine.Vector4  @value)
+        public virtual void SetVectorImpl(System.Int32 @name, UnityEngine.Vector4 @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -3113,7 +3113,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SetColorImpl(System.Int32  @name, UnityEngine.Color  @value)
+        public virtual void SetColorImpl(System.Int32 @name, UnityEngine.Color @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -3124,7 +3124,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SetMatrixImpl(System.Int32  @name, UnityEngine.Matrix4x4  @value)
+        public virtual void SetMatrixImpl(System.Int32 @name, UnityEngine.Matrix4x4 @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -3135,7 +3135,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SetTextureImpl(System.Int32  @name, UnityEngine.Texture  @value)
+        public virtual void SetTextureImpl(System.Int32 @name, UnityEngine.Texture @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -3146,7 +3146,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SetRenderTextureImpl(System.Int32  @name, UnityEngine.RenderTexture  @value, UnityEngine.Rendering.RenderTextureSubElement  @element)
+        public virtual void SetRenderTextureImpl(System.Int32 @name, UnityEngine.RenderTexture @value, UnityEngine.Rendering.RenderTextureSubElement @element)
         {
 
             var ___genericsType = new Type[] {};
@@ -3157,7 +3157,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SetBufferImpl(System.Int32  @name, UnityEngine.ComputeBuffer  @value)
+        public virtual void SetBufferImpl(System.Int32 @name, UnityEngine.ComputeBuffer @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -3168,7 +3168,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SetGraphicsBufferImpl(System.Int32  @name, UnityEngine.GraphicsBuffer  @value)
+        public virtual void SetGraphicsBufferImpl(System.Int32 @name, UnityEngine.GraphicsBuffer @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -3179,7 +3179,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SetConstantBufferImpl(System.Int32  @name, UnityEngine.ComputeBuffer  @value, System.Int32  @offset, System.Int32  @size)
+        public virtual void SetConstantBufferImpl(System.Int32 @name, UnityEngine.ComputeBuffer @value, System.Int32 @offset, System.Int32 @size)
         {
 
             var ___genericsType = new Type[] {};
@@ -3190,7 +3190,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SetConstantGraphicsBufferImpl(System.Int32  @name, UnityEngine.GraphicsBuffer  @value, System.Int32  @offset, System.Int32  @size)
+        public virtual void SetConstantGraphicsBufferImpl(System.Int32 @name, UnityEngine.GraphicsBuffer @value, System.Int32 @offset, System.Int32 @size)
         {
 
             var ___genericsType = new Type[] {};
@@ -3201,7 +3201,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SetFloatArrayImpl(System.Int32  @name, System.Single[]  @values, System.Int32  @count)
+        public virtual void SetFloatArrayImpl(System.Int32 @name, System.Single[] @values, System.Int32 @count)
         {
 
             var ___genericsType = new Type[] {};
@@ -3212,7 +3212,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SetVectorArrayImpl(System.Int32  @name, UnityEngine.Vector4[]  @values, System.Int32  @count)
+        public virtual void SetVectorArrayImpl(System.Int32 @name, UnityEngine.Vector4[] @values, System.Int32 @count)
         {
 
             var ___genericsType = new Type[] {};
@@ -3223,7 +3223,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SetMatrixArrayImpl(System.Int32  @name, UnityEngine.Matrix4x4[]  @values, System.Int32  @count)
+        public virtual void SetMatrixArrayImpl(System.Int32 @name, UnityEngine.Matrix4x4[] @values, System.Int32 @count)
         {
 
             var ___genericsType = new Type[] {};
@@ -3234,7 +3234,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Single[] GetFloatArrayImpl(System.Int32  @name)
+        public virtual System.Single[] GetFloatArrayImpl(System.Int32 @name)
         {
 
             var ___genericsType = new Type[] {};
@@ -3245,7 +3245,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual UnityEngine.Vector4[] GetVectorArrayImpl(System.Int32  @name)
+        public virtual UnityEngine.Vector4[] GetVectorArrayImpl(System.Int32 @name)
         {
 
             var ___genericsType = new Type[] {};
@@ -3256,7 +3256,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual UnityEngine.Matrix4x4[] GetMatrixArrayImpl(System.Int32  @name)
+        public virtual UnityEngine.Matrix4x4[] GetMatrixArrayImpl(System.Int32 @name)
         {
 
             var ___genericsType = new Type[] {};
@@ -3267,7 +3267,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Int32 GetFloatArrayCountImpl(System.Int32  @name)
+        public virtual System.Int32 GetFloatArrayCountImpl(System.Int32 @name)
         {
 
             var ___genericsType = new Type[] {};
@@ -3278,7 +3278,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Int32 GetVectorArrayCountImpl(System.Int32  @name)
+        public virtual System.Int32 GetVectorArrayCountImpl(System.Int32 @name)
         {
 
             var ___genericsType = new Type[] {};
@@ -3289,7 +3289,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Int32 GetMatrixArrayCountImpl(System.Int32  @name)
+        public virtual System.Int32 GetMatrixArrayCountImpl(System.Int32 @name)
         {
 
             var ___genericsType = new Type[] {};
@@ -3300,7 +3300,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void ExtractFloatArrayImpl(System.Int32  @name, System.Single[]  @val)
+        public virtual void ExtractFloatArrayImpl(System.Int32 @name, System.Single[] @val)
         {
 
             var ___genericsType = new Type[] {};
@@ -3311,7 +3311,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void ExtractVectorArrayImpl(System.Int32  @name, UnityEngine.Vector4[]  @val)
+        public virtual void ExtractVectorArrayImpl(System.Int32 @name, UnityEngine.Vector4[] @val)
         {
 
             var ___genericsType = new Type[] {};
@@ -3322,7 +3322,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void ExtractMatrixArrayImpl(System.Int32  @name, UnityEngine.Matrix4x4[]  @val)
+        public virtual void ExtractMatrixArrayImpl(System.Int32 @name, UnityEngine.Matrix4x4[] @val)
         {
 
             var ___genericsType = new Type[] {};
@@ -3333,7 +3333,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static void Internal_CopySHCoefficientArraysFrom(UnityEngine.MaterialPropertyBlock  @properties, UnityEngine.Rendering.SphericalHarmonicsL2[]  @lightProbes, System.Int32  @sourceStart, System.Int32  @destStart, System.Int32  @count)
+        public static void Internal_CopySHCoefficientArraysFrom(UnityEngine.MaterialPropertyBlock @properties, UnityEngine.Rendering.SphericalHarmonicsL2[] @lightProbes, System.Int32 @sourceStart, System.Int32 @destStart, System.Int32 @count)
         {
 
             var ___genericsType = new Type[] {};
@@ -3344,7 +3344,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static void Internal_CopyProbeOcclusionArrayFrom(UnityEngine.MaterialPropertyBlock  @properties, UnityEngine.Vector4[]  @occlusionProbes, System.Int32  @sourceStart, System.Int32  @destStart, System.Int32  @count)
+        public static void Internal_CopyProbeOcclusionArrayFrom(UnityEngine.MaterialPropertyBlock @properties, UnityEngine.Vector4[] @occlusionProbes, System.Int32 @sourceStart, System.Int32 @destStart, System.Int32 @count)
         {
 
             var ___genericsType = new Type[] {};
@@ -3366,7 +3366,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static void DestroyImpl(System.IntPtr  @mpb)
+        public static void DestroyImpl(System.IntPtr @mpb)
         {
 
             var ___genericsType = new Type[] {};
@@ -3377,7 +3377,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void Clear(System.Boolean  @keepMemory)
+        public virtual void Clear(System.Boolean @keepMemory)
         {
 
             var ___genericsType = new Type[] {};
@@ -3399,7 +3399,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SetFloatArray(System.Int32  @name, System.Single[]  @values, System.Int32  @count)
+        public virtual void SetFloatArray(System.Int32 @name, System.Single[] @values, System.Int32 @count)
         {
 
             var ___genericsType = new Type[] {};
@@ -3410,7 +3410,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SetVectorArray(System.Int32  @name, UnityEngine.Vector4[]  @values, System.Int32  @count)
+        public virtual void SetVectorArray(System.Int32 @name, UnityEngine.Vector4[] @values, System.Int32 @count)
         {
 
             var ___genericsType = new Type[] {};
@@ -3421,7 +3421,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SetMatrixArray(System.Int32  @name, UnityEngine.Matrix4x4[]  @values, System.Int32  @count)
+        public virtual void SetMatrixArray(System.Int32 @name, UnityEngine.Matrix4x4[] @values, System.Int32 @count)
         {
 
             var ___genericsType = new Type[] {};
@@ -3432,7 +3432,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void ExtractFloatArray(System.Int32  @name, System.Collections.Generic.List<System.Single>  @values)
+        public virtual void ExtractFloatArray(System.Int32 @name, System.Collections.Generic.List<System.Single> @values)
         {
 
             var ___genericsType = new Type[] {};
@@ -3443,7 +3443,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void ExtractVectorArray(System.Int32  @name, System.Collections.Generic.List<UnityEngine.Vector4>  @values)
+        public virtual void ExtractVectorArray(System.Int32 @name, System.Collections.Generic.List<UnityEngine.Vector4> @values)
         {
 
             var ___genericsType = new Type[] {};
@@ -3454,7 +3454,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void ExtractMatrixArray(System.Int32  @name, System.Collections.Generic.List<UnityEngine.Matrix4x4>  @values)
+        public virtual void ExtractMatrixArray(System.Int32 @name, System.Collections.Generic.List<UnityEngine.Matrix4x4> @values)
         {
 
             var ___genericsType = new Type[] {};
@@ -3487,7 +3487,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SetInt(System.String  @name, System.Int32  @value)
+        public virtual void SetInt(System.String @name, System.Int32 @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -3498,7 +3498,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SetInt(System.Int32  @nameID, System.Int32  @value)
+        public virtual void SetInt(System.Int32 @nameID, System.Int32 @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -3509,7 +3509,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SetFloat(System.String  @name, System.Single  @value)
+        public virtual void SetFloat(System.String @name, System.Single @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -3520,7 +3520,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SetFloat(System.Int32  @nameID, System.Single  @value)
+        public virtual void SetFloat(System.Int32 @nameID, System.Single @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -3531,7 +3531,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SetInteger(System.String  @name, System.Int32  @value)
+        public virtual void SetInteger(System.String @name, System.Int32 @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -3542,7 +3542,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SetInteger(System.Int32  @nameID, System.Int32  @value)
+        public virtual void SetInteger(System.Int32 @nameID, System.Int32 @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -3553,7 +3553,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SetVector(System.String  @name, UnityEngine.Vector4  @value)
+        public virtual void SetVector(System.String @name, UnityEngine.Vector4 @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -3564,7 +3564,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SetVector(System.Int32  @nameID, UnityEngine.Vector4  @value)
+        public virtual void SetVector(System.Int32 @nameID, UnityEngine.Vector4 @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -3575,7 +3575,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SetColor(System.String  @name, UnityEngine.Color  @value)
+        public virtual void SetColor(System.String @name, UnityEngine.Color @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -3586,7 +3586,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SetColor(System.Int32  @nameID, UnityEngine.Color  @value)
+        public virtual void SetColor(System.Int32 @nameID, UnityEngine.Color @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -3597,7 +3597,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SetMatrix(System.String  @name, UnityEngine.Matrix4x4  @value)
+        public virtual void SetMatrix(System.String @name, UnityEngine.Matrix4x4 @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -3608,7 +3608,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SetMatrix(System.Int32  @nameID, UnityEngine.Matrix4x4  @value)
+        public virtual void SetMatrix(System.Int32 @nameID, UnityEngine.Matrix4x4 @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -3619,7 +3619,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SetBuffer(System.String  @name, UnityEngine.ComputeBuffer  @value)
+        public virtual void SetBuffer(System.String @name, UnityEngine.ComputeBuffer @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -3630,7 +3630,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SetBuffer(System.Int32  @nameID, UnityEngine.ComputeBuffer  @value)
+        public virtual void SetBuffer(System.Int32 @nameID, UnityEngine.ComputeBuffer @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -3641,7 +3641,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SetBuffer(System.String  @name, UnityEngine.GraphicsBuffer  @value)
+        public virtual void SetBuffer(System.String @name, UnityEngine.GraphicsBuffer @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -3652,7 +3652,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SetBuffer(System.Int32  @nameID, UnityEngine.GraphicsBuffer  @value)
+        public virtual void SetBuffer(System.Int32 @nameID, UnityEngine.GraphicsBuffer @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -3663,7 +3663,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SetTexture(System.String  @name, UnityEngine.Texture  @value)
+        public virtual void SetTexture(System.String @name, UnityEngine.Texture @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -3674,7 +3674,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SetTexture(System.Int32  @nameID, UnityEngine.Texture  @value)
+        public virtual void SetTexture(System.Int32 @nameID, UnityEngine.Texture @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -3685,7 +3685,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SetTexture(System.String  @name, UnityEngine.RenderTexture  @value, UnityEngine.Rendering.RenderTextureSubElement  @element)
+        public virtual void SetTexture(System.String @name, UnityEngine.RenderTexture @value, UnityEngine.Rendering.RenderTextureSubElement @element)
         {
 
             var ___genericsType = new Type[] {};
@@ -3696,7 +3696,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SetTexture(System.Int32  @nameID, UnityEngine.RenderTexture  @value, UnityEngine.Rendering.RenderTextureSubElement  @element)
+        public virtual void SetTexture(System.Int32 @nameID, UnityEngine.RenderTexture @value, UnityEngine.Rendering.RenderTextureSubElement @element)
         {
 
             var ___genericsType = new Type[] {};
@@ -3707,7 +3707,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SetConstantBuffer(System.String  @name, UnityEngine.ComputeBuffer  @value, System.Int32  @offset, System.Int32  @size)
+        public virtual void SetConstantBuffer(System.String @name, UnityEngine.ComputeBuffer @value, System.Int32 @offset, System.Int32 @size)
         {
 
             var ___genericsType = new Type[] {};
@@ -3718,7 +3718,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SetConstantBuffer(System.Int32  @nameID, UnityEngine.ComputeBuffer  @value, System.Int32  @offset, System.Int32  @size)
+        public virtual void SetConstantBuffer(System.Int32 @nameID, UnityEngine.ComputeBuffer @value, System.Int32 @offset, System.Int32 @size)
         {
 
             var ___genericsType = new Type[] {};
@@ -3729,7 +3729,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SetConstantBuffer(System.String  @name, UnityEngine.GraphicsBuffer  @value, System.Int32  @offset, System.Int32  @size)
+        public virtual void SetConstantBuffer(System.String @name, UnityEngine.GraphicsBuffer @value, System.Int32 @offset, System.Int32 @size)
         {
 
             var ___genericsType = new Type[] {};
@@ -3740,7 +3740,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SetConstantBuffer(System.Int32  @nameID, UnityEngine.GraphicsBuffer  @value, System.Int32  @offset, System.Int32  @size)
+        public virtual void SetConstantBuffer(System.Int32 @nameID, UnityEngine.GraphicsBuffer @value, System.Int32 @offset, System.Int32 @size)
         {
 
             var ___genericsType = new Type[] {};
@@ -3751,7 +3751,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SetFloatArray(System.String  @name, System.Collections.Generic.List<System.Single>  @values)
+        public virtual void SetFloatArray(System.String @name, System.Collections.Generic.List<System.Single> @values)
         {
 
             var ___genericsType = new Type[] {};
@@ -3762,7 +3762,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SetFloatArray(System.Int32  @nameID, System.Collections.Generic.List<System.Single>  @values)
+        public virtual void SetFloatArray(System.Int32 @nameID, System.Collections.Generic.List<System.Single> @values)
         {
 
             var ___genericsType = new Type[] {};
@@ -3773,7 +3773,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SetFloatArray(System.String  @name, System.Single[]  @values)
+        public virtual void SetFloatArray(System.String @name, System.Single[] @values)
         {
 
             var ___genericsType = new Type[] {};
@@ -3784,7 +3784,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SetFloatArray(System.Int32  @nameID, System.Single[]  @values)
+        public virtual void SetFloatArray(System.Int32 @nameID, System.Single[] @values)
         {
 
             var ___genericsType = new Type[] {};
@@ -3795,7 +3795,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SetVectorArray(System.String  @name, System.Collections.Generic.List<UnityEngine.Vector4>  @values)
+        public virtual void SetVectorArray(System.String @name, System.Collections.Generic.List<UnityEngine.Vector4> @values)
         {
 
             var ___genericsType = new Type[] {};
@@ -3806,7 +3806,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SetVectorArray(System.Int32  @nameID, System.Collections.Generic.List<UnityEngine.Vector4>  @values)
+        public virtual void SetVectorArray(System.Int32 @nameID, System.Collections.Generic.List<UnityEngine.Vector4> @values)
         {
 
             var ___genericsType = new Type[] {};
@@ -3817,7 +3817,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SetVectorArray(System.String  @name, UnityEngine.Vector4[]  @values)
+        public virtual void SetVectorArray(System.String @name, UnityEngine.Vector4[] @values)
         {
 
             var ___genericsType = new Type[] {};
@@ -3828,7 +3828,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SetVectorArray(System.Int32  @nameID, UnityEngine.Vector4[]  @values)
+        public virtual void SetVectorArray(System.Int32 @nameID, UnityEngine.Vector4[] @values)
         {
 
             var ___genericsType = new Type[] {};
@@ -3839,7 +3839,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SetMatrixArray(System.String  @name, System.Collections.Generic.List<UnityEngine.Matrix4x4>  @values)
+        public virtual void SetMatrixArray(System.String @name, System.Collections.Generic.List<UnityEngine.Matrix4x4> @values)
         {
 
             var ___genericsType = new Type[] {};
@@ -3850,7 +3850,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SetMatrixArray(System.Int32  @nameID, System.Collections.Generic.List<UnityEngine.Matrix4x4>  @values)
+        public virtual void SetMatrixArray(System.Int32 @nameID, System.Collections.Generic.List<UnityEngine.Matrix4x4> @values)
         {
 
             var ___genericsType = new Type[] {};
@@ -3861,7 +3861,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SetMatrixArray(System.String  @name, UnityEngine.Matrix4x4[]  @values)
+        public virtual void SetMatrixArray(System.String @name, UnityEngine.Matrix4x4[] @values)
         {
 
             var ___genericsType = new Type[] {};
@@ -3872,7 +3872,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SetMatrixArray(System.Int32  @nameID, UnityEngine.Matrix4x4[]  @values)
+        public virtual void SetMatrixArray(System.Int32 @nameID, UnityEngine.Matrix4x4[] @values)
         {
 
             var ___genericsType = new Type[] {};
@@ -3883,7 +3883,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Boolean HasProperty(System.String  @name)
+        public virtual System.Boolean HasProperty(System.String @name)
         {
 
             var ___genericsType = new Type[] {};
@@ -3894,7 +3894,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Boolean HasProperty(System.Int32  @nameID)
+        public virtual System.Boolean HasProperty(System.Int32 @nameID)
         {
 
             var ___genericsType = new Type[] {};
@@ -3905,7 +3905,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Boolean HasInt(System.String  @name)
+        public virtual System.Boolean HasInt(System.String @name)
         {
 
             var ___genericsType = new Type[] {};
@@ -3916,7 +3916,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Boolean HasInt(System.Int32  @nameID)
+        public virtual System.Boolean HasInt(System.Int32 @nameID)
         {
 
             var ___genericsType = new Type[] {};
@@ -3927,7 +3927,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Boolean HasFloat(System.String  @name)
+        public virtual System.Boolean HasFloat(System.String @name)
         {
 
             var ___genericsType = new Type[] {};
@@ -3938,7 +3938,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Boolean HasFloat(System.Int32  @nameID)
+        public virtual System.Boolean HasFloat(System.Int32 @nameID)
         {
 
             var ___genericsType = new Type[] {};
@@ -3949,7 +3949,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Boolean HasInteger(System.String  @name)
+        public virtual System.Boolean HasInteger(System.String @name)
         {
 
             var ___genericsType = new Type[] {};
@@ -3960,7 +3960,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Boolean HasInteger(System.Int32  @nameID)
+        public virtual System.Boolean HasInteger(System.Int32 @nameID)
         {
 
             var ___genericsType = new Type[] {};
@@ -3971,7 +3971,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Boolean HasTexture(System.String  @name)
+        public virtual System.Boolean HasTexture(System.String @name)
         {
 
             var ___genericsType = new Type[] {};
@@ -3982,7 +3982,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Boolean HasTexture(System.Int32  @nameID)
+        public virtual System.Boolean HasTexture(System.Int32 @nameID)
         {
 
             var ___genericsType = new Type[] {};
@@ -3993,7 +3993,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Boolean HasMatrix(System.String  @name)
+        public virtual System.Boolean HasMatrix(System.String @name)
         {
 
             var ___genericsType = new Type[] {};
@@ -4004,7 +4004,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Boolean HasMatrix(System.Int32  @nameID)
+        public virtual System.Boolean HasMatrix(System.Int32 @nameID)
         {
 
             var ___genericsType = new Type[] {};
@@ -4015,7 +4015,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Boolean HasVector(System.String  @name)
+        public virtual System.Boolean HasVector(System.String @name)
         {
 
             var ___genericsType = new Type[] {};
@@ -4026,7 +4026,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Boolean HasVector(System.Int32  @nameID)
+        public virtual System.Boolean HasVector(System.Int32 @nameID)
         {
 
             var ___genericsType = new Type[] {};
@@ -4037,7 +4037,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Boolean HasColor(System.String  @name)
+        public virtual System.Boolean HasColor(System.String @name)
         {
 
             var ___genericsType = new Type[] {};
@@ -4048,7 +4048,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Boolean HasColor(System.Int32  @nameID)
+        public virtual System.Boolean HasColor(System.Int32 @nameID)
         {
 
             var ___genericsType = new Type[] {};
@@ -4059,7 +4059,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Boolean HasBuffer(System.String  @name)
+        public virtual System.Boolean HasBuffer(System.String @name)
         {
 
             var ___genericsType = new Type[] {};
@@ -4070,7 +4070,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Boolean HasBuffer(System.Int32  @nameID)
+        public virtual System.Boolean HasBuffer(System.Int32 @nameID)
         {
 
             var ___genericsType = new Type[] {};
@@ -4081,7 +4081,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Boolean HasConstantBuffer(System.String  @name)
+        public virtual System.Boolean HasConstantBuffer(System.String @name)
         {
 
             var ___genericsType = new Type[] {};
@@ -4092,7 +4092,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Boolean HasConstantBuffer(System.Int32  @nameID)
+        public virtual System.Boolean HasConstantBuffer(System.Int32 @nameID)
         {
 
             var ___genericsType = new Type[] {};
@@ -4103,7 +4103,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Single GetFloat(System.String  @name)
+        public virtual System.Single GetFloat(System.String @name)
         {
 
             var ___genericsType = new Type[] {};
@@ -4114,7 +4114,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Single GetFloat(System.Int32  @nameID)
+        public virtual System.Single GetFloat(System.Int32 @nameID)
         {
 
             var ___genericsType = new Type[] {};
@@ -4125,7 +4125,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Int32 GetInt(System.String  @name)
+        public virtual System.Int32 GetInt(System.String @name)
         {
 
             var ___genericsType = new Type[] {};
@@ -4136,7 +4136,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Int32 GetInt(System.Int32  @nameID)
+        public virtual System.Int32 GetInt(System.Int32 @nameID)
         {
 
             var ___genericsType = new Type[] {};
@@ -4147,7 +4147,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Int32 GetInteger(System.String  @name)
+        public virtual System.Int32 GetInteger(System.String @name)
         {
 
             var ___genericsType = new Type[] {};
@@ -4158,7 +4158,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Int32 GetInteger(System.Int32  @nameID)
+        public virtual System.Int32 GetInteger(System.Int32 @nameID)
         {
 
             var ___genericsType = new Type[] {};
@@ -4169,7 +4169,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual UnityEngine.Vector4 GetVector(System.String  @name)
+        public virtual UnityEngine.Vector4 GetVector(System.String @name)
         {
 
             var ___genericsType = new Type[] {};
@@ -4180,7 +4180,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual UnityEngine.Vector4 GetVector(System.Int32  @nameID)
+        public virtual UnityEngine.Vector4 GetVector(System.Int32 @nameID)
         {
 
             var ___genericsType = new Type[] {};
@@ -4191,7 +4191,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual UnityEngine.Color GetColor(System.String  @name)
+        public virtual UnityEngine.Color GetColor(System.String @name)
         {
 
             var ___genericsType = new Type[] {};
@@ -4202,7 +4202,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual UnityEngine.Color GetColor(System.Int32  @nameID)
+        public virtual UnityEngine.Color GetColor(System.Int32 @nameID)
         {
 
             var ___genericsType = new Type[] {};
@@ -4213,7 +4213,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual UnityEngine.Matrix4x4 GetMatrix(System.String  @name)
+        public virtual UnityEngine.Matrix4x4 GetMatrix(System.String @name)
         {
 
             var ___genericsType = new Type[] {};
@@ -4224,7 +4224,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual UnityEngine.Matrix4x4 GetMatrix(System.Int32  @nameID)
+        public virtual UnityEngine.Matrix4x4 GetMatrix(System.Int32 @nameID)
         {
 
             var ___genericsType = new Type[] {};
@@ -4235,7 +4235,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual UnityEngine.Texture GetTexture(System.String  @name)
+        public virtual UnityEngine.Texture GetTexture(System.String @name)
         {
 
             var ___genericsType = new Type[] {};
@@ -4246,7 +4246,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual UnityEngine.Texture GetTexture(System.Int32  @nameID)
+        public virtual UnityEngine.Texture GetTexture(System.Int32 @nameID)
         {
 
             var ___genericsType = new Type[] {};
@@ -4257,7 +4257,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Single[] GetFloatArray(System.String  @name)
+        public virtual System.Single[] GetFloatArray(System.String @name)
         {
 
             var ___genericsType = new Type[] {};
@@ -4268,7 +4268,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Single[] GetFloatArray(System.Int32  @nameID)
+        public virtual System.Single[] GetFloatArray(System.Int32 @nameID)
         {
 
             var ___genericsType = new Type[] {};
@@ -4279,7 +4279,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual UnityEngine.Vector4[] GetVectorArray(System.String  @name)
+        public virtual UnityEngine.Vector4[] GetVectorArray(System.String @name)
         {
 
             var ___genericsType = new Type[] {};
@@ -4290,7 +4290,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual UnityEngine.Vector4[] GetVectorArray(System.Int32  @nameID)
+        public virtual UnityEngine.Vector4[] GetVectorArray(System.Int32 @nameID)
         {
 
             var ___genericsType = new Type[] {};
@@ -4301,7 +4301,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual UnityEngine.Matrix4x4[] GetMatrixArray(System.String  @name)
+        public virtual UnityEngine.Matrix4x4[] GetMatrixArray(System.String @name)
         {
 
             var ___genericsType = new Type[] {};
@@ -4312,7 +4312,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual UnityEngine.Matrix4x4[] GetMatrixArray(System.Int32  @nameID)
+        public virtual UnityEngine.Matrix4x4[] GetMatrixArray(System.Int32 @nameID)
         {
 
             var ___genericsType = new Type[] {};
@@ -4323,7 +4323,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void GetFloatArray(System.String  @name, System.Collections.Generic.List<System.Single>  @values)
+        public virtual void GetFloatArray(System.String @name, System.Collections.Generic.List<System.Single> @values)
         {
 
             var ___genericsType = new Type[] {};
@@ -4334,7 +4334,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void GetFloatArray(System.Int32  @nameID, System.Collections.Generic.List<System.Single>  @values)
+        public virtual void GetFloatArray(System.Int32 @nameID, System.Collections.Generic.List<System.Single> @values)
         {
 
             var ___genericsType = new Type[] {};
@@ -4345,7 +4345,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void GetVectorArray(System.String  @name, System.Collections.Generic.List<UnityEngine.Vector4>  @values)
+        public virtual void GetVectorArray(System.String @name, System.Collections.Generic.List<UnityEngine.Vector4> @values)
         {
 
             var ___genericsType = new Type[] {};
@@ -4356,7 +4356,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void GetVectorArray(System.Int32  @nameID, System.Collections.Generic.List<UnityEngine.Vector4>  @values)
+        public virtual void GetVectorArray(System.Int32 @nameID, System.Collections.Generic.List<UnityEngine.Vector4> @values)
         {
 
             var ___genericsType = new Type[] {};
@@ -4367,7 +4367,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void GetMatrixArray(System.String  @name, System.Collections.Generic.List<UnityEngine.Matrix4x4>  @values)
+        public virtual void GetMatrixArray(System.String @name, System.Collections.Generic.List<UnityEngine.Matrix4x4> @values)
         {
 
             var ___genericsType = new Type[] {};
@@ -4378,7 +4378,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void GetMatrixArray(System.Int32  @nameID, System.Collections.Generic.List<UnityEngine.Matrix4x4>  @values)
+        public virtual void GetMatrixArray(System.Int32 @nameID, System.Collections.Generic.List<UnityEngine.Matrix4x4> @values)
         {
 
             var ___genericsType = new Type[] {};
@@ -4389,7 +4389,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void CopySHCoefficientArraysFrom(System.Collections.Generic.List<UnityEngine.Rendering.SphericalHarmonicsL2>  @lightProbes)
+        public virtual void CopySHCoefficientArraysFrom(System.Collections.Generic.List<UnityEngine.Rendering.SphericalHarmonicsL2> @lightProbes)
         {
 
             var ___genericsType = new Type[] {};
@@ -4400,7 +4400,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void CopySHCoefficientArraysFrom(UnityEngine.Rendering.SphericalHarmonicsL2[]  @lightProbes)
+        public virtual void CopySHCoefficientArraysFrom(UnityEngine.Rendering.SphericalHarmonicsL2[] @lightProbes)
         {
 
             var ___genericsType = new Type[] {};
@@ -4411,7 +4411,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void CopySHCoefficientArraysFrom(System.Collections.Generic.List<UnityEngine.Rendering.SphericalHarmonicsL2>  @lightProbes, System.Int32  @sourceStart, System.Int32  @destStart, System.Int32  @count)
+        public virtual void CopySHCoefficientArraysFrom(System.Collections.Generic.List<UnityEngine.Rendering.SphericalHarmonicsL2> @lightProbes, System.Int32 @sourceStart, System.Int32 @destStart, System.Int32 @count)
         {
 
             var ___genericsType = new Type[] {};
@@ -4422,7 +4422,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void CopySHCoefficientArraysFrom(UnityEngine.Rendering.SphericalHarmonicsL2[]  @lightProbes, System.Int32  @sourceStart, System.Int32  @destStart, System.Int32  @count)
+        public virtual void CopySHCoefficientArraysFrom(UnityEngine.Rendering.SphericalHarmonicsL2[] @lightProbes, System.Int32 @sourceStart, System.Int32 @destStart, System.Int32 @count)
         {
 
             var ___genericsType = new Type[] {};
@@ -4433,7 +4433,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void CopyProbeOcclusionArrayFrom(System.Collections.Generic.List<UnityEngine.Vector4>  @occlusionProbes)
+        public virtual void CopyProbeOcclusionArrayFrom(System.Collections.Generic.List<UnityEngine.Vector4> @occlusionProbes)
         {
 
             var ___genericsType = new Type[] {};
@@ -4444,7 +4444,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void CopyProbeOcclusionArrayFrom(UnityEngine.Vector4[]  @occlusionProbes)
+        public virtual void CopyProbeOcclusionArrayFrom(UnityEngine.Vector4[] @occlusionProbes)
         {
 
             var ___genericsType = new Type[] {};
@@ -4455,7 +4455,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void CopyProbeOcclusionArrayFrom(System.Collections.Generic.List<UnityEngine.Vector4>  @occlusionProbes, System.Int32  @sourceStart, System.Int32  @destStart, System.Int32  @count)
+        public virtual void CopyProbeOcclusionArrayFrom(System.Collections.Generic.List<UnityEngine.Vector4> @occlusionProbes, System.Int32 @sourceStart, System.Int32 @destStart, System.Int32 @count)
         {
 
             var ___genericsType = new Type[] {};
@@ -4466,7 +4466,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void CopyProbeOcclusionArrayFrom(UnityEngine.Vector4[]  @occlusionProbes, System.Int32  @sourceStart, System.Int32  @destStart, System.Int32  @count)
+        public virtual void CopyProbeOcclusionArrayFrom(UnityEngine.Vector4[] @occlusionProbes, System.Int32 @sourceStart, System.Int32 @destStart, System.Int32 @count)
         {
 
             var ___genericsType = new Type[] {};
@@ -4477,7 +4477,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void GetVectorImpl_Injected(System.Int32  @name, out UnityEngine.Vector4  @ret)
+        public virtual void GetVectorImpl_Injected(System.Int32 @name, out UnityEngine.Vector4 @ret)
         {
 			@ret = default;
 
@@ -4490,7 +4490,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void GetColorImpl_Injected(System.Int32  @name, out UnityEngine.Color  @ret)
+        public virtual void GetColorImpl_Injected(System.Int32 @name, out UnityEngine.Color @ret)
         {
 			@ret = default;
 
@@ -4503,7 +4503,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void GetMatrixImpl_Injected(System.Int32  @name, out UnityEngine.Matrix4x4  @ret)
+        public virtual void GetMatrixImpl_Injected(System.Int32 @name, out UnityEngine.Matrix4x4 @ret)
         {
 			@ret = default;
 
@@ -4516,7 +4516,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SetVectorImpl_Injected(System.Int32  @name, ref UnityEngine.Vector4  @value)
+        public virtual void SetVectorImpl_Injected(System.Int32 @name, ref UnityEngine.Vector4 @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -4528,7 +4528,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SetColorImpl_Injected(System.Int32  @name, ref UnityEngine.Color  @value)
+        public virtual void SetColorImpl_Injected(System.Int32 @name, ref UnityEngine.Color @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -4540,7 +4540,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SetMatrixImpl_Injected(System.Int32  @name, ref UnityEngine.Matrix4x4  @value)
+        public virtual void SetMatrixImpl_Injected(System.Int32 @name, ref UnityEngine.Matrix4x4 @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -4552,7 +4552,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

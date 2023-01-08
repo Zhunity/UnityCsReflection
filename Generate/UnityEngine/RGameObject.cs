@@ -1711,7 +1711,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 	    {
 	    }
 
-        public static UnityEngine.GameObject CreatePrimitive(UnityEngine.PrimitiveType  @type)
+        public static UnityEngine.GameObject CreatePrimitive(UnityEngine.PrimitiveType @type)
         {
 
             var ___genericsType = new Type[] {};
@@ -1733,7 +1733,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual UnityEngine.Component GetComponent(System.Type  @type)
+        public virtual UnityEngine.Component GetComponent(System.Type @type)
         {
 
             var ___genericsType = new Type[] {};
@@ -1744,7 +1744,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void GetComponentFastPath(System.Type  @type, System.IntPtr  @oneFurtherThanResultValue)
+        public virtual void GetComponentFastPath(System.Type @type, System.IntPtr @oneFurtherThanResultValue)
         {
 
             var ___genericsType = new Type[] {};
@@ -1755,7 +1755,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual UnityEngine.Component GetComponentByName(System.String  @type)
+        public virtual UnityEngine.Component GetComponentByName(System.String @type)
         {
 
             var ___genericsType = new Type[] {};
@@ -1766,7 +1766,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual UnityEngine.Component GetComponent(System.String  @type)
+        public virtual UnityEngine.Component GetComponent(System.String @type)
         {
 
             var ___genericsType = new Type[] {};
@@ -1777,7 +1777,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual UnityEngine.Component GetComponentInChildren(System.Type  @type, System.Boolean  @includeInactive)
+        public virtual UnityEngine.Component GetComponentInChildren(System.Type @type, System.Boolean @includeInactive)
         {
 
             var ___genericsType = new Type[] {};
@@ -1788,7 +1788,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual UnityEngine.Component GetComponentInChildren(System.Type  @type)
+        public virtual UnityEngine.Component GetComponentInChildren(System.Type @type)
         {
 
             var ___genericsType = new Type[] {};
@@ -1810,7 +1810,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual T GetComponentInChildren<T>(System.Boolean  @includeInactive)
+        public virtual T GetComponentInChildren<T>(System.Boolean @includeInactive)
         {
 
             var ___genericsType = new Type[] {typeof(T)};
@@ -1821,7 +1821,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual UnityEngine.Component GetComponentInParent(System.Type  @type, System.Boolean  @includeInactive)
+        public virtual UnityEngine.Component GetComponentInParent(System.Type @type, System.Boolean @includeInactive)
         {
 
             var ___genericsType = new Type[] {};
@@ -1832,7 +1832,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual UnityEngine.Component GetComponentInParent(System.Type  @type)
+        public virtual UnityEngine.Component GetComponentInParent(System.Type @type)
         {
 
             var ___genericsType = new Type[] {};
@@ -1854,7 +1854,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual T GetComponentInParent<T>(System.Boolean  @includeInactive)
+        public virtual T GetComponentInParent<T>(System.Boolean @includeInactive)
         {
 
             var ___genericsType = new Type[] {typeof(T)};
@@ -1865,7 +1865,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Array GetComponentsInternal(System.Type  @type, System.Boolean  @useSearchTypeAsArrayReturnType, System.Boolean  @recursive, System.Boolean  @includeInactive, System.Boolean  @reverse, System.Object  @resultList)
+        public virtual System.Array GetComponentsInternal(System.Type @type, System.Boolean @useSearchTypeAsArrayReturnType, System.Boolean @recursive, System.Boolean @includeInactive, System.Boolean @reverse, System.Object @resultList)
         {
 
             var ___genericsType = new Type[] {};
@@ -1876,7 +1876,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual UnityEngine.Component[] GetComponents(System.Type  @type)
+        public virtual UnityEngine.Component[] GetComponents(System.Type @type)
         {
 
             var ___genericsType = new Type[] {};
@@ -1898,7 +1898,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void GetComponents(System.Type  @type, System.Collections.Generic.List<UnityEngine.Component>  @results)
+        public virtual void GetComponents(System.Type @type, System.Collections.Generic.List<UnityEngine.Component> @results)
         {
 
             var ___genericsType = new Type[] {};
@@ -1909,7 +1909,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void GetComponents<T>(System.Collections.Generic.List<T>  @results)
+        public virtual void GetComponents<T>(System.Collections.Generic.List<T> @results)
         {
 
             var ___genericsType = new Type[] {typeof(T)};
@@ -1920,7 +1920,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual UnityEngine.Component[] GetComponentsInChildren(System.Type  @type)
+        public virtual UnityEngine.Component[] GetComponentsInChildren(System.Type @type)
         {
 
             var ___genericsType = new Type[] {};
@@ -1931,7 +1931,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual UnityEngine.Component[] GetComponentsInChildren(System.Type  @type, System.Boolean  @includeInactive)
+        public virtual UnityEngine.Component[] GetComponentsInChildren(System.Type @type, System.Boolean @includeInactive)
         {
 
             var ___genericsType = new Type[] {};
@@ -1942,7 +1942,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual T[] GetComponentsInChildren<T>(System.Boolean  @includeInactive)
+        public virtual T[] GetComponentsInChildren<T>(System.Boolean @includeInactive)
         {
 
             var ___genericsType = new Type[] {typeof(T)};
@@ -1953,7 +1953,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void GetComponentsInChildren<T>(System.Boolean  @includeInactive, System.Collections.Generic.List<T>  @results)
+        public virtual void GetComponentsInChildren<T>(System.Boolean @includeInactive, System.Collections.Generic.List<T> @results)
         {
 
             var ___genericsType = new Type[] {typeof(T)};
@@ -1975,7 +1975,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void GetComponentsInChildren<T>(System.Collections.Generic.List<T>  @results)
+        public virtual void GetComponentsInChildren<T>(System.Collections.Generic.List<T> @results)
         {
 
             var ___genericsType = new Type[] {typeof(T)};
@@ -1986,7 +1986,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual UnityEngine.Component[] GetComponentsInParent(System.Type  @type)
+        public virtual UnityEngine.Component[] GetComponentsInParent(System.Type @type)
         {
 
             var ___genericsType = new Type[] {};
@@ -1997,7 +1997,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual UnityEngine.Component[] GetComponentsInParent(System.Type  @type, System.Boolean  @includeInactive)
+        public virtual UnityEngine.Component[] GetComponentsInParent(System.Type @type, System.Boolean @includeInactive)
         {
 
             var ___genericsType = new Type[] {};
@@ -2008,7 +2008,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void GetComponentsInParent<T>(System.Boolean  @includeInactive, System.Collections.Generic.List<T>  @results)
+        public virtual void GetComponentsInParent<T>(System.Boolean @includeInactive, System.Collections.Generic.List<T> @results)
         {
 
             var ___genericsType = new Type[] {typeof(T)};
@@ -2019,7 +2019,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual T[] GetComponentsInParent<T>(System.Boolean  @includeInactive)
+        public virtual T[] GetComponentsInParent<T>(System.Boolean @includeInactive)
         {
 
             var ___genericsType = new Type[] {typeof(T)};
@@ -2041,7 +2041,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Boolean TryGetComponent<T>(out T  @component)
+        public virtual System.Boolean TryGetComponent<T>(out T @component)
         {
 			@component = default;
 
@@ -2054,7 +2054,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Boolean TryGetComponent(System.Type  @type, out UnityEngine.Component  @component)
+        public virtual System.Boolean TryGetComponent(System.Type @type, out UnityEngine.Component @component)
         {
 			@component = default;
 
@@ -2067,7 +2067,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual UnityEngine.Component TryGetComponentInternal(System.Type  @type)
+        public virtual UnityEngine.Component TryGetComponentInternal(System.Type @type)
         {
 
             var ___genericsType = new Type[] {};
@@ -2078,7 +2078,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void TryGetComponentFastPath(System.Type  @type, System.IntPtr  @oneFurtherThanResultValue)
+        public virtual void TryGetComponentFastPath(System.Type @type, System.IntPtr @oneFurtherThanResultValue)
         {
 
             var ___genericsType = new Type[] {};
@@ -2089,7 +2089,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.GameObject FindWithTag(System.String  @tag)
+        public static UnityEngine.GameObject FindWithTag(System.String @tag)
         {
 
             var ___genericsType = new Type[] {};
@@ -2100,7 +2100,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SendMessageUpwards(System.String  @methodName, UnityEngine.SendMessageOptions  @options)
+        public virtual void SendMessageUpwards(System.String @methodName, UnityEngine.SendMessageOptions @options)
         {
 
             var ___genericsType = new Type[] {};
@@ -2111,7 +2111,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SendMessage(System.String  @methodName, UnityEngine.SendMessageOptions  @options)
+        public virtual void SendMessage(System.String @methodName, UnityEngine.SendMessageOptions @options)
         {
 
             var ___genericsType = new Type[] {};
@@ -2122,7 +2122,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void BroadcastMessage(System.String  @methodName, UnityEngine.SendMessageOptions  @options)
+        public virtual void BroadcastMessage(System.String @methodName, UnityEngine.SendMessageOptions @options)
         {
 
             var ___genericsType = new Type[] {};
@@ -2133,7 +2133,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual UnityEngine.Component AddComponentInternal(System.String  @className)
+        public virtual UnityEngine.Component AddComponentInternal(System.String @className)
         {
 
             var ___genericsType = new Type[] {};
@@ -2144,7 +2144,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual UnityEngine.Component Internal_AddComponentWithType(System.Type  @componentType)
+        public virtual UnityEngine.Component Internal_AddComponentWithType(System.Type @componentType)
         {
 
             var ___genericsType = new Type[] {};
@@ -2155,7 +2155,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual UnityEngine.Component AddComponent(System.Type  @componentType)
+        public virtual UnityEngine.Component AddComponent(System.Type @componentType)
         {
 
             var ___genericsType = new Type[] {};
@@ -2177,7 +2177,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SetActive(System.Boolean  @value)
+        public virtual void SetActive(System.Boolean @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -2188,7 +2188,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SetActiveRecursively(System.Boolean  @state)
+        public virtual void SetActiveRecursively(System.Boolean @state)
         {
 
             var ___genericsType = new Type[] {};
@@ -2199,7 +2199,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Boolean CompareTag(System.String  @tag)
+        public virtual System.Boolean CompareTag(System.String @tag)
         {
 
             var ___genericsType = new Type[] {};
@@ -2210,7 +2210,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.GameObject FindGameObjectWithTag(System.String  @tag)
+        public static UnityEngine.GameObject FindGameObjectWithTag(System.String @tag)
         {
 
             var ___genericsType = new Type[] {};
@@ -2221,7 +2221,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.GameObject[] FindGameObjectsWithTag(System.String  @tag)
+        public static UnityEngine.GameObject[] FindGameObjectsWithTag(System.String @tag)
         {
 
             var ___genericsType = new Type[] {};
@@ -2232,7 +2232,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SendMessageUpwards(System.String  @methodName, System.Object  @value, UnityEngine.SendMessageOptions  @options)
+        public virtual void SendMessageUpwards(System.String @methodName, System.Object @value, UnityEngine.SendMessageOptions @options)
         {
 
             var ___genericsType = new Type[] {};
@@ -2243,7 +2243,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SendMessageUpwards(System.String  @methodName, System.Object  @value)
+        public virtual void SendMessageUpwards(System.String @methodName, System.Object @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -2254,7 +2254,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SendMessageUpwards(System.String  @methodName)
+        public virtual void SendMessageUpwards(System.String @methodName)
         {
 
             var ___genericsType = new Type[] {};
@@ -2265,7 +2265,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SendMessage(System.String  @methodName, System.Object  @value, UnityEngine.SendMessageOptions  @options)
+        public virtual void SendMessage(System.String @methodName, System.Object @value, UnityEngine.SendMessageOptions @options)
         {
 
             var ___genericsType = new Type[] {};
@@ -2276,7 +2276,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SendMessage(System.String  @methodName, System.Object  @value)
+        public virtual void SendMessage(System.String @methodName, System.Object @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -2287,7 +2287,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SendMessage(System.String  @methodName)
+        public virtual void SendMessage(System.String @methodName)
         {
 
             var ___genericsType = new Type[] {};
@@ -2298,7 +2298,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void BroadcastMessage(System.String  @methodName, System.Object  @parameter, UnityEngine.SendMessageOptions  @options)
+        public virtual void BroadcastMessage(System.String @methodName, System.Object @parameter, UnityEngine.SendMessageOptions @options)
         {
 
             var ___genericsType = new Type[] {};
@@ -2309,7 +2309,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void BroadcastMessage(System.String  @methodName, System.Object  @parameter)
+        public virtual void BroadcastMessage(System.String @methodName, System.Object @parameter)
         {
 
             var ___genericsType = new Type[] {};
@@ -2320,7 +2320,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void BroadcastMessage(System.String  @methodName)
+        public virtual void BroadcastMessage(System.String @methodName)
         {
 
             var ___genericsType = new Type[] {};
@@ -2331,7 +2331,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static void Internal_CreateGameObject(UnityEngine.GameObject  @self, System.String  @name)
+        public static void Internal_CreateGameObject(UnityEngine.GameObject @self, System.String @name)
         {
 
             var ___genericsType = new Type[] {};
@@ -2342,7 +2342,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.GameObject Find(System.String  @name)
+        public static UnityEngine.GameObject Find(System.String @name)
         {
 
             var ___genericsType = new Type[] {};
@@ -2375,7 +2375,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SampleAnimation(UnityEngine.Object  @clip, System.Single  @time)
+        public virtual void SampleAnimation(UnityEngine.Object @clip, System.Single @time)
         {
 
             var ___genericsType = new Type[] {};
@@ -2386,7 +2386,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual UnityEngine.Component AddComponent(System.String  @className)
+        public virtual UnityEngine.Component AddComponent(System.String @className)
         {
 
             var ___genericsType = new Type[] {};
@@ -2397,7 +2397,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void PlayAnimation(UnityEngine.Object  @animation)
+        public virtual void PlayAnimation(UnityEngine.Object @animation)
         {
 
             var ___genericsType = new Type[] {};
@@ -2419,7 +2419,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void get_scene_Injected(out UnityEngine.SceneManagement.Scene  @ret)
+        public virtual void get_scene_Injected(out UnityEngine.SceneManagement.Scene @ret)
         {
 			@ret = default;
 
@@ -2432,7 +2432,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void CalculateBounds_Injected(out UnityEngine.Bounds  @ret)
+        public virtual void CalculateBounds_Injected(out UnityEngine.Bounds @ret)
         {
 			@ret = default;
 
@@ -2467,7 +2467,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @other)
+        public virtual System.Boolean Equals(System.Object @other)
         {
 
             var ___genericsType = new Type[] {};

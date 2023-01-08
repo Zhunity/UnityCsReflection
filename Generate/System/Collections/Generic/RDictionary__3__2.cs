@@ -1201,7 +1201,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
 	    {
 	    }
 
-        public virtual void Add(TKey  @key, TValue  @value)
+        public virtual void Add(TKey @key, TValue @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -1212,7 +1212,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
         }
 
 
-        public virtual void System__2__Collections__2__Generic__2__ICollection__0__System__2__Collections__2__Generic__2__KeyValuePair__0__TKey__5__TValue__1____1____2__Add(System.Collections.Generic.KeyValuePair<TKey, TValue>  @keyValuePair)
+        public virtual void System__2__Collections__2__Generic__2__ICollection__0__System__2__Collections__2__Generic__2__KeyValuePair__0__TKey__5__TValue__1____1____2__Add(System.Collections.Generic.KeyValuePair<TKey, TValue> @keyValuePair)
         {
 
             var ___genericsType = new Type[] {};
@@ -1223,7 +1223,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
         }
 
 
-        public virtual System.Boolean System__2__Collections__2__Generic__2__ICollection__0__System__2__Collections__2__Generic__2__KeyValuePair__0__TKey__5__TValue__1____1____2__Contains(System.Collections.Generic.KeyValuePair<TKey, TValue>  @keyValuePair)
+        public virtual System.Boolean System__2__Collections__2__Generic__2__ICollection__0__System__2__Collections__2__Generic__2__KeyValuePair__0__TKey__5__TValue__1____1____2__Contains(System.Collections.Generic.KeyValuePair<TKey, TValue> @keyValuePair)
         {
 
             var ___genericsType = new Type[] {};
@@ -1234,7 +1234,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
         }
 
 
-        public virtual System.Boolean System__2__Collections__2__Generic__2__ICollection__0__System__2__Collections__2__Generic__2__KeyValuePair__0__TKey__5__TValue__1____1____2__Remove(System.Collections.Generic.KeyValuePair<TKey, TValue>  @keyValuePair)
+        public virtual System.Boolean System__2__Collections__2__Generic__2__ICollection__0__System__2__Collections__2__Generic__2__KeyValuePair__0__TKey__5__TValue__1____1____2__Remove(System.Collections.Generic.KeyValuePair<TKey, TValue> @keyValuePair)
         {
 
             var ___genericsType = new Type[] {};
@@ -1256,7 +1256,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
         }
 
 
-        public virtual System.Boolean ContainsKey(TKey  @key)
+        public virtual System.Boolean ContainsKey(TKey @key)
         {
 
             var ___genericsType = new Type[] {};
@@ -1267,7 +1267,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
         }
 
 
-        public virtual System.Boolean ContainsValue(TValue  @value)
+        public virtual System.Boolean ContainsValue(TValue @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -1278,7 +1278,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
         }
 
 
-        public virtual void CopyTo(System.Collections.Generic.KeyValuePair<TKey, TValue>[]  @array, System.Int32  @index)
+        public virtual void CopyTo(System.Collections.Generic.KeyValuePair<TKey, TValue>[] @array, System.Int32 @index)
         {
 
             var ___genericsType = new Type[] {};
@@ -1289,14 +1289,14 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
         }
 
 
-        public virtual System.Object GetEnumerator()
+        public virtual RSystem.RCollections.RGeneric.RDictionary<RType, RType>.REnumerator GetEnumerator()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RGetEnumerator.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RSystem.RCollections.RGeneric.RDictionary<RType, RType>.REnumerator(___result);
         }
 
 
@@ -1311,7 +1311,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
         }
 
 
-        public virtual void GetObjectData(System.Runtime.Serialization.SerializationInfo  @info, System.Runtime.Serialization.StreamingContext  @context)
+        public virtual void GetObjectData(System.Runtime.Serialization.SerializationInfo @info, System.Runtime.Serialization.StreamingContext @context)
         {
 
             var ___genericsType = new Type[] {};
@@ -1322,7 +1322,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
         }
 
 
-        public virtual System.Int32 FindEntry(TKey  @key)
+        public virtual System.Int32 FindEntry(TKey @key)
         {
 
             var ___genericsType = new Type[] {};
@@ -1333,7 +1333,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
         }
 
 
-        public virtual System.Int32 Initialize(System.Int32  @capacity)
+        public virtual System.Int32 Initialize(System.Int32 @capacity)
         {
 
             var ___genericsType = new Type[] {};
@@ -1344,7 +1344,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
         }
 
 
-        public virtual System.Boolean TryInsert(TKey  @key, TValue  @value, RType  @behavior)
+        public virtual System.Boolean TryInsert(TKey @key, TValue @value, RType @behavior)
         {
 
             var ___genericsType = new Type[] {};
@@ -1355,7 +1355,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
         }
 
 
-        public virtual void OnDeserialization(System.Object  @sender)
+        public virtual void OnDeserialization(System.Object @sender)
         {
 
             var ___genericsType = new Type[] {};
@@ -1377,7 +1377,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
         }
 
 
-        public virtual void Resize(System.Int32  @newSize, System.Boolean  @forceNewHashCodes)
+        public virtual void Resize(System.Int32 @newSize, System.Boolean @forceNewHashCodes)
         {
 
             var ___genericsType = new Type[] {};
@@ -1388,7 +1388,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
         }
 
 
-        public virtual System.Boolean Remove(TKey  @key)
+        public virtual System.Boolean Remove(TKey @key)
         {
 
             var ___genericsType = new Type[] {};
@@ -1399,7 +1399,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
         }
 
 
-        public virtual System.Boolean Remove(TKey  @key, out TValue  @value)
+        public virtual System.Boolean Remove(TKey @key, out TValue @value)
         {
 			@value = default;
 
@@ -1412,7 +1412,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
         }
 
 
-        public virtual System.Boolean TryGetValue(TKey  @key, out TValue  @value)
+        public virtual System.Boolean TryGetValue(TKey @key, out TValue @value)
         {
 			@value = default;
 
@@ -1425,7 +1425,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
         }
 
 
-        public virtual System.Boolean TryAdd(TKey  @key, TValue  @value)
+        public virtual System.Boolean TryAdd(TKey @key, TValue @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -1436,7 +1436,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
         }
 
 
-        public virtual void System__2__Collections__2__Generic__2__ICollection__0__System__2__Collections__2__Generic__2__KeyValuePair__0__TKey__5__TValue__1____1____2__CopyTo(System.Collections.Generic.KeyValuePair<TKey, TValue>[]  @array, System.Int32  @index)
+        public virtual void System__2__Collections__2__Generic__2__ICollection__0__System__2__Collections__2__Generic__2__KeyValuePair__0__TKey__5__TValue__1____1____2__CopyTo(System.Collections.Generic.KeyValuePair<TKey, TValue>[] @array, System.Int32 @index)
         {
 
             var ___genericsType = new Type[] {};
@@ -1447,7 +1447,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
         }
 
 
-        public virtual void System__2__Collections__2__ICollection__2__CopyTo(System.Array  @array, System.Int32  @index)
+        public virtual void System__2__Collections__2__ICollection__2__CopyTo(System.Array @array, System.Int32 @index)
         {
 
             var ___genericsType = new Type[] {};
@@ -1469,7 +1469,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
         }
 
 
-        public virtual System.Int32 EnsureCapacity(System.Int32  @capacity)
+        public virtual System.Int32 EnsureCapacity(System.Int32 @capacity)
         {
 
             var ___genericsType = new Type[] {};
@@ -1491,7 +1491,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
         }
 
 
-        public virtual void TrimExcess(System.Int32  @capacity)
+        public virtual void TrimExcess(System.Int32 @capacity)
         {
 
             var ___genericsType = new Type[] {};
@@ -1502,7 +1502,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
         }
 
 
-        public static System.Boolean IsCompatibleKey(System.Object  @key)
+        public static System.Boolean IsCompatibleKey(System.Object @key)
         {
 
             var ___genericsType = new Type[] {};
@@ -1513,7 +1513,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
         }
 
 
-        public virtual void System__2__Collections__2__IDictionary__2__Add(System.Object  @key, System.Object  @value)
+        public virtual void System__2__Collections__2__IDictionary__2__Add(System.Object @key, System.Object @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -1524,7 +1524,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
         }
 
 
-        public virtual System.Boolean System__2__Collections__2__IDictionary__2__Contains(System.Object  @key)
+        public virtual System.Boolean System__2__Collections__2__IDictionary__2__Contains(System.Object @key)
         {
 
             var ___genericsType = new Type[] {};
@@ -1546,7 +1546,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
         }
 
 
-        public virtual void System__2__Collections__2__IDictionary__2__Remove(System.Object  @key)
+        public virtual void System__2__Collections__2__IDictionary__2__Remove(System.Object @key)
         {
 
             var ___genericsType = new Type[] {};
@@ -1557,7 +1557,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

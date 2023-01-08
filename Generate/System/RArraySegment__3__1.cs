@@ -691,14 +691,14 @@ namespace SMFrame.Editor.Refleaction.RSystem
 	    {
 	    }
 
-        public virtual System.Object GetEnumerator()
+        public virtual RSystem.RArraySegment<RType>.REnumerator GetEnumerator()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RGetEnumerator.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RSystem.RArraySegment<RType>.REnumerator(___result);
         }
 
 
@@ -713,7 +713,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual void CopyTo(T[]  @destination)
+        public virtual void CopyTo(T[] @destination)
         {
 
             var ___genericsType = new Type[] {};
@@ -724,7 +724,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual void CopyTo(T[]  @destination, System.Int32  @destinationIndex)
+        public virtual void CopyTo(T[] @destination, System.Int32 @destinationIndex)
         {
 
             var ___genericsType = new Type[] {};
@@ -735,7 +735,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual void CopyTo(System.ArraySegment<T>  @destination)
+        public virtual void CopyTo(System.ArraySegment<T> @destination)
         {
 
             var ___genericsType = new Type[] {};
@@ -746,7 +746,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};
@@ -757,7 +757,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Boolean Equals(System.ArraySegment<T>  @obj)
+        public virtual System.Boolean Equals(System.ArraySegment<T> @obj)
         {
 
             var ___genericsType = new Type[] {};
@@ -768,7 +768,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.ArraySegment<T> Slice(System.Int32  @index)
+        public virtual System.ArraySegment<T> Slice(System.Int32 @index)
         {
 
             var ___genericsType = new Type[] {};
@@ -779,7 +779,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.ArraySegment<T> Slice(System.Int32  @index, System.Int32  @count)
+        public virtual System.ArraySegment<T> Slice(System.Int32 @index, System.Int32 @count)
         {
 
             var ___genericsType = new Type[] {};
@@ -801,7 +801,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Boolean op_Equality(System.ArraySegment<T>  @a, System.ArraySegment<T>  @b)
+        public static System.Boolean op_Equality(System.ArraySegment<T> @a, System.ArraySegment<T> @b)
         {
 
             var ___genericsType = new Type[] {};
@@ -812,7 +812,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Boolean op_Inequality(System.ArraySegment<T>  @a, System.ArraySegment<T>  @b)
+        public static System.Boolean op_Inequality(System.ArraySegment<T> @a, System.ArraySegment<T> @b)
         {
 
             var ___genericsType = new Type[] {};
@@ -823,7 +823,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.ArraySegment<T> op_Implicit(T[]  @array)
+        public static System.ArraySegment<T> op_Implicit(T[] @array)
         {
 
             var ___genericsType = new Type[] {};
@@ -834,7 +834,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Int32 System__2__Collections__2__Generic__2__IList__0__T__1____2__IndexOf(T  @item)
+        public virtual System.Int32 System__2__Collections__2__Generic__2__IList__0__T__1____2__IndexOf(T @item)
         {
 
             var ___genericsType = new Type[] {};
@@ -845,7 +845,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual void System__2__Collections__2__Generic__2__IList__0__T__1____2__Insert(System.Int32  @index, T  @item)
+        public virtual void System__2__Collections__2__Generic__2__IList__0__T__1____2__Insert(System.Int32 @index, T @item)
         {
 
             var ___genericsType = new Type[] {};
@@ -856,7 +856,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual void System__2__Collections__2__Generic__2__IList__0__T__1____2__RemoveAt(System.Int32  @index)
+        public virtual void System__2__Collections__2__Generic__2__IList__0__T__1____2__RemoveAt(System.Int32 @index)
         {
 
             var ___genericsType = new Type[] {};
@@ -867,7 +867,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual void System__2__Collections__2__Generic__2__ICollection__0__T__1____2__Add(T  @item)
+        public virtual void System__2__Collections__2__Generic__2__ICollection__0__T__1____2__Add(T @item)
         {
 
             var ___genericsType = new Type[] {};
@@ -889,7 +889,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Boolean System__2__Collections__2__Generic__2__ICollection__0__T__1____2__Contains(T  @item)
+        public virtual System.Boolean System__2__Collections__2__Generic__2__ICollection__0__T__1____2__Contains(T @item)
         {
 
             var ___genericsType = new Type[] {};
@@ -900,7 +900,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Boolean System__2__Collections__2__Generic__2__ICollection__0__T__1____2__Remove(T  @item)
+        public virtual System.Boolean System__2__Collections__2__Generic__2__ICollection__0__T__1____2__Remove(T @item)
         {
 
             var ___genericsType = new Type[] {};

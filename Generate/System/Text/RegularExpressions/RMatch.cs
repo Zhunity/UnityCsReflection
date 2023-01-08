@@ -759,7 +759,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 	    {
 	    }
 
-        public virtual void Reset(System.Text.RegularExpressions.Regex  @regex, System.String  @text, System.Int32  @textbeg, System.Int32  @textend, System.Int32  @textstart)
+        public virtual void Reset(System.Text.RegularExpressions.Regex @regex, System.String @text, System.Int32 @textbeg, System.Int32 @textend, System.Int32 @textstart)
         {
 
             var ___genericsType = new Type[] {};
@@ -781,7 +781,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
         }
 
 
-        public virtual System.String Result(System.String  @replacement)
+        public virtual System.String Result(System.String @replacement)
         {
 
             var ___genericsType = new Type[] {};
@@ -792,7 +792,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
         }
 
 
-        public virtual System.Object GroupToStringImpl(System.Int32  @groupnum)
+        public virtual System.Object GroupToStringImpl(System.Int32 @groupnum)
         {
 
             var ___genericsType = new Type[] {};
@@ -814,7 +814,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
         }
 
 
-        public static System.Text.RegularExpressions.Match Synchronized(System.Text.RegularExpressions.Match  @inner)
+        public static System.Text.RegularExpressions.Match Synchronized(System.Text.RegularExpressions.Match @inner)
         {
 
             var ___genericsType = new Type[] {};
@@ -825,7 +825,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
         }
 
 
-        public virtual void AddMatch(System.Int32  @cap, System.Int32  @start, System.Int32  @len)
+        public virtual void AddMatch(System.Int32 @cap, System.Int32 @start, System.Int32 @len)
         {
 
             var ___genericsType = new Type[] {};
@@ -836,7 +836,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
         }
 
 
-        public virtual void BalanceMatch(System.Int32  @cap)
+        public virtual void BalanceMatch(System.Int32 @cap)
         {
 
             var ___genericsType = new Type[] {};
@@ -847,7 +847,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
         }
 
 
-        public virtual void RemoveMatch(System.Int32  @cap)
+        public virtual void RemoveMatch(System.Int32 @cap)
         {
 
             var ___genericsType = new Type[] {};
@@ -858,7 +858,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
         }
 
 
-        public virtual System.Boolean IsMatched(System.Int32  @cap)
+        public virtual System.Boolean IsMatched(System.Int32 @cap)
         {
 
             var ___genericsType = new Type[] {};
@@ -869,7 +869,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
         }
 
 
-        public virtual System.Int32 MatchIndex(System.Int32  @cap)
+        public virtual System.Int32 MatchIndex(System.Int32 @cap)
         {
 
             var ___genericsType = new Type[] {};
@@ -880,7 +880,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
         }
 
 
-        public virtual System.Int32 MatchLength(System.Int32  @cap)
+        public virtual System.Int32 MatchLength(System.Int32 @cap)
         {
 
             var ___genericsType = new Type[] {};
@@ -891,7 +891,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
         }
 
 
-        public virtual void Tidy(System.Int32  @textpos)
+        public virtual void Tidy(System.Int32 @textpos)
         {
 
             var ___genericsType = new Type[] {};
@@ -935,7 +935,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

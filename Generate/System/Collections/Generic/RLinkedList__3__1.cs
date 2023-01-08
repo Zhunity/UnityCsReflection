@@ -861,7 +861,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
 	    {
 	    }
 
-        public virtual void System__2__Collections__2__Generic__2__ICollection__0__T__1____2__Add(T  @value)
+        public virtual void System__2__Collections__2__Generic__2__ICollection__0__T__1____2__Add(T @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -872,7 +872,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
         }
 
 
-        public virtual System.Collections.Generic.LinkedListNode<T> AddAfter(System.Collections.Generic.LinkedListNode<T>  @node, T  @value)
+        public virtual System.Collections.Generic.LinkedListNode<T> AddAfter(System.Collections.Generic.LinkedListNode<T> @node, T @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -883,7 +883,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
         }
 
 
-        public virtual void AddAfter(System.Collections.Generic.LinkedListNode<T>  @node, System.Collections.Generic.LinkedListNode<T>  @newNode)
+        public virtual void AddAfter(System.Collections.Generic.LinkedListNode<T> @node, System.Collections.Generic.LinkedListNode<T> @newNode)
         {
 
             var ___genericsType = new Type[] {};
@@ -894,7 +894,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
         }
 
 
-        public virtual System.Collections.Generic.LinkedListNode<T> AddBefore(System.Collections.Generic.LinkedListNode<T>  @node, T  @value)
+        public virtual System.Collections.Generic.LinkedListNode<T> AddBefore(System.Collections.Generic.LinkedListNode<T> @node, T @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -905,7 +905,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
         }
 
 
-        public virtual void AddBefore(System.Collections.Generic.LinkedListNode<T>  @node, System.Collections.Generic.LinkedListNode<T>  @newNode)
+        public virtual void AddBefore(System.Collections.Generic.LinkedListNode<T> @node, System.Collections.Generic.LinkedListNode<T> @newNode)
         {
 
             var ___genericsType = new Type[] {};
@@ -916,7 +916,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
         }
 
 
-        public virtual System.Collections.Generic.LinkedListNode<T> AddFirst(T  @value)
+        public virtual System.Collections.Generic.LinkedListNode<T> AddFirst(T @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -927,7 +927,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
         }
 
 
-        public virtual void AddFirst(System.Collections.Generic.LinkedListNode<T>  @node)
+        public virtual void AddFirst(System.Collections.Generic.LinkedListNode<T> @node)
         {
 
             var ___genericsType = new Type[] {};
@@ -938,7 +938,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
         }
 
 
-        public virtual System.Collections.Generic.LinkedListNode<T> AddLast(T  @value)
+        public virtual System.Collections.Generic.LinkedListNode<T> AddLast(T @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -949,7 +949,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
         }
 
 
-        public virtual void AddLast(System.Collections.Generic.LinkedListNode<T>  @node)
+        public virtual void AddLast(System.Collections.Generic.LinkedListNode<T> @node)
         {
 
             var ___genericsType = new Type[] {};
@@ -971,7 +971,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
         }
 
 
-        public virtual System.Boolean Contains(T  @value)
+        public virtual System.Boolean Contains(T @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -982,7 +982,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
         }
 
 
-        public virtual void CopyTo(T[]  @array, System.Int32  @index)
+        public virtual void CopyTo(T[] @array, System.Int32 @index)
         {
 
             var ___genericsType = new Type[] {};
@@ -993,7 +993,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
         }
 
 
-        public virtual System.Collections.Generic.LinkedListNode<T> Find(T  @value)
+        public virtual System.Collections.Generic.LinkedListNode<T> Find(T @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -1004,7 +1004,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
         }
 
 
-        public virtual System.Collections.Generic.LinkedListNode<T> FindLast(T  @value)
+        public virtual System.Collections.Generic.LinkedListNode<T> FindLast(T @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -1015,14 +1015,14 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
         }
 
 
-        public virtual System.Object GetEnumerator()
+        public virtual RSystem.RCollections.RGeneric.RLinkedList<RType>.REnumerator GetEnumerator()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RGetEnumerator.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RSystem.RCollections.RGeneric.RLinkedList<RType>.REnumerator(___result);
         }
 
 
@@ -1037,7 +1037,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
         }
 
 
-        public virtual System.Boolean Remove(T  @value)
+        public virtual System.Boolean Remove(T @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -1048,7 +1048,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
         }
 
 
-        public virtual void Remove(System.Collections.Generic.LinkedListNode<T>  @node)
+        public virtual void Remove(System.Collections.Generic.LinkedListNode<T> @node)
         {
 
             var ___genericsType = new Type[] {};
@@ -1081,7 +1081,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
         }
 
 
-        public virtual void GetObjectData(System.Runtime.Serialization.SerializationInfo  @info, System.Runtime.Serialization.StreamingContext  @context)
+        public virtual void GetObjectData(System.Runtime.Serialization.SerializationInfo @info, System.Runtime.Serialization.StreamingContext @context)
         {
 
             var ___genericsType = new Type[] {};
@@ -1092,7 +1092,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
         }
 
 
-        public virtual void OnDeserialization(System.Object  @sender)
+        public virtual void OnDeserialization(System.Object @sender)
         {
 
             var ___genericsType = new Type[] {};
@@ -1103,7 +1103,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
         }
 
 
-        public virtual void InternalInsertNodeBefore(System.Collections.Generic.LinkedListNode<T>  @node, System.Collections.Generic.LinkedListNode<T>  @newNode)
+        public virtual void InternalInsertNodeBefore(System.Collections.Generic.LinkedListNode<T> @node, System.Collections.Generic.LinkedListNode<T> @newNode)
         {
 
             var ___genericsType = new Type[] {};
@@ -1114,7 +1114,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
         }
 
 
-        public virtual void InternalInsertNodeToEmptyList(System.Collections.Generic.LinkedListNode<T>  @newNode)
+        public virtual void InternalInsertNodeToEmptyList(System.Collections.Generic.LinkedListNode<T> @newNode)
         {
 
             var ___genericsType = new Type[] {};
@@ -1125,7 +1125,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
         }
 
 
-        public virtual void InternalRemoveNode(System.Collections.Generic.LinkedListNode<T>  @node)
+        public virtual void InternalRemoveNode(System.Collections.Generic.LinkedListNode<T> @node)
         {
 
             var ___genericsType = new Type[] {};
@@ -1136,7 +1136,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
         }
 
 
-        public virtual void ValidateNewNode(System.Collections.Generic.LinkedListNode<T>  @node)
+        public virtual void ValidateNewNode(System.Collections.Generic.LinkedListNode<T> @node)
         {
 
             var ___genericsType = new Type[] {};
@@ -1147,7 +1147,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
         }
 
 
-        public virtual void ValidateNode(System.Collections.Generic.LinkedListNode<T>  @node)
+        public virtual void ValidateNode(System.Collections.Generic.LinkedListNode<T> @node)
         {
 
             var ___genericsType = new Type[] {};
@@ -1158,7 +1158,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
         }
 
 
-        public virtual void System__2__Collections__2__ICollection__2__CopyTo(System.Array  @array, System.Int32  @index)
+        public virtual void System__2__Collections__2__ICollection__2__CopyTo(System.Array @array, System.Int32 @index)
         {
 
             var ___genericsType = new Type[] {};
@@ -1180,7 +1180,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

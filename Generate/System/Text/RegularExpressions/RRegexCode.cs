@@ -1133,7 +1133,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 	    {
 	    }
 
-        public static System.Boolean OpcodeBacktracks(System.Int32  @Op)
+        public static System.Boolean OpcodeBacktracks(System.Int32 @Op)
         {
 
             var ___genericsType = new Type[] {};
@@ -1144,7 +1144,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
         }
 
 
-        public static System.Int32 OpcodeSize(System.Int32  @opcode)
+        public static System.Int32 OpcodeSize(System.Int32 @opcode)
         {
 
             var ___genericsType = new Type[] {};
@@ -1155,7 +1155,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

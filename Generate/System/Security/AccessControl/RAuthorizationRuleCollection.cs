@@ -232,7 +232,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 	    {
 	    }
 
-        public virtual void AddRule(System.Security.AccessControl.AuthorizationRule  @rule)
+        public virtual void AddRule(System.Security.AccessControl.AuthorizationRule @rule)
         {
 
             var ___genericsType = new Type[] {};
@@ -243,7 +243,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
         }
 
 
-        public virtual void CopyTo(System.Security.AccessControl.AuthorizationRule[]  @rules, System.Int32  @index)
+        public virtual void CopyTo(System.Security.AccessControl.AuthorizationRule[] @rules, System.Int32 @index)
         {
 
             var ___genericsType = new Type[] {};
@@ -265,7 +265,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

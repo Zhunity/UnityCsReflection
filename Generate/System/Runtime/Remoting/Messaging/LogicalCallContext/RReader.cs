@@ -262,7 +262,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
         }
 
 
-        public virtual System.Object GetData(System.String  @name)
+        public virtual System.Object GetData(System.String @name)
         {
 
             var ___genericsType = new Type[] {};
@@ -273,7 +273,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

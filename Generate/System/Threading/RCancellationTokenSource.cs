@@ -844,7 +844,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 	    {
 	    }
 
-        public virtual void InitializeWithTimer(System.Int32  @millisecondsDelay)
+        public virtual void InitializeWithTimer(System.Int32 @millisecondsDelay)
         {
 
             var ___genericsType = new Type[] {};
@@ -866,7 +866,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public virtual void Cancel(System.Boolean  @throwOnFirstException)
+        public virtual void Cancel(System.Boolean @throwOnFirstException)
         {
 
             var ___genericsType = new Type[] {};
@@ -877,7 +877,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public virtual void CancelAfter(System.TimeSpan  @delay)
+        public virtual void CancelAfter(System.TimeSpan @delay)
         {
 
             var ___genericsType = new Type[] {};
@@ -888,7 +888,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public virtual void CancelAfter(System.Int32  @millisecondsDelay)
+        public virtual void CancelAfter(System.Int32 @millisecondsDelay)
         {
 
             var ___genericsType = new Type[] {};
@@ -899,7 +899,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public static void TimerCallbackLogic(System.Object  @obj)
+        public static void TimerCallbackLogic(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};
@@ -921,7 +921,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public virtual void Dispose(System.Boolean  @disposing)
+        public virtual void Dispose(System.Boolean @disposing)
         {
 
             var ___genericsType = new Type[] {};
@@ -954,7 +954,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public virtual System.Threading.CancellationTokenRegistration InternalRegister(System.Action<System.Object>  @callback, System.Object  @stateForCallback, System.Threading.SynchronizationContext  @targetSyncContext, System.Threading.ExecutionContext  @executionContext)
+        public virtual System.Threading.CancellationTokenRegistration InternalRegister(System.Action<System.Object> @callback, System.Object @stateForCallback, System.Threading.SynchronizationContext @targetSyncContext, System.Threading.ExecutionContext @executionContext)
         {
 
             var ___genericsType = new Type[] {};
@@ -965,7 +965,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public virtual void NotifyCancellation(System.Boolean  @throwOnFirstException)
+        public virtual void NotifyCancellation(System.Boolean @throwOnFirstException)
         {
 
             var ___genericsType = new Type[] {};
@@ -976,7 +976,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public virtual void ExecuteCallbackHandlers(System.Boolean  @throwOnFirstException)
+        public virtual void ExecuteCallbackHandlers(System.Boolean @throwOnFirstException)
         {
 
             var ___genericsType = new Type[] {};
@@ -987,7 +987,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public virtual void CancellationCallbackCoreWork_OnSyncContext(System.Object  @obj)
+        public virtual void CancellationCallbackCoreWork_OnSyncContext(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};
@@ -998,7 +998,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public virtual void CancellationCallbackCoreWork(RSystem.RThreading.RCancellationCallbackCoreWorkArguments  @args)
+        public virtual void CancellationCallbackCoreWork(RSystem.RThreading.RCancellationCallbackCoreWorkArguments @args)
         {
 
             var ___genericsType = new Type[] {};
@@ -1009,7 +1009,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public static System.Threading.CancellationTokenSource CreateLinkedTokenSource(System.Threading.CancellationToken  @token1, System.Threading.CancellationToken  @token2)
+        public static System.Threading.CancellationTokenSource CreateLinkedTokenSource(System.Threading.CancellationToken @token1, System.Threading.CancellationToken @token2)
         {
 
             var ___genericsType = new Type[] {};
@@ -1020,7 +1020,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public static System.Threading.CancellationTokenSource CreateLinkedTokenSource(System.Threading.CancellationToken  @token)
+        public static System.Threading.CancellationTokenSource CreateLinkedTokenSource(System.Threading.CancellationToken @token)
         {
 
             var ___genericsType = new Type[] {};
@@ -1031,7 +1031,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public static System.Threading.CancellationTokenSource CreateLinkedTokenSource(System.Threading.CancellationToken[]  @tokens)
+        public static System.Threading.CancellationTokenSource CreateLinkedTokenSource(System.Threading.CancellationToken[] @tokens)
         {
 
             var ___genericsType = new Type[] {};
@@ -1042,7 +1042,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public virtual void WaitForCallbackToComplete(RSystem.RThreading.RCancellationCallbackInfo  @callbackInfo)
+        public virtual void WaitForCallbackToComplete(RSystem.RThreading.RCancellationCallbackInfo @callbackInfo)
         {
 
             var ___genericsType = new Type[] {};
@@ -1053,7 +1053,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

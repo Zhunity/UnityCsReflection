@@ -385,7 +385,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 	    {
 	    }
 
-        public static System.Text.RegularExpressions.Group Synchronized(System.Text.RegularExpressions.Group  @inner)
+        public static System.Text.RegularExpressions.Group Synchronized(System.Text.RegularExpressions.Group @inner)
         {
 
             var ___genericsType = new Type[] {};
@@ -429,7 +429,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

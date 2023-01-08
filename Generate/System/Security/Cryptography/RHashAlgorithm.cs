@@ -617,7 +617,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
         }
 
 
-        public static System.Security.Cryptography.HashAlgorithm Create(System.String  @hashName)
+        public static System.Security.Cryptography.HashAlgorithm Create(System.String @hashName)
         {
 
             var ___genericsType = new Type[] {};
@@ -628,7 +628,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
         }
 
 
-        public virtual System.Byte[] ComputeHash(System.Byte[]  @buffer)
+        public virtual System.Byte[] ComputeHash(System.Byte[] @buffer)
         {
 
             var ___genericsType = new Type[] {};
@@ -640,7 +640,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
 
 
 
-        public virtual System.Byte[] ComputeHash(System.Byte[]  @buffer, System.Int32  @offset, System.Int32  @count)
+        public virtual System.Byte[] ComputeHash(System.Byte[] @buffer, System.Int32 @offset, System.Int32 @count)
         {
 
             var ___genericsType = new Type[] {};
@@ -651,7 +651,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
         }
 
 
-        public virtual System.Byte[] ComputeHash(System.IO.Stream  @inputStream)
+        public virtual System.Byte[] ComputeHash(System.IO.Stream @inputStream)
         {
 
             var ___genericsType = new Type[] {};
@@ -695,7 +695,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
         }
 
 
-        public virtual void Dispose(System.Boolean  @disposing)
+        public virtual void Dispose(System.Boolean @disposing)
         {
 
             var ___genericsType = new Type[] {};
@@ -706,7 +706,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
         }
 
 
-        public virtual System.Int32 TransformBlock(System.Byte[]  @inputBuffer, System.Int32  @inputOffset, System.Int32  @inputCount, System.Byte[]  @outputBuffer, System.Int32  @outputOffset)
+        public virtual System.Int32 TransformBlock(System.Byte[] @inputBuffer, System.Int32 @inputOffset, System.Int32 @inputCount, System.Byte[] @outputBuffer, System.Int32 @outputOffset)
         {
 
             var ___genericsType = new Type[] {};
@@ -717,7 +717,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
         }
 
 
-        public virtual System.Byte[] TransformFinalBlock(System.Byte[]  @inputBuffer, System.Int32  @inputOffset, System.Int32  @inputCount)
+        public virtual System.Byte[] TransformFinalBlock(System.Byte[] @inputBuffer, System.Int32 @inputOffset, System.Int32 @inputCount)
         {
 
             var ___genericsType = new Type[] {};
@@ -728,7 +728,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
         }
 
 
-        public virtual void ValidateTransformBlock(System.Byte[]  @inputBuffer, System.Int32  @inputOffset, System.Int32  @inputCount)
+        public virtual void ValidateTransformBlock(System.Byte[] @inputBuffer, System.Int32 @inputOffset, System.Int32 @inputCount)
         {
 
             var ___genericsType = new Type[] {};
@@ -739,7 +739,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
         }
 
 
-        public virtual void HashCore(System.Byte[]  @array, System.Int32  @ibStart, System.Int32  @cbSize)
+        public virtual void HashCore(System.Byte[] @array, System.Int32 @ibStart, System.Int32 @cbSize)
         {
 
             var ___genericsType = new Type[] {};
@@ -774,7 +774,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
 
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

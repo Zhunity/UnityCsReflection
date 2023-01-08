@@ -691,7 +691,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
 	    {
 	    }
 
-        public virtual void SetValue(RType  @id, System.Single  @value)
+        public virtual void SetValue(RType @id, System.Single @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -702,7 +702,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
         }
 
 
-        public virtual void SetValue(RType  @id, UnityEngine.Color  @value)
+        public virtual void SetValue(RType @id, UnityEngine.Color @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -713,18 +713,18 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
         }
 
 
-        public virtual System.Object Values()
+        public virtual RUnityEngine.RUIElements.RStyleValueCollection Values()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RValues.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RUnityEngine.RUIElements.RStyleValueCollection(___result);
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

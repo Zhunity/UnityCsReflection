@@ -974,7 +974,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Guid Parse(System.String  @input)
+        public static System.Guid Parse(System.String @input)
         {
 
             var ___genericsType = new Type[] {};
@@ -986,7 +986,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 
 
 
-        public static System.Boolean TryParse(System.String  @input, out System.Guid  @result)
+        public static System.Boolean TryParse(System.String @input, out System.Guid @result)
         {
 			@result = default;
 
@@ -1000,7 +1000,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 
 
 
-        public static System.Guid ParseExact(System.String  @input, System.String  @format)
+        public static System.Guid ParseExact(System.String @input, System.String @format)
         {
 
             var ___genericsType = new Type[] {};
@@ -1012,7 +1012,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 
 
 
-        public static System.Boolean TryParseExact(System.String  @input, System.String  @format, out System.Guid  @result)
+        public static System.Boolean TryParseExact(System.String @input, System.String @format, out System.Guid @result)
         {
 			@result = default;
 
@@ -1072,7 +1072,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @o)
+        public virtual System.Boolean Equals(System.Object @o)
         {
 
             var ___genericsType = new Type[] {};
@@ -1083,7 +1083,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Boolean Equals(System.Guid  @g)
+        public virtual System.Boolean Equals(System.Guid @g)
         {
 
             var ___genericsType = new Type[] {};
@@ -1094,7 +1094,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Int32 GetResult(System.UInt32  @me, System.UInt32  @them)
+        public virtual System.Int32 GetResult(System.UInt32 @me, System.UInt32 @them)
         {
 
             var ___genericsType = new Type[] {};
@@ -1105,7 +1105,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Int32 CompareTo(System.Object  @value)
+        public virtual System.Int32 CompareTo(System.Object @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -1116,7 +1116,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Int32 CompareTo(System.Guid  @value)
+        public virtual System.Int32 CompareTo(System.Guid @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -1127,7 +1127,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Boolean op_Equality(System.Guid  @a, System.Guid  @b)
+        public static System.Boolean op_Equality(System.Guid @a, System.Guid @b)
         {
 
             var ___genericsType = new Type[] {};
@@ -1138,7 +1138,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Boolean op_Inequality(System.Guid  @a, System.Guid  @b)
+        public static System.Boolean op_Inequality(System.Guid @a, System.Guid @b)
         {
 
             var ___genericsType = new Type[] {};
@@ -1149,7 +1149,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.String ToString(System.String  @format)
+        public virtual System.String ToString(System.String @format)
         {
 
             var ___genericsType = new Type[] {};
@@ -1160,7 +1160,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Char HexToChar(System.Int32  @a)
+        public static System.Char HexToChar(System.Int32 @a)
         {
 
             var ___genericsType = new Type[] {};
@@ -1173,7 +1173,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 
 
 
-        public virtual System.String ToString(System.String  @format, System.IFormatProvider  @provider)
+        public virtual System.String ToString(System.String @format, System.IFormatProvider @provider)
         {
 
             var ___genericsType = new Type[] {};

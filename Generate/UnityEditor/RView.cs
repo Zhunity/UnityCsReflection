@@ -770,7 +770,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual System.String DebugHierarchy(System.Int32  @level)
+        public virtual System.String DebugHierarchy(System.Int32 @level)
         {
 
             var ___genericsType = new Type[] {};
@@ -781,8 +781,18 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
+        public virtual void Initialize(RUnityEditor.RContainerWindow @win)
+        {
 
-        public virtual void SetMinMaxSizes(UnityEngine.Vector2  @min, UnityEngine.Vector2  @max)
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@win.Value};
+            var ___result = RInitialize_ContainerWindow.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void SetMinMaxSizes(UnityEngine.Vector2 @min, UnityEngine.Vector2 @max)
         {
 
             var ___genericsType = new Type[] {};
@@ -815,7 +825,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual void SetPosition(UnityEngine.Rect  @newPos)
+        public virtual void SetPosition(UnityEngine.Rect @newPos)
         {
 
             var ___genericsType = new Type[] {};
@@ -826,7 +836,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual void SetPositionOnly(UnityEngine.Rect  @newPos)
+        public virtual void SetPositionOnly(UnityEngine.Rect @newPos)
         {
 
             var ___genericsType = new Type[] {};
@@ -836,6 +846,16 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
             
         }
 
+
+        public virtual System.Int32 IndexOfChild(RUnityEditor.RView @child)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@child.Value};
+            var ___result = RIndexOfChild_View.Invoke(___genericsType, ___parameters);
+
+            return (System.Int32)___result;
+        }
 
 
         public virtual void OnDestroy()
@@ -849,10 +869,40 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
+        public virtual void AddChild(RUnityEditor.RView @child)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@child.Value};
+            var ___result = RAddChild_View.Invoke(___genericsType, ___parameters);
+
+            
+        }
 
 
+        public virtual void AddChild(RUnityEditor.RView @child, System.Int32 @idx)
+        {
 
-        public virtual void RemoveChild(System.Int32  @idx)
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@child.Value, @idx};
+            var ___result = RAddChild_View_Int32.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void RemoveChild(RUnityEditor.RView @child)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@child.Value};
+            var ___result = RRemoveChild_View.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void RemoveChild(System.Int32 @idx)
         {
 
             var ___genericsType = new Type[] {};
@@ -863,6 +913,26 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
+        public virtual void SetWindow(RUnityEditor.RContainerWindow @win)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@win.Value};
+            var ___result = RSetWindow_ContainerWindow.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void SetWindowRecurse(RUnityEditor.RContainerWindow @win)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@win.Value};
+            var ___result = RSetWindowRecurse_ContainerWindow.Invoke(___genericsType, ___parameters);
+
+            
+        }
 
 
         public virtual System.Boolean OnFocus()
@@ -909,7 +979,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @other)
+        public virtual System.Boolean Equals(System.Object @other)
         {
 
             var ___genericsType = new Type[] {};

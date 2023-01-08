@@ -368,7 +368,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 	    {
 	    }
 
-        public virtual void Add(ref RUnityEngine.RUIElements.RUIR.RNudgeJobData  @job)
+        public virtual void Add(ref RUnityEngine.RUIElements.RUIR.RNudgeJobData @job)
         {
 
             var ___genericsType = new Type[] {};
@@ -380,7 +380,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
         }
 
 
-        public virtual void Add(ref RUnityEngine.RUIElements.RUIR.RConvertMeshJobData  @job)
+        public virtual void Add(ref RUnityEngine.RUIElements.RUIR.RConvertMeshJobData @job)
         {
 
             var ___genericsType = new Type[] {};
@@ -392,7 +392,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
         }
 
 
-        public virtual void Add(ref RUnityEngine.RUIElements.RUIR.RCopyClosingMeshJobData  @job)
+        public virtual void Add(ref RUnityEngine.RUIElements.RUIR.RCopyClosingMeshJobData @job)
         {
 
             var ___genericsType = new Type[] {};
@@ -448,7 +448,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
         }
 
 
-        public virtual void Dispose(System.Boolean  @disposing)
+        public virtual void Dispose(System.Boolean @disposing)
         {
 
             var ___genericsType = new Type[] {};
@@ -459,7 +459,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

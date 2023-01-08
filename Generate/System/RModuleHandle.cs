@@ -436,7 +436,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 	    {
 	    }
 
-        public virtual void GetPEKind(out System.Reflection.PortableExecutableKinds  @peKind, out System.Reflection.ImageFileMachine  @machine)
+        public virtual void GetPEKind(out System.Reflection.PortableExecutableKinds @peKind, out System.Reflection.ImageFileMachine @machine)
         {
 			@peKind = default;
 			@machine = default;
@@ -451,7 +451,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.RuntimeFieldHandle ResolveFieldHandle(System.Int32  @fieldToken)
+        public virtual System.RuntimeFieldHandle ResolveFieldHandle(System.Int32 @fieldToken)
         {
 
             var ___genericsType = new Type[] {};
@@ -462,7 +462,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.RuntimeMethodHandle ResolveMethodHandle(System.Int32  @methodToken)
+        public virtual System.RuntimeMethodHandle ResolveMethodHandle(System.Int32 @methodToken)
         {
 
             var ___genericsType = new Type[] {};
@@ -473,7 +473,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.RuntimeTypeHandle ResolveTypeHandle(System.Int32  @typeToken)
+        public virtual System.RuntimeTypeHandle ResolveTypeHandle(System.Int32 @typeToken)
         {
 
             var ___genericsType = new Type[] {};
@@ -484,7 +484,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.IntPtr[] ptrs_from_handles(System.RuntimeTypeHandle[]  @handles)
+        public virtual System.IntPtr[] ptrs_from_handles(System.RuntimeTypeHandle[] @handles)
         {
 
             var ___genericsType = new Type[] {};
@@ -495,7 +495,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.RuntimeTypeHandle ResolveTypeHandle(System.Int32  @typeToken, System.RuntimeTypeHandle[]  @typeInstantiationContext, System.RuntimeTypeHandle[]  @methodInstantiationContext)
+        public virtual System.RuntimeTypeHandle ResolveTypeHandle(System.Int32 @typeToken, System.RuntimeTypeHandle[] @typeInstantiationContext, System.RuntimeTypeHandle[] @methodInstantiationContext)
         {
 
             var ___genericsType = new Type[] {};
@@ -506,7 +506,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.RuntimeMethodHandle ResolveMethodHandle(System.Int32  @methodToken, System.RuntimeTypeHandle[]  @typeInstantiationContext, System.RuntimeTypeHandle[]  @methodInstantiationContext)
+        public virtual System.RuntimeMethodHandle ResolveMethodHandle(System.Int32 @methodToken, System.RuntimeTypeHandle[] @typeInstantiationContext, System.RuntimeTypeHandle[] @methodInstantiationContext)
         {
 
             var ___genericsType = new Type[] {};
@@ -517,7 +517,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.RuntimeFieldHandle ResolveFieldHandle(System.Int32  @fieldToken, System.RuntimeTypeHandle[]  @typeInstantiationContext, System.RuntimeTypeHandle[]  @methodInstantiationContext)
+        public virtual System.RuntimeFieldHandle ResolveFieldHandle(System.Int32 @fieldToken, System.RuntimeTypeHandle[] @typeInstantiationContext, System.RuntimeTypeHandle[] @methodInstantiationContext)
         {
 
             var ___genericsType = new Type[] {};
@@ -528,7 +528,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.RuntimeFieldHandle GetRuntimeFieldHandleFromMetadataToken(System.Int32  @fieldToken)
+        public virtual System.RuntimeFieldHandle GetRuntimeFieldHandleFromMetadataToken(System.Int32 @fieldToken)
         {
 
             var ___genericsType = new Type[] {};
@@ -539,7 +539,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.RuntimeMethodHandle GetRuntimeMethodHandleFromMetadataToken(System.Int32  @methodToken)
+        public virtual System.RuntimeMethodHandle GetRuntimeMethodHandleFromMetadataToken(System.Int32 @methodToken)
         {
 
             var ___genericsType = new Type[] {};
@@ -550,7 +550,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.RuntimeTypeHandle GetRuntimeTypeHandleFromMetadataToken(System.Int32  @typeToken)
+        public virtual System.RuntimeTypeHandle GetRuntimeTypeHandleFromMetadataToken(System.Int32 @typeToken)
         {
 
             var ___genericsType = new Type[] {};
@@ -561,7 +561,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};
@@ -572,7 +572,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Boolean Equals(System.ModuleHandle  @handle)
+        public virtual System.Boolean Equals(System.ModuleHandle @handle)
         {
 
             var ___genericsType = new Type[] {};
@@ -594,7 +594,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Boolean op_Equality(System.ModuleHandle  @left, System.ModuleHandle  @right)
+        public static System.Boolean op_Equality(System.ModuleHandle @left, System.ModuleHandle @right)
         {
 
             var ___genericsType = new Type[] {};
@@ -605,7 +605,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Boolean op_Inequality(System.ModuleHandle  @left, System.ModuleHandle  @right)
+        public static System.Boolean op_Inequality(System.ModuleHandle @left, System.ModuleHandle @right)
         {
 
             var ___genericsType = new Type[] {};

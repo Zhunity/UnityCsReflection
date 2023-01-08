@@ -566,7 +566,7 @@ namespace SMFrame.Editor.Refleaction.RMono.RSecurity
         }
 
 
-        public static System.Security.Cryptography.HashAlgorithm GetHashAlgorithm(System.String  @algorithm)
+        public static System.Security.Cryptography.HashAlgorithm GetHashAlgorithm(System.String @algorithm)
         {
 
             var ___genericsType = new Type[] {};
@@ -588,7 +588,7 @@ namespace SMFrame.Editor.Refleaction.RMono.RSecurity
         }
 
 
-        public virtual System.UInt32 RVAtoPosition(System.UInt32  @r, System.Int32  @sections, System.Byte[]  @headers)
+        public virtual System.UInt32 RVAtoPosition(System.UInt32 @r, System.Int32 @sections, System.Byte[] @headers)
         {
 
             var ___genericsType = new Type[] {};
@@ -599,18 +599,18 @@ namespace SMFrame.Editor.Refleaction.RMono.RSecurity
         }
 
 
-        public static System.Object Error(System.String  @a)
+        public static RMono.RSecurity.RStrongName.RStrongNameSignature Error(System.String @a)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@a};
             var ___result = RError_String.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RMono.RSecurity.RStrongName.RStrongNameSignature(___result);
         }
 
 
-        public static System.Byte[] ReadMore(System.IO.Stream  @stream, System.Byte[]  @a, System.Int32  @newSize)
+        public static System.Byte[] ReadMore(System.IO.Stream @stream, System.Byte[] @a, System.Int32 @newSize)
         {
 
             var ___genericsType = new Type[] {};
@@ -621,18 +621,18 @@ namespace SMFrame.Editor.Refleaction.RMono.RSecurity
         }
 
 
-        public virtual System.Object StrongHash(System.IO.Stream  @stream, RType  @options)
+        public virtual RMono.RSecurity.RStrongName.RStrongNameSignature StrongHash(System.IO.Stream @stream, RType @options)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@stream, @options.Value};
             var ___result = RStrongHash_Stream_StrongNameOptions.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RMono.RSecurity.RStrongName.RStrongNameSignature(___result);
         }
 
 
-        public virtual System.Byte[] Hash(System.String  @fileName)
+        public virtual System.Byte[] Hash(System.String @fileName)
         {
 
             var ___genericsType = new Type[] {};
@@ -643,7 +643,7 @@ namespace SMFrame.Editor.Refleaction.RMono.RSecurity
         }
 
 
-        public virtual System.Boolean Sign(System.String  @fileName)
+        public virtual System.Boolean Sign(System.String @fileName)
         {
 
             var ___genericsType = new Type[] {};
@@ -654,7 +654,7 @@ namespace SMFrame.Editor.Refleaction.RMono.RSecurity
         }
 
 
-        public virtual System.Boolean Verify(System.String  @fileName)
+        public virtual System.Boolean Verify(System.String @fileName)
         {
 
             var ___genericsType = new Type[] {};
@@ -665,7 +665,7 @@ namespace SMFrame.Editor.Refleaction.RMono.RSecurity
         }
 
 
-        public virtual System.Boolean Verify(System.IO.Stream  @stream)
+        public virtual System.Boolean Verify(System.IO.Stream @stream)
         {
 
             var ___genericsType = new Type[] {};
@@ -676,7 +676,7 @@ namespace SMFrame.Editor.Refleaction.RMono.RSecurity
         }
 
 
-        public static System.Boolean IsAssemblyStrongnamed(System.String  @assemblyName)
+        public static System.Boolean IsAssemblyStrongnamed(System.String @assemblyName)
         {
 
             var ___genericsType = new Type[] {};
@@ -687,7 +687,7 @@ namespace SMFrame.Editor.Refleaction.RMono.RSecurity
         }
 
 
-        public static System.Boolean VerifySignature(System.Byte[]  @publicKey, System.Int32  @algorithm, System.Byte[]  @hash, System.Byte[]  @signature)
+        public static System.Boolean VerifySignature(System.Byte[] @publicKey, System.Int32 @algorithm, System.Byte[] @hash, System.Byte[] @signature)
         {
 
             var ___genericsType = new Type[] {};
@@ -698,7 +698,7 @@ namespace SMFrame.Editor.Refleaction.RMono.RSecurity
         }
 
 
-        public static System.Boolean Verify(System.Security.Cryptography.RSA  @rsa, System.Configuration.Assemblies.AssemblyHashAlgorithm  @algorithm, System.Byte[]  @hash, System.Byte[]  @signature)
+        public static System.Boolean Verify(System.Security.Cryptography.RSA @rsa, System.Configuration.Assemblies.AssemblyHashAlgorithm @algorithm, System.Byte[] @hash, System.Byte[] @signature)
         {
 
             var ___genericsType = new Type[] {};
@@ -709,7 +709,7 @@ namespace SMFrame.Editor.Refleaction.RMono.RSecurity
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

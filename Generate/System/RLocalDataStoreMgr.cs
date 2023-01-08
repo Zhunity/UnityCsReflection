@@ -419,18 +419,18 @@ namespace SMFrame.Editor.Refleaction.RSystem
 	    {
 	    }
 
-        public virtual System.Object CreateLocalDataStore()
+        public virtual RSystem.RLocalDataStoreHolder CreateLocalDataStore()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RCreateLocalDataStore.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RSystem.RLocalDataStoreHolder(___result);
         }
 
 
-        public virtual void DeleteLocalDataStore(RSystem.RLocalDataStore  @store)
+        public virtual void DeleteLocalDataStore(RSystem.RLocalDataStore @store)
         {
 
             var ___genericsType = new Type[] {};
@@ -452,7 +452,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.LocalDataStoreSlot AllocateNamedDataSlot(System.String  @name)
+        public virtual System.LocalDataStoreSlot AllocateNamedDataSlot(System.String @name)
         {
 
             var ___genericsType = new Type[] {};
@@ -463,7 +463,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.LocalDataStoreSlot GetNamedDataSlot(System.String  @name)
+        public virtual System.LocalDataStoreSlot GetNamedDataSlot(System.String @name)
         {
 
             var ___genericsType = new Type[] {};
@@ -474,7 +474,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual void FreeNamedDataSlot(System.String  @name)
+        public virtual void FreeNamedDataSlot(System.String @name)
         {
 
             var ___genericsType = new Type[] {};
@@ -485,7 +485,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual void FreeDataSlot(System.Int32  @slot, System.Int64  @cookie)
+        public virtual void FreeDataSlot(System.Int32 @slot, System.Int64 @cookie)
         {
 
             var ___genericsType = new Type[] {};
@@ -496,7 +496,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual void ValidateSlot(System.LocalDataStoreSlot  @slot)
+        public virtual void ValidateSlot(System.LocalDataStoreSlot @slot)
         {
 
             var ___genericsType = new Type[] {};
@@ -518,7 +518,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

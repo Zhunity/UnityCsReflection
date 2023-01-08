@@ -617,7 +617,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @other)
+        public virtual System.Boolean Equals(System.Object @other)
         {
 
             var ___genericsType = new Type[] {};
@@ -628,7 +628,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Boolean Equals(UnityEngine.Bounds  @other)
+        public virtual System.Boolean Equals(UnityEngine.Bounds @other)
         {
 
             var ___genericsType = new Type[] {};
@@ -639,7 +639,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static System.Boolean op_Equality(UnityEngine.Bounds  @lhs, UnityEngine.Bounds  @rhs)
+        public static System.Boolean op_Equality(UnityEngine.Bounds @lhs, UnityEngine.Bounds @rhs)
         {
 
             var ___genericsType = new Type[] {};
@@ -650,7 +650,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static System.Boolean op_Inequality(UnityEngine.Bounds  @lhs, UnityEngine.Bounds  @rhs)
+        public static System.Boolean op_Inequality(UnityEngine.Bounds @lhs, UnityEngine.Bounds @rhs)
         {
 
             var ___genericsType = new Type[] {};
@@ -661,7 +661,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SetMinMax(UnityEngine.Vector3  @min, UnityEngine.Vector3  @max)
+        public virtual void SetMinMax(UnityEngine.Vector3 @min, UnityEngine.Vector3 @max)
         {
 
             var ___genericsType = new Type[] {};
@@ -672,7 +672,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void Encapsulate(UnityEngine.Vector3  @point)
+        public virtual void Encapsulate(UnityEngine.Vector3 @point)
         {
 
             var ___genericsType = new Type[] {};
@@ -683,7 +683,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void Encapsulate(UnityEngine.Bounds  @bounds)
+        public virtual void Encapsulate(UnityEngine.Bounds @bounds)
         {
 
             var ___genericsType = new Type[] {};
@@ -694,7 +694,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void Expand(System.Single  @amount)
+        public virtual void Expand(System.Single @amount)
         {
 
             var ___genericsType = new Type[] {};
@@ -705,7 +705,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void Expand(UnityEngine.Vector3  @amount)
+        public virtual void Expand(UnityEngine.Vector3 @amount)
         {
 
             var ___genericsType = new Type[] {};
@@ -716,7 +716,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Boolean Intersects(UnityEngine.Bounds  @bounds)
+        public virtual System.Boolean Intersects(UnityEngine.Bounds @bounds)
         {
 
             var ___genericsType = new Type[] {};
@@ -727,7 +727,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Boolean IntersectRay(UnityEngine.Ray  @ray)
+        public virtual System.Boolean IntersectRay(UnityEngine.Ray @ray)
         {
 
             var ___genericsType = new Type[] {};
@@ -738,7 +738,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Boolean IntersectRay(UnityEngine.Ray  @ray, out System.Single  @distance)
+        public virtual System.Boolean IntersectRay(UnityEngine.Ray @ray, out System.Single @distance)
         {
 			@distance = default;
 
@@ -762,7 +762,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.String ToString(System.String  @format)
+        public virtual System.String ToString(System.String @format)
         {
 
             var ___genericsType = new Type[] {};
@@ -773,7 +773,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.String ToString(System.String  @format, System.IFormatProvider  @formatProvider)
+        public virtual System.String ToString(System.String @format, System.IFormatProvider @formatProvider)
         {
 
             var ___genericsType = new Type[] {};
@@ -784,7 +784,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Boolean Contains(UnityEngine.Vector3  @point)
+        public virtual System.Boolean Contains(UnityEngine.Vector3 @point)
         {
 
             var ___genericsType = new Type[] {};
@@ -795,7 +795,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Single SqrDistance(UnityEngine.Vector3  @point)
+        public virtual System.Single SqrDistance(UnityEngine.Vector3 @point)
         {
 
             var ___genericsType = new Type[] {};
@@ -806,7 +806,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static System.Boolean IntersectRayAABB(UnityEngine.Ray  @ray, UnityEngine.Bounds  @bounds, out System.Single  @dist)
+        public static System.Boolean IntersectRayAABB(UnityEngine.Ray @ray, UnityEngine.Bounds @bounds, out System.Single @dist)
         {
 			@dist = default;
 
@@ -819,7 +819,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual UnityEngine.Vector3 ClosestPoint(UnityEngine.Vector3  @point)
+        public virtual UnityEngine.Vector3 ClosestPoint(UnityEngine.Vector3 @point)
         {
 
             var ___genericsType = new Type[] {};
@@ -830,7 +830,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static System.Boolean Contains_Injected(ref UnityEngine.Bounds  @_unity_self, ref UnityEngine.Vector3  @point)
+        public static System.Boolean Contains_Injected(ref UnityEngine.Bounds @_unity_self, ref UnityEngine.Vector3 @point)
         {
 
             var ___genericsType = new Type[] {};
@@ -843,7 +843,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static System.Single SqrDistance_Injected(ref UnityEngine.Bounds  @_unity_self, ref UnityEngine.Vector3  @point)
+        public static System.Single SqrDistance_Injected(ref UnityEngine.Bounds @_unity_self, ref UnityEngine.Vector3 @point)
         {
 
             var ___genericsType = new Type[] {};
@@ -856,7 +856,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static System.Boolean IntersectRayAABB_Injected(ref UnityEngine.Ray  @ray, ref UnityEngine.Bounds  @bounds, out System.Single  @dist)
+        public static System.Boolean IntersectRayAABB_Injected(ref UnityEngine.Ray @ray, ref UnityEngine.Bounds @bounds, out System.Single @dist)
         {
 			@dist = default;
 
@@ -871,7 +871,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static void ClosestPoint_Injected(ref UnityEngine.Bounds  @_unity_self, ref UnityEngine.Vector3  @point, out UnityEngine.Vector3  @ret)
+        public static void ClosestPoint_Injected(ref UnityEngine.Bounds @_unity_self, ref UnityEngine.Vector3 @point, out UnityEngine.Vector3 @ret)
         {
 			@ret = default;
 

@@ -458,7 +458,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections
         }
 
 
-        public virtual System.Boolean Contains(System.Object  @obj)
+        public virtual System.Boolean Contains(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};
@@ -469,7 +469,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections
         }
 
 
-        public virtual void CopyTo(System.Array  @array, System.Int32  @index)
+        public virtual void CopyTo(System.Array @array, System.Int32 @index)
         {
 
             var ___genericsType = new Type[] {};
@@ -513,7 +513,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections
         }
 
 
-        public virtual void Push(System.Object  @obj)
+        public virtual void Push(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};
@@ -524,7 +524,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections
         }
 
 
-        public static System.Collections.Stack Synchronized(System.Collections.Stack  @stack)
+        public static System.Collections.Stack Synchronized(System.Collections.Stack @stack)
         {
 
             var ___genericsType = new Type[] {};
@@ -546,7 +546,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

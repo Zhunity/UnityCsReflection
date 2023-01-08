@@ -368,7 +368,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 	    {
 	    }
 
-        public virtual UnityEngine.UIElements.VisualElement GetTopElementUnderPointer(System.Int32  @pointerId, out UnityEngine.Vector2  @pickPosition, out System.Boolean  @isTemporary)
+        public virtual UnityEngine.UIElements.VisualElement GetTopElementUnderPointer(System.Int32 @pointerId, out UnityEngine.Vector2 @pickPosition, out System.Boolean @isTemporary)
         {
 			@pickPosition = default;
 			@isTemporary = default;
@@ -383,7 +383,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual UnityEngine.UIElements.VisualElement GetTopElementUnderPointer(System.Int32  @pointerId)
+        public virtual UnityEngine.UIElements.VisualElement GetTopElementUnderPointer(System.Int32 @pointerId)
         {
 
             var ___genericsType = new Type[] {};
@@ -394,7 +394,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void SetElementUnderPointer(UnityEngine.UIElements.VisualElement  @newElementUnderPointer, System.Int32  @pointerId, UnityEngine.Vector2  @pointerPos)
+        public virtual void SetElementUnderPointer(UnityEngine.UIElements.VisualElement @newElementUnderPointer, System.Int32 @pointerId, UnityEngine.Vector2 @pointerPos)
         {
 
             var ___genericsType = new Type[] {};
@@ -405,7 +405,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual UnityEngine.Vector2 GetEventPointerPosition(UnityEngine.UIElements.EventBase  @triggerEvent)
+        public virtual UnityEngine.Vector2 GetEventPointerPosition(UnityEngine.UIElements.EventBase @triggerEvent)
         {
 
             var ___genericsType = new Type[] {};
@@ -416,7 +416,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void SetTemporaryElementUnderPointer(UnityEngine.UIElements.VisualElement  @newElementUnderPointer, System.Int32  @pointerId, UnityEngine.UIElements.EventBase  @triggerEvent)
+        public virtual void SetTemporaryElementUnderPointer(UnityEngine.UIElements.VisualElement @newElementUnderPointer, System.Int32 @pointerId, UnityEngine.UIElements.EventBase @triggerEvent)
         {
 
             var ___genericsType = new Type[] {};
@@ -427,7 +427,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void SetElementUnderPointer(UnityEngine.UIElements.VisualElement  @newElementUnderPointer, System.Int32  @pointerId, UnityEngine.UIElements.EventBase  @triggerEvent)
+        public virtual void SetElementUnderPointer(UnityEngine.UIElements.VisualElement @newElementUnderPointer, System.Int32 @pointerId, UnityEngine.UIElements.EventBase @triggerEvent)
         {
 
             var ___genericsType = new Type[] {};
@@ -438,7 +438,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void SetElementUnderPointer(UnityEngine.UIElements.VisualElement  @newElementUnderPointer, System.Int32  @pointerId, UnityEngine.UIElements.EventBase  @triggerEvent, System.Boolean  @temporary)
+        public virtual void SetElementUnderPointer(UnityEngine.UIElements.VisualElement @newElementUnderPointer, System.Int32 @pointerId, UnityEngine.UIElements.EventBase @triggerEvent, System.Boolean @temporary)
         {
 
             var ___genericsType = new Type[] {};
@@ -449,7 +449,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void CommitElementUnderPointers(UnityEngine.UIElements.EventDispatcher  @dispatcher, UnityEngine.UIElements.ContextType  @contextType)
+        public virtual void CommitElementUnderPointers(UnityEngine.UIElements.EventDispatcher @dispatcher, UnityEngine.UIElements.ContextType @contextType)
         {
 
             var ___genericsType = new Type[] {};
@@ -460,7 +460,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

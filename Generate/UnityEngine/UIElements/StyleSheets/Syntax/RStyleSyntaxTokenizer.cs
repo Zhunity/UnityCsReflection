@@ -300,29 +300,29 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RSynt
 	    {
 	    }
 
-        public virtual System.Object MoveNext()
+        public virtual RUnityEngine.RUIElements.RStyleSheets.RSyntax.RStyleSyntaxToken MoveNext()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RMoveNext.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RUnityEngine.RUIElements.RStyleSheets.RSyntax.RStyleSyntaxToken(___result);
         }
 
 
-        public virtual System.Object PeekNext()
+        public virtual RUnityEngine.RUIElements.RStyleSheets.RSyntax.RStyleSyntaxToken PeekNext()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RPeekNext.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RUnityEngine.RUIElements.RStyleSheets.RSyntax.RStyleSyntaxToken(___result);
         }
 
 
-        public virtual void Tokenize(System.String  @syntax)
+        public virtual void Tokenize(System.String @syntax)
         {
 
             var ___genericsType = new Type[] {};
@@ -333,7 +333,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RSynt
         }
 
 
-        public static System.Boolean IsNextCharacter(System.String  @s, System.Int32  @index, System.Char  @c)
+        public static System.Boolean IsNextCharacter(System.String @s, System.Int32 @index, System.Char @c)
         {
 
             var ___genericsType = new Type[] {};
@@ -344,7 +344,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RSynt
         }
 
 
-        public static System.Boolean IsNextLetterOrDash(System.String  @s, System.Int32  @index)
+        public static System.Boolean IsNextLetterOrDash(System.String @s, System.Int32 @index)
         {
 
             var ___genericsType = new Type[] {};
@@ -355,7 +355,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RSynt
         }
 
 
-        public static System.Boolean IsNextNumber(System.String  @s, System.Int32  @index)
+        public static System.Boolean IsNextNumber(System.String @s, System.Int32 @index)
         {
 
             var ___genericsType = new Type[] {};
@@ -366,7 +366,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RSynt
         }
 
 
-        public static System.Int32 GlobCharacter(System.String  @s, System.Int32  @index, System.Char  @c)
+        public static System.Int32 GlobCharacter(System.String @s, System.Int32 @index, System.Char @c)
         {
 
             var ___genericsType = new Type[] {};
@@ -377,7 +377,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RSynt
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

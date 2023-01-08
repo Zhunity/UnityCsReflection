@@ -345,84 +345,84 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public static System.Object CreateClass(System.String  @className)
+        public static RUnityEngine.RUIElements.RStyleSelectorPart CreateClass(System.String @className)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@className};
             var ___result = RCreateClass_String.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RUnityEngine.RUIElements.RStyleSelectorPart(___result);
         }
 
 
-        public static System.Object CreatePseudoClass(System.String  @className)
+        public static RUnityEngine.RUIElements.RStyleSelectorPart CreatePseudoClass(System.String @className)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@className};
             var ___result = RCreatePseudoClass_String.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RUnityEngine.RUIElements.RStyleSelectorPart(___result);
         }
 
 
-        public static System.Object CreateId(System.String  @Id)
+        public static RUnityEngine.RUIElements.RStyleSelectorPart CreateId(System.String @Id)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@Id};
             var ___result = RCreateId_String.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RUnityEngine.RUIElements.RStyleSelectorPart(___result);
         }
 
 
-        public static System.Object CreateType(System.Type  @t)
+        public static RUnityEngine.RUIElements.RStyleSelectorPart CreateType(System.Type @t)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@t};
             var ___result = RCreateType_Type.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RUnityEngine.RUIElements.RStyleSelectorPart(___result);
         }
 
 
-        public static System.Object CreateType(System.String  @typeName)
+        public static RUnityEngine.RUIElements.RStyleSelectorPart CreateType(System.String @typeName)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@typeName};
             var ___result = RCreateType_String.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RUnityEngine.RUIElements.RStyleSelectorPart(___result);
         }
 
 
-        public static System.Object CreatePredicate(System.Object  @predicate)
+        public static RUnityEngine.RUIElements.RStyleSelectorPart CreatePredicate(System.Object @predicate)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@predicate};
             var ___result = RCreatePredicate_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RUnityEngine.RUIElements.RStyleSelectorPart(___result);
         }
 
 
-        public static System.Object CreateWildCard()
+        public static RUnityEngine.RUIElements.RStyleSelectorPart CreateWildCard()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RCreateWildCard.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RUnityEngine.RUIElements.RStyleSelectorPart(___result);
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

@@ -300,7 +300,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 	    {
 	    }
 
-        public virtual System.Object GetAtSlow(System.Int32  @index)
+        public virtual System.Object GetAtSlow(System.Int32 @index)
         {
 
             var ___genericsType = new Type[] {};
@@ -311,7 +311,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

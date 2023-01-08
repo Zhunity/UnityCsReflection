@@ -2340,7 +2340,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RAddComponent
 	    {
 	    }
 
-        public static System.Boolean Show(UnityEngine.Rect  @rect, UnityEngine.GameObject[]  @gos)
+        public static System.Boolean Show(UnityEngine.Rect @rect, UnityEngine.GameObject[] @gos)
         {
 
             var ___genericsType = new Type[] {};
@@ -2362,7 +2362,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RAddComponent
         }
 
 
-        public virtual void OnItemSelected(UnityEditor.IMGUI.Controls.AdvancedDropdownItem  @item)
+        public virtual void OnItemSelected(UnityEditor.IMGUI.Controls.AdvancedDropdownItem @item)
         {
 
             var ___genericsType = new Type[] {};
@@ -2395,7 +2395,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RAddComponent
         }
 
 
-        public virtual UnityEngine.Vector2 CalculateWindowSize(UnityEngine.Rect  @buttonRect)
+        public virtual UnityEngine.Vector2 CalculateWindowSize(UnityEngine.Rect @buttonRect)
         {
 
             var ___genericsType = new Type[] {};
@@ -2406,7 +2406,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RAddComponent
         }
 
 
-        public virtual System.Boolean SpecialKeyboardHandling(UnityEngine.Event  @evt)
+        public virtual System.Boolean SpecialKeyboardHandling(UnityEngine.Event @evt)
         {
 
             var ___genericsType = new Type[] {};
@@ -2417,6 +2417,26 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RAddComponent
         }
 
 
+        public virtual void OnCreateNewScript(RUnityEditor.RAddComponent.RNewScriptDropdownItem @item)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@item.Value};
+            var ___result = ROnCreateNewScript_NewScriptDropdownItem.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void SendUsabilityAnalyticsEvent(RUnityEditor.RAddComponent.RAddComponentWindow.RAnalyticsEventData @eventData)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@eventData.Value};
+            var ___result = RSendUsabilityAnalyticsEvent_AnalyticsEventData.Invoke(___genericsType, ___parameters);
+
+            
+        }
 
 
         public static System.Boolean ValidateAddComponentMenuItem()
@@ -2441,18 +2461,18 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RAddComponent
         }
 
 
-        public static System.Object FirstInspectorWithGameObject()
+        public static RUnityEditor.RInspectorWindow FirstInspectorWithGameObject()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RFirstInspectorWithGameObject.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RUnityEditor.RInspectorWindow(___result);
         }
 
 
-        public virtual void set_isSearchFieldDisabled(System.Boolean  @value)
+        public virtual void set_isSearchFieldDisabled(System.Boolean @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -2474,7 +2494,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RAddComponent
         }
 
 
-        public virtual void Init(UnityEngine.Rect  @buttonRect)
+        public virtual void Init(UnityEngine.Rect @buttonRect)
         {
 
             var ___genericsType = new Type[] {};
@@ -2507,14 +2527,14 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RAddComponent
         }
 
 
-        public virtual System.Object GetDataModeController_Internal()
+        public virtual RUnityEditor.RDataModeController GetDataModeController_Internal()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RGetDataModeController_Internal.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RUnityEditor.RDataModeController(___result);
         }
 
 
@@ -2529,14 +2549,14 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RAddComponent
         }
 
 
-        public virtual System.Object GetViewDataDictionary()
+        public virtual RUnityEngine.RUIElements.RISerializableJsonDictionary GetViewDataDictionary()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RGetViewDataDictionary.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RUnityEngine.RUIElements.RISerializableJsonDictionary(___result);
         }
 
 
@@ -2595,7 +2615,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RAddComponent
         }
 
 
-        public virtual void OnBackgroundViewResized(UnityEngine.Rect  @pos)
+        public virtual void OnBackgroundViewResized(UnityEngine.Rect @pos)
         {
 
             var ___genericsType = new Type[] {};
@@ -2628,7 +2648,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RAddComponent
         }
 
 
-        public virtual void ShowNotification(UnityEngine.GUIContent  @notification)
+        public virtual void ShowNotification(UnityEngine.GUIContent @notification)
         {
 
             var ___genericsType = new Type[] {};
@@ -2639,7 +2659,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RAddComponent
         }
 
 
-        public virtual void ShowNotification(UnityEngine.GUIContent  @notification, System.Double  @fadeoutWait)
+        public virtual void ShowNotification(UnityEngine.GUIContent @notification, System.Double @fadeoutWait)
         {
 
             var ___genericsType = new Type[] {};
@@ -2804,9 +2824,29 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RAddComponent
         }
 
 
+        public virtual void ShowPopupWithMode(RType @mode, System.Boolean @giveFocus)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@mode.Value, @giveFocus};
+            var ___result = RShowPopupWithMode_ShowMode_Boolean.Invoke(___genericsType, ___parameters);
+
+            
+        }
 
 
-        public virtual void ShowAsDropDown(UnityEngine.Rect  @buttonRect, UnityEngine.Vector2  @windowSize)
+        public virtual void ShowWithMode(RType @mode)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@mode.Value};
+            var ___result = RShowWithMode_ShowMode.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void ShowAsDropDown(UnityEngine.Rect @buttonRect, UnityEngine.Vector2 @windowSize)
         {
 
             var ___genericsType = new Type[] {};
@@ -2817,8 +2857,48 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RAddComponent
         }
 
 
+        public virtual void ShowAsDropDown(UnityEngine.Rect @buttonRect, UnityEngine.Vector2 @windowSize, RTypeArray<RType> @locationPriorityOrder)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@buttonRect, @windowSize, @locationPriorityOrder.Value};
+            var ___result = RShowAsDropDown_Rect_Vector2_PopupLocationArray.Invoke(___genericsType, ___parameters);
+
+            
+        }
 
 
+        public virtual void ShowAsDropDown(UnityEngine.Rect @buttonRect, UnityEngine.Vector2 @windowSize, RTypeArray<RType> @locationPriorityOrder, RType @mode)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@buttonRect, @windowSize, @locationPriorityOrder.Value, @mode.Value};
+            var ___result = RShowAsDropDown_Rect_Vector2_PopupLocationArray_ShowMode.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void ShowAsDropDown(UnityEngine.Rect @buttonRect, UnityEngine.Vector2 @windowSize, RTypeArray<RType> @locationPriorityOrder, RType @mode, System.Boolean @giveFocus)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@buttonRect, @windowSize, @locationPriorityOrder.Value, @mode.Value, @giveFocus};
+            var ___result = RShowAsDropDown_Rect_Vector2_PopupLocationArray_ShowMode_Boolean.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual UnityEngine.Rect ShowAsDropDownFitToScreen(UnityEngine.Rect @buttonRect, UnityEngine.Vector2 @windowSize, RTypeArray<RType> @locationPriorityOrder)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@buttonRect, @windowSize, @locationPriorityOrder.Value};
+            var ___result = RShowAsDropDownFitToScreen_Rect_Vector2_PopupLocationArray.Invoke(___genericsType, ___parameters);
+
+            return (UnityEngine.Rect)___result;
+        }
 
 
         public virtual void Show()
@@ -2832,7 +2912,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RAddComponent
         }
 
 
-        public virtual void Show(System.Boolean  @immediateDisplay)
+        public virtual void Show(System.Boolean @immediateDisplay)
         {
 
             var ___genericsType = new Type[] {};
@@ -2931,7 +3011,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RAddComponent
         }
 
 
-        public virtual void SetParentGameViewDimensions(UnityEngine.Rect  @rect, UnityEngine.Rect  @clippedRect, UnityEngine.Vector2  @targetSize)
+        public virtual void SetParentGameViewDimensions(UnityEngine.Rect @rect, UnityEngine.Rect @clippedRect, UnityEngine.Vector2 @targetSize)
         {
 
             var ___genericsType = new Type[] {};
@@ -2942,7 +3022,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RAddComponent
         }
 
 
-        public virtual void SetPlayModeViewSize(UnityEngine.Vector2  @targetSize)
+        public virtual void SetPlayModeViewSize(UnityEngine.Vector2 @targetSize)
         {
 
             var ___genericsType = new Type[] {};
@@ -2953,7 +3033,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RAddComponent
         }
 
 
-        public virtual void SetMainPlayModeViewSize(UnityEngine.Vector2  @targetSize)
+        public virtual void SetMainPlayModeViewSize(UnityEngine.Vector2 @targetSize)
         {
 
             var ___genericsType = new Type[] {};
@@ -2964,7 +3044,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RAddComponent
         }
 
 
-        public virtual void SetDisplayViewSize(System.Int32  @displayId, UnityEngine.Vector2  @targetSize)
+        public virtual void SetDisplayViewSize(System.Int32 @displayId, UnityEngine.Vector2 @targetSize)
         {
 
             var ___genericsType = new Type[] {};
@@ -2975,7 +3055,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RAddComponent
         }
 
 
-        public virtual UnityEngine.Vector2 GetDisplayViewSize(System.Int32  @displayId)
+        public virtual UnityEngine.Vector2 GetDisplayViewSize(System.Int32 @displayId)
         {
 
             var ___genericsType = new Type[] {};
@@ -2986,7 +3066,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RAddComponent
         }
 
 
-        public virtual void SetPlayModeView(System.Boolean  @value)
+        public virtual void SetPlayModeView(System.Boolean @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -2997,7 +3077,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RAddComponent
         }
 
 
-        public virtual System.Boolean SendEvent(UnityEngine.Event  @e)
+        public virtual System.Boolean SendEvent(UnityEngine.Event @e)
         {
 
             var ___genericsType = new Type[] {};
@@ -3041,14 +3121,14 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RAddComponent
         }
 
 
-        public virtual System.Boolean TryGetOverlay(System.String  @id, out UnityEditor.Overlays.Overlay  @match)
+        public virtual System.Boolean TryGetOverlay(System.String @id, out UnityEditor.Overlays.Overlay @match)
         {
-			match = default;
+			@match = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@id, @match};
             var ___result = RTryGetOverlay_String_Out_Overlay.Invoke(___genericsType, ___parameters);
-			match = (UnityEditor.Overlays.Overlay)___parameters[1];
+			@match = (UnityEditor.Overlays.Overlay)___parameters[1];
 
             return (System.Boolean)___result;
         }
@@ -3109,7 +3189,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RAddComponent
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @other)
+        public virtual System.Boolean Equals(System.Object @other)
         {
 
             var ___genericsType = new Type[] {};

@@ -708,7 +708,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 	    {
 	    }
 
-        public virtual System.Boolean IsFocused(UnityEngine.UIElements.Focusable  @f)
+        public virtual System.Boolean IsFocused(UnityEngine.UIElements.Focusable @f)
         {
 
             var ___genericsType = new Type[] {};
@@ -719,7 +719,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual UnityEngine.UIElements.Focusable GetRetargetedFocusedElement(UnityEngine.UIElements.VisualElement  @retargetAgainst)
+        public virtual UnityEngine.UIElements.Focusable GetRetargetedFocusedElement(UnityEngine.UIElements.VisualElement @retargetAgainst)
         {
 
             var ___genericsType = new Type[] {};
@@ -741,7 +741,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean IsLocalElement(UnityEngine.UIElements.Focusable  @f)
+        public virtual System.Boolean IsLocalElement(UnityEngine.UIElements.Focusable @f)
         {
 
             var ___genericsType = new Type[] {};
@@ -752,7 +752,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void ValidateInternalState(UnityEngine.UIElements.IPanel  @panel)
+        public virtual void ValidateInternalState(UnityEngine.UIElements.IPanel @panel)
         {
 
             var ___genericsType = new Type[] {};
@@ -774,7 +774,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean IsPendingFocus(UnityEngine.UIElements.Focusable  @f)
+        public virtual System.Boolean IsPendingFocus(UnityEngine.UIElements.Focusable @f)
         {
 
             var ___genericsType = new Type[] {};
@@ -807,7 +807,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void DoFocusChange(UnityEngine.UIElements.Focusable  @f)
+        public virtual void DoFocusChange(UnityEngine.UIElements.Focusable @f)
         {
 
             var ___genericsType = new Type[] {};
@@ -818,7 +818,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void ProcessPendingFocusChange(UnityEngine.UIElements.Focusable  @f)
+        public virtual void ProcessPendingFocusChange(UnityEngine.UIElements.Focusable @f)
         {
 
             var ___genericsType = new Type[] {};
@@ -829,7 +829,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual UnityEngine.UIElements.Focusable FocusNextInDirection(UnityEngine.UIElements.FocusChangeDirection  @direction)
+        public virtual UnityEngine.UIElements.Focusable FocusNextInDirection(UnityEngine.UIElements.FocusChangeDirection @direction)
         {
 
             var ___genericsType = new Type[] {};
@@ -840,7 +840,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void AboutToReleaseFocus(UnityEngine.UIElements.Focusable  @focusable, UnityEngine.UIElements.Focusable  @willGiveFocusTo, UnityEngine.UIElements.FocusChangeDirection  @direction, RType  @dispatchMode)
+        public virtual void AboutToReleaseFocus(UnityEngine.UIElements.Focusable @focusable, UnityEngine.UIElements.Focusable @willGiveFocusTo, UnityEngine.UIElements.FocusChangeDirection @direction, RType @dispatchMode)
         {
 
             var ___genericsType = new Type[] {};
@@ -851,7 +851,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void ReleaseFocus(UnityEngine.UIElements.Focusable  @focusable, UnityEngine.UIElements.Focusable  @willGiveFocusTo, UnityEngine.UIElements.FocusChangeDirection  @direction, RType  @dispatchMode)
+        public virtual void ReleaseFocus(UnityEngine.UIElements.Focusable @focusable, UnityEngine.UIElements.Focusable @willGiveFocusTo, UnityEngine.UIElements.FocusChangeDirection @direction, RType @dispatchMode)
         {
 
             var ___genericsType = new Type[] {};
@@ -862,7 +862,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void AboutToGrabFocus(UnityEngine.UIElements.Focusable  @focusable, UnityEngine.UIElements.Focusable  @willTakeFocusFrom, UnityEngine.UIElements.FocusChangeDirection  @direction, RType  @dispatchMode)
+        public virtual void AboutToGrabFocus(UnityEngine.UIElements.Focusable @focusable, UnityEngine.UIElements.Focusable @willTakeFocusFrom, UnityEngine.UIElements.FocusChangeDirection @direction, RType @dispatchMode)
         {
 
             var ___genericsType = new Type[] {};
@@ -873,7 +873,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void GrabFocus(UnityEngine.UIElements.Focusable  @focusable, UnityEngine.UIElements.Focusable  @willTakeFocusFrom, UnityEngine.UIElements.FocusChangeDirection  @direction, System.Boolean  @bIsFocusDelegated, RType  @dispatchMode)
+        public virtual void GrabFocus(UnityEngine.UIElements.Focusable @focusable, UnityEngine.UIElements.Focusable @willTakeFocusFrom, UnityEngine.UIElements.FocusChangeDirection @direction, System.Boolean @bIsFocusDelegated, RType @dispatchMode)
         {
 
             var ___genericsType = new Type[] {};
@@ -884,7 +884,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void Blur(UnityEngine.UIElements.Focusable  @focusable, System.Boolean  @bIsFocusDelegated, RType  @dispatchMode)
+        public virtual void Blur(UnityEngine.UIElements.Focusable @focusable, System.Boolean @bIsFocusDelegated, RType @dispatchMode)
         {
 
             var ___genericsType = new Type[] {};
@@ -895,7 +895,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void SwitchFocus(UnityEngine.UIElements.Focusable  @newFocusedElement, System.Boolean  @bIsFocusDelegated, RType  @dispatchMode)
+        public virtual void SwitchFocus(UnityEngine.UIElements.Focusable @newFocusedElement, System.Boolean @bIsFocusDelegated, RType @dispatchMode)
         {
 
             var ___genericsType = new Type[] {};
@@ -906,7 +906,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void SwitchFocus(UnityEngine.UIElements.Focusable  @newFocusedElement, UnityEngine.UIElements.FocusChangeDirection  @direction, System.Boolean  @bIsFocusDelegated, RType  @dispatchMode)
+        public virtual void SwitchFocus(UnityEngine.UIElements.Focusable @newFocusedElement, UnityEngine.UIElements.FocusChangeDirection @direction, System.Boolean @bIsFocusDelegated, RType @dispatchMode)
         {
 
             var ___genericsType = new Type[] {};
@@ -917,7 +917,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void SwitchFocusOnEvent(UnityEngine.UIElements.EventBase  @e)
+        public virtual void SwitchFocusOnEvent(UnityEngine.UIElements.EventBase @e)
         {
 
             var ___genericsType = new Type[] {};
@@ -939,7 +939,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean GetFocusableParentForPointerEvent(UnityEngine.UIElements.Focusable  @target, out UnityEngine.UIElements.Focusable  @effectiveTarget)
+        public virtual System.Boolean GetFocusableParentForPointerEvent(UnityEngine.UIElements.Focusable @target, out UnityEngine.UIElements.Focusable @effectiveTarget)
         {
 			@effectiveTarget = default;
 
@@ -952,7 +952,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void SyncIMGUIFocus(System.Int32  @imguiKeyboardControlID, UnityEngine.UIElements.Focusable  @imguiContainerHavingKeyboardControl, System.Boolean  @forceSwitch)
+        public virtual void SyncIMGUIFocus(System.Int32 @imguiKeyboardControlID, UnityEngine.UIElements.Focusable @imguiContainerHavingKeyboardControl, System.Boolean @forceSwitch)
         {
 
             var ___genericsType = new Type[] {};
@@ -963,7 +963,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

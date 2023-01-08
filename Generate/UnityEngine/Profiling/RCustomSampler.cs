@@ -283,7 +283,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RProfiling
 	    {
 	    }
 
-        public static UnityEngine.Profiling.CustomSampler Create(System.String  @name, System.Boolean  @collectGpuData)
+        public static UnityEngine.Profiling.CustomSampler Create(System.String @name, System.Boolean @collectGpuData)
         {
 
             var ___genericsType = new Type[] {};
@@ -305,7 +305,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RProfiling
         }
 
 
-        public virtual void Begin(UnityEngine.Object  @targetObject)
+        public virtual void Begin(UnityEngine.Object @targetObject)
         {
 
             var ___genericsType = new Type[] {};
@@ -338,7 +338,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RProfiling
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

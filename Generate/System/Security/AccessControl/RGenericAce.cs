@@ -600,7 +600,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
         }
 
 
-        public static System.Security.AccessControl.GenericAce CreateFromBinaryForm(System.Byte[]  @binaryForm, System.Int32  @offset)
+        public static System.Security.AccessControl.GenericAce CreateFromBinaryForm(System.Byte[] @binaryForm, System.Int32 @offset)
         {
 
             var ___genericsType = new Type[] {};
@@ -611,7 +611,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @o)
+        public virtual System.Boolean Equals(System.Object @o)
         {
 
             var ___genericsType = new Type[] {};
@@ -622,7 +622,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
         }
 
 
-        public virtual void GetBinaryForm(System.Byte[]  @binaryForm, System.Int32  @offset)
+        public virtual void GetBinaryForm(System.Byte[] @binaryForm, System.Int32 @offset)
         {
 
             var ___genericsType = new Type[] {};
@@ -644,7 +644,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
         }
 
 
-        public static System.Boolean op_Equality(System.Security.AccessControl.GenericAce  @left, System.Security.AccessControl.GenericAce  @right)
+        public static System.Boolean op_Equality(System.Security.AccessControl.GenericAce @left, System.Security.AccessControl.GenericAce @right)
         {
 
             var ___genericsType = new Type[] {};
@@ -655,7 +655,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
         }
 
 
-        public static System.Boolean op_Inequality(System.Security.AccessControl.GenericAce  @left, System.Security.AccessControl.GenericAce  @right)
+        public static System.Boolean op_Inequality(System.Security.AccessControl.GenericAce @left, System.Security.AccessControl.GenericAce @right)
         {
 
             var ___genericsType = new Type[] {};
@@ -677,7 +677,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
         }
 
 
-        public static System.Security.AccessControl.GenericAce CreateFromSddlForm(System.String  @sddlForm, ref System.Int32  @pos)
+        public static System.Security.AccessControl.GenericAce CreateFromSddlForm(System.String @sddlForm, ref System.Int32 @pos)
         {
 
             var ___genericsType = new Type[] {};
@@ -689,7 +689,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
         }
 
 
-        public static System.Boolean IsObjectType(System.Security.AccessControl.AceType  @type)
+        public static System.Boolean IsObjectType(System.Security.AccessControl.AceType @type)
         {
 
             var ___genericsType = new Type[] {};
@@ -700,7 +700,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
         }
 
 
-        public static System.String GetSddlAceType(System.Security.AccessControl.AceType  @type)
+        public static System.String GetSddlAceType(System.Security.AccessControl.AceType @type)
         {
 
             var ___genericsType = new Type[] {};
@@ -711,7 +711,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
         }
 
 
-        public static System.Security.AccessControl.AceType ParseSddlAceType(System.String  @type)
+        public static System.Security.AccessControl.AceType ParseSddlAceType(System.String @type)
         {
 
             var ___genericsType = new Type[] {};
@@ -722,7 +722,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
         }
 
 
-        public static System.String GetSddlAceFlags(System.Security.AccessControl.AceFlags  @flags)
+        public static System.String GetSddlAceFlags(System.Security.AccessControl.AceFlags @flags)
         {
 
             var ___genericsType = new Type[] {};
@@ -733,7 +733,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
         }
 
 
-        public static System.Security.AccessControl.AceFlags ParseSddlAceFlags(System.String  @flags)
+        public static System.Security.AccessControl.AceFlags ParseSddlAceFlags(System.String @flags)
         {
 
             var ___genericsType = new Type[] {};
@@ -744,7 +744,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
         }
 
 
-        public static System.Int32 ParseSddlAccessRights(System.String  @accessMask)
+        public static System.Int32 ParseSddlAccessRights(System.String @accessMask)
         {
 
             var ___genericsType = new Type[] {};
@@ -755,7 +755,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
         }
 
 
-        public static System.Int32 ParseSddlAliasRights(System.String  @accessMask)
+        public static System.Int32 ParseSddlAliasRights(System.String @accessMask)
         {
 
             var ___genericsType = new Type[] {};
@@ -766,7 +766,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
         }
 
 
-        public static System.UInt16 ReadUShort(System.Byte[]  @buffer, System.Int32  @offset)
+        public static System.UInt16 ReadUShort(System.Byte[] @buffer, System.Int32 @offset)
         {
 
             var ___genericsType = new Type[] {};
@@ -777,7 +777,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
         }
 
 
-        public static System.Int32 ReadInt(System.Byte[]  @buffer, System.Int32  @offset)
+        public static System.Int32 ReadInt(System.Byte[] @buffer, System.Int32 @offset)
         {
 
             var ___genericsType = new Type[] {};
@@ -788,7 +788,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
         }
 
 
-        public static void WriteInt(System.Int32  @val, System.Byte[]  @buffer, System.Int32  @offset)
+        public static void WriteInt(System.Int32 @val, System.Byte[] @buffer, System.Int32 @offset)
         {
 
             var ___genericsType = new Type[] {};
@@ -799,7 +799,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
         }
 
 
-        public static void WriteUShort(System.UInt16  @val, System.Byte[]  @buffer, System.Int32  @offset)
+        public static void WriteUShort(System.UInt16 @val, System.Byte[] @buffer, System.Int32 @offset)
         {
 
             var ___genericsType = new Type[] {};

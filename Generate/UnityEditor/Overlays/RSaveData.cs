@@ -385,8 +385,18 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 	    {
 	    }
 
+        public virtual System.Boolean Equals(RUnityEditor.ROverlays.RSaveData @other)
+        {
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@other.Value};
+            var ___result = REquals_SaveData.Invoke(___genericsType, ___parameters);
+
+            return (System.Boolean)___result;
+        }
+
+
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

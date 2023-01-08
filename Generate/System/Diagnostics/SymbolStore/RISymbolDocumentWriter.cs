@@ -62,7 +62,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RDiagnostics.RSymbolStore
 	    {
 	    }
 
-        public virtual void SetCheckSum(System.Guid  @algorithmId, System.Byte[]  @checkSum)
+        public virtual void SetCheckSum(System.Guid @algorithmId, System.Byte[] @checkSum)
         {
 
             var ___genericsType = new Type[] {};
@@ -73,7 +73,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RDiagnostics.RSymbolStore
         }
 
 
-        public virtual void SetSource(System.Byte[]  @source)
+        public virtual void SetSource(System.Byte[] @source)
         {
 
             var ___genericsType = new Type[] {};

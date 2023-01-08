@@ -300,7 +300,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 	    {
 	    }
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

@@ -268,7 +268,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 	    {
 	    }
 
-        public virtual void AddItemsToMenu(UnityEditor.GenericMenu  @menu, System.Boolean  @disabled)
+        public virtual void AddItemsToMenu(UnityEditor.GenericMenu @menu, System.Boolean @disabled)
         {
 
             var ___genericsType = new Type[] {};
@@ -301,7 +301,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual System.Boolean ShowButton(UnityEngine.Rect  @position, UnityEngine.GUIStyle  @lockButtonStyle, System.Boolean  @disabled)
+        public virtual System.Boolean ShowButton(UnityEngine.Rect @position, UnityEngine.GUIStyle @lockButtonStyle, System.Boolean @disabled)
         {
 
             var ___genericsType = new Type[] {};
@@ -312,7 +312,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

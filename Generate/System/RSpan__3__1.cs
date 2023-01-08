@@ -492,7 +492,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual void Fill(T  @value)
+        public virtual void Fill(T @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -518,7 +518,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Object Slice(System.Int32  @start)
+        public virtual System.Object Slice(System.Int32 @start)
         {
 
             var ___genericsType = new Type[] {};
@@ -529,7 +529,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Object Slice(System.Int32  @start, System.Int32  @length)
+        public virtual System.Object Slice(System.Int32 @start, System.Int32 @length)
         {
 
             var ___genericsType = new Type[] {};
@@ -552,7 +552,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};
@@ -574,7 +574,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Object op_Implicit(T[]  @array)
+        public static System.Object op_Implicit(T[] @array)
         {
 
             var ___genericsType = new Type[] {};
@@ -585,7 +585,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Object op_Implicit(System.ArraySegment<T>  @segment)
+        public static System.Object op_Implicit(System.ArraySegment<T> @segment)
         {
 
             var ___genericsType = new Type[] {};
@@ -596,14 +596,14 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Object GetEnumerator()
+        public virtual RSystem.RSpan<RType>.REnumerator GetEnumerator()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RGetEnumerator.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RSystem.RSpan<RType>.REnumerator(___result);
         }
 
 

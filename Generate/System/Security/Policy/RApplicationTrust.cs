@@ -402,7 +402,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
 	    {
 	    }
 
-        public virtual void FromXml(System.Security.SecurityElement  @element)
+        public virtual void FromXml(System.Security.SecurityElement @element)
         {
 
             var ___genericsType = new Type[] {};
@@ -446,7 +446,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

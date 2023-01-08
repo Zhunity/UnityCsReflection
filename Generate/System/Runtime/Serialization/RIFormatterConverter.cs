@@ -317,7 +317,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization
 	    {
 	    }
 
-        public virtual System.Object Convert(System.Object  @value, System.Type  @type)
+        public virtual System.Object Convert(System.Object @value, System.Type @type)
         {
 
             var ___genericsType = new Type[] {};
@@ -328,7 +328,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization
         }
 
 
-        public virtual System.Object Convert(System.Object  @value, System.TypeCode  @typeCode)
+        public virtual System.Object Convert(System.Object @value, System.TypeCode @typeCode)
         {
 
             var ___genericsType = new Type[] {};
@@ -339,7 +339,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization
         }
 
 
-        public virtual System.Boolean ToBoolean(System.Object  @value)
+        public virtual System.Boolean ToBoolean(System.Object @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -350,7 +350,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization
         }
 
 
-        public virtual System.Char ToChar(System.Object  @value)
+        public virtual System.Char ToChar(System.Object @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -361,7 +361,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization
         }
 
 
-        public virtual System.SByte ToSByte(System.Object  @value)
+        public virtual System.SByte ToSByte(System.Object @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -372,7 +372,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization
         }
 
 
-        public virtual System.Byte ToByte(System.Object  @value)
+        public virtual System.Byte ToByte(System.Object @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -383,7 +383,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization
         }
 
 
-        public virtual System.Int16 ToInt16(System.Object  @value)
+        public virtual System.Int16 ToInt16(System.Object @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -394,7 +394,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization
         }
 
 
-        public virtual System.UInt16 ToUInt16(System.Object  @value)
+        public virtual System.UInt16 ToUInt16(System.Object @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -405,7 +405,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization
         }
 
 
-        public virtual System.Int32 ToInt32(System.Object  @value)
+        public virtual System.Int32 ToInt32(System.Object @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -416,7 +416,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization
         }
 
 
-        public virtual System.UInt32 ToUInt32(System.Object  @value)
+        public virtual System.UInt32 ToUInt32(System.Object @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -427,7 +427,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization
         }
 
 
-        public virtual System.Int64 ToInt64(System.Object  @value)
+        public virtual System.Int64 ToInt64(System.Object @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -438,7 +438,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization
         }
 
 
-        public virtual System.UInt64 ToUInt64(System.Object  @value)
+        public virtual System.UInt64 ToUInt64(System.Object @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -449,7 +449,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization
         }
 
 
-        public virtual System.Single ToSingle(System.Object  @value)
+        public virtual System.Single ToSingle(System.Object @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -460,7 +460,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization
         }
 
 
-        public virtual System.Double ToDouble(System.Object  @value)
+        public virtual System.Double ToDouble(System.Object @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -471,7 +471,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization
         }
 
 
-        public virtual System.Decimal ToDecimal(System.Object  @value)
+        public virtual System.Decimal ToDecimal(System.Object @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -482,7 +482,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization
         }
 
 
-        public virtual System.DateTime ToDateTime(System.Object  @value)
+        public virtual System.DateTime ToDateTime(System.Object @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -493,7 +493,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization
         }
 
 
-        public virtual System.String ToString(System.Object  @value)
+        public virtual System.String ToString(System.Object @value)
         {
 
             var ___genericsType = new Type[] {};

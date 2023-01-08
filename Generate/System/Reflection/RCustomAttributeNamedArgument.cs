@@ -317,7 +317,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 	    {
 	    }
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};
@@ -339,7 +339,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
         }
 
 
-        public static System.Boolean op_Equality(System.Reflection.CustomAttributeNamedArgument  @left, System.Reflection.CustomAttributeNamedArgument  @right)
+        public static System.Boolean op_Equality(System.Reflection.CustomAttributeNamedArgument @left, System.Reflection.CustomAttributeNamedArgument @right)
         {
 
             var ___genericsType = new Type[] {};
@@ -350,7 +350,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
         }
 
 
-        public static System.Boolean op_Inequality(System.Reflection.CustomAttributeNamedArgument  @left, System.Reflection.CustomAttributeNamedArgument  @right)
+        public static System.Boolean op_Inequality(System.Reflection.CustomAttributeNamedArgument @left, System.Reflection.CustomAttributeNamedArgument @right)
         {
 
             var ___genericsType = new Type[] {};

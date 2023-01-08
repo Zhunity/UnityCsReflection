@@ -247,7 +247,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual void OnDisplayWindowMenu(UnityEditor.GenericMenu  @menu)
+        public virtual void OnDisplayWindowMenu(UnityEditor.GenericMenu @menu)
         {
 
             var ___genericsType = new Type[] {};

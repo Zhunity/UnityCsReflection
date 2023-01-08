@@ -317,7 +317,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 	    {
 	    }
 
-        public virtual void Add(UnityEngine.UIElements.StyleSheet  @styleSheet)
+        public virtual void Add(UnityEngine.UIElements.StyleSheet @styleSheet)
         {
 
             var ___genericsType = new Type[] {};
@@ -339,7 +339,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean Remove(UnityEngine.UIElements.StyleSheet  @styleSheet)
+        public virtual System.Boolean Remove(UnityEngine.UIElements.StyleSheet @styleSheet)
         {
 
             var ___genericsType = new Type[] {};
@@ -350,7 +350,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void Swap(UnityEngine.UIElements.StyleSheet  @old, UnityEngine.UIElements.StyleSheet  @new)
+        public virtual void Swap(UnityEngine.UIElements.StyleSheet @old, UnityEngine.UIElements.StyleSheet @new)
         {
 
             var ___genericsType = new Type[] {};
@@ -361,7 +361,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean Contains(UnityEngine.UIElements.StyleSheet  @styleSheet)
+        public virtual System.Boolean Contains(UnityEngine.UIElements.StyleSheet @styleSheet)
         {
 
             var ___genericsType = new Type[] {};
@@ -372,7 +372,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean Equals(UnityEngine.UIElements.VisualElementStyleSheetSet  @other)
+        public virtual System.Boolean Equals(UnityEngine.UIElements.VisualElementStyleSheetSet @other)
         {
 
             var ___genericsType = new Type[] {};
@@ -383,7 +383,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};
@@ -405,7 +405,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public static System.Boolean op_Equality(UnityEngine.UIElements.VisualElementStyleSheetSet  @left, UnityEngine.UIElements.VisualElementStyleSheetSet  @right)
+        public static System.Boolean op_Equality(UnityEngine.UIElements.VisualElementStyleSheetSet @left, UnityEngine.UIElements.VisualElementStyleSheetSet @right)
         {
 
             var ___genericsType = new Type[] {};
@@ -416,7 +416,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public static System.Boolean op_Inequality(UnityEngine.UIElements.VisualElementStyleSheetSet  @left, UnityEngine.UIElements.VisualElementStyleSheetSet  @right)
+        public static System.Boolean op_Inequality(UnityEngine.UIElements.VisualElementStyleSheetSet @left, UnityEngine.UIElements.VisualElementStyleSheetSet @right)
         {
 
             var ___genericsType = new Type[] {};

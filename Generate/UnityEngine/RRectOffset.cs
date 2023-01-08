@@ -441,7 +441,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.String ToString(System.String  @format)
+        public virtual System.String ToString(System.String @format)
         {
 
             var ___genericsType = new Type[] {};
@@ -452,7 +452,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.String ToString(System.String  @format, System.IFormatProvider  @formatProvider)
+        public virtual System.String ToString(System.String @format, System.IFormatProvider @formatProvider)
         {
 
             var ___genericsType = new Type[] {};
@@ -485,7 +485,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static void InternalDestroy(System.IntPtr  @ptr)
+        public static void InternalDestroy(System.IntPtr @ptr)
         {
 
             var ___genericsType = new Type[] {};
@@ -496,7 +496,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual UnityEngine.Rect Add(UnityEngine.Rect  @rect)
+        public virtual UnityEngine.Rect Add(UnityEngine.Rect @rect)
         {
 
             var ___genericsType = new Type[] {};
@@ -507,7 +507,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual UnityEngine.Rect Remove(UnityEngine.Rect  @rect)
+        public virtual UnityEngine.Rect Remove(UnityEngine.Rect @rect)
         {
 
             var ___genericsType = new Type[] {};
@@ -518,7 +518,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void Add_Injected(ref UnityEngine.Rect  @rect, out UnityEngine.Rect  @ret)
+        public virtual void Add_Injected(ref UnityEngine.Rect @rect, out UnityEngine.Rect @ret)
         {
 			@ret = default;
 
@@ -532,7 +532,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void Remove_Injected(ref UnityEngine.Rect  @rect, out UnityEngine.Rect  @ret)
+        public virtual void Remove_Injected(ref UnityEngine.Rect @rect, out UnityEngine.Rect @ret)
         {
 			@ret = default;
 
@@ -546,7 +546,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

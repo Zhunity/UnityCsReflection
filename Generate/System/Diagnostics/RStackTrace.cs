@@ -419,7 +419,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RDiagnostics
 	    {
 	    }
 
-        public virtual void init_frames(System.Int32  @skipFrames, System.Boolean  @fNeedFileInfo)
+        public virtual void init_frames(System.Int32 @skipFrames, System.Boolean @fNeedFileInfo)
         {
 
             var ___genericsType = new Type[] {};
@@ -430,7 +430,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RDiagnostics
         }
 
 
-        public static System.Diagnostics.StackFrame[] get_trace(System.Exception  @e, System.Int32  @skipFrames, System.Boolean  @fNeedFileInfo)
+        public static System.Diagnostics.StackFrame[] get_trace(System.Exception @e, System.Int32 @skipFrames, System.Boolean @fNeedFileInfo)
         {
 
             var ___genericsType = new Type[] {};
@@ -441,7 +441,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RDiagnostics
         }
 
 
-        public virtual System.Diagnostics.StackFrame GetFrame(System.Int32  @index)
+        public virtual System.Diagnostics.StackFrame GetFrame(System.Int32 @index)
         {
 
             var ___genericsType = new Type[] {};
@@ -474,7 +474,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RDiagnostics
         }
 
 
-        public virtual System.Boolean AddFrames(System.Text.StringBuilder  @sb, System.Boolean  @separator, out System.Boolean  @isAsync)
+        public virtual System.Boolean AddFrames(System.Text.StringBuilder @sb, System.Boolean @separator, out System.Boolean @isAsync)
         {
 			@isAsync = default;
 
@@ -487,7 +487,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RDiagnostics
         }
 
 
-        public virtual void GetFullNameForStackTrace(System.Text.StringBuilder  @sb, System.Reflection.MethodBase  @mi, System.Boolean  @needsNewLine, out System.Boolean  @skipped, out System.Boolean  @isAsync)
+        public virtual void GetFullNameForStackTrace(System.Text.StringBuilder @sb, System.Reflection.MethodBase @mi, System.Boolean @needsNewLine, out System.Boolean @skipped, out System.Boolean @isAsync)
         {
 			@skipped = default;
 			@isAsync = default;
@@ -502,7 +502,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RDiagnostics
         }
 
 
-        public static void ConvertAsyncStateMachineMethod(ref System.Reflection.MethodBase  @method, ref System.Type  @declaringType)
+        public static void ConvertAsyncStateMachineMethod(ref System.Reflection.MethodBase @method, ref System.Type @declaringType)
         {
 
             var ___genericsType = new Type[] {};
@@ -526,7 +526,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RDiagnostics
         }
 
 
-        public virtual System.String ToString(RType  @traceFormat)
+        public virtual System.String ToString(RType @traceFormat)
         {
 
             var ___genericsType = new Type[] {};
@@ -537,7 +537,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RDiagnostics
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

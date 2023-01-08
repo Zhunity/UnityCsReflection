@@ -62,7 +62,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 	    {
 	    }
 
-        public virtual System.Boolean IsInRole(System.String  @role)
+        public virtual System.Boolean IsInRole(System.String @role)
         {
 
             var ___genericsType = new Type[] {};

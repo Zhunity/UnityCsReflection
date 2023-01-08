@@ -113,18 +113,18 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 	    {
 	    }
 
-        public virtual System.Object GetUpdater(RType  @phase)
+        public virtual RUnityEngine.RUIElements.RIVisualTreeUpdater GetUpdater(RType @phase)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@phase.Value};
             var ___result = RGetUpdater_VisualTreeEditorUpdatePhase.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RUnityEngine.RUIElements.RIVisualTreeUpdater(___result);
         }
 
 
-        public virtual void SetUpdater(RUnityEngine.RUIElements.RIVisualTreeUpdater  @updater, RType  @phase)
+        public virtual void SetUpdater(RUnityEngine.RUIElements.RIVisualTreeUpdater @updater, RType @phase)
         {
 
             var ___genericsType = new Type[] {};
@@ -146,7 +146,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void UpdateVisualTreePhase(RType  @phase)
+        public virtual void UpdateVisualTreePhase(RType @phase)
         {
 
             var ___genericsType = new Type[] {};
@@ -157,7 +157,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void OnVersionChanged(UnityEngine.UIElements.VisualElement  @ve, RType  @versionChangeType)
+        public virtual void OnVersionChanged(UnityEngine.UIElements.VisualElement @ve, RType @versionChangeType)
         {
 
             var ___genericsType = new Type[] {};

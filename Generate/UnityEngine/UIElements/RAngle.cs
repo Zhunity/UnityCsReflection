@@ -436,7 +436,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 	    {
 	    }
 
-        public static UnityEngine.UIElements.Angle Degrees(System.Single  @value)
+        public static UnityEngine.UIElements.Angle Degrees(System.Single @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -447,7 +447,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public static UnityEngine.UIElements.Angle Gradians(System.Single  @value)
+        public static UnityEngine.UIElements.Angle Gradians(System.Single @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -458,7 +458,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public static UnityEngine.UIElements.Angle Radians(System.Single  @value)
+        public static UnityEngine.UIElements.Angle Radians(System.Single @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -469,7 +469,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public static UnityEngine.UIElements.Angle Turns(System.Single  @value)
+        public static UnityEngine.UIElements.Angle Turns(System.Single @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -546,7 +546,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public static UnityEngine.UIElements.Angle op_Implicit(System.Single  @value)
+        public static UnityEngine.UIElements.Angle op_Implicit(System.Single @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -557,7 +557,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public static System.Boolean op_Equality(UnityEngine.UIElements.Angle  @lhs, UnityEngine.UIElements.Angle  @rhs)
+        public static System.Boolean op_Equality(UnityEngine.UIElements.Angle @lhs, UnityEngine.UIElements.Angle @rhs)
         {
 
             var ___genericsType = new Type[] {};
@@ -568,7 +568,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public static System.Boolean op_Inequality(UnityEngine.UIElements.Angle  @lhs, UnityEngine.UIElements.Angle  @rhs)
+        public static System.Boolean op_Inequality(UnityEngine.UIElements.Angle @lhs, UnityEngine.UIElements.Angle @rhs)
         {
 
             var ___genericsType = new Type[] {};
@@ -579,7 +579,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean Equals(UnityEngine.UIElements.Angle  @other)
+        public virtual System.Boolean Equals(UnityEngine.UIElements.Angle @other)
         {
 
             var ___genericsType = new Type[] {};
@@ -590,7 +590,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

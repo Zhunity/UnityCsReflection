@@ -404,46 +404,46 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 	    {
 	    }
 
-        public virtual System.Boolean Invoke(in UnityEditor.IMGUI.Controls.AdvancedDropdownItem  @item, in System.String[]  @words, out System.Boolean  @didMatchStart)
+        public virtual System.Boolean Invoke(in UnityEditor.IMGUI.Controls.AdvancedDropdownItem @item, in System.String[] @words, out System.Boolean @didMatchStart)
         {
-			didMatchStart = default;
+			@didMatchStart = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@item, @words, @didMatchStart};
             var ___result = RInvoke_In_AdvancedDropdownItem_In_StringArray_Out_Boolean.Invoke(___genericsType, ___parameters);
-			didMatchStart = (System.Boolean)___parameters[2];
+			@didMatchStart = (System.Boolean)___parameters[2];
 
             return (System.Boolean)___result;
         }
 
 
-        public virtual System.IAsyncResult BeginInvoke(in UnityEditor.IMGUI.Controls.AdvancedDropdownItem  @item, in System.String[]  @words, out System.Boolean  @didMatchStart, System.AsyncCallback  @callback, System.Object  @object)
+        public virtual System.IAsyncResult BeginInvoke(in UnityEditor.IMGUI.Controls.AdvancedDropdownItem @item, in System.String[] @words, out System.Boolean @didMatchStart, System.AsyncCallback @callback, System.Object @object)
         {
-			didMatchStart = default;
+			@didMatchStart = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@item, @words, @didMatchStart, @callback, @object};
             var ___result = RBeginInvoke_In_AdvancedDropdownItem_In_StringArray_Out_Boolean_AsyncCallback_Object.Invoke(___genericsType, ___parameters);
-			didMatchStart = (System.Boolean)___parameters[2];
+			@didMatchStart = (System.Boolean)___parameters[2];
 
             return (System.IAsyncResult)___result;
         }
 
 
-        public virtual System.Boolean EndInvoke(in UnityEditor.IMGUI.Controls.AdvancedDropdownItem  @item, in System.String[]  @words, out System.Boolean  @didMatchStart, System.IAsyncResult  @result)
+        public virtual System.Boolean EndInvoke(in UnityEditor.IMGUI.Controls.AdvancedDropdownItem @item, in System.String[] @words, out System.Boolean @didMatchStart, System.IAsyncResult @result)
         {
-			didMatchStart = default;
+			@didMatchStart = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@item, @words, @didMatchStart, @result};
             var ___result = REndInvoke_In_AdvancedDropdownItem_In_StringArray_Out_Boolean_IAsyncResult.Invoke(___genericsType, ___parameters);
-			didMatchStart = (System.Boolean)___parameters[2];
+			@didMatchStart = (System.Boolean)___parameters[2];
 
             return (System.Boolean)___result;
         }
 
 
-        public virtual void GetObjectData(System.Runtime.Serialization.SerializationInfo  @info, System.Runtime.Serialization.StreamingContext  @context)
+        public virtual void GetObjectData(System.Runtime.Serialization.SerializationInfo @info, System.Runtime.Serialization.StreamingContext @context)
         {
 
             var ___genericsType = new Type[] {};
@@ -454,7 +454,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
         }
 
 
-        public virtual System.Object DynamicInvokeImpl(System.Object[]  @args)
+        public virtual System.Object DynamicInvokeImpl(System.Object[] @args)
         {
 
             var ___genericsType = new Type[] {};
@@ -465,7 +465,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};
@@ -509,7 +509,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
         }
 
 
-        public virtual System.Delegate CombineImpl(System.Delegate  @follow)
+        public virtual System.Delegate CombineImpl(System.Delegate @follow)
         {
 
             var ___genericsType = new Type[] {};
@@ -520,7 +520,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
         }
 
 
-        public virtual System.Delegate RemoveImpl(System.Delegate  @value)
+        public virtual System.Delegate RemoveImpl(System.Delegate @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -542,7 +542,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
         }
 
 
-        public virtual System.Object DynamicInvoke(System.Object[]  @args)
+        public virtual System.Object DynamicInvoke(System.Object[] @args)
         {
 
             var ___genericsType = new Type[] {};

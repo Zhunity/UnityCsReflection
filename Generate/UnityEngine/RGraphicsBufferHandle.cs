@@ -226,7 +226,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};
@@ -237,7 +237,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Boolean Equals(UnityEngine.GraphicsBufferHandle  @other)
+        public virtual System.Boolean Equals(UnityEngine.GraphicsBufferHandle @other)
         {
 
             var ___genericsType = new Type[] {};
@@ -248,7 +248,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Int32 CompareTo(UnityEngine.GraphicsBufferHandle  @other)
+        public virtual System.Int32 CompareTo(UnityEngine.GraphicsBufferHandle @other)
         {
 
             var ___genericsType = new Type[] {};
@@ -259,7 +259,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static System.Boolean op_Equality(UnityEngine.GraphicsBufferHandle  @a, UnityEngine.GraphicsBufferHandle  @b)
+        public static System.Boolean op_Equality(UnityEngine.GraphicsBufferHandle @a, UnityEngine.GraphicsBufferHandle @b)
         {
 
             var ___genericsType = new Type[] {};
@@ -270,7 +270,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static System.Boolean op_Inequality(UnityEngine.GraphicsBufferHandle  @a, UnityEngine.GraphicsBufferHandle  @b)
+        public static System.Boolean op_Inequality(UnityEngine.GraphicsBufferHandle @a, UnityEngine.GraphicsBufferHandle @b)
         {
 
             var ___genericsType = new Type[] {};

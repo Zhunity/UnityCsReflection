@@ -776,18 +776,18 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 	    {
 	    }
 
-        public virtual System.Object Copy()
+        public virtual RUnityEngine.RUIElements.RLayoutData Copy()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RCopy.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RUnityEngine.RUIElements.RLayoutData(___result);
         }
 
 
-        public virtual void CopyFrom(ref RUnityEngine.RUIElements.RLayoutData  @other)
+        public virtual void CopyFrom(ref RUnityEngine.RUIElements.RLayoutData @other)
         {
 
             var ___genericsType = new Type[] {};
@@ -799,7 +799,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public static System.Boolean op_Equality(RUnityEngine.RUIElements.RLayoutData  @lhs, RUnityEngine.RUIElements.RLayoutData  @rhs)
+        public static System.Boolean op_Equality(RUnityEngine.RUIElements.RLayoutData @lhs, RUnityEngine.RUIElements.RLayoutData @rhs)
         {
 
             var ___genericsType = new Type[] {};
@@ -810,7 +810,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public static System.Boolean op_Inequality(RUnityEngine.RUIElements.RLayoutData  @lhs, RUnityEngine.RUIElements.RLayoutData  @rhs)
+        public static System.Boolean op_Inequality(RUnityEngine.RUIElements.RLayoutData @lhs, RUnityEngine.RUIElements.RLayoutData @rhs)
         {
 
             var ___genericsType = new Type[] {};
@@ -821,7 +821,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean Equals(RUnityEngine.RUIElements.RLayoutData  @other)
+        public virtual System.Boolean Equals(RUnityEngine.RUIElements.RLayoutData @other)
         {
 
             var ___genericsType = new Type[] {};
@@ -832,7 +832,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

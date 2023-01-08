@@ -787,7 +787,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
         }
 
 
-        public virtual void Dispose(System.Boolean  @disposing)
+        public virtual void Dispose(System.Boolean @disposing)
         {
 
             var ___genericsType = new Type[] {};
@@ -820,7 +820,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
         }
 
 
-        public virtual System.Int64 Seek(System.Int32  @offset, System.IO.SeekOrigin  @origin)
+        public virtual System.Int64 Seek(System.Int32 @offset, System.IO.SeekOrigin @origin)
         {
 
             var ___genericsType = new Type[] {};
@@ -844,7 +844,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
         }
 
 
-        public virtual void Write(System.Boolean  @value)
+        public virtual void Write(System.Boolean @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -855,7 +855,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
         }
 
 
-        public virtual void Write(System.Byte  @value)
+        public virtual void Write(System.Byte @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -866,7 +866,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
         }
 
 
-        public virtual void Write(System.SByte  @value)
+        public virtual void Write(System.SByte @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -877,7 +877,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
         }
 
 
-        public virtual void Write(System.Byte[]  @buffer)
+        public virtual void Write(System.Byte[] @buffer)
         {
 
             var ___genericsType = new Type[] {};
@@ -888,7 +888,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
         }
 
 
-        public virtual void Write(System.Byte[]  @buffer, System.Int32  @index, System.Int32  @count)
+        public virtual void Write(System.Byte[] @buffer, System.Int32 @index, System.Int32 @count)
         {
 
             var ___genericsType = new Type[] {};
@@ -899,7 +899,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
         }
 
 
-        public virtual void Write(System.Char  @ch)
+        public virtual void Write(System.Char @ch)
         {
 
             var ___genericsType = new Type[] {};
@@ -910,7 +910,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
         }
 
 
-        public virtual void Write(System.Char[]  @chars)
+        public virtual void Write(System.Char[] @chars)
         {
 
             var ___genericsType = new Type[] {};
@@ -921,7 +921,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
         }
 
 
-        public virtual void Write(System.Char[]  @chars, System.Int32  @index, System.Int32  @count)
+        public virtual void Write(System.Char[] @chars, System.Int32 @index, System.Int32 @count)
         {
 
             var ___genericsType = new Type[] {};
@@ -932,7 +932,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
         }
 
 
-        public virtual void Write(System.Double  @value)
+        public virtual void Write(System.Double @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -943,7 +943,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
         }
 
 
-        public virtual void Write(System.Decimal  @value)
+        public virtual void Write(System.Decimal @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -954,7 +954,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
         }
 
 
-        public virtual void Write(System.Int16  @value)
+        public virtual void Write(System.Int16 @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -965,7 +965,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
         }
 
 
-        public virtual void Write(System.UInt16  @value)
+        public virtual void Write(System.UInt16 @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -976,7 +976,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
         }
 
 
-        public virtual void Write(System.Int32  @value)
+        public virtual void Write(System.Int32 @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -987,7 +987,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
         }
 
 
-        public virtual void Write(System.UInt32  @value)
+        public virtual void Write(System.UInt32 @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -998,7 +998,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
         }
 
 
-        public virtual void Write(System.Int64  @value)
+        public virtual void Write(System.Int64 @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -1009,7 +1009,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
         }
 
 
-        public virtual void Write(System.UInt64  @value)
+        public virtual void Write(System.UInt64 @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -1020,7 +1020,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
         }
 
 
-        public virtual void Write(System.Single  @value)
+        public virtual void Write(System.Single @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -1031,7 +1031,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
         }
 
 
-        public virtual void Write(System.String  @value)
+        public virtual void Write(System.String @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -1042,7 +1042,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
         }
 
 
-        public virtual void Write7BitEncodedInt(System.Int32  @value)
+        public virtual void Write7BitEncodedInt(System.Int32 @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -1053,7 +1053,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

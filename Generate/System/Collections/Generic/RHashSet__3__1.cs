@@ -1218,7 +1218,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
 	    {
 	    }
 
-        public virtual void CopyFrom(System.Collections.Generic.HashSet<T>  @source)
+        public virtual void CopyFrom(System.Collections.Generic.HashSet<T> @source)
         {
 
             var ___genericsType = new Type[] {};
@@ -1229,7 +1229,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
         }
 
 
-        public virtual void System__2__Collections__2__Generic__2__ICollection__0__T__1____2__Add(T  @item)
+        public virtual void System__2__Collections__2__Generic__2__ICollection__0__T__1____2__Add(T @item)
         {
 
             var ___genericsType = new Type[] {};
@@ -1251,7 +1251,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
         }
 
 
-        public virtual System.Boolean Contains(T  @item)
+        public virtual System.Boolean Contains(T @item)
         {
 
             var ___genericsType = new Type[] {};
@@ -1262,7 +1262,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
         }
 
 
-        public virtual void CopyTo(T[]  @array, System.Int32  @arrayIndex)
+        public virtual void CopyTo(T[] @array, System.Int32 @arrayIndex)
         {
 
             var ___genericsType = new Type[] {};
@@ -1273,7 +1273,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
         }
 
 
-        public virtual System.Boolean Remove(T  @item)
+        public virtual System.Boolean Remove(T @item)
         {
 
             var ___genericsType = new Type[] {};
@@ -1284,14 +1284,14 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
         }
 
 
-        public virtual System.Object GetEnumerator()
+        public virtual RSystem.RCollections.RGeneric.RHashSet<RType>.REnumerator GetEnumerator()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RGetEnumerator.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RSystem.RCollections.RGeneric.RHashSet<RType>.REnumerator(___result);
         }
 
 
@@ -1317,7 +1317,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
         }
 
 
-        public virtual void GetObjectData(System.Runtime.Serialization.SerializationInfo  @info, System.Runtime.Serialization.StreamingContext  @context)
+        public virtual void GetObjectData(System.Runtime.Serialization.SerializationInfo @info, System.Runtime.Serialization.StreamingContext @context)
         {
 
             var ___genericsType = new Type[] {};
@@ -1328,7 +1328,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
         }
 
 
-        public virtual void OnDeserialization(System.Object  @sender)
+        public virtual void OnDeserialization(System.Object @sender)
         {
 
             var ___genericsType = new Type[] {};
@@ -1339,7 +1339,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
         }
 
 
-        public virtual System.Boolean Add(T  @item)
+        public virtual System.Boolean Add(T @item)
         {
 
             var ___genericsType = new Type[] {};
@@ -1350,7 +1350,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
         }
 
 
-        public virtual System.Boolean TryGetValue(T  @equalValue, out T  @actualValue)
+        public virtual System.Boolean TryGetValue(T @equalValue, out T @actualValue)
         {
 			@actualValue = default;
 
@@ -1363,7 +1363,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
         }
 
 
-        public virtual void UnionWith(System.Collections.Generic.IEnumerable<T>  @other)
+        public virtual void UnionWith(System.Collections.Generic.IEnumerable<T> @other)
         {
 
             var ___genericsType = new Type[] {};
@@ -1374,7 +1374,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
         }
 
 
-        public virtual void IntersectWith(System.Collections.Generic.IEnumerable<T>  @other)
+        public virtual void IntersectWith(System.Collections.Generic.IEnumerable<T> @other)
         {
 
             var ___genericsType = new Type[] {};
@@ -1385,7 +1385,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
         }
 
 
-        public virtual void ExceptWith(System.Collections.Generic.IEnumerable<T>  @other)
+        public virtual void ExceptWith(System.Collections.Generic.IEnumerable<T> @other)
         {
 
             var ___genericsType = new Type[] {};
@@ -1396,7 +1396,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
         }
 
 
-        public virtual void SymmetricExceptWith(System.Collections.Generic.IEnumerable<T>  @other)
+        public virtual void SymmetricExceptWith(System.Collections.Generic.IEnumerable<T> @other)
         {
 
             var ___genericsType = new Type[] {};
@@ -1407,7 +1407,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
         }
 
 
-        public virtual System.Boolean IsSubsetOf(System.Collections.Generic.IEnumerable<T>  @other)
+        public virtual System.Boolean IsSubsetOf(System.Collections.Generic.IEnumerable<T> @other)
         {
 
             var ___genericsType = new Type[] {};
@@ -1418,7 +1418,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
         }
 
 
-        public virtual System.Boolean IsProperSubsetOf(System.Collections.Generic.IEnumerable<T>  @other)
+        public virtual System.Boolean IsProperSubsetOf(System.Collections.Generic.IEnumerable<T> @other)
         {
 
             var ___genericsType = new Type[] {};
@@ -1429,7 +1429,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
         }
 
 
-        public virtual System.Boolean IsSupersetOf(System.Collections.Generic.IEnumerable<T>  @other)
+        public virtual System.Boolean IsSupersetOf(System.Collections.Generic.IEnumerable<T> @other)
         {
 
             var ___genericsType = new Type[] {};
@@ -1440,7 +1440,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
         }
 
 
-        public virtual System.Boolean IsProperSupersetOf(System.Collections.Generic.IEnumerable<T>  @other)
+        public virtual System.Boolean IsProperSupersetOf(System.Collections.Generic.IEnumerable<T> @other)
         {
 
             var ___genericsType = new Type[] {};
@@ -1451,7 +1451,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
         }
 
 
-        public virtual System.Boolean Overlaps(System.Collections.Generic.IEnumerable<T>  @other)
+        public virtual System.Boolean Overlaps(System.Collections.Generic.IEnumerable<T> @other)
         {
 
             var ___genericsType = new Type[] {};
@@ -1462,7 +1462,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
         }
 
 
-        public virtual System.Boolean SetEquals(System.Collections.Generic.IEnumerable<T>  @other)
+        public virtual System.Boolean SetEquals(System.Collections.Generic.IEnumerable<T> @other)
         {
 
             var ___genericsType = new Type[] {};
@@ -1473,7 +1473,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
         }
 
 
-        public virtual void CopyTo(T[]  @array)
+        public virtual void CopyTo(T[] @array)
         {
 
             var ___genericsType = new Type[] {};
@@ -1484,7 +1484,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
         }
 
 
-        public virtual void CopyTo(T[]  @array, System.Int32  @arrayIndex, System.Int32  @count)
+        public virtual void CopyTo(T[] @array, System.Int32 @arrayIndex, System.Int32 @count)
         {
 
             var ___genericsType = new Type[] {};
@@ -1495,7 +1495,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
         }
 
 
-        public virtual System.Int32 RemoveWhere(System.Predicate<T>  @match)
+        public virtual System.Int32 RemoveWhere(System.Predicate<T> @match)
         {
 
             var ___genericsType = new Type[] {};
@@ -1506,7 +1506,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
         }
 
 
-        public virtual System.Int32 EnsureCapacity(System.Int32  @capacity)
+        public virtual System.Int32 EnsureCapacity(System.Int32 @capacity)
         {
 
             var ___genericsType = new Type[] {};
@@ -1539,7 +1539,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
         }
 
 
-        public virtual System.Int32 Initialize(System.Int32  @capacity)
+        public virtual System.Int32 Initialize(System.Int32 @capacity)
         {
 
             var ___genericsType = new Type[] {};
@@ -1561,7 +1561,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
         }
 
 
-        public virtual void SetCapacity(System.Int32  @newSize)
+        public virtual void SetCapacity(System.Int32 @newSize)
         {
 
             var ___genericsType = new Type[] {};
@@ -1572,7 +1572,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
         }
 
 
-        public virtual System.Boolean AddIfNotPresent(T  @value)
+        public virtual System.Boolean AddIfNotPresent(T @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -1583,7 +1583,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
         }
 
 
-        public virtual void AddValue(System.Int32  @index, System.Int32  @hashCode, T  @value)
+        public virtual void AddValue(System.Int32 @index, System.Int32 @hashCode, T @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -1594,7 +1594,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
         }
 
 
-        public virtual System.Boolean ContainsAllElements(System.Collections.Generic.IEnumerable<T>  @other)
+        public virtual System.Boolean ContainsAllElements(System.Collections.Generic.IEnumerable<T> @other)
         {
 
             var ___genericsType = new Type[] {};
@@ -1605,7 +1605,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
         }
 
 
-        public virtual System.Boolean IsSubsetOfHashSetWithSameEC(System.Collections.Generic.HashSet<T>  @other)
+        public virtual System.Boolean IsSubsetOfHashSetWithSameEC(System.Collections.Generic.HashSet<T> @other)
         {
 
             var ___genericsType = new Type[] {};
@@ -1616,7 +1616,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
         }
 
 
-        public virtual void IntersectWithHashSetWithSameEC(System.Collections.Generic.HashSet<T>  @other)
+        public virtual void IntersectWithHashSetWithSameEC(System.Collections.Generic.HashSet<T> @other)
         {
 
             var ___genericsType = new Type[] {};
@@ -1627,7 +1627,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
         }
 
 
-        public virtual void IntersectWithEnumerable(System.Collections.Generic.IEnumerable<T>  @other)
+        public virtual void IntersectWithEnumerable(System.Collections.Generic.IEnumerable<T> @other)
         {
 
             var ___genericsType = new Type[] {};
@@ -1638,7 +1638,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
         }
 
 
-        public virtual System.Int32 InternalIndexOf(T  @item)
+        public virtual System.Int32 InternalIndexOf(T @item)
         {
 
             var ___genericsType = new Type[] {};
@@ -1649,7 +1649,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
         }
 
 
-        public virtual void SymmetricExceptWithUniqueHashSet(System.Collections.Generic.HashSet<T>  @other)
+        public virtual void SymmetricExceptWithUniqueHashSet(System.Collections.Generic.HashSet<T> @other)
         {
 
             var ___genericsType = new Type[] {};
@@ -1660,7 +1660,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
         }
 
 
-        public virtual void SymmetricExceptWithEnumerable(System.Collections.Generic.IEnumerable<T>  @other)
+        public virtual void SymmetricExceptWithEnumerable(System.Collections.Generic.IEnumerable<T> @other)
         {
 
             var ___genericsType = new Type[] {};
@@ -1671,7 +1671,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
         }
 
 
-        public virtual System.Boolean AddOrGetLocation(T  @value, out System.Int32  @location)
+        public virtual System.Boolean AddOrGetLocation(T @value, out System.Int32 @location)
         {
 			@location = default;
 
@@ -1684,18 +1684,18 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
         }
 
 
-        public virtual System.Object CheckUniqueAndUnfoundElements(System.Collections.Generic.IEnumerable<T>  @other, System.Boolean  @returnIfUnfound)
+        public virtual RSystem.RCollections.RGeneric.RHashSet<RType>.RElementCount CheckUniqueAndUnfoundElements(System.Collections.Generic.IEnumerable<T> @other, System.Boolean @returnIfUnfound)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@other, @returnIfUnfound};
             var ___result = RCheckUniqueAndUnfoundElements_IEnumerable_d_T_p__Boolean.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RSystem.RCollections.RGeneric.RHashSet<RType>.RElementCount(___result);
         }
 
 
-        public static System.Boolean HashSetEquals(System.Collections.Generic.HashSet<T>  @set1, System.Collections.Generic.HashSet<T>  @set2, System.Collections.Generic.IEqualityComparer<T>  @comparer)
+        public static System.Boolean HashSetEquals(System.Collections.Generic.HashSet<T> @set1, System.Collections.Generic.HashSet<T> @set2, System.Collections.Generic.IEqualityComparer<T> @comparer)
         {
 
             var ___genericsType = new Type[] {};
@@ -1706,7 +1706,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
         }
 
 
-        public static System.Boolean AreEqualityComparersEqual(System.Collections.Generic.HashSet<T>  @set1, System.Collections.Generic.HashSet<T>  @set2)
+        public static System.Boolean AreEqualityComparersEqual(System.Collections.Generic.HashSet<T> @set1, System.Collections.Generic.HashSet<T> @set2)
         {
 
             var ___genericsType = new Type[] {};
@@ -1717,7 +1717,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
         }
 
 
-        public virtual System.Int32 InternalGetHashCode(T  @item)
+        public virtual System.Int32 InternalGetHashCode(T @item)
         {
 
             var ___genericsType = new Type[] {};
@@ -1728,7 +1728,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

@@ -2816,7 +2816,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 	    {
 	    }
 
-        public virtual void System__2__Runtime__2__InteropServices__2___AssemblyBuilder__2__GetIDsOfNames(in System.Guid  @riid, System.IntPtr  @rgszNames, System.UInt32  @cNames, System.UInt32  @lcid, System.IntPtr  @rgDispId)
+        public virtual void System__2__Runtime__2__InteropServices__2___AssemblyBuilder__2__GetIDsOfNames(in System.Guid @riid, System.IntPtr @rgszNames, System.UInt32 @cNames, System.UInt32 @lcid, System.IntPtr @rgDispId)
         {
 
             var ___genericsType = new Type[] {};
@@ -2827,7 +2827,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual void System__2__Runtime__2__InteropServices__2___AssemblyBuilder__2__GetTypeInfo(System.UInt32  @iTInfo, System.UInt32  @lcid, System.IntPtr  @ppTInfo)
+        public virtual void System__2__Runtime__2__InteropServices__2___AssemblyBuilder__2__GetTypeInfo(System.UInt32 @iTInfo, System.UInt32 @lcid, System.IntPtr @ppTInfo)
         {
 
             var ___genericsType = new Type[] {};
@@ -2838,7 +2838,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual void System__2__Runtime__2__InteropServices__2___AssemblyBuilder__2__GetTypeInfoCount(out System.UInt32  @pcTInfo)
+        public virtual void System__2__Runtime__2__InteropServices__2___AssemblyBuilder__2__GetTypeInfoCount(out System.UInt32 @pcTInfo)
         {
 			@pcTInfo = default;
 
@@ -2851,7 +2851,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual void System__2__Runtime__2__InteropServices__2___AssemblyBuilder__2__Invoke(System.UInt32  @dispIdMember, in System.Guid  @riid, System.UInt32  @lcid, System.Int16  @wFlags, System.IntPtr  @pDispParams, System.IntPtr  @pVarResult, System.IntPtr  @pExcepInfo, System.IntPtr  @puArgErr)
+        public virtual void System__2__Runtime__2__InteropServices__2___AssemblyBuilder__2__Invoke(System.UInt32 @dispIdMember, in System.Guid @riid, System.UInt32 @lcid, System.Int16 @wFlags, System.IntPtr @pDispParams, System.IntPtr @pVarResult, System.IntPtr @pExcepInfo, System.IntPtr @puArgErr)
         {
 
             var ___genericsType = new Type[] {};
@@ -2862,7 +2862,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public static void basic_init(System.Reflection.Emit.AssemblyBuilder  @ab)
+        public static void basic_init(System.Reflection.Emit.AssemblyBuilder @ab)
         {
 
             var ___genericsType = new Type[] {};
@@ -2873,7 +2873,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public static void UpdateNativeCustomAttributes(System.Reflection.Emit.AssemblyBuilder  @ab)
+        public static void UpdateNativeCustomAttributes(System.Reflection.Emit.AssemblyBuilder @ab)
         {
 
             var ___genericsType = new Type[] {};
@@ -2884,7 +2884,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual void AddResourceFile(System.String  @name, System.String  @fileName)
+        public virtual void AddResourceFile(System.String @name, System.String @fileName)
         {
 
             var ___genericsType = new Type[] {};
@@ -2895,7 +2895,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual void AddResourceFile(System.String  @name, System.String  @fileName, System.Reflection.ResourceAttributes  @attribute)
+        public virtual void AddResourceFile(System.String @name, System.String @fileName, System.Reflection.ResourceAttributes @attribute)
         {
 
             var ___genericsType = new Type[] {};
@@ -2906,7 +2906,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual void AddResourceFile(System.String  @name, System.String  @fileName, System.Reflection.ResourceAttributes  @attribute, System.Boolean  @fileNeedsToExists)
+        public virtual void AddResourceFile(System.String @name, System.String @fileName, System.Reflection.ResourceAttributes @attribute, System.Boolean @fileNeedsToExists)
         {
 
             var ___genericsType = new Type[] {};
@@ -2917,7 +2917,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual void AddPermissionRequests(System.Security.PermissionSet  @required, System.Security.PermissionSet  @optional, System.Security.PermissionSet  @refused)
+        public virtual void AddPermissionRequests(System.Security.PermissionSet @required, System.Security.PermissionSet @optional, System.Security.PermissionSet @refused)
         {
 
             var ___genericsType = new Type[] {};
@@ -2928,7 +2928,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual void EmbedResourceFile(System.String  @name, System.String  @fileName)
+        public virtual void EmbedResourceFile(System.String @name, System.String @fileName)
         {
 
             var ___genericsType = new Type[] {};
@@ -2939,7 +2939,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual void EmbedResourceFile(System.String  @name, System.String  @fileName, System.Reflection.ResourceAttributes  @attribute)
+        public virtual void EmbedResourceFile(System.String @name, System.String @fileName, System.Reflection.ResourceAttributes @attribute)
         {
 
             var ___genericsType = new Type[] {};
@@ -2950,7 +2950,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public static System.Reflection.Emit.AssemblyBuilder DefineDynamicAssembly(System.Reflection.AssemblyName  @name, System.Reflection.Emit.AssemblyBuilderAccess  @access)
+        public static System.Reflection.Emit.AssemblyBuilder DefineDynamicAssembly(System.Reflection.AssemblyName @name, System.Reflection.Emit.AssemblyBuilderAccess @access)
         {
 
             var ___genericsType = new Type[] {};
@@ -2961,7 +2961,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public static System.Reflection.Emit.AssemblyBuilder DefineDynamicAssembly(System.Reflection.AssemblyName  @name, System.Reflection.Emit.AssemblyBuilderAccess  @access, System.Collections.Generic.IEnumerable<System.Reflection.Emit.CustomAttributeBuilder>  @assemblyAttributes)
+        public static System.Reflection.Emit.AssemblyBuilder DefineDynamicAssembly(System.Reflection.AssemblyName @name, System.Reflection.Emit.AssemblyBuilderAccess @access, System.Collections.Generic.IEnumerable<System.Reflection.Emit.CustomAttributeBuilder> @assemblyAttributes)
         {
 
             var ___genericsType = new Type[] {};
@@ -2972,7 +2972,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual System.Reflection.Emit.ModuleBuilder DefineDynamicModule(System.String  @name)
+        public virtual System.Reflection.Emit.ModuleBuilder DefineDynamicModule(System.String @name)
         {
 
             var ___genericsType = new Type[] {};
@@ -2983,7 +2983,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual System.Reflection.Emit.ModuleBuilder DefineDynamicModule(System.String  @name, System.Boolean  @emitSymbolInfo)
+        public virtual System.Reflection.Emit.ModuleBuilder DefineDynamicModule(System.String @name, System.Boolean @emitSymbolInfo)
         {
 
             var ___genericsType = new Type[] {};
@@ -2994,7 +2994,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual System.Reflection.Emit.ModuleBuilder DefineDynamicModule(System.String  @name, System.String  @fileName)
+        public virtual System.Reflection.Emit.ModuleBuilder DefineDynamicModule(System.String @name, System.String @fileName)
         {
 
             var ___genericsType = new Type[] {};
@@ -3005,7 +3005,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual System.Reflection.Emit.ModuleBuilder DefineDynamicModule(System.String  @name, System.String  @fileName, System.Boolean  @emitSymbolInfo)
+        public virtual System.Reflection.Emit.ModuleBuilder DefineDynamicModule(System.String @name, System.String @fileName, System.Boolean @emitSymbolInfo)
         {
 
             var ___genericsType = new Type[] {};
@@ -3016,7 +3016,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual System.Reflection.Emit.ModuleBuilder DefineDynamicModule(System.String  @name, System.String  @fileName, System.Boolean  @emitSymbolInfo, System.Boolean  @transient)
+        public virtual System.Reflection.Emit.ModuleBuilder DefineDynamicModule(System.String @name, System.String @fileName, System.Boolean @emitSymbolInfo, System.Boolean @transient)
         {
 
             var ___genericsType = new Type[] {};
@@ -3027,7 +3027,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual System.Resources.IResourceWriter DefineResource(System.String  @name, System.String  @description, System.String  @fileName)
+        public virtual System.Resources.IResourceWriter DefineResource(System.String @name, System.String @description, System.String @fileName)
         {
 
             var ___genericsType = new Type[] {};
@@ -3038,7 +3038,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual System.Resources.IResourceWriter DefineResource(System.String  @name, System.String  @description, System.String  @fileName, System.Reflection.ResourceAttributes  @attribute)
+        public virtual System.Resources.IResourceWriter DefineResource(System.String @name, System.String @description, System.String @fileName, System.Reflection.ResourceAttributes @attribute)
         {
 
             var ___genericsType = new Type[] {};
@@ -3049,7 +3049,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual void AddUnmanagedResource(RSystem.RResources.RWin32Resource  @res)
+        public virtual void AddUnmanagedResource(RSystem.RResources.RWin32Resource @res)
         {
 
             var ___genericsType = new Type[] {};
@@ -3060,7 +3060,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual void DefineUnmanagedResource(System.Byte[]  @resource)
+        public virtual void DefineUnmanagedResource(System.Byte[] @resource)
         {
 
             var ___genericsType = new Type[] {};
@@ -3071,7 +3071,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual void DefineUnmanagedResource(System.String  @resourceFileName)
+        public virtual void DefineUnmanagedResource(System.String @resourceFileName)
         {
 
             var ___genericsType = new Type[] {};
@@ -3093,7 +3093,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual void DefineVersionInfoResource(System.String  @product, System.String  @productVersion, System.String  @company, System.String  @copyright, System.String  @trademark)
+        public virtual void DefineVersionInfoResource(System.String @product, System.String @productVersion, System.String @company, System.String @copyright, System.String @trademark)
         {
 
             var ___genericsType = new Type[] {};
@@ -3104,7 +3104,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual void DefineVersionInfoResourceImpl(System.String  @fileName)
+        public virtual void DefineVersionInfoResourceImpl(System.String @fileName)
         {
 
             var ___genericsType = new Type[] {};
@@ -3115,7 +3115,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual System.Reflection.Emit.ModuleBuilder GetDynamicModule(System.String  @name)
+        public virtual System.Reflection.Emit.ModuleBuilder GetDynamicModule(System.String @name)
         {
 
             var ___genericsType = new Type[] {};
@@ -3137,7 +3137,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual System.IO.FileStream GetFile(System.String  @name)
+        public virtual System.IO.FileStream GetFile(System.String @name)
         {
 
             var ___genericsType = new Type[] {};
@@ -3148,7 +3148,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual System.IO.FileStream[] GetFiles(System.Boolean  @getResourceModules)
+        public virtual System.IO.FileStream[] GetFiles(System.Boolean @getResourceModules)
         {
 
             var ___genericsType = new Type[] {};
@@ -3170,7 +3170,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual System.Type[] GetTypes(System.Boolean  @exportedOnly)
+        public virtual System.Type[] GetTypes(System.Boolean @exportedOnly)
         {
 
             var ___genericsType = new Type[] {};
@@ -3181,7 +3181,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual System.Reflection.ManifestResourceInfo GetManifestResourceInfo(System.String  @resourceName)
+        public virtual System.Reflection.ManifestResourceInfo GetManifestResourceInfo(System.String @resourceName)
         {
 
             var ___genericsType = new Type[] {};
@@ -3203,7 +3203,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual System.IO.Stream GetManifestResourceStream(System.String  @name)
+        public virtual System.IO.Stream GetManifestResourceStream(System.String @name)
         {
 
             var ___genericsType = new Type[] {};
@@ -3214,7 +3214,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual System.IO.Stream GetManifestResourceStream(System.Type  @type, System.String  @name)
+        public virtual System.IO.Stream GetManifestResourceStream(System.Type @type, System.String @name)
         {
 
             var ___genericsType = new Type[] {};
@@ -3236,7 +3236,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual void Save(System.String  @assemblyFileName, System.Reflection.PortableExecutableKinds  @portableExecutableKind, System.Reflection.ImageFileMachine  @imageFileMachine)
+        public virtual void Save(System.String @assemblyFileName, System.Reflection.PortableExecutableKinds @portableExecutableKind, System.Reflection.ImageFileMachine @imageFileMachine)
         {
 
             var ___genericsType = new Type[] {};
@@ -3247,7 +3247,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual void Save(System.String  @assemblyFileName)
+        public virtual void Save(System.String @assemblyFileName)
         {
 
             var ___genericsType = new Type[] {};
@@ -3258,7 +3258,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual void SetEntryPoint(System.Reflection.MethodInfo  @entryMethod)
+        public virtual void SetEntryPoint(System.Reflection.MethodInfo @entryMethod)
         {
 
             var ___genericsType = new Type[] {};
@@ -3269,7 +3269,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual void SetEntryPoint(System.Reflection.MethodInfo  @entryMethod, System.Reflection.Emit.PEFileKinds  @fileKind)
+        public virtual void SetEntryPoint(System.Reflection.MethodInfo @entryMethod, System.Reflection.Emit.PEFileKinds @fileKind)
         {
 
             var ___genericsType = new Type[] {};
@@ -3280,7 +3280,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual void SetCustomAttribute(System.Reflection.Emit.CustomAttributeBuilder  @customBuilder)
+        public virtual void SetCustomAttribute(System.Reflection.Emit.CustomAttributeBuilder @customBuilder)
         {
 
             var ___genericsType = new Type[] {};
@@ -3291,7 +3291,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual void SetCustomAttribute(System.Reflection.ConstructorInfo  @con, System.Byte[]  @binaryAttribute)
+        public virtual void SetCustomAttribute(System.Reflection.ConstructorInfo @con, System.Byte[] @binaryAttribute)
         {
 
             var ___genericsType = new Type[] {};
@@ -3313,7 +3313,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual void check_name_and_filename(System.String  @name, System.String  @fileName, System.Boolean  @fileNeedsToExists)
+        public virtual void check_name_and_filename(System.String @name, System.String @fileName, System.Boolean @fileNeedsToExists)
         {
 
             var ___genericsType = new Type[] {};
@@ -3324,7 +3324,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual System.String create_assembly_version(System.String  @version)
+        public virtual System.String create_assembly_version(System.String @version)
         {
 
             var ___genericsType = new Type[] {};
@@ -3335,7 +3335,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual System.String GetCultureString(System.String  @str)
+        public virtual System.String GetCultureString(System.String @str)
         {
 
             var ___genericsType = new Type[] {};
@@ -3346,7 +3346,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual System.Type MakeGenericType(System.Type  @gtd, System.Type[]  @typeArguments)
+        public virtual System.Type MakeGenericType(System.Type @gtd, System.Type[] @typeArguments)
         {
 
             var ___genericsType = new Type[] {};
@@ -3357,7 +3357,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual System.Type GetType(System.String  @name, System.Boolean  @throwOnError, System.Boolean  @ignoreCase)
+        public virtual System.Type GetType(System.String @name, System.Boolean @throwOnError, System.Boolean @ignoreCase)
         {
 
             var ___genericsType = new Type[] {};
@@ -3368,7 +3368,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual System.Reflection.Module GetModule(System.String  @name)
+        public virtual System.Reflection.Module GetModule(System.String @name)
         {
 
             var ___genericsType = new Type[] {};
@@ -3379,7 +3379,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual System.Reflection.Module[] GetModules(System.Boolean  @getResourceModules)
+        public virtual System.Reflection.Module[] GetModules(System.Boolean @getResourceModules)
         {
 
             var ___genericsType = new Type[] {};
@@ -3390,7 +3390,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual System.Reflection.AssemblyName GetName(System.Boolean  @copiedName)
+        public virtual System.Reflection.AssemblyName GetName(System.Boolean @copiedName)
         {
 
             var ___genericsType = new Type[] {};
@@ -3412,7 +3412,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual System.Reflection.Module[] GetLoadedModules(System.Boolean  @getResourceModules)
+        public virtual System.Reflection.Module[] GetLoadedModules(System.Boolean @getResourceModules)
         {
 
             var ___genericsType = new Type[] {};
@@ -3423,7 +3423,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual System.Reflection.Assembly GetSatelliteAssembly(System.Globalization.CultureInfo  @culture)
+        public virtual System.Reflection.Assembly GetSatelliteAssembly(System.Globalization.CultureInfo @culture)
         {
 
             var ___genericsType = new Type[] {};
@@ -3434,7 +3434,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual System.Reflection.Assembly GetSatelliteAssembly(System.Globalization.CultureInfo  @culture, System.Version  @version)
+        public virtual System.Reflection.Assembly GetSatelliteAssembly(System.Globalization.CultureInfo @culture, System.Version @version)
         {
 
             var ___genericsType = new Type[] {};
@@ -3445,7 +3445,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};
@@ -3478,7 +3478,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual System.Boolean IsDefined(System.Type  @attributeType, System.Boolean  @inherit)
+        public virtual System.Boolean IsDefined(System.Type @attributeType, System.Boolean @inherit)
         {
 
             var ___genericsType = new Type[] {};
@@ -3489,7 +3489,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual System.Object[] GetCustomAttributes(System.Boolean  @inherit)
+        public virtual System.Object[] GetCustomAttributes(System.Boolean @inherit)
         {
 
             var ___genericsType = new Type[] {};
@@ -3500,7 +3500,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual System.Object[] GetCustomAttributes(System.Type  @attributeType, System.Boolean  @inherit)
+        public virtual System.Object[] GetCustomAttributes(System.Type @attributeType, System.Boolean @inherit)
         {
 
             var ___genericsType = new Type[] {};
@@ -3522,7 +3522,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual void GetObjectData(System.Runtime.Serialization.SerializationInfo  @info, System.Runtime.Serialization.StreamingContext  @context)
+        public virtual void GetObjectData(System.Runtime.Serialization.SerializationInfo @info, System.Runtime.Serialization.StreamingContext @context)
         {
 
             var ___genericsType = new Type[] {};
@@ -3544,7 +3544,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual System.IO.Stream GetManifestResourceStream(System.Type  @type, System.String  @name, System.Boolean  @skipSecurityCheck, ref RType  @stackMark)
+        public virtual System.IO.Stream GetManifestResourceStream(System.Type @type, System.String @name, System.Boolean @skipSecurityCheck, ref RType @stackMark)
         {
 
             var ___genericsType = new Type[] {};
@@ -3556,7 +3556,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual System.IO.Stream GetManifestResourceStream(System.String  @name, ref RType  @stackMark, System.Boolean  @skipSecurityCheck)
+        public virtual System.IO.Stream GetManifestResourceStream(System.String @name, ref RType @stackMark, System.Boolean @skipSecurityCheck)
         {
 
             var ___genericsType = new Type[] {};
@@ -3612,7 +3612,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual System.Type GetType(System.String  @name, System.Boolean  @throwOnError)
+        public virtual System.Type GetType(System.String @name, System.Boolean @throwOnError)
         {
 
             var ___genericsType = new Type[] {};
@@ -3623,7 +3623,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual System.Type GetType(System.String  @name)
+        public virtual System.Type GetType(System.String @name)
         {
 
             var ___genericsType = new Type[] {};
@@ -3634,7 +3634,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual System.Type InternalGetType(System.Reflection.Module  @module, System.String  @name, System.Boolean  @throwOnError, System.Boolean  @ignoreCase)
+        public virtual System.Type InternalGetType(System.Reflection.Module @module, System.String @name, System.Boolean @throwOnError, System.Boolean @ignoreCase)
         {
 
             var ___genericsType = new Type[] {};
@@ -3656,7 +3656,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual System.Reflection.Assembly GetSatelliteAssembly(System.Globalization.CultureInfo  @culture, System.Version  @version, System.Boolean  @throwOnError, ref RType  @stackMark)
+        public virtual System.Reflection.Assembly GetSatelliteAssembly(System.Globalization.CultureInfo @culture, System.Version @version, System.Boolean @throwOnError, ref RType @stackMark)
         {
 
             var ___genericsType = new Type[] {};
@@ -3668,7 +3668,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual System.Object InternalGetSatelliteAssembly(System.String  @name, System.Globalization.CultureInfo  @culture, System.Version  @version, System.Boolean  @throwOnFileNotFound, ref RType  @stackMark)
+        public virtual RSystem.RReflection.RRuntimeAssembly InternalGetSatelliteAssembly(System.String @name, System.Globalization.CultureInfo @culture, System.Version @version, System.Boolean @throwOnFileNotFound, ref RType @stackMark)
         {
 
             var ___genericsType = new Type[] {};
@@ -3676,11 +3676,11 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
             var ___result = RInternalGetSatelliteAssembly_String_CultureInfo_Version_Boolean_Ref_StackCrawlMark.Invoke(___genericsType, ___parameters);
 			@stackMark = new RType(___parameters[4]);
 
-            return (System.Object)___result;
+            return new RSystem.RReflection.RRuntimeAssembly(___result);
         }
 
 
-        public virtual System.Reflection.Module LoadModule(System.String  @moduleName, System.Byte[]  @rawModule)
+        public virtual System.Reflection.Module LoadModule(System.String @moduleName, System.Byte[] @rawModule)
         {
 
             var ___genericsType = new Type[] {};
@@ -3691,7 +3691,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual System.Reflection.Module LoadModule(System.String  @moduleName, System.Byte[]  @rawModule, System.Byte[]  @rawSymbolStore)
+        public virtual System.Reflection.Module LoadModule(System.String @moduleName, System.Byte[] @rawModule, System.Byte[] @rawSymbolStore)
         {
 
             var ___genericsType = new Type[] {};
@@ -3702,7 +3702,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual System.Object CreateInstance(System.String  @typeName)
+        public virtual System.Object CreateInstance(System.String @typeName)
         {
 
             var ___genericsType = new Type[] {};
@@ -3713,7 +3713,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual System.Object CreateInstance(System.String  @typeName, System.Boolean  @ignoreCase)
+        public virtual System.Object CreateInstance(System.String @typeName, System.Boolean @ignoreCase)
         {
 
             var ___genericsType = new Type[] {};
@@ -3724,7 +3724,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual System.Object CreateInstance(System.String  @typeName, System.Boolean  @ignoreCase, System.Reflection.BindingFlags  @bindingAttr, System.Reflection.Binder  @binder, System.Object[]  @args, System.Globalization.CultureInfo  @culture, System.Object[]  @activationAttributes)
+        public virtual System.Object CreateInstance(System.String @typeName, System.Boolean @ignoreCase, System.Reflection.BindingFlags @bindingAttr, System.Reflection.Binder @binder, System.Object[] @args, System.Globalization.CultureInfo @culture, System.Object[] @activationAttributes)
         {
 
             var ___genericsType = new Type[] {};

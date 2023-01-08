@@ -317,18 +317,18 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 	    {
 	    }
 
-        public virtual System.Object GetStateForItem(UnityEditor.IMGUI.Controls.AdvancedDropdownItem  @item)
+        public virtual RUnityEditor.RIMGUI.RControls.RAdvancedDropdownState.RAdvancedDropdownItemState GetStateForItem(UnityEditor.IMGUI.Controls.AdvancedDropdownItem @item)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@item};
             var ___result = RGetStateForItem_AdvancedDropdownItem.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RUnityEditor.RIMGUI.RControls.RAdvancedDropdownState.RAdvancedDropdownItemState(___result);
         }
 
 
-        public virtual void MoveDownSelection(UnityEditor.IMGUI.Controls.AdvancedDropdownItem  @item)
+        public virtual void MoveDownSelection(UnityEditor.IMGUI.Controls.AdvancedDropdownItem @item)
         {
 
             var ___genericsType = new Type[] {};
@@ -339,7 +339,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
         }
 
 
-        public virtual void MoveUpSelection(UnityEditor.IMGUI.Controls.AdvancedDropdownItem  @item)
+        public virtual void MoveUpSelection(UnityEditor.IMGUI.Controls.AdvancedDropdownItem @item)
         {
 
             var ___genericsType = new Type[] {};
@@ -350,7 +350,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
         }
 
 
-        public virtual void SetSelectionOnItem(UnityEditor.IMGUI.Controls.AdvancedDropdownItem  @item, System.Int32  @selectedIndex)
+        public virtual void SetSelectionOnItem(UnityEditor.IMGUI.Controls.AdvancedDropdownItem @item, System.Int32 @selectedIndex)
         {
 
             var ___genericsType = new Type[] {};
@@ -361,7 +361,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
         }
 
 
-        public virtual System.Int32 GetSelectedIndex(UnityEditor.IMGUI.Controls.AdvancedDropdownItem  @item)
+        public virtual System.Int32 GetSelectedIndex(UnityEditor.IMGUI.Controls.AdvancedDropdownItem @item)
         {
 
             var ___genericsType = new Type[] {};
@@ -372,7 +372,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
         }
 
 
-        public virtual void SetSelectedIndex(UnityEditor.IMGUI.Controls.AdvancedDropdownItem  @item, System.Int32  @index)
+        public virtual void SetSelectedIndex(UnityEditor.IMGUI.Controls.AdvancedDropdownItem @item, System.Int32 @index)
         {
 
             var ___genericsType = new Type[] {};
@@ -383,7 +383,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
         }
 
 
-        public virtual UnityEditor.IMGUI.Controls.AdvancedDropdownItem GetSelectedChild(UnityEditor.IMGUI.Controls.AdvancedDropdownItem  @item)
+        public virtual UnityEditor.IMGUI.Controls.AdvancedDropdownItem GetSelectedChild(UnityEditor.IMGUI.Controls.AdvancedDropdownItem @item)
         {
 
             var ___genericsType = new Type[] {};
@@ -394,7 +394,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
         }
 
 
-        public virtual UnityEngine.Vector2 GetScrollState(UnityEditor.IMGUI.Controls.AdvancedDropdownItem  @item)
+        public virtual UnityEngine.Vector2 GetScrollState(UnityEditor.IMGUI.Controls.AdvancedDropdownItem @item)
         {
 
             var ___genericsType = new Type[] {};
@@ -405,7 +405,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
         }
 
 
-        public virtual void SetScrollState(UnityEditor.IMGUI.Controls.AdvancedDropdownItem  @item, UnityEngine.Vector2  @scrollState)
+        public virtual void SetScrollState(UnityEditor.IMGUI.Controls.AdvancedDropdownItem @item, UnityEngine.Vector2 @scrollState)
         {
 
             var ___genericsType = new Type[] {};
@@ -416,7 +416,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

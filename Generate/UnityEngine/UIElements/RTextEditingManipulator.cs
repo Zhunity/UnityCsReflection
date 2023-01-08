@@ -345,7 +345,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void ExecuteDefaultActionAtTarget(UnityEngine.UIElements.EventBase  @evt)
+        public virtual void ExecuteDefaultActionAtTarget(UnityEngine.UIElements.EventBase @evt)
         {
 
             var ___genericsType = new Type[] {};
@@ -356,7 +356,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void OnFocusInEvent(UnityEngine.UIElements.FocusInEvent  @evt)
+        public virtual void OnFocusInEvent(UnityEngine.UIElements.FocusInEvent @evt)
         {
 
             var ___genericsType = new Type[] {};
@@ -367,7 +367,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void OnFocusOutEvent(UnityEngine.UIElements.FocusOutEvent  @evt)
+        public virtual void OnFocusOutEvent(UnityEngine.UIElements.FocusOutEvent @evt)
         {
 
             var ___genericsType = new Type[] {};
@@ -389,7 +389,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

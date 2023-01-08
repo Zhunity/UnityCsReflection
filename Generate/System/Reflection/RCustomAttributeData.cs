@@ -402,7 +402,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 	    {
 	    }
 
-        public static void ResolveArgumentsInternal(System.Reflection.ConstructorInfo  @ctor, System.Reflection.Assembly  @assembly, System.IntPtr  @data, System.UInt32  @data_length, out System.Object[]  @ctorArgs, out System.Object[]  @namedArgs)
+        public static void ResolveArgumentsInternal(System.Reflection.ConstructorInfo @ctor, System.Reflection.Assembly @assembly, System.IntPtr @data, System.UInt32 @data_length, out System.Object[] @ctorArgs, out System.Object[] @namedArgs)
         {
 			@ctorArgs = default;
 			@namedArgs = default;
@@ -428,7 +428,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
         }
 
 
-        public static System.Collections.Generic.IList<System.Reflection.CustomAttributeData> GetCustomAttributes(System.Reflection.Assembly  @target)
+        public static System.Collections.Generic.IList<System.Reflection.CustomAttributeData> GetCustomAttributes(System.Reflection.Assembly @target)
         {
 
             var ___genericsType = new Type[] {};
@@ -439,7 +439,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
         }
 
 
-        public static System.Collections.Generic.IList<System.Reflection.CustomAttributeData> GetCustomAttributes(System.Reflection.MemberInfo  @target)
+        public static System.Collections.Generic.IList<System.Reflection.CustomAttributeData> GetCustomAttributes(System.Reflection.MemberInfo @target)
         {
 
             var ___genericsType = new Type[] {};
@@ -450,7 +450,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
         }
 
 
-        public static System.Collections.Generic.IList<System.Reflection.CustomAttributeData> GetCustomAttributesInternal(RSystem.RRuntimeType  @target)
+        public static System.Collections.Generic.IList<System.Reflection.CustomAttributeData> GetCustomAttributesInternal(RSystem.RRuntimeType @target)
         {
 
             var ___genericsType = new Type[] {};
@@ -461,7 +461,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
         }
 
 
-        public static System.Collections.Generic.IList<System.Reflection.CustomAttributeData> GetCustomAttributes(System.Reflection.Module  @target)
+        public static System.Collections.Generic.IList<System.Reflection.CustomAttributeData> GetCustomAttributes(System.Reflection.Module @target)
         {
 
             var ___genericsType = new Type[] {};
@@ -472,7 +472,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
         }
 
 
-        public static System.Collections.Generic.IList<System.Reflection.CustomAttributeData> GetCustomAttributes(System.Reflection.ParameterInfo  @target)
+        public static System.Collections.Generic.IList<System.Reflection.CustomAttributeData> GetCustomAttributes(System.Reflection.ParameterInfo @target)
         {
 
             var ___genericsType = new Type[] {};
@@ -494,7 +494,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
         }
 
 
-        public static T[] UnboxValues<T>(System.Object[]  @values)
+        public static T[] UnboxValues<T>(System.Object[] @values)
         {
 
             var ___genericsType = new Type[] {typeof(T)};
@@ -505,7 +505,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

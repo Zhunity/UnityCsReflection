@@ -249,18 +249,18 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 	    {
 	    }
 
-        public virtual System.Object Allocate(System.UInt32  @size, System.Boolean  @shortLived)
+        public virtual RUnityEngine.RUIElements.RUIR.RAlloc Allocate(System.UInt32 @size, System.Boolean @shortLived)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@size, @shortLived};
             var ___result = RAllocate_UInt32_Boolean.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RUnityEngine.RUIElements.RUIR.RAlloc(___result);
         }
 
 
-        public virtual void Free(RUnityEngine.RUIElements.RUIR.RAlloc  @alloc)
+        public virtual void Free(RUnityEngine.RUIElements.RUIR.RAlloc @alloc)
         {
 
             var ___genericsType = new Type[] {};
@@ -271,14 +271,14 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
         }
 
 
-        public virtual System.Object GatherStatistics()
+        public virtual RUnityEngine.RUIElements.RUIR.RHeapStatistics GatherStatistics()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RGatherStatistics.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RUnityEngine.RUIElements.RUIR.RHeapStatistics(___result);
         }
 
 
@@ -293,7 +293,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

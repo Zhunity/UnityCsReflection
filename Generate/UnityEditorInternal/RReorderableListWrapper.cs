@@ -419,7 +419,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditorInternal
 	    {
 	    }
 
-        public static System.String GetPropertyIdentifier(UnityEditor.SerializedProperty  @serializedProperty)
+        public static System.String GetPropertyIdentifier(UnityEditor.SerializedProperty @serializedProperty)
         {
 
             var ___genericsType = new Type[] {};
@@ -430,7 +430,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditorInternal
         }
 
 
-        public virtual void Init(System.Boolean  @reorderable)
+        public virtual void Init(System.Boolean @reorderable)
         {
 
             var ___genericsType = new Type[] {};
@@ -463,7 +463,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditorInternal
         }
 
 
-        public virtual void Draw(UnityEngine.GUIContent  @label, UnityEngine.Rect  @r, UnityEngine.Rect  @visibleArea, System.String  @tooltip, System.Boolean  @includeChildren)
+        public virtual void Draw(UnityEngine.GUIContent @label, UnityEngine.Rect @r, UnityEngine.Rect @visibleArea, System.String @tooltip, System.Boolean @includeChildren)
         {
 
             var ___genericsType = new Type[] {};
@@ -474,7 +474,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditorInternal
         }
 
 
-        public virtual void DrawChildren(UnityEngine.Rect  @listRect, UnityEngine.Rect  @headerRect, UnityEngine.Rect  @sizeRect, UnityEngine.Rect  @visibleRect, UnityEngine.EventType  @previousEvent)
+        public virtual void DrawChildren(UnityEngine.Rect @listRect, UnityEngine.Rect @headerRect, UnityEngine.Rect @sizeRect, UnityEngine.Rect @visibleRect, UnityEngine.EventType @previousEvent)
         {
 
             var ___genericsType = new Type[] {};
@@ -485,7 +485,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditorInternal
         }
 
 
-        public virtual System.Boolean __0__Init__1__b__15_0(UnityEditorInternal.ReorderableList  @list)
+        public virtual System.Boolean __0__Init__1__b__15_0(UnityEditorInternal.ReorderableList @list)
         {
 
             var ___genericsType = new Type[] {};
@@ -496,7 +496,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditorInternal
         }
 
 
-        public virtual System.Boolean __0__Init__1__b__15_1(UnityEditorInternal.ReorderableList  @list)
+        public virtual System.Boolean __0__Init__1__b__15_1(UnityEditorInternal.ReorderableList @list)
         {
 
             var ___genericsType = new Type[] {};
@@ -507,7 +507,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditorInternal
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

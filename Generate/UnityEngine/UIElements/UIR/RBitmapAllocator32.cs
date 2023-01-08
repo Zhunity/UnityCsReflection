@@ -368,7 +368,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 	    {
 	    }
 
-        public virtual void Construct(System.Int32  @pageHeight, System.Int32  @entryWidth, System.Int32  @entryHeight)
+        public virtual void Construct(System.Int32 @pageHeight, System.Int32 @entryWidth, System.Int32 @entryHeight)
         {
 
             var ___genericsType = new Type[] {};
@@ -379,7 +379,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
         }
 
 
-        public virtual void ForceFirstAlloc(System.UInt16  @firstPageX, System.UInt16  @firstPageY)
+        public virtual void ForceFirstAlloc(System.UInt16 @firstPageX, System.UInt16 @firstPageY)
         {
 
             var ___genericsType = new Type[] {};
@@ -390,18 +390,18 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
         }
 
 
-        public virtual System.Object Allocate(RUnityEngine.RUIElements.RUIR.RBaseShaderInfoStorage  @storage)
+        public virtual RUnityEngine.RUIElements.RUIR.RBMPAlloc Allocate(RUnityEngine.RUIElements.RUIR.RBaseShaderInfoStorage @storage)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@storage.Value};
             var ___result = RAllocate_BaseShaderInfoStorage.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RUnityEngine.RUIElements.RUIR.RBMPAlloc(___result);
         }
 
 
-        public virtual void Free(RUnityEngine.RUIElements.RUIR.RBMPAlloc  @alloc)
+        public virtual void Free(RUnityEngine.RUIElements.RUIR.RBMPAlloc @alloc)
         {
 
             var ___genericsType = new Type[] {};
@@ -412,7 +412,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
         }
 
 
-        public virtual void GetAllocPageAtlasLocation(System.Int32  @page, out System.UInt16  @x, out System.UInt16  @y)
+        public virtual void GetAllocPageAtlasLocation(System.Int32 @page, out System.UInt16 @x, out System.UInt16 @y)
         {
 			@x = default;
 			@y = default;
@@ -427,7 +427,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
         }
 
 
-        public static System.Byte CountTrailingZeroes(System.UInt32  @val)
+        public static System.Byte CountTrailingZeroes(System.UInt32 @val)
         {
 
             var ___genericsType = new Type[] {};
@@ -438,7 +438,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

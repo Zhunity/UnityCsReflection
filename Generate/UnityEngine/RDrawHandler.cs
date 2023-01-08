@@ -402,7 +402,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 	    {
 	    }
 
-        public virtual System.Boolean Invoke(UnityEngine.GUIStyle  @style, UnityEngine.Rect  @rect, UnityEngine.GUIContent  @content, RUnityEngine.RDrawStates  @states)
+        public virtual System.Boolean Invoke(UnityEngine.GUIStyle @style, UnityEngine.Rect @rect, UnityEngine.GUIContent @content, RUnityEngine.RDrawStates @states)
         {
 
             var ___genericsType = new Type[] {};
@@ -413,7 +413,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.IAsyncResult BeginInvoke(UnityEngine.GUIStyle  @style, UnityEngine.Rect  @rect, UnityEngine.GUIContent  @content, RUnityEngine.RDrawStates  @states, System.AsyncCallback  @callback, System.Object  @object)
+        public virtual System.IAsyncResult BeginInvoke(UnityEngine.GUIStyle @style, UnityEngine.Rect @rect, UnityEngine.GUIContent @content, RUnityEngine.RDrawStates @states, System.AsyncCallback @callback, System.Object @object)
         {
 
             var ___genericsType = new Type[] {};
@@ -424,7 +424,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Boolean EndInvoke(System.IAsyncResult  @result)
+        public virtual System.Boolean EndInvoke(System.IAsyncResult @result)
         {
 
             var ___genericsType = new Type[] {};
@@ -435,7 +435,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void GetObjectData(System.Runtime.Serialization.SerializationInfo  @info, System.Runtime.Serialization.StreamingContext  @context)
+        public virtual void GetObjectData(System.Runtime.Serialization.SerializationInfo @info, System.Runtime.Serialization.StreamingContext @context)
         {
 
             var ___genericsType = new Type[] {};
@@ -446,7 +446,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Object DynamicInvokeImpl(System.Object[]  @args)
+        public virtual System.Object DynamicInvokeImpl(System.Object[] @args)
         {
 
             var ___genericsType = new Type[] {};
@@ -457,7 +457,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};
@@ -501,7 +501,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Delegate CombineImpl(System.Delegate  @follow)
+        public virtual System.Delegate CombineImpl(System.Delegate @follow)
         {
 
             var ___genericsType = new Type[] {};
@@ -512,7 +512,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Delegate RemoveImpl(System.Delegate  @value)
+        public virtual System.Delegate RemoveImpl(System.Delegate @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -534,7 +534,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Object DynamicInvoke(System.Object[]  @args)
+        public virtual System.Object DynamicInvoke(System.Object[] @args)
         {
 
             var ___genericsType = new Type[] {};

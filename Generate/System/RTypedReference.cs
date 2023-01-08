@@ -317,7 +317,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 	    {
 	    }
 
-        public static System.Object MakeTypedReference(System.Object  @target, System.Reflection.FieldInfo[]  @flds)
+        public static System.Object MakeTypedReference(System.Object @target, System.Reflection.FieldInfo[] @flds)
         {
 
             var ___genericsType = new Type[] {};
@@ -340,7 +340,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @o)
+        public virtual System.Boolean Equals(System.Object @o)
         {
 
             var ___genericsType = new Type[] {};

@@ -232,7 +232,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 	    {
 	    }
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};
@@ -243,7 +243,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual System.Boolean Equals(System.Reflection.Emit.ParameterToken  @obj)
+        public virtual System.Boolean Equals(System.Reflection.Emit.ParameterToken @obj)
         {
 
             var ___genericsType = new Type[] {};
@@ -254,7 +254,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public static System.Boolean op_Equality(System.Reflection.Emit.ParameterToken  @a, System.Reflection.Emit.ParameterToken  @b)
+        public static System.Boolean op_Equality(System.Reflection.Emit.ParameterToken @a, System.Reflection.Emit.ParameterToken @b)
         {
 
             var ___genericsType = new Type[] {};
@@ -265,7 +265,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public static System.Boolean op_Inequality(System.Reflection.Emit.ParameterToken  @a, System.Reflection.Emit.ParameterToken  @b)
+        public static System.Boolean op_Inequality(System.Reflection.Emit.ParameterToken @a, System.Reflection.Emit.ParameterToken @b)
         {
 
             var ___genericsType = new Type[] {};

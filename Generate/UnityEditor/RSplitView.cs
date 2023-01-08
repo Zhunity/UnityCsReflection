@@ -1082,6 +1082,16 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 	    {
 	    }
 
+        public virtual UnityEngine.Rect RectFromEdge(UnityEngine.Rect @rect, RType @edge, System.Single @thickness, System.Single @offset)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@rect, @edge.Value, @thickness, @offset};
+            var ___result = RRectFromEdge_Rect_ViewEdge_Single_Single.Invoke(___genericsType, ___parameters);
+
+            return (UnityEngine.Rect)___result;
+        }
+
 
         public virtual void SetupSplitter()
         {
@@ -1105,7 +1115,37 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
+        public static void RecalcMinMaxAndReflowAll(RUnityEditor.RSplitView @start)
+        {
 
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@start.Value};
+            var ___result = RRecalcMinMaxAndReflowAll_SplitView.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public static void RecalcMinMaxRecurse(RUnityEditor.RSplitView @node)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@node.Value};
+            var ___result = RRecalcMinMaxRecurse_SplitView.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public static void ReflowRecurse(RUnityEditor.RSplitView @node)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@node.Value};
+            var ___result = RReflowRecurse_SplitView.Invoke(___genericsType, ___parameters);
+
+            
+        }
 
 
         public virtual void Reflow()
@@ -1119,7 +1159,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual System.Single PlaceView(System.Int32  @i, System.Single  @pos, System.Single  @size)
+        public virtual System.Single PlaceView(System.Int32 @i, System.Single @pos, System.Single @size)
         {
 
             var ___genericsType = new Type[] {};
@@ -1130,29 +1170,69 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
+        public virtual void AddChild(RUnityEditor.RView @child, System.Int32 @idx)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@child.Value, @idx};
+            var ___result = RAddChild_View_Int32.Invoke(___genericsType, ___parameters);
+
+            
+        }
 
 
+        public virtual void RemoveChildNice(RUnityEditor.RView @child)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@child.Value};
+            var ___result = RRemoveChildNice_View.Invoke(___genericsType, ___parameters);
+
+            
+        }
 
 
-        public virtual System.Object DragOverRootView(UnityEngine.Vector2  @mouseScreenPosition)
+        public virtual void RemoveChild(RUnityEditor.RView @child)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@child.Value};
+            var ___result = RRemoveChild_View.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual RUnityEditor.RDropInfo RootViewDropZone(RType @edge, UnityEngine.Vector2 @mousePos, UnityEngine.Rect @screenRect)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@edge.Value, @mousePos, @screenRect};
+            var ___result = RRootViewDropZone_ViewEdge_Vector2_Rect.Invoke(___genericsType, ___parameters);
+
+            return new RUnityEditor.RDropInfo(___result);
+        }
+
+
+        public virtual RUnityEditor.RDropInfo DragOverRootView(UnityEngine.Vector2 @mouseScreenPosition)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@mouseScreenPosition};
             var ___result = RDragOverRootView_Vector2.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RUnityEditor.RDropInfo(___result);
         }
 
 
-        public virtual System.Object DragOver(UnityEditor.EditorWindow  @w, UnityEngine.Vector2  @mouseScreenPosition)
+        public virtual RUnityEditor.RDropInfo DragOver(UnityEditor.EditorWindow @w, UnityEngine.Vector2 @mouseScreenPosition)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@w, @mouseScreenPosition};
             var ___result = RDragOver_EditorWindow_Vector2.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RUnityEditor.RDropInfo(___result);
         }
 
 
@@ -1178,8 +1258,18 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
+        public virtual System.Boolean PerformDrop(UnityEditor.EditorWindow @dropWindow, RUnityEditor.RDropInfo @dropInfo, UnityEngine.Vector2 @screenPos)
+        {
 
-        public virtual void MakeRoomForRect(UnityEngine.Rect  @r)
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@dropWindow, @dropInfo.Value, @screenPos};
+            var ___result = RPerformDrop_EditorWindow_DropInfo_Vector2.Invoke(___genericsType, ___parameters);
+
+            return (System.Boolean)___result;
+        }
+
+
+        public virtual void MakeRoomForRect(UnityEngine.Rect @r)
         {
 
             var ___genericsType = new Type[] {};
@@ -1190,7 +1280,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual void CalcRoomForRect(UnityEngine.Rect[]  @sources, UnityEngine.Rect  @r)
+        public virtual void CalcRoomForRect(UnityEngine.Rect[] @sources, UnityEngine.Rect @r)
         {
 
             var ___genericsType = new Type[] {};
@@ -1212,7 +1302,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual void SplitGUI(UnityEngine.Event  @evt)
+        public virtual void SplitGUI(UnityEngine.Event @evt)
         {
 
             var ___genericsType = new Type[] {};
@@ -1223,7 +1313,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual void SetPosition(UnityEngine.Rect  @newPos)
+        public virtual void SetPosition(UnityEngine.Rect @newPos)
         {
 
             var ___genericsType = new Type[] {};
@@ -1234,7 +1324,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual System.String DebugHierarchy(System.Int32  @level)
+        public virtual System.String DebugHierarchy(System.Int32 @level)
         {
 
             var ___genericsType = new Type[] {};
@@ -1245,8 +1335,18 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
+        public virtual void Initialize(RUnityEditor.RContainerWindow @win)
+        {
 
-        public virtual void SetMinMaxSizes(UnityEngine.Vector2  @min, UnityEngine.Vector2  @max)
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@win.Value};
+            var ___result = RInitialize_ContainerWindow.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void SetMinMaxSizes(UnityEngine.Vector2 @min, UnityEngine.Vector2 @max)
         {
 
             var ___genericsType = new Type[] {};
@@ -1257,7 +1357,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual void SetPositionOnly(UnityEngine.Rect  @newPos)
+        public virtual void SetPositionOnly(UnityEngine.Rect @newPos)
         {
 
             var ___genericsType = new Type[] {};
@@ -1267,6 +1367,16 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
             
         }
 
+
+        public virtual System.Int32 IndexOfChild(RUnityEditor.RView @child)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@child.Value};
+            var ___result = RIndexOfChild_View.Invoke(___genericsType, ___parameters);
+
+            return (System.Int32)___result;
+        }
 
 
         public virtual void OnDestroy()
@@ -1280,8 +1390,18 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
+        public virtual void AddChild(RUnityEditor.RView @child)
+        {
 
-        public virtual void RemoveChild(System.Int32  @idx)
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@child.Value};
+            var ___result = RAddChild_View.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void RemoveChild(System.Int32 @idx)
         {
 
             var ___genericsType = new Type[] {};
@@ -1292,6 +1412,26 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
+        public virtual void SetWindow(RUnityEditor.RContainerWindow @win)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@win.Value};
+            var ___result = RSetWindow_ContainerWindow.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void SetWindowRecurse(RUnityEditor.RContainerWindow @win)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@win.Value};
+            var ___result = RSetWindowRecurse_ContainerWindow.Invoke(___genericsType, ___parameters);
+
+            
+        }
 
 
         public virtual System.Boolean OnFocus()
@@ -1338,7 +1478,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @other)
+        public virtual System.Boolean Equals(System.Object @other)
         {
 
             var ___genericsType = new Type[] {};

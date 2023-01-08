@@ -1167,7 +1167,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 	    {
 	    }
 
-        public static void get_property_info(RSystem.RReflection.RRuntimePropertyInfo  @prop, ref RSystem.RReflection.RMonoPropertyInfo  @info, RType  @req_info)
+        public static void get_property_info(RSystem.RReflection.RRuntimePropertyInfo @prop, ref RSystem.RReflection.RMonoPropertyInfo @info, RType @req_info)
         {
 
             var ___genericsType = new Type[] {};
@@ -1179,7 +1179,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
         }
 
 
-        public static System.Type[] GetTypeModifiers(RSystem.RReflection.RRuntimePropertyInfo  @prop, System.Boolean  @optional)
+        public static System.Type[] GetTypeModifiers(RSystem.RReflection.RRuntimePropertyInfo @prop, System.Boolean @optional)
         {
 
             var ___genericsType = new Type[] {};
@@ -1190,7 +1190,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
         }
 
 
-        public static System.Object get_default_value(RSystem.RReflection.RRuntimePropertyInfo  @prop)
+        public static System.Object get_default_value(RSystem.RReflection.RRuntimePropertyInfo @prop)
         {
 
             var ___genericsType = new Type[] {};
@@ -1201,25 +1201,25 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
         }
 
 
-        public virtual System.Object GetDeclaringTypeInternal()
+        public virtual RSystem.RRuntimeType GetDeclaringTypeInternal()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RGetDeclaringTypeInternal.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RSystem.RRuntimeType(___result);
         }
 
 
-        public virtual System.Object GetRuntimeModule()
+        public virtual RSystem.RReflection.RRuntimeModule GetRuntimeModule()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RGetRuntimeModule.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RSystem.RReflection.RRuntimeModule(___result);
         }
 
 
@@ -1234,7 +1234,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
         }
 
 
-        public virtual System.String FormatNameAndSig(System.Boolean  @serialization)
+        public virtual System.String FormatNameAndSig(System.Boolean @serialization)
         {
 
             var ___genericsType = new Type[] {};
@@ -1245,7 +1245,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
         }
 
 
-        public virtual void GetObjectData(System.Runtime.Serialization.SerializationInfo  @info, System.Runtime.Serialization.StreamingContext  @context)
+        public virtual void GetObjectData(System.Runtime.Serialization.SerializationInfo @info, System.Runtime.Serialization.StreamingContext @context)
         {
 
             var ___genericsType = new Type[] {};
@@ -1267,7 +1267,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
         }
 
 
-        public virtual void CachePropertyInfo(RType  @flags)
+        public virtual void CachePropertyInfo(RType @flags)
         {
 
             var ___genericsType = new Type[] {};
@@ -1278,7 +1278,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
         }
 
 
-        public virtual System.Reflection.MethodInfo[] GetAccessors(System.Boolean  @nonPublic)
+        public virtual System.Reflection.MethodInfo[] GetAccessors(System.Boolean @nonPublic)
         {
 
             var ___genericsType = new Type[] {};
@@ -1289,7 +1289,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
         }
 
 
-        public virtual System.Reflection.MethodInfo GetGetMethod(System.Boolean  @nonPublic)
+        public virtual System.Reflection.MethodInfo GetGetMethod(System.Boolean @nonPublic)
         {
 
             var ___genericsType = new Type[] {};
@@ -1311,7 +1311,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
         }
 
 
-        public virtual System.Reflection.MethodInfo GetSetMethod(System.Boolean  @nonPublic)
+        public virtual System.Reflection.MethodInfo GetSetMethod(System.Boolean @nonPublic)
         {
 
             var ___genericsType = new Type[] {};
@@ -1344,7 +1344,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
         }
 
 
-        public virtual System.Boolean IsDefined(System.Type  @attributeType, System.Boolean  @inherit)
+        public virtual System.Boolean IsDefined(System.Type @attributeType, System.Boolean @inherit)
         {
 
             var ___genericsType = new Type[] {};
@@ -1355,7 +1355,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
         }
 
 
-        public virtual System.Object[] GetCustomAttributes(System.Boolean  @inherit)
+        public virtual System.Object[] GetCustomAttributes(System.Boolean @inherit)
         {
 
             var ___genericsType = new Type[] {};
@@ -1366,7 +1366,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
         }
 
 
-        public virtual System.Object[] GetCustomAttributes(System.Type  @attributeType, System.Boolean  @inherit)
+        public virtual System.Object[] GetCustomAttributes(System.Type @attributeType, System.Boolean @inherit)
         {
 
             var ___genericsType = new Type[] {};
@@ -1377,7 +1377,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
         }
 
 
-        public static System.Object GetterAdapterFrame<T, R>(RSystem.RReflection.RRuntimePropertyInfo.RGetter<RType, RType>  @getter, System.Object  @obj)
+        public static System.Object GetterAdapterFrame<T, R>(RSystem.RReflection.RRuntimePropertyInfo.RGetter<RType, RType> @getter, System.Object @obj)
         {
 
             var ___genericsType = new Type[] {typeof(T), typeof(R)};
@@ -1388,7 +1388,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
         }
 
 
-        public static System.Object StaticGetterAdapterFrame<R>(RSystem.RReflection.RRuntimePropertyInfo.RStaticGetter<RType>  @getter, System.Object  @obj)
+        public static System.Object StaticGetterAdapterFrame<R>(RSystem.RReflection.RRuntimePropertyInfo.RStaticGetter<RType> @getter, System.Object @obj)
         {
 
             var ___genericsType = new Type[] {typeof(R)};
@@ -1399,18 +1399,18 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
         }
 
 
-        public static System.Object CreateGetterDelegate(System.Reflection.MethodInfo  @method)
+        public static RSystem.RReflection.RRuntimePropertyInfo.RGetterAdapter CreateGetterDelegate(System.Reflection.MethodInfo @method)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@method};
             var ___result = RCreateGetterDelegate_MethodInfo.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RSystem.RReflection.RRuntimePropertyInfo.RGetterAdapter(___result);
         }
 
 
-        public virtual System.Object GetValue(System.Object  @obj, System.Object[]  @index)
+        public virtual System.Object GetValue(System.Object @obj, System.Object[] @index)
         {
 
             var ___genericsType = new Type[] {};
@@ -1421,7 +1421,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
         }
 
 
-        public virtual System.Object GetValue(System.Object  @obj, System.Reflection.BindingFlags  @invokeAttr, System.Reflection.Binder  @binder, System.Object[]  @index, System.Globalization.CultureInfo  @culture)
+        public virtual System.Object GetValue(System.Object @obj, System.Reflection.BindingFlags @invokeAttr, System.Reflection.Binder @binder, System.Object[] @index, System.Globalization.CultureInfo @culture)
         {
 
             var ___genericsType = new Type[] {};
@@ -1432,7 +1432,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
         }
 
 
-        public virtual void SetValue(System.Object  @obj, System.Object  @value, System.Reflection.BindingFlags  @invokeAttr, System.Reflection.Binder  @binder, System.Object[]  @index, System.Globalization.CultureInfo  @culture)
+        public virtual void SetValue(System.Object @obj, System.Object @value, System.Reflection.BindingFlags @invokeAttr, System.Reflection.Binder @binder, System.Object[] @index, System.Globalization.CultureInfo @culture)
         {
 
             var ___genericsType = new Type[] {};
@@ -1465,7 +1465,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
         }
 
 
-        public virtual System.Type[] GetCustomModifiers(System.Boolean  @optional)
+        public virtual System.Type[] GetCustomModifiers(System.Boolean @optional)
         {
 
             var ___genericsType = new Type[] {};
@@ -1487,7 +1487,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
         }
 
 
-        public virtual System.Boolean HasSameMetadataDefinitionAs(System.Reflection.MemberInfo  @other)
+        public virtual System.Boolean HasSameMetadataDefinitionAs(System.Reflection.MemberInfo @other)
         {
 
             var ___genericsType = new Type[] {};
@@ -1498,7 +1498,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
         }
 
 
-        public static System.Int32 get_metadata_token(RSystem.RReflection.RRuntimePropertyInfo  @monoProperty)
+        public static System.Int32 get_metadata_token(RSystem.RReflection.RRuntimePropertyInfo @monoProperty)
         {
 
             var ___genericsType = new Type[] {};
@@ -1509,7 +1509,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
         }
 
 
-        public static System.Reflection.PropertyInfo internal_from_handle_type(System.IntPtr  @event_handle, System.IntPtr  @type_handle)
+        public static System.Reflection.PropertyInfo internal_from_handle_type(System.IntPtr @event_handle, System.IntPtr @type_handle)
         {
 
             var ___genericsType = new Type[] {};
@@ -1520,7 +1520,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
         }
 
 
-        public static System.Reflection.PropertyInfo GetPropertyFromHandle(RMono.RRuntimePropertyHandle  @handle, System.RuntimeTypeHandle  @reflectedType)
+        public static System.Reflection.PropertyInfo GetPropertyFromHandle(RMono.RRuntimePropertyHandle @handle, System.RuntimeTypeHandle @reflectedType)
         {
 
             var ___genericsType = new Type[] {};
@@ -1564,7 +1564,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
         }
 
 
-        public virtual System.Object GetValue(System.Object  @obj)
+        public virtual System.Object GetValue(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};
@@ -1575,7 +1575,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
         }
 
 
-        public virtual void SetValue(System.Object  @obj, System.Object  @value)
+        public virtual void SetValue(System.Object @obj, System.Object @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -1586,7 +1586,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
         }
 
 
-        public virtual void SetValue(System.Object  @obj, System.Object  @value, System.Object[]  @index)
+        public virtual void SetValue(System.Object @obj, System.Object @value, System.Object[] @index)
         {
 
             var ___genericsType = new Type[] {};
@@ -1597,7 +1597,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};
@@ -1619,7 +1619,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
         }
 
 
-        public virtual System.Boolean CacheEquals(System.Object  @o)
+        public virtual System.Boolean CacheEquals(System.Object @o)
         {
 
             var ___genericsType = new Type[] {};
@@ -1630,7 +1630,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
         }
 
 
-        public virtual System.Boolean HasSameMetadataDefinitionAsCore<TOther>(System.Reflection.MemberInfo  @other) where TOther : System.Reflection.MemberInfo
+        public virtual System.Boolean HasSameMetadataDefinitionAsCore<TOther>(System.Reflection.MemberInfo @other) where TOther : System.Reflection.MemberInfo
         {
 
             var ___genericsType = new Type[] {typeof(TOther)};

@@ -691,7 +691,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RSceneManagement
 	    {
 	    }
 
-        public static System.Boolean IsValidInternal(System.Int32  @sceneHandle)
+        public static System.Boolean IsValidInternal(System.Int32 @sceneHandle)
         {
 
             var ___genericsType = new Type[] {};
@@ -702,7 +702,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RSceneManagement
         }
 
 
-        public static System.String GetPathInternal(System.Int32  @sceneHandle)
+        public static System.String GetPathInternal(System.Int32 @sceneHandle)
         {
 
             var ___genericsType = new Type[] {};
@@ -713,7 +713,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RSceneManagement
         }
 
 
-        public static void SetPathAndGUIDInternal(System.Int32  @sceneHandle, System.String  @path, System.String  @guid)
+        public static void SetPathAndGUIDInternal(System.Int32 @sceneHandle, System.String @path, System.String @guid)
         {
 
             var ___genericsType = new Type[] {};
@@ -724,7 +724,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RSceneManagement
         }
 
 
-        public static System.String GetNameInternal(System.Int32  @sceneHandle)
+        public static System.String GetNameInternal(System.Int32 @sceneHandle)
         {
 
             var ___genericsType = new Type[] {};
@@ -735,7 +735,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RSceneManagement
         }
 
 
-        public static void SetNameInternal(System.Int32  @sceneHandle, System.String  @name)
+        public static void SetNameInternal(System.Int32 @sceneHandle, System.String @name)
         {
 
             var ___genericsType = new Type[] {};
@@ -746,7 +746,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RSceneManagement
         }
 
 
-        public static System.String GetGUIDInternal(System.Int32  @sceneHandle)
+        public static System.String GetGUIDInternal(System.Int32 @sceneHandle)
         {
 
             var ___genericsType = new Type[] {};
@@ -757,7 +757,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RSceneManagement
         }
 
 
-        public static System.Boolean IsSubScene(System.Int32  @sceneHandle)
+        public static System.Boolean IsSubScene(System.Int32 @sceneHandle)
         {
 
             var ___genericsType = new Type[] {};
@@ -768,7 +768,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RSceneManagement
         }
 
 
-        public static void SetIsSubScene(System.Int32  @sceneHandle, System.Boolean  @value)
+        public static void SetIsSubScene(System.Int32 @sceneHandle, System.Boolean @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -779,7 +779,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RSceneManagement
         }
 
 
-        public static System.Boolean GetIsLoadedInternal(System.Int32  @sceneHandle)
+        public static System.Boolean GetIsLoadedInternal(System.Int32 @sceneHandle)
         {
 
             var ___genericsType = new Type[] {};
@@ -790,18 +790,18 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RSceneManagement
         }
 
 
-        public static System.Object GetLoadingStateInternal(System.Int32  @sceneHandle)
+        public static RType GetLoadingStateInternal(System.Int32 @sceneHandle)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@sceneHandle};
             var ___result = RGetLoadingStateInternal_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RType(___result);
         }
 
 
-        public static System.Boolean GetIsDirtyInternal(System.Int32  @sceneHandle)
+        public static System.Boolean GetIsDirtyInternal(System.Int32 @sceneHandle)
         {
 
             var ___genericsType = new Type[] {};
@@ -812,7 +812,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RSceneManagement
         }
 
 
-        public static System.Int32 GetDirtyID(System.Int32  @sceneHandle)
+        public static System.Int32 GetDirtyID(System.Int32 @sceneHandle)
         {
 
             var ___genericsType = new Type[] {};
@@ -823,7 +823,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RSceneManagement
         }
 
 
-        public static System.Int32 GetBuildIndexInternal(System.Int32  @sceneHandle)
+        public static System.Int32 GetBuildIndexInternal(System.Int32 @sceneHandle)
         {
 
             var ___genericsType = new Type[] {};
@@ -834,7 +834,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RSceneManagement
         }
 
 
-        public static System.Int32 GetRootCountInternal(System.Int32  @sceneHandle)
+        public static System.Int32 GetRootCountInternal(System.Int32 @sceneHandle)
         {
 
             var ___genericsType = new Type[] {};
@@ -845,7 +845,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RSceneManagement
         }
 
 
-        public static void GetRootGameObjectsInternal(System.Int32  @sceneHandle, System.Object  @resultRootList)
+        public static void GetRootGameObjectsInternal(System.Int32 @sceneHandle, System.Object @resultRootList)
         {
 
             var ___genericsType = new Type[] {};
@@ -878,7 +878,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RSceneManagement
         }
 
 
-        public virtual void GetRootGameObjects(System.Collections.Generic.List<UnityEngine.GameObject>  @rootGameObjects)
+        public virtual void GetRootGameObjects(System.Collections.Generic.List<UnityEngine.GameObject> @rootGameObjects)
         {
 
             var ___genericsType = new Type[] {};
@@ -889,7 +889,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RSceneManagement
         }
 
 
-        public static System.Boolean op_Equality(UnityEngine.SceneManagement.Scene  @lhs, UnityEngine.SceneManagement.Scene  @rhs)
+        public static System.Boolean op_Equality(UnityEngine.SceneManagement.Scene @lhs, UnityEngine.SceneManagement.Scene @rhs)
         {
 
             var ___genericsType = new Type[] {};
@@ -900,7 +900,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RSceneManagement
         }
 
 
-        public static System.Boolean op_Inequality(UnityEngine.SceneManagement.Scene  @lhs, UnityEngine.SceneManagement.Scene  @rhs)
+        public static System.Boolean op_Inequality(UnityEngine.SceneManagement.Scene @lhs, UnityEngine.SceneManagement.Scene @rhs)
         {
 
             var ___genericsType = new Type[] {};
@@ -922,7 +922,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RSceneManagement
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @other)
+        public virtual System.Boolean Equals(System.Object @other)
         {
 
             var ___genericsType = new Type[] {};
@@ -933,7 +933,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RSceneManagement
         }
 
 
-        public virtual void SetPathAndGuid(System.String  @path, System.String  @guid)
+        public virtual void SetPathAndGuid(System.String @path, System.String @guid)
         {
 
             var ___genericsType = new Type[] {};

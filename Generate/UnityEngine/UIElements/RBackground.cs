@@ -436,7 +436,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 	    {
 	    }
 
-        public static UnityEngine.UIElements.Background FromTexture2D(UnityEngine.Texture2D  @t)
+        public static UnityEngine.UIElements.Background FromTexture2D(UnityEngine.Texture2D @t)
         {
 
             var ___genericsType = new Type[] {};
@@ -447,7 +447,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public static UnityEngine.UIElements.Background FromRenderTexture(UnityEngine.RenderTexture  @rt)
+        public static UnityEngine.UIElements.Background FromRenderTexture(UnityEngine.RenderTexture @rt)
         {
 
             var ___genericsType = new Type[] {};
@@ -458,7 +458,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public static UnityEngine.UIElements.Background FromSprite(UnityEngine.Sprite  @s)
+        public static UnityEngine.UIElements.Background FromSprite(UnityEngine.Sprite @s)
         {
 
             var ___genericsType = new Type[] {};
@@ -469,7 +469,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public static UnityEngine.UIElements.Background FromVectorImage(UnityEngine.UIElements.VectorImage  @vi)
+        public static UnityEngine.UIElements.Background FromVectorImage(UnityEngine.UIElements.VectorImage @vi)
         {
 
             var ___genericsType = new Type[] {};
@@ -480,7 +480,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public static UnityEngine.UIElements.Background FromObject(System.Object  @obj)
+        public static UnityEngine.UIElements.Background FromObject(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};
@@ -491,7 +491,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public static System.Boolean op_Equality(UnityEngine.UIElements.Background  @lhs, UnityEngine.UIElements.Background  @rhs)
+        public static System.Boolean op_Equality(UnityEngine.UIElements.Background @lhs, UnityEngine.UIElements.Background @rhs)
         {
 
             var ___genericsType = new Type[] {};
@@ -502,7 +502,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public static System.Boolean op_Inequality(UnityEngine.UIElements.Background  @lhs, UnityEngine.UIElements.Background  @rhs)
+        public static System.Boolean op_Inequality(UnityEngine.UIElements.Background @lhs, UnityEngine.UIElements.Background @rhs)
         {
 
             var ___genericsType = new Type[] {};
@@ -513,7 +513,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public static UnityEngine.UIElements.Background op_Implicit(UnityEngine.Texture2D  @v)
+        public static UnityEngine.UIElements.Background op_Implicit(UnityEngine.Texture2D @v)
         {
 
             var ___genericsType = new Type[] {};
@@ -524,7 +524,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean Equals(UnityEngine.UIElements.Background  @other)
+        public virtual System.Boolean Equals(UnityEngine.UIElements.Background @other)
         {
 
             var ___genericsType = new Type[] {};
@@ -535,7 +535,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

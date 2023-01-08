@@ -198,18 +198,18 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 	    {
 	    }
 
-        public virtual System.Object Add(T  @element)
+        public virtual RSystem.RThreading.RSparselyPopulatedArrayAddInfo<RType> Add(T @element)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@element};
             var ___result = RAdd_T.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RSystem.RThreading.RSparselyPopulatedArrayAddInfo<RType>(___result);
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

@@ -1201,7 +1201,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 	    {
 	    }
 
-        public virtual void SetContext(UnityEngine.UIElements.StyleSheet  @sheet, RUnityEngine.RUIElements.RStyleComplexSelector  @selector, RUnityEngine.RUIElements.RStyleVariableContext  @varContext, System.Single  @dpiScaling)
+        public virtual void SetContext(UnityEngine.UIElements.StyleSheet @sheet, RUnityEngine.RUIElements.RStyleComplexSelector @selector, RUnityEngine.RUIElements.RStyleVariableContext @varContext, System.Single @dpiScaling)
         {
 
             var ___genericsType = new Type[] {};
@@ -1212,7 +1212,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
         }
 
 
-        public virtual void SetInlineContext(UnityEngine.UIElements.StyleSheet  @sheet, RTypeArray<RUnityEngine.RUIElements.RStyleProperty>  @properties, RTypeArray<RType>  @propertyIds, System.Single  @dpiScaling)
+        public virtual void SetInlineContext(UnityEngine.UIElements.StyleSheet @sheet, RTypeArray<RUnityEngine.RUIElements.RStyleProperty> @properties, RTypeArray<RType> @propertyIds, System.Single @dpiScaling)
         {
 
             var ___genericsType = new Type[] {};
@@ -1223,40 +1223,40 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
         }
 
 
-        public virtual System.Object MoveNextProperty()
+        public virtual RType MoveNextProperty()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RMoveNextProperty.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RType(___result);
         }
 
 
-        public virtual System.Object GetValue(System.Int32  @index)
+        public virtual RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue GetValue(System.Int32 @index)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@index};
             var ___result = RGetValue_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue(___result);
         }
 
 
-        public virtual System.Object GetValueType(System.Int32  @index)
+        public virtual RType GetValueType(System.Int32 @index)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@index};
             var ___result = RGetValueType_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RType(___result);
         }
 
 
-        public virtual System.Boolean IsValueType(System.Int32  @index, RType  @type)
+        public virtual System.Boolean IsValueType(System.Int32 @index, RType @type)
         {
 
             var ___genericsType = new Type[] {};
@@ -1267,7 +1267,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
         }
 
 
-        public virtual System.Boolean IsKeyword(System.Int32  @index, RType  @keyword)
+        public virtual System.Boolean IsKeyword(System.Int32 @index, RType @keyword)
         {
 
             var ___genericsType = new Type[] {};
@@ -1278,7 +1278,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
         }
 
 
-        public virtual System.String ReadAsString(System.Int32  @index)
+        public virtual System.String ReadAsString(System.Int32 @index)
         {
 
             var ___genericsType = new Type[] {};
@@ -1289,7 +1289,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
         }
 
 
-        public virtual UnityEngine.UIElements.Length ReadLength(System.Int32  @index)
+        public virtual UnityEngine.UIElements.Length ReadLength(System.Int32 @index)
         {
 
             var ___genericsType = new Type[] {};
@@ -1300,7 +1300,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
         }
 
 
-        public virtual UnityEngine.UIElements.TimeValue ReadTimeValue(System.Int32  @index)
+        public virtual UnityEngine.UIElements.TimeValue ReadTimeValue(System.Int32 @index)
         {
 
             var ___genericsType = new Type[] {};
@@ -1311,7 +1311,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
         }
 
 
-        public virtual UnityEngine.UIElements.Translate ReadTranslate(System.Int32  @index)
+        public virtual UnityEngine.UIElements.Translate ReadTranslate(System.Int32 @index)
         {
 
             var ___genericsType = new Type[] {};
@@ -1322,7 +1322,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
         }
 
 
-        public virtual UnityEngine.UIElements.TransformOrigin ReadTransformOrigin(System.Int32  @index)
+        public virtual UnityEngine.UIElements.TransformOrigin ReadTransformOrigin(System.Int32 @index)
         {
 
             var ___genericsType = new Type[] {};
@@ -1333,7 +1333,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
         }
 
 
-        public virtual UnityEngine.UIElements.Rotate ReadRotate(System.Int32  @index)
+        public virtual UnityEngine.UIElements.Rotate ReadRotate(System.Int32 @index)
         {
 
             var ___genericsType = new Type[] {};
@@ -1344,7 +1344,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
         }
 
 
-        public virtual UnityEngine.UIElements.Scale ReadScale(System.Int32  @index)
+        public virtual UnityEngine.UIElements.Scale ReadScale(System.Int32 @index)
         {
 
             var ___genericsType = new Type[] {};
@@ -1355,7 +1355,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
         }
 
 
-        public virtual System.Single ReadFloat(System.Int32  @index)
+        public virtual System.Single ReadFloat(System.Int32 @index)
         {
 
             var ___genericsType = new Type[] {};
@@ -1366,7 +1366,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
         }
 
 
-        public virtual System.Int32 ReadInt(System.Int32  @index)
+        public virtual System.Int32 ReadInt(System.Int32 @index)
         {
 
             var ___genericsType = new Type[] {};
@@ -1377,7 +1377,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
         }
 
 
-        public virtual UnityEngine.Color ReadColor(System.Int32  @index)
+        public virtual UnityEngine.Color ReadColor(System.Int32 @index)
         {
 
             var ___genericsType = new Type[] {};
@@ -1388,7 +1388,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
         }
 
 
-        public virtual System.Int32 ReadEnum(RType  @enumType, System.Int32  @index)
+        public virtual System.Int32 ReadEnum(RType @enumType, System.Int32 @index)
         {
 
             var ___genericsType = new Type[] {};
@@ -1399,7 +1399,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
         }
 
 
-        public virtual UnityEngine.UIElements.FontDefinition ReadFontDefinition(System.Int32  @index)
+        public virtual UnityEngine.UIElements.FontDefinition ReadFontDefinition(System.Int32 @index)
         {
 
             var ___genericsType = new Type[] {};
@@ -1410,7 +1410,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
         }
 
 
-        public virtual UnityEngine.Font ReadFont(System.Int32  @index)
+        public virtual UnityEngine.Font ReadFont(System.Int32 @index)
         {
 
             var ___genericsType = new Type[] {};
@@ -1421,7 +1421,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
         }
 
 
-        public virtual UnityEngine.UIElements.Background ReadBackground(System.Int32  @index)
+        public virtual UnityEngine.UIElements.Background ReadBackground(System.Int32 @index)
         {
 
             var ___genericsType = new Type[] {};
@@ -1432,7 +1432,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
         }
 
 
-        public virtual UnityEngine.UIElements.Cursor ReadCursor(System.Int32  @index)
+        public virtual UnityEngine.UIElements.Cursor ReadCursor(System.Int32 @index)
         {
 
             var ___genericsType = new Type[] {};
@@ -1443,7 +1443,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
         }
 
 
-        public virtual UnityEngine.UIElements.TextShadow ReadTextShadow(System.Int32  @index)
+        public virtual UnityEngine.UIElements.TextShadow ReadTextShadow(System.Int32 @index)
         {
 
             var ___genericsType = new Type[] {};
@@ -1454,7 +1454,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
         }
 
 
-        public virtual UnityEngine.UIElements.BackgroundPosition ReadBackgroundPositionX(System.Int32  @index)
+        public virtual UnityEngine.UIElements.BackgroundPosition ReadBackgroundPositionX(System.Int32 @index)
         {
 
             var ___genericsType = new Type[] {};
@@ -1465,7 +1465,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
         }
 
 
-        public virtual UnityEngine.UIElements.BackgroundPosition ReadBackgroundPositionY(System.Int32  @index)
+        public virtual UnityEngine.UIElements.BackgroundPosition ReadBackgroundPositionY(System.Int32 @index)
         {
 
             var ___genericsType = new Type[] {};
@@ -1476,7 +1476,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
         }
 
 
-        public virtual UnityEngine.UIElements.BackgroundPosition ReadBackgroundPosition(System.Int32  @index, UnityEngine.UIElements.BackgroundPositionKeyword  @keyword)
+        public virtual UnityEngine.UIElements.BackgroundPosition ReadBackgroundPosition(System.Int32 @index, UnityEngine.UIElements.BackgroundPositionKeyword @keyword)
         {
 
             var ___genericsType = new Type[] {};
@@ -1487,7 +1487,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
         }
 
 
-        public virtual UnityEngine.UIElements.BackgroundRepeat ReadBackgroundRepeat(System.Int32  @index)
+        public virtual UnityEngine.UIElements.BackgroundRepeat ReadBackgroundRepeat(System.Int32 @index)
         {
 
             var ___genericsType = new Type[] {};
@@ -1498,7 +1498,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
         }
 
 
-        public virtual UnityEngine.UIElements.BackgroundSize ReadBackgroundSize(System.Int32  @index)
+        public virtual UnityEngine.UIElements.BackgroundSize ReadBackgroundSize(System.Int32 @index)
         {
 
             var ___genericsType = new Type[] {};
@@ -1509,7 +1509,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
         }
 
 
-        public virtual void ReadListEasingFunction(System.Collections.Generic.List<UnityEngine.UIElements.EasingFunction>  @list, System.Int32  @index)
+        public virtual void ReadListEasingFunction(System.Collections.Generic.List<UnityEngine.UIElements.EasingFunction> @list, System.Int32 @index)
         {
 
             var ___genericsType = new Type[] {};
@@ -1520,7 +1520,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
         }
 
 
-        public virtual void ReadListTimeValue(System.Collections.Generic.List<UnityEngine.UIElements.TimeValue>  @list, System.Int32  @index)
+        public virtual void ReadListTimeValue(System.Collections.Generic.List<UnityEngine.UIElements.TimeValue> @list, System.Int32 @index)
         {
 
             var ___genericsType = new Type[] {};
@@ -1531,7 +1531,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
         }
 
 
-        public virtual void ReadListStylePropertyName(System.Collections.Generic.List<UnityEngine.UIElements.StylePropertyName>  @list, System.Int32  @index)
+        public virtual void ReadListStylePropertyName(System.Collections.Generic.List<UnityEngine.UIElements.StylePropertyName> @list, System.Int32 @index)
         {
 
             var ___genericsType = new Type[] {};
@@ -1542,7 +1542,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
         }
 
 
-        public virtual void ReadListString(System.Collections.Generic.List<System.String>  @list, System.Int32  @index)
+        public virtual void ReadListString(System.Collections.Generic.List<System.String> @list, System.Int32 @index)
         {
 
             var ___genericsType = new Type[] {};
@@ -1575,7 +1575,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
         }
 
 
-        public static UnityEngine.UIElements.TransformOrigin ReadTransformOrigin(System.Int32  @valCount, RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue  @val1, RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue  @val2, RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue  @zVvalue)
+        public static UnityEngine.UIElements.TransformOrigin ReadTransformOrigin(System.Int32 @valCount, RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue @val1, RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue @val2, RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue @zVvalue)
         {
 
             var ___genericsType = new Type[] {};
@@ -1586,7 +1586,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
         }
 
 
-        public static UnityEngine.UIElements.Length ReadTransformOriginEnum(RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue  @value, out System.Boolean  @isVertical, out System.Boolean  @isHorizontal)
+        public static UnityEngine.UIElements.Length ReadTransformOriginEnum(RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue @value, out System.Boolean @isVertical, out System.Boolean @isHorizontal)
         {
 			@isVertical = default;
 			@isHorizontal = default;
@@ -1601,7 +1601,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
         }
 
 
-        public static UnityEngine.UIElements.Translate ReadTranslate(System.Int32  @valCount, RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue  @val1, RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue  @val2, RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue  @val3)
+        public static UnityEngine.UIElements.Translate ReadTranslate(System.Int32 @valCount, RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue @val1, RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue @val2, RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue @val3)
         {
 
             var ___genericsType = new Type[] {};
@@ -1612,7 +1612,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
         }
 
 
-        public static UnityEngine.UIElements.Scale ReadScale(System.Int32  @valCount, RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue  @val1, RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue  @val2, RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue  @val3)
+        public static UnityEngine.UIElements.Scale ReadScale(System.Int32 @valCount, RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue @val1, RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue @val2, RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue @val3)
         {
 
             var ___genericsType = new Type[] {};
@@ -1623,7 +1623,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
         }
 
 
-        public static UnityEngine.UIElements.Rotate ReadRotate(System.Int32  @valCount, RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue  @val1, RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue  @val2, RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue  @val3, RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue  @val4)
+        public static UnityEngine.UIElements.Rotate ReadRotate(System.Int32 @valCount, RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue @val1, RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue @val2, RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue @val3, RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue @val4)
         {
 
             var ___genericsType = new Type[] {};
@@ -1634,7 +1634,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
         }
 
 
-        public static System.Boolean TryReadEnum(RType  @enumType, RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue  @value, out System.Int32  @intValue)
+        public static System.Boolean TryReadEnum(RType @enumType, RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue @value, out System.Int32 @intValue)
         {
 			@intValue = default;
 
@@ -1647,7 +1647,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
         }
 
 
-        public static System.Int32 ReadEnum(RType  @enumType, RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue  @value)
+        public static System.Int32 ReadEnum(RType @enumType, RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -1658,7 +1658,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
         }
 
 
-        public static UnityEngine.UIElements.Angle ReadAngle(RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue  @value)
+        public static UnityEngine.UIElements.Angle ReadAngle(RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -1669,7 +1669,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
         }
 
 
-        public static UnityEngine.UIElements.BackgroundPosition ReadBackgroundPosition(System.Int32  @valCount, RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue  @val1, RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue  @val2, UnityEngine.UIElements.BackgroundPositionKeyword  @keyword)
+        public static UnityEngine.UIElements.BackgroundPosition ReadBackgroundPosition(System.Int32 @valCount, RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue @val1, RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue @val2, UnityEngine.UIElements.BackgroundPositionKeyword @keyword)
         {
 
             var ___genericsType = new Type[] {};
@@ -1680,7 +1680,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
         }
 
 
-        public static UnityEngine.UIElements.BackgroundRepeat ReadBackgroundRepeat(System.Int32  @valCount, RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue  @val1, RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue  @val2)
+        public static UnityEngine.UIElements.BackgroundRepeat ReadBackgroundRepeat(System.Int32 @valCount, RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue @val1, RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue @val2)
         {
 
             var ___genericsType = new Type[] {};
@@ -1691,7 +1691,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
         }
 
 
-        public static UnityEngine.UIElements.BackgroundSize ReadBackgroundSize(System.Int32  @valCount, RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue  @val1, RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue  @val2)
+        public static UnityEngine.UIElements.BackgroundSize ReadBackgroundSize(System.Int32 @valCount, RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue @val1, RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue @val2)
         {
 
             var ___genericsType = new Type[] {};
@@ -1702,7 +1702,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
         }
 
 
-        public static System.Boolean TryGetImageSourceFromValue(RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue  @propertyValue, System.Single  @dpiScaling, out RUnityEngine.RUIElements.RStyleSheets.RImageSource  @source)
+        public static System.Boolean TryGetImageSourceFromValue(RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue @propertyValue, System.Single @dpiScaling, out RUnityEngine.RUIElements.RStyleSheets.RImageSource @source)
         {
 			@source = default;
 
@@ -1715,7 +1715,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

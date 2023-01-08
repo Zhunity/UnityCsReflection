@@ -96,7 +96,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
 	    {
 	    }
 
-        public virtual System.Boolean Check(System.Security.Policy.Evidence  @evidence)
+        public virtual System.Boolean Check(System.Security.Policy.Evidence @evidence)
         {
 
             var ___genericsType = new Type[] {};
@@ -118,7 +118,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

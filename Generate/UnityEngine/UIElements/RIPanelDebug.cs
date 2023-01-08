@@ -283,7 +283,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 	    {
 	    }
 
-        public virtual void AttachDebugger(RUnityEngine.RUIElements.RIPanelDebugger  @debugger)
+        public virtual void AttachDebugger(RUnityEngine.RUIElements.RIPanelDebugger @debugger)
         {
 
             var ___genericsType = new Type[] {};
@@ -294,7 +294,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void DetachDebugger(RUnityEngine.RUIElements.RIPanelDebugger  @debugger)
+        public virtual void DetachDebugger(RUnityEngine.RUIElements.RIPanelDebugger @debugger)
         {
 
             var ___genericsType = new Type[] {};
@@ -316,14 +316,14 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Object GetAttachedDebuggers()
+        public virtual RSystem.RCollections.RGeneric.RIEnumerable<RUnityEngine.RUIElements.RIPanelDebugger> GetAttachedDebuggers()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RGetAttachedDebuggers.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RSystem.RCollections.RGeneric.RIEnumerable<RUnityEngine.RUIElements.RIPanelDebugger>(___result);
         }
 
 
@@ -360,7 +360,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void OnVersionChanged(UnityEngine.UIElements.VisualElement  @ele, RType  @changeTypeFlag)
+        public virtual void OnVersionChanged(UnityEngine.UIElements.VisualElement @ele, RType @changeTypeFlag)
         {
 
             var ___genericsType = new Type[] {};
@@ -371,7 +371,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean InterceptEvent(UnityEngine.UIElements.EventBase  @ev)
+        public virtual System.Boolean InterceptEvent(UnityEngine.UIElements.EventBase @ev)
         {
 
             var ___genericsType = new Type[] {};
@@ -382,7 +382,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void PostProcessEvent(UnityEngine.UIElements.EventBase  @ev)
+        public virtual void PostProcessEvent(UnityEngine.UIElements.EventBase @ev)
         {
 
             var ___genericsType = new Type[] {};

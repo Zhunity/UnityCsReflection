@@ -435,7 +435,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual UnityEngine.Rendering.LocalKeyword GetKeyword(System.String  @name)
+        public virtual UnityEngine.Rendering.LocalKeyword GetKeyword(System.String @name)
         {
 
             var ___genericsType = new Type[] {};
@@ -446,7 +446,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual UnityEngine.Rendering.LocalKeyword FindKeyword(System.String  @name)
+        public virtual UnityEngine.Rendering.LocalKeyword FindKeyword(System.String @name)
         {
 
             var ___genericsType = new Type[] {};
@@ -457,7 +457,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @o)
+        public virtual System.Boolean Equals(System.Object @o)
         {
 
             var ___genericsType = new Type[] {};
@@ -468,7 +468,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual System.Boolean Equals(UnityEngine.Rendering.LocalKeywordSpace  @rhs)
+        public virtual System.Boolean Equals(UnityEngine.Rendering.LocalKeywordSpace @rhs)
         {
 
             var ___genericsType = new Type[] {};
@@ -479,7 +479,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public static System.Boolean op_Equality(UnityEngine.Rendering.LocalKeywordSpace  @lhs, UnityEngine.Rendering.LocalKeywordSpace  @rhs)
+        public static System.Boolean op_Equality(UnityEngine.Rendering.LocalKeywordSpace @lhs, UnityEngine.Rendering.LocalKeywordSpace @rhs)
         {
 
             var ___genericsType = new Type[] {};
@@ -490,7 +490,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public static System.Boolean op_Inequality(UnityEngine.Rendering.LocalKeywordSpace  @lhs, UnityEngine.Rendering.LocalKeywordSpace  @rhs)
+        public static System.Boolean op_Inequality(UnityEngine.Rendering.LocalKeywordSpace @lhs, UnityEngine.Rendering.LocalKeywordSpace @rhs)
         {
 
             var ___genericsType = new Type[] {};
@@ -512,7 +512,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public static UnityEngine.Rendering.LocalKeyword[] GetKeywords_Injected(ref UnityEngine.Rendering.LocalKeywordSpace  @_unity_self)
+        public static UnityEngine.Rendering.LocalKeyword[] GetKeywords_Injected(ref UnityEngine.Rendering.LocalKeywordSpace @_unity_self)
         {
 
             var ___genericsType = new Type[] {};
@@ -524,7 +524,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public static System.String[] GetKeywordNames_Injected(ref UnityEngine.Rendering.LocalKeywordSpace  @_unity_self)
+        public static System.String[] GetKeywordNames_Injected(ref UnityEngine.Rendering.LocalKeywordSpace @_unity_self)
         {
 
             var ___genericsType = new Type[] {};
@@ -536,7 +536,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public static System.UInt32 GetKeywordCount_Injected(ref UnityEngine.Rendering.LocalKeywordSpace  @_unity_self)
+        public static System.UInt32 GetKeywordCount_Injected(ref UnityEngine.Rendering.LocalKeywordSpace @_unity_self)
         {
 
             var ___genericsType = new Type[] {};
@@ -548,7 +548,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public static void GetKeyword_Injected(ref UnityEngine.Rendering.LocalKeywordSpace  @_unity_self, System.String  @name, out UnityEngine.Rendering.LocalKeyword  @ret)
+        public static void GetKeyword_Injected(ref UnityEngine.Rendering.LocalKeywordSpace @_unity_self, System.String @name, out UnityEngine.Rendering.LocalKeyword @ret)
         {
 			@ret = default;
 

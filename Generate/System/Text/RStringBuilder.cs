@@ -1983,7 +1983,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 	    {
 	    }
 
-        public virtual void System__2__Runtime__2__Serialization__2__ISerializable__2__GetObjectData(System.Runtime.Serialization.SerializationInfo  @info, System.Runtime.Serialization.StreamingContext  @context)
+        public virtual void System__2__Runtime__2__Serialization__2__ISerializable__2__GetObjectData(System.Runtime.Serialization.SerializationInfo @info, System.Runtime.Serialization.StreamingContext @context)
         {
 
             var ___genericsType = new Type[] {};
@@ -2005,7 +2005,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
         }
 
 
-        public virtual System.Int32 EnsureCapacity(System.Int32  @capacity)
+        public virtual System.Int32 EnsureCapacity(System.Int32 @capacity)
         {
 
             var ___genericsType = new Type[] {};
@@ -2027,7 +2027,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
         }
 
 
-        public virtual System.String ToString(System.Int32  @startIndex, System.Int32  @length)
+        public virtual System.String ToString(System.Int32 @startIndex, System.Int32 @length)
         {
 
             var ___genericsType = new Type[] {};
@@ -2049,7 +2049,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
         }
 
 
-        public virtual System.Text.StringBuilder Append(System.Char  @value, System.Int32  @repeatCount)
+        public virtual System.Text.StringBuilder Append(System.Char @value, System.Int32 @repeatCount)
         {
 
             var ___genericsType = new Type[] {};
@@ -2060,7 +2060,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
         }
 
 
-        public virtual System.Text.StringBuilder Append(System.Char[]  @value, System.Int32  @startIndex, System.Int32  @charCount)
+        public virtual System.Text.StringBuilder Append(System.Char[] @value, System.Int32 @startIndex, System.Int32 @charCount)
         {
 
             var ___genericsType = new Type[] {};
@@ -2071,7 +2071,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
         }
 
 
-        public virtual System.Text.StringBuilder Append(System.String  @value)
+        public virtual System.Text.StringBuilder Append(System.String @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -2082,7 +2082,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
         }
 
 
-        public virtual void AppendHelper(System.String  @value)
+        public virtual void AppendHelper(System.String @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -2093,7 +2093,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
         }
 
 
-        public virtual System.Text.StringBuilder Append(System.String  @value, System.Int32  @startIndex, System.Int32  @count)
+        public virtual System.Text.StringBuilder Append(System.String @value, System.Int32 @startIndex, System.Int32 @count)
         {
 
             var ___genericsType = new Type[] {};
@@ -2104,7 +2104,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
         }
 
 
-        public virtual System.Text.StringBuilder Append(System.Text.StringBuilder  @value)
+        public virtual System.Text.StringBuilder Append(System.Text.StringBuilder @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -2115,7 +2115,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
         }
 
 
-        public virtual System.Text.StringBuilder Append(System.Text.StringBuilder  @value, System.Int32  @startIndex, System.Int32  @count)
+        public virtual System.Text.StringBuilder Append(System.Text.StringBuilder @value, System.Int32 @startIndex, System.Int32 @count)
         {
 
             var ___genericsType = new Type[] {};
@@ -2126,7 +2126,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
         }
 
 
-        public virtual System.Text.StringBuilder AppendCore(System.Text.StringBuilder  @value, System.Int32  @startIndex, System.Int32  @count)
+        public virtual System.Text.StringBuilder AppendCore(System.Text.StringBuilder @value, System.Int32 @startIndex, System.Int32 @count)
         {
 
             var ___genericsType = new Type[] {};
@@ -2148,7 +2148,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
         }
 
 
-        public virtual System.Text.StringBuilder AppendLine(System.String  @value)
+        public virtual System.Text.StringBuilder AppendLine(System.String @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -2159,7 +2159,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
         }
 
 
-        public virtual void CopyTo(System.Int32  @sourceIndex, System.Char[]  @destination, System.Int32  @destinationIndex, System.Int32  @count)
+        public virtual void CopyTo(System.Int32 @sourceIndex, System.Char[] @destination, System.Int32 @destinationIndex, System.Int32 @count)
         {
 
             var ___genericsType = new Type[] {};
@@ -2171,7 +2171,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 
 
 
-        public virtual System.Text.StringBuilder Insert(System.Int32  @index, System.String  @value, System.Int32  @count)
+        public virtual System.Text.StringBuilder Insert(System.Int32 @index, System.String @value, System.Int32 @count)
         {
 
             var ___genericsType = new Type[] {};
@@ -2182,7 +2182,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
         }
 
 
-        public virtual System.Text.StringBuilder Remove(System.Int32  @startIndex, System.Int32  @length)
+        public virtual System.Text.StringBuilder Remove(System.Int32 @startIndex, System.Int32 @length)
         {
 
             var ___genericsType = new Type[] {};
@@ -2193,7 +2193,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
         }
 
 
-        public virtual System.Text.StringBuilder Append(System.Boolean  @value)
+        public virtual System.Text.StringBuilder Append(System.Boolean @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -2204,7 +2204,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
         }
 
 
-        public virtual System.Text.StringBuilder Append(System.Char  @value)
+        public virtual System.Text.StringBuilder Append(System.Char @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -2215,7 +2215,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
         }
 
 
-        public virtual System.Text.StringBuilder Append(System.SByte  @value)
+        public virtual System.Text.StringBuilder Append(System.SByte @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -2226,7 +2226,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
         }
 
 
-        public virtual System.Text.StringBuilder Append(System.Byte  @value)
+        public virtual System.Text.StringBuilder Append(System.Byte @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -2237,7 +2237,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
         }
 
 
-        public virtual System.Text.StringBuilder Append(System.Int16  @value)
+        public virtual System.Text.StringBuilder Append(System.Int16 @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -2248,7 +2248,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
         }
 
 
-        public virtual System.Text.StringBuilder Append(System.Int32  @value)
+        public virtual System.Text.StringBuilder Append(System.Int32 @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -2259,7 +2259,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
         }
 
 
-        public virtual System.Text.StringBuilder Append(System.Int64  @value)
+        public virtual System.Text.StringBuilder Append(System.Int64 @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -2270,7 +2270,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
         }
 
 
-        public virtual System.Text.StringBuilder Append(System.Single  @value)
+        public virtual System.Text.StringBuilder Append(System.Single @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -2281,7 +2281,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
         }
 
 
-        public virtual System.Text.StringBuilder Append(System.Double  @value)
+        public virtual System.Text.StringBuilder Append(System.Double @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -2292,7 +2292,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
         }
 
 
-        public virtual System.Text.StringBuilder Append(System.Decimal  @value)
+        public virtual System.Text.StringBuilder Append(System.Decimal @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -2303,7 +2303,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
         }
 
 
-        public virtual System.Text.StringBuilder Append(System.UInt16  @value)
+        public virtual System.Text.StringBuilder Append(System.UInt16 @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -2314,7 +2314,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
         }
 
 
-        public virtual System.Text.StringBuilder Append(System.UInt32  @value)
+        public virtual System.Text.StringBuilder Append(System.UInt32 @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -2325,7 +2325,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
         }
 
 
-        public virtual System.Text.StringBuilder Append(System.UInt64  @value)
+        public virtual System.Text.StringBuilder Append(System.UInt64 @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -2336,7 +2336,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
         }
 
 
-        public virtual System.Text.StringBuilder AppendSpanFormattable<T>(T  @value) where T : System.IFormattable
+        public virtual System.Text.StringBuilder AppendSpanFormattable<T>(T @value) where T : System.IFormattable
         {
 
             var ___genericsType = new Type[] {typeof(T)};
@@ -2347,7 +2347,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
         }
 
 
-        public virtual System.Text.StringBuilder Append(System.Object  @value)
+        public virtual System.Text.StringBuilder Append(System.Object @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -2358,7 +2358,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
         }
 
 
-        public virtual System.Text.StringBuilder Append(System.Char[]  @value)
+        public virtual System.Text.StringBuilder Append(System.Char[] @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -2370,7 +2370,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 
 
 
-        public virtual System.Text.StringBuilder AppendJoin(System.String  @separator, System.Object[]  @values)
+        public virtual System.Text.StringBuilder AppendJoin(System.String @separator, System.Object[] @values)
         {
 
             var ___genericsType = new Type[] {};
@@ -2381,7 +2381,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
         }
 
 
-        public virtual System.Text.StringBuilder AppendJoin<T>(System.String  @separator, System.Collections.Generic.IEnumerable<T>  @values)
+        public virtual System.Text.StringBuilder AppendJoin<T>(System.String @separator, System.Collections.Generic.IEnumerable<T> @values)
         {
 
             var ___genericsType = new Type[] {typeof(T)};
@@ -2392,7 +2392,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
         }
 
 
-        public virtual System.Text.StringBuilder AppendJoin(System.String  @separator, System.String[]  @values)
+        public virtual System.Text.StringBuilder AppendJoin(System.String @separator, System.String[] @values)
         {
 
             var ___genericsType = new Type[] {};
@@ -2403,7 +2403,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
         }
 
 
-        public virtual System.Text.StringBuilder AppendJoin(System.Char  @separator, System.Object[]  @values)
+        public virtual System.Text.StringBuilder AppendJoin(System.Char @separator, System.Object[] @values)
         {
 
             var ___genericsType = new Type[] {};
@@ -2414,7 +2414,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
         }
 
 
-        public virtual System.Text.StringBuilder AppendJoin<T>(System.Char  @separator, System.Collections.Generic.IEnumerable<T>  @values)
+        public virtual System.Text.StringBuilder AppendJoin<T>(System.Char @separator, System.Collections.Generic.IEnumerable<T> @values)
         {
 
             var ___genericsType = new Type[] {typeof(T)};
@@ -2425,7 +2425,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
         }
 
 
-        public virtual System.Text.StringBuilder AppendJoin(System.Char  @separator, System.String[]  @values)
+        public virtual System.Text.StringBuilder AppendJoin(System.Char @separator, System.String[] @values)
         {
 
             var ___genericsType = new Type[] {};
@@ -2438,7 +2438,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 
 
 
-        public virtual System.Text.StringBuilder Insert(System.Int32  @index, System.String  @value)
+        public virtual System.Text.StringBuilder Insert(System.Int32 @index, System.String @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -2449,7 +2449,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
         }
 
 
-        public virtual System.Text.StringBuilder Insert(System.Int32  @index, System.Boolean  @value)
+        public virtual System.Text.StringBuilder Insert(System.Int32 @index, System.Boolean @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -2460,7 +2460,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
         }
 
 
-        public virtual System.Text.StringBuilder Insert(System.Int32  @index, System.SByte  @value)
+        public virtual System.Text.StringBuilder Insert(System.Int32 @index, System.SByte @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -2471,7 +2471,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
         }
 
 
-        public virtual System.Text.StringBuilder Insert(System.Int32  @index, System.Byte  @value)
+        public virtual System.Text.StringBuilder Insert(System.Int32 @index, System.Byte @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -2482,7 +2482,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
         }
 
 
-        public virtual System.Text.StringBuilder Insert(System.Int32  @index, System.Int16  @value)
+        public virtual System.Text.StringBuilder Insert(System.Int32 @index, System.Int16 @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -2493,7 +2493,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
         }
 
 
-        public virtual System.Text.StringBuilder Insert(System.Int32  @index, System.Char  @value)
+        public virtual System.Text.StringBuilder Insert(System.Int32 @index, System.Char @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -2504,7 +2504,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
         }
 
 
-        public virtual System.Text.StringBuilder Insert(System.Int32  @index, System.Char[]  @value)
+        public virtual System.Text.StringBuilder Insert(System.Int32 @index, System.Char[] @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -2515,7 +2515,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
         }
 
 
-        public virtual System.Text.StringBuilder Insert(System.Int32  @index, System.Char[]  @value, System.Int32  @startIndex, System.Int32  @charCount)
+        public virtual System.Text.StringBuilder Insert(System.Int32 @index, System.Char[] @value, System.Int32 @startIndex, System.Int32 @charCount)
         {
 
             var ___genericsType = new Type[] {};
@@ -2526,7 +2526,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
         }
 
 
-        public virtual System.Text.StringBuilder Insert(System.Int32  @index, System.Int32  @value)
+        public virtual System.Text.StringBuilder Insert(System.Int32 @index, System.Int32 @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -2537,7 +2537,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
         }
 
 
-        public virtual System.Text.StringBuilder Insert(System.Int32  @index, System.Int64  @value)
+        public virtual System.Text.StringBuilder Insert(System.Int32 @index, System.Int64 @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -2548,7 +2548,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
         }
 
 
-        public virtual System.Text.StringBuilder Insert(System.Int32  @index, System.Single  @value)
+        public virtual System.Text.StringBuilder Insert(System.Int32 @index, System.Single @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -2559,7 +2559,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
         }
 
 
-        public virtual System.Text.StringBuilder Insert(System.Int32  @index, System.Double  @value)
+        public virtual System.Text.StringBuilder Insert(System.Int32 @index, System.Double @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -2570,7 +2570,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
         }
 
 
-        public virtual System.Text.StringBuilder Insert(System.Int32  @index, System.Decimal  @value)
+        public virtual System.Text.StringBuilder Insert(System.Int32 @index, System.Decimal @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -2581,7 +2581,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
         }
 
 
-        public virtual System.Text.StringBuilder Insert(System.Int32  @index, System.UInt16  @value)
+        public virtual System.Text.StringBuilder Insert(System.Int32 @index, System.UInt16 @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -2592,7 +2592,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
         }
 
 
-        public virtual System.Text.StringBuilder Insert(System.Int32  @index, System.UInt32  @value)
+        public virtual System.Text.StringBuilder Insert(System.Int32 @index, System.UInt32 @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -2603,7 +2603,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
         }
 
 
-        public virtual System.Text.StringBuilder Insert(System.Int32  @index, System.UInt64  @value)
+        public virtual System.Text.StringBuilder Insert(System.Int32 @index, System.UInt64 @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -2614,7 +2614,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
         }
 
 
-        public virtual System.Text.StringBuilder Insert(System.Int32  @index, System.Object  @value)
+        public virtual System.Text.StringBuilder Insert(System.Int32 @index, System.Object @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -2626,7 +2626,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 
 
 
-        public virtual System.Text.StringBuilder AppendFormat(System.String  @format, System.Object  @arg0)
+        public virtual System.Text.StringBuilder AppendFormat(System.String @format, System.Object @arg0)
         {
 
             var ___genericsType = new Type[] {};
@@ -2637,7 +2637,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
         }
 
 
-        public virtual System.Text.StringBuilder AppendFormat(System.String  @format, System.Object  @arg0, System.Object  @arg1)
+        public virtual System.Text.StringBuilder AppendFormat(System.String @format, System.Object @arg0, System.Object @arg1)
         {
 
             var ___genericsType = new Type[] {};
@@ -2648,7 +2648,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
         }
 
 
-        public virtual System.Text.StringBuilder AppendFormat(System.String  @format, System.Object  @arg0, System.Object  @arg1, System.Object  @arg2)
+        public virtual System.Text.StringBuilder AppendFormat(System.String @format, System.Object @arg0, System.Object @arg1, System.Object @arg2)
         {
 
             var ___genericsType = new Type[] {};
@@ -2659,7 +2659,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
         }
 
 
-        public virtual System.Text.StringBuilder AppendFormat(System.String  @format, System.Object[]  @args)
+        public virtual System.Text.StringBuilder AppendFormat(System.String @format, System.Object[] @args)
         {
 
             var ___genericsType = new Type[] {};
@@ -2670,7 +2670,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
         }
 
 
-        public virtual System.Text.StringBuilder AppendFormat(System.IFormatProvider  @provider, System.String  @format, System.Object  @arg0)
+        public virtual System.Text.StringBuilder AppendFormat(System.IFormatProvider @provider, System.String @format, System.Object @arg0)
         {
 
             var ___genericsType = new Type[] {};
@@ -2681,7 +2681,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
         }
 
 
-        public virtual System.Text.StringBuilder AppendFormat(System.IFormatProvider  @provider, System.String  @format, System.Object  @arg0, System.Object  @arg1)
+        public virtual System.Text.StringBuilder AppendFormat(System.IFormatProvider @provider, System.String @format, System.Object @arg0, System.Object @arg1)
         {
 
             var ___genericsType = new Type[] {};
@@ -2692,7 +2692,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
         }
 
 
-        public virtual System.Text.StringBuilder AppendFormat(System.IFormatProvider  @provider, System.String  @format, System.Object  @arg0, System.Object  @arg1, System.Object  @arg2)
+        public virtual System.Text.StringBuilder AppendFormat(System.IFormatProvider @provider, System.String @format, System.Object @arg0, System.Object @arg1, System.Object @arg2)
         {
 
             var ___genericsType = new Type[] {};
@@ -2703,7 +2703,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
         }
 
 
-        public virtual System.Text.StringBuilder AppendFormat(System.IFormatProvider  @provider, System.String  @format, System.Object[]  @args)
+        public virtual System.Text.StringBuilder AppendFormat(System.IFormatProvider @provider, System.String @format, System.Object[] @args)
         {
 
             var ___genericsType = new Type[] {};
@@ -2725,7 +2725,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
         }
 
 
-        public virtual System.Text.StringBuilder AppendFormatHelper(System.IFormatProvider  @provider, System.String  @format, RSystem.RParamsArray  @args)
+        public virtual System.Text.StringBuilder AppendFormatHelper(System.IFormatProvider @provider, System.String @format, RSystem.RParamsArray @args)
         {
 
             var ___genericsType = new Type[] {};
@@ -2736,7 +2736,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
         }
 
 
-        public virtual System.Text.StringBuilder Replace(System.String  @oldValue, System.String  @newValue)
+        public virtual System.Text.StringBuilder Replace(System.String @oldValue, System.String @newValue)
         {
 
             var ___genericsType = new Type[] {};
@@ -2747,7 +2747,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
         }
 
 
-        public virtual System.Boolean Equals(System.Text.StringBuilder  @sb)
+        public virtual System.Boolean Equals(System.Text.StringBuilder @sb)
         {
 
             var ___genericsType = new Type[] {};
@@ -2759,7 +2759,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 
 
 
-        public virtual System.Text.StringBuilder Replace(System.String  @oldValue, System.String  @newValue, System.Int32  @startIndex, System.Int32  @count)
+        public virtual System.Text.StringBuilder Replace(System.String @oldValue, System.String @newValue, System.Int32 @startIndex, System.Int32 @count)
         {
 
             var ___genericsType = new Type[] {};
@@ -2770,7 +2770,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
         }
 
 
-        public virtual System.Text.StringBuilder Replace(System.Char  @oldChar, System.Char  @newChar)
+        public virtual System.Text.StringBuilder Replace(System.Char @oldChar, System.Char @newChar)
         {
 
             var ___genericsType = new Type[] {};
@@ -2781,7 +2781,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
         }
 
 
-        public virtual System.Text.StringBuilder Replace(System.Char  @oldChar, System.Char  @newChar, System.Int32  @startIndex, System.Int32  @count)
+        public virtual System.Text.StringBuilder Replace(System.Char @oldChar, System.Char @newChar, System.Int32 @startIndex, System.Int32 @count)
         {
 
             var ___genericsType = new Type[] {};
@@ -2794,7 +2794,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 
 
 
-        public virtual void ReplaceAllInChunk(System.Int32[]  @replacements, System.Int32  @replacementsCount, System.Text.StringBuilder  @sourceChunk, System.Int32  @removeCount, System.String  @value)
+        public virtual void ReplaceAllInChunk(System.Int32[] @replacements, System.Int32 @replacementsCount, System.Text.StringBuilder @sourceChunk, System.Int32 @removeCount, System.String @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -2805,7 +2805,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
         }
 
 
-        public virtual System.Boolean StartsWith(System.Text.StringBuilder  @chunk, System.Int32  @indexInChunk, System.Int32  @count, System.String  @value)
+        public virtual System.Boolean StartsWith(System.Text.StringBuilder @chunk, System.Int32 @indexInChunk, System.Int32 @count, System.String @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -2819,7 +2819,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 
 
 
-        public virtual System.Text.StringBuilder FindChunkForIndex(System.Int32  @index)
+        public virtual System.Text.StringBuilder FindChunkForIndex(System.Int32 @index)
         {
 
             var ___genericsType = new Type[] {};
@@ -2830,7 +2830,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
         }
 
 
-        public virtual System.Text.StringBuilder FindChunkForByte(System.Int32  @byteIndex)
+        public virtual System.Text.StringBuilder FindChunkForByte(System.Int32 @byteIndex)
         {
 
             var ___genericsType = new Type[] {};
@@ -2841,7 +2841,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
         }
 
 
-        public virtual System.Text.StringBuilder Next(System.Text.StringBuilder  @chunk)
+        public virtual System.Text.StringBuilder Next(System.Text.StringBuilder @chunk)
         {
 
             var ___genericsType = new Type[] {};
@@ -2852,7 +2852,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
         }
 
 
-        public virtual void ExpandByABlock(System.Int32  @minBlockCharCount)
+        public virtual void ExpandByABlock(System.Int32 @minBlockCharCount)
         {
 
             var ___genericsType = new Type[] {};
@@ -2863,7 +2863,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
         }
 
 
-        public virtual void MakeRoom(System.Int32  @index, System.Int32  @count, out System.Text.StringBuilder  @chunk, out System.Int32  @indexInChunk, System.Boolean  @doNotMoveFollowingChars)
+        public virtual void MakeRoom(System.Int32 @index, System.Int32 @count, out System.Text.StringBuilder @chunk, out System.Int32 @indexInChunk, System.Boolean @doNotMoveFollowingChars)
         {
 			@chunk = default;
 			@indexInChunk = default;
@@ -2878,7 +2878,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
         }
 
 
-        public virtual void Remove(System.Int32  @startIndex, System.Int32  @count, out System.Text.StringBuilder  @chunk, out System.Int32  @indexInChunk)
+        public virtual void Remove(System.Int32 @startIndex, System.Int32 @count, out System.Text.StringBuilder @chunk, out System.Int32 @indexInChunk)
         {
 			@chunk = default;
 			@indexInChunk = default;
@@ -2893,7 +2893,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

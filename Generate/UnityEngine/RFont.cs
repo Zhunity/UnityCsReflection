@@ -657,7 +657,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 	    {
 	    }
 
-        public static UnityEngine.Font CreateDynamicFontFromOSFont(System.String  @fontname, System.Int32  @size)
+        public static UnityEngine.Font CreateDynamicFontFromOSFont(System.String @fontname, System.Int32 @size)
         {
 
             var ___genericsType = new Type[] {};
@@ -668,7 +668,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.Font CreateDynamicFontFromOSFont(System.String[]  @fontnames, System.Int32  @size)
+        public static UnityEngine.Font CreateDynamicFontFromOSFont(System.String[] @fontnames, System.Int32 @size)
         {
 
             var ___genericsType = new Type[] {};
@@ -679,7 +679,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static void InvokeTextureRebuilt_Internal(UnityEngine.Font  @font)
+        public static void InvokeTextureRebuilt_Internal(UnityEngine.Font @font)
         {
 
             var ___genericsType = new Type[] {};
@@ -690,7 +690,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static System.Int32 GetMaxVertsForString(System.String  @str)
+        public static System.Int32 GetMaxVertsForString(System.String @str)
         {
 
             var ___genericsType = new Type[] {};
@@ -712,7 +712,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Boolean HasCharacter(System.Char  @c)
+        public virtual System.Boolean HasCharacter(System.Char @c)
         {
 
             var ___genericsType = new Type[] {};
@@ -723,7 +723,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Boolean HasCharacter(System.Int32  @c)
+        public virtual System.Boolean HasCharacter(System.Int32 @c)
         {
 
             var ___genericsType = new Type[] {};
@@ -756,7 +756,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static void Internal_CreateFont(UnityEngine.Font  @self, System.String  @name)
+        public static void Internal_CreateFont(UnityEngine.Font @self, System.String @name)
         {
 
             var ___genericsType = new Type[] {};
@@ -767,7 +767,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static void Internal_CreateFontFromPath(UnityEngine.Font  @self, System.String  @fontPath)
+        public static void Internal_CreateFontFromPath(UnityEngine.Font @self, System.String @fontPath)
         {
 
             var ___genericsType = new Type[] {};
@@ -778,7 +778,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static void Internal_CreateDynamicFont(UnityEngine.Font  @self, System.String[]  @_names, System.Int32  @size)
+        public static void Internal_CreateDynamicFont(UnityEngine.Font @self, System.String[] @_names, System.Int32 @size)
         {
 
             var ___genericsType = new Type[] {};
@@ -789,7 +789,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Boolean GetCharacterInfo(System.Char  @ch, out UnityEngine.CharacterInfo  @info, System.Int32  @size, UnityEngine.FontStyle  @style)
+        public virtual System.Boolean GetCharacterInfo(System.Char @ch, out UnityEngine.CharacterInfo @info, System.Int32 @size, UnityEngine.FontStyle @style)
         {
 			@info = default;
 
@@ -802,7 +802,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Boolean GetCharacterInfo(System.Char  @ch, out UnityEngine.CharacterInfo  @info, System.Int32  @size)
+        public virtual System.Boolean GetCharacterInfo(System.Char @ch, out UnityEngine.CharacterInfo @info, System.Int32 @size)
         {
 			@info = default;
 
@@ -815,7 +815,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Boolean GetCharacterInfo(System.Char  @ch, out UnityEngine.CharacterInfo  @info)
+        public virtual System.Boolean GetCharacterInfo(System.Char @ch, out UnityEngine.CharacterInfo @info)
         {
 			@info = default;
 
@@ -828,7 +828,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void RequestCharactersInTexture(System.String  @characters, System.Int32  @size, UnityEngine.FontStyle  @style)
+        public virtual void RequestCharactersInTexture(System.String @characters, System.Int32 @size, UnityEngine.FontStyle @style)
         {
 
             var ___genericsType = new Type[] {};
@@ -839,7 +839,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void RequestCharactersInTexture(System.String  @characters, System.Int32  @size)
+        public virtual void RequestCharactersInTexture(System.String @characters, System.Int32 @size)
         {
 
             var ___genericsType = new Type[] {};
@@ -850,7 +850,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void RequestCharactersInTexture(System.String  @characters)
+        public virtual void RequestCharactersInTexture(System.String @characters)
         {
 
             var ___genericsType = new Type[] {};
@@ -883,7 +883,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @other)
+        public virtual System.Boolean Equals(System.Object @other)
         {
 
             var ___genericsType = new Type[] {};

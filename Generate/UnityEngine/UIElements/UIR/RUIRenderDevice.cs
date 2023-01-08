@@ -1602,7 +1602,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
         }
 
 
-        public virtual void Dispose(System.Boolean  @disposing)
+        public virtual void Dispose(System.Boolean @disposing)
         {
 
             var ___genericsType = new Type[] {};
@@ -1616,7 +1616,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 
 
 
-        public virtual System.Boolean TryAllocFromPage(RUnityEngine.RUIElements.RUIR.RPage  @page, System.UInt32  @vertexCount, System.UInt32  @indexCount, ref RUnityEngine.RUIElements.RUIR.RAlloc  @va, ref RUnityEngine.RUIElements.RUIR.RAlloc  @ia, System.Boolean  @shortLived)
+        public virtual System.Boolean TryAllocFromPage(RUnityEngine.RUIElements.RUIR.RPage @page, System.UInt32 @vertexCount, System.UInt32 @indexCount, ref RUnityEngine.RUIElements.RUIR.RAlloc @va, ref RUnityEngine.RUIElements.RUIR.RAlloc @ia, System.Boolean @shortLived)
         {
 
             var ___genericsType = new Type[] {};
@@ -1631,7 +1631,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 
 
 
-        public virtual void Free(RUnityEngine.RUIElements.RUIR.RMeshHandle  @mesh)
+        public virtual void Free(RUnityEngine.RUIElements.RUIR.RMeshHandle @mesh)
         {
 
             var ___genericsType = new Type[] {};
@@ -1654,7 +1654,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 
 
 
-        public virtual void ApplyDrawCommandState(RUnityEngine.RUIElements.RUIR.RRenderChainCommand  @cmd, System.Int32  @textureSlot, UnityEngine.Material  @newMat, System.Boolean  @newMatDiffers, ref RUnityEngine.RUIElements.RUIR.RUIRenderDevice.REvaluationState  @st)
+        public virtual void ApplyDrawCommandState(RUnityEngine.RUIElements.RUIR.RRenderChainCommand @cmd, System.Int32 @textureSlot, UnityEngine.Material @newMat, System.Boolean @newMatDiffers, ref RUnityEngine.RUIElements.RUIR.RUIRenderDevice.REvaluationState @st)
         {
 
             var ___genericsType = new Type[] {};
@@ -1666,7 +1666,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
         }
 
 
-        public virtual void ApplyBatchState(ref RUnityEngine.RUIElements.RUIR.RUIRenderDevice.REvaluationState  @st, System.Boolean  @allowMaterialChange)
+        public virtual void ApplyBatchState(ref RUnityEngine.RUIElements.RUIR.RUIRenderDevice.REvaluationState @st, System.Boolean @allowMaterialChange)
         {
 
             var ___genericsType = new Type[] {};
@@ -1703,7 +1703,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
         }
 
 
-        public virtual void WaitOnCpuFence(System.UInt32  @fence)
+        public virtual void WaitOnCpuFence(System.UInt32 @fence)
         {
 
             var ___genericsType = new Type[] {};
@@ -1769,25 +1769,25 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
         }
 
 
-        public virtual System.Object GatherAllocationStatistics()
+        public virtual RUnityEngine.RUIElements.RUIR.RUIRenderDevice.RAllocationStatistics GatherAllocationStatistics()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RGatherAllocationStatistics.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RUnityEngine.RUIElements.RUIR.RUIRenderDevice.RAllocationStatistics(___result);
         }
 
 
-        public virtual System.Object GatherDrawStatistics()
+        public virtual RUnityEngine.RUIElements.RUIR.RUIRenderDevice.RDrawStatistics GatherDrawStatistics()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RGatherDrawStatistics.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RUnityEngine.RUIElements.RUIR.RUIRenderDevice.RDrawStatistics(___result);
         }
 
 
@@ -1824,7 +1824,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

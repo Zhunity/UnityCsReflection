@@ -815,7 +815,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SetImeWindowPosition(UnityEngine.Vector2  @worldPosition)
+        public virtual void SetImeWindowPosition(UnityEngine.Vector2 @worldPosition)
         {
 
             var ___genericsType = new Type[] {};
@@ -826,7 +826,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.String GeneratePreviewString(System.Boolean  @richText)
+        public virtual System.String GeneratePreviewString(System.Boolean @richText)
         {
 
             var ___genericsType = new Type[] {};
@@ -859,7 +859,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Boolean HandleKeyEvent(UnityEngine.Event  @e, System.Boolean  @textIsReadOnly)
+        public virtual System.Boolean HandleKeyEvent(UnityEngine.Event @e, System.Boolean @textIsReadOnly)
         {
 
             var ___genericsType = new Type[] {};
@@ -870,7 +870,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Boolean PerformOperation(RType  @operation, System.Boolean  @textIsReadOnly)
+        public virtual System.Boolean PerformOperation(RType @operation, System.Boolean @textIsReadOnly)
         {
 
             var ___genericsType = new Type[] {};
@@ -881,7 +881,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static void MapKey(System.String  @key, RType  @action)
+        public static void MapKey(System.String @key, RType @action)
         {
 
             var ___genericsType = new Type[] {};
@@ -969,7 +969,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void ReplaceSelection(System.String  @replace)
+        public virtual void ReplaceSelection(System.String @replace)
         {
 
             var ___genericsType = new Type[] {};
@@ -980,7 +980,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void Insert(System.Char  @c)
+        public virtual void Insert(System.Char @c)
         {
 
             var ___genericsType = new Type[] {};
@@ -1035,7 +1035,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static System.String ReplaceNewlinesWithSpaces(System.String  @value)
+        public static System.String ReplaceNewlinesWithSpaces(System.String @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -1057,7 +1057,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

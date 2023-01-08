@@ -192,7 +192,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public virtual void Revert(System.Object  @previousState)
+        public virtual void Revert(System.Object @previousState)
         {
 
             var ___genericsType = new Type[] {};
@@ -203,7 +203,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public virtual System.Object SetHostExecutionContext(System.Threading.HostExecutionContext  @hostExecutionContext)
+        public virtual System.Object SetHostExecutionContext(System.Threading.HostExecutionContext @hostExecutionContext)
         {
 
             var ___genericsType = new Type[] {};
@@ -214,7 +214,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

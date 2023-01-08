@@ -164,7 +164,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 	    {
 	    }
 
-        public virtual System.Int32 StartTrackingAsset(T  @asset)
+        public virtual System.Int32 StartTrackingAsset(T @asset)
         {
 
             var ___genericsType = new Type[] {};
@@ -175,7 +175,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void StopTrackingAsset(T  @asset)
+        public virtual void StopTrackingAsset(T @asset)
         {
 
             var ___genericsType = new Type[] {};
@@ -186,7 +186,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean IsTrackingAsset(T  @asset)
+        public virtual System.Boolean IsTrackingAsset(T @asset)
         {
 
             var ___genericsType = new Type[] {};
@@ -219,7 +219,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void UpdateAssetTrackerCounts(T  @asset, System.Int32  @newDirtyCount, System.Int32  @newElementCount, System.Int32  @newInlinePropertiesCount, System.Int32  @newAttributePropertiesDirtyCount)
+        public virtual void UpdateAssetTrackerCounts(T @asset, System.Int32 @newDirtyCount, System.Int32 @newElementCount, System.Int32 @newInlinePropertiesCount, System.Int32 @newAttributePropertiesDirtyCount)
         {
 
             var ___genericsType = new Type[] {};
@@ -230,7 +230,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean OnAssetsImported(System.Collections.Generic.HashSet<T>  @changedAssets, System.Collections.Generic.HashSet<System.String>  @deletedAssets)
+        public virtual System.Boolean OnAssetsImported(System.Collections.Generic.HashSet<T> @changedAssets, System.Collections.Generic.HashSet<System.String> @deletedAssets)
         {
 
             var ___genericsType = new Type[] {};

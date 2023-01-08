@@ -249,7 +249,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 	    {
 	    }
 
-        public static System.Boolean get_isValid_Injected(ref UnityEngine.Rendering.RendererList  @_unity_self)
+        public static System.Boolean get_isValid_Injected(ref UnityEngine.Rendering.RendererList @_unity_self)
         {
 
             var ___genericsType = new Type[] {};
@@ -261,7 +261,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

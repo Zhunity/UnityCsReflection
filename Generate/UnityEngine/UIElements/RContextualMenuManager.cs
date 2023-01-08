@@ -215,7 +215,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 	    {
 	    }
 
-        public virtual void DisplayMenuIfEventMatches(UnityEngine.UIElements.EventBase  @evt, UnityEngine.UIElements.IEventHandler  @eventHandler)
+        public virtual void DisplayMenuIfEventMatches(UnityEngine.UIElements.EventBase @evt, UnityEngine.UIElements.IEventHandler @eventHandler)
         {
 
             var ___genericsType = new Type[] {};
@@ -226,7 +226,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void DisplayMenu(UnityEngine.UIElements.EventBase  @triggerEvent, UnityEngine.UIElements.IEventHandler  @target)
+        public virtual void DisplayMenu(UnityEngine.UIElements.EventBase @triggerEvent, UnityEngine.UIElements.IEventHandler @target)
         {
 
             var ___genericsType = new Type[] {};
@@ -237,7 +237,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void DoDisplayMenu(UnityEngine.UIElements.DropdownMenu  @menu, UnityEngine.UIElements.EventBase  @triggerEvent)
+        public virtual void DoDisplayMenu(UnityEngine.UIElements.DropdownMenu @menu, UnityEngine.UIElements.EventBase @triggerEvent)
         {
 
             var ___genericsType = new Type[] {};
@@ -248,7 +248,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

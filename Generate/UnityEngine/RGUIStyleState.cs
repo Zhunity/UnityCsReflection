@@ -339,7 +339,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.GUIStyleState ProduceGUIStyleStateFromDeserialization(UnityEngine.GUIStyle  @sourceStyle, System.IntPtr  @source)
+        public static UnityEngine.GUIStyleState ProduceGUIStyleStateFromDeserialization(UnityEngine.GUIStyle @sourceStyle, System.IntPtr @source)
         {
 
             var ___genericsType = new Type[] {};
@@ -350,7 +350,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.GUIStyleState GetGUIStyleState(UnityEngine.GUIStyle  @sourceStyle, System.IntPtr  @source)
+        public static UnityEngine.GUIStyleState GetGUIStyleState(UnityEngine.GUIStyle @sourceStyle, System.IntPtr @source)
         {
 
             var ___genericsType = new Type[] {};
@@ -372,7 +372,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void get_textColor_Injected(out UnityEngine.Color  @ret)
+        public virtual void get_textColor_Injected(out UnityEngine.Color @ret)
         {
 			@ret = default;
 
@@ -385,7 +385,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void set_textColor_Injected(ref UnityEngine.Color  @value)
+        public virtual void set_textColor_Injected(ref UnityEngine.Color @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -397,7 +397,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

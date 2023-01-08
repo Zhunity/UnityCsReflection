@@ -294,7 +294,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};
@@ -305,7 +305,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
         }
 
 
-        public virtual System.Boolean Equals(System.Security.Cryptography.RSASignaturePadding  @other)
+        public virtual System.Boolean Equals(System.Security.Cryptography.RSASignaturePadding @other)
         {
 
             var ___genericsType = new Type[] {};
@@ -316,7 +316,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
         }
 
 
-        public static System.Boolean op_Equality(System.Security.Cryptography.RSASignaturePadding  @left, System.Security.Cryptography.RSASignaturePadding  @right)
+        public static System.Boolean op_Equality(System.Security.Cryptography.RSASignaturePadding @left, System.Security.Cryptography.RSASignaturePadding @right)
         {
 
             var ___genericsType = new Type[] {};
@@ -327,7 +327,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
         }
 
 
-        public static System.Boolean op_Inequality(System.Security.Cryptography.RSASignaturePadding  @left, System.Security.Cryptography.RSASignaturePadding  @right)
+        public static System.Boolean op_Inequality(System.Security.Cryptography.RSASignaturePadding @left, System.Security.Cryptography.RSASignaturePadding @right)
         {
 
             var ___genericsType = new Type[] {};

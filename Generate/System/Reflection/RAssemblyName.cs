@@ -980,7 +980,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 	    {
 	    }
 
-        public static System.Boolean ParseAssemblyName(System.IntPtr  @name, out RMono.RMonoAssemblyName  @aname, out System.Boolean  @is_version_definited, out System.Boolean  @is_token_defined)
+        public static System.Boolean ParseAssemblyName(System.IntPtr @name, out RMono.RMonoAssemblyName @aname, out System.Boolean @is_version_definited, out System.Boolean @is_token_defined)
         {
 			@aname = default;
 			@is_version_definited = default;
@@ -1053,7 +1053,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
         }
 
 
-        public static System.Boolean ReferenceMatchesDefinition(System.Reflection.AssemblyName  @reference, System.Reflection.AssemblyName  @definition)
+        public static System.Boolean ReferenceMatchesDefinition(System.Reflection.AssemblyName @reference, System.Reflection.AssemblyName @definition)
         {
 
             var ___genericsType = new Type[] {};
@@ -1064,7 +1064,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
         }
 
 
-        public virtual void SetPublicKey(System.Byte[]  @publicKey)
+        public virtual void SetPublicKey(System.Byte[] @publicKey)
         {
 
             var ___genericsType = new Type[] {};
@@ -1075,7 +1075,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
         }
 
 
-        public virtual void SetPublicKeyToken(System.Byte[]  @publicKeyToken)
+        public virtual void SetPublicKeyToken(System.Byte[] @publicKeyToken)
         {
 
             var ___genericsType = new Type[] {};
@@ -1086,7 +1086,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
         }
 
 
-        public virtual void GetObjectData(System.Runtime.Serialization.SerializationInfo  @info, System.Runtime.Serialization.StreamingContext  @context)
+        public virtual void GetObjectData(System.Runtime.Serialization.SerializationInfo @info, System.Runtime.Serialization.StreamingContext @context)
         {
 
             var ___genericsType = new Type[] {};
@@ -1108,7 +1108,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
         }
 
 
-        public virtual void OnDeserialization(System.Object  @sender)
+        public virtual void OnDeserialization(System.Object @sender)
         {
 
             var ___genericsType = new Type[] {};
@@ -1119,7 +1119,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
         }
 
 
-        public static System.Reflection.AssemblyName GetAssemblyName(System.String  @assemblyFile)
+        public static System.Reflection.AssemblyName GetAssemblyName(System.String @assemblyFile)
         {
 
             var ___genericsType = new Type[] {};
@@ -1130,7 +1130,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
         }
 
 
-        public virtual void System__2__Runtime__2__InteropServices__2___AssemblyName__2__GetIDsOfNames(in System.Guid  @riid, System.IntPtr  @rgszNames, System.UInt32  @cNames, System.UInt32  @lcid, System.IntPtr  @rgDispId)
+        public virtual void System__2__Runtime__2__InteropServices__2___AssemblyName__2__GetIDsOfNames(in System.Guid @riid, System.IntPtr @rgszNames, System.UInt32 @cNames, System.UInt32 @lcid, System.IntPtr @rgDispId)
         {
 
             var ___genericsType = new Type[] {};
@@ -1141,7 +1141,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
         }
 
 
-        public virtual void System__2__Runtime__2__InteropServices__2___AssemblyName__2__GetTypeInfo(System.UInt32  @iTInfo, System.UInt32  @lcid, System.IntPtr  @ppTInfo)
+        public virtual void System__2__Runtime__2__InteropServices__2___AssemblyName__2__GetTypeInfo(System.UInt32 @iTInfo, System.UInt32 @lcid, System.IntPtr @ppTInfo)
         {
 
             var ___genericsType = new Type[] {};
@@ -1152,7 +1152,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
         }
 
 
-        public virtual void System__2__Runtime__2__InteropServices__2___AssemblyName__2__GetTypeInfoCount(out System.UInt32  @pcTInfo)
+        public virtual void System__2__Runtime__2__InteropServices__2___AssemblyName__2__GetTypeInfoCount(out System.UInt32 @pcTInfo)
         {
 			@pcTInfo = default;
 
@@ -1165,7 +1165,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
         }
 
 
-        public virtual void System__2__Runtime__2__InteropServices__2___AssemblyName__2__Invoke(System.UInt32  @dispIdMember, in System.Guid  @riid, System.UInt32  @lcid, System.Int16  @wFlags, System.IntPtr  @pDispParams, System.IntPtr  @pVarResult, System.IntPtr  @pExcepInfo, System.IntPtr  @puArgErr)
+        public virtual void System__2__Runtime__2__InteropServices__2___AssemblyName__2__Invoke(System.UInt32 @dispIdMember, in System.Guid @riid, System.UInt32 @lcid, System.Int16 @wFlags, System.IntPtr @pDispParams, System.IntPtr @pVarResult, System.IntPtr @pExcepInfo, System.IntPtr @puArgErr)
         {
 
             var ___genericsType = new Type[] {};
@@ -1178,7 +1178,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 
 
 
-        public static System.Reflection.AssemblyName Create(System.Reflection.Assembly  @assembly, System.Boolean  @fillCodebase)
+        public static System.Reflection.AssemblyName Create(System.Reflection.Assembly @assembly, System.Boolean @fillCodebase)
         {
 
             var ___genericsType = new Type[] {};
@@ -1189,7 +1189,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

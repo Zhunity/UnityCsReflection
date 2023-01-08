@@ -249,7 +249,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 	    {
 	    }
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};
@@ -260,7 +260,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
         }
 
 
-        public virtual System.Boolean Equals(RUnityEngine.RUIElements.RUIR.RTextCoreSettings  @other)
+        public virtual System.Boolean Equals(RUnityEngine.RUIElements.RUIR.RTextCoreSettings @other)
         {
 
             var ___genericsType = new Type[] {};

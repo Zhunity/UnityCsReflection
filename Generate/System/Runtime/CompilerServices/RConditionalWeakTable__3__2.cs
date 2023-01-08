@@ -548,7 +548,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RCompilerServices
         }
 
 
-        public virtual void AddOrUpdate(TKey  @key, TValue  @value)
+        public virtual void AddOrUpdate(TKey @key, TValue @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -559,7 +559,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RCompilerServices
         }
 
 
-        public virtual void Add(TKey  @key, TValue  @value)
+        public virtual void Add(TKey @key, TValue @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -570,7 +570,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RCompilerServices
         }
 
 
-        public virtual System.Boolean Remove(TKey  @key)
+        public virtual System.Boolean Remove(TKey @key)
         {
 
             var ___genericsType = new Type[] {};
@@ -581,7 +581,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RCompilerServices
         }
 
 
-        public virtual System.Boolean TryGetValue(TKey  @key, out TValue  @value)
+        public virtual System.Boolean TryGetValue(TKey @key, out TValue @value)
         {
 			@value = default;
 
@@ -594,7 +594,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RCompilerServices
         }
 
 
-        public virtual TValue GetOrCreateValue(TKey  @key)
+        public virtual TValue GetOrCreateValue(TKey @key)
         {
 
             var ___genericsType = new Type[] {};
@@ -605,7 +605,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RCompilerServices
         }
 
 
-        public virtual TValue GetValue(TKey  @key, RSystem.RRuntime.RCompilerServices.RConditionalWeakTable<RType, RType>.RCreateValueCallback  @createValueCallback)
+        public virtual TValue GetValue(TKey @key, RSystem.RRuntime.RCompilerServices.RConditionalWeakTable<RType, RType>.RCreateValueCallback @createValueCallback)
         {
 
             var ___genericsType = new Type[] {};
@@ -616,7 +616,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RCompilerServices
         }
 
 
-        public virtual TKey FindEquivalentKeyUnsafe(TKey  @key, out TValue  @value)
+        public virtual TKey FindEquivalentKeyUnsafe(TKey @key, out TValue @value)
         {
 			@value = default;
 
@@ -662,7 +662,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RCompilerServices
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

@@ -912,7 +912,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 	    {
 	    }
 
-        public virtual System.Text.RegularExpressions.Match Scan(System.Text.RegularExpressions.Regex  @regex, System.String  @text, System.Int32  @textbeg, System.Int32  @textend, System.Int32  @textstart, System.Int32  @prevlen, System.Boolean  @quick)
+        public virtual System.Text.RegularExpressions.Match Scan(System.Text.RegularExpressions.Regex @regex, System.String @text, System.Int32 @textbeg, System.Int32 @textend, System.Int32 @textstart, System.Int32 @prevlen, System.Boolean @quick)
         {
 
             var ___genericsType = new Type[] {};
@@ -923,7 +923,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
         }
 
 
-        public virtual System.Text.RegularExpressions.Match Scan(System.Text.RegularExpressions.Regex  @regex, System.String  @text, System.Int32  @textbeg, System.Int32  @textend, System.Int32  @textstart, System.Int32  @prevlen, System.Boolean  @quick, System.TimeSpan  @timeout)
+        public virtual System.Text.RegularExpressions.Match Scan(System.Text.RegularExpressions.Regex @regex, System.String @text, System.Int32 @textbeg, System.Int32 @textend, System.Int32 @textstart, System.Int32 @prevlen, System.Boolean @quick, System.TimeSpan @timeout)
         {
 
             var ___genericsType = new Type[] {};
@@ -1011,7 +1011,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
         }
 
 
-        public virtual System.Text.RegularExpressions.Match TidyMatch(System.Boolean  @quick)
+        public virtual System.Text.RegularExpressions.Match TidyMatch(System.Boolean @quick)
         {
 
             var ___genericsType = new Type[] {};
@@ -1033,7 +1033,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
         }
 
 
-        public virtual System.Boolean IsBoundary(System.Int32  @index, System.Int32  @startpos, System.Int32  @endpos)
+        public virtual System.Boolean IsBoundary(System.Int32 @index, System.Int32 @startpos, System.Int32 @endpos)
         {
 
             var ___genericsType = new Type[] {};
@@ -1044,7 +1044,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
         }
 
 
-        public virtual System.Boolean IsECMABoundary(System.Int32  @index, System.Int32  @startpos, System.Int32  @endpos)
+        public virtual System.Boolean IsECMABoundary(System.Int32 @index, System.Int32 @startpos, System.Int32 @endpos)
         {
 
             var ___genericsType = new Type[] {};
@@ -1055,7 +1055,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
         }
 
 
-        public static System.Boolean CharInSet(System.Char  @ch, System.String  @set, System.String  @category)
+        public static System.Boolean CharInSet(System.Char @ch, System.String @set, System.String @category)
         {
 
             var ___genericsType = new Type[] {};
@@ -1066,7 +1066,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
         }
 
 
-        public static System.Boolean CharInClass(System.Char  @ch, System.String  @charClass)
+        public static System.Boolean CharInClass(System.Char @ch, System.String @charClass)
         {
 
             var ___genericsType = new Type[] {};
@@ -1110,7 +1110,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
         }
 
 
-        public virtual void Crawl(System.Int32  @i)
+        public virtual void Crawl(System.Int32 @i)
         {
 
             var ___genericsType = new Type[] {};
@@ -1143,7 +1143,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
         }
 
 
-        public virtual void Capture(System.Int32  @capnum, System.Int32  @start, System.Int32  @end)
+        public virtual void Capture(System.Int32 @capnum, System.Int32 @start, System.Int32 @end)
         {
 
             var ___genericsType = new Type[] {};
@@ -1154,7 +1154,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
         }
 
 
-        public virtual void TransferCapture(System.Int32  @capnum, System.Int32  @uncapnum, System.Int32  @start, System.Int32  @end)
+        public virtual void TransferCapture(System.Int32 @capnum, System.Int32 @uncapnum, System.Int32 @start, System.Int32 @end)
         {
 
             var ___genericsType = new Type[] {};
@@ -1176,7 +1176,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
         }
 
 
-        public virtual System.Boolean IsMatched(System.Int32  @cap)
+        public virtual System.Boolean IsMatched(System.Int32 @cap)
         {
 
             var ___genericsType = new Type[] {};
@@ -1187,7 +1187,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
         }
 
 
-        public virtual System.Int32 MatchIndex(System.Int32  @cap)
+        public virtual System.Int32 MatchIndex(System.Int32 @cap)
         {
 
             var ___genericsType = new Type[] {};
@@ -1198,7 +1198,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
         }
 
 
-        public virtual System.Int32 MatchLength(System.Int32  @cap)
+        public virtual System.Int32 MatchLength(System.Int32 @cap)
         {
 
             var ___genericsType = new Type[] {};
@@ -1209,7 +1209,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

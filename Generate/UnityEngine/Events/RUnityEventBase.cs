@@ -951,7 +951,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.REvents
         }
 
 
-        public virtual System.Reflection.MethodInfo FindMethod_Impl(System.String  @name, System.Object  @targetObj)
+        public virtual System.Reflection.MethodInfo FindMethod_Impl(System.String @name, System.Object @targetObj)
         {
 
             var ___genericsType = new Type[] {};
@@ -962,7 +962,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.REvents
         }
 
 
-        public virtual System.Reflection.MethodInfo FindMethod_Impl(System.String  @name, System.Type  @targetObjType)
+        public virtual System.Reflection.MethodInfo FindMethod_Impl(System.String @name, System.Type @targetObjType)
         {
 
             var ___genericsType = new Type[] {};
@@ -973,19 +973,29 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.REvents
         }
 
 
-        public virtual System.Object GetDelegate(System.Object  @target, System.Reflection.MethodInfo  @theFunction)
+        public virtual RUnityEngine.REvents.RBaseInvokableCall GetDelegate(System.Object @target, System.Reflection.MethodInfo @theFunction)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@target, @theFunction};
             var ___result = RGetDelegate_Object_MethodInfo.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RUnityEngine.REvents.RBaseInvokableCall(___result);
         }
 
 
+        public virtual System.Reflection.MethodInfo FindMethod(RUnityEngine.REvents.RPersistentCall @call)
+        {
 
-        public virtual System.Reflection.MethodInfo FindMethod(System.String  @name, System.Type  @listenerType, UnityEngine.Events.PersistentListenerMode  @mode, System.Type  @argumentType)
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@call.Value};
+            var ___result = RFindMethod_PersistentCall.Invoke(___genericsType, ___parameters);
+
+            return (System.Reflection.MethodInfo)___result;
+        }
+
+
+        public virtual System.Reflection.MethodInfo FindMethod(System.String @name, System.Type @listenerType, UnityEngine.Events.PersistentListenerMode @mode, System.Type @argumentType)
         {
 
             var ___genericsType = new Type[] {};
@@ -1007,7 +1017,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.REvents
         }
 
 
-        public virtual UnityEngine.Object GetPersistentTarget(System.Int32  @index)
+        public virtual UnityEngine.Object GetPersistentTarget(System.Int32 @index)
         {
 
             var ___genericsType = new Type[] {};
@@ -1018,7 +1028,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.REvents
         }
 
 
-        public virtual System.String GetPersistentMethodName(System.Int32  @index)
+        public virtual System.String GetPersistentMethodName(System.Int32 @index)
         {
 
             var ___genericsType = new Type[] {};
@@ -1051,7 +1061,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.REvents
         }
 
 
-        public virtual void SetPersistentListenerState(System.Int32  @index, UnityEngine.Events.UnityEventCallState  @state)
+        public virtual void SetPersistentListenerState(System.Int32 @index, UnityEngine.Events.UnityEventCallState @state)
         {
 
             var ___genericsType = new Type[] {};
@@ -1062,7 +1072,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.REvents
         }
 
 
-        public virtual UnityEngine.Events.UnityEventCallState GetPersistentListenerState(System.Int32  @index)
+        public virtual UnityEngine.Events.UnityEventCallState GetPersistentListenerState(System.Int32 @index)
         {
 
             var ___genericsType = new Type[] {};
@@ -1073,7 +1083,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.REvents
         }
 
 
-        public virtual void AddListener(System.Object  @targetObj, System.Reflection.MethodInfo  @method)
+        public virtual void AddListener(System.Object @targetObj, System.Reflection.MethodInfo @method)
         {
 
             var ___genericsType = new Type[] {};
@@ -1084,8 +1094,18 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.REvents
         }
 
 
+        public virtual void AddCall(RUnityEngine.REvents.RBaseInvokableCall @call)
+        {
 
-        public virtual void RemoveListener(System.Object  @targetObj, System.Reflection.MethodInfo  @method)
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@call.Value};
+            var ___result = RAddCall_BaseInvokableCall.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void RemoveListener(System.Object @targetObj, System.Reflection.MethodInfo @method)
         {
 
             var ___genericsType = new Type[] {};
@@ -1107,18 +1127,18 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.REvents
         }
 
 
-        public virtual System.Object PrepareInvoke()
+        public virtual RSystem.RCollections.RGeneric.RList<RUnityEngine.REvents.RBaseInvokableCall> PrepareInvoke()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RPrepareInvoke.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RSystem.RCollections.RGeneric.RList<RUnityEngine.REvents.RBaseInvokableCall>(___result);
         }
 
 
-        public virtual void Invoke(System.Object[]  @parameters)
+        public virtual void Invoke(System.Object[] @parameters)
         {
 
             var ___genericsType = new Type[] {};
@@ -1140,7 +1160,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.REvents
         }
 
 
-        public static System.Reflection.MethodInfo GetValidMethodInfo(System.Object  @obj, System.String  @functionName, System.Type[]  @argumentTypes)
+        public static System.Reflection.MethodInfo GetValidMethodInfo(System.Object @obj, System.String @functionName, System.Type[] @argumentTypes)
         {
 
             var ___genericsType = new Type[] {};
@@ -1151,7 +1171,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.REvents
         }
 
 
-        public static System.Reflection.MethodInfo GetValidMethodInfo(System.Type  @objectType, System.String  @functionName, System.Type[]  @argumentTypes)
+        public static System.Reflection.MethodInfo GetValidMethodInfo(System.Type @objectType, System.String @functionName, System.Type[] @argumentTypes)
         {
 
             var ___genericsType = new Type[] {};
@@ -1162,7 +1182,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.REvents
         }
 
 
-        public virtual System.Boolean ValidateRegistration(System.Reflection.MethodInfo  @method, System.Object  @targetObj, UnityEngine.Events.PersistentListenerMode  @mode)
+        public virtual System.Boolean ValidateRegistration(System.Reflection.MethodInfo @method, System.Object @targetObj, UnityEngine.Events.PersistentListenerMode @mode)
         {
 
             var ___genericsType = new Type[] {};
@@ -1173,7 +1193,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.REvents
         }
 
 
-        public virtual System.Boolean ValidateRegistration(System.Reflection.MethodInfo  @method, System.Object  @targetObj, UnityEngine.Events.PersistentListenerMode  @mode, System.Type  @argumentType)
+        public virtual System.Boolean ValidateRegistration(System.Reflection.MethodInfo @method, System.Object @targetObj, UnityEngine.Events.PersistentListenerMode @mode, System.Type @argumentType)
         {
 
             var ___genericsType = new Type[] {};
@@ -1195,7 +1215,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.REvents
         }
 
 
-        public virtual void RegisterPersistentListener(System.Int32  @index, System.Object  @targetObj, System.Reflection.MethodInfo  @method)
+        public virtual void RegisterPersistentListener(System.Int32 @index, System.Object @targetObj, System.Reflection.MethodInfo @method)
         {
 
             var ___genericsType = new Type[] {};
@@ -1206,7 +1226,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.REvents
         }
 
 
-        public virtual void RegisterPersistentListener(System.Int32  @index, System.Object  @targetObj, System.Type  @targetObjType, System.Reflection.MethodInfo  @method)
+        public virtual void RegisterPersistentListener(System.Int32 @index, System.Object @targetObj, System.Type @targetObjType, System.Reflection.MethodInfo @method)
         {
 
             var ___genericsType = new Type[] {};
@@ -1217,7 +1237,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.REvents
         }
 
 
-        public virtual void RemovePersistentListener(UnityEngine.Object  @target, System.Reflection.MethodInfo  @method)
+        public virtual void RemovePersistentListener(UnityEngine.Object @target, System.Reflection.MethodInfo @method)
         {
 
             var ___genericsType = new Type[] {};
@@ -1228,7 +1248,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.REvents
         }
 
 
-        public virtual void RemovePersistentListener(System.Int32  @index)
+        public virtual void RemovePersistentListener(System.Int32 @index)
         {
 
             var ___genericsType = new Type[] {};
@@ -1239,7 +1259,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.REvents
         }
 
 
-        public virtual void UnregisterPersistentListener(System.Int32  @index)
+        public virtual void UnregisterPersistentListener(System.Int32 @index)
         {
 
             var ___genericsType = new Type[] {};
@@ -1250,7 +1270,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.REvents
         }
 
 
-        public virtual void AddVoidPersistentListener(UnityEngine.Events.UnityAction  @call)
+        public virtual void AddVoidPersistentListener(UnityEngine.Events.UnityAction @call)
         {
 
             var ___genericsType = new Type[] {};
@@ -1261,7 +1281,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.REvents
         }
 
 
-        public virtual void RegisterVoidPersistentListener(System.Int32  @index, UnityEngine.Events.UnityAction  @call)
+        public virtual void RegisterVoidPersistentListener(System.Int32 @index, UnityEngine.Events.UnityAction @call)
         {
 
             var ___genericsType = new Type[] {};
@@ -1272,7 +1292,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.REvents
         }
 
 
-        public virtual void RegisterVoidPersistentListenerWithoutValidation(System.Int32  @index, UnityEngine.Object  @target, System.String  @methodName)
+        public virtual void RegisterVoidPersistentListenerWithoutValidation(System.Int32 @index, UnityEngine.Object @target, System.String @methodName)
         {
 
             var ___genericsType = new Type[] {};
@@ -1283,7 +1303,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.REvents
         }
 
 
-        public virtual void RegisterVoidPersistentListenerWithoutValidation(System.Int32  @index, UnityEngine.Object  @target, System.Type  @targetType, System.String  @methodName)
+        public virtual void RegisterVoidPersistentListenerWithoutValidation(System.Int32 @index, UnityEngine.Object @target, System.Type @targetType, System.String @methodName)
         {
 
             var ___genericsType = new Type[] {};
@@ -1294,7 +1314,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.REvents
         }
 
 
-        public virtual void AddIntPersistentListener(UnityEngine.Events.UnityAction<System.Int32>  @call, System.Int32  @argument)
+        public virtual void AddIntPersistentListener(UnityEngine.Events.UnityAction<System.Int32> @call, System.Int32 @argument)
         {
 
             var ___genericsType = new Type[] {};
@@ -1305,7 +1325,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.REvents
         }
 
 
-        public virtual void RegisterIntPersistentListener(System.Int32  @index, UnityEngine.Events.UnityAction<System.Int32>  @call, System.Int32  @argument)
+        public virtual void RegisterIntPersistentListener(System.Int32 @index, UnityEngine.Events.UnityAction<System.Int32> @call, System.Int32 @argument)
         {
 
             var ___genericsType = new Type[] {};
@@ -1316,7 +1336,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.REvents
         }
 
 
-        public virtual void AddFloatPersistentListener(UnityEngine.Events.UnityAction<System.Single>  @call, System.Single  @argument)
+        public virtual void AddFloatPersistentListener(UnityEngine.Events.UnityAction<System.Single> @call, System.Single @argument)
         {
 
             var ___genericsType = new Type[] {};
@@ -1327,7 +1347,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.REvents
         }
 
 
-        public virtual void RegisterFloatPersistentListener(System.Int32  @index, UnityEngine.Events.UnityAction<System.Single>  @call, System.Single  @argument)
+        public virtual void RegisterFloatPersistentListener(System.Int32 @index, UnityEngine.Events.UnityAction<System.Single> @call, System.Single @argument)
         {
 
             var ___genericsType = new Type[] {};
@@ -1338,7 +1358,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.REvents
         }
 
 
-        public virtual void AddBoolPersistentListener(UnityEngine.Events.UnityAction<System.Boolean>  @call, System.Boolean  @argument)
+        public virtual void AddBoolPersistentListener(UnityEngine.Events.UnityAction<System.Boolean> @call, System.Boolean @argument)
         {
 
             var ___genericsType = new Type[] {};
@@ -1349,7 +1369,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.REvents
         }
 
 
-        public virtual void RegisterBoolPersistentListener(System.Int32  @index, UnityEngine.Events.UnityAction<System.Boolean>  @call, System.Boolean  @argument)
+        public virtual void RegisterBoolPersistentListener(System.Int32 @index, UnityEngine.Events.UnityAction<System.Boolean> @call, System.Boolean @argument)
         {
 
             var ___genericsType = new Type[] {};
@@ -1360,7 +1380,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.REvents
         }
 
 
-        public virtual void AddStringPersistentListener(UnityEngine.Events.UnityAction<System.String>  @call, System.String  @argument)
+        public virtual void AddStringPersistentListener(UnityEngine.Events.UnityAction<System.String> @call, System.String @argument)
         {
 
             var ___genericsType = new Type[] {};
@@ -1371,7 +1391,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.REvents
         }
 
 
-        public virtual void RegisterStringPersistentListener(System.Int32  @index, UnityEngine.Events.UnityAction<System.String>  @call, System.String  @argument)
+        public virtual void RegisterStringPersistentListener(System.Int32 @index, UnityEngine.Events.UnityAction<System.String> @call, System.String @argument)
         {
 
             var ___genericsType = new Type[] {};
@@ -1382,7 +1402,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.REvents
         }
 
 
-        public virtual void AddObjectPersistentListener<T>(UnityEngine.Events.UnityAction<T>  @call, T  @argument) where T : UnityEngine.Object
+        public virtual void AddObjectPersistentListener<T>(UnityEngine.Events.UnityAction<T> @call, T @argument) where T : UnityEngine.Object
         {
 
             var ___genericsType = new Type[] {typeof(T)};
@@ -1393,7 +1413,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.REvents
         }
 
 
-        public virtual void RegisterObjectPersistentListener<T>(System.Int32  @index, UnityEngine.Events.UnityAction<T>  @call, T  @argument) where T : UnityEngine.Object
+        public virtual void RegisterObjectPersistentListener<T>(System.Int32 @index, UnityEngine.Events.UnityAction<T> @call, T @argument) where T : UnityEngine.Object
         {
 
             var ___genericsType = new Type[] {typeof(T)};
@@ -1404,7 +1424,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.REvents
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

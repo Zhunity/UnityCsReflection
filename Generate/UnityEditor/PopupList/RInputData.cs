@@ -392,29 +392,29 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual System.Object BuildQuery(System.String  @prefix)
+        public virtual RSystem.RCollections.RGeneric.RIEnumerable<RUnityEditor.RPopupList.RListElement> BuildQuery(System.String @prefix)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@prefix};
             var ___result = RBuildQuery_String.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RSystem.RCollections.RGeneric.RIEnumerable<RUnityEditor.RPopupList.RListElement>(___result);
         }
 
 
-        public virtual System.Object GetFilteredList(System.String  @prefix)
+        public virtual RSystem.RCollections.RGeneric.RIEnumerable<RUnityEditor.RPopupList.RListElement> GetFilteredList(System.String @prefix)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@prefix};
             var ___result = RGetFilteredList_String.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RSystem.RCollections.RGeneric.RIEnumerable<RUnityEditor.RPopupList.RListElement>(___result);
         }
 
 
-        public virtual System.Int32 GetFilteredCount(System.String  @prefix)
+        public virtual System.Int32 GetFilteredCount(System.String @prefix)
         {
 
             var ___genericsType = new Type[] {};
@@ -425,7 +425,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual void AddElement(System.String  @label, System.String[]  @types)
+        public virtual void AddElement(System.String @label, System.String[] @types)
         {
 
             var ___genericsType = new Type[] {};
@@ -436,18 +436,18 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual System.Object NewOrMatchingElement(System.String  @label)
+        public virtual RUnityEditor.RPopupList.RListElement NewOrMatchingElement(System.String @label)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@label};
             var ___result = RNewOrMatchingElement_String.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RUnityEditor.RPopupList.RListElement(___result);
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

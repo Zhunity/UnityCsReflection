@@ -470,7 +470,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 	    {
 	    }
 
-        public static UnityEngine.GUIContent Temp(System.String  @t)
+        public static UnityEngine.GUIContent Temp(System.String @t)
         {
 
             var ___genericsType = new Type[] {};
@@ -481,7 +481,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.GUIContent Temp(System.String  @t, System.String  @tooltip)
+        public static UnityEngine.GUIContent Temp(System.String @t, System.String @tooltip)
         {
 
             var ___genericsType = new Type[] {};
@@ -492,7 +492,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.GUIContent Temp(UnityEngine.Texture  @i)
+        public static UnityEngine.GUIContent Temp(UnityEngine.Texture @i)
         {
 
             var ___genericsType = new Type[] {};
@@ -503,7 +503,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.GUIContent Temp(UnityEngine.Texture  @i, System.String  @tooltip)
+        public static UnityEngine.GUIContent Temp(UnityEngine.Texture @i, System.String @tooltip)
         {
 
             var ___genericsType = new Type[] {};
@@ -514,7 +514,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.GUIContent Temp(System.String  @t, UnityEngine.Texture  @i)
+        public static UnityEngine.GUIContent Temp(System.String @t, UnityEngine.Texture @i)
         {
 
             var ___genericsType = new Type[] {};
@@ -536,7 +536,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.GUIContent[] Temp(System.String[]  @texts)
+        public static UnityEngine.GUIContent[] Temp(System.String[] @texts)
         {
 
             var ___genericsType = new Type[] {};
@@ -547,7 +547,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.GUIContent[] Temp(UnityEngine.Texture[]  @images)
+        public static UnityEngine.GUIContent[] Temp(UnityEngine.Texture[] @images)
         {
 
             var ___genericsType = new Type[] {};
@@ -569,7 +569,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

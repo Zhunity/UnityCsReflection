@@ -334,7 +334,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 	    {
 	    }
 
-        public virtual System.Boolean Fallback(System.Byte[]  @bytesUnknown, System.Int32  @index)
+        public virtual System.Boolean Fallback(System.Byte[] @bytesUnknown, System.Int32 @index)
         {
 
             var ___genericsType = new Type[] {};
@@ -392,7 +392,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 
 
 
-        public virtual void ThrowLastBytesRecursive(System.Byte[]  @bytesUnknown)
+        public virtual void ThrowLastBytesRecursive(System.Byte[] @bytesUnknown)
         {
 
             var ___genericsType = new Type[] {};
@@ -403,7 +403,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

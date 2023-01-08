@@ -351,18 +351,18 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 	    {
 	    }
 
-        public virtual System.Object Allocate(System.UInt32  @size)
+        public virtual RUnityEngine.RUIElements.RUIR.RAlloc Allocate(System.UInt32 @size)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@size};
             var ___result = RAllocate_UInt32.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RUnityEngine.RUIElements.RUIR.RAlloc(___result);
         }
 
 
-        public virtual void Free(RUnityEngine.RUIElements.RUIR.RAlloc  @alloc)
+        public virtual void Free(RUnityEngine.RUIElements.RUIR.RAlloc @alloc)
         {
 
             var ___genericsType = new Type[] {};
@@ -373,40 +373,40 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
         }
 
 
-        public virtual System.Object CoalesceBlockWithPrevious(RUnityEngine.RUIElements.RUIR.RBestFitAllocator.RBlock  @block)
+        public virtual RUnityEngine.RUIElements.RUIR.RBestFitAllocator.RBlock CoalesceBlockWithPrevious(RUnityEngine.RUIElements.RUIR.RBestFitAllocator.RBlock @block)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@block.Value};
             var ___result = RCoalesceBlockWithPrevious_Block.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RUnityEngine.RUIElements.RUIR.RBestFitAllocator.RBlock(___result);
         }
 
 
-        public virtual System.Object GatherStatistics()
+        public virtual RUnityEngine.RUIElements.RUIR.RHeapStatistics GatherStatistics()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RGatherStatistics.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RUnityEngine.RUIElements.RUIR.RHeapStatistics(___result);
         }
 
 
-        public virtual System.Object BestFitFindAvailableBlock(System.UInt32  @size)
+        public virtual RUnityEngine.RUIElements.RUIR.RBestFitAllocator.RBlock BestFitFindAvailableBlock(System.UInt32 @size)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@size};
             var ___result = RBestFitFindAvailableBlock_UInt32.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RUnityEngine.RUIElements.RUIR.RBestFitAllocator.RBlock(___result);
         }
 
 
-        public virtual void SplitBlock(RUnityEngine.RUIElements.RUIR.RBestFitAllocator.RBlock  @block, System.UInt32  @size)
+        public virtual void SplitBlock(RUnityEngine.RUIElements.RUIR.RBestFitAllocator.RBlock @block, System.UInt32 @size)
         {
 
             var ___genericsType = new Type[] {};
@@ -417,7 +417,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

@@ -458,7 +458,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
         }
 
 
-        public virtual void RebuildSearch(System.String  @search)
+        public virtual void RebuildSearch(System.String @search)
         {
 
             var ___genericsType = new Type[] {};
@@ -469,7 +469,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
         }
 
 
-        public virtual System.Boolean AddMatchItem(UnityEditor.IMGUI.Controls.AdvancedDropdownItem  @e, System.String  @name, System.String[]  @searchWords, System.Collections.Generic.List<UnityEditor.IMGUI.Controls.AdvancedDropdownItem>  @matchesStart, System.Collections.Generic.List<UnityEditor.IMGUI.Controls.AdvancedDropdownItem>  @matchesWithin)
+        public virtual System.Boolean AddMatchItem(UnityEditor.IMGUI.Controls.AdvancedDropdownItem @e, System.String @name, System.String[] @searchWords, System.Collections.Generic.List<UnityEditor.IMGUI.Controls.AdvancedDropdownItem> @matchesStart, System.Collections.Generic.List<UnityEditor.IMGUI.Controls.AdvancedDropdownItem> @matchesWithin)
         {
 
             var ___genericsType = new Type[] {};
@@ -480,7 +480,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
         }
 
 
-        public virtual UnityEditor.IMGUI.Controls.AdvancedDropdownItem Search(System.String  @searchString)
+        public virtual UnityEditor.IMGUI.Controls.AdvancedDropdownItem Search(System.String @searchString)
         {
 
             var ___genericsType = new Type[] {};
@@ -502,7 +502,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
         }
 
 
-        public virtual void BuildSearchableElements(UnityEditor.IMGUI.Controls.AdvancedDropdownItem  @item)
+        public virtual void BuildSearchableElements(UnityEditor.IMGUI.Controls.AdvancedDropdownItem @item)
         {
 
             var ___genericsType = new Type[] {};
@@ -513,7 +513,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

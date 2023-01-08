@@ -45,7 +45,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RLifetime
 	    {
 	    }
 
-        public virtual System.TimeSpan Renewal(System.Runtime.Remoting.Lifetime.ILease  @lease)
+        public virtual System.TimeSpan Renewal(System.Runtime.Remoting.Lifetime.ILease @lease)
         {
 
             var ___genericsType = new Type[] {};

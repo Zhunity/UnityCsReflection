@@ -249,7 +249,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 	    {
 	    }
 
-        public virtual System.Reflection.FieldInfo BindToField(System.Reflection.BindingFlags  @bindingAttr, System.Reflection.FieldInfo[]  @match, System.Object  @value, System.Globalization.CultureInfo  @culture)
+        public virtual System.Reflection.FieldInfo BindToField(System.Reflection.BindingFlags @bindingAttr, System.Reflection.FieldInfo[] @match, System.Object @value, System.Globalization.CultureInfo @culture)
         {
 
             var ___genericsType = new Type[] {};
@@ -260,7 +260,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
         }
 
 
-        public virtual System.Reflection.MethodBase BindToMethod(System.Reflection.BindingFlags  @bindingAttr, System.Reflection.MethodBase[]  @match, ref System.Object[]  @args, System.Reflection.ParameterModifier[]  @modifiers, System.Globalization.CultureInfo  @culture, System.String[]  @names, out System.Object  @state)
+        public virtual System.Reflection.MethodBase BindToMethod(System.Reflection.BindingFlags @bindingAttr, System.Reflection.MethodBase[] @match, ref System.Object[] @args, System.Reflection.ParameterModifier[] @modifiers, System.Globalization.CultureInfo @culture, System.String[] @names, out System.Object @state)
         {
 			@state = default;
 
@@ -274,7 +274,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
         }
 
 
-        public virtual System.Object ChangeType(System.Object  @value, System.Type  @type, System.Globalization.CultureInfo  @culture)
+        public virtual System.Object ChangeType(System.Object @value, System.Type @type, System.Globalization.CultureInfo @culture)
         {
 
             var ___genericsType = new Type[] {};
@@ -285,7 +285,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
         }
 
 
-        public virtual void ReorderArgumentArray(ref System.Object[]  @args, System.Object  @state)
+        public virtual void ReorderArgumentArray(ref System.Object[] @args, System.Object @state)
         {
 
             var ___genericsType = new Type[] {};
@@ -297,7 +297,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
         }
 
 
-        public virtual System.Reflection.MethodBase SelectMethod(System.Reflection.BindingFlags  @bindingAttr, System.Reflection.MethodBase[]  @match, System.Type[]  @types, System.Reflection.ParameterModifier[]  @modifiers)
+        public virtual System.Reflection.MethodBase SelectMethod(System.Reflection.BindingFlags @bindingAttr, System.Reflection.MethodBase[] @match, System.Type[] @types, System.Reflection.ParameterModifier[] @modifiers)
         {
 
             var ___genericsType = new Type[] {};
@@ -308,7 +308,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
         }
 
 
-        public virtual System.Reflection.PropertyInfo SelectProperty(System.Reflection.BindingFlags  @bindingAttr, System.Reflection.PropertyInfo[]  @match, System.Type  @returnType, System.Type[]  @indexes, System.Reflection.ParameterModifier[]  @modifiers)
+        public virtual System.Reflection.PropertyInfo SelectProperty(System.Reflection.BindingFlags @bindingAttr, System.Reflection.PropertyInfo[] @match, System.Type @returnType, System.Type[] @indexes, System.Reflection.ParameterModifier[] @modifiers)
         {
 
             var ___genericsType = new Type[] {};
@@ -319,7 +319,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
         }
 
 
-        public virtual System.Boolean CanChangeType(System.Object  @value, System.Type  @type, System.Globalization.CultureInfo  @culture)
+        public virtual System.Boolean CanChangeType(System.Object @value, System.Type @type, System.Globalization.CultureInfo @culture)
         {
 
             var ___genericsType = new Type[] {};
@@ -330,7 +330,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

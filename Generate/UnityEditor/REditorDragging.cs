@@ -419,7 +419,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 	    {
 	    }
 
-        public virtual void HandleDraggingToEditor(UnityEditor.Editor[]  @editors, System.Int32  @editorIndex, UnityEngine.Rect  @dragRect, UnityEngine.Rect  @contentRect)
+        public virtual void HandleDraggingToEditor(UnityEditor.Editor[] @editors, System.Int32 @editorIndex, UnityEngine.Rect @dragRect, UnityEngine.Rect @contentRect)
         {
 
             var ___genericsType = new Type[] {};
@@ -430,7 +430,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual void HandleDraggingInBottomArea(UnityEditor.Editor[]  @editors, UnityEngine.Rect  @bottomRect, UnityEngine.Rect  @contentRect)
+        public virtual void HandleDraggingInBottomArea(UnityEditor.Editor[] @editors, UnityEngine.Rect @bottomRect, UnityEngine.Rect @contentRect)
         {
 
             var ___genericsType = new Type[] {};
@@ -441,7 +441,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual void HandleDragPerformInBottomArea(UnityEditor.Editor[]  @editors, UnityEngine.Rect  @bottomRect, UnityEngine.Rect  @targetRect)
+        public virtual void HandleDragPerformInBottomArea(UnityEditor.Editor[] @editors, UnityEngine.Rect @bottomRect, UnityEngine.Rect @targetRect)
         {
 
             var ___genericsType = new Type[] {};
@@ -452,7 +452,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual void HandleNativeDragDropInBottomArea(UnityEditor.Editor[]  @editors, UnityEngine.Rect  @rect)
+        public virtual void HandleNativeDragDropInBottomArea(UnityEditor.Editor[] @editors, UnityEngine.Rect @rect)
         {
 
             var ___genericsType = new Type[] {};
@@ -463,7 +463,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual void HandleEditorDragging(UnityEditor.Editor[]  @editors, System.Int32  @editorIndex, UnityEngine.Rect  @targetRect, System.Single  @markerY, System.Boolean  @bottomTarget)
+        public virtual void HandleEditorDragging(UnityEditor.Editor[] @editors, System.Int32 @editorIndex, UnityEngine.Rect @targetRect, System.Single @markerY, System.Boolean @bottomTarget)
         {
 
             var ___genericsType = new Type[] {};
@@ -474,7 +474,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public static System.Boolean DraggingOverRect(UnityEngine.Rect  @rect)
+        public static System.Boolean DraggingOverRect(UnityEngine.Rect @rect)
         {
 
             var ___genericsType = new Type[] {};
@@ -485,19 +485,19 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual void HandleDragPerformEvent(UnityEditor.Editor[]  @editors, UnityEngine.Event  @evt, ref System.Int32  @targetIndex)
+        public virtual void HandleDragPerformEvent(UnityEditor.Editor[] @editors, UnityEngine.Event @evt, ref System.Int32 @targetIndex)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@editors, @evt, @targetIndex};
             var ___result = RHandleDragPerformEvent_EditorArray_Event_Ref_Int32.Invoke(___genericsType, ___parameters);
-			targetIndex = (System.Int32)___parameters[2];
+			@targetIndex = (System.Int32)___parameters[2];
 
             
         }
 
 
-        public virtual UnityEngine.Rect GetTargetRect(UnityEngine.Rect  @contentRect)
+        public virtual UnityEngine.Rect GetTargetRect(UnityEngine.Rect @contentRect)
         {
 
             var ___genericsType = new Type[] {};
@@ -508,7 +508,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public static UnityEngine.Rect GetMarkerRect(UnityEngine.Rect  @targetRect)
+        public static UnityEngine.Rect GetMarkerRect(UnityEngine.Rect @targetRect)
         {
 
             var ___genericsType = new Type[] {};
@@ -519,7 +519,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual System.Boolean MoveOrCopyComponents(UnityEngine.Component[]  @sourceComponents, UnityEngine.Component[]  @targetComponents, System.Boolean  @copy, System.Boolean  @validateOnly)
+        public virtual System.Boolean MoveOrCopyComponents(UnityEngine.Component[] @sourceComponents, UnityEngine.Component[] @targetComponents, System.Boolean @copy, System.Boolean @validateOnly)
         {
 
             var ___genericsType = new Type[] {};
@@ -530,7 +530,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

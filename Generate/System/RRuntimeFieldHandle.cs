@@ -328,7 +328,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual void GetObjectData(System.Runtime.Serialization.SerializationInfo  @info, System.Runtime.Serialization.StreamingContext  @context)
+        public virtual void GetObjectData(System.Runtime.Serialization.SerializationInfo @info, System.Runtime.Serialization.StreamingContext @context)
         {
 
             var ___genericsType = new Type[] {};
@@ -339,7 +339,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};
@@ -350,7 +350,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Boolean Equals(System.RuntimeFieldHandle  @handle)
+        public virtual System.Boolean Equals(System.RuntimeFieldHandle @handle)
         {
 
             var ___genericsType = new Type[] {};
@@ -372,7 +372,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Boolean op_Equality(System.RuntimeFieldHandle  @left, System.RuntimeFieldHandle  @right)
+        public static System.Boolean op_Equality(System.RuntimeFieldHandle @left, System.RuntimeFieldHandle @right)
         {
 
             var ___genericsType = new Type[] {};
@@ -383,7 +383,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Boolean op_Inequality(System.RuntimeFieldHandle  @left, System.RuntimeFieldHandle  @right)
+        public static System.Boolean op_Inequality(System.RuntimeFieldHandle @left, System.RuntimeFieldHandle @right)
         {
 
             var ___genericsType = new Type[] {};
@@ -394,7 +394,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static void SetValueInternal(System.Reflection.FieldInfo  @fi, System.Object  @obj, System.Object  @value)
+        public static void SetValueInternal(System.Reflection.FieldInfo @fi, System.Object @obj, System.Object @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -405,7 +405,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static void SetValue(RSystem.RReflection.RRuntimeFieldInfo  @field, System.Object  @obj, System.Object  @value, RSystem.RRuntimeType  @fieldType, System.Reflection.FieldAttributes  @fieldAttr, RSystem.RRuntimeType  @declaringType, ref System.Boolean  @domainInitialized)
+        public static void SetValue(RSystem.RReflection.RRuntimeFieldInfo @field, System.Object @obj, System.Object @value, RSystem.RRuntimeType @fieldType, System.Reflection.FieldAttributes @fieldAttr, RSystem.RRuntimeType @declaringType, ref System.Boolean @domainInitialized)
         {
 
             var ___genericsType = new Type[] {};

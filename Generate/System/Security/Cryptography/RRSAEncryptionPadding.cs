@@ -453,7 +453,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
 	    {
 	    }
 
-        public static System.Security.Cryptography.RSAEncryptionPadding CreateOaep(System.Security.Cryptography.HashAlgorithmName  @hashAlgorithm)
+        public static System.Security.Cryptography.RSAEncryptionPadding CreateOaep(System.Security.Cryptography.HashAlgorithmName @hashAlgorithm)
         {
 
             var ___genericsType = new Type[] {};
@@ -475,7 +475,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
         }
 
 
-        public static System.Int32 CombineHashCodes(System.Int32  @h1, System.Int32  @h2)
+        public static System.Int32 CombineHashCodes(System.Int32 @h1, System.Int32 @h2)
         {
 
             var ___genericsType = new Type[] {};
@@ -486,7 +486,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};
@@ -497,7 +497,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
         }
 
 
-        public virtual System.Boolean Equals(System.Security.Cryptography.RSAEncryptionPadding  @other)
+        public virtual System.Boolean Equals(System.Security.Cryptography.RSAEncryptionPadding @other)
         {
 
             var ___genericsType = new Type[] {};
@@ -508,7 +508,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
         }
 
 
-        public static System.Boolean op_Equality(System.Security.Cryptography.RSAEncryptionPadding  @left, System.Security.Cryptography.RSAEncryptionPadding  @right)
+        public static System.Boolean op_Equality(System.Security.Cryptography.RSAEncryptionPadding @left, System.Security.Cryptography.RSAEncryptionPadding @right)
         {
 
             var ___genericsType = new Type[] {};
@@ -519,7 +519,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
         }
 
 
-        public static System.Boolean op_Inequality(System.Security.Cryptography.RSAEncryptionPadding  @left, System.Security.Cryptography.RSAEncryptionPadding  @right)
+        public static System.Boolean op_Inequality(System.Security.Cryptography.RSAEncryptionPadding @left, System.Security.Cryptography.RSAEncryptionPadding @right)
         {
 
             var ___genericsType = new Type[] {};

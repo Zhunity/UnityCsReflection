@@ -413,7 +413,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
         }
 
 
-        public static void LoadLineBreakingRules(UnityEngine.TextAsset  @leadingRules, UnityEngine.TextAsset  @followingRules)
+        public static void LoadLineBreakingRules(UnityEngine.TextAsset @leadingRules, UnityEngine.TextAsset @followingRules)
         {
 
             var ___genericsType = new Type[] {};
@@ -424,7 +424,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
         }
 
 
-        public static System.Collections.Generic.HashSet<System.UInt32> GetCharacters(UnityEngine.TextAsset  @file)
+        public static System.Collections.Generic.HashSet<System.UInt32> GetCharacters(UnityEngine.TextAsset @file)
         {
 
             var ___genericsType = new Type[] {};
@@ -435,7 +435,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

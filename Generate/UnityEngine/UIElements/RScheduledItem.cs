@@ -413,7 +413,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void SetDuration(System.Int64  @durationMs)
+        public virtual void SetDuration(System.Int64 @durationMs)
         {
 
             var ___genericsType = new Type[] {};
@@ -424,7 +424,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void PerformTimerUpdate(UnityEngine.UIElements.TimerState  @state)
+        public virtual void PerformTimerUpdate(UnityEngine.UIElements.TimerState @state)
         {
 
             var ___genericsType = new Type[] {};
@@ -457,7 +457,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

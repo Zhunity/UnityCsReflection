@@ -436,7 +436,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 	    {
 	    }
 
-        public virtual void SetNormalAndPosition(UnityEngine.Vector3  @inNormal, UnityEngine.Vector3  @inPoint)
+        public virtual void SetNormalAndPosition(UnityEngine.Vector3 @inNormal, UnityEngine.Vector3 @inPoint)
         {
 
             var ___genericsType = new Type[] {};
@@ -447,7 +447,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void Set3Points(UnityEngine.Vector3  @a, UnityEngine.Vector3  @b, UnityEngine.Vector3  @c)
+        public virtual void Set3Points(UnityEngine.Vector3 @a, UnityEngine.Vector3 @b, UnityEngine.Vector3 @c)
         {
 
             var ___genericsType = new Type[] {};
@@ -469,7 +469,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void Translate(UnityEngine.Vector3  @translation)
+        public virtual void Translate(UnityEngine.Vector3 @translation)
         {
 
             var ___genericsType = new Type[] {};
@@ -480,7 +480,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.Plane Translate(UnityEngine.Plane  @plane, UnityEngine.Vector3  @translation)
+        public static UnityEngine.Plane Translate(UnityEngine.Plane @plane, UnityEngine.Vector3 @translation)
         {
 
             var ___genericsType = new Type[] {};
@@ -491,7 +491,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual UnityEngine.Vector3 ClosestPointOnPlane(UnityEngine.Vector3  @point)
+        public virtual UnityEngine.Vector3 ClosestPointOnPlane(UnityEngine.Vector3 @point)
         {
 
             var ___genericsType = new Type[] {};
@@ -502,7 +502,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Single GetDistanceToPoint(UnityEngine.Vector3  @point)
+        public virtual System.Single GetDistanceToPoint(UnityEngine.Vector3 @point)
         {
 
             var ___genericsType = new Type[] {};
@@ -513,7 +513,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Boolean GetSide(UnityEngine.Vector3  @point)
+        public virtual System.Boolean GetSide(UnityEngine.Vector3 @point)
         {
 
             var ___genericsType = new Type[] {};
@@ -524,7 +524,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Boolean SameSide(UnityEngine.Vector3  @inPt0, UnityEngine.Vector3  @inPt1)
+        public virtual System.Boolean SameSide(UnityEngine.Vector3 @inPt0, UnityEngine.Vector3 @inPt1)
         {
 
             var ___genericsType = new Type[] {};
@@ -535,7 +535,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Boolean Raycast(UnityEngine.Ray  @ray, out System.Single  @enter)
+        public virtual System.Boolean Raycast(UnityEngine.Ray @ray, out System.Single @enter)
         {
 			@enter = default;
 
@@ -559,7 +559,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.String ToString(System.String  @format)
+        public virtual System.String ToString(System.String @format)
         {
 
             var ___genericsType = new Type[] {};
@@ -570,7 +570,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.String ToString(System.String  @format, System.IFormatProvider  @formatProvider)
+        public virtual System.String ToString(System.String @format, System.IFormatProvider @formatProvider)
         {
 
             var ___genericsType = new Type[] {};
@@ -581,7 +581,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

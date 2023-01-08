@@ -436,7 +436,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 	    {
 	    }
 
-        public static System.Boolean IsValidKind(System.Reflection.ExceptionHandlingClauseOptions  @kind)
+        public static System.Boolean IsValidKind(System.Reflection.ExceptionHandlingClauseOptions @kind)
         {
 
             var ___genericsType = new Type[] {};
@@ -458,7 +458,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};
@@ -469,7 +469,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual System.Boolean Equals(System.Reflection.Emit.ExceptionHandler  @other)
+        public virtual System.Boolean Equals(System.Reflection.Emit.ExceptionHandler @other)
         {
 
             var ___genericsType = new Type[] {};
@@ -480,7 +480,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public static System.Boolean op_Equality(System.Reflection.Emit.ExceptionHandler  @left, System.Reflection.Emit.ExceptionHandler  @right)
+        public static System.Boolean op_Equality(System.Reflection.Emit.ExceptionHandler @left, System.Reflection.Emit.ExceptionHandler @right)
         {
 
             var ___genericsType = new Type[] {};
@@ -491,7 +491,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public static System.Boolean op_Inequality(System.Reflection.Emit.ExceptionHandler  @left, System.Reflection.Emit.ExceptionHandler  @right)
+        public static System.Boolean op_Inequality(System.Reflection.Emit.ExceptionHandler @left, System.Reflection.Emit.ExceptionHandler @right)
         {
 
             var ___genericsType = new Type[] {};

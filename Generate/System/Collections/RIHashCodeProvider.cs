@@ -45,7 +45,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections
 	    {
 	    }
 
-        public virtual System.Int32 GetHashCode(System.Object  @obj)
+        public virtual System.Int32 GetHashCode(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

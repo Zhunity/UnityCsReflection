@@ -317,7 +317,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 	    {
 	    }
 
-        public virtual void OnGUISafe(UnityEngine.Rect  @position, UnityEditor.SerializedProperty  @property, UnityEngine.GUIContent  @label)
+        public virtual void OnGUISafe(UnityEngine.Rect @position, UnityEditor.SerializedProperty @property, UnityEngine.GUIContent @label)
         {
 
             var ___genericsType = new Type[] {};
@@ -328,7 +328,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual void OnGUI(UnityEngine.Rect  @position, UnityEditor.SerializedProperty  @property, UnityEngine.GUIContent  @label)
+        public virtual void OnGUI(UnityEngine.Rect @position, UnityEditor.SerializedProperty @property, UnityEngine.GUIContent @label)
         {
 
             var ___genericsType = new Type[] {};
@@ -339,7 +339,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual UnityEngine.UIElements.VisualElement CreatePropertyGUI(UnityEditor.SerializedProperty  @property)
+        public virtual UnityEngine.UIElements.VisualElement CreatePropertyGUI(UnityEditor.SerializedProperty @property)
         {
 
             var ___genericsType = new Type[] {};
@@ -350,7 +350,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual System.Single GetPropertyHeightSafe(UnityEditor.SerializedProperty  @property, UnityEngine.GUIContent  @label)
+        public virtual System.Single GetPropertyHeightSafe(UnityEditor.SerializedProperty @property, UnityEngine.GUIContent @label)
         {
 
             var ___genericsType = new Type[] {};
@@ -361,7 +361,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual System.Single GetPropertyHeight(UnityEditor.SerializedProperty  @property, UnityEngine.GUIContent  @label)
+        public virtual System.Single GetPropertyHeight(UnityEditor.SerializedProperty @property, UnityEngine.GUIContent @label)
         {
 
             var ___genericsType = new Type[] {};
@@ -372,7 +372,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual System.Boolean CanCacheInspectorGUISafe(UnityEditor.SerializedProperty  @property)
+        public virtual System.Boolean CanCacheInspectorGUISafe(UnityEditor.SerializedProperty @property)
         {
 
             var ___genericsType = new Type[] {};
@@ -383,7 +383,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual System.Boolean CanCacheInspectorGUI(UnityEditor.SerializedProperty  @property)
+        public virtual System.Boolean CanCacheInspectorGUI(UnityEditor.SerializedProperty @property)
         {
 
             var ___genericsType = new Type[] {};
@@ -394,7 +394,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

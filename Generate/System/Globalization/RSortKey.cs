@@ -249,7 +249,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 	    {
 	    }
 
-        public static System.Int32 Compare(System.Globalization.SortKey  @sortkey1, System.Globalization.SortKey  @sortkey2)
+        public static System.Int32 Compare(System.Globalization.SortKey @sortkey1, System.Globalization.SortKey @sortkey2)
         {
 
             var ___genericsType = new Type[] {};
@@ -260,7 +260,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @value)
+        public virtual System.Boolean Equals(System.Object @value)
         {
 
             var ___genericsType = new Type[] {};

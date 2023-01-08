@@ -572,18 +572,18 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 	    {
 	    }
 
-        public virtual System.Object Match(RUnityEngine.RUIElements.RStyleSheets.RSyntax.RExpression  @exp, RSystem.RCollections.RGeneric.RList<RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue>  @values)
+        public virtual RUnityEngine.RUIElements.RStyleSheets.RMatchResult Match(RUnityEngine.RUIElements.RStyleSheets.RSyntax.RExpression @exp, RSystem.RCollections.RGeneric.RList<RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue> @values)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@exp.Value, @values.Value};
             var ___result = RMatch_Expression_List_d_StylePropertyValue_p_.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RUnityEngine.RUIElements.RStyleSheets.RMatchResult(___result);
         }
 
 
-        public virtual System.Boolean MatchKeyword(System.String  @keyword)
+        public virtual System.Boolean MatchKeyword(System.String @keyword)
         {
 
             var ___genericsType = new Type[] {};
@@ -759,7 +759,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
         }
 
 
-        public virtual System.Boolean Match(RUnityEngine.RUIElements.RStyleSheets.RSyntax.RExpression  @exp)
+        public virtual System.Boolean Match(RUnityEngine.RUIElements.RStyleSheets.RSyntax.RExpression @exp)
         {
 
             var ___genericsType = new Type[] {};
@@ -770,7 +770,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

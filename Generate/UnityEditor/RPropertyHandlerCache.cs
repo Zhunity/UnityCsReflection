@@ -232,19 +232,29 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 	    {
 	    }
 
-        public virtual System.Object GetHandler(UnityEditor.SerializedProperty  @property)
+        public virtual RUnityEditor.RPropertyHandler GetHandler(UnityEditor.SerializedProperty @property)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@property};
             var ___result = RGetHandler_SerializedProperty.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RUnityEditor.RPropertyHandler(___result);
         }
 
 
+        public virtual void SetHandler(UnityEditor.SerializedProperty @property, RUnityEditor.RPropertyHandler @handler)
+        {
 
-        public static System.Boolean CanUseSameHandler(UnityEditor.SerializedProperty  @p1, UnityEditor.SerializedProperty  @p2)
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@property, @handler.Value};
+            var ___result = RSetHandler_SerializedProperty_PropertyHandler.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public static System.Boolean CanUseSameHandler(UnityEditor.SerializedProperty @p1, UnityEditor.SerializedProperty @p2)
         {
 
             var ___genericsType = new Type[] {};
@@ -255,7 +265,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public static System.Int32 GetPropertyHash(UnityEditor.SerializedProperty  @property)
+        public static System.Int32 GetPropertyHash(UnityEditor.SerializedProperty @property)
         {
 
             var ___genericsType = new Type[] {};
@@ -277,7 +287,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

@@ -351,14 +351,14 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 	    {
 	    }
 
-        public virtual System.Object Acquire()
+        public virtual RUnityEngine.RUIElements.RStyleDataRef<RType> Acquire()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RAcquire.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RUnityEngine.RUIElements.RStyleDataRef<RType>(___result);
         }
 
 
@@ -373,7 +373,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void CopyFrom(RUnityEngine.RUIElements.RStyleDataRef<RType>  @other)
+        public virtual void CopyFrom(RUnityEngine.RUIElements.RStyleDataRef<RType> @other)
         {
 
             var ___genericsType = new Type[] {};
@@ -406,14 +406,14 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public static System.Object Create()
+        public static RUnityEngine.RUIElements.RStyleDataRef<RType> Create()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RCreate.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RUnityEngine.RUIElements.RStyleDataRef<RType>(___result);
         }
 
 
@@ -428,7 +428,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public static System.Boolean op_Equality(RUnityEngine.RUIElements.RStyleDataRef<RType>  @lhs, RUnityEngine.RUIElements.RStyleDataRef<RType>  @rhs)
+        public static System.Boolean op_Equality(RUnityEngine.RUIElements.RStyleDataRef<RType> @lhs, RUnityEngine.RUIElements.RStyleDataRef<RType> @rhs)
         {
 
             var ___genericsType = new Type[] {};
@@ -439,7 +439,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public static System.Boolean op_Inequality(RUnityEngine.RUIElements.RStyleDataRef<RType>  @lhs, RUnityEngine.RUIElements.RStyleDataRef<RType>  @rhs)
+        public static System.Boolean op_Inequality(RUnityEngine.RUIElements.RStyleDataRef<RType> @lhs, RUnityEngine.RUIElements.RStyleDataRef<RType> @rhs)
         {
 
             var ___genericsType = new Type[] {};
@@ -450,7 +450,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean Equals(RUnityEngine.RUIElements.RStyleDataRef<RType>  @other)
+        public virtual System.Boolean Equals(RUnityEngine.RUIElements.RStyleDataRef<RType> @other)
         {
 
             var ___genericsType = new Type[] {};
@@ -461,7 +461,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};
@@ -472,7 +472,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean ReferenceEquals(RUnityEngine.RUIElements.RStyleDataRef<RType>  @other)
+        public virtual System.Boolean ReferenceEquals(RUnityEngine.RUIElements.RStyleDataRef<RType> @other)
         {
 
             var ___genericsType = new Type[] {};

@@ -877,7 +877,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
         }
 
 
-        public virtual void UnityEngine__2__UIElements__2__Experimental__2__IValueAnimationUpdate__2__Tick(System.Int64  @currentTimeMs)
+        public virtual void UnityEngine__2__UIElements__2__Experimental__2__IValueAnimationUpdate__2__Tick(System.Int64 @currentTimeMs)
         {
 
             var ___genericsType = new Type[] {};
@@ -921,7 +921,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
         }
 
 
-        public virtual void SetOwner(UnityEngine.UIElements.VisualElement  @e)
+        public virtual void SetOwner(UnityEngine.UIElements.VisualElement @e)
         {
 
             var ___genericsType = new Type[] {};
@@ -943,7 +943,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
         }
 
 
-        public static UnityEngine.UIElements.Experimental.ValueAnimation<T> Create(UnityEngine.UIElements.VisualElement  @e, System.Func<T, T, System.Single, T>  @interpolator)
+        public static UnityEngine.UIElements.Experimental.ValueAnimation<T> Create(UnityEngine.UIElements.VisualElement @e, System.Func<T, T, System.Single, T> @interpolator)
         {
 
             var ___genericsType = new Type[] {};
@@ -954,7 +954,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
         }
 
 
-        public virtual UnityEngine.UIElements.Experimental.ValueAnimation<T> Ease(System.Func<System.Single, System.Single>  @easing)
+        public virtual UnityEngine.UIElements.Experimental.ValueAnimation<T> Ease(System.Func<System.Single, System.Single> @easing)
         {
 
             var ___genericsType = new Type[] {};
@@ -965,7 +965,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
         }
 
 
-        public virtual UnityEngine.UIElements.Experimental.ValueAnimation<T> OnCompleted(System.Action  @callback)
+        public virtual UnityEngine.UIElements.Experimental.ValueAnimation<T> OnCompleted(System.Action @callback)
         {
 
             var ___genericsType = new Type[] {};
@@ -987,7 +987,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

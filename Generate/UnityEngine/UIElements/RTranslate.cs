@@ -356,7 +356,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public static System.Boolean op_Equality(UnityEngine.UIElements.Translate  @lhs, UnityEngine.UIElements.Translate  @rhs)
+        public static System.Boolean op_Equality(UnityEngine.UIElements.Translate @lhs, UnityEngine.UIElements.Translate @rhs)
         {
 
             var ___genericsType = new Type[] {};
@@ -367,7 +367,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public static System.Boolean op_Inequality(UnityEngine.UIElements.Translate  @lhs, UnityEngine.UIElements.Translate  @rhs)
+        public static System.Boolean op_Inequality(UnityEngine.UIElements.Translate @lhs, UnityEngine.UIElements.Translate @rhs)
         {
 
             var ___genericsType = new Type[] {};
@@ -378,7 +378,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean Equals(UnityEngine.UIElements.Translate  @other)
+        public virtual System.Boolean Equals(UnityEngine.UIElements.Translate @other)
         {
 
             var ___genericsType = new Type[] {};
@@ -389,7 +389,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

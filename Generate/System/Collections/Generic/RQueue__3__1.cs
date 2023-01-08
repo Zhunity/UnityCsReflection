@@ -617,7 +617,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
         }
 
 
-        public virtual void CopyTo(T[]  @array, System.Int32  @arrayIndex)
+        public virtual void CopyTo(T[] @array, System.Int32 @arrayIndex)
         {
 
             var ___genericsType = new Type[] {};
@@ -628,7 +628,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
         }
 
 
-        public virtual void System__2__Collections__2__ICollection__2__CopyTo(System.Array  @array, System.Int32  @index)
+        public virtual void System__2__Collections__2__ICollection__2__CopyTo(System.Array @array, System.Int32 @index)
         {
 
             var ___genericsType = new Type[] {};
@@ -639,7 +639,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
         }
 
 
-        public virtual void Enqueue(T  @item)
+        public virtual void Enqueue(T @item)
         {
 
             var ___genericsType = new Type[] {};
@@ -650,14 +650,14 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
         }
 
 
-        public virtual System.Object GetEnumerator()
+        public virtual RSystem.RCollections.RGeneric.RQueue<RType>.REnumerator GetEnumerator()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RGetEnumerator.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RSystem.RCollections.RGeneric.RQueue<RType>.REnumerator(___result);
         }
 
 
@@ -694,7 +694,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
         }
 
 
-        public virtual System.Boolean TryDequeue(out T  @result)
+        public virtual System.Boolean TryDequeue(out T @result)
         {
 			@result = default;
 
@@ -718,7 +718,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
         }
 
 
-        public virtual System.Boolean TryPeek(out T  @result)
+        public virtual System.Boolean TryPeek(out T @result)
         {
 			@result = default;
 
@@ -731,7 +731,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
         }
 
 
-        public virtual System.Boolean Contains(T  @item)
+        public virtual System.Boolean Contains(T @item)
         {
 
             var ___genericsType = new Type[] {};
@@ -753,7 +753,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
         }
 
 
-        public virtual void SetCapacity(System.Int32  @capacity)
+        public virtual void SetCapacity(System.Int32 @capacity)
         {
 
             var ___genericsType = new Type[] {};
@@ -764,7 +764,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
         }
 
 
-        public virtual void MoveNext(ref System.Int32  @index)
+        public virtual void MoveNext(ref System.Int32 @index)
         {
 
             var ___genericsType = new Type[] {};
@@ -798,7 +798,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

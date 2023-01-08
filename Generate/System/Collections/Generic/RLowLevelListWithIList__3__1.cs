@@ -543,7 +543,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
         }
 
 
-        public virtual void Add(T  @item)
+        public virtual void Add(T @item)
         {
 
             var ___genericsType = new Type[] {};
@@ -554,7 +554,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
         }
 
 
-        public virtual void AddRange(System.Collections.Generic.IEnumerable<T>  @collection)
+        public virtual void AddRange(System.Collections.Generic.IEnumerable<T> @collection)
         {
 
             var ___genericsType = new Type[] {};
@@ -576,7 +576,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
         }
 
 
-        public virtual System.Boolean Contains(T  @item)
+        public virtual System.Boolean Contains(T @item)
         {
 
             var ___genericsType = new Type[] {};
@@ -587,7 +587,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
         }
 
 
-        public virtual void CopyTo(System.Int32  @index, T[]  @array, System.Int32  @arrayIndex, System.Int32  @count)
+        public virtual void CopyTo(System.Int32 @index, T[] @array, System.Int32 @arrayIndex, System.Int32 @count)
         {
 
             var ___genericsType = new Type[] {};
@@ -598,7 +598,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
         }
 
 
-        public virtual void CopyTo(T[]  @array, System.Int32  @arrayIndex)
+        public virtual void CopyTo(T[] @array, System.Int32 @arrayIndex)
         {
 
             var ___genericsType = new Type[] {};
@@ -609,7 +609,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
         }
 
 
-        public virtual System.Int32 IndexOf(T  @item)
+        public virtual System.Int32 IndexOf(T @item)
         {
 
             var ___genericsType = new Type[] {};
@@ -620,7 +620,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
         }
 
 
-        public virtual System.Int32 IndexOf(T  @item, System.Int32  @index)
+        public virtual System.Int32 IndexOf(T @item, System.Int32 @index)
         {
 
             var ___genericsType = new Type[] {};
@@ -631,7 +631,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
         }
 
 
-        public virtual void Insert(System.Int32  @index, T  @item)
+        public virtual void Insert(System.Int32 @index, T @item)
         {
 
             var ___genericsType = new Type[] {};
@@ -642,7 +642,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
         }
 
 
-        public virtual void InsertRange(System.Int32  @index, System.Collections.Generic.IEnumerable<T>  @collection)
+        public virtual void InsertRange(System.Int32 @index, System.Collections.Generic.IEnumerable<T> @collection)
         {
 
             var ___genericsType = new Type[] {};
@@ -653,7 +653,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
         }
 
 
-        public virtual System.Boolean Remove(T  @item)
+        public virtual System.Boolean Remove(T @item)
         {
 
             var ___genericsType = new Type[] {};
@@ -664,7 +664,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
         }
 
 
-        public virtual System.Int32 RemoveAll(System.Predicate<T>  @match)
+        public virtual System.Int32 RemoveAll(System.Predicate<T> @match)
         {
 
             var ___genericsType = new Type[] {};
@@ -675,7 +675,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
         }
 
 
-        public virtual void RemoveAt(System.Int32  @index)
+        public virtual void RemoveAt(System.Int32 @index)
         {
 
             var ___genericsType = new Type[] {};
@@ -697,7 +697,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

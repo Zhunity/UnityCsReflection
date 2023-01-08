@@ -402,7 +402,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 	    {
 	    }
 
-        public virtual void UpdateSupportedDataModes(System.Collections.Generic.IList<UnityEditor.DataMode>  @supported, UnityEditor.DataMode  @preferred)
+        public virtual void UpdateSupportedDataModes(System.Collections.Generic.IList<UnityEditor.DataMode> @supported, UnityEditor.DataMode @preferred)
         {
 
             var ___genericsType = new Type[] {};
@@ -413,7 +413,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public static void SanitizeSupportedDataModesList(System.Collections.Generic.IReadOnlyList<UnityEditor.DataMode>  @originalList, System.Collections.Generic.List<UnityEditor.DataMode>  @sanitizedList)
+        public static void SanitizeSupportedDataModesList(System.Collections.Generic.IReadOnlyList<UnityEditor.DataMode> @originalList, System.Collections.Generic.List<UnityEditor.DataMode> @sanitizedList)
         {
 
             var ___genericsType = new Type[] {};
@@ -435,7 +435,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual System.Boolean TryChangeDataMode(UnityEditor.DataMode  @newDataMode)
+        public virtual System.Boolean TryChangeDataMode(UnityEditor.DataMode @newDataMode)
         {
 
             var ___genericsType = new Type[] {};
@@ -457,7 +457,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual void SwitchToStickyDataMode(UnityEditor.DataMode  @stickyDataMode)
+        public virtual void SwitchToStickyDataMode(UnityEditor.DataMode @stickyDataMode)
         {
 
             var ___genericsType = new Type[] {};
@@ -468,7 +468,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

@@ -328,7 +328,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
         }
 
 
-        public virtual void SetExperimentalFeatureEnabled(RType  @feature, System.Boolean  @enabled)
+        public virtual void SetExperimentalFeatureEnabled(RType @feature, System.Boolean @enabled)
         {
 
             var ___genericsType = new Type[] {};
@@ -339,7 +339,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
         }
 
 
-        public virtual System.Boolean IsExperimentalFeatureEnabled(RType  @feature)
+        public virtual System.Boolean IsExperimentalFeatureEnabled(RType @feature)
         {
 
             var ___genericsType = new Type[] {};
@@ -361,7 +361,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
         }
 
 
-        public static void SetDefaultLogger(RUnityEngine.RYoga.RLogger  @logger)
+        public static void SetDefaultLogger(RUnityEngine.RYoga.RLogger @logger)
         {
 
             var ___genericsType = new Type[] {};
@@ -372,7 +372,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

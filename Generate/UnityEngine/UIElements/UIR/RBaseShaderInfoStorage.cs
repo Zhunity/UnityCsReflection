@@ -334,7 +334,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 	    {
 	    }
 
-        public virtual System.Boolean AllocateRect(System.Int32  @width, System.Int32  @height, out UnityEngine.RectInt  @uvs)
+        public virtual System.Boolean AllocateRect(System.Int32 @width, System.Int32 @height, out UnityEngine.RectInt @uvs)
         {
 			@uvs = default;
 
@@ -347,7 +347,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
         }
 
 
-        public virtual void SetTexel(System.Int32  @x, System.Int32  @y, UnityEngine.Color  @color)
+        public virtual void SetTexel(System.Int32 @x, System.Int32 @y, UnityEngine.Color @color)
         {
 
             var ___genericsType = new Type[] {};
@@ -380,7 +380,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
         }
 
 
-        public virtual void Dispose(System.Boolean  @disposing)
+        public virtual void Dispose(System.Boolean @disposing)
         {
 
             var ___genericsType = new Type[] {};
@@ -391,7 +391,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

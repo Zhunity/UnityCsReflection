@@ -217,7 +217,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 	    {
 	    }
 
-        public virtual void WriteRawInt2Packed(System.Int32  @v0, System.Int32  @v1, System.Int32  @destX, System.Int32  @destY)
+        public virtual void WriteRawInt2Packed(System.Int32 @v0, System.Int32 @v1, System.Int32 @destX, System.Int32 @destY)
         {
 
             var ___genericsType = new Type[] {};
@@ -228,7 +228,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
         }
 
 
-        public virtual void WriteRawFloat4Packed(System.Single  @f0, System.Single  @f1, System.Single  @f2, System.Single  @f3, System.Int32  @destX, System.Int32  @destY)
+        public virtual void WriteRawFloat4Packed(System.Single @f0, System.Single @f1, System.Single @f2, System.Single @f3, System.Int32 @destX, System.Int32 @destY)
         {
 
             var ___genericsType = new Type[] {};
@@ -239,7 +239,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

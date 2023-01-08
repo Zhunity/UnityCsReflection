@@ -79,7 +79,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts
 	    {
 	    }
 
-        public virtual void Freeze(System.Runtime.Remoting.Contexts.Context  @newContext)
+        public virtual void Freeze(System.Runtime.Remoting.Contexts.Context @newContext)
         {
 
             var ___genericsType = new Type[] {};
@@ -90,7 +90,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts
         }
 
 
-        public virtual System.Boolean IsNewContextOK(System.Runtime.Remoting.Contexts.Context  @newCtx)
+        public virtual System.Boolean IsNewContextOK(System.Runtime.Remoting.Contexts.Context @newCtx)
         {
 
             var ___genericsType = new Type[] {};

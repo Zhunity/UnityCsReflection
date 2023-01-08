@@ -1150,18 +1150,18 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 	    {
 	    }
 
-        public static System.Object DetermineMoveDirection(System.Single  @x, System.Single  @y, System.Single  @deadZone)
+        public static RType DetermineMoveDirection(System.Single @x, System.Single @y, System.Single @deadZone)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@x, @y, @deadZone};
             var ___result = RDetermineMoveDirection_Single_Single_Single.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RType(___result);
         }
 
 
-        public static UnityEngine.UIElements.NavigationMoveEvent GetPooled(UnityEngine.Vector2  @moveVector, UnityEngine.EventModifiers  @modifiers)
+        public static UnityEngine.UIElements.NavigationMoveEvent GetPooled(UnityEngine.Vector2 @moveVector, UnityEngine.EventModifiers @modifiers)
         {
 
             var ___genericsType = new Type[] {};
@@ -1172,7 +1172,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public static UnityEngine.UIElements.NavigationMoveEvent GetPooled(UnityEngine.Vector2  @moveVector, RType  @deviceType, UnityEngine.EventModifiers  @modifiers)
+        public static UnityEngine.UIElements.NavigationMoveEvent GetPooled(UnityEngine.Vector2 @moveVector, RType @deviceType, UnityEngine.EventModifiers @modifiers)
         {
 
             var ___genericsType = new Type[] {};
@@ -1183,7 +1183,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public static UnityEngine.UIElements.NavigationMoveEvent GetPooled(RType  @direction, UnityEngine.EventModifiers  @modifiers)
+        public static UnityEngine.UIElements.NavigationMoveEvent GetPooled(RType @direction, UnityEngine.EventModifiers @modifiers)
         {
 
             var ___genericsType = new Type[] {};
@@ -1194,7 +1194,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public static UnityEngine.UIElements.NavigationMoveEvent GetPooled(RType  @direction, RType  @deviceType, UnityEngine.EventModifiers  @modifiers)
+        public static UnityEngine.UIElements.NavigationMoveEvent GetPooled(RType @direction, RType @deviceType, UnityEngine.EventModifiers @modifiers)
         {
 
             var ___genericsType = new Type[] {};
@@ -1249,7 +1249,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void SetTriggerEventId(System.UInt64  @id)
+        public virtual void SetTriggerEventId(System.UInt64 @id)
         {
 
             var ___genericsType = new Type[] {};
@@ -1271,7 +1271,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void PreDispatch(UnityEngine.UIElements.IPanel  @panel)
+        public virtual void PreDispatch(UnityEngine.UIElements.IPanel @panel)
         {
 
             var ___genericsType = new Type[] {};
@@ -1293,7 +1293,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void PostDispatch(UnityEngine.UIElements.IPanel  @panel)
+        public virtual void PostDispatch(UnityEngine.UIElements.IPanel @panel)
         {
 
             var ___genericsType = new Type[] {};
@@ -1304,7 +1304,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean Skip(UnityEngine.UIElements.IEventHandler  @h)
+        public virtual System.Boolean Skip(UnityEngine.UIElements.IEventHandler @h)
         {
 
             var ___genericsType = new Type[] {};
@@ -1359,7 +1359,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

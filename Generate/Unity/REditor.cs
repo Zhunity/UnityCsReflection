@@ -2265,7 +2265,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public static UnityEditor.Editor CreateEditorWithContext(UnityEngine.Object[]  @targetObjects, UnityEngine.Object  @context, System.Type  @editorType)
+        public static UnityEditor.Editor CreateEditorWithContext(UnityEngine.Object[] @targetObjects, UnityEngine.Object @context, System.Type @editorType)
         {
 
             var ___genericsType = new Type[] {};
@@ -2276,7 +2276,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public static UnityEditor.Editor CreateEditorWithContext(UnityEngine.Object[]  @targetObjects, UnityEngine.Object  @context)
+        public static UnityEditor.Editor CreateEditorWithContext(UnityEngine.Object[] @targetObjects, UnityEngine.Object @context)
         {
 
             var ___genericsType = new Type[] {};
@@ -2287,55 +2287,55 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public static void CreateCachedEditorWithContext(UnityEngine.Object  @targetObject, UnityEngine.Object  @context, System.Type  @editorType, ref UnityEditor.Editor  @previousEditor)
+        public static void CreateCachedEditorWithContext(UnityEngine.Object @targetObject, UnityEngine.Object @context, System.Type @editorType, ref UnityEditor.Editor @previousEditor)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@targetObject, @context, @editorType, @previousEditor};
             var ___result = RCreateCachedEditorWithContext_Object_Object_Type_Ref_Editor.Invoke(___genericsType, ___parameters);
-			previousEditor = (UnityEditor.Editor)___parameters[3];
+			@previousEditor = (UnityEditor.Editor)___parameters[3];
 
             
         }
 
 
-        public static void CreateCachedEditorWithContext(UnityEngine.Object[]  @targetObjects, UnityEngine.Object  @context, System.Type  @editorType, ref UnityEditor.Editor  @previousEditor)
+        public static void CreateCachedEditorWithContext(UnityEngine.Object[] @targetObjects, UnityEngine.Object @context, System.Type @editorType, ref UnityEditor.Editor @previousEditor)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@targetObjects, @context, @editorType, @previousEditor};
             var ___result = RCreateCachedEditorWithContext_ObjectArray_Object_Type_Ref_Editor.Invoke(___genericsType, ___parameters);
-			previousEditor = (UnityEditor.Editor)___parameters[3];
+			@previousEditor = (UnityEditor.Editor)___parameters[3];
 
             
         }
 
 
-        public static void CreateCachedEditor(UnityEngine.Object  @targetObject, System.Type  @editorType, ref UnityEditor.Editor  @previousEditor)
+        public static void CreateCachedEditor(UnityEngine.Object @targetObject, System.Type @editorType, ref UnityEditor.Editor @previousEditor)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@targetObject, @editorType, @previousEditor};
             var ___result = RCreateCachedEditor_Object_Type_Ref_Editor.Invoke(___genericsType, ___parameters);
-			previousEditor = (UnityEditor.Editor)___parameters[2];
+			@previousEditor = (UnityEditor.Editor)___parameters[2];
 
             
         }
 
 
-        public static void CreateCachedEditor(UnityEngine.Object[]  @targetObjects, System.Type  @editorType, ref UnityEditor.Editor  @previousEditor)
+        public static void CreateCachedEditor(UnityEngine.Object[] @targetObjects, System.Type @editorType, ref UnityEditor.Editor @previousEditor)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@targetObjects, @editorType, @previousEditor};
             var ___result = RCreateCachedEditor_ObjectArray_Type_Ref_Editor.Invoke(___genericsType, ___parameters);
-			previousEditor = (UnityEditor.Editor)___parameters[2];
+			@previousEditor = (UnityEditor.Editor)___parameters[2];
 
             
         }
 
 
-        public static UnityEditor.Editor CreateEditor(UnityEngine.Object  @targetObject)
+        public static UnityEditor.Editor CreateEditor(UnityEngine.Object @targetObject)
         {
 
             var ___genericsType = new Type[] {};
@@ -2346,7 +2346,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public static UnityEditor.Editor CreateEditor(UnityEngine.Object  @targetObject, System.Type  @editorType)
+        public static UnityEditor.Editor CreateEditor(UnityEngine.Object @targetObject, System.Type @editorType)
         {
 
             var ___genericsType = new Type[] {};
@@ -2357,7 +2357,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public static UnityEditor.Editor CreateEditor(UnityEngine.Object[]  @targetObjects)
+        public static UnityEditor.Editor CreateEditor(UnityEngine.Object[] @targetObjects)
         {
 
             var ___genericsType = new Type[] {};
@@ -2368,7 +2368,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public static UnityEditor.Editor CreateEditor(UnityEngine.Object[]  @targetObjects, System.Type  @editorType)
+        public static UnityEditor.Editor CreateEditor(UnityEngine.Object[] @targetObjects, System.Type @editorType)
         {
 
             var ___genericsType = new Type[] {};
@@ -2423,7 +2423,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public static void AssignCachedProperties<T>(T  @self, UnityEditor.SerializedProperty  @root) where T : class
+        public static void AssignCachedProperties<T>(T @self, UnityEditor.SerializedProperty @root) where T : class
         {
 
             var ___genericsType = new Type[] {typeof(T)};
@@ -2434,7 +2434,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual void InternalSetTargets(UnityEngine.Object[]  @t)
+        public virtual void InternalSetTargets(UnityEngine.Object[] @t)
         {
 
             var ___genericsType = new Type[] {};
@@ -2445,7 +2445,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual void InternalSetHidden(System.Boolean  @hidden)
+        public virtual void InternalSetHidden(System.Boolean @hidden)
         {
 
             var ___genericsType = new Type[] {};
@@ -2456,7 +2456,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual void InternalSetContextObject(UnityEngine.Object  @context)
+        public virtual void InternalSetContextObject(UnityEngine.Object @context)
         {
 
             var ___genericsType = new Type[] {};
@@ -2478,7 +2478,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual UnityEngine.Bounds GetWorldBoundsOfTarget(UnityEngine.Object  @targetObject)
+        public virtual UnityEngine.Bounds GetWorldBoundsOfTarget(UnityEngine.Object @targetObject)
         {
 
             var ___genericsType = new Type[] {};
@@ -2489,7 +2489,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual System.Boolean UnityEditor__2__IToolModeOwner__2__ModeSurvivesSelectionChange(System.Int32  @toolMode)
+        public virtual System.Boolean UnityEditor__2__IToolModeOwner__2__ModeSurvivesSelectionChange(System.Int32 @toolMode)
         {
 
             var ___genericsType = new Type[] {};
@@ -2511,20 +2511,20 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual System.Boolean GetOptimizedGUIBlock(System.Boolean  @isDirty, System.Boolean  @isVisible, out System.Single  @height)
+        public virtual System.Boolean GetOptimizedGUIBlock(System.Boolean @isDirty, System.Boolean @isVisible, out System.Single @height)
         {
-			height = default;
+			@height = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@isDirty, @isVisible, @height};
             var ___result = RGetOptimizedGUIBlock_Boolean_Boolean_Out_Single.Invoke(___genericsType, ___parameters);
-			height = (System.Single)___parameters[2];
+			@height = (System.Single)___parameters[2];
 
             return (System.Boolean)___result;
         }
 
 
-        public virtual System.Boolean OnOptimizedInspectorGUI(UnityEngine.Rect  @contentRect)
+        public virtual System.Boolean OnOptimizedInspectorGUI(UnityEngine.Rect @contentRect)
         {
 
             var ___genericsType = new Type[] {};
@@ -2535,7 +2535,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public static void DrawPropertiesExcluding(UnityEditor.SerializedObject  @obj, System.String[]  @propertyToExclude)
+        public static void DrawPropertiesExcluding(UnityEditor.SerializedObject @obj, System.String[] @propertyToExclude)
         {
 
             var ___genericsType = new Type[] {};
@@ -2557,7 +2557,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public static System.Boolean DoDrawDefaultInspector(UnityEditor.SerializedObject  @obj)
+        public static System.Boolean DoDrawDefaultInspector(UnityEditor.SerializedObject @obj)
         {
 
             var ___genericsType = new Type[] {};
@@ -2656,7 +2656,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual void ShowOpenButton(UnityEngine.Object[]  @assets, System.Boolean  @enableCondition)
+        public virtual void ShowOpenButton(UnityEngine.Object[] @assets, System.Boolean @enableCondition)
         {
 
             var ___genericsType = new Type[] {};
@@ -2700,7 +2700,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual void OnHeaderIconGUI(UnityEngine.Rect  @iconRect)
+        public virtual void OnHeaderIconGUI(UnityEngine.Rect @iconRect)
         {
 
             var ___genericsType = new Type[] {};
@@ -2711,7 +2711,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual void OnHeaderTitleGUI(UnityEngine.Rect  @titleRect, System.String  @header)
+        public virtual void OnHeaderTitleGUI(UnityEngine.Rect @titleRect, System.String @header)
         {
 
             var ___genericsType = new Type[] {};
@@ -2722,7 +2722,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual UnityEngine.Rect DrawHeaderHelpAndSettingsGUI(UnityEngine.Rect  @r)
+        public virtual UnityEngine.Rect DrawHeaderHelpAndSettingsGUI(UnityEngine.Rect @r)
         {
 
             var ___genericsType = new Type[] {};
@@ -2744,7 +2744,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public static UnityEngine.Rect DrawHeaderGUI(UnityEditor.Editor  @editor, System.String  @header)
+        public static UnityEngine.Rect DrawHeaderGUI(UnityEditor.Editor @editor, System.String @header)
         {
 
             var ___genericsType = new Type[] {};
@@ -2755,7 +2755,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public static UnityEngine.Rect DrawHeaderGUI(UnityEditor.Editor  @editor, System.String  @header, System.Single  @leftMargin)
+        public static UnityEngine.Rect DrawHeaderGUI(UnityEditor.Editor @editor, System.String @header, System.Single @leftMargin)
         {
 
             var ___genericsType = new Type[] {};
@@ -2766,7 +2766,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public static void CheckForMainObjectNameMismatch(UnityEditor.Editor  @editor)
+        public static void CheckForMainObjectNameMismatch(UnityEditor.Editor @editor)
         {
 
             var ___genericsType = new Type[] {};
@@ -2777,7 +2777,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public static void DrawMismatchedNameNotification(UnityEditor.Editor  @editor, System.String  @expectedMainObjectName, System.String  @mainObjectName)
+        public static void DrawMismatchedNameNotification(UnityEditor.Editor @editor, System.String @expectedMainObjectName, System.String @mainObjectName)
         {
 
             var ___genericsType = new Type[] {};
@@ -2788,7 +2788,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public static void DrawNotification(UnityEngine.Texture  @image, System.String  @text, System.String  @btnText, System.Action  @onBtnClick)
+        public static void DrawNotification(UnityEngine.Texture @image, System.String @text, System.String @btnText, System.Action @onBtnClick)
         {
 
             var ___genericsType = new Type[] {};
@@ -2799,7 +2799,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual void DrawPostIconContent(UnityEngine.Rect  @iconRect)
+        public virtual void DrawPostIconContent(UnityEngine.Rect @iconRect)
         {
 
             var ___genericsType = new Type[] {};
@@ -2810,13 +2810,13 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public static void DrawFoldoutInspector(UnityEngine.Object  @target, ref UnityEditor.Editor  @editor)
+        public static void DrawFoldoutInspector(UnityEngine.Object @target, ref UnityEditor.Editor @editor)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@target, @editor};
             var ___result = RDrawFoldoutInspector_Object_Ref_Editor.Invoke(___genericsType, ___parameters);
-			editor = (UnityEditor.Editor)___parameters[1];
+			@editor = (UnityEditor.Editor)___parameters[1];
 
             
         }
@@ -2844,7 +2844,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual UnityEngine.Texture2D RenderStaticPreview(System.String  @assetPath, UnityEngine.Object[]  @subAssets, System.Int32  @width, System.Int32  @height)
+        public virtual UnityEngine.Texture2D RenderStaticPreview(System.String @assetPath, UnityEngine.Object[] @subAssets, System.Int32 @width, System.Int32 @height)
         {
 
             var ___genericsType = new Type[] {};
@@ -2855,7 +2855,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual void OnPreviewGUI(UnityEngine.Rect  @r, UnityEngine.GUIStyle  @background)
+        public virtual void OnPreviewGUI(UnityEngine.Rect @r, UnityEngine.GUIStyle @background)
         {
 
             var ___genericsType = new Type[] {};
@@ -2866,7 +2866,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual void OnInteractivePreviewGUI(UnityEngine.Rect  @r, UnityEngine.GUIStyle  @background)
+        public virtual void OnInteractivePreviewGUI(UnityEngine.Rect @r, UnityEngine.GUIStyle @background)
         {
 
             var ___genericsType = new Type[] {};
@@ -2899,7 +2899,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual void DrawPreview(UnityEngine.Rect  @previewArea)
+        public virtual void DrawPreview(UnityEngine.Rect @previewArea)
         {
 
             var ___genericsType = new Type[] {};
@@ -2943,7 +2943,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public static System.Boolean IsAppropriateFileOpenForEdit(UnityEngine.Object  @assetObject)
+        public static System.Boolean IsAppropriateFileOpenForEdit(UnityEngine.Object @assetObject)
         {
 
             var ___genericsType = new Type[] {};
@@ -2987,7 +2987,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual void Initialize(UnityEngine.Object[]  @targets)
+        public virtual void Initialize(UnityEngine.Object[] @targets)
         {
 
             var ___genericsType = new Type[] {};
@@ -3042,7 +3042,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public static UnityEditor.Editor CreateEditorWithContextInternal(UnityEngine.Object[]  @targetObjects, UnityEngine.Object  @context, System.Type  @editorType)
+        public static UnityEditor.Editor CreateEditorWithContextInternal(UnityEngine.Object[] @targetObjects, UnityEngine.Object @context, System.Type @editorType)
         {
 
             var ___genericsType = new Type[] {};
@@ -3075,14 +3075,14 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public static void GetCurrentMousePosition_Injected(out UnityEngine.Vector2  @ret)
+        public static void GetCurrentMousePosition_Injected(out UnityEngine.Vector2 @ret)
         {
-			ret = default;
+			@ret = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@ret};
             var ___result = RGetCurrentMousePosition_Injected_Out_Vector2.Invoke(___genericsType, ___parameters);
-			ret = (UnityEngine.Vector2)___parameters[0];
+			@ret = (UnityEngine.Vector2)___parameters[0];
 
             
         }
@@ -3121,7 +3121,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @other)
+        public virtual System.Boolean Equals(System.Object @other)
         {
 
             var ___genericsType = new Type[] {};

@@ -198,7 +198,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 	    {
 	    }
 
-        public static System.Boolean InternalEquals(System.Object  @o1, System.Object  @o2, out System.Object[]  @fields)
+        public static System.Boolean InternalEquals(System.Object @o1, System.Object @o2, out System.Object[] @fields)
         {
 			@fields = default;
 
@@ -211,7 +211,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Boolean DefaultEquals(System.Object  @o1, System.Object  @o2)
+        public static System.Boolean DefaultEquals(System.Object @o1, System.Object @o2)
         {
 
             var ___genericsType = new Type[] {};
@@ -222,7 +222,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};
@@ -233,7 +233,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Int32 InternalGetHashCode(System.Object  @o, out System.Object[]  @fields)
+        public static System.Int32 InternalGetHashCode(System.Object @o, out System.Object[] @fields)
         {
 			@fields = default;
 
@@ -257,7 +257,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Int32 GetHashCodeOfPtr(System.IntPtr  @ptr)
+        public static System.Int32 GetHashCodeOfPtr(System.IntPtr @ptr)
         {
 
             var ___genericsType = new Type[] {};

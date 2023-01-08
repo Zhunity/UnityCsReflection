@@ -929,7 +929,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 	    {
 	    }
 
-        public virtual void ApplyOptions(UnityEngine.GUILayoutOption[]  @options)
+        public virtual void ApplyOptions(UnityEngine.GUILayoutOption[] @options)
         {
 
             var ___genericsType = new Type[] {};
@@ -940,7 +940,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void ApplyStyleSettings(UnityEngine.GUIStyle  @style)
+        public virtual void ApplyStyleSettings(UnityEngine.GUIStyle @style)
         {
 
             var ___genericsType = new Type[] {};
@@ -973,14 +973,14 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Object GetNext()
+        public virtual RUnityEngine.RGUILayoutEntry GetNext()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RGetNext.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RUnityEngine.RGUILayoutEntry(___result);
         }
 
 
@@ -995,7 +995,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void Add(RUnityEngine.RGUILayoutEntry  @e)
+        public virtual void Add(RUnityEngine.RGUILayoutEntry @e)
         {
 
             var ___genericsType = new Type[] {};
@@ -1017,7 +1017,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SetHorizontal(System.Single  @x, System.Single  @width)
+        public virtual void SetHorizontal(System.Single @x, System.Single @width)
         {
 
             var ___genericsType = new Type[] {};
@@ -1039,7 +1039,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SetVertical(System.Single  @y, System.Single  @height)
+        public virtual void SetVertical(System.Single @y, System.Single @height)
         {
 
             var ___genericsType = new Type[] {};
@@ -1061,7 +1061,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

@@ -657,74 +657,84 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 	    {
 	    }
 
-        public static System.Object Internal_GetAllTypes()
+        public static RTypeArray<RUnityEditor.RUnityType.RUnityTypeTransport> Internal_GetAllTypes()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RInternal_GetAllTypes.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RTypeArray<RUnityEditor.RUnityType.RUnityTypeTransport>(___result);
         }
 
 
+        public virtual System.Boolean IsDerivedFrom(RUnityEditor.RUnityType @baseClass)
+        {
 
-        public static System.Object FindTypeByPersistentTypeID(System.Int32  @persistentTypeId)
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@baseClass.Value};
+            var ___result = RIsDerivedFrom_UnityType.Invoke(___genericsType, ___parameters);
+
+            return (System.Boolean)___result;
+        }
+
+
+        public static RUnityEditor.RUnityType FindTypeByPersistentTypeID(System.Int32 @persistentTypeId)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@persistentTypeId};
             var ___result = RFindTypeByPersistentTypeID_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RUnityEditor.RUnityType(___result);
         }
 
 
-        public static System.Object GetTypeByRuntimeTypeIndex(System.UInt32  @index)
+        public static RUnityEditor.RUnityType GetTypeByRuntimeTypeIndex(System.UInt32 @index)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@index};
             var ___result = RGetTypeByRuntimeTypeIndex_UInt32.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RUnityEditor.RUnityType(___result);
         }
 
 
-        public static System.Object FindTypeByName(System.String  @name)
+        public static RUnityEditor.RUnityType FindTypeByName(System.String @name)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@name};
             var ___result = RFindTypeByName_String.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RUnityEditor.RUnityType(___result);
         }
 
 
-        public static System.Object FindTypeByNameCaseInsensitive(System.String  @name)
+        public static RUnityEditor.RUnityType FindTypeByNameCaseInsensitive(System.String @name)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@name};
             var ___result = RFindTypeByNameCaseInsensitive_String.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RUnityEditor.RUnityType(___result);
         }
 
 
-        public static System.Object GetTypes()
+        public static RSystem.RCollections.RObjectModel.RReadOnlyCollection<RUnityEditor.RUnityType> GetTypes()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RGetTypes.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RSystem.RCollections.RObjectModel.RReadOnlyCollection<RUnityEditor.RUnityType>(___result);
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

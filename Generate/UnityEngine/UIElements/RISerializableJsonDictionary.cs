@@ -147,7 +147,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 	    {
 	    }
 
-        public virtual void Set<T>(System.String  @key, T  @value) where T : class
+        public virtual void Set<T>(System.String @key, T @value) where T : class
         {
 
             var ___genericsType = new Type[] {typeof(T)};
@@ -158,7 +158,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual T Get<T>(System.String  @key) where T : class
+        public virtual T Get<T>(System.String @key) where T : class
         {
 
             var ___genericsType = new Type[] {typeof(T)};
@@ -169,7 +169,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual T GetScriptable<T>(System.String  @key) where T : UnityEngine.ScriptableObject
+        public virtual T GetScriptable<T>(System.String @key) where T : UnityEngine.ScriptableObject
         {
 
             var ___genericsType = new Type[] {typeof(T)};
@@ -180,7 +180,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void Overwrite(System.Object  @obj, System.String  @key)
+        public virtual void Overwrite(System.Object @obj, System.String @key)
         {
 
             var ___genericsType = new Type[] {};
@@ -191,7 +191,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean ContainsKey(System.String  @key)
+        public virtual System.Boolean ContainsKey(System.String @key)
         {
 
             var ___genericsType = new Type[] {};

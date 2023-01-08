@@ -1059,7 +1059,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public virtual void SetHandleInternal(Microsoft.Win32.SafeHandles.SafeWaitHandle  @handle)
+        public virtual void SetHandleInternal(Microsoft.Win32.SafeHandles.SafeWaitHandle @handle)
         {
 
             var ___genericsType = new Type[] {};
@@ -1070,7 +1070,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public virtual System.Boolean WaitOne(System.Int32  @millisecondsTimeout, System.Boolean  @exitContext)
+        public virtual System.Boolean WaitOne(System.Int32 @millisecondsTimeout, System.Boolean @exitContext)
         {
 
             var ___genericsType = new Type[] {};
@@ -1081,7 +1081,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public virtual System.Boolean WaitOne(System.TimeSpan  @timeout, System.Boolean  @exitContext)
+        public virtual System.Boolean WaitOne(System.TimeSpan @timeout, System.Boolean @exitContext)
         {
 
             var ___genericsType = new Type[] {};
@@ -1103,7 +1103,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public virtual System.Boolean WaitOne(System.Int32  @millisecondsTimeout)
+        public virtual System.Boolean WaitOne(System.Int32 @millisecondsTimeout)
         {
 
             var ___genericsType = new Type[] {};
@@ -1114,7 +1114,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public virtual System.Boolean WaitOne(System.TimeSpan  @timeout)
+        public virtual System.Boolean WaitOne(System.TimeSpan @timeout)
         {
 
             var ___genericsType = new Type[] {};
@@ -1125,7 +1125,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public virtual System.Boolean WaitOne(System.Int64  @timeout, System.Boolean  @exitContext)
+        public virtual System.Boolean WaitOne(System.Int64 @timeout, System.Boolean @exitContext)
         {
 
             var ___genericsType = new Type[] {};
@@ -1136,7 +1136,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public static System.Boolean InternalWaitOne(System.Runtime.InteropServices.SafeHandle  @waitableSafeHandle, System.Int64  @millisecondsTimeout, System.Boolean  @hasThreadAffinity, System.Boolean  @exitContext)
+        public static System.Boolean InternalWaitOne(System.Runtime.InteropServices.SafeHandle @waitableSafeHandle, System.Int64 @millisecondsTimeout, System.Boolean @hasThreadAffinity, System.Boolean @exitContext)
         {
 
             var ___genericsType = new Type[] {};
@@ -1158,7 +1158,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public static System.Boolean WaitAll(System.Threading.WaitHandle[]  @waitHandles, System.Int32  @millisecondsTimeout, System.Boolean  @exitContext)
+        public static System.Boolean WaitAll(System.Threading.WaitHandle[] @waitHandles, System.Int32 @millisecondsTimeout, System.Boolean @exitContext)
         {
 
             var ___genericsType = new Type[] {};
@@ -1169,7 +1169,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public static System.Boolean WaitAll(System.Threading.WaitHandle[]  @waitHandles, System.TimeSpan  @timeout, System.Boolean  @exitContext)
+        public static System.Boolean WaitAll(System.Threading.WaitHandle[] @waitHandles, System.TimeSpan @timeout, System.Boolean @exitContext)
         {
 
             var ___genericsType = new Type[] {};
@@ -1180,7 +1180,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public static System.Boolean WaitAll(System.Threading.WaitHandle[]  @waitHandles)
+        public static System.Boolean WaitAll(System.Threading.WaitHandle[] @waitHandles)
         {
 
             var ___genericsType = new Type[] {};
@@ -1191,7 +1191,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public static System.Boolean WaitAll(System.Threading.WaitHandle[]  @waitHandles, System.Int32  @millisecondsTimeout)
+        public static System.Boolean WaitAll(System.Threading.WaitHandle[] @waitHandles, System.Int32 @millisecondsTimeout)
         {
 
             var ___genericsType = new Type[] {};
@@ -1202,7 +1202,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public static System.Boolean WaitAll(System.Threading.WaitHandle[]  @waitHandles, System.TimeSpan  @timeout)
+        public static System.Boolean WaitAll(System.Threading.WaitHandle[] @waitHandles, System.TimeSpan @timeout)
         {
 
             var ___genericsType = new Type[] {};
@@ -1213,7 +1213,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public static System.Int32 WaitAny(System.Threading.WaitHandle[]  @waitHandles, System.Int32  @millisecondsTimeout, System.Boolean  @exitContext)
+        public static System.Int32 WaitAny(System.Threading.WaitHandle[] @waitHandles, System.Int32 @millisecondsTimeout, System.Boolean @exitContext)
         {
 
             var ___genericsType = new Type[] {};
@@ -1224,7 +1224,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public static System.Int32 WaitAny(System.Threading.WaitHandle[]  @waitHandles, System.TimeSpan  @timeout, System.Boolean  @exitContext)
+        public static System.Int32 WaitAny(System.Threading.WaitHandle[] @waitHandles, System.TimeSpan @timeout, System.Boolean @exitContext)
         {
 
             var ___genericsType = new Type[] {};
@@ -1235,7 +1235,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public static System.Int32 WaitAny(System.Threading.WaitHandle[]  @waitHandles, System.TimeSpan  @timeout)
+        public static System.Int32 WaitAny(System.Threading.WaitHandle[] @waitHandles, System.TimeSpan @timeout)
         {
 
             var ___genericsType = new Type[] {};
@@ -1246,7 +1246,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public static System.Int32 WaitAny(System.Threading.WaitHandle[]  @waitHandles)
+        public static System.Int32 WaitAny(System.Threading.WaitHandle[] @waitHandles)
         {
 
             var ___genericsType = new Type[] {};
@@ -1257,7 +1257,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public static System.Int32 WaitAny(System.Threading.WaitHandle[]  @waitHandles, System.Int32  @millisecondsTimeout)
+        public static System.Int32 WaitAny(System.Threading.WaitHandle[] @waitHandles, System.Int32 @millisecondsTimeout)
         {
 
             var ___genericsType = new Type[] {};
@@ -1268,7 +1268,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public static System.Boolean SignalAndWait(System.Threading.WaitHandle  @toSignal, System.Threading.WaitHandle  @toWaitOn)
+        public static System.Boolean SignalAndWait(System.Threading.WaitHandle @toSignal, System.Threading.WaitHandle @toWaitOn)
         {
 
             var ___genericsType = new Type[] {};
@@ -1279,7 +1279,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public static System.Boolean SignalAndWait(System.Threading.WaitHandle  @toSignal, System.Threading.WaitHandle  @toWaitOn, System.TimeSpan  @timeout, System.Boolean  @exitContext)
+        public static System.Boolean SignalAndWait(System.Threading.WaitHandle @toSignal, System.Threading.WaitHandle @toWaitOn, System.TimeSpan @timeout, System.Boolean @exitContext)
         {
 
             var ___genericsType = new Type[] {};
@@ -1290,7 +1290,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public static System.Boolean SignalAndWait(System.Threading.WaitHandle  @toSignal, System.Threading.WaitHandle  @toWaitOn, System.Int32  @millisecondsTimeout, System.Boolean  @exitContext)
+        public static System.Boolean SignalAndWait(System.Threading.WaitHandle @toSignal, System.Threading.WaitHandle @toWaitOn, System.Int32 @millisecondsTimeout, System.Boolean @exitContext)
         {
 
             var ___genericsType = new Type[] {};
@@ -1312,7 +1312,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public static void ThrowAbandonedMutexException(System.Int32  @location, System.Threading.WaitHandle  @handle)
+        public static void ThrowAbandonedMutexException(System.Int32 @location, System.Threading.WaitHandle @handle)
         {
 
             var ___genericsType = new Type[] {};
@@ -1334,7 +1334,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public virtual void Dispose(System.Boolean  @explicitDisposing)
+        public virtual void Dispose(System.Boolean @explicitDisposing)
         {
 
             var ___genericsType = new Type[] {};
@@ -1356,7 +1356,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public static System.Int32 WaitOneNative(System.Runtime.InteropServices.SafeHandle  @waitableSafeHandle, System.UInt32  @millisecondsTimeout, System.Boolean  @hasThreadAffinity, System.Boolean  @exitContext)
+        public static System.Int32 WaitOneNative(System.Runtime.InteropServices.SafeHandle @waitableSafeHandle, System.UInt32 @millisecondsTimeout, System.Boolean @hasThreadAffinity, System.Boolean @exitContext)
         {
 
             var ___genericsType = new Type[] {};
@@ -1367,7 +1367,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public static System.Int32 WaitMultiple(System.Threading.WaitHandle[]  @waitHandles, System.Int32  @millisecondsTimeout, System.Boolean  @exitContext, System.Boolean  @WaitAll)
+        public static System.Int32 WaitMultiple(System.Threading.WaitHandle[] @waitHandles, System.Int32 @millisecondsTimeout, System.Boolean @exitContext, System.Boolean @WaitAll)
         {
 
             var ___genericsType = new Type[] {};
@@ -1379,7 +1379,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 
 
 
-        public static System.Int32 SignalAndWaitOne(Microsoft.Win32.SafeHandles.SafeWaitHandle  @waitHandleToSignal, Microsoft.Win32.SafeHandles.SafeWaitHandle  @waitHandleToWaitOn, System.Int32  @millisecondsTimeout, System.Boolean  @hasThreadAffinity, System.Boolean  @exitContext)
+        public static System.Int32 SignalAndWaitOne(Microsoft.Win32.SafeHandles.SafeWaitHandle @waitHandleToSignal, Microsoft.Win32.SafeHandles.SafeWaitHandle @waitHandleToWaitOn, System.Int32 @millisecondsTimeout, System.Boolean @hasThreadAffinity, System.Boolean @exitContext)
         {
 
             var ___genericsType = new Type[] {};
@@ -1390,7 +1390,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public static System.Int32 SignalAndWait_Internal(System.IntPtr  @toSignal, System.IntPtr  @toWaitOn, System.Int32  @ms)
+        public static System.Int32 SignalAndWait_Internal(System.IntPtr @toSignal, System.IntPtr @toWaitOn, System.Int32 @ms)
         {
 
             var ___genericsType = new Type[] {};
@@ -1401,7 +1401,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public static System.Int32 ToTimeoutMilliseconds(System.TimeSpan  @timeout)
+        public static System.Int32 ToTimeoutMilliseconds(System.TimeSpan @timeout)
         {
 
             var ___genericsType = new Type[] {};
@@ -1412,7 +1412,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public virtual System.Object GetObjectIdentity(System.MarshalByRefObject  @obj, out System.Boolean  @IsClient)
+        public virtual RSystem.RRuntime.RRemoting.RIdentity GetObjectIdentity(System.MarshalByRefObject @obj, out System.Boolean @IsClient)
         {
 			@IsClient = default;
 
@@ -1421,11 +1421,11 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
             var ___result = RGetObjectIdentity_MarshalByRefObject_Out_Boolean.Invoke(___genericsType, ___parameters);
 			@IsClient = (System.Boolean)___parameters[1];
 
-            return (System.Object)___result;
+            return new RSystem.RRuntime.RRemoting.RIdentity(___result);
         }
 
 
-        public virtual System.Runtime.Remoting.ObjRef CreateObjRef(System.Type  @requestedType)
+        public virtual System.Runtime.Remoting.ObjRef CreateObjRef(System.Type @requestedType)
         {
 
             var ___genericsType = new Type[] {};
@@ -1458,7 +1458,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public virtual System.MarshalByRefObject MemberwiseClone(System.Boolean  @cloneIdentity)
+        public virtual System.MarshalByRefObject MemberwiseClone(System.Boolean @cloneIdentity)
         {
 
             var ___genericsType = new Type[] {};
@@ -1469,7 +1469,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

@@ -283,7 +283,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
 	    {
 	    }
 
-        public virtual void FreeNamedDataSlot(System.String  @name)
+        public virtual void FreeNamedDataSlot(System.String @name)
         {
 
             var ___genericsType = new Type[] {};
@@ -294,7 +294,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
         }
 
 
-        public virtual System.Object GetData(System.String  @name)
+        public virtual System.Object GetData(System.String @name)
         {
 
             var ___genericsType = new Type[] {};
@@ -305,7 +305,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
         }
 
 
-        public virtual void SetData(System.String  @name, System.Object  @data)
+        public virtual void SetData(System.String @name, System.Object @data)
         {
 
             var ___genericsType = new Type[] {};
@@ -316,18 +316,18 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
         }
 
 
-        public virtual System.Object CreateCopy()
+        public virtual RSystem.RRuntime.RRemoting.RMessaging.RIllogicalCallContext CreateCopy()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RCreateCopy.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RSystem.RRuntime.RRemoting.RMessaging.RIllogicalCallContext(___result);
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

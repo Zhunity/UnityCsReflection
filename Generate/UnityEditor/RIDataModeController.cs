@@ -96,7 +96,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 	    {
 	    }
 
-        public virtual void UpdateSupportedDataModes(System.Collections.Generic.IList<UnityEditor.DataMode>  @supportedDataMode, UnityEditor.DataMode  @preferredDataMode)
+        public virtual void UpdateSupportedDataModes(System.Collections.Generic.IList<UnityEditor.DataMode> @supportedDataMode, UnityEditor.DataMode @preferredDataMode)
         {
 
             var ___genericsType = new Type[] {};
@@ -107,7 +107,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual System.Boolean TryChangeDataMode(UnityEditor.DataMode  @newDataMode)
+        public virtual System.Boolean TryChangeDataMode(UnityEditor.DataMode @newDataMode)
         {
 
             var ___genericsType = new Type[] {};

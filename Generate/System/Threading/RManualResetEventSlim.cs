@@ -759,7 +759,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 	    {
 	    }
 
-        public virtual void Initialize(System.Boolean  @initialState, System.Int32  @spinCount)
+        public virtual void Initialize(System.Boolean @initialState, System.Int32 @spinCount)
         {
 
             var ___genericsType = new Type[] {};
@@ -803,7 +803,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public virtual void Set(System.Boolean  @duringCancellation)
+        public virtual void Set(System.Boolean @duringCancellation)
         {
 
             var ___genericsType = new Type[] {};
@@ -836,7 +836,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public virtual void Wait(System.Threading.CancellationToken  @cancellationToken)
+        public virtual void Wait(System.Threading.CancellationToken @cancellationToken)
         {
 
             var ___genericsType = new Type[] {};
@@ -847,7 +847,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public virtual System.Boolean Wait(System.TimeSpan  @timeout)
+        public virtual System.Boolean Wait(System.TimeSpan @timeout)
         {
 
             var ___genericsType = new Type[] {};
@@ -858,7 +858,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public virtual System.Boolean Wait(System.TimeSpan  @timeout, System.Threading.CancellationToken  @cancellationToken)
+        public virtual System.Boolean Wait(System.TimeSpan @timeout, System.Threading.CancellationToken @cancellationToken)
         {
 
             var ___genericsType = new Type[] {};
@@ -869,7 +869,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public virtual System.Boolean Wait(System.Int32  @millisecondsTimeout)
+        public virtual System.Boolean Wait(System.Int32 @millisecondsTimeout)
         {
 
             var ___genericsType = new Type[] {};
@@ -880,7 +880,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public virtual System.Boolean Wait(System.Int32  @millisecondsTimeout, System.Threading.CancellationToken  @cancellationToken)
+        public virtual System.Boolean Wait(System.Int32 @millisecondsTimeout, System.Threading.CancellationToken @cancellationToken)
         {
 
             var ___genericsType = new Type[] {};
@@ -902,7 +902,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public virtual void Dispose(System.Boolean  @disposing)
+        public virtual void Dispose(System.Boolean @disposing)
         {
 
             var ___genericsType = new Type[] {};
@@ -924,7 +924,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public static void CancellationTokenCallback(System.Object  @obj)
+        public static void CancellationTokenCallback(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};
@@ -935,7 +935,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public virtual void UpdateStateAtomically(System.Int32  @newBits, System.Int32  @updateBitsMask)
+        public virtual void UpdateStateAtomically(System.Int32 @newBits, System.Int32 @updateBitsMask)
         {
 
             var ___genericsType = new Type[] {};
@@ -946,7 +946,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public static System.Int32 ExtractStatePortionAndShiftRight(System.Int32  @state, System.Int32  @mask, System.Int32  @rightBitShiftCount)
+        public static System.Int32 ExtractStatePortionAndShiftRight(System.Int32 @state, System.Int32 @mask, System.Int32 @rightBitShiftCount)
         {
 
             var ___genericsType = new Type[] {};
@@ -957,7 +957,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public static System.Int32 ExtractStatePortion(System.Int32  @state, System.Int32  @mask)
+        public static System.Int32 ExtractStatePortion(System.Int32 @state, System.Int32 @mask)
         {
 
             var ___genericsType = new Type[] {};
@@ -968,7 +968,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

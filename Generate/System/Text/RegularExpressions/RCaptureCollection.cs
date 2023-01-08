@@ -679,7 +679,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
         }
 
 
-        public virtual System.Text.RegularExpressions.Capture GetCapture(System.Int32  @i)
+        public virtual System.Text.RegularExpressions.Capture GetCapture(System.Int32 @i)
         {
 
             var ___genericsType = new Type[] {};
@@ -701,7 +701,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
         }
 
 
-        public virtual void CopyTo(System.Array  @array, System.Int32  @arrayIndex)
+        public virtual void CopyTo(System.Array @array, System.Int32 @arrayIndex)
         {
 
             var ___genericsType = new Type[] {};
@@ -712,7 +712,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
         }
 
 
-        public virtual void CopyTo(System.Text.RegularExpressions.Capture[]  @array, System.Int32  @arrayIndex)
+        public virtual void CopyTo(System.Text.RegularExpressions.Capture[] @array, System.Int32 @arrayIndex)
         {
 
             var ___genericsType = new Type[] {};
@@ -723,7 +723,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
         }
 
 
-        public virtual System.Int32 System__2__Collections__2__Generic__2__IList__0__System__2__Text__2__RegularExpressions__2__Capture__1____2__IndexOf(System.Text.RegularExpressions.Capture  @item)
+        public virtual System.Int32 System__2__Collections__2__Generic__2__IList__0__System__2__Text__2__RegularExpressions__2__Capture__1____2__IndexOf(System.Text.RegularExpressions.Capture @item)
         {
 
             var ___genericsType = new Type[] {};
@@ -734,7 +734,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
         }
 
 
-        public virtual void System__2__Collections__2__Generic__2__IList__0__System__2__Text__2__RegularExpressions__2__Capture__1____2__Insert(System.Int32  @index, System.Text.RegularExpressions.Capture  @item)
+        public virtual void System__2__Collections__2__Generic__2__IList__0__System__2__Text__2__RegularExpressions__2__Capture__1____2__Insert(System.Int32 @index, System.Text.RegularExpressions.Capture @item)
         {
 
             var ___genericsType = new Type[] {};
@@ -745,7 +745,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
         }
 
 
-        public virtual void System__2__Collections__2__Generic__2__IList__0__System__2__Text__2__RegularExpressions__2__Capture__1____2__RemoveAt(System.Int32  @index)
+        public virtual void System__2__Collections__2__Generic__2__IList__0__System__2__Text__2__RegularExpressions__2__Capture__1____2__RemoveAt(System.Int32 @index)
         {
 
             var ___genericsType = new Type[] {};
@@ -756,7 +756,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
         }
 
 
-        public virtual void System__2__Collections__2__Generic__2__ICollection__0__System__2__Text__2__RegularExpressions__2__Capture__1____2__Add(System.Text.RegularExpressions.Capture  @item)
+        public virtual void System__2__Collections__2__Generic__2__ICollection__0__System__2__Text__2__RegularExpressions__2__Capture__1____2__Add(System.Text.RegularExpressions.Capture @item)
         {
 
             var ___genericsType = new Type[] {};
@@ -778,7 +778,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
         }
 
 
-        public virtual System.Boolean System__2__Collections__2__Generic__2__ICollection__0__System__2__Text__2__RegularExpressions__2__Capture__1____2__Contains(System.Text.RegularExpressions.Capture  @item)
+        public virtual System.Boolean System__2__Collections__2__Generic__2__ICollection__0__System__2__Text__2__RegularExpressions__2__Capture__1____2__Contains(System.Text.RegularExpressions.Capture @item)
         {
 
             var ___genericsType = new Type[] {};
@@ -789,7 +789,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
         }
 
 
-        public virtual System.Boolean System__2__Collections__2__Generic__2__ICollection__0__System__2__Text__2__RegularExpressions__2__Capture__1____2__Remove(System.Text.RegularExpressions.Capture  @item)
+        public virtual System.Boolean System__2__Collections__2__Generic__2__ICollection__0__System__2__Text__2__RegularExpressions__2__Capture__1____2__Remove(System.Text.RegularExpressions.Capture @item)
         {
 
             var ___genericsType = new Type[] {};
@@ -800,7 +800,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
         }
 
 
-        public virtual System.Int32 System__2__Collections__2__IList__2__Add(System.Object  @value)
+        public virtual System.Int32 System__2__Collections__2__IList__2__Add(System.Object @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -822,7 +822,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
         }
 
 
-        public virtual System.Boolean System__2__Collections__2__IList__2__Contains(System.Object  @value)
+        public virtual System.Boolean System__2__Collections__2__IList__2__Contains(System.Object @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -833,7 +833,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
         }
 
 
-        public virtual System.Int32 System__2__Collections__2__IList__2__IndexOf(System.Object  @value)
+        public virtual System.Int32 System__2__Collections__2__IList__2__IndexOf(System.Object @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -844,7 +844,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
         }
 
 
-        public virtual void System__2__Collections__2__IList__2__Insert(System.Int32  @index, System.Object  @value)
+        public virtual void System__2__Collections__2__IList__2__Insert(System.Int32 @index, System.Object @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -855,7 +855,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
         }
 
 
-        public virtual void System__2__Collections__2__IList__2__Remove(System.Object  @value)
+        public virtual void System__2__Collections__2__IList__2__Remove(System.Object @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -866,7 +866,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
         }
 
 
-        public virtual void System__2__Collections__2__IList__2__RemoveAt(System.Int32  @index)
+        public virtual void System__2__Collections__2__IList__2__RemoveAt(System.Int32 @index)
         {
 
             var ___genericsType = new Type[] {};
@@ -877,7 +877,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

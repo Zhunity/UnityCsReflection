@@ -368,7 +368,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
 	    {
 	    }
 
-        public virtual UnityEngine.UIElements.Experimental.ValueAnimation<System.Single> Start(System.Single  @from, System.Single  @to, System.Int32  @durationMs, System.Action<UnityEngine.UIElements.VisualElement, System.Single>  @onValueChanged)
+        public virtual UnityEngine.UIElements.Experimental.ValueAnimation<System.Single> Start(System.Single @from, System.Single @to, System.Int32 @durationMs, System.Action<UnityEngine.UIElements.VisualElement, System.Single> @onValueChanged)
         {
 
             var ___genericsType = new Type[] {};
@@ -379,7 +379,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
         }
 
 
-        public virtual UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Rect> Start(UnityEngine.Rect  @from, UnityEngine.Rect  @to, System.Int32  @durationMs, System.Action<UnityEngine.UIElements.VisualElement, UnityEngine.Rect>  @onValueChanged)
+        public virtual UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Rect> Start(UnityEngine.Rect @from, UnityEngine.Rect @to, System.Int32 @durationMs, System.Action<UnityEngine.UIElements.VisualElement, UnityEngine.Rect> @onValueChanged)
         {
 
             var ___genericsType = new Type[] {};
@@ -390,7 +390,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
         }
 
 
-        public virtual UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Color> Start(UnityEngine.Color  @from, UnityEngine.Color  @to, System.Int32  @durationMs, System.Action<UnityEngine.UIElements.VisualElement, UnityEngine.Color>  @onValueChanged)
+        public virtual UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Color> Start(UnityEngine.Color @from, UnityEngine.Color @to, System.Int32 @durationMs, System.Action<UnityEngine.UIElements.VisualElement, UnityEngine.Color> @onValueChanged)
         {
 
             var ___genericsType = new Type[] {};
@@ -401,7 +401,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
         }
 
 
-        public virtual UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Vector3> Start(UnityEngine.Vector3  @from, UnityEngine.Vector3  @to, System.Int32  @durationMs, System.Action<UnityEngine.UIElements.VisualElement, UnityEngine.Vector3>  @onValueChanged)
+        public virtual UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Vector3> Start(UnityEngine.Vector3 @from, UnityEngine.Vector3 @to, System.Int32 @durationMs, System.Action<UnityEngine.UIElements.VisualElement, UnityEngine.Vector3> @onValueChanged)
         {
 
             var ___genericsType = new Type[] {};
@@ -412,7 +412,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
         }
 
 
-        public virtual UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Vector2> Start(UnityEngine.Vector2  @from, UnityEngine.Vector2  @to, System.Int32  @durationMs, System.Action<UnityEngine.UIElements.VisualElement, UnityEngine.Vector2>  @onValueChanged)
+        public virtual UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Vector2> Start(UnityEngine.Vector2 @from, UnityEngine.Vector2 @to, System.Int32 @durationMs, System.Action<UnityEngine.UIElements.VisualElement, UnityEngine.Vector2> @onValueChanged)
         {
 
             var ___genericsType = new Type[] {};
@@ -423,7 +423,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
         }
 
 
-        public virtual UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Quaternion> Start(UnityEngine.Quaternion  @from, UnityEngine.Quaternion  @to, System.Int32  @durationMs, System.Action<UnityEngine.UIElements.VisualElement, UnityEngine.Quaternion>  @onValueChanged)
+        public virtual UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Quaternion> Start(UnityEngine.Quaternion @from, UnityEngine.Quaternion @to, System.Int32 @durationMs, System.Action<UnityEngine.UIElements.VisualElement, UnityEngine.Quaternion> @onValueChanged)
         {
 
             var ___genericsType = new Type[] {};
@@ -434,7 +434,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
         }
 
 
-        public virtual UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.UIElements.Experimental.StyleValues> Start(UnityEngine.UIElements.Experimental.StyleValues  @from, UnityEngine.UIElements.Experimental.StyleValues  @to, System.Int32  @durationMs)
+        public virtual UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.UIElements.Experimental.StyleValues> Start(UnityEngine.UIElements.Experimental.StyleValues @from, UnityEngine.UIElements.Experimental.StyleValues @to, System.Int32 @durationMs)
         {
 
             var ___genericsType = new Type[] {};
@@ -445,7 +445,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
         }
 
 
-        public virtual UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.UIElements.Experimental.StyleValues> Start(UnityEngine.UIElements.Experimental.StyleValues  @to, System.Int32  @durationMs)
+        public virtual UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.UIElements.Experimental.StyleValues> Start(UnityEngine.UIElements.Experimental.StyleValues @to, System.Int32 @durationMs)
         {
 
             var ___genericsType = new Type[] {};
@@ -456,7 +456,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
         }
 
 
-        public virtual UnityEngine.UIElements.Experimental.ValueAnimation<System.Single> Start(System.Func<UnityEngine.UIElements.VisualElement, System.Single>  @fromValueGetter, System.Single  @to, System.Int32  @durationMs, System.Action<UnityEngine.UIElements.VisualElement, System.Single>  @onValueChanged)
+        public virtual UnityEngine.UIElements.Experimental.ValueAnimation<System.Single> Start(System.Func<UnityEngine.UIElements.VisualElement, System.Single> @fromValueGetter, System.Single @to, System.Int32 @durationMs, System.Action<UnityEngine.UIElements.VisualElement, System.Single> @onValueChanged)
         {
 
             var ___genericsType = new Type[] {};
@@ -467,7 +467,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
         }
 
 
-        public virtual UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Rect> Start(System.Func<UnityEngine.UIElements.VisualElement, UnityEngine.Rect>  @fromValueGetter, UnityEngine.Rect  @to, System.Int32  @durationMs, System.Action<UnityEngine.UIElements.VisualElement, UnityEngine.Rect>  @onValueChanged)
+        public virtual UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Rect> Start(System.Func<UnityEngine.UIElements.VisualElement, UnityEngine.Rect> @fromValueGetter, UnityEngine.Rect @to, System.Int32 @durationMs, System.Action<UnityEngine.UIElements.VisualElement, UnityEngine.Rect> @onValueChanged)
         {
 
             var ___genericsType = new Type[] {};
@@ -478,7 +478,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
         }
 
 
-        public virtual UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Color> Start(System.Func<UnityEngine.UIElements.VisualElement, UnityEngine.Color>  @fromValueGetter, UnityEngine.Color  @to, System.Int32  @durationMs, System.Action<UnityEngine.UIElements.VisualElement, UnityEngine.Color>  @onValueChanged)
+        public virtual UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Color> Start(System.Func<UnityEngine.UIElements.VisualElement, UnityEngine.Color> @fromValueGetter, UnityEngine.Color @to, System.Int32 @durationMs, System.Action<UnityEngine.UIElements.VisualElement, UnityEngine.Color> @onValueChanged)
         {
 
             var ___genericsType = new Type[] {};
@@ -489,7 +489,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
         }
 
 
-        public virtual UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Vector3> Start(System.Func<UnityEngine.UIElements.VisualElement, UnityEngine.Vector3>  @fromValueGetter, UnityEngine.Vector3  @to, System.Int32  @durationMs, System.Action<UnityEngine.UIElements.VisualElement, UnityEngine.Vector3>  @onValueChanged)
+        public virtual UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Vector3> Start(System.Func<UnityEngine.UIElements.VisualElement, UnityEngine.Vector3> @fromValueGetter, UnityEngine.Vector3 @to, System.Int32 @durationMs, System.Action<UnityEngine.UIElements.VisualElement, UnityEngine.Vector3> @onValueChanged)
         {
 
             var ___genericsType = new Type[] {};
@@ -500,7 +500,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
         }
 
 
-        public virtual UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Vector2> Start(System.Func<UnityEngine.UIElements.VisualElement, UnityEngine.Vector2>  @fromValueGetter, UnityEngine.Vector2  @to, System.Int32  @durationMs, System.Action<UnityEngine.UIElements.VisualElement, UnityEngine.Vector2>  @onValueChanged)
+        public virtual UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Vector2> Start(System.Func<UnityEngine.UIElements.VisualElement, UnityEngine.Vector2> @fromValueGetter, UnityEngine.Vector2 @to, System.Int32 @durationMs, System.Action<UnityEngine.UIElements.VisualElement, UnityEngine.Vector2> @onValueChanged)
         {
 
             var ___genericsType = new Type[] {};
@@ -511,7 +511,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
         }
 
 
-        public virtual UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Quaternion> Start(System.Func<UnityEngine.UIElements.VisualElement, UnityEngine.Quaternion>  @fromValueGetter, UnityEngine.Quaternion  @to, System.Int32  @durationMs, System.Action<UnityEngine.UIElements.VisualElement, UnityEngine.Quaternion>  @onValueChanged)
+        public virtual UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Quaternion> Start(System.Func<UnityEngine.UIElements.VisualElement, UnityEngine.Quaternion> @fromValueGetter, UnityEngine.Quaternion @to, System.Int32 @durationMs, System.Action<UnityEngine.UIElements.VisualElement, UnityEngine.Quaternion> @onValueChanged)
         {
 
             var ___genericsType = new Type[] {};
@@ -522,7 +522,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
         }
 
 
-        public virtual UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Rect> Layout(UnityEngine.Rect  @to, System.Int32  @durationMs)
+        public virtual UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Rect> Layout(UnityEngine.Rect @to, System.Int32 @durationMs)
         {
 
             var ___genericsType = new Type[] {};
@@ -533,7 +533,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
         }
 
 
-        public virtual UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Vector2> TopLeft(UnityEngine.Vector2  @to, System.Int32  @durationMs)
+        public virtual UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Vector2> TopLeft(UnityEngine.Vector2 @to, System.Int32 @durationMs)
         {
 
             var ___genericsType = new Type[] {};
@@ -544,7 +544,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
         }
 
 
-        public virtual UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Vector2> Size(UnityEngine.Vector2  @to, System.Int32  @durationMs)
+        public virtual UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Vector2> Size(UnityEngine.Vector2 @to, System.Int32 @durationMs)
         {
 
             var ___genericsType = new Type[] {};
@@ -555,7 +555,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
         }
 
 
-        public virtual UnityEngine.UIElements.Experimental.ValueAnimation<System.Single> Scale(System.Single  @to, System.Int32  @duration)
+        public virtual UnityEngine.UIElements.Experimental.ValueAnimation<System.Single> Scale(System.Single @to, System.Int32 @duration)
         {
 
             var ___genericsType = new Type[] {};
@@ -566,7 +566,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
         }
 
 
-        public virtual UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Vector3> Position(UnityEngine.Vector3  @to, System.Int32  @duration)
+        public virtual UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Vector3> Position(UnityEngine.Vector3 @to, System.Int32 @duration)
         {
 
             var ___genericsType = new Type[] {};
@@ -577,7 +577,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
         }
 
 
-        public virtual UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Quaternion> Rotation(UnityEngine.Quaternion  @to, System.Int32  @duration)
+        public virtual UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Quaternion> Rotation(UnityEngine.Quaternion @to, System.Int32 @duration)
         {
 
             var ___genericsType = new Type[] {};

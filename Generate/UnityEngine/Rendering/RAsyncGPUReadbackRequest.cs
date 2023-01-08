@@ -764,7 +764,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual System.Object GetData<T>(System.Int32  @layer) where T : struct
+        public virtual System.Object GetData<T>(System.Int32 @layer) where T : struct
         {
 
             var ___genericsType = new Type[] {typeof(T)};
@@ -874,7 +874,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetScriptingCallback(System.Action<UnityEngine.Rendering.AsyncGPUReadbackRequest>  @callback)
+        public virtual void SetScriptingCallback(System.Action<UnityEngine.Rendering.AsyncGPUReadbackRequest> @callback)
         {
 
             var ___genericsType = new Type[] {};
@@ -885,7 +885,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual System.IntPtr GetDataRaw(System.Int32  @layer)
+        public virtual System.IntPtr GetDataRaw(System.Int32 @layer)
         {
 
             var ___genericsType = new Type[] {};
@@ -896,7 +896,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public static void Update_Injected(ref UnityEngine.Rendering.AsyncGPUReadbackRequest  @_unity_self)
+        public static void Update_Injected(ref UnityEngine.Rendering.AsyncGPUReadbackRequest @_unity_self)
         {
 
             var ___genericsType = new Type[] {};
@@ -908,7 +908,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public static void WaitForCompletion_Injected(ref UnityEngine.Rendering.AsyncGPUReadbackRequest  @_unity_self)
+        public static void WaitForCompletion_Injected(ref UnityEngine.Rendering.AsyncGPUReadbackRequest @_unity_self)
         {
 
             var ___genericsType = new Type[] {};
@@ -920,7 +920,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public static System.Boolean IsDone_Injected(ref UnityEngine.Rendering.AsyncGPUReadbackRequest  @_unity_self)
+        public static System.Boolean IsDone_Injected(ref UnityEngine.Rendering.AsyncGPUReadbackRequest @_unity_self)
         {
 
             var ___genericsType = new Type[] {};
@@ -932,7 +932,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public static System.Boolean HasError_Injected(ref UnityEngine.Rendering.AsyncGPUReadbackRequest  @_unity_self)
+        public static System.Boolean HasError_Injected(ref UnityEngine.Rendering.AsyncGPUReadbackRequest @_unity_self)
         {
 
             var ___genericsType = new Type[] {};
@@ -944,7 +944,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public static System.Int32 GetLayerCount_Injected(ref UnityEngine.Rendering.AsyncGPUReadbackRequest  @_unity_self)
+        public static System.Int32 GetLayerCount_Injected(ref UnityEngine.Rendering.AsyncGPUReadbackRequest @_unity_self)
         {
 
             var ___genericsType = new Type[] {};
@@ -956,7 +956,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public static System.Int32 GetLayerDataSize_Injected(ref UnityEngine.Rendering.AsyncGPUReadbackRequest  @_unity_self)
+        public static System.Int32 GetLayerDataSize_Injected(ref UnityEngine.Rendering.AsyncGPUReadbackRequest @_unity_self)
         {
 
             var ___genericsType = new Type[] {};
@@ -968,7 +968,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public static System.Int32 GetWidth_Injected(ref UnityEngine.Rendering.AsyncGPUReadbackRequest  @_unity_self)
+        public static System.Int32 GetWidth_Injected(ref UnityEngine.Rendering.AsyncGPUReadbackRequest @_unity_self)
         {
 
             var ___genericsType = new Type[] {};
@@ -980,7 +980,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public static System.Int32 GetHeight_Injected(ref UnityEngine.Rendering.AsyncGPUReadbackRequest  @_unity_self)
+        public static System.Int32 GetHeight_Injected(ref UnityEngine.Rendering.AsyncGPUReadbackRequest @_unity_self)
         {
 
             var ___genericsType = new Type[] {};
@@ -992,7 +992,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public static System.Int32 GetDepth_Injected(ref UnityEngine.Rendering.AsyncGPUReadbackRequest  @_unity_self)
+        public static System.Int32 GetDepth_Injected(ref UnityEngine.Rendering.AsyncGPUReadbackRequest @_unity_self)
         {
 
             var ___genericsType = new Type[] {};
@@ -1004,7 +1004,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public static void CreateSafetyHandle_Injected(ref UnityEngine.Rendering.AsyncGPUReadbackRequest  @_unity_self)
+        public static void CreateSafetyHandle_Injected(ref UnityEngine.Rendering.AsyncGPUReadbackRequest @_unity_self)
         {
 
             var ___genericsType = new Type[] {};
@@ -1016,7 +1016,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public static void GetSafetyHandle_Injected(ref UnityEngine.Rendering.AsyncGPUReadbackRequest  @_unity_self, out Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle  @ret)
+        public static void GetSafetyHandle_Injected(ref UnityEngine.Rendering.AsyncGPUReadbackRequest @_unity_self, out Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @ret)
         {
 			@ret = default;
 
@@ -1030,7 +1030,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public static void SetScriptingCallback_Injected(ref UnityEngine.Rendering.AsyncGPUReadbackRequest  @_unity_self, System.Action<UnityEngine.Rendering.AsyncGPUReadbackRequest>  @callback)
+        public static void SetScriptingCallback_Injected(ref UnityEngine.Rendering.AsyncGPUReadbackRequest @_unity_self, System.Action<UnityEngine.Rendering.AsyncGPUReadbackRequest> @callback)
         {
 
             var ___genericsType = new Type[] {};
@@ -1042,7 +1042,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public static System.IntPtr GetDataRaw_Injected(ref UnityEngine.Rendering.AsyncGPUReadbackRequest  @_unity_self, System.Int32  @layer)
+        public static System.IntPtr GetDataRaw_Injected(ref UnityEngine.Rendering.AsyncGPUReadbackRequest @_unity_self, System.Int32 @layer)
         {
 
             var ___genericsType = new Type[] {};
@@ -1054,7 +1054,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

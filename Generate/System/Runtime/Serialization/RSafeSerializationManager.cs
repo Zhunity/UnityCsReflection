@@ -334,7 +334,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization
 	    {
 	    }
 
-        public virtual void CompleteSerialization(System.Object  @serializedObject, System.Runtime.Serialization.SerializationInfo  @info, System.Runtime.Serialization.StreamingContext  @context)
+        public virtual void CompleteSerialization(System.Object @serializedObject, System.Runtime.Serialization.SerializationInfo @info, System.Runtime.Serialization.StreamingContext @context)
         {
 
             var ___genericsType = new Type[] {};
@@ -345,7 +345,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization
         }
 
 
-        public virtual void CompleteDeserialization(System.Object  @deserializedObject)
+        public virtual void CompleteDeserialization(System.Object @deserializedObject)
         {
 
             var ___genericsType = new Type[] {};
@@ -356,7 +356,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization
         }
 
 
-        public virtual void System__2__Runtime__2__Serialization__2__ISerializable__2__GetObjectData(System.Runtime.Serialization.SerializationInfo  @info, System.Runtime.Serialization.StreamingContext  @context)
+        public virtual void System__2__Runtime__2__Serialization__2__ISerializable__2__GetObjectData(System.Runtime.Serialization.SerializationInfo @info, System.Runtime.Serialization.StreamingContext @context)
         {
 
             var ___genericsType = new Type[] {};
@@ -367,7 +367,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization
         }
 
 
-        public virtual System.Object System__2__Runtime__2__Serialization__2__IObjectReference__2__GetRealObject(System.Runtime.Serialization.StreamingContext  @context)
+        public virtual System.Object System__2__Runtime__2__Serialization__2__IObjectReference__2__GetRealObject(System.Runtime.Serialization.StreamingContext @context)
         {
 
             var ___genericsType = new Type[] {};
@@ -378,7 +378,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization
         }
 
 
-        public virtual void OnDeserialized(System.Runtime.Serialization.StreamingContext  @context)
+        public virtual void OnDeserialized(System.Runtime.Serialization.StreamingContext @context)
         {
 
             var ___genericsType = new Type[] {};
@@ -389,7 +389,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

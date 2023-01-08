@@ -623,7 +623,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
 	    {
 	    }
 
-        public virtual void GetObjectData(System.Runtime.Serialization.SerializationInfo  @info, System.Runtime.Serialization.StreamingContext  @context)
+        public virtual void GetObjectData(System.Runtime.Serialization.SerializationInfo @info, System.Runtime.Serialization.StreamingContext @context)
         {
 
             var ___genericsType = new Type[] {};
@@ -645,7 +645,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
         }
 
 
-        public virtual void Merge(System.Runtime.Remoting.Messaging.LogicalCallContext  @lc)
+        public virtual void Merge(System.Runtime.Remoting.Messaging.LogicalCallContext @lc)
         {
 
             var ___genericsType = new Type[] {};
@@ -656,7 +656,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
         }
 
 
-        public virtual void FreeNamedDataSlot(System.String  @name)
+        public virtual void FreeNamedDataSlot(System.String @name)
         {
 
             var ___genericsType = new Type[] {};
@@ -667,7 +667,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
         }
 
 
-        public virtual System.Object GetData(System.String  @name)
+        public virtual System.Object GetData(System.String @name)
         {
 
             var ___genericsType = new Type[] {};
@@ -678,7 +678,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
         }
 
 
-        public virtual void SetData(System.String  @name, System.Object  @data)
+        public virtual void SetData(System.String @name, System.Object @data)
         {
 
             var ___genericsType = new Type[] {};
@@ -700,7 +700,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
         }
 
 
-        public virtual void InternalSetHeaders(System.Runtime.Remoting.Messaging.Header[]  @headers)
+        public virtual void InternalSetHeaders(System.Runtime.Remoting.Messaging.Header[] @headers)
         {
 
             var ___genericsType = new Type[] {};
@@ -733,7 +733,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
         }
 
 
-        public virtual void PropagateOutgoingHeadersToMessage(System.Runtime.Remoting.Messaging.IMessage  @msg)
+        public virtual void PropagateOutgoingHeadersToMessage(System.Runtime.Remoting.Messaging.IMessage @msg)
         {
 
             var ___genericsType = new Type[] {};
@@ -744,7 +744,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
         }
 
 
-        public static System.String GetPropertyKeyForHeader(System.Runtime.Remoting.Messaging.Header  @header)
+        public static System.String GetPropertyKeyForHeader(System.Runtime.Remoting.Messaging.Header @header)
         {
 
             var ___genericsType = new Type[] {};
@@ -755,7 +755,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
         }
 
 
-        public virtual void PropagateIncomingHeadersToCallContext(System.Runtime.Remoting.Messaging.IMessage  @msg)
+        public virtual void PropagateIncomingHeadersToCallContext(System.Runtime.Remoting.Messaging.IMessage @msg)
         {
 
             var ___genericsType = new Type[] {};
@@ -766,7 +766,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

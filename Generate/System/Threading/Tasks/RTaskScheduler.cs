@@ -555,7 +555,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 	    {
 	    }
 
-        public virtual void QueueTask(System.Threading.Tasks.Task  @task)
+        public virtual void QueueTask(System.Threading.Tasks.Task @task)
         {
 
             var ___genericsType = new Type[] {};
@@ -566,7 +566,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
         }
 
 
-        public virtual System.Boolean TryExecuteTaskInline(System.Threading.Tasks.Task  @task, System.Boolean  @taskWasPreviouslyQueued)
+        public virtual System.Boolean TryExecuteTaskInline(System.Threading.Tasks.Task @task, System.Boolean @taskWasPreviouslyQueued)
         {
 
             var ___genericsType = new Type[] {};
@@ -588,7 +588,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
         }
 
 
-        public virtual System.Boolean TryRunInline(System.Threading.Tasks.Task  @task, System.Boolean  @taskWasPreviouslyQueued)
+        public virtual System.Boolean TryRunInline(System.Threading.Tasks.Task @task, System.Boolean @taskWasPreviouslyQueued)
         {
 
             var ___genericsType = new Type[] {};
@@ -599,7 +599,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
         }
 
 
-        public virtual System.Boolean TryDequeue(System.Threading.Tasks.Task  @task)
+        public virtual System.Boolean TryDequeue(System.Threading.Tasks.Task @task)
         {
 
             var ___genericsType = new Type[] {};
@@ -643,7 +643,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
         }
 
 
-        public virtual System.Boolean TryExecuteTask(System.Threading.Tasks.Task  @task)
+        public virtual System.Boolean TryExecuteTask(System.Threading.Tasks.Task @task)
         {
 
             var ___genericsType = new Type[] {};
@@ -654,7 +654,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
         }
 
 
-        public static void PublishUnobservedTaskException(System.Object  @sender, System.Threading.Tasks.UnobservedTaskExceptionEventArgs  @ueea)
+        public static void PublishUnobservedTaskException(System.Object @sender, System.Threading.Tasks.UnobservedTaskExceptionEventArgs @ueea)
         {
 
             var ___genericsType = new Type[] {};
@@ -687,7 +687,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

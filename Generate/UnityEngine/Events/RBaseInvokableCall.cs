@@ -198,7 +198,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.REvents
 	    {
 	    }
 
-        public virtual void Invoke(System.Object[]  @args)
+        public virtual void Invoke(System.Object[] @args)
         {
 
             var ___genericsType = new Type[] {};
@@ -209,7 +209,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.REvents
         }
 
 
-        public static void ThrowOnInvalidArg<T>(System.Object  @arg)
+        public static void ThrowOnInvalidArg<T>(System.Object @arg)
         {
 
             var ___genericsType = new Type[] {typeof(T)};
@@ -220,7 +220,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.REvents
         }
 
 
-        public static System.Boolean AllowInvoke(System.Delegate  @delegate)
+        public static System.Boolean AllowInvoke(System.Delegate @delegate)
         {
 
             var ___genericsType = new Type[] {};
@@ -231,7 +231,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.REvents
         }
 
 
-        public virtual System.Boolean Find(System.Object  @targetObj, System.Reflection.MethodInfo  @method)
+        public virtual System.Boolean Find(System.Object @targetObj, System.Reflection.MethodInfo @method)
         {
 
             var ___genericsType = new Type[] {};
@@ -242,7 +242,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.REvents
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

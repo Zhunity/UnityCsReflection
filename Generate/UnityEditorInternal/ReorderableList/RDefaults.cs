@@ -761,7 +761,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditorInternal
 	    {
 	    }
 
-        public virtual System.Int32 ArrayCountInPropertyPath(UnityEditor.SerializedProperty  @prop)
+        public virtual System.Int32 ArrayCountInPropertyPath(UnityEditor.SerializedProperty @prop)
         {
 
             var ___genericsType = new Type[] {};
@@ -772,7 +772,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditorInternal
         }
 
 
-        public virtual System.Single FieldLabelSize(UnityEngine.Rect  @r, UnityEditor.SerializedProperty  @prop)
+        public virtual System.Single FieldLabelSize(UnityEngine.Rect @r, UnityEditor.SerializedProperty @prop)
         {
 
             var ___genericsType = new Type[] {};
@@ -783,7 +783,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditorInternal
         }
 
 
-        public static System.Single ElementPadding(System.Single  @height)
+        public static System.Single ElementPadding(System.Single @height)
         {
 
             var ___genericsType = new Type[] {};
@@ -794,7 +794,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditorInternal
         }
 
 
-        public static UnityEngine.GUIContent OverMaxMultiEditLimit(System.Int32  @maxMultiEditElementCount)
+        public static UnityEngine.GUIContent OverMaxMultiEditLimit(System.Int32 @maxMultiEditElementCount)
         {
 
             var ___genericsType = new Type[] {};
@@ -805,7 +805,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditorInternal
         }
 
 
-        public virtual void DrawFooter(UnityEngine.Rect  @rect, UnityEditorInternal.ReorderableList  @list)
+        public virtual void DrawFooter(UnityEngine.Rect @rect, UnityEditorInternal.ReorderableList @list)
         {
 
             var ___genericsType = new Type[] {};
@@ -816,7 +816,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditorInternal
         }
 
 
-        public virtual void DoAddButton(UnityEditorInternal.ReorderableList  @list, UnityEngine.Object  @value)
+        public virtual void DoAddButton(UnityEditorInternal.ReorderableList @list, UnityEngine.Object @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -827,7 +827,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditorInternal
         }
 
 
-        public virtual void DoAddButton(UnityEditorInternal.ReorderableList  @list)
+        public virtual void DoAddButton(UnityEditorInternal.ReorderableList @list)
         {
 
             var ___genericsType = new Type[] {};
@@ -838,7 +838,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditorInternal
         }
 
 
-        public virtual void DoRemoveButton(UnityEditorInternal.ReorderableList  @list)
+        public virtual void DoRemoveButton(UnityEditorInternal.ReorderableList @list)
         {
 
             var ___genericsType = new Type[] {};
@@ -849,7 +849,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditorInternal
         }
 
 
-        public virtual void DrawHeaderBackground(UnityEngine.Rect  @headerRect)
+        public virtual void DrawHeaderBackground(UnityEngine.Rect @headerRect)
         {
 
             var ___genericsType = new Type[] {};
@@ -860,7 +860,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditorInternal
         }
 
 
-        public virtual void DrawHeader(UnityEngine.Rect  @headerRect, UnityEditor.SerializedObject  @serializedObject, UnityEditor.SerializedProperty  @element, System.Collections.IList  @elementList)
+        public virtual void DrawHeader(UnityEngine.Rect @headerRect, UnityEditor.SerializedObject @serializedObject, UnityEditor.SerializedProperty @element, System.Collections.IList @elementList)
         {
 
             var ___genericsType = new Type[] {};
@@ -871,7 +871,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditorInternal
         }
 
 
-        public virtual void DrawElementBackground(UnityEngine.Rect  @rect, System.Int32  @index, System.Boolean  @selected, System.Boolean  @focused, System.Boolean  @draggable)
+        public virtual void DrawElementBackground(UnityEngine.Rect @rect, System.Int32 @index, System.Boolean @selected, System.Boolean @focused, System.Boolean @draggable)
         {
 
             var ___genericsType = new Type[] {};
@@ -882,7 +882,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditorInternal
         }
 
 
-        public virtual void DrawElementDraggingHandle(UnityEngine.Rect  @rect, System.Int32  @index, System.Boolean  @selected, System.Boolean  @focused, System.Boolean  @draggable)
+        public virtual void DrawElementDraggingHandle(UnityEngine.Rect @rect, System.Int32 @index, System.Boolean @selected, System.Boolean @focused, System.Boolean @draggable)
         {
 
             var ___genericsType = new Type[] {};
@@ -893,7 +893,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditorInternal
         }
 
 
-        public virtual void DrawElement(UnityEngine.Rect  @rect, UnityEditor.SerializedProperty  @element, System.Object  @listItem, System.Boolean  @selected, System.Boolean  @focused, System.Boolean  @draggable)
+        public virtual void DrawElement(UnityEngine.Rect @rect, UnityEditor.SerializedProperty @element, System.Object @listItem, System.Boolean @selected, System.Boolean @focused, System.Boolean @draggable)
         {
 
             var ___genericsType = new Type[] {};
@@ -904,7 +904,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditorInternal
         }
 
 
-        public virtual void DrawElement(UnityEngine.Rect  @rect, UnityEditor.SerializedProperty  @element, System.Object  @listItem, System.Boolean  @selected, System.Boolean  @focused, System.Boolean  @draggable, System.Boolean  @editable)
+        public virtual void DrawElement(UnityEngine.Rect @rect, UnityEditor.SerializedProperty @element, System.Object @listItem, System.Boolean @selected, System.Boolean @focused, System.Boolean @draggable, System.Boolean @editable)
         {
 
             var ___genericsType = new Type[] {};
@@ -915,7 +915,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditorInternal
         }
 
 
-        public virtual void DrawNoneElement(UnityEngine.Rect  @rect, System.Boolean  @draggable)
+        public virtual void DrawNoneElement(UnityEngine.Rect @rect, System.Boolean @draggable)
         {
 
             var ___genericsType = new Type[] {};
@@ -926,7 +926,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditorInternal
         }
 
 
-        public virtual void DrawOverMaxMultiEditElement(UnityEngine.Rect  @rect, System.Int32  @maxMultiEditElementCount, System.Boolean  @draggable)
+        public virtual void DrawOverMaxMultiEditElement(UnityEngine.Rect @rect, System.Int32 @maxMultiEditElementCount, System.Boolean @draggable)
         {
 
             var ___genericsType = new Type[] {};
@@ -937,7 +937,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditorInternal
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

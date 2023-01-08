@@ -591,7 +591,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 	    {
 	    }
 
-        public virtual void Add(UnityEngine.UIElements.VisualElement  @child)
+        public virtual void Add(UnityEngine.UIElements.VisualElement @child)
         {
 
             var ___genericsType = new Type[] {};
@@ -602,7 +602,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void Insert(System.Int32  @index, UnityEngine.UIElements.VisualElement  @child)
+        public virtual void Insert(System.Int32 @index, UnityEngine.UIElements.VisualElement @child)
         {
 
             var ___genericsType = new Type[] {};
@@ -613,7 +613,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void Remove(UnityEngine.UIElements.VisualElement  @child)
+        public virtual void Remove(UnityEngine.UIElements.VisualElement @child)
         {
 
             var ___genericsType = new Type[] {};
@@ -624,7 +624,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void RemoveAt(System.Int32  @index)
+        public virtual void RemoveAt(System.Int32 @index)
         {
 
             var ___genericsType = new Type[] {};
@@ -646,7 +646,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void BringToFront(UnityEngine.UIElements.VisualElement  @child)
+        public virtual void BringToFront(UnityEngine.UIElements.VisualElement @child)
         {
 
             var ___genericsType = new Type[] {};
@@ -657,7 +657,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void SendToBack(UnityEngine.UIElements.VisualElement  @child)
+        public virtual void SendToBack(UnityEngine.UIElements.VisualElement @child)
         {
 
             var ___genericsType = new Type[] {};
@@ -668,7 +668,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void PlaceBehind(UnityEngine.UIElements.VisualElement  @child, UnityEngine.UIElements.VisualElement  @over)
+        public virtual void PlaceBehind(UnityEngine.UIElements.VisualElement @child, UnityEngine.UIElements.VisualElement @over)
         {
 
             var ___genericsType = new Type[] {};
@@ -679,7 +679,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void PlaceInFront(UnityEngine.UIElements.VisualElement  @child, UnityEngine.UIElements.VisualElement  @under)
+        public virtual void PlaceInFront(UnityEngine.UIElements.VisualElement @child, UnityEngine.UIElements.VisualElement @under)
         {
 
             var ___genericsType = new Type[] {};
@@ -690,7 +690,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void MoveChildElement(UnityEngine.UIElements.VisualElement  @child, System.Int32  @currentIndex, System.Int32  @nextIndex)
+        public virtual void MoveChildElement(UnityEngine.UIElements.VisualElement @child, System.Int32 @currentIndex, System.Int32 @nextIndex)
         {
 
             var ___genericsType = new Type[] {};
@@ -701,7 +701,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Int32 IndexOf(UnityEngine.UIElements.VisualElement  @element)
+        public virtual System.Int32 IndexOf(UnityEngine.UIElements.VisualElement @element)
         {
 
             var ___genericsType = new Type[] {};
@@ -712,7 +712,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual UnityEngine.UIElements.VisualElement ElementAt(System.Int32  @index)
+        public virtual UnityEngine.UIElements.VisualElement ElementAt(System.Int32 @index)
         {
 
             var ___genericsType = new Type[] {};
@@ -734,7 +734,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void SetParent(UnityEngine.UIElements.VisualElement  @value)
+        public virtual void SetParent(UnityEngine.UIElements.VisualElement @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -745,7 +745,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void Sort(System.Comparison<UnityEngine.UIElements.VisualElement>  @comp)
+        public virtual void Sort(System.Comparison<UnityEngine.UIElements.VisualElement> @comp)
         {
 
             var ___genericsType = new Type[] {};
@@ -756,7 +756,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void PutChildAtIndex(UnityEngine.UIElements.VisualElement  @child, System.Int32  @index)
+        public virtual void PutChildAtIndex(UnityEngine.UIElements.VisualElement @child, System.Int32 @index)
         {
 
             var ___genericsType = new Type[] {};
@@ -767,7 +767,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void RemoveChildAtIndex(System.Int32  @index)
+        public virtual void RemoveChildAtIndex(System.Int32 @index)
         {
 
             var ___genericsType = new Type[] {};
@@ -789,7 +789,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean Equals(RUnityEngine.RUIElements.RVisualElement.RHierarchy  @other)
+        public virtual System.Boolean Equals(RUnityEngine.RUIElements.RVisualElement.RHierarchy @other)
         {
 
             var ___genericsType = new Type[] {};
@@ -800,7 +800,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};
@@ -822,7 +822,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public static System.Boolean op_Equality(RUnityEngine.RUIElements.RVisualElement.RHierarchy  @x, RUnityEngine.RUIElements.RVisualElement.RHierarchy  @y)
+        public static System.Boolean op_Equality(RUnityEngine.RUIElements.RVisualElement.RHierarchy @x, RUnityEngine.RUIElements.RVisualElement.RHierarchy @y)
         {
 
             var ___genericsType = new Type[] {};
@@ -833,7 +833,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public static System.Boolean op_Inequality(RUnityEngine.RUIElements.RVisualElement.RHierarchy  @x, RUnityEngine.RUIElements.RVisualElement.RHierarchy  @y)
+        public static System.Boolean op_Inequality(RUnityEngine.RUIElements.RVisualElement.RHierarchy @x, RUnityEngine.RUIElements.RVisualElement.RHierarchy @y)
         {
 
             var ___genericsType = new Type[] {};

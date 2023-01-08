@@ -232,7 +232,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 	    {
 	    }
 
-        public virtual System.Boolean Equals(RUnityEngine.RRendering.RCoreCameraValues  @other)
+        public virtual System.Boolean Equals(RUnityEngine.RRendering.RCoreCameraValues @other)
         {
 
             var ___genericsType = new Type[] {};
@@ -243,7 +243,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};
@@ -265,7 +265,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public static System.Boolean op_Equality(RUnityEngine.RRendering.RCoreCameraValues  @left, RUnityEngine.RRendering.RCoreCameraValues  @right)
+        public static System.Boolean op_Equality(RUnityEngine.RRendering.RCoreCameraValues @left, RUnityEngine.RRendering.RCoreCameraValues @right)
         {
 
             var ___genericsType = new Type[] {};
@@ -276,7 +276,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public static System.Boolean op_Inequality(RUnityEngine.RRendering.RCoreCameraValues  @left, RUnityEngine.RRendering.RCoreCameraValues  @right)
+        public static System.Boolean op_Inequality(RUnityEngine.RRendering.RCoreCameraValues @left, RUnityEngine.RRendering.RCoreCameraValues @right)
         {
 
             var ___genericsType = new Type[] {};

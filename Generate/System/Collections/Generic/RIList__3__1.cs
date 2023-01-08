@@ -96,7 +96,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
 	    {
 	    }
 
-        public virtual System.Int32 IndexOf(T  @item)
+        public virtual System.Int32 IndexOf(T @item)
         {
 
             var ___genericsType = new Type[] {};
@@ -107,7 +107,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
         }
 
 
-        public virtual void Insert(System.Int32  @index, T  @item)
+        public virtual void Insert(System.Int32 @index, T @item)
         {
 
             var ___genericsType = new Type[] {};
@@ -118,7 +118,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
         }
 
 
-        public virtual void RemoveAt(System.Int32  @index)
+        public virtual void RemoveAt(System.Int32 @index)
         {
 
             var ___genericsType = new Type[] {};

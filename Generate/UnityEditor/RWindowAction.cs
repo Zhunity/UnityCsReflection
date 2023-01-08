@@ -334,10 +334,40 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 	    {
 	    }
 
+        public static RUnityEditor.RWindowAction CreateWindowMenuItem(System.String @id, RUnityEditor.RWindowAction.RExecuteHandler @executeHandler, System.String @menuPath)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@id, @executeHandler.Value, @menuPath};
+            var ___result = RCreateWindowMenuItem_String_ExecuteHandler_String.Invoke(___genericsType, ___parameters);
+
+            return new RUnityEditor.RWindowAction(___result);
+        }
 
 
+        public static RUnityEditor.RWindowAction CreateWindowActionButton(System.String @id, RUnityEditor.RWindowAction.RExecuteHandler @executeHandler, System.String @menuPath, System.Single @width, UnityEngine.Texture2D @icon)
+        {
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@id, @executeHandler.Value, @menuPath, @width, @icon};
+            var ___result = RCreateWindowActionButton_String_ExecuteHandler_String_Single_Texture2D.Invoke(___genericsType, ___parameters);
+
+            return new RUnityEditor.RWindowAction(___result);
+        }
+
+
+        public static RUnityEditor.RWindowAction CreateWindowActionButton(System.String @id, RUnityEditor.RWindowAction.RExecuteHandler @executeHandler, System.String @menuPath, System.Single @width, RUnityEditor.RWindowAction.RDrawHandler @drawHandler)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@id, @executeHandler.Value, @menuPath, @width, @drawHandler.Value};
+            var ___result = RCreateWindowActionButton_String_ExecuteHandler_String_Single_DrawHandler.Invoke(___genericsType, ___parameters);
+
+            return new RUnityEditor.RWindowAction(___result);
+        }
+
+
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

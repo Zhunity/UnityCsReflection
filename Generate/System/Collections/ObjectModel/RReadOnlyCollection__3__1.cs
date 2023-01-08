@@ -657,7 +657,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RObjectModel
 	    {
 	    }
 
-        public virtual System.Boolean Contains(T  @value)
+        public virtual System.Boolean Contains(T @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -668,7 +668,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RObjectModel
         }
 
 
-        public virtual void CopyTo(T[]  @array, System.Int32  @index)
+        public virtual void CopyTo(T[] @array, System.Int32 @index)
         {
 
             var ___genericsType = new Type[] {};
@@ -690,7 +690,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RObjectModel
         }
 
 
-        public virtual System.Int32 IndexOf(T  @value)
+        public virtual System.Int32 IndexOf(T @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -701,7 +701,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RObjectModel
         }
 
 
-        public virtual void System__2__Collections__2__Generic__2__ICollection__0__T__1____2__Add(T  @value)
+        public virtual void System__2__Collections__2__Generic__2__ICollection__0__T__1____2__Add(T @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -723,7 +723,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RObjectModel
         }
 
 
-        public virtual void System__2__Collections__2__Generic__2__IList__0__T__1____2__Insert(System.Int32  @index, T  @value)
+        public virtual void System__2__Collections__2__Generic__2__IList__0__T__1____2__Insert(System.Int32 @index, T @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -734,7 +734,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RObjectModel
         }
 
 
-        public virtual System.Boolean System__2__Collections__2__Generic__2__ICollection__0__T__1____2__Remove(T  @value)
+        public virtual System.Boolean System__2__Collections__2__Generic__2__ICollection__0__T__1____2__Remove(T @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -745,7 +745,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RObjectModel
         }
 
 
-        public virtual void System__2__Collections__2__Generic__2__IList__0__T__1____2__RemoveAt(System.Int32  @index)
+        public virtual void System__2__Collections__2__Generic__2__IList__0__T__1____2__RemoveAt(System.Int32 @index)
         {
 
             var ___genericsType = new Type[] {};
@@ -767,7 +767,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RObjectModel
         }
 
 
-        public virtual void System__2__Collections__2__ICollection__2__CopyTo(System.Array  @array, System.Int32  @index)
+        public virtual void System__2__Collections__2__ICollection__2__CopyTo(System.Array @array, System.Int32 @index)
         {
 
             var ___genericsType = new Type[] {};
@@ -778,7 +778,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RObjectModel
         }
 
 
-        public virtual System.Int32 System__2__Collections__2__IList__2__Add(System.Object  @value)
+        public virtual System.Int32 System__2__Collections__2__IList__2__Add(System.Object @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -800,7 +800,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RObjectModel
         }
 
 
-        public static System.Boolean IsCompatibleObject(System.Object  @value)
+        public static System.Boolean IsCompatibleObject(System.Object @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -811,7 +811,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RObjectModel
         }
 
 
-        public virtual System.Boolean System__2__Collections__2__IList__2__Contains(System.Object  @value)
+        public virtual System.Boolean System__2__Collections__2__IList__2__Contains(System.Object @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -822,7 +822,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RObjectModel
         }
 
 
-        public virtual System.Int32 System__2__Collections__2__IList__2__IndexOf(System.Object  @value)
+        public virtual System.Int32 System__2__Collections__2__IList__2__IndexOf(System.Object @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -833,7 +833,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RObjectModel
         }
 
 
-        public virtual void System__2__Collections__2__IList__2__Insert(System.Int32  @index, System.Object  @value)
+        public virtual void System__2__Collections__2__IList__2__Insert(System.Int32 @index, System.Object @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -844,7 +844,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RObjectModel
         }
 
 
-        public virtual void System__2__Collections__2__IList__2__Remove(System.Object  @value)
+        public virtual void System__2__Collections__2__IList__2__Remove(System.Object @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -855,7 +855,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RObjectModel
         }
 
 
-        public virtual void System__2__Collections__2__IList__2__RemoveAt(System.Int32  @index)
+        public virtual void System__2__Collections__2__IList__2__RemoveAt(System.Int32 @index)
         {
 
             var ___genericsType = new Type[] {};
@@ -866,7 +866,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RObjectModel
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

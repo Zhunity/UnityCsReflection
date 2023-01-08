@@ -266,7 +266,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 	    {
 	    }
 
-        public static UnityEngine.UIElements.TimeValue op_Implicit(System.Single  @value)
+        public static UnityEngine.UIElements.TimeValue op_Implicit(System.Single @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -277,7 +277,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public static System.Boolean op_Equality(UnityEngine.UIElements.TimeValue  @lhs, UnityEngine.UIElements.TimeValue  @rhs)
+        public static System.Boolean op_Equality(UnityEngine.UIElements.TimeValue @lhs, UnityEngine.UIElements.TimeValue @rhs)
         {
 
             var ___genericsType = new Type[] {};
@@ -288,7 +288,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public static System.Boolean op_Inequality(UnityEngine.UIElements.TimeValue  @lhs, UnityEngine.UIElements.TimeValue  @rhs)
+        public static System.Boolean op_Inequality(UnityEngine.UIElements.TimeValue @lhs, UnityEngine.UIElements.TimeValue @rhs)
         {
 
             var ___genericsType = new Type[] {};
@@ -299,7 +299,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean Equals(UnityEngine.UIElements.TimeValue  @other)
+        public virtual System.Boolean Equals(UnityEngine.UIElements.TimeValue @other)
         {
 
             var ___genericsType = new Type[] {};
@@ -310,7 +310,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

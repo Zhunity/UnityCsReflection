@@ -259,7 +259,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static void Internal_Destroy(System.IntPtr  @ptr)
+        public static void Internal_Destroy(System.IntPtr @ptr)
         {
 
             var ___genericsType = new Type[] {};
@@ -270,7 +270,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

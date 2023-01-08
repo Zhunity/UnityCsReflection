@@ -2146,7 +2146,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
         }
 
 
-        public virtual void CopyStyle(RUnityEngine.RYoga.RYogaNode  @srcNode)
+        public virtual void CopyStyle(RUnityEngine.RYoga.RYogaNode @srcNode)
         {
 
             var ___genericsType = new Type[] {};
@@ -2168,7 +2168,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
         }
 
 
-        public virtual System.Boolean ValuesEqual(System.Single  @f1, System.Single  @f2)
+        public virtual System.Boolean ValuesEqual(System.Single @f1, System.Single @f2)
         {
 
             var ___genericsType = new Type[] {};
@@ -2179,7 +2179,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
         }
 
 
-        public virtual void Insert(System.Int32  @index, RUnityEngine.RYoga.RYogaNode  @node)
+        public virtual void Insert(System.Int32 @index, RUnityEngine.RYoga.RYogaNode @node)
         {
 
             var ___genericsType = new Type[] {};
@@ -2190,7 +2190,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
         }
 
 
-        public virtual void RemoveAt(System.Int32  @index)
+        public virtual void RemoveAt(System.Int32 @index)
         {
 
             var ___genericsType = new Type[] {};
@@ -2201,7 +2201,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
         }
 
 
-        public virtual void AddChild(RUnityEngine.RYoga.RYogaNode  @child)
+        public virtual void AddChild(RUnityEngine.RYoga.RYogaNode @child)
         {
 
             var ___genericsType = new Type[] {};
@@ -2212,7 +2212,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
         }
 
 
-        public virtual void RemoveChild(RUnityEngine.RYoga.RYogaNode  @child)
+        public virtual void RemoveChild(RUnityEngine.RYoga.RYogaNode @child)
         {
 
             var ___genericsType = new Type[] {};
@@ -2234,7 +2234,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
         }
 
 
-        public virtual System.Int32 IndexOf(RUnityEngine.RYoga.RYogaNode  @node)
+        public virtual System.Int32 IndexOf(RUnityEngine.RYoga.RYogaNode @node)
         {
 
             var ___genericsType = new Type[] {};
@@ -2245,7 +2245,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
         }
 
 
-        public virtual void SetMeasureFunction(RUnityEngine.RYoga.RMeasureFunction  @measureFunction)
+        public virtual void SetMeasureFunction(RUnityEngine.RYoga.RMeasureFunction @measureFunction)
         {
 
             var ___genericsType = new Type[] {};
@@ -2256,7 +2256,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
         }
 
 
-        public virtual void SetBaselineFunction(RUnityEngine.RYoga.RBaselineFunction  @baselineFunction)
+        public virtual void SetBaselineFunction(RUnityEngine.RYoga.RBaselineFunction @baselineFunction)
         {
 
             var ___genericsType = new Type[] {};
@@ -2267,7 +2267,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
         }
 
 
-        public virtual void CalculateLayout(System.Single  @width, System.Single  @height)
+        public virtual void CalculateLayout(System.Single @width, System.Single @height)
         {
 
             var ___genericsType = new Type[] {};
@@ -2278,18 +2278,18 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
         }
 
 
-        public static System.Object MeasureInternal(RUnityEngine.RYoga.RYogaNode  @node, System.Single  @width, RType  @widthMode, System.Single  @height, RType  @heightMode)
+        public static RUnityEngine.RYoga.RYogaSize MeasureInternal(RUnityEngine.RYoga.RYogaNode @node, System.Single @width, RType @widthMode, System.Single @height, RType @heightMode)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@node.Value, @width, @widthMode.Value, @height, @heightMode.Value};
             var ___result = RMeasureInternal_YogaNode_Single_YogaMeasureMode_Single_YogaMeasureMode.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RUnityEngine.RYoga.RYogaSize(___result);
         }
 
 
-        public static System.Single BaselineInternal(RUnityEngine.RYoga.RYogaNode  @node, System.Single  @width, System.Single  @height)
+        public static System.Single BaselineInternal(RUnityEngine.RYoga.RYogaNode @node, System.Single @width, System.Single @height)
         {
 
             var ___genericsType = new Type[] {};
@@ -2300,7 +2300,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
         }
 
 
-        public virtual System.String Print(RType  @options)
+        public virtual System.String Print(RType @options)
         {
 
             var ___genericsType = new Type[] {};
@@ -2311,14 +2311,14 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
         }
 
 
-        public virtual System.Object GetEnumerator()
+        public virtual RSystem.RCollections.RGeneric.RIEnumerator<RUnityEngine.RYoga.RYogaNode> GetEnumerator()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RGetEnumerator.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RSystem.RCollections.RGeneric.RIEnumerator<RUnityEngine.RYoga.RYogaNode>(___result);
         }
 
 
@@ -2344,7 +2344,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
         }
 
 
-        public virtual void SetStylePosition(RType  @edge, RUnityEngine.RYoga.RYogaValue  @value)
+        public virtual void SetStylePosition(RType @edge, RUnityEngine.RYoga.RYogaValue @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -2355,7 +2355,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
         }
 
 
-        public virtual void SetStyleMargin(RType  @edge, RUnityEngine.RYoga.RYogaValue  @value)
+        public virtual void SetStyleMargin(RType @edge, RUnityEngine.RYoga.RYogaValue @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -2366,7 +2366,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
         }
 
 
-        public virtual void SetStylePadding(RType  @edge, RUnityEngine.RYoga.RYogaValue  @value)
+        public virtual void SetStylePadding(RType @edge, RUnityEngine.RYoga.RYogaValue @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -2377,7 +2377,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

@@ -370,7 +370,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 	    {
 	    }
 
-        public virtual void SetContext(RSystem.RCollections.RGeneric.RDictionary<RType, RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue>  @customProperties, System.Single  @dpiScaling)
+        public virtual void SetContext(RSystem.RCollections.RGeneric.RDictionary<RType, RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue> @customProperties, System.Single @dpiScaling)
         {
 
             var ___genericsType = new Type[] {};
@@ -381,7 +381,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean TryGetValue(UnityEngine.UIElements.CustomStyleProperty<System.Single>  @property, out System.Single  @value)
+        public virtual System.Boolean TryGetValue(UnityEngine.UIElements.CustomStyleProperty<System.Single> @property, out System.Single @value)
         {
 			@value = default;
 
@@ -394,7 +394,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean TryGetValue(UnityEngine.UIElements.CustomStyleProperty<System.Int32>  @property, out System.Int32  @value)
+        public virtual System.Boolean TryGetValue(UnityEngine.UIElements.CustomStyleProperty<System.Int32> @property, out System.Int32 @value)
         {
 			@value = default;
 
@@ -407,7 +407,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean TryGetValue(UnityEngine.UIElements.CustomStyleProperty<System.Boolean>  @property, out System.Boolean  @value)
+        public virtual System.Boolean TryGetValue(UnityEngine.UIElements.CustomStyleProperty<System.Boolean> @property, out System.Boolean @value)
         {
 			@value = default;
 
@@ -420,7 +420,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean TryGetValue(UnityEngine.UIElements.CustomStyleProperty<UnityEngine.Color>  @property, out UnityEngine.Color  @value)
+        public virtual System.Boolean TryGetValue(UnityEngine.UIElements.CustomStyleProperty<UnityEngine.Color> @property, out UnityEngine.Color @value)
         {
 			@value = default;
 
@@ -433,7 +433,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean TryGetValue(UnityEngine.UIElements.CustomStyleProperty<UnityEngine.Texture2D>  @property, out UnityEngine.Texture2D  @value)
+        public virtual System.Boolean TryGetValue(UnityEngine.UIElements.CustomStyleProperty<UnityEngine.Texture2D> @property, out UnityEngine.Texture2D @value)
         {
 			@value = default;
 
@@ -446,7 +446,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean TryGetValue(UnityEngine.UIElements.CustomStyleProperty<UnityEngine.Sprite>  @property, out UnityEngine.Sprite  @value)
+        public virtual System.Boolean TryGetValue(UnityEngine.UIElements.CustomStyleProperty<UnityEngine.Sprite> @property, out UnityEngine.Sprite @value)
         {
 			@value = default;
 
@@ -459,7 +459,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean TryGetValue(UnityEngine.UIElements.CustomStyleProperty<UnityEngine.UIElements.VectorImage>  @property, out UnityEngine.UIElements.VectorImage  @value)
+        public virtual System.Boolean TryGetValue(UnityEngine.UIElements.CustomStyleProperty<UnityEngine.UIElements.VectorImage> @property, out UnityEngine.UIElements.VectorImage @value)
         {
 			@value = default;
 
@@ -472,7 +472,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean TryGetValue<T>(UnityEngine.UIElements.CustomStyleProperty<T>  @property, out T  @value) where T : UnityEngine.Object
+        public virtual System.Boolean TryGetValue<T>(UnityEngine.UIElements.CustomStyleProperty<T> @property, out T @value) where T : UnityEngine.Object
         {
 			@value = default;
 
@@ -485,7 +485,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean TryGetValue(UnityEngine.UIElements.CustomStyleProperty<System.String>  @property, out System.String  @value)
+        public virtual System.Boolean TryGetValue(UnityEngine.UIElements.CustomStyleProperty<System.String> @property, out System.String @value)
         {
 			@value = default;
 
@@ -498,7 +498,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean TryGetValue(System.String  @propertyName, RType  @valueType, out RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue  @customProp)
+        public virtual System.Boolean TryGetValue(System.String @propertyName, RType @valueType, out RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue @customProp)
         {
 			@customProp = default;
 
@@ -511,7 +511,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public static void LogCustomPropertyWarning(System.String  @propertyName, RType  @valueType, RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue  @customProp)
+        public static void LogCustomPropertyWarning(System.String @propertyName, RType @valueType, RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue @customProp)
         {
 
             var ___genericsType = new Type[] {};
@@ -522,7 +522,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

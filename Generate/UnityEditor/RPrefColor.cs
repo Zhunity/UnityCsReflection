@@ -379,6 +379,16 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
+        public static UnityEngine.Color op_Implicit(RUnityEditor.RPrefColor @pcolor)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@pcolor.Value};
+            var ___result = Rop_Implicit_PrefColor.Invoke(___genericsType, ___parameters);
+
+            return (UnityEngine.Color)___result;
+        }
+
 
         public virtual System.String ToUniqueString()
         {
@@ -391,7 +401,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual void FromUniqueString(System.String  @s)
+        public virtual void FromUniqueString(System.String @s)
         {
 
             var ___genericsType = new Type[] {};
@@ -413,7 +423,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

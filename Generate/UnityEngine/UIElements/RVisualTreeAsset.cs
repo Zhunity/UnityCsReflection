@@ -1161,7 +1161,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void RegisterUxmlObject(RUnityEngine.RUIElements.RUxmlObjectAsset  @uxmlObjectAsset)
+        public virtual void RegisterUxmlObject(RUnityEngine.RUIElements.RUxmlObjectAsset @uxmlObjectAsset)
         {
 
             var ___genericsType = new Type[] {};
@@ -1172,7 +1172,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Collections.Generic.List<T> GetUxmlObjects<T>(UnityEngine.UIElements.IUxmlAttributes  @asset, UnityEngine.UIElements.CreationContext  @cc) where T : new()
+        public virtual System.Collections.Generic.List<T> GetUxmlObjects<T>(UnityEngine.UIElements.IUxmlAttributes @asset, UnityEngine.UIElements.CreationContext @cc) where T : new()
         {
 
             var ___genericsType = new Type[] {typeof(T)};
@@ -1183,7 +1183,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean AssetEntryExists(System.String  @path, System.Type  @type)
+        public virtual System.Boolean AssetEntryExists(System.String @path, System.Type @type)
         {
 
             var ___genericsType = new Type[] {};
@@ -1194,7 +1194,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void RegisterAssetEntry(System.String  @path, System.Type  @type, UnityEngine.Object  @asset)
+        public virtual void RegisterAssetEntry(System.String @path, System.Type @type, UnityEngine.Object @asset)
         {
 
             var ___genericsType = new Type[] {};
@@ -1205,7 +1205,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual T GetAsset<T>(System.String  @path) where T : UnityEngine.Object
+        public virtual T GetAsset<T>(System.String @path) where T : UnityEngine.Object
         {
 
             var ___genericsType = new Type[] {typeof(T)};
@@ -1216,25 +1216,25 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Object GetUxmlObjectEntry(System.Int32  @id)
+        public virtual RUnityEngine.RUIElements.RVisualTreeAsset.RUxmlObjectEntry GetUxmlObjectEntry(System.Int32 @id)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@id};
             var ___result = RGetUxmlObjectEntry_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RUnityEngine.RUIElements.RVisualTreeAsset.RUxmlObjectEntry(___result);
         }
 
 
-        public virtual System.Object GetUxmlObjectFactory(RUnityEngine.RUIElements.RUxmlObjectAsset  @uxmlObjectAsset)
+        public virtual RUnityEngine.RUIElements.RIBaseUxmlObjectFactory GetUxmlObjectFactory(RUnityEngine.RUIElements.RUxmlObjectAsset @uxmlObjectAsset)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@uxmlObjectAsset.Value};
             var ___result = RGetUxmlObjectFactory_UxmlObjectAsset.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RUnityEngine.RUIElements.RIBaseUxmlObjectFactory(___result);
         }
 
 
@@ -1249,7 +1249,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual UnityEngine.UIElements.TemplateContainer Instantiate(System.String  @bindingPath)
+        public virtual UnityEngine.UIElements.TemplateContainer Instantiate(System.String @bindingPath)
         {
 
             var ___genericsType = new Type[] {};
@@ -1271,7 +1271,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual UnityEngine.UIElements.TemplateContainer CloneTree(System.String  @bindingPath)
+        public virtual UnityEngine.UIElements.TemplateContainer CloneTree(System.String @bindingPath)
         {
 
             var ___genericsType = new Type[] {};
@@ -1282,7 +1282,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void CloneTree(UnityEngine.UIElements.VisualElement  @target)
+        public virtual void CloneTree(UnityEngine.UIElements.VisualElement @target)
         {
 
             var ___genericsType = new Type[] {};
@@ -1293,7 +1293,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void CloneTree(UnityEngine.UIElements.VisualElement  @target, out System.Int32  @firstElementIndex, out System.Int32  @elementAddedCount)
+        public virtual void CloneTree(UnityEngine.UIElements.VisualElement @target, out System.Int32 @firstElementIndex, out System.Int32 @elementAddedCount)
         {
 			@firstElementIndex = default;
 			@elementAddedCount = default;
@@ -1308,7 +1308,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void CloneTree(UnityEngine.UIElements.VisualElement  @target, System.Collections.Generic.Dictionary<System.String, UnityEngine.UIElements.VisualElement>  @slotInsertionPoints, RSystem.RCollections.RGeneric.RList<RUnityEngine.RUIElements.RTemplateAsset.RAttributeOverride>  @attributeOverrides)
+        public virtual void CloneTree(UnityEngine.UIElements.VisualElement @target, System.Collections.Generic.Dictionary<System.String, UnityEngine.UIElements.VisualElement> @slotInsertionPoints, RSystem.RCollections.RGeneric.RList<RUnityEngine.RUIElements.RTemplateAsset.RAttributeOverride> @attributeOverrides)
         {
 
             var ___genericsType = new Type[] {};
@@ -1319,7 +1319,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual UnityEngine.UIElements.VisualElement CloneSetupRecursively(RUnityEngine.RUIElements.RVisualElementAsset  @root, RSystem.RCollections.RGeneric.RDictionary<RType, RSystem.RCollections.RGeneric.RList<RUnityEngine.RUIElements.RVisualElementAsset>>  @idToChildren, UnityEngine.UIElements.CreationContext  @context)
+        public virtual UnityEngine.UIElements.VisualElement CloneSetupRecursively(RUnityEngine.RUIElements.RVisualElementAsset @root, RSystem.RCollections.RGeneric.RDictionary<RType, RSystem.RCollections.RGeneric.RList<RUnityEngine.RUIElements.RVisualElementAsset>> @idToChildren, UnityEngine.UIElements.CreationContext @context)
         {
 
             var ___genericsType = new Type[] {};
@@ -1330,7 +1330,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public static System.Int32 CompareForOrder(RUnityEngine.RUIElements.RVisualElementAsset  @a, RUnityEngine.RUIElements.RVisualElementAsset  @b)
+        public static System.Int32 CompareForOrder(RUnityEngine.RUIElements.RVisualElementAsset @a, RUnityEngine.RUIElements.RVisualElementAsset @b)
         {
 
             var ___genericsType = new Type[] {};
@@ -1341,7 +1341,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean SlotDefinitionExists(System.String  @slotName)
+        public virtual System.Boolean SlotDefinitionExists(System.String @slotName)
         {
 
             var ___genericsType = new Type[] {};
@@ -1352,7 +1352,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean AddSlotDefinition(System.String  @slotName, System.Int32  @resId)
+        public virtual System.Boolean AddSlotDefinition(System.String @slotName, System.Int32 @resId)
         {
 
             var ___genericsType = new Type[] {};
@@ -1363,7 +1363,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean TryGetSlotInsertionPoint(System.Int32  @insertionPointId, out System.String  @slotName)
+        public virtual System.Boolean TryGetSlotInsertionPoint(System.Int32 @insertionPointId, out System.String @slotName)
         {
 			@slotName = default;
 
@@ -1376,7 +1376,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual UnityEngine.UIElements.VisualTreeAsset ResolveTemplate(System.String  @templateName)
+        public virtual UnityEngine.UIElements.VisualTreeAsset ResolveTemplate(System.String @templateName)
         {
 
             var ___genericsType = new Type[] {};
@@ -1387,7 +1387,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean TemplateExists(System.String  @templateName)
+        public virtual System.Boolean TemplateExists(System.String @templateName)
         {
 
             var ___genericsType = new Type[] {};
@@ -1398,7 +1398,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void RegisterTemplate(System.String  @templateName, System.String  @path)
+        public virtual void RegisterTemplate(System.String @templateName, System.String @path)
         {
 
             var ___genericsType = new Type[] {};
@@ -1409,7 +1409,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void RegisterTemplate(System.String  @templateName, UnityEngine.UIElements.VisualTreeAsset  @asset)
+        public virtual void RegisterTemplate(System.String @templateName, UnityEngine.UIElements.VisualTreeAsset @asset)
         {
 
             var ___genericsType = new Type[] {};
@@ -1420,7 +1420,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void InsertUsingEntry(RUnityEngine.RUIElements.RVisualTreeAsset.RUsingEntry  @entry)
+        public virtual void InsertUsingEntry(RUnityEngine.RUIElements.RVisualTreeAsset.RUsingEntry @entry)
         {
 
             var ___genericsType = new Type[] {};
@@ -1431,7 +1431,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public static UnityEngine.UIElements.VisualElement Create(RUnityEngine.RUIElements.RVisualElementAsset  @asset, UnityEngine.UIElements.CreationContext  @ctx)
+        public static UnityEngine.UIElements.VisualElement Create(RUnityEngine.RUIElements.RVisualElementAsset @asset, UnityEngine.UIElements.CreationContext @ctx)
         {
 
             var ___genericsType = new Type[] {};
@@ -1442,7 +1442,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public static void AssignClassListFromAssetToElement(RUnityEngine.RUIElements.RVisualElementAsset  @asset, UnityEngine.UIElements.VisualElement  @element)
+        public static void AssignClassListFromAssetToElement(RUnityEngine.RUIElements.RVisualElementAsset @asset, UnityEngine.UIElements.VisualElement @element)
         {
 
             var ___genericsType = new Type[] {};
@@ -1453,7 +1453,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public static void AssignStyleSheetFromAssetToElement(RUnityEngine.RUIElements.RVisualElementAsset  @asset, UnityEngine.UIElements.VisualElement  @element)
+        public static void AssignStyleSheetFromAssetToElement(RUnityEngine.RUIElements.RVisualElementAsset @asset, UnityEngine.UIElements.VisualElement @element)
         {
 
             var ___genericsType = new Type[] {};
@@ -1475,7 +1475,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void ExtractUsedUxmlQualifiedNames(System.Collections.Generic.HashSet<System.String>  @names)
+        public virtual void ExtractUsedUxmlQualifiedNames(System.Collections.Generic.HashSet<System.String> @names)
         {
 
             var ___genericsType = new Type[] {};
@@ -1486,7 +1486,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public static UnityEngine.UIElements.VisualElement __0__Create__1__g__CreateError__4__71_0(ref RUnityEngine.RUIElements.RVisualTreeAsset.R__0____1__c__DisplayClass71_0  @_______)
+        public static UnityEngine.UIElements.VisualElement __0__Create__1__g__CreateError__4__71_0(ref RUnityEngine.RUIElements.RVisualTreeAsset.R__0____1__c__DisplayClass71_0 @_______)
         {
 
             var ___genericsType = new Type[] {};
@@ -1531,7 +1531,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @other)
+        public virtual System.Boolean Equals(System.Object @other)
         {
 
             var ___genericsType = new Type[] {};

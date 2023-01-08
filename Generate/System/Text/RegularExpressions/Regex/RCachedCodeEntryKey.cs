@@ -234,7 +234,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 	    {
 	    }
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};
@@ -245,7 +245,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
         }
 
 
-        public virtual System.Boolean Equals(RSystem.RText.RRegularExpressions.RRegex.RCachedCodeEntryKey  @other)
+        public virtual System.Boolean Equals(RSystem.RText.RRegularExpressions.RRegex.RCachedCodeEntryKey @other)
         {
 
             var ___genericsType = new Type[] {};
@@ -256,7 +256,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
         }
 
 
-        public static System.Boolean op_Equality(RSystem.RText.RRegularExpressions.RRegex.RCachedCodeEntryKey  @left, RSystem.RText.RRegularExpressions.RRegex.RCachedCodeEntryKey  @right)
+        public static System.Boolean op_Equality(RSystem.RText.RRegularExpressions.RRegex.RCachedCodeEntryKey @left, RSystem.RText.RRegularExpressions.RRegex.RCachedCodeEntryKey @right)
         {
 
             var ___genericsType = new Type[] {};
@@ -267,7 +267,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
         }
 
 
-        public static System.Boolean op_Inequality(RSystem.RText.RRegularExpressions.RRegex.RCachedCodeEntryKey  @left, RSystem.RText.RRegularExpressions.RRegex.RCachedCodeEntryKey  @right)
+        public static System.Boolean op_Inequality(RSystem.RText.RRegularExpressions.RRegex.RCachedCodeEntryKey @left, RSystem.RText.RRegularExpressions.RRegex.RCachedCodeEntryKey @right)
         {
 
             var ___genericsType = new Type[] {};

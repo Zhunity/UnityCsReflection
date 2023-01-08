@@ -368,7 +368,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 	    {
 	    }
 
-        public static UnityEngine.UIElements.Length Percent(System.Single  @value)
+        public static UnityEngine.UIElements.Length Percent(System.Single @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -423,7 +423,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public static UnityEngine.UIElements.Length op_Implicit(System.Single  @value)
+        public static UnityEngine.UIElements.Length op_Implicit(System.Single @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -434,7 +434,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public static System.Boolean op_Equality(UnityEngine.UIElements.Length  @lhs, UnityEngine.UIElements.Length  @rhs)
+        public static System.Boolean op_Equality(UnityEngine.UIElements.Length @lhs, UnityEngine.UIElements.Length @rhs)
         {
 
             var ___genericsType = new Type[] {};
@@ -445,7 +445,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public static System.Boolean op_Inequality(UnityEngine.UIElements.Length  @lhs, UnityEngine.UIElements.Length  @rhs)
+        public static System.Boolean op_Inequality(UnityEngine.UIElements.Length @lhs, UnityEngine.UIElements.Length @rhs)
         {
 
             var ___genericsType = new Type[] {};
@@ -456,7 +456,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean Equals(UnityEngine.UIElements.Length  @other)
+        public virtual System.Boolean Equals(UnityEngine.UIElements.Length @other)
         {
 
             var ___genericsType = new Type[] {};
@@ -467,7 +467,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

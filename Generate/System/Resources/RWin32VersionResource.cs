@@ -708,7 +708,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RResources
 	    {
 	    }
 
-        public virtual void emit_padding(System.IO.BinaryWriter  @w)
+        public virtual void emit_padding(System.IO.BinaryWriter @w)
         {
 
             var ___genericsType = new Type[] {};
@@ -719,7 +719,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RResources
         }
 
 
-        public virtual void patch_length(System.IO.BinaryWriter  @w, System.Int64  @len_pos)
+        public virtual void patch_length(System.IO.BinaryWriter @w, System.Int64 @len_pos)
         {
 
             var ___genericsType = new Type[] {};
@@ -730,7 +730,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RResources
         }
 
 
-        public virtual void WriteTo(System.IO.Stream  @ms)
+        public virtual void WriteTo(System.IO.Stream @ms)
         {
 
             var ___genericsType = new Type[] {};
@@ -752,7 +752,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RResources
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

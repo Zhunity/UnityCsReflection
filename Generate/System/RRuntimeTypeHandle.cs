@@ -929,7 +929,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 	    {
 	    }
 
-        public virtual void GetObjectData(System.Runtime.Serialization.SerializationInfo  @info, System.Runtime.Serialization.StreamingContext  @context)
+        public virtual void GetObjectData(System.Runtime.Serialization.SerializationInfo @info, System.Runtime.Serialization.StreamingContext @context)
         {
 
             var ___genericsType = new Type[] {};
@@ -940,7 +940,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};
@@ -951,7 +951,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Boolean Equals(System.RuntimeTypeHandle  @handle)
+        public virtual System.Boolean Equals(System.RuntimeTypeHandle @handle)
         {
 
             var ___genericsType = new Type[] {};
@@ -973,7 +973,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Boolean op_Equality(System.RuntimeTypeHandle  @left, System.Object  @right)
+        public static System.Boolean op_Equality(System.RuntimeTypeHandle @left, System.Object @right)
         {
 
             var ___genericsType = new Type[] {};
@@ -984,7 +984,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Boolean op_Inequality(System.RuntimeTypeHandle  @left, System.Object  @right)
+        public static System.Boolean op_Inequality(System.RuntimeTypeHandle @left, System.Object @right)
         {
 
             var ___genericsType = new Type[] {};
@@ -995,7 +995,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Boolean op_Equality(System.Object  @left, System.RuntimeTypeHandle  @right)
+        public static System.Boolean op_Equality(System.Object @left, System.RuntimeTypeHandle @right)
         {
 
             var ___genericsType = new Type[] {};
@@ -1006,7 +1006,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Boolean op_Inequality(System.Object  @left, System.RuntimeTypeHandle  @right)
+        public static System.Boolean op_Inequality(System.Object @left, System.RuntimeTypeHandle @right)
         {
 
             var ___genericsType = new Type[] {};
@@ -1017,7 +1017,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Reflection.TypeAttributes GetAttributes(RSystem.RRuntimeType  @type)
+        public static System.Reflection.TypeAttributes GetAttributes(RSystem.RRuntimeType @type)
         {
 
             var ___genericsType = new Type[] {};
@@ -1039,7 +1039,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Int32 GetMetadataToken(RSystem.RRuntimeType  @type)
+        public static System.Int32 GetMetadataToken(RSystem.RRuntimeType @type)
         {
 
             var ___genericsType = new Type[] {};
@@ -1050,7 +1050,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Int32 GetToken(RSystem.RRuntimeType  @type)
+        public static System.Int32 GetToken(RSystem.RRuntimeType @type)
         {
 
             var ___genericsType = new Type[] {};
@@ -1061,7 +1061,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Type GetGenericTypeDefinition_impl(RSystem.RRuntimeType  @type)
+        public static System.Type GetGenericTypeDefinition_impl(RSystem.RRuntimeType @type)
         {
 
             var ___genericsType = new Type[] {};
@@ -1072,7 +1072,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Type GetGenericTypeDefinition(RSystem.RRuntimeType  @type)
+        public static System.Type GetGenericTypeDefinition(RSystem.RRuntimeType @type)
         {
 
             var ___genericsType = new Type[] {};
@@ -1083,7 +1083,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Boolean HasProxyAttribute(RSystem.RRuntimeType  @type)
+        public static System.Boolean HasProxyAttribute(RSystem.RRuntimeType @type)
         {
 
             var ___genericsType = new Type[] {};
@@ -1094,7 +1094,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Boolean IsPrimitive(RSystem.RRuntimeType  @type)
+        public static System.Boolean IsPrimitive(RSystem.RRuntimeType @type)
         {
 
             var ___genericsType = new Type[] {};
@@ -1105,7 +1105,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Boolean IsByRef(RSystem.RRuntimeType  @type)
+        public static System.Boolean IsByRef(RSystem.RRuntimeType @type)
         {
 
             var ___genericsType = new Type[] {};
@@ -1116,7 +1116,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Boolean IsPointer(RSystem.RRuntimeType  @type)
+        public static System.Boolean IsPointer(RSystem.RRuntimeType @type)
         {
 
             var ___genericsType = new Type[] {};
@@ -1127,7 +1127,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Boolean IsArray(RSystem.RRuntimeType  @type)
+        public static System.Boolean IsArray(RSystem.RRuntimeType @type)
         {
 
             var ___genericsType = new Type[] {};
@@ -1138,7 +1138,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Boolean IsSzArray(RSystem.RRuntimeType  @type)
+        public static System.Boolean IsSzArray(RSystem.RRuntimeType @type)
         {
 
             var ___genericsType = new Type[] {};
@@ -1149,7 +1149,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Boolean HasElementType(RSystem.RRuntimeType  @type)
+        public static System.Boolean HasElementType(RSystem.RRuntimeType @type)
         {
 
             var ___genericsType = new Type[] {};
@@ -1160,18 +1160,18 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Object GetCorElementType(RSystem.RRuntimeType  @type)
+        public static RType GetCorElementType(RSystem.RRuntimeType @type)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@type.Value};
             var ___result = RGetCorElementType_RuntimeType.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RType(___result);
         }
 
 
-        public static System.Boolean HasInstantiation(RSystem.RRuntimeType  @type)
+        public static System.Boolean HasInstantiation(RSystem.RRuntimeType @type)
         {
 
             var ___genericsType = new Type[] {};
@@ -1182,7 +1182,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Boolean IsComObject(RSystem.RRuntimeType  @type)
+        public static System.Boolean IsComObject(RSystem.RRuntimeType @type)
         {
 
             var ___genericsType = new Type[] {};
@@ -1193,7 +1193,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Boolean IsInstanceOfType(RSystem.RRuntimeType  @type, System.Object  @o)
+        public static System.Boolean IsInstanceOfType(RSystem.RRuntimeType @type, System.Object @o)
         {
 
             var ___genericsType = new Type[] {};
@@ -1204,7 +1204,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Boolean HasReferences(RSystem.RRuntimeType  @type)
+        public static System.Boolean HasReferences(RSystem.RRuntimeType @type)
         {
 
             var ___genericsType = new Type[] {};
@@ -1215,7 +1215,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Boolean IsComObject(RSystem.RRuntimeType  @type, System.Boolean  @isGenericCOM)
+        public static System.Boolean IsComObject(RSystem.RRuntimeType @type, System.Boolean @isGenericCOM)
         {
 
             var ___genericsType = new Type[] {};
@@ -1226,7 +1226,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Boolean IsContextful(RSystem.RRuntimeType  @type)
+        public static System.Boolean IsContextful(RSystem.RRuntimeType @type)
         {
 
             var ___genericsType = new Type[] {};
@@ -1237,7 +1237,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Boolean IsEquivalentTo(RSystem.RRuntimeType  @rtType1, RSystem.RRuntimeType  @rtType2)
+        public static System.Boolean IsEquivalentTo(RSystem.RRuntimeType @rtType1, RSystem.RRuntimeType @rtType2)
         {
 
             var ___genericsType = new Type[] {};
@@ -1248,7 +1248,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Boolean IsInterface(RSystem.RRuntimeType  @type)
+        public static System.Boolean IsInterface(RSystem.RRuntimeType @type)
         {
 
             var ___genericsType = new Type[] {};
@@ -1259,7 +1259,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Int32 GetArrayRank(RSystem.RRuntimeType  @type)
+        public static System.Int32 GetArrayRank(RSystem.RRuntimeType @type)
         {
 
             var ___genericsType = new Type[] {};
@@ -1270,40 +1270,40 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Object GetAssembly(RSystem.RRuntimeType  @type)
+        public static RSystem.RReflection.RRuntimeAssembly GetAssembly(RSystem.RRuntimeType @type)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@type.Value};
             var ___result = RGetAssembly_RuntimeType.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RSystem.RReflection.RRuntimeAssembly(___result);
         }
 
 
-        public static System.Object GetElementType(RSystem.RRuntimeType  @type)
+        public static RSystem.RRuntimeType GetElementType(RSystem.RRuntimeType @type)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@type.Value};
             var ___result = RGetElementType_RuntimeType.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RSystem.RRuntimeType(___result);
         }
 
 
-        public static System.Object GetModule(RSystem.RRuntimeType  @type)
+        public static RSystem.RReflection.RRuntimeModule GetModule(RSystem.RRuntimeType @type)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@type.Value};
             var ___result = RGetModule_RuntimeType.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RSystem.RReflection.RRuntimeModule(___result);
         }
 
 
-        public static System.Boolean IsGenericVariable(RSystem.RRuntimeType  @type)
+        public static System.Boolean IsGenericVariable(RSystem.RRuntimeType @type)
         {
 
             var ___genericsType = new Type[] {};
@@ -1314,18 +1314,18 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Object GetBaseType(RSystem.RRuntimeType  @type)
+        public static RSystem.RRuntimeType GetBaseType(RSystem.RRuntimeType @type)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@type.Value};
             var ___result = RGetBaseType_RuntimeType.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RSystem.RRuntimeType(___result);
         }
 
 
-        public static System.Boolean CanCastTo(RSystem.RRuntimeType  @type, RSystem.RRuntimeType  @target)
+        public static System.Boolean CanCastTo(RSystem.RRuntimeType @type, RSystem.RRuntimeType @target)
         {
 
             var ___genericsType = new Type[] {};
@@ -1336,7 +1336,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Boolean type_is_assignable_from(System.Type  @a, System.Type  @b)
+        public static System.Boolean type_is_assignable_from(System.Type @a, System.Type @b)
         {
 
             var ___genericsType = new Type[] {};
@@ -1347,7 +1347,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Boolean IsGenericTypeDefinition(RSystem.RRuntimeType  @type)
+        public static System.Boolean IsGenericTypeDefinition(RSystem.RRuntimeType @type)
         {
 
             var ___genericsType = new Type[] {};
@@ -1358,7 +1358,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.IntPtr GetGenericParameterInfo(RSystem.RRuntimeType  @type)
+        public static System.IntPtr GetGenericParameterInfo(RSystem.RRuntimeType @type)
         {
 
             var ___genericsType = new Type[] {};
@@ -1369,7 +1369,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Boolean IsSubclassOf(RSystem.RRuntimeType  @childType, RSystem.RRuntimeType  @baseType)
+        public static System.Boolean IsSubclassOf(RSystem.RRuntimeType @childType, RSystem.RRuntimeType @baseType)
         {
 
             var ___genericsType = new Type[] {};
@@ -1380,7 +1380,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Boolean is_subclass_of(System.IntPtr  @childType, System.IntPtr  @baseType)
+        public static System.Boolean is_subclass_of(System.IntPtr @childType, System.IntPtr @baseType)
         {
 
             var ___genericsType = new Type[] {};
@@ -1391,7 +1391,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Boolean IsByRefLike(RSystem.RRuntimeType  @type)
+        public static System.Boolean IsByRefLike(RSystem.RRuntimeType @type)
         {
 
             var ___genericsType = new Type[] {};
@@ -1402,7 +1402,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Boolean IsTypeDefinition(RSystem.RRuntimeType  @type)
+        public static System.Boolean IsTypeDefinition(RSystem.RRuntimeType @type)
         {
 
             var ___genericsType = new Type[] {};
@@ -1413,7 +1413,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Object internal_from_name(System.String  @name, ref RType  @stackMark, System.Reflection.Assembly  @callerAssembly, System.Boolean  @throwOnError, System.Boolean  @ignoreCase, System.Boolean  @reflectionOnly)
+        public static RSystem.RRuntimeType internal_from_name(System.String @name, ref RType @stackMark, System.Reflection.Assembly @callerAssembly, System.Boolean @throwOnError, System.Boolean @ignoreCase, System.Boolean @reflectionOnly)
         {
 
             var ___genericsType = new Type[] {};
@@ -1421,11 +1421,11 @@ namespace SMFrame.Editor.Refleaction.RSystem
             var ___result = Rinternal_from_name_String_Ref_StackCrawlMark_Assembly_Boolean_Boolean_Boolean.Invoke(___genericsType, ___parameters);
 			@stackMark = new RType(___parameters[1]);
 
-            return (System.Object)___result;
+            return new RSystem.RRuntimeType(___result);
         }
 
 
-        public static System.Object GetTypeByName(System.String  @typeName, System.Boolean  @throwOnError, System.Boolean  @ignoreCase, System.Boolean  @reflectionOnly, ref RType  @stackMark, System.Boolean  @loadTypeFromPartialName)
+        public static RSystem.RRuntimeType GetTypeByName(System.String @typeName, System.Boolean @throwOnError, System.Boolean @ignoreCase, System.Boolean @reflectionOnly, ref RType @stackMark, System.Boolean @loadTypeFromPartialName)
         {
 
             var ___genericsType = new Type[] {};
@@ -1433,11 +1433,11 @@ namespace SMFrame.Editor.Refleaction.RSystem
             var ___result = RGetTypeByName_String_Boolean_Boolean_Boolean_Ref_StackCrawlMark_Boolean.Invoke(___genericsType, ___parameters);
 			@stackMark = new RType(___parameters[4]);
 
-            return (System.Object)___result;
+            return new RSystem.RRuntimeType(___result);
         }
 
 
-        public static System.IntPtr[] CopyRuntimeTypeHandles(System.RuntimeTypeHandle[]  @inHandles, out System.Int32  @length)
+        public static System.IntPtr[] CopyRuntimeTypeHandles(System.RuntimeTypeHandle[] @inHandles, out System.Int32 @length)
         {
 			@length = default;
 

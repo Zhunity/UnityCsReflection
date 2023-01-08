@@ -45,7 +45,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
 	    {
 	    }
 
-        public virtual void Tick(System.Int64  @currentTimeMs)
+        public virtual void Tick(System.Int64 @currentTimeMs)
         {
 
             var ___genericsType = new Type[] {};

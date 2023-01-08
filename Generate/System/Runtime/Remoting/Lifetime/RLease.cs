@@ -600,7 +600,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RLifetime
         }
 
 
-        public virtual void Register(System.Runtime.Remoting.Lifetime.ISponsor  @obj)
+        public virtual void Register(System.Runtime.Remoting.Lifetime.ISponsor @obj)
         {
 
             var ___genericsType = new Type[] {};
@@ -611,7 +611,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RLifetime
         }
 
 
-        public virtual void Register(System.Runtime.Remoting.Lifetime.ISponsor  @obj, System.TimeSpan  @renewalTime)
+        public virtual void Register(System.Runtime.Remoting.Lifetime.ISponsor @obj, System.TimeSpan @renewalTime)
         {
 
             var ___genericsType = new Type[] {};
@@ -622,7 +622,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RLifetime
         }
 
 
-        public virtual System.TimeSpan Renew(System.TimeSpan  @renewalTime)
+        public virtual System.TimeSpan Renew(System.TimeSpan @renewalTime)
         {
 
             var ___genericsType = new Type[] {};
@@ -633,7 +633,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RLifetime
         }
 
 
-        public virtual void Unregister(System.Runtime.Remoting.Lifetime.ISponsor  @obj)
+        public virtual void Unregister(System.Runtime.Remoting.Lifetime.ISponsor @obj)
         {
 
             var ___genericsType = new Type[] {};
@@ -666,7 +666,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RLifetime
         }
 
 
-        public virtual void ProcessSponsorResponse(System.Object  @state, System.Boolean  @timedOut)
+        public virtual void ProcessSponsorResponse(System.Object @state, System.Boolean @timedOut)
         {
 
             var ___genericsType = new Type[] {};
@@ -677,7 +677,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RLifetime
         }
 
 
-        public virtual System.Object GetObjectIdentity(System.MarshalByRefObject  @obj, out System.Boolean  @IsClient)
+        public virtual RSystem.RRuntime.RRemoting.RIdentity GetObjectIdentity(System.MarshalByRefObject @obj, out System.Boolean @IsClient)
         {
 			@IsClient = default;
 
@@ -686,11 +686,11 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RLifetime
             var ___result = RGetObjectIdentity_MarshalByRefObject_Out_Boolean.Invoke(___genericsType, ___parameters);
 			@IsClient = (System.Boolean)___parameters[1];
 
-            return (System.Object)___result;
+            return new RSystem.RRuntime.RRemoting.RIdentity(___result);
         }
 
 
-        public virtual System.Runtime.Remoting.ObjRef CreateObjRef(System.Type  @requestedType)
+        public virtual System.Runtime.Remoting.ObjRef CreateObjRef(System.Type @requestedType)
         {
 
             var ___genericsType = new Type[] {};
@@ -723,7 +723,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RLifetime
         }
 
 
-        public virtual System.MarshalByRefObject MemberwiseClone(System.Boolean  @cloneIdentity)
+        public virtual System.MarshalByRefObject MemberwiseClone(System.Boolean @cloneIdentity)
         {
 
             var ___genericsType = new Type[] {};
@@ -734,7 +734,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RLifetime
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

@@ -317,7 +317,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 	    {
 	    }
 
-        public static System.Int32 op_Implicit(UnityEngine.UIElements.FocusChangeDirection  @fcd)
+        public static System.Int32 op_Implicit(UnityEngine.UIElements.FocusChangeDirection @fcd)
         {
 
             var ___genericsType = new Type[] {};
@@ -350,7 +350,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void ApplyTo(UnityEngine.UIElements.FocusController  @focusController, UnityEngine.UIElements.Focusable  @f)
+        public virtual void ApplyTo(UnityEngine.UIElements.FocusController @focusController, UnityEngine.UIElements.Focusable @f)
         {
 
             var ___genericsType = new Type[] {};
@@ -361,7 +361,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

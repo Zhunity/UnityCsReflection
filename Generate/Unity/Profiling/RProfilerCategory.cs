@@ -566,7 +566,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
         }
 
 
-        public static System.UInt16 op_Implicit(Unity.Profiling.ProfilerCategory  @category)
+        public static System.UInt16 op_Implicit(Unity.Profiling.ProfilerCategory @category)
         {
 
             var ___genericsType = new Type[] {};
@@ -577,7 +577,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

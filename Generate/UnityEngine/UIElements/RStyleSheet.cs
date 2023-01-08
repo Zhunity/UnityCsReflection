@@ -1099,7 +1099,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 	    {
 	    }
 
-        public static System.Boolean TryCheckAccess<T>(T[]  @list, RType  @type, RUnityEngine.RUIElements.RStyleValueHandle  @handle, out T  @value)
+        public static System.Boolean TryCheckAccess<T>(T[] @list, RType @type, RUnityEngine.RUIElements.RStyleValueHandle @handle, out T @value)
         {
 			@value = default;
 
@@ -1112,7 +1112,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public static T CheckAccess<T>(T[]  @list, RType  @type, RUnityEngine.RUIElements.RStyleValueHandle  @handle)
+        public static T CheckAccess<T>(T[] @list, RType @type, RUnityEngine.RUIElements.RStyleValueHandle @handle)
         {
 
             var ___genericsType = new Type[] {typeof(T)};
@@ -1145,7 +1145,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void FlattenImportedStyleSheetsRecursive(UnityEngine.UIElements.StyleSheet  @sheet)
+        public virtual void FlattenImportedStyleSheetsRecursive(UnityEngine.UIElements.StyleSheet @sheet)
         {
 
             var ___genericsType = new Type[] {};
@@ -1167,18 +1167,18 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Object ReadKeyword(RUnityEngine.RUIElements.RStyleValueHandle  @handle)
+        public virtual RType ReadKeyword(RUnityEngine.RUIElements.RStyleValueHandle @handle)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@handle.Value};
             var ___result = RReadKeyword_StyleValueHandle.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RType(___result);
         }
 
 
-        public virtual System.Single ReadFloat(RUnityEngine.RUIElements.RStyleValueHandle  @handle)
+        public virtual System.Single ReadFloat(RUnityEngine.RUIElements.RStyleValueHandle @handle)
         {
 
             var ___genericsType = new Type[] {};
@@ -1189,7 +1189,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean TryReadFloat(RUnityEngine.RUIElements.RStyleValueHandle  @handle, out System.Single  @value)
+        public virtual System.Boolean TryReadFloat(RUnityEngine.RUIElements.RStyleValueHandle @handle, out System.Single @value)
         {
 			@value = default;
 
@@ -1202,18 +1202,18 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Object ReadDimension(RUnityEngine.RUIElements.RStyleValueHandle  @handle)
+        public virtual RUnityEngine.RUIElements.RStyleSheets.RDimension ReadDimension(RUnityEngine.RUIElements.RStyleValueHandle @handle)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@handle.Value};
             var ___result = RReadDimension_StyleValueHandle.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RUnityEngine.RUIElements.RStyleSheets.RDimension(___result);
         }
 
 
-        public virtual System.Boolean TryReadDimension(RUnityEngine.RUIElements.RStyleValueHandle  @handle, out RUnityEngine.RUIElements.RStyleSheets.RDimension  @value)
+        public virtual System.Boolean TryReadDimension(RUnityEngine.RUIElements.RStyleValueHandle @handle, out RUnityEngine.RUIElements.RStyleSheets.RDimension @value)
         {
 			@value = default;
 
@@ -1226,7 +1226,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual UnityEngine.Color ReadColor(RUnityEngine.RUIElements.RStyleValueHandle  @handle)
+        public virtual UnityEngine.Color ReadColor(RUnityEngine.RUIElements.RStyleValueHandle @handle)
         {
 
             var ___genericsType = new Type[] {};
@@ -1237,7 +1237,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean TryReadColor(RUnityEngine.RUIElements.RStyleValueHandle  @handle, out UnityEngine.Color  @value)
+        public virtual System.Boolean TryReadColor(RUnityEngine.RUIElements.RStyleValueHandle @handle, out UnityEngine.Color @value)
         {
 			@value = default;
 
@@ -1250,7 +1250,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.String ReadString(RUnityEngine.RUIElements.RStyleValueHandle  @handle)
+        public virtual System.String ReadString(RUnityEngine.RUIElements.RStyleValueHandle @handle)
         {
 
             var ___genericsType = new Type[] {};
@@ -1261,7 +1261,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean TryReadString(RUnityEngine.RUIElements.RStyleValueHandle  @handle, out System.String  @value)
+        public virtual System.Boolean TryReadString(RUnityEngine.RUIElements.RStyleValueHandle @handle, out System.String @value)
         {
 			@value = default;
 
@@ -1274,7 +1274,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.String ReadEnum(RUnityEngine.RUIElements.RStyleValueHandle  @handle)
+        public virtual System.String ReadEnum(RUnityEngine.RUIElements.RStyleValueHandle @handle)
         {
 
             var ___genericsType = new Type[] {};
@@ -1285,7 +1285,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean TryReadEnum(RUnityEngine.RUIElements.RStyleValueHandle  @handle, out System.String  @value)
+        public virtual System.Boolean TryReadEnum(RUnityEngine.RUIElements.RStyleValueHandle @handle, out System.String @value)
         {
 			@value = default;
 
@@ -1298,7 +1298,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.String ReadVariable(RUnityEngine.RUIElements.RStyleValueHandle  @handle)
+        public virtual System.String ReadVariable(RUnityEngine.RUIElements.RStyleValueHandle @handle)
         {
 
             var ___genericsType = new Type[] {};
@@ -1309,7 +1309,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean TryReadVariable(RUnityEngine.RUIElements.RStyleValueHandle  @handle, out System.String  @value)
+        public virtual System.Boolean TryReadVariable(RUnityEngine.RUIElements.RStyleValueHandle @handle, out System.String @value)
         {
 			@value = default;
 
@@ -1322,7 +1322,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.String ReadResourcePath(RUnityEngine.RUIElements.RStyleValueHandle  @handle)
+        public virtual System.String ReadResourcePath(RUnityEngine.RUIElements.RStyleValueHandle @handle)
         {
 
             var ___genericsType = new Type[] {};
@@ -1333,7 +1333,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean TryReadResourcePath(RUnityEngine.RUIElements.RStyleValueHandle  @handle, out System.String  @value)
+        public virtual System.Boolean TryReadResourcePath(RUnityEngine.RUIElements.RStyleValueHandle @handle, out System.String @value)
         {
 			@value = default;
 
@@ -1346,7 +1346,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual UnityEngine.Object ReadAssetReference(RUnityEngine.RUIElements.RStyleValueHandle  @handle)
+        public virtual UnityEngine.Object ReadAssetReference(RUnityEngine.RUIElements.RStyleValueHandle @handle)
         {
 
             var ___genericsType = new Type[] {};
@@ -1357,7 +1357,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.String ReadMissingAssetReferenceUrl(RUnityEngine.RUIElements.RStyleValueHandle  @handle)
+        public virtual System.String ReadMissingAssetReferenceUrl(RUnityEngine.RUIElements.RStyleValueHandle @handle)
         {
 
             var ___genericsType = new Type[] {};
@@ -1368,7 +1368,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean TryReadAssetReference(RUnityEngine.RUIElements.RStyleValueHandle  @handle, out UnityEngine.Object  @value)
+        public virtual System.Boolean TryReadAssetReference(RUnityEngine.RUIElements.RStyleValueHandle @handle, out UnityEngine.Object @value)
         {
 			@value = default;
 
@@ -1381,18 +1381,18 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Object ReadFunction(RUnityEngine.RUIElements.RStyleValueHandle  @handle)
+        public virtual RType ReadFunction(RUnityEngine.RUIElements.RStyleValueHandle @handle)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@handle.Value};
             var ___result = RReadFunction_StyleValueHandle.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RType(___result);
         }
 
 
-        public virtual System.String ReadFunctionName(RUnityEngine.RUIElements.RStyleValueHandle  @handle)
+        public virtual System.String ReadFunctionName(RUnityEngine.RUIElements.RStyleValueHandle @handle)
         {
 
             var ___genericsType = new Type[] {};
@@ -1403,18 +1403,18 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Object ReadScalableImage(RUnityEngine.RUIElements.RStyleValueHandle  @handle)
+        public virtual RUnityEngine.RUIElements.RStyleSheets.RScalableImage ReadScalableImage(RUnityEngine.RUIElements.RStyleValueHandle @handle)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@handle.Value};
             var ___result = RReadScalableImage_StyleValueHandle.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RUnityEngine.RUIElements.RStyleSheets.RScalableImage(___result);
         }
 
 
-        public static System.Boolean CustomStartsWith(System.String  @originalString, System.String  @pattern)
+        public static System.Boolean CustomStartsWith(System.String @originalString, System.String @pattern)
         {
 
             var ___genericsType = new Type[] {};
@@ -1458,7 +1458,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @other)
+        public virtual System.Boolean Equals(System.Object @other)
         {
 
             var ___genericsType = new Type[] {};

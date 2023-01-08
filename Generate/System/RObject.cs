@@ -215,7 +215,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 	    {
 	    }
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};
@@ -226,7 +226,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Boolean Equals(System.Object  @objA, System.Object  @objB)
+        public static System.Boolean Equals(System.Object @objA, System.Object @objB)
         {
 
             var ___genericsType = new Type[] {};
@@ -292,7 +292,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Boolean ReferenceEquals(System.Object  @objA, System.Object  @objB)
+        public static System.Boolean ReferenceEquals(System.Object @objA, System.Object @objB)
         {
 
             var ___genericsType = new Type[] {};
@@ -303,7 +303,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Int32 InternalGetHashCode(System.Object  @o)
+        public static System.Int32 InternalGetHashCode(System.Object @o)
         {
 
             var ___genericsType = new Type[] {};
@@ -314,7 +314,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual void FieldGetter(System.String  @typeName, System.String  @fieldName, ref System.Object  @val)
+        public virtual void FieldGetter(System.String @typeName, System.String @fieldName, ref System.Object @val)
         {
 
             var ___genericsType = new Type[] {};
@@ -326,7 +326,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual void FieldSetter(System.String  @typeName, System.String  @fieldName, System.Object  @val)
+        public virtual void FieldSetter(System.String @typeName, System.String @fieldName, System.Object @val)
         {
 
             var ___genericsType = new Type[] {};

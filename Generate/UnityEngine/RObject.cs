@@ -1189,7 +1189,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @other)
+        public virtual System.Boolean Equals(System.Object @other)
         {
 
             var ___genericsType = new Type[] {};
@@ -1200,7 +1200,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static System.Boolean op_Implicit(UnityEngine.Object  @exists)
+        public static System.Boolean op_Implicit(UnityEngine.Object @exists)
         {
 
             var ___genericsType = new Type[] {};
@@ -1211,7 +1211,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static System.Boolean CompareBaseObjects(UnityEngine.Object  @lhs, UnityEngine.Object  @rhs)
+        public static System.Boolean CompareBaseObjects(UnityEngine.Object @lhs, UnityEngine.Object @rhs)
         {
 
             var ___genericsType = new Type[] {};
@@ -1233,7 +1233,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static System.Boolean IsNativeObjectAlive(UnityEngine.Object  @o)
+        public static System.Boolean IsNativeObjectAlive(UnityEngine.Object @o)
         {
 
             var ___genericsType = new Type[] {};
@@ -1255,7 +1255,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.Object Instantiate(UnityEngine.Object  @original, UnityEngine.Vector3  @position, UnityEngine.Quaternion  @rotation)
+        public static UnityEngine.Object Instantiate(UnityEngine.Object @original, UnityEngine.Vector3 @position, UnityEngine.Quaternion @rotation)
         {
 
             var ___genericsType = new Type[] {};
@@ -1266,7 +1266,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.Object Instantiate(UnityEngine.Object  @original, UnityEngine.Vector3  @position, UnityEngine.Quaternion  @rotation, UnityEngine.Transform  @parent)
+        public static UnityEngine.Object Instantiate(UnityEngine.Object @original, UnityEngine.Vector3 @position, UnityEngine.Quaternion @rotation, UnityEngine.Transform @parent)
         {
 
             var ___genericsType = new Type[] {};
@@ -1277,7 +1277,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.Object Instantiate(UnityEngine.Object  @original)
+        public static UnityEngine.Object Instantiate(UnityEngine.Object @original)
         {
 
             var ___genericsType = new Type[] {};
@@ -1288,7 +1288,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.Object Instantiate(UnityEngine.Object  @original, UnityEngine.Transform  @parent)
+        public static UnityEngine.Object Instantiate(UnityEngine.Object @original, UnityEngine.Transform @parent)
         {
 
             var ___genericsType = new Type[] {};
@@ -1299,7 +1299,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.Object Instantiate(UnityEngine.Object  @original, UnityEngine.Transform  @parent, System.Boolean  @instantiateInWorldSpace)
+        public static UnityEngine.Object Instantiate(UnityEngine.Object @original, UnityEngine.Transform @parent, System.Boolean @instantiateInWorldSpace)
         {
 
             var ___genericsType = new Type[] {};
@@ -1310,7 +1310,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static T Instantiate<T>(T  @original) where T : UnityEngine.Object
+        public static T Instantiate<T>(T @original) where T : UnityEngine.Object
         {
 
             var ___genericsType = new Type[] {typeof(T)};
@@ -1321,7 +1321,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static T Instantiate<T>(T  @original, UnityEngine.Vector3  @position, UnityEngine.Quaternion  @rotation) where T : UnityEngine.Object
+        public static T Instantiate<T>(T @original, UnityEngine.Vector3 @position, UnityEngine.Quaternion @rotation) where T : UnityEngine.Object
         {
 
             var ___genericsType = new Type[] {typeof(T)};
@@ -1332,7 +1332,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static T Instantiate<T>(T  @original, UnityEngine.Vector3  @position, UnityEngine.Quaternion  @rotation, UnityEngine.Transform  @parent) where T : UnityEngine.Object
+        public static T Instantiate<T>(T @original, UnityEngine.Vector3 @position, UnityEngine.Quaternion @rotation, UnityEngine.Transform @parent) where T : UnityEngine.Object
         {
 
             var ___genericsType = new Type[] {typeof(T)};
@@ -1343,7 +1343,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static T Instantiate<T>(T  @original, UnityEngine.Transform  @parent) where T : UnityEngine.Object
+        public static T Instantiate<T>(T @original, UnityEngine.Transform @parent) where T : UnityEngine.Object
         {
 
             var ___genericsType = new Type[] {typeof(T)};
@@ -1354,7 +1354,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static T Instantiate<T>(T  @original, UnityEngine.Transform  @parent, System.Boolean  @worldPositionStays) where T : UnityEngine.Object
+        public static T Instantiate<T>(T @original, UnityEngine.Transform @parent, System.Boolean @worldPositionStays) where T : UnityEngine.Object
         {
 
             var ___genericsType = new Type[] {typeof(T)};
@@ -1365,7 +1365,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static void Destroy(UnityEngine.Object  @obj, System.Single  @t)
+        public static void Destroy(UnityEngine.Object @obj, System.Single @t)
         {
 
             var ___genericsType = new Type[] {};
@@ -1376,7 +1376,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static void Destroy(UnityEngine.Object  @obj)
+        public static void Destroy(UnityEngine.Object @obj)
         {
 
             var ___genericsType = new Type[] {};
@@ -1387,7 +1387,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static void DestroyImmediate(UnityEngine.Object  @obj, System.Boolean  @allowDestroyingAssets)
+        public static void DestroyImmediate(UnityEngine.Object @obj, System.Boolean @allowDestroyingAssets)
         {
 
             var ___genericsType = new Type[] {};
@@ -1398,7 +1398,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static void DestroyImmediate(UnityEngine.Object  @obj)
+        public static void DestroyImmediate(UnityEngine.Object @obj)
         {
 
             var ___genericsType = new Type[] {};
@@ -1409,7 +1409,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.Object[] FindObjectsOfType(System.Type  @type)
+        public static UnityEngine.Object[] FindObjectsOfType(System.Type @type)
         {
 
             var ___genericsType = new Type[] {};
@@ -1420,7 +1420,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.Object[] FindObjectsOfType(System.Type  @type, System.Boolean  @includeInactive)
+        public static UnityEngine.Object[] FindObjectsOfType(System.Type @type, System.Boolean @includeInactive)
         {
 
             var ___genericsType = new Type[] {};
@@ -1431,7 +1431,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static void DontDestroyOnLoad(UnityEngine.Object  @target)
+        public static void DontDestroyOnLoad(UnityEngine.Object @target)
         {
 
             var ___genericsType = new Type[] {};
@@ -1442,7 +1442,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static void DestroyObject(UnityEngine.Object  @obj, System.Single  @t)
+        public static void DestroyObject(UnityEngine.Object @obj, System.Single @t)
         {
 
             var ___genericsType = new Type[] {};
@@ -1453,7 +1453,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static void DestroyObject(UnityEngine.Object  @obj)
+        public static void DestroyObject(UnityEngine.Object @obj)
         {
 
             var ___genericsType = new Type[] {};
@@ -1464,7 +1464,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.Object[] FindSceneObjectsOfType(System.Type  @type)
+        public static UnityEngine.Object[] FindSceneObjectsOfType(System.Type @type)
         {
 
             var ___genericsType = new Type[] {};
@@ -1475,7 +1475,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.Object[] FindObjectsOfTypeIncludingAssets(System.Type  @type)
+        public static UnityEngine.Object[] FindObjectsOfTypeIncludingAssets(System.Type @type)
         {
 
             var ___genericsType = new Type[] {};
@@ -1497,7 +1497,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static T[] FindObjectsOfType<T>(System.Boolean  @includeInactive) where T : UnityEngine.Object
+        public static T[] FindObjectsOfType<T>(System.Boolean @includeInactive) where T : UnityEngine.Object
         {
 
             var ___genericsType = new Type[] {typeof(T)};
@@ -1519,7 +1519,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static T FindObjectOfType<T>(System.Boolean  @includeInactive) where T : UnityEngine.Object
+        public static T FindObjectOfType<T>(System.Boolean @includeInactive) where T : UnityEngine.Object
         {
 
             var ___genericsType = new Type[] {typeof(T)};
@@ -1530,7 +1530,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.Object[] FindObjectsOfTypeAll(System.Type  @type)
+        public static UnityEngine.Object[] FindObjectsOfTypeAll(System.Type @type)
         {
 
             var ___genericsType = new Type[] {};
@@ -1541,7 +1541,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static void CheckNullArgument(System.Object  @arg, System.String  @message)
+        public static void CheckNullArgument(System.Object @arg, System.String @message)
         {
 
             var ___genericsType = new Type[] {};
@@ -1552,7 +1552,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.Object FindObjectOfType(System.Type  @type)
+        public static UnityEngine.Object FindObjectOfType(System.Type @type)
         {
 
             var ___genericsType = new Type[] {};
@@ -1563,7 +1563,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.Object FindObjectOfType(System.Type  @type, System.Boolean  @includeInactive)
+        public static UnityEngine.Object FindObjectOfType(System.Type @type, System.Boolean @includeInactive)
         {
 
             var ___genericsType = new Type[] {};
@@ -1585,7 +1585,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static System.Boolean op_Equality(UnityEngine.Object  @x, UnityEngine.Object  @y)
+        public static System.Boolean op_Equality(UnityEngine.Object @x, UnityEngine.Object @y)
         {
 
             var ___genericsType = new Type[] {};
@@ -1596,7 +1596,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static System.Boolean op_Inequality(UnityEngine.Object  @x, UnityEngine.Object  @y)
+        public static System.Boolean op_Inequality(UnityEngine.Object @x, UnityEngine.Object @y)
         {
 
             var ___genericsType = new Type[] {};
@@ -1629,7 +1629,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.Object Internal_CloneSingle(UnityEngine.Object  @data)
+        public static UnityEngine.Object Internal_CloneSingle(UnityEngine.Object @data)
         {
 
             var ___genericsType = new Type[] {};
@@ -1640,7 +1640,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.Object Internal_CloneSingleWithParent(UnityEngine.Object  @data, UnityEngine.Transform  @parent, System.Boolean  @worldPositionStays)
+        public static UnityEngine.Object Internal_CloneSingleWithParent(UnityEngine.Object @data, UnityEngine.Transform @parent, System.Boolean @worldPositionStays)
         {
 
             var ___genericsType = new Type[] {};
@@ -1651,7 +1651,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.Object Internal_InstantiateSingle(UnityEngine.Object  @data, UnityEngine.Vector3  @pos, UnityEngine.Quaternion  @rot)
+        public static UnityEngine.Object Internal_InstantiateSingle(UnityEngine.Object @data, UnityEngine.Vector3 @pos, UnityEngine.Quaternion @rot)
         {
 
             var ___genericsType = new Type[] {};
@@ -1662,7 +1662,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.Object Internal_InstantiateSingleWithParent(UnityEngine.Object  @data, UnityEngine.Transform  @parent, UnityEngine.Vector3  @pos, UnityEngine.Quaternion  @rot)
+        public static UnityEngine.Object Internal_InstantiateSingleWithParent(UnityEngine.Object @data, UnityEngine.Transform @parent, UnityEngine.Vector3 @pos, UnityEngine.Quaternion @rot)
         {
 
             var ___genericsType = new Type[] {};
@@ -1673,7 +1673,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static System.String ToString(UnityEngine.Object  @obj)
+        public static System.String ToString(UnityEngine.Object @obj)
         {
 
             var ___genericsType = new Type[] {};
@@ -1684,7 +1684,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static System.String GetName(UnityEngine.Object  @obj)
+        public static System.String GetName(UnityEngine.Object @obj)
         {
 
             var ___genericsType = new Type[] {};
@@ -1695,7 +1695,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static System.Boolean IsPersistent(UnityEngine.Object  @obj)
+        public static System.Boolean IsPersistent(UnityEngine.Object @obj)
         {
 
             var ___genericsType = new Type[] {};
@@ -1706,7 +1706,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static void SetName(UnityEngine.Object  @obj, System.String  @name)
+        public static void SetName(UnityEngine.Object @obj, System.String @name)
         {
 
             var ___genericsType = new Type[] {};
@@ -1717,7 +1717,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static System.Boolean DoesObjectWithInstanceIDExist(System.Int32  @instanceID)
+        public static System.Boolean DoesObjectWithInstanceIDExist(System.Int32 @instanceID)
         {
 
             var ___genericsType = new Type[] {};
@@ -1728,7 +1728,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.Object FindObjectFromInstanceID(System.Int32  @instanceID)
+        public static UnityEngine.Object FindObjectFromInstanceID(System.Int32 @instanceID)
         {
 
             var ___genericsType = new Type[] {};
@@ -1739,7 +1739,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.Object ForceLoadFromInstanceID(System.Int32  @instanceID)
+        public static UnityEngine.Object ForceLoadFromInstanceID(System.Int32 @instanceID)
         {
 
             var ___genericsType = new Type[] {};
@@ -1750,7 +1750,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.Object CreateMissingReferenceObject(System.Int32  @instanceID)
+        public static UnityEngine.Object CreateMissingReferenceObject(System.Int32 @instanceID)
         {
 
             var ___genericsType = new Type[] {};
@@ -1761,7 +1761,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.Object Internal_InstantiateSingle_Injected(UnityEngine.Object  @data, ref UnityEngine.Vector3  @pos, ref UnityEngine.Quaternion  @rot)
+        public static UnityEngine.Object Internal_InstantiateSingle_Injected(UnityEngine.Object @data, ref UnityEngine.Vector3 @pos, ref UnityEngine.Quaternion @rot)
         {
 
             var ___genericsType = new Type[] {};
@@ -1774,7 +1774,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.Object Internal_InstantiateSingleWithParent_Injected(UnityEngine.Object  @data, UnityEngine.Transform  @parent, ref UnityEngine.Vector3  @pos, ref UnityEngine.Quaternion  @rot)
+        public static UnityEngine.Object Internal_InstantiateSingleWithParent_Injected(UnityEngine.Object @data, UnityEngine.Transform @parent, ref UnityEngine.Vector3 @pos, ref UnityEngine.Quaternion @rot)
         {
 
             var ___genericsType = new Type[] {};

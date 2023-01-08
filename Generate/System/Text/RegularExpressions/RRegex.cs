@@ -1643,25 +1643,25 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 	    {
 	    }
 
-        public virtual System.Object GetCachedCode(RSystem.RText.RRegularExpressions.RRegex.RCachedCodeEntryKey  @key, System.Boolean  @isToAdd)
+        public virtual RSystem.RText.RRegularExpressions.RRegex.RCachedCodeEntry GetCachedCode(RSystem.RText.RRegularExpressions.RRegex.RCachedCodeEntryKey @key, System.Boolean @isToAdd)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@key.Value, @isToAdd};
             var ___result = RGetCachedCode_CachedCodeEntryKey_Boolean.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RSystem.RText.RRegularExpressions.RRegex.RCachedCodeEntry(___result);
         }
 
 
-        public virtual System.Object GetCachedCodeEntryInternal(RSystem.RText.RRegularExpressions.RRegex.RCachedCodeEntryKey  @key, System.Boolean  @isToAdd)
+        public virtual RSystem.RText.RRegularExpressions.RRegex.RCachedCodeEntry GetCachedCodeEntryInternal(RSystem.RText.RRegularExpressions.RRegex.RCachedCodeEntryKey @key, System.Boolean @isToAdd)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@key.Value, @isToAdd};
             var ___result = RGetCachedCodeEntryInternal_CachedCodeEntryKey_Boolean.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RSystem.RText.RRegularExpressions.RRegex.RCachedCodeEntry(___result);
         }
 
 
@@ -1676,7 +1676,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
         }
 
 
-        public static System.Boolean TryGetCacheValue(RSystem.RText.RRegularExpressions.RRegex.RCachedCodeEntryKey  @key, out RSystem.RText.RRegularExpressions.RRegex.RCachedCodeEntry  @entry)
+        public static System.Boolean TryGetCacheValue(RSystem.RText.RRegularExpressions.RRegex.RCachedCodeEntryKey @key, out RSystem.RText.RRegularExpressions.RRegex.RCachedCodeEntry @entry)
         {
 			@entry = default;
 
@@ -1689,7 +1689,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
         }
 
 
-        public static System.Boolean TryGetCacheValueSmall(RSystem.RText.RRegularExpressions.RRegex.RCachedCodeEntryKey  @key, out RSystem.RText.RRegularExpressions.RRegex.RCachedCodeEntry  @entry)
+        public static System.Boolean TryGetCacheValueSmall(RSystem.RText.RRegularExpressions.RRegex.RCachedCodeEntryKey @key, out RSystem.RText.RRegularExpressions.RRegex.RCachedCodeEntry @entry)
         {
 			@entry = default;
 
@@ -1702,18 +1702,18 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
         }
 
 
-        public static System.Object LookupCachedAndPromote(RSystem.RText.RRegularExpressions.RRegex.RCachedCodeEntryKey  @key)
+        public static RSystem.RText.RRegularExpressions.RRegex.RCachedCodeEntry LookupCachedAndPromote(RSystem.RText.RRegularExpressions.RRegex.RCachedCodeEntryKey @key)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@key.Value};
             var ___result = RLookupCachedAndPromote_CachedCodeEntryKey.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RSystem.RText.RRegularExpressions.RRegex.RCachedCodeEntry(___result);
         }
 
 
-        public static System.Boolean IsMatch(System.String  @input, System.String  @pattern)
+        public static System.Boolean IsMatch(System.String @input, System.String @pattern)
         {
 
             var ___genericsType = new Type[] {};
@@ -1724,7 +1724,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
         }
 
 
-        public static System.Boolean IsMatch(System.String  @input, System.String  @pattern, System.Text.RegularExpressions.RegexOptions  @options)
+        public static System.Boolean IsMatch(System.String @input, System.String @pattern, System.Text.RegularExpressions.RegexOptions @options)
         {
 
             var ___genericsType = new Type[] {};
@@ -1735,7 +1735,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
         }
 
 
-        public static System.Boolean IsMatch(System.String  @input, System.String  @pattern, System.Text.RegularExpressions.RegexOptions  @options, System.TimeSpan  @matchTimeout)
+        public static System.Boolean IsMatch(System.String @input, System.String @pattern, System.Text.RegularExpressions.RegexOptions @options, System.TimeSpan @matchTimeout)
         {
 
             var ___genericsType = new Type[] {};
@@ -1746,7 +1746,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
         }
 
 
-        public virtual System.Boolean IsMatch(System.String  @input)
+        public virtual System.Boolean IsMatch(System.String @input)
         {
 
             var ___genericsType = new Type[] {};
@@ -1757,7 +1757,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
         }
 
 
-        public virtual System.Boolean IsMatch(System.String  @input, System.Int32  @startat)
+        public virtual System.Boolean IsMatch(System.String @input, System.Int32 @startat)
         {
 
             var ___genericsType = new Type[] {};
@@ -1768,7 +1768,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
         }
 
 
-        public static System.Text.RegularExpressions.Match Match(System.String  @input, System.String  @pattern)
+        public static System.Text.RegularExpressions.Match Match(System.String @input, System.String @pattern)
         {
 
             var ___genericsType = new Type[] {};
@@ -1779,7 +1779,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
         }
 
 
-        public static System.Text.RegularExpressions.Match Match(System.String  @input, System.String  @pattern, System.Text.RegularExpressions.RegexOptions  @options)
+        public static System.Text.RegularExpressions.Match Match(System.String @input, System.String @pattern, System.Text.RegularExpressions.RegexOptions @options)
         {
 
             var ___genericsType = new Type[] {};
@@ -1790,7 +1790,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
         }
 
 
-        public static System.Text.RegularExpressions.Match Match(System.String  @input, System.String  @pattern, System.Text.RegularExpressions.RegexOptions  @options, System.TimeSpan  @matchTimeout)
+        public static System.Text.RegularExpressions.Match Match(System.String @input, System.String @pattern, System.Text.RegularExpressions.RegexOptions @options, System.TimeSpan @matchTimeout)
         {
 
             var ___genericsType = new Type[] {};
@@ -1801,7 +1801,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
         }
 
 
-        public virtual System.Text.RegularExpressions.Match Match(System.String  @input)
+        public virtual System.Text.RegularExpressions.Match Match(System.String @input)
         {
 
             var ___genericsType = new Type[] {};
@@ -1812,7 +1812,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
         }
 
 
-        public virtual System.Text.RegularExpressions.Match Match(System.String  @input, System.Int32  @startat)
+        public virtual System.Text.RegularExpressions.Match Match(System.String @input, System.Int32 @startat)
         {
 
             var ___genericsType = new Type[] {};
@@ -1823,7 +1823,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
         }
 
 
-        public virtual System.Text.RegularExpressions.Match Match(System.String  @input, System.Int32  @beginning, System.Int32  @length)
+        public virtual System.Text.RegularExpressions.Match Match(System.String @input, System.Int32 @beginning, System.Int32 @length)
         {
 
             var ___genericsType = new Type[] {};
@@ -1834,7 +1834,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
         }
 
 
-        public static System.Text.RegularExpressions.MatchCollection Matches(System.String  @input, System.String  @pattern)
+        public static System.Text.RegularExpressions.MatchCollection Matches(System.String @input, System.String @pattern)
         {
 
             var ___genericsType = new Type[] {};
@@ -1845,7 +1845,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
         }
 
 
-        public static System.Text.RegularExpressions.MatchCollection Matches(System.String  @input, System.String  @pattern, System.Text.RegularExpressions.RegexOptions  @options)
+        public static System.Text.RegularExpressions.MatchCollection Matches(System.String @input, System.String @pattern, System.Text.RegularExpressions.RegexOptions @options)
         {
 
             var ___genericsType = new Type[] {};
@@ -1856,7 +1856,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
         }
 
 
-        public static System.Text.RegularExpressions.MatchCollection Matches(System.String  @input, System.String  @pattern, System.Text.RegularExpressions.RegexOptions  @options, System.TimeSpan  @matchTimeout)
+        public static System.Text.RegularExpressions.MatchCollection Matches(System.String @input, System.String @pattern, System.Text.RegularExpressions.RegexOptions @options, System.TimeSpan @matchTimeout)
         {
 
             var ___genericsType = new Type[] {};
@@ -1867,7 +1867,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
         }
 
 
-        public virtual System.Text.RegularExpressions.MatchCollection Matches(System.String  @input)
+        public virtual System.Text.RegularExpressions.MatchCollection Matches(System.String @input)
         {
 
             var ___genericsType = new Type[] {};
@@ -1878,7 +1878,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
         }
 
 
-        public virtual System.Text.RegularExpressions.MatchCollection Matches(System.String  @input, System.Int32  @startat)
+        public virtual System.Text.RegularExpressions.MatchCollection Matches(System.String @input, System.Int32 @startat)
         {
 
             var ___genericsType = new Type[] {};
@@ -1889,7 +1889,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
         }
 
 
-        public static System.String Replace(System.String  @input, System.String  @pattern, System.String  @replacement)
+        public static System.String Replace(System.String @input, System.String @pattern, System.String @replacement)
         {
 
             var ___genericsType = new Type[] {};
@@ -1900,7 +1900,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
         }
 
 
-        public static System.String Replace(System.String  @input, System.String  @pattern, System.String  @replacement, System.Text.RegularExpressions.RegexOptions  @options)
+        public static System.String Replace(System.String @input, System.String @pattern, System.String @replacement, System.Text.RegularExpressions.RegexOptions @options)
         {
 
             var ___genericsType = new Type[] {};
@@ -1911,7 +1911,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
         }
 
 
-        public static System.String Replace(System.String  @input, System.String  @pattern, System.String  @replacement, System.Text.RegularExpressions.RegexOptions  @options, System.TimeSpan  @matchTimeout)
+        public static System.String Replace(System.String @input, System.String @pattern, System.String @replacement, System.Text.RegularExpressions.RegexOptions @options, System.TimeSpan @matchTimeout)
         {
 
             var ___genericsType = new Type[] {};
@@ -1922,7 +1922,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
         }
 
 
-        public virtual System.String Replace(System.String  @input, System.String  @replacement)
+        public virtual System.String Replace(System.String @input, System.String @replacement)
         {
 
             var ___genericsType = new Type[] {};
@@ -1933,7 +1933,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
         }
 
 
-        public virtual System.String Replace(System.String  @input, System.String  @replacement, System.Int32  @count)
+        public virtual System.String Replace(System.String @input, System.String @replacement, System.Int32 @count)
         {
 
             var ___genericsType = new Type[] {};
@@ -1944,7 +1944,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
         }
 
 
-        public virtual System.String Replace(System.String  @input, System.String  @replacement, System.Int32  @count, System.Int32  @startat)
+        public virtual System.String Replace(System.String @input, System.String @replacement, System.Int32 @count, System.Int32 @startat)
         {
 
             var ___genericsType = new Type[] {};
@@ -1955,7 +1955,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
         }
 
 
-        public static System.String Replace(System.String  @input, System.String  @pattern, System.Text.RegularExpressions.MatchEvaluator  @evaluator)
+        public static System.String Replace(System.String @input, System.String @pattern, System.Text.RegularExpressions.MatchEvaluator @evaluator)
         {
 
             var ___genericsType = new Type[] {};
@@ -1966,7 +1966,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
         }
 
 
-        public static System.String Replace(System.String  @input, System.String  @pattern, System.Text.RegularExpressions.MatchEvaluator  @evaluator, System.Text.RegularExpressions.RegexOptions  @options)
+        public static System.String Replace(System.String @input, System.String @pattern, System.Text.RegularExpressions.MatchEvaluator @evaluator, System.Text.RegularExpressions.RegexOptions @options)
         {
 
             var ___genericsType = new Type[] {};
@@ -1977,7 +1977,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
         }
 
 
-        public static System.String Replace(System.String  @input, System.String  @pattern, System.Text.RegularExpressions.MatchEvaluator  @evaluator, System.Text.RegularExpressions.RegexOptions  @options, System.TimeSpan  @matchTimeout)
+        public static System.String Replace(System.String @input, System.String @pattern, System.Text.RegularExpressions.MatchEvaluator @evaluator, System.Text.RegularExpressions.RegexOptions @options, System.TimeSpan @matchTimeout)
         {
 
             var ___genericsType = new Type[] {};
@@ -1988,7 +1988,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
         }
 
 
-        public virtual System.String Replace(System.String  @input, System.Text.RegularExpressions.MatchEvaluator  @evaluator)
+        public virtual System.String Replace(System.String @input, System.Text.RegularExpressions.MatchEvaluator @evaluator)
         {
 
             var ___genericsType = new Type[] {};
@@ -1999,7 +1999,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
         }
 
 
-        public virtual System.String Replace(System.String  @input, System.Text.RegularExpressions.MatchEvaluator  @evaluator, System.Int32  @count)
+        public virtual System.String Replace(System.String @input, System.Text.RegularExpressions.MatchEvaluator @evaluator, System.Int32 @count)
         {
 
             var ___genericsType = new Type[] {};
@@ -2010,7 +2010,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
         }
 
 
-        public virtual System.String Replace(System.String  @input, System.Text.RegularExpressions.MatchEvaluator  @evaluator, System.Int32  @count, System.Int32  @startat)
+        public virtual System.String Replace(System.String @input, System.Text.RegularExpressions.MatchEvaluator @evaluator, System.Int32 @count, System.Int32 @startat)
         {
 
             var ___genericsType = new Type[] {};
@@ -2021,7 +2021,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
         }
 
 
-        public static System.String Replace(System.Text.RegularExpressions.MatchEvaluator  @evaluator, System.Text.RegularExpressions.Regex  @regex, System.String  @input, System.Int32  @count, System.Int32  @startat)
+        public static System.String Replace(System.Text.RegularExpressions.MatchEvaluator @evaluator, System.Text.RegularExpressions.Regex @regex, System.String @input, System.Int32 @count, System.Int32 @startat)
         {
 
             var ___genericsType = new Type[] {};
@@ -2032,7 +2032,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
         }
 
 
-        public static System.String[] Split(System.String  @input, System.String  @pattern)
+        public static System.String[] Split(System.String @input, System.String @pattern)
         {
 
             var ___genericsType = new Type[] {};
@@ -2043,7 +2043,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
         }
 
 
-        public static System.String[] Split(System.String  @input, System.String  @pattern, System.Text.RegularExpressions.RegexOptions  @options)
+        public static System.String[] Split(System.String @input, System.String @pattern, System.Text.RegularExpressions.RegexOptions @options)
         {
 
             var ___genericsType = new Type[] {};
@@ -2054,7 +2054,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
         }
 
 
-        public static System.String[] Split(System.String  @input, System.String  @pattern, System.Text.RegularExpressions.RegexOptions  @options, System.TimeSpan  @matchTimeout)
+        public static System.String[] Split(System.String @input, System.String @pattern, System.Text.RegularExpressions.RegexOptions @options, System.TimeSpan @matchTimeout)
         {
 
             var ___genericsType = new Type[] {};
@@ -2065,7 +2065,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
         }
 
 
-        public virtual System.String[] Split(System.String  @input)
+        public virtual System.String[] Split(System.String @input)
         {
 
             var ___genericsType = new Type[] {};
@@ -2076,7 +2076,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
         }
 
 
-        public virtual System.String[] Split(System.String  @input, System.Int32  @count)
+        public virtual System.String[] Split(System.String @input, System.Int32 @count)
         {
 
             var ___genericsType = new Type[] {};
@@ -2087,7 +2087,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
         }
 
 
-        public virtual System.String[] Split(System.String  @input, System.Int32  @count, System.Int32  @startat)
+        public virtual System.String[] Split(System.String @input, System.Int32 @count, System.Int32 @startat)
         {
 
             var ___genericsType = new Type[] {};
@@ -2098,7 +2098,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
         }
 
 
-        public static System.String[] Split(System.Text.RegularExpressions.Regex  @regex, System.String  @input, System.Int32  @count, System.Int32  @startat)
+        public static System.String[] Split(System.Text.RegularExpressions.Regex @regex, System.String @input, System.Int32 @count, System.Int32 @startat)
         {
 
             var ___genericsType = new Type[] {};
@@ -2109,7 +2109,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
         }
 
 
-        public static void ValidateMatchTimeout(System.TimeSpan  @matchTimeout)
+        public static void ValidateMatchTimeout(System.TimeSpan @matchTimeout)
         {
 
             var ___genericsType = new Type[] {};
@@ -2131,7 +2131,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
         }
 
 
-        public virtual void System__2__Runtime__2__Serialization__2__ISerializable__2__GetObjectData(System.Runtime.Serialization.SerializationInfo  @si, System.Runtime.Serialization.StreamingContext  @context)
+        public virtual void System__2__Runtime__2__Serialization__2__ISerializable__2__GetObjectData(System.Runtime.Serialization.SerializationInfo @si, System.Runtime.Serialization.StreamingContext @context)
         {
 
             var ___genericsType = new Type[] {};
@@ -2142,7 +2142,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
         }
 
 
-        public virtual System.Text.RegularExpressions.RegexRunnerFactory Compile(RSystem.RText.RRegularExpressions.RRegexCode  @code, System.Text.RegularExpressions.RegexOptions  @roptions)
+        public virtual System.Text.RegularExpressions.RegexRunnerFactory Compile(RSystem.RText.RRegularExpressions.RRegexCode @code, System.Text.RegularExpressions.RegexOptions @roptions)
         {
 
             var ___genericsType = new Type[] {};
@@ -2153,7 +2153,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
         }
 
 
-        public static void CompileToAssembly(System.Text.RegularExpressions.RegexCompilationInfo[]  @regexinfos, System.Reflection.AssemblyName  @assemblyname)
+        public static void CompileToAssembly(System.Text.RegularExpressions.RegexCompilationInfo[] @regexinfos, System.Reflection.AssemblyName @assemblyname)
         {
 
             var ___genericsType = new Type[] {};
@@ -2164,7 +2164,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
         }
 
 
-        public static void CompileToAssembly(System.Text.RegularExpressions.RegexCompilationInfo[]  @regexinfos, System.Reflection.AssemblyName  @assemblyname, System.Reflection.Emit.CustomAttributeBuilder[]  @attributes)
+        public static void CompileToAssembly(System.Text.RegularExpressions.RegexCompilationInfo[] @regexinfos, System.Reflection.AssemblyName @assemblyname, System.Reflection.Emit.CustomAttributeBuilder[] @attributes)
         {
 
             var ___genericsType = new Type[] {};
@@ -2175,7 +2175,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
         }
 
 
-        public static void CompileToAssembly(System.Text.RegularExpressions.RegexCompilationInfo[]  @regexinfos, System.Reflection.AssemblyName  @assemblyname, System.Reflection.Emit.CustomAttributeBuilder[]  @attributes, System.String  @resourceFile)
+        public static void CompileToAssembly(System.Text.RegularExpressions.RegexCompilationInfo[] @regexinfos, System.Reflection.AssemblyName @assemblyname, System.Reflection.Emit.CustomAttributeBuilder[] @attributes, System.String @resourceFile)
         {
 
             var ___genericsType = new Type[] {};
@@ -2186,7 +2186,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
         }
 
 
-        public static System.String Escape(System.String  @str)
+        public static System.String Escape(System.String @str)
         {
 
             var ___genericsType = new Type[] {};
@@ -2197,7 +2197,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
         }
 
 
-        public static System.String Unescape(System.String  @str)
+        public static System.String Unescape(System.String @str)
         {
 
             var ___genericsType = new Type[] {};
@@ -2241,7 +2241,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
         }
 
 
-        public virtual System.String GroupNameFromNumber(System.Int32  @i)
+        public virtual System.String GroupNameFromNumber(System.Int32 @i)
         {
 
             var ___genericsType = new Type[] {};
@@ -2252,7 +2252,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
         }
 
 
-        public virtual System.Int32 GroupNumberFromName(System.String  @name)
+        public virtual System.Int32 GroupNumberFromName(System.String @name)
         {
 
             var ___genericsType = new Type[] {};
@@ -2274,7 +2274,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
         }
 
 
-        public virtual System.Text.RegularExpressions.Match Run(System.Boolean  @quick, System.Int32  @prevlen, System.String  @input, System.Int32  @beginning, System.Int32  @length, System.Int32  @startat)
+        public virtual System.Text.RegularExpressions.Match Run(System.Boolean @quick, System.Int32 @prevlen, System.String @input, System.Int32 @beginning, System.Int32 @length, System.Int32 @startat)
         {
 
             var ___genericsType = new Type[] {};
@@ -2318,7 +2318,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

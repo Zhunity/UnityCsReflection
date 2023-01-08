@@ -328,7 +328,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Boolean ToBoolean(System.IFormatProvider  @provider)
+        public virtual System.Boolean ToBoolean(System.IFormatProvider @provider)
         {
 
             var ___genericsType = new Type[] {};
@@ -339,7 +339,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Char ToChar(System.IFormatProvider  @provider)
+        public virtual System.Char ToChar(System.IFormatProvider @provider)
         {
 
             var ___genericsType = new Type[] {};
@@ -350,7 +350,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.SByte ToSByte(System.IFormatProvider  @provider)
+        public virtual System.SByte ToSByte(System.IFormatProvider @provider)
         {
 
             var ___genericsType = new Type[] {};
@@ -361,7 +361,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Byte ToByte(System.IFormatProvider  @provider)
+        public virtual System.Byte ToByte(System.IFormatProvider @provider)
         {
 
             var ___genericsType = new Type[] {};
@@ -372,7 +372,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Int16 ToInt16(System.IFormatProvider  @provider)
+        public virtual System.Int16 ToInt16(System.IFormatProvider @provider)
         {
 
             var ___genericsType = new Type[] {};
@@ -383,7 +383,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.UInt16 ToUInt16(System.IFormatProvider  @provider)
+        public virtual System.UInt16 ToUInt16(System.IFormatProvider @provider)
         {
 
             var ___genericsType = new Type[] {};
@@ -394,7 +394,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Int32 ToInt32(System.IFormatProvider  @provider)
+        public virtual System.Int32 ToInt32(System.IFormatProvider @provider)
         {
 
             var ___genericsType = new Type[] {};
@@ -405,7 +405,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.UInt32 ToUInt32(System.IFormatProvider  @provider)
+        public virtual System.UInt32 ToUInt32(System.IFormatProvider @provider)
         {
 
             var ___genericsType = new Type[] {};
@@ -416,7 +416,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Int64 ToInt64(System.IFormatProvider  @provider)
+        public virtual System.Int64 ToInt64(System.IFormatProvider @provider)
         {
 
             var ___genericsType = new Type[] {};
@@ -427,7 +427,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.UInt64 ToUInt64(System.IFormatProvider  @provider)
+        public virtual System.UInt64 ToUInt64(System.IFormatProvider @provider)
         {
 
             var ___genericsType = new Type[] {};
@@ -438,7 +438,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Single ToSingle(System.IFormatProvider  @provider)
+        public virtual System.Single ToSingle(System.IFormatProvider @provider)
         {
 
             var ___genericsType = new Type[] {};
@@ -449,7 +449,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Double ToDouble(System.IFormatProvider  @provider)
+        public virtual System.Double ToDouble(System.IFormatProvider @provider)
         {
 
             var ___genericsType = new Type[] {};
@@ -460,7 +460,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Decimal ToDecimal(System.IFormatProvider  @provider)
+        public virtual System.Decimal ToDecimal(System.IFormatProvider @provider)
         {
 
             var ___genericsType = new Type[] {};
@@ -471,7 +471,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.DateTime ToDateTime(System.IFormatProvider  @provider)
+        public virtual System.DateTime ToDateTime(System.IFormatProvider @provider)
         {
 
             var ___genericsType = new Type[] {};
@@ -482,7 +482,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.String ToString(System.IFormatProvider  @provider)
+        public virtual System.String ToString(System.IFormatProvider @provider)
         {
 
             var ___genericsType = new Type[] {};
@@ -493,7 +493,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Object ToType(System.Type  @conversionType, System.IFormatProvider  @provider)
+        public virtual System.Object ToType(System.Type @conversionType, System.IFormatProvider @provider)
         {
 
             var ___genericsType = new Type[] {};

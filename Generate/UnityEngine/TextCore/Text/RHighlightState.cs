@@ -215,7 +215,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 	    {
 	    }
 
-        public static System.Boolean op_Equality(RUnityEngine.RTextCore.RText.RHighlightState  @lhs, RUnityEngine.RTextCore.RText.RHighlightState  @rhs)
+        public static System.Boolean op_Equality(RUnityEngine.RTextCore.RText.RHighlightState @lhs, RUnityEngine.RTextCore.RText.RHighlightState @rhs)
         {
 
             var ___genericsType = new Type[] {};
@@ -226,7 +226,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
         }
 
 
-        public static System.Boolean op_Inequality(RUnityEngine.RTextCore.RText.RHighlightState  @lhs, RUnityEngine.RTextCore.RText.RHighlightState  @rhs)
+        public static System.Boolean op_Inequality(RUnityEngine.RTextCore.RText.RHighlightState @lhs, RUnityEngine.RTextCore.RText.RHighlightState @rhs)
         {
 
             var ___genericsType = new Type[] {};
@@ -248,7 +248,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};
@@ -259,7 +259,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
         }
 
 
-        public virtual System.Boolean Equals(RUnityEngine.RTextCore.RText.RHighlightState  @other)
+        public virtual System.Boolean Equals(RUnityEngine.RTextCore.RText.RHighlightState @other)
         {
 
             var ___genericsType = new Type[] {};

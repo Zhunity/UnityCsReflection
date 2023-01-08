@@ -674,7 +674,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 	    {
 	    }
 
-        public virtual void InitializeEraNames(System.String  @localeName, System.Int32  @calendarId)
+        public virtual void InitializeEraNames(System.String @localeName, System.Int32 @calendarId)
         {
 
             var ___genericsType = new Type[] {};
@@ -707,7 +707,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public virtual void InitializeAbbreviatedEraNames(System.String  @localeName, System.Int32  @calendarId)
+        public virtual void InitializeAbbreviatedEraNames(System.String @localeName, System.Int32 @calendarId)
         {
 
             var ___genericsType = new Type[] {};
@@ -718,18 +718,18 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public static System.Object GetCalendarData(System.Int32  @calendarId)
+        public static RSystem.RGlobalization.RCalendarData GetCalendarData(System.Int32 @calendarId)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@calendarId};
             var ___result = RGetCalendarData_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RSystem.RGlobalization.RCalendarData(___result);
         }
 
 
-        public static System.String CalendarIdToCultureName(System.Int32  @calendarId)
+        public static System.String CalendarIdToCultureName(System.Int32 @calendarId)
         {
 
             var ___genericsType = new Type[] {};
@@ -740,7 +740,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public static System.Int32 nativeGetTwoDigitYearMax(System.Int32  @calID)
+        public static System.Int32 nativeGetTwoDigitYearMax(System.Int32 @calID)
         {
 
             var ___genericsType = new Type[] {};
@@ -751,7 +751,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public static System.Boolean nativeGetCalendarData(RSystem.RGlobalization.RCalendarData  @data, System.String  @localeName, System.Int32  @calendarId)
+        public static System.Boolean nativeGetCalendarData(RSystem.RGlobalization.RCalendarData @data, System.String @localeName, System.Int32 @calendarId)
         {
 
             var ___genericsType = new Type[] {};
@@ -762,7 +762,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public virtual System.Boolean fill_calendar_data(System.String  @localeName, System.Int32  @datetimeIndex)
+        public virtual System.Boolean fill_calendar_data(System.String @localeName, System.Int32 @datetimeIndex)
         {
 
             var ___genericsType = new Type[] {};
@@ -773,7 +773,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

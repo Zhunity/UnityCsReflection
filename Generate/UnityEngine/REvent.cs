@@ -1042,7 +1042,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static System.IntPtr Internal_Create(System.Int32  @displayIndex)
+        public static System.IntPtr Internal_Create(System.Int32 @displayIndex)
         {
 
             var ___genericsType = new Type[] {};
@@ -1053,7 +1053,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static void Internal_Destroy(System.IntPtr  @ptr)
+        public static void Internal_Destroy(System.IntPtr @ptr)
         {
 
             var ___genericsType = new Type[] {};
@@ -1064,7 +1064,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static System.IntPtr Internal_Copy(System.IntPtr  @otherPtr)
+        public static System.IntPtr Internal_Copy(System.IntPtr @otherPtr)
         {
 
             var ___genericsType = new Type[] {};
@@ -1075,7 +1075,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual UnityEngine.EventType GetTypeForControl(System.Int32  @controlID)
+        public virtual UnityEngine.EventType GetTypeForControl(System.Int32 @controlID)
         {
 
             var ___genericsType = new Type[] {};
@@ -1086,7 +1086,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void CopyFromPtr(System.IntPtr  @ptr)
+        public virtual void CopyFromPtr(System.IntPtr @ptr)
         {
 
             var ___genericsType = new Type[] {};
@@ -1097,7 +1097,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static System.Boolean PopEvent(UnityEngine.Event  @outEvent)
+        public static System.Boolean PopEvent(UnityEngine.Event @outEvent)
         {
 
             var ___genericsType = new Type[] {};
@@ -1119,7 +1119,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static void Internal_SetNativeEvent(System.IntPtr  @ptr)
+        public static void Internal_SetNativeEvent(System.IntPtr @ptr)
         {
 
             var ___genericsType = new Type[] {};
@@ -1130,7 +1130,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static void Internal_MakeMasterEventCurrent(System.Int32  @displayIndex)
+        public static void Internal_MakeMasterEventCurrent(System.Int32 @displayIndex)
         {
 
             var ___genericsType = new Type[] {};
@@ -1174,7 +1174,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void CopyFrom(UnityEngine.Event  @e)
+        public virtual void CopyFrom(UnityEngine.Event @e)
         {
 
             var ___genericsType = new Type[] {};
@@ -1185,7 +1185,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.Event KeyboardEvent(System.String  @key)
+        public static UnityEngine.Event KeyboardEvent(System.String @key)
         {
 
             var ___genericsType = new Type[] {};
@@ -1207,7 +1207,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};
@@ -1240,7 +1240,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void get_mousePosition_Injected(out UnityEngine.Vector2  @ret)
+        public virtual void get_mousePosition_Injected(out UnityEngine.Vector2 @ret)
         {
 			@ret = default;
 
@@ -1253,7 +1253,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void set_mousePosition_Injected(ref UnityEngine.Vector2  @value)
+        public virtual void set_mousePosition_Injected(ref UnityEngine.Vector2 @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -1265,7 +1265,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void get_delta_Injected(out UnityEngine.Vector2  @ret)
+        public virtual void get_delta_Injected(out UnityEngine.Vector2 @ret)
         {
 			@ret = default;
 
@@ -1278,7 +1278,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void set_delta_Injected(ref UnityEngine.Vector2  @value)
+        public virtual void set_delta_Injected(ref UnityEngine.Vector2 @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -1290,7 +1290,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void get_tilt_Injected(out UnityEngine.Vector2  @ret)
+        public virtual void get_tilt_Injected(out UnityEngine.Vector2 @ret)
         {
 			@ret = default;
 
@@ -1303,7 +1303,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void set_tilt_Injected(ref UnityEngine.Vector2  @value)
+        public virtual void set_tilt_Injected(ref UnityEngine.Vector2 @value)
         {
 
             var ___genericsType = new Type[] {};

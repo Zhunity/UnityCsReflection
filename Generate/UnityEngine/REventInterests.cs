@@ -266,7 +266,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 	    {
 	    }
 
-        public virtual System.Boolean WantsEvent(UnityEngine.EventType  @type)
+        public virtual System.Boolean WantsEvent(UnityEngine.EventType @type)
         {
 
             var ___genericsType = new Type[] {};
@@ -277,7 +277,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Boolean WantsLayoutPass(UnityEngine.EventType  @type)
+        public virtual System.Boolean WantsLayoutPass(UnityEngine.EventType @type)
         {
 
             var ___genericsType = new Type[] {};
@@ -288,7 +288,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

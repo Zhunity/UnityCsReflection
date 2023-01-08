@@ -215,7 +215,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections
 	    {
 	    }
 
-        public virtual void Deconstruct(out System.Object  @key, out System.Object  @value)
+        public virtual void Deconstruct(out System.Object @key, out System.Object @value)
         {
 			@key = default;
 			@value = default;
@@ -230,7 +230,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

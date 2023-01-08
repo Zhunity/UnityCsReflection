@@ -1626,19 +1626,29 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 	    {
 	    }
 
+        public static UnityEditor.Overlays.DockZone GetDockZone(RUnityEditor.ROverlays.ROverlayContainer @container)
+        {
 
-        public virtual System.Object GetDockZoneContainer(UnityEditor.Overlays.DockZone  @zone)
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@container.Value};
+            var ___result = RGetDockZone_OverlayContainer.Invoke(___genericsType, ___parameters);
+
+            return (UnityEditor.Overlays.DockZone)___result;
+        }
+
+
+        public virtual RUnityEditor.ROverlays.ROverlayContainer GetDockZoneContainer(UnityEditor.Overlays.DockZone @zone)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@zone};
             var ___result = RGetDockZoneContainer_DockZone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RUnityEditor.ROverlays.ROverlayContainer(___result);
         }
 
 
-        public virtual void SetOverlaysEnabled(System.Boolean  @visible)
+        public virtual void SetOverlaysEnabled(System.Boolean @visible)
         {
 
             var ___genericsType = new Type[] {};
@@ -1660,7 +1670,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
         }
 
 
-        public virtual void SetPickingMode(UnityEngine.UIElements.VisualElement  @element, UnityEngine.UIElements.PickingMode  @mode)
+        public virtual void SetPickingMode(UnityEngine.UIElements.VisualElement @element, UnityEngine.UIElements.PickingMode @mode)
         {
 
             var ___genericsType = new Type[] {};
@@ -1671,7 +1681,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
         }
 
 
-        public virtual void OnMouseEnterOverlayContainer(UnityEngine.UIElements.MouseEnterEvent  @evt)
+        public virtual void OnMouseEnterOverlayContainer(UnityEngine.UIElements.MouseEnterEvent @evt)
         {
 
             var ___genericsType = new Type[] {};
@@ -1682,7 +1692,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
         }
 
 
-        public virtual void OnAttachedToPanel(UnityEngine.UIElements.AttachToPanelEvent  @evt)
+        public virtual void OnAttachedToPanel(UnityEngine.UIElements.AttachToPanelEvent @evt)
         {
 
             var ___genericsType = new Type[] {};
@@ -1693,7 +1703,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
         }
 
 
-        public virtual void OnDetachedFromPanel(UnityEngine.UIElements.DetachFromPanelEvent  @evt)
+        public virtual void OnDetachedFromPanel(UnityEngine.UIElements.DetachFromPanelEvent @evt)
         {
 
             var ___genericsType = new Type[] {};
@@ -1715,7 +1725,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
         }
 
 
-        public virtual UnityEngine.Rect ClampToOverlayWindow(UnityEngine.Rect  @rect)
+        public virtual UnityEngine.Rect ClampToOverlayWindow(UnityEngine.Rect @rect)
         {
 
             var ___genericsType = new Type[] {};
@@ -1726,7 +1736,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
         }
 
 
-        public static UnityEngine.Rect ClampRectToBounds(UnityEngine.Rect  @boundary, UnityEngine.Rect  @rectToClamp)
+        public static UnityEngine.Rect ClampRectToBounds(UnityEngine.Rect @boundary, UnityEngine.Rect @rectToClamp)
         {
 
             var ___genericsType = new Type[] {};
@@ -1737,7 +1747,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
         }
 
 
-        public virtual void GeometryChanged(UnityEngine.UIElements.GeometryChangedEvent  @evt)
+        public virtual void GeometryChanged(UnityEngine.UIElements.GeometryChangedEvent @evt)
         {
 
             var ___genericsType = new Type[] {};
@@ -1748,7 +1758,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
         }
 
 
-        public virtual void OnMouseLeaveOverlay(UnityEngine.UIElements.MouseLeaveEvent  @evt)
+        public virtual void OnMouseLeaveOverlay(UnityEngine.UIElements.MouseLeaveEvent @evt)
         {
 
             var ___genericsType = new Type[] {};
@@ -1759,7 +1769,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
         }
 
 
-        public virtual void OnMouseEnterOverlay(UnityEngine.UIElements.MouseEnterEvent  @evt)
+        public virtual void OnMouseEnterOverlay(UnityEngine.UIElements.MouseEnterEvent @evt)
         {
 
             var ___genericsType = new Type[] {};
@@ -1781,7 +1791,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
         }
 
 
-        public virtual void ShowMenu(System.Boolean  @show, System.Boolean  @atMousePosition)
+        public virtual void ShowMenu(System.Boolean @show, System.Boolean @atMousePosition)
         {
 
             var ___genericsType = new Type[] {};
@@ -1792,7 +1802,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
         }
 
 
-        public virtual void Initialize(UnityEditor.EditorWindow  @window)
+        public virtual void Initialize(UnityEditor.EditorWindow @window)
         {
 
             var ___genericsType = new Type[] {};
@@ -1836,7 +1846,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
         }
 
 
-        public virtual void ShowOriginGhost(UnityEditor.Overlays.Overlay  @overlay)
+        public virtual void ShowOriginGhost(UnityEditor.Overlays.Overlay @overlay)
         {
 
             var ___genericsType = new Type[] {};
@@ -1847,7 +1857,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
         }
 
 
-        public virtual void UpdateGhostHover(System.Boolean  @hovered)
+        public virtual void UpdateGhostHover(System.Boolean @hovered)
         {
 
             var ___genericsType = new Type[] {};
@@ -1858,7 +1868,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
         }
 
 
-        public virtual void WriteOrReplaceSaveData(UnityEditor.Overlays.Overlay  @overlay, System.Int32  @containerIndex)
+        public virtual void WriteOrReplaceSaveData(UnityEditor.Overlays.Overlay @overlay, System.Int32 @containerIndex)
         {
 
             var ___genericsType = new Type[] {};
@@ -1891,10 +1901,42 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
         }
 
 
+        public virtual void CopySaveData(out RTypeArray<RUnityEditor.ROverlays.RSaveData> @saveData)
+        {
+			@saveData = default;
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@saveData.Value};
+            var ___result = RCopySaveData_Out_SaveDataArray.Invoke(___genericsType, ___parameters);
+			@saveData = new RTypeArray<RUnityEditor.ROverlays.RSaveData>(___parameters[0]);
+
+            
+        }
 
 
+        public virtual void ApplyPreset(RUnityEditor.ROverlays.ROverlayPreset @preset)
+        {
 
-        public virtual void Move(UnityEditor.Overlays.Overlay  @overlay, UnityEditor.Overlays.DockZone  @zone, UnityEditor.Overlays.DockPosition  @position)
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@preset.Value};
+            var ___result = RApplyPreset_OverlayPreset.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void ApplySaveData(RTypeArray<RUnityEditor.ROverlays.RSaveData> @saveData)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@saveData.Value};
+            var ___result = RApplySaveData_SaveDataArray.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void Move(UnityEditor.Overlays.Overlay @overlay, UnityEditor.Overlays.DockZone @zone, UnityEditor.Overlays.DockPosition @position)
         {
 
             var ___genericsType = new Type[] {};
@@ -1916,7 +1958,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
         }
 
 
-        public virtual void Add(UnityEditor.Overlays.Overlay  @overlay, System.Boolean  @show)
+        public virtual void Add(UnityEditor.Overlays.Overlay @overlay, System.Boolean @show)
         {
 
             var ___genericsType = new Type[] {};
@@ -1927,7 +1969,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
         }
 
 
-        public virtual System.Boolean Remove(UnityEditor.Overlays.Overlay  @overlay)
+        public virtual System.Boolean Remove(UnityEditor.Overlays.Overlay @overlay)
         {
 
             var ___genericsType = new Type[] {};
@@ -1938,7 +1980,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
         }
 
 
-        public virtual void AddOverlay(UnityEditor.Overlays.Overlay  @overlay)
+        public virtual void AddOverlay(UnityEditor.Overlays.Overlay @overlay)
         {
 
             var ___genericsType = new Type[] {};
@@ -1949,7 +1991,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
         }
 
 
-        public virtual T GetOrCreateOverlay<T>(System.String  @id) where T : UnityEditor.Overlays.Overlay, new()
+        public virtual T GetOrCreateOverlay<T>(System.String @id) where T : UnityEditor.Overlays.Overlay, new()
         {
 
             var ___genericsType = new Type[] {typeof(T)};
@@ -1960,16 +2002,26 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
         }
 
 
-        public virtual System.Object FindSaveData(UnityEditor.Overlays.Overlay  @overlay)
+        public virtual RUnityEditor.ROverlays.RSaveData FindSaveData(UnityEditor.Overlays.Overlay @overlay)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@overlay};
             var ___result = RFindSaveData_Overlay.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RUnityEditor.ROverlays.RSaveData(___result);
         }
 
+
+        public virtual void RestoreOverlay(UnityEditor.Overlays.Overlay @overlay, RUnityEditor.ROverlays.RSaveData @data)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@overlay, @data.Value};
+            var ___result = RRestoreOverlay_Overlay_SaveData.Invoke(___genericsType, ___parameters);
+
+            
+        }
 
 
         public virtual void RestoreOverlays()
@@ -1983,7 +2035,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

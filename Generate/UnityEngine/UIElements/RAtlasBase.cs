@@ -368,7 +368,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 	    {
 	    }
 
-        public virtual System.Boolean TryGetAtlas(UnityEngine.UIElements.VisualElement  @ctx, UnityEngine.Texture2D  @src, out RUnityEngine.RUIElements.RTextureId  @atlas, out UnityEngine.RectInt  @atlasRect)
+        public virtual System.Boolean TryGetAtlas(UnityEngine.UIElements.VisualElement @ctx, UnityEngine.Texture2D @src, out RUnityEngine.RUIElements.RTextureId @atlas, out UnityEngine.RectInt @atlasRect)
         {
 			@atlas = default;
 			@atlasRect = default;
@@ -383,7 +383,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void ReturnAtlas(UnityEngine.UIElements.VisualElement  @ctx, UnityEngine.Texture2D  @src, RUnityEngine.RUIElements.RTextureId  @atlas)
+        public virtual void ReturnAtlas(UnityEngine.UIElements.VisualElement @ctx, UnityEngine.Texture2D @src, RUnityEngine.RUIElements.RTextureId @atlas)
         {
 
             var ___genericsType = new Type[] {};
@@ -405,7 +405,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void OnAssignedToPanel(UnityEngine.UIElements.IPanel  @panel)
+        public virtual void OnAssignedToPanel(UnityEngine.UIElements.IPanel @panel)
         {
 
             var ___genericsType = new Type[] {};
@@ -416,7 +416,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void OnRemovedFromPanel(UnityEngine.UIElements.IPanel  @panel)
+        public virtual void OnRemovedFromPanel(UnityEngine.UIElements.IPanel @panel)
         {
 
             var ___genericsType = new Type[] {};
@@ -427,7 +427,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void OnUpdateDynamicTextures(UnityEngine.UIElements.IPanel  @panel)
+        public virtual void OnUpdateDynamicTextures(UnityEngine.UIElements.IPanel @panel)
         {
 
             var ___genericsType = new Type[] {};
@@ -438,7 +438,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void InvokeAssignedToPanel(UnityEngine.UIElements.IPanel  @panel)
+        public virtual void InvokeAssignedToPanel(UnityEngine.UIElements.IPanel @panel)
         {
 
             var ___genericsType = new Type[] {};
@@ -449,7 +449,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void InvokeRemovedFromPanel(UnityEngine.UIElements.IPanel  @panel)
+        public virtual void InvokeRemovedFromPanel(UnityEngine.UIElements.IPanel @panel)
         {
 
             var ___genericsType = new Type[] {};
@@ -460,7 +460,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void InvokeUpdateDynamicTextures(UnityEngine.UIElements.IPanel  @panel)
+        public virtual void InvokeUpdateDynamicTextures(UnityEngine.UIElements.IPanel @panel)
         {
 
             var ___genericsType = new Type[] {};
@@ -471,7 +471,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public static void RepaintTexturedElements(UnityEngine.UIElements.IPanel  @panel)
+        public static void RepaintTexturedElements(UnityEngine.UIElements.IPanel @panel)
         {
 
             var ___genericsType = new Type[] {};
@@ -482,18 +482,18 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Object AllocateDynamicTexture()
+        public virtual RUnityEngine.RUIElements.RTextureId AllocateDynamicTexture()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RAllocateDynamicTexture.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RUnityEngine.RUIElements.RTextureId(___result);
         }
 
 
-        public virtual void FreeDynamicTexture(RUnityEngine.RUIElements.RTextureId  @id)
+        public virtual void FreeDynamicTexture(RUnityEngine.RUIElements.RTextureId @id)
         {
 
             var ___genericsType = new Type[] {};
@@ -504,7 +504,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void SetDynamicTexture(RUnityEngine.RUIElements.RTextureId  @id, UnityEngine.Texture  @texture)
+        public virtual void SetDynamicTexture(RUnityEngine.RUIElements.RTextureId @id, UnityEngine.Texture @texture)
         {
 
             var ___genericsType = new Type[] {};
@@ -515,7 +515,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

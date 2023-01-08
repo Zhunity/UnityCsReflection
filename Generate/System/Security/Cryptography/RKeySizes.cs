@@ -266,7 +266,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
 	    {
 	    }
 
-        public virtual System.Boolean IsLegal(System.Int32  @keySize)
+        public virtual System.Boolean IsLegal(System.Int32 @keySize)
         {
 
             var ___genericsType = new Type[] {};
@@ -277,7 +277,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
         }
 
 
-        public static System.Boolean IsLegalKeySize(System.Security.Cryptography.KeySizes[]  @legalKeys, System.Int32  @size)
+        public static System.Boolean IsLegalKeySize(System.Security.Cryptography.KeySizes[] @legalKeys, System.Int32 @size)
         {
 
             var ___genericsType = new Type[] {};
@@ -288,7 +288,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

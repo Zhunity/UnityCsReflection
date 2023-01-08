@@ -300,7 +300,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 	    {
 	    }
 
-        public virtual void GetObjectData(System.Runtime.Serialization.SerializationInfo  @info, System.Runtime.Serialization.StreamingContext  @context)
+        public virtual void GetObjectData(System.Runtime.Serialization.SerializationInfo @info, System.Runtime.Serialization.StreamingContext @context)
         {
 
             var ___genericsType = new Type[] {};
@@ -311,7 +311,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.IntPtr GetFunctionPointer(System.IntPtr  @m)
+        public static System.IntPtr GetFunctionPointer(System.IntPtr @m)
         {
 
             var ___genericsType = new Type[] {};
@@ -333,7 +333,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};
@@ -344,7 +344,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Boolean Equals(System.RuntimeMethodHandle  @handle)
+        public virtual System.Boolean Equals(System.RuntimeMethodHandle @handle)
         {
 
             var ___genericsType = new Type[] {};
@@ -366,7 +366,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Boolean op_Equality(System.RuntimeMethodHandle  @left, System.RuntimeMethodHandle  @right)
+        public static System.Boolean op_Equality(System.RuntimeMethodHandle @left, System.RuntimeMethodHandle @right)
         {
 
             var ___genericsType = new Type[] {};
@@ -377,7 +377,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Boolean op_Inequality(System.RuntimeMethodHandle  @left, System.RuntimeMethodHandle  @right)
+        public static System.Boolean op_Inequality(System.RuntimeMethodHandle @left, System.RuntimeMethodHandle @right)
         {
 
             var ___genericsType = new Type[] {};
@@ -388,7 +388,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.String ConstructInstantiation(RSystem.RReflection.RRuntimeMethodInfo  @method, RType  @format)
+        public static System.String ConstructInstantiation(RSystem.RReflection.RRuntimeMethodInfo @method, RType @format)
         {
 
             var ___genericsType = new Type[] {};

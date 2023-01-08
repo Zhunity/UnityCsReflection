@@ -1331,7 +1331,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
         }
 
 
-        public virtual System.Threading.Tasks.Task CopyToAsync(System.IO.Stream  @destination)
+        public virtual System.Threading.Tasks.Task CopyToAsync(System.IO.Stream @destination)
         {
 
             var ___genericsType = new Type[] {};
@@ -1342,7 +1342,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
         }
 
 
-        public virtual System.Threading.Tasks.Task CopyToAsync(System.IO.Stream  @destination, System.Int32  @bufferSize)
+        public virtual System.Threading.Tasks.Task CopyToAsync(System.IO.Stream @destination, System.Int32 @bufferSize)
         {
 
             var ___genericsType = new Type[] {};
@@ -1353,7 +1353,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
         }
 
 
-        public virtual System.Threading.Tasks.Task CopyToAsync(System.IO.Stream  @destination, System.Threading.CancellationToken  @cancellationToken)
+        public virtual System.Threading.Tasks.Task CopyToAsync(System.IO.Stream @destination, System.Threading.CancellationToken @cancellationToken)
         {
 
             var ___genericsType = new Type[] {};
@@ -1364,7 +1364,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
         }
 
 
-        public virtual System.Threading.Tasks.Task CopyToAsync(System.IO.Stream  @destination, System.Int32  @bufferSize, System.Threading.CancellationToken  @cancellationToken)
+        public virtual System.Threading.Tasks.Task CopyToAsync(System.IO.Stream @destination, System.Int32 @bufferSize, System.Threading.CancellationToken @cancellationToken)
         {
 
             var ___genericsType = new Type[] {};
@@ -1375,7 +1375,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
         }
 
 
-        public virtual System.Threading.Tasks.Task CopyToAsyncInternal(System.IO.Stream  @destination, System.Int32  @bufferSize, System.Threading.CancellationToken  @cancellationToken)
+        public virtual System.Threading.Tasks.Task CopyToAsyncInternal(System.IO.Stream @destination, System.Int32 @bufferSize, System.Threading.CancellationToken @cancellationToken)
         {
 
             var ___genericsType = new Type[] {};
@@ -1386,7 +1386,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
         }
 
 
-        public virtual void CopyTo(System.IO.Stream  @destination)
+        public virtual void CopyTo(System.IO.Stream @destination)
         {
 
             var ___genericsType = new Type[] {};
@@ -1397,7 +1397,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
         }
 
 
-        public virtual void CopyTo(System.IO.Stream  @destination, System.Int32  @bufferSize)
+        public virtual void CopyTo(System.IO.Stream @destination, System.Int32 @bufferSize)
         {
 
             var ___genericsType = new Type[] {};
@@ -1441,7 +1441,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
         }
 
 
-        public virtual void Dispose(System.Boolean  @disposing)
+        public virtual void Dispose(System.Boolean @disposing)
         {
 
             var ___genericsType = new Type[] {};
@@ -1474,7 +1474,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
         }
 
 
-        public virtual System.Threading.Tasks.Task FlushAsync(System.Threading.CancellationToken  @cancellationToken)
+        public virtual System.Threading.Tasks.Task FlushAsync(System.Threading.CancellationToken @cancellationToken)
         {
 
             var ___genericsType = new Type[] {};
@@ -1496,7 +1496,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
         }
 
 
-        public virtual System.IAsyncResult BeginRead(System.Byte[]  @buffer, System.Int32  @offset, System.Int32  @count, System.AsyncCallback  @callback, System.Object  @state)
+        public virtual System.IAsyncResult BeginRead(System.Byte[] @buffer, System.Int32 @offset, System.Int32 @count, System.AsyncCallback @callback, System.Object @state)
         {
 
             var ___genericsType = new Type[] {};
@@ -1507,7 +1507,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
         }
 
 
-        public virtual System.IAsyncResult BeginReadInternal(System.Byte[]  @buffer, System.Int32  @offset, System.Int32  @count, System.AsyncCallback  @callback, System.Object  @state, System.Boolean  @serializeAsynchronously, System.Boolean  @apm)
+        public virtual System.IAsyncResult BeginReadInternal(System.Byte[] @buffer, System.Int32 @offset, System.Int32 @count, System.AsyncCallback @callback, System.Object @state, System.Boolean @serializeAsynchronously, System.Boolean @apm)
         {
 
             var ___genericsType = new Type[] {};
@@ -1518,7 +1518,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
         }
 
 
-        public virtual System.Int32 EndRead(System.IAsyncResult  @asyncResult)
+        public virtual System.Int32 EndRead(System.IAsyncResult @asyncResult)
         {
 
             var ___genericsType = new Type[] {};
@@ -1529,7 +1529,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
         }
 
 
-        public virtual System.Threading.Tasks.Task<System.Int32> ReadAsync(System.Byte[]  @buffer, System.Int32  @offset, System.Int32  @count)
+        public virtual System.Threading.Tasks.Task<System.Int32> ReadAsync(System.Byte[] @buffer, System.Int32 @offset, System.Int32 @count)
         {
 
             var ___genericsType = new Type[] {};
@@ -1540,7 +1540,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
         }
 
 
-        public virtual System.Threading.Tasks.Task<System.Int32> ReadAsync(System.Byte[]  @buffer, System.Int32  @offset, System.Int32  @count, System.Threading.CancellationToken  @cancellationToken)
+        public virtual System.Threading.Tasks.Task<System.Int32> ReadAsync(System.Byte[] @buffer, System.Int32 @offset, System.Int32 @count, System.Threading.CancellationToken @cancellationToken)
         {
 
             var ___genericsType = new Type[] {};
@@ -1551,7 +1551,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
         }
 
 
-        public virtual System.Threading.Tasks.ValueTask<System.Int32> ReadAsync(System.Memory<System.Byte>  @buffer, System.Threading.CancellationToken  @cancellationToken)
+        public virtual System.Threading.Tasks.ValueTask<System.Int32> ReadAsync(System.Memory<System.Byte> @buffer, System.Threading.CancellationToken @cancellationToken)
         {
 
             var ___genericsType = new Type[] {};
@@ -1562,7 +1562,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
         }
 
 
-        public virtual System.Threading.Tasks.Task<System.Int32> BeginEndReadAsync(System.Byte[]  @buffer, System.Int32  @offset, System.Int32  @count)
+        public virtual System.Threading.Tasks.Task<System.Int32> BeginEndReadAsync(System.Byte[] @buffer, System.Int32 @offset, System.Int32 @count)
         {
 
             var ___genericsType = new Type[] {};
@@ -1573,7 +1573,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
         }
 
 
-        public virtual System.IAsyncResult BeginWrite(System.Byte[]  @buffer, System.Int32  @offset, System.Int32  @count, System.AsyncCallback  @callback, System.Object  @state)
+        public virtual System.IAsyncResult BeginWrite(System.Byte[] @buffer, System.Int32 @offset, System.Int32 @count, System.AsyncCallback @callback, System.Object @state)
         {
 
             var ___genericsType = new Type[] {};
@@ -1584,7 +1584,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
         }
 
 
-        public virtual System.IAsyncResult BeginWriteInternal(System.Byte[]  @buffer, System.Int32  @offset, System.Int32  @count, System.AsyncCallback  @callback, System.Object  @state, System.Boolean  @serializeAsynchronously, System.Boolean  @apm)
+        public virtual System.IAsyncResult BeginWriteInternal(System.Byte[] @buffer, System.Int32 @offset, System.Int32 @count, System.AsyncCallback @callback, System.Object @state, System.Boolean @serializeAsynchronously, System.Boolean @apm)
         {
 
             var ___genericsType = new Type[] {};
@@ -1595,7 +1595,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
         }
 
 
-        public virtual void RunReadWriteTaskWhenReady(System.Threading.Tasks.Task  @asyncWaiter, RSystem.RIO.RStream.RReadWriteTask  @readWriteTask)
+        public virtual void RunReadWriteTaskWhenReady(System.Threading.Tasks.Task @asyncWaiter, RSystem.RIO.RStream.RReadWriteTask @readWriteTask)
         {
 
             var ___genericsType = new Type[] {};
@@ -1606,7 +1606,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
         }
 
 
-        public virtual void RunReadWriteTask(RSystem.RIO.RStream.RReadWriteTask  @readWriteTask)
+        public virtual void RunReadWriteTask(RSystem.RIO.RStream.RReadWriteTask @readWriteTask)
         {
 
             var ___genericsType = new Type[] {};
@@ -1628,7 +1628,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
         }
 
 
-        public virtual void EndWrite(System.IAsyncResult  @asyncResult)
+        public virtual void EndWrite(System.IAsyncResult @asyncResult)
         {
 
             var ___genericsType = new Type[] {};
@@ -1639,7 +1639,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
         }
 
 
-        public virtual System.Threading.Tasks.Task WriteAsync(System.Byte[]  @buffer, System.Int32  @offset, System.Int32  @count)
+        public virtual System.Threading.Tasks.Task WriteAsync(System.Byte[] @buffer, System.Int32 @offset, System.Int32 @count)
         {
 
             var ___genericsType = new Type[] {};
@@ -1650,7 +1650,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
         }
 
 
-        public virtual System.Threading.Tasks.Task WriteAsync(System.Byte[]  @buffer, System.Int32  @offset, System.Int32  @count, System.Threading.CancellationToken  @cancellationToken)
+        public virtual System.Threading.Tasks.Task WriteAsync(System.Byte[] @buffer, System.Int32 @offset, System.Int32 @count, System.Threading.CancellationToken @cancellationToken)
         {
 
             var ___genericsType = new Type[] {};
@@ -1661,7 +1661,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
         }
 
 
-        public virtual System.Threading.Tasks.ValueTask WriteAsync(System.ReadOnlyMemory<System.Byte>  @buffer, System.Threading.CancellationToken  @cancellationToken)
+        public virtual System.Threading.Tasks.ValueTask WriteAsync(System.ReadOnlyMemory<System.Byte> @buffer, System.Threading.CancellationToken @cancellationToken)
         {
 
             var ___genericsType = new Type[] {};
@@ -1672,7 +1672,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
         }
 
 
-        public virtual System.Threading.Tasks.Task FinishWriteAsync(System.Threading.Tasks.Task  @writeTask, System.Byte[]  @localBuffer)
+        public virtual System.Threading.Tasks.Task FinishWriteAsync(System.Threading.Tasks.Task @writeTask, System.Byte[] @localBuffer)
         {
 
             var ___genericsType = new Type[] {};
@@ -1683,7 +1683,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
         }
 
 
-        public virtual System.Threading.Tasks.Task BeginEndWriteAsync(System.Byte[]  @buffer, System.Int32  @offset, System.Int32  @count)
+        public virtual System.Threading.Tasks.Task BeginEndWriteAsync(System.Byte[] @buffer, System.Int32 @offset, System.Int32 @count)
         {
 
             var ___genericsType = new Type[] {};
@@ -1694,7 +1694,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
         }
 
 
-        public virtual System.Int64 Seek(System.Int64  @offset, System.IO.SeekOrigin  @origin)
+        public virtual System.Int64 Seek(System.Int64 @offset, System.IO.SeekOrigin @origin)
         {
 
             var ___genericsType = new Type[] {};
@@ -1705,7 +1705,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
         }
 
 
-        public virtual void SetLength(System.Int64  @value)
+        public virtual void SetLength(System.Int64 @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -1716,7 +1716,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
         }
 
 
-        public virtual System.Int32 Read(System.Byte[]  @buffer, System.Int32  @offset, System.Int32  @count)
+        public virtual System.Int32 Read(System.Byte[] @buffer, System.Int32 @offset, System.Int32 @count)
         {
 
             var ___genericsType = new Type[] {};
@@ -1739,7 +1739,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
         }
 
 
-        public virtual void Write(System.Byte[]  @buffer, System.Int32  @offset, System.Int32  @count)
+        public virtual void Write(System.Byte[] @buffer, System.Int32 @offset, System.Int32 @count)
         {
 
             var ___genericsType = new Type[] {};
@@ -1751,7 +1751,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 
 
 
-        public virtual void WriteByte(System.Byte  @value)
+        public virtual void WriteByte(System.Byte @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -1762,7 +1762,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
         }
 
 
-        public static System.IO.Stream Synchronized(System.IO.Stream  @stream)
+        public static System.IO.Stream Synchronized(System.IO.Stream @stream)
         {
 
             var ___genericsType = new Type[] {};
@@ -1784,7 +1784,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
         }
 
 
-        public virtual System.IAsyncResult BlockingBeginRead(System.Byte[]  @buffer, System.Int32  @offset, System.Int32  @count, System.AsyncCallback  @callback, System.Object  @state)
+        public virtual System.IAsyncResult BlockingBeginRead(System.Byte[] @buffer, System.Int32 @offset, System.Int32 @count, System.AsyncCallback @callback, System.Object @state)
         {
 
             var ___genericsType = new Type[] {};
@@ -1795,7 +1795,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
         }
 
 
-        public static System.Int32 BlockingEndRead(System.IAsyncResult  @asyncResult)
+        public static System.Int32 BlockingEndRead(System.IAsyncResult @asyncResult)
         {
 
             var ___genericsType = new Type[] {};
@@ -1806,7 +1806,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
         }
 
 
-        public virtual System.IAsyncResult BlockingBeginWrite(System.Byte[]  @buffer, System.Int32  @offset, System.Int32  @count, System.AsyncCallback  @callback, System.Object  @state)
+        public virtual System.IAsyncResult BlockingBeginWrite(System.Byte[] @buffer, System.Int32 @offset, System.Int32 @count, System.AsyncCallback @callback, System.Object @state)
         {
 
             var ___genericsType = new Type[] {};
@@ -1817,7 +1817,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
         }
 
 
-        public static void BlockingEndWrite(System.IAsyncResult  @asyncResult)
+        public static void BlockingEndWrite(System.IAsyncResult @asyncResult)
         {
 
             var ___genericsType = new Type[] {};
@@ -1861,7 +1861,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
         }
 
 
-        public static System.Threading.Tasks.ValueTask<System.Int32> __0__ReadAsync__1__g__FinishReadAsync__4__44_0(System.Threading.Tasks.Task<System.Int32>  @readTask, System.Byte[]  @localBuffer, System.Memory<System.Byte>  @localDestination)
+        public static System.Threading.Tasks.ValueTask<System.Int32> __0__ReadAsync__1__g__FinishReadAsync__4__44_0(System.Threading.Tasks.Task<System.Int32> @readTask, System.Byte[] @localBuffer, System.Memory<System.Byte> @localDestination)
         {
 
             var ___genericsType = new Type[] {};
@@ -1872,7 +1872,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
         }
 
 
-        public virtual System.Object GetObjectIdentity(System.MarshalByRefObject  @obj, out System.Boolean  @IsClient)
+        public virtual RSystem.RRuntime.RRemoting.RIdentity GetObjectIdentity(System.MarshalByRefObject @obj, out System.Boolean @IsClient)
         {
 			@IsClient = default;
 
@@ -1881,11 +1881,11 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
             var ___result = RGetObjectIdentity_MarshalByRefObject_Out_Boolean.Invoke(___genericsType, ___parameters);
 			@IsClient = (System.Boolean)___parameters[1];
 
-            return (System.Object)___result;
+            return new RSystem.RRuntime.RRemoting.RIdentity(___result);
         }
 
 
-        public virtual System.Runtime.Remoting.ObjRef CreateObjRef(System.Type  @requestedType)
+        public virtual System.Runtime.Remoting.ObjRef CreateObjRef(System.Type @requestedType)
         {
 
             var ___genericsType = new Type[] {};
@@ -1918,7 +1918,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
         }
 
 
-        public virtual System.MarshalByRefObject MemberwiseClone(System.Boolean  @cloneIdentity)
+        public virtual System.MarshalByRefObject MemberwiseClone(System.Boolean @cloneIdentity)
         {
 
             var ___genericsType = new Type[] {};
@@ -1929,7 +1929,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

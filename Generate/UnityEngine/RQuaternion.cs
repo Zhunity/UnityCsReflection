@@ -1286,7 +1286,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 	    {
 	    }
 
-        public static UnityEngine.Quaternion FromToRotation(UnityEngine.Vector3  @fromDirection, UnityEngine.Vector3  @toDirection)
+        public static UnityEngine.Quaternion FromToRotation(UnityEngine.Vector3 @fromDirection, UnityEngine.Vector3 @toDirection)
         {
 
             var ___genericsType = new Type[] {};
@@ -1297,7 +1297,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.Quaternion Inverse(UnityEngine.Quaternion  @rotation)
+        public static UnityEngine.Quaternion Inverse(UnityEngine.Quaternion @rotation)
         {
 
             var ___genericsType = new Type[] {};
@@ -1308,7 +1308,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.Quaternion Slerp(UnityEngine.Quaternion  @a, UnityEngine.Quaternion  @b, System.Single  @t)
+        public static UnityEngine.Quaternion Slerp(UnityEngine.Quaternion @a, UnityEngine.Quaternion @b, System.Single @t)
         {
 
             var ___genericsType = new Type[] {};
@@ -1319,7 +1319,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.Quaternion SlerpUnclamped(UnityEngine.Quaternion  @a, UnityEngine.Quaternion  @b, System.Single  @t)
+        public static UnityEngine.Quaternion SlerpUnclamped(UnityEngine.Quaternion @a, UnityEngine.Quaternion @b, System.Single @t)
         {
 
             var ___genericsType = new Type[] {};
@@ -1330,7 +1330,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.Quaternion Lerp(UnityEngine.Quaternion  @a, UnityEngine.Quaternion  @b, System.Single  @t)
+        public static UnityEngine.Quaternion Lerp(UnityEngine.Quaternion @a, UnityEngine.Quaternion @b, System.Single @t)
         {
 
             var ___genericsType = new Type[] {};
@@ -1341,7 +1341,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.Quaternion LerpUnclamped(UnityEngine.Quaternion  @a, UnityEngine.Quaternion  @b, System.Single  @t)
+        public static UnityEngine.Quaternion LerpUnclamped(UnityEngine.Quaternion @a, UnityEngine.Quaternion @b, System.Single @t)
         {
 
             var ___genericsType = new Type[] {};
@@ -1352,7 +1352,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.Quaternion Internal_FromEulerRad(UnityEngine.Vector3  @euler)
+        public static UnityEngine.Quaternion Internal_FromEulerRad(UnityEngine.Vector3 @euler)
         {
 
             var ___genericsType = new Type[] {};
@@ -1363,7 +1363,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.Vector3 Internal_ToEulerRad(UnityEngine.Quaternion  @rotation)
+        public static UnityEngine.Vector3 Internal_ToEulerRad(UnityEngine.Quaternion @rotation)
         {
 
             var ___genericsType = new Type[] {};
@@ -1374,7 +1374,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static void Internal_ToAxisAngleRad(UnityEngine.Quaternion  @q, out UnityEngine.Vector3  @axis, out System.Single  @angle)
+        public static void Internal_ToAxisAngleRad(UnityEngine.Quaternion @q, out UnityEngine.Vector3 @axis, out System.Single @angle)
         {
 			@axis = default;
 			@angle = default;
@@ -1389,7 +1389,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.Quaternion AngleAxis(System.Single  @angle, UnityEngine.Vector3  @axis)
+        public static UnityEngine.Quaternion AngleAxis(System.Single @angle, UnityEngine.Vector3 @axis)
         {
 
             var ___genericsType = new Type[] {};
@@ -1400,7 +1400,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.Quaternion LookRotation(UnityEngine.Vector3  @forward, UnityEngine.Vector3  @upwards)
+        public static UnityEngine.Quaternion LookRotation(UnityEngine.Vector3 @forward, UnityEngine.Vector3 @upwards)
         {
 
             var ___genericsType = new Type[] {};
@@ -1411,7 +1411,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.Quaternion LookRotation(UnityEngine.Vector3  @forward)
+        public static UnityEngine.Quaternion LookRotation(UnityEngine.Vector3 @forward)
         {
 
             var ___genericsType = new Type[] {};
@@ -1422,7 +1422,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void Set(System.Single  @newX, System.Single  @newY, System.Single  @newZ, System.Single  @newW)
+        public virtual void Set(System.Single @newX, System.Single @newY, System.Single @newZ, System.Single @newW)
         {
 
             var ___genericsType = new Type[] {};
@@ -1433,7 +1433,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.Quaternion op_Multiply(UnityEngine.Quaternion  @lhs, UnityEngine.Quaternion  @rhs)
+        public static UnityEngine.Quaternion op_Multiply(UnityEngine.Quaternion @lhs, UnityEngine.Quaternion @rhs)
         {
 
             var ___genericsType = new Type[] {};
@@ -1444,7 +1444,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.Vector3 op_Multiply(UnityEngine.Quaternion  @rotation, UnityEngine.Vector3  @point)
+        public static UnityEngine.Vector3 op_Multiply(UnityEngine.Quaternion @rotation, UnityEngine.Vector3 @point)
         {
 
             var ___genericsType = new Type[] {};
@@ -1455,7 +1455,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static System.Boolean IsEqualUsingDot(System.Single  @dot)
+        public static System.Boolean IsEqualUsingDot(System.Single @dot)
         {
 
             var ___genericsType = new Type[] {};
@@ -1466,7 +1466,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static System.Boolean op_Equality(UnityEngine.Quaternion  @lhs, UnityEngine.Quaternion  @rhs)
+        public static System.Boolean op_Equality(UnityEngine.Quaternion @lhs, UnityEngine.Quaternion @rhs)
         {
 
             var ___genericsType = new Type[] {};
@@ -1477,7 +1477,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static System.Boolean op_Inequality(UnityEngine.Quaternion  @lhs, UnityEngine.Quaternion  @rhs)
+        public static System.Boolean op_Inequality(UnityEngine.Quaternion @lhs, UnityEngine.Quaternion @rhs)
         {
 
             var ___genericsType = new Type[] {};
@@ -1488,7 +1488,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static System.Single Dot(UnityEngine.Quaternion  @a, UnityEngine.Quaternion  @b)
+        public static System.Single Dot(UnityEngine.Quaternion @a, UnityEngine.Quaternion @b)
         {
 
             var ___genericsType = new Type[] {};
@@ -1499,7 +1499,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SetLookRotation(UnityEngine.Vector3  @view)
+        public virtual void SetLookRotation(UnityEngine.Vector3 @view)
         {
 
             var ___genericsType = new Type[] {};
@@ -1510,7 +1510,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SetLookRotation(UnityEngine.Vector3  @view, UnityEngine.Vector3  @up)
+        public virtual void SetLookRotation(UnityEngine.Vector3 @view, UnityEngine.Vector3 @up)
         {
 
             var ___genericsType = new Type[] {};
@@ -1521,7 +1521,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static System.Single Angle(UnityEngine.Quaternion  @a, UnityEngine.Quaternion  @b)
+        public static System.Single Angle(UnityEngine.Quaternion @a, UnityEngine.Quaternion @b)
         {
 
             var ___genericsType = new Type[] {};
@@ -1532,7 +1532,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.Vector3 Internal_MakePositive(UnityEngine.Vector3  @euler)
+        public static UnityEngine.Vector3 Internal_MakePositive(UnityEngine.Vector3 @euler)
         {
 
             var ___genericsType = new Type[] {};
@@ -1543,7 +1543,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.Quaternion Euler(System.Single  @x, System.Single  @y, System.Single  @z)
+        public static UnityEngine.Quaternion Euler(System.Single @x, System.Single @y, System.Single @z)
         {
 
             var ___genericsType = new Type[] {};
@@ -1554,7 +1554,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.Quaternion Euler(UnityEngine.Vector3  @euler)
+        public static UnityEngine.Quaternion Euler(UnityEngine.Vector3 @euler)
         {
 
             var ___genericsType = new Type[] {};
@@ -1565,7 +1565,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void ToAngleAxis(out System.Single  @angle, out UnityEngine.Vector3  @axis)
+        public virtual void ToAngleAxis(out System.Single @angle, out UnityEngine.Vector3 @axis)
         {
 			@angle = default;
 			@axis = default;
@@ -1580,7 +1580,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SetFromToRotation(UnityEngine.Vector3  @fromDirection, UnityEngine.Vector3  @toDirection)
+        public virtual void SetFromToRotation(UnityEngine.Vector3 @fromDirection, UnityEngine.Vector3 @toDirection)
         {
 
             var ___genericsType = new Type[] {};
@@ -1591,7 +1591,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.Quaternion RotateTowards(UnityEngine.Quaternion  @from, UnityEngine.Quaternion  @to, System.Single  @maxDegreesDelta)
+        public static UnityEngine.Quaternion RotateTowards(UnityEngine.Quaternion @from, UnityEngine.Quaternion @to, System.Single @maxDegreesDelta)
         {
 
             var ___genericsType = new Type[] {};
@@ -1602,7 +1602,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.Quaternion Normalize(UnityEngine.Quaternion  @q)
+        public static UnityEngine.Quaternion Normalize(UnityEngine.Quaternion @q)
         {
 
             var ___genericsType = new Type[] {};
@@ -1635,7 +1635,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @other)
+        public virtual System.Boolean Equals(System.Object @other)
         {
 
             var ___genericsType = new Type[] {};
@@ -1646,7 +1646,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Boolean Equals(UnityEngine.Quaternion  @other)
+        public virtual System.Boolean Equals(UnityEngine.Quaternion @other)
         {
 
             var ___genericsType = new Type[] {};
@@ -1668,7 +1668,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.String ToString(System.String  @format)
+        public virtual System.String ToString(System.String @format)
         {
 
             var ___genericsType = new Type[] {};
@@ -1679,7 +1679,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.String ToString(System.String  @format, System.IFormatProvider  @formatProvider)
+        public virtual System.String ToString(System.String @format, System.IFormatProvider @formatProvider)
         {
 
             var ___genericsType = new Type[] {};
@@ -1690,7 +1690,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.Quaternion EulerRotation(System.Single  @x, System.Single  @y, System.Single  @z)
+        public static UnityEngine.Quaternion EulerRotation(System.Single @x, System.Single @y, System.Single @z)
         {
 
             var ___genericsType = new Type[] {};
@@ -1701,7 +1701,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.Quaternion EulerRotation(UnityEngine.Vector3  @euler)
+        public static UnityEngine.Quaternion EulerRotation(UnityEngine.Vector3 @euler)
         {
 
             var ___genericsType = new Type[] {};
@@ -1712,7 +1712,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SetEulerRotation(System.Single  @x, System.Single  @y, System.Single  @z)
+        public virtual void SetEulerRotation(System.Single @x, System.Single @y, System.Single @z)
         {
 
             var ___genericsType = new Type[] {};
@@ -1723,7 +1723,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SetEulerRotation(UnityEngine.Vector3  @euler)
+        public virtual void SetEulerRotation(UnityEngine.Vector3 @euler)
         {
 
             var ___genericsType = new Type[] {};
@@ -1745,7 +1745,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.Quaternion EulerAngles(System.Single  @x, System.Single  @y, System.Single  @z)
+        public static UnityEngine.Quaternion EulerAngles(System.Single @x, System.Single @y, System.Single @z)
         {
 
             var ___genericsType = new Type[] {};
@@ -1756,7 +1756,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.Quaternion EulerAngles(UnityEngine.Vector3  @euler)
+        public static UnityEngine.Quaternion EulerAngles(UnityEngine.Vector3 @euler)
         {
 
             var ___genericsType = new Type[] {};
@@ -1767,7 +1767,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void ToAxisAngle(out UnityEngine.Vector3  @axis, out System.Single  @angle)
+        public virtual void ToAxisAngle(out UnityEngine.Vector3 @axis, out System.Single @angle)
         {
 			@axis = default;
 			@angle = default;
@@ -1782,7 +1782,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SetEulerAngles(System.Single  @x, System.Single  @y, System.Single  @z)
+        public virtual void SetEulerAngles(System.Single @x, System.Single @y, System.Single @z)
         {
 
             var ___genericsType = new Type[] {};
@@ -1793,7 +1793,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SetEulerAngles(UnityEngine.Vector3  @euler)
+        public virtual void SetEulerAngles(UnityEngine.Vector3 @euler)
         {
 
             var ___genericsType = new Type[] {};
@@ -1804,7 +1804,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.Vector3 ToEulerAngles(UnityEngine.Quaternion  @rotation)
+        public static UnityEngine.Vector3 ToEulerAngles(UnityEngine.Quaternion @rotation)
         {
 
             var ___genericsType = new Type[] {};
@@ -1826,7 +1826,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SetAxisAngle(UnityEngine.Vector3  @axis, System.Single  @angle)
+        public virtual void SetAxisAngle(UnityEngine.Vector3 @axis, System.Single @angle)
         {
 
             var ___genericsType = new Type[] {};
@@ -1837,7 +1837,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.Quaternion AxisAngle(UnityEngine.Vector3  @axis, System.Single  @angle)
+        public static UnityEngine.Quaternion AxisAngle(UnityEngine.Vector3 @axis, System.Single @angle)
         {
 
             var ___genericsType = new Type[] {};
@@ -1848,7 +1848,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static void FromToRotation_Injected(ref UnityEngine.Vector3  @fromDirection, ref UnityEngine.Vector3  @toDirection, out UnityEngine.Quaternion  @ret)
+        public static void FromToRotation_Injected(ref UnityEngine.Vector3 @fromDirection, ref UnityEngine.Vector3 @toDirection, out UnityEngine.Quaternion @ret)
         {
 			@ret = default;
 
@@ -1863,7 +1863,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static void Inverse_Injected(ref UnityEngine.Quaternion  @rotation, out UnityEngine.Quaternion  @ret)
+        public static void Inverse_Injected(ref UnityEngine.Quaternion @rotation, out UnityEngine.Quaternion @ret)
         {
 			@ret = default;
 
@@ -1877,7 +1877,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static void Slerp_Injected(ref UnityEngine.Quaternion  @a, ref UnityEngine.Quaternion  @b, System.Single  @t, out UnityEngine.Quaternion  @ret)
+        public static void Slerp_Injected(ref UnityEngine.Quaternion @a, ref UnityEngine.Quaternion @b, System.Single @t, out UnityEngine.Quaternion @ret)
         {
 			@ret = default;
 
@@ -1892,7 +1892,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static void SlerpUnclamped_Injected(ref UnityEngine.Quaternion  @a, ref UnityEngine.Quaternion  @b, System.Single  @t, out UnityEngine.Quaternion  @ret)
+        public static void SlerpUnclamped_Injected(ref UnityEngine.Quaternion @a, ref UnityEngine.Quaternion @b, System.Single @t, out UnityEngine.Quaternion @ret)
         {
 			@ret = default;
 
@@ -1907,7 +1907,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static void Lerp_Injected(ref UnityEngine.Quaternion  @a, ref UnityEngine.Quaternion  @b, System.Single  @t, out UnityEngine.Quaternion  @ret)
+        public static void Lerp_Injected(ref UnityEngine.Quaternion @a, ref UnityEngine.Quaternion @b, System.Single @t, out UnityEngine.Quaternion @ret)
         {
 			@ret = default;
 
@@ -1922,7 +1922,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static void LerpUnclamped_Injected(ref UnityEngine.Quaternion  @a, ref UnityEngine.Quaternion  @b, System.Single  @t, out UnityEngine.Quaternion  @ret)
+        public static void LerpUnclamped_Injected(ref UnityEngine.Quaternion @a, ref UnityEngine.Quaternion @b, System.Single @t, out UnityEngine.Quaternion @ret)
         {
 			@ret = default;
 
@@ -1937,7 +1937,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static void Internal_FromEulerRad_Injected(ref UnityEngine.Vector3  @euler, out UnityEngine.Quaternion  @ret)
+        public static void Internal_FromEulerRad_Injected(ref UnityEngine.Vector3 @euler, out UnityEngine.Quaternion @ret)
         {
 			@ret = default;
 
@@ -1951,7 +1951,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static void Internal_ToEulerRad_Injected(ref UnityEngine.Quaternion  @rotation, out UnityEngine.Vector3  @ret)
+        public static void Internal_ToEulerRad_Injected(ref UnityEngine.Quaternion @rotation, out UnityEngine.Vector3 @ret)
         {
 			@ret = default;
 
@@ -1965,7 +1965,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static void Internal_ToAxisAngleRad_Injected(ref UnityEngine.Quaternion  @q, out UnityEngine.Vector3  @axis, out System.Single  @angle)
+        public static void Internal_ToAxisAngleRad_Injected(ref UnityEngine.Quaternion @q, out UnityEngine.Vector3 @axis, out System.Single @angle)
         {
 			@axis = default;
 			@angle = default;
@@ -1981,7 +1981,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static void AngleAxis_Injected(System.Single  @angle, ref UnityEngine.Vector3  @axis, out UnityEngine.Quaternion  @ret)
+        public static void AngleAxis_Injected(System.Single @angle, ref UnityEngine.Vector3 @axis, out UnityEngine.Quaternion @ret)
         {
 			@ret = default;
 
@@ -1995,7 +1995,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static void LookRotation_Injected(ref UnityEngine.Vector3  @forward, ref UnityEngine.Vector3  @upwards, out UnityEngine.Quaternion  @ret)
+        public static void LookRotation_Injected(ref UnityEngine.Vector3 @forward, ref UnityEngine.Vector3 @upwards, out UnityEngine.Quaternion @ret)
         {
 			@ret = default;
 

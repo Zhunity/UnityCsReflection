@@ -402,7 +402,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RUIElements
 	    {
 	    }
 
-        public virtual void Set<T>(System.String  @key, T  @value) where T : class
+        public virtual void Set<T>(System.String @key, T @value) where T : class
         {
 
             var ___genericsType = new Type[] {typeof(T)};
@@ -413,7 +413,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RUIElements
         }
 
 
-        public virtual T Get<T>(System.String  @key) where T : class
+        public virtual T Get<T>(System.String @key) where T : class
         {
 
             var ___genericsType = new Type[] {typeof(T)};
@@ -424,7 +424,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RUIElements
         }
 
 
-        public virtual T GetScriptable<T>(System.String  @key) where T : UnityEngine.ScriptableObject
+        public virtual T GetScriptable<T>(System.String @key) where T : UnityEngine.ScriptableObject
         {
 
             var ___genericsType = new Type[] {typeof(T)};
@@ -435,7 +435,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RUIElements
         }
 
 
-        public virtual void Overwrite(System.Object  @obj, System.String  @key)
+        public virtual void Overwrite(System.Object @obj, System.String @key)
         {
 
             var ___genericsType = new Type[] {};
@@ -446,7 +446,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RUIElements
         }
 
 
-        public virtual System.Boolean ContainsKey(System.String  @key)
+        public virtual System.Boolean ContainsKey(System.String @key)
         {
 
             var ___genericsType = new Type[] {};
@@ -479,7 +479,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RUIElements
         }
 
 
-        public virtual System.String __0__OnAfterDeserialize__1__b__9_0(System.Int32  @i)
+        public virtual System.String __0__OnAfterDeserialize__1__b__9_0(System.Int32 @i)
         {
 
             var ___genericsType = new Type[] {};
@@ -490,7 +490,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RUIElements
         }
 
 
-        public virtual System.Object __0__OnAfterDeserialize__1__b__9_1(System.Int32  @i)
+        public virtual System.Object __0__OnAfterDeserialize__1__b__9_1(System.Int32 @i)
         {
 
             var ___genericsType = new Type[] {};
@@ -534,7 +534,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RUIElements
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @other)
+        public virtual System.Boolean Equals(System.Object @other)
         {
 
             var ___genericsType = new Type[] {};

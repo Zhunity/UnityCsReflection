@@ -79,7 +79,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks.RSources
 	    {
 	    }
 
-        public virtual System.Threading.Tasks.Sources.ValueTaskSourceStatus GetStatus(System.Int16  @token)
+        public virtual System.Threading.Tasks.Sources.ValueTaskSourceStatus GetStatus(System.Int16 @token)
         {
 
             var ___genericsType = new Type[] {};
@@ -90,7 +90,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks.RSources
         }
 
 
-        public virtual void OnCompleted(System.Action<System.Object>  @continuation, System.Object  @state, System.Int16  @token, System.Threading.Tasks.Sources.ValueTaskSourceOnCompletedFlags  @flags)
+        public virtual void OnCompleted(System.Action<System.Object> @continuation, System.Object @state, System.Int16 @token, System.Threading.Tasks.Sources.ValueTaskSourceOnCompletedFlags @flags)
         {
 
             var ___genericsType = new Type[] {};
@@ -101,7 +101,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks.RSources
         }
 
 
-        public virtual TResult GetResult(System.Int16  @token)
+        public virtual TResult GetResult(System.Int16 @token)
         {
 
             var ___genericsType = new Type[] {};

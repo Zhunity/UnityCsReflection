@@ -577,7 +577,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections
         }
 
 
-        public virtual void CopyTo(System.Array  @array, System.Int32  @index)
+        public virtual void CopyTo(System.Array @array, System.Int32 @index)
         {
 
             var ___genericsType = new Type[] {};
@@ -588,7 +588,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections
         }
 
 
-        public virtual void Enqueue(System.Object  @obj)
+        public virtual void Enqueue(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};
@@ -632,7 +632,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections
         }
 
 
-        public static System.Collections.Queue Synchronized(System.Collections.Queue  @queue)
+        public static System.Collections.Queue Synchronized(System.Collections.Queue @queue)
         {
 
             var ___genericsType = new Type[] {};
@@ -643,7 +643,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections
         }
 
 
-        public virtual System.Boolean Contains(System.Object  @obj)
+        public virtual System.Boolean Contains(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};
@@ -654,7 +654,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections
         }
 
 
-        public virtual System.Object GetElement(System.Int32  @i)
+        public virtual System.Object GetElement(System.Int32 @i)
         {
 
             var ___genericsType = new Type[] {};
@@ -676,7 +676,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections
         }
 
 
-        public virtual void SetCapacity(System.Int32  @capacity)
+        public virtual void SetCapacity(System.Int32 @capacity)
         {
 
             var ___genericsType = new Type[] {};
@@ -698,7 +698,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

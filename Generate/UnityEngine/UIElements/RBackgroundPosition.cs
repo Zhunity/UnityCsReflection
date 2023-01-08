@@ -243,7 +243,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};
@@ -254,7 +254,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean Equals(UnityEngine.UIElements.BackgroundPosition  @other)
+        public virtual System.Boolean Equals(UnityEngine.UIElements.BackgroundPosition @other)
         {
 
             var ___genericsType = new Type[] {};
@@ -276,7 +276,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public static System.Boolean op_Equality(UnityEngine.UIElements.BackgroundPosition  @style1, UnityEngine.UIElements.BackgroundPosition  @style2)
+        public static System.Boolean op_Equality(UnityEngine.UIElements.BackgroundPosition @style1, UnityEngine.UIElements.BackgroundPosition @style2)
         {
 
             var ___genericsType = new Type[] {};
@@ -287,7 +287,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public static System.Boolean op_Inequality(UnityEngine.UIElements.BackgroundPosition  @style1, UnityEngine.UIElements.BackgroundPosition  @style2)
+        public static System.Boolean op_Inequality(UnityEngine.UIElements.BackgroundPosition @style1, UnityEngine.UIElements.BackgroundPosition @style2)
         {
 
             var ___genericsType = new Type[] {};

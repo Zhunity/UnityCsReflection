@@ -345,7 +345,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.ActivationContext CreatePartialActivationContext(System.ApplicationIdentity  @identity)
+        public static System.ActivationContext CreatePartialActivationContext(System.ApplicationIdentity @identity)
         {
 
             var ___genericsType = new Type[] {};
@@ -356,7 +356,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.ActivationContext CreatePartialActivationContext(System.ApplicationIdentity  @identity, System.String[]  @manifestPaths)
+        public static System.ActivationContext CreatePartialActivationContext(System.ApplicationIdentity @identity, System.String[] @manifestPaths)
         {
 
             var ___genericsType = new Type[] {};
@@ -378,7 +378,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual void Dispose(System.Boolean  @disposing)
+        public virtual void Dispose(System.Boolean @disposing)
         {
 
             var ___genericsType = new Type[] {};
@@ -389,7 +389,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual void System__2__Runtime__2__Serialization__2__ISerializable__2__GetObjectData(System.Runtime.Serialization.SerializationInfo  @info, System.Runtime.Serialization.StreamingContext  @context)
+        public virtual void System__2__Runtime__2__Serialization__2__ISerializable__2__GetObjectData(System.Runtime.Serialization.SerializationInfo @info, System.Runtime.Serialization.StreamingContext @context)
         {
 
             var ___genericsType = new Type[] {};
@@ -400,7 +400,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

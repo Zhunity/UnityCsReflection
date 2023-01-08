@@ -198,7 +198,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 	    {
 	    }
 
-        public virtual System.Boolean CanDispatchEvent(UnityEngine.UIElements.EventBase  @evt)
+        public virtual System.Boolean CanDispatchEvent(UnityEngine.UIElements.EventBase @evt)
         {
 
             var ___genericsType = new Type[] {};
@@ -209,7 +209,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void DispatchEvent(UnityEngine.UIElements.EventBase  @evt, UnityEngine.UIElements.IPanel  @panel)
+        public virtual void DispatchEvent(UnityEngine.UIElements.EventBase @evt, UnityEngine.UIElements.IPanel @panel)
         {
 
             var ___genericsType = new Type[] {};
@@ -220,7 +220,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void PostDispatch(UnityEngine.UIElements.EventBase  @evt, UnityEngine.UIElements.IPanel  @panel)
+        public virtual void PostDispatch(UnityEngine.UIElements.EventBase @evt, UnityEngine.UIElements.IPanel @panel)
         {
 
             var ___genericsType = new Type[] {};
@@ -231,7 +231,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

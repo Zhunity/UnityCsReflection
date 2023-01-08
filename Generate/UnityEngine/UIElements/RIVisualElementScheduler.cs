@@ -62,7 +62,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 	    {
 	    }
 
-        public virtual UnityEngine.UIElements.IVisualElementScheduledItem Execute(System.Action<UnityEngine.UIElements.TimerState>  @timerUpdateEvent)
+        public virtual UnityEngine.UIElements.IVisualElementScheduledItem Execute(System.Action<UnityEngine.UIElements.TimerState> @timerUpdateEvent)
         {
 
             var ___genericsType = new Type[] {};
@@ -73,7 +73,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual UnityEngine.UIElements.IVisualElementScheduledItem Execute(System.Action  @updateEvent)
+        public virtual UnityEngine.UIElements.IVisualElementScheduledItem Execute(System.Action @updateEvent)
         {
 
             var ___genericsType = new Type[] {};

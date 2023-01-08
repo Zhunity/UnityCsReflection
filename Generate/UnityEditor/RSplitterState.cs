@@ -674,7 +674,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 	    {
 	    }
 
-        public static System.Single CastIntToFloat(System.Int32  @input)
+        public static System.Single CastIntToFloat(System.Int32 @input)
         {
 
             var ___genericsType = new Type[] {};
@@ -685,47 +685,47 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public static System.Object FromAbsolute(System.Single[]  @realSizes, System.Single[]  @minSizes, System.Single[]  @maxSizes)
+        public static RUnityEditor.RSplitterState FromAbsolute(System.Single[] @realSizes, System.Single[] @minSizes, System.Single[] @maxSizes)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@realSizes, @minSizes, @maxSizes};
             var ___result = RFromAbsolute_SingleArray_SingleArray_SingleArray.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RUnityEditor.RSplitterState(___result);
         }
 
 
-        public static System.Object FromRelative(System.Single[]  @relativeSizes)
+        public static RUnityEditor.RSplitterState FromRelative(System.Single[] @relativeSizes)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@relativeSizes};
             var ___result = RFromRelative_SingleArray.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RUnityEditor.RSplitterState(___result);
         }
 
 
-        public static System.Object FromRelative(System.Single[]  @relativeSizes, System.Single[]  @minSizes, System.Single[]  @maxSizes)
+        public static RUnityEditor.RSplitterState FromRelative(System.Single[] @relativeSizes, System.Single[] @minSizes, System.Single[] @maxSizes)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@relativeSizes, @minSizes, @maxSizes};
             var ___result = RFromRelative_SingleArray_SingleArray_SingleArray.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RUnityEditor.RSplitterState(___result);
         }
 
 
-        public static System.Object FromRelative(System.Single[]  @relativeSizes, System.Single[]  @minSizes, System.Single[]  @maxSizes, System.Int32  @splitSize)
+        public static RUnityEditor.RSplitterState FromRelative(System.Single[] @relativeSizes, System.Single[] @minSizes, System.Single[] @maxSizes, System.Int32 @splitSize)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@relativeSizes, @minSizes, @maxSizes, @splitSize};
             var ___result = RFromRelative_SingleArray_SingleArray_SingleArray_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RUnityEditor.RSplitterState(___result);
         }
 
 
@@ -740,7 +740,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual void InitFromAbsolute(System.Single[]  @realSizes, System.Single[]  @minSizes, System.Single[]  @maxSizes)
+        public virtual void InitFromAbsolute(System.Single[] @realSizes, System.Single[] @minSizes, System.Single[] @maxSizes)
         {
 
             var ___genericsType = new Type[] {};
@@ -751,7 +751,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual void InitFromRelative(System.Single[]  @relativeSizes, System.Single[]  @minSizes, System.Single[]  @maxSizes, System.Int32  @splitSize)
+        public virtual void InitFromRelative(System.Single[] @relativeSizes, System.Single[] @minSizes, System.Single[] @maxSizes, System.Int32 @splitSize)
         {
 
             var ___genericsType = new Type[] {};
@@ -784,7 +784,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual void RelativeToRealSizes(System.Single  @totalSpace)
+        public virtual void RelativeToRealSizes(System.Single @totalSpace)
         {
 
             var ___genericsType = new Type[] {};
@@ -795,7 +795,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual void DoSplitter(System.Int32  @i1, System.Int32  @i2, System.Single  @diff)
+        public virtual void DoSplitter(System.Int32 @i1, System.Int32 @i2, System.Single @diff)
         {
 
             var ___genericsType = new Type[] {};
@@ -817,13 +817,13 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public static void ConvertOldArray(System.Int32[]  @oldArray, ref System.Single[]  @newArray)
+        public static void ConvertOldArray(System.Int32[] @oldArray, ref System.Single[] @newArray)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@oldArray, @newArray};
             var ___result = RConvertOldArray_Int32Array_Ref_SingleArray.Invoke(___genericsType, ___parameters);
-			newArray = (System.Single[])___parameters[1];
+			@newArray = (System.Single[])___parameters[1];
 
             
         }
@@ -840,7 +840,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

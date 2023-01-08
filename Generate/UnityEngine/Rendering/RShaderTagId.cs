@@ -283,7 +283,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 	    {
 	    }
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};
@@ -294,7 +294,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual System.Boolean Equals(UnityEngine.Rendering.ShaderTagId  @other)
+        public virtual System.Boolean Equals(UnityEngine.Rendering.ShaderTagId @other)
         {
 
             var ___genericsType = new Type[] {};
@@ -316,7 +316,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public static System.Boolean op_Equality(UnityEngine.Rendering.ShaderTagId  @tag1, UnityEngine.Rendering.ShaderTagId  @tag2)
+        public static System.Boolean op_Equality(UnityEngine.Rendering.ShaderTagId @tag1, UnityEngine.Rendering.ShaderTagId @tag2)
         {
 
             var ___genericsType = new Type[] {};
@@ -327,7 +327,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public static System.Boolean op_Inequality(UnityEngine.Rendering.ShaderTagId  @tag1, UnityEngine.Rendering.ShaderTagId  @tag2)
+        public static System.Boolean op_Inequality(UnityEngine.Rendering.ShaderTagId @tag1, UnityEngine.Rendering.ShaderTagId @tag2)
         {
 
             var ___genericsType = new Type[] {};
@@ -338,7 +338,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public static UnityEngine.Rendering.ShaderTagId op_Explicit(System.String  @name)
+        public static UnityEngine.Rendering.ShaderTagId op_Explicit(System.String @name)
         {
 
             var ___genericsType = new Type[] {};
@@ -349,7 +349,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public static System.String op_Explicit(UnityEngine.Rendering.ShaderTagId  @tagId)
+        public static System.String op_Explicit(UnityEngine.Rendering.ShaderTagId @tagId)
         {
 
             var ___genericsType = new Type[] {};

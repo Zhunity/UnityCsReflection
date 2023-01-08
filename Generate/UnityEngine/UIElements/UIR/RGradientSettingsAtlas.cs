@@ -515,7 +515,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
         }
 
 
-        public virtual void Dispose(System.Boolean  @disposing)
+        public virtual void Dispose(System.Boolean @disposing)
         {
 
             var ___genericsType = new Type[] {};
@@ -537,18 +537,18 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
         }
 
 
-        public virtual System.Object Add(System.Int32  @count)
+        public virtual RUnityEngine.RUIElements.RUIR.RAlloc Add(System.Int32 @count)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@count};
             var ___result = RAdd_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RUnityEngine.RUIElements.RUIR.RAlloc(___result);
         }
 
 
-        public virtual void Remove(RUnityEngine.RUIElements.RUIR.RAlloc  @alloc)
+        public virtual void Remove(RUnityEngine.RUIElements.RUIR.RAlloc @alloc)
         {
 
             var ___genericsType = new Type[] {};
@@ -559,7 +559,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
         }
 
 
-        public virtual void Write(RUnityEngine.RUIElements.RUIR.RAlloc  @alloc, RTypeArray<RUnityEngine.RUIElements.RGradientSettings>  @settings, RUnityEngine.RUIElements.RUIR.RGradientRemap  @remap)
+        public virtual void Write(RUnityEngine.RUIElements.RUIR.RAlloc @alloc, RTypeArray<RUnityEngine.RUIElements.RGradientSettings> @settings, RUnityEngine.RUIElements.RUIR.RGradientRemap @remap)
         {
 
             var ___genericsType = new Type[] {};
@@ -592,7 +592,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

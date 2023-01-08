@@ -1507,7 +1507,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 	    {
 	    }
 
-        public virtual void OnSerializing(System.Runtime.Serialization.StreamingContext  @ctx)
+        public virtual void OnSerializing(System.Runtime.Serialization.StreamingContext @ctx)
         {
 
             var ___genericsType = new Type[] {};
@@ -1518,7 +1518,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public virtual void OnDeserializing(System.Runtime.Serialization.StreamingContext  @ctx)
+        public virtual void OnDeserializing(System.Runtime.Serialization.StreamingContext @ctx)
         {
 
             var ___genericsType = new Type[] {};
@@ -1529,7 +1529,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public virtual void OnDeserialized(System.Runtime.Serialization.StreamingContext  @ctx)
+        public virtual void OnDeserialized(System.Runtime.Serialization.StreamingContext @ctx)
         {
 
             var ___genericsType = new Type[] {};
@@ -1540,7 +1540,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public static void VerifyDecimalSeparator(System.String  @decSep, System.String  @propertyName)
+        public static void VerifyDecimalSeparator(System.String @decSep, System.String @propertyName)
         {
 
             var ___genericsType = new Type[] {};
@@ -1551,7 +1551,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public static void VerifyGroupSeparator(System.String  @groupSep, System.String  @propertyName)
+        public static void VerifyGroupSeparator(System.String @groupSep, System.String @propertyName)
         {
 
             var ___genericsType = new Type[] {};
@@ -1562,7 +1562,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public static void VerifyNativeDigits(System.String[]  @nativeDig, System.String  @propertyName)
+        public static void VerifyNativeDigits(System.String[] @nativeDig, System.String @propertyName)
         {
 
             var ___genericsType = new Type[] {};
@@ -1573,7 +1573,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public static void VerifyDigitSubstitution(System.Globalization.DigitShapes  @digitSub, System.String  @propertyName)
+        public static void VerifyDigitSubstitution(System.Globalization.DigitShapes @digitSub, System.String @propertyName)
         {
 
             var ___genericsType = new Type[] {};
@@ -1595,7 +1595,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public static System.Globalization.NumberFormatInfo GetInstance(System.IFormatProvider  @formatProvider)
+        public static System.Globalization.NumberFormatInfo GetInstance(System.IFormatProvider @formatProvider)
         {
 
             var ___genericsType = new Type[] {};
@@ -1617,7 +1617,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public static void CheckGroupSize(System.String  @propName, System.Int32[]  @groupSize)
+        public static void CheckGroupSize(System.String @propName, System.Int32[] @groupSize)
         {
 
             var ___genericsType = new Type[] {};
@@ -1628,7 +1628,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public virtual System.Object GetFormat(System.Type  @formatType)
+        public virtual System.Object GetFormat(System.Type @formatType)
         {
 
             var ___genericsType = new Type[] {};
@@ -1639,7 +1639,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public static System.Globalization.NumberFormatInfo ReadOnly(System.Globalization.NumberFormatInfo  @nfi)
+        public static System.Globalization.NumberFormatInfo ReadOnly(System.Globalization.NumberFormatInfo @nfi)
         {
 
             var ___genericsType = new Type[] {};
@@ -1650,7 +1650,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public static void ValidateParseStyleInteger(System.Globalization.NumberStyles  @style)
+        public static void ValidateParseStyleInteger(System.Globalization.NumberStyles @style)
         {
 
             var ___genericsType = new Type[] {};
@@ -1661,7 +1661,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public static void ValidateParseStyleFloatingPoint(System.Globalization.NumberStyles  @style)
+        public static void ValidateParseStyleFloatingPoint(System.Globalization.NumberStyles @style)
         {
 
             var ___genericsType = new Type[] {};
@@ -1672,7 +1672,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

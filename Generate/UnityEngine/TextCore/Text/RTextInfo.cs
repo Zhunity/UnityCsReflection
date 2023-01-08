@@ -532,7 +532,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
         }
 
 
-        public virtual void ClearMeshInfo(System.Boolean  @updateMesh)
+        public virtual void ClearMeshInfo(System.Boolean @updateMesh)
         {
 
             var ___genericsType = new Type[] {};
@@ -565,7 +565,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
         }
 
 
-        public static void Resize<T>(ref T[]  @array, System.Int32  @size)
+        public static void Resize<T>(ref T[] @array, System.Int32 @size)
         {
 
             var ___genericsType = new Type[] {typeof(T)};
@@ -577,7 +577,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
         }
 
 
-        public static void Resize<T>(ref T[]  @array, System.Int32  @size, System.Boolean  @isBlockAllocated)
+        public static void Resize<T>(ref T[] @array, System.Int32 @size, System.Boolean @isBlockAllocated)
         {
 
             var ___genericsType = new Type[] {typeof(T)};
@@ -589,7 +589,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

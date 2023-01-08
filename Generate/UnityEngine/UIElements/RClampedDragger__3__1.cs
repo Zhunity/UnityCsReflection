@@ -640,7 +640,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 	    {
 	    }
 
-        public virtual void ProcessDownEvent(UnityEngine.UIElements.EventBase  @evt, UnityEngine.Vector2  @localPosition, System.Int32  @pointerId)
+        public virtual void ProcessDownEvent(UnityEngine.UIElements.EventBase @evt, UnityEngine.Vector2 @localPosition, System.Int32 @pointerId)
         {
 
             var ___genericsType = new Type[] {};
@@ -651,7 +651,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void ProcessMoveEvent(UnityEngine.UIElements.EventBase  @evt, UnityEngine.Vector2  @localPosition)
+        public virtual void ProcessMoveEvent(UnityEngine.UIElements.EventBase @evt, UnityEngine.Vector2 @localPosition)
         {
 
             var ___genericsType = new Type[] {};
@@ -684,7 +684,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void OnMouseDown(UnityEngine.UIElements.MouseDownEvent  @evt)
+        public virtual void OnMouseDown(UnityEngine.UIElements.MouseDownEvent @evt)
         {
 
             var ___genericsType = new Type[] {};
@@ -695,7 +695,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void OnMouseMove(UnityEngine.UIElements.MouseMoveEvent  @evt)
+        public virtual void OnMouseMove(UnityEngine.UIElements.MouseMoveEvent @evt)
         {
 
             var ___genericsType = new Type[] {};
@@ -706,7 +706,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void OnMouseUp(UnityEngine.UIElements.MouseUpEvent  @evt)
+        public virtual void OnMouseUp(UnityEngine.UIElements.MouseUpEvent @evt)
         {
 
             var ___genericsType = new Type[] {};
@@ -717,7 +717,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void Invoke(UnityEngine.UIElements.EventBase  @evt)
+        public virtual void Invoke(UnityEngine.UIElements.EventBase @evt)
         {
 
             var ___genericsType = new Type[] {};
@@ -728,7 +728,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void SimulateSingleClick(UnityEngine.UIElements.EventBase  @evt, System.Int32  @delayMs)
+        public virtual void SimulateSingleClick(UnityEngine.UIElements.EventBase @evt, System.Int32 @delayMs)
         {
 
             var ___genericsType = new Type[] {};
@@ -739,7 +739,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void ProcessUpEvent(UnityEngine.UIElements.EventBase  @evt, UnityEngine.Vector2  @localPosition, System.Int32  @pointerId)
+        public virtual void ProcessUpEvent(UnityEngine.UIElements.EventBase @evt, UnityEngine.Vector2 @localPosition, System.Int32 @pointerId)
         {
 
             var ___genericsType = new Type[] {};
@@ -750,7 +750,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void ProcessCancelEvent(UnityEngine.UIElements.EventBase  @evt, System.Int32  @pointerId)
+        public virtual void ProcessCancelEvent(UnityEngine.UIElements.EventBase @evt, System.Int32 @pointerId)
         {
 
             var ___genericsType = new Type[] {};
@@ -761,7 +761,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean CanStartManipulation(UnityEngine.UIElements.IPointerEvent  @e)
+        public virtual System.Boolean CanStartManipulation(UnityEngine.UIElements.IPointerEvent @e)
         {
 
             var ___genericsType = new Type[] {};
@@ -772,7 +772,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean CanStopManipulation(UnityEngine.UIElements.IPointerEvent  @e)
+        public virtual System.Boolean CanStopManipulation(UnityEngine.UIElements.IPointerEvent @e)
         {
 
             var ___genericsType = new Type[] {};
@@ -783,7 +783,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean CanStartManipulation(UnityEngine.UIElements.IMouseEvent  @e)
+        public virtual System.Boolean CanStartManipulation(UnityEngine.UIElements.IMouseEvent @e)
         {
 
             var ___genericsType = new Type[] {};
@@ -794,7 +794,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean CanStopManipulation(UnityEngine.UIElements.IMouseEvent  @e)
+        public virtual System.Boolean CanStopManipulation(UnityEngine.UIElements.IMouseEvent @e)
         {
 
             var ___genericsType = new Type[] {};
@@ -805,7 +805,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

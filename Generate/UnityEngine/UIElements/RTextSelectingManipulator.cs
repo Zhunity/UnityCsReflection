@@ -593,7 +593,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void ExecuteDefaultActionAtTarget(UnityEngine.UIElements.EventBase  @evt)
+        public virtual void ExecuteDefaultActionAtTarget(UnityEngine.UIElements.EventBase @evt)
         {
 
             var ___genericsType = new Type[] {};
@@ -604,7 +604,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void OnFocusEvent(UnityEngine.UIElements.FocusEvent  @evt)
+        public virtual void OnFocusEvent(UnityEngine.UIElements.FocusEvent @evt)
         {
 
             var ___genericsType = new Type[] {};
@@ -615,7 +615,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void OnBlurEvent(UnityEngine.UIElements.BlurEvent  @evt)
+        public virtual void OnBlurEvent(UnityEngine.UIElements.BlurEvent @evt)
         {
 
             var ___genericsType = new Type[] {};
@@ -626,7 +626,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void OnMouseDownEvent(UnityEngine.UIElements.MouseDownEvent  @evt)
+        public virtual void OnMouseDownEvent(UnityEngine.UIElements.MouseDownEvent @evt)
         {
 
             var ___genericsType = new Type[] {};
@@ -637,7 +637,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void OnMouseMoveEvent(UnityEngine.UIElements.MouseMoveEvent  @evt)
+        public virtual void OnMouseMoveEvent(UnityEngine.UIElements.MouseMoveEvent @evt)
         {
 
             var ___genericsType = new Type[] {};
@@ -648,7 +648,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void OnMouseUpEvent(UnityEngine.UIElements.MouseUpEvent  @evt)
+        public virtual void OnMouseUpEvent(UnityEngine.UIElements.MouseUpEvent @evt)
         {
 
             var ___genericsType = new Type[] {};
@@ -659,7 +659,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void OnValidateCommandEvent(UnityEngine.UIElements.ValidateCommandEvent  @evt)
+        public virtual void OnValidateCommandEvent(UnityEngine.UIElements.ValidateCommandEvent @evt)
         {
 
             var ___genericsType = new Type[] {};
@@ -670,7 +670,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void OnExecuteCommandEvent(UnityEngine.UIElements.ExecuteCommandEvent  @evt)
+        public virtual void OnExecuteCommandEvent(UnityEngine.UIElements.ExecuteCommandEvent @evt)
         {
 
             var ___genericsType = new Type[] {};
@@ -681,7 +681,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean MoveDistanceQualifiesForDrag(UnityEngine.Vector2  @start, UnityEngine.Vector2  @current)
+        public virtual System.Boolean MoveDistanceQualifiesForDrag(UnityEngine.Vector2 @start, UnityEngine.Vector2 @current)
         {
 
             var ___genericsType = new Type[] {};
@@ -692,7 +692,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

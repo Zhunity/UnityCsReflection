@@ -878,7 +878,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 	    {
 	    }
 
-        public static System.Boolean AllocatesID(RUnityEngine.RUIElements.RUIR.RBMPAlloc  @alloc)
+        public static System.Boolean AllocatesID(RUnityEngine.RUIElements.RUIR.RBMPAlloc @alloc)
         {
 
             var ___genericsType = new Type[] {};
@@ -889,7 +889,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
         }
 
 
-        public static System.Boolean InheritsID(RUnityEngine.RUIElements.RUIR.RBMPAlloc  @alloc)
+        public static System.Boolean InheritsID(RUnityEngine.RUIElements.RUIR.RBMPAlloc @alloc)
         {
 
             var ___genericsType = new Type[] {};
@@ -900,7 +900,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

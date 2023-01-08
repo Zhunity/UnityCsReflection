@@ -402,7 +402,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling.RLowLevel.RUnsafe
 	    {
 	    }
 
-        public static Unity.Profiling.LowLevel.Unsafe.ProfilerRecorderHandle Get(Unity.Profiling.ProfilerMarker  @marker)
+        public static Unity.Profiling.LowLevel.Unsafe.ProfilerRecorderHandle Get(Unity.Profiling.ProfilerMarker @marker)
         {
 
             var ___genericsType = new Type[] {};
@@ -413,7 +413,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling.RLowLevel.RUnsafe
         }
 
 
-        public static Unity.Profiling.LowLevel.Unsafe.ProfilerRecorderHandle Get(Unity.Profiling.ProfilerCategory  @category, System.String  @statName)
+        public static Unity.Profiling.LowLevel.Unsafe.ProfilerRecorderHandle Get(Unity.Profiling.ProfilerCategory @category, System.String @statName)
         {
 
             var ___genericsType = new Type[] {};
@@ -424,7 +424,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling.RLowLevel.RUnsafe
         }
 
 
-        public static Unity.Profiling.LowLevel.Unsafe.ProfilerRecorderDescription GetDescription(Unity.Profiling.LowLevel.Unsafe.ProfilerRecorderHandle  @handle)
+        public static Unity.Profiling.LowLevel.Unsafe.ProfilerRecorderDescription GetDescription(Unity.Profiling.LowLevel.Unsafe.ProfilerRecorderHandle @handle)
         {
 
             var ___genericsType = new Type[] {};
@@ -435,7 +435,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling.RLowLevel.RUnsafe
         }
 
 
-        public static void GetAvailable(System.Collections.Generic.List<Unity.Profiling.LowLevel.Unsafe.ProfilerRecorderHandle>  @outRecorderHandleList)
+        public static void GetAvailable(System.Collections.Generic.List<Unity.Profiling.LowLevel.Unsafe.ProfilerRecorderHandle> @outRecorderHandleList)
         {
 
             var ___genericsType = new Type[] {};
@@ -446,7 +446,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling.RLowLevel.RUnsafe
         }
 
 
-        public static Unity.Profiling.LowLevel.Unsafe.ProfilerRecorderHandle GetByName(Unity.Profiling.ProfilerCategory  @category, System.String  @name)
+        public static Unity.Profiling.LowLevel.Unsafe.ProfilerRecorderHandle GetByName(Unity.Profiling.ProfilerCategory @category, System.String @name)
         {
 
             var ___genericsType = new Type[] {};
@@ -460,7 +460,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling.RLowLevel.RUnsafe
 
 
 
-        public static Unity.Profiling.LowLevel.Unsafe.ProfilerRecorderDescription GetDescriptionInternal(Unity.Profiling.LowLevel.Unsafe.ProfilerRecorderHandle  @handle)
+        public static Unity.Profiling.LowLevel.Unsafe.ProfilerRecorderDescription GetDescriptionInternal(Unity.Profiling.LowLevel.Unsafe.ProfilerRecorderHandle @handle)
         {
 
             var ___genericsType = new Type[] {};
@@ -471,7 +471,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling.RLowLevel.RUnsafe
         }
 
 
-        public static void GetByName_Injected(ref Unity.Profiling.ProfilerCategory  @category, System.String  @name, out Unity.Profiling.LowLevel.Unsafe.ProfilerRecorderHandle  @ret)
+        public static void GetByName_Injected(ref Unity.Profiling.ProfilerCategory @category, System.String @name, out Unity.Profiling.LowLevel.Unsafe.ProfilerRecorderHandle @ret)
         {
 			@ret = default;
 
@@ -487,7 +487,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling.RLowLevel.RUnsafe
 
 
 
-        public static void GetDescriptionInternal_Injected(ref Unity.Profiling.LowLevel.Unsafe.ProfilerRecorderHandle  @handle, out Unity.Profiling.LowLevel.Unsafe.ProfilerRecorderDescription  @ret)
+        public static void GetDescriptionInternal_Injected(ref Unity.Profiling.LowLevel.Unsafe.ProfilerRecorderHandle @handle, out Unity.Profiling.LowLevel.Unsafe.ProfilerRecorderDescription @ret)
         {
 			@ret = default;
 
@@ -501,7 +501,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling.RLowLevel.RUnsafe
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

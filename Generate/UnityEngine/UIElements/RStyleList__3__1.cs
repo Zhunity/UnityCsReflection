@@ -283,7 +283,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 	    {
 	    }
 
-        public static System.Boolean op_Equality(UnityEngine.UIElements.StyleList<T>  @lhs, UnityEngine.UIElements.StyleList<T>  @rhs)
+        public static System.Boolean op_Equality(UnityEngine.UIElements.StyleList<T> @lhs, UnityEngine.UIElements.StyleList<T> @rhs)
         {
 
             var ___genericsType = new Type[] {};
@@ -294,7 +294,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public static System.Boolean op_Inequality(UnityEngine.UIElements.StyleList<T>  @lhs, UnityEngine.UIElements.StyleList<T>  @rhs)
+        public static System.Boolean op_Inequality(UnityEngine.UIElements.StyleList<T> @lhs, UnityEngine.UIElements.StyleList<T> @rhs)
         {
 
             var ___genericsType = new Type[] {};
@@ -305,7 +305,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public static UnityEngine.UIElements.StyleList<T> op_Implicit(UnityEngine.UIElements.StyleKeyword  @keyword)
+        public static UnityEngine.UIElements.StyleList<T> op_Implicit(UnityEngine.UIElements.StyleKeyword @keyword)
         {
 
             var ___genericsType = new Type[] {};
@@ -316,7 +316,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public static UnityEngine.UIElements.StyleList<T> op_Implicit(System.Collections.Generic.List<T>  @v)
+        public static UnityEngine.UIElements.StyleList<T> op_Implicit(System.Collections.Generic.List<T> @v)
         {
 
             var ___genericsType = new Type[] {};
@@ -327,7 +327,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean Equals(UnityEngine.UIElements.StyleList<T>  @other)
+        public virtual System.Boolean Equals(UnityEngine.UIElements.StyleList<T> @other)
         {
 
             var ___genericsType = new Type[] {};
@@ -338,7 +338,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

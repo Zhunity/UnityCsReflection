@@ -62,7 +62,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 	    {
 	    }
 
-        public virtual System.Boolean InterceptMouseEvent(UnityEngine.UIElements.IPanel  @panel, UnityEngine.UIElements.IMouseEvent  @ev)
+        public virtual System.Boolean InterceptMouseEvent(UnityEngine.UIElements.IPanel @panel, UnityEngine.UIElements.IMouseEvent @ev)
         {
 
             var ___genericsType = new Type[] {};
@@ -73,7 +73,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void OnContextClick(UnityEngine.UIElements.IPanel  @panel, UnityEngine.UIElements.ContextClickEvent  @ev)
+        public virtual void OnContextClick(UnityEngine.UIElements.IPanel @panel, UnityEngine.UIElements.ContextClickEvent @ev)
         {
 
             var ___genericsType = new Type[] {};

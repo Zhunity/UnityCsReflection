@@ -436,7 +436,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 	    {
 	    }
 
-        public virtual void GetBinaryForm(System.Byte[]  @binaryForm, System.Int32  @offset)
+        public virtual void GetBinaryForm(System.Byte[] @binaryForm, System.Int32 @offset)
         {
 
             var ___genericsType = new Type[] {};
@@ -447,7 +447,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
         }
 
 
-        public virtual void InsertAce(System.Int32  @index, System.Security.AccessControl.GenericAce  @ace)
+        public virtual void InsertAce(System.Int32 @index, System.Security.AccessControl.GenericAce @ace)
         {
 
             var ___genericsType = new Type[] {};
@@ -458,7 +458,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
         }
 
 
-        public virtual void RemoveAce(System.Int32  @index)
+        public virtual void RemoveAce(System.Int32 @index)
         {
 
             var ___genericsType = new Type[] {};
@@ -469,7 +469,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
         }
 
 
-        public virtual System.String GetSddlForm(System.Security.AccessControl.ControlFlags  @sdFlags, System.Boolean  @isDacl)
+        public virtual System.String GetSddlForm(System.Security.AccessControl.ControlFlags @sdFlags, System.Boolean @isDacl)
         {
 
             var ___genericsType = new Type[] {};
@@ -480,7 +480,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
         }
 
 
-        public static System.Security.AccessControl.RawAcl ParseSddlForm(System.String  @sddlForm, System.Boolean  @isDacl, ref System.Security.AccessControl.ControlFlags  @sdFlags, ref System.Int32  @pos)
+        public static System.Security.AccessControl.RawAcl ParseSddlForm(System.String @sddlForm, System.Boolean @isDacl, ref System.Security.AccessControl.ControlFlags @sdFlags, ref System.Int32 @pos)
         {
 
             var ___genericsType = new Type[] {};
@@ -493,7 +493,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
         }
 
 
-        public static void ParseFlags(System.String  @sddlForm, System.Boolean  @isDacl, ref System.Security.AccessControl.ControlFlags  @sdFlags, ref System.Int32  @pos)
+        public static void ParseFlags(System.String @sddlForm, System.Boolean @isDacl, ref System.Security.AccessControl.ControlFlags @sdFlags, ref System.Int32 @pos)
         {
 
             var ___genericsType = new Type[] {};
@@ -506,7 +506,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
         }
 
 
-        public virtual void WriteUShort(System.UInt16  @val, System.Byte[]  @buffer, System.Int32  @offset)
+        public virtual void WriteUShort(System.UInt16 @val, System.Byte[] @buffer, System.Int32 @offset)
         {
 
             var ___genericsType = new Type[] {};
@@ -517,7 +517,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
         }
 
 
-        public virtual System.UInt16 ReadUShort(System.Byte[]  @buffer, System.Int32  @offset)
+        public virtual System.UInt16 ReadUShort(System.Byte[] @buffer, System.Int32 @offset)
         {
 
             var ___genericsType = new Type[] {};
@@ -528,7 +528,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
         }
 
 
-        public virtual void CopyTo(System.Security.AccessControl.GenericAce[]  @array, System.Int32  @index)
+        public virtual void CopyTo(System.Security.AccessControl.GenericAce[] @array, System.Int32 @index)
         {
 
             var ___genericsType = new Type[] {};
@@ -550,7 +550,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

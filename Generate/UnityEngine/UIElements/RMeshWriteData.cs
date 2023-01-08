@@ -402,7 +402,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 	    {
 	    }
 
-        public virtual void SetNextVertex(UnityEngine.UIElements.Vertex  @vertex)
+        public virtual void SetNextVertex(UnityEngine.UIElements.Vertex @vertex)
         {
 
             var ___genericsType = new Type[] {};
@@ -413,7 +413,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void SetNextIndex(System.UInt16  @index)
+        public virtual void SetNextIndex(System.UInt16 @index)
         {
 
             var ___genericsType = new Type[] {};
@@ -424,7 +424,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void SetAllVertices(UnityEngine.UIElements.Vertex[]  @vertices)
+        public virtual void SetAllVertices(UnityEngine.UIElements.Vertex[] @vertices)
         {
 
             var ___genericsType = new Type[] {};
@@ -436,7 +436,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 
 
 
-        public virtual void SetAllIndices(System.UInt16[]  @indices)
+        public virtual void SetAllIndices(System.UInt16[] @indices)
         {
 
             var ___genericsType = new Type[] {};
@@ -450,7 +450,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

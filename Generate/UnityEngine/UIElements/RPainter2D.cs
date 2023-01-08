@@ -736,7 +736,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual UnityEngine.UIElements.MeshWriteData Allocate(System.Int32  @vertexCount, System.Int32  @indexCount)
+        public virtual UnityEngine.UIElements.MeshWriteData Allocate(System.Int32 @vertexCount, System.Int32 @indexCount)
         {
 
             var ___genericsType = new Type[] {};
@@ -769,7 +769,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void Dispose(System.Boolean  @disposing)
+        public virtual void Dispose(System.Boolean @disposing)
         {
 
             var ___genericsType = new Type[] {};
@@ -813,7 +813,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void MoveTo(UnityEngine.Vector2  @pos)
+        public virtual void MoveTo(UnityEngine.Vector2 @pos)
         {
 
             var ___genericsType = new Type[] {};
@@ -824,7 +824,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void LineTo(UnityEngine.Vector2  @pos)
+        public virtual void LineTo(UnityEngine.Vector2 @pos)
         {
 
             var ___genericsType = new Type[] {};
@@ -835,7 +835,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void ArcTo(UnityEngine.Vector2  @p1, UnityEngine.Vector2  @p2, System.Single  @radius)
+        public virtual void ArcTo(UnityEngine.Vector2 @p1, UnityEngine.Vector2 @p2, System.Single @radius)
         {
 
             var ___genericsType = new Type[] {};
@@ -846,7 +846,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void Arc(UnityEngine.Vector2  @center, System.Single  @radius, UnityEngine.UIElements.Angle  @startAngle, UnityEngine.UIElements.Angle  @endAngle, UnityEngine.UIElements.ArcDirection  @direction)
+        public virtual void Arc(UnityEngine.Vector2 @center, System.Single @radius, UnityEngine.UIElements.Angle @startAngle, UnityEngine.UIElements.Angle @endAngle, UnityEngine.UIElements.ArcDirection @direction)
         {
 
             var ___genericsType = new Type[] {};
@@ -857,7 +857,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void BezierCurveTo(UnityEngine.Vector2  @p1, UnityEngine.Vector2  @p2, UnityEngine.Vector2  @p3)
+        public virtual void BezierCurveTo(UnityEngine.Vector2 @p1, UnityEngine.Vector2 @p2, UnityEngine.Vector2 @p3)
         {
 
             var ___genericsType = new Type[] {};
@@ -868,7 +868,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void QuadraticCurveTo(UnityEngine.Vector2  @p1, UnityEngine.Vector2  @p2)
+        public virtual void QuadraticCurveTo(UnityEngine.Vector2 @p1, UnityEngine.Vector2 @p2)
         {
 
             var ___genericsType = new Type[] {};
@@ -890,7 +890,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void Fill(UnityEngine.UIElements.FillRule  @fillRule)
+        public virtual void Fill(UnityEngine.UIElements.FillRule @fillRule)
         {
 
             var ___genericsType = new Type[] {};
@@ -901,7 +901,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean SaveToVectorImage(UnityEngine.UIElements.VectorImage  @vectorImage)
+        public virtual System.Boolean SaveToVectorImage(UnityEngine.UIElements.VectorImage @vectorImage)
         {
 
             var ___genericsType = new Type[] {};
@@ -912,7 +912,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

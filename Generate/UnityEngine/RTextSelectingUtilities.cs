@@ -1524,7 +1524,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 	    {
 	    }
 
-        public virtual void SetCursorIndexWithoutNotify(System.Int32  @index)
+        public virtual void SetCursorIndexWithoutNotify(System.Int32 @index)
         {
 
             var ___genericsType = new Type[] {};
@@ -1535,7 +1535,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SetSelectIndexWithoutNotify(System.Int32  @index)
+        public virtual void SetSelectIndexWithoutNotify(System.Int32 @index)
         {
 
             var ___genericsType = new Type[] {};
@@ -1557,7 +1557,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void OnFocus(System.Boolean  @selectAll)
+        public virtual void OnFocus(System.Boolean @selectAll)
         {
 
             var ___genericsType = new Type[] {};
@@ -1942,7 +1942,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void MouseDragSelectsWholeWords(System.Boolean  @on)
+        public virtual void MouseDragSelectsWholeWords(System.Boolean @on)
         {
 
             var ___genericsType = new Type[] {};
@@ -1975,7 +1975,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void DblClickSnap(RType  @snapping)
+        public virtual void DblClickSnap(RType @snapping)
         {
 
             var ___genericsType = new Type[] {};
@@ -1986,7 +1986,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void MoveCursorToPosition_Internal(UnityEngine.Vector2  @cursorPosition, System.Boolean  @shift)
+        public virtual void MoveCursorToPosition_Internal(UnityEngine.Vector2 @cursorPosition, System.Boolean @shift)
         {
 
             var ___genericsType = new Type[] {};
@@ -1997,7 +1997,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SelectToPosition(UnityEngine.Vector2  @cursorPosition)
+        public virtual void SelectToPosition(UnityEngine.Vector2 @cursorPosition)
         {
 
             var ___genericsType = new Type[] {};
@@ -2008,7 +2008,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Int32 FindNextSeperator(System.Int32  @startPos)
+        public virtual System.Int32 FindNextSeperator(System.Int32 @startPos)
         {
 
             var ___genericsType = new Type[] {};
@@ -2019,7 +2019,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Int32 FindPrevSeperator(System.Int32  @startPos)
+        public virtual System.Int32 FindPrevSeperator(System.Int32 @startPos)
         {
 
             var ___genericsType = new Type[] {};
@@ -2030,7 +2030,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Int32 FindStartOfNextWord(System.Int32  @p)
+        public virtual System.Int32 FindStartOfNextWord(System.Int32 @p)
         {
 
             var ___genericsType = new Type[] {};
@@ -2041,7 +2041,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Int32 FindEndOfPreviousWord(System.Int32  @p)
+        public virtual System.Int32 FindEndOfPreviousWord(System.Int32 @p)
         {
 
             var ___genericsType = new Type[] {};
@@ -2052,7 +2052,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Int32 FindEndOfClassification(System.Int32  @p, RType  @dir)
+        public virtual System.Int32 FindEndOfClassification(System.Int32 @p, RType @dir)
         {
 
             var ___genericsType = new Type[] {};
@@ -2063,7 +2063,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Int32 ClampTextIndex(System.Int32  @index)
+        public virtual System.Int32 ClampTextIndex(System.Int32 @index)
         {
 
             var ___genericsType = new Type[] {};
@@ -2074,7 +2074,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Int32 EnsureValidCodePointIndex(System.Int32  @index)
+        public virtual System.Int32 EnsureValidCodePointIndex(System.Int32 @index)
         {
 
             var ___genericsType = new Type[] {};
@@ -2085,7 +2085,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Boolean IsValidCodePointIndex(System.Int32  @index)
+        public virtual System.Boolean IsValidCodePointIndex(System.Int32 @index)
         {
 
             var ___genericsType = new Type[] {};
@@ -2096,7 +2096,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Int32 IndexOfEndOfLine(System.Int32  @startIndex)
+        public virtual System.Int32 IndexOfEndOfLine(System.Int32 @startIndex)
         {
 
             var ___genericsType = new Type[] {};
@@ -2107,7 +2107,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Int32 PreviousCodePointIndex(System.Int32  @index)
+        public virtual System.Int32 PreviousCodePointIndex(System.Int32 @index)
         {
 
             var ___genericsType = new Type[] {};
@@ -2118,7 +2118,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Int32 NextCodePointIndex(System.Int32  @index)
+        public virtual System.Int32 NextCodePointIndex(System.Int32 @index)
         {
 
             var ___genericsType = new Type[] {};
@@ -2129,7 +2129,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Int32 GetGraphicalLineStart(System.Int32  @p)
+        public virtual System.Int32 GetGraphicalLineStart(System.Int32 @p)
         {
 
             var ___genericsType = new Type[] {};
@@ -2140,7 +2140,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Int32 GetGraphicalLineEnd(System.Int32  @p)
+        public virtual System.Int32 GetGraphicalLineEnd(System.Int32 @p)
         {
 
             var ___genericsType = new Type[] {};
@@ -2162,18 +2162,18 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Object ClassifyChar(System.Int32  @index)
+        public virtual RType ClassifyChar(System.Int32 @index)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@index};
             var ___result = RClassifyChar_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RType(___result);
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

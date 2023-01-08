@@ -1116,7 +1116,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
 	    {
 	    }
 
-        public static Unity.Profiling.ProfilerRecorder StartNew(Unity.Profiling.ProfilerCategory  @category, System.String  @statName, System.Int32  @capacity, Unity.Profiling.ProfilerRecorderOptions  @options)
+        public static Unity.Profiling.ProfilerRecorder StartNew(Unity.Profiling.ProfilerCategory @category, System.String @statName, System.Int32 @capacity, Unity.Profiling.ProfilerRecorderOptions @options)
         {
 
             var ___genericsType = new Type[] {};
@@ -1127,7 +1127,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
         }
 
 
-        public static Unity.Profiling.ProfilerRecorder StartNew(Unity.Profiling.ProfilerMarker  @marker, System.Int32  @capacity, Unity.Profiling.ProfilerRecorderOptions  @options)
+        public static Unity.Profiling.ProfilerRecorder StartNew(Unity.Profiling.ProfilerMarker @marker, System.Int32 @capacity, Unity.Profiling.ProfilerRecorderOptions @options)
         {
 
             var ___genericsType = new Type[] {};
@@ -1182,7 +1182,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
         }
 
 
-        public virtual Unity.Profiling.ProfilerRecorderSample GetSample(System.Int32  @index)
+        public virtual Unity.Profiling.ProfilerRecorderSample GetSample(System.Int32 @index)
         {
 
             var ___genericsType = new Type[] {};
@@ -1193,7 +1193,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
         }
 
 
-        public virtual void CopyTo(System.Collections.Generic.List<Unity.Profiling.ProfilerRecorderSample>  @outSamples, System.Boolean  @reset)
+        public virtual void CopyTo(System.Collections.Generic.List<Unity.Profiling.ProfilerRecorderSample> @outSamples, System.Boolean @reset)
         {
 
             var ___genericsType = new Type[] {};
@@ -1238,7 +1238,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
         }
 
 
-        public static Unity.Profiling.ProfilerRecorder Create(Unity.Profiling.LowLevel.Unsafe.ProfilerRecorderHandle  @statHandle, System.Int32  @maxSampleCount, Unity.Profiling.ProfilerRecorderOptions  @options)
+        public static Unity.Profiling.ProfilerRecorder Create(Unity.Profiling.LowLevel.Unsafe.ProfilerRecorderHandle @statHandle, System.Int32 @maxSampleCount, Unity.Profiling.ProfilerRecorderOptions @options)
         {
 
             var ___genericsType = new Type[] {};
@@ -1249,7 +1249,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
         }
 
 
-        public static void Control(Unity.Profiling.ProfilerRecorder  @handle, RType  @options)
+        public static void Control(Unity.Profiling.ProfilerRecorder @handle, RType @options)
         {
 
             var ___genericsType = new Type[] {};
@@ -1260,7 +1260,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
         }
 
 
-        public static Unity.Profiling.ProfilerMarkerDataUnit GetValueUnitType(Unity.Profiling.ProfilerRecorder  @handle)
+        public static Unity.Profiling.ProfilerMarkerDataUnit GetValueUnitType(Unity.Profiling.ProfilerRecorder @handle)
         {
 
             var ___genericsType = new Type[] {};
@@ -1271,7 +1271,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
         }
 
 
-        public static Unity.Profiling.LowLevel.ProfilerMarkerDataType GetValueDataType(Unity.Profiling.ProfilerRecorder  @handle)
+        public static Unity.Profiling.LowLevel.ProfilerMarkerDataType GetValueDataType(Unity.Profiling.ProfilerRecorder @handle)
         {
 
             var ___genericsType = new Type[] {};
@@ -1282,7 +1282,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
         }
 
 
-        public static System.Int64 GetCurrentValue(Unity.Profiling.ProfilerRecorder  @handle)
+        public static System.Int64 GetCurrentValue(Unity.Profiling.ProfilerRecorder @handle)
         {
 
             var ___genericsType = new Type[] {};
@@ -1293,7 +1293,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
         }
 
 
-        public static System.Double GetCurrentValueAsDouble(Unity.Profiling.ProfilerRecorder  @handle)
+        public static System.Double GetCurrentValueAsDouble(Unity.Profiling.ProfilerRecorder @handle)
         {
 
             var ___genericsType = new Type[] {};
@@ -1304,7 +1304,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
         }
 
 
-        public static System.Int64 GetLastValue(Unity.Profiling.ProfilerRecorder  @handle)
+        public static System.Int64 GetLastValue(Unity.Profiling.ProfilerRecorder @handle)
         {
 
             var ___genericsType = new Type[] {};
@@ -1315,7 +1315,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
         }
 
 
-        public static System.Double GetLastValueAsDouble(Unity.Profiling.ProfilerRecorder  @handle)
+        public static System.Double GetLastValueAsDouble(Unity.Profiling.ProfilerRecorder @handle)
         {
 
             var ___genericsType = new Type[] {};
@@ -1326,7 +1326,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
         }
 
 
-        public static System.Int32 GetCount(Unity.Profiling.ProfilerRecorder  @handle, RType  @countOptions)
+        public static System.Int32 GetCount(Unity.Profiling.ProfilerRecorder @handle, RType @countOptions)
         {
 
             var ___genericsType = new Type[] {};
@@ -1337,7 +1337,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
         }
 
 
-        public static System.Boolean GetValid(Unity.Profiling.ProfilerRecorder  @handle)
+        public static System.Boolean GetValid(Unity.Profiling.ProfilerRecorder @handle)
         {
 
             var ___genericsType = new Type[] {};
@@ -1348,7 +1348,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
         }
 
 
-        public static System.Boolean GetWrapped(Unity.Profiling.ProfilerRecorder  @handle)
+        public static System.Boolean GetWrapped(Unity.Profiling.ProfilerRecorder @handle)
         {
 
             var ___genericsType = new Type[] {};
@@ -1359,7 +1359,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
         }
 
 
-        public static System.Boolean GetRunning(Unity.Profiling.ProfilerRecorder  @handle)
+        public static System.Boolean GetRunning(Unity.Profiling.ProfilerRecorder @handle)
         {
 
             var ___genericsType = new Type[] {};
@@ -1370,7 +1370,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
         }
 
 
-        public static Unity.Profiling.ProfilerRecorderSample GetSampleInternal(Unity.Profiling.ProfilerRecorder  @handle, System.Int32  @index)
+        public static Unity.Profiling.ProfilerRecorderSample GetSampleInternal(Unity.Profiling.ProfilerRecorder @handle, System.Int32 @index)
         {
 
             var ___genericsType = new Type[] {};
@@ -1381,7 +1381,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
         }
 
 
-        public static void CopyTo_List(Unity.Profiling.ProfilerRecorder  @handle, System.Collections.Generic.List<Unity.Profiling.ProfilerRecorderSample>  @outSamples, System.Boolean  @reset)
+        public static void CopyTo_List(Unity.Profiling.ProfilerRecorder @handle, System.Collections.Generic.List<Unity.Profiling.ProfilerRecorderSample> @outSamples, System.Boolean @reset)
         {
 
             var ___genericsType = new Type[] {};
@@ -1416,7 +1416,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
         }
 
 
-        public static void Create_Injected(ref Unity.Profiling.LowLevel.Unsafe.ProfilerRecorderHandle  @statHandle, System.Int32  @maxSampleCount, Unity.Profiling.ProfilerRecorderOptions  @options, out Unity.Profiling.ProfilerRecorder  @ret)
+        public static void Create_Injected(ref Unity.Profiling.LowLevel.Unsafe.ProfilerRecorderHandle @statHandle, System.Int32 @maxSampleCount, Unity.Profiling.ProfilerRecorderOptions @options, out Unity.Profiling.ProfilerRecorder @ret)
         {
 			@ret = default;
 
@@ -1430,7 +1430,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
         }
 
 
-        public static void Control_Injected(ref Unity.Profiling.ProfilerRecorder  @handle, RType  @options)
+        public static void Control_Injected(ref Unity.Profiling.ProfilerRecorder @handle, RType @options)
         {
 
             var ___genericsType = new Type[] {};
@@ -1442,7 +1442,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
         }
 
 
-        public static Unity.Profiling.ProfilerMarkerDataUnit GetValueUnitType_Injected(ref Unity.Profiling.ProfilerRecorder  @handle)
+        public static Unity.Profiling.ProfilerMarkerDataUnit GetValueUnitType_Injected(ref Unity.Profiling.ProfilerRecorder @handle)
         {
 
             var ___genericsType = new Type[] {};
@@ -1454,7 +1454,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
         }
 
 
-        public static Unity.Profiling.LowLevel.ProfilerMarkerDataType GetValueDataType_Injected(ref Unity.Profiling.ProfilerRecorder  @handle)
+        public static Unity.Profiling.LowLevel.ProfilerMarkerDataType GetValueDataType_Injected(ref Unity.Profiling.ProfilerRecorder @handle)
         {
 
             var ___genericsType = new Type[] {};
@@ -1466,7 +1466,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
         }
 
 
-        public static System.Int64 GetCurrentValue_Injected(ref Unity.Profiling.ProfilerRecorder  @handle)
+        public static System.Int64 GetCurrentValue_Injected(ref Unity.Profiling.ProfilerRecorder @handle)
         {
 
             var ___genericsType = new Type[] {};
@@ -1478,7 +1478,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
         }
 
 
-        public static System.Double GetCurrentValueAsDouble_Injected(ref Unity.Profiling.ProfilerRecorder  @handle)
+        public static System.Double GetCurrentValueAsDouble_Injected(ref Unity.Profiling.ProfilerRecorder @handle)
         {
 
             var ___genericsType = new Type[] {};
@@ -1490,7 +1490,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
         }
 
 
-        public static System.Int64 GetLastValue_Injected(ref Unity.Profiling.ProfilerRecorder  @handle)
+        public static System.Int64 GetLastValue_Injected(ref Unity.Profiling.ProfilerRecorder @handle)
         {
 
             var ___genericsType = new Type[] {};
@@ -1502,7 +1502,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
         }
 
 
-        public static System.Double GetLastValueAsDouble_Injected(ref Unity.Profiling.ProfilerRecorder  @handle)
+        public static System.Double GetLastValueAsDouble_Injected(ref Unity.Profiling.ProfilerRecorder @handle)
         {
 
             var ___genericsType = new Type[] {};
@@ -1514,7 +1514,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
         }
 
 
-        public static System.Int32 GetCount_Injected(ref Unity.Profiling.ProfilerRecorder  @handle, RType  @countOptions)
+        public static System.Int32 GetCount_Injected(ref Unity.Profiling.ProfilerRecorder @handle, RType @countOptions)
         {
 
             var ___genericsType = new Type[] {};
@@ -1526,7 +1526,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
         }
 
 
-        public static System.Boolean GetValid_Injected(ref Unity.Profiling.ProfilerRecorder  @handle)
+        public static System.Boolean GetValid_Injected(ref Unity.Profiling.ProfilerRecorder @handle)
         {
 
             var ___genericsType = new Type[] {};
@@ -1538,7 +1538,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
         }
 
 
-        public static System.Boolean GetWrapped_Injected(ref Unity.Profiling.ProfilerRecorder  @handle)
+        public static System.Boolean GetWrapped_Injected(ref Unity.Profiling.ProfilerRecorder @handle)
         {
 
             var ___genericsType = new Type[] {};
@@ -1550,7 +1550,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
         }
 
 
-        public static System.Boolean GetRunning_Injected(ref Unity.Profiling.ProfilerRecorder  @handle)
+        public static System.Boolean GetRunning_Injected(ref Unity.Profiling.ProfilerRecorder @handle)
         {
 
             var ___genericsType = new Type[] {};
@@ -1562,7 +1562,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
         }
 
 
-        public static void GetSampleInternal_Injected(ref Unity.Profiling.ProfilerRecorder  @handle, System.Int32  @index, out Unity.Profiling.ProfilerRecorderSample  @ret)
+        public static void GetSampleInternal_Injected(ref Unity.Profiling.ProfilerRecorder @handle, System.Int32 @index, out Unity.Profiling.ProfilerRecorderSample @ret)
         {
 			@ret = default;
 
@@ -1576,7 +1576,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
         }
 
 
-        public static void CopyTo_List_Injected(ref Unity.Profiling.ProfilerRecorder  @handle, System.Collections.Generic.List<Unity.Profiling.ProfilerRecorderSample>  @outSamples, System.Boolean  @reset)
+        public static void CopyTo_List_Injected(ref Unity.Profiling.ProfilerRecorder @handle, System.Collections.Generic.List<Unity.Profiling.ProfilerRecorderSample> @outSamples, System.Boolean @reset)
         {
 
             var ___genericsType = new Type[] {};
@@ -1589,7 +1589,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
 
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

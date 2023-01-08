@@ -198,7 +198,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 	    {
 	    }
 
-        public virtual void AppendTo(ref RUnityEngine.RUIElements.RUIR.RBasicNode<RType>  @first)
+        public virtual void AppendTo(ref RUnityEngine.RUIElements.RUIR.RBasicNode<RType> @first)
         {
 
             var ___genericsType = new Type[] {};
@@ -210,7 +210,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

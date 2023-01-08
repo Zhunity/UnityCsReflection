@@ -232,7 +232,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts
 	    {
 	    }
 
-        public virtual System.Boolean RegisterDynamicProperty(System.Runtime.Remoting.Contexts.IDynamicProperty  @prop)
+        public virtual System.Boolean RegisterDynamicProperty(System.Runtime.Remoting.Contexts.IDynamicProperty @prop)
         {
 
             var ___genericsType = new Type[] {};
@@ -243,7 +243,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts
         }
 
 
-        public virtual System.Boolean UnregisterDynamicProperty(System.String  @name)
+        public virtual System.Boolean UnregisterDynamicProperty(System.String @name)
         {
 
             var ___genericsType = new Type[] {};
@@ -254,7 +254,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts
         }
 
 
-        public virtual void NotifyMessage(System.Boolean  @start, System.Runtime.Remoting.Messaging.IMessage  @msg, System.Boolean  @client_site, System.Boolean  @async)
+        public virtual void NotifyMessage(System.Boolean @start, System.Runtime.Remoting.Messaging.IMessage @msg, System.Boolean @client_site, System.Boolean @async)
         {
 
             var ___genericsType = new Type[] {};
@@ -265,7 +265,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts
         }
 
 
-        public virtual System.Int32 FindProperty(System.String  @name)
+        public virtual System.Int32 FindProperty(System.String @name)
         {
 
             var ___genericsType = new Type[] {};
@@ -276,7 +276,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

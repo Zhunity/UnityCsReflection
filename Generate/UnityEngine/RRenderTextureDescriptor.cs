@@ -742,7 +742,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 	    {
 	    }
 
-        public virtual void SetOrClearRenderTextureCreationFlag(System.Boolean  @value, UnityEngine.RenderTextureCreationFlags  @flag)
+        public virtual void SetOrClearRenderTextureCreationFlag(System.Boolean @value, UnityEngine.RenderTextureCreationFlags @flag)
         {
 
             var ___genericsType = new Type[] {};
@@ -753,7 +753,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

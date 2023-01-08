@@ -277,7 +277,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual void ApplyToObject(UnityEngine.Object  @obj)
+        public virtual void ApplyToObject(UnityEngine.Object @obj)
         {
 
             var ___genericsType = new Type[] {};
@@ -288,7 +288,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public static void ApplyPropertyModificationToObject(UnityEngine.Object  @target, UnityEditor.PropertyModification  @value)
+        public static void ApplyPropertyModificationToObject(UnityEngine.Object @target, UnityEditor.PropertyModification @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -299,7 +299,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public static void ApplyPropertyModificationsToObject(UnityEngine.Object  @target, UnityEditor.PropertyModification[]  @value)
+        public static void ApplyPropertyModificationsToObject(UnityEngine.Object @target, UnityEditor.PropertyModification[] @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -310,7 +310,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

@@ -266,7 +266,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RResources
 	    {
 	    }
 
-        public virtual void WriteTo(System.IO.Stream  @s)
+        public virtual void WriteTo(System.IO.Stream @s)
         {
 
             var ___genericsType = new Type[] {};
@@ -288,7 +288,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RResources
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

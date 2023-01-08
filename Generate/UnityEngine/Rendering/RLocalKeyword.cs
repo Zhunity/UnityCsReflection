@@ -521,7 +521,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 	    {
 	    }
 
-        public static System.Boolean IsDynamic(UnityEngine.Rendering.LocalKeyword  @kw)
+        public static System.Boolean IsDynamic(UnityEngine.Rendering.LocalKeyword @kw)
         {
 
             var ___genericsType = new Type[] {};
@@ -532,7 +532,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public static System.Boolean IsOverridable(UnityEngine.Rendering.LocalKeyword  @kw)
+        public static System.Boolean IsOverridable(UnityEngine.Rendering.LocalKeyword @kw)
         {
 
             var ___genericsType = new Type[] {};
@@ -543,7 +543,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public static System.UInt32 GetShaderKeywordCount(UnityEngine.Shader  @shader)
+        public static System.UInt32 GetShaderKeywordCount(UnityEngine.Shader @shader)
         {
 
             var ___genericsType = new Type[] {};
@@ -554,7 +554,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public static System.UInt32 GetShaderKeywordIndex(UnityEngine.Shader  @shader, System.String  @keyword)
+        public static System.UInt32 GetShaderKeywordIndex(UnityEngine.Shader @shader, System.String @keyword)
         {
 
             var ___genericsType = new Type[] {};
@@ -565,7 +565,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public static System.UInt32 GetComputeShaderKeywordCount(UnityEngine.ComputeShader  @shader)
+        public static System.UInt32 GetComputeShaderKeywordCount(UnityEngine.ComputeShader @shader)
         {
 
             var ___genericsType = new Type[] {};
@@ -576,7 +576,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public static System.UInt32 GetComputeShaderKeywordIndex(UnityEngine.ComputeShader  @shader, System.String  @keyword)
+        public static System.UInt32 GetComputeShaderKeywordIndex(UnityEngine.ComputeShader @shader, System.String @keyword)
         {
 
             var ___genericsType = new Type[] {};
@@ -587,7 +587,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public static UnityEngine.Rendering.ShaderKeywordType GetKeywordType(UnityEngine.Rendering.LocalKeywordSpace  @spaceInfo, System.UInt32  @keyword)
+        public static UnityEngine.Rendering.ShaderKeywordType GetKeywordType(UnityEngine.Rendering.LocalKeywordSpace @spaceInfo, System.UInt32 @keyword)
         {
 
             var ___genericsType = new Type[] {};
@@ -598,7 +598,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public static System.Boolean IsValid(UnityEngine.Rendering.LocalKeywordSpace  @spaceInfo, System.UInt32  @keyword)
+        public static System.Boolean IsValid(UnityEngine.Rendering.LocalKeywordSpace @spaceInfo, System.UInt32 @keyword)
         {
 
             var ___genericsType = new Type[] {};
@@ -620,7 +620,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @o)
+        public virtual System.Boolean Equals(System.Object @o)
         {
 
             var ___genericsType = new Type[] {};
@@ -631,7 +631,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual System.Boolean Equals(UnityEngine.Rendering.LocalKeyword  @rhs)
+        public virtual System.Boolean Equals(UnityEngine.Rendering.LocalKeyword @rhs)
         {
 
             var ___genericsType = new Type[] {};
@@ -642,7 +642,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public static System.Boolean op_Equality(UnityEngine.Rendering.LocalKeyword  @lhs, UnityEngine.Rendering.LocalKeyword  @rhs)
+        public static System.Boolean op_Equality(UnityEngine.Rendering.LocalKeyword @lhs, UnityEngine.Rendering.LocalKeyword @rhs)
         {
 
             var ___genericsType = new Type[] {};
@@ -653,7 +653,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public static System.Boolean op_Inequality(UnityEngine.Rendering.LocalKeyword  @lhs, UnityEngine.Rendering.LocalKeyword  @rhs)
+        public static System.Boolean op_Inequality(UnityEngine.Rendering.LocalKeyword @lhs, UnityEngine.Rendering.LocalKeyword @rhs)
         {
 
             var ___genericsType = new Type[] {};
@@ -675,7 +675,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public static System.Boolean IsDynamic_Injected(ref UnityEngine.Rendering.LocalKeyword  @kw)
+        public static System.Boolean IsDynamic_Injected(ref UnityEngine.Rendering.LocalKeyword @kw)
         {
 
             var ___genericsType = new Type[] {};
@@ -687,7 +687,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public static System.Boolean IsOverridable_Injected(ref UnityEngine.Rendering.LocalKeyword  @kw)
+        public static System.Boolean IsOverridable_Injected(ref UnityEngine.Rendering.LocalKeyword @kw)
         {
 
             var ___genericsType = new Type[] {};
@@ -699,7 +699,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public static UnityEngine.Rendering.ShaderKeywordType GetKeywordType_Injected(ref UnityEngine.Rendering.LocalKeywordSpace  @spaceInfo, System.UInt32  @keyword)
+        public static UnityEngine.Rendering.ShaderKeywordType GetKeywordType_Injected(ref UnityEngine.Rendering.LocalKeywordSpace @spaceInfo, System.UInt32 @keyword)
         {
 
             var ___genericsType = new Type[] {};
@@ -711,7 +711,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public static System.Boolean IsValid_Injected(ref UnityEngine.Rendering.LocalKeywordSpace  @spaceInfo, System.UInt32  @keyword)
+        public static System.Boolean IsValid_Injected(ref UnityEngine.Rendering.LocalKeywordSpace @spaceInfo, System.UInt32 @keyword)
         {
 
             var ___genericsType = new Type[] {};

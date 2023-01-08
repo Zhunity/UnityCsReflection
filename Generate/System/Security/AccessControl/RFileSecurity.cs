@@ -1473,7 +1473,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 	    {
 	    }
 
-        public virtual System.Security.AccessControl.AccessRule AccessRuleFactory(System.Security.Principal.IdentityReference  @identityReference, System.Int32  @accessMask, System.Boolean  @isInherited, System.Security.AccessControl.InheritanceFlags  @inheritanceFlags, System.Security.AccessControl.PropagationFlags  @propagationFlags, System.Security.AccessControl.AccessControlType  @type)
+        public virtual System.Security.AccessControl.AccessRule AccessRuleFactory(System.Security.Principal.IdentityReference @identityReference, System.Int32 @accessMask, System.Boolean @isInherited, System.Security.AccessControl.InheritanceFlags @inheritanceFlags, System.Security.AccessControl.PropagationFlags @propagationFlags, System.Security.AccessControl.AccessControlType @type)
         {
 
             var ___genericsType = new Type[] {};
@@ -1484,7 +1484,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
         }
 
 
-        public virtual void AddAccessRule(System.Security.AccessControl.FileSystemAccessRule  @rule)
+        public virtual void AddAccessRule(System.Security.AccessControl.FileSystemAccessRule @rule)
         {
 
             var ___genericsType = new Type[] {};
@@ -1495,7 +1495,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
         }
 
 
-        public virtual System.Boolean RemoveAccessRule(System.Security.AccessControl.FileSystemAccessRule  @rule)
+        public virtual System.Boolean RemoveAccessRule(System.Security.AccessControl.FileSystemAccessRule @rule)
         {
 
             var ___genericsType = new Type[] {};
@@ -1506,7 +1506,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
         }
 
 
-        public virtual void RemoveAccessRuleAll(System.Security.AccessControl.FileSystemAccessRule  @rule)
+        public virtual void RemoveAccessRuleAll(System.Security.AccessControl.FileSystemAccessRule @rule)
         {
 
             var ___genericsType = new Type[] {};
@@ -1517,7 +1517,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
         }
 
 
-        public virtual void RemoveAccessRuleSpecific(System.Security.AccessControl.FileSystemAccessRule  @rule)
+        public virtual void RemoveAccessRuleSpecific(System.Security.AccessControl.FileSystemAccessRule @rule)
         {
 
             var ___genericsType = new Type[] {};
@@ -1528,7 +1528,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
         }
 
 
-        public virtual void ResetAccessRule(System.Security.AccessControl.FileSystemAccessRule  @rule)
+        public virtual void ResetAccessRule(System.Security.AccessControl.FileSystemAccessRule @rule)
         {
 
             var ___genericsType = new Type[] {};
@@ -1539,7 +1539,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
         }
 
 
-        public virtual void SetAccessRule(System.Security.AccessControl.FileSystemAccessRule  @rule)
+        public virtual void SetAccessRule(System.Security.AccessControl.FileSystemAccessRule @rule)
         {
 
             var ___genericsType = new Type[] {};
@@ -1550,7 +1550,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
         }
 
 
-        public virtual System.Security.AccessControl.AuditRule AuditRuleFactory(System.Security.Principal.IdentityReference  @identityReference, System.Int32  @accessMask, System.Boolean  @isInherited, System.Security.AccessControl.InheritanceFlags  @inheritanceFlags, System.Security.AccessControl.PropagationFlags  @propagationFlags, System.Security.AccessControl.AuditFlags  @flags)
+        public virtual System.Security.AccessControl.AuditRule AuditRuleFactory(System.Security.Principal.IdentityReference @identityReference, System.Int32 @accessMask, System.Boolean @isInherited, System.Security.AccessControl.InheritanceFlags @inheritanceFlags, System.Security.AccessControl.PropagationFlags @propagationFlags, System.Security.AccessControl.AuditFlags @flags)
         {
 
             var ___genericsType = new Type[] {};
@@ -1561,7 +1561,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
         }
 
 
-        public virtual void AddAuditRule(System.Security.AccessControl.FileSystemAuditRule  @rule)
+        public virtual void AddAuditRule(System.Security.AccessControl.FileSystemAuditRule @rule)
         {
 
             var ___genericsType = new Type[] {};
@@ -1572,7 +1572,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
         }
 
 
-        public virtual System.Boolean RemoveAuditRule(System.Security.AccessControl.FileSystemAuditRule  @rule)
+        public virtual System.Boolean RemoveAuditRule(System.Security.AccessControl.FileSystemAuditRule @rule)
         {
 
             var ___genericsType = new Type[] {};
@@ -1583,7 +1583,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
         }
 
 
-        public virtual void RemoveAuditRuleAll(System.Security.AccessControl.FileSystemAuditRule  @rule)
+        public virtual void RemoveAuditRuleAll(System.Security.AccessControl.FileSystemAuditRule @rule)
         {
 
             var ___genericsType = new Type[] {};
@@ -1594,7 +1594,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
         }
 
 
-        public virtual void RemoveAuditRuleSpecific(System.Security.AccessControl.FileSystemAuditRule  @rule)
+        public virtual void RemoveAuditRuleSpecific(System.Security.AccessControl.FileSystemAuditRule @rule)
         {
 
             var ___genericsType = new Type[] {};
@@ -1605,7 +1605,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
         }
 
 
-        public virtual void SetAuditRule(System.Security.AccessControl.FileSystemAuditRule  @rule)
+        public virtual void SetAuditRule(System.Security.AccessControl.FileSystemAuditRule @rule)
         {
 
             var ___genericsType = new Type[] {};
@@ -1616,7 +1616,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
         }
 
 
-        public virtual void Persist(System.Runtime.InteropServices.SafeHandle  @handle, System.Security.AccessControl.AccessControlSections  @includeSections)
+        public virtual void Persist(System.Runtime.InteropServices.SafeHandle @handle, System.Security.AccessControl.AccessControlSections @includeSections)
         {
 
             var ___genericsType = new Type[] {};
@@ -1627,7 +1627,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
         }
 
 
-        public virtual void Persist(System.String  @name, System.Security.AccessControl.AccessControlSections  @includeSections)
+        public virtual void Persist(System.String @name, System.Security.AccessControl.AccessControlSections @includeSections)
         {
 
             var ___genericsType = new Type[] {};
@@ -1638,7 +1638,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
         }
 
 
-        public virtual void PersistModifications(System.Runtime.InteropServices.SafeHandle  @handle)
+        public virtual void PersistModifications(System.Runtime.InteropServices.SafeHandle @handle)
         {
 
             var ___genericsType = new Type[] {};
@@ -1649,7 +1649,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
         }
 
 
-        public virtual void Persist(System.Runtime.InteropServices.SafeHandle  @handle, System.Security.AccessControl.AccessControlSections  @includeSections, System.Object  @exceptionContext)
+        public virtual void Persist(System.Runtime.InteropServices.SafeHandle @handle, System.Security.AccessControl.AccessControlSections @includeSections, System.Object @exceptionContext)
         {
 
             var ___genericsType = new Type[] {};
@@ -1660,7 +1660,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
         }
 
 
-        public virtual void PersistModifications(System.String  @name)
+        public virtual void PersistModifications(System.String @name)
         {
 
             var ___genericsType = new Type[] {};
@@ -1671,7 +1671,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
         }
 
 
-        public virtual void Persist(System.String  @name, System.Security.AccessControl.AccessControlSections  @includeSections, System.Object  @exceptionContext)
+        public virtual void Persist(System.String @name, System.Security.AccessControl.AccessControlSections @includeSections, System.Object @exceptionContext)
         {
 
             var ___genericsType = new Type[] {};
@@ -1682,7 +1682,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
         }
 
 
-        public virtual System.Int32 InternalGet(System.Runtime.InteropServices.SafeHandle  @handle, System.Security.AccessControl.AccessControlSections  @includeSections)
+        public virtual System.Int32 InternalGet(System.Runtime.InteropServices.SafeHandle @handle, System.Security.AccessControl.AccessControlSections @includeSections)
         {
 
             var ___genericsType = new Type[] {};
@@ -1693,7 +1693,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
         }
 
 
-        public virtual System.Int32 InternalGet(System.String  @name, System.Security.AccessControl.AccessControlSections  @includeSections)
+        public virtual System.Int32 InternalGet(System.String @name, System.Security.AccessControl.AccessControlSections @includeSections)
         {
 
             var ___genericsType = new Type[] {};
@@ -1704,7 +1704,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
         }
 
 
-        public virtual System.Int32 InternalSet(System.Runtime.InteropServices.SafeHandle  @handle, System.Security.AccessControl.AccessControlSections  @includeSections)
+        public virtual System.Int32 InternalSet(System.Runtime.InteropServices.SafeHandle @handle, System.Security.AccessControl.AccessControlSections @includeSections)
         {
 
             var ___genericsType = new Type[] {};
@@ -1715,7 +1715,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
         }
 
 
-        public virtual System.Int32 InternalSet(System.String  @name, System.Security.AccessControl.AccessControlSections  @includeSections)
+        public virtual System.Int32 InternalSet(System.String @name, System.Security.AccessControl.AccessControlSections @includeSections)
         {
 
             var ___genericsType = new Type[] {};
@@ -1726,7 +1726,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
         }
 
 
-        public virtual System.Security.AccessControl.AuthorizationRuleCollection GetAccessRules(System.Boolean  @includeExplicit, System.Boolean  @includeInherited, System.Type  @targetType)
+        public virtual System.Security.AccessControl.AuthorizationRuleCollection GetAccessRules(System.Boolean @includeExplicit, System.Boolean @includeInherited, System.Type @targetType)
         {
 
             var ___genericsType = new Type[] {};
@@ -1737,7 +1737,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
         }
 
 
-        public virtual System.Security.AccessControl.AuthorizationRuleCollection GetAuditRules(System.Boolean  @includeExplicit, System.Boolean  @includeInherited, System.Type  @targetType)
+        public virtual System.Security.AccessControl.AuthorizationRuleCollection GetAuditRules(System.Boolean @includeExplicit, System.Boolean @includeInherited, System.Type @targetType)
         {
 
             var ___genericsType = new Type[] {};
@@ -1748,7 +1748,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
         }
 
 
-        public virtual void AddAccessRule(System.Security.AccessControl.AccessRule  @rule)
+        public virtual void AddAccessRule(System.Security.AccessControl.AccessRule @rule)
         {
 
             var ___genericsType = new Type[] {};
@@ -1759,7 +1759,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
         }
 
 
-        public virtual System.Boolean RemoveAccessRule(System.Security.AccessControl.AccessRule  @rule)
+        public virtual System.Boolean RemoveAccessRule(System.Security.AccessControl.AccessRule @rule)
         {
 
             var ___genericsType = new Type[] {};
@@ -1770,7 +1770,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
         }
 
 
-        public virtual void RemoveAccessRuleAll(System.Security.AccessControl.AccessRule  @rule)
+        public virtual void RemoveAccessRuleAll(System.Security.AccessControl.AccessRule @rule)
         {
 
             var ___genericsType = new Type[] {};
@@ -1781,7 +1781,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
         }
 
 
-        public virtual void RemoveAccessRuleSpecific(System.Security.AccessControl.AccessRule  @rule)
+        public virtual void RemoveAccessRuleSpecific(System.Security.AccessControl.AccessRule @rule)
         {
 
             var ___genericsType = new Type[] {};
@@ -1792,7 +1792,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
         }
 
 
-        public virtual void ResetAccessRule(System.Security.AccessControl.AccessRule  @rule)
+        public virtual void ResetAccessRule(System.Security.AccessControl.AccessRule @rule)
         {
 
             var ___genericsType = new Type[] {};
@@ -1803,7 +1803,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
         }
 
 
-        public virtual void SetAccessRule(System.Security.AccessControl.AccessRule  @rule)
+        public virtual void SetAccessRule(System.Security.AccessControl.AccessRule @rule)
         {
 
             var ___genericsType = new Type[] {};
@@ -1814,7 +1814,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
         }
 
 
-        public virtual System.Boolean ModifyAccess(System.Security.AccessControl.AccessControlModification  @modification, System.Security.AccessControl.AccessRule  @rule, out System.Boolean  @modified)
+        public virtual System.Boolean ModifyAccess(System.Security.AccessControl.AccessControlModification @modification, System.Security.AccessControl.AccessRule @rule, out System.Boolean @modified)
         {
 			@modified = default;
 
@@ -1827,7 +1827,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
         }
 
 
-        public virtual void AddAuditRule(System.Security.AccessControl.AuditRule  @rule)
+        public virtual void AddAuditRule(System.Security.AccessControl.AuditRule @rule)
         {
 
             var ___genericsType = new Type[] {};
@@ -1838,7 +1838,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
         }
 
 
-        public virtual System.Boolean RemoveAuditRule(System.Security.AccessControl.AuditRule  @rule)
+        public virtual System.Boolean RemoveAuditRule(System.Security.AccessControl.AuditRule @rule)
         {
 
             var ___genericsType = new Type[] {};
@@ -1849,7 +1849,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
         }
 
 
-        public virtual void RemoveAuditRuleAll(System.Security.AccessControl.AuditRule  @rule)
+        public virtual void RemoveAuditRuleAll(System.Security.AccessControl.AuditRule @rule)
         {
 
             var ___genericsType = new Type[] {};
@@ -1860,7 +1860,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
         }
 
 
-        public virtual void RemoveAuditRuleSpecific(System.Security.AccessControl.AuditRule  @rule)
+        public virtual void RemoveAuditRuleSpecific(System.Security.AccessControl.AuditRule @rule)
         {
 
             var ___genericsType = new Type[] {};
@@ -1871,7 +1871,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
         }
 
 
-        public virtual void SetAuditRule(System.Security.AccessControl.AuditRule  @rule)
+        public virtual void SetAuditRule(System.Security.AccessControl.AuditRule @rule)
         {
 
             var ___genericsType = new Type[] {};
@@ -1882,7 +1882,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
         }
 
 
-        public virtual System.Boolean ModifyAudit(System.Security.AccessControl.AccessControlModification  @modification, System.Security.AccessControl.AuditRule  @rule, out System.Boolean  @modified)
+        public virtual System.Boolean ModifyAudit(System.Security.AccessControl.AccessControlModification @modification, System.Security.AccessControl.AuditRule @rule, out System.Boolean @modified)
         {
 			@modified = default;
 
@@ -1895,7 +1895,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
         }
 
 
-        public virtual System.Security.Principal.IdentityReference GetGroup(System.Type  @targetType)
+        public virtual System.Security.Principal.IdentityReference GetGroup(System.Type @targetType)
         {
 
             var ___genericsType = new Type[] {};
@@ -1906,7 +1906,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
         }
 
 
-        public virtual System.Security.Principal.IdentityReference GetOwner(System.Type  @targetType)
+        public virtual System.Security.Principal.IdentityReference GetOwner(System.Type @targetType)
         {
 
             var ___genericsType = new Type[] {};
@@ -1928,7 +1928,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
         }
 
 
-        public virtual System.String GetSecurityDescriptorSddlForm(System.Security.AccessControl.AccessControlSections  @includeSections)
+        public virtual System.String GetSecurityDescriptorSddlForm(System.Security.AccessControl.AccessControlSections @includeSections)
         {
 
             var ___genericsType = new Type[] {};
@@ -1939,7 +1939,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
         }
 
 
-        public virtual System.Boolean ModifyAccessRule(System.Security.AccessControl.AccessControlModification  @modification, System.Security.AccessControl.AccessRule  @rule, out System.Boolean  @modified)
+        public virtual System.Boolean ModifyAccessRule(System.Security.AccessControl.AccessControlModification @modification, System.Security.AccessControl.AccessRule @rule, out System.Boolean @modified)
         {
 			@modified = default;
 
@@ -1952,7 +1952,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
         }
 
 
-        public virtual System.Boolean ModifyAuditRule(System.Security.AccessControl.AccessControlModification  @modification, System.Security.AccessControl.AuditRule  @rule, out System.Boolean  @modified)
+        public virtual System.Boolean ModifyAuditRule(System.Security.AccessControl.AccessControlModification @modification, System.Security.AccessControl.AuditRule @rule, out System.Boolean @modified)
         {
 			@modified = default;
 
@@ -1965,7 +1965,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
         }
 
 
-        public virtual void PurgeAccessRules(System.Security.Principal.IdentityReference  @identity)
+        public virtual void PurgeAccessRules(System.Security.Principal.IdentityReference @identity)
         {
 
             var ___genericsType = new Type[] {};
@@ -1976,7 +1976,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
         }
 
 
-        public virtual void PurgeAuditRules(System.Security.Principal.IdentityReference  @identity)
+        public virtual void PurgeAuditRules(System.Security.Principal.IdentityReference @identity)
         {
 
             var ___genericsType = new Type[] {};
@@ -1987,7 +1987,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
         }
 
 
-        public virtual void SetAccessRuleProtection(System.Boolean  @isProtected, System.Boolean  @preserveInheritance)
+        public virtual void SetAccessRuleProtection(System.Boolean @isProtected, System.Boolean @preserveInheritance)
         {
 
             var ___genericsType = new Type[] {};
@@ -1998,7 +1998,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
         }
 
 
-        public virtual void SetAuditRuleProtection(System.Boolean  @isProtected, System.Boolean  @preserveInheritance)
+        public virtual void SetAuditRuleProtection(System.Boolean @isProtected, System.Boolean @preserveInheritance)
         {
 
             var ___genericsType = new Type[] {};
@@ -2009,7 +2009,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
         }
 
 
-        public virtual void SetGroup(System.Security.Principal.IdentityReference  @identity)
+        public virtual void SetGroup(System.Security.Principal.IdentityReference @identity)
         {
 
             var ___genericsType = new Type[] {};
@@ -2020,7 +2020,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
         }
 
 
-        public virtual void SetOwner(System.Security.Principal.IdentityReference  @identity)
+        public virtual void SetOwner(System.Security.Principal.IdentityReference @identity)
         {
 
             var ___genericsType = new Type[] {};
@@ -2031,7 +2031,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
         }
 
 
-        public virtual void SetSecurityDescriptorBinaryForm(System.Byte[]  @binaryForm)
+        public virtual void SetSecurityDescriptorBinaryForm(System.Byte[] @binaryForm)
         {
 
             var ___genericsType = new Type[] {};
@@ -2042,7 +2042,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
         }
 
 
-        public virtual void SetSecurityDescriptorBinaryForm(System.Byte[]  @binaryForm, System.Security.AccessControl.AccessControlSections  @includeSections)
+        public virtual void SetSecurityDescriptorBinaryForm(System.Byte[] @binaryForm, System.Security.AccessControl.AccessControlSections @includeSections)
         {
 
             var ___genericsType = new Type[] {};
@@ -2053,7 +2053,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
         }
 
 
-        public virtual void SetSecurityDescriptorSddlForm(System.String  @sddlForm)
+        public virtual void SetSecurityDescriptorSddlForm(System.String @sddlForm)
         {
 
             var ___genericsType = new Type[] {};
@@ -2064,7 +2064,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
         }
 
 
-        public virtual void SetSecurityDescriptorSddlForm(System.String  @sddlForm, System.Security.AccessControl.AccessControlSections  @includeSections)
+        public virtual void SetSecurityDescriptorSddlForm(System.String @sddlForm, System.Security.AccessControl.AccessControlSections @includeSections)
         {
 
             var ___genericsType = new Type[] {};
@@ -2075,7 +2075,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
         }
 
 
-        public virtual void Persist(System.Boolean  @enableOwnershipPrivilege, System.String  @name, System.Security.AccessControl.AccessControlSections  @includeSections)
+        public virtual void Persist(System.Boolean @enableOwnershipPrivilege, System.String @name, System.Security.AccessControl.AccessControlSections @includeSections)
         {
 
             var ___genericsType = new Type[] {};
@@ -2130,7 +2130,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
         }
 
 
-        public virtual System.Security.AccessControl.AuthorizationRuleCollection InternalGetAccessRules(System.Boolean  @includeExplicit, System.Boolean  @includeInherited, System.Type  @targetType)
+        public virtual System.Security.AccessControl.AuthorizationRuleCollection InternalGetAccessRules(System.Boolean @includeExplicit, System.Boolean @includeInherited, System.Type @targetType)
         {
 
             var ___genericsType = new Type[] {};
@@ -2141,7 +2141,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
         }
 
 
-        public virtual System.Security.AccessControl.AccessRule InternalAccessRuleFactory(System.Security.AccessControl.QualifiedAce  @ace, System.Type  @targetType, System.Security.AccessControl.AccessControlType  @type)
+        public virtual System.Security.AccessControl.AccessRule InternalAccessRuleFactory(System.Security.AccessControl.QualifiedAce @ace, System.Type @targetType, System.Security.AccessControl.AccessControlType @type)
         {
 
             var ___genericsType = new Type[] {};
@@ -2152,7 +2152,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
         }
 
 
-        public virtual System.Security.AccessControl.AuthorizationRuleCollection InternalGetAuditRules(System.Boolean  @includeExplicit, System.Boolean  @includeInherited, System.Type  @targetType)
+        public virtual System.Security.AccessControl.AuthorizationRuleCollection InternalGetAuditRules(System.Boolean @includeExplicit, System.Boolean @includeInherited, System.Type @targetType)
         {
 
             var ___genericsType = new Type[] {};
@@ -2163,7 +2163,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
         }
 
 
-        public virtual System.Security.AccessControl.AuditRule InternalAuditRuleFactory(System.Security.AccessControl.QualifiedAce  @ace, System.Type  @targetType)
+        public virtual System.Security.AccessControl.AuditRule InternalAuditRuleFactory(System.Security.AccessControl.QualifiedAce @ace, System.Type @targetType)
         {
 
             var ___genericsType = new Type[] {};
@@ -2174,7 +2174,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

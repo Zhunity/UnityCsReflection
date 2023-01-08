@@ -249,7 +249,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 	    {
 	    }
 
-        public virtual System.Boolean Equals(System.Object  @other)
+        public virtual System.Boolean Equals(System.Object @other)
         {
 
             var ___genericsType = new Type[] {};
@@ -260,7 +260,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Boolean Equals(UnityEngine.BoneWeight1  @other)
+        public virtual System.Boolean Equals(UnityEngine.BoneWeight1 @other)
         {
 
             var ___genericsType = new Type[] {};
@@ -282,7 +282,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static System.Boolean op_Equality(UnityEngine.BoneWeight1  @lhs, UnityEngine.BoneWeight1  @rhs)
+        public static System.Boolean op_Equality(UnityEngine.BoneWeight1 @lhs, UnityEngine.BoneWeight1 @rhs)
         {
 
             var ___genericsType = new Type[] {};
@@ -293,7 +293,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static System.Boolean op_Inequality(UnityEngine.BoneWeight1  @lhs, UnityEngine.BoneWeight1  @rhs)
+        public static System.Boolean op_Inequality(UnityEngine.BoneWeight1 @lhs, UnityEngine.BoneWeight1 @rhs)
         {
 
             var ___genericsType = new Type[] {};

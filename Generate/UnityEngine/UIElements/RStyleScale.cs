@@ -300,7 +300,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 	    {
 	    }
 
-        public static UnityEngine.UIElements.StyleScale op_Implicit(UnityEngine.Vector2  @scale)
+        public static UnityEngine.UIElements.StyleScale op_Implicit(UnityEngine.Vector2 @scale)
         {
 
             var ___genericsType = new Type[] {};
@@ -311,7 +311,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public static System.Boolean op_Equality(UnityEngine.UIElements.StyleScale  @lhs, UnityEngine.UIElements.StyleScale  @rhs)
+        public static System.Boolean op_Equality(UnityEngine.UIElements.StyleScale @lhs, UnityEngine.UIElements.StyleScale @rhs)
         {
 
             var ___genericsType = new Type[] {};
@@ -322,7 +322,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public static System.Boolean op_Inequality(UnityEngine.UIElements.StyleScale  @lhs, UnityEngine.UIElements.StyleScale  @rhs)
+        public static System.Boolean op_Inequality(UnityEngine.UIElements.StyleScale @lhs, UnityEngine.UIElements.StyleScale @rhs)
         {
 
             var ___genericsType = new Type[] {};
@@ -333,7 +333,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public static UnityEngine.UIElements.StyleScale op_Implicit(UnityEngine.UIElements.StyleKeyword  @keyword)
+        public static UnityEngine.UIElements.StyleScale op_Implicit(UnityEngine.UIElements.StyleKeyword @keyword)
         {
 
             var ___genericsType = new Type[] {};
@@ -344,7 +344,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public static UnityEngine.UIElements.StyleScale op_Implicit(UnityEngine.UIElements.Scale  @v)
+        public static UnityEngine.UIElements.StyleScale op_Implicit(UnityEngine.UIElements.Scale @v)
         {
 
             var ___genericsType = new Type[] {};
@@ -355,7 +355,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean Equals(UnityEngine.UIElements.StyleScale  @other)
+        public virtual System.Boolean Equals(UnityEngine.UIElements.StyleScale @other)
         {
 
             var ___genericsType = new Type[] {};
@@ -366,7 +366,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

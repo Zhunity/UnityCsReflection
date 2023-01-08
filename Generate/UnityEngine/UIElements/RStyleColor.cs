@@ -317,7 +317,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 	    {
 	    }
 
-        public static System.Boolean op_Equality(UnityEngine.UIElements.StyleColor  @lhs, UnityEngine.UIElements.StyleColor  @rhs)
+        public static System.Boolean op_Equality(UnityEngine.UIElements.StyleColor @lhs, UnityEngine.UIElements.StyleColor @rhs)
         {
 
             var ___genericsType = new Type[] {};
@@ -328,7 +328,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public static System.Boolean op_Inequality(UnityEngine.UIElements.StyleColor  @lhs, UnityEngine.UIElements.StyleColor  @rhs)
+        public static System.Boolean op_Inequality(UnityEngine.UIElements.StyleColor @lhs, UnityEngine.UIElements.StyleColor @rhs)
         {
 
             var ___genericsType = new Type[] {};
@@ -339,7 +339,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public static System.Boolean op_Equality(UnityEngine.UIElements.StyleColor  @lhs, UnityEngine.Color  @rhs)
+        public static System.Boolean op_Equality(UnityEngine.UIElements.StyleColor @lhs, UnityEngine.Color @rhs)
         {
 
             var ___genericsType = new Type[] {};
@@ -350,7 +350,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public static System.Boolean op_Inequality(UnityEngine.UIElements.StyleColor  @lhs, UnityEngine.Color  @rhs)
+        public static System.Boolean op_Inequality(UnityEngine.UIElements.StyleColor @lhs, UnityEngine.Color @rhs)
         {
 
             var ___genericsType = new Type[] {};
@@ -361,7 +361,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public static UnityEngine.UIElements.StyleColor op_Implicit(UnityEngine.UIElements.StyleKeyword  @keyword)
+        public static UnityEngine.UIElements.StyleColor op_Implicit(UnityEngine.UIElements.StyleKeyword @keyword)
         {
 
             var ___genericsType = new Type[] {};
@@ -372,7 +372,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public static UnityEngine.UIElements.StyleColor op_Implicit(UnityEngine.Color  @v)
+        public static UnityEngine.UIElements.StyleColor op_Implicit(UnityEngine.Color @v)
         {
 
             var ___genericsType = new Type[] {};
@@ -383,7 +383,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean Equals(UnityEngine.UIElements.StyleColor  @other)
+        public virtual System.Boolean Equals(UnityEngine.UIElements.StyleColor @other)
         {
 
             var ___genericsType = new Type[] {};
@@ -394,7 +394,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

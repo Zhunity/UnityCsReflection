@@ -555,7 +555,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 	    {
 	    }
 
-        public virtual void SetMinMax(UnityEngine.Vector2Int  @minPosition, UnityEngine.Vector2Int  @maxPosition)
+        public virtual void SetMinMax(UnityEngine.Vector2Int @minPosition, UnityEngine.Vector2Int @maxPosition)
         {
 
             var ___genericsType = new Type[] {};
@@ -566,7 +566,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void ClampToBounds(UnityEngine.RectInt  @bounds)
+        public virtual void ClampToBounds(UnityEngine.RectInt @bounds)
         {
 
             var ___genericsType = new Type[] {};
@@ -577,7 +577,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Boolean Contains(UnityEngine.Vector2Int  @position)
+        public virtual System.Boolean Contains(UnityEngine.Vector2Int @position)
         {
 
             var ___genericsType = new Type[] {};
@@ -588,7 +588,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Boolean Overlaps(UnityEngine.RectInt  @other)
+        public virtual System.Boolean Overlaps(UnityEngine.RectInt @other)
         {
 
             var ___genericsType = new Type[] {};
@@ -610,7 +610,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.String ToString(System.String  @format)
+        public virtual System.String ToString(System.String @format)
         {
 
             var ___genericsType = new Type[] {};
@@ -621,7 +621,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.String ToString(System.String  @format, System.IFormatProvider  @formatProvider)
+        public virtual System.String ToString(System.String @format, System.IFormatProvider @formatProvider)
         {
 
             var ___genericsType = new Type[] {};
@@ -632,7 +632,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Boolean Equals(UnityEngine.RectInt  @other)
+        public virtual System.Boolean Equals(UnityEngine.RectInt @other)
         {
 
             var ___genericsType = new Type[] {};
@@ -643,7 +643,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

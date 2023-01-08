@@ -3380,7 +3380,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual void AppendPrivatePath(System.String  @path)
+        public virtual void AppendPrivatePath(System.String @path)
         {
 
             var ___genericsType = new Type[] {};
@@ -3413,7 +3413,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Runtime.Remoting.ObjectHandle CreateComInstanceFrom(System.String  @assemblyName, System.String  @typeName)
+        public virtual System.Runtime.Remoting.ObjectHandle CreateComInstanceFrom(System.String @assemblyName, System.String @typeName)
         {
 
             var ___genericsType = new Type[] {};
@@ -3424,7 +3424,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Runtime.Remoting.ObjectHandle CreateComInstanceFrom(System.String  @assemblyFile, System.String  @typeName, System.Byte[]  @hashValue, System.Configuration.Assemblies.AssemblyHashAlgorithm  @hashAlgorithm)
+        public virtual System.Runtime.Remoting.ObjectHandle CreateComInstanceFrom(System.String @assemblyFile, System.String @typeName, System.Byte[] @hashValue, System.Configuration.Assemblies.AssemblyHashAlgorithm @hashAlgorithm)
         {
 
             var ___genericsType = new Type[] {};
@@ -3435,7 +3435,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Runtime.Remoting.ObjectHandle InternalCreateInstanceWithNoSecurity(System.String  @assemblyName, System.String  @typeName)
+        public virtual System.Runtime.Remoting.ObjectHandle InternalCreateInstanceWithNoSecurity(System.String @assemblyName, System.String @typeName)
         {
 
             var ___genericsType = new Type[] {};
@@ -3446,7 +3446,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Runtime.Remoting.ObjectHandle InternalCreateInstanceWithNoSecurity(System.String  @assemblyName, System.String  @typeName, System.Boolean  @ignoreCase, System.Reflection.BindingFlags  @bindingAttr, System.Reflection.Binder  @binder, System.Object[]  @args, System.Globalization.CultureInfo  @culture, System.Object[]  @activationAttributes, System.Security.Policy.Evidence  @securityAttributes)
+        public virtual System.Runtime.Remoting.ObjectHandle InternalCreateInstanceWithNoSecurity(System.String @assemblyName, System.String @typeName, System.Boolean @ignoreCase, System.Reflection.BindingFlags @bindingAttr, System.Reflection.Binder @binder, System.Object[] @args, System.Globalization.CultureInfo @culture, System.Object[] @activationAttributes, System.Security.Policy.Evidence @securityAttributes)
         {
 
             var ___genericsType = new Type[] {};
@@ -3457,7 +3457,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Runtime.Remoting.ObjectHandle InternalCreateInstanceFromWithNoSecurity(System.String  @assemblyName, System.String  @typeName)
+        public virtual System.Runtime.Remoting.ObjectHandle InternalCreateInstanceFromWithNoSecurity(System.String @assemblyName, System.String @typeName)
         {
 
             var ___genericsType = new Type[] {};
@@ -3468,7 +3468,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Runtime.Remoting.ObjectHandle InternalCreateInstanceFromWithNoSecurity(System.String  @assemblyName, System.String  @typeName, System.Boolean  @ignoreCase, System.Reflection.BindingFlags  @bindingAttr, System.Reflection.Binder  @binder, System.Object[]  @args, System.Globalization.CultureInfo  @culture, System.Object[]  @activationAttributes, System.Security.Policy.Evidence  @securityAttributes)
+        public virtual System.Runtime.Remoting.ObjectHandle InternalCreateInstanceFromWithNoSecurity(System.String @assemblyName, System.String @typeName, System.Boolean @ignoreCase, System.Reflection.BindingFlags @bindingAttr, System.Reflection.Binder @binder, System.Object[] @args, System.Globalization.CultureInfo @culture, System.Object[] @activationAttributes, System.Security.Policy.Evidence @securityAttributes)
         {
 
             var ___genericsType = new Type[] {};
@@ -3479,7 +3479,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Runtime.Remoting.ObjectHandle CreateInstance(System.String  @assemblyName, System.String  @typeName)
+        public virtual System.Runtime.Remoting.ObjectHandle CreateInstance(System.String @assemblyName, System.String @typeName)
         {
 
             var ___genericsType = new Type[] {};
@@ -3490,7 +3490,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Runtime.Remoting.ObjectHandle CreateInstance(System.String  @assemblyName, System.String  @typeName, System.Object[]  @activationAttributes)
+        public virtual System.Runtime.Remoting.ObjectHandle CreateInstance(System.String @assemblyName, System.String @typeName, System.Object[] @activationAttributes)
         {
 
             var ___genericsType = new Type[] {};
@@ -3501,7 +3501,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Runtime.Remoting.ObjectHandle CreateInstance(System.String  @assemblyName, System.String  @typeName, System.Boolean  @ignoreCase, System.Reflection.BindingFlags  @bindingAttr, System.Reflection.Binder  @binder, System.Object[]  @args, System.Globalization.CultureInfo  @culture, System.Object[]  @activationAttributes, System.Security.Policy.Evidence  @securityAttributes)
+        public virtual System.Runtime.Remoting.ObjectHandle CreateInstance(System.String @assemblyName, System.String @typeName, System.Boolean @ignoreCase, System.Reflection.BindingFlags @bindingAttr, System.Reflection.Binder @binder, System.Object[] @args, System.Globalization.CultureInfo @culture, System.Object[] @activationAttributes, System.Security.Policy.Evidence @securityAttributes)
         {
 
             var ___genericsType = new Type[] {};
@@ -3512,7 +3512,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Object CreateInstanceAndUnwrap(System.String  @assemblyName, System.String  @typeName)
+        public virtual System.Object CreateInstanceAndUnwrap(System.String @assemblyName, System.String @typeName)
         {
 
             var ___genericsType = new Type[] {};
@@ -3523,7 +3523,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Object CreateInstanceAndUnwrap(System.String  @assemblyName, System.String  @typeName, System.Object[]  @activationAttributes)
+        public virtual System.Object CreateInstanceAndUnwrap(System.String @assemblyName, System.String @typeName, System.Object[] @activationAttributes)
         {
 
             var ___genericsType = new Type[] {};
@@ -3534,7 +3534,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Object CreateInstanceAndUnwrap(System.String  @assemblyName, System.String  @typeName, System.Boolean  @ignoreCase, System.Reflection.BindingFlags  @bindingAttr, System.Reflection.Binder  @binder, System.Object[]  @args, System.Globalization.CultureInfo  @culture, System.Object[]  @activationAttributes, System.Security.Policy.Evidence  @securityAttributes)
+        public virtual System.Object CreateInstanceAndUnwrap(System.String @assemblyName, System.String @typeName, System.Boolean @ignoreCase, System.Reflection.BindingFlags @bindingAttr, System.Reflection.Binder @binder, System.Object[] @args, System.Globalization.CultureInfo @culture, System.Object[] @activationAttributes, System.Security.Policy.Evidence @securityAttributes)
         {
 
             var ___genericsType = new Type[] {};
@@ -3545,7 +3545,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Runtime.Remoting.ObjectHandle CreateInstance(System.String  @assemblyName, System.String  @typeName, System.Boolean  @ignoreCase, System.Reflection.BindingFlags  @bindingAttr, System.Reflection.Binder  @binder, System.Object[]  @args, System.Globalization.CultureInfo  @culture, System.Object[]  @activationAttributes)
+        public virtual System.Runtime.Remoting.ObjectHandle CreateInstance(System.String @assemblyName, System.String @typeName, System.Boolean @ignoreCase, System.Reflection.BindingFlags @bindingAttr, System.Reflection.Binder @binder, System.Object[] @args, System.Globalization.CultureInfo @culture, System.Object[] @activationAttributes)
         {
 
             var ___genericsType = new Type[] {};
@@ -3556,7 +3556,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Object CreateInstanceAndUnwrap(System.String  @assemblyName, System.String  @typeName, System.Boolean  @ignoreCase, System.Reflection.BindingFlags  @bindingAttr, System.Reflection.Binder  @binder, System.Object[]  @args, System.Globalization.CultureInfo  @culture, System.Object[]  @activationAttributes)
+        public virtual System.Object CreateInstanceAndUnwrap(System.String @assemblyName, System.String @typeName, System.Boolean @ignoreCase, System.Reflection.BindingFlags @bindingAttr, System.Reflection.Binder @binder, System.Object[] @args, System.Globalization.CultureInfo @culture, System.Object[] @activationAttributes)
         {
 
             var ___genericsType = new Type[] {};
@@ -3567,7 +3567,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Runtime.Remoting.ObjectHandle CreateInstanceFrom(System.String  @assemblyFile, System.String  @typeName, System.Boolean  @ignoreCase, System.Reflection.BindingFlags  @bindingAttr, System.Reflection.Binder  @binder, System.Object[]  @args, System.Globalization.CultureInfo  @culture, System.Object[]  @activationAttributes)
+        public virtual System.Runtime.Remoting.ObjectHandle CreateInstanceFrom(System.String @assemblyFile, System.String @typeName, System.Boolean @ignoreCase, System.Reflection.BindingFlags @bindingAttr, System.Reflection.Binder @binder, System.Object[] @args, System.Globalization.CultureInfo @culture, System.Object[] @activationAttributes)
         {
 
             var ___genericsType = new Type[] {};
@@ -3578,7 +3578,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Object CreateInstanceFromAndUnwrap(System.String  @assemblyFile, System.String  @typeName, System.Boolean  @ignoreCase, System.Reflection.BindingFlags  @bindingAttr, System.Reflection.Binder  @binder, System.Object[]  @args, System.Globalization.CultureInfo  @culture, System.Object[]  @activationAttributes)
+        public virtual System.Object CreateInstanceFromAndUnwrap(System.String @assemblyFile, System.String @typeName, System.Boolean @ignoreCase, System.Reflection.BindingFlags @bindingAttr, System.Reflection.Binder @binder, System.Object[] @args, System.Globalization.CultureInfo @culture, System.Object[] @activationAttributes)
         {
 
             var ___genericsType = new Type[] {};
@@ -3589,7 +3589,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Runtime.Remoting.ObjectHandle CreateInstanceFrom(System.String  @assemblyFile, System.String  @typeName)
+        public virtual System.Runtime.Remoting.ObjectHandle CreateInstanceFrom(System.String @assemblyFile, System.String @typeName)
         {
 
             var ___genericsType = new Type[] {};
@@ -3600,7 +3600,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Runtime.Remoting.ObjectHandle CreateInstanceFrom(System.String  @assemblyFile, System.String  @typeName, System.Object[]  @activationAttributes)
+        public virtual System.Runtime.Remoting.ObjectHandle CreateInstanceFrom(System.String @assemblyFile, System.String @typeName, System.Object[] @activationAttributes)
         {
 
             var ___genericsType = new Type[] {};
@@ -3611,7 +3611,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Runtime.Remoting.ObjectHandle CreateInstanceFrom(System.String  @assemblyFile, System.String  @typeName, System.Boolean  @ignoreCase, System.Reflection.BindingFlags  @bindingAttr, System.Reflection.Binder  @binder, System.Object[]  @args, System.Globalization.CultureInfo  @culture, System.Object[]  @activationAttributes, System.Security.Policy.Evidence  @securityAttributes)
+        public virtual System.Runtime.Remoting.ObjectHandle CreateInstanceFrom(System.String @assemblyFile, System.String @typeName, System.Boolean @ignoreCase, System.Reflection.BindingFlags @bindingAttr, System.Reflection.Binder @binder, System.Object[] @args, System.Globalization.CultureInfo @culture, System.Object[] @activationAttributes, System.Security.Policy.Evidence @securityAttributes)
         {
 
             var ___genericsType = new Type[] {};
@@ -3622,7 +3622,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Object CreateInstanceFromAndUnwrap(System.String  @assemblyName, System.String  @typeName)
+        public virtual System.Object CreateInstanceFromAndUnwrap(System.String @assemblyName, System.String @typeName)
         {
 
             var ___genericsType = new Type[] {};
@@ -3633,7 +3633,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Object CreateInstanceFromAndUnwrap(System.String  @assemblyName, System.String  @typeName, System.Object[]  @activationAttributes)
+        public virtual System.Object CreateInstanceFromAndUnwrap(System.String @assemblyName, System.String @typeName, System.Object[] @activationAttributes)
         {
 
             var ___genericsType = new Type[] {};
@@ -3644,7 +3644,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Object CreateInstanceFromAndUnwrap(System.String  @assemblyName, System.String  @typeName, System.Boolean  @ignoreCase, System.Reflection.BindingFlags  @bindingAttr, System.Reflection.Binder  @binder, System.Object[]  @args, System.Globalization.CultureInfo  @culture, System.Object[]  @activationAttributes, System.Security.Policy.Evidence  @securityAttributes)
+        public virtual System.Object CreateInstanceFromAndUnwrap(System.String @assemblyName, System.String @typeName, System.Boolean @ignoreCase, System.Reflection.BindingFlags @bindingAttr, System.Reflection.Binder @binder, System.Object[] @args, System.Globalization.CultureInfo @culture, System.Object[] @activationAttributes, System.Security.Policy.Evidence @securityAttributes)
         {
 
             var ___genericsType = new Type[] {};
@@ -3655,7 +3655,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Reflection.Emit.AssemblyBuilder DefineDynamicAssembly(System.Reflection.AssemblyName  @name, System.Reflection.Emit.AssemblyBuilderAccess  @access)
+        public virtual System.Reflection.Emit.AssemblyBuilder DefineDynamicAssembly(System.Reflection.AssemblyName @name, System.Reflection.Emit.AssemblyBuilderAccess @access)
         {
 
             var ___genericsType = new Type[] {};
@@ -3666,7 +3666,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Reflection.Emit.AssemblyBuilder DefineDynamicAssembly(System.Reflection.AssemblyName  @name, System.Reflection.Emit.AssemblyBuilderAccess  @access, System.Security.Policy.Evidence  @evidence)
+        public virtual System.Reflection.Emit.AssemblyBuilder DefineDynamicAssembly(System.Reflection.AssemblyName @name, System.Reflection.Emit.AssemblyBuilderAccess @access, System.Security.Policy.Evidence @evidence)
         {
 
             var ___genericsType = new Type[] {};
@@ -3677,7 +3677,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Reflection.Emit.AssemblyBuilder DefineDynamicAssembly(System.Reflection.AssemblyName  @name, System.Reflection.Emit.AssemblyBuilderAccess  @access, System.String  @dir)
+        public virtual System.Reflection.Emit.AssemblyBuilder DefineDynamicAssembly(System.Reflection.AssemblyName @name, System.Reflection.Emit.AssemblyBuilderAccess @access, System.String @dir)
         {
 
             var ___genericsType = new Type[] {};
@@ -3688,7 +3688,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Reflection.Emit.AssemblyBuilder DefineDynamicAssembly(System.Reflection.AssemblyName  @name, System.Reflection.Emit.AssemblyBuilderAccess  @access, System.String  @dir, System.Security.Policy.Evidence  @evidence)
+        public virtual System.Reflection.Emit.AssemblyBuilder DefineDynamicAssembly(System.Reflection.AssemblyName @name, System.Reflection.Emit.AssemblyBuilderAccess @access, System.String @dir, System.Security.Policy.Evidence @evidence)
         {
 
             var ___genericsType = new Type[] {};
@@ -3699,7 +3699,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Reflection.Emit.AssemblyBuilder DefineDynamicAssembly(System.Reflection.AssemblyName  @name, System.Reflection.Emit.AssemblyBuilderAccess  @access, System.Security.PermissionSet  @requiredPermissions, System.Security.PermissionSet  @optionalPermissions, System.Security.PermissionSet  @refusedPermissions)
+        public virtual System.Reflection.Emit.AssemblyBuilder DefineDynamicAssembly(System.Reflection.AssemblyName @name, System.Reflection.Emit.AssemblyBuilderAccess @access, System.Security.PermissionSet @requiredPermissions, System.Security.PermissionSet @optionalPermissions, System.Security.PermissionSet @refusedPermissions)
         {
 
             var ___genericsType = new Type[] {};
@@ -3710,7 +3710,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Reflection.Emit.AssemblyBuilder DefineDynamicAssembly(System.Reflection.AssemblyName  @name, System.Reflection.Emit.AssemblyBuilderAccess  @access, System.Security.Policy.Evidence  @evidence, System.Security.PermissionSet  @requiredPermissions, System.Security.PermissionSet  @optionalPermissions, System.Security.PermissionSet  @refusedPermissions)
+        public virtual System.Reflection.Emit.AssemblyBuilder DefineDynamicAssembly(System.Reflection.AssemblyName @name, System.Reflection.Emit.AssemblyBuilderAccess @access, System.Security.Policy.Evidence @evidence, System.Security.PermissionSet @requiredPermissions, System.Security.PermissionSet @optionalPermissions, System.Security.PermissionSet @refusedPermissions)
         {
 
             var ___genericsType = new Type[] {};
@@ -3721,7 +3721,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Reflection.Emit.AssemblyBuilder DefineDynamicAssembly(System.Reflection.AssemblyName  @name, System.Reflection.Emit.AssemblyBuilderAccess  @access, System.String  @dir, System.Security.PermissionSet  @requiredPermissions, System.Security.PermissionSet  @optionalPermissions, System.Security.PermissionSet  @refusedPermissions)
+        public virtual System.Reflection.Emit.AssemblyBuilder DefineDynamicAssembly(System.Reflection.AssemblyName @name, System.Reflection.Emit.AssemblyBuilderAccess @access, System.String @dir, System.Security.PermissionSet @requiredPermissions, System.Security.PermissionSet @optionalPermissions, System.Security.PermissionSet @refusedPermissions)
         {
 
             var ___genericsType = new Type[] {};
@@ -3732,7 +3732,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Reflection.Emit.AssemblyBuilder DefineDynamicAssembly(System.Reflection.AssemblyName  @name, System.Reflection.Emit.AssemblyBuilderAccess  @access, System.String  @dir, System.Security.Policy.Evidence  @evidence, System.Security.PermissionSet  @requiredPermissions, System.Security.PermissionSet  @optionalPermissions, System.Security.PermissionSet  @refusedPermissions)
+        public virtual System.Reflection.Emit.AssemblyBuilder DefineDynamicAssembly(System.Reflection.AssemblyName @name, System.Reflection.Emit.AssemblyBuilderAccess @access, System.String @dir, System.Security.Policy.Evidence @evidence, System.Security.PermissionSet @requiredPermissions, System.Security.PermissionSet @optionalPermissions, System.Security.PermissionSet @refusedPermissions)
         {
 
             var ___genericsType = new Type[] {};
@@ -3743,7 +3743,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Reflection.Emit.AssemblyBuilder DefineDynamicAssembly(System.Reflection.AssemblyName  @name, System.Reflection.Emit.AssemblyBuilderAccess  @access, System.String  @dir, System.Security.Policy.Evidence  @evidence, System.Security.PermissionSet  @requiredPermissions, System.Security.PermissionSet  @optionalPermissions, System.Security.PermissionSet  @refusedPermissions, System.Boolean  @isSynchronized)
+        public virtual System.Reflection.Emit.AssemblyBuilder DefineDynamicAssembly(System.Reflection.AssemblyName @name, System.Reflection.Emit.AssemblyBuilderAccess @access, System.String @dir, System.Security.Policy.Evidence @evidence, System.Security.PermissionSet @requiredPermissions, System.Security.PermissionSet @optionalPermissions, System.Security.PermissionSet @refusedPermissions, System.Boolean @isSynchronized)
         {
 
             var ___genericsType = new Type[] {};
@@ -3754,7 +3754,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Reflection.Emit.AssemblyBuilder DefineDynamicAssembly(System.Reflection.AssemblyName  @name, System.Reflection.Emit.AssemblyBuilderAccess  @access, System.String  @dir, System.Security.Policy.Evidence  @evidence, System.Security.PermissionSet  @requiredPermissions, System.Security.PermissionSet  @optionalPermissions, System.Security.PermissionSet  @refusedPermissions, System.Boolean  @isSynchronized, System.Collections.Generic.IEnumerable<System.Reflection.Emit.CustomAttributeBuilder>  @assemblyAttributes)
+        public virtual System.Reflection.Emit.AssemblyBuilder DefineDynamicAssembly(System.Reflection.AssemblyName @name, System.Reflection.Emit.AssemblyBuilderAccess @access, System.String @dir, System.Security.Policy.Evidence @evidence, System.Security.PermissionSet @requiredPermissions, System.Security.PermissionSet @optionalPermissions, System.Security.PermissionSet @refusedPermissions, System.Boolean @isSynchronized, System.Collections.Generic.IEnumerable<System.Reflection.Emit.CustomAttributeBuilder> @assemblyAttributes)
         {
 
             var ___genericsType = new Type[] {};
@@ -3765,7 +3765,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Reflection.Emit.AssemblyBuilder DefineDynamicAssembly(System.Reflection.AssemblyName  @name, System.Reflection.Emit.AssemblyBuilderAccess  @access, System.Collections.Generic.IEnumerable<System.Reflection.Emit.CustomAttributeBuilder>  @assemblyAttributes)
+        public virtual System.Reflection.Emit.AssemblyBuilder DefineDynamicAssembly(System.Reflection.AssemblyName @name, System.Reflection.Emit.AssemblyBuilderAccess @access, System.Collections.Generic.IEnumerable<System.Reflection.Emit.CustomAttributeBuilder> @assemblyAttributes)
         {
 
             var ___genericsType = new Type[] {};
@@ -3776,7 +3776,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Reflection.Emit.AssemblyBuilder DefineDynamicAssembly(System.Reflection.AssemblyName  @name, System.Reflection.Emit.AssemblyBuilderAccess  @access, System.String  @dir, System.Boolean  @isSynchronized, System.Collections.Generic.IEnumerable<System.Reflection.Emit.CustomAttributeBuilder>  @assemblyAttributes)
+        public virtual System.Reflection.Emit.AssemblyBuilder DefineDynamicAssembly(System.Reflection.AssemblyName @name, System.Reflection.Emit.AssemblyBuilderAccess @access, System.String @dir, System.Boolean @isSynchronized, System.Collections.Generic.IEnumerable<System.Reflection.Emit.CustomAttributeBuilder> @assemblyAttributes)
         {
 
             var ___genericsType = new Type[] {};
@@ -3787,7 +3787,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Reflection.Emit.AssemblyBuilder DefineDynamicAssembly(System.Reflection.AssemblyName  @name, System.Reflection.Emit.AssemblyBuilderAccess  @access, System.Collections.Generic.IEnumerable<System.Reflection.Emit.CustomAttributeBuilder>  @assemblyAttributes, System.Security.SecurityContextSource  @securityContextSource)
+        public virtual System.Reflection.Emit.AssemblyBuilder DefineDynamicAssembly(System.Reflection.AssemblyName @name, System.Reflection.Emit.AssemblyBuilderAccess @access, System.Collections.Generic.IEnumerable<System.Reflection.Emit.CustomAttributeBuilder> @assemblyAttributes, System.Security.SecurityContextSource @securityContextSource)
         {
 
             var ___genericsType = new Type[] {};
@@ -3798,7 +3798,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Reflection.Emit.AssemblyBuilder DefineInternalDynamicAssembly(System.Reflection.AssemblyName  @name, System.Reflection.Emit.AssemblyBuilderAccess  @access)
+        public virtual System.Reflection.Emit.AssemblyBuilder DefineInternalDynamicAssembly(System.Reflection.AssemblyName @name, System.Reflection.Emit.AssemblyBuilderAccess @access)
         {
 
             var ___genericsType = new Type[] {};
@@ -3809,7 +3809,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual void DoCallBack(System.CrossAppDomainDelegate  @callBackDelegate)
+        public virtual void DoCallBack(System.CrossAppDomainDelegate @callBackDelegate)
         {
 
             var ___genericsType = new Type[] {};
@@ -3820,7 +3820,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Int32 ExecuteAssembly(System.String  @assemblyFile)
+        public virtual System.Int32 ExecuteAssembly(System.String @assemblyFile)
         {
 
             var ___genericsType = new Type[] {};
@@ -3831,7 +3831,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Int32 ExecuteAssembly(System.String  @assemblyFile, System.Security.Policy.Evidence  @assemblySecurity)
+        public virtual System.Int32 ExecuteAssembly(System.String @assemblyFile, System.Security.Policy.Evidence @assemblySecurity)
         {
 
             var ___genericsType = new Type[] {};
@@ -3842,7 +3842,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Int32 ExecuteAssembly(System.String  @assemblyFile, System.Security.Policy.Evidence  @assemblySecurity, System.String[]  @args)
+        public virtual System.Int32 ExecuteAssembly(System.String @assemblyFile, System.Security.Policy.Evidence @assemblySecurity, System.String[] @args)
         {
 
             var ___genericsType = new Type[] {};
@@ -3853,7 +3853,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Int32 ExecuteAssembly(System.String  @assemblyFile, System.Security.Policy.Evidence  @assemblySecurity, System.String[]  @args, System.Byte[]  @hashValue, System.Configuration.Assemblies.AssemblyHashAlgorithm  @hashAlgorithm)
+        public virtual System.Int32 ExecuteAssembly(System.String @assemblyFile, System.Security.Policy.Evidence @assemblySecurity, System.String[] @args, System.Byte[] @hashValue, System.Configuration.Assemblies.AssemblyHashAlgorithm @hashAlgorithm)
         {
 
             var ___genericsType = new Type[] {};
@@ -3864,7 +3864,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Int32 ExecuteAssembly(System.String  @assemblyFile, System.String[]  @args)
+        public virtual System.Int32 ExecuteAssembly(System.String @assemblyFile, System.String[] @args)
         {
 
             var ___genericsType = new Type[] {};
@@ -3875,7 +3875,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Int32 ExecuteAssembly(System.String  @assemblyFile, System.String[]  @args, System.Byte[]  @hashValue, System.Configuration.Assemblies.AssemblyHashAlgorithm  @hashAlgorithm)
+        public virtual System.Int32 ExecuteAssembly(System.String @assemblyFile, System.String[] @args, System.Byte[] @hashValue, System.Configuration.Assemblies.AssemblyHashAlgorithm @hashAlgorithm)
         {
 
             var ___genericsType = new Type[] {};
@@ -3886,7 +3886,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Int32 ExecuteAssemblyInternal(System.Reflection.Assembly  @a, System.String[]  @args)
+        public virtual System.Int32 ExecuteAssemblyInternal(System.Reflection.Assembly @a, System.String[] @args)
         {
 
             var ___genericsType = new Type[] {};
@@ -3897,7 +3897,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Int32 ExecuteAssembly(System.Reflection.Assembly  @a, System.String[]  @args)
+        public virtual System.Int32 ExecuteAssembly(System.Reflection.Assembly @a, System.String[] @args)
         {
 
             var ___genericsType = new Type[] {};
@@ -3908,7 +3908,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Reflection.Assembly[] GetAssemblies(System.Boolean  @refOnly)
+        public virtual System.Reflection.Assembly[] GetAssemblies(System.Boolean @refOnly)
         {
 
             var ___genericsType = new Type[] {};
@@ -3930,7 +3930,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Object GetData(System.String  @name)
+        public virtual System.Object GetData(System.String @name)
         {
 
             var ___genericsType = new Type[] {};
@@ -3963,7 +3963,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Reflection.Assembly LoadAssembly(System.String  @assemblyRef, System.Security.Policy.Evidence  @securityEvidence, System.Boolean  @refOnly, ref RType  @stackMark)
+        public virtual System.Reflection.Assembly LoadAssembly(System.String @assemblyRef, System.Security.Policy.Evidence @securityEvidence, System.Boolean @refOnly, ref RType @stackMark)
         {
 
             var ___genericsType = new Type[] {};
@@ -3975,7 +3975,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Reflection.Assembly Load(System.Reflection.AssemblyName  @assemblyRef)
+        public virtual System.Reflection.Assembly Load(System.Reflection.AssemblyName @assemblyRef)
         {
 
             var ___genericsType = new Type[] {};
@@ -3986,7 +3986,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Reflection.Assembly LoadSatellite(System.Reflection.AssemblyName  @assemblyRef, System.Boolean  @throwOnError, ref RType  @stackMark)
+        public virtual System.Reflection.Assembly LoadSatellite(System.Reflection.AssemblyName @assemblyRef, System.Boolean @throwOnError, ref RType @stackMark)
         {
 
             var ___genericsType = new Type[] {};
@@ -3998,7 +3998,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Reflection.Assembly Load(System.Reflection.AssemblyName  @assemblyRef, System.Security.Policy.Evidence  @assemblySecurity)
+        public virtual System.Reflection.Assembly Load(System.Reflection.AssemblyName @assemblyRef, System.Security.Policy.Evidence @assemblySecurity)
         {
 
             var ___genericsType = new Type[] {};
@@ -4009,7 +4009,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Reflection.Assembly Load(System.String  @assemblyString)
+        public virtual System.Reflection.Assembly Load(System.String @assemblyString)
         {
 
             var ___genericsType = new Type[] {};
@@ -4020,7 +4020,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Reflection.Assembly Load(System.String  @assemblyString, System.Security.Policy.Evidence  @assemblySecurity)
+        public virtual System.Reflection.Assembly Load(System.String @assemblyString, System.Security.Policy.Evidence @assemblySecurity)
         {
 
             var ___genericsType = new Type[] {};
@@ -4031,7 +4031,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Reflection.Assembly Load(System.String  @assemblyString, System.Security.Policy.Evidence  @assemblySecurity, System.Boolean  @refonly, ref RType  @stackMark)
+        public virtual System.Reflection.Assembly Load(System.String @assemblyString, System.Security.Policy.Evidence @assemblySecurity, System.Boolean @refonly, ref RType @stackMark)
         {
 
             var ___genericsType = new Type[] {};
@@ -4043,7 +4043,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Reflection.Assembly Load(System.Byte[]  @rawAssembly)
+        public virtual System.Reflection.Assembly Load(System.Byte[] @rawAssembly)
         {
 
             var ___genericsType = new Type[] {};
@@ -4054,7 +4054,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Reflection.Assembly Load(System.Byte[]  @rawAssembly, System.Byte[]  @rawSymbolStore)
+        public virtual System.Reflection.Assembly Load(System.Byte[] @rawAssembly, System.Byte[] @rawSymbolStore)
         {
 
             var ___genericsType = new Type[] {};
@@ -4065,7 +4065,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Reflection.Assembly LoadAssemblyRaw(System.Byte[]  @rawAssembly, System.Byte[]  @rawSymbolStore, System.Security.Policy.Evidence  @securityEvidence, System.Boolean  @refonly)
+        public virtual System.Reflection.Assembly LoadAssemblyRaw(System.Byte[] @rawAssembly, System.Byte[] @rawSymbolStore, System.Security.Policy.Evidence @securityEvidence, System.Boolean @refonly)
         {
 
             var ___genericsType = new Type[] {};
@@ -4076,7 +4076,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Reflection.Assembly Load(System.Byte[]  @rawAssembly, System.Byte[]  @rawSymbolStore, System.Security.Policy.Evidence  @securityEvidence)
+        public virtual System.Reflection.Assembly Load(System.Byte[] @rawAssembly, System.Byte[] @rawSymbolStore, System.Security.Policy.Evidence @securityEvidence)
         {
 
             var ___genericsType = new Type[] {};
@@ -4087,7 +4087,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Reflection.Assembly Load(System.Byte[]  @rawAssembly, System.Byte[]  @rawSymbolStore, System.Security.Policy.Evidence  @securityEvidence, System.Boolean  @refonly)
+        public virtual System.Reflection.Assembly Load(System.Byte[] @rawAssembly, System.Byte[] @rawSymbolStore, System.Security.Policy.Evidence @securityEvidence, System.Boolean @refonly)
         {
 
             var ___genericsType = new Type[] {};
@@ -4098,7 +4098,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual void SetAppDomainPolicy(System.Security.Policy.PolicyLevel  @domainPolicy)
+        public virtual void SetAppDomainPolicy(System.Security.Policy.PolicyLevel @domainPolicy)
         {
 
             var ___genericsType = new Type[] {};
@@ -4109,7 +4109,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual void SetCachePath(System.String  @path)
+        public virtual void SetCachePath(System.String @path)
         {
 
             var ___genericsType = new Type[] {};
@@ -4120,7 +4120,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual void SetPrincipalPolicy(System.Security.Principal.PrincipalPolicy  @policy)
+        public virtual void SetPrincipalPolicy(System.Security.Principal.PrincipalPolicy @policy)
         {
 
             var ___genericsType = new Type[] {};
@@ -4142,7 +4142,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual void SetShadowCopyPath(System.String  @path)
+        public virtual void SetShadowCopyPath(System.String @path)
         {
 
             var ___genericsType = new Type[] {};
@@ -4153,7 +4153,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual void SetThreadPrincipal(System.Security.Principal.IPrincipal  @principal)
+        public virtual void SetThreadPrincipal(System.Security.Principal.IPrincipal @principal)
         {
 
             var ___genericsType = new Type[] {};
@@ -4164,7 +4164,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.AppDomain InternalSetDomainByID(System.Int32  @domain_id)
+        public static System.AppDomain InternalSetDomainByID(System.Int32 @domain_id)
         {
 
             var ___genericsType = new Type[] {};
@@ -4175,7 +4175,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.AppDomain InternalSetDomain(System.AppDomain  @context)
+        public static System.AppDomain InternalSetDomain(System.AppDomain @context)
         {
 
             var ___genericsType = new Type[] {};
@@ -4186,7 +4186,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static void InternalPushDomainRef(System.AppDomain  @domain)
+        public static void InternalPushDomainRef(System.AppDomain @domain)
         {
 
             var ___genericsType = new Type[] {};
@@ -4197,7 +4197,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static void InternalPushDomainRefByID(System.Int32  @domain_id)
+        public static void InternalPushDomainRefByID(System.Int32 @domain_id)
         {
 
             var ___genericsType = new Type[] {};
@@ -4219,7 +4219,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Runtime.Remoting.Contexts.Context InternalSetContext(System.Runtime.Remoting.Contexts.Context  @context)
+        public static System.Runtime.Remoting.Contexts.Context InternalSetContext(System.Runtime.Remoting.Contexts.Context @context)
         {
 
             var ___genericsType = new Type[] {};
@@ -4252,7 +4252,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.String InternalGetProcessGuid(System.String  @newguid)
+        public static System.String InternalGetProcessGuid(System.String @newguid)
         {
 
             var ___genericsType = new Type[] {};
@@ -4263,7 +4263,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Object InvokeInDomain(System.AppDomain  @domain, System.Reflection.MethodInfo  @method, System.Object  @obj, System.Object[]  @args)
+        public static System.Object InvokeInDomain(System.AppDomain @domain, System.Reflection.MethodInfo @method, System.Object @obj, System.Object[] @args)
         {
 
             var ___genericsType = new Type[] {};
@@ -4274,7 +4274,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Object InvokeInDomainByID(System.Int32  @domain_id, System.Reflection.MethodInfo  @method, System.Object  @obj, System.Object[]  @args)
+        public static System.Object InvokeInDomainByID(System.Int32 @domain_id, System.Reflection.MethodInfo @method, System.Object @obj, System.Object[] @args)
         {
 
             var ___genericsType = new Type[] {};
@@ -4296,7 +4296,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.AppDomain CreateDomain(System.String  @friendlyName)
+        public static System.AppDomain CreateDomain(System.String @friendlyName)
         {
 
             var ___genericsType = new Type[] {};
@@ -4307,7 +4307,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.AppDomain CreateDomain(System.String  @friendlyName, System.Security.Policy.Evidence  @securityInfo)
+        public static System.AppDomain CreateDomain(System.String @friendlyName, System.Security.Policy.Evidence @securityInfo)
         {
 
             var ___genericsType = new Type[] {};
@@ -4318,7 +4318,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.AppDomain createDomain(System.String  @friendlyName, System.AppDomainSetup  @info)
+        public static System.AppDomain createDomain(System.String @friendlyName, System.AppDomainSetup @info)
         {
 
             var ___genericsType = new Type[] {};
@@ -4329,7 +4329,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.AppDomain CreateDomain(System.String  @friendlyName, System.Security.Policy.Evidence  @securityInfo, System.AppDomainSetup  @info)
+        public static System.AppDomain CreateDomain(System.String @friendlyName, System.Security.Policy.Evidence @securityInfo, System.AppDomainSetup @info)
         {
 
             var ___genericsType = new Type[] {};
@@ -4340,7 +4340,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.AppDomain CreateDomain(System.String  @friendlyName, System.Security.Policy.Evidence  @securityInfo, System.String  @appBasePath, System.String  @appRelativeSearchPath, System.Boolean  @shadowCopyFiles)
+        public static System.AppDomain CreateDomain(System.String @friendlyName, System.Security.Policy.Evidence @securityInfo, System.String @appBasePath, System.String @appRelativeSearchPath, System.Boolean @shadowCopyFiles)
         {
 
             var ___genericsType = new Type[] {};
@@ -4351,7 +4351,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.AppDomain CreateDomain(System.String  @friendlyName, System.Security.Policy.Evidence  @securityInfo, System.AppDomainSetup  @info, System.Security.PermissionSet  @grantSet, System.Security.Policy.StrongName[]  @fullTrustAssemblies)
+        public static System.AppDomain CreateDomain(System.String @friendlyName, System.Security.Policy.Evidence @securityInfo, System.AppDomainSetup @info, System.Security.PermissionSet @grantSet, System.Security.Policy.StrongName[] @fullTrustAssemblies)
         {
 
             var ___genericsType = new Type[] {};
@@ -4362,7 +4362,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.AppDomainSetup CreateDomainSetup(System.String  @appBasePath, System.String  @appRelativeSearchPath, System.Boolean  @shadowCopyFiles)
+        public static System.AppDomainSetup CreateDomainSetup(System.String @appBasePath, System.String @appRelativeSearchPath, System.Boolean @shadowCopyFiles)
         {
 
             var ___genericsType = new Type[] {};
@@ -4373,7 +4373,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Boolean InternalIsFinalizingForUnload(System.Int32  @domain_id)
+        public static System.Boolean InternalIsFinalizingForUnload(System.Int32 @domain_id)
         {
 
             var ___genericsType = new Type[] {};
@@ -4395,7 +4395,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static void InternalUnload(System.Int32  @domain_id)
+        public static void InternalUnload(System.Int32 @domain_id)
         {
 
             var ___genericsType = new Type[] {};
@@ -4417,7 +4417,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static void Unload(System.AppDomain  @domain)
+        public static void Unload(System.AppDomain @domain)
         {
 
             var ___genericsType = new Type[] {};
@@ -4428,7 +4428,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual void SetData(System.String  @name, System.Object  @data)
+        public virtual void SetData(System.String @name, System.Object @data)
         {
 
             var ___genericsType = new Type[] {};
@@ -4439,7 +4439,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual void SetData(System.String  @name, System.Object  @data, System.Security.IPermission  @permission)
+        public virtual void SetData(System.String @name, System.Object @data, System.Security.IPermission @permission)
         {
 
             var ___genericsType = new Type[] {};
@@ -4450,7 +4450,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual void SetDynamicBase(System.String  @path)
+        public virtual void SetDynamicBase(System.String @path)
         {
 
             var ___genericsType = new Type[] {};
@@ -4483,7 +4483,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static void ValidateAssemblyName(System.String  @name)
+        public static void ValidateAssemblyName(System.String @name)
         {
 
             var ___genericsType = new Type[] {};
@@ -4494,7 +4494,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual void DoAssemblyLoad(System.Reflection.Assembly  @assembly)
+        public virtual void DoAssemblyLoad(System.Reflection.Assembly @assembly)
         {
 
             var ___genericsType = new Type[] {};
@@ -4505,7 +4505,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Reflection.Assembly DoAssemblyResolve(System.String  @name, System.Reflection.Assembly  @requestingAssembly, System.Boolean  @refonly)
+        public virtual System.Reflection.Assembly DoAssemblyResolve(System.String @name, System.Reflection.Assembly @requestingAssembly, System.Boolean @refonly)
         {
 
             var ___genericsType = new Type[] {};
@@ -4516,7 +4516,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Reflection.Assembly DoTypeBuilderResolve(System.Reflection.Emit.TypeBuilder  @tb)
+        public virtual System.Reflection.Assembly DoTypeBuilderResolve(System.Reflection.Emit.TypeBuilder @tb)
         {
 
             var ___genericsType = new Type[] {};
@@ -4527,7 +4527,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Reflection.Assembly DoTypeResolve(System.String  @name)
+        public virtual System.Reflection.Assembly DoTypeResolve(System.String @name)
         {
 
             var ___genericsType = new Type[] {};
@@ -4538,7 +4538,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Reflection.Assembly DoResourceResolve(System.String  @name, System.Reflection.Assembly  @requesting)
+        public virtual System.Reflection.Assembly DoResourceResolve(System.String @name, System.Reflection.Assembly @requesting)
         {
 
             var ___genericsType = new Type[] {};
@@ -4560,7 +4560,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual void DoUnhandledException(System.Exception  @e)
+        public virtual void DoUnhandledException(System.Exception @e)
         {
 
             var ___genericsType = new Type[] {};
@@ -4571,7 +4571,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual void DoUnhandledException(System.UnhandledExceptionEventArgs  @args)
+        public virtual void DoUnhandledException(System.UnhandledExceptionEventArgs @args)
         {
 
             var ___genericsType = new Type[] {};
@@ -4593,7 +4593,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual void ProcessMessageInDomain(System.Byte[]  @arrRequest, RSystem.RRuntime.RRemoting.RMessaging.RCADMethodCallMessage  @cadMsg, out System.Byte[]  @arrResponse, out RSystem.RRuntime.RRemoting.RMessaging.RCADMethodReturnMessage  @cadMrm)
+        public virtual void ProcessMessageInDomain(System.Byte[] @arrRequest, RSystem.RRuntime.RRemoting.RMessaging.RCADMethodCallMessage @cadMsg, out System.Byte[] @arrResponse, out RSystem.RRuntime.RRemoting.RMessaging.RCADMethodReturnMessage @cadMrm)
         {
 			@arrResponse = default;
 			@cadMrm = default;
@@ -4608,7 +4608,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.String ApplyPolicy(System.String  @assemblyName)
+        public virtual System.String ApplyPolicy(System.String @assemblyName)
         {
 
             var ___genericsType = new Type[] {};
@@ -4619,7 +4619,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.AppDomain CreateDomain(System.String  @friendlyName, System.Security.Policy.Evidence  @securityInfo, System.String  @appBasePath, System.String  @appRelativeSearchPath, System.Boolean  @shadowCopyFiles, System.AppDomainInitializer  @adInit, System.String[]  @adInitArgs)
+        public static System.AppDomain CreateDomain(System.String @friendlyName, System.Security.Policy.Evidence @securityInfo, System.String @appBasePath, System.String @appRelativeSearchPath, System.Boolean @shadowCopyFiles, System.AppDomainInitializer @adInit, System.String[] @adInitArgs)
         {
 
             var ___genericsType = new Type[] {};
@@ -4630,7 +4630,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Int32 ExecuteAssemblyByName(System.String  @assemblyName)
+        public virtual System.Int32 ExecuteAssemblyByName(System.String @assemblyName)
         {
 
             var ___genericsType = new Type[] {};
@@ -4641,7 +4641,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Int32 ExecuteAssemblyByName(System.String  @assemblyName, System.Security.Policy.Evidence  @assemblySecurity)
+        public virtual System.Int32 ExecuteAssemblyByName(System.String @assemblyName, System.Security.Policy.Evidence @assemblySecurity)
         {
 
             var ___genericsType = new Type[] {};
@@ -4652,7 +4652,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Int32 ExecuteAssemblyByName(System.String  @assemblyName, System.Security.Policy.Evidence  @assemblySecurity, System.String[]  @args)
+        public virtual System.Int32 ExecuteAssemblyByName(System.String @assemblyName, System.Security.Policy.Evidence @assemblySecurity, System.String[] @args)
         {
 
             var ___genericsType = new Type[] {};
@@ -4663,7 +4663,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Int32 ExecuteAssemblyByName(System.Reflection.AssemblyName  @assemblyName, System.Security.Policy.Evidence  @assemblySecurity, System.String[]  @args)
+        public virtual System.Int32 ExecuteAssemblyByName(System.Reflection.AssemblyName @assemblyName, System.Security.Policy.Evidence @assemblySecurity, System.String[] @args)
         {
 
             var ___genericsType = new Type[] {};
@@ -4674,7 +4674,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Int32 ExecuteAssemblyByName(System.String  @assemblyName, System.String[]  @args)
+        public virtual System.Int32 ExecuteAssemblyByName(System.String @assemblyName, System.String[] @args)
         {
 
             var ___genericsType = new Type[] {};
@@ -4685,7 +4685,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Int32 ExecuteAssemblyByName(System.Reflection.AssemblyName  @assemblyName, System.String[]  @args)
+        public virtual System.Int32 ExecuteAssemblyByName(System.Reflection.AssemblyName @assemblyName, System.String[] @args)
         {
 
             var ___genericsType = new Type[] {};
@@ -4718,7 +4718,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual void System__2___AppDomain__2__GetIDsOfNames(in System.Guid  @riid, System.IntPtr  @rgszNames, System.UInt32  @cNames, System.UInt32  @lcid, System.IntPtr  @rgDispId)
+        public virtual void System__2___AppDomain__2__GetIDsOfNames(in System.Guid @riid, System.IntPtr @rgszNames, System.UInt32 @cNames, System.UInt32 @lcid, System.IntPtr @rgDispId)
         {
 
             var ___genericsType = new Type[] {};
@@ -4729,7 +4729,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual void System__2___AppDomain__2__GetTypeInfo(System.UInt32  @iTInfo, System.UInt32  @lcid, System.IntPtr  @ppTInfo)
+        public virtual void System__2___AppDomain__2__GetTypeInfo(System.UInt32 @iTInfo, System.UInt32 @lcid, System.IntPtr @ppTInfo)
         {
 
             var ___genericsType = new Type[] {};
@@ -4740,7 +4740,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual void System__2___AppDomain__2__GetTypeInfoCount(out System.UInt32  @pcTInfo)
+        public virtual void System__2___AppDomain__2__GetTypeInfoCount(out System.UInt32 @pcTInfo)
         {
 			@pcTInfo = default;
 
@@ -4753,7 +4753,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual void System__2___AppDomain__2__Invoke(System.UInt32  @dispIdMember, in System.Guid  @riid, System.UInt32  @lcid, System.Int16  @wFlags, System.IntPtr  @pDispParams, System.IntPtr  @pVarResult, System.IntPtr  @pExcepInfo, System.IntPtr  @puArgErr)
+        public virtual void System__2___AppDomain__2__Invoke(System.UInt32 @dispIdMember, in System.Guid @riid, System.UInt32 @lcid, System.Int16 @wFlags, System.IntPtr @pDispParams, System.IntPtr @pVarResult, System.IntPtr @pExcepInfo, System.IntPtr @puArgErr)
         {
 
             var ___genericsType = new Type[] {};
@@ -4764,7 +4764,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Nullable<System.Boolean> IsCompatibilitySwitchSet(System.String  @value)
+        public virtual System.Nullable<System.Boolean> IsCompatibilitySwitchSet(System.String @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -4775,7 +4775,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual void SetCompatibilitySwitch(System.String  @value)
+        public virtual void SetCompatibilitySwitch(System.String @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -4786,7 +4786,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Object GetObjectIdentity(System.MarshalByRefObject  @obj, out System.Boolean  @IsClient)
+        public virtual RSystem.RRuntime.RRemoting.RIdentity GetObjectIdentity(System.MarshalByRefObject @obj, out System.Boolean @IsClient)
         {
 			@IsClient = default;
 
@@ -4795,11 +4795,11 @@ namespace SMFrame.Editor.Refleaction.RSystem
             var ___result = RGetObjectIdentity_MarshalByRefObject_Out_Boolean.Invoke(___genericsType, ___parameters);
 			@IsClient = (System.Boolean)___parameters[1];
 
-            return (System.Object)___result;
+            return new RSystem.RRuntime.RRemoting.RIdentity(___result);
         }
 
 
-        public virtual System.Runtime.Remoting.ObjRef CreateObjRef(System.Type  @requestedType)
+        public virtual System.Runtime.Remoting.ObjRef CreateObjRef(System.Type @requestedType)
         {
 
             var ___genericsType = new Type[] {};
@@ -4821,7 +4821,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.MarshalByRefObject MemberwiseClone(System.Boolean  @cloneIdentity)
+        public virtual System.MarshalByRefObject MemberwiseClone(System.Boolean @cloneIdentity)
         {
 
             var ___genericsType = new Type[] {};
@@ -4832,7 +4832,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

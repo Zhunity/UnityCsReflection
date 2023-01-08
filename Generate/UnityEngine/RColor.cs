@@ -855,7 +855,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.String ToString(System.String  @format)
+        public virtual System.String ToString(System.String @format)
         {
 
             var ___genericsType = new Type[] {};
@@ -866,7 +866,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.String ToString(System.String  @format, System.IFormatProvider  @formatProvider)
+        public virtual System.String ToString(System.String @format, System.IFormatProvider @formatProvider)
         {
 
             var ___genericsType = new Type[] {};
@@ -888,7 +888,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @other)
+        public virtual System.Boolean Equals(System.Object @other)
         {
 
             var ___genericsType = new Type[] {};
@@ -899,7 +899,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Boolean Equals(UnityEngine.Color  @other)
+        public virtual System.Boolean Equals(UnityEngine.Color @other)
         {
 
             var ___genericsType = new Type[] {};
@@ -910,7 +910,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.Color op_Addition(UnityEngine.Color  @a, UnityEngine.Color  @b)
+        public static UnityEngine.Color op_Addition(UnityEngine.Color @a, UnityEngine.Color @b)
         {
 
             var ___genericsType = new Type[] {};
@@ -921,7 +921,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.Color op_Subtraction(UnityEngine.Color  @a, UnityEngine.Color  @b)
+        public static UnityEngine.Color op_Subtraction(UnityEngine.Color @a, UnityEngine.Color @b)
         {
 
             var ___genericsType = new Type[] {};
@@ -932,7 +932,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.Color op_Multiply(UnityEngine.Color  @a, UnityEngine.Color  @b)
+        public static UnityEngine.Color op_Multiply(UnityEngine.Color @a, UnityEngine.Color @b)
         {
 
             var ___genericsType = new Type[] {};
@@ -943,7 +943,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.Color op_Multiply(UnityEngine.Color  @a, System.Single  @b)
+        public static UnityEngine.Color op_Multiply(UnityEngine.Color @a, System.Single @b)
         {
 
             var ___genericsType = new Type[] {};
@@ -954,7 +954,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.Color op_Multiply(System.Single  @b, UnityEngine.Color  @a)
+        public static UnityEngine.Color op_Multiply(System.Single @b, UnityEngine.Color @a)
         {
 
             var ___genericsType = new Type[] {};
@@ -965,7 +965,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.Color op_Division(UnityEngine.Color  @a, System.Single  @b)
+        public static UnityEngine.Color op_Division(UnityEngine.Color @a, System.Single @b)
         {
 
             var ___genericsType = new Type[] {};
@@ -976,7 +976,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static System.Boolean op_Equality(UnityEngine.Color  @lhs, UnityEngine.Color  @rhs)
+        public static System.Boolean op_Equality(UnityEngine.Color @lhs, UnityEngine.Color @rhs)
         {
 
             var ___genericsType = new Type[] {};
@@ -987,7 +987,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static System.Boolean op_Inequality(UnityEngine.Color  @lhs, UnityEngine.Color  @rhs)
+        public static System.Boolean op_Inequality(UnityEngine.Color @lhs, UnityEngine.Color @rhs)
         {
 
             var ___genericsType = new Type[] {};
@@ -998,7 +998,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.Color Lerp(UnityEngine.Color  @a, UnityEngine.Color  @b, System.Single  @t)
+        public static UnityEngine.Color Lerp(UnityEngine.Color @a, UnityEngine.Color @b, System.Single @t)
         {
 
             var ___genericsType = new Type[] {};
@@ -1009,7 +1009,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.Color LerpUnclamped(UnityEngine.Color  @a, UnityEngine.Color  @b, System.Single  @t)
+        public static UnityEngine.Color LerpUnclamped(UnityEngine.Color @a, UnityEngine.Color @b, System.Single @t)
         {
 
             var ___genericsType = new Type[] {};
@@ -1020,7 +1020,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual UnityEngine.Color RGBMultiplied(System.Single  @multiplier)
+        public virtual UnityEngine.Color RGBMultiplied(System.Single @multiplier)
         {
 
             var ___genericsType = new Type[] {};
@@ -1031,7 +1031,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual UnityEngine.Color AlphaMultiplied(System.Single  @multiplier)
+        public virtual UnityEngine.Color AlphaMultiplied(System.Single @multiplier)
         {
 
             var ___genericsType = new Type[] {};
@@ -1042,7 +1042,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual UnityEngine.Color RGBMultiplied(UnityEngine.Color  @multiplier)
+        public virtual UnityEngine.Color RGBMultiplied(UnityEngine.Color @multiplier)
         {
 
             var ___genericsType = new Type[] {};
@@ -1053,7 +1053,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.Vector4 op_Implicit(UnityEngine.Color  @c)
+        public static UnityEngine.Vector4 op_Implicit(UnityEngine.Color @c)
         {
 
             var ___genericsType = new Type[] {};
@@ -1064,7 +1064,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.Color op_Implicit(UnityEngine.Vector4  @v)
+        public static UnityEngine.Color op_Implicit(UnityEngine.Vector4 @v)
         {
 
             var ___genericsType = new Type[] {};
@@ -1075,7 +1075,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static void RGBToHSV(UnityEngine.Color  @rgbColor, out System.Single  @H, out System.Single  @S, out System.Single  @V)
+        public static void RGBToHSV(UnityEngine.Color @rgbColor, out System.Single @H, out System.Single @S, out System.Single @V)
         {
 			@H = default;
 			@S = default;
@@ -1092,7 +1092,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static void RGBToHSVHelper(System.Single  @offset, System.Single  @dominantcolor, System.Single  @colorone, System.Single  @colortwo, out System.Single  @H, out System.Single  @S, out System.Single  @V)
+        public static void RGBToHSVHelper(System.Single @offset, System.Single @dominantcolor, System.Single @colorone, System.Single @colortwo, out System.Single @H, out System.Single @S, out System.Single @V)
         {
 			@H = default;
 			@S = default;
@@ -1109,7 +1109,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.Color HSVToRGB(System.Single  @H, System.Single  @S, System.Single  @V)
+        public static UnityEngine.Color HSVToRGB(System.Single @H, System.Single @S, System.Single @V)
         {
 
             var ___genericsType = new Type[] {};
@@ -1120,7 +1120,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.Color HSVToRGB(System.Single  @H, System.Single  @S, System.Single  @V, System.Boolean  @hdr)
+        public static UnityEngine.Color HSVToRGB(System.Single @H, System.Single @S, System.Single @V, System.Boolean @hdr)
         {
 
             var ___genericsType = new Type[] {};

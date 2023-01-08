@@ -674,7 +674,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 	    {
 	    }
 
-        public virtual void Init(System.Boolean  @isContainer, System.Boolean  @isDS, System.Security.AccessControl.RawSecurityDescriptor  @rawSecurityDescriptor)
+        public virtual void Init(System.Boolean @isContainer, System.Boolean @isDS, System.Security.AccessControl.RawSecurityDescriptor @rawSecurityDescriptor)
         {
 
             var ___genericsType = new Type[] {};
@@ -685,7 +685,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
         }
 
 
-        public virtual void Init(System.Boolean  @isContainer, System.Boolean  @isDS, System.Security.AccessControl.ControlFlags  @flags, System.Security.Principal.SecurityIdentifier  @owner, System.Security.Principal.SecurityIdentifier  @group, System.Security.AccessControl.SystemAcl  @systemAcl, System.Security.AccessControl.DiscretionaryAcl  @discretionaryAcl)
+        public virtual void Init(System.Boolean @isContainer, System.Boolean @isDS, System.Security.AccessControl.ControlFlags @flags, System.Security.Principal.SecurityIdentifier @owner, System.Security.Principal.SecurityIdentifier @group, System.Security.AccessControl.SystemAcl @systemAcl, System.Security.AccessControl.DiscretionaryAcl @discretionaryAcl)
         {
 
             var ___genericsType = new Type[] {};
@@ -696,7 +696,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
         }
 
 
-        public virtual void PurgeAccessControl(System.Security.Principal.SecurityIdentifier  @sid)
+        public virtual void PurgeAccessControl(System.Security.Principal.SecurityIdentifier @sid)
         {
 
             var ___genericsType = new Type[] {};
@@ -707,7 +707,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
         }
 
 
-        public virtual void PurgeAudit(System.Security.Principal.SecurityIdentifier  @sid)
+        public virtual void PurgeAudit(System.Security.Principal.SecurityIdentifier @sid)
         {
 
             var ___genericsType = new Type[] {};
@@ -718,7 +718,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
         }
 
 
-        public virtual void SetDiscretionaryAclProtection(System.Boolean  @isProtected, System.Boolean  @preserveInheritance)
+        public virtual void SetDiscretionaryAclProtection(System.Boolean @isProtected, System.Boolean @preserveInheritance)
         {
 
             var ___genericsType = new Type[] {};
@@ -729,7 +729,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
         }
 
 
-        public virtual void SetSystemAclProtection(System.Boolean  @isProtected, System.Boolean  @preserveInheritance)
+        public virtual void SetSystemAclProtection(System.Boolean @isProtected, System.Boolean @preserveInheritance)
         {
 
             var ___genericsType = new Type[] {};
@@ -740,7 +740,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
         }
 
 
-        public virtual void AddDiscretionaryAcl(System.Byte  @revision, System.Int32  @trusted)
+        public virtual void AddDiscretionaryAcl(System.Byte @revision, System.Int32 @trusted)
         {
 
             var ___genericsType = new Type[] {};
@@ -751,7 +751,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
         }
 
 
-        public virtual void AddSystemAcl(System.Byte  @revision, System.Int32  @trusted)
+        public virtual void AddSystemAcl(System.Byte @revision, System.Int32 @trusted)
         {
 
             var ___genericsType = new Type[] {};
@@ -762,7 +762,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
         }
 
 
-        public virtual void CheckAclConsistency(System.Security.AccessControl.CommonAcl  @acl)
+        public virtual void CheckAclConsistency(System.Security.AccessControl.CommonAcl @acl)
         {
 
             var ___genericsType = new Type[] {};
@@ -773,7 +773,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
         }
 
 
-        public virtual void GetBinaryForm(System.Byte[]  @binaryForm, System.Int32  @offset)
+        public virtual void GetBinaryForm(System.Byte[] @binaryForm, System.Int32 @offset)
         {
 
             var ___genericsType = new Type[] {};
@@ -784,7 +784,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
         }
 
 
-        public virtual System.String GetSddlForm(System.Security.AccessControl.AccessControlSections  @includeSections)
+        public virtual System.String GetSddlForm(System.Security.AccessControl.AccessControlSections @includeSections)
         {
 
             var ___genericsType = new Type[] {};
@@ -795,7 +795,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

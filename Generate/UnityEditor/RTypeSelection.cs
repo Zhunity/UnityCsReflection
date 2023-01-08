@@ -181,7 +181,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 	    {
 	    }
 
-        public virtual System.Int32 CompareTo(System.Object  @o)
+        public virtual System.Int32 CompareTo(System.Object @o)
         {
 
             var ___genericsType = new Type[] {};
@@ -192,7 +192,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

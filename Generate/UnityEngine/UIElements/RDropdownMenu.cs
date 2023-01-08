@@ -345,7 +345,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void AppendAction(System.String  @actionName, System.Action<UnityEngine.UIElements.DropdownMenuAction>  @action, RSystem.RFunc<RUnityEngine.RUIElements.RDropdownMenuAction, RType>  @actionStatusCallback, System.Object  @userData)
+        public virtual void AppendAction(System.String @actionName, System.Action<UnityEngine.UIElements.DropdownMenuAction> @action, RSystem.RFunc<RUnityEngine.RUIElements.RDropdownMenuAction, RType> @actionStatusCallback, System.Object @userData)
         {
 
             var ___genericsType = new Type[] {};
@@ -356,7 +356,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void AppendAction(System.String  @actionName, System.Action<UnityEngine.UIElements.DropdownMenuAction>  @action, RType  @status)
+        public virtual void AppendAction(System.String @actionName, System.Action<UnityEngine.UIElements.DropdownMenuAction> @action, RType @status)
         {
 
             var ___genericsType = new Type[] {};
@@ -367,7 +367,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void InsertAction(System.Int32  @atIndex, System.String  @actionName, System.Action<UnityEngine.UIElements.DropdownMenuAction>  @action, RSystem.RFunc<RUnityEngine.RUIElements.RDropdownMenuAction, RType>  @actionStatusCallback, System.Object  @userData)
+        public virtual void InsertAction(System.Int32 @atIndex, System.String @actionName, System.Action<UnityEngine.UIElements.DropdownMenuAction> @action, RSystem.RFunc<RUnityEngine.RUIElements.RDropdownMenuAction, RType> @actionStatusCallback, System.Object @userData)
         {
 
             var ___genericsType = new Type[] {};
@@ -378,7 +378,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void InsertAction(System.Int32  @atIndex, System.String  @actionName, System.Action<UnityEngine.UIElements.DropdownMenuAction>  @action, RType  @status)
+        public virtual void InsertAction(System.Int32 @atIndex, System.String @actionName, System.Action<UnityEngine.UIElements.DropdownMenuAction> @action, RType @status)
         {
 
             var ___genericsType = new Type[] {};
@@ -389,7 +389,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void AppendSeparator(System.String  @subMenuPath)
+        public virtual void AppendSeparator(System.String @subMenuPath)
         {
 
             var ___genericsType = new Type[] {};
@@ -400,7 +400,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void InsertSeparator(System.String  @subMenuPath, System.Int32  @atIndex)
+        public virtual void InsertSeparator(System.String @subMenuPath, System.Int32 @atIndex)
         {
 
             var ___genericsType = new Type[] {};
@@ -411,7 +411,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void RemoveItemAt(System.Int32  @index)
+        public virtual void RemoveItemAt(System.Int32 @index)
         {
 
             var ___genericsType = new Type[] {};
@@ -433,7 +433,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void PrepareForDisplay(UnityEngine.UIElements.EventBase  @e)
+        public virtual void PrepareForDisplay(UnityEngine.UIElements.EventBase @e)
         {
 
             var ___genericsType = new Type[] {};
@@ -444,7 +444,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

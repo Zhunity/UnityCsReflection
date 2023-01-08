@@ -260,7 +260,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Object GetData(System.LocalDataStoreSlot  @slot)
+        public virtual System.Object GetData(System.LocalDataStoreSlot @slot)
         {
 
             var ___genericsType = new Type[] {};
@@ -271,7 +271,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual void SetData(System.LocalDataStoreSlot  @slot, System.Object  @data)
+        public virtual void SetData(System.LocalDataStoreSlot @slot, System.Object @data)
         {
 
             var ___genericsType = new Type[] {};
@@ -282,7 +282,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual void FreeData(System.Int32  @slot, System.Int64  @cookie)
+        public virtual void FreeData(System.Int32 @slot, System.Int64 @cookie)
         {
 
             var ___genericsType = new Type[] {};
@@ -293,18 +293,18 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Object PopulateElement(System.LocalDataStoreSlot  @slot)
+        public virtual RSystem.RLocalDataStoreElement PopulateElement(System.LocalDataStoreSlot @slot)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@slot};
             var ___result = RPopulateElement_LocalDataStoreSlot.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RSystem.RLocalDataStoreElement(___result);
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

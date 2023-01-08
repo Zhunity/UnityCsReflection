@@ -62,16 +62,26 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 	    {
 	    }
 
-        public virtual System.Object DragOver(UnityEditor.EditorWindow  @w, UnityEngine.Vector2  @screenPos)
+        public virtual RUnityEditor.RDropInfo DragOver(UnityEditor.EditorWindow @w, UnityEngine.Vector2 @screenPos)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@w, @screenPos};
             var ___result = RDragOver_EditorWindow_Vector2.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RUnityEditor.RDropInfo(___result);
         }
 
+
+        public virtual System.Boolean PerformDrop(UnityEditor.EditorWindow @w, RUnityEditor.RDropInfo @dropInfo, UnityEngine.Vector2 @screenPos)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@w, @dropInfo.Value, @screenPos};
+            var ___result = RPerformDrop_EditorWindow_DropInfo_Vector2.Invoke(___genericsType, ___parameters);
+
+            return (System.Boolean)___result;
+        }
 
 
     }

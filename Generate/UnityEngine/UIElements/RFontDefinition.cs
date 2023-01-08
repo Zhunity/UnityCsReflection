@@ -334,7 +334,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 	    {
 	    }
 
-        public static UnityEngine.UIElements.FontDefinition FromFont(UnityEngine.Font  @f)
+        public static UnityEngine.UIElements.FontDefinition FromFont(UnityEngine.Font @f)
         {
 
             var ___genericsType = new Type[] {};
@@ -345,7 +345,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public static UnityEngine.UIElements.FontDefinition FromSDFFont(UnityEngine.TextCore.Text.FontAsset  @f)
+        public static UnityEngine.UIElements.FontDefinition FromSDFFont(UnityEngine.TextCore.Text.FontAsset @f)
         {
 
             var ___genericsType = new Type[] {};
@@ -356,7 +356,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public static UnityEngine.UIElements.FontDefinition FromObject(System.Object  @obj)
+        public static UnityEngine.UIElements.FontDefinition FromObject(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};
@@ -389,7 +389,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean Equals(UnityEngine.UIElements.FontDefinition  @other)
+        public virtual System.Boolean Equals(UnityEngine.UIElements.FontDefinition @other)
         {
 
             var ___genericsType = new Type[] {};
@@ -400,7 +400,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};
@@ -422,7 +422,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public static System.Boolean op_Equality(UnityEngine.UIElements.FontDefinition  @left, UnityEngine.UIElements.FontDefinition  @right)
+        public static System.Boolean op_Equality(UnityEngine.UIElements.FontDefinition @left, UnityEngine.UIElements.FontDefinition @right)
         {
 
             var ___genericsType = new Type[] {};
@@ -433,7 +433,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public static System.Boolean op_Inequality(UnityEngine.UIElements.FontDefinition  @left, UnityEngine.UIElements.FontDefinition  @right)
+        public static System.Boolean op_Inequality(UnityEngine.UIElements.FontDefinition @left, UnityEngine.UIElements.FontDefinition @right)
         {
 
             var ___genericsType = new Type[] {};

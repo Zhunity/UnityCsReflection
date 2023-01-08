@@ -215,7 +215,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
 	    {
 	    }
 
-        public virtual System.Object GetArg(System.Int32  @argNum)
+        public virtual System.Object GetArg(System.Int32 @argNum)
         {
 
             var ___genericsType = new Type[] {};
@@ -226,7 +226,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
         }
 
 
-        public virtual System.String GetArgName(System.Int32  @index)
+        public virtual System.String GetArgName(System.Int32 @index)
         {
 
             var ___genericsType = new Type[] {};

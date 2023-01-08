@@ -62,7 +62,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RBuffers
 	    {
 	    }
 
-        public virtual System.Buffers.MemoryHandle Pin(System.Int32  @elementIndex)
+        public virtual System.Buffers.MemoryHandle Pin(System.Int32 @elementIndex)
         {
 
             var ___genericsType = new Type[] {};

@@ -113,7 +113,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RResources
 	    {
 	    }
 
-        public virtual void AddResource(System.String  @name, System.String  @value)
+        public virtual void AddResource(System.String @name, System.String @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -124,7 +124,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RResources
         }
 
 
-        public virtual void AddResource(System.String  @name, System.Object  @value)
+        public virtual void AddResource(System.String @name, System.Object @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -135,7 +135,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RResources
         }
 
 
-        public virtual void AddResource(System.String  @name, System.Byte[]  @value)
+        public virtual void AddResource(System.String @name, System.Byte[] @value)
         {
 
             var ___genericsType = new Type[] {};

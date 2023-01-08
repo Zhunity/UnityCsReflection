@@ -379,7 +379,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual void AddCatch(System.Type  @extype, System.Int32  @offset)
+        public virtual void AddCatch(System.Type @extype, System.Int32 @offset)
         {
 
             var ___genericsType = new Type[] {};
@@ -390,7 +390,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual void AddFinally(System.Int32  @offset)
+        public virtual void AddFinally(System.Int32 @offset)
         {
 
             var ___genericsType = new Type[] {};
@@ -401,7 +401,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual void AddFault(System.Int32  @offset)
+        public virtual void AddFault(System.Int32 @offset)
         {
 
             var ___genericsType = new Type[] {};
@@ -412,7 +412,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual void AddFilter(System.Int32  @offset)
+        public virtual void AddFilter(System.Int32 @offset)
         {
 
             var ___genericsType = new Type[] {};
@@ -423,7 +423,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual void End(System.Int32  @offset)
+        public virtual void End(System.Int32 @offset)
         {
 
             var ___genericsType = new Type[] {};
@@ -445,7 +445,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual void PatchFilterClause(System.Int32  @start)
+        public virtual void PatchFilterClause(System.Int32 @start)
         {
 
             var ___genericsType = new Type[] {};
@@ -456,7 +456,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual void Debug(System.Int32  @b)
+        public virtual void Debug(System.Int32 @b)
         {
 
             var ___genericsType = new Type[] {};
@@ -467,7 +467,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual void add_block(System.Int32  @offset)
+        public virtual void add_block(System.Int32 @offset)
         {
 
             var ___genericsType = new Type[] {};
@@ -478,7 +478,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

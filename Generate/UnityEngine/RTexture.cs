@@ -1133,7 +1133,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 	    {
 	    }
 
-        public static void SetGlobalAnisotropicFilteringLimits(System.Int32  @forcedMin, System.Int32  @globalMax)
+        public static void SetGlobalAnisotropicFilteringLimits(System.Int32 @forcedMin, System.Int32 @globalMax)
         {
 
             var ___genericsType = new Type[] {};
@@ -1221,14 +1221,14 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Object Internal_GetStoredColorSpace()
+        public virtual RType Internal_GetStoredColorSpace()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RInternal_GetStoredColorSpace.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RType(___result);
         }
 
 
@@ -1243,7 +1243,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.UInt64 GetPixelDataSize(System.Int32  @mipLevel, System.Int32  @element)
+        public virtual System.UInt64 GetPixelDataSize(System.Int32 @mipLevel, System.Int32 @element)
         {
 
             var ___genericsType = new Type[] {};
@@ -1254,7 +1254,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.UInt64 GetPixelDataOffset(System.Int32  @mipLevel, System.Int32  @element)
+        public virtual System.UInt64 GetPixelDataOffset(System.Int32 @mipLevel, System.Int32 @element)
         {
 
             var ___genericsType = new Type[] {};
@@ -1265,7 +1265,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Boolean ValidateFormat(UnityEngine.RenderTextureFormat  @format)
+        public virtual System.Boolean ValidateFormat(UnityEngine.RenderTextureFormat @format)
         {
 
             var ___genericsType = new Type[] {};
@@ -1276,7 +1276,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Boolean ValidateFormat(UnityEngine.TextureFormat  @format)
+        public virtual System.Boolean ValidateFormat(UnityEngine.TextureFormat @format)
         {
 
             var ___genericsType = new Type[] {};
@@ -1287,7 +1287,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Boolean ValidateFormat(UnityEngine.Experimental.Rendering.GraphicsFormat  @format, UnityEngine.Experimental.Rendering.FormatUsage  @usage)
+        public virtual System.Boolean ValidateFormat(UnityEngine.Experimental.Rendering.GraphicsFormat @format, UnityEngine.Experimental.Rendering.FormatUsage @usage)
         {
 
             var ___genericsType = new Type[] {};
@@ -1298,7 +1298,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual UnityEngine.UnityException CreateNonReadableException(UnityEngine.Texture  @t)
+        public virtual UnityEngine.UnityException CreateNonReadableException(UnityEngine.Texture @t)
         {
 
             var ___genericsType = new Type[] {};
@@ -1320,7 +1320,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void get_texelSize_Injected(out UnityEngine.Vector2  @ret)
+        public virtual void get_texelSize_Injected(out UnityEngine.Vector2 @ret)
         {
 			@ret = default;
 
@@ -1333,7 +1333,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void get_imageContentsHash_Injected(out UnityEngine.Hash128  @ret)
+        public virtual void get_imageContentsHash_Injected(out UnityEngine.Hash128 @ret)
         {
 			@ret = default;
 
@@ -1346,7 +1346,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void set_imageContentsHash_Injected(ref UnityEngine.Hash128  @value)
+        public virtual void set_imageContentsHash_Injected(ref UnityEngine.Hash128 @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -1380,7 +1380,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @other)
+        public virtual System.Boolean Equals(System.Object @other)
         {
 
             var ___genericsType = new Type[] {};

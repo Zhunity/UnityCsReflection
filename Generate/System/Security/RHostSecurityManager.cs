@@ -300,7 +300,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
 	    {
 	    }
 
-        public virtual System.Security.Policy.ApplicationTrust DetermineApplicationTrust(System.Security.Policy.Evidence  @applicationEvidence, System.Security.Policy.Evidence  @activatorEvidence, System.Security.Policy.TrustManagerContext  @context)
+        public virtual System.Security.Policy.ApplicationTrust DetermineApplicationTrust(System.Security.Policy.Evidence @applicationEvidence, System.Security.Policy.Evidence @activatorEvidence, System.Security.Policy.TrustManagerContext @context)
         {
 
             var ___genericsType = new Type[] {};
@@ -311,7 +311,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
         }
 
 
-        public virtual System.Security.Policy.Evidence ProvideAppDomainEvidence(System.Security.Policy.Evidence  @inputEvidence)
+        public virtual System.Security.Policy.Evidence ProvideAppDomainEvidence(System.Security.Policy.Evidence @inputEvidence)
         {
 
             var ___genericsType = new Type[] {};
@@ -322,7 +322,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
         }
 
 
-        public virtual System.Security.Policy.Evidence ProvideAssemblyEvidence(System.Reflection.Assembly  @loadedAssembly, System.Security.Policy.Evidence  @inputEvidence)
+        public virtual System.Security.Policy.Evidence ProvideAssemblyEvidence(System.Reflection.Assembly @loadedAssembly, System.Security.Policy.Evidence @inputEvidence)
         {
 
             var ___genericsType = new Type[] {};
@@ -333,7 +333,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
         }
 
 
-        public virtual System.Security.PermissionSet ResolvePolicy(System.Security.Policy.Evidence  @evidence)
+        public virtual System.Security.PermissionSet ResolvePolicy(System.Security.Policy.Evidence @evidence)
         {
 
             var ___genericsType = new Type[] {};
@@ -344,7 +344,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
         }
 
 
-        public virtual System.Security.Policy.EvidenceBase GenerateAppDomainEvidence(System.Type  @evidenceType)
+        public virtual System.Security.Policy.EvidenceBase GenerateAppDomainEvidence(System.Type @evidenceType)
         {
 
             var ___genericsType = new Type[] {};
@@ -355,7 +355,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
         }
 
 
-        public virtual System.Security.Policy.EvidenceBase GenerateAssemblyEvidence(System.Type  @evidenceType, System.Reflection.Assembly  @assembly)
+        public virtual System.Security.Policy.EvidenceBase GenerateAssemblyEvidence(System.Type @evidenceType, System.Reflection.Assembly @assembly)
         {
 
             var ___genericsType = new Type[] {};
@@ -377,7 +377,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
         }
 
 
-        public virtual System.Type[] GetHostSuppliedAssemblyEvidenceTypes(System.Reflection.Assembly  @assembly)
+        public virtual System.Type[] GetHostSuppliedAssemblyEvidenceTypes(System.Reflection.Assembly @assembly)
         {
 
             var ___genericsType = new Type[] {};
@@ -388,7 +388,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

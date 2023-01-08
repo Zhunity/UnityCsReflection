@@ -45,7 +45,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
 	    {
 	    }
 
-        public virtual System.Int32 Compare(T  @x, T  @y)
+        public virtual System.Int32 Compare(T @x, T @y)
         {
 
             var ___genericsType = new Type[] {};

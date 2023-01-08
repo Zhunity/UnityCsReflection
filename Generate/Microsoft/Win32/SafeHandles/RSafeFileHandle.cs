@@ -356,7 +356,7 @@ namespace SMFrame.Editor.Refleaction.RMicrosoft.RWin32.RSafeHandles
         }
 
 
-        public virtual void SetHandle(System.IntPtr  @handle)
+        public virtual void SetHandle(System.IntPtr @handle)
         {
 
             var ___genericsType = new Type[] {};
@@ -400,7 +400,7 @@ namespace SMFrame.Editor.Refleaction.RMicrosoft.RWin32.RSafeHandles
         }
 
 
-        public virtual void Dispose(System.Boolean  @disposing)
+        public virtual void Dispose(System.Boolean @disposing)
         {
 
             var ___genericsType = new Type[] {};
@@ -422,7 +422,7 @@ namespace SMFrame.Editor.Refleaction.RMicrosoft.RWin32.RSafeHandles
         }
 
 
-        public virtual void DangerousAddRef(ref System.Boolean  @success)
+        public virtual void DangerousAddRef(ref System.Boolean @success)
         {
 
             var ___genericsType = new Type[] {};
@@ -445,7 +445,7 @@ namespace SMFrame.Editor.Refleaction.RMicrosoft.RWin32.RSafeHandles
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

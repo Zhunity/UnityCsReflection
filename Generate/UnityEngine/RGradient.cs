@@ -407,7 +407,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Boolean Internal_Equals(System.IntPtr  @other)
+        public virtual System.Boolean Internal_Equals(System.IntPtr @other)
         {
 
             var ___genericsType = new Type[] {};
@@ -429,7 +429,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual UnityEngine.Color Evaluate(System.Single  @time)
+        public virtual UnityEngine.Color Evaluate(System.Single @time)
         {
 
             var ___genericsType = new Type[] {};
@@ -440,7 +440,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SetKeys(UnityEngine.GradientColorKey[]  @colorKeys, UnityEngine.GradientAlphaKey[]  @alphaKeys)
+        public virtual void SetKeys(UnityEngine.GradientColorKey[] @colorKeys, UnityEngine.GradientAlphaKey[] @alphaKeys)
         {
 
             var ___genericsType = new Type[] {};
@@ -451,7 +451,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @o)
+        public virtual System.Boolean Equals(System.Object @o)
         {
 
             var ___genericsType = new Type[] {};
@@ -462,7 +462,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Boolean Equals(UnityEngine.Gradient  @other)
+        public virtual System.Boolean Equals(UnityEngine.Gradient @other)
         {
 
             var ___genericsType = new Type[] {};
@@ -484,7 +484,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void Evaluate_Injected(System.Single  @time, out UnityEngine.Color  @ret)
+        public virtual void Evaluate_Injected(System.Single @time, out UnityEngine.Color @ret)
         {
 			@ret = default;
 
@@ -497,7 +497,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void get_constantColor_Injected(out UnityEngine.Color  @ret)
+        public virtual void get_constantColor_Injected(out UnityEngine.Color @ret)
         {
 			@ret = default;
 
@@ -510,7 +510,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void set_constantColor_Injected(ref UnityEngine.Color  @value)
+        public virtual void set_constantColor_Injected(ref UnityEngine.Color @value)
         {
 
             var ___genericsType = new Type[] {};

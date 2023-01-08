@@ -583,7 +583,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
         }
 
 
-        public virtual System.Security.Policy.PolicyStatement Resolve(System.Security.Policy.Evidence  @evidence)
+        public virtual System.Security.Policy.PolicyStatement Resolve(System.Security.Policy.Evidence @evidence)
         {
 
             var ___genericsType = new Type[] {};
@@ -594,7 +594,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
         }
 
 
-        public virtual System.Security.Policy.CodeGroup ResolveMatchingCodeGroups(System.Security.Policy.Evidence  @evidence)
+        public virtual System.Security.Policy.CodeGroup ResolveMatchingCodeGroups(System.Security.Policy.Evidence @evidence)
         {
 
             var ___genericsType = new Type[] {};
@@ -605,7 +605,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
         }
 
 
-        public virtual void AddChild(System.Security.Policy.CodeGroup  @group)
+        public virtual void AddChild(System.Security.Policy.CodeGroup @group)
         {
 
             var ___genericsType = new Type[] {};
@@ -616,7 +616,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @o)
+        public virtual System.Boolean Equals(System.Object @o)
         {
 
             var ___genericsType = new Type[] {};
@@ -627,7 +627,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
         }
 
 
-        public virtual System.Boolean Equals(System.Security.Policy.CodeGroup  @cg, System.Boolean  @compareChildren)
+        public virtual System.Boolean Equals(System.Security.Policy.CodeGroup @cg, System.Boolean @compareChildren)
         {
 
             var ___genericsType = new Type[] {};
@@ -638,7 +638,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
         }
 
 
-        public virtual void RemoveChild(System.Security.Policy.CodeGroup  @group)
+        public virtual void RemoveChild(System.Security.Policy.CodeGroup @group)
         {
 
             var ___genericsType = new Type[] {};
@@ -660,7 +660,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
         }
 
 
-        public virtual void FromXml(System.Security.SecurityElement  @e)
+        public virtual void FromXml(System.Security.SecurityElement @e)
         {
 
             var ___genericsType = new Type[] {};
@@ -671,7 +671,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
         }
 
 
-        public virtual void FromXml(System.Security.SecurityElement  @e, System.Security.Policy.PolicyLevel  @level)
+        public virtual void FromXml(System.Security.SecurityElement @e, System.Security.Policy.PolicyLevel @level)
         {
 
             var ___genericsType = new Type[] {};
@@ -682,7 +682,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
         }
 
 
-        public virtual void ParseXml(System.Security.SecurityElement  @e, System.Security.Policy.PolicyLevel  @level)
+        public virtual void ParseXml(System.Security.SecurityElement @e, System.Security.Policy.PolicyLevel @level)
         {
 
             var ___genericsType = new Type[] {};
@@ -704,7 +704,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
         }
 
 
-        public virtual System.Security.SecurityElement ToXml(System.Security.Policy.PolicyLevel  @level)
+        public virtual System.Security.SecurityElement ToXml(System.Security.Policy.PolicyLevel @level)
         {
 
             var ___genericsType = new Type[] {};
@@ -715,7 +715,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
         }
 
 
-        public virtual void CreateXml(System.Security.SecurityElement  @element, System.Security.Policy.PolicyLevel  @level)
+        public virtual void CreateXml(System.Security.SecurityElement @element, System.Security.Policy.PolicyLevel @level)
         {
 
             var ___genericsType = new Type[] {};
@@ -726,7 +726,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
         }
 
 
-        public static System.Security.Policy.CodeGroup CreateFromXml(System.Security.SecurityElement  @se, System.Security.Policy.PolicyLevel  @level)
+        public static System.Security.Policy.CodeGroup CreateFromXml(System.Security.SecurityElement @se, System.Security.Policy.PolicyLevel @level)
         {
 
             var ___genericsType = new Type[] {};

@@ -900,7 +900,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
         }
 
 
-        public virtual System.Int32 GetSpriteIndexFromHashcode(System.Int32  @hashCode)
+        public virtual System.Int32 GetSpriteIndexFromHashcode(System.Int32 @hashCode)
         {
 
             var ___genericsType = new Type[] {};
@@ -911,7 +911,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
         }
 
 
-        public virtual System.Int32 GetSpriteIndexFromUnicode(System.UInt32  @unicode)
+        public virtual System.Int32 GetSpriteIndexFromUnicode(System.UInt32 @unicode)
         {
 
             var ___genericsType = new Type[] {};
@@ -922,7 +922,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
         }
 
 
-        public virtual System.Int32 GetSpriteIndexFromName(System.String  @name)
+        public virtual System.Int32 GetSpriteIndexFromName(System.String @name)
         {
 
             var ___genericsType = new Type[] {};
@@ -933,7 +933,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
         }
 
 
-        public static UnityEngine.TextCore.Text.SpriteAsset SearchForSpriteByUnicode(UnityEngine.TextCore.Text.SpriteAsset  @spriteAsset, System.UInt32  @unicode, System.Boolean  @includeFallbacks, out System.Int32  @spriteIndex)
+        public static UnityEngine.TextCore.Text.SpriteAsset SearchForSpriteByUnicode(UnityEngine.TextCore.Text.SpriteAsset @spriteAsset, System.UInt32 @unicode, System.Boolean @includeFallbacks, out System.Int32 @spriteIndex)
         {
 			@spriteIndex = default;
 
@@ -946,7 +946,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
         }
 
 
-        public static UnityEngine.TextCore.Text.SpriteAsset SearchForSpriteByUnicodeInternal(System.Collections.Generic.List<UnityEngine.TextCore.Text.SpriteAsset>  @spriteAssets, System.UInt32  @unicode, System.Boolean  @includeFallbacks, out System.Int32  @spriteIndex)
+        public static UnityEngine.TextCore.Text.SpriteAsset SearchForSpriteByUnicodeInternal(System.Collections.Generic.List<UnityEngine.TextCore.Text.SpriteAsset> @spriteAssets, System.UInt32 @unicode, System.Boolean @includeFallbacks, out System.Int32 @spriteIndex)
         {
 			@spriteIndex = default;
 
@@ -959,7 +959,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
         }
 
 
-        public static UnityEngine.TextCore.Text.SpriteAsset SearchForSpriteByUnicodeInternal(UnityEngine.TextCore.Text.SpriteAsset  @spriteAsset, System.UInt32  @unicode, System.Boolean  @includeFallbacks, out System.Int32  @spriteIndex)
+        public static UnityEngine.TextCore.Text.SpriteAsset SearchForSpriteByUnicodeInternal(UnityEngine.TextCore.Text.SpriteAsset @spriteAsset, System.UInt32 @unicode, System.Boolean @includeFallbacks, out System.Int32 @spriteIndex)
         {
 			@spriteIndex = default;
 
@@ -972,7 +972,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
         }
 
 
-        public static UnityEngine.TextCore.Text.SpriteAsset SearchForSpriteByHashCode(UnityEngine.TextCore.Text.SpriteAsset  @spriteAsset, System.Int32  @hashCode, System.Boolean  @includeFallbacks, out System.Int32  @spriteIndex, UnityEngine.TextCore.Text.TextSettings  @textSettings)
+        public static UnityEngine.TextCore.Text.SpriteAsset SearchForSpriteByHashCode(UnityEngine.TextCore.Text.SpriteAsset @spriteAsset, System.Int32 @hashCode, System.Boolean @includeFallbacks, out System.Int32 @spriteIndex, UnityEngine.TextCore.Text.TextSettings @textSettings)
         {
 			@spriteIndex = default;
 
@@ -985,7 +985,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
         }
 
 
-        public static UnityEngine.TextCore.Text.SpriteAsset SearchForSpriteByHashCodeInternal(System.Collections.Generic.List<UnityEngine.TextCore.Text.SpriteAsset>  @spriteAssets, System.Int32  @hashCode, System.Boolean  @searchFallbacks, out System.Int32  @spriteIndex)
+        public static UnityEngine.TextCore.Text.SpriteAsset SearchForSpriteByHashCodeInternal(System.Collections.Generic.List<UnityEngine.TextCore.Text.SpriteAsset> @spriteAssets, System.Int32 @hashCode, System.Boolean @searchFallbacks, out System.Int32 @spriteIndex)
         {
 			@spriteIndex = default;
 
@@ -998,7 +998,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
         }
 
 
-        public static UnityEngine.TextCore.Text.SpriteAsset SearchForSpriteByHashCodeInternal(UnityEngine.TextCore.Text.SpriteAsset  @spriteAsset, System.Int32  @hashCode, System.Boolean  @searchFallbacks, out System.Int32  @spriteIndex)
+        public static UnityEngine.TextCore.Text.SpriteAsset SearchForSpriteByHashCodeInternal(UnityEngine.TextCore.Text.SpriteAsset @spriteAsset, System.Int32 @hashCode, System.Boolean @searchFallbacks, out System.Int32 @spriteIndex)
         {
 			@spriteIndex = default;
 
@@ -1077,7 +1077,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @other)
+        public virtual System.Boolean Equals(System.Object @other)
         {
 
             var ___genericsType = new Type[] {};

@@ -2408,7 +2408,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 	    {
 	    }
 
-        public virtual void Compress(System.Boolean  @highQuality)
+        public virtual void Compress(System.Boolean @highQuality)
         {
 
             var ___genericsType = new Type[] {};
@@ -2419,7 +2419,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static System.Boolean Internal_CreateImpl(UnityEngine.Texture2D  @mono, System.Int32  @w, System.Int32  @h, System.Int32  @mipCount, UnityEngine.Experimental.Rendering.GraphicsFormat  @format, UnityEngine.Experimental.Rendering.TextureCreationFlags  @flags, System.IntPtr  @nativeTex, System.String  @mipmapLimitGroupName)
+        public static System.Boolean Internal_CreateImpl(UnityEngine.Texture2D @mono, System.Int32 @w, System.Int32 @h, System.Int32 @mipCount, UnityEngine.Experimental.Rendering.GraphicsFormat @format, UnityEngine.Experimental.Rendering.TextureCreationFlags @flags, System.IntPtr @nativeTex, System.String @mipmapLimitGroupName)
         {
 
             var ___genericsType = new Type[] {};
@@ -2430,7 +2430,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static void Internal_Create(UnityEngine.Texture2D  @mono, System.Int32  @w, System.Int32  @h, System.Int32  @mipCount, UnityEngine.Experimental.Rendering.GraphicsFormat  @format, UnityEngine.Experimental.Rendering.TextureCreationFlags  @flags, System.IntPtr  @nativeTex, System.String  @mipmapLimitGroupName)
+        public static void Internal_Create(UnityEngine.Texture2D @mono, System.Int32 @w, System.Int32 @h, System.Int32 @mipCount, UnityEngine.Experimental.Rendering.GraphicsFormat @format, UnityEngine.Experimental.Rendering.TextureCreationFlags @flags, System.IntPtr @nativeTex, System.String @mipmapLimitGroupName)
         {
 
             var ___genericsType = new Type[] {};
@@ -2441,7 +2441,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void ApplyImpl(System.Boolean  @updateMipmaps, System.Boolean  @makeNoLongerReadable)
+        public virtual void ApplyImpl(System.Boolean @updateMipmaps, System.Boolean @makeNoLongerReadable)
         {
 
             var ___genericsType = new Type[] {};
@@ -2452,7 +2452,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Boolean ReinitializeImpl(System.Int32  @width, System.Int32  @height)
+        public virtual System.Boolean ReinitializeImpl(System.Int32 @width, System.Int32 @height)
         {
 
             var ___genericsType = new Type[] {};
@@ -2463,7 +2463,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SetPixelImpl(System.Int32  @image, System.Int32  @mip, System.Int32  @x, System.Int32  @y, UnityEngine.Color  @color)
+        public virtual void SetPixelImpl(System.Int32 @image, System.Int32 @mip, System.Int32 @x, System.Int32 @y, UnityEngine.Color @color)
         {
 
             var ___genericsType = new Type[] {};
@@ -2474,7 +2474,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual UnityEngine.Color GetPixelImpl(System.Int32  @image, System.Int32  @mip, System.Int32  @x, System.Int32  @y)
+        public virtual UnityEngine.Color GetPixelImpl(System.Int32 @image, System.Int32 @mip, System.Int32 @x, System.Int32 @y)
         {
 
             var ___genericsType = new Type[] {};
@@ -2485,7 +2485,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual UnityEngine.Color GetPixelBilinearImpl(System.Int32  @image, System.Int32  @mip, System.Single  @u, System.Single  @v)
+        public virtual UnityEngine.Color GetPixelBilinearImpl(System.Int32 @image, System.Int32 @mip, System.Single @u, System.Single @v)
         {
 
             var ___genericsType = new Type[] {};
@@ -2496,7 +2496,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Boolean ReinitializeWithFormatImpl(System.Int32  @width, System.Int32  @height, UnityEngine.Experimental.Rendering.GraphicsFormat  @format, System.Boolean  @hasMipMap)
+        public virtual System.Boolean ReinitializeWithFormatImpl(System.Int32 @width, System.Int32 @height, UnityEngine.Experimental.Rendering.GraphicsFormat @format, System.Boolean @hasMipMap)
         {
 
             var ___genericsType = new Type[] {};
@@ -2507,7 +2507,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Boolean ReinitializeWithTextureFormatImpl(System.Int32  @width, System.Int32  @height, UnityEngine.TextureFormat  @textureFormat, System.Boolean  @hasMipMap)
+        public virtual System.Boolean ReinitializeWithTextureFormatImpl(System.Int32 @width, System.Int32 @height, UnityEngine.TextureFormat @textureFormat, System.Boolean @hasMipMap)
         {
 
             var ___genericsType = new Type[] {};
@@ -2518,7 +2518,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void ReadPixelsImpl(UnityEngine.Rect  @source, System.Int32  @destX, System.Int32  @destY, System.Boolean  @recalculateMipMaps)
+        public virtual void ReadPixelsImpl(UnityEngine.Rect @source, System.Int32 @destX, System.Int32 @destY, System.Boolean @recalculateMipMaps)
         {
 
             var ___genericsType = new Type[] {};
@@ -2529,7 +2529,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SetPixelsImpl(System.Int32  @x, System.Int32  @y, System.Int32  @w, System.Int32  @h, UnityEngine.Color[]  @pixel, System.Int32  @miplevel, System.Int32  @frame)
+        public virtual void SetPixelsImpl(System.Int32 @x, System.Int32 @y, System.Int32 @w, System.Int32 @h, UnityEngine.Color[] @pixel, System.Int32 @miplevel, System.Int32 @frame)
         {
 
             var ___genericsType = new Type[] {};
@@ -2540,7 +2540,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Boolean LoadRawTextureDataImpl(System.IntPtr  @data, System.UInt64  @size)
+        public virtual System.Boolean LoadRawTextureDataImpl(System.IntPtr @data, System.UInt64 @size)
         {
 
             var ___genericsType = new Type[] {};
@@ -2551,7 +2551,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Boolean LoadRawTextureDataImplArray(System.Byte[]  @data)
+        public virtual System.Boolean LoadRawTextureDataImplArray(System.Byte[] @data)
         {
 
             var ___genericsType = new Type[] {};
@@ -2562,7 +2562,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Boolean SetPixelDataImplArray(System.Array  @data, System.Int32  @mipLevel, System.Int32  @elementSize, System.Int32  @dataArraySize, System.Int32  @sourceDataStartIndex)
+        public virtual System.Boolean SetPixelDataImplArray(System.Array @data, System.Int32 @mipLevel, System.Int32 @elementSize, System.Int32 @dataArraySize, System.Int32 @sourceDataStartIndex)
         {
 
             var ___genericsType = new Type[] {};
@@ -2573,7 +2573,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Boolean SetPixelDataImpl(System.IntPtr  @data, System.Int32  @mipLevel, System.Int32  @elementSize, System.Int32  @dataArraySize, System.Int32  @sourceDataStartIndex)
+        public virtual System.Boolean SetPixelDataImpl(System.IntPtr @data, System.Int32 @mipLevel, System.Int32 @elementSize, System.Int32 @dataArraySize, System.Int32 @sourceDataStartIndex)
         {
 
             var ___genericsType = new Type[] {};
@@ -2584,7 +2584,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.IntPtr GetWritableImageData(System.Int32  @frame)
+        public virtual System.IntPtr GetWritableImageData(System.Int32 @frame)
         {
 
             var ___genericsType = new Type[] {};
@@ -2606,7 +2606,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle GetSafetyHandle(UnityEngine.Texture2D  @tex)
+        public static Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle GetSafetyHandle(UnityEngine.Texture2D @tex)
         {
 
             var ___genericsType = new Type[] {};
@@ -2617,7 +2617,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle GetSafetyHandleForSlice(System.Int32  @mipLevel)
+        public virtual Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle GetSafetyHandleForSlice(System.Int32 @mipLevel)
         {
 
             var ___genericsType = new Type[] {};
@@ -2628,7 +2628,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static void GenerateAtlasImpl(UnityEngine.Vector2[]  @sizes, System.Int32  @padding, System.Int32  @atlasSize, UnityEngine.Rect[]  @rect)
+        public static void GenerateAtlasImpl(UnityEngine.Vector2[] @sizes, System.Int32 @padding, System.Int32 @atlasSize, UnityEngine.Rect[] @rect)
         {
 
             var ___genericsType = new Type[] {};
@@ -2672,7 +2672,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void UpdateExternalTexture(System.IntPtr  @nativeTex)
+        public virtual void UpdateExternalTexture(System.IntPtr @nativeTex)
         {
 
             var ___genericsType = new Type[] {};
@@ -2683,7 +2683,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SetAllPixels32(UnityEngine.Color32[]  @colors, System.Int32  @miplevel)
+        public virtual void SetAllPixels32(UnityEngine.Color32[] @colors, System.Int32 @miplevel)
         {
 
             var ___genericsType = new Type[] {};
@@ -2694,7 +2694,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SetBlockOfPixels32(System.Int32  @x, System.Int32  @y, System.Int32  @blockWidth, System.Int32  @blockHeight, UnityEngine.Color32[]  @colors, System.Int32  @miplevel)
+        public virtual void SetBlockOfPixels32(System.Int32 @x, System.Int32 @y, System.Int32 @blockWidth, System.Int32 @blockHeight, UnityEngine.Color32[] @colors, System.Int32 @miplevel)
         {
 
             var ___genericsType = new Type[] {};
@@ -2716,7 +2716,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual UnityEngine.Color[] GetPixels(System.Int32  @x, System.Int32  @y, System.Int32  @blockWidth, System.Int32  @blockHeight, System.Int32  @miplevel)
+        public virtual UnityEngine.Color[] GetPixels(System.Int32 @x, System.Int32 @y, System.Int32 @blockWidth, System.Int32 @blockHeight, System.Int32 @miplevel)
         {
 
             var ___genericsType = new Type[] {};
@@ -2727,7 +2727,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual UnityEngine.Color[] GetPixels(System.Int32  @x, System.Int32  @y, System.Int32  @blockWidth, System.Int32  @blockHeight)
+        public virtual UnityEngine.Color[] GetPixels(System.Int32 @x, System.Int32 @y, System.Int32 @blockWidth, System.Int32 @blockHeight)
         {
 
             var ___genericsType = new Type[] {};
@@ -2738,7 +2738,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual UnityEngine.Color32[] GetPixels32(System.Int32  @miplevel)
+        public virtual UnityEngine.Color32[] GetPixels32(System.Int32 @miplevel)
         {
 
             var ___genericsType = new Type[] {};
@@ -2760,7 +2760,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual UnityEngine.Rect[] PackTextures(UnityEngine.Texture2D[]  @textures, System.Int32  @padding, System.Int32  @maximumAtlasSize, System.Boolean  @makeNoLongerReadable)
+        public virtual UnityEngine.Rect[] PackTextures(UnityEngine.Texture2D[] @textures, System.Int32 @padding, System.Int32 @maximumAtlasSize, System.Boolean @makeNoLongerReadable)
         {
 
             var ___genericsType = new Type[] {};
@@ -2771,7 +2771,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual UnityEngine.Rect[] PackTextures(UnityEngine.Texture2D[]  @textures, System.Int32  @padding, System.Int32  @maximumAtlasSize)
+        public virtual UnityEngine.Rect[] PackTextures(UnityEngine.Texture2D[] @textures, System.Int32 @padding, System.Int32 @maximumAtlasSize)
         {
 
             var ___genericsType = new Type[] {};
@@ -2782,7 +2782,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual UnityEngine.Rect[] PackTextures(UnityEngine.Texture2D[]  @textures, System.Int32  @padding)
+        public virtual UnityEngine.Rect[] PackTextures(UnityEngine.Texture2D[] @textures, System.Int32 @padding)
         {
 
             var ___genericsType = new Type[] {};
@@ -2793,7 +2793,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Boolean ValidateFormat(UnityEngine.TextureFormat  @format, System.Int32  @width, System.Int32  @height)
+        public virtual System.Boolean ValidateFormat(UnityEngine.TextureFormat @format, System.Int32 @width, System.Int32 @height)
         {
 
             var ___genericsType = new Type[] {};
@@ -2804,7 +2804,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Boolean ValidateFormat(UnityEngine.Experimental.Rendering.GraphicsFormat  @format, System.Int32  @width, System.Int32  @height)
+        public virtual System.Boolean ValidateFormat(UnityEngine.Experimental.Rendering.GraphicsFormat @format, System.Int32 @width, System.Int32 @height)
         {
 
             var ___genericsType = new Type[] {};
@@ -2815,7 +2815,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.Texture2D CreateExternalTexture(System.Int32  @width, System.Int32  @height, UnityEngine.TextureFormat  @format, System.Boolean  @mipChain, System.Boolean  @linear, System.IntPtr  @nativeTex)
+        public static UnityEngine.Texture2D CreateExternalTexture(System.Int32 @width, System.Int32 @height, UnityEngine.TextureFormat @format, System.Boolean @mipChain, System.Boolean @linear, System.IntPtr @nativeTex)
         {
 
             var ___genericsType = new Type[] {};
@@ -2826,7 +2826,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SetPixel(System.Int32  @x, System.Int32  @y, UnityEngine.Color  @color)
+        public virtual void SetPixel(System.Int32 @x, System.Int32 @y, UnityEngine.Color @color)
         {
 
             var ___genericsType = new Type[] {};
@@ -2837,7 +2837,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SetPixel(System.Int32  @x, System.Int32  @y, UnityEngine.Color  @color, System.Int32  @mipLevel)
+        public virtual void SetPixel(System.Int32 @x, System.Int32 @y, UnityEngine.Color @color, System.Int32 @mipLevel)
         {
 
             var ___genericsType = new Type[] {};
@@ -2848,7 +2848,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SetPixels(System.Int32  @x, System.Int32  @y, System.Int32  @blockWidth, System.Int32  @blockHeight, UnityEngine.Color[]  @colors, System.Int32  @miplevel)
+        public virtual void SetPixels(System.Int32 @x, System.Int32 @y, System.Int32 @blockWidth, System.Int32 @blockHeight, UnityEngine.Color[] @colors, System.Int32 @miplevel)
         {
 
             var ___genericsType = new Type[] {};
@@ -2859,7 +2859,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SetPixels(System.Int32  @x, System.Int32  @y, System.Int32  @blockWidth, System.Int32  @blockHeight, UnityEngine.Color[]  @colors)
+        public virtual void SetPixels(System.Int32 @x, System.Int32 @y, System.Int32 @blockWidth, System.Int32 @blockHeight, UnityEngine.Color[] @colors)
         {
 
             var ___genericsType = new Type[] {};
@@ -2870,7 +2870,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SetPixels(UnityEngine.Color[]  @colors, System.Int32  @miplevel)
+        public virtual void SetPixels(UnityEngine.Color[] @colors, System.Int32 @miplevel)
         {
 
             var ___genericsType = new Type[] {};
@@ -2881,7 +2881,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SetPixels(UnityEngine.Color[]  @colors)
+        public virtual void SetPixels(UnityEngine.Color[] @colors)
         {
 
             var ___genericsType = new Type[] {};
@@ -2892,7 +2892,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual UnityEngine.Color GetPixel(System.Int32  @x, System.Int32  @y)
+        public virtual UnityEngine.Color GetPixel(System.Int32 @x, System.Int32 @y)
         {
 
             var ___genericsType = new Type[] {};
@@ -2903,7 +2903,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual UnityEngine.Color GetPixel(System.Int32  @x, System.Int32  @y, System.Int32  @mipLevel)
+        public virtual UnityEngine.Color GetPixel(System.Int32 @x, System.Int32 @y, System.Int32 @mipLevel)
         {
 
             var ___genericsType = new Type[] {};
@@ -2914,7 +2914,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual UnityEngine.Color GetPixelBilinear(System.Single  @u, System.Single  @v)
+        public virtual UnityEngine.Color GetPixelBilinear(System.Single @u, System.Single @v)
         {
 
             var ___genericsType = new Type[] {};
@@ -2925,7 +2925,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual UnityEngine.Color GetPixelBilinear(System.Single  @u, System.Single  @v, System.Int32  @mipLevel)
+        public virtual UnityEngine.Color GetPixelBilinear(System.Single @u, System.Single @v, System.Int32 @mipLevel)
         {
 
             var ___genericsType = new Type[] {};
@@ -2936,7 +2936,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void LoadRawTextureData(System.IntPtr  @data, System.Int32  @size)
+        public virtual void LoadRawTextureData(System.IntPtr @data, System.Int32 @size)
         {
 
             var ___genericsType = new Type[] {};
@@ -2947,7 +2947,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void LoadRawTextureData(System.Byte[]  @data)
+        public virtual void LoadRawTextureData(System.Byte[] @data)
         {
 
             var ___genericsType = new Type[] {};
@@ -2959,7 +2959,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
 
 
-        public virtual void SetPixelData<T>(T[]  @data, System.Int32  @mipLevel, System.Int32  @sourceDataStartIndex)
+        public virtual void SetPixelData<T>(T[] @data, System.Int32 @mipLevel, System.Int32 @sourceDataStartIndex)
         {
 
             var ___genericsType = new Type[] {typeof(T)};
@@ -2971,7 +2971,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
 
 
-        public virtual System.Object GetPixelData<T>(System.Int32  @mipLevel) where T : struct
+        public virtual System.Object GetPixelData<T>(System.Int32 @mipLevel) where T : struct
         {
 
             var ___genericsType = new Type[] {typeof(T)};
@@ -2993,7 +2993,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void Apply(System.Boolean  @updateMipmaps, System.Boolean  @makeNoLongerReadable)
+        public virtual void Apply(System.Boolean @updateMipmaps, System.Boolean @makeNoLongerReadable)
         {
 
             var ___genericsType = new Type[] {};
@@ -3004,7 +3004,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void Apply(System.Boolean  @updateMipmaps)
+        public virtual void Apply(System.Boolean @updateMipmaps)
         {
 
             var ___genericsType = new Type[] {};
@@ -3026,7 +3026,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Boolean Reinitialize(System.Int32  @width, System.Int32  @height)
+        public virtual System.Boolean Reinitialize(System.Int32 @width, System.Int32 @height)
         {
 
             var ___genericsType = new Type[] {};
@@ -3037,7 +3037,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Boolean Reinitialize(System.Int32  @width, System.Int32  @height, UnityEngine.TextureFormat  @format, System.Boolean  @hasMipMap)
+        public virtual System.Boolean Reinitialize(System.Int32 @width, System.Int32 @height, UnityEngine.TextureFormat @format, System.Boolean @hasMipMap)
         {
 
             var ___genericsType = new Type[] {};
@@ -3048,7 +3048,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Boolean Reinitialize(System.Int32  @width, System.Int32  @height, UnityEngine.Experimental.Rendering.GraphicsFormat  @format, System.Boolean  @hasMipMap)
+        public virtual System.Boolean Reinitialize(System.Int32 @width, System.Int32 @height, UnityEngine.Experimental.Rendering.GraphicsFormat @format, System.Boolean @hasMipMap)
         {
 
             var ___genericsType = new Type[] {};
@@ -3059,7 +3059,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Boolean Resize(System.Int32  @width, System.Int32  @height)
+        public virtual System.Boolean Resize(System.Int32 @width, System.Int32 @height)
         {
 
             var ___genericsType = new Type[] {};
@@ -3070,7 +3070,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Boolean Resize(System.Int32  @width, System.Int32  @height, UnityEngine.TextureFormat  @format, System.Boolean  @hasMipMap)
+        public virtual System.Boolean Resize(System.Int32 @width, System.Int32 @height, UnityEngine.TextureFormat @format, System.Boolean @hasMipMap)
         {
 
             var ___genericsType = new Type[] {};
@@ -3081,7 +3081,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Boolean Resize(System.Int32  @width, System.Int32  @height, UnityEngine.Experimental.Rendering.GraphicsFormat  @format, System.Boolean  @hasMipMap)
+        public virtual System.Boolean Resize(System.Int32 @width, System.Int32 @height, UnityEngine.Experimental.Rendering.GraphicsFormat @format, System.Boolean @hasMipMap)
         {
 
             var ___genericsType = new Type[] {};
@@ -3092,7 +3092,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void ReadPixels(UnityEngine.Rect  @source, System.Int32  @destX, System.Int32  @destY, System.Boolean  @recalculateMipMaps)
+        public virtual void ReadPixels(UnityEngine.Rect @source, System.Int32 @destX, System.Int32 @destY, System.Boolean @recalculateMipMaps)
         {
 
             var ___genericsType = new Type[] {};
@@ -3103,7 +3103,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void ReadPixels(UnityEngine.Rect  @source, System.Int32  @destX, System.Int32  @destY)
+        public virtual void ReadPixels(UnityEngine.Rect @source, System.Int32 @destX, System.Int32 @destY)
         {
 
             var ___genericsType = new Type[] {};
@@ -3114,7 +3114,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static System.Boolean GenerateAtlas(UnityEngine.Vector2[]  @sizes, System.Int32  @padding, System.Int32  @atlasSize, System.Collections.Generic.List<UnityEngine.Rect>  @results)
+        public static System.Boolean GenerateAtlas(UnityEngine.Vector2[] @sizes, System.Int32 @padding, System.Int32 @atlasSize, System.Collections.Generic.List<UnityEngine.Rect> @results)
         {
 
             var ___genericsType = new Type[] {};
@@ -3125,7 +3125,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SetPixels32(UnityEngine.Color32[]  @colors, System.Int32  @miplevel)
+        public virtual void SetPixels32(UnityEngine.Color32[] @colors, System.Int32 @miplevel)
         {
 
             var ___genericsType = new Type[] {};
@@ -3136,7 +3136,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SetPixels32(UnityEngine.Color32[]  @colors)
+        public virtual void SetPixels32(UnityEngine.Color32[] @colors)
         {
 
             var ___genericsType = new Type[] {};
@@ -3147,7 +3147,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SetPixels32(System.Int32  @x, System.Int32  @y, System.Int32  @blockWidth, System.Int32  @blockHeight, UnityEngine.Color32[]  @colors, System.Int32  @miplevel)
+        public virtual void SetPixels32(System.Int32 @x, System.Int32 @y, System.Int32 @blockWidth, System.Int32 @blockHeight, UnityEngine.Color32[] @colors, System.Int32 @miplevel)
         {
 
             var ___genericsType = new Type[] {};
@@ -3158,7 +3158,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SetPixels32(System.Int32  @x, System.Int32  @y, System.Int32  @blockWidth, System.Int32  @blockHeight, UnityEngine.Color32[]  @colors)
+        public virtual void SetPixels32(System.Int32 @x, System.Int32 @y, System.Int32 @blockWidth, System.Int32 @blockHeight, UnityEngine.Color32[] @colors)
         {
 
             var ___genericsType = new Type[] {};
@@ -3169,7 +3169,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual UnityEngine.Color[] GetPixels(System.Int32  @miplevel)
+        public virtual UnityEngine.Color[] GetPixels(System.Int32 @miplevel)
         {
 
             var ___genericsType = new Type[] {};
@@ -3191,7 +3191,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SetPixelImpl_Injected(System.Int32  @image, System.Int32  @mip, System.Int32  @x, System.Int32  @y, ref UnityEngine.Color  @color)
+        public virtual void SetPixelImpl_Injected(System.Int32 @image, System.Int32 @mip, System.Int32 @x, System.Int32 @y, ref UnityEngine.Color @color)
         {
 
             var ___genericsType = new Type[] {};
@@ -3203,7 +3203,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void GetPixelImpl_Injected(System.Int32  @image, System.Int32  @mip, System.Int32  @x, System.Int32  @y, out UnityEngine.Color  @ret)
+        public virtual void GetPixelImpl_Injected(System.Int32 @image, System.Int32 @mip, System.Int32 @x, System.Int32 @y, out UnityEngine.Color @ret)
         {
 			@ret = default;
 
@@ -3216,7 +3216,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void GetPixelBilinearImpl_Injected(System.Int32  @image, System.Int32  @mip, System.Single  @u, System.Single  @v, out UnityEngine.Color  @ret)
+        public virtual void GetPixelBilinearImpl_Injected(System.Int32 @image, System.Int32 @mip, System.Single @u, System.Single @v, out UnityEngine.Color @ret)
         {
 			@ret = default;
 
@@ -3229,7 +3229,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void ReadPixelsImpl_Injected(ref UnityEngine.Rect  @source, System.Int32  @destX, System.Int32  @destY, System.Boolean  @recalculateMipMaps)
+        public virtual void ReadPixelsImpl_Injected(ref UnityEngine.Rect @source, System.Int32 @destX, System.Int32 @destY, System.Boolean @recalculateMipMaps)
         {
 
             var ___genericsType = new Type[] {};
@@ -3241,7 +3241,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static void GetSafetyHandle_Injected(UnityEngine.Texture2D  @tex, out Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle  @ret)
+        public static void GetSafetyHandle_Injected(UnityEngine.Texture2D @tex, out Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @ret)
         {
 			@ret = default;
 
@@ -3254,7 +3254,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void GetSafetyHandleForSlice_Injected(System.Int32  @mipLevel, out Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle  @ret)
+        public virtual void GetSafetyHandleForSlice_Injected(System.Int32 @mipLevel, out Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @ret)
         {
 			@ret = default;
 
@@ -3300,7 +3300,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.UInt64 GetPixelDataSize(System.Int32  @mipLevel, System.Int32  @element)
+        public virtual System.UInt64 GetPixelDataSize(System.Int32 @mipLevel, System.Int32 @element)
         {
 
             var ___genericsType = new Type[] {};
@@ -3311,7 +3311,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.UInt64 GetPixelDataOffset(System.Int32  @mipLevel, System.Int32  @element)
+        public virtual System.UInt64 GetPixelDataOffset(System.Int32 @mipLevel, System.Int32 @element)
         {
 
             var ___genericsType = new Type[] {};
@@ -3322,7 +3322,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Boolean ValidateFormat(UnityEngine.RenderTextureFormat  @format)
+        public virtual System.Boolean ValidateFormat(UnityEngine.RenderTextureFormat @format)
         {
 
             var ___genericsType = new Type[] {};
@@ -3333,7 +3333,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Boolean ValidateFormat(UnityEngine.TextureFormat  @format)
+        public virtual System.Boolean ValidateFormat(UnityEngine.TextureFormat @format)
         {
 
             var ___genericsType = new Type[] {};
@@ -3344,7 +3344,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Boolean ValidateFormat(UnityEngine.Experimental.Rendering.GraphicsFormat  @format, UnityEngine.Experimental.Rendering.FormatUsage  @usage)
+        public virtual System.Boolean ValidateFormat(UnityEngine.Experimental.Rendering.GraphicsFormat @format, UnityEngine.Experimental.Rendering.FormatUsage @usage)
         {
 
             var ___genericsType = new Type[] {};
@@ -3355,7 +3355,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual UnityEngine.UnityException CreateNonReadableException(UnityEngine.Texture  @t)
+        public virtual UnityEngine.UnityException CreateNonReadableException(UnityEngine.Texture @t)
         {
 
             var ___genericsType = new Type[] {};
@@ -3399,7 +3399,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @other)
+        public virtual System.Boolean Equals(System.Object @other)
         {
 
             var ___genericsType = new Type[] {};

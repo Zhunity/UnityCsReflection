@@ -424,7 +424,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
         }
 
 
-        public virtual void Add(System.Object  @exceptionObject)
+        public virtual void Add(System.Object @exceptionObject)
         {
 
             var ___genericsType = new Type[] {};
@@ -435,7 +435,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
         }
 
 
-        public virtual void Add(System.Object  @exceptionObject, System.Boolean  @representsCancellation)
+        public virtual void Add(System.Object @exceptionObject, System.Boolean @representsCancellation)
         {
 
             var ___genericsType = new Type[] {};
@@ -446,7 +446,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
         }
 
 
-        public virtual void SetCancellationException(System.Object  @exceptionObject)
+        public virtual void SetCancellationException(System.Object @exceptionObject)
         {
 
             var ___genericsType = new Type[] {};
@@ -457,7 +457,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
         }
 
 
-        public virtual void AddFaultException(System.Object  @exceptionObject)
+        public virtual void AddFaultException(System.Object @exceptionObject)
         {
 
             var ___genericsType = new Type[] {};
@@ -479,7 +479,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
         }
 
 
-        public virtual void MarkAsHandled(System.Boolean  @calledFromFinalizer)
+        public virtual void MarkAsHandled(System.Boolean @calledFromFinalizer)
         {
 
             var ___genericsType = new Type[] {};
@@ -490,7 +490,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
         }
 
 
-        public virtual System.AggregateException CreateExceptionObject(System.Boolean  @calledFromFinalizer, System.Exception  @includeThisException)
+        public virtual System.AggregateException CreateExceptionObject(System.Boolean @calledFromFinalizer, System.Exception @includeThisException)
         {
 
             var ___genericsType = new Type[] {};
@@ -523,7 +523,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

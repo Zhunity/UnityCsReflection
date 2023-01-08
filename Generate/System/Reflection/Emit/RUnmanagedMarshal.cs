@@ -470,7 +470,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 	    {
 	    }
 
-        public static System.Reflection.Emit.UnmanagedMarshal DefineByValArray(System.Int32  @elemCount)
+        public static System.Reflection.Emit.UnmanagedMarshal DefineByValArray(System.Int32 @elemCount)
         {
 
             var ___genericsType = new Type[] {};
@@ -481,7 +481,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public static System.Reflection.Emit.UnmanagedMarshal DefineByValTStr(System.Int32  @elemCount)
+        public static System.Reflection.Emit.UnmanagedMarshal DefineByValTStr(System.Int32 @elemCount)
         {
 
             var ___genericsType = new Type[] {};
@@ -492,7 +492,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public static System.Reflection.Emit.UnmanagedMarshal DefineLPArray(System.Runtime.InteropServices.UnmanagedType  @elemType)
+        public static System.Reflection.Emit.UnmanagedMarshal DefineLPArray(System.Runtime.InteropServices.UnmanagedType @elemType)
         {
 
             var ___genericsType = new Type[] {};
@@ -503,7 +503,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public static System.Reflection.Emit.UnmanagedMarshal DefineSafeArray(System.Runtime.InteropServices.UnmanagedType  @elemType)
+        public static System.Reflection.Emit.UnmanagedMarshal DefineSafeArray(System.Runtime.InteropServices.UnmanagedType @elemType)
         {
 
             var ___genericsType = new Type[] {};
@@ -514,7 +514,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public static System.Reflection.Emit.UnmanagedMarshal DefineUnmanagedMarshal(System.Runtime.InteropServices.UnmanagedType  @unmanagedType)
+        public static System.Reflection.Emit.UnmanagedMarshal DefineUnmanagedMarshal(System.Runtime.InteropServices.UnmanagedType @unmanagedType)
         {
 
             var ___genericsType = new Type[] {};
@@ -525,7 +525,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public static System.Reflection.Emit.UnmanagedMarshal DefineCustom(System.Type  @typeref, System.String  @cookie, System.String  @mtype, System.Guid  @id)
+        public static System.Reflection.Emit.UnmanagedMarshal DefineCustom(System.Type @typeref, System.String @cookie, System.String @mtype, System.Guid @id)
         {
 
             var ___genericsType = new Type[] {};
@@ -536,7 +536,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public static System.Reflection.Emit.UnmanagedMarshal DefineLPArrayInternal(System.Runtime.InteropServices.UnmanagedType  @elemType, System.Int32  @sizeConst, System.Int32  @sizeParamIndex)
+        public static System.Reflection.Emit.UnmanagedMarshal DefineLPArrayInternal(System.Runtime.InteropServices.UnmanagedType @elemType, System.Int32 @sizeConst, System.Int32 @sizeParamIndex)
         {
 
             var ___genericsType = new Type[] {};
@@ -547,7 +547,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

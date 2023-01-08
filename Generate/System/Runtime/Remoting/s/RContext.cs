@@ -929,7 +929,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts
 	    {
 	    }
 
-        public static void RegisterContext(System.Runtime.Remoting.Contexts.Context  @ctx)
+        public static void RegisterContext(System.Runtime.Remoting.Contexts.Context @ctx)
         {
 
             var ___genericsType = new Type[] {};
@@ -940,7 +940,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts
         }
 
 
-        public static void ReleaseContext(System.Runtime.Remoting.Contexts.Context  @ctx)
+        public static void ReleaseContext(System.Runtime.Remoting.Contexts.Context @ctx)
         {
 
             var ___genericsType = new Type[] {};
@@ -962,7 +962,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts
         }
 
 
-        public static System.Boolean RegisterDynamicProperty(System.Runtime.Remoting.Contexts.IDynamicProperty  @prop, System.ContextBoundObject  @obj, System.Runtime.Remoting.Contexts.Context  @ctx)
+        public static System.Boolean RegisterDynamicProperty(System.Runtime.Remoting.Contexts.IDynamicProperty @prop, System.ContextBoundObject @obj, System.Runtime.Remoting.Contexts.Context @ctx)
         {
 
             var ___genericsType = new Type[] {};
@@ -973,7 +973,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts
         }
 
 
-        public static System.Boolean UnregisterDynamicProperty(System.String  @name, System.ContextBoundObject  @obj, System.Runtime.Remoting.Contexts.Context  @ctx)
+        public static System.Boolean UnregisterDynamicProperty(System.String @name, System.ContextBoundObject @obj, System.Runtime.Remoting.Contexts.Context @ctx)
         {
 
             var ___genericsType = new Type[] {};
@@ -984,18 +984,18 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts
         }
 
 
-        public static System.Object GetDynamicPropertyCollection(System.ContextBoundObject  @obj, System.Runtime.Remoting.Contexts.Context  @ctx)
+        public static RSystem.RRuntime.RRemoting.RContexts.RDynamicPropertyCollection GetDynamicPropertyCollection(System.ContextBoundObject @obj, System.Runtime.Remoting.Contexts.Context @ctx)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@obj, @ctx};
             var ___result = RGetDynamicPropertyCollection_ContextBoundObject_Context.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RSystem.RRuntime.RRemoting.RContexts.RDynamicPropertyCollection(___result);
         }
 
 
-        public static void NotifyGlobalDynamicSinks(System.Boolean  @start, System.Runtime.Remoting.Messaging.IMessage  @req_msg, System.Boolean  @client_site, System.Boolean  @async)
+        public static void NotifyGlobalDynamicSinks(System.Boolean @start, System.Runtime.Remoting.Messaging.IMessage @req_msg, System.Boolean @client_site, System.Boolean @async)
         {
 
             var ___genericsType = new Type[] {};
@@ -1006,7 +1006,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts
         }
 
 
-        public virtual void NotifyDynamicSinks(System.Boolean  @start, System.Runtime.Remoting.Messaging.IMessage  @req_msg, System.Boolean  @client_site, System.Boolean  @async)
+        public virtual void NotifyDynamicSinks(System.Boolean @start, System.Runtime.Remoting.Messaging.IMessage @req_msg, System.Boolean @client_site, System.Boolean @async)
         {
 
             var ___genericsType = new Type[] {};
@@ -1017,7 +1017,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts
         }
 
 
-        public virtual System.Runtime.Remoting.Contexts.IContextProperty GetProperty(System.String  @name)
+        public virtual System.Runtime.Remoting.Contexts.IContextProperty GetProperty(System.String @name)
         {
 
             var ___genericsType = new Type[] {};
@@ -1028,7 +1028,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts
         }
 
 
-        public virtual void SetProperty(System.Runtime.Remoting.Contexts.IContextProperty  @prop)
+        public virtual void SetProperty(System.Runtime.Remoting.Contexts.IContextProperty @prop)
         {
 
             var ___genericsType = new Type[] {};
@@ -1083,7 +1083,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts
         }
 
 
-        public virtual System.Runtime.Remoting.Messaging.IMessageSink CreateServerObjectSinkChain(System.MarshalByRefObject  @obj, System.Boolean  @forceInternalExecute)
+        public virtual System.Runtime.Remoting.Messaging.IMessageSink CreateServerObjectSinkChain(System.MarshalByRefObject @obj, System.Boolean @forceInternalExecute)
         {
 
             var ___genericsType = new Type[] {};
@@ -1094,7 +1094,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts
         }
 
 
-        public virtual System.Runtime.Remoting.Messaging.IMessageSink CreateEnvoySink(System.MarshalByRefObject  @serverObject)
+        public virtual System.Runtime.Remoting.Messaging.IMessageSink CreateEnvoySink(System.MarshalByRefObject @serverObject)
         {
 
             var ___genericsType = new Type[] {};
@@ -1105,7 +1105,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts
         }
 
 
-        public static System.Runtime.Remoting.Contexts.Context SwitchToContext(System.Runtime.Remoting.Contexts.Context  @newContext)
+        public static System.Runtime.Remoting.Contexts.Context SwitchToContext(System.Runtime.Remoting.Contexts.Context @newContext)
         {
 
             var ___genericsType = new Type[] {};
@@ -1116,7 +1116,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts
         }
 
 
-        public static System.Runtime.Remoting.Contexts.Context CreateNewContext(System.Runtime.Remoting.Activation.IConstructionCallMessage  @msg)
+        public static System.Runtime.Remoting.Contexts.Context CreateNewContext(System.Runtime.Remoting.Activation.IConstructionCallMessage @msg)
         {
 
             var ___genericsType = new Type[] {};
@@ -1127,7 +1127,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts
         }
 
 
-        public virtual void DoCallBack(System.Runtime.Remoting.Contexts.CrossContextDelegate  @deleg)
+        public virtual void DoCallBack(System.Runtime.Remoting.Contexts.CrossContextDelegate @deleg)
         {
 
             var ___genericsType = new Type[] {};
@@ -1149,7 +1149,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts
         }
 
 
-        public static System.LocalDataStoreSlot AllocateNamedDataSlot(System.String  @name)
+        public static System.LocalDataStoreSlot AllocateNamedDataSlot(System.String @name)
         {
 
             var ___genericsType = new Type[] {};
@@ -1160,7 +1160,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts
         }
 
 
-        public static void FreeNamedDataSlot(System.String  @name)
+        public static void FreeNamedDataSlot(System.String @name)
         {
 
             var ___genericsType = new Type[] {};
@@ -1171,7 +1171,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts
         }
 
 
-        public static System.LocalDataStoreSlot GetNamedDataSlot(System.String  @name)
+        public static System.LocalDataStoreSlot GetNamedDataSlot(System.String @name)
         {
 
             var ___genericsType = new Type[] {};
@@ -1182,7 +1182,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts
         }
 
 
-        public static System.Object GetData(System.LocalDataStoreSlot  @slot)
+        public static System.Object GetData(System.LocalDataStoreSlot @slot)
         {
 
             var ___genericsType = new Type[] {};
@@ -1193,7 +1193,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts
         }
 
 
-        public static void SetData(System.LocalDataStoreSlot  @slot, System.Object  @data)
+        public static void SetData(System.LocalDataStoreSlot @slot, System.Object @data)
         {
 
             var ___genericsType = new Type[] {};
@@ -1204,7 +1204,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

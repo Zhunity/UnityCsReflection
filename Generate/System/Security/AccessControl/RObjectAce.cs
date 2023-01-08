@@ -623,7 +623,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 	    {
 	    }
 
-        public virtual void GetBinaryForm(System.Byte[]  @binaryForm, System.Int32  @offset)
+        public virtual void GetBinaryForm(System.Byte[] @binaryForm, System.Int32 @offset)
         {
 
             var ___genericsType = new Type[] {};
@@ -634,7 +634,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
         }
 
 
-        public static System.Int32 MaxOpaqueLength(System.Boolean  @isCallback)
+        public static System.Int32 MaxOpaqueLength(System.Boolean @isCallback)
         {
 
             var ___genericsType = new Type[] {};
@@ -656,7 +656,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
         }
 
 
-        public static System.Security.AccessControl.AceType ConvertType(System.Security.AccessControl.AceQualifier  @qualifier, System.Boolean  @isCallback)
+        public static System.Security.AccessControl.AceType ConvertType(System.Security.AccessControl.AceQualifier @qualifier, System.Boolean @isCallback)
         {
 
             var ___genericsType = new Type[] {};
@@ -667,7 +667,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
         }
 
 
-        public virtual void WriteGuid(System.Guid  @val, System.Byte[]  @buffer, System.Int32  @offset)
+        public virtual void WriteGuid(System.Guid @val, System.Byte[] @buffer, System.Int32 @offset)
         {
 
             var ___genericsType = new Type[] {};
@@ -678,7 +678,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
         }
 
 
-        public virtual System.Guid ReadGuid(System.Byte[]  @buffer, System.Int32  @offset)
+        public virtual System.Guid ReadGuid(System.Byte[] @buffer, System.Int32 @offset)
         {
 
             var ___genericsType = new Type[] {};
@@ -700,7 +700,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
         }
 
 
-        public virtual void SetOpaque(System.Byte[]  @opaque)
+        public virtual void SetOpaque(System.Byte[] @opaque)
         {
 
             var ___genericsType = new Type[] {};
@@ -722,7 +722,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @o)
+        public virtual System.Boolean Equals(System.Object @o)
         {
 
             var ___genericsType = new Type[] {};

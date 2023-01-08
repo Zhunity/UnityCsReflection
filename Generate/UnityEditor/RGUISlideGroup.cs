@@ -350,7 +350,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual UnityEngine.Rect BeginHorizontal(System.Int32  @id, UnityEngine.GUILayoutOption[]  @options)
+        public virtual UnityEngine.Rect BeginHorizontal(System.Int32 @id, UnityEngine.GUILayoutOption[] @options)
         {
 
             var ___genericsType = new Type[] {};
@@ -372,7 +372,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual UnityEngine.Rect GetRect(System.Int32  @id, UnityEngine.Rect  @r)
+        public virtual UnityEngine.Rect GetRect(System.Int32 @id, UnityEngine.Rect @r)
         {
 
             var ___genericsType = new Type[] {};
@@ -383,20 +383,20 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual UnityEngine.Rect GetRect(System.Int32  @id, UnityEngine.Rect  @r, out System.Boolean  @changed)
+        public virtual UnityEngine.Rect GetRect(System.Int32 @id, UnityEngine.Rect @r, out System.Boolean @changed)
         {
-			changed = default;
+			@changed = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@id, @r, @changed};
             var ___result = RGetRect_Int32_Rect_Out_Boolean.Invoke(___genericsType, ___parameters);
-			changed = (System.Boolean)___parameters[2];
+			@changed = (System.Boolean)___parameters[2];
 
             return (UnityEngine.Rect)___result;
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

@@ -288,7 +288,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};
@@ -299,7 +299,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean Equals(RUnityEngine.RUIElements.RTextureId  @other)
+        public virtual System.Boolean Equals(RUnityEngine.RUIElements.RTextureId @other)
         {
 
             var ___genericsType = new Type[] {};
@@ -321,7 +321,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public static System.Boolean op_Equality(RUnityEngine.RUIElements.RTextureId  @left, RUnityEngine.RUIElements.RTextureId  @right)
+        public static System.Boolean op_Equality(RUnityEngine.RUIElements.RTextureId @left, RUnityEngine.RUIElements.RTextureId @right)
         {
 
             var ___genericsType = new Type[] {};
@@ -332,7 +332,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public static System.Boolean op_Inequality(RUnityEngine.RUIElements.RTextureId  @left, RUnityEngine.RUIElements.RTextureId  @right)
+        public static System.Boolean op_Inequality(RUnityEngine.RUIElements.RTextureId @left, RUnityEngine.RUIElements.RTextureId @right)
         {
 
             var ___genericsType = new Type[] {};

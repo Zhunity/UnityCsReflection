@@ -251,7 +251,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 	    {
 	    }
 
-        public virtual UnityEngine.UIElements.MeshWriteData Allocate(System.UInt32  @vertexCount, System.UInt32  @indexCount)
+        public virtual UnityEngine.UIElements.MeshWriteData Allocate(System.UInt32 @vertexCount, System.UInt32 @indexCount)
         {
 
             var ___genericsType = new Type[] {};
@@ -262,7 +262,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

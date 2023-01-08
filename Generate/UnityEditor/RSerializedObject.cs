@@ -849,7 +849,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public static void Internal_Destroy(System.IntPtr  @ptr)
+        public static void Internal_Destroy(System.IntPtr @ptr)
         {
 
             var ___genericsType = new Type[] {};
@@ -871,7 +871,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual UnityEditor.SerializedProperty FindProperty(System.String  @propertyPath)
+        public virtual UnityEditor.SerializedProperty FindProperty(System.String @propertyPath)
         {
 
             var ___genericsType = new Type[] {};
@@ -882,7 +882,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual UnityEditor.SerializedProperty FindFirstPropertyFromManagedReferencePath(System.String  @propertyPath)
+        public virtual UnityEditor.SerializedProperty FindFirstPropertyFromManagedReferencePath(System.String @propertyPath)
         {
 
             var ___genericsType = new Type[] {};
@@ -970,7 +970,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public static System.IntPtr InternalCreate(UnityEngine.Object[]  @monoObjs, UnityEngine.Object  @context)
+        public static System.IntPtr InternalCreate(UnityEngine.Object[] @monoObjs, UnityEngine.Object @context)
         {
 
             var ___genericsType = new Type[] {};
@@ -981,7 +981,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual UnityEditor.PropertyModification ExtractPropertyModification(System.String  @propertyPath)
+        public virtual UnityEditor.PropertyModification ExtractPropertyModification(System.String @propertyPath)
         {
 
             var ___genericsType = new Type[] {};
@@ -992,7 +992,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual System.Object InternalExtractPropertyModification(System.String  @propertyPath)
+        public virtual System.Object InternalExtractPropertyModification(System.String @propertyPath)
         {
 
             var ___genericsType = new Type[] {};
@@ -1003,7 +1003,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual void Cache(System.Int32  @instanceID)
+        public virtual void Cache(System.Int32 @instanceID)
         {
 
             var ___genericsType = new Type[] {};
@@ -1014,7 +1014,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual void CacheInternal(System.Int32  @instanceID)
+        public virtual void CacheInternal(System.Int32 @instanceID)
         {
 
             var ___genericsType = new Type[] {};
@@ -1025,7 +1025,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public static UnityEditor.SerializedObject LoadFromCache(System.Int32  @instanceID)
+        public static UnityEditor.SerializedObject LoadFromCache(System.Int32 @instanceID)
         {
 
             var ___genericsType = new Type[] {};
@@ -1047,7 +1047,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public static void EnableLivePropertyFeatureGlobally(System.Boolean  @value)
+        public static void EnableLivePropertyFeatureGlobally(System.Boolean @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -1069,7 +1069,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual void CopyFromSerializedProperty(UnityEditor.SerializedProperty  @prop)
+        public virtual void CopyFromSerializedProperty(UnityEditor.SerializedProperty @prop)
         {
 
             var ___genericsType = new Type[] {};
@@ -1080,7 +1080,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual void CopyFromSerializedPropertyInternal(UnityEditor.SerializedProperty  @prop)
+        public virtual void CopyFromSerializedPropertyInternal(UnityEditor.SerializedProperty @prop)
         {
 
             var ___genericsType = new Type[] {};
@@ -1091,7 +1091,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual System.Boolean CopyFromSerializedPropertyIfDifferent(UnityEditor.SerializedProperty  @prop)
+        public virtual System.Boolean CopyFromSerializedPropertyIfDifferent(UnityEditor.SerializedProperty @prop)
         {
 
             var ___genericsType = new Type[] {};
@@ -1102,7 +1102,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual System.Boolean CopyFromSerializedPropertyIfDifferentInternal(UnityEditor.SerializedProperty  @prop)
+        public virtual System.Boolean CopyFromSerializedPropertyIfDifferentInternal(UnityEditor.SerializedProperty @prop)
         {
 
             var ___genericsType = new Type[] {};
@@ -1124,7 +1124,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public static System.Boolean VersionEquals(UnityEditor.SerializedObject  @x, UnityEditor.SerializedObject  @y)
+        public static System.Boolean VersionEquals(UnityEditor.SerializedObject @x, UnityEditor.SerializedObject @y)
         {
 
             var ___genericsType = new Type[] {};
@@ -1135,7 +1135,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public static System.Boolean VersionEqualsInternal(UnityEditor.SerializedObject  @x, UnityEditor.SerializedObject  @y)
+        public static System.Boolean VersionEqualsInternal(UnityEditor.SerializedObject @x, UnityEditor.SerializedObject @y)
         {
 
             var ___genericsType = new Type[] {};
@@ -1146,7 +1146,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

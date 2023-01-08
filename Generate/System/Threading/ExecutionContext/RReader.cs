@@ -364,7 +364,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public virtual System.Boolean IsDefaultFTContext(System.Boolean  @ignoreSyncCtx)
+        public virtual System.Boolean IsDefaultFTContext(System.Boolean @ignoreSyncCtx)
         {
 
             var ___genericsType = new Type[] {};
@@ -375,7 +375,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public virtual System.Boolean IsSame(RSystem.RThreading.RExecutionContext.RReader  @other)
+        public virtual System.Boolean IsSame(RSystem.RThreading.RExecutionContext.RReader @other)
         {
 
             var ___genericsType = new Type[] {};
@@ -386,7 +386,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public virtual System.Object GetLocalValue(RSystem.RThreading.RIAsyncLocal  @local)
+        public virtual System.Object GetLocalValue(RSystem.RThreading.RIAsyncLocal @local)
         {
 
             var ___genericsType = new Type[] {};
@@ -397,7 +397,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public virtual System.Boolean HasSameLocalValues(System.Threading.ExecutionContext  @other)
+        public virtual System.Boolean HasSameLocalValues(System.Threading.ExecutionContext @other)
         {
 
             var ___genericsType = new Type[] {};
@@ -419,7 +419,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

@@ -1195,7 +1195,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certif
         }
 
 
-        public static System.Security.Cryptography.X509Certificates.X509Certificate CreateFromCertFile(System.String  @filename)
+        public static System.Security.Cryptography.X509Certificates.X509Certificate CreateFromCertFile(System.String @filename)
         {
 
             var ___genericsType = new Type[] {};
@@ -1206,7 +1206,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certif
         }
 
 
-        public static System.Security.Cryptography.X509Certificates.X509Certificate CreateFromSignedFile(System.String  @filename)
+        public static System.Security.Cryptography.X509Certificates.X509Certificate CreateFromSignedFile(System.String @filename)
         {
 
             var ___genericsType = new Type[] {};
@@ -1217,7 +1217,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certif
         }
 
 
-        public virtual void System__2__Runtime__2__Serialization__2__ISerializable__2__GetObjectData(System.Runtime.Serialization.SerializationInfo  @info, System.Runtime.Serialization.StreamingContext  @context)
+        public virtual void System__2__Runtime__2__Serialization__2__ISerializable__2__GetObjectData(System.Runtime.Serialization.SerializationInfo @info, System.Runtime.Serialization.StreamingContext @context)
         {
 
             var ___genericsType = new Type[] {};
@@ -1228,7 +1228,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certif
         }
 
 
-        public virtual void System__2__Runtime__2__Serialization__2__IDeserializationCallback__2__OnDeserialization(System.Object  @sender)
+        public virtual void System__2__Runtime__2__Serialization__2__IDeserializationCallback__2__OnDeserialization(System.Object @sender)
         {
 
             var ___genericsType = new Type[] {};
@@ -1250,7 +1250,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certif
         }
 
 
-        public virtual void Dispose(System.Boolean  @disposing)
+        public virtual void Dispose(System.Boolean @disposing)
         {
 
             var ___genericsType = new Type[] {};
@@ -1261,7 +1261,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certif
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};
@@ -1272,7 +1272,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certif
         }
 
 
-        public virtual System.Boolean Equals(System.Security.Cryptography.X509Certificates.X509Certificate  @other)
+        public virtual System.Boolean Equals(System.Security.Cryptography.X509Certificates.X509Certificate @other)
         {
 
             var ___genericsType = new Type[] {};
@@ -1283,7 +1283,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certif
         }
 
 
-        public virtual System.Byte[] Export(System.Security.Cryptography.X509Certificates.X509ContentType  @contentType)
+        public virtual System.Byte[] Export(System.Security.Cryptography.X509Certificates.X509ContentType @contentType)
         {
 
             var ___genericsType = new Type[] {};
@@ -1294,7 +1294,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certif
         }
 
 
-        public virtual System.Byte[] Export(System.Security.Cryptography.X509Certificates.X509ContentType  @contentType, System.String  @password)
+        public virtual System.Byte[] Export(System.Security.Cryptography.X509Certificates.X509ContentType @contentType, System.String @password)
         {
 
             var ___genericsType = new Type[] {};
@@ -1305,7 +1305,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certif
         }
 
 
-        public virtual System.Byte[] Export(System.Security.Cryptography.X509Certificates.X509ContentType  @contentType, System.Security.SecureString  @password)
+        public virtual System.Byte[] Export(System.Security.Cryptography.X509Certificates.X509ContentType @contentType, System.Security.SecureString @password)
         {
 
             var ___genericsType = new Type[] {};
@@ -1338,7 +1338,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certif
         }
 
 
-        public virtual System.Byte[] GetCertHash(System.Security.Cryptography.HashAlgorithmName  @hashAlgorithm)
+        public virtual System.Byte[] GetCertHash(System.Security.Cryptography.HashAlgorithmName @hashAlgorithm)
         {
 
             var ___genericsType = new Type[] {};
@@ -1361,7 +1361,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certif
         }
 
 
-        public virtual System.String GetCertHashString(System.Security.Cryptography.HashAlgorithmName  @hashAlgorithm)
+        public virtual System.String GetCertHashString(System.Security.Cryptography.HashAlgorithmName @hashAlgorithm)
         {
 
             var ___genericsType = new Type[] {};
@@ -1559,7 +1559,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certif
         }
 
 
-        public virtual System.String ToString(System.Boolean  @fVerbose)
+        public virtual System.String ToString(System.Boolean @fVerbose)
         {
 
             var ___genericsType = new Type[] {};
@@ -1570,7 +1570,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certif
         }
 
 
-        public virtual void Import(System.Byte[]  @rawData)
+        public virtual void Import(System.Byte[] @rawData)
         {
 
             var ___genericsType = new Type[] {};
@@ -1581,7 +1581,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certif
         }
 
 
-        public virtual void Import(System.Byte[]  @rawData, System.String  @password, System.Security.Cryptography.X509Certificates.X509KeyStorageFlags  @keyStorageFlags)
+        public virtual void Import(System.Byte[] @rawData, System.String @password, System.Security.Cryptography.X509Certificates.X509KeyStorageFlags @keyStorageFlags)
         {
 
             var ___genericsType = new Type[] {};
@@ -1592,7 +1592,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certif
         }
 
 
-        public virtual void Import(System.Byte[]  @rawData, System.Security.SecureString  @password, System.Security.Cryptography.X509Certificates.X509KeyStorageFlags  @keyStorageFlags)
+        public virtual void Import(System.Byte[] @rawData, System.Security.SecureString @password, System.Security.Cryptography.X509Certificates.X509KeyStorageFlags @keyStorageFlags)
         {
 
             var ___genericsType = new Type[] {};
@@ -1603,7 +1603,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certif
         }
 
 
-        public virtual void Import(System.String  @fileName)
+        public virtual void Import(System.String @fileName)
         {
 
             var ___genericsType = new Type[] {};
@@ -1614,7 +1614,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certif
         }
 
 
-        public virtual void Import(System.String  @fileName, System.String  @password, System.Security.Cryptography.X509Certificates.X509KeyStorageFlags  @keyStorageFlags)
+        public virtual void Import(System.String @fileName, System.String @password, System.Security.Cryptography.X509Certificates.X509KeyStorageFlags @keyStorageFlags)
         {
 
             var ___genericsType = new Type[] {};
@@ -1625,7 +1625,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certif
         }
 
 
-        public virtual void Import(System.String  @fileName, System.Security.SecureString  @password, System.Security.Cryptography.X509Certificates.X509KeyStorageFlags  @keyStorageFlags)
+        public virtual void Import(System.String @fileName, System.Security.SecureString @password, System.Security.Cryptography.X509Certificates.X509KeyStorageFlags @keyStorageFlags)
         {
 
             var ___genericsType = new Type[] {};
@@ -1658,7 +1658,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certif
         }
 
 
-        public static System.String FormatDate(System.DateTime  @date)
+        public static System.String FormatDate(System.DateTime @date)
         {
 
             var ___genericsType = new Type[] {};
@@ -1669,7 +1669,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certif
         }
 
 
-        public static void ValidateKeyStorageFlags(System.Security.Cryptography.X509Certificates.X509KeyStorageFlags  @keyStorageFlags)
+        public static void ValidateKeyStorageFlags(System.Security.Cryptography.X509Certificates.X509KeyStorageFlags @keyStorageFlags)
         {
 
             var ___genericsType = new Type[] {};
@@ -1680,7 +1680,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certif
         }
 
 
-        public virtual void VerifyContentType(System.Security.Cryptography.X509Certificates.X509ContentType  @contentType)
+        public virtual void VerifyContentType(System.Security.Cryptography.X509Certificates.X509ContentType @contentType)
         {
 
             var ___genericsType = new Type[] {};
@@ -1691,7 +1691,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certif
         }
 
 
-        public virtual void ImportHandle(RSystem.RSecurity.RCryptography.RX509Certificates.RX509CertificateImpl  @impl)
+        public virtual void ImportHandle(RSystem.RSecurity.RCryptography.RX509Certificates.RX509CertificateImpl @impl)
         {
 
             var ___genericsType = new Type[] {};

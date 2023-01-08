@@ -350,7 +350,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void SelectRange(System.Int32  @cursorIndex, System.Int32  @selectionIndex)
+        public virtual void SelectRange(System.Int32 @cursorIndex, System.Int32 @selectionIndex)
         {
 
             var ___genericsType = new Type[] {};

@@ -181,7 +181,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RHosting
 	    {
 	    }
 
-        public virtual System.Runtime.Remoting.ObjectHandle CreateInstance(System.ActivationContext  @activationContext)
+        public virtual System.Runtime.Remoting.ObjectHandle CreateInstance(System.ActivationContext @activationContext)
         {
 
             var ___genericsType = new Type[] {};
@@ -192,7 +192,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RHosting
         }
 
 
-        public virtual System.Runtime.Remoting.ObjectHandle CreateInstance(System.ActivationContext  @activationContext, System.String[]  @activationCustomData)
+        public virtual System.Runtime.Remoting.ObjectHandle CreateInstance(System.ActivationContext @activationContext, System.String[] @activationCustomData)
         {
 
             var ___genericsType = new Type[] {};
@@ -203,7 +203,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RHosting
         }
 
 
-        public static System.Runtime.Remoting.ObjectHandle CreateInstanceHelper(System.AppDomainSetup  @adSetup)
+        public static System.Runtime.Remoting.ObjectHandle CreateInstanceHelper(System.AppDomainSetup @adSetup)
         {
 
             var ___genericsType = new Type[] {};
@@ -214,7 +214,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RHosting
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

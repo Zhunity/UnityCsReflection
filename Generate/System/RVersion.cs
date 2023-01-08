@@ -685,7 +685,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Int32 CompareTo(System.Object  @version)
+        public virtual System.Int32 CompareTo(System.Object @version)
         {
 
             var ___genericsType = new Type[] {};
@@ -696,7 +696,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Int32 CompareTo(System.Version  @value)
+        public virtual System.Int32 CompareTo(System.Version @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -707,7 +707,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};
@@ -718,7 +718,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Boolean Equals(System.Version  @obj)
+        public virtual System.Boolean Equals(System.Version @obj)
         {
 
             var ___genericsType = new Type[] {};
@@ -751,7 +751,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.String ToString(System.Int32  @fieldCount)
+        public virtual System.String ToString(System.Int32 @fieldCount)
         {
 
             var ___genericsType = new Type[] {};
@@ -765,7 +765,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 
 
 
-        public virtual System.Text.StringBuilder ToCachedStringBuilder(System.Int32  @fieldCount)
+        public virtual System.Text.StringBuilder ToCachedStringBuilder(System.Int32 @fieldCount)
         {
 
             var ___genericsType = new Type[] {};
@@ -776,7 +776,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Version Parse(System.String  @input)
+        public static System.Version Parse(System.String @input)
         {
 
             var ___genericsType = new Type[] {};
@@ -788,7 +788,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 
 
 
-        public static System.Boolean TryParse(System.String  @input, out System.Version  @result)
+        public static System.Boolean TryParse(System.String @input, out System.Version @result)
         {
 			@result = default;
 
@@ -804,7 +804,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 
 
 
-        public static System.Boolean op_Equality(System.Version  @v1, System.Version  @v2)
+        public static System.Boolean op_Equality(System.Version @v1, System.Version @v2)
         {
 
             var ___genericsType = new Type[] {};
@@ -815,7 +815,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Boolean op_Inequality(System.Version  @v1, System.Version  @v2)
+        public static System.Boolean op_Inequality(System.Version @v1, System.Version @v2)
         {
 
             var ___genericsType = new Type[] {};
@@ -826,7 +826,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Boolean op_LessThan(System.Version  @v1, System.Version  @v2)
+        public static System.Boolean op_LessThan(System.Version @v1, System.Version @v2)
         {
 
             var ___genericsType = new Type[] {};
@@ -837,7 +837,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Boolean op_LessThanOrEqual(System.Version  @v1, System.Version  @v2)
+        public static System.Boolean op_LessThanOrEqual(System.Version @v1, System.Version @v2)
         {
 
             var ___genericsType = new Type[] {};
@@ -848,7 +848,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Boolean op_GreaterThan(System.Version  @v1, System.Version  @v2)
+        public static System.Boolean op_GreaterThan(System.Version @v1, System.Version @v2)
         {
 
             var ___genericsType = new Type[] {};
@@ -859,7 +859,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Boolean op_GreaterThanOrEqual(System.Version  @v1, System.Version  @v2)
+        public static System.Boolean op_GreaterThanOrEqual(System.Version @v1, System.Version @v2)
         {
 
             var ___genericsType = new Type[] {};

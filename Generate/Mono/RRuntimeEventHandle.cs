@@ -215,7 +215,7 @@ namespace SMFrame.Editor.Refleaction.RMono
 	    {
 	    }
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};
@@ -226,7 +226,7 @@ namespace SMFrame.Editor.Refleaction.RMono
         }
 
 
-        public virtual System.Boolean Equals(RMono.RRuntimeEventHandle  @handle)
+        public virtual System.Boolean Equals(RMono.RRuntimeEventHandle @handle)
         {
 
             var ___genericsType = new Type[] {};
@@ -248,7 +248,7 @@ namespace SMFrame.Editor.Refleaction.RMono
         }
 
 
-        public static System.Boolean op_Equality(RMono.RRuntimeEventHandle  @left, RMono.RRuntimeEventHandle  @right)
+        public static System.Boolean op_Equality(RMono.RRuntimeEventHandle @left, RMono.RRuntimeEventHandle @right)
         {
 
             var ___genericsType = new Type[] {};
@@ -259,7 +259,7 @@ namespace SMFrame.Editor.Refleaction.RMono
         }
 
 
-        public static System.Boolean op_Inequality(RMono.RRuntimeEventHandle  @left, RMono.RRuntimeEventHandle  @right)
+        public static System.Boolean op_Inequality(RMono.RRuntimeEventHandle @left, RMono.RRuntimeEventHandle @right)
         {
 
             var ___genericsType = new Type[] {};

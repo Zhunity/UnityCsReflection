@@ -555,7 +555,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 	    {
 	    }
 
-        public virtual void CreateFromBinaryForm(System.IntPtr  @binaryForm, System.Int32  @length)
+        public virtual void CreateFromBinaryForm(System.IntPtr @binaryForm, System.Int32 @length)
         {
 
             var ___genericsType = new Type[] {};
@@ -588,7 +588,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal
         }
 
 
-        public virtual System.UInt32 GetSidSubAuthority(System.Byte  @index)
+        public virtual System.UInt32 GetSidSubAuthority(System.Byte @index)
         {
 
             var ___genericsType = new Type[] {};
@@ -599,7 +599,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal
         }
 
 
-        public virtual System.Int32 CompareTo(System.Security.Principal.SecurityIdentifier  @sid)
+        public virtual System.Int32 CompareTo(System.Security.Principal.SecurityIdentifier @sid)
         {
 
             var ___genericsType = new Type[] {};
@@ -610,7 +610,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @o)
+        public virtual System.Boolean Equals(System.Object @o)
         {
 
             var ___genericsType = new Type[] {};
@@ -621,7 +621,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal
         }
 
 
-        public virtual System.Boolean Equals(System.Security.Principal.SecurityIdentifier  @sid)
+        public virtual System.Boolean Equals(System.Security.Principal.SecurityIdentifier @sid)
         {
 
             var ___genericsType = new Type[] {};
@@ -632,7 +632,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal
         }
 
 
-        public virtual void GetBinaryForm(System.Byte[]  @binaryForm, System.Int32  @offset)
+        public virtual void GetBinaryForm(System.Byte[] @binaryForm, System.Int32 @offset)
         {
 
             var ___genericsType = new Type[] {};
@@ -665,7 +665,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal
         }
 
 
-        public virtual System.Boolean IsEqualDomainSid(System.Security.Principal.SecurityIdentifier  @sid)
+        public virtual System.Boolean IsEqualDomainSid(System.Security.Principal.SecurityIdentifier @sid)
         {
 
             var ___genericsType = new Type[] {};
@@ -676,7 +676,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal
         }
 
 
-        public virtual System.Boolean IsValidTargetType(System.Type  @targetType)
+        public virtual System.Boolean IsValidTargetType(System.Type @targetType)
         {
 
             var ___genericsType = new Type[] {};
@@ -687,7 +687,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal
         }
 
 
-        public virtual System.Boolean IsWellKnown(System.Security.Principal.WellKnownSidType  @type)
+        public virtual System.Boolean IsWellKnown(System.Security.Principal.WellKnownSidType @type)
         {
 
             var ___genericsType = new Type[] {};
@@ -709,7 +709,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal
         }
 
 
-        public virtual System.Security.Principal.IdentityReference Translate(System.Type  @targetType)
+        public virtual System.Security.Principal.IdentityReference Translate(System.Type @targetType)
         {
 
             var ___genericsType = new Type[] {};
@@ -720,7 +720,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal
         }
 
 
-        public static System.Boolean op_Equality(System.Security.Principal.SecurityIdentifier  @left, System.Security.Principal.SecurityIdentifier  @right)
+        public static System.Boolean op_Equality(System.Security.Principal.SecurityIdentifier @left, System.Security.Principal.SecurityIdentifier @right)
         {
 
             var ___genericsType = new Type[] {};
@@ -731,7 +731,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal
         }
 
 
-        public static System.Boolean op_Inequality(System.Security.Principal.SecurityIdentifier  @left, System.Security.Principal.SecurityIdentifier  @right)
+        public static System.Boolean op_Inequality(System.Security.Principal.SecurityIdentifier @left, System.Security.Principal.SecurityIdentifier @right)
         {
 
             var ___genericsType = new Type[] {};
@@ -753,7 +753,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal
         }
 
 
-        public static System.Security.Principal.SecurityIdentifier ParseSddlForm(System.String  @sddlForm, ref System.Int32  @pos)
+        public static System.Security.Principal.SecurityIdentifier ParseSddlForm(System.String @sddlForm, ref System.Int32 @pos)
         {
 
             var ___genericsType = new Type[] {};
@@ -765,7 +765,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal
         }
 
 
-        public static System.Byte[] ParseSddlForm(System.String  @sddlForm)
+        public static System.Byte[] ParseSddlForm(System.String @sddlForm)
         {
 
             var ___genericsType = new Type[] {};
@@ -776,7 +776,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal
         }
 
 
-        public static System.Boolean TryParseAuthority(System.String  @s, out System.UInt64  @result)
+        public static System.Boolean TryParseAuthority(System.String @s, out System.UInt64 @result)
         {
 			@result = default;
 
@@ -789,7 +789,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal
         }
 
 
-        public static System.Boolean TryParseSubAuthority(System.String  @s, out System.UInt32  @result)
+        public static System.Boolean TryParseSubAuthority(System.String @s, out System.UInt32 @result)
         {
 			@result = default;
 

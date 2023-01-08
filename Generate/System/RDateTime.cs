@@ -2901,7 +2901,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 	    {
 	    }
 
-        public virtual System.DateTime Add(System.TimeSpan  @value)
+        public virtual System.DateTime Add(System.TimeSpan @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -2912,7 +2912,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.DateTime Add(System.Double  @value, System.Int32  @scale)
+        public virtual System.DateTime Add(System.Double @value, System.Int32 @scale)
         {
 
             var ___genericsType = new Type[] {};
@@ -2923,7 +2923,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.DateTime AddDays(System.Double  @value)
+        public virtual System.DateTime AddDays(System.Double @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -2934,7 +2934,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.DateTime AddHours(System.Double  @value)
+        public virtual System.DateTime AddHours(System.Double @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -2945,7 +2945,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.DateTime AddMilliseconds(System.Double  @value)
+        public virtual System.DateTime AddMilliseconds(System.Double @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -2956,7 +2956,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.DateTime AddMinutes(System.Double  @value)
+        public virtual System.DateTime AddMinutes(System.Double @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -2967,7 +2967,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.DateTime AddMonths(System.Int32  @months)
+        public virtual System.DateTime AddMonths(System.Int32 @months)
         {
 
             var ___genericsType = new Type[] {};
@@ -2978,7 +2978,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.DateTime AddSeconds(System.Double  @value)
+        public virtual System.DateTime AddSeconds(System.Double @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -2989,7 +2989,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.DateTime AddTicks(System.Int64  @value)
+        public virtual System.DateTime AddTicks(System.Int64 @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -3000,7 +3000,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.DateTime AddYears(System.Int32  @value)
+        public virtual System.DateTime AddYears(System.Int32 @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -3011,7 +3011,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Int32 Compare(System.DateTime  @t1, System.DateTime  @t2)
+        public static System.Int32 Compare(System.DateTime @t1, System.DateTime @t2)
         {
 
             var ___genericsType = new Type[] {};
@@ -3022,7 +3022,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Int32 CompareTo(System.Object  @value)
+        public virtual System.Int32 CompareTo(System.Object @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -3033,7 +3033,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Int32 CompareTo(System.DateTime  @value)
+        public virtual System.Int32 CompareTo(System.DateTime @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -3044,7 +3044,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Int64 DateToTicks(System.Int32  @year, System.Int32  @month, System.Int32  @day)
+        public static System.Int64 DateToTicks(System.Int32 @year, System.Int32 @month, System.Int32 @day)
         {
 
             var ___genericsType = new Type[] {};
@@ -3055,7 +3055,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Int64 TimeToTicks(System.Int32  @hour, System.Int32  @minute, System.Int32  @second)
+        public static System.Int64 TimeToTicks(System.Int32 @hour, System.Int32 @minute, System.Int32 @second)
         {
 
             var ___genericsType = new Type[] {};
@@ -3066,7 +3066,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Int32 DaysInMonth(System.Int32  @year, System.Int32  @month)
+        public static System.Int32 DaysInMonth(System.Int32 @year, System.Int32 @month)
         {
 
             var ___genericsType = new Type[] {};
@@ -3077,7 +3077,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Int64 DoubleDateToTicks(System.Double  @value)
+        public static System.Int64 DoubleDateToTicks(System.Double @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -3088,7 +3088,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @value)
+        public virtual System.Boolean Equals(System.Object @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -3099,7 +3099,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Boolean Equals(System.DateTime  @value)
+        public virtual System.Boolean Equals(System.DateTime @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -3110,7 +3110,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Boolean Equals(System.DateTime  @t1, System.DateTime  @t2)
+        public static System.Boolean Equals(System.DateTime @t1, System.DateTime @t2)
         {
 
             var ___genericsType = new Type[] {};
@@ -3121,7 +3121,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.DateTime FromBinary(System.Int64  @dateData)
+        public static System.DateTime FromBinary(System.Int64 @dateData)
         {
 
             var ___genericsType = new Type[] {};
@@ -3132,7 +3132,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.DateTime FromBinaryRaw(System.Int64  @dateData)
+        public static System.DateTime FromBinaryRaw(System.Int64 @dateData)
         {
 
             var ___genericsType = new Type[] {};
@@ -3143,7 +3143,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.DateTime FromFileTime(System.Int64  @fileTime)
+        public static System.DateTime FromFileTime(System.Int64 @fileTime)
         {
 
             var ___genericsType = new Type[] {};
@@ -3154,7 +3154,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.DateTime FromFileTimeUtc(System.Int64  @fileTime)
+        public static System.DateTime FromFileTimeUtc(System.Int64 @fileTime)
         {
 
             var ___genericsType = new Type[] {};
@@ -3165,7 +3165,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.DateTime FromOADate(System.Double  @d)
+        public static System.DateTime FromOADate(System.Double @d)
         {
 
             var ___genericsType = new Type[] {};
@@ -3176,7 +3176,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual void System__2__Runtime__2__Serialization__2__ISerializable__2__GetObjectData(System.Runtime.Serialization.SerializationInfo  @info, System.Runtime.Serialization.StreamingContext  @context)
+        public virtual void System__2__Runtime__2__Serialization__2__ISerializable__2__GetObjectData(System.Runtime.Serialization.SerializationInfo @info, System.Runtime.Serialization.StreamingContext @context)
         {
 
             var ___genericsType = new Type[] {};
@@ -3198,7 +3198,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.DateTime SpecifyKind(System.DateTime  @value, System.DateTimeKind  @kind)
+        public static System.DateTime SpecifyKind(System.DateTime @value, System.DateTimeKind @kind)
         {
 
             var ___genericsType = new Type[] {};
@@ -3220,7 +3220,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Int32 GetDatePart(System.Int32  @part)
+        public virtual System.Int32 GetDatePart(System.Int32 @part)
         {
 
             var ___genericsType = new Type[] {};
@@ -3231,7 +3231,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual void GetDatePart(out System.Int32  @year, out System.Int32  @month, out System.Int32  @day)
+        public virtual void GetDatePart(out System.Int32 @year, out System.Int32 @month, out System.Int32 @day)
         {
 			@year = default;
 			@month = default;
@@ -3270,7 +3270,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Boolean IsLeapYear(System.Int32  @year)
+        public static System.Boolean IsLeapYear(System.Int32 @year)
         {
 
             var ___genericsType = new Type[] {};
@@ -3281,7 +3281,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.DateTime Parse(System.String  @s)
+        public static System.DateTime Parse(System.String @s)
         {
 
             var ___genericsType = new Type[] {};
@@ -3292,7 +3292,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.DateTime Parse(System.String  @s, System.IFormatProvider  @provider)
+        public static System.DateTime Parse(System.String @s, System.IFormatProvider @provider)
         {
 
             var ___genericsType = new Type[] {};
@@ -3303,7 +3303,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.DateTime Parse(System.String  @s, System.IFormatProvider  @provider, System.Globalization.DateTimeStyles  @styles)
+        public static System.DateTime Parse(System.String @s, System.IFormatProvider @provider, System.Globalization.DateTimeStyles @styles)
         {
 
             var ___genericsType = new Type[] {};
@@ -3315,7 +3315,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 
 
 
-        public static System.DateTime ParseExact(System.String  @s, System.String  @format, System.IFormatProvider  @provider)
+        public static System.DateTime ParseExact(System.String @s, System.String @format, System.IFormatProvider @provider)
         {
 
             var ___genericsType = new Type[] {};
@@ -3326,7 +3326,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.DateTime ParseExact(System.String  @s, System.String  @format, System.IFormatProvider  @provider, System.Globalization.DateTimeStyles  @style)
+        public static System.DateTime ParseExact(System.String @s, System.String @format, System.IFormatProvider @provider, System.Globalization.DateTimeStyles @style)
         {
 
             var ___genericsType = new Type[] {};
@@ -3338,7 +3338,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 
 
 
-        public static System.DateTime ParseExact(System.String  @s, System.String[]  @formats, System.IFormatProvider  @provider, System.Globalization.DateTimeStyles  @style)
+        public static System.DateTime ParseExact(System.String @s, System.String[] @formats, System.IFormatProvider @provider, System.Globalization.DateTimeStyles @style)
         {
 
             var ___genericsType = new Type[] {};
@@ -3350,7 +3350,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 
 
 
-        public virtual System.TimeSpan Subtract(System.DateTime  @value)
+        public virtual System.TimeSpan Subtract(System.DateTime @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -3361,7 +3361,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.DateTime Subtract(System.TimeSpan  @value)
+        public virtual System.DateTime Subtract(System.TimeSpan @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -3372,7 +3372,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Double TicksToOADate(System.Int64  @value)
+        public static System.Double TicksToOADate(System.Int64 @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -3427,7 +3427,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.DateTime ToLocalTime(System.Boolean  @throwOnOverflow)
+        public virtual System.DateTime ToLocalTime(System.Boolean @throwOnOverflow)
         {
 
             var ___genericsType = new Type[] {};
@@ -3493,7 +3493,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.String ToString(System.String  @format)
+        public virtual System.String ToString(System.String @format)
         {
 
             var ___genericsType = new Type[] {};
@@ -3504,7 +3504,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.String ToString(System.IFormatProvider  @provider)
+        public virtual System.String ToString(System.IFormatProvider @provider)
         {
 
             var ___genericsType = new Type[] {};
@@ -3515,7 +3515,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.String ToString(System.String  @format, System.IFormatProvider  @provider)
+        public virtual System.String ToString(System.String @format, System.IFormatProvider @provider)
         {
 
             var ___genericsType = new Type[] {};
@@ -3538,7 +3538,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Boolean TryParse(System.String  @s, out System.DateTime  @result)
+        public static System.Boolean TryParse(System.String @s, out System.DateTime @result)
         {
 			@result = default;
 
@@ -3552,7 +3552,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 
 
 
-        public static System.Boolean TryParse(System.String  @s, System.IFormatProvider  @provider, System.Globalization.DateTimeStyles  @styles, out System.DateTime  @result)
+        public static System.Boolean TryParse(System.String @s, System.IFormatProvider @provider, System.Globalization.DateTimeStyles @styles, out System.DateTime @result)
         {
 			@result = default;
 
@@ -3566,7 +3566,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 
 
 
-        public static System.Boolean TryParseExact(System.String  @s, System.String  @format, System.IFormatProvider  @provider, System.Globalization.DateTimeStyles  @style, out System.DateTime  @result)
+        public static System.Boolean TryParseExact(System.String @s, System.String @format, System.IFormatProvider @provider, System.Globalization.DateTimeStyles @style, out System.DateTime @result)
         {
 			@result = default;
 
@@ -3580,7 +3580,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 
 
 
-        public static System.Boolean TryParseExact(System.String  @s, System.String[]  @formats, System.IFormatProvider  @provider, System.Globalization.DateTimeStyles  @style, out System.DateTime  @result)
+        public static System.Boolean TryParseExact(System.String @s, System.String[] @formats, System.IFormatProvider @provider, System.Globalization.DateTimeStyles @style, out System.DateTime @result)
         {
 			@result = default;
 
@@ -3594,7 +3594,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 
 
 
-        public static System.DateTime op_Addition(System.DateTime  @d, System.TimeSpan  @t)
+        public static System.DateTime op_Addition(System.DateTime @d, System.TimeSpan @t)
         {
 
             var ___genericsType = new Type[] {};
@@ -3605,7 +3605,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.DateTime op_Subtraction(System.DateTime  @d, System.TimeSpan  @t)
+        public static System.DateTime op_Subtraction(System.DateTime @d, System.TimeSpan @t)
         {
 
             var ___genericsType = new Type[] {};
@@ -3616,7 +3616,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.TimeSpan op_Subtraction(System.DateTime  @d1, System.DateTime  @d2)
+        public static System.TimeSpan op_Subtraction(System.DateTime @d1, System.DateTime @d2)
         {
 
             var ___genericsType = new Type[] {};
@@ -3627,7 +3627,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Boolean op_Equality(System.DateTime  @d1, System.DateTime  @d2)
+        public static System.Boolean op_Equality(System.DateTime @d1, System.DateTime @d2)
         {
 
             var ___genericsType = new Type[] {};
@@ -3638,7 +3638,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Boolean op_Inequality(System.DateTime  @d1, System.DateTime  @d2)
+        public static System.Boolean op_Inequality(System.DateTime @d1, System.DateTime @d2)
         {
 
             var ___genericsType = new Type[] {};
@@ -3649,7 +3649,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Boolean op_LessThan(System.DateTime  @t1, System.DateTime  @t2)
+        public static System.Boolean op_LessThan(System.DateTime @t1, System.DateTime @t2)
         {
 
             var ___genericsType = new Type[] {};
@@ -3660,7 +3660,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Boolean op_LessThanOrEqual(System.DateTime  @t1, System.DateTime  @t2)
+        public static System.Boolean op_LessThanOrEqual(System.DateTime @t1, System.DateTime @t2)
         {
 
             var ___genericsType = new Type[] {};
@@ -3671,7 +3671,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Boolean op_GreaterThan(System.DateTime  @t1, System.DateTime  @t2)
+        public static System.Boolean op_GreaterThan(System.DateTime @t1, System.DateTime @t2)
         {
 
             var ___genericsType = new Type[] {};
@@ -3682,7 +3682,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Boolean op_GreaterThanOrEqual(System.DateTime  @t1, System.DateTime  @t2)
+        public static System.Boolean op_GreaterThanOrEqual(System.DateTime @t1, System.DateTime @t2)
         {
 
             var ___genericsType = new Type[] {};
@@ -3704,7 +3704,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.String[] GetDateTimeFormats(System.IFormatProvider  @provider)
+        public virtual System.String[] GetDateTimeFormats(System.IFormatProvider @provider)
         {
 
             var ___genericsType = new Type[] {};
@@ -3715,7 +3715,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.String[] GetDateTimeFormats(System.Char  @format)
+        public virtual System.String[] GetDateTimeFormats(System.Char @format)
         {
 
             var ___genericsType = new Type[] {};
@@ -3726,7 +3726,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.String[] GetDateTimeFormats(System.Char  @format, System.IFormatProvider  @provider)
+        public virtual System.String[] GetDateTimeFormats(System.Char @format, System.IFormatProvider @provider)
         {
 
             var ___genericsType = new Type[] {};
@@ -3748,7 +3748,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Boolean System__2__IConvertible__2__ToBoolean(System.IFormatProvider  @provider)
+        public virtual System.Boolean System__2__IConvertible__2__ToBoolean(System.IFormatProvider @provider)
         {
 
             var ___genericsType = new Type[] {};
@@ -3759,7 +3759,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Char System__2__IConvertible__2__ToChar(System.IFormatProvider  @provider)
+        public virtual System.Char System__2__IConvertible__2__ToChar(System.IFormatProvider @provider)
         {
 
             var ___genericsType = new Type[] {};
@@ -3770,7 +3770,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.SByte System__2__IConvertible__2__ToSByte(System.IFormatProvider  @provider)
+        public virtual System.SByte System__2__IConvertible__2__ToSByte(System.IFormatProvider @provider)
         {
 
             var ___genericsType = new Type[] {};
@@ -3781,7 +3781,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Byte System__2__IConvertible__2__ToByte(System.IFormatProvider  @provider)
+        public virtual System.Byte System__2__IConvertible__2__ToByte(System.IFormatProvider @provider)
         {
 
             var ___genericsType = new Type[] {};
@@ -3792,7 +3792,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Int16 System__2__IConvertible__2__ToInt16(System.IFormatProvider  @provider)
+        public virtual System.Int16 System__2__IConvertible__2__ToInt16(System.IFormatProvider @provider)
         {
 
             var ___genericsType = new Type[] {};
@@ -3803,7 +3803,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.UInt16 System__2__IConvertible__2__ToUInt16(System.IFormatProvider  @provider)
+        public virtual System.UInt16 System__2__IConvertible__2__ToUInt16(System.IFormatProvider @provider)
         {
 
             var ___genericsType = new Type[] {};
@@ -3814,7 +3814,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Int32 System__2__IConvertible__2__ToInt32(System.IFormatProvider  @provider)
+        public virtual System.Int32 System__2__IConvertible__2__ToInt32(System.IFormatProvider @provider)
         {
 
             var ___genericsType = new Type[] {};
@@ -3825,7 +3825,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.UInt32 System__2__IConvertible__2__ToUInt32(System.IFormatProvider  @provider)
+        public virtual System.UInt32 System__2__IConvertible__2__ToUInt32(System.IFormatProvider @provider)
         {
 
             var ___genericsType = new Type[] {};
@@ -3836,7 +3836,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Int64 System__2__IConvertible__2__ToInt64(System.IFormatProvider  @provider)
+        public virtual System.Int64 System__2__IConvertible__2__ToInt64(System.IFormatProvider @provider)
         {
 
             var ___genericsType = new Type[] {};
@@ -3847,7 +3847,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.UInt64 System__2__IConvertible__2__ToUInt64(System.IFormatProvider  @provider)
+        public virtual System.UInt64 System__2__IConvertible__2__ToUInt64(System.IFormatProvider @provider)
         {
 
             var ___genericsType = new Type[] {};
@@ -3858,7 +3858,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Single System__2__IConvertible__2__ToSingle(System.IFormatProvider  @provider)
+        public virtual System.Single System__2__IConvertible__2__ToSingle(System.IFormatProvider @provider)
         {
 
             var ___genericsType = new Type[] {};
@@ -3869,7 +3869,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Double System__2__IConvertible__2__ToDouble(System.IFormatProvider  @provider)
+        public virtual System.Double System__2__IConvertible__2__ToDouble(System.IFormatProvider @provider)
         {
 
             var ___genericsType = new Type[] {};
@@ -3880,7 +3880,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Decimal System__2__IConvertible__2__ToDecimal(System.IFormatProvider  @provider)
+        public virtual System.Decimal System__2__IConvertible__2__ToDecimal(System.IFormatProvider @provider)
         {
 
             var ___genericsType = new Type[] {};
@@ -3891,7 +3891,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.DateTime System__2__IConvertible__2__ToDateTime(System.IFormatProvider  @provider)
+        public virtual System.DateTime System__2__IConvertible__2__ToDateTime(System.IFormatProvider @provider)
         {
 
             var ___genericsType = new Type[] {};
@@ -3902,7 +3902,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Object System__2__IConvertible__2__ToType(System.Type  @type, System.IFormatProvider  @provider)
+        public virtual System.Object System__2__IConvertible__2__ToType(System.Type @type, System.IFormatProvider @provider)
         {
 
             var ___genericsType = new Type[] {};
@@ -3913,7 +3913,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Boolean TryCreate(System.Int32  @year, System.Int32  @month, System.Int32  @day, System.Int32  @hour, System.Int32  @minute, System.Int32  @second, System.Int32  @millisecond, out System.DateTime  @result)
+        public static System.Boolean TryCreate(System.Int32 @year, System.Int32 @month, System.Int32 @day, System.Int32 @hour, System.Int32 @minute, System.Int32 @second, System.Int32 @millisecond, out System.DateTime @result)
         {
 			@result = default;
 

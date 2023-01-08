@@ -481,7 +481,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
         }
 
 
-        public virtual void Dispose(System.Boolean  @disposing)
+        public virtual void Dispose(System.Boolean @disposing)
         {
 
             var ___genericsType = new Type[] {};
@@ -514,18 +514,18 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
         }
 
 
-        public virtual System.Object AddUser(UnityEngine.UIElements.VectorImage  @vi, UnityEngine.UIElements.VisualElement  @context)
+        public virtual RUnityEngine.RUIElements.RUIR.RGradientRemap AddUser(UnityEngine.UIElements.VectorImage @vi, UnityEngine.UIElements.VisualElement @context)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@vi, @context};
             var ___result = RAddUser_VectorImage_VisualElement.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RUnityEngine.RUIElements.RUIR.RGradientRemap(___result);
         }
 
 
-        public virtual void RemoveUser(UnityEngine.UIElements.VectorImage  @vi)
+        public virtual void RemoveUser(UnityEngine.UIElements.VectorImage @vi)
         {
 
             var ___genericsType = new Type[] {};
@@ -536,18 +536,18 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
         }
 
 
-        public virtual System.Object Register(UnityEngine.UIElements.VectorImage  @vi, UnityEngine.UIElements.VisualElement  @context)
+        public virtual RUnityEngine.RUIElements.RUIR.RVectorImageRenderInfo Register(UnityEngine.UIElements.VectorImage @vi, UnityEngine.UIElements.VisualElement @context)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@vi, @context};
             var ___result = RRegister_VectorImage_VisualElement.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RUnityEngine.RUIElements.RUIR.RVectorImageRenderInfo(___result);
         }
 
 
-        public virtual void Unregister(UnityEngine.UIElements.VectorImage  @vi, RUnityEngine.RUIElements.RUIR.RVectorImageRenderInfo  @renderInfo)
+        public virtual void Unregister(UnityEngine.UIElements.VectorImage @vi, RUnityEngine.RUIElements.RUIR.RVectorImageRenderInfo @renderInfo)
         {
 
             var ___genericsType = new Type[] {};
@@ -558,7 +558,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

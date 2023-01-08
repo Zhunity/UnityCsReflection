@@ -470,7 +470,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting
 	    {
 	    }
 
-        public virtual System.Runtime.Remoting.ObjRef CreateObjRef(System.Type  @requestedType)
+        public virtual System.Runtime.Remoting.ObjRef CreateObjRef(System.Type @requestedType)
         {
 
             var ___genericsType = new Type[] {};
@@ -481,7 +481,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting
         }
 
 
-        public virtual void NotifyClientDynamicSinks(System.Boolean  @start, System.Runtime.Remoting.Messaging.IMessage  @req_msg, System.Boolean  @client_site, System.Boolean  @async)
+        public virtual void NotifyClientDynamicSinks(System.Boolean @start, System.Runtime.Remoting.Messaging.IMessage @req_msg, System.Boolean @client_site, System.Boolean @async)
         {
 
             var ___genericsType = new Type[] {};
@@ -492,7 +492,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting
         }
 
 
-        public virtual void NotifyServerDynamicSinks(System.Boolean  @start, System.Runtime.Remoting.Messaging.IMessage  @req_msg, System.Boolean  @client_site, System.Boolean  @async)
+        public virtual void NotifyServerDynamicSinks(System.Boolean @start, System.Runtime.Remoting.Messaging.IMessage @req_msg, System.Boolean @client_site, System.Boolean @async)
         {
 
             var ___genericsType = new Type[] {};
@@ -503,7 +503,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

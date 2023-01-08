@@ -260,7 +260,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
         }
 
 
-        public virtual void Begin(UnityEngine.Object  @contextUnityObject)
+        public virtual void Begin(UnityEngine.Object @contextUnityObject)
         {
 
             var ___genericsType = new Type[] {};
@@ -282,7 +282,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
         }
 
 
-        public virtual void GetName(ref System.String  @name)
+        public virtual void GetName(ref System.String @name)
         {
 
             var ___genericsType = new Type[] {};
@@ -294,18 +294,18 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
         }
 
 
-        public virtual System.Object Auto()
+        public virtual RUnity.RProfiling.RProfilerMarker.RAutoScope Auto()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RAuto.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RUnity.RProfiling.RProfilerMarker.RAutoScope(___result);
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

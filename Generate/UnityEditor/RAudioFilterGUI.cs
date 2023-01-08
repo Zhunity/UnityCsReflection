@@ -164,7 +164,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 	    {
 	    }
 
-        public virtual void DrawAudioFilterGUI(UnityEngine.MonoBehaviour  @behaviour)
+        public virtual void DrawAudioFilterGUI(UnityEngine.MonoBehaviour @behaviour)
         {
 
             var ___genericsType = new Type[] {};
@@ -175,7 +175,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

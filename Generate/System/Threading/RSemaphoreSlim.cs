@@ -770,7 +770,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public virtual void Wait(System.Threading.CancellationToken  @cancellationToken)
+        public virtual void Wait(System.Threading.CancellationToken @cancellationToken)
         {
 
             var ___genericsType = new Type[] {};
@@ -781,7 +781,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public virtual System.Boolean Wait(System.TimeSpan  @timeout)
+        public virtual System.Boolean Wait(System.TimeSpan @timeout)
         {
 
             var ___genericsType = new Type[] {};
@@ -792,7 +792,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public virtual System.Boolean Wait(System.TimeSpan  @timeout, System.Threading.CancellationToken  @cancellationToken)
+        public virtual System.Boolean Wait(System.TimeSpan @timeout, System.Threading.CancellationToken @cancellationToken)
         {
 
             var ___genericsType = new Type[] {};
@@ -803,7 +803,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public virtual System.Boolean Wait(System.Int32  @millisecondsTimeout)
+        public virtual System.Boolean Wait(System.Int32 @millisecondsTimeout)
         {
 
             var ___genericsType = new Type[] {};
@@ -814,7 +814,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public virtual System.Boolean Wait(System.Int32  @millisecondsTimeout, System.Threading.CancellationToken  @cancellationToken)
+        public virtual System.Boolean Wait(System.Int32 @millisecondsTimeout, System.Threading.CancellationToken @cancellationToken)
         {
 
             var ___genericsType = new Type[] {};
@@ -825,7 +825,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public virtual System.Boolean WaitUntilCountOrTimeout(System.Int32  @millisecondsTimeout, System.UInt32  @startTime, System.Threading.CancellationToken  @cancellationToken)
+        public virtual System.Boolean WaitUntilCountOrTimeout(System.Int32 @millisecondsTimeout, System.UInt32 @startTime, System.Threading.CancellationToken @cancellationToken)
         {
 
             var ___genericsType = new Type[] {};
@@ -847,7 +847,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public virtual System.Threading.Tasks.Task WaitAsync(System.Threading.CancellationToken  @cancellationToken)
+        public virtual System.Threading.Tasks.Task WaitAsync(System.Threading.CancellationToken @cancellationToken)
         {
 
             var ___genericsType = new Type[] {};
@@ -858,7 +858,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public virtual System.Threading.Tasks.Task<System.Boolean> WaitAsync(System.Int32  @millisecondsTimeout)
+        public virtual System.Threading.Tasks.Task<System.Boolean> WaitAsync(System.Int32 @millisecondsTimeout)
         {
 
             var ___genericsType = new Type[] {};
@@ -869,7 +869,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public virtual System.Threading.Tasks.Task<System.Boolean> WaitAsync(System.TimeSpan  @timeout)
+        public virtual System.Threading.Tasks.Task<System.Boolean> WaitAsync(System.TimeSpan @timeout)
         {
 
             var ___genericsType = new Type[] {};
@@ -880,7 +880,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public virtual System.Threading.Tasks.Task<System.Boolean> WaitAsync(System.TimeSpan  @timeout, System.Threading.CancellationToken  @cancellationToken)
+        public virtual System.Threading.Tasks.Task<System.Boolean> WaitAsync(System.TimeSpan @timeout, System.Threading.CancellationToken @cancellationToken)
         {
 
             var ___genericsType = new Type[] {};
@@ -891,7 +891,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public virtual System.Threading.Tasks.Task<System.Boolean> WaitAsync(System.Int32  @millisecondsTimeout, System.Threading.CancellationToken  @cancellationToken)
+        public virtual System.Threading.Tasks.Task<System.Boolean> WaitAsync(System.Int32 @millisecondsTimeout, System.Threading.CancellationToken @cancellationToken)
         {
 
             var ___genericsType = new Type[] {};
@@ -902,18 +902,18 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public virtual System.Object CreateAndAddAsyncWaiter()
+        public virtual RSystem.RThreading.RSemaphoreSlim.RTaskNode CreateAndAddAsyncWaiter()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RCreateAndAddAsyncWaiter.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RSystem.RThreading.RSemaphoreSlim.RTaskNode(___result);
         }
 
 
-        public virtual System.Boolean RemoveAsyncWaiter(RSystem.RThreading.RSemaphoreSlim.RTaskNode  @task)
+        public virtual System.Boolean RemoveAsyncWaiter(RSystem.RThreading.RSemaphoreSlim.RTaskNode @task)
         {
 
             var ___genericsType = new Type[] {};
@@ -924,7 +924,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public virtual System.Threading.Tasks.Task<System.Boolean> WaitUntilCountOrTimeoutAsync(RSystem.RThreading.RSemaphoreSlim.RTaskNode  @asyncWaiter, System.Int32  @millisecondsTimeout, System.Threading.CancellationToken  @cancellationToken)
+        public virtual System.Threading.Tasks.Task<System.Boolean> WaitUntilCountOrTimeoutAsync(RSystem.RThreading.RSemaphoreSlim.RTaskNode @asyncWaiter, System.Int32 @millisecondsTimeout, System.Threading.CancellationToken @cancellationToken)
         {
 
             var ___genericsType = new Type[] {};
@@ -946,7 +946,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public virtual System.Int32 Release(System.Int32  @releaseCount)
+        public virtual System.Int32 Release(System.Int32 @releaseCount)
         {
 
             var ___genericsType = new Type[] {};
@@ -957,7 +957,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public static void QueueWaiterTask(RSystem.RThreading.RSemaphoreSlim.RTaskNode  @waiterTask)
+        public static void QueueWaiterTask(RSystem.RThreading.RSemaphoreSlim.RTaskNode @waiterTask)
         {
 
             var ___genericsType = new Type[] {};
@@ -979,7 +979,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public virtual void Dispose(System.Boolean  @disposing)
+        public virtual void Dispose(System.Boolean @disposing)
         {
 
             var ___genericsType = new Type[] {};
@@ -990,7 +990,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public static void CancellationTokenCanceledEventHandler(System.Object  @obj)
+        public static void CancellationTokenCanceledEventHandler(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};
@@ -1012,7 +1012,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public static System.String GetResourceString(System.String  @str)
+        public static System.String GetResourceString(System.String @str)
         {
 
             var ___genericsType = new Type[] {};
@@ -1023,7 +1023,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

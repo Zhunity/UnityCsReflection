@@ -611,7 +611,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public static UnityEngine.UIElements.EventDispatcher CreateForRuntime(RSystem.RCollections.RGeneric.RIList<RUnityEngine.RUIElements.RIEventDispatchingStrategy>  @strategies)
+        public static UnityEngine.UIElements.EventDispatcher CreateForRuntime(RSystem.RCollections.RGeneric.RIList<RUnityEngine.RUIElements.RIEventDispatchingStrategy> @strategies)
         {
 
             var ___genericsType = new Type[] {};
@@ -622,7 +622,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void Dispatch(UnityEngine.UIElements.EventBase  @evt, UnityEngine.UIElements.IPanel  @panel, RType  @dispatchMode)
+        public virtual void Dispatch(UnityEngine.UIElements.EventBase @evt, UnityEngine.UIElements.IPanel @panel, RType @dispatchMode)
         {
 
             var ___genericsType = new Type[] {};
@@ -688,7 +688,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void ProcessEvent(UnityEngine.UIElements.EventBase  @evt, UnityEngine.UIElements.IPanel  @panel)
+        public virtual void ProcessEvent(UnityEngine.UIElements.EventBase @evt, UnityEngine.UIElements.IPanel @panel)
         {
 
             var ___genericsType = new Type[] {};
@@ -699,7 +699,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void ApplyDispatchingStrategies(UnityEngine.UIElements.EventBase  @evt, UnityEngine.UIElements.IPanel  @panel, System.Boolean  @imguiEventIsInitiallyUsed)
+        public virtual void ApplyDispatchingStrategies(UnityEngine.UIElements.EventBase @evt, UnityEngine.UIElements.IPanel @panel, System.Boolean @imguiEventIsInitiallyUsed)
         {
 
             var ___genericsType = new Type[] {};
@@ -710,7 +710,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

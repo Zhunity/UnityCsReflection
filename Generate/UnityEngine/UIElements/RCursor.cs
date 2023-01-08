@@ -300,7 +300,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 	    {
 	    }
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};
@@ -311,7 +311,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean Equals(UnityEngine.UIElements.Cursor  @other)
+        public virtual System.Boolean Equals(UnityEngine.UIElements.Cursor @other)
         {
 
             var ___genericsType = new Type[] {};
@@ -333,7 +333,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public static System.Boolean op_Equality(UnityEngine.UIElements.Cursor  @style1, UnityEngine.UIElements.Cursor  @style2)
+        public static System.Boolean op_Equality(UnityEngine.UIElements.Cursor @style1, UnityEngine.UIElements.Cursor @style2)
         {
 
             var ___genericsType = new Type[] {};
@@ -344,7 +344,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public static System.Boolean op_Inequality(UnityEngine.UIElements.Cursor  @style1, UnityEngine.UIElements.Cursor  @style2)
+        public static System.Boolean op_Inequality(UnityEngine.UIElements.Cursor @style1, UnityEngine.UIElements.Cursor @style2)
         {
 
             var ___genericsType = new Type[] {};

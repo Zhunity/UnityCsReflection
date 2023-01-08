@@ -62,7 +62,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 	    {
 	    }
 
-        public virtual void SetCursor(UnityEngine.UIElements.Cursor  @cursor)
+        public virtual void SetCursor(UnityEngine.UIElements.Cursor @cursor)
         {
 
             var ___genericsType = new Type[] {};

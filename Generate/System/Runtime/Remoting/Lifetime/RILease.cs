@@ -181,7 +181,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RLifetime
 	    {
 	    }
 
-        public virtual void Register(System.Runtime.Remoting.Lifetime.ISponsor  @obj)
+        public virtual void Register(System.Runtime.Remoting.Lifetime.ISponsor @obj)
         {
 
             var ___genericsType = new Type[] {};
@@ -192,7 +192,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RLifetime
         }
 
 
-        public virtual void Register(System.Runtime.Remoting.Lifetime.ISponsor  @obj, System.TimeSpan  @renewalTime)
+        public virtual void Register(System.Runtime.Remoting.Lifetime.ISponsor @obj, System.TimeSpan @renewalTime)
         {
 
             var ___genericsType = new Type[] {};
@@ -203,7 +203,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RLifetime
         }
 
 
-        public virtual System.TimeSpan Renew(System.TimeSpan  @renewalTime)
+        public virtual System.TimeSpan Renew(System.TimeSpan @renewalTime)
         {
 
             var ___genericsType = new Type[] {};
@@ -214,7 +214,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RLifetime
         }
 
 
-        public virtual void Unregister(System.Runtime.Remoting.Lifetime.ISponsor  @obj)
+        public virtual void Unregister(System.Runtime.Remoting.Lifetime.ISponsor @obj)
         {
 
             var ___genericsType = new Type[] {};

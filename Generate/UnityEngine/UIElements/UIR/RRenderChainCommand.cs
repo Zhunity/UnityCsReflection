@@ -464,7 +464,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
         }
 
 
-        public virtual void ExecuteNonDrawMesh(RUnityEngine.RUIElements.RUIR.RDrawParams  @drawParams, System.Single  @pixelsPerPoint, ref System.Exception  @immediateException)
+        public virtual void ExecuteNonDrawMesh(RUnityEngine.RUIElements.RUIR.RDrawParams @drawParams, System.Single @pixelsPerPoint, ref System.Exception @immediateException)
         {
 
             var ___genericsType = new Type[] {};
@@ -476,7 +476,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
         }
 
 
-        public virtual void Blit(UnityEngine.Texture  @source, UnityEngine.RenderTexture  @destination, System.Single  @depth)
+        public virtual void Blit(UnityEngine.Texture @source, UnityEngine.RenderTexture @destination, System.Single @depth)
         {
 
             var ___genericsType = new Type[] {};
@@ -487,7 +487,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
         }
 
 
-        public static UnityEngine.Vector4 RectToClipSpace(UnityEngine.Rect  @rc)
+        public static UnityEngine.Vector4 RectToClipSpace(UnityEngine.Rect @rc)
         {
 
             var ___genericsType = new Type[] {};
@@ -498,7 +498,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
         }
 
 
-        public static UnityEngine.Rect CombineScissorRects(UnityEngine.Rect  @r0, UnityEngine.Rect  @r1)
+        public static UnityEngine.Rect CombineScissorRects(UnityEngine.Rect @r0, UnityEngine.Rect @r1)
         {
 
             var ___genericsType = new Type[] {};
@@ -509,7 +509,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
         }
 
 
-        public static UnityEngine.RectInt RectPointsToPixelsAndFlipYAxis(UnityEngine.Rect  @rect, System.Single  @pixelsPerPoint)
+        public static UnityEngine.RectInt RectPointsToPixelsAndFlipYAxis(UnityEngine.Rect @rect, System.Single @pixelsPerPoint)
         {
 
             var ___genericsType = new Type[] {};
@@ -520,7 +520,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

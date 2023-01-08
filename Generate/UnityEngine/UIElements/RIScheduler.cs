@@ -130,40 +130,40 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 	    {
 	    }
 
-        public virtual System.Object ScheduleOnce(System.Action<UnityEngine.UIElements.TimerState>  @timerUpdateEvent, System.Int64  @delayMs)
+        public virtual RUnityEngine.RUIElements.RScheduledItem ScheduleOnce(System.Action<UnityEngine.UIElements.TimerState> @timerUpdateEvent, System.Int64 @delayMs)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@timerUpdateEvent, @delayMs};
             var ___result = RScheduleOnce_Action_d_TimerState_p__Int64.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RUnityEngine.RUIElements.RScheduledItem(___result);
         }
 
 
-        public virtual System.Object ScheduleUntil(System.Action<UnityEngine.UIElements.TimerState>  @timerUpdateEvent, System.Int64  @delayMs, System.Int64  @intervalMs, System.Func<System.Boolean>  @stopCondition)
+        public virtual RUnityEngine.RUIElements.RScheduledItem ScheduleUntil(System.Action<UnityEngine.UIElements.TimerState> @timerUpdateEvent, System.Int64 @delayMs, System.Int64 @intervalMs, System.Func<System.Boolean> @stopCondition)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@timerUpdateEvent, @delayMs, @intervalMs, @stopCondition};
             var ___result = RScheduleUntil_Action_d_TimerState_p__Int64_Int64_Func_d_Boolean_p_.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RUnityEngine.RUIElements.RScheduledItem(___result);
         }
 
 
-        public virtual System.Object ScheduleForDuration(System.Action<UnityEngine.UIElements.TimerState>  @timerUpdateEvent, System.Int64  @delayMs, System.Int64  @intervalMs, System.Int64  @durationMs)
+        public virtual RUnityEngine.RUIElements.RScheduledItem ScheduleForDuration(System.Action<UnityEngine.UIElements.TimerState> @timerUpdateEvent, System.Int64 @delayMs, System.Int64 @intervalMs, System.Int64 @durationMs)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@timerUpdateEvent, @delayMs, @intervalMs, @durationMs};
             var ___result = RScheduleForDuration_Action_d_TimerState_p__Int64_Int64_Int64.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RUnityEngine.RUIElements.RScheduledItem(___result);
         }
 
 
-        public virtual void Unschedule(RUnityEngine.RUIElements.RScheduledItem  @item)
+        public virtual void Unschedule(RUnityEngine.RUIElements.RScheduledItem @item)
         {
 
             var ___genericsType = new Type[] {};
@@ -174,7 +174,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void Schedule(RUnityEngine.RUIElements.RScheduledItem  @item)
+        public virtual void Schedule(RUnityEngine.RUIElements.RScheduledItem @item)
         {
 
             var ___genericsType = new Type[] {};

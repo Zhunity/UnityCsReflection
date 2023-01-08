@@ -793,7 +793,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
 	    {
 	    }
 
-        public virtual void LoadFromFile(System.String  @filename)
+        public virtual void LoadFromFile(System.String @filename)
         {
 
             var ___genericsType = new Type[] {};
@@ -804,7 +804,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
         }
 
 
-        public virtual void LoadFromString(System.String  @xml)
+        public virtual void LoadFromString(System.String @xml)
         {
 
             var ___genericsType = new Type[] {};
@@ -815,7 +815,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
         }
 
 
-        public virtual System.Security.SecurityElement FromString(System.String  @xml)
+        public virtual System.Security.SecurityElement FromString(System.String @xml)
         {
 
             var ___genericsType = new Type[] {};
@@ -826,7 +826,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
         }
 
 
-        public virtual void AddFullTrustAssembly(System.Security.Policy.StrongName  @sn)
+        public virtual void AddFullTrustAssembly(System.Security.Policy.StrongName @sn)
         {
 
             var ___genericsType = new Type[] {};
@@ -837,7 +837,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
         }
 
 
-        public virtual void AddFullTrustAssembly(System.Security.Policy.StrongNameMembershipCondition  @snMC)
+        public virtual void AddFullTrustAssembly(System.Security.Policy.StrongNameMembershipCondition @snMC)
         {
 
             var ___genericsType = new Type[] {};
@@ -848,7 +848,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
         }
 
 
-        public virtual void AddNamedPermissionSet(System.Security.NamedPermissionSet  @permSet)
+        public virtual void AddNamedPermissionSet(System.Security.NamedPermissionSet @permSet)
         {
 
             var ___genericsType = new Type[] {};
@@ -859,7 +859,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
         }
 
 
-        public virtual System.Security.NamedPermissionSet ChangeNamedPermissionSet(System.String  @name, System.Security.PermissionSet  @pSet)
+        public virtual System.Security.NamedPermissionSet ChangeNamedPermissionSet(System.String @name, System.Security.PermissionSet @pSet)
         {
 
             var ___genericsType = new Type[] {};
@@ -881,7 +881,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
         }
 
 
-        public virtual void FromXml(System.Security.SecurityElement  @e)
+        public virtual void FromXml(System.Security.SecurityElement @e)
         {
 
             var ___genericsType = new Type[] {};
@@ -892,7 +892,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
         }
 
 
-        public virtual System.Security.NamedPermissionSet GetNamedPermissionSet(System.String  @name)
+        public virtual System.Security.NamedPermissionSet GetNamedPermissionSet(System.String @name)
         {
 
             var ___genericsType = new Type[] {};
@@ -914,7 +914,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
         }
 
 
-        public virtual void RemoveFullTrustAssembly(System.Security.Policy.StrongName  @sn)
+        public virtual void RemoveFullTrustAssembly(System.Security.Policy.StrongName @sn)
         {
 
             var ___genericsType = new Type[] {};
@@ -925,7 +925,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
         }
 
 
-        public virtual void RemoveFullTrustAssembly(System.Security.Policy.StrongNameMembershipCondition  @snMC)
+        public virtual void RemoveFullTrustAssembly(System.Security.Policy.StrongNameMembershipCondition @snMC)
         {
 
             var ___genericsType = new Type[] {};
@@ -936,7 +936,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
         }
 
 
-        public virtual System.Security.NamedPermissionSet RemoveNamedPermissionSet(System.Security.NamedPermissionSet  @permSet)
+        public virtual System.Security.NamedPermissionSet RemoveNamedPermissionSet(System.Security.NamedPermissionSet @permSet)
         {
 
             var ___genericsType = new Type[] {};
@@ -947,7 +947,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
         }
 
 
-        public virtual System.Security.NamedPermissionSet RemoveNamedPermissionSet(System.String  @name)
+        public virtual System.Security.NamedPermissionSet RemoveNamedPermissionSet(System.String @name)
         {
 
             var ___genericsType = new Type[] {};
@@ -969,7 +969,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
         }
 
 
-        public virtual System.Security.Policy.PolicyStatement Resolve(System.Security.Policy.Evidence  @evidence)
+        public virtual System.Security.Policy.PolicyStatement Resolve(System.Security.Policy.Evidence @evidence)
         {
 
             var ___genericsType = new Type[] {};
@@ -980,7 +980,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
         }
 
 
-        public virtual System.Security.Policy.CodeGroup ResolveMatchingCodeGroups(System.Security.Policy.Evidence  @evidence)
+        public virtual System.Security.Policy.CodeGroup ResolveMatchingCodeGroups(System.Security.Policy.Evidence @evidence)
         {
 
             var ___genericsType = new Type[] {};
@@ -1013,7 +1013,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
         }
 
 
-        public virtual void CreateDefaultLevel(System.Security.PolicyLevelType  @type)
+        public virtual void CreateDefaultLevel(System.Security.PolicyLevelType @type)
         {
 
             var ___genericsType = new Type[] {};
@@ -1046,7 +1046,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
         }
 
 
-        public virtual System.String ResolveClassName(System.String  @className)
+        public virtual System.String ResolveClassName(System.String @className)
         {
 
             var ___genericsType = new Type[] {};
@@ -1057,7 +1057,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
         }
 
 
-        public virtual System.Boolean IsFullTrustAssembly(System.Reflection.Assembly  @a)
+        public virtual System.Boolean IsFullTrustAssembly(System.Reflection.Assembly @a)
         {
 
             var ___genericsType = new Type[] {};
@@ -1068,7 +1068,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

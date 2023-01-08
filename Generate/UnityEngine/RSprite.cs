@@ -1255,7 +1255,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.Sprite CreateSpriteWithoutTextureScripting(UnityEngine.Rect  @rect, UnityEngine.Vector2  @pivot, System.Single  @pixelsToUnits, UnityEngine.Texture2D  @texture)
+        public static UnityEngine.Sprite CreateSpriteWithoutTextureScripting(UnityEngine.Rect @rect, UnityEngine.Vector2 @pivot, System.Single @pixelsToUnits, UnityEngine.Texture2D @texture)
         {
 
             var ___genericsType = new Type[] {};
@@ -1266,7 +1266,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.Sprite CreateSprite(UnityEngine.Texture2D  @texture, UnityEngine.Rect  @rect, UnityEngine.Vector2  @pivot, System.Single  @pixelsPerUnit, System.UInt32  @extrude, UnityEngine.SpriteMeshType  @meshType, UnityEngine.Vector4  @border, System.Boolean  @generateFallbackPhysicsShape, UnityEngine.SecondarySpriteTexture[]  @secondaryTexture)
+        public static UnityEngine.Sprite CreateSprite(UnityEngine.Texture2D @texture, UnityEngine.Rect @rect, UnityEngine.Vector2 @pivot, System.Single @pixelsPerUnit, System.UInt32 @extrude, UnityEngine.SpriteMeshType @meshType, UnityEngine.Vector4 @border, System.Boolean @generateFallbackPhysicsShape, UnityEngine.SecondarySpriteTexture[] @secondaryTexture)
         {
 
             var ___genericsType = new Type[] {};
@@ -1277,7 +1277,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual UnityEngine.Texture2D GetSecondaryTexture(System.Int32  @index)
+        public virtual UnityEngine.Texture2D GetSecondaryTexture(System.Int32 @index)
         {
 
             var ___genericsType = new Type[] {};
@@ -1299,7 +1299,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Int32 GetSecondaryTextures(UnityEngine.SecondarySpriteTexture[]  @secondaryTexture)
+        public virtual System.Int32 GetSecondaryTextures(UnityEngine.SecondarySpriteTexture[] @secondaryTexture)
         {
 
             var ___genericsType = new Type[] {};
@@ -1321,7 +1321,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Int32 GetPhysicsShapePointCount(System.Int32  @shapeIdx)
+        public virtual System.Int32 GetPhysicsShapePointCount(System.Int32 @shapeIdx)
         {
 
             var ___genericsType = new Type[] {};
@@ -1332,7 +1332,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Int32 Internal_GetPhysicsShapePointCount(System.Int32  @shapeIdx)
+        public virtual System.Int32 Internal_GetPhysicsShapePointCount(System.Int32 @shapeIdx)
         {
 
             var ___genericsType = new Type[] {};
@@ -1343,7 +1343,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Int32 GetPhysicsShape(System.Int32  @shapeIdx, System.Collections.Generic.List<UnityEngine.Vector2>  @physicsShape)
+        public virtual System.Int32 GetPhysicsShape(System.Int32 @shapeIdx, System.Collections.Generic.List<UnityEngine.Vector2> @physicsShape)
         {
 
             var ___genericsType = new Type[] {};
@@ -1354,7 +1354,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static void GetPhysicsShapeImpl(UnityEngine.Sprite  @sprite, System.Int32  @shapeIdx, System.Collections.Generic.List<UnityEngine.Vector2>  @physicsShape)
+        public static void GetPhysicsShapeImpl(UnityEngine.Sprite @sprite, System.Int32 @shapeIdx, System.Collections.Generic.List<UnityEngine.Vector2> @physicsShape)
         {
 
             var ___genericsType = new Type[] {};
@@ -1365,7 +1365,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void OverridePhysicsShape(System.Collections.Generic.IList<UnityEngine.Vector2[]>  @physicsShapes)
+        public virtual void OverridePhysicsShape(System.Collections.Generic.IList<UnityEngine.Vector2[]> @physicsShapes)
         {
 
             var ___genericsType = new Type[] {};
@@ -1376,7 +1376,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static void OverridePhysicsShapeCount(UnityEngine.Sprite  @sprite, System.Int32  @physicsShapeCount)
+        public static void OverridePhysicsShapeCount(UnityEngine.Sprite @sprite, System.Int32 @physicsShapeCount)
         {
 
             var ___genericsType = new Type[] {};
@@ -1387,7 +1387,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static void OverridePhysicsShape(UnityEngine.Sprite  @sprite, UnityEngine.Vector2[]  @physicsShape, System.Int32  @idx)
+        public static void OverridePhysicsShape(UnityEngine.Sprite @sprite, UnityEngine.Vector2[] @physicsShape, System.Int32 @idx)
         {
 
             var ___genericsType = new Type[] {};
@@ -1398,7 +1398,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void OverrideGeometry(UnityEngine.Vector2[]  @vertices, System.UInt16[]  @triangles)
+        public virtual void OverrideGeometry(UnityEngine.Vector2[] @vertices, System.UInt16[] @triangles)
         {
 
             var ___genericsType = new Type[] {};
@@ -1409,7 +1409,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.Sprite Create(UnityEngine.Rect  @rect, UnityEngine.Vector2  @pivot, System.Single  @pixelsToUnits, UnityEngine.Texture2D  @texture)
+        public static UnityEngine.Sprite Create(UnityEngine.Rect @rect, UnityEngine.Vector2 @pivot, System.Single @pixelsToUnits, UnityEngine.Texture2D @texture)
         {
 
             var ___genericsType = new Type[] {};
@@ -1420,7 +1420,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.Sprite Create(UnityEngine.Rect  @rect, UnityEngine.Vector2  @pivot, System.Single  @pixelsToUnits)
+        public static UnityEngine.Sprite Create(UnityEngine.Rect @rect, UnityEngine.Vector2 @pivot, System.Single @pixelsToUnits)
         {
 
             var ___genericsType = new Type[] {};
@@ -1431,7 +1431,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.Sprite Create(UnityEngine.Texture2D  @texture, UnityEngine.Rect  @rect, UnityEngine.Vector2  @pivot, System.Single  @pixelsPerUnit, System.UInt32  @extrude, UnityEngine.SpriteMeshType  @meshType, UnityEngine.Vector4  @border, System.Boolean  @generateFallbackPhysicsShape)
+        public static UnityEngine.Sprite Create(UnityEngine.Texture2D @texture, UnityEngine.Rect @rect, UnityEngine.Vector2 @pivot, System.Single @pixelsPerUnit, System.UInt32 @extrude, UnityEngine.SpriteMeshType @meshType, UnityEngine.Vector4 @border, System.Boolean @generateFallbackPhysicsShape)
         {
 
             var ___genericsType = new Type[] {};
@@ -1442,7 +1442,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.Sprite Create(UnityEngine.Texture2D  @texture, UnityEngine.Rect  @rect, UnityEngine.Vector2  @pivot, System.Single  @pixelsPerUnit, System.UInt32  @extrude, UnityEngine.SpriteMeshType  @meshType, UnityEngine.Vector4  @border, System.Boolean  @generateFallbackPhysicsShape, UnityEngine.SecondarySpriteTexture[]  @secondaryTextures)
+        public static UnityEngine.Sprite Create(UnityEngine.Texture2D @texture, UnityEngine.Rect @rect, UnityEngine.Vector2 @pivot, System.Single @pixelsPerUnit, System.UInt32 @extrude, UnityEngine.SpriteMeshType @meshType, UnityEngine.Vector4 @border, System.Boolean @generateFallbackPhysicsShape, UnityEngine.SecondarySpriteTexture[] @secondaryTextures)
         {
 
             var ___genericsType = new Type[] {};
@@ -1453,7 +1453,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.Sprite Create(UnityEngine.Texture2D  @texture, UnityEngine.Rect  @rect, UnityEngine.Vector2  @pivot, System.Single  @pixelsPerUnit, System.UInt32  @extrude, UnityEngine.SpriteMeshType  @meshType, UnityEngine.Vector4  @border)
+        public static UnityEngine.Sprite Create(UnityEngine.Texture2D @texture, UnityEngine.Rect @rect, UnityEngine.Vector2 @pivot, System.Single @pixelsPerUnit, System.UInt32 @extrude, UnityEngine.SpriteMeshType @meshType, UnityEngine.Vector4 @border)
         {
 
             var ___genericsType = new Type[] {};
@@ -1464,7 +1464,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.Sprite Create(UnityEngine.Texture2D  @texture, UnityEngine.Rect  @rect, UnityEngine.Vector2  @pivot, System.Single  @pixelsPerUnit, System.UInt32  @extrude, UnityEngine.SpriteMeshType  @meshType)
+        public static UnityEngine.Sprite Create(UnityEngine.Texture2D @texture, UnityEngine.Rect @rect, UnityEngine.Vector2 @pivot, System.Single @pixelsPerUnit, System.UInt32 @extrude, UnityEngine.SpriteMeshType @meshType)
         {
 
             var ___genericsType = new Type[] {};
@@ -1475,7 +1475,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.Sprite Create(UnityEngine.Texture2D  @texture, UnityEngine.Rect  @rect, UnityEngine.Vector2  @pivot, System.Single  @pixelsPerUnit, System.UInt32  @extrude)
+        public static UnityEngine.Sprite Create(UnityEngine.Texture2D @texture, UnityEngine.Rect @rect, UnityEngine.Vector2 @pivot, System.Single @pixelsPerUnit, System.UInt32 @extrude)
         {
 
             var ___genericsType = new Type[] {};
@@ -1486,7 +1486,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.Sprite Create(UnityEngine.Texture2D  @texture, UnityEngine.Rect  @rect, UnityEngine.Vector2  @pivot, System.Single  @pixelsPerUnit)
+        public static UnityEngine.Sprite Create(UnityEngine.Texture2D @texture, UnityEngine.Rect @rect, UnityEngine.Vector2 @pivot, System.Single @pixelsPerUnit)
         {
 
             var ___genericsType = new Type[] {};
@@ -1497,7 +1497,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.Sprite Create(UnityEngine.Texture2D  @texture, UnityEngine.Rect  @rect, UnityEngine.Vector2  @pivot)
+        public static UnityEngine.Sprite Create(UnityEngine.Texture2D @texture, UnityEngine.Rect @rect, UnityEngine.Vector2 @pivot)
         {
 
             var ___genericsType = new Type[] {};
@@ -1508,7 +1508,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void GetTextureRect_Injected(out UnityEngine.Rect  @ret)
+        public virtual void GetTextureRect_Injected(out UnityEngine.Rect @ret)
         {
 			@ret = default;
 
@@ -1521,7 +1521,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void GetTextureRectOffset_Injected(out UnityEngine.Vector2  @ret)
+        public virtual void GetTextureRectOffset_Injected(out UnityEngine.Vector2 @ret)
         {
 			@ret = default;
 
@@ -1534,7 +1534,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void GetInnerUVs_Injected(out UnityEngine.Vector4  @ret)
+        public virtual void GetInnerUVs_Injected(out UnityEngine.Vector4 @ret)
         {
 			@ret = default;
 
@@ -1547,7 +1547,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void GetOuterUVs_Injected(out UnityEngine.Vector4  @ret)
+        public virtual void GetOuterUVs_Injected(out UnityEngine.Vector4 @ret)
         {
 			@ret = default;
 
@@ -1560,7 +1560,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void GetPadding_Injected(out UnityEngine.Vector4  @ret)
+        public virtual void GetPadding_Injected(out UnityEngine.Vector4 @ret)
         {
 			@ret = default;
 
@@ -1573,7 +1573,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.Sprite CreateSpriteWithoutTextureScripting_Injected(ref UnityEngine.Rect  @rect, ref UnityEngine.Vector2  @pivot, System.Single  @pixelsToUnits, UnityEngine.Texture2D  @texture)
+        public static UnityEngine.Sprite CreateSpriteWithoutTextureScripting_Injected(ref UnityEngine.Rect @rect, ref UnityEngine.Vector2 @pivot, System.Single @pixelsToUnits, UnityEngine.Texture2D @texture)
         {
 
             var ___genericsType = new Type[] {};
@@ -1586,7 +1586,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.Sprite CreateSprite_Injected(UnityEngine.Texture2D  @texture, ref UnityEngine.Rect  @rect, ref UnityEngine.Vector2  @pivot, System.Single  @pixelsPerUnit, System.UInt32  @extrude, UnityEngine.SpriteMeshType  @meshType, ref UnityEngine.Vector4  @border, System.Boolean  @generateFallbackPhysicsShape, UnityEngine.SecondarySpriteTexture[]  @secondaryTexture)
+        public static UnityEngine.Sprite CreateSprite_Injected(UnityEngine.Texture2D @texture, ref UnityEngine.Rect @rect, ref UnityEngine.Vector2 @pivot, System.Single @pixelsPerUnit, System.UInt32 @extrude, UnityEngine.SpriteMeshType @meshType, ref UnityEngine.Vector4 @border, System.Boolean @generateFallbackPhysicsShape, UnityEngine.SecondarySpriteTexture[] @secondaryTexture)
         {
 
             var ___genericsType = new Type[] {};
@@ -1600,7 +1600,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void get_bounds_Injected(out UnityEngine.Bounds  @ret)
+        public virtual void get_bounds_Injected(out UnityEngine.Bounds @ret)
         {
 			@ret = default;
 
@@ -1613,7 +1613,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void get_rect_Injected(out UnityEngine.Rect  @ret)
+        public virtual void get_rect_Injected(out UnityEngine.Rect @ret)
         {
 			@ret = default;
 
@@ -1626,7 +1626,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void get_border_Injected(out UnityEngine.Vector4  @ret)
+        public virtual void get_border_Injected(out UnityEngine.Vector4 @ret)
         {
 			@ret = default;
 
@@ -1639,7 +1639,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void get_pivot_Injected(out UnityEngine.Vector2  @ret)
+        public virtual void get_pivot_Injected(out UnityEngine.Vector2 @ret)
         {
 			@ret = default;
 
@@ -1674,7 +1674,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @other)
+        public virtual System.Boolean Equals(System.Object @other)
         {
 
             var ___genericsType = new Type[] {};

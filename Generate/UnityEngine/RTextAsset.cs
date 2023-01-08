@@ -385,7 +385,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 	    {
 	    }
 
-        public virtual System.Byte[] GetPreviewBytes(System.Int32  @maxByteCount)
+        public virtual System.Byte[] GetPreviewBytes(System.Int32 @maxByteCount)
         {
 
             var ___genericsType = new Type[] {};
@@ -396,7 +396,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static void Internal_CreateInstance(UnityEngine.TextAsset  @self, System.String  @text)
+        public static void Internal_CreateInstance(UnityEngine.TextAsset @self, System.String @text)
         {
 
             var ___genericsType = new Type[] {};
@@ -429,7 +429,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle GetSafetyHandle(UnityEngine.TextAsset  @self)
+        public static Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle GetSafetyHandle(UnityEngine.TextAsset @self)
         {
 
             var ___genericsType = new Type[] {};
@@ -462,7 +462,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.String GetPreview(System.Int32  @maxChars)
+        public virtual System.String GetPreview(System.Int32 @maxChars)
         {
 
             var ___genericsType = new Type[] {};
@@ -473,7 +473,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static System.String DecodeString(System.Byte[]  @bytes)
+        public static System.String DecodeString(System.Byte[] @bytes)
         {
 
             var ___genericsType = new Type[] {};
@@ -484,7 +484,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static void GetSafetyHandle_Injected(UnityEngine.TextAsset  @self, out Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle  @ret)
+        public static void GetSafetyHandle_Injected(UnityEngine.TextAsset @self, out Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @ret)
         {
 			@ret = default;
 
@@ -519,7 +519,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @other)
+        public virtual System.Boolean Equals(System.Object @other)
         {
 
             var ___genericsType = new Type[] {};

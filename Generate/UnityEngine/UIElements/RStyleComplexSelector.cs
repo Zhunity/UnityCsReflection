@@ -497,7 +497,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public static System.Int32 StyleSelectorPartCompare(RUnityEngine.RUIElements.RStyleSelectorPart  @x, RUnityEngine.RUIElements.RStyleSelectorPart  @y)
+        public static System.Int32 StyleSelectorPartCompare(RUnityEngine.RUIElements.RStyleSelectorPart @x, RUnityEngine.RUIElements.RStyleSelectorPart @y)
         {
 
             var ___genericsType = new Type[] {};
@@ -519,7 +519,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

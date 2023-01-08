@@ -327,7 +327,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};
@@ -338,7 +338,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public virtual System.Boolean Equals(System.Threading.AsyncFlowControl  @obj)
+        public virtual System.Boolean Equals(System.Threading.AsyncFlowControl @obj)
         {
 
             var ___genericsType = new Type[] {};
@@ -349,7 +349,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public static System.Boolean op_Equality(System.Threading.AsyncFlowControl  @a, System.Threading.AsyncFlowControl  @b)
+        public static System.Boolean op_Equality(System.Threading.AsyncFlowControl @a, System.Threading.AsyncFlowControl @b)
         {
 
             var ___genericsType = new Type[] {};
@@ -360,7 +360,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public static System.Boolean op_Inequality(System.Threading.AsyncFlowControl  @a, System.Threading.AsyncFlowControl  @b)
+        public static System.Boolean op_Inequality(System.Threading.AsyncFlowControl @a, System.Threading.AsyncFlowControl @b)
         {
 
             var ___genericsType = new Type[] {};

@@ -385,18 +385,18 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 	    {
 	    }
 
-        public virtual System.Object Copy()
+        public virtual RUnityEngine.RUIElements.RRareData Copy()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RCopy.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RUnityEngine.RUIElements.RRareData(___result);
         }
 
 
-        public virtual void CopyFrom(ref RUnityEngine.RUIElements.RRareData  @other)
+        public virtual void CopyFrom(ref RUnityEngine.RUIElements.RRareData @other)
         {
 
             var ___genericsType = new Type[] {};
@@ -408,7 +408,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public static System.Boolean op_Equality(RUnityEngine.RUIElements.RRareData  @lhs, RUnityEngine.RUIElements.RRareData  @rhs)
+        public static System.Boolean op_Equality(RUnityEngine.RUIElements.RRareData @lhs, RUnityEngine.RUIElements.RRareData @rhs)
         {
 
             var ___genericsType = new Type[] {};
@@ -419,7 +419,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public static System.Boolean op_Inequality(RUnityEngine.RUIElements.RRareData  @lhs, RUnityEngine.RUIElements.RRareData  @rhs)
+        public static System.Boolean op_Inequality(RUnityEngine.RUIElements.RRareData @lhs, RUnityEngine.RUIElements.RRareData @rhs)
         {
 
             var ___genericsType = new Type[] {};
@@ -430,7 +430,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean Equals(RUnityEngine.RUIElements.RRareData  @other)
+        public virtual System.Boolean Equals(RUnityEngine.RUIElements.RRareData @other)
         {
 
             var ___genericsType = new Type[] {};
@@ -441,7 +441,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

@@ -437,7 +437,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public virtual void Remove(System.Threading.Timer  @timer)
+        public virtual void Remove(System.Threading.Timer @timer)
         {
 
             var ___genericsType = new Type[] {};
@@ -448,7 +448,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public virtual void Change(System.Threading.Timer  @timer, System.Int64  @new_next_run)
+        public virtual void Change(System.Threading.Timer @timer, System.Int64 @new_next_run)
         {
 
             var ___genericsType = new Type[] {};
@@ -459,7 +459,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public virtual void Add(System.Threading.Timer  @timer)
+        public virtual void Add(System.Threading.Timer @timer)
         {
 
             var ___genericsType = new Type[] {};
@@ -470,7 +470,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public virtual void InternalRemove(System.Threading.Timer  @timer)
+        public virtual void InternalRemove(System.Threading.Timer @timer)
         {
 
             var ___genericsType = new Type[] {};
@@ -481,7 +481,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public static void TimerCB(System.Object  @o)
+        public static void TimerCB(System.Object @o)
         {
 
             var ___genericsType = new Type[] {};
@@ -492,7 +492,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public virtual void FireTimer(System.Threading.Timer  @timer)
+        public virtual void FireTimer(System.Threading.Timer @timer)
         {
 
             var ___genericsType = new Type[] {};
@@ -514,7 +514,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};

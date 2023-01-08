@@ -45,7 +45,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization
 	    {
 	    }
 
-        public virtual void CompleteDeserialization(System.Object  @deserialized)
+        public virtual void CompleteDeserialization(System.Object @deserialized)
         {
 
             var ___genericsType = new Type[] {};

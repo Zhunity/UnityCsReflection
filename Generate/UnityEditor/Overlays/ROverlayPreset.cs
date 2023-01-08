@@ -384,7 +384,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
         }
 
 
-        public virtual System.Boolean CanApplyToWindow(System.Type  @windowType)
+        public virtual System.Boolean CanApplyToWindow(System.Type @windowType)
         {
 
             var ___genericsType = new Type[] {};
@@ -428,7 +428,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @other)
+        public virtual System.Boolean Equals(System.Object @other)
         {
 
             var ___genericsType = new Type[] {};

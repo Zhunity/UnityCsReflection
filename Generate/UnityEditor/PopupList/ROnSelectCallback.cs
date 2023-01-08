@@ -404,9 +404,29 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 	    {
 	    }
 
+        public virtual void Invoke(RUnityEditor.RPopupList.RListElement @element)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@element.Value};
+            var ___result = RInvoke_ListElement.Invoke(___genericsType, ___parameters);
+
+            
+        }
 
 
-        public virtual void EndInvoke(System.IAsyncResult  @result)
+        public virtual System.IAsyncResult BeginInvoke(RUnityEditor.RPopupList.RListElement @element, System.AsyncCallback @callback, System.Object @object)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@element.Value, @callback, @object};
+            var ___result = RBeginInvoke_ListElement_AsyncCallback_Object.Invoke(___genericsType, ___parameters);
+
+            return (System.IAsyncResult)___result;
+        }
+
+
+        public virtual void EndInvoke(System.IAsyncResult @result)
         {
 
             var ___genericsType = new Type[] {};
@@ -417,7 +437,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual void GetObjectData(System.Runtime.Serialization.SerializationInfo  @info, System.Runtime.Serialization.StreamingContext  @context)
+        public virtual void GetObjectData(System.Runtime.Serialization.SerializationInfo @info, System.Runtime.Serialization.StreamingContext @context)
         {
 
             var ___genericsType = new Type[] {};
@@ -428,7 +448,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual System.Object DynamicInvokeImpl(System.Object[]  @args)
+        public virtual System.Object DynamicInvokeImpl(System.Object[] @args)
         {
 
             var ___genericsType = new Type[] {};
@@ -439,7 +459,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual System.Boolean Equals(System.Object  @obj)
+        public virtual System.Boolean Equals(System.Object @obj)
         {
 
             var ___genericsType = new Type[] {};
@@ -483,7 +503,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual System.Delegate CombineImpl(System.Delegate  @follow)
+        public virtual System.Delegate CombineImpl(System.Delegate @follow)
         {
 
             var ___genericsType = new Type[] {};
@@ -494,7 +514,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual System.Delegate RemoveImpl(System.Delegate  @value)
+        public virtual System.Delegate RemoveImpl(System.Delegate @value)
         {
 
             var ___genericsType = new Type[] {};
@@ -516,7 +536,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual System.Object DynamicInvoke(System.Object[]  @args)
+        public virtual System.Object DynamicInvoke(System.Object[] @args)
         {
 
             var ___genericsType = new Type[] {};
