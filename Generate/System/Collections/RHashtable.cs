@@ -1152,14 +1152,14 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections
 
         public virtual System.UInt32 InitHash(System.Object  @key, System.Int32  @hashsize, out System.UInt32  @seed, out System.UInt32  @incr)
         {
-			seed = default;
-			incr = default;
+			@seed = default;
+			@incr = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@key, @hashsize, @seed, @incr};
             var ___result = RInitHash_Object_Int32_Out_UInt32_Out_UInt32.Invoke(___genericsType, ___parameters);
-			seed = (System.UInt32)___parameters[2];
-			incr = (System.UInt32)___parameters[3];
+			@seed = (System.UInt32)___parameters[2];
+			@incr = (System.UInt32)___parameters[3];
 
             return (System.UInt32)___result;
         }

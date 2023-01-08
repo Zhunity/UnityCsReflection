@@ -1201,6 +1201,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RImplementati
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@vertexCount, @indexCount, @allocatorData.Value};
             var ___result = RAllocRawVertsIndices_UInt32_UInt32_Ref_AllocMeshData.Invoke(___genericsType, ___parameters);
+			@allocatorData = new RUnityEngine.RUIElements.RUIR.RMeshBuilder.RAllocMeshData(___parameters[2]);
 
             return (UnityEngine.UIElements.MeshWriteData)___result;
         }
@@ -1212,6 +1213,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RImplementati
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@vertexCount, @indexCount, @allocatorData.Value};
             var ___result = RAllocThroughDrawMesh_UInt32_UInt32_Ref_AllocMeshData.Invoke(___genericsType, ___parameters);
+			@allocatorData = new RUnityEngine.RUIElements.RUIR.RMeshBuilder.RAllocMeshData(___parameters[2]);
 
             return (UnityEngine.UIElements.MeshWriteData)___result;
         }
@@ -1264,16 +1266,18 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RImplementati
 
         public virtual void TryAtlasTexture(UnityEngine.Texture  @texture, RType  @flags, out UnityEngine.Rect  @outUVRegion, out System.Boolean  @outIsAtlas, out RUnityEngine.RUIElements.RTextureId  @outTextureId, out RType  @outAddFlags)
         {
-			outUVRegion = default;
-			outIsAtlas = default;
-			outTextureId = default;
-			outAddFlags = default;
+			@outUVRegion = default;
+			@outIsAtlas = default;
+			@outTextureId = default;
+			@outAddFlags = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@texture, @flags.Value, @outUVRegion, @outIsAtlas, @outTextureId.Value, @outAddFlags.Value};
             var ___result = RTryAtlasTexture_Texture_MeshFlags_Out_Rect_Out_Boolean_Out_TextureId_Out_VertexFlags.Invoke(___genericsType, ___parameters);
-			outUVRegion = (UnityEngine.Rect)___parameters[2];
-			outIsAtlas = (System.Boolean)___parameters[3];
+			@outUVRegion = (UnityEngine.Rect)___parameters[2];
+			@outIsAtlas = (System.Boolean)___parameters[3];
+			@outTextureId = new RUnityEngine.RUIElements.RTextureId(___parameters[4]);
+			@outAddFlags = new RType(___parameters[5]);
 
             
         }
@@ -1468,13 +1472,14 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RImplementati
 
         public virtual void RegisterVectorImageGradient(UnityEngine.UIElements.VectorImage  @vi, out System.Int32  @settingIndexOffset, out RUnityEngine.RUIElements.RTextureId  @texture)
         {
-			settingIndexOffset = default;
-			texture = default;
+			@settingIndexOffset = default;
+			@texture = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@vi, @settingIndexOffset, @texture.Value};
             var ___result = RRegisterVectorImageGradient_VectorImage_Out_Int32_Out_TextureId.Invoke(___genericsType, ___parameters);
-			settingIndexOffset = (System.Int32)___parameters[1];
+			@settingIndexOffset = (System.Int32)___parameters[1];
+			@texture = new RUnityEngine.RUIElements.RTextureId(___parameters[2]);
 
             
         }
@@ -1493,14 +1498,14 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RImplementati
 
         public virtual void MakeVectorGraphics(RUnityEngine.RUIElements.RMeshGenerationContextUtils.RRectangleParams  @rectParams, System.Boolean  @isUsingGradients, RUnityEngine.RUIElements.RTextureId  @svgTexture, System.Int32  @settingIndexOffset, out System.Int32  @finalVertexCount, out System.Int32  @finalIndexCount)
         {
-			finalVertexCount = default;
-			finalIndexCount = default;
+			@finalVertexCount = default;
+			@finalIndexCount = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@rectParams.Value, @isUsingGradients, @svgTexture.Value, @settingIndexOffset, @finalVertexCount, @finalIndexCount};
             var ___result = RMakeVectorGraphics_RectangleParams_Boolean_TextureId_Int32_Out_Int32_Out_Int32.Invoke(___genericsType, ___parameters);
-			finalVertexCount = (System.Int32)___parameters[4];
-			finalIndexCount = (System.Int32)___parameters[5];
+			@finalVertexCount = (System.Int32)___parameters[4];
+			@finalIndexCount = (System.Int32)___parameters[5];
 
             
         }

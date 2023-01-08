@@ -3969,6 +3969,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@assemblyRef, @securityEvidence, @refOnly, @stackMark.Value};
             var ___result = RLoadAssembly_String_Evidence_Boolean_Ref_StackCrawlMark.Invoke(___genericsType, ___parameters);
+			@stackMark = new RType(___parameters[3]);
 
             return (System.Reflection.Assembly)___result;
         }
@@ -3991,6 +3992,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@assemblyRef, @throwOnError, @stackMark.Value};
             var ___result = RLoadSatellite_AssemblyName_Boolean_Ref_StackCrawlMark.Invoke(___genericsType, ___parameters);
+			@stackMark = new RType(___parameters[2]);
 
             return (System.Reflection.Assembly)___result;
         }
@@ -4035,6 +4037,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@assemblyString, @assemblySecurity, @refonly, @stackMark.Value};
             var ___result = RLoad_String_Evidence_Boolean_Ref_StackCrawlMark.Invoke(___genericsType, ___parameters);
+			@stackMark = new RType(___parameters[3]);
 
             return (System.Reflection.Assembly)___result;
         }
@@ -4592,13 +4595,14 @@ namespace SMFrame.Editor.Refleaction.RSystem
 
         public virtual void ProcessMessageInDomain(System.Byte[]  @arrRequest, RSystem.RRuntime.RRemoting.RMessaging.RCADMethodCallMessage  @cadMsg, out System.Byte[]  @arrResponse, out RSystem.RRuntime.RRemoting.RMessaging.RCADMethodReturnMessage  @cadMrm)
         {
-			arrResponse = default;
-			cadMrm = default;
+			@arrResponse = default;
+			@cadMrm = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@arrRequest, @cadMsg.Value, @arrResponse, @cadMrm.Value};
             var ___result = RProcessMessageInDomain_ByteArray_CADMethodCallMessage_Out_ByteArray_Out_CADMethodReturnMessage.Invoke(___genericsType, ___parameters);
-			arrResponse = (System.Byte[])___parameters[2];
+			@arrResponse = (System.Byte[])___parameters[2];
+			@cadMrm = new RSystem.RRuntime.RRemoting.RMessaging.RCADMethodReturnMessage(___parameters[3]);
 
             
         }
@@ -4738,12 +4742,12 @@ namespace SMFrame.Editor.Refleaction.RSystem
 
         public virtual void System__2___AppDomain__2__GetTypeInfoCount(out System.UInt32  @pcTInfo)
         {
-			pcTInfo = default;
+			@pcTInfo = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@pcTInfo};
             var ___result = RSystem__2___AppDomain__2__GetTypeInfoCount_Out_UInt32.Invoke(___genericsType, ___parameters);
-			pcTInfo = (System.UInt32)___parameters[0];
+			@pcTInfo = (System.UInt32)___parameters[0];
 
             
         }
@@ -4784,12 +4788,12 @@ namespace SMFrame.Editor.Refleaction.RSystem
 
         public virtual System.Object GetObjectIdentity(System.MarshalByRefObject  @obj, out System.Boolean  @IsClient)
         {
-			IsClient = default;
+			@IsClient = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@obj, @IsClient};
             var ___result = RGetObjectIdentity_MarshalByRefObject_Out_Boolean.Invoke(___genericsType, ___parameters);
-			IsClient = (System.Boolean)___parameters[1];
+			@IsClient = (System.Boolean)___parameters[1];
 
             return (System.Object)___result;
         }

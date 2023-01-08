@@ -374,6 +374,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@job.Value};
             var ___result = RAdd_Ref_NudgeJobData.Invoke(___genericsType, ___parameters);
+			@job = new RUnityEngine.RUIElements.RUIR.RNudgeJobData(___parameters[0]);
 
             
         }
@@ -385,6 +386,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@job.Value};
             var ___result = RAdd_Ref_ConvertMeshJobData.Invoke(___genericsType, ___parameters);
+			@job = new RUnityEngine.RUIElements.RUIR.RConvertMeshJobData(___parameters[0]);
 
             
         }
@@ -396,6 +398,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@job.Value};
             var ___result = RAdd_Ref_CopyClosingMeshJobData.Invoke(___genericsType, ___parameters);
+			@job = new RUnityEngine.RUIElements.RUIR.RCopyClosingMeshJobData(___parameters[0]);
 
             
         }

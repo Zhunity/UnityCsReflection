@@ -336,12 +336,12 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 
         public virtual System.Boolean AllocateRect(System.Int32  @width, System.Int32  @height, out UnityEngine.RectInt  @uvs)
         {
-			uvs = default;
+			@uvs = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@width, @height, @uvs};
             var ___result = RAllocateRect_Int32_Int32_Out_RectInt.Invoke(___genericsType, ___parameters);
-			uvs = (UnityEngine.RectInt)___parameters[2];
+			@uvs = (UnityEngine.RectInt)___parameters[2];
 
             return (System.Boolean)___result;
         }

@@ -1401,12 +1401,12 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
 
         public virtual System.Boolean Remove(TKey  @key, out TValue  @value)
         {
-			value = default;
+			@value = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@key, @value};
             var ___result = RRemove_TKey_Out_TValue.Invoke(___genericsType, ___parameters);
-			value = (TValue)___parameters[1];
+			@value = (TValue)___parameters[1];
 
             return (System.Boolean)___result;
         }
@@ -1414,12 +1414,12 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
 
         public virtual System.Boolean TryGetValue(TKey  @key, out TValue  @value)
         {
-			value = default;
+			@value = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@key, @value};
             var ___result = RTryGetValue_TKey_Out_TValue.Invoke(___genericsType, ___parameters);
-			value = (TValue)___parameters[1];
+			@value = (TValue)___parameters[1];
 
             return (System.Boolean)___result;
         }

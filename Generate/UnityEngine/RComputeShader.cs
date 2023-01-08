@@ -1701,16 +1701,16 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
         public virtual void GetKernelThreadGroupSizes(System.Int32  @kernelIndex, out System.UInt32  @x, out System.UInt32  @y, out System.UInt32  @z)
         {
-			x = default;
-			y = default;
-			z = default;
+			@x = default;
+			@y = default;
+			@z = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@kernelIndex, @x, @y, @z};
             var ___result = RGetKernelThreadGroupSizes_Int32_Out_UInt32_Out_UInt32_Out_UInt32.Invoke(___genericsType, ___parameters);
-			x = (System.UInt32)___parameters[1];
-			y = (System.UInt32)___parameters[2];
-			z = (System.UInt32)___parameters[3];
+			@x = (System.UInt32)___parameters[1];
+			@y = (System.UInt32)___parameters[2];
+			@z = (System.UInt32)___parameters[3];
 
             
         }
@@ -2239,7 +2239,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@nameID, @val};
             var ___result = RSetVector_Injected_Int32_Ref_Vector4.Invoke(___genericsType, ___parameters);
-			val = (UnityEngine.Vector4)___parameters[1];
+			@val = (UnityEngine.Vector4)___parameters[1];
 
             
         }
@@ -2251,7 +2251,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@nameID, @val};
             var ___result = RSetMatrix_Injected_Int32_Ref_Matrix4x4.Invoke(___genericsType, ___parameters);
-			val = (UnityEngine.Matrix4x4)___parameters[1];
+			@val = (UnityEngine.Matrix4x4)___parameters[1];
 
             
         }
@@ -2259,12 +2259,12 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
         public virtual void get_keywordSpace_Injected(out UnityEngine.Rendering.LocalKeywordSpace  @ret)
         {
-			ret = default;
+			@ret = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@ret};
             var ___result = Rget_keywordSpace_Injected_Out_LocalKeywordSpace.Invoke(___genericsType, ___parameters);
-			ret = (UnityEngine.Rendering.LocalKeywordSpace)___parameters[0];
+			@ret = (UnityEngine.Rendering.LocalKeywordSpace)___parameters[0];
 
             
         }
@@ -2276,7 +2276,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@keyword};
             var ___result = REnableLocalKeyword_Injected_Ref_LocalKeyword.Invoke(___genericsType, ___parameters);
-			keyword = (UnityEngine.Rendering.LocalKeyword)___parameters[0];
+			@keyword = (UnityEngine.Rendering.LocalKeyword)___parameters[0];
 
             
         }
@@ -2288,7 +2288,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@keyword};
             var ___result = RDisableLocalKeyword_Injected_Ref_LocalKeyword.Invoke(___genericsType, ___parameters);
-			keyword = (UnityEngine.Rendering.LocalKeyword)___parameters[0];
+			@keyword = (UnityEngine.Rendering.LocalKeyword)___parameters[0];
 
             
         }
@@ -2300,7 +2300,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@keyword, @value};
             var ___result = RSetLocalKeyword_Injected_Ref_LocalKeyword_Boolean.Invoke(___genericsType, ___parameters);
-			keyword = (UnityEngine.Rendering.LocalKeyword)___parameters[0];
+			@keyword = (UnityEngine.Rendering.LocalKeyword)___parameters[0];
 
             
         }
@@ -2312,7 +2312,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@keyword};
             var ___result = RIsLocalKeywordEnabled_Injected_Ref_LocalKeyword.Invoke(___genericsType, ___parameters);
-			keyword = (UnityEngine.Rendering.LocalKeyword)___parameters[0];
+			@keyword = (UnityEngine.Rendering.LocalKeyword)___parameters[0];
 
             return (System.Boolean)___result;
         }

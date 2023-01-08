@@ -228,14 +228,14 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
 
         public virtual void Deconstruct(out TKey  @key, out TValue  @value)
         {
-			key = default;
-			value = default;
+			@key = default;
+			@value = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@key, @value};
             var ___result = RDeconstruct_Out_TKey_Out_TValue.Invoke(___genericsType, ___parameters);
-			key = (TKey)___parameters[0];
-			value = (TValue)___parameters[1];
+			@key = (TKey)___parameters[0];
+			@value = (TValue)___parameters[1];
 
             
         }

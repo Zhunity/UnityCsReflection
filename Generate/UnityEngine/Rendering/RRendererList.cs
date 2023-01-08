@@ -255,7 +255,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@_unity_self};
             var ___result = Rget_isValid_Injected_Ref_RendererList.Invoke(___genericsType, ___parameters);
-			_unity_self = (UnityEngine.Rendering.RendererList)___parameters[0];
+			@_unity_self = (UnityEngine.Rendering.RendererList)___parameters[0];
 
             return (System.Boolean)___result;
         }

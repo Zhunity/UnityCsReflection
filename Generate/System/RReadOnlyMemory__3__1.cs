@@ -626,14 +626,14 @@ namespace SMFrame.Editor.Refleaction.RSystem
 
         public virtual System.Object GetObjectStartLength(out System.Int32  @start, out System.Int32  @length)
         {
-			start = default;
-			length = default;
+			@start = default;
+			@length = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@start, @length};
             var ___result = RGetObjectStartLength_Out_Int32_Out_Int32.Invoke(___genericsType, ___parameters);
-			start = (System.Int32)___parameters[0];
-			length = (System.Int32)___parameters[1];
+			@start = (System.Int32)___parameters[0];
+			@length = (System.Int32)___parameters[1];
 
             return (System.Object)___result;
         }

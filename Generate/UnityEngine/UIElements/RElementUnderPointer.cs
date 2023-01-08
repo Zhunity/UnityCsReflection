@@ -370,14 +370,14 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 
         public virtual UnityEngine.UIElements.VisualElement GetTopElementUnderPointer(System.Int32  @pointerId, out UnityEngine.Vector2  @pickPosition, out System.Boolean  @isTemporary)
         {
-			pickPosition = default;
-			isTemporary = default;
+			@pickPosition = default;
+			@isTemporary = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@pointerId, @pickPosition, @isTemporary};
             var ___result = RGetTopElementUnderPointer_Int32_Out_Vector2_Out_Boolean.Invoke(___genericsType, ___parameters);
-			pickPosition = (UnityEngine.Vector2)___parameters[1];
-			isTemporary = (System.Boolean)___parameters[2];
+			@pickPosition = (UnityEngine.Vector2)___parameters[1];
+			@isTemporary = (System.Boolean)___parameters[2];
 
             return (UnityEngine.UIElements.VisualElement)___result;
         }

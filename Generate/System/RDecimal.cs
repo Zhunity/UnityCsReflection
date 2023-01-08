@@ -2142,7 +2142,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@d};
             var ___result = RAsMutable_Ref_Decimal.Invoke(___genericsType, ___parameters);
-			d = (System.Decimal)___parameters[0];
+			@d = (System.Decimal)___parameters[0];
 
             return (System.Object)___result;
         }
@@ -2154,7 +2154,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@value};
             var ___result = RDecDivMod1E9_Ref_Decimal.Invoke(___genericsType, ___parameters);
-			value = (System.Decimal)___parameters[0];
+			@value = (System.Decimal)___parameters[0];
 
             return (System.UInt32)___result;
         }
@@ -2210,7 +2210,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@d};
             var ___result = RAbs_Ref_Decimal.Invoke(___genericsType, ___parameters);
-			d = (System.Decimal)___parameters[0];
+			@d = (System.Decimal)___parameters[0];
 
             return (System.Decimal)___result;
         }
@@ -2429,12 +2429,12 @@ namespace SMFrame.Editor.Refleaction.RSystem
 
         public static System.Boolean TryParse(System.String  @s, out System.Decimal  @result)
         {
-			result = default;
+			@result = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@s, @result};
             var ___result = RTryParse_String_Out_Decimal.Invoke(___genericsType, ___parameters);
-			result = (System.Decimal)___parameters[1];
+			@result = (System.Decimal)___parameters[1];
 
             return (System.Boolean)___result;
         }
@@ -2443,12 +2443,12 @@ namespace SMFrame.Editor.Refleaction.RSystem
 
         public static System.Boolean TryParse(System.String  @s, System.Globalization.NumberStyles  @style, System.IFormatProvider  @provider, out System.Decimal  @result)
         {
-			result = default;
+			@result = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@s, @style, @provider, @result};
             var ___result = RTryParse_String_NumberStyles_IFormatProvider_Out_Decimal.Invoke(___genericsType, ___parameters);
-			result = (System.Decimal)___parameters[3];
+			@result = (System.Decimal)___parameters[3];
 
             return (System.Boolean)___result;
         }
@@ -2494,8 +2494,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@d1, @d2};
             var ___result = RMax_Ref_Decimal_Ref_Decimal.Invoke(___genericsType, ___parameters);
-			d1 = (System.Decimal)___parameters[0];
-			d2 = (System.Decimal)___parameters[1];
+			@d1 = (System.Decimal)___parameters[0];
+			@d2 = (System.Decimal)___parameters[1];
 
             return (System.Decimal)___result;
         }
@@ -2507,8 +2507,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@d1, @d2};
             var ___result = RMin_Ref_Decimal_Ref_Decimal.Invoke(___genericsType, ___parameters);
-			d1 = (System.Decimal)___parameters[0];
-			d2 = (System.Decimal)___parameters[1];
+			@d1 = (System.Decimal)___parameters[0];
+			@d2 = (System.Decimal)___parameters[1];
 
             return (System.Decimal)___result;
         }
@@ -2597,7 +2597,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@d, @decimals, @mode};
             var ___result = RRound_Ref_Decimal_Int32_MidpointRounding.Invoke(___genericsType, ___parameters);
-			d = (System.Decimal)___parameters[0];
+			@d = (System.Decimal)___parameters[0];
 
             return (System.Decimal)___result;
         }
@@ -2609,7 +2609,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@d};
             var ___result = RSign_Ref_Decimal.Invoke(___genericsType, ___parameters);
-			d = (System.Decimal)___parameters[0];
+			@d = (System.Decimal)___parameters[0];
 
             return (System.Int32)___result;
         }
@@ -2753,7 +2753,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@d};
             var ___result = RTruncate_Ref_Decimal.Invoke(___genericsType, ___parameters);
-			d = (System.Decimal)___parameters[0];
+			@d = (System.Decimal)___parameters[0];
 
             
         }

@@ -537,12 +537,12 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
         public virtual System.Boolean Raycast(UnityEngine.Ray  @ray, out System.Single  @enter)
         {
-			enter = default;
+			@enter = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@ray, @enter};
             var ___result = RRaycast_Ray_Out_Single.Invoke(___genericsType, ___parameters);
-			enter = (System.Single)___parameters[1];
+			@enter = (System.Single)___parameters[1];
 
             return (System.Boolean)___result;
         }

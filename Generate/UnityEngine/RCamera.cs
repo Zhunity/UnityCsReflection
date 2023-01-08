@@ -5599,12 +5599,12 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
         public static void CalculateProjectionMatrixFromPhysicalPropertiesInternal(out UnityEngine.Matrix4x4  @output, System.Single  @focalLength, UnityEngine.Vector2  @sensorSize, UnityEngine.Vector2  @lensShift, System.Single  @nearClip, System.Single  @farClip, System.Single  @gateAspect, RType  @gateFitMode)
         {
-			output = default;
+			@output = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@output, @focalLength, @sensorSize, @lensShift, @nearClip, @farClip, @gateAspect, @gateFitMode.Value};
             var ___result = RCalculateProjectionMatrixFromPhysicalPropertiesInternal_Out_Matrix4x4_Single_Vector2_Vector2_Single_Single_Single_GateFitMode.Invoke(___genericsType, ___parameters);
-			output = (UnityEngine.Matrix4x4)___parameters[0];
+			@output = (UnityEngine.Matrix4x4)___parameters[0];
 
             
         }
@@ -5612,12 +5612,12 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
         public static void CalculateProjectionMatrixFromPhysicalProperties(out UnityEngine.Matrix4x4  @output, System.Single  @focalLength, UnityEngine.Vector2  @sensorSize, UnityEngine.Vector2  @lensShift, System.Single  @nearClip, System.Single  @farClip, RUnityEngine.RCamera.RGateFitParameters  @gateFitParameters)
         {
-			output = default;
+			@output = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@output, @focalLength, @sensorSize, @lensShift, @nearClip, @farClip, @gateFitParameters.Value};
             var ___result = RCalculateProjectionMatrixFromPhysicalProperties_Out_Matrix4x4_Single_Vector2_Vector2_Single_Single_GateFitParameters.Invoke(___genericsType, ___parameters);
-			output = (UnityEngine.Matrix4x4)___parameters[0];
+			@output = (UnityEngine.Matrix4x4)___parameters[0];
 
             
         }
@@ -6120,12 +6120,12 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
         public virtual System.Boolean TryGetCullingParameters(out UnityEngine.Rendering.ScriptableCullingParameters  @cullingParameters)
         {
-			cullingParameters = default;
+			@cullingParameters = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@cullingParameters};
             var ___result = RTryGetCullingParameters_Out_ScriptableCullingParameters.Invoke(___genericsType, ___parameters);
-			cullingParameters = (UnityEngine.Rendering.ScriptableCullingParameters)___parameters[0];
+			@cullingParameters = (UnityEngine.Rendering.ScriptableCullingParameters)___parameters[0];
 
             return (System.Boolean)___result;
         }
@@ -6133,12 +6133,12 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
         public virtual System.Boolean TryGetCullingParameters(System.Boolean  @stereoAware, out UnityEngine.Rendering.ScriptableCullingParameters  @cullingParameters)
         {
-			cullingParameters = default;
+			@cullingParameters = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@stereoAware, @cullingParameters};
             var ___result = RTryGetCullingParameters_Boolean_Out_ScriptableCullingParameters.Invoke(___genericsType, ___parameters);
-			cullingParameters = (UnityEngine.Rendering.ScriptableCullingParameters)___parameters[1];
+			@cullingParameters = (UnityEngine.Rendering.ScriptableCullingParameters)___parameters[1];
 
             return (System.Boolean)___result;
         }
@@ -6146,12 +6146,12 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
         public static System.Boolean GetCullingParameters_Internal(UnityEngine.Camera  @camera, System.Boolean  @stereoAware, out UnityEngine.Rendering.ScriptableCullingParameters  @cullingParameters, System.Int32  @managedCullingParametersSize)
         {
-			cullingParameters = default;
+			@cullingParameters = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@camera, @stereoAware, @cullingParameters, @managedCullingParametersSize};
             var ___result = RGetCullingParameters_Internal_Camera_Boolean_Out_ScriptableCullingParameters_Int32.Invoke(___genericsType, ___parameters);
-			cullingParameters = (UnityEngine.Rendering.ScriptableCullingParameters)___parameters[2];
+			@cullingParameters = (UnityEngine.Rendering.ScriptableCullingParameters)___parameters[2];
 
             return (System.Boolean)___result;
         }
@@ -6247,12 +6247,12 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
         public virtual void get_transparencySortAxis_Injected(out UnityEngine.Vector3  @ret)
         {
-			ret = default;
+			@ret = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@ret};
             var ___result = Rget_transparencySortAxis_Injected_Out_Vector3.Invoke(___genericsType, ___parameters);
-			ret = (UnityEngine.Vector3)___parameters[0];
+			@ret = (UnityEngine.Vector3)___parameters[0];
 
             
         }
@@ -6264,7 +6264,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@value};
             var ___result = Rset_transparencySortAxis_Injected_Ref_Vector3.Invoke(___genericsType, ___parameters);
-			value = (UnityEngine.Vector3)___parameters[0];
+			@value = (UnityEngine.Vector3)___parameters[0];
 
             
         }
@@ -6272,12 +6272,12 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
         public virtual void get_velocity_Injected(out UnityEngine.Vector3  @ret)
         {
-			ret = default;
+			@ret = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@ret};
             var ___result = Rget_velocity_Injected_Out_Vector3.Invoke(___genericsType, ___parameters);
-			ret = (UnityEngine.Vector3)___parameters[0];
+			@ret = (UnityEngine.Vector3)___parameters[0];
 
             
         }
@@ -6285,12 +6285,12 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
         public virtual void get_cullingMatrix_Injected(out UnityEngine.Matrix4x4  @ret)
         {
-			ret = default;
+			@ret = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@ret};
             var ___result = Rget_cullingMatrix_Injected_Out_Matrix4x4.Invoke(___genericsType, ___parameters);
-			ret = (UnityEngine.Matrix4x4)___parameters[0];
+			@ret = (UnityEngine.Matrix4x4)___parameters[0];
 
             
         }
@@ -6302,7 +6302,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@value};
             var ___result = Rset_cullingMatrix_Injected_Ref_Matrix4x4.Invoke(___genericsType, ___parameters);
-			value = (UnityEngine.Matrix4x4)___parameters[0];
+			@value = (UnityEngine.Matrix4x4)___parameters[0];
 
             
         }
@@ -6310,12 +6310,12 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
         public virtual void get_backgroundColor_Injected(out UnityEngine.Color  @ret)
         {
-			ret = default;
+			@ret = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@ret};
             var ___result = Rget_backgroundColor_Injected_Out_Color.Invoke(___genericsType, ___parameters);
-			ret = (UnityEngine.Color)___parameters[0];
+			@ret = (UnityEngine.Color)___parameters[0];
 
             
         }
@@ -6327,7 +6327,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@value};
             var ___result = Rset_backgroundColor_Injected_Ref_Color.Invoke(___genericsType, ___parameters);
-			value = (UnityEngine.Color)___parameters[0];
+			@value = (UnityEngine.Color)___parameters[0];
 
             
         }
@@ -6335,12 +6335,12 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
         public virtual void get_curvature_Injected(out UnityEngine.Vector2  @ret)
         {
-			ret = default;
+			@ret = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@ret};
             var ___result = Rget_curvature_Injected_Out_Vector2.Invoke(___genericsType, ___parameters);
-			ret = (UnityEngine.Vector2)___parameters[0];
+			@ret = (UnityEngine.Vector2)___parameters[0];
 
             
         }
@@ -6352,7 +6352,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@value};
             var ___result = Rset_curvature_Injected_Ref_Vector2.Invoke(___genericsType, ___parameters);
-			value = (UnityEngine.Vector2)___parameters[0];
+			@value = (UnityEngine.Vector2)___parameters[0];
 
             
         }
@@ -6360,12 +6360,12 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
         public virtual void get_sensorSize_Injected(out UnityEngine.Vector2  @ret)
         {
-			ret = default;
+			@ret = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@ret};
             var ___result = Rget_sensorSize_Injected_Out_Vector2.Invoke(___genericsType, ___parameters);
-			ret = (UnityEngine.Vector2)___parameters[0];
+			@ret = (UnityEngine.Vector2)___parameters[0];
 
             
         }
@@ -6377,7 +6377,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@value};
             var ___result = Rset_sensorSize_Injected_Ref_Vector2.Invoke(___genericsType, ___parameters);
-			value = (UnityEngine.Vector2)___parameters[0];
+			@value = (UnityEngine.Vector2)___parameters[0];
 
             
         }
@@ -6385,12 +6385,12 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
         public virtual void get_lensShift_Injected(out UnityEngine.Vector2  @ret)
         {
-			ret = default;
+			@ret = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@ret};
             var ___result = Rget_lensShift_Injected_Out_Vector2.Invoke(___genericsType, ___parameters);
-			ret = (UnityEngine.Vector2)___parameters[0];
+			@ret = (UnityEngine.Vector2)___parameters[0];
 
             
         }
@@ -6402,7 +6402,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@value};
             var ___result = Rset_lensShift_Injected_Ref_Vector2.Invoke(___genericsType, ___parameters);
-			value = (UnityEngine.Vector2)___parameters[0];
+			@value = (UnityEngine.Vector2)___parameters[0];
 
             
         }
@@ -6410,12 +6410,12 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
         public virtual void GetGateFittedLensShift_Injected(out UnityEngine.Vector2  @ret)
         {
-			ret = default;
+			@ret = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@ret};
             var ___result = RGetGateFittedLensShift_Injected_Out_Vector2.Invoke(___genericsType, ___parameters);
-			ret = (UnityEngine.Vector2)___parameters[0];
+			@ret = (UnityEngine.Vector2)___parameters[0];
 
             
         }
@@ -6423,12 +6423,12 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
         public virtual void GetLocalSpaceAim_Injected(out UnityEngine.Vector3  @ret)
         {
-			ret = default;
+			@ret = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@ret};
             var ___result = RGetLocalSpaceAim_Injected_Out_Vector3.Invoke(___genericsType, ___parameters);
-			ret = (UnityEngine.Vector3)___parameters[0];
+			@ret = (UnityEngine.Vector3)___parameters[0];
 
             
         }
@@ -6436,12 +6436,12 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
         public virtual void get_rect_Injected(out UnityEngine.Rect  @ret)
         {
-			ret = default;
+			@ret = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@ret};
             var ___result = Rget_rect_Injected_Out_Rect.Invoke(___genericsType, ___parameters);
-			ret = (UnityEngine.Rect)___parameters[0];
+			@ret = (UnityEngine.Rect)___parameters[0];
 
             
         }
@@ -6453,7 +6453,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@value};
             var ___result = Rset_rect_Injected_Ref_Rect.Invoke(___genericsType, ___parameters);
-			value = (UnityEngine.Rect)___parameters[0];
+			@value = (UnityEngine.Rect)___parameters[0];
 
             
         }
@@ -6461,12 +6461,12 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
         public virtual void get_pixelRect_Injected(out UnityEngine.Rect  @ret)
         {
-			ret = default;
+			@ret = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@ret};
             var ___result = Rget_pixelRect_Injected_Out_Rect.Invoke(___genericsType, ___parameters);
-			ret = (UnityEngine.Rect)___parameters[0];
+			@ret = (UnityEngine.Rect)___parameters[0];
 
             
         }
@@ -6478,7 +6478,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@value};
             var ___result = Rset_pixelRect_Injected_Ref_Rect.Invoke(___genericsType, ___parameters);
-			value = (UnityEngine.Rect)___parameters[0];
+			@value = (UnityEngine.Rect)___parameters[0];
 
             
         }
@@ -6490,8 +6490,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@color, @depth};
             var ___result = RSetTargetBuffersImpl_Injected_Ref_RenderBuffer_Ref_RenderBuffer.Invoke(___genericsType, ___parameters);
-			color = (UnityEngine.RenderBuffer)___parameters[0];
-			depth = (UnityEngine.RenderBuffer)___parameters[1];
+			@color = (UnityEngine.RenderBuffer)___parameters[0];
+			@depth = (UnityEngine.RenderBuffer)___parameters[1];
 
             
         }
@@ -6503,7 +6503,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@color, @depth};
             var ___result = RSetTargetBuffersMRTImpl_Injected_RenderBufferArray_Ref_RenderBuffer.Invoke(___genericsType, ___parameters);
-			depth = (UnityEngine.RenderBuffer)___parameters[1];
+			@depth = (UnityEngine.RenderBuffer)___parameters[1];
 
             
         }
@@ -6511,12 +6511,12 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
         public virtual void get_cameraToWorldMatrix_Injected(out UnityEngine.Matrix4x4  @ret)
         {
-			ret = default;
+			@ret = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@ret};
             var ___result = Rget_cameraToWorldMatrix_Injected_Out_Matrix4x4.Invoke(___genericsType, ___parameters);
-			ret = (UnityEngine.Matrix4x4)___parameters[0];
+			@ret = (UnityEngine.Matrix4x4)___parameters[0];
 
             
         }
@@ -6524,12 +6524,12 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
         public virtual void get_worldToCameraMatrix_Injected(out UnityEngine.Matrix4x4  @ret)
         {
-			ret = default;
+			@ret = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@ret};
             var ___result = Rget_worldToCameraMatrix_Injected_Out_Matrix4x4.Invoke(___genericsType, ___parameters);
-			ret = (UnityEngine.Matrix4x4)___parameters[0];
+			@ret = (UnityEngine.Matrix4x4)___parameters[0];
 
             
         }
@@ -6541,7 +6541,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@value};
             var ___result = Rset_worldToCameraMatrix_Injected_Ref_Matrix4x4.Invoke(___genericsType, ___parameters);
-			value = (UnityEngine.Matrix4x4)___parameters[0];
+			@value = (UnityEngine.Matrix4x4)___parameters[0];
 
             
         }
@@ -6549,12 +6549,12 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
         public virtual void get_projectionMatrix_Injected(out UnityEngine.Matrix4x4  @ret)
         {
-			ret = default;
+			@ret = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@ret};
             var ___result = Rget_projectionMatrix_Injected_Out_Matrix4x4.Invoke(___genericsType, ___parameters);
-			ret = (UnityEngine.Matrix4x4)___parameters[0];
+			@ret = (UnityEngine.Matrix4x4)___parameters[0];
 
             
         }
@@ -6566,7 +6566,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@value};
             var ___result = Rset_projectionMatrix_Injected_Ref_Matrix4x4.Invoke(___genericsType, ___parameters);
-			value = (UnityEngine.Matrix4x4)___parameters[0];
+			@value = (UnityEngine.Matrix4x4)___parameters[0];
 
             
         }
@@ -6574,12 +6574,12 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
         public virtual void get_nonJitteredProjectionMatrix_Injected(out UnityEngine.Matrix4x4  @ret)
         {
-			ret = default;
+			@ret = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@ret};
             var ___result = Rget_nonJitteredProjectionMatrix_Injected_Out_Matrix4x4.Invoke(___genericsType, ___parameters);
-			ret = (UnityEngine.Matrix4x4)___parameters[0];
+			@ret = (UnityEngine.Matrix4x4)___parameters[0];
 
             
         }
@@ -6591,7 +6591,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@value};
             var ___result = Rset_nonJitteredProjectionMatrix_Injected_Ref_Matrix4x4.Invoke(___genericsType, ___parameters);
-			value = (UnityEngine.Matrix4x4)___parameters[0];
+			@value = (UnityEngine.Matrix4x4)___parameters[0];
 
             
         }
@@ -6599,12 +6599,12 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
         public virtual void get_previousViewProjectionMatrix_Injected(out UnityEngine.Matrix4x4  @ret)
         {
-			ret = default;
+			@ret = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@ret};
             var ___result = Rget_previousViewProjectionMatrix_Injected_Out_Matrix4x4.Invoke(___genericsType, ___parameters);
-			ret = (UnityEngine.Matrix4x4)___parameters[0];
+			@ret = (UnityEngine.Matrix4x4)___parameters[0];
 
             
         }
@@ -6612,13 +6612,13 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
         public virtual void CalculateObliqueMatrix_Injected(ref UnityEngine.Vector4  @clipPlane, out UnityEngine.Matrix4x4  @ret)
         {
-			ret = default;
+			@ret = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@clipPlane, @ret};
             var ___result = RCalculateObliqueMatrix_Injected_Ref_Vector4_Out_Matrix4x4.Invoke(___genericsType, ___parameters);
-			clipPlane = (UnityEngine.Vector4)___parameters[0];
-			ret = (UnityEngine.Matrix4x4)___parameters[1];
+			@clipPlane = (UnityEngine.Vector4)___parameters[0];
+			@ret = (UnityEngine.Matrix4x4)___parameters[1];
 
             
         }
@@ -6626,13 +6626,13 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
         public virtual void WorldToScreenPoint_Injected(ref UnityEngine.Vector3  @position, RType  @eye, out UnityEngine.Vector3  @ret)
         {
-			ret = default;
+			@ret = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@position, @eye.Value, @ret};
             var ___result = RWorldToScreenPoint_Injected_Ref_Vector3_MonoOrStereoscopicEye_Out_Vector3.Invoke(___genericsType, ___parameters);
-			position = (UnityEngine.Vector3)___parameters[0];
-			ret = (UnityEngine.Vector3)___parameters[2];
+			@position = (UnityEngine.Vector3)___parameters[0];
+			@ret = (UnityEngine.Vector3)___parameters[2];
 
             
         }
@@ -6640,13 +6640,13 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
         public virtual void WorldToViewportPoint_Injected(ref UnityEngine.Vector3  @position, RType  @eye, out UnityEngine.Vector3  @ret)
         {
-			ret = default;
+			@ret = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@position, @eye.Value, @ret};
             var ___result = RWorldToViewportPoint_Injected_Ref_Vector3_MonoOrStereoscopicEye_Out_Vector3.Invoke(___genericsType, ___parameters);
-			position = (UnityEngine.Vector3)___parameters[0];
-			ret = (UnityEngine.Vector3)___parameters[2];
+			@position = (UnityEngine.Vector3)___parameters[0];
+			@ret = (UnityEngine.Vector3)___parameters[2];
 
             
         }
@@ -6654,13 +6654,13 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
         public virtual void ViewportToWorldPoint_Injected(ref UnityEngine.Vector3  @position, RType  @eye, out UnityEngine.Vector3  @ret)
         {
-			ret = default;
+			@ret = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@position, @eye.Value, @ret};
             var ___result = RViewportToWorldPoint_Injected_Ref_Vector3_MonoOrStereoscopicEye_Out_Vector3.Invoke(___genericsType, ___parameters);
-			position = (UnityEngine.Vector3)___parameters[0];
-			ret = (UnityEngine.Vector3)___parameters[2];
+			@position = (UnityEngine.Vector3)___parameters[0];
+			@ret = (UnityEngine.Vector3)___parameters[2];
 
             
         }
@@ -6668,13 +6668,13 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
         public virtual void ScreenToWorldPoint_Injected(ref UnityEngine.Vector3  @position, RType  @eye, out UnityEngine.Vector3  @ret)
         {
-			ret = default;
+			@ret = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@position, @eye.Value, @ret};
             var ___result = RScreenToWorldPoint_Injected_Ref_Vector3_MonoOrStereoscopicEye_Out_Vector3.Invoke(___genericsType, ___parameters);
-			position = (UnityEngine.Vector3)___parameters[0];
-			ret = (UnityEngine.Vector3)___parameters[2];
+			@position = (UnityEngine.Vector3)___parameters[0];
+			@ret = (UnityEngine.Vector3)___parameters[2];
 
             
         }
@@ -6682,13 +6682,13 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
         public virtual void ScreenToViewportPoint_Injected(ref UnityEngine.Vector3  @position, out UnityEngine.Vector3  @ret)
         {
-			ret = default;
+			@ret = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@position, @ret};
             var ___result = RScreenToViewportPoint_Injected_Ref_Vector3_Out_Vector3.Invoke(___genericsType, ___parameters);
-			position = (UnityEngine.Vector3)___parameters[0];
-			ret = (UnityEngine.Vector3)___parameters[1];
+			@position = (UnityEngine.Vector3)___parameters[0];
+			@ret = (UnityEngine.Vector3)___parameters[1];
 
             
         }
@@ -6696,13 +6696,13 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
         public virtual void ViewportToScreenPoint_Injected(ref UnityEngine.Vector3  @position, out UnityEngine.Vector3  @ret)
         {
-			ret = default;
+			@ret = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@position, @ret};
             var ___result = RViewportToScreenPoint_Injected_Ref_Vector3_Out_Vector3.Invoke(___genericsType, ___parameters);
-			position = (UnityEngine.Vector3)___parameters[0];
-			ret = (UnityEngine.Vector3)___parameters[1];
+			@position = (UnityEngine.Vector3)___parameters[0];
+			@ret = (UnityEngine.Vector3)___parameters[1];
 
             
         }
@@ -6710,12 +6710,12 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
         public virtual void GetFrustumPlaneSizeAt_Injected(System.Single  @distance, out UnityEngine.Vector2  @ret)
         {
-			ret = default;
+			@ret = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@distance, @ret};
             var ___result = RGetFrustumPlaneSizeAt_Injected_Single_Out_Vector2.Invoke(___genericsType, ___parameters);
-			ret = (UnityEngine.Vector2)___parameters[1];
+			@ret = (UnityEngine.Vector2)___parameters[1];
 
             
         }
@@ -6723,13 +6723,13 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
         public virtual void ViewportPointToRay_Injected(ref UnityEngine.Vector2  @pos, RType  @eye, out UnityEngine.Ray  @ret)
         {
-			ret = default;
+			@ret = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@pos, @eye.Value, @ret};
             var ___result = RViewportPointToRay_Injected_Ref_Vector2_MonoOrStereoscopicEye_Out_Ray.Invoke(___genericsType, ___parameters);
-			pos = (UnityEngine.Vector2)___parameters[0];
-			ret = (UnityEngine.Ray)___parameters[2];
+			@pos = (UnityEngine.Vector2)___parameters[0];
+			@ret = (UnityEngine.Ray)___parameters[2];
 
             
         }
@@ -6737,13 +6737,13 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
         public virtual void ScreenPointToRay_Injected(ref UnityEngine.Vector2  @pos, RType  @eye, out UnityEngine.Ray  @ret)
         {
-			ret = default;
+			@ret = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@pos, @eye.Value, @ret};
             var ___result = RScreenPointToRay_Injected_Ref_Vector2_MonoOrStereoscopicEye_Out_Ray.Invoke(___genericsType, ___parameters);
-			pos = (UnityEngine.Vector2)___parameters[0];
-			ret = (UnityEngine.Ray)___parameters[2];
+			@pos = (UnityEngine.Vector2)___parameters[0];
+			@ret = (UnityEngine.Ray)___parameters[2];
 
             
         }
@@ -6755,7 +6755,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@viewport, @z, @eye.Value, @outCorners};
             var ___result = RCalculateFrustumCornersInternal_Injected_Ref_Rect_Single_MonoOrStereoscopicEye_Vector3Array.Invoke(___genericsType, ___parameters);
-			viewport = (UnityEngine.Rect)___parameters[0];
+			@viewport = (UnityEngine.Rect)___parameters[0];
 
             
         }
@@ -6763,14 +6763,14 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
         public static void CalculateProjectionMatrixFromPhysicalPropertiesInternal_Injected(out UnityEngine.Matrix4x4  @output, System.Single  @focalLength, ref UnityEngine.Vector2  @sensorSize, ref UnityEngine.Vector2  @lensShift, System.Single  @nearClip, System.Single  @farClip, System.Single  @gateAspect, RType  @gateFitMode)
         {
-			output = default;
+			@output = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@output, @focalLength, @sensorSize, @lensShift, @nearClip, @farClip, @gateAspect, @gateFitMode.Value};
             var ___result = RCalculateProjectionMatrixFromPhysicalPropertiesInternal_Injected_Out_Matrix4x4_Single_Ref_Vector2_Ref_Vector2_Single_Single_Single_GateFitMode.Invoke(___genericsType, ___parameters);
-			output = (UnityEngine.Matrix4x4)___parameters[0];
-			sensorSize = (UnityEngine.Vector2)___parameters[2];
-			lensShift = (UnityEngine.Vector2)___parameters[3];
+			@output = (UnityEngine.Matrix4x4)___parameters[0];
+			@sensorSize = (UnityEngine.Vector2)___parameters[2];
+			@lensShift = (UnityEngine.Vector2)___parameters[3];
 
             
         }
@@ -6778,12 +6778,12 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
         public virtual void get_scene_Injected(out UnityEngine.SceneManagement.Scene  @ret)
         {
-			ret = default;
+			@ret = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@ret};
             var ___result = Rget_scene_Injected_Out_Scene.Invoke(___genericsType, ___parameters);
-			ret = (UnityEngine.SceneManagement.Scene)___parameters[0];
+			@ret = (UnityEngine.SceneManagement.Scene)___parameters[0];
 
             
         }
@@ -6795,7 +6795,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@value};
             var ___result = Rset_scene_Injected_Ref_Scene.Invoke(___genericsType, ___parameters);
-			value = (UnityEngine.SceneManagement.Scene)___parameters[0];
+			@value = (UnityEngine.SceneManagement.Scene)___parameters[0];
 
             
         }
@@ -6803,12 +6803,12 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
         public virtual void GetStereoNonJitteredProjectionMatrix_Injected(RType  @eye, out UnityEngine.Matrix4x4  @ret)
         {
-			ret = default;
+			@ret = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@eye.Value, @ret};
             var ___result = RGetStereoNonJitteredProjectionMatrix_Injected_StereoscopicEye_Out_Matrix4x4.Invoke(___genericsType, ___parameters);
-			ret = (UnityEngine.Matrix4x4)___parameters[1];
+			@ret = (UnityEngine.Matrix4x4)___parameters[1];
 
             
         }
@@ -6816,12 +6816,12 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
         public virtual void GetStereoViewMatrix_Injected(RType  @eye, out UnityEngine.Matrix4x4  @ret)
         {
-			ret = default;
+			@ret = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@eye.Value, @ret};
             var ___result = RGetStereoViewMatrix_Injected_StereoscopicEye_Out_Matrix4x4.Invoke(___genericsType, ___parameters);
-			ret = (UnityEngine.Matrix4x4)___parameters[1];
+			@ret = (UnityEngine.Matrix4x4)___parameters[1];
 
             
         }
@@ -6829,12 +6829,12 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
         public virtual void GetStereoProjectionMatrix_Injected(RType  @eye, out UnityEngine.Matrix4x4  @ret)
         {
-			ret = default;
+			@ret = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@eye.Value, @ret};
             var ___result = RGetStereoProjectionMatrix_Injected_StereoscopicEye_Out_Matrix4x4.Invoke(___genericsType, ___parameters);
-			ret = (UnityEngine.Matrix4x4)___parameters[1];
+			@ret = (UnityEngine.Matrix4x4)___parameters[1];
 
             
         }
@@ -6846,7 +6846,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@eye.Value, @matrix};
             var ___result = RSetStereoProjectionMatrix_Injected_StereoscopicEye_Ref_Matrix4x4.Invoke(___genericsType, ___parameters);
-			matrix = (UnityEngine.Matrix4x4)___parameters[1];
+			@matrix = (UnityEngine.Matrix4x4)___parameters[1];
 
             
         }
@@ -6858,7 +6858,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@eye.Value, @matrix};
             var ___result = RSetStereoViewMatrix_Injected_StereoscopicEye_Ref_Matrix4x4.Invoke(___genericsType, ___parameters);
-			matrix = (UnityEngine.Matrix4x4)___parameters[1];
+			@matrix = (UnityEngine.Matrix4x4)___parameters[1];
 
             
         }
@@ -6899,12 +6899,12 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
         public virtual System.Boolean TryGetComponent(System.Type  @type, out UnityEngine.Component  @component)
         {
-			component = default;
+			@component = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@type, @component};
             var ___result = RTryGetComponent_Type_Out_Component.Invoke(___genericsType, ___parameters);
-			component = (UnityEngine.Component)___parameters[1];
+			@component = (UnityEngine.Component)___parameters[1];
 
             return (System.Boolean)___result;
         }
@@ -6912,12 +6912,12 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
         public virtual System.Boolean TryGetComponent<T>(out T  @component)
         {
-			component = default;
+			@component = default;
 
             var ___genericsType = new Type[] {typeof(T)};
             var ___parameters = new object[]{@component};
             var ___result = RTryGetComponent_GT_Out_T.Invoke(___genericsType, ___parameters);
-			component = (T)___parameters[0];
+			@component = (T)___parameters[0];
 
             return (System.Boolean)___result;
         }

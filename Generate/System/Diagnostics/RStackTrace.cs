@@ -476,12 +476,12 @@ namespace SMFrame.Editor.Refleaction.RSystem.RDiagnostics
 
         public virtual System.Boolean AddFrames(System.Text.StringBuilder  @sb, System.Boolean  @separator, out System.Boolean  @isAsync)
         {
-			isAsync = default;
+			@isAsync = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@sb, @separator, @isAsync};
             var ___result = RAddFrames_StringBuilder_Boolean_Out_Boolean.Invoke(___genericsType, ___parameters);
-			isAsync = (System.Boolean)___parameters[2];
+			@isAsync = (System.Boolean)___parameters[2];
 
             return (System.Boolean)___result;
         }
@@ -489,14 +489,14 @@ namespace SMFrame.Editor.Refleaction.RSystem.RDiagnostics
 
         public virtual void GetFullNameForStackTrace(System.Text.StringBuilder  @sb, System.Reflection.MethodBase  @mi, System.Boolean  @needsNewLine, out System.Boolean  @skipped, out System.Boolean  @isAsync)
         {
-			skipped = default;
-			isAsync = default;
+			@skipped = default;
+			@isAsync = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@sb, @mi, @needsNewLine, @skipped, @isAsync};
             var ___result = RGetFullNameForStackTrace_StringBuilder_MethodBase_Boolean_Out_Boolean_Out_Boolean.Invoke(___genericsType, ___parameters);
-			skipped = (System.Boolean)___parameters[3];
-			isAsync = (System.Boolean)___parameters[4];
+			@skipped = (System.Boolean)___parameters[3];
+			@isAsync = (System.Boolean)___parameters[4];
 
             
         }
@@ -508,8 +508,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RDiagnostics
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@method, @declaringType};
             var ___result = RConvertAsyncStateMachineMethod_Ref_MethodBase_Ref_Type.Invoke(___genericsType, ___parameters);
-			method = (System.Reflection.MethodBase)___parameters[0];
-			declaringType = (System.Type)___parameters[1];
+			@method = (System.Reflection.MethodBase)___parameters[0];
+			@declaringType = (System.Type)___parameters[1];
 
             
         }

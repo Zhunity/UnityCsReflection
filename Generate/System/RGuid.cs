@@ -988,12 +988,12 @@ namespace SMFrame.Editor.Refleaction.RSystem
 
         public static System.Boolean TryParse(System.String  @input, out System.Guid  @result)
         {
-			result = default;
+			@result = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@input, @result};
             var ___result = RTryParse_String_Out_Guid.Invoke(___genericsType, ___parameters);
-			result = (System.Guid)___parameters[1];
+			@result = (System.Guid)___parameters[1];
 
             return (System.Boolean)___result;
         }
@@ -1014,12 +1014,12 @@ namespace SMFrame.Editor.Refleaction.RSystem
 
         public static System.Boolean TryParseExact(System.String  @input, System.String  @format, out System.Guid  @result)
         {
-			result = default;
+			@result = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@input, @format, @result};
             var ___result = RTryParseExact_String_String_Out_Guid.Invoke(___genericsType, ___parameters);
-			result = (System.Guid)___parameters[2];
+			@result = (System.Guid)___parameters[2];
 
             return (System.Boolean)___result;
         }

@@ -558,6 +558,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RSynt
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@tokenizer.Value, @multiplier.Value};
             var ___result = RParseMultiplier_StyleSyntaxTokenizer_Ref_ExpressionMultiplier.Invoke(___genericsType, ___parameters);
+			@multiplier = new RUnityEngine.RUIElements.RStyleSheets.RSyntax.RExpressionMultiplier(___parameters[1]);
 
             
         }
@@ -565,14 +566,14 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RSynt
 
         public virtual void ParseRanges(RUnityEngine.RUIElements.RStyleSheets.RSyntax.RStyleSyntaxTokenizer  @tokenizer, out System.Int32  @min, out System.Int32  @max)
         {
-			min = default;
-			max = default;
+			@min = default;
+			@max = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@tokenizer.Value, @min, @max};
             var ___result = RParseRanges_StyleSyntaxTokenizer_Out_Int32_Out_Int32.Invoke(___genericsType, ___parameters);
-			min = (System.Int32)___parameters[1];
-			max = (System.Int32)___parameters[2];
+			@min = (System.Int32)___parameters[1];
+			@max = (System.Int32)___parameters[2];
 
             
         }

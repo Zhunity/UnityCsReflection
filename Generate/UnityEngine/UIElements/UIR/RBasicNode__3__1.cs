@@ -204,6 +204,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@first.Value};
             var ___result = RAppendTo_Ref_BasicNode_d_T_p_.Invoke(___genericsType, ___parameters);
+			@first = new RUnityEngine.RUIElements.RUIR.RBasicNode<RType>(___parameters[0]);
 
             
         }

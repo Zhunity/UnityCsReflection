@@ -1295,14 +1295,14 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 
         public virtual void CloneTree(UnityEngine.UIElements.VisualElement  @target, out System.Int32  @firstElementIndex, out System.Int32  @elementAddedCount)
         {
-			firstElementIndex = default;
-			elementAddedCount = default;
+			@firstElementIndex = default;
+			@elementAddedCount = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@target, @firstElementIndex, @elementAddedCount};
             var ___result = RCloneTree_VisualElement_Out_Int32_Out_Int32.Invoke(___genericsType, ___parameters);
-			firstElementIndex = (System.Int32)___parameters[1];
-			elementAddedCount = (System.Int32)___parameters[2];
+			@firstElementIndex = (System.Int32)___parameters[1];
+			@elementAddedCount = (System.Int32)___parameters[2];
 
             
         }
@@ -1365,12 +1365,12 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 
         public virtual System.Boolean TryGetSlotInsertionPoint(System.Int32  @insertionPointId, out System.String  @slotName)
         {
-			slotName = default;
+			@slotName = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@insertionPointId, @slotName};
             var ___result = RTryGetSlotInsertionPoint_Int32_Out_String.Invoke(___genericsType, ___parameters);
-			slotName = (System.String)___parameters[1];
+			@slotName = (System.String)___parameters[1];
 
             return (System.Boolean)___result;
         }
@@ -1492,6 +1492,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@_______.Value};
             var ___result = R__0__Create__1__g__CreateError__4__71_0_Ref___0____1__c__DisplayClass71_0.Invoke(___genericsType, ___parameters);
+			@_______ = new RUnityEngine.RUIElements.RVisualTreeAsset.R__0____1__c__DisplayClass71_0(___parameters[0]);
 
             return (UnityEngine.UIElements.VisualElement)___result;
         }

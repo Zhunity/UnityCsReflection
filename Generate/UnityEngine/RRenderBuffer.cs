@@ -429,7 +429,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@_unity_self, @action};
             var ___result = RSetLoadAction_Injected_Ref_RenderBuffer_RenderBufferLoadAction.Invoke(___genericsType, ___parameters);
-			_unity_self = (UnityEngine.RenderBuffer)___parameters[0];
+			@_unity_self = (UnityEngine.RenderBuffer)___parameters[0];
 
             
         }
@@ -441,7 +441,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@_unity_self, @action};
             var ___result = RSetStoreAction_Injected_Ref_RenderBuffer_RenderBufferStoreAction.Invoke(___genericsType, ___parameters);
-			_unity_self = (UnityEngine.RenderBuffer)___parameters[0];
+			@_unity_self = (UnityEngine.RenderBuffer)___parameters[0];
 
             
         }
@@ -453,7 +453,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@_unity_self};
             var ___result = RGetLoadAction_Injected_Ref_RenderBuffer.Invoke(___genericsType, ___parameters);
-			_unity_self = (UnityEngine.RenderBuffer)___parameters[0];
+			@_unity_self = (UnityEngine.RenderBuffer)___parameters[0];
 
             return (UnityEngine.Rendering.RenderBufferLoadAction)___result;
         }
@@ -465,7 +465,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@_unity_self};
             var ___result = RGetStoreAction_Injected_Ref_RenderBuffer.Invoke(___genericsType, ___parameters);
-			_unity_self = (UnityEngine.RenderBuffer)___parameters[0];
+			@_unity_self = (UnityEngine.RenderBuffer)___parameters[0];
 
             return (UnityEngine.Rendering.RenderBufferStoreAction)___result;
         }
@@ -477,7 +477,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@_unity_self};
             var ___result = RGetNativeRenderBufferPtr_Injected_Ref_RenderBuffer.Invoke(___genericsType, ___parameters);
-			_unity_self = (UnityEngine.RenderBuffer)___parameters[0];
+			@_unity_self = (UnityEngine.RenderBuffer)___parameters[0];
 
             return (System.IntPtr)___result;
         }

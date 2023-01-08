@@ -1322,12 +1322,12 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
         public virtual void get_texelSize_Injected(out UnityEngine.Vector2  @ret)
         {
-			ret = default;
+			@ret = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@ret};
             var ___result = Rget_texelSize_Injected_Out_Vector2.Invoke(___genericsType, ___parameters);
-			ret = (UnityEngine.Vector2)___parameters[0];
+			@ret = (UnityEngine.Vector2)___parameters[0];
 
             
         }
@@ -1335,12 +1335,12 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
         public virtual void get_imageContentsHash_Injected(out UnityEngine.Hash128  @ret)
         {
-			ret = default;
+			@ret = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@ret};
             var ___result = Rget_imageContentsHash_Injected_Out_Hash128.Invoke(___genericsType, ___parameters);
-			ret = (UnityEngine.Hash128)___parameters[0];
+			@ret = (UnityEngine.Hash128)___parameters[0];
 
             
         }
@@ -1352,7 +1352,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@value};
             var ___result = Rset_imageContentsHash_Injected_Ref_Hash128.Invoke(___genericsType, ___parameters);
-			value = (UnityEngine.Hash128)___parameters[0];
+			@value = (UnityEngine.Hash128)___parameters[0];
 
             
         }

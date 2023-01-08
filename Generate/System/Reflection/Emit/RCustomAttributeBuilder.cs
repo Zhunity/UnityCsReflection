@@ -630,12 +630,12 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 
         public virtual void System__2__Runtime__2__InteropServices__2___CustomAttributeBuilder__2__GetTypeInfoCount(out System.UInt32  @pcTInfo)
         {
-			pcTInfo = default;
+			@pcTInfo = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@pcTInfo};
             var ___result = RSystem__2__Runtime__2__InteropServices__2___CustomAttributeBuilder__2__GetTypeInfoCount_Out_UInt32.Invoke(___genericsType, ___parameters);
-			pcTInfo = (System.UInt32)___parameters[0];
+			@pcTInfo = (System.UInt32)___parameters[0];
 
             
         }
@@ -720,12 +720,12 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 
         public static System.Int32 decode_len(System.Byte[]  @data, System.Int32  @pos, out System.Int32  @rpos)
         {
-			rpos = default;
+			@rpos = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@data, @pos, @rpos};
             var ___result = Rdecode_len_ByteArray_Int32_Out_Int32.Invoke(___genericsType, ___parameters);
-			rpos = (System.Int32)___parameters[2];
+			@rpos = (System.Int32)___parameters[2];
 
             return (System.Int32)___result;
         }
@@ -744,12 +744,12 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 
         public static System.String decode_string(System.Byte[]  @data, System.Int32  @pos, out System.Int32  @rpos)
         {
-			rpos = default;
+			@rpos = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@data, @pos, @rpos};
             var ___result = Rdecode_string_ByteArray_Int32_Out_Int32.Invoke(___genericsType, ___parameters);
-			rpos = (System.Int32)___parameters[2];
+			@rpos = (System.Int32)___parameters[2];
 
             return (System.String)___result;
         }
@@ -790,12 +790,12 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 
         public static System.Object decode_cattr_value(System.Type  @t, System.Byte[]  @data, System.Int32  @pos, out System.Int32  @rpos)
         {
-			rpos = default;
+			@rpos = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@t, @data, @pos, @rpos};
             var ___result = Rdecode_cattr_value_Type_ByteArray_Int32_Out_Int32.Invoke(___genericsType, ___parameters);
-			rpos = (System.Int32)___parameters[3];
+			@rpos = (System.Int32)___parameters[3];
 
             return (System.Object)___result;
         }

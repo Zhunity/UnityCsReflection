@@ -1242,12 +1242,12 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
         public virtual void get_mousePosition_Injected(out UnityEngine.Vector2  @ret)
         {
-			ret = default;
+			@ret = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@ret};
             var ___result = Rget_mousePosition_Injected_Out_Vector2.Invoke(___genericsType, ___parameters);
-			ret = (UnityEngine.Vector2)___parameters[0];
+			@ret = (UnityEngine.Vector2)___parameters[0];
 
             
         }
@@ -1259,7 +1259,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@value};
             var ___result = Rset_mousePosition_Injected_Ref_Vector2.Invoke(___genericsType, ___parameters);
-			value = (UnityEngine.Vector2)___parameters[0];
+			@value = (UnityEngine.Vector2)___parameters[0];
 
             
         }
@@ -1267,12 +1267,12 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
         public virtual void get_delta_Injected(out UnityEngine.Vector2  @ret)
         {
-			ret = default;
+			@ret = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@ret};
             var ___result = Rget_delta_Injected_Out_Vector2.Invoke(___genericsType, ___parameters);
-			ret = (UnityEngine.Vector2)___parameters[0];
+			@ret = (UnityEngine.Vector2)___parameters[0];
 
             
         }
@@ -1284,7 +1284,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@value};
             var ___result = Rset_delta_Injected_Ref_Vector2.Invoke(___genericsType, ___parameters);
-			value = (UnityEngine.Vector2)___parameters[0];
+			@value = (UnityEngine.Vector2)___parameters[0];
 
             
         }
@@ -1292,12 +1292,12 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
         public virtual void get_tilt_Injected(out UnityEngine.Vector2  @ret)
         {
-			ret = default;
+			@ret = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@ret};
             var ___result = Rget_tilt_Injected_Out_Vector2.Invoke(___genericsType, ___parameters);
-			ret = (UnityEngine.Vector2)___parameters[0];
+			@ret = (UnityEngine.Vector2)___parameters[0];
 
             
         }
@@ -1309,7 +1309,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@value};
             var ___result = Rset_tilt_Injected_Ref_Vector2.Invoke(___genericsType, ___parameters);
-			value = (UnityEngine.Vector2)___parameters[0];
+			@value = (UnityEngine.Vector2)___parameters[0];
 
             
         }

@@ -1506,14 +1506,14 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 
         public virtual void GetPEKind(out System.Reflection.PortableExecutableKinds  @peKind, out System.Reflection.ImageFileMachine  @machine)
         {
-			peKind = default;
-			machine = default;
+			@peKind = default;
+			@machine = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@peKind, @machine};
             var ___result = RGetPEKind_Out_PortableExecutableKinds_Out_ImageFileMachine.Invoke(___genericsType, ___parameters);
-			peKind = (System.Reflection.PortableExecutableKinds)___parameters[0];
-			machine = (System.Reflection.ImageFileMachine)___parameters[1];
+			@peKind = (System.Reflection.PortableExecutableKinds)___parameters[0];
+			@machine = (System.Reflection.ImageFileMachine)___parameters[1];
 
             
         }
@@ -1829,11 +1829,12 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 
         public static System.IntPtr ResolveTypeToken(System.IntPtr  @module, System.Int32  @token, System.IntPtr[]  @type_args, System.IntPtr[]  @method_args, out RType  @error)
         {
-			error = default;
+			@error = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@module, @token, @type_args, @method_args, @error.Value};
             var ___result = RResolveTypeToken_IntPtr_Int32_IntPtrArray_IntPtrArray_Out_ResolveTokenError.Invoke(___genericsType, ___parameters);
+			@error = new RType(___parameters[4]);
 
             return (System.IntPtr)___result;
         }
@@ -1841,11 +1842,12 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 
         public static System.IntPtr ResolveMethodToken(System.IntPtr  @module, System.Int32  @token, System.IntPtr[]  @type_args, System.IntPtr[]  @method_args, out RType  @error)
         {
-			error = default;
+			@error = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@module, @token, @type_args, @method_args, @error.Value};
             var ___result = RResolveMethodToken_IntPtr_Int32_IntPtrArray_IntPtrArray_Out_ResolveTokenError.Invoke(___genericsType, ___parameters);
+			@error = new RType(___parameters[4]);
 
             return (System.IntPtr)___result;
         }
@@ -1853,11 +1855,12 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 
         public static System.IntPtr ResolveFieldToken(System.IntPtr  @module, System.Int32  @token, System.IntPtr[]  @type_args, System.IntPtr[]  @method_args, out RType  @error)
         {
-			error = default;
+			@error = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@module, @token, @type_args, @method_args, @error.Value};
             var ___result = RResolveFieldToken_IntPtr_Int32_IntPtrArray_IntPtrArray_Out_ResolveTokenError.Invoke(___genericsType, ___parameters);
+			@error = new RType(___parameters[4]);
 
             return (System.IntPtr)___result;
         }
@@ -1865,11 +1868,12 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 
         public static System.String ResolveStringToken(System.IntPtr  @module, System.Int32  @token, out RType  @error)
         {
-			error = default;
+			@error = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@module, @token, @error.Value};
             var ___result = RResolveStringToken_IntPtr_Int32_Out_ResolveTokenError.Invoke(___genericsType, ___parameters);
+			@error = new RType(___parameters[2]);
 
             return (System.String)___result;
         }
@@ -1877,11 +1881,12 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 
         public static System.Reflection.MemberInfo ResolveMemberToken(System.IntPtr  @module, System.Int32  @token, System.IntPtr[]  @type_args, System.IntPtr[]  @method_args, out RType  @error)
         {
-			error = default;
+			@error = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@module, @token, @type_args, @method_args, @error.Value};
             var ___result = RResolveMemberToken_IntPtr_Int32_IntPtrArray_IntPtrArray_Out_ResolveTokenError.Invoke(___genericsType, ___parameters);
+			@error = new RType(___parameters[4]);
 
             return (System.Reflection.MemberInfo)___result;
         }
@@ -1889,11 +1894,12 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 
         public static System.Byte[] ResolveSignature(System.IntPtr  @module, System.Int32  @metadataToken, out RType  @error)
         {
-			error = default;
+			@error = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@module, @metadataToken, @error.Value};
             var ___result = RResolveSignature_IntPtr_Int32_Out_ResolveTokenError.Invoke(___genericsType, ___parameters);
+			@error = new RType(___parameters[2]);
 
             return (System.Byte[])___result;
         }
@@ -1901,14 +1907,14 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 
         public static void GetPEKind(System.IntPtr  @module, out System.Reflection.PortableExecutableKinds  @peKind, out System.Reflection.ImageFileMachine  @machine)
         {
-			peKind = default;
-			machine = default;
+			@peKind = default;
+			@machine = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@module, @peKind, @machine};
             var ___result = RGetPEKind_IntPtr_Out_PortableExecutableKinds_Out_ImageFileMachine.Invoke(___genericsType, ___parameters);
-			peKind = (System.Reflection.PortableExecutableKinds)___parameters[1];
-			machine = (System.Reflection.ImageFileMachine)___parameters[2];
+			@peKind = (System.Reflection.PortableExecutableKinds)___parameters[1];
+			@machine = (System.Reflection.ImageFileMachine)___parameters[2];
 
             
         }

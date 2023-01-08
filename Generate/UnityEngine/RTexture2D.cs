@@ -3197,7 +3197,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@image, @mip, @x, @y, @color};
             var ___result = RSetPixelImpl_Injected_Int32_Int32_Int32_Int32_Ref_Color.Invoke(___genericsType, ___parameters);
-			color = (UnityEngine.Color)___parameters[4];
+			@color = (UnityEngine.Color)___parameters[4];
 
             
         }
@@ -3205,12 +3205,12 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
         public virtual void GetPixelImpl_Injected(System.Int32  @image, System.Int32  @mip, System.Int32  @x, System.Int32  @y, out UnityEngine.Color  @ret)
         {
-			ret = default;
+			@ret = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@image, @mip, @x, @y, @ret};
             var ___result = RGetPixelImpl_Injected_Int32_Int32_Int32_Int32_Out_Color.Invoke(___genericsType, ___parameters);
-			ret = (UnityEngine.Color)___parameters[4];
+			@ret = (UnityEngine.Color)___parameters[4];
 
             
         }
@@ -3218,12 +3218,12 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
         public virtual void GetPixelBilinearImpl_Injected(System.Int32  @image, System.Int32  @mip, System.Single  @u, System.Single  @v, out UnityEngine.Color  @ret)
         {
-			ret = default;
+			@ret = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@image, @mip, @u, @v, @ret};
             var ___result = RGetPixelBilinearImpl_Injected_Int32_Int32_Single_Single_Out_Color.Invoke(___genericsType, ___parameters);
-			ret = (UnityEngine.Color)___parameters[4];
+			@ret = (UnityEngine.Color)___parameters[4];
 
             
         }
@@ -3235,7 +3235,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@source, @destX, @destY, @recalculateMipMaps};
             var ___result = RReadPixelsImpl_Injected_Ref_Rect_Int32_Int32_Boolean.Invoke(___genericsType, ___parameters);
-			source = (UnityEngine.Rect)___parameters[0];
+			@source = (UnityEngine.Rect)___parameters[0];
 
             
         }
@@ -3243,12 +3243,12 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
         public static void GetSafetyHandle_Injected(UnityEngine.Texture2D  @tex, out Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle  @ret)
         {
-			ret = default;
+			@ret = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@tex, @ret};
             var ___result = RGetSafetyHandle_Injected_Texture2D_Out_AtomicSafetyHandle.Invoke(___genericsType, ___parameters);
-			ret = (Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)___parameters[1];
+			@ret = (Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)___parameters[1];
 
             
         }
@@ -3256,12 +3256,12 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
         public virtual void GetSafetyHandleForSlice_Injected(System.Int32  @mipLevel, out Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle  @ret)
         {
-			ret = default;
+			@ret = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@mipLevel, @ret};
             var ___result = RGetSafetyHandleForSlice_Injected_Int32_Out_AtomicSafetyHandle.Invoke(___genericsType, ___parameters);
-			ret = (Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)___parameters[1];
+			@ret = (Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)___parameters[1];
 
             
         }

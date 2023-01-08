@@ -5356,12 +5356,12 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 
         public virtual void System__2__Runtime__2__InteropServices__2___TypeBuilder__2__GetTypeInfoCount(out System.UInt32  @pcTInfo)
         {
-			pcTInfo = default;
+			@pcTInfo = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@pcTInfo};
             var ___result = RSystem__2__Runtime__2__InteropServices__2___TypeBuilder__2__GetTypeInfoCount_Out_UInt32.Invoke(___genericsType, ___parameters);
-			pcTInfo = (System.UInt32)___parameters[0];
+			@pcTInfo = (System.UInt32)___parameters[0];
 
             
         }
@@ -6539,7 +6539,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@destType, @value, @destValue};
             var ___result = RSetConstantValue_Type_Object_Ref_Object.Invoke(___genericsType, ___parameters);
-			destValue = (System.Object)___parameters[2];
+			@destValue = (System.Object)___parameters[2];
 
             return (System.Boolean)___result;
         }
@@ -7365,7 +7365,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@rootCauseForFailure};
             var ___result = RInternalGetNameIfAvailable_Ref_Type.Invoke(___genericsType, ___parameters);
-			rootCauseForFailure = (System.Type)___parameters[0];
+			@rootCauseForFailure = (System.Type)___parameters[0];
 
             return (System.String)___result;
         }

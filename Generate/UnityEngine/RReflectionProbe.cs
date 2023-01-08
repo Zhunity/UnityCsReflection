@@ -2220,12 +2220,12 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
         public virtual void get_size_Injected(out UnityEngine.Vector3  @ret)
         {
-			ret = default;
+			@ret = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@ret};
             var ___result = Rget_size_Injected_Out_Vector3.Invoke(___genericsType, ___parameters);
-			ret = (UnityEngine.Vector3)___parameters[0];
+			@ret = (UnityEngine.Vector3)___parameters[0];
 
             
         }
@@ -2237,7 +2237,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@value};
             var ___result = Rset_size_Injected_Ref_Vector3.Invoke(___genericsType, ___parameters);
-			value = (UnityEngine.Vector3)___parameters[0];
+			@value = (UnityEngine.Vector3)___parameters[0];
 
             
         }
@@ -2245,12 +2245,12 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
         public virtual void get_center_Injected(out UnityEngine.Vector3  @ret)
         {
-			ret = default;
+			@ret = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@ret};
             var ___result = Rget_center_Injected_Out_Vector3.Invoke(___genericsType, ___parameters);
-			ret = (UnityEngine.Vector3)___parameters[0];
+			@ret = (UnityEngine.Vector3)___parameters[0];
 
             
         }
@@ -2262,7 +2262,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@value};
             var ___result = Rset_center_Injected_Ref_Vector3.Invoke(___genericsType, ___parameters);
-			value = (UnityEngine.Vector3)___parameters[0];
+			@value = (UnityEngine.Vector3)___parameters[0];
 
             
         }
@@ -2270,12 +2270,12 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
         public virtual void get_bounds_Injected(out UnityEngine.Bounds  @ret)
         {
-			ret = default;
+			@ret = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@ret};
             var ___result = Rget_bounds_Injected_Out_Bounds.Invoke(___genericsType, ___parameters);
-			ret = (UnityEngine.Bounds)___parameters[0];
+			@ret = (UnityEngine.Bounds)___parameters[0];
 
             
         }
@@ -2283,12 +2283,12 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
         public virtual void get_backgroundColor_Injected(out UnityEngine.Color  @ret)
         {
-			ret = default;
+			@ret = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@ret};
             var ___result = Rget_backgroundColor_Injected_Out_Color.Invoke(___genericsType, ___parameters);
-			ret = (UnityEngine.Color)___parameters[0];
+			@ret = (UnityEngine.Color)___parameters[0];
 
             
         }
@@ -2300,7 +2300,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@value};
             var ___result = Rset_backgroundColor_Injected_Ref_Color.Invoke(___genericsType, ___parameters);
-			value = (UnityEngine.Color)___parameters[0];
+			@value = (UnityEngine.Color)___parameters[0];
 
             
         }
@@ -2308,12 +2308,12 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
         public virtual void get_textureHDRDecodeValues_Injected(out UnityEngine.Vector4  @ret)
         {
-			ret = default;
+			@ret = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@ret};
             var ___result = Rget_textureHDRDecodeValues_Injected_Out_Vector4.Invoke(___genericsType, ___parameters);
-			ret = (UnityEngine.Vector4)___parameters[0];
+			@ret = (UnityEngine.Vector4)___parameters[0];
 
             
         }
@@ -2321,12 +2321,12 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
         public static void get_defaultTextureHDRDecodeValues_Injected(out UnityEngine.Vector4  @ret)
         {
-			ret = default;
+			@ret = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@ret};
             var ___result = Rget_defaultTextureHDRDecodeValues_Injected_Out_Vector4.Invoke(___genericsType, ___parameters);
-			ret = (UnityEngine.Vector4)___parameters[0];
+			@ret = (UnityEngine.Vector4)___parameters[0];
 
             
         }
@@ -2367,12 +2367,12 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
         public virtual System.Boolean TryGetComponent(System.Type  @type, out UnityEngine.Component  @component)
         {
-			component = default;
+			@component = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@type, @component};
             var ___result = RTryGetComponent_Type_Out_Component.Invoke(___genericsType, ___parameters);
-			component = (UnityEngine.Component)___parameters[1];
+			@component = (UnityEngine.Component)___parameters[1];
 
             return (System.Boolean)___result;
         }
@@ -2380,12 +2380,12 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
         public virtual System.Boolean TryGetComponent<T>(out T  @component)
         {
-			component = default;
+			@component = default;
 
             var ___genericsType = new Type[] {typeof(T)};
             var ___parameters = new object[]{@component};
             var ___result = RTryGetComponent_GT_Out_T.Invoke(___genericsType, ___parameters);
-			component = (T)___parameters[0];
+			@component = (T)___parameters[0];
 
             return (System.Boolean)___result;
         }

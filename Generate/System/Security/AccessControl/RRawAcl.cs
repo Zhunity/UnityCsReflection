@@ -486,8 +486,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@sddlForm, @isDacl, @sdFlags, @pos};
             var ___result = RParseSddlForm_String_Boolean_Ref_ControlFlags_Ref_Int32.Invoke(___genericsType, ___parameters);
-			sdFlags = (System.Security.AccessControl.ControlFlags)___parameters[2];
-			pos = (System.Int32)___parameters[3];
+			@sdFlags = (System.Security.AccessControl.ControlFlags)___parameters[2];
+			@pos = (System.Int32)___parameters[3];
 
             return (System.Security.AccessControl.RawAcl)___result;
         }
@@ -499,8 +499,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@sddlForm, @isDacl, @sdFlags, @pos};
             var ___result = RParseFlags_String_Boolean_Ref_ControlFlags_Ref_Int32.Invoke(___genericsType, ___parameters);
-			sdFlags = (System.Security.AccessControl.ControlFlags)___parameters[2];
-			pos = (System.Int32)___parameters[3];
+			@sdFlags = (System.Security.AccessControl.ControlFlags)___parameters[2];
+			@pos = (System.Int32)___parameters[3];
 
             
         }

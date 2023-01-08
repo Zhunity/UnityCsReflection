@@ -557,7 +557,7 @@ namespace SMFrame.Editor.Refleaction.RMicrosoft.RWin32.RSafeHandles
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@success};
             var ___result = RDangerousAddRef_Ref_Boolean.Invoke(___genericsType, ___parameters);
-			success = (System.Boolean)___parameters[0];
+			@success = (System.Boolean)___parameters[0];
 
             
         }

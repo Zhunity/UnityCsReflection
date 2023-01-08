@@ -1352,12 +1352,12 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
 
         public virtual System.Boolean TryGetValue(T  @equalValue, out T  @actualValue)
         {
-			actualValue = default;
+			@actualValue = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@equalValue, @actualValue};
             var ___result = RTryGetValue_T_Out_T.Invoke(___genericsType, ___parameters);
-			actualValue = (T)___parameters[1];
+			@actualValue = (T)___parameters[1];
 
             return (System.Boolean)___result;
         }
@@ -1673,12 +1673,12 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
 
         public virtual System.Boolean AddOrGetLocation(T  @value, out System.Int32  @location)
         {
-			location = default;
+			@location = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@value, @location};
             var ___result = RAddOrGetLocation_T_Out_Int32.Invoke(___genericsType, ___parameters);
-			location = (System.Int32)___parameters[1];
+			@location = (System.Int32)___parameters[1];
 
             return (System.Boolean)___result;
         }

@@ -2663,6 +2663,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@parentStyle.Value};
             var ___result = RFinalizeApply_Ref_ComputedStyle.Invoke(___genericsType, ___parameters);
+			@parentStyle = new RUnityEngine.RUIElements.RComputedStyle(___parameters[0]);
 
             
         }
@@ -2685,6 +2686,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@reader.Value, @parentStyle.Value};
             var ___result = RApplyGlobalKeyword_StylePropertyReader_Ref_ComputedStyle.Invoke(___genericsType, ___parameters);
+			@parentStyle = new RUnityEngine.RUIElements.RComputedStyle(___parameters[1]);
 
             return (System.Boolean)___result;
         }
@@ -2696,6 +2698,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@id.Value, @keyword, @parentStyle.Value};
             var ___result = RApplyGlobalKeyword_StylePropertyId_StyleKeyword_Ref_ComputedStyle.Invoke(___genericsType, ___parameters);
+			@parentStyle = new RUnityEngine.RUIElements.RComputedStyle(___parameters[2]);
 
             return (System.Boolean)___result;
         }
@@ -2751,6 +2754,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@element, @computedStyle.Value, @textShadow, @durationMs, @delayMs, @easingCurve};
             var ___result = RStartAnimationInlineTextShadow_VisualElement_Ref_ComputedStyle_StyleTextShadow_Int32_Int32_Func_d_Single_Single_p_.Invoke(___genericsType, ___parameters);
+			@computedStyle = new RUnityEngine.RUIElements.RComputedStyle(___parameters[1]);
 
             return (System.Boolean)___result;
         }
@@ -2762,6 +2766,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@element, @computedStyle.Value, @rotate, @durationMs, @delayMs, @easingCurve};
             var ___result = RStartAnimationInlineRotate_VisualElement_Ref_ComputedStyle_StyleRotate_Int32_Int32_Func_d_Single_Single_p_.Invoke(___genericsType, ___parameters);
+			@computedStyle = new RUnityEngine.RUIElements.RComputedStyle(___parameters[1]);
 
             return (System.Boolean)___result;
         }
@@ -2773,6 +2778,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@element, @computedStyle.Value, @translate, @durationMs, @delayMs, @easingCurve};
             var ___result = RStartAnimationInlineTranslate_VisualElement_Ref_ComputedStyle_StyleTranslate_Int32_Int32_Func_d_Single_Single_p_.Invoke(___genericsType, ___parameters);
+			@computedStyle = new RUnityEngine.RUIElements.RComputedStyle(___parameters[1]);
 
             return (System.Boolean)___result;
         }
@@ -2784,6 +2790,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@element, @computedStyle.Value, @scale, @durationMs, @delayMs, @easingCurve};
             var ___result = RStartAnimationInlineScale_VisualElement_Ref_ComputedStyle_StyleScale_Int32_Int32_Func_d_Single_Single_p_.Invoke(___genericsType, ___parameters);
+			@computedStyle = new RUnityEngine.RUIElements.RComputedStyle(___parameters[1]);
 
             return (System.Boolean)___result;
         }
@@ -2795,6 +2802,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@element, @computedStyle.Value, @transformOrigin, @durationMs, @delayMs, @easingCurve};
             var ___result = RStartAnimationInlineTransformOrigin_VisualElement_Ref_ComputedStyle_StyleTransformOrigin_Int32_Int32_Func_d_Single_Single_p_.Invoke(___genericsType, ___parameters);
+			@computedStyle = new RUnityEngine.RUIElements.RComputedStyle(___parameters[1]);
 
             return (System.Boolean)___result;
         }
@@ -2806,6 +2814,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@element, @computedStyle.Value, @backgroundSize, @durationMs, @delayMs, @easingCurve};
             var ___result = RStartAnimationInlineBackgroundSize_VisualElement_Ref_ComputedStyle_StyleBackgroundSize_Int32_Int32_Func_d_Single_Single_p_.Invoke(___genericsType, ___parameters);
+			@computedStyle = new RUnityEngine.RUIElements.RComputedStyle(___parameters[1]);
 
             return (System.Boolean)___result;
         }
@@ -2817,6 +2826,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@parentStyle.Value};
             var ___result = RCreate_Ref_ComputedStyle.Invoke(___genericsType, ___parameters);
+			@parentStyle = new RUnityEngine.RUIElements.RComputedStyle(___parameters[0]);
 
             return (System.Object)___result;
         }
@@ -2861,6 +2871,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@other.Value};
             var ___result = RCopyFrom_Ref_ComputedStyle.Invoke(___genericsType, ___parameters);
+			@other = new RUnityEngine.RUIElements.RComputedStyle(___parameters[0]);
 
             
         }
@@ -2872,6 +2883,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@reader.Value, @parentStyle.Value};
             var ___result = RApplyProperties_StylePropertyReader_Ref_ComputedStyle.Invoke(___genericsType, ___parameters);
+			@parentStyle = new RUnityEngine.RUIElements.RComputedStyle(___parameters[1]);
 
             
         }
@@ -2883,6 +2895,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@sv.Value, @parentStyle.Value};
             var ___result = RApplyStyleValue_StyleValue_Ref_ComputedStyle.Invoke(___genericsType, ___parameters);
+			@parentStyle = new RUnityEngine.RUIElements.RComputedStyle(___parameters[1]);
 
             
         }
@@ -2894,6 +2907,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@sv.Value, @parentStyle.Value};
             var ___result = RApplyStyleValueManaged_StyleValueManaged_Ref_ComputedStyle.Invoke(___genericsType, ___parameters);
+			@parentStyle = new RUnityEngine.RUIElements.RComputedStyle(___parameters[1]);
 
             
         }
@@ -2927,6 +2941,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@id.Value, @other.Value};
             var ___result = RApplyFromComputedStyle_StylePropertyId_Ref_ComputedStyle.Invoke(___genericsType, ___parameters);
+			@other = new RUnityEngine.RUIElements.RComputedStyle(___parameters[1]);
 
             
         }
@@ -3103,6 +3118,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@element, @id.Value, @oldStyle.Value, @newStyle.Value, @durationMs, @delayMs, @easingCurve};
             var ___result = RStartAnimation_VisualElement_StylePropertyId_Ref_ComputedStyle_Ref_ComputedStyle_Int32_Int32_Func_d_Single_Single_p_.Invoke(___genericsType, ___parameters);
+			@oldStyle = new RUnityEngine.RUIElements.RComputedStyle(___parameters[2]);
+			@newStyle = new RUnityEngine.RUIElements.RComputedStyle(___parameters[3]);
 
             return (System.Boolean)___result;
         }
@@ -3114,6 +3131,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@element, @oldStyle.Value, @newStyle.Value, @durationMs, @delayMs, @easingCurve};
             var ___result = RStartAnimationAllProperty_VisualElement_Ref_ComputedStyle_Ref_ComputedStyle_Int32_Int32_Func_d_Single_Single_p_.Invoke(___genericsType, ___parameters);
+			@oldStyle = new RUnityEngine.RUIElements.RComputedStyle(___parameters[1]);
+			@newStyle = new RUnityEngine.RUIElements.RComputedStyle(___parameters[2]);
 
             return (System.Boolean)___result;
         }
@@ -3125,6 +3144,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@element, @id.Value, @computedStyle.Value, @sv.Value, @durationMs, @delayMs, @easingCurve};
             var ___result = RStartAnimationInline_VisualElement_StylePropertyId_Ref_ComputedStyle_StyleValue_Int32_Int32_Func_d_Single_Single_p_.Invoke(___genericsType, ___parameters);
+			@computedStyle = new RUnityEngine.RUIElements.RComputedStyle(___parameters[2]);
 
             return (System.Boolean)___result;
         }
@@ -3213,6 +3233,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@reader.Value, @parentStyle.Value};
             var ___result = RApplyUnsetValue_StylePropertyReader_Ref_ComputedStyle.Invoke(___genericsType, ___parameters);
+			@parentStyle = new RUnityEngine.RUIElements.RComputedStyle(___parameters[1]);
 
             
         }
@@ -3224,6 +3245,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@id.Value, @parentStyle.Value};
             var ___result = RApplyUnsetValue_StylePropertyId_Ref_ComputedStyle.Invoke(___genericsType, ___parameters);
+			@parentStyle = new RUnityEngine.RUIElements.RComputedStyle(___parameters[1]);
 
             
         }
@@ -3235,6 +3257,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@x.Value, @y.Value};
             var ___result = RCompareChanges_Ref_ComputedStyle_Ref_ComputedStyle.Invoke(___genericsType, ___parameters);
+			@x = new RUnityEngine.RUIElements.RComputedStyle(___parameters[0]);
+			@y = new RUnityEngine.RUIElements.RComputedStyle(___parameters[1]);
 
             return (System.Object)___result;
         }

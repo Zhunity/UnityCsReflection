@@ -1080,14 +1080,14 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 
         public static void GetObjectAceTypeGuids(System.Security.AccessControl.ObjectAce  @ace, out System.Guid  @type, out System.Guid  @inheritedType)
         {
-			type = default;
-			inheritedType = default;
+			@type = default;
+			@inheritedType = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@ace, @type, @inheritedType};
             var ___result = RGetObjectAceTypeGuids_ObjectAce_Out_Guid_Out_Guid.Invoke(___genericsType, ___parameters);
-			type = (System.Guid)___parameters[1];
-			inheritedType = (System.Guid)___parameters[2];
+			@type = (System.Guid)___parameters[1];
+			@inheritedType = (System.Guid)___parameters[2];
 
             
         }

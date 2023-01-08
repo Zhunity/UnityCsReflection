@@ -1546,12 +1546,12 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization
 
         public virtual System.Object GetElement(System.String  @name, out System.Type  @foundType)
         {
-			foundType = default;
+			@foundType = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@name, @foundType};
             var ___result = RGetElement_String_Out_Type.Invoke(___genericsType, ___parameters);
-			foundType = (System.Type)___parameters[1];
+			@foundType = (System.Type)___parameters[1];
 
             return (System.Object)___result;
         }
@@ -1559,12 +1559,12 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization
 
         public virtual System.Object GetElementNoThrow(System.String  @name, out System.Type  @foundType)
         {
-			foundType = default;
+			@foundType = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@name, @foundType};
             var ___result = RGetElementNoThrow_String_Out_Type.Invoke(___genericsType, ___parameters);
-			foundType = (System.Type)___parameters[1];
+			@foundType = (System.Type)___parameters[1];
 
             return (System.Object)___result;
         }

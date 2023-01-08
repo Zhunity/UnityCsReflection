@@ -262,13 +262,13 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 
         public virtual System.Reflection.MethodBase BindToMethod(System.Reflection.BindingFlags  @bindingAttr, System.Reflection.MethodBase[]  @match, ref System.Object[]  @args, System.Reflection.ParameterModifier[]  @modifiers, System.Globalization.CultureInfo  @culture, System.String[]  @names, out System.Object  @state)
         {
-			state = default;
+			@state = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@bindingAttr, @match, @args, @modifiers, @culture, @names, @state};
             var ___result = RBindToMethod_BindingFlags_MethodBaseArray_Ref_ObjectArray_ParameterModifierArray_CultureInfo_StringArray_Out_Object.Invoke(___genericsType, ___parameters);
-			args = (System.Object[])___parameters[2];
-			state = (System.Object)___parameters[6];
+			@args = (System.Object[])___parameters[2];
+			@state = (System.Object)___parameters[6];
 
             return (System.Reflection.MethodBase)___result;
         }
@@ -291,7 +291,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@args, @state};
             var ___result = RReorderArgumentArray_Ref_ObjectArray_Object.Invoke(___genericsType, ___parameters);
-			args = (System.Object[])___parameters[0];
+			@args = (System.Object[])___parameters[0];
 
             
         }

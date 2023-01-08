@@ -1359,12 +1359,12 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 
         public virtual System.Object InternalInvoke(System.Object  @obj, System.Object[]  @parameters, out System.Exception  @exc)
         {
-			exc = default;
+			@exc = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@obj, @parameters, @exc};
             var ___result = RInternalInvoke_Object_ObjectArray_Out_Exception.Invoke(___genericsType, ___parameters);
-			exc = (System.Exception)___parameters[2];
+			@exc = (System.Exception)___parameters[2];
 
             return (System.Object)___result;
         }

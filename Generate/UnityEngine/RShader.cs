@@ -3494,12 +3494,12 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
         public virtual void Internal_GetCustomEditorForRenderPipeline(System.String  @renderPipelineType, out System.String  @customEditor)
         {
-			customEditor = default;
+			@customEditor = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@renderPipelineType, @customEditor};
             var ___result = RInternal_GetCustomEditorForRenderPipeline_String_Out_String.Invoke(___genericsType, ___parameters);
-			customEditor = (System.String)___parameters[1];
+			@customEditor = (System.String)___parameters[1];
 
             
         }
@@ -4662,14 +4662,14 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
         public static System.Boolean FindTextureStackImpl(UnityEngine.Shader  @s, System.Int32  @propertyIdx, out System.String  @stackName, out System.Int32  @layerIndex)
         {
-			stackName = default;
-			layerIndex = default;
+			@stackName = default;
+			@layerIndex = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@s, @propertyIdx, @stackName, @layerIndex};
             var ___result = RFindTextureStackImpl_Shader_Int32_Out_String_Out_Int32.Invoke(___genericsType, ___parameters);
-			stackName = (System.String)___parameters[2];
-			layerIndex = (System.Int32)___parameters[3];
+			@stackName = (System.String)___parameters[2];
+			@layerIndex = (System.Int32)___parameters[3];
 
             return (System.Boolean)___result;
         }
@@ -4842,14 +4842,14 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
         public virtual System.Boolean FindTextureStack(System.Int32  @propertyIndex, out System.String  @stackName, out System.Int32  @layerIndex)
         {
-			stackName = default;
-			layerIndex = default;
+			@stackName = default;
+			@layerIndex = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@propertyIndex, @stackName, @layerIndex};
             var ___result = RFindTextureStack_Int32_Out_String_Out_Int32.Invoke(___genericsType, ___parameters);
-			stackName = (System.String)___parameters[1];
-			layerIndex = (System.Int32)___parameters[2];
+			@stackName = (System.String)___parameters[1];
+			@layerIndex = (System.Int32)___parameters[2];
 
             return (System.Boolean)___result;
         }
@@ -4857,12 +4857,12 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
         public virtual void get_keywordSpace_Injected(out UnityEngine.Rendering.LocalKeywordSpace  @ret)
         {
-			ret = default;
+			@ret = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@ret};
             var ___result = Rget_keywordSpace_Injected_Out_LocalKeywordSpace.Invoke(___genericsType, ___parameters);
-			ret = (UnityEngine.Rendering.LocalKeywordSpace)___parameters[0];
+			@ret = (UnityEngine.Rendering.LocalKeywordSpace)___parameters[0];
 
             
         }
@@ -4874,7 +4874,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@keyword};
             var ___result = REnableKeywordFast_Injected_Ref_GlobalKeyword.Invoke(___genericsType, ___parameters);
-			keyword = (UnityEngine.Rendering.GlobalKeyword)___parameters[0];
+			@keyword = (UnityEngine.Rendering.GlobalKeyword)___parameters[0];
 
             
         }
@@ -4886,7 +4886,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@keyword};
             var ___result = RDisableKeywordFast_Injected_Ref_GlobalKeyword.Invoke(___genericsType, ___parameters);
-			keyword = (UnityEngine.Rendering.GlobalKeyword)___parameters[0];
+			@keyword = (UnityEngine.Rendering.GlobalKeyword)___parameters[0];
 
             
         }
@@ -4898,7 +4898,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@keyword, @value};
             var ___result = RSetKeywordFast_Injected_Ref_GlobalKeyword_Boolean.Invoke(___genericsType, ___parameters);
-			keyword = (UnityEngine.Rendering.GlobalKeyword)___parameters[0];
+			@keyword = (UnityEngine.Rendering.GlobalKeyword)___parameters[0];
 
             
         }
@@ -4910,7 +4910,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@keyword};
             var ___result = RIsKeywordEnabledFast_Injected_Ref_GlobalKeyword.Invoke(___genericsType, ___parameters);
-			keyword = (UnityEngine.Rendering.GlobalKeyword)___parameters[0];
+			@keyword = (UnityEngine.Rendering.GlobalKeyword)___parameters[0];
 
             return (System.Boolean)___result;
         }
@@ -4922,7 +4922,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@name, @value};
             var ___result = RSetGlobalVectorImpl_Injected_Int32_Ref_Vector4.Invoke(___genericsType, ___parameters);
-			value = (UnityEngine.Vector4)___parameters[1];
+			@value = (UnityEngine.Vector4)___parameters[1];
 
             
         }
@@ -4934,7 +4934,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@name, @value};
             var ___result = RSetGlobalMatrixImpl_Injected_Int32_Ref_Matrix4x4.Invoke(___genericsType, ___parameters);
-			value = (UnityEngine.Matrix4x4)___parameters[1];
+			@value = (UnityEngine.Matrix4x4)___parameters[1];
 
             
         }
@@ -4942,12 +4942,12 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
         public static void GetGlobalVectorImpl_Injected(System.Int32  @name, out UnityEngine.Vector4  @ret)
         {
-			ret = default;
+			@ret = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@name, @ret};
             var ___result = RGetGlobalVectorImpl_Injected_Int32_Out_Vector4.Invoke(___genericsType, ___parameters);
-			ret = (UnityEngine.Vector4)___parameters[1];
+			@ret = (UnityEngine.Vector4)___parameters[1];
 
             
         }
@@ -4955,12 +4955,12 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
         public static void GetGlobalMatrixImpl_Injected(System.Int32  @name, out UnityEngine.Matrix4x4  @ret)
         {
-			ret = default;
+			@ret = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@name, @ret};
             var ___result = RGetGlobalMatrixImpl_Injected_Int32_Out_Matrix4x4.Invoke(___genericsType, ___parameters);
-			ret = (UnityEngine.Matrix4x4)___parameters[1];
+			@ret = (UnityEngine.Matrix4x4)___parameters[1];
 
             
         }
@@ -4968,12 +4968,12 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
         public static void GetPropertyDefaultValue_Injected(UnityEngine.Shader  @shader, System.Int32  @propertyIndex, out UnityEngine.Vector4  @ret)
         {
-			ret = default;
+			@ret = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@shader, @propertyIndex, @ret};
             var ___result = RGetPropertyDefaultValue_Injected_Shader_Int32_Out_Vector4.Invoke(___genericsType, ___parameters);
-			ret = (UnityEngine.Vector4)___parameters[2];
+			@ret = (UnityEngine.Vector4)___parameters[2];
 
             
         }

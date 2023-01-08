@@ -412,6 +412,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@vertexCount, @indexCount, @allocatorData.Value};
             var ___result = RInvoke_UInt32_UInt32_Ref_AllocMeshData.Invoke(___genericsType, ___parameters);
+			@allocatorData = new RUnityEngine.RUIElements.RUIR.RMeshBuilder.RAllocMeshData(___parameters[2]);
 
             return (UnityEngine.UIElements.MeshWriteData)___result;
         }
@@ -423,6 +424,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@vertexCount, @indexCount, @allocatorData.Value, @callback, @object};
             var ___result = RBeginInvoke_UInt32_UInt32_Ref_AllocMeshData_AsyncCallback_Object.Invoke(___genericsType, ___parameters);
+			@allocatorData = new RUnityEngine.RUIElements.RUIR.RMeshBuilder.RAllocMeshData(___parameters[2]);
 
             return (System.IAsyncResult)___result;
         }
@@ -434,6 +436,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@allocatorData.Value, @result};
             var ___result = REndInvoke_Ref_AllocMeshData_IAsyncResult.Invoke(___genericsType, ___parameters);
+			@allocatorData = new RUnityEngine.RUIElements.RUIR.RMeshBuilder.RAllocMeshData(___parameters[0]);
 
             return (UnityEngine.UIElements.MeshWriteData)___result;
         }

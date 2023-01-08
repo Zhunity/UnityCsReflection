@@ -408,7 +408,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@state};
             var ___result = RInvoke_Ref_TState.Invoke(___genericsType, ___parameters);
-			state = (TState)___parameters[0];
+			@state = (TState)___parameters[0];
 
             
         }
@@ -420,7 +420,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@state, @callback, @object};
             var ___result = RBeginInvoke_Ref_TState_AsyncCallback_Object.Invoke(___genericsType, ___parameters);
-			state = (TState)___parameters[0];
+			@state = (TState)___parameters[0];
 
             return (System.IAsyncResult)___result;
         }
@@ -432,7 +432,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@state, @result};
             var ___result = REndInvoke_Ref_TState_IAsyncResult.Invoke(___genericsType, ___parameters);
-			state = (TState)___parameters[0];
+			@state = (TState)___parameters[0];
 
             
         }

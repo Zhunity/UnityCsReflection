@@ -2793,7 +2793,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
             var ___genericsType = new Type[] {typeof(T)};
             var ___parameters = new object[]{@array, @newSize};
             var ___result = RResize_GT_Ref_TArray_Int32.Invoke(___genericsType, ___parameters);
-			array = (T[])___parameters[0];
+			@array = (T[])___parameters[0];
 
             
         }
@@ -3890,13 +3890,13 @@ namespace SMFrame.Editor.Refleaction.RSystem
 
         public static void GetGenericValue_icall<T>(ref System.Array  @self, System.Int32  @pos, out T  @value)
         {
-			value = default;
+			@value = default;
 
             var ___genericsType = new Type[] {typeof(T)};
             var ___parameters = new object[]{@self, @pos, @value};
             var ___result = RGetGenericValue_icall_GT_Ref_Array_Int32_Out_T.Invoke(___genericsType, ___parameters);
-			self = (System.Array)___parameters[0];
-			value = (T)___parameters[2];
+			@self = (System.Array)___parameters[0];
+			@value = (T)___parameters[2];
 
             
         }
@@ -3908,8 +3908,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
             var ___genericsType = new Type[] {typeof(T)};
             var ___parameters = new object[]{@self, @pos, @value};
             var ___result = RSetGenericValue_icall_GT_Ref_Array_Int32_Ref_T.Invoke(___genericsType, ___parameters);
-			self = (System.Array)___parameters[0];
-			value = (T)___parameters[2];
+			@self = (System.Array)___parameters[0];
+			@value = (T)___parameters[2];
 
             
         }
@@ -3917,12 +3917,12 @@ namespace SMFrame.Editor.Refleaction.RSystem
 
         public virtual void GetGenericValueImpl<T>(System.Int32  @pos, out T  @value)
         {
-			value = default;
+			@value = default;
 
             var ___genericsType = new Type[] {typeof(T)};
             var ___parameters = new object[]{@pos, @value};
             var ___result = RGetGenericValueImpl_GT_Int32_Out_T.Invoke(___genericsType, ___parameters);
-			value = (T)___parameters[1];
+			@value = (T)___parameters[1];
 
             
         }
@@ -3934,7 +3934,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
             var ___genericsType = new Type[] {typeof(T)};
             var ___parameters = new object[]{@pos, @value};
             var ___result = RSetGenericValueImpl_GT_Int32_Ref_T.Invoke(___genericsType, ___parameters);
-			value = (T)___parameters[1];
+			@value = (T)___parameters[1];
 
             
         }

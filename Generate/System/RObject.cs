@@ -320,7 +320,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@typeName, @fieldName, @val};
             var ___result = RFieldGetter_String_String_Ref_Object.Invoke(___genericsType, ___parameters);
-			val = (System.Object)___parameters[2];
+			@val = (System.Object)___parameters[2];
 
             
         }

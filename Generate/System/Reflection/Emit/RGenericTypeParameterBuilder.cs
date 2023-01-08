@@ -5246,7 +5246,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@rootCauseForFailure};
             var ___result = RInternalGetNameIfAvailable_Ref_Type.Invoke(___genericsType, ___parameters);
-			rootCauseForFailure = (System.Type)___parameters[0];
+			@rootCauseForFailure = (System.Type)___parameters[0];
 
             return (System.String)___result;
         }

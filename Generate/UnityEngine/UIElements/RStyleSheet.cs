@@ -1101,12 +1101,12 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 
         public static System.Boolean TryCheckAccess<T>(T[]  @list, RType  @type, RUnityEngine.RUIElements.RStyleValueHandle  @handle, out T  @value)
         {
-			value = default;
+			@value = default;
 
             var ___genericsType = new Type[] {typeof(T)};
             var ___parameters = new object[]{@list, @type.Value, @handle.Value, @value};
             var ___result = RTryCheckAccess_GT_TArray_StyleValueType_StyleValueHandle_Out_T.Invoke(___genericsType, ___parameters);
-			value = (T)___parameters[3];
+			@value = (T)___parameters[3];
 
             return (System.Boolean)___result;
         }
@@ -1191,12 +1191,12 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 
         public virtual System.Boolean TryReadFloat(RUnityEngine.RUIElements.RStyleValueHandle  @handle, out System.Single  @value)
         {
-			value = default;
+			@value = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@handle.Value, @value};
             var ___result = RTryReadFloat_StyleValueHandle_Out_Single.Invoke(___genericsType, ___parameters);
-			value = (System.Single)___parameters[1];
+			@value = (System.Single)___parameters[1];
 
             return (System.Boolean)___result;
         }
@@ -1215,11 +1215,12 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 
         public virtual System.Boolean TryReadDimension(RUnityEngine.RUIElements.RStyleValueHandle  @handle, out RUnityEngine.RUIElements.RStyleSheets.RDimension  @value)
         {
-			value = default;
+			@value = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@handle.Value, @value.Value};
             var ___result = RTryReadDimension_StyleValueHandle_Out_Dimension.Invoke(___genericsType, ___parameters);
+			@value = new RUnityEngine.RUIElements.RStyleSheets.RDimension(___parameters[1]);
 
             return (System.Boolean)___result;
         }
@@ -1238,12 +1239,12 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 
         public virtual System.Boolean TryReadColor(RUnityEngine.RUIElements.RStyleValueHandle  @handle, out UnityEngine.Color  @value)
         {
-			value = default;
+			@value = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@handle.Value, @value};
             var ___result = RTryReadColor_StyleValueHandle_Out_Color.Invoke(___genericsType, ___parameters);
-			value = (UnityEngine.Color)___parameters[1];
+			@value = (UnityEngine.Color)___parameters[1];
 
             return (System.Boolean)___result;
         }
@@ -1262,12 +1263,12 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 
         public virtual System.Boolean TryReadString(RUnityEngine.RUIElements.RStyleValueHandle  @handle, out System.String  @value)
         {
-			value = default;
+			@value = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@handle.Value, @value};
             var ___result = RTryReadString_StyleValueHandle_Out_String.Invoke(___genericsType, ___parameters);
-			value = (System.String)___parameters[1];
+			@value = (System.String)___parameters[1];
 
             return (System.Boolean)___result;
         }
@@ -1286,12 +1287,12 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 
         public virtual System.Boolean TryReadEnum(RUnityEngine.RUIElements.RStyleValueHandle  @handle, out System.String  @value)
         {
-			value = default;
+			@value = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@handle.Value, @value};
             var ___result = RTryReadEnum_StyleValueHandle_Out_String.Invoke(___genericsType, ___parameters);
-			value = (System.String)___parameters[1];
+			@value = (System.String)___parameters[1];
 
             return (System.Boolean)___result;
         }
@@ -1310,12 +1311,12 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 
         public virtual System.Boolean TryReadVariable(RUnityEngine.RUIElements.RStyleValueHandle  @handle, out System.String  @value)
         {
-			value = default;
+			@value = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@handle.Value, @value};
             var ___result = RTryReadVariable_StyleValueHandle_Out_String.Invoke(___genericsType, ___parameters);
-			value = (System.String)___parameters[1];
+			@value = (System.String)___parameters[1];
 
             return (System.Boolean)___result;
         }
@@ -1334,12 +1335,12 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 
         public virtual System.Boolean TryReadResourcePath(RUnityEngine.RUIElements.RStyleValueHandle  @handle, out System.String  @value)
         {
-			value = default;
+			@value = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@handle.Value, @value};
             var ___result = RTryReadResourcePath_StyleValueHandle_Out_String.Invoke(___genericsType, ___parameters);
-			value = (System.String)___parameters[1];
+			@value = (System.String)___parameters[1];
 
             return (System.Boolean)___result;
         }
@@ -1369,12 +1370,12 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 
         public virtual System.Boolean TryReadAssetReference(RUnityEngine.RUIElements.RStyleValueHandle  @handle, out UnityEngine.Object  @value)
         {
-			value = default;
+			@value = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@handle.Value, @value};
             var ___result = RTryReadAssetReference_StyleValueHandle_Out_Object.Invoke(___genericsType, ___parameters);
-			value = (UnityEngine.Object)___parameters[1];
+			@value = (UnityEngine.Object)___parameters[1];
 
             return (System.Boolean)___result;
         }

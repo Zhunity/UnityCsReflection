@@ -1173,6 +1173,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@prop.Value, @info.Value, @req_info.Value};
             var ___result = Rget_property_info_RuntimePropertyInfo_Ref_MonoPropertyInfo_PInfo.Invoke(___genericsType, ___parameters);
+			@info = new RSystem.RReflection.RMonoPropertyInfo(___parameters[1]);
 
             
         }

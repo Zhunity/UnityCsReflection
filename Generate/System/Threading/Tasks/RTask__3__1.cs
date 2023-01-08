@@ -2872,7 +2872,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@newBits, @illegalBits, @oldFlags};
             var ___result = RAtomicStateUpdate_Int32_Int32_Ref_Int32.Invoke(___genericsType, ___parameters);
-			oldFlags = (System.Int32)___parameters[2];
+			@oldFlags = (System.Int32)___parameters[2];
 
             return (System.Boolean)___result;
         }

@@ -47,12 +47,12 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 
         public virtual System.Boolean TryGetAttributeValue(System.String  @attributeName, out System.String  @value)
         {
-			value = default;
+			@value = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@attributeName, @value};
             var ___result = RTryGetAttributeValue_String_Out_String.Invoke(___genericsType, ___parameters);
-			value = (System.String)___parameters[1];
+			@value = (System.String)___parameters[1];
 
             return (System.Boolean)___result;
         }

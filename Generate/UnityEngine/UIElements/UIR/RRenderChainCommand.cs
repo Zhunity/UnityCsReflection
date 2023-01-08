@@ -470,7 +470,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@drawParams.Value, @pixelsPerPoint, @immediateException};
             var ___result = RExecuteNonDrawMesh_DrawParams_Single_Ref_Exception.Invoke(___genericsType, ___parameters);
-			immediateException = (System.Exception)___parameters[2];
+			@immediateException = (System.Exception)___parameters[2];
 
             
         }

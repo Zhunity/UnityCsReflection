@@ -928,7 +928,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@sh, @direction, @color};
             var ___result = RAddDirectionalLightInternal_Ref_SphericalHarmonicsL2_Vector3_Color.Invoke(___genericsType, ___parameters);
-			sh = (UnityEngine.Rendering.SphericalHarmonicsL2)___parameters[0];
+			@sh = (UnityEngine.Rendering.SphericalHarmonicsL2)___parameters[0];
 
             
         }
@@ -951,7 +951,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@sh, @directions, @results};
             var ___result = REvaluateInternal_Ref_SphericalHarmonicsL2_Vector3Array_ColorArray.Invoke(___genericsType, ___parameters);
-			sh = (UnityEngine.Rendering.SphericalHarmonicsL2)___parameters[0];
+			@sh = (UnityEngine.Rendering.SphericalHarmonicsL2)___parameters[0];
 
             
         }
@@ -1051,7 +1051,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@_unity_self};
             var ___result = RSetZero_Injected_Ref_SphericalHarmonicsL2.Invoke(___genericsType, ___parameters);
-			_unity_self = (UnityEngine.Rendering.SphericalHarmonicsL2)___parameters[0];
+			@_unity_self = (UnityEngine.Rendering.SphericalHarmonicsL2)___parameters[0];
 
             
         }
@@ -1063,8 +1063,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@_unity_self, @color};
             var ___result = RAddAmbientLight_Injected_Ref_SphericalHarmonicsL2_Ref_Color.Invoke(___genericsType, ___parameters);
-			_unity_self = (UnityEngine.Rendering.SphericalHarmonicsL2)___parameters[0];
-			color = (UnityEngine.Color)___parameters[1];
+			@_unity_self = (UnityEngine.Rendering.SphericalHarmonicsL2)___parameters[0];
+			@color = (UnityEngine.Color)___parameters[1];
 
             
         }
@@ -1076,9 +1076,9 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@sh, @direction, @color};
             var ___result = RAddDirectionalLightInternal_Injected_Ref_SphericalHarmonicsL2_Ref_Vector3_Ref_Color.Invoke(___genericsType, ___parameters);
-			sh = (UnityEngine.Rendering.SphericalHarmonicsL2)___parameters[0];
-			direction = (UnityEngine.Vector3)___parameters[1];
-			color = (UnityEngine.Color)___parameters[2];
+			@sh = (UnityEngine.Rendering.SphericalHarmonicsL2)___parameters[0];
+			@direction = (UnityEngine.Vector3)___parameters[1];
+			@color = (UnityEngine.Color)___parameters[2];
 
             
         }

@@ -1510,12 +1510,12 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
         public virtual void GetTextureRect_Injected(out UnityEngine.Rect  @ret)
         {
-			ret = default;
+			@ret = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@ret};
             var ___result = RGetTextureRect_Injected_Out_Rect.Invoke(___genericsType, ___parameters);
-			ret = (UnityEngine.Rect)___parameters[0];
+			@ret = (UnityEngine.Rect)___parameters[0];
 
             
         }
@@ -1523,12 +1523,12 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
         public virtual void GetTextureRectOffset_Injected(out UnityEngine.Vector2  @ret)
         {
-			ret = default;
+			@ret = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@ret};
             var ___result = RGetTextureRectOffset_Injected_Out_Vector2.Invoke(___genericsType, ___parameters);
-			ret = (UnityEngine.Vector2)___parameters[0];
+			@ret = (UnityEngine.Vector2)___parameters[0];
 
             
         }
@@ -1536,12 +1536,12 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
         public virtual void GetInnerUVs_Injected(out UnityEngine.Vector4  @ret)
         {
-			ret = default;
+			@ret = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@ret};
             var ___result = RGetInnerUVs_Injected_Out_Vector4.Invoke(___genericsType, ___parameters);
-			ret = (UnityEngine.Vector4)___parameters[0];
+			@ret = (UnityEngine.Vector4)___parameters[0];
 
             
         }
@@ -1549,12 +1549,12 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
         public virtual void GetOuterUVs_Injected(out UnityEngine.Vector4  @ret)
         {
-			ret = default;
+			@ret = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@ret};
             var ___result = RGetOuterUVs_Injected_Out_Vector4.Invoke(___genericsType, ___parameters);
-			ret = (UnityEngine.Vector4)___parameters[0];
+			@ret = (UnityEngine.Vector4)___parameters[0];
 
             
         }
@@ -1562,12 +1562,12 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
         public virtual void GetPadding_Injected(out UnityEngine.Vector4  @ret)
         {
-			ret = default;
+			@ret = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@ret};
             var ___result = RGetPadding_Injected_Out_Vector4.Invoke(___genericsType, ___parameters);
-			ret = (UnityEngine.Vector4)___parameters[0];
+			@ret = (UnityEngine.Vector4)___parameters[0];
 
             
         }
@@ -1579,8 +1579,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@rect, @pivot, @pixelsToUnits, @texture};
             var ___result = RCreateSpriteWithoutTextureScripting_Injected_Ref_Rect_Ref_Vector2_Single_Texture2D.Invoke(___genericsType, ___parameters);
-			rect = (UnityEngine.Rect)___parameters[0];
-			pivot = (UnityEngine.Vector2)___parameters[1];
+			@rect = (UnityEngine.Rect)___parameters[0];
+			@pivot = (UnityEngine.Vector2)___parameters[1];
 
             return (UnityEngine.Sprite)___result;
         }
@@ -1592,9 +1592,9 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@texture, @rect, @pivot, @pixelsPerUnit, @extrude, @meshType, @border, @generateFallbackPhysicsShape, @secondaryTexture};
             var ___result = RCreateSprite_Injected_Texture2D_Ref_Rect_Ref_Vector2_Single_UInt32_SpriteMeshType_Ref_Vector4_Boolean_SecondarySpriteTextureArray.Invoke(___genericsType, ___parameters);
-			rect = (UnityEngine.Rect)___parameters[1];
-			pivot = (UnityEngine.Vector2)___parameters[2];
-			border = (UnityEngine.Vector4)___parameters[6];
+			@rect = (UnityEngine.Rect)___parameters[1];
+			@pivot = (UnityEngine.Vector2)___parameters[2];
+			@border = (UnityEngine.Vector4)___parameters[6];
 
             return (UnityEngine.Sprite)___result;
         }
@@ -1602,12 +1602,12 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
         public virtual void get_bounds_Injected(out UnityEngine.Bounds  @ret)
         {
-			ret = default;
+			@ret = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@ret};
             var ___result = Rget_bounds_Injected_Out_Bounds.Invoke(___genericsType, ___parameters);
-			ret = (UnityEngine.Bounds)___parameters[0];
+			@ret = (UnityEngine.Bounds)___parameters[0];
 
             
         }
@@ -1615,12 +1615,12 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
         public virtual void get_rect_Injected(out UnityEngine.Rect  @ret)
         {
-			ret = default;
+			@ret = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@ret};
             var ___result = Rget_rect_Injected_Out_Rect.Invoke(___genericsType, ___parameters);
-			ret = (UnityEngine.Rect)___parameters[0];
+			@ret = (UnityEngine.Rect)___parameters[0];
 
             
         }
@@ -1628,12 +1628,12 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
         public virtual void get_border_Injected(out UnityEngine.Vector4  @ret)
         {
-			ret = default;
+			@ret = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@ret};
             var ___result = Rget_border_Injected_Out_Vector4.Invoke(___genericsType, ___parameters);
-			ret = (UnityEngine.Vector4)___parameters[0];
+			@ret = (UnityEngine.Vector4)___parameters[0];
 
             
         }
@@ -1641,12 +1641,12 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
         public virtual void get_pivot_Injected(out UnityEngine.Vector2  @ret)
         {
-			ret = default;
+			@ret = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@ret};
             var ___result = Rget_pivot_Injected_Out_Vector2.Invoke(___genericsType, ___parameters);
-			ret = (UnityEngine.Vector2)___parameters[0];
+			@ret = (UnityEngine.Vector2)___parameters[0];
 
             
         }

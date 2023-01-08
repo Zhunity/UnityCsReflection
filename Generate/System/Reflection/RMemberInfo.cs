@@ -643,12 +643,12 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 
         public virtual void System__2__Runtime__2__InteropServices__2___MemberInfo__2__GetTypeInfoCount(out System.UInt32  @pcTInfo)
         {
-			pcTInfo = default;
+			@pcTInfo = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@pcTInfo};
             var ___result = RSystem__2__Runtime__2__InteropServices__2___MemberInfo__2__GetTypeInfoCount_Out_UInt32.Invoke(___genericsType, ___parameters);
-			pcTInfo = (System.UInt32)___parameters[0];
+			@pcTInfo = (System.UInt32)___parameters[0];
 
             
         }

@@ -1912,6 +1912,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@rtp.Value, @renderChain.Value, @rnd.Value, @camera, @sameDistanceSortPriority};
             var ___result = ROnRegisterIntermediateRendererMat_BaseRuntimePanel_RenderChain_Ref_RenderNodeData_Camera_Int32.Invoke(___genericsType, ___parameters);
+			@rnd = new RUnityEngine.RUIElements.RUIR.RRenderChain.RRenderNodeData(___parameters[2]);
 
             
         }

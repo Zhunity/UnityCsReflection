@@ -5658,16 +5658,16 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
         public virtual void GetPropertyState(System.Int32  @nameID, out System.Boolean  @isOverriden, out System.Boolean  @isLockedInChildren, out System.Boolean  @isLockedByAncestor)
         {
-			isOverriden = default;
-			isLockedInChildren = default;
-			isLockedByAncestor = default;
+			@isOverriden = default;
+			@isLockedInChildren = default;
+			@isLockedByAncestor = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@nameID, @isOverriden, @isLockedInChildren, @isLockedByAncestor};
             var ___result = RGetPropertyState_Int32_Out_Boolean_Out_Boolean_Out_Boolean.Invoke(___genericsType, ___parameters);
-			isOverriden = (System.Boolean)___parameters[1];
-			isLockedInChildren = (System.Boolean)___parameters[2];
-			isLockedByAncestor = (System.Boolean)___parameters[3];
+			@isOverriden = (System.Boolean)___parameters[1];
+			@isLockedInChildren = (System.Boolean)___parameters[2];
+			@isLockedByAncestor = (System.Boolean)___parameters[3];
 
             
         }
@@ -5741,16 +5741,16 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
         public virtual void GetPropertyState_Serialized(RType  @property, out System.Boolean  @isOverriden, out System.Boolean  @isLockedInChildren, out System.Boolean  @isLockedByAncestor)
         {
-			isOverriden = default;
-			isLockedInChildren = default;
-			isLockedByAncestor = default;
+			@isOverriden = default;
+			@isLockedInChildren = default;
+			@isLockedByAncestor = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@property.Value, @isOverriden, @isLockedInChildren, @isLockedByAncestor};
             var ___result = RGetPropertyState_Serialized_MaterialSerializedProperty_Out_Boolean_Out_Boolean_Out_Boolean.Invoke(___genericsType, ___parameters);
-			isOverriden = (System.Boolean)___parameters[1];
-			isLockedInChildren = (System.Boolean)___parameters[2];
-			isLockedByAncestor = (System.Boolean)___parameters[3];
+			@isOverriden = (System.Boolean)___parameters[1];
+			@isLockedInChildren = (System.Boolean)___parameters[2];
+			@isLockedByAncestor = (System.Boolean)___parameters[3];
 
             
         }
@@ -5791,16 +5791,16 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
         public virtual void GetPropertyState(RType  @propertyName, out System.Boolean  @isOverriden, out System.Boolean  @isLockedInChildren, out System.Boolean  @isLockedByAncestor)
         {
-			isOverriden = default;
-			isLockedInChildren = default;
-			isLockedByAncestor = default;
+			@isOverriden = default;
+			@isLockedInChildren = default;
+			@isLockedByAncestor = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@propertyName.Value, @isOverriden, @isLockedInChildren, @isLockedByAncestor};
             var ___result = RGetPropertyState_MaterialSerializedProperty_Out_Boolean_Out_Boolean_Out_Boolean.Invoke(___genericsType, ___parameters);
-			isOverriden = (System.Boolean)___parameters[1];
-			isLockedInChildren = (System.Boolean)___parameters[2];
-			isLockedByAncestor = (System.Boolean)___parameters[3];
+			@isOverriden = (System.Boolean)___parameters[1];
+			@isLockedInChildren = (System.Boolean)___parameters[2];
+			@isLockedByAncestor = (System.Boolean)___parameters[3];
 
             
         }
@@ -6791,7 +6791,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@keyword};
             var ___result = REnableLocalKeyword_Injected_Ref_LocalKeyword.Invoke(___genericsType, ___parameters);
-			keyword = (UnityEngine.Rendering.LocalKeyword)___parameters[0];
+			@keyword = (UnityEngine.Rendering.LocalKeyword)___parameters[0];
 
             
         }
@@ -6803,7 +6803,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@keyword};
             var ___result = RDisableLocalKeyword_Injected_Ref_LocalKeyword.Invoke(___genericsType, ___parameters);
-			keyword = (UnityEngine.Rendering.LocalKeyword)___parameters[0];
+			@keyword = (UnityEngine.Rendering.LocalKeyword)___parameters[0];
 
             
         }
@@ -6815,7 +6815,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@keyword, @value};
             var ___result = RSetLocalKeyword_Injected_Ref_LocalKeyword_Boolean.Invoke(___genericsType, ___parameters);
-			keyword = (UnityEngine.Rendering.LocalKeyword)___parameters[0];
+			@keyword = (UnityEngine.Rendering.LocalKeyword)___parameters[0];
 
             
         }
@@ -6827,7 +6827,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@keyword};
             var ___result = RIsLocalKeywordEnabled_Injected_Ref_LocalKeyword.Invoke(___genericsType, ___parameters);
-			keyword = (UnityEngine.Rendering.LocalKeyword)___parameters[0];
+			@keyword = (UnityEngine.Rendering.LocalKeyword)___parameters[0];
 
             return (System.Boolean)___result;
         }
@@ -6839,7 +6839,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@name, @value};
             var ___result = RSetColorImpl_Injected_Int32_Ref_Color.Invoke(___genericsType, ___parameters);
-			value = (UnityEngine.Color)___parameters[1];
+			@value = (UnityEngine.Color)___parameters[1];
 
             
         }
@@ -6851,7 +6851,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@name, @value};
             var ___result = RSetMatrixImpl_Injected_Int32_Ref_Matrix4x4.Invoke(___genericsType, ___parameters);
-			value = (UnityEngine.Matrix4x4)___parameters[1];
+			@value = (UnityEngine.Matrix4x4)___parameters[1];
 
             
         }
@@ -6859,12 +6859,12 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
         public virtual void GetColorImpl_Injected(System.Int32  @name, out UnityEngine.Color  @ret)
         {
-			ret = default;
+			@ret = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@name, @ret};
             var ___result = RGetColorImpl_Injected_Int32_Out_Color.Invoke(___genericsType, ___parameters);
-			ret = (UnityEngine.Color)___parameters[1];
+			@ret = (UnityEngine.Color)___parameters[1];
 
             
         }
@@ -6872,12 +6872,12 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
         public virtual void GetMatrixImpl_Injected(System.Int32  @name, out UnityEngine.Matrix4x4  @ret)
         {
-			ret = default;
+			@ret = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@name, @ret};
             var ___result = RGetMatrixImpl_Injected_Int32_Out_Matrix4x4.Invoke(___genericsType, ___parameters);
-			ret = (UnityEngine.Matrix4x4)___parameters[1];
+			@ret = (UnityEngine.Matrix4x4)___parameters[1];
 
             
         }
@@ -6885,12 +6885,12 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
         public virtual void GetBufferImpl_Injected(System.Int32  @name, out UnityEngine.GraphicsBufferHandle  @ret)
         {
-			ret = default;
+			@ret = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@name, @ret};
             var ___result = RGetBufferImpl_Injected_Int32_Out_GraphicsBufferHandle.Invoke(___genericsType, ___parameters);
-			ret = (UnityEngine.GraphicsBufferHandle)___parameters[1];
+			@ret = (UnityEngine.GraphicsBufferHandle)___parameters[1];
 
             
         }
@@ -6898,12 +6898,12 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
         public virtual void GetConstantBufferImpl_Injected(System.Int32  @name, out UnityEngine.GraphicsBufferHandle  @ret)
         {
-			ret = default;
+			@ret = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@name, @ret};
             var ___result = RGetConstantBufferImpl_Injected_Int32_Out_GraphicsBufferHandle.Invoke(___genericsType, ___parameters);
-			ret = (UnityEngine.GraphicsBufferHandle)___parameters[1];
+			@ret = (UnityEngine.GraphicsBufferHandle)___parameters[1];
 
             
         }
@@ -6911,12 +6911,12 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
         public virtual void GetTextureScaleAndOffsetImpl_Injected(System.Int32  @name, out UnityEngine.Vector4  @ret)
         {
-			ret = default;
+			@ret = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@name, @ret};
             var ___result = RGetTextureScaleAndOffsetImpl_Injected_Int32_Out_Vector4.Invoke(___genericsType, ___parameters);
-			ret = (UnityEngine.Vector4)___parameters[1];
+			@ret = (UnityEngine.Vector4)___parameters[1];
 
             
         }
@@ -6928,7 +6928,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@name, @offset};
             var ___result = RSetTextureOffsetImpl_Injected_Int32_Ref_Vector2.Invoke(___genericsType, ___parameters);
-			offset = (UnityEngine.Vector2)___parameters[1];
+			@offset = (UnityEngine.Vector2)___parameters[1];
 
             
         }
@@ -6940,7 +6940,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@name, @scale};
             var ___result = RSetTextureScaleImpl_Injected_Int32_Ref_Vector2.Invoke(___genericsType, ___parameters);
-			scale = (UnityEngine.Vector2)___parameters[1];
+			@scale = (UnityEngine.Vector2)___parameters[1];
 
             
         }

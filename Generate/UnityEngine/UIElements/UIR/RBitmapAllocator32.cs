@@ -414,14 +414,14 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 
         public virtual void GetAllocPageAtlasLocation(System.Int32  @page, out System.UInt16  @x, out System.UInt16  @y)
         {
-			x = default;
-			y = default;
+			@x = default;
+			@y = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@page, @x, @y};
             var ___result = RGetAllocPageAtlasLocation_Int32_Out_UInt16_Out_UInt16.Invoke(___genericsType, ___parameters);
-			x = (System.UInt16)___parameters[1];
-			y = (System.UInt16)___parameters[2];
+			@x = (System.UInt16)___parameters[1];
+			@y = (System.UInt16)___parameters[2];
 
             
         }

@@ -879,7 +879,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@s, @level};
             var ___result = RToXml_Ref_StringBuilder_Int32.Invoke(___genericsType, ___parameters);
-			s = (System.Text.StringBuilder)___parameters[0];
+			@s = (System.Text.StringBuilder)___parameters[0];
 
             
         }

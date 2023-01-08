@@ -183,12 +183,12 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 
         public virtual System.Boolean TryGetValue(UnityEngine.UIElements.CustomStyleProperty<System.Single>  @property, out System.Single  @value)
         {
-			value = default;
+			@value = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@property, @value};
             var ___result = RTryGetValue_CustomStyleProperty_d_Single_p__Out_Single.Invoke(___genericsType, ___parameters);
-			value = (System.Single)___parameters[1];
+			@value = (System.Single)___parameters[1];
 
             return (System.Boolean)___result;
         }
@@ -196,12 +196,12 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 
         public virtual System.Boolean TryGetValue(UnityEngine.UIElements.CustomStyleProperty<System.Int32>  @property, out System.Int32  @value)
         {
-			value = default;
+			@value = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@property, @value};
             var ___result = RTryGetValue_CustomStyleProperty_d_Int32_p__Out_Int32.Invoke(___genericsType, ___parameters);
-			value = (System.Int32)___parameters[1];
+			@value = (System.Int32)___parameters[1];
 
             return (System.Boolean)___result;
         }
@@ -209,12 +209,12 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 
         public virtual System.Boolean TryGetValue(UnityEngine.UIElements.CustomStyleProperty<System.Boolean>  @property, out System.Boolean  @value)
         {
-			value = default;
+			@value = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@property, @value};
             var ___result = RTryGetValue_CustomStyleProperty_d_Boolean_p__Out_Boolean.Invoke(___genericsType, ___parameters);
-			value = (System.Boolean)___parameters[1];
+			@value = (System.Boolean)___parameters[1];
 
             return (System.Boolean)___result;
         }
@@ -222,12 +222,12 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 
         public virtual System.Boolean TryGetValue(UnityEngine.UIElements.CustomStyleProperty<UnityEngine.Color>  @property, out UnityEngine.Color  @value)
         {
-			value = default;
+			@value = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@property, @value};
             var ___result = RTryGetValue_CustomStyleProperty_d_Color_p__Out_Color.Invoke(___genericsType, ___parameters);
-			value = (UnityEngine.Color)___parameters[1];
+			@value = (UnityEngine.Color)___parameters[1];
 
             return (System.Boolean)___result;
         }
@@ -235,12 +235,12 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 
         public virtual System.Boolean TryGetValue(UnityEngine.UIElements.CustomStyleProperty<UnityEngine.Texture2D>  @property, out UnityEngine.Texture2D  @value)
         {
-			value = default;
+			@value = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@property, @value};
             var ___result = RTryGetValue_CustomStyleProperty_d_Texture2D_p__Out_Texture2D.Invoke(___genericsType, ___parameters);
-			value = (UnityEngine.Texture2D)___parameters[1];
+			@value = (UnityEngine.Texture2D)___parameters[1];
 
             return (System.Boolean)___result;
         }
@@ -248,12 +248,12 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 
         public virtual System.Boolean TryGetValue(UnityEngine.UIElements.CustomStyleProperty<UnityEngine.Sprite>  @property, out UnityEngine.Sprite  @value)
         {
-			value = default;
+			@value = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@property, @value};
             var ___result = RTryGetValue_CustomStyleProperty_d_Sprite_p__Out_Sprite.Invoke(___genericsType, ___parameters);
-			value = (UnityEngine.Sprite)___parameters[1];
+			@value = (UnityEngine.Sprite)___parameters[1];
 
             return (System.Boolean)___result;
         }
@@ -261,12 +261,12 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 
         public virtual System.Boolean TryGetValue(UnityEngine.UIElements.CustomStyleProperty<UnityEngine.UIElements.VectorImage>  @property, out UnityEngine.UIElements.VectorImage  @value)
         {
-			value = default;
+			@value = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@property, @value};
             var ___result = RTryGetValue_CustomStyleProperty_d_VectorImage_p__Out_VectorImage.Invoke(___genericsType, ___parameters);
-			value = (UnityEngine.UIElements.VectorImage)___parameters[1];
+			@value = (UnityEngine.UIElements.VectorImage)___parameters[1];
 
             return (System.Boolean)___result;
         }
@@ -274,12 +274,12 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 
         public virtual System.Boolean TryGetValue<T>(UnityEngine.UIElements.CustomStyleProperty<T>  @property, out T  @value) where T : UnityEngine.Object
         {
-			value = default;
+			@value = default;
 
             var ___genericsType = new Type[] {typeof(T)};
             var ___parameters = new object[]{@property, @value};
             var ___result = RTryGetValue_GT_CustomStyleProperty_d_T_p__Out_T.Invoke(___genericsType, ___parameters);
-			value = (T)___parameters[1];
+			@value = (T)___parameters[1];
 
             return (System.Boolean)___result;
         }
@@ -287,12 +287,12 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 
         public virtual System.Boolean TryGetValue(UnityEngine.UIElements.CustomStyleProperty<System.String>  @property, out System.String  @value)
         {
-			value = default;
+			@value = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@property, @value};
             var ___result = RTryGetValue_CustomStyleProperty_d_String_p__Out_String.Invoke(___genericsType, ___parameters);
-			value = (System.String)___parameters[1];
+			@value = (System.String)___parameters[1];
 
             return (System.Boolean)___result;
         }

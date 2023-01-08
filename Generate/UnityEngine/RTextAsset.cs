@@ -486,12 +486,12 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
         public static void GetSafetyHandle_Injected(UnityEngine.TextAsset  @self, out Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle  @ret)
         {
-			ret = default;
+			@ret = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@self, @ret};
             var ___result = RGetSafetyHandle_Injected_TextAsset_Out_AtomicSafetyHandle.Invoke(___genericsType, ___parameters);
-			ret = (Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)___parameters[1];
+			@ret = (Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)___parameters[1];
 
             
         }

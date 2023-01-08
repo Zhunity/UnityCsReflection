@@ -370,13 +370,14 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 
         public virtual System.Boolean TryGetAtlas(UnityEngine.UIElements.VisualElement  @ctx, UnityEngine.Texture2D  @src, out RUnityEngine.RUIElements.RTextureId  @atlas, out UnityEngine.RectInt  @atlasRect)
         {
-			atlas = default;
-			atlasRect = default;
+			@atlas = default;
+			@atlasRect = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@ctx, @src, @atlas.Value, @atlasRect};
             var ___result = RTryGetAtlas_VisualElement_Texture2D_Out_TextureId_Out_RectInt.Invoke(___genericsType, ___parameters);
-			atlasRect = (UnityEngine.RectInt)___parameters[3];
+			@atlas = new RUnityEngine.RUIElements.RTextureId(___parameters[2]);
+			@atlasRect = (UnityEngine.RectInt)___parameters[3];
 
             return (System.Boolean)___result;
         }

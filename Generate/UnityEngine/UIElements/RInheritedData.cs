@@ -470,6 +470,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@other.Value};
             var ___result = RCopyFrom_Ref_InheritedData.Invoke(___genericsType, ___parameters);
+			@other = new RUnityEngine.RUIElements.RInheritedData(___parameters[0]);
 
             
         }

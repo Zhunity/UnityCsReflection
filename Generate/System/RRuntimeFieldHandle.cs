@@ -411,7 +411,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@field.Value, @obj, @value, @fieldType.Value, @fieldAttr, @declaringType.Value, @domainInitialized};
             var ___result = RSetValue_RuntimeFieldInfo_Object_Object_RuntimeType_FieldAttributes_RuntimeType_Ref_Boolean.Invoke(___genericsType, ___parameters);
-			domainInitialized = (System.Boolean)___parameters[6];
+			@domainInitialized = (System.Boolean)___parameters[6];
 
             
         }

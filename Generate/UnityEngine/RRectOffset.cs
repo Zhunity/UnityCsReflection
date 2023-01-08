@@ -520,13 +520,13 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
         public virtual void Add_Injected(ref UnityEngine.Rect  @rect, out UnityEngine.Rect  @ret)
         {
-			ret = default;
+			@ret = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@rect, @ret};
             var ___result = RAdd_Injected_Ref_Rect_Out_Rect.Invoke(___genericsType, ___parameters);
-			rect = (UnityEngine.Rect)___parameters[0];
-			ret = (UnityEngine.Rect)___parameters[1];
+			@rect = (UnityEngine.Rect)___parameters[0];
+			@ret = (UnityEngine.Rect)___parameters[1];
 
             
         }
@@ -534,13 +534,13 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
         public virtual void Remove_Injected(ref UnityEngine.Rect  @rect, out UnityEngine.Rect  @ret)
         {
-			ret = default;
+			@ret = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@rect, @ret};
             var ___result = RRemove_Injected_Ref_Rect_Out_Rect.Invoke(___genericsType, ___parameters);
-			rect = (UnityEngine.Rect)___parameters[0];
-			ret = (UnityEngine.Rect)___parameters[1];
+			@rect = (UnityEngine.Rect)___parameters[0];
+			@ret = (UnityEngine.Rect)___parameters[1];
 
             
         }

@@ -1173,6 +1173,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@allocator.Value, @alloc.Value};
             var ___result = RAllocToTexelCoord_Ref_BitmapAllocator32_BMPAlloc.Invoke(___genericsType, ___parameters);
+			@allocator = new RUnityEngine.RUIElements.RUIR.RBitmapAllocator32(___parameters[0]);
 
             return (UnityEngine.Vector2Int)___result;
         }
@@ -1195,6 +1196,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@allocator.Value, @defAlloc.Value, @atlasRect};
             var ___result = RAtlasRectMatchesPage_Ref_BitmapAllocator32_BMPAlloc_RectInt.Invoke(___genericsType, ___parameters);
+			@allocator = new RUnityEngine.RUIElements.RUIR.RBitmapAllocator32(___parameters[0]);
 
             return (System.Boolean)___result;
         }

@@ -2580,12 +2580,12 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
         public virtual void GetColorBuffer_Injected(out UnityEngine.RenderBuffer  @ret)
         {
-			ret = default;
+			@ret = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@ret};
             var ___result = RGetColorBuffer_Injected_Out_RenderBuffer.Invoke(___genericsType, ___parameters);
-			ret = (UnityEngine.RenderBuffer)___parameters[0];
+			@ret = (UnityEngine.RenderBuffer)___parameters[0];
 
             
         }
@@ -2593,12 +2593,12 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
         public virtual void GetDepthBuffer_Injected(out UnityEngine.RenderBuffer  @ret)
         {
-			ret = default;
+			@ret = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@ret};
             var ___result = RGetDepthBuffer_Injected_Out_RenderBuffer.Invoke(___genericsType, ___parameters);
-			ret = (UnityEngine.RenderBuffer)___parameters[0];
+			@ret = (UnityEngine.RenderBuffer)___parameters[0];
 
             
         }
@@ -2610,7 +2610,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@desc};
             var ___result = RSetRenderTextureDescriptor_Injected_Ref_RenderTextureDescriptor.Invoke(___genericsType, ___parameters);
-			desc = (UnityEngine.RenderTextureDescriptor)___parameters[0];
+			@desc = (UnityEngine.RenderTextureDescriptor)___parameters[0];
 
             
         }
@@ -2618,12 +2618,12 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
         public virtual void GetDescriptor_Injected(out UnityEngine.RenderTextureDescriptor  @ret)
         {
-			ret = default;
+			@ret = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@ret};
             var ___result = RGetDescriptor_Injected_Out_RenderTextureDescriptor.Invoke(___genericsType, ___parameters);
-			ret = (UnityEngine.RenderTextureDescriptor)___parameters[0];
+			@ret = (UnityEngine.RenderTextureDescriptor)___parameters[0];
 
             
         }
@@ -2635,7 +2635,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@desc};
             var ___result = RGetTemporary_Internal_Injected_Ref_RenderTextureDescriptor.Invoke(___genericsType, ___parameters);
-			desc = (UnityEngine.RenderTextureDescriptor)___parameters[0];
+			@desc = (UnityEngine.RenderTextureDescriptor)___parameters[0];
 
             return (UnityEngine.RenderTexture)___result;
         }

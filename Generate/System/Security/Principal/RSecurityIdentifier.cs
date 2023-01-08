@@ -759,7 +759,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@sddlForm, @pos};
             var ___result = RParseSddlForm_String_Ref_Int32.Invoke(___genericsType, ___parameters);
-			pos = (System.Int32)___parameters[1];
+			@pos = (System.Int32)___parameters[1];
 
             return (System.Security.Principal.SecurityIdentifier)___result;
         }
@@ -778,12 +778,12 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 
         public static System.Boolean TryParseAuthority(System.String  @s, out System.UInt64  @result)
         {
-			result = default;
+			@result = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@s, @result};
             var ___result = RTryParseAuthority_String_Out_UInt64.Invoke(___genericsType, ___parameters);
-			result = (System.UInt64)___parameters[1];
+			@result = (System.UInt64)___parameters[1];
 
             return (System.Boolean)___result;
         }
@@ -791,12 +791,12 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 
         public static System.Boolean TryParseSubAuthority(System.String  @s, out System.UInt32  @result)
         {
-			result = default;
+			@result = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@s, @result};
             var ___result = RTryParseSubAuthority_String_Out_UInt32.Invoke(___genericsType, ___parameters);
-			result = (System.UInt32)___parameters[1];
+			@result = (System.UInt32)___parameters[1];
 
             return (System.Boolean)___result;
         }

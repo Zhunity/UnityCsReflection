@@ -1467,8 +1467,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@a, @b};
             var ___result = ROrthoNormalize2_Ref_Vector3_Ref_Vector3.Invoke(___genericsType, ___parameters);
-			a = (UnityEngine.Vector3)___parameters[0];
-			b = (UnityEngine.Vector3)___parameters[1];
+			@a = (UnityEngine.Vector3)___parameters[0];
+			@b = (UnityEngine.Vector3)___parameters[1];
 
             
         }
@@ -1480,8 +1480,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@normal, @tangent};
             var ___result = ROrthoNormalize_Ref_Vector3_Ref_Vector3.Invoke(___genericsType, ___parameters);
-			normal = (UnityEngine.Vector3)___parameters[0];
-			tangent = (UnityEngine.Vector3)___parameters[1];
+			@normal = (UnityEngine.Vector3)___parameters[0];
+			@tangent = (UnityEngine.Vector3)___parameters[1];
 
             
         }
@@ -1493,9 +1493,9 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@a, @b, @c};
             var ___result = ROrthoNormalize3_Ref_Vector3_Ref_Vector3_Ref_Vector3.Invoke(___genericsType, ___parameters);
-			a = (UnityEngine.Vector3)___parameters[0];
-			b = (UnityEngine.Vector3)___parameters[1];
-			c = (UnityEngine.Vector3)___parameters[2];
+			@a = (UnityEngine.Vector3)___parameters[0];
+			@b = (UnityEngine.Vector3)___parameters[1];
+			@c = (UnityEngine.Vector3)___parameters[2];
 
             
         }
@@ -1507,9 +1507,9 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@normal, @tangent, @binormal};
             var ___result = ROrthoNormalize_Ref_Vector3_Ref_Vector3_Ref_Vector3.Invoke(___genericsType, ___parameters);
-			normal = (UnityEngine.Vector3)___parameters[0];
-			tangent = (UnityEngine.Vector3)___parameters[1];
-			binormal = (UnityEngine.Vector3)___parameters[2];
+			@normal = (UnityEngine.Vector3)___parameters[0];
+			@tangent = (UnityEngine.Vector3)___parameters[1];
+			@binormal = (UnityEngine.Vector3)___parameters[2];
 
             
         }
@@ -1565,7 +1565,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@current, @target, @currentVelocity, @smoothTime, @maxSpeed};
             var ___result = RSmoothDamp_Vector3_Vector3_Ref_Vector3_Single_Single.Invoke(___genericsType, ___parameters);
-			currentVelocity = (UnityEngine.Vector3)___parameters[2];
+			@currentVelocity = (UnityEngine.Vector3)___parameters[2];
 
             return (UnityEngine.Vector3)___result;
         }
@@ -1577,7 +1577,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@current, @target, @currentVelocity, @smoothTime};
             var ___result = RSmoothDamp_Vector3_Vector3_Ref_Vector3_Single.Invoke(___genericsType, ___parameters);
-			currentVelocity = (UnityEngine.Vector3)___parameters[2];
+			@currentVelocity = (UnityEngine.Vector3)___parameters[2];
 
             return (UnityEngine.Vector3)___result;
         }
@@ -1589,7 +1589,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@current, @target, @currentVelocity, @smoothTime, @maxSpeed, @deltaTime};
             var ___result = RSmoothDamp_Vector3_Vector3_Ref_Vector3_Single_Single_Single.Invoke(___genericsType, ___parameters);
-			currentVelocity = (UnityEngine.Vector3)___parameters[2];
+			@currentVelocity = (UnityEngine.Vector3)___parameters[2];
 
             return (UnityEngine.Vector3)___result;
         }
@@ -1971,14 +1971,14 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
         public static void Slerp_Injected(ref UnityEngine.Vector3  @a, ref UnityEngine.Vector3  @b, System.Single  @t, out UnityEngine.Vector3  @ret)
         {
-			ret = default;
+			@ret = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@a, @b, @t, @ret};
             var ___result = RSlerp_Injected_Ref_Vector3_Ref_Vector3_Single_Out_Vector3.Invoke(___genericsType, ___parameters);
-			a = (UnityEngine.Vector3)___parameters[0];
-			b = (UnityEngine.Vector3)___parameters[1];
-			ret = (UnityEngine.Vector3)___parameters[3];
+			@a = (UnityEngine.Vector3)___parameters[0];
+			@b = (UnityEngine.Vector3)___parameters[1];
+			@ret = (UnityEngine.Vector3)___parameters[3];
 
             
         }
@@ -1986,14 +1986,14 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
         public static void SlerpUnclamped_Injected(ref UnityEngine.Vector3  @a, ref UnityEngine.Vector3  @b, System.Single  @t, out UnityEngine.Vector3  @ret)
         {
-			ret = default;
+			@ret = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@a, @b, @t, @ret};
             var ___result = RSlerpUnclamped_Injected_Ref_Vector3_Ref_Vector3_Single_Out_Vector3.Invoke(___genericsType, ___parameters);
-			a = (UnityEngine.Vector3)___parameters[0];
-			b = (UnityEngine.Vector3)___parameters[1];
-			ret = (UnityEngine.Vector3)___parameters[3];
+			@a = (UnityEngine.Vector3)___parameters[0];
+			@b = (UnityEngine.Vector3)___parameters[1];
+			@ret = (UnityEngine.Vector3)___parameters[3];
 
             
         }
@@ -2001,14 +2001,14 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
         public static void RotateTowards_Injected(ref UnityEngine.Vector3  @current, ref UnityEngine.Vector3  @target, System.Single  @maxRadiansDelta, System.Single  @maxMagnitudeDelta, out UnityEngine.Vector3  @ret)
         {
-			ret = default;
+			@ret = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@current, @target, @maxRadiansDelta, @maxMagnitudeDelta, @ret};
             var ___result = RRotateTowards_Injected_Ref_Vector3_Ref_Vector3_Single_Single_Out_Vector3.Invoke(___genericsType, ___parameters);
-			current = (UnityEngine.Vector3)___parameters[0];
-			target = (UnityEngine.Vector3)___parameters[1];
-			ret = (UnityEngine.Vector3)___parameters[4];
+			@current = (UnityEngine.Vector3)___parameters[0];
+			@target = (UnityEngine.Vector3)___parameters[1];
+			@ret = (UnityEngine.Vector3)___parameters[4];
 
             
         }

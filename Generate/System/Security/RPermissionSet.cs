@@ -1344,7 +1344,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@data, @position};
             var ___result = RReadEncodedInt_ByteArray_Ref_Int32.Invoke(___genericsType, ___parameters);
-			position = (System.Int32)___parameters[1];
+			@position = (System.Int32)___parameters[1];
 
             return (System.Int32)___result;
         }
@@ -1356,7 +1356,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@data, @position};
             var ___result = RProcessAttribute_ByteArray_Ref_Int32.Invoke(___genericsType, ___parameters);
-			position = (System.Int32)___parameters[1];
+			@position = (System.Int32)___parameters[1];
 
             return (System.Security.IPermission)___result;
         }

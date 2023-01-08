@@ -1253,12 +1253,12 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
         public virtual System.Boolean TryGetComponent(System.Type  @type, out UnityEngine.Component  @component)
         {
-			component = default;
+			@component = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@type, @component};
             var ___result = RTryGetComponent_Type_Out_Component.Invoke(___genericsType, ___parameters);
-			component = (UnityEngine.Component)___parameters[1];
+			@component = (UnityEngine.Component)___parameters[1];
 
             return (System.Boolean)___result;
         }
@@ -1266,12 +1266,12 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
         public virtual System.Boolean TryGetComponent<T>(out T  @component)
         {
-			component = default;
+			@component = default;
 
             var ___genericsType = new Type[] {typeof(T)};
             var ___parameters = new object[]{@component};
             var ___result = RTryGetComponent_GT_Out_T.Invoke(___genericsType, ___parameters);
-			component = (T)___parameters[0];
+			@component = (T)___parameters[0];
 
             return (System.Boolean)___result;
         }

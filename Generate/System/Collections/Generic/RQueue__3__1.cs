@@ -696,12 +696,12 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
 
         public virtual System.Boolean TryDequeue(out T  @result)
         {
-			result = default;
+			@result = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@result};
             var ___result = RTryDequeue_Out_T.Invoke(___genericsType, ___parameters);
-			result = (T)___parameters[0];
+			@result = (T)___parameters[0];
 
             return (System.Boolean)___result;
         }
@@ -720,12 +720,12 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
 
         public virtual System.Boolean TryPeek(out T  @result)
         {
-			result = default;
+			@result = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@result};
             var ___result = RTryPeek_Out_T.Invoke(___genericsType, ___parameters);
-			result = (T)___parameters[0];
+			@result = (T)___parameters[0];
 
             return (System.Boolean)___result;
         }
@@ -770,7 +770,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@index};
             var ___result = RMoveNext_Ref_Int32.Invoke(___genericsType, ___parameters);
-			index = (System.Int32)___parameters[0];
+			@index = (System.Int32)___parameters[0];
 
             
         }

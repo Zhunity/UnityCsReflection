@@ -1767,8 +1767,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@data, @pos, @rot};
             var ___result = RInternal_InstantiateSingle_Injected_Object_Ref_Vector3_Ref_Quaternion.Invoke(___genericsType, ___parameters);
-			pos = (UnityEngine.Vector3)___parameters[1];
-			rot = (UnityEngine.Quaternion)___parameters[2];
+			@pos = (UnityEngine.Vector3)___parameters[1];
+			@rot = (UnityEngine.Quaternion)___parameters[2];
 
             return (UnityEngine.Object)___result;
         }
@@ -1780,8 +1780,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@data, @parent, @pos, @rot};
             var ___result = RInternal_InstantiateSingleWithParent_Injected_Object_Transform_Ref_Vector3_Ref_Quaternion.Invoke(___genericsType, ___parameters);
-			pos = (UnityEngine.Vector3)___parameters[2];
-			rot = (UnityEngine.Quaternion)___parameters[3];
+			@pos = (UnityEngine.Vector3)___parameters[2];
+			@rot = (UnityEngine.Quaternion)___parameters[3];
 
             return (UnityEngine.Object)___result;
         }

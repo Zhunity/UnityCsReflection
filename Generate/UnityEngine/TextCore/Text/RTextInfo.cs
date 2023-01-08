@@ -571,7 +571,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
             var ___genericsType = new Type[] {typeof(T)};
             var ___parameters = new object[]{@array, @size};
             var ___result = RResize_GT_Ref_TArray_Int32.Invoke(___genericsType, ___parameters);
-			array = (T[])___parameters[0];
+			@array = (T[])___parameters[0];
 
             
         }
@@ -583,7 +583,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
             var ___genericsType = new Type[] {typeof(T)};
             var ___parameters = new object[]{@array, @size, @isBlockAllocated};
             var ___result = RResize_GT_Ref_TArray_Int32_Boolean.Invoke(___genericsType, ___parameters);
-			array = (T[])___parameters[0];
+			@array = (T[])___parameters[0];
 
             
         }

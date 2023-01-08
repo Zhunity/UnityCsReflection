@@ -8782,7 +8782,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@computeShader, @kernelIndex, @nameID, @rt, @mipLevel, @element};
             var ___result = RInternal_SetComputeTextureParam_ComputeShader_Int32_Int32_Ref_RenderTargetIdentifier_Int32_RenderTextureSubElement.Invoke(___genericsType, ___parameters);
-			rt = (UnityEngine.Rendering.RenderTargetIdentifier)___parameters[3];
+			@rt = (UnityEngine.Rendering.RenderTargetIdentifier)___parameters[3];
 
             
         }
@@ -8926,7 +8926,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@rayTracingShader, @nameID, @rt};
             var ___result = RInternal_SetRayTracingTextureParam_RayTracingShader_Int32_Ref_RenderTargetIdentifier.Invoke(___genericsType, ___parameters);
-			rt = (UnityEngine.Rendering.RenderTargetIdentifier)___parameters[2];
+			@rt = (UnityEngine.Rendering.RenderTargetIdentifier)___parameters[2];
 
             
         }
@@ -9323,7 +9323,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@index, @rt};
             var ___result = RSetRandomWriteTarget_Texture_Int32_Ref_RenderTargetIdentifier.Invoke(___genericsType, ___parameters);
-			rt = (UnityEngine.Rendering.RenderTargetIdentifier)___parameters[1];
+			@rt = (UnityEngine.Rendering.RenderTargetIdentifier)___parameters[1];
 
             
         }
@@ -9401,8 +9401,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@src, @srcElement, @srcMip, @srcX, @srcY, @srcWidth, @srcHeight, @dst, @dstElement, @dstMip, @dstX, @dstY, @mode};
             var ___result = RCopyTexture_Internal_Ref_RenderTargetIdentifier_Int32_Int32_Int32_Int32_Int32_Int32_Ref_RenderTargetIdentifier_Int32_Int32_Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
-			src = (UnityEngine.Rendering.RenderTargetIdentifier)___parameters[0];
-			dst = (UnityEngine.Rendering.RenderTargetIdentifier)___parameters[7];
+			@src = (UnityEngine.Rendering.RenderTargetIdentifier)___parameters[0];
+			@dst = (UnityEngine.Rendering.RenderTargetIdentifier)___parameters[7];
 
             
         }
@@ -9414,7 +9414,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@source, @dest, @mat, @pass, @scale, @offset, @sourceDepthSlice, @destDepthSlice};
             var ___result = RBlit_Texture_Texture_Ref_RenderTargetIdentifier_Material_Int32_Vector2_Vector2_Int32_Int32.Invoke(___genericsType, ___parameters);
-			dest = (UnityEngine.Rendering.RenderTargetIdentifier)___parameters[1];
+			@dest = (UnityEngine.Rendering.RenderTargetIdentifier)___parameters[1];
 
             
         }
@@ -9426,8 +9426,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@source, @dest, @mat, @pass, @scale, @offset, @sourceDepthSlice, @destDepthSlice};
             var ___result = RBlit_Identifier_Ref_RenderTargetIdentifier_Ref_RenderTargetIdentifier_Material_Int32_Vector2_Vector2_Int32_Int32.Invoke(___genericsType, ___parameters);
-			source = (UnityEngine.Rendering.RenderTargetIdentifier)___parameters[0];
-			dest = (UnityEngine.Rendering.RenderTargetIdentifier)___parameters[1];
+			@source = (UnityEngine.Rendering.RenderTargetIdentifier)___parameters[0];
+			@dest = (UnityEngine.Rendering.RenderTargetIdentifier)___parameters[1];
 
             
         }
@@ -10242,7 +10242,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@nameID, @rt, @element};
             var ___result = RSetGlobalTexture_Impl_Int32_Ref_RenderTargetIdentifier_RenderTextureSubElement.Invoke(___genericsType, ___parameters);
-			rt = (UnityEngine.Rendering.RenderTargetIdentifier)___parameters[1];
+			@rt = (UnityEngine.Rendering.RenderTargetIdentifier)___parameters[1];
 
             
         }
@@ -10276,7 +10276,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@shadowmap, @mode};
             var ___result = RSetShadowSamplingMode_Impl_Ref_RenderTargetIdentifier_ShadowSamplingMode.Invoke(___genericsType, ___parameters);
-			shadowmap = (UnityEngine.Rendering.RenderTargetIdentifier)___parameters[0];
+			@shadowmap = (UnityEngine.Rendering.RenderTargetIdentifier)___parameters[0];
 
             
         }
@@ -10431,8 +10431,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@callback, @command, @source, @dest, @commandParam, @commandFlags};
             var ___result = RIssuePluginCustomBlitInternal_IntPtr_UInt32_Ref_RenderTargetIdentifier_Ref_RenderTargetIdentifier_UInt32_UInt32.Invoke(___genericsType, ___parameters);
-			source = (UnityEngine.Rendering.RenderTargetIdentifier)___parameters[2];
-			dest = (UnityEngine.Rendering.RenderTargetIdentifier)___parameters[3];
+			@source = (UnityEngine.Rendering.RenderTargetIdentifier)___parameters[2];
+			@dest = (UnityEngine.Rendering.RenderTargetIdentifier)___parameters[3];
 
             
         }
@@ -12925,8 +12925,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@src, @srcElement, @dst, @dstElement};
             var ___result = RConvertTexture_Internal_Injected_Ref_RenderTargetIdentifier_Int32_Ref_RenderTargetIdentifier_Int32.Invoke(___genericsType, ___parameters);
-			src = (UnityEngine.Rendering.RenderTargetIdentifier)___parameters[0];
-			dst = (UnityEngine.Rendering.RenderTargetIdentifier)___parameters[2];
+			@src = (UnityEngine.Rendering.RenderTargetIdentifier)___parameters[0];
+			@dst = (UnityEngine.Rendering.RenderTargetIdentifier)___parameters[2];
 
             
         }
@@ -12938,7 +12938,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@computeShader, @nameID, @val};
             var ___result = RSetComputeVectorParam_Injected_ComputeShader_Int32_Ref_Vector4.Invoke(___genericsType, ___parameters);
-			val = (UnityEngine.Vector4)___parameters[2];
+			@val = (UnityEngine.Vector4)___parameters[2];
 
             
         }
@@ -12950,7 +12950,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@computeShader, @nameID, @val};
             var ___result = RSetComputeMatrixParam_Injected_ComputeShader_Int32_Ref_Matrix4x4.Invoke(___genericsType, ___parameters);
-			val = (UnityEngine.Matrix4x4)___parameters[2];
+			@val = (UnityEngine.Matrix4x4)___parameters[2];
 
             
         }
@@ -12962,7 +12962,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@computeShader, @kernelIndex, @nameID, @bufferHandle};
             var ___result = RInternal_SetComputeGraphicsBufferHandleParam_Injected_ComputeShader_Int32_Int32_Ref_GraphicsBufferHandle.Invoke(___genericsType, ___parameters);
-			bufferHandle = (UnityEngine.GraphicsBufferHandle)___parameters[3];
+			@bufferHandle = (UnityEngine.GraphicsBufferHandle)___parameters[3];
 
             
         }
@@ -12974,7 +12974,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@rayTracingShader, @nameID, @val};
             var ___result = RInternal_SetRayTracingVectorParam_Injected_RayTracingShader_Int32_Ref_Vector4.Invoke(___genericsType, ___parameters);
-			val = (UnityEngine.Vector4)___parameters[2];
+			@val = (UnityEngine.Vector4)___parameters[2];
 
             
         }
@@ -12986,7 +12986,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@rayTracingShader, @nameID, @val};
             var ___result = RInternal_SetRayTracingMatrixParam_Injected_RayTracingShader_Int32_Ref_Matrix4x4.Invoke(___genericsType, ___parameters);
-			val = (UnityEngine.Matrix4x4)___parameters[2];
+			@val = (UnityEngine.Matrix4x4)___parameters[2];
 
             
         }
@@ -12998,7 +12998,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@accelerationStructure, @relativeOrigin};
             var ___result = RInternal_BuildRayTracingAccelerationStructure_Injected_RayTracingAccelerationStructure_Ref_Vector3.Invoke(___genericsType, ___parameters);
-			relativeOrigin = (UnityEngine.Vector3)___parameters[1];
+			@relativeOrigin = (UnityEngine.Vector3)___parameters[1];
 
             
         }
@@ -13010,7 +13010,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@rt};
             var ___result = RInternal_GenerateMips_Injected_Ref_RenderTargetIdentifier.Invoke(___genericsType, ___parameters);
-			rt = (UnityEngine.Rendering.RenderTargetIdentifier)___parameters[0];
+			@rt = (UnityEngine.Rendering.RenderTargetIdentifier)___parameters[0];
 
             
         }
@@ -13022,7 +13022,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@mesh, @matrix, @material, @submeshIndex, @shaderPass, @properties};
             var ___result = RInternal_DrawMesh_Injected_Mesh_Ref_Matrix4x4_Material_Int32_Int32_MaterialPropertyBlock.Invoke(___genericsType, ___parameters);
-			matrix = (UnityEngine.Matrix4x4)___parameters[1];
+			@matrix = (UnityEngine.Matrix4x4)___parameters[1];
 
             
         }
@@ -13034,7 +13034,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@rendererList};
             var ___result = RInternal_DrawRendererList_Injected_Ref_RendererList.Invoke(___genericsType, ___parameters);
-			rendererList = (UnityEngine.Rendering.RendererList)___parameters[0];
+			@rendererList = (UnityEngine.Rendering.RendererList)___parameters[0];
 
             
         }
@@ -13046,7 +13046,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@matrix, @material, @shaderPass, @topology, @vertexCount, @instanceCount, @properties};
             var ___result = RInternal_DrawProcedural_Injected_Ref_Matrix4x4_Material_Int32_MeshTopology_Int32_Int32_MaterialPropertyBlock.Invoke(___genericsType, ___parameters);
-			matrix = (UnityEngine.Matrix4x4)___parameters[0];
+			@matrix = (UnityEngine.Matrix4x4)___parameters[0];
 
             
         }
@@ -13058,7 +13058,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@indexBuffer, @matrix, @material, @shaderPass, @topology, @indexCount, @instanceCount, @properties};
             var ___result = RInternal_DrawProceduralIndexed_Injected_GraphicsBuffer_Ref_Matrix4x4_Material_Int32_MeshTopology_Int32_Int32_MaterialPropertyBlock.Invoke(___genericsType, ___parameters);
-			matrix = (UnityEngine.Matrix4x4)___parameters[1];
+			@matrix = (UnityEngine.Matrix4x4)___parameters[1];
 
             
         }
@@ -13070,7 +13070,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@matrix, @material, @shaderPass, @topology, @bufferWithArgs, @argsOffset, @properties};
             var ___result = RInternal_DrawProceduralIndirect_Injected_Ref_Matrix4x4_Material_Int32_MeshTopology_ComputeBuffer_Int32_MaterialPropertyBlock.Invoke(___genericsType, ___parameters);
-			matrix = (UnityEngine.Matrix4x4)___parameters[0];
+			@matrix = (UnityEngine.Matrix4x4)___parameters[0];
 
             
         }
@@ -13082,7 +13082,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@indexBuffer, @matrix, @material, @shaderPass, @topology, @bufferWithArgs, @argsOffset, @properties};
             var ___result = RInternal_DrawProceduralIndexedIndirect_Injected_GraphicsBuffer_Ref_Matrix4x4_Material_Int32_MeshTopology_ComputeBuffer_Int32_MaterialPropertyBlock.Invoke(___genericsType, ___parameters);
-			matrix = (UnityEngine.Matrix4x4)___parameters[1];
+			@matrix = (UnityEngine.Matrix4x4)___parameters[1];
 
             
         }
@@ -13094,7 +13094,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@matrix, @material, @shaderPass, @topology, @bufferWithArgs, @argsOffset, @properties};
             var ___result = RInternal_DrawProceduralIndirectGraphicsBuffer_Injected_Ref_Matrix4x4_Material_Int32_MeshTopology_GraphicsBuffer_Int32_MaterialPropertyBlock.Invoke(___genericsType, ___parameters);
-			matrix = (UnityEngine.Matrix4x4)___parameters[0];
+			@matrix = (UnityEngine.Matrix4x4)___parameters[0];
 
             
         }
@@ -13106,7 +13106,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@indexBuffer, @matrix, @material, @shaderPass, @topology, @bufferWithArgs, @argsOffset, @properties};
             var ___result = RInternal_DrawProceduralIndexedIndirectGraphicsBuffer_Injected_GraphicsBuffer_Ref_Matrix4x4_Material_Int32_MeshTopology_GraphicsBuffer_Int32_MaterialPropertyBlock.Invoke(___genericsType, ___parameters);
-			matrix = (UnityEngine.Matrix4x4)___parameters[1];
+			@matrix = (UnityEngine.Matrix4x4)___parameters[1];
 
             
         }
@@ -13118,7 +13118,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@normalizedCamViewport};
             var ___result = RInternal_DrawOcclusionMesh_Injected_Ref_RectInt.Invoke(___genericsType, ___parameters);
-			normalizedCamViewport = (UnityEngine.RectInt)___parameters[0];
+			@normalizedCamViewport = (UnityEngine.RectInt)___parameters[0];
 
             
         }
@@ -13130,7 +13130,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@pixelRect};
             var ___result = RSetViewport_Injected_Ref_Rect.Invoke(___genericsType, ___parameters);
-			pixelRect = (UnityEngine.Rect)___parameters[0];
+			@pixelRect = (UnityEngine.Rect)___parameters[0];
 
             
         }
@@ -13142,7 +13142,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@scissor};
             var ___result = REnableScissorRect_Injected_Ref_Rect.Invoke(___genericsType, ___parameters);
-			scissor = (UnityEngine.Rect)___parameters[0];
+			@scissor = (UnityEngine.Rect)___parameters[0];
 
             
         }
@@ -13154,9 +13154,9 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@source, @dest, @mat, @pass, @scale, @offset, @sourceDepthSlice, @destDepthSlice};
             var ___result = RBlit_Texture_Injected_Texture_Ref_RenderTargetIdentifier_Material_Int32_Ref_Vector2_Ref_Vector2_Int32_Int32.Invoke(___genericsType, ___parameters);
-			dest = (UnityEngine.Rendering.RenderTargetIdentifier)___parameters[1];
-			scale = (UnityEngine.Vector2)___parameters[4];
-			offset = (UnityEngine.Vector2)___parameters[5];
+			@dest = (UnityEngine.Rendering.RenderTargetIdentifier)___parameters[1];
+			@scale = (UnityEngine.Vector2)___parameters[4];
+			@offset = (UnityEngine.Vector2)___parameters[5];
 
             
         }
@@ -13168,10 +13168,10 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@source, @dest, @mat, @pass, @scale, @offset, @sourceDepthSlice, @destDepthSlice};
             var ___result = RBlit_Identifier_Injected_Ref_RenderTargetIdentifier_Ref_RenderTargetIdentifier_Material_Int32_Ref_Vector2_Ref_Vector2_Int32_Int32.Invoke(___genericsType, ___parameters);
-			source = (UnityEngine.Rendering.RenderTargetIdentifier)___parameters[0];
-			dest = (UnityEngine.Rendering.RenderTargetIdentifier)___parameters[1];
-			scale = (UnityEngine.Vector2)___parameters[4];
-			offset = (UnityEngine.Vector2)___parameters[5];
+			@source = (UnityEngine.Rendering.RenderTargetIdentifier)___parameters[0];
+			@dest = (UnityEngine.Rendering.RenderTargetIdentifier)___parameters[1];
+			@scale = (UnityEngine.Vector2)___parameters[4];
+			@offset = (UnityEngine.Vector2)___parameters[5];
 
             
         }
@@ -13183,7 +13183,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@nameID, @desc, @filter};
             var ___result = RGetTemporaryRTWithDescriptor_Injected_Int32_Ref_RenderTextureDescriptor_FilterMode.Invoke(___genericsType, ___parameters);
-			desc = (UnityEngine.RenderTextureDescriptor)___parameters[1];
+			@desc = (UnityEngine.RenderTextureDescriptor)___parameters[1];
 
             
         }
@@ -13195,7 +13195,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@clearFlags, @backgroundColor, @depth, @stencil};
             var ___result = RClearRenderTarget_Injected_RTClearFlags_Ref_Color_Single_UInt32.Invoke(___genericsType, ___parameters);
-			backgroundColor = (UnityEngine.Color)___parameters[1];
+			@backgroundColor = (UnityEngine.Color)___parameters[1];
 
             
         }
@@ -13207,7 +13207,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@nameID, @value};
             var ___result = RSetGlobalVector_Injected_Int32_Ref_Vector4.Invoke(___genericsType, ___parameters);
-			value = (UnityEngine.Vector4)___parameters[1];
+			@value = (UnityEngine.Vector4)___parameters[1];
 
             
         }
@@ -13219,7 +13219,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@nameID, @value};
             var ___result = RSetGlobalColor_Injected_Int32_Ref_Color.Invoke(___genericsType, ___parameters);
-			value = (UnityEngine.Color)___parameters[1];
+			@value = (UnityEngine.Color)___parameters[1];
 
             
         }
@@ -13231,7 +13231,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@nameID, @value};
             var ___result = RSetGlobalMatrix_Injected_Int32_Ref_Matrix4x4.Invoke(___genericsType, ___parameters);
-			value = (UnityEngine.Matrix4x4)___parameters[1];
+			@value = (UnityEngine.Matrix4x4)___parameters[1];
 
             
         }
@@ -13243,7 +13243,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@keyword};
             var ___result = REnableGlobalKeyword_Injected_Ref_GlobalKeyword.Invoke(___genericsType, ___parameters);
-			keyword = (UnityEngine.Rendering.GlobalKeyword)___parameters[0];
+			@keyword = (UnityEngine.Rendering.GlobalKeyword)___parameters[0];
 
             
         }
@@ -13255,7 +13255,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@material, @keyword};
             var ___result = REnableMaterialKeyword_Injected_Material_Ref_LocalKeyword.Invoke(___genericsType, ___parameters);
-			keyword = (UnityEngine.Rendering.LocalKeyword)___parameters[1];
+			@keyword = (UnityEngine.Rendering.LocalKeyword)___parameters[1];
 
             
         }
@@ -13267,7 +13267,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@computeShader, @keyword};
             var ___result = REnableComputeKeyword_Injected_ComputeShader_Ref_LocalKeyword.Invoke(___genericsType, ___parameters);
-			keyword = (UnityEngine.Rendering.LocalKeyword)___parameters[1];
+			@keyword = (UnityEngine.Rendering.LocalKeyword)___parameters[1];
 
             
         }
@@ -13279,7 +13279,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@keyword};
             var ___result = RDisableGlobalKeyword_Injected_Ref_GlobalKeyword.Invoke(___genericsType, ___parameters);
-			keyword = (UnityEngine.Rendering.GlobalKeyword)___parameters[0];
+			@keyword = (UnityEngine.Rendering.GlobalKeyword)___parameters[0];
 
             
         }
@@ -13291,7 +13291,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@material, @keyword};
             var ___result = RDisableMaterialKeyword_Injected_Material_Ref_LocalKeyword.Invoke(___genericsType, ___parameters);
-			keyword = (UnityEngine.Rendering.LocalKeyword)___parameters[1];
+			@keyword = (UnityEngine.Rendering.LocalKeyword)___parameters[1];
 
             
         }
@@ -13303,7 +13303,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@computeShader, @keyword};
             var ___result = RDisableComputeKeyword_Injected_ComputeShader_Ref_LocalKeyword.Invoke(___genericsType, ___parameters);
-			keyword = (UnityEngine.Rendering.LocalKeyword)___parameters[1];
+			@keyword = (UnityEngine.Rendering.LocalKeyword)___parameters[1];
 
             
         }
@@ -13315,7 +13315,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@keyword, @value};
             var ___result = RSetGlobalKeyword_Injected_Ref_GlobalKeyword_Boolean.Invoke(___genericsType, ___parameters);
-			keyword = (UnityEngine.Rendering.GlobalKeyword)___parameters[0];
+			@keyword = (UnityEngine.Rendering.GlobalKeyword)___parameters[0];
 
             
         }
@@ -13327,7 +13327,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@material, @keyword, @value};
             var ___result = RSetMaterialKeyword_Injected_Material_Ref_LocalKeyword_Boolean.Invoke(___genericsType, ___parameters);
-			keyword = (UnityEngine.Rendering.LocalKeyword)___parameters[1];
+			@keyword = (UnityEngine.Rendering.LocalKeyword)___parameters[1];
 
             
         }
@@ -13339,7 +13339,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@computeShader, @keyword, @value};
             var ___result = RSetComputeKeyword_Injected_ComputeShader_Ref_LocalKeyword_Boolean.Invoke(___genericsType, ___parameters);
-			keyword = (UnityEngine.Rendering.LocalKeyword)___parameters[1];
+			@keyword = (UnityEngine.Rendering.LocalKeyword)___parameters[1];
 
             
         }
@@ -13351,7 +13351,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@view};
             var ___result = RSetViewMatrix_Injected_Ref_Matrix4x4.Invoke(___genericsType, ___parameters);
-			view = (UnityEngine.Matrix4x4)___parameters[0];
+			@view = (UnityEngine.Matrix4x4)___parameters[0];
 
             
         }
@@ -13363,7 +13363,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@proj};
             var ___result = RSetProjectionMatrix_Injected_Ref_Matrix4x4.Invoke(___genericsType, ___parameters);
-			proj = (UnityEngine.Matrix4x4)___parameters[0];
+			@proj = (UnityEngine.Matrix4x4)___parameters[0];
 
             
         }
@@ -13375,8 +13375,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@view, @proj};
             var ___result = RSetViewProjectionMatrices_Injected_Ref_Matrix4x4_Ref_Matrix4x4.Invoke(___genericsType, ___parameters);
-			view = (UnityEngine.Matrix4x4)___parameters[0];
-			proj = (UnityEngine.Matrix4x4)___parameters[1];
+			@view = (UnityEngine.Matrix4x4)___parameters[0];
+			@proj = (UnityEngine.Matrix4x4)___parameters[1];
 
             
         }
@@ -13388,7 +13388,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@dest};
             var ___result = RIncrementUpdateCount_Injected_Ref_RenderTargetIdentifier.Invoke(___genericsType, ___parameters);
-			dest = (UnityEngine.Rendering.RenderTargetIdentifier)___parameters[0];
+			@dest = (UnityEngine.Rendering.RenderTargetIdentifier)___parameters[0];
 
             
         }
@@ -13400,7 +13400,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@rt, @colorLoadAction, @colorStoreAction, @depthLoadAction, @depthStoreAction};
             var ___result = RSetRenderTargetSingle_Internal_Injected_Ref_RenderTargetIdentifier_RenderBufferLoadAction_RenderBufferStoreAction_RenderBufferLoadAction_RenderBufferStoreAction.Invoke(___genericsType, ___parameters);
-			rt = (UnityEngine.Rendering.RenderTargetIdentifier)___parameters[0];
+			@rt = (UnityEngine.Rendering.RenderTargetIdentifier)___parameters[0];
 
             
         }
@@ -13412,8 +13412,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@color, @depth, @colorLoadAction, @colorStoreAction, @depthLoadAction, @depthStoreAction, @flags};
             var ___result = RSetRenderTargetColorDepth_Internal_Injected_Ref_RenderTargetIdentifier_Ref_RenderTargetIdentifier_RenderBufferLoadAction_RenderBufferStoreAction_RenderBufferLoadAction_RenderBufferStoreAction_RenderTargetFlags.Invoke(___genericsType, ___parameters);
-			color = (UnityEngine.Rendering.RenderTargetIdentifier)___parameters[0];
-			depth = (UnityEngine.Rendering.RenderTargetIdentifier)___parameters[1];
+			@color = (UnityEngine.Rendering.RenderTargetIdentifier)___parameters[0];
+			@depth = (UnityEngine.Rendering.RenderTargetIdentifier)___parameters[1];
 
             
         }
@@ -13425,7 +13425,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@colors, @depth, @colorLoadActions, @colorStoreActions, @depthLoadAction, @depthStoreAction, @flags};
             var ___result = RSetRenderTargetMulti_Internal_Injected_RenderTargetIdentifierArray_Ref_RenderTargetIdentifier_RenderBufferLoadActionArray_RenderBufferStoreActionArray_RenderBufferLoadAction_RenderBufferStoreAction_RenderTargetFlags.Invoke(___genericsType, ___parameters);
-			depth = (UnityEngine.Rendering.RenderTargetIdentifier)___parameters[1];
+			@depth = (UnityEngine.Rendering.RenderTargetIdentifier)___parameters[1];
 
             
         }
@@ -13437,8 +13437,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@color, @depth, @colorLoadAction, @colorStoreAction, @depthLoadAction, @depthStoreAction, @mipLevel, @cubemapFace, @depthSlice};
             var ___result = RSetRenderTargetColorDepthSubtarget_Injected_Ref_RenderTargetIdentifier_Ref_RenderTargetIdentifier_RenderBufferLoadAction_RenderBufferStoreAction_RenderBufferLoadAction_RenderBufferStoreAction_Int32_CubemapFace_Int32.Invoke(___genericsType, ___parameters);
-			color = (UnityEngine.Rendering.RenderTargetIdentifier)___parameters[0];
-			depth = (UnityEngine.Rendering.RenderTargetIdentifier)___parameters[1];
+			@color = (UnityEngine.Rendering.RenderTargetIdentifier)___parameters[0];
+			@depth = (UnityEngine.Rendering.RenderTargetIdentifier)___parameters[1];
 
             
         }
@@ -13450,7 +13450,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@colors, @depth, @colorLoadActions, @colorStoreActions, @depthLoadAction, @depthStoreAction, @mipLevel, @cubemapFace, @depthSlice};
             var ___result = RSetRenderTargetMultiSubtarget_Injected_RenderTargetIdentifierArray_Ref_RenderTargetIdentifier_RenderBufferLoadActionArray_RenderBufferStoreActionArray_RenderBufferLoadAction_RenderBufferStoreAction_Int32_CubemapFace_Int32.Invoke(___genericsType, ___parameters);
-			depth = (UnityEngine.Rendering.RenderTargetIdentifier)___parameters[1];
+			@depth = (UnityEngine.Rendering.RenderTargetIdentifier)___parameters[1];
 
             
         }
@@ -13462,7 +13462,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@rt, @resolver, @slice, @x, @width, @y, @height, @mip};
             var ___result = RInternal_ProcessVTFeedback_Injected_Ref_RenderTargetIdentifier_IntPtr_Int32_Int32_Int32_Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
-			rt = (UnityEngine.Rendering.RenderTargetIdentifier)___parameters[0];
+			@rt = (UnityEngine.Rendering.RenderTargetIdentifier)___parameters[0];
 
             
         }

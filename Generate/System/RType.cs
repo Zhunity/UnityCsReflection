@@ -4171,14 +4171,14 @@ namespace SMFrame.Editor.Refleaction.RSystem
 
         public virtual void GetEnumData(out System.String[]  @enumNames, out System.Array  @enumValues)
         {
-			enumNames = default;
-			enumValues = default;
+			@enumNames = default;
+			@enumValues = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@enumNames, @enumValues};
             var ___result = RGetEnumData_Out_StringArray_Out_Array.Invoke(___genericsType, ___parameters);
-			enumNames = (System.String[])___parameters[0];
-			enumValues = (System.Array)___parameters[1];
+			@enumNames = (System.String[])___parameters[0];
+			@enumValues = (System.Array)___parameters[1];
 
             
         }
@@ -5385,12 +5385,12 @@ namespace SMFrame.Editor.Refleaction.RSystem
 
         public virtual void System__2__Runtime__2__InteropServices__2___Type__2__GetTypeInfoCount(out System.UInt32  @pcTInfo)
         {
-			pcTInfo = default;
+			@pcTInfo = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@pcTInfo};
             var ___result = RSystem__2__Runtime__2__InteropServices__2___Type__2__GetTypeInfoCount_Out_UInt32.Invoke(___genericsType, ___parameters);
-			pcTInfo = (System.UInt32)___parameters[0];
+			@pcTInfo = (System.UInt32)___parameters[0];
 
             
         }
@@ -5688,7 +5688,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@rootCauseForFailure};
             var ___result = RInternalGetNameIfAvailable_Ref_Type.Invoke(___genericsType, ___parameters);
-			rootCauseForFailure = (System.Type)___parameters[0];
+			@rootCauseForFailure = (System.Type)___parameters[0];
 
             return (System.String)___result;
         }

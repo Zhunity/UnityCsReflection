@@ -712,12 +712,12 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 
         public virtual System.Object GetObjectIdentity(System.MarshalByRefObject  @obj, out System.Boolean  @IsClient)
         {
-			IsClient = default;
+			@IsClient = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@obj, @IsClient};
             var ___result = RGetObjectIdentity_MarshalByRefObject_Out_Boolean.Invoke(___genericsType, ___parameters);
-			IsClient = (System.Boolean)___parameters[1];
+			@IsClient = (System.Boolean)___parameters[1];
 
             return (System.Object)___result;
         }

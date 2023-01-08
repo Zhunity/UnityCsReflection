@@ -602,12 +602,12 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 
         public virtual System.Boolean TryGetRestrictedLanguageErrorObject(out System.Object  @restrictedErrorObject)
         {
-			restrictedErrorObject = default;
+			@restrictedErrorObject = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@restrictedErrorObject};
             var ___result = RTryGetRestrictedLanguageErrorObject_Out_Object.Invoke(___genericsType, ___parameters);
-			restrictedErrorObject = (System.Object)___parameters[0];
+			@restrictedErrorObject = (System.Object)___parameters[0];
 
             return (System.Boolean)___result;
         }

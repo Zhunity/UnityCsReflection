@@ -2840,12 +2840,12 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 
         public virtual void System__2__Runtime__2__InteropServices__2___AssemblyBuilder__2__GetTypeInfoCount(out System.UInt32  @pcTInfo)
         {
-			pcTInfo = default;
+			@pcTInfo = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@pcTInfo};
             var ___result = RSystem__2__Runtime__2__InteropServices__2___AssemblyBuilder__2__GetTypeInfoCount_Out_UInt32.Invoke(___genericsType, ___parameters);
-			pcTInfo = (System.UInt32)___parameters[0];
+			@pcTInfo = (System.UInt32)___parameters[0];
 
             
         }
@@ -3550,6 +3550,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@type, @name, @skipSecurityCheck, @stackMark.Value};
             var ___result = RGetManifestResourceStream_Type_String_Boolean_Ref_StackCrawlMark.Invoke(___genericsType, ___parameters);
+			@stackMark = new RType(___parameters[3]);
 
             return (System.IO.Stream)___result;
         }
@@ -3561,6 +3562,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@name, @stackMark.Value, @skipSecurityCheck};
             var ___result = RGetManifestResourceStream_String_Ref_StackCrawlMark_Boolean.Invoke(___genericsType, ___parameters);
+			@stackMark = new RType(___parameters[1]);
 
             return (System.IO.Stream)___result;
         }
@@ -3660,6 +3662,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@culture, @version, @throwOnError, @stackMark.Value};
             var ___result = RGetSatelliteAssembly_CultureInfo_Version_Boolean_Ref_StackCrawlMark.Invoke(___genericsType, ___parameters);
+			@stackMark = new RType(___parameters[3]);
 
             return (System.Reflection.Assembly)___result;
         }
@@ -3671,6 +3674,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@name, @culture, @version, @throwOnFileNotFound, @stackMark.Value};
             var ___result = RInternalGetSatelliteAssembly_String_CultureInfo_Version_Boolean_Ref_StackCrawlMark.Invoke(___genericsType, ___parameters);
+			@stackMark = new RType(___parameters[4]);
 
             return (System.Object)___result;
         }

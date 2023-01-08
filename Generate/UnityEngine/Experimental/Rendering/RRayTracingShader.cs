@@ -1330,7 +1330,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@nameID, @val};
             var ___result = RSetVector_Injected_Int32_Ref_Vector4.Invoke(___genericsType, ___parameters);
-			val = (UnityEngine.Vector4)___parameters[1];
+			@val = (UnityEngine.Vector4)___parameters[1];
 
             
         }
@@ -1342,7 +1342,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@nameID, @val};
             var ___result = RSetMatrix_Injected_Int32_Ref_Matrix4x4.Invoke(___genericsType, ___parameters);
-			val = (UnityEngine.Matrix4x4)___parameters[1];
+			@val = (UnityEngine.Matrix4x4)___parameters[1];
 
             
         }

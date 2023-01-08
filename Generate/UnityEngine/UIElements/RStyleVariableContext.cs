@@ -335,11 +335,12 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 
         public virtual System.Boolean TryFindVariable(System.String  @name, out RUnityEngine.RUIElements.RStyleVariable  @v)
         {
-			v = default;
+			@v = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@name, @v.Value};
             var ___result = RTryFindVariable_String_Out_StyleVariable.Invoke(___genericsType, ___parameters);
+			@v = new RUnityEngine.RUIElements.RStyleVariable(___parameters[1]);
 
             return (System.Boolean)___result;
         }

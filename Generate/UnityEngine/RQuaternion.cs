@@ -1376,14 +1376,14 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
         public static void Internal_ToAxisAngleRad(UnityEngine.Quaternion  @q, out UnityEngine.Vector3  @axis, out System.Single  @angle)
         {
-			axis = default;
-			angle = default;
+			@axis = default;
+			@angle = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@q, @axis, @angle};
             var ___result = RInternal_ToAxisAngleRad_Quaternion_Out_Vector3_Out_Single.Invoke(___genericsType, ___parameters);
-			axis = (UnityEngine.Vector3)___parameters[1];
-			angle = (System.Single)___parameters[2];
+			@axis = (UnityEngine.Vector3)___parameters[1];
+			@angle = (System.Single)___parameters[2];
 
             
         }
@@ -1567,14 +1567,14 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
         public virtual void ToAngleAxis(out System.Single  @angle, out UnityEngine.Vector3  @axis)
         {
-			angle = default;
-			axis = default;
+			@angle = default;
+			@axis = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@angle, @axis};
             var ___result = RToAngleAxis_Out_Single_Out_Vector3.Invoke(___genericsType, ___parameters);
-			angle = (System.Single)___parameters[0];
-			axis = (UnityEngine.Vector3)___parameters[1];
+			@angle = (System.Single)___parameters[0];
+			@axis = (UnityEngine.Vector3)___parameters[1];
 
             
         }
@@ -1769,14 +1769,14 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
         public virtual void ToAxisAngle(out UnityEngine.Vector3  @axis, out System.Single  @angle)
         {
-			axis = default;
-			angle = default;
+			@axis = default;
+			@angle = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@axis, @angle};
             var ___result = RToAxisAngle_Out_Vector3_Out_Single.Invoke(___genericsType, ___parameters);
-			axis = (UnityEngine.Vector3)___parameters[0];
-			angle = (System.Single)___parameters[1];
+			@axis = (UnityEngine.Vector3)___parameters[0];
+			@angle = (System.Single)___parameters[1];
 
             
         }
@@ -1850,14 +1850,14 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
         public static void FromToRotation_Injected(ref UnityEngine.Vector3  @fromDirection, ref UnityEngine.Vector3  @toDirection, out UnityEngine.Quaternion  @ret)
         {
-			ret = default;
+			@ret = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@fromDirection, @toDirection, @ret};
             var ___result = RFromToRotation_Injected_Ref_Vector3_Ref_Vector3_Out_Quaternion.Invoke(___genericsType, ___parameters);
-			fromDirection = (UnityEngine.Vector3)___parameters[0];
-			toDirection = (UnityEngine.Vector3)___parameters[1];
-			ret = (UnityEngine.Quaternion)___parameters[2];
+			@fromDirection = (UnityEngine.Vector3)___parameters[0];
+			@toDirection = (UnityEngine.Vector3)___parameters[1];
+			@ret = (UnityEngine.Quaternion)___parameters[2];
 
             
         }
@@ -1865,13 +1865,13 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
         public static void Inverse_Injected(ref UnityEngine.Quaternion  @rotation, out UnityEngine.Quaternion  @ret)
         {
-			ret = default;
+			@ret = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@rotation, @ret};
             var ___result = RInverse_Injected_Ref_Quaternion_Out_Quaternion.Invoke(___genericsType, ___parameters);
-			rotation = (UnityEngine.Quaternion)___parameters[0];
-			ret = (UnityEngine.Quaternion)___parameters[1];
+			@rotation = (UnityEngine.Quaternion)___parameters[0];
+			@ret = (UnityEngine.Quaternion)___parameters[1];
 
             
         }
@@ -1879,14 +1879,14 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
         public static void Slerp_Injected(ref UnityEngine.Quaternion  @a, ref UnityEngine.Quaternion  @b, System.Single  @t, out UnityEngine.Quaternion  @ret)
         {
-			ret = default;
+			@ret = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@a, @b, @t, @ret};
             var ___result = RSlerp_Injected_Ref_Quaternion_Ref_Quaternion_Single_Out_Quaternion.Invoke(___genericsType, ___parameters);
-			a = (UnityEngine.Quaternion)___parameters[0];
-			b = (UnityEngine.Quaternion)___parameters[1];
-			ret = (UnityEngine.Quaternion)___parameters[3];
+			@a = (UnityEngine.Quaternion)___parameters[0];
+			@b = (UnityEngine.Quaternion)___parameters[1];
+			@ret = (UnityEngine.Quaternion)___parameters[3];
 
             
         }
@@ -1894,14 +1894,14 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
         public static void SlerpUnclamped_Injected(ref UnityEngine.Quaternion  @a, ref UnityEngine.Quaternion  @b, System.Single  @t, out UnityEngine.Quaternion  @ret)
         {
-			ret = default;
+			@ret = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@a, @b, @t, @ret};
             var ___result = RSlerpUnclamped_Injected_Ref_Quaternion_Ref_Quaternion_Single_Out_Quaternion.Invoke(___genericsType, ___parameters);
-			a = (UnityEngine.Quaternion)___parameters[0];
-			b = (UnityEngine.Quaternion)___parameters[1];
-			ret = (UnityEngine.Quaternion)___parameters[3];
+			@a = (UnityEngine.Quaternion)___parameters[0];
+			@b = (UnityEngine.Quaternion)___parameters[1];
+			@ret = (UnityEngine.Quaternion)___parameters[3];
 
             
         }
@@ -1909,14 +1909,14 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
         public static void Lerp_Injected(ref UnityEngine.Quaternion  @a, ref UnityEngine.Quaternion  @b, System.Single  @t, out UnityEngine.Quaternion  @ret)
         {
-			ret = default;
+			@ret = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@a, @b, @t, @ret};
             var ___result = RLerp_Injected_Ref_Quaternion_Ref_Quaternion_Single_Out_Quaternion.Invoke(___genericsType, ___parameters);
-			a = (UnityEngine.Quaternion)___parameters[0];
-			b = (UnityEngine.Quaternion)___parameters[1];
-			ret = (UnityEngine.Quaternion)___parameters[3];
+			@a = (UnityEngine.Quaternion)___parameters[0];
+			@b = (UnityEngine.Quaternion)___parameters[1];
+			@ret = (UnityEngine.Quaternion)___parameters[3];
 
             
         }
@@ -1924,14 +1924,14 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
         public static void LerpUnclamped_Injected(ref UnityEngine.Quaternion  @a, ref UnityEngine.Quaternion  @b, System.Single  @t, out UnityEngine.Quaternion  @ret)
         {
-			ret = default;
+			@ret = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@a, @b, @t, @ret};
             var ___result = RLerpUnclamped_Injected_Ref_Quaternion_Ref_Quaternion_Single_Out_Quaternion.Invoke(___genericsType, ___parameters);
-			a = (UnityEngine.Quaternion)___parameters[0];
-			b = (UnityEngine.Quaternion)___parameters[1];
-			ret = (UnityEngine.Quaternion)___parameters[3];
+			@a = (UnityEngine.Quaternion)___parameters[0];
+			@b = (UnityEngine.Quaternion)___parameters[1];
+			@ret = (UnityEngine.Quaternion)___parameters[3];
 
             
         }
@@ -1939,13 +1939,13 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
         public static void Internal_FromEulerRad_Injected(ref UnityEngine.Vector3  @euler, out UnityEngine.Quaternion  @ret)
         {
-			ret = default;
+			@ret = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@euler, @ret};
             var ___result = RInternal_FromEulerRad_Injected_Ref_Vector3_Out_Quaternion.Invoke(___genericsType, ___parameters);
-			euler = (UnityEngine.Vector3)___parameters[0];
-			ret = (UnityEngine.Quaternion)___parameters[1];
+			@euler = (UnityEngine.Vector3)___parameters[0];
+			@ret = (UnityEngine.Quaternion)___parameters[1];
 
             
         }
@@ -1953,13 +1953,13 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
         public static void Internal_ToEulerRad_Injected(ref UnityEngine.Quaternion  @rotation, out UnityEngine.Vector3  @ret)
         {
-			ret = default;
+			@ret = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@rotation, @ret};
             var ___result = RInternal_ToEulerRad_Injected_Ref_Quaternion_Out_Vector3.Invoke(___genericsType, ___parameters);
-			rotation = (UnityEngine.Quaternion)___parameters[0];
-			ret = (UnityEngine.Vector3)___parameters[1];
+			@rotation = (UnityEngine.Quaternion)___parameters[0];
+			@ret = (UnityEngine.Vector3)___parameters[1];
 
             
         }
@@ -1967,15 +1967,15 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
         public static void Internal_ToAxisAngleRad_Injected(ref UnityEngine.Quaternion  @q, out UnityEngine.Vector3  @axis, out System.Single  @angle)
         {
-			axis = default;
-			angle = default;
+			@axis = default;
+			@angle = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@q, @axis, @angle};
             var ___result = RInternal_ToAxisAngleRad_Injected_Ref_Quaternion_Out_Vector3_Out_Single.Invoke(___genericsType, ___parameters);
-			q = (UnityEngine.Quaternion)___parameters[0];
-			axis = (UnityEngine.Vector3)___parameters[1];
-			angle = (System.Single)___parameters[2];
+			@q = (UnityEngine.Quaternion)___parameters[0];
+			@axis = (UnityEngine.Vector3)___parameters[1];
+			@angle = (System.Single)___parameters[2];
 
             
         }
@@ -1983,13 +1983,13 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
         public static void AngleAxis_Injected(System.Single  @angle, ref UnityEngine.Vector3  @axis, out UnityEngine.Quaternion  @ret)
         {
-			ret = default;
+			@ret = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@angle, @axis, @ret};
             var ___result = RAngleAxis_Injected_Single_Ref_Vector3_Out_Quaternion.Invoke(___genericsType, ___parameters);
-			axis = (UnityEngine.Vector3)___parameters[1];
-			ret = (UnityEngine.Quaternion)___parameters[2];
+			@axis = (UnityEngine.Vector3)___parameters[1];
+			@ret = (UnityEngine.Quaternion)___parameters[2];
 
             
         }
@@ -1997,14 +1997,14 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
         public static void LookRotation_Injected(ref UnityEngine.Vector3  @forward, ref UnityEngine.Vector3  @upwards, out UnityEngine.Quaternion  @ret)
         {
-			ret = default;
+			@ret = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@forward, @upwards, @ret};
             var ___result = RLookRotation_Injected_Ref_Vector3_Ref_Vector3_Out_Quaternion.Invoke(___genericsType, ___parameters);
-			forward = (UnityEngine.Vector3)___parameters[0];
-			upwards = (UnityEngine.Vector3)___parameters[1];
-			ret = (UnityEngine.Quaternion)___parameters[2];
+			@forward = (UnityEngine.Vector3)___parameters[0];
+			@upwards = (UnityEngine.Vector3)___parameters[1];
+			@ret = (UnityEngine.Quaternion)___parameters[2];
 
             
         }

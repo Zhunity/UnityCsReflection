@@ -8086,12 +8086,12 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
         public virtual void GetVertexAttribute_Injected(System.Int32  @index, out UnityEngine.Rendering.VertexAttributeDescriptor  @ret)
         {
-			ret = default;
+			@ret = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@index, @ret};
             var ___result = RGetVertexAttribute_Injected_Int32_Out_VertexAttributeDescriptor.Invoke(___genericsType, ___parameters);
-			ret = (UnityEngine.Rendering.VertexAttributeDescriptor)___parameters[1];
+			@ret = (UnityEngine.Rendering.VertexAttributeDescriptor)___parameters[1];
 
             
         }
@@ -8099,11 +8099,12 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
         public virtual void GetBlendShapeOffsetInternal_Injected(System.Int32  @index, out RUnityEngine.RBlendShape  @ret)
         {
-			ret = default;
+			@ret = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@index, @ret.Value};
             var ___result = RGetBlendShapeOffsetInternal_Injected_Int32_Out_BlendShape.Invoke(___genericsType, ___parameters);
+			@ret = new RUnityEngine.RBlendShape(___parameters[1]);
 
             
         }
@@ -8111,12 +8112,12 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
         public virtual void GetReadOnlySafetyHandle_Injected(RType  @index, out Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle  @ret)
         {
-			ret = default;
+			@ret = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@index.Value, @ret};
             var ___result = RGetReadOnlySafetyHandle_Injected_SafetyHandleIndex_Out_AtomicSafetyHandle.Invoke(___genericsType, ___parameters);
-			ret = (Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)___parameters[1];
+			@ret = (Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)___parameters[1];
 
             
         }
@@ -8128,7 +8129,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@index, @desc, @flags};
             var ___result = RSetSubMesh_Injected_Int32_Ref_SubMeshDescriptor_MeshUpdateFlags.Invoke(___genericsType, ___parameters);
-			desc = (UnityEngine.Rendering.SubMeshDescriptor)___parameters[1];
+			@desc = (UnityEngine.Rendering.SubMeshDescriptor)___parameters[1];
 
             
         }
@@ -8136,12 +8137,12 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
         public virtual void GetSubMesh_Injected(System.Int32  @index, out UnityEngine.Rendering.SubMeshDescriptor  @ret)
         {
-			ret = default;
+			@ret = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@index, @ret};
             var ___result = RGetSubMesh_Injected_Int32_Out_SubMeshDescriptor.Invoke(___genericsType, ___parameters);
-			ret = (UnityEngine.Rendering.SubMeshDescriptor)___parameters[1];
+			@ret = (UnityEngine.Rendering.SubMeshDescriptor)___parameters[1];
 
             
         }
@@ -8149,12 +8150,12 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
         public virtual void get_bounds_Injected(out UnityEngine.Bounds  @ret)
         {
-			ret = default;
+			@ret = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@ret};
             var ___result = Rget_bounds_Injected_Out_Bounds.Invoke(___genericsType, ___parameters);
-			ret = (UnityEngine.Bounds)___parameters[0];
+			@ret = (UnityEngine.Bounds)___parameters[0];
 
             
         }
@@ -8166,7 +8167,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@value};
             var ___result = Rset_bounds_Injected_Ref_Bounds.Invoke(___genericsType, ___parameters);
-			value = (UnityEngine.Bounds)___parameters[0];
+			@value = (UnityEngine.Bounds)___parameters[0];
 
             
         }

@@ -1853,12 +1853,12 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 
         public virtual System.Object InternalInvoke(System.Object  @obj, System.Object[]  @parameters, out System.Exception  @exc)
         {
-			exc = default;
+			@exc = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@obj, @parameters, @exc};
             var ___result = RInternalInvoke_Object_ObjectArray_Out_Exception.Invoke(___genericsType, ___parameters);
-			exc = (System.Exception)___parameters[2];
+			@exc = (System.Exception)___parameters[2];
 
             return (System.Object)___result;
         }
@@ -1921,15 +1921,16 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 
         public virtual void GetPInvoke(out RType  @flags, out System.String  @entryPoint, out System.String  @dllName)
         {
-			flags = default;
-			entryPoint = default;
-			dllName = default;
+			@flags = default;
+			@entryPoint = default;
+			@dllName = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@flags.Value, @entryPoint, @dllName};
             var ___result = RGetPInvoke_Out_PInvokeAttributes_Out_String_Out_String.Invoke(___genericsType, ___parameters);
-			entryPoint = (System.String)___parameters[1];
-			dllName = (System.String)___parameters[2];
+			@flags = new RType(___parameters[0]);
+			@entryPoint = (System.String)___parameters[1];
+			@dllName = (System.String)___parameters[2];
 
             
         }

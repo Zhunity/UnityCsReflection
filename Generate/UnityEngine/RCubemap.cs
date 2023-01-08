@@ -1753,7 +1753,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@image, @mip, @x, @y, @color};
             var ___result = RSetPixelImpl_Injected_Int32_Int32_Int32_Int32_Ref_Color.Invoke(___genericsType, ___parameters);
-			color = (UnityEngine.Color)___parameters[4];
+			@color = (UnityEngine.Color)___parameters[4];
 
             
         }
@@ -1761,12 +1761,12 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
         public virtual void GetPixelImpl_Injected(System.Int32  @image, System.Int32  @mip, System.Int32  @x, System.Int32  @y, out UnityEngine.Color  @ret)
         {
-			ret = default;
+			@ret = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@image, @mip, @x, @y, @ret};
             var ___result = RGetPixelImpl_Injected_Int32_Int32_Int32_Int32_Out_Color.Invoke(___genericsType, ___parameters);
-			ret = (UnityEngine.Color)___parameters[4];
+			@ret = (UnityEngine.Color)___parameters[4];
 
             
         }
@@ -1774,12 +1774,12 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
         public virtual void GetSafetyHandleForSlice_Injected(System.Int32  @mipLevel, System.Int32  @face, out Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle  @ret)
         {
-			ret = default;
+			@ret = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@mipLevel, @face, @ret};
             var ___result = RGetSafetyHandleForSlice_Injected_Int32_Int32_Out_AtomicSafetyHandle.Invoke(___genericsType, ___parameters);
-			ret = (Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)___parameters[2];
+			@ret = (Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)___parameters[2];
 
             
         }

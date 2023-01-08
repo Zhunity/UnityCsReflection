@@ -2367,12 +2367,12 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 
         public virtual System.Boolean TryToDateTime(System.Int32  @year, System.Int32  @month, System.Int32  @day, System.Int32  @hour, System.Int32  @minute, System.Int32  @second, System.Int32  @millisecond, System.Int32  @era, out System.DateTime  @result)
         {
-			result = default;
+			@result = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@year, @month, @day, @hour, @minute, @second, @millisecond, @era, @result};
             var ___result = RTryToDateTime_Int32_Int32_Int32_Int32_Int32_Int32_Int32_Int32_Out_DateTime.Invoke(___genericsType, ___parameters);
-			result = (System.DateTime)___parameters[8];
+			@result = (System.DateTime)___parameters[8];
 
             return (System.Boolean)___result;
         }

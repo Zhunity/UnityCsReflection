@@ -1420,7 +1420,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@current, @target, @currentVelocity, @smoothTime, @maxSpeed};
             var ___result = RSmoothDamp_Vector2_Vector2_Ref_Vector2_Single_Single.Invoke(___genericsType, ___parameters);
-			currentVelocity = (UnityEngine.Vector2)___parameters[2];
+			@currentVelocity = (UnityEngine.Vector2)___parameters[2];
 
             return (UnityEngine.Vector2)___result;
         }
@@ -1432,7 +1432,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@current, @target, @currentVelocity, @smoothTime};
             var ___result = RSmoothDamp_Vector2_Vector2_Ref_Vector2_Single.Invoke(___genericsType, ___parameters);
-			currentVelocity = (UnityEngine.Vector2)___parameters[2];
+			@currentVelocity = (UnityEngine.Vector2)___parameters[2];
 
             return (UnityEngine.Vector2)___result;
         }
@@ -1444,7 +1444,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@current, @target, @currentVelocity, @smoothTime, @maxSpeed, @deltaTime};
             var ___result = RSmoothDamp_Vector2_Vector2_Ref_Vector2_Single_Single_Single.Invoke(___genericsType, ___parameters);
-			currentVelocity = (UnityEngine.Vector2)___parameters[2];
+			@currentVelocity = (UnityEngine.Vector2)___parameters[2];
 
             return (UnityEngine.Vector2)___result;
         }

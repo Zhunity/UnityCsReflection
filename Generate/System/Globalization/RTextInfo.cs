@@ -1420,8 +1420,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@result, @input, @inputIndex, @charLen};
             var ___result = RAddNonLetter_Ref_StringBuilder_Ref_String_Int32_Int32.Invoke(___genericsType, ___parameters);
-			result = (System.Text.StringBuilder)___parameters[0];
-			input = (System.String)___parameters[1];
+			@result = (System.Text.StringBuilder)___parameters[0];
+			@input = (System.String)___parameters[1];
 
             return (System.Int32)___result;
         }
@@ -1433,8 +1433,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@result, @input, @inputIndex, @charLen};
             var ___result = RAddTitlecaseLetter_Ref_StringBuilder_Ref_String_Int32_Int32.Invoke(___genericsType, ___parameters);
-			result = (System.Text.StringBuilder)___parameters[0];
-			input = (System.String)___parameters[1];
+			@result = (System.Text.StringBuilder)___parameters[0];
+			@input = (System.String)___parameters[1];
 
             return (System.Int32)___result;
         }

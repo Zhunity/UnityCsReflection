@@ -2645,6 +2645,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@stackMark.Value};
             var ___result = RStart_Ref_StackCrawlMark.Invoke(___genericsType, ___parameters);
+			@stackMark = new RType(___parameters[0]);
 
             
         }
@@ -3048,12 +3049,12 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 
         public virtual void System__2__Runtime__2__InteropServices__2___Thread__2__GetTypeInfoCount(out System.UInt32  @pcTInfo)
         {
-			pcTInfo = default;
+			@pcTInfo = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@pcTInfo};
             var ___result = RSystem__2__Runtime__2__InteropServices__2___Thread__2__GetTypeInfoCount_Out_UInt32.Invoke(___genericsType, ___parameters);
-			pcTInfo = (System.UInt32)___parameters[0];
+			@pcTInfo = (System.UInt32)___parameters[0];
 
             
         }
@@ -3164,7 +3165,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@thread};
             var ___result = RGetCurrentThread_icall_Ref_Thread.Invoke(___genericsType, ___parameters);
-			thread = (System.Threading.Thread)___parameters[0];
+			@thread = (System.Threading.Thread)___parameters[0];
 
             
         }
@@ -3320,6 +3321,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@principal, @stackMark.Value};
             var ___result = RStartInternal_Object_Ref_StackCrawlMark.Invoke(___genericsType, ___parameters);
+			@stackMark = new RType(___parameters[1]);
 
             
         }
@@ -3364,7 +3366,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@address};
             var ___result = RVolatileRead_Ref_Byte.Invoke(___genericsType, ___parameters);
-			address = (System.Byte)___parameters[0];
+			@address = (System.Byte)___parameters[0];
 
             return (System.Byte)___result;
         }
@@ -3376,7 +3378,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@address};
             var ___result = RVolatileRead_Ref_Double.Invoke(___genericsType, ___parameters);
-			address = (System.Double)___parameters[0];
+			@address = (System.Double)___parameters[0];
 
             return (System.Double)___result;
         }
@@ -3388,7 +3390,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@address};
             var ___result = RVolatileRead_Ref_Int16.Invoke(___genericsType, ___parameters);
-			address = (System.Int16)___parameters[0];
+			@address = (System.Int16)___parameters[0];
 
             return (System.Int16)___result;
         }
@@ -3400,7 +3402,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@address};
             var ___result = RVolatileRead_Ref_Int32.Invoke(___genericsType, ___parameters);
-			address = (System.Int32)___parameters[0];
+			@address = (System.Int32)___parameters[0];
 
             return (System.Int32)___result;
         }
@@ -3412,7 +3414,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@address};
             var ___result = RVolatileRead_Ref_Int64.Invoke(___genericsType, ___parameters);
-			address = (System.Int64)___parameters[0];
+			@address = (System.Int64)___parameters[0];
 
             return (System.Int64)___result;
         }
@@ -3424,7 +3426,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@address};
             var ___result = RVolatileRead_Ref_IntPtr.Invoke(___genericsType, ___parameters);
-			address = (System.IntPtr)___parameters[0];
+			@address = (System.IntPtr)___parameters[0];
 
             return (System.IntPtr)___result;
         }
@@ -3436,7 +3438,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@address};
             var ___result = RVolatileRead_Ref_Object.Invoke(___genericsType, ___parameters);
-			address = (System.Object)___parameters[0];
+			@address = (System.Object)___parameters[0];
 
             return (System.Object)___result;
         }
@@ -3448,7 +3450,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@address};
             var ___result = RVolatileRead_Ref_SByte.Invoke(___genericsType, ___parameters);
-			address = (System.SByte)___parameters[0];
+			@address = (System.SByte)___parameters[0];
 
             return (System.SByte)___result;
         }
@@ -3460,7 +3462,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@address};
             var ___result = RVolatileRead_Ref_Single.Invoke(___genericsType, ___parameters);
-			address = (System.Single)___parameters[0];
+			@address = (System.Single)___parameters[0];
 
             return (System.Single)___result;
         }
@@ -3472,7 +3474,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@address};
             var ___result = RVolatileRead_Ref_UInt16.Invoke(___genericsType, ___parameters);
-			address = (System.UInt16)___parameters[0];
+			@address = (System.UInt16)___parameters[0];
 
             return (System.UInt16)___result;
         }
@@ -3484,7 +3486,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@address};
             var ___result = RVolatileRead_Ref_UInt32.Invoke(___genericsType, ___parameters);
-			address = (System.UInt32)___parameters[0];
+			@address = (System.UInt32)___parameters[0];
 
             return (System.UInt32)___result;
         }
@@ -3496,7 +3498,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@address};
             var ___result = RVolatileRead_Ref_UInt64.Invoke(___genericsType, ___parameters);
-			address = (System.UInt64)___parameters[0];
+			@address = (System.UInt64)___parameters[0];
 
             return (System.UInt64)___result;
         }
@@ -3508,7 +3510,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@address};
             var ___result = RVolatileRead_Ref_UIntPtr.Invoke(___genericsType, ___parameters);
-			address = (System.UIntPtr)___parameters[0];
+			@address = (System.UIntPtr)___parameters[0];
 
             return (System.UIntPtr)___result;
         }
@@ -3520,7 +3522,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@address, @value};
             var ___result = RVolatileWrite_Ref_Byte_Byte.Invoke(___genericsType, ___parameters);
-			address = (System.Byte)___parameters[0];
+			@address = (System.Byte)___parameters[0];
 
             
         }
@@ -3532,7 +3534,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@address, @value};
             var ___result = RVolatileWrite_Ref_Double_Double.Invoke(___genericsType, ___parameters);
-			address = (System.Double)___parameters[0];
+			@address = (System.Double)___parameters[0];
 
             
         }
@@ -3544,7 +3546,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@address, @value};
             var ___result = RVolatileWrite_Ref_Int16_Int16.Invoke(___genericsType, ___parameters);
-			address = (System.Int16)___parameters[0];
+			@address = (System.Int16)___parameters[0];
 
             
         }
@@ -3556,7 +3558,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@address, @value};
             var ___result = RVolatileWrite_Ref_Int32_Int32.Invoke(___genericsType, ___parameters);
-			address = (System.Int32)___parameters[0];
+			@address = (System.Int32)___parameters[0];
 
             
         }
@@ -3568,7 +3570,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@address, @value};
             var ___result = RVolatileWrite_Ref_Int64_Int64.Invoke(___genericsType, ___parameters);
-			address = (System.Int64)___parameters[0];
+			@address = (System.Int64)___parameters[0];
 
             
         }
@@ -3580,7 +3582,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@address, @value};
             var ___result = RVolatileWrite_Ref_IntPtr_IntPtr.Invoke(___genericsType, ___parameters);
-			address = (System.IntPtr)___parameters[0];
+			@address = (System.IntPtr)___parameters[0];
 
             
         }
@@ -3592,7 +3594,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@address, @value};
             var ___result = RVolatileWrite_Ref_Object_Object.Invoke(___genericsType, ___parameters);
-			address = (System.Object)___parameters[0];
+			@address = (System.Object)___parameters[0];
 
             
         }
@@ -3604,7 +3606,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@address, @value};
             var ___result = RVolatileWrite_Ref_SByte_SByte.Invoke(___genericsType, ___parameters);
-			address = (System.SByte)___parameters[0];
+			@address = (System.SByte)___parameters[0];
 
             
         }
@@ -3616,7 +3618,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@address, @value};
             var ___result = RVolatileWrite_Ref_Single_Single.Invoke(___genericsType, ___parameters);
-			address = (System.Single)___parameters[0];
+			@address = (System.Single)___parameters[0];
 
             
         }
@@ -3628,7 +3630,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@address, @value};
             var ___result = RVolatileWrite_Ref_UInt16_UInt16.Invoke(___genericsType, ___parameters);
-			address = (System.UInt16)___parameters[0];
+			@address = (System.UInt16)___parameters[0];
 
             
         }
@@ -3640,7 +3642,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@address, @value};
             var ___result = RVolatileWrite_Ref_UInt32_UInt32.Invoke(___genericsType, ___parameters);
-			address = (System.UInt32)___parameters[0];
+			@address = (System.UInt32)___parameters[0];
 
             
         }
@@ -3652,7 +3654,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@address, @value};
             var ___result = RVolatileWrite_Ref_UInt64_UInt64.Invoke(___genericsType, ___parameters);
-			address = (System.UInt64)___parameters[0];
+			@address = (System.UInt64)___parameters[0];
 
             
         }
@@ -3664,7 +3666,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@address, @value};
             var ___result = RVolatileWrite_Ref_UIntPtr_UIntPtr.Invoke(___genericsType, ___parameters);
-			address = (System.UIntPtr)___parameters[0];
+			@address = (System.UIntPtr)___parameters[0];
 
             
         }
@@ -3793,14 +3795,14 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 
         public static void GetStackTraces(out System.Threading.Thread[]  @threads, out System.Object[]  @stack_frames)
         {
-			threads = default;
-			stack_frames = default;
+			@threads = default;
+			@stack_frames = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@threads, @stack_frames};
             var ___result = RGetStackTraces_Out_ThreadArray_Out_ObjectArray.Invoke(___genericsType, ___parameters);
-			threads = (System.Threading.Thread[])___parameters[0];
-			stack_frames = (System.Object[])___parameters[1];
+			@threads = (System.Threading.Thread[])___parameters[0];
+			@stack_frames = (System.Object[])___parameters[1];
 
             
         }

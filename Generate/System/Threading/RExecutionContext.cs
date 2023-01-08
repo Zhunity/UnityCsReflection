@@ -904,7 +904,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
             var ___genericsType = new Type[] {typeof(TState)};
             var ___parameters = new object[]{@executionContext, @callback.Value, @state};
             var ___result = RRunInternal_GTState_ExecutionContext_ContextCallback_d_TState_p__Ref_TState.Invoke(___genericsType, ___parameters);
-			state = (TState)___parameters[2];
+			@state = (TState)___parameters[2];
 
             
         }
@@ -916,7 +916,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
             var ___genericsType = new Type[] {typeof(TState)};
             var ___parameters = new object[]{@executionContext, @callback.Value, @state, @preserveSyncCtx};
             var ___result = RRunInternal_GTState_ExecutionContext_ContextCallback_d_TState_p__Ref_TState_Boolean.Invoke(___genericsType, ___parameters);
-			state = (TState)___parameters[2];
+			@state = (TState)___parameters[2];
 
             
         }
@@ -928,6 +928,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@ecsw.Value};
             var ___result = REstablishCopyOnWriteScope_Ref_ExecutionContextSwitcher.Invoke(___genericsType, ___parameters);
+			@ecsw = new RSystem.RThreading.RExecutionContextSwitcher(___parameters[0]);
 
             
         }
@@ -939,6 +940,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@currentThread, @knownNullWindowsIdentity, @ecsw.Value};
             var ___result = REstablishCopyOnWriteScope_Thread_Boolean_Ref_ExecutionContextSwitcher.Invoke(___genericsType, ___parameters);
+			@ecsw = new RSystem.RThreading.RExecutionContextSwitcher(___parameters[2]);
 
             
         }
@@ -1038,6 +1040,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@stackMark.Value, @options.Value};
             var ___result = RCapture_Ref_StackCrawlMark_CaptureOptions.Invoke(___genericsType, ___parameters);
+			@stackMark = new RType(___parameters[0]);
 
             return (System.Threading.ExecutionContext)___result;
         }

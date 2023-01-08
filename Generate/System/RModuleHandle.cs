@@ -438,14 +438,14 @@ namespace SMFrame.Editor.Refleaction.RSystem
 
         public virtual void GetPEKind(out System.Reflection.PortableExecutableKinds  @peKind, out System.Reflection.ImageFileMachine  @machine)
         {
-			peKind = default;
-			machine = default;
+			@peKind = default;
+			@machine = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@peKind, @machine};
             var ___result = RGetPEKind_Out_PortableExecutableKinds_Out_ImageFileMachine.Invoke(___genericsType, ___parameters);
-			peKind = (System.Reflection.PortableExecutableKinds)___parameters[0];
-			machine = (System.Reflection.ImageFileMachine)___parameters[1];
+			@peKind = (System.Reflection.PortableExecutableKinds)___parameters[0];
+			@machine = (System.Reflection.ImageFileMachine)___parameters[1];
 
             
         }

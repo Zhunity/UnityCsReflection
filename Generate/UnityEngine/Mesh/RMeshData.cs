@@ -1522,12 +1522,12 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
         public static void GetSubMesh_Injected(System.IntPtr  @self, System.Int32  @index, out UnityEngine.Rendering.SubMeshDescriptor  @ret)
         {
-			ret = default;
+			@ret = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@self, @index, @ret};
             var ___result = RGetSubMesh_Injected_IntPtr_Int32_Out_SubMeshDescriptor.Invoke(___genericsType, ___parameters);
-			ret = (UnityEngine.Rendering.SubMeshDescriptor)___parameters[2];
+			@ret = (UnityEngine.Rendering.SubMeshDescriptor)___parameters[2];
 
             
         }
@@ -1539,7 +1539,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@self, @index, @desc, @flags};
             var ___result = RSetSubMeshImpl_Injected_IntPtr_Int32_Ref_SubMeshDescriptor_MeshUpdateFlags.Invoke(___genericsType, ___parameters);
-			desc = (UnityEngine.Rendering.SubMeshDescriptor)___parameters[2];
+			@desc = (UnityEngine.Rendering.SubMeshDescriptor)___parameters[2];
 
             
         }

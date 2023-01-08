@@ -518,7 +518,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@_unity_self};
             var ___result = RGetKeywords_Injected_Ref_LocalKeywordSpace.Invoke(___genericsType, ___parameters);
-			_unity_self = (UnityEngine.Rendering.LocalKeywordSpace)___parameters[0];
+			@_unity_self = (UnityEngine.Rendering.LocalKeywordSpace)___parameters[0];
 
             return (UnityEngine.Rendering.LocalKeyword[])___result;
         }
@@ -530,7 +530,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@_unity_self};
             var ___result = RGetKeywordNames_Injected_Ref_LocalKeywordSpace.Invoke(___genericsType, ___parameters);
-			_unity_self = (UnityEngine.Rendering.LocalKeywordSpace)___parameters[0];
+			@_unity_self = (UnityEngine.Rendering.LocalKeywordSpace)___parameters[0];
 
             return (System.String[])___result;
         }
@@ -542,7 +542,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@_unity_self};
             var ___result = RGetKeywordCount_Injected_Ref_LocalKeywordSpace.Invoke(___genericsType, ___parameters);
-			_unity_self = (UnityEngine.Rendering.LocalKeywordSpace)___parameters[0];
+			@_unity_self = (UnityEngine.Rendering.LocalKeywordSpace)___parameters[0];
 
             return (System.UInt32)___result;
         }
@@ -550,13 +550,13 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 
         public static void GetKeyword_Injected(ref UnityEngine.Rendering.LocalKeywordSpace  @_unity_self, System.String  @name, out UnityEngine.Rendering.LocalKeyword  @ret)
         {
-			ret = default;
+			@ret = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@_unity_self, @name, @ret};
             var ___result = RGetKeyword_Injected_Ref_LocalKeywordSpace_String_Out_LocalKeyword.Invoke(___genericsType, ___parameters);
-			_unity_self = (UnityEngine.Rendering.LocalKeywordSpace)___parameters[0];
-			ret = (UnityEngine.Rendering.LocalKeyword)___parameters[2];
+			@_unity_self = (UnityEngine.Rendering.LocalKeywordSpace)___parameters[0];
+			@ret = (UnityEngine.Rendering.LocalKeyword)___parameters[2];
 
             
         }

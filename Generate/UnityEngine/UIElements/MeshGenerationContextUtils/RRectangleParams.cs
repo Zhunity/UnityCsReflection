@@ -842,14 +842,14 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 
         public static void AdjustUVsForScaleMode(UnityEngine.Rect  @rect, UnityEngine.Rect  @uv, UnityEngine.Texture  @texture, UnityEngine.ScaleMode  @scaleMode, out UnityEngine.Rect  @rectOut, out UnityEngine.Rect  @uvOut)
         {
-			rectOut = default;
-			uvOut = default;
+			@rectOut = default;
+			@uvOut = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@rect, @uv, @texture, @scaleMode, @rectOut, @uvOut};
             var ___result = RAdjustUVsForScaleMode_Rect_Rect_Texture_ScaleMode_Out_Rect_Out_Rect.Invoke(___genericsType, ___parameters);
-			rectOut = (UnityEngine.Rect)___parameters[4];
-			uvOut = (UnityEngine.Rect)___parameters[5];
+			@rectOut = (UnityEngine.Rect)___parameters[4];
+			@uvOut = (UnityEngine.Rect)___parameters[5];
 
             
         }
@@ -857,14 +857,14 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 
         public static void AdjustSpriteUVsForScaleMode(UnityEngine.Rect  @rect, UnityEngine.Rect  @uv, UnityEngine.Rect  @geomRect, UnityEngine.Texture  @texture, UnityEngine.Sprite  @sprite, UnityEngine.ScaleMode  @scaleMode, out UnityEngine.Rect  @rectOut, out UnityEngine.Rect  @uvOut)
         {
-			rectOut = default;
-			uvOut = default;
+			@rectOut = default;
+			@uvOut = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@rect, @uv, @geomRect, @texture, @sprite, @scaleMode, @rectOut, @uvOut};
             var ___result = RAdjustSpriteUVsForScaleMode_Rect_Rect_Rect_Texture_Sprite_ScaleMode_Out_Rect_Out_Rect.Invoke(___genericsType, ___parameters);
-			rectOut = (UnityEngine.Rect)___parameters[6];
-			uvOut = (UnityEngine.Rect)___parameters[7];
+			@rectOut = (UnityEngine.Rect)___parameters[6];
+			@uvOut = (UnityEngine.Rect)___parameters[7];
 
             
         }
@@ -931,7 +931,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@rect, @sprite, @scaleMode, @panelContext, @hasRadius, @slices, @useForRepeat};
             var ___result = RMakeSprite_Rect_Sprite_ScaleMode_ContextType_Boolean_Ref_Vector4_Boolean.Invoke(___genericsType, ___parameters);
-			slices = (UnityEngine.Vector4)___parameters[5];
+			@slices = (UnityEngine.Vector4)___parameters[5];
 
             return (System.Object)___result;
         }

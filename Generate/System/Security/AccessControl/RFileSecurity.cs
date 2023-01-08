@@ -1816,12 +1816,12 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 
         public virtual System.Boolean ModifyAccess(System.Security.AccessControl.AccessControlModification  @modification, System.Security.AccessControl.AccessRule  @rule, out System.Boolean  @modified)
         {
-			modified = default;
+			@modified = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@modification, @rule, @modified};
             var ___result = RModifyAccess_AccessControlModification_AccessRule_Out_Boolean.Invoke(___genericsType, ___parameters);
-			modified = (System.Boolean)___parameters[2];
+			@modified = (System.Boolean)___parameters[2];
 
             return (System.Boolean)___result;
         }
@@ -1884,12 +1884,12 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 
         public virtual System.Boolean ModifyAudit(System.Security.AccessControl.AccessControlModification  @modification, System.Security.AccessControl.AuditRule  @rule, out System.Boolean  @modified)
         {
-			modified = default;
+			@modified = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@modification, @rule, @modified};
             var ___result = RModifyAudit_AccessControlModification_AuditRule_Out_Boolean.Invoke(___genericsType, ___parameters);
-			modified = (System.Boolean)___parameters[2];
+			@modified = (System.Boolean)___parameters[2];
 
             return (System.Boolean)___result;
         }
@@ -1941,12 +1941,12 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 
         public virtual System.Boolean ModifyAccessRule(System.Security.AccessControl.AccessControlModification  @modification, System.Security.AccessControl.AccessRule  @rule, out System.Boolean  @modified)
         {
-			modified = default;
+			@modified = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@modification, @rule, @modified};
             var ___result = RModifyAccessRule_AccessControlModification_AccessRule_Out_Boolean.Invoke(___genericsType, ___parameters);
-			modified = (System.Boolean)___parameters[2];
+			@modified = (System.Boolean)___parameters[2];
 
             return (System.Boolean)___result;
         }
@@ -1954,12 +1954,12 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 
         public virtual System.Boolean ModifyAuditRule(System.Security.AccessControl.AccessControlModification  @modification, System.Security.AccessControl.AuditRule  @rule, out System.Boolean  @modified)
         {
-			modified = default;
+			@modified = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@modification, @rule, @modified};
             var ___result = RModifyAuditRule_AccessControlModification_AuditRule_Out_Boolean.Invoke(___genericsType, ___parameters);
-			modified = (System.Boolean)___parameters[2];
+			@modified = (System.Boolean)___parameters[2];
 
             return (System.Boolean)___result;
         }

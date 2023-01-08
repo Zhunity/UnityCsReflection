@@ -902,7 +902,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@_unity_self};
             var ___result = RUpdate_Injected_Ref_AsyncGPUReadbackRequest.Invoke(___genericsType, ___parameters);
-			_unity_self = (UnityEngine.Rendering.AsyncGPUReadbackRequest)___parameters[0];
+			@_unity_self = (UnityEngine.Rendering.AsyncGPUReadbackRequest)___parameters[0];
 
             
         }
@@ -914,7 +914,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@_unity_self};
             var ___result = RWaitForCompletion_Injected_Ref_AsyncGPUReadbackRequest.Invoke(___genericsType, ___parameters);
-			_unity_self = (UnityEngine.Rendering.AsyncGPUReadbackRequest)___parameters[0];
+			@_unity_self = (UnityEngine.Rendering.AsyncGPUReadbackRequest)___parameters[0];
 
             
         }
@@ -926,7 +926,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@_unity_self};
             var ___result = RIsDone_Injected_Ref_AsyncGPUReadbackRequest.Invoke(___genericsType, ___parameters);
-			_unity_self = (UnityEngine.Rendering.AsyncGPUReadbackRequest)___parameters[0];
+			@_unity_self = (UnityEngine.Rendering.AsyncGPUReadbackRequest)___parameters[0];
 
             return (System.Boolean)___result;
         }
@@ -938,7 +938,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@_unity_self};
             var ___result = RHasError_Injected_Ref_AsyncGPUReadbackRequest.Invoke(___genericsType, ___parameters);
-			_unity_self = (UnityEngine.Rendering.AsyncGPUReadbackRequest)___parameters[0];
+			@_unity_self = (UnityEngine.Rendering.AsyncGPUReadbackRequest)___parameters[0];
 
             return (System.Boolean)___result;
         }
@@ -950,7 +950,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@_unity_self};
             var ___result = RGetLayerCount_Injected_Ref_AsyncGPUReadbackRequest.Invoke(___genericsType, ___parameters);
-			_unity_self = (UnityEngine.Rendering.AsyncGPUReadbackRequest)___parameters[0];
+			@_unity_self = (UnityEngine.Rendering.AsyncGPUReadbackRequest)___parameters[0];
 
             return (System.Int32)___result;
         }
@@ -962,7 +962,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@_unity_self};
             var ___result = RGetLayerDataSize_Injected_Ref_AsyncGPUReadbackRequest.Invoke(___genericsType, ___parameters);
-			_unity_self = (UnityEngine.Rendering.AsyncGPUReadbackRequest)___parameters[0];
+			@_unity_self = (UnityEngine.Rendering.AsyncGPUReadbackRequest)___parameters[0];
 
             return (System.Int32)___result;
         }
@@ -974,7 +974,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@_unity_self};
             var ___result = RGetWidth_Injected_Ref_AsyncGPUReadbackRequest.Invoke(___genericsType, ___parameters);
-			_unity_self = (UnityEngine.Rendering.AsyncGPUReadbackRequest)___parameters[0];
+			@_unity_self = (UnityEngine.Rendering.AsyncGPUReadbackRequest)___parameters[0];
 
             return (System.Int32)___result;
         }
@@ -986,7 +986,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@_unity_self};
             var ___result = RGetHeight_Injected_Ref_AsyncGPUReadbackRequest.Invoke(___genericsType, ___parameters);
-			_unity_self = (UnityEngine.Rendering.AsyncGPUReadbackRequest)___parameters[0];
+			@_unity_self = (UnityEngine.Rendering.AsyncGPUReadbackRequest)___parameters[0];
 
             return (System.Int32)___result;
         }
@@ -998,7 +998,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@_unity_self};
             var ___result = RGetDepth_Injected_Ref_AsyncGPUReadbackRequest.Invoke(___genericsType, ___parameters);
-			_unity_self = (UnityEngine.Rendering.AsyncGPUReadbackRequest)___parameters[0];
+			@_unity_self = (UnityEngine.Rendering.AsyncGPUReadbackRequest)___parameters[0];
 
             return (System.Int32)___result;
         }
@@ -1010,7 +1010,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@_unity_self};
             var ___result = RCreateSafetyHandle_Injected_Ref_AsyncGPUReadbackRequest.Invoke(___genericsType, ___parameters);
-			_unity_self = (UnityEngine.Rendering.AsyncGPUReadbackRequest)___parameters[0];
+			@_unity_self = (UnityEngine.Rendering.AsyncGPUReadbackRequest)___parameters[0];
 
             
         }
@@ -1018,13 +1018,13 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 
         public static void GetSafetyHandle_Injected(ref UnityEngine.Rendering.AsyncGPUReadbackRequest  @_unity_self, out Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle  @ret)
         {
-			ret = default;
+			@ret = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@_unity_self, @ret};
             var ___result = RGetSafetyHandle_Injected_Ref_AsyncGPUReadbackRequest_Out_AtomicSafetyHandle.Invoke(___genericsType, ___parameters);
-			_unity_self = (UnityEngine.Rendering.AsyncGPUReadbackRequest)___parameters[0];
-			ret = (Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)___parameters[1];
+			@_unity_self = (UnityEngine.Rendering.AsyncGPUReadbackRequest)___parameters[0];
+			@ret = (Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)___parameters[1];
 
             
         }
@@ -1036,7 +1036,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@_unity_self, @callback};
             var ___result = RSetScriptingCallback_Injected_Ref_AsyncGPUReadbackRequest_Action_d_AsyncGPUReadbackRequest_p_.Invoke(___genericsType, ___parameters);
-			_unity_self = (UnityEngine.Rendering.AsyncGPUReadbackRequest)___parameters[0];
+			@_unity_self = (UnityEngine.Rendering.AsyncGPUReadbackRequest)___parameters[0];
 
             
         }
@@ -1048,7 +1048,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@_unity_self, @layer};
             var ___result = RGetDataRaw_Injected_Ref_AsyncGPUReadbackRequest_Int32.Invoke(___genericsType, ___parameters);
-			_unity_self = (UnityEngine.Rendering.AsyncGPUReadbackRequest)___parameters[0];
+			@_unity_self = (UnityEngine.Rendering.AsyncGPUReadbackRequest)___parameters[0];
 
             return (System.IntPtr)___result;
         }

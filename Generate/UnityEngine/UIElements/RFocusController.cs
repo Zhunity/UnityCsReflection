@@ -941,12 +941,12 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 
         public virtual System.Boolean GetFocusableParentForPointerEvent(UnityEngine.UIElements.Focusable  @target, out UnityEngine.UIElements.Focusable  @effectiveTarget)
         {
-			effectiveTarget = default;
+			@effectiveTarget = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@target, @effectiveTarget};
             var ___result = RGetFocusableParentForPointerEvent_Focusable_Out_Focusable.Invoke(___genericsType, ___parameters);
-			effectiveTarget = (UnityEngine.UIElements.Focusable)___parameters[1];
+			@effectiveTarget = (UnityEngine.UIElements.Focusable)___parameters[1];
 
             return (System.Boolean)___result;
         }

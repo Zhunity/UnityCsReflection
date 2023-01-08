@@ -982,15 +982,16 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 
         public static System.Boolean ParseAssemblyName(System.IntPtr  @name, out RMono.RMonoAssemblyName  @aname, out System.Boolean  @is_version_definited, out System.Boolean  @is_token_defined)
         {
-			aname = default;
-			is_version_definited = default;
-			is_token_defined = default;
+			@aname = default;
+			@is_version_definited = default;
+			@is_token_defined = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@name, @aname.Value, @is_version_definited, @is_token_defined};
             var ___result = RParseAssemblyName_IntPtr_Out_MonoAssemblyName_Out_Boolean_Out_Boolean.Invoke(___genericsType, ___parameters);
-			is_version_definited = (System.Boolean)___parameters[2];
-			is_token_defined = (System.Boolean)___parameters[3];
+			@aname = new RMono.RMonoAssemblyName(___parameters[1]);
+			@is_version_definited = (System.Boolean)___parameters[2];
+			@is_token_defined = (System.Boolean)___parameters[3];
 
             return (System.Boolean)___result;
         }
@@ -1153,12 +1154,12 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 
         public virtual void System__2__Runtime__2__InteropServices__2___AssemblyName__2__GetTypeInfoCount(out System.UInt32  @pcTInfo)
         {
-			pcTInfo = default;
+			@pcTInfo = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@pcTInfo};
             var ___result = RSystem__2__Runtime__2__InteropServices__2___AssemblyName__2__GetTypeInfoCount_Out_UInt32.Invoke(___genericsType, ___parameters);
-			pcTInfo = (System.UInt32)___parameters[0];
+			@pcTInfo = (System.UInt32)___parameters[0];
 
             
         }

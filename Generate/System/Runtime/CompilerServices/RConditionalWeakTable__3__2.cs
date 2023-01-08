@@ -583,12 +583,12 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RCompilerServices
 
         public virtual System.Boolean TryGetValue(TKey  @key, out TValue  @value)
         {
-			value = default;
+			@value = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@key, @value};
             var ___result = RTryGetValue_TKey_Out_TValue.Invoke(___genericsType, ___parameters);
-			value = (TValue)___parameters[1];
+			@value = (TValue)___parameters[1];
 
             return (System.Boolean)___result;
         }
@@ -618,12 +618,12 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RCompilerServices
 
         public virtual TKey FindEquivalentKeyUnsafe(TKey  @key, out TValue  @value)
         {
-			value = default;
+			@value = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@key, @value};
             var ___result = RFindEquivalentKeyUnsafe_TKey_Out_TValue.Invoke(___genericsType, ___parameters);
-			value = (TValue)___parameters[1];
+			@value = (TValue)___parameters[1];
 
             return (TKey)___result;
         }

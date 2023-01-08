@@ -4479,12 +4479,12 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
         public virtual void GetVectorImpl_Injected(System.Int32  @name, out UnityEngine.Vector4  @ret)
         {
-			ret = default;
+			@ret = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@name, @ret};
             var ___result = RGetVectorImpl_Injected_Int32_Out_Vector4.Invoke(___genericsType, ___parameters);
-			ret = (UnityEngine.Vector4)___parameters[1];
+			@ret = (UnityEngine.Vector4)___parameters[1];
 
             
         }
@@ -4492,12 +4492,12 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
         public virtual void GetColorImpl_Injected(System.Int32  @name, out UnityEngine.Color  @ret)
         {
-			ret = default;
+			@ret = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@name, @ret};
             var ___result = RGetColorImpl_Injected_Int32_Out_Color.Invoke(___genericsType, ___parameters);
-			ret = (UnityEngine.Color)___parameters[1];
+			@ret = (UnityEngine.Color)___parameters[1];
 
             
         }
@@ -4505,12 +4505,12 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
         public virtual void GetMatrixImpl_Injected(System.Int32  @name, out UnityEngine.Matrix4x4  @ret)
         {
-			ret = default;
+			@ret = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@name, @ret};
             var ___result = RGetMatrixImpl_Injected_Int32_Out_Matrix4x4.Invoke(___genericsType, ___parameters);
-			ret = (UnityEngine.Matrix4x4)___parameters[1];
+			@ret = (UnityEngine.Matrix4x4)___parameters[1];
 
             
         }
@@ -4522,7 +4522,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@name, @value};
             var ___result = RSetVectorImpl_Injected_Int32_Ref_Vector4.Invoke(___genericsType, ___parameters);
-			value = (UnityEngine.Vector4)___parameters[1];
+			@value = (UnityEngine.Vector4)___parameters[1];
 
             
         }
@@ -4534,7 +4534,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@name, @value};
             var ___result = RSetColorImpl_Injected_Int32_Ref_Color.Invoke(___genericsType, ___parameters);
-			value = (UnityEngine.Color)___parameters[1];
+			@value = (UnityEngine.Color)___parameters[1];
 
             
         }
@@ -4546,7 +4546,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@name, @value};
             var ___result = RSetMatrixImpl_Injected_Int32_Ref_Matrix4x4.Invoke(___genericsType, ___parameters);
-			value = (UnityEngine.Matrix4x4)___parameters[1];
+			@value = (UnityEngine.Matrix4x4)___parameters[1];
 
             
         }

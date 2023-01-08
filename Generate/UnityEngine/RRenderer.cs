@@ -3016,12 +3016,12 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
         public virtual void get_bounds_Injected(out UnityEngine.Bounds  @ret)
         {
-			ret = default;
+			@ret = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@ret};
             var ___result = Rget_bounds_Injected_Out_Bounds.Invoke(___genericsType, ___parameters);
-			ret = (UnityEngine.Bounds)___parameters[0];
+			@ret = (UnityEngine.Bounds)___parameters[0];
 
             
         }
@@ -3033,7 +3033,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@value};
             var ___result = Rset_bounds_Injected_Ref_Bounds.Invoke(___genericsType, ___parameters);
-			value = (UnityEngine.Bounds)___parameters[0];
+			@value = (UnityEngine.Bounds)___parameters[0];
 
             
         }
@@ -3041,12 +3041,12 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
         public virtual void get_localBounds_Injected(out UnityEngine.Bounds  @ret)
         {
-			ret = default;
+			@ret = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@ret};
             var ___result = Rget_localBounds_Injected_Out_Bounds.Invoke(___genericsType, ___parameters);
-			ret = (UnityEngine.Bounds)___parameters[0];
+			@ret = (UnityEngine.Bounds)___parameters[0];
 
             
         }
@@ -3058,7 +3058,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@value};
             var ___result = Rset_localBounds_Injected_Ref_Bounds.Invoke(___genericsType, ___parameters);
-			value = (UnityEngine.Bounds)___parameters[0];
+			@value = (UnityEngine.Bounds)___parameters[0];
 
             
         }
@@ -3070,7 +3070,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@st};
             var ___result = RSetStaticLightmapST_Injected_Ref_Vector4.Invoke(___genericsType, ___parameters);
-			st = (UnityEngine.Vector4)___parameters[0];
+			@st = (UnityEngine.Vector4)___parameters[0];
 
             
         }
@@ -3078,12 +3078,12 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
         public virtual void get_worldToLocalMatrix_Injected(out UnityEngine.Matrix4x4  @ret)
         {
-			ret = default;
+			@ret = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@ret};
             var ___result = Rget_worldToLocalMatrix_Injected_Out_Matrix4x4.Invoke(___genericsType, ___parameters);
-			ret = (UnityEngine.Matrix4x4)___parameters[0];
+			@ret = (UnityEngine.Matrix4x4)___parameters[0];
 
             
         }
@@ -3091,12 +3091,12 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
         public virtual void get_localToWorldMatrix_Injected(out UnityEngine.Matrix4x4  @ret)
         {
-			ret = default;
+			@ret = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@ret};
             var ___result = Rget_localToWorldMatrix_Injected_Out_Matrix4x4.Invoke(___genericsType, ___parameters);
-			ret = (UnityEngine.Matrix4x4)___parameters[0];
+			@ret = (UnityEngine.Matrix4x4)___parameters[0];
 
             
         }
@@ -3104,12 +3104,12 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
         public virtual void GetLightmapST_Injected(RType  @lt, out UnityEngine.Vector4  @ret)
         {
-			ret = default;
+			@ret = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@lt.Value, @ret};
             var ___result = RGetLightmapST_Injected_LightmapType_Out_Vector4.Invoke(___genericsType, ___parameters);
-			ret = (UnityEngine.Vector4)___parameters[1];
+			@ret = (UnityEngine.Vector4)___parameters[1];
 
             
         }
@@ -3121,7 +3121,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@st, @lt.Value};
             var ___result = RSetLightmapST_Injected_Ref_Vector4_LightmapType.Invoke(___genericsType, ___parameters);
-			st = (UnityEngine.Vector4)___parameters[0];
+			@st = (UnityEngine.Vector4)___parameters[0];
 
             
         }
@@ -3162,12 +3162,12 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
         public virtual System.Boolean TryGetComponent(System.Type  @type, out UnityEngine.Component  @component)
         {
-			component = default;
+			@component = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@type, @component};
             var ___result = RTryGetComponent_Type_Out_Component.Invoke(___genericsType, ___parameters);
-			component = (UnityEngine.Component)___parameters[1];
+			@component = (UnityEngine.Component)___parameters[1];
 
             return (System.Boolean)___result;
         }
@@ -3175,12 +3175,12 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
         public virtual System.Boolean TryGetComponent<T>(out T  @component)
         {
-			component = default;
+			@component = default;
 
             var ___genericsType = new Type[] {typeof(T)};
             var ___parameters = new object[]{@component};
             var ___result = RTryGetComponent_GT_Out_T.Invoke(___genericsType, ___parameters);
-			component = (T)___parameters[0];
+			@component = (T)___parameters[0];
 
             return (System.Boolean)___result;
         }

@@ -1358,12 +1358,12 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
         public virtual void get_bufferHandle_Injected(out UnityEngine.GraphicsBufferHandle  @ret)
         {
-			ret = default;
+			@ret = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@ret};
             var ___result = Rget_bufferHandle_Injected_Out_GraphicsBufferHandle.Invoke(___genericsType, ___parameters);
-			ret = (UnityEngine.GraphicsBufferHandle)___parameters[0];
+			@ret = (UnityEngine.GraphicsBufferHandle)___parameters[0];
 
             
         }

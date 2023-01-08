@@ -486,12 +486,12 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
         public virtual void Evaluate_Injected(System.Single  @time, out UnityEngine.Color  @ret)
         {
-			ret = default;
+			@ret = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@time, @ret};
             var ___result = REvaluate_Injected_Single_Out_Color.Invoke(___genericsType, ___parameters);
-			ret = (UnityEngine.Color)___parameters[1];
+			@ret = (UnityEngine.Color)___parameters[1];
 
             
         }
@@ -499,12 +499,12 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
         public virtual void get_constantColor_Injected(out UnityEngine.Color  @ret)
         {
-			ret = default;
+			@ret = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@ret};
             var ___result = Rget_constantColor_Injected_Out_Color.Invoke(___genericsType, ___parameters);
-			ret = (UnityEngine.Color)___parameters[0];
+			@ret = (UnityEngine.Color)___parameters[0];
 
             
         }
@@ -516,7 +516,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@value};
             var ___result = Rset_constantColor_Injected_Ref_Color.Invoke(___genericsType, ___parameters);
-			value = (UnityEngine.Color)___parameters[0];
+			@value = (UnityEngine.Color)___parameters[0];
 
             
         }

@@ -618,12 +618,12 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certif
 
         public virtual System.Boolean Equals(RSystem.RSecurity.RCryptography.RX509Certificates.RX509CertificateImpl  @other, out System.Boolean  @result)
         {
-			result = default;
+			@result = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@other.Value, @result};
             var ___result = REquals_X509CertificateImpl_Out_Boolean.Invoke(___genericsType, ___parameters);
-			result = (System.Boolean)___parameters[1];
+			@result = (System.Boolean)___parameters[1];
 
             return (System.Boolean)___result;
         }

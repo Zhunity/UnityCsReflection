@@ -480,16 +480,16 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 
         public virtual void Convert(System.Byte[]  @bytes, System.Int32  @byteIndex, System.Int32  @byteCount, System.Char[]  @chars, System.Int32  @charIndex, System.Int32  @charCount, System.Boolean  @flush, out System.Int32  @bytesUsed, out System.Int32  @charsUsed, out System.Boolean  @completed)
         {
-			bytesUsed = default;
-			charsUsed = default;
-			completed = default;
+			@bytesUsed = default;
+			@charsUsed = default;
+			@completed = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@bytes, @byteIndex, @byteCount, @chars, @charIndex, @charCount, @flush, @bytesUsed, @charsUsed, @completed};
             var ___result = RConvert_ByteArray_Int32_Int32_CharArray_Int32_Int32_Boolean_Out_Int32_Out_Int32_Out_Boolean.Invoke(___genericsType, ___parameters);
-			bytesUsed = (System.Int32)___parameters[7];
-			charsUsed = (System.Int32)___parameters[8];
-			completed = (System.Boolean)___parameters[9];
+			@bytesUsed = (System.Int32)___parameters[7];
+			@charsUsed = (System.Int32)___parameters[8];
+			@completed = (System.Boolean)___parameters[9];
 
             
         }

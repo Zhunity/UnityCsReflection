@@ -2865,14 +2865,14 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 
         public virtual void MakeRoom(System.Int32  @index, System.Int32  @count, out System.Text.StringBuilder  @chunk, out System.Int32  @indexInChunk, System.Boolean  @doNotMoveFollowingChars)
         {
-			chunk = default;
-			indexInChunk = default;
+			@chunk = default;
+			@indexInChunk = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@index, @count, @chunk, @indexInChunk, @doNotMoveFollowingChars};
             var ___result = RMakeRoom_Int32_Int32_Out_StringBuilder_Out_Int32_Boolean.Invoke(___genericsType, ___parameters);
-			chunk = (System.Text.StringBuilder)___parameters[2];
-			indexInChunk = (System.Int32)___parameters[3];
+			@chunk = (System.Text.StringBuilder)___parameters[2];
+			@indexInChunk = (System.Int32)___parameters[3];
 
             
         }
@@ -2880,14 +2880,14 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 
         public virtual void Remove(System.Int32  @startIndex, System.Int32  @count, out System.Text.StringBuilder  @chunk, out System.Int32  @indexInChunk)
         {
-			chunk = default;
-			indexInChunk = default;
+			@chunk = default;
+			@indexInChunk = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@startIndex, @count, @chunk, @indexInChunk};
             var ___result = RRemove_Int32_Int32_Out_StringBuilder_Out_Int32.Invoke(___genericsType, ___parameters);
-			chunk = (System.Text.StringBuilder)___parameters[2];
-			indexInChunk = (System.Int32)___parameters[3];
+			@chunk = (System.Text.StringBuilder)___parameters[2];
+			@indexInChunk = (System.Int32)___parameters[3];
 
             
         }

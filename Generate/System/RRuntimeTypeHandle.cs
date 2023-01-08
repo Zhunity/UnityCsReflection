@@ -1419,6 +1419,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@name, @stackMark.Value, @callerAssembly, @throwOnError, @ignoreCase, @reflectionOnly};
             var ___result = Rinternal_from_name_String_Ref_StackCrawlMark_Assembly_Boolean_Boolean_Boolean.Invoke(___genericsType, ___parameters);
+			@stackMark = new RType(___parameters[1]);
 
             return (System.Object)___result;
         }
@@ -1430,6 +1431,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@typeName, @throwOnError, @ignoreCase, @reflectionOnly, @stackMark.Value, @loadTypeFromPartialName};
             var ___result = RGetTypeByName_String_Boolean_Boolean_Boolean_Ref_StackCrawlMark_Boolean.Invoke(___genericsType, ___parameters);
+			@stackMark = new RType(___parameters[4]);
 
             return (System.Object)___result;
         }
@@ -1437,12 +1439,12 @@ namespace SMFrame.Editor.Refleaction.RSystem
 
         public static System.IntPtr[] CopyRuntimeTypeHandles(System.RuntimeTypeHandle[]  @inHandles, out System.Int32  @length)
         {
-			length = default;
+			@length = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@inHandles, @length};
             var ___result = RCopyRuntimeTypeHandles_RuntimeTypeHandleArray_Out_Int32.Invoke(___genericsType, ___parameters);
-			length = (System.Int32)___parameters[1];
+			@length = (System.Int32)___parameters[1];
 
             return (System.IntPtr[])___result;
         }

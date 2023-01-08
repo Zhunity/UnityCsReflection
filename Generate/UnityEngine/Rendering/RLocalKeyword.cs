@@ -681,7 +681,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@kw};
             var ___result = RIsDynamic_Injected_Ref_LocalKeyword.Invoke(___genericsType, ___parameters);
-			kw = (UnityEngine.Rendering.LocalKeyword)___parameters[0];
+			@kw = (UnityEngine.Rendering.LocalKeyword)___parameters[0];
 
             return (System.Boolean)___result;
         }
@@ -693,7 +693,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@kw};
             var ___result = RIsOverridable_Injected_Ref_LocalKeyword.Invoke(___genericsType, ___parameters);
-			kw = (UnityEngine.Rendering.LocalKeyword)___parameters[0];
+			@kw = (UnityEngine.Rendering.LocalKeyword)___parameters[0];
 
             return (System.Boolean)___result;
         }
@@ -705,7 +705,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@spaceInfo, @keyword};
             var ___result = RGetKeywordType_Injected_Ref_LocalKeywordSpace_UInt32.Invoke(___genericsType, ___parameters);
-			spaceInfo = (UnityEngine.Rendering.LocalKeywordSpace)___parameters[0];
+			@spaceInfo = (UnityEngine.Rendering.LocalKeywordSpace)___parameters[0];
 
             return (UnityEngine.Rendering.ShaderKeywordType)___result;
         }
@@ -717,7 +717,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@spaceInfo, @keyword};
             var ___result = RIsValid_Injected_Ref_LocalKeywordSpace_UInt32.Invoke(___genericsType, ___parameters);
-			spaceInfo = (UnityEngine.Rendering.LocalKeywordSpace)___parameters[0];
+			@spaceInfo = (UnityEngine.Rendering.LocalKeywordSpace)___parameters[0];
 
             return (System.Boolean)___result;
         }

@@ -1622,6 +1622,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@page.Value, @vertexCount, @indexCount, @va.Value, @ia.Value, @shortLived};
             var ___result = RTryAllocFromPage_Page_UInt32_UInt32_Ref_Alloc_Ref_Alloc_Boolean.Invoke(___genericsType, ___parameters);
+			@va = new RUnityEngine.RUIElements.RUIR.RAlloc(___parameters[3]);
+			@ia = new RUnityEngine.RUIElements.RUIR.RAlloc(___parameters[4]);
 
             return (System.Boolean)___result;
         }
@@ -1658,6 +1660,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@cmd.Value, @textureSlot, @newMat, @newMatDiffers, @st.Value};
             var ___result = RApplyDrawCommandState_RenderChainCommand_Int32_Material_Boolean_Ref_EvaluationState.Invoke(___genericsType, ___parameters);
+			@st = new RUnityEngine.RUIElements.RUIR.RUIRenderDevice.REvaluationState(___parameters[4]);
 
             
         }
@@ -1669,6 +1672,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@st.Value, @allowMaterialChange};
             var ___result = RApplyBatchState_Ref_EvaluationState_Boolean.Invoke(___genericsType, ___parameters);
+			@st = new RUnityEngine.RUIElements.RUIR.RUIRenderDevice.REvaluationState(___parameters[0]);
 
             
         }

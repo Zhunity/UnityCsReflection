@@ -3964,7 +3964,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@newBits, @illegalBits, @oldFlags};
             var ___result = RAtomicStateUpdate_Int32_Int32_Ref_Int32.Invoke(___genericsType, ___parameters);
-			oldFlags = (System.Int32)___parameters[2];
+			@oldFlags = (System.Int32)___parameters[2];
 
             return (System.Boolean)___result;
         }
@@ -4885,13 +4885,14 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 
         public static void CreationOptionsFromContinuationOptions(System.Threading.Tasks.TaskContinuationOptions  @continuationOptions, out System.Threading.Tasks.TaskCreationOptions  @creationOptions, out RType  @internalOptions)
         {
-			creationOptions = default;
-			internalOptions = default;
+			@creationOptions = default;
+			@internalOptions = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@continuationOptions, @creationOptions, @internalOptions.Value};
             var ___result = RCreationOptionsFromContinuationOptions_TaskContinuationOptions_Out_TaskCreationOptions_Out_InternalTaskOptions.Invoke(___genericsType, ___parameters);
-			creationOptions = (System.Threading.Tasks.TaskCreationOptions)___parameters[1];
+			@creationOptions = (System.Threading.Tasks.TaskCreationOptions)___parameters[1];
+			@internalOptions = new RType(___parameters[2]);
 
             
         }
@@ -5024,6 +5025,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
             var ___genericsType = new Type[] {typeof(T)};
             var ___parameters = new object[]{@item, @list.Value, @initSize};
             var ___result = RAddToList_GT_T_Ref_LowLevelListWithIList_d_T_p__Int32.Invoke(___genericsType, ___parameters);
+			@list = new RSystem.RCollections.RGeneric.RLowLevelListWithIList<RType>(___parameters[1]);
 
             
         }
@@ -5046,6 +5048,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@exceptions.Value, @t};
             var ___result = RAddExceptionsForCompletedTask_Ref_LowLevelListWithIList_d_Exception_p__Task.Invoke(___genericsType, ___parameters);
+			@exceptions = new RSystem.RCollections.RGeneric.RLowLevelListWithIList<RSystem.RException>(___parameters[0]);
 
             
         }
@@ -5519,7 +5522,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@currentTaskSlot};
             var ___result = RExecuteWithThreadLocal_Ref_Task.Invoke(___genericsType, ___parameters);
-			currentTaskSlot = (System.Threading.Tasks.Task)___parameters[0];
+			@currentTaskSlot = (System.Threading.Tasks.Task)___parameters[0];
 
             
         }

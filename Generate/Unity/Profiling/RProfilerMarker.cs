@@ -288,7 +288,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@name};
             var ___result = RGetName_Ref_String.Invoke(___genericsType, ___parameters);
-			name = (System.String)___parameters[0];
+			@name = (System.String)___parameters[0];
 
             
         }

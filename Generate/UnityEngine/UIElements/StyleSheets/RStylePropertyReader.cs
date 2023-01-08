@@ -1588,14 +1588,14 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 
         public static UnityEngine.UIElements.Length ReadTransformOriginEnum(RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue  @value, out System.Boolean  @isVertical, out System.Boolean  @isHorizontal)
         {
-			isVertical = default;
-			isHorizontal = default;
+			@isVertical = default;
+			@isHorizontal = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@value.Value, @isVertical, @isHorizontal};
             var ___result = RReadTransformOriginEnum_StylePropertyValue_Out_Boolean_Out_Boolean.Invoke(___genericsType, ___parameters);
-			isVertical = (System.Boolean)___parameters[1];
-			isHorizontal = (System.Boolean)___parameters[2];
+			@isVertical = (System.Boolean)___parameters[1];
+			@isHorizontal = (System.Boolean)___parameters[2];
 
             return (UnityEngine.UIElements.Length)___result;
         }
@@ -1636,12 +1636,12 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 
         public static System.Boolean TryReadEnum(RType  @enumType, RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue  @value, out System.Int32  @intValue)
         {
-			intValue = default;
+			@intValue = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@enumType.Value, @value.Value, @intValue};
             var ___result = RTryReadEnum_StyleEnumType_StylePropertyValue_Out_Int32.Invoke(___genericsType, ___parameters);
-			intValue = (System.Int32)___parameters[2];
+			@intValue = (System.Int32)___parameters[2];
 
             return (System.Boolean)___result;
         }
@@ -1704,11 +1704,12 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 
         public static System.Boolean TryGetImageSourceFromValue(RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue  @propertyValue, System.Single  @dpiScaling, out RUnityEngine.RUIElements.RStyleSheets.RImageSource  @source)
         {
-			source = default;
+			@source = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@propertyValue.Value, @dpiScaling, @source.Value};
             var ___result = RTryGetImageSourceFromValue_StylePropertyValue_Single_Out_ImageSource.Invoke(___genericsType, ___parameters);
+			@source = new RUnityEngine.RUIElements.RStyleSheets.RImageSource(___parameters[2]);
 
             return (System.Boolean)___result;
         }

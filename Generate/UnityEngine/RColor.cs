@@ -1077,16 +1077,16 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
         public static void RGBToHSV(UnityEngine.Color  @rgbColor, out System.Single  @H, out System.Single  @S, out System.Single  @V)
         {
-			H = default;
-			S = default;
-			V = default;
+			@H = default;
+			@S = default;
+			@V = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@rgbColor, @H, @S, @V};
             var ___result = RRGBToHSV_Color_Out_Single_Out_Single_Out_Single.Invoke(___genericsType, ___parameters);
-			H = (System.Single)___parameters[1];
-			S = (System.Single)___parameters[2];
-			V = (System.Single)___parameters[3];
+			@H = (System.Single)___parameters[1];
+			@S = (System.Single)___parameters[2];
+			@V = (System.Single)___parameters[3];
 
             
         }
@@ -1094,16 +1094,16 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
         public static void RGBToHSVHelper(System.Single  @offset, System.Single  @dominantcolor, System.Single  @colorone, System.Single  @colortwo, out System.Single  @H, out System.Single  @S, out System.Single  @V)
         {
-			H = default;
-			S = default;
-			V = default;
+			@H = default;
+			@S = default;
+			@V = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@offset, @dominantcolor, @colorone, @colortwo, @H, @S, @V};
             var ___result = RRGBToHSVHelper_Single_Single_Single_Single_Out_Single_Out_Single_Out_Single.Invoke(___genericsType, ___parameters);
-			H = (System.Single)___parameters[4];
-			S = (System.Single)___parameters[5];
-			V = (System.Single)___parameters[6];
+			@H = (System.Single)___parameters[4];
+			@S = (System.Single)___parameters[5];
+			@V = (System.Single)___parameters[6];
 
             
         }

@@ -846,11 +846,12 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 
         public static void get_event_info(RSystem.RReflection.RRuntimeEventInfo  @ev, out RSystem.RReflection.RMonoEventInfo  @info)
         {
-			info = default;
+			@info = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@ev.Value, @info.Value};
             var ___result = Rget_event_info_RuntimeEventInfo_Out_MonoEventInfo.Invoke(___genericsType, ___parameters);
+			@info = new RSystem.RReflection.RMonoEventInfo(___parameters[1]);
 
             
         }

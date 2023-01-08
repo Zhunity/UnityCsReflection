@@ -8011,8 +8011,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@id.Value, @from, @to, @subPropertyIndex};
             var ___result = RTryConvertLengthUnits_StylePropertyId_Ref_Length_Ref_Length_Int32.Invoke(___genericsType, ___parameters);
-			from = (UnityEngine.UIElements.Length)___parameters[1];
-			to = (UnityEngine.UIElements.Length)___parameters[2];
+			@from = (UnityEngine.UIElements.Length)___parameters[1];
+			@to = (UnityEngine.UIElements.Length)___parameters[2];
 
             return (System.Boolean)___result;
         }
@@ -8024,8 +8024,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@from, @to};
             var ___result = RTryConvertTransformOriginUnits_Ref_TransformOrigin_Ref_TransformOrigin.Invoke(___genericsType, ___parameters);
-			from = (UnityEngine.UIElements.TransformOrigin)___parameters[0];
-			to = (UnityEngine.UIElements.TransformOrigin)___parameters[1];
+			@from = (UnityEngine.UIElements.TransformOrigin)___parameters[0];
+			@to = (UnityEngine.UIElements.TransformOrigin)___parameters[1];
 
             return (System.Boolean)___result;
         }
@@ -8037,8 +8037,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@from, @to};
             var ___result = RTryConvertTranslateUnits_Ref_Translate_Ref_Translate.Invoke(___genericsType, ___parameters);
-			from = (UnityEngine.UIElements.Translate)___parameters[0];
-			to = (UnityEngine.UIElements.Translate)___parameters[1];
+			@from = (UnityEngine.UIElements.Translate)___parameters[0];
+			@to = (UnityEngine.UIElements.Translate)___parameters[1];
 
             return (System.Boolean)___result;
         }
@@ -8050,8 +8050,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@from, @to};
             var ___result = RTryConvertBackgroundPositionUnits_Ref_BackgroundPosition_Ref_BackgroundPosition.Invoke(___genericsType, ___parameters);
-			from = (UnityEngine.UIElements.BackgroundPosition)___parameters[0];
-			to = (UnityEngine.UIElements.BackgroundPosition)___parameters[1];
+			@from = (UnityEngine.UIElements.BackgroundPosition)___parameters[0];
+			@to = (UnityEngine.UIElements.BackgroundPosition)___parameters[1];
 
             return (System.Boolean)___result;
         }
@@ -8063,8 +8063,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@from, @to};
             var ___result = RTryConvertBackgroundSizeUnits_Ref_BackgroundSize_Ref_BackgroundSize.Invoke(___genericsType, ___parameters);
-			from = (UnityEngine.UIElements.BackgroundSize)___parameters[0];
-			to = (UnityEngine.UIElements.BackgroundSize)___parameters[1];
+			@from = (UnityEngine.UIElements.BackgroundSize)___parameters[0];
+			@to = (UnityEngine.UIElements.BackgroundSize)___parameters[1];
 
             return (System.Boolean)___result;
         }
@@ -8626,6 +8626,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@newStyle.Value};
             var ___result = RSetComputedStyle_Ref_ComputedStyle.Invoke(___genericsType, ___parameters);
+			@newStyle = new RUnityEngine.RUIElements.RComputedStyle(___parameters[0]);
 
             
         }
@@ -8787,12 +8788,12 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 
         public virtual System.Boolean TryGetPropertyInternal(UnityEngine.PropertyName  @key, out System.Object  @value)
         {
-			value = default;
+			@value = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@key, @value};
             var ___result = RTryGetPropertyInternal_PropertyName_Out_Object.Invoke(___genericsType, ___parameters);
-			value = (System.Object)___parameters[1];
+			@value = (System.Object)___parameters[1];
 
             return (System.Boolean)___result;
         }
@@ -9196,12 +9197,12 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 
         public virtual System.Boolean GetCachedNextParentWithEventCallback(out UnityEngine.UIElements.VisualElement  @nextParent)
         {
-			nextParent = default;
+			@nextParent = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@nextParent};
             var ___result = RGetCachedNextParentWithEventCallback_Out_VisualElement.Invoke(___genericsType, ___parameters);
-			nextParent = (UnityEngine.UIElements.VisualElement)___parameters[0];
+			@nextParent = (UnityEngine.UIElements.VisualElement)___parameters[0];
 
             return (System.Boolean)___result;
         }
@@ -9605,12 +9606,12 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 
         public virtual void GetPivotedMatrixWithLayout(out UnityEngine.Matrix4x4  @result)
         {
-			result = default;
+			@result = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@result};
             var ___result = RGetPivotedMatrixWithLayout_Out_Matrix4x4.Invoke(___genericsType, ___parameters);
-			result = (UnityEngine.Matrix4x4)___parameters[0];
+			@result = (UnityEngine.Matrix4x4)___parameters[0];
 
             
         }
@@ -9644,7 +9645,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@rect};
             var ___result = RTransformAlignedRectToParentSpace_Ref_Rect.Invoke(___genericsType, ___parameters);
-			rect = (UnityEngine.Rect)___parameters[0];
+			@rect = (UnityEngine.Rect)___parameters[0];
 
             
         }
@@ -9656,7 +9657,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@matrix, @rect};
             var ___result = RCalculateConservativeRect_Ref_Matrix4x4_Rect.Invoke(___genericsType, ___parameters);
-			matrix = (UnityEngine.Matrix4x4)___parameters[0];
+			@matrix = (UnityEngine.Matrix4x4)___parameters[0];
 
             return (UnityEngine.Rect)___result;
         }
@@ -9668,8 +9669,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@matrix, @rect};
             var ___result = RTransformAlignedRect_Ref_Matrix4x4_Ref_Rect.Invoke(___genericsType, ___parameters);
-			matrix = (UnityEngine.Matrix4x4)___parameters[0];
-			rect = (UnityEngine.Rect)___parameters[1];
+			@matrix = (UnityEngine.Matrix4x4)___parameters[0];
+			@rect = (UnityEngine.Rect)___parameters[1];
 
             
         }
@@ -9681,7 +9682,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@rect};
             var ___result = ROrderMinMaxRect_Ref_Rect.Invoke(___genericsType, ___parameters);
-			rect = (UnityEngine.Rect)___parameters[0];
+			@rect = (UnityEngine.Rect)___parameters[0];
 
             
         }
@@ -9693,7 +9694,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@lhs, @point};
             var ___result = RMultiplyMatrix44Point2_Ref_Matrix4x4_Vector2.Invoke(___genericsType, ___parameters);
-			lhs = (UnityEngine.Matrix4x4)___parameters[0];
+			@lhs = (UnityEngine.Matrix4x4)___parameters[0];
 
             return (UnityEngine.Vector2)___result;
         }
@@ -9705,7 +9706,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@lhs, @vector};
             var ___result = RMultiplyVector2_Ref_Matrix4x4_Vector2.Invoke(___genericsType, ___parameters);
-			lhs = (UnityEngine.Matrix4x4)___parameters[0];
+			@lhs = (UnityEngine.Matrix4x4)___parameters[0];
 
             return (UnityEngine.Vector2)___result;
         }
@@ -9717,7 +9718,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@lhs, @r};
             var ___result = RMultiplyMatrix44Rect2_Ref_Matrix4x4_Rect.Invoke(___genericsType, ___parameters);
-			lhs = (UnityEngine.Matrix4x4)___parameters[0];
+			@lhs = (UnityEngine.Matrix4x4)___parameters[0];
 
             return (UnityEngine.Rect)___result;
         }
@@ -9725,14 +9726,14 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 
         public static void MultiplyMatrix34(ref UnityEngine.Matrix4x4  @lhs, ref UnityEngine.Matrix4x4  @rhs, out UnityEngine.Matrix4x4  @res)
         {
-			res = default;
+			@res = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@lhs, @rhs, @res};
             var ___result = RMultiplyMatrix34_Ref_Matrix4x4_Ref_Matrix4x4_Out_Matrix4x4.Invoke(___genericsType, ___parameters);
-			lhs = (UnityEngine.Matrix4x4)___parameters[0];
-			rhs = (UnityEngine.Matrix4x4)___parameters[1];
-			res = (UnityEngine.Matrix4x4)___parameters[2];
+			@lhs = (UnityEngine.Matrix4x4)___parameters[0];
+			@rhs = (UnityEngine.Matrix4x4)___parameters[1];
+			@res = (UnityEngine.Matrix4x4)___parameters[2];
 
             
         }
@@ -9740,13 +9741,13 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 
         public static void TranslateMatrix34(ref UnityEngine.Matrix4x4  @lhs, UnityEngine.Vector3  @rhs, out UnityEngine.Matrix4x4  @res)
         {
-			res = default;
+			@res = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@lhs, @rhs, @res};
             var ___result = RTranslateMatrix34_Ref_Matrix4x4_Vector3_Out_Matrix4x4.Invoke(___genericsType, ___parameters);
-			lhs = (UnityEngine.Matrix4x4)___parameters[0];
-			res = (UnityEngine.Matrix4x4)___parameters[2];
+			@lhs = (UnityEngine.Matrix4x4)___parameters[0];
+			@res = (UnityEngine.Matrix4x4)___parameters[2];
 
             
         }
@@ -9758,7 +9759,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@lhs, @rhs};
             var ___result = RTranslateMatrix34InPlace_Ref_Matrix4x4_Vector3.Invoke(___genericsType, ___parameters);
-			lhs = (UnityEngine.Matrix4x4)___parameters[0];
+			@lhs = (UnityEngine.Matrix4x4)___parameters[0];
 
             
         }
@@ -9986,12 +9987,12 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 
         public virtual System.Boolean TryGetUserArgs<TEventType, TCallbackArgs>(UnityEngine.UIElements.EventCallback<TEventType, TCallbackArgs>  @callback, UnityEngine.UIElements.TrickleDown  @useTrickleDown, out TCallbackArgs  @userData) where TEventType : UnityEngine.UIElements.EventBase<TEventType>, new()
         {
-			userData = default;
+			@userData = default;
 
             var ___genericsType = new Type[] {typeof(TEventType), typeof(TCallbackArgs)};
             var ___parameters = new object[]{@callback, @useTrickleDown, @userData};
             var ___result = RTryGetUserArgs_GTEventType_GTCallbackArgs_EventCallback_d_TEventType_TCallbackArgs_p__TrickleDown_Out_TCallbackArgs.Invoke(___genericsType, ___parameters);
-			userData = (TCallbackArgs)___parameters[2];
+			@userData = (TCallbackArgs)___parameters[2];
 
             return (System.Boolean)___result;
         }

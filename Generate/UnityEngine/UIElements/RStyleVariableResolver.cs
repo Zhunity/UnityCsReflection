@@ -571,7 +571,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@index};
             var ___result = RResolveVarFunction_Ref_Int32.Invoke(___genericsType, ___parameters);
-			index = (System.Int32)___parameters[0];
+			@index = (System.Int32)___parameters[0];
 
             return (System.Boolean)___result;
         }
@@ -583,7 +583,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@index, @argc, @varName};
             var ___result = RResolveVarFunction_Ref_Int32_Int32_String.Invoke(___genericsType, ___parameters);
-			index = (System.Int32)___parameters[0];
+			@index = (System.Int32)___parameters[0];
 
             return (System.Object)___result;
         }
@@ -617,7 +617,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@index};
             var ___result = RResolveFallback_Ref_Int32.Invoke(___genericsType, ___parameters);
-			index = (System.Int32)___parameters[0];
+			@index = (System.Int32)___parameters[0];
 
             return (System.Object)___result;
         }
@@ -625,15 +625,15 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 
         public static void ParseVarFunction(UnityEngine.UIElements.StyleSheet  @sheet, RTypeArray<RUnityEngine.RUIElements.RStyleValueHandle>  @handles, ref System.Int32  @index, out System.Int32  @argCount, out System.String  @variableName)
         {
-			argCount = default;
-			variableName = default;
+			@argCount = default;
+			@variableName = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@sheet, @handles.Value, @index, @argCount, @variableName};
             var ___result = RParseVarFunction_StyleSheet_StyleValueHandleArray_Ref_Int32_Out_Int32_Out_String.Invoke(___genericsType, ___parameters);
-			index = (System.Int32)___parameters[2];
-			argCount = (System.Int32)___parameters[3];
-			variableName = (System.String)___parameters[4];
+			@index = (System.Int32)___parameters[2];
+			@argCount = (System.Int32)___parameters[3];
+			@variableName = (System.String)___parameters[4];
 
             
         }

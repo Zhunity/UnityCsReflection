@@ -790,12 +790,12 @@ namespace SMFrame.Editor.Refleaction.RSystem
 
         public static System.Boolean TryParse(System.String  @input, out System.Version  @result)
         {
-			result = default;
+			@result = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@input, @result};
             var ___result = RTryParse_String_Out_Version.Invoke(___genericsType, ___parameters);
-			result = (System.Version)___parameters[1];
+			@result = (System.Version)___parameters[1];
 
             return (System.Boolean)___result;
         }

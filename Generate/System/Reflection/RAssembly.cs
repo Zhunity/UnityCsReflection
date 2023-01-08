@@ -2048,6 +2048,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@type, @name, @skipSecurityCheck, @stackMark.Value};
             var ___result = RGetManifestResourceStream_Type_String_Boolean_Ref_StackCrawlMark.Invoke(___genericsType, ___parameters);
+			@stackMark = new RType(___parameters[3]);
 
             return (System.IO.Stream)___result;
         }
@@ -2059,6 +2060,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@name, @stackMark.Value, @skipSecurityCheck};
             var ___result = RGetManifestResourceStream_String_Ref_StackCrawlMark_Boolean.Invoke(___genericsType, ___parameters);
+			@stackMark = new RType(___parameters[1]);
 
             return (System.IO.Stream)___result;
         }
@@ -2176,13 +2178,14 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 
         public static void InternalGetAssemblyName(System.String  @assemblyFile, out RMono.RMonoAssemblyName  @aname, out System.String  @codebase)
         {
-			aname = default;
-			codebase = default;
+			@aname = default;
+			@codebase = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@assemblyFile, @aname.Value, @codebase};
             var ___result = RInternalGetAssemblyName_String_Out_MonoAssemblyName_Out_String.Invoke(___genericsType, ___parameters);
-			codebase = (System.String)___parameters[2];
+			@aname = new RMono.RMonoAssemblyName(___parameters[1]);
+			@codebase = (System.String)___parameters[2];
 
             
         }
@@ -2260,6 +2263,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@culture, @version, @throwOnError, @stackMark.Value};
             var ___result = RGetSatelliteAssembly_CultureInfo_Version_Boolean_Ref_StackCrawlMark.Invoke(___genericsType, ___parameters);
+			@stackMark = new RType(___parameters[3]);
 
             return (System.Reflection.Assembly)___result;
         }
@@ -2271,6 +2275,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@name, @culture, @version, @throwOnFileNotFound, @stackMark.Value};
             var ___result = RInternalGetSatelliteAssembly_String_CultureInfo_Version_Boolean_Ref_StackCrawlMark.Invoke(___genericsType, ___parameters);
+			@stackMark = new RType(___parameters[4]);
 
             return (System.Object)___result;
         }
@@ -2293,6 +2298,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@assemblyFile, @refOnly, @stackMark.Value};
             var ___result = RLoadFrom_String_Boolean_Ref_StackCrawlMark.Invoke(___genericsType, ___parameters);
+			@stackMark = new RType(___parameters[2]);
 
             return (System.Reflection.Assembly)___result;
         }
@@ -2304,6 +2310,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@assemblyFile, @stackMark.Value};
             var ___result = RLoadFile_internal_String_Ref_StackCrawlMark.Invoke(___genericsType, ___parameters);
+			@stackMark = new RType(___parameters[1]);
 
             return (System.Reflection.Assembly)___result;
         }

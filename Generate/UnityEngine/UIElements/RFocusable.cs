@@ -887,12 +887,12 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 
         public virtual System.Boolean TryGetUserArgs<TEventType, TCallbackArgs>(UnityEngine.UIElements.EventCallback<TEventType, TCallbackArgs>  @callback, UnityEngine.UIElements.TrickleDown  @useTrickleDown, out TCallbackArgs  @userData) where TEventType : UnityEngine.UIElements.EventBase<TEventType>, new()
         {
-			userData = default;
+			@userData = default;
 
             var ___genericsType = new Type[] {typeof(TEventType), typeof(TCallbackArgs)};
             var ___parameters = new object[]{@callback, @useTrickleDown, @userData};
             var ___result = RTryGetUserArgs_GTEventType_GTCallbackArgs_EventCallback_d_TEventType_TCallbackArgs_p__TrickleDown_Out_TCallbackArgs.Invoke(___genericsType, ___parameters);
-			userData = (TCallbackArgs)___parameters[2];
+			@userData = (TCallbackArgs)___parameters[2];
 
             return (System.Boolean)___result;
         }

@@ -489,22 +489,22 @@ namespace SMFrame.Editor.Refleaction.RSystem.RDiagnostics
 
         public static System.Boolean get_frame_info(System.Int32  @skip, System.Boolean  @needFileInfo, out System.Reflection.MethodBase  @method, out System.Int32  @iloffset, out System.Int32  @native_offset, out System.String  @file, out System.Int32  @line, out System.Int32  @column)
         {
-			method = default;
-			iloffset = default;
-			native_offset = default;
-			file = default;
-			line = default;
-			column = default;
+			@method = default;
+			@iloffset = default;
+			@native_offset = default;
+			@file = default;
+			@line = default;
+			@column = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@skip, @needFileInfo, @method, @iloffset, @native_offset, @file, @line, @column};
             var ___result = Rget_frame_info_Int32_Boolean_Out_MethodBase_Out_Int32_Out_Int32_Out_String_Out_Int32_Out_Int32.Invoke(___genericsType, ___parameters);
-			method = (System.Reflection.MethodBase)___parameters[2];
-			iloffset = (System.Int32)___parameters[3];
-			native_offset = (System.Int32)___parameters[4];
-			file = (System.String)___parameters[5];
-			line = (System.Int32)___parameters[6];
-			column = (System.Int32)___parameters[7];
+			@method = (System.Reflection.MethodBase)___parameters[2];
+			@iloffset = (System.Int32)___parameters[3];
+			@native_offset = (System.Int32)___parameters[4];
+			@file = (System.String)___parameters[5];
+			@line = (System.Int32)___parameters[6];
+			@column = (System.Int32)___parameters[7];
 
             return (System.Boolean)___result;
         }

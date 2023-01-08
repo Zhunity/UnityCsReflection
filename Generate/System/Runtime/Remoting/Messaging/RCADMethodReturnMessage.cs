@@ -559,7 +559,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@arg, @args};
             var ___result = RMarshalArgument_Object_Ref_ArrayList.Invoke(___genericsType, ___parameters);
-			args = (System.Collections.ArrayList)___parameters[1];
+			@args = (System.Collections.ArrayList)___parameters[1];
 
             return (System.Object)___result;
         }
@@ -582,7 +582,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@arguments, @args};
             var ___result = RMarshalArguments_ObjectArray_Ref_ArrayList.Invoke(___genericsType, ___parameters);
-			args = (System.Collections.ArrayList)___parameters[1];
+			@args = (System.Collections.ArrayList)___parameters[1];
 
             return (System.Object[])___result;
         }
@@ -605,7 +605,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@msg, @serializeList};
             var ___result = RSaveLogicalCallContext_IMethodMessage_Ref_ArrayList.Invoke(___genericsType, ___parameters);
-			serializeList = (System.Collections.ArrayList)___parameters[1];
+			@serializeList = (System.Collections.ArrayList)___parameters[1];
 
             
         }

@@ -2821,6 +2821,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@computedStyle.Value};
             var ___result = RApplyInlineStyles_Ref_ComputedStyle.Invoke(___genericsType, ___parameters);
+			@computedStyle = new RUnityEngine.RUIElements.RComputedStyle(___parameters[0]);
 
             
         }
@@ -2854,6 +2855,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@id.Value, @value.Value};
             var ___result = RTryGetStyleValueManaged_StylePropertyId_Ref_StyleValueManaged.Invoke(___genericsType, ___parameters);
+			@value = new RUnityEngine.RUIElements.RStyleSheets.RStyleValueManaged(___parameters[1]);
 
             return (System.Boolean)___result;
         }
@@ -3173,6 +3175,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@id.Value, @newStyle.Value};
             var ___result = RApplyFromComputedStyle_StylePropertyId_Ref_ComputedStyle.Invoke(___genericsType, ___parameters);
+			@newStyle = new RUnityEngine.RUIElements.RComputedStyle(___parameters[1]);
 
             
         }
@@ -3184,7 +3187,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@value};
             var ___result = RTryGetInlineCursor_Ref_StyleCursor.Invoke(___genericsType, ___parameters);
-			value = (UnityEngine.UIElements.StyleCursor)___parameters[0];
+			@value = (UnityEngine.UIElements.StyleCursor)___parameters[0];
 
             return (System.Boolean)___result;
         }
@@ -3196,7 +3199,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@value};
             var ___result = RTryGetInlineTextShadow_Ref_StyleTextShadow.Invoke(___genericsType, ___parameters);
-			value = (UnityEngine.UIElements.StyleTextShadow)___parameters[0];
+			@value = (UnityEngine.UIElements.StyleTextShadow)___parameters[0];
 
             return (System.Boolean)___result;
         }
@@ -3208,7 +3211,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@value};
             var ___result = RTryGetInlineTransformOrigin_Ref_StyleTransformOrigin.Invoke(___genericsType, ___parameters);
-			value = (UnityEngine.UIElements.StyleTransformOrigin)___parameters[0];
+			@value = (UnityEngine.UIElements.StyleTransformOrigin)___parameters[0];
 
             return (System.Boolean)___result;
         }
@@ -3220,7 +3223,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@value};
             var ___result = RTryGetInlineTranslate_Ref_StyleTranslate.Invoke(___genericsType, ___parameters);
-			value = (UnityEngine.UIElements.StyleTranslate)___parameters[0];
+			@value = (UnityEngine.UIElements.StyleTranslate)___parameters[0];
 
             return (System.Boolean)___result;
         }
@@ -3232,7 +3235,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@value};
             var ___result = RTryGetInlineRotate_Ref_StyleRotate.Invoke(___genericsType, ___parameters);
-			value = (UnityEngine.UIElements.StyleRotate)___parameters[0];
+			@value = (UnityEngine.UIElements.StyleRotate)___parameters[0];
 
             return (System.Boolean)___result;
         }
@@ -3244,7 +3247,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@value};
             var ___result = RTryGetInlineScale_Ref_StyleScale.Invoke(___genericsType, ___parameters);
-			value = (UnityEngine.UIElements.StyleScale)___parameters[0];
+			@value = (UnityEngine.UIElements.StyleScale)___parameters[0];
 
             return (System.Boolean)___result;
         }
@@ -3256,7 +3259,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@value};
             var ___result = RTryGetInlineBackgroundSize_Ref_StyleBackgroundSize.Invoke(___genericsType, ___parameters);
-			value = (UnityEngine.UIElements.StyleBackgroundSize)___parameters[0];
+			@value = (UnityEngine.UIElements.StyleBackgroundSize)___parameters[0];
 
             return (System.Boolean)___result;
         }
@@ -3367,6 +3370,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@id.Value, @value.Value};
             var ___result = RTryGetStyleValue_StylePropertyId_Ref_StyleValue.Invoke(___genericsType, ___parameters);
+			@value = new RUnityEngine.RUIElements.RStyleSheets.RStyleValue(___parameters[1]);
 
             return (System.Boolean)___result;
         }

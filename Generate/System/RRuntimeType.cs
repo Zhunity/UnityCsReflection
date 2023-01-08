@@ -5372,6 +5372,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@typeName, @throwOnError, @ignoreCase, @reflectionOnly, @stackMark.Value};
             var ___result = RGetType_String_Boolean_Boolean_Boolean_Ref_StackCrawlMark.Invoke(___genericsType, ___parameters);
+			@stackMark = new RType(___parameters[4]);
 
             return (System.Object)___result;
         }
@@ -5401,14 +5402,14 @@ namespace SMFrame.Editor.Refleaction.RSystem
 
         public static void SplitName(System.String  @fullname, out System.String  @name, out System.String  @ns)
         {
-			name = default;
-			ns = default;
+			@name = default;
+			@ns = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@fullname, @name, @ns};
             var ___result = RSplitName_String_Out_String_Out_String.Invoke(___genericsType, ___parameters);
-			name = (System.String)___parameters[1];
-			ns = (System.String)___parameters[2];
+			@name = (System.String)___parameters[1];
+			@ns = (System.String)___parameters[2];
 
             
         }
@@ -5427,16 +5428,17 @@ namespace SMFrame.Editor.Refleaction.RSystem
 
         public static void FilterHelper(System.Reflection.BindingFlags  @bindingFlags, ref System.String  @name, System.Boolean  @allowPrefixLookup, out System.Boolean  @prefixLookup, out System.Boolean  @ignoreCase, out RType  @listType)
         {
-			prefixLookup = default;
-			ignoreCase = default;
-			listType = default;
+			@prefixLookup = default;
+			@ignoreCase = default;
+			@listType = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@bindingFlags, @name, @allowPrefixLookup, @prefixLookup, @ignoreCase, @listType.Value};
             var ___result = RFilterHelper_BindingFlags_Ref_String_Boolean_Out_Boolean_Out_Boolean_Out_MemberListType.Invoke(___genericsType, ___parameters);
-			name = (System.String)___parameters[1];
-			prefixLookup = (System.Boolean)___parameters[3];
-			ignoreCase = (System.Boolean)___parameters[4];
+			@name = (System.String)___parameters[1];
+			@prefixLookup = (System.Boolean)___parameters[3];
+			@ignoreCase = (System.Boolean)___parameters[4];
+			@listType = new RType(___parameters[5]);
 
             
         }
@@ -5444,14 +5446,15 @@ namespace SMFrame.Editor.Refleaction.RSystem
 
         public static void FilterHelper(System.Reflection.BindingFlags  @bindingFlags, ref System.String  @name, out System.Boolean  @ignoreCase, out RType  @listType)
         {
-			ignoreCase = default;
-			listType = default;
+			@ignoreCase = default;
+			@listType = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@bindingFlags, @name, @ignoreCase, @listType.Value};
             var ___result = RFilterHelper_BindingFlags_Ref_String_Out_Boolean_Out_MemberListType.Invoke(___genericsType, ___parameters);
-			name = (System.String)___parameters[1];
-			ignoreCase = (System.Boolean)___parameters[2];
+			@name = (System.String)___parameters[1];
+			@ignoreCase = (System.Boolean)___parameters[2];
+			@listType = new RType(___parameters[3]);
 
             
         }
@@ -6277,6 +6280,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@bindingAttr, @binder, @args, @culture, @activationAttributes, @stackMark.Value};
             var ___result = RCreateInstanceImpl_BindingFlags_Binder_ObjectArray_CultureInfo_ObjectArray_Ref_StackCrawlMark.Invoke(___genericsType, ___parameters);
+			@stackMark = new RType(___parameters[5]);
 
             return (System.Object)___result;
         }
@@ -6299,6 +6303,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@publicOnly, @skipCheckThis, @fillCache, @wrapExceptions, @stackMark.Value};
             var ___result = RCreateInstanceDefaultCtor_Boolean_Boolean_Boolean_Boolean_Ref_StackCrawlMark.Invoke(___genericsType, ___parameters);
+			@stackMark = new RType(___parameters[4]);
 
             return (System.Object)___result;
         }
@@ -6431,7 +6436,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@value, @failed};
             var ___result = RTryConvertToType_Object_Ref_Boolean.Invoke(___genericsType, ___parameters);
-			failed = (System.Boolean)___parameters[1];
+			@failed = (System.Boolean)___parameters[1];
 
             return (System.Object)___result;
         }
@@ -6648,14 +6653,14 @@ namespace SMFrame.Editor.Refleaction.RSystem
 
         public static void GetInterfaceMapData(System.Type  @t, System.Type  @iface, out System.Reflection.MethodInfo[]  @targets, out System.Reflection.MethodInfo[]  @methods)
         {
-			targets = default;
-			methods = default;
+			@targets = default;
+			@methods = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@t, @iface, @targets, @methods};
             var ___result = RGetInterfaceMapData_Type_Type_Out_MethodInfoArray_Out_MethodInfoArray.Invoke(___genericsType, ___parameters);
-			targets = (System.Reflection.MethodInfo[])___parameters[2];
-			methods = (System.Reflection.MethodInfo[])___parameters[3];
+			@targets = (System.Reflection.MethodInfo[])___parameters[2];
+			@methods = (System.Reflection.MethodInfo[])___parameters[3];
 
             
         }
@@ -6674,14 +6679,14 @@ namespace SMFrame.Editor.Refleaction.RSystem
 
         public virtual void GetPacking(out System.Int32  @packing, out System.Int32  @size)
         {
-			packing = default;
-			size = default;
+			@packing = default;
+			@size = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@packing, @size};
             var ___result = RGetPacking_Out_Int32_Out_Int32.Invoke(___genericsType, ___parameters);
-			packing = (System.Int32)___parameters[0];
-			size = (System.Int32)___parameters[1];
+			@packing = (System.Int32)___parameters[0];
+			@size = (System.Int32)___parameters[1];
 
             
         }
@@ -7562,7 +7567,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@rootCauseForFailure};
             var ___result = RInternalGetNameIfAvailable_Ref_Type.Invoke(___genericsType, ___parameters);
-			rootCauseForFailure = (System.Type)___parameters[0];
+			@rootCauseForFailure = (System.Type)___parameters[0];
 
             return (System.String)___result;
         }

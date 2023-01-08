@@ -1678,11 +1678,12 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 
         public static System.Boolean TryGetCacheValue(RSystem.RText.RRegularExpressions.RRegex.RCachedCodeEntryKey  @key, out RSystem.RText.RRegularExpressions.RRegex.RCachedCodeEntry  @entry)
         {
-			entry = default;
+			@entry = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@key.Value, @entry.Value};
             var ___result = RTryGetCacheValue_CachedCodeEntryKey_Out_CachedCodeEntry.Invoke(___genericsType, ___parameters);
+			@entry = new RSystem.RText.RRegularExpressions.RRegex.RCachedCodeEntry(___parameters[1]);
 
             return (System.Boolean)___result;
         }
@@ -1690,11 +1691,12 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 
         public static System.Boolean TryGetCacheValueSmall(RSystem.RText.RRegularExpressions.RRegex.RCachedCodeEntryKey  @key, out RSystem.RText.RRegularExpressions.RRegex.RCachedCodeEntry  @entry)
         {
-			entry = default;
+			@entry = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@key.Value, @entry.Value};
             var ___result = RTryGetCacheValueSmall_CachedCodeEntryKey_Out_CachedCodeEntry.Invoke(___genericsType, ___parameters);
+			@entry = new RSystem.RText.RRegularExpressions.RRegex.RCachedCodeEntry(___parameters[1]);
 
             return (System.Boolean)___result;
         }

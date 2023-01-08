@@ -2035,12 +2035,12 @@ namespace SMFrame.Editor.Refleaction.RSystem
 
         public static System.Boolean TryParse(System.String  @s, out System.TimeSpan  @result)
         {
-			result = default;
+			@result = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@s, @result};
             var ___result = RTryParse_String_Out_TimeSpan.Invoke(___genericsType, ___parameters);
-			result = (System.TimeSpan)___parameters[1];
+			@result = (System.TimeSpan)___parameters[1];
 
             return (System.Boolean)___result;
         }
@@ -2049,12 +2049,12 @@ namespace SMFrame.Editor.Refleaction.RSystem
 
         public static System.Boolean TryParse(System.String  @input, System.IFormatProvider  @formatProvider, out System.TimeSpan  @result)
         {
-			result = default;
+			@result = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@input, @formatProvider, @result};
             var ___result = RTryParse_String_IFormatProvider_Out_TimeSpan.Invoke(___genericsType, ___parameters);
-			result = (System.TimeSpan)___parameters[2];
+			@result = (System.TimeSpan)___parameters[2];
 
             return (System.Boolean)___result;
         }
@@ -2063,12 +2063,12 @@ namespace SMFrame.Editor.Refleaction.RSystem
 
         public static System.Boolean TryParseExact(System.String  @input, System.String  @format, System.IFormatProvider  @formatProvider, out System.TimeSpan  @result)
         {
-			result = default;
+			@result = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@input, @format, @formatProvider, @result};
             var ___result = RTryParseExact_String_String_IFormatProvider_Out_TimeSpan.Invoke(___genericsType, ___parameters);
-			result = (System.TimeSpan)___parameters[3];
+			@result = (System.TimeSpan)___parameters[3];
 
             return (System.Boolean)___result;
         }
@@ -2077,12 +2077,12 @@ namespace SMFrame.Editor.Refleaction.RSystem
 
         public static System.Boolean TryParseExact(System.String  @input, System.String[]  @formats, System.IFormatProvider  @formatProvider, out System.TimeSpan  @result)
         {
-			result = default;
+			@result = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@input, @formats, @formatProvider, @result};
             var ___result = RTryParseExact_String_StringArray_IFormatProvider_Out_TimeSpan.Invoke(___genericsType, ___parameters);
-			result = (System.TimeSpan)___parameters[3];
+			@result = (System.TimeSpan)___parameters[3];
 
             return (System.Boolean)___result;
         }
@@ -2091,12 +2091,12 @@ namespace SMFrame.Editor.Refleaction.RSystem
 
         public static System.Boolean TryParseExact(System.String  @input, System.String  @format, System.IFormatProvider  @formatProvider, System.Globalization.TimeSpanStyles  @styles, out System.TimeSpan  @result)
         {
-			result = default;
+			@result = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@input, @format, @formatProvider, @styles, @result};
             var ___result = RTryParseExact_String_String_IFormatProvider_TimeSpanStyles_Out_TimeSpan.Invoke(___genericsType, ___parameters);
-			result = (System.TimeSpan)___parameters[4];
+			@result = (System.TimeSpan)___parameters[4];
 
             return (System.Boolean)___result;
         }
@@ -2105,12 +2105,12 @@ namespace SMFrame.Editor.Refleaction.RSystem
 
         public static System.Boolean TryParseExact(System.String  @input, System.String[]  @formats, System.IFormatProvider  @formatProvider, System.Globalization.TimeSpanStyles  @styles, out System.TimeSpan  @result)
         {
-			result = default;
+			@result = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@input, @formats, @formatProvider, @styles, @result};
             var ___result = RTryParseExact_String_StringArray_IFormatProvider_TimeSpanStyles_Out_TimeSpan.Invoke(___genericsType, ___parameters);
-			result = (System.TimeSpan)___parameters[4];
+			@result = (System.TimeSpan)___parameters[4];
 
             return (System.Boolean)___result;
         }

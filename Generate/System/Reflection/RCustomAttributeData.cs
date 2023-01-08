@@ -404,14 +404,14 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 
         public static void ResolveArgumentsInternal(System.Reflection.ConstructorInfo  @ctor, System.Reflection.Assembly  @assembly, System.IntPtr  @data, System.UInt32  @data_length, out System.Object[]  @ctorArgs, out System.Object[]  @namedArgs)
         {
-			ctorArgs = default;
-			namedArgs = default;
+			@ctorArgs = default;
+			@namedArgs = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@ctor, @assembly, @data, @data_length, @ctorArgs, @namedArgs};
             var ___result = RResolveArgumentsInternal_ConstructorInfo_Assembly_IntPtr_UInt32_Out_ObjectArray_Out_ObjectArray.Invoke(___genericsType, ___parameters);
-			ctorArgs = (System.Object[])___parameters[4];
-			namedArgs = (System.Object[])___parameters[5];
+			@ctorArgs = (System.Object[])___parameters[4];
+			@namedArgs = (System.Object[])___parameters[5];
 
             
         }

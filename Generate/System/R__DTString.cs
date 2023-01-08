@@ -658,13 +658,14 @@ namespace SMFrame.Editor.Refleaction.RSystem
 
         public virtual void GetRegularToken(out RType  @tokenType, out System.Int32  @tokenValue, System.Globalization.DateTimeFormatInfo  @dtfi)
         {
-			tokenType = default;
-			tokenValue = default;
+			@tokenType = default;
+			@tokenValue = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@tokenType.Value, @tokenValue, @dtfi};
             var ___result = RGetRegularToken_Out_TokenType_Out_Int32_DateTimeFormatInfo.Invoke(___genericsType, ___parameters);
-			tokenValue = (System.Int32)___parameters[1];
+			@tokenType = new RType(___parameters[0]);
+			@tokenValue = (System.Int32)___parameters[1];
 
             
         }
@@ -672,14 +673,14 @@ namespace SMFrame.Editor.Refleaction.RSystem
 
         public virtual System.Object GetSeparatorToken(System.Globalization.DateTimeFormatInfo  @dtfi, out System.Int32  @indexBeforeSeparator, out System.Char  @charBeforeSeparator)
         {
-			indexBeforeSeparator = default;
-			charBeforeSeparator = default;
+			@indexBeforeSeparator = default;
+			@charBeforeSeparator = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@dtfi, @indexBeforeSeparator, @charBeforeSeparator};
             var ___result = RGetSeparatorToken_DateTimeFormatInfo_Out_Int32_Out_Char.Invoke(___genericsType, ___parameters);
-			indexBeforeSeparator = (System.Int32)___parameters[1];
-			charBeforeSeparator = (System.Char)___parameters[2];
+			@indexBeforeSeparator = (System.Int32)___parameters[1];
+			@charBeforeSeparator = (System.Char)___parameters[2];
 
             return (System.Object)___result;
         }
@@ -702,7 +703,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@target, @checkWordBoundary, @matchLength};
             var ___result = RMatchSpecifiedWords_String_Boolean_Ref_Int32.Invoke(___genericsType, ___parameters);
-			matchLength = (System.Int32)___parameters[2];
+			@matchLength = (System.Int32)___parameters[2];
 
             return (System.Boolean)___result;
         }
@@ -736,7 +737,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@words, @maxMatchStrLen};
             var ___result = RMatchLongestWords_StringArray_Ref_Int32.Invoke(___genericsType, ___parameters);
-			maxMatchStrLen = (System.Int32)___parameters[1];
+			@maxMatchStrLen = (System.Int32)___parameters[1];
 
             return (System.Int32)___result;
         }

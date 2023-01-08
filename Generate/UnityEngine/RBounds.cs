@@ -740,12 +740,12 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
         public virtual System.Boolean IntersectRay(UnityEngine.Ray  @ray, out System.Single  @distance)
         {
-			distance = default;
+			@distance = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@ray, @distance};
             var ___result = RIntersectRay_Ray_Out_Single.Invoke(___genericsType, ___parameters);
-			distance = (System.Single)___parameters[1];
+			@distance = (System.Single)___parameters[1];
 
             return (System.Boolean)___result;
         }
@@ -808,12 +808,12 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
         public static System.Boolean IntersectRayAABB(UnityEngine.Ray  @ray, UnityEngine.Bounds  @bounds, out System.Single  @dist)
         {
-			dist = default;
+			@dist = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@ray, @bounds, @dist};
             var ___result = RIntersectRayAABB_Ray_Bounds_Out_Single.Invoke(___genericsType, ___parameters);
-			dist = (System.Single)___parameters[2];
+			@dist = (System.Single)___parameters[2];
 
             return (System.Boolean)___result;
         }
@@ -836,8 +836,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@_unity_self, @point};
             var ___result = RContains_Injected_Ref_Bounds_Ref_Vector3.Invoke(___genericsType, ___parameters);
-			_unity_self = (UnityEngine.Bounds)___parameters[0];
-			point = (UnityEngine.Vector3)___parameters[1];
+			@_unity_self = (UnityEngine.Bounds)___parameters[0];
+			@point = (UnityEngine.Vector3)___parameters[1];
 
             return (System.Boolean)___result;
         }
@@ -849,8 +849,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@_unity_self, @point};
             var ___result = RSqrDistance_Injected_Ref_Bounds_Ref_Vector3.Invoke(___genericsType, ___parameters);
-			_unity_self = (UnityEngine.Bounds)___parameters[0];
-			point = (UnityEngine.Vector3)___parameters[1];
+			@_unity_self = (UnityEngine.Bounds)___parameters[0];
+			@point = (UnityEngine.Vector3)___parameters[1];
 
             return (System.Single)___result;
         }
@@ -858,14 +858,14 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
         public static System.Boolean IntersectRayAABB_Injected(ref UnityEngine.Ray  @ray, ref UnityEngine.Bounds  @bounds, out System.Single  @dist)
         {
-			dist = default;
+			@dist = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@ray, @bounds, @dist};
             var ___result = RIntersectRayAABB_Injected_Ref_Ray_Ref_Bounds_Out_Single.Invoke(___genericsType, ___parameters);
-			ray = (UnityEngine.Ray)___parameters[0];
-			bounds = (UnityEngine.Bounds)___parameters[1];
-			dist = (System.Single)___parameters[2];
+			@ray = (UnityEngine.Ray)___parameters[0];
+			@bounds = (UnityEngine.Bounds)___parameters[1];
+			@dist = (System.Single)___parameters[2];
 
             return (System.Boolean)___result;
         }
@@ -873,14 +873,14 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 
         public static void ClosestPoint_Injected(ref UnityEngine.Bounds  @_unity_self, ref UnityEngine.Vector3  @point, out UnityEngine.Vector3  @ret)
         {
-			ret = default;
+			@ret = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@_unity_self, @point, @ret};
             var ___result = RClosestPoint_Injected_Ref_Bounds_Ref_Vector3_Out_Vector3.Invoke(___genericsType, ___parameters);
-			_unity_self = (UnityEngine.Bounds)___parameters[0];
-			point = (UnityEngine.Vector3)___parameters[1];
-			ret = (UnityEngine.Vector3)___parameters[2];
+			@_unity_self = (UnityEngine.Bounds)___parameters[0];
+			@point = (UnityEngine.Vector3)___parameters[1];
+			@ret = (UnityEngine.Vector3)___parameters[2];
 
             
         }

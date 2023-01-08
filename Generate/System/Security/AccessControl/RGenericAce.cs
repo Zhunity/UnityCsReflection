@@ -683,7 +683,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@sddlForm, @pos};
             var ___result = RCreateFromSddlForm_String_Ref_Int32.Invoke(___genericsType, ___parameters);
-			pos = (System.Int32)___parameters[1];
+			@pos = (System.Int32)___parameters[1];
 
             return (System.Security.AccessControl.GenericAce)___result;
         }

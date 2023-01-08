@@ -439,6 +439,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@id.Value, @value.Value};
             var ___result = RTryGetStyleValue_StylePropertyId_Ref_StyleValue.Invoke(___genericsType, ___parameters);
+			@value = new RUnityEngine.RUIElements.RStyleSheets.RStyleValue(___parameters[1]);
 
             return (System.Boolean)___result;
         }

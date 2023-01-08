@@ -357,7 +357,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@data};
             var ___result = RAdd_Ref_T.Invoke(___genericsType, ___parameters);
-			data = (T)___parameters[0];
+			@data = (T)___parameters[0];
 
             
         }

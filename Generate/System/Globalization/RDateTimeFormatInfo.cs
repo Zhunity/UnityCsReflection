@@ -3689,8 +3689,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@year, @month, @parsedMonthName};
             var ___result = RYearMonthAdjustment_Ref_Int32_Ref_Int32_Boolean.Invoke(___genericsType, ___parameters);
-			year = (System.Int32)___parameters[0];
-			month = (System.Int32)___parameters[1];
+			@year = (System.Int32)___parameters[0];
+			@month = (System.Int32)___parameters[1];
 
             return (System.Boolean)___result;
         }
@@ -3746,7 +3746,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@temp.Value, @useDateSepAsIgnorableSymbol};
             var ___result = RPopulateSpecialTokenHashTable_TokenHashValueArray_Ref_Boolean.Invoke(___genericsType, ___parameters);
-			useDateSepAsIgnorableSymbol = (System.Boolean)___parameters[1];
+			@useDateSepAsIgnorableSymbol = (System.Boolean)___parameters[1];
 
             
         }
@@ -3776,14 +3776,15 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 
         public static System.Boolean TryParseHebrewNumber(ref RSystem.R__DTString  @str, out System.Boolean  @badFormat, out System.Int32  @number)
         {
-			badFormat = default;
-			number = default;
+			@badFormat = default;
+			@number = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@str.Value, @badFormat, @number};
             var ___result = RTryParseHebrewNumber_Ref___DTString_Out_Boolean_Out_Int32.Invoke(___genericsType, ___parameters);
-			badFormat = (System.Boolean)___parameters[1];
-			number = (System.Int32)___parameters[2];
+			@str = new RSystem.R__DTString(___parameters[0]);
+			@badFormat = (System.Boolean)___parameters[1];
+			@number = (System.Int32)___parameters[2];
 
             return (System.Boolean)___result;
         }
@@ -3813,13 +3814,15 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 
         public virtual System.Boolean Tokenize(RType  @TokenMask, out RType  @tokenType, out System.Int32  @tokenValue, ref RSystem.R__DTString  @str)
         {
-			tokenType = default;
-			tokenValue = default;
+			@tokenType = default;
+			@tokenValue = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@TokenMask.Value, @tokenType.Value, @tokenValue, @str.Value};
             var ___result = RTokenize_TokenType_Out_TokenType_Out_Int32_Ref___DTString.Invoke(___genericsType, ___parameters);
-			tokenValue = (System.Int32)___parameters[2];
+			@tokenType = new RType(___parameters[1]);
+			@tokenValue = (System.Int32)___parameters[2];
+			@str = new RSystem.R__DTString(___parameters[3]);
 
             return (System.Boolean)___result;
         }

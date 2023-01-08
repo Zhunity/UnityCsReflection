@@ -200,12 +200,12 @@ namespace SMFrame.Editor.Refleaction.RSystem
 
         public static System.Boolean InternalEquals(System.Object  @o1, System.Object  @o2, out System.Object[]  @fields)
         {
-			fields = default;
+			@fields = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@o1, @o2, @fields};
             var ___result = RInternalEquals_Object_Object_Out_ObjectArray.Invoke(___genericsType, ___parameters);
-			fields = (System.Object[])___parameters[2];
+			@fields = (System.Object[])___parameters[2];
 
             return (System.Boolean)___result;
         }
@@ -235,12 +235,12 @@ namespace SMFrame.Editor.Refleaction.RSystem
 
         public static System.Int32 InternalGetHashCode(System.Object  @o, out System.Object[]  @fields)
         {
-			fields = default;
+			@fields = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@o, @fields};
             var ___result = RInternalGetHashCode_Object_Out_ObjectArray.Invoke(___genericsType, ___parameters);
-			fields = (System.Object[])___parameters[1];
+			@fields = (System.Object[])___parameters[1];
 
             return (System.Int32)___result;
         }
