@@ -656,6 +656,19 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
+        public virtual void GetRegularToken(out RType  @tokenType, out System.Int32  @tokenValue, System.Globalization.DateTimeFormatInfo  @dtfi)
+        {
+			tokenType = default;
+			tokenValue = default;
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@tokenType.Value, @tokenValue, @dtfi};
+            var ___result = RGetRegularToken_Out_TokenType_Out_Int32_DateTimeFormatInfo.Invoke(___genericsType, ___parameters);
+			tokenValue = (System.Int32)___parameters[1];
+
+            
+        }
+
 
         public virtual System.Object GetSeparatorToken(System.Globalization.DateTimeFormatInfo  @dtfi, out System.Int32  @indexBeforeSeparator, out System.Char  @charBeforeSeparator)
         {
@@ -838,6 +851,16 @@ namespace SMFrame.Editor.Refleaction.RSystem
             return (System.Object)___result;
         }
 
+
+        public virtual void ConsumeSubString(RSystem.RDTSubString  @sub)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@sub.Value};
+            var ___result = RConsumeSubString_DTSubString.Invoke(___genericsType, ___parameters);
+
+            
+        }
 
 
         public virtual System.Boolean Equals(System.Object  @obj)

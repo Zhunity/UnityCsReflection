@@ -2639,6 +2639,16 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
+        public virtual void Start(ref RType  @stackMark)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@stackMark.Value};
+            var ___result = RStart_Ref_StackCrawlMark.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
 
         public virtual System.Object GetExecutionContextReader()
         {
@@ -2672,6 +2682,16 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
             
         }
 
+
+        public virtual void SetExecutionContext(RSystem.RThreading.RExecutionContext.RReader  @value, System.Boolean  @belongsToCurrentScope)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@value.Value, @belongsToCurrentScope};
+            var ___result = RSetExecutionContext_Reader_Boolean.Invoke(___genericsType, ___parameters);
+
+            
+        }
 
 
         public virtual void SetCompressedStack(System.Threading.CompressedStack  @stack)
@@ -3194,8 +3214,38 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
+        public static System.String GetName_internal(RSystem.RThreading.RInternalThread  @thread)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@thread.Value};
+            var ___result = RGetName_internal_InternalThread.Invoke(___genericsType, ___parameters);
+
+            return (System.String)___result;
+        }
 
 
+
+        public static void SetName_internal(RSystem.RThreading.RInternalThread  @thread, System.String  @name)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@thread.Value, @name};
+            var ___result = RSetName_internal_InternalThread_String.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public static void Abort_internal(RSystem.RThreading.RInternalThread  @thread, System.Object  @stateInfo)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@thread.Value, @stateInfo};
+            var ___result = RAbort_internal_InternalThread_Object.Invoke(___genericsType, ___parameters);
+
+            
+        }
 
 
         public virtual void Abort()
@@ -3264,8 +3314,48 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
+        public virtual void StartInternal(System.Object  @principal, ref RType  @stackMark)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@principal, @stackMark.Value};
+            var ___result = RStartInternal_Object_Ref_StackCrawlMark.Invoke(___genericsType, ___parameters);
+
+            
+        }
 
 
+        public static void SetState(RSystem.RThreading.RInternalThread  @thread, System.Threading.ThreadState  @set)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@thread.Value, @set};
+            var ___result = RSetState_InternalThread_ThreadState.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public static void ClrState(RSystem.RThreading.RInternalThread  @thread, System.Threading.ThreadState  @clr)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@thread.Value, @clr};
+            var ___result = RClrState_InternalThread_ThreadState.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public static System.Threading.ThreadState GetState(RSystem.RThreading.RInternalThread  @thread)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@thread.Value};
+            var ___result = RGetState_InternalThread.Invoke(___genericsType, ___parameters);
+
+            return (System.Threading.ThreadState)___result;
+        }
 
 
         public static System.Byte VolatileRead(ref System.Byte  @address)

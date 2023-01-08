@@ -198,6 +198,16 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 	    {
 	    }
 
+        public static System.Object Init(RUnityEngine.RUIElements.RUIR.RRenderChain  @renderChain, RUnityEngine.RUIElements.RUIR.RBMPAlloc  @alloc)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@renderChain.Value, @alloc.Value};
+            var ___result = RInit_RenderChain_BMPAlloc.Invoke(___genericsType, ___parameters);
+
+            return (System.Object)___result;
+        }
+
 
         public virtual System.Object ToNativeColorPage()
         {

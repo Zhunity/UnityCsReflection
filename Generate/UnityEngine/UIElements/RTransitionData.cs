@@ -294,8 +294,48 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
+        public virtual void CopyFrom(ref RUnityEngine.RUIElements.RTransitionData  @other)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@other.Value};
+            var ___result = RCopyFrom_Ref_TransitionData.Invoke(___genericsType, ___parameters);
+
+            
+        }
 
 
+        public static System.Boolean op_Equality(RUnityEngine.RUIElements.RTransitionData  @lhs, RUnityEngine.RUIElements.RTransitionData  @rhs)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@lhs.Value, @rhs.Value};
+            var ___result = Rop_Equality_TransitionData_TransitionData.Invoke(___genericsType, ___parameters);
+
+            return (System.Boolean)___result;
+        }
+
+
+        public static System.Boolean op_Inequality(RUnityEngine.RUIElements.RTransitionData  @lhs, RUnityEngine.RUIElements.RTransitionData  @rhs)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@lhs.Value, @rhs.Value};
+            var ___result = Rop_Inequality_TransitionData_TransitionData.Invoke(___genericsType, ___parameters);
+
+            return (System.Boolean)___result;
+        }
+
+
+        public virtual System.Boolean Equals(RUnityEngine.RUIElements.RTransitionData  @other)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@other.Value};
+            var ___result = REquals_TransitionData.Invoke(___genericsType, ___parameters);
+
+            return (System.Boolean)___result;
+        }
 
 
         public virtual System.Boolean Equals(System.Object  @obj)

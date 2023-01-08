@@ -192,6 +192,16 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
+        public static System.IntPtr op_Implicit(RUnityEngine.RUIElements.RSafeHandleAccess  @a)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@a.Value};
+            var ___result = Rop_Implicit_SafeHandleAccess.Invoke(___genericsType, ___parameters);
+
+            return (System.IntPtr)___result;
+        }
+
 
         public virtual System.Boolean Equals(System.Object  @obj)
         {

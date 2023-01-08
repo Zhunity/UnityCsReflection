@@ -260,6 +260,16 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
         }
 
 
+        public virtual System.Boolean Equals(RUnityEngine.RUIElements.RUIR.RTextCoreSettings  @other)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@other.Value};
+            var ___result = REquals_TextCoreSettings.Invoke(___genericsType, ___parameters);
+
+            return (System.Boolean)___result;
+        }
+
 
         public virtual System.Int32 GetHashCode()
         {

@@ -245,7 +245,37 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
         }
 
 
+        public virtual System.Boolean Equals(RSystem.RText.RRegularExpressions.RRegex.RCachedCodeEntryKey  @other)
+        {
 
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@other.Value};
+            var ___result = REquals_CachedCodeEntryKey.Invoke(___genericsType, ___parameters);
+
+            return (System.Boolean)___result;
+        }
+
+
+        public static System.Boolean op_Equality(RSystem.RText.RRegularExpressions.RRegex.RCachedCodeEntryKey  @left, RSystem.RText.RRegularExpressions.RRegex.RCachedCodeEntryKey  @right)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@left.Value, @right.Value};
+            var ___result = Rop_Equality_CachedCodeEntryKey_CachedCodeEntryKey.Invoke(___genericsType, ___parameters);
+
+            return (System.Boolean)___result;
+        }
+
+
+        public static System.Boolean op_Inequality(RSystem.RText.RRegularExpressions.RRegex.RCachedCodeEntryKey  @left, RSystem.RText.RRegularExpressions.RRegex.RCachedCodeEntryKey  @right)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@left.Value, @right.Value};
+            var ___result = Rop_Inequality_CachedCodeEntryKey_CachedCodeEntryKey.Invoke(___genericsType, ___parameters);
+
+            return (System.Boolean)___result;
+        }
 
 
         public virtual System.Int32 GetHashCode()

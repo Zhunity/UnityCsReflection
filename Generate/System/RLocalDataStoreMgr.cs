@@ -430,6 +430,16 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
+        public virtual void DeleteLocalDataStore(RSystem.RLocalDataStore  @store)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@store.Value};
+            var ___result = RDeleteLocalDataStore_LocalDataStore.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
 
         public virtual System.LocalDataStoreSlot AllocateDataSlot()
         {

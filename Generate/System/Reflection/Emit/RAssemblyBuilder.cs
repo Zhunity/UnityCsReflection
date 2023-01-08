@@ -3049,6 +3049,16 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
+        public virtual void AddUnmanagedResource(RSystem.RResources.RWin32Resource  @res)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@res.Value};
+            var ___result = RAddUnmanagedResource_Win32Resource.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
 
         public virtual void DefineUnmanagedResource(System.Byte[]  @resource)
         {
@@ -3534,6 +3544,26 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
+        public virtual System.IO.Stream GetManifestResourceStream(System.Type  @type, System.String  @name, System.Boolean  @skipSecurityCheck, ref RType  @stackMark)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@type, @name, @skipSecurityCheck, @stackMark.Value};
+            var ___result = RGetManifestResourceStream_Type_String_Boolean_Ref_StackCrawlMark.Invoke(___genericsType, ___parameters);
+
+            return (System.IO.Stream)___result;
+        }
+
+
+        public virtual System.IO.Stream GetManifestResourceStream(System.String  @name, ref RType  @stackMark, System.Boolean  @skipSecurityCheck)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@name, @stackMark.Value, @skipSecurityCheck};
+            var ___result = RGetManifestResourceStream_String_Ref_StackCrawlMark_Boolean.Invoke(___genericsType, ___parameters);
+
+            return (System.IO.Stream)___result;
+        }
 
 
         public virtual System.String GetSimpleName()
@@ -3624,6 +3654,26 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
+        public virtual System.Reflection.Assembly GetSatelliteAssembly(System.Globalization.CultureInfo  @culture, System.Version  @version, System.Boolean  @throwOnError, ref RType  @stackMark)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@culture, @version, @throwOnError, @stackMark.Value};
+            var ___result = RGetSatelliteAssembly_CultureInfo_Version_Boolean_Ref_StackCrawlMark.Invoke(___genericsType, ___parameters);
+
+            return (System.Reflection.Assembly)___result;
+        }
+
+
+        public virtual System.Object InternalGetSatelliteAssembly(System.String  @name, System.Globalization.CultureInfo  @culture, System.Version  @version, System.Boolean  @throwOnFileNotFound, ref RType  @stackMark)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@name, @culture, @version, @throwOnFileNotFound, @stackMark.Value};
+            var ___result = RInternalGetSatelliteAssembly_String_CultureInfo_Version_Boolean_Ref_StackCrawlMark.Invoke(___genericsType, ___parameters);
+
+            return (System.Object)___result;
+        }
 
 
         public virtual System.Reflection.Module LoadModule(System.String  @moduleName, System.Byte[]  @rawModule)

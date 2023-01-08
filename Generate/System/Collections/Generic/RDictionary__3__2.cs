@@ -302,34 +302,34 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
 		/// <summary>
 		/// System.Collections.Generic.ICollection`1[TKey] System.Collections.Generic.IDictionary<TKey,TValue>.Keys
 		/// </summary>
-		protected RSystem.RCollections.RGeneric.RICollection<RProperty> r_System__2__Collections__2__Generic__2__IDictionary__0__TKey__4__TValue__1____2__Keys;
-		public virtual RSystem.RCollections.RGeneric.RICollection<RProperty> RSystem__2__Collections__2__Generic__2__IDictionary__0__TKey__4__TValue__1____2__Keys
+		protected RSystem.RCollections.RGeneric.RICollection<RProperty> r_System__2__Collections__2__Generic__2__IDictionary__0__TKey__5__TValue__1____2__Keys;
+		public virtual RSystem.RCollections.RGeneric.RICollection<RProperty> RSystem__2__Collections__2__Generic__2__IDictionary__0__TKey__5__TValue__1____2__Keys
 		{
 			get
 			{
-				if(r_System__2__Collections__2__Generic__2__IDictionary__0__TKey__4__TValue__1____2__Keys == null)
+				if(r_System__2__Collections__2__Generic__2__IDictionary__0__TKey__5__TValue__1____2__Keys == null)
 				{
-					r_System__2__Collections__2__Generic__2__IDictionary__0__TKey__4__TValue__1____2__Keys = new(this, "System.Collections.Generic.IDictionary<TKey,TValue>.Keys", -1);
-					r_System__2__Collections__2__Generic__2__IDictionary__0__TKey__4__TValue__1____2__Keys.SetBelong(this.instance);
+					r_System__2__Collections__2__Generic__2__IDictionary__0__TKey__5__TValue__1____2__Keys = new(this, "System.Collections.Generic.IDictionary<TKey,TValue>.Keys", -1);
+					r_System__2__Collections__2__Generic__2__IDictionary__0__TKey__5__TValue__1____2__Keys.SetBelong(this.instance);
 				}
-				return r_System__2__Collections__2__Generic__2__IDictionary__0__TKey__4__TValue__1____2__Keys;
+				return r_System__2__Collections__2__Generic__2__IDictionary__0__TKey__5__TValue__1____2__Keys;
 			}
 		}
 
 		/// <summary>
 		/// System.Collections.Generic.IEnumerable`1[TKey] System.Collections.Generic.IReadOnlyDictionary<TKey,TValue>.Keys
 		/// </summary>
-		protected RSystem.RCollections.RGeneric.RIEnumerable<RProperty> r_System__2__Collections__2__Generic__2__IReadOnlyDictionary__0__TKey__4__TValue__1____2__Keys;
-		public virtual RSystem.RCollections.RGeneric.RIEnumerable<RProperty> RSystem__2__Collections__2__Generic__2__IReadOnlyDictionary__0__TKey__4__TValue__1____2__Keys
+		protected RSystem.RCollections.RGeneric.RIEnumerable<RProperty> r_System__2__Collections__2__Generic__2__IReadOnlyDictionary__0__TKey__5__TValue__1____2__Keys;
+		public virtual RSystem.RCollections.RGeneric.RIEnumerable<RProperty> RSystem__2__Collections__2__Generic__2__IReadOnlyDictionary__0__TKey__5__TValue__1____2__Keys
 		{
 			get
 			{
-				if(r_System__2__Collections__2__Generic__2__IReadOnlyDictionary__0__TKey__4__TValue__1____2__Keys == null)
+				if(r_System__2__Collections__2__Generic__2__IReadOnlyDictionary__0__TKey__5__TValue__1____2__Keys == null)
 				{
-					r_System__2__Collections__2__Generic__2__IReadOnlyDictionary__0__TKey__4__TValue__1____2__Keys = new(this, "System.Collections.Generic.IReadOnlyDictionary<TKey,TValue>.Keys", -1);
-					r_System__2__Collections__2__Generic__2__IReadOnlyDictionary__0__TKey__4__TValue__1____2__Keys.SetBelong(this.instance);
+					r_System__2__Collections__2__Generic__2__IReadOnlyDictionary__0__TKey__5__TValue__1____2__Keys = new(this, "System.Collections.Generic.IReadOnlyDictionary<TKey,TValue>.Keys", -1);
+					r_System__2__Collections__2__Generic__2__IReadOnlyDictionary__0__TKey__5__TValue__1____2__Keys.SetBelong(this.instance);
 				}
-				return r_System__2__Collections__2__Generic__2__IReadOnlyDictionary__0__TKey__4__TValue__1____2__Keys;
+				return r_System__2__Collections__2__Generic__2__IReadOnlyDictionary__0__TKey__5__TValue__1____2__Keys;
 			}
 		}
 
@@ -353,34 +353,34 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
 		/// <summary>
 		/// System.Collections.Generic.ICollection`1[TValue] System.Collections.Generic.IDictionary<TKey,TValue>.Values
 		/// </summary>
-		protected RSystem.RCollections.RGeneric.RICollection<RProperty> r_System__2__Collections__2__Generic__2__IDictionary__0__TKey__4__TValue__1____2__Values;
-		public virtual RSystem.RCollections.RGeneric.RICollection<RProperty> RSystem__2__Collections__2__Generic__2__IDictionary__0__TKey__4__TValue__1____2__Values
+		protected RSystem.RCollections.RGeneric.RICollection<RProperty> r_System__2__Collections__2__Generic__2__IDictionary__0__TKey__5__TValue__1____2__Values;
+		public virtual RSystem.RCollections.RGeneric.RICollection<RProperty> RSystem__2__Collections__2__Generic__2__IDictionary__0__TKey__5__TValue__1____2__Values
 		{
 			get
 			{
-				if(r_System__2__Collections__2__Generic__2__IDictionary__0__TKey__4__TValue__1____2__Values == null)
+				if(r_System__2__Collections__2__Generic__2__IDictionary__0__TKey__5__TValue__1____2__Values == null)
 				{
-					r_System__2__Collections__2__Generic__2__IDictionary__0__TKey__4__TValue__1____2__Values = new(this, "System.Collections.Generic.IDictionary<TKey,TValue>.Values", -1);
-					r_System__2__Collections__2__Generic__2__IDictionary__0__TKey__4__TValue__1____2__Values.SetBelong(this.instance);
+					r_System__2__Collections__2__Generic__2__IDictionary__0__TKey__5__TValue__1____2__Values = new(this, "System.Collections.Generic.IDictionary<TKey,TValue>.Values", -1);
+					r_System__2__Collections__2__Generic__2__IDictionary__0__TKey__5__TValue__1____2__Values.SetBelong(this.instance);
 				}
-				return r_System__2__Collections__2__Generic__2__IDictionary__0__TKey__4__TValue__1____2__Values;
+				return r_System__2__Collections__2__Generic__2__IDictionary__0__TKey__5__TValue__1____2__Values;
 			}
 		}
 
 		/// <summary>
 		/// System.Collections.Generic.IEnumerable`1[TValue] System.Collections.Generic.IReadOnlyDictionary<TKey,TValue>.Values
 		/// </summary>
-		protected RSystem.RCollections.RGeneric.RIEnumerable<RProperty> r_System__2__Collections__2__Generic__2__IReadOnlyDictionary__0__TKey__4__TValue__1____2__Values;
-		public virtual RSystem.RCollections.RGeneric.RIEnumerable<RProperty> RSystem__2__Collections__2__Generic__2__IReadOnlyDictionary__0__TKey__4__TValue__1____2__Values
+		protected RSystem.RCollections.RGeneric.RIEnumerable<RProperty> r_System__2__Collections__2__Generic__2__IReadOnlyDictionary__0__TKey__5__TValue__1____2__Values;
+		public virtual RSystem.RCollections.RGeneric.RIEnumerable<RProperty> RSystem__2__Collections__2__Generic__2__IReadOnlyDictionary__0__TKey__5__TValue__1____2__Values
 		{
 			get
 			{
-				if(r_System__2__Collections__2__Generic__2__IReadOnlyDictionary__0__TKey__4__TValue__1____2__Values == null)
+				if(r_System__2__Collections__2__Generic__2__IReadOnlyDictionary__0__TKey__5__TValue__1____2__Values == null)
 				{
-					r_System__2__Collections__2__Generic__2__IReadOnlyDictionary__0__TKey__4__TValue__1____2__Values = new(this, "System.Collections.Generic.IReadOnlyDictionary<TKey,TValue>.Values", -1);
-					r_System__2__Collections__2__Generic__2__IReadOnlyDictionary__0__TKey__4__TValue__1____2__Values.SetBelong(this.instance);
+					r_System__2__Collections__2__Generic__2__IReadOnlyDictionary__0__TKey__5__TValue__1____2__Values = new(this, "System.Collections.Generic.IReadOnlyDictionary<TKey,TValue>.Values", -1);
+					r_System__2__Collections__2__Generic__2__IReadOnlyDictionary__0__TKey__5__TValue__1____2__Values.SetBelong(this.instance);
 				}
-				return r_System__2__Collections__2__Generic__2__IReadOnlyDictionary__0__TKey__4__TValue__1____2__Values;
+				return r_System__2__Collections__2__Generic__2__IReadOnlyDictionary__0__TKey__5__TValue__1____2__Values;
 			}
 		}
 
@@ -404,17 +404,17 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
 		/// <summary>
 		/// Boolean System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.IsReadOnly
 		/// </summary>
-		protected RProperty r_System__2__Collections__2__Generic__2__ICollection__0__System__2__Collections__2__Generic__2__KeyValuePair__0__TKey__4__TValue__1____1____2__IsReadOnly;
-		public virtual RProperty RSystem__2__Collections__2__Generic__2__ICollection__0__System__2__Collections__2__Generic__2__KeyValuePair__0__TKey__4__TValue__1____1____2__IsReadOnly
+		protected RProperty r_System__2__Collections__2__Generic__2__ICollection__0__System__2__Collections__2__Generic__2__KeyValuePair__0__TKey__5__TValue__1____1____2__IsReadOnly;
+		public virtual RProperty RSystem__2__Collections__2__Generic__2__ICollection__0__System__2__Collections__2__Generic__2__KeyValuePair__0__TKey__5__TValue__1____1____2__IsReadOnly
 		{
 			get
 			{
-				if(r_System__2__Collections__2__Generic__2__ICollection__0__System__2__Collections__2__Generic__2__KeyValuePair__0__TKey__4__TValue__1____1____2__IsReadOnly == null)
+				if(r_System__2__Collections__2__Generic__2__ICollection__0__System__2__Collections__2__Generic__2__KeyValuePair__0__TKey__5__TValue__1____1____2__IsReadOnly == null)
 				{
-					r_System__2__Collections__2__Generic__2__ICollection__0__System__2__Collections__2__Generic__2__KeyValuePair__0__TKey__4__TValue__1____1____2__IsReadOnly = new(this, "System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.IsReadOnly", -1);
-					r_System__2__Collections__2__Generic__2__ICollection__0__System__2__Collections__2__Generic__2__KeyValuePair__0__TKey__4__TValue__1____1____2__IsReadOnly.SetBelong(this.instance);
+					r_System__2__Collections__2__Generic__2__ICollection__0__System__2__Collections__2__Generic__2__KeyValuePair__0__TKey__5__TValue__1____1____2__IsReadOnly = new(this, "System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.IsReadOnly", -1);
+					r_System__2__Collections__2__Generic__2__ICollection__0__System__2__Collections__2__Generic__2__KeyValuePair__0__TKey__5__TValue__1____1____2__IsReadOnly.SetBelong(this.instance);
 				}
-				return r_System__2__Collections__2__Generic__2__ICollection__0__System__2__Collections__2__Generic__2__KeyValuePair__0__TKey__4__TValue__1____1____2__IsReadOnly;
+				return r_System__2__Collections__2__Generic__2__ICollection__0__System__2__Collections__2__Generic__2__KeyValuePair__0__TKey__5__TValue__1____1____2__IsReadOnly;
 			}
 		}
 
@@ -557,51 +557,51 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
 		/// <summary>
 		/// Void System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.Add(System.Collections.Generic.KeyValuePair`2[TKey,TValue])
 		/// </summary>
-		protected RMethod r_System__2__Collections__2__Generic__2__ICollection__0__System__2__Collections__2__Generic__2__KeyValuePair__0__TKey__4__TValue__1____1____2__Add_KeyValuePair_d_TKey_TValue_p_;
-		public virtual RMethod RSystem__2__Collections__2__Generic__2__ICollection__0__System__2__Collections__2__Generic__2__KeyValuePair__0__TKey__4__TValue__1____1____2__Add_KeyValuePair_d_TKey_TValue_p_
+		protected RMethod r_System__2__Collections__2__Generic__2__ICollection__0__System__2__Collections__2__Generic__2__KeyValuePair__0__TKey__5__TValue__1____1____2__Add_KeyValuePair_d_TKey_TValue_p_;
+		public virtual RMethod RSystem__2__Collections__2__Generic__2__ICollection__0__System__2__Collections__2__Generic__2__KeyValuePair__0__TKey__5__TValue__1____1____2__Add_KeyValuePair_d_TKey_TValue_p_
 		{
 			get
 			{
-				if(r_System__2__Collections__2__Generic__2__ICollection__0__System__2__Collections__2__Generic__2__KeyValuePair__0__TKey__4__TValue__1____1____2__Add_KeyValuePair_d_TKey_TValue_p_ == null)
+				if(r_System__2__Collections__2__Generic__2__ICollection__0__System__2__Collections__2__Generic__2__KeyValuePair__0__TKey__5__TValue__1____1____2__Add_KeyValuePair_d_TKey_TValue_p_ == null)
 				{
-					r_System__2__Collections__2__Generic__2__ICollection__0__System__2__Collections__2__Generic__2__KeyValuePair__0__TKey__4__TValue__1____1____2__Add_KeyValuePair_d_TKey_TValue_p_ = new(this, "System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.Add", 0, typeof(System.Collections.Generic.KeyValuePair<, >).MakeGenericType(Type.MakeGenericMethodParameter(0), Type.MakeGenericMethodParameter(1)));
-					r_System__2__Collections__2__Generic__2__ICollection__0__System__2__Collections__2__Generic__2__KeyValuePair__0__TKey__4__TValue__1____1____2__Add_KeyValuePair_d_TKey_TValue_p_.SetBelong(this.instance);
+					r_System__2__Collections__2__Generic__2__ICollection__0__System__2__Collections__2__Generic__2__KeyValuePair__0__TKey__5__TValue__1____1____2__Add_KeyValuePair_d_TKey_TValue_p_ = new(this, "System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.Add", 0, typeof(System.Collections.Generic.KeyValuePair<, >).MakeGenericType(Type.MakeGenericMethodParameter(0), Type.MakeGenericMethodParameter(1)));
+					r_System__2__Collections__2__Generic__2__ICollection__0__System__2__Collections__2__Generic__2__KeyValuePair__0__TKey__5__TValue__1____1____2__Add_KeyValuePair_d_TKey_TValue_p_.SetBelong(this.instance);
 				}
-				return r_System__2__Collections__2__Generic__2__ICollection__0__System__2__Collections__2__Generic__2__KeyValuePair__0__TKey__4__TValue__1____1____2__Add_KeyValuePair_d_TKey_TValue_p_;
+				return r_System__2__Collections__2__Generic__2__ICollection__0__System__2__Collections__2__Generic__2__KeyValuePair__0__TKey__5__TValue__1____1____2__Add_KeyValuePair_d_TKey_TValue_p_;
 			}
 		}
 
 		/// <summary>
 		/// Boolean System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.Contains(System.Collections.Generic.KeyValuePair`2[TKey,TValue])
 		/// </summary>
-		protected RMethod r_System__2__Collections__2__Generic__2__ICollection__0__System__2__Collections__2__Generic__2__KeyValuePair__0__TKey__4__TValue__1____1____2__Contains_KeyValuePair_d_TKey_TValue_p_;
-		public virtual RMethod RSystem__2__Collections__2__Generic__2__ICollection__0__System__2__Collections__2__Generic__2__KeyValuePair__0__TKey__4__TValue__1____1____2__Contains_KeyValuePair_d_TKey_TValue_p_
+		protected RMethod r_System__2__Collections__2__Generic__2__ICollection__0__System__2__Collections__2__Generic__2__KeyValuePair__0__TKey__5__TValue__1____1____2__Contains_KeyValuePair_d_TKey_TValue_p_;
+		public virtual RMethod RSystem__2__Collections__2__Generic__2__ICollection__0__System__2__Collections__2__Generic__2__KeyValuePair__0__TKey__5__TValue__1____1____2__Contains_KeyValuePair_d_TKey_TValue_p_
 		{
 			get
 			{
-				if(r_System__2__Collections__2__Generic__2__ICollection__0__System__2__Collections__2__Generic__2__KeyValuePair__0__TKey__4__TValue__1____1____2__Contains_KeyValuePair_d_TKey_TValue_p_ == null)
+				if(r_System__2__Collections__2__Generic__2__ICollection__0__System__2__Collections__2__Generic__2__KeyValuePair__0__TKey__5__TValue__1____1____2__Contains_KeyValuePair_d_TKey_TValue_p_ == null)
 				{
-					r_System__2__Collections__2__Generic__2__ICollection__0__System__2__Collections__2__Generic__2__KeyValuePair__0__TKey__4__TValue__1____1____2__Contains_KeyValuePair_d_TKey_TValue_p_ = new(this, "System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.Contains", 0, typeof(System.Collections.Generic.KeyValuePair<, >).MakeGenericType(Type.MakeGenericMethodParameter(0), Type.MakeGenericMethodParameter(1)));
-					r_System__2__Collections__2__Generic__2__ICollection__0__System__2__Collections__2__Generic__2__KeyValuePair__0__TKey__4__TValue__1____1____2__Contains_KeyValuePair_d_TKey_TValue_p_.SetBelong(this.instance);
+					r_System__2__Collections__2__Generic__2__ICollection__0__System__2__Collections__2__Generic__2__KeyValuePair__0__TKey__5__TValue__1____1____2__Contains_KeyValuePair_d_TKey_TValue_p_ = new(this, "System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.Contains", 0, typeof(System.Collections.Generic.KeyValuePair<, >).MakeGenericType(Type.MakeGenericMethodParameter(0), Type.MakeGenericMethodParameter(1)));
+					r_System__2__Collections__2__Generic__2__ICollection__0__System__2__Collections__2__Generic__2__KeyValuePair__0__TKey__5__TValue__1____1____2__Contains_KeyValuePair_d_TKey_TValue_p_.SetBelong(this.instance);
 				}
-				return r_System__2__Collections__2__Generic__2__ICollection__0__System__2__Collections__2__Generic__2__KeyValuePair__0__TKey__4__TValue__1____1____2__Contains_KeyValuePair_d_TKey_TValue_p_;
+				return r_System__2__Collections__2__Generic__2__ICollection__0__System__2__Collections__2__Generic__2__KeyValuePair__0__TKey__5__TValue__1____1____2__Contains_KeyValuePair_d_TKey_TValue_p_;
 			}
 		}
 
 		/// <summary>
 		/// Boolean System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.Remove(System.Collections.Generic.KeyValuePair`2[TKey,TValue])
 		/// </summary>
-		protected RMethod r_System__2__Collections__2__Generic__2__ICollection__0__System__2__Collections__2__Generic__2__KeyValuePair__0__TKey__4__TValue__1____1____2__Remove_KeyValuePair_d_TKey_TValue_p_;
-		public virtual RMethod RSystem__2__Collections__2__Generic__2__ICollection__0__System__2__Collections__2__Generic__2__KeyValuePair__0__TKey__4__TValue__1____1____2__Remove_KeyValuePair_d_TKey_TValue_p_
+		protected RMethod r_System__2__Collections__2__Generic__2__ICollection__0__System__2__Collections__2__Generic__2__KeyValuePair__0__TKey__5__TValue__1____1____2__Remove_KeyValuePair_d_TKey_TValue_p_;
+		public virtual RMethod RSystem__2__Collections__2__Generic__2__ICollection__0__System__2__Collections__2__Generic__2__KeyValuePair__0__TKey__5__TValue__1____1____2__Remove_KeyValuePair_d_TKey_TValue_p_
 		{
 			get
 			{
-				if(r_System__2__Collections__2__Generic__2__ICollection__0__System__2__Collections__2__Generic__2__KeyValuePair__0__TKey__4__TValue__1____1____2__Remove_KeyValuePair_d_TKey_TValue_p_ == null)
+				if(r_System__2__Collections__2__Generic__2__ICollection__0__System__2__Collections__2__Generic__2__KeyValuePair__0__TKey__5__TValue__1____1____2__Remove_KeyValuePair_d_TKey_TValue_p_ == null)
 				{
-					r_System__2__Collections__2__Generic__2__ICollection__0__System__2__Collections__2__Generic__2__KeyValuePair__0__TKey__4__TValue__1____1____2__Remove_KeyValuePair_d_TKey_TValue_p_ = new(this, "System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.Remove", 0, typeof(System.Collections.Generic.KeyValuePair<, >).MakeGenericType(Type.MakeGenericMethodParameter(0), Type.MakeGenericMethodParameter(1)));
-					r_System__2__Collections__2__Generic__2__ICollection__0__System__2__Collections__2__Generic__2__KeyValuePair__0__TKey__4__TValue__1____1____2__Remove_KeyValuePair_d_TKey_TValue_p_.SetBelong(this.instance);
+					r_System__2__Collections__2__Generic__2__ICollection__0__System__2__Collections__2__Generic__2__KeyValuePair__0__TKey__5__TValue__1____1____2__Remove_KeyValuePair_d_TKey_TValue_p_ = new(this, "System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.Remove", 0, typeof(System.Collections.Generic.KeyValuePair<, >).MakeGenericType(Type.MakeGenericMethodParameter(0), Type.MakeGenericMethodParameter(1)));
+					r_System__2__Collections__2__Generic__2__ICollection__0__System__2__Collections__2__Generic__2__KeyValuePair__0__TKey__5__TValue__1____1____2__Remove_KeyValuePair_d_TKey_TValue_p_.SetBelong(this.instance);
 				}
-				return r_System__2__Collections__2__Generic__2__ICollection__0__System__2__Collections__2__Generic__2__KeyValuePair__0__TKey__4__TValue__1____1____2__Remove_KeyValuePair_d_TKey_TValue_p_;
+				return r_System__2__Collections__2__Generic__2__ICollection__0__System__2__Collections__2__Generic__2__KeyValuePair__0__TKey__5__TValue__1____1____2__Remove_KeyValuePair_d_TKey_TValue_p_;
 			}
 		}
 
@@ -693,17 +693,17 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
 		/// <summary>
 		/// System.Collections.Generic.IEnumerator`1[System.Collections.Generic.KeyValuePair`2[TKey,TValue]] System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<TKey,TValue>>.GetEnumerator()
 		/// </summary>
-		protected RMethod r_System__2__Collections__2__Generic__2__IEnumerable__0__System__2__Collections__2__Generic__2__KeyValuePair__0__TKey__4__TValue__1____1____2__GetEnumerator;
-		public virtual RMethod RSystem__2__Collections__2__Generic__2__IEnumerable__0__System__2__Collections__2__Generic__2__KeyValuePair__0__TKey__4__TValue__1____1____2__GetEnumerator
+		protected RMethod r_System__2__Collections__2__Generic__2__IEnumerable__0__System__2__Collections__2__Generic__2__KeyValuePair__0__TKey__5__TValue__1____1____2__GetEnumerator;
+		public virtual RMethod RSystem__2__Collections__2__Generic__2__IEnumerable__0__System__2__Collections__2__Generic__2__KeyValuePair__0__TKey__5__TValue__1____1____2__GetEnumerator
 		{
 			get
 			{
-				if(r_System__2__Collections__2__Generic__2__IEnumerable__0__System__2__Collections__2__Generic__2__KeyValuePair__0__TKey__4__TValue__1____1____2__GetEnumerator == null)
+				if(r_System__2__Collections__2__Generic__2__IEnumerable__0__System__2__Collections__2__Generic__2__KeyValuePair__0__TKey__5__TValue__1____1____2__GetEnumerator == null)
 				{
-					r_System__2__Collections__2__Generic__2__IEnumerable__0__System__2__Collections__2__Generic__2__KeyValuePair__0__TKey__4__TValue__1____1____2__GetEnumerator = new(this, "System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<TKey,TValue>>.GetEnumerator", 0);
-					r_System__2__Collections__2__Generic__2__IEnumerable__0__System__2__Collections__2__Generic__2__KeyValuePair__0__TKey__4__TValue__1____1____2__GetEnumerator.SetBelong(this.instance);
+					r_System__2__Collections__2__Generic__2__IEnumerable__0__System__2__Collections__2__Generic__2__KeyValuePair__0__TKey__5__TValue__1____1____2__GetEnumerator = new(this, "System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<TKey,TValue>>.GetEnumerator", 0);
+					r_System__2__Collections__2__Generic__2__IEnumerable__0__System__2__Collections__2__Generic__2__KeyValuePair__0__TKey__5__TValue__1____1____2__GetEnumerator.SetBelong(this.instance);
 				}
-				return r_System__2__Collections__2__Generic__2__IEnumerable__0__System__2__Collections__2__Generic__2__KeyValuePair__0__TKey__4__TValue__1____1____2__GetEnumerator;
+				return r_System__2__Collections__2__Generic__2__IEnumerable__0__System__2__Collections__2__Generic__2__KeyValuePair__0__TKey__5__TValue__1____1____2__GetEnumerator;
 			}
 		}
 
@@ -897,17 +897,17 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
 		/// <summary>
 		/// Void System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.CopyTo(System.Collections.Generic.KeyValuePair`2[TKey,TValue][], Int32)
 		/// </summary>
-		protected RMethod r_System__2__Collections__2__Generic__2__ICollection__0__System__2__Collections__2__Generic__2__KeyValuePair__0__TKey__4__TValue__1____1____2__CopyTo_KeyValuePair_d_TKey_TValue_p_Array_Int32;
-		public virtual RMethod RSystem__2__Collections__2__Generic__2__ICollection__0__System__2__Collections__2__Generic__2__KeyValuePair__0__TKey__4__TValue__1____1____2__CopyTo_KeyValuePair_d_TKey_TValue_p_Array_Int32
+		protected RMethod r_System__2__Collections__2__Generic__2__ICollection__0__System__2__Collections__2__Generic__2__KeyValuePair__0__TKey__5__TValue__1____1____2__CopyTo_KeyValuePair_d_TKey_TValue_p_Array_Int32;
+		public virtual RMethod RSystem__2__Collections__2__Generic__2__ICollection__0__System__2__Collections__2__Generic__2__KeyValuePair__0__TKey__5__TValue__1____1____2__CopyTo_KeyValuePair_d_TKey_TValue_p_Array_Int32
 		{
 			get
 			{
-				if(r_System__2__Collections__2__Generic__2__ICollection__0__System__2__Collections__2__Generic__2__KeyValuePair__0__TKey__4__TValue__1____1____2__CopyTo_KeyValuePair_d_TKey_TValue_p_Array_Int32 == null)
+				if(r_System__2__Collections__2__Generic__2__ICollection__0__System__2__Collections__2__Generic__2__KeyValuePair__0__TKey__5__TValue__1____1____2__CopyTo_KeyValuePair_d_TKey_TValue_p_Array_Int32 == null)
 				{
-					r_System__2__Collections__2__Generic__2__ICollection__0__System__2__Collections__2__Generic__2__KeyValuePair__0__TKey__4__TValue__1____1____2__CopyTo_KeyValuePair_d_TKey_TValue_p_Array_Int32 = new(this, "System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.CopyTo", 0, typeof(System.Collections.Generic.KeyValuePair<, >).MakeGenericType(Type.MakeGenericMethodParameter(0), Type.MakeGenericMethodParameter(1)).MakeArrayType(), typeof(System.Int32));
-					r_System__2__Collections__2__Generic__2__ICollection__0__System__2__Collections__2__Generic__2__KeyValuePair__0__TKey__4__TValue__1____1____2__CopyTo_KeyValuePair_d_TKey_TValue_p_Array_Int32.SetBelong(this.instance);
+					r_System__2__Collections__2__Generic__2__ICollection__0__System__2__Collections__2__Generic__2__KeyValuePair__0__TKey__5__TValue__1____1____2__CopyTo_KeyValuePair_d_TKey_TValue_p_Array_Int32 = new(this, "System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.CopyTo", 0, typeof(System.Collections.Generic.KeyValuePair<, >).MakeGenericType(Type.MakeGenericMethodParameter(0), Type.MakeGenericMethodParameter(1)).MakeArrayType(), typeof(System.Int32));
+					r_System__2__Collections__2__Generic__2__ICollection__0__System__2__Collections__2__Generic__2__KeyValuePair__0__TKey__5__TValue__1____1____2__CopyTo_KeyValuePair_d_TKey_TValue_p_Array_Int32.SetBelong(this.instance);
 				}
-				return r_System__2__Collections__2__Generic__2__ICollection__0__System__2__Collections__2__Generic__2__KeyValuePair__0__TKey__4__TValue__1____1____2__CopyTo_KeyValuePair_d_TKey_TValue_p_Array_Int32;
+				return r_System__2__Collections__2__Generic__2__ICollection__0__System__2__Collections__2__Generic__2__KeyValuePair__0__TKey__5__TValue__1____1____2__CopyTo_KeyValuePair_d_TKey_TValue_p_Array_Int32;
 			}
 		}
 
@@ -1212,34 +1212,34 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
         }
 
 
-        public virtual void System__2__Collections__2__Generic__2__ICollection__0__System__2__Collections__2__Generic__2__KeyValuePair__0__TKey__4__TValue__1____1____2__Add(System.Collections.Generic.KeyValuePair<TKey, TValue>  @keyValuePair)
+        public virtual void System__2__Collections__2__Generic__2__ICollection__0__System__2__Collections__2__Generic__2__KeyValuePair__0__TKey__5__TValue__1____1____2__Add(System.Collections.Generic.KeyValuePair<TKey, TValue>  @keyValuePair)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@keyValuePair};
-            var ___result = RSystem__2__Collections__2__Generic__2__ICollection__0__System__2__Collections__2__Generic__2__KeyValuePair__0__TKey__4__TValue__1____1____2__Add_KeyValuePair_d_TKey_TValue_p_.Invoke(___genericsType, ___parameters);
+            var ___result = RSystem__2__Collections__2__Generic__2__ICollection__0__System__2__Collections__2__Generic__2__KeyValuePair__0__TKey__5__TValue__1____1____2__Add_KeyValuePair_d_TKey_TValue_p_.Invoke(___genericsType, ___parameters);
 
             
         }
 
 
-        public virtual System.Boolean System__2__Collections__2__Generic__2__ICollection__0__System__2__Collections__2__Generic__2__KeyValuePair__0__TKey__4__TValue__1____1____2__Contains(System.Collections.Generic.KeyValuePair<TKey, TValue>  @keyValuePair)
+        public virtual System.Boolean System__2__Collections__2__Generic__2__ICollection__0__System__2__Collections__2__Generic__2__KeyValuePair__0__TKey__5__TValue__1____1____2__Contains(System.Collections.Generic.KeyValuePair<TKey, TValue>  @keyValuePair)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@keyValuePair};
-            var ___result = RSystem__2__Collections__2__Generic__2__ICollection__0__System__2__Collections__2__Generic__2__KeyValuePair__0__TKey__4__TValue__1____1____2__Contains_KeyValuePair_d_TKey_TValue_p_.Invoke(___genericsType, ___parameters);
+            var ___result = RSystem__2__Collections__2__Generic__2__ICollection__0__System__2__Collections__2__Generic__2__KeyValuePair__0__TKey__5__TValue__1____1____2__Contains_KeyValuePair_d_TKey_TValue_p_.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }
 
 
-        public virtual System.Boolean System__2__Collections__2__Generic__2__ICollection__0__System__2__Collections__2__Generic__2__KeyValuePair__0__TKey__4__TValue__1____1____2__Remove(System.Collections.Generic.KeyValuePair<TKey, TValue>  @keyValuePair)
+        public virtual System.Boolean System__2__Collections__2__Generic__2__ICollection__0__System__2__Collections__2__Generic__2__KeyValuePair__0__TKey__5__TValue__1____1____2__Remove(System.Collections.Generic.KeyValuePair<TKey, TValue>  @keyValuePair)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@keyValuePair};
-            var ___result = RSystem__2__Collections__2__Generic__2__ICollection__0__System__2__Collections__2__Generic__2__KeyValuePair__0__TKey__4__TValue__1____1____2__Remove_KeyValuePair_d_TKey_TValue_p_.Invoke(___genericsType, ___parameters);
+            var ___result = RSystem__2__Collections__2__Generic__2__ICollection__0__System__2__Collections__2__Generic__2__KeyValuePair__0__TKey__5__TValue__1____1____2__Remove_KeyValuePair_d_TKey_TValue_p_.Invoke(___genericsType, ___parameters);
 
             return (System.Boolean)___result;
         }
@@ -1300,12 +1300,12 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
         }
 
 
-        public virtual System.Collections.Generic.IEnumerator<System.Collections.Generic.KeyValuePair<TKey, TValue>> System__2__Collections__2__Generic__2__IEnumerable__0__System__2__Collections__2__Generic__2__KeyValuePair__0__TKey__4__TValue__1____1____2__GetEnumerator()
+        public virtual System.Collections.Generic.IEnumerator<System.Collections.Generic.KeyValuePair<TKey, TValue>> System__2__Collections__2__Generic__2__IEnumerable__0__System__2__Collections__2__Generic__2__KeyValuePair__0__TKey__5__TValue__1____1____2__GetEnumerator()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RSystem__2__Collections__2__Generic__2__IEnumerable__0__System__2__Collections__2__Generic__2__KeyValuePair__0__TKey__4__TValue__1____1____2__GetEnumerator.Invoke(___genericsType, ___parameters);
+            var ___result = RSystem__2__Collections__2__Generic__2__IEnumerable__0__System__2__Collections__2__Generic__2__KeyValuePair__0__TKey__5__TValue__1____1____2__GetEnumerator.Invoke(___genericsType, ___parameters);
 
             return (System.Collections.Generic.IEnumerator<System.Collections.Generic.KeyValuePair<TKey, TValue>>)___result;
         }
@@ -1343,6 +1343,16 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
             return (System.Int32)___result;
         }
 
+
+        public virtual System.Boolean TryInsert(TKey  @key, TValue  @value, RType  @behavior)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@key, @value, @behavior.Value};
+            var ___result = RTryInsert_TKey_TValue_InsertionBehavior.Invoke(___genericsType, ___parameters);
+
+            return (System.Boolean)___result;
+        }
 
 
         public virtual void OnDeserialization(System.Object  @sender)
@@ -1426,12 +1436,12 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
         }
 
 
-        public virtual void System__2__Collections__2__Generic__2__ICollection__0__System__2__Collections__2__Generic__2__KeyValuePair__0__TKey__4__TValue__1____1____2__CopyTo(System.Collections.Generic.KeyValuePair<TKey, TValue>[]  @array, System.Int32  @index)
+        public virtual void System__2__Collections__2__Generic__2__ICollection__0__System__2__Collections__2__Generic__2__KeyValuePair__0__TKey__5__TValue__1____1____2__CopyTo(System.Collections.Generic.KeyValuePair<TKey, TValue>[]  @array, System.Int32  @index)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@array, @index};
-            var ___result = RSystem__2__Collections__2__Generic__2__ICollection__0__System__2__Collections__2__Generic__2__KeyValuePair__0__TKey__4__TValue__1____1____2__CopyTo_KeyValuePair_d_TKey_TValue_p_Array_Int32.Invoke(___genericsType, ___parameters);
+            var ___result = RSystem__2__Collections__2__Generic__2__ICollection__0__System__2__Collections__2__Generic__2__KeyValuePair__0__TKey__5__TValue__1____1____2__CopyTo_KeyValuePair_d_TKey_TValue_p_Array_Int32.Invoke(___genericsType, ___parameters);
 
             
         }

@@ -2259,6 +2259,16 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
+        public virtual void ConvertToEquirect(UnityEngine.RenderTexture  @equirect, RType  @eye)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@equirect, @eye.Value};
+            var ___result = RConvertToEquirect_RenderTexture_MonoOrStereoscopicEye.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
 
         public virtual void SetSRGBReadWrite(System.Boolean  @srgb)
         {

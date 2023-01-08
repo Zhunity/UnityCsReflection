@@ -621,6 +621,16 @@ namespace SMFrame.Editor.Refleaction.RMono.RSecurity
         }
 
 
+        public virtual System.Object StrongHash(System.IO.Stream  @stream, RType  @options)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@stream, @options.Value};
+            var ___result = RStrongHash_Stream_StrongNameOptions.Invoke(___genericsType, ___parameters);
+
+            return (System.Object)___result;
+        }
+
 
         public virtual System.Byte[] Hash(System.String  @fileName)
         {

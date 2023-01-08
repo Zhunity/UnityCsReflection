@@ -328,6 +328,26 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
         }
 
 
+        public virtual void SetExperimentalFeatureEnabled(RType  @feature, System.Boolean  @enabled)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@feature.Value, @enabled};
+            var ___result = RSetExperimentalFeatureEnabled_YogaExperimentalFeature_Boolean.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual System.Boolean IsExperimentalFeatureEnabled(RType  @feature)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@feature.Value};
+            var ___result = RIsExperimentalFeatureEnabled_YogaExperimentalFeature.Invoke(___genericsType, ___parameters);
+
+            return (System.Boolean)___result;
+        }
 
 
         public static System.Int32 GetInstanceCount()
@@ -340,6 +360,16 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
             return (System.Int32)___result;
         }
 
+
+        public static void SetDefaultLogger(RUnityEngine.RYoga.RLogger  @logger)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@logger.Value};
+            var ___result = RSetDefaultLogger_Logger.Invoke(___genericsType, ___parameters);
+
+            
+        }
 
 
         public virtual System.Boolean Equals(System.Object  @obj)

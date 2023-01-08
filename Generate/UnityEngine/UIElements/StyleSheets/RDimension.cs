@@ -299,7 +299,37 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
         }
 
 
+        public static System.Boolean op_Equality(RUnityEngine.RUIElements.RStyleSheets.RDimension  @lhs, RUnityEngine.RUIElements.RStyleSheets.RDimension  @rhs)
+        {
 
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@lhs.Value, @rhs.Value};
+            var ___result = Rop_Equality_Dimension_Dimension.Invoke(___genericsType, ___parameters);
+
+            return (System.Boolean)___result;
+        }
+
+
+        public static System.Boolean op_Inequality(RUnityEngine.RUIElements.RStyleSheets.RDimension  @lhs, RUnityEngine.RUIElements.RStyleSheets.RDimension  @rhs)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@lhs.Value, @rhs.Value};
+            var ___result = Rop_Inequality_Dimension_Dimension.Invoke(___genericsType, ___parameters);
+
+            return (System.Boolean)___result;
+        }
+
+
+        public virtual System.Boolean Equals(RUnityEngine.RUIElements.RStyleSheets.RDimension  @other)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@other.Value};
+            var ___result = REquals_Dimension.Invoke(___genericsType, ___parameters);
+
+            return (System.Boolean)___result;
+        }
 
 
         public virtual System.Boolean Equals(System.Object  @obj)

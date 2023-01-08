@@ -390,6 +390,26 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
         }
 
 
+        public virtual System.Object Allocate(RUnityEngine.RUIElements.RUIR.RBaseShaderInfoStorage  @storage)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@storage.Value};
+            var ___result = RAllocate_BaseShaderInfoStorage.Invoke(___genericsType, ___parameters);
+
+            return (System.Object)___result;
+        }
+
+
+        public virtual void Free(RUnityEngine.RUIElements.RUIR.RBMPAlloc  @alloc)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@alloc.Value};
+            var ___result = RFree_BMPAlloc.Invoke(___genericsType, ___parameters);
+
+            
+        }
 
 
         public virtual void GetAllocPageAtlasLocation(System.Int32  @page, out System.UInt16  @x, out System.UInt16  @y)

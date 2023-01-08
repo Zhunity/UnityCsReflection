@@ -1170,6 +1170,16 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
         }
 
 
+        public virtual void RemoveAces<T>(RSystem.RSecurity.RAccessControl.RCommonAcl.RRemoveAcesCallback<RType>  @callback) where T : System.Security.AccessControl.GenericAce
+        {
+
+            var ___genericsType = new Type[] {typeof(T)};
+            var ___parameters = new object[]{@callback.Value};
+            var ___result = RRemoveAces_GT_RemoveAcesCallback_d_T_p_.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
 
         public virtual void AddAce(System.Security.AccessControl.AceQualifier  @aceQualifier, System.Security.Principal.SecurityIdentifier  @sid, System.Int32  @accessMask, System.Security.AccessControl.InheritanceFlags  @inheritanceFlags, System.Security.AccessControl.PropagationFlags  @propagationFlags, System.Security.AccessControl.AuditFlags  @auditFlags)
         {

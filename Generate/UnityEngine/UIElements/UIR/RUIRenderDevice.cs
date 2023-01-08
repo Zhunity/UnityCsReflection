@@ -1616,8 +1616,28 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 
 
 
+        public virtual System.Boolean TryAllocFromPage(RUnityEngine.RUIElements.RUIR.RPage  @page, System.UInt32  @vertexCount, System.UInt32  @indexCount, ref RUnityEngine.RUIElements.RUIR.RAlloc  @va, ref RUnityEngine.RUIElements.RUIR.RAlloc  @ia, System.Boolean  @shortLived)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@page.Value, @vertexCount, @indexCount, @va.Value, @ia.Value, @shortLived};
+            var ___result = RTryAllocFromPage_Page_UInt32_UInt32_Ref_Alloc_Ref_Alloc_Boolean.Invoke(___genericsType, ___parameters);
+
+            return (System.Boolean)___result;
+        }
 
 
+
+
+        public virtual void Free(RUnityEngine.RUIElements.RUIR.RMeshHandle  @mesh)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@mesh.Value};
+            var ___result = RFree_MeshHandle.Invoke(___genericsType, ___parameters);
+
+            
+        }
 
 
         public virtual void OnFrameRenderingBegin()
@@ -1632,6 +1652,26 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 
 
 
+        public virtual void ApplyDrawCommandState(RUnityEngine.RUIElements.RUIR.RRenderChainCommand  @cmd, System.Int32  @textureSlot, UnityEngine.Material  @newMat, System.Boolean  @newMatDiffers, ref RUnityEngine.RUIElements.RUIR.RUIRenderDevice.REvaluationState  @st)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@cmd.Value, @textureSlot, @newMat, @newMatDiffers, @st.Value};
+            var ___result = RApplyDrawCommandState_RenderChainCommand_Int32_Material_Boolean_Ref_EvaluationState.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void ApplyBatchState(ref RUnityEngine.RUIElements.RUIR.RUIRenderDevice.REvaluationState  @st, System.Boolean  @allowMaterialChange)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@st.Value, @allowMaterialChange};
+            var ___result = RApplyBatchState_Ref_EvaluationState_Boolean.Invoke(___genericsType, ___parameters);
+
+            
+        }
 
 
 

@@ -5388,8 +5388,48 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
+        public virtual UnityEngine.Vector3 WorldToScreenPoint(UnityEngine.Vector3  @position, RType  @eye)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@position, @eye.Value};
+            var ___result = RWorldToScreenPoint_Vector3_MonoOrStereoscopicEye.Invoke(___genericsType, ___parameters);
+
+            return (UnityEngine.Vector3)___result;
+        }
 
 
+        public virtual UnityEngine.Vector3 WorldToViewportPoint(UnityEngine.Vector3  @position, RType  @eye)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@position, @eye.Value};
+            var ___result = RWorldToViewportPoint_Vector3_MonoOrStereoscopicEye.Invoke(___genericsType, ___parameters);
+
+            return (UnityEngine.Vector3)___result;
+        }
+
+
+        public virtual UnityEngine.Vector3 ViewportToWorldPoint(UnityEngine.Vector3  @position, RType  @eye)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@position, @eye.Value};
+            var ___result = RViewportToWorldPoint_Vector3_MonoOrStereoscopicEye.Invoke(___genericsType, ___parameters);
+
+            return (UnityEngine.Vector3)___result;
+        }
+
+
+        public virtual UnityEngine.Vector3 ScreenToWorldPoint(UnityEngine.Vector3  @position, RType  @eye)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@position, @eye.Value};
+            var ___result = RScreenToWorldPoint_Vector3_MonoOrStereoscopicEye.Invoke(___genericsType, ___parameters);
+
+            return (UnityEngine.Vector3)___result;
+        }
 
 
         public virtual UnityEngine.Vector3 WorldToScreenPoint(UnityEngine.Vector3  @position)
@@ -5469,6 +5509,26 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
+        public virtual UnityEngine.Ray ViewportPointToRay(UnityEngine.Vector2  @pos, RType  @eye)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@pos, @eye.Value};
+            var ___result = RViewportPointToRay_Vector2_MonoOrStereoscopicEye.Invoke(___genericsType, ___parameters);
+
+            return (UnityEngine.Ray)___result;
+        }
+
+
+        public virtual UnityEngine.Ray ViewportPointToRay(UnityEngine.Vector3  @pos, RType  @eye)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@pos, @eye.Value};
+            var ___result = RViewportPointToRay_Vector3_MonoOrStereoscopicEye.Invoke(___genericsType, ___parameters);
+
+            return (UnityEngine.Ray)___result;
+        }
 
 
         public virtual UnityEngine.Ray ViewportPointToRay(UnityEngine.Vector3  @pos)
@@ -5482,6 +5542,26 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
+        public virtual UnityEngine.Ray ScreenPointToRay(UnityEngine.Vector2  @pos, RType  @eye)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@pos, @eye.Value};
+            var ___result = RScreenPointToRay_Vector2_MonoOrStereoscopicEye.Invoke(___genericsType, ___parameters);
+
+            return (UnityEngine.Ray)___result;
+        }
+
+
+        public virtual UnityEngine.Ray ScreenPointToRay(UnityEngine.Vector3  @pos, RType  @eye)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@pos, @eye.Value};
+            var ___result = RScreenPointToRay_Vector3_MonoOrStereoscopicEye.Invoke(___genericsType, ___parameters);
+
+            return (UnityEngine.Ray)___result;
+        }
 
 
         public virtual UnityEngine.Ray ScreenPointToRay(UnityEngine.Vector3  @pos)
@@ -5495,8 +5575,52 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
+        public virtual void CalculateFrustumCornersInternal(UnityEngine.Rect  @viewport, System.Single  @z, RType  @eye, UnityEngine.Vector3[]  @outCorners)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@viewport, @z, @eye.Value, @outCorners};
+            var ___result = RCalculateFrustumCornersInternal_Rect_Single_MonoOrStereoscopicEye_Vector3Array.Invoke(___genericsType, ___parameters);
+
+            
+        }
 
 
+        public virtual void CalculateFrustumCorners(UnityEngine.Rect  @viewport, System.Single  @z, RType  @eye, UnityEngine.Vector3[]  @outCorners)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@viewport, @z, @eye.Value, @outCorners};
+            var ___result = RCalculateFrustumCorners_Rect_Single_MonoOrStereoscopicEye_Vector3Array.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public static void CalculateProjectionMatrixFromPhysicalPropertiesInternal(out UnityEngine.Matrix4x4  @output, System.Single  @focalLength, UnityEngine.Vector2  @sensorSize, UnityEngine.Vector2  @lensShift, System.Single  @nearClip, System.Single  @farClip, System.Single  @gateAspect, RType  @gateFitMode)
+        {
+			output = default;
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@output, @focalLength, @sensorSize, @lensShift, @nearClip, @farClip, @gateAspect, @gateFitMode.Value};
+            var ___result = RCalculateProjectionMatrixFromPhysicalPropertiesInternal_Out_Matrix4x4_Single_Vector2_Vector2_Single_Single_Single_GateFitMode.Invoke(___genericsType, ___parameters);
+			output = (UnityEngine.Matrix4x4)___parameters[0];
+
+            
+        }
+
+
+        public static void CalculateProjectionMatrixFromPhysicalProperties(out UnityEngine.Matrix4x4  @output, System.Single  @focalLength, UnityEngine.Vector2  @sensorSize, UnityEngine.Vector2  @lensShift, System.Single  @nearClip, System.Single  @farClip, RUnityEngine.RCamera.RGateFitParameters  @gateFitParameters)
+        {
+			output = default;
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@output, @focalLength, @sensorSize, @lensShift, @nearClip, @farClip, @gateFitParameters.Value};
+            var ___result = RCalculateProjectionMatrixFromPhysicalProperties_Out_Matrix4x4_Single_Vector2_Vector2_Single_Single_GateFitParameters.Invoke(___genericsType, ___parameters);
+			output = (UnityEngine.Matrix4x4)___parameters[0];
+
+            
+        }
 
 
         public static System.Single FocalLengthToFieldOfView(System.Single  @focalLength, System.Single  @sensorSize)
@@ -5543,9 +5667,59 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
+        public virtual UnityEngine.Matrix4x4 GetStereoNonJitteredProjectionMatrix(RType  @eye)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@eye.Value};
+            var ___result = RGetStereoNonJitteredProjectionMatrix_StereoscopicEye.Invoke(___genericsType, ___parameters);
+
+            return (UnityEngine.Matrix4x4)___result;
+        }
 
 
+        public virtual UnityEngine.Matrix4x4 GetStereoViewMatrix(RType  @eye)
+        {
 
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@eye.Value};
+            var ___result = RGetStereoViewMatrix_StereoscopicEye.Invoke(___genericsType, ___parameters);
+
+            return (UnityEngine.Matrix4x4)___result;
+        }
+
+
+        public virtual void CopyStereoDeviceProjectionMatrixToNonJittered(RType  @eye)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@eye.Value};
+            var ___result = RCopyStereoDeviceProjectionMatrixToNonJittered_StereoscopicEye.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual UnityEngine.Matrix4x4 GetStereoProjectionMatrix(RType  @eye)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@eye.Value};
+            var ___result = RGetStereoProjectionMatrix_StereoscopicEye.Invoke(___genericsType, ___parameters);
+
+            return (UnityEngine.Matrix4x4)___result;
+        }
+
+
+        public virtual void SetStereoProjectionMatrix(RType  @eye, UnityEngine.Matrix4x4  @matrix)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@eye.Value, @matrix};
+            var ___result = RSetStereoProjectionMatrix_StereoscopicEye_Matrix4x4.Invoke(___genericsType, ___parameters);
+
+            
+        }
 
 
         public virtual void ResetStereoProjectionMatrices()
@@ -5558,6 +5732,16 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             
         }
 
+
+        public virtual void SetStereoViewMatrix(RType  @eye, UnityEngine.Matrix4x4  @matrix)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@eye.Value, @matrix};
+            var ___result = RSetStereoViewMatrix_StereoscopicEye_Matrix4x4.Invoke(___genericsType, ___parameters);
+
+            
+        }
 
 
         public virtual void ResetStereoViewMatrices()
@@ -5670,6 +5854,26 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
+        public virtual System.Boolean RenderToCubemapEyeImpl(UnityEngine.RenderTexture  @cubemap, System.Int32  @faceMask, RType  @stereoEye)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@cubemap, @faceMask, @stereoEye.Value};
+            var ___result = RRenderToCubemapEyeImpl_RenderTexture_Int32_MonoOrStereoscopicEye.Invoke(___genericsType, ___parameters);
+
+            return (System.Boolean)___result;
+        }
+
+
+        public virtual System.Boolean RenderToCubemap(UnityEngine.RenderTexture  @cubemap, System.Int32  @faceMask, RType  @stereoEye)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@cubemap, @faceMask, @stereoEye.Value};
+            var ___result = RRenderToCubemap_RenderTexture_Int32_MonoOrStereoscopicEye.Invoke(___genericsType, ___parameters);
+
+            return (System.Boolean)___result;
+        }
 
 
         public virtual void Render()
@@ -5704,6 +5908,16 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             
         }
 
+
+        public virtual void SubmitRenderRequests(RSystem.RCollections.RGeneric.RList<RUnityEngine.RCamera.RRenderRequest>  @renderRequests)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@renderRequests.Value};
+            var ___result = RSubmitRenderRequests_List_d_RenderRequest_p_.Invoke(___genericsType, ___parameters);
+
+            
+        }
 
 
         public virtual void SubmitRenderRequest<RequestData>(RequestData  @renderRequest)
@@ -6410,8 +6624,60 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
+        public virtual void WorldToScreenPoint_Injected(ref UnityEngine.Vector3  @position, RType  @eye, out UnityEngine.Vector3  @ret)
+        {
+			ret = default;
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@position, @eye.Value, @ret};
+            var ___result = RWorldToScreenPoint_Injected_Ref_Vector3_MonoOrStereoscopicEye_Out_Vector3.Invoke(___genericsType, ___parameters);
+			position = (UnityEngine.Vector3)___parameters[0];
+			ret = (UnityEngine.Vector3)___parameters[2];
+
+            
+        }
 
 
+        public virtual void WorldToViewportPoint_Injected(ref UnityEngine.Vector3  @position, RType  @eye, out UnityEngine.Vector3  @ret)
+        {
+			ret = default;
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@position, @eye.Value, @ret};
+            var ___result = RWorldToViewportPoint_Injected_Ref_Vector3_MonoOrStereoscopicEye_Out_Vector3.Invoke(___genericsType, ___parameters);
+			position = (UnityEngine.Vector3)___parameters[0];
+			ret = (UnityEngine.Vector3)___parameters[2];
+
+            
+        }
+
+
+        public virtual void ViewportToWorldPoint_Injected(ref UnityEngine.Vector3  @position, RType  @eye, out UnityEngine.Vector3  @ret)
+        {
+			ret = default;
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@position, @eye.Value, @ret};
+            var ___result = RViewportToWorldPoint_Injected_Ref_Vector3_MonoOrStereoscopicEye_Out_Vector3.Invoke(___genericsType, ___parameters);
+			position = (UnityEngine.Vector3)___parameters[0];
+			ret = (UnityEngine.Vector3)___parameters[2];
+
+            
+        }
+
+
+        public virtual void ScreenToWorldPoint_Injected(ref UnityEngine.Vector3  @position, RType  @eye, out UnityEngine.Vector3  @ret)
+        {
+			ret = default;
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@position, @eye.Value, @ret};
+            var ___result = RScreenToWorldPoint_Injected_Ref_Vector3_MonoOrStereoscopicEye_Out_Vector3.Invoke(___genericsType, ___parameters);
+			position = (UnityEngine.Vector3)___parameters[0];
+			ret = (UnityEngine.Vector3)___parameters[2];
+
+            
+        }
 
 
         public virtual void ScreenToViewportPoint_Injected(ref UnityEngine.Vector3  @position, out UnityEngine.Vector3  @ret)
@@ -6455,8 +6721,59 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
+        public virtual void ViewportPointToRay_Injected(ref UnityEngine.Vector2  @pos, RType  @eye, out UnityEngine.Ray  @ret)
+        {
+			ret = default;
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@pos, @eye.Value, @ret};
+            var ___result = RViewportPointToRay_Injected_Ref_Vector2_MonoOrStereoscopicEye_Out_Ray.Invoke(___genericsType, ___parameters);
+			pos = (UnityEngine.Vector2)___parameters[0];
+			ret = (UnityEngine.Ray)___parameters[2];
+
+            
+        }
 
 
+        public virtual void ScreenPointToRay_Injected(ref UnityEngine.Vector2  @pos, RType  @eye, out UnityEngine.Ray  @ret)
+        {
+			ret = default;
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@pos, @eye.Value, @ret};
+            var ___result = RScreenPointToRay_Injected_Ref_Vector2_MonoOrStereoscopicEye_Out_Ray.Invoke(___genericsType, ___parameters);
+			pos = (UnityEngine.Vector2)___parameters[0];
+			ret = (UnityEngine.Ray)___parameters[2];
+
+            
+        }
+
+
+        public virtual void CalculateFrustumCornersInternal_Injected(ref UnityEngine.Rect  @viewport, System.Single  @z, RType  @eye, UnityEngine.Vector3[]  @outCorners)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@viewport, @z, @eye.Value, @outCorners};
+            var ___result = RCalculateFrustumCornersInternal_Injected_Ref_Rect_Single_MonoOrStereoscopicEye_Vector3Array.Invoke(___genericsType, ___parameters);
+			viewport = (UnityEngine.Rect)___parameters[0];
+
+            
+        }
+
+
+        public static void CalculateProjectionMatrixFromPhysicalPropertiesInternal_Injected(out UnityEngine.Matrix4x4  @output, System.Single  @focalLength, ref UnityEngine.Vector2  @sensorSize, ref UnityEngine.Vector2  @lensShift, System.Single  @nearClip, System.Single  @farClip, System.Single  @gateAspect, RType  @gateFitMode)
+        {
+			output = default;
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@output, @focalLength, @sensorSize, @lensShift, @nearClip, @farClip, @gateAspect, @gateFitMode.Value};
+            var ___result = RCalculateProjectionMatrixFromPhysicalPropertiesInternal_Injected_Out_Matrix4x4_Single_Ref_Vector2_Ref_Vector2_Single_Single_Single_GateFitMode.Invoke(___genericsType, ___parameters);
+			output = (UnityEngine.Matrix4x4)___parameters[0];
+			sensorSize = (UnityEngine.Vector2)___parameters[2];
+			lensShift = (UnityEngine.Vector2)___parameters[3];
+
+            
+        }
 
 
         public virtual void get_scene_Injected(out UnityEngine.SceneManagement.Scene  @ret)
@@ -6484,9 +6801,67 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
+        public virtual void GetStereoNonJitteredProjectionMatrix_Injected(RType  @eye, out UnityEngine.Matrix4x4  @ret)
+        {
+			ret = default;
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@eye.Value, @ret};
+            var ___result = RGetStereoNonJitteredProjectionMatrix_Injected_StereoscopicEye_Out_Matrix4x4.Invoke(___genericsType, ___parameters);
+			ret = (UnityEngine.Matrix4x4)___parameters[1];
+
+            
+        }
 
 
+        public virtual void GetStereoViewMatrix_Injected(RType  @eye, out UnityEngine.Matrix4x4  @ret)
+        {
+			ret = default;
 
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@eye.Value, @ret};
+            var ___result = RGetStereoViewMatrix_Injected_StereoscopicEye_Out_Matrix4x4.Invoke(___genericsType, ___parameters);
+			ret = (UnityEngine.Matrix4x4)___parameters[1];
+
+            
+        }
+
+
+        public virtual void GetStereoProjectionMatrix_Injected(RType  @eye, out UnityEngine.Matrix4x4  @ret)
+        {
+			ret = default;
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@eye.Value, @ret};
+            var ___result = RGetStereoProjectionMatrix_Injected_StereoscopicEye_Out_Matrix4x4.Invoke(___genericsType, ___parameters);
+			ret = (UnityEngine.Matrix4x4)___parameters[1];
+
+            
+        }
+
+
+        public virtual void SetStereoProjectionMatrix_Injected(RType  @eye, ref UnityEngine.Matrix4x4  @matrix)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@eye.Value, @matrix};
+            var ___result = RSetStereoProjectionMatrix_Injected_StereoscopicEye_Ref_Matrix4x4.Invoke(___genericsType, ___parameters);
+			matrix = (UnityEngine.Matrix4x4)___parameters[1];
+
+            
+        }
+
+
+        public virtual void SetStereoViewMatrix_Injected(RType  @eye, ref UnityEngine.Matrix4x4  @matrix)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@eye.Value, @matrix};
+            var ___result = RSetStereoViewMatrix_Injected_StereoscopicEye_Ref_Matrix4x4.Invoke(___genericsType, ___parameters);
+			matrix = (UnityEngine.Matrix4x4)___parameters[1];
+
+            
+        }
 
 
         public virtual UnityEngine.Component GetComponent(System.Type  @type)

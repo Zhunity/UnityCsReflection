@@ -404,6 +404,26 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 	    {
 	    }
 
+        public virtual System.Int32 Invoke(UnityEngine.UIElements.StyleSheet  @sheet, RUnityEngine.RUIElements.RStyleValueHandle  @handle)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@sheet, @handle.Value};
+            var ___result = RInvoke_StyleSheet_StyleValueHandle.Invoke(___genericsType, ___parameters);
+
+            return (System.Int32)___result;
+        }
+
+
+        public virtual System.IAsyncResult BeginInvoke(UnityEngine.UIElements.StyleSheet  @sheet, RUnityEngine.RUIElements.RStyleValueHandle  @handle, System.AsyncCallback  @callback, System.Object  @object)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@sheet, @handle.Value, @callback, @object};
+            var ___result = RBeginInvoke_StyleSheet_StyleValueHandle_AsyncCallback_Object.Invoke(___genericsType, ___parameters);
+
+            return (System.IAsyncResult)___result;
+        }
 
 
         public virtual System.Int32 EndInvoke(System.IAsyncResult  @result)

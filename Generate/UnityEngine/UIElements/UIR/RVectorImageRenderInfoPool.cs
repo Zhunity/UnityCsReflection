@@ -220,6 +220,16 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
         }
 
 
+        public virtual void Return(RUnityEngine.RUIElements.RUIR.RVectorImageRenderInfo  @item)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@item.Value};
+            var ___result = RReturn_VectorImageRenderInfo.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
 
         public virtual System.Boolean Equals(System.Object  @obj)
         {

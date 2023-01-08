@@ -1167,7 +1167,37 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 	    {
 	    }
 
+        public static void get_property_info(RSystem.RReflection.RRuntimePropertyInfo  @prop, ref RSystem.RReflection.RMonoPropertyInfo  @info, RType  @req_info)
+        {
 
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@prop.Value, @info.Value, @req_info.Value};
+            var ___result = Rget_property_info_RuntimePropertyInfo_Ref_MonoPropertyInfo_PInfo.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public static System.Type[] GetTypeModifiers(RSystem.RReflection.RRuntimePropertyInfo  @prop, System.Boolean  @optional)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@prop.Value, @optional};
+            var ___result = RGetTypeModifiers_RuntimePropertyInfo_Boolean.Invoke(___genericsType, ___parameters);
+
+            return (System.Type[])___result;
+        }
+
+
+        public static System.Object get_default_value(RSystem.RReflection.RRuntimePropertyInfo  @prop)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@prop.Value};
+            var ___result = Rget_default_value_RuntimePropertyInfo.Invoke(___genericsType, ___parameters);
+
+            return (System.Object)___result;
+        }
 
 
         public virtual System.Object GetDeclaringTypeInternal()
@@ -1235,6 +1265,16 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
             return (System.String)___result;
         }
 
+
+        public virtual void CachePropertyInfo(RType  @flags)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@flags.Value};
+            var ___result = RCachePropertyInfo_PInfo.Invoke(___genericsType, ___parameters);
+
+            
+        }
 
 
         public virtual System.Reflection.MethodInfo[] GetAccessors(System.Boolean  @nonPublic)
@@ -1336,6 +1376,26 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
         }
 
 
+        public static System.Object GetterAdapterFrame<T, R>(RSystem.RReflection.RRuntimePropertyInfo.RGetter<RType, RType>  @getter, System.Object  @obj)
+        {
+
+            var ___genericsType = new Type[] {typeof(T), typeof(R)};
+            var ___parameters = new object[]{@getter.Value, @obj};
+            var ___result = RGetterAdapterFrame_GT_GR_Getter_d_T_R_p__Object.Invoke(___genericsType, ___parameters);
+
+            return (System.Object)___result;
+        }
+
+
+        public static System.Object StaticGetterAdapterFrame<R>(RSystem.RReflection.RRuntimePropertyInfo.RStaticGetter<RType>  @getter, System.Object  @obj)
+        {
+
+            var ___genericsType = new Type[] {typeof(R)};
+            var ___parameters = new object[]{@getter.Value, @obj};
+            var ___result = RStaticGetterAdapterFrame_GR_StaticGetter_d_R_p__Object.Invoke(___genericsType, ___parameters);
+
+            return (System.Object)___result;
+        }
 
 
         public static System.Object CreateGetterDelegate(System.Reflection.MethodInfo  @method)
@@ -1437,6 +1497,16 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
         }
 
 
+        public static System.Int32 get_metadata_token(RSystem.RReflection.RRuntimePropertyInfo  @monoProperty)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@monoProperty.Value};
+            var ___result = Rget_metadata_token_RuntimePropertyInfo.Invoke(___genericsType, ___parameters);
+
+            return (System.Int32)___result;
+        }
+
 
         public static System.Reflection.PropertyInfo internal_from_handle_type(System.IntPtr  @event_handle, System.IntPtr  @type_handle)
         {
@@ -1448,6 +1518,16 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
             return (System.Reflection.PropertyInfo)___result;
         }
 
+
+        public static System.Reflection.PropertyInfo GetPropertyFromHandle(RMono.RRuntimePropertyHandle  @handle, System.RuntimeTypeHandle  @reflectedType)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@handle.Value, @reflectedType};
+            var ___result = RGetPropertyFromHandle_RuntimePropertyHandle_RuntimeTypeHandle.Invoke(___genericsType, ___parameters);
+
+            return (System.Reflection.PropertyInfo)___result;
+        }
 
 
         public virtual System.Reflection.MethodInfo[] GetAccessors()

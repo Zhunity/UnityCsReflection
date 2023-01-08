@@ -1065,6 +1065,16 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 	    {
 	    }
 
+        public virtual System.Boolean Equals(RUnityEngine.RTextCore.RText.RTextGenerationSettings  @other)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@other.Value};
+            var ___result = REquals_TextGenerationSettings.Invoke(___genericsType, ___parameters);
+
+            return (System.Boolean)___result;
+        }
+
 
         public virtual System.Boolean Equals(System.Object  @obj)
         {
@@ -1088,7 +1098,37 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
         }
 
 
+        public static System.Boolean op_Equality(RUnityEngine.RTextCore.RText.RTextGenerationSettings  @left, RUnityEngine.RTextCore.RText.RTextGenerationSettings  @right)
+        {
 
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@left.Value, @right.Value};
+            var ___result = Rop_Equality_TextGenerationSettings_TextGenerationSettings.Invoke(___genericsType, ___parameters);
+
+            return (System.Boolean)___result;
+        }
+
+
+        public static System.Boolean op_Inequality(RUnityEngine.RTextCore.RText.RTextGenerationSettings  @left, RUnityEngine.RTextCore.RText.RTextGenerationSettings  @right)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@left.Value, @right.Value};
+            var ___result = Rop_Inequality_TextGenerationSettings_TextGenerationSettings.Invoke(___genericsType, ___parameters);
+
+            return (System.Boolean)___result;
+        }
+
+
+        public virtual void Copy(RUnityEngine.RTextCore.RText.RTextGenerationSettings  @other)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@other.Value};
+            var ___result = RCopy_TextGenerationSettings.Invoke(___genericsType, ___parameters);
+
+            
+        }
 
 
         public virtual void Finalize()

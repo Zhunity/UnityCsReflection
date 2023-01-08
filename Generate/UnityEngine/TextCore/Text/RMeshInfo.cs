@@ -542,6 +542,16 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
         }
 
 
+        public virtual void SortGeometry(RType  @order)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@order.Value};
+            var ___result = RSortGeometry_VertexSortingOrder.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
 
         public virtual void SwapVertexData(System.Int32  @src, System.Int32  @dst)
         {

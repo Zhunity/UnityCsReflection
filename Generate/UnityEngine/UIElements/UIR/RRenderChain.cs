@@ -1609,6 +1609,16 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 	    {
 	    }
 
+        public virtual void Constructor(RUnityEngine.RUIElements.RBaseVisualElementPanel  @panelObj, RUnityEngine.RUIElements.RUIR.RUIRenderDevice  @deviceObj, RUnityEngine.RUIElements.RAtlasBase  @atlas, RUnityEngine.RUIElements.RUIR.RVectorImageManager  @vectorImageMan)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@panelObj.Value, @deviceObj.Value, @atlas.Value, @vectorImageMan.Value};
+            var ___result = RConstructor_BaseVisualElementPanel_UIRenderDevice_AtlasBase_VectorImageManager.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
 
         public virtual void Destructor()
         {
@@ -1830,7 +1840,37 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
         }
 
 
+        public virtual void FreeCommand(RUnityEngine.RUIElements.RUIR.RRenderChainCommand  @cmd)
+        {
 
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@cmd.Value};
+            var ___result = RFreeCommand_RenderChainCommand.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void OnRenderCommandAdded(RUnityEngine.RUIElements.RUIR.RRenderChainCommand  @command)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@command.Value};
+            var ___result = ROnRenderCommandAdded_RenderChainCommand.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void OnRenderCommandsRemoved(RUnityEngine.RUIElements.RUIR.RRenderChainCommand  @firstCommand, RUnityEngine.RUIElements.RUIR.RRenderChainCommand  @lastCommand)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@firstCommand.Value, @lastCommand.Value};
+            var ___result = ROnRenderCommandsRemoved_RenderChainCommand_RenderChainCommand.Invoke(___genericsType, ___parameters);
+
+            
+        }
 
 
         public static System.Object AccessRenderNodeData(System.IntPtr  @obj)
@@ -1866,6 +1906,16 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
         }
 
 
+        public static void OnRegisterIntermediateRendererMat(RUnityEngine.RUIElements.RBaseRuntimePanel  @rtp, RUnityEngine.RUIElements.RUIR.RRenderChain  @renderChain, ref RUnityEngine.RUIElements.RUIR.RRenderChain.RRenderNodeData  @rnd, UnityEngine.Camera  @camera, System.Int32  @sameDistanceSortPriority)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@rtp.Value, @renderChain.Value, @rnd.Value, @camera, @sameDistanceSortPriority};
+            var ___result = ROnRegisterIntermediateRendererMat_BaseRuntimePanel_RenderChain_Ref_RenderNodeData_Camera_Int32.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
 
         public virtual void RepaintTexturedElements()
         {
@@ -1877,6 +1927,16 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
             
         }
 
+
+        public virtual void AppendTexture(UnityEngine.UIElements.VisualElement  @ve, UnityEngine.Texture  @src, RUnityEngine.RUIElements.RTextureId  @id, System.Boolean  @isAtlas)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@ve, @src, @id.Value, @isAtlas};
+            var ___result = RAppendTexture_VisualElement_Texture_TextureId_Boolean.Invoke(___genericsType, ___parameters);
+
+            
+        }
 
 
         public virtual void ResetTextures(UnityEngine.UIElements.VisualElement  @ve)

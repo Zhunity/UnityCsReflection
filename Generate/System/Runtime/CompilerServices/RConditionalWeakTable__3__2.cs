@@ -370,17 +370,17 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RCompilerServices
 		/// <summary>
 		/// System.Collections.Generic.IEnumerator`1[System.Collections.Generic.KeyValuePair`2[TKey,TValue]] System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<TKey,TValue>>.GetEnumerator()
 		/// </summary>
-		protected RMethod r_System__2__Collections__2__Generic__2__IEnumerable__0__System__2__Collections__2__Generic__2__KeyValuePair__0__TKey__4__TValue__1____1____2__GetEnumerator;
-		public virtual RMethod RSystem__2__Collections__2__Generic__2__IEnumerable__0__System__2__Collections__2__Generic__2__KeyValuePair__0__TKey__4__TValue__1____1____2__GetEnumerator
+		protected RMethod r_System__2__Collections__2__Generic__2__IEnumerable__0__System__2__Collections__2__Generic__2__KeyValuePair__0__TKey__5__TValue__1____1____2__GetEnumerator;
+		public virtual RMethod RSystem__2__Collections__2__Generic__2__IEnumerable__0__System__2__Collections__2__Generic__2__KeyValuePair__0__TKey__5__TValue__1____1____2__GetEnumerator
 		{
 			get
 			{
-				if(r_System__2__Collections__2__Generic__2__IEnumerable__0__System__2__Collections__2__Generic__2__KeyValuePair__0__TKey__4__TValue__1____1____2__GetEnumerator == null)
+				if(r_System__2__Collections__2__Generic__2__IEnumerable__0__System__2__Collections__2__Generic__2__KeyValuePair__0__TKey__5__TValue__1____1____2__GetEnumerator == null)
 				{
-					r_System__2__Collections__2__Generic__2__IEnumerable__0__System__2__Collections__2__Generic__2__KeyValuePair__0__TKey__4__TValue__1____1____2__GetEnumerator = new(this, "System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<TKey,TValue>>.GetEnumerator", 0);
-					r_System__2__Collections__2__Generic__2__IEnumerable__0__System__2__Collections__2__Generic__2__KeyValuePair__0__TKey__4__TValue__1____1____2__GetEnumerator.SetBelong(this.instance);
+					r_System__2__Collections__2__Generic__2__IEnumerable__0__System__2__Collections__2__Generic__2__KeyValuePair__0__TKey__5__TValue__1____1____2__GetEnumerator = new(this, "System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<TKey,TValue>>.GetEnumerator", 0);
+					r_System__2__Collections__2__Generic__2__IEnumerable__0__System__2__Collections__2__Generic__2__KeyValuePair__0__TKey__5__TValue__1____1____2__GetEnumerator.SetBelong(this.instance);
 				}
-				return r_System__2__Collections__2__Generic__2__IEnumerable__0__System__2__Collections__2__Generic__2__KeyValuePair__0__TKey__4__TValue__1____1____2__GetEnumerator;
+				return r_System__2__Collections__2__Generic__2__IEnumerable__0__System__2__Collections__2__Generic__2__KeyValuePair__0__TKey__5__TValue__1____1____2__GetEnumerator;
 			}
 		}
 
@@ -605,6 +605,16 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RCompilerServices
         }
 
 
+        public virtual TValue GetValue(TKey  @key, RSystem.RRuntime.RCompilerServices.RConditionalWeakTable<RType, RType>.RCreateValueCallback  @createValueCallback)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@key, @createValueCallback.Value};
+            var ___result = RGetValue_TKey_CreateValueCallback.Invoke(___genericsType, ___parameters);
+
+            return (TValue)___result;
+        }
+
 
         public virtual TKey FindEquivalentKeyUnsafe(TKey  @key, out TValue  @value)
         {
@@ -630,12 +640,12 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RCompilerServices
         }
 
 
-        public virtual System.Collections.Generic.IEnumerator<System.Collections.Generic.KeyValuePair<TKey, TValue>> System__2__Collections__2__Generic__2__IEnumerable__0__System__2__Collections__2__Generic__2__KeyValuePair__0__TKey__4__TValue__1____1____2__GetEnumerator()
+        public virtual System.Collections.Generic.IEnumerator<System.Collections.Generic.KeyValuePair<TKey, TValue>> System__2__Collections__2__Generic__2__IEnumerable__0__System__2__Collections__2__Generic__2__KeyValuePair__0__TKey__5__TValue__1____1____2__GetEnumerator()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RSystem__2__Collections__2__Generic__2__IEnumerable__0__System__2__Collections__2__Generic__2__KeyValuePair__0__TKey__4__TValue__1____1____2__GetEnumerator.Invoke(___genericsType, ___parameters);
+            var ___result = RSystem__2__Collections__2__Generic__2__IEnumerable__0__System__2__Collections__2__Generic__2__KeyValuePair__0__TKey__5__TValue__1____1____2__GetEnumerator.Invoke(___genericsType, ___parameters);
 
             return (System.Collections.Generic.IEnumerator<System.Collections.Generic.KeyValuePair<TKey, TValue>>)___result;
         }

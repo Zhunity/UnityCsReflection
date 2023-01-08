@@ -296,6 +296,26 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
         }
 
 
+        public virtual void RegisterDirty(UnityEngine.UIElements.VisualElement  @ve, RType  @dirtyTypes, RType  @dirtyTypeClass)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@ve, @dirtyTypes.Value, @dirtyTypeClass.Value};
+            var ___result = RRegisterDirty_VisualElement_RenderDataDirtyTypes_RenderDataDirtyTypeClasses.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void ClearDirty(UnityEngine.UIElements.VisualElement  @ve, RType  @dirtyTypesInverse)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@ve, @dirtyTypesInverse.Value};
+            var ___result = RClearDirty_VisualElement_RenderDataDirtyTypes.Invoke(___genericsType, ___parameters);
+
+            
+        }
 
 
         public virtual void Reset()

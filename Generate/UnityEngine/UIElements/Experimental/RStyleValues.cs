@@ -691,6 +691,26 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
 	    {
 	    }
 
+        public virtual void SetValue(RType  @id, System.Single  @value)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@id.Value, @value};
+            var ___result = RSetValue_StylePropertyId_Single.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void SetValue(RType  @id, UnityEngine.Color  @value)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@id.Value, @value};
+            var ___result = RSetValue_StylePropertyId_Color.Invoke(___genericsType, ___parameters);
+
+            
+        }
 
 
         public virtual System.Object Values()

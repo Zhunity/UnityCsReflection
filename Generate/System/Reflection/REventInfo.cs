@@ -1032,6 +1032,26 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
         }
 
 
+        public static void AddEventFrame<T, D>(RSystem.RReflection.REventInfo.RAddEvent<RType, RType>  @addEvent, System.Object  @obj, System.Object  @dele)
+        {
+
+            var ___genericsType = new Type[] {typeof(T), typeof(D)};
+            var ___parameters = new object[]{@addEvent.Value, @obj, @dele};
+            var ___result = RAddEventFrame_GT_GD_AddEvent_d_T_D_p__Object_Object.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public static void StaticAddEventAdapterFrame<D>(RSystem.RReflection.REventInfo.RStaticAddEvent<RType>  @addEvent, System.Object  @obj, System.Object  @dele)
+        {
+
+            var ___genericsType = new Type[] {typeof(D)};
+            var ___parameters = new object[]{@addEvent.Value, @obj, @dele};
+            var ___result = RStaticAddEventAdapterFrame_GD_StaticAddEvent_d_D_p__Object_Object.Invoke(___genericsType, ___parameters);
+
+            
+        }
 
 
         public static System.Object CreateAddEventDelegate(System.Reflection.MethodInfo  @method)
@@ -1055,6 +1075,16 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
             return (System.Reflection.EventInfo)___result;
         }
 
+
+        public static System.Reflection.EventInfo GetEventFromHandle(RMono.RRuntimeEventHandle  @handle, System.RuntimeTypeHandle  @reflectedType)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@handle.Value, @reflectedType};
+            var ___result = RGetEventFromHandle_RuntimeEventHandle_RuntimeTypeHandle.Invoke(___genericsType, ___parameters);
+
+            return (System.Reflection.EventInfo)___result;
+        }
 
 
         public virtual void System__2__Runtime__2__InteropServices__2___EventInfo__2__GetIDsOfNames(in System.Guid  @riid, System.IntPtr  @rgszNames, System.UInt32  @cNames, System.UInt32  @lcid, System.IntPtr  @rgDispId)

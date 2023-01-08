@@ -368,7 +368,37 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 	    {
 	    }
 
+        public virtual void Add(ref RUnityEngine.RUIElements.RUIR.RNudgeJobData  @job)
+        {
 
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@job.Value};
+            var ___result = RAdd_Ref_NudgeJobData.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void Add(ref RUnityEngine.RUIElements.RUIR.RConvertMeshJobData  @job)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@job.Value};
+            var ___result = RAdd_Ref_ConvertMeshJobData.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void Add(ref RUnityEngine.RUIElements.RUIR.RCopyClosingMeshJobData  @job)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@job.Value};
+            var ___result = RAdd_Ref_CopyClosingMeshJobData.Invoke(___genericsType, ___parameters);
+
+            
+        }
 
 
         public virtual void CompleteNudgeJobs()

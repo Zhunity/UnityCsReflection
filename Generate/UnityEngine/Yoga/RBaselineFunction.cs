@@ -402,6 +402,26 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
 	    {
 	    }
 
+        public virtual System.Single Invoke(RUnityEngine.RYoga.RYogaNode  @node, System.Single  @width, System.Single  @height)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@node.Value, @width, @height};
+            var ___result = RInvoke_YogaNode_Single_Single.Invoke(___genericsType, ___parameters);
+
+            return (System.Single)___result;
+        }
+
+
+        public virtual System.IAsyncResult BeginInvoke(RUnityEngine.RYoga.RYogaNode  @node, System.Single  @width, System.Single  @height, System.AsyncCallback  @callback, System.Object  @object)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@node.Value, @width, @height, @callback, @object};
+            var ___result = RBeginInvoke_YogaNode_Single_Single_AsyncCallback_Object.Invoke(___genericsType, ___parameters);
+
+            return (System.IAsyncResult)___result;
+        }
 
 
         public virtual System.Single EndInvoke(System.IAsyncResult  @result)

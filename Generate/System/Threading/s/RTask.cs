@@ -3870,6 +3870,26 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 	    {
 	    }
 
+        public virtual void TaskConstructorCore(System.Delegate  @action, System.Object  @state, System.Threading.CancellationToken  @cancellationToken, System.Threading.Tasks.TaskCreationOptions  @creationOptions, RType  @internalOptions, System.Threading.Tasks.TaskScheduler  @scheduler)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@action, @state, @cancellationToken, @creationOptions, @internalOptions.Value, @scheduler};
+            var ___result = RTaskConstructorCore_Delegate_Object_CancellationToken_TaskCreationOptions_InternalTaskOptions_TaskScheduler.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void AssignCancellationToken(System.Threading.CancellationToken  @cancellationToken, System.Threading.Tasks.Task  @antecedent, RSystem.RThreading.RTasks.RTaskContinuation  @continuation)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@cancellationToken, @antecedent, @continuation.Value};
+            var ___result = RAssignCancellationToken_CancellationToken_Task_TaskContinuation.Invoke(___genericsType, ___parameters);
+
+            
+        }
 
 
         public static void TaskCancelCallback(System.Object  @o)
@@ -4081,6 +4101,16 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
             
         }
 
+
+        public static System.Threading.Tasks.Task InternalStartNew(System.Threading.Tasks.Task  @creatingTask, System.Delegate  @action, System.Object  @state, System.Threading.CancellationToken  @cancellationToken, System.Threading.Tasks.TaskScheduler  @scheduler, System.Threading.Tasks.TaskCreationOptions  @options, RType  @internalOptions)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@creatingTask, @action, @state, @cancellationToken, @scheduler, @options, @internalOptions.Value};
+            var ___result = RInternalStartNew_Task_Delegate_Object_CancellationToken_TaskScheduler_TaskCreationOptions_InternalTaskOptions.Invoke(___genericsType, ___parameters);
+
+            return (System.Threading.Tasks.Task)___result;
+        }
 
 
         public static System.Threading.Tasks.Task InternalCurrentIfAttached(System.Threading.Tasks.TaskCreationOptions  @creationOptions)
@@ -4853,6 +4883,19 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
         }
 
 
+        public static void CreationOptionsFromContinuationOptions(System.Threading.Tasks.TaskContinuationOptions  @continuationOptions, out System.Threading.Tasks.TaskCreationOptions  @creationOptions, out RType  @internalOptions)
+        {
+			creationOptions = default;
+			internalOptions = default;
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@continuationOptions, @creationOptions, @internalOptions.Value};
+            var ___result = RCreationOptionsFromContinuationOptions_TaskContinuationOptions_Out_TaskCreationOptions_Out_InternalTaskOptions.Invoke(___genericsType, ___parameters);
+			creationOptions = (System.Threading.Tasks.TaskCreationOptions)___parameters[1];
+
+            
+        }
+
 
         public virtual void ContinueWithCore(System.Threading.Tasks.Task  @continuationTask, System.Threading.Tasks.TaskScheduler  @scheduler, System.Threading.CancellationToken  @cancellationToken, System.Threading.Tasks.TaskContinuationOptions  @options)
         {
@@ -4865,6 +4908,26 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
         }
 
 
+        public virtual void AddCompletionAction(RSystem.RThreading.RTasks.RITaskCompletionAction  @action)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@action.Value};
+            var ___result = RAddCompletionAction_ITaskCompletionAction.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void AddCompletionAction(RSystem.RThreading.RTasks.RITaskCompletionAction  @action, System.Boolean  @addBeforeOthers)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@action.Value, @addBeforeOthers};
+            var ___result = RAddCompletionAction_ITaskCompletionAction_Boolean.Invoke(___genericsType, ___parameters);
+
+            
+        }
 
 
         public virtual System.Boolean AddTaskContinuationComplex(System.Object  @tc, System.Boolean  @addBeforeOthers)
@@ -4955,7 +5018,37 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
         }
 
 
+        public static void AddToList<T>(T  @item, ref RSystem.RCollections.RGeneric.RLowLevelListWithIList<RType>  @list, System.Int32  @initSize)
+        {
 
+            var ___genericsType = new Type[] {typeof(T)};
+            var ___parameters = new object[]{@item, @list.Value, @initSize};
+            var ___result = RAddToList_GT_T_Ref_LowLevelListWithIList_d_T_p__Int32.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public static System.Boolean WaitAllBlockingCore(RSystem.RCollections.RGeneric.RLowLevelListWithIList<RSystem.RThreading.RTasks.RTask>  @tasks, System.Int32  @millisecondsTimeout, System.Threading.CancellationToken  @cancellationToken)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@tasks.Value, @millisecondsTimeout, @cancellationToken};
+            var ___result = RWaitAllBlockingCore_LowLevelListWithIList_d_Task_p__Int32_CancellationToken.Invoke(___genericsType, ___parameters);
+
+            return (System.Boolean)___result;
+        }
+
+
+        public static void AddExceptionsForCompletedTask(ref RSystem.RCollections.RGeneric.RLowLevelListWithIList<RSystem.RException>  @exceptions, System.Threading.Tasks.Task  @t)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@exceptions.Value, @t};
+            var ___result = RAddExceptionsForCompletedTask_Ref_LowLevelListWithIList_d_Exception_p__Task.Invoke(___genericsType, ___parameters);
+
+            
+        }
 
 
         public static System.Int32 WaitAny(System.Threading.Tasks.Task[]  @tasks)

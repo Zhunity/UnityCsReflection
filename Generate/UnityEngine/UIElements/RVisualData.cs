@@ -498,8 +498,48 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
+        public virtual void CopyFrom(ref RUnityEngine.RUIElements.RVisualData  @other)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@other.Value};
+            var ___result = RCopyFrom_Ref_VisualData.Invoke(___genericsType, ___parameters);
+
+            
+        }
 
 
+        public static System.Boolean op_Equality(RUnityEngine.RUIElements.RVisualData  @lhs, RUnityEngine.RUIElements.RVisualData  @rhs)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@lhs.Value, @rhs.Value};
+            var ___result = Rop_Equality_VisualData_VisualData.Invoke(___genericsType, ___parameters);
+
+            return (System.Boolean)___result;
+        }
+
+
+        public static System.Boolean op_Inequality(RUnityEngine.RUIElements.RVisualData  @lhs, RUnityEngine.RUIElements.RVisualData  @rhs)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@lhs.Value, @rhs.Value};
+            var ___result = Rop_Inequality_VisualData_VisualData.Invoke(___genericsType, ___parameters);
+
+            return (System.Boolean)___result;
+        }
+
+
+        public virtual System.Boolean Equals(RUnityEngine.RUIElements.RVisualData  @other)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@other.Value};
+            var ___result = REquals_VisualData.Invoke(___genericsType, ___parameters);
+
+            return (System.Boolean)___result;
+        }
 
 
         public virtual System.Boolean Equals(System.Object  @obj)

@@ -450,6 +450,16 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
         }
 
 
+        public static System.Collections.Generic.IList<System.Reflection.CustomAttributeData> GetCustomAttributesInternal(RSystem.RRuntimeType  @target)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@target.Value};
+            var ___result = RGetCustomAttributesInternal_RuntimeType.Invoke(___genericsType, ___parameters);
+
+            return (System.Collections.Generic.IList<System.Reflection.CustomAttributeData>)___result;
+        }
+
 
         public static System.Collections.Generic.IList<System.Reflection.CustomAttributeData> GetCustomAttributes(System.Reflection.Module  @target)
         {

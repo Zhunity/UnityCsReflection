@@ -532,8 +532,48 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
+        public virtual void UnregisterAnimation(RUnityEngine.RUIElements.RExperimental.RIValueAnimationUpdate  @anim)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@anim.Value};
+            var ___result = RUnregisterAnimation_IValueAnimationUpdate.Invoke(___genericsType, ___parameters);
+
+            
+        }
 
 
+        public virtual void UnregisterAnimations(RSystem.RCollections.RGeneric.RList<RUnityEngine.RUIElements.RExperimental.RIValueAnimationUpdate>  @anims)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@anims.Value};
+            var ___result = RUnregisterAnimations_List_d_IValueAnimationUpdate_p_.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void RegisterAnimation(RUnityEngine.RUIElements.RExperimental.RIValueAnimationUpdate  @anim)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@anim.Value};
+            var ___result = RRegisterAnimation_IValueAnimationUpdate.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void RegisterAnimations(RSystem.RCollections.RGeneric.RList<RUnityEngine.RUIElements.RExperimental.RIValueAnimationUpdate>  @anims)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@anims.Value};
+            var ___result = RRegisterAnimations_List_d_IValueAnimationUpdate_p_.Invoke(___genericsType, ___parameters);
+
+            
+        }
 
 
         public virtual void Update()
@@ -546,6 +586,16 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
             
         }
 
+
+        public virtual void OnVersionChanged(UnityEngine.UIElements.VisualElement  @ve, RType  @versionChangeType)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@ve, @versionChangeType.Value};
+            var ___result = ROnVersionChanged_VisualElement_VersionChangeType.Invoke(___genericsType, ___parameters);
+
+            
+        }
 
 
         public virtual void Dispose()

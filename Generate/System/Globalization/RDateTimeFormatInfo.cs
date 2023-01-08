@@ -3419,6 +3419,16 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
+        public virtual void InitializeOverridableProperties(RSystem.RGlobalization.RCultureData  @cultureData, System.Int32  @calendarId)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@cultureData.Value, @calendarId};
+            var ___result = RInitializeOverridableProperties_CultureData_Int32.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
 
         public static System.Globalization.DateTimeFormatInfo GetInstance(System.IFormatProvider  @provider)
         {
@@ -3496,6 +3506,16 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
             
         }
 
+
+        public virtual System.String internalGetMonthName(System.Int32  @month, RType  @style, System.Boolean  @abbreviated)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@month, @style.Value, @abbreviated};
+            var ___result = RinternalGetMonthName_Int32_MonthNameStyles_Boolean.Invoke(___genericsType, ___parameters);
+
+            return (System.String)___result;
+        }
 
 
         public virtual System.String[] internalGetGenitiveMonthNames(System.Boolean  @abbreviated)
@@ -3720,6 +3740,17 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
+        public virtual void PopulateSpecialTokenHashTable(RTypeArray<RSystem.RGlobalization.RDateTimeFormatInfo.RTokenHashValue>  @temp, ref System.Boolean  @useDateSepAsIgnorableSymbol)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@temp.Value, @useDateSepAsIgnorableSymbol};
+            var ___result = RPopulateSpecialTokenHashTable_TokenHashValueArray_Ref_Boolean.Invoke(___genericsType, ___parameters);
+			useDateSepAsIgnorableSymbol = (System.Boolean)___parameters[1];
+
+            
+        }
+
 
         public static System.Boolean IsJapaneseCalendar(System.Globalization.Calendar  @calendar)
         {
@@ -3732,6 +3763,30 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
+        public virtual void AddMonthNames(RTypeArray<RSystem.RGlobalization.RDateTimeFormatInfo.RTokenHashValue>  @temp, System.String  @monthPostfix)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@temp.Value, @monthPostfix};
+            var ___result = RAddMonthNames_TokenHashValueArray_String.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public static System.Boolean TryParseHebrewNumber(ref RSystem.R__DTString  @str, out System.Boolean  @badFormat, out System.Int32  @number)
+        {
+			badFormat = default;
+			number = default;
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@str.Value, @badFormat, @number};
+            var ___result = RTryParseHebrewNumber_Ref___DTString_Out_Boolean_Out_Int32.Invoke(___genericsType, ___parameters);
+			badFormat = (System.Boolean)___parameters[1];
+			number = (System.Int32)___parameters[2];
+
+            return (System.Boolean)___result;
+        }
 
 
         public static System.Boolean IsHebrewChar(System.Char  @ch)
@@ -3756,7 +3811,40 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
+        public virtual System.Boolean Tokenize(RType  @TokenMask, out RType  @tokenType, out System.Int32  @tokenValue, ref RSystem.R__DTString  @str)
+        {
+			tokenType = default;
+			tokenValue = default;
 
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@TokenMask.Value, @tokenType.Value, @tokenValue, @str.Value};
+            var ___result = RTokenize_TokenType_Out_TokenType_Out_Int32_Ref___DTString.Invoke(___genericsType, ___parameters);
+			tokenValue = (System.Int32)___parameters[2];
+
+            return (System.Boolean)___result;
+        }
+
+
+        public virtual void InsertAtCurrentHashNode(RTypeArray<RSystem.RGlobalization.RDateTimeFormatInfo.RTokenHashValue>  @hashTable, System.String  @str, System.Char  @ch, RType  @tokenType, System.Int32  @tokenValue, System.Int32  @pos, System.Int32  @hashcode, System.Int32  @hashProbe)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@hashTable.Value, @str, @ch, @tokenType.Value, @tokenValue, @pos, @hashcode, @hashProbe};
+            var ___result = RInsertAtCurrentHashNode_TokenHashValueArray_String_Char_TokenType_Int32_Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void InsertHash(RTypeArray<RSystem.RGlobalization.RDateTimeFormatInfo.RTokenHashValue>  @hashTable, System.String  @str, RType  @tokenType, System.Int32  @tokenValue)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@hashTable.Value, @str, @tokenType.Value, @tokenValue};
+            var ___result = RInsertHash_TokenHashValueArray_String_TokenType_Int32.Invoke(___genericsType, ___parameters);
+
+            
+        }
 
 
         public virtual System.Boolean CompareStringIgnoreCaseOptimized(System.String  @string1, System.Int32  @offset1, System.Int32  @length1, System.String  @string2, System.Int32  @offset2, System.Int32  @length2)

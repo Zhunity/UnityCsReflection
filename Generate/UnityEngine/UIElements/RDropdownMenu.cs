@@ -345,8 +345,48 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
+        public virtual void AppendAction(System.String  @actionName, System.Action<UnityEngine.UIElements.DropdownMenuAction>  @action, RSystem.RFunc<RUnityEngine.RUIElements.RDropdownMenuAction, RType>  @actionStatusCallback, System.Object  @userData)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@actionName, @action, @actionStatusCallback.Value, @userData};
+            var ___result = RAppendAction_String_Action_d_DropdownMenuAction_p__Func_d_DropdownMenuAction_Status_p__Object.Invoke(___genericsType, ___parameters);
+
+            
+        }
 
 
+        public virtual void AppendAction(System.String  @actionName, System.Action<UnityEngine.UIElements.DropdownMenuAction>  @action, RType  @status)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@actionName, @action, @status.Value};
+            var ___result = RAppendAction_String_Action_d_DropdownMenuAction_p__Status.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void InsertAction(System.Int32  @atIndex, System.String  @actionName, System.Action<UnityEngine.UIElements.DropdownMenuAction>  @action, RSystem.RFunc<RUnityEngine.RUIElements.RDropdownMenuAction, RType>  @actionStatusCallback, System.Object  @userData)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@atIndex, @actionName, @action, @actionStatusCallback.Value, @userData};
+            var ___result = RInsertAction_Int32_String_Action_d_DropdownMenuAction_p__Func_d_DropdownMenuAction_Status_p__Object.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void InsertAction(System.Int32  @atIndex, System.String  @actionName, System.Action<UnityEngine.UIElements.DropdownMenuAction>  @action, RType  @status)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@atIndex, @actionName, @action, @status.Value};
+            var ___result = RInsertAction_Int32_String_Action_d_DropdownMenuAction_p__Status.Invoke(___genericsType, ___parameters);
+
+            
+        }
 
 
         public virtual void AppendSeparator(System.String  @subMenuPath)

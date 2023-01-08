@@ -1201,6 +1201,26 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 	    {
 	    }
 
+        public virtual void SetContext(UnityEngine.UIElements.StyleSheet  @sheet, RUnityEngine.RUIElements.RStyleComplexSelector  @selector, RUnityEngine.RUIElements.RStyleVariableContext  @varContext, System.Single  @dpiScaling)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@sheet, @selector.Value, @varContext.Value, @dpiScaling};
+            var ___result = RSetContext_StyleSheet_StyleComplexSelector_StyleVariableContext_Single.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void SetInlineContext(UnityEngine.UIElements.StyleSheet  @sheet, RTypeArray<RUnityEngine.RUIElements.RStyleProperty>  @properties, RTypeArray<RType>  @propertyIds, System.Single  @dpiScaling)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@sheet, @properties.Value, @propertyIds.Value, @dpiScaling};
+            var ___result = RSetInlineContext_StyleSheet_StylePropertyArray_StylePropertyIdArray_Single.Invoke(___genericsType, ___parameters);
+
+            
+        }
 
 
         public virtual System.Object MoveNextProperty()
@@ -1236,6 +1256,26 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
         }
 
 
+        public virtual System.Boolean IsValueType(System.Int32  @index, RType  @type)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@index, @type.Value};
+            var ___result = RIsValueType_Int32_StyleValueType.Invoke(___genericsType, ___parameters);
+
+            return (System.Boolean)___result;
+        }
+
+
+        public virtual System.Boolean IsKeyword(System.Int32  @index, RType  @keyword)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@index, @keyword.Value};
+            var ___result = RIsKeyword_Int32_StyleValueKeyword.Invoke(___genericsType, ___parameters);
+
+            return (System.Boolean)___result;
+        }
 
 
         public virtual System.String ReadAsString(System.Int32  @index)
@@ -1347,6 +1387,16 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
             return (UnityEngine.Color)___result;
         }
 
+
+        public virtual System.Int32 ReadEnum(RType  @enumType, System.Int32  @index)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@enumType.Value, @index};
+            var ___result = RReadEnum_StyleEnumType_Int32.Invoke(___genericsType, ___parameters);
+
+            return (System.Int32)___result;
+        }
 
 
         public virtual UnityEngine.UIElements.FontDefinition ReadFontDefinition(System.Int32  @index)
@@ -1525,16 +1575,143 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
         }
 
 
+        public static UnityEngine.UIElements.TransformOrigin ReadTransformOrigin(System.Int32  @valCount, RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue  @val1, RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue  @val2, RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue  @zVvalue)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@valCount, @val1.Value, @val2.Value, @zVvalue.Value};
+            var ___result = RReadTransformOrigin_Int32_StylePropertyValue_StylePropertyValue_StylePropertyValue.Invoke(___genericsType, ___parameters);
+
+            return (UnityEngine.UIElements.TransformOrigin)___result;
+        }
 
 
+        public static UnityEngine.UIElements.Length ReadTransformOriginEnum(RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue  @value, out System.Boolean  @isVertical, out System.Boolean  @isHorizontal)
+        {
+			isVertical = default;
+			isHorizontal = default;
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@value.Value, @isVertical, @isHorizontal};
+            var ___result = RReadTransformOriginEnum_StylePropertyValue_Out_Boolean_Out_Boolean.Invoke(___genericsType, ___parameters);
+			isVertical = (System.Boolean)___parameters[1];
+			isHorizontal = (System.Boolean)___parameters[2];
+
+            return (UnityEngine.UIElements.Length)___result;
+        }
 
 
+        public static UnityEngine.UIElements.Translate ReadTranslate(System.Int32  @valCount, RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue  @val1, RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue  @val2, RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue  @val3)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@valCount, @val1.Value, @val2.Value, @val3.Value};
+            var ___result = RReadTranslate_Int32_StylePropertyValue_StylePropertyValue_StylePropertyValue.Invoke(___genericsType, ___parameters);
+
+            return (UnityEngine.UIElements.Translate)___result;
+        }
 
 
+        public static UnityEngine.UIElements.Scale ReadScale(System.Int32  @valCount, RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue  @val1, RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue  @val2, RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue  @val3)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@valCount, @val1.Value, @val2.Value, @val3.Value};
+            var ___result = RReadScale_Int32_StylePropertyValue_StylePropertyValue_StylePropertyValue.Invoke(___genericsType, ___parameters);
+
+            return (UnityEngine.UIElements.Scale)___result;
+        }
 
 
+        public static UnityEngine.UIElements.Rotate ReadRotate(System.Int32  @valCount, RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue  @val1, RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue  @val2, RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue  @val3, RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue  @val4)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@valCount, @val1.Value, @val2.Value, @val3.Value, @val4.Value};
+            var ___result = RReadRotate_Int32_StylePropertyValue_StylePropertyValue_StylePropertyValue_StylePropertyValue.Invoke(___genericsType, ___parameters);
+
+            return (UnityEngine.UIElements.Rotate)___result;
+        }
 
 
+        public static System.Boolean TryReadEnum(RType  @enumType, RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue  @value, out System.Int32  @intValue)
+        {
+			intValue = default;
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@enumType.Value, @value.Value, @intValue};
+            var ___result = RTryReadEnum_StyleEnumType_StylePropertyValue_Out_Int32.Invoke(___genericsType, ___parameters);
+			intValue = (System.Int32)___parameters[2];
+
+            return (System.Boolean)___result;
+        }
+
+
+        public static System.Int32 ReadEnum(RType  @enumType, RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue  @value)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@enumType.Value, @value.Value};
+            var ___result = RReadEnum_StyleEnumType_StylePropertyValue.Invoke(___genericsType, ___parameters);
+
+            return (System.Int32)___result;
+        }
+
+
+        public static UnityEngine.UIElements.Angle ReadAngle(RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue  @value)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@value.Value};
+            var ___result = RReadAngle_StylePropertyValue.Invoke(___genericsType, ___parameters);
+
+            return (UnityEngine.UIElements.Angle)___result;
+        }
+
+
+        public static UnityEngine.UIElements.BackgroundPosition ReadBackgroundPosition(System.Int32  @valCount, RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue  @val1, RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue  @val2, UnityEngine.UIElements.BackgroundPositionKeyword  @keyword)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@valCount, @val1.Value, @val2.Value, @keyword};
+            var ___result = RReadBackgroundPosition_Int32_StylePropertyValue_StylePropertyValue_BackgroundPositionKeyword.Invoke(___genericsType, ___parameters);
+
+            return (UnityEngine.UIElements.BackgroundPosition)___result;
+        }
+
+
+        public static UnityEngine.UIElements.BackgroundRepeat ReadBackgroundRepeat(System.Int32  @valCount, RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue  @val1, RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue  @val2)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@valCount, @val1.Value, @val2.Value};
+            var ___result = RReadBackgroundRepeat_Int32_StylePropertyValue_StylePropertyValue.Invoke(___genericsType, ___parameters);
+
+            return (UnityEngine.UIElements.BackgroundRepeat)___result;
+        }
+
+
+        public static UnityEngine.UIElements.BackgroundSize ReadBackgroundSize(System.Int32  @valCount, RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue  @val1, RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue  @val2)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@valCount, @val1.Value, @val2.Value};
+            var ___result = RReadBackgroundSize_Int32_StylePropertyValue_StylePropertyValue.Invoke(___genericsType, ___parameters);
+
+            return (UnityEngine.UIElements.BackgroundSize)___result;
+        }
+
+
+        public static System.Boolean TryGetImageSourceFromValue(RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue  @propertyValue, System.Single  @dpiScaling, out RUnityEngine.RUIElements.RStyleSheets.RImageSource  @source)
+        {
+			source = default;
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@propertyValue.Value, @dpiScaling, @source.Value};
+            var ___result = RTryGetImageSourceFromValue_StylePropertyValue_Single_Out_ImageSource.Invoke(___genericsType, ___parameters);
+
+            return (System.Boolean)___result;
+        }
 
 
         public virtual System.Boolean Equals(System.Object  @obj)

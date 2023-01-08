@@ -913,6 +913,26 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
+        public virtual System.Boolean RemoveAsyncWaiter(RSystem.RThreading.RSemaphoreSlim.RTaskNode  @task)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@task.Value};
+            var ___result = RRemoveAsyncWaiter_TaskNode.Invoke(___genericsType, ___parameters);
+
+            return (System.Boolean)___result;
+        }
+
+
+        public virtual System.Threading.Tasks.Task<System.Boolean> WaitUntilCountOrTimeoutAsync(RSystem.RThreading.RSemaphoreSlim.RTaskNode  @asyncWaiter, System.Int32  @millisecondsTimeout, System.Threading.CancellationToken  @cancellationToken)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@asyncWaiter.Value, @millisecondsTimeout, @cancellationToken};
+            var ___result = RWaitUntilCountOrTimeoutAsync_TaskNode_Int32_CancellationToken.Invoke(___genericsType, ___parameters);
+
+            return (System.Threading.Tasks.Task<System.Boolean>)___result;
+        }
 
 
         public virtual System.Int32 Release()
@@ -936,6 +956,16 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
             return (System.Int32)___result;
         }
 
+
+        public static void QueueWaiterTask(RSystem.RThreading.RSemaphoreSlim.RTaskNode  @waiterTask)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@waiterTask.Value};
+            var ___result = RQueueWaiterTask_TaskNode.Invoke(___genericsType, ___parameters);
+
+            
+        }
 
 
         public virtual void Dispose()

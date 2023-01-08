@@ -3963,6 +3963,16 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
+        public virtual System.Reflection.Assembly LoadAssembly(System.String  @assemblyRef, System.Security.Policy.Evidence  @securityEvidence, System.Boolean  @refOnly, ref RType  @stackMark)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@assemblyRef, @securityEvidence, @refOnly, @stackMark.Value};
+            var ___result = RLoadAssembly_String_Evidence_Boolean_Ref_StackCrawlMark.Invoke(___genericsType, ___parameters);
+
+            return (System.Reflection.Assembly)___result;
+        }
+
 
         public virtual System.Reflection.Assembly Load(System.Reflection.AssemblyName  @assemblyRef)
         {
@@ -3974,6 +3984,16 @@ namespace SMFrame.Editor.Refleaction.RSystem
             return (System.Reflection.Assembly)___result;
         }
 
+
+        public virtual System.Reflection.Assembly LoadSatellite(System.Reflection.AssemblyName  @assemblyRef, System.Boolean  @throwOnError, ref RType  @stackMark)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@assemblyRef, @throwOnError, @stackMark.Value};
+            var ___result = RLoadSatellite_AssemblyName_Boolean_Ref_StackCrawlMark.Invoke(___genericsType, ___parameters);
+
+            return (System.Reflection.Assembly)___result;
+        }
 
 
         public virtual System.Reflection.Assembly Load(System.Reflection.AssemblyName  @assemblyRef, System.Security.Policy.Evidence  @assemblySecurity)
@@ -4008,6 +4028,16 @@ namespace SMFrame.Editor.Refleaction.RSystem
             return (System.Reflection.Assembly)___result;
         }
 
+
+        public virtual System.Reflection.Assembly Load(System.String  @assemblyString, System.Security.Policy.Evidence  @assemblySecurity, System.Boolean  @refonly, ref RType  @stackMark)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@assemblyString, @assemblySecurity, @refonly, @stackMark.Value};
+            var ___result = RLoad_String_Evidence_Boolean_Ref_StackCrawlMark.Invoke(___genericsType, ___parameters);
+
+            return (System.Reflection.Assembly)___result;
+        }
 
 
         public virtual System.Reflection.Assembly Load(System.Byte[]  @rawAssembly)
@@ -4559,6 +4589,19 @@ namespace SMFrame.Editor.Refleaction.RSystem
             return (System.Byte[])___result;
         }
 
+
+        public virtual void ProcessMessageInDomain(System.Byte[]  @arrRequest, RSystem.RRuntime.RRemoting.RMessaging.RCADMethodCallMessage  @cadMsg, out System.Byte[]  @arrResponse, out RSystem.RRuntime.RRemoting.RMessaging.RCADMethodReturnMessage  @cadMrm)
+        {
+			arrResponse = default;
+			cadMrm = default;
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@arrRequest, @cadMsg.Value, @arrResponse, @cadMrm.Value};
+            var ___result = RProcessMessageInDomain_ByteArray_CADMethodCallMessage_Out_ByteArray_Out_CADMethodReturnMessage.Invoke(___genericsType, ___parameters);
+			arrResponse = (System.Byte[])___parameters[2];
+
+            
+        }
 
 
         public virtual System.String ApplyPolicy(System.String  @assemblyName)

@@ -1502,6 +1502,16 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
         }
 
 
+        public static System.Int32 get_metadata_token(RSystem.RReflection.RRuntimeConstructorInfo  @method)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@method.Value};
+            var ___result = Rget_metadata_token_RuntimeConstructorInfo.Invoke(___genericsType, ___parameters);
+
+            return (System.Int32)___result;
+        }
+
 
         public virtual System.Object Invoke(System.Object[]  @parameters)
         {

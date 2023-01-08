@@ -5706,12 +5706,104 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
+        public virtual void SetPropertyLock_Serialized(RType  @property, System.Boolean  @value)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@property.Value, @value};
+            var ___result = RSetPropertyLock_Serialized_MaterialSerializedProperty_Boolean.Invoke(___genericsType, ___parameters);
+
+            
+        }
 
 
+        public virtual void ApplyPropertyOverride_Serialized(UnityEngine.Material  @destination, RType  @property, System.Boolean  @recordUndo)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@destination, @property.Value, @recordUndo};
+            var ___result = RApplyPropertyOverride_Serialized_Material_MaterialSerializedProperty_Boolean.Invoke(___genericsType, ___parameters);
+
+            
+        }
 
 
+        public virtual void RevertPropertyOverride_Serialized(RType  @property)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@property.Value};
+            var ___result = RRevertPropertyOverride_Serialized_MaterialSerializedProperty.Invoke(___genericsType, ___parameters);
+
+            
+        }
 
 
+        public virtual void GetPropertyState_Serialized(RType  @property, out System.Boolean  @isOverriden, out System.Boolean  @isLockedInChildren, out System.Boolean  @isLockedByAncestor)
+        {
+			isOverriden = default;
+			isLockedInChildren = default;
+			isLockedByAncestor = default;
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@property.Value, @isOverriden, @isLockedInChildren, @isLockedByAncestor};
+            var ___result = RGetPropertyState_Serialized_MaterialSerializedProperty_Out_Boolean_Out_Boolean_Out_Boolean.Invoke(___genericsType, ___parameters);
+			isOverriden = (System.Boolean)___parameters[1];
+			isLockedInChildren = (System.Boolean)___parameters[2];
+			isLockedByAncestor = (System.Boolean)___parameters[3];
+
+            
+        }
+
+
+        public virtual void SetPropertyLock(RType  @property, System.Boolean  @value)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@property.Value, @value};
+            var ___result = RSetPropertyLock_MaterialSerializedProperty_Boolean.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void ApplyPropertyOverride(UnityEngine.Material  @destination, RType  @property, System.Boolean  @recordUndo)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@destination, @property.Value, @recordUndo};
+            var ___result = RApplyPropertyOverride_Material_MaterialSerializedProperty_Boolean.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void RevertPropertyOverride(RType  @property)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@property.Value};
+            var ___result = RRevertPropertyOverride_MaterialSerializedProperty.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void GetPropertyState(RType  @propertyName, out System.Boolean  @isOverriden, out System.Boolean  @isLockedInChildren, out System.Boolean  @isLockedByAncestor)
+        {
+			isOverriden = default;
+			isLockedInChildren = default;
+			isLockedByAncestor = default;
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@propertyName.Value, @isOverriden, @isLockedInChildren, @isLockedByAncestor};
+            var ___result = RGetPropertyState_MaterialSerializedProperty_Out_Boolean_Out_Boolean_Out_Boolean.Invoke(___genericsType, ___parameters);
+			isOverriden = (System.Boolean)___parameters[1];
+			isLockedInChildren = (System.Boolean)___parameters[2];
+			isLockedByAncestor = (System.Boolean)___parameters[3];
+
+            
+        }
 
 
         public virtual void SetFloatArray(System.Int32  @name, System.Single[]  @values, System.Int32  @count)

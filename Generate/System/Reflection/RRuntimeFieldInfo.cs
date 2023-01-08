@@ -1507,6 +1507,16 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
         }
 
 
+        public static System.Int32 get_metadata_token(RSystem.RReflection.RRuntimeFieldInfo  @monoField)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@monoField.Value};
+            var ___result = Rget_metadata_token_RuntimeFieldInfo.Invoke(___genericsType, ___parameters);
+
+            return (System.Int32)___result;
+        }
+
 
         public virtual System.Type[] GetTypeModifiers(System.Boolean  @optional)
         {

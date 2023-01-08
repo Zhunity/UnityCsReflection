@@ -2657,10 +2657,70 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
+        public virtual void FinalizeApply(ref RUnityEngine.RUIElements.RComputedStyle  @parentStyle)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@parentStyle.Value};
+            var ___result = RFinalizeApply_Ref_ComputedStyle.Invoke(___genericsType, ___parameters);
+
+            
+        }
 
 
+        public virtual void SyncWithLayout(RUnityEngine.RYoga.RYogaNode  @targetNode)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@targetNode.Value};
+            var ___result = RSyncWithLayout_YogaNode.Invoke(___genericsType, ___parameters);
+
+            
+        }
 
 
+        public virtual System.Boolean ApplyGlobalKeyword(RUnityEngine.RUIElements.RStyleSheets.RStylePropertyReader  @reader, ref RUnityEngine.RUIElements.RComputedStyle  @parentStyle)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@reader.Value, @parentStyle.Value};
+            var ___result = RApplyGlobalKeyword_StylePropertyReader_Ref_ComputedStyle.Invoke(___genericsType, ___parameters);
+
+            return (System.Boolean)___result;
+        }
+
+
+        public virtual System.Boolean ApplyGlobalKeyword(RType  @id, UnityEngine.UIElements.StyleKeyword  @keyword, ref RUnityEngine.RUIElements.RComputedStyle  @parentStyle)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@id.Value, @keyword, @parentStyle.Value};
+            var ___result = RApplyGlobalKeyword_StylePropertyId_StyleKeyword_Ref_ComputedStyle.Invoke(___genericsType, ___parameters);
+
+            return (System.Boolean)___result;
+        }
+
+
+        public virtual void RemoveCustomStyleProperty(RUnityEngine.RUIElements.RStyleSheets.RStylePropertyReader  @reader)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@reader.Value};
+            var ___result = RRemoveCustomStyleProperty_StylePropertyReader.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void ApplyCustomStyleProperty(RUnityEngine.RUIElements.RStyleSheets.RStylePropertyReader  @reader)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@reader.Value};
+            var ___result = RApplyCustomStyleProperty_StylePropertyReader.Invoke(___genericsType, ___parameters);
+
+            
+        }
 
 
         public virtual void ApplyAllPropertyInitial()
@@ -2685,11 +2745,81 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
+        public static System.Boolean StartAnimationInlineTextShadow(UnityEngine.UIElements.VisualElement  @element, ref RUnityEngine.RUIElements.RComputedStyle  @computedStyle, UnityEngine.UIElements.StyleTextShadow  @textShadow, System.Int32  @durationMs, System.Int32  @delayMs, System.Func<System.Single, System.Single>  @easingCurve)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@element, @computedStyle.Value, @textShadow, @durationMs, @delayMs, @easingCurve};
+            var ___result = RStartAnimationInlineTextShadow_VisualElement_Ref_ComputedStyle_StyleTextShadow_Int32_Int32_Func_d_Single_Single_p_.Invoke(___genericsType, ___parameters);
+
+            return (System.Boolean)___result;
+        }
 
 
+        public static System.Boolean StartAnimationInlineRotate(UnityEngine.UIElements.VisualElement  @element, ref RUnityEngine.RUIElements.RComputedStyle  @computedStyle, UnityEngine.UIElements.StyleRotate  @rotate, System.Int32  @durationMs, System.Int32  @delayMs, System.Func<System.Single, System.Single>  @easingCurve)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@element, @computedStyle.Value, @rotate, @durationMs, @delayMs, @easingCurve};
+            var ___result = RStartAnimationInlineRotate_VisualElement_Ref_ComputedStyle_StyleRotate_Int32_Int32_Func_d_Single_Single_p_.Invoke(___genericsType, ___parameters);
+
+            return (System.Boolean)___result;
+        }
 
 
+        public static System.Boolean StartAnimationInlineTranslate(UnityEngine.UIElements.VisualElement  @element, ref RUnityEngine.RUIElements.RComputedStyle  @computedStyle, UnityEngine.UIElements.StyleTranslate  @translate, System.Int32  @durationMs, System.Int32  @delayMs, System.Func<System.Single, System.Single>  @easingCurve)
+        {
 
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@element, @computedStyle.Value, @translate, @durationMs, @delayMs, @easingCurve};
+            var ___result = RStartAnimationInlineTranslate_VisualElement_Ref_ComputedStyle_StyleTranslate_Int32_Int32_Func_d_Single_Single_p_.Invoke(___genericsType, ___parameters);
+
+            return (System.Boolean)___result;
+        }
+
+
+        public static System.Boolean StartAnimationInlineScale(UnityEngine.UIElements.VisualElement  @element, ref RUnityEngine.RUIElements.RComputedStyle  @computedStyle, UnityEngine.UIElements.StyleScale  @scale, System.Int32  @durationMs, System.Int32  @delayMs, System.Func<System.Single, System.Single>  @easingCurve)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@element, @computedStyle.Value, @scale, @durationMs, @delayMs, @easingCurve};
+            var ___result = RStartAnimationInlineScale_VisualElement_Ref_ComputedStyle_StyleScale_Int32_Int32_Func_d_Single_Single_p_.Invoke(___genericsType, ___parameters);
+
+            return (System.Boolean)___result;
+        }
+
+
+        public static System.Boolean StartAnimationInlineTransformOrigin(UnityEngine.UIElements.VisualElement  @element, ref RUnityEngine.RUIElements.RComputedStyle  @computedStyle, UnityEngine.UIElements.StyleTransformOrigin  @transformOrigin, System.Int32  @durationMs, System.Int32  @delayMs, System.Func<System.Single, System.Single>  @easingCurve)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@element, @computedStyle.Value, @transformOrigin, @durationMs, @delayMs, @easingCurve};
+            var ___result = RStartAnimationInlineTransformOrigin_VisualElement_Ref_ComputedStyle_StyleTransformOrigin_Int32_Int32_Func_d_Single_Single_p_.Invoke(___genericsType, ___parameters);
+
+            return (System.Boolean)___result;
+        }
+
+
+        public static System.Boolean StartAnimationInlineBackgroundSize(UnityEngine.UIElements.VisualElement  @element, ref RUnityEngine.RUIElements.RComputedStyle  @computedStyle, UnityEngine.UIElements.StyleBackgroundSize  @backgroundSize, System.Int32  @durationMs, System.Int32  @delayMs, System.Func<System.Single, System.Single>  @easingCurve)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@element, @computedStyle.Value, @backgroundSize, @durationMs, @delayMs, @easingCurve};
+            var ___result = RStartAnimationInlineBackgroundSize_VisualElement_Ref_ComputedStyle_StyleBackgroundSize_Int32_Int32_Func_d_Single_Single_p_.Invoke(___genericsType, ___parameters);
+
+            return (System.Boolean)___result;
+        }
+
+
+        public static System.Object Create(ref RUnityEngine.RUIElements.RComputedStyle  @parentStyle)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@parentStyle.Value};
+            var ___result = RCreate_Ref_ComputedStyle.Invoke(___genericsType, ___parameters);
+
+            return (System.Object)___result;
+        }
 
 
         public static System.Object CreateInitial()
@@ -2725,8 +2855,48 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
+        public virtual void CopyFrom(ref RUnityEngine.RUIElements.RComputedStyle  @other)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@other.Value};
+            var ___result = RCopyFrom_Ref_ComputedStyle.Invoke(___genericsType, ___parameters);
+
+            
+        }
 
 
+        public virtual void ApplyProperties(RUnityEngine.RUIElements.RStyleSheets.RStylePropertyReader  @reader, ref RUnityEngine.RUIElements.RComputedStyle  @parentStyle)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@reader.Value, @parentStyle.Value};
+            var ___result = RApplyProperties_StylePropertyReader_Ref_ComputedStyle.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void ApplyStyleValue(RUnityEngine.RUIElements.RStyleSheets.RStyleValue  @sv, ref RUnityEngine.RUIElements.RComputedStyle  @parentStyle)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@sv.Value, @parentStyle.Value};
+            var ___result = RApplyStyleValue_StyleValue_Ref_ComputedStyle.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void ApplyStyleValueManaged(RUnityEngine.RUIElements.RStyleSheets.RStyleValueManaged  @sv, ref RUnityEngine.RUIElements.RComputedStyle  @parentStyle)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@sv.Value, @parentStyle.Value};
+            var ___result = RApplyStyleValueManaged_StyleValueManaged_Ref_ComputedStyle.Invoke(___genericsType, ___parameters);
+
+            
+        }
 
 
         public virtual void ApplyStyleCursor(UnityEngine.UIElements.Cursor  @cursor)
@@ -2751,23 +2921,213 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
+        public virtual void ApplyFromComputedStyle(RType  @id, ref RUnityEngine.RUIElements.RComputedStyle  @other)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@id.Value, @other.Value};
+            var ___result = RApplyFromComputedStyle_StylePropertyId_Ref_ComputedStyle.Invoke(___genericsType, ___parameters);
+
+            
+        }
 
 
+        public virtual void ApplyPropertyAnimation(UnityEngine.UIElements.VisualElement  @ve, RType  @id, UnityEngine.UIElements.Length  @newValue)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@ve, @id.Value, @newValue};
+            var ___result = RApplyPropertyAnimation_VisualElement_StylePropertyId_Length.Invoke(___genericsType, ___parameters);
+
+            
+        }
 
 
+        public virtual void ApplyPropertyAnimation(UnityEngine.UIElements.VisualElement  @ve, RType  @id, System.Single  @newValue)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@ve, @id.Value, @newValue};
+            var ___result = RApplyPropertyAnimation_VisualElement_StylePropertyId_Single.Invoke(___genericsType, ___parameters);
+
+            
+        }
 
 
+        public virtual void ApplyPropertyAnimation(UnityEngine.UIElements.VisualElement  @ve, RType  @id, System.Int32  @newValue)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@ve, @id.Value, @newValue};
+            var ___result = RApplyPropertyAnimation_VisualElement_StylePropertyId_Int32.Invoke(___genericsType, ___parameters);
+
+            
+        }
 
 
+        public virtual void ApplyPropertyAnimation(UnityEngine.UIElements.VisualElement  @ve, RType  @id, UnityEngine.UIElements.BackgroundPosition  @newValue)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@ve, @id.Value, @newValue};
+            var ___result = RApplyPropertyAnimation_VisualElement_StylePropertyId_BackgroundPosition.Invoke(___genericsType, ___parameters);
+
+            
+        }
 
 
+        public virtual void ApplyPropertyAnimation(UnityEngine.UIElements.VisualElement  @ve, RType  @id, UnityEngine.UIElements.BackgroundRepeat  @newValue)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@ve, @id.Value, @newValue};
+            var ___result = RApplyPropertyAnimation_VisualElement_StylePropertyId_BackgroundRepeat.Invoke(___genericsType, ___parameters);
+
+            
+        }
 
 
+        public virtual void ApplyPropertyAnimation(UnityEngine.UIElements.VisualElement  @ve, RType  @id, UnityEngine.UIElements.BackgroundSize  @newValue)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@ve, @id.Value, @newValue};
+            var ___result = RApplyPropertyAnimation_VisualElement_StylePropertyId_BackgroundSize.Invoke(___genericsType, ___parameters);
+
+            
+        }
 
 
+        public virtual void ApplyPropertyAnimation(UnityEngine.UIElements.VisualElement  @ve, RType  @id, UnityEngine.Color  @newValue)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@ve, @id.Value, @newValue};
+            var ___result = RApplyPropertyAnimation_VisualElement_StylePropertyId_Color.Invoke(___genericsType, ___parameters);
+
+            
+        }
 
 
+        public virtual void ApplyPropertyAnimation(UnityEngine.UIElements.VisualElement  @ve, RType  @id, UnityEngine.UIElements.Background  @newValue)
+        {
 
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@ve, @id.Value, @newValue};
+            var ___result = RApplyPropertyAnimation_VisualElement_StylePropertyId_Background.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void ApplyPropertyAnimation(UnityEngine.UIElements.VisualElement  @ve, RType  @id, UnityEngine.Font  @newValue)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@ve, @id.Value, @newValue};
+            var ___result = RApplyPropertyAnimation_VisualElement_StylePropertyId_Font.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void ApplyPropertyAnimation(UnityEngine.UIElements.VisualElement  @ve, RType  @id, UnityEngine.UIElements.FontDefinition  @newValue)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@ve, @id.Value, @newValue};
+            var ___result = RApplyPropertyAnimation_VisualElement_StylePropertyId_FontDefinition.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void ApplyPropertyAnimation(UnityEngine.UIElements.VisualElement  @ve, RType  @id, UnityEngine.UIElements.TextShadow  @newValue)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@ve, @id.Value, @newValue};
+            var ___result = RApplyPropertyAnimation_VisualElement_StylePropertyId_TextShadow.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void ApplyPropertyAnimation(UnityEngine.UIElements.VisualElement  @ve, RType  @id, UnityEngine.UIElements.Translate  @newValue)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@ve, @id.Value, @newValue};
+            var ___result = RApplyPropertyAnimation_VisualElement_StylePropertyId_Translate.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void ApplyPropertyAnimation(UnityEngine.UIElements.VisualElement  @ve, RType  @id, UnityEngine.UIElements.TransformOrigin  @newValue)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@ve, @id.Value, @newValue};
+            var ___result = RApplyPropertyAnimation_VisualElement_StylePropertyId_TransformOrigin.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void ApplyPropertyAnimation(UnityEngine.UIElements.VisualElement  @ve, RType  @id, UnityEngine.UIElements.Rotate  @newValue)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@ve, @id.Value, @newValue};
+            var ___result = RApplyPropertyAnimation_VisualElement_StylePropertyId_Rotate.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void ApplyPropertyAnimation(UnityEngine.UIElements.VisualElement  @ve, RType  @id, UnityEngine.UIElements.Scale  @newValue)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@ve, @id.Value, @newValue};
+            var ___result = RApplyPropertyAnimation_VisualElement_StylePropertyId_Scale.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public static System.Boolean StartAnimation(UnityEngine.UIElements.VisualElement  @element, RType  @id, ref RUnityEngine.RUIElements.RComputedStyle  @oldStyle, ref RUnityEngine.RUIElements.RComputedStyle  @newStyle, System.Int32  @durationMs, System.Int32  @delayMs, System.Func<System.Single, System.Single>  @easingCurve)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@element, @id.Value, @oldStyle.Value, @newStyle.Value, @durationMs, @delayMs, @easingCurve};
+            var ___result = RStartAnimation_VisualElement_StylePropertyId_Ref_ComputedStyle_Ref_ComputedStyle_Int32_Int32_Func_d_Single_Single_p_.Invoke(___genericsType, ___parameters);
+
+            return (System.Boolean)___result;
+        }
+
+
+        public static System.Boolean StartAnimationAllProperty(UnityEngine.UIElements.VisualElement  @element, ref RUnityEngine.RUIElements.RComputedStyle  @oldStyle, ref RUnityEngine.RUIElements.RComputedStyle  @newStyle, System.Int32  @durationMs, System.Int32  @delayMs, System.Func<System.Single, System.Single>  @easingCurve)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@element, @oldStyle.Value, @newStyle.Value, @durationMs, @delayMs, @easingCurve};
+            var ___result = RStartAnimationAllProperty_VisualElement_Ref_ComputedStyle_Ref_ComputedStyle_Int32_Int32_Func_d_Single_Single_p_.Invoke(___genericsType, ___parameters);
+
+            return (System.Boolean)___result;
+        }
+
+
+        public static System.Boolean StartAnimationInline(UnityEngine.UIElements.VisualElement  @element, RType  @id, ref RUnityEngine.RUIElements.RComputedStyle  @computedStyle, RUnityEngine.RUIElements.RStyleSheets.RStyleValue  @sv, System.Int32  @durationMs, System.Int32  @delayMs, System.Func<System.Single, System.Single>  @easingCurve)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@element, @id.Value, @computedStyle.Value, @sv.Value, @durationMs, @delayMs, @easingCurve};
+            var ___result = RStartAnimationInline_VisualElement_StylePropertyId_Ref_ComputedStyle_StyleValue_Int32_Int32_Func_d_Single_Single_p_.Invoke(___genericsType, ___parameters);
+
+            return (System.Boolean)___result;
+        }
 
 
         public virtual void ApplyStyleTransformOrigin(UnityEngine.UIElements.TransformOrigin  @st)
@@ -2825,9 +3185,59 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
+        public virtual void ApplyInitialValue(RUnityEngine.RUIElements.RStyleSheets.RStylePropertyReader  @reader)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@reader.Value};
+            var ___result = RApplyInitialValue_StylePropertyReader.Invoke(___genericsType, ___parameters);
+
+            
+        }
 
 
+        public virtual void ApplyInitialValue(RType  @id)
+        {
 
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@id.Value};
+            var ___result = RApplyInitialValue_StylePropertyId.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void ApplyUnsetValue(RUnityEngine.RUIElements.RStyleSheets.RStylePropertyReader  @reader, ref RUnityEngine.RUIElements.RComputedStyle  @parentStyle)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@reader.Value, @parentStyle.Value};
+            var ___result = RApplyUnsetValue_StylePropertyReader_Ref_ComputedStyle.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void ApplyUnsetValue(RType  @id, ref RUnityEngine.RUIElements.RComputedStyle  @parentStyle)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@id.Value, @parentStyle.Value};
+            var ___result = RApplyUnsetValue_StylePropertyId_Ref_ComputedStyle.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public static System.Object CompareChanges(ref RUnityEngine.RUIElements.RComputedStyle  @x, ref RUnityEngine.RUIElements.RComputedStyle  @y)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@x.Value, @y.Value};
+            var ___result = RCompareChanges_Ref_ComputedStyle_Ref_ComputedStyle.Invoke(___genericsType, ___parameters);
+
+            return (System.Object)___result;
+        }
 
 
         public virtual System.Boolean Equals(System.Object  @obj)

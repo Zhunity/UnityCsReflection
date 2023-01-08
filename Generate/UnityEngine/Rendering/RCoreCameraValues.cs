@@ -232,6 +232,16 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 	    {
 	    }
 
+        public virtual System.Boolean Equals(RUnityEngine.RRendering.RCoreCameraValues  @other)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@other.Value};
+            var ___result = REquals_CoreCameraValues.Invoke(___genericsType, ___parameters);
+
+            return (System.Boolean)___result;
+        }
+
 
         public virtual System.Boolean Equals(System.Object  @obj)
         {
@@ -255,6 +265,26 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
+        public static System.Boolean op_Equality(RUnityEngine.RRendering.RCoreCameraValues  @left, RUnityEngine.RRendering.RCoreCameraValues  @right)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@left.Value, @right.Value};
+            var ___result = Rop_Equality_CoreCameraValues_CoreCameraValues.Invoke(___genericsType, ___parameters);
+
+            return (System.Boolean)___result;
+        }
+
+
+        public static System.Boolean op_Inequality(RUnityEngine.RRendering.RCoreCameraValues  @left, RUnityEngine.RRendering.RCoreCameraValues  @right)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@left.Value, @right.Value};
+            var ___result = Rop_Inequality_CoreCameraValues_CoreCameraValues.Invoke(___genericsType, ___parameters);
+
+            return (System.Boolean)___result;
+        }
 
 
         public virtual System.String ToString()

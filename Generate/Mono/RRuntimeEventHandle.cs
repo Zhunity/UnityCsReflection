@@ -226,6 +226,16 @@ namespace SMFrame.Editor.Refleaction.RMono
         }
 
 
+        public virtual System.Boolean Equals(RMono.RRuntimeEventHandle  @handle)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@handle.Value};
+            var ___result = REquals_RuntimeEventHandle.Invoke(___genericsType, ___parameters);
+
+            return (System.Boolean)___result;
+        }
+
 
         public virtual System.Int32 GetHashCode()
         {
@@ -238,6 +248,26 @@ namespace SMFrame.Editor.Refleaction.RMono
         }
 
 
+        public static System.Boolean op_Equality(RMono.RRuntimeEventHandle  @left, RMono.RRuntimeEventHandle  @right)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@left.Value, @right.Value};
+            var ___result = Rop_Equality_RuntimeEventHandle_RuntimeEventHandle.Invoke(___genericsType, ___parameters);
+
+            return (System.Boolean)___result;
+        }
+
+
+        public static System.Boolean op_Inequality(RMono.RRuntimeEventHandle  @left, RMono.RRuntimeEventHandle  @right)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@left.Value, @right.Value};
+            var ___result = Rop_Inequality_RuntimeEventHandle_RuntimeEventHandle.Invoke(___genericsType, ___parameters);
+
+            return (System.Boolean)___result;
+        }
 
 
         public virtual System.String ToString()

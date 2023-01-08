@@ -334,15 +334,125 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 	    {
 	    }
 
+        public virtual UnityEngine.UIElements.StyleLength GetStyleLength(RType  @id)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@id.Value};
+            var ___result = RGetStyleLength_StylePropertyId.Invoke(___genericsType, ___parameters);
+
+            return (UnityEngine.UIElements.StyleLength)___result;
+        }
 
 
+        public virtual UnityEngine.UIElements.StyleFloat GetStyleFloat(RType  @id)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@id.Value};
+            var ___result = RGetStyleFloat_StylePropertyId.Invoke(___genericsType, ___parameters);
+
+            return (UnityEngine.UIElements.StyleFloat)___result;
+        }
 
 
+        public virtual UnityEngine.UIElements.StyleInt GetStyleInt(RType  @id)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@id.Value};
+            var ___result = RGetStyleInt_StylePropertyId.Invoke(___genericsType, ___parameters);
+
+            return (UnityEngine.UIElements.StyleInt)___result;
+        }
 
 
+        public virtual UnityEngine.UIElements.StyleColor GetStyleColor(RType  @id)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@id.Value};
+            var ___result = RGetStyleColor_StylePropertyId.Invoke(___genericsType, ___parameters);
+
+            return (UnityEngine.UIElements.StyleColor)___result;
+        }
 
 
+        public virtual UnityEngine.UIElements.StyleBackground GetStyleBackground(RType  @id)
+        {
 
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@id.Value};
+            var ___result = RGetStyleBackground_StylePropertyId.Invoke(___genericsType, ___parameters);
+
+            return (UnityEngine.UIElements.StyleBackground)___result;
+        }
+
+
+        public virtual UnityEngine.UIElements.StyleBackgroundPosition GetStyleBackgroundPosition(RType  @id)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@id.Value};
+            var ___result = RGetStyleBackgroundPosition_StylePropertyId.Invoke(___genericsType, ___parameters);
+
+            return (UnityEngine.UIElements.StyleBackgroundPosition)___result;
+        }
+
+
+        public virtual UnityEngine.UIElements.StyleBackgroundRepeat GetStyleBackgroundRepeat(RType  @id)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@id.Value};
+            var ___result = RGetStyleBackgroundRepeat_StylePropertyId.Invoke(___genericsType, ___parameters);
+
+            return (UnityEngine.UIElements.StyleBackgroundRepeat)___result;
+        }
+
+
+        public virtual UnityEngine.UIElements.StyleFont GetStyleFont(RType  @id)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@id.Value};
+            var ___result = RGetStyleFont_StylePropertyId.Invoke(___genericsType, ___parameters);
+
+            return (UnityEngine.UIElements.StyleFont)___result;
+        }
+
+
+        public virtual UnityEngine.UIElements.StyleFontDefinition GetStyleFontDefinition(RType  @id)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@id.Value};
+            var ___result = RGetStyleFontDefinition_StylePropertyId.Invoke(___genericsType, ___parameters);
+
+            return (UnityEngine.UIElements.StyleFontDefinition)___result;
+        }
+
+
+        public virtual System.Boolean TryGetStyleValue(RType  @id, ref RUnityEngine.RUIElements.RStyleSheets.RStyleValue  @value)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@id.Value, @value.Value};
+            var ___result = RTryGetStyleValue_StylePropertyId_Ref_StyleValue.Invoke(___genericsType, ___parameters);
+
+            return (System.Boolean)___result;
+        }
+
+
+        public virtual void SetStyleValue(RUnityEngine.RUIElements.RStyleSheets.RStyleValue  @value)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@value.Value};
+            var ___result = RSetStyleValue_StyleValue.Invoke(___genericsType, ___parameters);
+
+            
+        }
 
 
         public virtual System.Boolean Equals(System.Object  @obj)

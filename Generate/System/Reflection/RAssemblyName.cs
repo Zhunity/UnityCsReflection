@@ -980,6 +980,21 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 	    {
 	    }
 
+        public static System.Boolean ParseAssemblyName(System.IntPtr  @name, out RMono.RMonoAssemblyName  @aname, out System.Boolean  @is_version_definited, out System.Boolean  @is_token_defined)
+        {
+			aname = default;
+			is_version_definited = default;
+			is_token_defined = default;
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@name, @aname.Value, @is_version_definited, @is_token_defined};
+            var ___result = RParseAssemblyName_IntPtr_Out_MonoAssemblyName_Out_Boolean_Out_Boolean.Invoke(___genericsType, ___parameters);
+			is_version_definited = (System.Boolean)___parameters[2];
+			is_token_defined = (System.Boolean)___parameters[3];
+
+            return (System.Boolean)___result;
+        }
+
 
         public virtual System.String ToString()
         {

@@ -475,6 +475,16 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
         }
 
 
+        public virtual System.Int32 IndexOf(RUnityEngine.RUIElements.RTextureId  @id)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@id.Value};
+            var ___result = RIndexOf_TextureId.Invoke(___genericsType, ___parameters);
+
+            return (System.Int32)___result;
+        }
+
 
         public virtual void MarkUsed(System.Int32  @slotIndex)
         {
@@ -498,6 +508,26 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
         }
 
 
+        public virtual void Bind(RUnityEngine.RUIElements.RTextureId  @id, System.Single  @sdfScale, System.Int32  @slot, UnityEngine.MaterialPropertyBlock  @mat)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@id.Value, @sdfScale, @slot, @mat};
+            var ___result = RBind_TextureId_Single_Int32_MaterialPropertyBlock.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void SetGpuData(System.Int32  @slotIndex, RUnityEngine.RUIElements.RTextureId  @id, System.Int32  @textureWidth, System.Int32  @textureHeight, System.Single  @sdfScale)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@slotIndex, @id.Value, @textureWidth, @textureHeight, @sdfScale};
+            var ___result = RSetGpuData_Int32_TextureId_Int32_Int32_Single.Invoke(___genericsType, ___parameters);
+
+            
+        }
 
 
         public virtual System.Boolean Equals(System.Object  @obj)

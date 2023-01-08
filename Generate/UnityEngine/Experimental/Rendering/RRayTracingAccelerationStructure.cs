@@ -843,6 +843,16 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
         }
 
 
+        public static System.IntPtr Create(RUnityEngine.RExperimental.RRendering.RRayTracingAccelerationStructure.RRASSettings  @desc)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@desc.Value};
+            var ___result = RCreate_RASSettings.Invoke(___genericsType, ___parameters);
+
+            return (System.IntPtr)___result;
+        }
+
 
         public static void Destroy(UnityEngine.Experimental.Rendering.RayTracingAccelerationStructure  @accelStruct)
         {
@@ -1163,6 +1173,16 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
             
         }
 
+
+        public static System.IntPtr Create_Injected(ref RUnityEngine.RExperimental.RRendering.RRayTracingAccelerationStructure.RRASSettings  @desc)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@desc.Value};
+            var ___result = RCreate_Injected_Ref_RASSettings.Invoke(___genericsType, ___parameters);
+
+            return (System.IntPtr)___result;
+        }
 
 
         public virtual void Update_Injected(ref UnityEngine.Vector3  @relativeOrigin)

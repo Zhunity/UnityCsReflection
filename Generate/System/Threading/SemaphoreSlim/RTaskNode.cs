@@ -2779,6 +2779,16 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
+        public virtual void TaskConstructorCore(System.Delegate  @action, System.Object  @state, System.Threading.CancellationToken  @cancellationToken, System.Threading.Tasks.TaskCreationOptions  @creationOptions, RType  @internalOptions, System.Threading.Tasks.TaskScheduler  @scheduler)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@action, @state, @cancellationToken, @creationOptions, @internalOptions.Value, @scheduler};
+            var ___result = RTaskConstructorCore_Delegate_Object_CancellationToken_TaskCreationOptions_InternalTaskOptions_TaskScheduler.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
 
         public virtual System.Boolean TrySetCanceled(System.Threading.CancellationToken  @tokenToRecord)
         {
@@ -3495,6 +3505,16 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
             
         }
 
+
+        public virtual void AddCompletionAction(RSystem.RThreading.RTasks.RITaskCompletionAction  @action)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@action.Value};
+            var ___result = RAddCompletionAction_ITaskCompletionAction.Invoke(___genericsType, ___parameters);
+
+            
+        }
 
 
         public virtual void RemoveContinuation(System.Object  @continuationObject)

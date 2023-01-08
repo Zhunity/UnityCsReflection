@@ -3122,6 +3122,26 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
+        public virtual void RegisterTypeName(System.Reflection.Emit.TypeBuilder  @tb, RSystem.RTypeName  @name)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@tb, @name.Value};
+            var ___result = RRegisterTypeName_TypeBuilder_TypeName.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual System.Reflection.Emit.TypeBuilder GetRegisteredType(RSystem.RTypeName  @name)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@name.Value};
+            var ___result = RGetRegisteredType_TypeName.Invoke(___genericsType, ___parameters);
+
+            return (System.Reflection.Emit.TypeBuilder)___result;
+        }
 
 
         public virtual System.Reflection.Emit.TypeBuilder DefineType(System.String  @name, System.Reflection.TypeAttributes  @attr, System.Type  @parent, System.Type[]  @interfaces)
@@ -3212,7 +3232,37 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
+        public virtual System.Reflection.Emit.TypeBuilder search_in_array(System.Reflection.Emit.TypeBuilder[]  @arr, System.Int32  @validElementsInArray, RSystem.RTypeName  @className)
+        {
 
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@arr, @validElementsInArray, @className.Value};
+            var ___result = Rsearch_in_array_TypeBuilderArray_Int32_TypeName.Invoke(___genericsType, ___parameters);
+
+            return (System.Reflection.Emit.TypeBuilder)___result;
+        }
+
+
+        public virtual System.Reflection.Emit.TypeBuilder search_nested_in_array(System.Reflection.Emit.TypeBuilder[]  @arr, System.Int32  @validElementsInArray, RSystem.RTypeName  @className)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@arr, @validElementsInArray, @className.Value};
+            var ___result = Rsearch_nested_in_array_TypeBuilderArray_Int32_TypeName.Invoke(___genericsType, ___parameters);
+
+            return (System.Reflection.Emit.TypeBuilder)___result;
+        }
+
+
+        public virtual System.Reflection.Emit.TypeBuilder GetMaybeNested(System.Reflection.Emit.TypeBuilder  @t, RSystem.RCollections.RGeneric.RIEnumerable<RSystem.RTypeName>  @nested)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@t, @nested.Value};
+            var ___result = RGetMaybeNested_TypeBuilder_IEnumerable_d_TypeName_p_.Invoke(___genericsType, ___parameters);
+
+            return (System.Reflection.Emit.TypeBuilder)___result;
+        }
 
 
         public virtual System.Type GetType(System.String  @className, System.Boolean  @throwOnError, System.Boolean  @ignoreCase)

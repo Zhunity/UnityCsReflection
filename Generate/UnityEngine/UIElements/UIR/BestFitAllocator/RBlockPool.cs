@@ -245,6 +245,16 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
         }
 
 
+        public static void ResetBlock(RUnityEngine.RUIElements.RUIR.RBestFitAllocator.RBlock  @block)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@block.Value};
+            var ___result = RResetBlock_Block.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
 
         public virtual void Clear()
         {
@@ -267,6 +277,16 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
             return (System.Object)___result;
         }
 
+
+        public virtual void Return(RUnityEngine.RUIElements.RUIR.RBestFitAllocator.RBlock  @item)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@item.Value};
+            var ___result = RReturn_Block.Invoke(___genericsType, ___parameters);
+
+            
+        }
 
 
         public virtual System.Boolean Equals(System.Object  @obj)

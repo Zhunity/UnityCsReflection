@@ -1017,6 +1017,16 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
+        public static System.Reflection.TypeAttributes GetAttributes(RSystem.RRuntimeType  @type)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@type.Value};
+            var ___result = RGetAttributes_RuntimeType.Invoke(___genericsType, ___parameters);
+
+            return (System.Reflection.TypeAttributes)___result;
+        }
+
 
         public virtual System.ModuleHandle GetModuleHandle()
         {
@@ -1029,31 +1039,301 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
+        public static System.Int32 GetMetadataToken(RSystem.RRuntimeType  @type)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@type.Value};
+            var ___result = RGetMetadataToken_RuntimeType.Invoke(___genericsType, ___parameters);
+
+            return (System.Int32)___result;
+        }
 
 
+        public static System.Int32 GetToken(RSystem.RRuntimeType  @type)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@type.Value};
+            var ___result = RGetToken_RuntimeType.Invoke(___genericsType, ___parameters);
+
+            return (System.Int32)___result;
+        }
 
 
+        public static System.Type GetGenericTypeDefinition_impl(RSystem.RRuntimeType  @type)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@type.Value};
+            var ___result = RGetGenericTypeDefinition_impl_RuntimeType.Invoke(___genericsType, ___parameters);
+
+            return (System.Type)___result;
+        }
 
 
+        public static System.Type GetGenericTypeDefinition(RSystem.RRuntimeType  @type)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@type.Value};
+            var ___result = RGetGenericTypeDefinition_RuntimeType.Invoke(___genericsType, ___parameters);
+
+            return (System.Type)___result;
+        }
 
 
+        public static System.Boolean HasProxyAttribute(RSystem.RRuntimeType  @type)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@type.Value};
+            var ___result = RHasProxyAttribute_RuntimeType.Invoke(___genericsType, ___parameters);
+
+            return (System.Boolean)___result;
+        }
 
 
+        public static System.Boolean IsPrimitive(RSystem.RRuntimeType  @type)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@type.Value};
+            var ___result = RIsPrimitive_RuntimeType.Invoke(___genericsType, ___parameters);
+
+            return (System.Boolean)___result;
+        }
 
 
+        public static System.Boolean IsByRef(RSystem.RRuntimeType  @type)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@type.Value};
+            var ___result = RIsByRef_RuntimeType.Invoke(___genericsType, ___parameters);
+
+            return (System.Boolean)___result;
+        }
 
 
+        public static System.Boolean IsPointer(RSystem.RRuntimeType  @type)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@type.Value};
+            var ___result = RIsPointer_RuntimeType.Invoke(___genericsType, ___parameters);
+
+            return (System.Boolean)___result;
+        }
 
 
+        public static System.Boolean IsArray(RSystem.RRuntimeType  @type)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@type.Value};
+            var ___result = RIsArray_RuntimeType.Invoke(___genericsType, ___parameters);
+
+            return (System.Boolean)___result;
+        }
 
 
+        public static System.Boolean IsSzArray(RSystem.RRuntimeType  @type)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@type.Value};
+            var ___result = RIsSzArray_RuntimeType.Invoke(___genericsType, ___parameters);
+
+            return (System.Boolean)___result;
+        }
 
 
+        public static System.Boolean HasElementType(RSystem.RRuntimeType  @type)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@type.Value};
+            var ___result = RHasElementType_RuntimeType.Invoke(___genericsType, ___parameters);
+
+            return (System.Boolean)___result;
+        }
 
 
+        public static System.Object GetCorElementType(RSystem.RRuntimeType  @type)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@type.Value};
+            var ___result = RGetCorElementType_RuntimeType.Invoke(___genericsType, ___parameters);
+
+            return (System.Object)___result;
+        }
 
 
+        public static System.Boolean HasInstantiation(RSystem.RRuntimeType  @type)
+        {
 
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@type.Value};
+            var ___result = RHasInstantiation_RuntimeType.Invoke(___genericsType, ___parameters);
+
+            return (System.Boolean)___result;
+        }
+
+
+        public static System.Boolean IsComObject(RSystem.RRuntimeType  @type)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@type.Value};
+            var ___result = RIsComObject_RuntimeType.Invoke(___genericsType, ___parameters);
+
+            return (System.Boolean)___result;
+        }
+
+
+        public static System.Boolean IsInstanceOfType(RSystem.RRuntimeType  @type, System.Object  @o)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@type.Value, @o};
+            var ___result = RIsInstanceOfType_RuntimeType_Object.Invoke(___genericsType, ___parameters);
+
+            return (System.Boolean)___result;
+        }
+
+
+        public static System.Boolean HasReferences(RSystem.RRuntimeType  @type)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@type.Value};
+            var ___result = RHasReferences_RuntimeType.Invoke(___genericsType, ___parameters);
+
+            return (System.Boolean)___result;
+        }
+
+
+        public static System.Boolean IsComObject(RSystem.RRuntimeType  @type, System.Boolean  @isGenericCOM)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@type.Value, @isGenericCOM};
+            var ___result = RIsComObject_RuntimeType_Boolean.Invoke(___genericsType, ___parameters);
+
+            return (System.Boolean)___result;
+        }
+
+
+        public static System.Boolean IsContextful(RSystem.RRuntimeType  @type)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@type.Value};
+            var ___result = RIsContextful_RuntimeType.Invoke(___genericsType, ___parameters);
+
+            return (System.Boolean)___result;
+        }
+
+
+        public static System.Boolean IsEquivalentTo(RSystem.RRuntimeType  @rtType1, RSystem.RRuntimeType  @rtType2)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@rtType1.Value, @rtType2.Value};
+            var ___result = RIsEquivalentTo_RuntimeType_RuntimeType.Invoke(___genericsType, ___parameters);
+
+            return (System.Boolean)___result;
+        }
+
+
+        public static System.Boolean IsInterface(RSystem.RRuntimeType  @type)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@type.Value};
+            var ___result = RIsInterface_RuntimeType.Invoke(___genericsType, ___parameters);
+
+            return (System.Boolean)___result;
+        }
+
+
+        public static System.Int32 GetArrayRank(RSystem.RRuntimeType  @type)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@type.Value};
+            var ___result = RGetArrayRank_RuntimeType.Invoke(___genericsType, ___parameters);
+
+            return (System.Int32)___result;
+        }
+
+
+        public static System.Object GetAssembly(RSystem.RRuntimeType  @type)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@type.Value};
+            var ___result = RGetAssembly_RuntimeType.Invoke(___genericsType, ___parameters);
+
+            return (System.Object)___result;
+        }
+
+
+        public static System.Object GetElementType(RSystem.RRuntimeType  @type)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@type.Value};
+            var ___result = RGetElementType_RuntimeType.Invoke(___genericsType, ___parameters);
+
+            return (System.Object)___result;
+        }
+
+
+        public static System.Object GetModule(RSystem.RRuntimeType  @type)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@type.Value};
+            var ___result = RGetModule_RuntimeType.Invoke(___genericsType, ___parameters);
+
+            return (System.Object)___result;
+        }
+
+
+        public static System.Boolean IsGenericVariable(RSystem.RRuntimeType  @type)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@type.Value};
+            var ___result = RIsGenericVariable_RuntimeType.Invoke(___genericsType, ___parameters);
+
+            return (System.Boolean)___result;
+        }
+
+
+        public static System.Object GetBaseType(RSystem.RRuntimeType  @type)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@type.Value};
+            var ___result = RGetBaseType_RuntimeType.Invoke(___genericsType, ___parameters);
+
+            return (System.Object)___result;
+        }
+
+
+        public static System.Boolean CanCastTo(RSystem.RRuntimeType  @type, RSystem.RRuntimeType  @target)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@type.Value, @target.Value};
+            var ___result = RCanCastTo_RuntimeType_RuntimeType.Invoke(___genericsType, ___parameters);
+
+            return (System.Boolean)___result;
+        }
 
 
         public static System.Boolean type_is_assignable_from(System.Type  @a, System.Type  @b)
@@ -1067,7 +1347,37 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
+        public static System.Boolean IsGenericTypeDefinition(RSystem.RRuntimeType  @type)
+        {
 
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@type.Value};
+            var ___result = RIsGenericTypeDefinition_RuntimeType.Invoke(___genericsType, ___parameters);
+
+            return (System.Boolean)___result;
+        }
+
+
+        public static System.IntPtr GetGenericParameterInfo(RSystem.RRuntimeType  @type)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@type.Value};
+            var ___result = RGetGenericParameterInfo_RuntimeType.Invoke(___genericsType, ___parameters);
+
+            return (System.IntPtr)___result;
+        }
+
+
+        public static System.Boolean IsSubclassOf(RSystem.RRuntimeType  @childType, RSystem.RRuntimeType  @baseType)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@childType.Value, @baseType.Value};
+            var ___result = RIsSubclassOf_RuntimeType_RuntimeType.Invoke(___genericsType, ___parameters);
+
+            return (System.Boolean)___result;
+        }
 
 
         public static System.Boolean is_subclass_of(System.IntPtr  @childType, System.IntPtr  @baseType)
@@ -1081,8 +1391,48 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
+        public static System.Boolean IsByRefLike(RSystem.RRuntimeType  @type)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@type.Value};
+            var ___result = RIsByRefLike_RuntimeType.Invoke(___genericsType, ___parameters);
+
+            return (System.Boolean)___result;
+        }
 
 
+        public static System.Boolean IsTypeDefinition(RSystem.RRuntimeType  @type)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@type.Value};
+            var ___result = RIsTypeDefinition_RuntimeType.Invoke(___genericsType, ___parameters);
+
+            return (System.Boolean)___result;
+        }
+
+
+        public static System.Object internal_from_name(System.String  @name, ref RType  @stackMark, System.Reflection.Assembly  @callerAssembly, System.Boolean  @throwOnError, System.Boolean  @ignoreCase, System.Boolean  @reflectionOnly)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@name, @stackMark.Value, @callerAssembly, @throwOnError, @ignoreCase, @reflectionOnly};
+            var ___result = Rinternal_from_name_String_Ref_StackCrawlMark_Assembly_Boolean_Boolean_Boolean.Invoke(___genericsType, ___parameters);
+
+            return (System.Object)___result;
+        }
+
+
+        public static System.Object GetTypeByName(System.String  @typeName, System.Boolean  @throwOnError, System.Boolean  @ignoreCase, System.Boolean  @reflectionOnly, ref RType  @stackMark, System.Boolean  @loadTypeFromPartialName)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@typeName, @throwOnError, @ignoreCase, @reflectionOnly, @stackMark.Value, @loadTypeFromPartialName};
+            var ___result = RGetTypeByName_String_Boolean_Boolean_Boolean_Ref_StackCrawlMark_Boolean.Invoke(___genericsType, ___parameters);
+
+            return (System.Object)___result;
+        }
 
 
         public static System.IntPtr[] CopyRuntimeTypeHandles(System.RuntimeTypeHandle[]  @inHandles, out System.Int32  @length)

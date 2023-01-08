@@ -260,6 +260,16 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
+        public virtual void RegisterVisualTreeAssetTracker(RUnityEngine.RUIElements.RILiveReloadAssetTracker<RUnityEngine.RUIElements.RVisualTreeAsset>  @tracker, UnityEngine.UIElements.VisualElement  @owner)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@tracker.Value, @owner};
+            var ___result = RRegisterVisualTreeAssetTracker_ILiveReloadAssetTracker_d_VisualTreeAsset_p__VisualElement.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
 
         public virtual void UnregisterVisualTreeAssetTracker(UnityEngine.UIElements.VisualElement  @owner)
         {

@@ -353,6 +353,16 @@ namespace SMFrame.Editor.Refleaction.RSystem
 	    {
 	    }
 
+        public virtual void Init(RType  @canThrow)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@canThrow.Value};
+            var ___result = RInit_GuidParseThrowStyle.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
 
         public virtual void SetFailure(System.Exception  @nativeException)
         {
@@ -365,7 +375,37 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
+        public virtual void SetFailure(RType  @failure, System.String  @failureMessageID)
+        {
 
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@failure.Value, @failureMessageID};
+            var ___result = RSetFailure_ParseFailureKind_String.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void SetFailure(RType  @failure, System.String  @failureMessageID, System.Object  @failureMessageFormatArgument)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@failure.Value, @failureMessageID, @failureMessageFormatArgument};
+            var ___result = RSetFailure_ParseFailureKind_String_Object.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void SetFailure(RType  @failure, System.String  @failureMessageID, System.Object  @failureMessageFormatArgument, System.String  @failureArgumentName, System.Exception  @innerException)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@failure.Value, @failureMessageID, @failureMessageFormatArgument, @failureArgumentName, @innerException};
+            var ___result = RSetFailure_ParseFailureKind_String_Object_String_Exception.Invoke(___genericsType, ___parameters);
+
+            
+        }
 
 
         public virtual System.Exception GetGuidParseException()

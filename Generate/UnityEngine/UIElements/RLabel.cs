@@ -4011,6 +4011,26 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
+        public virtual UnityEngine.Vector2 MeasureTextSize(System.String  @textToMeasure, System.Single  @width, RType  @widthMode, System.Single  @height, RType  @heightMode)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@textToMeasure, @width, @widthMode.Value, @height, @heightMode.Value};
+            var ___result = RMeasureTextSize_String_Single_MeasureMode_Single_MeasureMode.Invoke(___genericsType, ___parameters);
+
+            return (UnityEngine.Vector2)___result;
+        }
+
+
+        public virtual UnityEngine.Vector2 DoMeasure(System.Single  @desiredWidth, RType  @widthMode, System.Single  @desiredHeight, RType  @heightMode)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@desiredWidth, @widthMode.Value, @desiredHeight, @heightMode.Value};
+            var ___result = RDoMeasure_Single_MeasureMode_Single_MeasureMode.Invoke(___genericsType, ___parameters);
+
+            return (UnityEngine.Vector2)___result;
+        }
 
 
         public virtual void ExecuteDefaultActionAtTarget(UnityEngine.UIElements.EventBase  @evt)
@@ -4034,6 +4054,18 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
             
         }
 
+
+        public virtual System.Boolean TryConvertLengthUnits(RType  @id, ref UnityEngine.UIElements.Length  @from, ref UnityEngine.UIElements.Length  @to, System.Int32  @subPropertyIndex)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@id.Value, @from, @to, @subPropertyIndex};
+            var ___result = RTryConvertLengthUnits_StylePropertyId_Ref_Length_Ref_Length_Int32.Invoke(___genericsType, ___parameters);
+			from = (UnityEngine.UIElements.Length)___parameters[1];
+			to = (UnityEngine.UIElements.Length)___parameters[2];
+
+            return (System.Boolean)___result;
+        }
 
 
         public virtual System.Boolean TryConvertTransformOriginUnits(ref UnityEngine.UIElements.TransformOrigin  @from, ref UnityEngine.UIElements.TransformOrigin  @to)
@@ -4187,6 +4219,16 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
+        public virtual void SetPanel(RUnityEngine.RUIElements.RBaseVisualElementPanel  @p)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@p.Value};
+            var ___result = RSetPanel_BaseVisualElementPanel.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
 
         public virtual void SendEvent(UnityEngine.UIElements.EventBase  @e)
         {
@@ -4199,7 +4241,37 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
+        public virtual void SendEvent(UnityEngine.UIElements.EventBase  @e, RType  @dispatchMode)
+        {
 
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@e, @dispatchMode.Value};
+            var ___result = RSendEvent_EventBase_DispatchMode.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void IncrementVersion(RType  @changeType)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@changeType.Value};
+            var ___result = RIncrementVersion_VersionChangeType.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void InvokeHierarchyChanged(RType  @changeType)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@changeType.Value};
+            var ___result = RInvokeHierarchyChanged_HierarchyChangeType.Invoke(___genericsType, ___parameters);
+
+            
+        }
 
 
         public virtual System.Boolean SetEnabledFromHierarchy(System.Boolean  @state)
@@ -4367,6 +4439,16 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
+        public virtual System.Object Measure(RUnityEngine.RYoga.RYogaNode  @node, System.Single  @width, RType  @widthMode, System.Single  @height, RType  @heightMode)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@node.Value, @width, @widthMode.Value, @height, @heightMode.Value};
+            var ___result = RMeasure_YogaNode_Single_YogaMeasureMode_Single_YogaMeasureMode.Invoke(___genericsType, ___parameters);
+
+            return (System.Object)___result;
+        }
+
 
         public virtual void SetSize(UnityEngine.Vector2  @size)
         {
@@ -4379,7 +4461,37 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
+        public virtual void SetInlineRule(UnityEngine.UIElements.StyleSheet  @sheet, RUnityEngine.RUIElements.RStyleRule  @rule)
+        {
 
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@sheet, @rule.Value};
+            var ___result = RSetInlineRule_StyleSheet_StyleRule.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void UpdateInlineRule(UnityEngine.UIElements.StyleSheet  @sheet, RUnityEngine.RUIElements.RStyleRule  @rule)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@sheet, @rule.Value};
+            var ___result = RUpdateInlineRule_StyleSheet_StyleRule.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void SetComputedStyle(ref RUnityEngine.RUIElements.RComputedStyle  @newStyle)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@newStyle.Value};
+            var ___result = RSetComputedStyle_Ref_ComputedStyle.Invoke(___genericsType, ___parameters);
+
+            
+        }
 
 
         public virtual void ResetPositionProperties()
@@ -4547,6 +4659,26 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
+        public virtual void RegisterAnimation(RUnityEngine.RUIElements.RExperimental.RIValueAnimationUpdate  @anim)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@anim.Value};
+            var ___result = RRegisterAnimation_IValueAnimationUpdate.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void UnregisterAnimation(RUnityEngine.RUIElements.RExperimental.RIValueAnimationUpdate  @anim)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@anim.Value};
+            var ___result = RUnregisterAnimation_IValueAnimationUpdate.Invoke(___genericsType, ___parameters);
+
+            
+        }
 
 
         public virtual System.Boolean GetCachedNextParentWithEventCallback(out UnityEngine.UIElements.VisualElement  @nextParent)
@@ -4562,11 +4694,81 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
+        public virtual System.Boolean HasEventCallbacks(RType  @eventCategory)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@eventCategory.Value};
+            var ___result = RHasEventCallbacks_EventCategory.Invoke(___genericsType, ___parameters);
+
+            return (System.Boolean)___result;
+        }
 
 
+        public virtual System.Boolean HasParentEventCallbacks(RType  @eventCategory)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@eventCategory.Value};
+            var ___result = RHasParentEventCallbacks_EventCategory.Invoke(___genericsType, ___parameters);
+
+            return (System.Boolean)___result;
+        }
 
 
+        public virtual System.Boolean HasParentEventCallbacksOrDefaultActions(RType  @eventCategory)
+        {
 
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@eventCategory.Value};
+            var ___result = RHasParentEventCallbacksOrDefaultActions_EventCategory.Invoke(___genericsType, ___parameters);
+
+            return (System.Boolean)___result;
+        }
+
+
+        public virtual System.Boolean HasEventCallbacksOrDefaultActions(RType  @eventCategory)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@eventCategory.Value};
+            var ___result = RHasEventCallbacksOrDefaultActions_EventCategory.Invoke(___genericsType, ___parameters);
+
+            return (System.Boolean)___result;
+        }
+
+
+        public virtual System.Boolean HasParentEventCallbacksOrDefaultActionAtTarget(RType  @eventCategory)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@eventCategory.Value};
+            var ___result = RHasParentEventCallbacksOrDefaultActionAtTarget_EventCategory.Invoke(___genericsType, ___parameters);
+
+            return (System.Boolean)___result;
+        }
+
+
+        public virtual System.Boolean HasEventCallbacksOrDefaultActionAtTarget(RType  @eventCategory)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@eventCategory.Value};
+            var ___result = RHasEventCallbacksOrDefaultActionAtTarget_EventCategory.Invoke(___genericsType, ___parameters);
+
+            return (System.Boolean)___result;
+        }
+
+
+        public virtual System.Boolean HasDefaultAction(RType  @eventCategory)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@eventCategory.Value};
+            var ___result = RHasDefaultAction_EventCategory.Invoke(___genericsType, ___parameters);
+
+            return (System.Boolean)___result;
+        }
 
 
         public virtual System.Boolean ShouldClip()
@@ -4966,6 +5168,16 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
             
         }
 
+
+        public virtual void RegisterCallback<TEventType>(UnityEngine.UIElements.EventCallback<TEventType>  @callback, RType  @invokePolicy, UnityEngine.UIElements.TrickleDown  @useTrickleDown) where TEventType : UnityEngine.UIElements.EventBase<TEventType>, new()
+        {
+
+            var ___genericsType = new Type[] {typeof(TEventType)};
+            var ___parameters = new object[]{@callback, @invokePolicy.Value, @useTrickleDown};
+            var ___result = RRegisterCallback_GTEventType_EventCallback_d_TEventType_p__InvokePolicy_TrickleDown.Invoke(___genericsType, ___parameters);
+
+            
+        }
 
 
         public virtual void UnregisterCallback<TEventType>(UnityEngine.UIElements.EventCallback<TEventType>  @callback, UnityEngine.UIElements.TrickleDown  @useTrickleDown) where TEventType : UnityEngine.UIElements.EventBase<TEventType>, new()

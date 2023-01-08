@@ -300,6 +300,26 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 	    {
 	    }
 
+        public virtual void Add(RUnityEngine.RUIElements.RStyleVariable  @sv)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@sv.Value};
+            var ___result = RAdd_StyleVariable.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void AddInitialRange(RUnityEngine.RUIElements.RStyleVariableContext  @other)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@other.Value};
+            var ___result = RAddInitialRange_StyleVariableContext.Invoke(___genericsType, ___parameters);
+
+            
+        }
 
 
         public virtual void Clear()
@@ -312,6 +332,17 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
             
         }
 
+
+        public virtual System.Boolean TryFindVariable(System.String  @name, out RUnityEngine.RUIElements.RStyleVariable  @v)
+        {
+			v = default;
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@name, @v.Value};
+            var ___result = RTryFindVariable_String_Out_StyleVariable.Invoke(___genericsType, ___parameters);
+
+            return (System.Boolean)___result;
+        }
 
 
         public virtual System.Int32 GetVariableHash()

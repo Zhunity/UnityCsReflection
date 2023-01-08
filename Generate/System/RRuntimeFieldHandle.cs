@@ -405,6 +405,17 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
+        public static void SetValue(RSystem.RReflection.RRuntimeFieldInfo  @field, System.Object  @obj, System.Object  @value, RSystem.RRuntimeType  @fieldType, System.Reflection.FieldAttributes  @fieldAttr, RSystem.RRuntimeType  @declaringType, ref System.Boolean  @domainInitialized)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@field.Value, @obj, @value, @fieldType.Value, @fieldAttr, @declaringType.Value, @domainInitialized};
+            var ___result = RSetValue_RuntimeFieldInfo_Object_Object_RuntimeType_FieldAttributes_RuntimeType_Ref_Boolean.Invoke(___genericsType, ___parameters);
+			domainInitialized = (System.Boolean)___parameters[6];
+
+            
+        }
+
 
 
 

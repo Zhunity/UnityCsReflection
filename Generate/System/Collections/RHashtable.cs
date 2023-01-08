@@ -1385,6 +1385,16 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections
         }
 
 
+        public virtual void putEntry(RTypeArray<RSystem.RCollections.RHashtable.Rbucket>  @newBuckets, System.Object  @key, System.Object  @nvalue, System.Int32  @hashcode)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@newBuckets.Value, @key, @nvalue, @hashcode};
+            var ___result = RputEntry_bucketArray_Object_Object_Int32.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
 
         public virtual void Remove(System.Object  @key)
         {

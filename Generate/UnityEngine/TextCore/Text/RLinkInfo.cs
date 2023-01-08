@@ -328,6 +328,16 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
         }
 
 
+        public virtual System.String GetLinkText(RUnityEngine.RTextCore.RText.RTextInfo  @textInfo)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@textInfo.Value};
+            var ___result = RGetLinkText_TextInfo.Invoke(___genericsType, ___parameters);
+
+            return (System.String)___result;
+        }
+
 
         public virtual System.String GetLinkId()
         {

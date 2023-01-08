@@ -249,6 +249,16 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 	    {
 	    }
 
+        public virtual System.Boolean Equals(RUnityEngine.RUIElements.RUIR.RBMPAlloc  @other)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@other.Value};
+            var ___result = REquals_BMPAlloc.Invoke(___genericsType, ___parameters);
+
+            return (System.Boolean)___result;
+        }
+
 
         public virtual System.Boolean IsValid()
         {

@@ -497,6 +497,16 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
+        public static System.Int32 StyleSelectorPartCompare(RUnityEngine.RUIElements.RStyleSelectorPart  @x, RUnityEngine.RUIElements.RStyleSelectorPart  @y)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@x.Value, @y.Value};
+            var ___result = RStyleSelectorPartCompare_StyleSelectorPart_StyleSelectorPart.Invoke(___genericsType, ___parameters);
+
+            return (System.Int32)___result;
+        }
+
 
         public virtual void CalculateHashes()
         {

@@ -1208,6 +1208,16 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
+        public static System.String GetMessageFromNativeResources(RType  @kind)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@kind.Value};
+            var ___result = RGetMessageFromNativeResources_ExceptionMessageKind.Invoke(___genericsType, ___parameters);
+
+            return (System.String)___result;
+        }
+
 
         public virtual void SetMessage(System.String  @s)
         {

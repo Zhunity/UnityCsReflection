@@ -548,6 +548,26 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
         }
 
 
+        public virtual void Remove(RUnityEngine.RUIElements.RUIR.RAlloc  @alloc)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@alloc.Value};
+            var ___result = RRemove_Alloc.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void Write(RUnityEngine.RUIElements.RUIR.RAlloc  @alloc, RTypeArray<RUnityEngine.RUIElements.RGradientSettings>  @settings, RUnityEngine.RUIElements.RUIR.RGradientRemap  @remap)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@alloc.Value, @settings.Value, @remap.Value};
+            var ___result = RWrite_Alloc_GradientSettingsArray_GradientRemap.Invoke(___genericsType, ___parameters);
+
+            
+        }
 
 
         public virtual void Commit()

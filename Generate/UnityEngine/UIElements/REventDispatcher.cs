@@ -611,6 +611,26 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
+        public static UnityEngine.UIElements.EventDispatcher CreateForRuntime(RSystem.RCollections.RGeneric.RIList<RUnityEngine.RUIElements.RIEventDispatchingStrategy>  @strategies)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@strategies.Value};
+            var ___result = RCreateForRuntime_IList_d_IEventDispatchingStrategy_p_.Invoke(___genericsType, ___parameters);
+
+            return (UnityEngine.UIElements.EventDispatcher)___result;
+        }
+
+
+        public virtual void Dispatch(UnityEngine.UIElements.EventBase  @evt, UnityEngine.UIElements.IPanel  @panel, RType  @dispatchMode)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@evt, @panel, @dispatchMode.Value};
+            var ___result = RDispatch_EventBase_IPanel_DispatchMode.Invoke(___genericsType, ___parameters);
+
+            
+        }
 
 
         public virtual void PushDispatcherContext()

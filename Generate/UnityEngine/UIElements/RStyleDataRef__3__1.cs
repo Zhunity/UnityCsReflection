@@ -373,6 +373,16 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
+        public virtual void CopyFrom(RUnityEngine.RUIElements.RStyleDataRef<RType>  @other)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@other.Value};
+            var ___result = RCopyFrom_StyleDataRef_d_T_p_.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
 
         public virtual T Read()
         {
@@ -418,7 +428,37 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
+        public static System.Boolean op_Equality(RUnityEngine.RUIElements.RStyleDataRef<RType>  @lhs, RUnityEngine.RUIElements.RStyleDataRef<RType>  @rhs)
+        {
 
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@lhs.Value, @rhs.Value};
+            var ___result = Rop_Equality_StyleDataRef_d_T_p__StyleDataRef_d_T_p_.Invoke(___genericsType, ___parameters);
+
+            return (System.Boolean)___result;
+        }
+
+
+        public static System.Boolean op_Inequality(RUnityEngine.RUIElements.RStyleDataRef<RType>  @lhs, RUnityEngine.RUIElements.RStyleDataRef<RType>  @rhs)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@lhs.Value, @rhs.Value};
+            var ___result = Rop_Inequality_StyleDataRef_d_T_p__StyleDataRef_d_T_p_.Invoke(___genericsType, ___parameters);
+
+            return (System.Boolean)___result;
+        }
+
+
+        public virtual System.Boolean Equals(RUnityEngine.RUIElements.RStyleDataRef<RType>  @other)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@other.Value};
+            var ___result = REquals_StyleDataRef_d_T_p_.Invoke(___genericsType, ___parameters);
+
+            return (System.Boolean)___result;
+        }
 
 
         public virtual System.Boolean Equals(System.Object  @obj)
@@ -431,6 +471,16 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
             return (System.Boolean)___result;
         }
 
+
+        public virtual System.Boolean ReferenceEquals(RUnityEngine.RUIElements.RStyleDataRef<RType>  @other)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@other.Value};
+            var ___result = RReferenceEquals_StyleDataRef_d_T_p_.Invoke(___genericsType, ___parameters);
+
+            return (System.Boolean)___result;
+        }
 
 
         public virtual System.String ToString()

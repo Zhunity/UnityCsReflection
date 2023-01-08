@@ -2725,6 +2725,16 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
         }
 
 
+        public virtual System.Text.StringBuilder AppendFormatHelper(System.IFormatProvider  @provider, System.String  @format, RSystem.RParamsArray  @args)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@provider, @format, @args.Value};
+            var ___result = RAppendFormatHelper_IFormatProvider_String_ParamsArray.Invoke(___genericsType, ___parameters);
+
+            return (System.Text.StringBuilder)___result;
+        }
+
 
         public virtual System.Text.StringBuilder Replace(System.String  @oldValue, System.String  @newValue)
         {

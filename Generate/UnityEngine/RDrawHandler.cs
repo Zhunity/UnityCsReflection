@@ -402,6 +402,26 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 	    {
 	    }
 
+        public virtual System.Boolean Invoke(UnityEngine.GUIStyle  @style, UnityEngine.Rect  @rect, UnityEngine.GUIContent  @content, RUnityEngine.RDrawStates  @states)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@style, @rect, @content, @states.Value};
+            var ___result = RInvoke_GUIStyle_Rect_GUIContent_DrawStates.Invoke(___genericsType, ___parameters);
+
+            return (System.Boolean)___result;
+        }
+
+
+        public virtual System.IAsyncResult BeginInvoke(UnityEngine.GUIStyle  @style, UnityEngine.Rect  @rect, UnityEngine.GUIContent  @content, RUnityEngine.RDrawStates  @states, System.AsyncCallback  @callback, System.Object  @object)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@style, @rect, @content, @states.Value, @callback, @object};
+            var ___result = RBeginInvoke_GUIStyle_Rect_GUIContent_DrawStates_AsyncCallback_Object.Invoke(___genericsType, ___parameters);
+
+            return (System.IAsyncResult)___result;
+        }
 
 
         public virtual System.Boolean EndInvoke(System.IAsyncResult  @result)

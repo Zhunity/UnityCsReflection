@@ -979,7 +979,37 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
+        public static System.Boolean RequiresCompute(RType  @target)
+        {
 
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@target.Value};
+            var ___result = RRequiresCompute_Target.Invoke(___genericsType, ___parameters);
+
+            return (System.Boolean)___result;
+        }
+
+
+        public static System.Boolean IsVertexIndexOrCopyOnly(RType  @target)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@target.Value};
+            var ___result = RIsVertexIndexOrCopyOnly_Target.Invoke(___genericsType, ___parameters);
+
+            return (System.Boolean)___result;
+        }
+
+
+        public static System.IntPtr InitBuffer(RType  @target, RType  @usageFlags, System.Int32  @count, System.Int32  @stride)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@target.Value, @usageFlags.Value, @count, @stride};
+            var ___result = RInitBuffer_Target_UsageFlags_Int32_Int32.Invoke(___genericsType, ___parameters);
+
+            return (System.IntPtr)___result;
+        }
 
 
         public static void DestroyBuffer(UnityEngine.GraphicsBuffer  @buf)
@@ -992,6 +1022,16 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             
         }
 
+
+        public virtual void InternalInitialization(RType  @target, RType  @usageFlags, System.Int32  @count, System.Int32  @stride)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@target.Value, @usageFlags.Value, @count, @stride};
+            var ___result = RInternalInitialization_Target_UsageFlags_Int32_Int32.Invoke(___genericsType, ___parameters);
+
+            
+        }
 
 
         public virtual void Release()

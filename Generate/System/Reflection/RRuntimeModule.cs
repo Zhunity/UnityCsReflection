@@ -1739,6 +1739,16 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
         }
 
 
+        public static System.Exception resolve_token_exception(System.String  @name, System.Int32  @metadataToken, RType  @error, System.String  @tokenType)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@name, @metadataToken, @error.Value, @tokenType};
+            var ___result = Rresolve_token_exception_String_Int32_ResolveTokenError_String.Invoke(___genericsType, ___parameters);
+
+            return (System.Exception)___result;
+        }
+
 
         public static System.IntPtr[] ptrs_from_types(System.Type[]  @types)
         {
@@ -1817,10 +1827,76 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
         }
 
 
+        public static System.IntPtr ResolveTypeToken(System.IntPtr  @module, System.Int32  @token, System.IntPtr[]  @type_args, System.IntPtr[]  @method_args, out RType  @error)
+        {
+			error = default;
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@module, @token, @type_args, @method_args, @error.Value};
+            var ___result = RResolveTypeToken_IntPtr_Int32_IntPtrArray_IntPtrArray_Out_ResolveTokenError.Invoke(___genericsType, ___parameters);
+
+            return (System.IntPtr)___result;
+        }
 
 
+        public static System.IntPtr ResolveMethodToken(System.IntPtr  @module, System.Int32  @token, System.IntPtr[]  @type_args, System.IntPtr[]  @method_args, out RType  @error)
+        {
+			error = default;
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@module, @token, @type_args, @method_args, @error.Value};
+            var ___result = RResolveMethodToken_IntPtr_Int32_IntPtrArray_IntPtrArray_Out_ResolveTokenError.Invoke(___genericsType, ___parameters);
+
+            return (System.IntPtr)___result;
+        }
 
 
+        public static System.IntPtr ResolveFieldToken(System.IntPtr  @module, System.Int32  @token, System.IntPtr[]  @type_args, System.IntPtr[]  @method_args, out RType  @error)
+        {
+			error = default;
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@module, @token, @type_args, @method_args, @error.Value};
+            var ___result = RResolveFieldToken_IntPtr_Int32_IntPtrArray_IntPtrArray_Out_ResolveTokenError.Invoke(___genericsType, ___parameters);
+
+            return (System.IntPtr)___result;
+        }
+
+
+        public static System.String ResolveStringToken(System.IntPtr  @module, System.Int32  @token, out RType  @error)
+        {
+			error = default;
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@module, @token, @error.Value};
+            var ___result = RResolveStringToken_IntPtr_Int32_Out_ResolveTokenError.Invoke(___genericsType, ___parameters);
+
+            return (System.String)___result;
+        }
+
+
+        public static System.Reflection.MemberInfo ResolveMemberToken(System.IntPtr  @module, System.Int32  @token, System.IntPtr[]  @type_args, System.IntPtr[]  @method_args, out RType  @error)
+        {
+			error = default;
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@module, @token, @type_args, @method_args, @error.Value};
+            var ___result = RResolveMemberToken_IntPtr_Int32_IntPtrArray_IntPtrArray_Out_ResolveTokenError.Invoke(___genericsType, ___parameters);
+
+            return (System.Reflection.MemberInfo)___result;
+        }
+
+
+        public static System.Byte[] ResolveSignature(System.IntPtr  @module, System.Int32  @metadataToken, out RType  @error)
+        {
+			error = default;
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@module, @metadataToken, @error.Value};
+            var ___result = RResolveSignature_IntPtr_Int32_Out_ResolveTokenError.Invoke(___genericsType, ___parameters);
+
+            return (System.Byte[])___result;
+        }
 
 
         public static void GetPEKind(System.IntPtr  @module, out System.Reflection.PortableExecutableKinds  @peKind, out System.Reflection.ImageFileMachine  @machine)

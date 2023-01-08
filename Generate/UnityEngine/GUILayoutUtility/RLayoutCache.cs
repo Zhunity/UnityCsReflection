@@ -268,6 +268,16 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 	    {
 	    }
 
+        public virtual void CopyState(RUnityEngine.RGUILayoutUtility.RLayoutCacheState  @other)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@other.Value};
+            var ___result = RCopyState_LayoutCacheState.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
 
         public virtual void ResetCursor()
         {

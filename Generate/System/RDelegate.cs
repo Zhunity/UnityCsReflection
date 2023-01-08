@@ -1393,6 +1393,16 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
+        public static System.Delegate CreateDelegateNoSecurityCheck(RSystem.RRuntimeType  @type, System.Object  @firstArgument, System.Reflection.MethodInfo  @method)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@type.Value, @firstArgument, @method};
+            var ___result = RCreateDelegateNoSecurityCheck_RuntimeType_Object_MethodInfo.Invoke(___genericsType, ___parameters);
+
+            return (System.Delegate)___result;
+        }
+
 
         public static System.MulticastDelegate AllocDelegateLike_internal(System.Delegate  @d)
         {

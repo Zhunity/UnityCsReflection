@@ -152,6 +152,16 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
+        public virtual void OnVersionChanged(UnityEngine.UIElements.VisualElement  @ele, RType  @changeTypeFlag)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@ele, @changeTypeFlag.Value};
+            var ___result = ROnVersionChanged_VisualElement_VersionChangeType.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
 
         public virtual System.Boolean InterceptEvent(UnityEngine.UIElements.EventBase  @ev)
         {

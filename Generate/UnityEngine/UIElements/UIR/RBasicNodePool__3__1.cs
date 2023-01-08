@@ -232,6 +232,16 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 	    {
 	    }
 
+        public static void Reset(RUnityEngine.RUIElements.RUIR.RBasicNode<RType>  @node)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@node.Value};
+            var ___result = RReset_BasicNode_d_T_p_.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
 
         public static System.Object Create()
         {
@@ -265,6 +275,16 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
             return (System.Object)___result;
         }
 
+
+        public virtual void Return(RUnityEngine.RUIElements.RUIR.RBasicNode<RType>  @item)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@item.Value};
+            var ___result = RReturn_BasicNode_d_T_p_.Invoke(___genericsType, ___parameters);
+
+            
+        }
 
 
         public virtual System.Boolean Equals(System.Object  @obj)

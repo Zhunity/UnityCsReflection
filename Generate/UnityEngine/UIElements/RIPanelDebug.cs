@@ -283,6 +283,26 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 	    {
 	    }
 
+        public virtual void AttachDebugger(RUnityEngine.RUIElements.RIPanelDebugger  @debugger)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@debugger.Value};
+            var ___result = RAttachDebugger_IPanelDebugger.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void DetachDebugger(RUnityEngine.RUIElements.RIPanelDebugger  @debugger)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@debugger.Value};
+            var ___result = RDetachDebugger_IPanelDebugger.Invoke(___genericsType, ___parameters);
+
+            
+        }
 
 
         public virtual void DetachAllDebuggers()
@@ -339,6 +359,16 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
             
         }
 
+
+        public virtual void OnVersionChanged(UnityEngine.UIElements.VisualElement  @ele, RType  @changeTypeFlag)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@ele, @changeTypeFlag.Value};
+            var ___result = ROnVersionChanged_VisualElement_VersionChangeType.Invoke(___genericsType, ___parameters);
+
+            
+        }
 
 
         public virtual System.Boolean InterceptEvent(UnityEngine.UIElements.EventBase  @ev)

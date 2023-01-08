@@ -368,6 +368,29 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 	    {
 	    }
 
+        public virtual System.Boolean TryGetAtlas(UnityEngine.UIElements.VisualElement  @ctx, UnityEngine.Texture2D  @src, out RUnityEngine.RUIElements.RTextureId  @atlas, out UnityEngine.RectInt  @atlasRect)
+        {
+			atlas = default;
+			atlasRect = default;
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@ctx, @src, @atlas.Value, @atlasRect};
+            var ___result = RTryGetAtlas_VisualElement_Texture2D_Out_TextureId_Out_RectInt.Invoke(___genericsType, ___parameters);
+			atlasRect = (UnityEngine.RectInt)___parameters[3];
+
+            return (System.Boolean)___result;
+        }
+
+
+        public virtual void ReturnAtlas(UnityEngine.UIElements.VisualElement  @ctx, UnityEngine.Texture2D  @src, RUnityEngine.RUIElements.RTextureId  @atlas)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@ctx, @src, @atlas.Value};
+            var ___result = RReturnAtlas_VisualElement_Texture2D_TextureId.Invoke(___genericsType, ___parameters);
+
+            
+        }
 
 
         public virtual void Reset()
@@ -469,6 +492,26 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
+        public virtual void FreeDynamicTexture(RUnityEngine.RUIElements.RTextureId  @id)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@id.Value};
+            var ___result = RFreeDynamicTexture_TextureId.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void SetDynamicTexture(RUnityEngine.RUIElements.RTextureId  @id, UnityEngine.Texture  @texture)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@id.Value, @texture};
+            var ___result = RSetDynamicTexture_TextureId_Texture.Invoke(___genericsType, ___parameters);
+
+            
+        }
 
 
         public virtual System.Boolean Equals(System.Object  @obj)

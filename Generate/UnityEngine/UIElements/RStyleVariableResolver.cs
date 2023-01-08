@@ -521,6 +521,26 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 	    {
 	    }
 
+        public virtual void Init(RUnityEngine.RUIElements.RStyleProperty  @property, UnityEngine.UIElements.StyleSheet  @sheet, RTypeArray<RUnityEngine.RUIElements.RStyleValueHandle>  @handles)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@property.Value, @sheet, @handles.Value};
+            var ___result = RInit_StyleProperty_StyleSheet_StyleValueHandleArray.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void PushContext(UnityEngine.UIElements.StyleSheet  @sheet, RTypeArray<RUnityEngine.RUIElements.RStyleValueHandle>  @handles)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@sheet, @handles.Value};
+            var ___result = RPushContext_StyleSheet_StyleValueHandleArray.Invoke(___genericsType, ___parameters);
+
+            
+        }
 
 
         public virtual void PopContext()
@@ -533,6 +553,16 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
             
         }
 
+
+        public virtual void AddValue(RUnityEngine.RUIElements.RStyleValueHandle  @handle)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@handle.Value};
+            var ___result = RAddValue_StyleValueHandle.Invoke(___genericsType, ___parameters);
+
+            
+        }
 
 
         public virtual System.Boolean ResolveVarFunction(ref System.Int32  @index)
@@ -592,6 +622,21 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
             return (System.Object)___result;
         }
 
+
+        public static void ParseVarFunction(UnityEngine.UIElements.StyleSheet  @sheet, RTypeArray<RUnityEngine.RUIElements.RStyleValueHandle>  @handles, ref System.Int32  @index, out System.Int32  @argCount, out System.String  @variableName)
+        {
+			argCount = default;
+			variableName = default;
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@sheet, @handles.Value, @index, @argCount, @variableName};
+            var ___result = RParseVarFunction_StyleSheet_StyleValueHandleArray_Ref_Int32_Out_Int32_Out_String.Invoke(___genericsType, ___parameters);
+			index = (System.Int32)___parameters[2];
+			argCount = (System.Int32)___parameters[3];
+			variableName = (System.String)___parameters[4];
+
+            
+        }
 
 
         public virtual System.Boolean Equals(System.Object  @obj)

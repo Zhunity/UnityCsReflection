@@ -163,6 +163,26 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
+        public virtual void Unschedule(RUnityEngine.RUIElements.RScheduledItem  @item)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@item.Value};
+            var ___result = RUnschedule_ScheduledItem.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void Schedule(RUnityEngine.RUIElements.RScheduledItem  @item)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@item.Value};
+            var ___result = RSchedule_ScheduledItem.Invoke(___genericsType, ___parameters);
+
+            
+        }
 
 
         public virtual void UpdateScheduledEvents()

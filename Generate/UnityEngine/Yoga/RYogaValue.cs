@@ -328,6 +328,16 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
         }
 
 
+        public virtual System.Boolean Equals(RUnityEngine.RYoga.RYogaValue  @other)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@other.Value};
+            var ___result = REquals_YogaValue.Invoke(___genericsType, ___parameters);
+
+            return (System.Boolean)___result;
+        }
+
 
         public virtual System.Boolean Equals(System.Object  @obj)
         {
@@ -394,6 +404,16 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
             return (System.Object)___result;
         }
 
+
+        public static System.Object MarshalValue(RUnityEngine.RYoga.RYogaValue  @value)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@value.Value};
+            var ___result = RMarshalValue_YogaValue.Invoke(___genericsType, ___parameters);
+
+            return (System.Object)___result;
+        }
 
 
         public virtual System.String ToString()

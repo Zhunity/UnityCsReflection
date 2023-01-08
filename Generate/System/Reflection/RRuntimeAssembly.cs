@@ -1824,9 +1824,60 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
         }
 
 
+        public static System.Object GetExecutingAssembly(ref RType  @stackMark)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@stackMark.Value};
+            var ___result = RGetExecutingAssembly_Ref_StackCrawlMark.Invoke(___genericsType, ___parameters);
+
+            return (System.Object)___result;
+        }
 
 
+        public static System.Reflection.AssemblyName CreateAssemblyName(System.String  @assemblyString, System.Boolean  @forIntrospection, out RSystem.RReflection.RRuntimeAssembly  @assemblyFromResolveEvent)
+        {
+			assemblyFromResolveEvent = default;
 
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@assemblyString, @forIntrospection, @assemblyFromResolveEvent.Value};
+            var ___result = RCreateAssemblyName_String_Boolean_Out_RuntimeAssembly.Invoke(___genericsType, ___parameters);
+
+            return (System.Reflection.AssemblyName)___result;
+        }
+
+
+        public static System.Object InternalLoadAssemblyName(System.Reflection.AssemblyName  @assemblyRef, System.Security.Policy.Evidence  @assemblySecurity, RSystem.RReflection.RRuntimeAssembly  @reqAssembly, ref RType  @stackMark, System.Boolean  @throwOnFileNotFound, System.Boolean  @forIntrospection, System.Boolean  @suppressSecurityChecks)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@assemblyRef, @assemblySecurity, @reqAssembly.Value, @stackMark.Value, @throwOnFileNotFound, @forIntrospection, @suppressSecurityChecks};
+            var ___result = RInternalLoadAssemblyName_AssemblyName_Evidence_RuntimeAssembly_Ref_StackCrawlMark_Boolean_Boolean_Boolean.Invoke(___genericsType, ___parameters);
+
+            return (System.Object)___result;
+        }
+
+
+        public static System.Object LoadWithPartialNameInternal(System.String  @partialName, System.Security.Policy.Evidence  @securityEvidence, ref RType  @stackMark)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@partialName, @securityEvidence, @stackMark.Value};
+            var ___result = RLoadWithPartialNameInternal_String_Evidence_Ref_StackCrawlMark.Invoke(___genericsType, ___parameters);
+
+            return (System.Object)___result;
+        }
+
+
+        public static System.Object LoadWithPartialNameInternal(System.Reflection.AssemblyName  @an, System.Security.Policy.Evidence  @securityEvidence, ref RType  @stackMark)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@an, @securityEvidence, @stackMark.Value};
+            var ___result = RLoadWithPartialNameInternal_AssemblyName_Evidence_Ref_StackCrawlMark.Invoke(___genericsType, ___parameters);
+
+            return (System.Object)___result;
+        }
 
 
         public virtual System.Reflection.AssemblyName GetName(System.Boolean  @copiedName)
@@ -2290,6 +2341,26 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
         }
 
 
+        public virtual System.IO.Stream GetManifestResourceStream(System.Type  @type, System.String  @name, System.Boolean  @skipSecurityCheck, ref RType  @stackMark)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@type, @name, @skipSecurityCheck, @stackMark.Value};
+            var ___result = RGetManifestResourceStream_Type_String_Boolean_Ref_StackCrawlMark.Invoke(___genericsType, ___parameters);
+
+            return (System.IO.Stream)___result;
+        }
+
+
+        public virtual System.IO.Stream GetManifestResourceStream(System.String  @name, ref RType  @stackMark, System.Boolean  @skipSecurityCheck)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@name, @stackMark.Value, @skipSecurityCheck};
+            var ___result = RGetManifestResourceStream_String_Ref_StackCrawlMark_Boolean.Invoke(___genericsType, ___parameters);
+
+            return (System.IO.Stream)___result;
+        }
 
 
         public virtual System.String GetSimpleName()
@@ -2391,6 +2462,26 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
         }
 
 
+        public virtual System.Reflection.Assembly GetSatelliteAssembly(System.Globalization.CultureInfo  @culture, System.Version  @version, System.Boolean  @throwOnError, ref RType  @stackMark)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@culture, @version, @throwOnError, @stackMark.Value};
+            var ___result = RGetSatelliteAssembly_CultureInfo_Version_Boolean_Ref_StackCrawlMark.Invoke(___genericsType, ___parameters);
+
+            return (System.Reflection.Assembly)___result;
+        }
+
+
+        public virtual System.Object InternalGetSatelliteAssembly(System.String  @name, System.Globalization.CultureInfo  @culture, System.Version  @version, System.Boolean  @throwOnFileNotFound, ref RType  @stackMark)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@name, @culture, @version, @throwOnFileNotFound, @stackMark.Value};
+            var ___result = RInternalGetSatelliteAssembly_String_CultureInfo_Version_Boolean_Ref_StackCrawlMark.Invoke(___genericsType, ___parameters);
+
+            return (System.Object)___result;
+        }
 
 
         public virtual System.Reflection.Module LoadModule(System.String  @moduleName, System.Byte[]  @rawModule)

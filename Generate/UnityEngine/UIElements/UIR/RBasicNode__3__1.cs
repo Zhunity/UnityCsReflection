@@ -198,6 +198,16 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 	    {
 	    }
 
+        public virtual void AppendTo(ref RUnityEngine.RUIElements.RUIR.RBasicNode<RType>  @first)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@first.Value};
+            var ___result = RAppendTo_Ref_BasicNode_d_T_p_.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
 
         public virtual System.Boolean Equals(System.Object  @obj)
         {

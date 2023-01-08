@@ -370,6 +370,16 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 	    {
 	    }
 
+        public virtual void SetContext(RSystem.RCollections.RGeneric.RDictionary<RType, RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue>  @customProperties, System.Single  @dpiScaling)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@customProperties.Value, @dpiScaling};
+            var ___result = RSetContext_Dictionary_d_String_StylePropertyValue_p__Single.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
 
         public virtual System.Boolean TryGetValue(UnityEngine.UIElements.CustomStyleProperty<System.Single>  @property, out System.Single  @value)
         {
@@ -488,6 +498,27 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
+        public virtual System.Boolean TryGetValue(System.String  @propertyName, RType  @valueType, out RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue  @customProp)
+        {
+			customProp = default;
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@propertyName, @valueType.Value, @customProp.Value};
+            var ___result = RTryGetValue_String_StyleValueType_Out_StylePropertyValue.Invoke(___genericsType, ___parameters);
+
+            return (System.Boolean)___result;
+        }
+
+
+        public static void LogCustomPropertyWarning(System.String  @propertyName, RType  @valueType, RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue  @customProp)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@propertyName, @valueType.Value, @customProp.Value};
+            var ___result = RLogCustomPropertyWarning_String_StyleValueType_StylePropertyValue.Invoke(___genericsType, ___parameters);
+
+            
+        }
 
 
         public virtual System.Boolean Equals(System.Object  @obj)

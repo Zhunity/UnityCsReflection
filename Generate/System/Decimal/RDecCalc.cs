@@ -1083,6 +1083,26 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
+        public static void UInt64x64To128(System.UInt64  @a, System.UInt64  @b, ref RSystem.RDecimal.RDecCalc  @result)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@a, @b, @result.Value};
+            var ___result = RUInt64x64To128_UInt64_UInt64_Ref_DecCalc.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public static System.UInt32 Div96By32(ref RSystem.RDecimal.RDecCalc.RBuf12  @bufNum, System.UInt32  @den)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@bufNum.Value, @den};
+            var ___result = RDiv96By32_Ref_Buf12_UInt32.Invoke(___genericsType, ___parameters);
+
+            return (System.UInt32)___result;
+        }
 
 
         public static System.Boolean Div96ByConst(ref System.UInt64  @high64, ref System.UInt32  @low, System.UInt32  @pow)
@@ -1112,8 +1132,48 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
+        public static System.UInt32 Div96By64(ref RSystem.RDecimal.RDecCalc.RBuf12  @bufNum, System.UInt64  @den)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@bufNum.Value, @den};
+            var ___result = RDiv96By64_Ref_Buf12_UInt64.Invoke(___genericsType, ___parameters);
+
+            return (System.UInt32)___result;
+        }
 
 
+        public static System.UInt32 Div128By96(ref RSystem.RDecimal.RDecCalc.RBuf16  @bufNum, ref RSystem.RDecimal.RDecCalc.RBuf12  @bufDen)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@bufNum.Value, @bufDen.Value};
+            var ___result = RDiv128By96_Ref_Buf16_Ref_Buf12.Invoke(___genericsType, ___parameters);
+
+            return (System.UInt32)___result;
+        }
+
+
+        public static System.UInt32 IncreaseScale(ref RSystem.RDecimal.RDecCalc.RBuf12  @bufNum, System.UInt32  @power)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@bufNum.Value, @power};
+            var ___result = RIncreaseScale_Ref_Buf12_UInt32.Invoke(___genericsType, ___parameters);
+
+            return (System.UInt32)___result;
+        }
+
+
+        public static void IncreaseScale64(ref RSystem.RDecimal.RDecCalc.RBuf12  @bufNum, System.UInt32  @power)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@bufNum.Value, @power};
+            var ___result = RIncreaseScale64_Ref_Buf12_UInt32.Invoke(___genericsType, ___parameters);
+
+            
+        }
 
 
 
@@ -1129,9 +1189,59 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
+        public static System.Int32 OverflowUnscale(ref RSystem.RDecimal.RDecCalc.RBuf12  @bufQuo, System.Int32  @scale, System.Boolean  @sticky)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@bufQuo.Value, @scale, @sticky};
+            var ___result = ROverflowUnscale_Ref_Buf12_Int32_Boolean.Invoke(___genericsType, ___parameters);
+
+            return (System.Int32)___result;
+        }
 
 
+        public static System.Int32 SearchScale(ref RSystem.RDecimal.RDecCalc.RBuf12  @bufQuo, System.Int32  @scale)
+        {
 
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@bufQuo.Value, @scale};
+            var ___result = RSearchScale_Ref_Buf12_Int32.Invoke(___genericsType, ___parameters);
+
+            return (System.Int32)___result;
+        }
+
+
+        public static System.Boolean Add32To96(ref RSystem.RDecimal.RDecCalc.RBuf12  @bufNum, System.UInt32  @value)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@bufNum.Value, @value};
+            var ___result = RAdd32To96_Ref_Buf12_UInt32.Invoke(___genericsType, ___parameters);
+
+            return (System.Boolean)___result;
+        }
+
+
+        public static void DecAddSub(ref RSystem.RDecimal.RDecCalc  @d1, ref RSystem.RDecimal.RDecCalc  @d2, System.Boolean  @sign)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@d1.Value, @d2.Value, @sign};
+            var ___result = RDecAddSub_Ref_DecCalc_Ref_DecCalc_Boolean.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public static System.Int64 VarCyFromDec(ref RSystem.RDecimal.RDecCalc  @pdecIn)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@pdecIn.Value};
+            var ___result = RVarCyFromDec_Ref_DecCalc.Invoke(___genericsType, ___parameters);
+
+            return (System.Int64)___result;
+        }
 
 
         public static System.Int32 VarDecCmp(in System.Decimal  @d1, in System.Decimal  @d2)
@@ -1156,7 +1266,39 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
+        public static void VarDecMul(ref RSystem.RDecimal.RDecCalc  @d1, ref RSystem.RDecimal.RDecCalc  @d2)
+        {
 
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@d1.Value, @d2.Value};
+            var ___result = RVarDecMul_Ref_DecCalc_Ref_DecCalc.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public static void VarDecFromR4(System.Single  @input, out RSystem.RDecimal.RDecCalc  @result)
+        {
+			result = default;
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@input, @result.Value};
+            var ___result = RVarDecFromR4_Single_Out_DecCalc.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public static void VarDecFromR8(System.Double  @input, out RSystem.RDecimal.RDecCalc  @result)
+        {
+			result = default;
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@input, @result.Value};
+            var ___result = RVarDecFromR8_Double_Out_DecCalc.Invoke(___genericsType, ___parameters);
+
+            
+        }
 
 
         public static System.Single VarR4FromDec(in System.Decimal  @value)
@@ -1192,9 +1334,59 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
+        public static void VarDecDiv(ref RSystem.RDecimal.RDecCalc  @d1, ref RSystem.RDecimal.RDecCalc  @d2)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@d1.Value, @d2.Value};
+            var ___result = RVarDecDiv_Ref_DecCalc_Ref_DecCalc.Invoke(___genericsType, ___parameters);
+
+            
+        }
 
 
+        public static void VarDecMod(ref RSystem.RDecimal.RDecCalc  @d1, ref RSystem.RDecimal.RDecCalc  @d2)
+        {
 
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@d1.Value, @d2.Value};
+            var ___result = RVarDecMod_Ref_DecCalc_Ref_DecCalc.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public static void VarDecModFull(ref RSystem.RDecimal.RDecCalc  @d1, ref RSystem.RDecimal.RDecCalc  @d2, System.Int32  @scale)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@d1.Value, @d2.Value, @scale};
+            var ___result = RVarDecModFull_Ref_DecCalc_Ref_DecCalc_Int32.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public static void InternalRound(ref RSystem.RDecimal.RDecCalc  @d, System.UInt32  @scale, RType  @mode)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@d.Value, @scale, @mode.Value};
+            var ___result = RInternalRound_Ref_DecCalc_UInt32_RoundingMode.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public static System.UInt32 DecDivMod1E9(ref RSystem.RDecimal.RDecCalc  @value)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@value.Value};
+            var ___result = RDecDivMod1E9_Ref_DecCalc.Invoke(___genericsType, ___parameters);
+
+            return (System.UInt32)___result;
+        }
 
 
         public virtual System.Boolean Equals(System.Object  @obj)

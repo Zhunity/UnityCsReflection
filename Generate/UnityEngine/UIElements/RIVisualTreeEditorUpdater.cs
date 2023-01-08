@@ -113,6 +113,26 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 	    {
 	    }
 
+        public virtual System.Object GetUpdater(RType  @phase)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@phase.Value};
+            var ___result = RGetUpdater_VisualTreeEditorUpdatePhase.Invoke(___genericsType, ___parameters);
+
+            return (System.Object)___result;
+        }
+
+
+        public virtual void SetUpdater(RUnityEngine.RUIElements.RIVisualTreeUpdater  @updater, RType  @phase)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@updater.Value, @phase.Value};
+            var ___result = RSetUpdater_IVisualTreeUpdater_VisualTreeEditorUpdatePhase.Invoke(___genericsType, ___parameters);
+
+            
+        }
 
 
         public virtual void Update()
@@ -126,6 +146,26 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
+        public virtual void UpdateVisualTreePhase(RType  @phase)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@phase.Value};
+            var ___result = RUpdateVisualTreePhase_VisualTreeEditorUpdatePhase.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void OnVersionChanged(UnityEngine.UIElements.VisualElement  @ve, RType  @versionChangeType)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@ve, @versionChangeType.Value};
+            var ___result = ROnVersionChanged_VisualElement_VersionChangeType.Invoke(___genericsType, ___parameters);
+
+            
+        }
 
 
     }

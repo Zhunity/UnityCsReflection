@@ -1691,6 +1691,16 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certif
         }
 
 
+        public virtual void ImportHandle(RSystem.RSecurity.RCryptography.RX509Certificates.RX509CertificateImpl  @impl)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@impl.Value};
+            var ___result = RImportHandle_X509CertificateImpl.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
 
         public virtual void ThrowIfInvalid()
         {

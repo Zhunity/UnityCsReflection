@@ -464,8 +464,48 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
+        public virtual void CopyFrom(ref RUnityEngine.RUIElements.RInheritedData  @other)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@other.Value};
+            var ___result = RCopyFrom_Ref_InheritedData.Invoke(___genericsType, ___parameters);
+
+            
+        }
 
 
+        public static System.Boolean op_Equality(RUnityEngine.RUIElements.RInheritedData  @lhs, RUnityEngine.RUIElements.RInheritedData  @rhs)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@lhs.Value, @rhs.Value};
+            var ___result = Rop_Equality_InheritedData_InheritedData.Invoke(___genericsType, ___parameters);
+
+            return (System.Boolean)___result;
+        }
+
+
+        public static System.Boolean op_Inequality(RUnityEngine.RUIElements.RInheritedData  @lhs, RUnityEngine.RUIElements.RInheritedData  @rhs)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@lhs.Value, @rhs.Value};
+            var ___result = Rop_Inequality_InheritedData_InheritedData.Invoke(___genericsType, ___parameters);
+
+            return (System.Boolean)___result;
+        }
+
+
+        public virtual System.Boolean Equals(RUnityEngine.RUIElements.RInheritedData  @other)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@other.Value};
+            var ___result = REquals_InheritedData.Invoke(___genericsType, ___parameters);
+
+            return (System.Boolean)___result;
+        }
 
 
         public virtual System.Boolean Equals(System.Object  @obj)

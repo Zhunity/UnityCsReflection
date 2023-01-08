@@ -1643,6 +1643,26 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 	    {
 	    }
 
+        public virtual System.Object GetCachedCode(RSystem.RText.RRegularExpressions.RRegex.RCachedCodeEntryKey  @key, System.Boolean  @isToAdd)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@key.Value, @isToAdd};
+            var ___result = RGetCachedCode_CachedCodeEntryKey_Boolean.Invoke(___genericsType, ___parameters);
+
+            return (System.Object)___result;
+        }
+
+
+        public virtual System.Object GetCachedCodeEntryInternal(RSystem.RText.RRegularExpressions.RRegex.RCachedCodeEntryKey  @key, System.Boolean  @isToAdd)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@key.Value, @isToAdd};
+            var ___result = RGetCachedCodeEntryInternal_CachedCodeEntryKey_Boolean.Invoke(___genericsType, ___parameters);
+
+            return (System.Object)___result;
+        }
 
 
         public virtual void FillCacheDictionary()
@@ -1656,7 +1676,39 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
         }
 
 
+        public static System.Boolean TryGetCacheValue(RSystem.RText.RRegularExpressions.RRegex.RCachedCodeEntryKey  @key, out RSystem.RText.RRegularExpressions.RRegex.RCachedCodeEntry  @entry)
+        {
+			entry = default;
 
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@key.Value, @entry.Value};
+            var ___result = RTryGetCacheValue_CachedCodeEntryKey_Out_CachedCodeEntry.Invoke(___genericsType, ___parameters);
+
+            return (System.Boolean)___result;
+        }
+
+
+        public static System.Boolean TryGetCacheValueSmall(RSystem.RText.RRegularExpressions.RRegex.RCachedCodeEntryKey  @key, out RSystem.RText.RRegularExpressions.RRegex.RCachedCodeEntry  @entry)
+        {
+			entry = default;
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@key.Value, @entry.Value};
+            var ___result = RTryGetCacheValueSmall_CachedCodeEntryKey_Out_CachedCodeEntry.Invoke(___genericsType, ___parameters);
+
+            return (System.Boolean)___result;
+        }
+
+
+        public static System.Object LookupCachedAndPromote(RSystem.RText.RRegularExpressions.RRegex.RCachedCodeEntryKey  @key)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@key.Value};
+            var ___result = RLookupCachedAndPromote_CachedCodeEntryKey.Invoke(___genericsType, ___parameters);
+
+            return (System.Object)___result;
+        }
 
 
         public static System.Boolean IsMatch(System.String  @input, System.String  @pattern)
@@ -2087,6 +2139,16 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
             
         }
 
+
+        public virtual System.Text.RegularExpressions.RegexRunnerFactory Compile(RSystem.RText.RRegularExpressions.RRegexCode  @code, System.Text.RegularExpressions.RegexOptions  @roptions)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@code.Value, @roptions};
+            var ___result = RCompile_RegexCode_RegexOptions.Invoke(___genericsType, ___parameters);
+
+            return (System.Text.RegularExpressions.RegexRunnerFactory)___result;
+        }
 
 
         public static void CompileToAssembly(System.Text.RegularExpressions.RegexCompilationInfo[]  @regexinfos, System.Reflection.AssemblyName  @assemblyname)

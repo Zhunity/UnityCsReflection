@@ -3219,6 +3219,16 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
         }
 
 
+        public virtual void ThrowBytesOverflow(RSystem.RText.REncoderNLS  @encoder, System.Boolean  @nothingEncoded)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@encoder.Value, @nothingEncoded};
+            var ___result = RThrowBytesOverflow_EncoderNLS_Boolean.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
 
         public virtual void ThrowCharsOverflow()
         {
@@ -3230,6 +3240,16 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
             
         }
 
+
+        public virtual void ThrowCharsOverflow(RSystem.RText.RDecoderNLS  @decoder, System.Boolean  @nothingDecoded)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@decoder.Value, @nothingDecoded};
+            var ___result = RThrowCharsOverflow_DecoderNLS_Boolean.Invoke(___genericsType, ___parameters);
+
+            
+        }
 
 
 

@@ -2146,6 +2146,16 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
         }
 
 
+        public virtual void CopyStyle(RUnityEngine.RYoga.RYogaNode  @srcNode)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@srcNode.Value};
+            var ___result = RCopyStyle_YogaNode.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
 
         public virtual void MarkLayoutSeen()
         {
@@ -2169,6 +2179,16 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
         }
 
 
+        public virtual void Insert(System.Int32  @index, RUnityEngine.RYoga.RYogaNode  @node)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@index, @node.Value};
+            var ___result = RInsert_Int32_YogaNode.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
 
         public virtual void RemoveAt(System.Int32  @index)
         {
@@ -2181,6 +2201,26 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
         }
 
 
+        public virtual void AddChild(RUnityEngine.RYoga.RYogaNode  @child)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@child.Value};
+            var ___result = RAddChild_YogaNode.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void RemoveChild(RUnityEngine.RYoga.RYogaNode  @child)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@child.Value};
+            var ___result = RRemoveChild_YogaNode.Invoke(___genericsType, ___parameters);
+
+            
+        }
 
 
         public virtual void Clear()
@@ -2194,7 +2234,37 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
         }
 
 
+        public virtual System.Int32 IndexOf(RUnityEngine.RYoga.RYogaNode  @node)
+        {
 
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@node.Value};
+            var ___result = RIndexOf_YogaNode.Invoke(___genericsType, ___parameters);
+
+            return (System.Int32)___result;
+        }
+
+
+        public virtual void SetMeasureFunction(RUnityEngine.RYoga.RMeasureFunction  @measureFunction)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@measureFunction.Value};
+            var ___result = RSetMeasureFunction_MeasureFunction.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void SetBaselineFunction(RUnityEngine.RYoga.RBaselineFunction  @baselineFunction)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@baselineFunction.Value};
+            var ___result = RSetBaselineFunction_BaselineFunction.Invoke(___genericsType, ___parameters);
+
+            
+        }
 
 
         public virtual void CalculateLayout(System.Single  @width, System.Single  @height)
@@ -2208,7 +2278,37 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
         }
 
 
+        public static System.Object MeasureInternal(RUnityEngine.RYoga.RYogaNode  @node, System.Single  @width, RType  @widthMode, System.Single  @height, RType  @heightMode)
+        {
 
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@node.Value, @width, @widthMode.Value, @height, @heightMode.Value};
+            var ___result = RMeasureInternal_YogaNode_Single_YogaMeasureMode_Single_YogaMeasureMode.Invoke(___genericsType, ___parameters);
+
+            return (System.Object)___result;
+        }
+
+
+        public static System.Single BaselineInternal(RUnityEngine.RYoga.RYogaNode  @node, System.Single  @width, System.Single  @height)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@node.Value, @width, @height};
+            var ___result = RBaselineInternal_YogaNode_Single_Single.Invoke(___genericsType, ___parameters);
+
+            return (System.Single)___result;
+        }
+
+
+        public virtual System.String Print(RType  @options)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@options.Value};
+            var ___result = RPrint_YogaPrintOptions.Invoke(___genericsType, ___parameters);
+
+            return (System.String)___result;
+        }
 
 
         public virtual System.Object GetEnumerator()
@@ -2244,7 +2344,37 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
         }
 
 
+        public virtual void SetStylePosition(RType  @edge, RUnityEngine.RYoga.RYogaValue  @value)
+        {
 
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@edge.Value, @value.Value};
+            var ___result = RSetStylePosition_YogaEdge_YogaValue.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void SetStyleMargin(RType  @edge, RUnityEngine.RYoga.RYogaValue  @value)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@edge.Value, @value.Value};
+            var ___result = RSetStyleMargin_YogaEdge_YogaValue.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void SetStylePadding(RType  @edge, RUnityEngine.RYoga.RYogaValue  @value)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@edge.Value, @value.Value};
+            var ___result = RSetStylePadding_YogaEdge_YogaValue.Invoke(___genericsType, ___parameters);
+
+            
+        }
 
 
         public virtual System.Boolean Equals(System.Object  @obj)

@@ -1099,6 +1099,28 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 	    {
 	    }
 
+        public static System.Boolean TryCheckAccess<T>(T[]  @list, RType  @type, RUnityEngine.RUIElements.RStyleValueHandle  @handle, out T  @value)
+        {
+			value = default;
+
+            var ___genericsType = new Type[] {typeof(T)};
+            var ___parameters = new object[]{@list, @type.Value, @handle.Value, @value};
+            var ___result = RTryCheckAccess_GT_TArray_StyleValueType_StyleValueHandle_Out_T.Invoke(___genericsType, ___parameters);
+			value = (T)___parameters[3];
+
+            return (System.Boolean)___result;
+        }
+
+
+        public static T CheckAccess<T>(T[]  @list, RType  @type, RUnityEngine.RUIElements.RStyleValueHandle  @handle)
+        {
+
+            var ___genericsType = new Type[] {typeof(T)};
+            var ___parameters = new object[]{@list, @type.Value, @handle.Value};
+            var ___result = RCheckAccess_GT_TArray_StyleValueType_StyleValueHandle.Invoke(___genericsType, ___parameters);
+
+            return (T)___result;
+        }
 
 
         public virtual void OnEnable()
@@ -1145,25 +1167,250 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
+        public virtual System.Object ReadKeyword(RUnityEngine.RUIElements.RStyleValueHandle  @handle)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@handle.Value};
+            var ___result = RReadKeyword_StyleValueHandle.Invoke(___genericsType, ___parameters);
+
+            return (System.Object)___result;
+        }
 
 
+        public virtual System.Single ReadFloat(RUnityEngine.RUIElements.RStyleValueHandle  @handle)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@handle.Value};
+            var ___result = RReadFloat_StyleValueHandle.Invoke(___genericsType, ___parameters);
+
+            return (System.Single)___result;
+        }
 
 
+        public virtual System.Boolean TryReadFloat(RUnityEngine.RUIElements.RStyleValueHandle  @handle, out System.Single  @value)
+        {
+			value = default;
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@handle.Value, @value};
+            var ___result = RTryReadFloat_StyleValueHandle_Out_Single.Invoke(___genericsType, ___parameters);
+			value = (System.Single)___parameters[1];
+
+            return (System.Boolean)___result;
+        }
 
 
+        public virtual System.Object ReadDimension(RUnityEngine.RUIElements.RStyleValueHandle  @handle)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@handle.Value};
+            var ___result = RReadDimension_StyleValueHandle.Invoke(___genericsType, ___parameters);
+
+            return (System.Object)___result;
+        }
 
 
+        public virtual System.Boolean TryReadDimension(RUnityEngine.RUIElements.RStyleValueHandle  @handle, out RUnityEngine.RUIElements.RStyleSheets.RDimension  @value)
+        {
+			value = default;
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@handle.Value, @value.Value};
+            var ___result = RTryReadDimension_StyleValueHandle_Out_Dimension.Invoke(___genericsType, ___parameters);
+
+            return (System.Boolean)___result;
+        }
 
 
+        public virtual UnityEngine.Color ReadColor(RUnityEngine.RUIElements.RStyleValueHandle  @handle)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@handle.Value};
+            var ___result = RReadColor_StyleValueHandle.Invoke(___genericsType, ___parameters);
+
+            return (UnityEngine.Color)___result;
+        }
 
 
+        public virtual System.Boolean TryReadColor(RUnityEngine.RUIElements.RStyleValueHandle  @handle, out UnityEngine.Color  @value)
+        {
+			value = default;
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@handle.Value, @value};
+            var ___result = RTryReadColor_StyleValueHandle_Out_Color.Invoke(___genericsType, ___parameters);
+			value = (UnityEngine.Color)___parameters[1];
+
+            return (System.Boolean)___result;
+        }
 
 
+        public virtual System.String ReadString(RUnityEngine.RUIElements.RStyleValueHandle  @handle)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@handle.Value};
+            var ___result = RReadString_StyleValueHandle.Invoke(___genericsType, ___parameters);
+
+            return (System.String)___result;
+        }
 
 
+        public virtual System.Boolean TryReadString(RUnityEngine.RUIElements.RStyleValueHandle  @handle, out System.String  @value)
+        {
+			value = default;
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@handle.Value, @value};
+            var ___result = RTryReadString_StyleValueHandle_Out_String.Invoke(___genericsType, ___parameters);
+			value = (System.String)___parameters[1];
+
+            return (System.Boolean)___result;
+        }
 
 
+        public virtual System.String ReadEnum(RUnityEngine.RUIElements.RStyleValueHandle  @handle)
+        {
 
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@handle.Value};
+            var ___result = RReadEnum_StyleValueHandle.Invoke(___genericsType, ___parameters);
+
+            return (System.String)___result;
+        }
+
+
+        public virtual System.Boolean TryReadEnum(RUnityEngine.RUIElements.RStyleValueHandle  @handle, out System.String  @value)
+        {
+			value = default;
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@handle.Value, @value};
+            var ___result = RTryReadEnum_StyleValueHandle_Out_String.Invoke(___genericsType, ___parameters);
+			value = (System.String)___parameters[1];
+
+            return (System.Boolean)___result;
+        }
+
+
+        public virtual System.String ReadVariable(RUnityEngine.RUIElements.RStyleValueHandle  @handle)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@handle.Value};
+            var ___result = RReadVariable_StyleValueHandle.Invoke(___genericsType, ___parameters);
+
+            return (System.String)___result;
+        }
+
+
+        public virtual System.Boolean TryReadVariable(RUnityEngine.RUIElements.RStyleValueHandle  @handle, out System.String  @value)
+        {
+			value = default;
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@handle.Value, @value};
+            var ___result = RTryReadVariable_StyleValueHandle_Out_String.Invoke(___genericsType, ___parameters);
+			value = (System.String)___parameters[1];
+
+            return (System.Boolean)___result;
+        }
+
+
+        public virtual System.String ReadResourcePath(RUnityEngine.RUIElements.RStyleValueHandle  @handle)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@handle.Value};
+            var ___result = RReadResourcePath_StyleValueHandle.Invoke(___genericsType, ___parameters);
+
+            return (System.String)___result;
+        }
+
+
+        public virtual System.Boolean TryReadResourcePath(RUnityEngine.RUIElements.RStyleValueHandle  @handle, out System.String  @value)
+        {
+			value = default;
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@handle.Value, @value};
+            var ___result = RTryReadResourcePath_StyleValueHandle_Out_String.Invoke(___genericsType, ___parameters);
+			value = (System.String)___parameters[1];
+
+            return (System.Boolean)___result;
+        }
+
+
+        public virtual UnityEngine.Object ReadAssetReference(RUnityEngine.RUIElements.RStyleValueHandle  @handle)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@handle.Value};
+            var ___result = RReadAssetReference_StyleValueHandle.Invoke(___genericsType, ___parameters);
+
+            return (UnityEngine.Object)___result;
+        }
+
+
+        public virtual System.String ReadMissingAssetReferenceUrl(RUnityEngine.RUIElements.RStyleValueHandle  @handle)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@handle.Value};
+            var ___result = RReadMissingAssetReferenceUrl_StyleValueHandle.Invoke(___genericsType, ___parameters);
+
+            return (System.String)___result;
+        }
+
+
+        public virtual System.Boolean TryReadAssetReference(RUnityEngine.RUIElements.RStyleValueHandle  @handle, out UnityEngine.Object  @value)
+        {
+			value = default;
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@handle.Value, @value};
+            var ___result = RTryReadAssetReference_StyleValueHandle_Out_Object.Invoke(___genericsType, ___parameters);
+			value = (UnityEngine.Object)___parameters[1];
+
+            return (System.Boolean)___result;
+        }
+
+
+        public virtual System.Object ReadFunction(RUnityEngine.RUIElements.RStyleValueHandle  @handle)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@handle.Value};
+            var ___result = RReadFunction_StyleValueHandle.Invoke(___genericsType, ___parameters);
+
+            return (System.Object)___result;
+        }
+
+
+        public virtual System.String ReadFunctionName(RUnityEngine.RUIElements.RStyleValueHandle  @handle)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@handle.Value};
+            var ___result = RReadFunctionName_StyleValueHandle.Invoke(___genericsType, ___parameters);
+
+            return (System.String)___result;
+        }
+
+
+        public virtual System.Object ReadScalableImage(RUnityEngine.RUIElements.RStyleValueHandle  @handle)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@handle.Value};
+            var ___result = RReadScalableImage_StyleValueHandle.Invoke(___genericsType, ___parameters);
+
+            return (System.Object)___result;
+        }
 
 
         public static System.Boolean CustomStartsWith(System.String  @originalString, System.String  @pattern)

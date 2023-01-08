@@ -388,6 +388,16 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
+        public static System.String ConstructInstantiation(RSystem.RReflection.RRuntimeMethodInfo  @method, RType  @format)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@method.Value, @format.Value};
+            var ___result = RConstructInstantiation_RuntimeMethodInfo_TypeNameFormatFlags.Invoke(___genericsType, ___parameters);
+
+            return (System.String)___result;
+        }
+
 
         public virtual System.Boolean IsNullHandle()
         {

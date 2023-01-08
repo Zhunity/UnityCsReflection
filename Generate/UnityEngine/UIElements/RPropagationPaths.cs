@@ -283,6 +283,16 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 	    {
 	    }
 
+        public static System.Object Copy(RUnityEngine.RUIElements.RPropagationPaths  @paths)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@paths.Value};
+            var ___result = RCopy_PropagationPaths.Invoke(___genericsType, ___parameters);
+
+            return (System.Object)___result;
+        }
+
 
         public static System.Object Build(UnityEngine.UIElements.VisualElement  @elem, UnityEngine.UIElements.EventBase  @evt)
         {

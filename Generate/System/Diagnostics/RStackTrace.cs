@@ -526,6 +526,16 @@ namespace SMFrame.Editor.Refleaction.RSystem.RDiagnostics
         }
 
 
+        public virtual System.String ToString(RType  @traceFormat)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@traceFormat.Value};
+            var ___result = RToString_TraceFormat.Invoke(___genericsType, ___parameters);
+
+            return (System.String)___result;
+        }
+
 
         public virtual System.Boolean Equals(System.Object  @obj)
         {

@@ -1975,6 +1975,16 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
+        public virtual void DblClickSnap(RType  @snapping)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@snapping.Value};
+            var ___result = RDblClickSnap_DblClickSnapping.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
 
         public virtual void MoveCursorToPosition_Internal(UnityEngine.Vector2  @cursorPosition, System.Boolean  @shift)
         {
@@ -2041,6 +2051,16 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             return (System.Int32)___result;
         }
 
+
+        public virtual System.Int32 FindEndOfClassification(System.Int32  @p, RType  @dir)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@p, @dir.Value};
+            var ___result = RFindEndOfClassification_Int32_Direction.Invoke(___genericsType, ___parameters);
+
+            return (System.Int32)___result;
+        }
 
 
         public virtual System.Int32 ClampTextIndex(System.Int32  @index)

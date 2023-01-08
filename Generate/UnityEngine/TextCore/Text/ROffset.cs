@@ -402,7 +402,37 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 	    {
 	    }
 
+        public static System.Boolean op_Equality(RUnityEngine.RTextCore.RText.ROffset  @lhs, RUnityEngine.RTextCore.RText.ROffset  @rhs)
+        {
 
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@lhs.Value, @rhs.Value};
+            var ___result = Rop_Equality_Offset_Offset.Invoke(___genericsType, ___parameters);
+
+            return (System.Boolean)___result;
+        }
+
+
+        public static System.Boolean op_Inequality(RUnityEngine.RTextCore.RText.ROffset  @lhs, RUnityEngine.RTextCore.RText.ROffset  @rhs)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@lhs.Value, @rhs.Value};
+            var ___result = Rop_Inequality_Offset_Offset.Invoke(___genericsType, ___parameters);
+
+            return (System.Boolean)___result;
+        }
+
+
+        public static System.Object op_Multiply(RUnityEngine.RTextCore.RText.ROffset  @a, System.Single  @b)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@a.Value, @b};
+            var ___result = Rop_Multiply_Offset_Single.Invoke(___genericsType, ___parameters);
+
+            return (System.Object)___result;
+        }
 
 
         public virtual System.Int32 GetHashCode()
@@ -426,6 +456,16 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
             return (System.Boolean)___result;
         }
 
+
+        public virtual System.Boolean Equals(RUnityEngine.RTextCore.RText.ROffset  @other)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@other.Value};
+            var ___result = REquals_Offset.Invoke(___genericsType, ___parameters);
+
+            return (System.Boolean)___result;
+        }
 
 
         public virtual System.String ToString()

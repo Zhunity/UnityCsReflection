@@ -998,6 +998,16 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
+        public virtual void CancellationCallbackCoreWork(RSystem.RThreading.RCancellationCallbackCoreWorkArguments  @args)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@args.Value};
+            var ___result = RCancellationCallbackCoreWork_CancellationCallbackCoreWorkArguments.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
 
         public static System.Threading.CancellationTokenSource CreateLinkedTokenSource(System.Threading.CancellationToken  @token1, System.Threading.CancellationToken  @token2)
         {
@@ -1031,6 +1041,16 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
             return (System.Threading.CancellationTokenSource)___result;
         }
 
+
+        public virtual void WaitForCallbackToComplete(RSystem.RThreading.RCancellationCallbackInfo  @callbackInfo)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@callbackInfo.Value};
+            var ___result = RWaitForCallbackToComplete_CancellationCallbackInfo.Invoke(___genericsType, ___parameters);
+
+            
+        }
 
 
         public virtual System.Boolean Equals(System.Object  @obj)

@@ -317,6 +317,26 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 	    {
 	    }
 
+        public static System.Runtime.InteropServices.StructLayoutAttribute GetCustomAttribute(RSystem.RRuntimeType  @type)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@type.Value};
+            var ___result = RGetCustomAttribute_RuntimeType.Invoke(___genericsType, ___parameters);
+
+            return (System.Runtime.InteropServices.StructLayoutAttribute)___result;
+        }
+
+
+        public static System.Boolean IsDefined(RSystem.RRuntimeType  @type)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@type.Value};
+            var ___result = RIsDefined_RuntimeType.Invoke(___genericsType, ___parameters);
+
+            return (System.Boolean)___result;
+        }
 
 
         public virtual System.Boolean Equals(System.Object  @obj)

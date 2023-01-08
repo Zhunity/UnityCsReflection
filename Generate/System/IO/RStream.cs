@@ -1101,17 +1101,17 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 		/// <summary>
 		/// System.Threading.Tasks.ValueTask`1[System.Int32] <ReadAsync>g__FinishReadAsync|44_0(System.Threading.Tasks.Task`1[System.Int32], Byte[], System.Memory`1[System.Byte])
 		/// </summary>
-		protected static RMethod r___0__ReadAsync__1__g__FinishReadAsync__5__44_0_Task_d_Int32_p__ByteArray_Memory_d_Byte_p_;
-		public static RMethod R__0__ReadAsync__1__g__FinishReadAsync__5__44_0_Task_d_Int32_p__ByteArray_Memory_d_Byte_p_
+		protected static RMethod r___0__ReadAsync__1__g__FinishReadAsync__4__44_0_Task_d_Int32_p__ByteArray_Memory_d_Byte_p_;
+		public static RMethod R__0__ReadAsync__1__g__FinishReadAsync__4__44_0_Task_d_Int32_p__ByteArray_Memory_d_Byte_p_
 		{
 			get
 			{
-				if(r___0__ReadAsync__1__g__FinishReadAsync__5__44_0_Task_d_Int32_p__ByteArray_Memory_d_Byte_p_ == null)
+				if(r___0__ReadAsync__1__g__FinishReadAsync__4__44_0_Task_d_Int32_p__ByteArray_Memory_d_Byte_p_ == null)
 				{
-					r___0__ReadAsync__1__g__FinishReadAsync__5__44_0_Task_d_Int32_p__ByteArray_Memory_d_Byte_p_ = new(typeof(System.IO.Stream), "<ReadAsync>g__FinishReadAsync|44_0", 0, typeof(System.Threading.Tasks.Task<>).MakeGenericType(typeof(System.Int32)), typeof(System.Byte).MakeArrayType(), typeof(System.Memory<>).MakeGenericType(typeof(System.Byte)));
-					r___0__ReadAsync__1__g__FinishReadAsync__5__44_0_Task_d_Int32_p__ByteArray_Memory_d_Byte_p_.SetBelong(null);
+					r___0__ReadAsync__1__g__FinishReadAsync__4__44_0_Task_d_Int32_p__ByteArray_Memory_d_Byte_p_ = new(typeof(System.IO.Stream), "<ReadAsync>g__FinishReadAsync|44_0", 0, typeof(System.Threading.Tasks.Task<>).MakeGenericType(typeof(System.Int32)), typeof(System.Byte).MakeArrayType(), typeof(System.Memory<>).MakeGenericType(typeof(System.Byte)));
+					r___0__ReadAsync__1__g__FinishReadAsync__4__44_0_Task_d_Int32_p__ByteArray_Memory_d_Byte_p_.SetBelong(null);
 				}
-				return r___0__ReadAsync__1__g__FinishReadAsync__5__44_0_Task_d_Int32_p__ByteArray_Memory_d_Byte_p_;
+				return r___0__ReadAsync__1__g__FinishReadAsync__4__44_0_Task_d_Int32_p__ByteArray_Memory_d_Byte_p_;
 			}
 		}
 
@@ -1595,6 +1595,26 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
         }
 
 
+        public virtual void RunReadWriteTaskWhenReady(System.Threading.Tasks.Task  @asyncWaiter, RSystem.RIO.RStream.RReadWriteTask  @readWriteTask)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@asyncWaiter, @readWriteTask.Value};
+            var ___result = RRunReadWriteTaskWhenReady_Task_ReadWriteTask.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void RunReadWriteTask(RSystem.RIO.RStream.RReadWriteTask  @readWriteTask)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@readWriteTask.Value};
+            var ___result = RRunReadWriteTask_ReadWriteTask.Invoke(___genericsType, ___parameters);
+
+            
+        }
 
 
         public virtual void FinishTrackingAsyncOperation()
@@ -1841,12 +1861,12 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
         }
 
 
-        public static System.Threading.Tasks.ValueTask<System.Int32> __0__ReadAsync__1__g__FinishReadAsync__5__44_0(System.Threading.Tasks.Task<System.Int32>  @readTask, System.Byte[]  @localBuffer, System.Memory<System.Byte>  @localDestination)
+        public static System.Threading.Tasks.ValueTask<System.Int32> __0__ReadAsync__1__g__FinishReadAsync__4__44_0(System.Threading.Tasks.Task<System.Int32>  @readTask, System.Byte[]  @localBuffer, System.Memory<System.Byte>  @localDestination)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@readTask, @localBuffer, @localDestination};
-            var ___result = R__0__ReadAsync__1__g__FinishReadAsync__5__44_0_Task_d_Int32_p__ByteArray_Memory_d_Byte_p_.Invoke(___genericsType, ___parameters);
+            var ___result = R__0__ReadAsync__1__g__FinishReadAsync__4__44_0_Task_d_Int32_p__ByteArray_Memory_d_Byte_p_.Invoke(___genericsType, ___parameters);
 
             return (System.Threading.Tasks.ValueTask<System.Int32>)___result;
         }

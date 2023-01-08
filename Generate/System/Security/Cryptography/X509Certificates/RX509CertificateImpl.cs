@@ -616,6 +616,18 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certif
         }
 
 
+        public virtual System.Boolean Equals(RSystem.RSecurity.RCryptography.RX509Certificates.RX509CertificateImpl  @other, out System.Boolean  @result)
+        {
+			result = default;
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@other.Value, @result};
+            var ___result = REquals_X509CertificateImpl_Out_Boolean.Invoke(___genericsType, ___parameters);
+			result = (System.Boolean)___parameters[1];
+
+            return (System.Boolean)___result;
+        }
+
 
         public virtual System.Security.Cryptography.RSA GetRSAPrivateKey()
         {
@@ -638,6 +650,16 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certif
             return (System.Security.Cryptography.DSA)___result;
         }
 
+
+        public virtual System.Byte[] Export(System.Security.Cryptography.X509Certificates.X509ContentType  @contentType, RMicrosoft.RWin32.RSafeHandles.RSafePasswordHandle  @password)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@contentType, @password.Value};
+            var ___result = RExport_X509ContentType_SafePasswordHandle.Invoke(___genericsType, ___parameters);
+
+            return (System.Byte[])___result;
+        }
 
 
         public virtual System.Object CopyWithPrivateKey(System.Security.Cryptography.RSA  @privateKey)

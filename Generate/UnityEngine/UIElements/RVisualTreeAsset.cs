@@ -982,17 +982,17 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.VisualElement <Create>g__CreateError|71_0(<>c__DisplayClass71_0 ByRef)
 		/// </summary>
-		protected static RMethod r___0__Create__1__g__CreateError__5__71_0_Ref___0____1__c__DisplayClass71_0;
-		public static RMethod R__0__Create__1__g__CreateError__5__71_0_Ref___0____1__c__DisplayClass71_0
+		protected static RMethod r___0__Create__1__g__CreateError__4__71_0_Ref___0____1__c__DisplayClass71_0;
+		public static RMethod R__0__Create__1__g__CreateError__4__71_0_Ref___0____1__c__DisplayClass71_0
 		{
 			get
 			{
-				if(r___0__Create__1__g__CreateError__5__71_0_Ref___0____1__c__DisplayClass71_0 == null)
+				if(r___0__Create__1__g__CreateError__4__71_0_Ref___0____1__c__DisplayClass71_0 == null)
 				{
-					r___0__Create__1__g__CreateError__5__71_0_Ref___0____1__c__DisplayClass71_0 = new(typeof(UnityEngine.UIElements.VisualTreeAsset), "<Create>g__CreateError|71_0", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.VisualTreeAsset+<>c__DisplayClass71_0").MakeByRefType());
-					r___0__Create__1__g__CreateError__5__71_0_Ref___0____1__c__DisplayClass71_0.SetBelong(null);
+					r___0__Create__1__g__CreateError__4__71_0_Ref___0____1__c__DisplayClass71_0 = new(typeof(UnityEngine.UIElements.VisualTreeAsset), "<Create>g__CreateError|71_0", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.VisualTreeAsset+<>c__DisplayClass71_0").MakeByRefType());
+					r___0__Create__1__g__CreateError__4__71_0_Ref___0____1__c__DisplayClass71_0.SetBelong(null);
 				}
-				return r___0__Create__1__g__CreateError__5__71_0_Ref___0____1__c__DisplayClass71_0;
+				return r___0__Create__1__g__CreateError__4__71_0_Ref___0____1__c__DisplayClass71_0;
 			}
 		}
 
@@ -1161,6 +1161,16 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
+        public virtual void RegisterUxmlObject(RUnityEngine.RUIElements.RUxmlObjectAsset  @uxmlObjectAsset)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@uxmlObjectAsset.Value};
+            var ___result = RRegisterUxmlObject_UxmlObjectAsset.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
 
         public virtual System.Collections.Generic.List<T> GetUxmlObjects<T>(UnityEngine.UIElements.IUxmlAttributes  @asset, UnityEngine.UIElements.CreationContext  @cc) where T : new()
         {
@@ -1216,6 +1226,16 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
             return (System.Object)___result;
         }
 
+
+        public virtual System.Object GetUxmlObjectFactory(RUnityEngine.RUIElements.RUxmlObjectAsset  @uxmlObjectAsset)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@uxmlObjectAsset.Value};
+            var ___result = RGetUxmlObjectFactory_UxmlObjectAsset.Invoke(___genericsType, ___parameters);
+
+            return (System.Object)___result;
+        }
 
 
         public virtual UnityEngine.UIElements.TemplateContainer Instantiate()
@@ -1288,7 +1308,37 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
+        public virtual void CloneTree(UnityEngine.UIElements.VisualElement  @target, System.Collections.Generic.Dictionary<System.String, UnityEngine.UIElements.VisualElement>  @slotInsertionPoints, RSystem.RCollections.RGeneric.RList<RUnityEngine.RUIElements.RTemplateAsset.RAttributeOverride>  @attributeOverrides)
+        {
 
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@target, @slotInsertionPoints, @attributeOverrides.Value};
+            var ___result = RCloneTree_VisualElement_Dictionary_d_String_VisualElement_p__List_d_AttributeOverride_p_.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual UnityEngine.UIElements.VisualElement CloneSetupRecursively(RUnityEngine.RUIElements.RVisualElementAsset  @root, RSystem.RCollections.RGeneric.RDictionary<RType, RSystem.RCollections.RGeneric.RList<RUnityEngine.RUIElements.RVisualElementAsset>>  @idToChildren, UnityEngine.UIElements.CreationContext  @context)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@root.Value, @idToChildren.Value, @context};
+            var ___result = RCloneSetupRecursively_VisualElementAsset_Dictionary_d_Int32_List_d_VisualElementAsset_p__p__CreationContext.Invoke(___genericsType, ___parameters);
+
+            return (UnityEngine.UIElements.VisualElement)___result;
+        }
+
+
+        public static System.Int32 CompareForOrder(RUnityEngine.RUIElements.RVisualElementAsset  @a, RUnityEngine.RUIElements.RVisualElementAsset  @b)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@a.Value, @b.Value};
+            var ___result = RCompareForOrder_VisualElementAsset_VisualElementAsset.Invoke(___genericsType, ___parameters);
+
+            return (System.Int32)___result;
+        }
 
 
         public virtual System.Boolean SlotDefinitionExists(System.String  @slotName)
@@ -1370,8 +1420,48 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
+        public virtual void InsertUsingEntry(RUnityEngine.RUIElements.RVisualTreeAsset.RUsingEntry  @entry)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@entry.Value};
+            var ___result = RInsertUsingEntry_UsingEntry.Invoke(___genericsType, ___parameters);
+
+            
+        }
 
 
+        public static UnityEngine.UIElements.VisualElement Create(RUnityEngine.RUIElements.RVisualElementAsset  @asset, UnityEngine.UIElements.CreationContext  @ctx)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@asset.Value, @ctx};
+            var ___result = RCreate_VisualElementAsset_CreationContext.Invoke(___genericsType, ___parameters);
+
+            return (UnityEngine.UIElements.VisualElement)___result;
+        }
+
+
+        public static void AssignClassListFromAssetToElement(RUnityEngine.RUIElements.RVisualElementAsset  @asset, UnityEngine.UIElements.VisualElement  @element)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@asset.Value, @element};
+            var ___result = RAssignClassListFromAssetToElement_VisualElementAsset_VisualElement.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public static void AssignStyleSheetFromAssetToElement(RUnityEngine.RUIElements.RVisualElementAsset  @asset, UnityEngine.UIElements.VisualElement  @element)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@asset.Value, @element};
+            var ___result = RAssignStyleSheetFromAssetToElement_VisualElementAsset_VisualElement.Invoke(___genericsType, ___parameters);
+
+            
+        }
 
 
         public virtual System.Int32 GetAttributePropertiesDirtyCount()
@@ -1395,6 +1485,16 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
             
         }
 
+
+        public static UnityEngine.UIElements.VisualElement __0__Create__1__g__CreateError__4__71_0(ref RUnityEngine.RUIElements.RVisualTreeAsset.R__0____1__c__DisplayClass71_0  @_______)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@_______.Value};
+            var ___result = R__0__Create__1__g__CreateError__4__71_0_Ref___0____1__c__DisplayClass71_0.Invoke(___genericsType, ___parameters);
+
+            return (UnityEngine.UIElements.VisualElement)___result;
+        }
 
 
         public virtual void SetDirty()

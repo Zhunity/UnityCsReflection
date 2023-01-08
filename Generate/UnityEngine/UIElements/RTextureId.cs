@@ -299,6 +299,16 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
+        public virtual System.Boolean Equals(RUnityEngine.RUIElements.RTextureId  @other)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@other.Value};
+            var ___result = REquals_TextureId.Invoke(___genericsType, ___parameters);
+
+            return (System.Boolean)___result;
+        }
+
 
         public virtual System.Int32 GetHashCode()
         {
@@ -311,6 +321,26 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
+        public static System.Boolean op_Equality(RUnityEngine.RUIElements.RTextureId  @left, RUnityEngine.RUIElements.RTextureId  @right)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@left.Value, @right.Value};
+            var ___result = Rop_Equality_TextureId_TextureId.Invoke(___genericsType, ___parameters);
+
+            return (System.Boolean)___result;
+        }
+
+
+        public static System.Boolean op_Inequality(RUnityEngine.RUIElements.RTextureId  @left, RUnityEngine.RUIElements.RTextureId  @right)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@left.Value, @right.Value};
+            var ___result = Rop_Inequality_TextureId_TextureId.Invoke(___genericsType, ___parameters);
+
+            return (System.Boolean)___result;
+        }
 
 
         public virtual System.String ToString()

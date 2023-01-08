@@ -1172,7 +1172,37 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
+        public static UnityEngine.UIElements.NavigationMoveEvent GetPooled(UnityEngine.Vector2  @moveVector, RType  @deviceType, UnityEngine.EventModifiers  @modifiers)
+        {
 
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@moveVector, @deviceType.Value, @modifiers};
+            var ___result = RGetPooled_Vector2_NavigationDeviceType_EventModifiers.Invoke(___genericsType, ___parameters);
+
+            return (UnityEngine.UIElements.NavigationMoveEvent)___result;
+        }
+
+
+        public static UnityEngine.UIElements.NavigationMoveEvent GetPooled(RType  @direction, UnityEngine.EventModifiers  @modifiers)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@direction.Value, @modifiers};
+            var ___result = RGetPooled_Direction_EventModifiers.Invoke(___genericsType, ___parameters);
+
+            return (UnityEngine.UIElements.NavigationMoveEvent)___result;
+        }
+
+
+        public static UnityEngine.UIElements.NavigationMoveEvent GetPooled(RType  @direction, RType  @deviceType, UnityEngine.EventModifiers  @modifiers)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@direction.Value, @deviceType.Value, @modifiers};
+            var ___result = RGetPooled_Direction_NavigationDeviceType_EventModifiers.Invoke(___genericsType, ___parameters);
+
+            return (UnityEngine.UIElements.NavigationMoveEvent)___result;
+        }
 
 
         public virtual void Init()

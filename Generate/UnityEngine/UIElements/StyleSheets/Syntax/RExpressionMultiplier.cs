@@ -232,6 +232,16 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RSynt
 	    {
 	    }
 
+        public virtual void SetType(RType  @value)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@value.Value};
+            var ___result = RSetType_ExpressionMultiplierType.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
 
         public virtual System.Boolean Equals(System.Object  @obj)
         {

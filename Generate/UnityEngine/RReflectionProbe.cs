@@ -2196,6 +2196,16 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
+        public static void CallReflectionProbeEvent(UnityEngine.ReflectionProbe  @probe, RType  @probeEvent)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@probe, @probeEvent.Value};
+            var ___result = RCallReflectionProbeEvent_ReflectionProbe_ReflectionProbeEvent.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
 
         public static void CallSetDefaultReflection(UnityEngine.Texture  @defaultReflectionCubemap)
         {

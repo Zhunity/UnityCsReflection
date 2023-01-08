@@ -844,6 +844,27 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 	    {
 	    }
 
+        public static void get_event_info(RSystem.RReflection.RRuntimeEventInfo  @ev, out RSystem.RReflection.RMonoEventInfo  @info)
+        {
+			info = default;
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@ev.Value, @info.Value};
+            var ___result = Rget_event_info_RuntimeEventInfo_Out_MonoEventInfo.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public static System.Object GetEventInfo(RSystem.RReflection.RRuntimeEventInfo  @ev)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@ev.Value};
+            var ___result = RGetEventInfo_RuntimeEventInfo.Invoke(___genericsType, ___parameters);
+
+            return (System.Object)___result;
+        }
 
 
         public virtual System.Object GetDeclaringTypeInternal()
@@ -999,6 +1020,16 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
             return (System.Boolean)___result;
         }
 
+
+        public static System.Int32 get_metadata_token(RSystem.RReflection.RRuntimeEventInfo  @monoEvent)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@monoEvent.Value};
+            var ___result = Rget_metadata_token_RuntimeEventInfo.Invoke(___genericsType, ___parameters);
+
+            return (System.Int32)___result;
+        }
 
 
         public virtual System.Reflection.MethodInfo[] GetOtherMethods()

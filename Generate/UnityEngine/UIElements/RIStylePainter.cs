@@ -164,6 +164,16 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 	    {
 	    }
 
+        public virtual UnityEngine.UIElements.MeshWriteData DrawMesh(System.Int32  @vertexCount, System.Int32  @indexCount, UnityEngine.Texture  @texture, UnityEngine.Material  @material, RType  @flags)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@vertexCount, @indexCount, @texture, @material, @flags.Value};
+            var ___result = RDrawMesh_Int32_Int32_Texture_Material_MeshFlags.Invoke(___genericsType, ___parameters);
+
+            return (UnityEngine.UIElements.MeshWriteData)___result;
+        }
+
 
         public virtual void DrawText(UnityEngine.UIElements.TextElement  @te)
         {
@@ -187,6 +197,26 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
+        public virtual void DrawRectangle(RUnityEngine.RUIElements.RMeshGenerationContextUtils.RRectangleParams  @rectParams)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@rectParams.Value};
+            var ___result = RDrawRectangle_RectangleParams.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void DrawBorder(RUnityEngine.RUIElements.RMeshGenerationContextUtils.RBorderParams  @borderParams)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@borderParams.Value};
+            var ___result = RDrawBorder_BorderParams.Invoke(___genericsType, ___parameters);
+
+            
+        }
 
 
         public virtual void DrawImmediate(System.Action  @callback, System.Boolean  @cullingEnabled)

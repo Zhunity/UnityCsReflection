@@ -789,6 +789,16 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
+        public virtual System.Boolean Equals(RUnityEngine.RUIElements.RVisualElement.RHierarchy  @other)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@other.Value};
+            var ___result = REquals_Hierarchy.Invoke(___genericsType, ___parameters);
+
+            return (System.Boolean)___result;
+        }
+
 
         public virtual System.Boolean Equals(System.Object  @obj)
         {
@@ -812,6 +822,26 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
+        public static System.Boolean op_Equality(RUnityEngine.RUIElements.RVisualElement.RHierarchy  @x, RUnityEngine.RUIElements.RVisualElement.RHierarchy  @y)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@x.Value, @y.Value};
+            var ___result = Rop_Equality_Hierarchy_Hierarchy.Invoke(___genericsType, ___parameters);
+
+            return (System.Boolean)___result;
+        }
+
+
+        public static System.Boolean op_Inequality(RUnityEngine.RUIElements.RVisualElement.RHierarchy  @x, RUnityEngine.RUIElements.RVisualElement.RHierarchy  @y)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@x.Value, @y.Value};
+            var ___result = Rop_Inequality_Hierarchy_Hierarchy.Invoke(___genericsType, ___parameters);
+
+            return (System.Boolean)___result;
+        }
 
 
         public virtual System.String ToString()

@@ -878,6 +878,26 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 	    {
 	    }
 
+        public static System.Boolean AllocatesID(RUnityEngine.RUIElements.RUIR.RBMPAlloc  @alloc)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@alloc.Value};
+            var ___result = RAllocatesID_BMPAlloc.Invoke(___genericsType, ___parameters);
+
+            return (System.Boolean)___result;
+        }
+
+
+        public static System.Boolean InheritsID(RUnityEngine.RUIElements.RUIR.RBMPAlloc  @alloc)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@alloc.Value};
+            var ___result = RInheritsID_BMPAlloc.Invoke(___genericsType, ___parameters);
+
+            return (System.Boolean)___result;
+        }
 
 
         public virtual System.Boolean Equals(System.Object  @obj)

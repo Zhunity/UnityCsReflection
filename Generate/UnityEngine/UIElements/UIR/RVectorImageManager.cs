@@ -547,6 +547,16 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
         }
 
 
+        public virtual void Unregister(UnityEngine.UIElements.VectorImage  @vi, RUnityEngine.RUIElements.RUIR.RVectorImageRenderInfo  @renderInfo)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@vi, @renderInfo.Value};
+            var ___result = RUnregister_VectorImage_VectorImageRenderInfo.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
 
         public virtual System.Boolean Equals(System.Object  @obj)
         {

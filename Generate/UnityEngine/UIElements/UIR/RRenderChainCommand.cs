@@ -464,6 +464,17 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
         }
 
 
+        public virtual void ExecuteNonDrawMesh(RUnityEngine.RUIElements.RUIR.RDrawParams  @drawParams, System.Single  @pixelsPerPoint, ref System.Exception  @immediateException)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@drawParams.Value, @pixelsPerPoint, @immediateException};
+            var ___result = RExecuteNonDrawMesh_DrawParams_Single_Ref_Exception.Invoke(___genericsType, ___parameters);
+			immediateException = (System.Exception)___parameters[2];
+
+            
+        }
+
 
         public virtual void Blit(UnityEngine.Texture  @source, UnityEngine.RenderTexture  @destination, System.Single  @depth)
         {

@@ -751,6 +751,16 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
+        public static System.Boolean nativeGetCalendarData(RSystem.RGlobalization.RCalendarData  @data, System.String  @localeName, System.Int32  @calendarId)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@data.Value, @localeName, @calendarId};
+            var ___result = RnativeGetCalendarData_CalendarData_String_Int32.Invoke(___genericsType, ___parameters);
+
+            return (System.Boolean)___result;
+        }
+
 
         public virtual System.Boolean fill_calendar_data(System.String  @localeName, System.Int32  @datetimeIndex)
         {

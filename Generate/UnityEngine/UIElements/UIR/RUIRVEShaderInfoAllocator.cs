@@ -1167,7 +1167,37 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 	    {
 	    }
 
+        public static UnityEngine.Vector2Int AllocToTexelCoord(ref RUnityEngine.RUIElements.RUIR.RBitmapAllocator32  @allocator, RUnityEngine.RUIElements.RUIR.RBMPAlloc  @alloc)
+        {
 
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@allocator.Value, @alloc.Value};
+            var ___result = RAllocToTexelCoord_Ref_BitmapAllocator32_BMPAlloc.Invoke(___genericsType, ___parameters);
+
+            return (UnityEngine.Vector2Int)___result;
+        }
+
+
+        public static System.Int32 AllocToConstantBufferIndex(RUnityEngine.RUIElements.RUIR.RBMPAlloc  @alloc)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@alloc.Value};
+            var ___result = RAllocToConstantBufferIndex_BMPAlloc.Invoke(___genericsType, ___parameters);
+
+            return (System.Int32)___result;
+        }
+
+
+        public static System.Boolean AtlasRectMatchesPage(ref RUnityEngine.RUIElements.RUIR.RBitmapAllocator32  @allocator, RUnityEngine.RUIElements.RUIR.RBMPAlloc  @defAlloc, UnityEngine.RectInt  @atlasRect)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@allocator.Value, @defAlloc.Value, @atlasRect};
+            var ___result = RAtlasRectMatchesPage_Ref_BitmapAllocator32_BMPAlloc_RectInt.Invoke(___genericsType, ___parameters);
+
+            return (System.Boolean)___result;
+        }
 
 
         public virtual void Construct()
@@ -1258,20 +1288,180 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
         }
 
 
+        public virtual System.Object AllocTextCoreSettings(RUnityEngine.RUIElements.RUIR.RTextCoreSettings  @settings)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@settings.Value};
+            var ___result = RAllocTextCoreSettings_TextCoreSettings.Invoke(___genericsType, ___parameters);
+
+            return (System.Object)___result;
+        }
 
 
+        public virtual void SetTransformValue(RUnityEngine.RUIElements.RUIR.RBMPAlloc  @alloc, UnityEngine.Matrix4x4  @xform)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@alloc.Value, @xform};
+            var ___result = RSetTransformValue_BMPAlloc_Matrix4x4.Invoke(___genericsType, ___parameters);
+
+            
+        }
 
 
+        public virtual void SetClipRectValue(RUnityEngine.RUIElements.RUIR.RBMPAlloc  @alloc, UnityEngine.Vector4  @clipRect)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@alloc.Value, @clipRect};
+            var ___result = RSetClipRectValue_BMPAlloc_Vector4.Invoke(___genericsType, ___parameters);
+
+            
+        }
 
 
+        public virtual void SetOpacityValue(RUnityEngine.RUIElements.RUIR.RBMPAlloc  @alloc, System.Single  @opacity)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@alloc.Value, @opacity};
+            var ___result = RSetOpacityValue_BMPAlloc_Single.Invoke(___genericsType, ___parameters);
+
+            
+        }
 
 
+        public virtual void SetColorValue(RUnityEngine.RUIElements.RUIR.RBMPAlloc  @alloc, UnityEngine.Color  @color)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@alloc.Value, @color};
+            var ___result = RSetColorValue_BMPAlloc_Color.Invoke(___genericsType, ___parameters);
+
+            
+        }
 
 
+        public virtual void SetTextCoreSettingValue(RUnityEngine.RUIElements.RUIR.RBMPAlloc  @alloc, RUnityEngine.RUIElements.RUIR.RTextCoreSettings  @settings)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@alloc.Value, @settings.Value};
+            var ___result = RSetTextCoreSettingValue_BMPAlloc_TextCoreSettings.Invoke(___genericsType, ___parameters);
+
+            
+        }
 
 
+        public virtual void FreeTransform(RUnityEngine.RUIElements.RUIR.RBMPAlloc  @alloc)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@alloc.Value};
+            var ___result = RFreeTransform_BMPAlloc.Invoke(___genericsType, ___parameters);
+
+            
+        }
 
 
+        public virtual void FreeClipRect(RUnityEngine.RUIElements.RUIR.RBMPAlloc  @alloc)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@alloc.Value};
+            var ___result = RFreeClipRect_BMPAlloc.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void FreeOpacity(RUnityEngine.RUIElements.RUIR.RBMPAlloc  @alloc)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@alloc.Value};
+            var ___result = RFreeOpacity_BMPAlloc.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void FreeColor(RUnityEngine.RUIElements.RUIR.RBMPAlloc  @alloc)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@alloc.Value};
+            var ___result = RFreeColor_BMPAlloc.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void FreeTextCoreSettings(RUnityEngine.RUIElements.RUIR.RBMPAlloc  @alloc)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@alloc.Value};
+            var ___result = RFreeTextCoreSettings_BMPAlloc.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual UnityEngine.Color32 TransformAllocToVertexData(RUnityEngine.RUIElements.RUIR.RBMPAlloc  @alloc)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@alloc.Value};
+            var ___result = RTransformAllocToVertexData_BMPAlloc.Invoke(___genericsType, ___parameters);
+
+            return (UnityEngine.Color32)___result;
+        }
+
+
+        public virtual UnityEngine.Color32 ClipRectAllocToVertexData(RUnityEngine.RUIElements.RUIR.RBMPAlloc  @alloc)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@alloc.Value};
+            var ___result = RClipRectAllocToVertexData_BMPAlloc.Invoke(___genericsType, ___parameters);
+
+            return (UnityEngine.Color32)___result;
+        }
+
+
+        public virtual UnityEngine.Color32 OpacityAllocToVertexData(RUnityEngine.RUIElements.RUIR.RBMPAlloc  @alloc)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@alloc.Value};
+            var ___result = ROpacityAllocToVertexData_BMPAlloc.Invoke(___genericsType, ___parameters);
+
+            return (UnityEngine.Color32)___result;
+        }
+
+
+        public virtual UnityEngine.Color32 ColorAllocToVertexData(RUnityEngine.RUIElements.RUIR.RBMPAlloc  @alloc)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@alloc.Value};
+            var ___result = RColorAllocToVertexData_BMPAlloc.Invoke(___genericsType, ___parameters);
+
+            return (UnityEngine.Color32)___result;
+        }
+
+
+        public virtual UnityEngine.Color32 TextCoreSettingsToVertexData(RUnityEngine.RUIElements.RUIR.RBMPAlloc  @alloc)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@alloc.Value};
+            var ___result = RTextCoreSettingsToVertexData_BMPAlloc.Invoke(___genericsType, ___parameters);
+
+            return (UnityEngine.Color32)___result;
+        }
 
 
         public virtual System.Boolean Equals(System.Object  @obj)

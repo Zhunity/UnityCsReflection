@@ -3139,6 +3139,26 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 	    {
 	    }
 
+        public virtual UnityEngine.Vector3 GetLocalEulerAngles(RType  @order)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@order.Value};
+            var ___result = RGetLocalEulerAngles_RotationOrder.Invoke(___genericsType, ___parameters);
+
+            return (UnityEngine.Vector3)___result;
+        }
+
+
+        public virtual void SetLocalEulerAngles(UnityEngine.Vector3  @euler, RType  @order)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@euler, @order.Value};
+            var ___result = RSetLocalEulerAngles_Vector3_RotationOrder.Invoke(___genericsType, ___parameters);
+
+            
+        }
 
 
         public virtual void SetLocalEulerHint(UnityEngine.Vector3  @euler)
@@ -3162,6 +3182,16 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             return (System.Int32)___result;
         }
 
+
+        public virtual void SetRotationOrderInternal(RType  @rotationOrder)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@rotationOrder.Value};
+            var ___result = RSetRotationOrderInternal_RotationOrder.Invoke(___genericsType, ___parameters);
+
+            
+        }
 
 
         public virtual UnityEngine.Transform GetParent()
@@ -3863,6 +3893,29 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
+        public virtual void GetLocalEulerAngles_Injected(RType  @order, out UnityEngine.Vector3  @ret)
+        {
+			ret = default;
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@order.Value, @ret};
+            var ___result = RGetLocalEulerAngles_Injected_RotationOrder_Out_Vector3.Invoke(___genericsType, ___parameters);
+			ret = (UnityEngine.Vector3)___parameters[1];
+
+            
+        }
+
+
+        public virtual void SetLocalEulerAngles_Injected(ref UnityEngine.Vector3  @euler, RType  @order)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@euler, @order.Value};
+            var ___result = RSetLocalEulerAngles_Injected_Ref_Vector3_RotationOrder.Invoke(___genericsType, ___parameters);
+			euler = (UnityEngine.Vector3)___parameters[0];
+
+            
+        }
 
 
         public virtual void SetLocalEulerHint_Injected(ref UnityEngine.Vector3  @euler)

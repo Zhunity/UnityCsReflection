@@ -375,6 +375,26 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
+        public virtual System.Boolean IsSame(RSystem.RThreading.RExecutionContext.RReader  @other)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@other.Value};
+            var ___result = RIsSame_Reader.Invoke(___genericsType, ___parameters);
+
+            return (System.Boolean)___result;
+        }
+
+
+        public virtual System.Object GetLocalValue(RSystem.RThreading.RIAsyncLocal  @local)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@local.Value};
+            var ___result = RGetLocalValue_IAsyncLocal.Invoke(___genericsType, ___parameters);
+
+            return (System.Object)___result;
+        }
 
 
         public virtual System.Boolean HasSameLocalValues(System.Threading.ExecutionContext  @other)

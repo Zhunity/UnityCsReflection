@@ -385,6 +385,16 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 	    {
 	    }
 
+        public virtual UnityEngine.Texture GetTexture(RUnityEngine.RUIElements.RTextureId  @id)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@id.Value};
+            var ___result = RGetTexture_TextureId.Invoke(___genericsType, ___parameters);
+
+            return (UnityEngine.Texture)___result;
+        }
+
 
         public virtual System.Object AllocAndAcquireDynamic()
         {
@@ -396,6 +406,16 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
             return (System.Object)___result;
         }
 
+
+        public virtual void UpdateDynamic(RUnityEngine.RUIElements.RTextureId  @id, UnityEngine.Texture  @texture)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@id.Value, @texture};
+            var ___result = RUpdateDynamic_TextureId_Texture.Invoke(___genericsType, ___parameters);
+
+            
+        }
 
 
         public virtual System.Object AllocAndAcquire(UnityEngine.Texture  @texture, System.Boolean  @dynamic)
@@ -420,6 +440,26 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
+        public virtual void Acquire(RUnityEngine.RUIElements.RTextureId  @id)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@id.Value};
+            var ___result = RAcquire_TextureId.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void Release(RUnityEngine.RUIElements.RTextureId  @id)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@id.Value};
+            var ___result = RRelease_TextureId.Invoke(___genericsType, ___parameters);
+
+            
+        }
 
 
         public virtual System.Object TextureToId(UnityEngine.Texture  @texture)

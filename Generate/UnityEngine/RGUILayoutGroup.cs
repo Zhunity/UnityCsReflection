@@ -995,6 +995,16 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
+        public virtual void Add(RUnityEngine.RGUILayoutEntry  @e)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@e.Value};
+            var ___result = RAdd_GUILayoutEntry.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
 
         public virtual void CalcWidth()
         {

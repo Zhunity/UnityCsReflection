@@ -1763,6 +1763,26 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
         }
 
 
+        public static System.Object get_base_method(RSystem.RReflection.RRuntimeMethodInfo  @method, System.Boolean  @definition)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@method.Value, @definition};
+            var ___result = Rget_base_method_RuntimeMethodInfo_Boolean.Invoke(___genericsType, ___parameters);
+
+            return (System.Object)___result;
+        }
+
+
+        public static System.Int32 get_metadata_token(RSystem.RReflection.RRuntimeMethodInfo  @method)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@method.Value};
+            var ___result = Rget_metadata_token_RuntimeMethodInfo.Invoke(___genericsType, ___parameters);
+
+            return (System.Int32)___result;
+        }
 
 
         public virtual System.Reflection.MethodInfo GetBaseDefinition()
@@ -1898,6 +1918,21 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
             return (System.Object[])___result;
         }
 
+
+        public virtual void GetPInvoke(out RType  @flags, out System.String  @entryPoint, out System.String  @dllName)
+        {
+			flags = default;
+			entryPoint = default;
+			dllName = default;
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@flags.Value, @entryPoint, @dllName};
+            var ___result = RGetPInvoke_Out_PInvokeAttributes_Out_String_Out_String.Invoke(___genericsType, ___parameters);
+			entryPoint = (System.String)___parameters[1];
+			dllName = (System.String)___parameters[2];
+
+            
+        }
 
 
         public virtual System.Object[] GetPseudoCustomAttributes()

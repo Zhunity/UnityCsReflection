@@ -1946,6 +1946,16 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
+        public virtual void AssignPanelToComponents(RUnityEngine.RUIElements.RBaseRuntimePanel  @panel)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@panel.Value};
+            var ___result = RAssignPanelToComponents_BaseRuntimePanel.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
 
         public virtual void PointerLeavesPanel(System.Int32  @pointerId, UnityEngine.Vector2  @position)
         {
@@ -2090,6 +2100,16 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
+        public virtual System.Object GetEditorUpdater(RType  @phase)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@phase.Value};
+            var ___result = RGetEditorUpdater_VisualTreeEditorUpdatePhase.Invoke(___genericsType, ___parameters);
+
+            return (System.Object)___result;
+        }
+
 
         public virtual void UpdateInlineStylesRecursively(UnityEngine.UIElements.VisualElement  @rootElement)
         {
@@ -2102,8 +2122,48 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
+        public virtual void RequestUpdateAfterExternalEvent(RUnityEngine.RUIElements.RIVisualTreeUpdater  @updater)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@updater.Value};
+            var ___result = RRequestUpdateAfterExternalEvent_IVisualTreeUpdater.Invoke(___genericsType, ___parameters);
+
+            
+        }
 
 
+        public virtual void OnVersionChanged(UnityEngine.UIElements.VisualElement  @ve, RType  @versionChangeType)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@ve, @versionChangeType.Value};
+            var ___result = ROnVersionChanged_VisualElement_VersionChangeType.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void SetUpdater(RUnityEngine.RUIElements.RIVisualTreeUpdater  @updater, RType  @phase)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@updater.Value, @phase.Value};
+            var ___result = RSetUpdater_IVisualTreeUpdater_VisualTreeUpdatePhase.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual System.Object GetUpdater(RType  @phase)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@phase.Value};
+            var ___result = RGetUpdater_VisualTreeUpdatePhase.Invoke(___genericsType, ___parameters);
+
+            return (System.Object)___result;
+        }
 
 
         public virtual void Dispose()
@@ -2116,6 +2176,16 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
             
         }
 
+
+        public virtual void SendEvent(UnityEngine.UIElements.EventBase  @e, RType  @dispatchMode)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@e, @dispatchMode.Value};
+            var ___result = RSendEvent_EventBase_DispatchMode.Invoke(___genericsType, ___parameters);
+
+            
+        }
 
 
         public virtual UnityEngine.UIElements.VisualElement GetTopElementUnderPointer(System.Int32  @pointerId)
@@ -2205,6 +2275,16 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
             
         }
 
+
+        public virtual void InvokeHierarchyChanged(UnityEngine.UIElements.VisualElement  @ve, RType  @changeType)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@ve, @changeType.Value};
+            var ___result = RInvokeHierarchyChanged_VisualElement_HierarchyChangeType.Invoke(___genericsType, ___parameters);
+
+            
+        }
 
 
         public virtual void InvokeBeforeUpdate()

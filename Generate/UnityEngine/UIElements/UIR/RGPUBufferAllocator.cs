@@ -260,6 +260,16 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
         }
 
 
+        public virtual void Free(RUnityEngine.RUIElements.RUIR.RAlloc  @alloc)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@alloc.Value};
+            var ___result = RFree_Alloc.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
 
         public virtual System.Object GatherStatistics()
         {

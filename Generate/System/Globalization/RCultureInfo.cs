@@ -2392,6 +2392,16 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
+        public static void InitializeUserPreferredCultureInfoInAppX(RSystem.RGlobalization.RCultureInfo.ROnCultureInfoChangedDelegate  @onCultureInfoChangedInAppX)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@onCultureInfoChangedInAppX.Value};
+            var ___result = RInitializeUserPreferredCultureInfoInAppX_OnCultureInfoChangedDelegate.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
 
         public static void SetUserPreferredCultureInfoInAppX(System.String  @name)
         {

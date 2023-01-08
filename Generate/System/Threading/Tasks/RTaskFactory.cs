@@ -1709,6 +1709,16 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
         }
 
 
+        public virtual System.Threading.Tasks.Task StartNew(System.Action  @action, System.Threading.CancellationToken  @cancellationToken, System.Threading.Tasks.TaskCreationOptions  @creationOptions, RType  @internalOptions, System.Threading.Tasks.TaskScheduler  @scheduler)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@action, @cancellationToken, @creationOptions, @internalOptions.Value, @scheduler};
+            var ___result = RStartNew_Action_CancellationToken_TaskCreationOptions_InternalTaskOptions_TaskScheduler.Invoke(___genericsType, ___parameters);
+
+            return (System.Threading.Tasks.Task)___result;
+        }
+
 
         public virtual System.Threading.Tasks.Task StartNew(System.Action<System.Object>  @action, System.Object  @state)
         {

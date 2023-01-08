@@ -2098,6 +2098,26 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
+        public virtual void SetExceptionHandlers(RTypeArray<RSystem.RReflection.REmit.RILExceptionInfo>  @exHandlers)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@exHandlers.Value};
+            var ___result = RSetExceptionHandlers_ILExceptionInfoArray.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void SetTokenFixups(RTypeArray<RSystem.RReflection.REmit.RILTokenInfo>  @tokenFixups)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@tokenFixups.Value};
+            var ___result = RSetTokenFixups_ILTokenInfoArray.Invoke(___genericsType, ___parameters);
+
+            
+        }
 
 
         public virtual void SetCode(System.Byte[]  @code, System.Int32  @max_stack)

@@ -870,6 +870,26 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
+        public virtual System.Boolean PerformOperation(RType  @operation, System.Boolean  @textIsReadOnly)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@operation.Value, @textIsReadOnly};
+            var ___result = RPerformOperation_TextEditOp_Boolean.Invoke(___genericsType, ___parameters);
+
+            return (System.Boolean)___result;
+        }
+
+
+        public static void MapKey(System.String  @key, RType  @action)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@key, @action.Value};
+            var ___result = RMapKey_String_TextEditOp.Invoke(___genericsType, ___parameters);
+
+            
+        }
 
 
         public virtual void InitKeyActions()

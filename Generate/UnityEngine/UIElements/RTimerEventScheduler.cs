@@ -368,6 +368,16 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 	    {
 	    }
 
+        public virtual void Schedule(RUnityEngine.RUIElements.RScheduledItem  @item)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@item.Value};
+            var ___result = RSchedule_ScheduledItem.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
 
         public virtual System.Object ScheduleOnce(System.Action<UnityEngine.UIElements.TimerState>  @timerUpdateEvent, System.Int64  @delayMs)
         {
@@ -413,6 +423,26 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
+        public virtual void Unschedule(RUnityEngine.RUIElements.RScheduledItem  @item)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@item.Value};
+            var ___result = RUnschedule_ScheduledItem.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual System.Boolean PrivateUnSchedule(RUnityEngine.RUIElements.RScheduledItem  @sItem)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@sItem.Value};
+            var ___result = RPrivateUnSchedule_ScheduledItem.Invoke(___genericsType, ___parameters);
+
+            return (System.Boolean)___result;
+        }
 
 
         public virtual void UpdateScheduledEvents()

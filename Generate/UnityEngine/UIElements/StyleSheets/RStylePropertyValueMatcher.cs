@@ -572,6 +572,16 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 	    {
 	    }
 
+        public virtual System.Object Match(RUnityEngine.RUIElements.RStyleSheets.RSyntax.RExpression  @exp, RSystem.RCollections.RGeneric.RList<RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue>  @values)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@exp.Value, @values.Value};
+            var ___result = RMatch_Expression_List_d_StylePropertyValue_p_.Invoke(___genericsType, ___parameters);
+
+            return (System.Object)___result;
+        }
+
 
         public virtual System.Boolean MatchKeyword(System.String  @keyword)
         {
@@ -748,6 +758,16 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
             
         }
 
+
+        public virtual System.Boolean Match(RUnityEngine.RUIElements.RStyleSheets.RSyntax.RExpression  @exp)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@exp.Value};
+            var ___result = RMatch_Expression.Invoke(___genericsType, ___parameters);
+
+            return (System.Boolean)___result;
+        }
 
 
         public virtual System.Boolean Equals(System.Object  @obj)

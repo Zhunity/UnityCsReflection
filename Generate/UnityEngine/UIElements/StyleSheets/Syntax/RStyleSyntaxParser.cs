@@ -464,6 +464,16 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RSynt
         }
 
 
+        public virtual System.Object ParseExpression(RUnityEngine.RUIElements.RStyleSheets.RSyntax.RStyleSyntaxTokenizer  @tokenizer)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@tokenizer.Value};
+            var ___result = RParseExpression_StyleSyntaxTokenizer.Invoke(___genericsType, ___parameters);
+
+            return (System.Object)___result;
+        }
+
 
         public virtual void ProcessCombinatorStack()
         {
@@ -476,8 +486,48 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RSynt
         }
 
 
+        public virtual System.Object ParseTerm(RUnityEngine.RUIElements.RStyleSheets.RSyntax.RStyleSyntaxTokenizer  @tokenizer)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@tokenizer.Value};
+            var ___result = RParseTerm_StyleSyntaxTokenizer.Invoke(___genericsType, ___parameters);
+
+            return (System.Object)___result;
+        }
 
 
+        public virtual System.Object ParseCombinatorType(RUnityEngine.RUIElements.RStyleSheets.RSyntax.RStyleSyntaxTokenizer  @tokenizer)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@tokenizer.Value};
+            var ___result = RParseCombinatorType_StyleSyntaxTokenizer.Invoke(___genericsType, ___parameters);
+
+            return (System.Object)___result;
+        }
+
+
+        public virtual System.Object ParseGroup(RUnityEngine.RUIElements.RStyleSheets.RSyntax.RStyleSyntaxTokenizer  @tokenizer)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@tokenizer.Value};
+            var ___result = RParseGroup_StyleSyntaxTokenizer.Invoke(___genericsType, ___parameters);
+
+            return (System.Object)___result;
+        }
+
+
+        public virtual System.Object ParseDataType(RUnityEngine.RUIElements.RStyleSheets.RSyntax.RStyleSyntaxTokenizer  @tokenizer)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@tokenizer.Value};
+            var ___result = RParseDataType_StyleSyntaxTokenizer.Invoke(___genericsType, ___parameters);
+
+            return (System.Object)___result;
+        }
 
 
         public virtual System.Object ParseNonTerminalValue(System.String  @syntax)
@@ -491,11 +541,85 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RSynt
         }
 
 
+        public virtual System.Object ParseProperty(RUnityEngine.RUIElements.RStyleSheets.RSyntax.RStyleSyntaxTokenizer  @tokenizer)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@tokenizer.Value};
+            var ___result = RParseProperty_StyleSyntaxTokenizer.Invoke(___genericsType, ___parameters);
+
+            return (System.Object)___result;
+        }
 
 
+        public virtual void ParseMultiplier(RUnityEngine.RUIElements.RStyleSheets.RSyntax.RStyleSyntaxTokenizer  @tokenizer, ref RUnityEngine.RUIElements.RStyleSheets.RSyntax.RExpressionMultiplier  @multiplier)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@tokenizer.Value, @multiplier.Value};
+            var ___result = RParseMultiplier_StyleSyntaxTokenizer_Ref_ExpressionMultiplier.Invoke(___genericsType, ___parameters);
+
+            
+        }
 
 
+        public virtual void ParseRanges(RUnityEngine.RUIElements.RStyleSheets.RSyntax.RStyleSyntaxTokenizer  @tokenizer, out System.Int32  @min, out System.Int32  @max)
+        {
+			min = default;
+			max = default;
 
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@tokenizer.Value, @min, @max};
+            var ___result = RParseRanges_StyleSyntaxTokenizer_Out_Int32_Out_Int32.Invoke(___genericsType, ___parameters);
+			min = (System.Int32)___parameters[1];
+			max = (System.Int32)___parameters[2];
+
+            
+        }
+
+
+        public static void EatSpace(RUnityEngine.RUIElements.RStyleSheets.RSyntax.RStyleSyntaxTokenizer  @tokenizer)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@tokenizer.Value};
+            var ___result = REatSpace_StyleSyntaxTokenizer.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public static System.Boolean IsExpressionEnd(RUnityEngine.RUIElements.RStyleSheets.RSyntax.RStyleSyntaxToken  @token)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@token.Value};
+            var ___result = RIsExpressionEnd_StyleSyntaxToken.Invoke(___genericsType, ___parameters);
+
+            return (System.Boolean)___result;
+        }
+
+
+        public static System.Boolean IsCombinator(RUnityEngine.RUIElements.RStyleSheets.RSyntax.RStyleSyntaxToken  @token)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@token.Value};
+            var ___result = RIsCombinator_StyleSyntaxToken.Invoke(___genericsType, ___parameters);
+
+            return (System.Boolean)___result;
+        }
+
+
+        public static System.Boolean IsMultiplier(RUnityEngine.RUIElements.RStyleSheets.RSyntax.RStyleSyntaxToken  @token)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@token.Value};
+            var ___result = RIsMultiplier_StyleSyntaxToken.Invoke(___genericsType, ___parameters);
+
+            return (System.Boolean)___result;
+        }
 
 
         public virtual System.Boolean Equals(System.Object  @obj)

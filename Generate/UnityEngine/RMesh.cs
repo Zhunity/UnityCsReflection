@@ -6093,6 +6093,16 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
+        public virtual Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle GetReadOnlySafetyHandle(RType  @index)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@index.Value};
+            var ___result = RGetReadOnlySafetyHandle_SafetyHandleIndex.Invoke(___genericsType, ___parameters);
+
+            return (Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)___result;
+        }
+
 
         public virtual void SetSubMesh(System.Int32  @index, UnityEngine.Rendering.SubMeshDescriptor  @desc, UnityEngine.Rendering.MeshUpdateFlags  @flags)
         {
@@ -7211,7 +7221,37 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
+        public static void ApplyAndDisposeWritableMeshData(RUnityEngine.RMesh.RMeshDataArray  @data, UnityEngine.Mesh  @mesh, UnityEngine.Rendering.MeshUpdateFlags  @flags)
+        {
 
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@data.Value, @mesh, @flags};
+            var ___result = RApplyAndDisposeWritableMeshData_MeshDataArray_Mesh_MeshUpdateFlags.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public static void ApplyAndDisposeWritableMeshData(RUnityEngine.RMesh.RMeshDataArray  @data, UnityEngine.Mesh[]  @meshes, UnityEngine.Rendering.MeshUpdateFlags  @flags)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@data.Value, @meshes, @flags};
+            var ___result = RApplyAndDisposeWritableMeshData_MeshDataArray_MeshArray_MeshUpdateFlags.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public static void ApplyAndDisposeWritableMeshData(RUnityEngine.RMesh.RMeshDataArray  @data, System.Collections.Generic.List<UnityEngine.Mesh>  @meshes, UnityEngine.Rendering.MeshUpdateFlags  @flags)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@data.Value, @meshes, @flags};
+            var ___result = RApplyAndDisposeWritableMeshData_MeshDataArray_List_d_Mesh_p__MeshUpdateFlags.Invoke(___genericsType, ___parameters);
+
+            
+        }
 
 
         public virtual UnityEngine.GraphicsBuffer GetVertexBuffer(System.Int32  @index)
@@ -8057,6 +8097,29 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
+        public virtual void GetBlendShapeOffsetInternal_Injected(System.Int32  @index, out RUnityEngine.RBlendShape  @ret)
+        {
+			ret = default;
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@index, @ret.Value};
+            var ___result = RGetBlendShapeOffsetInternal_Injected_Int32_Out_BlendShape.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void GetReadOnlySafetyHandle_Injected(RType  @index, out Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle  @ret)
+        {
+			ret = default;
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@index.Value, @ret};
+            var ___result = RGetReadOnlySafetyHandle_Injected_SafetyHandleIndex_Out_AtomicSafetyHandle.Invoke(___genericsType, ___parameters);
+			ret = (Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)___parameters[1];
+
+            
+        }
 
 
         public virtual void SetSubMesh_Injected(System.Int32  @index, ref UnityEngine.Rendering.SubMeshDescriptor  @desc, UnityEngine.Rendering.MeshUpdateFlags  @flags)

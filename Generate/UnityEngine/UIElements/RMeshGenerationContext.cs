@@ -328,6 +328,16 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
+        public virtual UnityEngine.UIElements.MeshWriteData Allocate(System.Int32  @vertexCount, System.Int32  @indexCount, UnityEngine.Texture  @texture, UnityEngine.Material  @material, RType  @flags)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@vertexCount, @indexCount, @texture, @material, @flags.Value};
+            var ___result = RAllocate_Int32_Int32_Texture_Material_MeshFlags.Invoke(___genericsType, ___parameters);
+
+            return (UnityEngine.UIElements.MeshWriteData)___result;
+        }
+
 
         public virtual void DrawVectorImage(UnityEngine.UIElements.VectorImage  @vectorImage, UnityEngine.Vector2  @offset, UnityEngine.UIElements.Angle  @rotationAngle, UnityEngine.Vector2  @scale)
         {

@@ -1249,6 +1249,16 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
         }
 
 
+        public static void Control(Unity.Profiling.ProfilerRecorder  @handle, RType  @options)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@handle, @options.Value};
+            var ___result = RControl_ProfilerRecorder_ControlOptions.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
 
         public static Unity.Profiling.ProfilerMarkerDataUnit GetValueUnitType(Unity.Profiling.ProfilerRecorder  @handle)
         {
@@ -1315,6 +1325,16 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
             return (System.Double)___result;
         }
 
+
+        public static System.Int32 GetCount(Unity.Profiling.ProfilerRecorder  @handle, RType  @countOptions)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@handle, @countOptions.Value};
+            var ___result = RGetCount_ProfilerRecorder_CountOptions.Invoke(___genericsType, ___parameters);
+
+            return (System.Int32)___result;
+        }
 
 
         public static System.Boolean GetValid(Unity.Profiling.ProfilerRecorder  @handle)
@@ -1410,6 +1430,17 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
         }
 
 
+        public static void Control_Injected(ref Unity.Profiling.ProfilerRecorder  @handle, RType  @options)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@handle, @options.Value};
+            var ___result = RControl_Injected_Ref_ProfilerRecorder_ControlOptions.Invoke(___genericsType, ___parameters);
+			handle = (Unity.Profiling.ProfilerRecorder)___parameters[0];
+
+            
+        }
+
 
         public static Unity.Profiling.ProfilerMarkerDataUnit GetValueUnitType_Injected(ref Unity.Profiling.ProfilerRecorder  @handle)
         {
@@ -1482,6 +1513,17 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
             return (System.Double)___result;
         }
 
+
+        public static System.Int32 GetCount_Injected(ref Unity.Profiling.ProfilerRecorder  @handle, RType  @countOptions)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@handle, @countOptions.Value};
+            var ___result = RGetCount_Injected_Ref_ProfilerRecorder_CountOptions.Invoke(___genericsType, ___parameters);
+			handle = (Unity.Profiling.ProfilerRecorder)___parameters[0];
+
+            return (System.Int32)___result;
+        }
 
 
         public static System.Boolean GetValid_Injected(ref Unity.Profiling.ProfilerRecorder  @handle)

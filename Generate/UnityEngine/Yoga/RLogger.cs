@@ -402,6 +402,26 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
 	    {
 	    }
 
+        public virtual void Invoke(RUnityEngine.RYoga.RYogaConfig  @config, RUnityEngine.RYoga.RYogaNode  @node, RType  @level, System.String  @message)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@config.Value, @node.Value, @level.Value, @message};
+            var ___result = RInvoke_YogaConfig_YogaNode_YogaLogLevel_String.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual System.IAsyncResult BeginInvoke(RUnityEngine.RYoga.RYogaConfig  @config, RUnityEngine.RYoga.RYogaNode  @node, RType  @level, System.String  @message, System.AsyncCallback  @callback, System.Object  @object)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@config.Value, @node.Value, @level.Value, @message, @callback, @object};
+            var ___result = RBeginInvoke_YogaConfig_YogaNode_YogaLogLevel_String_AsyncCallback_Object.Invoke(___genericsType, ___parameters);
+
+            return (System.IAsyncResult)___result;
+        }
 
 
         public virtual void EndInvoke(System.IAsyncResult  @result)

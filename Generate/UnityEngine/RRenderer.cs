@@ -2882,8 +2882,48 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
+        public virtual System.Int32 GetLightmapIndex(RType  @lt)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@lt.Value};
+            var ___result = RGetLightmapIndex_LightmapType.Invoke(___genericsType, ___parameters);
+
+            return (System.Int32)___result;
+        }
 
 
+        public virtual void SetLightmapIndex(System.Int32  @index, RType  @lt)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@index, @lt.Value};
+            var ___result = RSetLightmapIndex_Int32_LightmapType.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual UnityEngine.Vector4 GetLightmapST(RType  @lt)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@lt.Value};
+            var ___result = RGetLightmapST_LightmapType.Invoke(___genericsType, ___parameters);
+
+            return (UnityEngine.Vector4)___result;
+        }
+
+
+        public virtual void SetLightmapST(UnityEngine.Vector4  @st, RType  @lt)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@st, @lt.Value};
+            var ___result = RSetLightmapST_Vector4_LightmapType.Invoke(___genericsType, ___parameters);
+
+            
+        }
 
 
         public virtual System.Int32 GetMaterialCount()
@@ -3062,6 +3102,29 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
+        public virtual void GetLightmapST_Injected(RType  @lt, out UnityEngine.Vector4  @ret)
+        {
+			ret = default;
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@lt.Value, @ret};
+            var ___result = RGetLightmapST_Injected_LightmapType_Out_Vector4.Invoke(___genericsType, ___parameters);
+			ret = (UnityEngine.Vector4)___parameters[1];
+
+            
+        }
+
+
+        public virtual void SetLightmapST_Injected(ref UnityEngine.Vector4  @st, RType  @lt)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@st, @lt.Value};
+            var ___result = RSetLightmapST_Injected_Ref_Vector4_LightmapType.Invoke(___genericsType, ___parameters);
+			st = (UnityEngine.Vector4)___parameters[0];
+
+            
+        }
 
 
         public virtual UnityEngine.Component GetComponent(System.Type  @type)

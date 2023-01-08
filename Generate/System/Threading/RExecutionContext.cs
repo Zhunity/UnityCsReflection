@@ -810,6 +810,26 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 	    {
 	    }
 
+        public static System.Object GetLocalValue(RSystem.RThreading.RIAsyncLocal  @local)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@local.Value};
+            var ___result = RGetLocalValue_IAsyncLocal.Invoke(___genericsType, ___parameters);
+
+            return (System.Object)___result;
+        }
+
+
+        public static void SetLocalValue(RSystem.RThreading.RIAsyncLocal  @local, System.Object  @newValue, System.Boolean  @needChangeNotifications)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@local.Value, @newValue, @needChangeNotifications};
+            var ___result = RSetLocalValue_IAsyncLocal_Object_Boolean.Invoke(___genericsType, ___parameters);
+
+            
+        }
 
 
         public static void OnAsyncLocalContextChanged(System.Threading.ExecutionContext  @previous, System.Threading.ExecutionContext  @current)
@@ -878,8 +898,50 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
+        public static void RunInternal<TState>(System.Threading.ExecutionContext  @executionContext, RSystem.RThreading.RContextCallback<RType>  @callback, ref TState  @state)
+        {
+
+            var ___genericsType = new Type[] {typeof(TState)};
+            var ___parameters = new object[]{@executionContext, @callback.Value, @state};
+            var ___result = RRunInternal_GTState_ExecutionContext_ContextCallback_d_TState_p__Ref_TState.Invoke(___genericsType, ___parameters);
+			state = (TState)___parameters[2];
+
+            
+        }
 
 
+        public static void RunInternal<TState>(System.Threading.ExecutionContext  @executionContext, RSystem.RThreading.RContextCallback<RType>  @callback, ref TState  @state, System.Boolean  @preserveSyncCtx)
+        {
+
+            var ___genericsType = new Type[] {typeof(TState)};
+            var ___parameters = new object[]{@executionContext, @callback.Value, @state, @preserveSyncCtx};
+            var ___result = RRunInternal_GTState_ExecutionContext_ContextCallback_d_TState_p__Ref_TState_Boolean.Invoke(___genericsType, ___parameters);
+			state = (TState)___parameters[2];
+
+            
+        }
+
+
+        public static void EstablishCopyOnWriteScope(ref RSystem.RThreading.RExecutionContextSwitcher  @ecsw)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@ecsw.Value};
+            var ___result = REstablishCopyOnWriteScope_Ref_ExecutionContextSwitcher.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public static void EstablishCopyOnWriteScope(System.Threading.Thread  @currentThread, System.Boolean  @knownNullWindowsIdentity, ref RSystem.RThreading.RExecutionContextSwitcher  @ecsw)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@currentThread, @knownNullWindowsIdentity, @ecsw.Value};
+            var ___result = REstablishCopyOnWriteScope_Thread_Boolean_Ref_ExecutionContextSwitcher.Invoke(___genericsType, ___parameters);
+
+            
+        }
 
 
         public static System.Object SetExecutionContext(System.Threading.ExecutionContext  @executionContext, System.Boolean  @preserveSyncCtx)
@@ -969,6 +1031,16 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
             return (System.Threading.ExecutionContext)___result;
         }
 
+
+        public static System.Threading.ExecutionContext Capture(ref RType  @stackMark, RType  @options)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@stackMark.Value, @options.Value};
+            var ___result = RCapture_Ref_StackCrawlMark_CaptureOptions.Invoke(___genericsType, ___parameters);
+
+            return (System.Threading.ExecutionContext)___result;
+        }
 
 
         public virtual void GetObjectData(System.Runtime.Serialization.SerializationInfo  @info, System.Runtime.Serialization.StreamingContext  @context)

@@ -852,6 +852,16 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
+        public virtual void RegisterCallback<TEventType>(UnityEngine.UIElements.EventCallback<TEventType>  @callback, RType  @invokePolicy, UnityEngine.UIElements.TrickleDown  @useTrickleDown) where TEventType : UnityEngine.UIElements.EventBase<TEventType>, new()
+        {
+
+            var ___genericsType = new Type[] {typeof(TEventType)};
+            var ___parameters = new object[]{@callback, @invokePolicy.Value, @useTrickleDown};
+            var ___result = RRegisterCallback_GTEventType_EventCallback_d_TEventType_p__InvokePolicy_TrickleDown.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
 
         public virtual void UnregisterCallback<TEventType>(UnityEngine.UIElements.EventCallback<TEventType>  @callback, UnityEngine.UIElements.TrickleDown  @useTrickleDown) where TEventType : UnityEngine.UIElements.EventBase<TEventType>, new()
         {
@@ -898,6 +908,16 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
             
         }
 
+
+        public virtual void SendEvent(UnityEngine.UIElements.EventBase  @e, RType  @dispatchMode)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@e, @dispatchMode.Value};
+            var ___result = RSendEvent_EventBase_DispatchMode.Invoke(___genericsType, ___parameters);
+
+            
+        }
 
 
         public virtual void HandleEventAtTargetPhase(UnityEngine.UIElements.EventBase  @evt)

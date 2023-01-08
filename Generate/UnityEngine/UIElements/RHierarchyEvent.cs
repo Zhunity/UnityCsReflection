@@ -402,6 +402,26 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 	    {
 	    }
 
+        public virtual void Invoke(UnityEngine.UIElements.VisualElement  @ve, RType  @changeType)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@ve, @changeType.Value};
+            var ___result = RInvoke_VisualElement_HierarchyChangeType.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual System.IAsyncResult BeginInvoke(UnityEngine.UIElements.VisualElement  @ve, RType  @changeType, System.AsyncCallback  @callback, System.Object  @object)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@ve, @changeType.Value, @callback, @object};
+            var ___result = RBeginInvoke_VisualElement_HierarchyChangeType_AsyncCallback_Object.Invoke(___genericsType, ___parameters);
+
+            return (System.IAsyncResult)___result;
+        }
 
 
         public virtual void EndInvoke(System.IAsyncResult  @result)

@@ -984,7 +984,37 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
         }
 
 
+        public virtual System.Single ComputeTextWidth(RUnityEngine.RTextCore.RText.RTextGenerationSettings  @tgs)
+        {
 
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@tgs.Value};
+            var ___result = RComputeTextWidth_TextGenerationSettings.Invoke(___genericsType, ___parameters);
+
+            return (System.Single)___result;
+        }
+
+
+        public virtual System.Single ComputeTextHeight(RUnityEngine.RTextCore.RText.RTextGenerationSettings  @tgs)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@tgs.Value};
+            var ___result = RComputeTextHeight_TextGenerationSettings.Invoke(___genericsType, ___parameters);
+
+            return (System.Single)___result;
+        }
+
+
+        public virtual void UpdatePreferredValues(RUnityEngine.RTextCore.RText.RTextGenerationSettings  @tgs)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@tgs.Value};
+            var ___result = RUpdatePreferredValues_TextGenerationSettings.Invoke(___genericsType, ___parameters);
+
+            
+        }
 
 
         public virtual System.Object Update(System.String  @newText)
@@ -997,6 +1027,16 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
             return (System.Object)___result;
         }
 
+
+        public virtual System.Object Update(RUnityEngine.RTextCore.RText.RTextGenerationSettings  @tgs)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@tgs.Value};
+            var ___result = RUpdate_TextGenerationSettings.Invoke(___genericsType, ___parameters);
+
+            return (System.Object)___result;
+        }
 
 
         public virtual System.Boolean Equals(System.Object  @obj)
