@@ -1204,6 +1204,16 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
         }
 
 
+        public unsafe virtual System.Int32 CopyTo(Unity.Profiling.ProfilerRecorderSample* @dest, System.Int32 @destSize, System.Boolean @reset)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{Pointer.Box(@dest, typeof(Unity.Profiling.ProfilerRecorderSample)), @destSize, @reset};
+            var ___result = RCopyTo_ProfilerRecorderSamplePointer_Int32_Boolean.Invoke(___genericsType, ___parameters);
+
+            return (System.Int32)___result;
+        }
+
 
         public virtual Unity.Profiling.ProfilerRecorderSample[] ToArray()
         {
@@ -1392,6 +1402,16 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
         }
 
 
+        public unsafe static System.Int32 CopyTo_Pointer(Unity.Profiling.ProfilerRecorder @handle, Unity.Profiling.ProfilerRecorderSample* @outSamples, System.Int32 @outSamplesSize, System.Boolean @reset)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@handle, Pointer.Box(@outSamples, typeof(Unity.Profiling.ProfilerRecorderSample)), @outSamplesSize, @reset};
+            var ___result = RCopyTo_Pointer_ProfilerRecorder_ProfilerRecorderSamplePointer_Int32_Boolean.Invoke(___genericsType, ___parameters);
+
+            return (System.Int32)___result;
+        }
+
 
         public virtual void Dispose()
         {
@@ -1403,6 +1423,16 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
             
         }
 
+
+        public unsafe virtual void CheckInitializedWithParamsAndThrow(Unity.Profiling.ProfilerRecorderSample* @dest)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{Pointer.Box(@dest, typeof(Unity.Profiling.ProfilerRecorderSample))};
+            var ___result = RCheckInitializedWithParamsAndThrow_ProfilerRecorderSamplePointer.Invoke(___genericsType, ___parameters);
+
+            
+        }
 
 
         public virtual void CheckInitializedAndThrow()
@@ -1587,6 +1617,17 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
             
         }
 
+
+        public unsafe static System.Int32 CopyTo_Pointer_Injected(ref Unity.Profiling.ProfilerRecorder @handle, Unity.Profiling.ProfilerRecorderSample* @outSamples, System.Int32 @outSamplesSize, System.Boolean @reset)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@handle, Pointer.Box(@outSamples, typeof(Unity.Profiling.ProfilerRecorderSample)), @outSamplesSize, @reset};
+            var ___result = RCopyTo_Pointer_Injected_Ref_ProfilerRecorder_ProfilerRecorderSamplePointer_Int32_Boolean.Invoke(___genericsType, ___parameters);
+			@handle = (Unity.Profiling.ProfilerRecorder)___parameters[0];
+
+            return (System.Int32)___result;
+        }
 
 
         public virtual System.Boolean Equals(System.Object @obj)

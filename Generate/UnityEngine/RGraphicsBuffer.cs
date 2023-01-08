@@ -1190,6 +1190,16 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
+        public unsafe virtual void* BeginBufferWrite(System.Int32 @offset, System.Int32 @size)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@offset, @size};
+            var ___result = RBeginBufferWrite_Int32_Int32.Invoke(___genericsType, ___parameters);
+
+            return (void*)Pointer.Unbox(___result);
+        }
+
 
         public virtual System.Object LockBufferForWrite<T>(System.Int32 @bufferStartIndex, System.Int32 @count) where T : struct
         {

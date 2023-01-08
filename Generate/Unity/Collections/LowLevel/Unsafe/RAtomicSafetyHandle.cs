@@ -1748,6 +1748,16 @@ namespace SMFrame.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
         }
 
 
+        public unsafe static System.Int32 NewStaticSafetyId(System.Byte* @ownerTypeNameBytes, System.Int32 @byteCount)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{Pointer.Box(@ownerTypeNameBytes, typeof(System.Byte)), @byteCount};
+            var ___result = RNewStaticSafetyId_BytePointer_Int32.Invoke(___genericsType, ___parameters);
+
+            return (System.Int32)___result;
+        }
+
 
         public static System.Int32 NewStaticSafetyId<T>()
         {
@@ -1759,6 +1769,16 @@ namespace SMFrame.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
             return (System.Int32)___result;
         }
 
+
+        public unsafe static void SetCustomErrorMessage(System.Int32 @staticSafetyId, Unity.Collections.LowLevel.Unsafe.AtomicSafetyErrorType @errorType, System.Byte* @messageBytes, System.Int32 @byteCount)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@staticSafetyId, @errorType, Pointer.Box(@messageBytes, typeof(System.Byte)), @byteCount};
+            var ___result = RSetCustomErrorMessage_Int32_AtomicSafetyErrorType_BytePointer_Int32.Invoke(___genericsType, ___parameters);
+
+            
+        }
 
 
         public static void SetStaticSafetyId(ref Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @handle, System.Int32 @staticSafetyId)

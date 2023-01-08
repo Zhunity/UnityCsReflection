@@ -1786,6 +1786,26 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
+        public unsafe static System.Int32 strlen(System.Byte* @s)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{Pointer.Box(@s, typeof(System.Byte))};
+            var ___result = Rstrlen_BytePointer.Invoke(___genericsType, ___parameters);
+
+            return (System.Int32)___result;
+        }
+
+
+        public unsafe static System.String idx2string(System.Byte* @data, System.Int32 @idx)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{Pointer.Box(@data, typeof(System.Byte)), @idx};
+            var ___result = Ridx2string_BytePointer_Int32.Invoke(___genericsType, ___parameters);
+
+            return (System.String)___result;
+        }
 
 
         public virtual System.Int32[] create_group_sizes_array(System.Int32 @gs0, System.Int32 @gs1)
@@ -1809,6 +1829,17 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
             
         }
 
+
+        public unsafe static System.Byte* fill_number_data(System.Int32 @index, ref RSystem.RGlobalization.RCultureData.RNumberFormatEntryManaged @nfe)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@index, @nfe.Value};
+            var ___result = Rfill_number_data_Int32_Ref_NumberFormatEntryManaged.Invoke(___genericsType, ___parameters);
+			@nfe = new RSystem.RGlobalization.RCultureData.RNumberFormatEntryManaged(___parameters[1]);
+
+            return (System.Byte*)Pointer.Unbox(___result);
+        }
 
 
         public virtual System.Boolean Equals(System.Object @obj)

@@ -680,6 +680,16 @@ namespace SMFrame.Editor.Refleaction.RUnity.RJobs
         }
 
 
+        public unsafe static void ScheduleBatchedJobsAndCompleteAll(void* @jobs, System.Int32 @count)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{Pointer.Box(@jobs, typeof(void)), @count};
+            var ___result = RScheduleBatchedJobsAndCompleteAll_VoidPointer_Int32.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
 
         public static Unity.Jobs.JobHandle CombineDependencies(Unity.Jobs.JobHandle @job0, Unity.Jobs.JobHandle @job1)
         {
@@ -731,6 +741,16 @@ namespace SMFrame.Editor.Refleaction.RUnity.RJobs
             return (Unity.Jobs.JobHandle)___result;
         }
 
+
+        public unsafe static Unity.Jobs.JobHandle CombineDependenciesInternalPtr(void* @jobs, System.Int32 @count)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{Pointer.Box(@jobs, typeof(void)), @count};
+            var ___result = RCombineDependenciesInternalPtr_VoidPointer_Int32.Invoke(___genericsType, ___parameters);
+
+            return (Unity.Jobs.JobHandle)___result;
+        }
 
 
         public static System.Boolean CheckFenceIsDependencyOrDidSyncFence(Unity.Jobs.JobHandle @jobHandle, Unity.Jobs.JobHandle @dependsOn)
@@ -829,6 +849,18 @@ namespace SMFrame.Editor.Refleaction.RUnity.RJobs
             
         }
 
+
+        public unsafe static void CombineDependenciesInternalPtr_Injected(void* @jobs, System.Int32 @count, out Unity.Jobs.JobHandle @ret)
+        {
+			@ret = default;
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{Pointer.Box(@jobs, typeof(void)), @count, @ret};
+            var ___result = RCombineDependenciesInternalPtr_Injected_VoidPointer_Int32_Out_JobHandle.Invoke(___genericsType, ___parameters);
+			@ret = (Unity.Jobs.JobHandle)___parameters[2];
+
+            
+        }
 
 
         public static System.Boolean CheckFenceIsDependencyOrDidSyncFence_Injected(ref Unity.Jobs.JobHandle @jobHandle, ref Unity.Jobs.JobHandle @dependsOn)

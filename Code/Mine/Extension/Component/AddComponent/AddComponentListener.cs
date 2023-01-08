@@ -32,7 +32,7 @@ namespace SMFrame.Editor.Extension
 
 		// ComponentItem的对象的对象
 		const string COMPONENT_ITEM_TYPE_NAME = "ComponentDropdownItem";
-		RComponentDropdownItem componentItem = new RComponentDropdownItem(COMPONENT_ITEM_TYPE_NAME);
+		RComponentDropdownItem componentItem = new RComponentDropdownItem();
 
 		private bool isClear = false;
 

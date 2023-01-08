@@ -2131,6 +2131,16 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
         }
 
 
+        public unsafe virtual void SetCode(System.Byte* @code, System.Int32 @code_size, System.Int32 @max_stack)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{Pointer.Box(@code, typeof(System.Byte)), @code_size, @max_stack};
+            var ___result = RSetCode_BytePointer_Int32_Int32.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
 
         public virtual void Init(System.Byte[] @il, System.Int32 @maxStack, System.Byte[] @localSignature, System.Collections.Generic.IEnumerable<System.Reflection.Emit.ExceptionHandler> @exceptionHandlers, System.Collections.Generic.IEnumerable<System.Int32> @tokenFixups)
         {

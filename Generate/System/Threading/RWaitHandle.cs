@@ -1378,6 +1378,16 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
+        public unsafe static System.Int32 Wait_internal(System.IntPtr* @handles, System.Int32 @numHandles, System.Boolean @waitAll, System.Int32 @ms)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{Pointer.Box(@handles, typeof(System.IntPtr)), @numHandles, @waitAll, @ms};
+            var ___result = RWait_internal_IntPtrPointer_Int32_Boolean_Int32.Invoke(___genericsType, ___parameters);
+
+            return (System.Int32)___result;
+        }
+
 
         public static System.Int32 SignalAndWaitOne(Microsoft.Win32.SafeHandles.SafeWaitHandle @waitHandleToSignal, Microsoft.Win32.SafeHandles.SafeWaitHandle @waitHandleToWaitOn, System.Int32 @millisecondsTimeout, System.Boolean @hasThreadAffinity, System.Boolean @exitContext)
         {

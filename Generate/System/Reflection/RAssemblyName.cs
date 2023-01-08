@@ -1041,6 +1041,16 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
         }
 
 
+        public unsafe static void get_public_token(System.Byte* @token, System.Byte* @pubkey, System.Int32 @len)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{Pointer.Box(@token, typeof(System.Byte)), Pointer.Box(@pubkey, typeof(System.Byte)), @len};
+            var ___result = Rget_public_token_BytePointer_BytePointer_Int32.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
 
         public virtual System.Byte[] ComputePublicKeyToken()
         {
@@ -1176,6 +1186,26 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
         }
 
 
+        public unsafe static RTypePointer<RMono.RMonoAssemblyName> GetNativeName(System.IntPtr @assembly_ptr)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@assembly_ptr};
+            var ___result = RGetNativeName_IntPtr.Invoke(___genericsType, ___parameters);
+
+            return new RTypePointer<RMono.RMonoAssemblyName>(___result);
+        }
+
+
+        public unsafe virtual void FillName(RTypePointer<RMono.RMonoAssemblyName> @native, System.String @codeBase, System.Boolean @addVersion, System.Boolean @addPublickey, System.Boolean @defaultToken, System.Boolean @assemblyRef)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@native.Value, @codeBase, @addVersion, @addPublickey, @defaultToken, @assemblyRef};
+            var ___result = RFillName_MonoAssemblyNamePointer_String_Boolean_Boolean_Boolean_Boolean.Invoke(___genericsType, ___parameters);
+
+            
+        }
 
 
         public static System.Reflection.AssemblyName Create(System.Reflection.Assembly @assembly, System.Boolean @fillCodebase)

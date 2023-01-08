@@ -438,9 +438,59 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 	    {
 	    }
 
+        public unsafe static void AcquireReadOnlyMeshData(UnityEngine.Mesh @mesh, System.IntPtr* @datas)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@mesh, Pointer.Box(@datas, typeof(System.IntPtr))};
+            var ___result = RAcquireReadOnlyMeshData_Mesh_IntPtrPointer.Invoke(___genericsType, ___parameters);
+
+            
+        }
 
 
+        public unsafe static void AcquireReadOnlyMeshDatas(UnityEngine.Mesh[] @meshes, System.IntPtr* @datas, System.Int32 @count)
+        {
 
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@meshes, Pointer.Box(@datas, typeof(System.IntPtr)), @count};
+            var ___result = RAcquireReadOnlyMeshDatas_MeshArray_IntPtrPointer_Int32.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public unsafe static void ReleaseMeshDatas(System.IntPtr* @datas, System.Int32 @count)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{Pointer.Box(@datas, typeof(System.IntPtr)), @count};
+            var ___result = RReleaseMeshDatas_IntPtrPointer_Int32.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public unsafe static void CreateNewMeshDatas(System.IntPtr* @datas, System.Int32 @count)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{Pointer.Box(@datas, typeof(System.IntPtr)), @count};
+            var ___result = RCreateNewMeshDatas_IntPtrPointer_Int32.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public unsafe static void ApplyToMeshesImpl(UnityEngine.Mesh[] @meshes, System.IntPtr* @datas, System.Int32 @count, UnityEngine.Rendering.MeshUpdateFlags @flags)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@meshes, Pointer.Box(@datas, typeof(System.IntPtr)), @count, @flags};
+            var ___result = RApplyToMeshesImpl_MeshArray_IntPtrPointer_Int32_MeshUpdateFlags.Invoke(___genericsType, ___parameters);
+
+            
+        }
 
 
         public static void ApplyToMeshImpl(UnityEngine.Mesh @mesh, System.IntPtr @data, UnityEngine.Rendering.MeshUpdateFlags @flags)

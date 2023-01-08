@@ -519,6 +519,16 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
         }
 
 
+        public unsafe virtual void InternalInitialize(System.Char* @charStart, System.Char* @charEnd, RSystem.RText.REncoderNLS @encoder, System.Boolean @setEncoder)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{Pointer.Box(@charStart, typeof(System.Char)), Pointer.Box(@charEnd, typeof(System.Char)), @encoder.Value, @setEncoder};
+            var ___result = RInternalInitialize_CharPointer_CharPointer_EncoderNLS_Boolean.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
 
         public virtual System.Char InternalGetNextChar()
         {
@@ -530,6 +540,16 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
             return (System.Char)___result;
         }
 
+
+        public unsafe virtual System.Boolean InternalFallback(System.Char @ch, ref System.Char* @chars)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@ch, Pointer.Box(@chars, typeof(System.Char))};
+            var ___result = RInternalFallback_Char_Ref_CharPointer.Invoke(___genericsType, ___parameters);
+			@chars = (System.Char*)Pointer.Unbox(___parameters[1]);
+            return (System.Boolean)___result;
+        }
 
 
         public virtual void ThrowLastCharRecursive(System.Int32 @charRecursive)

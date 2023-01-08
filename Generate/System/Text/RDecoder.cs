@@ -452,6 +452,16 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
         }
 
 
+        public unsafe virtual System.Int32 GetCharCount(System.Byte* @bytes, System.Int32 @count, System.Boolean @flush)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{Pointer.Box(@bytes, typeof(System.Byte)), @count, @flush};
+            var ___result = RGetCharCount_BytePointer_Int32_Boolean.Invoke(___genericsType, ___parameters);
+
+            return (System.Int32)___result;
+        }
+
 
 
         public virtual System.Int32 GetChars(System.Byte[] @bytes, System.Int32 @byteIndex, System.Int32 @byteCount, System.Char[] @chars, System.Int32 @charIndex)
@@ -476,6 +486,16 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
         }
 
 
+        public unsafe virtual System.Int32 GetChars(System.Byte* @bytes, System.Int32 @byteCount, System.Char* @chars, System.Int32 @charCount, System.Boolean @flush)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{Pointer.Box(@bytes, typeof(System.Byte)), @byteCount, Pointer.Box(@chars, typeof(System.Char)), @charCount, @flush};
+            var ___result = RGetChars_BytePointer_Int32_CharPointer_Int32_Boolean.Invoke(___genericsType, ___parameters);
+
+            return (System.Int32)___result;
+        }
+
 
 
         public virtual void Convert(System.Byte[] @bytes, System.Int32 @byteIndex, System.Int32 @byteCount, System.Char[] @chars, System.Int32 @charIndex, System.Int32 @charCount, System.Boolean @flush, out System.Int32 @bytesUsed, out System.Int32 @charsUsed, out System.Boolean @completed)
@@ -494,6 +514,22 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
             
         }
 
+
+        public unsafe virtual void Convert(System.Byte* @bytes, System.Int32 @byteCount, System.Char* @chars, System.Int32 @charCount, System.Boolean @flush, out System.Int32 @bytesUsed, out System.Int32 @charsUsed, out System.Boolean @completed)
+        {
+			@bytesUsed = default;
+			@charsUsed = default;
+			@completed = default;
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{Pointer.Box(@bytes, typeof(System.Byte)), @byteCount, Pointer.Box(@chars, typeof(System.Char)), @charCount, @flush, @bytesUsed, @charsUsed, @completed};
+            var ___result = RConvert_BytePointer_Int32_CharPointer_Int32_Boolean_Out_Int32_Out_Int32_Out_Boolean.Invoke(___genericsType, ___parameters);
+			@bytesUsed = (System.Int32)___parameters[5];
+			@charsUsed = (System.Int32)___parameters[6];
+			@completed = (System.Boolean)___parameters[7];
+
+            
+        }
 
 
 

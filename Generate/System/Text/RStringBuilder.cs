@@ -2436,6 +2436,26 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
         }
 
 
+        public unsafe virtual System.Text.StringBuilder AppendJoinCore<T>(System.Char* @separator, System.Int32 @separatorLength, System.Collections.Generic.IEnumerable<T> @values)
+        {
+
+            var ___genericsType = new Type[] {typeof(T)};
+            var ___parameters = new object[]{Pointer.Box(@separator, typeof(System.Char)), @separatorLength, @values};
+            var ___result = RAppendJoinCore_GT_CharPointer_Int32_IEnumerable_d_T_p_.Invoke(___genericsType, ___parameters);
+
+            return (System.Text.StringBuilder)___result;
+        }
+
+
+        public unsafe virtual System.Text.StringBuilder AppendJoinCore<T>(System.Char* @separator, System.Int32 @separatorLength, T[] @values)
+        {
+
+            var ___genericsType = new Type[] {typeof(T)};
+            var ___parameters = new object[]{Pointer.Box(@separator, typeof(System.Char)), @separatorLength, @values};
+            var ___result = RAppendJoinCore_GT_CharPointer_Int32_TArray.Invoke(___genericsType, ___parameters);
+
+            return (System.Text.StringBuilder)___result;
+        }
 
 
         public virtual System.Text.StringBuilder Insert(System.Int32 @index, System.String @value)
@@ -2792,6 +2812,26 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
         }
 
 
+        public unsafe virtual System.Text.StringBuilder Append(System.Char* @value, System.Int32 @valueCount)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{Pointer.Box(@value, typeof(System.Char)), @valueCount};
+            var ___result = RAppend_CharPointer_Int32.Invoke(___genericsType, ___parameters);
+
+            return (System.Text.StringBuilder)___result;
+        }
+
+
+        public unsafe virtual void Insert(System.Int32 @index, System.Char* @value, System.Int32 @valueCount)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@index, Pointer.Box(@value, typeof(System.Char)), @valueCount};
+            var ___result = RInsert_Int32_CharPointer_Int32.Invoke(___genericsType, ___parameters);
+
+            
+        }
 
 
         public virtual void ReplaceAllInChunk(System.Int32[] @replacements, System.Int32 @replacementsCount, System.Text.StringBuilder @sourceChunk, System.Int32 @removeCount, System.String @value)
@@ -2816,6 +2856,28 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
         }
 
 
+        public unsafe virtual void ReplaceInPlaceAtChunk(ref System.Text.StringBuilder @chunk, ref System.Int32 @indexInChunk, System.Char* @value, System.Int32 @count)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@chunk, @indexInChunk, Pointer.Box(@value, typeof(System.Char)), @count};
+            var ___result = RReplaceInPlaceAtChunk_Ref_StringBuilder_Ref_Int32_CharPointer_Int32.Invoke(___genericsType, ___parameters);
+			@chunk = (System.Text.StringBuilder)___parameters[0];
+			@indexInChunk = (System.Int32)___parameters[1];
+
+            
+        }
+
+
+        public unsafe static void ThreadSafeCopy(System.Char* @sourcePtr, System.Char[] @destination, System.Int32 @destinationIndex, System.Int32 @count)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{Pointer.Box(@sourcePtr, typeof(System.Char)), @destination, @destinationIndex, @count};
+            var ___result = RThreadSafeCopy_CharPointer_CharArray_Int32_Int32.Invoke(___genericsType, ___parameters);
+
+            
+        }
 
 
 

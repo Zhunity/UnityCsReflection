@@ -3226,6 +3226,16 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
         }
 
 
+        public unsafe static void SetName_icall(RSystem.RThreading.RInternalThread @thread, System.Char* @name, System.Int32 @nameLength)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@thread.Value, Pointer.Box(@name, typeof(System.Char)), @nameLength};
+            var ___result = RSetName_icall_InternalThread_CharPointer_Int32.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
 
         public static void SetName_internal(RSystem.RThreading.RInternalThread @thread, System.String @name)
         {

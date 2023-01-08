@@ -417,6 +417,26 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
+        public unsafe static System.Object GetValueDirect(RSystem.RReflection.RRuntimeFieldInfo @field, RSystem.RRuntimeType @fieldType, void* @pTypedRef, RSystem.RRuntimeType @contextType)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@field.Value, @fieldType.Value, Pointer.Box(@pTypedRef, typeof(void)), @contextType.Value};
+            var ___result = RGetValueDirect_RuntimeFieldInfo_RuntimeType_VoidPointer_RuntimeType.Invoke(___genericsType, ___parameters);
+
+            return (System.Object)___result;
+        }
+
+
+        public unsafe static void SetValueDirect(RSystem.RReflection.RRuntimeFieldInfo @field, RSystem.RRuntimeType @fieldType, void* @pTypedRef, System.Object @value, RSystem.RRuntimeType @contextType)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@field.Value, @fieldType.Value, Pointer.Box(@pTypedRef, typeof(void)), @value, @contextType.Value};
+            var ___result = RSetValueDirect_RuntimeFieldInfo_RuntimeType_VoidPointer_Object_RuntimeType.Invoke(___genericsType, ___parameters);
+
+            
+        }
 
 
         public virtual System.String ToString()

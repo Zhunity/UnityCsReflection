@@ -2091,6 +2091,16 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
+        public unsafe static System.Int32 InvariantFindString(System.Char* @source, System.Int32 @sourceCount, System.Char* @value, System.Int32 @valueCount, System.Boolean @ignoreCase, System.Boolean @start)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{Pointer.Box(@source, typeof(System.Char)), @sourceCount, Pointer.Box(@value, typeof(System.Char)), @valueCount, @ignoreCase, @start};
+            var ___result = RInvariantFindString_CharPointer_Int32_CharPointer_Int32_Boolean_Boolean.Invoke(___genericsType, ___parameters);
+
+            return (System.Int32)___result;
+        }
+
 
         public static System.Char InvariantToUpper(System.Char @c)
         {
@@ -2496,6 +2506,16 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 
 
 
+        public unsafe virtual System.Int32 IndexOf(System.String @source, System.String @value, System.Int32 @startIndex, System.Int32 @count, System.Globalization.CompareOptions @options, System.Int32* @matchLengthPtr)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@source, @value, @startIndex, @count, @options, Pointer.Box(@matchLengthPtr, typeof(System.Int32))};
+            var ___result = RIndexOf_String_String_Int32_Int32_CompareOptions_Int32Pointer.Invoke(___genericsType, ___parameters);
+
+            return (System.Int32)___result;
+        }
+
 
         public virtual System.Int32 IndexOfOrdinal(System.String @source, System.String @value, System.Int32 @startIndex, System.Int32 @count, System.Boolean @ignoreCase)
         {
@@ -2816,6 +2836,16 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
+        public unsafe static System.Int32 internal_compare_icall(System.Char* @str1, System.Int32 @length1, System.Char* @str2, System.Int32 @length2, System.Globalization.CompareOptions @options)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{Pointer.Box(@str1, typeof(System.Char)), @length1, Pointer.Box(@str2, typeof(System.Char)), @length2, @options};
+            var ___result = Rinternal_compare_icall_CharPointer_Int32_CharPointer_Int32_CompareOptions.Invoke(___genericsType, ___parameters);
+
+            return (System.Int32)___result;
+        }
+
 
         public static System.Int32 internal_compare(System.String @str1, System.Int32 @offset1, System.Int32 @length1, System.String @str2, System.Int32 @offset2, System.Int32 @length2, System.Globalization.CompareOptions @options)
         {
@@ -2827,6 +2857,16 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
             return (System.Int32)___result;
         }
 
+
+        public unsafe static System.Int32 internal_index_icall(System.Char* @source, System.Int32 @sindex, System.Int32 @count, System.Char* @value, System.Int32 @value_length, System.Boolean @first)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{Pointer.Box(@source, typeof(System.Char)), @sindex, @count, Pointer.Box(@value, typeof(System.Char)), @value_length, @first};
+            var ___result = Rinternal_index_icall_CharPointer_Int32_Int32_CharPointer_Int32_Boolean.Invoke(___genericsType, ___parameters);
+
+            return (System.Int32)___result;
+        }
 
 
         public static System.Int32 internal_index(System.String @source, System.Int32 @sindex, System.Int32 @count, System.String @value, System.Boolean @first)
@@ -2850,6 +2890,16 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
             
         }
 
+
+        public unsafe static System.Int32 CompareStringOrdinalIgnoreCase(System.Char* @pString1, System.Int32 @length1, System.Char* @pString2, System.Int32 @length2)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{Pointer.Box(@pString1, typeof(System.Char)), @length1, Pointer.Box(@pString2, typeof(System.Char)), @length2};
+            var ___result = RCompareStringOrdinalIgnoreCase_CharPointer_Int32_CharPointer_Int32.Invoke(___genericsType, ___parameters);
+
+            return (System.Int32)___result;
+        }
 
 
         public static System.Int32 IndexOfOrdinalCore(System.String @source, System.String @value, System.Int32 @startIndex, System.Int32 @count, System.Boolean @ignoreCase)
@@ -2885,10 +2935,30 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
+        public unsafe virtual System.Int32 IndexOfCore(System.String @source, System.String @target, System.Int32 @startIndex, System.Int32 @count, System.Globalization.CompareOptions @options, System.Int32* @matchLengthPtr)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@source, @target, @startIndex, @count, @options, Pointer.Box(@matchLengthPtr, typeof(System.Int32))};
+            var ___result = RIndexOfCore_String_String_Int32_Int32_CompareOptions_Int32Pointer.Invoke(___genericsType, ___parameters);
+
+            return (System.Int32)___result;
+        }
 
 
 
 
+
+
+        public unsafe static System.Boolean IsSortable(System.Char* @text, System.Int32 @length)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{Pointer.Box(@text, typeof(System.Char)), @length};
+            var ___result = RIsSortable_CharPointer_Int32.Invoke(___genericsType, ___parameters);
+
+            return (System.Boolean)___result;
+        }
 
 
         public virtual System.Globalization.SortKey CreateSortKey(System.String @source, System.Globalization.CompareOptions @options)

@@ -2933,6 +2933,26 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
         }
 
 
+        public unsafe virtual System.Int32 GetByteCount(System.Char* @chars, System.Int32 @count)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{Pointer.Box(@chars, typeof(System.Char)), @count};
+            var ___result = RGetByteCount_CharPointer_Int32.Invoke(___genericsType, ___parameters);
+
+            return (System.Int32)___result;
+        }
+
+
+        public unsafe virtual System.Int32 GetByteCount(System.Char* @chars, System.Int32 @count, RSystem.RText.REncoderNLS @encoder)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{Pointer.Box(@chars, typeof(System.Char)), @count, @encoder.Value};
+            var ___result = RGetByteCount_CharPointer_Int32_EncoderNLS.Invoke(___genericsType, ___parameters);
+
+            return (System.Int32)___result;
+        }
 
 
         public virtual System.Byte[] GetBytes(System.Char[] @chars)
@@ -2990,6 +3010,26 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
         }
 
 
+        public unsafe virtual System.Int32 GetBytes(System.Char* @chars, System.Int32 @charCount, System.Byte* @bytes, System.Int32 @byteCount, RSystem.RText.REncoderNLS @encoder)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{Pointer.Box(@chars, typeof(System.Char)), @charCount, Pointer.Box(@bytes, typeof(System.Byte)), @byteCount, @encoder.Value};
+            var ___result = RGetBytes_CharPointer_Int32_BytePointer_Int32_EncoderNLS.Invoke(___genericsType, ___parameters);
+
+            return (System.Int32)___result;
+        }
+
+
+        public unsafe virtual System.Int32 GetBytes(System.Char* @chars, System.Int32 @charCount, System.Byte* @bytes, System.Int32 @byteCount)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{Pointer.Box(@chars, typeof(System.Char)), @charCount, Pointer.Box(@bytes, typeof(System.Byte)), @byteCount};
+            var ___result = RGetBytes_CharPointer_Int32_BytePointer_Int32.Invoke(___genericsType, ___parameters);
+
+            return (System.Int32)___result;
+        }
 
 
         public virtual System.Int32 GetCharCount(System.Byte[] @bytes)
@@ -3014,6 +3054,26 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
         }
 
 
+        public unsafe virtual System.Int32 GetCharCount(System.Byte* @bytes, System.Int32 @count)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{Pointer.Box(@bytes, typeof(System.Byte)), @count};
+            var ___result = RGetCharCount_BytePointer_Int32.Invoke(___genericsType, ___parameters);
+
+            return (System.Int32)___result;
+        }
+
+
+        public unsafe virtual System.Int32 GetCharCount(System.Byte* @bytes, System.Int32 @count, RSystem.RText.RDecoderNLS @decoder)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{Pointer.Box(@bytes, typeof(System.Byte)), @count, @decoder.Value};
+            var ___result = RGetCharCount_BytePointer_Int32_DecoderNLS.Invoke(___genericsType, ___parameters);
+
+            return (System.Int32)___result;
+        }
 
 
         public virtual System.Char[] GetChars(System.Byte[] @bytes)
@@ -3049,7 +3109,37 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
         }
 
 
+        public unsafe virtual System.Int32 GetChars(System.Byte* @bytes, System.Int32 @byteCount, System.Char* @chars, System.Int32 @charCount)
+        {
 
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{Pointer.Box(@bytes, typeof(System.Byte)), @byteCount, Pointer.Box(@chars, typeof(System.Char)), @charCount};
+            var ___result = RGetChars_BytePointer_Int32_CharPointer_Int32.Invoke(___genericsType, ___parameters);
+
+            return (System.Int32)___result;
+        }
+
+
+        public unsafe virtual System.Int32 GetChars(System.Byte* @bytes, System.Int32 @byteCount, System.Char* @chars, System.Int32 @charCount, RSystem.RText.RDecoderNLS @decoder)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{Pointer.Box(@bytes, typeof(System.Byte)), @byteCount, Pointer.Box(@chars, typeof(System.Char)), @charCount, @decoder.Value};
+            var ___result = RGetChars_BytePointer_Int32_CharPointer_Int32_DecoderNLS.Invoke(___genericsType, ___parameters);
+
+            return (System.Int32)___result;
+        }
+
+
+        public unsafe virtual System.String GetString(System.Byte* @bytes, System.Int32 @byteCount)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{Pointer.Box(@bytes, typeof(System.Byte)), @byteCount};
+            var ___result = RGetString_BytePointer_Int32.Invoke(___genericsType, ___parameters);
+
+            return (System.String)___result;
+        }
 
 
 

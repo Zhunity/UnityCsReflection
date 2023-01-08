@@ -1653,6 +1653,16 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
         }
 
 
+        public unsafe static System.Object PtrToSlice<T>(void* @p, System.Int32 @count) where T : struct
+        {
+
+            var ___genericsType = new Type[] {typeof(T)};
+            var ___parameters = new object[]{Pointer.Box(@p, typeof(void)), @count};
+            var ___result = RPtrToSlice_GT_VoidPointer_Int32.Invoke(___genericsType, ___parameters);
+
+            return (System.Object)___result;
+        }
+
 
         public virtual void ApplyDrawCommandState(RUnityEngine.RUIElements.RUIR.RRenderChainCommand @cmd, System.Int32 @textureSlot, UnityEngine.Material @newMat, System.Boolean @newMatDiffers, ref RUnityEngine.RUIElements.RUIR.RUIRenderDevice.REvaluationState @st)
         {
@@ -1689,6 +1699,18 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
             
         }
 
+
+        public unsafe virtual void KickRanges(RTypePointer<RUnityEngine.RUIElements.RUIR.RDrawBufferRange> @ranges, ref System.Int32 @rangesReady, ref System.Int32 @rangesStart, System.Int32 @rangesCount, RUnityEngine.RUIElements.RUIR.RPage @curPage)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@ranges.Value, @rangesReady, @rangesStart, @rangesCount, @curPage.Value};
+            var ___result = RKickRanges_DrawBufferRangePointer_Ref_Int32_Ref_Int32_Int32_Page.Invoke(___genericsType, ___parameters);
+			@rangesReady = (System.Int32)___parameters[1];
+			@rangesStart = (System.Int32)___parameters[2];
+
+            
+        }
 
 
 

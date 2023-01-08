@@ -1032,6 +1032,16 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
+        public unsafe static UnityEngine.Hash128 Compute(void* @data, System.UInt64 @size)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{Pointer.Box(@data, typeof(void)), @size};
+            var ___result = RCompute_VoidPointer_UInt64.Invoke(___genericsType, ___parameters);
+
+            return (UnityEngine.Hash128)___result;
+        }
+
 
         public virtual void Append(System.String @data)
         {
@@ -1123,6 +1133,16 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
             
         }
 
+
+        public unsafe virtual void Append(void* @data, System.UInt64 @size)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{Pointer.Box(@data, typeof(void)), @size};
+            var ___result = RAppend_VoidPointer_UInt64.Invoke(___genericsType, ___parameters);
+
+            
+        }
 
 
         public virtual System.Boolean Equals(System.Object @obj)

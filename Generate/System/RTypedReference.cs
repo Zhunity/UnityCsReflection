@@ -328,6 +328,16 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
+        public unsafe static void InternalMakeTypedReference(void* @result, System.Object @target, System.IntPtr[] @flds, RSystem.RRuntimeType @lastFieldType)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{Pointer.Box(@result, typeof(void)), @target, @flds, @lastFieldType.Value};
+            var ___result = RInternalMakeTypedReference_VoidPointer_Object_IntPtrArray_RuntimeType.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
 
         public virtual System.Int32 GetHashCode()
         {
@@ -351,6 +361,16 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
+
+        public unsafe static System.Object InternalToObject(void* @value)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{Pointer.Box(@value, typeof(void))};
+            var ___result = RInternalToObject_VoidPointer.Invoke(___genericsType, ___parameters);
+
+            return (System.Object)___result;
+        }
 
 
 

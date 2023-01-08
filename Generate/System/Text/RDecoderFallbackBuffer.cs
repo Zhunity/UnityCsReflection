@@ -389,7 +389,37 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
         }
 
 
+        public unsafe virtual void InternalInitialize(System.Byte* @byteStart, System.Char* @charEnd)
+        {
 
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{Pointer.Box(@byteStart, typeof(System.Byte)), Pointer.Box(@charEnd, typeof(System.Char))};
+            var ___result = RInternalInitialize_BytePointer_CharPointer.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public unsafe virtual System.Boolean InternalFallback(System.Byte[] @bytes, System.Byte* @pBytes, ref System.Char* @chars)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@bytes, Pointer.Box(@pBytes, typeof(System.Byte)), Pointer.Box(@chars, typeof(System.Char))};
+            var ___result = RInternalFallback_ByteArray_BytePointer_Ref_CharPointer.Invoke(___genericsType, ___parameters);
+			@chars = (System.Char*)Pointer.Unbox(___parameters[2]);
+            return (System.Boolean)___result;
+        }
+
+
+        public unsafe virtual System.Int32 InternalFallback(System.Byte[] @bytes, System.Byte* @pBytes)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@bytes, Pointer.Box(@pBytes, typeof(System.Byte))};
+            var ___result = RInternalFallback_ByteArray_BytePointer.Invoke(___genericsType, ___parameters);
+
+            return (System.Int32)___result;
+        }
 
 
         public virtual void ThrowLastBytesRecursive(System.Byte[] @bytesUnknown)

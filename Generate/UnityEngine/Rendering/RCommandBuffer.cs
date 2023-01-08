@@ -8602,13 +8602,103 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 
 
 
+        public unsafe virtual void Internal_RequestAsyncReadback_1(UnityEngine.ComputeBuffer @src, System.Action<UnityEngine.Rendering.AsyncGPUReadbackRequest> @callback, RTypePointer<RUnityEngine.RRendering.RAsyncRequestNativeArrayData> @nativeArrayData)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@src, @callback, @nativeArrayData.Value};
+            var ___result = RInternal_RequestAsyncReadback_1_ComputeBuffer_Action_d_AsyncGPUReadbackRequest_p__AsyncRequestNativeArrayDataPointer.Invoke(___genericsType, ___parameters);
+
+            
+        }
 
 
+        public unsafe virtual void Internal_RequestAsyncReadback_2(UnityEngine.ComputeBuffer @src, System.Int32 @size, System.Int32 @offset, System.Action<UnityEngine.Rendering.AsyncGPUReadbackRequest> @callback, RTypePointer<RUnityEngine.RRendering.RAsyncRequestNativeArrayData> @nativeArrayData)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@src, @size, @offset, @callback, @nativeArrayData.Value};
+            var ___result = RInternal_RequestAsyncReadback_2_ComputeBuffer_Int32_Int32_Action_d_AsyncGPUReadbackRequest_p__AsyncRequestNativeArrayDataPointer.Invoke(___genericsType, ___parameters);
+
+            
+        }
 
 
+        public unsafe virtual void Internal_RequestAsyncReadback_3(UnityEngine.Texture @src, System.Action<UnityEngine.Rendering.AsyncGPUReadbackRequest> @callback, RTypePointer<RUnityEngine.RRendering.RAsyncRequestNativeArrayData> @nativeArrayData)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@src, @callback, @nativeArrayData.Value};
+            var ___result = RInternal_RequestAsyncReadback_3_Texture_Action_d_AsyncGPUReadbackRequest_p__AsyncRequestNativeArrayDataPointer.Invoke(___genericsType, ___parameters);
+
+            
+        }
 
 
+        public unsafe virtual void Internal_RequestAsyncReadback_4(UnityEngine.Texture @src, System.Int32 @mipIndex, System.Action<UnityEngine.Rendering.AsyncGPUReadbackRequest> @callback, RTypePointer<RUnityEngine.RRendering.RAsyncRequestNativeArrayData> @nativeArrayData)
+        {
 
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@src, @mipIndex, @callback, @nativeArrayData.Value};
+            var ___result = RInternal_RequestAsyncReadback_4_Texture_Int32_Action_d_AsyncGPUReadbackRequest_p__AsyncRequestNativeArrayDataPointer.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public unsafe virtual void Internal_RequestAsyncReadback_5(UnityEngine.Texture @src, System.Int32 @mipIndex, UnityEngine.Experimental.Rendering.GraphicsFormat @dstFormat, System.Action<UnityEngine.Rendering.AsyncGPUReadbackRequest> @callback, RTypePointer<RUnityEngine.RRendering.RAsyncRequestNativeArrayData> @nativeArrayData)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@src, @mipIndex, @dstFormat, @callback, @nativeArrayData.Value};
+            var ___result = RInternal_RequestAsyncReadback_5_Texture_Int32_GraphicsFormat_Action_d_AsyncGPUReadbackRequest_p__AsyncRequestNativeArrayDataPointer.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public unsafe virtual void Internal_RequestAsyncReadback_6(UnityEngine.Texture @src, System.Int32 @mipIndex, System.Int32 @x, System.Int32 @width, System.Int32 @y, System.Int32 @height, System.Int32 @z, System.Int32 @depth, System.Action<UnityEngine.Rendering.AsyncGPUReadbackRequest> @callback, RTypePointer<RUnityEngine.RRendering.RAsyncRequestNativeArrayData> @nativeArrayData)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@src, @mipIndex, @x, @width, @y, @height, @z, @depth, @callback, @nativeArrayData.Value};
+            var ___result = RInternal_RequestAsyncReadback_6_Texture_Int32_Int32_Int32_Int32_Int32_Int32_Int32_Action_d_AsyncGPUReadbackRequest_p__AsyncRequestNativeArrayDataPointer.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public unsafe virtual void Internal_RequestAsyncReadback_7(UnityEngine.Texture @src, System.Int32 @mipIndex, System.Int32 @x, System.Int32 @width, System.Int32 @y, System.Int32 @height, System.Int32 @z, System.Int32 @depth, UnityEngine.Experimental.Rendering.GraphicsFormat @dstFormat, System.Action<UnityEngine.Rendering.AsyncGPUReadbackRequest> @callback, RTypePointer<RUnityEngine.RRendering.RAsyncRequestNativeArrayData> @nativeArrayData)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@src, @mipIndex, @x, @width, @y, @height, @z, @depth, @dstFormat, @callback, @nativeArrayData.Value};
+            var ___result = RInternal_RequestAsyncReadback_7_Texture_Int32_Int32_Int32_Int32_Int32_Int32_Int32_GraphicsFormat_Action_d_AsyncGPUReadbackRequest_p__AsyncRequestNativeArrayDataPointer.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public unsafe virtual void Internal_RequestAsyncReadback_8(UnityEngine.GraphicsBuffer @src, System.Action<UnityEngine.Rendering.AsyncGPUReadbackRequest> @callback, RTypePointer<RUnityEngine.RRendering.RAsyncRequestNativeArrayData> @nativeArrayData)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@src, @callback, @nativeArrayData.Value};
+            var ___result = RInternal_RequestAsyncReadback_8_GraphicsBuffer_Action_d_AsyncGPUReadbackRequest_p__AsyncRequestNativeArrayDataPointer.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public unsafe virtual void Internal_RequestAsyncReadback_9(UnityEngine.GraphicsBuffer @src, System.Int32 @size, System.Int32 @offset, System.Action<UnityEngine.Rendering.AsyncGPUReadbackRequest> @callback, RTypePointer<RUnityEngine.RRendering.RAsyncRequestNativeArrayData> @nativeArrayData)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@src, @size, @offset, @callback, @nativeArrayData.Value};
+            var ___result = RInternal_RequestAsyncReadback_9_GraphicsBuffer_Int32_Int32_Action_d_AsyncGPUReadbackRequest_p__AsyncRequestNativeArrayDataPointer.Invoke(___genericsType, ___parameters);
+
+            
+        }
 
 
         public virtual void SetInvertCulling(System.Boolean @invertCulling)

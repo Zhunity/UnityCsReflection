@@ -1183,6 +1183,30 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
+        public unsafe static System.Int32 ScaleResult(RTypePointer<RSystem.RDecimal.RDecCalc.RBuf24> @bufRes, System.UInt32 @hiRes, System.Int32 @scale)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@bufRes.Value, @hiRes, @scale};
+            var ___result = RScaleResult_Buf24Pointer_UInt32_Int32.Invoke(___genericsType, ___parameters);
+
+            return (System.Int32)___result;
+        }
+
+
+        public unsafe static System.UInt32 DivByConst(System.UInt32* @result, System.UInt32 @hiRes, out System.UInt32 @quotient, out System.UInt32 @remainder, System.UInt32 @power)
+        {
+			@quotient = default;
+			@remainder = default;
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{Pointer.Box(@result, typeof(System.UInt32)), @hiRes, @quotient, @remainder, @power};
+            var ___result = RDivByConst_UInt32Pointer_UInt32_Out_UInt32_Out_UInt32_UInt32.Invoke(___genericsType, ___parameters);
+			@quotient = (System.UInt32)___parameters[2];
+			@remainder = (System.UInt32)___parameters[3];
+
+            return (System.UInt32)___result;
+        }
 
 
         public static System.Int32 LeadingZeroCount(System.UInt32 @value)

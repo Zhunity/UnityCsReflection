@@ -457,7 +457,37 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling.RLowLevel.RUnsafe
         }
 
 
+        public unsafe static Unity.Profiling.LowLevel.Unsafe.ProfilerRecorderHandle GetByName__Unmanaged(Unity.Profiling.ProfilerCategory @category, System.Byte* @name, System.Int32 @nameLen)
+        {
 
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@category, Pointer.Box(@name, typeof(System.Byte)), @nameLen};
+            var ___result = RGetByName__Unmanaged_ProfilerCategory_BytePointer_Int32.Invoke(___genericsType, ___parameters);
+
+            return (Unity.Profiling.LowLevel.Unsafe.ProfilerRecorderHandle)___result;
+        }
+
+
+        public unsafe static Unity.Profiling.LowLevel.Unsafe.ProfilerRecorderHandle GetByName(Unity.Profiling.ProfilerCategory @category, System.Char* @name, System.Int32 @nameLen)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@category, Pointer.Box(@name, typeof(System.Char)), @nameLen};
+            var ___result = RGetByName_ProfilerCategory_CharPointer_Int32.Invoke(___genericsType, ___parameters);
+
+            return (Unity.Profiling.LowLevel.Unsafe.ProfilerRecorderHandle)___result;
+        }
+
+
+        public unsafe static Unity.Profiling.LowLevel.Unsafe.ProfilerRecorderHandle GetByName_Unsafe(Unity.Profiling.ProfilerCategory @category, System.Char* @name, System.Int32 @nameLen)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@category, Pointer.Box(@name, typeof(System.Char)), @nameLen};
+            var ___result = RGetByName_Unsafe_ProfilerCategory_CharPointer_Int32.Invoke(___genericsType, ___parameters);
+
+            return (Unity.Profiling.LowLevel.Unsafe.ProfilerRecorderHandle)___result;
+        }
 
 
         public static Unity.Profiling.LowLevel.Unsafe.ProfilerRecorderDescription GetDescriptionInternal(Unity.Profiling.LowLevel.Unsafe.ProfilerRecorderHandle @handle)
@@ -485,6 +515,32 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling.RLowLevel.RUnsafe
         }
 
 
+        public unsafe static void GetByName__Unmanaged_Injected(ref Unity.Profiling.ProfilerCategory @category, System.Byte* @name, System.Int32 @nameLen, out Unity.Profiling.LowLevel.Unsafe.ProfilerRecorderHandle @ret)
+        {
+			@ret = default;
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@category, Pointer.Box(@name, typeof(System.Byte)), @nameLen, @ret};
+            var ___result = RGetByName__Unmanaged_Injected_Ref_ProfilerCategory_BytePointer_Int32_Out_ProfilerRecorderHandle.Invoke(___genericsType, ___parameters);
+			@category = (Unity.Profiling.ProfilerCategory)___parameters[0];
+			@ret = (Unity.Profiling.LowLevel.Unsafe.ProfilerRecorderHandle)___parameters[3];
+
+            
+        }
+
+
+        public unsafe static void GetByName_Unsafe_Injected(ref Unity.Profiling.ProfilerCategory @category, System.Char* @name, System.Int32 @nameLen, out Unity.Profiling.LowLevel.Unsafe.ProfilerRecorderHandle @ret)
+        {
+			@ret = default;
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@category, Pointer.Box(@name, typeof(System.Char)), @nameLen, @ret};
+            var ___result = RGetByName_Unsafe_Injected_Ref_ProfilerCategory_CharPointer_Int32_Out_ProfilerRecorderHandle.Invoke(___genericsType, ___parameters);
+			@category = (Unity.Profiling.ProfilerCategory)___parameters[0];
+			@ret = (Unity.Profiling.LowLevel.Unsafe.ProfilerRecorderHandle)___parameters[3];
+
+            
+        }
 
 
         public static void GetDescriptionInternal_Injected(ref Unity.Profiling.LowLevel.Unsafe.ProfilerRecorderHandle @handle, out Unity.Profiling.LowLevel.Unsafe.ProfilerRecorderDescription @ret)

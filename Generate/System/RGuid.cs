@@ -1171,6 +1171,26 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
+        public unsafe static System.Int32 HexsToChars(System.Char* @guidChars, System.Int32 @a, System.Int32 @b)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{Pointer.Box(@guidChars, typeof(System.Char)), @a, @b};
+            var ___result = RHexsToChars_CharPointer_Int32_Int32.Invoke(___genericsType, ___parameters);
+
+            return (System.Int32)___result;
+        }
+
+
+        public unsafe static System.Int32 HexsToCharsHexOutput(System.Char* @guidChars, System.Int32 @a, System.Int32 @b)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{Pointer.Box(@guidChars, typeof(System.Char)), @a, @b};
+            var ___result = RHexsToCharsHexOutput_CharPointer_Int32_Int32.Invoke(___genericsType, ___parameters);
+
+            return (System.Int32)___result;
+        }
 
 
         public virtual System.String ToString(System.String @format, System.IFormatProvider @provider)
