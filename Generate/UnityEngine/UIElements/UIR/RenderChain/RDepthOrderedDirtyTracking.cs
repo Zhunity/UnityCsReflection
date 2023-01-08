@@ -124,7 +124,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_RegisterDirty_VisualElement_RenderDataDirtyTypes_RenderDataDirtyTypeClasses == null)
 				{
-					r_RegisterDirty_VisualElement_RenderDataDirtyTypes_RenderDataDirtyTypeClasses = new(this, "RegisterDirty", 0, typeof(UnityEngine.UIElements.VisualElement),  ReleactionUtils.GetType("UnityEngine.UIElements.UIR.RenderDataDirtyTypes"),  ReleactionUtils.GetType("UnityEngine.UIElements.UIR.RenderDataDirtyTypeClasses"));
+					r_RegisterDirty_VisualElement_RenderDataDirtyTypes_RenderDataDirtyTypeClasses = new(this, "RegisterDirty", 0, typeof(UnityEngine.UIElements.VisualElement),  ReflectionUtils.GetType("UnityEngine.UIElements.UIR.RenderDataDirtyTypes"),  ReflectionUtils.GetType("UnityEngine.UIElements.UIR.RenderDataDirtyTypeClasses"));
 					r_RegisterDirty_VisualElement_RenderDataDirtyTypes_RenderDataDirtyTypeClasses.SetBelong(this.instance);
 				}
 				return r_RegisterDirty_VisualElement_RenderDataDirtyTypes_RenderDataDirtyTypeClasses;
@@ -141,7 +141,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_ClearDirty_VisualElement_RenderDataDirtyTypes == null)
 				{
-					r_ClearDirty_VisualElement_RenderDataDirtyTypes = new(this, "ClearDirty", 0, typeof(UnityEngine.UIElements.VisualElement),  ReleactionUtils.GetType("UnityEngine.UIElements.UIR.RenderDataDirtyTypes"));
+					r_ClearDirty_VisualElement_RenderDataDirtyTypes = new(this, "ClearDirty", 0, typeof(UnityEngine.UIElements.VisualElement),  ReflectionUtils.GetType("UnityEngine.UIElements.UIR.RenderDataDirtyTypes"));
 					r_ClearDirty_VisualElement_RenderDataDirtyTypes.SetBelong(this.instance);
 				}
 				return r_ClearDirty_VisualElement_RenderDataDirtyTypes;

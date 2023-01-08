@@ -107,7 +107,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
 			{
 				if(r_DictEntry == null)
 				{
-					r_DictEntry = new( ReleactionUtils.GetType("System.Collections.Generic.Dictionary`2+Enumerator"), "DictEntry");
+					r_DictEntry = new( ReflectionUtils.GetType("System.Collections.Generic.Dictionary`2+Enumerator"), "DictEntry");
 					r_DictEntry.SetBelong(null);
 				}
 				return r_DictEntry;
@@ -124,7 +124,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
 			{
 				if(r_KeyValuePair == null)
 				{
-					r_KeyValuePair = new( ReleactionUtils.GetType("System.Collections.Generic.Dictionary`2+Enumerator"), "KeyValuePair");
+					r_KeyValuePair = new( ReflectionUtils.GetType("System.Collections.Generic.Dictionary`2+Enumerator"), "KeyValuePair");
 					r_KeyValuePair.SetBelong(null);
 				}
 				return r_KeyValuePair;

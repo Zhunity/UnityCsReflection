@@ -207,7 +207,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_CopyFrom_Ref_RareData == null)
 				{
-					r_CopyFrom_Ref_RareData = new(this, "CopyFrom", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.RareData").MakeByRefType());
+					r_CopyFrom_Ref_RareData = new(this, "CopyFrom", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.RareData").MakeByRefType());
 					r_CopyFrom_Ref_RareData.SetBelong(this.instance);
 				}
 				return r_CopyFrom_Ref_RareData;
@@ -224,7 +224,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_op_Equality_RareData_RareData == null)
 				{
-					r_op_Equality_RareData_RareData = new( ReleactionUtils.GetType("UnityEngine.UIElements.RareData"), "op_Equality", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.RareData"),  ReleactionUtils.GetType("UnityEngine.UIElements.RareData"));
+					r_op_Equality_RareData_RareData = new( ReflectionUtils.GetType("UnityEngine.UIElements.RareData"), "op_Equality", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.RareData"),  ReflectionUtils.GetType("UnityEngine.UIElements.RareData"));
 					r_op_Equality_RareData_RareData.SetBelong(null);
 				}
 				return r_op_Equality_RareData_RareData;
@@ -241,7 +241,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_op_Inequality_RareData_RareData == null)
 				{
-					r_op_Inequality_RareData_RareData = new( ReleactionUtils.GetType("UnityEngine.UIElements.RareData"), "op_Inequality", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.RareData"),  ReleactionUtils.GetType("UnityEngine.UIElements.RareData"));
+					r_op_Inequality_RareData_RareData = new( ReflectionUtils.GetType("UnityEngine.UIElements.RareData"), "op_Inequality", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.RareData"),  ReflectionUtils.GetType("UnityEngine.UIElements.RareData"));
 					r_op_Inequality_RareData_RareData.SetBelong(null);
 				}
 				return r_op_Inequality_RareData_RareData;
@@ -258,7 +258,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_Equals_RareData == null)
 				{
-					r_Equals_RareData = new(this, "Equals", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.RareData"));
+					r_Equals_RareData = new(this, "Equals", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.RareData"));
 					r_Equals_RareData.SetBelong(this.instance);
 				}
 				return r_Equals_RareData;

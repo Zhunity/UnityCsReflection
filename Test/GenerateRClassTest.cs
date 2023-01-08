@@ -142,12 +142,12 @@ namespace SMFrame.Editor.Refleaction
 			// 1. 类中类
 			var type = typeof(s.ins);
             //         Debug.Log(type.Name + "  " + type.FullName + "  " + type.ToString());
-            //         Debug.Log(ReleactionUtils.GetType(" SMFrame.Editor.Refleaction.GenerateRClass+s+ins"));
+            //         Debug.Log(ReflectionUtils.GetType(" SMFrame.Editor.Refleaction.GenerateRClass+s+ins"));
 
             //// 2.泛型
             //type = typeof(Dictionary<,>);
             //Debug.Log(type.Name + "  " + type.FullName + "  " + type.ToString());
-            //         Debug.Log(ReleactionUtils.GetType("System.Collections.Generic.Dictionary`2"));
+            //         Debug.Log(ReflectionUtils.GetType("System.Collections.Generic.Dictionary`2"));
 
             // 3.接口里面的xxx.xxx
             //type = typeof(DateTime);
@@ -271,7 +271,7 @@ namespace SMFrame.Editor.Refleaction
 
 
 
-			GenerateInput.Generate(typeof(UnityEngine.UIElements.Slider), false);
+			GenerateInput.Generate(typeof(UnityEngine.UIElements.Slider));
 			//GenerateInput.Generate(typeof(outest.inner.innest<>.anotherInnest), false);
 		}
 
@@ -279,7 +279,7 @@ namespace SMFrame.Editor.Refleaction
 		static void SHow()
 		{
 			// 因为只有set函数，所以就一定有一个参数
-			var t = typeof(Assembly);
+			var t = ReflectionUtils.GetType("System.Threading.StackCrawlMark");
 			var p = t.GetProperties(RType.flags);
 			foreach(var itm in p)
 			{

@@ -2179,7 +2179,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 			{
 				if(r_WorldToScreenPoint_Vector3_MonoOrStereoscopicEye == null)
 				{
-					r_WorldToScreenPoint_Vector3_MonoOrStereoscopicEye = new(this, "WorldToScreenPoint", 0, typeof(UnityEngine.Vector3),  ReleactionUtils.GetType("UnityEngine.Camera+MonoOrStereoscopicEye"));
+					r_WorldToScreenPoint_Vector3_MonoOrStereoscopicEye = new(this, "WorldToScreenPoint", 0, typeof(UnityEngine.Vector3),  ReflectionUtils.GetType("UnityEngine.Camera+MonoOrStereoscopicEye"));
 					r_WorldToScreenPoint_Vector3_MonoOrStereoscopicEye.SetBelong(this.instance);
 				}
 				return r_WorldToScreenPoint_Vector3_MonoOrStereoscopicEye;
@@ -2196,7 +2196,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 			{
 				if(r_WorldToViewportPoint_Vector3_MonoOrStereoscopicEye == null)
 				{
-					r_WorldToViewportPoint_Vector3_MonoOrStereoscopicEye = new(this, "WorldToViewportPoint", 0, typeof(UnityEngine.Vector3),  ReleactionUtils.GetType("UnityEngine.Camera+MonoOrStereoscopicEye"));
+					r_WorldToViewportPoint_Vector3_MonoOrStereoscopicEye = new(this, "WorldToViewportPoint", 0, typeof(UnityEngine.Vector3),  ReflectionUtils.GetType("UnityEngine.Camera+MonoOrStereoscopicEye"));
 					r_WorldToViewportPoint_Vector3_MonoOrStereoscopicEye.SetBelong(this.instance);
 				}
 				return r_WorldToViewportPoint_Vector3_MonoOrStereoscopicEye;
@@ -2213,7 +2213,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 			{
 				if(r_ViewportToWorldPoint_Vector3_MonoOrStereoscopicEye == null)
 				{
-					r_ViewportToWorldPoint_Vector3_MonoOrStereoscopicEye = new(this, "ViewportToWorldPoint", 0, typeof(UnityEngine.Vector3),  ReleactionUtils.GetType("UnityEngine.Camera+MonoOrStereoscopicEye"));
+					r_ViewportToWorldPoint_Vector3_MonoOrStereoscopicEye = new(this, "ViewportToWorldPoint", 0, typeof(UnityEngine.Vector3),  ReflectionUtils.GetType("UnityEngine.Camera+MonoOrStereoscopicEye"));
 					r_ViewportToWorldPoint_Vector3_MonoOrStereoscopicEye.SetBelong(this.instance);
 				}
 				return r_ViewportToWorldPoint_Vector3_MonoOrStereoscopicEye;
@@ -2230,7 +2230,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 			{
 				if(r_ScreenToWorldPoint_Vector3_MonoOrStereoscopicEye == null)
 				{
-					r_ScreenToWorldPoint_Vector3_MonoOrStereoscopicEye = new(this, "ScreenToWorldPoint", 0, typeof(UnityEngine.Vector3),  ReleactionUtils.GetType("UnityEngine.Camera+MonoOrStereoscopicEye"));
+					r_ScreenToWorldPoint_Vector3_MonoOrStereoscopicEye = new(this, "ScreenToWorldPoint", 0, typeof(UnityEngine.Vector3),  ReflectionUtils.GetType("UnityEngine.Camera+MonoOrStereoscopicEye"));
 					r_ScreenToWorldPoint_Vector3_MonoOrStereoscopicEye.SetBelong(this.instance);
 				}
 				return r_ScreenToWorldPoint_Vector3_MonoOrStereoscopicEye;
@@ -2366,7 +2366,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 			{
 				if(r_ViewportPointToRay_Vector2_MonoOrStereoscopicEye == null)
 				{
-					r_ViewportPointToRay_Vector2_MonoOrStereoscopicEye = new(this, "ViewportPointToRay", 0, typeof(UnityEngine.Vector2),  ReleactionUtils.GetType("UnityEngine.Camera+MonoOrStereoscopicEye"));
+					r_ViewportPointToRay_Vector2_MonoOrStereoscopicEye = new(this, "ViewportPointToRay", 0, typeof(UnityEngine.Vector2),  ReflectionUtils.GetType("UnityEngine.Camera+MonoOrStereoscopicEye"));
 					r_ViewportPointToRay_Vector2_MonoOrStereoscopicEye.SetBelong(this.instance);
 				}
 				return r_ViewportPointToRay_Vector2_MonoOrStereoscopicEye;
@@ -2383,7 +2383,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 			{
 				if(r_ViewportPointToRay_Vector3_MonoOrStereoscopicEye == null)
 				{
-					r_ViewportPointToRay_Vector3_MonoOrStereoscopicEye = new(this, "ViewportPointToRay", 0, typeof(UnityEngine.Vector3),  ReleactionUtils.GetType("UnityEngine.Camera+MonoOrStereoscopicEye"));
+					r_ViewportPointToRay_Vector3_MonoOrStereoscopicEye = new(this, "ViewportPointToRay", 0, typeof(UnityEngine.Vector3),  ReflectionUtils.GetType("UnityEngine.Camera+MonoOrStereoscopicEye"));
 					r_ViewportPointToRay_Vector3_MonoOrStereoscopicEye.SetBelong(this.instance);
 				}
 				return r_ViewportPointToRay_Vector3_MonoOrStereoscopicEye;
@@ -2417,7 +2417,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 			{
 				if(r_ScreenPointToRay_Vector2_MonoOrStereoscopicEye == null)
 				{
-					r_ScreenPointToRay_Vector2_MonoOrStereoscopicEye = new(this, "ScreenPointToRay", 0, typeof(UnityEngine.Vector2),  ReleactionUtils.GetType("UnityEngine.Camera+MonoOrStereoscopicEye"));
+					r_ScreenPointToRay_Vector2_MonoOrStereoscopicEye = new(this, "ScreenPointToRay", 0, typeof(UnityEngine.Vector2),  ReflectionUtils.GetType("UnityEngine.Camera+MonoOrStereoscopicEye"));
 					r_ScreenPointToRay_Vector2_MonoOrStereoscopicEye.SetBelong(this.instance);
 				}
 				return r_ScreenPointToRay_Vector2_MonoOrStereoscopicEye;
@@ -2434,7 +2434,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 			{
 				if(r_ScreenPointToRay_Vector3_MonoOrStereoscopicEye == null)
 				{
-					r_ScreenPointToRay_Vector3_MonoOrStereoscopicEye = new(this, "ScreenPointToRay", 0, typeof(UnityEngine.Vector3),  ReleactionUtils.GetType("UnityEngine.Camera+MonoOrStereoscopicEye"));
+					r_ScreenPointToRay_Vector3_MonoOrStereoscopicEye = new(this, "ScreenPointToRay", 0, typeof(UnityEngine.Vector3),  ReflectionUtils.GetType("UnityEngine.Camera+MonoOrStereoscopicEye"));
 					r_ScreenPointToRay_Vector3_MonoOrStereoscopicEye.SetBelong(this.instance);
 				}
 				return r_ScreenPointToRay_Vector3_MonoOrStereoscopicEye;
@@ -2468,7 +2468,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 			{
 				if(r_CalculateFrustumCornersInternal_Rect_Single_MonoOrStereoscopicEye_Vector3Array == null)
 				{
-					r_CalculateFrustumCornersInternal_Rect_Single_MonoOrStereoscopicEye_Vector3Array = new(this, "CalculateFrustumCornersInternal", 0, typeof(UnityEngine.Rect), typeof(System.Single),  ReleactionUtils.GetType("UnityEngine.Camera+MonoOrStereoscopicEye"), typeof(UnityEngine.Vector3).MakeArrayType());
+					r_CalculateFrustumCornersInternal_Rect_Single_MonoOrStereoscopicEye_Vector3Array = new(this, "CalculateFrustumCornersInternal", 0, typeof(UnityEngine.Rect), typeof(System.Single),  ReflectionUtils.GetType("UnityEngine.Camera+MonoOrStereoscopicEye"), typeof(UnityEngine.Vector3).MakeArrayType());
 					r_CalculateFrustumCornersInternal_Rect_Single_MonoOrStereoscopicEye_Vector3Array.SetBelong(this.instance);
 				}
 				return r_CalculateFrustumCornersInternal_Rect_Single_MonoOrStereoscopicEye_Vector3Array;
@@ -2485,7 +2485,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 			{
 				if(r_CalculateFrustumCorners_Rect_Single_MonoOrStereoscopicEye_Vector3Array == null)
 				{
-					r_CalculateFrustumCorners_Rect_Single_MonoOrStereoscopicEye_Vector3Array = new(this, "CalculateFrustumCorners", 0, typeof(UnityEngine.Rect), typeof(System.Single),  ReleactionUtils.GetType("UnityEngine.Camera+MonoOrStereoscopicEye"), typeof(UnityEngine.Vector3).MakeArrayType());
+					r_CalculateFrustumCorners_Rect_Single_MonoOrStereoscopicEye_Vector3Array = new(this, "CalculateFrustumCorners", 0, typeof(UnityEngine.Rect), typeof(System.Single),  ReflectionUtils.GetType("UnityEngine.Camera+MonoOrStereoscopicEye"), typeof(UnityEngine.Vector3).MakeArrayType());
 					r_CalculateFrustumCorners_Rect_Single_MonoOrStereoscopicEye_Vector3Array.SetBelong(this.instance);
 				}
 				return r_CalculateFrustumCorners_Rect_Single_MonoOrStereoscopicEye_Vector3Array;
@@ -2502,7 +2502,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 			{
 				if(r_CalculateProjectionMatrixFromPhysicalPropertiesInternal_Out_Matrix4x4_Single_Vector2_Vector2_Single_Single_Single_GateFitMode == null)
 				{
-					r_CalculateProjectionMatrixFromPhysicalPropertiesInternal_Out_Matrix4x4_Single_Vector2_Vector2_Single_Single_Single_GateFitMode = new(typeof(UnityEngine.Camera), "CalculateProjectionMatrixFromPhysicalPropertiesInternal", 0, typeof(UnityEngine.Matrix4x4).MakeByRefType(), typeof(System.Single), typeof(UnityEngine.Vector2), typeof(UnityEngine.Vector2), typeof(System.Single), typeof(System.Single), typeof(System.Single),  ReleactionUtils.GetType("UnityEngine.Camera+GateFitMode"));
+					r_CalculateProjectionMatrixFromPhysicalPropertiesInternal_Out_Matrix4x4_Single_Vector2_Vector2_Single_Single_Single_GateFitMode = new(typeof(UnityEngine.Camera), "CalculateProjectionMatrixFromPhysicalPropertiesInternal", 0, typeof(UnityEngine.Matrix4x4).MakeByRefType(), typeof(System.Single), typeof(UnityEngine.Vector2), typeof(UnityEngine.Vector2), typeof(System.Single), typeof(System.Single), typeof(System.Single),  ReflectionUtils.GetType("UnityEngine.Camera+GateFitMode"));
 					r_CalculateProjectionMatrixFromPhysicalPropertiesInternal_Out_Matrix4x4_Single_Vector2_Vector2_Single_Single_Single_GateFitMode.SetBelong(null);
 				}
 				return r_CalculateProjectionMatrixFromPhysicalPropertiesInternal_Out_Matrix4x4_Single_Vector2_Vector2_Single_Single_Single_GateFitMode;
@@ -2519,7 +2519,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 			{
 				if(r_CalculateProjectionMatrixFromPhysicalProperties_Out_Matrix4x4_Single_Vector2_Vector2_Single_Single_GateFitParameters == null)
 				{
-					r_CalculateProjectionMatrixFromPhysicalProperties_Out_Matrix4x4_Single_Vector2_Vector2_Single_Single_GateFitParameters = new(typeof(UnityEngine.Camera), "CalculateProjectionMatrixFromPhysicalProperties", 0, typeof(UnityEngine.Matrix4x4).MakeByRefType(), typeof(System.Single), typeof(UnityEngine.Vector2), typeof(UnityEngine.Vector2), typeof(System.Single), typeof(System.Single),  ReleactionUtils.GetType("UnityEngine.Camera+GateFitParameters"));
+					r_CalculateProjectionMatrixFromPhysicalProperties_Out_Matrix4x4_Single_Vector2_Vector2_Single_Single_GateFitParameters = new(typeof(UnityEngine.Camera), "CalculateProjectionMatrixFromPhysicalProperties", 0, typeof(UnityEngine.Matrix4x4).MakeByRefType(), typeof(System.Single), typeof(UnityEngine.Vector2), typeof(UnityEngine.Vector2), typeof(System.Single), typeof(System.Single),  ReflectionUtils.GetType("UnityEngine.Camera+GateFitParameters"));
 					r_CalculateProjectionMatrixFromPhysicalProperties_Out_Matrix4x4_Single_Vector2_Vector2_Single_Single_GateFitParameters.SetBelong(null);
 				}
 				return r_CalculateProjectionMatrixFromPhysicalProperties_Out_Matrix4x4_Single_Vector2_Vector2_Single_Single_GateFitParameters;
@@ -2604,7 +2604,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 			{
 				if(r_GetStereoNonJitteredProjectionMatrix_StereoscopicEye == null)
 				{
-					r_GetStereoNonJitteredProjectionMatrix_StereoscopicEye = new(this, "GetStereoNonJitteredProjectionMatrix", 0,  ReleactionUtils.GetType("UnityEngine.Camera+StereoscopicEye"));
+					r_GetStereoNonJitteredProjectionMatrix_StereoscopicEye = new(this, "GetStereoNonJitteredProjectionMatrix", 0,  ReflectionUtils.GetType("UnityEngine.Camera+StereoscopicEye"));
 					r_GetStereoNonJitteredProjectionMatrix_StereoscopicEye.SetBelong(this.instance);
 				}
 				return r_GetStereoNonJitteredProjectionMatrix_StereoscopicEye;
@@ -2621,7 +2621,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 			{
 				if(r_GetStereoViewMatrix_StereoscopicEye == null)
 				{
-					r_GetStereoViewMatrix_StereoscopicEye = new(this, "GetStereoViewMatrix", 0,  ReleactionUtils.GetType("UnityEngine.Camera+StereoscopicEye"));
+					r_GetStereoViewMatrix_StereoscopicEye = new(this, "GetStereoViewMatrix", 0,  ReflectionUtils.GetType("UnityEngine.Camera+StereoscopicEye"));
 					r_GetStereoViewMatrix_StereoscopicEye.SetBelong(this.instance);
 				}
 				return r_GetStereoViewMatrix_StereoscopicEye;
@@ -2638,7 +2638,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 			{
 				if(r_CopyStereoDeviceProjectionMatrixToNonJittered_StereoscopicEye == null)
 				{
-					r_CopyStereoDeviceProjectionMatrixToNonJittered_StereoscopicEye = new(this, "CopyStereoDeviceProjectionMatrixToNonJittered", 0,  ReleactionUtils.GetType("UnityEngine.Camera+StereoscopicEye"));
+					r_CopyStereoDeviceProjectionMatrixToNonJittered_StereoscopicEye = new(this, "CopyStereoDeviceProjectionMatrixToNonJittered", 0,  ReflectionUtils.GetType("UnityEngine.Camera+StereoscopicEye"));
 					r_CopyStereoDeviceProjectionMatrixToNonJittered_StereoscopicEye.SetBelong(this.instance);
 				}
 				return r_CopyStereoDeviceProjectionMatrixToNonJittered_StereoscopicEye;
@@ -2655,7 +2655,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 			{
 				if(r_GetStereoProjectionMatrix_StereoscopicEye == null)
 				{
-					r_GetStereoProjectionMatrix_StereoscopicEye = new(this, "GetStereoProjectionMatrix", 0,  ReleactionUtils.GetType("UnityEngine.Camera+StereoscopicEye"));
+					r_GetStereoProjectionMatrix_StereoscopicEye = new(this, "GetStereoProjectionMatrix", 0,  ReflectionUtils.GetType("UnityEngine.Camera+StereoscopicEye"));
 					r_GetStereoProjectionMatrix_StereoscopicEye.SetBelong(this.instance);
 				}
 				return r_GetStereoProjectionMatrix_StereoscopicEye;
@@ -2672,7 +2672,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 			{
 				if(r_SetStereoProjectionMatrix_StereoscopicEye_Matrix4x4 == null)
 				{
-					r_SetStereoProjectionMatrix_StereoscopicEye_Matrix4x4 = new(this, "SetStereoProjectionMatrix", 0,  ReleactionUtils.GetType("UnityEngine.Camera+StereoscopicEye"), typeof(UnityEngine.Matrix4x4));
+					r_SetStereoProjectionMatrix_StereoscopicEye_Matrix4x4 = new(this, "SetStereoProjectionMatrix", 0,  ReflectionUtils.GetType("UnityEngine.Camera+StereoscopicEye"), typeof(UnityEngine.Matrix4x4));
 					r_SetStereoProjectionMatrix_StereoscopicEye_Matrix4x4.SetBelong(this.instance);
 				}
 				return r_SetStereoProjectionMatrix_StereoscopicEye_Matrix4x4;
@@ -2706,7 +2706,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 			{
 				if(r_SetStereoViewMatrix_StereoscopicEye_Matrix4x4 == null)
 				{
-					r_SetStereoViewMatrix_StereoscopicEye_Matrix4x4 = new(this, "SetStereoViewMatrix", 0,  ReleactionUtils.GetType("UnityEngine.Camera+StereoscopicEye"), typeof(UnityEngine.Matrix4x4));
+					r_SetStereoViewMatrix_StereoscopicEye_Matrix4x4 = new(this, "SetStereoViewMatrix", 0,  ReflectionUtils.GetType("UnityEngine.Camera+StereoscopicEye"), typeof(UnityEngine.Matrix4x4));
 					r_SetStereoViewMatrix_StereoscopicEye_Matrix4x4.SetBelong(this.instance);
 				}
 				return r_SetStereoViewMatrix_StereoscopicEye_Matrix4x4;
@@ -2893,7 +2893,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 			{
 				if(r_RenderToCubemapEyeImpl_RenderTexture_Int32_MonoOrStereoscopicEye == null)
 				{
-					r_RenderToCubemapEyeImpl_RenderTexture_Int32_MonoOrStereoscopicEye = new(this, "RenderToCubemapEyeImpl", 0, typeof(UnityEngine.RenderTexture), typeof(System.Int32),  ReleactionUtils.GetType("UnityEngine.Camera+MonoOrStereoscopicEye"));
+					r_RenderToCubemapEyeImpl_RenderTexture_Int32_MonoOrStereoscopicEye = new(this, "RenderToCubemapEyeImpl", 0, typeof(UnityEngine.RenderTexture), typeof(System.Int32),  ReflectionUtils.GetType("UnityEngine.Camera+MonoOrStereoscopicEye"));
 					r_RenderToCubemapEyeImpl_RenderTexture_Int32_MonoOrStereoscopicEye.SetBelong(this.instance);
 				}
 				return r_RenderToCubemapEyeImpl_RenderTexture_Int32_MonoOrStereoscopicEye;
@@ -2910,7 +2910,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 			{
 				if(r_RenderToCubemap_RenderTexture_Int32_MonoOrStereoscopicEye == null)
 				{
-					r_RenderToCubemap_RenderTexture_Int32_MonoOrStereoscopicEye = new(this, "RenderToCubemap", 0, typeof(UnityEngine.RenderTexture), typeof(System.Int32),  ReleactionUtils.GetType("UnityEngine.Camera+MonoOrStereoscopicEye"));
+					r_RenderToCubemap_RenderTexture_Int32_MonoOrStereoscopicEye = new(this, "RenderToCubemap", 0, typeof(UnityEngine.RenderTexture), typeof(System.Int32),  ReflectionUtils.GetType("UnityEngine.Camera+MonoOrStereoscopicEye"));
 					r_RenderToCubemap_RenderTexture_Int32_MonoOrStereoscopicEye.SetBelong(this.instance);
 				}
 				return r_RenderToCubemap_RenderTexture_Int32_MonoOrStereoscopicEye;
@@ -2978,7 +2978,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 			{
 				if(r_SubmitRenderRequests_List_d_RenderRequest_p_ == null)
 				{
-					r_SubmitRenderRequests_List_d_RenderRequest_p_ = new(this, "SubmitRenderRequests", 0, typeof(System.Collections.Generic.List<>).MakeGenericType( ReleactionUtils.GetType("UnityEngine.Camera+RenderRequest")));
+					r_SubmitRenderRequests_List_d_RenderRequest_p_ = new(this, "SubmitRenderRequests", 0, typeof(System.Collections.Generic.List<>).MakeGenericType( ReflectionUtils.GetType("UnityEngine.Camera+RenderRequest")));
 					r_SubmitRenderRequests_List_d_RenderRequest_p_.SetBelong(this.instance);
 				}
 				return r_SubmitRenderRequests_List_d_RenderRequest_p_;
@@ -3998,7 +3998,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 			{
 				if(r_WorldToScreenPoint_Injected_Ref_Vector3_MonoOrStereoscopicEye_Out_Vector3 == null)
 				{
-					r_WorldToScreenPoint_Injected_Ref_Vector3_MonoOrStereoscopicEye_Out_Vector3 = new(this, "WorldToScreenPoint_Injected", 0, typeof(UnityEngine.Vector3).MakeByRefType(),  ReleactionUtils.GetType("UnityEngine.Camera+MonoOrStereoscopicEye"), typeof(UnityEngine.Vector3).MakeByRefType());
+					r_WorldToScreenPoint_Injected_Ref_Vector3_MonoOrStereoscopicEye_Out_Vector3 = new(this, "WorldToScreenPoint_Injected", 0, typeof(UnityEngine.Vector3).MakeByRefType(),  ReflectionUtils.GetType("UnityEngine.Camera+MonoOrStereoscopicEye"), typeof(UnityEngine.Vector3).MakeByRefType());
 					r_WorldToScreenPoint_Injected_Ref_Vector3_MonoOrStereoscopicEye_Out_Vector3.SetBelong(this.instance);
 				}
 				return r_WorldToScreenPoint_Injected_Ref_Vector3_MonoOrStereoscopicEye_Out_Vector3;
@@ -4015,7 +4015,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 			{
 				if(r_WorldToViewportPoint_Injected_Ref_Vector3_MonoOrStereoscopicEye_Out_Vector3 == null)
 				{
-					r_WorldToViewportPoint_Injected_Ref_Vector3_MonoOrStereoscopicEye_Out_Vector3 = new(this, "WorldToViewportPoint_Injected", 0, typeof(UnityEngine.Vector3).MakeByRefType(),  ReleactionUtils.GetType("UnityEngine.Camera+MonoOrStereoscopicEye"), typeof(UnityEngine.Vector3).MakeByRefType());
+					r_WorldToViewportPoint_Injected_Ref_Vector3_MonoOrStereoscopicEye_Out_Vector3 = new(this, "WorldToViewportPoint_Injected", 0, typeof(UnityEngine.Vector3).MakeByRefType(),  ReflectionUtils.GetType("UnityEngine.Camera+MonoOrStereoscopicEye"), typeof(UnityEngine.Vector3).MakeByRefType());
 					r_WorldToViewportPoint_Injected_Ref_Vector3_MonoOrStereoscopicEye_Out_Vector3.SetBelong(this.instance);
 				}
 				return r_WorldToViewportPoint_Injected_Ref_Vector3_MonoOrStereoscopicEye_Out_Vector3;
@@ -4032,7 +4032,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 			{
 				if(r_ViewportToWorldPoint_Injected_Ref_Vector3_MonoOrStereoscopicEye_Out_Vector3 == null)
 				{
-					r_ViewportToWorldPoint_Injected_Ref_Vector3_MonoOrStereoscopicEye_Out_Vector3 = new(this, "ViewportToWorldPoint_Injected", 0, typeof(UnityEngine.Vector3).MakeByRefType(),  ReleactionUtils.GetType("UnityEngine.Camera+MonoOrStereoscopicEye"), typeof(UnityEngine.Vector3).MakeByRefType());
+					r_ViewportToWorldPoint_Injected_Ref_Vector3_MonoOrStereoscopicEye_Out_Vector3 = new(this, "ViewportToWorldPoint_Injected", 0, typeof(UnityEngine.Vector3).MakeByRefType(),  ReflectionUtils.GetType("UnityEngine.Camera+MonoOrStereoscopicEye"), typeof(UnityEngine.Vector3).MakeByRefType());
 					r_ViewportToWorldPoint_Injected_Ref_Vector3_MonoOrStereoscopicEye_Out_Vector3.SetBelong(this.instance);
 				}
 				return r_ViewportToWorldPoint_Injected_Ref_Vector3_MonoOrStereoscopicEye_Out_Vector3;
@@ -4049,7 +4049,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 			{
 				if(r_ScreenToWorldPoint_Injected_Ref_Vector3_MonoOrStereoscopicEye_Out_Vector3 == null)
 				{
-					r_ScreenToWorldPoint_Injected_Ref_Vector3_MonoOrStereoscopicEye_Out_Vector3 = new(this, "ScreenToWorldPoint_Injected", 0, typeof(UnityEngine.Vector3).MakeByRefType(),  ReleactionUtils.GetType("UnityEngine.Camera+MonoOrStereoscopicEye"), typeof(UnityEngine.Vector3).MakeByRefType());
+					r_ScreenToWorldPoint_Injected_Ref_Vector3_MonoOrStereoscopicEye_Out_Vector3 = new(this, "ScreenToWorldPoint_Injected", 0, typeof(UnityEngine.Vector3).MakeByRefType(),  ReflectionUtils.GetType("UnityEngine.Camera+MonoOrStereoscopicEye"), typeof(UnityEngine.Vector3).MakeByRefType());
 					r_ScreenToWorldPoint_Injected_Ref_Vector3_MonoOrStereoscopicEye_Out_Vector3.SetBelong(this.instance);
 				}
 				return r_ScreenToWorldPoint_Injected_Ref_Vector3_MonoOrStereoscopicEye_Out_Vector3;
@@ -4117,7 +4117,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 			{
 				if(r_ViewportPointToRay_Injected_Ref_Vector2_MonoOrStereoscopicEye_Out_Ray == null)
 				{
-					r_ViewportPointToRay_Injected_Ref_Vector2_MonoOrStereoscopicEye_Out_Ray = new(this, "ViewportPointToRay_Injected", 0, typeof(UnityEngine.Vector2).MakeByRefType(),  ReleactionUtils.GetType("UnityEngine.Camera+MonoOrStereoscopicEye"), typeof(UnityEngine.Ray).MakeByRefType());
+					r_ViewportPointToRay_Injected_Ref_Vector2_MonoOrStereoscopicEye_Out_Ray = new(this, "ViewportPointToRay_Injected", 0, typeof(UnityEngine.Vector2).MakeByRefType(),  ReflectionUtils.GetType("UnityEngine.Camera+MonoOrStereoscopicEye"), typeof(UnityEngine.Ray).MakeByRefType());
 					r_ViewportPointToRay_Injected_Ref_Vector2_MonoOrStereoscopicEye_Out_Ray.SetBelong(this.instance);
 				}
 				return r_ViewportPointToRay_Injected_Ref_Vector2_MonoOrStereoscopicEye_Out_Ray;
@@ -4134,7 +4134,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 			{
 				if(r_ScreenPointToRay_Injected_Ref_Vector2_MonoOrStereoscopicEye_Out_Ray == null)
 				{
-					r_ScreenPointToRay_Injected_Ref_Vector2_MonoOrStereoscopicEye_Out_Ray = new(this, "ScreenPointToRay_Injected", 0, typeof(UnityEngine.Vector2).MakeByRefType(),  ReleactionUtils.GetType("UnityEngine.Camera+MonoOrStereoscopicEye"), typeof(UnityEngine.Ray).MakeByRefType());
+					r_ScreenPointToRay_Injected_Ref_Vector2_MonoOrStereoscopicEye_Out_Ray = new(this, "ScreenPointToRay_Injected", 0, typeof(UnityEngine.Vector2).MakeByRefType(),  ReflectionUtils.GetType("UnityEngine.Camera+MonoOrStereoscopicEye"), typeof(UnityEngine.Ray).MakeByRefType());
 					r_ScreenPointToRay_Injected_Ref_Vector2_MonoOrStereoscopicEye_Out_Ray.SetBelong(this.instance);
 				}
 				return r_ScreenPointToRay_Injected_Ref_Vector2_MonoOrStereoscopicEye_Out_Ray;
@@ -4151,7 +4151,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 			{
 				if(r_CalculateFrustumCornersInternal_Injected_Ref_Rect_Single_MonoOrStereoscopicEye_Vector3Array == null)
 				{
-					r_CalculateFrustumCornersInternal_Injected_Ref_Rect_Single_MonoOrStereoscopicEye_Vector3Array = new(this, "CalculateFrustumCornersInternal_Injected", 0, typeof(UnityEngine.Rect).MakeByRefType(), typeof(System.Single),  ReleactionUtils.GetType("UnityEngine.Camera+MonoOrStereoscopicEye"), typeof(UnityEngine.Vector3).MakeArrayType());
+					r_CalculateFrustumCornersInternal_Injected_Ref_Rect_Single_MonoOrStereoscopicEye_Vector3Array = new(this, "CalculateFrustumCornersInternal_Injected", 0, typeof(UnityEngine.Rect).MakeByRefType(), typeof(System.Single),  ReflectionUtils.GetType("UnityEngine.Camera+MonoOrStereoscopicEye"), typeof(UnityEngine.Vector3).MakeArrayType());
 					r_CalculateFrustumCornersInternal_Injected_Ref_Rect_Single_MonoOrStereoscopicEye_Vector3Array.SetBelong(this.instance);
 				}
 				return r_CalculateFrustumCornersInternal_Injected_Ref_Rect_Single_MonoOrStereoscopicEye_Vector3Array;
@@ -4168,7 +4168,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 			{
 				if(r_CalculateProjectionMatrixFromPhysicalPropertiesInternal_Injected_Out_Matrix4x4_Single_Ref_Vector2_Ref_Vector2_Single_Single_Single_GateFitMode == null)
 				{
-					r_CalculateProjectionMatrixFromPhysicalPropertiesInternal_Injected_Out_Matrix4x4_Single_Ref_Vector2_Ref_Vector2_Single_Single_Single_GateFitMode = new(typeof(UnityEngine.Camera), "CalculateProjectionMatrixFromPhysicalPropertiesInternal_Injected", 0, typeof(UnityEngine.Matrix4x4).MakeByRefType(), typeof(System.Single), typeof(UnityEngine.Vector2).MakeByRefType(), typeof(UnityEngine.Vector2).MakeByRefType(), typeof(System.Single), typeof(System.Single), typeof(System.Single),  ReleactionUtils.GetType("UnityEngine.Camera+GateFitMode"));
+					r_CalculateProjectionMatrixFromPhysicalPropertiesInternal_Injected_Out_Matrix4x4_Single_Ref_Vector2_Ref_Vector2_Single_Single_Single_GateFitMode = new(typeof(UnityEngine.Camera), "CalculateProjectionMatrixFromPhysicalPropertiesInternal_Injected", 0, typeof(UnityEngine.Matrix4x4).MakeByRefType(), typeof(System.Single), typeof(UnityEngine.Vector2).MakeByRefType(), typeof(UnityEngine.Vector2).MakeByRefType(), typeof(System.Single), typeof(System.Single), typeof(System.Single),  ReflectionUtils.GetType("UnityEngine.Camera+GateFitMode"));
 					r_CalculateProjectionMatrixFromPhysicalPropertiesInternal_Injected_Out_Matrix4x4_Single_Ref_Vector2_Ref_Vector2_Single_Single_Single_GateFitMode.SetBelong(null);
 				}
 				return r_CalculateProjectionMatrixFromPhysicalPropertiesInternal_Injected_Out_Matrix4x4_Single_Ref_Vector2_Ref_Vector2_Single_Single_Single_GateFitMode;
@@ -4219,7 +4219,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 			{
 				if(r_GetStereoNonJitteredProjectionMatrix_Injected_StereoscopicEye_Out_Matrix4x4 == null)
 				{
-					r_GetStereoNonJitteredProjectionMatrix_Injected_StereoscopicEye_Out_Matrix4x4 = new(this, "GetStereoNonJitteredProjectionMatrix_Injected", 0,  ReleactionUtils.GetType("UnityEngine.Camera+StereoscopicEye"), typeof(UnityEngine.Matrix4x4).MakeByRefType());
+					r_GetStereoNonJitteredProjectionMatrix_Injected_StereoscopicEye_Out_Matrix4x4 = new(this, "GetStereoNonJitteredProjectionMatrix_Injected", 0,  ReflectionUtils.GetType("UnityEngine.Camera+StereoscopicEye"), typeof(UnityEngine.Matrix4x4).MakeByRefType());
 					r_GetStereoNonJitteredProjectionMatrix_Injected_StereoscopicEye_Out_Matrix4x4.SetBelong(this.instance);
 				}
 				return r_GetStereoNonJitteredProjectionMatrix_Injected_StereoscopicEye_Out_Matrix4x4;
@@ -4236,7 +4236,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 			{
 				if(r_GetStereoViewMatrix_Injected_StereoscopicEye_Out_Matrix4x4 == null)
 				{
-					r_GetStereoViewMatrix_Injected_StereoscopicEye_Out_Matrix4x4 = new(this, "GetStereoViewMatrix_Injected", 0,  ReleactionUtils.GetType("UnityEngine.Camera+StereoscopicEye"), typeof(UnityEngine.Matrix4x4).MakeByRefType());
+					r_GetStereoViewMatrix_Injected_StereoscopicEye_Out_Matrix4x4 = new(this, "GetStereoViewMatrix_Injected", 0,  ReflectionUtils.GetType("UnityEngine.Camera+StereoscopicEye"), typeof(UnityEngine.Matrix4x4).MakeByRefType());
 					r_GetStereoViewMatrix_Injected_StereoscopicEye_Out_Matrix4x4.SetBelong(this.instance);
 				}
 				return r_GetStereoViewMatrix_Injected_StereoscopicEye_Out_Matrix4x4;
@@ -4253,7 +4253,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 			{
 				if(r_GetStereoProjectionMatrix_Injected_StereoscopicEye_Out_Matrix4x4 == null)
 				{
-					r_GetStereoProjectionMatrix_Injected_StereoscopicEye_Out_Matrix4x4 = new(this, "GetStereoProjectionMatrix_Injected", 0,  ReleactionUtils.GetType("UnityEngine.Camera+StereoscopicEye"), typeof(UnityEngine.Matrix4x4).MakeByRefType());
+					r_GetStereoProjectionMatrix_Injected_StereoscopicEye_Out_Matrix4x4 = new(this, "GetStereoProjectionMatrix_Injected", 0,  ReflectionUtils.GetType("UnityEngine.Camera+StereoscopicEye"), typeof(UnityEngine.Matrix4x4).MakeByRefType());
 					r_GetStereoProjectionMatrix_Injected_StereoscopicEye_Out_Matrix4x4.SetBelong(this.instance);
 				}
 				return r_GetStereoProjectionMatrix_Injected_StereoscopicEye_Out_Matrix4x4;
@@ -4270,7 +4270,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 			{
 				if(r_SetStereoProjectionMatrix_Injected_StereoscopicEye_Ref_Matrix4x4 == null)
 				{
-					r_SetStereoProjectionMatrix_Injected_StereoscopicEye_Ref_Matrix4x4 = new(this, "SetStereoProjectionMatrix_Injected", 0,  ReleactionUtils.GetType("UnityEngine.Camera+StereoscopicEye"), typeof(UnityEngine.Matrix4x4).MakeByRefType());
+					r_SetStereoProjectionMatrix_Injected_StereoscopicEye_Ref_Matrix4x4 = new(this, "SetStereoProjectionMatrix_Injected", 0,  ReflectionUtils.GetType("UnityEngine.Camera+StereoscopicEye"), typeof(UnityEngine.Matrix4x4).MakeByRefType());
 					r_SetStereoProjectionMatrix_Injected_StereoscopicEye_Ref_Matrix4x4.SetBelong(this.instance);
 				}
 				return r_SetStereoProjectionMatrix_Injected_StereoscopicEye_Ref_Matrix4x4;
@@ -4287,7 +4287,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 			{
 				if(r_SetStereoViewMatrix_Injected_StereoscopicEye_Ref_Matrix4x4 == null)
 				{
-					r_SetStereoViewMatrix_Injected_StereoscopicEye_Ref_Matrix4x4 = new(this, "SetStereoViewMatrix_Injected", 0,  ReleactionUtils.GetType("UnityEngine.Camera+StereoscopicEye"), typeof(UnityEngine.Matrix4x4).MakeByRefType());
+					r_SetStereoViewMatrix_Injected_StereoscopicEye_Ref_Matrix4x4 = new(this, "SetStereoViewMatrix_Injected", 0,  ReflectionUtils.GetType("UnityEngine.Camera+StereoscopicEye"), typeof(UnityEngine.Matrix4x4).MakeByRefType());
 					r_SetStereoViewMatrix_Injected_StereoscopicEye_Ref_Matrix4x4.SetBelong(this.instance);
 				}
 				return r_SetStereoViewMatrix_Injected_StereoscopicEye_Ref_Matrix4x4;

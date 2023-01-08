@@ -989,7 +989,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 			{
 				if(r_get_metadata_token_RuntimeConstructorInfo == null)
 				{
-					r_get_metadata_token_RuntimeConstructorInfo = new( ReleactionUtils.GetType("System.Reflection.RuntimeConstructorInfo"), "get_metadata_token", 0,  ReleactionUtils.GetType("System.Reflection.RuntimeConstructorInfo"));
+					r_get_metadata_token_RuntimeConstructorInfo = new( ReflectionUtils.GetType("System.Reflection.RuntimeConstructorInfo"), "get_metadata_token", 0,  ReflectionUtils.GetType("System.Reflection.RuntimeConstructorInfo"));
 					r_get_metadata_token_RuntimeConstructorInfo.SetBelong(null);
 				}
 				return r_get_metadata_token_RuntimeConstructorInfo;

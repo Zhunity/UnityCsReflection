@@ -122,7 +122,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_sep == null)
 				{
-					r_sep = new( ReleactionUtils.GetType("System.Globalization.CodePageDataItem"), "sep");
+					r_sep = new( ReflectionUtils.GetType("System.Globalization.CodePageDataItem"), "sep");
 					r_sep.SetBelong(null);
 				}
 				return r_sep;
@@ -224,7 +224,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_CreateString_String_UInt32 == null)
 				{
-					r_CreateString_String_UInt32 = new( ReleactionUtils.GetType("System.Globalization.CodePageDataItem"), "CreateString", 0, typeof(System.String), typeof(System.UInt32));
+					r_CreateString_String_UInt32 = new( ReflectionUtils.GetType("System.Globalization.CodePageDataItem"), "CreateString", 0, typeof(System.String), typeof(System.UInt32));
 					r_CreateString_String_UInt32.SetBelong(null);
 				}
 				return r_CreateString_String_UInt32;

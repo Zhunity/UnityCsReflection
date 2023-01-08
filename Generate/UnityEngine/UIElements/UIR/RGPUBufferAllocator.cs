@@ -88,7 +88,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_Free_Alloc == null)
 				{
-					r_Free_Alloc = new(this, "Free", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.UIR.Alloc"));
+					r_Free_Alloc = new(this, "Free", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.UIR.Alloc"));
 					r_Free_Alloc.SetBelong(this.instance);
 				}
 				return r_Free_Alloc;

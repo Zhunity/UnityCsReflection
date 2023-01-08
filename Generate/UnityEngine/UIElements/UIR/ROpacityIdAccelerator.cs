@@ -20,7 +20,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_k_VerticesPerBatch == null)
 				{
-					r_k_VerticesPerBatch = new( ReleactionUtils.GetType("UnityEngine.UIElements.UIR.OpacityIdAccelerator"), "k_VerticesPerBatch");
+					r_k_VerticesPerBatch = new( ReflectionUtils.GetType("UnityEngine.UIElements.UIR.OpacityIdAccelerator"), "k_VerticesPerBatch");
 					r_k_VerticesPerBatch.SetBelong(null);
 				}
 				return r_k_VerticesPerBatch;
@@ -37,7 +37,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_k_JobLimit == null)
 				{
-					r_k_JobLimit = new( ReleactionUtils.GetType("UnityEngine.UIElements.UIR.OpacityIdAccelerator"), "k_JobLimit");
+					r_k_JobLimit = new( ReflectionUtils.GetType("UnityEngine.UIElements.UIR.OpacityIdAccelerator"), "k_JobLimit");
 					r_k_JobLimit.SetBelong(null);
 				}
 				return r_k_JobLimit;

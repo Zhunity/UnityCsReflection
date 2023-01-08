@@ -1091,7 +1091,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certif
 			{
 				if(r_ImportHandle_X509CertificateImpl == null)
 				{
-					r_ImportHandle_X509CertificateImpl = new(this, "ImportHandle", 0,  ReleactionUtils.GetType("System.Security.Cryptography.X509Certificates.X509CertificateImpl"));
+					r_ImportHandle_X509CertificateImpl = new(this, "ImportHandle", 0,  ReflectionUtils.GetType("System.Security.Cryptography.X509Certificates.X509CertificateImpl"));
 					r_ImportHandle_X509CertificateImpl.SetBelong(this.instance);
 				}
 				return r_ImportHandle_X509CertificateImpl;

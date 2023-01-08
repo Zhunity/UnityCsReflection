@@ -445,7 +445,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_ConvertUssToTextGenerationSettings_TextGenerationSettings == null)
 				{
-					r_ConvertUssToTextGenerationSettings_TextGenerationSettings = new(this, "ConvertUssToTextGenerationSettings", 0,  ReleactionUtils.GetType("UnityEngine.TextCore.Text.TextGenerationSettings"));
+					r_ConvertUssToTextGenerationSettings_TextGenerationSettings = new(this, "ConvertUssToTextGenerationSettings", 0,  ReflectionUtils.GetType("UnityEngine.TextCore.Text.TextGenerationSettings"));
 					r_ConvertUssToTextGenerationSettings_TextGenerationSettings.SetBelong(this.instance);
 				}
 				return r_ConvertUssToTextGenerationSettings_TextGenerationSettings;
@@ -819,7 +819,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_ComputeTextWidth_TextGenerationSettings == null)
 				{
-					r_ComputeTextWidth_TextGenerationSettings = new(this, "ComputeTextWidth", 0,  ReleactionUtils.GetType("UnityEngine.TextCore.Text.TextGenerationSettings"));
+					r_ComputeTextWidth_TextGenerationSettings = new(this, "ComputeTextWidth", 0,  ReflectionUtils.GetType("UnityEngine.TextCore.Text.TextGenerationSettings"));
 					r_ComputeTextWidth_TextGenerationSettings.SetBelong(this.instance);
 				}
 				return r_ComputeTextWidth_TextGenerationSettings;
@@ -836,7 +836,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_ComputeTextHeight_TextGenerationSettings == null)
 				{
-					r_ComputeTextHeight_TextGenerationSettings = new(this, "ComputeTextHeight", 0,  ReleactionUtils.GetType("UnityEngine.TextCore.Text.TextGenerationSettings"));
+					r_ComputeTextHeight_TextGenerationSettings = new(this, "ComputeTextHeight", 0,  ReflectionUtils.GetType("UnityEngine.TextCore.Text.TextGenerationSettings"));
 					r_ComputeTextHeight_TextGenerationSettings.SetBelong(this.instance);
 				}
 				return r_ComputeTextHeight_TextGenerationSettings;
@@ -853,7 +853,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_UpdatePreferredValues_TextGenerationSettings == null)
 				{
-					r_UpdatePreferredValues_TextGenerationSettings = new(this, "UpdatePreferredValues", 0,  ReleactionUtils.GetType("UnityEngine.TextCore.Text.TextGenerationSettings"));
+					r_UpdatePreferredValues_TextGenerationSettings = new(this, "UpdatePreferredValues", 0,  ReflectionUtils.GetType("UnityEngine.TextCore.Text.TextGenerationSettings"));
 					r_UpdatePreferredValues_TextGenerationSettings.SetBelong(this.instance);
 				}
 				return r_UpdatePreferredValues_TextGenerationSettings;
@@ -887,7 +887,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_Update_TextGenerationSettings == null)
 				{
-					r_Update_TextGenerationSettings = new(this, "Update", 0,  ReleactionUtils.GetType("UnityEngine.TextCore.Text.TextGenerationSettings"));
+					r_Update_TextGenerationSettings = new(this, "Update", 0,  ReflectionUtils.GetType("UnityEngine.TextCore.Text.TextGenerationSettings"));
 					r_Update_TextGenerationSettings.SetBelong(this.instance);
 				}
 				return r_Update_TextGenerationSettings;

@@ -1550,7 +1550,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 			{
 				if(r_AppendFormatHelper_IFormatProvider_String_ParamsArray == null)
 				{
-					r_AppendFormatHelper_IFormatProvider_String_ParamsArray = new(this, "AppendFormatHelper", 0, typeof(System.IFormatProvider), typeof(System.String),  ReleactionUtils.GetType("System.ParamsArray"));
+					r_AppendFormatHelper_IFormatProvider_String_ParamsArray = new(this, "AppendFormatHelper", 0, typeof(System.IFormatProvider), typeof(System.String),  ReflectionUtils.GetType("System.ParamsArray"));
 					r_AppendFormatHelper_IFormatProvider_String_ParamsArray.SetBelong(this.instance);
 				}
 				return r_AppendFormatHelper_IFormatProvider_String_ParamsArray;

@@ -20,7 +20,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_kSize == null)
 				{
-					r_kSize = new( ReleactionUtils.GetType("UnityEngine.UIElements.Hashes"), "kSize");
+					r_kSize = new( ReflectionUtils.GetType("UnityEngine.UIElements.Hashes"), "kSize");
 					r_kSize.SetBelong(null);
 				}
 				return r_kSize;

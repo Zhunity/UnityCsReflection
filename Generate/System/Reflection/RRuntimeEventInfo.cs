@@ -326,7 +326,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 			{
 				if(r_get_event_info_RuntimeEventInfo_Out_MonoEventInfo == null)
 				{
-					r_get_event_info_RuntimeEventInfo_Out_MonoEventInfo = new( ReleactionUtils.GetType("System.Reflection.RuntimeEventInfo"), "get_event_info", 0,  ReleactionUtils.GetType("System.Reflection.RuntimeEventInfo"),  ReleactionUtils.GetType("System.Reflection.MonoEventInfo").MakeByRefType());
+					r_get_event_info_RuntimeEventInfo_Out_MonoEventInfo = new( ReflectionUtils.GetType("System.Reflection.RuntimeEventInfo"), "get_event_info", 0,  ReflectionUtils.GetType("System.Reflection.RuntimeEventInfo"),  ReflectionUtils.GetType("System.Reflection.MonoEventInfo").MakeByRefType());
 					r_get_event_info_RuntimeEventInfo_Out_MonoEventInfo.SetBelong(null);
 				}
 				return r_get_event_info_RuntimeEventInfo_Out_MonoEventInfo;
@@ -343,7 +343,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 			{
 				if(r_GetEventInfo_RuntimeEventInfo == null)
 				{
-					r_GetEventInfo_RuntimeEventInfo = new( ReleactionUtils.GetType("System.Reflection.RuntimeEventInfo"), "GetEventInfo", 0,  ReleactionUtils.GetType("System.Reflection.RuntimeEventInfo"));
+					r_GetEventInfo_RuntimeEventInfo = new( ReflectionUtils.GetType("System.Reflection.RuntimeEventInfo"), "GetEventInfo", 0,  ReflectionUtils.GetType("System.Reflection.RuntimeEventInfo"));
 					r_GetEventInfo_RuntimeEventInfo.SetBelong(null);
 				}
 				return r_GetEventInfo_RuntimeEventInfo;
@@ -598,7 +598,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 			{
 				if(r_get_metadata_token_RuntimeEventInfo == null)
 				{
-					r_get_metadata_token_RuntimeEventInfo = new( ReleactionUtils.GetType("System.Reflection.RuntimeEventInfo"), "get_metadata_token", 0,  ReleactionUtils.GetType("System.Reflection.RuntimeEventInfo"));
+					r_get_metadata_token_RuntimeEventInfo = new( ReflectionUtils.GetType("System.Reflection.RuntimeEventInfo"), "get_metadata_token", 0,  ReflectionUtils.GetType("System.Reflection.RuntimeEventInfo"));
 					r_get_metadata_token_RuntimeEventInfo.SetBelong(null);
 				}
 				return r_get_metadata_token_RuntimeEventInfo;

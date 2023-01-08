@@ -88,7 +88,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_s_Description == null)
 				{
-					r_s_Description = new( ReleactionUtils.GetType("UnityEngine.UIElements.VisualElementAnimationSystem"), "s_Description");
+					r_s_Description = new( ReflectionUtils.GetType("UnityEngine.UIElements.VisualElementAnimationSystem"), "s_Description");
 					r_s_Description.SetBelong(null);
 				}
 				return r_s_Description;
@@ -105,7 +105,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_s_ProfilerMarker == null)
 				{
-					r_s_ProfilerMarker = new( ReleactionUtils.GetType("UnityEngine.UIElements.VisualElementAnimationSystem"), "s_ProfilerMarker");
+					r_s_ProfilerMarker = new( ReflectionUtils.GetType("UnityEngine.UIElements.VisualElementAnimationSystem"), "s_ProfilerMarker");
 					r_s_ProfilerMarker.SetBelong(null);
 				}
 				return r_s_ProfilerMarker;
@@ -122,7 +122,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_s_StylePropertyAnimationDescription == null)
 				{
-					r_s_StylePropertyAnimationDescription = new( ReleactionUtils.GetType("UnityEngine.UIElements.VisualElementAnimationSystem"), "s_StylePropertyAnimationDescription");
+					r_s_StylePropertyAnimationDescription = new( ReflectionUtils.GetType("UnityEngine.UIElements.VisualElementAnimationSystem"), "s_StylePropertyAnimationDescription");
 					r_s_StylePropertyAnimationDescription.SetBelong(null);
 				}
 				return r_s_StylePropertyAnimationDescription;
@@ -139,7 +139,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_s_StylePropertyAnimationProfilerMarker == null)
 				{
-					r_s_StylePropertyAnimationProfilerMarker = new( ReleactionUtils.GetType("UnityEngine.UIElements.VisualElementAnimationSystem"), "s_StylePropertyAnimationProfilerMarker");
+					r_s_StylePropertyAnimationProfilerMarker = new( ReflectionUtils.GetType("UnityEngine.UIElements.VisualElementAnimationSystem"), "s_StylePropertyAnimationProfilerMarker");
 					r_s_StylePropertyAnimationProfilerMarker.SetBelong(null);
 				}
 				return r_s_StylePropertyAnimationProfilerMarker;
@@ -190,7 +190,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_stylePropertyAnimationProfilerMarker == null)
 				{
-					r_stylePropertyAnimationProfilerMarker = new( ReleactionUtils.GetType("UnityEngine.UIElements.VisualElementAnimationSystem"), "stylePropertyAnimationProfilerMarker", -1);
+					r_stylePropertyAnimationProfilerMarker = new( ReflectionUtils.GetType("UnityEngine.UIElements.VisualElementAnimationSystem"), "stylePropertyAnimationProfilerMarker", -1);
 					r_stylePropertyAnimationProfilerMarker.SetBelong(null);
 				}
 				return r_stylePropertyAnimationProfilerMarker;
@@ -275,7 +275,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_UnregisterAnimation_IValueAnimationUpdate == null)
 				{
-					r_UnregisterAnimation_IValueAnimationUpdate = new(this, "UnregisterAnimation", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.Experimental.IValueAnimationUpdate"));
+					r_UnregisterAnimation_IValueAnimationUpdate = new(this, "UnregisterAnimation", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.Experimental.IValueAnimationUpdate"));
 					r_UnregisterAnimation_IValueAnimationUpdate.SetBelong(this.instance);
 				}
 				return r_UnregisterAnimation_IValueAnimationUpdate;
@@ -292,7 +292,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_UnregisterAnimations_List_d_IValueAnimationUpdate_p_ == null)
 				{
-					r_UnregisterAnimations_List_d_IValueAnimationUpdate_p_ = new(this, "UnregisterAnimations", 0, typeof(System.Collections.Generic.List<>).MakeGenericType( ReleactionUtils.GetType("UnityEngine.UIElements.Experimental.IValueAnimationUpdate")));
+					r_UnregisterAnimations_List_d_IValueAnimationUpdate_p_ = new(this, "UnregisterAnimations", 0, typeof(System.Collections.Generic.List<>).MakeGenericType( ReflectionUtils.GetType("UnityEngine.UIElements.Experimental.IValueAnimationUpdate")));
 					r_UnregisterAnimations_List_d_IValueAnimationUpdate_p_.SetBelong(this.instance);
 				}
 				return r_UnregisterAnimations_List_d_IValueAnimationUpdate_p_;
@@ -309,7 +309,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_RegisterAnimation_IValueAnimationUpdate == null)
 				{
-					r_RegisterAnimation_IValueAnimationUpdate = new(this, "RegisterAnimation", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.Experimental.IValueAnimationUpdate"));
+					r_RegisterAnimation_IValueAnimationUpdate = new(this, "RegisterAnimation", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.Experimental.IValueAnimationUpdate"));
 					r_RegisterAnimation_IValueAnimationUpdate.SetBelong(this.instance);
 				}
 				return r_RegisterAnimation_IValueAnimationUpdate;
@@ -326,7 +326,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_RegisterAnimations_List_d_IValueAnimationUpdate_p_ == null)
 				{
-					r_RegisterAnimations_List_d_IValueAnimationUpdate_p_ = new(this, "RegisterAnimations", 0, typeof(System.Collections.Generic.List<>).MakeGenericType( ReleactionUtils.GetType("UnityEngine.UIElements.Experimental.IValueAnimationUpdate")));
+					r_RegisterAnimations_List_d_IValueAnimationUpdate_p_ = new(this, "RegisterAnimations", 0, typeof(System.Collections.Generic.List<>).MakeGenericType( ReflectionUtils.GetType("UnityEngine.UIElements.Experimental.IValueAnimationUpdate")));
 					r_RegisterAnimations_List_d_IValueAnimationUpdate_p_.SetBelong(this.instance);
 				}
 				return r_RegisterAnimations_List_d_IValueAnimationUpdate_p_;
@@ -360,7 +360,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_OnVersionChanged_VisualElement_VersionChangeType == null)
 				{
-					r_OnVersionChanged_VisualElement_VersionChangeType = new(this, "OnVersionChanged", 0, typeof(UnityEngine.UIElements.VisualElement),  ReleactionUtils.GetType("UnityEngine.UIElements.VersionChangeType"));
+					r_OnVersionChanged_VisualElement_VersionChangeType = new(this, "OnVersionChanged", 0, typeof(UnityEngine.UIElements.VisualElement),  ReflectionUtils.GetType("UnityEngine.UIElements.VersionChangeType"));
 					r_OnVersionChanged_VisualElement_VersionChangeType.SetBelong(this.instance);
 				}
 				return r_OnVersionChanged_VisualElement_VersionChangeType;

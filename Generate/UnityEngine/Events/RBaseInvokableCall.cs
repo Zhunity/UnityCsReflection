@@ -37,7 +37,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.REvents
 			{
 				if(r_ThrowOnInvalidArg_GT_Object == null)
 				{
-					r_ThrowOnInvalidArg_GT_Object = new( ReleactionUtils.GetType("UnityEngine.Events.BaseInvokableCall"), "ThrowOnInvalidArg", 1, typeof(System.Object));
+					r_ThrowOnInvalidArg_GT_Object = new( ReflectionUtils.GetType("UnityEngine.Events.BaseInvokableCall"), "ThrowOnInvalidArg", 1, typeof(System.Object));
 					r_ThrowOnInvalidArg_GT_Object.SetBelong(null);
 				}
 				return r_ThrowOnInvalidArg_GT_Object;
@@ -54,7 +54,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.REvents
 			{
 				if(r_AllowInvoke_Delegate == null)
 				{
-					r_AllowInvoke_Delegate = new( ReleactionUtils.GetType("UnityEngine.Events.BaseInvokableCall"), "AllowInvoke", 0, typeof(System.Delegate));
+					r_AllowInvoke_Delegate = new( ReflectionUtils.GetType("UnityEngine.Events.BaseInvokableCall"), "AllowInvoke", 0, typeof(System.Delegate));
 					r_AllowInvoke_Delegate.SetBelong(null);
 				}
 				return r_AllowInvoke_Delegate;

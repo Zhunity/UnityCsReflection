@@ -2383,7 +2383,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 			{
 				if(r_SetPropertyLock_Serialized_MaterialSerializedProperty_Boolean == null)
 				{
-					r_SetPropertyLock_Serialized_MaterialSerializedProperty_Boolean = new(this, "SetPropertyLock_Serialized", 0,  ReleactionUtils.GetType("UnityEngine.MaterialSerializedProperty"), typeof(System.Boolean));
+					r_SetPropertyLock_Serialized_MaterialSerializedProperty_Boolean = new(this, "SetPropertyLock_Serialized", 0,  ReflectionUtils.GetType("UnityEngine.MaterialSerializedProperty"), typeof(System.Boolean));
 					r_SetPropertyLock_Serialized_MaterialSerializedProperty_Boolean.SetBelong(this.instance);
 				}
 				return r_SetPropertyLock_Serialized_MaterialSerializedProperty_Boolean;
@@ -2400,7 +2400,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 			{
 				if(r_ApplyPropertyOverride_Serialized_Material_MaterialSerializedProperty_Boolean == null)
 				{
-					r_ApplyPropertyOverride_Serialized_Material_MaterialSerializedProperty_Boolean = new(this, "ApplyPropertyOverride_Serialized", 0, typeof(UnityEngine.Material),  ReleactionUtils.GetType("UnityEngine.MaterialSerializedProperty"), typeof(System.Boolean));
+					r_ApplyPropertyOverride_Serialized_Material_MaterialSerializedProperty_Boolean = new(this, "ApplyPropertyOverride_Serialized", 0, typeof(UnityEngine.Material),  ReflectionUtils.GetType("UnityEngine.MaterialSerializedProperty"), typeof(System.Boolean));
 					r_ApplyPropertyOverride_Serialized_Material_MaterialSerializedProperty_Boolean.SetBelong(this.instance);
 				}
 				return r_ApplyPropertyOverride_Serialized_Material_MaterialSerializedProperty_Boolean;
@@ -2417,7 +2417,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 			{
 				if(r_RevertPropertyOverride_Serialized_MaterialSerializedProperty == null)
 				{
-					r_RevertPropertyOverride_Serialized_MaterialSerializedProperty = new(this, "RevertPropertyOverride_Serialized", 0,  ReleactionUtils.GetType("UnityEngine.MaterialSerializedProperty"));
+					r_RevertPropertyOverride_Serialized_MaterialSerializedProperty = new(this, "RevertPropertyOverride_Serialized", 0,  ReflectionUtils.GetType("UnityEngine.MaterialSerializedProperty"));
 					r_RevertPropertyOverride_Serialized_MaterialSerializedProperty.SetBelong(this.instance);
 				}
 				return r_RevertPropertyOverride_Serialized_MaterialSerializedProperty;
@@ -2434,7 +2434,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 			{
 				if(r_GetPropertyState_Serialized_MaterialSerializedProperty_Out_Boolean_Out_Boolean_Out_Boolean == null)
 				{
-					r_GetPropertyState_Serialized_MaterialSerializedProperty_Out_Boolean_Out_Boolean_Out_Boolean = new(this, "GetPropertyState_Serialized", 0,  ReleactionUtils.GetType("UnityEngine.MaterialSerializedProperty"), typeof(System.Boolean).MakeByRefType(), typeof(System.Boolean).MakeByRefType(), typeof(System.Boolean).MakeByRefType());
+					r_GetPropertyState_Serialized_MaterialSerializedProperty_Out_Boolean_Out_Boolean_Out_Boolean = new(this, "GetPropertyState_Serialized", 0,  ReflectionUtils.GetType("UnityEngine.MaterialSerializedProperty"), typeof(System.Boolean).MakeByRefType(), typeof(System.Boolean).MakeByRefType(), typeof(System.Boolean).MakeByRefType());
 					r_GetPropertyState_Serialized_MaterialSerializedProperty_Out_Boolean_Out_Boolean_Out_Boolean.SetBelong(this.instance);
 				}
 				return r_GetPropertyState_Serialized_MaterialSerializedProperty_Out_Boolean_Out_Boolean_Out_Boolean;
@@ -2451,7 +2451,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 			{
 				if(r_SetPropertyLock_MaterialSerializedProperty_Boolean == null)
 				{
-					r_SetPropertyLock_MaterialSerializedProperty_Boolean = new(this, "SetPropertyLock", 0,  ReleactionUtils.GetType("UnityEngine.MaterialSerializedProperty"), typeof(System.Boolean));
+					r_SetPropertyLock_MaterialSerializedProperty_Boolean = new(this, "SetPropertyLock", 0,  ReflectionUtils.GetType("UnityEngine.MaterialSerializedProperty"), typeof(System.Boolean));
 					r_SetPropertyLock_MaterialSerializedProperty_Boolean.SetBelong(this.instance);
 				}
 				return r_SetPropertyLock_MaterialSerializedProperty_Boolean;
@@ -2468,7 +2468,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 			{
 				if(r_ApplyPropertyOverride_Material_MaterialSerializedProperty_Boolean == null)
 				{
-					r_ApplyPropertyOverride_Material_MaterialSerializedProperty_Boolean = new(this, "ApplyPropertyOverride", 0, typeof(UnityEngine.Material),  ReleactionUtils.GetType("UnityEngine.MaterialSerializedProperty"), typeof(System.Boolean));
+					r_ApplyPropertyOverride_Material_MaterialSerializedProperty_Boolean = new(this, "ApplyPropertyOverride", 0, typeof(UnityEngine.Material),  ReflectionUtils.GetType("UnityEngine.MaterialSerializedProperty"), typeof(System.Boolean));
 					r_ApplyPropertyOverride_Material_MaterialSerializedProperty_Boolean.SetBelong(this.instance);
 				}
 				return r_ApplyPropertyOverride_Material_MaterialSerializedProperty_Boolean;
@@ -2485,7 +2485,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 			{
 				if(r_RevertPropertyOverride_MaterialSerializedProperty == null)
 				{
-					r_RevertPropertyOverride_MaterialSerializedProperty = new(this, "RevertPropertyOverride", 0,  ReleactionUtils.GetType("UnityEngine.MaterialSerializedProperty"));
+					r_RevertPropertyOverride_MaterialSerializedProperty = new(this, "RevertPropertyOverride", 0,  ReflectionUtils.GetType("UnityEngine.MaterialSerializedProperty"));
 					r_RevertPropertyOverride_MaterialSerializedProperty.SetBelong(this.instance);
 				}
 				return r_RevertPropertyOverride_MaterialSerializedProperty;
@@ -2502,7 +2502,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 			{
 				if(r_GetPropertyState_MaterialSerializedProperty_Out_Boolean_Out_Boolean_Out_Boolean == null)
 				{
-					r_GetPropertyState_MaterialSerializedProperty_Out_Boolean_Out_Boolean_Out_Boolean = new(this, "GetPropertyState", 0,  ReleactionUtils.GetType("UnityEngine.MaterialSerializedProperty"), typeof(System.Boolean).MakeByRefType(), typeof(System.Boolean).MakeByRefType(), typeof(System.Boolean).MakeByRefType());
+					r_GetPropertyState_MaterialSerializedProperty_Out_Boolean_Out_Boolean_Out_Boolean = new(this, "GetPropertyState", 0,  ReflectionUtils.GetType("UnityEngine.MaterialSerializedProperty"), typeof(System.Boolean).MakeByRefType(), typeof(System.Boolean).MakeByRefType(), typeof(System.Boolean).MakeByRefType());
 					r_GetPropertyState_MaterialSerializedProperty_Out_Boolean_Out_Boolean_Out_Boolean.SetBelong(this.instance);
 				}
 				return r_GetPropertyState_MaterialSerializedProperty_Out_Boolean_Out_Boolean_Out_Boolean;

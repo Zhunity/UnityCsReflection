@@ -20,7 +20,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 			{
 				if(r_s_failFastOnUnobservedException == null)
 				{
-					r_s_failFastOnUnobservedException = new( ReleactionUtils.GetType("System.Threading.Tasks.TaskExceptionHolder"), "s_failFastOnUnobservedException");
+					r_s_failFastOnUnobservedException = new( ReflectionUtils.GetType("System.Threading.Tasks.TaskExceptionHolder"), "s_failFastOnUnobservedException");
 					r_s_failFastOnUnobservedException.SetBelong(null);
 				}
 				return r_s_failFastOnUnobservedException;
@@ -122,7 +122,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 			{
 				if(r_ShouldFailFastOnUnobservedException == null)
 				{
-					r_ShouldFailFastOnUnobservedException = new( ReleactionUtils.GetType("System.Threading.Tasks.TaskExceptionHolder"), "ShouldFailFastOnUnobservedException", 0);
+					r_ShouldFailFastOnUnobservedException = new( ReflectionUtils.GetType("System.Threading.Tasks.TaskExceptionHolder"), "ShouldFailFastOnUnobservedException", 0);
 					r_ShouldFailFastOnUnobservedException.SetBelong(null);
 				}
 				return r_ShouldFailFastOnUnobservedException;

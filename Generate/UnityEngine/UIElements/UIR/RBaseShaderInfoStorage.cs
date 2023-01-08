@@ -20,7 +20,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_s_TextureCounter == null)
 				{
-					r_s_TextureCounter = new( ReleactionUtils.GetType("UnityEngine.UIElements.UIR.BaseShaderInfoStorage"), "s_TextureCounter");
+					r_s_TextureCounter = new( ReflectionUtils.GetType("UnityEngine.UIElements.UIR.BaseShaderInfoStorage"), "s_TextureCounter");
 					r_s_TextureCounter.SetBelong(null);
 				}
 				return r_s_TextureCounter;
@@ -37,7 +37,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_s_MarkerCopyTexture == null)
 				{
-					r_s_MarkerCopyTexture = new( ReleactionUtils.GetType("UnityEngine.UIElements.UIR.BaseShaderInfoStorage"), "s_MarkerCopyTexture");
+					r_s_MarkerCopyTexture = new( ReflectionUtils.GetType("UnityEngine.UIElements.UIR.BaseShaderInfoStorage"), "s_MarkerCopyTexture");
 					r_s_MarkerCopyTexture.SetBelong(null);
 				}
 				return r_s_MarkerCopyTexture;
@@ -54,7 +54,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_s_MarkerGetTextureData == null)
 				{
-					r_s_MarkerGetTextureData = new( ReleactionUtils.GetType("UnityEngine.UIElements.UIR.BaseShaderInfoStorage"), "s_MarkerGetTextureData");
+					r_s_MarkerGetTextureData = new( ReflectionUtils.GetType("UnityEngine.UIElements.UIR.BaseShaderInfoStorage"), "s_MarkerGetTextureData");
 					r_s_MarkerGetTextureData.SetBelong(null);
 				}
 				return r_s_MarkerGetTextureData;
@@ -71,7 +71,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_s_MarkerUpdateTexture == null)
 				{
-					r_s_MarkerUpdateTexture = new( ReleactionUtils.GetType("UnityEngine.UIElements.UIR.BaseShaderInfoStorage"), "s_MarkerUpdateTexture");
+					r_s_MarkerUpdateTexture = new( ReflectionUtils.GetType("UnityEngine.UIElements.UIR.BaseShaderInfoStorage"), "s_MarkerUpdateTexture");
 					r_s_MarkerUpdateTexture.SetBelong(null);
 				}
 				return r_s_MarkerUpdateTexture;

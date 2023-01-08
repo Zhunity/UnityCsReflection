@@ -683,7 +683,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_Start_Ref_StackCrawlMark == null)
 				{
-					r_Start_Ref_StackCrawlMark = new(this, "Start", 0,  ReleactionUtils.GetType("System.Threading.StackCrawlMark").MakeByRefType());
+					r_Start_Ref_StackCrawlMark = new(this, "Start", 0,  ReflectionUtils.GetType("System.Threading.StackCrawlMark").MakeByRefType());
 					r_Start_Ref_StackCrawlMark.SetBelong(this.instance);
 				}
 				return r_Start_Ref_StackCrawlMark;
@@ -751,7 +751,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_SetExecutionContext_Reader_Boolean == null)
 				{
-					r_SetExecutionContext_Reader_Boolean = new(this, "SetExecutionContext", 0,  ReleactionUtils.GetType("System.Threading.ExecutionContext+Reader"), typeof(System.Boolean));
+					r_SetExecutionContext_Reader_Boolean = new(this, "SetExecutionContext", 0,  ReflectionUtils.GetType("System.Threading.ExecutionContext+Reader"), typeof(System.Boolean));
 					r_SetExecutionContext_Reader_Boolean.SetBelong(this.instance);
 				}
 				return r_SetExecutionContext_Reader_Boolean;
@@ -1567,7 +1567,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_GetName_internal_InternalThread == null)
 				{
-					r_GetName_internal_InternalThread = new(typeof(System.Threading.Thread), "GetName_internal", 0,  ReleactionUtils.GetType("System.Threading.InternalThread"));
+					r_GetName_internal_InternalThread = new(typeof(System.Threading.Thread), "GetName_internal", 0,  ReflectionUtils.GetType("System.Threading.InternalThread"));
 					r_GetName_internal_InternalThread.SetBelong(null);
 				}
 				return r_GetName_internal_InternalThread;
@@ -1584,7 +1584,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_SetName_icall_InternalThread_CharPointer_Int32 == null)
 				{
-					r_SetName_icall_InternalThread_CharPointer_Int32 = new(typeof(System.Threading.Thread), "SetName_icall", 0,  ReleactionUtils.GetType("System.Threading.InternalThread"), typeof(System.Char).MakePointerType(), typeof(System.Int32));
+					r_SetName_icall_InternalThread_CharPointer_Int32 = new(typeof(System.Threading.Thread), "SetName_icall", 0,  ReflectionUtils.GetType("System.Threading.InternalThread"), typeof(System.Char).MakePointerType(), typeof(System.Int32));
 					r_SetName_icall_InternalThread_CharPointer_Int32.SetBelong(null);
 				}
 				return r_SetName_icall_InternalThread_CharPointer_Int32;
@@ -1601,7 +1601,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_SetName_internal_InternalThread_String == null)
 				{
-					r_SetName_internal_InternalThread_String = new(typeof(System.Threading.Thread), "SetName_internal", 0,  ReleactionUtils.GetType("System.Threading.InternalThread"), typeof(System.String));
+					r_SetName_internal_InternalThread_String = new(typeof(System.Threading.Thread), "SetName_internal", 0,  ReflectionUtils.GetType("System.Threading.InternalThread"), typeof(System.String));
 					r_SetName_internal_InternalThread_String.SetBelong(null);
 				}
 				return r_SetName_internal_InternalThread_String;
@@ -1618,7 +1618,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_Abort_internal_InternalThread_Object == null)
 				{
-					r_Abort_internal_InternalThread_Object = new(typeof(System.Threading.Thread), "Abort_internal", 0,  ReleactionUtils.GetType("System.Threading.InternalThread"), typeof(System.Object));
+					r_Abort_internal_InternalThread_Object = new(typeof(System.Threading.Thread), "Abort_internal", 0,  ReflectionUtils.GetType("System.Threading.InternalThread"), typeof(System.Object));
 					r_Abort_internal_InternalThread_Object.SetBelong(null);
 				}
 				return r_Abort_internal_InternalThread_Object;
@@ -1737,7 +1737,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_StartInternal_Object_Ref_StackCrawlMark == null)
 				{
-					r_StartInternal_Object_Ref_StackCrawlMark = new(this, "StartInternal", 0, typeof(System.Object),  ReleactionUtils.GetType("System.Threading.StackCrawlMark").MakeByRefType());
+					r_StartInternal_Object_Ref_StackCrawlMark = new(this, "StartInternal", 0, typeof(System.Object),  ReflectionUtils.GetType("System.Threading.StackCrawlMark").MakeByRefType());
 					r_StartInternal_Object_Ref_StackCrawlMark.SetBelong(this.instance);
 				}
 				return r_StartInternal_Object_Ref_StackCrawlMark;
@@ -1754,7 +1754,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_SetState_InternalThread_ThreadState == null)
 				{
-					r_SetState_InternalThread_ThreadState = new(typeof(System.Threading.Thread), "SetState", 0,  ReleactionUtils.GetType("System.Threading.InternalThread"), typeof(System.Threading.ThreadState));
+					r_SetState_InternalThread_ThreadState = new(typeof(System.Threading.Thread), "SetState", 0,  ReflectionUtils.GetType("System.Threading.InternalThread"), typeof(System.Threading.ThreadState));
 					r_SetState_InternalThread_ThreadState.SetBelong(null);
 				}
 				return r_SetState_InternalThread_ThreadState;
@@ -1771,7 +1771,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_ClrState_InternalThread_ThreadState == null)
 				{
-					r_ClrState_InternalThread_ThreadState = new(typeof(System.Threading.Thread), "ClrState", 0,  ReleactionUtils.GetType("System.Threading.InternalThread"), typeof(System.Threading.ThreadState));
+					r_ClrState_InternalThread_ThreadState = new(typeof(System.Threading.Thread), "ClrState", 0,  ReflectionUtils.GetType("System.Threading.InternalThread"), typeof(System.Threading.ThreadState));
 					r_ClrState_InternalThread_ThreadState.SetBelong(null);
 				}
 				return r_ClrState_InternalThread_ThreadState;
@@ -1788,7 +1788,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_GetState_InternalThread == null)
 				{
-					r_GetState_InternalThread = new(typeof(System.Threading.Thread), "GetState", 0,  ReleactionUtils.GetType("System.Threading.InternalThread"));
+					r_GetState_InternalThread = new(typeof(System.Threading.Thread), "GetState", 0,  ReflectionUtils.GetType("System.Threading.InternalThread"));
 					r_GetState_InternalThread.SetBelong(null);
 				}
 				return r_GetState_InternalThread;

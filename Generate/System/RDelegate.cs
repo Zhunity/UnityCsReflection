@@ -887,7 +887,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 			{
 				if(r_CreateDelegateNoSecurityCheck_RuntimeType_Object_MethodInfo == null)
 				{
-					r_CreateDelegateNoSecurityCheck_RuntimeType_Object_MethodInfo = new(typeof(System.Delegate), "CreateDelegateNoSecurityCheck", 0,  ReleactionUtils.GetType("System.RuntimeType"), typeof(System.Object), typeof(System.Reflection.MethodInfo));
+					r_CreateDelegateNoSecurityCheck_RuntimeType_Object_MethodInfo = new(typeof(System.Delegate), "CreateDelegateNoSecurityCheck", 0,  ReflectionUtils.GetType("System.RuntimeType"), typeof(System.Object), typeof(System.Reflection.MethodInfo));
 					r_CreateDelegateNoSecurityCheck_RuntimeType_Object_MethodInfo.SetBelong(null);
 				}
 				return r_CreateDelegateNoSecurityCheck_RuntimeType_Object_MethodInfo;

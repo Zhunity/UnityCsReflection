@@ -37,7 +37,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_GetStyleLength_StylePropertyId == null)
 				{
-					r_GetStyleLength_StylePropertyId = new(this, "GetStyleLength", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"));
+					r_GetStyleLength_StylePropertyId = new(this, "GetStyleLength", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"));
 					r_GetStyleLength_StylePropertyId.SetBelong(this.instance);
 				}
 				return r_GetStyleLength_StylePropertyId;
@@ -54,7 +54,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_GetStyleFloat_StylePropertyId == null)
 				{
-					r_GetStyleFloat_StylePropertyId = new(this, "GetStyleFloat", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"));
+					r_GetStyleFloat_StylePropertyId = new(this, "GetStyleFloat", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"));
 					r_GetStyleFloat_StylePropertyId.SetBelong(this.instance);
 				}
 				return r_GetStyleFloat_StylePropertyId;
@@ -71,7 +71,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_GetStyleInt_StylePropertyId == null)
 				{
-					r_GetStyleInt_StylePropertyId = new(this, "GetStyleInt", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"));
+					r_GetStyleInt_StylePropertyId = new(this, "GetStyleInt", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"));
 					r_GetStyleInt_StylePropertyId.SetBelong(this.instance);
 				}
 				return r_GetStyleInt_StylePropertyId;
@@ -88,7 +88,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_GetStyleColor_StylePropertyId == null)
 				{
-					r_GetStyleColor_StylePropertyId = new(this, "GetStyleColor", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"));
+					r_GetStyleColor_StylePropertyId = new(this, "GetStyleColor", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"));
 					r_GetStyleColor_StylePropertyId.SetBelong(this.instance);
 				}
 				return r_GetStyleColor_StylePropertyId;
@@ -105,7 +105,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_GetStyleBackground_StylePropertyId == null)
 				{
-					r_GetStyleBackground_StylePropertyId = new(this, "GetStyleBackground", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"));
+					r_GetStyleBackground_StylePropertyId = new(this, "GetStyleBackground", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"));
 					r_GetStyleBackground_StylePropertyId.SetBelong(this.instance);
 				}
 				return r_GetStyleBackground_StylePropertyId;
@@ -122,7 +122,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_GetStyleBackgroundPosition_StylePropertyId == null)
 				{
-					r_GetStyleBackgroundPosition_StylePropertyId = new(this, "GetStyleBackgroundPosition", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"));
+					r_GetStyleBackgroundPosition_StylePropertyId = new(this, "GetStyleBackgroundPosition", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"));
 					r_GetStyleBackgroundPosition_StylePropertyId.SetBelong(this.instance);
 				}
 				return r_GetStyleBackgroundPosition_StylePropertyId;
@@ -139,7 +139,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_GetStyleBackgroundRepeat_StylePropertyId == null)
 				{
-					r_GetStyleBackgroundRepeat_StylePropertyId = new(this, "GetStyleBackgroundRepeat", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"));
+					r_GetStyleBackgroundRepeat_StylePropertyId = new(this, "GetStyleBackgroundRepeat", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"));
 					r_GetStyleBackgroundRepeat_StylePropertyId.SetBelong(this.instance);
 				}
 				return r_GetStyleBackgroundRepeat_StylePropertyId;
@@ -156,7 +156,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_GetStyleFont_StylePropertyId == null)
 				{
-					r_GetStyleFont_StylePropertyId = new(this, "GetStyleFont", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"));
+					r_GetStyleFont_StylePropertyId = new(this, "GetStyleFont", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"));
 					r_GetStyleFont_StylePropertyId.SetBelong(this.instance);
 				}
 				return r_GetStyleFont_StylePropertyId;
@@ -173,7 +173,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_GetStyleFontDefinition_StylePropertyId == null)
 				{
-					r_GetStyleFontDefinition_StylePropertyId = new(this, "GetStyleFontDefinition", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"));
+					r_GetStyleFontDefinition_StylePropertyId = new(this, "GetStyleFontDefinition", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"));
 					r_GetStyleFontDefinition_StylePropertyId.SetBelong(this.instance);
 				}
 				return r_GetStyleFontDefinition_StylePropertyId;
@@ -190,7 +190,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_TryGetStyleValue_StylePropertyId_Ref_StyleValue == null)
 				{
-					r_TryGetStyleValue_StylePropertyId_Ref_StyleValue = new(this, "TryGetStyleValue", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"),  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StyleValue").MakeByRefType());
+					r_TryGetStyleValue_StylePropertyId_Ref_StyleValue = new(this, "TryGetStyleValue", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"),  ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.StyleValue").MakeByRefType());
 					r_TryGetStyleValue_StylePropertyId_Ref_StyleValue.SetBelong(this.instance);
 				}
 				return r_TryGetStyleValue_StylePropertyId_Ref_StyleValue;
@@ -207,7 +207,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_SetStyleValue_StyleValue == null)
 				{
-					r_SetStyleValue_StyleValue = new(this, "SetStyleValue", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StyleValue"));
+					r_SetStyleValue_StyleValue = new(this, "SetStyleValue", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.StyleValue"));
 					r_SetStyleValue_StyleValue.SetBelong(this.instance);
 				}
 				return r_SetStyleValue_StyleValue;

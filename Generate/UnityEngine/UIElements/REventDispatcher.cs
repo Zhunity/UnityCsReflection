@@ -326,7 +326,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_CreateForRuntime_IList_d_IEventDispatchingStrategy_p_ == null)
 				{
-					r_CreateForRuntime_IList_d_IEventDispatchingStrategy_p_ = new(typeof(UnityEngine.UIElements.EventDispatcher), "CreateForRuntime", 0, typeof(System.Collections.Generic.IList<>).MakeGenericType( ReleactionUtils.GetType("UnityEngine.UIElements.IEventDispatchingStrategy")));
+					r_CreateForRuntime_IList_d_IEventDispatchingStrategy_p_ = new(typeof(UnityEngine.UIElements.EventDispatcher), "CreateForRuntime", 0, typeof(System.Collections.Generic.IList<>).MakeGenericType( ReflectionUtils.GetType("UnityEngine.UIElements.IEventDispatchingStrategy")));
 					r_CreateForRuntime_IList_d_IEventDispatchingStrategy_p_.SetBelong(null);
 				}
 				return r_CreateForRuntime_IList_d_IEventDispatchingStrategy_p_;
@@ -343,7 +343,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_Dispatch_EventBase_IPanel_DispatchMode == null)
 				{
-					r_Dispatch_EventBase_IPanel_DispatchMode = new(this, "Dispatch", 0, typeof(UnityEngine.UIElements.EventBase), typeof(UnityEngine.UIElements.IPanel),  ReleactionUtils.GetType("UnityEngine.UIElements.DispatchMode"));
+					r_Dispatch_EventBase_IPanel_DispatchMode = new(this, "Dispatch", 0, typeof(UnityEngine.UIElements.EventBase), typeof(UnityEngine.UIElements.IPanel),  ReflectionUtils.GetType("UnityEngine.UIElements.DispatchMode"));
 					r_Dispatch_EventBase_IPanel_DispatchMode.SetBelong(this.instance);
 				}
 				return r_Dispatch_EventBase_IPanel_DispatchMode;

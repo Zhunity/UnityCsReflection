@@ -20,7 +20,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 			{
 				if(r_kPlayModeDarkenKey == null)
 				{
-					r_kPlayModeDarkenKey = new( ReleactionUtils.GetType("UnityEditor.HostView"), "kPlayModeDarkenKey");
+					r_kPlayModeDarkenKey = new( ReflectionUtils.GetType("UnityEditor.HostView"), "kPlayModeDarkenKey");
 					r_kPlayModeDarkenKey.SetBelong(null);
 				}
 				return r_kPlayModeDarkenKey;
@@ -37,7 +37,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 			{
 				if(r_kPlayModeDarken == null)
 				{
-					r_kPlayModeDarken = new( ReleactionUtils.GetType("UnityEditor.HostView"), "kPlayModeDarken");
+					r_kPlayModeDarken = new( ReflectionUtils.GetType("UnityEditor.HostView"), "kPlayModeDarken");
 					r_kPlayModeDarken.SetBelong(null);
 				}
 				return r_kPlayModeDarken;
@@ -54,7 +54,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 			{
 				if(r_actualViewChanged == null)
 				{
-					r_actualViewChanged = new( ReleactionUtils.GetType("UnityEditor.HostView"), "actualViewChanged");
+					r_actualViewChanged = new( ReflectionUtils.GetType("UnityEditor.HostView"), "actualViewChanged");
 					r_actualViewChanged.SetBelong(null);
 				}
 				return r_actualViewChanged;
@@ -343,7 +343,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 			{
 				if(r_k_DockedMinSize == null)
 				{
-					r_k_DockedMinSize = new( ReleactionUtils.GetType("UnityEditor.HostView"), "k_DockedMinSize");
+					r_k_DockedMinSize = new( ReflectionUtils.GetType("UnityEditor.HostView"), "k_DockedMinSize");
 					r_k_DockedMinSize.SetBelong(null);
 				}
 				return r_k_DockedMinSize;
@@ -360,7 +360,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 			{
 				if(r_k_DockedMaxSize == null)
 				{
-					r_k_DockedMaxSize = new( ReleactionUtils.GetType("UnityEditor.HostView"), "k_DockedMaxSize");
+					r_k_DockedMaxSize = new( ReflectionUtils.GetType("UnityEditor.HostView"), "k_DockedMaxSize");
 					r_k_DockedMaxSize.SetBelong(null);
 				}
 				return r_k_DockedMaxSize;
@@ -394,7 +394,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 			{
 				if(r_k_PaneTypes == null)
 				{
-					r_k_PaneTypes = new( ReleactionUtils.GetType("UnityEditor.HostView"), "k_PaneTypes");
+					r_k_PaneTypes = new( ReflectionUtils.GetType("UnityEditor.HostView"), "k_PaneTypes");
 					r_k_PaneTypes.SetBelong(null);
 				}
 				return r_k_PaneTypes;
@@ -445,7 +445,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 			{
 				if(r_s_windowActions == null)
 				{
-					r_s_windowActions = new( ReleactionUtils.GetType("UnityEditor.HostView"), "s_windowActions");
+					r_s_windowActions = new( ReflectionUtils.GetType("UnityEditor.HostView"), "s_windowActions");
 					r_s_windowActions.SetBelong(null);
 				}
 				return r_s_windowActions;
@@ -462,7 +462,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 			{
 				if(r_genericMenuLeftOffset == null)
 				{
-					r_genericMenuLeftOffset = new( ReleactionUtils.GetType("UnityEditor.HostView"), "genericMenuLeftOffset");
+					r_genericMenuLeftOffset = new( ReflectionUtils.GetType("UnityEditor.HostView"), "genericMenuLeftOffset");
 					r_genericMenuLeftOffset.SetBelong(null);
 				}
 				return r_genericMenuLeftOffset;
@@ -479,7 +479,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 			{
 				if(r_genericMenuFloatingLeftOffset == null)
 				{
-					r_genericMenuFloatingLeftOffset = new( ReleactionUtils.GetType("UnityEditor.HostView"), "genericMenuFloatingLeftOffset");
+					r_genericMenuFloatingLeftOffset = new( ReflectionUtils.GetType("UnityEditor.HostView"), "genericMenuFloatingLeftOffset");
 					r_genericMenuFloatingLeftOffset.SetBelong(null);
 				}
 				return r_genericMenuFloatingLeftOffset;
@@ -717,7 +717,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 			{
 				if(r_windowActions == null)
 				{
-					r_windowActions = new( ReleactionUtils.GetType("UnityEditor.HostView"), "windowActions", -1);
+					r_windowActions = new( ReflectionUtils.GetType("UnityEditor.HostView"), "windowActions", -1);
 					r_windowActions.SetBelong(null);
 				}
 				return r_windowActions;
@@ -1278,7 +1278,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 			{
 				if(r_SetWindow_ContainerWindow == null)
 				{
-					r_SetWindow_ContainerWindow = new(this, "SetWindow", 0,  ReleactionUtils.GetType("UnityEditor.ContainerWindow"));
+					r_SetWindow_ContainerWindow = new(this, "SetWindow", 0,  ReflectionUtils.GetType("UnityEditor.ContainerWindow"));
 					r_SetWindow_ContainerWindow.SetBelong(this.instance);
 				}
 				return r_SetWindow_ContainerWindow;
@@ -1329,7 +1329,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 			{
 				if(r_OnEditorModeChanged_ModeChangedArgs == null)
 				{
-					r_OnEditorModeChanged_ModeChangedArgs = new(this, "OnEditorModeChanged", 0,  ReleactionUtils.GetType("UnityEditor.ModeService+ModeChangedArgs"));
+					r_OnEditorModeChanged_ModeChangedArgs = new(this, "OnEditorModeChanged", 0,  ReflectionUtils.GetType("UnityEditor.ModeService+ModeChangedArgs"));
 					r_OnEditorModeChanged_ModeChangedArgs.SetBelong(this.instance);
 				}
 				return r_OnEditorModeChanged_ModeChangedArgs;
@@ -1448,7 +1448,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 			{
 				if(r_GetCurrentModePaneTypes_String == null)
 				{
-					r_GetCurrentModePaneTypes_String = new( ReleactionUtils.GetType("UnityEditor.HostView"), "GetCurrentModePaneTypes", 0, typeof(System.String));
+					r_GetCurrentModePaneTypes_String = new( ReflectionUtils.GetType("UnityEditor.HostView"), "GetCurrentModePaneTypes", 0, typeof(System.String));
 					r_GetCurrentModePaneTypes_String.SetBelong(null);
 				}
 				return r_GetCurrentModePaneTypes_String;
@@ -1465,7 +1465,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 			{
 				if(r_GetDefaultPaneTypes == null)
 				{
-					r_GetDefaultPaneTypes = new( ReleactionUtils.GetType("UnityEditor.HostView"), "GetDefaultPaneTypes", 0);
+					r_GetDefaultPaneTypes = new( ReflectionUtils.GetType("UnityEditor.HostView"), "GetDefaultPaneTypes", 0);
 					r_GetDefaultPaneTypes.SetBelong(null);
 				}
 				return r_GetDefaultPaneTypes;
@@ -1805,7 +1805,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 			{
 				if(r_GetGenericMenuLeftOffset_Boolean == null)
 				{
-					r_GetGenericMenuLeftOffset_Boolean = new( ReleactionUtils.GetType("UnityEditor.HostView"), "GetGenericMenuLeftOffset", 0, typeof(System.Boolean));
+					r_GetGenericMenuLeftOffset_Boolean = new( ReflectionUtils.GetType("UnityEditor.HostView"), "GetGenericMenuLeftOffset", 0, typeof(System.Boolean));
 					r_GetGenericMenuLeftOffset_Boolean.SetBelong(null);
 				}
 				return r_GetGenericMenuLeftOffset_Boolean;
@@ -1856,7 +1856,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 			{
 				if(r_PopulateDataModeDropdown_DataModeController_GenericMenu == null)
 				{
-					r_PopulateDataModeDropdown_DataModeController_GenericMenu = new(this, "PopulateDataModeDropdown", 0,  ReleactionUtils.GetType("UnityEditor.DataModeController"), typeof(UnityEditor.GenericMenu));
+					r_PopulateDataModeDropdown_DataModeController_GenericMenu = new(this, "PopulateDataModeDropdown", 0,  ReflectionUtils.GetType("UnityEditor.DataModeController"), typeof(UnityEditor.GenericMenu));
 					r_PopulateDataModeDropdown_DataModeController_GenericMenu.SetBelong(this.instance);
 				}
 				return r_PopulateDataModeDropdown_DataModeController_GenericMenu;
@@ -1873,7 +1873,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 			{
 				if(r_FetchWindowActionFromAttribute == null)
 				{
-					r_FetchWindowActionFromAttribute = new( ReleactionUtils.GetType("UnityEditor.HostView"), "FetchWindowActionFromAttribute", 0);
+					r_FetchWindowActionFromAttribute = new( ReflectionUtils.GetType("UnityEditor.HostView"), "FetchWindowActionFromAttribute", 0);
 					r_FetchWindowActionFromAttribute.SetBelong(null);
 				}
 				return r_FetchWindowActionFromAttribute;
@@ -1890,7 +1890,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 			{
 				if(r_FlushView_EditorWindow == null)
 				{
-					r_FlushView_EditorWindow = new( ReleactionUtils.GetType("UnityEditor.HostView"), "FlushView", 0, typeof(UnityEditor.EditorWindow));
+					r_FlushView_EditorWindow = new( ReflectionUtils.GetType("UnityEditor.HostView"), "FlushView", 0, typeof(UnityEditor.EditorWindow));
 					r_FlushView_EditorWindow.SetBelong(null);
 				}
 				return r_FlushView_EditorWindow;
@@ -1924,7 +1924,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 			{
 				if(r_AddWindowActionMenu_GenericMenu_EditorWindow == null)
 				{
-					r_AddWindowActionMenu_GenericMenu_EditorWindow = new( ReleactionUtils.GetType("UnityEditor.HostView"), "AddWindowActionMenu", 0, typeof(UnityEditor.GenericMenu), typeof(UnityEditor.EditorWindow));
+					r_AddWindowActionMenu_GenericMenu_EditorWindow = new( ReflectionUtils.GetType("UnityEditor.HostView"), "AddWindowActionMenu", 0, typeof(UnityEditor.GenericMenu), typeof(UnityEditor.EditorWindow));
 					r_AddWindowActionMenu_GenericMenu_EditorWindow.SetBelong(null);
 				}
 				return r_AddWindowActionMenu_GenericMenu_EditorWindow;
@@ -2672,7 +2672,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 			{
 				if(r_Initialize_ContainerWindow == null)
 				{
-					r_Initialize_ContainerWindow = new(this, "Initialize", 0,  ReleactionUtils.GetType("UnityEditor.ContainerWindow"));
+					r_Initialize_ContainerWindow = new(this, "Initialize", 0,  ReflectionUtils.GetType("UnityEditor.ContainerWindow"));
 					r_Initialize_ContainerWindow.SetBelong(this.instance);
 				}
 				return r_Initialize_ContainerWindow;
@@ -2740,7 +2740,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 			{
 				if(r_IndexOfChild_View == null)
 				{
-					r_IndexOfChild_View = new(this, "IndexOfChild", 0,  ReleactionUtils.GetType("UnityEditor.View"));
+					r_IndexOfChild_View = new(this, "IndexOfChild", 0,  ReflectionUtils.GetType("UnityEditor.View"));
 					r_IndexOfChild_View.SetBelong(this.instance);
 				}
 				return r_IndexOfChild_View;
@@ -2757,7 +2757,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 			{
 				if(r_AddChild_View == null)
 				{
-					r_AddChild_View = new(this, "AddChild", 0,  ReleactionUtils.GetType("UnityEditor.View"));
+					r_AddChild_View = new(this, "AddChild", 0,  ReflectionUtils.GetType("UnityEditor.View"));
 					r_AddChild_View.SetBelong(this.instance);
 				}
 				return r_AddChild_View;
@@ -2774,7 +2774,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 			{
 				if(r_AddChild_View_Int32 == null)
 				{
-					r_AddChild_View_Int32 = new(this, "AddChild", 0,  ReleactionUtils.GetType("UnityEditor.View"), typeof(System.Int32));
+					r_AddChild_View_Int32 = new(this, "AddChild", 0,  ReflectionUtils.GetType("UnityEditor.View"), typeof(System.Int32));
 					r_AddChild_View_Int32.SetBelong(this.instance);
 				}
 				return r_AddChild_View_Int32;
@@ -2791,7 +2791,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 			{
 				if(r_RemoveChild_View == null)
 				{
-					r_RemoveChild_View = new(this, "RemoveChild", 0,  ReleactionUtils.GetType("UnityEditor.View"));
+					r_RemoveChild_View = new(this, "RemoveChild", 0,  ReflectionUtils.GetType("UnityEditor.View"));
 					r_RemoveChild_View.SetBelong(this.instance);
 				}
 				return r_RemoveChild_View;
@@ -2825,7 +2825,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 			{
 				if(r_SetWindowRecurse_ContainerWindow == null)
 				{
-					r_SetWindowRecurse_ContainerWindow = new(this, "SetWindowRecurse", 0,  ReleactionUtils.GetType("UnityEditor.ContainerWindow"));
+					r_SetWindowRecurse_ContainerWindow = new(this, "SetWindowRecurse", 0,  ReflectionUtils.GetType("UnityEditor.ContainerWindow"));
 					r_SetWindowRecurse_ContainerWindow.SetBelong(this.instance);
 				}
 				return r_SetWindowRecurse_ContainerWindow;

@@ -105,7 +105,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 			{
 				if(r_WhiteSpaceChecks == null)
 				{
-					r_WhiteSpaceChecks = new( ReleactionUtils.GetType("System.__DTString"), "WhiteSpaceChecks");
+					r_WhiteSpaceChecks = new( ReflectionUtils.GetType("System.__DTString"), "WhiteSpaceChecks");
 					r_WhiteSpaceChecks.SetBelong(null);
 				}
 				return r_WhiteSpaceChecks;
@@ -207,7 +207,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 			{
 				if(r_GetRegularToken_Out_TokenType_Out_Int32_DateTimeFormatInfo == null)
 				{
-					r_GetRegularToken_Out_TokenType_Out_Int32_DateTimeFormatInfo = new(this, "GetRegularToken", 0,  ReleactionUtils.GetType("System.TokenType").MakeByRefType(), typeof(System.Int32).MakeByRefType(), typeof(System.Globalization.DateTimeFormatInfo));
+					r_GetRegularToken_Out_TokenType_Out_Int32_DateTimeFormatInfo = new(this, "GetRegularToken", 0,  ReflectionUtils.GetType("System.TokenType").MakeByRefType(), typeof(System.Int32).MakeByRefType(), typeof(System.Globalization.DateTimeFormatInfo));
 					r_GetRegularToken_Out_TokenType_Out_Int32_DateTimeFormatInfo.SetBelong(this.instance);
 				}
 				return r_GetRegularToken_Out_TokenType_Out_Int32_DateTimeFormatInfo;
@@ -496,7 +496,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 			{
 				if(r_ConsumeSubString_DTSubString == null)
 				{
-					r_ConsumeSubString_DTSubString = new(this, "ConsumeSubString", 0,  ReleactionUtils.GetType("System.DTSubString"));
+					r_ConsumeSubString_DTSubString = new(this, "ConsumeSubString", 0,  ReflectionUtils.GetType("System.DTSubString"));
 					r_ConsumeSubString_DTSubString.SetBelong(this.instance);
 				}
 				return r_ConsumeSubString_DTSubString;

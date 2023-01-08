@@ -768,7 +768,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
 			{
 				if(r_TryInsert_TKey_TValue_InsertionBehavior == null)
 				{
-					r_TryInsert_TKey_TValue_InsertionBehavior = new(this, "TryInsert", 0, Type.MakeGenericMethodParameter(0), Type.MakeGenericMethodParameter(1),  ReleactionUtils.GetType("System.Collections.Generic.InsertionBehavior"));
+					r_TryInsert_TKey_TValue_InsertionBehavior = new(this, "TryInsert", 0, Type.MakeGenericMethodParameter(0), Type.MakeGenericMethodParameter(1),  ReflectionUtils.GetType("System.Collections.Generic.InsertionBehavior"));
 					r_TryInsert_TKey_TValue_InsertionBehavior.SetBelong(this.instance);
 				}
 				return r_TryInsert_TKey_TValue_InsertionBehavior;

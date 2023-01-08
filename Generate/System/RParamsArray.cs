@@ -20,7 +20,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 			{
 				if(r_s_oneArgArray == null)
 				{
-					r_s_oneArgArray = new( ReleactionUtils.GetType("System.ParamsArray"), "s_oneArgArray");
+					r_s_oneArgArray = new( ReflectionUtils.GetType("System.ParamsArray"), "s_oneArgArray");
 					r_s_oneArgArray.SetBelong(null);
 				}
 				return r_s_oneArgArray;
@@ -37,7 +37,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 			{
 				if(r_s_twoArgArray == null)
 				{
-					r_s_twoArgArray = new( ReleactionUtils.GetType("System.ParamsArray"), "s_twoArgArray");
+					r_s_twoArgArray = new( ReflectionUtils.GetType("System.ParamsArray"), "s_twoArgArray");
 					r_s_twoArgArray.SetBelong(null);
 				}
 				return r_s_twoArgArray;
@@ -54,7 +54,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 			{
 				if(r_s_threeArgArray == null)
 				{
-					r_s_threeArgArray = new( ReleactionUtils.GetType("System.ParamsArray"), "s_threeArgArray");
+					r_s_threeArgArray = new( ReflectionUtils.GetType("System.ParamsArray"), "s_threeArgArray");
 					r_s_threeArgArray.SetBelong(null);
 				}
 				return r_s_threeArgArray;

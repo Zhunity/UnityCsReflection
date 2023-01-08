@@ -190,7 +190,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 			{
 				if(r_ConstructInstantiation_RuntimeMethodInfo_TypeNameFormatFlags == null)
 				{
-					r_ConstructInstantiation_RuntimeMethodInfo_TypeNameFormatFlags = new(typeof(System.RuntimeMethodHandle), "ConstructInstantiation", 0,  ReleactionUtils.GetType("System.Reflection.RuntimeMethodInfo"),  ReleactionUtils.GetType("System.TypeNameFormatFlags"));
+					r_ConstructInstantiation_RuntimeMethodInfo_TypeNameFormatFlags = new(typeof(System.RuntimeMethodHandle), "ConstructInstantiation", 0,  ReflectionUtils.GetType("System.Reflection.RuntimeMethodInfo"),  ReflectionUtils.GetType("System.TypeNameFormatFlags"));
 					r_ConstructInstantiation_RuntimeMethodInfo_TypeNameFormatFlags.SetBelong(null);
 				}
 				return r_ConstructInstantiation_RuntimeMethodInfo_TypeNameFormatFlags;

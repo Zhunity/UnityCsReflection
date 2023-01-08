@@ -173,7 +173,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
 			{
 				if(r_Create_IMessage == null)
 				{
-					r_Create_IMessage = new( ReleactionUtils.GetType("System.Runtime.Remoting.Messaging.CADMethodReturnMessage"), "Create", 0, typeof(System.Runtime.Remoting.Messaging.IMessage));
+					r_Create_IMessage = new( ReflectionUtils.GetType("System.Runtime.Remoting.Messaging.CADMethodReturnMessage"), "Create", 0, typeof(System.Runtime.Remoting.Messaging.IMessage));
 					r_Create_IMessage.SetBelong(null);
 				}
 				return r_Create_IMessage;

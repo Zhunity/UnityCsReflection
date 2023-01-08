@@ -20,7 +20,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_s_Pool == null)
 				{
-					r_s_Pool = new( ReleactionUtils.GetType("UnityEngine.UIElements.PropagationPaths"), "s_Pool");
+					r_s_Pool = new( ReflectionUtils.GetType("UnityEngine.UIElements.PropagationPaths"), "s_Pool");
 					r_s_Pool.SetBelong(null);
 				}
 				return r_s_Pool;
@@ -88,7 +88,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_k_DefaultPropagationDepth == null)
 				{
-					r_k_DefaultPropagationDepth = new( ReleactionUtils.GetType("UnityEngine.UIElements.PropagationPaths"), "k_DefaultPropagationDepth");
+					r_k_DefaultPropagationDepth = new( ReflectionUtils.GetType("UnityEngine.UIElements.PropagationPaths"), "k_DefaultPropagationDepth");
 					r_k_DefaultPropagationDepth.SetBelong(null);
 				}
 				return r_k_DefaultPropagationDepth;
@@ -105,7 +105,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_k_DefaultTargetCount == null)
 				{
-					r_k_DefaultTargetCount = new( ReleactionUtils.GetType("UnityEngine.UIElements.PropagationPaths"), "k_DefaultTargetCount");
+					r_k_DefaultTargetCount = new( ReflectionUtils.GetType("UnityEngine.UIElements.PropagationPaths"), "k_DefaultTargetCount");
 					r_k_DefaultTargetCount.SetBelong(null);
 				}
 				return r_k_DefaultTargetCount;
@@ -122,7 +122,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_Copy_PropagationPaths == null)
 				{
-					r_Copy_PropagationPaths = new( ReleactionUtils.GetType("UnityEngine.UIElements.PropagationPaths"), "Copy", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.PropagationPaths"));
+					r_Copy_PropagationPaths = new( ReflectionUtils.GetType("UnityEngine.UIElements.PropagationPaths"), "Copy", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.PropagationPaths"));
 					r_Copy_PropagationPaths.SetBelong(null);
 				}
 				return r_Copy_PropagationPaths;
@@ -139,7 +139,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_Build_VisualElement_EventBase == null)
 				{
-					r_Build_VisualElement_EventBase = new( ReleactionUtils.GetType("UnityEngine.UIElements.PropagationPaths"), "Build", 0, typeof(UnityEngine.UIElements.VisualElement), typeof(UnityEngine.UIElements.EventBase));
+					r_Build_VisualElement_EventBase = new( ReflectionUtils.GetType("UnityEngine.UIElements.PropagationPaths"), "Build", 0, typeof(UnityEngine.UIElements.VisualElement), typeof(UnityEngine.UIElements.EventBase));
 					r_Build_VisualElement_EventBase.SetBelong(null);
 				}
 				return r_Build_VisualElement_EventBase;

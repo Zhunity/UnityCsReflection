@@ -71,7 +71,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
 			{
 				if(r_Invoke_YogaNode_Single_Single == null)
 				{
-					r_Invoke_YogaNode_Single_Single = new(this, "Invoke", 0,  ReleactionUtils.GetType("UnityEngine.Yoga.YogaNode"), typeof(System.Single), typeof(System.Single));
+					r_Invoke_YogaNode_Single_Single = new(this, "Invoke", 0,  ReflectionUtils.GetType("UnityEngine.Yoga.YogaNode"), typeof(System.Single), typeof(System.Single));
 					r_Invoke_YogaNode_Single_Single.SetBelong(this.instance);
 				}
 				return r_Invoke_YogaNode_Single_Single;
@@ -88,7 +88,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
 			{
 				if(r_BeginInvoke_YogaNode_Single_Single_AsyncCallback_Object == null)
 				{
-					r_BeginInvoke_YogaNode_Single_Single_AsyncCallback_Object = new(this, "BeginInvoke", 0,  ReleactionUtils.GetType("UnityEngine.Yoga.YogaNode"), typeof(System.Single), typeof(System.Single), typeof(System.AsyncCallback), typeof(System.Object));
+					r_BeginInvoke_YogaNode_Single_Single_AsyncCallback_Object = new(this, "BeginInvoke", 0,  ReflectionUtils.GetType("UnityEngine.Yoga.YogaNode"), typeof(System.Single), typeof(System.Single), typeof(System.AsyncCallback), typeof(System.Object));
 					r_BeginInvoke_YogaNode_Single_Single_AsyncCallback_Object.SetBelong(this.instance);
 				}
 				return r_BeginInvoke_YogaNode_Single_Single_AsyncCallback_Object;

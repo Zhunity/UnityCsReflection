@@ -54,7 +54,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 			{
 				if(r_op_Equality_HighlightState_HighlightState == null)
 				{
-					r_op_Equality_HighlightState_HighlightState = new( ReleactionUtils.GetType("UnityEngine.TextCore.Text.HighlightState"), "op_Equality", 0,  ReleactionUtils.GetType("UnityEngine.TextCore.Text.HighlightState"),  ReleactionUtils.GetType("UnityEngine.TextCore.Text.HighlightState"));
+					r_op_Equality_HighlightState_HighlightState = new( ReflectionUtils.GetType("UnityEngine.TextCore.Text.HighlightState"), "op_Equality", 0,  ReflectionUtils.GetType("UnityEngine.TextCore.Text.HighlightState"),  ReflectionUtils.GetType("UnityEngine.TextCore.Text.HighlightState"));
 					r_op_Equality_HighlightState_HighlightState.SetBelong(null);
 				}
 				return r_op_Equality_HighlightState_HighlightState;
@@ -71,7 +71,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 			{
 				if(r_op_Inequality_HighlightState_HighlightState == null)
 				{
-					r_op_Inequality_HighlightState_HighlightState = new( ReleactionUtils.GetType("UnityEngine.TextCore.Text.HighlightState"), "op_Inequality", 0,  ReleactionUtils.GetType("UnityEngine.TextCore.Text.HighlightState"),  ReleactionUtils.GetType("UnityEngine.TextCore.Text.HighlightState"));
+					r_op_Inequality_HighlightState_HighlightState = new( ReflectionUtils.GetType("UnityEngine.TextCore.Text.HighlightState"), "op_Inequality", 0,  ReflectionUtils.GetType("UnityEngine.TextCore.Text.HighlightState"),  ReflectionUtils.GetType("UnityEngine.TextCore.Text.HighlightState"));
 					r_op_Inequality_HighlightState_HighlightState.SetBelong(null);
 				}
 				return r_op_Inequality_HighlightState_HighlightState;
@@ -122,7 +122,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 			{
 				if(r_Equals_HighlightState == null)
 				{
-					r_Equals_HighlightState = new(this, "Equals", 0,  ReleactionUtils.GetType("UnityEngine.TextCore.Text.HighlightState"));
+					r_Equals_HighlightState = new(this, "Equals", 0,  ReflectionUtils.GetType("UnityEngine.TextCore.Text.HighlightState"));
 					r_Equals_HighlightState.SetBelong(this.instance);
 				}
 				return r_Equals_HighlightState;

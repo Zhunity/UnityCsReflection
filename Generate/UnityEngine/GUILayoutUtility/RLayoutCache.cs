@@ -124,7 +124,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 			{
 				if(r_CopyState_LayoutCacheState == null)
 				{
-					r_CopyState_LayoutCacheState = new(this, "CopyState", 0,  ReleactionUtils.GetType("UnityEngine.GUILayoutUtility+LayoutCacheState"));
+					r_CopyState_LayoutCacheState = new(this, "CopyState", 0,  ReflectionUtils.GetType("UnityEngine.GUILayoutUtility+LayoutCacheState"));
 					r_CopyState_LayoutCacheState.SetBelong(this.instance);
 				}
 				return r_CopyState_LayoutCacheState;

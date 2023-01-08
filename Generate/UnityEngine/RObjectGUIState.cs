@@ -88,7 +88,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 			{
 				if(r_Internal_Create == null)
 				{
-					r_Internal_Create = new( ReleactionUtils.GetType("UnityEngine.ObjectGUIState"), "Internal_Create", 0);
+					r_Internal_Create = new( ReflectionUtils.GetType("UnityEngine.ObjectGUIState"), "Internal_Create", 0);
 					r_Internal_Create.SetBelong(null);
 				}
 				return r_Internal_Create;
@@ -105,7 +105,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 			{
 				if(r_Internal_Destroy_IntPtr == null)
 				{
-					r_Internal_Destroy_IntPtr = new( ReleactionUtils.GetType("UnityEngine.ObjectGUIState"), "Internal_Destroy", 0, typeof(System.IntPtr));
+					r_Internal_Destroy_IntPtr = new( ReflectionUtils.GetType("UnityEngine.ObjectGUIState"), "Internal_Destroy", 0, typeof(System.IntPtr));
 					r_Internal_Destroy_IntPtr.SetBelong(null);
 				}
 				return r_Internal_Destroy_IntPtr;

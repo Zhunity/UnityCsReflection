@@ -105,7 +105,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization
 			{
 				if(r_RealTypeSerializationName == null)
 				{
-					r_RealTypeSerializationName = new( ReleactionUtils.GetType("System.Runtime.Serialization.SafeSerializationManager"), "RealTypeSerializationName");
+					r_RealTypeSerializationName = new( ReflectionUtils.GetType("System.Runtime.Serialization.SafeSerializationManager"), "RealTypeSerializationName");
 					r_RealTypeSerializationName.SetBelong(null);
 				}
 				return r_RealTypeSerializationName;

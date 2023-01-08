@@ -598,7 +598,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 			{
 				if(r_GetManifestResourceStream_Type_String_Boolean_Ref_StackCrawlMark == null)
 				{
-					r_GetManifestResourceStream_Type_String_Boolean_Ref_StackCrawlMark = new(this, "GetManifestResourceStream", 0, typeof(System.Type), typeof(System.String), typeof(System.Boolean),  ReleactionUtils.GetType("System.Threading.StackCrawlMark").MakeByRefType());
+					r_GetManifestResourceStream_Type_String_Boolean_Ref_StackCrawlMark = new(this, "GetManifestResourceStream", 0, typeof(System.Type), typeof(System.String), typeof(System.Boolean),  ReflectionUtils.GetType("System.Threading.StackCrawlMark").MakeByRefType());
 					r_GetManifestResourceStream_Type_String_Boolean_Ref_StackCrawlMark.SetBelong(this.instance);
 				}
 				return r_GetManifestResourceStream_Type_String_Boolean_Ref_StackCrawlMark;
@@ -615,7 +615,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 			{
 				if(r_GetManifestResourceStream_String_Ref_StackCrawlMark_Boolean == null)
 				{
-					r_GetManifestResourceStream_String_Ref_StackCrawlMark_Boolean = new(this, "GetManifestResourceStream", 0, typeof(System.String),  ReleactionUtils.GetType("System.Threading.StackCrawlMark").MakeByRefType(), typeof(System.Boolean));
+					r_GetManifestResourceStream_String_Ref_StackCrawlMark_Boolean = new(this, "GetManifestResourceStream", 0, typeof(System.String),  ReflectionUtils.GetType("System.Threading.StackCrawlMark").MakeByRefType(), typeof(System.Boolean));
 					r_GetManifestResourceStream_String_Ref_StackCrawlMark_Boolean.SetBelong(this.instance);
 				}
 				return r_GetManifestResourceStream_String_Ref_StackCrawlMark_Boolean;
@@ -802,7 +802,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 			{
 				if(r_InternalGetAssemblyName_String_Out_MonoAssemblyName_Out_String == null)
 				{
-					r_InternalGetAssemblyName_String_Out_MonoAssemblyName_Out_String = new(typeof(System.Reflection.Assembly), "InternalGetAssemblyName", 0, typeof(System.String),  ReleactionUtils.GetType("Mono.MonoAssemblyName").MakeByRefType(), typeof(System.String).MakeByRefType());
+					r_InternalGetAssemblyName_String_Out_MonoAssemblyName_Out_String = new(typeof(System.Reflection.Assembly), "InternalGetAssemblyName", 0, typeof(System.String),  ReflectionUtils.GetType("Mono.MonoAssemblyName").MakeByRefType(), typeof(System.String).MakeByRefType());
 					r_InternalGetAssemblyName_String_Out_MonoAssemblyName_Out_String.SetBelong(null);
 				}
 				return r_InternalGetAssemblyName_String_Out_MonoAssemblyName_Out_String;
@@ -921,7 +921,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 			{
 				if(r_GetSatelliteAssembly_CultureInfo_Version_Boolean_Ref_StackCrawlMark == null)
 				{
-					r_GetSatelliteAssembly_CultureInfo_Version_Boolean_Ref_StackCrawlMark = new(this, "GetSatelliteAssembly", 0, typeof(System.Globalization.CultureInfo), typeof(System.Version), typeof(System.Boolean),  ReleactionUtils.GetType("System.Threading.StackCrawlMark").MakeByRefType());
+					r_GetSatelliteAssembly_CultureInfo_Version_Boolean_Ref_StackCrawlMark = new(this, "GetSatelliteAssembly", 0, typeof(System.Globalization.CultureInfo), typeof(System.Version), typeof(System.Boolean),  ReflectionUtils.GetType("System.Threading.StackCrawlMark").MakeByRefType());
 					r_GetSatelliteAssembly_CultureInfo_Version_Boolean_Ref_StackCrawlMark.SetBelong(this.instance);
 				}
 				return r_GetSatelliteAssembly_CultureInfo_Version_Boolean_Ref_StackCrawlMark;
@@ -938,7 +938,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 			{
 				if(r_InternalGetSatelliteAssembly_String_CultureInfo_Version_Boolean_Ref_StackCrawlMark == null)
 				{
-					r_InternalGetSatelliteAssembly_String_CultureInfo_Version_Boolean_Ref_StackCrawlMark = new(this, "InternalGetSatelliteAssembly", 0, typeof(System.String), typeof(System.Globalization.CultureInfo), typeof(System.Version), typeof(System.Boolean),  ReleactionUtils.GetType("System.Threading.StackCrawlMark").MakeByRefType());
+					r_InternalGetSatelliteAssembly_String_CultureInfo_Version_Boolean_Ref_StackCrawlMark = new(this, "InternalGetSatelliteAssembly", 0, typeof(System.String), typeof(System.Globalization.CultureInfo), typeof(System.Version), typeof(System.Boolean),  ReflectionUtils.GetType("System.Threading.StackCrawlMark").MakeByRefType());
 					r_InternalGetSatelliteAssembly_String_CultureInfo_Version_Boolean_Ref_StackCrawlMark.SetBelong(this.instance);
 				}
 				return r_InternalGetSatelliteAssembly_String_CultureInfo_Version_Boolean_Ref_StackCrawlMark;
@@ -972,7 +972,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 			{
 				if(r_LoadFrom_String_Boolean_Ref_StackCrawlMark == null)
 				{
-					r_LoadFrom_String_Boolean_Ref_StackCrawlMark = new(typeof(System.Reflection.Assembly), "LoadFrom", 0, typeof(System.String), typeof(System.Boolean),  ReleactionUtils.GetType("System.Threading.StackCrawlMark").MakeByRefType());
+					r_LoadFrom_String_Boolean_Ref_StackCrawlMark = new(typeof(System.Reflection.Assembly), "LoadFrom", 0, typeof(System.String), typeof(System.Boolean),  ReflectionUtils.GetType("System.Threading.StackCrawlMark").MakeByRefType());
 					r_LoadFrom_String_Boolean_Ref_StackCrawlMark.SetBelong(null);
 				}
 				return r_LoadFrom_String_Boolean_Ref_StackCrawlMark;
@@ -989,7 +989,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 			{
 				if(r_LoadFile_internal_String_Ref_StackCrawlMark == null)
 				{
-					r_LoadFile_internal_String_Ref_StackCrawlMark = new(typeof(System.Reflection.Assembly), "LoadFile_internal", 0, typeof(System.String),  ReleactionUtils.GetType("System.Threading.StackCrawlMark").MakeByRefType());
+					r_LoadFile_internal_String_Ref_StackCrawlMark = new(typeof(System.Reflection.Assembly), "LoadFile_internal", 0, typeof(System.String),  ReflectionUtils.GetType("System.Threading.StackCrawlMark").MakeByRefType());
 					r_LoadFile_internal_String_Ref_StackCrawlMark.SetBelong(null);
 				}
 				return r_LoadFile_internal_String_Ref_StackCrawlMark;

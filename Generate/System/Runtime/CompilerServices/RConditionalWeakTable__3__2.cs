@@ -326,7 +326,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RCompilerServices
 			{
 				if(r_GetValue_TKey_CreateValueCallback == null)
 				{
-					r_GetValue_TKey_CreateValueCallback = new(this, "GetValue", 0, Type.MakeGenericMethodParameter(0),  ReleactionUtils.GetType("System.Runtime.CompilerServices.ConditionalWeakTable`2+CreateValueCallback").MakeGenericType(Type.MakeGenericMethodParameter(0), Type.MakeGenericMethodParameter(1)));
+					r_GetValue_TKey_CreateValueCallback = new(this, "GetValue", 0, Type.MakeGenericMethodParameter(0),  ReflectionUtils.GetType("System.Runtime.CompilerServices.ConditionalWeakTable`2+CreateValueCallback").MakeGenericType(Type.MakeGenericMethodParameter(0), Type.MakeGenericMethodParameter(1)));
 					r_GetValue_TKey_CreateValueCallback.SetBelong(this.instance);
 				}
 				return r_GetValue_TKey_CreateValueCallback;

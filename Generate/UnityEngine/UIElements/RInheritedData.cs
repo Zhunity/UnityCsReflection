@@ -275,7 +275,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_CopyFrom_Ref_InheritedData == null)
 				{
-					r_CopyFrom_Ref_InheritedData = new(this, "CopyFrom", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.InheritedData").MakeByRefType());
+					r_CopyFrom_Ref_InheritedData = new(this, "CopyFrom", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.InheritedData").MakeByRefType());
 					r_CopyFrom_Ref_InheritedData.SetBelong(this.instance);
 				}
 				return r_CopyFrom_Ref_InheritedData;
@@ -292,7 +292,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_op_Equality_InheritedData_InheritedData == null)
 				{
-					r_op_Equality_InheritedData_InheritedData = new( ReleactionUtils.GetType("UnityEngine.UIElements.InheritedData"), "op_Equality", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.InheritedData"),  ReleactionUtils.GetType("UnityEngine.UIElements.InheritedData"));
+					r_op_Equality_InheritedData_InheritedData = new( ReflectionUtils.GetType("UnityEngine.UIElements.InheritedData"), "op_Equality", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.InheritedData"),  ReflectionUtils.GetType("UnityEngine.UIElements.InheritedData"));
 					r_op_Equality_InheritedData_InheritedData.SetBelong(null);
 				}
 				return r_op_Equality_InheritedData_InheritedData;
@@ -309,7 +309,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_op_Inequality_InheritedData_InheritedData == null)
 				{
-					r_op_Inequality_InheritedData_InheritedData = new( ReleactionUtils.GetType("UnityEngine.UIElements.InheritedData"), "op_Inequality", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.InheritedData"),  ReleactionUtils.GetType("UnityEngine.UIElements.InheritedData"));
+					r_op_Inequality_InheritedData_InheritedData = new( ReflectionUtils.GetType("UnityEngine.UIElements.InheritedData"), "op_Inequality", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.InheritedData"),  ReflectionUtils.GetType("UnityEngine.UIElements.InheritedData"));
 					r_op_Inequality_InheritedData_InheritedData.SetBelong(null);
 				}
 				return r_op_Inequality_InheritedData_InheritedData;
@@ -326,7 +326,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_Equals_InheritedData == null)
 				{
-					r_Equals_InheritedData = new(this, "Equals", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.InheritedData"));
+					r_Equals_InheritedData = new(this, "Equals", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.InheritedData"));
 					r_Equals_InheritedData.SetBelong(this.instance);
 				}
 				return r_Equals_InheritedData;

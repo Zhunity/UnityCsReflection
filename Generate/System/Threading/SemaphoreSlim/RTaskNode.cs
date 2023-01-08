@@ -1127,7 +1127,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_TaskConstructorCore_Delegate_Object_CancellationToken_TaskCreationOptions_InternalTaskOptions_TaskScheduler == null)
 				{
-					r_TaskConstructorCore_Delegate_Object_CancellationToken_TaskCreationOptions_InternalTaskOptions_TaskScheduler = new(this, "TaskConstructorCore", 0, typeof(System.Delegate), typeof(System.Object), typeof(System.Threading.CancellationToken), typeof(System.Threading.Tasks.TaskCreationOptions),  ReleactionUtils.GetType("System.Threading.Tasks.InternalTaskOptions"), typeof(System.Threading.Tasks.TaskScheduler));
+					r_TaskConstructorCore_Delegate_Object_CancellationToken_TaskCreationOptions_InternalTaskOptions_TaskScheduler = new(this, "TaskConstructorCore", 0, typeof(System.Delegate), typeof(System.Object), typeof(System.Threading.CancellationToken), typeof(System.Threading.Tasks.TaskCreationOptions),  ReflectionUtils.GetType("System.Threading.Tasks.InternalTaskOptions"), typeof(System.Threading.Tasks.TaskScheduler));
 					r_TaskConstructorCore_Delegate_Object_CancellationToken_TaskCreationOptions_InternalTaskOptions_TaskScheduler.SetBelong(this.instance);
 				}
 				return r_TaskConstructorCore_Delegate_Object_CancellationToken_TaskCreationOptions_InternalTaskOptions_TaskScheduler;
@@ -2249,7 +2249,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_AddCompletionAction_ITaskCompletionAction == null)
 				{
-					r_AddCompletionAction_ITaskCompletionAction = new(this, "AddCompletionAction", 0,  ReleactionUtils.GetType("System.Threading.Tasks.ITaskCompletionAction"));
+					r_AddCompletionAction_ITaskCompletionAction = new(this, "AddCompletionAction", 0,  ReflectionUtils.GetType("System.Threading.Tasks.ITaskCompletionAction"));
 					r_AddCompletionAction_ITaskCompletionAction.SetBelong(this.instance);
 				}
 				return r_AddCompletionAction_ITaskCompletionAction;

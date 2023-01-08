@@ -615,7 +615,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 			{
 				if(r_GetExecutingAssembly_Ref_StackCrawlMark == null)
 				{
-					r_GetExecutingAssembly_Ref_StackCrawlMark = new( ReleactionUtils.GetType("System.Reflection.RuntimeAssembly"), "GetExecutingAssembly", 0,  ReleactionUtils.GetType("System.Threading.StackCrawlMark").MakeByRefType());
+					r_GetExecutingAssembly_Ref_StackCrawlMark = new( ReflectionUtils.GetType("System.Reflection.RuntimeAssembly"), "GetExecutingAssembly", 0,  ReflectionUtils.GetType("System.Threading.StackCrawlMark").MakeByRefType());
 					r_GetExecutingAssembly_Ref_StackCrawlMark.SetBelong(null);
 				}
 				return r_GetExecutingAssembly_Ref_StackCrawlMark;
@@ -632,7 +632,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 			{
 				if(r_CreateAssemblyName_String_Boolean_Out_RuntimeAssembly == null)
 				{
-					r_CreateAssemblyName_String_Boolean_Out_RuntimeAssembly = new( ReleactionUtils.GetType("System.Reflection.RuntimeAssembly"), "CreateAssemblyName", 0, typeof(System.String), typeof(System.Boolean),  ReleactionUtils.GetType("System.Reflection.RuntimeAssembly").MakeByRefType());
+					r_CreateAssemblyName_String_Boolean_Out_RuntimeAssembly = new( ReflectionUtils.GetType("System.Reflection.RuntimeAssembly"), "CreateAssemblyName", 0, typeof(System.String), typeof(System.Boolean),  ReflectionUtils.GetType("System.Reflection.RuntimeAssembly").MakeByRefType());
 					r_CreateAssemblyName_String_Boolean_Out_RuntimeAssembly.SetBelong(null);
 				}
 				return r_CreateAssemblyName_String_Boolean_Out_RuntimeAssembly;
@@ -649,7 +649,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 			{
 				if(r_InternalLoadAssemblyName_AssemblyName_Evidence_RuntimeAssembly_Ref_StackCrawlMark_Boolean_Boolean_Boolean == null)
 				{
-					r_InternalLoadAssemblyName_AssemblyName_Evidence_RuntimeAssembly_Ref_StackCrawlMark_Boolean_Boolean_Boolean = new( ReleactionUtils.GetType("System.Reflection.RuntimeAssembly"), "InternalLoadAssemblyName", 0, typeof(System.Reflection.AssemblyName), typeof(System.Security.Policy.Evidence),  ReleactionUtils.GetType("System.Reflection.RuntimeAssembly"),  ReleactionUtils.GetType("System.Threading.StackCrawlMark").MakeByRefType(), typeof(System.Boolean), typeof(System.Boolean), typeof(System.Boolean));
+					r_InternalLoadAssemblyName_AssemblyName_Evidence_RuntimeAssembly_Ref_StackCrawlMark_Boolean_Boolean_Boolean = new( ReflectionUtils.GetType("System.Reflection.RuntimeAssembly"), "InternalLoadAssemblyName", 0, typeof(System.Reflection.AssemblyName), typeof(System.Security.Policy.Evidence),  ReflectionUtils.GetType("System.Reflection.RuntimeAssembly"),  ReflectionUtils.GetType("System.Threading.StackCrawlMark").MakeByRefType(), typeof(System.Boolean), typeof(System.Boolean), typeof(System.Boolean));
 					r_InternalLoadAssemblyName_AssemblyName_Evidence_RuntimeAssembly_Ref_StackCrawlMark_Boolean_Boolean_Boolean.SetBelong(null);
 				}
 				return r_InternalLoadAssemblyName_AssemblyName_Evidence_RuntimeAssembly_Ref_StackCrawlMark_Boolean_Boolean_Boolean;
@@ -666,7 +666,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 			{
 				if(r_LoadWithPartialNameInternal_String_Evidence_Ref_StackCrawlMark == null)
 				{
-					r_LoadWithPartialNameInternal_String_Evidence_Ref_StackCrawlMark = new( ReleactionUtils.GetType("System.Reflection.RuntimeAssembly"), "LoadWithPartialNameInternal", 0, typeof(System.String), typeof(System.Security.Policy.Evidence),  ReleactionUtils.GetType("System.Threading.StackCrawlMark").MakeByRefType());
+					r_LoadWithPartialNameInternal_String_Evidence_Ref_StackCrawlMark = new( ReflectionUtils.GetType("System.Reflection.RuntimeAssembly"), "LoadWithPartialNameInternal", 0, typeof(System.String), typeof(System.Security.Policy.Evidence),  ReflectionUtils.GetType("System.Threading.StackCrawlMark").MakeByRefType());
 					r_LoadWithPartialNameInternal_String_Evidence_Ref_StackCrawlMark.SetBelong(null);
 				}
 				return r_LoadWithPartialNameInternal_String_Evidence_Ref_StackCrawlMark;
@@ -683,7 +683,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 			{
 				if(r_LoadWithPartialNameInternal_AssemblyName_Evidence_Ref_StackCrawlMark == null)
 				{
-					r_LoadWithPartialNameInternal_AssemblyName_Evidence_Ref_StackCrawlMark = new( ReleactionUtils.GetType("System.Reflection.RuntimeAssembly"), "LoadWithPartialNameInternal", 0, typeof(System.Reflection.AssemblyName), typeof(System.Security.Policy.Evidence),  ReleactionUtils.GetType("System.Threading.StackCrawlMark").MakeByRefType());
+					r_LoadWithPartialNameInternal_AssemblyName_Evidence_Ref_StackCrawlMark = new( ReflectionUtils.GetType("System.Reflection.RuntimeAssembly"), "LoadWithPartialNameInternal", 0, typeof(System.Reflection.AssemblyName), typeof(System.Security.Policy.Evidence),  ReflectionUtils.GetType("System.Threading.StackCrawlMark").MakeByRefType());
 					r_LoadWithPartialNameInternal_AssemblyName_Evidence_Ref_StackCrawlMark.SetBelong(null);
 				}
 				return r_LoadWithPartialNameInternal_AssemblyName_Evidence_Ref_StackCrawlMark;
@@ -853,7 +853,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 			{
 				if(r_GetAotId == null)
 				{
-					r_GetAotId = new( ReleactionUtils.GetType("System.Reflection.RuntimeAssembly"), "GetAotId", 0);
+					r_GetAotId = new( ReflectionUtils.GetType("System.Reflection.RuntimeAssembly"), "GetAotId", 0);
 					r_GetAotId.SetBelong(null);
 				}
 				return r_GetAotId;
@@ -870,7 +870,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 			{
 				if(r_get_code_base_Assembly_Boolean == null)
 				{
-					r_get_code_base_Assembly_Boolean = new( ReleactionUtils.GetType("System.Reflection.RuntimeAssembly"), "get_code_base", 0, typeof(System.Reflection.Assembly), typeof(System.Boolean));
+					r_get_code_base_Assembly_Boolean = new( ReflectionUtils.GetType("System.Reflection.RuntimeAssembly"), "get_code_base", 0, typeof(System.Reflection.Assembly), typeof(System.Boolean));
 					r_get_code_base_Assembly_Boolean.SetBelong(null);
 				}
 				return r_get_code_base_Assembly_Boolean;
@@ -904,7 +904,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 			{
 				if(r_get_fullname_Assembly == null)
 				{
-					r_get_fullname_Assembly = new( ReleactionUtils.GetType("System.Reflection.RuntimeAssembly"), "get_fullname", 0, typeof(System.Reflection.Assembly));
+					r_get_fullname_Assembly = new( ReflectionUtils.GetType("System.Reflection.RuntimeAssembly"), "get_fullname", 0, typeof(System.Reflection.Assembly));
 					r_get_fullname_Assembly.SetBelong(null);
 				}
 				return r_get_fullname_Assembly;
@@ -921,7 +921,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 			{
 				if(r_GetAotIdInternal_ByteArray == null)
 				{
-					r_GetAotIdInternal_ByteArray = new( ReleactionUtils.GetType("System.Reflection.RuntimeAssembly"), "GetAotIdInternal", 0, typeof(System.Byte).MakeArrayType());
+					r_GetAotIdInternal_ByteArray = new( ReflectionUtils.GetType("System.Reflection.RuntimeAssembly"), "GetAotIdInternal", 0, typeof(System.Byte).MakeArrayType());
 					r_GetAotIdInternal_ByteArray.SetBelong(null);
 				}
 				return r_GetAotIdInternal_ByteArray;
@@ -938,7 +938,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 			{
 				if(r_InternalImageRuntimeVersion_Assembly == null)
 				{
-					r_InternalImageRuntimeVersion_Assembly = new( ReleactionUtils.GetType("System.Reflection.RuntimeAssembly"), "InternalImageRuntimeVersion", 0, typeof(System.Reflection.Assembly));
+					r_InternalImageRuntimeVersion_Assembly = new( ReflectionUtils.GetType("System.Reflection.RuntimeAssembly"), "InternalImageRuntimeVersion", 0, typeof(System.Reflection.Assembly));
 					r_InternalImageRuntimeVersion_Assembly.SetBelong(null);
 				}
 				return r_InternalImageRuntimeVersion_Assembly;
@@ -972,7 +972,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 			{
 				if(r_GetCodeBase_Assembly_Boolean == null)
 				{
-					r_GetCodeBase_Assembly_Boolean = new( ReleactionUtils.GetType("System.Reflection.RuntimeAssembly"), "GetCodeBase", 0, typeof(System.Reflection.Assembly), typeof(System.Boolean));
+					r_GetCodeBase_Assembly_Boolean = new( ReflectionUtils.GetType("System.Reflection.RuntimeAssembly"), "GetCodeBase", 0, typeof(System.Reflection.Assembly), typeof(System.Boolean));
 					r_GetCodeBase_Assembly_Boolean.SetBelong(null);
 				}
 				return r_GetCodeBase_Assembly_Boolean;
@@ -1346,7 +1346,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 			{
 				if(r_LoadPermissions_Assembly_Ref_IntPtr_Ref_Int32_Ref_IntPtr_Ref_Int32_Ref_IntPtr_Ref_Int32 == null)
 				{
-					r_LoadPermissions_Assembly_Ref_IntPtr_Ref_Int32_Ref_IntPtr_Ref_Int32_Ref_IntPtr_Ref_Int32 = new( ReleactionUtils.GetType("System.Reflection.RuntimeAssembly"), "LoadPermissions", 0, typeof(System.Reflection.Assembly), typeof(System.IntPtr).MakeByRefType(), typeof(System.Int32).MakeByRefType(), typeof(System.IntPtr).MakeByRefType(), typeof(System.Int32).MakeByRefType(), typeof(System.IntPtr).MakeByRefType(), typeof(System.Int32).MakeByRefType());
+					r_LoadPermissions_Assembly_Ref_IntPtr_Ref_Int32_Ref_IntPtr_Ref_Int32_Ref_IntPtr_Ref_Int32 = new( ReflectionUtils.GetType("System.Reflection.RuntimeAssembly"), "LoadPermissions", 0, typeof(System.Reflection.Assembly), typeof(System.IntPtr).MakeByRefType(), typeof(System.Int32).MakeByRefType(), typeof(System.IntPtr).MakeByRefType(), typeof(System.Int32).MakeByRefType(), typeof(System.IntPtr).MakeByRefType(), typeof(System.Int32).MakeByRefType());
 					r_LoadPermissions_Assembly_Ref_IntPtr_Ref_Int32_Ref_IntPtr_Ref_Int32_Ref_IntPtr_Ref_Int32.SetBelong(null);
 				}
 				return r_LoadPermissions_Assembly_Ref_IntPtr_Ref_Int32_Ref_IntPtr_Ref_Int32_Ref_IntPtr_Ref_Int32;
@@ -1397,7 +1397,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 			{
 				if(r_GetManifestResourceStream_Type_String_Boolean_Ref_StackCrawlMark == null)
 				{
-					r_GetManifestResourceStream_Type_String_Boolean_Ref_StackCrawlMark = new(this, "GetManifestResourceStream", 0, typeof(System.Type), typeof(System.String), typeof(System.Boolean),  ReleactionUtils.GetType("System.Threading.StackCrawlMark").MakeByRefType());
+					r_GetManifestResourceStream_Type_String_Boolean_Ref_StackCrawlMark = new(this, "GetManifestResourceStream", 0, typeof(System.Type), typeof(System.String), typeof(System.Boolean),  ReflectionUtils.GetType("System.Threading.StackCrawlMark").MakeByRefType());
 					r_GetManifestResourceStream_Type_String_Boolean_Ref_StackCrawlMark.SetBelong(this.instance);
 				}
 				return r_GetManifestResourceStream_Type_String_Boolean_Ref_StackCrawlMark;
@@ -1414,7 +1414,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 			{
 				if(r_GetManifestResourceStream_String_Ref_StackCrawlMark_Boolean == null)
 				{
-					r_GetManifestResourceStream_String_Ref_StackCrawlMark_Boolean = new(this, "GetManifestResourceStream", 0, typeof(System.String),  ReleactionUtils.GetType("System.Threading.StackCrawlMark").MakeByRefType(), typeof(System.Boolean));
+					r_GetManifestResourceStream_String_Ref_StackCrawlMark_Boolean = new(this, "GetManifestResourceStream", 0, typeof(System.String),  ReflectionUtils.GetType("System.Threading.StackCrawlMark").MakeByRefType(), typeof(System.Boolean));
 					r_GetManifestResourceStream_String_Ref_StackCrawlMark_Boolean.SetBelong(this.instance);
 				}
 				return r_GetManifestResourceStream_String_Ref_StackCrawlMark_Boolean;
@@ -1584,7 +1584,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 			{
 				if(r_GetSatelliteAssembly_CultureInfo_Version_Boolean_Ref_StackCrawlMark == null)
 				{
-					r_GetSatelliteAssembly_CultureInfo_Version_Boolean_Ref_StackCrawlMark = new(this, "GetSatelliteAssembly", 0, typeof(System.Globalization.CultureInfo), typeof(System.Version), typeof(System.Boolean),  ReleactionUtils.GetType("System.Threading.StackCrawlMark").MakeByRefType());
+					r_GetSatelliteAssembly_CultureInfo_Version_Boolean_Ref_StackCrawlMark = new(this, "GetSatelliteAssembly", 0, typeof(System.Globalization.CultureInfo), typeof(System.Version), typeof(System.Boolean),  ReflectionUtils.GetType("System.Threading.StackCrawlMark").MakeByRefType());
 					r_GetSatelliteAssembly_CultureInfo_Version_Boolean_Ref_StackCrawlMark.SetBelong(this.instance);
 				}
 				return r_GetSatelliteAssembly_CultureInfo_Version_Boolean_Ref_StackCrawlMark;
@@ -1601,7 +1601,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 			{
 				if(r_InternalGetSatelliteAssembly_String_CultureInfo_Version_Boolean_Ref_StackCrawlMark == null)
 				{
-					r_InternalGetSatelliteAssembly_String_CultureInfo_Version_Boolean_Ref_StackCrawlMark = new(this, "InternalGetSatelliteAssembly", 0, typeof(System.String), typeof(System.Globalization.CultureInfo), typeof(System.Version), typeof(System.Boolean),  ReleactionUtils.GetType("System.Threading.StackCrawlMark").MakeByRefType());
+					r_InternalGetSatelliteAssembly_String_CultureInfo_Version_Boolean_Ref_StackCrawlMark = new(this, "InternalGetSatelliteAssembly", 0, typeof(System.String), typeof(System.Globalization.CultureInfo), typeof(System.Version), typeof(System.Boolean),  ReflectionUtils.GetType("System.Threading.StackCrawlMark").MakeByRefType());
 					r_InternalGetSatelliteAssembly_String_CultureInfo_Version_Boolean_Ref_StackCrawlMark.SetBelong(this.instance);
 				}
 				return r_InternalGetSatelliteAssembly_String_CultureInfo_Version_Boolean_Ref_StackCrawlMark;

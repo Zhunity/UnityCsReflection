@@ -156,7 +156,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_Free_Alloc == null)
 				{
-					r_Free_Alloc = new(this, "Free", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.UIR.Alloc"));
+					r_Free_Alloc = new(this, "Free", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.UIR.Alloc"));
 					r_Free_Alloc.SetBelong(this.instance);
 				}
 				return r_Free_Alloc;
@@ -173,7 +173,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_CoalesceBlockWithPrevious_Block == null)
 				{
-					r_CoalesceBlockWithPrevious_Block = new(this, "CoalesceBlockWithPrevious", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.UIR.BestFitAllocator+Block"));
+					r_CoalesceBlockWithPrevious_Block = new(this, "CoalesceBlockWithPrevious", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.UIR.BestFitAllocator+Block"));
 					r_CoalesceBlockWithPrevious_Block.SetBelong(this.instance);
 				}
 				return r_CoalesceBlockWithPrevious_Block;
@@ -224,7 +224,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_SplitBlock_Block_UInt32 == null)
 				{
-					r_SplitBlock_Block_UInt32 = new(this, "SplitBlock", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.UIR.BestFitAllocator+Block"), typeof(System.UInt32));
+					r_SplitBlock_Block_UInt32 = new(this, "SplitBlock", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.UIR.BestFitAllocator+Block"), typeof(System.UInt32));
 					r_SplitBlock_Block_UInt32.SetBelong(this.instance);
 				}
 				return r_SplitBlock_Block_UInt32;

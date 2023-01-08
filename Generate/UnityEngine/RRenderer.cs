@@ -1397,7 +1397,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 			{
 				if(r_GetLightmapIndex_LightmapType == null)
 				{
-					r_GetLightmapIndex_LightmapType = new(this, "GetLightmapIndex", 0,  ReleactionUtils.GetType("UnityEngineInternal.LightmapType"));
+					r_GetLightmapIndex_LightmapType = new(this, "GetLightmapIndex", 0,  ReflectionUtils.GetType("UnityEngineInternal.LightmapType"));
 					r_GetLightmapIndex_LightmapType.SetBelong(this.instance);
 				}
 				return r_GetLightmapIndex_LightmapType;
@@ -1414,7 +1414,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 			{
 				if(r_SetLightmapIndex_Int32_LightmapType == null)
 				{
-					r_SetLightmapIndex_Int32_LightmapType = new(this, "SetLightmapIndex", 0, typeof(System.Int32),  ReleactionUtils.GetType("UnityEngineInternal.LightmapType"));
+					r_SetLightmapIndex_Int32_LightmapType = new(this, "SetLightmapIndex", 0, typeof(System.Int32),  ReflectionUtils.GetType("UnityEngineInternal.LightmapType"));
 					r_SetLightmapIndex_Int32_LightmapType.SetBelong(this.instance);
 				}
 				return r_SetLightmapIndex_Int32_LightmapType;
@@ -1431,7 +1431,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 			{
 				if(r_GetLightmapST_LightmapType == null)
 				{
-					r_GetLightmapST_LightmapType = new(this, "GetLightmapST", 0,  ReleactionUtils.GetType("UnityEngineInternal.LightmapType"));
+					r_GetLightmapST_LightmapType = new(this, "GetLightmapST", 0,  ReflectionUtils.GetType("UnityEngineInternal.LightmapType"));
 					r_GetLightmapST_LightmapType.SetBelong(this.instance);
 				}
 				return r_GetLightmapST_LightmapType;
@@ -1448,7 +1448,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 			{
 				if(r_SetLightmapST_Vector4_LightmapType == null)
 				{
-					r_SetLightmapST_Vector4_LightmapType = new(this, "SetLightmapST", 0, typeof(UnityEngine.Vector4),  ReleactionUtils.GetType("UnityEngineInternal.LightmapType"));
+					r_SetLightmapST_Vector4_LightmapType = new(this, "SetLightmapST", 0, typeof(UnityEngine.Vector4),  ReflectionUtils.GetType("UnityEngineInternal.LightmapType"));
 					r_SetLightmapST_Vector4_LightmapType.SetBelong(this.instance);
 				}
 				return r_SetLightmapST_Vector4_LightmapType;
@@ -1720,7 +1720,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 			{
 				if(r_GetLightmapST_Injected_LightmapType_Out_Vector4 == null)
 				{
-					r_GetLightmapST_Injected_LightmapType_Out_Vector4 = new(this, "GetLightmapST_Injected", 0,  ReleactionUtils.GetType("UnityEngineInternal.LightmapType"), typeof(UnityEngine.Vector4).MakeByRefType());
+					r_GetLightmapST_Injected_LightmapType_Out_Vector4 = new(this, "GetLightmapST_Injected", 0,  ReflectionUtils.GetType("UnityEngineInternal.LightmapType"), typeof(UnityEngine.Vector4).MakeByRefType());
 					r_GetLightmapST_Injected_LightmapType_Out_Vector4.SetBelong(this.instance);
 				}
 				return r_GetLightmapST_Injected_LightmapType_Out_Vector4;
@@ -1737,7 +1737,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 			{
 				if(r_SetLightmapST_Injected_Ref_Vector4_LightmapType == null)
 				{
-					r_SetLightmapST_Injected_Ref_Vector4_LightmapType = new(this, "SetLightmapST_Injected", 0, typeof(UnityEngine.Vector4).MakeByRefType(),  ReleactionUtils.GetType("UnityEngineInternal.LightmapType"));
+					r_SetLightmapST_Injected_Ref_Vector4_LightmapType = new(this, "SetLightmapST_Injected", 0, typeof(UnityEngine.Vector4).MakeByRefType(),  ReflectionUtils.GetType("UnityEngineInternal.LightmapType"));
 					r_SetLightmapST_Injected_Ref_Vector4_LightmapType.SetBelong(this.instance);
 				}
 				return r_SetLightmapST_Injected_Ref_Vector4_LightmapType;

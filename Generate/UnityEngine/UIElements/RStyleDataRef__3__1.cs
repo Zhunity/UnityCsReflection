@@ -105,7 +105,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_CopyFrom_StyleDataRef_d_T_p_ == null)
 				{
-					r_CopyFrom_StyleDataRef_d_T_p_ = new(this, "CopyFrom", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleDataRef`1"));
+					r_CopyFrom_StyleDataRef_d_T_p_ = new(this, "CopyFrom", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.StyleDataRef`1"));
 					r_CopyFrom_StyleDataRef_d_T_p_.SetBelong(this.instance);
 				}
 				return r_CopyFrom_StyleDataRef_d_T_p_;
@@ -156,7 +156,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_Create == null)
 				{
-					r_Create = new( ReleactionUtils.GetType("UnityEngine.UIElements.StyleDataRef`1"), "Create", 0);
+					r_Create = new( ReflectionUtils.GetType("UnityEngine.UIElements.StyleDataRef`1"), "Create", 0);
 					r_Create.SetBelong(null);
 				}
 				return r_Create;
@@ -190,7 +190,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_op_Equality_StyleDataRef_d_T_p__StyleDataRef_d_T_p_ == null)
 				{
-					r_op_Equality_StyleDataRef_d_T_p__StyleDataRef_d_T_p_ = new( ReleactionUtils.GetType("UnityEngine.UIElements.StyleDataRef`1"), "op_Equality", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleDataRef`1"),  ReleactionUtils.GetType("UnityEngine.UIElements.StyleDataRef`1"));
+					r_op_Equality_StyleDataRef_d_T_p__StyleDataRef_d_T_p_ = new( ReflectionUtils.GetType("UnityEngine.UIElements.StyleDataRef`1"), "op_Equality", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.StyleDataRef`1"),  ReflectionUtils.GetType("UnityEngine.UIElements.StyleDataRef`1"));
 					r_op_Equality_StyleDataRef_d_T_p__StyleDataRef_d_T_p_.SetBelong(null);
 				}
 				return r_op_Equality_StyleDataRef_d_T_p__StyleDataRef_d_T_p_;
@@ -207,7 +207,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_op_Inequality_StyleDataRef_d_T_p__StyleDataRef_d_T_p_ == null)
 				{
-					r_op_Inequality_StyleDataRef_d_T_p__StyleDataRef_d_T_p_ = new( ReleactionUtils.GetType("UnityEngine.UIElements.StyleDataRef`1"), "op_Inequality", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleDataRef`1"),  ReleactionUtils.GetType("UnityEngine.UIElements.StyleDataRef`1"));
+					r_op_Inequality_StyleDataRef_d_T_p__StyleDataRef_d_T_p_ = new( ReflectionUtils.GetType("UnityEngine.UIElements.StyleDataRef`1"), "op_Inequality", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.StyleDataRef`1"),  ReflectionUtils.GetType("UnityEngine.UIElements.StyleDataRef`1"));
 					r_op_Inequality_StyleDataRef_d_T_p__StyleDataRef_d_T_p_.SetBelong(null);
 				}
 				return r_op_Inequality_StyleDataRef_d_T_p__StyleDataRef_d_T_p_;
@@ -224,7 +224,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_Equals_StyleDataRef_d_T_p_ == null)
 				{
-					r_Equals_StyleDataRef_d_T_p_ = new(this, "Equals", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleDataRef`1"));
+					r_Equals_StyleDataRef_d_T_p_ = new(this, "Equals", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.StyleDataRef`1"));
 					r_Equals_StyleDataRef_d_T_p_.SetBelong(this.instance);
 				}
 				return r_Equals_StyleDataRef_d_T_p_;
@@ -258,7 +258,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_ReferenceEquals_StyleDataRef_d_T_p_ == null)
 				{
-					r_ReferenceEquals_StyleDataRef_d_T_p_ = new(this, "ReferenceEquals", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleDataRef`1"));
+					r_ReferenceEquals_StyleDataRef_d_T_p_ = new(this, "ReferenceEquals", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.StyleDataRef`1"));
 					r_ReferenceEquals_StyleDataRef_d_T_p_.SetBelong(this.instance);
 				}
 				return r_ReferenceEquals_StyleDataRef_d_T_p_;

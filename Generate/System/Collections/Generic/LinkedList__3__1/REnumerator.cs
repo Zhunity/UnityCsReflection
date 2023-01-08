@@ -107,7 +107,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
 			{
 				if(r_LinkedListName == null)
 				{
-					r_LinkedListName = new( ReleactionUtils.GetType("System.Collections.Generic.LinkedList`1+Enumerator"), "LinkedListName");
+					r_LinkedListName = new( ReflectionUtils.GetType("System.Collections.Generic.LinkedList`1+Enumerator"), "LinkedListName");
 					r_LinkedListName.SetBelong(null);
 				}
 				return r_LinkedListName;
@@ -124,7 +124,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
 			{
 				if(r_CurrentValueName == null)
 				{
-					r_CurrentValueName = new( ReleactionUtils.GetType("System.Collections.Generic.LinkedList`1+Enumerator"), "CurrentValueName");
+					r_CurrentValueName = new( ReflectionUtils.GetType("System.Collections.Generic.LinkedList`1+Enumerator"), "CurrentValueName");
 					r_CurrentValueName.SetBelong(null);
 				}
 				return r_CurrentValueName;
@@ -141,7 +141,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
 			{
 				if(r_VersionName == null)
 				{
-					r_VersionName = new( ReleactionUtils.GetType("System.Collections.Generic.LinkedList`1+Enumerator"), "VersionName");
+					r_VersionName = new( ReflectionUtils.GetType("System.Collections.Generic.LinkedList`1+Enumerator"), "VersionName");
 					r_VersionName.SetBelong(null);
 				}
 				return r_VersionName;
@@ -158,7 +158,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
 			{
 				if(r_IndexName == null)
 				{
-					r_IndexName = new( ReleactionUtils.GetType("System.Collections.Generic.LinkedList`1+Enumerator"), "IndexName");
+					r_IndexName = new( ReflectionUtils.GetType("System.Collections.Generic.LinkedList`1+Enumerator"), "IndexName");
 					r_IndexName.SetBelong(null);
 				}
 				return r_IndexName;

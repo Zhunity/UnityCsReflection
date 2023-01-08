@@ -190,7 +190,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 			{
 				if(r_LoadStyles == null)
 				{
-					r_LoadStyles = new( ReleactionUtils.GetType("UnityEditor.IMGUI.Controls.AdvancedDropdownGUI"), "LoadStyles", 0);
+					r_LoadStyles = new( ReflectionUtils.GetType("UnityEditor.IMGUI.Controls.AdvancedDropdownGUI"), "LoadStyles", 0);
 					r_LoadStyles.SetBelong(null);
 				}
 				return r_LoadStyles;
@@ -326,7 +326,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 			{
 				if(r_CalculateContentSize_AdvancedDropdownDataSource == null)
 				{
-					r_CalculateContentSize_AdvancedDropdownDataSource = new(this, "CalculateContentSize", 0,  ReleactionUtils.GetType("UnityEditor.IMGUI.Controls.AdvancedDropdownDataSource"));
+					r_CalculateContentSize_AdvancedDropdownDataSource = new(this, "CalculateContentSize", 0,  ReflectionUtils.GetType("UnityEditor.IMGUI.Controls.AdvancedDropdownDataSource"));
 					r_CalculateContentSize_AdvancedDropdownDataSource.SetBelong(this.instance);
 				}
 				return r_CalculateContentSize_AdvancedDropdownDataSource;
@@ -343,7 +343,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 			{
 				if(r_GetSelectionHeight_AdvancedDropdownDataSource_Rect == null)
 				{
-					r_GetSelectionHeight_AdvancedDropdownDataSource_Rect = new(this, "GetSelectionHeight", 0,  ReleactionUtils.GetType("UnityEditor.IMGUI.Controls.AdvancedDropdownDataSource"), typeof(UnityEngine.Rect));
+					r_GetSelectionHeight_AdvancedDropdownDataSource_Rect = new(this, "GetSelectionHeight", 0,  ReflectionUtils.GetType("UnityEditor.IMGUI.Controls.AdvancedDropdownDataSource"), typeof(UnityEngine.Rect));
 					r_GetSelectionHeight_AdvancedDropdownDataSource_Rect.SetBelong(this.instance);
 				}
 				return r_GetSelectionHeight_AdvancedDropdownDataSource_Rect;

@@ -37,7 +37,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 			{
 				if(r_NestedName_TypeIdentifier == null)
 				{
-					r_NestedName_TypeIdentifier = new(this, "NestedName", 0,  ReleactionUtils.GetType("System.TypeIdentifier"));
+					r_NestedName_TypeIdentifier = new(this, "NestedName", 0,  ReflectionUtils.GetType("System.TypeIdentifier"));
 					r_NestedName_TypeIdentifier.SetBelong(this.instance);
 				}
 				return r_NestedName_TypeIdentifier;

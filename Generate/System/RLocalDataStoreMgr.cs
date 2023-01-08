@@ -20,7 +20,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 			{
 				if(r_InitialSlotTableSize == null)
 				{
-					r_InitialSlotTableSize = new( ReleactionUtils.GetType("System.LocalDataStoreMgr"), "InitialSlotTableSize");
+					r_InitialSlotTableSize = new( ReflectionUtils.GetType("System.LocalDataStoreMgr"), "InitialSlotTableSize");
 					r_InitialSlotTableSize.SetBelong(null);
 				}
 				return r_InitialSlotTableSize;
@@ -37,7 +37,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 			{
 				if(r_SlotTableDoubleThreshold == null)
 				{
-					r_SlotTableDoubleThreshold = new( ReleactionUtils.GetType("System.LocalDataStoreMgr"), "SlotTableDoubleThreshold");
+					r_SlotTableDoubleThreshold = new( ReflectionUtils.GetType("System.LocalDataStoreMgr"), "SlotTableDoubleThreshold");
 					r_SlotTableDoubleThreshold.SetBelong(null);
 				}
 				return r_SlotTableDoubleThreshold;
@@ -54,7 +54,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 			{
 				if(r_LargeSlotTableSizeIncrease == null)
 				{
-					r_LargeSlotTableSizeIncrease = new( ReleactionUtils.GetType("System.LocalDataStoreMgr"), "LargeSlotTableSizeIncrease");
+					r_LargeSlotTableSizeIncrease = new( ReflectionUtils.GetType("System.LocalDataStoreMgr"), "LargeSlotTableSizeIncrease");
 					r_LargeSlotTableSizeIncrease.SetBelong(null);
 				}
 				return r_LargeSlotTableSizeIncrease;
@@ -173,7 +173,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 			{
 				if(r_DeleteLocalDataStore_LocalDataStore == null)
 				{
-					r_DeleteLocalDataStore_LocalDataStore = new(this, "DeleteLocalDataStore", 0,  ReleactionUtils.GetType("System.LocalDataStore"));
+					r_DeleteLocalDataStore_LocalDataStore = new(this, "DeleteLocalDataStore", 0,  ReflectionUtils.GetType("System.LocalDataStore"));
 					r_DeleteLocalDataStore_LocalDataStore.SetBelong(this.instance);
 				}
 				return r_DeleteLocalDataStore_LocalDataStore;

@@ -615,7 +615,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 			{
 				if(r_StartNew_Task_Func_d_TResult_p__CancellationToken_TaskCreationOptions_InternalTaskOptions_TaskScheduler == null)
 				{
-					r_StartNew_Task_Func_d_TResult_p__CancellationToken_TaskCreationOptions_InternalTaskOptions_TaskScheduler = new(typeof(System.Threading.Tasks.Task<>), "StartNew", 0, typeof(System.Threading.Tasks.Task), typeof(System.Func<>).MakeGenericType(Type.MakeGenericMethodParameter(0)), typeof(System.Threading.CancellationToken), typeof(System.Threading.Tasks.TaskCreationOptions),  ReleactionUtils.GetType("System.Threading.Tasks.InternalTaskOptions"), typeof(System.Threading.Tasks.TaskScheduler));
+					r_StartNew_Task_Func_d_TResult_p__CancellationToken_TaskCreationOptions_InternalTaskOptions_TaskScheduler = new(typeof(System.Threading.Tasks.Task<>), "StartNew", 0, typeof(System.Threading.Tasks.Task), typeof(System.Func<>).MakeGenericType(Type.MakeGenericMethodParameter(0)), typeof(System.Threading.CancellationToken), typeof(System.Threading.Tasks.TaskCreationOptions),  ReflectionUtils.GetType("System.Threading.Tasks.InternalTaskOptions"), typeof(System.Threading.Tasks.TaskScheduler));
 					r_StartNew_Task_Func_d_TResult_p__CancellationToken_TaskCreationOptions_InternalTaskOptions_TaskScheduler.SetBelong(null);
 				}
 				return r_StartNew_Task_Func_d_TResult_p__CancellationToken_TaskCreationOptions_InternalTaskOptions_TaskScheduler;
@@ -632,7 +632,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 			{
 				if(r_StartNew_Task_Func_d_Object_TResult_p__Object_CancellationToken_TaskCreationOptions_InternalTaskOptions_TaskScheduler == null)
 				{
-					r_StartNew_Task_Func_d_Object_TResult_p__Object_CancellationToken_TaskCreationOptions_InternalTaskOptions_TaskScheduler = new(typeof(System.Threading.Tasks.Task<>), "StartNew", 0, typeof(System.Threading.Tasks.Task), typeof(System.Func<, >).MakeGenericType(typeof(System.Object), Type.MakeGenericMethodParameter(0)), typeof(System.Object), typeof(System.Threading.CancellationToken), typeof(System.Threading.Tasks.TaskCreationOptions),  ReleactionUtils.GetType("System.Threading.Tasks.InternalTaskOptions"), typeof(System.Threading.Tasks.TaskScheduler));
+					r_StartNew_Task_Func_d_Object_TResult_p__Object_CancellationToken_TaskCreationOptions_InternalTaskOptions_TaskScheduler = new(typeof(System.Threading.Tasks.Task<>), "StartNew", 0, typeof(System.Threading.Tasks.Task), typeof(System.Func<, >).MakeGenericType(typeof(System.Object), Type.MakeGenericMethodParameter(0)), typeof(System.Object), typeof(System.Threading.CancellationToken), typeof(System.Threading.Tasks.TaskCreationOptions),  ReflectionUtils.GetType("System.Threading.Tasks.InternalTaskOptions"), typeof(System.Threading.Tasks.TaskScheduler));
 					r_StartNew_Task_Func_d_Object_TResult_p__Object_CancellationToken_TaskCreationOptions_InternalTaskOptions_TaskScheduler.SetBelong(null);
 				}
 				return r_StartNew_Task_Func_d_Object_TResult_p__Object_CancellationToken_TaskCreationOptions_InternalTaskOptions_TaskScheduler;
@@ -1159,7 +1159,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 			{
 				if(r_TaskConstructorCore_Delegate_Object_CancellationToken_TaskCreationOptions_InternalTaskOptions_TaskScheduler == null)
 				{
-					r_TaskConstructorCore_Delegate_Object_CancellationToken_TaskCreationOptions_InternalTaskOptions_TaskScheduler = new(this, "TaskConstructorCore", 0, typeof(System.Delegate), typeof(System.Object), typeof(System.Threading.CancellationToken), typeof(System.Threading.Tasks.TaskCreationOptions),  ReleactionUtils.GetType("System.Threading.Tasks.InternalTaskOptions"), typeof(System.Threading.Tasks.TaskScheduler));
+					r_TaskConstructorCore_Delegate_Object_CancellationToken_TaskCreationOptions_InternalTaskOptions_TaskScheduler = new(this, "TaskConstructorCore", 0, typeof(System.Delegate), typeof(System.Object), typeof(System.Threading.CancellationToken), typeof(System.Threading.Tasks.TaskCreationOptions),  ReflectionUtils.GetType("System.Threading.Tasks.InternalTaskOptions"), typeof(System.Threading.Tasks.TaskScheduler));
 					r_TaskConstructorCore_Delegate_Object_CancellationToken_TaskCreationOptions_InternalTaskOptions_TaskScheduler.SetBelong(this.instance);
 				}
 				return r_TaskConstructorCore_Delegate_Object_CancellationToken_TaskCreationOptions_InternalTaskOptions_TaskScheduler;
@@ -2281,7 +2281,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 			{
 				if(r_AddCompletionAction_ITaskCompletionAction == null)
 				{
-					r_AddCompletionAction_ITaskCompletionAction = new(this, "AddCompletionAction", 0,  ReleactionUtils.GetType("System.Threading.Tasks.ITaskCompletionAction"));
+					r_AddCompletionAction_ITaskCompletionAction = new(this, "AddCompletionAction", 0,  ReflectionUtils.GetType("System.Threading.Tasks.ITaskCompletionAction"));
 					r_AddCompletionAction_ITaskCompletionAction.SetBelong(this.instance);
 				}
 				return r_AddCompletionAction_ITaskCompletionAction;

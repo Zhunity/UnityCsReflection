@@ -309,7 +309,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_CopyFrom_Ref_VisualData == null)
 				{
-					r_CopyFrom_Ref_VisualData = new(this, "CopyFrom", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.VisualData").MakeByRefType());
+					r_CopyFrom_Ref_VisualData = new(this, "CopyFrom", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.VisualData").MakeByRefType());
 					r_CopyFrom_Ref_VisualData.SetBelong(this.instance);
 				}
 				return r_CopyFrom_Ref_VisualData;
@@ -326,7 +326,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_op_Equality_VisualData_VisualData == null)
 				{
-					r_op_Equality_VisualData_VisualData = new( ReleactionUtils.GetType("UnityEngine.UIElements.VisualData"), "op_Equality", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.VisualData"),  ReleactionUtils.GetType("UnityEngine.UIElements.VisualData"));
+					r_op_Equality_VisualData_VisualData = new( ReflectionUtils.GetType("UnityEngine.UIElements.VisualData"), "op_Equality", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.VisualData"),  ReflectionUtils.GetType("UnityEngine.UIElements.VisualData"));
 					r_op_Equality_VisualData_VisualData.SetBelong(null);
 				}
 				return r_op_Equality_VisualData_VisualData;
@@ -343,7 +343,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_op_Inequality_VisualData_VisualData == null)
 				{
-					r_op_Inequality_VisualData_VisualData = new( ReleactionUtils.GetType("UnityEngine.UIElements.VisualData"), "op_Inequality", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.VisualData"),  ReleactionUtils.GetType("UnityEngine.UIElements.VisualData"));
+					r_op_Inequality_VisualData_VisualData = new( ReflectionUtils.GetType("UnityEngine.UIElements.VisualData"), "op_Inequality", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.VisualData"),  ReflectionUtils.GetType("UnityEngine.UIElements.VisualData"));
 					r_op_Inequality_VisualData_VisualData.SetBelong(null);
 				}
 				return r_op_Inequality_VisualData_VisualData;
@@ -360,7 +360,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_Equals_VisualData == null)
 				{
-					r_Equals_VisualData = new(this, "Equals", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.VisualData"));
+					r_Equals_VisualData = new(this, "Equals", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.VisualData"));
 					r_Equals_VisualData.SetBelong(this.instance);
 				}
 				return r_Equals_VisualData;

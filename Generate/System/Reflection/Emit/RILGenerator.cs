@@ -1312,7 +1312,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 			{
 				if(r_SetExceptionHandlers_ILExceptionInfoArray == null)
 				{
-					r_SetExceptionHandlers_ILExceptionInfoArray = new(this, "SetExceptionHandlers", 0,  ReleactionUtils.GetType("System.Reflection.Emit.ILExceptionInfo").MakeArrayType());
+					r_SetExceptionHandlers_ILExceptionInfoArray = new(this, "SetExceptionHandlers", 0,  ReflectionUtils.GetType("System.Reflection.Emit.ILExceptionInfo").MakeArrayType());
 					r_SetExceptionHandlers_ILExceptionInfoArray.SetBelong(this.instance);
 				}
 				return r_SetExceptionHandlers_ILExceptionInfoArray;
@@ -1329,7 +1329,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 			{
 				if(r_SetTokenFixups_ILTokenInfoArray == null)
 				{
-					r_SetTokenFixups_ILTokenInfoArray = new(this, "SetTokenFixups", 0,  ReleactionUtils.GetType("System.Reflection.Emit.ILTokenInfo").MakeArrayType());
+					r_SetTokenFixups_ILTokenInfoArray = new(this, "SetTokenFixups", 0,  ReflectionUtils.GetType("System.Reflection.Emit.ILTokenInfo").MakeArrayType());
 					r_SetTokenFixups_ILTokenInfoArray.SetBelong(this.instance);
 				}
 				return r_SetTokenFixups_ILTokenInfoArray;

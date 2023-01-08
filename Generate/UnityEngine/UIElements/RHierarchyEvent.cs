@@ -71,7 +71,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_Invoke_VisualElement_HierarchyChangeType == null)
 				{
-					r_Invoke_VisualElement_HierarchyChangeType = new(this, "Invoke", 0, typeof(UnityEngine.UIElements.VisualElement),  ReleactionUtils.GetType("UnityEngine.UIElements.HierarchyChangeType"));
+					r_Invoke_VisualElement_HierarchyChangeType = new(this, "Invoke", 0, typeof(UnityEngine.UIElements.VisualElement),  ReflectionUtils.GetType("UnityEngine.UIElements.HierarchyChangeType"));
 					r_Invoke_VisualElement_HierarchyChangeType.SetBelong(this.instance);
 				}
 				return r_Invoke_VisualElement_HierarchyChangeType;
@@ -88,7 +88,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_BeginInvoke_VisualElement_HierarchyChangeType_AsyncCallback_Object == null)
 				{
-					r_BeginInvoke_VisualElement_HierarchyChangeType_AsyncCallback_Object = new(this, "BeginInvoke", 0, typeof(UnityEngine.UIElements.VisualElement),  ReleactionUtils.GetType("UnityEngine.UIElements.HierarchyChangeType"), typeof(System.AsyncCallback), typeof(System.Object));
+					r_BeginInvoke_VisualElement_HierarchyChangeType_AsyncCallback_Object = new(this, "BeginInvoke", 0, typeof(UnityEngine.UIElements.VisualElement),  ReflectionUtils.GetType("UnityEngine.UIElements.HierarchyChangeType"), typeof(System.AsyncCallback), typeof(System.Object));
 					r_BeginInvoke_VisualElement_HierarchyChangeType_AsyncCallback_Object.SetBelong(this.instance);
 				}
 				return r_BeginInvoke_VisualElement_HierarchyChangeType_AsyncCallback_Object;

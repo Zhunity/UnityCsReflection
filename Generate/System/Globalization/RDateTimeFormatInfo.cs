@@ -2536,7 +2536,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_InitializeOverridableProperties_CultureData_Int32 == null)
 				{
-					r_InitializeOverridableProperties_CultureData_Int32 = new(this, "InitializeOverridableProperties", 0,  ReleactionUtils.GetType("System.Globalization.CultureData"), typeof(System.Int32));
+					r_InitializeOverridableProperties_CultureData_Int32 = new(this, "InitializeOverridableProperties", 0,  ReflectionUtils.GetType("System.Globalization.CultureData"), typeof(System.Int32));
 					r_InitializeOverridableProperties_CultureData_Int32.SetBelong(this.instance);
 				}
 				return r_InitializeOverridableProperties_CultureData_Int32;
@@ -2672,7 +2672,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_internalGetMonthName_Int32_MonthNameStyles_Boolean == null)
 				{
-					r_internalGetMonthName_Int32_MonthNameStyles_Boolean = new(this, "internalGetMonthName", 0, typeof(System.Int32),  ReleactionUtils.GetType("System.Globalization.MonthNameStyles"), typeof(System.Boolean));
+					r_internalGetMonthName_Int32_MonthNameStyles_Boolean = new(this, "internalGetMonthName", 0, typeof(System.Int32),  ReflectionUtils.GetType("System.Globalization.MonthNameStyles"), typeof(System.Boolean));
 					r_internalGetMonthName_Int32_MonthNameStyles_Boolean.SetBelong(this.instance);
 				}
 				return r_internalGetMonthName_Int32_MonthNameStyles_Boolean;
@@ -3029,7 +3029,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_PopulateSpecialTokenHashTable_TokenHashValueArray_Ref_Boolean == null)
 				{
-					r_PopulateSpecialTokenHashTable_TokenHashValueArray_Ref_Boolean = new(this, "PopulateSpecialTokenHashTable", 0,  ReleactionUtils.GetType("System.Globalization.DateTimeFormatInfo+TokenHashValue").MakeArrayType(), typeof(System.Boolean).MakeByRefType());
+					r_PopulateSpecialTokenHashTable_TokenHashValueArray_Ref_Boolean = new(this, "PopulateSpecialTokenHashTable", 0,  ReflectionUtils.GetType("System.Globalization.DateTimeFormatInfo+TokenHashValue").MakeArrayType(), typeof(System.Boolean).MakeByRefType());
 					r_PopulateSpecialTokenHashTable_TokenHashValueArray_Ref_Boolean.SetBelong(this.instance);
 				}
 				return r_PopulateSpecialTokenHashTable_TokenHashValueArray_Ref_Boolean;
@@ -3063,7 +3063,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_AddMonthNames_TokenHashValueArray_String == null)
 				{
-					r_AddMonthNames_TokenHashValueArray_String = new(this, "AddMonthNames", 0,  ReleactionUtils.GetType("System.Globalization.DateTimeFormatInfo+TokenHashValue").MakeArrayType(), typeof(System.String));
+					r_AddMonthNames_TokenHashValueArray_String = new(this, "AddMonthNames", 0,  ReflectionUtils.GetType("System.Globalization.DateTimeFormatInfo+TokenHashValue").MakeArrayType(), typeof(System.String));
 					r_AddMonthNames_TokenHashValueArray_String.SetBelong(this.instance);
 				}
 				return r_AddMonthNames_TokenHashValueArray_String;
@@ -3080,7 +3080,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_TryParseHebrewNumber_Ref___DTString_Out_Boolean_Out_Int32 == null)
 				{
-					r_TryParseHebrewNumber_Ref___DTString_Out_Boolean_Out_Int32 = new(typeof(System.Globalization.DateTimeFormatInfo), "TryParseHebrewNumber", 0,  ReleactionUtils.GetType("System.__DTString").MakeByRefType(), typeof(System.Boolean).MakeByRefType(), typeof(System.Int32).MakeByRefType());
+					r_TryParseHebrewNumber_Ref___DTString_Out_Boolean_Out_Int32 = new(typeof(System.Globalization.DateTimeFormatInfo), "TryParseHebrewNumber", 0,  ReflectionUtils.GetType("System.__DTString").MakeByRefType(), typeof(System.Boolean).MakeByRefType(), typeof(System.Int32).MakeByRefType());
 					r_TryParseHebrewNumber_Ref___DTString_Out_Boolean_Out_Int32.SetBelong(null);
 				}
 				return r_TryParseHebrewNumber_Ref___DTString_Out_Boolean_Out_Int32;
@@ -3131,7 +3131,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_Tokenize_TokenType_Out_TokenType_Out_Int32_Ref___DTString == null)
 				{
-					r_Tokenize_TokenType_Out_TokenType_Out_Int32_Ref___DTString = new(this, "Tokenize", 0,  ReleactionUtils.GetType("System.TokenType"),  ReleactionUtils.GetType("System.TokenType").MakeByRefType(), typeof(System.Int32).MakeByRefType(),  ReleactionUtils.GetType("System.__DTString").MakeByRefType());
+					r_Tokenize_TokenType_Out_TokenType_Out_Int32_Ref___DTString = new(this, "Tokenize", 0,  ReflectionUtils.GetType("System.TokenType"),  ReflectionUtils.GetType("System.TokenType").MakeByRefType(), typeof(System.Int32).MakeByRefType(),  ReflectionUtils.GetType("System.__DTString").MakeByRefType());
 					r_Tokenize_TokenType_Out_TokenType_Out_Int32_Ref___DTString.SetBelong(this.instance);
 				}
 				return r_Tokenize_TokenType_Out_TokenType_Out_Int32_Ref___DTString;
@@ -3148,7 +3148,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_InsertAtCurrentHashNode_TokenHashValueArray_String_Char_TokenType_Int32_Int32_Int32_Int32 == null)
 				{
-					r_InsertAtCurrentHashNode_TokenHashValueArray_String_Char_TokenType_Int32_Int32_Int32_Int32 = new(this, "InsertAtCurrentHashNode", 0,  ReleactionUtils.GetType("System.Globalization.DateTimeFormatInfo+TokenHashValue").MakeArrayType(), typeof(System.String), typeof(System.Char),  ReleactionUtils.GetType("System.TokenType"), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32));
+					r_InsertAtCurrentHashNode_TokenHashValueArray_String_Char_TokenType_Int32_Int32_Int32_Int32 = new(this, "InsertAtCurrentHashNode", 0,  ReflectionUtils.GetType("System.Globalization.DateTimeFormatInfo+TokenHashValue").MakeArrayType(), typeof(System.String), typeof(System.Char),  ReflectionUtils.GetType("System.TokenType"), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32));
 					r_InsertAtCurrentHashNode_TokenHashValueArray_String_Char_TokenType_Int32_Int32_Int32_Int32.SetBelong(this.instance);
 				}
 				return r_InsertAtCurrentHashNode_TokenHashValueArray_String_Char_TokenType_Int32_Int32_Int32_Int32;
@@ -3165,7 +3165,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_InsertHash_TokenHashValueArray_String_TokenType_Int32 == null)
 				{
-					r_InsertHash_TokenHashValueArray_String_TokenType_Int32 = new(this, "InsertHash", 0,  ReleactionUtils.GetType("System.Globalization.DateTimeFormatInfo+TokenHashValue").MakeArrayType(), typeof(System.String),  ReleactionUtils.GetType("System.TokenType"), typeof(System.Int32));
+					r_InsertHash_TokenHashValueArray_String_TokenType_Int32 = new(this, "InsertHash", 0,  ReflectionUtils.GetType("System.Globalization.DateTimeFormatInfo+TokenHashValue").MakeArrayType(), typeof(System.String),  ReflectionUtils.GetType("System.TokenType"), typeof(System.Int32));
 					r_InsertHash_TokenHashValueArray_String_TokenType_Int32.SetBelong(this.instance);
 				}
 				return r_InsertHash_TokenHashValueArray_String_TokenType_Int32;

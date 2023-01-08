@@ -1125,7 +1125,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 			{
 				if(r_ConvertToEquirect_RenderTexture_MonoOrStereoscopicEye == null)
 				{
-					r_ConvertToEquirect_RenderTexture_MonoOrStereoscopicEye = new(this, "ConvertToEquirect", 0, typeof(UnityEngine.RenderTexture),  ReleactionUtils.GetType("UnityEngine.Camera+MonoOrStereoscopicEye"));
+					r_ConvertToEquirect_RenderTexture_MonoOrStereoscopicEye = new(this, "ConvertToEquirect", 0, typeof(UnityEngine.RenderTexture),  ReflectionUtils.GetType("UnityEngine.Camera+MonoOrStereoscopicEye"));
 					r_ConvertToEquirect_RenderTexture_MonoOrStereoscopicEye.SetBelong(this.instance);
 				}
 				return r_ConvertToEquirect_RenderTexture_MonoOrStereoscopicEye;

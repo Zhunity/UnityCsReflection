@@ -37,7 +37,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_Reset_BasicNode_d_T_p_ == null)
 				{
-					r_Reset_BasicNode_d_T_p_ = new( ReleactionUtils.GetType("UnityEngine.UIElements.UIR.BasicNodePool`1"), "Reset", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.UIR.BasicNode`1").MakeGenericType(Type.MakeGenericMethodParameter(0)));
+					r_Reset_BasicNode_d_T_p_ = new( ReflectionUtils.GetType("UnityEngine.UIElements.UIR.BasicNodePool`1"), "Reset", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.UIR.BasicNode`1").MakeGenericType(Type.MakeGenericMethodParameter(0)));
 					r_Reset_BasicNode_d_T_p_.SetBelong(null);
 				}
 				return r_Reset_BasicNode_d_T_p_;
@@ -54,7 +54,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_Create == null)
 				{
-					r_Create = new( ReleactionUtils.GetType("UnityEngine.UIElements.UIR.BasicNodePool`1"), "Create", 0);
+					r_Create = new( ReflectionUtils.GetType("UnityEngine.UIElements.UIR.BasicNodePool`1"), "Create", 0);
 					r_Create.SetBelong(null);
 				}
 				return r_Create;
@@ -105,7 +105,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_Return_BasicNode_d_T_p_ == null)
 				{
-					r_Return_BasicNode_d_T_p_ = new(this, "Return", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.UIR.BasicNode`1").MakeGenericType(Type.MakeGenericMethodParameter(0)));
+					r_Return_BasicNode_d_T_p_ = new(this, "Return", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.UIR.BasicNode`1").MakeGenericType(Type.MakeGenericMethodParameter(0)));
 					r_Return_BasicNode_d_T_p_.SetBelong(this.instance);
 				}
 				return r_Return_BasicNode_d_T_p_;

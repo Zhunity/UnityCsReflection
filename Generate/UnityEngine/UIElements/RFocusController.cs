@@ -411,7 +411,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_AboutToReleaseFocus_Focusable_Focusable_FocusChangeDirection_DispatchMode == null)
 				{
-					r_AboutToReleaseFocus_Focusable_Focusable_FocusChangeDirection_DispatchMode = new(this, "AboutToReleaseFocus", 0, typeof(UnityEngine.UIElements.Focusable), typeof(UnityEngine.UIElements.Focusable), typeof(UnityEngine.UIElements.FocusChangeDirection),  ReleactionUtils.GetType("UnityEngine.UIElements.DispatchMode"));
+					r_AboutToReleaseFocus_Focusable_Focusable_FocusChangeDirection_DispatchMode = new(this, "AboutToReleaseFocus", 0, typeof(UnityEngine.UIElements.Focusable), typeof(UnityEngine.UIElements.Focusable), typeof(UnityEngine.UIElements.FocusChangeDirection),  ReflectionUtils.GetType("UnityEngine.UIElements.DispatchMode"));
 					r_AboutToReleaseFocus_Focusable_Focusable_FocusChangeDirection_DispatchMode.SetBelong(this.instance);
 				}
 				return r_AboutToReleaseFocus_Focusable_Focusable_FocusChangeDirection_DispatchMode;
@@ -428,7 +428,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_ReleaseFocus_Focusable_Focusable_FocusChangeDirection_DispatchMode == null)
 				{
-					r_ReleaseFocus_Focusable_Focusable_FocusChangeDirection_DispatchMode = new(this, "ReleaseFocus", 0, typeof(UnityEngine.UIElements.Focusable), typeof(UnityEngine.UIElements.Focusable), typeof(UnityEngine.UIElements.FocusChangeDirection),  ReleactionUtils.GetType("UnityEngine.UIElements.DispatchMode"));
+					r_ReleaseFocus_Focusable_Focusable_FocusChangeDirection_DispatchMode = new(this, "ReleaseFocus", 0, typeof(UnityEngine.UIElements.Focusable), typeof(UnityEngine.UIElements.Focusable), typeof(UnityEngine.UIElements.FocusChangeDirection),  ReflectionUtils.GetType("UnityEngine.UIElements.DispatchMode"));
 					r_ReleaseFocus_Focusable_Focusable_FocusChangeDirection_DispatchMode.SetBelong(this.instance);
 				}
 				return r_ReleaseFocus_Focusable_Focusable_FocusChangeDirection_DispatchMode;
@@ -445,7 +445,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_AboutToGrabFocus_Focusable_Focusable_FocusChangeDirection_DispatchMode == null)
 				{
-					r_AboutToGrabFocus_Focusable_Focusable_FocusChangeDirection_DispatchMode = new(this, "AboutToGrabFocus", 0, typeof(UnityEngine.UIElements.Focusable), typeof(UnityEngine.UIElements.Focusable), typeof(UnityEngine.UIElements.FocusChangeDirection),  ReleactionUtils.GetType("UnityEngine.UIElements.DispatchMode"));
+					r_AboutToGrabFocus_Focusable_Focusable_FocusChangeDirection_DispatchMode = new(this, "AboutToGrabFocus", 0, typeof(UnityEngine.UIElements.Focusable), typeof(UnityEngine.UIElements.Focusable), typeof(UnityEngine.UIElements.FocusChangeDirection),  ReflectionUtils.GetType("UnityEngine.UIElements.DispatchMode"));
 					r_AboutToGrabFocus_Focusable_Focusable_FocusChangeDirection_DispatchMode.SetBelong(this.instance);
 				}
 				return r_AboutToGrabFocus_Focusable_Focusable_FocusChangeDirection_DispatchMode;
@@ -462,7 +462,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_GrabFocus_Focusable_Focusable_FocusChangeDirection_Boolean_DispatchMode == null)
 				{
-					r_GrabFocus_Focusable_Focusable_FocusChangeDirection_Boolean_DispatchMode = new(this, "GrabFocus", 0, typeof(UnityEngine.UIElements.Focusable), typeof(UnityEngine.UIElements.Focusable), typeof(UnityEngine.UIElements.FocusChangeDirection), typeof(System.Boolean),  ReleactionUtils.GetType("UnityEngine.UIElements.DispatchMode"));
+					r_GrabFocus_Focusable_Focusable_FocusChangeDirection_Boolean_DispatchMode = new(this, "GrabFocus", 0, typeof(UnityEngine.UIElements.Focusable), typeof(UnityEngine.UIElements.Focusable), typeof(UnityEngine.UIElements.FocusChangeDirection), typeof(System.Boolean),  ReflectionUtils.GetType("UnityEngine.UIElements.DispatchMode"));
 					r_GrabFocus_Focusable_Focusable_FocusChangeDirection_Boolean_DispatchMode.SetBelong(this.instance);
 				}
 				return r_GrabFocus_Focusable_Focusable_FocusChangeDirection_Boolean_DispatchMode;
@@ -479,7 +479,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_Blur_Focusable_Boolean_DispatchMode == null)
 				{
-					r_Blur_Focusable_Boolean_DispatchMode = new(this, "Blur", 0, typeof(UnityEngine.UIElements.Focusable), typeof(System.Boolean),  ReleactionUtils.GetType("UnityEngine.UIElements.DispatchMode"));
+					r_Blur_Focusable_Boolean_DispatchMode = new(this, "Blur", 0, typeof(UnityEngine.UIElements.Focusable), typeof(System.Boolean),  ReflectionUtils.GetType("UnityEngine.UIElements.DispatchMode"));
 					r_Blur_Focusable_Boolean_DispatchMode.SetBelong(this.instance);
 				}
 				return r_Blur_Focusable_Boolean_DispatchMode;
@@ -496,7 +496,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_SwitchFocus_Focusable_Boolean_DispatchMode == null)
 				{
-					r_SwitchFocus_Focusable_Boolean_DispatchMode = new(this, "SwitchFocus", 0, typeof(UnityEngine.UIElements.Focusable), typeof(System.Boolean),  ReleactionUtils.GetType("UnityEngine.UIElements.DispatchMode"));
+					r_SwitchFocus_Focusable_Boolean_DispatchMode = new(this, "SwitchFocus", 0, typeof(UnityEngine.UIElements.Focusable), typeof(System.Boolean),  ReflectionUtils.GetType("UnityEngine.UIElements.DispatchMode"));
 					r_SwitchFocus_Focusable_Boolean_DispatchMode.SetBelong(this.instance);
 				}
 				return r_SwitchFocus_Focusable_Boolean_DispatchMode;
@@ -513,7 +513,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_SwitchFocus_Focusable_FocusChangeDirection_Boolean_DispatchMode == null)
 				{
-					r_SwitchFocus_Focusable_FocusChangeDirection_Boolean_DispatchMode = new(this, "SwitchFocus", 0, typeof(UnityEngine.UIElements.Focusable), typeof(UnityEngine.UIElements.FocusChangeDirection), typeof(System.Boolean),  ReleactionUtils.GetType("UnityEngine.UIElements.DispatchMode"));
+					r_SwitchFocus_Focusable_FocusChangeDirection_Boolean_DispatchMode = new(this, "SwitchFocus", 0, typeof(UnityEngine.UIElements.Focusable), typeof(UnityEngine.UIElements.FocusChangeDirection), typeof(System.Boolean),  ReflectionUtils.GetType("UnityEngine.UIElements.DispatchMode"));
 					r_SwitchFocus_Focusable_FocusChangeDirection_Boolean_DispatchMode.SetBelong(this.instance);
 				}
 				return r_SwitchFocus_Focusable_FocusChangeDirection_Boolean_DispatchMode;

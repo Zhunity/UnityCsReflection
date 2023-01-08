@@ -1890,7 +1890,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 			{
 				if(r_GetByteCount_CharPointer_Int32_EncoderNLS == null)
 				{
-					r_GetByteCount_CharPointer_Int32_EncoderNLS = new(this, "GetByteCount", 0, typeof(System.Char).MakePointerType(), typeof(System.Int32),  ReleactionUtils.GetType("System.Text.EncoderNLS"));
+					r_GetByteCount_CharPointer_Int32_EncoderNLS = new(this, "GetByteCount", 0, typeof(System.Char).MakePointerType(), typeof(System.Int32),  ReflectionUtils.GetType("System.Text.EncoderNLS"));
 					r_GetByteCount_CharPointer_Int32_EncoderNLS.SetBelong(this.instance);
 				}
 				return r_GetByteCount_CharPointer_Int32_EncoderNLS;
@@ -1992,7 +1992,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 			{
 				if(r_GetBytes_CharPointer_Int32_BytePointer_Int32_EncoderNLS == null)
 				{
-					r_GetBytes_CharPointer_Int32_BytePointer_Int32_EncoderNLS = new(this, "GetBytes", 0, typeof(System.Char).MakePointerType(), typeof(System.Int32), typeof(System.Byte).MakePointerType(), typeof(System.Int32),  ReleactionUtils.GetType("System.Text.EncoderNLS"));
+					r_GetBytes_CharPointer_Int32_BytePointer_Int32_EncoderNLS = new(this, "GetBytes", 0, typeof(System.Char).MakePointerType(), typeof(System.Int32), typeof(System.Byte).MakePointerType(), typeof(System.Int32),  ReflectionUtils.GetType("System.Text.EncoderNLS"));
 					r_GetBytes_CharPointer_Int32_BytePointer_Int32_EncoderNLS.SetBelong(this.instance);
 				}
 				return r_GetBytes_CharPointer_Int32_BytePointer_Int32_EncoderNLS;
@@ -2077,7 +2077,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 			{
 				if(r_GetCharCount_BytePointer_Int32_DecoderNLS == null)
 				{
-					r_GetCharCount_BytePointer_Int32_DecoderNLS = new(this, "GetCharCount", 0, typeof(System.Byte).MakePointerType(), typeof(System.Int32),  ReleactionUtils.GetType("System.Text.DecoderNLS"));
+					r_GetCharCount_BytePointer_Int32_DecoderNLS = new(this, "GetCharCount", 0, typeof(System.Byte).MakePointerType(), typeof(System.Int32),  ReflectionUtils.GetType("System.Text.DecoderNLS"));
 					r_GetCharCount_BytePointer_Int32_DecoderNLS.SetBelong(this.instance);
 				}
 				return r_GetCharCount_BytePointer_Int32_DecoderNLS;
@@ -2162,7 +2162,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 			{
 				if(r_GetChars_BytePointer_Int32_CharPointer_Int32_DecoderNLS == null)
 				{
-					r_GetChars_BytePointer_Int32_CharPointer_Int32_DecoderNLS = new(this, "GetChars", 0, typeof(System.Byte).MakePointerType(), typeof(System.Int32), typeof(System.Char).MakePointerType(), typeof(System.Int32),  ReleactionUtils.GetType("System.Text.DecoderNLS"));
+					r_GetChars_BytePointer_Int32_CharPointer_Int32_DecoderNLS = new(this, "GetChars", 0, typeof(System.Byte).MakePointerType(), typeof(System.Int32), typeof(System.Char).MakePointerType(), typeof(System.Int32),  ReflectionUtils.GetType("System.Text.DecoderNLS"));
 					r_GetChars_BytePointer_Int32_CharPointer_Int32_DecoderNLS.SetBelong(this.instance);
 				}
 				return r_GetChars_BytePointer_Int32_CharPointer_Int32_DecoderNLS;
@@ -2485,7 +2485,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 			{
 				if(r_ThrowBytesOverflow_EncoderNLS_Boolean == null)
 				{
-					r_ThrowBytesOverflow_EncoderNLS_Boolean = new(this, "ThrowBytesOverflow", 0,  ReleactionUtils.GetType("System.Text.EncoderNLS"), typeof(System.Boolean));
+					r_ThrowBytesOverflow_EncoderNLS_Boolean = new(this, "ThrowBytesOverflow", 0,  ReflectionUtils.GetType("System.Text.EncoderNLS"), typeof(System.Boolean));
 					r_ThrowBytesOverflow_EncoderNLS_Boolean.SetBelong(this.instance);
 				}
 				return r_ThrowBytesOverflow_EncoderNLS_Boolean;
@@ -2519,7 +2519,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 			{
 				if(r_ThrowCharsOverflow_DecoderNLS_Boolean == null)
 				{
-					r_ThrowCharsOverflow_DecoderNLS_Boolean = new(this, "ThrowCharsOverflow", 0,  ReleactionUtils.GetType("System.Text.DecoderNLS"), typeof(System.Boolean));
+					r_ThrowCharsOverflow_DecoderNLS_Boolean = new(this, "ThrowCharsOverflow", 0,  ReflectionUtils.GetType("System.Text.DecoderNLS"), typeof(System.Boolean));
 					r_ThrowCharsOverflow_DecoderNLS_Boolean.SetBelong(this.instance);
 				}
 				return r_ThrowCharsOverflow_DecoderNLS_Boolean;

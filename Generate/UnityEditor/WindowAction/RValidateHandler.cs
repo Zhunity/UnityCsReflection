@@ -73,7 +73,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 			{
 				if(r_Invoke_EditorWindow_WindowAction == null)
 				{
-					r_Invoke_EditorWindow_WindowAction = new(this, "Invoke", 0, typeof(UnityEditor.EditorWindow),  ReleactionUtils.GetType("UnityEditor.WindowAction"));
+					r_Invoke_EditorWindow_WindowAction = new(this, "Invoke", 0, typeof(UnityEditor.EditorWindow),  ReflectionUtils.GetType("UnityEditor.WindowAction"));
 					r_Invoke_EditorWindow_WindowAction.SetBelong(this.instance);
 				}
 				return r_Invoke_EditorWindow_WindowAction;
@@ -90,7 +90,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 			{
 				if(r_BeginInvoke_EditorWindow_WindowAction_AsyncCallback_Object == null)
 				{
-					r_BeginInvoke_EditorWindow_WindowAction_AsyncCallback_Object = new(this, "BeginInvoke", 0, typeof(UnityEditor.EditorWindow),  ReleactionUtils.GetType("UnityEditor.WindowAction"), typeof(System.AsyncCallback), typeof(System.Object));
+					r_BeginInvoke_EditorWindow_WindowAction_AsyncCallback_Object = new(this, "BeginInvoke", 0, typeof(UnityEditor.EditorWindow),  ReflectionUtils.GetType("UnityEditor.WindowAction"), typeof(System.AsyncCallback), typeof(System.Object));
 					r_BeginInvoke_EditorWindow_WindowAction_AsyncCallback_Object.SetBelong(this.instance);
 				}
 				return r_BeginInvoke_EditorWindow_WindowAction_AsyncCallback_Object;

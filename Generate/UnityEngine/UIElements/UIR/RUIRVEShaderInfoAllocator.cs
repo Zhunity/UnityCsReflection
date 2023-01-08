@@ -190,7 +190,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_identityTransformTexel == null)
 				{
-					r_identityTransformTexel = new( ReleactionUtils.GetType("UnityEngine.UIElements.UIR.UIRVEShaderInfoAllocator"), "identityTransformTexel");
+					r_identityTransformTexel = new( ReflectionUtils.GetType("UnityEngine.UIElements.UIR.UIRVEShaderInfoAllocator"), "identityTransformTexel");
 					r_identityTransformTexel.SetBelong(null);
 				}
 				return r_identityTransformTexel;
@@ -207,7 +207,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_infiniteClipRectTexel == null)
 				{
-					r_infiniteClipRectTexel = new( ReleactionUtils.GetType("UnityEngine.UIElements.UIR.UIRVEShaderInfoAllocator"), "infiniteClipRectTexel");
+					r_infiniteClipRectTexel = new( ReflectionUtils.GetType("UnityEngine.UIElements.UIR.UIRVEShaderInfoAllocator"), "infiniteClipRectTexel");
 					r_infiniteClipRectTexel.SetBelong(null);
 				}
 				return r_infiniteClipRectTexel;
@@ -224,7 +224,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_fullOpacityTexel == null)
 				{
-					r_fullOpacityTexel = new( ReleactionUtils.GetType("UnityEngine.UIElements.UIR.UIRVEShaderInfoAllocator"), "fullOpacityTexel");
+					r_fullOpacityTexel = new( ReflectionUtils.GetType("UnityEngine.UIElements.UIR.UIRVEShaderInfoAllocator"), "fullOpacityTexel");
 					r_fullOpacityTexel.SetBelong(null);
 				}
 				return r_fullOpacityTexel;
@@ -241,7 +241,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_clearColorTexel == null)
 				{
-					r_clearColorTexel = new( ReleactionUtils.GetType("UnityEngine.UIElements.UIR.UIRVEShaderInfoAllocator"), "clearColorTexel");
+					r_clearColorTexel = new( ReflectionUtils.GetType("UnityEngine.UIElements.UIR.UIRVEShaderInfoAllocator"), "clearColorTexel");
 					r_clearColorTexel.SetBelong(null);
 				}
 				return r_clearColorTexel;
@@ -258,7 +258,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_defaultTextCoreSettingsTexel == null)
 				{
-					r_defaultTextCoreSettingsTexel = new( ReleactionUtils.GetType("UnityEngine.UIElements.UIR.UIRVEShaderInfoAllocator"), "defaultTextCoreSettingsTexel");
+					r_defaultTextCoreSettingsTexel = new( ReflectionUtils.GetType("UnityEngine.UIElements.UIR.UIRVEShaderInfoAllocator"), "defaultTextCoreSettingsTexel");
 					r_defaultTextCoreSettingsTexel.SetBelong(null);
 				}
 				return r_defaultTextCoreSettingsTexel;
@@ -275,7 +275,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_identityTransformValue == null)
 				{
-					r_identityTransformValue = new( ReleactionUtils.GetType("UnityEngine.UIElements.UIR.UIRVEShaderInfoAllocator"), "identityTransformValue");
+					r_identityTransformValue = new( ReflectionUtils.GetType("UnityEngine.UIElements.UIR.UIRVEShaderInfoAllocator"), "identityTransformValue");
 					r_identityTransformValue.SetBelong(null);
 				}
 				return r_identityTransformValue;
@@ -292,7 +292,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_identityTransformRow0Value == null)
 				{
-					r_identityTransformRow0Value = new( ReleactionUtils.GetType("UnityEngine.UIElements.UIR.UIRVEShaderInfoAllocator"), "identityTransformRow0Value");
+					r_identityTransformRow0Value = new( ReflectionUtils.GetType("UnityEngine.UIElements.UIR.UIRVEShaderInfoAllocator"), "identityTransformRow0Value");
 					r_identityTransformRow0Value.SetBelong(null);
 				}
 				return r_identityTransformRow0Value;
@@ -309,7 +309,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_identityTransformRow1Value == null)
 				{
-					r_identityTransformRow1Value = new( ReleactionUtils.GetType("UnityEngine.UIElements.UIR.UIRVEShaderInfoAllocator"), "identityTransformRow1Value");
+					r_identityTransformRow1Value = new( ReflectionUtils.GetType("UnityEngine.UIElements.UIR.UIRVEShaderInfoAllocator"), "identityTransformRow1Value");
 					r_identityTransformRow1Value.SetBelong(null);
 				}
 				return r_identityTransformRow1Value;
@@ -326,7 +326,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_identityTransformRow2Value == null)
 				{
-					r_identityTransformRow2Value = new( ReleactionUtils.GetType("UnityEngine.UIElements.UIR.UIRVEShaderInfoAllocator"), "identityTransformRow2Value");
+					r_identityTransformRow2Value = new( ReflectionUtils.GetType("UnityEngine.UIElements.UIR.UIRVEShaderInfoAllocator"), "identityTransformRow2Value");
 					r_identityTransformRow2Value.SetBelong(null);
 				}
 				return r_identityTransformRow2Value;
@@ -343,7 +343,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_infiniteClipRectValue == null)
 				{
-					r_infiniteClipRectValue = new( ReleactionUtils.GetType("UnityEngine.UIElements.UIR.UIRVEShaderInfoAllocator"), "infiniteClipRectValue");
+					r_infiniteClipRectValue = new( ReflectionUtils.GetType("UnityEngine.UIElements.UIR.UIRVEShaderInfoAllocator"), "infiniteClipRectValue");
 					r_infiniteClipRectValue.SetBelong(null);
 				}
 				return r_infiniteClipRectValue;
@@ -360,7 +360,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_fullOpacityValue == null)
 				{
-					r_fullOpacityValue = new( ReleactionUtils.GetType("UnityEngine.UIElements.UIR.UIRVEShaderInfoAllocator"), "fullOpacityValue");
+					r_fullOpacityValue = new( ReflectionUtils.GetType("UnityEngine.UIElements.UIR.UIRVEShaderInfoAllocator"), "fullOpacityValue");
 					r_fullOpacityValue.SetBelong(null);
 				}
 				return r_fullOpacityValue;
@@ -377,7 +377,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_clearColorValue == null)
 				{
-					r_clearColorValue = new( ReleactionUtils.GetType("UnityEngine.UIElements.UIR.UIRVEShaderInfoAllocator"), "clearColorValue");
+					r_clearColorValue = new( ReflectionUtils.GetType("UnityEngine.UIElements.UIR.UIRVEShaderInfoAllocator"), "clearColorValue");
 					r_clearColorValue.SetBelong(null);
 				}
 				return r_clearColorValue;
@@ -394,7 +394,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_defaultTextCoreSettingsValue == null)
 				{
-					r_defaultTextCoreSettingsValue = new( ReleactionUtils.GetType("UnityEngine.UIElements.UIR.UIRVEShaderInfoAllocator"), "defaultTextCoreSettingsValue");
+					r_defaultTextCoreSettingsValue = new( ReflectionUtils.GetType("UnityEngine.UIElements.UIR.UIRVEShaderInfoAllocator"), "defaultTextCoreSettingsValue");
 					r_defaultTextCoreSettingsValue.SetBelong(null);
 				}
 				return r_defaultTextCoreSettingsValue;
@@ -411,7 +411,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_identityTransform == null)
 				{
-					r_identityTransform = new( ReleactionUtils.GetType("UnityEngine.UIElements.UIR.UIRVEShaderInfoAllocator"), "identityTransform");
+					r_identityTransform = new( ReflectionUtils.GetType("UnityEngine.UIElements.UIR.UIRVEShaderInfoAllocator"), "identityTransform");
 					r_identityTransform.SetBelong(null);
 				}
 				return r_identityTransform;
@@ -428,7 +428,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_infiniteClipRect == null)
 				{
-					r_infiniteClipRect = new( ReleactionUtils.GetType("UnityEngine.UIElements.UIR.UIRVEShaderInfoAllocator"), "infiniteClipRect");
+					r_infiniteClipRect = new( ReflectionUtils.GetType("UnityEngine.UIElements.UIR.UIRVEShaderInfoAllocator"), "infiniteClipRect");
 					r_infiniteClipRect.SetBelong(null);
 				}
 				return r_infiniteClipRect;
@@ -445,7 +445,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_fullOpacity == null)
 				{
-					r_fullOpacity = new( ReleactionUtils.GetType("UnityEngine.UIElements.UIR.UIRVEShaderInfoAllocator"), "fullOpacity");
+					r_fullOpacity = new( ReflectionUtils.GetType("UnityEngine.UIElements.UIR.UIRVEShaderInfoAllocator"), "fullOpacity");
 					r_fullOpacity.SetBelong(null);
 				}
 				return r_fullOpacity;
@@ -462,7 +462,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_clearColor == null)
 				{
-					r_clearColor = new( ReleactionUtils.GetType("UnityEngine.UIElements.UIR.UIRVEShaderInfoAllocator"), "clearColor");
+					r_clearColor = new( ReflectionUtils.GetType("UnityEngine.UIElements.UIR.UIRVEShaderInfoAllocator"), "clearColor");
 					r_clearColor.SetBelong(null);
 				}
 				return r_clearColor;
@@ -479,7 +479,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_defaultTextCoreSettings == null)
 				{
-					r_defaultTextCoreSettings = new( ReleactionUtils.GetType("UnityEngine.UIElements.UIR.UIRVEShaderInfoAllocator"), "defaultTextCoreSettings");
+					r_defaultTextCoreSettings = new( ReflectionUtils.GetType("UnityEngine.UIElements.UIR.UIRVEShaderInfoAllocator"), "defaultTextCoreSettings");
 					r_defaultTextCoreSettings.SetBelong(null);
 				}
 				return r_defaultTextCoreSettings;
@@ -496,7 +496,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_pageWidth == null)
 				{
-					r_pageWidth = new( ReleactionUtils.GetType("UnityEngine.UIElements.UIR.UIRVEShaderInfoAllocator"), "pageWidth", -1);
+					r_pageWidth = new( ReflectionUtils.GetType("UnityEngine.UIElements.UIR.UIRVEShaderInfoAllocator"), "pageWidth", -1);
 					r_pageWidth.SetBelong(null);
 				}
 				return r_pageWidth;
@@ -513,7 +513,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_pageHeight == null)
 				{
-					r_pageHeight = new( ReleactionUtils.GetType("UnityEngine.UIElements.UIR.UIRVEShaderInfoAllocator"), "pageHeight", -1);
+					r_pageHeight = new( ReflectionUtils.GetType("UnityEngine.UIElements.UIR.UIRVEShaderInfoAllocator"), "pageHeight", -1);
 					r_pageHeight.SetBelong(null);
 				}
 				return r_pageHeight;
@@ -598,7 +598,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_AllocToTexelCoord_Ref_BitmapAllocator32_BMPAlloc == null)
 				{
-					r_AllocToTexelCoord_Ref_BitmapAllocator32_BMPAlloc = new( ReleactionUtils.GetType("UnityEngine.UIElements.UIR.UIRVEShaderInfoAllocator"), "AllocToTexelCoord", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.UIR.BitmapAllocator32").MakeByRefType(),  ReleactionUtils.GetType("UnityEngine.UIElements.UIR.BMPAlloc"));
+					r_AllocToTexelCoord_Ref_BitmapAllocator32_BMPAlloc = new( ReflectionUtils.GetType("UnityEngine.UIElements.UIR.UIRVEShaderInfoAllocator"), "AllocToTexelCoord", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.UIR.BitmapAllocator32").MakeByRefType(),  ReflectionUtils.GetType("UnityEngine.UIElements.UIR.BMPAlloc"));
 					r_AllocToTexelCoord_Ref_BitmapAllocator32_BMPAlloc.SetBelong(null);
 				}
 				return r_AllocToTexelCoord_Ref_BitmapAllocator32_BMPAlloc;
@@ -615,7 +615,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_AllocToConstantBufferIndex_BMPAlloc == null)
 				{
-					r_AllocToConstantBufferIndex_BMPAlloc = new( ReleactionUtils.GetType("UnityEngine.UIElements.UIR.UIRVEShaderInfoAllocator"), "AllocToConstantBufferIndex", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.UIR.BMPAlloc"));
+					r_AllocToConstantBufferIndex_BMPAlloc = new( ReflectionUtils.GetType("UnityEngine.UIElements.UIR.UIRVEShaderInfoAllocator"), "AllocToConstantBufferIndex", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.UIR.BMPAlloc"));
 					r_AllocToConstantBufferIndex_BMPAlloc.SetBelong(null);
 				}
 				return r_AllocToConstantBufferIndex_BMPAlloc;
@@ -632,7 +632,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_AtlasRectMatchesPage_Ref_BitmapAllocator32_BMPAlloc_RectInt == null)
 				{
-					r_AtlasRectMatchesPage_Ref_BitmapAllocator32_BMPAlloc_RectInt = new( ReleactionUtils.GetType("UnityEngine.UIElements.UIR.UIRVEShaderInfoAllocator"), "AtlasRectMatchesPage", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.UIR.BitmapAllocator32").MakeByRefType(),  ReleactionUtils.GetType("UnityEngine.UIElements.UIR.BMPAlloc"), typeof(UnityEngine.RectInt));
+					r_AtlasRectMatchesPage_Ref_BitmapAllocator32_BMPAlloc_RectInt = new( ReflectionUtils.GetType("UnityEngine.UIElements.UIR.UIRVEShaderInfoAllocator"), "AtlasRectMatchesPage", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.UIR.BitmapAllocator32").MakeByRefType(),  ReflectionUtils.GetType("UnityEngine.UIElements.UIR.BMPAlloc"), typeof(UnityEngine.RectInt));
 					r_AtlasRectMatchesPage_Ref_BitmapAllocator32_BMPAlloc_RectInt.SetBelong(null);
 				}
 				return r_AtlasRectMatchesPage_Ref_BitmapAllocator32_BMPAlloc_RectInt;
@@ -785,7 +785,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_AllocTextCoreSettings_TextCoreSettings == null)
 				{
-					r_AllocTextCoreSettings_TextCoreSettings = new(this, "AllocTextCoreSettings", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.UIR.TextCoreSettings"));
+					r_AllocTextCoreSettings_TextCoreSettings = new(this, "AllocTextCoreSettings", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.UIR.TextCoreSettings"));
 					r_AllocTextCoreSettings_TextCoreSettings.SetBelong(this.instance);
 				}
 				return r_AllocTextCoreSettings_TextCoreSettings;
@@ -802,7 +802,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_SetTransformValue_BMPAlloc_Matrix4x4 == null)
 				{
-					r_SetTransformValue_BMPAlloc_Matrix4x4 = new(this, "SetTransformValue", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.UIR.BMPAlloc"), typeof(UnityEngine.Matrix4x4));
+					r_SetTransformValue_BMPAlloc_Matrix4x4 = new(this, "SetTransformValue", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.UIR.BMPAlloc"), typeof(UnityEngine.Matrix4x4));
 					r_SetTransformValue_BMPAlloc_Matrix4x4.SetBelong(this.instance);
 				}
 				return r_SetTransformValue_BMPAlloc_Matrix4x4;
@@ -819,7 +819,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_SetClipRectValue_BMPAlloc_Vector4 == null)
 				{
-					r_SetClipRectValue_BMPAlloc_Vector4 = new(this, "SetClipRectValue", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.UIR.BMPAlloc"), typeof(UnityEngine.Vector4));
+					r_SetClipRectValue_BMPAlloc_Vector4 = new(this, "SetClipRectValue", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.UIR.BMPAlloc"), typeof(UnityEngine.Vector4));
 					r_SetClipRectValue_BMPAlloc_Vector4.SetBelong(this.instance);
 				}
 				return r_SetClipRectValue_BMPAlloc_Vector4;
@@ -836,7 +836,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_SetOpacityValue_BMPAlloc_Single == null)
 				{
-					r_SetOpacityValue_BMPAlloc_Single = new(this, "SetOpacityValue", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.UIR.BMPAlloc"), typeof(System.Single));
+					r_SetOpacityValue_BMPAlloc_Single = new(this, "SetOpacityValue", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.UIR.BMPAlloc"), typeof(System.Single));
 					r_SetOpacityValue_BMPAlloc_Single.SetBelong(this.instance);
 				}
 				return r_SetOpacityValue_BMPAlloc_Single;
@@ -853,7 +853,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_SetColorValue_BMPAlloc_Color == null)
 				{
-					r_SetColorValue_BMPAlloc_Color = new(this, "SetColorValue", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.UIR.BMPAlloc"), typeof(UnityEngine.Color));
+					r_SetColorValue_BMPAlloc_Color = new(this, "SetColorValue", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.UIR.BMPAlloc"), typeof(UnityEngine.Color));
 					r_SetColorValue_BMPAlloc_Color.SetBelong(this.instance);
 				}
 				return r_SetColorValue_BMPAlloc_Color;
@@ -870,7 +870,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_SetTextCoreSettingValue_BMPAlloc_TextCoreSettings == null)
 				{
-					r_SetTextCoreSettingValue_BMPAlloc_TextCoreSettings = new(this, "SetTextCoreSettingValue", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.UIR.BMPAlloc"),  ReleactionUtils.GetType("UnityEngine.UIElements.UIR.TextCoreSettings"));
+					r_SetTextCoreSettingValue_BMPAlloc_TextCoreSettings = new(this, "SetTextCoreSettingValue", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.UIR.BMPAlloc"),  ReflectionUtils.GetType("UnityEngine.UIElements.UIR.TextCoreSettings"));
 					r_SetTextCoreSettingValue_BMPAlloc_TextCoreSettings.SetBelong(this.instance);
 				}
 				return r_SetTextCoreSettingValue_BMPAlloc_TextCoreSettings;
@@ -887,7 +887,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_FreeTransform_BMPAlloc == null)
 				{
-					r_FreeTransform_BMPAlloc = new(this, "FreeTransform", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.UIR.BMPAlloc"));
+					r_FreeTransform_BMPAlloc = new(this, "FreeTransform", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.UIR.BMPAlloc"));
 					r_FreeTransform_BMPAlloc.SetBelong(this.instance);
 				}
 				return r_FreeTransform_BMPAlloc;
@@ -904,7 +904,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_FreeClipRect_BMPAlloc == null)
 				{
-					r_FreeClipRect_BMPAlloc = new(this, "FreeClipRect", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.UIR.BMPAlloc"));
+					r_FreeClipRect_BMPAlloc = new(this, "FreeClipRect", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.UIR.BMPAlloc"));
 					r_FreeClipRect_BMPAlloc.SetBelong(this.instance);
 				}
 				return r_FreeClipRect_BMPAlloc;
@@ -921,7 +921,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_FreeOpacity_BMPAlloc == null)
 				{
-					r_FreeOpacity_BMPAlloc = new(this, "FreeOpacity", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.UIR.BMPAlloc"));
+					r_FreeOpacity_BMPAlloc = new(this, "FreeOpacity", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.UIR.BMPAlloc"));
 					r_FreeOpacity_BMPAlloc.SetBelong(this.instance);
 				}
 				return r_FreeOpacity_BMPAlloc;
@@ -938,7 +938,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_FreeColor_BMPAlloc == null)
 				{
-					r_FreeColor_BMPAlloc = new(this, "FreeColor", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.UIR.BMPAlloc"));
+					r_FreeColor_BMPAlloc = new(this, "FreeColor", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.UIR.BMPAlloc"));
 					r_FreeColor_BMPAlloc.SetBelong(this.instance);
 				}
 				return r_FreeColor_BMPAlloc;
@@ -955,7 +955,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_FreeTextCoreSettings_BMPAlloc == null)
 				{
-					r_FreeTextCoreSettings_BMPAlloc = new(this, "FreeTextCoreSettings", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.UIR.BMPAlloc"));
+					r_FreeTextCoreSettings_BMPAlloc = new(this, "FreeTextCoreSettings", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.UIR.BMPAlloc"));
 					r_FreeTextCoreSettings_BMPAlloc.SetBelong(this.instance);
 				}
 				return r_FreeTextCoreSettings_BMPAlloc;
@@ -972,7 +972,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_TransformAllocToVertexData_BMPAlloc == null)
 				{
-					r_TransformAllocToVertexData_BMPAlloc = new(this, "TransformAllocToVertexData", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.UIR.BMPAlloc"));
+					r_TransformAllocToVertexData_BMPAlloc = new(this, "TransformAllocToVertexData", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.UIR.BMPAlloc"));
 					r_TransformAllocToVertexData_BMPAlloc.SetBelong(this.instance);
 				}
 				return r_TransformAllocToVertexData_BMPAlloc;
@@ -989,7 +989,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_ClipRectAllocToVertexData_BMPAlloc == null)
 				{
-					r_ClipRectAllocToVertexData_BMPAlloc = new(this, "ClipRectAllocToVertexData", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.UIR.BMPAlloc"));
+					r_ClipRectAllocToVertexData_BMPAlloc = new(this, "ClipRectAllocToVertexData", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.UIR.BMPAlloc"));
 					r_ClipRectAllocToVertexData_BMPAlloc.SetBelong(this.instance);
 				}
 				return r_ClipRectAllocToVertexData_BMPAlloc;
@@ -1006,7 +1006,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_OpacityAllocToVertexData_BMPAlloc == null)
 				{
-					r_OpacityAllocToVertexData_BMPAlloc = new(this, "OpacityAllocToVertexData", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.UIR.BMPAlloc"));
+					r_OpacityAllocToVertexData_BMPAlloc = new(this, "OpacityAllocToVertexData", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.UIR.BMPAlloc"));
 					r_OpacityAllocToVertexData_BMPAlloc.SetBelong(this.instance);
 				}
 				return r_OpacityAllocToVertexData_BMPAlloc;
@@ -1023,7 +1023,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_ColorAllocToVertexData_BMPAlloc == null)
 				{
-					r_ColorAllocToVertexData_BMPAlloc = new(this, "ColorAllocToVertexData", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.UIR.BMPAlloc"));
+					r_ColorAllocToVertexData_BMPAlloc = new(this, "ColorAllocToVertexData", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.UIR.BMPAlloc"));
 					r_ColorAllocToVertexData_BMPAlloc.SetBelong(this.instance);
 				}
 				return r_ColorAllocToVertexData_BMPAlloc;
@@ -1040,7 +1040,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_TextCoreSettingsToVertexData_BMPAlloc == null)
 				{
-					r_TextCoreSettingsToVertexData_BMPAlloc = new(this, "TextCoreSettingsToVertexData", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.UIR.BMPAlloc"));
+					r_TextCoreSettingsToVertexData_BMPAlloc = new(this, "TextCoreSettingsToVertexData", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.UIR.BMPAlloc"));
 					r_TextCoreSettingsToVertexData_BMPAlloc.SetBelong(this.instance);
 				}
 				return r_TextCoreSettingsToVertexData_BMPAlloc;

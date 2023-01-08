@@ -20,7 +20,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 			{
 				if(r_s_InfinityVectorPositive == null)
 				{
-					r_s_InfinityVectorPositive = new( ReleactionUtils.GetType("UnityEngine.TextCore.Text.TextInfo"), "s_InfinityVectorPositive");
+					r_s_InfinityVectorPositive = new( ReflectionUtils.GetType("UnityEngine.TextCore.Text.TextInfo"), "s_InfinityVectorPositive");
 					r_s_InfinityVectorPositive.SetBelong(null);
 				}
 				return r_s_InfinityVectorPositive;
@@ -37,7 +37,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 			{
 				if(r_s_InfinityVectorNegative == null)
 				{
-					r_s_InfinityVectorNegative = new( ReleactionUtils.GetType("UnityEngine.TextCore.Text.TextInfo"), "s_InfinityVectorNegative");
+					r_s_InfinityVectorNegative = new( ReflectionUtils.GetType("UnityEngine.TextCore.Text.TextInfo"), "s_InfinityVectorNegative");
 					r_s_InfinityVectorNegative.SetBelong(null);
 				}
 				return r_s_InfinityVectorNegative;
@@ -377,7 +377,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 			{
 				if(r_Resize_GT_Ref_TArray_Int32 == null)
 				{
-					r_Resize_GT_Ref_TArray_Int32 = new( ReleactionUtils.GetType("UnityEngine.TextCore.Text.TextInfo"), "Resize", 1, Type.MakeGenericMethodParameter(0).MakeArrayType().MakeByRefType(), typeof(System.Int32));
+					r_Resize_GT_Ref_TArray_Int32 = new( ReflectionUtils.GetType("UnityEngine.TextCore.Text.TextInfo"), "Resize", 1, Type.MakeGenericMethodParameter(0).MakeArrayType().MakeByRefType(), typeof(System.Int32));
 					r_Resize_GT_Ref_TArray_Int32.SetBelong(null);
 				}
 				return r_Resize_GT_Ref_TArray_Int32;
@@ -394,7 +394,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 			{
 				if(r_Resize_GT_Ref_TArray_Int32_Boolean == null)
 				{
-					r_Resize_GT_Ref_TArray_Int32_Boolean = new( ReleactionUtils.GetType("UnityEngine.TextCore.Text.TextInfo"), "Resize", 1, Type.MakeGenericMethodParameter(0).MakeArrayType().MakeByRefType(), typeof(System.Int32), typeof(System.Boolean));
+					r_Resize_GT_Ref_TArray_Int32_Boolean = new( ReflectionUtils.GetType("UnityEngine.TextCore.Text.TextInfo"), "Resize", 1, Type.MakeGenericMethodParameter(0).MakeArrayType().MakeByRefType(), typeof(System.Int32), typeof(System.Boolean));
 					r_Resize_GT_Ref_TArray_Int32_Boolean.SetBelong(null);
 				}
 				return r_Resize_GT_Ref_TArray_Int32_Boolean;

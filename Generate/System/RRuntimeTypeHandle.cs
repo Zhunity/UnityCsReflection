@@ -190,7 +190,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 			{
 				if(r_GetAttributes_RuntimeType == null)
 				{
-					r_GetAttributes_RuntimeType = new(typeof(System.RuntimeTypeHandle), "GetAttributes", 0,  ReleactionUtils.GetType("System.RuntimeType"));
+					r_GetAttributes_RuntimeType = new(typeof(System.RuntimeTypeHandle), "GetAttributes", 0,  ReflectionUtils.GetType("System.RuntimeType"));
 					r_GetAttributes_RuntimeType.SetBelong(null);
 				}
 				return r_GetAttributes_RuntimeType;
@@ -224,7 +224,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 			{
 				if(r_GetMetadataToken_RuntimeType == null)
 				{
-					r_GetMetadataToken_RuntimeType = new(typeof(System.RuntimeTypeHandle), "GetMetadataToken", 0,  ReleactionUtils.GetType("System.RuntimeType"));
+					r_GetMetadataToken_RuntimeType = new(typeof(System.RuntimeTypeHandle), "GetMetadataToken", 0,  ReflectionUtils.GetType("System.RuntimeType"));
 					r_GetMetadataToken_RuntimeType.SetBelong(null);
 				}
 				return r_GetMetadataToken_RuntimeType;
@@ -241,7 +241,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 			{
 				if(r_GetToken_RuntimeType == null)
 				{
-					r_GetToken_RuntimeType = new(typeof(System.RuntimeTypeHandle), "GetToken", 0,  ReleactionUtils.GetType("System.RuntimeType"));
+					r_GetToken_RuntimeType = new(typeof(System.RuntimeTypeHandle), "GetToken", 0,  ReflectionUtils.GetType("System.RuntimeType"));
 					r_GetToken_RuntimeType.SetBelong(null);
 				}
 				return r_GetToken_RuntimeType;
@@ -258,7 +258,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 			{
 				if(r_GetGenericTypeDefinition_impl_RuntimeType == null)
 				{
-					r_GetGenericTypeDefinition_impl_RuntimeType = new(typeof(System.RuntimeTypeHandle), "GetGenericTypeDefinition_impl", 0,  ReleactionUtils.GetType("System.RuntimeType"));
+					r_GetGenericTypeDefinition_impl_RuntimeType = new(typeof(System.RuntimeTypeHandle), "GetGenericTypeDefinition_impl", 0,  ReflectionUtils.GetType("System.RuntimeType"));
 					r_GetGenericTypeDefinition_impl_RuntimeType.SetBelong(null);
 				}
 				return r_GetGenericTypeDefinition_impl_RuntimeType;
@@ -275,7 +275,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 			{
 				if(r_GetGenericTypeDefinition_RuntimeType == null)
 				{
-					r_GetGenericTypeDefinition_RuntimeType = new(typeof(System.RuntimeTypeHandle), "GetGenericTypeDefinition", 0,  ReleactionUtils.GetType("System.RuntimeType"));
+					r_GetGenericTypeDefinition_RuntimeType = new(typeof(System.RuntimeTypeHandle), "GetGenericTypeDefinition", 0,  ReflectionUtils.GetType("System.RuntimeType"));
 					r_GetGenericTypeDefinition_RuntimeType.SetBelong(null);
 				}
 				return r_GetGenericTypeDefinition_RuntimeType;
@@ -292,7 +292,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 			{
 				if(r_HasProxyAttribute_RuntimeType == null)
 				{
-					r_HasProxyAttribute_RuntimeType = new(typeof(System.RuntimeTypeHandle), "HasProxyAttribute", 0,  ReleactionUtils.GetType("System.RuntimeType"));
+					r_HasProxyAttribute_RuntimeType = new(typeof(System.RuntimeTypeHandle), "HasProxyAttribute", 0,  ReflectionUtils.GetType("System.RuntimeType"));
 					r_HasProxyAttribute_RuntimeType.SetBelong(null);
 				}
 				return r_HasProxyAttribute_RuntimeType;
@@ -309,7 +309,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 			{
 				if(r_IsPrimitive_RuntimeType == null)
 				{
-					r_IsPrimitive_RuntimeType = new(typeof(System.RuntimeTypeHandle), "IsPrimitive", 0,  ReleactionUtils.GetType("System.RuntimeType"));
+					r_IsPrimitive_RuntimeType = new(typeof(System.RuntimeTypeHandle), "IsPrimitive", 0,  ReflectionUtils.GetType("System.RuntimeType"));
 					r_IsPrimitive_RuntimeType.SetBelong(null);
 				}
 				return r_IsPrimitive_RuntimeType;
@@ -326,7 +326,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 			{
 				if(r_IsByRef_RuntimeType == null)
 				{
-					r_IsByRef_RuntimeType = new(typeof(System.RuntimeTypeHandle), "IsByRef", 0,  ReleactionUtils.GetType("System.RuntimeType"));
+					r_IsByRef_RuntimeType = new(typeof(System.RuntimeTypeHandle), "IsByRef", 0,  ReflectionUtils.GetType("System.RuntimeType"));
 					r_IsByRef_RuntimeType.SetBelong(null);
 				}
 				return r_IsByRef_RuntimeType;
@@ -343,7 +343,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 			{
 				if(r_IsPointer_RuntimeType == null)
 				{
-					r_IsPointer_RuntimeType = new(typeof(System.RuntimeTypeHandle), "IsPointer", 0,  ReleactionUtils.GetType("System.RuntimeType"));
+					r_IsPointer_RuntimeType = new(typeof(System.RuntimeTypeHandle), "IsPointer", 0,  ReflectionUtils.GetType("System.RuntimeType"));
 					r_IsPointer_RuntimeType.SetBelong(null);
 				}
 				return r_IsPointer_RuntimeType;
@@ -360,7 +360,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 			{
 				if(r_IsArray_RuntimeType == null)
 				{
-					r_IsArray_RuntimeType = new(typeof(System.RuntimeTypeHandle), "IsArray", 0,  ReleactionUtils.GetType("System.RuntimeType"));
+					r_IsArray_RuntimeType = new(typeof(System.RuntimeTypeHandle), "IsArray", 0,  ReflectionUtils.GetType("System.RuntimeType"));
 					r_IsArray_RuntimeType.SetBelong(null);
 				}
 				return r_IsArray_RuntimeType;
@@ -377,7 +377,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 			{
 				if(r_IsSzArray_RuntimeType == null)
 				{
-					r_IsSzArray_RuntimeType = new(typeof(System.RuntimeTypeHandle), "IsSzArray", 0,  ReleactionUtils.GetType("System.RuntimeType"));
+					r_IsSzArray_RuntimeType = new(typeof(System.RuntimeTypeHandle), "IsSzArray", 0,  ReflectionUtils.GetType("System.RuntimeType"));
 					r_IsSzArray_RuntimeType.SetBelong(null);
 				}
 				return r_IsSzArray_RuntimeType;
@@ -394,7 +394,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 			{
 				if(r_HasElementType_RuntimeType == null)
 				{
-					r_HasElementType_RuntimeType = new(typeof(System.RuntimeTypeHandle), "HasElementType", 0,  ReleactionUtils.GetType("System.RuntimeType"));
+					r_HasElementType_RuntimeType = new(typeof(System.RuntimeTypeHandle), "HasElementType", 0,  ReflectionUtils.GetType("System.RuntimeType"));
 					r_HasElementType_RuntimeType.SetBelong(null);
 				}
 				return r_HasElementType_RuntimeType;
@@ -411,7 +411,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 			{
 				if(r_GetCorElementType_RuntimeType == null)
 				{
-					r_GetCorElementType_RuntimeType = new(typeof(System.RuntimeTypeHandle), "GetCorElementType", 0,  ReleactionUtils.GetType("System.RuntimeType"));
+					r_GetCorElementType_RuntimeType = new(typeof(System.RuntimeTypeHandle), "GetCorElementType", 0,  ReflectionUtils.GetType("System.RuntimeType"));
 					r_GetCorElementType_RuntimeType.SetBelong(null);
 				}
 				return r_GetCorElementType_RuntimeType;
@@ -428,7 +428,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 			{
 				if(r_HasInstantiation_RuntimeType == null)
 				{
-					r_HasInstantiation_RuntimeType = new(typeof(System.RuntimeTypeHandle), "HasInstantiation", 0,  ReleactionUtils.GetType("System.RuntimeType"));
+					r_HasInstantiation_RuntimeType = new(typeof(System.RuntimeTypeHandle), "HasInstantiation", 0,  ReflectionUtils.GetType("System.RuntimeType"));
 					r_HasInstantiation_RuntimeType.SetBelong(null);
 				}
 				return r_HasInstantiation_RuntimeType;
@@ -445,7 +445,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 			{
 				if(r_IsComObject_RuntimeType == null)
 				{
-					r_IsComObject_RuntimeType = new(typeof(System.RuntimeTypeHandle), "IsComObject", 0,  ReleactionUtils.GetType("System.RuntimeType"));
+					r_IsComObject_RuntimeType = new(typeof(System.RuntimeTypeHandle), "IsComObject", 0,  ReflectionUtils.GetType("System.RuntimeType"));
 					r_IsComObject_RuntimeType.SetBelong(null);
 				}
 				return r_IsComObject_RuntimeType;
@@ -462,7 +462,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 			{
 				if(r_IsInstanceOfType_RuntimeType_Object == null)
 				{
-					r_IsInstanceOfType_RuntimeType_Object = new(typeof(System.RuntimeTypeHandle), "IsInstanceOfType", 0,  ReleactionUtils.GetType("System.RuntimeType"), typeof(System.Object));
+					r_IsInstanceOfType_RuntimeType_Object = new(typeof(System.RuntimeTypeHandle), "IsInstanceOfType", 0,  ReflectionUtils.GetType("System.RuntimeType"), typeof(System.Object));
 					r_IsInstanceOfType_RuntimeType_Object.SetBelong(null);
 				}
 				return r_IsInstanceOfType_RuntimeType_Object;
@@ -479,7 +479,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 			{
 				if(r_HasReferences_RuntimeType == null)
 				{
-					r_HasReferences_RuntimeType = new(typeof(System.RuntimeTypeHandle), "HasReferences", 0,  ReleactionUtils.GetType("System.RuntimeType"));
+					r_HasReferences_RuntimeType = new(typeof(System.RuntimeTypeHandle), "HasReferences", 0,  ReflectionUtils.GetType("System.RuntimeType"));
 					r_HasReferences_RuntimeType.SetBelong(null);
 				}
 				return r_HasReferences_RuntimeType;
@@ -496,7 +496,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 			{
 				if(r_IsComObject_RuntimeType_Boolean == null)
 				{
-					r_IsComObject_RuntimeType_Boolean = new(typeof(System.RuntimeTypeHandle), "IsComObject", 0,  ReleactionUtils.GetType("System.RuntimeType"), typeof(System.Boolean));
+					r_IsComObject_RuntimeType_Boolean = new(typeof(System.RuntimeTypeHandle), "IsComObject", 0,  ReflectionUtils.GetType("System.RuntimeType"), typeof(System.Boolean));
 					r_IsComObject_RuntimeType_Boolean.SetBelong(null);
 				}
 				return r_IsComObject_RuntimeType_Boolean;
@@ -513,7 +513,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 			{
 				if(r_IsContextful_RuntimeType == null)
 				{
-					r_IsContextful_RuntimeType = new(typeof(System.RuntimeTypeHandle), "IsContextful", 0,  ReleactionUtils.GetType("System.RuntimeType"));
+					r_IsContextful_RuntimeType = new(typeof(System.RuntimeTypeHandle), "IsContextful", 0,  ReflectionUtils.GetType("System.RuntimeType"));
 					r_IsContextful_RuntimeType.SetBelong(null);
 				}
 				return r_IsContextful_RuntimeType;
@@ -530,7 +530,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 			{
 				if(r_IsEquivalentTo_RuntimeType_RuntimeType == null)
 				{
-					r_IsEquivalentTo_RuntimeType_RuntimeType = new(typeof(System.RuntimeTypeHandle), "IsEquivalentTo", 0,  ReleactionUtils.GetType("System.RuntimeType"),  ReleactionUtils.GetType("System.RuntimeType"));
+					r_IsEquivalentTo_RuntimeType_RuntimeType = new(typeof(System.RuntimeTypeHandle), "IsEquivalentTo", 0,  ReflectionUtils.GetType("System.RuntimeType"),  ReflectionUtils.GetType("System.RuntimeType"));
 					r_IsEquivalentTo_RuntimeType_RuntimeType.SetBelong(null);
 				}
 				return r_IsEquivalentTo_RuntimeType_RuntimeType;
@@ -547,7 +547,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 			{
 				if(r_IsInterface_RuntimeType == null)
 				{
-					r_IsInterface_RuntimeType = new(typeof(System.RuntimeTypeHandle), "IsInterface", 0,  ReleactionUtils.GetType("System.RuntimeType"));
+					r_IsInterface_RuntimeType = new(typeof(System.RuntimeTypeHandle), "IsInterface", 0,  ReflectionUtils.GetType("System.RuntimeType"));
 					r_IsInterface_RuntimeType.SetBelong(null);
 				}
 				return r_IsInterface_RuntimeType;
@@ -564,7 +564,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 			{
 				if(r_GetArrayRank_RuntimeType == null)
 				{
-					r_GetArrayRank_RuntimeType = new(typeof(System.RuntimeTypeHandle), "GetArrayRank", 0,  ReleactionUtils.GetType("System.RuntimeType"));
+					r_GetArrayRank_RuntimeType = new(typeof(System.RuntimeTypeHandle), "GetArrayRank", 0,  ReflectionUtils.GetType("System.RuntimeType"));
 					r_GetArrayRank_RuntimeType.SetBelong(null);
 				}
 				return r_GetArrayRank_RuntimeType;
@@ -581,7 +581,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 			{
 				if(r_GetAssembly_RuntimeType == null)
 				{
-					r_GetAssembly_RuntimeType = new(typeof(System.RuntimeTypeHandle), "GetAssembly", 0,  ReleactionUtils.GetType("System.RuntimeType"));
+					r_GetAssembly_RuntimeType = new(typeof(System.RuntimeTypeHandle), "GetAssembly", 0,  ReflectionUtils.GetType("System.RuntimeType"));
 					r_GetAssembly_RuntimeType.SetBelong(null);
 				}
 				return r_GetAssembly_RuntimeType;
@@ -598,7 +598,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 			{
 				if(r_GetElementType_RuntimeType == null)
 				{
-					r_GetElementType_RuntimeType = new(typeof(System.RuntimeTypeHandle), "GetElementType", 0,  ReleactionUtils.GetType("System.RuntimeType"));
+					r_GetElementType_RuntimeType = new(typeof(System.RuntimeTypeHandle), "GetElementType", 0,  ReflectionUtils.GetType("System.RuntimeType"));
 					r_GetElementType_RuntimeType.SetBelong(null);
 				}
 				return r_GetElementType_RuntimeType;
@@ -615,7 +615,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 			{
 				if(r_GetModule_RuntimeType == null)
 				{
-					r_GetModule_RuntimeType = new(typeof(System.RuntimeTypeHandle), "GetModule", 0,  ReleactionUtils.GetType("System.RuntimeType"));
+					r_GetModule_RuntimeType = new(typeof(System.RuntimeTypeHandle), "GetModule", 0,  ReflectionUtils.GetType("System.RuntimeType"));
 					r_GetModule_RuntimeType.SetBelong(null);
 				}
 				return r_GetModule_RuntimeType;
@@ -632,7 +632,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 			{
 				if(r_IsGenericVariable_RuntimeType == null)
 				{
-					r_IsGenericVariable_RuntimeType = new(typeof(System.RuntimeTypeHandle), "IsGenericVariable", 0,  ReleactionUtils.GetType("System.RuntimeType"));
+					r_IsGenericVariable_RuntimeType = new(typeof(System.RuntimeTypeHandle), "IsGenericVariable", 0,  ReflectionUtils.GetType("System.RuntimeType"));
 					r_IsGenericVariable_RuntimeType.SetBelong(null);
 				}
 				return r_IsGenericVariable_RuntimeType;
@@ -649,7 +649,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 			{
 				if(r_GetBaseType_RuntimeType == null)
 				{
-					r_GetBaseType_RuntimeType = new(typeof(System.RuntimeTypeHandle), "GetBaseType", 0,  ReleactionUtils.GetType("System.RuntimeType"));
+					r_GetBaseType_RuntimeType = new(typeof(System.RuntimeTypeHandle), "GetBaseType", 0,  ReflectionUtils.GetType("System.RuntimeType"));
 					r_GetBaseType_RuntimeType.SetBelong(null);
 				}
 				return r_GetBaseType_RuntimeType;
@@ -666,7 +666,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 			{
 				if(r_CanCastTo_RuntimeType_RuntimeType == null)
 				{
-					r_CanCastTo_RuntimeType_RuntimeType = new(typeof(System.RuntimeTypeHandle), "CanCastTo", 0,  ReleactionUtils.GetType("System.RuntimeType"),  ReleactionUtils.GetType("System.RuntimeType"));
+					r_CanCastTo_RuntimeType_RuntimeType = new(typeof(System.RuntimeTypeHandle), "CanCastTo", 0,  ReflectionUtils.GetType("System.RuntimeType"),  ReflectionUtils.GetType("System.RuntimeType"));
 					r_CanCastTo_RuntimeType_RuntimeType.SetBelong(null);
 				}
 				return r_CanCastTo_RuntimeType_RuntimeType;
@@ -700,7 +700,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 			{
 				if(r_IsGenericTypeDefinition_RuntimeType == null)
 				{
-					r_IsGenericTypeDefinition_RuntimeType = new(typeof(System.RuntimeTypeHandle), "IsGenericTypeDefinition", 0,  ReleactionUtils.GetType("System.RuntimeType"));
+					r_IsGenericTypeDefinition_RuntimeType = new(typeof(System.RuntimeTypeHandle), "IsGenericTypeDefinition", 0,  ReflectionUtils.GetType("System.RuntimeType"));
 					r_IsGenericTypeDefinition_RuntimeType.SetBelong(null);
 				}
 				return r_IsGenericTypeDefinition_RuntimeType;
@@ -717,7 +717,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 			{
 				if(r_GetGenericParameterInfo_RuntimeType == null)
 				{
-					r_GetGenericParameterInfo_RuntimeType = new(typeof(System.RuntimeTypeHandle), "GetGenericParameterInfo", 0,  ReleactionUtils.GetType("System.RuntimeType"));
+					r_GetGenericParameterInfo_RuntimeType = new(typeof(System.RuntimeTypeHandle), "GetGenericParameterInfo", 0,  ReflectionUtils.GetType("System.RuntimeType"));
 					r_GetGenericParameterInfo_RuntimeType.SetBelong(null);
 				}
 				return r_GetGenericParameterInfo_RuntimeType;
@@ -734,7 +734,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 			{
 				if(r_IsSubclassOf_RuntimeType_RuntimeType == null)
 				{
-					r_IsSubclassOf_RuntimeType_RuntimeType = new(typeof(System.RuntimeTypeHandle), "IsSubclassOf", 0,  ReleactionUtils.GetType("System.RuntimeType"),  ReleactionUtils.GetType("System.RuntimeType"));
+					r_IsSubclassOf_RuntimeType_RuntimeType = new(typeof(System.RuntimeTypeHandle), "IsSubclassOf", 0,  ReflectionUtils.GetType("System.RuntimeType"),  ReflectionUtils.GetType("System.RuntimeType"));
 					r_IsSubclassOf_RuntimeType_RuntimeType.SetBelong(null);
 				}
 				return r_IsSubclassOf_RuntimeType_RuntimeType;
@@ -768,7 +768,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 			{
 				if(r_IsByRefLike_RuntimeType == null)
 				{
-					r_IsByRefLike_RuntimeType = new(typeof(System.RuntimeTypeHandle), "IsByRefLike", 0,  ReleactionUtils.GetType("System.RuntimeType"));
+					r_IsByRefLike_RuntimeType = new(typeof(System.RuntimeTypeHandle), "IsByRefLike", 0,  ReflectionUtils.GetType("System.RuntimeType"));
 					r_IsByRefLike_RuntimeType.SetBelong(null);
 				}
 				return r_IsByRefLike_RuntimeType;
@@ -785,7 +785,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 			{
 				if(r_IsTypeDefinition_RuntimeType == null)
 				{
-					r_IsTypeDefinition_RuntimeType = new(typeof(System.RuntimeTypeHandle), "IsTypeDefinition", 0,  ReleactionUtils.GetType("System.RuntimeType"));
+					r_IsTypeDefinition_RuntimeType = new(typeof(System.RuntimeTypeHandle), "IsTypeDefinition", 0,  ReflectionUtils.GetType("System.RuntimeType"));
 					r_IsTypeDefinition_RuntimeType.SetBelong(null);
 				}
 				return r_IsTypeDefinition_RuntimeType;
@@ -802,7 +802,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 			{
 				if(r_internal_from_name_String_Ref_StackCrawlMark_Assembly_Boolean_Boolean_Boolean == null)
 				{
-					r_internal_from_name_String_Ref_StackCrawlMark_Assembly_Boolean_Boolean_Boolean = new(typeof(System.RuntimeTypeHandle), "internal_from_name", 0, typeof(System.String),  ReleactionUtils.GetType("System.Threading.StackCrawlMark").MakeByRefType(), typeof(System.Reflection.Assembly), typeof(System.Boolean), typeof(System.Boolean), typeof(System.Boolean));
+					r_internal_from_name_String_Ref_StackCrawlMark_Assembly_Boolean_Boolean_Boolean = new(typeof(System.RuntimeTypeHandle), "internal_from_name", 0, typeof(System.String),  ReflectionUtils.GetType("System.Threading.StackCrawlMark").MakeByRefType(), typeof(System.Reflection.Assembly), typeof(System.Boolean), typeof(System.Boolean), typeof(System.Boolean));
 					r_internal_from_name_String_Ref_StackCrawlMark_Assembly_Boolean_Boolean_Boolean.SetBelong(null);
 				}
 				return r_internal_from_name_String_Ref_StackCrawlMark_Assembly_Boolean_Boolean_Boolean;
@@ -819,7 +819,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 			{
 				if(r_GetTypeByName_String_Boolean_Boolean_Boolean_Ref_StackCrawlMark_Boolean == null)
 				{
-					r_GetTypeByName_String_Boolean_Boolean_Boolean_Ref_StackCrawlMark_Boolean = new(typeof(System.RuntimeTypeHandle), "GetTypeByName", 0, typeof(System.String), typeof(System.Boolean), typeof(System.Boolean), typeof(System.Boolean),  ReleactionUtils.GetType("System.Threading.StackCrawlMark").MakeByRefType(), typeof(System.Boolean));
+					r_GetTypeByName_String_Boolean_Boolean_Boolean_Ref_StackCrawlMark_Boolean = new(typeof(System.RuntimeTypeHandle), "GetTypeByName", 0, typeof(System.String), typeof(System.Boolean), typeof(System.Boolean), typeof(System.Boolean),  ReflectionUtils.GetType("System.Threading.StackCrawlMark").MakeByRefType(), typeof(System.Boolean));
 					r_GetTypeByName_String_Boolean_Boolean_Boolean_Ref_StackCrawlMark_Boolean.SetBelong(null);
 				}
 				return r_GetTypeByName_String_Boolean_Boolean_Boolean_Ref_StackCrawlMark_Boolean;

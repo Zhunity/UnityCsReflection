@@ -71,7 +71,7 @@ namespace SMFrame.Editor.Refleaction.RMono
 			{
 				if(r_Equals_RuntimeEventHandle == null)
 				{
-					r_Equals_RuntimeEventHandle = new(this, "Equals", 0,  ReleactionUtils.GetType("Mono.RuntimeEventHandle"));
+					r_Equals_RuntimeEventHandle = new(this, "Equals", 0,  ReflectionUtils.GetType("Mono.RuntimeEventHandle"));
 					r_Equals_RuntimeEventHandle.SetBelong(this.instance);
 				}
 				return r_Equals_RuntimeEventHandle;
@@ -105,7 +105,7 @@ namespace SMFrame.Editor.Refleaction.RMono
 			{
 				if(r_op_Equality_RuntimeEventHandle_RuntimeEventHandle == null)
 				{
-					r_op_Equality_RuntimeEventHandle_RuntimeEventHandle = new( ReleactionUtils.GetType("Mono.RuntimeEventHandle"), "op_Equality", 0,  ReleactionUtils.GetType("Mono.RuntimeEventHandle"),  ReleactionUtils.GetType("Mono.RuntimeEventHandle"));
+					r_op_Equality_RuntimeEventHandle_RuntimeEventHandle = new( ReflectionUtils.GetType("Mono.RuntimeEventHandle"), "op_Equality", 0,  ReflectionUtils.GetType("Mono.RuntimeEventHandle"),  ReflectionUtils.GetType("Mono.RuntimeEventHandle"));
 					r_op_Equality_RuntimeEventHandle_RuntimeEventHandle.SetBelong(null);
 				}
 				return r_op_Equality_RuntimeEventHandle_RuntimeEventHandle;
@@ -122,7 +122,7 @@ namespace SMFrame.Editor.Refleaction.RMono
 			{
 				if(r_op_Inequality_RuntimeEventHandle_RuntimeEventHandle == null)
 				{
-					r_op_Inequality_RuntimeEventHandle_RuntimeEventHandle = new( ReleactionUtils.GetType("Mono.RuntimeEventHandle"), "op_Inequality", 0,  ReleactionUtils.GetType("Mono.RuntimeEventHandle"),  ReleactionUtils.GetType("Mono.RuntimeEventHandle"));
+					r_op_Inequality_RuntimeEventHandle_RuntimeEventHandle = new( ReflectionUtils.GetType("Mono.RuntimeEventHandle"), "op_Inequality", 0,  ReflectionUtils.GetType("Mono.RuntimeEventHandle"),  ReflectionUtils.GetType("Mono.RuntimeEventHandle"));
 					r_op_Inequality_RuntimeEventHandle_RuntimeEventHandle.SetBelong(null);
 				}
 				return r_op_Inequality_RuntimeEventHandle_RuntimeEventHandle;

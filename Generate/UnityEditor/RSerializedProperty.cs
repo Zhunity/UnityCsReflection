@@ -1652,7 +1652,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 			{
 				if(r_Verify_VerifyFlags == null)
 				{
-					r_Verify_VerifyFlags = new(this, "Verify", 0,  ReleactionUtils.GetType("UnityEditor.SerializedProperty+VerifyFlags"));
+					r_Verify_VerifyFlags = new(this, "Verify", 0,  ReflectionUtils.GetType("UnityEditor.SerializedProperty+VerifyFlags"));
 					r_Verify_VerifyFlags.SetBelong(this.instance);
 				}
 				return r_Verify_VerifyFlags;

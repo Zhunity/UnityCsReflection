@@ -1227,7 +1227,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 			{
 				if(r_RegisterTypeName_TypeBuilder_TypeName == null)
 				{
-					r_RegisterTypeName_TypeBuilder_TypeName = new(this, "RegisterTypeName", 0, typeof(System.Reflection.Emit.TypeBuilder),  ReleactionUtils.GetType("System.TypeName"));
+					r_RegisterTypeName_TypeBuilder_TypeName = new(this, "RegisterTypeName", 0, typeof(System.Reflection.Emit.TypeBuilder),  ReflectionUtils.GetType("System.TypeName"));
 					r_RegisterTypeName_TypeBuilder_TypeName.SetBelong(this.instance);
 				}
 				return r_RegisterTypeName_TypeBuilder_TypeName;
@@ -1244,7 +1244,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 			{
 				if(r_GetRegisteredType_TypeName == null)
 				{
-					r_GetRegisteredType_TypeName = new(this, "GetRegisteredType", 0,  ReleactionUtils.GetType("System.TypeName"));
+					r_GetRegisteredType_TypeName = new(this, "GetRegisteredType", 0,  ReflectionUtils.GetType("System.TypeName"));
 					r_GetRegisteredType_TypeName.SetBelong(this.instance);
 				}
 				return r_GetRegisteredType_TypeName;
@@ -1397,7 +1397,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 			{
 				if(r_search_in_array_TypeBuilderArray_Int32_TypeName == null)
 				{
-					r_search_in_array_TypeBuilderArray_Int32_TypeName = new(this, "search_in_array", 0, typeof(System.Reflection.Emit.TypeBuilder).MakeArrayType(), typeof(System.Int32),  ReleactionUtils.GetType("System.TypeName"));
+					r_search_in_array_TypeBuilderArray_Int32_TypeName = new(this, "search_in_array", 0, typeof(System.Reflection.Emit.TypeBuilder).MakeArrayType(), typeof(System.Int32),  ReflectionUtils.GetType("System.TypeName"));
 					r_search_in_array_TypeBuilderArray_Int32_TypeName.SetBelong(this.instance);
 				}
 				return r_search_in_array_TypeBuilderArray_Int32_TypeName;
@@ -1414,7 +1414,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 			{
 				if(r_search_nested_in_array_TypeBuilderArray_Int32_TypeName == null)
 				{
-					r_search_nested_in_array_TypeBuilderArray_Int32_TypeName = new(this, "search_nested_in_array", 0, typeof(System.Reflection.Emit.TypeBuilder).MakeArrayType(), typeof(System.Int32),  ReleactionUtils.GetType("System.TypeName"));
+					r_search_nested_in_array_TypeBuilderArray_Int32_TypeName = new(this, "search_nested_in_array", 0, typeof(System.Reflection.Emit.TypeBuilder).MakeArrayType(), typeof(System.Int32),  ReflectionUtils.GetType("System.TypeName"));
 					r_search_nested_in_array_TypeBuilderArray_Int32_TypeName.SetBelong(this.instance);
 				}
 				return r_search_nested_in_array_TypeBuilderArray_Int32_TypeName;
@@ -1431,7 +1431,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 			{
 				if(r_GetMaybeNested_TypeBuilder_IEnumerable_d_TypeName_p_ == null)
 				{
-					r_GetMaybeNested_TypeBuilder_IEnumerable_d_TypeName_p_ = new(this, "GetMaybeNested", 0, typeof(System.Reflection.Emit.TypeBuilder), typeof(System.Collections.Generic.IEnumerable<>).MakeGenericType( ReleactionUtils.GetType("System.TypeName")));
+					r_GetMaybeNested_TypeBuilder_IEnumerable_d_TypeName_p_ = new(this, "GetMaybeNested", 0, typeof(System.Reflection.Emit.TypeBuilder), typeof(System.Collections.Generic.IEnumerable<>).MakeGenericType( ReflectionUtils.GetType("System.TypeName")));
 					r_GetMaybeNested_TypeBuilder_IEnumerable_d_TypeName_p_.SetBelong(this.instance);
 				}
 				return r_GetMaybeNested_TypeBuilder_IEnumerable_d_TypeName_p_;

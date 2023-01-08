@@ -156,7 +156,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 			{
 				if(r_Match_Expression_List_d_StylePropertyValue_p_ == null)
 				{
-					r_Match_Expression_List_d_StylePropertyValue_p_ = new(this, "Match", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.Syntax.Expression"), typeof(System.Collections.Generic.List<>).MakeGenericType( ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyValue")));
+					r_Match_Expression_List_d_StylePropertyValue_p_ = new(this, "Match", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.Syntax.Expression"), typeof(System.Collections.Generic.List<>).MakeGenericType( ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyValue")));
 					r_Match_Expression_List_d_StylePropertyValue_p_.SetBelong(this.instance);
 				}
 				return r_Match_Expression_List_d_StylePropertyValue_p_;
@@ -445,7 +445,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 			{
 				if(r_Match_Expression == null)
 				{
-					r_Match_Expression = new(this, "Match", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.Syntax.Expression"));
+					r_Match_Expression = new(this, "Match", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.Syntax.Expression"));
 					r_Match_Expression.SetBelong(this.instance);
 				}
 				return r_Match_Expression;

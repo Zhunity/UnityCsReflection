@@ -122,7 +122,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RSynt
 			{
 				if(r_IsNextCharacter_String_Int32_Char == null)
 				{
-					r_IsNextCharacter_String_Int32_Char = new( ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.Syntax.StyleSyntaxTokenizer"), "IsNextCharacter", 0, typeof(System.String), typeof(System.Int32), typeof(System.Char));
+					r_IsNextCharacter_String_Int32_Char = new( ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.Syntax.StyleSyntaxTokenizer"), "IsNextCharacter", 0, typeof(System.String), typeof(System.Int32), typeof(System.Char));
 					r_IsNextCharacter_String_Int32_Char.SetBelong(null);
 				}
 				return r_IsNextCharacter_String_Int32_Char;
@@ -139,7 +139,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RSynt
 			{
 				if(r_IsNextLetterOrDash_String_Int32 == null)
 				{
-					r_IsNextLetterOrDash_String_Int32 = new( ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.Syntax.StyleSyntaxTokenizer"), "IsNextLetterOrDash", 0, typeof(System.String), typeof(System.Int32));
+					r_IsNextLetterOrDash_String_Int32 = new( ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.Syntax.StyleSyntaxTokenizer"), "IsNextLetterOrDash", 0, typeof(System.String), typeof(System.Int32));
 					r_IsNextLetterOrDash_String_Int32.SetBelong(null);
 				}
 				return r_IsNextLetterOrDash_String_Int32;
@@ -156,7 +156,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RSynt
 			{
 				if(r_IsNextNumber_String_Int32 == null)
 				{
-					r_IsNextNumber_String_Int32 = new( ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.Syntax.StyleSyntaxTokenizer"), "IsNextNumber", 0, typeof(System.String), typeof(System.Int32));
+					r_IsNextNumber_String_Int32 = new( ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.Syntax.StyleSyntaxTokenizer"), "IsNextNumber", 0, typeof(System.String), typeof(System.Int32));
 					r_IsNextNumber_String_Int32.SetBelong(null);
 				}
 				return r_IsNextNumber_String_Int32;
@@ -173,7 +173,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RSynt
 			{
 				if(r_GlobCharacter_String_Int32_Char == null)
 				{
-					r_GlobCharacter_String_Int32_Char = new( ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.Syntax.StyleSyntaxTokenizer"), "GlobCharacter", 0, typeof(System.String), typeof(System.Int32), typeof(System.Char));
+					r_GlobCharacter_String_Int32_Char = new( ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.Syntax.StyleSyntaxTokenizer"), "GlobCharacter", 0, typeof(System.String), typeof(System.Int32), typeof(System.Char));
 					r_GlobCharacter_String_Int32_Char.SetBelong(null);
 				}
 				return r_GlobCharacter_String_Int32_Char;

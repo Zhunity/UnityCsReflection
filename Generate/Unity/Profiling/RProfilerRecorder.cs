@@ -462,7 +462,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
 			{
 				if(r_Control_ProfilerRecorder_ControlOptions == null)
 				{
-					r_Control_ProfilerRecorder_ControlOptions = new(typeof(Unity.Profiling.ProfilerRecorder), "Control", 0, typeof(Unity.Profiling.ProfilerRecorder),  ReleactionUtils.GetType("Unity.Profiling.ProfilerRecorder+ControlOptions"));
+					r_Control_ProfilerRecorder_ControlOptions = new(typeof(Unity.Profiling.ProfilerRecorder), "Control", 0, typeof(Unity.Profiling.ProfilerRecorder),  ReflectionUtils.GetType("Unity.Profiling.ProfilerRecorder+ControlOptions"));
 					r_Control_ProfilerRecorder_ControlOptions.SetBelong(null);
 				}
 				return r_Control_ProfilerRecorder_ControlOptions;
@@ -581,7 +581,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
 			{
 				if(r_GetCount_ProfilerRecorder_CountOptions == null)
 				{
-					r_GetCount_ProfilerRecorder_CountOptions = new(typeof(Unity.Profiling.ProfilerRecorder), "GetCount", 0, typeof(Unity.Profiling.ProfilerRecorder),  ReleactionUtils.GetType("Unity.Profiling.ProfilerRecorder+CountOptions"));
+					r_GetCount_ProfilerRecorder_CountOptions = new(typeof(Unity.Profiling.ProfilerRecorder), "GetCount", 0, typeof(Unity.Profiling.ProfilerRecorder),  ReflectionUtils.GetType("Unity.Profiling.ProfilerRecorder+CountOptions"));
 					r_GetCount_ProfilerRecorder_CountOptions.SetBelong(null);
 				}
 				return r_GetCount_ProfilerRecorder_CountOptions;
@@ -768,7 +768,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
 			{
 				if(r_Control_Injected_Ref_ProfilerRecorder_ControlOptions == null)
 				{
-					r_Control_Injected_Ref_ProfilerRecorder_ControlOptions = new(typeof(Unity.Profiling.ProfilerRecorder), "Control_Injected", 0, typeof(Unity.Profiling.ProfilerRecorder).MakeByRefType(),  ReleactionUtils.GetType("Unity.Profiling.ProfilerRecorder+ControlOptions"));
+					r_Control_Injected_Ref_ProfilerRecorder_ControlOptions = new(typeof(Unity.Profiling.ProfilerRecorder), "Control_Injected", 0, typeof(Unity.Profiling.ProfilerRecorder).MakeByRefType(),  ReflectionUtils.GetType("Unity.Profiling.ProfilerRecorder+ControlOptions"));
 					r_Control_Injected_Ref_ProfilerRecorder_ControlOptions.SetBelong(null);
 				}
 				return r_Control_Injected_Ref_ProfilerRecorder_ControlOptions;
@@ -887,7 +887,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
 			{
 				if(r_GetCount_Injected_Ref_ProfilerRecorder_CountOptions == null)
 				{
-					r_GetCount_Injected_Ref_ProfilerRecorder_CountOptions = new(typeof(Unity.Profiling.ProfilerRecorder), "GetCount_Injected", 0, typeof(Unity.Profiling.ProfilerRecorder).MakeByRefType(),  ReleactionUtils.GetType("Unity.Profiling.ProfilerRecorder+CountOptions"));
+					r_GetCount_Injected_Ref_ProfilerRecorder_CountOptions = new(typeof(Unity.Profiling.ProfilerRecorder), "GetCount_Injected", 0, typeof(Unity.Profiling.ProfilerRecorder).MakeByRefType(),  ReflectionUtils.GetType("Unity.Profiling.ProfilerRecorder+CountOptions"));
 					r_GetCount_Injected_Ref_ProfilerRecorder_CountOptions.SetBelong(null);
 				}
 				return r_GetCount_Injected_Ref_ProfilerRecorder_CountOptions;

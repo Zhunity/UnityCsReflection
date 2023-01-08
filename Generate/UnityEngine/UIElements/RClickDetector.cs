@@ -37,7 +37,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r___0__s_DoubleClickTime__1__k__BackingField == null)
 				{
-					r___0__s_DoubleClickTime__1__k__BackingField = new( ReleactionUtils.GetType("UnityEngine.UIElements.ClickDetector"), "<s_DoubleClickTime>k__BackingField");
+					r___0__s_DoubleClickTime__1__k__BackingField = new( ReflectionUtils.GetType("UnityEngine.UIElements.ClickDetector"), "<s_DoubleClickTime>k__BackingField");
 					r___0__s_DoubleClickTime__1__k__BackingField.SetBelong(null);
 				}
 				return r___0__s_DoubleClickTime__1__k__BackingField;
@@ -54,7 +54,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_s_DoubleClickTime == null)
 				{
-					r_s_DoubleClickTime = new( ReleactionUtils.GetType("UnityEngine.UIElements.ClickDetector"), "s_DoubleClickTime", -1);
+					r_s_DoubleClickTime = new( ReflectionUtils.GetType("UnityEngine.UIElements.ClickDetector"), "s_DoubleClickTime", -1);
 					r_s_DoubleClickTime.SetBelong(null);
 				}
 				return r_s_DoubleClickTime;
@@ -139,7 +139,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_ContainsPointer_VisualElement_Vector2 == null)
 				{
-					r_ContainsPointer_VisualElement_Vector2 = new( ReleactionUtils.GetType("UnityEngine.UIElements.ClickDetector"), "ContainsPointer", 0, typeof(UnityEngine.UIElements.VisualElement), typeof(UnityEngine.Vector2));
+					r_ContainsPointer_VisualElement_Vector2 = new( ReflectionUtils.GetType("UnityEngine.UIElements.ClickDetector"), "ContainsPointer", 0, typeof(UnityEngine.UIElements.VisualElement), typeof(UnityEngine.Vector2));
 					r_ContainsPointer_VisualElement_Vector2.SetBelong(null);
 				}
 				return r_ContainsPointer_VisualElement_Vector2;

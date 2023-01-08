@@ -20,7 +20,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_MAX_CALENDARS == null)
 				{
-					r_MAX_CALENDARS = new( ReleactionUtils.GetType("System.Globalization.CalendarData"), "MAX_CALENDARS");
+					r_MAX_CALENDARS = new( ReflectionUtils.GetType("System.Globalization.CalendarData"), "MAX_CALENDARS");
 					r_MAX_CALENDARS.SetBelong(null);
 				}
 				return r_MAX_CALENDARS;
@@ -360,7 +360,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_Invariant == null)
 				{
-					r_Invariant = new( ReleactionUtils.GetType("System.Globalization.CalendarData"), "Invariant");
+					r_Invariant = new( ReflectionUtils.GetType("System.Globalization.CalendarData"), "Invariant");
 					r_Invariant.SetBelong(null);
 				}
 				return r_Invariant;
@@ -377,7 +377,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_HEBREW_MONTH_NAMES == null)
 				{
-					r_HEBREW_MONTH_NAMES = new( ReleactionUtils.GetType("System.Globalization.CalendarData"), "HEBREW_MONTH_NAMES");
+					r_HEBREW_MONTH_NAMES = new( ReflectionUtils.GetType("System.Globalization.CalendarData"), "HEBREW_MONTH_NAMES");
 					r_HEBREW_MONTH_NAMES.SetBelong(null);
 				}
 				return r_HEBREW_MONTH_NAMES;
@@ -394,7 +394,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_HEBREW_LEAP_MONTH_NAMES == null)
 				{
-					r_HEBREW_LEAP_MONTH_NAMES = new( ReleactionUtils.GetType("System.Globalization.CalendarData"), "HEBREW_LEAP_MONTH_NAMES");
+					r_HEBREW_LEAP_MONTH_NAMES = new( ReflectionUtils.GetType("System.Globalization.CalendarData"), "HEBREW_LEAP_MONTH_NAMES");
 					r_HEBREW_LEAP_MONTH_NAMES.SetBelong(null);
 				}
 				return r_HEBREW_LEAP_MONTH_NAMES;
@@ -428,7 +428,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_GetJapaneseEraNames == null)
 				{
-					r_GetJapaneseEraNames = new( ReleactionUtils.GetType("System.Globalization.CalendarData"), "GetJapaneseEraNames", 0);
+					r_GetJapaneseEraNames = new( ReflectionUtils.GetType("System.Globalization.CalendarData"), "GetJapaneseEraNames", 0);
 					r_GetJapaneseEraNames.SetBelong(null);
 				}
 				return r_GetJapaneseEraNames;
@@ -445,7 +445,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_GetJapaneseEnglishEraNames == null)
 				{
-					r_GetJapaneseEnglishEraNames = new( ReleactionUtils.GetType("System.Globalization.CalendarData"), "GetJapaneseEnglishEraNames", 0);
+					r_GetJapaneseEnglishEraNames = new( ReflectionUtils.GetType("System.Globalization.CalendarData"), "GetJapaneseEnglishEraNames", 0);
 					r_GetJapaneseEnglishEraNames.SetBelong(null);
 				}
 				return r_GetJapaneseEnglishEraNames;
@@ -479,7 +479,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_GetCalendarData_Int32 == null)
 				{
-					r_GetCalendarData_Int32 = new( ReleactionUtils.GetType("System.Globalization.CalendarData"), "GetCalendarData", 0, typeof(System.Int32));
+					r_GetCalendarData_Int32 = new( ReflectionUtils.GetType("System.Globalization.CalendarData"), "GetCalendarData", 0, typeof(System.Int32));
 					r_GetCalendarData_Int32.SetBelong(null);
 				}
 				return r_GetCalendarData_Int32;
@@ -496,7 +496,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_CalendarIdToCultureName_Int32 == null)
 				{
-					r_CalendarIdToCultureName_Int32 = new( ReleactionUtils.GetType("System.Globalization.CalendarData"), "CalendarIdToCultureName", 0, typeof(System.Int32));
+					r_CalendarIdToCultureName_Int32 = new( ReflectionUtils.GetType("System.Globalization.CalendarData"), "CalendarIdToCultureName", 0, typeof(System.Int32));
 					r_CalendarIdToCultureName_Int32.SetBelong(null);
 				}
 				return r_CalendarIdToCultureName_Int32;
@@ -513,7 +513,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_nativeGetTwoDigitYearMax_Int32 == null)
 				{
-					r_nativeGetTwoDigitYearMax_Int32 = new( ReleactionUtils.GetType("System.Globalization.CalendarData"), "nativeGetTwoDigitYearMax", 0, typeof(System.Int32));
+					r_nativeGetTwoDigitYearMax_Int32 = new( ReflectionUtils.GetType("System.Globalization.CalendarData"), "nativeGetTwoDigitYearMax", 0, typeof(System.Int32));
 					r_nativeGetTwoDigitYearMax_Int32.SetBelong(null);
 				}
 				return r_nativeGetTwoDigitYearMax_Int32;
@@ -530,7 +530,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_nativeGetCalendarData_CalendarData_String_Int32 == null)
 				{
-					r_nativeGetCalendarData_CalendarData_String_Int32 = new( ReleactionUtils.GetType("System.Globalization.CalendarData"), "nativeGetCalendarData", 0,  ReleactionUtils.GetType("System.Globalization.CalendarData"), typeof(System.String), typeof(System.Int32));
+					r_nativeGetCalendarData_CalendarData_String_Int32 = new( ReflectionUtils.GetType("System.Globalization.CalendarData"), "nativeGetCalendarData", 0,  ReflectionUtils.GetType("System.Globalization.CalendarData"), typeof(System.String), typeof(System.Int32));
 					r_nativeGetCalendarData_CalendarData_String_Int32.SetBelong(null);
 				}
 				return r_nativeGetCalendarData_CalendarData_String_Int32;

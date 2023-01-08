@@ -71,7 +71,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 			{
 				if(r_Equals_CoreCameraValues == null)
 				{
-					r_Equals_CoreCameraValues = new(this, "Equals", 0,  ReleactionUtils.GetType("UnityEngine.Rendering.CoreCameraValues"));
+					r_Equals_CoreCameraValues = new(this, "Equals", 0,  ReflectionUtils.GetType("UnityEngine.Rendering.CoreCameraValues"));
 					r_Equals_CoreCameraValues.SetBelong(this.instance);
 				}
 				return r_Equals_CoreCameraValues;
@@ -122,7 +122,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 			{
 				if(r_op_Equality_CoreCameraValues_CoreCameraValues == null)
 				{
-					r_op_Equality_CoreCameraValues_CoreCameraValues = new( ReleactionUtils.GetType("UnityEngine.Rendering.CoreCameraValues"), "op_Equality", 0,  ReleactionUtils.GetType("UnityEngine.Rendering.CoreCameraValues"),  ReleactionUtils.GetType("UnityEngine.Rendering.CoreCameraValues"));
+					r_op_Equality_CoreCameraValues_CoreCameraValues = new( ReflectionUtils.GetType("UnityEngine.Rendering.CoreCameraValues"), "op_Equality", 0,  ReflectionUtils.GetType("UnityEngine.Rendering.CoreCameraValues"),  ReflectionUtils.GetType("UnityEngine.Rendering.CoreCameraValues"));
 					r_op_Equality_CoreCameraValues_CoreCameraValues.SetBelong(null);
 				}
 				return r_op_Equality_CoreCameraValues_CoreCameraValues;
@@ -139,7 +139,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 			{
 				if(r_op_Inequality_CoreCameraValues_CoreCameraValues == null)
 				{
-					r_op_Inequality_CoreCameraValues_CoreCameraValues = new( ReleactionUtils.GetType("UnityEngine.Rendering.CoreCameraValues"), "op_Inequality", 0,  ReleactionUtils.GetType("UnityEngine.Rendering.CoreCameraValues"),  ReleactionUtils.GetType("UnityEngine.Rendering.CoreCameraValues"));
+					r_op_Inequality_CoreCameraValues_CoreCameraValues = new( ReflectionUtils.GetType("UnityEngine.Rendering.CoreCameraValues"), "op_Inequality", 0,  ReflectionUtils.GetType("UnityEngine.Rendering.CoreCameraValues"),  ReflectionUtils.GetType("UnityEngine.Rendering.CoreCameraValues"));
 					r_op_Inequality_CoreCameraValues_CoreCameraValues.SetBelong(null);
 				}
 				return r_op_Inequality_CoreCameraValues_CoreCameraValues;

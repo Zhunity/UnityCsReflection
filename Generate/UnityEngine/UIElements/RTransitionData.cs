@@ -105,7 +105,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_CopyFrom_Ref_TransitionData == null)
 				{
-					r_CopyFrom_Ref_TransitionData = new(this, "CopyFrom", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.TransitionData").MakeByRefType());
+					r_CopyFrom_Ref_TransitionData = new(this, "CopyFrom", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.TransitionData").MakeByRefType());
 					r_CopyFrom_Ref_TransitionData.SetBelong(this.instance);
 				}
 				return r_CopyFrom_Ref_TransitionData;
@@ -122,7 +122,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_op_Equality_TransitionData_TransitionData == null)
 				{
-					r_op_Equality_TransitionData_TransitionData = new( ReleactionUtils.GetType("UnityEngine.UIElements.TransitionData"), "op_Equality", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.TransitionData"),  ReleactionUtils.GetType("UnityEngine.UIElements.TransitionData"));
+					r_op_Equality_TransitionData_TransitionData = new( ReflectionUtils.GetType("UnityEngine.UIElements.TransitionData"), "op_Equality", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.TransitionData"),  ReflectionUtils.GetType("UnityEngine.UIElements.TransitionData"));
 					r_op_Equality_TransitionData_TransitionData.SetBelong(null);
 				}
 				return r_op_Equality_TransitionData_TransitionData;
@@ -139,7 +139,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_op_Inequality_TransitionData_TransitionData == null)
 				{
-					r_op_Inequality_TransitionData_TransitionData = new( ReleactionUtils.GetType("UnityEngine.UIElements.TransitionData"), "op_Inequality", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.TransitionData"),  ReleactionUtils.GetType("UnityEngine.UIElements.TransitionData"));
+					r_op_Inequality_TransitionData_TransitionData = new( ReflectionUtils.GetType("UnityEngine.UIElements.TransitionData"), "op_Inequality", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.TransitionData"),  ReflectionUtils.GetType("UnityEngine.UIElements.TransitionData"));
 					r_op_Inequality_TransitionData_TransitionData.SetBelong(null);
 				}
 				return r_op_Inequality_TransitionData_TransitionData;
@@ -156,7 +156,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_Equals_TransitionData == null)
 				{
-					r_Equals_TransitionData = new(this, "Equals", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.TransitionData"));
+					r_Equals_TransitionData = new(this, "Equals", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.TransitionData"));
 					r_Equals_TransitionData.SetBelong(this.instance);
 				}
 				return r_Equals_TransitionData;

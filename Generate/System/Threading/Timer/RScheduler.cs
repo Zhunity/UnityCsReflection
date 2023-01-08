@@ -22,7 +22,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_instance == null)
 				{
-					r_instance = new( ReleactionUtils.GetType("System.Threading.Timer+Scheduler"), "instance");
+					r_instance = new( ReflectionUtils.GetType("System.Threading.Timer+Scheduler"), "instance");
 					r_instance.SetBelong(null);
 				}
 				return r_instance;
@@ -107,7 +107,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_Instance == null)
 				{
-					r_Instance = new( ReleactionUtils.GetType("System.Threading.Timer+Scheduler"), "Instance", -1);
+					r_Instance = new( ReflectionUtils.GetType("System.Threading.Timer+Scheduler"), "Instance", -1);
 					r_Instance.SetBelong(null);
 				}
 				return r_Instance;
@@ -243,7 +243,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_TimerCB_Object == null)
 				{
-					r_TimerCB_Object = new( ReleactionUtils.GetType("System.Threading.Timer+Scheduler"), "TimerCB", 0, typeof(System.Object));
+					r_TimerCB_Object = new( ReflectionUtils.GetType("System.Threading.Timer+Scheduler"), "TimerCB", 0, typeof(System.Object));
 					r_TimerCB_Object.SetBelong(null);
 				}
 				return r_TimerCB_Object;

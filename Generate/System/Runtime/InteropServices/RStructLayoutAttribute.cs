@@ -139,7 +139,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 			{
 				if(r_GetCustomAttribute_RuntimeType == null)
 				{
-					r_GetCustomAttribute_RuntimeType = new(typeof(System.Runtime.InteropServices.StructLayoutAttribute), "GetCustomAttribute", 0,  ReleactionUtils.GetType("System.RuntimeType"));
+					r_GetCustomAttribute_RuntimeType = new(typeof(System.Runtime.InteropServices.StructLayoutAttribute), "GetCustomAttribute", 0,  ReflectionUtils.GetType("System.RuntimeType"));
 					r_GetCustomAttribute_RuntimeType.SetBelong(null);
 				}
 				return r_GetCustomAttribute_RuntimeType;
@@ -156,7 +156,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 			{
 				if(r_IsDefined_RuntimeType == null)
 				{
-					r_IsDefined_RuntimeType = new(typeof(System.Runtime.InteropServices.StructLayoutAttribute), "IsDefined", 0,  ReleactionUtils.GetType("System.RuntimeType"));
+					r_IsDefined_RuntimeType = new(typeof(System.Runtime.InteropServices.StructLayoutAttribute), "IsDefined", 0,  ReflectionUtils.GetType("System.RuntimeType"));
 					r_IsDefined_RuntimeType.SetBelong(null);
 				}
 				return r_IsDefined_RuntimeType;

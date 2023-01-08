@@ -547,7 +547,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 			{
 				if(r_ResolveField_Module_IntPtr_Int32_TypeArray_TypeArray == null)
 				{
-					r_ResolveField_Module_IntPtr_Int32_TypeArray_TypeArray = new( ReleactionUtils.GetType("System.Reflection.RuntimeModule"), "ResolveField", 0, typeof(System.Reflection.Module), typeof(System.IntPtr), typeof(System.Int32), typeof(System.Type).MakeArrayType(), typeof(System.Type).MakeArrayType());
+					r_ResolveField_Module_IntPtr_Int32_TypeArray_TypeArray = new( ReflectionUtils.GetType("System.Reflection.RuntimeModule"), "ResolveField", 0, typeof(System.Reflection.Module), typeof(System.IntPtr), typeof(System.Int32), typeof(System.Type).MakeArrayType(), typeof(System.Type).MakeArrayType());
 					r_ResolveField_Module_IntPtr_Int32_TypeArray_TypeArray.SetBelong(null);
 				}
 				return r_ResolveField_Module_IntPtr_Int32_TypeArray_TypeArray;
@@ -581,7 +581,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 			{
 				if(r_ResolveMember_Module_IntPtr_Int32_TypeArray_TypeArray == null)
 				{
-					r_ResolveMember_Module_IntPtr_Int32_TypeArray_TypeArray = new( ReleactionUtils.GetType("System.Reflection.RuntimeModule"), "ResolveMember", 0, typeof(System.Reflection.Module), typeof(System.IntPtr), typeof(System.Int32), typeof(System.Type).MakeArrayType(), typeof(System.Type).MakeArrayType());
+					r_ResolveMember_Module_IntPtr_Int32_TypeArray_TypeArray = new( ReflectionUtils.GetType("System.Reflection.RuntimeModule"), "ResolveMember", 0, typeof(System.Reflection.Module), typeof(System.IntPtr), typeof(System.Int32), typeof(System.Type).MakeArrayType(), typeof(System.Type).MakeArrayType());
 					r_ResolveMember_Module_IntPtr_Int32_TypeArray_TypeArray.SetBelong(null);
 				}
 				return r_ResolveMember_Module_IntPtr_Int32_TypeArray_TypeArray;
@@ -615,7 +615,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 			{
 				if(r_ResolveMethod_Module_IntPtr_Int32_TypeArray_TypeArray == null)
 				{
-					r_ResolveMethod_Module_IntPtr_Int32_TypeArray_TypeArray = new( ReleactionUtils.GetType("System.Reflection.RuntimeModule"), "ResolveMethod", 0, typeof(System.Reflection.Module), typeof(System.IntPtr), typeof(System.Int32), typeof(System.Type).MakeArrayType(), typeof(System.Type).MakeArrayType());
+					r_ResolveMethod_Module_IntPtr_Int32_TypeArray_TypeArray = new( ReflectionUtils.GetType("System.Reflection.RuntimeModule"), "ResolveMethod", 0, typeof(System.Reflection.Module), typeof(System.IntPtr), typeof(System.Int32), typeof(System.Type).MakeArrayType(), typeof(System.Type).MakeArrayType());
 					r_ResolveMethod_Module_IntPtr_Int32_TypeArray_TypeArray.SetBelong(null);
 				}
 				return r_ResolveMethod_Module_IntPtr_Int32_TypeArray_TypeArray;
@@ -649,7 +649,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 			{
 				if(r_ResolveString_Module_IntPtr_Int32 == null)
 				{
-					r_ResolveString_Module_IntPtr_Int32 = new( ReleactionUtils.GetType("System.Reflection.RuntimeModule"), "ResolveString", 0, typeof(System.Reflection.Module), typeof(System.IntPtr), typeof(System.Int32));
+					r_ResolveString_Module_IntPtr_Int32 = new( ReflectionUtils.GetType("System.Reflection.RuntimeModule"), "ResolveString", 0, typeof(System.Reflection.Module), typeof(System.IntPtr), typeof(System.Int32));
 					r_ResolveString_Module_IntPtr_Int32.SetBelong(null);
 				}
 				return r_ResolveString_Module_IntPtr_Int32;
@@ -683,7 +683,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 			{
 				if(r_ResolveType_Module_IntPtr_Int32_TypeArray_TypeArray == null)
 				{
-					r_ResolveType_Module_IntPtr_Int32_TypeArray_TypeArray = new( ReleactionUtils.GetType("System.Reflection.RuntimeModule"), "ResolveType", 0, typeof(System.Reflection.Module), typeof(System.IntPtr), typeof(System.Int32), typeof(System.Type).MakeArrayType(), typeof(System.Type).MakeArrayType());
+					r_ResolveType_Module_IntPtr_Int32_TypeArray_TypeArray = new( ReflectionUtils.GetType("System.Reflection.RuntimeModule"), "ResolveType", 0, typeof(System.Reflection.Module), typeof(System.IntPtr), typeof(System.Int32), typeof(System.Type).MakeArrayType(), typeof(System.Type).MakeArrayType());
 					r_ResolveType_Module_IntPtr_Int32_TypeArray_TypeArray.SetBelong(null);
 				}
 				return r_ResolveType_Module_IntPtr_Int32_TypeArray_TypeArray;
@@ -717,7 +717,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 			{
 				if(r_ResolveSignature_Module_IntPtr_Int32 == null)
 				{
-					r_ResolveSignature_Module_IntPtr_Int32 = new( ReleactionUtils.GetType("System.Reflection.RuntimeModule"), "ResolveSignature", 0, typeof(System.Reflection.Module), typeof(System.IntPtr), typeof(System.Int32));
+					r_ResolveSignature_Module_IntPtr_Int32 = new( ReflectionUtils.GetType("System.Reflection.RuntimeModule"), "ResolveSignature", 0, typeof(System.Reflection.Module), typeof(System.IntPtr), typeof(System.Int32));
 					r_ResolveSignature_Module_IntPtr_Int32.SetBelong(null);
 				}
 				return r_ResolveSignature_Module_IntPtr_Int32;
@@ -836,7 +836,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 			{
 				if(r_resolve_token_exception_String_Int32_ResolveTokenError_String == null)
 				{
-					r_resolve_token_exception_String_Int32_ResolveTokenError_String = new( ReleactionUtils.GetType("System.Reflection.RuntimeModule"), "resolve_token_exception", 0, typeof(System.String), typeof(System.Int32),  ReleactionUtils.GetType("System.Reflection.ResolveTokenError"), typeof(System.String));
+					r_resolve_token_exception_String_Int32_ResolveTokenError_String = new( ReflectionUtils.GetType("System.Reflection.RuntimeModule"), "resolve_token_exception", 0, typeof(System.String), typeof(System.Int32),  ReflectionUtils.GetType("System.Reflection.ResolveTokenError"), typeof(System.String));
 					r_resolve_token_exception_String_Int32_ResolveTokenError_String.SetBelong(null);
 				}
 				return r_resolve_token_exception_String_Int32_ResolveTokenError_String;
@@ -853,7 +853,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 			{
 				if(r_ptrs_from_types_TypeArray == null)
 				{
-					r_ptrs_from_types_TypeArray = new( ReleactionUtils.GetType("System.Reflection.RuntimeModule"), "ptrs_from_types", 0, typeof(System.Type).MakeArrayType());
+					r_ptrs_from_types_TypeArray = new( ReflectionUtils.GetType("System.Reflection.RuntimeModule"), "ptrs_from_types", 0, typeof(System.Type).MakeArrayType());
 					r_ptrs_from_types_TypeArray.SetBelong(null);
 				}
 				return r_ptrs_from_types_TypeArray;
@@ -870,7 +870,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 			{
 				if(r_get_MetadataToken_Module == null)
 				{
-					r_get_MetadataToken_Module = new( ReleactionUtils.GetType("System.Reflection.RuntimeModule"), "get_MetadataToken", 0, typeof(System.Reflection.Module));
+					r_get_MetadataToken_Module = new( ReflectionUtils.GetType("System.Reflection.RuntimeModule"), "get_MetadataToken", 0, typeof(System.Reflection.Module));
 					r_get_MetadataToken_Module.SetBelong(null);
 				}
 				return r_get_MetadataToken_Module;
@@ -887,7 +887,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 			{
 				if(r_GetMDStreamVersion_IntPtr == null)
 				{
-					r_GetMDStreamVersion_IntPtr = new( ReleactionUtils.GetType("System.Reflection.RuntimeModule"), "GetMDStreamVersion", 0, typeof(System.IntPtr));
+					r_GetMDStreamVersion_IntPtr = new( ReflectionUtils.GetType("System.Reflection.RuntimeModule"), "GetMDStreamVersion", 0, typeof(System.IntPtr));
 					r_GetMDStreamVersion_IntPtr.SetBelong(null);
 				}
 				return r_GetMDStreamVersion_IntPtr;
@@ -904,7 +904,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 			{
 				if(r_InternalGetTypes_IntPtr == null)
 				{
-					r_InternalGetTypes_IntPtr = new( ReleactionUtils.GetType("System.Reflection.RuntimeModule"), "InternalGetTypes", 0, typeof(System.IntPtr));
+					r_InternalGetTypes_IntPtr = new( ReflectionUtils.GetType("System.Reflection.RuntimeModule"), "InternalGetTypes", 0, typeof(System.IntPtr));
 					r_InternalGetTypes_IntPtr.SetBelong(null);
 				}
 				return r_InternalGetTypes_IntPtr;
@@ -921,7 +921,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 			{
 				if(r_GetHINSTANCE_IntPtr == null)
 				{
-					r_GetHINSTANCE_IntPtr = new( ReleactionUtils.GetType("System.Reflection.RuntimeModule"), "GetHINSTANCE", 0, typeof(System.IntPtr));
+					r_GetHINSTANCE_IntPtr = new( ReflectionUtils.GetType("System.Reflection.RuntimeModule"), "GetHINSTANCE", 0, typeof(System.IntPtr));
 					r_GetHINSTANCE_IntPtr.SetBelong(null);
 				}
 				return r_GetHINSTANCE_IntPtr;
@@ -938,7 +938,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 			{
 				if(r_GetGuidInternal_IntPtr_ByteArray == null)
 				{
-					r_GetGuidInternal_IntPtr_ByteArray = new( ReleactionUtils.GetType("System.Reflection.RuntimeModule"), "GetGuidInternal", 0, typeof(System.IntPtr), typeof(System.Byte).MakeArrayType());
+					r_GetGuidInternal_IntPtr_ByteArray = new( ReflectionUtils.GetType("System.Reflection.RuntimeModule"), "GetGuidInternal", 0, typeof(System.IntPtr), typeof(System.Byte).MakeArrayType());
 					r_GetGuidInternal_IntPtr_ByteArray.SetBelong(null);
 				}
 				return r_GetGuidInternal_IntPtr_ByteArray;
@@ -955,7 +955,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 			{
 				if(r_GetGlobalType_IntPtr == null)
 				{
-					r_GetGlobalType_IntPtr = new( ReleactionUtils.GetType("System.Reflection.RuntimeModule"), "GetGlobalType", 0, typeof(System.IntPtr));
+					r_GetGlobalType_IntPtr = new( ReflectionUtils.GetType("System.Reflection.RuntimeModule"), "GetGlobalType", 0, typeof(System.IntPtr));
 					r_GetGlobalType_IntPtr.SetBelong(null);
 				}
 				return r_GetGlobalType_IntPtr;
@@ -972,7 +972,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 			{
 				if(r_ResolveTypeToken_IntPtr_Int32_IntPtrArray_IntPtrArray_Out_ResolveTokenError == null)
 				{
-					r_ResolveTypeToken_IntPtr_Int32_IntPtrArray_IntPtrArray_Out_ResolveTokenError = new( ReleactionUtils.GetType("System.Reflection.RuntimeModule"), "ResolveTypeToken", 0, typeof(System.IntPtr), typeof(System.Int32), typeof(System.IntPtr).MakeArrayType(), typeof(System.IntPtr).MakeArrayType(),  ReleactionUtils.GetType("System.Reflection.ResolveTokenError").MakeByRefType());
+					r_ResolveTypeToken_IntPtr_Int32_IntPtrArray_IntPtrArray_Out_ResolveTokenError = new( ReflectionUtils.GetType("System.Reflection.RuntimeModule"), "ResolveTypeToken", 0, typeof(System.IntPtr), typeof(System.Int32), typeof(System.IntPtr).MakeArrayType(), typeof(System.IntPtr).MakeArrayType(),  ReflectionUtils.GetType("System.Reflection.ResolveTokenError").MakeByRefType());
 					r_ResolveTypeToken_IntPtr_Int32_IntPtrArray_IntPtrArray_Out_ResolveTokenError.SetBelong(null);
 				}
 				return r_ResolveTypeToken_IntPtr_Int32_IntPtrArray_IntPtrArray_Out_ResolveTokenError;
@@ -989,7 +989,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 			{
 				if(r_ResolveMethodToken_IntPtr_Int32_IntPtrArray_IntPtrArray_Out_ResolveTokenError == null)
 				{
-					r_ResolveMethodToken_IntPtr_Int32_IntPtrArray_IntPtrArray_Out_ResolveTokenError = new( ReleactionUtils.GetType("System.Reflection.RuntimeModule"), "ResolveMethodToken", 0, typeof(System.IntPtr), typeof(System.Int32), typeof(System.IntPtr).MakeArrayType(), typeof(System.IntPtr).MakeArrayType(),  ReleactionUtils.GetType("System.Reflection.ResolveTokenError").MakeByRefType());
+					r_ResolveMethodToken_IntPtr_Int32_IntPtrArray_IntPtrArray_Out_ResolveTokenError = new( ReflectionUtils.GetType("System.Reflection.RuntimeModule"), "ResolveMethodToken", 0, typeof(System.IntPtr), typeof(System.Int32), typeof(System.IntPtr).MakeArrayType(), typeof(System.IntPtr).MakeArrayType(),  ReflectionUtils.GetType("System.Reflection.ResolveTokenError").MakeByRefType());
 					r_ResolveMethodToken_IntPtr_Int32_IntPtrArray_IntPtrArray_Out_ResolveTokenError.SetBelong(null);
 				}
 				return r_ResolveMethodToken_IntPtr_Int32_IntPtrArray_IntPtrArray_Out_ResolveTokenError;
@@ -1006,7 +1006,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 			{
 				if(r_ResolveFieldToken_IntPtr_Int32_IntPtrArray_IntPtrArray_Out_ResolveTokenError == null)
 				{
-					r_ResolveFieldToken_IntPtr_Int32_IntPtrArray_IntPtrArray_Out_ResolveTokenError = new( ReleactionUtils.GetType("System.Reflection.RuntimeModule"), "ResolveFieldToken", 0, typeof(System.IntPtr), typeof(System.Int32), typeof(System.IntPtr).MakeArrayType(), typeof(System.IntPtr).MakeArrayType(),  ReleactionUtils.GetType("System.Reflection.ResolveTokenError").MakeByRefType());
+					r_ResolveFieldToken_IntPtr_Int32_IntPtrArray_IntPtrArray_Out_ResolveTokenError = new( ReflectionUtils.GetType("System.Reflection.RuntimeModule"), "ResolveFieldToken", 0, typeof(System.IntPtr), typeof(System.Int32), typeof(System.IntPtr).MakeArrayType(), typeof(System.IntPtr).MakeArrayType(),  ReflectionUtils.GetType("System.Reflection.ResolveTokenError").MakeByRefType());
 					r_ResolveFieldToken_IntPtr_Int32_IntPtrArray_IntPtrArray_Out_ResolveTokenError.SetBelong(null);
 				}
 				return r_ResolveFieldToken_IntPtr_Int32_IntPtrArray_IntPtrArray_Out_ResolveTokenError;
@@ -1023,7 +1023,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 			{
 				if(r_ResolveStringToken_IntPtr_Int32_Out_ResolveTokenError == null)
 				{
-					r_ResolveStringToken_IntPtr_Int32_Out_ResolveTokenError = new( ReleactionUtils.GetType("System.Reflection.RuntimeModule"), "ResolveStringToken", 0, typeof(System.IntPtr), typeof(System.Int32),  ReleactionUtils.GetType("System.Reflection.ResolveTokenError").MakeByRefType());
+					r_ResolveStringToken_IntPtr_Int32_Out_ResolveTokenError = new( ReflectionUtils.GetType("System.Reflection.RuntimeModule"), "ResolveStringToken", 0, typeof(System.IntPtr), typeof(System.Int32),  ReflectionUtils.GetType("System.Reflection.ResolveTokenError").MakeByRefType());
 					r_ResolveStringToken_IntPtr_Int32_Out_ResolveTokenError.SetBelong(null);
 				}
 				return r_ResolveStringToken_IntPtr_Int32_Out_ResolveTokenError;
@@ -1040,7 +1040,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 			{
 				if(r_ResolveMemberToken_IntPtr_Int32_IntPtrArray_IntPtrArray_Out_ResolveTokenError == null)
 				{
-					r_ResolveMemberToken_IntPtr_Int32_IntPtrArray_IntPtrArray_Out_ResolveTokenError = new( ReleactionUtils.GetType("System.Reflection.RuntimeModule"), "ResolveMemberToken", 0, typeof(System.IntPtr), typeof(System.Int32), typeof(System.IntPtr).MakeArrayType(), typeof(System.IntPtr).MakeArrayType(),  ReleactionUtils.GetType("System.Reflection.ResolveTokenError").MakeByRefType());
+					r_ResolveMemberToken_IntPtr_Int32_IntPtrArray_IntPtrArray_Out_ResolveTokenError = new( ReflectionUtils.GetType("System.Reflection.RuntimeModule"), "ResolveMemberToken", 0, typeof(System.IntPtr), typeof(System.Int32), typeof(System.IntPtr).MakeArrayType(), typeof(System.IntPtr).MakeArrayType(),  ReflectionUtils.GetType("System.Reflection.ResolveTokenError").MakeByRefType());
 					r_ResolveMemberToken_IntPtr_Int32_IntPtrArray_IntPtrArray_Out_ResolveTokenError.SetBelong(null);
 				}
 				return r_ResolveMemberToken_IntPtr_Int32_IntPtrArray_IntPtrArray_Out_ResolveTokenError;
@@ -1057,7 +1057,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 			{
 				if(r_ResolveSignature_IntPtr_Int32_Out_ResolveTokenError == null)
 				{
-					r_ResolveSignature_IntPtr_Int32_Out_ResolveTokenError = new( ReleactionUtils.GetType("System.Reflection.RuntimeModule"), "ResolveSignature", 0, typeof(System.IntPtr), typeof(System.Int32),  ReleactionUtils.GetType("System.Reflection.ResolveTokenError").MakeByRefType());
+					r_ResolveSignature_IntPtr_Int32_Out_ResolveTokenError = new( ReflectionUtils.GetType("System.Reflection.RuntimeModule"), "ResolveSignature", 0, typeof(System.IntPtr), typeof(System.Int32),  ReflectionUtils.GetType("System.Reflection.ResolveTokenError").MakeByRefType());
 					r_ResolveSignature_IntPtr_Int32_Out_ResolveTokenError.SetBelong(null);
 				}
 				return r_ResolveSignature_IntPtr_Int32_Out_ResolveTokenError;
@@ -1074,7 +1074,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 			{
 				if(r_GetPEKind_IntPtr_Out_PortableExecutableKinds_Out_ImageFileMachine == null)
 				{
-					r_GetPEKind_IntPtr_Out_PortableExecutableKinds_Out_ImageFileMachine = new( ReleactionUtils.GetType("System.Reflection.RuntimeModule"), "GetPEKind", 0, typeof(System.IntPtr), typeof(System.Reflection.PortableExecutableKinds).MakeByRefType(), typeof(System.Reflection.ImageFileMachine).MakeByRefType());
+					r_GetPEKind_IntPtr_Out_PortableExecutableKinds_Out_ImageFileMachine = new( ReflectionUtils.GetType("System.Reflection.RuntimeModule"), "GetPEKind", 0, typeof(System.IntPtr), typeof(System.Reflection.PortableExecutableKinds).MakeByRefType(), typeof(System.Reflection.ImageFileMachine).MakeByRefType());
 					r_GetPEKind_IntPtr_Out_PortableExecutableKinds_Out_ImageFileMachine.SetBelong(null);
 				}
 				return r_GetPEKind_IntPtr_Out_PortableExecutableKinds_Out_ImageFileMachine;

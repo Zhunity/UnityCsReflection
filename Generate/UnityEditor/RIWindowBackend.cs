@@ -37,7 +37,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 			{
 				if(r_OnCreate_IWindowModel == null)
 				{
-					r_OnCreate_IWindowModel = new(this, "OnCreate", 0,  ReleactionUtils.GetType("UnityEditor.IWindowModel"));
+					r_OnCreate_IWindowModel = new(this, "OnCreate", 0,  ReflectionUtils.GetType("UnityEditor.IWindowModel"));
 					r_OnCreate_IWindowModel.SetBelong(this.instance);
 				}
 				return r_OnCreate_IWindowModel;
@@ -54,7 +54,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 			{
 				if(r_OnDestroy_IWindowModel == null)
 				{
-					r_OnDestroy_IWindowModel = new(this, "OnDestroy", 0,  ReleactionUtils.GetType("UnityEditor.IWindowModel"));
+					r_OnDestroy_IWindowModel = new(this, "OnDestroy", 0,  ReflectionUtils.GetType("UnityEditor.IWindowModel"));
 					r_OnDestroy_IWindowModel.SetBelong(this.instance);
 				}
 				return r_OnDestroy_IWindowModel;

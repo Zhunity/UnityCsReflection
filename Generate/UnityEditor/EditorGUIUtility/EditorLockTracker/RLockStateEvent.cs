@@ -177,7 +177,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 			{
 				if(r_FindMethod_PersistentCall == null)
 				{
-					r_FindMethod_PersistentCall = new(this, "FindMethod", 0,  ReleactionUtils.GetType("UnityEngine.Events.PersistentCall"));
+					r_FindMethod_PersistentCall = new(this, "FindMethod", 0,  ReflectionUtils.GetType("UnityEngine.Events.PersistentCall"));
 					r_FindMethod_PersistentCall.SetBelong(this.instance);
 				}
 				return r_FindMethod_PersistentCall;
@@ -313,7 +313,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 			{
 				if(r_AddCall_BaseInvokableCall == null)
 				{
-					r_AddCall_BaseInvokableCall = new(this, "AddCall", 0,  ReleactionUtils.GetType("UnityEngine.Events.BaseInvokableCall"));
+					r_AddCall_BaseInvokableCall = new(this, "AddCall", 0,  ReflectionUtils.GetType("UnityEngine.Events.BaseInvokableCall"));
 					r_AddCall_BaseInvokableCall.SetBelong(this.instance);
 				}
 				return r_AddCall_BaseInvokableCall;

@@ -513,7 +513,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 			{
 				if(r_AddEventFrame_GT_GD_AddEvent_d_T_D_p__Object_Object == null)
 				{
-					r_AddEventFrame_GT_GD_AddEvent_d_T_D_p__Object_Object = new(typeof(System.Reflection.EventInfo), "AddEventFrame", 2,  ReleactionUtils.GetType("System.Reflection.EventInfo+AddEvent`2").MakeGenericType(Type.MakeGenericMethodParameter(0), Type.MakeGenericMethodParameter(1)), typeof(System.Object), typeof(System.Object));
+					r_AddEventFrame_GT_GD_AddEvent_d_T_D_p__Object_Object = new(typeof(System.Reflection.EventInfo), "AddEventFrame", 2,  ReflectionUtils.GetType("System.Reflection.EventInfo+AddEvent`2").MakeGenericType(Type.MakeGenericMethodParameter(0), Type.MakeGenericMethodParameter(1)), typeof(System.Object), typeof(System.Object));
 					r_AddEventFrame_GT_GD_AddEvent_d_T_D_p__Object_Object.SetBelong(null);
 				}
 				return r_AddEventFrame_GT_GD_AddEvent_d_T_D_p__Object_Object;
@@ -530,7 +530,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 			{
 				if(r_StaticAddEventAdapterFrame_GD_StaticAddEvent_d_D_p__Object_Object == null)
 				{
-					r_StaticAddEventAdapterFrame_GD_StaticAddEvent_d_D_p__Object_Object = new(typeof(System.Reflection.EventInfo), "StaticAddEventAdapterFrame", 1,  ReleactionUtils.GetType("System.Reflection.EventInfo+StaticAddEvent`1").MakeGenericType(Type.MakeGenericMethodParameter(0)), typeof(System.Object), typeof(System.Object));
+					r_StaticAddEventAdapterFrame_GD_StaticAddEvent_d_D_p__Object_Object = new(typeof(System.Reflection.EventInfo), "StaticAddEventAdapterFrame", 1,  ReflectionUtils.GetType("System.Reflection.EventInfo+StaticAddEvent`1").MakeGenericType(Type.MakeGenericMethodParameter(0)), typeof(System.Object), typeof(System.Object));
 					r_StaticAddEventAdapterFrame_GD_StaticAddEvent_d_D_p__Object_Object.SetBelong(null);
 				}
 				return r_StaticAddEventAdapterFrame_GD_StaticAddEvent_d_D_p__Object_Object;
@@ -581,7 +581,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 			{
 				if(r_GetEventFromHandle_RuntimeEventHandle_RuntimeTypeHandle == null)
 				{
-					r_GetEventFromHandle_RuntimeEventHandle_RuntimeTypeHandle = new(typeof(System.Reflection.EventInfo), "GetEventFromHandle", 0,  ReleactionUtils.GetType("Mono.RuntimeEventHandle"), typeof(System.RuntimeTypeHandle));
+					r_GetEventFromHandle_RuntimeEventHandle_RuntimeTypeHandle = new(typeof(System.Reflection.EventInfo), "GetEventFromHandle", 0,  ReflectionUtils.GetType("Mono.RuntimeEventHandle"), typeof(System.RuntimeTypeHandle));
 					r_GetEventFromHandle_RuntimeEventHandle_RuntimeTypeHandle.SetBelong(null);
 				}
 				return r_GetEventFromHandle_RuntimeEventHandle_RuntimeTypeHandle;

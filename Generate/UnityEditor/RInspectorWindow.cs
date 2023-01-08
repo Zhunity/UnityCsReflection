@@ -20,7 +20,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 			{
 				if(r_m_AllInspectors == null)
 				{
-					r_m_AllInspectors = new( ReleactionUtils.GetType("UnityEditor.InspectorWindow"), "m_AllInspectors");
+					r_m_AllInspectors = new( ReflectionUtils.GetType("UnityEditor.InspectorWindow"), "m_AllInspectors");
 					r_m_AllInspectors.SetBelong(null);
 				}
 				return r_m_AllInspectors;
@@ -37,7 +37,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 			{
 				if(r_s_AllOptimizedGUIBlocksNeedsRebuild == null)
 				{
-					r_s_AllOptimizedGUIBlocksNeedsRebuild = new( ReleactionUtils.GetType("UnityEditor.InspectorWindow"), "s_AllOptimizedGUIBlocksNeedsRebuild");
+					r_s_AllOptimizedGUIBlocksNeedsRebuild = new( ReflectionUtils.GetType("UnityEditor.InspectorWindow"), "s_AllOptimizedGUIBlocksNeedsRebuild");
 					r_s_AllOptimizedGUIBlocksNeedsRebuild.SetBelong(null);
 				}
 				return r_s_AllOptimizedGUIBlocksNeedsRebuild;
@@ -1720,7 +1720,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 			{
 				if(r_RepaintAllInspectors == null)
 				{
-					r_RepaintAllInspectors = new( ReleactionUtils.GetType("UnityEditor.InspectorWindow"), "RepaintAllInspectors", 0);
+					r_RepaintAllInspectors = new( ReflectionUtils.GetType("UnityEditor.InspectorWindow"), "RepaintAllInspectors", 0);
 					r_RepaintAllInspectors.SetBelong(null);
 				}
 				return r_RepaintAllInspectors;
@@ -1737,7 +1737,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 			{
 				if(r_GetInspectors == null)
 				{
-					r_GetInspectors = new( ReleactionUtils.GetType("UnityEditor.InspectorWindow"), "GetInspectors", 0);
+					r_GetInspectors = new( ReflectionUtils.GetType("UnityEditor.InspectorWindow"), "GetInspectors", 0);
 					r_GetInspectors.SetBelong(null);
 				}
 				return r_GetInspectors;
@@ -1754,7 +1754,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 			{
 				if(r_RedrawFromNative == null)
 				{
-					r_RedrawFromNative = new( ReleactionUtils.GetType("UnityEditor.InspectorWindow"), "RedrawFromNative", 0);
+					r_RedrawFromNative = new( ReflectionUtils.GetType("UnityEditor.InspectorWindow"), "RedrawFromNative", 0);
 					r_RedrawFromNative.SetBelong(null);
 				}
 				return r_RedrawFromNative;
@@ -1771,7 +1771,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 			{
 				if(r_GetAllInspectorWindows == null)
 				{
-					r_GetAllInspectorWindows = new( ReleactionUtils.GetType("UnityEditor.InspectorWindow"), "GetAllInspectorWindows", 0);
+					r_GetAllInspectorWindows = new( ReflectionUtils.GetType("UnityEditor.InspectorWindow"), "GetAllInspectorWindows", 0);
 					r_GetAllInspectorWindows.SetBelong(null);
 				}
 				return r_GetAllInspectorWindows;
@@ -1975,7 +1975,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 			{
 				if(r_ShowWindow == null)
 				{
-					r_ShowWindow = new( ReleactionUtils.GetType("UnityEditor.InspectorWindow"), "ShowWindow", 0);
+					r_ShowWindow = new( ReflectionUtils.GetType("UnityEditor.InspectorWindow"), "ShowWindow", 0);
 					r_ShowWindow.SetBelong(null);
 				}
 				return r_ShowWindow;
@@ -1992,7 +1992,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 			{
 				if(r_FlushAllOptimizedGUIBlocksIfNeeded == null)
 				{
-					r_FlushAllOptimizedGUIBlocksIfNeeded = new( ReleactionUtils.GetType("UnityEditor.InspectorWindow"), "FlushAllOptimizedGUIBlocksIfNeeded", 0);
+					r_FlushAllOptimizedGUIBlocksIfNeeded = new( ReflectionUtils.GetType("UnityEditor.InspectorWindow"), "FlushAllOptimizedGUIBlocksIfNeeded", 0);
 					r_FlushAllOptimizedGUIBlocksIfNeeded.SetBelong(null);
 				}
 				return r_FlushAllOptimizedGUIBlocksIfNeeded;
@@ -2094,7 +2094,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 			{
 				if(r_AddInspectorWindow_InspectorWindow == null)
 				{
-					r_AddInspectorWindow_InspectorWindow = new( ReleactionUtils.GetType("UnityEditor.InspectorWindow"), "AddInspectorWindow", 0,  ReleactionUtils.GetType("UnityEditor.InspectorWindow"));
+					r_AddInspectorWindow_InspectorWindow = new( ReflectionUtils.GetType("UnityEditor.InspectorWindow"), "AddInspectorWindow", 0,  ReflectionUtils.GetType("UnityEditor.InspectorWindow"));
 					r_AddInspectorWindow_InspectorWindow.SetBelong(null);
 				}
 				return r_AddInspectorWindow_InspectorWindow;
@@ -2111,7 +2111,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 			{
 				if(r_RemoveInspectorWindow_InspectorWindow == null)
 				{
-					r_RemoveInspectorWindow_InspectorWindow = new( ReleactionUtils.GetType("UnityEditor.InspectorWindow"), "RemoveInspectorWindow", 0,  ReleactionUtils.GetType("UnityEditor.InspectorWindow"));
+					r_RemoveInspectorWindow_InspectorWindow = new( ReflectionUtils.GetType("UnityEditor.InspectorWindow"), "RemoveInspectorWindow", 0,  ReflectionUtils.GetType("UnityEditor.InspectorWindow"));
 					r_RemoveInspectorWindow_InspectorWindow.SetBelong(null);
 				}
 				return r_RemoveInspectorWindow_InspectorWindow;
@@ -2128,7 +2128,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 			{
 				if(r_ApplyChanges == null)
 				{
-					r_ApplyChanges = new( ReleactionUtils.GetType("UnityEditor.InspectorWindow"), "ApplyChanges", 0);
+					r_ApplyChanges = new( ReflectionUtils.GetType("UnityEditor.InspectorWindow"), "ApplyChanges", 0);
 					r_ApplyChanges.SetBelong(null);
 				}
 				return r_ApplyChanges;
@@ -2145,7 +2145,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 			{
 				if(r_RefreshInspectors == null)
 				{
-					r_RefreshInspectors = new( ReleactionUtils.GetType("UnityEditor.InspectorWindow"), "RefreshInspectors", 0);
+					r_RefreshInspectors = new( ReflectionUtils.GetType("UnityEditor.InspectorWindow"), "RefreshInspectors", 0);
 					r_RefreshInspectors.SetBelong(null);
 				}
 				return r_RefreshInspectors;
@@ -2213,7 +2213,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 			{
 				if(r_EditorForMultiEditingChanged_Editor_Object == null)
 				{
-					r_EditorForMultiEditingChanged_Editor_Object = new( ReleactionUtils.GetType("UnityEditor.InspectorWindow"), "EditorForMultiEditingChanged", 0, typeof(UnityEditor.Editor), typeof(UnityEngine.Object));
+					r_EditorForMultiEditingChanged_Editor_Object = new( ReflectionUtils.GetType("UnityEditor.InspectorWindow"), "EditorForMultiEditingChanged", 0, typeof(UnityEditor.Editor), typeof(UnityEngine.Object));
 					r_EditorForMultiEditingChanged_Editor_Object.SetBelong(null);
 				}
 				return r_EditorForMultiEditingChanged_Editor_Object;
@@ -2638,7 +2638,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 			{
 				if(r_GetEditorThatControlsPreview_IPreviewableArray == null)
 				{
-					r_GetEditorThatControlsPreview_IPreviewableArray = new(this, "GetEditorThatControlsPreview", 0,  ReleactionUtils.GetType("UnityEditor.IPreviewable").MakeArrayType());
+					r_GetEditorThatControlsPreview_IPreviewableArray = new(this, "GetEditorThatControlsPreview", 0,  ReflectionUtils.GetType("UnityEditor.IPreviewable").MakeArrayType());
 					r_GetEditorThatControlsPreview_IPreviewableArray.SetBelong(this.instance);
 				}
 				return r_GetEditorThatControlsPreview_IPreviewableArray;
@@ -3233,7 +3233,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 			{
 				if(r_ShowPopupWithMode_ShowMode_Boolean == null)
 				{
-					r_ShowPopupWithMode_ShowMode_Boolean = new(this, "ShowPopupWithMode", 0,  ReleactionUtils.GetType("UnityEditor.ShowMode"), typeof(System.Boolean));
+					r_ShowPopupWithMode_ShowMode_Boolean = new(this, "ShowPopupWithMode", 0,  ReflectionUtils.GetType("UnityEditor.ShowMode"), typeof(System.Boolean));
 					r_ShowPopupWithMode_ShowMode_Boolean.SetBelong(this.instance);
 				}
 				return r_ShowPopupWithMode_ShowMode_Boolean;
@@ -3250,7 +3250,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 			{
 				if(r_ShowWithMode_ShowMode == null)
 				{
-					r_ShowWithMode_ShowMode = new(this, "ShowWithMode", 0,  ReleactionUtils.GetType("UnityEditor.ShowMode"));
+					r_ShowWithMode_ShowMode = new(this, "ShowWithMode", 0,  ReflectionUtils.GetType("UnityEditor.ShowMode"));
 					r_ShowWithMode_ShowMode.SetBelong(this.instance);
 				}
 				return r_ShowWithMode_ShowMode;
@@ -3284,7 +3284,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 			{
 				if(r_ShowAsDropDown_Rect_Vector2_PopupLocationArray == null)
 				{
-					r_ShowAsDropDown_Rect_Vector2_PopupLocationArray = new(this, "ShowAsDropDown", 0, typeof(UnityEngine.Rect), typeof(UnityEngine.Vector2),  ReleactionUtils.GetType("UnityEditor.PopupLocation").MakeArrayType());
+					r_ShowAsDropDown_Rect_Vector2_PopupLocationArray = new(this, "ShowAsDropDown", 0, typeof(UnityEngine.Rect), typeof(UnityEngine.Vector2),  ReflectionUtils.GetType("UnityEditor.PopupLocation").MakeArrayType());
 					r_ShowAsDropDown_Rect_Vector2_PopupLocationArray.SetBelong(this.instance);
 				}
 				return r_ShowAsDropDown_Rect_Vector2_PopupLocationArray;
@@ -3301,7 +3301,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 			{
 				if(r_ShowAsDropDown_Rect_Vector2_PopupLocationArray_ShowMode == null)
 				{
-					r_ShowAsDropDown_Rect_Vector2_PopupLocationArray_ShowMode = new(this, "ShowAsDropDown", 0, typeof(UnityEngine.Rect), typeof(UnityEngine.Vector2),  ReleactionUtils.GetType("UnityEditor.PopupLocation").MakeArrayType(),  ReleactionUtils.GetType("UnityEditor.ShowMode"));
+					r_ShowAsDropDown_Rect_Vector2_PopupLocationArray_ShowMode = new(this, "ShowAsDropDown", 0, typeof(UnityEngine.Rect), typeof(UnityEngine.Vector2),  ReflectionUtils.GetType("UnityEditor.PopupLocation").MakeArrayType(),  ReflectionUtils.GetType("UnityEditor.ShowMode"));
 					r_ShowAsDropDown_Rect_Vector2_PopupLocationArray_ShowMode.SetBelong(this.instance);
 				}
 				return r_ShowAsDropDown_Rect_Vector2_PopupLocationArray_ShowMode;
@@ -3318,7 +3318,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 			{
 				if(r_ShowAsDropDown_Rect_Vector2_PopupLocationArray_ShowMode_Boolean == null)
 				{
-					r_ShowAsDropDown_Rect_Vector2_PopupLocationArray_ShowMode_Boolean = new(this, "ShowAsDropDown", 0, typeof(UnityEngine.Rect), typeof(UnityEngine.Vector2),  ReleactionUtils.GetType("UnityEditor.PopupLocation").MakeArrayType(),  ReleactionUtils.GetType("UnityEditor.ShowMode"), typeof(System.Boolean));
+					r_ShowAsDropDown_Rect_Vector2_PopupLocationArray_ShowMode_Boolean = new(this, "ShowAsDropDown", 0, typeof(UnityEngine.Rect), typeof(UnityEngine.Vector2),  ReflectionUtils.GetType("UnityEditor.PopupLocation").MakeArrayType(),  ReflectionUtils.GetType("UnityEditor.ShowMode"), typeof(System.Boolean));
 					r_ShowAsDropDown_Rect_Vector2_PopupLocationArray_ShowMode_Boolean.SetBelong(this.instance);
 				}
 				return r_ShowAsDropDown_Rect_Vector2_PopupLocationArray_ShowMode_Boolean;
@@ -3335,7 +3335,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 			{
 				if(r_ShowAsDropDownFitToScreen_Rect_Vector2_PopupLocationArray == null)
 				{
-					r_ShowAsDropDownFitToScreen_Rect_Vector2_PopupLocationArray = new(this, "ShowAsDropDownFitToScreen", 0, typeof(UnityEngine.Rect), typeof(UnityEngine.Vector2),  ReleactionUtils.GetType("UnityEditor.PopupLocation").MakeArrayType());
+					r_ShowAsDropDownFitToScreen_Rect_Vector2_PopupLocationArray = new(this, "ShowAsDropDownFitToScreen", 0, typeof(UnityEngine.Rect), typeof(UnityEngine.Vector2),  ReflectionUtils.GetType("UnityEditor.PopupLocation").MakeArrayType());
 					r_ShowAsDropDownFitToScreen_Rect_Vector2_PopupLocationArray.SetBelong(this.instance);
 				}
 				return r_ShowAsDropDownFitToScreen_Rect_Vector2_PopupLocationArray;

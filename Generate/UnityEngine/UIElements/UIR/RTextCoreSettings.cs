@@ -139,7 +139,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_Equals_TextCoreSettings == null)
 				{
-					r_Equals_TextCoreSettings = new(this, "Equals", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.UIR.TextCoreSettings"));
+					r_Equals_TextCoreSettings = new(this, "Equals", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.UIR.TextCoreSettings"));
 					r_Equals_TextCoreSettings.SetBelong(this.instance);
 				}
 				return r_Equals_TextCoreSettings;

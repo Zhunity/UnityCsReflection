@@ -39,7 +39,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_CreateBlock == null)
 				{
-					r_CreateBlock = new( ReleactionUtils.GetType("UnityEngine.UIElements.UIR.BestFitAllocator+BlockPool"), "CreateBlock", 0);
+					r_CreateBlock = new( ReflectionUtils.GetType("UnityEngine.UIElements.UIR.BestFitAllocator+BlockPool"), "CreateBlock", 0);
 					r_CreateBlock.SetBelong(null);
 				}
 				return r_CreateBlock;
@@ -56,7 +56,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_ResetBlock_Block == null)
 				{
-					r_ResetBlock_Block = new( ReleactionUtils.GetType("UnityEngine.UIElements.UIR.BestFitAllocator+BlockPool"), "ResetBlock", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.UIR.BestFitAllocator+Block"));
+					r_ResetBlock_Block = new( ReflectionUtils.GetType("UnityEngine.UIElements.UIR.BestFitAllocator+BlockPool"), "ResetBlock", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.UIR.BestFitAllocator+Block"));
 					r_ResetBlock_Block.SetBelong(null);
 				}
 				return r_ResetBlock_Block;
@@ -107,7 +107,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_Return_Block == null)
 				{
-					r_Return_Block = new(this, "Return", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.UIR.BestFitAllocator+Block"));
+					r_Return_Block = new(this, "Return", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.UIR.BestFitAllocator+Block"));
 					r_Return_Block.SetBelong(this.instance);
 				}
 				return r_Return_Block;

@@ -71,7 +71,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_maxTextures == null)
 				{
-					r_maxTextures = new( ReleactionUtils.GetType("UnityEngine.UIElements.TextureRegistry"), "maxTextures");
+					r_maxTextures = new( ReflectionUtils.GetType("UnityEngine.UIElements.TextureRegistry"), "maxTextures");
 					r_maxTextures.SetBelong(null);
 				}
 				return r_maxTextures;
@@ -88,7 +88,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r___0__instance__1__k__BackingField == null)
 				{
-					r___0__instance__1__k__BackingField = new( ReleactionUtils.GetType("UnityEngine.UIElements.TextureRegistry"), "<instance>k__BackingField");
+					r___0__instance__1__k__BackingField = new( ReflectionUtils.GetType("UnityEngine.UIElements.TextureRegistry"), "<instance>k__BackingField");
 					r___0__instance__1__k__BackingField.SetBelong(null);
 				}
 				return r___0__instance__1__k__BackingField;
@@ -105,7 +105,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_instance == null)
 				{
-					r_instance = new( ReleactionUtils.GetType("UnityEngine.UIElements.TextureRegistry"), "instance", -1);
+					r_instance = new( ReflectionUtils.GetType("UnityEngine.UIElements.TextureRegistry"), "instance", -1);
 					r_instance.SetBelong(null);
 				}
 				return r_instance;
@@ -122,7 +122,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_GetTexture_TextureId == null)
 				{
-					r_GetTexture_TextureId = new(this, "GetTexture", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.TextureId"));
+					r_GetTexture_TextureId = new(this, "GetTexture", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.TextureId"));
 					r_GetTexture_TextureId.SetBelong(this.instance);
 				}
 				return r_GetTexture_TextureId;
@@ -156,7 +156,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_UpdateDynamic_TextureId_Texture == null)
 				{
-					r_UpdateDynamic_TextureId_Texture = new(this, "UpdateDynamic", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.TextureId"), typeof(UnityEngine.Texture));
+					r_UpdateDynamic_TextureId_Texture = new(this, "UpdateDynamic", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.TextureId"), typeof(UnityEngine.Texture));
 					r_UpdateDynamic_TextureId_Texture.SetBelong(this.instance);
 				}
 				return r_UpdateDynamic_TextureId_Texture;
@@ -207,7 +207,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_Acquire_TextureId == null)
 				{
-					r_Acquire_TextureId = new(this, "Acquire", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.TextureId"));
+					r_Acquire_TextureId = new(this, "Acquire", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.TextureId"));
 					r_Acquire_TextureId.SetBelong(this.instance);
 				}
 				return r_Acquire_TextureId;
@@ -224,7 +224,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_Release_TextureId == null)
 				{
-					r_Release_TextureId = new(this, "Release", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.TextureId"));
+					r_Release_TextureId = new(this, "Release", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.TextureId"));
 					r_Release_TextureId.SetBelong(this.instance);
 				}
 				return r_Release_TextureId;

@@ -224,7 +224,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 			{
 				if(r_GetCustomAttributesInternal_RuntimeType == null)
 				{
-					r_GetCustomAttributesInternal_RuntimeType = new(typeof(System.Reflection.CustomAttributeData), "GetCustomAttributesInternal", 0,  ReleactionUtils.GetType("System.RuntimeType"));
+					r_GetCustomAttributesInternal_RuntimeType = new(typeof(System.Reflection.CustomAttributeData), "GetCustomAttributesInternal", 0,  ReflectionUtils.GetType("System.RuntimeType"));
 					r_GetCustomAttributesInternal_RuntimeType.SetBelong(null);
 				}
 				return r_GetCustomAttributesInternal_RuntimeType;

@@ -22,7 +22,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_comparer == null)
 				{
-					r_comparer = new( ReleactionUtils.GetType("UnityEngine.UIElements.VisualTreeAsset+UsingEntry"), "comparer");
+					r_comparer = new( ReflectionUtils.GetType("UnityEngine.UIElements.VisualTreeAsset+UsingEntry"), "comparer");
 					r_comparer.SetBelong(null);
 				}
 				return r_comparer;

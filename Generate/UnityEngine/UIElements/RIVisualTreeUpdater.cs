@@ -71,7 +71,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_OnVersionChanged_VisualElement_VersionChangeType == null)
 				{
-					r_OnVersionChanged_VisualElement_VersionChangeType = new(this, "OnVersionChanged", 0, typeof(UnityEngine.UIElements.VisualElement),  ReleactionUtils.GetType("UnityEngine.UIElements.VersionChangeType"));
+					r_OnVersionChanged_VisualElement_VersionChangeType = new(this, "OnVersionChanged", 0, typeof(UnityEngine.UIElements.VisualElement),  ReflectionUtils.GetType("UnityEngine.UIElements.VersionChangeType"));
 					r_OnVersionChanged_VisualElement_VersionChangeType.SetBelong(this.instance);
 				}
 				return r_OnVersionChanged_VisualElement_VersionChangeType;

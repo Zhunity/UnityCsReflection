@@ -20,7 +20,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 			{
 				if(r_Onerep == null)
 				{
-					r_Onerep = new( ReleactionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Onerep");
+					r_Onerep = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Onerep");
 					r_Onerep.SetBelong(null);
 				}
 				return r_Onerep;
@@ -37,7 +37,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 			{
 				if(r_Notonerep == null)
 				{
-					r_Notonerep = new( ReleactionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Notonerep");
+					r_Notonerep = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Notonerep");
 					r_Notonerep.SetBelong(null);
 				}
 				return r_Notonerep;
@@ -54,7 +54,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 			{
 				if(r_Setrep == null)
 				{
-					r_Setrep = new( ReleactionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Setrep");
+					r_Setrep = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Setrep");
 					r_Setrep.SetBelong(null);
 				}
 				return r_Setrep;
@@ -71,7 +71,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 			{
 				if(r_Oneloop == null)
 				{
-					r_Oneloop = new( ReleactionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Oneloop");
+					r_Oneloop = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Oneloop");
 					r_Oneloop.SetBelong(null);
 				}
 				return r_Oneloop;
@@ -88,7 +88,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 			{
 				if(r_Notoneloop == null)
 				{
-					r_Notoneloop = new( ReleactionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Notoneloop");
+					r_Notoneloop = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Notoneloop");
 					r_Notoneloop.SetBelong(null);
 				}
 				return r_Notoneloop;
@@ -105,7 +105,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 			{
 				if(r_Setloop == null)
 				{
-					r_Setloop = new( ReleactionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Setloop");
+					r_Setloop = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Setloop");
 					r_Setloop.SetBelong(null);
 				}
 				return r_Setloop;
@@ -122,7 +122,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 			{
 				if(r_Onelazy == null)
 				{
-					r_Onelazy = new( ReleactionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Onelazy");
+					r_Onelazy = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Onelazy");
 					r_Onelazy.SetBelong(null);
 				}
 				return r_Onelazy;
@@ -139,7 +139,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 			{
 				if(r_Notonelazy == null)
 				{
-					r_Notonelazy = new( ReleactionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Notonelazy");
+					r_Notonelazy = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Notonelazy");
 					r_Notonelazy.SetBelong(null);
 				}
 				return r_Notonelazy;
@@ -156,7 +156,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 			{
 				if(r_Setlazy == null)
 				{
-					r_Setlazy = new( ReleactionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Setlazy");
+					r_Setlazy = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Setlazy");
 					r_Setlazy.SetBelong(null);
 				}
 				return r_Setlazy;
@@ -173,7 +173,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 			{
 				if(r_One == null)
 				{
-					r_One = new( ReleactionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "One");
+					r_One = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "One");
 					r_One.SetBelong(null);
 				}
 				return r_One;
@@ -190,7 +190,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 			{
 				if(r_Notone == null)
 				{
-					r_Notone = new( ReleactionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Notone");
+					r_Notone = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Notone");
 					r_Notone.SetBelong(null);
 				}
 				return r_Notone;
@@ -207,7 +207,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 			{
 				if(r_Set == null)
 				{
-					r_Set = new( ReleactionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Set");
+					r_Set = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Set");
 					r_Set.SetBelong(null);
 				}
 				return r_Set;
@@ -224,7 +224,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 			{
 				if(r_Multi == null)
 				{
-					r_Multi = new( ReleactionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Multi");
+					r_Multi = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Multi");
 					r_Multi.SetBelong(null);
 				}
 				return r_Multi;
@@ -241,7 +241,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 			{
 				if(r_Ref == null)
 				{
-					r_Ref = new( ReleactionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Ref");
+					r_Ref = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Ref");
 					r_Ref.SetBelong(null);
 				}
 				return r_Ref;
@@ -258,7 +258,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 			{
 				if(r_Bol == null)
 				{
-					r_Bol = new( ReleactionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Bol");
+					r_Bol = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Bol");
 					r_Bol.SetBelong(null);
 				}
 				return r_Bol;
@@ -275,7 +275,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 			{
 				if(r_Eol == null)
 				{
-					r_Eol = new( ReleactionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Eol");
+					r_Eol = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Eol");
 					r_Eol.SetBelong(null);
 				}
 				return r_Eol;
@@ -292,7 +292,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 			{
 				if(r_Boundary == null)
 				{
-					r_Boundary = new( ReleactionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Boundary");
+					r_Boundary = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Boundary");
 					r_Boundary.SetBelong(null);
 				}
 				return r_Boundary;
@@ -309,7 +309,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 			{
 				if(r_Nonboundary == null)
 				{
-					r_Nonboundary = new( ReleactionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Nonboundary");
+					r_Nonboundary = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Nonboundary");
 					r_Nonboundary.SetBelong(null);
 				}
 				return r_Nonboundary;
@@ -326,7 +326,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 			{
 				if(r_Beginning == null)
 				{
-					r_Beginning = new( ReleactionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Beginning");
+					r_Beginning = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Beginning");
 					r_Beginning.SetBelong(null);
 				}
 				return r_Beginning;
@@ -343,7 +343,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 			{
 				if(r_Start == null)
 				{
-					r_Start = new( ReleactionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Start");
+					r_Start = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Start");
 					r_Start.SetBelong(null);
 				}
 				return r_Start;
@@ -360,7 +360,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 			{
 				if(r_EndZ == null)
 				{
-					r_EndZ = new( ReleactionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "EndZ");
+					r_EndZ = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "EndZ");
 					r_EndZ.SetBelong(null);
 				}
 				return r_EndZ;
@@ -377,7 +377,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 			{
 				if(r_End == null)
 				{
-					r_End = new( ReleactionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "End");
+					r_End = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "End");
 					r_End.SetBelong(null);
 				}
 				return r_End;
@@ -394,7 +394,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 			{
 				if(r_Nothing == null)
 				{
-					r_Nothing = new( ReleactionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Nothing");
+					r_Nothing = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Nothing");
 					r_Nothing.SetBelong(null);
 				}
 				return r_Nothing;
@@ -411,7 +411,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 			{
 				if(r_Lazybranch == null)
 				{
-					r_Lazybranch = new( ReleactionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Lazybranch");
+					r_Lazybranch = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Lazybranch");
 					r_Lazybranch.SetBelong(null);
 				}
 				return r_Lazybranch;
@@ -428,7 +428,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 			{
 				if(r_Branchmark == null)
 				{
-					r_Branchmark = new( ReleactionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Branchmark");
+					r_Branchmark = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Branchmark");
 					r_Branchmark.SetBelong(null);
 				}
 				return r_Branchmark;
@@ -445,7 +445,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 			{
 				if(r_Lazybranchmark == null)
 				{
-					r_Lazybranchmark = new( ReleactionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Lazybranchmark");
+					r_Lazybranchmark = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Lazybranchmark");
 					r_Lazybranchmark.SetBelong(null);
 				}
 				return r_Lazybranchmark;
@@ -462,7 +462,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 			{
 				if(r_Nullcount == null)
 				{
-					r_Nullcount = new( ReleactionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Nullcount");
+					r_Nullcount = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Nullcount");
 					r_Nullcount.SetBelong(null);
 				}
 				return r_Nullcount;
@@ -479,7 +479,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 			{
 				if(r_Setcount == null)
 				{
-					r_Setcount = new( ReleactionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Setcount");
+					r_Setcount = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Setcount");
 					r_Setcount.SetBelong(null);
 				}
 				return r_Setcount;
@@ -496,7 +496,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 			{
 				if(r_Branchcount == null)
 				{
-					r_Branchcount = new( ReleactionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Branchcount");
+					r_Branchcount = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Branchcount");
 					r_Branchcount.SetBelong(null);
 				}
 				return r_Branchcount;
@@ -513,7 +513,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 			{
 				if(r_Lazybranchcount == null)
 				{
-					r_Lazybranchcount = new( ReleactionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Lazybranchcount");
+					r_Lazybranchcount = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Lazybranchcount");
 					r_Lazybranchcount.SetBelong(null);
 				}
 				return r_Lazybranchcount;
@@ -530,7 +530,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 			{
 				if(r_Nullmark == null)
 				{
-					r_Nullmark = new( ReleactionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Nullmark");
+					r_Nullmark = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Nullmark");
 					r_Nullmark.SetBelong(null);
 				}
 				return r_Nullmark;
@@ -547,7 +547,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 			{
 				if(r_Setmark == null)
 				{
-					r_Setmark = new( ReleactionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Setmark");
+					r_Setmark = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Setmark");
 					r_Setmark.SetBelong(null);
 				}
 				return r_Setmark;
@@ -564,7 +564,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 			{
 				if(r_Capturemark == null)
 				{
-					r_Capturemark = new( ReleactionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Capturemark");
+					r_Capturemark = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Capturemark");
 					r_Capturemark.SetBelong(null);
 				}
 				return r_Capturemark;
@@ -581,7 +581,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 			{
 				if(r_Getmark == null)
 				{
-					r_Getmark = new( ReleactionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Getmark");
+					r_Getmark = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Getmark");
 					r_Getmark.SetBelong(null);
 				}
 				return r_Getmark;
@@ -598,7 +598,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 			{
 				if(r_Setjump == null)
 				{
-					r_Setjump = new( ReleactionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Setjump");
+					r_Setjump = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Setjump");
 					r_Setjump.SetBelong(null);
 				}
 				return r_Setjump;
@@ -615,7 +615,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 			{
 				if(r_Backjump == null)
 				{
-					r_Backjump = new( ReleactionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Backjump");
+					r_Backjump = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Backjump");
 					r_Backjump.SetBelong(null);
 				}
 				return r_Backjump;
@@ -632,7 +632,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 			{
 				if(r_Forejump == null)
 				{
-					r_Forejump = new( ReleactionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Forejump");
+					r_Forejump = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Forejump");
 					r_Forejump.SetBelong(null);
 				}
 				return r_Forejump;
@@ -649,7 +649,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 			{
 				if(r_Testref == null)
 				{
-					r_Testref = new( ReleactionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Testref");
+					r_Testref = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Testref");
 					r_Testref.SetBelong(null);
 				}
 				return r_Testref;
@@ -666,7 +666,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 			{
 				if(r_Goto == null)
 				{
-					r_Goto = new( ReleactionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Goto");
+					r_Goto = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Goto");
 					r_Goto.SetBelong(null);
 				}
 				return r_Goto;
@@ -683,7 +683,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 			{
 				if(r_Prune == null)
 				{
-					r_Prune = new( ReleactionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Prune");
+					r_Prune = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Prune");
 					r_Prune.SetBelong(null);
 				}
 				return r_Prune;
@@ -700,7 +700,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 			{
 				if(r_Stop == null)
 				{
-					r_Stop = new( ReleactionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Stop");
+					r_Stop = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Stop");
 					r_Stop.SetBelong(null);
 				}
 				return r_Stop;
@@ -717,7 +717,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 			{
 				if(r_ECMABoundary == null)
 				{
-					r_ECMABoundary = new( ReleactionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "ECMABoundary");
+					r_ECMABoundary = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "ECMABoundary");
 					r_ECMABoundary.SetBelong(null);
 				}
 				return r_ECMABoundary;
@@ -734,7 +734,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 			{
 				if(r_NonECMABoundary == null)
 				{
-					r_NonECMABoundary = new( ReleactionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "NonECMABoundary");
+					r_NonECMABoundary = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "NonECMABoundary");
 					r_NonECMABoundary.SetBelong(null);
 				}
 				return r_NonECMABoundary;
@@ -751,7 +751,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 			{
 				if(r_Mask == null)
 				{
-					r_Mask = new( ReleactionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Mask");
+					r_Mask = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Mask");
 					r_Mask.SetBelong(null);
 				}
 				return r_Mask;
@@ -768,7 +768,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 			{
 				if(r_Rtl == null)
 				{
-					r_Rtl = new( ReleactionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Rtl");
+					r_Rtl = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Rtl");
 					r_Rtl.SetBelong(null);
 				}
 				return r_Rtl;
@@ -785,7 +785,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 			{
 				if(r_Back == null)
 				{
-					r_Back = new( ReleactionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Back");
+					r_Back = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Back");
 					r_Back.SetBelong(null);
 				}
 				return r_Back;
@@ -802,7 +802,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 			{
 				if(r_Back2 == null)
 				{
-					r_Back2 = new( ReleactionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Back2");
+					r_Back2 = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Back2");
 					r_Back2.SetBelong(null);
 				}
 				return r_Back2;
@@ -819,7 +819,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 			{
 				if(r_Ci == null)
 				{
-					r_Ci = new( ReleactionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Ci");
+					r_Ci = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Ci");
 					r_Ci.SetBelong(null);
 				}
 				return r_Ci;
@@ -989,7 +989,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 			{
 				if(r_OpcodeBacktracks_Int32 == null)
 				{
-					r_OpcodeBacktracks_Int32 = new( ReleactionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "OpcodeBacktracks", 0, typeof(System.Int32));
+					r_OpcodeBacktracks_Int32 = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "OpcodeBacktracks", 0, typeof(System.Int32));
 					r_OpcodeBacktracks_Int32.SetBelong(null);
 				}
 				return r_OpcodeBacktracks_Int32;
@@ -1006,7 +1006,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 			{
 				if(r_OpcodeSize_Int32 == null)
 				{
-					r_OpcodeSize_Int32 = new( ReleactionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "OpcodeSize", 0, typeof(System.Int32));
+					r_OpcodeSize_Int32 = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "OpcodeSize", 0, typeof(System.Int32));
 					r_OpcodeSize_Int32.SetBelong(null);
 				}
 				return r_OpcodeSize_Int32;

@@ -175,7 +175,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_IsSame_Reader == null)
 				{
-					r_IsSame_Reader = new(this, "IsSame", 0,  ReleactionUtils.GetType("System.Threading.ExecutionContext+Reader"));
+					r_IsSame_Reader = new(this, "IsSame", 0,  ReflectionUtils.GetType("System.Threading.ExecutionContext+Reader"));
 					r_IsSame_Reader.SetBelong(this.instance);
 				}
 				return r_IsSame_Reader;
@@ -192,7 +192,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_GetLocalValue_IAsyncLocal == null)
 				{
-					r_GetLocalValue_IAsyncLocal = new(this, "GetLocalValue", 0,  ReleactionUtils.GetType("System.Threading.IAsyncLocal"));
+					r_GetLocalValue_IAsyncLocal = new(this, "GetLocalValue", 0,  ReflectionUtils.GetType("System.Threading.IAsyncLocal"));
 					r_GetLocalValue_IAsyncLocal.SetBelong(this.instance);
 				}
 				return r_GetLocalValue_IAsyncLocal;

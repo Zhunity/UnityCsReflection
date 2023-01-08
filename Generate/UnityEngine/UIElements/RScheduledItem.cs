@@ -37,7 +37,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_OnceCondition == null)
 				{
-					r_OnceCondition = new( ReleactionUtils.GetType("UnityEngine.UIElements.ScheduledItem"), "OnceCondition");
+					r_OnceCondition = new( ReflectionUtils.GetType("UnityEngine.UIElements.ScheduledItem"), "OnceCondition");
 					r_OnceCondition.SetBelong(null);
 				}
 				return r_OnceCondition;
@@ -54,7 +54,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_ForeverCondition == null)
 				{
-					r_ForeverCondition = new( ReleactionUtils.GetType("UnityEngine.UIElements.ScheduledItem"), "ForeverCondition");
+					r_ForeverCondition = new( ReflectionUtils.GetType("UnityEngine.UIElements.ScheduledItem"), "ForeverCondition");
 					r_ForeverCondition.SetBelong(null);
 				}
 				return r_ForeverCondition;

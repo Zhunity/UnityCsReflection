@@ -88,7 +88,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
 			{
 				if(r_Point_Single == null)
 				{
-					r_Point_Single = new( ReleactionUtils.GetType("UnityEngine.Yoga.YogaValue"), "Point", 0, typeof(System.Single));
+					r_Point_Single = new( ReflectionUtils.GetType("UnityEngine.Yoga.YogaValue"), "Point", 0, typeof(System.Single));
 					r_Point_Single.SetBelong(null);
 				}
 				return r_Point_Single;
@@ -105,7 +105,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
 			{
 				if(r_Equals_YogaValue == null)
 				{
-					r_Equals_YogaValue = new(this, "Equals", 0,  ReleactionUtils.GetType("UnityEngine.Yoga.YogaValue"));
+					r_Equals_YogaValue = new(this, "Equals", 0,  ReflectionUtils.GetType("UnityEngine.Yoga.YogaValue"));
 					r_Equals_YogaValue.SetBelong(this.instance);
 				}
 				return r_Equals_YogaValue;
@@ -156,7 +156,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
 			{
 				if(r_Undefined == null)
 				{
-					r_Undefined = new( ReleactionUtils.GetType("UnityEngine.Yoga.YogaValue"), "Undefined", 0);
+					r_Undefined = new( ReflectionUtils.GetType("UnityEngine.Yoga.YogaValue"), "Undefined", 0);
 					r_Undefined.SetBelong(null);
 				}
 				return r_Undefined;
@@ -173,7 +173,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
 			{
 				if(r_Auto == null)
 				{
-					r_Auto = new( ReleactionUtils.GetType("UnityEngine.Yoga.YogaValue"), "Auto", 0);
+					r_Auto = new( ReflectionUtils.GetType("UnityEngine.Yoga.YogaValue"), "Auto", 0);
 					r_Auto.SetBelong(null);
 				}
 				return r_Auto;
@@ -190,7 +190,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
 			{
 				if(r_Percent_Single == null)
 				{
-					r_Percent_Single = new( ReleactionUtils.GetType("UnityEngine.Yoga.YogaValue"), "Percent", 0, typeof(System.Single));
+					r_Percent_Single = new( ReflectionUtils.GetType("UnityEngine.Yoga.YogaValue"), "Percent", 0, typeof(System.Single));
 					r_Percent_Single.SetBelong(null);
 				}
 				return r_Percent_Single;
@@ -207,7 +207,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
 			{
 				if(r_op_Implicit_Single == null)
 				{
-					r_op_Implicit_Single = new( ReleactionUtils.GetType("UnityEngine.Yoga.YogaValue"), "op_Implicit", 0, typeof(System.Single));
+					r_op_Implicit_Single = new( ReflectionUtils.GetType("UnityEngine.Yoga.YogaValue"), "op_Implicit", 0, typeof(System.Single));
 					r_op_Implicit_Single.SetBelong(null);
 				}
 				return r_op_Implicit_Single;
@@ -224,7 +224,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
 			{
 				if(r_MarshalValue_YogaValue == null)
 				{
-					r_MarshalValue_YogaValue = new( ReleactionUtils.GetType("UnityEngine.Yoga.YogaValue"), "MarshalValue", 0,  ReleactionUtils.GetType("UnityEngine.Yoga.YogaValue"));
+					r_MarshalValue_YogaValue = new( ReflectionUtils.GetType("UnityEngine.Yoga.YogaValue"), "MarshalValue", 0,  ReflectionUtils.GetType("UnityEngine.Yoga.YogaValue"));
 					r_MarshalValue_YogaValue.SetBelong(null);
 				}
 				return r_MarshalValue_YogaValue;

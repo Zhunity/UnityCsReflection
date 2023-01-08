@@ -54,7 +54,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_Init_RenderChain_BMPAlloc == null)
 				{
-					r_Init_RenderChain_BMPAlloc = new( ReleactionUtils.GetType("UnityEngine.UIElements.ColorPage"), "Init", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.UIR.RenderChain"),  ReleactionUtils.GetType("UnityEngine.UIElements.UIR.BMPAlloc"));
+					r_Init_RenderChain_BMPAlloc = new( ReflectionUtils.GetType("UnityEngine.UIElements.ColorPage"), "Init", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.UIR.RenderChain"),  ReflectionUtils.GetType("UnityEngine.UIElements.UIR.BMPAlloc"));
 					r_Init_RenderChain_BMPAlloc.SetBelong(null);
 				}
 				return r_Init_RenderChain_BMPAlloc;

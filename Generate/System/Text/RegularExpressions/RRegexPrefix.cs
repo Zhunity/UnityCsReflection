@@ -37,7 +37,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 			{
 				if(r___0__Empty__1__k__BackingField == null)
 				{
-					r___0__Empty__1__k__BackingField = new( ReleactionUtils.GetType("System.Text.RegularExpressions.RegexPrefix"), "<Empty>k__BackingField");
+					r___0__Empty__1__k__BackingField = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexPrefix"), "<Empty>k__BackingField");
 					r___0__Empty__1__k__BackingField.SetBelong(null);
 				}
 				return r___0__Empty__1__k__BackingField;
@@ -88,7 +88,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 			{
 				if(r_Empty == null)
 				{
-					r_Empty = new( ReleactionUtils.GetType("System.Text.RegularExpressions.RegexPrefix"), "Empty", -1);
+					r_Empty = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexPrefix"), "Empty", -1);
 					r_Empty.SetBelong(null);
 				}
 				return r_Empty;

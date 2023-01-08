@@ -37,7 +37,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 			{
 				if(r_InlineIfPossibleOrElseQueue_Task_Boolean == null)
 				{
-					r_InlineIfPossibleOrElseQueue_Task_Boolean = new( ReleactionUtils.GetType("System.Threading.Tasks.TaskContinuation"), "InlineIfPossibleOrElseQueue", 0, typeof(System.Threading.Tasks.Task), typeof(System.Boolean));
+					r_InlineIfPossibleOrElseQueue_Task_Boolean = new( ReflectionUtils.GetType("System.Threading.Tasks.TaskContinuation"), "InlineIfPossibleOrElseQueue", 0, typeof(System.Threading.Tasks.Task), typeof(System.Boolean));
 					r_InlineIfPossibleOrElseQueue_Task_Boolean.SetBelong(null);
 				}
 				return r_InlineIfPossibleOrElseQueue_Task_Boolean;

@@ -156,7 +156,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_Allocate_Int32_Int32_Texture_Material_MeshFlags == null)
 				{
-					r_Allocate_Int32_Int32_Texture_Material_MeshFlags = new(this, "Allocate", 0, typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.Texture), typeof(UnityEngine.Material),  ReleactionUtils.GetType("UnityEngine.UIElements.MeshGenerationContext+MeshFlags"));
+					r_Allocate_Int32_Int32_Texture_Material_MeshFlags = new(this, "Allocate", 0, typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.Texture), typeof(UnityEngine.Material),  ReflectionUtils.GetType("UnityEngine.UIElements.MeshGenerationContext+MeshFlags"));
 					r_Allocate_Int32_Int32_Texture_Material_MeshFlags.SetBelong(this.instance);
 				}
 				return r_Allocate_Int32_Int32_Texture_Material_MeshFlags;

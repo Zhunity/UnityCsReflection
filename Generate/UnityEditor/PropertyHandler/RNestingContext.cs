@@ -73,7 +73,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 			{
 				if(r_Get_PropertyHandler_Int32 == null)
 				{
-					r_Get_PropertyHandler_Int32 = new( ReleactionUtils.GetType("UnityEditor.PropertyHandler+NestingContext"), "Get", 0,  ReleactionUtils.GetType("UnityEditor.PropertyHandler"), typeof(System.Int32));
+					r_Get_PropertyHandler_Int32 = new( ReflectionUtils.GetType("UnityEditor.PropertyHandler+NestingContext"), "Get", 0,  ReflectionUtils.GetType("UnityEditor.PropertyHandler"), typeof(System.Int32));
 					r_Get_PropertyHandler_Int32.SetBelong(null);
 				}
 				return r_Get_PropertyHandler_Int32;

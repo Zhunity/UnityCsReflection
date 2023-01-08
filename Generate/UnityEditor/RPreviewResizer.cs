@@ -20,7 +20,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 			{
 				if(r_s_DraggedPreviewSize == null)
 				{
-					r_s_DraggedPreviewSize = new( ReleactionUtils.GetType("UnityEditor.PreviewResizer"), "s_DraggedPreviewSize");
+					r_s_DraggedPreviewSize = new( ReflectionUtils.GetType("UnityEditor.PreviewResizer"), "s_DraggedPreviewSize");
 					r_s_DraggedPreviewSize.SetBelong(null);
 				}
 				return r_s_DraggedPreviewSize;
@@ -37,7 +37,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 			{
 				if(r_s_CachedPreviewSizeWhileDragging == null)
 				{
-					r_s_CachedPreviewSizeWhileDragging = new( ReleactionUtils.GetType("UnityEditor.PreviewResizer"), "s_CachedPreviewSizeWhileDragging");
+					r_s_CachedPreviewSizeWhileDragging = new( ReflectionUtils.GetType("UnityEditor.PreviewResizer"), "s_CachedPreviewSizeWhileDragging");
 					r_s_CachedPreviewSizeWhileDragging.SetBelong(null);
 				}
 				return r_s_CachedPreviewSizeWhileDragging;
@@ -54,7 +54,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 			{
 				if(r_s_MouseDownLocation == null)
 				{
-					r_s_MouseDownLocation = new( ReleactionUtils.GetType("UnityEditor.PreviewResizer"), "s_MouseDownLocation");
+					r_s_MouseDownLocation = new( ReflectionUtils.GetType("UnityEditor.PreviewResizer"), "s_MouseDownLocation");
 					r_s_MouseDownLocation.SetBelong(null);
 				}
 				return r_s_MouseDownLocation;
@@ -71,7 +71,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 			{
 				if(r_s_MouseDownValue == null)
 				{
-					r_s_MouseDownValue = new( ReleactionUtils.GetType("UnityEditor.PreviewResizer"), "s_MouseDownValue");
+					r_s_MouseDownValue = new( ReflectionUtils.GetType("UnityEditor.PreviewResizer"), "s_MouseDownValue");
 					r_s_MouseDownValue.SetBelong(null);
 				}
 				return r_s_MouseDownValue;
@@ -88,7 +88,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 			{
 				if(r_s_MouseDragged == null)
 				{
-					r_s_MouseDragged = new( ReleactionUtils.GetType("UnityEditor.PreviewResizer"), "s_MouseDragged");
+					r_s_MouseDragged = new( ReflectionUtils.GetType("UnityEditor.PreviewResizer"), "s_MouseDragged");
 					r_s_MouseDragged.SetBelong(null);
 				}
 				return r_s_MouseDragged;
@@ -428,7 +428,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 			{
 				if(r_PixelPreciseCollapsibleSlider_Int32_Rect_Single_Single_Single_Ref_Boolean == null)
 				{
-					r_PixelPreciseCollapsibleSlider_Int32_Rect_Single_Single_Single_Ref_Boolean = new( ReleactionUtils.GetType("UnityEditor.PreviewResizer"), "PixelPreciseCollapsibleSlider", 0, typeof(System.Int32), typeof(UnityEngine.Rect), typeof(System.Single), typeof(System.Single), typeof(System.Single), typeof(System.Boolean).MakeByRefType());
+					r_PixelPreciseCollapsibleSlider_Int32_Rect_Single_Single_Single_Ref_Boolean = new( ReflectionUtils.GetType("UnityEditor.PreviewResizer"), "PixelPreciseCollapsibleSlider", 0, typeof(System.Int32), typeof(UnityEngine.Rect), typeof(System.Single), typeof(System.Single), typeof(System.Single), typeof(System.Boolean).MakeByRefType());
 					r_PixelPreciseCollapsibleSlider_Int32_Rect_Single_Single_Single_Ref_Boolean.SetBelong(null);
 				}
 				return r_PixelPreciseCollapsibleSlider_Int32_Rect_Single_Single_Single_Ref_Boolean;
@@ -445,7 +445,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 			{
 				if(r_PixelPreciseCollapsibleSlider_Int32_Rect_Single_Single_Single_Ref_Boolean_Boolean == null)
 				{
-					r_PixelPreciseCollapsibleSlider_Int32_Rect_Single_Single_Single_Ref_Boolean_Boolean = new( ReleactionUtils.GetType("UnityEditor.PreviewResizer"), "PixelPreciseCollapsibleSlider", 0, typeof(System.Int32), typeof(UnityEngine.Rect), typeof(System.Single), typeof(System.Single), typeof(System.Single), typeof(System.Boolean).MakeByRefType(), typeof(System.Boolean));
+					r_PixelPreciseCollapsibleSlider_Int32_Rect_Single_Single_Single_Ref_Boolean_Boolean = new( ReflectionUtils.GetType("UnityEditor.PreviewResizer"), "PixelPreciseCollapsibleSlider", 0, typeof(System.Int32), typeof(UnityEngine.Rect), typeof(System.Single), typeof(System.Single), typeof(System.Single), typeof(System.Boolean).MakeByRefType(), typeof(System.Boolean));
 					r_PixelPreciseCollapsibleSlider_Int32_Rect_Single_Single_Single_Ref_Boolean_Boolean.SetBelong(null);
 				}
 				return r_PixelPreciseCollapsibleSlider_Int32_Rect_Single_Single_Single_Ref_Boolean_Boolean;

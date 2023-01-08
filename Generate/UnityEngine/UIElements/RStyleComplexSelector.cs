@@ -156,7 +156,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_s_PseudoStates == null)
 				{
-					r_s_PseudoStates = new( ReleactionUtils.GetType("UnityEngine.UIElements.StyleComplexSelector"), "s_PseudoStates");
+					r_s_PseudoStates = new( ReflectionUtils.GetType("UnityEngine.UIElements.StyleComplexSelector"), "s_PseudoStates");
 					r_s_PseudoStates.SetBelong(null);
 				}
 				return r_s_PseudoStates;
@@ -173,7 +173,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_m_HashList == null)
 				{
-					r_m_HashList = new( ReleactionUtils.GetType("UnityEngine.UIElements.StyleComplexSelector"), "m_HashList");
+					r_m_HashList = new( ReflectionUtils.GetType("UnityEngine.UIElements.StyleComplexSelector"), "m_HashList");
 					r_m_HashList.SetBelong(null);
 				}
 				return r_m_HashList;
@@ -326,7 +326,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_StyleSelectorPartCompare_StyleSelectorPart_StyleSelectorPart == null)
 				{
-					r_StyleSelectorPartCompare_StyleSelectorPart_StyleSelectorPart = new( ReleactionUtils.GetType("UnityEngine.UIElements.StyleComplexSelector"), "StyleSelectorPartCompare", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSelectorPart"),  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSelectorPart"));
+					r_StyleSelectorPartCompare_StyleSelectorPart_StyleSelectorPart = new( ReflectionUtils.GetType("UnityEngine.UIElements.StyleComplexSelector"), "StyleSelectorPartCompare", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.StyleSelectorPart"),  ReflectionUtils.GetType("UnityEngine.UIElements.StyleSelectorPart"));
 					r_StyleSelectorPartCompare_StyleSelectorPart_StyleSelectorPart.SetBelong(null);
 				}
 				return r_StyleSelectorPartCompare_StyleSelectorPart_StyleSelectorPart;

@@ -105,7 +105,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_AttachDebugger_IPanelDebugger == null)
 				{
-					r_AttachDebugger_IPanelDebugger = new(this, "AttachDebugger", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.IPanelDebugger"));
+					r_AttachDebugger_IPanelDebugger = new(this, "AttachDebugger", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.IPanelDebugger"));
 					r_AttachDebugger_IPanelDebugger.SetBelong(this.instance);
 				}
 				return r_AttachDebugger_IPanelDebugger;
@@ -122,7 +122,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_DetachDebugger_IPanelDebugger == null)
 				{
-					r_DetachDebugger_IPanelDebugger = new(this, "DetachDebugger", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.IPanelDebugger"));
+					r_DetachDebugger_IPanelDebugger = new(this, "DetachDebugger", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.IPanelDebugger"));
 					r_DetachDebugger_IPanelDebugger.SetBelong(this.instance);
 				}
 				return r_DetachDebugger_IPanelDebugger;
@@ -224,7 +224,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_OnVersionChanged_VisualElement_VersionChangeType == null)
 				{
-					r_OnVersionChanged_VisualElement_VersionChangeType = new(this, "OnVersionChanged", 0, typeof(UnityEngine.UIElements.VisualElement),  ReleactionUtils.GetType("UnityEngine.UIElements.VersionChangeType"));
+					r_OnVersionChanged_VisualElement_VersionChangeType = new(this, "OnVersionChanged", 0, typeof(UnityEngine.UIElements.VisualElement),  ReflectionUtils.GetType("UnityEngine.UIElements.VersionChangeType"));
 					r_OnVersionChanged_VisualElement_VersionChangeType.SetBelong(this.instance);
 				}
 				return r_OnVersionChanged_VisualElement_VersionChangeType;

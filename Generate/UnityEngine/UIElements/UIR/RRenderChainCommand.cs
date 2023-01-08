@@ -190,7 +190,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_k_ID_MainTex == null)
 				{
-					r_k_ID_MainTex = new( ReleactionUtils.GetType("UnityEngine.UIElements.UIR.RenderChainCommand"), "k_ID_MainTex");
+					r_k_ID_MainTex = new( ReflectionUtils.GetType("UnityEngine.UIElements.UIR.RenderChainCommand"), "k_ID_MainTex");
 					r_k_ID_MainTex.SetBelong(null);
 				}
 				return r_k_ID_MainTex;
@@ -207,7 +207,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_s_ImmediateOverheadMarker == null)
 				{
-					r_s_ImmediateOverheadMarker = new( ReleactionUtils.GetType("UnityEngine.UIElements.UIR.RenderChainCommand"), "s_ImmediateOverheadMarker");
+					r_s_ImmediateOverheadMarker = new( ReflectionUtils.GetType("UnityEngine.UIElements.UIR.RenderChainCommand"), "s_ImmediateOverheadMarker");
 					r_s_ImmediateOverheadMarker.SetBelong(null);
 				}
 				return r_s_ImmediateOverheadMarker;
@@ -258,7 +258,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_ExecuteNonDrawMesh_DrawParams_Single_Ref_Exception == null)
 				{
-					r_ExecuteNonDrawMesh_DrawParams_Single_Ref_Exception = new(this, "ExecuteNonDrawMesh", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.UIR.DrawParams"), typeof(System.Single), typeof(System.Exception).MakeByRefType());
+					r_ExecuteNonDrawMesh_DrawParams_Single_Ref_Exception = new(this, "ExecuteNonDrawMesh", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.UIR.DrawParams"), typeof(System.Single), typeof(System.Exception).MakeByRefType());
 					r_ExecuteNonDrawMesh_DrawParams_Single_Ref_Exception.SetBelong(this.instance);
 				}
 				return r_ExecuteNonDrawMesh_DrawParams_Single_Ref_Exception;
@@ -292,7 +292,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_RectToClipSpace_Rect == null)
 				{
-					r_RectToClipSpace_Rect = new( ReleactionUtils.GetType("UnityEngine.UIElements.UIR.RenderChainCommand"), "RectToClipSpace", 0, typeof(UnityEngine.Rect));
+					r_RectToClipSpace_Rect = new( ReflectionUtils.GetType("UnityEngine.UIElements.UIR.RenderChainCommand"), "RectToClipSpace", 0, typeof(UnityEngine.Rect));
 					r_RectToClipSpace_Rect.SetBelong(null);
 				}
 				return r_RectToClipSpace_Rect;
@@ -309,7 +309,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_CombineScissorRects_Rect_Rect == null)
 				{
-					r_CombineScissorRects_Rect_Rect = new( ReleactionUtils.GetType("UnityEngine.UIElements.UIR.RenderChainCommand"), "CombineScissorRects", 0, typeof(UnityEngine.Rect), typeof(UnityEngine.Rect));
+					r_CombineScissorRects_Rect_Rect = new( ReflectionUtils.GetType("UnityEngine.UIElements.UIR.RenderChainCommand"), "CombineScissorRects", 0, typeof(UnityEngine.Rect), typeof(UnityEngine.Rect));
 					r_CombineScissorRects_Rect_Rect.SetBelong(null);
 				}
 				return r_CombineScissorRects_Rect_Rect;
@@ -326,7 +326,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_RectPointsToPixelsAndFlipYAxis_Rect_Single == null)
 				{
-					r_RectPointsToPixelsAndFlipYAxis_Rect_Single = new( ReleactionUtils.GetType("UnityEngine.UIElements.UIR.RenderChainCommand"), "RectPointsToPixelsAndFlipYAxis", 0, typeof(UnityEngine.Rect), typeof(System.Single));
+					r_RectPointsToPixelsAndFlipYAxis_Rect_Single = new( ReflectionUtils.GetType("UnityEngine.UIElements.UIR.RenderChainCommand"), "RectPointsToPixelsAndFlipYAxis", 0, typeof(UnityEngine.Rect), typeof(System.Single));
 					r_RectPointsToPixelsAndFlipYAxis_Rect_Single.SetBelong(null);
 				}
 				return r_RectPointsToPixelsAndFlipYAxis_Rect_Single;

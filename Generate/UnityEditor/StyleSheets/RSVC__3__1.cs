@@ -139,7 +139,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RStyleSheets
 			{
 				if(r_op_Implicit_SVC_d_T_p_ == null)
 				{
-					r_op_Implicit_SVC_d_T_p_ = new( ReleactionUtils.GetType("UnityEditor.StyleSheets.SVC`1"), "op_Implicit", 0,  ReleactionUtils.GetType("UnityEditor.StyleSheets.SVC`1"));
+					r_op_Implicit_SVC_d_T_p_ = new( ReflectionUtils.GetType("UnityEditor.StyleSheets.SVC`1"), "op_Implicit", 0,  ReflectionUtils.GetType("UnityEditor.StyleSheets.SVC`1"));
 					r_op_Implicit_SVC_d_T_p_.SetBelong(null);
 				}
 				return r_op_Implicit_SVC_d_T_p_;

@@ -836,7 +836,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 			{
 				if(r_GetMessageFromNativeResources_ExceptionMessageKind == null)
 				{
-					r_GetMessageFromNativeResources_ExceptionMessageKind = new(typeof(System.Exception), "GetMessageFromNativeResources", 0,  ReleactionUtils.GetType("System.Exception+ExceptionMessageKind"));
+					r_GetMessageFromNativeResources_ExceptionMessageKind = new(typeof(System.Exception), "GetMessageFromNativeResources", 0,  ReflectionUtils.GetType("System.Exception+ExceptionMessageKind"));
 					r_GetMessageFromNativeResources_ExceptionMessageKind.SetBelong(null);
 				}
 				return r_GetMessageFromNativeResources_ExceptionMessageKind;

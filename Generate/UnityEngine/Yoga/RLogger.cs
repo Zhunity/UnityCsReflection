@@ -71,7 +71,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
 			{
 				if(r_Invoke_YogaConfig_YogaNode_YogaLogLevel_String == null)
 				{
-					r_Invoke_YogaConfig_YogaNode_YogaLogLevel_String = new(this, "Invoke", 0,  ReleactionUtils.GetType("UnityEngine.Yoga.YogaConfig"),  ReleactionUtils.GetType("UnityEngine.Yoga.YogaNode"),  ReleactionUtils.GetType("UnityEngine.Yoga.YogaLogLevel"), typeof(System.String));
+					r_Invoke_YogaConfig_YogaNode_YogaLogLevel_String = new(this, "Invoke", 0,  ReflectionUtils.GetType("UnityEngine.Yoga.YogaConfig"),  ReflectionUtils.GetType("UnityEngine.Yoga.YogaNode"),  ReflectionUtils.GetType("UnityEngine.Yoga.YogaLogLevel"), typeof(System.String));
 					r_Invoke_YogaConfig_YogaNode_YogaLogLevel_String.SetBelong(this.instance);
 				}
 				return r_Invoke_YogaConfig_YogaNode_YogaLogLevel_String;
@@ -88,7 +88,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
 			{
 				if(r_BeginInvoke_YogaConfig_YogaNode_YogaLogLevel_String_AsyncCallback_Object == null)
 				{
-					r_BeginInvoke_YogaConfig_YogaNode_YogaLogLevel_String_AsyncCallback_Object = new(this, "BeginInvoke", 0,  ReleactionUtils.GetType("UnityEngine.Yoga.YogaConfig"),  ReleactionUtils.GetType("UnityEngine.Yoga.YogaNode"),  ReleactionUtils.GetType("UnityEngine.Yoga.YogaLogLevel"), typeof(System.String), typeof(System.AsyncCallback), typeof(System.Object));
+					r_BeginInvoke_YogaConfig_YogaNode_YogaLogLevel_String_AsyncCallback_Object = new(this, "BeginInvoke", 0,  ReflectionUtils.GetType("UnityEngine.Yoga.YogaConfig"),  ReflectionUtils.GetType("UnityEngine.Yoga.YogaNode"),  ReflectionUtils.GetType("UnityEngine.Yoga.YogaLogLevel"), typeof(System.String), typeof(System.AsyncCallback), typeof(System.Object));
 					r_BeginInvoke_YogaConfig_YogaNode_YogaLogLevel_String_AsyncCallback_Object.SetBelong(this.instance);
 				}
 				return r_BeginInvoke_YogaConfig_YogaNode_YogaLogLevel_String_AsyncCallback_Object;

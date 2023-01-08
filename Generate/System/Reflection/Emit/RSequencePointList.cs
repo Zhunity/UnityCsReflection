@@ -71,7 +71,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 			{
 				if(r_arrayGrow == null)
 				{
-					r_arrayGrow = new( ReleactionUtils.GetType("System.Reflection.Emit.SequencePointList"), "arrayGrow");
+					r_arrayGrow = new( ReflectionUtils.GetType("System.Reflection.Emit.SequencePointList"), "arrayGrow");
 					r_arrayGrow.SetBelong(null);
 				}
 				return r_arrayGrow;

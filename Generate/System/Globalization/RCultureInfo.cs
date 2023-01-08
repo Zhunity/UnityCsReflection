@@ -1856,7 +1856,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_InitializeUserPreferredCultureInfoInAppX_OnCultureInfoChangedDelegate == null)
 				{
-					r_InitializeUserPreferredCultureInfoInAppX_OnCultureInfoChangedDelegate = new(typeof(System.Globalization.CultureInfo), "InitializeUserPreferredCultureInfoInAppX", 0,  ReleactionUtils.GetType("System.Globalization.CultureInfo+OnCultureInfoChangedDelegate"));
+					r_InitializeUserPreferredCultureInfoInAppX_OnCultureInfoChangedDelegate = new(typeof(System.Globalization.CultureInfo), "InitializeUserPreferredCultureInfoInAppX", 0,  ReflectionUtils.GetType("System.Globalization.CultureInfo+OnCultureInfoChangedDelegate"));
 					r_InitializeUserPreferredCultureInfoInAppX_OnCultureInfoChangedDelegate.SetBelong(null);
 				}
 				return r_InitializeUserPreferredCultureInfoInAppX_OnCultureInfoChangedDelegate;

@@ -258,7 +258,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.REvents
 			{
 				if(r_GetObjectCall_Object_MethodInfo_ArgumentCache == null)
 				{
-					r_GetObjectCall_Object_MethodInfo_ArgumentCache = new( ReleactionUtils.GetType("UnityEngine.Events.PersistentCall"), "GetObjectCall", 0, typeof(UnityEngine.Object), typeof(System.Reflection.MethodInfo),  ReleactionUtils.GetType("UnityEngine.Events.ArgumentCache"));
+					r_GetObjectCall_Object_MethodInfo_ArgumentCache = new( ReflectionUtils.GetType("UnityEngine.Events.PersistentCall"), "GetObjectCall", 0, typeof(UnityEngine.Object), typeof(System.Reflection.MethodInfo),  ReflectionUtils.GetType("UnityEngine.Events.ArgumentCache"));
 					r_GetObjectCall_Object_MethodInfo_ArgumentCache.SetBelong(null);
 				}
 				return r_GetObjectCall_Object_MethodInfo_ArgumentCache;

@@ -71,7 +71,7 @@ namespace SMFrame.Editor.Refleaction.RMono
 			{
 				if(r_Equals_RuntimePropertyHandle == null)
 				{
-					r_Equals_RuntimePropertyHandle = new(this, "Equals", 0,  ReleactionUtils.GetType("Mono.RuntimePropertyHandle"));
+					r_Equals_RuntimePropertyHandle = new(this, "Equals", 0,  ReflectionUtils.GetType("Mono.RuntimePropertyHandle"));
 					r_Equals_RuntimePropertyHandle.SetBelong(this.instance);
 				}
 				return r_Equals_RuntimePropertyHandle;
@@ -105,7 +105,7 @@ namespace SMFrame.Editor.Refleaction.RMono
 			{
 				if(r_op_Equality_RuntimePropertyHandle_RuntimePropertyHandle == null)
 				{
-					r_op_Equality_RuntimePropertyHandle_RuntimePropertyHandle = new( ReleactionUtils.GetType("Mono.RuntimePropertyHandle"), "op_Equality", 0,  ReleactionUtils.GetType("Mono.RuntimePropertyHandle"),  ReleactionUtils.GetType("Mono.RuntimePropertyHandle"));
+					r_op_Equality_RuntimePropertyHandle_RuntimePropertyHandle = new( ReflectionUtils.GetType("Mono.RuntimePropertyHandle"), "op_Equality", 0,  ReflectionUtils.GetType("Mono.RuntimePropertyHandle"),  ReflectionUtils.GetType("Mono.RuntimePropertyHandle"));
 					r_op_Equality_RuntimePropertyHandle_RuntimePropertyHandle.SetBelong(null);
 				}
 				return r_op_Equality_RuntimePropertyHandle_RuntimePropertyHandle;
@@ -122,7 +122,7 @@ namespace SMFrame.Editor.Refleaction.RMono
 			{
 				if(r_op_Inequality_RuntimePropertyHandle_RuntimePropertyHandle == null)
 				{
-					r_op_Inequality_RuntimePropertyHandle_RuntimePropertyHandle = new( ReleactionUtils.GetType("Mono.RuntimePropertyHandle"), "op_Inequality", 0,  ReleactionUtils.GetType("Mono.RuntimePropertyHandle"),  ReleactionUtils.GetType("Mono.RuntimePropertyHandle"));
+					r_op_Inequality_RuntimePropertyHandle_RuntimePropertyHandle = new( ReflectionUtils.GetType("Mono.RuntimePropertyHandle"), "op_Inequality", 0,  ReflectionUtils.GetType("Mono.RuntimePropertyHandle"),  ReflectionUtils.GetType("Mono.RuntimePropertyHandle"));
 					r_op_Inequality_RuntimePropertyHandle_RuntimePropertyHandle.SetBelong(null);
 				}
 				return r_op_Inequality_RuntimePropertyHandle_RuntimePropertyHandle;

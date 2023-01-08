@@ -887,7 +887,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 			{
 				if(r_Equals_TextGenerationSettings == null)
 				{
-					r_Equals_TextGenerationSettings = new(this, "Equals", 0,  ReleactionUtils.GetType("UnityEngine.TextCore.Text.TextGenerationSettings"));
+					r_Equals_TextGenerationSettings = new(this, "Equals", 0,  ReflectionUtils.GetType("UnityEngine.TextCore.Text.TextGenerationSettings"));
 					r_Equals_TextGenerationSettings.SetBelong(this.instance);
 				}
 				return r_Equals_TextGenerationSettings;
@@ -938,7 +938,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 			{
 				if(r_op_Equality_TextGenerationSettings_TextGenerationSettings == null)
 				{
-					r_op_Equality_TextGenerationSettings_TextGenerationSettings = new( ReleactionUtils.GetType("UnityEngine.TextCore.Text.TextGenerationSettings"), "op_Equality", 0,  ReleactionUtils.GetType("UnityEngine.TextCore.Text.TextGenerationSettings"),  ReleactionUtils.GetType("UnityEngine.TextCore.Text.TextGenerationSettings"));
+					r_op_Equality_TextGenerationSettings_TextGenerationSettings = new( ReflectionUtils.GetType("UnityEngine.TextCore.Text.TextGenerationSettings"), "op_Equality", 0,  ReflectionUtils.GetType("UnityEngine.TextCore.Text.TextGenerationSettings"),  ReflectionUtils.GetType("UnityEngine.TextCore.Text.TextGenerationSettings"));
 					r_op_Equality_TextGenerationSettings_TextGenerationSettings.SetBelong(null);
 				}
 				return r_op_Equality_TextGenerationSettings_TextGenerationSettings;
@@ -955,7 +955,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 			{
 				if(r_op_Inequality_TextGenerationSettings_TextGenerationSettings == null)
 				{
-					r_op_Inequality_TextGenerationSettings_TextGenerationSettings = new( ReleactionUtils.GetType("UnityEngine.TextCore.Text.TextGenerationSettings"), "op_Inequality", 0,  ReleactionUtils.GetType("UnityEngine.TextCore.Text.TextGenerationSettings"),  ReleactionUtils.GetType("UnityEngine.TextCore.Text.TextGenerationSettings"));
+					r_op_Inequality_TextGenerationSettings_TextGenerationSettings = new( ReflectionUtils.GetType("UnityEngine.TextCore.Text.TextGenerationSettings"), "op_Inequality", 0,  ReflectionUtils.GetType("UnityEngine.TextCore.Text.TextGenerationSettings"),  ReflectionUtils.GetType("UnityEngine.TextCore.Text.TextGenerationSettings"));
 					r_op_Inequality_TextGenerationSettings_TextGenerationSettings.SetBelong(null);
 				}
 				return r_op_Inequality_TextGenerationSettings_TextGenerationSettings;
@@ -972,7 +972,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 			{
 				if(r_Copy_TextGenerationSettings == null)
 				{
-					r_Copy_TextGenerationSettings = new(this, "Copy", 0,  ReleactionUtils.GetType("UnityEngine.TextCore.Text.TextGenerationSettings"));
+					r_Copy_TextGenerationSettings = new(this, "Copy", 0,  ReflectionUtils.GetType("UnityEngine.TextCore.Text.TextGenerationSettings"));
 					r_Copy_TextGenerationSettings.SetBelong(this.instance);
 				}
 				return r_Copy_TextGenerationSettings;

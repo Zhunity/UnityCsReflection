@@ -207,7 +207,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 			{
 				if(r_RequiresCompute_Target == null)
 				{
-					r_RequiresCompute_Target = new(typeof(UnityEngine.GraphicsBuffer), "RequiresCompute", 0,  ReleactionUtils.GetType("UnityEngine.GraphicsBuffer+Target"));
+					r_RequiresCompute_Target = new(typeof(UnityEngine.GraphicsBuffer), "RequiresCompute", 0,  ReflectionUtils.GetType("UnityEngine.GraphicsBuffer+Target"));
 					r_RequiresCompute_Target.SetBelong(null);
 				}
 				return r_RequiresCompute_Target;
@@ -224,7 +224,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 			{
 				if(r_IsVertexIndexOrCopyOnly_Target == null)
 				{
-					r_IsVertexIndexOrCopyOnly_Target = new(typeof(UnityEngine.GraphicsBuffer), "IsVertexIndexOrCopyOnly", 0,  ReleactionUtils.GetType("UnityEngine.GraphicsBuffer+Target"));
+					r_IsVertexIndexOrCopyOnly_Target = new(typeof(UnityEngine.GraphicsBuffer), "IsVertexIndexOrCopyOnly", 0,  ReflectionUtils.GetType("UnityEngine.GraphicsBuffer+Target"));
 					r_IsVertexIndexOrCopyOnly_Target.SetBelong(null);
 				}
 				return r_IsVertexIndexOrCopyOnly_Target;
@@ -241,7 +241,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 			{
 				if(r_InitBuffer_Target_UsageFlags_Int32_Int32 == null)
 				{
-					r_InitBuffer_Target_UsageFlags_Int32_Int32 = new(typeof(UnityEngine.GraphicsBuffer), "InitBuffer", 0,  ReleactionUtils.GetType("UnityEngine.GraphicsBuffer+Target"),  ReleactionUtils.GetType("UnityEngine.GraphicsBuffer+UsageFlags"), typeof(System.Int32), typeof(System.Int32));
+					r_InitBuffer_Target_UsageFlags_Int32_Int32 = new(typeof(UnityEngine.GraphicsBuffer), "InitBuffer", 0,  ReflectionUtils.GetType("UnityEngine.GraphicsBuffer+Target"),  ReflectionUtils.GetType("UnityEngine.GraphicsBuffer+UsageFlags"), typeof(System.Int32), typeof(System.Int32));
 					r_InitBuffer_Target_UsageFlags_Int32_Int32.SetBelong(null);
 				}
 				return r_InitBuffer_Target_UsageFlags_Int32_Int32;
@@ -275,7 +275,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 			{
 				if(r_InternalInitialization_Target_UsageFlags_Int32_Int32 == null)
 				{
-					r_InternalInitialization_Target_UsageFlags_Int32_Int32 = new(this, "InternalInitialization", 0,  ReleactionUtils.GetType("UnityEngine.GraphicsBuffer+Target"),  ReleactionUtils.GetType("UnityEngine.GraphicsBuffer+UsageFlags"), typeof(System.Int32), typeof(System.Int32));
+					r_InternalInitialization_Target_UsageFlags_Int32_Int32 = new(this, "InternalInitialization", 0,  ReflectionUtils.GetType("UnityEngine.GraphicsBuffer+Target"),  ReflectionUtils.GetType("UnityEngine.GraphicsBuffer+UsageFlags"), typeof(System.Int32), typeof(System.Int32));
 					r_InternalInitialization_Target_UsageFlags_Int32_Int32.SetBelong(this.instance);
 				}
 				return r_InternalInitialization_Target_UsageFlags_Int32_Int32;

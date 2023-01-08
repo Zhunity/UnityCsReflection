@@ -56,7 +56,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_SetContext_Dictionary_d_String_StylePropertyValue_p__Single == null)
 				{
-					r_SetContext_Dictionary_d_String_StylePropertyValue_p__Single = new(this, "SetContext", 0, typeof(System.Collections.Generic.Dictionary<, >).MakeGenericType(typeof(System.String),  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyValue")), typeof(System.Single));
+					r_SetContext_Dictionary_d_String_StylePropertyValue_p__Single = new(this, "SetContext", 0, typeof(System.Collections.Generic.Dictionary<, >).MakeGenericType(typeof(System.String),  ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyValue")), typeof(System.Single));
 					r_SetContext_Dictionary_d_String_StylePropertyValue_p__Single.SetBelong(this.instance);
 				}
 				return r_SetContext_Dictionary_d_String_StylePropertyValue_p__Single;
@@ -226,7 +226,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_TryGetValue_String_StyleValueType_Out_StylePropertyValue == null)
 				{
-					r_TryGetValue_String_StyleValueType_Out_StylePropertyValue = new(this, "TryGetValue", 0, typeof(System.String),  ReleactionUtils.GetType("UnityEngine.UIElements.StyleValueType"),  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyValue").MakeByRefType());
+					r_TryGetValue_String_StyleValueType_Out_StylePropertyValue = new(this, "TryGetValue", 0, typeof(System.String),  ReflectionUtils.GetType("UnityEngine.UIElements.StyleValueType"),  ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyValue").MakeByRefType());
 					r_TryGetValue_String_StyleValueType_Out_StylePropertyValue.SetBelong(this.instance);
 				}
 				return r_TryGetValue_String_StyleValueType_Out_StylePropertyValue;
@@ -243,7 +243,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_LogCustomPropertyWarning_String_StyleValueType_StylePropertyValue == null)
 				{
-					r_LogCustomPropertyWarning_String_StyleValueType_StylePropertyValue = new( ReleactionUtils.GetType("UnityEngine.UIElements.VisualElement+CustomStyleAccess"), "LogCustomPropertyWarning", 0, typeof(System.String),  ReleactionUtils.GetType("UnityEngine.UIElements.StyleValueType"),  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyValue"));
+					r_LogCustomPropertyWarning_String_StyleValueType_StylePropertyValue = new( ReflectionUtils.GetType("UnityEngine.UIElements.VisualElement+CustomStyleAccess"), "LogCustomPropertyWarning", 0, typeof(System.String),  ReflectionUtils.GetType("UnityEngine.UIElements.StyleValueType"),  ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyValue"));
 					r_LogCustomPropertyWarning_String_StyleValueType_StylePropertyValue.SetBelong(null);
 				}
 				return r_LogCustomPropertyWarning_String_StyleValueType_StylePropertyValue;

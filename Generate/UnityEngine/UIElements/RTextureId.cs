@@ -37,7 +37,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_invalid == null)
 				{
-					r_invalid = new( ReleactionUtils.GetType("UnityEngine.UIElements.TextureId"), "invalid");
+					r_invalid = new( ReflectionUtils.GetType("UnityEngine.UIElements.TextureId"), "invalid");
 					r_invalid.SetBelong(null);
 				}
 				return r_invalid;
@@ -122,7 +122,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_Equals_TextureId == null)
 				{
-					r_Equals_TextureId = new(this, "Equals", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.TextureId"));
+					r_Equals_TextureId = new(this, "Equals", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.TextureId"));
 					r_Equals_TextureId.SetBelong(this.instance);
 				}
 				return r_Equals_TextureId;
@@ -156,7 +156,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_op_Equality_TextureId_TextureId == null)
 				{
-					r_op_Equality_TextureId_TextureId = new( ReleactionUtils.GetType("UnityEngine.UIElements.TextureId"), "op_Equality", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.TextureId"),  ReleactionUtils.GetType("UnityEngine.UIElements.TextureId"));
+					r_op_Equality_TextureId_TextureId = new( ReflectionUtils.GetType("UnityEngine.UIElements.TextureId"), "op_Equality", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.TextureId"),  ReflectionUtils.GetType("UnityEngine.UIElements.TextureId"));
 					r_op_Equality_TextureId_TextureId.SetBelong(null);
 				}
 				return r_op_Equality_TextureId_TextureId;
@@ -173,7 +173,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_op_Inequality_TextureId_TextureId == null)
 				{
-					r_op_Inequality_TextureId_TextureId = new( ReleactionUtils.GetType("UnityEngine.UIElements.TextureId"), "op_Inequality", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.TextureId"),  ReleactionUtils.GetType("UnityEngine.UIElements.TextureId"));
+					r_op_Inequality_TextureId_TextureId = new( ReflectionUtils.GetType("UnityEngine.UIElements.TextureId"), "op_Inequality", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.TextureId"),  ReflectionUtils.GetType("UnityEngine.UIElements.TextureId"));
 					r_op_Inequality_TextureId_TextureId.SetBelong(null);
 				}
 				return r_op_Inequality_TextureId_TextureId;

@@ -20,7 +20,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 			{
 				if(r_current == null)
 				{
-					r_current = new( ReleactionUtils.GetType("UnityEditor.GUISlideGroup"), "current");
+					r_current = new( ReflectionUtils.GetType("UnityEditor.GUISlideGroup"), "current");
 					r_current.SetBelong(null);
 				}
 				return r_current;
@@ -54,7 +54,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 			{
 				if(r_kLerp == null)
 				{
-					r_kLerp = new( ReleactionUtils.GetType("UnityEditor.GUISlideGroup"), "kLerp");
+					r_kLerp = new( ReflectionUtils.GetType("UnityEditor.GUISlideGroup"), "kLerp");
 					r_kLerp.SetBelong(null);
 				}
 				return r_kLerp;
@@ -71,7 +71,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 			{
 				if(r_kSnap == null)
 				{
-					r_kSnap = new( ReleactionUtils.GetType("UnityEditor.GUISlideGroup"), "kSnap");
+					r_kSnap = new( ReflectionUtils.GetType("UnityEditor.GUISlideGroup"), "kSnap");
 					r_kSnap.SetBelong(null);
 				}
 				return r_kSnap;

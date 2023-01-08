@@ -20,7 +20,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_kMaxResolves == null)
 				{
-					r_kMaxResolves = new( ReleactionUtils.GetType("UnityEngine.UIElements.StyleVariableResolver"), "kMaxResolves");
+					r_kMaxResolves = new( ReflectionUtils.GetType("UnityEngine.UIElements.StyleVariableResolver"), "kMaxResolves");
 					r_kMaxResolves.SetBelong(null);
 				}
 				return r_kMaxResolves;
@@ -37,7 +37,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_s_SyntaxParser == null)
 				{
-					r_s_SyntaxParser = new( ReleactionUtils.GetType("UnityEngine.UIElements.StyleVariableResolver"), "s_SyntaxParser");
+					r_s_SyntaxParser = new( ReflectionUtils.GetType("UnityEngine.UIElements.StyleVariableResolver"), "s_SyntaxParser");
 					r_s_SyntaxParser.SetBelong(null);
 				}
 				return r_s_SyntaxParser;
@@ -241,7 +241,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_Init_StyleProperty_StyleSheet_StyleValueHandleArray == null)
 				{
-					r_Init_StyleProperty_StyleSheet_StyleValueHandleArray = new(this, "Init", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleProperty"), typeof(UnityEngine.UIElements.StyleSheet),  ReleactionUtils.GetType("UnityEngine.UIElements.StyleValueHandle").MakeArrayType());
+					r_Init_StyleProperty_StyleSheet_StyleValueHandleArray = new(this, "Init", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.StyleProperty"), typeof(UnityEngine.UIElements.StyleSheet),  ReflectionUtils.GetType("UnityEngine.UIElements.StyleValueHandle").MakeArrayType());
 					r_Init_StyleProperty_StyleSheet_StyleValueHandleArray.SetBelong(this.instance);
 				}
 				return r_Init_StyleProperty_StyleSheet_StyleValueHandleArray;
@@ -258,7 +258,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_PushContext_StyleSheet_StyleValueHandleArray == null)
 				{
-					r_PushContext_StyleSheet_StyleValueHandleArray = new(this, "PushContext", 0, typeof(UnityEngine.UIElements.StyleSheet),  ReleactionUtils.GetType("UnityEngine.UIElements.StyleValueHandle").MakeArrayType());
+					r_PushContext_StyleSheet_StyleValueHandleArray = new(this, "PushContext", 0, typeof(UnityEngine.UIElements.StyleSheet),  ReflectionUtils.GetType("UnityEngine.UIElements.StyleValueHandle").MakeArrayType());
 					r_PushContext_StyleSheet_StyleValueHandleArray.SetBelong(this.instance);
 				}
 				return r_PushContext_StyleSheet_StyleValueHandleArray;
@@ -292,7 +292,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_AddValue_StyleValueHandle == null)
 				{
-					r_AddValue_StyleValueHandle = new(this, "AddValue", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleValueHandle"));
+					r_AddValue_StyleValueHandle = new(this, "AddValue", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.StyleValueHandle"));
 					r_AddValue_StyleValueHandle.SetBelong(this.instance);
 				}
 				return r_AddValue_StyleValueHandle;
@@ -394,7 +394,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_ParseVarFunction_StyleSheet_StyleValueHandleArray_Ref_Int32_Out_Int32_Out_String == null)
 				{
-					r_ParseVarFunction_StyleSheet_StyleValueHandleArray_Ref_Int32_Out_Int32_Out_String = new( ReleactionUtils.GetType("UnityEngine.UIElements.StyleVariableResolver"), "ParseVarFunction", 0, typeof(UnityEngine.UIElements.StyleSheet),  ReleactionUtils.GetType("UnityEngine.UIElements.StyleValueHandle").MakeArrayType(), typeof(System.Int32).MakeByRefType(), typeof(System.Int32).MakeByRefType(), typeof(System.String).MakeByRefType());
+					r_ParseVarFunction_StyleSheet_StyleValueHandleArray_Ref_Int32_Out_Int32_Out_String = new( ReflectionUtils.GetType("UnityEngine.UIElements.StyleVariableResolver"), "ParseVarFunction", 0, typeof(UnityEngine.UIElements.StyleSheet),  ReflectionUtils.GetType("UnityEngine.UIElements.StyleValueHandle").MakeArrayType(), typeof(System.Int32).MakeByRefType(), typeof(System.Int32).MakeByRefType(), typeof(System.String).MakeByRefType());
 					r_ParseVarFunction_StyleSheet_StyleValueHandleArray_Ref_Int32_Out_Int32_Out_String.SetBelong(null);
 				}
 				return r_ParseVarFunction_StyleSheet_StyleValueHandleArray_Ref_Int32_Out_Int32_Out_String;

@@ -20,7 +20,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_k_SlotCount == null)
 				{
-					r_k_SlotCount = new( ReleactionUtils.GetType("UnityEngine.UIElements.UIR.TextureSlotManager"), "k_SlotCount");
+					r_k_SlotCount = new( ReflectionUtils.GetType("UnityEngine.UIElements.UIR.TextureSlotManager"), "k_SlotCount");
 					r_k_SlotCount.SetBelong(null);
 				}
 				return r_k_SlotCount;
@@ -37,7 +37,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_k_SlotSize == null)
 				{
-					r_k_SlotSize = new( ReleactionUtils.GetType("UnityEngine.UIElements.UIR.TextureSlotManager"), "k_SlotSize");
+					r_k_SlotSize = new( ReflectionUtils.GetType("UnityEngine.UIElements.UIR.TextureSlotManager"), "k_SlotSize");
 					r_k_SlotSize.SetBelong(null);
 				}
 				return r_k_SlotSize;
@@ -54,7 +54,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_slotIds == null)
 				{
-					r_slotIds = new( ReleactionUtils.GetType("UnityEngine.UIElements.UIR.TextureSlotManager"), "slotIds");
+					r_slotIds = new( ReflectionUtils.GetType("UnityEngine.UIElements.UIR.TextureSlotManager"), "slotIds");
 					r_slotIds.SetBelong(null);
 				}
 				return r_slotIds;
@@ -71,7 +71,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_textureTableId == null)
 				{
-					r_textureTableId = new( ReleactionUtils.GetType("UnityEngine.UIElements.UIR.TextureSlotManager"), "textureTableId");
+					r_textureTableId = new( ReflectionUtils.GetType("UnityEngine.UIElements.UIR.TextureSlotManager"), "textureTableId");
 					r_textureTableId.SetBelong(null);
 				}
 				return r_textureTableId;
@@ -258,7 +258,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_IndexOf_TextureId == null)
 				{
-					r_IndexOf_TextureId = new(this, "IndexOf", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.TextureId"));
+					r_IndexOf_TextureId = new(this, "IndexOf", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.TextureId"));
 					r_IndexOf_TextureId.SetBelong(this.instance);
 				}
 				return r_IndexOf_TextureId;
@@ -309,7 +309,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_Bind_TextureId_Single_Int32_MaterialPropertyBlock == null)
 				{
-					r_Bind_TextureId_Single_Int32_MaterialPropertyBlock = new(this, "Bind", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.TextureId"), typeof(System.Single), typeof(System.Int32), typeof(UnityEngine.MaterialPropertyBlock));
+					r_Bind_TextureId_Single_Int32_MaterialPropertyBlock = new(this, "Bind", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.TextureId"), typeof(System.Single), typeof(System.Int32), typeof(UnityEngine.MaterialPropertyBlock));
 					r_Bind_TextureId_Single_Int32_MaterialPropertyBlock.SetBelong(this.instance);
 				}
 				return r_Bind_TextureId_Single_Int32_MaterialPropertyBlock;
@@ -326,7 +326,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_SetGpuData_Int32_TextureId_Int32_Int32_Single == null)
 				{
-					r_SetGpuData_Int32_TextureId_Int32_Int32_Single = new(this, "SetGpuData", 0, typeof(System.Int32),  ReleactionUtils.GetType("UnityEngine.UIElements.TextureId"), typeof(System.Int32), typeof(System.Int32), typeof(System.Single));
+					r_SetGpuData_Int32_TextureId_Int32_Int32_Single = new(this, "SetGpuData", 0, typeof(System.Int32),  ReflectionUtils.GetType("UnityEngine.UIElements.TextureId"), typeof(System.Int32), typeof(System.Int32), typeof(System.Single));
 					r_SetGpuData_Int32_TextureId_Int32_Int32_Single.SetBelong(this.instance);
 				}
 				return r_SetGpuData_Int32_TextureId_Int32_Int32_Single;

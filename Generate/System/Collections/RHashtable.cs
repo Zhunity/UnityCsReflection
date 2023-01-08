@@ -955,7 +955,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections
 			{
 				if(r_putEntry_bucketArray_Object_Object_Int32 == null)
 				{
-					r_putEntry_bucketArray_Object_Object_Int32 = new(this, "putEntry", 0,  ReleactionUtils.GetType("System.Collections.Hashtable+bucket").MakeArrayType(), typeof(System.Object), typeof(System.Object), typeof(System.Int32));
+					r_putEntry_bucketArray_Object_Object_Int32 = new(this, "putEntry", 0,  ReflectionUtils.GetType("System.Collections.Hashtable+bucket").MakeArrayType(), typeof(System.Object), typeof(System.Object), typeof(System.Int32));
 					r_putEntry_bucketArray_Object_Object_Int32.SetBelong(this.instance);
 				}
 				return r_putEntry_bucketArray_Object_Object_Int32;

@@ -819,7 +819,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 			{
 				if(r_GetMethodFromHandleNoGenericCheck_RuntimeMethodHandle == null)
 				{
-					r_GetMethodFromHandleNoGenericCheck_RuntimeMethodHandle = new( ReleactionUtils.GetType("System.Reflection.RuntimeMethodInfo"), "GetMethodFromHandleNoGenericCheck", 0, typeof(System.RuntimeMethodHandle));
+					r_GetMethodFromHandleNoGenericCheck_RuntimeMethodHandle = new( ReflectionUtils.GetType("System.Reflection.RuntimeMethodInfo"), "GetMethodFromHandleNoGenericCheck", 0, typeof(System.RuntimeMethodHandle));
 					r_GetMethodFromHandleNoGenericCheck_RuntimeMethodHandle.SetBelong(null);
 				}
 				return r_GetMethodFromHandleNoGenericCheck_RuntimeMethodHandle;
@@ -836,7 +836,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 			{
 				if(r_GetMethodFromHandleNoGenericCheck_RuntimeMethodHandle_RuntimeTypeHandle == null)
 				{
-					r_GetMethodFromHandleNoGenericCheck_RuntimeMethodHandle_RuntimeTypeHandle = new( ReleactionUtils.GetType("System.Reflection.RuntimeMethodInfo"), "GetMethodFromHandleNoGenericCheck", 0, typeof(System.RuntimeMethodHandle), typeof(System.RuntimeTypeHandle));
+					r_GetMethodFromHandleNoGenericCheck_RuntimeMethodHandle_RuntimeTypeHandle = new( ReflectionUtils.GetType("System.Reflection.RuntimeMethodInfo"), "GetMethodFromHandleNoGenericCheck", 0, typeof(System.RuntimeMethodHandle), typeof(System.RuntimeTypeHandle));
 					r_GetMethodFromHandleNoGenericCheck_RuntimeMethodHandle_RuntimeTypeHandle.SetBelong(null);
 				}
 				return r_GetMethodFromHandleNoGenericCheck_RuntimeMethodHandle_RuntimeTypeHandle;
@@ -853,7 +853,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 			{
 				if(r_GetMethodBodyInternal_IntPtr == null)
 				{
-					r_GetMethodBodyInternal_IntPtr = new( ReleactionUtils.GetType("System.Reflection.RuntimeMethodInfo"), "GetMethodBodyInternal", 0, typeof(System.IntPtr));
+					r_GetMethodBodyInternal_IntPtr = new( ReflectionUtils.GetType("System.Reflection.RuntimeMethodInfo"), "GetMethodBodyInternal", 0, typeof(System.IntPtr));
 					r_GetMethodBodyInternal_IntPtr.SetBelong(null);
 				}
 				return r_GetMethodBodyInternal_IntPtr;
@@ -870,7 +870,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 			{
 				if(r_GetMethodBody_IntPtr == null)
 				{
-					r_GetMethodBody_IntPtr = new( ReleactionUtils.GetType("System.Reflection.RuntimeMethodInfo"), "GetMethodBody", 0, typeof(System.IntPtr));
+					r_GetMethodBody_IntPtr = new( ReflectionUtils.GetType("System.Reflection.RuntimeMethodInfo"), "GetMethodBody", 0, typeof(System.IntPtr));
 					r_GetMethodBody_IntPtr.SetBelong(null);
 				}
 				return r_GetMethodBody_IntPtr;
@@ -887,7 +887,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 			{
 				if(r_GetMethodFromHandleInternalType_IntPtr_IntPtr == null)
 				{
-					r_GetMethodFromHandleInternalType_IntPtr_IntPtr = new( ReleactionUtils.GetType("System.Reflection.RuntimeMethodInfo"), "GetMethodFromHandleInternalType", 0, typeof(System.IntPtr), typeof(System.IntPtr));
+					r_GetMethodFromHandleInternalType_IntPtr_IntPtr = new( ReflectionUtils.GetType("System.Reflection.RuntimeMethodInfo"), "GetMethodFromHandleInternalType", 0, typeof(System.IntPtr), typeof(System.IntPtr));
 					r_GetMethodFromHandleInternalType_IntPtr_IntPtr.SetBelong(null);
 				}
 				return r_GetMethodFromHandleInternalType_IntPtr_IntPtr;
@@ -904,7 +904,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 			{
 				if(r_GetMethodFromHandleInternalType_native_IntPtr_IntPtr_Boolean == null)
 				{
-					r_GetMethodFromHandleInternalType_native_IntPtr_IntPtr_Boolean = new( ReleactionUtils.GetType("System.Reflection.RuntimeMethodInfo"), "GetMethodFromHandleInternalType_native", 0, typeof(System.IntPtr), typeof(System.IntPtr), typeof(System.Boolean));
+					r_GetMethodFromHandleInternalType_native_IntPtr_IntPtr_Boolean = new( ReflectionUtils.GetType("System.Reflection.RuntimeMethodInfo"), "GetMethodFromHandleInternalType_native", 0, typeof(System.IntPtr), typeof(System.IntPtr), typeof(System.Boolean));
 					r_GetMethodFromHandleInternalType_native_IntPtr_IntPtr_Boolean.SetBelong(null);
 				}
 				return r_GetMethodFromHandleInternalType_native_IntPtr_IntPtr_Boolean;
@@ -921,7 +921,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 			{
 				if(r_get_name_MethodBase == null)
 				{
-					r_get_name_MethodBase = new( ReleactionUtils.GetType("System.Reflection.RuntimeMethodInfo"), "get_name", 0, typeof(System.Reflection.MethodBase));
+					r_get_name_MethodBase = new( ReflectionUtils.GetType("System.Reflection.RuntimeMethodInfo"), "get_name", 0, typeof(System.Reflection.MethodBase));
 					r_get_name_MethodBase.SetBelong(null);
 				}
 				return r_get_name_MethodBase;
@@ -938,7 +938,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 			{
 				if(r_get_base_method_RuntimeMethodInfo_Boolean == null)
 				{
-					r_get_base_method_RuntimeMethodInfo_Boolean = new( ReleactionUtils.GetType("System.Reflection.RuntimeMethodInfo"), "get_base_method", 0,  ReleactionUtils.GetType("System.Reflection.RuntimeMethodInfo"), typeof(System.Boolean));
+					r_get_base_method_RuntimeMethodInfo_Boolean = new( ReflectionUtils.GetType("System.Reflection.RuntimeMethodInfo"), "get_base_method", 0,  ReflectionUtils.GetType("System.Reflection.RuntimeMethodInfo"), typeof(System.Boolean));
 					r_get_base_method_RuntimeMethodInfo_Boolean.SetBelong(null);
 				}
 				return r_get_base_method_RuntimeMethodInfo_Boolean;
@@ -955,7 +955,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 			{
 				if(r_get_metadata_token_RuntimeMethodInfo == null)
 				{
-					r_get_metadata_token_RuntimeMethodInfo = new( ReleactionUtils.GetType("System.Reflection.RuntimeMethodInfo"), "get_metadata_token", 0,  ReleactionUtils.GetType("System.Reflection.RuntimeMethodInfo"));
+					r_get_metadata_token_RuntimeMethodInfo = new( ReflectionUtils.GetType("System.Reflection.RuntimeMethodInfo"), "get_metadata_token", 0,  ReflectionUtils.GetType("System.Reflection.RuntimeMethodInfo"));
 					r_get_metadata_token_RuntimeMethodInfo.SetBelong(null);
 				}
 				return r_get_metadata_token_RuntimeMethodInfo;
@@ -1108,7 +1108,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 			{
 				if(r_ConvertValues_Binder_ObjectArray_ParameterInfoArray_CultureInfo_BindingFlags == null)
 				{
-					r_ConvertValues_Binder_ObjectArray_ParameterInfoArray_CultureInfo_BindingFlags = new( ReleactionUtils.GetType("System.Reflection.RuntimeMethodInfo"), "ConvertValues", 0, typeof(System.Reflection.Binder), typeof(System.Object).MakeArrayType(), typeof(System.Reflection.ParameterInfo).MakeArrayType(), typeof(System.Globalization.CultureInfo), typeof(System.Reflection.BindingFlags));
+					r_ConvertValues_Binder_ObjectArray_ParameterInfoArray_CultureInfo_BindingFlags = new( ReflectionUtils.GetType("System.Reflection.RuntimeMethodInfo"), "ConvertValues", 0, typeof(System.Reflection.Binder), typeof(System.Object).MakeArrayType(), typeof(System.Reflection.ParameterInfo).MakeArrayType(), typeof(System.Globalization.CultureInfo), typeof(System.Reflection.BindingFlags));
 					r_ConvertValues_Binder_ObjectArray_ParameterInfoArray_CultureInfo_BindingFlags.SetBelong(null);
 				}
 				return r_ConvertValues_Binder_ObjectArray_ParameterInfoArray_CultureInfo_BindingFlags;
@@ -1176,7 +1176,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 			{
 				if(r_GetPInvoke_Out_PInvokeAttributes_Out_String_Out_String == null)
 				{
-					r_GetPInvoke_Out_PInvokeAttributes_Out_String_Out_String = new(this, "GetPInvoke", 0,  ReleactionUtils.GetType("System.Reflection.PInvokeAttributes").MakeByRefType(), typeof(System.String).MakeByRefType(), typeof(System.String).MakeByRefType());
+					r_GetPInvoke_Out_PInvokeAttributes_Out_String_Out_String = new(this, "GetPInvoke", 0,  ReflectionUtils.GetType("System.Reflection.PInvokeAttributes").MakeByRefType(), typeof(System.String).MakeByRefType(), typeof(System.String).MakeByRefType());
 					r_GetPInvoke_Out_PInvokeAttributes_Out_String_Out_String.SetBelong(this.instance);
 				}
 				return r_GetPInvoke_Out_PInvokeAttributes_Out_String_Out_String;

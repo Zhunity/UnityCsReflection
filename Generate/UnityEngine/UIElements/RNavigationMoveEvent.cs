@@ -751,7 +751,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_GetPooled_Vector2_NavigationDeviceType_EventModifiers == null)
 				{
-					r_GetPooled_Vector2_NavigationDeviceType_EventModifiers = new(typeof(UnityEngine.UIElements.NavigationMoveEvent), "GetPooled", 0, typeof(UnityEngine.Vector2),  ReleactionUtils.GetType("UnityEngine.UIElements.NavigationDeviceType"), typeof(UnityEngine.EventModifiers));
+					r_GetPooled_Vector2_NavigationDeviceType_EventModifiers = new(typeof(UnityEngine.UIElements.NavigationMoveEvent), "GetPooled", 0, typeof(UnityEngine.Vector2),  ReflectionUtils.GetType("UnityEngine.UIElements.NavigationDeviceType"), typeof(UnityEngine.EventModifiers));
 					r_GetPooled_Vector2_NavigationDeviceType_EventModifiers.SetBelong(null);
 				}
 				return r_GetPooled_Vector2_NavigationDeviceType_EventModifiers;
@@ -768,7 +768,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_GetPooled_Direction_EventModifiers == null)
 				{
-					r_GetPooled_Direction_EventModifiers = new(typeof(UnityEngine.UIElements.NavigationMoveEvent), "GetPooled", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.NavigationMoveEvent+Direction"), typeof(UnityEngine.EventModifiers));
+					r_GetPooled_Direction_EventModifiers = new(typeof(UnityEngine.UIElements.NavigationMoveEvent), "GetPooled", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.NavigationMoveEvent+Direction"), typeof(UnityEngine.EventModifiers));
 					r_GetPooled_Direction_EventModifiers.SetBelong(null);
 				}
 				return r_GetPooled_Direction_EventModifiers;
@@ -785,7 +785,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_GetPooled_Direction_NavigationDeviceType_EventModifiers == null)
 				{
-					r_GetPooled_Direction_NavigationDeviceType_EventModifiers = new(typeof(UnityEngine.UIElements.NavigationMoveEvent), "GetPooled", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.NavigationMoveEvent+Direction"),  ReleactionUtils.GetType("UnityEngine.UIElements.NavigationDeviceType"), typeof(UnityEngine.EventModifiers));
+					r_GetPooled_Direction_NavigationDeviceType_EventModifiers = new(typeof(UnityEngine.UIElements.NavigationMoveEvent), "GetPooled", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.NavigationMoveEvent+Direction"),  ReflectionUtils.GetType("UnityEngine.UIElements.NavigationDeviceType"), typeof(UnityEngine.EventModifiers));
 					r_GetPooled_Direction_NavigationDeviceType_EventModifiers.SetBelong(null);
 				}
 				return r_GetPooled_Direction_NavigationDeviceType_EventModifiers;

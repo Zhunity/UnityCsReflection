@@ -598,7 +598,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_CopyFrom_Ref_LayoutData == null)
 				{
-					r_CopyFrom_Ref_LayoutData = new(this, "CopyFrom", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.LayoutData").MakeByRefType());
+					r_CopyFrom_Ref_LayoutData = new(this, "CopyFrom", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.LayoutData").MakeByRefType());
 					r_CopyFrom_Ref_LayoutData.SetBelong(this.instance);
 				}
 				return r_CopyFrom_Ref_LayoutData;
@@ -615,7 +615,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_op_Equality_LayoutData_LayoutData == null)
 				{
-					r_op_Equality_LayoutData_LayoutData = new( ReleactionUtils.GetType("UnityEngine.UIElements.LayoutData"), "op_Equality", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.LayoutData"),  ReleactionUtils.GetType("UnityEngine.UIElements.LayoutData"));
+					r_op_Equality_LayoutData_LayoutData = new( ReflectionUtils.GetType("UnityEngine.UIElements.LayoutData"), "op_Equality", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.LayoutData"),  ReflectionUtils.GetType("UnityEngine.UIElements.LayoutData"));
 					r_op_Equality_LayoutData_LayoutData.SetBelong(null);
 				}
 				return r_op_Equality_LayoutData_LayoutData;
@@ -632,7 +632,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_op_Inequality_LayoutData_LayoutData == null)
 				{
-					r_op_Inequality_LayoutData_LayoutData = new( ReleactionUtils.GetType("UnityEngine.UIElements.LayoutData"), "op_Inequality", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.LayoutData"),  ReleactionUtils.GetType("UnityEngine.UIElements.LayoutData"));
+					r_op_Inequality_LayoutData_LayoutData = new( ReflectionUtils.GetType("UnityEngine.UIElements.LayoutData"), "op_Inequality", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.LayoutData"),  ReflectionUtils.GetType("UnityEngine.UIElements.LayoutData"));
 					r_op_Inequality_LayoutData_LayoutData.SetBelong(null);
 				}
 				return r_op_Inequality_LayoutData_LayoutData;
@@ -649,7 +649,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_Equals_LayoutData == null)
 				{
-					r_Equals_LayoutData = new(this, "Equals", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.LayoutData"));
+					r_Equals_LayoutData = new(this, "Equals", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.LayoutData"));
 					r_Equals_LayoutData.SetBelong(this.instance);
 				}
 				return r_Equals_LayoutData;

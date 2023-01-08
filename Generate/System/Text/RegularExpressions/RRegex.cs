@@ -513,7 +513,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 			{
 				if(r_GetCachedCode_CachedCodeEntryKey_Boolean == null)
 				{
-					r_GetCachedCode_CachedCodeEntryKey_Boolean = new(this, "GetCachedCode", 0,  ReleactionUtils.GetType("System.Text.RegularExpressions.Regex+CachedCodeEntryKey"), typeof(System.Boolean));
+					r_GetCachedCode_CachedCodeEntryKey_Boolean = new(this, "GetCachedCode", 0,  ReflectionUtils.GetType("System.Text.RegularExpressions.Regex+CachedCodeEntryKey"), typeof(System.Boolean));
 					r_GetCachedCode_CachedCodeEntryKey_Boolean.SetBelong(this.instance);
 				}
 				return r_GetCachedCode_CachedCodeEntryKey_Boolean;
@@ -530,7 +530,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 			{
 				if(r_GetCachedCodeEntryInternal_CachedCodeEntryKey_Boolean == null)
 				{
-					r_GetCachedCodeEntryInternal_CachedCodeEntryKey_Boolean = new(this, "GetCachedCodeEntryInternal", 0,  ReleactionUtils.GetType("System.Text.RegularExpressions.Regex+CachedCodeEntryKey"), typeof(System.Boolean));
+					r_GetCachedCodeEntryInternal_CachedCodeEntryKey_Boolean = new(this, "GetCachedCodeEntryInternal", 0,  ReflectionUtils.GetType("System.Text.RegularExpressions.Regex+CachedCodeEntryKey"), typeof(System.Boolean));
 					r_GetCachedCodeEntryInternal_CachedCodeEntryKey_Boolean.SetBelong(this.instance);
 				}
 				return r_GetCachedCodeEntryInternal_CachedCodeEntryKey_Boolean;
@@ -564,7 +564,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 			{
 				if(r_TryGetCacheValue_CachedCodeEntryKey_Out_CachedCodeEntry == null)
 				{
-					r_TryGetCacheValue_CachedCodeEntryKey_Out_CachedCodeEntry = new(typeof(System.Text.RegularExpressions.Regex), "TryGetCacheValue", 0,  ReleactionUtils.GetType("System.Text.RegularExpressions.Regex+CachedCodeEntryKey"),  ReleactionUtils.GetType("System.Text.RegularExpressions.Regex+CachedCodeEntry").MakeByRefType());
+					r_TryGetCacheValue_CachedCodeEntryKey_Out_CachedCodeEntry = new(typeof(System.Text.RegularExpressions.Regex), "TryGetCacheValue", 0,  ReflectionUtils.GetType("System.Text.RegularExpressions.Regex+CachedCodeEntryKey"),  ReflectionUtils.GetType("System.Text.RegularExpressions.Regex+CachedCodeEntry").MakeByRefType());
 					r_TryGetCacheValue_CachedCodeEntryKey_Out_CachedCodeEntry.SetBelong(null);
 				}
 				return r_TryGetCacheValue_CachedCodeEntryKey_Out_CachedCodeEntry;
@@ -581,7 +581,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 			{
 				if(r_TryGetCacheValueSmall_CachedCodeEntryKey_Out_CachedCodeEntry == null)
 				{
-					r_TryGetCacheValueSmall_CachedCodeEntryKey_Out_CachedCodeEntry = new(typeof(System.Text.RegularExpressions.Regex), "TryGetCacheValueSmall", 0,  ReleactionUtils.GetType("System.Text.RegularExpressions.Regex+CachedCodeEntryKey"),  ReleactionUtils.GetType("System.Text.RegularExpressions.Regex+CachedCodeEntry").MakeByRefType());
+					r_TryGetCacheValueSmall_CachedCodeEntryKey_Out_CachedCodeEntry = new(typeof(System.Text.RegularExpressions.Regex), "TryGetCacheValueSmall", 0,  ReflectionUtils.GetType("System.Text.RegularExpressions.Regex+CachedCodeEntryKey"),  ReflectionUtils.GetType("System.Text.RegularExpressions.Regex+CachedCodeEntry").MakeByRefType());
 					r_TryGetCacheValueSmall_CachedCodeEntryKey_Out_CachedCodeEntry.SetBelong(null);
 				}
 				return r_TryGetCacheValueSmall_CachedCodeEntryKey_Out_CachedCodeEntry;
@@ -598,7 +598,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 			{
 				if(r_LookupCachedAndPromote_CachedCodeEntryKey == null)
 				{
-					r_LookupCachedAndPromote_CachedCodeEntryKey = new(typeof(System.Text.RegularExpressions.Regex), "LookupCachedAndPromote", 0,  ReleactionUtils.GetType("System.Text.RegularExpressions.Regex+CachedCodeEntryKey"));
+					r_LookupCachedAndPromote_CachedCodeEntryKey = new(typeof(System.Text.RegularExpressions.Regex), "LookupCachedAndPromote", 0,  ReflectionUtils.GetType("System.Text.RegularExpressions.Regex+CachedCodeEntryKey"));
 					r_LookupCachedAndPromote_CachedCodeEntryKey.SetBelong(null);
 				}
 				return r_LookupCachedAndPromote_CachedCodeEntryKey;
@@ -1278,7 +1278,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 			{
 				if(r_Compile_RegexCode_RegexOptions == null)
 				{
-					r_Compile_RegexCode_RegexOptions = new(this, "Compile", 0,  ReleactionUtils.GetType("System.Text.RegularExpressions.RegexCode"), typeof(System.Text.RegularExpressions.RegexOptions));
+					r_Compile_RegexCode_RegexOptions = new(this, "Compile", 0,  ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), typeof(System.Text.RegularExpressions.RegexOptions));
 					r_Compile_RegexCode_RegexOptions.SetBelong(this.instance);
 				}
 				return r_Compile_RegexCode_RegexOptions;

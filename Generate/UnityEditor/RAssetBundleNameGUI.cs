@@ -20,7 +20,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 			{
 				if(r_kAssetBundleName == null)
 				{
-					r_kAssetBundleName = new( ReleactionUtils.GetType("UnityEditor.AssetBundleNameGUI"), "kAssetBundleName");
+					r_kAssetBundleName = new( ReflectionUtils.GetType("UnityEditor.AssetBundleNameGUI"), "kAssetBundleName");
 					r_kAssetBundleName.SetBelong(null);
 				}
 				return r_kAssetBundleName;
@@ -37,7 +37,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 			{
 				if(r_kAssetBundleNameFieldIdHash == null)
 				{
-					r_kAssetBundleNameFieldIdHash = new( ReleactionUtils.GetType("UnityEditor.AssetBundleNameGUI"), "kAssetBundleNameFieldIdHash");
+					r_kAssetBundleNameFieldIdHash = new( ReflectionUtils.GetType("UnityEditor.AssetBundleNameGUI"), "kAssetBundleNameFieldIdHash");
 					r_kAssetBundleNameFieldIdHash.SetBelong(null);
 				}
 				return r_kAssetBundleNameFieldIdHash;
@@ -54,7 +54,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 			{
 				if(r_kAssetBundleVariantFieldIdHash == null)
 				{
-					r_kAssetBundleVariantFieldIdHash = new( ReleactionUtils.GetType("UnityEditor.AssetBundleNameGUI"), "kAssetBundleVariantFieldIdHash");
+					r_kAssetBundleVariantFieldIdHash = new( ReflectionUtils.GetType("UnityEditor.AssetBundleNameGUI"), "kAssetBundleVariantFieldIdHash");
 					r_kAssetBundleVariantFieldIdHash.SetBelong(null);
 				}
 				return r_kAssetBundleVariantFieldIdHash;

@@ -54,7 +54,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 			{
 				if(r_SetHandler_SerializedProperty_PropertyHandler == null)
 				{
-					r_SetHandler_SerializedProperty_PropertyHandler = new(this, "SetHandler", 0, typeof(UnityEditor.SerializedProperty),  ReleactionUtils.GetType("UnityEditor.PropertyHandler"));
+					r_SetHandler_SerializedProperty_PropertyHandler = new(this, "SetHandler", 0, typeof(UnityEditor.SerializedProperty),  ReflectionUtils.GetType("UnityEditor.PropertyHandler"));
 					r_SetHandler_SerializedProperty_PropertyHandler.SetBelong(this.instance);
 				}
 				return r_SetHandler_SerializedProperty_PropertyHandler;
@@ -71,7 +71,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 			{
 				if(r_CanUseSameHandler_SerializedProperty_SerializedProperty == null)
 				{
-					r_CanUseSameHandler_SerializedProperty_SerializedProperty = new( ReleactionUtils.GetType("UnityEditor.PropertyHandlerCache"), "CanUseSameHandler", 0, typeof(UnityEditor.SerializedProperty), typeof(UnityEditor.SerializedProperty));
+					r_CanUseSameHandler_SerializedProperty_SerializedProperty = new( ReflectionUtils.GetType("UnityEditor.PropertyHandlerCache"), "CanUseSameHandler", 0, typeof(UnityEditor.SerializedProperty), typeof(UnityEditor.SerializedProperty));
 					r_CanUseSameHandler_SerializedProperty_SerializedProperty.SetBelong(null);
 				}
 				return r_CanUseSameHandler_SerializedProperty_SerializedProperty;
@@ -88,7 +88,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 			{
 				if(r_GetPropertyHash_SerializedProperty == null)
 				{
-					r_GetPropertyHash_SerializedProperty = new( ReleactionUtils.GetType("UnityEditor.PropertyHandlerCache"), "GetPropertyHash", 0, typeof(UnityEditor.SerializedProperty));
+					r_GetPropertyHash_SerializedProperty = new( ReflectionUtils.GetType("UnityEditor.PropertyHandlerCache"), "GetPropertyHash", 0, typeof(UnityEditor.SerializedProperty));
 					r_GetPropertyHash_SerializedProperty.SetBelong(null);
 				}
 				return r_GetPropertyHash_SerializedProperty;

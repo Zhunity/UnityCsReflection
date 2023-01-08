@@ -156,7 +156,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 			{
 				if(r_ms_types == null)
 				{
-					r_ms_types = new( ReleactionUtils.GetType("UnityEditor.UnityType"), "ms_types");
+					r_ms_types = new( ReflectionUtils.GetType("UnityEditor.UnityType"), "ms_types");
 					r_ms_types.SetBelong(null);
 				}
 				return r_ms_types;
@@ -173,7 +173,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 			{
 				if(r_ms_typesReadOnly == null)
 				{
-					r_ms_typesReadOnly = new( ReleactionUtils.GetType("UnityEditor.UnityType"), "ms_typesReadOnly");
+					r_ms_typesReadOnly = new( ReflectionUtils.GetType("UnityEditor.UnityType"), "ms_typesReadOnly");
 					r_ms_typesReadOnly.SetBelong(null);
 				}
 				return r_ms_typesReadOnly;
@@ -190,7 +190,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 			{
 				if(r_ms_idToType == null)
 				{
-					r_ms_idToType = new( ReleactionUtils.GetType("UnityEditor.UnityType"), "ms_idToType");
+					r_ms_idToType = new( ReflectionUtils.GetType("UnityEditor.UnityType"), "ms_idToType");
 					r_ms_idToType.SetBelong(null);
 				}
 				return r_ms_idToType;
@@ -207,7 +207,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 			{
 				if(r_ms_nameToType == null)
 				{
-					r_ms_nameToType = new( ReleactionUtils.GetType("UnityEditor.UnityType"), "ms_nameToType");
+					r_ms_nameToType = new( ReflectionUtils.GetType("UnityEditor.UnityType"), "ms_nameToType");
 					r_ms_nameToType.SetBelong(null);
 				}
 				return r_ms_nameToType;
@@ -411,7 +411,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 			{
 				if(r_TypeCount == null)
 				{
-					r_TypeCount = new( ReleactionUtils.GetType("UnityEditor.UnityType"), "TypeCount", -1);
+					r_TypeCount = new( ReflectionUtils.GetType("UnityEditor.UnityType"), "TypeCount", -1);
 					r_TypeCount.SetBelong(null);
 				}
 				return r_TypeCount;
@@ -428,7 +428,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 			{
 				if(r_Internal_GetAllTypes == null)
 				{
-					r_Internal_GetAllTypes = new( ReleactionUtils.GetType("UnityEditor.UnityType"), "Internal_GetAllTypes", 0);
+					r_Internal_GetAllTypes = new( ReflectionUtils.GetType("UnityEditor.UnityType"), "Internal_GetAllTypes", 0);
 					r_Internal_GetAllTypes.SetBelong(null);
 				}
 				return r_Internal_GetAllTypes;
@@ -445,7 +445,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 			{
 				if(r_IsDerivedFrom_UnityType == null)
 				{
-					r_IsDerivedFrom_UnityType = new(this, "IsDerivedFrom", 0,  ReleactionUtils.GetType("UnityEditor.UnityType"));
+					r_IsDerivedFrom_UnityType = new(this, "IsDerivedFrom", 0,  ReflectionUtils.GetType("UnityEditor.UnityType"));
 					r_IsDerivedFrom_UnityType.SetBelong(this.instance);
 				}
 				return r_IsDerivedFrom_UnityType;
@@ -462,7 +462,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 			{
 				if(r_FindTypeByPersistentTypeID_Int32 == null)
 				{
-					r_FindTypeByPersistentTypeID_Int32 = new( ReleactionUtils.GetType("UnityEditor.UnityType"), "FindTypeByPersistentTypeID", 0, typeof(System.Int32));
+					r_FindTypeByPersistentTypeID_Int32 = new( ReflectionUtils.GetType("UnityEditor.UnityType"), "FindTypeByPersistentTypeID", 0, typeof(System.Int32));
 					r_FindTypeByPersistentTypeID_Int32.SetBelong(null);
 				}
 				return r_FindTypeByPersistentTypeID_Int32;
@@ -479,7 +479,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 			{
 				if(r_GetTypeByRuntimeTypeIndex_UInt32 == null)
 				{
-					r_GetTypeByRuntimeTypeIndex_UInt32 = new( ReleactionUtils.GetType("UnityEditor.UnityType"), "GetTypeByRuntimeTypeIndex", 0, typeof(System.UInt32));
+					r_GetTypeByRuntimeTypeIndex_UInt32 = new( ReflectionUtils.GetType("UnityEditor.UnityType"), "GetTypeByRuntimeTypeIndex", 0, typeof(System.UInt32));
 					r_GetTypeByRuntimeTypeIndex_UInt32.SetBelong(null);
 				}
 				return r_GetTypeByRuntimeTypeIndex_UInt32;
@@ -496,7 +496,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 			{
 				if(r_FindTypeByName_String == null)
 				{
-					r_FindTypeByName_String = new( ReleactionUtils.GetType("UnityEditor.UnityType"), "FindTypeByName", 0, typeof(System.String));
+					r_FindTypeByName_String = new( ReflectionUtils.GetType("UnityEditor.UnityType"), "FindTypeByName", 0, typeof(System.String));
 					r_FindTypeByName_String.SetBelong(null);
 				}
 				return r_FindTypeByName_String;
@@ -513,7 +513,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 			{
 				if(r_FindTypeByNameCaseInsensitive_String == null)
 				{
-					r_FindTypeByNameCaseInsensitive_String = new( ReleactionUtils.GetType("UnityEditor.UnityType"), "FindTypeByNameCaseInsensitive", 0, typeof(System.String));
+					r_FindTypeByNameCaseInsensitive_String = new( ReflectionUtils.GetType("UnityEditor.UnityType"), "FindTypeByNameCaseInsensitive", 0, typeof(System.String));
 					r_FindTypeByNameCaseInsensitive_String.SetBelong(null);
 				}
 				return r_FindTypeByNameCaseInsensitive_String;
@@ -530,7 +530,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 			{
 				if(r_GetTypes == null)
 				{
-					r_GetTypes = new( ReleactionUtils.GetType("UnityEditor.UnityType"), "GetTypes", 0);
+					r_GetTypes = new( ReflectionUtils.GetType("UnityEditor.UnityType"), "GetTypes", 0);
 					r_GetTypes.SetBelong(null);
 				}
 				return r_GetTypes;

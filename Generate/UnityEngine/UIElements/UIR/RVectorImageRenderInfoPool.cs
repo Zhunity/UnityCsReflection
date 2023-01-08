@@ -71,7 +71,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_Return_VectorImageRenderInfo == null)
 				{
-					r_Return_VectorImageRenderInfo = new(this, "Return", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.UIR.VectorImageRenderInfo"));
+					r_Return_VectorImageRenderInfo = new(this, "Return", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.UIR.VectorImageRenderInfo"));
 					r_Return_VectorImageRenderInfo.SetBelong(this.instance);
 				}
 				return r_Return_VectorImageRenderInfo;

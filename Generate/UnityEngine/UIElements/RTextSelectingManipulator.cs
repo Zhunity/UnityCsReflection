@@ -122,7 +122,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_k_DragThresholdSqr == null)
 				{
-					r_k_DragThresholdSqr = new( ReleactionUtils.GetType("UnityEngine.UIElements.TextSelectingManipulator"), "k_DragThresholdSqr");
+					r_k_DragThresholdSqr = new( ReflectionUtils.GetType("UnityEngine.UIElements.TextSelectingManipulator"), "k_DragThresholdSqr");
 					r_k_DragThresholdSqr.SetBelong(null);
 				}
 				return r_k_DragThresholdSqr;

@@ -734,7 +734,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_AllocatesID_BMPAlloc == null)
 				{
-					r_AllocatesID_BMPAlloc = new( ReleactionUtils.GetType("UnityEngine.UIElements.UIR.RenderChainVEData"), "AllocatesID", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.UIR.BMPAlloc"));
+					r_AllocatesID_BMPAlloc = new( ReflectionUtils.GetType("UnityEngine.UIElements.UIR.RenderChainVEData"), "AllocatesID", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.UIR.BMPAlloc"));
 					r_AllocatesID_BMPAlloc.SetBelong(null);
 				}
 				return r_AllocatesID_BMPAlloc;
@@ -751,7 +751,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_InheritsID_BMPAlloc == null)
 				{
-					r_InheritsID_BMPAlloc = new( ReleactionUtils.GetType("UnityEngine.UIElements.UIR.RenderChainVEData"), "InheritsID", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.UIR.BMPAlloc"));
+					r_InheritsID_BMPAlloc = new( ReflectionUtils.GetType("UnityEngine.UIElements.UIR.RenderChainVEData"), "InheritsID", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.UIR.BMPAlloc"));
 					r_InheritsID_BMPAlloc.SetBelong(null);
 				}
 				return r_InheritsID_BMPAlloc;

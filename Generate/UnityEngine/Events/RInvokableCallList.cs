@@ -105,7 +105,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.REvents
 			{
 				if(r_AddPersistentInvokableCall_BaseInvokableCall == null)
 				{
-					r_AddPersistentInvokableCall_BaseInvokableCall = new(this, "AddPersistentInvokableCall", 0,  ReleactionUtils.GetType("UnityEngine.Events.BaseInvokableCall"));
+					r_AddPersistentInvokableCall_BaseInvokableCall = new(this, "AddPersistentInvokableCall", 0,  ReflectionUtils.GetType("UnityEngine.Events.BaseInvokableCall"));
 					r_AddPersistentInvokableCall_BaseInvokableCall.SetBelong(this.instance);
 				}
 				return r_AddPersistentInvokableCall_BaseInvokableCall;
@@ -122,7 +122,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.REvents
 			{
 				if(r_AddListener_BaseInvokableCall == null)
 				{
-					r_AddListener_BaseInvokableCall = new(this, "AddListener", 0,  ReleactionUtils.GetType("UnityEngine.Events.BaseInvokableCall"));
+					r_AddListener_BaseInvokableCall = new(this, "AddListener", 0,  ReflectionUtils.GetType("UnityEngine.Events.BaseInvokableCall"));
 					r_AddListener_BaseInvokableCall.SetBelong(this.instance);
 				}
 				return r_AddListener_BaseInvokableCall;

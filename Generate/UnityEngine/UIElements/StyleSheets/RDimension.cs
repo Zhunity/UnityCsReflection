@@ -105,7 +105,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 			{
 				if(r_op_Equality_Dimension_Dimension == null)
 				{
-					r_op_Equality_Dimension_Dimension = new( ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.Dimension"), "op_Equality", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.Dimension"),  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.Dimension"));
+					r_op_Equality_Dimension_Dimension = new( ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.Dimension"), "op_Equality", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.Dimension"),  ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.Dimension"));
 					r_op_Equality_Dimension_Dimension.SetBelong(null);
 				}
 				return r_op_Equality_Dimension_Dimension;
@@ -122,7 +122,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 			{
 				if(r_op_Inequality_Dimension_Dimension == null)
 				{
-					r_op_Inequality_Dimension_Dimension = new( ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.Dimension"), "op_Inequality", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.Dimension"),  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.Dimension"));
+					r_op_Inequality_Dimension_Dimension = new( ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.Dimension"), "op_Inequality", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.Dimension"),  ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.Dimension"));
 					r_op_Inequality_Dimension_Dimension.SetBelong(null);
 				}
 				return r_op_Inequality_Dimension_Dimension;
@@ -139,7 +139,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 			{
 				if(r_Equals_Dimension == null)
 				{
-					r_Equals_Dimension = new(this, "Equals", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.Dimension"));
+					r_Equals_Dimension = new(this, "Equals", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.Dimension"));
 					r_Equals_Dimension.SetBelong(this.instance);
 				}
 				return r_Equals_Dimension;

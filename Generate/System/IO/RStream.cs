@@ -666,7 +666,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 			{
 				if(r_RunReadWriteTaskWhenReady_Task_ReadWriteTask == null)
 				{
-					r_RunReadWriteTaskWhenReady_Task_ReadWriteTask = new(this, "RunReadWriteTaskWhenReady", 0, typeof(System.Threading.Tasks.Task),  ReleactionUtils.GetType("System.IO.Stream+ReadWriteTask"));
+					r_RunReadWriteTaskWhenReady_Task_ReadWriteTask = new(this, "RunReadWriteTaskWhenReady", 0, typeof(System.Threading.Tasks.Task),  ReflectionUtils.GetType("System.IO.Stream+ReadWriteTask"));
 					r_RunReadWriteTaskWhenReady_Task_ReadWriteTask.SetBelong(this.instance);
 				}
 				return r_RunReadWriteTaskWhenReady_Task_ReadWriteTask;
@@ -683,7 +683,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 			{
 				if(r_RunReadWriteTask_ReadWriteTask == null)
 				{
-					r_RunReadWriteTask_ReadWriteTask = new(this, "RunReadWriteTask", 0,  ReleactionUtils.GetType("System.IO.Stream+ReadWriteTask"));
+					r_RunReadWriteTask_ReadWriteTask = new(this, "RunReadWriteTask", 0,  ReflectionUtils.GetType("System.IO.Stream+ReadWriteTask"));
 					r_RunReadWriteTask_ReadWriteTask.SetBelong(this.instance);
 				}
 				return r_RunReadWriteTask_ReadWriteTask;

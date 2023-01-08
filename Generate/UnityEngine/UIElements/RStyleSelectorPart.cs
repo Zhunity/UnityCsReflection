@@ -122,7 +122,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_CreateClass_String == null)
 				{
-					r_CreateClass_String = new( ReleactionUtils.GetType("UnityEngine.UIElements.StyleSelectorPart"), "CreateClass", 0, typeof(System.String));
+					r_CreateClass_String = new( ReflectionUtils.GetType("UnityEngine.UIElements.StyleSelectorPart"), "CreateClass", 0, typeof(System.String));
 					r_CreateClass_String.SetBelong(null);
 				}
 				return r_CreateClass_String;
@@ -139,7 +139,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_CreatePseudoClass_String == null)
 				{
-					r_CreatePseudoClass_String = new( ReleactionUtils.GetType("UnityEngine.UIElements.StyleSelectorPart"), "CreatePseudoClass", 0, typeof(System.String));
+					r_CreatePseudoClass_String = new( ReflectionUtils.GetType("UnityEngine.UIElements.StyleSelectorPart"), "CreatePseudoClass", 0, typeof(System.String));
 					r_CreatePseudoClass_String.SetBelong(null);
 				}
 				return r_CreatePseudoClass_String;
@@ -156,7 +156,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_CreateId_String == null)
 				{
-					r_CreateId_String = new( ReleactionUtils.GetType("UnityEngine.UIElements.StyleSelectorPart"), "CreateId", 0, typeof(System.String));
+					r_CreateId_String = new( ReflectionUtils.GetType("UnityEngine.UIElements.StyleSelectorPart"), "CreateId", 0, typeof(System.String));
 					r_CreateId_String.SetBelong(null);
 				}
 				return r_CreateId_String;
@@ -173,7 +173,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_CreateType_Type == null)
 				{
-					r_CreateType_Type = new( ReleactionUtils.GetType("UnityEngine.UIElements.StyleSelectorPart"), "CreateType", 0, typeof(System.Type));
+					r_CreateType_Type = new( ReflectionUtils.GetType("UnityEngine.UIElements.StyleSelectorPart"), "CreateType", 0, typeof(System.Type));
 					r_CreateType_Type.SetBelong(null);
 				}
 				return r_CreateType_Type;
@@ -190,7 +190,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_CreateType_String == null)
 				{
-					r_CreateType_String = new( ReleactionUtils.GetType("UnityEngine.UIElements.StyleSelectorPart"), "CreateType", 0, typeof(System.String));
+					r_CreateType_String = new( ReflectionUtils.GetType("UnityEngine.UIElements.StyleSelectorPart"), "CreateType", 0, typeof(System.String));
 					r_CreateType_String.SetBelong(null);
 				}
 				return r_CreateType_String;
@@ -207,7 +207,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_CreatePredicate_Object == null)
 				{
-					r_CreatePredicate_Object = new( ReleactionUtils.GetType("UnityEngine.UIElements.StyleSelectorPart"), "CreatePredicate", 0, typeof(System.Object));
+					r_CreatePredicate_Object = new( ReflectionUtils.GetType("UnityEngine.UIElements.StyleSelectorPart"), "CreatePredicate", 0, typeof(System.Object));
 					r_CreatePredicate_Object.SetBelong(null);
 				}
 				return r_CreatePredicate_Object;
@@ -224,7 +224,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_CreateWildCard == null)
 				{
-					r_CreateWildCard = new( ReleactionUtils.GetType("UnityEngine.UIElements.StyleSelectorPart"), "CreateWildCard", 0);
+					r_CreateWildCard = new( ReflectionUtils.GetType("UnityEngine.UIElements.StyleSelectorPart"), "CreateWildCard", 0);
 					r_CreateWildCard.SetBelong(null);
 				}
 				return r_CreateWildCard;

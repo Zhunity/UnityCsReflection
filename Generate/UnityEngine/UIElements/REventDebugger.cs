@@ -462,7 +462,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_LogPropagationPaths_EventBase_PropagationPaths == null)
 				{
-					r_LogPropagationPaths_EventBase_PropagationPaths = new( ReleactionUtils.GetType("UnityEngine.UIElements.EventDebugger"), "LogPropagationPaths", 0, typeof(UnityEngine.UIElements.EventBase),  ReleactionUtils.GetType("UnityEngine.UIElements.PropagationPaths"));
+					r_LogPropagationPaths_EventBase_PropagationPaths = new( ReflectionUtils.GetType("UnityEngine.UIElements.EventDebugger"), "LogPropagationPaths", 0, typeof(UnityEngine.UIElements.EventBase),  ReflectionUtils.GetType("UnityEngine.UIElements.PropagationPaths"));
 					r_LogPropagationPaths_EventBase_PropagationPaths.SetBelong(null);
 				}
 				return r_LogPropagationPaths_EventBase_PropagationPaths;
@@ -479,7 +479,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_LogPropagationPathsInternal_EventBase_PropagationPaths == null)
 				{
-					r_LogPropagationPathsInternal_EventBase_PropagationPaths = new(this, "LogPropagationPathsInternal", 0, typeof(UnityEngine.UIElements.EventBase),  ReleactionUtils.GetType("UnityEngine.UIElements.PropagationPaths"));
+					r_LogPropagationPathsInternal_EventBase_PropagationPaths = new(this, "LogPropagationPathsInternal", 0, typeof(UnityEngine.UIElements.EventBase),  ReflectionUtils.GetType("UnityEngine.UIElements.PropagationPaths"));
 					r_LogPropagationPathsInternal_EventBase_PropagationPaths.SetBelong(this.instance);
 				}
 				return r_LogPropagationPathsInternal_EventBase_PropagationPaths;
@@ -496,7 +496,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_GetCalls_IPanel_EventDebuggerEventRecord == null)
 				{
-					r_GetCalls_IPanel_EventDebuggerEventRecord = new(this, "GetCalls", 0, typeof(UnityEngine.UIElements.IPanel),  ReleactionUtils.GetType("UnityEngine.UIElements.EventDebuggerEventRecord"));
+					r_GetCalls_IPanel_EventDebuggerEventRecord = new(this, "GetCalls", 0, typeof(UnityEngine.UIElements.IPanel),  ReflectionUtils.GetType("UnityEngine.UIElements.EventDebuggerEventRecord"));
 					r_GetCalls_IPanel_EventDebuggerEventRecord.SetBelong(this.instance);
 				}
 				return r_GetCalls_IPanel_EventDebuggerEventRecord;
@@ -513,7 +513,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_GetDefaultActions_IPanel_EventDebuggerEventRecord == null)
 				{
-					r_GetDefaultActions_IPanel_EventDebuggerEventRecord = new(this, "GetDefaultActions", 0, typeof(UnityEngine.UIElements.IPanel),  ReleactionUtils.GetType("UnityEngine.UIElements.EventDebuggerEventRecord"));
+					r_GetDefaultActions_IPanel_EventDebuggerEventRecord = new(this, "GetDefaultActions", 0, typeof(UnityEngine.UIElements.IPanel),  ReflectionUtils.GetType("UnityEngine.UIElements.EventDebuggerEventRecord"));
 					r_GetDefaultActions_IPanel_EventDebuggerEventRecord.SetBelong(this.instance);
 				}
 				return r_GetDefaultActions_IPanel_EventDebuggerEventRecord;
@@ -530,7 +530,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_GetPropagationPaths_IPanel_EventDebuggerEventRecord == null)
 				{
-					r_GetPropagationPaths_IPanel_EventDebuggerEventRecord = new(this, "GetPropagationPaths", 0, typeof(UnityEngine.UIElements.IPanel),  ReleactionUtils.GetType("UnityEngine.UIElements.EventDebuggerEventRecord"));
+					r_GetPropagationPaths_IPanel_EventDebuggerEventRecord = new(this, "GetPropagationPaths", 0, typeof(UnityEngine.UIElements.IPanel),  ReflectionUtils.GetType("UnityEngine.UIElements.EventDebuggerEventRecord"));
 					r_GetPropagationPaths_IPanel_EventDebuggerEventRecord.SetBelong(this.instance);
 				}
 				return r_GetPropagationPaths_IPanel_EventDebuggerEventRecord;
@@ -547,7 +547,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_GetBeginEndProcessedEvents_IPanel_EventDebuggerEventRecord == null)
 				{
-					r_GetBeginEndProcessedEvents_IPanel_EventDebuggerEventRecord = new(this, "GetBeginEndProcessedEvents", 0, typeof(UnityEngine.UIElements.IPanel),  ReleactionUtils.GetType("UnityEngine.UIElements.EventDebuggerEventRecord"));
+					r_GetBeginEndProcessedEvents_IPanel_EventDebuggerEventRecord = new(this, "GetBeginEndProcessedEvents", 0, typeof(UnityEngine.UIElements.IPanel),  ReflectionUtils.GetType("UnityEngine.UIElements.EventDebuggerEventRecord"));
 					r_GetBeginEndProcessedEvents_IPanel_EventDebuggerEventRecord.SetBelong(this.instance);
 				}
 				return r_GetBeginEndProcessedEvents_IPanel_EventDebuggerEventRecord;
@@ -598,7 +598,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_SaveReplaySessionFromSelection_String_List_d_EventDebuggerEventRecord_p_ == null)
 				{
-					r_SaveReplaySessionFromSelection_String_List_d_EventDebuggerEventRecord_p_ = new(this, "SaveReplaySessionFromSelection", 0, typeof(System.String), typeof(System.Collections.Generic.List<>).MakeGenericType( ReleactionUtils.GetType("UnityEngine.UIElements.EventDebuggerEventRecord")));
+					r_SaveReplaySessionFromSelection_String_List_d_EventDebuggerEventRecord_p_ = new(this, "SaveReplaySessionFromSelection", 0, typeof(System.String), typeof(System.Collections.Generic.List<>).MakeGenericType( ReflectionUtils.GetType("UnityEngine.UIElements.EventDebuggerEventRecord")));
 					r_SaveReplaySessionFromSelection_String_List_d_EventDebuggerEventRecord_p_.SetBelong(this.instance);
 				}
 				return r_SaveReplaySessionFromSelection_String_List_d_EventDebuggerEventRecord_p_;
@@ -632,7 +632,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_ReplayEvents_IEnumerable_d_EventDebuggerEventRecord_p__Action_d_Int32_Int32_p_ == null)
 				{
-					r_ReplayEvents_IEnumerable_d_EventDebuggerEventRecord_p__Action_d_Int32_Int32_p_ = new(this, "ReplayEvents", 0, typeof(System.Collections.Generic.IEnumerable<>).MakeGenericType( ReleactionUtils.GetType("UnityEngine.UIElements.EventDebuggerEventRecord")), typeof(System.Action<, >).MakeGenericType(typeof(System.Int32), typeof(System.Int32)));
+					r_ReplayEvents_IEnumerable_d_EventDebuggerEventRecord_p__Action_d_Int32_Int32_p_ = new(this, "ReplayEvents", 0, typeof(System.Collections.Generic.IEnumerable<>).MakeGenericType( ReflectionUtils.GetType("UnityEngine.UIElements.EventDebuggerEventRecord")), typeof(System.Action<, >).MakeGenericType(typeof(System.Int32), typeof(System.Int32)));
 					r_ReplayEvents_IEnumerable_d_EventDebuggerEventRecord_p__Action_d_Int32_Int32_p_.SetBelong(this.instance);
 				}
 				return r_ReplayEvents_IEnumerable_d_EventDebuggerEventRecord_p__Action_d_Int32_Int32_p_;
@@ -666,7 +666,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_DoReplayEvents_IEnumerable_d_EventDebuggerEventRecord_p__Action_d_Int32_Int32_p_ == null)
 				{
-					r_DoReplayEvents_IEnumerable_d_EventDebuggerEventRecord_p__Action_d_Int32_Int32_p_ = new(this, "DoReplayEvents", 0, typeof(System.Collections.Generic.IEnumerable<>).MakeGenericType( ReleactionUtils.GetType("UnityEngine.UIElements.EventDebuggerEventRecord")), typeof(System.Action<, >).MakeGenericType(typeof(System.Int32), typeof(System.Int32)));
+					r_DoReplayEvents_IEnumerable_d_EventDebuggerEventRecord_p__Action_d_Int32_Int32_p_ = new(this, "DoReplayEvents", 0, typeof(System.Collections.Generic.IEnumerable<>).MakeGenericType( ReflectionUtils.GetType("UnityEngine.UIElements.EventDebuggerEventRecord")), typeof(System.Action<, >).MakeGenericType(typeof(System.Int32), typeof(System.Int32)));
 					r_DoReplayEvents_IEnumerable_d_EventDebuggerEventRecord_p__Action_d_Int32_Int32_p_.SetBelong(this.instance);
 				}
 				return r_DoReplayEvents_IEnumerable_d_EventDebuggerEventRecord_p__Action_d_Int32_Int32_p_;
@@ -683,7 +683,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_ComputeHistogram_List_d_EventDebuggerEventRecord_p_ == null)
 				{
-					r_ComputeHistogram_List_d_EventDebuggerEventRecord_p_ = new(this, "ComputeHistogram", 0, typeof(System.Collections.Generic.List<>).MakeGenericType( ReleactionUtils.GetType("UnityEngine.UIElements.EventDebuggerEventRecord")));
+					r_ComputeHistogram_List_d_EventDebuggerEventRecord_p_ = new(this, "ComputeHistogram", 0, typeof(System.Collections.Generic.List<>).MakeGenericType( ReflectionUtils.GetType("UnityEngine.UIElements.EventDebuggerEventRecord")));
 					r_ComputeHistogram_List_d_EventDebuggerEventRecord_p_.SetBelong(this.instance);
 				}
 				return r_ComputeHistogram_List_d_EventDebuggerEventRecord_p_;
@@ -734,7 +734,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_AddPropagationPaths_EventBase_PropagationPaths == null)
 				{
-					r_AddPropagationPaths_EventBase_PropagationPaths = new(this, "AddPropagationPaths", 0, typeof(UnityEngine.UIElements.EventBase),  ReleactionUtils.GetType("UnityEngine.UIElements.PropagationPaths"));
+					r_AddPropagationPaths_EventBase_PropagationPaths = new(this, "AddPropagationPaths", 0, typeof(UnityEngine.UIElements.EventBase),  ReflectionUtils.GetType("UnityEngine.UIElements.PropagationPaths"));
 					r_AddPropagationPaths_EventBase_PropagationPaths.SetBelong(this.instance);
 				}
 				return r_AddPropagationPaths_EventBase_PropagationPaths;
@@ -802,7 +802,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_GetObjectDisplayName_Object_Boolean == null)
 				{
-					r_GetObjectDisplayName_Object_Boolean = new( ReleactionUtils.GetType("UnityEngine.UIElements.EventDebugger"), "GetObjectDisplayName", 0, typeof(System.Object), typeof(System.Boolean));
+					r_GetObjectDisplayName_Object_Boolean = new( ReflectionUtils.GetType("UnityEngine.UIElements.EventDebugger"), "GetObjectDisplayName", 0, typeof(System.Object), typeof(System.Boolean));
 					r_GetObjectDisplayName_Object_Boolean.SetBelong(null);
 				}
 				return r_GetObjectDisplayName_Object_Boolean;
@@ -819,7 +819,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_GetTypeDisplayName_Type == null)
 				{
-					r_GetTypeDisplayName_Type = new( ReleactionUtils.GetType("UnityEngine.UIElements.EventDebugger"), "GetTypeDisplayName", 0, typeof(System.Type));
+					r_GetTypeDisplayName_Type = new( ReflectionUtils.GetType("UnityEngine.UIElements.EventDebugger"), "GetTypeDisplayName", 0, typeof(System.Type));
 					r_GetTypeDisplayName_Type.SetBelong(null);
 				}
 				return r_GetTypeDisplayName_Type;

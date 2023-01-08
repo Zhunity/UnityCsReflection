@@ -88,7 +88,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 			{
 				if(r_s_reorderableLists == null)
 				{
-					r_s_reorderableLists = new( ReleactionUtils.GetType("UnityEditor.PropertyHandler"), "s_reorderableLists");
+					r_s_reorderableLists = new( ReflectionUtils.GetType("UnityEditor.PropertyHandler"), "s_reorderableLists");
 					r_s_reorderableLists.SetBelong(null);
 				}
 				return r_s_reorderableLists;
@@ -105,7 +105,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 			{
 				if(r_s_LastInspectionTarget == null)
 				{
-					r_s_LastInspectionTarget = new( ReleactionUtils.GetType("UnityEditor.PropertyHandler"), "s_LastInspectionTarget");
+					r_s_LastInspectionTarget = new( ReflectionUtils.GetType("UnityEditor.PropertyHandler"), "s_LastInspectionTarget");
 					r_s_LastInspectionTarget.SetBelong(null);
 				}
 				return r_s_LastInspectionTarget;
@@ -122,7 +122,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 			{
 				if(r_s_LastInspectorNumComponents == null)
 				{
-					r_s_LastInspectorNumComponents = new( ReleactionUtils.GetType("UnityEditor.PropertyHandler"), "s_LastInspectorNumComponents");
+					r_s_LastInspectorNumComponents = new( ReflectionUtils.GetType("UnityEditor.PropertyHandler"), "s_LastInspectorNumComponents");
 					r_s_LastInspectorNumComponents.SetBelong(null);
 				}
 				return r_s_LastInspectorNumComponents;
@@ -156,7 +156,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 			{
 				if(r_s_CachedComponents == null)
 				{
-					r_s_CachedComponents = new( ReleactionUtils.GetType("UnityEditor.PropertyHandler"), "s_CachedComponents");
+					r_s_CachedComponents = new( ReflectionUtils.GetType("UnityEditor.PropertyHandler"), "s_CachedComponents");
 					r_s_CachedComponents.SetBelong(null);
 				}
 				return r_s_CachedComponents;
@@ -258,7 +258,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 			{
 				if(r_OnUndoRedo_In_UndoRedoInfo == null)
 				{
-					r_OnUndoRedo_In_UndoRedoInfo = new( ReleactionUtils.GetType("UnityEditor.PropertyHandler"), "OnUndoRedo", 0, typeof(UnityEditor.UndoRedoInfo).MakeByRefType());
+					r_OnUndoRedo_In_UndoRedoInfo = new( ReflectionUtils.GetType("UnityEditor.PropertyHandler"), "OnUndoRedo", 0, typeof(UnityEditor.UndoRedoInfo).MakeByRefType());
 					r_OnUndoRedo_In_UndoRedoInfo.SetBelong(null);
 				}
 				return r_OnUndoRedo_In_UndoRedoInfo;
@@ -275,7 +275,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 			{
 				if(r_ClearCache == null)
 				{
-					r_ClearCache = new( ReleactionUtils.GetType("UnityEditor.PropertyHandler"), "ClearCache", 0);
+					r_ClearCache = new( ReflectionUtils.GetType("UnityEditor.PropertyHandler"), "ClearCache", 0);
 					r_ClearCache.SetBelong(null);
 				}
 				return r_ClearCache;
@@ -292,7 +292,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 			{
 				if(r_InvalidateListCacheIncludingChildren_SerializedProperty == null)
 				{
-					r_InvalidateListCacheIncludingChildren_SerializedProperty = new( ReleactionUtils.GetType("UnityEditor.PropertyHandler"), "InvalidateListCacheIncludingChildren", 0, typeof(UnityEditor.SerializedProperty));
+					r_InvalidateListCacheIncludingChildren_SerializedProperty = new( ReflectionUtils.GetType("UnityEditor.PropertyHandler"), "InvalidateListCacheIncludingChildren", 0, typeof(UnityEditor.SerializedProperty));
 					r_InvalidateListCacheIncludingChildren_SerializedProperty.SetBelong(null);
 				}
 				return r_InvalidateListCacheIncludingChildren_SerializedProperty;
@@ -479,7 +479,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 			{
 				if(r_IsNonStringArray_SerializedProperty == null)
 				{
-					r_IsNonStringArray_SerializedProperty = new( ReleactionUtils.GetType("UnityEditor.PropertyHandler"), "IsNonStringArray", 0, typeof(UnityEditor.SerializedProperty));
+					r_IsNonStringArray_SerializedProperty = new( ReflectionUtils.GetType("UnityEditor.PropertyHandler"), "IsNonStringArray", 0, typeof(UnityEditor.SerializedProperty));
 					r_IsNonStringArray_SerializedProperty.SetBelong(null);
 				}
 				return r_IsNonStringArray_SerializedProperty;
@@ -496,7 +496,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 			{
 				if(r_IsArrayReorderable_SerializedProperty == null)
 				{
-					r_IsArrayReorderable_SerializedProperty = new( ReleactionUtils.GetType("UnityEditor.PropertyHandler"), "IsArrayReorderable", 0, typeof(UnityEditor.SerializedProperty));
+					r_IsArrayReorderable_SerializedProperty = new( ReflectionUtils.GetType("UnityEditor.PropertyHandler"), "IsArrayReorderable", 0, typeof(UnityEditor.SerializedProperty));
 					r_IsArrayReorderable_SerializedProperty.SetBelong(null);
 				}
 				return r_IsArrayReorderable_SerializedProperty;
@@ -513,7 +513,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 			{
 				if(r_UseReorderabelListControl_SerializedProperty == null)
 				{
-					r_UseReorderabelListControl_SerializedProperty = new( ReleactionUtils.GetType("UnityEditor.PropertyHandler"), "UseReorderabelListControl", 0, typeof(UnityEditor.SerializedProperty));
+					r_UseReorderabelListControl_SerializedProperty = new( ReflectionUtils.GetType("UnityEditor.PropertyHandler"), "UseReorderabelListControl", 0, typeof(UnityEditor.SerializedProperty));
 					r_UseReorderabelListControl_SerializedProperty.SetBelong(null);
 				}
 				return r_UseReorderabelListControl_SerializedProperty;

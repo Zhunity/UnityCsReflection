@@ -122,7 +122,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_UpdateVisualTreePhase_VisualTreeUpdatePhase == null)
 				{
-					r_UpdateVisualTreePhase_VisualTreeUpdatePhase = new(this, "UpdateVisualTreePhase", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.VisualTreeUpdatePhase"));
+					r_UpdateVisualTreePhase_VisualTreeUpdatePhase = new(this, "UpdateVisualTreePhase", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.VisualTreeUpdatePhase"));
 					r_UpdateVisualTreePhase_VisualTreeUpdatePhase.SetBelong(this.instance);
 				}
 				return r_UpdateVisualTreePhase_VisualTreeUpdatePhase;
@@ -139,7 +139,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_OnVersionChanged_VisualElement_VersionChangeType == null)
 				{
-					r_OnVersionChanged_VisualElement_VersionChangeType = new(this, "OnVersionChanged", 0, typeof(UnityEngine.UIElements.VisualElement),  ReleactionUtils.GetType("UnityEngine.UIElements.VersionChangeType"));
+					r_OnVersionChanged_VisualElement_VersionChangeType = new(this, "OnVersionChanged", 0, typeof(UnityEngine.UIElements.VisualElement),  ReflectionUtils.GetType("UnityEngine.UIElements.VersionChangeType"));
 					r_OnVersionChanged_VisualElement_VersionChangeType.SetBelong(this.instance);
 				}
 				return r_OnVersionChanged_VisualElement_VersionChangeType;
@@ -173,7 +173,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_SetUpdater_IVisualTreeUpdater_VisualTreeUpdatePhase == null)
 				{
-					r_SetUpdater_IVisualTreeUpdater_VisualTreeUpdatePhase = new(this, "SetUpdater", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.IVisualTreeUpdater"),  ReleactionUtils.GetType("UnityEngine.UIElements.VisualTreeUpdatePhase"));
+					r_SetUpdater_IVisualTreeUpdater_VisualTreeUpdatePhase = new(this, "SetUpdater", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.IVisualTreeUpdater"),  ReflectionUtils.GetType("UnityEngine.UIElements.VisualTreeUpdatePhase"));
 					r_SetUpdater_IVisualTreeUpdater_VisualTreeUpdatePhase.SetBelong(this.instance);
 				}
 				return r_SetUpdater_IVisualTreeUpdater_VisualTreeUpdatePhase;
@@ -190,7 +190,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_SetUpdater_GT_VisualTreeUpdatePhase == null)
 				{
-					r_SetUpdater_GT_VisualTreeUpdatePhase = new(this, "SetUpdater", 1,  ReleactionUtils.GetType("UnityEngine.UIElements.VisualTreeUpdatePhase"));
+					r_SetUpdater_GT_VisualTreeUpdatePhase = new(this, "SetUpdater", 1,  ReflectionUtils.GetType("UnityEngine.UIElements.VisualTreeUpdatePhase"));
 					r_SetUpdater_GT_VisualTreeUpdatePhase.SetBelong(this.instance);
 				}
 				return r_SetUpdater_GT_VisualTreeUpdatePhase;
@@ -207,7 +207,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_GetUpdater_VisualTreeUpdatePhase == null)
 				{
-					r_GetUpdater_VisualTreeUpdatePhase = new(this, "GetUpdater", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.VisualTreeUpdatePhase"));
+					r_GetUpdater_VisualTreeUpdatePhase = new(this, "GetUpdater", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.VisualTreeUpdatePhase"));
 					r_GetUpdater_VisualTreeUpdatePhase.SetBelong(this.instance);
 				}
 				return r_GetUpdater_VisualTreeUpdatePhase;

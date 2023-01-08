@@ -141,7 +141,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 			{
 				if(r_Init_GuidParseThrowStyle == null)
 				{
-					r_Init_GuidParseThrowStyle = new(this, "Init", 0,  ReleactionUtils.GetType("System.Guid+GuidParseThrowStyle"));
+					r_Init_GuidParseThrowStyle = new(this, "Init", 0,  ReflectionUtils.GetType("System.Guid+GuidParseThrowStyle"));
 					r_Init_GuidParseThrowStyle.SetBelong(this.instance);
 				}
 				return r_Init_GuidParseThrowStyle;
@@ -175,7 +175,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 			{
 				if(r_SetFailure_ParseFailureKind_String == null)
 				{
-					r_SetFailure_ParseFailureKind_String = new(this, "SetFailure", 0,  ReleactionUtils.GetType("System.Guid+ParseFailureKind"), typeof(System.String));
+					r_SetFailure_ParseFailureKind_String = new(this, "SetFailure", 0,  ReflectionUtils.GetType("System.Guid+ParseFailureKind"), typeof(System.String));
 					r_SetFailure_ParseFailureKind_String.SetBelong(this.instance);
 				}
 				return r_SetFailure_ParseFailureKind_String;
@@ -192,7 +192,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 			{
 				if(r_SetFailure_ParseFailureKind_String_Object == null)
 				{
-					r_SetFailure_ParseFailureKind_String_Object = new(this, "SetFailure", 0,  ReleactionUtils.GetType("System.Guid+ParseFailureKind"), typeof(System.String), typeof(System.Object));
+					r_SetFailure_ParseFailureKind_String_Object = new(this, "SetFailure", 0,  ReflectionUtils.GetType("System.Guid+ParseFailureKind"), typeof(System.String), typeof(System.Object));
 					r_SetFailure_ParseFailureKind_String_Object.SetBelong(this.instance);
 				}
 				return r_SetFailure_ParseFailureKind_String_Object;
@@ -209,7 +209,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 			{
 				if(r_SetFailure_ParseFailureKind_String_Object_String_Exception == null)
 				{
-					r_SetFailure_ParseFailureKind_String_Object_String_Exception = new(this, "SetFailure", 0,  ReleactionUtils.GetType("System.Guid+ParseFailureKind"), typeof(System.String), typeof(System.Object), typeof(System.String), typeof(System.Exception));
+					r_SetFailure_ParseFailureKind_String_Object_String_Exception = new(this, "SetFailure", 0,  ReflectionUtils.GetType("System.Guid+ParseFailureKind"), typeof(System.String), typeof(System.Object), typeof(System.String), typeof(System.Exception));
 					r_SetFailure_ParseFailureKind_String_Object_String_Exception.SetBelong(this.instance);
 				}
 				return r_SetFailure_ParseFailureKind_String_Object_String_Exception;

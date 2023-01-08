@@ -853,7 +853,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 			{
 				if(r_SetValueInternal_FieldInfo_Object_Object == null)
 				{
-					r_SetValueInternal_FieldInfo_Object_Object = new( ReleactionUtils.GetType("System.Reflection.RuntimeFieldInfo"), "SetValueInternal", 0, typeof(System.Reflection.FieldInfo), typeof(System.Object), typeof(System.Object));
+					r_SetValueInternal_FieldInfo_Object_Object = new( ReflectionUtils.GetType("System.Reflection.RuntimeFieldInfo"), "SetValueInternal", 0, typeof(System.Reflection.FieldInfo), typeof(System.Object), typeof(System.Object));
 					r_SetValueInternal_FieldInfo_Object_Object.SetBelong(null);
 				}
 				return r_SetValueInternal_FieldInfo_Object_Object;
@@ -989,7 +989,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 			{
 				if(r_get_metadata_token_RuntimeFieldInfo == null)
 				{
-					r_get_metadata_token_RuntimeFieldInfo = new( ReleactionUtils.GetType("System.Reflection.RuntimeFieldInfo"), "get_metadata_token", 0,  ReleactionUtils.GetType("System.Reflection.RuntimeFieldInfo"));
+					r_get_metadata_token_RuntimeFieldInfo = new( ReflectionUtils.GetType("System.Reflection.RuntimeFieldInfo"), "get_metadata_token", 0,  ReflectionUtils.GetType("System.Reflection.RuntimeFieldInfo"));
 					r_get_metadata_token_RuntimeFieldInfo.SetBelong(null);
 				}
 				return r_get_metadata_token_RuntimeFieldInfo;

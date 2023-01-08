@@ -20,7 +20,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_none == null)
 				{
-					r_none = new( ReleactionUtils.GetType("UnityEngine.UIElements.StyleVariableContext"), "none");
+					r_none = new( ReflectionUtils.GetType("UnityEngine.UIElements.StyleVariableContext"), "none");
 					r_none.SetBelong(null);
 				}
 				return r_none;
@@ -105,7 +105,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_Add_StyleVariable == null)
 				{
-					r_Add_StyleVariable = new(this, "Add", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleVariable"));
+					r_Add_StyleVariable = new(this, "Add", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.StyleVariable"));
 					r_Add_StyleVariable.SetBelong(this.instance);
 				}
 				return r_Add_StyleVariable;
@@ -122,7 +122,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_AddInitialRange_StyleVariableContext == null)
 				{
-					r_AddInitialRange_StyleVariableContext = new(this, "AddInitialRange", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleVariableContext"));
+					r_AddInitialRange_StyleVariableContext = new(this, "AddInitialRange", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.StyleVariableContext"));
 					r_AddInitialRange_StyleVariableContext.SetBelong(this.instance);
 				}
 				return r_AddInitialRange_StyleVariableContext;
@@ -156,7 +156,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_TryFindVariable_String_Out_StyleVariable == null)
 				{
-					r_TryFindVariable_String_Out_StyleVariable = new(this, "TryFindVariable", 0, typeof(System.String),  ReleactionUtils.GetType("UnityEngine.UIElements.StyleVariable").MakeByRefType());
+					r_TryFindVariable_String_Out_StyleVariable = new(this, "TryFindVariable", 0, typeof(System.String),  ReflectionUtils.GetType("UnityEngine.UIElements.StyleVariable").MakeByRefType());
 					r_TryFindVariable_String_Out_StyleVariable.SetBelong(this.instance);
 				}
 				return r_TryFindVariable_String_Out_StyleVariable;

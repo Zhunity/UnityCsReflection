@@ -360,7 +360,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 			{
 				if(r_none == null)
 				{
-					r_none = new( ReleactionUtils.GetType("UnityEngine.GUILayoutGroup"), "none");
+					r_none = new( ReflectionUtils.GetType("UnityEngine.GUILayoutGroup"), "none");
 					r_none.SetBelong(null);
 				}
 				return r_none;
@@ -734,7 +734,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 			{
 				if(r_Add_GUILayoutEntry == null)
 				{
-					r_Add_GUILayoutEntry = new(this, "Add", 0,  ReleactionUtils.GetType("UnityEngine.GUILayoutEntry"));
+					r_Add_GUILayoutEntry = new(this, "Add", 0,  ReflectionUtils.GetType("UnityEngine.GUILayoutEntry"));
 					r_Add_GUILayoutEntry.SetBelong(this.instance);
 				}
 				return r_Add_GUILayoutEntry;

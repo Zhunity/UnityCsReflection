@@ -54,7 +54,7 @@ namespace SMFrame.Editor.Refleaction.RMicrosoft.RWin32.RSafeHandles
 			{
 				if(r_InvalidHandle == null)
 				{
-					r_InvalidHandle = new( ReleactionUtils.GetType("Microsoft.Win32.SafeHandles.SafePasswordHandle"), "InvalidHandle", -1);
+					r_InvalidHandle = new( ReflectionUtils.GetType("Microsoft.Win32.SafeHandles.SafePasswordHandle"), "InvalidHandle", -1);
 					r_InvalidHandle.SetBelong(null);
 				}
 				return r_InvalidHandle;

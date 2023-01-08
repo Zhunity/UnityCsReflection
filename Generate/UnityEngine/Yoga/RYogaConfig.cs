@@ -20,7 +20,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
 			{
 				if(r_Default == null)
 				{
-					r_Default = new( ReleactionUtils.GetType("UnityEngine.Yoga.YogaConfig"), "Default");
+					r_Default = new( ReflectionUtils.GetType("UnityEngine.Yoga.YogaConfig"), "Default");
 					r_Default.SetBelong(null);
 				}
 				return r_Default;
@@ -156,7 +156,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
 			{
 				if(r_SetExperimentalFeatureEnabled_YogaExperimentalFeature_Boolean == null)
 				{
-					r_SetExperimentalFeatureEnabled_YogaExperimentalFeature_Boolean = new(this, "SetExperimentalFeatureEnabled", 0,  ReleactionUtils.GetType("UnityEngine.Yoga.YogaExperimentalFeature"), typeof(System.Boolean));
+					r_SetExperimentalFeatureEnabled_YogaExperimentalFeature_Boolean = new(this, "SetExperimentalFeatureEnabled", 0,  ReflectionUtils.GetType("UnityEngine.Yoga.YogaExperimentalFeature"), typeof(System.Boolean));
 					r_SetExperimentalFeatureEnabled_YogaExperimentalFeature_Boolean.SetBelong(this.instance);
 				}
 				return r_SetExperimentalFeatureEnabled_YogaExperimentalFeature_Boolean;
@@ -173,7 +173,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
 			{
 				if(r_IsExperimentalFeatureEnabled_YogaExperimentalFeature == null)
 				{
-					r_IsExperimentalFeatureEnabled_YogaExperimentalFeature = new(this, "IsExperimentalFeatureEnabled", 0,  ReleactionUtils.GetType("UnityEngine.Yoga.YogaExperimentalFeature"));
+					r_IsExperimentalFeatureEnabled_YogaExperimentalFeature = new(this, "IsExperimentalFeatureEnabled", 0,  ReflectionUtils.GetType("UnityEngine.Yoga.YogaExperimentalFeature"));
 					r_IsExperimentalFeatureEnabled_YogaExperimentalFeature.SetBelong(this.instance);
 				}
 				return r_IsExperimentalFeatureEnabled_YogaExperimentalFeature;
@@ -190,7 +190,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
 			{
 				if(r_GetInstanceCount == null)
 				{
-					r_GetInstanceCount = new( ReleactionUtils.GetType("UnityEngine.Yoga.YogaConfig"), "GetInstanceCount", 0);
+					r_GetInstanceCount = new( ReflectionUtils.GetType("UnityEngine.Yoga.YogaConfig"), "GetInstanceCount", 0);
 					r_GetInstanceCount.SetBelong(null);
 				}
 				return r_GetInstanceCount;
@@ -207,7 +207,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
 			{
 				if(r_SetDefaultLogger_Logger == null)
 				{
-					r_SetDefaultLogger_Logger = new( ReleactionUtils.GetType("UnityEngine.Yoga.YogaConfig"), "SetDefaultLogger", 0,  ReleactionUtils.GetType("UnityEngine.Yoga.Logger"));
+					r_SetDefaultLogger_Logger = new( ReflectionUtils.GetType("UnityEngine.Yoga.YogaConfig"), "SetDefaultLogger", 0,  ReflectionUtils.GetType("UnityEngine.Yoga.Logger"));
 					r_SetDefaultLogger_Logger.SetBelong(null);
 				}
 				return r_SetDefaultLogger_Logger;

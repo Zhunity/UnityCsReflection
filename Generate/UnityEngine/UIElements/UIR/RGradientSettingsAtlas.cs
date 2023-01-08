@@ -20,7 +20,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_s_MarkerWrite == null)
 				{
-					r_s_MarkerWrite = new( ReleactionUtils.GetType("UnityEngine.UIElements.UIR.GradientSettingsAtlas"), "s_MarkerWrite");
+					r_s_MarkerWrite = new( ReflectionUtils.GetType("UnityEngine.UIElements.UIR.GradientSettingsAtlas"), "s_MarkerWrite");
 					r_s_MarkerWrite.SetBelong(null);
 				}
 				return r_s_MarkerWrite;
@@ -37,7 +37,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_s_MarkerCommit == null)
 				{
-					r_s_MarkerCommit = new( ReleactionUtils.GetType("UnityEngine.UIElements.UIR.GradientSettingsAtlas"), "s_MarkerCommit");
+					r_s_MarkerCommit = new( ReflectionUtils.GetType("UnityEngine.UIElements.UIR.GradientSettingsAtlas"), "s_MarkerCommit");
 					r_s_MarkerCommit.SetBelong(null);
 				}
 				return r_s_MarkerCommit;
@@ -139,7 +139,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_s_TextureCounter == null)
 				{
-					r_s_TextureCounter = new( ReleactionUtils.GetType("UnityEngine.UIElements.UIR.GradientSettingsAtlas"), "s_TextureCounter");
+					r_s_TextureCounter = new( ReflectionUtils.GetType("UnityEngine.UIElements.UIR.GradientSettingsAtlas"), "s_TextureCounter");
 					r_s_TextureCounter.SetBelong(null);
 				}
 				return r_s_TextureCounter;
@@ -326,7 +326,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_Remove_Alloc == null)
 				{
-					r_Remove_Alloc = new(this, "Remove", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.UIR.Alloc"));
+					r_Remove_Alloc = new(this, "Remove", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.UIR.Alloc"));
 					r_Remove_Alloc.SetBelong(this.instance);
 				}
 				return r_Remove_Alloc;
@@ -343,7 +343,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_Write_Alloc_GradientSettingsArray_GradientRemap == null)
 				{
-					r_Write_Alloc_GradientSettingsArray_GradientRemap = new(this, "Write", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.UIR.Alloc"),  ReleactionUtils.GetType("UnityEngine.UIElements.GradientSettings").MakeArrayType(),  ReleactionUtils.GetType("UnityEngine.UIElements.UIR.GradientRemap"));
+					r_Write_Alloc_GradientSettingsArray_GradientRemap = new(this, "Write", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.UIR.Alloc"),  ReflectionUtils.GetType("UnityEngine.UIElements.GradientSettings").MakeArrayType(),  ReflectionUtils.GetType("UnityEngine.UIElements.UIR.GradientRemap"));
 					r_Write_Alloc_GradientSettingsArray_GradientRemap.SetBelong(this.instance);
 				}
 				return r_Write_Alloc_GradientSettingsArray_GradientRemap;

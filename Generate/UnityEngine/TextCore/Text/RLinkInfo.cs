@@ -173,7 +173,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 			{
 				if(r_GetLinkText_TextInfo == null)
 				{
-					r_GetLinkText_TextInfo = new(this, "GetLinkText", 0,  ReleactionUtils.GetType("UnityEngine.TextCore.Text.TextInfo"));
+					r_GetLinkText_TextInfo = new(this, "GetLinkText", 0,  ReflectionUtils.GetType("UnityEngine.TextCore.Text.TextInfo"));
 					r_GetLinkText_TextInfo.SetBelong(this.instance);
 				}
 				return r_GetLinkText_TextInfo;

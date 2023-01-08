@@ -1057,7 +1057,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 			{
 				if(r_CallReflectionProbeEvent_ReflectionProbe_ReflectionProbeEvent == null)
 				{
-					r_CallReflectionProbeEvent_ReflectionProbe_ReflectionProbeEvent = new(typeof(UnityEngine.ReflectionProbe), "CallReflectionProbeEvent", 0, typeof(UnityEngine.ReflectionProbe),  ReleactionUtils.GetType("UnityEngine.ReflectionProbe+ReflectionProbeEvent"));
+					r_CallReflectionProbeEvent_ReflectionProbe_ReflectionProbeEvent = new(typeof(UnityEngine.ReflectionProbe), "CallReflectionProbeEvent", 0, typeof(UnityEngine.ReflectionProbe),  ReflectionUtils.GetType("UnityEngine.ReflectionProbe+ReflectionProbeEvent"));
 					r_CallReflectionProbeEvent_ReflectionProbe_ReflectionProbeEvent.SetBelong(null);
 				}
 				return r_CallReflectionProbeEvent_ReflectionProbe_ReflectionProbeEvent;

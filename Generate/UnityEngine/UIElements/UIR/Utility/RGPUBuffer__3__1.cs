@@ -141,7 +141,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_UpdateRanges_NativeSlice_d_GfxUpdateBufferRange_p__Int32_Int32 == null)
 				{
-					r_UpdateRanges_NativeSlice_d_GfxUpdateBufferRange_p__Int32_Int32 = new(this, "UpdateRanges", 0, typeof(Unity.Collections.NativeSlice<>).MakeGenericType( ReleactionUtils.GetType("UnityEngine.UIElements.UIR.GfxUpdateBufferRange")), typeof(System.Int32), typeof(System.Int32));
+					r_UpdateRanges_NativeSlice_d_GfxUpdateBufferRange_p__Int32_Int32 = new(this, "UpdateRanges", 0, typeof(Unity.Collections.NativeSlice<>).MakeGenericType( ReflectionUtils.GetType("UnityEngine.UIElements.UIR.GfxUpdateBufferRange")), typeof(System.Int32), typeof(System.Int32));
 					r_UpdateRanges_NativeSlice_d_GfxUpdateBufferRange_p__Int32_Int32.SetBelong(this.instance);
 				}
 				return r_UpdateRanges_NativeSlice_d_GfxUpdateBufferRange_p__Int32_Int32;

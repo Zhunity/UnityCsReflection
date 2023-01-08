@@ -20,7 +20,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 			{
 				if(r_positionChanged == null)
 				{
-					r_positionChanged = new( ReleactionUtils.GetType("UnityEditor.GUIView"), "positionChanged");
+					r_positionChanged = new( ReflectionUtils.GetType("UnityEditor.GUIView"), "positionChanged");
 					r_positionChanged.SetBelong(null);
 				}
 				return r_positionChanged;
@@ -156,7 +156,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 			{
 				if(r_current == null)
 				{
-					r_current = new( ReleactionUtils.GetType("UnityEditor.GUIView"), "current", -1);
+					r_current = new( ReflectionUtils.GetType("UnityEditor.GUIView"), "current", -1);
 					r_current.SetBelong(null);
 				}
 				return r_current;
@@ -173,7 +173,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 			{
 				if(r_focusedView == null)
 				{
-					r_focusedView = new( ReleactionUtils.GetType("UnityEditor.GUIView"), "focusedView", -1);
+					r_focusedView = new( ReflectionUtils.GetType("UnityEditor.GUIView"), "focusedView", -1);
 					r_focusedView.SetBelong(null);
 				}
 				return r_focusedView;
@@ -190,7 +190,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 			{
 				if(r_mouseOverView == null)
 				{
-					r_mouseOverView = new( ReleactionUtils.GetType("UnityEditor.GUIView"), "mouseOverView", -1);
+					r_mouseOverView = new( ReflectionUtils.GetType("UnityEditor.GUIView"), "mouseOverView", -1);
 					r_mouseOverView.SetBelong(null);
 				}
 				return r_mouseOverView;
@@ -1363,7 +1363,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 			{
 				if(r_SetWindow_ContainerWindow == null)
 				{
-					r_SetWindow_ContainerWindow = new(this, "SetWindow", 0,  ReleactionUtils.GetType("UnityEditor.ContainerWindow"));
+					r_SetWindow_ContainerWindow = new(this, "SetWindow", 0,  ReflectionUtils.GetType("UnityEditor.ContainerWindow"));
 					r_SetWindow_ContainerWindow.SetBelong(this.instance);
 				}
 				return r_SetWindow_ContainerWindow;
@@ -1584,7 +1584,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 			{
 				if(r_GetTypeNameOfMostSpecificActiveView == null)
 				{
-					r_GetTypeNameOfMostSpecificActiveView = new( ReleactionUtils.GetType("UnityEditor.GUIView"), "GetTypeNameOfMostSpecificActiveView", 0);
+					r_GetTypeNameOfMostSpecificActiveView = new( ReflectionUtils.GetType("UnityEditor.GUIView"), "GetTypeNameOfMostSpecificActiveView", 0);
 					r_GetTypeNameOfMostSpecificActiveView.SetBelong(null);
 				}
 				return r_GetTypeNameOfMostSpecificActiveView;
@@ -1601,7 +1601,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 			{
 				if(r_BeginOffsetArea_Rect_GUIContent_GUIStyle == null)
 				{
-					r_BeginOffsetArea_Rect_GUIContent_GUIStyle = new( ReleactionUtils.GetType("UnityEditor.GUIView"), "BeginOffsetArea", 0, typeof(UnityEngine.Rect), typeof(UnityEngine.GUIContent), typeof(UnityEngine.GUIStyle));
+					r_BeginOffsetArea_Rect_GUIContent_GUIStyle = new( ReflectionUtils.GetType("UnityEditor.GUIView"), "BeginOffsetArea", 0, typeof(UnityEngine.Rect), typeof(UnityEngine.GUIContent), typeof(UnityEngine.GUIStyle));
 					r_BeginOffsetArea_Rect_GUIContent_GUIStyle.SetBelong(null);
 				}
 				return r_BeginOffsetArea_Rect_GUIContent_GUIStyle;
@@ -1618,7 +1618,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 			{
 				if(r_EndOffsetArea == null)
 				{
-					r_EndOffsetArea = new( ReleactionUtils.GetType("UnityEditor.GUIView"), "EndOffsetArea", 0);
+					r_EndOffsetArea = new( ReflectionUtils.GetType("UnityEditor.GUIView"), "EndOffsetArea", 0);
 					r_EndOffsetArea.SetBelong(null);
 				}
 				return r_EndOffsetArea;
@@ -1805,7 +1805,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 			{
 				if(r_Initialize_ContainerWindow == null)
 				{
-					r_Initialize_ContainerWindow = new(this, "Initialize", 0,  ReleactionUtils.GetType("UnityEditor.ContainerWindow"));
+					r_Initialize_ContainerWindow = new(this, "Initialize", 0,  ReflectionUtils.GetType("UnityEditor.ContainerWindow"));
 					r_Initialize_ContainerWindow.SetBelong(this.instance);
 				}
 				return r_Initialize_ContainerWindow;
@@ -1873,7 +1873,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 			{
 				if(r_IndexOfChild_View == null)
 				{
-					r_IndexOfChild_View = new(this, "IndexOfChild", 0,  ReleactionUtils.GetType("UnityEditor.View"));
+					r_IndexOfChild_View = new(this, "IndexOfChild", 0,  ReflectionUtils.GetType("UnityEditor.View"));
 					r_IndexOfChild_View.SetBelong(this.instance);
 				}
 				return r_IndexOfChild_View;
@@ -1890,7 +1890,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 			{
 				if(r_AddChild_View == null)
 				{
-					r_AddChild_View = new(this, "AddChild", 0,  ReleactionUtils.GetType("UnityEditor.View"));
+					r_AddChild_View = new(this, "AddChild", 0,  ReflectionUtils.GetType("UnityEditor.View"));
 					r_AddChild_View.SetBelong(this.instance);
 				}
 				return r_AddChild_View;
@@ -1907,7 +1907,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 			{
 				if(r_AddChild_View_Int32 == null)
 				{
-					r_AddChild_View_Int32 = new(this, "AddChild", 0,  ReleactionUtils.GetType("UnityEditor.View"), typeof(System.Int32));
+					r_AddChild_View_Int32 = new(this, "AddChild", 0,  ReflectionUtils.GetType("UnityEditor.View"), typeof(System.Int32));
 					r_AddChild_View_Int32.SetBelong(this.instance);
 				}
 				return r_AddChild_View_Int32;
@@ -1924,7 +1924,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 			{
 				if(r_RemoveChild_View == null)
 				{
-					r_RemoveChild_View = new(this, "RemoveChild", 0,  ReleactionUtils.GetType("UnityEditor.View"));
+					r_RemoveChild_View = new(this, "RemoveChild", 0,  ReflectionUtils.GetType("UnityEditor.View"));
 					r_RemoveChild_View.SetBelong(this.instance);
 				}
 				return r_RemoveChild_View;
@@ -1958,7 +1958,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 			{
 				if(r_SetWindowRecurse_ContainerWindow == null)
 				{
-					r_SetWindowRecurse_ContainerWindow = new(this, "SetWindowRecurse", 0,  ReleactionUtils.GetType("UnityEditor.ContainerWindow"));
+					r_SetWindowRecurse_ContainerWindow = new(this, "SetWindowRecurse", 0,  ReflectionUtils.GetType("UnityEditor.ContainerWindow"));
 					r_SetWindowRecurse_ContainerWindow.SetBelong(this.instance);
 				}
 				return r_SetWindowRecurse_ContainerWindow;

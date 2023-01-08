@@ -22,7 +22,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RCompilerServices
 			{
 				if(r_s_waitCallbackRunAction == null)
 				{
-					r_s_waitCallbackRunAction = new( ReleactionUtils.GetType("System.Runtime.CompilerServices.YieldAwaitable+YieldAwaiter"), "s_waitCallbackRunAction");
+					r_s_waitCallbackRunAction = new( ReflectionUtils.GetType("System.Runtime.CompilerServices.YieldAwaitable+YieldAwaiter"), "s_waitCallbackRunAction");
 					r_s_waitCallbackRunAction.SetBelong(null);
 				}
 				return r_s_waitCallbackRunAction;
@@ -39,7 +39,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RCompilerServices
 			{
 				if(r_s_sendOrPostCallbackRunAction == null)
 				{
-					r_s_sendOrPostCallbackRunAction = new( ReleactionUtils.GetType("System.Runtime.CompilerServices.YieldAwaitable+YieldAwaiter"), "s_sendOrPostCallbackRunAction");
+					r_s_sendOrPostCallbackRunAction = new( ReflectionUtils.GetType("System.Runtime.CompilerServices.YieldAwaitable+YieldAwaiter"), "s_sendOrPostCallbackRunAction");
 					r_s_sendOrPostCallbackRunAction.SetBelong(null);
 				}
 				return r_s_sendOrPostCallbackRunAction;
@@ -107,7 +107,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RCompilerServices
 			{
 				if(r_QueueContinuation_Action_Boolean == null)
 				{
-					r_QueueContinuation_Action_Boolean = new( ReleactionUtils.GetType("System.Runtime.CompilerServices.YieldAwaitable+YieldAwaiter"), "QueueContinuation", 0, typeof(System.Action), typeof(System.Boolean));
+					r_QueueContinuation_Action_Boolean = new( ReflectionUtils.GetType("System.Runtime.CompilerServices.YieldAwaitable+YieldAwaiter"), "QueueContinuation", 0, typeof(System.Action), typeof(System.Boolean));
 					r_QueueContinuation_Action_Boolean.SetBelong(null);
 				}
 				return r_QueueContinuation_Action_Boolean;
@@ -124,7 +124,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RCompilerServices
 			{
 				if(r_RunAction_Object == null)
 				{
-					r_RunAction_Object = new( ReleactionUtils.GetType("System.Runtime.CompilerServices.YieldAwaitable+YieldAwaiter"), "RunAction", 0, typeof(System.Object));
+					r_RunAction_Object = new( ReflectionUtils.GetType("System.Runtime.CompilerServices.YieldAwaitable+YieldAwaiter"), "RunAction", 0, typeof(System.Object));
 					r_RunAction_Object.SetBelong(null);
 				}
 				return r_RunAction_Object;

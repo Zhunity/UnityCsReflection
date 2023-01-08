@@ -20,7 +20,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 			{
 				if(r_Specials == null)
 				{
-					r_Specials = new( ReleactionUtils.GetType("System.Text.RegularExpressions.RegexReplacement"), "Specials");
+					r_Specials = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexReplacement"), "Specials");
 					r_Specials.SetBelong(null);
 				}
 				return r_Specials;
@@ -37,7 +37,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 			{
 				if(r_LeftPortion == null)
 				{
-					r_LeftPortion = new( ReleactionUtils.GetType("System.Text.RegularExpressions.RegexReplacement"), "LeftPortion");
+					r_LeftPortion = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexReplacement"), "LeftPortion");
 					r_LeftPortion.SetBelong(null);
 				}
 				return r_LeftPortion;
@@ -54,7 +54,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 			{
 				if(r_RightPortion == null)
 				{
-					r_RightPortion = new( ReleactionUtils.GetType("System.Text.RegularExpressions.RegexReplacement"), "RightPortion");
+					r_RightPortion = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexReplacement"), "RightPortion");
 					r_RightPortion.SetBelong(null);
 				}
 				return r_RightPortion;
@@ -71,7 +71,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 			{
 				if(r_LastGroup == null)
 				{
-					r_LastGroup = new( ReleactionUtils.GetType("System.Text.RegularExpressions.RegexReplacement"), "LastGroup");
+					r_LastGroup = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexReplacement"), "LastGroup");
 					r_LastGroup.SetBelong(null);
 				}
 				return r_LastGroup;
@@ -88,7 +88,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 			{
 				if(r_WholeString == null)
 				{
-					r_WholeString = new( ReleactionUtils.GetType("System.Text.RegularExpressions.RegexReplacement"), "WholeString");
+					r_WholeString = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexReplacement"), "WholeString");
 					r_WholeString.SetBelong(null);
 				}
 				return r_WholeString;
@@ -173,7 +173,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 			{
 				if(r_GetOrCreate_WeakReference_d_RegexReplacement_p__String_Hashtable_Int32_Hashtable_RegexOptions == null)
 				{
-					r_GetOrCreate_WeakReference_d_RegexReplacement_p__String_Hashtable_Int32_Hashtable_RegexOptions = new( ReleactionUtils.GetType("System.Text.RegularExpressions.RegexReplacement"), "GetOrCreate", 0, typeof(System.WeakReference<>).MakeGenericType( ReleactionUtils.GetType("System.Text.RegularExpressions.RegexReplacement")), typeof(System.String), typeof(System.Collections.Hashtable), typeof(System.Int32), typeof(System.Collections.Hashtable), typeof(System.Text.RegularExpressions.RegexOptions));
+					r_GetOrCreate_WeakReference_d_RegexReplacement_p__String_Hashtable_Int32_Hashtable_RegexOptions = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexReplacement"), "GetOrCreate", 0, typeof(System.WeakReference<>).MakeGenericType( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexReplacement")), typeof(System.String), typeof(System.Collections.Hashtable), typeof(System.Int32), typeof(System.Collections.Hashtable), typeof(System.Text.RegularExpressions.RegexOptions));
 					r_GetOrCreate_WeakReference_d_RegexReplacement_p__String_Hashtable_Int32_Hashtable_RegexOptions.SetBelong(null);
 				}
 				return r_GetOrCreate_WeakReference_d_RegexReplacement_p__String_Hashtable_Int32_Hashtable_RegexOptions;

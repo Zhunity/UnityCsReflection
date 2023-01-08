@@ -71,7 +71,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_AppendTo_Ref_BasicNode_d_T_p_ == null)
 				{
-					r_AppendTo_Ref_BasicNode_d_T_p_ = new(this, "AppendTo", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.UIR.BasicNode`1").MakeByRefType());
+					r_AppendTo_Ref_BasicNode_d_T_p_ = new(this, "AppendTo", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.UIR.BasicNode`1").MakeByRefType());
 					r_AppendTo_Ref_BasicNode_d_T_p_.SetBelong(this.instance);
 				}
 				return r_AppendTo_Ref_BasicNode_d_T_p_;

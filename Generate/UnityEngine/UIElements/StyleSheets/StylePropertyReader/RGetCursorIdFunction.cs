@@ -73,7 +73,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 			{
 				if(r_Invoke_StyleSheet_StyleValueHandle == null)
 				{
-					r_Invoke_StyleSheet_StyleValueHandle = new(this, "Invoke", 0, typeof(UnityEngine.UIElements.StyleSheet),  ReleactionUtils.GetType("UnityEngine.UIElements.StyleValueHandle"));
+					r_Invoke_StyleSheet_StyleValueHandle = new(this, "Invoke", 0, typeof(UnityEngine.UIElements.StyleSheet),  ReflectionUtils.GetType("UnityEngine.UIElements.StyleValueHandle"));
 					r_Invoke_StyleSheet_StyleValueHandle.SetBelong(this.instance);
 				}
 				return r_Invoke_StyleSheet_StyleValueHandle;
@@ -90,7 +90,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 			{
 				if(r_BeginInvoke_StyleSheet_StyleValueHandle_AsyncCallback_Object == null)
 				{
-					r_BeginInvoke_StyleSheet_StyleValueHandle_AsyncCallback_Object = new(this, "BeginInvoke", 0, typeof(UnityEngine.UIElements.StyleSheet),  ReleactionUtils.GetType("UnityEngine.UIElements.StyleValueHandle"), typeof(System.AsyncCallback), typeof(System.Object));
+					r_BeginInvoke_StyleSheet_StyleValueHandle_AsyncCallback_Object = new(this, "BeginInvoke", 0, typeof(UnityEngine.UIElements.StyleSheet),  ReflectionUtils.GetType("UnityEngine.UIElements.StyleValueHandle"), typeof(System.AsyncCallback), typeof(System.Object));
 					r_BeginInvoke_StyleSheet_StyleValueHandle_AsyncCallback_Object.SetBelong(this.instance);
 				}
 				return r_BeginInvoke_StyleSheet_StyleValueHandle_AsyncCallback_Object;

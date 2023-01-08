@@ -173,7 +173,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 			{
 				if(r_kDummyRect == null)
 				{
-					r_kDummyRect = new( ReleactionUtils.GetType("UnityEngine.GUILayoutEntry"), "kDummyRect");
+					r_kDummyRect = new( ReflectionUtils.GetType("UnityEngine.GUILayoutEntry"), "kDummyRect");
 					r_kDummyRect.SetBelong(null);
 				}
 				return r_kDummyRect;
@@ -190,7 +190,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 			{
 				if(r_indent == null)
 				{
-					r_indent = new( ReleactionUtils.GetType("UnityEngine.GUILayoutEntry"), "indent");
+					r_indent = new( ReflectionUtils.GetType("UnityEngine.GUILayoutEntry"), "indent");
 					r_indent.SetBelong(null);
 				}
 				return r_indent;

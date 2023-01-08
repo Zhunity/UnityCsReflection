@@ -105,7 +105,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 			{
 				if(r_InternalMakeTypedReference_VoidPointer_Object_IntPtrArray_RuntimeType == null)
 				{
-					r_InternalMakeTypedReference_VoidPointer_Object_IntPtrArray_RuntimeType = new(typeof(System.TypedReference), "InternalMakeTypedReference", 0, typeof(void).MakePointerType(), typeof(System.Object), typeof(System.IntPtr).MakeArrayType(),  ReleactionUtils.GetType("System.RuntimeType"));
+					r_InternalMakeTypedReference_VoidPointer_Object_IntPtrArray_RuntimeType = new(typeof(System.TypedReference), "InternalMakeTypedReference", 0, typeof(void).MakePointerType(), typeof(System.Object), typeof(System.IntPtr).MakeArrayType(),  ReflectionUtils.GetType("System.RuntimeType"));
 					r_InternalMakeTypedReference_VoidPointer_Object_IntPtrArray_RuntimeType.SetBelong(null);
 				}
 				return r_InternalMakeTypedReference_VoidPointer_Object_IntPtrArray_RuntimeType;

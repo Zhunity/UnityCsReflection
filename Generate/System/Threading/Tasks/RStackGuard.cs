@@ -37,7 +37,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 			{
 				if(r_MAX_UNCHECKED_INLINING_DEPTH == null)
 				{
-					r_MAX_UNCHECKED_INLINING_DEPTH = new( ReleactionUtils.GetType("System.Threading.Tasks.StackGuard"), "MAX_UNCHECKED_INLINING_DEPTH");
+					r_MAX_UNCHECKED_INLINING_DEPTH = new( ReflectionUtils.GetType("System.Threading.Tasks.StackGuard"), "MAX_UNCHECKED_INLINING_DEPTH");
 					r_MAX_UNCHECKED_INLINING_DEPTH.SetBelong(null);
 				}
 				return r_MAX_UNCHECKED_INLINING_DEPTH;

@@ -377,7 +377,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 			{
 				if(r_get_property_info_RuntimePropertyInfo_Ref_MonoPropertyInfo_PInfo == null)
 				{
-					r_get_property_info_RuntimePropertyInfo_Ref_MonoPropertyInfo_PInfo = new( ReleactionUtils.GetType("System.Reflection.RuntimePropertyInfo"), "get_property_info", 0,  ReleactionUtils.GetType("System.Reflection.RuntimePropertyInfo"),  ReleactionUtils.GetType("System.Reflection.MonoPropertyInfo").MakeByRefType(),  ReleactionUtils.GetType("System.Reflection.PInfo"));
+					r_get_property_info_RuntimePropertyInfo_Ref_MonoPropertyInfo_PInfo = new( ReflectionUtils.GetType("System.Reflection.RuntimePropertyInfo"), "get_property_info", 0,  ReflectionUtils.GetType("System.Reflection.RuntimePropertyInfo"),  ReflectionUtils.GetType("System.Reflection.MonoPropertyInfo").MakeByRefType(),  ReflectionUtils.GetType("System.Reflection.PInfo"));
 					r_get_property_info_RuntimePropertyInfo_Ref_MonoPropertyInfo_PInfo.SetBelong(null);
 				}
 				return r_get_property_info_RuntimePropertyInfo_Ref_MonoPropertyInfo_PInfo;
@@ -394,7 +394,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 			{
 				if(r_GetTypeModifiers_RuntimePropertyInfo_Boolean == null)
 				{
-					r_GetTypeModifiers_RuntimePropertyInfo_Boolean = new( ReleactionUtils.GetType("System.Reflection.RuntimePropertyInfo"), "GetTypeModifiers", 0,  ReleactionUtils.GetType("System.Reflection.RuntimePropertyInfo"), typeof(System.Boolean));
+					r_GetTypeModifiers_RuntimePropertyInfo_Boolean = new( ReflectionUtils.GetType("System.Reflection.RuntimePropertyInfo"), "GetTypeModifiers", 0,  ReflectionUtils.GetType("System.Reflection.RuntimePropertyInfo"), typeof(System.Boolean));
 					r_GetTypeModifiers_RuntimePropertyInfo_Boolean.SetBelong(null);
 				}
 				return r_GetTypeModifiers_RuntimePropertyInfo_Boolean;
@@ -411,7 +411,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 			{
 				if(r_get_default_value_RuntimePropertyInfo == null)
 				{
-					r_get_default_value_RuntimePropertyInfo = new( ReleactionUtils.GetType("System.Reflection.RuntimePropertyInfo"), "get_default_value", 0,  ReleactionUtils.GetType("System.Reflection.RuntimePropertyInfo"));
+					r_get_default_value_RuntimePropertyInfo = new( ReflectionUtils.GetType("System.Reflection.RuntimePropertyInfo"), "get_default_value", 0,  ReflectionUtils.GetType("System.Reflection.RuntimePropertyInfo"));
 					r_get_default_value_RuntimePropertyInfo.SetBelong(null);
 				}
 				return r_get_default_value_RuntimePropertyInfo;
@@ -530,7 +530,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 			{
 				if(r_CachePropertyInfo_PInfo == null)
 				{
-					r_CachePropertyInfo_PInfo = new(this, "CachePropertyInfo", 0,  ReleactionUtils.GetType("System.Reflection.PInfo"));
+					r_CachePropertyInfo_PInfo = new(this, "CachePropertyInfo", 0,  ReflectionUtils.GetType("System.Reflection.PInfo"));
 					r_CachePropertyInfo_PInfo.SetBelong(this.instance);
 				}
 				return r_CachePropertyInfo_PInfo;
@@ -700,7 +700,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 			{
 				if(r_GetterAdapterFrame_GT_GR_Getter_d_T_R_p__Object == null)
 				{
-					r_GetterAdapterFrame_GT_GR_Getter_d_T_R_p__Object = new( ReleactionUtils.GetType("System.Reflection.RuntimePropertyInfo"), "GetterAdapterFrame", 2,  ReleactionUtils.GetType("System.Reflection.RuntimePropertyInfo+Getter`2").MakeGenericType(Type.MakeGenericMethodParameter(0), Type.MakeGenericMethodParameter(1)), typeof(System.Object));
+					r_GetterAdapterFrame_GT_GR_Getter_d_T_R_p__Object = new( ReflectionUtils.GetType("System.Reflection.RuntimePropertyInfo"), "GetterAdapterFrame", 2,  ReflectionUtils.GetType("System.Reflection.RuntimePropertyInfo+Getter`2").MakeGenericType(Type.MakeGenericMethodParameter(0), Type.MakeGenericMethodParameter(1)), typeof(System.Object));
 					r_GetterAdapterFrame_GT_GR_Getter_d_T_R_p__Object.SetBelong(null);
 				}
 				return r_GetterAdapterFrame_GT_GR_Getter_d_T_R_p__Object;
@@ -717,7 +717,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 			{
 				if(r_StaticGetterAdapterFrame_GR_StaticGetter_d_R_p__Object == null)
 				{
-					r_StaticGetterAdapterFrame_GR_StaticGetter_d_R_p__Object = new( ReleactionUtils.GetType("System.Reflection.RuntimePropertyInfo"), "StaticGetterAdapterFrame", 1,  ReleactionUtils.GetType("System.Reflection.RuntimePropertyInfo+StaticGetter`1").MakeGenericType(Type.MakeGenericMethodParameter(0)), typeof(System.Object));
+					r_StaticGetterAdapterFrame_GR_StaticGetter_d_R_p__Object = new( ReflectionUtils.GetType("System.Reflection.RuntimePropertyInfo"), "StaticGetterAdapterFrame", 1,  ReflectionUtils.GetType("System.Reflection.RuntimePropertyInfo+StaticGetter`1").MakeGenericType(Type.MakeGenericMethodParameter(0)), typeof(System.Object));
 					r_StaticGetterAdapterFrame_GR_StaticGetter_d_R_p__Object.SetBelong(null);
 				}
 				return r_StaticGetterAdapterFrame_GR_StaticGetter_d_R_p__Object;
@@ -734,7 +734,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 			{
 				if(r_CreateGetterDelegate_MethodInfo == null)
 				{
-					r_CreateGetterDelegate_MethodInfo = new( ReleactionUtils.GetType("System.Reflection.RuntimePropertyInfo"), "CreateGetterDelegate", 0, typeof(System.Reflection.MethodInfo));
+					r_CreateGetterDelegate_MethodInfo = new( ReflectionUtils.GetType("System.Reflection.RuntimePropertyInfo"), "CreateGetterDelegate", 0, typeof(System.Reflection.MethodInfo));
 					r_CreateGetterDelegate_MethodInfo.SetBelong(null);
 				}
 				return r_CreateGetterDelegate_MethodInfo;
@@ -887,7 +887,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 			{
 				if(r_get_metadata_token_RuntimePropertyInfo == null)
 				{
-					r_get_metadata_token_RuntimePropertyInfo = new( ReleactionUtils.GetType("System.Reflection.RuntimePropertyInfo"), "get_metadata_token", 0,  ReleactionUtils.GetType("System.Reflection.RuntimePropertyInfo"));
+					r_get_metadata_token_RuntimePropertyInfo = new( ReflectionUtils.GetType("System.Reflection.RuntimePropertyInfo"), "get_metadata_token", 0,  ReflectionUtils.GetType("System.Reflection.RuntimePropertyInfo"));
 					r_get_metadata_token_RuntimePropertyInfo.SetBelong(null);
 				}
 				return r_get_metadata_token_RuntimePropertyInfo;
@@ -904,7 +904,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 			{
 				if(r_internal_from_handle_type_IntPtr_IntPtr == null)
 				{
-					r_internal_from_handle_type_IntPtr_IntPtr = new( ReleactionUtils.GetType("System.Reflection.RuntimePropertyInfo"), "internal_from_handle_type", 0, typeof(System.IntPtr), typeof(System.IntPtr));
+					r_internal_from_handle_type_IntPtr_IntPtr = new( ReflectionUtils.GetType("System.Reflection.RuntimePropertyInfo"), "internal_from_handle_type", 0, typeof(System.IntPtr), typeof(System.IntPtr));
 					r_internal_from_handle_type_IntPtr_IntPtr.SetBelong(null);
 				}
 				return r_internal_from_handle_type_IntPtr_IntPtr;
@@ -921,7 +921,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 			{
 				if(r_GetPropertyFromHandle_RuntimePropertyHandle_RuntimeTypeHandle == null)
 				{
-					r_GetPropertyFromHandle_RuntimePropertyHandle_RuntimeTypeHandle = new( ReleactionUtils.GetType("System.Reflection.RuntimePropertyInfo"), "GetPropertyFromHandle", 0,  ReleactionUtils.GetType("Mono.RuntimePropertyHandle"), typeof(System.RuntimeTypeHandle));
+					r_GetPropertyFromHandle_RuntimePropertyHandle_RuntimeTypeHandle = new( ReflectionUtils.GetType("System.Reflection.RuntimePropertyInfo"), "GetPropertyFromHandle", 0,  ReflectionUtils.GetType("Mono.RuntimePropertyHandle"), typeof(System.RuntimeTypeHandle));
 					r_GetPropertyFromHandle_RuntimePropertyHandle_RuntimeTypeHandle.SetBelong(null);
 				}
 				return r_GetPropertyFromHandle_RuntimePropertyHandle_RuntimeTypeHandle;

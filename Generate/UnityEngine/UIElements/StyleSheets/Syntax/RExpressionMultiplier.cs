@@ -20,7 +20,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RSynt
 			{
 				if(r_Infinity == null)
 				{
-					r_Infinity = new( ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.Syntax.ExpressionMultiplier"), "Infinity");
+					r_Infinity = new( ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.Syntax.ExpressionMultiplier"), "Infinity");
 					r_Infinity.SetBelong(null);
 				}
 				return r_Infinity;
@@ -105,7 +105,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RSynt
 			{
 				if(r_SetType_ExpressionMultiplierType == null)
 				{
-					r_SetType_ExpressionMultiplierType = new(this, "SetType", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.Syntax.ExpressionMultiplierType"));
+					r_SetType_ExpressionMultiplierType = new(this, "SetType", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.Syntax.ExpressionMultiplierType"));
 					r_SetType_ExpressionMultiplierType.SetBelong(this.instance);
 				}
 				return r_SetType_ExpressionMultiplierType;

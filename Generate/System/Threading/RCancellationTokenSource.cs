@@ -649,7 +649,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_CancellationCallbackCoreWork_CancellationCallbackCoreWorkArguments == null)
 				{
-					r_CancellationCallbackCoreWork_CancellationCallbackCoreWorkArguments = new(this, "CancellationCallbackCoreWork", 0,  ReleactionUtils.GetType("System.Threading.CancellationCallbackCoreWorkArguments"));
+					r_CancellationCallbackCoreWork_CancellationCallbackCoreWorkArguments = new(this, "CancellationCallbackCoreWork", 0,  ReflectionUtils.GetType("System.Threading.CancellationCallbackCoreWorkArguments"));
 					r_CancellationCallbackCoreWork_CancellationCallbackCoreWorkArguments.SetBelong(this.instance);
 				}
 				return r_CancellationCallbackCoreWork_CancellationCallbackCoreWorkArguments;
@@ -717,7 +717,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_WaitForCallbackToComplete_CancellationCallbackInfo == null)
 				{
-					r_WaitForCallbackToComplete_CancellationCallbackInfo = new(this, "WaitForCallbackToComplete", 0,  ReleactionUtils.GetType("System.Threading.CancellationCallbackInfo"));
+					r_WaitForCallbackToComplete_CancellationCallbackInfo = new(this, "WaitForCallbackToComplete", 0,  ReflectionUtils.GetType("System.Threading.CancellationCallbackInfo"));
 					r_WaitForCallbackToComplete_CancellationCallbackInfo.SetBelong(this.instance);
 				}
 				return r_WaitForCallbackToComplete_CancellationCallbackInfo;

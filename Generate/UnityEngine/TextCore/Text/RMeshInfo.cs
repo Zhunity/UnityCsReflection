@@ -20,7 +20,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 			{
 				if(r_k_DefaultColor == null)
 				{
-					r_k_DefaultColor = new( ReleactionUtils.GetType("UnityEngine.TextCore.Text.MeshInfo"), "k_DefaultColor");
+					r_k_DefaultColor = new( ReflectionUtils.GetType("UnityEngine.TextCore.Text.MeshInfo"), "k_DefaultColor");
 					r_k_DefaultColor.SetBelong(null);
 				}
 				return r_k_DefaultColor;
@@ -37,7 +37,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 			{
 				if(r_k_DefaultNormal == null)
 				{
-					r_k_DefaultNormal = new( ReleactionUtils.GetType("UnityEngine.TextCore.Text.MeshInfo"), "k_DefaultNormal");
+					r_k_DefaultNormal = new( ReflectionUtils.GetType("UnityEngine.TextCore.Text.MeshInfo"), "k_DefaultNormal");
 					r_k_DefaultNormal.SetBelong(null);
 				}
 				return r_k_DefaultNormal;
@@ -54,7 +54,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 			{
 				if(r_k_DefaultTangent == null)
 				{
-					r_k_DefaultTangent = new( ReleactionUtils.GetType("UnityEngine.TextCore.Text.MeshInfo"), "k_DefaultTangent");
+					r_k_DefaultTangent = new( ReflectionUtils.GetType("UnityEngine.TextCore.Text.MeshInfo"), "k_DefaultTangent");
 					r_k_DefaultTangent.SetBelong(null);
 				}
 				return r_k_DefaultTangent;
@@ -71,7 +71,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 			{
 				if(r_k_DefaultBounds == null)
 				{
-					r_k_DefaultBounds = new( ReleactionUtils.GetType("UnityEngine.TextCore.Text.MeshInfo"), "k_DefaultBounds");
+					r_k_DefaultBounds = new( ReflectionUtils.GetType("UnityEngine.TextCore.Text.MeshInfo"), "k_DefaultBounds");
 					r_k_DefaultBounds.SetBelong(null);
 				}
 				return r_k_DefaultBounds;
@@ -343,7 +343,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 			{
 				if(r_SortGeometry_VertexSortingOrder == null)
 				{
-					r_SortGeometry_VertexSortingOrder = new(this, "SortGeometry", 0,  ReleactionUtils.GetType("UnityEngine.TextCore.Text.VertexSortingOrder"));
+					r_SortGeometry_VertexSortingOrder = new(this, "SortGeometry", 0,  ReflectionUtils.GetType("UnityEngine.TextCore.Text.VertexSortingOrder"));
 					r_SortGeometry_VertexSortingOrder.SetBelong(this.instance);
 				}
 				return r_SortGeometry_VertexSortingOrder;

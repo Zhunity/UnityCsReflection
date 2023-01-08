@@ -122,7 +122,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditorInternal
 			{
 				if(r_s_ToolTipRect == null)
 				{
-					r_s_ToolTipRect = new( ReleactionUtils.GetType("UnityEditorInternal.ReorderableListWrapper"), "s_ToolTipRect");
+					r_s_ToolTipRect = new( ReflectionUtils.GetType("UnityEditorInternal.ReorderableListWrapper"), "s_ToolTipRect");
 					r_s_ToolTipRect.SetBelong(null);
 				}
 				return r_s_ToolTipRect;
@@ -173,7 +173,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditorInternal
 			{
 				if(r_GetPropertyIdentifier_SerializedProperty == null)
 				{
-					r_GetPropertyIdentifier_SerializedProperty = new( ReleactionUtils.GetType("UnityEditorInternal.ReorderableListWrapper"), "GetPropertyIdentifier", 0, typeof(UnityEditor.SerializedProperty));
+					r_GetPropertyIdentifier_SerializedProperty = new( ReflectionUtils.GetType("UnityEditorInternal.ReorderableListWrapper"), "GetPropertyIdentifier", 0, typeof(UnityEditor.SerializedProperty));
 					r_GetPropertyIdentifier_SerializedProperty.SetBelong(null);
 				}
 				return r_GetPropertyIdentifier_SerializedProperty;

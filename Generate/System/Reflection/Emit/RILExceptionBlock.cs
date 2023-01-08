@@ -20,7 +20,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 			{
 				if(r_CATCH == null)
 				{
-					r_CATCH = new( ReleactionUtils.GetType("System.Reflection.Emit.ILExceptionBlock"), "CATCH");
+					r_CATCH = new( ReflectionUtils.GetType("System.Reflection.Emit.ILExceptionBlock"), "CATCH");
 					r_CATCH.SetBelong(null);
 				}
 				return r_CATCH;
@@ -37,7 +37,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 			{
 				if(r_FILTER == null)
 				{
-					r_FILTER = new( ReleactionUtils.GetType("System.Reflection.Emit.ILExceptionBlock"), "FILTER");
+					r_FILTER = new( ReflectionUtils.GetType("System.Reflection.Emit.ILExceptionBlock"), "FILTER");
 					r_FILTER.SetBelong(null);
 				}
 				return r_FILTER;
@@ -54,7 +54,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 			{
 				if(r_FINALLY == null)
 				{
-					r_FINALLY = new( ReleactionUtils.GetType("System.Reflection.Emit.ILExceptionBlock"), "FINALLY");
+					r_FINALLY = new( ReflectionUtils.GetType("System.Reflection.Emit.ILExceptionBlock"), "FINALLY");
 					r_FINALLY.SetBelong(null);
 				}
 				return r_FINALLY;
@@ -71,7 +71,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 			{
 				if(r_FAULT == null)
 				{
-					r_FAULT = new( ReleactionUtils.GetType("System.Reflection.Emit.ILExceptionBlock"), "FAULT");
+					r_FAULT = new( ReflectionUtils.GetType("System.Reflection.Emit.ILExceptionBlock"), "FAULT");
 					r_FAULT.SetBelong(null);
 				}
 				return r_FAULT;
@@ -88,7 +88,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 			{
 				if(r_FILTER_START == null)
 				{
-					r_FILTER_START = new( ReleactionUtils.GetType("System.Reflection.Emit.ILExceptionBlock"), "FILTER_START");
+					r_FILTER_START = new( ReflectionUtils.GetType("System.Reflection.Emit.ILExceptionBlock"), "FILTER_START");
 					r_FILTER_START.SetBelong(null);
 				}
 				return r_FILTER_START;

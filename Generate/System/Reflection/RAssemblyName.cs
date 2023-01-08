@@ -530,7 +530,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 			{
 				if(r_ParseAssemblyName_IntPtr_Out_MonoAssemblyName_Out_Boolean_Out_Boolean == null)
 				{
-					r_ParseAssemblyName_IntPtr_Out_MonoAssemblyName_Out_Boolean_Out_Boolean = new(typeof(System.Reflection.AssemblyName), "ParseAssemblyName", 0, typeof(System.IntPtr),  ReleactionUtils.GetType("Mono.MonoAssemblyName").MakeByRefType(), typeof(System.Boolean).MakeByRefType(), typeof(System.Boolean).MakeByRefType());
+					r_ParseAssemblyName_IntPtr_Out_MonoAssemblyName_Out_Boolean_Out_Boolean = new(typeof(System.Reflection.AssemblyName), "ParseAssemblyName", 0, typeof(System.IntPtr),  ReflectionUtils.GetType("Mono.MonoAssemblyName").MakeByRefType(), typeof(System.Boolean).MakeByRefType(), typeof(System.Boolean).MakeByRefType());
 					r_ParseAssemblyName_IntPtr_Out_MonoAssemblyName_Out_Boolean_Out_Boolean.SetBelong(null);
 				}
 				return r_ParseAssemblyName_IntPtr_Out_MonoAssemblyName_Out_Boolean_Out_Boolean;
@@ -853,7 +853,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 			{
 				if(r_FillName_MonoAssemblyNamePointer_String_Boolean_Boolean_Boolean_Boolean == null)
 				{
-					r_FillName_MonoAssemblyNamePointer_String_Boolean_Boolean_Boolean_Boolean = new(this, "FillName", 0,  ReleactionUtils.GetType("Mono.MonoAssemblyName").MakePointerType(), typeof(System.String), typeof(System.Boolean), typeof(System.Boolean), typeof(System.Boolean), typeof(System.Boolean));
+					r_FillName_MonoAssemblyNamePointer_String_Boolean_Boolean_Boolean_Boolean = new(this, "FillName", 0,  ReflectionUtils.GetType("Mono.MonoAssemblyName").MakePointerType(), typeof(System.String), typeof(System.Boolean), typeof(System.Boolean), typeof(System.Boolean), typeof(System.Boolean));
 					r_FillName_MonoAssemblyNamePointer_String_Boolean_Boolean_Boolean_Boolean.SetBelong(this.instance);
 				}
 				return r_FillName_MonoAssemblyNamePointer_String_Boolean_Boolean_Boolean_Boolean;

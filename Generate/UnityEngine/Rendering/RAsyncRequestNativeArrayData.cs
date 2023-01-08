@@ -71,7 +71,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 			{
 				if(r_CreateAndCheckAccess_GT_NativeArray_d_T_p_ == null)
 				{
-					r_CreateAndCheckAccess_GT_NativeArray_d_T_p_ = new( ReleactionUtils.GetType("UnityEngine.Rendering.AsyncRequestNativeArrayData"), "CreateAndCheckAccess", 1, typeof(Unity.Collections.NativeArray<>).MakeGenericType(Type.MakeGenericMethodParameter(0)));
+					r_CreateAndCheckAccess_GT_NativeArray_d_T_p_ = new( ReflectionUtils.GetType("UnityEngine.Rendering.AsyncRequestNativeArrayData"), "CreateAndCheckAccess", 1, typeof(Unity.Collections.NativeArray<>).MakeGenericType(Type.MakeGenericMethodParameter(0)));
 					r_CreateAndCheckAccess_GT_NativeArray_d_T_p_.SetBelong(null);
 				}
 				return r_CreateAndCheckAccess_GT_NativeArray_d_T_p_;
@@ -88,7 +88,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 			{
 				if(r_CreateAndCheckAccess_GT_NativeSlice_d_T_p_ == null)
 				{
-					r_CreateAndCheckAccess_GT_NativeSlice_d_T_p_ = new( ReleactionUtils.GetType("UnityEngine.Rendering.AsyncRequestNativeArrayData"), "CreateAndCheckAccess", 1, typeof(Unity.Collections.NativeSlice<>).MakeGenericType(Type.MakeGenericMethodParameter(0)));
+					r_CreateAndCheckAccess_GT_NativeSlice_d_T_p_ = new( ReflectionUtils.GetType("UnityEngine.Rendering.AsyncRequestNativeArrayData"), "CreateAndCheckAccess", 1, typeof(Unity.Collections.NativeSlice<>).MakeGenericType(Type.MakeGenericMethodParameter(0)));
 					r_CreateAndCheckAccess_GT_NativeSlice_d_T_p_.SetBelong(null);
 				}
 				return r_CreateAndCheckAccess_GT_NativeSlice_d_T_p_;

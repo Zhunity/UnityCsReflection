@@ -122,7 +122,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_Add_Ref_NudgeJobData == null)
 				{
-					r_Add_Ref_NudgeJobData = new(this, "Add", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.UIR.NudgeJobData").MakeByRefType());
+					r_Add_Ref_NudgeJobData = new(this, "Add", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.UIR.NudgeJobData").MakeByRefType());
 					r_Add_Ref_NudgeJobData.SetBelong(this.instance);
 				}
 				return r_Add_Ref_NudgeJobData;
@@ -139,7 +139,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_Add_Ref_ConvertMeshJobData == null)
 				{
-					r_Add_Ref_ConvertMeshJobData = new(this, "Add", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.UIR.ConvertMeshJobData").MakeByRefType());
+					r_Add_Ref_ConvertMeshJobData = new(this, "Add", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.UIR.ConvertMeshJobData").MakeByRefType());
 					r_Add_Ref_ConvertMeshJobData.SetBelong(this.instance);
 				}
 				return r_Add_Ref_ConvertMeshJobData;
@@ -156,7 +156,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_Add_Ref_CopyClosingMeshJobData == null)
 				{
-					r_Add_Ref_CopyClosingMeshJobData = new(this, "Add", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.UIR.CopyClosingMeshJobData").MakeByRefType());
+					r_Add_Ref_CopyClosingMeshJobData = new(this, "Add", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.UIR.CopyClosingMeshJobData").MakeByRefType());
 					r_Add_Ref_CopyClosingMeshJobData.SetBelong(this.instance);
 				}
 				return r_Add_Ref_CopyClosingMeshJobData;

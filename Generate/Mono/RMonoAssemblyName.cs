@@ -20,7 +20,7 @@ namespace SMFrame.Editor.Refleaction.RMono
 			{
 				if(r_MONO_PUBLIC_KEY_TOKEN_LENGTH == null)
 				{
-					r_MONO_PUBLIC_KEY_TOKEN_LENGTH = new( ReleactionUtils.GetType("Mono.MonoAssemblyName"), "MONO_PUBLIC_KEY_TOKEN_LENGTH");
+					r_MONO_PUBLIC_KEY_TOKEN_LENGTH = new( ReflectionUtils.GetType("Mono.MonoAssemblyName"), "MONO_PUBLIC_KEY_TOKEN_LENGTH");
 					r_MONO_PUBLIC_KEY_TOKEN_LENGTH.SetBelong(null);
 				}
 				return r_MONO_PUBLIC_KEY_TOKEN_LENGTH;

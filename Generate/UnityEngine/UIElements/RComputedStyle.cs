@@ -1618,7 +1618,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_Create == null)
 				{
-					r_Create = new( ReleactionUtils.GetType("UnityEngine.UIElements.ComputedStyle"), "Create", 0);
+					r_Create = new( ReflectionUtils.GetType("UnityEngine.UIElements.ComputedStyle"), "Create", 0);
 					r_Create.SetBelong(null);
 				}
 				return r_Create;
@@ -1635,7 +1635,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_FinalizeApply_Ref_ComputedStyle == null)
 				{
-					r_FinalizeApply_Ref_ComputedStyle = new(this, "FinalizeApply", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.ComputedStyle").MakeByRefType());
+					r_FinalizeApply_Ref_ComputedStyle = new(this, "FinalizeApply", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.ComputedStyle").MakeByRefType());
 					r_FinalizeApply_Ref_ComputedStyle.SetBelong(this.instance);
 				}
 				return r_FinalizeApply_Ref_ComputedStyle;
@@ -1652,7 +1652,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_SyncWithLayout_YogaNode == null)
 				{
-					r_SyncWithLayout_YogaNode = new(this, "SyncWithLayout", 0,  ReleactionUtils.GetType("UnityEngine.Yoga.YogaNode"));
+					r_SyncWithLayout_YogaNode = new(this, "SyncWithLayout", 0,  ReflectionUtils.GetType("UnityEngine.Yoga.YogaNode"));
 					r_SyncWithLayout_YogaNode.SetBelong(this.instance);
 				}
 				return r_SyncWithLayout_YogaNode;
@@ -1669,7 +1669,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_ApplyGlobalKeyword_StylePropertyReader_Ref_ComputedStyle == null)
 				{
-					r_ApplyGlobalKeyword_StylePropertyReader_Ref_ComputedStyle = new(this, "ApplyGlobalKeyword", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyReader"),  ReleactionUtils.GetType("UnityEngine.UIElements.ComputedStyle").MakeByRefType());
+					r_ApplyGlobalKeyword_StylePropertyReader_Ref_ComputedStyle = new(this, "ApplyGlobalKeyword", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyReader"),  ReflectionUtils.GetType("UnityEngine.UIElements.ComputedStyle").MakeByRefType());
 					r_ApplyGlobalKeyword_StylePropertyReader_Ref_ComputedStyle.SetBelong(this.instance);
 				}
 				return r_ApplyGlobalKeyword_StylePropertyReader_Ref_ComputedStyle;
@@ -1686,7 +1686,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_ApplyGlobalKeyword_StylePropertyId_StyleKeyword_Ref_ComputedStyle == null)
 				{
-					r_ApplyGlobalKeyword_StylePropertyId_StyleKeyword_Ref_ComputedStyle = new(this, "ApplyGlobalKeyword", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"), typeof(UnityEngine.UIElements.StyleKeyword),  ReleactionUtils.GetType("UnityEngine.UIElements.ComputedStyle").MakeByRefType());
+					r_ApplyGlobalKeyword_StylePropertyId_StyleKeyword_Ref_ComputedStyle = new(this, "ApplyGlobalKeyword", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"), typeof(UnityEngine.UIElements.StyleKeyword),  ReflectionUtils.GetType("UnityEngine.UIElements.ComputedStyle").MakeByRefType());
 					r_ApplyGlobalKeyword_StylePropertyId_StyleKeyword_Ref_ComputedStyle.SetBelong(this.instance);
 				}
 				return r_ApplyGlobalKeyword_StylePropertyId_StyleKeyword_Ref_ComputedStyle;
@@ -1703,7 +1703,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_RemoveCustomStyleProperty_StylePropertyReader == null)
 				{
-					r_RemoveCustomStyleProperty_StylePropertyReader = new(this, "RemoveCustomStyleProperty", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyReader"));
+					r_RemoveCustomStyleProperty_StylePropertyReader = new(this, "RemoveCustomStyleProperty", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyReader"));
 					r_RemoveCustomStyleProperty_StylePropertyReader.SetBelong(this.instance);
 				}
 				return r_RemoveCustomStyleProperty_StylePropertyReader;
@@ -1720,7 +1720,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_ApplyCustomStyleProperty_StylePropertyReader == null)
 				{
-					r_ApplyCustomStyleProperty_StylePropertyReader = new(this, "ApplyCustomStyleProperty", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyReader"));
+					r_ApplyCustomStyleProperty_StylePropertyReader = new(this, "ApplyCustomStyleProperty", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyReader"));
 					r_ApplyCustomStyleProperty_StylePropertyReader.SetBelong(this.instance);
 				}
 				return r_ApplyCustomStyleProperty_StylePropertyReader;
@@ -1771,7 +1771,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_StartAnimationInlineTextShadow_VisualElement_Ref_ComputedStyle_StyleTextShadow_Int32_Int32_Func_d_Single_Single_p_ == null)
 				{
-					r_StartAnimationInlineTextShadow_VisualElement_Ref_ComputedStyle_StyleTextShadow_Int32_Int32_Func_d_Single_Single_p_ = new( ReleactionUtils.GetType("UnityEngine.UIElements.ComputedStyle"), "StartAnimationInlineTextShadow", 0, typeof(UnityEngine.UIElements.VisualElement),  ReleactionUtils.GetType("UnityEngine.UIElements.ComputedStyle").MakeByRefType(), typeof(UnityEngine.UIElements.StyleTextShadow), typeof(System.Int32), typeof(System.Int32), typeof(System.Func<, >).MakeGenericType(typeof(System.Single), typeof(System.Single)));
+					r_StartAnimationInlineTextShadow_VisualElement_Ref_ComputedStyle_StyleTextShadow_Int32_Int32_Func_d_Single_Single_p_ = new( ReflectionUtils.GetType("UnityEngine.UIElements.ComputedStyle"), "StartAnimationInlineTextShadow", 0, typeof(UnityEngine.UIElements.VisualElement),  ReflectionUtils.GetType("UnityEngine.UIElements.ComputedStyle").MakeByRefType(), typeof(UnityEngine.UIElements.StyleTextShadow), typeof(System.Int32), typeof(System.Int32), typeof(System.Func<, >).MakeGenericType(typeof(System.Single), typeof(System.Single)));
 					r_StartAnimationInlineTextShadow_VisualElement_Ref_ComputedStyle_StyleTextShadow_Int32_Int32_Func_d_Single_Single_p_.SetBelong(null);
 				}
 				return r_StartAnimationInlineTextShadow_VisualElement_Ref_ComputedStyle_StyleTextShadow_Int32_Int32_Func_d_Single_Single_p_;
@@ -1788,7 +1788,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_StartAnimationInlineRotate_VisualElement_Ref_ComputedStyle_StyleRotate_Int32_Int32_Func_d_Single_Single_p_ == null)
 				{
-					r_StartAnimationInlineRotate_VisualElement_Ref_ComputedStyle_StyleRotate_Int32_Int32_Func_d_Single_Single_p_ = new( ReleactionUtils.GetType("UnityEngine.UIElements.ComputedStyle"), "StartAnimationInlineRotate", 0, typeof(UnityEngine.UIElements.VisualElement),  ReleactionUtils.GetType("UnityEngine.UIElements.ComputedStyle").MakeByRefType(), typeof(UnityEngine.UIElements.StyleRotate), typeof(System.Int32), typeof(System.Int32), typeof(System.Func<, >).MakeGenericType(typeof(System.Single), typeof(System.Single)));
+					r_StartAnimationInlineRotate_VisualElement_Ref_ComputedStyle_StyleRotate_Int32_Int32_Func_d_Single_Single_p_ = new( ReflectionUtils.GetType("UnityEngine.UIElements.ComputedStyle"), "StartAnimationInlineRotate", 0, typeof(UnityEngine.UIElements.VisualElement),  ReflectionUtils.GetType("UnityEngine.UIElements.ComputedStyle").MakeByRefType(), typeof(UnityEngine.UIElements.StyleRotate), typeof(System.Int32), typeof(System.Int32), typeof(System.Func<, >).MakeGenericType(typeof(System.Single), typeof(System.Single)));
 					r_StartAnimationInlineRotate_VisualElement_Ref_ComputedStyle_StyleRotate_Int32_Int32_Func_d_Single_Single_p_.SetBelong(null);
 				}
 				return r_StartAnimationInlineRotate_VisualElement_Ref_ComputedStyle_StyleRotate_Int32_Int32_Func_d_Single_Single_p_;
@@ -1805,7 +1805,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_StartAnimationInlineTranslate_VisualElement_Ref_ComputedStyle_StyleTranslate_Int32_Int32_Func_d_Single_Single_p_ == null)
 				{
-					r_StartAnimationInlineTranslate_VisualElement_Ref_ComputedStyle_StyleTranslate_Int32_Int32_Func_d_Single_Single_p_ = new( ReleactionUtils.GetType("UnityEngine.UIElements.ComputedStyle"), "StartAnimationInlineTranslate", 0, typeof(UnityEngine.UIElements.VisualElement),  ReleactionUtils.GetType("UnityEngine.UIElements.ComputedStyle").MakeByRefType(), typeof(UnityEngine.UIElements.StyleTranslate), typeof(System.Int32), typeof(System.Int32), typeof(System.Func<, >).MakeGenericType(typeof(System.Single), typeof(System.Single)));
+					r_StartAnimationInlineTranslate_VisualElement_Ref_ComputedStyle_StyleTranslate_Int32_Int32_Func_d_Single_Single_p_ = new( ReflectionUtils.GetType("UnityEngine.UIElements.ComputedStyle"), "StartAnimationInlineTranslate", 0, typeof(UnityEngine.UIElements.VisualElement),  ReflectionUtils.GetType("UnityEngine.UIElements.ComputedStyle").MakeByRefType(), typeof(UnityEngine.UIElements.StyleTranslate), typeof(System.Int32), typeof(System.Int32), typeof(System.Func<, >).MakeGenericType(typeof(System.Single), typeof(System.Single)));
 					r_StartAnimationInlineTranslate_VisualElement_Ref_ComputedStyle_StyleTranslate_Int32_Int32_Func_d_Single_Single_p_.SetBelong(null);
 				}
 				return r_StartAnimationInlineTranslate_VisualElement_Ref_ComputedStyle_StyleTranslate_Int32_Int32_Func_d_Single_Single_p_;
@@ -1822,7 +1822,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_StartAnimationInlineScale_VisualElement_Ref_ComputedStyle_StyleScale_Int32_Int32_Func_d_Single_Single_p_ == null)
 				{
-					r_StartAnimationInlineScale_VisualElement_Ref_ComputedStyle_StyleScale_Int32_Int32_Func_d_Single_Single_p_ = new( ReleactionUtils.GetType("UnityEngine.UIElements.ComputedStyle"), "StartAnimationInlineScale", 0, typeof(UnityEngine.UIElements.VisualElement),  ReleactionUtils.GetType("UnityEngine.UIElements.ComputedStyle").MakeByRefType(), typeof(UnityEngine.UIElements.StyleScale), typeof(System.Int32), typeof(System.Int32), typeof(System.Func<, >).MakeGenericType(typeof(System.Single), typeof(System.Single)));
+					r_StartAnimationInlineScale_VisualElement_Ref_ComputedStyle_StyleScale_Int32_Int32_Func_d_Single_Single_p_ = new( ReflectionUtils.GetType("UnityEngine.UIElements.ComputedStyle"), "StartAnimationInlineScale", 0, typeof(UnityEngine.UIElements.VisualElement),  ReflectionUtils.GetType("UnityEngine.UIElements.ComputedStyle").MakeByRefType(), typeof(UnityEngine.UIElements.StyleScale), typeof(System.Int32), typeof(System.Int32), typeof(System.Func<, >).MakeGenericType(typeof(System.Single), typeof(System.Single)));
 					r_StartAnimationInlineScale_VisualElement_Ref_ComputedStyle_StyleScale_Int32_Int32_Func_d_Single_Single_p_.SetBelong(null);
 				}
 				return r_StartAnimationInlineScale_VisualElement_Ref_ComputedStyle_StyleScale_Int32_Int32_Func_d_Single_Single_p_;
@@ -1839,7 +1839,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_StartAnimationInlineTransformOrigin_VisualElement_Ref_ComputedStyle_StyleTransformOrigin_Int32_Int32_Func_d_Single_Single_p_ == null)
 				{
-					r_StartAnimationInlineTransformOrigin_VisualElement_Ref_ComputedStyle_StyleTransformOrigin_Int32_Int32_Func_d_Single_Single_p_ = new( ReleactionUtils.GetType("UnityEngine.UIElements.ComputedStyle"), "StartAnimationInlineTransformOrigin", 0, typeof(UnityEngine.UIElements.VisualElement),  ReleactionUtils.GetType("UnityEngine.UIElements.ComputedStyle").MakeByRefType(), typeof(UnityEngine.UIElements.StyleTransformOrigin), typeof(System.Int32), typeof(System.Int32), typeof(System.Func<, >).MakeGenericType(typeof(System.Single), typeof(System.Single)));
+					r_StartAnimationInlineTransformOrigin_VisualElement_Ref_ComputedStyle_StyleTransformOrigin_Int32_Int32_Func_d_Single_Single_p_ = new( ReflectionUtils.GetType("UnityEngine.UIElements.ComputedStyle"), "StartAnimationInlineTransformOrigin", 0, typeof(UnityEngine.UIElements.VisualElement),  ReflectionUtils.GetType("UnityEngine.UIElements.ComputedStyle").MakeByRefType(), typeof(UnityEngine.UIElements.StyleTransformOrigin), typeof(System.Int32), typeof(System.Int32), typeof(System.Func<, >).MakeGenericType(typeof(System.Single), typeof(System.Single)));
 					r_StartAnimationInlineTransformOrigin_VisualElement_Ref_ComputedStyle_StyleTransformOrigin_Int32_Int32_Func_d_Single_Single_p_.SetBelong(null);
 				}
 				return r_StartAnimationInlineTransformOrigin_VisualElement_Ref_ComputedStyle_StyleTransformOrigin_Int32_Int32_Func_d_Single_Single_p_;
@@ -1856,7 +1856,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_StartAnimationInlineBackgroundSize_VisualElement_Ref_ComputedStyle_StyleBackgroundSize_Int32_Int32_Func_d_Single_Single_p_ == null)
 				{
-					r_StartAnimationInlineBackgroundSize_VisualElement_Ref_ComputedStyle_StyleBackgroundSize_Int32_Int32_Func_d_Single_Single_p_ = new( ReleactionUtils.GetType("UnityEngine.UIElements.ComputedStyle"), "StartAnimationInlineBackgroundSize", 0, typeof(UnityEngine.UIElements.VisualElement),  ReleactionUtils.GetType("UnityEngine.UIElements.ComputedStyle").MakeByRefType(), typeof(UnityEngine.UIElements.StyleBackgroundSize), typeof(System.Int32), typeof(System.Int32), typeof(System.Func<, >).MakeGenericType(typeof(System.Single), typeof(System.Single)));
+					r_StartAnimationInlineBackgroundSize_VisualElement_Ref_ComputedStyle_StyleBackgroundSize_Int32_Int32_Func_d_Single_Single_p_ = new( ReflectionUtils.GetType("UnityEngine.UIElements.ComputedStyle"), "StartAnimationInlineBackgroundSize", 0, typeof(UnityEngine.UIElements.VisualElement),  ReflectionUtils.GetType("UnityEngine.UIElements.ComputedStyle").MakeByRefType(), typeof(UnityEngine.UIElements.StyleBackgroundSize), typeof(System.Int32), typeof(System.Int32), typeof(System.Func<, >).MakeGenericType(typeof(System.Single), typeof(System.Single)));
 					r_StartAnimationInlineBackgroundSize_VisualElement_Ref_ComputedStyle_StyleBackgroundSize_Int32_Int32_Func_d_Single_Single_p_.SetBelong(null);
 				}
 				return r_StartAnimationInlineBackgroundSize_VisualElement_Ref_ComputedStyle_StyleBackgroundSize_Int32_Int32_Func_d_Single_Single_p_;
@@ -1873,7 +1873,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_Create_Ref_ComputedStyle == null)
 				{
-					r_Create_Ref_ComputedStyle = new( ReleactionUtils.GetType("UnityEngine.UIElements.ComputedStyle"), "Create", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.ComputedStyle").MakeByRefType());
+					r_Create_Ref_ComputedStyle = new( ReflectionUtils.GetType("UnityEngine.UIElements.ComputedStyle"), "Create", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.ComputedStyle").MakeByRefType());
 					r_Create_Ref_ComputedStyle.SetBelong(null);
 				}
 				return r_Create_Ref_ComputedStyle;
@@ -1890,7 +1890,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_CreateInitial == null)
 				{
-					r_CreateInitial = new( ReleactionUtils.GetType("UnityEngine.UIElements.ComputedStyle"), "CreateInitial", 0);
+					r_CreateInitial = new( ReflectionUtils.GetType("UnityEngine.UIElements.ComputedStyle"), "CreateInitial", 0);
 					r_CreateInitial.SetBelong(null);
 				}
 				return r_CreateInitial;
@@ -1941,7 +1941,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_CopyFrom_Ref_ComputedStyle == null)
 				{
-					r_CopyFrom_Ref_ComputedStyle = new(this, "CopyFrom", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.ComputedStyle").MakeByRefType());
+					r_CopyFrom_Ref_ComputedStyle = new(this, "CopyFrom", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.ComputedStyle").MakeByRefType());
 					r_CopyFrom_Ref_ComputedStyle.SetBelong(this.instance);
 				}
 				return r_CopyFrom_Ref_ComputedStyle;
@@ -1958,7 +1958,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_ApplyProperties_StylePropertyReader_Ref_ComputedStyle == null)
 				{
-					r_ApplyProperties_StylePropertyReader_Ref_ComputedStyle = new(this, "ApplyProperties", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyReader"),  ReleactionUtils.GetType("UnityEngine.UIElements.ComputedStyle").MakeByRefType());
+					r_ApplyProperties_StylePropertyReader_Ref_ComputedStyle = new(this, "ApplyProperties", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyReader"),  ReflectionUtils.GetType("UnityEngine.UIElements.ComputedStyle").MakeByRefType());
 					r_ApplyProperties_StylePropertyReader_Ref_ComputedStyle.SetBelong(this.instance);
 				}
 				return r_ApplyProperties_StylePropertyReader_Ref_ComputedStyle;
@@ -1975,7 +1975,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_ApplyStyleValue_StyleValue_Ref_ComputedStyle == null)
 				{
-					r_ApplyStyleValue_StyleValue_Ref_ComputedStyle = new(this, "ApplyStyleValue", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StyleValue"),  ReleactionUtils.GetType("UnityEngine.UIElements.ComputedStyle").MakeByRefType());
+					r_ApplyStyleValue_StyleValue_Ref_ComputedStyle = new(this, "ApplyStyleValue", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.StyleValue"),  ReflectionUtils.GetType("UnityEngine.UIElements.ComputedStyle").MakeByRefType());
 					r_ApplyStyleValue_StyleValue_Ref_ComputedStyle.SetBelong(this.instance);
 				}
 				return r_ApplyStyleValue_StyleValue_Ref_ComputedStyle;
@@ -1992,7 +1992,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_ApplyStyleValueManaged_StyleValueManaged_Ref_ComputedStyle == null)
 				{
-					r_ApplyStyleValueManaged_StyleValueManaged_Ref_ComputedStyle = new(this, "ApplyStyleValueManaged", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StyleValueManaged"),  ReleactionUtils.GetType("UnityEngine.UIElements.ComputedStyle").MakeByRefType());
+					r_ApplyStyleValueManaged_StyleValueManaged_Ref_ComputedStyle = new(this, "ApplyStyleValueManaged", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.StyleValueManaged"),  ReflectionUtils.GetType("UnityEngine.UIElements.ComputedStyle").MakeByRefType());
 					r_ApplyStyleValueManaged_StyleValueManaged_Ref_ComputedStyle.SetBelong(this.instance);
 				}
 				return r_ApplyStyleValueManaged_StyleValueManaged_Ref_ComputedStyle;
@@ -2043,7 +2043,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_ApplyFromComputedStyle_StylePropertyId_Ref_ComputedStyle == null)
 				{
-					r_ApplyFromComputedStyle_StylePropertyId_Ref_ComputedStyle = new(this, "ApplyFromComputedStyle", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"),  ReleactionUtils.GetType("UnityEngine.UIElements.ComputedStyle").MakeByRefType());
+					r_ApplyFromComputedStyle_StylePropertyId_Ref_ComputedStyle = new(this, "ApplyFromComputedStyle", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"),  ReflectionUtils.GetType("UnityEngine.UIElements.ComputedStyle").MakeByRefType());
 					r_ApplyFromComputedStyle_StylePropertyId_Ref_ComputedStyle.SetBelong(this.instance);
 				}
 				return r_ApplyFromComputedStyle_StylePropertyId_Ref_ComputedStyle;
@@ -2060,7 +2060,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_ApplyPropertyAnimation_VisualElement_StylePropertyId_Length == null)
 				{
-					r_ApplyPropertyAnimation_VisualElement_StylePropertyId_Length = new(this, "ApplyPropertyAnimation", 0, typeof(UnityEngine.UIElements.VisualElement),  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"), typeof(UnityEngine.UIElements.Length));
+					r_ApplyPropertyAnimation_VisualElement_StylePropertyId_Length = new(this, "ApplyPropertyAnimation", 0, typeof(UnityEngine.UIElements.VisualElement),  ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"), typeof(UnityEngine.UIElements.Length));
 					r_ApplyPropertyAnimation_VisualElement_StylePropertyId_Length.SetBelong(this.instance);
 				}
 				return r_ApplyPropertyAnimation_VisualElement_StylePropertyId_Length;
@@ -2077,7 +2077,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_ApplyPropertyAnimation_VisualElement_StylePropertyId_Single == null)
 				{
-					r_ApplyPropertyAnimation_VisualElement_StylePropertyId_Single = new(this, "ApplyPropertyAnimation", 0, typeof(UnityEngine.UIElements.VisualElement),  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"), typeof(System.Single));
+					r_ApplyPropertyAnimation_VisualElement_StylePropertyId_Single = new(this, "ApplyPropertyAnimation", 0, typeof(UnityEngine.UIElements.VisualElement),  ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"), typeof(System.Single));
 					r_ApplyPropertyAnimation_VisualElement_StylePropertyId_Single.SetBelong(this.instance);
 				}
 				return r_ApplyPropertyAnimation_VisualElement_StylePropertyId_Single;
@@ -2094,7 +2094,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_ApplyPropertyAnimation_VisualElement_StylePropertyId_Int32 == null)
 				{
-					r_ApplyPropertyAnimation_VisualElement_StylePropertyId_Int32 = new(this, "ApplyPropertyAnimation", 0, typeof(UnityEngine.UIElements.VisualElement),  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"), typeof(System.Int32));
+					r_ApplyPropertyAnimation_VisualElement_StylePropertyId_Int32 = new(this, "ApplyPropertyAnimation", 0, typeof(UnityEngine.UIElements.VisualElement),  ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"), typeof(System.Int32));
 					r_ApplyPropertyAnimation_VisualElement_StylePropertyId_Int32.SetBelong(this.instance);
 				}
 				return r_ApplyPropertyAnimation_VisualElement_StylePropertyId_Int32;
@@ -2111,7 +2111,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_ApplyPropertyAnimation_VisualElement_StylePropertyId_BackgroundPosition == null)
 				{
-					r_ApplyPropertyAnimation_VisualElement_StylePropertyId_BackgroundPosition = new(this, "ApplyPropertyAnimation", 0, typeof(UnityEngine.UIElements.VisualElement),  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"), typeof(UnityEngine.UIElements.BackgroundPosition));
+					r_ApplyPropertyAnimation_VisualElement_StylePropertyId_BackgroundPosition = new(this, "ApplyPropertyAnimation", 0, typeof(UnityEngine.UIElements.VisualElement),  ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"), typeof(UnityEngine.UIElements.BackgroundPosition));
 					r_ApplyPropertyAnimation_VisualElement_StylePropertyId_BackgroundPosition.SetBelong(this.instance);
 				}
 				return r_ApplyPropertyAnimation_VisualElement_StylePropertyId_BackgroundPosition;
@@ -2128,7 +2128,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_ApplyPropertyAnimation_VisualElement_StylePropertyId_BackgroundRepeat == null)
 				{
-					r_ApplyPropertyAnimation_VisualElement_StylePropertyId_BackgroundRepeat = new(this, "ApplyPropertyAnimation", 0, typeof(UnityEngine.UIElements.VisualElement),  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"), typeof(UnityEngine.UIElements.BackgroundRepeat));
+					r_ApplyPropertyAnimation_VisualElement_StylePropertyId_BackgroundRepeat = new(this, "ApplyPropertyAnimation", 0, typeof(UnityEngine.UIElements.VisualElement),  ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"), typeof(UnityEngine.UIElements.BackgroundRepeat));
 					r_ApplyPropertyAnimation_VisualElement_StylePropertyId_BackgroundRepeat.SetBelong(this.instance);
 				}
 				return r_ApplyPropertyAnimation_VisualElement_StylePropertyId_BackgroundRepeat;
@@ -2145,7 +2145,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_ApplyPropertyAnimation_VisualElement_StylePropertyId_BackgroundSize == null)
 				{
-					r_ApplyPropertyAnimation_VisualElement_StylePropertyId_BackgroundSize = new(this, "ApplyPropertyAnimation", 0, typeof(UnityEngine.UIElements.VisualElement),  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"), typeof(UnityEngine.UIElements.BackgroundSize));
+					r_ApplyPropertyAnimation_VisualElement_StylePropertyId_BackgroundSize = new(this, "ApplyPropertyAnimation", 0, typeof(UnityEngine.UIElements.VisualElement),  ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"), typeof(UnityEngine.UIElements.BackgroundSize));
 					r_ApplyPropertyAnimation_VisualElement_StylePropertyId_BackgroundSize.SetBelong(this.instance);
 				}
 				return r_ApplyPropertyAnimation_VisualElement_StylePropertyId_BackgroundSize;
@@ -2162,7 +2162,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_ApplyPropertyAnimation_VisualElement_StylePropertyId_Color == null)
 				{
-					r_ApplyPropertyAnimation_VisualElement_StylePropertyId_Color = new(this, "ApplyPropertyAnimation", 0, typeof(UnityEngine.UIElements.VisualElement),  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"), typeof(UnityEngine.Color));
+					r_ApplyPropertyAnimation_VisualElement_StylePropertyId_Color = new(this, "ApplyPropertyAnimation", 0, typeof(UnityEngine.UIElements.VisualElement),  ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"), typeof(UnityEngine.Color));
 					r_ApplyPropertyAnimation_VisualElement_StylePropertyId_Color.SetBelong(this.instance);
 				}
 				return r_ApplyPropertyAnimation_VisualElement_StylePropertyId_Color;
@@ -2179,7 +2179,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_ApplyPropertyAnimation_VisualElement_StylePropertyId_Background == null)
 				{
-					r_ApplyPropertyAnimation_VisualElement_StylePropertyId_Background = new(this, "ApplyPropertyAnimation", 0, typeof(UnityEngine.UIElements.VisualElement),  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"), typeof(UnityEngine.UIElements.Background));
+					r_ApplyPropertyAnimation_VisualElement_StylePropertyId_Background = new(this, "ApplyPropertyAnimation", 0, typeof(UnityEngine.UIElements.VisualElement),  ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"), typeof(UnityEngine.UIElements.Background));
 					r_ApplyPropertyAnimation_VisualElement_StylePropertyId_Background.SetBelong(this.instance);
 				}
 				return r_ApplyPropertyAnimation_VisualElement_StylePropertyId_Background;
@@ -2196,7 +2196,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_ApplyPropertyAnimation_VisualElement_StylePropertyId_Font == null)
 				{
-					r_ApplyPropertyAnimation_VisualElement_StylePropertyId_Font = new(this, "ApplyPropertyAnimation", 0, typeof(UnityEngine.UIElements.VisualElement),  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"), typeof(UnityEngine.Font));
+					r_ApplyPropertyAnimation_VisualElement_StylePropertyId_Font = new(this, "ApplyPropertyAnimation", 0, typeof(UnityEngine.UIElements.VisualElement),  ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"), typeof(UnityEngine.Font));
 					r_ApplyPropertyAnimation_VisualElement_StylePropertyId_Font.SetBelong(this.instance);
 				}
 				return r_ApplyPropertyAnimation_VisualElement_StylePropertyId_Font;
@@ -2213,7 +2213,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_ApplyPropertyAnimation_VisualElement_StylePropertyId_FontDefinition == null)
 				{
-					r_ApplyPropertyAnimation_VisualElement_StylePropertyId_FontDefinition = new(this, "ApplyPropertyAnimation", 0, typeof(UnityEngine.UIElements.VisualElement),  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"), typeof(UnityEngine.UIElements.FontDefinition));
+					r_ApplyPropertyAnimation_VisualElement_StylePropertyId_FontDefinition = new(this, "ApplyPropertyAnimation", 0, typeof(UnityEngine.UIElements.VisualElement),  ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"), typeof(UnityEngine.UIElements.FontDefinition));
 					r_ApplyPropertyAnimation_VisualElement_StylePropertyId_FontDefinition.SetBelong(this.instance);
 				}
 				return r_ApplyPropertyAnimation_VisualElement_StylePropertyId_FontDefinition;
@@ -2230,7 +2230,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_ApplyPropertyAnimation_VisualElement_StylePropertyId_TextShadow == null)
 				{
-					r_ApplyPropertyAnimation_VisualElement_StylePropertyId_TextShadow = new(this, "ApplyPropertyAnimation", 0, typeof(UnityEngine.UIElements.VisualElement),  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"), typeof(UnityEngine.UIElements.TextShadow));
+					r_ApplyPropertyAnimation_VisualElement_StylePropertyId_TextShadow = new(this, "ApplyPropertyAnimation", 0, typeof(UnityEngine.UIElements.VisualElement),  ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"), typeof(UnityEngine.UIElements.TextShadow));
 					r_ApplyPropertyAnimation_VisualElement_StylePropertyId_TextShadow.SetBelong(this.instance);
 				}
 				return r_ApplyPropertyAnimation_VisualElement_StylePropertyId_TextShadow;
@@ -2247,7 +2247,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_ApplyPropertyAnimation_VisualElement_StylePropertyId_Translate == null)
 				{
-					r_ApplyPropertyAnimation_VisualElement_StylePropertyId_Translate = new(this, "ApplyPropertyAnimation", 0, typeof(UnityEngine.UIElements.VisualElement),  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"), typeof(UnityEngine.UIElements.Translate));
+					r_ApplyPropertyAnimation_VisualElement_StylePropertyId_Translate = new(this, "ApplyPropertyAnimation", 0, typeof(UnityEngine.UIElements.VisualElement),  ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"), typeof(UnityEngine.UIElements.Translate));
 					r_ApplyPropertyAnimation_VisualElement_StylePropertyId_Translate.SetBelong(this.instance);
 				}
 				return r_ApplyPropertyAnimation_VisualElement_StylePropertyId_Translate;
@@ -2264,7 +2264,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_ApplyPropertyAnimation_VisualElement_StylePropertyId_TransformOrigin == null)
 				{
-					r_ApplyPropertyAnimation_VisualElement_StylePropertyId_TransformOrigin = new(this, "ApplyPropertyAnimation", 0, typeof(UnityEngine.UIElements.VisualElement),  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"), typeof(UnityEngine.UIElements.TransformOrigin));
+					r_ApplyPropertyAnimation_VisualElement_StylePropertyId_TransformOrigin = new(this, "ApplyPropertyAnimation", 0, typeof(UnityEngine.UIElements.VisualElement),  ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"), typeof(UnityEngine.UIElements.TransformOrigin));
 					r_ApplyPropertyAnimation_VisualElement_StylePropertyId_TransformOrigin.SetBelong(this.instance);
 				}
 				return r_ApplyPropertyAnimation_VisualElement_StylePropertyId_TransformOrigin;
@@ -2281,7 +2281,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_ApplyPropertyAnimation_VisualElement_StylePropertyId_Rotate == null)
 				{
-					r_ApplyPropertyAnimation_VisualElement_StylePropertyId_Rotate = new(this, "ApplyPropertyAnimation", 0, typeof(UnityEngine.UIElements.VisualElement),  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"), typeof(UnityEngine.UIElements.Rotate));
+					r_ApplyPropertyAnimation_VisualElement_StylePropertyId_Rotate = new(this, "ApplyPropertyAnimation", 0, typeof(UnityEngine.UIElements.VisualElement),  ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"), typeof(UnityEngine.UIElements.Rotate));
 					r_ApplyPropertyAnimation_VisualElement_StylePropertyId_Rotate.SetBelong(this.instance);
 				}
 				return r_ApplyPropertyAnimation_VisualElement_StylePropertyId_Rotate;
@@ -2298,7 +2298,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_ApplyPropertyAnimation_VisualElement_StylePropertyId_Scale == null)
 				{
-					r_ApplyPropertyAnimation_VisualElement_StylePropertyId_Scale = new(this, "ApplyPropertyAnimation", 0, typeof(UnityEngine.UIElements.VisualElement),  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"), typeof(UnityEngine.UIElements.Scale));
+					r_ApplyPropertyAnimation_VisualElement_StylePropertyId_Scale = new(this, "ApplyPropertyAnimation", 0, typeof(UnityEngine.UIElements.VisualElement),  ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"), typeof(UnityEngine.UIElements.Scale));
 					r_ApplyPropertyAnimation_VisualElement_StylePropertyId_Scale.SetBelong(this.instance);
 				}
 				return r_ApplyPropertyAnimation_VisualElement_StylePropertyId_Scale;
@@ -2315,7 +2315,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_StartAnimation_VisualElement_StylePropertyId_Ref_ComputedStyle_Ref_ComputedStyle_Int32_Int32_Func_d_Single_Single_p_ == null)
 				{
-					r_StartAnimation_VisualElement_StylePropertyId_Ref_ComputedStyle_Ref_ComputedStyle_Int32_Int32_Func_d_Single_Single_p_ = new( ReleactionUtils.GetType("UnityEngine.UIElements.ComputedStyle"), "StartAnimation", 0, typeof(UnityEngine.UIElements.VisualElement),  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"),  ReleactionUtils.GetType("UnityEngine.UIElements.ComputedStyle").MakeByRefType(),  ReleactionUtils.GetType("UnityEngine.UIElements.ComputedStyle").MakeByRefType(), typeof(System.Int32), typeof(System.Int32), typeof(System.Func<, >).MakeGenericType(typeof(System.Single), typeof(System.Single)));
+					r_StartAnimation_VisualElement_StylePropertyId_Ref_ComputedStyle_Ref_ComputedStyle_Int32_Int32_Func_d_Single_Single_p_ = new( ReflectionUtils.GetType("UnityEngine.UIElements.ComputedStyle"), "StartAnimation", 0, typeof(UnityEngine.UIElements.VisualElement),  ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"),  ReflectionUtils.GetType("UnityEngine.UIElements.ComputedStyle").MakeByRefType(),  ReflectionUtils.GetType("UnityEngine.UIElements.ComputedStyle").MakeByRefType(), typeof(System.Int32), typeof(System.Int32), typeof(System.Func<, >).MakeGenericType(typeof(System.Single), typeof(System.Single)));
 					r_StartAnimation_VisualElement_StylePropertyId_Ref_ComputedStyle_Ref_ComputedStyle_Int32_Int32_Func_d_Single_Single_p_.SetBelong(null);
 				}
 				return r_StartAnimation_VisualElement_StylePropertyId_Ref_ComputedStyle_Ref_ComputedStyle_Int32_Int32_Func_d_Single_Single_p_;
@@ -2332,7 +2332,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_StartAnimationAllProperty_VisualElement_Ref_ComputedStyle_Ref_ComputedStyle_Int32_Int32_Func_d_Single_Single_p_ == null)
 				{
-					r_StartAnimationAllProperty_VisualElement_Ref_ComputedStyle_Ref_ComputedStyle_Int32_Int32_Func_d_Single_Single_p_ = new( ReleactionUtils.GetType("UnityEngine.UIElements.ComputedStyle"), "StartAnimationAllProperty", 0, typeof(UnityEngine.UIElements.VisualElement),  ReleactionUtils.GetType("UnityEngine.UIElements.ComputedStyle").MakeByRefType(),  ReleactionUtils.GetType("UnityEngine.UIElements.ComputedStyle").MakeByRefType(), typeof(System.Int32), typeof(System.Int32), typeof(System.Func<, >).MakeGenericType(typeof(System.Single), typeof(System.Single)));
+					r_StartAnimationAllProperty_VisualElement_Ref_ComputedStyle_Ref_ComputedStyle_Int32_Int32_Func_d_Single_Single_p_ = new( ReflectionUtils.GetType("UnityEngine.UIElements.ComputedStyle"), "StartAnimationAllProperty", 0, typeof(UnityEngine.UIElements.VisualElement),  ReflectionUtils.GetType("UnityEngine.UIElements.ComputedStyle").MakeByRefType(),  ReflectionUtils.GetType("UnityEngine.UIElements.ComputedStyle").MakeByRefType(), typeof(System.Int32), typeof(System.Int32), typeof(System.Func<, >).MakeGenericType(typeof(System.Single), typeof(System.Single)));
 					r_StartAnimationAllProperty_VisualElement_Ref_ComputedStyle_Ref_ComputedStyle_Int32_Int32_Func_d_Single_Single_p_.SetBelong(null);
 				}
 				return r_StartAnimationAllProperty_VisualElement_Ref_ComputedStyle_Ref_ComputedStyle_Int32_Int32_Func_d_Single_Single_p_;
@@ -2349,7 +2349,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_StartAnimationInline_VisualElement_StylePropertyId_Ref_ComputedStyle_StyleValue_Int32_Int32_Func_d_Single_Single_p_ == null)
 				{
-					r_StartAnimationInline_VisualElement_StylePropertyId_Ref_ComputedStyle_StyleValue_Int32_Int32_Func_d_Single_Single_p_ = new( ReleactionUtils.GetType("UnityEngine.UIElements.ComputedStyle"), "StartAnimationInline", 0, typeof(UnityEngine.UIElements.VisualElement),  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"),  ReleactionUtils.GetType("UnityEngine.UIElements.ComputedStyle").MakeByRefType(),  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StyleValue"), typeof(System.Int32), typeof(System.Int32), typeof(System.Func<, >).MakeGenericType(typeof(System.Single), typeof(System.Single)));
+					r_StartAnimationInline_VisualElement_StylePropertyId_Ref_ComputedStyle_StyleValue_Int32_Int32_Func_d_Single_Single_p_ = new( ReflectionUtils.GetType("UnityEngine.UIElements.ComputedStyle"), "StartAnimationInline", 0, typeof(UnityEngine.UIElements.VisualElement),  ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"),  ReflectionUtils.GetType("UnityEngine.UIElements.ComputedStyle").MakeByRefType(),  ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.StyleValue"), typeof(System.Int32), typeof(System.Int32), typeof(System.Func<, >).MakeGenericType(typeof(System.Single), typeof(System.Single)));
 					r_StartAnimationInline_VisualElement_StylePropertyId_Ref_ComputedStyle_StyleValue_Int32_Int32_Func_d_Single_Single_p_.SetBelong(null);
 				}
 				return r_StartAnimationInline_VisualElement_StylePropertyId_Ref_ComputedStyle_StyleValue_Int32_Int32_Func_d_Single_Single_p_;
@@ -2451,7 +2451,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_ApplyInitialValue_StylePropertyReader == null)
 				{
-					r_ApplyInitialValue_StylePropertyReader = new(this, "ApplyInitialValue", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyReader"));
+					r_ApplyInitialValue_StylePropertyReader = new(this, "ApplyInitialValue", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyReader"));
 					r_ApplyInitialValue_StylePropertyReader.SetBelong(this.instance);
 				}
 				return r_ApplyInitialValue_StylePropertyReader;
@@ -2468,7 +2468,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_ApplyInitialValue_StylePropertyId == null)
 				{
-					r_ApplyInitialValue_StylePropertyId = new(this, "ApplyInitialValue", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"));
+					r_ApplyInitialValue_StylePropertyId = new(this, "ApplyInitialValue", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"));
 					r_ApplyInitialValue_StylePropertyId.SetBelong(this.instance);
 				}
 				return r_ApplyInitialValue_StylePropertyId;
@@ -2485,7 +2485,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_ApplyUnsetValue_StylePropertyReader_Ref_ComputedStyle == null)
 				{
-					r_ApplyUnsetValue_StylePropertyReader_Ref_ComputedStyle = new(this, "ApplyUnsetValue", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyReader"),  ReleactionUtils.GetType("UnityEngine.UIElements.ComputedStyle").MakeByRefType());
+					r_ApplyUnsetValue_StylePropertyReader_Ref_ComputedStyle = new(this, "ApplyUnsetValue", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyReader"),  ReflectionUtils.GetType("UnityEngine.UIElements.ComputedStyle").MakeByRefType());
 					r_ApplyUnsetValue_StylePropertyReader_Ref_ComputedStyle.SetBelong(this.instance);
 				}
 				return r_ApplyUnsetValue_StylePropertyReader_Ref_ComputedStyle;
@@ -2502,7 +2502,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_ApplyUnsetValue_StylePropertyId_Ref_ComputedStyle == null)
 				{
-					r_ApplyUnsetValue_StylePropertyId_Ref_ComputedStyle = new(this, "ApplyUnsetValue", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"),  ReleactionUtils.GetType("UnityEngine.UIElements.ComputedStyle").MakeByRefType());
+					r_ApplyUnsetValue_StylePropertyId_Ref_ComputedStyle = new(this, "ApplyUnsetValue", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"),  ReflectionUtils.GetType("UnityEngine.UIElements.ComputedStyle").MakeByRefType());
 					r_ApplyUnsetValue_StylePropertyId_Ref_ComputedStyle.SetBelong(this.instance);
 				}
 				return r_ApplyUnsetValue_StylePropertyId_Ref_ComputedStyle;
@@ -2519,7 +2519,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_CompareChanges_Ref_ComputedStyle_Ref_ComputedStyle == null)
 				{
-					r_CompareChanges_Ref_ComputedStyle_Ref_ComputedStyle = new( ReleactionUtils.GetType("UnityEngine.UIElements.ComputedStyle"), "CompareChanges", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.ComputedStyle").MakeByRefType(),  ReleactionUtils.GetType("UnityEngine.UIElements.ComputedStyle").MakeByRefType());
+					r_CompareChanges_Ref_ComputedStyle_Ref_ComputedStyle = new( ReflectionUtils.GetType("UnityEngine.UIElements.ComputedStyle"), "CompareChanges", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.ComputedStyle").MakeByRefType(),  ReflectionUtils.GetType("UnityEngine.UIElements.ComputedStyle").MakeByRefType());
 					r_CompareChanges_Ref_ComputedStyle_Ref_ComputedStyle.SetBelong(null);
 				}
 				return r_CompareChanges_Ref_ComputedStyle_Ref_ComputedStyle;

@@ -20,7 +20,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_s_GlobalPanelDebug == null)
 				{
-					r_s_GlobalPanelDebug = new( ReleactionUtils.GetType("UnityEngine.UIElements.DebuggerEventDispatchingStrategy"), "s_GlobalPanelDebug");
+					r_s_GlobalPanelDebug = new( ReflectionUtils.GetType("UnityEngine.UIElements.DebuggerEventDispatchingStrategy"), "s_GlobalPanelDebug");
 					r_s_GlobalPanelDebug.SetBelong(null);
 				}
 				return r_s_GlobalPanelDebug;

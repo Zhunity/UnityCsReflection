@@ -309,7 +309,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RDiagnostics
 			{
 				if(r_ToString_TraceFormat == null)
 				{
-					r_ToString_TraceFormat = new(this, "ToString", 0,  ReleactionUtils.GetType("System.Diagnostics.StackTrace+TraceFormat"));
+					r_ToString_TraceFormat = new(this, "ToString", 0,  ReflectionUtils.GetType("System.Diagnostics.StackTrace+TraceFormat"));
 					r_ToString_TraceFormat.SetBelong(this.instance);
 				}
 				return r_ToString_TraceFormat;

@@ -343,7 +343,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certif
 			{
 				if(r_Equals_X509CertificateImpl_Out_Boolean == null)
 				{
-					r_Equals_X509CertificateImpl_Out_Boolean = new(this, "Equals", 0,  ReleactionUtils.GetType("System.Security.Cryptography.X509Certificates.X509CertificateImpl"), typeof(System.Boolean).MakeByRefType());
+					r_Equals_X509CertificateImpl_Out_Boolean = new(this, "Equals", 0,  ReflectionUtils.GetType("System.Security.Cryptography.X509Certificates.X509CertificateImpl"), typeof(System.Boolean).MakeByRefType());
 					r_Equals_X509CertificateImpl_Out_Boolean.SetBelong(this.instance);
 				}
 				return r_Equals_X509CertificateImpl_Out_Boolean;
@@ -394,7 +394,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certif
 			{
 				if(r_Export_X509ContentType_SafePasswordHandle == null)
 				{
-					r_Export_X509ContentType_SafePasswordHandle = new(this, "Export", 0, typeof(System.Security.Cryptography.X509Certificates.X509ContentType),  ReleactionUtils.GetType("Microsoft.Win32.SafeHandles.SafePasswordHandle"));
+					r_Export_X509ContentType_SafePasswordHandle = new(this, "Export", 0, typeof(System.Security.Cryptography.X509Certificates.X509ContentType),  ReflectionUtils.GetType("Microsoft.Win32.SafeHandles.SafePasswordHandle"));
 					r_Export_X509ContentType_SafePasswordHandle.SetBelong(this.instance);
 				}
 				return r_Export_X509ContentType_SafePasswordHandle;

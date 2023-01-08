@@ -20,7 +20,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_instances == null)
 				{
-					r_instances = new( ReleactionUtils.GetType("UnityEngine.UIElements.UIR.VectorImageManager"), "instances");
+					r_instances = new( ReflectionUtils.GetType("UnityEngine.UIElements.UIR.VectorImageManager"), "instances");
 					r_instances.SetBelong(null);
 				}
 				return r_instances;
@@ -37,7 +37,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_s_MarkerRegister == null)
 				{
-					r_s_MarkerRegister = new( ReleactionUtils.GetType("UnityEngine.UIElements.UIR.VectorImageManager"), "s_MarkerRegister");
+					r_s_MarkerRegister = new( ReflectionUtils.GetType("UnityEngine.UIElements.UIR.VectorImageManager"), "s_MarkerRegister");
 					r_s_MarkerRegister.SetBelong(null);
 				}
 				return r_s_MarkerRegister;
@@ -54,7 +54,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_s_MarkerUnregister == null)
 				{
-					r_s_MarkerUnregister = new( ReleactionUtils.GetType("UnityEngine.UIElements.UIR.VectorImageManager"), "s_MarkerUnregister");
+					r_s_MarkerUnregister = new( ReflectionUtils.GetType("UnityEngine.UIElements.UIR.VectorImageManager"), "s_MarkerUnregister");
 					r_s_MarkerUnregister.SetBelong(null);
 				}
 				return r_s_MarkerUnregister;
@@ -343,7 +343,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_Unregister_VectorImage_VectorImageRenderInfo == null)
 				{
-					r_Unregister_VectorImage_VectorImageRenderInfo = new(this, "Unregister", 0, typeof(UnityEngine.UIElements.VectorImage),  ReleactionUtils.GetType("UnityEngine.UIElements.UIR.VectorImageRenderInfo"));
+					r_Unregister_VectorImage_VectorImageRenderInfo = new(this, "Unregister", 0, typeof(UnityEngine.UIElements.VectorImage),  ReflectionUtils.GetType("UnityEngine.UIElements.UIR.VectorImageRenderInfo"));
 					r_Unregister_VectorImage_VectorImageRenderInfo.SetBelong(this.instance);
 				}
 				return r_Unregister_VectorImage_VectorImageRenderInfo;

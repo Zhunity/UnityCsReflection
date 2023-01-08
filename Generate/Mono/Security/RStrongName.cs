@@ -88,7 +88,7 @@ namespace SMFrame.Editor.Refleaction.RMono.RSecurity
 			{
 				if(r_lockObject == null)
 				{
-					r_lockObject = new( ReleactionUtils.GetType("Mono.Security.StrongName"), "lockObject");
+					r_lockObject = new( ReflectionUtils.GetType("Mono.Security.StrongName"), "lockObject");
 					r_lockObject.SetBelong(null);
 				}
 				return r_lockObject;
@@ -105,7 +105,7 @@ namespace SMFrame.Editor.Refleaction.RMono.RSecurity
 			{
 				if(r_initialized == null)
 				{
-					r_initialized = new( ReleactionUtils.GetType("Mono.Security.StrongName"), "initialized");
+					r_initialized = new( ReflectionUtils.GetType("Mono.Security.StrongName"), "initialized");
 					r_initialized.SetBelong(null);
 				}
 				return r_initialized;
@@ -224,7 +224,7 @@ namespace SMFrame.Editor.Refleaction.RMono.RSecurity
 			{
 				if(r_GetHashAlgorithm_String == null)
 				{
-					r_GetHashAlgorithm_String = new( ReleactionUtils.GetType("Mono.Security.StrongName"), "GetHashAlgorithm", 0, typeof(System.String));
+					r_GetHashAlgorithm_String = new( ReflectionUtils.GetType("Mono.Security.StrongName"), "GetHashAlgorithm", 0, typeof(System.String));
 					r_GetHashAlgorithm_String.SetBelong(null);
 				}
 				return r_GetHashAlgorithm_String;
@@ -275,7 +275,7 @@ namespace SMFrame.Editor.Refleaction.RMono.RSecurity
 			{
 				if(r_Error_String == null)
 				{
-					r_Error_String = new( ReleactionUtils.GetType("Mono.Security.StrongName"), "Error", 0, typeof(System.String));
+					r_Error_String = new( ReflectionUtils.GetType("Mono.Security.StrongName"), "Error", 0, typeof(System.String));
 					r_Error_String.SetBelong(null);
 				}
 				return r_Error_String;
@@ -292,7 +292,7 @@ namespace SMFrame.Editor.Refleaction.RMono.RSecurity
 			{
 				if(r_ReadMore_Stream_ByteArray_Int32 == null)
 				{
-					r_ReadMore_Stream_ByteArray_Int32 = new( ReleactionUtils.GetType("Mono.Security.StrongName"), "ReadMore", 0, typeof(System.IO.Stream), typeof(System.Byte).MakeArrayType(), typeof(System.Int32));
+					r_ReadMore_Stream_ByteArray_Int32 = new( ReflectionUtils.GetType("Mono.Security.StrongName"), "ReadMore", 0, typeof(System.IO.Stream), typeof(System.Byte).MakeArrayType(), typeof(System.Int32));
 					r_ReadMore_Stream_ByteArray_Int32.SetBelong(null);
 				}
 				return r_ReadMore_Stream_ByteArray_Int32;
@@ -309,7 +309,7 @@ namespace SMFrame.Editor.Refleaction.RMono.RSecurity
 			{
 				if(r_StrongHash_Stream_StrongNameOptions == null)
 				{
-					r_StrongHash_Stream_StrongNameOptions = new(this, "StrongHash", 0, typeof(System.IO.Stream),  ReleactionUtils.GetType("Mono.Security.StrongName+StrongNameOptions"));
+					r_StrongHash_Stream_StrongNameOptions = new(this, "StrongHash", 0, typeof(System.IO.Stream),  ReflectionUtils.GetType("Mono.Security.StrongName+StrongNameOptions"));
 					r_StrongHash_Stream_StrongNameOptions.SetBelong(this.instance);
 				}
 				return r_StrongHash_Stream_StrongNameOptions;
@@ -394,7 +394,7 @@ namespace SMFrame.Editor.Refleaction.RMono.RSecurity
 			{
 				if(r_IsAssemblyStrongnamed_String == null)
 				{
-					r_IsAssemblyStrongnamed_String = new( ReleactionUtils.GetType("Mono.Security.StrongName"), "IsAssemblyStrongnamed", 0, typeof(System.String));
+					r_IsAssemblyStrongnamed_String = new( ReflectionUtils.GetType("Mono.Security.StrongName"), "IsAssemblyStrongnamed", 0, typeof(System.String));
 					r_IsAssemblyStrongnamed_String.SetBelong(null);
 				}
 				return r_IsAssemblyStrongnamed_String;
@@ -411,7 +411,7 @@ namespace SMFrame.Editor.Refleaction.RMono.RSecurity
 			{
 				if(r_VerifySignature_ByteArray_Int32_ByteArray_ByteArray == null)
 				{
-					r_VerifySignature_ByteArray_Int32_ByteArray_ByteArray = new( ReleactionUtils.GetType("Mono.Security.StrongName"), "VerifySignature", 0, typeof(System.Byte).MakeArrayType(), typeof(System.Int32), typeof(System.Byte).MakeArrayType(), typeof(System.Byte).MakeArrayType());
+					r_VerifySignature_ByteArray_Int32_ByteArray_ByteArray = new( ReflectionUtils.GetType("Mono.Security.StrongName"), "VerifySignature", 0, typeof(System.Byte).MakeArrayType(), typeof(System.Int32), typeof(System.Byte).MakeArrayType(), typeof(System.Byte).MakeArrayType());
 					r_VerifySignature_ByteArray_Int32_ByteArray_ByteArray.SetBelong(null);
 				}
 				return r_VerifySignature_ByteArray_Int32_ByteArray_ByteArray;
@@ -428,7 +428,7 @@ namespace SMFrame.Editor.Refleaction.RMono.RSecurity
 			{
 				if(r_Verify_RSA_AssemblyHashAlgorithm_ByteArray_ByteArray == null)
 				{
-					r_Verify_RSA_AssemblyHashAlgorithm_ByteArray_ByteArray = new( ReleactionUtils.GetType("Mono.Security.StrongName"), "Verify", 0, typeof(System.Security.Cryptography.RSA), typeof(System.Configuration.Assemblies.AssemblyHashAlgorithm), typeof(System.Byte).MakeArrayType(), typeof(System.Byte).MakeArrayType());
+					r_Verify_RSA_AssemblyHashAlgorithm_ByteArray_ByteArray = new( ReflectionUtils.GetType("Mono.Security.StrongName"), "Verify", 0, typeof(System.Security.Cryptography.RSA), typeof(System.Configuration.Assemblies.AssemblyHashAlgorithm), typeof(System.Byte).MakeArrayType(), typeof(System.Byte).MakeArrayType());
 					r_Verify_RSA_AssemblyHashAlgorithm_ByteArray_ByteArray.SetBelong(null);
 				}
 				return r_Verify_RSA_AssemblyHashAlgorithm_ByteArray_ByteArray;

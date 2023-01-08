@@ -88,7 +88,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 			{
 				if(r_Create_RASSettings == null)
 				{
-					r_Create_RASSettings = new(typeof(UnityEngine.Experimental.Rendering.RayTracingAccelerationStructure), "Create", 0,  ReleactionUtils.GetType("UnityEngine.Experimental.Rendering.RayTracingAccelerationStructure+RASSettings"));
+					r_Create_RASSettings = new(typeof(UnityEngine.Experimental.Rendering.RayTracingAccelerationStructure), "Create", 0,  ReflectionUtils.GetType("UnityEngine.Experimental.Rendering.RayTracingAccelerationStructure+RASSettings"));
 					r_Create_RASSettings.SetBelong(null);
 				}
 				return r_Create_RASSettings;
@@ -598,7 +598,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 			{
 				if(r_Create_Injected_Ref_RASSettings == null)
 				{
-					r_Create_Injected_Ref_RASSettings = new(typeof(UnityEngine.Experimental.Rendering.RayTracingAccelerationStructure), "Create_Injected", 0,  ReleactionUtils.GetType("UnityEngine.Experimental.Rendering.RayTracingAccelerationStructure+RASSettings").MakeByRefType());
+					r_Create_Injected_Ref_RASSettings = new(typeof(UnityEngine.Experimental.Rendering.RayTracingAccelerationStructure), "Create_Injected", 0,  ReflectionUtils.GetType("UnityEngine.Experimental.Rendering.RayTracingAccelerationStructure+RASSettings").MakeByRefType());
 					r_Create_Injected_Ref_RASSettings.SetBelong(null);
 				}
 				return r_Create_Injected_Ref_RASSettings;

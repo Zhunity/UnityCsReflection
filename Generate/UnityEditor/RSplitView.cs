@@ -20,7 +20,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 			{
 				if(r_kRootDropZoneThickness == null)
 				{
-					r_kRootDropZoneThickness = new( ReleactionUtils.GetType("UnityEditor.SplitView"), "kRootDropZoneThickness");
+					r_kRootDropZoneThickness = new( ReflectionUtils.GetType("UnityEditor.SplitView"), "kRootDropZoneThickness");
 					r_kRootDropZoneThickness.SetBelong(null);
 				}
 				return r_kRootDropZoneThickness;
@@ -37,7 +37,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 			{
 				if(r_kRootDropZoneOffset == null)
 				{
-					r_kRootDropZoneOffset = new( ReleactionUtils.GetType("UnityEditor.SplitView"), "kRootDropZoneOffset");
+					r_kRootDropZoneOffset = new( ReflectionUtils.GetType("UnityEditor.SplitView"), "kRootDropZoneOffset");
 					r_kRootDropZoneOffset.SetBelong(null);
 				}
 				return r_kRootDropZoneOffset;
@@ -54,7 +54,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 			{
 				if(r_kRootDropDestinationThickness == null)
 				{
-					r_kRootDropDestinationThickness = new( ReleactionUtils.GetType("UnityEditor.SplitView"), "kRootDropDestinationThickness");
+					r_kRootDropDestinationThickness = new( ReflectionUtils.GetType("UnityEditor.SplitView"), "kRootDropDestinationThickness");
 					r_kRootDropDestinationThickness.SetBelong(null);
 				}
 				return r_kRootDropDestinationThickness;
@@ -71,7 +71,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 			{
 				if(r_kMaxViewDropZoneThickness == null)
 				{
-					r_kMaxViewDropZoneThickness = new( ReleactionUtils.GetType("UnityEditor.SplitView"), "kMaxViewDropZoneThickness");
+					r_kMaxViewDropZoneThickness = new( ReflectionUtils.GetType("UnityEditor.SplitView"), "kMaxViewDropZoneThickness");
 					r_kMaxViewDropZoneThickness.SetBelong(null);
 				}
 				return r_kMaxViewDropZoneThickness;
@@ -88,7 +88,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 			{
 				if(r_kMinViewDropDestinationThickness == null)
 				{
-					r_kMinViewDropDestinationThickness = new( ReleactionUtils.GetType("UnityEditor.SplitView"), "kMinViewDropDestinationThickness");
+					r_kMinViewDropDestinationThickness = new( ReflectionUtils.GetType("UnityEditor.SplitView"), "kMinViewDropDestinationThickness");
 					r_kMinViewDropDestinationThickness.SetBelong(null);
 				}
 				return r_kMinViewDropDestinationThickness;
@@ -156,7 +156,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 			{
 				if(r_kGrabDist == null)
 				{
-					r_kGrabDist = new( ReleactionUtils.GetType("UnityEditor.SplitView"), "kGrabDist");
+					r_kGrabDist = new( ReflectionUtils.GetType("UnityEditor.SplitView"), "kGrabDist");
 					r_kGrabDist.SetBelong(null);
 				}
 				return r_kGrabDist;
@@ -394,7 +394,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 			{
 				if(r_RectFromEdge_Rect_ViewEdge_Single_Single == null)
 				{
-					r_RectFromEdge_Rect_ViewEdge_Single_Single = new(this, "RectFromEdge", 0, typeof(UnityEngine.Rect),  ReleactionUtils.GetType("UnityEditor.SplitView+ViewEdge"), typeof(System.Single), typeof(System.Single));
+					r_RectFromEdge_Rect_ViewEdge_Single_Single = new(this, "RectFromEdge", 0, typeof(UnityEngine.Rect),  ReflectionUtils.GetType("UnityEditor.SplitView+ViewEdge"), typeof(System.Single), typeof(System.Single));
 					r_RectFromEdge_Rect_ViewEdge_Single_Single.SetBelong(this.instance);
 				}
 				return r_RectFromEdge_Rect_ViewEdge_Single_Single;
@@ -445,7 +445,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 			{
 				if(r_RecalcMinMaxAndReflowAll_SplitView == null)
 				{
-					r_RecalcMinMaxAndReflowAll_SplitView = new( ReleactionUtils.GetType("UnityEditor.SplitView"), "RecalcMinMaxAndReflowAll", 0,  ReleactionUtils.GetType("UnityEditor.SplitView"));
+					r_RecalcMinMaxAndReflowAll_SplitView = new( ReflectionUtils.GetType("UnityEditor.SplitView"), "RecalcMinMaxAndReflowAll", 0,  ReflectionUtils.GetType("UnityEditor.SplitView"));
 					r_RecalcMinMaxAndReflowAll_SplitView.SetBelong(null);
 				}
 				return r_RecalcMinMaxAndReflowAll_SplitView;
@@ -462,7 +462,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 			{
 				if(r_RecalcMinMaxRecurse_SplitView == null)
 				{
-					r_RecalcMinMaxRecurse_SplitView = new( ReleactionUtils.GetType("UnityEditor.SplitView"), "RecalcMinMaxRecurse", 0,  ReleactionUtils.GetType("UnityEditor.SplitView"));
+					r_RecalcMinMaxRecurse_SplitView = new( ReflectionUtils.GetType("UnityEditor.SplitView"), "RecalcMinMaxRecurse", 0,  ReflectionUtils.GetType("UnityEditor.SplitView"));
 					r_RecalcMinMaxRecurse_SplitView.SetBelong(null);
 				}
 				return r_RecalcMinMaxRecurse_SplitView;
@@ -479,7 +479,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 			{
 				if(r_ReflowRecurse_SplitView == null)
 				{
-					r_ReflowRecurse_SplitView = new( ReleactionUtils.GetType("UnityEditor.SplitView"), "ReflowRecurse", 0,  ReleactionUtils.GetType("UnityEditor.SplitView"));
+					r_ReflowRecurse_SplitView = new( ReflectionUtils.GetType("UnityEditor.SplitView"), "ReflowRecurse", 0,  ReflectionUtils.GetType("UnityEditor.SplitView"));
 					r_ReflowRecurse_SplitView.SetBelong(null);
 				}
 				return r_ReflowRecurse_SplitView;
@@ -530,7 +530,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 			{
 				if(r_AddChild_View_Int32 == null)
 				{
-					r_AddChild_View_Int32 = new(this, "AddChild", 0,  ReleactionUtils.GetType("UnityEditor.View"), typeof(System.Int32));
+					r_AddChild_View_Int32 = new(this, "AddChild", 0,  ReflectionUtils.GetType("UnityEditor.View"), typeof(System.Int32));
 					r_AddChild_View_Int32.SetBelong(this.instance);
 				}
 				return r_AddChild_View_Int32;
@@ -547,7 +547,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 			{
 				if(r_RemoveChildNice_View == null)
 				{
-					r_RemoveChildNice_View = new(this, "RemoveChildNice", 0,  ReleactionUtils.GetType("UnityEditor.View"));
+					r_RemoveChildNice_View = new(this, "RemoveChildNice", 0,  ReflectionUtils.GetType("UnityEditor.View"));
 					r_RemoveChildNice_View.SetBelong(this.instance);
 				}
 				return r_RemoveChildNice_View;
@@ -564,7 +564,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 			{
 				if(r_RemoveChild_View == null)
 				{
-					r_RemoveChild_View = new(this, "RemoveChild", 0,  ReleactionUtils.GetType("UnityEditor.View"));
+					r_RemoveChild_View = new(this, "RemoveChild", 0,  ReflectionUtils.GetType("UnityEditor.View"));
 					r_RemoveChild_View.SetBelong(this.instance);
 				}
 				return r_RemoveChild_View;
@@ -581,7 +581,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 			{
 				if(r_RootViewDropZone_ViewEdge_Vector2_Rect == null)
 				{
-					r_RootViewDropZone_ViewEdge_Vector2_Rect = new(this, "RootViewDropZone", 0,  ReleactionUtils.GetType("UnityEditor.SplitView+ViewEdge"), typeof(UnityEngine.Vector2), typeof(UnityEngine.Rect));
+					r_RootViewDropZone_ViewEdge_Vector2_Rect = new(this, "RootViewDropZone", 0,  ReflectionUtils.GetType("UnityEditor.SplitView+ViewEdge"), typeof(UnityEngine.Vector2), typeof(UnityEngine.Rect));
 					r_RootViewDropZone_ViewEdge_Vector2_Rect.SetBelong(this.instance);
 				}
 				return r_RootViewDropZone_ViewEdge_Vector2_Rect;
@@ -666,7 +666,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 			{
 				if(r_PerformDrop_EditorWindow_DropInfo_Vector2 == null)
 				{
-					r_PerformDrop_EditorWindow_DropInfo_Vector2 = new(this, "PerformDrop", 0, typeof(UnityEditor.EditorWindow),  ReleactionUtils.GetType("UnityEditor.DropInfo"), typeof(UnityEngine.Vector2));
+					r_PerformDrop_EditorWindow_DropInfo_Vector2 = new(this, "PerformDrop", 0, typeof(UnityEditor.EditorWindow),  ReflectionUtils.GetType("UnityEditor.DropInfo"), typeof(UnityEngine.Vector2));
 					r_PerformDrop_EditorWindow_DropInfo_Vector2.SetBelong(this.instance);
 				}
 				return r_PerformDrop_EditorWindow_DropInfo_Vector2;
@@ -785,7 +785,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 			{
 				if(r_Initialize_ContainerWindow == null)
 				{
-					r_Initialize_ContainerWindow = new(this, "Initialize", 0,  ReleactionUtils.GetType("UnityEditor.ContainerWindow"));
+					r_Initialize_ContainerWindow = new(this, "Initialize", 0,  ReflectionUtils.GetType("UnityEditor.ContainerWindow"));
 					r_Initialize_ContainerWindow.SetBelong(this.instance);
 				}
 				return r_Initialize_ContainerWindow;
@@ -836,7 +836,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 			{
 				if(r_IndexOfChild_View == null)
 				{
-					r_IndexOfChild_View = new(this, "IndexOfChild", 0,  ReleactionUtils.GetType("UnityEditor.View"));
+					r_IndexOfChild_View = new(this, "IndexOfChild", 0,  ReflectionUtils.GetType("UnityEditor.View"));
 					r_IndexOfChild_View.SetBelong(this.instance);
 				}
 				return r_IndexOfChild_View;
@@ -870,7 +870,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 			{
 				if(r_AddChild_View == null)
 				{
-					r_AddChild_View = new(this, "AddChild", 0,  ReleactionUtils.GetType("UnityEditor.View"));
+					r_AddChild_View = new(this, "AddChild", 0,  ReflectionUtils.GetType("UnityEditor.View"));
 					r_AddChild_View.SetBelong(this.instance);
 				}
 				return r_AddChild_View;
@@ -904,7 +904,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 			{
 				if(r_SetWindow_ContainerWindow == null)
 				{
-					r_SetWindow_ContainerWindow = new(this, "SetWindow", 0,  ReleactionUtils.GetType("UnityEditor.ContainerWindow"));
+					r_SetWindow_ContainerWindow = new(this, "SetWindow", 0,  ReflectionUtils.GetType("UnityEditor.ContainerWindow"));
 					r_SetWindow_ContainerWindow.SetBelong(this.instance);
 				}
 				return r_SetWindow_ContainerWindow;
@@ -921,7 +921,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 			{
 				if(r_SetWindowRecurse_ContainerWindow == null)
 				{
-					r_SetWindowRecurse_ContainerWindow = new(this, "SetWindowRecurse", 0,  ReleactionUtils.GetType("UnityEditor.ContainerWindow"));
+					r_SetWindowRecurse_ContainerWindow = new(this, "SetWindowRecurse", 0,  ReflectionUtils.GetType("UnityEditor.ContainerWindow"));
 					r_SetWindowRecurse_ContainerWindow.SetBelong(this.instance);
 				}
 				return r_SetWindowRecurse_ContainerWindow;

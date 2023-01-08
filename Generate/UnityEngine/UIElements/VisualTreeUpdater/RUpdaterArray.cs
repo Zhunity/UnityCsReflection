@@ -39,7 +39,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_Item_VisualTreeUpdatePhase == null)
 				{
-					r_Item_VisualTreeUpdatePhase = new(this, "Item", -1,  ReleactionUtils.GetType("UnityEngine.UIElements.VisualTreeUpdatePhase"));
+					r_Item_VisualTreeUpdatePhase = new(this, "Item", -1,  ReflectionUtils.GetType("UnityEngine.UIElements.VisualTreeUpdatePhase"));
 					r_Item_VisualTreeUpdatePhase.SetBelong(this.instance);
 				}
 				return r_Item_VisualTreeUpdatePhase;

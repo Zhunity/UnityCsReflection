@@ -88,7 +88,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 			{
 				if(r_AddItem_GUIContent_Boolean_MenuFunction == null)
 				{
-					r_AddItem_GUIContent_Boolean_MenuFunction = new(this, "AddItem", 0, typeof(UnityEngine.GUIContent), typeof(System.Boolean),  ReleactionUtils.GetType("UnityEditor.GenericMenu+MenuFunction"));
+					r_AddItem_GUIContent_Boolean_MenuFunction = new(this, "AddItem", 0, typeof(UnityEngine.GUIContent), typeof(System.Boolean),  ReflectionUtils.GetType("UnityEditor.GenericMenu+MenuFunction"));
 					r_AddItem_GUIContent_Boolean_MenuFunction.SetBelong(this.instance);
 				}
 				return r_AddItem_GUIContent_Boolean_MenuFunction;
@@ -105,7 +105,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 			{
 				if(r_AddItem_GUIContent_Boolean_MenuFunction2_Object == null)
 				{
-					r_AddItem_GUIContent_Boolean_MenuFunction2_Object = new(this, "AddItem", 0, typeof(UnityEngine.GUIContent), typeof(System.Boolean),  ReleactionUtils.GetType("UnityEditor.GenericMenu+MenuFunction2"), typeof(System.Object));
+					r_AddItem_GUIContent_Boolean_MenuFunction2_Object = new(this, "AddItem", 0, typeof(UnityEngine.GUIContent), typeof(System.Boolean),  ReflectionUtils.GetType("UnityEditor.GenericMenu+MenuFunction2"), typeof(System.Object));
 					r_AddItem_GUIContent_Boolean_MenuFunction2_Object.SetBelong(this.instance);
 				}
 				return r_AddItem_GUIContent_Boolean_MenuFunction2_Object;

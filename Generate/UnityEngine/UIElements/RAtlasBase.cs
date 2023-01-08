@@ -37,7 +37,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_TryGetAtlas_VisualElement_Texture2D_Out_TextureId_Out_RectInt == null)
 				{
-					r_TryGetAtlas_VisualElement_Texture2D_Out_TextureId_Out_RectInt = new(this, "TryGetAtlas", 0, typeof(UnityEngine.UIElements.VisualElement), typeof(UnityEngine.Texture2D),  ReleactionUtils.GetType("UnityEngine.UIElements.TextureId").MakeByRefType(), typeof(UnityEngine.RectInt).MakeByRefType());
+					r_TryGetAtlas_VisualElement_Texture2D_Out_TextureId_Out_RectInt = new(this, "TryGetAtlas", 0, typeof(UnityEngine.UIElements.VisualElement), typeof(UnityEngine.Texture2D),  ReflectionUtils.GetType("UnityEngine.UIElements.TextureId").MakeByRefType(), typeof(UnityEngine.RectInt).MakeByRefType());
 					r_TryGetAtlas_VisualElement_Texture2D_Out_TextureId_Out_RectInt.SetBelong(this.instance);
 				}
 				return r_TryGetAtlas_VisualElement_Texture2D_Out_TextureId_Out_RectInt;
@@ -54,7 +54,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_ReturnAtlas_VisualElement_Texture2D_TextureId == null)
 				{
-					r_ReturnAtlas_VisualElement_Texture2D_TextureId = new(this, "ReturnAtlas", 0, typeof(UnityEngine.UIElements.VisualElement), typeof(UnityEngine.Texture2D),  ReleactionUtils.GetType("UnityEngine.UIElements.TextureId"));
+					r_ReturnAtlas_VisualElement_Texture2D_TextureId = new(this, "ReturnAtlas", 0, typeof(UnityEngine.UIElements.VisualElement), typeof(UnityEngine.Texture2D),  ReflectionUtils.GetType("UnityEngine.UIElements.TextureId"));
 					r_ReturnAtlas_VisualElement_Texture2D_TextureId.SetBelong(this.instance);
 				}
 				return r_ReturnAtlas_VisualElement_Texture2D_TextureId;
@@ -190,7 +190,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_RepaintTexturedElements_IPanel == null)
 				{
-					r_RepaintTexturedElements_IPanel = new( ReleactionUtils.GetType("UnityEngine.UIElements.AtlasBase"), "RepaintTexturedElements", 0, typeof(UnityEngine.UIElements.IPanel));
+					r_RepaintTexturedElements_IPanel = new( ReflectionUtils.GetType("UnityEngine.UIElements.AtlasBase"), "RepaintTexturedElements", 0, typeof(UnityEngine.UIElements.IPanel));
 					r_RepaintTexturedElements_IPanel.SetBelong(null);
 				}
 				return r_RepaintTexturedElements_IPanel;
@@ -224,7 +224,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_FreeDynamicTexture_TextureId == null)
 				{
-					r_FreeDynamicTexture_TextureId = new(this, "FreeDynamicTexture", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.TextureId"));
+					r_FreeDynamicTexture_TextureId = new(this, "FreeDynamicTexture", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.TextureId"));
 					r_FreeDynamicTexture_TextureId.SetBelong(this.instance);
 				}
 				return r_FreeDynamicTexture_TextureId;
@@ -241,7 +241,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_SetDynamicTexture_TextureId_Texture == null)
 				{
-					r_SetDynamicTexture_TextureId_Texture = new(this, "SetDynamicTexture", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.TextureId"), typeof(UnityEngine.Texture));
+					r_SetDynamicTexture_TextureId_Texture = new(this, "SetDynamicTexture", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.TextureId"), typeof(UnityEngine.Texture));
 					r_SetDynamicTexture_TextureId_Texture.SetBelong(this.instance);
 				}
 				return r_SetDynamicTexture_TextureId_Texture;

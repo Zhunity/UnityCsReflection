@@ -377,7 +377,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 			{
 				if(r_TryParseGuid_ReadOnlySpan_d_Char_p__GuidStyles_Ref_GuidResult == null)
 				{
-					r_TryParseGuid_ReadOnlySpan_d_Char_p__GuidStyles_Ref_GuidResult = new(typeof(System.Guid), "TryParseGuid", 0, typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Char)),  ReleactionUtils.GetType("System.Guid+GuidStyles"),  ReleactionUtils.GetType("System.Guid+GuidResult").MakeByRefType());
+					r_TryParseGuid_ReadOnlySpan_d_Char_p__GuidStyles_Ref_GuidResult = new(typeof(System.Guid), "TryParseGuid", 0, typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Char)),  ReflectionUtils.GetType("System.Guid+GuidStyles"),  ReflectionUtils.GetType("System.Guid+GuidResult").MakeByRefType());
 					r_TryParseGuid_ReadOnlySpan_d_Char_p__GuidStyles_Ref_GuidResult.SetBelong(null);
 				}
 				return r_TryParseGuid_ReadOnlySpan_d_Char_p__GuidStyles_Ref_GuidResult;
@@ -394,7 +394,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 			{
 				if(r_TryParseGuidWithHexPrefix_ReadOnlySpan_d_Char_p__Ref_GuidResult == null)
 				{
-					r_TryParseGuidWithHexPrefix_ReadOnlySpan_d_Char_p__Ref_GuidResult = new(typeof(System.Guid), "TryParseGuidWithHexPrefix", 0, typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Char)),  ReleactionUtils.GetType("System.Guid+GuidResult").MakeByRefType());
+					r_TryParseGuidWithHexPrefix_ReadOnlySpan_d_Char_p__Ref_GuidResult = new(typeof(System.Guid), "TryParseGuidWithHexPrefix", 0, typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Char)),  ReflectionUtils.GetType("System.Guid+GuidResult").MakeByRefType());
 					r_TryParseGuidWithHexPrefix_ReadOnlySpan_d_Char_p__Ref_GuidResult.SetBelong(null);
 				}
 				return r_TryParseGuidWithHexPrefix_ReadOnlySpan_d_Char_p__Ref_GuidResult;
@@ -411,7 +411,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 			{
 				if(r_TryParseGuidWithNoStyle_ReadOnlySpan_d_Char_p__Ref_GuidResult == null)
 				{
-					r_TryParseGuidWithNoStyle_ReadOnlySpan_d_Char_p__Ref_GuidResult = new(typeof(System.Guid), "TryParseGuidWithNoStyle", 0, typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Char)),  ReleactionUtils.GetType("System.Guid+GuidResult").MakeByRefType());
+					r_TryParseGuidWithNoStyle_ReadOnlySpan_d_Char_p__Ref_GuidResult = new(typeof(System.Guid), "TryParseGuidWithNoStyle", 0, typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Char)),  ReflectionUtils.GetType("System.Guid+GuidResult").MakeByRefType());
 					r_TryParseGuidWithNoStyle_ReadOnlySpan_d_Char_p__Ref_GuidResult.SetBelong(null);
 				}
 				return r_TryParseGuidWithNoStyle_ReadOnlySpan_d_Char_p__Ref_GuidResult;
@@ -428,7 +428,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 			{
 				if(r_TryParseGuidWithDashes_ReadOnlySpan_d_Char_p__Ref_GuidResult == null)
 				{
-					r_TryParseGuidWithDashes_ReadOnlySpan_d_Char_p__Ref_GuidResult = new(typeof(System.Guid), "TryParseGuidWithDashes", 0, typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Char)),  ReleactionUtils.GetType("System.Guid+GuidResult").MakeByRefType());
+					r_TryParseGuidWithDashes_ReadOnlySpan_d_Char_p__Ref_GuidResult = new(typeof(System.Guid), "TryParseGuidWithDashes", 0, typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Char)),  ReflectionUtils.GetType("System.Guid+GuidResult").MakeByRefType());
 					r_TryParseGuidWithDashes_ReadOnlySpan_d_Char_p__Ref_GuidResult.SetBelong(null);
 				}
 				return r_TryParseGuidWithDashes_ReadOnlySpan_d_Char_p__Ref_GuidResult;
@@ -445,7 +445,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 			{
 				if(r_StringToShort_ReadOnlySpan_d_Char_p__Int32_Int32_Out_Int16_Ref_GuidResult == null)
 				{
-					r_StringToShort_ReadOnlySpan_d_Char_p__Int32_Int32_Out_Int16_Ref_GuidResult = new(typeof(System.Guid), "StringToShort", 0, typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Char)), typeof(System.Int32), typeof(System.Int32), typeof(System.Int16).MakeByRefType(),  ReleactionUtils.GetType("System.Guid+GuidResult").MakeByRefType());
+					r_StringToShort_ReadOnlySpan_d_Char_p__Int32_Int32_Out_Int16_Ref_GuidResult = new(typeof(System.Guid), "StringToShort", 0, typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Char)), typeof(System.Int32), typeof(System.Int32), typeof(System.Int16).MakeByRefType(),  ReflectionUtils.GetType("System.Guid+GuidResult").MakeByRefType());
 					r_StringToShort_ReadOnlySpan_d_Char_p__Int32_Int32_Out_Int16_Ref_GuidResult.SetBelong(null);
 				}
 				return r_StringToShort_ReadOnlySpan_d_Char_p__Int32_Int32_Out_Int16_Ref_GuidResult;
@@ -462,7 +462,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 			{
 				if(r_StringToShort_ReadOnlySpan_d_Char_p__Ref_Int32_Int32_Int32_Out_Int16_Ref_GuidResult == null)
 				{
-					r_StringToShort_ReadOnlySpan_d_Char_p__Ref_Int32_Int32_Int32_Out_Int16_Ref_GuidResult = new(typeof(System.Guid), "StringToShort", 0, typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Char)), typeof(System.Int32).MakeByRefType(), typeof(System.Int32), typeof(System.Int32), typeof(System.Int16).MakeByRefType(),  ReleactionUtils.GetType("System.Guid+GuidResult").MakeByRefType());
+					r_StringToShort_ReadOnlySpan_d_Char_p__Ref_Int32_Int32_Int32_Out_Int16_Ref_GuidResult = new(typeof(System.Guid), "StringToShort", 0, typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Char)), typeof(System.Int32).MakeByRefType(), typeof(System.Int32), typeof(System.Int32), typeof(System.Int16).MakeByRefType(),  ReflectionUtils.GetType("System.Guid+GuidResult").MakeByRefType());
 					r_StringToShort_ReadOnlySpan_d_Char_p__Ref_Int32_Int32_Int32_Out_Int16_Ref_GuidResult.SetBelong(null);
 				}
 				return r_StringToShort_ReadOnlySpan_d_Char_p__Ref_Int32_Int32_Int32_Out_Int16_Ref_GuidResult;
@@ -479,7 +479,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 			{
 				if(r_StringToInt_ReadOnlySpan_d_Char_p__Int32_Int32_Out_Int32_Ref_GuidResult == null)
 				{
-					r_StringToInt_ReadOnlySpan_d_Char_p__Int32_Int32_Out_Int32_Ref_GuidResult = new(typeof(System.Guid), "StringToInt", 0, typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Char)), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32).MakeByRefType(),  ReleactionUtils.GetType("System.Guid+GuidResult").MakeByRefType());
+					r_StringToInt_ReadOnlySpan_d_Char_p__Int32_Int32_Out_Int32_Ref_GuidResult = new(typeof(System.Guid), "StringToInt", 0, typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Char)), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32).MakeByRefType(),  ReflectionUtils.GetType("System.Guid+GuidResult").MakeByRefType());
 					r_StringToInt_ReadOnlySpan_d_Char_p__Int32_Int32_Out_Int32_Ref_GuidResult.SetBelong(null);
 				}
 				return r_StringToInt_ReadOnlySpan_d_Char_p__Int32_Int32_Out_Int32_Ref_GuidResult;
@@ -496,7 +496,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 			{
 				if(r_StringToInt_ReadOnlySpan_d_Char_p__Ref_Int32_Int32_Int32_Out_Int32_Ref_GuidResult == null)
 				{
-					r_StringToInt_ReadOnlySpan_d_Char_p__Ref_Int32_Int32_Int32_Out_Int32_Ref_GuidResult = new(typeof(System.Guid), "StringToInt", 0, typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Char)), typeof(System.Int32).MakeByRefType(), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32).MakeByRefType(),  ReleactionUtils.GetType("System.Guid+GuidResult").MakeByRefType());
+					r_StringToInt_ReadOnlySpan_d_Char_p__Ref_Int32_Int32_Int32_Out_Int32_Ref_GuidResult = new(typeof(System.Guid), "StringToInt", 0, typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Char)), typeof(System.Int32).MakeByRefType(), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32).MakeByRefType(),  ReflectionUtils.GetType("System.Guid+GuidResult").MakeByRefType());
 					r_StringToInt_ReadOnlySpan_d_Char_p__Ref_Int32_Int32_Int32_Out_Int32_Ref_GuidResult.SetBelong(null);
 				}
 				return r_StringToInt_ReadOnlySpan_d_Char_p__Ref_Int32_Int32_Int32_Out_Int32_Ref_GuidResult;
@@ -513,7 +513,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 			{
 				if(r_StringToLong_ReadOnlySpan_d_Char_p__Ref_Int32_Int32_Out_Int64_Ref_GuidResult == null)
 				{
-					r_StringToLong_ReadOnlySpan_d_Char_p__Ref_Int32_Int32_Out_Int64_Ref_GuidResult = new(typeof(System.Guid), "StringToLong", 0, typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Char)), typeof(System.Int32).MakeByRefType(), typeof(System.Int32), typeof(System.Int64).MakeByRefType(),  ReleactionUtils.GetType("System.Guid+GuidResult").MakeByRefType());
+					r_StringToLong_ReadOnlySpan_d_Char_p__Ref_Int32_Int32_Out_Int64_Ref_GuidResult = new(typeof(System.Guid), "StringToLong", 0, typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Char)), typeof(System.Int32).MakeByRefType(), typeof(System.Int32), typeof(System.Int64).MakeByRefType(),  ReflectionUtils.GetType("System.Guid+GuidResult").MakeByRefType());
 					r_StringToLong_ReadOnlySpan_d_Char_p__Ref_Int32_Int32_Out_Int64_Ref_GuidResult.SetBelong(null);
 				}
 				return r_StringToLong_ReadOnlySpan_d_Char_p__Ref_Int32_Int32_Out_Int64_Ref_GuidResult;

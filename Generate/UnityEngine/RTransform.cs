@@ -700,7 +700,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 			{
 				if(r_GetLocalEulerAngles_RotationOrder == null)
 				{
-					r_GetLocalEulerAngles_RotationOrder = new(this, "GetLocalEulerAngles", 0,  ReleactionUtils.GetType("UnityEngine.RotationOrder"));
+					r_GetLocalEulerAngles_RotationOrder = new(this, "GetLocalEulerAngles", 0,  ReflectionUtils.GetType("UnityEngine.RotationOrder"));
 					r_GetLocalEulerAngles_RotationOrder.SetBelong(this.instance);
 				}
 				return r_GetLocalEulerAngles_RotationOrder;
@@ -717,7 +717,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 			{
 				if(r_SetLocalEulerAngles_Vector3_RotationOrder == null)
 				{
-					r_SetLocalEulerAngles_Vector3_RotationOrder = new(this, "SetLocalEulerAngles", 0, typeof(UnityEngine.Vector3),  ReleactionUtils.GetType("UnityEngine.RotationOrder"));
+					r_SetLocalEulerAngles_Vector3_RotationOrder = new(this, "SetLocalEulerAngles", 0, typeof(UnityEngine.Vector3),  ReflectionUtils.GetType("UnityEngine.RotationOrder"));
 					r_SetLocalEulerAngles_Vector3_RotationOrder.SetBelong(this.instance);
 				}
 				return r_SetLocalEulerAngles_Vector3_RotationOrder;
@@ -768,7 +768,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 			{
 				if(r_SetRotationOrderInternal_RotationOrder == null)
 				{
-					r_SetRotationOrderInternal_RotationOrder = new(this, "SetRotationOrderInternal", 0,  ReleactionUtils.GetType("UnityEngine.RotationOrder"));
+					r_SetRotationOrderInternal_RotationOrder = new(this, "SetRotationOrderInternal", 0,  ReflectionUtils.GetType("UnityEngine.RotationOrder"));
 					r_SetRotationOrderInternal_RotationOrder.SetBelong(this.instance);
 				}
 				return r_SetRotationOrderInternal_RotationOrder;
@@ -1856,7 +1856,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 			{
 				if(r_GetLocalEulerAngles_Injected_RotationOrder_Out_Vector3 == null)
 				{
-					r_GetLocalEulerAngles_Injected_RotationOrder_Out_Vector3 = new(this, "GetLocalEulerAngles_Injected", 0,  ReleactionUtils.GetType("UnityEngine.RotationOrder"), typeof(UnityEngine.Vector3).MakeByRefType());
+					r_GetLocalEulerAngles_Injected_RotationOrder_Out_Vector3 = new(this, "GetLocalEulerAngles_Injected", 0,  ReflectionUtils.GetType("UnityEngine.RotationOrder"), typeof(UnityEngine.Vector3).MakeByRefType());
 					r_GetLocalEulerAngles_Injected_RotationOrder_Out_Vector3.SetBelong(this.instance);
 				}
 				return r_GetLocalEulerAngles_Injected_RotationOrder_Out_Vector3;
@@ -1873,7 +1873,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 			{
 				if(r_SetLocalEulerAngles_Injected_Ref_Vector3_RotationOrder == null)
 				{
-					r_SetLocalEulerAngles_Injected_Ref_Vector3_RotationOrder = new(this, "SetLocalEulerAngles_Injected", 0, typeof(UnityEngine.Vector3).MakeByRefType(),  ReleactionUtils.GetType("UnityEngine.RotationOrder"));
+					r_SetLocalEulerAngles_Injected_Ref_Vector3_RotationOrder = new(this, "SetLocalEulerAngles_Injected", 0, typeof(UnityEngine.Vector3).MakeByRefType(),  ReflectionUtils.GetType("UnityEngine.RotationOrder"));
 					r_SetLocalEulerAngles_Injected_Ref_Vector3_RotationOrder.SetBelong(this.instance);
 				}
 				return r_SetLocalEulerAngles_Injected_Ref_Vector3_RotationOrder;

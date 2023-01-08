@@ -139,7 +139,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 			{
 				if(r_kMoveDownHeight == null)
 				{
-					r_kMoveDownHeight = new( ReleactionUtils.GetType("UnityEngine.TextSelectingUtilities"), "kMoveDownHeight");
+					r_kMoveDownHeight = new( ReflectionUtils.GetType("UnityEngine.TextSelectingUtilities"), "kMoveDownHeight");
 					r_kMoveDownHeight.SetBelong(null);
 				}
 				return r_kMoveDownHeight;
@@ -156,7 +156,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 			{
 				if(r_kNewLineChar == null)
 				{
-					r_kNewLineChar = new( ReleactionUtils.GetType("UnityEngine.TextSelectingUtilities"), "kNewLineChar");
+					r_kNewLineChar = new( ReflectionUtils.GetType("UnityEngine.TextSelectingUtilities"), "kNewLineChar");
 					r_kNewLineChar.SetBelong(null);
 				}
 				return r_kNewLineChar;
@@ -1108,7 +1108,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 			{
 				if(r_DblClickSnap_DblClickSnapping == null)
 				{
-					r_DblClickSnap_DblClickSnapping = new(this, "DblClickSnap", 0,  ReleactionUtils.GetType("UnityEngine.TextEditor+DblClickSnapping"));
+					r_DblClickSnap_DblClickSnapping = new(this, "DblClickSnap", 0,  ReflectionUtils.GetType("UnityEngine.TextEditor+DblClickSnapping"));
 					r_DblClickSnap_DblClickSnapping.SetBelong(this.instance);
 				}
 				return r_DblClickSnap_DblClickSnapping;
@@ -1227,7 +1227,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FindEndOfClassification_Int32_Direction == null)
 				{
-					r_FindEndOfClassification_Int32_Direction = new(this, "FindEndOfClassification", 0, typeof(System.Int32),  ReleactionUtils.GetType("UnityEngine.TextSelectingUtilities+Direction"));
+					r_FindEndOfClassification_Int32_Direction = new(this, "FindEndOfClassification", 0, typeof(System.Int32),  ReflectionUtils.GetType("UnityEngine.TextSelectingUtilities+Direction"));
 					r_FindEndOfClassification_Int32_Direction.SetBelong(this.instance);
 				}
 				return r_FindEndOfClassification_Int32_Direction;

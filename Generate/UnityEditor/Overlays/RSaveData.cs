@@ -20,7 +20,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 			{
 				if(r_k_InvalidIndex == null)
 				{
-					r_k_InvalidIndex = new( ReleactionUtils.GetType("UnityEditor.Overlays.SaveData"), "k_InvalidIndex");
+					r_k_InvalidIndex = new( ReflectionUtils.GetType("UnityEditor.Overlays.SaveData"), "k_InvalidIndex");
 					r_k_InvalidIndex.SetBelong(null);
 				}
 				return r_k_InvalidIndex;
@@ -258,7 +258,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 			{
 				if(r_Equals_SaveData == null)
 				{
-					r_Equals_SaveData = new(this, "Equals", 0,  ReleactionUtils.GetType("UnityEditor.Overlays.SaveData"));
+					r_Equals_SaveData = new(this, "Equals", 0,  ReflectionUtils.GetType("UnityEditor.Overlays.SaveData"));
 					r_Equals_SaveData.SetBelong(this.instance);
 				}
 				return r_Equals_SaveData;

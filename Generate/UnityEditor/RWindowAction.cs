@@ -173,7 +173,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 			{
 				if(r_CreateWindowMenuItem_String_ExecuteHandler_String == null)
 				{
-					r_CreateWindowMenuItem_String_ExecuteHandler_String = new( ReleactionUtils.GetType("UnityEditor.WindowAction"), "CreateWindowMenuItem", 0, typeof(System.String),  ReleactionUtils.GetType("UnityEditor.WindowAction+ExecuteHandler"), typeof(System.String));
+					r_CreateWindowMenuItem_String_ExecuteHandler_String = new( ReflectionUtils.GetType("UnityEditor.WindowAction"), "CreateWindowMenuItem", 0, typeof(System.String),  ReflectionUtils.GetType("UnityEditor.WindowAction+ExecuteHandler"), typeof(System.String));
 					r_CreateWindowMenuItem_String_ExecuteHandler_String.SetBelong(null);
 				}
 				return r_CreateWindowMenuItem_String_ExecuteHandler_String;
@@ -190,7 +190,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 			{
 				if(r_CreateWindowActionButton_String_ExecuteHandler_String_Single_Texture2D == null)
 				{
-					r_CreateWindowActionButton_String_ExecuteHandler_String_Single_Texture2D = new( ReleactionUtils.GetType("UnityEditor.WindowAction"), "CreateWindowActionButton", 0, typeof(System.String),  ReleactionUtils.GetType("UnityEditor.WindowAction+ExecuteHandler"), typeof(System.String), typeof(System.Single), typeof(UnityEngine.Texture2D));
+					r_CreateWindowActionButton_String_ExecuteHandler_String_Single_Texture2D = new( ReflectionUtils.GetType("UnityEditor.WindowAction"), "CreateWindowActionButton", 0, typeof(System.String),  ReflectionUtils.GetType("UnityEditor.WindowAction+ExecuteHandler"), typeof(System.String), typeof(System.Single), typeof(UnityEngine.Texture2D));
 					r_CreateWindowActionButton_String_ExecuteHandler_String_Single_Texture2D.SetBelong(null);
 				}
 				return r_CreateWindowActionButton_String_ExecuteHandler_String_Single_Texture2D;
@@ -207,7 +207,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 			{
 				if(r_CreateWindowActionButton_String_ExecuteHandler_String_Single_DrawHandler == null)
 				{
-					r_CreateWindowActionButton_String_ExecuteHandler_String_Single_DrawHandler = new( ReleactionUtils.GetType("UnityEditor.WindowAction"), "CreateWindowActionButton", 0, typeof(System.String),  ReleactionUtils.GetType("UnityEditor.WindowAction+ExecuteHandler"), typeof(System.String), typeof(System.Single),  ReleactionUtils.GetType("UnityEditor.WindowAction+DrawHandler"));
+					r_CreateWindowActionButton_String_ExecuteHandler_String_Single_DrawHandler = new( ReflectionUtils.GetType("UnityEditor.WindowAction"), "CreateWindowActionButton", 0, typeof(System.String),  ReflectionUtils.GetType("UnityEditor.WindowAction+ExecuteHandler"), typeof(System.String), typeof(System.Single),  ReflectionUtils.GetType("UnityEditor.WindowAction+DrawHandler"));
 					r_CreateWindowActionButton_String_ExecuteHandler_String_Single_DrawHandler.SetBelong(null);
 				}
 				return r_CreateWindowActionButton_String_ExecuteHandler_String_Single_DrawHandler;

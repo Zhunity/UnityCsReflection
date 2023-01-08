@@ -71,7 +71,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_Return_GradientRemap == null)
 				{
-					r_Return_GradientRemap = new(this, "Return", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.UIR.GradientRemap"));
+					r_Return_GradientRemap = new(this, "Return", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.UIR.GradientRemap"));
 					r_Return_GradientRemap.SetBelong(this.instance);
 				}
 				return r_Return_GradientRemap;

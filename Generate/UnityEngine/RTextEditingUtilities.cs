@@ -139,7 +139,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 			{
 				if(r_s_Keyactions == null)
 				{
-					r_s_Keyactions = new( ReleactionUtils.GetType("UnityEngine.TextEditingUtilities"), "s_Keyactions");
+					r_s_Keyactions = new( ReflectionUtils.GetType("UnityEngine.TextEditingUtilities"), "s_Keyactions");
 					r_s_Keyactions.SetBelong(null);
 				}
 				return r_s_Keyactions;
@@ -394,7 +394,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 			{
 				if(r_PerformOperation_TextEditOp_Boolean == null)
 				{
-					r_PerformOperation_TextEditOp_Boolean = new(this, "PerformOperation", 0,  ReleactionUtils.GetType("UnityEngine.TextEditOp"), typeof(System.Boolean));
+					r_PerformOperation_TextEditOp_Boolean = new(this, "PerformOperation", 0,  ReflectionUtils.GetType("UnityEngine.TextEditOp"), typeof(System.Boolean));
 					r_PerformOperation_TextEditOp_Boolean.SetBelong(this.instance);
 				}
 				return r_PerformOperation_TextEditOp_Boolean;
@@ -411,7 +411,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MapKey_String_TextEditOp == null)
 				{
-					r_MapKey_String_TextEditOp = new( ReleactionUtils.GetType("UnityEngine.TextEditingUtilities"), "MapKey", 0, typeof(System.String),  ReleactionUtils.GetType("UnityEngine.TextEditOp"));
+					r_MapKey_String_TextEditOp = new( ReflectionUtils.GetType("UnityEngine.TextEditingUtilities"), "MapKey", 0, typeof(System.String),  ReflectionUtils.GetType("UnityEngine.TextEditOp"));
 					r_MapKey_String_TextEditOp.SetBelong(null);
 				}
 				return r_MapKey_String_TextEditOp;
@@ -649,7 +649,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 			{
 				if(r_ReplaceNewlinesWithSpaces_String == null)
 				{
-					r_ReplaceNewlinesWithSpaces_String = new( ReleactionUtils.GetType("UnityEngine.TextEditingUtilities"), "ReplaceNewlinesWithSpaces", 0, typeof(System.String));
+					r_ReplaceNewlinesWithSpaces_String = new( ReflectionUtils.GetType("UnityEngine.TextEditingUtilities"), "ReplaceNewlinesWithSpaces", 0, typeof(System.String));
 					r_ReplaceNewlinesWithSpaces_String.SetBelong(null);
 				}
 				return r_ReplaceNewlinesWithSpaces_String;

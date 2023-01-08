@@ -20,7 +20,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 			{
 				if(r_defaultSplitSize == null)
 				{
-					r_defaultSplitSize = new( ReleactionUtils.GetType("UnityEditor.SplitterState"), "defaultSplitSize");
+					r_defaultSplitSize = new( ReflectionUtils.GetType("UnityEditor.SplitterState"), "defaultSplitSize");
 					r_defaultSplitSize.SetBelong(null);
 				}
 				return r_defaultSplitSize;
@@ -292,7 +292,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 			{
 				if(r_s_ConverterDelegate == null)
 				{
-					r_s_ConverterDelegate = new( ReleactionUtils.GetType("UnityEditor.SplitterState"), "s_ConverterDelegate");
+					r_s_ConverterDelegate = new( ReflectionUtils.GetType("UnityEditor.SplitterState"), "s_ConverterDelegate");
 					r_s_ConverterDelegate.SetBelong(null);
 				}
 				return r_s_ConverterDelegate;
@@ -309,7 +309,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 			{
 				if(r_CastIntToFloat_Int32 == null)
 				{
-					r_CastIntToFloat_Int32 = new( ReleactionUtils.GetType("UnityEditor.SplitterState"), "CastIntToFloat", 0, typeof(System.Int32));
+					r_CastIntToFloat_Int32 = new( ReflectionUtils.GetType("UnityEditor.SplitterState"), "CastIntToFloat", 0, typeof(System.Int32));
 					r_CastIntToFloat_Int32.SetBelong(null);
 				}
 				return r_CastIntToFloat_Int32;
@@ -326,7 +326,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 			{
 				if(r_FromAbsolute_SingleArray_SingleArray_SingleArray == null)
 				{
-					r_FromAbsolute_SingleArray_SingleArray_SingleArray = new( ReleactionUtils.GetType("UnityEditor.SplitterState"), "FromAbsolute", 0, typeof(System.Single).MakeArrayType(), typeof(System.Single).MakeArrayType(), typeof(System.Single).MakeArrayType());
+					r_FromAbsolute_SingleArray_SingleArray_SingleArray = new( ReflectionUtils.GetType("UnityEditor.SplitterState"), "FromAbsolute", 0, typeof(System.Single).MakeArrayType(), typeof(System.Single).MakeArrayType(), typeof(System.Single).MakeArrayType());
 					r_FromAbsolute_SingleArray_SingleArray_SingleArray.SetBelong(null);
 				}
 				return r_FromAbsolute_SingleArray_SingleArray_SingleArray;
@@ -343,7 +343,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 			{
 				if(r_FromRelative_SingleArray == null)
 				{
-					r_FromRelative_SingleArray = new( ReleactionUtils.GetType("UnityEditor.SplitterState"), "FromRelative", 0, typeof(System.Single).MakeArrayType());
+					r_FromRelative_SingleArray = new( ReflectionUtils.GetType("UnityEditor.SplitterState"), "FromRelative", 0, typeof(System.Single).MakeArrayType());
 					r_FromRelative_SingleArray.SetBelong(null);
 				}
 				return r_FromRelative_SingleArray;
@@ -360,7 +360,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 			{
 				if(r_FromRelative_SingleArray_SingleArray_SingleArray == null)
 				{
-					r_FromRelative_SingleArray_SingleArray_SingleArray = new( ReleactionUtils.GetType("UnityEditor.SplitterState"), "FromRelative", 0, typeof(System.Single).MakeArrayType(), typeof(System.Single).MakeArrayType(), typeof(System.Single).MakeArrayType());
+					r_FromRelative_SingleArray_SingleArray_SingleArray = new( ReflectionUtils.GetType("UnityEditor.SplitterState"), "FromRelative", 0, typeof(System.Single).MakeArrayType(), typeof(System.Single).MakeArrayType(), typeof(System.Single).MakeArrayType());
 					r_FromRelative_SingleArray_SingleArray_SingleArray.SetBelong(null);
 				}
 				return r_FromRelative_SingleArray_SingleArray_SingleArray;
@@ -377,7 +377,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 			{
 				if(r_FromRelative_SingleArray_SingleArray_SingleArray_Int32 == null)
 				{
-					r_FromRelative_SingleArray_SingleArray_SingleArray_Int32 = new( ReleactionUtils.GetType("UnityEditor.SplitterState"), "FromRelative", 0, typeof(System.Single).MakeArrayType(), typeof(System.Single).MakeArrayType(), typeof(System.Single).MakeArrayType(), typeof(System.Int32));
+					r_FromRelative_SingleArray_SingleArray_SingleArray_Int32 = new( ReflectionUtils.GetType("UnityEditor.SplitterState"), "FromRelative", 0, typeof(System.Single).MakeArrayType(), typeof(System.Single).MakeArrayType(), typeof(System.Single).MakeArrayType(), typeof(System.Int32));
 					r_FromRelative_SingleArray_SingleArray_SingleArray_Int32.SetBelong(null);
 				}
 				return r_FromRelative_SingleArray_SingleArray_SingleArray_Int32;
@@ -530,7 +530,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 			{
 				if(r_ConvertOldArray_Int32Array_Ref_SingleArray == null)
 				{
-					r_ConvertOldArray_Int32Array_Ref_SingleArray = new( ReleactionUtils.GetType("UnityEditor.SplitterState"), "ConvertOldArray", 0, typeof(System.Int32).MakeArrayType(), typeof(System.Single).MakeArrayType().MakeByRefType());
+					r_ConvertOldArray_Int32Array_Ref_SingleArray = new( ReflectionUtils.GetType("UnityEditor.SplitterState"), "ConvertOldArray", 0, typeof(System.Int32).MakeArrayType(), typeof(System.Single).MakeArrayType().MakeByRefType());
 					r_ConvertOldArray_Int32Array_Ref_SingleArray.SetBelong(null);
 				}
 				return r_ConvertOldArray_Int32Array_Ref_SingleArray;

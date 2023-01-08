@@ -88,7 +88,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 			{
 				if(r_k_ZeroOffset == null)
 				{
-					r_k_ZeroOffset = new( ReleactionUtils.GetType("UnityEngine.TextCore.Text.Offset"), "k_ZeroOffset");
+					r_k_ZeroOffset = new( ReflectionUtils.GetType("UnityEngine.TextCore.Text.Offset"), "k_ZeroOffset");
 					r_k_ZeroOffset.SetBelong(null);
 				}
 				return r_k_ZeroOffset;
@@ -207,7 +207,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 			{
 				if(r_zero == null)
 				{
-					r_zero = new( ReleactionUtils.GetType("UnityEngine.TextCore.Text.Offset"), "zero", -1);
+					r_zero = new( ReflectionUtils.GetType("UnityEngine.TextCore.Text.Offset"), "zero", -1);
 					r_zero.SetBelong(null);
 				}
 				return r_zero;
@@ -224,7 +224,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 			{
 				if(r_op_Equality_Offset_Offset == null)
 				{
-					r_op_Equality_Offset_Offset = new( ReleactionUtils.GetType("UnityEngine.TextCore.Text.Offset"), "op_Equality", 0,  ReleactionUtils.GetType("UnityEngine.TextCore.Text.Offset"),  ReleactionUtils.GetType("UnityEngine.TextCore.Text.Offset"));
+					r_op_Equality_Offset_Offset = new( ReflectionUtils.GetType("UnityEngine.TextCore.Text.Offset"), "op_Equality", 0,  ReflectionUtils.GetType("UnityEngine.TextCore.Text.Offset"),  ReflectionUtils.GetType("UnityEngine.TextCore.Text.Offset"));
 					r_op_Equality_Offset_Offset.SetBelong(null);
 				}
 				return r_op_Equality_Offset_Offset;
@@ -241,7 +241,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 			{
 				if(r_op_Inequality_Offset_Offset == null)
 				{
-					r_op_Inequality_Offset_Offset = new( ReleactionUtils.GetType("UnityEngine.TextCore.Text.Offset"), "op_Inequality", 0,  ReleactionUtils.GetType("UnityEngine.TextCore.Text.Offset"),  ReleactionUtils.GetType("UnityEngine.TextCore.Text.Offset"));
+					r_op_Inequality_Offset_Offset = new( ReflectionUtils.GetType("UnityEngine.TextCore.Text.Offset"), "op_Inequality", 0,  ReflectionUtils.GetType("UnityEngine.TextCore.Text.Offset"),  ReflectionUtils.GetType("UnityEngine.TextCore.Text.Offset"));
 					r_op_Inequality_Offset_Offset.SetBelong(null);
 				}
 				return r_op_Inequality_Offset_Offset;
@@ -258,7 +258,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 			{
 				if(r_op_Multiply_Offset_Single == null)
 				{
-					r_op_Multiply_Offset_Single = new( ReleactionUtils.GetType("UnityEngine.TextCore.Text.Offset"), "op_Multiply", 0,  ReleactionUtils.GetType("UnityEngine.TextCore.Text.Offset"), typeof(System.Single));
+					r_op_Multiply_Offset_Single = new( ReflectionUtils.GetType("UnityEngine.TextCore.Text.Offset"), "op_Multiply", 0,  ReflectionUtils.GetType("UnityEngine.TextCore.Text.Offset"), typeof(System.Single));
 					r_op_Multiply_Offset_Single.SetBelong(null);
 				}
 				return r_op_Multiply_Offset_Single;
@@ -309,7 +309,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 			{
 				if(r_Equals_Offset == null)
 				{
-					r_Equals_Offset = new(this, "Equals", 0,  ReleactionUtils.GetType("UnityEngine.TextCore.Text.Offset"));
+					r_Equals_Offset = new(this, "Equals", 0,  ReflectionUtils.GetType("UnityEngine.TextCore.Text.Offset"));
 					r_Equals_Offset.SetBelong(this.instance);
 				}
 				return r_Equals_Offset;

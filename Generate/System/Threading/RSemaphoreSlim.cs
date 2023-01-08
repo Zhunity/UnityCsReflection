@@ -479,7 +479,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_RemoveAsyncWaiter_TaskNode == null)
 				{
-					r_RemoveAsyncWaiter_TaskNode = new(this, "RemoveAsyncWaiter", 0,  ReleactionUtils.GetType("System.Threading.SemaphoreSlim+TaskNode"));
+					r_RemoveAsyncWaiter_TaskNode = new(this, "RemoveAsyncWaiter", 0,  ReflectionUtils.GetType("System.Threading.SemaphoreSlim+TaskNode"));
 					r_RemoveAsyncWaiter_TaskNode.SetBelong(this.instance);
 				}
 				return r_RemoveAsyncWaiter_TaskNode;
@@ -496,7 +496,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_WaitUntilCountOrTimeoutAsync_TaskNode_Int32_CancellationToken == null)
 				{
-					r_WaitUntilCountOrTimeoutAsync_TaskNode_Int32_CancellationToken = new(this, "WaitUntilCountOrTimeoutAsync", 0,  ReleactionUtils.GetType("System.Threading.SemaphoreSlim+TaskNode"), typeof(System.Int32), typeof(System.Threading.CancellationToken));
+					r_WaitUntilCountOrTimeoutAsync_TaskNode_Int32_CancellationToken = new(this, "WaitUntilCountOrTimeoutAsync", 0,  ReflectionUtils.GetType("System.Threading.SemaphoreSlim+TaskNode"), typeof(System.Int32), typeof(System.Threading.CancellationToken));
 					r_WaitUntilCountOrTimeoutAsync_TaskNode_Int32_CancellationToken.SetBelong(this.instance);
 				}
 				return r_WaitUntilCountOrTimeoutAsync_TaskNode_Int32_CancellationToken;
@@ -547,7 +547,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_QueueWaiterTask_TaskNode == null)
 				{
-					r_QueueWaiterTask_TaskNode = new(typeof(System.Threading.SemaphoreSlim), "QueueWaiterTask", 0,  ReleactionUtils.GetType("System.Threading.SemaphoreSlim+TaskNode"));
+					r_QueueWaiterTask_TaskNode = new(typeof(System.Threading.SemaphoreSlim), "QueueWaiterTask", 0,  ReflectionUtils.GetType("System.Threading.SemaphoreSlim+TaskNode"));
 					r_QueueWaiterTask_TaskNode.SetBelong(null);
 				}
 				return r_QueueWaiterTask_TaskNode;

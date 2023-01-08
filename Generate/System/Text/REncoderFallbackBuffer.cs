@@ -275,7 +275,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 			{
 				if(r_InternalInitialize_CharPointer_CharPointer_EncoderNLS_Boolean == null)
 				{
-					r_InternalInitialize_CharPointer_CharPointer_EncoderNLS_Boolean = new(this, "InternalInitialize", 0, typeof(System.Char).MakePointerType(), typeof(System.Char).MakePointerType(),  ReleactionUtils.GetType("System.Text.EncoderNLS"), typeof(System.Boolean));
+					r_InternalInitialize_CharPointer_CharPointer_EncoderNLS_Boolean = new(this, "InternalInitialize", 0, typeof(System.Char).MakePointerType(), typeof(System.Char).MakePointerType(),  ReflectionUtils.GetType("System.Text.EncoderNLS"), typeof(System.Boolean));
 					r_InternalInitialize_CharPointer_CharPointer_EncoderNLS_Boolean.SetBelong(this.instance);
 				}
 				return r_InternalInitialize_CharPointer_CharPointer_EncoderNLS_Boolean;

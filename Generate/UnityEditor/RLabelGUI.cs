@@ -122,7 +122,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 			{
 				if(r_s_AssetLabelsForObjectChangedDelegates == null)
 				{
-					r_s_AssetLabelsForObjectChangedDelegates = new( ReleactionUtils.GetType("UnityEditor.LabelGUI"), "s_AssetLabelsForObjectChangedDelegates");
+					r_s_AssetLabelsForObjectChangedDelegates = new( ReflectionUtils.GetType("UnityEditor.LabelGUI"), "s_AssetLabelsForObjectChangedDelegates");
 					r_s_AssetLabelsForObjectChangedDelegates.SetBelong(null);
 				}
 				return r_s_AssetLabelsForObjectChangedDelegates;
@@ -139,7 +139,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 			{
 				if(r_s_MaxShownLabels == null)
 				{
-					r_s_MaxShownLabels = new( ReleactionUtils.GetType("UnityEditor.LabelGUI"), "s_MaxShownLabels");
+					r_s_MaxShownLabels = new( ReflectionUtils.GetType("UnityEditor.LabelGUI"), "s_MaxShownLabels");
 					r_s_MaxShownLabels.SetBelong(null);
 				}
 				return r_s_MaxShownLabels;
@@ -258,7 +258,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 			{
 				if(r_AssetLabelListCallback_ListElement == null)
 				{
-					r_AssetLabelListCallback_ListElement = new(this, "AssetLabelListCallback", 0,  ReleactionUtils.GetType("UnityEditor.PopupList+ListElement"));
+					r_AssetLabelListCallback_ListElement = new(this, "AssetLabelListCallback", 0,  ReflectionUtils.GetType("UnityEditor.PopupList+ListElement"));
 					r_AssetLabelListCallback_ListElement.SetBelong(this.instance);
 				}
 				return r_AssetLabelListCallback_ListElement;

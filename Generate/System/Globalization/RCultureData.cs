@@ -360,7 +360,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_s_Invariant == null)
 				{
-					r_s_Invariant = new( ReleactionUtils.GetType("System.Globalization.CultureData"), "s_Invariant");
+					r_s_Invariant = new( ReflectionUtils.GetType("System.Globalization.CultureData"), "s_Invariant");
 					r_s_Invariant.SetBelong(null);
 				}
 				return r_s_Invariant;
@@ -377,7 +377,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_Invariant == null)
 				{
-					r_Invariant = new( ReleactionUtils.GetType("System.Globalization.CultureData"), "Invariant", -1);
+					r_Invariant = new( ReflectionUtils.GetType("System.Globalization.CultureData"), "Invariant", -1);
 					r_Invariant.SetBelong(null);
 				}
 				return r_Invariant;
@@ -751,7 +751,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_GetCultureData_String_Boolean == null)
 				{
-					r_GetCultureData_String_Boolean = new( ReleactionUtils.GetType("System.Globalization.CultureData"), "GetCultureData", 0, typeof(System.String), typeof(System.Boolean));
+					r_GetCultureData_String_Boolean = new( ReflectionUtils.GetType("System.Globalization.CultureData"), "GetCultureData", 0, typeof(System.String), typeof(System.Boolean));
 					r_GetCultureData_String_Boolean.SetBelong(null);
 				}
 				return r_GetCultureData_String_Boolean;
@@ -768,7 +768,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_GetCultureData_String_Boolean_Int32_Int32_Int32_String_Int32_Int32_Int32_Int32_Boolean_String == null)
 				{
-					r_GetCultureData_String_Boolean_Int32_Int32_Int32_String_Int32_Int32_Int32_Int32_Boolean_String = new( ReleactionUtils.GetType("System.Globalization.CultureData"), "GetCultureData", 0, typeof(System.String), typeof(System.Boolean), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.String), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Boolean), typeof(System.String));
+					r_GetCultureData_String_Boolean_Int32_Int32_Int32_String_Int32_Int32_Int32_Int32_Boolean_String = new( ReflectionUtils.GetType("System.Globalization.CultureData"), "GetCultureData", 0, typeof(System.String), typeof(System.Boolean), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.String), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Boolean), typeof(System.String));
 					r_GetCultureData_String_Boolean_Int32_Int32_Int32_String_Int32_Int32_Int32_Int32_Boolean_String.SetBelong(null);
 				}
 				return r_GetCultureData_String_Boolean_Int32_Int32_Int32_String_Int32_Int32_Int32_Int32_Boolean_String;
@@ -785,7 +785,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_GetCultureData_Int32_Boolean == null)
 				{
-					r_GetCultureData_Int32_Boolean = new( ReleactionUtils.GetType("System.Globalization.CultureData"), "GetCultureData", 0, typeof(System.Int32), typeof(System.Boolean));
+					r_GetCultureData_Int32_Boolean = new( ReflectionUtils.GetType("System.Globalization.CultureData"), "GetCultureData", 0, typeof(System.Int32), typeof(System.Boolean));
 					r_GetCultureData_Int32_Boolean.SetBelong(null);
 				}
 				return r_GetCultureData_Int32_Boolean;
@@ -1142,7 +1142,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_GetDateSeparator_String == null)
 				{
-					r_GetDateSeparator_String = new( ReleactionUtils.GetType("System.Globalization.CultureData"), "GetDateSeparator", 0, typeof(System.String));
+					r_GetDateSeparator_String = new( ReflectionUtils.GetType("System.Globalization.CultureData"), "GetDateSeparator", 0, typeof(System.String));
 					r_GetDateSeparator_String.SetBelong(null);
 				}
 				return r_GetDateSeparator_String;
@@ -1159,7 +1159,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_GetSeparator_String_String == null)
 				{
-					r_GetSeparator_String_String = new( ReleactionUtils.GetType("System.Globalization.CultureData"), "GetSeparator", 0, typeof(System.String), typeof(System.String));
+					r_GetSeparator_String_String = new( ReflectionUtils.GetType("System.Globalization.CultureData"), "GetSeparator", 0, typeof(System.String), typeof(System.String));
 					r_GetSeparator_String_String.SetBelong(null);
 				}
 				return r_GetSeparator_String_String;
@@ -1176,7 +1176,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_IndexOfTimePart_String_Int32_String == null)
 				{
-					r_IndexOfTimePart_String_Int32_String = new( ReleactionUtils.GetType("System.Globalization.CultureData"), "IndexOfTimePart", 0, typeof(System.String), typeof(System.Int32), typeof(System.String));
+					r_IndexOfTimePart_String_Int32_String = new( ReflectionUtils.GetType("System.Globalization.CultureData"), "IndexOfTimePart", 0, typeof(System.String), typeof(System.Int32), typeof(System.String));
 					r_IndexOfTimePart_String_Int32_String.SetBelong(null);
 				}
 				return r_IndexOfTimePart_String_Int32_String;
@@ -1193,7 +1193,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_UnescapeNlsString_String_Int32_Int32 == null)
 				{
-					r_UnescapeNlsString_String_Int32_Int32 = new( ReleactionUtils.GetType("System.Globalization.CultureData"), "UnescapeNlsString", 0, typeof(System.String), typeof(System.Int32), typeof(System.Int32));
+					r_UnescapeNlsString_String_Int32_Int32 = new( ReflectionUtils.GetType("System.Globalization.CultureData"), "UnescapeNlsString", 0, typeof(System.String), typeof(System.Int32), typeof(System.Int32));
 					r_UnescapeNlsString_String_Int32_Int32.SetBelong(null);
 				}
 				return r_UnescapeNlsString_String_Int32_Int32;
@@ -1210,7 +1210,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_ReescapeWin32Strings_StringArray == null)
 				{
-					r_ReescapeWin32Strings_StringArray = new( ReleactionUtils.GetType("System.Globalization.CultureData"), "ReescapeWin32Strings", 0, typeof(System.String).MakeArrayType());
+					r_ReescapeWin32Strings_StringArray = new( ReflectionUtils.GetType("System.Globalization.CultureData"), "ReescapeWin32Strings", 0, typeof(System.String).MakeArrayType());
 					r_ReescapeWin32Strings_StringArray.SetBelong(null);
 				}
 				return r_ReescapeWin32Strings_StringArray;
@@ -1227,7 +1227,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_ReescapeWin32String_String == null)
 				{
-					r_ReescapeWin32String_String = new( ReleactionUtils.GetType("System.Globalization.CultureData"), "ReescapeWin32String", 0, typeof(System.String));
+					r_ReescapeWin32String_String = new( ReflectionUtils.GetType("System.Globalization.CultureData"), "ReescapeWin32String", 0, typeof(System.String));
 					r_ReescapeWin32String_String.SetBelong(null);
 				}
 				return r_ReescapeWin32String_String;
@@ -1244,7 +1244,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_IsCustomCultureId_Int32 == null)
 				{
-					r_IsCustomCultureId_Int32 = new( ReleactionUtils.GetType("System.Globalization.CultureData"), "IsCustomCultureId", 0, typeof(System.Int32));
+					r_IsCustomCultureId_Int32 = new( ReflectionUtils.GetType("System.Globalization.CultureData"), "IsCustomCultureId", 0, typeof(System.Int32));
 					r_IsCustomCultureId_Int32.SetBelong(null);
 				}
 				return r_IsCustomCultureId_Int32;
@@ -1261,7 +1261,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_strlen_BytePointer == null)
 				{
-					r_strlen_BytePointer = new( ReleactionUtils.GetType("System.Globalization.CultureData"), "strlen", 0, typeof(System.Byte).MakePointerType());
+					r_strlen_BytePointer = new( ReflectionUtils.GetType("System.Globalization.CultureData"), "strlen", 0, typeof(System.Byte).MakePointerType());
 					r_strlen_BytePointer.SetBelong(null);
 				}
 				return r_strlen_BytePointer;
@@ -1278,7 +1278,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_idx2string_BytePointer_Int32 == null)
 				{
-					r_idx2string_BytePointer_Int32 = new( ReleactionUtils.GetType("System.Globalization.CultureData"), "idx2string", 0, typeof(System.Byte).MakePointerType(), typeof(System.Int32));
+					r_idx2string_BytePointer_Int32 = new( ReflectionUtils.GetType("System.Globalization.CultureData"), "idx2string", 0, typeof(System.Byte).MakePointerType(), typeof(System.Int32));
 					r_idx2string_BytePointer_Int32.SetBelong(null);
 				}
 				return r_idx2string_BytePointer_Int32;
@@ -1329,7 +1329,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_fill_number_data_Int32_Ref_NumberFormatEntryManaged == null)
 				{
-					r_fill_number_data_Int32_Ref_NumberFormatEntryManaged = new( ReleactionUtils.GetType("System.Globalization.CultureData"), "fill_number_data", 0, typeof(System.Int32),  ReleactionUtils.GetType("System.Globalization.CultureData+NumberFormatEntryManaged").MakeByRefType());
+					r_fill_number_data_Int32_Ref_NumberFormatEntryManaged = new( ReflectionUtils.GetType("System.Globalization.CultureData"), "fill_number_data", 0, typeof(System.Int32),  ReflectionUtils.GetType("System.Globalization.CultureData+NumberFormatEntryManaged").MakeByRefType());
 					r_fill_number_data_Int32_Ref_NumberFormatEntryManaged.SetBelong(null);
 				}
 				return r_fill_number_data_Int32_Ref_NumberFormatEntryManaged;

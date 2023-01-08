@@ -20,7 +20,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_kPageWidth == null)
 				{
-					r_kPageWidth = new( ReleactionUtils.GetType("UnityEngine.UIElements.UIR.BitmapAllocator32"), "kPageWidth");
+					r_kPageWidth = new( ReflectionUtils.GetType("UnityEngine.UIElements.UIR.BitmapAllocator32"), "kPageWidth");
 					r_kPageWidth.SetBelong(null);
 				}
 				return r_kPageWidth;
@@ -190,7 +190,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_Allocate_BaseShaderInfoStorage == null)
 				{
-					r_Allocate_BaseShaderInfoStorage = new(this, "Allocate", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.UIR.BaseShaderInfoStorage"));
+					r_Allocate_BaseShaderInfoStorage = new(this, "Allocate", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.UIR.BaseShaderInfoStorage"));
 					r_Allocate_BaseShaderInfoStorage.SetBelong(this.instance);
 				}
 				return r_Allocate_BaseShaderInfoStorage;
@@ -207,7 +207,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_Free_BMPAlloc == null)
 				{
-					r_Free_BMPAlloc = new(this, "Free", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.UIR.BMPAlloc"));
+					r_Free_BMPAlloc = new(this, "Free", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.UIR.BMPAlloc"));
 					r_Free_BMPAlloc.SetBelong(this.instance);
 				}
 				return r_Free_BMPAlloc;
@@ -241,7 +241,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_CountTrailingZeroes_UInt32 == null)
 				{
-					r_CountTrailingZeroes_UInt32 = new( ReleactionUtils.GetType("UnityEngine.UIElements.UIR.BitmapAllocator32"), "CountTrailingZeroes", 0, typeof(System.UInt32));
+					r_CountTrailingZeroes_UInt32 = new( ReflectionUtils.GetType("UnityEngine.UIElements.UIR.BitmapAllocator32"), "CountTrailingZeroes", 0, typeof(System.UInt32));
 					r_CountTrailingZeroes_UInt32.SetBelong(null);
 				}
 				return r_CountTrailingZeroes_UInt32;

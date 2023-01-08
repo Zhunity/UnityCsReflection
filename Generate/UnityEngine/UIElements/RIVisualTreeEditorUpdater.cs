@@ -20,7 +20,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_GetUpdater_VisualTreeEditorUpdatePhase == null)
 				{
-					r_GetUpdater_VisualTreeEditorUpdatePhase = new(this, "GetUpdater", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.VisualTreeEditorUpdatePhase"));
+					r_GetUpdater_VisualTreeEditorUpdatePhase = new(this, "GetUpdater", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.VisualTreeEditorUpdatePhase"));
 					r_GetUpdater_VisualTreeEditorUpdatePhase.SetBelong(this.instance);
 				}
 				return r_GetUpdater_VisualTreeEditorUpdatePhase;
@@ -37,7 +37,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_SetUpdater_IVisualTreeUpdater_VisualTreeEditorUpdatePhase == null)
 				{
-					r_SetUpdater_IVisualTreeUpdater_VisualTreeEditorUpdatePhase = new(this, "SetUpdater", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.IVisualTreeUpdater"),  ReleactionUtils.GetType("UnityEngine.UIElements.VisualTreeEditorUpdatePhase"));
+					r_SetUpdater_IVisualTreeUpdater_VisualTreeEditorUpdatePhase = new(this, "SetUpdater", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.IVisualTreeUpdater"),  ReflectionUtils.GetType("UnityEngine.UIElements.VisualTreeEditorUpdatePhase"));
 					r_SetUpdater_IVisualTreeUpdater_VisualTreeEditorUpdatePhase.SetBelong(this.instance);
 				}
 				return r_SetUpdater_IVisualTreeUpdater_VisualTreeEditorUpdatePhase;
@@ -71,7 +71,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_UpdateVisualTreePhase_VisualTreeEditorUpdatePhase == null)
 				{
-					r_UpdateVisualTreePhase_VisualTreeEditorUpdatePhase = new(this, "UpdateVisualTreePhase", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.VisualTreeEditorUpdatePhase"));
+					r_UpdateVisualTreePhase_VisualTreeEditorUpdatePhase = new(this, "UpdateVisualTreePhase", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.VisualTreeEditorUpdatePhase"));
 					r_UpdateVisualTreePhase_VisualTreeEditorUpdatePhase.SetBelong(this.instance);
 				}
 				return r_UpdateVisualTreePhase_VisualTreeEditorUpdatePhase;
@@ -88,7 +88,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_OnVersionChanged_VisualElement_VersionChangeType == null)
 				{
-					r_OnVersionChanged_VisualElement_VersionChangeType = new(this, "OnVersionChanged", 0, typeof(UnityEngine.UIElements.VisualElement),  ReleactionUtils.GetType("UnityEngine.UIElements.VersionChangeType"));
+					r_OnVersionChanged_VisualElement_VersionChangeType = new(this, "OnVersionChanged", 0, typeof(UnityEngine.UIElements.VisualElement),  ReflectionUtils.GetType("UnityEngine.UIElements.VersionChangeType"));
 					r_OnVersionChanged_VisualElement_VersionChangeType.SetBelong(this.instance);
 				}
 				return r_OnVersionChanged_VisualElement_VersionChangeType;

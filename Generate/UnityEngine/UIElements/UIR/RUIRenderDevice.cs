@@ -20,7 +20,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_k_MaxQueuedFrameCount == null)
 				{
-					r_k_MaxQueuedFrameCount = new( ReleactionUtils.GetType("UnityEngine.UIElements.UIR.UIRenderDevice"), "k_MaxQueuedFrameCount");
+					r_k_MaxQueuedFrameCount = new( ReflectionUtils.GetType("UnityEngine.UIElements.UIR.UIRenderDevice"), "k_MaxQueuedFrameCount");
 					r_k_MaxQueuedFrameCount.SetBelong(null);
 				}
 				return r_k_MaxQueuedFrameCount;
@@ -37,7 +37,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_k_PruneEmptyPageFrameCount == null)
 				{
-					r_k_PruneEmptyPageFrameCount = new( ReleactionUtils.GetType("UnityEngine.UIElements.UIR.UIRenderDevice"), "k_PruneEmptyPageFrameCount");
+					r_k_PruneEmptyPageFrameCount = new( ReflectionUtils.GetType("UnityEngine.UIElements.UIR.UIRenderDevice"), "k_PruneEmptyPageFrameCount");
 					r_k_PruneEmptyPageFrameCount.SetBelong(null);
 				}
 				return r_k_PruneEmptyPageFrameCount;
@@ -343,7 +343,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_m_DeviceFreeQueue == null)
 				{
-					r_m_DeviceFreeQueue = new( ReleactionUtils.GetType("UnityEngine.UIElements.UIR.UIRenderDevice"), "m_DeviceFreeQueue");
+					r_m_DeviceFreeQueue = new( ReflectionUtils.GetType("UnityEngine.UIElements.UIR.UIRenderDevice"), "m_DeviceFreeQueue");
 					r_m_DeviceFreeQueue.SetBelong(null);
 				}
 				return r_m_DeviceFreeQueue;
@@ -360,7 +360,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_m_ActiveDeviceCount == null)
 				{
-					r_m_ActiveDeviceCount = new( ReleactionUtils.GetType("UnityEngine.UIElements.UIR.UIRenderDevice"), "m_ActiveDeviceCount");
+					r_m_ActiveDeviceCount = new( ReflectionUtils.GetType("UnityEngine.UIElements.UIR.UIRenderDevice"), "m_ActiveDeviceCount");
 					r_m_ActiveDeviceCount.SetBelong(null);
 				}
 				return r_m_ActiveDeviceCount;
@@ -377,7 +377,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_m_SubscribedToNotifications == null)
 				{
-					r_m_SubscribedToNotifications = new( ReleactionUtils.GetType("UnityEngine.UIElements.UIR.UIRenderDevice"), "m_SubscribedToNotifications");
+					r_m_SubscribedToNotifications = new( ReflectionUtils.GetType("UnityEngine.UIElements.UIR.UIRenderDevice"), "m_SubscribedToNotifications");
 					r_m_SubscribedToNotifications.SetBelong(null);
 				}
 				return r_m_SubscribedToNotifications;
@@ -394,7 +394,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_m_SynchronousFree == null)
 				{
-					r_m_SynchronousFree = new( ReleactionUtils.GetType("UnityEngine.UIElements.UIR.UIRenderDevice"), "m_SynchronousFree");
+					r_m_SynchronousFree = new( ReflectionUtils.GetType("UnityEngine.UIElements.UIR.UIRenderDevice"), "m_SynchronousFree");
 					r_m_SynchronousFree.SetBelong(null);
 				}
 				return r_m_SynchronousFree;
@@ -411,7 +411,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_s_GradientSettingsTexID == null)
 				{
-					r_s_GradientSettingsTexID = new( ReleactionUtils.GetType("UnityEngine.UIElements.UIR.UIRenderDevice"), "s_GradientSettingsTexID");
+					r_s_GradientSettingsTexID = new( ReflectionUtils.GetType("UnityEngine.UIElements.UIR.UIRenderDevice"), "s_GradientSettingsTexID");
 					r_s_GradientSettingsTexID.SetBelong(null);
 				}
 				return r_s_GradientSettingsTexID;
@@ -428,7 +428,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_s_ShaderInfoTexID == null)
 				{
-					r_s_ShaderInfoTexID = new( ReleactionUtils.GetType("UnityEngine.UIElements.UIR.UIRenderDevice"), "s_ShaderInfoTexID");
+					r_s_ShaderInfoTexID = new( ReflectionUtils.GetType("UnityEngine.UIElements.UIR.UIRenderDevice"), "s_ShaderInfoTexID");
 					r_s_ShaderInfoTexID.SetBelong(null);
 				}
 				return r_s_ShaderInfoTexID;
@@ -445,7 +445,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_s_TransformsPropID == null)
 				{
-					r_s_TransformsPropID = new( ReleactionUtils.GetType("UnityEngine.UIElements.UIR.UIRenderDevice"), "s_TransformsPropID");
+					r_s_TransformsPropID = new( ReflectionUtils.GetType("UnityEngine.UIElements.UIR.UIRenderDevice"), "s_TransformsPropID");
 					r_s_TransformsPropID.SetBelong(null);
 				}
 				return r_s_TransformsPropID;
@@ -462,7 +462,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_s_ClipRectsPropID == null)
 				{
-					r_s_ClipRectsPropID = new( ReleactionUtils.GetType("UnityEngine.UIElements.UIR.UIRenderDevice"), "s_ClipRectsPropID");
+					r_s_ClipRectsPropID = new( ReflectionUtils.GetType("UnityEngine.UIElements.UIR.UIRenderDevice"), "s_ClipRectsPropID");
 					r_s_ClipRectsPropID.SetBelong(null);
 				}
 				return r_s_ClipRectsPropID;
@@ -479,7 +479,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_s_MarkerAllocate == null)
 				{
-					r_s_MarkerAllocate = new( ReleactionUtils.GetType("UnityEngine.UIElements.UIR.UIRenderDevice"), "s_MarkerAllocate");
+					r_s_MarkerAllocate = new( ReflectionUtils.GetType("UnityEngine.UIElements.UIR.UIRenderDevice"), "s_MarkerAllocate");
 					r_s_MarkerAllocate.SetBelong(null);
 				}
 				return r_s_MarkerAllocate;
@@ -496,7 +496,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_s_MarkerFree == null)
 				{
-					r_s_MarkerFree = new( ReleactionUtils.GetType("UnityEngine.UIElements.UIR.UIRenderDevice"), "s_MarkerFree");
+					r_s_MarkerFree = new( ReflectionUtils.GetType("UnityEngine.UIElements.UIR.UIRenderDevice"), "s_MarkerFree");
 					r_s_MarkerFree.SetBelong(null);
 				}
 				return r_s_MarkerFree;
@@ -513,7 +513,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_s_MarkerAdvanceFrame == null)
 				{
-					r_s_MarkerAdvanceFrame = new( ReleactionUtils.GetType("UnityEngine.UIElements.UIR.UIRenderDevice"), "s_MarkerAdvanceFrame");
+					r_s_MarkerAdvanceFrame = new( ReflectionUtils.GetType("UnityEngine.UIElements.UIR.UIRenderDevice"), "s_MarkerAdvanceFrame");
 					r_s_MarkerAdvanceFrame.SetBelong(null);
 				}
 				return r_s_MarkerAdvanceFrame;
@@ -530,7 +530,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_s_MarkerFence == null)
 				{
-					r_s_MarkerFence = new( ReleactionUtils.GetType("UnityEngine.UIElements.UIR.UIRenderDevice"), "s_MarkerFence");
+					r_s_MarkerFence = new( ReflectionUtils.GetType("UnityEngine.UIElements.UIR.UIRenderDevice"), "s_MarkerFence");
 					r_s_MarkerFence.SetBelong(null);
 				}
 				return r_s_MarkerFence;
@@ -547,7 +547,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_s_MarkerBeforeDraw == null)
 				{
-					r_s_MarkerBeforeDraw = new( ReleactionUtils.GetType("UnityEngine.UIElements.UIR.UIRenderDevice"), "s_MarkerBeforeDraw");
+					r_s_MarkerBeforeDraw = new( ReflectionUtils.GetType("UnityEngine.UIElements.UIR.UIRenderDevice"), "s_MarkerBeforeDraw");
 					r_s_MarkerBeforeDraw.SetBelong(null);
 				}
 				return r_s_MarkerBeforeDraw;
@@ -564,7 +564,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_s_VertexTexturingIsAvailable == null)
 				{
-					r_s_VertexTexturingIsAvailable = new( ReleactionUtils.GetType("UnityEngine.UIElements.UIR.UIRenderDevice"), "s_VertexTexturingIsAvailable");
+					r_s_VertexTexturingIsAvailable = new( ReflectionUtils.GetType("UnityEngine.UIElements.UIR.UIRenderDevice"), "s_VertexTexturingIsAvailable");
 					r_s_VertexTexturingIsAvailable.SetBelong(null);
 				}
 				return r_s_VertexTexturingIsAvailable;
@@ -581,7 +581,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_k_VertexTexturingIsAvailableTag == null)
 				{
-					r_k_VertexTexturingIsAvailableTag = new( ReleactionUtils.GetType("UnityEngine.UIElements.UIR.UIRenderDevice"), "k_VertexTexturingIsAvailableTag");
+					r_k_VertexTexturingIsAvailableTag = new( ReflectionUtils.GetType("UnityEngine.UIElements.UIR.UIRenderDevice"), "k_VertexTexturingIsAvailableTag");
 					r_k_VertexTexturingIsAvailableTag.SetBelong(null);
 				}
 				return r_k_VertexTexturingIsAvailableTag;
@@ -598,7 +598,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_k_VertexTexturingIsAvailableTrue == null)
 				{
-					r_k_VertexTexturingIsAvailableTrue = new( ReleactionUtils.GetType("UnityEngine.UIElements.UIR.UIRenderDevice"), "k_VertexTexturingIsAvailableTrue");
+					r_k_VertexTexturingIsAvailableTrue = new( ReflectionUtils.GetType("UnityEngine.UIElements.UIR.UIRenderDevice"), "k_VertexTexturingIsAvailableTrue");
 					r_k_VertexTexturingIsAvailableTrue.SetBelong(null);
 				}
 				return r_k_VertexTexturingIsAvailableTrue;
@@ -615,7 +615,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_s_ShaderModelIs35 == null)
 				{
-					r_s_ShaderModelIs35 = new( ReleactionUtils.GetType("UnityEngine.UIElements.UIR.UIRenderDevice"), "s_ShaderModelIs35");
+					r_s_ShaderModelIs35 = new( ReflectionUtils.GetType("UnityEngine.UIElements.UIR.UIRenderDevice"), "s_ShaderModelIs35");
 					r_s_ShaderModelIs35.SetBelong(null);
 				}
 				return r_s_ShaderModelIs35;
@@ -632,7 +632,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_k_ShaderModelIs35Tag == null)
 				{
-					r_k_ShaderModelIs35Tag = new( ReleactionUtils.GetType("UnityEngine.UIElements.UIR.UIRenderDevice"), "k_ShaderModelIs35Tag");
+					r_k_ShaderModelIs35Tag = new( ReflectionUtils.GetType("UnityEngine.UIElements.UIR.UIRenderDevice"), "k_ShaderModelIs35Tag");
 					r_k_ShaderModelIs35Tag.SetBelong(null);
 				}
 				return r_k_ShaderModelIs35Tag;
@@ -649,7 +649,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_k_ShaderModelIs35True == null)
 				{
-					r_k_ShaderModelIs35True = new( ReleactionUtils.GetType("UnityEngine.UIElements.UIR.UIRenderDevice"), "k_ShaderModelIs35True");
+					r_k_ShaderModelIs35True = new( ReflectionUtils.GetType("UnityEngine.UIElements.UIR.UIRenderDevice"), "k_ShaderModelIs35True");
 					r_k_ShaderModelIs35True.SetBelong(null);
 				}
 				return r_k_ShaderModelIs35True;
@@ -700,7 +700,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_getEditorShader == null)
 				{
-					r_getEditorShader = new( ReleactionUtils.GetType("UnityEngine.UIElements.UIR.UIRenderDevice"), "getEditorShader");
+					r_getEditorShader = new( ReflectionUtils.GetType("UnityEngine.UIElements.UIR.UIRenderDevice"), "getEditorShader");
 					r_getEditorShader.SetBelong(null);
 				}
 				return r_getEditorShader;
@@ -717,7 +717,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_s_DefaultShaderInfoTexFloat == null)
 				{
-					r_s_DefaultShaderInfoTexFloat = new( ReleactionUtils.GetType("UnityEngine.UIElements.UIR.UIRenderDevice"), "s_DefaultShaderInfoTexFloat");
+					r_s_DefaultShaderInfoTexFloat = new( ReflectionUtils.GetType("UnityEngine.UIElements.UIR.UIRenderDevice"), "s_DefaultShaderInfoTexFloat");
 					r_s_DefaultShaderInfoTexFloat.SetBelong(null);
 				}
 				return r_s_DefaultShaderInfoTexFloat;
@@ -734,7 +734,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_s_DefaultShaderInfoTexARGB8 == null)
 				{
-					r_s_DefaultShaderInfoTexARGB8 = new( ReleactionUtils.GetType("UnityEngine.UIElements.UIR.UIRenderDevice"), "s_DefaultShaderInfoTexARGB8");
+					r_s_DefaultShaderInfoTexARGB8 = new( ReflectionUtils.GetType("UnityEngine.UIElements.UIR.UIRenderDevice"), "s_DefaultShaderInfoTexARGB8");
 					r_s_DefaultShaderInfoTexARGB8.SetBelong(null);
 				}
 				return r_s_DefaultShaderInfoTexARGB8;
@@ -802,7 +802,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_defaultShaderInfoTexFloat == null)
 				{
-					r_defaultShaderInfoTexFloat = new( ReleactionUtils.GetType("UnityEngine.UIElements.UIR.UIRenderDevice"), "defaultShaderInfoTexFloat", -1);
+					r_defaultShaderInfoTexFloat = new( ReflectionUtils.GetType("UnityEngine.UIElements.UIR.UIRenderDevice"), "defaultShaderInfoTexFloat", -1);
 					r_defaultShaderInfoTexFloat.SetBelong(null);
 				}
 				return r_defaultShaderInfoTexFloat;
@@ -819,7 +819,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_defaultShaderInfoTexARGB8 == null)
 				{
-					r_defaultShaderInfoTexARGB8 = new( ReleactionUtils.GetType("UnityEngine.UIElements.UIR.UIRenderDevice"), "defaultShaderInfoTexARGB8", -1);
+					r_defaultShaderInfoTexARGB8 = new( ReflectionUtils.GetType("UnityEngine.UIElements.UIR.UIRenderDevice"), "defaultShaderInfoTexARGB8", -1);
 					r_defaultShaderInfoTexARGB8.SetBelong(null);
 				}
 				return r_defaultShaderInfoTexARGB8;
@@ -836,7 +836,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_vertexTexturingIsAvailable == null)
 				{
-					r_vertexTexturingIsAvailable = new( ReleactionUtils.GetType("UnityEngine.UIElements.UIR.UIRenderDevice"), "vertexTexturingIsAvailable", -1);
+					r_vertexTexturingIsAvailable = new( ReflectionUtils.GetType("UnityEngine.UIElements.UIR.UIRenderDevice"), "vertexTexturingIsAvailable", -1);
 					r_vertexTexturingIsAvailable.SetBelong(null);
 				}
 				return r_vertexTexturingIsAvailable;
@@ -853,7 +853,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_shaderModelIs35 == null)
 				{
-					r_shaderModelIs35 = new( ReleactionUtils.GetType("UnityEngine.UIElements.UIR.UIRenderDevice"), "shaderModelIs35", -1);
+					r_shaderModelIs35 = new( ReflectionUtils.GetType("UnityEngine.UIElements.UIR.UIRenderDevice"), "shaderModelIs35", -1);
 					r_shaderModelIs35.SetBelong(null);
 				}
 				return r_shaderModelIs35;
@@ -1006,7 +1006,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_Update_MeshHandle_UInt32_Out_NativeSlice_d_Vertex_p_ == null)
 				{
-					r_Update_MeshHandle_UInt32_Out_NativeSlice_d_Vertex_p_ = new(this, "Update", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.UIR.MeshHandle"), typeof(System.UInt32), typeof(Unity.Collections.NativeSlice<>).MakeGenericType(typeof(UnityEngine.UIElements.Vertex)).MakeByRefType());
+					r_Update_MeshHandle_UInt32_Out_NativeSlice_d_Vertex_p_ = new(this, "Update", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.UIR.MeshHandle"), typeof(System.UInt32), typeof(Unity.Collections.NativeSlice<>).MakeGenericType(typeof(UnityEngine.UIElements.Vertex)).MakeByRefType());
 					r_Update_MeshHandle_UInt32_Out_NativeSlice_d_Vertex_p_.SetBelong(this.instance);
 				}
 				return r_Update_MeshHandle_UInt32_Out_NativeSlice_d_Vertex_p_;
@@ -1023,7 +1023,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_Update_MeshHandle_UInt32_UInt32_Out_NativeSlice_d_Vertex_p__Out_NativeSlice_d_UInt16_p__Out_UInt16 == null)
 				{
-					r_Update_MeshHandle_UInt32_UInt32_Out_NativeSlice_d_Vertex_p__Out_NativeSlice_d_UInt16_p__Out_UInt16 = new(this, "Update", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.UIR.MeshHandle"), typeof(System.UInt32), typeof(System.UInt32), typeof(Unity.Collections.NativeSlice<>).MakeGenericType(typeof(UnityEngine.UIElements.Vertex)).MakeByRefType(), typeof(Unity.Collections.NativeSlice<>).MakeGenericType(typeof(System.UInt16)).MakeByRefType(), typeof(System.UInt16).MakeByRefType());
+					r_Update_MeshHandle_UInt32_UInt32_Out_NativeSlice_d_Vertex_p__Out_NativeSlice_d_UInt16_p__Out_UInt16 = new(this, "Update", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.UIR.MeshHandle"), typeof(System.UInt32), typeof(System.UInt32), typeof(Unity.Collections.NativeSlice<>).MakeGenericType(typeof(UnityEngine.UIElements.Vertex)).MakeByRefType(), typeof(Unity.Collections.NativeSlice<>).MakeGenericType(typeof(System.UInt16)).MakeByRefType(), typeof(System.UInt16).MakeByRefType());
 					r_Update_MeshHandle_UInt32_UInt32_Out_NativeSlice_d_Vertex_p__Out_NativeSlice_d_UInt16_p__Out_UInt16.SetBelong(this.instance);
 				}
 				return r_Update_MeshHandle_UInt32_UInt32_Out_NativeSlice_d_Vertex_p__Out_NativeSlice_d_UInt16_p__Out_UInt16;
@@ -1040,7 +1040,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_TryAllocFromPage_Page_UInt32_UInt32_Ref_Alloc_Ref_Alloc_Boolean == null)
 				{
-					r_TryAllocFromPage_Page_UInt32_UInt32_Ref_Alloc_Ref_Alloc_Boolean = new(this, "TryAllocFromPage", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.UIR.Page"), typeof(System.UInt32), typeof(System.UInt32),  ReleactionUtils.GetType("UnityEngine.UIElements.UIR.Alloc").MakeByRefType(),  ReleactionUtils.GetType("UnityEngine.UIElements.UIR.Alloc").MakeByRefType(), typeof(System.Boolean));
+					r_TryAllocFromPage_Page_UInt32_UInt32_Ref_Alloc_Ref_Alloc_Boolean = new(this, "TryAllocFromPage", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.UIR.Page"), typeof(System.UInt32), typeof(System.UInt32),  ReflectionUtils.GetType("UnityEngine.UIElements.UIR.Alloc").MakeByRefType(),  ReflectionUtils.GetType("UnityEngine.UIElements.UIR.Alloc").MakeByRefType(), typeof(System.Boolean));
 					r_TryAllocFromPage_Page_UInt32_UInt32_Ref_Alloc_Ref_Alloc_Boolean.SetBelong(this.instance);
 				}
 				return r_TryAllocFromPage_Page_UInt32_UInt32_Ref_Alloc_Ref_Alloc_Boolean;
@@ -1057,7 +1057,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_Allocate_MeshHandle_UInt32_UInt32_Out_NativeSlice_d_Vertex_p__Out_NativeSlice_d_UInt16_p__Boolean == null)
 				{
-					r_Allocate_MeshHandle_UInt32_UInt32_Out_NativeSlice_d_Vertex_p__Out_NativeSlice_d_UInt16_p__Boolean = new(this, "Allocate", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.UIR.MeshHandle"), typeof(System.UInt32), typeof(System.UInt32), typeof(Unity.Collections.NativeSlice<>).MakeGenericType(typeof(UnityEngine.UIElements.Vertex)).MakeByRefType(), typeof(Unity.Collections.NativeSlice<>).MakeGenericType(typeof(System.UInt16)).MakeByRefType(), typeof(System.Boolean));
+					r_Allocate_MeshHandle_UInt32_UInt32_Out_NativeSlice_d_Vertex_p__Out_NativeSlice_d_UInt16_p__Boolean = new(this, "Allocate", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.UIR.MeshHandle"), typeof(System.UInt32), typeof(System.UInt32), typeof(Unity.Collections.NativeSlice<>).MakeGenericType(typeof(UnityEngine.UIElements.Vertex)).MakeByRefType(), typeof(Unity.Collections.NativeSlice<>).MakeGenericType(typeof(System.UInt16)).MakeByRefType(), typeof(System.Boolean));
 					r_Allocate_MeshHandle_UInt32_UInt32_Out_NativeSlice_d_Vertex_p__Out_NativeSlice_d_UInt16_p__Boolean.SetBelong(this.instance);
 				}
 				return r_Allocate_MeshHandle_UInt32_UInt32_Out_NativeSlice_d_Vertex_p__Out_NativeSlice_d_UInt16_p__Boolean;
@@ -1074,7 +1074,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_UpdateAfterGPUUsedData_MeshHandle_UInt32_UInt32_Out_NativeSlice_d_Vertex_p__Out_NativeSlice_d_UInt16_p__Out_UInt16_Out_AllocToUpdate_Boolean == null)
 				{
-					r_UpdateAfterGPUUsedData_MeshHandle_UInt32_UInt32_Out_NativeSlice_d_Vertex_p__Out_NativeSlice_d_UInt16_p__Out_UInt16_Out_AllocToUpdate_Boolean = new(this, "UpdateAfterGPUUsedData", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.UIR.MeshHandle"), typeof(System.UInt32), typeof(System.UInt32), typeof(Unity.Collections.NativeSlice<>).MakeGenericType(typeof(UnityEngine.UIElements.Vertex)).MakeByRefType(), typeof(Unity.Collections.NativeSlice<>).MakeGenericType(typeof(System.UInt16)).MakeByRefType(), typeof(System.UInt16).MakeByRefType(),  ReleactionUtils.GetType("UnityEngine.UIElements.UIR.UIRenderDevice+AllocToUpdate").MakeByRefType(), typeof(System.Boolean));
+					r_UpdateAfterGPUUsedData_MeshHandle_UInt32_UInt32_Out_NativeSlice_d_Vertex_p__Out_NativeSlice_d_UInt16_p__Out_UInt16_Out_AllocToUpdate_Boolean = new(this, "UpdateAfterGPUUsedData", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.UIR.MeshHandle"), typeof(System.UInt32), typeof(System.UInt32), typeof(Unity.Collections.NativeSlice<>).MakeGenericType(typeof(UnityEngine.UIElements.Vertex)).MakeByRefType(), typeof(Unity.Collections.NativeSlice<>).MakeGenericType(typeof(System.UInt16)).MakeByRefType(), typeof(System.UInt16).MakeByRefType(),  ReflectionUtils.GetType("UnityEngine.UIElements.UIR.UIRenderDevice+AllocToUpdate").MakeByRefType(), typeof(System.Boolean));
 					r_UpdateAfterGPUUsedData_MeshHandle_UInt32_UInt32_Out_NativeSlice_d_Vertex_p__Out_NativeSlice_d_UInt16_p__Out_UInt16_Out_AllocToUpdate_Boolean.SetBelong(this.instance);
 				}
 				return r_UpdateAfterGPUUsedData_MeshHandle_UInt32_UInt32_Out_NativeSlice_d_Vertex_p__Out_NativeSlice_d_UInt16_p__Out_UInt16_Out_AllocToUpdate_Boolean;
@@ -1091,7 +1091,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_Free_MeshHandle == null)
 				{
-					r_Free_MeshHandle = new(this, "Free", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.UIR.MeshHandle"));
+					r_Free_MeshHandle = new(this, "Free", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.UIR.MeshHandle"));
 					r_Free_MeshHandle.SetBelong(this.instance);
 				}
 				return r_Free_MeshHandle;
@@ -1125,7 +1125,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_PtrToSlice_GT_VoidPointer_Int32 == null)
 				{
-					r_PtrToSlice_GT_VoidPointer_Int32 = new( ReleactionUtils.GetType("UnityEngine.UIElements.UIR.UIRenderDevice"), "PtrToSlice", 1, typeof(void).MakePointerType(), typeof(System.Int32));
+					r_PtrToSlice_GT_VoidPointer_Int32 = new( ReflectionUtils.GetType("UnityEngine.UIElements.UIR.UIRenderDevice"), "PtrToSlice", 1, typeof(void).MakePointerType(), typeof(System.Int32));
 					r_PtrToSlice_GT_VoidPointer_Int32.SetBelong(null);
 				}
 				return r_PtrToSlice_GT_VoidPointer_Int32;
@@ -1142,7 +1142,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_ApplyDrawCommandState_RenderChainCommand_Int32_Material_Boolean_Ref_EvaluationState == null)
 				{
-					r_ApplyDrawCommandState_RenderChainCommand_Int32_Material_Boolean_Ref_EvaluationState = new(this, "ApplyDrawCommandState", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.UIR.RenderChainCommand"), typeof(System.Int32), typeof(UnityEngine.Material), typeof(System.Boolean),  ReleactionUtils.GetType("UnityEngine.UIElements.UIR.UIRenderDevice+EvaluationState").MakeByRefType());
+					r_ApplyDrawCommandState_RenderChainCommand_Int32_Material_Boolean_Ref_EvaluationState = new(this, "ApplyDrawCommandState", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.UIR.RenderChainCommand"), typeof(System.Int32), typeof(UnityEngine.Material), typeof(System.Boolean),  ReflectionUtils.GetType("UnityEngine.UIElements.UIR.UIRenderDevice+EvaluationState").MakeByRefType());
 					r_ApplyDrawCommandState_RenderChainCommand_Int32_Material_Boolean_Ref_EvaluationState.SetBelong(this.instance);
 				}
 				return r_ApplyDrawCommandState_RenderChainCommand_Int32_Material_Boolean_Ref_EvaluationState;
@@ -1159,7 +1159,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_ApplyBatchState_Ref_EvaluationState_Boolean == null)
 				{
-					r_ApplyBatchState_Ref_EvaluationState_Boolean = new(this, "ApplyBatchState", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.UIR.UIRenderDevice+EvaluationState").MakeByRefType(), typeof(System.Boolean));
+					r_ApplyBatchState_Ref_EvaluationState_Boolean = new(this, "ApplyBatchState", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.UIR.UIRenderDevice+EvaluationState").MakeByRefType(), typeof(System.Boolean));
 					r_ApplyBatchState_Ref_EvaluationState_Boolean.SetBelong(this.instance);
 				}
 				return r_ApplyBatchState_Ref_EvaluationState_Boolean;
@@ -1176,7 +1176,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_EvaluateChain_RenderChainCommand_Material_Material_Texture_Texture_Single_NativeSlice_d_Transform3x4_p__NativeSlice_d_Vector4_p__MaterialPropertyBlock_Boolean_Ref_Exception == null)
 				{
-					r_EvaluateChain_RenderChainCommand_Material_Material_Texture_Texture_Single_NativeSlice_d_Transform3x4_p__NativeSlice_d_Vector4_p__MaterialPropertyBlock_Boolean_Ref_Exception = new(this, "EvaluateChain", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.UIR.RenderChainCommand"), typeof(UnityEngine.Material), typeof(UnityEngine.Material), typeof(UnityEngine.Texture), typeof(UnityEngine.Texture), typeof(System.Single), typeof(Unity.Collections.NativeSlice<>).MakeGenericType( ReleactionUtils.GetType("UnityEngine.UIElements.UIR.Transform3x4")), typeof(Unity.Collections.NativeSlice<>).MakeGenericType(typeof(UnityEngine.Vector4)), typeof(UnityEngine.MaterialPropertyBlock), typeof(System.Boolean), typeof(System.Exception).MakeByRefType());
+					r_EvaluateChain_RenderChainCommand_Material_Material_Texture_Texture_Single_NativeSlice_d_Transform3x4_p__NativeSlice_d_Vector4_p__MaterialPropertyBlock_Boolean_Ref_Exception = new(this, "EvaluateChain", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.UIR.RenderChainCommand"), typeof(UnityEngine.Material), typeof(UnityEngine.Material), typeof(UnityEngine.Texture), typeof(UnityEngine.Texture), typeof(System.Single), typeof(Unity.Collections.NativeSlice<>).MakeGenericType( ReflectionUtils.GetType("UnityEngine.UIElements.UIR.Transform3x4")), typeof(Unity.Collections.NativeSlice<>).MakeGenericType(typeof(UnityEngine.Vector4)), typeof(UnityEngine.MaterialPropertyBlock), typeof(System.Boolean), typeof(System.Exception).MakeByRefType());
 					r_EvaluateChain_RenderChainCommand_Material_Material_Texture_Texture_Single_NativeSlice_d_Transform3x4_p__NativeSlice_d_Vector4_p__MaterialPropertyBlock_Boolean_Ref_Exception.SetBelong(this.instance);
 				}
 				return r_EvaluateChain_RenderChainCommand_Material_Material_Texture_Texture_Single_NativeSlice_d_Transform3x4_p__NativeSlice_d_Vector4_p__MaterialPropertyBlock_Boolean_Ref_Exception;
@@ -1210,7 +1210,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_KickRanges_DrawBufferRangePointer_Ref_Int32_Ref_Int32_Int32_Page == null)
 				{
-					r_KickRanges_DrawBufferRangePointer_Ref_Int32_Ref_Int32_Int32_Page = new(this, "KickRanges", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.UIR.DrawBufferRange").MakePointerType(), typeof(System.Int32).MakeByRefType(), typeof(System.Int32).MakeByRefType(), typeof(System.Int32),  ReleactionUtils.GetType("UnityEngine.UIElements.UIR.Page"));
+					r_KickRanges_DrawBufferRangePointer_Ref_Int32_Ref_Int32_Int32_Page = new(this, "KickRanges", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.UIR.DrawBufferRange").MakePointerType(), typeof(System.Int32).MakeByRefType(), typeof(System.Int32).MakeByRefType(), typeof(System.Int32),  ReflectionUtils.GetType("UnityEngine.UIElements.UIR.Page"));
 					r_KickRanges_DrawBufferRangePointer_Ref_Int32_Ref_Int32_Int32_Page.SetBelong(this.instance);
 				}
 				return r_KickRanges_DrawBufferRangePointer_Ref_Int32_Ref_Int32_Int32_Page;
@@ -1227,7 +1227,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_DrawRanges_GI_GT_GPUBuffer_d_I_p__GPUBuffer_d_T_p__NativeSlice_d_DrawBufferRange_p_ == null)
 				{
-					r_DrawRanges_GI_GT_GPUBuffer_d_I_p__GPUBuffer_d_T_p__NativeSlice_d_DrawBufferRange_p_ = new(this, "DrawRanges", 2,  ReleactionUtils.GetType("UnityEngine.UIElements.UIR.Utility+GPUBuffer`1").MakeGenericType(Type.MakeGenericMethodParameter(0)),  ReleactionUtils.GetType("UnityEngine.UIElements.UIR.Utility+GPUBuffer`1").MakeGenericType(Type.MakeGenericMethodParameter(1)), typeof(Unity.Collections.NativeSlice<>).MakeGenericType( ReleactionUtils.GetType("UnityEngine.UIElements.UIR.DrawBufferRange")));
+					r_DrawRanges_GI_GT_GPUBuffer_d_I_p__GPUBuffer_d_T_p__NativeSlice_d_DrawBufferRange_p_ = new(this, "DrawRanges", 2,  ReflectionUtils.GetType("UnityEngine.UIElements.UIR.Utility+GPUBuffer`1").MakeGenericType(Type.MakeGenericMethodParameter(0)),  ReflectionUtils.GetType("UnityEngine.UIElements.UIR.Utility+GPUBuffer`1").MakeGenericType(Type.MakeGenericMethodParameter(1)), typeof(Unity.Collections.NativeSlice<>).MakeGenericType( ReflectionUtils.GetType("UnityEngine.UIElements.UIR.DrawBufferRange")));
 					r_DrawRanges_GI_GT_GPUBuffer_d_I_p__GPUBuffer_d_T_p__NativeSlice_d_DrawBufferRange_p_.SetBelong(this.instance);
 				}
 				return r_DrawRanges_GI_GT_GPUBuffer_d_I_p__GPUBuffer_d_T_p__NativeSlice_d_DrawBufferRange_p_;
@@ -1312,7 +1312,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_PrepareForGfxDeviceRecreate == null)
 				{
-					r_PrepareForGfxDeviceRecreate = new( ReleactionUtils.GetType("UnityEngine.UIElements.UIR.UIRenderDevice"), "PrepareForGfxDeviceRecreate", 0);
+					r_PrepareForGfxDeviceRecreate = new( ReflectionUtils.GetType("UnityEngine.UIElements.UIR.UIRenderDevice"), "PrepareForGfxDeviceRecreate", 0);
 					r_PrepareForGfxDeviceRecreate.SetBelong(null);
 				}
 				return r_PrepareForGfxDeviceRecreate;
@@ -1329,7 +1329,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_WrapUpGfxDeviceRecreate == null)
 				{
-					r_WrapUpGfxDeviceRecreate = new( ReleactionUtils.GetType("UnityEngine.UIElements.UIR.UIRenderDevice"), "WrapUpGfxDeviceRecreate", 0);
+					r_WrapUpGfxDeviceRecreate = new( ReflectionUtils.GetType("UnityEngine.UIElements.UIR.UIRenderDevice"), "WrapUpGfxDeviceRecreate", 0);
 					r_WrapUpGfxDeviceRecreate.SetBelong(null);
 				}
 				return r_WrapUpGfxDeviceRecreate;
@@ -1346,7 +1346,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_FlushAllPendingDeviceDisposes == null)
 				{
-					r_FlushAllPendingDeviceDisposes = new( ReleactionUtils.GetType("UnityEngine.UIElements.UIR.UIRenderDevice"), "FlushAllPendingDeviceDisposes", 0);
+					r_FlushAllPendingDeviceDisposes = new( ReflectionUtils.GetType("UnityEngine.UIElements.UIR.UIRenderDevice"), "FlushAllPendingDeviceDisposes", 0);
 					r_FlushAllPendingDeviceDisposes.SetBelong(null);
 				}
 				return r_FlushAllPendingDeviceDisposes;
@@ -1397,7 +1397,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_ProcessDeviceFreeQueue == null)
 				{
-					r_ProcessDeviceFreeQueue = new( ReleactionUtils.GetType("UnityEngine.UIElements.UIR.UIRenderDevice"), "ProcessDeviceFreeQueue", 0);
+					r_ProcessDeviceFreeQueue = new( ReflectionUtils.GetType("UnityEngine.UIElements.UIR.UIRenderDevice"), "ProcessDeviceFreeQueue", 0);
 					r_ProcessDeviceFreeQueue.SetBelong(null);
 				}
 				return r_ProcessDeviceFreeQueue;
@@ -1414,7 +1414,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_OnEngineUpdateGlobal == null)
 				{
-					r_OnEngineUpdateGlobal = new( ReleactionUtils.GetType("UnityEngine.UIElements.UIR.UIRenderDevice"), "OnEngineUpdateGlobal", 0);
+					r_OnEngineUpdateGlobal = new( ReflectionUtils.GetType("UnityEngine.UIElements.UIR.UIRenderDevice"), "OnEngineUpdateGlobal", 0);
 					r_OnEngineUpdateGlobal.SetBelong(null);
 				}
 				return r_OnEngineUpdateGlobal;
@@ -1431,7 +1431,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_OnFlushPendingResources == null)
 				{
-					r_OnFlushPendingResources = new( ReleactionUtils.GetType("UnityEngine.UIElements.UIR.UIRenderDevice"), "OnFlushPendingResources", 0);
+					r_OnFlushPendingResources = new( ReflectionUtils.GetType("UnityEngine.UIElements.UIR.UIRenderDevice"), "OnFlushPendingResources", 0);
 					r_OnFlushPendingResources.SetBelong(null);
 				}
 				return r_OnFlushPendingResources;

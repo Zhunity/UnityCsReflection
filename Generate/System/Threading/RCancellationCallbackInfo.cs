@@ -88,7 +88,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_s_executionContextCallback == null)
 				{
-					r_s_executionContextCallback = new( ReleactionUtils.GetType("System.Threading.CancellationCallbackInfo"), "s_executionContextCallback");
+					r_s_executionContextCallback = new( ReflectionUtils.GetType("System.Threading.CancellationCallbackInfo"), "s_executionContextCallback");
 					r_s_executionContextCallback.SetBelong(null);
 				}
 				return r_s_executionContextCallback;
@@ -122,7 +122,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_ExecutionContextCallback_Object == null)
 				{
-					r_ExecutionContextCallback_Object = new( ReleactionUtils.GetType("System.Threading.CancellationCallbackInfo"), "ExecutionContextCallback", 0, typeof(System.Object));
+					r_ExecutionContextCallback_Object = new( ReflectionUtils.GetType("System.Threading.CancellationCallbackInfo"), "ExecutionContextCallback", 0, typeof(System.Object));
 					r_ExecutionContextCallback_Object.SetBelong(null);
 				}
 				return r_ExecutionContextCallback_Object;

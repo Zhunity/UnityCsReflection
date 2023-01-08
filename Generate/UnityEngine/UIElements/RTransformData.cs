@@ -105,7 +105,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_CopyFrom_Ref_TransformData == null)
 				{
-					r_CopyFrom_Ref_TransformData = new(this, "CopyFrom", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.TransformData").MakeByRefType());
+					r_CopyFrom_Ref_TransformData = new(this, "CopyFrom", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.TransformData").MakeByRefType());
 					r_CopyFrom_Ref_TransformData.SetBelong(this.instance);
 				}
 				return r_CopyFrom_Ref_TransformData;
@@ -122,7 +122,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_op_Equality_TransformData_TransformData == null)
 				{
-					r_op_Equality_TransformData_TransformData = new( ReleactionUtils.GetType("UnityEngine.UIElements.TransformData"), "op_Equality", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.TransformData"),  ReleactionUtils.GetType("UnityEngine.UIElements.TransformData"));
+					r_op_Equality_TransformData_TransformData = new( ReflectionUtils.GetType("UnityEngine.UIElements.TransformData"), "op_Equality", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.TransformData"),  ReflectionUtils.GetType("UnityEngine.UIElements.TransformData"));
 					r_op_Equality_TransformData_TransformData.SetBelong(null);
 				}
 				return r_op_Equality_TransformData_TransformData;
@@ -139,7 +139,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_op_Inequality_TransformData_TransformData == null)
 				{
-					r_op_Inequality_TransformData_TransformData = new( ReleactionUtils.GetType("UnityEngine.UIElements.TransformData"), "op_Inequality", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.TransformData"),  ReleactionUtils.GetType("UnityEngine.UIElements.TransformData"));
+					r_op_Inequality_TransformData_TransformData = new( ReflectionUtils.GetType("UnityEngine.UIElements.TransformData"), "op_Inequality", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.TransformData"),  ReflectionUtils.GetType("UnityEngine.UIElements.TransformData"));
 					r_op_Inequality_TransformData_TransformData.SetBelong(null);
 				}
 				return r_op_Inequality_TransformData_TransformData;
@@ -156,7 +156,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_Equals_TransformData == null)
 				{
-					r_Equals_TransformData = new(this, "Equals", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.TransformData"));
+					r_Equals_TransformData = new(this, "Equals", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.TransformData"));
 					r_Equals_TransformData.SetBelong(this.instance);
 				}
 				return r_Equals_TransformData;

@@ -530,7 +530,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
 			{
 				if(r_SetValue_StylePropertyId_Single == null)
 				{
-					r_SetValue_StylePropertyId_Single = new(this, "SetValue", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"), typeof(System.Single));
+					r_SetValue_StylePropertyId_Single = new(this, "SetValue", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"), typeof(System.Single));
 					r_SetValue_StylePropertyId_Single.SetBelong(this.instance);
 				}
 				return r_SetValue_StylePropertyId_Single;
@@ -547,7 +547,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
 			{
 				if(r_SetValue_StylePropertyId_Color == null)
 				{
-					r_SetValue_StylePropertyId_Color = new(this, "SetValue", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"), typeof(UnityEngine.Color));
+					r_SetValue_StylePropertyId_Color = new(this, "SetValue", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"), typeof(UnityEngine.Color));
 					r_SetValue_StylePropertyId_Color.SetBelong(this.instance);
 				}
 				return r_SetValue_StylePropertyId_Color;

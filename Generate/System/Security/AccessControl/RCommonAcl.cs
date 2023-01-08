@@ -564,7 +564,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 			{
 				if(r_RemoveAces_GT_RemoveAcesCallback_d_T_p_ == null)
 				{
-					r_RemoveAces_GT_RemoveAcesCallback_d_T_p_ = new(this, "RemoveAces", 1,  ReleactionUtils.GetType("System.Security.AccessControl.CommonAcl+RemoveAcesCallback`1").MakeGenericType(Type.MakeGenericMethodParameter(0)));
+					r_RemoveAces_GT_RemoveAcesCallback_d_T_p_ = new(this, "RemoveAces", 1,  ReflectionUtils.GetType("System.Security.AccessControl.CommonAcl+RemoveAcesCallback`1").MakeGenericType(Type.MakeGenericMethodParameter(0)));
 					r_RemoveAces_GT_RemoveAcesCallback_d_T_p_.SetBelong(this.instance);
 				}
 				return r_RemoveAces_GT_RemoveAcesCallback_d_T_p_;

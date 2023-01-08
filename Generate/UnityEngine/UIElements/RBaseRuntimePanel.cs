@@ -37,7 +37,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_s_CurrentRuntimePanelCounter == null)
 				{
-					r_s_CurrentRuntimePanelCounter = new( ReleactionUtils.GetType("UnityEngine.UIElements.BaseRuntimePanel"), "s_CurrentRuntimePanelCounter");
+					r_s_CurrentRuntimePanelCounter = new( ReflectionUtils.GetType("UnityEngine.UIElements.BaseRuntimePanel"), "s_CurrentRuntimePanelCounter");
 					r_s_CurrentRuntimePanelCounter.SetBelong(null);
 				}
 				return r_s_CurrentRuntimePanelCounter;
@@ -207,7 +207,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_DefaultScreenToPanelSpace == null)
 				{
-					r_DefaultScreenToPanelSpace = new( ReleactionUtils.GetType("UnityEngine.UIElements.BaseRuntimePanel"), "DefaultScreenToPanelSpace");
+					r_DefaultScreenToPanelSpace = new( ReflectionUtils.GetType("UnityEngine.UIElements.BaseRuntimePanel"), "DefaultScreenToPanelSpace");
 					r_DefaultScreenToPanelSpace.SetBelong(null);
 				}
 				return r_DefaultScreenToPanelSpace;
@@ -1210,7 +1210,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_AssignPanelToComponents_BaseRuntimePanel == null)
 				{
-					r_AssignPanelToComponents_BaseRuntimePanel = new(this, "AssignPanelToComponents", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.BaseRuntimePanel"));
+					r_AssignPanelToComponents_BaseRuntimePanel = new(this, "AssignPanelToComponents", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.BaseRuntimePanel"));
 					r_AssignPanelToComponents_BaseRuntimePanel.SetBelong(this.instance);
 				}
 				return r_AssignPanelToComponents_BaseRuntimePanel;
@@ -1448,7 +1448,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_GetEditorUpdater_VisualTreeEditorUpdatePhase == null)
 				{
-					r_GetEditorUpdater_VisualTreeEditorUpdatePhase = new(this, "GetEditorUpdater", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.VisualTreeEditorUpdatePhase"));
+					r_GetEditorUpdater_VisualTreeEditorUpdatePhase = new(this, "GetEditorUpdater", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.VisualTreeEditorUpdatePhase"));
 					r_GetEditorUpdater_VisualTreeEditorUpdatePhase.SetBelong(this.instance);
 				}
 				return r_GetEditorUpdater_VisualTreeEditorUpdatePhase;
@@ -1482,7 +1482,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_RequestUpdateAfterExternalEvent_IVisualTreeUpdater == null)
 				{
-					r_RequestUpdateAfterExternalEvent_IVisualTreeUpdater = new(this, "RequestUpdateAfterExternalEvent", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.IVisualTreeUpdater"));
+					r_RequestUpdateAfterExternalEvent_IVisualTreeUpdater = new(this, "RequestUpdateAfterExternalEvent", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.IVisualTreeUpdater"));
 					r_RequestUpdateAfterExternalEvent_IVisualTreeUpdater.SetBelong(this.instance);
 				}
 				return r_RequestUpdateAfterExternalEvent_IVisualTreeUpdater;
@@ -1499,7 +1499,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_OnVersionChanged_VisualElement_VersionChangeType == null)
 				{
-					r_OnVersionChanged_VisualElement_VersionChangeType = new(this, "OnVersionChanged", 0, typeof(UnityEngine.UIElements.VisualElement),  ReleactionUtils.GetType("UnityEngine.UIElements.VersionChangeType"));
+					r_OnVersionChanged_VisualElement_VersionChangeType = new(this, "OnVersionChanged", 0, typeof(UnityEngine.UIElements.VisualElement),  ReflectionUtils.GetType("UnityEngine.UIElements.VersionChangeType"));
 					r_OnVersionChanged_VisualElement_VersionChangeType.SetBelong(this.instance);
 				}
 				return r_OnVersionChanged_VisualElement_VersionChangeType;
@@ -1516,7 +1516,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_SetUpdater_IVisualTreeUpdater_VisualTreeUpdatePhase == null)
 				{
-					r_SetUpdater_IVisualTreeUpdater_VisualTreeUpdatePhase = new(this, "SetUpdater", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.IVisualTreeUpdater"),  ReleactionUtils.GetType("UnityEngine.UIElements.VisualTreeUpdatePhase"));
+					r_SetUpdater_IVisualTreeUpdater_VisualTreeUpdatePhase = new(this, "SetUpdater", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.IVisualTreeUpdater"),  ReflectionUtils.GetType("UnityEngine.UIElements.VisualTreeUpdatePhase"));
 					r_SetUpdater_IVisualTreeUpdater_VisualTreeUpdatePhase.SetBelong(this.instance);
 				}
 				return r_SetUpdater_IVisualTreeUpdater_VisualTreeUpdatePhase;
@@ -1533,7 +1533,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_GetUpdater_VisualTreeUpdatePhase == null)
 				{
-					r_GetUpdater_VisualTreeUpdatePhase = new(this, "GetUpdater", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.VisualTreeUpdatePhase"));
+					r_GetUpdater_VisualTreeUpdatePhase = new(this, "GetUpdater", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.VisualTreeUpdatePhase"));
 					r_GetUpdater_VisualTreeUpdatePhase.SetBelong(this.instance);
 				}
 				return r_GetUpdater_VisualTreeUpdatePhase;
@@ -1567,7 +1567,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_SendEvent_EventBase_DispatchMode == null)
 				{
-					r_SendEvent_EventBase_DispatchMode = new(this, "SendEvent", 0, typeof(UnityEngine.UIElements.EventBase),  ReleactionUtils.GetType("UnityEngine.UIElements.DispatchMode"));
+					r_SendEvent_EventBase_DispatchMode = new(this, "SendEvent", 0, typeof(UnityEngine.UIElements.EventBase),  ReflectionUtils.GetType("UnityEngine.UIElements.DispatchMode"));
 					r_SendEvent_EventBase_DispatchMode.SetBelong(this.instance);
 				}
 				return r_SendEvent_EventBase_DispatchMode;
@@ -1720,7 +1720,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_InvokeHierarchyChanged_VisualElement_HierarchyChangeType == null)
 				{
-					r_InvokeHierarchyChanged_VisualElement_HierarchyChangeType = new(this, "InvokeHierarchyChanged", 0, typeof(UnityEngine.UIElements.VisualElement),  ReleactionUtils.GetType("UnityEngine.UIElements.HierarchyChangeType"));
+					r_InvokeHierarchyChanged_VisualElement_HierarchyChangeType = new(this, "InvokeHierarchyChanged", 0, typeof(UnityEngine.UIElements.VisualElement),  ReflectionUtils.GetType("UnityEngine.UIElements.HierarchyChangeType"));
 					r_InvokeHierarchyChanged_VisualElement_HierarchyChangeType.SetBelong(this.instance);
 				}
 				return r_InvokeHierarchyChanged_VisualElement_HierarchyChangeType;

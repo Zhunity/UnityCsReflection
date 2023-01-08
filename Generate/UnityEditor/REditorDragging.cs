@@ -20,7 +20,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 			{
 				if(r_k_DraggingModeKey == null)
 				{
-					r_k_DraggingModeKey = new( ReleactionUtils.GetType("UnityEditor.EditorDragging"), "k_DraggingModeKey");
+					r_k_DraggingModeKey = new( ReflectionUtils.GetType("UnityEditor.EditorDragging"), "k_DraggingModeKey");
 					r_k_DraggingModeKey.SetBelong(null);
 				}
 				return r_k_DraggingModeKey;
@@ -224,7 +224,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 			{
 				if(r_DraggingOverRect_Rect == null)
 				{
-					r_DraggingOverRect_Rect = new( ReleactionUtils.GetType("UnityEditor.EditorDragging"), "DraggingOverRect", 0, typeof(UnityEngine.Rect));
+					r_DraggingOverRect_Rect = new( ReflectionUtils.GetType("UnityEditor.EditorDragging"), "DraggingOverRect", 0, typeof(UnityEngine.Rect));
 					r_DraggingOverRect_Rect.SetBelong(null);
 				}
 				return r_DraggingOverRect_Rect;
@@ -275,7 +275,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 			{
 				if(r_GetMarkerRect_Rect == null)
 				{
-					r_GetMarkerRect_Rect = new( ReleactionUtils.GetType("UnityEditor.EditorDragging"), "GetMarkerRect", 0, typeof(UnityEngine.Rect));
+					r_GetMarkerRect_Rect = new( ReflectionUtils.GetType("UnityEditor.EditorDragging"), "GetMarkerRect", 0, typeof(UnityEngine.Rect));
 					r_GetMarkerRect_Rect.SetBelong(null);
 				}
 				return r_GetMarkerRect_Rect;

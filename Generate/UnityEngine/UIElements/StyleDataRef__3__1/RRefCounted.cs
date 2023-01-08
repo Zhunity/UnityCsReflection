@@ -22,7 +22,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_m_NextId == null)
 				{
-					r_m_NextId = new( ReleactionUtils.GetType("UnityEngine.UIElements.StyleDataRef`1+RefCounted"), "m_NextId");
+					r_m_NextId = new( ReflectionUtils.GetType("UnityEngine.UIElements.StyleDataRef`1+RefCounted"), "m_NextId");
 					r_m_NextId.SetBelong(null);
 				}
 				return r_m_NextId;

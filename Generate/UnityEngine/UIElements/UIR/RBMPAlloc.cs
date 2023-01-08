@@ -20,7 +20,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_Invalid == null)
 				{
-					r_Invalid = new( ReleactionUtils.GetType("UnityEngine.UIElements.UIR.BMPAlloc"), "Invalid");
+					r_Invalid = new( ReflectionUtils.GetType("UnityEngine.UIElements.UIR.BMPAlloc"), "Invalid");
 					r_Invalid.SetBelong(null);
 				}
 				return r_Invalid;
@@ -105,7 +105,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_Equals_BMPAlloc == null)
 				{
-					r_Equals_BMPAlloc = new(this, "Equals", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.UIR.BMPAlloc"));
+					r_Equals_BMPAlloc = new(this, "Equals", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.UIR.BMPAlloc"));
 					r_Equals_BMPAlloc.SetBelong(this.instance);
 				}
 				return r_Equals_BMPAlloc;

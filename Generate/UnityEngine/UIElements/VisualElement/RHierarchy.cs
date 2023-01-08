@@ -22,7 +22,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_k_InvalidHierarchyChangeMsg == null)
 				{
-					r_k_InvalidHierarchyChangeMsg = new( ReleactionUtils.GetType("UnityEngine.UIElements.VisualElement+Hierarchy"), "k_InvalidHierarchyChangeMsg");
+					r_k_InvalidHierarchyChangeMsg = new( ReflectionUtils.GetType("UnityEngine.UIElements.VisualElement+Hierarchy"), "k_InvalidHierarchyChangeMsg");
 					r_k_InvalidHierarchyChangeMsg.SetBelong(null);
 				}
 				return r_k_InvalidHierarchyChangeMsg;
@@ -430,7 +430,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_Equals_Hierarchy == null)
 				{
-					r_Equals_Hierarchy = new(this, "Equals", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.VisualElement+Hierarchy"));
+					r_Equals_Hierarchy = new(this, "Equals", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.VisualElement+Hierarchy"));
 					r_Equals_Hierarchy.SetBelong(this.instance);
 				}
 				return r_Equals_Hierarchy;
@@ -481,7 +481,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_op_Equality_Hierarchy_Hierarchy == null)
 				{
-					r_op_Equality_Hierarchy_Hierarchy = new( ReleactionUtils.GetType("UnityEngine.UIElements.VisualElement+Hierarchy"), "op_Equality", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.VisualElement+Hierarchy"),  ReleactionUtils.GetType("UnityEngine.UIElements.VisualElement+Hierarchy"));
+					r_op_Equality_Hierarchy_Hierarchy = new( ReflectionUtils.GetType("UnityEngine.UIElements.VisualElement+Hierarchy"), "op_Equality", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.VisualElement+Hierarchy"),  ReflectionUtils.GetType("UnityEngine.UIElements.VisualElement+Hierarchy"));
 					r_op_Equality_Hierarchy_Hierarchy.SetBelong(null);
 				}
 				return r_op_Equality_Hierarchy_Hierarchy;
@@ -498,7 +498,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_op_Inequality_Hierarchy_Hierarchy == null)
 				{
-					r_op_Inequality_Hierarchy_Hierarchy = new( ReleactionUtils.GetType("UnityEngine.UIElements.VisualElement+Hierarchy"), "op_Inequality", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.VisualElement+Hierarchy"),  ReleactionUtils.GetType("UnityEngine.UIElements.VisualElement+Hierarchy"));
+					r_op_Inequality_Hierarchy_Hierarchy = new( ReflectionUtils.GetType("UnityEngine.UIElements.VisualElement+Hierarchy"), "op_Inequality", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.VisualElement+Hierarchy"),  ReflectionUtils.GetType("UnityEngine.UIElements.VisualElement+Hierarchy"));
 					r_op_Inequality_Hierarchy_Hierarchy.SetBelong(null);
 				}
 				return r_op_Inequality_Hierarchy_Hierarchy;

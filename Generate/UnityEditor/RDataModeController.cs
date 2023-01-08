@@ -20,7 +20,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 			{
 				if(r_k_DefaultModes == null)
 				{
-					r_k_DefaultModes = new( ReleactionUtils.GetType("UnityEditor.DataModeController"), "k_DefaultModes");
+					r_k_DefaultModes = new( ReflectionUtils.GetType("UnityEditor.DataModeController"), "k_DefaultModes");
 					r_k_DefaultModes.SetBelong(null);
 				}
 				return r_k_DefaultModes;
@@ -207,7 +207,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 			{
 				if(r_SanitizeSupportedDataModesList_IReadOnlyList_d_DataMode_p__List_d_DataMode_p_ == null)
 				{
-					r_SanitizeSupportedDataModesList_IReadOnlyList_d_DataMode_p__List_d_DataMode_p_ = new( ReleactionUtils.GetType("UnityEditor.DataModeController"), "SanitizeSupportedDataModesList", 0, typeof(System.Collections.Generic.IReadOnlyList<>).MakeGenericType(typeof(UnityEditor.DataMode)), typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(UnityEditor.DataMode)));
+					r_SanitizeSupportedDataModesList_IReadOnlyList_d_DataMode_p__List_d_DataMode_p_ = new( ReflectionUtils.GetType("UnityEditor.DataModeController"), "SanitizeSupportedDataModesList", 0, typeof(System.Collections.Generic.IReadOnlyList<>).MakeGenericType(typeof(UnityEditor.DataMode)), typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(UnityEditor.DataMode)));
 					r_SanitizeSupportedDataModesList_IReadOnlyList_d_DataMode_p__List_d_DataMode_p_.SetBelong(null);
 				}
 				return r_SanitizeSupportedDataModesList_IReadOnlyList_d_DataMode_p__List_d_DataMode_p_;

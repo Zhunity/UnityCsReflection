@@ -54,7 +54,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 			{
 				if(r_m_LayoutTextInfo == null)
 				{
-					r_m_LayoutTextInfo = new( ReleactionUtils.GetType("UnityEngine.TextCore.Text.TextHandle"), "m_LayoutTextInfo");
+					r_m_LayoutTextInfo = new( ReflectionUtils.GetType("UnityEngine.TextCore.Text.TextHandle"), "m_LayoutTextInfo");
 					r_m_LayoutTextInfo.SetBelong(null);
 				}
 				return r_m_LayoutTextInfo;
@@ -105,7 +105,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 			{
 				if(r_s_LayoutSettings == null)
 				{
-					r_s_LayoutSettings = new( ReleactionUtils.GetType("UnityEngine.TextCore.Text.TextHandle"), "s_LayoutSettings");
+					r_s_LayoutSettings = new( ReflectionUtils.GetType("UnityEngine.TextCore.Text.TextHandle"), "s_LayoutSettings");
 					r_s_LayoutSettings.SetBelong(null);
 				}
 				return r_s_LayoutSettings;
@@ -156,7 +156,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 			{
 				if(r_layoutTextInfo == null)
 				{
-					r_layoutTextInfo = new( ReleactionUtils.GetType("UnityEngine.TextCore.Text.TextHandle"), "layoutTextInfo", -1);
+					r_layoutTextInfo = new( ReflectionUtils.GetType("UnityEngine.TextCore.Text.TextHandle"), "layoutTextInfo", -1);
 					r_layoutTextInfo.SetBelong(null);
 				}
 				return r_layoutTextInfo;
@@ -377,7 +377,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 			{
 				if(r_PointIntersectRectangle_Vector3_Vector3_Vector3_Vector3_Vector3 == null)
 				{
-					r_PointIntersectRectangle_Vector3_Vector3_Vector3_Vector3_Vector3 = new( ReleactionUtils.GetType("UnityEngine.TextCore.Text.TextHandle"), "PointIntersectRectangle", 0, typeof(UnityEngine.Vector3), typeof(UnityEngine.Vector3), typeof(UnityEngine.Vector3), typeof(UnityEngine.Vector3), typeof(UnityEngine.Vector3));
+					r_PointIntersectRectangle_Vector3_Vector3_Vector3_Vector3_Vector3 = new( ReflectionUtils.GetType("UnityEngine.TextCore.Text.TextHandle"), "PointIntersectRectangle", 0, typeof(UnityEngine.Vector3), typeof(UnityEngine.Vector3), typeof(UnityEngine.Vector3), typeof(UnityEngine.Vector3), typeof(UnityEngine.Vector3));
 					r_PointIntersectRectangle_Vector3_Vector3_Vector3_Vector3_Vector3.SetBelong(null);
 				}
 				return r_PointIntersectRectangle_Vector3_Vector3_Vector3_Vector3_Vector3;
@@ -394,7 +394,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 			{
 				if(r_DistanceToLine_Vector3_Vector3_Vector3 == null)
 				{
-					r_DistanceToLine_Vector3_Vector3_Vector3 = new( ReleactionUtils.GetType("UnityEngine.TextCore.Text.TextHandle"), "DistanceToLine", 0, typeof(UnityEngine.Vector3), typeof(UnityEngine.Vector3), typeof(UnityEngine.Vector3));
+					r_DistanceToLine_Vector3_Vector3_Vector3 = new( ReflectionUtils.GetType("UnityEngine.TextCore.Text.TextHandle"), "DistanceToLine", 0, typeof(UnityEngine.Vector3), typeof(UnityEngine.Vector3), typeof(UnityEngine.Vector3));
 					r_DistanceToLine_Vector3_Vector3_Vector3.SetBelong(null);
 				}
 				return r_DistanceToLine_Vector3_Vector3_Vector3;
@@ -547,7 +547,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 			{
 				if(r_ComputeTextWidth_TextGenerationSettings == null)
 				{
-					r_ComputeTextWidth_TextGenerationSettings = new(this, "ComputeTextWidth", 0,  ReleactionUtils.GetType("UnityEngine.TextCore.Text.TextGenerationSettings"));
+					r_ComputeTextWidth_TextGenerationSettings = new(this, "ComputeTextWidth", 0,  ReflectionUtils.GetType("UnityEngine.TextCore.Text.TextGenerationSettings"));
 					r_ComputeTextWidth_TextGenerationSettings.SetBelong(this.instance);
 				}
 				return r_ComputeTextWidth_TextGenerationSettings;
@@ -564,7 +564,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 			{
 				if(r_ComputeTextHeight_TextGenerationSettings == null)
 				{
-					r_ComputeTextHeight_TextGenerationSettings = new(this, "ComputeTextHeight", 0,  ReleactionUtils.GetType("UnityEngine.TextCore.Text.TextGenerationSettings"));
+					r_ComputeTextHeight_TextGenerationSettings = new(this, "ComputeTextHeight", 0,  ReflectionUtils.GetType("UnityEngine.TextCore.Text.TextGenerationSettings"));
 					r_ComputeTextHeight_TextGenerationSettings.SetBelong(this.instance);
 				}
 				return r_ComputeTextHeight_TextGenerationSettings;
@@ -581,7 +581,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 			{
 				if(r_UpdatePreferredValues_TextGenerationSettings == null)
 				{
-					r_UpdatePreferredValues_TextGenerationSettings = new(this, "UpdatePreferredValues", 0,  ReleactionUtils.GetType("UnityEngine.TextCore.Text.TextGenerationSettings"));
+					r_UpdatePreferredValues_TextGenerationSettings = new(this, "UpdatePreferredValues", 0,  ReflectionUtils.GetType("UnityEngine.TextCore.Text.TextGenerationSettings"));
 					r_UpdatePreferredValues_TextGenerationSettings.SetBelong(this.instance);
 				}
 				return r_UpdatePreferredValues_TextGenerationSettings;
@@ -615,7 +615,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 			{
 				if(r_Update_TextGenerationSettings == null)
 				{
-					r_Update_TextGenerationSettings = new(this, "Update", 0,  ReleactionUtils.GetType("UnityEngine.TextCore.Text.TextGenerationSettings"));
+					r_Update_TextGenerationSettings = new(this, "Update", 0,  ReflectionUtils.GetType("UnityEngine.TextCore.Text.TextGenerationSettings"));
 					r_Update_TextGenerationSettings.SetBelong(this.instance);
 				}
 				return r_Update_TextGenerationSettings;

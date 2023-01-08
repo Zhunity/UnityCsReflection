@@ -107,7 +107,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 			{
 				if(r_SignMask == null)
 				{
-					r_SignMask = new( ReleactionUtils.GetType("System.Decimal+DecCalc"), "SignMask");
+					r_SignMask = new( ReflectionUtils.GetType("System.Decimal+DecCalc"), "SignMask");
 					r_SignMask.SetBelong(null);
 				}
 				return r_SignMask;
@@ -124,7 +124,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 			{
 				if(r_ScaleMask == null)
 				{
-					r_ScaleMask = new( ReleactionUtils.GetType("System.Decimal+DecCalc"), "ScaleMask");
+					r_ScaleMask = new( ReflectionUtils.GetType("System.Decimal+DecCalc"), "ScaleMask");
 					r_ScaleMask.SetBelong(null);
 				}
 				return r_ScaleMask;
@@ -141,7 +141,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 			{
 				if(r_DEC_SCALE_MAX == null)
 				{
-					r_DEC_SCALE_MAX = new( ReleactionUtils.GetType("System.Decimal+DecCalc"), "DEC_SCALE_MAX");
+					r_DEC_SCALE_MAX = new( ReflectionUtils.GetType("System.Decimal+DecCalc"), "DEC_SCALE_MAX");
 					r_DEC_SCALE_MAX.SetBelong(null);
 				}
 				return r_DEC_SCALE_MAX;
@@ -158,7 +158,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 			{
 				if(r_TenToPowerNine == null)
 				{
-					r_TenToPowerNine = new( ReleactionUtils.GetType("System.Decimal+DecCalc"), "TenToPowerNine");
+					r_TenToPowerNine = new( ReflectionUtils.GetType("System.Decimal+DecCalc"), "TenToPowerNine");
 					r_TenToPowerNine.SetBelong(null);
 				}
 				return r_TenToPowerNine;
@@ -175,7 +175,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 			{
 				if(r_TenToPowerEighteen == null)
 				{
-					r_TenToPowerEighteen = new( ReleactionUtils.GetType("System.Decimal+DecCalc"), "TenToPowerEighteen");
+					r_TenToPowerEighteen = new( ReflectionUtils.GetType("System.Decimal+DecCalc"), "TenToPowerEighteen");
 					r_TenToPowerEighteen.SetBelong(null);
 				}
 				return r_TenToPowerEighteen;
@@ -192,7 +192,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 			{
 				if(r_MaxInt32Scale == null)
 				{
-					r_MaxInt32Scale = new( ReleactionUtils.GetType("System.Decimal+DecCalc"), "MaxInt32Scale");
+					r_MaxInt32Scale = new( ReflectionUtils.GetType("System.Decimal+DecCalc"), "MaxInt32Scale");
 					r_MaxInt32Scale.SetBelong(null);
 				}
 				return r_MaxInt32Scale;
@@ -209,7 +209,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 			{
 				if(r_MaxInt64Scale == null)
 				{
-					r_MaxInt64Scale = new( ReleactionUtils.GetType("System.Decimal+DecCalc"), "MaxInt64Scale");
+					r_MaxInt64Scale = new( ReflectionUtils.GetType("System.Decimal+DecCalc"), "MaxInt64Scale");
 					r_MaxInt64Scale.SetBelong(null);
 				}
 				return r_MaxInt64Scale;
@@ -226,7 +226,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 			{
 				if(r_s_powers10 == null)
 				{
-					r_s_powers10 = new( ReleactionUtils.GetType("System.Decimal+DecCalc"), "s_powers10");
+					r_s_powers10 = new( ReflectionUtils.GetType("System.Decimal+DecCalc"), "s_powers10");
 					r_s_powers10.SetBelong(null);
 				}
 				return r_s_powers10;
@@ -243,7 +243,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 			{
 				if(r_s_ulongPowers10 == null)
 				{
-					r_s_ulongPowers10 = new( ReleactionUtils.GetType("System.Decimal+DecCalc"), "s_ulongPowers10");
+					r_s_ulongPowers10 = new( ReflectionUtils.GetType("System.Decimal+DecCalc"), "s_ulongPowers10");
 					r_s_ulongPowers10.SetBelong(null);
 				}
 				return r_s_ulongPowers10;
@@ -260,7 +260,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 			{
 				if(r_s_doublePowers10 == null)
 				{
-					r_s_doublePowers10 = new( ReleactionUtils.GetType("System.Decimal+DecCalc"), "s_doublePowers10");
+					r_s_doublePowers10 = new( ReflectionUtils.GetType("System.Decimal+DecCalc"), "s_doublePowers10");
 					r_s_doublePowers10.SetBelong(null);
 				}
 				return r_s_doublePowers10;
@@ -277,7 +277,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 			{
 				if(r_PowerOvflValues == null)
 				{
-					r_PowerOvflValues = new( ReleactionUtils.GetType("System.Decimal+DecCalc"), "PowerOvflValues");
+					r_PowerOvflValues = new( ReflectionUtils.GetType("System.Decimal+DecCalc"), "PowerOvflValues");
 					r_PowerOvflValues.SetBelong(null);
 				}
 				return r_PowerOvflValues;
@@ -396,7 +396,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 			{
 				if(r_GetExponent_Single == null)
 				{
-					r_GetExponent_Single = new( ReleactionUtils.GetType("System.Decimal+DecCalc"), "GetExponent", 0, typeof(System.Single));
+					r_GetExponent_Single = new( ReflectionUtils.GetType("System.Decimal+DecCalc"), "GetExponent", 0, typeof(System.Single));
 					r_GetExponent_Single.SetBelong(null);
 				}
 				return r_GetExponent_Single;
@@ -413,7 +413,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 			{
 				if(r_GetExponent_Double == null)
 				{
-					r_GetExponent_Double = new( ReleactionUtils.GetType("System.Decimal+DecCalc"), "GetExponent", 0, typeof(System.Double));
+					r_GetExponent_Double = new( ReflectionUtils.GetType("System.Decimal+DecCalc"), "GetExponent", 0, typeof(System.Double));
 					r_GetExponent_Double.SetBelong(null);
 				}
 				return r_GetExponent_Double;
@@ -430,7 +430,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 			{
 				if(r_UInt32x32To64_UInt32_UInt32 == null)
 				{
-					r_UInt32x32To64_UInt32_UInt32 = new( ReleactionUtils.GetType("System.Decimal+DecCalc"), "UInt32x32To64", 0, typeof(System.UInt32), typeof(System.UInt32));
+					r_UInt32x32To64_UInt32_UInt32 = new( ReflectionUtils.GetType("System.Decimal+DecCalc"), "UInt32x32To64", 0, typeof(System.UInt32), typeof(System.UInt32));
 					r_UInt32x32To64_UInt32_UInt32.SetBelong(null);
 				}
 				return r_UInt32x32To64_UInt32_UInt32;
@@ -447,7 +447,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 			{
 				if(r_UInt64x64To128_UInt64_UInt64_Ref_DecCalc == null)
 				{
-					r_UInt64x64To128_UInt64_UInt64_Ref_DecCalc = new( ReleactionUtils.GetType("System.Decimal+DecCalc"), "UInt64x64To128", 0, typeof(System.UInt64), typeof(System.UInt64),  ReleactionUtils.GetType("System.Decimal+DecCalc").MakeByRefType());
+					r_UInt64x64To128_UInt64_UInt64_Ref_DecCalc = new( ReflectionUtils.GetType("System.Decimal+DecCalc"), "UInt64x64To128", 0, typeof(System.UInt64), typeof(System.UInt64),  ReflectionUtils.GetType("System.Decimal+DecCalc").MakeByRefType());
 					r_UInt64x64To128_UInt64_UInt64_Ref_DecCalc.SetBelong(null);
 				}
 				return r_UInt64x64To128_UInt64_UInt64_Ref_DecCalc;
@@ -464,7 +464,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 			{
 				if(r_Div96By32_Ref_Buf12_UInt32 == null)
 				{
-					r_Div96By32_Ref_Buf12_UInt32 = new( ReleactionUtils.GetType("System.Decimal+DecCalc"), "Div96By32", 0,  ReleactionUtils.GetType("System.Decimal+DecCalc+Buf12").MakeByRefType(), typeof(System.UInt32));
+					r_Div96By32_Ref_Buf12_UInt32 = new( ReflectionUtils.GetType("System.Decimal+DecCalc"), "Div96By32", 0,  ReflectionUtils.GetType("System.Decimal+DecCalc+Buf12").MakeByRefType(), typeof(System.UInt32));
 					r_Div96By32_Ref_Buf12_UInt32.SetBelong(null);
 				}
 				return r_Div96By32_Ref_Buf12_UInt32;
@@ -481,7 +481,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 			{
 				if(r_Div96ByConst_Ref_UInt64_Ref_UInt32_UInt32 == null)
 				{
-					r_Div96ByConst_Ref_UInt64_Ref_UInt32_UInt32 = new( ReleactionUtils.GetType("System.Decimal+DecCalc"), "Div96ByConst", 0, typeof(System.UInt64).MakeByRefType(), typeof(System.UInt32).MakeByRefType(), typeof(System.UInt32));
+					r_Div96ByConst_Ref_UInt64_Ref_UInt32_UInt32 = new( ReflectionUtils.GetType("System.Decimal+DecCalc"), "Div96ByConst", 0, typeof(System.UInt64).MakeByRefType(), typeof(System.UInt32).MakeByRefType(), typeof(System.UInt32));
 					r_Div96ByConst_Ref_UInt64_Ref_UInt32_UInt32.SetBelong(null);
 				}
 				return r_Div96ByConst_Ref_UInt64_Ref_UInt32_UInt32;
@@ -498,7 +498,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 			{
 				if(r_Unscale_Ref_UInt32_Ref_UInt64_Ref_Int32 == null)
 				{
-					r_Unscale_Ref_UInt32_Ref_UInt64_Ref_Int32 = new( ReleactionUtils.GetType("System.Decimal+DecCalc"), "Unscale", 0, typeof(System.UInt32).MakeByRefType(), typeof(System.UInt64).MakeByRefType(), typeof(System.Int32).MakeByRefType());
+					r_Unscale_Ref_UInt32_Ref_UInt64_Ref_Int32 = new( ReflectionUtils.GetType("System.Decimal+DecCalc"), "Unscale", 0, typeof(System.UInt32).MakeByRefType(), typeof(System.UInt64).MakeByRefType(), typeof(System.Int32).MakeByRefType());
 					r_Unscale_Ref_UInt32_Ref_UInt64_Ref_Int32.SetBelong(null);
 				}
 				return r_Unscale_Ref_UInt32_Ref_UInt64_Ref_Int32;
@@ -515,7 +515,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 			{
 				if(r_Div96By64_Ref_Buf12_UInt64 == null)
 				{
-					r_Div96By64_Ref_Buf12_UInt64 = new( ReleactionUtils.GetType("System.Decimal+DecCalc"), "Div96By64", 0,  ReleactionUtils.GetType("System.Decimal+DecCalc+Buf12").MakeByRefType(), typeof(System.UInt64));
+					r_Div96By64_Ref_Buf12_UInt64 = new( ReflectionUtils.GetType("System.Decimal+DecCalc"), "Div96By64", 0,  ReflectionUtils.GetType("System.Decimal+DecCalc+Buf12").MakeByRefType(), typeof(System.UInt64));
 					r_Div96By64_Ref_Buf12_UInt64.SetBelong(null);
 				}
 				return r_Div96By64_Ref_Buf12_UInt64;
@@ -532,7 +532,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 			{
 				if(r_Div128By96_Ref_Buf16_Ref_Buf12 == null)
 				{
-					r_Div128By96_Ref_Buf16_Ref_Buf12 = new( ReleactionUtils.GetType("System.Decimal+DecCalc"), "Div128By96", 0,  ReleactionUtils.GetType("System.Decimal+DecCalc+Buf16").MakeByRefType(),  ReleactionUtils.GetType("System.Decimal+DecCalc+Buf12").MakeByRefType());
+					r_Div128By96_Ref_Buf16_Ref_Buf12 = new( ReflectionUtils.GetType("System.Decimal+DecCalc"), "Div128By96", 0,  ReflectionUtils.GetType("System.Decimal+DecCalc+Buf16").MakeByRefType(),  ReflectionUtils.GetType("System.Decimal+DecCalc+Buf12").MakeByRefType());
 					r_Div128By96_Ref_Buf16_Ref_Buf12.SetBelong(null);
 				}
 				return r_Div128By96_Ref_Buf16_Ref_Buf12;
@@ -549,7 +549,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 			{
 				if(r_IncreaseScale_Ref_Buf12_UInt32 == null)
 				{
-					r_IncreaseScale_Ref_Buf12_UInt32 = new( ReleactionUtils.GetType("System.Decimal+DecCalc"), "IncreaseScale", 0,  ReleactionUtils.GetType("System.Decimal+DecCalc+Buf12").MakeByRefType(), typeof(System.UInt32));
+					r_IncreaseScale_Ref_Buf12_UInt32 = new( ReflectionUtils.GetType("System.Decimal+DecCalc"), "IncreaseScale", 0,  ReflectionUtils.GetType("System.Decimal+DecCalc+Buf12").MakeByRefType(), typeof(System.UInt32));
 					r_IncreaseScale_Ref_Buf12_UInt32.SetBelong(null);
 				}
 				return r_IncreaseScale_Ref_Buf12_UInt32;
@@ -566,7 +566,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 			{
 				if(r_IncreaseScale64_Ref_Buf12_UInt32 == null)
 				{
-					r_IncreaseScale64_Ref_Buf12_UInt32 = new( ReleactionUtils.GetType("System.Decimal+DecCalc"), "IncreaseScale64", 0,  ReleactionUtils.GetType("System.Decimal+DecCalc+Buf12").MakeByRefType(), typeof(System.UInt32));
+					r_IncreaseScale64_Ref_Buf12_UInt32 = new( ReflectionUtils.GetType("System.Decimal+DecCalc"), "IncreaseScale64", 0,  ReflectionUtils.GetType("System.Decimal+DecCalc+Buf12").MakeByRefType(), typeof(System.UInt32));
 					r_IncreaseScale64_Ref_Buf12_UInt32.SetBelong(null);
 				}
 				return r_IncreaseScale64_Ref_Buf12_UInt32;
@@ -583,7 +583,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 			{
 				if(r_ScaleResult_Buf24Pointer_UInt32_Int32 == null)
 				{
-					r_ScaleResult_Buf24Pointer_UInt32_Int32 = new( ReleactionUtils.GetType("System.Decimal+DecCalc"), "ScaleResult", 0,  ReleactionUtils.GetType("System.Decimal+DecCalc+Buf24").MakePointerType(), typeof(System.UInt32), typeof(System.Int32));
+					r_ScaleResult_Buf24Pointer_UInt32_Int32 = new( ReflectionUtils.GetType("System.Decimal+DecCalc"), "ScaleResult", 0,  ReflectionUtils.GetType("System.Decimal+DecCalc+Buf24").MakePointerType(), typeof(System.UInt32), typeof(System.Int32));
 					r_ScaleResult_Buf24Pointer_UInt32_Int32.SetBelong(null);
 				}
 				return r_ScaleResult_Buf24Pointer_UInt32_Int32;
@@ -600,7 +600,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 			{
 				if(r_DivByConst_UInt32Pointer_UInt32_Out_UInt32_Out_UInt32_UInt32 == null)
 				{
-					r_DivByConst_UInt32Pointer_UInt32_Out_UInt32_Out_UInt32_UInt32 = new( ReleactionUtils.GetType("System.Decimal+DecCalc"), "DivByConst", 0, typeof(System.UInt32).MakePointerType(), typeof(System.UInt32), typeof(System.UInt32).MakeByRefType(), typeof(System.UInt32).MakeByRefType(), typeof(System.UInt32));
+					r_DivByConst_UInt32Pointer_UInt32_Out_UInt32_Out_UInt32_UInt32 = new( ReflectionUtils.GetType("System.Decimal+DecCalc"), "DivByConst", 0, typeof(System.UInt32).MakePointerType(), typeof(System.UInt32), typeof(System.UInt32).MakeByRefType(), typeof(System.UInt32).MakeByRefType(), typeof(System.UInt32));
 					r_DivByConst_UInt32Pointer_UInt32_Out_UInt32_Out_UInt32_UInt32.SetBelong(null);
 				}
 				return r_DivByConst_UInt32Pointer_UInt32_Out_UInt32_Out_UInt32_UInt32;
@@ -617,7 +617,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 			{
 				if(r_LeadingZeroCount_UInt32 == null)
 				{
-					r_LeadingZeroCount_UInt32 = new( ReleactionUtils.GetType("System.Decimal+DecCalc"), "LeadingZeroCount", 0, typeof(System.UInt32));
+					r_LeadingZeroCount_UInt32 = new( ReflectionUtils.GetType("System.Decimal+DecCalc"), "LeadingZeroCount", 0, typeof(System.UInt32));
 					r_LeadingZeroCount_UInt32.SetBelong(null);
 				}
 				return r_LeadingZeroCount_UInt32;
@@ -634,7 +634,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 			{
 				if(r_OverflowUnscale_Ref_Buf12_Int32_Boolean == null)
 				{
-					r_OverflowUnscale_Ref_Buf12_Int32_Boolean = new( ReleactionUtils.GetType("System.Decimal+DecCalc"), "OverflowUnscale", 0,  ReleactionUtils.GetType("System.Decimal+DecCalc+Buf12").MakeByRefType(), typeof(System.Int32), typeof(System.Boolean));
+					r_OverflowUnscale_Ref_Buf12_Int32_Boolean = new( ReflectionUtils.GetType("System.Decimal+DecCalc"), "OverflowUnscale", 0,  ReflectionUtils.GetType("System.Decimal+DecCalc+Buf12").MakeByRefType(), typeof(System.Int32), typeof(System.Boolean));
 					r_OverflowUnscale_Ref_Buf12_Int32_Boolean.SetBelong(null);
 				}
 				return r_OverflowUnscale_Ref_Buf12_Int32_Boolean;
@@ -651,7 +651,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 			{
 				if(r_SearchScale_Ref_Buf12_Int32 == null)
 				{
-					r_SearchScale_Ref_Buf12_Int32 = new( ReleactionUtils.GetType("System.Decimal+DecCalc"), "SearchScale", 0,  ReleactionUtils.GetType("System.Decimal+DecCalc+Buf12").MakeByRefType(), typeof(System.Int32));
+					r_SearchScale_Ref_Buf12_Int32 = new( ReflectionUtils.GetType("System.Decimal+DecCalc"), "SearchScale", 0,  ReflectionUtils.GetType("System.Decimal+DecCalc+Buf12").MakeByRefType(), typeof(System.Int32));
 					r_SearchScale_Ref_Buf12_Int32.SetBelong(null);
 				}
 				return r_SearchScale_Ref_Buf12_Int32;
@@ -668,7 +668,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 			{
 				if(r_Add32To96_Ref_Buf12_UInt32 == null)
 				{
-					r_Add32To96_Ref_Buf12_UInt32 = new( ReleactionUtils.GetType("System.Decimal+DecCalc"), "Add32To96", 0,  ReleactionUtils.GetType("System.Decimal+DecCalc+Buf12").MakeByRefType(), typeof(System.UInt32));
+					r_Add32To96_Ref_Buf12_UInt32 = new( ReflectionUtils.GetType("System.Decimal+DecCalc"), "Add32To96", 0,  ReflectionUtils.GetType("System.Decimal+DecCalc+Buf12").MakeByRefType(), typeof(System.UInt32));
 					r_Add32To96_Ref_Buf12_UInt32.SetBelong(null);
 				}
 				return r_Add32To96_Ref_Buf12_UInt32;
@@ -685,7 +685,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 			{
 				if(r_DecAddSub_Ref_DecCalc_Ref_DecCalc_Boolean == null)
 				{
-					r_DecAddSub_Ref_DecCalc_Ref_DecCalc_Boolean = new( ReleactionUtils.GetType("System.Decimal+DecCalc"), "DecAddSub", 0,  ReleactionUtils.GetType("System.Decimal+DecCalc").MakeByRefType(),  ReleactionUtils.GetType("System.Decimal+DecCalc").MakeByRefType(), typeof(System.Boolean));
+					r_DecAddSub_Ref_DecCalc_Ref_DecCalc_Boolean = new( ReflectionUtils.GetType("System.Decimal+DecCalc"), "DecAddSub", 0,  ReflectionUtils.GetType("System.Decimal+DecCalc").MakeByRefType(),  ReflectionUtils.GetType("System.Decimal+DecCalc").MakeByRefType(), typeof(System.Boolean));
 					r_DecAddSub_Ref_DecCalc_Ref_DecCalc_Boolean.SetBelong(null);
 				}
 				return r_DecAddSub_Ref_DecCalc_Ref_DecCalc_Boolean;
@@ -702,7 +702,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 			{
 				if(r_VarCyFromDec_Ref_DecCalc == null)
 				{
-					r_VarCyFromDec_Ref_DecCalc = new( ReleactionUtils.GetType("System.Decimal+DecCalc"), "VarCyFromDec", 0,  ReleactionUtils.GetType("System.Decimal+DecCalc").MakeByRefType());
+					r_VarCyFromDec_Ref_DecCalc = new( ReflectionUtils.GetType("System.Decimal+DecCalc"), "VarCyFromDec", 0,  ReflectionUtils.GetType("System.Decimal+DecCalc").MakeByRefType());
 					r_VarCyFromDec_Ref_DecCalc.SetBelong(null);
 				}
 				return r_VarCyFromDec_Ref_DecCalc;
@@ -719,7 +719,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 			{
 				if(r_VarDecCmp_In_Decimal_In_Decimal == null)
 				{
-					r_VarDecCmp_In_Decimal_In_Decimal = new( ReleactionUtils.GetType("System.Decimal+DecCalc"), "VarDecCmp", 0, typeof(System.Decimal).MakeByRefType(), typeof(System.Decimal).MakeByRefType());
+					r_VarDecCmp_In_Decimal_In_Decimal = new( ReflectionUtils.GetType("System.Decimal+DecCalc"), "VarDecCmp", 0, typeof(System.Decimal).MakeByRefType(), typeof(System.Decimal).MakeByRefType());
 					r_VarDecCmp_In_Decimal_In_Decimal.SetBelong(null);
 				}
 				return r_VarDecCmp_In_Decimal_In_Decimal;
@@ -736,7 +736,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 			{
 				if(r_VarDecCmpSub_In_Decimal_In_Decimal == null)
 				{
-					r_VarDecCmpSub_In_Decimal_In_Decimal = new( ReleactionUtils.GetType("System.Decimal+DecCalc"), "VarDecCmpSub", 0, typeof(System.Decimal).MakeByRefType(), typeof(System.Decimal).MakeByRefType());
+					r_VarDecCmpSub_In_Decimal_In_Decimal = new( ReflectionUtils.GetType("System.Decimal+DecCalc"), "VarDecCmpSub", 0, typeof(System.Decimal).MakeByRefType(), typeof(System.Decimal).MakeByRefType());
 					r_VarDecCmpSub_In_Decimal_In_Decimal.SetBelong(null);
 				}
 				return r_VarDecCmpSub_In_Decimal_In_Decimal;
@@ -753,7 +753,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 			{
 				if(r_VarDecMul_Ref_DecCalc_Ref_DecCalc == null)
 				{
-					r_VarDecMul_Ref_DecCalc_Ref_DecCalc = new( ReleactionUtils.GetType("System.Decimal+DecCalc"), "VarDecMul", 0,  ReleactionUtils.GetType("System.Decimal+DecCalc").MakeByRefType(),  ReleactionUtils.GetType("System.Decimal+DecCalc").MakeByRefType());
+					r_VarDecMul_Ref_DecCalc_Ref_DecCalc = new( ReflectionUtils.GetType("System.Decimal+DecCalc"), "VarDecMul", 0,  ReflectionUtils.GetType("System.Decimal+DecCalc").MakeByRefType(),  ReflectionUtils.GetType("System.Decimal+DecCalc").MakeByRefType());
 					r_VarDecMul_Ref_DecCalc_Ref_DecCalc.SetBelong(null);
 				}
 				return r_VarDecMul_Ref_DecCalc_Ref_DecCalc;
@@ -770,7 +770,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 			{
 				if(r_VarDecFromR4_Single_Out_DecCalc == null)
 				{
-					r_VarDecFromR4_Single_Out_DecCalc = new( ReleactionUtils.GetType("System.Decimal+DecCalc"), "VarDecFromR4", 0, typeof(System.Single),  ReleactionUtils.GetType("System.Decimal+DecCalc").MakeByRefType());
+					r_VarDecFromR4_Single_Out_DecCalc = new( ReflectionUtils.GetType("System.Decimal+DecCalc"), "VarDecFromR4", 0, typeof(System.Single),  ReflectionUtils.GetType("System.Decimal+DecCalc").MakeByRefType());
 					r_VarDecFromR4_Single_Out_DecCalc.SetBelong(null);
 				}
 				return r_VarDecFromR4_Single_Out_DecCalc;
@@ -787,7 +787,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 			{
 				if(r_VarDecFromR8_Double_Out_DecCalc == null)
 				{
-					r_VarDecFromR8_Double_Out_DecCalc = new( ReleactionUtils.GetType("System.Decimal+DecCalc"), "VarDecFromR8", 0, typeof(System.Double),  ReleactionUtils.GetType("System.Decimal+DecCalc").MakeByRefType());
+					r_VarDecFromR8_Double_Out_DecCalc = new( ReflectionUtils.GetType("System.Decimal+DecCalc"), "VarDecFromR8", 0, typeof(System.Double),  ReflectionUtils.GetType("System.Decimal+DecCalc").MakeByRefType());
 					r_VarDecFromR8_Double_Out_DecCalc.SetBelong(null);
 				}
 				return r_VarDecFromR8_Double_Out_DecCalc;
@@ -804,7 +804,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 			{
 				if(r_VarR4FromDec_In_Decimal == null)
 				{
-					r_VarR4FromDec_In_Decimal = new( ReleactionUtils.GetType("System.Decimal+DecCalc"), "VarR4FromDec", 0, typeof(System.Decimal).MakeByRefType());
+					r_VarR4FromDec_In_Decimal = new( ReflectionUtils.GetType("System.Decimal+DecCalc"), "VarR4FromDec", 0, typeof(System.Decimal).MakeByRefType());
 					r_VarR4FromDec_In_Decimal.SetBelong(null);
 				}
 				return r_VarR4FromDec_In_Decimal;
@@ -821,7 +821,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 			{
 				if(r_VarR8FromDec_In_Decimal == null)
 				{
-					r_VarR8FromDec_In_Decimal = new( ReleactionUtils.GetType("System.Decimal+DecCalc"), "VarR8FromDec", 0, typeof(System.Decimal).MakeByRefType());
+					r_VarR8FromDec_In_Decimal = new( ReflectionUtils.GetType("System.Decimal+DecCalc"), "VarR8FromDec", 0, typeof(System.Decimal).MakeByRefType());
 					r_VarR8FromDec_In_Decimal.SetBelong(null);
 				}
 				return r_VarR8FromDec_In_Decimal;
@@ -838,7 +838,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 			{
 				if(r_GetHashCode_In_Decimal == null)
 				{
-					r_GetHashCode_In_Decimal = new( ReleactionUtils.GetType("System.Decimal+DecCalc"), "GetHashCode", 0, typeof(System.Decimal).MakeByRefType());
+					r_GetHashCode_In_Decimal = new( ReflectionUtils.GetType("System.Decimal+DecCalc"), "GetHashCode", 0, typeof(System.Decimal).MakeByRefType());
 					r_GetHashCode_In_Decimal.SetBelong(null);
 				}
 				return r_GetHashCode_In_Decimal;
@@ -855,7 +855,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 			{
 				if(r_VarDecDiv_Ref_DecCalc_Ref_DecCalc == null)
 				{
-					r_VarDecDiv_Ref_DecCalc_Ref_DecCalc = new( ReleactionUtils.GetType("System.Decimal+DecCalc"), "VarDecDiv", 0,  ReleactionUtils.GetType("System.Decimal+DecCalc").MakeByRefType(),  ReleactionUtils.GetType("System.Decimal+DecCalc").MakeByRefType());
+					r_VarDecDiv_Ref_DecCalc_Ref_DecCalc = new( ReflectionUtils.GetType("System.Decimal+DecCalc"), "VarDecDiv", 0,  ReflectionUtils.GetType("System.Decimal+DecCalc").MakeByRefType(),  ReflectionUtils.GetType("System.Decimal+DecCalc").MakeByRefType());
 					r_VarDecDiv_Ref_DecCalc_Ref_DecCalc.SetBelong(null);
 				}
 				return r_VarDecDiv_Ref_DecCalc_Ref_DecCalc;
@@ -872,7 +872,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 			{
 				if(r_VarDecMod_Ref_DecCalc_Ref_DecCalc == null)
 				{
-					r_VarDecMod_Ref_DecCalc_Ref_DecCalc = new( ReleactionUtils.GetType("System.Decimal+DecCalc"), "VarDecMod", 0,  ReleactionUtils.GetType("System.Decimal+DecCalc").MakeByRefType(),  ReleactionUtils.GetType("System.Decimal+DecCalc").MakeByRefType());
+					r_VarDecMod_Ref_DecCalc_Ref_DecCalc = new( ReflectionUtils.GetType("System.Decimal+DecCalc"), "VarDecMod", 0,  ReflectionUtils.GetType("System.Decimal+DecCalc").MakeByRefType(),  ReflectionUtils.GetType("System.Decimal+DecCalc").MakeByRefType());
 					r_VarDecMod_Ref_DecCalc_Ref_DecCalc.SetBelong(null);
 				}
 				return r_VarDecMod_Ref_DecCalc_Ref_DecCalc;
@@ -889,7 +889,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 			{
 				if(r_VarDecModFull_Ref_DecCalc_Ref_DecCalc_Int32 == null)
 				{
-					r_VarDecModFull_Ref_DecCalc_Ref_DecCalc_Int32 = new( ReleactionUtils.GetType("System.Decimal+DecCalc"), "VarDecModFull", 0,  ReleactionUtils.GetType("System.Decimal+DecCalc").MakeByRefType(),  ReleactionUtils.GetType("System.Decimal+DecCalc").MakeByRefType(), typeof(System.Int32));
+					r_VarDecModFull_Ref_DecCalc_Ref_DecCalc_Int32 = new( ReflectionUtils.GetType("System.Decimal+DecCalc"), "VarDecModFull", 0,  ReflectionUtils.GetType("System.Decimal+DecCalc").MakeByRefType(),  ReflectionUtils.GetType("System.Decimal+DecCalc").MakeByRefType(), typeof(System.Int32));
 					r_VarDecModFull_Ref_DecCalc_Ref_DecCalc_Int32.SetBelong(null);
 				}
 				return r_VarDecModFull_Ref_DecCalc_Ref_DecCalc_Int32;
@@ -906,7 +906,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 			{
 				if(r_InternalRound_Ref_DecCalc_UInt32_RoundingMode == null)
 				{
-					r_InternalRound_Ref_DecCalc_UInt32_RoundingMode = new( ReleactionUtils.GetType("System.Decimal+DecCalc"), "InternalRound", 0,  ReleactionUtils.GetType("System.Decimal+DecCalc").MakeByRefType(), typeof(System.UInt32),  ReleactionUtils.GetType("System.Decimal+DecCalc+RoundingMode"));
+					r_InternalRound_Ref_DecCalc_UInt32_RoundingMode = new( ReflectionUtils.GetType("System.Decimal+DecCalc"), "InternalRound", 0,  ReflectionUtils.GetType("System.Decimal+DecCalc").MakeByRefType(), typeof(System.UInt32),  ReflectionUtils.GetType("System.Decimal+DecCalc+RoundingMode"));
 					r_InternalRound_Ref_DecCalc_UInt32_RoundingMode.SetBelong(null);
 				}
 				return r_InternalRound_Ref_DecCalc_UInt32_RoundingMode;
@@ -923,7 +923,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 			{
 				if(r_DecDivMod1E9_Ref_DecCalc == null)
 				{
-					r_DecDivMod1E9_Ref_DecCalc = new( ReleactionUtils.GetType("System.Decimal+DecCalc"), "DecDivMod1E9", 0,  ReleactionUtils.GetType("System.Decimal+DecCalc").MakeByRefType());
+					r_DecDivMod1E9_Ref_DecCalc = new( ReflectionUtils.GetType("System.Decimal+DecCalc"), "DecDivMod1E9", 0,  ReflectionUtils.GetType("System.Decimal+DecCalc").MakeByRefType());
 					r_DecDivMod1E9_Ref_DecCalc.SetBelong(null);
 				}
 				return r_DecDivMod1E9_Ref_DecCalc;

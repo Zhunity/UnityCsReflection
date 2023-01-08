@@ -90,7 +90,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 			{
 				if(r_Equals_CachedCodeEntryKey == null)
 				{
-					r_Equals_CachedCodeEntryKey = new(this, "Equals", 0,  ReleactionUtils.GetType("System.Text.RegularExpressions.Regex+CachedCodeEntryKey"));
+					r_Equals_CachedCodeEntryKey = new(this, "Equals", 0,  ReflectionUtils.GetType("System.Text.RegularExpressions.Regex+CachedCodeEntryKey"));
 					r_Equals_CachedCodeEntryKey.SetBelong(this.instance);
 				}
 				return r_Equals_CachedCodeEntryKey;
@@ -107,7 +107,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 			{
 				if(r_op_Equality_CachedCodeEntryKey_CachedCodeEntryKey == null)
 				{
-					r_op_Equality_CachedCodeEntryKey_CachedCodeEntryKey = new( ReleactionUtils.GetType("System.Text.RegularExpressions.Regex+CachedCodeEntryKey"), "op_Equality", 0,  ReleactionUtils.GetType("System.Text.RegularExpressions.Regex+CachedCodeEntryKey"),  ReleactionUtils.GetType("System.Text.RegularExpressions.Regex+CachedCodeEntryKey"));
+					r_op_Equality_CachedCodeEntryKey_CachedCodeEntryKey = new( ReflectionUtils.GetType("System.Text.RegularExpressions.Regex+CachedCodeEntryKey"), "op_Equality", 0,  ReflectionUtils.GetType("System.Text.RegularExpressions.Regex+CachedCodeEntryKey"),  ReflectionUtils.GetType("System.Text.RegularExpressions.Regex+CachedCodeEntryKey"));
 					r_op_Equality_CachedCodeEntryKey_CachedCodeEntryKey.SetBelong(null);
 				}
 				return r_op_Equality_CachedCodeEntryKey_CachedCodeEntryKey;
@@ -124,7 +124,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 			{
 				if(r_op_Inequality_CachedCodeEntryKey_CachedCodeEntryKey == null)
 				{
-					r_op_Inequality_CachedCodeEntryKey_CachedCodeEntryKey = new( ReleactionUtils.GetType("System.Text.RegularExpressions.Regex+CachedCodeEntryKey"), "op_Inequality", 0,  ReleactionUtils.GetType("System.Text.RegularExpressions.Regex+CachedCodeEntryKey"),  ReleactionUtils.GetType("System.Text.RegularExpressions.Regex+CachedCodeEntryKey"));
+					r_op_Inequality_CachedCodeEntryKey_CachedCodeEntryKey = new( ReflectionUtils.GetType("System.Text.RegularExpressions.Regex+CachedCodeEntryKey"), "op_Inequality", 0,  ReflectionUtils.GetType("System.Text.RegularExpressions.Regex+CachedCodeEntryKey"),  ReflectionUtils.GetType("System.Text.RegularExpressions.Regex+CachedCodeEntryKey"));
 					r_op_Inequality_CachedCodeEntryKey_CachedCodeEntryKey.SetBelong(null);
 				}
 				return r_op_Inequality_CachedCodeEntryKey_CachedCodeEntryKey;

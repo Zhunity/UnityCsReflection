@@ -20,7 +20,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_k_UnlimitedRect == null)
 				{
-					r_k_UnlimitedRect = new( ReleactionUtils.GetType("UnityEngine.UIElements.UIR.DrawParams"), "k_UnlimitedRect");
+					r_k_UnlimitedRect = new( ReflectionUtils.GetType("UnityEngine.UIElements.UIR.DrawParams"), "k_UnlimitedRect");
 					r_k_UnlimitedRect.SetBelong(null);
 				}
 				return r_k_UnlimitedRect;
@@ -37,7 +37,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_k_FullNormalizedRect == null)
 				{
-					r_k_FullNormalizedRect = new( ReleactionUtils.GetType("UnityEngine.UIElements.UIR.DrawParams"), "k_FullNormalizedRect");
+					r_k_FullNormalizedRect = new( ReflectionUtils.GetType("UnityEngine.UIElements.UIR.DrawParams"), "k_FullNormalizedRect");
 					r_k_FullNormalizedRect.SetBelong(null);
 				}
 				return r_k_FullNormalizedRect;

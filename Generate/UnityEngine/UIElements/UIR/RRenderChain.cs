@@ -326,7 +326,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_s_MarkerProcess == null)
 				{
-					r_s_MarkerProcess = new( ReleactionUtils.GetType("UnityEngine.UIElements.UIR.RenderChain"), "s_MarkerProcess");
+					r_s_MarkerProcess = new( ReflectionUtils.GetType("UnityEngine.UIElements.UIR.RenderChain"), "s_MarkerProcess");
 					r_s_MarkerProcess.SetBelong(null);
 				}
 				return r_s_MarkerProcess;
@@ -343,7 +343,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_s_MarkerClipProcessing == null)
 				{
-					r_s_MarkerClipProcessing = new( ReleactionUtils.GetType("UnityEngine.UIElements.UIR.RenderChain"), "s_MarkerClipProcessing");
+					r_s_MarkerClipProcessing = new( ReflectionUtils.GetType("UnityEngine.UIElements.UIR.RenderChain"), "s_MarkerClipProcessing");
 					r_s_MarkerClipProcessing.SetBelong(null);
 				}
 				return r_s_MarkerClipProcessing;
@@ -360,7 +360,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_s_MarkerOpacityProcessing == null)
 				{
-					r_s_MarkerOpacityProcessing = new( ReleactionUtils.GetType("UnityEngine.UIElements.UIR.RenderChain"), "s_MarkerOpacityProcessing");
+					r_s_MarkerOpacityProcessing = new( ReflectionUtils.GetType("UnityEngine.UIElements.UIR.RenderChain"), "s_MarkerOpacityProcessing");
 					r_s_MarkerOpacityProcessing.SetBelong(null);
 				}
 				return r_s_MarkerOpacityProcessing;
@@ -377,7 +377,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_s_MarkerColorsProcessing == null)
 				{
-					r_s_MarkerColorsProcessing = new( ReleactionUtils.GetType("UnityEngine.UIElements.UIR.RenderChain"), "s_MarkerColorsProcessing");
+					r_s_MarkerColorsProcessing = new( ReflectionUtils.GetType("UnityEngine.UIElements.UIR.RenderChain"), "s_MarkerColorsProcessing");
 					r_s_MarkerColorsProcessing.SetBelong(null);
 				}
 				return r_s_MarkerColorsProcessing;
@@ -394,7 +394,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_s_MarkerTransformProcessing == null)
 				{
-					r_s_MarkerTransformProcessing = new( ReleactionUtils.GetType("UnityEngine.UIElements.UIR.RenderChain"), "s_MarkerTransformProcessing");
+					r_s_MarkerTransformProcessing = new( ReflectionUtils.GetType("UnityEngine.UIElements.UIR.RenderChain"), "s_MarkerTransformProcessing");
 					r_s_MarkerTransformProcessing.SetBelong(null);
 				}
 				return r_s_MarkerTransformProcessing;
@@ -411,7 +411,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_s_MarkerVisualsProcessing == null)
 				{
-					r_s_MarkerVisualsProcessing = new( ReleactionUtils.GetType("UnityEngine.UIElements.UIR.RenderChain"), "s_MarkerVisualsProcessing");
+					r_s_MarkerVisualsProcessing = new( ReflectionUtils.GetType("UnityEngine.UIElements.UIR.RenderChain"), "s_MarkerVisualsProcessing");
 					r_s_MarkerVisualsProcessing.SetBelong(null);
 				}
 				return r_s_MarkerVisualsProcessing;
@@ -428,7 +428,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_s_MarkerTextRegen == null)
 				{
-					r_s_MarkerTextRegen = new( ReleactionUtils.GetType("UnityEngine.UIElements.UIR.RenderChain"), "s_MarkerTextRegen");
+					r_s_MarkerTextRegen = new( ReflectionUtils.GetType("UnityEngine.UIElements.UIR.RenderChain"), "s_MarkerTextRegen");
 					r_s_MarkerTextRegen.SetBelong(null);
 				}
 				return r_s_MarkerTextRegen;
@@ -462,7 +462,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_OnPreRender == null)
 				{
-					r_OnPreRender = new( ReleactionUtils.GetType("UnityEngine.UIElements.UIR.RenderChain"), "OnPreRender");
+					r_OnPreRender = new( ReflectionUtils.GetType("UnityEngine.UIElements.UIR.RenderChain"), "OnPreRender");
 					r_OnPreRender.SetBelong(null);
 				}
 				return r_OnPreRender;
@@ -938,7 +938,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_Constructor_BaseVisualElementPanel_UIRenderDevice_AtlasBase_VectorImageManager == null)
 				{
-					r_Constructor_BaseVisualElementPanel_UIRenderDevice_AtlasBase_VectorImageManager = new(this, "Constructor", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.BaseVisualElementPanel"),  ReleactionUtils.GetType("UnityEngine.UIElements.UIR.UIRenderDevice"),  ReleactionUtils.GetType("UnityEngine.UIElements.AtlasBase"),  ReleactionUtils.GetType("UnityEngine.UIElements.UIR.VectorImageManager"));
+					r_Constructor_BaseVisualElementPanel_UIRenderDevice_AtlasBase_VectorImageManager = new(this, "Constructor", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.BaseVisualElementPanel"),  ReflectionUtils.GetType("UnityEngine.UIElements.UIR.UIRenderDevice"),  ReflectionUtils.GetType("UnityEngine.UIElements.AtlasBase"),  ReflectionUtils.GetType("UnityEngine.UIElements.UIR.VectorImageManager"));
 					r_Constructor_BaseVisualElementPanel_UIRenderDevice_AtlasBase_VectorImageManager.SetBelong(this.instance);
 				}
 				return r_Constructor_BaseVisualElementPanel_UIRenderDevice_AtlasBase_VectorImageManager;
@@ -1295,7 +1295,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_FreeCommand_RenderChainCommand == null)
 				{
-					r_FreeCommand_RenderChainCommand = new(this, "FreeCommand", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.UIR.RenderChainCommand"));
+					r_FreeCommand_RenderChainCommand = new(this, "FreeCommand", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.UIR.RenderChainCommand"));
 					r_FreeCommand_RenderChainCommand.SetBelong(this.instance);
 				}
 				return r_FreeCommand_RenderChainCommand;
@@ -1312,7 +1312,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_OnRenderCommandAdded_RenderChainCommand == null)
 				{
-					r_OnRenderCommandAdded_RenderChainCommand = new(this, "OnRenderCommandAdded", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.UIR.RenderChainCommand"));
+					r_OnRenderCommandAdded_RenderChainCommand = new(this, "OnRenderCommandAdded", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.UIR.RenderChainCommand"));
 					r_OnRenderCommandAdded_RenderChainCommand.SetBelong(this.instance);
 				}
 				return r_OnRenderCommandAdded_RenderChainCommand;
@@ -1329,7 +1329,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_OnRenderCommandsRemoved_RenderChainCommand_RenderChainCommand == null)
 				{
-					r_OnRenderCommandsRemoved_RenderChainCommand_RenderChainCommand = new(this, "OnRenderCommandsRemoved", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.UIR.RenderChainCommand"),  ReleactionUtils.GetType("UnityEngine.UIElements.UIR.RenderChainCommand"));
+					r_OnRenderCommandsRemoved_RenderChainCommand_RenderChainCommand = new(this, "OnRenderCommandsRemoved", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.UIR.RenderChainCommand"),  ReflectionUtils.GetType("UnityEngine.UIElements.UIR.RenderChainCommand"));
 					r_OnRenderCommandsRemoved_RenderChainCommand_RenderChainCommand.SetBelong(this.instance);
 				}
 				return r_OnRenderCommandsRemoved_RenderChainCommand_RenderChainCommand;
@@ -1346,7 +1346,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_AccessRenderNodeData_IntPtr == null)
 				{
-					r_AccessRenderNodeData_IntPtr = new( ReleactionUtils.GetType("UnityEngine.UIElements.UIR.RenderChain"), "AccessRenderNodeData", 0, typeof(System.IntPtr));
+					r_AccessRenderNodeData_IntPtr = new( ReflectionUtils.GetType("UnityEngine.UIElements.UIR.RenderChain"), "AccessRenderNodeData", 0, typeof(System.IntPtr));
 					r_AccessRenderNodeData_IntPtr.SetBelong(null);
 				}
 				return r_AccessRenderNodeData_IntPtr;
@@ -1363,7 +1363,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_OnRenderNodeExecute_IntPtr == null)
 				{
-					r_OnRenderNodeExecute_IntPtr = new( ReleactionUtils.GetType("UnityEngine.UIElements.UIR.RenderChain"), "OnRenderNodeExecute", 0, typeof(System.IntPtr));
+					r_OnRenderNodeExecute_IntPtr = new( ReflectionUtils.GetType("UnityEngine.UIElements.UIR.RenderChain"), "OnRenderNodeExecute", 0, typeof(System.IntPtr));
 					r_OnRenderNodeExecute_IntPtr.SetBelong(null);
 				}
 				return r_OnRenderNodeExecute_IntPtr;
@@ -1380,7 +1380,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_OnRegisterIntermediateRenderers_Camera == null)
 				{
-					r_OnRegisterIntermediateRenderers_Camera = new( ReleactionUtils.GetType("UnityEngine.UIElements.UIR.RenderChain"), "OnRegisterIntermediateRenderers", 0, typeof(UnityEngine.Camera));
+					r_OnRegisterIntermediateRenderers_Camera = new( ReflectionUtils.GetType("UnityEngine.UIElements.UIR.RenderChain"), "OnRegisterIntermediateRenderers", 0, typeof(UnityEngine.Camera));
 					r_OnRegisterIntermediateRenderers_Camera.SetBelong(null);
 				}
 				return r_OnRegisterIntermediateRenderers_Camera;
@@ -1397,7 +1397,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_OnRegisterIntermediateRendererMat_BaseRuntimePanel_RenderChain_Ref_RenderNodeData_Camera_Int32 == null)
 				{
-					r_OnRegisterIntermediateRendererMat_BaseRuntimePanel_RenderChain_Ref_RenderNodeData_Camera_Int32 = new( ReleactionUtils.GetType("UnityEngine.UIElements.UIR.RenderChain"), "OnRegisterIntermediateRendererMat", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.BaseRuntimePanel"),  ReleactionUtils.GetType("UnityEngine.UIElements.UIR.RenderChain"),  ReleactionUtils.GetType("UnityEngine.UIElements.UIR.RenderChain+RenderNodeData").MakeByRefType(), typeof(UnityEngine.Camera), typeof(System.Int32));
+					r_OnRegisterIntermediateRendererMat_BaseRuntimePanel_RenderChain_Ref_RenderNodeData_Camera_Int32 = new( ReflectionUtils.GetType("UnityEngine.UIElements.UIR.RenderChain"), "OnRegisterIntermediateRendererMat", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.BaseRuntimePanel"),  ReflectionUtils.GetType("UnityEngine.UIElements.UIR.RenderChain"),  ReflectionUtils.GetType("UnityEngine.UIElements.UIR.RenderChain+RenderNodeData").MakeByRefType(), typeof(UnityEngine.Camera), typeof(System.Int32));
 					r_OnRegisterIntermediateRendererMat_BaseRuntimePanel_RenderChain_Ref_RenderNodeData_Camera_Int32.SetBelong(null);
 				}
 				return r_OnRegisterIntermediateRendererMat_BaseRuntimePanel_RenderChain_Ref_RenderNodeData_Camera_Int32;
@@ -1431,7 +1431,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_AppendTexture_VisualElement_Texture_TextureId_Boolean == null)
 				{
-					r_AppendTexture_VisualElement_Texture_TextureId_Boolean = new(this, "AppendTexture", 0, typeof(UnityEngine.UIElements.VisualElement), typeof(UnityEngine.Texture),  ReleactionUtils.GetType("UnityEngine.UIElements.TextureId"), typeof(System.Boolean));
+					r_AppendTexture_VisualElement_Texture_TextureId_Boolean = new(this, "AppendTexture", 0, typeof(UnityEngine.UIElements.VisualElement), typeof(UnityEngine.Texture),  ReflectionUtils.GetType("UnityEngine.UIElements.TextureId"), typeof(System.Boolean));
 					r_AppendTexture_VisualElement_Texture_TextureId_Boolean.SetBelong(this.instance);
 				}
 				return r_AppendTexture_VisualElement_Texture_TextureId_Boolean;
@@ -1482,7 +1482,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_GetFirstElementInPanel_VisualElement == null)
 				{
-					r_GetFirstElementInPanel_VisualElement = new( ReleactionUtils.GetType("UnityEngine.UIElements.UIR.RenderChain"), "GetFirstElementInPanel", 0, typeof(UnityEngine.UIElements.VisualElement));
+					r_GetFirstElementInPanel_VisualElement = new( ReflectionUtils.GetType("UnityEngine.UIElements.UIR.RenderChain"), "GetFirstElementInPanel", 0, typeof(UnityEngine.UIElements.VisualElement));
 					r_GetFirstElementInPanel_VisualElement.SetBelong(null);
 				}
 				return r_GetFirstElementInPanel_VisualElement;
