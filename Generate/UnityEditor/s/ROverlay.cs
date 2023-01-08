@@ -1057,7 +1057,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 			{
 				if(r_collapsedIcon == null)
 				{
-					r_collapsedIcon = new(this, "collapsedIcon", -1, typeof(UnityEngine.Texture2D));
+					r_collapsedIcon = new(this, "collapsedIcon", -1);
 					r_collapsedIcon.SetBelong(this.instance);
 				}
 				return r_collapsedIcon;

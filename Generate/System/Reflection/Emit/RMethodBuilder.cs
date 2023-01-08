@@ -700,7 +700,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 			{
 				if(r_BestFitMapping == null)
 				{
-					r_BestFitMapping = new(this, "BestFitMapping", -1, typeof(System.Boolean));
+					r_BestFitMapping = new(this, "BestFitMapping", -1);
 					r_BestFitMapping.SetBelong(this.instance);
 				}
 				return r_BestFitMapping;
@@ -717,7 +717,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 			{
 				if(r_ThrowOnUnmappableChar == null)
 				{
-					r_ThrowOnUnmappableChar = new(this, "ThrowOnUnmappableChar", -1, typeof(System.Boolean));
+					r_ThrowOnUnmappableChar = new(this, "ThrowOnUnmappableChar", -1);
 					r_ThrowOnUnmappableChar.SetBelong(this.instance);
 				}
 				return r_ThrowOnUnmappableChar;
@@ -734,7 +734,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 			{
 				if(r_ExactSpelling == null)
 				{
-					r_ExactSpelling = new(this, "ExactSpelling", -1, typeof(System.Boolean));
+					r_ExactSpelling = new(this, "ExactSpelling", -1);
 					r_ExactSpelling.SetBelong(this.instance);
 				}
 				return r_ExactSpelling;
@@ -751,7 +751,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 			{
 				if(r_SetLastError == null)
 				{
-					r_SetLastError = new(this, "SetLastError", -1, typeof(System.Boolean));
+					r_SetLastError = new(this, "SetLastError", -1);
 					r_SetLastError.SetBelong(this.instance);
 				}
 				return r_SetLastError;

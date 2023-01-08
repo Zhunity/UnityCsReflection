@@ -139,7 +139,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 			{
 				if(r_name == null)
 				{
-					r_name = new(this, "name", -1, typeof(System.String));
+					r_name = new(this, "name", -1);
 					r_name.SetBelong(this.instance);
 				}
 				return r_name;

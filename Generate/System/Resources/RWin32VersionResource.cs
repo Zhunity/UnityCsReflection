@@ -275,7 +275,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RResources
 			{
 				if(r_Item_String == null)
 				{
-					r_Item_String = new(this, "Item", -1, typeof(System.String), typeof(System.String));
+					r_Item_String = new(this, "Item", -1, typeof(System.String));
 					r_Item_String.SetBelong(this.instance);
 				}
 				return r_Item_String;

@@ -345,7 +345,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_isPasswordField == null)
 				{
-					r_isPasswordField = new(this, "isPasswordField", -1, typeof(System.Boolean));
+					r_isPasswordField = new(this, "isPasswordField", -1);
 					r_isPasswordField.SetBelong(this.instance);
 				}
 				return r_isPasswordField;

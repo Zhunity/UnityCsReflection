@@ -343,7 +343,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 			{
 				if(r_FromByteArray == null)
 				{
-					r_FromByteArray = new(this, "FromByteArray", -1, typeof(System.Boolean));
+					r_FromByteArray = new(this, "FromByteArray", -1);
 					r_FromByteArray.SetBelong(this.instance);
 				}
 				return r_FromByteArray;

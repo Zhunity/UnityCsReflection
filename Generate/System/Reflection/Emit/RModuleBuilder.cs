@@ -666,7 +666,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 			{
 				if(r_IsMain == null)
 				{
-					r_IsMain = new(this, "IsMain", -1, typeof(System.Boolean));
+					r_IsMain = new(this, "IsMain", -1);
 					r_IsMain.SetBelong(this.instance);
 				}
 				return r_IsMain;

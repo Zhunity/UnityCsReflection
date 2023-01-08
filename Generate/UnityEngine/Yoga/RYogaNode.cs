@@ -394,7 +394,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
 			{
 				if(r_Flex == null)
 				{
-					r_Flex = new(this, "Flex", -1, typeof(System.Single));
+					r_Flex = new(this, "Flex", -1);
 					r_Flex.SetBelong(this.instance);
 				}
 				return r_Flex;
