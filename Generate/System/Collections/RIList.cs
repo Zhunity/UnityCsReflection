@@ -64,119 +64,119 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections
 		/// <summary>
 		/// Int32 Add(System.Object)
 		/// </summary>
-		protected RMethod r_RAdd_Object;
+		protected RMethod r_Add_Object;
 		public virtual RMethod RAdd_Object
 		{
 			get
 			{
-				if(r_RAdd_Object == null)
+				if(r_Add_Object == null)
 				{
-					r_RAdd_Object = new(this, "Add", 0, typeof(System.Object));
-					r_RAdd_Object.SetBelong(this.instance);
+					r_Add_Object = new(this, "Add", 0, typeof(System.Object));
+					r_Add_Object.SetBelong(this.instance);
 				}
-				return r_RAdd_Object;
+				return r_Add_Object;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Contains(System.Object)
 		/// </summary>
-		protected RMethod r_RContains_Object;
+		protected RMethod r_Contains_Object;
 		public virtual RMethod RContains_Object
 		{
 			get
 			{
-				if(r_RContains_Object == null)
+				if(r_Contains_Object == null)
 				{
-					r_RContains_Object = new(this, "Contains", 0, typeof(System.Object));
-					r_RContains_Object.SetBelong(this.instance);
+					r_Contains_Object = new(this, "Contains", 0, typeof(System.Object));
+					r_Contains_Object.SetBelong(this.instance);
 				}
-				return r_RContains_Object;
+				return r_Contains_Object;
 			}
 		}
 
 		/// <summary>
 		/// Void Clear()
 		/// </summary>
-		protected RMethod r_RClear;
+		protected RMethod r_Clear;
 		public virtual RMethod RClear
 		{
 			get
 			{
-				if(r_RClear == null)
+				if(r_Clear == null)
 				{
-					r_RClear = new(this, "Clear", 0);
-					r_RClear.SetBelong(this.instance);
+					r_Clear = new(this, "Clear", 0);
+					r_Clear.SetBelong(this.instance);
 				}
-				return r_RClear;
+				return r_Clear;
 			}
 		}
 
 		/// <summary>
 		/// Int32 IndexOf(System.Object)
 		/// </summary>
-		protected RMethod r_RIndexOf_Object;
+		protected RMethod r_IndexOf_Object;
 		public virtual RMethod RIndexOf_Object
 		{
 			get
 			{
-				if(r_RIndexOf_Object == null)
+				if(r_IndexOf_Object == null)
 				{
-					r_RIndexOf_Object = new(this, "IndexOf", 0, typeof(System.Object));
-					r_RIndexOf_Object.SetBelong(this.instance);
+					r_IndexOf_Object = new(this, "IndexOf", 0, typeof(System.Object));
+					r_IndexOf_Object.SetBelong(this.instance);
 				}
-				return r_RIndexOf_Object;
+				return r_IndexOf_Object;
 			}
 		}
 
 		/// <summary>
 		/// Void Insert(Int32, System.Object)
 		/// </summary>
-		protected RMethod r_RInsert_Int32_Object;
+		protected RMethod r_Insert_Int32_Object;
 		public virtual RMethod RInsert_Int32_Object
 		{
 			get
 			{
-				if(r_RInsert_Int32_Object == null)
+				if(r_Insert_Int32_Object == null)
 				{
-					r_RInsert_Int32_Object = new(this, "Insert", 0, typeof(System.Int32), typeof(System.Object));
-					r_RInsert_Int32_Object.SetBelong(this.instance);
+					r_Insert_Int32_Object = new(this, "Insert", 0, typeof(System.Int32), typeof(System.Object));
+					r_Insert_Int32_Object.SetBelong(this.instance);
 				}
-				return r_RInsert_Int32_Object;
+				return r_Insert_Int32_Object;
 			}
 		}
 
 		/// <summary>
 		/// Void Remove(System.Object)
 		/// </summary>
-		protected RMethod r_RRemove_Object;
+		protected RMethod r_Remove_Object;
 		public virtual RMethod RRemove_Object
 		{
 			get
 			{
-				if(r_RRemove_Object == null)
+				if(r_Remove_Object == null)
 				{
-					r_RRemove_Object = new(this, "Remove", 0, typeof(System.Object));
-					r_RRemove_Object.SetBelong(this.instance);
+					r_Remove_Object = new(this, "Remove", 0, typeof(System.Object));
+					r_Remove_Object.SetBelong(this.instance);
 				}
-				return r_RRemove_Object;
+				return r_Remove_Object;
 			}
 		}
 
 		/// <summary>
 		/// Void RemoveAt(Int32)
 		/// </summary>
-		protected RMethod r_RRemoveAt_Int32;
+		protected RMethod r_RemoveAt_Int32;
 		public virtual RMethod RRemoveAt_Int32
 		{
 			get
 			{
-				if(r_RRemoveAt_Int32 == null)
+				if(r_RemoveAt_Int32 == null)
 				{
-					r_RRemoveAt_Int32 = new(this, "RemoveAt", 0, typeof(System.Int32));
-					r_RRemoveAt_Int32.SetBelong(this.instance);
+					r_RemoveAt_Int32 = new(this, "RemoveAt", 0, typeof(System.Int32));
+					r_RemoveAt_Int32.SetBelong(this.instance);
 				}
-				return r_RRemoveAt_Int32;
+				return r_RemoveAt_Int32;
 			}
 		}
 

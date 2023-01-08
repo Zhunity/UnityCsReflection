@@ -13,187 +13,187 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// Boolean Equals(System.Object)
 		/// </summary>
-		protected RMethod r_REquals_Object;
+		protected RMethod r_Equals_Object;
 		public virtual RMethod REquals_Object
 		{
 			get
 			{
-				if(r_REquals_Object == null)
+				if(r_Equals_Object == null)
 				{
-					r_REquals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_REquals_Object.SetBelong(this.instance);
+					r_Equals_Object = new(this, "Equals", 0, typeof(System.Object));
+					r_Equals_Object.SetBelong(this.instance);
 				}
-				return r_REquals_Object;
+				return r_Equals_Object;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Equals(System.Object, System.Object)
 		/// </summary>
-		protected static RMethod r_REquals_Object_Object;
+		protected static RMethod r_Equals_Object_Object;
 		public static RMethod REquals_Object_Object
 		{
 			get
 			{
-				if(r_REquals_Object_Object == null)
+				if(r_Equals_Object_Object == null)
 				{
-					r_REquals_Object_Object = new(typeof(System.Object), "Equals", 0, typeof(System.Object), typeof(System.Object));
-					r_REquals_Object_Object.SetBelong(null);
+					r_Equals_Object_Object = new(typeof(System.Object), "Equals", 0, typeof(System.Object), typeof(System.Object));
+					r_Equals_Object_Object.SetBelong(null);
 				}
-				return r_REquals_Object_Object;
+				return r_Equals_Object_Object;
 			}
 		}
 
 		/// <summary>
 		/// Void Finalize()
 		/// </summary>
-		protected RMethod r_RFinalize;
+		protected RMethod r_Finalize;
 		public virtual RMethod RFinalize
 		{
 			get
 			{
-				if(r_RFinalize == null)
+				if(r_Finalize == null)
 				{
-					r_RFinalize = new(this, "Finalize", 0);
-					r_RFinalize.SetBelong(this.instance);
+					r_Finalize = new(this, "Finalize", 0);
+					r_Finalize.SetBelong(this.instance);
 				}
-				return r_RFinalize;
+				return r_Finalize;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetHashCode()
 		/// </summary>
-		protected RMethod r_RGetHashCode;
+		protected RMethod r_GetHashCode;
 		public virtual RMethod RGetHashCode
 		{
 			get
 			{
-				if(r_RGetHashCode == null)
+				if(r_GetHashCode == null)
 				{
-					r_RGetHashCode = new(this, "GetHashCode", 0);
-					r_RGetHashCode.SetBelong(this.instance);
+					r_GetHashCode = new(this, "GetHashCode", 0);
+					r_GetHashCode.SetBelong(this.instance);
 				}
-				return r_RGetHashCode;
+				return r_GetHashCode;
 			}
 		}
 
 		/// <summary>
 		/// System.Type GetType()
 		/// </summary>
-		protected RMethod r_RGetType;
+		protected RMethod r_GetType;
 		public virtual RMethod RGetType
 		{
 			get
 			{
-				if(r_RGetType == null)
+				if(r_GetType == null)
 				{
-					r_RGetType = new(this, "GetType", 0);
-					r_RGetType.SetBelong(this.instance);
+					r_GetType = new(this, "GetType", 0);
+					r_GetType.SetBelong(this.instance);
 				}
-				return r_RGetType;
+				return r_GetType;
 			}
 		}
 
 		/// <summary>
 		/// System.Object MemberwiseClone()
 		/// </summary>
-		protected RMethod r_RMemberwiseClone;
+		protected RMethod r_MemberwiseClone;
 		public virtual RMethod RMemberwiseClone
 		{
 			get
 			{
-				if(r_RMemberwiseClone == null)
+				if(r_MemberwiseClone == null)
 				{
-					r_RMemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_RMemberwiseClone.SetBelong(this.instance);
+					r_MemberwiseClone = new(this, "MemberwiseClone", 0);
+					r_MemberwiseClone.SetBelong(this.instance);
 				}
-				return r_RMemberwiseClone;
+				return r_MemberwiseClone;
 			}
 		}
 
 		/// <summary>
 		/// System.String ToString()
 		/// </summary>
-		protected RMethod r_RToString;
+		protected RMethod r_ToString;
 		public virtual RMethod RToString
 		{
 			get
 			{
-				if(r_RToString == null)
+				if(r_ToString == null)
 				{
-					r_RToString = new(this, "ToString", 0);
-					r_RToString.SetBelong(this.instance);
+					r_ToString = new(this, "ToString", 0);
+					r_ToString.SetBelong(this.instance);
 				}
-				return r_RToString;
+				return r_ToString;
 			}
 		}
 
 		/// <summary>
 		/// Boolean ReferenceEquals(System.Object, System.Object)
 		/// </summary>
-		protected static RMethod r_RReferenceEquals_Object_Object;
+		protected static RMethod r_ReferenceEquals_Object_Object;
 		public static RMethod RReferenceEquals_Object_Object
 		{
 			get
 			{
-				if(r_RReferenceEquals_Object_Object == null)
+				if(r_ReferenceEquals_Object_Object == null)
 				{
-					r_RReferenceEquals_Object_Object = new(typeof(System.Object), "ReferenceEquals", 0, typeof(System.Object), typeof(System.Object));
-					r_RReferenceEquals_Object_Object.SetBelong(null);
+					r_ReferenceEquals_Object_Object = new(typeof(System.Object), "ReferenceEquals", 0, typeof(System.Object), typeof(System.Object));
+					r_ReferenceEquals_Object_Object.SetBelong(null);
 				}
-				return r_RReferenceEquals_Object_Object;
+				return r_ReferenceEquals_Object_Object;
 			}
 		}
 
 		/// <summary>
 		/// Int32 InternalGetHashCode(System.Object)
 		/// </summary>
-		protected static RMethod r_RInternalGetHashCode_Object;
+		protected static RMethod r_InternalGetHashCode_Object;
 		public static RMethod RInternalGetHashCode_Object
 		{
 			get
 			{
-				if(r_RInternalGetHashCode_Object == null)
+				if(r_InternalGetHashCode_Object == null)
 				{
-					r_RInternalGetHashCode_Object = new(typeof(System.Object), "InternalGetHashCode", 0, typeof(System.Object));
-					r_RInternalGetHashCode_Object.SetBelong(null);
+					r_InternalGetHashCode_Object = new(typeof(System.Object), "InternalGetHashCode", 0, typeof(System.Object));
+					r_InternalGetHashCode_Object.SetBelong(null);
 				}
-				return r_RInternalGetHashCode_Object;
+				return r_InternalGetHashCode_Object;
 			}
 		}
 
 		/// <summary>
 		/// Void FieldGetter(System.String, System.String, System.Object ByRef)
 		/// </summary>
-		protected RMethod r_RFieldGetter_String_String_Ref_Object;
+		protected RMethod r_FieldGetter_String_String_Ref_Object;
 		public virtual RMethod RFieldGetter_String_String_Ref_Object
 		{
 			get
 			{
-				if(r_RFieldGetter_String_String_Ref_Object == null)
+				if(r_FieldGetter_String_String_Ref_Object == null)
 				{
-					r_RFieldGetter_String_String_Ref_Object = new(this, "FieldGetter", 0, typeof(System.String), typeof(System.String), typeof(System.Object).MakeByRefType());
-					r_RFieldGetter_String_String_Ref_Object.SetBelong(this.instance);
+					r_FieldGetter_String_String_Ref_Object = new(this, "FieldGetter", 0, typeof(System.String), typeof(System.String), typeof(System.Object).MakeByRefType());
+					r_FieldGetter_String_String_Ref_Object.SetBelong(this.instance);
 				}
-				return r_RFieldGetter_String_String_Ref_Object;
+				return r_FieldGetter_String_String_Ref_Object;
 			}
 		}
 
 		/// <summary>
 		/// Void FieldSetter(System.String, System.String, System.Object)
 		/// </summary>
-		protected RMethod r_RFieldSetter_String_String_Object;
+		protected RMethod r_FieldSetter_String_String_Object;
 		public virtual RMethod RFieldSetter_String_String_Object
 		{
 			get
 			{
-				if(r_RFieldSetter_String_String_Object == null)
+				if(r_FieldSetter_String_String_Object == null)
 				{
-					r_RFieldSetter_String_String_Object = new(this, "FieldSetter", 0, typeof(System.String), typeof(System.String), typeof(System.Object));
-					r_RFieldSetter_String_String_Object.SetBelong(this.instance);
+					r_FieldSetter_String_String_Object = new(this, "FieldSetter", 0, typeof(System.String), typeof(System.String), typeof(System.Object));
+					r_FieldSetter_String_String_Object.SetBelong(this.instance);
 				}
-				return r_RFieldSetter_String_String_Object;
+				return r_FieldSetter_String_String_Object;
 			}
 		}
 

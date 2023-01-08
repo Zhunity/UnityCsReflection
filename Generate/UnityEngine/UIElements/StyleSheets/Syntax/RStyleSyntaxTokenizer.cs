@@ -64,221 +64,221 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RSynt
 		/// <summary>
 		/// UnityEngine.UIElements.StyleSheets.Syntax.StyleSyntaxToken MoveNext()
 		/// </summary>
-		protected RMethod r_RMoveNext;
+		protected RMethod r_MoveNext;
 		public virtual RMethod RMoveNext
 		{
 			get
 			{
-				if(r_RMoveNext == null)
+				if(r_MoveNext == null)
 				{
-					r_RMoveNext = new(this, "MoveNext", 0);
-					r_RMoveNext.SetBelong(this.instance);
+					r_MoveNext = new(this, "MoveNext", 0);
+					r_MoveNext.SetBelong(this.instance);
 				}
-				return r_RMoveNext;
+				return r_MoveNext;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleSheets.Syntax.StyleSyntaxToken PeekNext()
 		/// </summary>
-		protected RMethod r_RPeekNext;
+		protected RMethod r_PeekNext;
 		public virtual RMethod RPeekNext
 		{
 			get
 			{
-				if(r_RPeekNext == null)
+				if(r_PeekNext == null)
 				{
-					r_RPeekNext = new(this, "PeekNext", 0);
-					r_RPeekNext.SetBelong(this.instance);
+					r_PeekNext = new(this, "PeekNext", 0);
+					r_PeekNext.SetBelong(this.instance);
 				}
-				return r_RPeekNext;
+				return r_PeekNext;
 			}
 		}
 
 		/// <summary>
 		/// Void Tokenize(System.String)
 		/// </summary>
-		protected RMethod r_RTokenize_String;
+		protected RMethod r_Tokenize_String;
 		public virtual RMethod RTokenize_String
 		{
 			get
 			{
-				if(r_RTokenize_String == null)
+				if(r_Tokenize_String == null)
 				{
-					r_RTokenize_String = new(this, "Tokenize", 0, typeof(System.String));
-					r_RTokenize_String.SetBelong(this.instance);
+					r_Tokenize_String = new(this, "Tokenize", 0, typeof(System.String));
+					r_Tokenize_String.SetBelong(this.instance);
 				}
-				return r_RTokenize_String;
+				return r_Tokenize_String;
 			}
 		}
 
 		/// <summary>
 		/// Boolean IsNextCharacter(System.String, Int32, Char)
 		/// </summary>
-		protected static RMethod r_RIsNextCharacter_String_Int32_Char;
+		protected static RMethod r_IsNextCharacter_String_Int32_Char;
 		public static RMethod RIsNextCharacter_String_Int32_Char
 		{
 			get
 			{
-				if(r_RIsNextCharacter_String_Int32_Char == null)
+				if(r_IsNextCharacter_String_Int32_Char == null)
 				{
-					r_RIsNextCharacter_String_Int32_Char = new( ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.Syntax.StyleSyntaxTokenizer"), "IsNextCharacter", 0, typeof(System.String), typeof(System.Int32), typeof(System.Char));
-					r_RIsNextCharacter_String_Int32_Char.SetBelong(null);
+					r_IsNextCharacter_String_Int32_Char = new( ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.Syntax.StyleSyntaxTokenizer"), "IsNextCharacter", 0, typeof(System.String), typeof(System.Int32), typeof(System.Char));
+					r_IsNextCharacter_String_Int32_Char.SetBelong(null);
 				}
-				return r_RIsNextCharacter_String_Int32_Char;
+				return r_IsNextCharacter_String_Int32_Char;
 			}
 		}
 
 		/// <summary>
 		/// Boolean IsNextLetterOrDash(System.String, Int32)
 		/// </summary>
-		protected static RMethod r_RIsNextLetterOrDash_String_Int32;
+		protected static RMethod r_IsNextLetterOrDash_String_Int32;
 		public static RMethod RIsNextLetterOrDash_String_Int32
 		{
 			get
 			{
-				if(r_RIsNextLetterOrDash_String_Int32 == null)
+				if(r_IsNextLetterOrDash_String_Int32 == null)
 				{
-					r_RIsNextLetterOrDash_String_Int32 = new( ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.Syntax.StyleSyntaxTokenizer"), "IsNextLetterOrDash", 0, typeof(System.String), typeof(System.Int32));
-					r_RIsNextLetterOrDash_String_Int32.SetBelong(null);
+					r_IsNextLetterOrDash_String_Int32 = new( ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.Syntax.StyleSyntaxTokenizer"), "IsNextLetterOrDash", 0, typeof(System.String), typeof(System.Int32));
+					r_IsNextLetterOrDash_String_Int32.SetBelong(null);
 				}
-				return r_RIsNextLetterOrDash_String_Int32;
+				return r_IsNextLetterOrDash_String_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Boolean IsNextNumber(System.String, Int32)
 		/// </summary>
-		protected static RMethod r_RIsNextNumber_String_Int32;
+		protected static RMethod r_IsNextNumber_String_Int32;
 		public static RMethod RIsNextNumber_String_Int32
 		{
 			get
 			{
-				if(r_RIsNextNumber_String_Int32 == null)
+				if(r_IsNextNumber_String_Int32 == null)
 				{
-					r_RIsNextNumber_String_Int32 = new( ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.Syntax.StyleSyntaxTokenizer"), "IsNextNumber", 0, typeof(System.String), typeof(System.Int32));
-					r_RIsNextNumber_String_Int32.SetBelong(null);
+					r_IsNextNumber_String_Int32 = new( ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.Syntax.StyleSyntaxTokenizer"), "IsNextNumber", 0, typeof(System.String), typeof(System.Int32));
+					r_IsNextNumber_String_Int32.SetBelong(null);
 				}
-				return r_RIsNextNumber_String_Int32;
+				return r_IsNextNumber_String_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GlobCharacter(System.String, Int32, Char)
 		/// </summary>
-		protected static RMethod r_RGlobCharacter_String_Int32_Char;
+		protected static RMethod r_GlobCharacter_String_Int32_Char;
 		public static RMethod RGlobCharacter_String_Int32_Char
 		{
 			get
 			{
-				if(r_RGlobCharacter_String_Int32_Char == null)
+				if(r_GlobCharacter_String_Int32_Char == null)
 				{
-					r_RGlobCharacter_String_Int32_Char = new( ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.Syntax.StyleSyntaxTokenizer"), "GlobCharacter", 0, typeof(System.String), typeof(System.Int32), typeof(System.Char));
-					r_RGlobCharacter_String_Int32_Char.SetBelong(null);
+					r_GlobCharacter_String_Int32_Char = new( ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.Syntax.StyleSyntaxTokenizer"), "GlobCharacter", 0, typeof(System.String), typeof(System.Int32), typeof(System.Char));
+					r_GlobCharacter_String_Int32_Char.SetBelong(null);
 				}
-				return r_RGlobCharacter_String_Int32_Char;
+				return r_GlobCharacter_String_Int32_Char;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Equals(System.Object)
 		/// </summary>
-		protected RMethod r_REquals_Object;
+		protected RMethod r_Equals_Object;
 		public virtual RMethod REquals_Object
 		{
 			get
 			{
-				if(r_REquals_Object == null)
+				if(r_Equals_Object == null)
 				{
-					r_REquals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_REquals_Object.SetBelong(this.instance);
+					r_Equals_Object = new(this, "Equals", 0, typeof(System.Object));
+					r_Equals_Object.SetBelong(this.instance);
 				}
-				return r_REquals_Object;
+				return r_Equals_Object;
 			}
 		}
 
 		/// <summary>
 		/// Void Finalize()
 		/// </summary>
-		protected RMethod r_RFinalize;
+		protected RMethod r_Finalize;
 		public virtual RMethod RFinalize
 		{
 			get
 			{
-				if(r_RFinalize == null)
+				if(r_Finalize == null)
 				{
-					r_RFinalize = new(this, "Finalize", 0);
-					r_RFinalize.SetBelong(this.instance);
+					r_Finalize = new(this, "Finalize", 0);
+					r_Finalize.SetBelong(this.instance);
 				}
-				return r_RFinalize;
+				return r_Finalize;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetHashCode()
 		/// </summary>
-		protected RMethod r_RGetHashCode;
+		protected RMethod r_GetHashCode;
 		public virtual RMethod RGetHashCode
 		{
 			get
 			{
-				if(r_RGetHashCode == null)
+				if(r_GetHashCode == null)
 				{
-					r_RGetHashCode = new(this, "GetHashCode", 0);
-					r_RGetHashCode.SetBelong(this.instance);
+					r_GetHashCode = new(this, "GetHashCode", 0);
+					r_GetHashCode.SetBelong(this.instance);
 				}
-				return r_RGetHashCode;
+				return r_GetHashCode;
 			}
 		}
 
 		/// <summary>
 		/// System.Type GetType()
 		/// </summary>
-		protected RMethod r_RGetType;
+		protected RMethod r_GetType;
 		public virtual RMethod RGetType
 		{
 			get
 			{
-				if(r_RGetType == null)
+				if(r_GetType == null)
 				{
-					r_RGetType = new(this, "GetType", 0);
-					r_RGetType.SetBelong(this.instance);
+					r_GetType = new(this, "GetType", 0);
+					r_GetType.SetBelong(this.instance);
 				}
-				return r_RGetType;
+				return r_GetType;
 			}
 		}
 
 		/// <summary>
 		/// System.Object MemberwiseClone()
 		/// </summary>
-		protected RMethod r_RMemberwiseClone;
+		protected RMethod r_MemberwiseClone;
 		public virtual RMethod RMemberwiseClone
 		{
 			get
 			{
-				if(r_RMemberwiseClone == null)
+				if(r_MemberwiseClone == null)
 				{
-					r_RMemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_RMemberwiseClone.SetBelong(this.instance);
+					r_MemberwiseClone = new(this, "MemberwiseClone", 0);
+					r_MemberwiseClone.SetBelong(this.instance);
 				}
-				return r_RMemberwiseClone;
+				return r_MemberwiseClone;
 			}
 		}
 
 		/// <summary>
 		/// System.String ToString()
 		/// </summary>
-		protected RMethod r_RToString;
+		protected RMethod r_ToString;
 		public virtual RMethod RToString
 		{
 			get
 			{
-				if(r_RToString == null)
+				if(r_ToString == null)
 				{
-					r_RToString = new(this, "ToString", 0);
-					r_RToString.SetBelong(this.instance);
+					r_ToString = new(this, "ToString", 0);
+					r_ToString.SetBelong(this.instance);
 				}
-				return r_RToString;
+				return r_ToString;
 			}
 		}
 

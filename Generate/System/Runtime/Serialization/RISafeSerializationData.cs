@@ -13,17 +13,17 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization
 		/// <summary>
 		/// Void CompleteDeserialization(System.Object)
 		/// </summary>
-		protected RMethod r_RCompleteDeserialization_Object;
+		protected RMethod r_CompleteDeserialization_Object;
 		public virtual RMethod RCompleteDeserialization_Object
 		{
 			get
 			{
-				if(r_RCompleteDeserialization_Object == null)
+				if(r_CompleteDeserialization_Object == null)
 				{
-					r_RCompleteDeserialization_Object = new(this, "CompleteDeserialization", 0, typeof(System.Object));
-					r_RCompleteDeserialization_Object.SetBelong(this.instance);
+					r_CompleteDeserialization_Object = new(this, "CompleteDeserialization", 0, typeof(System.Object));
+					r_CompleteDeserialization_Object.SetBelong(this.instance);
 				}
-				return r_RCompleteDeserialization_Object;
+				return r_CompleteDeserialization_Object;
 			}
 		}
 

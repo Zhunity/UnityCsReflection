@@ -134,204 +134,204 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// Void Init(GuidParseThrowStyle)
 		/// </summary>
-		protected RMethod r_RInit_GuidParseThrowStyle;
+		protected RMethod r_Init_GuidParseThrowStyle;
 		public virtual RMethod RInit_GuidParseThrowStyle
 		{
 			get
 			{
-				if(r_RInit_GuidParseThrowStyle == null)
+				if(r_Init_GuidParseThrowStyle == null)
 				{
-					r_RInit_GuidParseThrowStyle = new(this, "Init", 0,  ReleactionUtils.GetType("System.Guid+GuidParseThrowStyle"));
-					r_RInit_GuidParseThrowStyle.SetBelong(this.instance);
+					r_Init_GuidParseThrowStyle = new(this, "Init", 0,  ReleactionUtils.GetType("System.Guid+GuidParseThrowStyle"));
+					r_Init_GuidParseThrowStyle.SetBelong(this.instance);
 				}
-				return r_RInit_GuidParseThrowStyle;
+				return r_Init_GuidParseThrowStyle;
 			}
 		}
 
 		/// <summary>
 		/// Void SetFailure(System.Exception)
 		/// </summary>
-		protected RMethod r_RSetFailure_Exception;
+		protected RMethod r_SetFailure_Exception;
 		public virtual RMethod RSetFailure_Exception
 		{
 			get
 			{
-				if(r_RSetFailure_Exception == null)
+				if(r_SetFailure_Exception == null)
 				{
-					r_RSetFailure_Exception = new(this, "SetFailure", 0, typeof(System.Exception));
-					r_RSetFailure_Exception.SetBelong(this.instance);
+					r_SetFailure_Exception = new(this, "SetFailure", 0, typeof(System.Exception));
+					r_SetFailure_Exception.SetBelong(this.instance);
 				}
-				return r_RSetFailure_Exception;
+				return r_SetFailure_Exception;
 			}
 		}
 
 		/// <summary>
 		/// Void SetFailure(ParseFailureKind, System.String)
 		/// </summary>
-		protected RMethod r_RSetFailure_ParseFailureKind_String;
+		protected RMethod r_SetFailure_ParseFailureKind_String;
 		public virtual RMethod RSetFailure_ParseFailureKind_String
 		{
 			get
 			{
-				if(r_RSetFailure_ParseFailureKind_String == null)
+				if(r_SetFailure_ParseFailureKind_String == null)
 				{
-					r_RSetFailure_ParseFailureKind_String = new(this, "SetFailure", 0,  ReleactionUtils.GetType("System.Guid+ParseFailureKind"), typeof(System.String));
-					r_RSetFailure_ParseFailureKind_String.SetBelong(this.instance);
+					r_SetFailure_ParseFailureKind_String = new(this, "SetFailure", 0,  ReleactionUtils.GetType("System.Guid+ParseFailureKind"), typeof(System.String));
+					r_SetFailure_ParseFailureKind_String.SetBelong(this.instance);
 				}
-				return r_RSetFailure_ParseFailureKind_String;
+				return r_SetFailure_ParseFailureKind_String;
 			}
 		}
 
 		/// <summary>
 		/// Void SetFailure(ParseFailureKind, System.String, System.Object)
 		/// </summary>
-		protected RMethod r_RSetFailure_ParseFailureKind_String_Object;
+		protected RMethod r_SetFailure_ParseFailureKind_String_Object;
 		public virtual RMethod RSetFailure_ParseFailureKind_String_Object
 		{
 			get
 			{
-				if(r_RSetFailure_ParseFailureKind_String_Object == null)
+				if(r_SetFailure_ParseFailureKind_String_Object == null)
 				{
-					r_RSetFailure_ParseFailureKind_String_Object = new(this, "SetFailure", 0,  ReleactionUtils.GetType("System.Guid+ParseFailureKind"), typeof(System.String), typeof(System.Object));
-					r_RSetFailure_ParseFailureKind_String_Object.SetBelong(this.instance);
+					r_SetFailure_ParseFailureKind_String_Object = new(this, "SetFailure", 0,  ReleactionUtils.GetType("System.Guid+ParseFailureKind"), typeof(System.String), typeof(System.Object));
+					r_SetFailure_ParseFailureKind_String_Object.SetBelong(this.instance);
 				}
-				return r_RSetFailure_ParseFailureKind_String_Object;
+				return r_SetFailure_ParseFailureKind_String_Object;
 			}
 		}
 
 		/// <summary>
 		/// Void SetFailure(ParseFailureKind, System.String, System.Object, System.String, System.Exception)
 		/// </summary>
-		protected RMethod r_RSetFailure_ParseFailureKind_String_Object_String_Exception;
+		protected RMethod r_SetFailure_ParseFailureKind_String_Object_String_Exception;
 		public virtual RMethod RSetFailure_ParseFailureKind_String_Object_String_Exception
 		{
 			get
 			{
-				if(r_RSetFailure_ParseFailureKind_String_Object_String_Exception == null)
+				if(r_SetFailure_ParseFailureKind_String_Object_String_Exception == null)
 				{
-					r_RSetFailure_ParseFailureKind_String_Object_String_Exception = new(this, "SetFailure", 0,  ReleactionUtils.GetType("System.Guid+ParseFailureKind"), typeof(System.String), typeof(System.Object), typeof(System.String), typeof(System.Exception));
-					r_RSetFailure_ParseFailureKind_String_Object_String_Exception.SetBelong(this.instance);
+					r_SetFailure_ParseFailureKind_String_Object_String_Exception = new(this, "SetFailure", 0,  ReleactionUtils.GetType("System.Guid+ParseFailureKind"), typeof(System.String), typeof(System.Object), typeof(System.String), typeof(System.Exception));
+					r_SetFailure_ParseFailureKind_String_Object_String_Exception.SetBelong(this.instance);
 				}
-				return r_RSetFailure_ParseFailureKind_String_Object_String_Exception;
+				return r_SetFailure_ParseFailureKind_String_Object_String_Exception;
 			}
 		}
 
 		/// <summary>
 		/// System.Exception GetGuidParseException()
 		/// </summary>
-		protected RMethod r_RGetGuidParseException;
+		protected RMethod r_GetGuidParseException;
 		public virtual RMethod RGetGuidParseException
 		{
 			get
 			{
-				if(r_RGetGuidParseException == null)
+				if(r_GetGuidParseException == null)
 				{
-					r_RGetGuidParseException = new(this, "GetGuidParseException", 0);
-					r_RGetGuidParseException.SetBelong(this.instance);
+					r_GetGuidParseException = new(this, "GetGuidParseException", 0);
+					r_GetGuidParseException.SetBelong(this.instance);
 				}
-				return r_RGetGuidParseException;
+				return r_GetGuidParseException;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Equals(System.Object)
 		/// </summary>
-		protected RMethod r_REquals_Object;
+		protected RMethod r_Equals_Object;
 		public virtual RMethod REquals_Object
 		{
 			get
 			{
-				if(r_REquals_Object == null)
+				if(r_Equals_Object == null)
 				{
-					r_REquals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_REquals_Object.SetBelong(this.instance);
+					r_Equals_Object = new(this, "Equals", 0, typeof(System.Object));
+					r_Equals_Object.SetBelong(this.instance);
 				}
-				return r_REquals_Object;
+				return r_Equals_Object;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetHashCode()
 		/// </summary>
-		protected RMethod r_RGetHashCode;
+		protected RMethod r_GetHashCode;
 		public virtual RMethod RGetHashCode
 		{
 			get
 			{
-				if(r_RGetHashCode == null)
+				if(r_GetHashCode == null)
 				{
-					r_RGetHashCode = new(this, "GetHashCode", 0);
-					r_RGetHashCode.SetBelong(this.instance);
+					r_GetHashCode = new(this, "GetHashCode", 0);
+					r_GetHashCode.SetBelong(this.instance);
 				}
-				return r_RGetHashCode;
+				return r_GetHashCode;
 			}
 		}
 
 		/// <summary>
 		/// System.String ToString()
 		/// </summary>
-		protected RMethod r_RToString;
+		protected RMethod r_ToString;
 		public virtual RMethod RToString
 		{
 			get
 			{
-				if(r_RToString == null)
+				if(r_ToString == null)
 				{
-					r_RToString = new(this, "ToString", 0);
-					r_RToString.SetBelong(this.instance);
+					r_ToString = new(this, "ToString", 0);
+					r_ToString.SetBelong(this.instance);
 				}
-				return r_RToString;
+				return r_ToString;
 			}
 		}
 
 		/// <summary>
 		/// Void Finalize()
 		/// </summary>
-		protected RMethod r_RFinalize;
+		protected RMethod r_Finalize;
 		public virtual RMethod RFinalize
 		{
 			get
 			{
-				if(r_RFinalize == null)
+				if(r_Finalize == null)
 				{
-					r_RFinalize = new(this, "Finalize", 0);
-					r_RFinalize.SetBelong(this.instance);
+					r_Finalize = new(this, "Finalize", 0);
+					r_Finalize.SetBelong(this.instance);
 				}
-				return r_RFinalize;
+				return r_Finalize;
 			}
 		}
 
 		/// <summary>
 		/// System.Type GetType()
 		/// </summary>
-		protected RMethod r_RGetType;
+		protected RMethod r_GetType;
 		public virtual RMethod RGetType
 		{
 			get
 			{
-				if(r_RGetType == null)
+				if(r_GetType == null)
 				{
-					r_RGetType = new(this, "GetType", 0);
-					r_RGetType.SetBelong(this.instance);
+					r_GetType = new(this, "GetType", 0);
+					r_GetType.SetBelong(this.instance);
 				}
-				return r_RGetType;
+				return r_GetType;
 			}
 		}
 
 		/// <summary>
 		/// System.Object MemberwiseClone()
 		/// </summary>
-		protected RMethod r_RMemberwiseClone;
+		protected RMethod r_MemberwiseClone;
 		public virtual RMethod RMemberwiseClone
 		{
 			get
 			{
-				if(r_RMemberwiseClone == null)
+				if(r_MemberwiseClone == null)
 				{
-					r_RMemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_RMemberwiseClone.SetBelong(this.instance);
+					r_MemberwiseClone = new(this, "MemberwiseClone", 0);
+					r_MemberwiseClone.SetBelong(this.instance);
 				}
-				return r_RMemberwiseClone;
+				return r_MemberwiseClone;
 			}
 		}
 

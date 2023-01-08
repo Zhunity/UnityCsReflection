@@ -166,34 +166,34 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
 		/// <summary>
 		/// System.Object GetArg(Int32)
 		/// </summary>
-		protected RMethod r_RGetArg_Int32;
+		protected RMethod r_GetArg_Int32;
 		public virtual RMethod RGetArg_Int32
 		{
 			get
 			{
-				if(r_RGetArg_Int32 == null)
+				if(r_GetArg_Int32 == null)
 				{
-					r_RGetArg_Int32 = new(this, "GetArg", 0, typeof(System.Int32));
-					r_RGetArg_Int32.SetBelong(this.instance);
+					r_GetArg_Int32 = new(this, "GetArg", 0, typeof(System.Int32));
+					r_GetArg_Int32.SetBelong(this.instance);
 				}
-				return r_RGetArg_Int32;
+				return r_GetArg_Int32;
 			}
 		}
 
 		/// <summary>
 		/// System.String GetArgName(Int32)
 		/// </summary>
-		protected RMethod r_RGetArgName_Int32;
+		protected RMethod r_GetArgName_Int32;
 		public virtual RMethod RGetArgName_Int32
 		{
 			get
 			{
-				if(r_RGetArgName_Int32 == null)
+				if(r_GetArgName_Int32 == null)
 				{
-					r_RGetArgName_Int32 = new(this, "GetArgName", 0, typeof(System.Int32));
-					r_RGetArgName_Int32.SetBelong(this.instance);
+					r_GetArgName_Int32 = new(this, "GetArgName", 0, typeof(System.Int32));
+					r_GetArgName_Int32.SetBelong(this.instance);
 				}
-				return r_RGetArgName_Int32;
+				return r_GetArgName_Int32;
 			}
 		}
 

@@ -591,1105 +591,1105 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.TimeSpan Add(System.TimeSpan)
 		/// </summary>
-		protected RMethod r_RAdd_TimeSpan;
+		protected RMethod r_Add_TimeSpan;
 		public virtual RMethod RAdd_TimeSpan
 		{
 			get
 			{
-				if(r_RAdd_TimeSpan == null)
+				if(r_Add_TimeSpan == null)
 				{
-					r_RAdd_TimeSpan = new(this, "Add", 0, typeof(System.TimeSpan));
-					r_RAdd_TimeSpan.SetBelong(this.instance);
+					r_Add_TimeSpan = new(this, "Add", 0, typeof(System.TimeSpan));
+					r_Add_TimeSpan.SetBelong(this.instance);
 				}
-				return r_RAdd_TimeSpan;
+				return r_Add_TimeSpan;
 			}
 		}
 
 		/// <summary>
 		/// Int32 Compare(System.TimeSpan, System.TimeSpan)
 		/// </summary>
-		protected static RMethod r_RCompare_TimeSpan_TimeSpan;
+		protected static RMethod r_Compare_TimeSpan_TimeSpan;
 		public static RMethod RCompare_TimeSpan_TimeSpan
 		{
 			get
 			{
-				if(r_RCompare_TimeSpan_TimeSpan == null)
+				if(r_Compare_TimeSpan_TimeSpan == null)
 				{
-					r_RCompare_TimeSpan_TimeSpan = new(typeof(System.TimeSpan), "Compare", 0, typeof(System.TimeSpan), typeof(System.TimeSpan));
-					r_RCompare_TimeSpan_TimeSpan.SetBelong(null);
+					r_Compare_TimeSpan_TimeSpan = new(typeof(System.TimeSpan), "Compare", 0, typeof(System.TimeSpan), typeof(System.TimeSpan));
+					r_Compare_TimeSpan_TimeSpan.SetBelong(null);
 				}
-				return r_RCompare_TimeSpan_TimeSpan;
+				return r_Compare_TimeSpan_TimeSpan;
 			}
 		}
 
 		/// <summary>
 		/// Int32 CompareTo(System.Object)
 		/// </summary>
-		protected RMethod r_RCompareTo_Object;
+		protected RMethod r_CompareTo_Object;
 		public virtual RMethod RCompareTo_Object
 		{
 			get
 			{
-				if(r_RCompareTo_Object == null)
+				if(r_CompareTo_Object == null)
 				{
-					r_RCompareTo_Object = new(this, "CompareTo", 0, typeof(System.Object));
-					r_RCompareTo_Object.SetBelong(this.instance);
+					r_CompareTo_Object = new(this, "CompareTo", 0, typeof(System.Object));
+					r_CompareTo_Object.SetBelong(this.instance);
 				}
-				return r_RCompareTo_Object;
+				return r_CompareTo_Object;
 			}
 		}
 
 		/// <summary>
 		/// Int32 CompareTo(System.TimeSpan)
 		/// </summary>
-		protected RMethod r_RCompareTo_TimeSpan;
+		protected RMethod r_CompareTo_TimeSpan;
 		public virtual RMethod RCompareTo_TimeSpan
 		{
 			get
 			{
-				if(r_RCompareTo_TimeSpan == null)
+				if(r_CompareTo_TimeSpan == null)
 				{
-					r_RCompareTo_TimeSpan = new(this, "CompareTo", 0, typeof(System.TimeSpan));
-					r_RCompareTo_TimeSpan.SetBelong(this.instance);
+					r_CompareTo_TimeSpan = new(this, "CompareTo", 0, typeof(System.TimeSpan));
+					r_CompareTo_TimeSpan.SetBelong(this.instance);
 				}
-				return r_RCompareTo_TimeSpan;
+				return r_CompareTo_TimeSpan;
 			}
 		}
 
 		/// <summary>
 		/// System.TimeSpan FromDays(Double)
 		/// </summary>
-		protected static RMethod r_RFromDays_Double;
+		protected static RMethod r_FromDays_Double;
 		public static RMethod RFromDays_Double
 		{
 			get
 			{
-				if(r_RFromDays_Double == null)
+				if(r_FromDays_Double == null)
 				{
-					r_RFromDays_Double = new(typeof(System.TimeSpan), "FromDays", 0, typeof(System.Double));
-					r_RFromDays_Double.SetBelong(null);
+					r_FromDays_Double = new(typeof(System.TimeSpan), "FromDays", 0, typeof(System.Double));
+					r_FromDays_Double.SetBelong(null);
 				}
-				return r_RFromDays_Double;
+				return r_FromDays_Double;
 			}
 		}
 
 		/// <summary>
 		/// System.TimeSpan Duration()
 		/// </summary>
-		protected RMethod r_RDuration;
+		protected RMethod r_Duration;
 		public virtual RMethod RDuration
 		{
 			get
 			{
-				if(r_RDuration == null)
+				if(r_Duration == null)
 				{
-					r_RDuration = new(this, "Duration", 0);
-					r_RDuration.SetBelong(this.instance);
+					r_Duration = new(this, "Duration", 0);
+					r_Duration.SetBelong(this.instance);
 				}
-				return r_RDuration;
+				return r_Duration;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Equals(System.Object)
 		/// </summary>
-		protected RMethod r_REquals_Object;
+		protected RMethod r_Equals_Object;
 		public virtual RMethod REquals_Object
 		{
 			get
 			{
-				if(r_REquals_Object == null)
+				if(r_Equals_Object == null)
 				{
-					r_REquals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_REquals_Object.SetBelong(this.instance);
+					r_Equals_Object = new(this, "Equals", 0, typeof(System.Object));
+					r_Equals_Object.SetBelong(this.instance);
 				}
-				return r_REquals_Object;
+				return r_Equals_Object;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Equals(System.TimeSpan)
 		/// </summary>
-		protected RMethod r_REquals_TimeSpan;
+		protected RMethod r_Equals_TimeSpan;
 		public virtual RMethod REquals_TimeSpan
 		{
 			get
 			{
-				if(r_REquals_TimeSpan == null)
+				if(r_Equals_TimeSpan == null)
 				{
-					r_REquals_TimeSpan = new(this, "Equals", 0, typeof(System.TimeSpan));
-					r_REquals_TimeSpan.SetBelong(this.instance);
+					r_Equals_TimeSpan = new(this, "Equals", 0, typeof(System.TimeSpan));
+					r_Equals_TimeSpan.SetBelong(this.instance);
 				}
-				return r_REquals_TimeSpan;
+				return r_Equals_TimeSpan;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Equals(System.TimeSpan, System.TimeSpan)
 		/// </summary>
-		protected static RMethod r_REquals_TimeSpan_TimeSpan;
+		protected static RMethod r_Equals_TimeSpan_TimeSpan;
 		public static RMethod REquals_TimeSpan_TimeSpan
 		{
 			get
 			{
-				if(r_REquals_TimeSpan_TimeSpan == null)
+				if(r_Equals_TimeSpan_TimeSpan == null)
 				{
-					r_REquals_TimeSpan_TimeSpan = new(typeof(System.TimeSpan), "Equals", 0, typeof(System.TimeSpan), typeof(System.TimeSpan));
-					r_REquals_TimeSpan_TimeSpan.SetBelong(null);
+					r_Equals_TimeSpan_TimeSpan = new(typeof(System.TimeSpan), "Equals", 0, typeof(System.TimeSpan), typeof(System.TimeSpan));
+					r_Equals_TimeSpan_TimeSpan.SetBelong(null);
 				}
-				return r_REquals_TimeSpan_TimeSpan;
+				return r_Equals_TimeSpan_TimeSpan;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetHashCode()
 		/// </summary>
-		protected RMethod r_RGetHashCode;
+		protected RMethod r_GetHashCode;
 		public virtual RMethod RGetHashCode
 		{
 			get
 			{
-				if(r_RGetHashCode == null)
+				if(r_GetHashCode == null)
 				{
-					r_RGetHashCode = new(this, "GetHashCode", 0);
-					r_RGetHashCode.SetBelong(this.instance);
+					r_GetHashCode = new(this, "GetHashCode", 0);
+					r_GetHashCode.SetBelong(this.instance);
 				}
-				return r_RGetHashCode;
+				return r_GetHashCode;
 			}
 		}
 
 		/// <summary>
 		/// System.TimeSpan FromHours(Double)
 		/// </summary>
-		protected static RMethod r_RFromHours_Double;
+		protected static RMethod r_FromHours_Double;
 		public static RMethod RFromHours_Double
 		{
 			get
 			{
-				if(r_RFromHours_Double == null)
+				if(r_FromHours_Double == null)
 				{
-					r_RFromHours_Double = new(typeof(System.TimeSpan), "FromHours", 0, typeof(System.Double));
-					r_RFromHours_Double.SetBelong(null);
+					r_FromHours_Double = new(typeof(System.TimeSpan), "FromHours", 0, typeof(System.Double));
+					r_FromHours_Double.SetBelong(null);
 				}
-				return r_RFromHours_Double;
+				return r_FromHours_Double;
 			}
 		}
 
 		/// <summary>
 		/// System.TimeSpan Interval(Double, Int32)
 		/// </summary>
-		protected static RMethod r_RInterval_Double_Int32;
+		protected static RMethod r_Interval_Double_Int32;
 		public static RMethod RInterval_Double_Int32
 		{
 			get
 			{
-				if(r_RInterval_Double_Int32 == null)
+				if(r_Interval_Double_Int32 == null)
 				{
-					r_RInterval_Double_Int32 = new(typeof(System.TimeSpan), "Interval", 0, typeof(System.Double), typeof(System.Int32));
-					r_RInterval_Double_Int32.SetBelong(null);
+					r_Interval_Double_Int32 = new(typeof(System.TimeSpan), "Interval", 0, typeof(System.Double), typeof(System.Int32));
+					r_Interval_Double_Int32.SetBelong(null);
 				}
-				return r_RInterval_Double_Int32;
+				return r_Interval_Double_Int32;
 			}
 		}
 
 		/// <summary>
 		/// System.TimeSpan FromMilliseconds(Double)
 		/// </summary>
-		protected static RMethod r_RFromMilliseconds_Double;
+		protected static RMethod r_FromMilliseconds_Double;
 		public static RMethod RFromMilliseconds_Double
 		{
 			get
 			{
-				if(r_RFromMilliseconds_Double == null)
+				if(r_FromMilliseconds_Double == null)
 				{
-					r_RFromMilliseconds_Double = new(typeof(System.TimeSpan), "FromMilliseconds", 0, typeof(System.Double));
-					r_RFromMilliseconds_Double.SetBelong(null);
+					r_FromMilliseconds_Double = new(typeof(System.TimeSpan), "FromMilliseconds", 0, typeof(System.Double));
+					r_FromMilliseconds_Double.SetBelong(null);
 				}
-				return r_RFromMilliseconds_Double;
+				return r_FromMilliseconds_Double;
 			}
 		}
 
 		/// <summary>
 		/// System.TimeSpan FromMinutes(Double)
 		/// </summary>
-		protected static RMethod r_RFromMinutes_Double;
+		protected static RMethod r_FromMinutes_Double;
 		public static RMethod RFromMinutes_Double
 		{
 			get
 			{
-				if(r_RFromMinutes_Double == null)
+				if(r_FromMinutes_Double == null)
 				{
-					r_RFromMinutes_Double = new(typeof(System.TimeSpan), "FromMinutes", 0, typeof(System.Double));
-					r_RFromMinutes_Double.SetBelong(null);
+					r_FromMinutes_Double = new(typeof(System.TimeSpan), "FromMinutes", 0, typeof(System.Double));
+					r_FromMinutes_Double.SetBelong(null);
 				}
-				return r_RFromMinutes_Double;
+				return r_FromMinutes_Double;
 			}
 		}
 
 		/// <summary>
 		/// System.TimeSpan Negate()
 		/// </summary>
-		protected RMethod r_RNegate;
+		protected RMethod r_Negate;
 		public virtual RMethod RNegate
 		{
 			get
 			{
-				if(r_RNegate == null)
+				if(r_Negate == null)
 				{
-					r_RNegate = new(this, "Negate", 0);
-					r_RNegate.SetBelong(this.instance);
+					r_Negate = new(this, "Negate", 0);
+					r_Negate.SetBelong(this.instance);
 				}
-				return r_RNegate;
+				return r_Negate;
 			}
 		}
 
 		/// <summary>
 		/// System.TimeSpan FromSeconds(Double)
 		/// </summary>
-		protected static RMethod r_RFromSeconds_Double;
+		protected static RMethod r_FromSeconds_Double;
 		public static RMethod RFromSeconds_Double
 		{
 			get
 			{
-				if(r_RFromSeconds_Double == null)
+				if(r_FromSeconds_Double == null)
 				{
-					r_RFromSeconds_Double = new(typeof(System.TimeSpan), "FromSeconds", 0, typeof(System.Double));
-					r_RFromSeconds_Double.SetBelong(null);
+					r_FromSeconds_Double = new(typeof(System.TimeSpan), "FromSeconds", 0, typeof(System.Double));
+					r_FromSeconds_Double.SetBelong(null);
 				}
-				return r_RFromSeconds_Double;
+				return r_FromSeconds_Double;
 			}
 		}
 
 		/// <summary>
 		/// System.TimeSpan Subtract(System.TimeSpan)
 		/// </summary>
-		protected RMethod r_RSubtract_TimeSpan;
+		protected RMethod r_Subtract_TimeSpan;
 		public virtual RMethod RSubtract_TimeSpan
 		{
 			get
 			{
-				if(r_RSubtract_TimeSpan == null)
+				if(r_Subtract_TimeSpan == null)
 				{
-					r_RSubtract_TimeSpan = new(this, "Subtract", 0, typeof(System.TimeSpan));
-					r_RSubtract_TimeSpan.SetBelong(this.instance);
+					r_Subtract_TimeSpan = new(this, "Subtract", 0, typeof(System.TimeSpan));
+					r_Subtract_TimeSpan.SetBelong(this.instance);
 				}
-				return r_RSubtract_TimeSpan;
+				return r_Subtract_TimeSpan;
 			}
 		}
 
 		/// <summary>
 		/// System.TimeSpan Multiply(Double)
 		/// </summary>
-		protected RMethod r_RMultiply_Double;
+		protected RMethod r_Multiply_Double;
 		public virtual RMethod RMultiply_Double
 		{
 			get
 			{
-				if(r_RMultiply_Double == null)
+				if(r_Multiply_Double == null)
 				{
-					r_RMultiply_Double = new(this, "Multiply", 0, typeof(System.Double));
-					r_RMultiply_Double.SetBelong(this.instance);
+					r_Multiply_Double = new(this, "Multiply", 0, typeof(System.Double));
+					r_Multiply_Double.SetBelong(this.instance);
 				}
-				return r_RMultiply_Double;
+				return r_Multiply_Double;
 			}
 		}
 
 		/// <summary>
 		/// System.TimeSpan Divide(Double)
 		/// </summary>
-		protected RMethod r_RDivide_Double;
+		protected RMethod r_Divide_Double;
 		public virtual RMethod RDivide_Double
 		{
 			get
 			{
-				if(r_RDivide_Double == null)
+				if(r_Divide_Double == null)
 				{
-					r_RDivide_Double = new(this, "Divide", 0, typeof(System.Double));
-					r_RDivide_Double.SetBelong(this.instance);
+					r_Divide_Double = new(this, "Divide", 0, typeof(System.Double));
+					r_Divide_Double.SetBelong(this.instance);
 				}
-				return r_RDivide_Double;
+				return r_Divide_Double;
 			}
 		}
 
 		/// <summary>
 		/// Double Divide(System.TimeSpan)
 		/// </summary>
-		protected RMethod r_RDivide_TimeSpan;
+		protected RMethod r_Divide_TimeSpan;
 		public virtual RMethod RDivide_TimeSpan
 		{
 			get
 			{
-				if(r_RDivide_TimeSpan == null)
+				if(r_Divide_TimeSpan == null)
 				{
-					r_RDivide_TimeSpan = new(this, "Divide", 0, typeof(System.TimeSpan));
-					r_RDivide_TimeSpan.SetBelong(this.instance);
+					r_Divide_TimeSpan = new(this, "Divide", 0, typeof(System.TimeSpan));
+					r_Divide_TimeSpan.SetBelong(this.instance);
 				}
-				return r_RDivide_TimeSpan;
+				return r_Divide_TimeSpan;
 			}
 		}
 
 		/// <summary>
 		/// System.TimeSpan FromTicks(Int64)
 		/// </summary>
-		protected static RMethod r_RFromTicks_Int64;
+		protected static RMethod r_FromTicks_Int64;
 		public static RMethod RFromTicks_Int64
 		{
 			get
 			{
-				if(r_RFromTicks_Int64 == null)
+				if(r_FromTicks_Int64 == null)
 				{
-					r_RFromTicks_Int64 = new(typeof(System.TimeSpan), "FromTicks", 0, typeof(System.Int64));
-					r_RFromTicks_Int64.SetBelong(null);
+					r_FromTicks_Int64 = new(typeof(System.TimeSpan), "FromTicks", 0, typeof(System.Int64));
+					r_FromTicks_Int64.SetBelong(null);
 				}
-				return r_RFromTicks_Int64;
+				return r_FromTicks_Int64;
 			}
 		}
 
 		/// <summary>
 		/// Int64 TimeToTicks(Int32, Int32, Int32)
 		/// </summary>
-		protected static RMethod r_RTimeToTicks_Int32_Int32_Int32;
+		protected static RMethod r_TimeToTicks_Int32_Int32_Int32;
 		public static RMethod RTimeToTicks_Int32_Int32_Int32
 		{
 			get
 			{
-				if(r_RTimeToTicks_Int32_Int32_Int32 == null)
+				if(r_TimeToTicks_Int32_Int32_Int32 == null)
 				{
-					r_RTimeToTicks_Int32_Int32_Int32 = new(typeof(System.TimeSpan), "TimeToTicks", 0, typeof(System.Int32), typeof(System.Int32), typeof(System.Int32));
-					r_RTimeToTicks_Int32_Int32_Int32.SetBelong(null);
+					r_TimeToTicks_Int32_Int32_Int32 = new(typeof(System.TimeSpan), "TimeToTicks", 0, typeof(System.Int32), typeof(System.Int32), typeof(System.Int32));
+					r_TimeToTicks_Int32_Int32_Int32.SetBelong(null);
 				}
-				return r_RTimeToTicks_Int32_Int32_Int32;
+				return r_TimeToTicks_Int32_Int32_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Void ValidateStyles(System.Globalization.TimeSpanStyles, System.String)
 		/// </summary>
-		protected static RMethod r_RValidateStyles_TimeSpanStyles_String;
+		protected static RMethod r_ValidateStyles_TimeSpanStyles_String;
 		public static RMethod RValidateStyles_TimeSpanStyles_String
 		{
 			get
 			{
-				if(r_RValidateStyles_TimeSpanStyles_String == null)
+				if(r_ValidateStyles_TimeSpanStyles_String == null)
 				{
-					r_RValidateStyles_TimeSpanStyles_String = new(typeof(System.TimeSpan), "ValidateStyles", 0, typeof(System.Globalization.TimeSpanStyles), typeof(System.String));
-					r_RValidateStyles_TimeSpanStyles_String.SetBelong(null);
+					r_ValidateStyles_TimeSpanStyles_String = new(typeof(System.TimeSpan), "ValidateStyles", 0, typeof(System.Globalization.TimeSpanStyles), typeof(System.String));
+					r_ValidateStyles_TimeSpanStyles_String.SetBelong(null);
 				}
-				return r_RValidateStyles_TimeSpanStyles_String;
+				return r_ValidateStyles_TimeSpanStyles_String;
 			}
 		}
 
 		/// <summary>
 		/// System.TimeSpan Parse(System.String)
 		/// </summary>
-		protected static RMethod r_RParse_String;
+		protected static RMethod r_Parse_String;
 		public static RMethod RParse_String
 		{
 			get
 			{
-				if(r_RParse_String == null)
+				if(r_Parse_String == null)
 				{
-					r_RParse_String = new(typeof(System.TimeSpan), "Parse", 0, typeof(System.String));
-					r_RParse_String.SetBelong(null);
+					r_Parse_String = new(typeof(System.TimeSpan), "Parse", 0, typeof(System.String));
+					r_Parse_String.SetBelong(null);
 				}
-				return r_RParse_String;
+				return r_Parse_String;
 			}
 		}
 
 		/// <summary>
 		/// System.TimeSpan Parse(System.String, System.IFormatProvider)
 		/// </summary>
-		protected static RMethod r_RParse_String_IFormatProvider;
+		protected static RMethod r_Parse_String_IFormatProvider;
 		public static RMethod RParse_String_IFormatProvider
 		{
 			get
 			{
-				if(r_RParse_String_IFormatProvider == null)
+				if(r_Parse_String_IFormatProvider == null)
 				{
-					r_RParse_String_IFormatProvider = new(typeof(System.TimeSpan), "Parse", 0, typeof(System.String), typeof(System.IFormatProvider));
-					r_RParse_String_IFormatProvider.SetBelong(null);
+					r_Parse_String_IFormatProvider = new(typeof(System.TimeSpan), "Parse", 0, typeof(System.String), typeof(System.IFormatProvider));
+					r_Parse_String_IFormatProvider.SetBelong(null);
 				}
-				return r_RParse_String_IFormatProvider;
+				return r_Parse_String_IFormatProvider;
 			}
 		}
 
 		/// <summary>
 		/// System.TimeSpan Parse(System.ReadOnlySpan`1[System.Char], System.IFormatProvider)
 		/// </summary>
-		protected static RMethod r_RParse_ReadOnlySpan_d_Char_p__IFormatProvider;
+		protected static RMethod r_Parse_ReadOnlySpan_d_Char_p__IFormatProvider;
 		public static RMethod RParse_ReadOnlySpan_d_Char_p__IFormatProvider
 		{
 			get
 			{
-				if(r_RParse_ReadOnlySpan_d_Char_p__IFormatProvider == null)
+				if(r_Parse_ReadOnlySpan_d_Char_p__IFormatProvider == null)
 				{
-					r_RParse_ReadOnlySpan_d_Char_p__IFormatProvider = new(typeof(System.TimeSpan), "Parse", 0, typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Char)), typeof(System.IFormatProvider));
-					r_RParse_ReadOnlySpan_d_Char_p__IFormatProvider.SetBelong(null);
+					r_Parse_ReadOnlySpan_d_Char_p__IFormatProvider = new(typeof(System.TimeSpan), "Parse", 0, typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Char)), typeof(System.IFormatProvider));
+					r_Parse_ReadOnlySpan_d_Char_p__IFormatProvider.SetBelong(null);
 				}
-				return r_RParse_ReadOnlySpan_d_Char_p__IFormatProvider;
+				return r_Parse_ReadOnlySpan_d_Char_p__IFormatProvider;
 			}
 		}
 
 		/// <summary>
 		/// System.TimeSpan ParseExact(System.String, System.String, System.IFormatProvider)
 		/// </summary>
-		protected static RMethod r_RParseExact_String_String_IFormatProvider;
+		protected static RMethod r_ParseExact_String_String_IFormatProvider;
 		public static RMethod RParseExact_String_String_IFormatProvider
 		{
 			get
 			{
-				if(r_RParseExact_String_String_IFormatProvider == null)
+				if(r_ParseExact_String_String_IFormatProvider == null)
 				{
-					r_RParseExact_String_String_IFormatProvider = new(typeof(System.TimeSpan), "ParseExact", 0, typeof(System.String), typeof(System.String), typeof(System.IFormatProvider));
-					r_RParseExact_String_String_IFormatProvider.SetBelong(null);
+					r_ParseExact_String_String_IFormatProvider = new(typeof(System.TimeSpan), "ParseExact", 0, typeof(System.String), typeof(System.String), typeof(System.IFormatProvider));
+					r_ParseExact_String_String_IFormatProvider.SetBelong(null);
 				}
-				return r_RParseExact_String_String_IFormatProvider;
+				return r_ParseExact_String_String_IFormatProvider;
 			}
 		}
 
 		/// <summary>
 		/// System.TimeSpan ParseExact(System.String, System.String[], System.IFormatProvider)
 		/// </summary>
-		protected static RMethod r_RParseExact_String_StringArray_IFormatProvider;
+		protected static RMethod r_ParseExact_String_StringArray_IFormatProvider;
 		public static RMethod RParseExact_String_StringArray_IFormatProvider
 		{
 			get
 			{
-				if(r_RParseExact_String_StringArray_IFormatProvider == null)
+				if(r_ParseExact_String_StringArray_IFormatProvider == null)
 				{
-					r_RParseExact_String_StringArray_IFormatProvider = new(typeof(System.TimeSpan), "ParseExact", 0, typeof(System.String), typeof(System.String).MakeArrayType(), typeof(System.IFormatProvider));
-					r_RParseExact_String_StringArray_IFormatProvider.SetBelong(null);
+					r_ParseExact_String_StringArray_IFormatProvider = new(typeof(System.TimeSpan), "ParseExact", 0, typeof(System.String), typeof(System.String).MakeArrayType(), typeof(System.IFormatProvider));
+					r_ParseExact_String_StringArray_IFormatProvider.SetBelong(null);
 				}
-				return r_RParseExact_String_StringArray_IFormatProvider;
+				return r_ParseExact_String_StringArray_IFormatProvider;
 			}
 		}
 
 		/// <summary>
 		/// System.TimeSpan ParseExact(System.String, System.String, System.IFormatProvider, System.Globalization.TimeSpanStyles)
 		/// </summary>
-		protected static RMethod r_RParseExact_String_String_IFormatProvider_TimeSpanStyles;
+		protected static RMethod r_ParseExact_String_String_IFormatProvider_TimeSpanStyles;
 		public static RMethod RParseExact_String_String_IFormatProvider_TimeSpanStyles
 		{
 			get
 			{
-				if(r_RParseExact_String_String_IFormatProvider_TimeSpanStyles == null)
+				if(r_ParseExact_String_String_IFormatProvider_TimeSpanStyles == null)
 				{
-					r_RParseExact_String_String_IFormatProvider_TimeSpanStyles = new(typeof(System.TimeSpan), "ParseExact", 0, typeof(System.String), typeof(System.String), typeof(System.IFormatProvider), typeof(System.Globalization.TimeSpanStyles));
-					r_RParseExact_String_String_IFormatProvider_TimeSpanStyles.SetBelong(null);
+					r_ParseExact_String_String_IFormatProvider_TimeSpanStyles = new(typeof(System.TimeSpan), "ParseExact", 0, typeof(System.String), typeof(System.String), typeof(System.IFormatProvider), typeof(System.Globalization.TimeSpanStyles));
+					r_ParseExact_String_String_IFormatProvider_TimeSpanStyles.SetBelong(null);
 				}
-				return r_RParseExact_String_String_IFormatProvider_TimeSpanStyles;
+				return r_ParseExact_String_String_IFormatProvider_TimeSpanStyles;
 			}
 		}
 
 		/// <summary>
 		/// System.TimeSpan ParseExact(System.ReadOnlySpan`1[System.Char], System.ReadOnlySpan`1[System.Char], System.IFormatProvider, System.Globalization.TimeSpanStyles)
 		/// </summary>
-		protected static RMethod r_RParseExact_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p__IFormatProvider_TimeSpanStyles;
+		protected static RMethod r_ParseExact_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p__IFormatProvider_TimeSpanStyles;
 		public static RMethod RParseExact_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p__IFormatProvider_TimeSpanStyles
 		{
 			get
 			{
-				if(r_RParseExact_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p__IFormatProvider_TimeSpanStyles == null)
+				if(r_ParseExact_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p__IFormatProvider_TimeSpanStyles == null)
 				{
-					r_RParseExact_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p__IFormatProvider_TimeSpanStyles = new(typeof(System.TimeSpan), "ParseExact", 0, typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Char)), typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Char)), typeof(System.IFormatProvider), typeof(System.Globalization.TimeSpanStyles));
-					r_RParseExact_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p__IFormatProvider_TimeSpanStyles.SetBelong(null);
+					r_ParseExact_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p__IFormatProvider_TimeSpanStyles = new(typeof(System.TimeSpan), "ParseExact", 0, typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Char)), typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Char)), typeof(System.IFormatProvider), typeof(System.Globalization.TimeSpanStyles));
+					r_ParseExact_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p__IFormatProvider_TimeSpanStyles.SetBelong(null);
 				}
-				return r_RParseExact_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p__IFormatProvider_TimeSpanStyles;
+				return r_ParseExact_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p__IFormatProvider_TimeSpanStyles;
 			}
 		}
 
 		/// <summary>
 		/// System.TimeSpan ParseExact(System.String, System.String[], System.IFormatProvider, System.Globalization.TimeSpanStyles)
 		/// </summary>
-		protected static RMethod r_RParseExact_String_StringArray_IFormatProvider_TimeSpanStyles;
+		protected static RMethod r_ParseExact_String_StringArray_IFormatProvider_TimeSpanStyles;
 		public static RMethod RParseExact_String_StringArray_IFormatProvider_TimeSpanStyles
 		{
 			get
 			{
-				if(r_RParseExact_String_StringArray_IFormatProvider_TimeSpanStyles == null)
+				if(r_ParseExact_String_StringArray_IFormatProvider_TimeSpanStyles == null)
 				{
-					r_RParseExact_String_StringArray_IFormatProvider_TimeSpanStyles = new(typeof(System.TimeSpan), "ParseExact", 0, typeof(System.String), typeof(System.String).MakeArrayType(), typeof(System.IFormatProvider), typeof(System.Globalization.TimeSpanStyles));
-					r_RParseExact_String_StringArray_IFormatProvider_TimeSpanStyles.SetBelong(null);
+					r_ParseExact_String_StringArray_IFormatProvider_TimeSpanStyles = new(typeof(System.TimeSpan), "ParseExact", 0, typeof(System.String), typeof(System.String).MakeArrayType(), typeof(System.IFormatProvider), typeof(System.Globalization.TimeSpanStyles));
+					r_ParseExact_String_StringArray_IFormatProvider_TimeSpanStyles.SetBelong(null);
 				}
-				return r_RParseExact_String_StringArray_IFormatProvider_TimeSpanStyles;
+				return r_ParseExact_String_StringArray_IFormatProvider_TimeSpanStyles;
 			}
 		}
 
 		/// <summary>
 		/// System.TimeSpan ParseExact(System.ReadOnlySpan`1[System.Char], System.String[], System.IFormatProvider, System.Globalization.TimeSpanStyles)
 		/// </summary>
-		protected static RMethod r_RParseExact_ReadOnlySpan_d_Char_p__StringArray_IFormatProvider_TimeSpanStyles;
+		protected static RMethod r_ParseExact_ReadOnlySpan_d_Char_p__StringArray_IFormatProvider_TimeSpanStyles;
 		public static RMethod RParseExact_ReadOnlySpan_d_Char_p__StringArray_IFormatProvider_TimeSpanStyles
 		{
 			get
 			{
-				if(r_RParseExact_ReadOnlySpan_d_Char_p__StringArray_IFormatProvider_TimeSpanStyles == null)
+				if(r_ParseExact_ReadOnlySpan_d_Char_p__StringArray_IFormatProvider_TimeSpanStyles == null)
 				{
-					r_RParseExact_ReadOnlySpan_d_Char_p__StringArray_IFormatProvider_TimeSpanStyles = new(typeof(System.TimeSpan), "ParseExact", 0, typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Char)), typeof(System.String).MakeArrayType(), typeof(System.IFormatProvider), typeof(System.Globalization.TimeSpanStyles));
-					r_RParseExact_ReadOnlySpan_d_Char_p__StringArray_IFormatProvider_TimeSpanStyles.SetBelong(null);
+					r_ParseExact_ReadOnlySpan_d_Char_p__StringArray_IFormatProvider_TimeSpanStyles = new(typeof(System.TimeSpan), "ParseExact", 0, typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Char)), typeof(System.String).MakeArrayType(), typeof(System.IFormatProvider), typeof(System.Globalization.TimeSpanStyles));
+					r_ParseExact_ReadOnlySpan_d_Char_p__StringArray_IFormatProvider_TimeSpanStyles.SetBelong(null);
 				}
-				return r_RParseExact_ReadOnlySpan_d_Char_p__StringArray_IFormatProvider_TimeSpanStyles;
+				return r_ParseExact_ReadOnlySpan_d_Char_p__StringArray_IFormatProvider_TimeSpanStyles;
 			}
 		}
 
 		/// <summary>
 		/// Boolean TryParse(System.String, System.TimeSpan ByRef)
 		/// </summary>
-		protected static RMethod r_RTryParse_String_Out_TimeSpan;
+		protected static RMethod r_TryParse_String_Out_TimeSpan;
 		public static RMethod RTryParse_String_Out_TimeSpan
 		{
 			get
 			{
-				if(r_RTryParse_String_Out_TimeSpan == null)
+				if(r_TryParse_String_Out_TimeSpan == null)
 				{
-					r_RTryParse_String_Out_TimeSpan = new(typeof(System.TimeSpan), "TryParse", 0, typeof(System.String), typeof(System.TimeSpan).MakeByRefType());
-					r_RTryParse_String_Out_TimeSpan.SetBelong(null);
+					r_TryParse_String_Out_TimeSpan = new(typeof(System.TimeSpan), "TryParse", 0, typeof(System.String), typeof(System.TimeSpan).MakeByRefType());
+					r_TryParse_String_Out_TimeSpan.SetBelong(null);
 				}
-				return r_RTryParse_String_Out_TimeSpan;
+				return r_TryParse_String_Out_TimeSpan;
 			}
 		}
 
 		/// <summary>
 		/// Boolean TryParse(System.ReadOnlySpan`1[System.Char], System.TimeSpan ByRef)
 		/// </summary>
-		protected static RMethod r_RTryParse_ReadOnlySpan_d_Char_p__Out_TimeSpan;
+		protected static RMethod r_TryParse_ReadOnlySpan_d_Char_p__Out_TimeSpan;
 		public static RMethod RTryParse_ReadOnlySpan_d_Char_p__Out_TimeSpan
 		{
 			get
 			{
-				if(r_RTryParse_ReadOnlySpan_d_Char_p__Out_TimeSpan == null)
+				if(r_TryParse_ReadOnlySpan_d_Char_p__Out_TimeSpan == null)
 				{
-					r_RTryParse_ReadOnlySpan_d_Char_p__Out_TimeSpan = new(typeof(System.TimeSpan), "TryParse", 0, typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Char)), typeof(System.TimeSpan).MakeByRefType());
-					r_RTryParse_ReadOnlySpan_d_Char_p__Out_TimeSpan.SetBelong(null);
+					r_TryParse_ReadOnlySpan_d_Char_p__Out_TimeSpan = new(typeof(System.TimeSpan), "TryParse", 0, typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Char)), typeof(System.TimeSpan).MakeByRefType());
+					r_TryParse_ReadOnlySpan_d_Char_p__Out_TimeSpan.SetBelong(null);
 				}
-				return r_RTryParse_ReadOnlySpan_d_Char_p__Out_TimeSpan;
+				return r_TryParse_ReadOnlySpan_d_Char_p__Out_TimeSpan;
 			}
 		}
 
 		/// <summary>
 		/// Boolean TryParse(System.String, System.IFormatProvider, System.TimeSpan ByRef)
 		/// </summary>
-		protected static RMethod r_RTryParse_String_IFormatProvider_Out_TimeSpan;
+		protected static RMethod r_TryParse_String_IFormatProvider_Out_TimeSpan;
 		public static RMethod RTryParse_String_IFormatProvider_Out_TimeSpan
 		{
 			get
 			{
-				if(r_RTryParse_String_IFormatProvider_Out_TimeSpan == null)
+				if(r_TryParse_String_IFormatProvider_Out_TimeSpan == null)
 				{
-					r_RTryParse_String_IFormatProvider_Out_TimeSpan = new(typeof(System.TimeSpan), "TryParse", 0, typeof(System.String), typeof(System.IFormatProvider), typeof(System.TimeSpan).MakeByRefType());
-					r_RTryParse_String_IFormatProvider_Out_TimeSpan.SetBelong(null);
+					r_TryParse_String_IFormatProvider_Out_TimeSpan = new(typeof(System.TimeSpan), "TryParse", 0, typeof(System.String), typeof(System.IFormatProvider), typeof(System.TimeSpan).MakeByRefType());
+					r_TryParse_String_IFormatProvider_Out_TimeSpan.SetBelong(null);
 				}
-				return r_RTryParse_String_IFormatProvider_Out_TimeSpan;
+				return r_TryParse_String_IFormatProvider_Out_TimeSpan;
 			}
 		}
 
 		/// <summary>
 		/// Boolean TryParse(System.ReadOnlySpan`1[System.Char], System.IFormatProvider, System.TimeSpan ByRef)
 		/// </summary>
-		protected static RMethod r_RTryParse_ReadOnlySpan_d_Char_p__IFormatProvider_Out_TimeSpan;
+		protected static RMethod r_TryParse_ReadOnlySpan_d_Char_p__IFormatProvider_Out_TimeSpan;
 		public static RMethod RTryParse_ReadOnlySpan_d_Char_p__IFormatProvider_Out_TimeSpan
 		{
 			get
 			{
-				if(r_RTryParse_ReadOnlySpan_d_Char_p__IFormatProvider_Out_TimeSpan == null)
+				if(r_TryParse_ReadOnlySpan_d_Char_p__IFormatProvider_Out_TimeSpan == null)
 				{
-					r_RTryParse_ReadOnlySpan_d_Char_p__IFormatProvider_Out_TimeSpan = new(typeof(System.TimeSpan), "TryParse", 0, typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Char)), typeof(System.IFormatProvider), typeof(System.TimeSpan).MakeByRefType());
-					r_RTryParse_ReadOnlySpan_d_Char_p__IFormatProvider_Out_TimeSpan.SetBelong(null);
+					r_TryParse_ReadOnlySpan_d_Char_p__IFormatProvider_Out_TimeSpan = new(typeof(System.TimeSpan), "TryParse", 0, typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Char)), typeof(System.IFormatProvider), typeof(System.TimeSpan).MakeByRefType());
+					r_TryParse_ReadOnlySpan_d_Char_p__IFormatProvider_Out_TimeSpan.SetBelong(null);
 				}
-				return r_RTryParse_ReadOnlySpan_d_Char_p__IFormatProvider_Out_TimeSpan;
+				return r_TryParse_ReadOnlySpan_d_Char_p__IFormatProvider_Out_TimeSpan;
 			}
 		}
 
 		/// <summary>
 		/// Boolean TryParseExact(System.String, System.String, System.IFormatProvider, System.TimeSpan ByRef)
 		/// </summary>
-		protected static RMethod r_RTryParseExact_String_String_IFormatProvider_Out_TimeSpan;
+		protected static RMethod r_TryParseExact_String_String_IFormatProvider_Out_TimeSpan;
 		public static RMethod RTryParseExact_String_String_IFormatProvider_Out_TimeSpan
 		{
 			get
 			{
-				if(r_RTryParseExact_String_String_IFormatProvider_Out_TimeSpan == null)
+				if(r_TryParseExact_String_String_IFormatProvider_Out_TimeSpan == null)
 				{
-					r_RTryParseExact_String_String_IFormatProvider_Out_TimeSpan = new(typeof(System.TimeSpan), "TryParseExact", 0, typeof(System.String), typeof(System.String), typeof(System.IFormatProvider), typeof(System.TimeSpan).MakeByRefType());
-					r_RTryParseExact_String_String_IFormatProvider_Out_TimeSpan.SetBelong(null);
+					r_TryParseExact_String_String_IFormatProvider_Out_TimeSpan = new(typeof(System.TimeSpan), "TryParseExact", 0, typeof(System.String), typeof(System.String), typeof(System.IFormatProvider), typeof(System.TimeSpan).MakeByRefType());
+					r_TryParseExact_String_String_IFormatProvider_Out_TimeSpan.SetBelong(null);
 				}
-				return r_RTryParseExact_String_String_IFormatProvider_Out_TimeSpan;
+				return r_TryParseExact_String_String_IFormatProvider_Out_TimeSpan;
 			}
 		}
 
 		/// <summary>
 		/// Boolean TryParseExact(System.ReadOnlySpan`1[System.Char], System.ReadOnlySpan`1[System.Char], System.IFormatProvider, System.TimeSpan ByRef)
 		/// </summary>
-		protected static RMethod r_RTryParseExact_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p__IFormatProvider_Out_TimeSpan;
+		protected static RMethod r_TryParseExact_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p__IFormatProvider_Out_TimeSpan;
 		public static RMethod RTryParseExact_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p__IFormatProvider_Out_TimeSpan
 		{
 			get
 			{
-				if(r_RTryParseExact_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p__IFormatProvider_Out_TimeSpan == null)
+				if(r_TryParseExact_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p__IFormatProvider_Out_TimeSpan == null)
 				{
-					r_RTryParseExact_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p__IFormatProvider_Out_TimeSpan = new(typeof(System.TimeSpan), "TryParseExact", 0, typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Char)), typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Char)), typeof(System.IFormatProvider), typeof(System.TimeSpan).MakeByRefType());
-					r_RTryParseExact_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p__IFormatProvider_Out_TimeSpan.SetBelong(null);
+					r_TryParseExact_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p__IFormatProvider_Out_TimeSpan = new(typeof(System.TimeSpan), "TryParseExact", 0, typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Char)), typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Char)), typeof(System.IFormatProvider), typeof(System.TimeSpan).MakeByRefType());
+					r_TryParseExact_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p__IFormatProvider_Out_TimeSpan.SetBelong(null);
 				}
-				return r_RTryParseExact_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p__IFormatProvider_Out_TimeSpan;
+				return r_TryParseExact_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p__IFormatProvider_Out_TimeSpan;
 			}
 		}
 
 		/// <summary>
 		/// Boolean TryParseExact(System.String, System.String[], System.IFormatProvider, System.TimeSpan ByRef)
 		/// </summary>
-		protected static RMethod r_RTryParseExact_String_StringArray_IFormatProvider_Out_TimeSpan;
+		protected static RMethod r_TryParseExact_String_StringArray_IFormatProvider_Out_TimeSpan;
 		public static RMethod RTryParseExact_String_StringArray_IFormatProvider_Out_TimeSpan
 		{
 			get
 			{
-				if(r_RTryParseExact_String_StringArray_IFormatProvider_Out_TimeSpan == null)
+				if(r_TryParseExact_String_StringArray_IFormatProvider_Out_TimeSpan == null)
 				{
-					r_RTryParseExact_String_StringArray_IFormatProvider_Out_TimeSpan = new(typeof(System.TimeSpan), "TryParseExact", 0, typeof(System.String), typeof(System.String).MakeArrayType(), typeof(System.IFormatProvider), typeof(System.TimeSpan).MakeByRefType());
-					r_RTryParseExact_String_StringArray_IFormatProvider_Out_TimeSpan.SetBelong(null);
+					r_TryParseExact_String_StringArray_IFormatProvider_Out_TimeSpan = new(typeof(System.TimeSpan), "TryParseExact", 0, typeof(System.String), typeof(System.String).MakeArrayType(), typeof(System.IFormatProvider), typeof(System.TimeSpan).MakeByRefType());
+					r_TryParseExact_String_StringArray_IFormatProvider_Out_TimeSpan.SetBelong(null);
 				}
-				return r_RTryParseExact_String_StringArray_IFormatProvider_Out_TimeSpan;
+				return r_TryParseExact_String_StringArray_IFormatProvider_Out_TimeSpan;
 			}
 		}
 
 		/// <summary>
 		/// Boolean TryParseExact(System.ReadOnlySpan`1[System.Char], System.String[], System.IFormatProvider, System.TimeSpan ByRef)
 		/// </summary>
-		protected static RMethod r_RTryParseExact_ReadOnlySpan_d_Char_p__StringArray_IFormatProvider_Out_TimeSpan;
+		protected static RMethod r_TryParseExact_ReadOnlySpan_d_Char_p__StringArray_IFormatProvider_Out_TimeSpan;
 		public static RMethod RTryParseExact_ReadOnlySpan_d_Char_p__StringArray_IFormatProvider_Out_TimeSpan
 		{
 			get
 			{
-				if(r_RTryParseExact_ReadOnlySpan_d_Char_p__StringArray_IFormatProvider_Out_TimeSpan == null)
+				if(r_TryParseExact_ReadOnlySpan_d_Char_p__StringArray_IFormatProvider_Out_TimeSpan == null)
 				{
-					r_RTryParseExact_ReadOnlySpan_d_Char_p__StringArray_IFormatProvider_Out_TimeSpan = new(typeof(System.TimeSpan), "TryParseExact", 0, typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Char)), typeof(System.String).MakeArrayType(), typeof(System.IFormatProvider), typeof(System.TimeSpan).MakeByRefType());
-					r_RTryParseExact_ReadOnlySpan_d_Char_p__StringArray_IFormatProvider_Out_TimeSpan.SetBelong(null);
+					r_TryParseExact_ReadOnlySpan_d_Char_p__StringArray_IFormatProvider_Out_TimeSpan = new(typeof(System.TimeSpan), "TryParseExact", 0, typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Char)), typeof(System.String).MakeArrayType(), typeof(System.IFormatProvider), typeof(System.TimeSpan).MakeByRefType());
+					r_TryParseExact_ReadOnlySpan_d_Char_p__StringArray_IFormatProvider_Out_TimeSpan.SetBelong(null);
 				}
-				return r_RTryParseExact_ReadOnlySpan_d_Char_p__StringArray_IFormatProvider_Out_TimeSpan;
+				return r_TryParseExact_ReadOnlySpan_d_Char_p__StringArray_IFormatProvider_Out_TimeSpan;
 			}
 		}
 
 		/// <summary>
 		/// Boolean TryParseExact(System.String, System.String, System.IFormatProvider, System.Globalization.TimeSpanStyles, System.TimeSpan ByRef)
 		/// </summary>
-		protected static RMethod r_RTryParseExact_String_String_IFormatProvider_TimeSpanStyles_Out_TimeSpan;
+		protected static RMethod r_TryParseExact_String_String_IFormatProvider_TimeSpanStyles_Out_TimeSpan;
 		public static RMethod RTryParseExact_String_String_IFormatProvider_TimeSpanStyles_Out_TimeSpan
 		{
 			get
 			{
-				if(r_RTryParseExact_String_String_IFormatProvider_TimeSpanStyles_Out_TimeSpan == null)
+				if(r_TryParseExact_String_String_IFormatProvider_TimeSpanStyles_Out_TimeSpan == null)
 				{
-					r_RTryParseExact_String_String_IFormatProvider_TimeSpanStyles_Out_TimeSpan = new(typeof(System.TimeSpan), "TryParseExact", 0, typeof(System.String), typeof(System.String), typeof(System.IFormatProvider), typeof(System.Globalization.TimeSpanStyles), typeof(System.TimeSpan).MakeByRefType());
-					r_RTryParseExact_String_String_IFormatProvider_TimeSpanStyles_Out_TimeSpan.SetBelong(null);
+					r_TryParseExact_String_String_IFormatProvider_TimeSpanStyles_Out_TimeSpan = new(typeof(System.TimeSpan), "TryParseExact", 0, typeof(System.String), typeof(System.String), typeof(System.IFormatProvider), typeof(System.Globalization.TimeSpanStyles), typeof(System.TimeSpan).MakeByRefType());
+					r_TryParseExact_String_String_IFormatProvider_TimeSpanStyles_Out_TimeSpan.SetBelong(null);
 				}
-				return r_RTryParseExact_String_String_IFormatProvider_TimeSpanStyles_Out_TimeSpan;
+				return r_TryParseExact_String_String_IFormatProvider_TimeSpanStyles_Out_TimeSpan;
 			}
 		}
 
 		/// <summary>
 		/// Boolean TryParseExact(System.ReadOnlySpan`1[System.Char], System.ReadOnlySpan`1[System.Char], System.IFormatProvider, System.Globalization.TimeSpanStyles, System.TimeSpan ByRef)
 		/// </summary>
-		protected static RMethod r_RTryParseExact_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p__IFormatProvider_TimeSpanStyles_Out_TimeSpan;
+		protected static RMethod r_TryParseExact_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p__IFormatProvider_TimeSpanStyles_Out_TimeSpan;
 		public static RMethod RTryParseExact_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p__IFormatProvider_TimeSpanStyles_Out_TimeSpan
 		{
 			get
 			{
-				if(r_RTryParseExact_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p__IFormatProvider_TimeSpanStyles_Out_TimeSpan == null)
+				if(r_TryParseExact_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p__IFormatProvider_TimeSpanStyles_Out_TimeSpan == null)
 				{
-					r_RTryParseExact_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p__IFormatProvider_TimeSpanStyles_Out_TimeSpan = new(typeof(System.TimeSpan), "TryParseExact", 0, typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Char)), typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Char)), typeof(System.IFormatProvider), typeof(System.Globalization.TimeSpanStyles), typeof(System.TimeSpan).MakeByRefType());
-					r_RTryParseExact_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p__IFormatProvider_TimeSpanStyles_Out_TimeSpan.SetBelong(null);
+					r_TryParseExact_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p__IFormatProvider_TimeSpanStyles_Out_TimeSpan = new(typeof(System.TimeSpan), "TryParseExact", 0, typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Char)), typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Char)), typeof(System.IFormatProvider), typeof(System.Globalization.TimeSpanStyles), typeof(System.TimeSpan).MakeByRefType());
+					r_TryParseExact_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p__IFormatProvider_TimeSpanStyles_Out_TimeSpan.SetBelong(null);
 				}
-				return r_RTryParseExact_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p__IFormatProvider_TimeSpanStyles_Out_TimeSpan;
+				return r_TryParseExact_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p__IFormatProvider_TimeSpanStyles_Out_TimeSpan;
 			}
 		}
 
 		/// <summary>
 		/// Boolean TryParseExact(System.String, System.String[], System.IFormatProvider, System.Globalization.TimeSpanStyles, System.TimeSpan ByRef)
 		/// </summary>
-		protected static RMethod r_RTryParseExact_String_StringArray_IFormatProvider_TimeSpanStyles_Out_TimeSpan;
+		protected static RMethod r_TryParseExact_String_StringArray_IFormatProvider_TimeSpanStyles_Out_TimeSpan;
 		public static RMethod RTryParseExact_String_StringArray_IFormatProvider_TimeSpanStyles_Out_TimeSpan
 		{
 			get
 			{
-				if(r_RTryParseExact_String_StringArray_IFormatProvider_TimeSpanStyles_Out_TimeSpan == null)
+				if(r_TryParseExact_String_StringArray_IFormatProvider_TimeSpanStyles_Out_TimeSpan == null)
 				{
-					r_RTryParseExact_String_StringArray_IFormatProvider_TimeSpanStyles_Out_TimeSpan = new(typeof(System.TimeSpan), "TryParseExact", 0, typeof(System.String), typeof(System.String).MakeArrayType(), typeof(System.IFormatProvider), typeof(System.Globalization.TimeSpanStyles), typeof(System.TimeSpan).MakeByRefType());
-					r_RTryParseExact_String_StringArray_IFormatProvider_TimeSpanStyles_Out_TimeSpan.SetBelong(null);
+					r_TryParseExact_String_StringArray_IFormatProvider_TimeSpanStyles_Out_TimeSpan = new(typeof(System.TimeSpan), "TryParseExact", 0, typeof(System.String), typeof(System.String).MakeArrayType(), typeof(System.IFormatProvider), typeof(System.Globalization.TimeSpanStyles), typeof(System.TimeSpan).MakeByRefType());
+					r_TryParseExact_String_StringArray_IFormatProvider_TimeSpanStyles_Out_TimeSpan.SetBelong(null);
 				}
-				return r_RTryParseExact_String_StringArray_IFormatProvider_TimeSpanStyles_Out_TimeSpan;
+				return r_TryParseExact_String_StringArray_IFormatProvider_TimeSpanStyles_Out_TimeSpan;
 			}
 		}
 
 		/// <summary>
 		/// Boolean TryParseExact(System.ReadOnlySpan`1[System.Char], System.String[], System.IFormatProvider, System.Globalization.TimeSpanStyles, System.TimeSpan ByRef)
 		/// </summary>
-		protected static RMethod r_RTryParseExact_ReadOnlySpan_d_Char_p__StringArray_IFormatProvider_TimeSpanStyles_Out_TimeSpan;
+		protected static RMethod r_TryParseExact_ReadOnlySpan_d_Char_p__StringArray_IFormatProvider_TimeSpanStyles_Out_TimeSpan;
 		public static RMethod RTryParseExact_ReadOnlySpan_d_Char_p__StringArray_IFormatProvider_TimeSpanStyles_Out_TimeSpan
 		{
 			get
 			{
-				if(r_RTryParseExact_ReadOnlySpan_d_Char_p__StringArray_IFormatProvider_TimeSpanStyles_Out_TimeSpan == null)
+				if(r_TryParseExact_ReadOnlySpan_d_Char_p__StringArray_IFormatProvider_TimeSpanStyles_Out_TimeSpan == null)
 				{
-					r_RTryParseExact_ReadOnlySpan_d_Char_p__StringArray_IFormatProvider_TimeSpanStyles_Out_TimeSpan = new(typeof(System.TimeSpan), "TryParseExact", 0, typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Char)), typeof(System.String).MakeArrayType(), typeof(System.IFormatProvider), typeof(System.Globalization.TimeSpanStyles), typeof(System.TimeSpan).MakeByRefType());
-					r_RTryParseExact_ReadOnlySpan_d_Char_p__StringArray_IFormatProvider_TimeSpanStyles_Out_TimeSpan.SetBelong(null);
+					r_TryParseExact_ReadOnlySpan_d_Char_p__StringArray_IFormatProvider_TimeSpanStyles_Out_TimeSpan = new(typeof(System.TimeSpan), "TryParseExact", 0, typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Char)), typeof(System.String).MakeArrayType(), typeof(System.IFormatProvider), typeof(System.Globalization.TimeSpanStyles), typeof(System.TimeSpan).MakeByRefType());
+					r_TryParseExact_ReadOnlySpan_d_Char_p__StringArray_IFormatProvider_TimeSpanStyles_Out_TimeSpan.SetBelong(null);
 				}
-				return r_RTryParseExact_ReadOnlySpan_d_Char_p__StringArray_IFormatProvider_TimeSpanStyles_Out_TimeSpan;
+				return r_TryParseExact_ReadOnlySpan_d_Char_p__StringArray_IFormatProvider_TimeSpanStyles_Out_TimeSpan;
 			}
 		}
 
 		/// <summary>
 		/// System.String ToString()
 		/// </summary>
-		protected RMethod r_RToString;
+		protected RMethod r_ToString;
 		public virtual RMethod RToString
 		{
 			get
 			{
-				if(r_RToString == null)
+				if(r_ToString == null)
 				{
-					r_RToString = new(this, "ToString", 0);
-					r_RToString.SetBelong(this.instance);
+					r_ToString = new(this, "ToString", 0);
+					r_ToString.SetBelong(this.instance);
 				}
-				return r_RToString;
+				return r_ToString;
 			}
 		}
 
 		/// <summary>
 		/// System.String ToString(System.String)
 		/// </summary>
-		protected RMethod r_RToString_String;
+		protected RMethod r_ToString_String;
 		public virtual RMethod RToString_String
 		{
 			get
 			{
-				if(r_RToString_String == null)
+				if(r_ToString_String == null)
 				{
-					r_RToString_String = new(this, "ToString", 0, typeof(System.String));
-					r_RToString_String.SetBelong(this.instance);
+					r_ToString_String = new(this, "ToString", 0, typeof(System.String));
+					r_ToString_String.SetBelong(this.instance);
 				}
-				return r_RToString_String;
+				return r_ToString_String;
 			}
 		}
 
 		/// <summary>
 		/// System.String ToString(System.String, System.IFormatProvider)
 		/// </summary>
-		protected RMethod r_RToString_String_IFormatProvider;
+		protected RMethod r_ToString_String_IFormatProvider;
 		public virtual RMethod RToString_String_IFormatProvider
 		{
 			get
 			{
-				if(r_RToString_String_IFormatProvider == null)
+				if(r_ToString_String_IFormatProvider == null)
 				{
-					r_RToString_String_IFormatProvider = new(this, "ToString", 0, typeof(System.String), typeof(System.IFormatProvider));
-					r_RToString_String_IFormatProvider.SetBelong(this.instance);
+					r_ToString_String_IFormatProvider = new(this, "ToString", 0, typeof(System.String), typeof(System.IFormatProvider));
+					r_ToString_String_IFormatProvider.SetBelong(this.instance);
 				}
-				return r_RToString_String_IFormatProvider;
+				return r_ToString_String_IFormatProvider;
 			}
 		}
 
 		/// <summary>
 		/// Boolean TryFormat(System.Span`1[System.Char], Int32 ByRef, System.ReadOnlySpan`1[System.Char], System.IFormatProvider)
 		/// </summary>
-		protected RMethod r_RTryFormat_Span_d_Char_p__Out_Int32_ReadOnlySpan_d_Char_p__IFormatProvider;
+		protected RMethod r_TryFormat_Span_d_Char_p__Out_Int32_ReadOnlySpan_d_Char_p__IFormatProvider;
 		public virtual RMethod RTryFormat_Span_d_Char_p__Out_Int32_ReadOnlySpan_d_Char_p__IFormatProvider
 		{
 			get
 			{
-				if(r_RTryFormat_Span_d_Char_p__Out_Int32_ReadOnlySpan_d_Char_p__IFormatProvider == null)
+				if(r_TryFormat_Span_d_Char_p__Out_Int32_ReadOnlySpan_d_Char_p__IFormatProvider == null)
 				{
-					r_RTryFormat_Span_d_Char_p__Out_Int32_ReadOnlySpan_d_Char_p__IFormatProvider = new(this, "TryFormat", 0, typeof(System.Span<>).MakeGenericType(typeof(System.Char)), typeof(System.Int32).MakeByRefType(), typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Char)), typeof(System.IFormatProvider));
-					r_RTryFormat_Span_d_Char_p__Out_Int32_ReadOnlySpan_d_Char_p__IFormatProvider.SetBelong(this.instance);
+					r_TryFormat_Span_d_Char_p__Out_Int32_ReadOnlySpan_d_Char_p__IFormatProvider = new(this, "TryFormat", 0, typeof(System.Span<>).MakeGenericType(typeof(System.Char)), typeof(System.Int32).MakeByRefType(), typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Char)), typeof(System.IFormatProvider));
+					r_TryFormat_Span_d_Char_p__Out_Int32_ReadOnlySpan_d_Char_p__IFormatProvider.SetBelong(this.instance);
 				}
-				return r_RTryFormat_Span_d_Char_p__Out_Int32_ReadOnlySpan_d_Char_p__IFormatProvider;
+				return r_TryFormat_Span_d_Char_p__Out_Int32_ReadOnlySpan_d_Char_p__IFormatProvider;
 			}
 		}
 
 		/// <summary>
 		/// System.TimeSpan op_UnaryNegation(System.TimeSpan)
 		/// </summary>
-		protected static RMethod r_Rop_UnaryNegation_TimeSpan;
+		protected static RMethod r_op_UnaryNegation_TimeSpan;
 		public static RMethod Rop_UnaryNegation_TimeSpan
 		{
 			get
 			{
-				if(r_Rop_UnaryNegation_TimeSpan == null)
+				if(r_op_UnaryNegation_TimeSpan == null)
 				{
-					r_Rop_UnaryNegation_TimeSpan = new(typeof(System.TimeSpan), "op_UnaryNegation", 0, typeof(System.TimeSpan));
-					r_Rop_UnaryNegation_TimeSpan.SetBelong(null);
+					r_op_UnaryNegation_TimeSpan = new(typeof(System.TimeSpan), "op_UnaryNegation", 0, typeof(System.TimeSpan));
+					r_op_UnaryNegation_TimeSpan.SetBelong(null);
 				}
-				return r_Rop_UnaryNegation_TimeSpan;
+				return r_op_UnaryNegation_TimeSpan;
 			}
 		}
 
 		/// <summary>
 		/// System.TimeSpan op_Subtraction(System.TimeSpan, System.TimeSpan)
 		/// </summary>
-		protected static RMethod r_Rop_Subtraction_TimeSpan_TimeSpan;
+		protected static RMethod r_op_Subtraction_TimeSpan_TimeSpan;
 		public static RMethod Rop_Subtraction_TimeSpan_TimeSpan
 		{
 			get
 			{
-				if(r_Rop_Subtraction_TimeSpan_TimeSpan == null)
+				if(r_op_Subtraction_TimeSpan_TimeSpan == null)
 				{
-					r_Rop_Subtraction_TimeSpan_TimeSpan = new(typeof(System.TimeSpan), "op_Subtraction", 0, typeof(System.TimeSpan), typeof(System.TimeSpan));
-					r_Rop_Subtraction_TimeSpan_TimeSpan.SetBelong(null);
+					r_op_Subtraction_TimeSpan_TimeSpan = new(typeof(System.TimeSpan), "op_Subtraction", 0, typeof(System.TimeSpan), typeof(System.TimeSpan));
+					r_op_Subtraction_TimeSpan_TimeSpan.SetBelong(null);
 				}
-				return r_Rop_Subtraction_TimeSpan_TimeSpan;
+				return r_op_Subtraction_TimeSpan_TimeSpan;
 			}
 		}
 
 		/// <summary>
 		/// System.TimeSpan op_UnaryPlus(System.TimeSpan)
 		/// </summary>
-		protected static RMethod r_Rop_UnaryPlus_TimeSpan;
+		protected static RMethod r_op_UnaryPlus_TimeSpan;
 		public static RMethod Rop_UnaryPlus_TimeSpan
 		{
 			get
 			{
-				if(r_Rop_UnaryPlus_TimeSpan == null)
+				if(r_op_UnaryPlus_TimeSpan == null)
 				{
-					r_Rop_UnaryPlus_TimeSpan = new(typeof(System.TimeSpan), "op_UnaryPlus", 0, typeof(System.TimeSpan));
-					r_Rop_UnaryPlus_TimeSpan.SetBelong(null);
+					r_op_UnaryPlus_TimeSpan = new(typeof(System.TimeSpan), "op_UnaryPlus", 0, typeof(System.TimeSpan));
+					r_op_UnaryPlus_TimeSpan.SetBelong(null);
 				}
-				return r_Rop_UnaryPlus_TimeSpan;
+				return r_op_UnaryPlus_TimeSpan;
 			}
 		}
 
 		/// <summary>
 		/// System.TimeSpan op_Addition(System.TimeSpan, System.TimeSpan)
 		/// </summary>
-		protected static RMethod r_Rop_Addition_TimeSpan_TimeSpan;
+		protected static RMethod r_op_Addition_TimeSpan_TimeSpan;
 		public static RMethod Rop_Addition_TimeSpan_TimeSpan
 		{
 			get
 			{
-				if(r_Rop_Addition_TimeSpan_TimeSpan == null)
+				if(r_op_Addition_TimeSpan_TimeSpan == null)
 				{
-					r_Rop_Addition_TimeSpan_TimeSpan = new(typeof(System.TimeSpan), "op_Addition", 0, typeof(System.TimeSpan), typeof(System.TimeSpan));
-					r_Rop_Addition_TimeSpan_TimeSpan.SetBelong(null);
+					r_op_Addition_TimeSpan_TimeSpan = new(typeof(System.TimeSpan), "op_Addition", 0, typeof(System.TimeSpan), typeof(System.TimeSpan));
+					r_op_Addition_TimeSpan_TimeSpan.SetBelong(null);
 				}
-				return r_Rop_Addition_TimeSpan_TimeSpan;
+				return r_op_Addition_TimeSpan_TimeSpan;
 			}
 		}
 
 		/// <summary>
 		/// System.TimeSpan op_Multiply(System.TimeSpan, Double)
 		/// </summary>
-		protected static RMethod r_Rop_Multiply_TimeSpan_Double;
+		protected static RMethod r_op_Multiply_TimeSpan_Double;
 		public static RMethod Rop_Multiply_TimeSpan_Double
 		{
 			get
 			{
-				if(r_Rop_Multiply_TimeSpan_Double == null)
+				if(r_op_Multiply_TimeSpan_Double == null)
 				{
-					r_Rop_Multiply_TimeSpan_Double = new(typeof(System.TimeSpan), "op_Multiply", 0, typeof(System.TimeSpan), typeof(System.Double));
-					r_Rop_Multiply_TimeSpan_Double.SetBelong(null);
+					r_op_Multiply_TimeSpan_Double = new(typeof(System.TimeSpan), "op_Multiply", 0, typeof(System.TimeSpan), typeof(System.Double));
+					r_op_Multiply_TimeSpan_Double.SetBelong(null);
 				}
-				return r_Rop_Multiply_TimeSpan_Double;
+				return r_op_Multiply_TimeSpan_Double;
 			}
 		}
 
 		/// <summary>
 		/// System.TimeSpan op_Multiply(Double, System.TimeSpan)
 		/// </summary>
-		protected static RMethod r_Rop_Multiply_Double_TimeSpan;
+		protected static RMethod r_op_Multiply_Double_TimeSpan;
 		public static RMethod Rop_Multiply_Double_TimeSpan
 		{
 			get
 			{
-				if(r_Rop_Multiply_Double_TimeSpan == null)
+				if(r_op_Multiply_Double_TimeSpan == null)
 				{
-					r_Rop_Multiply_Double_TimeSpan = new(typeof(System.TimeSpan), "op_Multiply", 0, typeof(System.Double), typeof(System.TimeSpan));
-					r_Rop_Multiply_Double_TimeSpan.SetBelong(null);
+					r_op_Multiply_Double_TimeSpan = new(typeof(System.TimeSpan), "op_Multiply", 0, typeof(System.Double), typeof(System.TimeSpan));
+					r_op_Multiply_Double_TimeSpan.SetBelong(null);
 				}
-				return r_Rop_Multiply_Double_TimeSpan;
+				return r_op_Multiply_Double_TimeSpan;
 			}
 		}
 
 		/// <summary>
 		/// System.TimeSpan op_Division(System.TimeSpan, Double)
 		/// </summary>
-		protected static RMethod r_Rop_Division_TimeSpan_Double;
+		protected static RMethod r_op_Division_TimeSpan_Double;
 		public static RMethod Rop_Division_TimeSpan_Double
 		{
 			get
 			{
-				if(r_Rop_Division_TimeSpan_Double == null)
+				if(r_op_Division_TimeSpan_Double == null)
 				{
-					r_Rop_Division_TimeSpan_Double = new(typeof(System.TimeSpan), "op_Division", 0, typeof(System.TimeSpan), typeof(System.Double));
-					r_Rop_Division_TimeSpan_Double.SetBelong(null);
+					r_op_Division_TimeSpan_Double = new(typeof(System.TimeSpan), "op_Division", 0, typeof(System.TimeSpan), typeof(System.Double));
+					r_op_Division_TimeSpan_Double.SetBelong(null);
 				}
-				return r_Rop_Division_TimeSpan_Double;
+				return r_op_Division_TimeSpan_Double;
 			}
 		}
 
 		/// <summary>
 		/// Double op_Division(System.TimeSpan, System.TimeSpan)
 		/// </summary>
-		protected static RMethod r_Rop_Division_TimeSpan_TimeSpan;
+		protected static RMethod r_op_Division_TimeSpan_TimeSpan;
 		public static RMethod Rop_Division_TimeSpan_TimeSpan
 		{
 			get
 			{
-				if(r_Rop_Division_TimeSpan_TimeSpan == null)
+				if(r_op_Division_TimeSpan_TimeSpan == null)
 				{
-					r_Rop_Division_TimeSpan_TimeSpan = new(typeof(System.TimeSpan), "op_Division", 0, typeof(System.TimeSpan), typeof(System.TimeSpan));
-					r_Rop_Division_TimeSpan_TimeSpan.SetBelong(null);
+					r_op_Division_TimeSpan_TimeSpan = new(typeof(System.TimeSpan), "op_Division", 0, typeof(System.TimeSpan), typeof(System.TimeSpan));
+					r_op_Division_TimeSpan_TimeSpan.SetBelong(null);
 				}
-				return r_Rop_Division_TimeSpan_TimeSpan;
+				return r_op_Division_TimeSpan_TimeSpan;
 			}
 		}
 
 		/// <summary>
 		/// Boolean op_Equality(System.TimeSpan, System.TimeSpan)
 		/// </summary>
-		protected static RMethod r_Rop_Equality_TimeSpan_TimeSpan;
+		protected static RMethod r_op_Equality_TimeSpan_TimeSpan;
 		public static RMethod Rop_Equality_TimeSpan_TimeSpan
 		{
 			get
 			{
-				if(r_Rop_Equality_TimeSpan_TimeSpan == null)
+				if(r_op_Equality_TimeSpan_TimeSpan == null)
 				{
-					r_Rop_Equality_TimeSpan_TimeSpan = new(typeof(System.TimeSpan), "op_Equality", 0, typeof(System.TimeSpan), typeof(System.TimeSpan));
-					r_Rop_Equality_TimeSpan_TimeSpan.SetBelong(null);
+					r_op_Equality_TimeSpan_TimeSpan = new(typeof(System.TimeSpan), "op_Equality", 0, typeof(System.TimeSpan), typeof(System.TimeSpan));
+					r_op_Equality_TimeSpan_TimeSpan.SetBelong(null);
 				}
-				return r_Rop_Equality_TimeSpan_TimeSpan;
+				return r_op_Equality_TimeSpan_TimeSpan;
 			}
 		}
 
 		/// <summary>
 		/// Boolean op_Inequality(System.TimeSpan, System.TimeSpan)
 		/// </summary>
-		protected static RMethod r_Rop_Inequality_TimeSpan_TimeSpan;
+		protected static RMethod r_op_Inequality_TimeSpan_TimeSpan;
 		public static RMethod Rop_Inequality_TimeSpan_TimeSpan
 		{
 			get
 			{
-				if(r_Rop_Inequality_TimeSpan_TimeSpan == null)
+				if(r_op_Inequality_TimeSpan_TimeSpan == null)
 				{
-					r_Rop_Inequality_TimeSpan_TimeSpan = new(typeof(System.TimeSpan), "op_Inequality", 0, typeof(System.TimeSpan), typeof(System.TimeSpan));
-					r_Rop_Inequality_TimeSpan_TimeSpan.SetBelong(null);
+					r_op_Inequality_TimeSpan_TimeSpan = new(typeof(System.TimeSpan), "op_Inequality", 0, typeof(System.TimeSpan), typeof(System.TimeSpan));
+					r_op_Inequality_TimeSpan_TimeSpan.SetBelong(null);
 				}
-				return r_Rop_Inequality_TimeSpan_TimeSpan;
+				return r_op_Inequality_TimeSpan_TimeSpan;
 			}
 		}
 
 		/// <summary>
 		/// Boolean op_LessThan(System.TimeSpan, System.TimeSpan)
 		/// </summary>
-		protected static RMethod r_Rop_LessThan_TimeSpan_TimeSpan;
+		protected static RMethod r_op_LessThan_TimeSpan_TimeSpan;
 		public static RMethod Rop_LessThan_TimeSpan_TimeSpan
 		{
 			get
 			{
-				if(r_Rop_LessThan_TimeSpan_TimeSpan == null)
+				if(r_op_LessThan_TimeSpan_TimeSpan == null)
 				{
-					r_Rop_LessThan_TimeSpan_TimeSpan = new(typeof(System.TimeSpan), "op_LessThan", 0, typeof(System.TimeSpan), typeof(System.TimeSpan));
-					r_Rop_LessThan_TimeSpan_TimeSpan.SetBelong(null);
+					r_op_LessThan_TimeSpan_TimeSpan = new(typeof(System.TimeSpan), "op_LessThan", 0, typeof(System.TimeSpan), typeof(System.TimeSpan));
+					r_op_LessThan_TimeSpan_TimeSpan.SetBelong(null);
 				}
-				return r_Rop_LessThan_TimeSpan_TimeSpan;
+				return r_op_LessThan_TimeSpan_TimeSpan;
 			}
 		}
 
 		/// <summary>
 		/// Boolean op_LessThanOrEqual(System.TimeSpan, System.TimeSpan)
 		/// </summary>
-		protected static RMethod r_Rop_LessThanOrEqual_TimeSpan_TimeSpan;
+		protected static RMethod r_op_LessThanOrEqual_TimeSpan_TimeSpan;
 		public static RMethod Rop_LessThanOrEqual_TimeSpan_TimeSpan
 		{
 			get
 			{
-				if(r_Rop_LessThanOrEqual_TimeSpan_TimeSpan == null)
+				if(r_op_LessThanOrEqual_TimeSpan_TimeSpan == null)
 				{
-					r_Rop_LessThanOrEqual_TimeSpan_TimeSpan = new(typeof(System.TimeSpan), "op_LessThanOrEqual", 0, typeof(System.TimeSpan), typeof(System.TimeSpan));
-					r_Rop_LessThanOrEqual_TimeSpan_TimeSpan.SetBelong(null);
+					r_op_LessThanOrEqual_TimeSpan_TimeSpan = new(typeof(System.TimeSpan), "op_LessThanOrEqual", 0, typeof(System.TimeSpan), typeof(System.TimeSpan));
+					r_op_LessThanOrEqual_TimeSpan_TimeSpan.SetBelong(null);
 				}
-				return r_Rop_LessThanOrEqual_TimeSpan_TimeSpan;
+				return r_op_LessThanOrEqual_TimeSpan_TimeSpan;
 			}
 		}
 
 		/// <summary>
 		/// Boolean op_GreaterThan(System.TimeSpan, System.TimeSpan)
 		/// </summary>
-		protected static RMethod r_Rop_GreaterThan_TimeSpan_TimeSpan;
+		protected static RMethod r_op_GreaterThan_TimeSpan_TimeSpan;
 		public static RMethod Rop_GreaterThan_TimeSpan_TimeSpan
 		{
 			get
 			{
-				if(r_Rop_GreaterThan_TimeSpan_TimeSpan == null)
+				if(r_op_GreaterThan_TimeSpan_TimeSpan == null)
 				{
-					r_Rop_GreaterThan_TimeSpan_TimeSpan = new(typeof(System.TimeSpan), "op_GreaterThan", 0, typeof(System.TimeSpan), typeof(System.TimeSpan));
-					r_Rop_GreaterThan_TimeSpan_TimeSpan.SetBelong(null);
+					r_op_GreaterThan_TimeSpan_TimeSpan = new(typeof(System.TimeSpan), "op_GreaterThan", 0, typeof(System.TimeSpan), typeof(System.TimeSpan));
+					r_op_GreaterThan_TimeSpan_TimeSpan.SetBelong(null);
 				}
-				return r_Rop_GreaterThan_TimeSpan_TimeSpan;
+				return r_op_GreaterThan_TimeSpan_TimeSpan;
 			}
 		}
 
 		/// <summary>
 		/// Boolean op_GreaterThanOrEqual(System.TimeSpan, System.TimeSpan)
 		/// </summary>
-		protected static RMethod r_Rop_GreaterThanOrEqual_TimeSpan_TimeSpan;
+		protected static RMethod r_op_GreaterThanOrEqual_TimeSpan_TimeSpan;
 		public static RMethod Rop_GreaterThanOrEqual_TimeSpan_TimeSpan
 		{
 			get
 			{
-				if(r_Rop_GreaterThanOrEqual_TimeSpan_TimeSpan == null)
+				if(r_op_GreaterThanOrEqual_TimeSpan_TimeSpan == null)
 				{
-					r_Rop_GreaterThanOrEqual_TimeSpan_TimeSpan = new(typeof(System.TimeSpan), "op_GreaterThanOrEqual", 0, typeof(System.TimeSpan), typeof(System.TimeSpan));
-					r_Rop_GreaterThanOrEqual_TimeSpan_TimeSpan.SetBelong(null);
+					r_op_GreaterThanOrEqual_TimeSpan_TimeSpan = new(typeof(System.TimeSpan), "op_GreaterThanOrEqual", 0, typeof(System.TimeSpan), typeof(System.TimeSpan));
+					r_op_GreaterThanOrEqual_TimeSpan_TimeSpan.SetBelong(null);
 				}
-				return r_Rop_GreaterThanOrEqual_TimeSpan_TimeSpan;
+				return r_op_GreaterThanOrEqual_TimeSpan_TimeSpan;
 			}
 		}
 
 		/// <summary>
 		/// Void Finalize()
 		/// </summary>
-		protected RMethod r_RFinalize;
+		protected RMethod r_Finalize;
 		public virtual RMethod RFinalize
 		{
 			get
 			{
-				if(r_RFinalize == null)
+				if(r_Finalize == null)
 				{
-					r_RFinalize = new(this, "Finalize", 0);
-					r_RFinalize.SetBelong(this.instance);
+					r_Finalize = new(this, "Finalize", 0);
+					r_Finalize.SetBelong(this.instance);
 				}
-				return r_RFinalize;
+				return r_Finalize;
 			}
 		}
 
 		/// <summary>
 		/// System.Type GetType()
 		/// </summary>
-		protected RMethod r_RGetType;
+		protected RMethod r_GetType;
 		public virtual RMethod RGetType
 		{
 			get
 			{
-				if(r_RGetType == null)
+				if(r_GetType == null)
 				{
-					r_RGetType = new(this, "GetType", 0);
-					r_RGetType.SetBelong(this.instance);
+					r_GetType = new(this, "GetType", 0);
+					r_GetType.SetBelong(this.instance);
 				}
-				return r_RGetType;
+				return r_GetType;
 			}
 		}
 
 		/// <summary>
 		/// System.Object MemberwiseClone()
 		/// </summary>
-		protected RMethod r_RMemberwiseClone;
+		protected RMethod r_MemberwiseClone;
 		public virtual RMethod RMemberwiseClone
 		{
 			get
 			{
-				if(r_RMemberwiseClone == null)
+				if(r_MemberwiseClone == null)
 				{
-					r_RMemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_RMemberwiseClone.SetBelong(this.instance);
+					r_MemberwiseClone = new(this, "MemberwiseClone", 0);
+					r_MemberwiseClone.SetBelong(this.instance);
 				}
-				return r_RMemberwiseClone;
+				return r_MemberwiseClone;
 			}
 		}
 

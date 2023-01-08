@@ -132,323 +132,323 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
 		/// <summary>
 		/// Void AppendChar(Char)
 		/// </summary>
-		protected RMethod r_RAppendChar_Char;
+		protected RMethod r_AppendChar_Char;
 		public virtual RMethod RAppendChar_Char
 		{
 			get
 			{
-				if(r_RAppendChar_Char == null)
+				if(r_AppendChar_Char == null)
 				{
-					r_RAppendChar_Char = new(this, "AppendChar", 0, typeof(System.Char));
-					r_RAppendChar_Char.SetBelong(this.instance);
+					r_AppendChar_Char = new(this, "AppendChar", 0, typeof(System.Char));
+					r_AppendChar_Char.SetBelong(this.instance);
 				}
-				return r_RAppendChar_Char;
+				return r_AppendChar_Char;
 			}
 		}
 
 		/// <summary>
 		/// Void Clear()
 		/// </summary>
-		protected RMethod r_RClear;
+		protected RMethod r_Clear;
 		public virtual RMethod RClear
 		{
 			get
 			{
-				if(r_RClear == null)
+				if(r_Clear == null)
 				{
-					r_RClear = new(this, "Clear", 0);
-					r_RClear.SetBelong(this.instance);
+					r_Clear = new(this, "Clear", 0);
+					r_Clear.SetBelong(this.instance);
 				}
-				return r_RClear;
+				return r_Clear;
 			}
 		}
 
 		/// <summary>
 		/// System.Security.SecureString Copy()
 		/// </summary>
-		protected RMethod r_RCopy;
+		protected RMethod r_Copy;
 		public virtual RMethod RCopy
 		{
 			get
 			{
-				if(r_RCopy == null)
+				if(r_Copy == null)
 				{
-					r_RCopy = new(this, "Copy", 0);
-					r_RCopy.SetBelong(this.instance);
+					r_Copy = new(this, "Copy", 0);
+					r_Copy.SetBelong(this.instance);
 				}
-				return r_RCopy;
+				return r_Copy;
 			}
 		}
 
 		/// <summary>
 		/// Void Dispose()
 		/// </summary>
-		protected RMethod r_RDispose;
+		protected RMethod r_Dispose;
 		public virtual RMethod RDispose
 		{
 			get
 			{
-				if(r_RDispose == null)
+				if(r_Dispose == null)
 				{
-					r_RDispose = new(this, "Dispose", 0);
-					r_RDispose.SetBelong(this.instance);
+					r_Dispose = new(this, "Dispose", 0);
+					r_Dispose.SetBelong(this.instance);
 				}
-				return r_RDispose;
+				return r_Dispose;
 			}
 		}
 
 		/// <summary>
 		/// Void InsertAt(Int32, Char)
 		/// </summary>
-		protected RMethod r_RInsertAt_Int32_Char;
+		protected RMethod r_InsertAt_Int32_Char;
 		public virtual RMethod RInsertAt_Int32_Char
 		{
 			get
 			{
-				if(r_RInsertAt_Int32_Char == null)
+				if(r_InsertAt_Int32_Char == null)
 				{
-					r_RInsertAt_Int32_Char = new(this, "InsertAt", 0, typeof(System.Int32), typeof(System.Char));
-					r_RInsertAt_Int32_Char.SetBelong(this.instance);
+					r_InsertAt_Int32_Char = new(this, "InsertAt", 0, typeof(System.Int32), typeof(System.Char));
+					r_InsertAt_Int32_Char.SetBelong(this.instance);
 				}
-				return r_RInsertAt_Int32_Char;
+				return r_InsertAt_Int32_Char;
 			}
 		}
 
 		/// <summary>
 		/// Boolean IsReadOnly()
 		/// </summary>
-		protected RMethod r_RIsReadOnly;
+		protected RMethod r_IsReadOnly;
 		public virtual RMethod RIsReadOnly
 		{
 			get
 			{
-				if(r_RIsReadOnly == null)
+				if(r_IsReadOnly == null)
 				{
-					r_RIsReadOnly = new(this, "IsReadOnly", 0);
-					r_RIsReadOnly.SetBelong(this.instance);
+					r_IsReadOnly = new(this, "IsReadOnly", 0);
+					r_IsReadOnly.SetBelong(this.instance);
 				}
-				return r_RIsReadOnly;
+				return r_IsReadOnly;
 			}
 		}
 
 		/// <summary>
 		/// Void MakeReadOnly()
 		/// </summary>
-		protected RMethod r_RMakeReadOnly;
+		protected RMethod r_MakeReadOnly;
 		public virtual RMethod RMakeReadOnly
 		{
 			get
 			{
-				if(r_RMakeReadOnly == null)
+				if(r_MakeReadOnly == null)
 				{
-					r_RMakeReadOnly = new(this, "MakeReadOnly", 0);
-					r_RMakeReadOnly.SetBelong(this.instance);
+					r_MakeReadOnly = new(this, "MakeReadOnly", 0);
+					r_MakeReadOnly.SetBelong(this.instance);
 				}
-				return r_RMakeReadOnly;
+				return r_MakeReadOnly;
 			}
 		}
 
 		/// <summary>
 		/// Void RemoveAt(Int32)
 		/// </summary>
-		protected RMethod r_RRemoveAt_Int32;
+		protected RMethod r_RemoveAt_Int32;
 		public virtual RMethod RRemoveAt_Int32
 		{
 			get
 			{
-				if(r_RRemoveAt_Int32 == null)
+				if(r_RemoveAt_Int32 == null)
 				{
-					r_RRemoveAt_Int32 = new(this, "RemoveAt", 0, typeof(System.Int32));
-					r_RRemoveAt_Int32.SetBelong(this.instance);
+					r_RemoveAt_Int32 = new(this, "RemoveAt", 0, typeof(System.Int32));
+					r_RemoveAt_Int32.SetBelong(this.instance);
 				}
-				return r_RRemoveAt_Int32;
+				return r_RemoveAt_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Void SetAt(Int32, Char)
 		/// </summary>
-		protected RMethod r_RSetAt_Int32_Char;
+		protected RMethod r_SetAt_Int32_Char;
 		public virtual RMethod RSetAt_Int32_Char
 		{
 			get
 			{
-				if(r_RSetAt_Int32_Char == null)
+				if(r_SetAt_Int32_Char == null)
 				{
-					r_RSetAt_Int32_Char = new(this, "SetAt", 0, typeof(System.Int32), typeof(System.Char));
-					r_RSetAt_Int32_Char.SetBelong(this.instance);
+					r_SetAt_Int32_Char = new(this, "SetAt", 0, typeof(System.Int32), typeof(System.Char));
+					r_SetAt_Int32_Char.SetBelong(this.instance);
 				}
-				return r_RSetAt_Int32_Char;
+				return r_SetAt_Int32_Char;
 			}
 		}
 
 		/// <summary>
 		/// Void Encrypt()
 		/// </summary>
-		protected RMethod r_REncrypt;
+		protected RMethod r_Encrypt;
 		public virtual RMethod REncrypt
 		{
 			get
 			{
-				if(r_REncrypt == null)
+				if(r_Encrypt == null)
 				{
-					r_REncrypt = new(this, "Encrypt", 0);
-					r_REncrypt.SetBelong(this.instance);
+					r_Encrypt = new(this, "Encrypt", 0);
+					r_Encrypt.SetBelong(this.instance);
 				}
-				return r_REncrypt;
+				return r_Encrypt;
 			}
 		}
 
 		/// <summary>
 		/// Void Decrypt()
 		/// </summary>
-		protected RMethod r_RDecrypt;
+		protected RMethod r_Decrypt;
 		public virtual RMethod RDecrypt
 		{
 			get
 			{
-				if(r_RDecrypt == null)
+				if(r_Decrypt == null)
 				{
-					r_RDecrypt = new(this, "Decrypt", 0);
-					r_RDecrypt.SetBelong(this.instance);
+					r_Decrypt = new(this, "Decrypt", 0);
+					r_Decrypt.SetBelong(this.instance);
 				}
-				return r_RDecrypt;
+				return r_Decrypt;
 			}
 		}
 
 		/// <summary>
 		/// Void Alloc(Int32, Boolean)
 		/// </summary>
-		protected RMethod r_RAlloc_Int32_Boolean;
+		protected RMethod r_Alloc_Int32_Boolean;
 		public virtual RMethod RAlloc_Int32_Boolean
 		{
 			get
 			{
-				if(r_RAlloc_Int32_Boolean == null)
+				if(r_Alloc_Int32_Boolean == null)
 				{
-					r_RAlloc_Int32_Boolean = new(this, "Alloc", 0, typeof(System.Int32), typeof(System.Boolean));
-					r_RAlloc_Int32_Boolean.SetBelong(this.instance);
+					r_Alloc_Int32_Boolean = new(this, "Alloc", 0, typeof(System.Int32), typeof(System.Boolean));
+					r_Alloc_Int32_Boolean.SetBelong(this.instance);
 				}
-				return r_RAlloc_Int32_Boolean;
+				return r_Alloc_Int32_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Byte[] GetBuffer()
 		/// </summary>
-		protected RMethod r_RGetBuffer;
+		protected RMethod r_GetBuffer;
 		public virtual RMethod RGetBuffer
 		{
 			get
 			{
-				if(r_RGetBuffer == null)
+				if(r_GetBuffer == null)
 				{
-					r_RGetBuffer = new(this, "GetBuffer", 0);
-					r_RGetBuffer.SetBelong(this.instance);
+					r_GetBuffer = new(this, "GetBuffer", 0);
+					r_GetBuffer.SetBelong(this.instance);
 				}
-				return r_RGetBuffer;
+				return r_GetBuffer;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Equals(System.Object)
 		/// </summary>
-		protected RMethod r_REquals_Object;
+		protected RMethod r_Equals_Object;
 		public virtual RMethod REquals_Object
 		{
 			get
 			{
-				if(r_REquals_Object == null)
+				if(r_Equals_Object == null)
 				{
-					r_REquals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_REquals_Object.SetBelong(this.instance);
+					r_Equals_Object = new(this, "Equals", 0, typeof(System.Object));
+					r_Equals_Object.SetBelong(this.instance);
 				}
-				return r_REquals_Object;
+				return r_Equals_Object;
 			}
 		}
 
 		/// <summary>
 		/// Void Finalize()
 		/// </summary>
-		protected RMethod r_RFinalize;
+		protected RMethod r_Finalize;
 		public virtual RMethod RFinalize
 		{
 			get
 			{
-				if(r_RFinalize == null)
+				if(r_Finalize == null)
 				{
-					r_RFinalize = new(this, "Finalize", 0);
-					r_RFinalize.SetBelong(this.instance);
+					r_Finalize = new(this, "Finalize", 0);
+					r_Finalize.SetBelong(this.instance);
 				}
-				return r_RFinalize;
+				return r_Finalize;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetHashCode()
 		/// </summary>
-		protected RMethod r_RGetHashCode;
+		protected RMethod r_GetHashCode;
 		public virtual RMethod RGetHashCode
 		{
 			get
 			{
-				if(r_RGetHashCode == null)
+				if(r_GetHashCode == null)
 				{
-					r_RGetHashCode = new(this, "GetHashCode", 0);
-					r_RGetHashCode.SetBelong(this.instance);
+					r_GetHashCode = new(this, "GetHashCode", 0);
+					r_GetHashCode.SetBelong(this.instance);
 				}
-				return r_RGetHashCode;
+				return r_GetHashCode;
 			}
 		}
 
 		/// <summary>
 		/// System.Type GetType()
 		/// </summary>
-		protected RMethod r_RGetType;
+		protected RMethod r_GetType;
 		public virtual RMethod RGetType
 		{
 			get
 			{
-				if(r_RGetType == null)
+				if(r_GetType == null)
 				{
-					r_RGetType = new(this, "GetType", 0);
-					r_RGetType.SetBelong(this.instance);
+					r_GetType = new(this, "GetType", 0);
+					r_GetType.SetBelong(this.instance);
 				}
-				return r_RGetType;
+				return r_GetType;
 			}
 		}
 
 		/// <summary>
 		/// System.Object MemberwiseClone()
 		/// </summary>
-		protected RMethod r_RMemberwiseClone;
+		protected RMethod r_MemberwiseClone;
 		public virtual RMethod RMemberwiseClone
 		{
 			get
 			{
-				if(r_RMemberwiseClone == null)
+				if(r_MemberwiseClone == null)
 				{
-					r_RMemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_RMemberwiseClone.SetBelong(this.instance);
+					r_MemberwiseClone = new(this, "MemberwiseClone", 0);
+					r_MemberwiseClone.SetBelong(this.instance);
 				}
-				return r_RMemberwiseClone;
+				return r_MemberwiseClone;
 			}
 		}
 
 		/// <summary>
 		/// System.String ToString()
 		/// </summary>
-		protected RMethod r_RToString;
+		protected RMethod r_ToString;
 		public virtual RMethod RToString
 		{
 			get
 			{
-				if(r_RToString == null)
+				if(r_ToString == null)
 				{
-					r_RToString = new(this, "ToString", 0);
-					r_RToString.SetBelong(this.instance);
+					r_ToString = new(this, "ToString", 0);
+					r_ToString.SetBelong(this.instance);
 				}
-				return r_RToString;
+				return r_ToString;
 			}
 		}
 

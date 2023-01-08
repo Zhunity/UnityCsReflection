@@ -217,459 +217,459 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RSceneManagement
 		/// <summary>
 		/// Boolean IsValidInternal(Int32)
 		/// </summary>
-		protected static RMethod r_RIsValidInternal_Int32;
+		protected static RMethod r_IsValidInternal_Int32;
 		public static RMethod RIsValidInternal_Int32
 		{
 			get
 			{
-				if(r_RIsValidInternal_Int32 == null)
+				if(r_IsValidInternal_Int32 == null)
 				{
-					r_RIsValidInternal_Int32 = new(typeof(UnityEngine.SceneManagement.Scene), "IsValidInternal", 0, typeof(System.Int32));
-					r_RIsValidInternal_Int32.SetBelong(null);
+					r_IsValidInternal_Int32 = new(typeof(UnityEngine.SceneManagement.Scene), "IsValidInternal", 0, typeof(System.Int32));
+					r_IsValidInternal_Int32.SetBelong(null);
 				}
-				return r_RIsValidInternal_Int32;
+				return r_IsValidInternal_Int32;
 			}
 		}
 
 		/// <summary>
 		/// System.String GetPathInternal(Int32)
 		/// </summary>
-		protected static RMethod r_RGetPathInternal_Int32;
+		protected static RMethod r_GetPathInternal_Int32;
 		public static RMethod RGetPathInternal_Int32
 		{
 			get
 			{
-				if(r_RGetPathInternal_Int32 == null)
+				if(r_GetPathInternal_Int32 == null)
 				{
-					r_RGetPathInternal_Int32 = new(typeof(UnityEngine.SceneManagement.Scene), "GetPathInternal", 0, typeof(System.Int32));
-					r_RGetPathInternal_Int32.SetBelong(null);
+					r_GetPathInternal_Int32 = new(typeof(UnityEngine.SceneManagement.Scene), "GetPathInternal", 0, typeof(System.Int32));
+					r_GetPathInternal_Int32.SetBelong(null);
 				}
-				return r_RGetPathInternal_Int32;
+				return r_GetPathInternal_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Void SetPathAndGUIDInternal(Int32, System.String, System.String)
 		/// </summary>
-		protected static RMethod r_RSetPathAndGUIDInternal_Int32_String_String;
+		protected static RMethod r_SetPathAndGUIDInternal_Int32_String_String;
 		public static RMethod RSetPathAndGUIDInternal_Int32_String_String
 		{
 			get
 			{
-				if(r_RSetPathAndGUIDInternal_Int32_String_String == null)
+				if(r_SetPathAndGUIDInternal_Int32_String_String == null)
 				{
-					r_RSetPathAndGUIDInternal_Int32_String_String = new(typeof(UnityEngine.SceneManagement.Scene), "SetPathAndGUIDInternal", 0, typeof(System.Int32), typeof(System.String), typeof(System.String));
-					r_RSetPathAndGUIDInternal_Int32_String_String.SetBelong(null);
+					r_SetPathAndGUIDInternal_Int32_String_String = new(typeof(UnityEngine.SceneManagement.Scene), "SetPathAndGUIDInternal", 0, typeof(System.Int32), typeof(System.String), typeof(System.String));
+					r_SetPathAndGUIDInternal_Int32_String_String.SetBelong(null);
 				}
-				return r_RSetPathAndGUIDInternal_Int32_String_String;
+				return r_SetPathAndGUIDInternal_Int32_String_String;
 			}
 		}
 
 		/// <summary>
 		/// System.String GetNameInternal(Int32)
 		/// </summary>
-		protected static RMethod r_RGetNameInternal_Int32;
+		protected static RMethod r_GetNameInternal_Int32;
 		public static RMethod RGetNameInternal_Int32
 		{
 			get
 			{
-				if(r_RGetNameInternal_Int32 == null)
+				if(r_GetNameInternal_Int32 == null)
 				{
-					r_RGetNameInternal_Int32 = new(typeof(UnityEngine.SceneManagement.Scene), "GetNameInternal", 0, typeof(System.Int32));
-					r_RGetNameInternal_Int32.SetBelong(null);
+					r_GetNameInternal_Int32 = new(typeof(UnityEngine.SceneManagement.Scene), "GetNameInternal", 0, typeof(System.Int32));
+					r_GetNameInternal_Int32.SetBelong(null);
 				}
-				return r_RGetNameInternal_Int32;
+				return r_GetNameInternal_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Void SetNameInternal(Int32, System.String)
 		/// </summary>
-		protected static RMethod r_RSetNameInternal_Int32_String;
+		protected static RMethod r_SetNameInternal_Int32_String;
 		public static RMethod RSetNameInternal_Int32_String
 		{
 			get
 			{
-				if(r_RSetNameInternal_Int32_String == null)
+				if(r_SetNameInternal_Int32_String == null)
 				{
-					r_RSetNameInternal_Int32_String = new(typeof(UnityEngine.SceneManagement.Scene), "SetNameInternal", 0, typeof(System.Int32), typeof(System.String));
-					r_RSetNameInternal_Int32_String.SetBelong(null);
+					r_SetNameInternal_Int32_String = new(typeof(UnityEngine.SceneManagement.Scene), "SetNameInternal", 0, typeof(System.Int32), typeof(System.String));
+					r_SetNameInternal_Int32_String.SetBelong(null);
 				}
-				return r_RSetNameInternal_Int32_String;
+				return r_SetNameInternal_Int32_String;
 			}
 		}
 
 		/// <summary>
 		/// System.String GetGUIDInternal(Int32)
 		/// </summary>
-		protected static RMethod r_RGetGUIDInternal_Int32;
+		protected static RMethod r_GetGUIDInternal_Int32;
 		public static RMethod RGetGUIDInternal_Int32
 		{
 			get
 			{
-				if(r_RGetGUIDInternal_Int32 == null)
+				if(r_GetGUIDInternal_Int32 == null)
 				{
-					r_RGetGUIDInternal_Int32 = new(typeof(UnityEngine.SceneManagement.Scene), "GetGUIDInternal", 0, typeof(System.Int32));
-					r_RGetGUIDInternal_Int32.SetBelong(null);
+					r_GetGUIDInternal_Int32 = new(typeof(UnityEngine.SceneManagement.Scene), "GetGUIDInternal", 0, typeof(System.Int32));
+					r_GetGUIDInternal_Int32.SetBelong(null);
 				}
-				return r_RGetGUIDInternal_Int32;
+				return r_GetGUIDInternal_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Boolean IsSubScene(Int32)
 		/// </summary>
-		protected static RMethod r_RIsSubScene_Int32;
+		protected static RMethod r_IsSubScene_Int32;
 		public static RMethod RIsSubScene_Int32
 		{
 			get
 			{
-				if(r_RIsSubScene_Int32 == null)
+				if(r_IsSubScene_Int32 == null)
 				{
-					r_RIsSubScene_Int32 = new(typeof(UnityEngine.SceneManagement.Scene), "IsSubScene", 0, typeof(System.Int32));
-					r_RIsSubScene_Int32.SetBelong(null);
+					r_IsSubScene_Int32 = new(typeof(UnityEngine.SceneManagement.Scene), "IsSubScene", 0, typeof(System.Int32));
+					r_IsSubScene_Int32.SetBelong(null);
 				}
-				return r_RIsSubScene_Int32;
+				return r_IsSubScene_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Void SetIsSubScene(Int32, Boolean)
 		/// </summary>
-		protected static RMethod r_RSetIsSubScene_Int32_Boolean;
+		protected static RMethod r_SetIsSubScene_Int32_Boolean;
 		public static RMethod RSetIsSubScene_Int32_Boolean
 		{
 			get
 			{
-				if(r_RSetIsSubScene_Int32_Boolean == null)
+				if(r_SetIsSubScene_Int32_Boolean == null)
 				{
-					r_RSetIsSubScene_Int32_Boolean = new(typeof(UnityEngine.SceneManagement.Scene), "SetIsSubScene", 0, typeof(System.Int32), typeof(System.Boolean));
-					r_RSetIsSubScene_Int32_Boolean.SetBelong(null);
+					r_SetIsSubScene_Int32_Boolean = new(typeof(UnityEngine.SceneManagement.Scene), "SetIsSubScene", 0, typeof(System.Int32), typeof(System.Boolean));
+					r_SetIsSubScene_Int32_Boolean.SetBelong(null);
 				}
-				return r_RSetIsSubScene_Int32_Boolean;
+				return r_SetIsSubScene_Int32_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Boolean GetIsLoadedInternal(Int32)
 		/// </summary>
-		protected static RMethod r_RGetIsLoadedInternal_Int32;
+		protected static RMethod r_GetIsLoadedInternal_Int32;
 		public static RMethod RGetIsLoadedInternal_Int32
 		{
 			get
 			{
-				if(r_RGetIsLoadedInternal_Int32 == null)
+				if(r_GetIsLoadedInternal_Int32 == null)
 				{
-					r_RGetIsLoadedInternal_Int32 = new(typeof(UnityEngine.SceneManagement.Scene), "GetIsLoadedInternal", 0, typeof(System.Int32));
-					r_RGetIsLoadedInternal_Int32.SetBelong(null);
+					r_GetIsLoadedInternal_Int32 = new(typeof(UnityEngine.SceneManagement.Scene), "GetIsLoadedInternal", 0, typeof(System.Int32));
+					r_GetIsLoadedInternal_Int32.SetBelong(null);
 				}
-				return r_RGetIsLoadedInternal_Int32;
+				return r_GetIsLoadedInternal_Int32;
 			}
 		}
 
 		/// <summary>
 		/// LoadingState GetLoadingStateInternal(Int32)
 		/// </summary>
-		protected static RMethod r_RGetLoadingStateInternal_Int32;
+		protected static RMethod r_GetLoadingStateInternal_Int32;
 		public static RMethod RGetLoadingStateInternal_Int32
 		{
 			get
 			{
-				if(r_RGetLoadingStateInternal_Int32 == null)
+				if(r_GetLoadingStateInternal_Int32 == null)
 				{
-					r_RGetLoadingStateInternal_Int32 = new(typeof(UnityEngine.SceneManagement.Scene), "GetLoadingStateInternal", 0, typeof(System.Int32));
-					r_RGetLoadingStateInternal_Int32.SetBelong(null);
+					r_GetLoadingStateInternal_Int32 = new(typeof(UnityEngine.SceneManagement.Scene), "GetLoadingStateInternal", 0, typeof(System.Int32));
+					r_GetLoadingStateInternal_Int32.SetBelong(null);
 				}
-				return r_RGetLoadingStateInternal_Int32;
+				return r_GetLoadingStateInternal_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Boolean GetIsDirtyInternal(Int32)
 		/// </summary>
-		protected static RMethod r_RGetIsDirtyInternal_Int32;
+		protected static RMethod r_GetIsDirtyInternal_Int32;
 		public static RMethod RGetIsDirtyInternal_Int32
 		{
 			get
 			{
-				if(r_RGetIsDirtyInternal_Int32 == null)
+				if(r_GetIsDirtyInternal_Int32 == null)
 				{
-					r_RGetIsDirtyInternal_Int32 = new(typeof(UnityEngine.SceneManagement.Scene), "GetIsDirtyInternal", 0, typeof(System.Int32));
-					r_RGetIsDirtyInternal_Int32.SetBelong(null);
+					r_GetIsDirtyInternal_Int32 = new(typeof(UnityEngine.SceneManagement.Scene), "GetIsDirtyInternal", 0, typeof(System.Int32));
+					r_GetIsDirtyInternal_Int32.SetBelong(null);
 				}
-				return r_RGetIsDirtyInternal_Int32;
+				return r_GetIsDirtyInternal_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetDirtyID(Int32)
 		/// </summary>
-		protected static RMethod r_RGetDirtyID_Int32;
+		protected static RMethod r_GetDirtyID_Int32;
 		public static RMethod RGetDirtyID_Int32
 		{
 			get
 			{
-				if(r_RGetDirtyID_Int32 == null)
+				if(r_GetDirtyID_Int32 == null)
 				{
-					r_RGetDirtyID_Int32 = new(typeof(UnityEngine.SceneManagement.Scene), "GetDirtyID", 0, typeof(System.Int32));
-					r_RGetDirtyID_Int32.SetBelong(null);
+					r_GetDirtyID_Int32 = new(typeof(UnityEngine.SceneManagement.Scene), "GetDirtyID", 0, typeof(System.Int32));
+					r_GetDirtyID_Int32.SetBelong(null);
 				}
-				return r_RGetDirtyID_Int32;
+				return r_GetDirtyID_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetBuildIndexInternal(Int32)
 		/// </summary>
-		protected static RMethod r_RGetBuildIndexInternal_Int32;
+		protected static RMethod r_GetBuildIndexInternal_Int32;
 		public static RMethod RGetBuildIndexInternal_Int32
 		{
 			get
 			{
-				if(r_RGetBuildIndexInternal_Int32 == null)
+				if(r_GetBuildIndexInternal_Int32 == null)
 				{
-					r_RGetBuildIndexInternal_Int32 = new(typeof(UnityEngine.SceneManagement.Scene), "GetBuildIndexInternal", 0, typeof(System.Int32));
-					r_RGetBuildIndexInternal_Int32.SetBelong(null);
+					r_GetBuildIndexInternal_Int32 = new(typeof(UnityEngine.SceneManagement.Scene), "GetBuildIndexInternal", 0, typeof(System.Int32));
+					r_GetBuildIndexInternal_Int32.SetBelong(null);
 				}
-				return r_RGetBuildIndexInternal_Int32;
+				return r_GetBuildIndexInternal_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetRootCountInternal(Int32)
 		/// </summary>
-		protected static RMethod r_RGetRootCountInternal_Int32;
+		protected static RMethod r_GetRootCountInternal_Int32;
 		public static RMethod RGetRootCountInternal_Int32
 		{
 			get
 			{
-				if(r_RGetRootCountInternal_Int32 == null)
+				if(r_GetRootCountInternal_Int32 == null)
 				{
-					r_RGetRootCountInternal_Int32 = new(typeof(UnityEngine.SceneManagement.Scene), "GetRootCountInternal", 0, typeof(System.Int32));
-					r_RGetRootCountInternal_Int32.SetBelong(null);
+					r_GetRootCountInternal_Int32 = new(typeof(UnityEngine.SceneManagement.Scene), "GetRootCountInternal", 0, typeof(System.Int32));
+					r_GetRootCountInternal_Int32.SetBelong(null);
 				}
-				return r_RGetRootCountInternal_Int32;
+				return r_GetRootCountInternal_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Void GetRootGameObjectsInternal(Int32, System.Object)
 		/// </summary>
-		protected static RMethod r_RGetRootGameObjectsInternal_Int32_Object;
+		protected static RMethod r_GetRootGameObjectsInternal_Int32_Object;
 		public static RMethod RGetRootGameObjectsInternal_Int32_Object
 		{
 			get
 			{
-				if(r_RGetRootGameObjectsInternal_Int32_Object == null)
+				if(r_GetRootGameObjectsInternal_Int32_Object == null)
 				{
-					r_RGetRootGameObjectsInternal_Int32_Object = new(typeof(UnityEngine.SceneManagement.Scene), "GetRootGameObjectsInternal", 0, typeof(System.Int32), typeof(System.Object));
-					r_RGetRootGameObjectsInternal_Int32_Object.SetBelong(null);
+					r_GetRootGameObjectsInternal_Int32_Object = new(typeof(UnityEngine.SceneManagement.Scene), "GetRootGameObjectsInternal", 0, typeof(System.Int32), typeof(System.Object));
+					r_GetRootGameObjectsInternal_Int32_Object.SetBelong(null);
 				}
-				return r_RGetRootGameObjectsInternal_Int32_Object;
+				return r_GetRootGameObjectsInternal_Int32_Object;
 			}
 		}
 
 		/// <summary>
 		/// Boolean IsValid()
 		/// </summary>
-		protected RMethod r_RIsValid;
+		protected RMethod r_IsValid;
 		public virtual RMethod RIsValid
 		{
 			get
 			{
-				if(r_RIsValid == null)
+				if(r_IsValid == null)
 				{
-					r_RIsValid = new(this, "IsValid", 0);
-					r_RIsValid.SetBelong(this.instance);
+					r_IsValid = new(this, "IsValid", 0);
+					r_IsValid.SetBelong(this.instance);
 				}
-				return r_RIsValid;
+				return r_IsValid;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.GameObject[] GetRootGameObjects()
 		/// </summary>
-		protected RMethod r_RGetRootGameObjects;
+		protected RMethod r_GetRootGameObjects;
 		public virtual RMethod RGetRootGameObjects
 		{
 			get
 			{
-				if(r_RGetRootGameObjects == null)
+				if(r_GetRootGameObjects == null)
 				{
-					r_RGetRootGameObjects = new(this, "GetRootGameObjects", 0);
-					r_RGetRootGameObjects.SetBelong(this.instance);
+					r_GetRootGameObjects = new(this, "GetRootGameObjects", 0);
+					r_GetRootGameObjects.SetBelong(this.instance);
 				}
-				return r_RGetRootGameObjects;
+				return r_GetRootGameObjects;
 			}
 		}
 
 		/// <summary>
 		/// Void GetRootGameObjects(System.Collections.Generic.List`1[UnityEngine.GameObject])
 		/// </summary>
-		protected RMethod r_RGetRootGameObjects_List_d_GameObject_p_;
+		protected RMethod r_GetRootGameObjects_List_d_GameObject_p_;
 		public virtual RMethod RGetRootGameObjects_List_d_GameObject_p_
 		{
 			get
 			{
-				if(r_RGetRootGameObjects_List_d_GameObject_p_ == null)
+				if(r_GetRootGameObjects_List_d_GameObject_p_ == null)
 				{
-					r_RGetRootGameObjects_List_d_GameObject_p_ = new(this, "GetRootGameObjects", 0, typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(UnityEngine.GameObject)));
-					r_RGetRootGameObjects_List_d_GameObject_p_.SetBelong(this.instance);
+					r_GetRootGameObjects_List_d_GameObject_p_ = new(this, "GetRootGameObjects", 0, typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(UnityEngine.GameObject)));
+					r_GetRootGameObjects_List_d_GameObject_p_.SetBelong(this.instance);
 				}
-				return r_RGetRootGameObjects_List_d_GameObject_p_;
+				return r_GetRootGameObjects_List_d_GameObject_p_;
 			}
 		}
 
 		/// <summary>
 		/// Boolean op_Equality(UnityEngine.SceneManagement.Scene, UnityEngine.SceneManagement.Scene)
 		/// </summary>
-		protected static RMethod r_Rop_Equality_Scene_Scene;
+		protected static RMethod r_op_Equality_Scene_Scene;
 		public static RMethod Rop_Equality_Scene_Scene
 		{
 			get
 			{
-				if(r_Rop_Equality_Scene_Scene == null)
+				if(r_op_Equality_Scene_Scene == null)
 				{
-					r_Rop_Equality_Scene_Scene = new(typeof(UnityEngine.SceneManagement.Scene), "op_Equality", 0, typeof(UnityEngine.SceneManagement.Scene), typeof(UnityEngine.SceneManagement.Scene));
-					r_Rop_Equality_Scene_Scene.SetBelong(null);
+					r_op_Equality_Scene_Scene = new(typeof(UnityEngine.SceneManagement.Scene), "op_Equality", 0, typeof(UnityEngine.SceneManagement.Scene), typeof(UnityEngine.SceneManagement.Scene));
+					r_op_Equality_Scene_Scene.SetBelong(null);
 				}
-				return r_Rop_Equality_Scene_Scene;
+				return r_op_Equality_Scene_Scene;
 			}
 		}
 
 		/// <summary>
 		/// Boolean op_Inequality(UnityEngine.SceneManagement.Scene, UnityEngine.SceneManagement.Scene)
 		/// </summary>
-		protected static RMethod r_Rop_Inequality_Scene_Scene;
+		protected static RMethod r_op_Inequality_Scene_Scene;
 		public static RMethod Rop_Inequality_Scene_Scene
 		{
 			get
 			{
-				if(r_Rop_Inequality_Scene_Scene == null)
+				if(r_op_Inequality_Scene_Scene == null)
 				{
-					r_Rop_Inequality_Scene_Scene = new(typeof(UnityEngine.SceneManagement.Scene), "op_Inequality", 0, typeof(UnityEngine.SceneManagement.Scene), typeof(UnityEngine.SceneManagement.Scene));
-					r_Rop_Inequality_Scene_Scene.SetBelong(null);
+					r_op_Inequality_Scene_Scene = new(typeof(UnityEngine.SceneManagement.Scene), "op_Inequality", 0, typeof(UnityEngine.SceneManagement.Scene), typeof(UnityEngine.SceneManagement.Scene));
+					r_op_Inequality_Scene_Scene.SetBelong(null);
 				}
-				return r_Rop_Inequality_Scene_Scene;
+				return r_op_Inequality_Scene_Scene;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetHashCode()
 		/// </summary>
-		protected RMethod r_RGetHashCode;
+		protected RMethod r_GetHashCode;
 		public virtual RMethod RGetHashCode
 		{
 			get
 			{
-				if(r_RGetHashCode == null)
+				if(r_GetHashCode == null)
 				{
-					r_RGetHashCode = new(this, "GetHashCode", 0);
-					r_RGetHashCode.SetBelong(this.instance);
+					r_GetHashCode = new(this, "GetHashCode", 0);
+					r_GetHashCode.SetBelong(this.instance);
 				}
-				return r_RGetHashCode;
+				return r_GetHashCode;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Equals(System.Object)
 		/// </summary>
-		protected RMethod r_REquals_Object;
+		protected RMethod r_Equals_Object;
 		public virtual RMethod REquals_Object
 		{
 			get
 			{
-				if(r_REquals_Object == null)
+				if(r_Equals_Object == null)
 				{
-					r_REquals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_REquals_Object.SetBelong(this.instance);
+					r_Equals_Object = new(this, "Equals", 0, typeof(System.Object));
+					r_Equals_Object.SetBelong(this.instance);
 				}
-				return r_REquals_Object;
+				return r_Equals_Object;
 			}
 		}
 
 		/// <summary>
 		/// Void SetPathAndGuid(System.String, System.String)
 		/// </summary>
-		protected RMethod r_RSetPathAndGuid_String_String;
+		protected RMethod r_SetPathAndGuid_String_String;
 		public virtual RMethod RSetPathAndGuid_String_String
 		{
 			get
 			{
-				if(r_RSetPathAndGuid_String_String == null)
+				if(r_SetPathAndGuid_String_String == null)
 				{
-					r_RSetPathAndGuid_String_String = new(this, "SetPathAndGuid", 0, typeof(System.String), typeof(System.String));
-					r_RSetPathAndGuid_String_String.SetBelong(this.instance);
+					r_SetPathAndGuid_String_String = new(this, "SetPathAndGuid", 0, typeof(System.String), typeof(System.String));
+					r_SetPathAndGuid_String_String.SetBelong(this.instance);
 				}
-				return r_RSetPathAndGuid_String_String;
+				return r_SetPathAndGuid_String_String;
 			}
 		}
 
 		/// <summary>
 		/// System.String ToString()
 		/// </summary>
-		protected RMethod r_RToString;
+		protected RMethod r_ToString;
 		public virtual RMethod RToString
 		{
 			get
 			{
-				if(r_RToString == null)
+				if(r_ToString == null)
 				{
-					r_RToString = new(this, "ToString", 0);
-					r_RToString.SetBelong(this.instance);
+					r_ToString = new(this, "ToString", 0);
+					r_ToString.SetBelong(this.instance);
 				}
-				return r_RToString;
+				return r_ToString;
 			}
 		}
 
 		/// <summary>
 		/// Void Finalize()
 		/// </summary>
-		protected RMethod r_RFinalize;
+		protected RMethod r_Finalize;
 		public virtual RMethod RFinalize
 		{
 			get
 			{
-				if(r_RFinalize == null)
+				if(r_Finalize == null)
 				{
-					r_RFinalize = new(this, "Finalize", 0);
-					r_RFinalize.SetBelong(this.instance);
+					r_Finalize = new(this, "Finalize", 0);
+					r_Finalize.SetBelong(this.instance);
 				}
-				return r_RFinalize;
+				return r_Finalize;
 			}
 		}
 
 		/// <summary>
 		/// System.Type GetType()
 		/// </summary>
-		protected RMethod r_RGetType;
+		protected RMethod r_GetType;
 		public virtual RMethod RGetType
 		{
 			get
 			{
-				if(r_RGetType == null)
+				if(r_GetType == null)
 				{
-					r_RGetType = new(this, "GetType", 0);
-					r_RGetType.SetBelong(this.instance);
+					r_GetType = new(this, "GetType", 0);
+					r_GetType.SetBelong(this.instance);
 				}
-				return r_RGetType;
+				return r_GetType;
 			}
 		}
 
 		/// <summary>
 		/// System.Object MemberwiseClone()
 		/// </summary>
-		protected RMethod r_RMemberwiseClone;
+		protected RMethod r_MemberwiseClone;
 		public virtual RMethod RMemberwiseClone
 		{
 			get
 			{
-				if(r_RMemberwiseClone == null)
+				if(r_MemberwiseClone == null)
 				{
-					r_RMemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_RMemberwiseClone.SetBelong(this.instance);
+					r_MemberwiseClone = new(this, "MemberwiseClone", 0);
+					r_MemberwiseClone.SetBelong(this.instance);
 				}
-				return r_RMemberwiseClone;
+				return r_MemberwiseClone;
 			}
 		}
 

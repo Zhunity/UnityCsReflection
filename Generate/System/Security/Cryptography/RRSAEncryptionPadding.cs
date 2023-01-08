@@ -251,187 +251,187 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
 		/// <summary>
 		/// System.Security.Cryptography.RSAEncryptionPadding CreateOaep(System.Security.Cryptography.HashAlgorithmName)
 		/// </summary>
-		protected static RMethod r_RCreateOaep_HashAlgorithmName;
+		protected static RMethod r_CreateOaep_HashAlgorithmName;
 		public static RMethod RCreateOaep_HashAlgorithmName
 		{
 			get
 			{
-				if(r_RCreateOaep_HashAlgorithmName == null)
+				if(r_CreateOaep_HashAlgorithmName == null)
 				{
-					r_RCreateOaep_HashAlgorithmName = new(typeof(System.Security.Cryptography.RSAEncryptionPadding), "CreateOaep", 0, typeof(System.Security.Cryptography.HashAlgorithmName));
-					r_RCreateOaep_HashAlgorithmName.SetBelong(null);
+					r_CreateOaep_HashAlgorithmName = new(typeof(System.Security.Cryptography.RSAEncryptionPadding), "CreateOaep", 0, typeof(System.Security.Cryptography.HashAlgorithmName));
+					r_CreateOaep_HashAlgorithmName.SetBelong(null);
 				}
-				return r_RCreateOaep_HashAlgorithmName;
+				return r_CreateOaep_HashAlgorithmName;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetHashCode()
 		/// </summary>
-		protected RMethod r_RGetHashCode;
+		protected RMethod r_GetHashCode;
 		public virtual RMethod RGetHashCode
 		{
 			get
 			{
-				if(r_RGetHashCode == null)
+				if(r_GetHashCode == null)
 				{
-					r_RGetHashCode = new(this, "GetHashCode", 0);
-					r_RGetHashCode.SetBelong(this.instance);
+					r_GetHashCode = new(this, "GetHashCode", 0);
+					r_GetHashCode.SetBelong(this.instance);
 				}
-				return r_RGetHashCode;
+				return r_GetHashCode;
 			}
 		}
 
 		/// <summary>
 		/// Int32 CombineHashCodes(Int32, Int32)
 		/// </summary>
-		protected static RMethod r_RCombineHashCodes_Int32_Int32;
+		protected static RMethod r_CombineHashCodes_Int32_Int32;
 		public static RMethod RCombineHashCodes_Int32_Int32
 		{
 			get
 			{
-				if(r_RCombineHashCodes_Int32_Int32 == null)
+				if(r_CombineHashCodes_Int32_Int32 == null)
 				{
-					r_RCombineHashCodes_Int32_Int32 = new(typeof(System.Security.Cryptography.RSAEncryptionPadding), "CombineHashCodes", 0, typeof(System.Int32), typeof(System.Int32));
-					r_RCombineHashCodes_Int32_Int32.SetBelong(null);
+					r_CombineHashCodes_Int32_Int32 = new(typeof(System.Security.Cryptography.RSAEncryptionPadding), "CombineHashCodes", 0, typeof(System.Int32), typeof(System.Int32));
+					r_CombineHashCodes_Int32_Int32.SetBelong(null);
 				}
-				return r_RCombineHashCodes_Int32_Int32;
+				return r_CombineHashCodes_Int32_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Equals(System.Object)
 		/// </summary>
-		protected RMethod r_REquals_Object;
+		protected RMethod r_Equals_Object;
 		public virtual RMethod REquals_Object
 		{
 			get
 			{
-				if(r_REquals_Object == null)
+				if(r_Equals_Object == null)
 				{
-					r_REquals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_REquals_Object.SetBelong(this.instance);
+					r_Equals_Object = new(this, "Equals", 0, typeof(System.Object));
+					r_Equals_Object.SetBelong(this.instance);
 				}
-				return r_REquals_Object;
+				return r_Equals_Object;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Equals(System.Security.Cryptography.RSAEncryptionPadding)
 		/// </summary>
-		protected RMethod r_REquals_RSAEncryptionPadding;
+		protected RMethod r_Equals_RSAEncryptionPadding;
 		public virtual RMethod REquals_RSAEncryptionPadding
 		{
 			get
 			{
-				if(r_REquals_RSAEncryptionPadding == null)
+				if(r_Equals_RSAEncryptionPadding == null)
 				{
-					r_REquals_RSAEncryptionPadding = new(this, "Equals", 0, typeof(System.Security.Cryptography.RSAEncryptionPadding));
-					r_REquals_RSAEncryptionPadding.SetBelong(this.instance);
+					r_Equals_RSAEncryptionPadding = new(this, "Equals", 0, typeof(System.Security.Cryptography.RSAEncryptionPadding));
+					r_Equals_RSAEncryptionPadding.SetBelong(this.instance);
 				}
-				return r_REquals_RSAEncryptionPadding;
+				return r_Equals_RSAEncryptionPadding;
 			}
 		}
 
 		/// <summary>
 		/// Boolean op_Equality(System.Security.Cryptography.RSAEncryptionPadding, System.Security.Cryptography.RSAEncryptionPadding)
 		/// </summary>
-		protected static RMethod r_Rop_Equality_RSAEncryptionPadding_RSAEncryptionPadding;
+		protected static RMethod r_op_Equality_RSAEncryptionPadding_RSAEncryptionPadding;
 		public static RMethod Rop_Equality_RSAEncryptionPadding_RSAEncryptionPadding
 		{
 			get
 			{
-				if(r_Rop_Equality_RSAEncryptionPadding_RSAEncryptionPadding == null)
+				if(r_op_Equality_RSAEncryptionPadding_RSAEncryptionPadding == null)
 				{
-					r_Rop_Equality_RSAEncryptionPadding_RSAEncryptionPadding = new(typeof(System.Security.Cryptography.RSAEncryptionPadding), "op_Equality", 0, typeof(System.Security.Cryptography.RSAEncryptionPadding), typeof(System.Security.Cryptography.RSAEncryptionPadding));
-					r_Rop_Equality_RSAEncryptionPadding_RSAEncryptionPadding.SetBelong(null);
+					r_op_Equality_RSAEncryptionPadding_RSAEncryptionPadding = new(typeof(System.Security.Cryptography.RSAEncryptionPadding), "op_Equality", 0, typeof(System.Security.Cryptography.RSAEncryptionPadding), typeof(System.Security.Cryptography.RSAEncryptionPadding));
+					r_op_Equality_RSAEncryptionPadding_RSAEncryptionPadding.SetBelong(null);
 				}
-				return r_Rop_Equality_RSAEncryptionPadding_RSAEncryptionPadding;
+				return r_op_Equality_RSAEncryptionPadding_RSAEncryptionPadding;
 			}
 		}
 
 		/// <summary>
 		/// Boolean op_Inequality(System.Security.Cryptography.RSAEncryptionPadding, System.Security.Cryptography.RSAEncryptionPadding)
 		/// </summary>
-		protected static RMethod r_Rop_Inequality_RSAEncryptionPadding_RSAEncryptionPadding;
+		protected static RMethod r_op_Inequality_RSAEncryptionPadding_RSAEncryptionPadding;
 		public static RMethod Rop_Inequality_RSAEncryptionPadding_RSAEncryptionPadding
 		{
 			get
 			{
-				if(r_Rop_Inequality_RSAEncryptionPadding_RSAEncryptionPadding == null)
+				if(r_op_Inequality_RSAEncryptionPadding_RSAEncryptionPadding == null)
 				{
-					r_Rop_Inequality_RSAEncryptionPadding_RSAEncryptionPadding = new(typeof(System.Security.Cryptography.RSAEncryptionPadding), "op_Inequality", 0, typeof(System.Security.Cryptography.RSAEncryptionPadding), typeof(System.Security.Cryptography.RSAEncryptionPadding));
-					r_Rop_Inequality_RSAEncryptionPadding_RSAEncryptionPadding.SetBelong(null);
+					r_op_Inequality_RSAEncryptionPadding_RSAEncryptionPadding = new(typeof(System.Security.Cryptography.RSAEncryptionPadding), "op_Inequality", 0, typeof(System.Security.Cryptography.RSAEncryptionPadding), typeof(System.Security.Cryptography.RSAEncryptionPadding));
+					r_op_Inequality_RSAEncryptionPadding_RSAEncryptionPadding.SetBelong(null);
 				}
-				return r_Rop_Inequality_RSAEncryptionPadding_RSAEncryptionPadding;
+				return r_op_Inequality_RSAEncryptionPadding_RSAEncryptionPadding;
 			}
 		}
 
 		/// <summary>
 		/// System.String ToString()
 		/// </summary>
-		protected RMethod r_RToString;
+		protected RMethod r_ToString;
 		public virtual RMethod RToString
 		{
 			get
 			{
-				if(r_RToString == null)
+				if(r_ToString == null)
 				{
-					r_RToString = new(this, "ToString", 0);
-					r_RToString.SetBelong(this.instance);
+					r_ToString = new(this, "ToString", 0);
+					r_ToString.SetBelong(this.instance);
 				}
-				return r_RToString;
+				return r_ToString;
 			}
 		}
 
 		/// <summary>
 		/// Void Finalize()
 		/// </summary>
-		protected RMethod r_RFinalize;
+		protected RMethod r_Finalize;
 		public virtual RMethod RFinalize
 		{
 			get
 			{
-				if(r_RFinalize == null)
+				if(r_Finalize == null)
 				{
-					r_RFinalize = new(this, "Finalize", 0);
-					r_RFinalize.SetBelong(this.instance);
+					r_Finalize = new(this, "Finalize", 0);
+					r_Finalize.SetBelong(this.instance);
 				}
-				return r_RFinalize;
+				return r_Finalize;
 			}
 		}
 
 		/// <summary>
 		/// System.Type GetType()
 		/// </summary>
-		protected RMethod r_RGetType;
+		protected RMethod r_GetType;
 		public virtual RMethod RGetType
 		{
 			get
 			{
-				if(r_RGetType == null)
+				if(r_GetType == null)
 				{
-					r_RGetType = new(this, "GetType", 0);
-					r_RGetType.SetBelong(this.instance);
+					r_GetType = new(this, "GetType", 0);
+					r_GetType.SetBelong(this.instance);
 				}
-				return r_RGetType;
+				return r_GetType;
 			}
 		}
 
 		/// <summary>
 		/// System.Object MemberwiseClone()
 		/// </summary>
-		protected RMethod r_RMemberwiseClone;
+		protected RMethod r_MemberwiseClone;
 		public virtual RMethod RMemberwiseClone
 		{
 			get
 			{
-				if(r_RMemberwiseClone == null)
+				if(r_MemberwiseClone == null)
 				{
-					r_RMemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_RMemberwiseClone.SetBelong(this.instance);
+					r_MemberwiseClone = new(this, "MemberwiseClone", 0);
+					r_MemberwiseClone.SetBelong(this.instance);
 				}
-				return r_RMemberwiseClone;
+				return r_MemberwiseClone;
 			}
 		}
 

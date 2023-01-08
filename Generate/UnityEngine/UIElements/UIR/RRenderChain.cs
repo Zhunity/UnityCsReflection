@@ -302,17 +302,17 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// UnityEngine.UIElements.UIR.OpacityIdAccelerator <opacityIdAccelerator>k__BackingField
 		/// </summary>
-		protected RUnityEngine.RUIElements.RUIR.ROpacityIdAccelerator r___1__opacityIdAccelerator__2__k__BackingField;
-		public virtual RUnityEngine.RUIElements.RUIR.ROpacityIdAccelerator R__1__opacityIdAccelerator__2__k__BackingField
+		protected RUnityEngine.RUIElements.RUIR.ROpacityIdAccelerator r___0__opacityIdAccelerator__1__k__BackingField;
+		public virtual RUnityEngine.RUIElements.RUIR.ROpacityIdAccelerator R__0__opacityIdAccelerator__1__k__BackingField
 		{
 			get
 			{
-				if(r___1__opacityIdAccelerator__2__k__BackingField == null)
+				if(r___0__opacityIdAccelerator__1__k__BackingField == null)
 				{
-					r___1__opacityIdAccelerator__2__k__BackingField = new(this, "<opacityIdAccelerator>k__BackingField");
-					r___1__opacityIdAccelerator__2__k__BackingField.SetBelong(this.instance);
+					r___0__opacityIdAccelerator__1__k__BackingField = new(this, "<opacityIdAccelerator>k__BackingField");
+					r___0__opacityIdAccelerator__1__k__BackingField.SetBelong(this.instance);
 				}
-				return r___1__opacityIdAccelerator__2__k__BackingField;
+				return r___0__opacityIdAccelerator__1__k__BackingField;
 			}
 		}
 
@@ -438,17 +438,17 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Boolean <disposed>k__BackingField
 		/// </summary>
-		protected RField r___1__disposed__2__k__BackingField;
-		public virtual RField R__1__disposed__2__k__BackingField
+		protected RField r___0__disposed__1__k__BackingField;
+		public virtual RField R__0__disposed__1__k__BackingField
 		{
 			get
 			{
-				if(r___1__disposed__2__k__BackingField == null)
+				if(r___0__disposed__1__k__BackingField == null)
 				{
-					r___1__disposed__2__k__BackingField = new(this, "<disposed>k__BackingField");
-					r___1__disposed__2__k__BackingField.SetBelong(this.instance);
+					r___0__disposed__1__k__BackingField = new(this, "<disposed>k__BackingField");
+					r___0__disposed__1__k__BackingField.SetBelong(this.instance);
 				}
-				return r___1__disposed__2__k__BackingField;
+				return r___0__disposed__1__k__BackingField;
 			}
 		}
 
@@ -472,119 +472,119 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// UnityEngine.UIElements.BaseVisualElementPanel <panel>k__BackingField
 		/// </summary>
-		protected RUnityEngine.RUIElements.RBaseVisualElementPanel r___1__panel__2__k__BackingField;
-		public virtual RUnityEngine.RUIElements.RBaseVisualElementPanel R__1__panel__2__k__BackingField
+		protected RUnityEngine.RUIElements.RBaseVisualElementPanel r___0__panel__1__k__BackingField;
+		public virtual RUnityEngine.RUIElements.RBaseVisualElementPanel R__0__panel__1__k__BackingField
 		{
 			get
 			{
-				if(r___1__panel__2__k__BackingField == null)
+				if(r___0__panel__1__k__BackingField == null)
 				{
-					r___1__panel__2__k__BackingField = new(this, "<panel>k__BackingField");
-					r___1__panel__2__k__BackingField.SetBelong(this.instance);
+					r___0__panel__1__k__BackingField = new(this, "<panel>k__BackingField");
+					r___0__panel__1__k__BackingField.SetBelong(this.instance);
 				}
-				return r___1__panel__2__k__BackingField;
+				return r___0__panel__1__k__BackingField;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.UIR.UIRenderDevice <device>k__BackingField
 		/// </summary>
-		protected RUnityEngine.RUIElements.RUIR.RUIRenderDevice r___1__device__2__k__BackingField;
-		public virtual RUnityEngine.RUIElements.RUIR.RUIRenderDevice R__1__device__2__k__BackingField
+		protected RUnityEngine.RUIElements.RUIR.RUIRenderDevice r___0__device__1__k__BackingField;
+		public virtual RUnityEngine.RUIElements.RUIR.RUIRenderDevice R__0__device__1__k__BackingField
 		{
 			get
 			{
-				if(r___1__device__2__k__BackingField == null)
+				if(r___0__device__1__k__BackingField == null)
 				{
-					r___1__device__2__k__BackingField = new(this, "<device>k__BackingField");
-					r___1__device__2__k__BackingField.SetBelong(this.instance);
+					r___0__device__1__k__BackingField = new(this, "<device>k__BackingField");
+					r___0__device__1__k__BackingField.SetBelong(this.instance);
 				}
-				return r___1__device__2__k__BackingField;
+				return r___0__device__1__k__BackingField;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.AtlasBase <atlas>k__BackingField
 		/// </summary>
-		protected RUnityEngine.RUIElements.RAtlasBase r___1__atlas__2__k__BackingField;
-		public virtual RUnityEngine.RUIElements.RAtlasBase R__1__atlas__2__k__BackingField
+		protected RUnityEngine.RUIElements.RAtlasBase r___0__atlas__1__k__BackingField;
+		public virtual RUnityEngine.RUIElements.RAtlasBase R__0__atlas__1__k__BackingField
 		{
 			get
 			{
-				if(r___1__atlas__2__k__BackingField == null)
+				if(r___0__atlas__1__k__BackingField == null)
 				{
-					r___1__atlas__2__k__BackingField = new(this, "<atlas>k__BackingField");
-					r___1__atlas__2__k__BackingField.SetBelong(this.instance);
+					r___0__atlas__1__k__BackingField = new(this, "<atlas>k__BackingField");
+					r___0__atlas__1__k__BackingField.SetBelong(this.instance);
 				}
-				return r___1__atlas__2__k__BackingField;
+				return r___0__atlas__1__k__BackingField;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.UIR.VectorImageManager <vectorImageManager>k__BackingField
 		/// </summary>
-		protected RUnityEngine.RUIElements.RUIR.RVectorImageManager r___1__vectorImageManager__2__k__BackingField;
-		public virtual RUnityEngine.RUIElements.RUIR.RVectorImageManager R__1__vectorImageManager__2__k__BackingField
+		protected RUnityEngine.RUIElements.RUIR.RVectorImageManager r___0__vectorImageManager__1__k__BackingField;
+		public virtual RUnityEngine.RUIElements.RUIR.RVectorImageManager R__0__vectorImageManager__1__k__BackingField
 		{
 			get
 			{
-				if(r___1__vectorImageManager__2__k__BackingField == null)
+				if(r___0__vectorImageManager__1__k__BackingField == null)
 				{
-					r___1__vectorImageManager__2__k__BackingField = new(this, "<vectorImageManager>k__BackingField");
-					r___1__vectorImageManager__2__k__BackingField.SetBelong(this.instance);
+					r___0__vectorImageManager__1__k__BackingField = new(this, "<vectorImageManager>k__BackingField");
+					r___0__vectorImageManager__1__k__BackingField.SetBelong(this.instance);
 				}
-				return r___1__vectorImageManager__2__k__BackingField;
+				return r___0__vectorImageManager__1__k__BackingField;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.UIR.TempAllocator`1[UnityEngine.UIElements.Vertex] <vertsPool>k__BackingField
 		/// </summary>
-		protected RUnityEngine.RUIElements.RUIR.RTempAllocator<RUnityEngine.RUIElements.RVertex> r___1__vertsPool__2__k__BackingField;
-		public virtual RUnityEngine.RUIElements.RUIR.RTempAllocator<RUnityEngine.RUIElements.RVertex> R__1__vertsPool__2__k__BackingField
+		protected RUnityEngine.RUIElements.RUIR.RTempAllocator<RUnityEngine.RUIElements.RVertex> r___0__vertsPool__1__k__BackingField;
+		public virtual RUnityEngine.RUIElements.RUIR.RTempAllocator<RUnityEngine.RUIElements.RVertex> R__0__vertsPool__1__k__BackingField
 		{
 			get
 			{
-				if(r___1__vertsPool__2__k__BackingField == null)
+				if(r___0__vertsPool__1__k__BackingField == null)
 				{
-					r___1__vertsPool__2__k__BackingField = new(this, "<vertsPool>k__BackingField");
-					r___1__vertsPool__2__k__BackingField.SetBelong(this.instance);
+					r___0__vertsPool__1__k__BackingField = new(this, "<vertsPool>k__BackingField");
+					r___0__vertsPool__1__k__BackingField.SetBelong(this.instance);
 				}
-				return r___1__vertsPool__2__k__BackingField;
+				return r___0__vertsPool__1__k__BackingField;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.UIR.TempAllocator`1[System.UInt16] <indicesPool>k__BackingField
 		/// </summary>
-		protected RUnityEngine.RUIElements.RUIR.RTempAllocator<RField> r___1__indicesPool__2__k__BackingField;
-		public virtual RUnityEngine.RUIElements.RUIR.RTempAllocator<RField> R__1__indicesPool__2__k__BackingField
+		protected RUnityEngine.RUIElements.RUIR.RTempAllocator<RField> r___0__indicesPool__1__k__BackingField;
+		public virtual RUnityEngine.RUIElements.RUIR.RTempAllocator<RField> R__0__indicesPool__1__k__BackingField
 		{
 			get
 			{
-				if(r___1__indicesPool__2__k__BackingField == null)
+				if(r___0__indicesPool__1__k__BackingField == null)
 				{
-					r___1__indicesPool__2__k__BackingField = new(this, "<indicesPool>k__BackingField");
-					r___1__indicesPool__2__k__BackingField.SetBelong(this.instance);
+					r___0__indicesPool__1__k__BackingField = new(this, "<indicesPool>k__BackingField");
+					r___0__indicesPool__1__k__BackingField.SetBelong(this.instance);
 				}
-				return r___1__indicesPool__2__k__BackingField;
+				return r___0__indicesPool__1__k__BackingField;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.UIR.JobManager <jobManager>k__BackingField
 		/// </summary>
-		protected RUnityEngine.RUIElements.RUIR.RJobManager r___1__jobManager__2__k__BackingField;
-		public virtual RUnityEngine.RUIElements.RUIR.RJobManager R__1__jobManager__2__k__BackingField
+		protected RUnityEngine.RUIElements.RUIR.RJobManager r___0__jobManager__1__k__BackingField;
+		public virtual RUnityEngine.RUIElements.RUIR.RJobManager R__0__jobManager__1__k__BackingField
 		{
 			get
 			{
-				if(r___1__jobManager__2__k__BackingField == null)
+				if(r___0__jobManager__1__k__BackingField == null)
 				{
-					r___1__jobManager__2__k__BackingField = new(this, "<jobManager>k__BackingField");
-					r___1__jobManager__2__k__BackingField.SetBelong(this.instance);
+					r___0__jobManager__1__k__BackingField = new(this, "<jobManager>k__BackingField");
+					r___0__jobManager__1__k__BackingField.SetBelong(this.instance);
 				}
-				return r___1__jobManager__2__k__BackingField;
+				return r___0__jobManager__1__k__BackingField;
 			}
 		}
 
@@ -608,51 +608,51 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// UnityEngine.UIElements.UIR.Implementation.UIRStylePainter <painter>k__BackingField
 		/// </summary>
-		protected RUnityEngine.RUIElements.RUIR.RImplementation.RUIRStylePainter r___1__painter__2__k__BackingField;
-		public virtual RUnityEngine.RUIElements.RUIR.RImplementation.RUIRStylePainter R__1__painter__2__k__BackingField
+		protected RUnityEngine.RUIElements.RUIR.RImplementation.RUIRStylePainter r___0__painter__1__k__BackingField;
+		public virtual RUnityEngine.RUIElements.RUIR.RImplementation.RUIRStylePainter R__0__painter__1__k__BackingField
 		{
 			get
 			{
-				if(r___1__painter__2__k__BackingField == null)
+				if(r___0__painter__1__k__BackingField == null)
 				{
-					r___1__painter__2__k__BackingField = new(this, "<painter>k__BackingField");
-					r___1__painter__2__k__BackingField.SetBelong(this.instance);
+					r___0__painter__1__k__BackingField = new(this, "<painter>k__BackingField");
+					r___0__painter__1__k__BackingField.SetBelong(this.instance);
 				}
-				return r___1__painter__2__k__BackingField;
+				return r___0__painter__1__k__BackingField;
 			}
 		}
 
 		/// <summary>
 		/// System.Boolean <drawStats>k__BackingField
 		/// </summary>
-		protected RField r___1__drawStats__2__k__BackingField;
-		public virtual RField R__1__drawStats__2__k__BackingField
+		protected RField r___0__drawStats__1__k__BackingField;
+		public virtual RField R__0__drawStats__1__k__BackingField
 		{
 			get
 			{
-				if(r___1__drawStats__2__k__BackingField == null)
+				if(r___0__drawStats__1__k__BackingField == null)
 				{
-					r___1__drawStats__2__k__BackingField = new(this, "<drawStats>k__BackingField");
-					r___1__drawStats__2__k__BackingField.SetBelong(this.instance);
+					r___0__drawStats__1__k__BackingField = new(this, "<drawStats>k__BackingField");
+					r___0__drawStats__1__k__BackingField.SetBelong(this.instance);
 				}
-				return r___1__drawStats__2__k__BackingField;
+				return r___0__drawStats__1__k__BackingField;
 			}
 		}
 
 		/// <summary>
 		/// System.Boolean <drawInCameras>k__BackingField
 		/// </summary>
-		protected RField r___1__drawInCameras__2__k__BackingField;
-		public virtual RField R__1__drawInCameras__2__k__BackingField
+		protected RField r___0__drawInCameras__1__k__BackingField;
+		public virtual RField R__0__drawInCameras__1__k__BackingField
 		{
 			get
 			{
-				if(r___1__drawInCameras__2__k__BackingField == null)
+				if(r___0__drawInCameras__1__k__BackingField == null)
 				{
-					r___1__drawInCameras__2__k__BackingField = new(this, "<drawInCameras>k__BackingField");
-					r___1__drawInCameras__2__k__BackingField.SetBelong(this.instance);
+					r___0__drawInCameras__1__k__BackingField = new(this, "<drawInCameras>k__BackingField");
+					r___0__drawInCameras__1__k__BackingField.SetBelong(this.instance);
 				}
-				return r___1__drawInCameras__2__k__BackingField;
+				return r___0__drawInCameras__1__k__BackingField;
 			}
 		}
 
@@ -931,663 +931,663 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// Void Constructor(UnityEngine.UIElements.BaseVisualElementPanel, UnityEngine.UIElements.UIR.UIRenderDevice, UnityEngine.UIElements.AtlasBase, UnityEngine.UIElements.UIR.VectorImageManager)
 		/// </summary>
-		protected RMethod r_RConstructor_BaseVisualElementPanel_UIRenderDevice_AtlasBase_VectorImageManager;
+		protected RMethod r_Constructor_BaseVisualElementPanel_UIRenderDevice_AtlasBase_VectorImageManager;
 		public virtual RMethod RConstructor_BaseVisualElementPanel_UIRenderDevice_AtlasBase_VectorImageManager
 		{
 			get
 			{
-				if(r_RConstructor_BaseVisualElementPanel_UIRenderDevice_AtlasBase_VectorImageManager == null)
+				if(r_Constructor_BaseVisualElementPanel_UIRenderDevice_AtlasBase_VectorImageManager == null)
 				{
-					r_RConstructor_BaseVisualElementPanel_UIRenderDevice_AtlasBase_VectorImageManager = new(this, "Constructor", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.BaseVisualElementPanel"),  ReleactionUtils.GetType("UnityEngine.UIElements.UIR.UIRenderDevice"),  ReleactionUtils.GetType("UnityEngine.UIElements.AtlasBase"),  ReleactionUtils.GetType("UnityEngine.UIElements.UIR.VectorImageManager"));
-					r_RConstructor_BaseVisualElementPanel_UIRenderDevice_AtlasBase_VectorImageManager.SetBelong(this.instance);
+					r_Constructor_BaseVisualElementPanel_UIRenderDevice_AtlasBase_VectorImageManager = new(this, "Constructor", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.BaseVisualElementPanel"),  ReleactionUtils.GetType("UnityEngine.UIElements.UIR.UIRenderDevice"),  ReleactionUtils.GetType("UnityEngine.UIElements.AtlasBase"),  ReleactionUtils.GetType("UnityEngine.UIElements.UIR.VectorImageManager"));
+					r_Constructor_BaseVisualElementPanel_UIRenderDevice_AtlasBase_VectorImageManager.SetBelong(this.instance);
 				}
-				return r_RConstructor_BaseVisualElementPanel_UIRenderDevice_AtlasBase_VectorImageManager;
+				return r_Constructor_BaseVisualElementPanel_UIRenderDevice_AtlasBase_VectorImageManager;
 			}
 		}
 
 		/// <summary>
 		/// Void Destructor()
 		/// </summary>
-		protected RMethod r_RDestructor;
+		protected RMethod r_Destructor;
 		public virtual RMethod RDestructor
 		{
 			get
 			{
-				if(r_RDestructor == null)
+				if(r_Destructor == null)
 				{
-					r_RDestructor = new(this, "Destructor", 0);
-					r_RDestructor.SetBelong(this.instance);
+					r_Destructor = new(this, "Destructor", 0);
+					r_Destructor.SetBelong(this.instance);
 				}
-				return r_RDestructor;
+				return r_Destructor;
 			}
 		}
 
 		/// <summary>
 		/// Void Dispose()
 		/// </summary>
-		protected RMethod r_RDispose;
+		protected RMethod r_Dispose;
 		public virtual RMethod RDispose
 		{
 			get
 			{
-				if(r_RDispose == null)
+				if(r_Dispose == null)
 				{
-					r_RDispose = new(this, "Dispose", 0);
-					r_RDispose.SetBelong(this.instance);
+					r_Dispose = new(this, "Dispose", 0);
+					r_Dispose.SetBelong(this.instance);
 				}
-				return r_RDispose;
+				return r_Dispose;
 			}
 		}
 
 		/// <summary>
 		/// Void Dispose(Boolean)
 		/// </summary>
-		protected RMethod r_RDispose_Boolean;
+		protected RMethod r_Dispose_Boolean;
 		public virtual RMethod RDispose_Boolean
 		{
 			get
 			{
-				if(r_RDispose_Boolean == null)
+				if(r_Dispose_Boolean == null)
 				{
-					r_RDispose_Boolean = new(this, "Dispose", 0, typeof(System.Boolean));
-					r_RDispose_Boolean.SetBelong(this.instance);
+					r_Dispose_Boolean = new(this, "Dispose", 0, typeof(System.Boolean));
+					r_Dispose_Boolean.SetBelong(this.instance);
 				}
-				return r_RDispose_Boolean;
+				return r_Dispose_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Void ProcessChanges()
 		/// </summary>
-		protected RMethod r_RProcessChanges;
+		protected RMethod r_ProcessChanges;
 		public virtual RMethod RProcessChanges
 		{
 			get
 			{
-				if(r_RProcessChanges == null)
+				if(r_ProcessChanges == null)
 				{
-					r_RProcessChanges = new(this, "ProcessChanges", 0);
-					r_RProcessChanges.SetBelong(this.instance);
+					r_ProcessChanges = new(this, "ProcessChanges", 0);
+					r_ProcessChanges.SetBelong(this.instance);
 				}
-				return r_RProcessChanges;
+				return r_ProcessChanges;
 			}
 		}
 
 		/// <summary>
 		/// Void Render()
 		/// </summary>
-		protected RMethod r_RRender;
+		protected RMethod r_Render;
 		public virtual RMethod RRender
 		{
 			get
 			{
-				if(r_RRender == null)
+				if(r_Render == null)
 				{
-					r_RRender = new(this, "Render", 0);
-					r_RRender.SetBelong(this.instance);
+					r_Render = new(this, "Render", 0);
+					r_Render.SetBelong(this.instance);
 				}
-				return r_RRender;
+				return r_Render;
 			}
 		}
 
 		/// <summary>
 		/// Void UIEOnChildAdded(UnityEngine.UIElements.VisualElement)
 		/// </summary>
-		protected RMethod r_RUIEOnChildAdded_VisualElement;
+		protected RMethod r_UIEOnChildAdded_VisualElement;
 		public virtual RMethod RUIEOnChildAdded_VisualElement
 		{
 			get
 			{
-				if(r_RUIEOnChildAdded_VisualElement == null)
+				if(r_UIEOnChildAdded_VisualElement == null)
 				{
-					r_RUIEOnChildAdded_VisualElement = new(this, "UIEOnChildAdded", 0, typeof(UnityEngine.UIElements.VisualElement));
-					r_RUIEOnChildAdded_VisualElement.SetBelong(this.instance);
+					r_UIEOnChildAdded_VisualElement = new(this, "UIEOnChildAdded", 0, typeof(UnityEngine.UIElements.VisualElement));
+					r_UIEOnChildAdded_VisualElement.SetBelong(this.instance);
 				}
-				return r_RUIEOnChildAdded_VisualElement;
+				return r_UIEOnChildAdded_VisualElement;
 			}
 		}
 
 		/// <summary>
 		/// Void UIEOnChildrenReordered(UnityEngine.UIElements.VisualElement)
 		/// </summary>
-		protected RMethod r_RUIEOnChildrenReordered_VisualElement;
+		protected RMethod r_UIEOnChildrenReordered_VisualElement;
 		public virtual RMethod RUIEOnChildrenReordered_VisualElement
 		{
 			get
 			{
-				if(r_RUIEOnChildrenReordered_VisualElement == null)
+				if(r_UIEOnChildrenReordered_VisualElement == null)
 				{
-					r_RUIEOnChildrenReordered_VisualElement = new(this, "UIEOnChildrenReordered", 0, typeof(UnityEngine.UIElements.VisualElement));
-					r_RUIEOnChildrenReordered_VisualElement.SetBelong(this.instance);
+					r_UIEOnChildrenReordered_VisualElement = new(this, "UIEOnChildrenReordered", 0, typeof(UnityEngine.UIElements.VisualElement));
+					r_UIEOnChildrenReordered_VisualElement.SetBelong(this.instance);
 				}
-				return r_RUIEOnChildrenReordered_VisualElement;
+				return r_UIEOnChildrenReordered_VisualElement;
 			}
 		}
 
 		/// <summary>
 		/// Void UIEOnChildRemoving(UnityEngine.UIElements.VisualElement)
 		/// </summary>
-		protected RMethod r_RUIEOnChildRemoving_VisualElement;
+		protected RMethod r_UIEOnChildRemoving_VisualElement;
 		public virtual RMethod RUIEOnChildRemoving_VisualElement
 		{
 			get
 			{
-				if(r_RUIEOnChildRemoving_VisualElement == null)
+				if(r_UIEOnChildRemoving_VisualElement == null)
 				{
-					r_RUIEOnChildRemoving_VisualElement = new(this, "UIEOnChildRemoving", 0, typeof(UnityEngine.UIElements.VisualElement));
-					r_RUIEOnChildRemoving_VisualElement.SetBelong(this.instance);
+					r_UIEOnChildRemoving_VisualElement = new(this, "UIEOnChildRemoving", 0, typeof(UnityEngine.UIElements.VisualElement));
+					r_UIEOnChildRemoving_VisualElement.SetBelong(this.instance);
 				}
-				return r_RUIEOnChildRemoving_VisualElement;
+				return r_UIEOnChildRemoving_VisualElement;
 			}
 		}
 
 		/// <summary>
 		/// Void UIEOnRenderHintsChanged(UnityEngine.UIElements.VisualElement)
 		/// </summary>
-		protected RMethod r_RUIEOnRenderHintsChanged_VisualElement;
+		protected RMethod r_UIEOnRenderHintsChanged_VisualElement;
 		public virtual RMethod RUIEOnRenderHintsChanged_VisualElement
 		{
 			get
 			{
-				if(r_RUIEOnRenderHintsChanged_VisualElement == null)
+				if(r_UIEOnRenderHintsChanged_VisualElement == null)
 				{
-					r_RUIEOnRenderHintsChanged_VisualElement = new(this, "UIEOnRenderHintsChanged", 0, typeof(UnityEngine.UIElements.VisualElement));
-					r_RUIEOnRenderHintsChanged_VisualElement.SetBelong(this.instance);
+					r_UIEOnRenderHintsChanged_VisualElement = new(this, "UIEOnRenderHintsChanged", 0, typeof(UnityEngine.UIElements.VisualElement));
+					r_UIEOnRenderHintsChanged_VisualElement.SetBelong(this.instance);
 				}
-				return r_RUIEOnRenderHintsChanged_VisualElement;
+				return r_UIEOnRenderHintsChanged_VisualElement;
 			}
 		}
 
 		/// <summary>
 		/// Void UIEOnClippingChanged(UnityEngine.UIElements.VisualElement, Boolean)
 		/// </summary>
-		protected RMethod r_RUIEOnClippingChanged_VisualElement_Boolean;
+		protected RMethod r_UIEOnClippingChanged_VisualElement_Boolean;
 		public virtual RMethod RUIEOnClippingChanged_VisualElement_Boolean
 		{
 			get
 			{
-				if(r_RUIEOnClippingChanged_VisualElement_Boolean == null)
+				if(r_UIEOnClippingChanged_VisualElement_Boolean == null)
 				{
-					r_RUIEOnClippingChanged_VisualElement_Boolean = new(this, "UIEOnClippingChanged", 0, typeof(UnityEngine.UIElements.VisualElement), typeof(System.Boolean));
-					r_RUIEOnClippingChanged_VisualElement_Boolean.SetBelong(this.instance);
+					r_UIEOnClippingChanged_VisualElement_Boolean = new(this, "UIEOnClippingChanged", 0, typeof(UnityEngine.UIElements.VisualElement), typeof(System.Boolean));
+					r_UIEOnClippingChanged_VisualElement_Boolean.SetBelong(this.instance);
 				}
-				return r_RUIEOnClippingChanged_VisualElement_Boolean;
+				return r_UIEOnClippingChanged_VisualElement_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Void UIEOnOpacityChanged(UnityEngine.UIElements.VisualElement, Boolean)
 		/// </summary>
-		protected RMethod r_RUIEOnOpacityChanged_VisualElement_Boolean;
+		protected RMethod r_UIEOnOpacityChanged_VisualElement_Boolean;
 		public virtual RMethod RUIEOnOpacityChanged_VisualElement_Boolean
 		{
 			get
 			{
-				if(r_RUIEOnOpacityChanged_VisualElement_Boolean == null)
+				if(r_UIEOnOpacityChanged_VisualElement_Boolean == null)
 				{
-					r_RUIEOnOpacityChanged_VisualElement_Boolean = new(this, "UIEOnOpacityChanged", 0, typeof(UnityEngine.UIElements.VisualElement), typeof(System.Boolean));
-					r_RUIEOnOpacityChanged_VisualElement_Boolean.SetBelong(this.instance);
+					r_UIEOnOpacityChanged_VisualElement_Boolean = new(this, "UIEOnOpacityChanged", 0, typeof(UnityEngine.UIElements.VisualElement), typeof(System.Boolean));
+					r_UIEOnOpacityChanged_VisualElement_Boolean.SetBelong(this.instance);
 				}
-				return r_RUIEOnOpacityChanged_VisualElement_Boolean;
+				return r_UIEOnOpacityChanged_VisualElement_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Void UIEOnColorChanged(UnityEngine.UIElements.VisualElement)
 		/// </summary>
-		protected RMethod r_RUIEOnColorChanged_VisualElement;
+		protected RMethod r_UIEOnColorChanged_VisualElement;
 		public virtual RMethod RUIEOnColorChanged_VisualElement
 		{
 			get
 			{
-				if(r_RUIEOnColorChanged_VisualElement == null)
+				if(r_UIEOnColorChanged_VisualElement == null)
 				{
-					r_RUIEOnColorChanged_VisualElement = new(this, "UIEOnColorChanged", 0, typeof(UnityEngine.UIElements.VisualElement));
-					r_RUIEOnColorChanged_VisualElement.SetBelong(this.instance);
+					r_UIEOnColorChanged_VisualElement = new(this, "UIEOnColorChanged", 0, typeof(UnityEngine.UIElements.VisualElement));
+					r_UIEOnColorChanged_VisualElement.SetBelong(this.instance);
 				}
-				return r_RUIEOnColorChanged_VisualElement;
+				return r_UIEOnColorChanged_VisualElement;
 			}
 		}
 
 		/// <summary>
 		/// Void UIEOnTransformOrSizeChanged(UnityEngine.UIElements.VisualElement, Boolean, Boolean)
 		/// </summary>
-		protected RMethod r_RUIEOnTransformOrSizeChanged_VisualElement_Boolean_Boolean;
+		protected RMethod r_UIEOnTransformOrSizeChanged_VisualElement_Boolean_Boolean;
 		public virtual RMethod RUIEOnTransformOrSizeChanged_VisualElement_Boolean_Boolean
 		{
 			get
 			{
-				if(r_RUIEOnTransformOrSizeChanged_VisualElement_Boolean_Boolean == null)
+				if(r_UIEOnTransformOrSizeChanged_VisualElement_Boolean_Boolean == null)
 				{
-					r_RUIEOnTransformOrSizeChanged_VisualElement_Boolean_Boolean = new(this, "UIEOnTransformOrSizeChanged", 0, typeof(UnityEngine.UIElements.VisualElement), typeof(System.Boolean), typeof(System.Boolean));
-					r_RUIEOnTransformOrSizeChanged_VisualElement_Boolean_Boolean.SetBelong(this.instance);
+					r_UIEOnTransformOrSizeChanged_VisualElement_Boolean_Boolean = new(this, "UIEOnTransformOrSizeChanged", 0, typeof(UnityEngine.UIElements.VisualElement), typeof(System.Boolean), typeof(System.Boolean));
+					r_UIEOnTransformOrSizeChanged_VisualElement_Boolean_Boolean.SetBelong(this.instance);
 				}
-				return r_RUIEOnTransformOrSizeChanged_VisualElement_Boolean_Boolean;
+				return r_UIEOnTransformOrSizeChanged_VisualElement_Boolean_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Void UIEOnVisualsChanged(UnityEngine.UIElements.VisualElement, Boolean)
 		/// </summary>
-		protected RMethod r_RUIEOnVisualsChanged_VisualElement_Boolean;
+		protected RMethod r_UIEOnVisualsChanged_VisualElement_Boolean;
 		public virtual RMethod RUIEOnVisualsChanged_VisualElement_Boolean
 		{
 			get
 			{
-				if(r_RUIEOnVisualsChanged_VisualElement_Boolean == null)
+				if(r_UIEOnVisualsChanged_VisualElement_Boolean == null)
 				{
-					r_RUIEOnVisualsChanged_VisualElement_Boolean = new(this, "UIEOnVisualsChanged", 0, typeof(UnityEngine.UIElements.VisualElement), typeof(System.Boolean));
-					r_RUIEOnVisualsChanged_VisualElement_Boolean.SetBelong(this.instance);
+					r_UIEOnVisualsChanged_VisualElement_Boolean = new(this, "UIEOnVisualsChanged", 0, typeof(UnityEngine.UIElements.VisualElement), typeof(System.Boolean));
+					r_UIEOnVisualsChanged_VisualElement_Boolean.SetBelong(this.instance);
 				}
-				return r_RUIEOnVisualsChanged_VisualElement_Boolean;
+				return r_UIEOnVisualsChanged_VisualElement_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Void UIEOnOpacityIdChanged(UnityEngine.UIElements.VisualElement)
 		/// </summary>
-		protected RMethod r_RUIEOnOpacityIdChanged_VisualElement;
+		protected RMethod r_UIEOnOpacityIdChanged_VisualElement;
 		public virtual RMethod RUIEOnOpacityIdChanged_VisualElement
 		{
 			get
 			{
-				if(r_RUIEOnOpacityIdChanged_VisualElement == null)
+				if(r_UIEOnOpacityIdChanged_VisualElement == null)
 				{
-					r_RUIEOnOpacityIdChanged_VisualElement = new(this, "UIEOnOpacityIdChanged", 0, typeof(UnityEngine.UIElements.VisualElement));
-					r_RUIEOnOpacityIdChanged_VisualElement.SetBelong(this.instance);
+					r_UIEOnOpacityIdChanged_VisualElement = new(this, "UIEOnOpacityIdChanged", 0, typeof(UnityEngine.UIElements.VisualElement));
+					r_UIEOnOpacityIdChanged_VisualElement.SetBelong(this.instance);
 				}
-				return r_RUIEOnOpacityIdChanged_VisualElement;
+				return r_UIEOnOpacityIdChanged_VisualElement;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Material GetStandardMaterial()
 		/// </summary>
-		protected RMethod r_RGetStandardMaterial;
+		protected RMethod r_GetStandardMaterial;
 		public virtual RMethod RGetStandardMaterial
 		{
 			get
 			{
-				if(r_RGetStandardMaterial == null)
+				if(r_GetStandardMaterial == null)
 				{
-					r_RGetStandardMaterial = new(this, "GetStandardMaterial", 0);
-					r_RGetStandardMaterial.SetBelong(this.instance);
+					r_GetStandardMaterial = new(this, "GetStandardMaterial", 0);
+					r_GetStandardMaterial.SetBelong(this.instance);
 				}
-				return r_RGetStandardMaterial;
+				return r_GetStandardMaterial;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Material GetStandardWorldSpaceMaterial()
 		/// </summary>
-		protected RMethod r_RGetStandardWorldSpaceMaterial;
+		protected RMethod r_GetStandardWorldSpaceMaterial;
 		public virtual RMethod RGetStandardWorldSpaceMaterial
 		{
 			get
 			{
-				if(r_RGetStandardWorldSpaceMaterial == null)
+				if(r_GetStandardWorldSpaceMaterial == null)
 				{
-					r_RGetStandardWorldSpaceMaterial = new(this, "GetStandardWorldSpaceMaterial", 0);
-					r_RGetStandardWorldSpaceMaterial.SetBelong(this.instance);
+					r_GetStandardWorldSpaceMaterial = new(this, "GetStandardWorldSpaceMaterial", 0);
+					r_GetStandardWorldSpaceMaterial.SetBelong(this.instance);
 				}
-				return r_RGetStandardWorldSpaceMaterial;
+				return r_GetStandardWorldSpaceMaterial;
 			}
 		}
 
 		/// <summary>
 		/// Void EnsureFitsDepth(Int32)
 		/// </summary>
-		protected RMethod r_REnsureFitsDepth_Int32;
+		protected RMethod r_EnsureFitsDepth_Int32;
 		public virtual RMethod REnsureFitsDepth_Int32
 		{
 			get
 			{
-				if(r_REnsureFitsDepth_Int32 == null)
+				if(r_EnsureFitsDepth_Int32 == null)
 				{
-					r_REnsureFitsDepth_Int32 = new(this, "EnsureFitsDepth", 0, typeof(System.Int32));
-					r_REnsureFitsDepth_Int32.SetBelong(this.instance);
+					r_EnsureFitsDepth_Int32 = new(this, "EnsureFitsDepth", 0, typeof(System.Int32));
+					r_EnsureFitsDepth_Int32.SetBelong(this.instance);
 				}
-				return r_REnsureFitsDepth_Int32;
+				return r_EnsureFitsDepth_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Void ChildWillBeRemoved(UnityEngine.UIElements.VisualElement)
 		/// </summary>
-		protected RMethod r_RChildWillBeRemoved_VisualElement;
+		protected RMethod r_ChildWillBeRemoved_VisualElement;
 		public virtual RMethod RChildWillBeRemoved_VisualElement
 		{
 			get
 			{
-				if(r_RChildWillBeRemoved_VisualElement == null)
+				if(r_ChildWillBeRemoved_VisualElement == null)
 				{
-					r_RChildWillBeRemoved_VisualElement = new(this, "ChildWillBeRemoved", 0, typeof(UnityEngine.UIElements.VisualElement));
-					r_RChildWillBeRemoved_VisualElement.SetBelong(this.instance);
+					r_ChildWillBeRemoved_VisualElement = new(this, "ChildWillBeRemoved", 0, typeof(UnityEngine.UIElements.VisualElement));
+					r_ChildWillBeRemoved_VisualElement.SetBelong(this.instance);
 				}
-				return r_RChildWillBeRemoved_VisualElement;
+				return r_ChildWillBeRemoved_VisualElement;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.UIR.RenderChainCommand AllocCommand()
 		/// </summary>
-		protected RMethod r_RAllocCommand;
+		protected RMethod r_AllocCommand;
 		public virtual RMethod RAllocCommand
 		{
 			get
 			{
-				if(r_RAllocCommand == null)
+				if(r_AllocCommand == null)
 				{
-					r_RAllocCommand = new(this, "AllocCommand", 0);
-					r_RAllocCommand.SetBelong(this.instance);
+					r_AllocCommand = new(this, "AllocCommand", 0);
+					r_AllocCommand.SetBelong(this.instance);
 				}
-				return r_RAllocCommand;
+				return r_AllocCommand;
 			}
 		}
 
 		/// <summary>
 		/// Void FreeCommand(UnityEngine.UIElements.UIR.RenderChainCommand)
 		/// </summary>
-		protected RMethod r_RFreeCommand_RenderChainCommand;
+		protected RMethod r_FreeCommand_RenderChainCommand;
 		public virtual RMethod RFreeCommand_RenderChainCommand
 		{
 			get
 			{
-				if(r_RFreeCommand_RenderChainCommand == null)
+				if(r_FreeCommand_RenderChainCommand == null)
 				{
-					r_RFreeCommand_RenderChainCommand = new(this, "FreeCommand", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.UIR.RenderChainCommand"));
-					r_RFreeCommand_RenderChainCommand.SetBelong(this.instance);
+					r_FreeCommand_RenderChainCommand = new(this, "FreeCommand", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.UIR.RenderChainCommand"));
+					r_FreeCommand_RenderChainCommand.SetBelong(this.instance);
 				}
-				return r_RFreeCommand_RenderChainCommand;
+				return r_FreeCommand_RenderChainCommand;
 			}
 		}
 
 		/// <summary>
 		/// Void OnRenderCommandAdded(UnityEngine.UIElements.UIR.RenderChainCommand)
 		/// </summary>
-		protected RMethod r_ROnRenderCommandAdded_RenderChainCommand;
+		protected RMethod r_OnRenderCommandAdded_RenderChainCommand;
 		public virtual RMethod ROnRenderCommandAdded_RenderChainCommand
 		{
 			get
 			{
-				if(r_ROnRenderCommandAdded_RenderChainCommand == null)
+				if(r_OnRenderCommandAdded_RenderChainCommand == null)
 				{
-					r_ROnRenderCommandAdded_RenderChainCommand = new(this, "OnRenderCommandAdded", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.UIR.RenderChainCommand"));
-					r_ROnRenderCommandAdded_RenderChainCommand.SetBelong(this.instance);
+					r_OnRenderCommandAdded_RenderChainCommand = new(this, "OnRenderCommandAdded", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.UIR.RenderChainCommand"));
+					r_OnRenderCommandAdded_RenderChainCommand.SetBelong(this.instance);
 				}
-				return r_ROnRenderCommandAdded_RenderChainCommand;
+				return r_OnRenderCommandAdded_RenderChainCommand;
 			}
 		}
 
 		/// <summary>
 		/// Void OnRenderCommandsRemoved(UnityEngine.UIElements.UIR.RenderChainCommand, UnityEngine.UIElements.UIR.RenderChainCommand)
 		/// </summary>
-		protected RMethod r_ROnRenderCommandsRemoved_RenderChainCommand_RenderChainCommand;
+		protected RMethod r_OnRenderCommandsRemoved_RenderChainCommand_RenderChainCommand;
 		public virtual RMethod ROnRenderCommandsRemoved_RenderChainCommand_RenderChainCommand
 		{
 			get
 			{
-				if(r_ROnRenderCommandsRemoved_RenderChainCommand_RenderChainCommand == null)
+				if(r_OnRenderCommandsRemoved_RenderChainCommand_RenderChainCommand == null)
 				{
-					r_ROnRenderCommandsRemoved_RenderChainCommand_RenderChainCommand = new(this, "OnRenderCommandsRemoved", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.UIR.RenderChainCommand"),  ReleactionUtils.GetType("UnityEngine.UIElements.UIR.RenderChainCommand"));
-					r_ROnRenderCommandsRemoved_RenderChainCommand_RenderChainCommand.SetBelong(this.instance);
+					r_OnRenderCommandsRemoved_RenderChainCommand_RenderChainCommand = new(this, "OnRenderCommandsRemoved", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.UIR.RenderChainCommand"),  ReleactionUtils.GetType("UnityEngine.UIElements.UIR.RenderChainCommand"));
+					r_OnRenderCommandsRemoved_RenderChainCommand_RenderChainCommand.SetBelong(this.instance);
 				}
-				return r_ROnRenderCommandsRemoved_RenderChainCommand_RenderChainCommand;
+				return r_OnRenderCommandsRemoved_RenderChainCommand_RenderChainCommand;
 			}
 		}
 
 		/// <summary>
 		/// RenderNodeData AccessRenderNodeData(IntPtr)
 		/// </summary>
-		protected static RMethod r_RAccessRenderNodeData_IntPtr;
+		protected static RMethod r_AccessRenderNodeData_IntPtr;
 		public static RMethod RAccessRenderNodeData_IntPtr
 		{
 			get
 			{
-				if(r_RAccessRenderNodeData_IntPtr == null)
+				if(r_AccessRenderNodeData_IntPtr == null)
 				{
-					r_RAccessRenderNodeData_IntPtr = new( ReleactionUtils.GetType("UnityEngine.UIElements.UIR.RenderChain"), "AccessRenderNodeData", 0, typeof(System.IntPtr));
-					r_RAccessRenderNodeData_IntPtr.SetBelong(null);
+					r_AccessRenderNodeData_IntPtr = new( ReleactionUtils.GetType("UnityEngine.UIElements.UIR.RenderChain"), "AccessRenderNodeData", 0, typeof(System.IntPtr));
+					r_AccessRenderNodeData_IntPtr.SetBelong(null);
 				}
-				return r_RAccessRenderNodeData_IntPtr;
+				return r_AccessRenderNodeData_IntPtr;
 			}
 		}
 
 		/// <summary>
 		/// Void OnRenderNodeExecute(IntPtr)
 		/// </summary>
-		protected static RMethod r_ROnRenderNodeExecute_IntPtr;
+		protected static RMethod r_OnRenderNodeExecute_IntPtr;
 		public static RMethod ROnRenderNodeExecute_IntPtr
 		{
 			get
 			{
-				if(r_ROnRenderNodeExecute_IntPtr == null)
+				if(r_OnRenderNodeExecute_IntPtr == null)
 				{
-					r_ROnRenderNodeExecute_IntPtr = new( ReleactionUtils.GetType("UnityEngine.UIElements.UIR.RenderChain"), "OnRenderNodeExecute", 0, typeof(System.IntPtr));
-					r_ROnRenderNodeExecute_IntPtr.SetBelong(null);
+					r_OnRenderNodeExecute_IntPtr = new( ReleactionUtils.GetType("UnityEngine.UIElements.UIR.RenderChain"), "OnRenderNodeExecute", 0, typeof(System.IntPtr));
+					r_OnRenderNodeExecute_IntPtr.SetBelong(null);
 				}
-				return r_ROnRenderNodeExecute_IntPtr;
+				return r_OnRenderNodeExecute_IntPtr;
 			}
 		}
 
 		/// <summary>
 		/// Void OnRegisterIntermediateRenderers(UnityEngine.Camera)
 		/// </summary>
-		protected static RMethod r_ROnRegisterIntermediateRenderers_Camera;
+		protected static RMethod r_OnRegisterIntermediateRenderers_Camera;
 		public static RMethod ROnRegisterIntermediateRenderers_Camera
 		{
 			get
 			{
-				if(r_ROnRegisterIntermediateRenderers_Camera == null)
+				if(r_OnRegisterIntermediateRenderers_Camera == null)
 				{
-					r_ROnRegisterIntermediateRenderers_Camera = new( ReleactionUtils.GetType("UnityEngine.UIElements.UIR.RenderChain"), "OnRegisterIntermediateRenderers", 0, typeof(UnityEngine.Camera));
-					r_ROnRegisterIntermediateRenderers_Camera.SetBelong(null);
+					r_OnRegisterIntermediateRenderers_Camera = new( ReleactionUtils.GetType("UnityEngine.UIElements.UIR.RenderChain"), "OnRegisterIntermediateRenderers", 0, typeof(UnityEngine.Camera));
+					r_OnRegisterIntermediateRenderers_Camera.SetBelong(null);
 				}
-				return r_ROnRegisterIntermediateRenderers_Camera;
+				return r_OnRegisterIntermediateRenderers_Camera;
 			}
 		}
 
 		/// <summary>
 		/// Void OnRegisterIntermediateRendererMat(UnityEngine.UIElements.BaseRuntimePanel, UnityEngine.UIElements.UIR.RenderChain, RenderNodeData ByRef, UnityEngine.Camera, Int32)
 		/// </summary>
-		protected static RMethod r_ROnRegisterIntermediateRendererMat_BaseRuntimePanel_RenderChain_Ref_RenderNodeData_Camera_Int32;
+		protected static RMethod r_OnRegisterIntermediateRendererMat_BaseRuntimePanel_RenderChain_Ref_RenderNodeData_Camera_Int32;
 		public static RMethod ROnRegisterIntermediateRendererMat_BaseRuntimePanel_RenderChain_Ref_RenderNodeData_Camera_Int32
 		{
 			get
 			{
-				if(r_ROnRegisterIntermediateRendererMat_BaseRuntimePanel_RenderChain_Ref_RenderNodeData_Camera_Int32 == null)
+				if(r_OnRegisterIntermediateRendererMat_BaseRuntimePanel_RenderChain_Ref_RenderNodeData_Camera_Int32 == null)
 				{
-					r_ROnRegisterIntermediateRendererMat_BaseRuntimePanel_RenderChain_Ref_RenderNodeData_Camera_Int32 = new( ReleactionUtils.GetType("UnityEngine.UIElements.UIR.RenderChain"), "OnRegisterIntermediateRendererMat", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.BaseRuntimePanel"),  ReleactionUtils.GetType("UnityEngine.UIElements.UIR.RenderChain"),  ReleactionUtils.GetType("UnityEngine.UIElements.UIR.RenderChain+RenderNodeData").MakeByRefType(), typeof(UnityEngine.Camera), typeof(System.Int32));
-					r_ROnRegisterIntermediateRendererMat_BaseRuntimePanel_RenderChain_Ref_RenderNodeData_Camera_Int32.SetBelong(null);
+					r_OnRegisterIntermediateRendererMat_BaseRuntimePanel_RenderChain_Ref_RenderNodeData_Camera_Int32 = new( ReleactionUtils.GetType("UnityEngine.UIElements.UIR.RenderChain"), "OnRegisterIntermediateRendererMat", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.BaseRuntimePanel"),  ReleactionUtils.GetType("UnityEngine.UIElements.UIR.RenderChain"),  ReleactionUtils.GetType("UnityEngine.UIElements.UIR.RenderChain+RenderNodeData").MakeByRefType(), typeof(UnityEngine.Camera), typeof(System.Int32));
+					r_OnRegisterIntermediateRendererMat_BaseRuntimePanel_RenderChain_Ref_RenderNodeData_Camera_Int32.SetBelong(null);
 				}
-				return r_ROnRegisterIntermediateRendererMat_BaseRuntimePanel_RenderChain_Ref_RenderNodeData_Camera_Int32;
+				return r_OnRegisterIntermediateRendererMat_BaseRuntimePanel_RenderChain_Ref_RenderNodeData_Camera_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Void RepaintTexturedElements()
 		/// </summary>
-		protected RMethod r_RRepaintTexturedElements;
+		protected RMethod r_RepaintTexturedElements;
 		public virtual RMethod RRepaintTexturedElements
 		{
 			get
 			{
-				if(r_RRepaintTexturedElements == null)
+				if(r_RepaintTexturedElements == null)
 				{
-					r_RRepaintTexturedElements = new(this, "RepaintTexturedElements", 0);
-					r_RRepaintTexturedElements.SetBelong(this.instance);
+					r_RepaintTexturedElements = new(this, "RepaintTexturedElements", 0);
+					r_RepaintTexturedElements.SetBelong(this.instance);
 				}
-				return r_RRepaintTexturedElements;
+				return r_RepaintTexturedElements;
 			}
 		}
 
 		/// <summary>
 		/// Void AppendTexture(UnityEngine.UIElements.VisualElement, UnityEngine.Texture, UnityEngine.UIElements.TextureId, Boolean)
 		/// </summary>
-		protected RMethod r_RAppendTexture_VisualElement_Texture_TextureId_Boolean;
+		protected RMethod r_AppendTexture_VisualElement_Texture_TextureId_Boolean;
 		public virtual RMethod RAppendTexture_VisualElement_Texture_TextureId_Boolean
 		{
 			get
 			{
-				if(r_RAppendTexture_VisualElement_Texture_TextureId_Boolean == null)
+				if(r_AppendTexture_VisualElement_Texture_TextureId_Boolean == null)
 				{
-					r_RAppendTexture_VisualElement_Texture_TextureId_Boolean = new(this, "AppendTexture", 0, typeof(UnityEngine.UIElements.VisualElement), typeof(UnityEngine.Texture),  ReleactionUtils.GetType("UnityEngine.UIElements.TextureId"), typeof(System.Boolean));
-					r_RAppendTexture_VisualElement_Texture_TextureId_Boolean.SetBelong(this.instance);
+					r_AppendTexture_VisualElement_Texture_TextureId_Boolean = new(this, "AppendTexture", 0, typeof(UnityEngine.UIElements.VisualElement), typeof(UnityEngine.Texture),  ReleactionUtils.GetType("UnityEngine.UIElements.TextureId"), typeof(System.Boolean));
+					r_AppendTexture_VisualElement_Texture_TextureId_Boolean.SetBelong(this.instance);
 				}
-				return r_RAppendTexture_VisualElement_Texture_TextureId_Boolean;
+				return r_AppendTexture_VisualElement_Texture_TextureId_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Void ResetTextures(UnityEngine.UIElements.VisualElement)
 		/// </summary>
-		protected RMethod r_RResetTextures_VisualElement;
+		protected RMethod r_ResetTextures_VisualElement;
 		public virtual RMethod RResetTextures_VisualElement
 		{
 			get
 			{
-				if(r_RResetTextures_VisualElement == null)
+				if(r_ResetTextures_VisualElement == null)
 				{
-					r_RResetTextures_VisualElement = new(this, "ResetTextures", 0, typeof(UnityEngine.UIElements.VisualElement));
-					r_RResetTextures_VisualElement.SetBelong(this.instance);
+					r_ResetTextures_VisualElement = new(this, "ResetTextures", 0, typeof(UnityEngine.UIElements.VisualElement));
+					r_ResetTextures_VisualElement.SetBelong(this.instance);
 				}
-				return r_RResetTextures_VisualElement;
+				return r_ResetTextures_VisualElement;
 			}
 		}
 
 		/// <summary>
 		/// Void DrawStats()
 		/// </summary>
-		protected RMethod r_RDrawStats;
+		protected RMethod r_DrawStats;
 		public virtual RMethod RDrawStats
 		{
 			get
 			{
-				if(r_RDrawStats == null)
+				if(r_DrawStats == null)
 				{
-					r_RDrawStats = new(this, "DrawStats", 0);
-					r_RDrawStats.SetBelong(this.instance);
+					r_DrawStats = new(this, "DrawStats", 0);
+					r_DrawStats.SetBelong(this.instance);
 				}
-				return r_RDrawStats;
+				return r_DrawStats;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.VisualElement GetFirstElementInPanel(UnityEngine.UIElements.VisualElement)
 		/// </summary>
-		protected static RMethod r_RGetFirstElementInPanel_VisualElement;
+		protected static RMethod r_GetFirstElementInPanel_VisualElement;
 		public static RMethod RGetFirstElementInPanel_VisualElement
 		{
 			get
 			{
-				if(r_RGetFirstElementInPanel_VisualElement == null)
+				if(r_GetFirstElementInPanel_VisualElement == null)
 				{
-					r_RGetFirstElementInPanel_VisualElement = new( ReleactionUtils.GetType("UnityEngine.UIElements.UIR.RenderChain"), "GetFirstElementInPanel", 0, typeof(UnityEngine.UIElements.VisualElement));
-					r_RGetFirstElementInPanel_VisualElement.SetBelong(null);
+					r_GetFirstElementInPanel_VisualElement = new( ReleactionUtils.GetType("UnityEngine.UIElements.UIR.RenderChain"), "GetFirstElementInPanel", 0, typeof(UnityEngine.UIElements.VisualElement));
+					r_GetFirstElementInPanel_VisualElement.SetBelong(null);
 				}
-				return r_RGetFirstElementInPanel_VisualElement;
+				return r_GetFirstElementInPanel_VisualElement;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Equals(System.Object)
 		/// </summary>
-		protected RMethod r_REquals_Object;
+		protected RMethod r_Equals_Object;
 		public virtual RMethod REquals_Object
 		{
 			get
 			{
-				if(r_REquals_Object == null)
+				if(r_Equals_Object == null)
 				{
-					r_REquals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_REquals_Object.SetBelong(this.instance);
+					r_Equals_Object = new(this, "Equals", 0, typeof(System.Object));
+					r_Equals_Object.SetBelong(this.instance);
 				}
-				return r_REquals_Object;
+				return r_Equals_Object;
 			}
 		}
 
 		/// <summary>
 		/// Void Finalize()
 		/// </summary>
-		protected RMethod r_RFinalize;
+		protected RMethod r_Finalize;
 		public virtual RMethod RFinalize
 		{
 			get
 			{
-				if(r_RFinalize == null)
+				if(r_Finalize == null)
 				{
-					r_RFinalize = new(this, "Finalize", 0);
-					r_RFinalize.SetBelong(this.instance);
+					r_Finalize = new(this, "Finalize", 0);
+					r_Finalize.SetBelong(this.instance);
 				}
-				return r_RFinalize;
+				return r_Finalize;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetHashCode()
 		/// </summary>
-		protected RMethod r_RGetHashCode;
+		protected RMethod r_GetHashCode;
 		public virtual RMethod RGetHashCode
 		{
 			get
 			{
-				if(r_RGetHashCode == null)
+				if(r_GetHashCode == null)
 				{
-					r_RGetHashCode = new(this, "GetHashCode", 0);
-					r_RGetHashCode.SetBelong(this.instance);
+					r_GetHashCode = new(this, "GetHashCode", 0);
+					r_GetHashCode.SetBelong(this.instance);
 				}
-				return r_RGetHashCode;
+				return r_GetHashCode;
 			}
 		}
 
 		/// <summary>
 		/// System.Type GetType()
 		/// </summary>
-		protected RMethod r_RGetType;
+		protected RMethod r_GetType;
 		public virtual RMethod RGetType
 		{
 			get
 			{
-				if(r_RGetType == null)
+				if(r_GetType == null)
 				{
-					r_RGetType = new(this, "GetType", 0);
-					r_RGetType.SetBelong(this.instance);
+					r_GetType = new(this, "GetType", 0);
+					r_GetType.SetBelong(this.instance);
 				}
-				return r_RGetType;
+				return r_GetType;
 			}
 		}
 
 		/// <summary>
 		/// System.Object MemberwiseClone()
 		/// </summary>
-		protected RMethod r_RMemberwiseClone;
+		protected RMethod r_MemberwiseClone;
 		public virtual RMethod RMemberwiseClone
 		{
 			get
 			{
-				if(r_RMemberwiseClone == null)
+				if(r_MemberwiseClone == null)
 				{
-					r_RMemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_RMemberwiseClone.SetBelong(this.instance);
+					r_MemberwiseClone = new(this, "MemberwiseClone", 0);
+					r_MemberwiseClone.SetBelong(this.instance);
 				}
-				return r_RMemberwiseClone;
+				return r_MemberwiseClone;
 			}
 		}
 
 		/// <summary>
 		/// System.String ToString()
 		/// </summary>
-		protected RMethod r_RToString;
+		protected RMethod r_ToString;
 		public virtual RMethod RToString
 		{
 			get
 			{
-				if(r_RToString == null)
+				if(r_ToString == null)
 				{
-					r_RToString = new(this, "ToString", 0);
-					r_RToString.SetBelong(this.instance);
+					r_ToString = new(this, "ToString", 0);
+					r_ToString.SetBelong(this.instance);
 				}
-				return r_RToString;
+				return r_ToString;
 			}
 		}
 

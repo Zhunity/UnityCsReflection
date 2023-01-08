@@ -149,272 +149,272 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
 		/// <summary>
 		/// System.Runtime.Remoting.Messaging.CADMethodCallMessage Create(System.Runtime.Remoting.Messaging.IMessage)
 		/// </summary>
-		protected static RMethod r_RCreate_IMessage;
+		protected static RMethod r_Create_IMessage;
 		public static RMethod RCreate_IMessage
 		{
 			get
 			{
-				if(r_RCreate_IMessage == null)
+				if(r_Create_IMessage == null)
 				{
-					r_RCreate_IMessage = new( ReleactionUtils.GetType("System.Runtime.Remoting.Messaging.CADMethodCallMessage"), "Create", 0, typeof(System.Runtime.Remoting.Messaging.IMessage));
-					r_RCreate_IMessage.SetBelong(null);
+					r_Create_IMessage = new( ReleactionUtils.GetType("System.Runtime.Remoting.Messaging.CADMethodCallMessage"), "Create", 0, typeof(System.Runtime.Remoting.Messaging.IMessage));
+					r_Create_IMessage.SetBelong(null);
 				}
-				return r_RCreate_IMessage;
+				return r_Create_IMessage;
 			}
 		}
 
 		/// <summary>
 		/// System.Collections.ArrayList GetArguments()
 		/// </summary>
-		protected RMethod r_RGetArguments;
+		protected RMethod r_GetArguments;
 		public virtual RMethod RGetArguments
 		{
 			get
 			{
-				if(r_RGetArguments == null)
+				if(r_GetArguments == null)
 				{
-					r_RGetArguments = new(this, "GetArguments", 0);
-					r_RGetArguments.SetBelong(this.instance);
+					r_GetArguments = new(this, "GetArguments", 0);
+					r_GetArguments.SetBelong(this.instance);
 				}
-				return r_RGetArguments;
+				return r_GetArguments;
 			}
 		}
 
 		/// <summary>
 		/// System.Object[] GetArgs(System.Collections.ArrayList)
 		/// </summary>
-		protected RMethod r_RGetArgs_ArrayList;
+		protected RMethod r_GetArgs_ArrayList;
 		public virtual RMethod RGetArgs_ArrayList
 		{
 			get
 			{
-				if(r_RGetArgs_ArrayList == null)
+				if(r_GetArgs_ArrayList == null)
 				{
-					r_RGetArgs_ArrayList = new(this, "GetArgs", 0, typeof(System.Collections.ArrayList));
-					r_RGetArgs_ArrayList.SetBelong(this.instance);
+					r_GetArgs_ArrayList = new(this, "GetArgs", 0, typeof(System.Collections.ArrayList));
+					r_GetArgs_ArrayList.SetBelong(this.instance);
 				}
-				return r_RGetArgs_ArrayList;
+				return r_GetArgs_ArrayList;
 			}
 		}
 
 		/// <summary>
 		/// System.Reflection.MethodBase GetMethod()
 		/// </summary>
-		protected RMethod r_RGetMethod;
+		protected RMethod r_GetMethod;
 		public virtual RMethod RGetMethod
 		{
 			get
 			{
-				if(r_RGetMethod == null)
+				if(r_GetMethod == null)
 				{
-					r_RGetMethod = new(this, "GetMethod", 0);
-					r_RGetMethod.SetBelong(this.instance);
+					r_GetMethod = new(this, "GetMethod", 0);
+					r_GetMethod.SetBelong(this.instance);
 				}
-				return r_RGetMethod;
+				return r_GetMethod;
 			}
 		}
 
 		/// <summary>
 		/// System.Object MarshalArgument(System.Object, System.Collections.ArrayList ByRef)
 		/// </summary>
-		protected RMethod r_RMarshalArgument_Object_Ref_ArrayList;
+		protected RMethod r_MarshalArgument_Object_Ref_ArrayList;
 		public virtual RMethod RMarshalArgument_Object_Ref_ArrayList
 		{
 			get
 			{
-				if(r_RMarshalArgument_Object_Ref_ArrayList == null)
+				if(r_MarshalArgument_Object_Ref_ArrayList == null)
 				{
-					r_RMarshalArgument_Object_Ref_ArrayList = new(this, "MarshalArgument", 0, typeof(System.Object), typeof(System.Collections.ArrayList).MakeByRefType());
-					r_RMarshalArgument_Object_Ref_ArrayList.SetBelong(this.instance);
+					r_MarshalArgument_Object_Ref_ArrayList = new(this, "MarshalArgument", 0, typeof(System.Object), typeof(System.Collections.ArrayList).MakeByRefType());
+					r_MarshalArgument_Object_Ref_ArrayList.SetBelong(this.instance);
 				}
-				return r_RMarshalArgument_Object_Ref_ArrayList;
+				return r_MarshalArgument_Object_Ref_ArrayList;
 			}
 		}
 
 		/// <summary>
 		/// System.Object UnmarshalArgument(System.Object, System.Collections.ArrayList)
 		/// </summary>
-		protected RMethod r_RUnmarshalArgument_Object_ArrayList;
+		protected RMethod r_UnmarshalArgument_Object_ArrayList;
 		public virtual RMethod RUnmarshalArgument_Object_ArrayList
 		{
 			get
 			{
-				if(r_RUnmarshalArgument_Object_ArrayList == null)
+				if(r_UnmarshalArgument_Object_ArrayList == null)
 				{
-					r_RUnmarshalArgument_Object_ArrayList = new(this, "UnmarshalArgument", 0, typeof(System.Object), typeof(System.Collections.ArrayList));
-					r_RUnmarshalArgument_Object_ArrayList.SetBelong(this.instance);
+					r_UnmarshalArgument_Object_ArrayList = new(this, "UnmarshalArgument", 0, typeof(System.Object), typeof(System.Collections.ArrayList));
+					r_UnmarshalArgument_Object_ArrayList.SetBelong(this.instance);
 				}
-				return r_RUnmarshalArgument_Object_ArrayList;
+				return r_UnmarshalArgument_Object_ArrayList;
 			}
 		}
 
 		/// <summary>
 		/// System.Object[] MarshalArguments(System.Object[], System.Collections.ArrayList ByRef)
 		/// </summary>
-		protected RMethod r_RMarshalArguments_ObjectArray_Ref_ArrayList;
+		protected RMethod r_MarshalArguments_ObjectArray_Ref_ArrayList;
 		public virtual RMethod RMarshalArguments_ObjectArray_Ref_ArrayList
 		{
 			get
 			{
-				if(r_RMarshalArguments_ObjectArray_Ref_ArrayList == null)
+				if(r_MarshalArguments_ObjectArray_Ref_ArrayList == null)
 				{
-					r_RMarshalArguments_ObjectArray_Ref_ArrayList = new(this, "MarshalArguments", 0, typeof(System.Object).MakeArrayType(), typeof(System.Collections.ArrayList).MakeByRefType());
-					r_RMarshalArguments_ObjectArray_Ref_ArrayList.SetBelong(this.instance);
+					r_MarshalArguments_ObjectArray_Ref_ArrayList = new(this, "MarshalArguments", 0, typeof(System.Object).MakeArrayType(), typeof(System.Collections.ArrayList).MakeByRefType());
+					r_MarshalArguments_ObjectArray_Ref_ArrayList.SetBelong(this.instance);
 				}
-				return r_RMarshalArguments_ObjectArray_Ref_ArrayList;
+				return r_MarshalArguments_ObjectArray_Ref_ArrayList;
 			}
 		}
 
 		/// <summary>
 		/// System.Object[] UnmarshalArguments(System.Object[], System.Collections.ArrayList)
 		/// </summary>
-		protected RMethod r_RUnmarshalArguments_ObjectArray_ArrayList;
+		protected RMethod r_UnmarshalArguments_ObjectArray_ArrayList;
 		public virtual RMethod RUnmarshalArguments_ObjectArray_ArrayList
 		{
 			get
 			{
-				if(r_RUnmarshalArguments_ObjectArray_ArrayList == null)
+				if(r_UnmarshalArguments_ObjectArray_ArrayList == null)
 				{
-					r_RUnmarshalArguments_ObjectArray_ArrayList = new(this, "UnmarshalArguments", 0, typeof(System.Object).MakeArrayType(), typeof(System.Collections.ArrayList));
-					r_RUnmarshalArguments_ObjectArray_ArrayList.SetBelong(this.instance);
+					r_UnmarshalArguments_ObjectArray_ArrayList = new(this, "UnmarshalArguments", 0, typeof(System.Object).MakeArrayType(), typeof(System.Collections.ArrayList));
+					r_UnmarshalArguments_ObjectArray_ArrayList.SetBelong(this.instance);
 				}
-				return r_RUnmarshalArguments_ObjectArray_ArrayList;
+				return r_UnmarshalArguments_ObjectArray_ArrayList;
 			}
 		}
 
 		/// <summary>
 		/// Void SaveLogicalCallContext(System.Runtime.Remoting.Messaging.IMethodMessage, System.Collections.ArrayList ByRef)
 		/// </summary>
-		protected RMethod r_RSaveLogicalCallContext_IMethodMessage_Ref_ArrayList;
+		protected RMethod r_SaveLogicalCallContext_IMethodMessage_Ref_ArrayList;
 		public virtual RMethod RSaveLogicalCallContext_IMethodMessage_Ref_ArrayList
 		{
 			get
 			{
-				if(r_RSaveLogicalCallContext_IMethodMessage_Ref_ArrayList == null)
+				if(r_SaveLogicalCallContext_IMethodMessage_Ref_ArrayList == null)
 				{
-					r_RSaveLogicalCallContext_IMethodMessage_Ref_ArrayList = new(this, "SaveLogicalCallContext", 0, typeof(System.Runtime.Remoting.Messaging.IMethodMessage), typeof(System.Collections.ArrayList).MakeByRefType());
-					r_RSaveLogicalCallContext_IMethodMessage_Ref_ArrayList.SetBelong(this.instance);
+					r_SaveLogicalCallContext_IMethodMessage_Ref_ArrayList = new(this, "SaveLogicalCallContext", 0, typeof(System.Runtime.Remoting.Messaging.IMethodMessage), typeof(System.Collections.ArrayList).MakeByRefType());
+					r_SaveLogicalCallContext_IMethodMessage_Ref_ArrayList.SetBelong(this.instance);
 				}
-				return r_RSaveLogicalCallContext_IMethodMessage_Ref_ArrayList;
+				return r_SaveLogicalCallContext_IMethodMessage_Ref_ArrayList;
 			}
 		}
 
 		/// <summary>
 		/// System.Runtime.Remoting.Messaging.LogicalCallContext GetLogicalCallContext(System.Collections.ArrayList)
 		/// </summary>
-		protected RMethod r_RGetLogicalCallContext_ArrayList;
+		protected RMethod r_GetLogicalCallContext_ArrayList;
 		public virtual RMethod RGetLogicalCallContext_ArrayList
 		{
 			get
 			{
-				if(r_RGetLogicalCallContext_ArrayList == null)
+				if(r_GetLogicalCallContext_ArrayList == null)
 				{
-					r_RGetLogicalCallContext_ArrayList = new(this, "GetLogicalCallContext", 0, typeof(System.Collections.ArrayList));
-					r_RGetLogicalCallContext_ArrayList.SetBelong(this.instance);
+					r_GetLogicalCallContext_ArrayList = new(this, "GetLogicalCallContext", 0, typeof(System.Collections.ArrayList));
+					r_GetLogicalCallContext_ArrayList.SetBelong(this.instance);
 				}
-				return r_RGetLogicalCallContext_ArrayList;
+				return r_GetLogicalCallContext_ArrayList;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Equals(System.Object)
 		/// </summary>
-		protected RMethod r_REquals_Object;
+		protected RMethod r_Equals_Object;
 		public virtual RMethod REquals_Object
 		{
 			get
 			{
-				if(r_REquals_Object == null)
+				if(r_Equals_Object == null)
 				{
-					r_REquals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_REquals_Object.SetBelong(this.instance);
+					r_Equals_Object = new(this, "Equals", 0, typeof(System.Object));
+					r_Equals_Object.SetBelong(this.instance);
 				}
-				return r_REquals_Object;
+				return r_Equals_Object;
 			}
 		}
 
 		/// <summary>
 		/// Void Finalize()
 		/// </summary>
-		protected RMethod r_RFinalize;
+		protected RMethod r_Finalize;
 		public virtual RMethod RFinalize
 		{
 			get
 			{
-				if(r_RFinalize == null)
+				if(r_Finalize == null)
 				{
-					r_RFinalize = new(this, "Finalize", 0);
-					r_RFinalize.SetBelong(this.instance);
+					r_Finalize = new(this, "Finalize", 0);
+					r_Finalize.SetBelong(this.instance);
 				}
-				return r_RFinalize;
+				return r_Finalize;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetHashCode()
 		/// </summary>
-		protected RMethod r_RGetHashCode;
+		protected RMethod r_GetHashCode;
 		public virtual RMethod RGetHashCode
 		{
 			get
 			{
-				if(r_RGetHashCode == null)
+				if(r_GetHashCode == null)
 				{
-					r_RGetHashCode = new(this, "GetHashCode", 0);
-					r_RGetHashCode.SetBelong(this.instance);
+					r_GetHashCode = new(this, "GetHashCode", 0);
+					r_GetHashCode.SetBelong(this.instance);
 				}
-				return r_RGetHashCode;
+				return r_GetHashCode;
 			}
 		}
 
 		/// <summary>
 		/// System.Type GetType()
 		/// </summary>
-		protected RMethod r_RGetType;
+		protected RMethod r_GetType;
 		public virtual RMethod RGetType
 		{
 			get
 			{
-				if(r_RGetType == null)
+				if(r_GetType == null)
 				{
-					r_RGetType = new(this, "GetType", 0);
-					r_RGetType.SetBelong(this.instance);
+					r_GetType = new(this, "GetType", 0);
+					r_GetType.SetBelong(this.instance);
 				}
-				return r_RGetType;
+				return r_GetType;
 			}
 		}
 
 		/// <summary>
 		/// System.Object MemberwiseClone()
 		/// </summary>
-		protected RMethod r_RMemberwiseClone;
+		protected RMethod r_MemberwiseClone;
 		public virtual RMethod RMemberwiseClone
 		{
 			get
 			{
-				if(r_RMemberwiseClone == null)
+				if(r_MemberwiseClone == null)
 				{
-					r_RMemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_RMemberwiseClone.SetBelong(this.instance);
+					r_MemberwiseClone = new(this, "MemberwiseClone", 0);
+					r_MemberwiseClone.SetBelong(this.instance);
 				}
-				return r_RMemberwiseClone;
+				return r_MemberwiseClone;
 			}
 		}
 
 		/// <summary>
 		/// System.String ToString()
 		/// </summary>
-		protected RMethod r_RToString;
+		protected RMethod r_ToString;
 		public virtual RMethod RToString
 		{
 			get
 			{
-				if(r_RToString == null)
+				if(r_ToString == null)
 				{
-					r_RToString = new(this, "ToString", 0);
-					r_RToString.SetBelong(this.instance);
+					r_ToString = new(this, "ToString", 0);
+					r_ToString.SetBelong(this.instance);
 				}
-				return r_RToString;
+				return r_ToString;
 			}
 		}
 

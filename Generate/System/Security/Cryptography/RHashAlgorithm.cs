@@ -183,408 +183,408 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
 		/// <summary>
 		/// System.Security.Cryptography.HashAlgorithm Create()
 		/// </summary>
-		protected static RMethod r_RCreate;
+		protected static RMethod r_Create;
 		public static RMethod RCreate
 		{
 			get
 			{
-				if(r_RCreate == null)
+				if(r_Create == null)
 				{
-					r_RCreate = new(typeof(System.Security.Cryptography.HashAlgorithm), "Create", 0);
-					r_RCreate.SetBelong(null);
+					r_Create = new(typeof(System.Security.Cryptography.HashAlgorithm), "Create", 0);
+					r_Create.SetBelong(null);
 				}
-				return r_RCreate;
+				return r_Create;
 			}
 		}
 
 		/// <summary>
 		/// System.Security.Cryptography.HashAlgorithm Create(System.String)
 		/// </summary>
-		protected static RMethod r_RCreate_String;
+		protected static RMethod r_Create_String;
 		public static RMethod RCreate_String
 		{
 			get
 			{
-				if(r_RCreate_String == null)
+				if(r_Create_String == null)
 				{
-					r_RCreate_String = new(typeof(System.Security.Cryptography.HashAlgorithm), "Create", 0, typeof(System.String));
-					r_RCreate_String.SetBelong(null);
+					r_Create_String = new(typeof(System.Security.Cryptography.HashAlgorithm), "Create", 0, typeof(System.String));
+					r_Create_String.SetBelong(null);
 				}
-				return r_RCreate_String;
+				return r_Create_String;
 			}
 		}
 
 		/// <summary>
 		/// Byte[] ComputeHash(Byte[])
 		/// </summary>
-		protected RMethod r_RComputeHash_ByteArray;
+		protected RMethod r_ComputeHash_ByteArray;
 		public virtual RMethod RComputeHash_ByteArray
 		{
 			get
 			{
-				if(r_RComputeHash_ByteArray == null)
+				if(r_ComputeHash_ByteArray == null)
 				{
-					r_RComputeHash_ByteArray = new(this, "ComputeHash", 0, typeof(System.Byte).MakeArrayType());
-					r_RComputeHash_ByteArray.SetBelong(this.instance);
+					r_ComputeHash_ByteArray = new(this, "ComputeHash", 0, typeof(System.Byte).MakeArrayType());
+					r_ComputeHash_ByteArray.SetBelong(this.instance);
 				}
-				return r_RComputeHash_ByteArray;
+				return r_ComputeHash_ByteArray;
 			}
 		}
 
 		/// <summary>
 		/// Boolean TryComputeHash(System.ReadOnlySpan`1[System.Byte], System.Span`1[System.Byte], Int32 ByRef)
 		/// </summary>
-		protected RMethod r_RTryComputeHash_ReadOnlySpan_d_Byte_p__Span_d_Byte_p__Out_Int32;
+		protected RMethod r_TryComputeHash_ReadOnlySpan_d_Byte_p__Span_d_Byte_p__Out_Int32;
 		public virtual RMethod RTryComputeHash_ReadOnlySpan_d_Byte_p__Span_d_Byte_p__Out_Int32
 		{
 			get
 			{
-				if(r_RTryComputeHash_ReadOnlySpan_d_Byte_p__Span_d_Byte_p__Out_Int32 == null)
+				if(r_TryComputeHash_ReadOnlySpan_d_Byte_p__Span_d_Byte_p__Out_Int32 == null)
 				{
-					r_RTryComputeHash_ReadOnlySpan_d_Byte_p__Span_d_Byte_p__Out_Int32 = new(this, "TryComputeHash", 0, typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Byte)), typeof(System.Span<>).MakeGenericType(typeof(System.Byte)), typeof(System.Int32).MakeByRefType());
-					r_RTryComputeHash_ReadOnlySpan_d_Byte_p__Span_d_Byte_p__Out_Int32.SetBelong(this.instance);
+					r_TryComputeHash_ReadOnlySpan_d_Byte_p__Span_d_Byte_p__Out_Int32 = new(this, "TryComputeHash", 0, typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Byte)), typeof(System.Span<>).MakeGenericType(typeof(System.Byte)), typeof(System.Int32).MakeByRefType());
+					r_TryComputeHash_ReadOnlySpan_d_Byte_p__Span_d_Byte_p__Out_Int32.SetBelong(this.instance);
 				}
-				return r_RTryComputeHash_ReadOnlySpan_d_Byte_p__Span_d_Byte_p__Out_Int32;
+				return r_TryComputeHash_ReadOnlySpan_d_Byte_p__Span_d_Byte_p__Out_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Byte[] ComputeHash(Byte[], Int32, Int32)
 		/// </summary>
-		protected RMethod r_RComputeHash_ByteArray_Int32_Int32;
+		protected RMethod r_ComputeHash_ByteArray_Int32_Int32;
 		public virtual RMethod RComputeHash_ByteArray_Int32_Int32
 		{
 			get
 			{
-				if(r_RComputeHash_ByteArray_Int32_Int32 == null)
+				if(r_ComputeHash_ByteArray_Int32_Int32 == null)
 				{
-					r_RComputeHash_ByteArray_Int32_Int32 = new(this, "ComputeHash", 0, typeof(System.Byte).MakeArrayType(), typeof(System.Int32), typeof(System.Int32));
-					r_RComputeHash_ByteArray_Int32_Int32.SetBelong(this.instance);
+					r_ComputeHash_ByteArray_Int32_Int32 = new(this, "ComputeHash", 0, typeof(System.Byte).MakeArrayType(), typeof(System.Int32), typeof(System.Int32));
+					r_ComputeHash_ByteArray_Int32_Int32.SetBelong(this.instance);
 				}
-				return r_RComputeHash_ByteArray_Int32_Int32;
+				return r_ComputeHash_ByteArray_Int32_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Byte[] ComputeHash(System.IO.Stream)
 		/// </summary>
-		protected RMethod r_RComputeHash_Stream;
+		protected RMethod r_ComputeHash_Stream;
 		public virtual RMethod RComputeHash_Stream
 		{
 			get
 			{
-				if(r_RComputeHash_Stream == null)
+				if(r_ComputeHash_Stream == null)
 				{
-					r_RComputeHash_Stream = new(this, "ComputeHash", 0, typeof(System.IO.Stream));
-					r_RComputeHash_Stream.SetBelong(this.instance);
+					r_ComputeHash_Stream = new(this, "ComputeHash", 0, typeof(System.IO.Stream));
+					r_ComputeHash_Stream.SetBelong(this.instance);
 				}
-				return r_RComputeHash_Stream;
+				return r_ComputeHash_Stream;
 			}
 		}
 
 		/// <summary>
 		/// Byte[] CaptureHashCodeAndReinitialize()
 		/// </summary>
-		protected RMethod r_RCaptureHashCodeAndReinitialize;
+		protected RMethod r_CaptureHashCodeAndReinitialize;
 		public virtual RMethod RCaptureHashCodeAndReinitialize
 		{
 			get
 			{
-				if(r_RCaptureHashCodeAndReinitialize == null)
+				if(r_CaptureHashCodeAndReinitialize == null)
 				{
-					r_RCaptureHashCodeAndReinitialize = new(this, "CaptureHashCodeAndReinitialize", 0);
-					r_RCaptureHashCodeAndReinitialize.SetBelong(this.instance);
+					r_CaptureHashCodeAndReinitialize = new(this, "CaptureHashCodeAndReinitialize", 0);
+					r_CaptureHashCodeAndReinitialize.SetBelong(this.instance);
 				}
-				return r_RCaptureHashCodeAndReinitialize;
+				return r_CaptureHashCodeAndReinitialize;
 			}
 		}
 
 		/// <summary>
 		/// Void Dispose()
 		/// </summary>
-		protected RMethod r_RDispose;
+		protected RMethod r_Dispose;
 		public virtual RMethod RDispose
 		{
 			get
 			{
-				if(r_RDispose == null)
+				if(r_Dispose == null)
 				{
-					r_RDispose = new(this, "Dispose", 0);
-					r_RDispose.SetBelong(this.instance);
+					r_Dispose = new(this, "Dispose", 0);
+					r_Dispose.SetBelong(this.instance);
 				}
-				return r_RDispose;
+				return r_Dispose;
 			}
 		}
 
 		/// <summary>
 		/// Void Clear()
 		/// </summary>
-		protected RMethod r_RClear;
+		protected RMethod r_Clear;
 		public virtual RMethod RClear
 		{
 			get
 			{
-				if(r_RClear == null)
+				if(r_Clear == null)
 				{
-					r_RClear = new(this, "Clear", 0);
-					r_RClear.SetBelong(this.instance);
+					r_Clear = new(this, "Clear", 0);
+					r_Clear.SetBelong(this.instance);
 				}
-				return r_RClear;
+				return r_Clear;
 			}
 		}
 
 		/// <summary>
 		/// Void Dispose(Boolean)
 		/// </summary>
-		protected RMethod r_RDispose_Boolean;
+		protected RMethod r_Dispose_Boolean;
 		public virtual RMethod RDispose_Boolean
 		{
 			get
 			{
-				if(r_RDispose_Boolean == null)
+				if(r_Dispose_Boolean == null)
 				{
-					r_RDispose_Boolean = new(this, "Dispose", 0, typeof(System.Boolean));
-					r_RDispose_Boolean.SetBelong(this.instance);
+					r_Dispose_Boolean = new(this, "Dispose", 0, typeof(System.Boolean));
+					r_Dispose_Boolean.SetBelong(this.instance);
 				}
-				return r_RDispose_Boolean;
+				return r_Dispose_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Int32 TransformBlock(Byte[], Int32, Int32, Byte[], Int32)
 		/// </summary>
-		protected RMethod r_RTransformBlock_ByteArray_Int32_Int32_ByteArray_Int32;
+		protected RMethod r_TransformBlock_ByteArray_Int32_Int32_ByteArray_Int32;
 		public virtual RMethod RTransformBlock_ByteArray_Int32_Int32_ByteArray_Int32
 		{
 			get
 			{
-				if(r_RTransformBlock_ByteArray_Int32_Int32_ByteArray_Int32 == null)
+				if(r_TransformBlock_ByteArray_Int32_Int32_ByteArray_Int32 == null)
 				{
-					r_RTransformBlock_ByteArray_Int32_Int32_ByteArray_Int32 = new(this, "TransformBlock", 0, typeof(System.Byte).MakeArrayType(), typeof(System.Int32), typeof(System.Int32), typeof(System.Byte).MakeArrayType(), typeof(System.Int32));
-					r_RTransformBlock_ByteArray_Int32_Int32_ByteArray_Int32.SetBelong(this.instance);
+					r_TransformBlock_ByteArray_Int32_Int32_ByteArray_Int32 = new(this, "TransformBlock", 0, typeof(System.Byte).MakeArrayType(), typeof(System.Int32), typeof(System.Int32), typeof(System.Byte).MakeArrayType(), typeof(System.Int32));
+					r_TransformBlock_ByteArray_Int32_Int32_ByteArray_Int32.SetBelong(this.instance);
 				}
-				return r_RTransformBlock_ByteArray_Int32_Int32_ByteArray_Int32;
+				return r_TransformBlock_ByteArray_Int32_Int32_ByteArray_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Byte[] TransformFinalBlock(Byte[], Int32, Int32)
 		/// </summary>
-		protected RMethod r_RTransformFinalBlock_ByteArray_Int32_Int32;
+		protected RMethod r_TransformFinalBlock_ByteArray_Int32_Int32;
 		public virtual RMethod RTransformFinalBlock_ByteArray_Int32_Int32
 		{
 			get
 			{
-				if(r_RTransformFinalBlock_ByteArray_Int32_Int32 == null)
+				if(r_TransformFinalBlock_ByteArray_Int32_Int32 == null)
 				{
-					r_RTransformFinalBlock_ByteArray_Int32_Int32 = new(this, "TransformFinalBlock", 0, typeof(System.Byte).MakeArrayType(), typeof(System.Int32), typeof(System.Int32));
-					r_RTransformFinalBlock_ByteArray_Int32_Int32.SetBelong(this.instance);
+					r_TransformFinalBlock_ByteArray_Int32_Int32 = new(this, "TransformFinalBlock", 0, typeof(System.Byte).MakeArrayType(), typeof(System.Int32), typeof(System.Int32));
+					r_TransformFinalBlock_ByteArray_Int32_Int32.SetBelong(this.instance);
 				}
-				return r_RTransformFinalBlock_ByteArray_Int32_Int32;
+				return r_TransformFinalBlock_ByteArray_Int32_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Void ValidateTransformBlock(Byte[], Int32, Int32)
 		/// </summary>
-		protected RMethod r_RValidateTransformBlock_ByteArray_Int32_Int32;
+		protected RMethod r_ValidateTransformBlock_ByteArray_Int32_Int32;
 		public virtual RMethod RValidateTransformBlock_ByteArray_Int32_Int32
 		{
 			get
 			{
-				if(r_RValidateTransformBlock_ByteArray_Int32_Int32 == null)
+				if(r_ValidateTransformBlock_ByteArray_Int32_Int32 == null)
 				{
-					r_RValidateTransformBlock_ByteArray_Int32_Int32 = new(this, "ValidateTransformBlock", 0, typeof(System.Byte).MakeArrayType(), typeof(System.Int32), typeof(System.Int32));
-					r_RValidateTransformBlock_ByteArray_Int32_Int32.SetBelong(this.instance);
+					r_ValidateTransformBlock_ByteArray_Int32_Int32 = new(this, "ValidateTransformBlock", 0, typeof(System.Byte).MakeArrayType(), typeof(System.Int32), typeof(System.Int32));
+					r_ValidateTransformBlock_ByteArray_Int32_Int32.SetBelong(this.instance);
 				}
-				return r_RValidateTransformBlock_ByteArray_Int32_Int32;
+				return r_ValidateTransformBlock_ByteArray_Int32_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Void HashCore(Byte[], Int32, Int32)
 		/// </summary>
-		protected RMethod r_RHashCore_ByteArray_Int32_Int32;
+		protected RMethod r_HashCore_ByteArray_Int32_Int32;
 		public virtual RMethod RHashCore_ByteArray_Int32_Int32
 		{
 			get
 			{
-				if(r_RHashCore_ByteArray_Int32_Int32 == null)
+				if(r_HashCore_ByteArray_Int32_Int32 == null)
 				{
-					r_RHashCore_ByteArray_Int32_Int32 = new(this, "HashCore", 0, typeof(System.Byte).MakeArrayType(), typeof(System.Int32), typeof(System.Int32));
-					r_RHashCore_ByteArray_Int32_Int32.SetBelong(this.instance);
+					r_HashCore_ByteArray_Int32_Int32 = new(this, "HashCore", 0, typeof(System.Byte).MakeArrayType(), typeof(System.Int32), typeof(System.Int32));
+					r_HashCore_ByteArray_Int32_Int32.SetBelong(this.instance);
 				}
-				return r_RHashCore_ByteArray_Int32_Int32;
+				return r_HashCore_ByteArray_Int32_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Byte[] HashFinal()
 		/// </summary>
-		protected RMethod r_RHashFinal;
+		protected RMethod r_HashFinal;
 		public virtual RMethod RHashFinal
 		{
 			get
 			{
-				if(r_RHashFinal == null)
+				if(r_HashFinal == null)
 				{
-					r_RHashFinal = new(this, "HashFinal", 0);
-					r_RHashFinal.SetBelong(this.instance);
+					r_HashFinal = new(this, "HashFinal", 0);
+					r_HashFinal.SetBelong(this.instance);
 				}
-				return r_RHashFinal;
+				return r_HashFinal;
 			}
 		}
 
 		/// <summary>
 		/// Void Initialize()
 		/// </summary>
-		protected RMethod r_RInitialize;
+		protected RMethod r_Initialize;
 		public virtual RMethod RInitialize
 		{
 			get
 			{
-				if(r_RInitialize == null)
+				if(r_Initialize == null)
 				{
-					r_RInitialize = new(this, "Initialize", 0);
-					r_RInitialize.SetBelong(this.instance);
+					r_Initialize = new(this, "Initialize", 0);
+					r_Initialize.SetBelong(this.instance);
 				}
-				return r_RInitialize;
+				return r_Initialize;
 			}
 		}
 
 		/// <summary>
 		/// Void HashCore(System.ReadOnlySpan`1[System.Byte])
 		/// </summary>
-		protected RMethod r_RHashCore_ReadOnlySpan_d_Byte_p_;
+		protected RMethod r_HashCore_ReadOnlySpan_d_Byte_p_;
 		public virtual RMethod RHashCore_ReadOnlySpan_d_Byte_p_
 		{
 			get
 			{
-				if(r_RHashCore_ReadOnlySpan_d_Byte_p_ == null)
+				if(r_HashCore_ReadOnlySpan_d_Byte_p_ == null)
 				{
-					r_RHashCore_ReadOnlySpan_d_Byte_p_ = new(this, "HashCore", 0, typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Byte)));
-					r_RHashCore_ReadOnlySpan_d_Byte_p_.SetBelong(this.instance);
+					r_HashCore_ReadOnlySpan_d_Byte_p_ = new(this, "HashCore", 0, typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Byte)));
+					r_HashCore_ReadOnlySpan_d_Byte_p_.SetBelong(this.instance);
 				}
-				return r_RHashCore_ReadOnlySpan_d_Byte_p_;
+				return r_HashCore_ReadOnlySpan_d_Byte_p_;
 			}
 		}
 
 		/// <summary>
 		/// Boolean TryHashFinal(System.Span`1[System.Byte], Int32 ByRef)
 		/// </summary>
-		protected RMethod r_RTryHashFinal_Span_d_Byte_p__Out_Int32;
+		protected RMethod r_TryHashFinal_Span_d_Byte_p__Out_Int32;
 		public virtual RMethod RTryHashFinal_Span_d_Byte_p__Out_Int32
 		{
 			get
 			{
-				if(r_RTryHashFinal_Span_d_Byte_p__Out_Int32 == null)
+				if(r_TryHashFinal_Span_d_Byte_p__Out_Int32 == null)
 				{
-					r_RTryHashFinal_Span_d_Byte_p__Out_Int32 = new(this, "TryHashFinal", 0, typeof(System.Span<>).MakeGenericType(typeof(System.Byte)), typeof(System.Int32).MakeByRefType());
-					r_RTryHashFinal_Span_d_Byte_p__Out_Int32.SetBelong(this.instance);
+					r_TryHashFinal_Span_d_Byte_p__Out_Int32 = new(this, "TryHashFinal", 0, typeof(System.Span<>).MakeGenericType(typeof(System.Byte)), typeof(System.Int32).MakeByRefType());
+					r_TryHashFinal_Span_d_Byte_p__Out_Int32.SetBelong(this.instance);
 				}
-				return r_RTryHashFinal_Span_d_Byte_p__Out_Int32;
+				return r_TryHashFinal_Span_d_Byte_p__Out_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Equals(System.Object)
 		/// </summary>
-		protected RMethod r_REquals_Object;
+		protected RMethod r_Equals_Object;
 		public virtual RMethod REquals_Object
 		{
 			get
 			{
-				if(r_REquals_Object == null)
+				if(r_Equals_Object == null)
 				{
-					r_REquals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_REquals_Object.SetBelong(this.instance);
+					r_Equals_Object = new(this, "Equals", 0, typeof(System.Object));
+					r_Equals_Object.SetBelong(this.instance);
 				}
-				return r_REquals_Object;
+				return r_Equals_Object;
 			}
 		}
 
 		/// <summary>
 		/// Void Finalize()
 		/// </summary>
-		protected RMethod r_RFinalize;
+		protected RMethod r_Finalize;
 		public virtual RMethod RFinalize
 		{
 			get
 			{
-				if(r_RFinalize == null)
+				if(r_Finalize == null)
 				{
-					r_RFinalize = new(this, "Finalize", 0);
-					r_RFinalize.SetBelong(this.instance);
+					r_Finalize = new(this, "Finalize", 0);
+					r_Finalize.SetBelong(this.instance);
 				}
-				return r_RFinalize;
+				return r_Finalize;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetHashCode()
 		/// </summary>
-		protected RMethod r_RGetHashCode;
+		protected RMethod r_GetHashCode;
 		public virtual RMethod RGetHashCode
 		{
 			get
 			{
-				if(r_RGetHashCode == null)
+				if(r_GetHashCode == null)
 				{
-					r_RGetHashCode = new(this, "GetHashCode", 0);
-					r_RGetHashCode.SetBelong(this.instance);
+					r_GetHashCode = new(this, "GetHashCode", 0);
+					r_GetHashCode.SetBelong(this.instance);
 				}
-				return r_RGetHashCode;
+				return r_GetHashCode;
 			}
 		}
 
 		/// <summary>
 		/// System.Type GetType()
 		/// </summary>
-		protected RMethod r_RGetType;
+		protected RMethod r_GetType;
 		public virtual RMethod RGetType
 		{
 			get
 			{
-				if(r_RGetType == null)
+				if(r_GetType == null)
 				{
-					r_RGetType = new(this, "GetType", 0);
-					r_RGetType.SetBelong(this.instance);
+					r_GetType = new(this, "GetType", 0);
+					r_GetType.SetBelong(this.instance);
 				}
-				return r_RGetType;
+				return r_GetType;
 			}
 		}
 
 		/// <summary>
 		/// System.Object MemberwiseClone()
 		/// </summary>
-		protected RMethod r_RMemberwiseClone;
+		protected RMethod r_MemberwiseClone;
 		public virtual RMethod RMemberwiseClone
 		{
 			get
 			{
-				if(r_RMemberwiseClone == null)
+				if(r_MemberwiseClone == null)
 				{
-					r_RMemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_RMemberwiseClone.SetBelong(this.instance);
+					r_MemberwiseClone = new(this, "MemberwiseClone", 0);
+					r_MemberwiseClone.SetBelong(this.instance);
 				}
-				return r_RMemberwiseClone;
+				return r_MemberwiseClone;
 			}
 		}
 
 		/// <summary>
 		/// System.String ToString()
 		/// </summary>
-		protected RMethod r_RToString;
+		protected RMethod r_ToString;
 		public virtual RMethod RToString
 		{
 			get
 			{
-				if(r_RToString == null)
+				if(r_ToString == null)
 				{
-					r_RToString = new(this, "ToString", 0);
-					r_RToString.SetBelong(this.instance);
+					r_ToString = new(this, "ToString", 0);
+					r_ToString.SetBelong(this.instance);
 				}
-				return r_RToString;
+				return r_ToString;
 			}
 		}
 

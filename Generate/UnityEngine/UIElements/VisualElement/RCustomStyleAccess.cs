@@ -49,306 +49,306 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Void SetContext(System.Collections.Generic.Dictionary`2[System.String,UnityEngine.UIElements.StyleSheets.StylePropertyValue], Single)
 		/// </summary>
-		protected RMethod r_RSetContext_Dictionary_d_String_StylePropertyValue_p__Single;
+		protected RMethod r_SetContext_Dictionary_d_String_StylePropertyValue_p__Single;
 		public virtual RMethod RSetContext_Dictionary_d_String_StylePropertyValue_p__Single
 		{
 			get
 			{
-				if(r_RSetContext_Dictionary_d_String_StylePropertyValue_p__Single == null)
+				if(r_SetContext_Dictionary_d_String_StylePropertyValue_p__Single == null)
 				{
-					r_RSetContext_Dictionary_d_String_StylePropertyValue_p__Single = new(this, "SetContext", 0, typeof(System.Collections.Generic.Dictionary<, >).MakeGenericType(typeof(System.String),  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyValue")), typeof(System.Single));
-					r_RSetContext_Dictionary_d_String_StylePropertyValue_p__Single.SetBelong(this.instance);
+					r_SetContext_Dictionary_d_String_StylePropertyValue_p__Single = new(this, "SetContext", 0, typeof(System.Collections.Generic.Dictionary<, >).MakeGenericType(typeof(System.String),  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyValue")), typeof(System.Single));
+					r_SetContext_Dictionary_d_String_StylePropertyValue_p__Single.SetBelong(this.instance);
 				}
-				return r_RSetContext_Dictionary_d_String_StylePropertyValue_p__Single;
+				return r_SetContext_Dictionary_d_String_StylePropertyValue_p__Single;
 			}
 		}
 
 		/// <summary>
 		/// Boolean TryGetValue(UnityEngine.UIElements.CustomStyleProperty`1[System.Single], Single ByRef)
 		/// </summary>
-		protected RMethod r_RTryGetValue_CustomStyleProperty_d_Single_p__Out_Single;
+		protected RMethod r_TryGetValue_CustomStyleProperty_d_Single_p__Out_Single;
 		public virtual RMethod RTryGetValue_CustomStyleProperty_d_Single_p__Out_Single
 		{
 			get
 			{
-				if(r_RTryGetValue_CustomStyleProperty_d_Single_p__Out_Single == null)
+				if(r_TryGetValue_CustomStyleProperty_d_Single_p__Out_Single == null)
 				{
-					r_RTryGetValue_CustomStyleProperty_d_Single_p__Out_Single = new(this, "TryGetValue", 0, typeof(UnityEngine.UIElements.CustomStyleProperty<>).MakeGenericType(typeof(System.Single)), typeof(System.Single).MakeByRefType());
-					r_RTryGetValue_CustomStyleProperty_d_Single_p__Out_Single.SetBelong(this.instance);
+					r_TryGetValue_CustomStyleProperty_d_Single_p__Out_Single = new(this, "TryGetValue", 0, typeof(UnityEngine.UIElements.CustomStyleProperty<>).MakeGenericType(typeof(System.Single)), typeof(System.Single).MakeByRefType());
+					r_TryGetValue_CustomStyleProperty_d_Single_p__Out_Single.SetBelong(this.instance);
 				}
-				return r_RTryGetValue_CustomStyleProperty_d_Single_p__Out_Single;
+				return r_TryGetValue_CustomStyleProperty_d_Single_p__Out_Single;
 			}
 		}
 
 		/// <summary>
 		/// Boolean TryGetValue(UnityEngine.UIElements.CustomStyleProperty`1[System.Int32], Int32 ByRef)
 		/// </summary>
-		protected RMethod r_RTryGetValue_CustomStyleProperty_d_Int32_p__Out_Int32;
+		protected RMethod r_TryGetValue_CustomStyleProperty_d_Int32_p__Out_Int32;
 		public virtual RMethod RTryGetValue_CustomStyleProperty_d_Int32_p__Out_Int32
 		{
 			get
 			{
-				if(r_RTryGetValue_CustomStyleProperty_d_Int32_p__Out_Int32 == null)
+				if(r_TryGetValue_CustomStyleProperty_d_Int32_p__Out_Int32 == null)
 				{
-					r_RTryGetValue_CustomStyleProperty_d_Int32_p__Out_Int32 = new(this, "TryGetValue", 0, typeof(UnityEngine.UIElements.CustomStyleProperty<>).MakeGenericType(typeof(System.Int32)), typeof(System.Int32).MakeByRefType());
-					r_RTryGetValue_CustomStyleProperty_d_Int32_p__Out_Int32.SetBelong(this.instance);
+					r_TryGetValue_CustomStyleProperty_d_Int32_p__Out_Int32 = new(this, "TryGetValue", 0, typeof(UnityEngine.UIElements.CustomStyleProperty<>).MakeGenericType(typeof(System.Int32)), typeof(System.Int32).MakeByRefType());
+					r_TryGetValue_CustomStyleProperty_d_Int32_p__Out_Int32.SetBelong(this.instance);
 				}
-				return r_RTryGetValue_CustomStyleProperty_d_Int32_p__Out_Int32;
+				return r_TryGetValue_CustomStyleProperty_d_Int32_p__Out_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Boolean TryGetValue(UnityEngine.UIElements.CustomStyleProperty`1[System.Boolean], Boolean ByRef)
 		/// </summary>
-		protected RMethod r_RTryGetValue_CustomStyleProperty_d_Boolean_p__Out_Boolean;
+		protected RMethod r_TryGetValue_CustomStyleProperty_d_Boolean_p__Out_Boolean;
 		public virtual RMethod RTryGetValue_CustomStyleProperty_d_Boolean_p__Out_Boolean
 		{
 			get
 			{
-				if(r_RTryGetValue_CustomStyleProperty_d_Boolean_p__Out_Boolean == null)
+				if(r_TryGetValue_CustomStyleProperty_d_Boolean_p__Out_Boolean == null)
 				{
-					r_RTryGetValue_CustomStyleProperty_d_Boolean_p__Out_Boolean = new(this, "TryGetValue", 0, typeof(UnityEngine.UIElements.CustomStyleProperty<>).MakeGenericType(typeof(System.Boolean)), typeof(System.Boolean).MakeByRefType());
-					r_RTryGetValue_CustomStyleProperty_d_Boolean_p__Out_Boolean.SetBelong(this.instance);
+					r_TryGetValue_CustomStyleProperty_d_Boolean_p__Out_Boolean = new(this, "TryGetValue", 0, typeof(UnityEngine.UIElements.CustomStyleProperty<>).MakeGenericType(typeof(System.Boolean)), typeof(System.Boolean).MakeByRefType());
+					r_TryGetValue_CustomStyleProperty_d_Boolean_p__Out_Boolean.SetBelong(this.instance);
 				}
-				return r_RTryGetValue_CustomStyleProperty_d_Boolean_p__Out_Boolean;
+				return r_TryGetValue_CustomStyleProperty_d_Boolean_p__Out_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Boolean TryGetValue(UnityEngine.UIElements.CustomStyleProperty`1[UnityEngine.Color], UnityEngine.Color ByRef)
 		/// </summary>
-		protected RMethod r_RTryGetValue_CustomStyleProperty_d_Color_p__Out_Color;
+		protected RMethod r_TryGetValue_CustomStyleProperty_d_Color_p__Out_Color;
 		public virtual RMethod RTryGetValue_CustomStyleProperty_d_Color_p__Out_Color
 		{
 			get
 			{
-				if(r_RTryGetValue_CustomStyleProperty_d_Color_p__Out_Color == null)
+				if(r_TryGetValue_CustomStyleProperty_d_Color_p__Out_Color == null)
 				{
-					r_RTryGetValue_CustomStyleProperty_d_Color_p__Out_Color = new(this, "TryGetValue", 0, typeof(UnityEngine.UIElements.CustomStyleProperty<>).MakeGenericType(typeof(UnityEngine.Color)), typeof(UnityEngine.Color).MakeByRefType());
-					r_RTryGetValue_CustomStyleProperty_d_Color_p__Out_Color.SetBelong(this.instance);
+					r_TryGetValue_CustomStyleProperty_d_Color_p__Out_Color = new(this, "TryGetValue", 0, typeof(UnityEngine.UIElements.CustomStyleProperty<>).MakeGenericType(typeof(UnityEngine.Color)), typeof(UnityEngine.Color).MakeByRefType());
+					r_TryGetValue_CustomStyleProperty_d_Color_p__Out_Color.SetBelong(this.instance);
 				}
-				return r_RTryGetValue_CustomStyleProperty_d_Color_p__Out_Color;
+				return r_TryGetValue_CustomStyleProperty_d_Color_p__Out_Color;
 			}
 		}
 
 		/// <summary>
 		/// Boolean TryGetValue(UnityEngine.UIElements.CustomStyleProperty`1[UnityEngine.Texture2D], UnityEngine.Texture2D ByRef)
 		/// </summary>
-		protected RMethod r_RTryGetValue_CustomStyleProperty_d_Texture2D_p__Out_Texture2D;
+		protected RMethod r_TryGetValue_CustomStyleProperty_d_Texture2D_p__Out_Texture2D;
 		public virtual RMethod RTryGetValue_CustomStyleProperty_d_Texture2D_p__Out_Texture2D
 		{
 			get
 			{
-				if(r_RTryGetValue_CustomStyleProperty_d_Texture2D_p__Out_Texture2D == null)
+				if(r_TryGetValue_CustomStyleProperty_d_Texture2D_p__Out_Texture2D == null)
 				{
-					r_RTryGetValue_CustomStyleProperty_d_Texture2D_p__Out_Texture2D = new(this, "TryGetValue", 0, typeof(UnityEngine.UIElements.CustomStyleProperty<>).MakeGenericType(typeof(UnityEngine.Texture2D)), typeof(UnityEngine.Texture2D).MakeByRefType());
-					r_RTryGetValue_CustomStyleProperty_d_Texture2D_p__Out_Texture2D.SetBelong(this.instance);
+					r_TryGetValue_CustomStyleProperty_d_Texture2D_p__Out_Texture2D = new(this, "TryGetValue", 0, typeof(UnityEngine.UIElements.CustomStyleProperty<>).MakeGenericType(typeof(UnityEngine.Texture2D)), typeof(UnityEngine.Texture2D).MakeByRefType());
+					r_TryGetValue_CustomStyleProperty_d_Texture2D_p__Out_Texture2D.SetBelong(this.instance);
 				}
-				return r_RTryGetValue_CustomStyleProperty_d_Texture2D_p__Out_Texture2D;
+				return r_TryGetValue_CustomStyleProperty_d_Texture2D_p__Out_Texture2D;
 			}
 		}
 
 		/// <summary>
 		/// Boolean TryGetValue(UnityEngine.UIElements.CustomStyleProperty`1[UnityEngine.Sprite], UnityEngine.Sprite ByRef)
 		/// </summary>
-		protected RMethod r_RTryGetValue_CustomStyleProperty_d_Sprite_p__Out_Sprite;
+		protected RMethod r_TryGetValue_CustomStyleProperty_d_Sprite_p__Out_Sprite;
 		public virtual RMethod RTryGetValue_CustomStyleProperty_d_Sprite_p__Out_Sprite
 		{
 			get
 			{
-				if(r_RTryGetValue_CustomStyleProperty_d_Sprite_p__Out_Sprite == null)
+				if(r_TryGetValue_CustomStyleProperty_d_Sprite_p__Out_Sprite == null)
 				{
-					r_RTryGetValue_CustomStyleProperty_d_Sprite_p__Out_Sprite = new(this, "TryGetValue", 0, typeof(UnityEngine.UIElements.CustomStyleProperty<>).MakeGenericType(typeof(UnityEngine.Sprite)), typeof(UnityEngine.Sprite).MakeByRefType());
-					r_RTryGetValue_CustomStyleProperty_d_Sprite_p__Out_Sprite.SetBelong(this.instance);
+					r_TryGetValue_CustomStyleProperty_d_Sprite_p__Out_Sprite = new(this, "TryGetValue", 0, typeof(UnityEngine.UIElements.CustomStyleProperty<>).MakeGenericType(typeof(UnityEngine.Sprite)), typeof(UnityEngine.Sprite).MakeByRefType());
+					r_TryGetValue_CustomStyleProperty_d_Sprite_p__Out_Sprite.SetBelong(this.instance);
 				}
-				return r_RTryGetValue_CustomStyleProperty_d_Sprite_p__Out_Sprite;
+				return r_TryGetValue_CustomStyleProperty_d_Sprite_p__Out_Sprite;
 			}
 		}
 
 		/// <summary>
 		/// Boolean TryGetValue(UnityEngine.UIElements.CustomStyleProperty`1[UnityEngine.UIElements.VectorImage], UnityEngine.UIElements.VectorImage ByRef)
 		/// </summary>
-		protected RMethod r_RTryGetValue_CustomStyleProperty_d_VectorImage_p__Out_VectorImage;
+		protected RMethod r_TryGetValue_CustomStyleProperty_d_VectorImage_p__Out_VectorImage;
 		public virtual RMethod RTryGetValue_CustomStyleProperty_d_VectorImage_p__Out_VectorImage
 		{
 			get
 			{
-				if(r_RTryGetValue_CustomStyleProperty_d_VectorImage_p__Out_VectorImage == null)
+				if(r_TryGetValue_CustomStyleProperty_d_VectorImage_p__Out_VectorImage == null)
 				{
-					r_RTryGetValue_CustomStyleProperty_d_VectorImage_p__Out_VectorImage = new(this, "TryGetValue", 0, typeof(UnityEngine.UIElements.CustomStyleProperty<>).MakeGenericType(typeof(UnityEngine.UIElements.VectorImage)), typeof(UnityEngine.UIElements.VectorImage).MakeByRefType());
-					r_RTryGetValue_CustomStyleProperty_d_VectorImage_p__Out_VectorImage.SetBelong(this.instance);
+					r_TryGetValue_CustomStyleProperty_d_VectorImage_p__Out_VectorImage = new(this, "TryGetValue", 0, typeof(UnityEngine.UIElements.CustomStyleProperty<>).MakeGenericType(typeof(UnityEngine.UIElements.VectorImage)), typeof(UnityEngine.UIElements.VectorImage).MakeByRefType());
+					r_TryGetValue_CustomStyleProperty_d_VectorImage_p__Out_VectorImage.SetBelong(this.instance);
 				}
-				return r_RTryGetValue_CustomStyleProperty_d_VectorImage_p__Out_VectorImage;
+				return r_TryGetValue_CustomStyleProperty_d_VectorImage_p__Out_VectorImage;
 			}
 		}
 
 		/// <summary>
 		/// Boolean TryGetValue[T](UnityEngine.UIElements.CustomStyleProperty`1[T], T ByRef)
 		/// </summary>
-		protected RMethod r_RTryGetValue_GT_CustomStyleProperty_d_T_p__Out_T;
+		protected RMethod r_TryGetValue_GT_CustomStyleProperty_d_T_p__Out_T;
 		public virtual RMethod RTryGetValue_GT_CustomStyleProperty_d_T_p__Out_T
 		{
 			get
 			{
-				if(r_RTryGetValue_GT_CustomStyleProperty_d_T_p__Out_T == null)
+				if(r_TryGetValue_GT_CustomStyleProperty_d_T_p__Out_T == null)
 				{
-					r_RTryGetValue_GT_CustomStyleProperty_d_T_p__Out_T = new(this, "TryGetValue", 1, typeof(UnityEngine.UIElements.CustomStyleProperty<>).MakeGenericType(Type.MakeGenericMethodParameter(0)), Type.MakeGenericMethodParameter(0).MakeByRefType());
-					r_RTryGetValue_GT_CustomStyleProperty_d_T_p__Out_T.SetBelong(this.instance);
+					r_TryGetValue_GT_CustomStyleProperty_d_T_p__Out_T = new(this, "TryGetValue", 1, typeof(UnityEngine.UIElements.CustomStyleProperty<>).MakeGenericType(Type.MakeGenericMethodParameter(0)), Type.MakeGenericMethodParameter(0).MakeByRefType());
+					r_TryGetValue_GT_CustomStyleProperty_d_T_p__Out_T.SetBelong(this.instance);
 				}
-				return r_RTryGetValue_GT_CustomStyleProperty_d_T_p__Out_T;
+				return r_TryGetValue_GT_CustomStyleProperty_d_T_p__Out_T;
 			}
 		}
 
 		/// <summary>
 		/// Boolean TryGetValue(UnityEngine.UIElements.CustomStyleProperty`1[System.String], System.String ByRef)
 		/// </summary>
-		protected RMethod r_RTryGetValue_CustomStyleProperty_d_String_p__Out_String;
+		protected RMethod r_TryGetValue_CustomStyleProperty_d_String_p__Out_String;
 		public virtual RMethod RTryGetValue_CustomStyleProperty_d_String_p__Out_String
 		{
 			get
 			{
-				if(r_RTryGetValue_CustomStyleProperty_d_String_p__Out_String == null)
+				if(r_TryGetValue_CustomStyleProperty_d_String_p__Out_String == null)
 				{
-					r_RTryGetValue_CustomStyleProperty_d_String_p__Out_String = new(this, "TryGetValue", 0, typeof(UnityEngine.UIElements.CustomStyleProperty<>).MakeGenericType(typeof(System.String)), typeof(System.String).MakeByRefType());
-					r_RTryGetValue_CustomStyleProperty_d_String_p__Out_String.SetBelong(this.instance);
+					r_TryGetValue_CustomStyleProperty_d_String_p__Out_String = new(this, "TryGetValue", 0, typeof(UnityEngine.UIElements.CustomStyleProperty<>).MakeGenericType(typeof(System.String)), typeof(System.String).MakeByRefType());
+					r_TryGetValue_CustomStyleProperty_d_String_p__Out_String.SetBelong(this.instance);
 				}
-				return r_RTryGetValue_CustomStyleProperty_d_String_p__Out_String;
+				return r_TryGetValue_CustomStyleProperty_d_String_p__Out_String;
 			}
 		}
 
 		/// <summary>
 		/// Boolean TryGetValue(System.String, UnityEngine.UIElements.StyleValueType, UnityEngine.UIElements.StyleSheets.StylePropertyValue ByRef)
 		/// </summary>
-		protected RMethod r_RTryGetValue_String_StyleValueType_Out_StylePropertyValue;
+		protected RMethod r_TryGetValue_String_StyleValueType_Out_StylePropertyValue;
 		public virtual RMethod RTryGetValue_String_StyleValueType_Out_StylePropertyValue
 		{
 			get
 			{
-				if(r_RTryGetValue_String_StyleValueType_Out_StylePropertyValue == null)
+				if(r_TryGetValue_String_StyleValueType_Out_StylePropertyValue == null)
 				{
-					r_RTryGetValue_String_StyleValueType_Out_StylePropertyValue = new(this, "TryGetValue", 0, typeof(System.String),  ReleactionUtils.GetType("UnityEngine.UIElements.StyleValueType"),  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyValue").MakeByRefType());
-					r_RTryGetValue_String_StyleValueType_Out_StylePropertyValue.SetBelong(this.instance);
+					r_TryGetValue_String_StyleValueType_Out_StylePropertyValue = new(this, "TryGetValue", 0, typeof(System.String),  ReleactionUtils.GetType("UnityEngine.UIElements.StyleValueType"),  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyValue").MakeByRefType());
+					r_TryGetValue_String_StyleValueType_Out_StylePropertyValue.SetBelong(this.instance);
 				}
-				return r_RTryGetValue_String_StyleValueType_Out_StylePropertyValue;
+				return r_TryGetValue_String_StyleValueType_Out_StylePropertyValue;
 			}
 		}
 
 		/// <summary>
 		/// Void LogCustomPropertyWarning(System.String, UnityEngine.UIElements.StyleValueType, UnityEngine.UIElements.StyleSheets.StylePropertyValue)
 		/// </summary>
-		protected static RMethod r_RLogCustomPropertyWarning_String_StyleValueType_StylePropertyValue;
+		protected static RMethod r_LogCustomPropertyWarning_String_StyleValueType_StylePropertyValue;
 		public static RMethod RLogCustomPropertyWarning_String_StyleValueType_StylePropertyValue
 		{
 			get
 			{
-				if(r_RLogCustomPropertyWarning_String_StyleValueType_StylePropertyValue == null)
+				if(r_LogCustomPropertyWarning_String_StyleValueType_StylePropertyValue == null)
 				{
-					r_RLogCustomPropertyWarning_String_StyleValueType_StylePropertyValue = new( ReleactionUtils.GetType("UnityEngine.UIElements.VisualElement+CustomStyleAccess"), "LogCustomPropertyWarning", 0, typeof(System.String),  ReleactionUtils.GetType("UnityEngine.UIElements.StyleValueType"),  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyValue"));
-					r_RLogCustomPropertyWarning_String_StyleValueType_StylePropertyValue.SetBelong(null);
+					r_LogCustomPropertyWarning_String_StyleValueType_StylePropertyValue = new( ReleactionUtils.GetType("UnityEngine.UIElements.VisualElement+CustomStyleAccess"), "LogCustomPropertyWarning", 0, typeof(System.String),  ReleactionUtils.GetType("UnityEngine.UIElements.StyleValueType"),  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyValue"));
+					r_LogCustomPropertyWarning_String_StyleValueType_StylePropertyValue.SetBelong(null);
 				}
-				return r_RLogCustomPropertyWarning_String_StyleValueType_StylePropertyValue;
+				return r_LogCustomPropertyWarning_String_StyleValueType_StylePropertyValue;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Equals(System.Object)
 		/// </summary>
-		protected RMethod r_REquals_Object;
+		protected RMethod r_Equals_Object;
 		public virtual RMethod REquals_Object
 		{
 			get
 			{
-				if(r_REquals_Object == null)
+				if(r_Equals_Object == null)
 				{
-					r_REquals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_REquals_Object.SetBelong(this.instance);
+					r_Equals_Object = new(this, "Equals", 0, typeof(System.Object));
+					r_Equals_Object.SetBelong(this.instance);
 				}
-				return r_REquals_Object;
+				return r_Equals_Object;
 			}
 		}
 
 		/// <summary>
 		/// Void Finalize()
 		/// </summary>
-		protected RMethod r_RFinalize;
+		protected RMethod r_Finalize;
 		public virtual RMethod RFinalize
 		{
 			get
 			{
-				if(r_RFinalize == null)
+				if(r_Finalize == null)
 				{
-					r_RFinalize = new(this, "Finalize", 0);
-					r_RFinalize.SetBelong(this.instance);
+					r_Finalize = new(this, "Finalize", 0);
+					r_Finalize.SetBelong(this.instance);
 				}
-				return r_RFinalize;
+				return r_Finalize;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetHashCode()
 		/// </summary>
-		protected RMethod r_RGetHashCode;
+		protected RMethod r_GetHashCode;
 		public virtual RMethod RGetHashCode
 		{
 			get
 			{
-				if(r_RGetHashCode == null)
+				if(r_GetHashCode == null)
 				{
-					r_RGetHashCode = new(this, "GetHashCode", 0);
-					r_RGetHashCode.SetBelong(this.instance);
+					r_GetHashCode = new(this, "GetHashCode", 0);
+					r_GetHashCode.SetBelong(this.instance);
 				}
-				return r_RGetHashCode;
+				return r_GetHashCode;
 			}
 		}
 
 		/// <summary>
 		/// System.Type GetType()
 		/// </summary>
-		protected RMethod r_RGetType;
+		protected RMethod r_GetType;
 		public virtual RMethod RGetType
 		{
 			get
 			{
-				if(r_RGetType == null)
+				if(r_GetType == null)
 				{
-					r_RGetType = new(this, "GetType", 0);
-					r_RGetType.SetBelong(this.instance);
+					r_GetType = new(this, "GetType", 0);
+					r_GetType.SetBelong(this.instance);
 				}
-				return r_RGetType;
+				return r_GetType;
 			}
 		}
 
 		/// <summary>
 		/// System.Object MemberwiseClone()
 		/// </summary>
-		protected RMethod r_RMemberwiseClone;
+		protected RMethod r_MemberwiseClone;
 		public virtual RMethod RMemberwiseClone
 		{
 			get
 			{
-				if(r_RMemberwiseClone == null)
+				if(r_MemberwiseClone == null)
 				{
-					r_RMemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_RMemberwiseClone.SetBelong(this.instance);
+					r_MemberwiseClone = new(this, "MemberwiseClone", 0);
+					r_MemberwiseClone.SetBelong(this.instance);
 				}
-				return r_RMemberwiseClone;
+				return r_MemberwiseClone;
 			}
 		}
 
 		/// <summary>
 		/// System.String ToString()
 		/// </summary>
-		protected RMethod r_RToString;
+		protected RMethod r_ToString;
 		public virtual RMethod RToString
 		{
 			get
 			{
-				if(r_RToString == null)
+				if(r_ToString == null)
 				{
-					r_RToString = new(this, "ToString", 0);
-					r_RToString.SetBelong(this.instance);
+					r_ToString = new(this, "ToString", 0);
+					r_ToString.SetBelong(this.instance);
 				}
-				return r_RToString;
+				return r_ToString;
 			}
 		}
 

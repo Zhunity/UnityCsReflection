@@ -150,7 +150,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// Int32 Remaining
 		/// </summary>
 		protected RProperty r_Remaining;
-		public virtual RProperty Remaining
+		public virtual RProperty RRemaining
 		{
 			get
 			{
@@ -166,272 +166,272 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// Boolean Fallback(Char, Int32)
 		/// </summary>
-		protected RMethod r_RFallback_Char_Int32;
+		protected RMethod r_Fallback_Char_Int32;
 		public virtual RMethod RFallback_Char_Int32
 		{
 			get
 			{
-				if(r_RFallback_Char_Int32 == null)
+				if(r_Fallback_Char_Int32 == null)
 				{
-					r_RFallback_Char_Int32 = new(this, "Fallback", 0, typeof(System.Char), typeof(System.Int32));
-					r_RFallback_Char_Int32.SetBelong(this.instance);
+					r_Fallback_Char_Int32 = new(this, "Fallback", 0, typeof(System.Char), typeof(System.Int32));
+					r_Fallback_Char_Int32.SetBelong(this.instance);
 				}
-				return r_RFallback_Char_Int32;
+				return r_Fallback_Char_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Fallback(Char, Char, Int32)
 		/// </summary>
-		protected RMethod r_RFallback_Char_Char_Int32;
+		protected RMethod r_Fallback_Char_Char_Int32;
 		public virtual RMethod RFallback_Char_Char_Int32
 		{
 			get
 			{
-				if(r_RFallback_Char_Char_Int32 == null)
+				if(r_Fallback_Char_Char_Int32 == null)
 				{
-					r_RFallback_Char_Char_Int32 = new(this, "Fallback", 0, typeof(System.Char), typeof(System.Char), typeof(System.Int32));
-					r_RFallback_Char_Char_Int32.SetBelong(this.instance);
+					r_Fallback_Char_Char_Int32 = new(this, "Fallback", 0, typeof(System.Char), typeof(System.Char), typeof(System.Int32));
+					r_Fallback_Char_Char_Int32.SetBelong(this.instance);
 				}
-				return r_RFallback_Char_Char_Int32;
+				return r_Fallback_Char_Char_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Char GetNextChar()
 		/// </summary>
-		protected RMethod r_RGetNextChar;
+		protected RMethod r_GetNextChar;
 		public virtual RMethod RGetNextChar
 		{
 			get
 			{
-				if(r_RGetNextChar == null)
+				if(r_GetNextChar == null)
 				{
-					r_RGetNextChar = new(this, "GetNextChar", 0);
-					r_RGetNextChar.SetBelong(this.instance);
+					r_GetNextChar = new(this, "GetNextChar", 0);
+					r_GetNextChar.SetBelong(this.instance);
 				}
-				return r_RGetNextChar;
+				return r_GetNextChar;
 			}
 		}
 
 		/// <summary>
 		/// Boolean MovePrevious()
 		/// </summary>
-		protected RMethod r_RMovePrevious;
+		protected RMethod r_MovePrevious;
 		public virtual RMethod RMovePrevious
 		{
 			get
 			{
-				if(r_RMovePrevious == null)
+				if(r_MovePrevious == null)
 				{
-					r_RMovePrevious = new(this, "MovePrevious", 0);
-					r_RMovePrevious.SetBelong(this.instance);
+					r_MovePrevious = new(this, "MovePrevious", 0);
+					r_MovePrevious.SetBelong(this.instance);
 				}
-				return r_RMovePrevious;
+				return r_MovePrevious;
 			}
 		}
 
 		/// <summary>
 		/// Void Reset()
 		/// </summary>
-		protected RMethod r_RReset;
+		protected RMethod r_Reset;
 		public virtual RMethod RReset
 		{
 			get
 			{
-				if(r_RReset == null)
+				if(r_Reset == null)
 				{
-					r_RReset = new(this, "Reset", 0);
-					r_RReset.SetBelong(this.instance);
+					r_Reset = new(this, "Reset", 0);
+					r_Reset.SetBelong(this.instance);
 				}
-				return r_RReset;
+				return r_Reset;
 			}
 		}
 
 		/// <summary>
 		/// Void InternalReset()
 		/// </summary>
-		protected RMethod r_RInternalReset;
+		protected RMethod r_InternalReset;
 		public virtual RMethod RInternalReset
 		{
 			get
 			{
-				if(r_RInternalReset == null)
+				if(r_InternalReset == null)
 				{
-					r_RInternalReset = new(this, "InternalReset", 0);
-					r_RInternalReset.SetBelong(this.instance);
+					r_InternalReset = new(this, "InternalReset", 0);
+					r_InternalReset.SetBelong(this.instance);
 				}
-				return r_RInternalReset;
+				return r_InternalReset;
 			}
 		}
 
 		/// <summary>
 		/// Void InternalInitialize(Char*, Char*, System.Text.EncoderNLS, Boolean)
 		/// </summary>
-		protected RMethod r_RInternalInitialize_CharPointer_CharPointer_EncoderNLS_Boolean;
+		protected RMethod r_InternalInitialize_CharPointer_CharPointer_EncoderNLS_Boolean;
 		public virtual RMethod RInternalInitialize_CharPointer_CharPointer_EncoderNLS_Boolean
 		{
 			get
 			{
-				if(r_RInternalInitialize_CharPointer_CharPointer_EncoderNLS_Boolean == null)
+				if(r_InternalInitialize_CharPointer_CharPointer_EncoderNLS_Boolean == null)
 				{
-					r_RInternalInitialize_CharPointer_CharPointer_EncoderNLS_Boolean = new(this, "InternalInitialize", 0, typeof(System.Char).MakePointerType(), typeof(System.Char).MakePointerType(),  ReleactionUtils.GetType("System.Text.EncoderNLS"), typeof(System.Boolean));
-					r_RInternalInitialize_CharPointer_CharPointer_EncoderNLS_Boolean.SetBelong(this.instance);
+					r_InternalInitialize_CharPointer_CharPointer_EncoderNLS_Boolean = new(this, "InternalInitialize", 0, typeof(System.Char).MakePointerType(), typeof(System.Char).MakePointerType(),  ReleactionUtils.GetType("System.Text.EncoderNLS"), typeof(System.Boolean));
+					r_InternalInitialize_CharPointer_CharPointer_EncoderNLS_Boolean.SetBelong(this.instance);
 				}
-				return r_RInternalInitialize_CharPointer_CharPointer_EncoderNLS_Boolean;
+				return r_InternalInitialize_CharPointer_CharPointer_EncoderNLS_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Char InternalGetNextChar()
 		/// </summary>
-		protected RMethod r_RInternalGetNextChar;
+		protected RMethod r_InternalGetNextChar;
 		public virtual RMethod RInternalGetNextChar
 		{
 			get
 			{
-				if(r_RInternalGetNextChar == null)
+				if(r_InternalGetNextChar == null)
 				{
-					r_RInternalGetNextChar = new(this, "InternalGetNextChar", 0);
-					r_RInternalGetNextChar.SetBelong(this.instance);
+					r_InternalGetNextChar = new(this, "InternalGetNextChar", 0);
+					r_InternalGetNextChar.SetBelong(this.instance);
 				}
-				return r_RInternalGetNextChar;
+				return r_InternalGetNextChar;
 			}
 		}
 
 		/// <summary>
 		/// Boolean InternalFallback(Char, Char* ByRef)
 		/// </summary>
-		protected RMethod r_RInternalFallback_Char_Ref_CharPointer;
+		protected RMethod r_InternalFallback_Char_Ref_CharPointer;
 		public virtual RMethod RInternalFallback_Char_Ref_CharPointer
 		{
 			get
 			{
-				if(r_RInternalFallback_Char_Ref_CharPointer == null)
+				if(r_InternalFallback_Char_Ref_CharPointer == null)
 				{
-					r_RInternalFallback_Char_Ref_CharPointer = new(this, "InternalFallback", 0, typeof(System.Char), typeof(System.Char).MakePointerType().MakeByRefType());
-					r_RInternalFallback_Char_Ref_CharPointer.SetBelong(this.instance);
+					r_InternalFallback_Char_Ref_CharPointer = new(this, "InternalFallback", 0, typeof(System.Char), typeof(System.Char).MakePointerType().MakeByRefType());
+					r_InternalFallback_Char_Ref_CharPointer.SetBelong(this.instance);
 				}
-				return r_RInternalFallback_Char_Ref_CharPointer;
+				return r_InternalFallback_Char_Ref_CharPointer;
 			}
 		}
 
 		/// <summary>
 		/// Void ThrowLastCharRecursive(Int32)
 		/// </summary>
-		protected RMethod r_RThrowLastCharRecursive_Int32;
+		protected RMethod r_ThrowLastCharRecursive_Int32;
 		public virtual RMethod RThrowLastCharRecursive_Int32
 		{
 			get
 			{
-				if(r_RThrowLastCharRecursive_Int32 == null)
+				if(r_ThrowLastCharRecursive_Int32 == null)
 				{
-					r_RThrowLastCharRecursive_Int32 = new(this, "ThrowLastCharRecursive", 0, typeof(System.Int32));
-					r_RThrowLastCharRecursive_Int32.SetBelong(this.instance);
+					r_ThrowLastCharRecursive_Int32 = new(this, "ThrowLastCharRecursive", 0, typeof(System.Int32));
+					r_ThrowLastCharRecursive_Int32.SetBelong(this.instance);
 				}
-				return r_RThrowLastCharRecursive_Int32;
+				return r_ThrowLastCharRecursive_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Equals(System.Object)
 		/// </summary>
-		protected RMethod r_REquals_Object;
+		protected RMethod r_Equals_Object;
 		public virtual RMethod REquals_Object
 		{
 			get
 			{
-				if(r_REquals_Object == null)
+				if(r_Equals_Object == null)
 				{
-					r_REquals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_REquals_Object.SetBelong(this.instance);
+					r_Equals_Object = new(this, "Equals", 0, typeof(System.Object));
+					r_Equals_Object.SetBelong(this.instance);
 				}
-				return r_REquals_Object;
+				return r_Equals_Object;
 			}
 		}
 
 		/// <summary>
 		/// Void Finalize()
 		/// </summary>
-		protected RMethod r_RFinalize;
+		protected RMethod r_Finalize;
 		public virtual RMethod RFinalize
 		{
 			get
 			{
-				if(r_RFinalize == null)
+				if(r_Finalize == null)
 				{
-					r_RFinalize = new(this, "Finalize", 0);
-					r_RFinalize.SetBelong(this.instance);
+					r_Finalize = new(this, "Finalize", 0);
+					r_Finalize.SetBelong(this.instance);
 				}
-				return r_RFinalize;
+				return r_Finalize;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetHashCode()
 		/// </summary>
-		protected RMethod r_RGetHashCode;
+		protected RMethod r_GetHashCode;
 		public virtual RMethod RGetHashCode
 		{
 			get
 			{
-				if(r_RGetHashCode == null)
+				if(r_GetHashCode == null)
 				{
-					r_RGetHashCode = new(this, "GetHashCode", 0);
-					r_RGetHashCode.SetBelong(this.instance);
+					r_GetHashCode = new(this, "GetHashCode", 0);
+					r_GetHashCode.SetBelong(this.instance);
 				}
-				return r_RGetHashCode;
+				return r_GetHashCode;
 			}
 		}
 
 		/// <summary>
 		/// System.Type GetType()
 		/// </summary>
-		protected RMethod r_RGetType;
+		protected RMethod r_GetType;
 		public virtual RMethod RGetType
 		{
 			get
 			{
-				if(r_RGetType == null)
+				if(r_GetType == null)
 				{
-					r_RGetType = new(this, "GetType", 0);
-					r_RGetType.SetBelong(this.instance);
+					r_GetType = new(this, "GetType", 0);
+					r_GetType.SetBelong(this.instance);
 				}
-				return r_RGetType;
+				return r_GetType;
 			}
 		}
 
 		/// <summary>
 		/// System.Object MemberwiseClone()
 		/// </summary>
-		protected RMethod r_RMemberwiseClone;
+		protected RMethod r_MemberwiseClone;
 		public virtual RMethod RMemberwiseClone
 		{
 			get
 			{
-				if(r_RMemberwiseClone == null)
+				if(r_MemberwiseClone == null)
 				{
-					r_RMemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_RMemberwiseClone.SetBelong(this.instance);
+					r_MemberwiseClone = new(this, "MemberwiseClone", 0);
+					r_MemberwiseClone.SetBelong(this.instance);
 				}
-				return r_RMemberwiseClone;
+				return r_MemberwiseClone;
 			}
 		}
 
 		/// <summary>
 		/// System.String ToString()
 		/// </summary>
-		protected RMethod r_RToString;
+		protected RMethod r_ToString;
 		public virtual RMethod RToString
 		{
 			get
 			{
-				if(r_RToString == null)
+				if(r_ToString == null)
 				{
-					r_RToString = new(this, "ToString", 0);
-					r_RToString.SetBelong(this.instance);
+					r_ToString = new(this, "ToString", 0);
+					r_ToString.SetBelong(this.instance);
 				}
-				return r_RToString;
+				return r_ToString;
 			}
 		}
 

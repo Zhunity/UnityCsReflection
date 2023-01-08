@@ -47,238 +47,238 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// Void GetObjectData(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)
 		/// </summary>
-		protected RMethod r_RGetObjectData_SerializationInfo_StreamingContext;
+		protected RMethod r_GetObjectData_SerializationInfo_StreamingContext;
 		public virtual RMethod RGetObjectData_SerializationInfo_StreamingContext
 		{
 			get
 			{
-				if(r_RGetObjectData_SerializationInfo_StreamingContext == null)
+				if(r_GetObjectData_SerializationInfo_StreamingContext == null)
 				{
-					r_RGetObjectData_SerializationInfo_StreamingContext = new(this, "GetObjectData", 0, typeof(System.Runtime.Serialization.SerializationInfo), typeof(System.Runtime.Serialization.StreamingContext));
-					r_RGetObjectData_SerializationInfo_StreamingContext.SetBelong(this.instance);
+					r_GetObjectData_SerializationInfo_StreamingContext = new(this, "GetObjectData", 0, typeof(System.Runtime.Serialization.SerializationInfo), typeof(System.Runtime.Serialization.StreamingContext));
+					r_GetObjectData_SerializationInfo_StreamingContext.SetBelong(this.instance);
 				}
-				return r_RGetObjectData_SerializationInfo_StreamingContext;
+				return r_GetObjectData_SerializationInfo_StreamingContext;
 			}
 		}
 
 		/// <summary>
 		/// IntPtr GetFunctionPointer(IntPtr)
 		/// </summary>
-		protected static RMethod r_RGetFunctionPointer_IntPtr;
+		protected static RMethod r_GetFunctionPointer_IntPtr;
 		public static RMethod RGetFunctionPointer_IntPtr
 		{
 			get
 			{
-				if(r_RGetFunctionPointer_IntPtr == null)
+				if(r_GetFunctionPointer_IntPtr == null)
 				{
-					r_RGetFunctionPointer_IntPtr = new(typeof(System.RuntimeMethodHandle), "GetFunctionPointer", 0, typeof(System.IntPtr));
-					r_RGetFunctionPointer_IntPtr.SetBelong(null);
+					r_GetFunctionPointer_IntPtr = new(typeof(System.RuntimeMethodHandle), "GetFunctionPointer", 0, typeof(System.IntPtr));
+					r_GetFunctionPointer_IntPtr.SetBelong(null);
 				}
-				return r_RGetFunctionPointer_IntPtr;
+				return r_GetFunctionPointer_IntPtr;
 			}
 		}
 
 		/// <summary>
 		/// IntPtr GetFunctionPointer()
 		/// </summary>
-		protected RMethod r_RGetFunctionPointer;
+		protected RMethod r_GetFunctionPointer;
 		public virtual RMethod RGetFunctionPointer
 		{
 			get
 			{
-				if(r_RGetFunctionPointer == null)
+				if(r_GetFunctionPointer == null)
 				{
-					r_RGetFunctionPointer = new(this, "GetFunctionPointer", 0);
-					r_RGetFunctionPointer.SetBelong(this.instance);
+					r_GetFunctionPointer = new(this, "GetFunctionPointer", 0);
+					r_GetFunctionPointer.SetBelong(this.instance);
 				}
-				return r_RGetFunctionPointer;
+				return r_GetFunctionPointer;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Equals(System.Object)
 		/// </summary>
-		protected RMethod r_REquals_Object;
+		protected RMethod r_Equals_Object;
 		public virtual RMethod REquals_Object
 		{
 			get
 			{
-				if(r_REquals_Object == null)
+				if(r_Equals_Object == null)
 				{
-					r_REquals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_REquals_Object.SetBelong(this.instance);
+					r_Equals_Object = new(this, "Equals", 0, typeof(System.Object));
+					r_Equals_Object.SetBelong(this.instance);
 				}
-				return r_REquals_Object;
+				return r_Equals_Object;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Equals(System.RuntimeMethodHandle)
 		/// </summary>
-		protected RMethod r_REquals_RuntimeMethodHandle;
+		protected RMethod r_Equals_RuntimeMethodHandle;
 		public virtual RMethod REquals_RuntimeMethodHandle
 		{
 			get
 			{
-				if(r_REquals_RuntimeMethodHandle == null)
+				if(r_Equals_RuntimeMethodHandle == null)
 				{
-					r_REquals_RuntimeMethodHandle = new(this, "Equals", 0, typeof(System.RuntimeMethodHandle));
-					r_REquals_RuntimeMethodHandle.SetBelong(this.instance);
+					r_Equals_RuntimeMethodHandle = new(this, "Equals", 0, typeof(System.RuntimeMethodHandle));
+					r_Equals_RuntimeMethodHandle.SetBelong(this.instance);
 				}
-				return r_REquals_RuntimeMethodHandle;
+				return r_Equals_RuntimeMethodHandle;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetHashCode()
 		/// </summary>
-		protected RMethod r_RGetHashCode;
+		protected RMethod r_GetHashCode;
 		public virtual RMethod RGetHashCode
 		{
 			get
 			{
-				if(r_RGetHashCode == null)
+				if(r_GetHashCode == null)
 				{
-					r_RGetHashCode = new(this, "GetHashCode", 0);
-					r_RGetHashCode.SetBelong(this.instance);
+					r_GetHashCode = new(this, "GetHashCode", 0);
+					r_GetHashCode.SetBelong(this.instance);
 				}
-				return r_RGetHashCode;
+				return r_GetHashCode;
 			}
 		}
 
 		/// <summary>
 		/// Boolean op_Equality(System.RuntimeMethodHandle, System.RuntimeMethodHandle)
 		/// </summary>
-		protected static RMethod r_Rop_Equality_RuntimeMethodHandle_RuntimeMethodHandle;
+		protected static RMethod r_op_Equality_RuntimeMethodHandle_RuntimeMethodHandle;
 		public static RMethod Rop_Equality_RuntimeMethodHandle_RuntimeMethodHandle
 		{
 			get
 			{
-				if(r_Rop_Equality_RuntimeMethodHandle_RuntimeMethodHandle == null)
+				if(r_op_Equality_RuntimeMethodHandle_RuntimeMethodHandle == null)
 				{
-					r_Rop_Equality_RuntimeMethodHandle_RuntimeMethodHandle = new(typeof(System.RuntimeMethodHandle), "op_Equality", 0, typeof(System.RuntimeMethodHandle), typeof(System.RuntimeMethodHandle));
-					r_Rop_Equality_RuntimeMethodHandle_RuntimeMethodHandle.SetBelong(null);
+					r_op_Equality_RuntimeMethodHandle_RuntimeMethodHandle = new(typeof(System.RuntimeMethodHandle), "op_Equality", 0, typeof(System.RuntimeMethodHandle), typeof(System.RuntimeMethodHandle));
+					r_op_Equality_RuntimeMethodHandle_RuntimeMethodHandle.SetBelong(null);
 				}
-				return r_Rop_Equality_RuntimeMethodHandle_RuntimeMethodHandle;
+				return r_op_Equality_RuntimeMethodHandle_RuntimeMethodHandle;
 			}
 		}
 
 		/// <summary>
 		/// Boolean op_Inequality(System.RuntimeMethodHandle, System.RuntimeMethodHandle)
 		/// </summary>
-		protected static RMethod r_Rop_Inequality_RuntimeMethodHandle_RuntimeMethodHandle;
+		protected static RMethod r_op_Inequality_RuntimeMethodHandle_RuntimeMethodHandle;
 		public static RMethod Rop_Inequality_RuntimeMethodHandle_RuntimeMethodHandle
 		{
 			get
 			{
-				if(r_Rop_Inequality_RuntimeMethodHandle_RuntimeMethodHandle == null)
+				if(r_op_Inequality_RuntimeMethodHandle_RuntimeMethodHandle == null)
 				{
-					r_Rop_Inequality_RuntimeMethodHandle_RuntimeMethodHandle = new(typeof(System.RuntimeMethodHandle), "op_Inequality", 0, typeof(System.RuntimeMethodHandle), typeof(System.RuntimeMethodHandle));
-					r_Rop_Inequality_RuntimeMethodHandle_RuntimeMethodHandle.SetBelong(null);
+					r_op_Inequality_RuntimeMethodHandle_RuntimeMethodHandle = new(typeof(System.RuntimeMethodHandle), "op_Inequality", 0, typeof(System.RuntimeMethodHandle), typeof(System.RuntimeMethodHandle));
+					r_op_Inequality_RuntimeMethodHandle_RuntimeMethodHandle.SetBelong(null);
 				}
-				return r_Rop_Inequality_RuntimeMethodHandle_RuntimeMethodHandle;
+				return r_op_Inequality_RuntimeMethodHandle_RuntimeMethodHandle;
 			}
 		}
 
 		/// <summary>
 		/// System.String ConstructInstantiation(System.Reflection.RuntimeMethodInfo, System.TypeNameFormatFlags)
 		/// </summary>
-		protected static RMethod r_RConstructInstantiation_RuntimeMethodInfo_TypeNameFormatFlags;
+		protected static RMethod r_ConstructInstantiation_RuntimeMethodInfo_TypeNameFormatFlags;
 		public static RMethod RConstructInstantiation_RuntimeMethodInfo_TypeNameFormatFlags
 		{
 			get
 			{
-				if(r_RConstructInstantiation_RuntimeMethodInfo_TypeNameFormatFlags == null)
+				if(r_ConstructInstantiation_RuntimeMethodInfo_TypeNameFormatFlags == null)
 				{
-					r_RConstructInstantiation_RuntimeMethodInfo_TypeNameFormatFlags = new(typeof(System.RuntimeMethodHandle), "ConstructInstantiation", 0,  ReleactionUtils.GetType("System.Reflection.RuntimeMethodInfo"),  ReleactionUtils.GetType("System.TypeNameFormatFlags"));
-					r_RConstructInstantiation_RuntimeMethodInfo_TypeNameFormatFlags.SetBelong(null);
+					r_ConstructInstantiation_RuntimeMethodInfo_TypeNameFormatFlags = new(typeof(System.RuntimeMethodHandle), "ConstructInstantiation", 0,  ReleactionUtils.GetType("System.Reflection.RuntimeMethodInfo"),  ReleactionUtils.GetType("System.TypeNameFormatFlags"));
+					r_ConstructInstantiation_RuntimeMethodInfo_TypeNameFormatFlags.SetBelong(null);
 				}
-				return r_RConstructInstantiation_RuntimeMethodInfo_TypeNameFormatFlags;
+				return r_ConstructInstantiation_RuntimeMethodInfo_TypeNameFormatFlags;
 			}
 		}
 
 		/// <summary>
 		/// Boolean IsNullHandle()
 		/// </summary>
-		protected RMethod r_RIsNullHandle;
+		protected RMethod r_IsNullHandle;
 		public virtual RMethod RIsNullHandle
 		{
 			get
 			{
-				if(r_RIsNullHandle == null)
+				if(r_IsNullHandle == null)
 				{
-					r_RIsNullHandle = new(this, "IsNullHandle", 0);
-					r_RIsNullHandle.SetBelong(this.instance);
+					r_IsNullHandle = new(this, "IsNullHandle", 0);
+					r_IsNullHandle.SetBelong(this.instance);
 				}
-				return r_RIsNullHandle;
+				return r_IsNullHandle;
 			}
 		}
 
 		/// <summary>
 		/// System.String ToString()
 		/// </summary>
-		protected RMethod r_RToString;
+		protected RMethod r_ToString;
 		public virtual RMethod RToString
 		{
 			get
 			{
-				if(r_RToString == null)
+				if(r_ToString == null)
 				{
-					r_RToString = new(this, "ToString", 0);
-					r_RToString.SetBelong(this.instance);
+					r_ToString = new(this, "ToString", 0);
+					r_ToString.SetBelong(this.instance);
 				}
-				return r_RToString;
+				return r_ToString;
 			}
 		}
 
 		/// <summary>
 		/// Void Finalize()
 		/// </summary>
-		protected RMethod r_RFinalize;
+		protected RMethod r_Finalize;
 		public virtual RMethod RFinalize
 		{
 			get
 			{
-				if(r_RFinalize == null)
+				if(r_Finalize == null)
 				{
-					r_RFinalize = new(this, "Finalize", 0);
-					r_RFinalize.SetBelong(this.instance);
+					r_Finalize = new(this, "Finalize", 0);
+					r_Finalize.SetBelong(this.instance);
 				}
-				return r_RFinalize;
+				return r_Finalize;
 			}
 		}
 
 		/// <summary>
 		/// System.Type GetType()
 		/// </summary>
-		protected RMethod r_RGetType;
+		protected RMethod r_GetType;
 		public virtual RMethod RGetType
 		{
 			get
 			{
-				if(r_RGetType == null)
+				if(r_GetType == null)
 				{
-					r_RGetType = new(this, "GetType", 0);
-					r_RGetType.SetBelong(this.instance);
+					r_GetType = new(this, "GetType", 0);
+					r_GetType.SetBelong(this.instance);
 				}
-				return r_RGetType;
+				return r_GetType;
 			}
 		}
 
 		/// <summary>
 		/// System.Object MemberwiseClone()
 		/// </summary>
-		protected RMethod r_RMemberwiseClone;
+		protected RMethod r_MemberwiseClone;
 		public virtual RMethod RMemberwiseClone
 		{
 			get
 			{
-				if(r_RMemberwiseClone == null)
+				if(r_MemberwiseClone == null)
 				{
-					r_RMemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_RMemberwiseClone.SetBelong(this.instance);
+					r_MemberwiseClone = new(this, "MemberwiseClone", 0);
+					r_MemberwiseClone.SetBelong(this.instance);
 				}
-				return r_RMemberwiseClone;
+				return r_MemberwiseClone;
 			}
 		}
 

@@ -201,7 +201,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
 		/// System.Runtime.Remoting.Messaging.CallContextRemotingData RemotingData
 		/// </summary>
 		protected RSystem.RRuntime.RRemoting.RMessaging.RCallContextRemotingData r_RemotingData;
-		public virtual RSystem.RRuntime.RRemoting.RMessaging.RCallContextRemotingData RemotingData
+		public virtual RSystem.RRuntime.RRemoting.RMessaging.RCallContextRemotingData RRemotingData
 		{
 			get
 			{
@@ -285,323 +285,323 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
 		/// <summary>
 		/// Void GetObjectData(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)
 		/// </summary>
-		protected RMethod r_RGetObjectData_SerializationInfo_StreamingContext;
+		protected RMethod r_GetObjectData_SerializationInfo_StreamingContext;
 		public virtual RMethod RGetObjectData_SerializationInfo_StreamingContext
 		{
 			get
 			{
-				if(r_RGetObjectData_SerializationInfo_StreamingContext == null)
+				if(r_GetObjectData_SerializationInfo_StreamingContext == null)
 				{
-					r_RGetObjectData_SerializationInfo_StreamingContext = new(this, "GetObjectData", 0, typeof(System.Runtime.Serialization.SerializationInfo), typeof(System.Runtime.Serialization.StreamingContext));
-					r_RGetObjectData_SerializationInfo_StreamingContext.SetBelong(this.instance);
+					r_GetObjectData_SerializationInfo_StreamingContext = new(this, "GetObjectData", 0, typeof(System.Runtime.Serialization.SerializationInfo), typeof(System.Runtime.Serialization.StreamingContext));
+					r_GetObjectData_SerializationInfo_StreamingContext.SetBelong(this.instance);
 				}
-				return r_RGetObjectData_SerializationInfo_StreamingContext;
+				return r_GetObjectData_SerializationInfo_StreamingContext;
 			}
 		}
 
 		/// <summary>
 		/// System.Object Clone()
 		/// </summary>
-		protected RMethod r_RClone;
+		protected RMethod r_Clone;
 		public virtual RMethod RClone
 		{
 			get
 			{
-				if(r_RClone == null)
+				if(r_Clone == null)
 				{
-					r_RClone = new(this, "Clone", 0);
-					r_RClone.SetBelong(this.instance);
+					r_Clone = new(this, "Clone", 0);
+					r_Clone.SetBelong(this.instance);
 				}
-				return r_RClone;
+				return r_Clone;
 			}
 		}
 
 		/// <summary>
 		/// Void Merge(System.Runtime.Remoting.Messaging.LogicalCallContext)
 		/// </summary>
-		protected RMethod r_RMerge_LogicalCallContext;
+		protected RMethod r_Merge_LogicalCallContext;
 		public virtual RMethod RMerge_LogicalCallContext
 		{
 			get
 			{
-				if(r_RMerge_LogicalCallContext == null)
+				if(r_Merge_LogicalCallContext == null)
 				{
-					r_RMerge_LogicalCallContext = new(this, "Merge", 0, typeof(System.Runtime.Remoting.Messaging.LogicalCallContext));
-					r_RMerge_LogicalCallContext.SetBelong(this.instance);
+					r_Merge_LogicalCallContext = new(this, "Merge", 0, typeof(System.Runtime.Remoting.Messaging.LogicalCallContext));
+					r_Merge_LogicalCallContext.SetBelong(this.instance);
 				}
-				return r_RMerge_LogicalCallContext;
+				return r_Merge_LogicalCallContext;
 			}
 		}
 
 		/// <summary>
 		/// Void FreeNamedDataSlot(System.String)
 		/// </summary>
-		protected RMethod r_RFreeNamedDataSlot_String;
+		protected RMethod r_FreeNamedDataSlot_String;
 		public virtual RMethod RFreeNamedDataSlot_String
 		{
 			get
 			{
-				if(r_RFreeNamedDataSlot_String == null)
+				if(r_FreeNamedDataSlot_String == null)
 				{
-					r_RFreeNamedDataSlot_String = new(this, "FreeNamedDataSlot", 0, typeof(System.String));
-					r_RFreeNamedDataSlot_String.SetBelong(this.instance);
+					r_FreeNamedDataSlot_String = new(this, "FreeNamedDataSlot", 0, typeof(System.String));
+					r_FreeNamedDataSlot_String.SetBelong(this.instance);
 				}
-				return r_RFreeNamedDataSlot_String;
+				return r_FreeNamedDataSlot_String;
 			}
 		}
 
 		/// <summary>
 		/// System.Object GetData(System.String)
 		/// </summary>
-		protected RMethod r_RGetData_String;
+		protected RMethod r_GetData_String;
 		public virtual RMethod RGetData_String
 		{
 			get
 			{
-				if(r_RGetData_String == null)
+				if(r_GetData_String == null)
 				{
-					r_RGetData_String = new(this, "GetData", 0, typeof(System.String));
-					r_RGetData_String.SetBelong(this.instance);
+					r_GetData_String = new(this, "GetData", 0, typeof(System.String));
+					r_GetData_String.SetBelong(this.instance);
 				}
-				return r_RGetData_String;
+				return r_GetData_String;
 			}
 		}
 
 		/// <summary>
 		/// Void SetData(System.String, System.Object)
 		/// </summary>
-		protected RMethod r_RSetData_String_Object;
+		protected RMethod r_SetData_String_Object;
 		public virtual RMethod RSetData_String_Object
 		{
 			get
 			{
-				if(r_RSetData_String_Object == null)
+				if(r_SetData_String_Object == null)
 				{
-					r_RSetData_String_Object = new(this, "SetData", 0, typeof(System.String), typeof(System.Object));
-					r_RSetData_String_Object.SetBelong(this.instance);
+					r_SetData_String_Object = new(this, "SetData", 0, typeof(System.String), typeof(System.Object));
+					r_SetData_String_Object.SetBelong(this.instance);
 				}
-				return r_RSetData_String_Object;
+				return r_SetData_String_Object;
 			}
 		}
 
 		/// <summary>
 		/// System.Runtime.Remoting.Messaging.Header[] InternalGetOutgoingHeaders()
 		/// </summary>
-		protected RMethod r_RInternalGetOutgoingHeaders;
+		protected RMethod r_InternalGetOutgoingHeaders;
 		public virtual RMethod RInternalGetOutgoingHeaders
 		{
 			get
 			{
-				if(r_RInternalGetOutgoingHeaders == null)
+				if(r_InternalGetOutgoingHeaders == null)
 				{
-					r_RInternalGetOutgoingHeaders = new(this, "InternalGetOutgoingHeaders", 0);
-					r_RInternalGetOutgoingHeaders.SetBelong(this.instance);
+					r_InternalGetOutgoingHeaders = new(this, "InternalGetOutgoingHeaders", 0);
+					r_InternalGetOutgoingHeaders.SetBelong(this.instance);
 				}
-				return r_RInternalGetOutgoingHeaders;
+				return r_InternalGetOutgoingHeaders;
 			}
 		}
 
 		/// <summary>
 		/// Void InternalSetHeaders(System.Runtime.Remoting.Messaging.Header[])
 		/// </summary>
-		protected RMethod r_RInternalSetHeaders_HeaderArray;
+		protected RMethod r_InternalSetHeaders_HeaderArray;
 		public virtual RMethod RInternalSetHeaders_HeaderArray
 		{
 			get
 			{
-				if(r_RInternalSetHeaders_HeaderArray == null)
+				if(r_InternalSetHeaders_HeaderArray == null)
 				{
-					r_RInternalSetHeaders_HeaderArray = new(this, "InternalSetHeaders", 0, typeof(System.Runtime.Remoting.Messaging.Header).MakeArrayType());
-					r_RInternalSetHeaders_HeaderArray.SetBelong(this.instance);
+					r_InternalSetHeaders_HeaderArray = new(this, "InternalSetHeaders", 0, typeof(System.Runtime.Remoting.Messaging.Header).MakeArrayType());
+					r_InternalSetHeaders_HeaderArray.SetBelong(this.instance);
 				}
-				return r_RInternalSetHeaders_HeaderArray;
+				return r_InternalSetHeaders_HeaderArray;
 			}
 		}
 
 		/// <summary>
 		/// System.Runtime.Remoting.Messaging.Header[] InternalGetHeaders()
 		/// </summary>
-		protected RMethod r_RInternalGetHeaders;
+		protected RMethod r_InternalGetHeaders;
 		public virtual RMethod RInternalGetHeaders
 		{
 			get
 			{
-				if(r_RInternalGetHeaders == null)
+				if(r_InternalGetHeaders == null)
 				{
-					r_RInternalGetHeaders = new(this, "InternalGetHeaders", 0);
-					r_RInternalGetHeaders.SetBelong(this.instance);
+					r_InternalGetHeaders = new(this, "InternalGetHeaders", 0);
+					r_InternalGetHeaders.SetBelong(this.instance);
 				}
-				return r_RInternalGetHeaders;
+				return r_InternalGetHeaders;
 			}
 		}
 
 		/// <summary>
 		/// System.Security.Principal.IPrincipal RemovePrincipalIfNotSerializable()
 		/// </summary>
-		protected RMethod r_RRemovePrincipalIfNotSerializable;
+		protected RMethod r_RemovePrincipalIfNotSerializable;
 		public virtual RMethod RRemovePrincipalIfNotSerializable
 		{
 			get
 			{
-				if(r_RRemovePrincipalIfNotSerializable == null)
+				if(r_RemovePrincipalIfNotSerializable == null)
 				{
-					r_RRemovePrincipalIfNotSerializable = new(this, "RemovePrincipalIfNotSerializable", 0);
-					r_RRemovePrincipalIfNotSerializable.SetBelong(this.instance);
+					r_RemovePrincipalIfNotSerializable = new(this, "RemovePrincipalIfNotSerializable", 0);
+					r_RemovePrincipalIfNotSerializable.SetBelong(this.instance);
 				}
-				return r_RRemovePrincipalIfNotSerializable;
+				return r_RemovePrincipalIfNotSerializable;
 			}
 		}
 
 		/// <summary>
 		/// Void PropagateOutgoingHeadersToMessage(System.Runtime.Remoting.Messaging.IMessage)
 		/// </summary>
-		protected RMethod r_RPropagateOutgoingHeadersToMessage_IMessage;
+		protected RMethod r_PropagateOutgoingHeadersToMessage_IMessage;
 		public virtual RMethod RPropagateOutgoingHeadersToMessage_IMessage
 		{
 			get
 			{
-				if(r_RPropagateOutgoingHeadersToMessage_IMessage == null)
+				if(r_PropagateOutgoingHeadersToMessage_IMessage == null)
 				{
-					r_RPropagateOutgoingHeadersToMessage_IMessage = new(this, "PropagateOutgoingHeadersToMessage", 0, typeof(System.Runtime.Remoting.Messaging.IMessage));
-					r_RPropagateOutgoingHeadersToMessage_IMessage.SetBelong(this.instance);
+					r_PropagateOutgoingHeadersToMessage_IMessage = new(this, "PropagateOutgoingHeadersToMessage", 0, typeof(System.Runtime.Remoting.Messaging.IMessage));
+					r_PropagateOutgoingHeadersToMessage_IMessage.SetBelong(this.instance);
 				}
-				return r_RPropagateOutgoingHeadersToMessage_IMessage;
+				return r_PropagateOutgoingHeadersToMessage_IMessage;
 			}
 		}
 
 		/// <summary>
 		/// System.String GetPropertyKeyForHeader(System.Runtime.Remoting.Messaging.Header)
 		/// </summary>
-		protected static RMethod r_RGetPropertyKeyForHeader_Header;
+		protected static RMethod r_GetPropertyKeyForHeader_Header;
 		public static RMethod RGetPropertyKeyForHeader_Header
 		{
 			get
 			{
-				if(r_RGetPropertyKeyForHeader_Header == null)
+				if(r_GetPropertyKeyForHeader_Header == null)
 				{
-					r_RGetPropertyKeyForHeader_Header = new(typeof(System.Runtime.Remoting.Messaging.LogicalCallContext), "GetPropertyKeyForHeader", 0, typeof(System.Runtime.Remoting.Messaging.Header));
-					r_RGetPropertyKeyForHeader_Header.SetBelong(null);
+					r_GetPropertyKeyForHeader_Header = new(typeof(System.Runtime.Remoting.Messaging.LogicalCallContext), "GetPropertyKeyForHeader", 0, typeof(System.Runtime.Remoting.Messaging.Header));
+					r_GetPropertyKeyForHeader_Header.SetBelong(null);
 				}
-				return r_RGetPropertyKeyForHeader_Header;
+				return r_GetPropertyKeyForHeader_Header;
 			}
 		}
 
 		/// <summary>
 		/// Void PropagateIncomingHeadersToCallContext(System.Runtime.Remoting.Messaging.IMessage)
 		/// </summary>
-		protected RMethod r_RPropagateIncomingHeadersToCallContext_IMessage;
+		protected RMethod r_PropagateIncomingHeadersToCallContext_IMessage;
 		public virtual RMethod RPropagateIncomingHeadersToCallContext_IMessage
 		{
 			get
 			{
-				if(r_RPropagateIncomingHeadersToCallContext_IMessage == null)
+				if(r_PropagateIncomingHeadersToCallContext_IMessage == null)
 				{
-					r_RPropagateIncomingHeadersToCallContext_IMessage = new(this, "PropagateIncomingHeadersToCallContext", 0, typeof(System.Runtime.Remoting.Messaging.IMessage));
-					r_RPropagateIncomingHeadersToCallContext_IMessage.SetBelong(this.instance);
+					r_PropagateIncomingHeadersToCallContext_IMessage = new(this, "PropagateIncomingHeadersToCallContext", 0, typeof(System.Runtime.Remoting.Messaging.IMessage));
+					r_PropagateIncomingHeadersToCallContext_IMessage.SetBelong(this.instance);
 				}
-				return r_RPropagateIncomingHeadersToCallContext_IMessage;
+				return r_PropagateIncomingHeadersToCallContext_IMessage;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Equals(System.Object)
 		/// </summary>
-		protected RMethod r_REquals_Object;
+		protected RMethod r_Equals_Object;
 		public virtual RMethod REquals_Object
 		{
 			get
 			{
-				if(r_REquals_Object == null)
+				if(r_Equals_Object == null)
 				{
-					r_REquals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_REquals_Object.SetBelong(this.instance);
+					r_Equals_Object = new(this, "Equals", 0, typeof(System.Object));
+					r_Equals_Object.SetBelong(this.instance);
 				}
-				return r_REquals_Object;
+				return r_Equals_Object;
 			}
 		}
 
 		/// <summary>
 		/// Void Finalize()
 		/// </summary>
-		protected RMethod r_RFinalize;
+		protected RMethod r_Finalize;
 		public virtual RMethod RFinalize
 		{
 			get
 			{
-				if(r_RFinalize == null)
+				if(r_Finalize == null)
 				{
-					r_RFinalize = new(this, "Finalize", 0);
-					r_RFinalize.SetBelong(this.instance);
+					r_Finalize = new(this, "Finalize", 0);
+					r_Finalize.SetBelong(this.instance);
 				}
-				return r_RFinalize;
+				return r_Finalize;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetHashCode()
 		/// </summary>
-		protected RMethod r_RGetHashCode;
+		protected RMethod r_GetHashCode;
 		public virtual RMethod RGetHashCode
 		{
 			get
 			{
-				if(r_RGetHashCode == null)
+				if(r_GetHashCode == null)
 				{
-					r_RGetHashCode = new(this, "GetHashCode", 0);
-					r_RGetHashCode.SetBelong(this.instance);
+					r_GetHashCode = new(this, "GetHashCode", 0);
+					r_GetHashCode.SetBelong(this.instance);
 				}
-				return r_RGetHashCode;
+				return r_GetHashCode;
 			}
 		}
 
 		/// <summary>
 		/// System.Type GetType()
 		/// </summary>
-		protected RMethod r_RGetType;
+		protected RMethod r_GetType;
 		public virtual RMethod RGetType
 		{
 			get
 			{
-				if(r_RGetType == null)
+				if(r_GetType == null)
 				{
-					r_RGetType = new(this, "GetType", 0);
-					r_RGetType.SetBelong(this.instance);
+					r_GetType = new(this, "GetType", 0);
+					r_GetType.SetBelong(this.instance);
 				}
-				return r_RGetType;
+				return r_GetType;
 			}
 		}
 
 		/// <summary>
 		/// System.Object MemberwiseClone()
 		/// </summary>
-		protected RMethod r_RMemberwiseClone;
+		protected RMethod r_MemberwiseClone;
 		public virtual RMethod RMemberwiseClone
 		{
 			get
 			{
-				if(r_RMemberwiseClone == null)
+				if(r_MemberwiseClone == null)
 				{
-					r_RMemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_RMemberwiseClone.SetBelong(this.instance);
+					r_MemberwiseClone = new(this, "MemberwiseClone", 0);
+					r_MemberwiseClone.SetBelong(this.instance);
 				}
-				return r_RMemberwiseClone;
+				return r_MemberwiseClone;
 			}
 		}
 
 		/// <summary>
 		/// System.String ToString()
 		/// </summary>
-		protected RMethod r_RToString;
+		protected RMethod r_ToString;
 		public virtual RMethod RToString
 		{
 			get
 			{
-				if(r_RToString == null)
+				if(r_ToString == null)
 				{
-					r_RToString = new(this, "ToString", 0);
-					r_RToString.SetBelong(this.instance);
+					r_ToString = new(this, "ToString", 0);
+					r_ToString.SetBelong(this.instance);
 				}
-				return r_RToString;
+				return r_ToString;
 			}
 		}
 

@@ -201,7 +201,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
 		/// System.Security.Policy.CodeGroup RootCodeGroup
 		/// </summary>
 		protected RSystem.RSecurity.RPolicy.RCodeGroup r_RootCodeGroup;
-		public virtual RSystem.RSecurity.RPolicy.RCodeGroup RootCodeGroup
+		public virtual RSystem.RSecurity.RPolicy.RCodeGroup RRootCodeGroup
 		{
 			get
 			{
@@ -251,527 +251,527 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
 		/// <summary>
 		/// Void LoadFromFile(System.String)
 		/// </summary>
-		protected RMethod r_RLoadFromFile_String;
+		protected RMethod r_LoadFromFile_String;
 		public virtual RMethod RLoadFromFile_String
 		{
 			get
 			{
-				if(r_RLoadFromFile_String == null)
+				if(r_LoadFromFile_String == null)
 				{
-					r_RLoadFromFile_String = new(this, "LoadFromFile", 0, typeof(System.String));
-					r_RLoadFromFile_String.SetBelong(this.instance);
+					r_LoadFromFile_String = new(this, "LoadFromFile", 0, typeof(System.String));
+					r_LoadFromFile_String.SetBelong(this.instance);
 				}
-				return r_RLoadFromFile_String;
+				return r_LoadFromFile_String;
 			}
 		}
 
 		/// <summary>
 		/// Void LoadFromString(System.String)
 		/// </summary>
-		protected RMethod r_RLoadFromString_String;
+		protected RMethod r_LoadFromString_String;
 		public virtual RMethod RLoadFromString_String
 		{
 			get
 			{
-				if(r_RLoadFromString_String == null)
+				if(r_LoadFromString_String == null)
 				{
-					r_RLoadFromString_String = new(this, "LoadFromString", 0, typeof(System.String));
-					r_RLoadFromString_String.SetBelong(this.instance);
+					r_LoadFromString_String = new(this, "LoadFromString", 0, typeof(System.String));
+					r_LoadFromString_String.SetBelong(this.instance);
 				}
-				return r_RLoadFromString_String;
+				return r_LoadFromString_String;
 			}
 		}
 
 		/// <summary>
 		/// System.Security.SecurityElement FromString(System.String)
 		/// </summary>
-		protected RMethod r_RFromString_String;
+		protected RMethod r_FromString_String;
 		public virtual RMethod RFromString_String
 		{
 			get
 			{
-				if(r_RFromString_String == null)
+				if(r_FromString_String == null)
 				{
-					r_RFromString_String = new(this, "FromString", 0, typeof(System.String));
-					r_RFromString_String.SetBelong(this.instance);
+					r_FromString_String = new(this, "FromString", 0, typeof(System.String));
+					r_FromString_String.SetBelong(this.instance);
 				}
-				return r_RFromString_String;
+				return r_FromString_String;
 			}
 		}
 
 		/// <summary>
 		/// Void AddFullTrustAssembly(System.Security.Policy.StrongName)
 		/// </summary>
-		protected RMethod r_RAddFullTrustAssembly_StrongName;
+		protected RMethod r_AddFullTrustAssembly_StrongName;
 		public virtual RMethod RAddFullTrustAssembly_StrongName
 		{
 			get
 			{
-				if(r_RAddFullTrustAssembly_StrongName == null)
+				if(r_AddFullTrustAssembly_StrongName == null)
 				{
-					r_RAddFullTrustAssembly_StrongName = new(this, "AddFullTrustAssembly", 0, typeof(System.Security.Policy.StrongName));
-					r_RAddFullTrustAssembly_StrongName.SetBelong(this.instance);
+					r_AddFullTrustAssembly_StrongName = new(this, "AddFullTrustAssembly", 0, typeof(System.Security.Policy.StrongName));
+					r_AddFullTrustAssembly_StrongName.SetBelong(this.instance);
 				}
-				return r_RAddFullTrustAssembly_StrongName;
+				return r_AddFullTrustAssembly_StrongName;
 			}
 		}
 
 		/// <summary>
 		/// Void AddFullTrustAssembly(System.Security.Policy.StrongNameMembershipCondition)
 		/// </summary>
-		protected RMethod r_RAddFullTrustAssembly_StrongNameMembershipCondition;
+		protected RMethod r_AddFullTrustAssembly_StrongNameMembershipCondition;
 		public virtual RMethod RAddFullTrustAssembly_StrongNameMembershipCondition
 		{
 			get
 			{
-				if(r_RAddFullTrustAssembly_StrongNameMembershipCondition == null)
+				if(r_AddFullTrustAssembly_StrongNameMembershipCondition == null)
 				{
-					r_RAddFullTrustAssembly_StrongNameMembershipCondition = new(this, "AddFullTrustAssembly", 0, typeof(System.Security.Policy.StrongNameMembershipCondition));
-					r_RAddFullTrustAssembly_StrongNameMembershipCondition.SetBelong(this.instance);
+					r_AddFullTrustAssembly_StrongNameMembershipCondition = new(this, "AddFullTrustAssembly", 0, typeof(System.Security.Policy.StrongNameMembershipCondition));
+					r_AddFullTrustAssembly_StrongNameMembershipCondition.SetBelong(this.instance);
 				}
-				return r_RAddFullTrustAssembly_StrongNameMembershipCondition;
+				return r_AddFullTrustAssembly_StrongNameMembershipCondition;
 			}
 		}
 
 		/// <summary>
 		/// Void AddNamedPermissionSet(System.Security.NamedPermissionSet)
 		/// </summary>
-		protected RMethod r_RAddNamedPermissionSet_NamedPermissionSet;
+		protected RMethod r_AddNamedPermissionSet_NamedPermissionSet;
 		public virtual RMethod RAddNamedPermissionSet_NamedPermissionSet
 		{
 			get
 			{
-				if(r_RAddNamedPermissionSet_NamedPermissionSet == null)
+				if(r_AddNamedPermissionSet_NamedPermissionSet == null)
 				{
-					r_RAddNamedPermissionSet_NamedPermissionSet = new(this, "AddNamedPermissionSet", 0, typeof(System.Security.NamedPermissionSet));
-					r_RAddNamedPermissionSet_NamedPermissionSet.SetBelong(this.instance);
+					r_AddNamedPermissionSet_NamedPermissionSet = new(this, "AddNamedPermissionSet", 0, typeof(System.Security.NamedPermissionSet));
+					r_AddNamedPermissionSet_NamedPermissionSet.SetBelong(this.instance);
 				}
-				return r_RAddNamedPermissionSet_NamedPermissionSet;
+				return r_AddNamedPermissionSet_NamedPermissionSet;
 			}
 		}
 
 		/// <summary>
 		/// System.Security.NamedPermissionSet ChangeNamedPermissionSet(System.String, System.Security.PermissionSet)
 		/// </summary>
-		protected RMethod r_RChangeNamedPermissionSet_String_PermissionSet;
+		protected RMethod r_ChangeNamedPermissionSet_String_PermissionSet;
 		public virtual RMethod RChangeNamedPermissionSet_String_PermissionSet
 		{
 			get
 			{
-				if(r_RChangeNamedPermissionSet_String_PermissionSet == null)
+				if(r_ChangeNamedPermissionSet_String_PermissionSet == null)
 				{
-					r_RChangeNamedPermissionSet_String_PermissionSet = new(this, "ChangeNamedPermissionSet", 0, typeof(System.String), typeof(System.Security.PermissionSet));
-					r_RChangeNamedPermissionSet_String_PermissionSet.SetBelong(this.instance);
+					r_ChangeNamedPermissionSet_String_PermissionSet = new(this, "ChangeNamedPermissionSet", 0, typeof(System.String), typeof(System.Security.PermissionSet));
+					r_ChangeNamedPermissionSet_String_PermissionSet.SetBelong(this.instance);
 				}
-				return r_RChangeNamedPermissionSet_String_PermissionSet;
+				return r_ChangeNamedPermissionSet_String_PermissionSet;
 			}
 		}
 
 		/// <summary>
 		/// System.Security.Policy.PolicyLevel CreateAppDomainLevel()
 		/// </summary>
-		protected static RMethod r_RCreateAppDomainLevel;
+		protected static RMethod r_CreateAppDomainLevel;
 		public static RMethod RCreateAppDomainLevel
 		{
 			get
 			{
-				if(r_RCreateAppDomainLevel == null)
+				if(r_CreateAppDomainLevel == null)
 				{
-					r_RCreateAppDomainLevel = new(typeof(System.Security.Policy.PolicyLevel), "CreateAppDomainLevel", 0);
-					r_RCreateAppDomainLevel.SetBelong(null);
+					r_CreateAppDomainLevel = new(typeof(System.Security.Policy.PolicyLevel), "CreateAppDomainLevel", 0);
+					r_CreateAppDomainLevel.SetBelong(null);
 				}
-				return r_RCreateAppDomainLevel;
+				return r_CreateAppDomainLevel;
 			}
 		}
 
 		/// <summary>
 		/// Void FromXml(System.Security.SecurityElement)
 		/// </summary>
-		protected RMethod r_RFromXml_SecurityElement;
+		protected RMethod r_FromXml_SecurityElement;
 		public virtual RMethod RFromXml_SecurityElement
 		{
 			get
 			{
-				if(r_RFromXml_SecurityElement == null)
+				if(r_FromXml_SecurityElement == null)
 				{
-					r_RFromXml_SecurityElement = new(this, "FromXml", 0, typeof(System.Security.SecurityElement));
-					r_RFromXml_SecurityElement.SetBelong(this.instance);
+					r_FromXml_SecurityElement = new(this, "FromXml", 0, typeof(System.Security.SecurityElement));
+					r_FromXml_SecurityElement.SetBelong(this.instance);
 				}
-				return r_RFromXml_SecurityElement;
+				return r_FromXml_SecurityElement;
 			}
 		}
 
 		/// <summary>
 		/// System.Security.NamedPermissionSet GetNamedPermissionSet(System.String)
 		/// </summary>
-		protected RMethod r_RGetNamedPermissionSet_String;
+		protected RMethod r_GetNamedPermissionSet_String;
 		public virtual RMethod RGetNamedPermissionSet_String
 		{
 			get
 			{
-				if(r_RGetNamedPermissionSet_String == null)
+				if(r_GetNamedPermissionSet_String == null)
 				{
-					r_RGetNamedPermissionSet_String = new(this, "GetNamedPermissionSet", 0, typeof(System.String));
-					r_RGetNamedPermissionSet_String.SetBelong(this.instance);
+					r_GetNamedPermissionSet_String = new(this, "GetNamedPermissionSet", 0, typeof(System.String));
+					r_GetNamedPermissionSet_String.SetBelong(this.instance);
 				}
-				return r_RGetNamedPermissionSet_String;
+				return r_GetNamedPermissionSet_String;
 			}
 		}
 
 		/// <summary>
 		/// Void Recover()
 		/// </summary>
-		protected RMethod r_RRecover;
+		protected RMethod r_Recover;
 		public virtual RMethod RRecover
 		{
 			get
 			{
-				if(r_RRecover == null)
+				if(r_Recover == null)
 				{
-					r_RRecover = new(this, "Recover", 0);
-					r_RRecover.SetBelong(this.instance);
+					r_Recover = new(this, "Recover", 0);
+					r_Recover.SetBelong(this.instance);
 				}
-				return r_RRecover;
+				return r_Recover;
 			}
 		}
 
 		/// <summary>
 		/// Void RemoveFullTrustAssembly(System.Security.Policy.StrongName)
 		/// </summary>
-		protected RMethod r_RRemoveFullTrustAssembly_StrongName;
+		protected RMethod r_RemoveFullTrustAssembly_StrongName;
 		public virtual RMethod RRemoveFullTrustAssembly_StrongName
 		{
 			get
 			{
-				if(r_RRemoveFullTrustAssembly_StrongName == null)
+				if(r_RemoveFullTrustAssembly_StrongName == null)
 				{
-					r_RRemoveFullTrustAssembly_StrongName = new(this, "RemoveFullTrustAssembly", 0, typeof(System.Security.Policy.StrongName));
-					r_RRemoveFullTrustAssembly_StrongName.SetBelong(this.instance);
+					r_RemoveFullTrustAssembly_StrongName = new(this, "RemoveFullTrustAssembly", 0, typeof(System.Security.Policy.StrongName));
+					r_RemoveFullTrustAssembly_StrongName.SetBelong(this.instance);
 				}
-				return r_RRemoveFullTrustAssembly_StrongName;
+				return r_RemoveFullTrustAssembly_StrongName;
 			}
 		}
 
 		/// <summary>
 		/// Void RemoveFullTrustAssembly(System.Security.Policy.StrongNameMembershipCondition)
 		/// </summary>
-		protected RMethod r_RRemoveFullTrustAssembly_StrongNameMembershipCondition;
+		protected RMethod r_RemoveFullTrustAssembly_StrongNameMembershipCondition;
 		public virtual RMethod RRemoveFullTrustAssembly_StrongNameMembershipCondition
 		{
 			get
 			{
-				if(r_RRemoveFullTrustAssembly_StrongNameMembershipCondition == null)
+				if(r_RemoveFullTrustAssembly_StrongNameMembershipCondition == null)
 				{
-					r_RRemoveFullTrustAssembly_StrongNameMembershipCondition = new(this, "RemoveFullTrustAssembly", 0, typeof(System.Security.Policy.StrongNameMembershipCondition));
-					r_RRemoveFullTrustAssembly_StrongNameMembershipCondition.SetBelong(this.instance);
+					r_RemoveFullTrustAssembly_StrongNameMembershipCondition = new(this, "RemoveFullTrustAssembly", 0, typeof(System.Security.Policy.StrongNameMembershipCondition));
+					r_RemoveFullTrustAssembly_StrongNameMembershipCondition.SetBelong(this.instance);
 				}
-				return r_RRemoveFullTrustAssembly_StrongNameMembershipCondition;
+				return r_RemoveFullTrustAssembly_StrongNameMembershipCondition;
 			}
 		}
 
 		/// <summary>
 		/// System.Security.NamedPermissionSet RemoveNamedPermissionSet(System.Security.NamedPermissionSet)
 		/// </summary>
-		protected RMethod r_RRemoveNamedPermissionSet_NamedPermissionSet;
+		protected RMethod r_RemoveNamedPermissionSet_NamedPermissionSet;
 		public virtual RMethod RRemoveNamedPermissionSet_NamedPermissionSet
 		{
 			get
 			{
-				if(r_RRemoveNamedPermissionSet_NamedPermissionSet == null)
+				if(r_RemoveNamedPermissionSet_NamedPermissionSet == null)
 				{
-					r_RRemoveNamedPermissionSet_NamedPermissionSet = new(this, "RemoveNamedPermissionSet", 0, typeof(System.Security.NamedPermissionSet));
-					r_RRemoveNamedPermissionSet_NamedPermissionSet.SetBelong(this.instance);
+					r_RemoveNamedPermissionSet_NamedPermissionSet = new(this, "RemoveNamedPermissionSet", 0, typeof(System.Security.NamedPermissionSet));
+					r_RemoveNamedPermissionSet_NamedPermissionSet.SetBelong(this.instance);
 				}
-				return r_RRemoveNamedPermissionSet_NamedPermissionSet;
+				return r_RemoveNamedPermissionSet_NamedPermissionSet;
 			}
 		}
 
 		/// <summary>
 		/// System.Security.NamedPermissionSet RemoveNamedPermissionSet(System.String)
 		/// </summary>
-		protected RMethod r_RRemoveNamedPermissionSet_String;
+		protected RMethod r_RemoveNamedPermissionSet_String;
 		public virtual RMethod RRemoveNamedPermissionSet_String
 		{
 			get
 			{
-				if(r_RRemoveNamedPermissionSet_String == null)
+				if(r_RemoveNamedPermissionSet_String == null)
 				{
-					r_RRemoveNamedPermissionSet_String = new(this, "RemoveNamedPermissionSet", 0, typeof(System.String));
-					r_RRemoveNamedPermissionSet_String.SetBelong(this.instance);
+					r_RemoveNamedPermissionSet_String = new(this, "RemoveNamedPermissionSet", 0, typeof(System.String));
+					r_RemoveNamedPermissionSet_String.SetBelong(this.instance);
 				}
-				return r_RRemoveNamedPermissionSet_String;
+				return r_RemoveNamedPermissionSet_String;
 			}
 		}
 
 		/// <summary>
 		/// Void Reset()
 		/// </summary>
-		protected RMethod r_RReset;
+		protected RMethod r_Reset;
 		public virtual RMethod RReset
 		{
 			get
 			{
-				if(r_RReset == null)
+				if(r_Reset == null)
 				{
-					r_RReset = new(this, "Reset", 0);
-					r_RReset.SetBelong(this.instance);
+					r_Reset = new(this, "Reset", 0);
+					r_Reset.SetBelong(this.instance);
 				}
-				return r_RReset;
+				return r_Reset;
 			}
 		}
 
 		/// <summary>
 		/// System.Security.Policy.PolicyStatement Resolve(System.Security.Policy.Evidence)
 		/// </summary>
-		protected RMethod r_RResolve_Evidence;
+		protected RMethod r_Resolve_Evidence;
 		public virtual RMethod RResolve_Evidence
 		{
 			get
 			{
-				if(r_RResolve_Evidence == null)
+				if(r_Resolve_Evidence == null)
 				{
-					r_RResolve_Evidence = new(this, "Resolve", 0, typeof(System.Security.Policy.Evidence));
-					r_RResolve_Evidence.SetBelong(this.instance);
+					r_Resolve_Evidence = new(this, "Resolve", 0, typeof(System.Security.Policy.Evidence));
+					r_Resolve_Evidence.SetBelong(this.instance);
 				}
-				return r_RResolve_Evidence;
+				return r_Resolve_Evidence;
 			}
 		}
 
 		/// <summary>
 		/// System.Security.Policy.CodeGroup ResolveMatchingCodeGroups(System.Security.Policy.Evidence)
 		/// </summary>
-		protected RMethod r_RResolveMatchingCodeGroups_Evidence;
+		protected RMethod r_ResolveMatchingCodeGroups_Evidence;
 		public virtual RMethod RResolveMatchingCodeGroups_Evidence
 		{
 			get
 			{
-				if(r_RResolveMatchingCodeGroups_Evidence == null)
+				if(r_ResolveMatchingCodeGroups_Evidence == null)
 				{
-					r_RResolveMatchingCodeGroups_Evidence = new(this, "ResolveMatchingCodeGroups", 0, typeof(System.Security.Policy.Evidence));
-					r_RResolveMatchingCodeGroups_Evidence.SetBelong(this.instance);
+					r_ResolveMatchingCodeGroups_Evidence = new(this, "ResolveMatchingCodeGroups", 0, typeof(System.Security.Policy.Evidence));
+					r_ResolveMatchingCodeGroups_Evidence.SetBelong(this.instance);
 				}
-				return r_RResolveMatchingCodeGroups_Evidence;
+				return r_ResolveMatchingCodeGroups_Evidence;
 			}
 		}
 
 		/// <summary>
 		/// System.Security.SecurityElement ToXml()
 		/// </summary>
-		protected RMethod r_RToXml;
+		protected RMethod r_ToXml;
 		public virtual RMethod RToXml
 		{
 			get
 			{
-				if(r_RToXml == null)
+				if(r_ToXml == null)
 				{
-					r_RToXml = new(this, "ToXml", 0);
-					r_RToXml.SetBelong(this.instance);
+					r_ToXml = new(this, "ToXml", 0);
+					r_ToXml.SetBelong(this.instance);
 				}
-				return r_RToXml;
+				return r_ToXml;
 			}
 		}
 
 		/// <summary>
 		/// Void Save()
 		/// </summary>
-		protected RMethod r_RSave;
+		protected RMethod r_Save;
 		public virtual RMethod RSave
 		{
 			get
 			{
-				if(r_RSave == null)
+				if(r_Save == null)
 				{
-					r_RSave = new(this, "Save", 0);
-					r_RSave.SetBelong(this.instance);
+					r_Save = new(this, "Save", 0);
+					r_Save.SetBelong(this.instance);
 				}
-				return r_RSave;
+				return r_Save;
 			}
 		}
 
 		/// <summary>
 		/// Void CreateDefaultLevel(System.Security.PolicyLevelType)
 		/// </summary>
-		protected RMethod r_RCreateDefaultLevel_PolicyLevelType;
+		protected RMethod r_CreateDefaultLevel_PolicyLevelType;
 		public virtual RMethod RCreateDefaultLevel_PolicyLevelType
 		{
 			get
 			{
-				if(r_RCreateDefaultLevel_PolicyLevelType == null)
+				if(r_CreateDefaultLevel_PolicyLevelType == null)
 				{
-					r_RCreateDefaultLevel_PolicyLevelType = new(this, "CreateDefaultLevel", 0, typeof(System.Security.PolicyLevelType));
-					r_RCreateDefaultLevel_PolicyLevelType.SetBelong(this.instance);
+					r_CreateDefaultLevel_PolicyLevelType = new(this, "CreateDefaultLevel", 0, typeof(System.Security.PolicyLevelType));
+					r_CreateDefaultLevel_PolicyLevelType.SetBelong(this.instance);
 				}
-				return r_RCreateDefaultLevel_PolicyLevelType;
+				return r_CreateDefaultLevel_PolicyLevelType;
 			}
 		}
 
 		/// <summary>
 		/// Void CreateDefaultFullTrustAssemblies()
 		/// </summary>
-		protected RMethod r_RCreateDefaultFullTrustAssemblies;
+		protected RMethod r_CreateDefaultFullTrustAssemblies;
 		public virtual RMethod RCreateDefaultFullTrustAssemblies
 		{
 			get
 			{
-				if(r_RCreateDefaultFullTrustAssemblies == null)
+				if(r_CreateDefaultFullTrustAssemblies == null)
 				{
-					r_RCreateDefaultFullTrustAssemblies = new(this, "CreateDefaultFullTrustAssemblies", 0);
-					r_RCreateDefaultFullTrustAssemblies.SetBelong(this.instance);
+					r_CreateDefaultFullTrustAssemblies = new(this, "CreateDefaultFullTrustAssemblies", 0);
+					r_CreateDefaultFullTrustAssemblies.SetBelong(this.instance);
 				}
-				return r_RCreateDefaultFullTrustAssemblies;
+				return r_CreateDefaultFullTrustAssemblies;
 			}
 		}
 
 		/// <summary>
 		/// Void CreateDefaultNamedPermissionSets()
 		/// </summary>
-		protected RMethod r_RCreateDefaultNamedPermissionSets;
+		protected RMethod r_CreateDefaultNamedPermissionSets;
 		public virtual RMethod RCreateDefaultNamedPermissionSets
 		{
 			get
 			{
-				if(r_RCreateDefaultNamedPermissionSets == null)
+				if(r_CreateDefaultNamedPermissionSets == null)
 				{
-					r_RCreateDefaultNamedPermissionSets = new(this, "CreateDefaultNamedPermissionSets", 0);
-					r_RCreateDefaultNamedPermissionSets.SetBelong(this.instance);
+					r_CreateDefaultNamedPermissionSets = new(this, "CreateDefaultNamedPermissionSets", 0);
+					r_CreateDefaultNamedPermissionSets.SetBelong(this.instance);
 				}
-				return r_RCreateDefaultNamedPermissionSets;
+				return r_CreateDefaultNamedPermissionSets;
 			}
 		}
 
 		/// <summary>
 		/// System.String ResolveClassName(System.String)
 		/// </summary>
-		protected RMethod r_RResolveClassName_String;
+		protected RMethod r_ResolveClassName_String;
 		public virtual RMethod RResolveClassName_String
 		{
 			get
 			{
-				if(r_RResolveClassName_String == null)
+				if(r_ResolveClassName_String == null)
 				{
-					r_RResolveClassName_String = new(this, "ResolveClassName", 0, typeof(System.String));
-					r_RResolveClassName_String.SetBelong(this.instance);
+					r_ResolveClassName_String = new(this, "ResolveClassName", 0, typeof(System.String));
+					r_ResolveClassName_String.SetBelong(this.instance);
 				}
-				return r_RResolveClassName_String;
+				return r_ResolveClassName_String;
 			}
 		}
 
 		/// <summary>
 		/// Boolean IsFullTrustAssembly(System.Reflection.Assembly)
 		/// </summary>
-		protected RMethod r_RIsFullTrustAssembly_Assembly;
+		protected RMethod r_IsFullTrustAssembly_Assembly;
 		public virtual RMethod RIsFullTrustAssembly_Assembly
 		{
 			get
 			{
-				if(r_RIsFullTrustAssembly_Assembly == null)
+				if(r_IsFullTrustAssembly_Assembly == null)
 				{
-					r_RIsFullTrustAssembly_Assembly = new(this, "IsFullTrustAssembly", 0, typeof(System.Reflection.Assembly));
-					r_RIsFullTrustAssembly_Assembly.SetBelong(this.instance);
+					r_IsFullTrustAssembly_Assembly = new(this, "IsFullTrustAssembly", 0, typeof(System.Reflection.Assembly));
+					r_IsFullTrustAssembly_Assembly.SetBelong(this.instance);
 				}
-				return r_RIsFullTrustAssembly_Assembly;
+				return r_IsFullTrustAssembly_Assembly;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Equals(System.Object)
 		/// </summary>
-		protected RMethod r_REquals_Object;
+		protected RMethod r_Equals_Object;
 		public virtual RMethod REquals_Object
 		{
 			get
 			{
-				if(r_REquals_Object == null)
+				if(r_Equals_Object == null)
 				{
-					r_REquals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_REquals_Object.SetBelong(this.instance);
+					r_Equals_Object = new(this, "Equals", 0, typeof(System.Object));
+					r_Equals_Object.SetBelong(this.instance);
 				}
-				return r_REquals_Object;
+				return r_Equals_Object;
 			}
 		}
 
 		/// <summary>
 		/// Void Finalize()
 		/// </summary>
-		protected RMethod r_RFinalize;
+		protected RMethod r_Finalize;
 		public virtual RMethod RFinalize
 		{
 			get
 			{
-				if(r_RFinalize == null)
+				if(r_Finalize == null)
 				{
-					r_RFinalize = new(this, "Finalize", 0);
-					r_RFinalize.SetBelong(this.instance);
+					r_Finalize = new(this, "Finalize", 0);
+					r_Finalize.SetBelong(this.instance);
 				}
-				return r_RFinalize;
+				return r_Finalize;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetHashCode()
 		/// </summary>
-		protected RMethod r_RGetHashCode;
+		protected RMethod r_GetHashCode;
 		public virtual RMethod RGetHashCode
 		{
 			get
 			{
-				if(r_RGetHashCode == null)
+				if(r_GetHashCode == null)
 				{
-					r_RGetHashCode = new(this, "GetHashCode", 0);
-					r_RGetHashCode.SetBelong(this.instance);
+					r_GetHashCode = new(this, "GetHashCode", 0);
+					r_GetHashCode.SetBelong(this.instance);
 				}
-				return r_RGetHashCode;
+				return r_GetHashCode;
 			}
 		}
 
 		/// <summary>
 		/// System.Type GetType()
 		/// </summary>
-		protected RMethod r_RGetType;
+		protected RMethod r_GetType;
 		public virtual RMethod RGetType
 		{
 			get
 			{
-				if(r_RGetType == null)
+				if(r_GetType == null)
 				{
-					r_RGetType = new(this, "GetType", 0);
-					r_RGetType.SetBelong(this.instance);
+					r_GetType = new(this, "GetType", 0);
+					r_GetType.SetBelong(this.instance);
 				}
-				return r_RGetType;
+				return r_GetType;
 			}
 		}
 
 		/// <summary>
 		/// System.Object MemberwiseClone()
 		/// </summary>
-		protected RMethod r_RMemberwiseClone;
+		protected RMethod r_MemberwiseClone;
 		public virtual RMethod RMemberwiseClone
 		{
 			get
 			{
-				if(r_RMemberwiseClone == null)
+				if(r_MemberwiseClone == null)
 				{
-					r_RMemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_RMemberwiseClone.SetBelong(this.instance);
+					r_MemberwiseClone = new(this, "MemberwiseClone", 0);
+					r_MemberwiseClone.SetBelong(this.instance);
 				}
-				return r_RMemberwiseClone;
+				return r_MemberwiseClone;
 			}
 		}
 
 		/// <summary>
 		/// System.String ToString()
 		/// </summary>
-		protected RMethod r_RToString;
+		protected RMethod r_ToString;
 		public virtual RMethod RToString
 		{
 			get
 			{
-				if(r_RToString == null)
+				if(r_ToString == null)
 				{
-					r_RToString = new(this, "ToString", 0);
-					r_RToString.SetBelong(this.instance);
+					r_ToString = new(this, "ToString", 0);
+					r_ToString.SetBelong(this.instance);
 				}
-				return r_RToString;
+				return r_ToString;
 			}
 		}
 

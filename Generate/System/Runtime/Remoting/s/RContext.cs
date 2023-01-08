@@ -421,493 +421,493 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts
 		/// <summary>
 		/// Void RegisterContext(System.Runtime.Remoting.Contexts.Context)
 		/// </summary>
-		protected static RMethod r_RRegisterContext_Context;
+		protected static RMethod r_RegisterContext_Context;
 		public static RMethod RRegisterContext_Context
 		{
 			get
 			{
-				if(r_RRegisterContext_Context == null)
+				if(r_RegisterContext_Context == null)
 				{
-					r_RRegisterContext_Context = new(typeof(System.Runtime.Remoting.Contexts.Context), "RegisterContext", 0, typeof(System.Runtime.Remoting.Contexts.Context));
-					r_RRegisterContext_Context.SetBelong(null);
+					r_RegisterContext_Context = new(typeof(System.Runtime.Remoting.Contexts.Context), "RegisterContext", 0, typeof(System.Runtime.Remoting.Contexts.Context));
+					r_RegisterContext_Context.SetBelong(null);
 				}
-				return r_RRegisterContext_Context;
+				return r_RegisterContext_Context;
 			}
 		}
 
 		/// <summary>
 		/// Void ReleaseContext(System.Runtime.Remoting.Contexts.Context)
 		/// </summary>
-		protected static RMethod r_RReleaseContext_Context;
+		protected static RMethod r_ReleaseContext_Context;
 		public static RMethod RReleaseContext_Context
 		{
 			get
 			{
-				if(r_RReleaseContext_Context == null)
+				if(r_ReleaseContext_Context == null)
 				{
-					r_RReleaseContext_Context = new(typeof(System.Runtime.Remoting.Contexts.Context), "ReleaseContext", 0, typeof(System.Runtime.Remoting.Contexts.Context));
-					r_RReleaseContext_Context.SetBelong(null);
+					r_ReleaseContext_Context = new(typeof(System.Runtime.Remoting.Contexts.Context), "ReleaseContext", 0, typeof(System.Runtime.Remoting.Contexts.Context));
+					r_ReleaseContext_Context.SetBelong(null);
 				}
-				return r_RReleaseContext_Context;
+				return r_ReleaseContext_Context;
 			}
 		}
 
 		/// <summary>
 		/// Void Finalize()
 		/// </summary>
-		protected RMethod r_RFinalize;
+		protected RMethod r_Finalize;
 		public virtual RMethod RFinalize
 		{
 			get
 			{
-				if(r_RFinalize == null)
+				if(r_Finalize == null)
 				{
-					r_RFinalize = new(this, "Finalize", 0);
-					r_RFinalize.SetBelong(this.instance);
+					r_Finalize = new(this, "Finalize", 0);
+					r_Finalize.SetBelong(this.instance);
 				}
-				return r_RFinalize;
+				return r_Finalize;
 			}
 		}
 
 		/// <summary>
 		/// Boolean RegisterDynamicProperty(System.Runtime.Remoting.Contexts.IDynamicProperty, System.ContextBoundObject, System.Runtime.Remoting.Contexts.Context)
 		/// </summary>
-		protected static RMethod r_RRegisterDynamicProperty_IDynamicProperty_ContextBoundObject_Context;
+		protected static RMethod r_RegisterDynamicProperty_IDynamicProperty_ContextBoundObject_Context;
 		public static RMethod RRegisterDynamicProperty_IDynamicProperty_ContextBoundObject_Context
 		{
 			get
 			{
-				if(r_RRegisterDynamicProperty_IDynamicProperty_ContextBoundObject_Context == null)
+				if(r_RegisterDynamicProperty_IDynamicProperty_ContextBoundObject_Context == null)
 				{
-					r_RRegisterDynamicProperty_IDynamicProperty_ContextBoundObject_Context = new(typeof(System.Runtime.Remoting.Contexts.Context), "RegisterDynamicProperty", 0, typeof(System.Runtime.Remoting.Contexts.IDynamicProperty), typeof(System.ContextBoundObject), typeof(System.Runtime.Remoting.Contexts.Context));
-					r_RRegisterDynamicProperty_IDynamicProperty_ContextBoundObject_Context.SetBelong(null);
+					r_RegisterDynamicProperty_IDynamicProperty_ContextBoundObject_Context = new(typeof(System.Runtime.Remoting.Contexts.Context), "RegisterDynamicProperty", 0, typeof(System.Runtime.Remoting.Contexts.IDynamicProperty), typeof(System.ContextBoundObject), typeof(System.Runtime.Remoting.Contexts.Context));
+					r_RegisterDynamicProperty_IDynamicProperty_ContextBoundObject_Context.SetBelong(null);
 				}
-				return r_RRegisterDynamicProperty_IDynamicProperty_ContextBoundObject_Context;
+				return r_RegisterDynamicProperty_IDynamicProperty_ContextBoundObject_Context;
 			}
 		}
 
 		/// <summary>
 		/// Boolean UnregisterDynamicProperty(System.String, System.ContextBoundObject, System.Runtime.Remoting.Contexts.Context)
 		/// </summary>
-		protected static RMethod r_RUnregisterDynamicProperty_String_ContextBoundObject_Context;
+		protected static RMethod r_UnregisterDynamicProperty_String_ContextBoundObject_Context;
 		public static RMethod RUnregisterDynamicProperty_String_ContextBoundObject_Context
 		{
 			get
 			{
-				if(r_RUnregisterDynamicProperty_String_ContextBoundObject_Context == null)
+				if(r_UnregisterDynamicProperty_String_ContextBoundObject_Context == null)
 				{
-					r_RUnregisterDynamicProperty_String_ContextBoundObject_Context = new(typeof(System.Runtime.Remoting.Contexts.Context), "UnregisterDynamicProperty", 0, typeof(System.String), typeof(System.ContextBoundObject), typeof(System.Runtime.Remoting.Contexts.Context));
-					r_RUnregisterDynamicProperty_String_ContextBoundObject_Context.SetBelong(null);
+					r_UnregisterDynamicProperty_String_ContextBoundObject_Context = new(typeof(System.Runtime.Remoting.Contexts.Context), "UnregisterDynamicProperty", 0, typeof(System.String), typeof(System.ContextBoundObject), typeof(System.Runtime.Remoting.Contexts.Context));
+					r_UnregisterDynamicProperty_String_ContextBoundObject_Context.SetBelong(null);
 				}
-				return r_RUnregisterDynamicProperty_String_ContextBoundObject_Context;
+				return r_UnregisterDynamicProperty_String_ContextBoundObject_Context;
 			}
 		}
 
 		/// <summary>
 		/// System.Runtime.Remoting.Contexts.DynamicPropertyCollection GetDynamicPropertyCollection(System.ContextBoundObject, System.Runtime.Remoting.Contexts.Context)
 		/// </summary>
-		protected static RMethod r_RGetDynamicPropertyCollection_ContextBoundObject_Context;
+		protected static RMethod r_GetDynamicPropertyCollection_ContextBoundObject_Context;
 		public static RMethod RGetDynamicPropertyCollection_ContextBoundObject_Context
 		{
 			get
 			{
-				if(r_RGetDynamicPropertyCollection_ContextBoundObject_Context == null)
+				if(r_GetDynamicPropertyCollection_ContextBoundObject_Context == null)
 				{
-					r_RGetDynamicPropertyCollection_ContextBoundObject_Context = new(typeof(System.Runtime.Remoting.Contexts.Context), "GetDynamicPropertyCollection", 0, typeof(System.ContextBoundObject), typeof(System.Runtime.Remoting.Contexts.Context));
-					r_RGetDynamicPropertyCollection_ContextBoundObject_Context.SetBelong(null);
+					r_GetDynamicPropertyCollection_ContextBoundObject_Context = new(typeof(System.Runtime.Remoting.Contexts.Context), "GetDynamicPropertyCollection", 0, typeof(System.ContextBoundObject), typeof(System.Runtime.Remoting.Contexts.Context));
+					r_GetDynamicPropertyCollection_ContextBoundObject_Context.SetBelong(null);
 				}
-				return r_RGetDynamicPropertyCollection_ContextBoundObject_Context;
+				return r_GetDynamicPropertyCollection_ContextBoundObject_Context;
 			}
 		}
 
 		/// <summary>
 		/// Void NotifyGlobalDynamicSinks(Boolean, System.Runtime.Remoting.Messaging.IMessage, Boolean, Boolean)
 		/// </summary>
-		protected static RMethod r_RNotifyGlobalDynamicSinks_Boolean_IMessage_Boolean_Boolean;
+		protected static RMethod r_NotifyGlobalDynamicSinks_Boolean_IMessage_Boolean_Boolean;
 		public static RMethod RNotifyGlobalDynamicSinks_Boolean_IMessage_Boolean_Boolean
 		{
 			get
 			{
-				if(r_RNotifyGlobalDynamicSinks_Boolean_IMessage_Boolean_Boolean == null)
+				if(r_NotifyGlobalDynamicSinks_Boolean_IMessage_Boolean_Boolean == null)
 				{
-					r_RNotifyGlobalDynamicSinks_Boolean_IMessage_Boolean_Boolean = new(typeof(System.Runtime.Remoting.Contexts.Context), "NotifyGlobalDynamicSinks", 0, typeof(System.Boolean), typeof(System.Runtime.Remoting.Messaging.IMessage), typeof(System.Boolean), typeof(System.Boolean));
-					r_RNotifyGlobalDynamicSinks_Boolean_IMessage_Boolean_Boolean.SetBelong(null);
+					r_NotifyGlobalDynamicSinks_Boolean_IMessage_Boolean_Boolean = new(typeof(System.Runtime.Remoting.Contexts.Context), "NotifyGlobalDynamicSinks", 0, typeof(System.Boolean), typeof(System.Runtime.Remoting.Messaging.IMessage), typeof(System.Boolean), typeof(System.Boolean));
+					r_NotifyGlobalDynamicSinks_Boolean_IMessage_Boolean_Boolean.SetBelong(null);
 				}
-				return r_RNotifyGlobalDynamicSinks_Boolean_IMessage_Boolean_Boolean;
+				return r_NotifyGlobalDynamicSinks_Boolean_IMessage_Boolean_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Void NotifyDynamicSinks(Boolean, System.Runtime.Remoting.Messaging.IMessage, Boolean, Boolean)
 		/// </summary>
-		protected RMethod r_RNotifyDynamicSinks_Boolean_IMessage_Boolean_Boolean;
+		protected RMethod r_NotifyDynamicSinks_Boolean_IMessage_Boolean_Boolean;
 		public virtual RMethod RNotifyDynamicSinks_Boolean_IMessage_Boolean_Boolean
 		{
 			get
 			{
-				if(r_RNotifyDynamicSinks_Boolean_IMessage_Boolean_Boolean == null)
+				if(r_NotifyDynamicSinks_Boolean_IMessage_Boolean_Boolean == null)
 				{
-					r_RNotifyDynamicSinks_Boolean_IMessage_Boolean_Boolean = new(this, "NotifyDynamicSinks", 0, typeof(System.Boolean), typeof(System.Runtime.Remoting.Messaging.IMessage), typeof(System.Boolean), typeof(System.Boolean));
-					r_RNotifyDynamicSinks_Boolean_IMessage_Boolean_Boolean.SetBelong(this.instance);
+					r_NotifyDynamicSinks_Boolean_IMessage_Boolean_Boolean = new(this, "NotifyDynamicSinks", 0, typeof(System.Boolean), typeof(System.Runtime.Remoting.Messaging.IMessage), typeof(System.Boolean), typeof(System.Boolean));
+					r_NotifyDynamicSinks_Boolean_IMessage_Boolean_Boolean.SetBelong(this.instance);
 				}
-				return r_RNotifyDynamicSinks_Boolean_IMessage_Boolean_Boolean;
+				return r_NotifyDynamicSinks_Boolean_IMessage_Boolean_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// System.Runtime.Remoting.Contexts.IContextProperty GetProperty(System.String)
 		/// </summary>
-		protected RMethod r_RGetProperty_String;
+		protected RMethod r_GetProperty_String;
 		public virtual RMethod RGetProperty_String
 		{
 			get
 			{
-				if(r_RGetProperty_String == null)
+				if(r_GetProperty_String == null)
 				{
-					r_RGetProperty_String = new(this, "GetProperty", 0, typeof(System.String));
-					r_RGetProperty_String.SetBelong(this.instance);
+					r_GetProperty_String = new(this, "GetProperty", 0, typeof(System.String));
+					r_GetProperty_String.SetBelong(this.instance);
 				}
-				return r_RGetProperty_String;
+				return r_GetProperty_String;
 			}
 		}
 
 		/// <summary>
 		/// Void SetProperty(System.Runtime.Remoting.Contexts.IContextProperty)
 		/// </summary>
-		protected RMethod r_RSetProperty_IContextProperty;
+		protected RMethod r_SetProperty_IContextProperty;
 		public virtual RMethod RSetProperty_IContextProperty
 		{
 			get
 			{
-				if(r_RSetProperty_IContextProperty == null)
+				if(r_SetProperty_IContextProperty == null)
 				{
-					r_RSetProperty_IContextProperty = new(this, "SetProperty", 0, typeof(System.Runtime.Remoting.Contexts.IContextProperty));
-					r_RSetProperty_IContextProperty.SetBelong(this.instance);
+					r_SetProperty_IContextProperty = new(this, "SetProperty", 0, typeof(System.Runtime.Remoting.Contexts.IContextProperty));
+					r_SetProperty_IContextProperty.SetBelong(this.instance);
 				}
-				return r_RSetProperty_IContextProperty;
+				return r_SetProperty_IContextProperty;
 			}
 		}
 
 		/// <summary>
 		/// Void Freeze()
 		/// </summary>
-		protected RMethod r_RFreeze;
+		protected RMethod r_Freeze;
 		public virtual RMethod RFreeze
 		{
 			get
 			{
-				if(r_RFreeze == null)
+				if(r_Freeze == null)
 				{
-					r_RFreeze = new(this, "Freeze", 0);
-					r_RFreeze.SetBelong(this.instance);
+					r_Freeze = new(this, "Freeze", 0);
+					r_Freeze.SetBelong(this.instance);
 				}
-				return r_RFreeze;
+				return r_Freeze;
 			}
 		}
 
 		/// <summary>
 		/// System.String ToString()
 		/// </summary>
-		protected RMethod r_RToString;
+		protected RMethod r_ToString;
 		public virtual RMethod RToString
 		{
 			get
 			{
-				if(r_RToString == null)
+				if(r_ToString == null)
 				{
-					r_RToString = new(this, "ToString", 0);
-					r_RToString.SetBelong(this.instance);
+					r_ToString = new(this, "ToString", 0);
+					r_ToString.SetBelong(this.instance);
 				}
-				return r_RToString;
+				return r_ToString;
 			}
 		}
 
 		/// <summary>
 		/// System.Runtime.Remoting.Messaging.IMessageSink GetServerContextSinkChain()
 		/// </summary>
-		protected RMethod r_RGetServerContextSinkChain;
+		protected RMethod r_GetServerContextSinkChain;
 		public virtual RMethod RGetServerContextSinkChain
 		{
 			get
 			{
-				if(r_RGetServerContextSinkChain == null)
+				if(r_GetServerContextSinkChain == null)
 				{
-					r_RGetServerContextSinkChain = new(this, "GetServerContextSinkChain", 0);
-					r_RGetServerContextSinkChain.SetBelong(this.instance);
+					r_GetServerContextSinkChain = new(this, "GetServerContextSinkChain", 0);
+					r_GetServerContextSinkChain.SetBelong(this.instance);
 				}
-				return r_RGetServerContextSinkChain;
+				return r_GetServerContextSinkChain;
 			}
 		}
 
 		/// <summary>
 		/// System.Runtime.Remoting.Messaging.IMessageSink GetClientContextSinkChain()
 		/// </summary>
-		protected RMethod r_RGetClientContextSinkChain;
+		protected RMethod r_GetClientContextSinkChain;
 		public virtual RMethod RGetClientContextSinkChain
 		{
 			get
 			{
-				if(r_RGetClientContextSinkChain == null)
+				if(r_GetClientContextSinkChain == null)
 				{
-					r_RGetClientContextSinkChain = new(this, "GetClientContextSinkChain", 0);
-					r_RGetClientContextSinkChain.SetBelong(this.instance);
+					r_GetClientContextSinkChain = new(this, "GetClientContextSinkChain", 0);
+					r_GetClientContextSinkChain.SetBelong(this.instance);
 				}
-				return r_RGetClientContextSinkChain;
+				return r_GetClientContextSinkChain;
 			}
 		}
 
 		/// <summary>
 		/// System.Runtime.Remoting.Messaging.IMessageSink CreateServerObjectSinkChain(System.MarshalByRefObject, Boolean)
 		/// </summary>
-		protected RMethod r_RCreateServerObjectSinkChain_MarshalByRefObject_Boolean;
+		protected RMethod r_CreateServerObjectSinkChain_MarshalByRefObject_Boolean;
 		public virtual RMethod RCreateServerObjectSinkChain_MarshalByRefObject_Boolean
 		{
 			get
 			{
-				if(r_RCreateServerObjectSinkChain_MarshalByRefObject_Boolean == null)
+				if(r_CreateServerObjectSinkChain_MarshalByRefObject_Boolean == null)
 				{
-					r_RCreateServerObjectSinkChain_MarshalByRefObject_Boolean = new(this, "CreateServerObjectSinkChain", 0, typeof(System.MarshalByRefObject), typeof(System.Boolean));
-					r_RCreateServerObjectSinkChain_MarshalByRefObject_Boolean.SetBelong(this.instance);
+					r_CreateServerObjectSinkChain_MarshalByRefObject_Boolean = new(this, "CreateServerObjectSinkChain", 0, typeof(System.MarshalByRefObject), typeof(System.Boolean));
+					r_CreateServerObjectSinkChain_MarshalByRefObject_Boolean.SetBelong(this.instance);
 				}
-				return r_RCreateServerObjectSinkChain_MarshalByRefObject_Boolean;
+				return r_CreateServerObjectSinkChain_MarshalByRefObject_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// System.Runtime.Remoting.Messaging.IMessageSink CreateEnvoySink(System.MarshalByRefObject)
 		/// </summary>
-		protected RMethod r_RCreateEnvoySink_MarshalByRefObject;
+		protected RMethod r_CreateEnvoySink_MarshalByRefObject;
 		public virtual RMethod RCreateEnvoySink_MarshalByRefObject
 		{
 			get
 			{
-				if(r_RCreateEnvoySink_MarshalByRefObject == null)
+				if(r_CreateEnvoySink_MarshalByRefObject == null)
 				{
-					r_RCreateEnvoySink_MarshalByRefObject = new(this, "CreateEnvoySink", 0, typeof(System.MarshalByRefObject));
-					r_RCreateEnvoySink_MarshalByRefObject.SetBelong(this.instance);
+					r_CreateEnvoySink_MarshalByRefObject = new(this, "CreateEnvoySink", 0, typeof(System.MarshalByRefObject));
+					r_CreateEnvoySink_MarshalByRefObject.SetBelong(this.instance);
 				}
-				return r_RCreateEnvoySink_MarshalByRefObject;
+				return r_CreateEnvoySink_MarshalByRefObject;
 			}
 		}
 
 		/// <summary>
 		/// System.Runtime.Remoting.Contexts.Context SwitchToContext(System.Runtime.Remoting.Contexts.Context)
 		/// </summary>
-		protected static RMethod r_RSwitchToContext_Context;
+		protected static RMethod r_SwitchToContext_Context;
 		public static RMethod RSwitchToContext_Context
 		{
 			get
 			{
-				if(r_RSwitchToContext_Context == null)
+				if(r_SwitchToContext_Context == null)
 				{
-					r_RSwitchToContext_Context = new(typeof(System.Runtime.Remoting.Contexts.Context), "SwitchToContext", 0, typeof(System.Runtime.Remoting.Contexts.Context));
-					r_RSwitchToContext_Context.SetBelong(null);
+					r_SwitchToContext_Context = new(typeof(System.Runtime.Remoting.Contexts.Context), "SwitchToContext", 0, typeof(System.Runtime.Remoting.Contexts.Context));
+					r_SwitchToContext_Context.SetBelong(null);
 				}
-				return r_RSwitchToContext_Context;
+				return r_SwitchToContext_Context;
 			}
 		}
 
 		/// <summary>
 		/// System.Runtime.Remoting.Contexts.Context CreateNewContext(System.Runtime.Remoting.Activation.IConstructionCallMessage)
 		/// </summary>
-		protected static RMethod r_RCreateNewContext_IConstructionCallMessage;
+		protected static RMethod r_CreateNewContext_IConstructionCallMessage;
 		public static RMethod RCreateNewContext_IConstructionCallMessage
 		{
 			get
 			{
-				if(r_RCreateNewContext_IConstructionCallMessage == null)
+				if(r_CreateNewContext_IConstructionCallMessage == null)
 				{
-					r_RCreateNewContext_IConstructionCallMessage = new(typeof(System.Runtime.Remoting.Contexts.Context), "CreateNewContext", 0, typeof(System.Runtime.Remoting.Activation.IConstructionCallMessage));
-					r_RCreateNewContext_IConstructionCallMessage.SetBelong(null);
+					r_CreateNewContext_IConstructionCallMessage = new(typeof(System.Runtime.Remoting.Contexts.Context), "CreateNewContext", 0, typeof(System.Runtime.Remoting.Activation.IConstructionCallMessage));
+					r_CreateNewContext_IConstructionCallMessage.SetBelong(null);
 				}
-				return r_RCreateNewContext_IConstructionCallMessage;
+				return r_CreateNewContext_IConstructionCallMessage;
 			}
 		}
 
 		/// <summary>
 		/// Void DoCallBack(System.Runtime.Remoting.Contexts.CrossContextDelegate)
 		/// </summary>
-		protected RMethod r_RDoCallBack_CrossContextDelegate;
+		protected RMethod r_DoCallBack_CrossContextDelegate;
 		public virtual RMethod RDoCallBack_CrossContextDelegate
 		{
 			get
 			{
-				if(r_RDoCallBack_CrossContextDelegate == null)
+				if(r_DoCallBack_CrossContextDelegate == null)
 				{
-					r_RDoCallBack_CrossContextDelegate = new(this, "DoCallBack", 0, typeof(System.Runtime.Remoting.Contexts.CrossContextDelegate));
-					r_RDoCallBack_CrossContextDelegate.SetBelong(this.instance);
+					r_DoCallBack_CrossContextDelegate = new(this, "DoCallBack", 0, typeof(System.Runtime.Remoting.Contexts.CrossContextDelegate));
+					r_DoCallBack_CrossContextDelegate.SetBelong(this.instance);
 				}
-				return r_RDoCallBack_CrossContextDelegate;
+				return r_DoCallBack_CrossContextDelegate;
 			}
 		}
 
 		/// <summary>
 		/// System.LocalDataStoreSlot AllocateDataSlot()
 		/// </summary>
-		protected static RMethod r_RAllocateDataSlot;
+		protected static RMethod r_AllocateDataSlot;
 		public static RMethod RAllocateDataSlot
 		{
 			get
 			{
-				if(r_RAllocateDataSlot == null)
+				if(r_AllocateDataSlot == null)
 				{
-					r_RAllocateDataSlot = new(typeof(System.Runtime.Remoting.Contexts.Context), "AllocateDataSlot", 0);
-					r_RAllocateDataSlot.SetBelong(null);
+					r_AllocateDataSlot = new(typeof(System.Runtime.Remoting.Contexts.Context), "AllocateDataSlot", 0);
+					r_AllocateDataSlot.SetBelong(null);
 				}
-				return r_RAllocateDataSlot;
+				return r_AllocateDataSlot;
 			}
 		}
 
 		/// <summary>
 		/// System.LocalDataStoreSlot AllocateNamedDataSlot(System.String)
 		/// </summary>
-		protected static RMethod r_RAllocateNamedDataSlot_String;
+		protected static RMethod r_AllocateNamedDataSlot_String;
 		public static RMethod RAllocateNamedDataSlot_String
 		{
 			get
 			{
-				if(r_RAllocateNamedDataSlot_String == null)
+				if(r_AllocateNamedDataSlot_String == null)
 				{
-					r_RAllocateNamedDataSlot_String = new(typeof(System.Runtime.Remoting.Contexts.Context), "AllocateNamedDataSlot", 0, typeof(System.String));
-					r_RAllocateNamedDataSlot_String.SetBelong(null);
+					r_AllocateNamedDataSlot_String = new(typeof(System.Runtime.Remoting.Contexts.Context), "AllocateNamedDataSlot", 0, typeof(System.String));
+					r_AllocateNamedDataSlot_String.SetBelong(null);
 				}
-				return r_RAllocateNamedDataSlot_String;
+				return r_AllocateNamedDataSlot_String;
 			}
 		}
 
 		/// <summary>
 		/// Void FreeNamedDataSlot(System.String)
 		/// </summary>
-		protected static RMethod r_RFreeNamedDataSlot_String;
+		protected static RMethod r_FreeNamedDataSlot_String;
 		public static RMethod RFreeNamedDataSlot_String
 		{
 			get
 			{
-				if(r_RFreeNamedDataSlot_String == null)
+				if(r_FreeNamedDataSlot_String == null)
 				{
-					r_RFreeNamedDataSlot_String = new(typeof(System.Runtime.Remoting.Contexts.Context), "FreeNamedDataSlot", 0, typeof(System.String));
-					r_RFreeNamedDataSlot_String.SetBelong(null);
+					r_FreeNamedDataSlot_String = new(typeof(System.Runtime.Remoting.Contexts.Context), "FreeNamedDataSlot", 0, typeof(System.String));
+					r_FreeNamedDataSlot_String.SetBelong(null);
 				}
-				return r_RFreeNamedDataSlot_String;
+				return r_FreeNamedDataSlot_String;
 			}
 		}
 
 		/// <summary>
 		/// System.LocalDataStoreSlot GetNamedDataSlot(System.String)
 		/// </summary>
-		protected static RMethod r_RGetNamedDataSlot_String;
+		protected static RMethod r_GetNamedDataSlot_String;
 		public static RMethod RGetNamedDataSlot_String
 		{
 			get
 			{
-				if(r_RGetNamedDataSlot_String == null)
+				if(r_GetNamedDataSlot_String == null)
 				{
-					r_RGetNamedDataSlot_String = new(typeof(System.Runtime.Remoting.Contexts.Context), "GetNamedDataSlot", 0, typeof(System.String));
-					r_RGetNamedDataSlot_String.SetBelong(null);
+					r_GetNamedDataSlot_String = new(typeof(System.Runtime.Remoting.Contexts.Context), "GetNamedDataSlot", 0, typeof(System.String));
+					r_GetNamedDataSlot_String.SetBelong(null);
 				}
-				return r_RGetNamedDataSlot_String;
+				return r_GetNamedDataSlot_String;
 			}
 		}
 
 		/// <summary>
 		/// System.Object GetData(System.LocalDataStoreSlot)
 		/// </summary>
-		protected static RMethod r_RGetData_LocalDataStoreSlot;
+		protected static RMethod r_GetData_LocalDataStoreSlot;
 		public static RMethod RGetData_LocalDataStoreSlot
 		{
 			get
 			{
-				if(r_RGetData_LocalDataStoreSlot == null)
+				if(r_GetData_LocalDataStoreSlot == null)
 				{
-					r_RGetData_LocalDataStoreSlot = new(typeof(System.Runtime.Remoting.Contexts.Context), "GetData", 0, typeof(System.LocalDataStoreSlot));
-					r_RGetData_LocalDataStoreSlot.SetBelong(null);
+					r_GetData_LocalDataStoreSlot = new(typeof(System.Runtime.Remoting.Contexts.Context), "GetData", 0, typeof(System.LocalDataStoreSlot));
+					r_GetData_LocalDataStoreSlot.SetBelong(null);
 				}
-				return r_RGetData_LocalDataStoreSlot;
+				return r_GetData_LocalDataStoreSlot;
 			}
 		}
 
 		/// <summary>
 		/// Void SetData(System.LocalDataStoreSlot, System.Object)
 		/// </summary>
-		protected static RMethod r_RSetData_LocalDataStoreSlot_Object;
+		protected static RMethod r_SetData_LocalDataStoreSlot_Object;
 		public static RMethod RSetData_LocalDataStoreSlot_Object
 		{
 			get
 			{
-				if(r_RSetData_LocalDataStoreSlot_Object == null)
+				if(r_SetData_LocalDataStoreSlot_Object == null)
 				{
-					r_RSetData_LocalDataStoreSlot_Object = new(typeof(System.Runtime.Remoting.Contexts.Context), "SetData", 0, typeof(System.LocalDataStoreSlot), typeof(System.Object));
-					r_RSetData_LocalDataStoreSlot_Object.SetBelong(null);
+					r_SetData_LocalDataStoreSlot_Object = new(typeof(System.Runtime.Remoting.Contexts.Context), "SetData", 0, typeof(System.LocalDataStoreSlot), typeof(System.Object));
+					r_SetData_LocalDataStoreSlot_Object.SetBelong(null);
 				}
-				return r_RSetData_LocalDataStoreSlot_Object;
+				return r_SetData_LocalDataStoreSlot_Object;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Equals(System.Object)
 		/// </summary>
-		protected RMethod r_REquals_Object;
+		protected RMethod r_Equals_Object;
 		public virtual RMethod REquals_Object
 		{
 			get
 			{
-				if(r_REquals_Object == null)
+				if(r_Equals_Object == null)
 				{
-					r_REquals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_REquals_Object.SetBelong(this.instance);
+					r_Equals_Object = new(this, "Equals", 0, typeof(System.Object));
+					r_Equals_Object.SetBelong(this.instance);
 				}
-				return r_REquals_Object;
+				return r_Equals_Object;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetHashCode()
 		/// </summary>
-		protected RMethod r_RGetHashCode;
+		protected RMethod r_GetHashCode;
 		public virtual RMethod RGetHashCode
 		{
 			get
 			{
-				if(r_RGetHashCode == null)
+				if(r_GetHashCode == null)
 				{
-					r_RGetHashCode = new(this, "GetHashCode", 0);
-					r_RGetHashCode.SetBelong(this.instance);
+					r_GetHashCode = new(this, "GetHashCode", 0);
+					r_GetHashCode.SetBelong(this.instance);
 				}
-				return r_RGetHashCode;
+				return r_GetHashCode;
 			}
 		}
 
 		/// <summary>
 		/// System.Type GetType()
 		/// </summary>
-		protected RMethod r_RGetType;
+		protected RMethod r_GetType;
 		public virtual RMethod RGetType
 		{
 			get
 			{
-				if(r_RGetType == null)
+				if(r_GetType == null)
 				{
-					r_RGetType = new(this, "GetType", 0);
-					r_RGetType.SetBelong(this.instance);
+					r_GetType = new(this, "GetType", 0);
+					r_GetType.SetBelong(this.instance);
 				}
-				return r_RGetType;
+				return r_GetType;
 			}
 		}
 
 		/// <summary>
 		/// System.Object MemberwiseClone()
 		/// </summary>
-		protected RMethod r_RMemberwiseClone;
+		protected RMethod r_MemberwiseClone;
 		public virtual RMethod RMemberwiseClone
 		{
 			get
 			{
-				if(r_RMemberwiseClone == null)
+				if(r_MemberwiseClone == null)
 				{
-					r_RMemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_RMemberwiseClone.SetBelong(this.instance);
+					r_MemberwiseClone = new(this, "MemberwiseClone", 0);
+					r_MemberwiseClone.SetBelong(this.instance);
 				}
-				return r_RMemberwiseClone;
+				return r_MemberwiseClone;
 			}
 		}
 

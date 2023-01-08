@@ -353,255 +353,255 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// Void GetBinaryForm(Byte[], Int32)
 		/// </summary>
-		protected RMethod r_RGetBinaryForm_ByteArray_Int32;
+		protected RMethod r_GetBinaryForm_ByteArray_Int32;
 		public virtual RMethod RGetBinaryForm_ByteArray_Int32
 		{
 			get
 			{
-				if(r_RGetBinaryForm_ByteArray_Int32 == null)
+				if(r_GetBinaryForm_ByteArray_Int32 == null)
 				{
-					r_RGetBinaryForm_ByteArray_Int32 = new(this, "GetBinaryForm", 0, typeof(System.Byte).MakeArrayType(), typeof(System.Int32));
-					r_RGetBinaryForm_ByteArray_Int32.SetBelong(this.instance);
+					r_GetBinaryForm_ByteArray_Int32 = new(this, "GetBinaryForm", 0, typeof(System.Byte).MakeArrayType(), typeof(System.Int32));
+					r_GetBinaryForm_ByteArray_Int32.SetBelong(this.instance);
 				}
-				return r_RGetBinaryForm_ByteArray_Int32;
+				return r_GetBinaryForm_ByteArray_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Int32 MaxOpaqueLength(Boolean)
 		/// </summary>
-		protected static RMethod r_RMaxOpaqueLength_Boolean;
+		protected static RMethod r_MaxOpaqueLength_Boolean;
 		public static RMethod RMaxOpaqueLength_Boolean
 		{
 			get
 			{
-				if(r_RMaxOpaqueLength_Boolean == null)
+				if(r_MaxOpaqueLength_Boolean == null)
 				{
-					r_RMaxOpaqueLength_Boolean = new(typeof(System.Security.AccessControl.ObjectAce), "MaxOpaqueLength", 0, typeof(System.Boolean));
-					r_RMaxOpaqueLength_Boolean.SetBelong(null);
+					r_MaxOpaqueLength_Boolean = new(typeof(System.Security.AccessControl.ObjectAce), "MaxOpaqueLength", 0, typeof(System.Boolean));
+					r_MaxOpaqueLength_Boolean.SetBelong(null);
 				}
-				return r_RMaxOpaqueLength_Boolean;
+				return r_MaxOpaqueLength_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// System.String GetSddlForm()
 		/// </summary>
-		protected RMethod r_RGetSddlForm;
+		protected RMethod r_GetSddlForm;
 		public virtual RMethod RGetSddlForm
 		{
 			get
 			{
-				if(r_RGetSddlForm == null)
+				if(r_GetSddlForm == null)
 				{
-					r_RGetSddlForm = new(this, "GetSddlForm", 0);
-					r_RGetSddlForm.SetBelong(this.instance);
+					r_GetSddlForm = new(this, "GetSddlForm", 0);
+					r_GetSddlForm.SetBelong(this.instance);
 				}
-				return r_RGetSddlForm;
+				return r_GetSddlForm;
 			}
 		}
 
 		/// <summary>
 		/// System.Security.AccessControl.AceType ConvertType(System.Security.AccessControl.AceQualifier, Boolean)
 		/// </summary>
-		protected static RMethod r_RConvertType_AceQualifier_Boolean;
+		protected static RMethod r_ConvertType_AceQualifier_Boolean;
 		public static RMethod RConvertType_AceQualifier_Boolean
 		{
 			get
 			{
-				if(r_RConvertType_AceQualifier_Boolean == null)
+				if(r_ConvertType_AceQualifier_Boolean == null)
 				{
-					r_RConvertType_AceQualifier_Boolean = new(typeof(System.Security.AccessControl.ObjectAce), "ConvertType", 0, typeof(System.Security.AccessControl.AceQualifier), typeof(System.Boolean));
-					r_RConvertType_AceQualifier_Boolean.SetBelong(null);
+					r_ConvertType_AceQualifier_Boolean = new(typeof(System.Security.AccessControl.ObjectAce), "ConvertType", 0, typeof(System.Security.AccessControl.AceQualifier), typeof(System.Boolean));
+					r_ConvertType_AceQualifier_Boolean.SetBelong(null);
 				}
-				return r_RConvertType_AceQualifier_Boolean;
+				return r_ConvertType_AceQualifier_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Void WriteGuid(System.Guid, Byte[], Int32)
 		/// </summary>
-		protected RMethod r_RWriteGuid_Guid_ByteArray_Int32;
+		protected RMethod r_WriteGuid_Guid_ByteArray_Int32;
 		public virtual RMethod RWriteGuid_Guid_ByteArray_Int32
 		{
 			get
 			{
-				if(r_RWriteGuid_Guid_ByteArray_Int32 == null)
+				if(r_WriteGuid_Guid_ByteArray_Int32 == null)
 				{
-					r_RWriteGuid_Guid_ByteArray_Int32 = new(this, "WriteGuid", 0, typeof(System.Guid), typeof(System.Byte).MakeArrayType(), typeof(System.Int32));
-					r_RWriteGuid_Guid_ByteArray_Int32.SetBelong(this.instance);
+					r_WriteGuid_Guid_ByteArray_Int32 = new(this, "WriteGuid", 0, typeof(System.Guid), typeof(System.Byte).MakeArrayType(), typeof(System.Int32));
+					r_WriteGuid_Guid_ByteArray_Int32.SetBelong(this.instance);
 				}
-				return r_RWriteGuid_Guid_ByteArray_Int32;
+				return r_WriteGuid_Guid_ByteArray_Int32;
 			}
 		}
 
 		/// <summary>
 		/// System.Guid ReadGuid(Byte[], Int32)
 		/// </summary>
-		protected RMethod r_RReadGuid_ByteArray_Int32;
+		protected RMethod r_ReadGuid_ByteArray_Int32;
 		public virtual RMethod RReadGuid_ByteArray_Int32
 		{
 			get
 			{
-				if(r_RReadGuid_ByteArray_Int32 == null)
+				if(r_ReadGuid_ByteArray_Int32 == null)
 				{
-					r_RReadGuid_ByteArray_Int32 = new(this, "ReadGuid", 0, typeof(System.Byte).MakeArrayType(), typeof(System.Int32));
-					r_RReadGuid_ByteArray_Int32.SetBelong(this.instance);
+					r_ReadGuid_ByteArray_Int32 = new(this, "ReadGuid", 0, typeof(System.Byte).MakeArrayType(), typeof(System.Int32));
+					r_ReadGuid_ByteArray_Int32.SetBelong(this.instance);
 				}
-				return r_RReadGuid_ByteArray_Int32;
+				return r_ReadGuid_ByteArray_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Byte[] GetOpaque()
 		/// </summary>
-		protected RMethod r_RGetOpaque;
+		protected RMethod r_GetOpaque;
 		public virtual RMethod RGetOpaque
 		{
 			get
 			{
-				if(r_RGetOpaque == null)
+				if(r_GetOpaque == null)
 				{
-					r_RGetOpaque = new(this, "GetOpaque", 0);
-					r_RGetOpaque.SetBelong(this.instance);
+					r_GetOpaque = new(this, "GetOpaque", 0);
+					r_GetOpaque.SetBelong(this.instance);
 				}
-				return r_RGetOpaque;
+				return r_GetOpaque;
 			}
 		}
 
 		/// <summary>
 		/// Void SetOpaque(Byte[])
 		/// </summary>
-		protected RMethod r_RSetOpaque_ByteArray;
+		protected RMethod r_SetOpaque_ByteArray;
 		public virtual RMethod RSetOpaque_ByteArray
 		{
 			get
 			{
-				if(r_RSetOpaque_ByteArray == null)
+				if(r_SetOpaque_ByteArray == null)
 				{
-					r_RSetOpaque_ByteArray = new(this, "SetOpaque", 0, typeof(System.Byte).MakeArrayType());
-					r_RSetOpaque_ByteArray.SetBelong(this.instance);
+					r_SetOpaque_ByteArray = new(this, "SetOpaque", 0, typeof(System.Byte).MakeArrayType());
+					r_SetOpaque_ByteArray.SetBelong(this.instance);
 				}
-				return r_RSetOpaque_ByteArray;
+				return r_SetOpaque_ByteArray;
 			}
 		}
 
 		/// <summary>
 		/// System.Security.AccessControl.GenericAce Copy()
 		/// </summary>
-		protected RMethod r_RCopy;
+		protected RMethod r_Copy;
 		public virtual RMethod RCopy
 		{
 			get
 			{
-				if(r_RCopy == null)
+				if(r_Copy == null)
 				{
-					r_RCopy = new(this, "Copy", 0);
-					r_RCopy.SetBelong(this.instance);
+					r_Copy = new(this, "Copy", 0);
+					r_Copy.SetBelong(this.instance);
 				}
-				return r_RCopy;
+				return r_Copy;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Equals(System.Object)
 		/// </summary>
-		protected RMethod r_REquals_Object;
+		protected RMethod r_Equals_Object;
 		public virtual RMethod REquals_Object
 		{
 			get
 			{
-				if(r_REquals_Object == null)
+				if(r_Equals_Object == null)
 				{
-					r_REquals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_REquals_Object.SetBelong(this.instance);
+					r_Equals_Object = new(this, "Equals", 0, typeof(System.Object));
+					r_Equals_Object.SetBelong(this.instance);
 				}
-				return r_REquals_Object;
+				return r_Equals_Object;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetHashCode()
 		/// </summary>
-		protected RMethod r_RGetHashCode;
+		protected RMethod r_GetHashCode;
 		public virtual RMethod RGetHashCode
 		{
 			get
 			{
-				if(r_RGetHashCode == null)
+				if(r_GetHashCode == null)
 				{
-					r_RGetHashCode = new(this, "GetHashCode", 0);
-					r_RGetHashCode.SetBelong(this.instance);
+					r_GetHashCode = new(this, "GetHashCode", 0);
+					r_GetHashCode.SetBelong(this.instance);
 				}
-				return r_RGetHashCode;
+				return r_GetHashCode;
 			}
 		}
 
 		/// <summary>
 		/// Void Finalize()
 		/// </summary>
-		protected RMethod r_RFinalize;
+		protected RMethod r_Finalize;
 		public virtual RMethod RFinalize
 		{
 			get
 			{
-				if(r_RFinalize == null)
+				if(r_Finalize == null)
 				{
-					r_RFinalize = new(this, "Finalize", 0);
-					r_RFinalize.SetBelong(this.instance);
+					r_Finalize = new(this, "Finalize", 0);
+					r_Finalize.SetBelong(this.instance);
 				}
-				return r_RFinalize;
+				return r_Finalize;
 			}
 		}
 
 		/// <summary>
 		/// System.Type GetType()
 		/// </summary>
-		protected RMethod r_RGetType;
+		protected RMethod r_GetType;
 		public virtual RMethod RGetType
 		{
 			get
 			{
-				if(r_RGetType == null)
+				if(r_GetType == null)
 				{
-					r_RGetType = new(this, "GetType", 0);
-					r_RGetType.SetBelong(this.instance);
+					r_GetType = new(this, "GetType", 0);
+					r_GetType.SetBelong(this.instance);
 				}
-				return r_RGetType;
+				return r_GetType;
 			}
 		}
 
 		/// <summary>
 		/// System.Object MemberwiseClone()
 		/// </summary>
-		protected RMethod r_RMemberwiseClone;
+		protected RMethod r_MemberwiseClone;
 		public virtual RMethod RMemberwiseClone
 		{
 			get
 			{
-				if(r_RMemberwiseClone == null)
+				if(r_MemberwiseClone == null)
 				{
-					r_RMemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_RMemberwiseClone.SetBelong(this.instance);
+					r_MemberwiseClone = new(this, "MemberwiseClone", 0);
+					r_MemberwiseClone.SetBelong(this.instance);
 				}
-				return r_RMemberwiseClone;
+				return r_MemberwiseClone;
 			}
 		}
 
 		/// <summary>
 		/// System.String ToString()
 		/// </summary>
-		protected RMethod r_RToString;
+		protected RMethod r_ToString;
 		public virtual RMethod RToString
 		{
 			get
 			{
-				if(r_RToString == null)
+				if(r_ToString == null)
 				{
-					r_RToString = new(this, "ToString", 0);
-					r_RToString.SetBelong(this.instance);
+					r_ToString = new(this, "ToString", 0);
+					r_ToString.SetBelong(this.instance);
 				}
-				return r_RToString;
+				return r_ToString;
 			}
 		}
 

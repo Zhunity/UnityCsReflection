@@ -47,170 +47,170 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.EasingFunction op_Implicit(UnityEngine.UIElements.EasingMode)
 		/// </summary>
-		protected static RMethod r_Rop_Implicit_EasingMode;
+		protected static RMethod r_op_Implicit_EasingMode;
 		public static RMethod Rop_Implicit_EasingMode
 		{
 			get
 			{
-				if(r_Rop_Implicit_EasingMode == null)
+				if(r_op_Implicit_EasingMode == null)
 				{
-					r_Rop_Implicit_EasingMode = new(typeof(UnityEngine.UIElements.EasingFunction), "op_Implicit", 0, typeof(UnityEngine.UIElements.EasingMode));
-					r_Rop_Implicit_EasingMode.SetBelong(null);
+					r_op_Implicit_EasingMode = new(typeof(UnityEngine.UIElements.EasingFunction), "op_Implicit", 0, typeof(UnityEngine.UIElements.EasingMode));
+					r_op_Implicit_EasingMode.SetBelong(null);
 				}
-				return r_Rop_Implicit_EasingMode;
+				return r_op_Implicit_EasingMode;
 			}
 		}
 
 		/// <summary>
 		/// Boolean op_Equality(UnityEngine.UIElements.EasingFunction, UnityEngine.UIElements.EasingFunction)
 		/// </summary>
-		protected static RMethod r_Rop_Equality_EasingFunction_EasingFunction;
+		protected static RMethod r_op_Equality_EasingFunction_EasingFunction;
 		public static RMethod Rop_Equality_EasingFunction_EasingFunction
 		{
 			get
 			{
-				if(r_Rop_Equality_EasingFunction_EasingFunction == null)
+				if(r_op_Equality_EasingFunction_EasingFunction == null)
 				{
-					r_Rop_Equality_EasingFunction_EasingFunction = new(typeof(UnityEngine.UIElements.EasingFunction), "op_Equality", 0, typeof(UnityEngine.UIElements.EasingFunction), typeof(UnityEngine.UIElements.EasingFunction));
-					r_Rop_Equality_EasingFunction_EasingFunction.SetBelong(null);
+					r_op_Equality_EasingFunction_EasingFunction = new(typeof(UnityEngine.UIElements.EasingFunction), "op_Equality", 0, typeof(UnityEngine.UIElements.EasingFunction), typeof(UnityEngine.UIElements.EasingFunction));
+					r_op_Equality_EasingFunction_EasingFunction.SetBelong(null);
 				}
-				return r_Rop_Equality_EasingFunction_EasingFunction;
+				return r_op_Equality_EasingFunction_EasingFunction;
 			}
 		}
 
 		/// <summary>
 		/// Boolean op_Inequality(UnityEngine.UIElements.EasingFunction, UnityEngine.UIElements.EasingFunction)
 		/// </summary>
-		protected static RMethod r_Rop_Inequality_EasingFunction_EasingFunction;
+		protected static RMethod r_op_Inequality_EasingFunction_EasingFunction;
 		public static RMethod Rop_Inequality_EasingFunction_EasingFunction
 		{
 			get
 			{
-				if(r_Rop_Inequality_EasingFunction_EasingFunction == null)
+				if(r_op_Inequality_EasingFunction_EasingFunction == null)
 				{
-					r_Rop_Inequality_EasingFunction_EasingFunction = new(typeof(UnityEngine.UIElements.EasingFunction), "op_Inequality", 0, typeof(UnityEngine.UIElements.EasingFunction), typeof(UnityEngine.UIElements.EasingFunction));
-					r_Rop_Inequality_EasingFunction_EasingFunction.SetBelong(null);
+					r_op_Inequality_EasingFunction_EasingFunction = new(typeof(UnityEngine.UIElements.EasingFunction), "op_Inequality", 0, typeof(UnityEngine.UIElements.EasingFunction), typeof(UnityEngine.UIElements.EasingFunction));
+					r_op_Inequality_EasingFunction_EasingFunction.SetBelong(null);
 				}
-				return r_Rop_Inequality_EasingFunction_EasingFunction;
+				return r_op_Inequality_EasingFunction_EasingFunction;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Equals(UnityEngine.UIElements.EasingFunction)
 		/// </summary>
-		protected RMethod r_REquals_EasingFunction;
+		protected RMethod r_Equals_EasingFunction;
 		public virtual RMethod REquals_EasingFunction
 		{
 			get
 			{
-				if(r_REquals_EasingFunction == null)
+				if(r_Equals_EasingFunction == null)
 				{
-					r_REquals_EasingFunction = new(this, "Equals", 0, typeof(UnityEngine.UIElements.EasingFunction));
-					r_REquals_EasingFunction.SetBelong(this.instance);
+					r_Equals_EasingFunction = new(this, "Equals", 0, typeof(UnityEngine.UIElements.EasingFunction));
+					r_Equals_EasingFunction.SetBelong(this.instance);
 				}
-				return r_REquals_EasingFunction;
+				return r_Equals_EasingFunction;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Equals(System.Object)
 		/// </summary>
-		protected RMethod r_REquals_Object;
+		protected RMethod r_Equals_Object;
 		public virtual RMethod REquals_Object
 		{
 			get
 			{
-				if(r_REquals_Object == null)
+				if(r_Equals_Object == null)
 				{
-					r_REquals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_REquals_Object.SetBelong(this.instance);
+					r_Equals_Object = new(this, "Equals", 0, typeof(System.Object));
+					r_Equals_Object.SetBelong(this.instance);
 				}
-				return r_REquals_Object;
+				return r_Equals_Object;
 			}
 		}
 
 		/// <summary>
 		/// System.String ToString()
 		/// </summary>
-		protected RMethod r_RToString;
+		protected RMethod r_ToString;
 		public virtual RMethod RToString
 		{
 			get
 			{
-				if(r_RToString == null)
+				if(r_ToString == null)
 				{
-					r_RToString = new(this, "ToString", 0);
-					r_RToString.SetBelong(this.instance);
+					r_ToString = new(this, "ToString", 0);
+					r_ToString.SetBelong(this.instance);
 				}
-				return r_RToString;
+				return r_ToString;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetHashCode()
 		/// </summary>
-		protected RMethod r_RGetHashCode;
+		protected RMethod r_GetHashCode;
 		public virtual RMethod RGetHashCode
 		{
 			get
 			{
-				if(r_RGetHashCode == null)
+				if(r_GetHashCode == null)
 				{
-					r_RGetHashCode = new(this, "GetHashCode", 0);
-					r_RGetHashCode.SetBelong(this.instance);
+					r_GetHashCode = new(this, "GetHashCode", 0);
+					r_GetHashCode.SetBelong(this.instance);
 				}
-				return r_RGetHashCode;
+				return r_GetHashCode;
 			}
 		}
 
 		/// <summary>
 		/// Void Finalize()
 		/// </summary>
-		protected RMethod r_RFinalize;
+		protected RMethod r_Finalize;
 		public virtual RMethod RFinalize
 		{
 			get
 			{
-				if(r_RFinalize == null)
+				if(r_Finalize == null)
 				{
-					r_RFinalize = new(this, "Finalize", 0);
-					r_RFinalize.SetBelong(this.instance);
+					r_Finalize = new(this, "Finalize", 0);
+					r_Finalize.SetBelong(this.instance);
 				}
-				return r_RFinalize;
+				return r_Finalize;
 			}
 		}
 
 		/// <summary>
 		/// System.Type GetType()
 		/// </summary>
-		protected RMethod r_RGetType;
+		protected RMethod r_GetType;
 		public virtual RMethod RGetType
 		{
 			get
 			{
-				if(r_RGetType == null)
+				if(r_GetType == null)
 				{
-					r_RGetType = new(this, "GetType", 0);
-					r_RGetType.SetBelong(this.instance);
+					r_GetType = new(this, "GetType", 0);
+					r_GetType.SetBelong(this.instance);
 				}
-				return r_RGetType;
+				return r_GetType;
 			}
 		}
 
 		/// <summary>
 		/// System.Object MemberwiseClone()
 		/// </summary>
-		protected RMethod r_RMemberwiseClone;
+		protected RMethod r_MemberwiseClone;
 		public virtual RMethod RMemberwiseClone
 		{
 			get
 			{
-				if(r_RMemberwiseClone == null)
+				if(r_MemberwiseClone == null)
 				{
-					r_RMemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_RMemberwiseClone.SetBelong(this.instance);
+					r_MemberwiseClone = new(this, "MemberwiseClone", 0);
+					r_MemberwiseClone.SetBelong(this.instance);
 				}
-				return r_RMemberwiseClone;
+				return r_MemberwiseClone;
 			}
 		}
 

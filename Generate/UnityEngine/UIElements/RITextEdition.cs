@@ -217,85 +217,85 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Void ResetValueAndText()
 		/// </summary>
-		protected RMethod r_RResetValueAndText;
+		protected RMethod r_ResetValueAndText;
 		public virtual RMethod RResetValueAndText
 		{
 			get
 			{
-				if(r_RResetValueAndText == null)
+				if(r_ResetValueAndText == null)
 				{
-					r_RResetValueAndText = new(this, "ResetValueAndText", 0);
-					r_RResetValueAndText.SetBelong(this.instance);
+					r_ResetValueAndText = new(this, "ResetValueAndText", 0);
+					r_ResetValueAndText.SetBelong(this.instance);
 				}
-				return r_RResetValueAndText;
+				return r_ResetValueAndText;
 			}
 		}
 
 		/// <summary>
 		/// Void SaveValueAndText()
 		/// </summary>
-		protected RMethod r_RSaveValueAndText;
+		protected RMethod r_SaveValueAndText;
 		public virtual RMethod RSaveValueAndText
 		{
 			get
 			{
-				if(r_RSaveValueAndText == null)
+				if(r_SaveValueAndText == null)
 				{
-					r_RSaveValueAndText = new(this, "SaveValueAndText", 0);
-					r_RSaveValueAndText.SetBelong(this.instance);
+					r_SaveValueAndText = new(this, "SaveValueAndText", 0);
+					r_SaveValueAndText.SetBelong(this.instance);
 				}
-				return r_RSaveValueAndText;
+				return r_SaveValueAndText;
 			}
 		}
 
 		/// <summary>
 		/// Void RestoreValueAndText()
 		/// </summary>
-		protected RMethod r_RRestoreValueAndText;
+		protected RMethod r_RestoreValueAndText;
 		public virtual RMethod RRestoreValueAndText
 		{
 			get
 			{
-				if(r_RRestoreValueAndText == null)
+				if(r_RestoreValueAndText == null)
 				{
-					r_RRestoreValueAndText = new(this, "RestoreValueAndText", 0);
-					r_RRestoreValueAndText.SetBelong(this.instance);
+					r_RestoreValueAndText = new(this, "RestoreValueAndText", 0);
+					r_RestoreValueAndText.SetBelong(this.instance);
 				}
-				return r_RRestoreValueAndText;
+				return r_RestoreValueAndText;
 			}
 		}
 
 		/// <summary>
 		/// Void UpdateText(System.String)
 		/// </summary>
-		protected RMethod r_RUpdateText_String;
+		protected RMethod r_UpdateText_String;
 		public virtual RMethod RUpdateText_String
 		{
 			get
 			{
-				if(r_RUpdateText_String == null)
+				if(r_UpdateText_String == null)
 				{
-					r_RUpdateText_String = new(this, "UpdateText", 0, typeof(System.String));
-					r_RUpdateText_String.SetBelong(this.instance);
+					r_UpdateText_String = new(this, "UpdateText", 0, typeof(System.String));
+					r_UpdateText_String.SetBelong(this.instance);
 				}
-				return r_RUpdateText_String;
+				return r_UpdateText_String;
 			}
 		}
 
 		/// <summary>
 		/// System.String CullString(System.String)
 		/// </summary>
-		protected RMethod r_RCullString_String;
+		protected RMethod r_CullString_String;
 		public virtual RMethod RCullString_String
 		{
 			get
 			{
-				if(r_RCullString_String == null)
+				if(r_CullString_String == null)
 				{
-					r_RCullString_String = new(this, "CullString", 0, typeof(System.String));
-					r_RCullString_String.SetBelong(this.instance);
+					r_CullString_String = new(this, "CullString", 0, typeof(System.String));
+					r_CullString_String.SetBelong(this.instance);
 				}
-				return r_RCullString_String;
+				return r_CullString_String;
 			}
 		}
 

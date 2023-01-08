@@ -65,7 +65,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RLifetime
 		/// System.TimeSpan RenewOnCallTime
 		/// </summary>
 		protected RSystem.RTimeSpan r_RenewOnCallTime;
-		public virtual RSystem.RTimeSpan RenewOnCallTime
+		public virtual RSystem.RTimeSpan RRenewOnCallTime
 		{
 			get
 			{
@@ -98,68 +98,68 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RLifetime
 		/// <summary>
 		/// Void Register(System.Runtime.Remoting.Lifetime.ISponsor)
 		/// </summary>
-		protected RMethod r_RRegister_ISponsor;
+		protected RMethod r_Register_ISponsor;
 		public virtual RMethod RRegister_ISponsor
 		{
 			get
 			{
-				if(r_RRegister_ISponsor == null)
+				if(r_Register_ISponsor == null)
 				{
-					r_RRegister_ISponsor = new(this, "Register", 0, typeof(System.Runtime.Remoting.Lifetime.ISponsor));
-					r_RRegister_ISponsor.SetBelong(this.instance);
+					r_Register_ISponsor = new(this, "Register", 0, typeof(System.Runtime.Remoting.Lifetime.ISponsor));
+					r_Register_ISponsor.SetBelong(this.instance);
 				}
-				return r_RRegister_ISponsor;
+				return r_Register_ISponsor;
 			}
 		}
 
 		/// <summary>
 		/// Void Register(System.Runtime.Remoting.Lifetime.ISponsor, System.TimeSpan)
 		/// </summary>
-		protected RMethod r_RRegister_ISponsor_TimeSpan;
+		protected RMethod r_Register_ISponsor_TimeSpan;
 		public virtual RMethod RRegister_ISponsor_TimeSpan
 		{
 			get
 			{
-				if(r_RRegister_ISponsor_TimeSpan == null)
+				if(r_Register_ISponsor_TimeSpan == null)
 				{
-					r_RRegister_ISponsor_TimeSpan = new(this, "Register", 0, typeof(System.Runtime.Remoting.Lifetime.ISponsor), typeof(System.TimeSpan));
-					r_RRegister_ISponsor_TimeSpan.SetBelong(this.instance);
+					r_Register_ISponsor_TimeSpan = new(this, "Register", 0, typeof(System.Runtime.Remoting.Lifetime.ISponsor), typeof(System.TimeSpan));
+					r_Register_ISponsor_TimeSpan.SetBelong(this.instance);
 				}
-				return r_RRegister_ISponsor_TimeSpan;
+				return r_Register_ISponsor_TimeSpan;
 			}
 		}
 
 		/// <summary>
 		/// System.TimeSpan Renew(System.TimeSpan)
 		/// </summary>
-		protected RMethod r_RRenew_TimeSpan;
+		protected RMethod r_Renew_TimeSpan;
 		public virtual RMethod RRenew_TimeSpan
 		{
 			get
 			{
-				if(r_RRenew_TimeSpan == null)
+				if(r_Renew_TimeSpan == null)
 				{
-					r_RRenew_TimeSpan = new(this, "Renew", 0, typeof(System.TimeSpan));
-					r_RRenew_TimeSpan.SetBelong(this.instance);
+					r_Renew_TimeSpan = new(this, "Renew", 0, typeof(System.TimeSpan));
+					r_Renew_TimeSpan.SetBelong(this.instance);
 				}
-				return r_RRenew_TimeSpan;
+				return r_Renew_TimeSpan;
 			}
 		}
 
 		/// <summary>
 		/// Void Unregister(System.Runtime.Remoting.Lifetime.ISponsor)
 		/// </summary>
-		protected RMethod r_RUnregister_ISponsor;
+		protected RMethod r_Unregister_ISponsor;
 		public virtual RMethod RUnregister_ISponsor
 		{
 			get
 			{
-				if(r_RUnregister_ISponsor == null)
+				if(r_Unregister_ISponsor == null)
 				{
-					r_RUnregister_ISponsor = new(this, "Unregister", 0, typeof(System.Runtime.Remoting.Lifetime.ISponsor));
-					r_RUnregister_ISponsor.SetBelong(this.instance);
+					r_Unregister_ISponsor = new(this, "Unregister", 0, typeof(System.Runtime.Remoting.Lifetime.ISponsor));
+					r_Unregister_ISponsor.SetBelong(this.instance);
 				}
-				return r_RUnregister_ISponsor;
+				return r_Unregister_ISponsor;
 			}
 		}
 

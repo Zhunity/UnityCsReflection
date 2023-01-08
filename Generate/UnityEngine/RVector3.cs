@@ -523,901 +523,901 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Vector3 Slerp(UnityEngine.Vector3, UnityEngine.Vector3, Single)
 		/// </summary>
-		protected static RMethod r_RSlerp_Vector3_Vector3_Single;
+		protected static RMethod r_Slerp_Vector3_Vector3_Single;
 		public static RMethod RSlerp_Vector3_Vector3_Single
 		{
 			get
 			{
-				if(r_RSlerp_Vector3_Vector3_Single == null)
+				if(r_Slerp_Vector3_Vector3_Single == null)
 				{
-					r_RSlerp_Vector3_Vector3_Single = new(typeof(UnityEngine.Vector3), "Slerp", 0, typeof(UnityEngine.Vector3), typeof(UnityEngine.Vector3), typeof(System.Single));
-					r_RSlerp_Vector3_Vector3_Single.SetBelong(null);
+					r_Slerp_Vector3_Vector3_Single = new(typeof(UnityEngine.Vector3), "Slerp", 0, typeof(UnityEngine.Vector3), typeof(UnityEngine.Vector3), typeof(System.Single));
+					r_Slerp_Vector3_Vector3_Single.SetBelong(null);
 				}
-				return r_RSlerp_Vector3_Vector3_Single;
+				return r_Slerp_Vector3_Vector3_Single;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Vector3 SlerpUnclamped(UnityEngine.Vector3, UnityEngine.Vector3, Single)
 		/// </summary>
-		protected static RMethod r_RSlerpUnclamped_Vector3_Vector3_Single;
+		protected static RMethod r_SlerpUnclamped_Vector3_Vector3_Single;
 		public static RMethod RSlerpUnclamped_Vector3_Vector3_Single
 		{
 			get
 			{
-				if(r_RSlerpUnclamped_Vector3_Vector3_Single == null)
+				if(r_SlerpUnclamped_Vector3_Vector3_Single == null)
 				{
-					r_RSlerpUnclamped_Vector3_Vector3_Single = new(typeof(UnityEngine.Vector3), "SlerpUnclamped", 0, typeof(UnityEngine.Vector3), typeof(UnityEngine.Vector3), typeof(System.Single));
-					r_RSlerpUnclamped_Vector3_Vector3_Single.SetBelong(null);
+					r_SlerpUnclamped_Vector3_Vector3_Single = new(typeof(UnityEngine.Vector3), "SlerpUnclamped", 0, typeof(UnityEngine.Vector3), typeof(UnityEngine.Vector3), typeof(System.Single));
+					r_SlerpUnclamped_Vector3_Vector3_Single.SetBelong(null);
 				}
-				return r_RSlerpUnclamped_Vector3_Vector3_Single;
+				return r_SlerpUnclamped_Vector3_Vector3_Single;
 			}
 		}
 
 		/// <summary>
 		/// Void OrthoNormalize2(UnityEngine.Vector3 ByRef, UnityEngine.Vector3 ByRef)
 		/// </summary>
-		protected static RMethod r_ROrthoNormalize2_Ref_Vector3_Ref_Vector3;
+		protected static RMethod r_OrthoNormalize2_Ref_Vector3_Ref_Vector3;
 		public static RMethod ROrthoNormalize2_Ref_Vector3_Ref_Vector3
 		{
 			get
 			{
-				if(r_ROrthoNormalize2_Ref_Vector3_Ref_Vector3 == null)
+				if(r_OrthoNormalize2_Ref_Vector3_Ref_Vector3 == null)
 				{
-					r_ROrthoNormalize2_Ref_Vector3_Ref_Vector3 = new(typeof(UnityEngine.Vector3), "OrthoNormalize2", 0, typeof(UnityEngine.Vector3).MakeByRefType(), typeof(UnityEngine.Vector3).MakeByRefType());
-					r_ROrthoNormalize2_Ref_Vector3_Ref_Vector3.SetBelong(null);
+					r_OrthoNormalize2_Ref_Vector3_Ref_Vector3 = new(typeof(UnityEngine.Vector3), "OrthoNormalize2", 0, typeof(UnityEngine.Vector3).MakeByRefType(), typeof(UnityEngine.Vector3).MakeByRefType());
+					r_OrthoNormalize2_Ref_Vector3_Ref_Vector3.SetBelong(null);
 				}
-				return r_ROrthoNormalize2_Ref_Vector3_Ref_Vector3;
+				return r_OrthoNormalize2_Ref_Vector3_Ref_Vector3;
 			}
 		}
 
 		/// <summary>
 		/// Void OrthoNormalize(UnityEngine.Vector3 ByRef, UnityEngine.Vector3 ByRef)
 		/// </summary>
-		protected static RMethod r_ROrthoNormalize_Ref_Vector3_Ref_Vector3;
+		protected static RMethod r_OrthoNormalize_Ref_Vector3_Ref_Vector3;
 		public static RMethod ROrthoNormalize_Ref_Vector3_Ref_Vector3
 		{
 			get
 			{
-				if(r_ROrthoNormalize_Ref_Vector3_Ref_Vector3 == null)
+				if(r_OrthoNormalize_Ref_Vector3_Ref_Vector3 == null)
 				{
-					r_ROrthoNormalize_Ref_Vector3_Ref_Vector3 = new(typeof(UnityEngine.Vector3), "OrthoNormalize", 0, typeof(UnityEngine.Vector3).MakeByRefType(), typeof(UnityEngine.Vector3).MakeByRefType());
-					r_ROrthoNormalize_Ref_Vector3_Ref_Vector3.SetBelong(null);
+					r_OrthoNormalize_Ref_Vector3_Ref_Vector3 = new(typeof(UnityEngine.Vector3), "OrthoNormalize", 0, typeof(UnityEngine.Vector3).MakeByRefType(), typeof(UnityEngine.Vector3).MakeByRefType());
+					r_OrthoNormalize_Ref_Vector3_Ref_Vector3.SetBelong(null);
 				}
-				return r_ROrthoNormalize_Ref_Vector3_Ref_Vector3;
+				return r_OrthoNormalize_Ref_Vector3_Ref_Vector3;
 			}
 		}
 
 		/// <summary>
 		/// Void OrthoNormalize3(UnityEngine.Vector3 ByRef, UnityEngine.Vector3 ByRef, UnityEngine.Vector3 ByRef)
 		/// </summary>
-		protected static RMethod r_ROrthoNormalize3_Ref_Vector3_Ref_Vector3_Ref_Vector3;
+		protected static RMethod r_OrthoNormalize3_Ref_Vector3_Ref_Vector3_Ref_Vector3;
 		public static RMethod ROrthoNormalize3_Ref_Vector3_Ref_Vector3_Ref_Vector3
 		{
 			get
 			{
-				if(r_ROrthoNormalize3_Ref_Vector3_Ref_Vector3_Ref_Vector3 == null)
+				if(r_OrthoNormalize3_Ref_Vector3_Ref_Vector3_Ref_Vector3 == null)
 				{
-					r_ROrthoNormalize3_Ref_Vector3_Ref_Vector3_Ref_Vector3 = new(typeof(UnityEngine.Vector3), "OrthoNormalize3", 0, typeof(UnityEngine.Vector3).MakeByRefType(), typeof(UnityEngine.Vector3).MakeByRefType(), typeof(UnityEngine.Vector3).MakeByRefType());
-					r_ROrthoNormalize3_Ref_Vector3_Ref_Vector3_Ref_Vector3.SetBelong(null);
+					r_OrthoNormalize3_Ref_Vector3_Ref_Vector3_Ref_Vector3 = new(typeof(UnityEngine.Vector3), "OrthoNormalize3", 0, typeof(UnityEngine.Vector3).MakeByRefType(), typeof(UnityEngine.Vector3).MakeByRefType(), typeof(UnityEngine.Vector3).MakeByRefType());
+					r_OrthoNormalize3_Ref_Vector3_Ref_Vector3_Ref_Vector3.SetBelong(null);
 				}
-				return r_ROrthoNormalize3_Ref_Vector3_Ref_Vector3_Ref_Vector3;
+				return r_OrthoNormalize3_Ref_Vector3_Ref_Vector3_Ref_Vector3;
 			}
 		}
 
 		/// <summary>
 		/// Void OrthoNormalize(UnityEngine.Vector3 ByRef, UnityEngine.Vector3 ByRef, UnityEngine.Vector3 ByRef)
 		/// </summary>
-		protected static RMethod r_ROrthoNormalize_Ref_Vector3_Ref_Vector3_Ref_Vector3;
+		protected static RMethod r_OrthoNormalize_Ref_Vector3_Ref_Vector3_Ref_Vector3;
 		public static RMethod ROrthoNormalize_Ref_Vector3_Ref_Vector3_Ref_Vector3
 		{
 			get
 			{
-				if(r_ROrthoNormalize_Ref_Vector3_Ref_Vector3_Ref_Vector3 == null)
+				if(r_OrthoNormalize_Ref_Vector3_Ref_Vector3_Ref_Vector3 == null)
 				{
-					r_ROrthoNormalize_Ref_Vector3_Ref_Vector3_Ref_Vector3 = new(typeof(UnityEngine.Vector3), "OrthoNormalize", 0, typeof(UnityEngine.Vector3).MakeByRefType(), typeof(UnityEngine.Vector3).MakeByRefType(), typeof(UnityEngine.Vector3).MakeByRefType());
-					r_ROrthoNormalize_Ref_Vector3_Ref_Vector3_Ref_Vector3.SetBelong(null);
+					r_OrthoNormalize_Ref_Vector3_Ref_Vector3_Ref_Vector3 = new(typeof(UnityEngine.Vector3), "OrthoNormalize", 0, typeof(UnityEngine.Vector3).MakeByRefType(), typeof(UnityEngine.Vector3).MakeByRefType(), typeof(UnityEngine.Vector3).MakeByRefType());
+					r_OrthoNormalize_Ref_Vector3_Ref_Vector3_Ref_Vector3.SetBelong(null);
 				}
-				return r_ROrthoNormalize_Ref_Vector3_Ref_Vector3_Ref_Vector3;
+				return r_OrthoNormalize_Ref_Vector3_Ref_Vector3_Ref_Vector3;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Vector3 RotateTowards(UnityEngine.Vector3, UnityEngine.Vector3, Single, Single)
 		/// </summary>
-		protected static RMethod r_RRotateTowards_Vector3_Vector3_Single_Single;
+		protected static RMethod r_RotateTowards_Vector3_Vector3_Single_Single;
 		public static RMethod RRotateTowards_Vector3_Vector3_Single_Single
 		{
 			get
 			{
-				if(r_RRotateTowards_Vector3_Vector3_Single_Single == null)
+				if(r_RotateTowards_Vector3_Vector3_Single_Single == null)
 				{
-					r_RRotateTowards_Vector3_Vector3_Single_Single = new(typeof(UnityEngine.Vector3), "RotateTowards", 0, typeof(UnityEngine.Vector3), typeof(UnityEngine.Vector3), typeof(System.Single), typeof(System.Single));
-					r_RRotateTowards_Vector3_Vector3_Single_Single.SetBelong(null);
+					r_RotateTowards_Vector3_Vector3_Single_Single = new(typeof(UnityEngine.Vector3), "RotateTowards", 0, typeof(UnityEngine.Vector3), typeof(UnityEngine.Vector3), typeof(System.Single), typeof(System.Single));
+					r_RotateTowards_Vector3_Vector3_Single_Single.SetBelong(null);
 				}
-				return r_RRotateTowards_Vector3_Vector3_Single_Single;
+				return r_RotateTowards_Vector3_Vector3_Single_Single;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Vector3 Lerp(UnityEngine.Vector3, UnityEngine.Vector3, Single)
 		/// </summary>
-		protected static RMethod r_RLerp_Vector3_Vector3_Single;
+		protected static RMethod r_Lerp_Vector3_Vector3_Single;
 		public static RMethod RLerp_Vector3_Vector3_Single
 		{
 			get
 			{
-				if(r_RLerp_Vector3_Vector3_Single == null)
+				if(r_Lerp_Vector3_Vector3_Single == null)
 				{
-					r_RLerp_Vector3_Vector3_Single = new(typeof(UnityEngine.Vector3), "Lerp", 0, typeof(UnityEngine.Vector3), typeof(UnityEngine.Vector3), typeof(System.Single));
-					r_RLerp_Vector3_Vector3_Single.SetBelong(null);
+					r_Lerp_Vector3_Vector3_Single = new(typeof(UnityEngine.Vector3), "Lerp", 0, typeof(UnityEngine.Vector3), typeof(UnityEngine.Vector3), typeof(System.Single));
+					r_Lerp_Vector3_Vector3_Single.SetBelong(null);
 				}
-				return r_RLerp_Vector3_Vector3_Single;
+				return r_Lerp_Vector3_Vector3_Single;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Vector3 LerpUnclamped(UnityEngine.Vector3, UnityEngine.Vector3, Single)
 		/// </summary>
-		protected static RMethod r_RLerpUnclamped_Vector3_Vector3_Single;
+		protected static RMethod r_LerpUnclamped_Vector3_Vector3_Single;
 		public static RMethod RLerpUnclamped_Vector3_Vector3_Single
 		{
 			get
 			{
-				if(r_RLerpUnclamped_Vector3_Vector3_Single == null)
+				if(r_LerpUnclamped_Vector3_Vector3_Single == null)
 				{
-					r_RLerpUnclamped_Vector3_Vector3_Single = new(typeof(UnityEngine.Vector3), "LerpUnclamped", 0, typeof(UnityEngine.Vector3), typeof(UnityEngine.Vector3), typeof(System.Single));
-					r_RLerpUnclamped_Vector3_Vector3_Single.SetBelong(null);
+					r_LerpUnclamped_Vector3_Vector3_Single = new(typeof(UnityEngine.Vector3), "LerpUnclamped", 0, typeof(UnityEngine.Vector3), typeof(UnityEngine.Vector3), typeof(System.Single));
+					r_LerpUnclamped_Vector3_Vector3_Single.SetBelong(null);
 				}
-				return r_RLerpUnclamped_Vector3_Vector3_Single;
+				return r_LerpUnclamped_Vector3_Vector3_Single;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Vector3 MoveTowards(UnityEngine.Vector3, UnityEngine.Vector3, Single)
 		/// </summary>
-		protected static RMethod r_RMoveTowards_Vector3_Vector3_Single;
+		protected static RMethod r_MoveTowards_Vector3_Vector3_Single;
 		public static RMethod RMoveTowards_Vector3_Vector3_Single
 		{
 			get
 			{
-				if(r_RMoveTowards_Vector3_Vector3_Single == null)
+				if(r_MoveTowards_Vector3_Vector3_Single == null)
 				{
-					r_RMoveTowards_Vector3_Vector3_Single = new(typeof(UnityEngine.Vector3), "MoveTowards", 0, typeof(UnityEngine.Vector3), typeof(UnityEngine.Vector3), typeof(System.Single));
-					r_RMoveTowards_Vector3_Vector3_Single.SetBelong(null);
+					r_MoveTowards_Vector3_Vector3_Single = new(typeof(UnityEngine.Vector3), "MoveTowards", 0, typeof(UnityEngine.Vector3), typeof(UnityEngine.Vector3), typeof(System.Single));
+					r_MoveTowards_Vector3_Vector3_Single.SetBelong(null);
 				}
-				return r_RMoveTowards_Vector3_Vector3_Single;
+				return r_MoveTowards_Vector3_Vector3_Single;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Vector3 SmoothDamp(UnityEngine.Vector3, UnityEngine.Vector3, UnityEngine.Vector3 ByRef, Single, Single)
 		/// </summary>
-		protected static RMethod r_RSmoothDamp_Vector3_Vector3_Ref_Vector3_Single_Single;
+		protected static RMethod r_SmoothDamp_Vector3_Vector3_Ref_Vector3_Single_Single;
 		public static RMethod RSmoothDamp_Vector3_Vector3_Ref_Vector3_Single_Single
 		{
 			get
 			{
-				if(r_RSmoothDamp_Vector3_Vector3_Ref_Vector3_Single_Single == null)
+				if(r_SmoothDamp_Vector3_Vector3_Ref_Vector3_Single_Single == null)
 				{
-					r_RSmoothDamp_Vector3_Vector3_Ref_Vector3_Single_Single = new(typeof(UnityEngine.Vector3), "SmoothDamp", 0, typeof(UnityEngine.Vector3), typeof(UnityEngine.Vector3), typeof(UnityEngine.Vector3).MakeByRefType(), typeof(System.Single), typeof(System.Single));
-					r_RSmoothDamp_Vector3_Vector3_Ref_Vector3_Single_Single.SetBelong(null);
+					r_SmoothDamp_Vector3_Vector3_Ref_Vector3_Single_Single = new(typeof(UnityEngine.Vector3), "SmoothDamp", 0, typeof(UnityEngine.Vector3), typeof(UnityEngine.Vector3), typeof(UnityEngine.Vector3).MakeByRefType(), typeof(System.Single), typeof(System.Single));
+					r_SmoothDamp_Vector3_Vector3_Ref_Vector3_Single_Single.SetBelong(null);
 				}
-				return r_RSmoothDamp_Vector3_Vector3_Ref_Vector3_Single_Single;
+				return r_SmoothDamp_Vector3_Vector3_Ref_Vector3_Single_Single;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Vector3 SmoothDamp(UnityEngine.Vector3, UnityEngine.Vector3, UnityEngine.Vector3 ByRef, Single)
 		/// </summary>
-		protected static RMethod r_RSmoothDamp_Vector3_Vector3_Ref_Vector3_Single;
+		protected static RMethod r_SmoothDamp_Vector3_Vector3_Ref_Vector3_Single;
 		public static RMethod RSmoothDamp_Vector3_Vector3_Ref_Vector3_Single
 		{
 			get
 			{
-				if(r_RSmoothDamp_Vector3_Vector3_Ref_Vector3_Single == null)
+				if(r_SmoothDamp_Vector3_Vector3_Ref_Vector3_Single == null)
 				{
-					r_RSmoothDamp_Vector3_Vector3_Ref_Vector3_Single = new(typeof(UnityEngine.Vector3), "SmoothDamp", 0, typeof(UnityEngine.Vector3), typeof(UnityEngine.Vector3), typeof(UnityEngine.Vector3).MakeByRefType(), typeof(System.Single));
-					r_RSmoothDamp_Vector3_Vector3_Ref_Vector3_Single.SetBelong(null);
+					r_SmoothDamp_Vector3_Vector3_Ref_Vector3_Single = new(typeof(UnityEngine.Vector3), "SmoothDamp", 0, typeof(UnityEngine.Vector3), typeof(UnityEngine.Vector3), typeof(UnityEngine.Vector3).MakeByRefType(), typeof(System.Single));
+					r_SmoothDamp_Vector3_Vector3_Ref_Vector3_Single.SetBelong(null);
 				}
-				return r_RSmoothDamp_Vector3_Vector3_Ref_Vector3_Single;
+				return r_SmoothDamp_Vector3_Vector3_Ref_Vector3_Single;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Vector3 SmoothDamp(UnityEngine.Vector3, UnityEngine.Vector3, UnityEngine.Vector3 ByRef, Single, Single, Single)
 		/// </summary>
-		protected static RMethod r_RSmoothDamp_Vector3_Vector3_Ref_Vector3_Single_Single_Single;
+		protected static RMethod r_SmoothDamp_Vector3_Vector3_Ref_Vector3_Single_Single_Single;
 		public static RMethod RSmoothDamp_Vector3_Vector3_Ref_Vector3_Single_Single_Single
 		{
 			get
 			{
-				if(r_RSmoothDamp_Vector3_Vector3_Ref_Vector3_Single_Single_Single == null)
+				if(r_SmoothDamp_Vector3_Vector3_Ref_Vector3_Single_Single_Single == null)
 				{
-					r_RSmoothDamp_Vector3_Vector3_Ref_Vector3_Single_Single_Single = new(typeof(UnityEngine.Vector3), "SmoothDamp", 0, typeof(UnityEngine.Vector3), typeof(UnityEngine.Vector3), typeof(UnityEngine.Vector3).MakeByRefType(), typeof(System.Single), typeof(System.Single), typeof(System.Single));
-					r_RSmoothDamp_Vector3_Vector3_Ref_Vector3_Single_Single_Single.SetBelong(null);
+					r_SmoothDamp_Vector3_Vector3_Ref_Vector3_Single_Single_Single = new(typeof(UnityEngine.Vector3), "SmoothDamp", 0, typeof(UnityEngine.Vector3), typeof(UnityEngine.Vector3), typeof(UnityEngine.Vector3).MakeByRefType(), typeof(System.Single), typeof(System.Single), typeof(System.Single));
+					r_SmoothDamp_Vector3_Vector3_Ref_Vector3_Single_Single_Single.SetBelong(null);
 				}
-				return r_RSmoothDamp_Vector3_Vector3_Ref_Vector3_Single_Single_Single;
+				return r_SmoothDamp_Vector3_Vector3_Ref_Vector3_Single_Single_Single;
 			}
 		}
 
 		/// <summary>
 		/// Void Set(Single, Single, Single)
 		/// </summary>
-		protected RMethod r_RSet_Single_Single_Single;
+		protected RMethod r_Set_Single_Single_Single;
 		public virtual RMethod RSet_Single_Single_Single
 		{
 			get
 			{
-				if(r_RSet_Single_Single_Single == null)
+				if(r_Set_Single_Single_Single == null)
 				{
-					r_RSet_Single_Single_Single = new(this, "Set", 0, typeof(System.Single), typeof(System.Single), typeof(System.Single));
-					r_RSet_Single_Single_Single.SetBelong(this.instance);
+					r_Set_Single_Single_Single = new(this, "Set", 0, typeof(System.Single), typeof(System.Single), typeof(System.Single));
+					r_Set_Single_Single_Single.SetBelong(this.instance);
 				}
-				return r_RSet_Single_Single_Single;
+				return r_Set_Single_Single_Single;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Vector3 Scale(UnityEngine.Vector3, UnityEngine.Vector3)
 		/// </summary>
-		protected static RMethod r_RScale_Vector3_Vector3;
+		protected static RMethod r_Scale_Vector3_Vector3;
 		public static RMethod RScale_Vector3_Vector3
 		{
 			get
 			{
-				if(r_RScale_Vector3_Vector3 == null)
+				if(r_Scale_Vector3_Vector3 == null)
 				{
-					r_RScale_Vector3_Vector3 = new(typeof(UnityEngine.Vector3), "Scale", 0, typeof(UnityEngine.Vector3), typeof(UnityEngine.Vector3));
-					r_RScale_Vector3_Vector3.SetBelong(null);
+					r_Scale_Vector3_Vector3 = new(typeof(UnityEngine.Vector3), "Scale", 0, typeof(UnityEngine.Vector3), typeof(UnityEngine.Vector3));
+					r_Scale_Vector3_Vector3.SetBelong(null);
 				}
-				return r_RScale_Vector3_Vector3;
+				return r_Scale_Vector3_Vector3;
 			}
 		}
 
 		/// <summary>
 		/// Void Scale(UnityEngine.Vector3)
 		/// </summary>
-		protected RMethod r_RScale_Vector3;
+		protected RMethod r_Scale_Vector3;
 		public virtual RMethod RScale_Vector3
 		{
 			get
 			{
-				if(r_RScale_Vector3 == null)
+				if(r_Scale_Vector3 == null)
 				{
-					r_RScale_Vector3 = new(this, "Scale", 0, typeof(UnityEngine.Vector3));
-					r_RScale_Vector3.SetBelong(this.instance);
+					r_Scale_Vector3 = new(this, "Scale", 0, typeof(UnityEngine.Vector3));
+					r_Scale_Vector3.SetBelong(this.instance);
 				}
-				return r_RScale_Vector3;
+				return r_Scale_Vector3;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Vector3 Cross(UnityEngine.Vector3, UnityEngine.Vector3)
 		/// </summary>
-		protected static RMethod r_RCross_Vector3_Vector3;
+		protected static RMethod r_Cross_Vector3_Vector3;
 		public static RMethod RCross_Vector3_Vector3
 		{
 			get
 			{
-				if(r_RCross_Vector3_Vector3 == null)
+				if(r_Cross_Vector3_Vector3 == null)
 				{
-					r_RCross_Vector3_Vector3 = new(typeof(UnityEngine.Vector3), "Cross", 0, typeof(UnityEngine.Vector3), typeof(UnityEngine.Vector3));
-					r_RCross_Vector3_Vector3.SetBelong(null);
+					r_Cross_Vector3_Vector3 = new(typeof(UnityEngine.Vector3), "Cross", 0, typeof(UnityEngine.Vector3), typeof(UnityEngine.Vector3));
+					r_Cross_Vector3_Vector3.SetBelong(null);
 				}
-				return r_RCross_Vector3_Vector3;
+				return r_Cross_Vector3_Vector3;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetHashCode()
 		/// </summary>
-		protected RMethod r_RGetHashCode;
+		protected RMethod r_GetHashCode;
 		public virtual RMethod RGetHashCode
 		{
 			get
 			{
-				if(r_RGetHashCode == null)
+				if(r_GetHashCode == null)
 				{
-					r_RGetHashCode = new(this, "GetHashCode", 0);
-					r_RGetHashCode.SetBelong(this.instance);
+					r_GetHashCode = new(this, "GetHashCode", 0);
+					r_GetHashCode.SetBelong(this.instance);
 				}
-				return r_RGetHashCode;
+				return r_GetHashCode;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Equals(System.Object)
 		/// </summary>
-		protected RMethod r_REquals_Object;
+		protected RMethod r_Equals_Object;
 		public virtual RMethod REquals_Object
 		{
 			get
 			{
-				if(r_REquals_Object == null)
+				if(r_Equals_Object == null)
 				{
-					r_REquals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_REquals_Object.SetBelong(this.instance);
+					r_Equals_Object = new(this, "Equals", 0, typeof(System.Object));
+					r_Equals_Object.SetBelong(this.instance);
 				}
-				return r_REquals_Object;
+				return r_Equals_Object;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Equals(UnityEngine.Vector3)
 		/// </summary>
-		protected RMethod r_REquals_Vector3;
+		protected RMethod r_Equals_Vector3;
 		public virtual RMethod REquals_Vector3
 		{
 			get
 			{
-				if(r_REquals_Vector3 == null)
+				if(r_Equals_Vector3 == null)
 				{
-					r_REquals_Vector3 = new(this, "Equals", 0, typeof(UnityEngine.Vector3));
-					r_REquals_Vector3.SetBelong(this.instance);
+					r_Equals_Vector3 = new(this, "Equals", 0, typeof(UnityEngine.Vector3));
+					r_Equals_Vector3.SetBelong(this.instance);
 				}
-				return r_REquals_Vector3;
+				return r_Equals_Vector3;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Vector3 Reflect(UnityEngine.Vector3, UnityEngine.Vector3)
 		/// </summary>
-		protected static RMethod r_RReflect_Vector3_Vector3;
+		protected static RMethod r_Reflect_Vector3_Vector3;
 		public static RMethod RReflect_Vector3_Vector3
 		{
 			get
 			{
-				if(r_RReflect_Vector3_Vector3 == null)
+				if(r_Reflect_Vector3_Vector3 == null)
 				{
-					r_RReflect_Vector3_Vector3 = new(typeof(UnityEngine.Vector3), "Reflect", 0, typeof(UnityEngine.Vector3), typeof(UnityEngine.Vector3));
-					r_RReflect_Vector3_Vector3.SetBelong(null);
+					r_Reflect_Vector3_Vector3 = new(typeof(UnityEngine.Vector3), "Reflect", 0, typeof(UnityEngine.Vector3), typeof(UnityEngine.Vector3));
+					r_Reflect_Vector3_Vector3.SetBelong(null);
 				}
-				return r_RReflect_Vector3_Vector3;
+				return r_Reflect_Vector3_Vector3;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Vector3 Normalize(UnityEngine.Vector3)
 		/// </summary>
-		protected static RMethod r_RNormalize_Vector3;
+		protected static RMethod r_Normalize_Vector3;
 		public static RMethod RNormalize_Vector3
 		{
 			get
 			{
-				if(r_RNormalize_Vector3 == null)
+				if(r_Normalize_Vector3 == null)
 				{
-					r_RNormalize_Vector3 = new(typeof(UnityEngine.Vector3), "Normalize", 0, typeof(UnityEngine.Vector3));
-					r_RNormalize_Vector3.SetBelong(null);
+					r_Normalize_Vector3 = new(typeof(UnityEngine.Vector3), "Normalize", 0, typeof(UnityEngine.Vector3));
+					r_Normalize_Vector3.SetBelong(null);
 				}
-				return r_RNormalize_Vector3;
+				return r_Normalize_Vector3;
 			}
 		}
 
 		/// <summary>
 		/// Void Normalize()
 		/// </summary>
-		protected RMethod r_RNormalize;
+		protected RMethod r_Normalize;
 		public virtual RMethod RNormalize
 		{
 			get
 			{
-				if(r_RNormalize == null)
+				if(r_Normalize == null)
 				{
-					r_RNormalize = new(this, "Normalize", 0);
-					r_RNormalize.SetBelong(this.instance);
+					r_Normalize = new(this, "Normalize", 0);
+					r_Normalize.SetBelong(this.instance);
 				}
-				return r_RNormalize;
+				return r_Normalize;
 			}
 		}
 
 		/// <summary>
 		/// Single Dot(UnityEngine.Vector3, UnityEngine.Vector3)
 		/// </summary>
-		protected static RMethod r_RDot_Vector3_Vector3;
+		protected static RMethod r_Dot_Vector3_Vector3;
 		public static RMethod RDot_Vector3_Vector3
 		{
 			get
 			{
-				if(r_RDot_Vector3_Vector3 == null)
+				if(r_Dot_Vector3_Vector3 == null)
 				{
-					r_RDot_Vector3_Vector3 = new(typeof(UnityEngine.Vector3), "Dot", 0, typeof(UnityEngine.Vector3), typeof(UnityEngine.Vector3));
-					r_RDot_Vector3_Vector3.SetBelong(null);
+					r_Dot_Vector3_Vector3 = new(typeof(UnityEngine.Vector3), "Dot", 0, typeof(UnityEngine.Vector3), typeof(UnityEngine.Vector3));
+					r_Dot_Vector3_Vector3.SetBelong(null);
 				}
-				return r_RDot_Vector3_Vector3;
+				return r_Dot_Vector3_Vector3;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Vector3 Project(UnityEngine.Vector3, UnityEngine.Vector3)
 		/// </summary>
-		protected static RMethod r_RProject_Vector3_Vector3;
+		protected static RMethod r_Project_Vector3_Vector3;
 		public static RMethod RProject_Vector3_Vector3
 		{
 			get
 			{
-				if(r_RProject_Vector3_Vector3 == null)
+				if(r_Project_Vector3_Vector3 == null)
 				{
-					r_RProject_Vector3_Vector3 = new(typeof(UnityEngine.Vector3), "Project", 0, typeof(UnityEngine.Vector3), typeof(UnityEngine.Vector3));
-					r_RProject_Vector3_Vector3.SetBelong(null);
+					r_Project_Vector3_Vector3 = new(typeof(UnityEngine.Vector3), "Project", 0, typeof(UnityEngine.Vector3), typeof(UnityEngine.Vector3));
+					r_Project_Vector3_Vector3.SetBelong(null);
 				}
-				return r_RProject_Vector3_Vector3;
+				return r_Project_Vector3_Vector3;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Vector3 ProjectOnPlane(UnityEngine.Vector3, UnityEngine.Vector3)
 		/// </summary>
-		protected static RMethod r_RProjectOnPlane_Vector3_Vector3;
+		protected static RMethod r_ProjectOnPlane_Vector3_Vector3;
 		public static RMethod RProjectOnPlane_Vector3_Vector3
 		{
 			get
 			{
-				if(r_RProjectOnPlane_Vector3_Vector3 == null)
+				if(r_ProjectOnPlane_Vector3_Vector3 == null)
 				{
-					r_RProjectOnPlane_Vector3_Vector3 = new(typeof(UnityEngine.Vector3), "ProjectOnPlane", 0, typeof(UnityEngine.Vector3), typeof(UnityEngine.Vector3));
-					r_RProjectOnPlane_Vector3_Vector3.SetBelong(null);
+					r_ProjectOnPlane_Vector3_Vector3 = new(typeof(UnityEngine.Vector3), "ProjectOnPlane", 0, typeof(UnityEngine.Vector3), typeof(UnityEngine.Vector3));
+					r_ProjectOnPlane_Vector3_Vector3.SetBelong(null);
 				}
-				return r_RProjectOnPlane_Vector3_Vector3;
+				return r_ProjectOnPlane_Vector3_Vector3;
 			}
 		}
 
 		/// <summary>
 		/// Single Angle(UnityEngine.Vector3, UnityEngine.Vector3)
 		/// </summary>
-		protected static RMethod r_RAngle_Vector3_Vector3;
+		protected static RMethod r_Angle_Vector3_Vector3;
 		public static RMethod RAngle_Vector3_Vector3
 		{
 			get
 			{
-				if(r_RAngle_Vector3_Vector3 == null)
+				if(r_Angle_Vector3_Vector3 == null)
 				{
-					r_RAngle_Vector3_Vector3 = new(typeof(UnityEngine.Vector3), "Angle", 0, typeof(UnityEngine.Vector3), typeof(UnityEngine.Vector3));
-					r_RAngle_Vector3_Vector3.SetBelong(null);
+					r_Angle_Vector3_Vector3 = new(typeof(UnityEngine.Vector3), "Angle", 0, typeof(UnityEngine.Vector3), typeof(UnityEngine.Vector3));
+					r_Angle_Vector3_Vector3.SetBelong(null);
 				}
-				return r_RAngle_Vector3_Vector3;
+				return r_Angle_Vector3_Vector3;
 			}
 		}
 
 		/// <summary>
 		/// Single SignedAngle(UnityEngine.Vector3, UnityEngine.Vector3, UnityEngine.Vector3)
 		/// </summary>
-		protected static RMethod r_RSignedAngle_Vector3_Vector3_Vector3;
+		protected static RMethod r_SignedAngle_Vector3_Vector3_Vector3;
 		public static RMethod RSignedAngle_Vector3_Vector3_Vector3
 		{
 			get
 			{
-				if(r_RSignedAngle_Vector3_Vector3_Vector3 == null)
+				if(r_SignedAngle_Vector3_Vector3_Vector3 == null)
 				{
-					r_RSignedAngle_Vector3_Vector3_Vector3 = new(typeof(UnityEngine.Vector3), "SignedAngle", 0, typeof(UnityEngine.Vector3), typeof(UnityEngine.Vector3), typeof(UnityEngine.Vector3));
-					r_RSignedAngle_Vector3_Vector3_Vector3.SetBelong(null);
+					r_SignedAngle_Vector3_Vector3_Vector3 = new(typeof(UnityEngine.Vector3), "SignedAngle", 0, typeof(UnityEngine.Vector3), typeof(UnityEngine.Vector3), typeof(UnityEngine.Vector3));
+					r_SignedAngle_Vector3_Vector3_Vector3.SetBelong(null);
 				}
-				return r_RSignedAngle_Vector3_Vector3_Vector3;
+				return r_SignedAngle_Vector3_Vector3_Vector3;
 			}
 		}
 
 		/// <summary>
 		/// Single Distance(UnityEngine.Vector3, UnityEngine.Vector3)
 		/// </summary>
-		protected static RMethod r_RDistance_Vector3_Vector3;
+		protected static RMethod r_Distance_Vector3_Vector3;
 		public static RMethod RDistance_Vector3_Vector3
 		{
 			get
 			{
-				if(r_RDistance_Vector3_Vector3 == null)
+				if(r_Distance_Vector3_Vector3 == null)
 				{
-					r_RDistance_Vector3_Vector3 = new(typeof(UnityEngine.Vector3), "Distance", 0, typeof(UnityEngine.Vector3), typeof(UnityEngine.Vector3));
-					r_RDistance_Vector3_Vector3.SetBelong(null);
+					r_Distance_Vector3_Vector3 = new(typeof(UnityEngine.Vector3), "Distance", 0, typeof(UnityEngine.Vector3), typeof(UnityEngine.Vector3));
+					r_Distance_Vector3_Vector3.SetBelong(null);
 				}
-				return r_RDistance_Vector3_Vector3;
+				return r_Distance_Vector3_Vector3;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Vector3 ClampMagnitude(UnityEngine.Vector3, Single)
 		/// </summary>
-		protected static RMethod r_RClampMagnitude_Vector3_Single;
+		protected static RMethod r_ClampMagnitude_Vector3_Single;
 		public static RMethod RClampMagnitude_Vector3_Single
 		{
 			get
 			{
-				if(r_RClampMagnitude_Vector3_Single == null)
+				if(r_ClampMagnitude_Vector3_Single == null)
 				{
-					r_RClampMagnitude_Vector3_Single = new(typeof(UnityEngine.Vector3), "ClampMagnitude", 0, typeof(UnityEngine.Vector3), typeof(System.Single));
-					r_RClampMagnitude_Vector3_Single.SetBelong(null);
+					r_ClampMagnitude_Vector3_Single = new(typeof(UnityEngine.Vector3), "ClampMagnitude", 0, typeof(UnityEngine.Vector3), typeof(System.Single));
+					r_ClampMagnitude_Vector3_Single.SetBelong(null);
 				}
-				return r_RClampMagnitude_Vector3_Single;
+				return r_ClampMagnitude_Vector3_Single;
 			}
 		}
 
 		/// <summary>
 		/// Single Magnitude(UnityEngine.Vector3)
 		/// </summary>
-		protected static RMethod r_RMagnitude_Vector3;
+		protected static RMethod r_Magnitude_Vector3;
 		public static RMethod RMagnitude_Vector3
 		{
 			get
 			{
-				if(r_RMagnitude_Vector3 == null)
+				if(r_Magnitude_Vector3 == null)
 				{
-					r_RMagnitude_Vector3 = new(typeof(UnityEngine.Vector3), "Magnitude", 0, typeof(UnityEngine.Vector3));
-					r_RMagnitude_Vector3.SetBelong(null);
+					r_Magnitude_Vector3 = new(typeof(UnityEngine.Vector3), "Magnitude", 0, typeof(UnityEngine.Vector3));
+					r_Magnitude_Vector3.SetBelong(null);
 				}
-				return r_RMagnitude_Vector3;
+				return r_Magnitude_Vector3;
 			}
 		}
 
 		/// <summary>
 		/// Single SqrMagnitude(UnityEngine.Vector3)
 		/// </summary>
-		protected static RMethod r_RSqrMagnitude_Vector3;
+		protected static RMethod r_SqrMagnitude_Vector3;
 		public static RMethod RSqrMagnitude_Vector3
 		{
 			get
 			{
-				if(r_RSqrMagnitude_Vector3 == null)
+				if(r_SqrMagnitude_Vector3 == null)
 				{
-					r_RSqrMagnitude_Vector3 = new(typeof(UnityEngine.Vector3), "SqrMagnitude", 0, typeof(UnityEngine.Vector3));
-					r_RSqrMagnitude_Vector3.SetBelong(null);
+					r_SqrMagnitude_Vector3 = new(typeof(UnityEngine.Vector3), "SqrMagnitude", 0, typeof(UnityEngine.Vector3));
+					r_SqrMagnitude_Vector3.SetBelong(null);
 				}
-				return r_RSqrMagnitude_Vector3;
+				return r_SqrMagnitude_Vector3;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Vector3 Min(UnityEngine.Vector3, UnityEngine.Vector3)
 		/// </summary>
-		protected static RMethod r_RMin_Vector3_Vector3;
+		protected static RMethod r_Min_Vector3_Vector3;
 		public static RMethod RMin_Vector3_Vector3
 		{
 			get
 			{
-				if(r_RMin_Vector3_Vector3 == null)
+				if(r_Min_Vector3_Vector3 == null)
 				{
-					r_RMin_Vector3_Vector3 = new(typeof(UnityEngine.Vector3), "Min", 0, typeof(UnityEngine.Vector3), typeof(UnityEngine.Vector3));
-					r_RMin_Vector3_Vector3.SetBelong(null);
+					r_Min_Vector3_Vector3 = new(typeof(UnityEngine.Vector3), "Min", 0, typeof(UnityEngine.Vector3), typeof(UnityEngine.Vector3));
+					r_Min_Vector3_Vector3.SetBelong(null);
 				}
-				return r_RMin_Vector3_Vector3;
+				return r_Min_Vector3_Vector3;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Vector3 Max(UnityEngine.Vector3, UnityEngine.Vector3)
 		/// </summary>
-		protected static RMethod r_RMax_Vector3_Vector3;
+		protected static RMethod r_Max_Vector3_Vector3;
 		public static RMethod RMax_Vector3_Vector3
 		{
 			get
 			{
-				if(r_RMax_Vector3_Vector3 == null)
+				if(r_Max_Vector3_Vector3 == null)
 				{
-					r_RMax_Vector3_Vector3 = new(typeof(UnityEngine.Vector3), "Max", 0, typeof(UnityEngine.Vector3), typeof(UnityEngine.Vector3));
-					r_RMax_Vector3_Vector3.SetBelong(null);
+					r_Max_Vector3_Vector3 = new(typeof(UnityEngine.Vector3), "Max", 0, typeof(UnityEngine.Vector3), typeof(UnityEngine.Vector3));
+					r_Max_Vector3_Vector3.SetBelong(null);
 				}
-				return r_RMax_Vector3_Vector3;
+				return r_Max_Vector3_Vector3;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Vector3 op_Addition(UnityEngine.Vector3, UnityEngine.Vector3)
 		/// </summary>
-		protected static RMethod r_Rop_Addition_Vector3_Vector3;
+		protected static RMethod r_op_Addition_Vector3_Vector3;
 		public static RMethod Rop_Addition_Vector3_Vector3
 		{
 			get
 			{
-				if(r_Rop_Addition_Vector3_Vector3 == null)
+				if(r_op_Addition_Vector3_Vector3 == null)
 				{
-					r_Rop_Addition_Vector3_Vector3 = new(typeof(UnityEngine.Vector3), "op_Addition", 0, typeof(UnityEngine.Vector3), typeof(UnityEngine.Vector3));
-					r_Rop_Addition_Vector3_Vector3.SetBelong(null);
+					r_op_Addition_Vector3_Vector3 = new(typeof(UnityEngine.Vector3), "op_Addition", 0, typeof(UnityEngine.Vector3), typeof(UnityEngine.Vector3));
+					r_op_Addition_Vector3_Vector3.SetBelong(null);
 				}
-				return r_Rop_Addition_Vector3_Vector3;
+				return r_op_Addition_Vector3_Vector3;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Vector3 op_Subtraction(UnityEngine.Vector3, UnityEngine.Vector3)
 		/// </summary>
-		protected static RMethod r_Rop_Subtraction_Vector3_Vector3;
+		protected static RMethod r_op_Subtraction_Vector3_Vector3;
 		public static RMethod Rop_Subtraction_Vector3_Vector3
 		{
 			get
 			{
-				if(r_Rop_Subtraction_Vector3_Vector3 == null)
+				if(r_op_Subtraction_Vector3_Vector3 == null)
 				{
-					r_Rop_Subtraction_Vector3_Vector3 = new(typeof(UnityEngine.Vector3), "op_Subtraction", 0, typeof(UnityEngine.Vector3), typeof(UnityEngine.Vector3));
-					r_Rop_Subtraction_Vector3_Vector3.SetBelong(null);
+					r_op_Subtraction_Vector3_Vector3 = new(typeof(UnityEngine.Vector3), "op_Subtraction", 0, typeof(UnityEngine.Vector3), typeof(UnityEngine.Vector3));
+					r_op_Subtraction_Vector3_Vector3.SetBelong(null);
 				}
-				return r_Rop_Subtraction_Vector3_Vector3;
+				return r_op_Subtraction_Vector3_Vector3;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Vector3 op_UnaryNegation(UnityEngine.Vector3)
 		/// </summary>
-		protected static RMethod r_Rop_UnaryNegation_Vector3;
+		protected static RMethod r_op_UnaryNegation_Vector3;
 		public static RMethod Rop_UnaryNegation_Vector3
 		{
 			get
 			{
-				if(r_Rop_UnaryNegation_Vector3 == null)
+				if(r_op_UnaryNegation_Vector3 == null)
 				{
-					r_Rop_UnaryNegation_Vector3 = new(typeof(UnityEngine.Vector3), "op_UnaryNegation", 0, typeof(UnityEngine.Vector3));
-					r_Rop_UnaryNegation_Vector3.SetBelong(null);
+					r_op_UnaryNegation_Vector3 = new(typeof(UnityEngine.Vector3), "op_UnaryNegation", 0, typeof(UnityEngine.Vector3));
+					r_op_UnaryNegation_Vector3.SetBelong(null);
 				}
-				return r_Rop_UnaryNegation_Vector3;
+				return r_op_UnaryNegation_Vector3;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Vector3 op_Multiply(UnityEngine.Vector3, Single)
 		/// </summary>
-		protected static RMethod r_Rop_Multiply_Vector3_Single;
+		protected static RMethod r_op_Multiply_Vector3_Single;
 		public static RMethod Rop_Multiply_Vector3_Single
 		{
 			get
 			{
-				if(r_Rop_Multiply_Vector3_Single == null)
+				if(r_op_Multiply_Vector3_Single == null)
 				{
-					r_Rop_Multiply_Vector3_Single = new(typeof(UnityEngine.Vector3), "op_Multiply", 0, typeof(UnityEngine.Vector3), typeof(System.Single));
-					r_Rop_Multiply_Vector3_Single.SetBelong(null);
+					r_op_Multiply_Vector3_Single = new(typeof(UnityEngine.Vector3), "op_Multiply", 0, typeof(UnityEngine.Vector3), typeof(System.Single));
+					r_op_Multiply_Vector3_Single.SetBelong(null);
 				}
-				return r_Rop_Multiply_Vector3_Single;
+				return r_op_Multiply_Vector3_Single;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Vector3 op_Multiply(Single, UnityEngine.Vector3)
 		/// </summary>
-		protected static RMethod r_Rop_Multiply_Single_Vector3;
+		protected static RMethod r_op_Multiply_Single_Vector3;
 		public static RMethod Rop_Multiply_Single_Vector3
 		{
 			get
 			{
-				if(r_Rop_Multiply_Single_Vector3 == null)
+				if(r_op_Multiply_Single_Vector3 == null)
 				{
-					r_Rop_Multiply_Single_Vector3 = new(typeof(UnityEngine.Vector3), "op_Multiply", 0, typeof(System.Single), typeof(UnityEngine.Vector3));
-					r_Rop_Multiply_Single_Vector3.SetBelong(null);
+					r_op_Multiply_Single_Vector3 = new(typeof(UnityEngine.Vector3), "op_Multiply", 0, typeof(System.Single), typeof(UnityEngine.Vector3));
+					r_op_Multiply_Single_Vector3.SetBelong(null);
 				}
-				return r_Rop_Multiply_Single_Vector3;
+				return r_op_Multiply_Single_Vector3;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Vector3 op_Division(UnityEngine.Vector3, Single)
 		/// </summary>
-		protected static RMethod r_Rop_Division_Vector3_Single;
+		protected static RMethod r_op_Division_Vector3_Single;
 		public static RMethod Rop_Division_Vector3_Single
 		{
 			get
 			{
-				if(r_Rop_Division_Vector3_Single == null)
+				if(r_op_Division_Vector3_Single == null)
 				{
-					r_Rop_Division_Vector3_Single = new(typeof(UnityEngine.Vector3), "op_Division", 0, typeof(UnityEngine.Vector3), typeof(System.Single));
-					r_Rop_Division_Vector3_Single.SetBelong(null);
+					r_op_Division_Vector3_Single = new(typeof(UnityEngine.Vector3), "op_Division", 0, typeof(UnityEngine.Vector3), typeof(System.Single));
+					r_op_Division_Vector3_Single.SetBelong(null);
 				}
-				return r_Rop_Division_Vector3_Single;
+				return r_op_Division_Vector3_Single;
 			}
 		}
 
 		/// <summary>
 		/// Boolean op_Equality(UnityEngine.Vector3, UnityEngine.Vector3)
 		/// </summary>
-		protected static RMethod r_Rop_Equality_Vector3_Vector3;
+		protected static RMethod r_op_Equality_Vector3_Vector3;
 		public static RMethod Rop_Equality_Vector3_Vector3
 		{
 			get
 			{
-				if(r_Rop_Equality_Vector3_Vector3 == null)
+				if(r_op_Equality_Vector3_Vector3 == null)
 				{
-					r_Rop_Equality_Vector3_Vector3 = new(typeof(UnityEngine.Vector3), "op_Equality", 0, typeof(UnityEngine.Vector3), typeof(UnityEngine.Vector3));
-					r_Rop_Equality_Vector3_Vector3.SetBelong(null);
+					r_op_Equality_Vector3_Vector3 = new(typeof(UnityEngine.Vector3), "op_Equality", 0, typeof(UnityEngine.Vector3), typeof(UnityEngine.Vector3));
+					r_op_Equality_Vector3_Vector3.SetBelong(null);
 				}
-				return r_Rop_Equality_Vector3_Vector3;
+				return r_op_Equality_Vector3_Vector3;
 			}
 		}
 
 		/// <summary>
 		/// Boolean op_Inequality(UnityEngine.Vector3, UnityEngine.Vector3)
 		/// </summary>
-		protected static RMethod r_Rop_Inequality_Vector3_Vector3;
+		protected static RMethod r_op_Inequality_Vector3_Vector3;
 		public static RMethod Rop_Inequality_Vector3_Vector3
 		{
 			get
 			{
-				if(r_Rop_Inequality_Vector3_Vector3 == null)
+				if(r_op_Inequality_Vector3_Vector3 == null)
 				{
-					r_Rop_Inequality_Vector3_Vector3 = new(typeof(UnityEngine.Vector3), "op_Inequality", 0, typeof(UnityEngine.Vector3), typeof(UnityEngine.Vector3));
-					r_Rop_Inequality_Vector3_Vector3.SetBelong(null);
+					r_op_Inequality_Vector3_Vector3 = new(typeof(UnityEngine.Vector3), "op_Inequality", 0, typeof(UnityEngine.Vector3), typeof(UnityEngine.Vector3));
+					r_op_Inequality_Vector3_Vector3.SetBelong(null);
 				}
-				return r_Rop_Inequality_Vector3_Vector3;
+				return r_op_Inequality_Vector3_Vector3;
 			}
 		}
 
 		/// <summary>
 		/// System.String ToString()
 		/// </summary>
-		protected RMethod r_RToString;
+		protected RMethod r_ToString;
 		public virtual RMethod RToString
 		{
 			get
 			{
-				if(r_RToString == null)
+				if(r_ToString == null)
 				{
-					r_RToString = new(this, "ToString", 0);
-					r_RToString.SetBelong(this.instance);
+					r_ToString = new(this, "ToString", 0);
+					r_ToString.SetBelong(this.instance);
 				}
-				return r_RToString;
+				return r_ToString;
 			}
 		}
 
 		/// <summary>
 		/// System.String ToString(System.String)
 		/// </summary>
-		protected RMethod r_RToString_String;
+		protected RMethod r_ToString_String;
 		public virtual RMethod RToString_String
 		{
 			get
 			{
-				if(r_RToString_String == null)
+				if(r_ToString_String == null)
 				{
-					r_RToString_String = new(this, "ToString", 0, typeof(System.String));
-					r_RToString_String.SetBelong(this.instance);
+					r_ToString_String = new(this, "ToString", 0, typeof(System.String));
+					r_ToString_String.SetBelong(this.instance);
 				}
-				return r_RToString_String;
+				return r_ToString_String;
 			}
 		}
 
 		/// <summary>
 		/// System.String ToString(System.String, System.IFormatProvider)
 		/// </summary>
-		protected RMethod r_RToString_String_IFormatProvider;
+		protected RMethod r_ToString_String_IFormatProvider;
 		public virtual RMethod RToString_String_IFormatProvider
 		{
 			get
 			{
-				if(r_RToString_String_IFormatProvider == null)
+				if(r_ToString_String_IFormatProvider == null)
 				{
-					r_RToString_String_IFormatProvider = new(this, "ToString", 0, typeof(System.String), typeof(System.IFormatProvider));
-					r_RToString_String_IFormatProvider.SetBelong(this.instance);
+					r_ToString_String_IFormatProvider = new(this, "ToString", 0, typeof(System.String), typeof(System.IFormatProvider));
+					r_ToString_String_IFormatProvider.SetBelong(this.instance);
 				}
-				return r_RToString_String_IFormatProvider;
+				return r_ToString_String_IFormatProvider;
 			}
 		}
 
 		/// <summary>
 		/// Single AngleBetween(UnityEngine.Vector3, UnityEngine.Vector3)
 		/// </summary>
-		protected static RMethod r_RAngleBetween_Vector3_Vector3;
+		protected static RMethod r_AngleBetween_Vector3_Vector3;
 		public static RMethod RAngleBetween_Vector3_Vector3
 		{
 			get
 			{
-				if(r_RAngleBetween_Vector3_Vector3 == null)
+				if(r_AngleBetween_Vector3_Vector3 == null)
 				{
-					r_RAngleBetween_Vector3_Vector3 = new(typeof(UnityEngine.Vector3), "AngleBetween", 0, typeof(UnityEngine.Vector3), typeof(UnityEngine.Vector3));
-					r_RAngleBetween_Vector3_Vector3.SetBelong(null);
+					r_AngleBetween_Vector3_Vector3 = new(typeof(UnityEngine.Vector3), "AngleBetween", 0, typeof(UnityEngine.Vector3), typeof(UnityEngine.Vector3));
+					r_AngleBetween_Vector3_Vector3.SetBelong(null);
 				}
-				return r_RAngleBetween_Vector3_Vector3;
+				return r_AngleBetween_Vector3_Vector3;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Vector3 Exclude(UnityEngine.Vector3, UnityEngine.Vector3)
 		/// </summary>
-		protected static RMethod r_RExclude_Vector3_Vector3;
+		protected static RMethod r_Exclude_Vector3_Vector3;
 		public static RMethod RExclude_Vector3_Vector3
 		{
 			get
 			{
-				if(r_RExclude_Vector3_Vector3 == null)
+				if(r_Exclude_Vector3_Vector3 == null)
 				{
-					r_RExclude_Vector3_Vector3 = new(typeof(UnityEngine.Vector3), "Exclude", 0, typeof(UnityEngine.Vector3), typeof(UnityEngine.Vector3));
-					r_RExclude_Vector3_Vector3.SetBelong(null);
+					r_Exclude_Vector3_Vector3 = new(typeof(UnityEngine.Vector3), "Exclude", 0, typeof(UnityEngine.Vector3), typeof(UnityEngine.Vector3));
+					r_Exclude_Vector3_Vector3.SetBelong(null);
 				}
-				return r_RExclude_Vector3_Vector3;
+				return r_Exclude_Vector3_Vector3;
 			}
 		}
 
 		/// <summary>
 		/// Void Slerp_Injected(UnityEngine.Vector3 ByRef, UnityEngine.Vector3 ByRef, Single, UnityEngine.Vector3 ByRef)
 		/// </summary>
-		protected static RMethod r_RSlerp_Injected_Ref_Vector3_Ref_Vector3_Single_Out_Vector3;
+		protected static RMethod r_Slerp_Injected_Ref_Vector3_Ref_Vector3_Single_Out_Vector3;
 		public static RMethod RSlerp_Injected_Ref_Vector3_Ref_Vector3_Single_Out_Vector3
 		{
 			get
 			{
-				if(r_RSlerp_Injected_Ref_Vector3_Ref_Vector3_Single_Out_Vector3 == null)
+				if(r_Slerp_Injected_Ref_Vector3_Ref_Vector3_Single_Out_Vector3 == null)
 				{
-					r_RSlerp_Injected_Ref_Vector3_Ref_Vector3_Single_Out_Vector3 = new(typeof(UnityEngine.Vector3), "Slerp_Injected", 0, typeof(UnityEngine.Vector3).MakeByRefType(), typeof(UnityEngine.Vector3).MakeByRefType(), typeof(System.Single), typeof(UnityEngine.Vector3).MakeByRefType());
-					r_RSlerp_Injected_Ref_Vector3_Ref_Vector3_Single_Out_Vector3.SetBelong(null);
+					r_Slerp_Injected_Ref_Vector3_Ref_Vector3_Single_Out_Vector3 = new(typeof(UnityEngine.Vector3), "Slerp_Injected", 0, typeof(UnityEngine.Vector3).MakeByRefType(), typeof(UnityEngine.Vector3).MakeByRefType(), typeof(System.Single), typeof(UnityEngine.Vector3).MakeByRefType());
+					r_Slerp_Injected_Ref_Vector3_Ref_Vector3_Single_Out_Vector3.SetBelong(null);
 				}
-				return r_RSlerp_Injected_Ref_Vector3_Ref_Vector3_Single_Out_Vector3;
+				return r_Slerp_Injected_Ref_Vector3_Ref_Vector3_Single_Out_Vector3;
 			}
 		}
 
 		/// <summary>
 		/// Void SlerpUnclamped_Injected(UnityEngine.Vector3 ByRef, UnityEngine.Vector3 ByRef, Single, UnityEngine.Vector3 ByRef)
 		/// </summary>
-		protected static RMethod r_RSlerpUnclamped_Injected_Ref_Vector3_Ref_Vector3_Single_Out_Vector3;
+		protected static RMethod r_SlerpUnclamped_Injected_Ref_Vector3_Ref_Vector3_Single_Out_Vector3;
 		public static RMethod RSlerpUnclamped_Injected_Ref_Vector3_Ref_Vector3_Single_Out_Vector3
 		{
 			get
 			{
-				if(r_RSlerpUnclamped_Injected_Ref_Vector3_Ref_Vector3_Single_Out_Vector3 == null)
+				if(r_SlerpUnclamped_Injected_Ref_Vector3_Ref_Vector3_Single_Out_Vector3 == null)
 				{
-					r_RSlerpUnclamped_Injected_Ref_Vector3_Ref_Vector3_Single_Out_Vector3 = new(typeof(UnityEngine.Vector3), "SlerpUnclamped_Injected", 0, typeof(UnityEngine.Vector3).MakeByRefType(), typeof(UnityEngine.Vector3).MakeByRefType(), typeof(System.Single), typeof(UnityEngine.Vector3).MakeByRefType());
-					r_RSlerpUnclamped_Injected_Ref_Vector3_Ref_Vector3_Single_Out_Vector3.SetBelong(null);
+					r_SlerpUnclamped_Injected_Ref_Vector3_Ref_Vector3_Single_Out_Vector3 = new(typeof(UnityEngine.Vector3), "SlerpUnclamped_Injected", 0, typeof(UnityEngine.Vector3).MakeByRefType(), typeof(UnityEngine.Vector3).MakeByRefType(), typeof(System.Single), typeof(UnityEngine.Vector3).MakeByRefType());
+					r_SlerpUnclamped_Injected_Ref_Vector3_Ref_Vector3_Single_Out_Vector3.SetBelong(null);
 				}
-				return r_RSlerpUnclamped_Injected_Ref_Vector3_Ref_Vector3_Single_Out_Vector3;
+				return r_SlerpUnclamped_Injected_Ref_Vector3_Ref_Vector3_Single_Out_Vector3;
 			}
 		}
 
 		/// <summary>
 		/// Void RotateTowards_Injected(UnityEngine.Vector3 ByRef, UnityEngine.Vector3 ByRef, Single, Single, UnityEngine.Vector3 ByRef)
 		/// </summary>
-		protected static RMethod r_RRotateTowards_Injected_Ref_Vector3_Ref_Vector3_Single_Single_Out_Vector3;
+		protected static RMethod r_RotateTowards_Injected_Ref_Vector3_Ref_Vector3_Single_Single_Out_Vector3;
 		public static RMethod RRotateTowards_Injected_Ref_Vector3_Ref_Vector3_Single_Single_Out_Vector3
 		{
 			get
 			{
-				if(r_RRotateTowards_Injected_Ref_Vector3_Ref_Vector3_Single_Single_Out_Vector3 == null)
+				if(r_RotateTowards_Injected_Ref_Vector3_Ref_Vector3_Single_Single_Out_Vector3 == null)
 				{
-					r_RRotateTowards_Injected_Ref_Vector3_Ref_Vector3_Single_Single_Out_Vector3 = new(typeof(UnityEngine.Vector3), "RotateTowards_Injected", 0, typeof(UnityEngine.Vector3).MakeByRefType(), typeof(UnityEngine.Vector3).MakeByRefType(), typeof(System.Single), typeof(System.Single), typeof(UnityEngine.Vector3).MakeByRefType());
-					r_RRotateTowards_Injected_Ref_Vector3_Ref_Vector3_Single_Single_Out_Vector3.SetBelong(null);
+					r_RotateTowards_Injected_Ref_Vector3_Ref_Vector3_Single_Single_Out_Vector3 = new(typeof(UnityEngine.Vector3), "RotateTowards_Injected", 0, typeof(UnityEngine.Vector3).MakeByRefType(), typeof(UnityEngine.Vector3).MakeByRefType(), typeof(System.Single), typeof(System.Single), typeof(UnityEngine.Vector3).MakeByRefType());
+					r_RotateTowards_Injected_Ref_Vector3_Ref_Vector3_Single_Single_Out_Vector3.SetBelong(null);
 				}
-				return r_RRotateTowards_Injected_Ref_Vector3_Ref_Vector3_Single_Single_Out_Vector3;
+				return r_RotateTowards_Injected_Ref_Vector3_Ref_Vector3_Single_Single_Out_Vector3;
 			}
 		}
 
 		/// <summary>
 		/// Void Finalize()
 		/// </summary>
-		protected RMethod r_RFinalize;
+		protected RMethod r_Finalize;
 		public virtual RMethod RFinalize
 		{
 			get
 			{
-				if(r_RFinalize == null)
+				if(r_Finalize == null)
 				{
-					r_RFinalize = new(this, "Finalize", 0);
-					r_RFinalize.SetBelong(this.instance);
+					r_Finalize = new(this, "Finalize", 0);
+					r_Finalize.SetBelong(this.instance);
 				}
-				return r_RFinalize;
+				return r_Finalize;
 			}
 		}
 
 		/// <summary>
 		/// System.Type GetType()
 		/// </summary>
-		protected RMethod r_RGetType;
+		protected RMethod r_GetType;
 		public virtual RMethod RGetType
 		{
 			get
 			{
-				if(r_RGetType == null)
+				if(r_GetType == null)
 				{
-					r_RGetType = new(this, "GetType", 0);
-					r_RGetType.SetBelong(this.instance);
+					r_GetType = new(this, "GetType", 0);
+					r_GetType.SetBelong(this.instance);
 				}
-				return r_RGetType;
+				return r_GetType;
 			}
 		}
 
 		/// <summary>
 		/// System.Object MemberwiseClone()
 		/// </summary>
-		protected RMethod r_RMemberwiseClone;
+		protected RMethod r_MemberwiseClone;
 		public virtual RMethod RMemberwiseClone
 		{
 			get
 			{
-				if(r_RMemberwiseClone == null)
+				if(r_MemberwiseClone == null)
 				{
-					r_RMemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_RMemberwiseClone.SetBelong(this.instance);
+					r_MemberwiseClone = new(this, "MemberwiseClone", 0);
+					r_MemberwiseClone.SetBelong(this.instance);
 				}
-				return r_RMemberwiseClone;
+				return r_MemberwiseClone;
 			}
 		}
 

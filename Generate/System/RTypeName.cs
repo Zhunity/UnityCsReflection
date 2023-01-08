@@ -30,17 +30,17 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.TypeName NestedName(System.TypeIdentifier)
 		/// </summary>
-		protected RMethod r_RNestedName_TypeIdentifier;
+		protected RMethod r_NestedName_TypeIdentifier;
 		public virtual RMethod RNestedName_TypeIdentifier
 		{
 			get
 			{
-				if(r_RNestedName_TypeIdentifier == null)
+				if(r_NestedName_TypeIdentifier == null)
 				{
-					r_RNestedName_TypeIdentifier = new(this, "NestedName", 0,  ReleactionUtils.GetType("System.TypeIdentifier"));
-					r_RNestedName_TypeIdentifier.SetBelong(this.instance);
+					r_NestedName_TypeIdentifier = new(this, "NestedName", 0,  ReleactionUtils.GetType("System.TypeIdentifier"));
+					r_NestedName_TypeIdentifier.SetBelong(this.instance);
 				}
-				return r_RNestedName_TypeIdentifier;
+				return r_NestedName_TypeIdentifier;
 			}
 		}
 

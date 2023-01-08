@@ -863,1309 +863,1309 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// IntPtr Internal_Create(UnityEngine.GUIStyle)
 		/// </summary>
-		protected static RMethod r_RInternal_Create_GUIStyle;
+		protected static RMethod r_Internal_Create_GUIStyle;
 		public static RMethod RInternal_Create_GUIStyle
 		{
 			get
 			{
-				if(r_RInternal_Create_GUIStyle == null)
+				if(r_Internal_Create_GUIStyle == null)
 				{
-					r_RInternal_Create_GUIStyle = new(typeof(UnityEngine.GUIStyle), "Internal_Create", 0, typeof(UnityEngine.GUIStyle));
-					r_RInternal_Create_GUIStyle.SetBelong(null);
+					r_Internal_Create_GUIStyle = new(typeof(UnityEngine.GUIStyle), "Internal_Create", 0, typeof(UnityEngine.GUIStyle));
+					r_Internal_Create_GUIStyle.SetBelong(null);
 				}
-				return r_RInternal_Create_GUIStyle;
+				return r_Internal_Create_GUIStyle;
 			}
 		}
 
 		/// <summary>
 		/// IntPtr Internal_Copy(UnityEngine.GUIStyle, UnityEngine.GUIStyle)
 		/// </summary>
-		protected static RMethod r_RInternal_Copy_GUIStyle_GUIStyle;
+		protected static RMethod r_Internal_Copy_GUIStyle_GUIStyle;
 		public static RMethod RInternal_Copy_GUIStyle_GUIStyle
 		{
 			get
 			{
-				if(r_RInternal_Copy_GUIStyle_GUIStyle == null)
+				if(r_Internal_Copy_GUIStyle_GUIStyle == null)
 				{
-					r_RInternal_Copy_GUIStyle_GUIStyle = new(typeof(UnityEngine.GUIStyle), "Internal_Copy", 0, typeof(UnityEngine.GUIStyle), typeof(UnityEngine.GUIStyle));
-					r_RInternal_Copy_GUIStyle_GUIStyle.SetBelong(null);
+					r_Internal_Copy_GUIStyle_GUIStyle = new(typeof(UnityEngine.GUIStyle), "Internal_Copy", 0, typeof(UnityEngine.GUIStyle), typeof(UnityEngine.GUIStyle));
+					r_Internal_Copy_GUIStyle_GUIStyle.SetBelong(null);
 				}
-				return r_RInternal_Copy_GUIStyle_GUIStyle;
+				return r_Internal_Copy_GUIStyle_GUIStyle;
 			}
 		}
 
 		/// <summary>
 		/// Void Internal_Destroy(IntPtr)
 		/// </summary>
-		protected static RMethod r_RInternal_Destroy_IntPtr;
+		protected static RMethod r_Internal_Destroy_IntPtr;
 		public static RMethod RInternal_Destroy_IntPtr
 		{
 			get
 			{
-				if(r_RInternal_Destroy_IntPtr == null)
+				if(r_Internal_Destroy_IntPtr == null)
 				{
-					r_RInternal_Destroy_IntPtr = new(typeof(UnityEngine.GUIStyle), "Internal_Destroy", 0, typeof(System.IntPtr));
-					r_RInternal_Destroy_IntPtr.SetBelong(null);
+					r_Internal_Destroy_IntPtr = new(typeof(UnityEngine.GUIStyle), "Internal_Destroy", 0, typeof(System.IntPtr));
+					r_Internal_Destroy_IntPtr.SetBelong(null);
 				}
-				return r_RInternal_Destroy_IntPtr;
+				return r_Internal_Destroy_IntPtr;
 			}
 		}
 
 		/// <summary>
 		/// IntPtr GetStyleStatePtr(Int32)
 		/// </summary>
-		protected RMethod r_RGetStyleStatePtr_Int32;
+		protected RMethod r_GetStyleStatePtr_Int32;
 		public virtual RMethod RGetStyleStatePtr_Int32
 		{
 			get
 			{
-				if(r_RGetStyleStatePtr_Int32 == null)
+				if(r_GetStyleStatePtr_Int32 == null)
 				{
-					r_RGetStyleStatePtr_Int32 = new(this, "GetStyleStatePtr", 0, typeof(System.Int32));
-					r_RGetStyleStatePtr_Int32.SetBelong(this.instance);
+					r_GetStyleStatePtr_Int32 = new(this, "GetStyleStatePtr", 0, typeof(System.Int32));
+					r_GetStyleStatePtr_Int32.SetBelong(this.instance);
 				}
-				return r_RGetStyleStatePtr_Int32;
+				return r_GetStyleStatePtr_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Void AssignStyleState(Int32, IntPtr)
 		/// </summary>
-		protected RMethod r_RAssignStyleState_Int32_IntPtr;
+		protected RMethod r_AssignStyleState_Int32_IntPtr;
 		public virtual RMethod RAssignStyleState_Int32_IntPtr
 		{
 			get
 			{
-				if(r_RAssignStyleState_Int32_IntPtr == null)
+				if(r_AssignStyleState_Int32_IntPtr == null)
 				{
-					r_RAssignStyleState_Int32_IntPtr = new(this, "AssignStyleState", 0, typeof(System.Int32), typeof(System.IntPtr));
-					r_RAssignStyleState_Int32_IntPtr.SetBelong(this.instance);
+					r_AssignStyleState_Int32_IntPtr = new(this, "AssignStyleState", 0, typeof(System.Int32), typeof(System.IntPtr));
+					r_AssignStyleState_Int32_IntPtr.SetBelong(this.instance);
 				}
-				return r_RAssignStyleState_Int32_IntPtr;
+				return r_AssignStyleState_Int32_IntPtr;
 			}
 		}
 
 		/// <summary>
 		/// IntPtr GetRectOffsetPtr(Int32)
 		/// </summary>
-		protected RMethod r_RGetRectOffsetPtr_Int32;
+		protected RMethod r_GetRectOffsetPtr_Int32;
 		public virtual RMethod RGetRectOffsetPtr_Int32
 		{
 			get
 			{
-				if(r_RGetRectOffsetPtr_Int32 == null)
+				if(r_GetRectOffsetPtr_Int32 == null)
 				{
-					r_RGetRectOffsetPtr_Int32 = new(this, "GetRectOffsetPtr", 0, typeof(System.Int32));
-					r_RGetRectOffsetPtr_Int32.SetBelong(this.instance);
+					r_GetRectOffsetPtr_Int32 = new(this, "GetRectOffsetPtr", 0, typeof(System.Int32));
+					r_GetRectOffsetPtr_Int32.SetBelong(this.instance);
 				}
-				return r_RGetRectOffsetPtr_Int32;
+				return r_GetRectOffsetPtr_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Void AssignRectOffset(Int32, IntPtr)
 		/// </summary>
-		protected RMethod r_RAssignRectOffset_Int32_IntPtr;
+		protected RMethod r_AssignRectOffset_Int32_IntPtr;
 		public virtual RMethod RAssignRectOffset_Int32_IntPtr
 		{
 			get
 			{
-				if(r_RAssignRectOffset_Int32_IntPtr == null)
+				if(r_AssignRectOffset_Int32_IntPtr == null)
 				{
-					r_RAssignRectOffset_Int32_IntPtr = new(this, "AssignRectOffset", 0, typeof(System.Int32), typeof(System.IntPtr));
-					r_RAssignRectOffset_Int32_IntPtr.SetBelong(this.instance);
+					r_AssignRectOffset_Int32_IntPtr = new(this, "AssignRectOffset", 0, typeof(System.Int32), typeof(System.IntPtr));
+					r_AssignRectOffset_Int32_IntPtr.SetBelong(this.instance);
 				}
-				return r_RAssignRectOffset_Int32_IntPtr;
+				return r_AssignRectOffset_Int32_IntPtr;
 			}
 		}
 
 		/// <summary>
 		/// Single Internal_GetLineHeight(IntPtr)
 		/// </summary>
-		protected static RMethod r_RInternal_GetLineHeight_IntPtr;
+		protected static RMethod r_Internal_GetLineHeight_IntPtr;
 		public static RMethod RInternal_GetLineHeight_IntPtr
 		{
 			get
 			{
-				if(r_RInternal_GetLineHeight_IntPtr == null)
+				if(r_Internal_GetLineHeight_IntPtr == null)
 				{
-					r_RInternal_GetLineHeight_IntPtr = new(typeof(UnityEngine.GUIStyle), "Internal_GetLineHeight", 0, typeof(System.IntPtr));
-					r_RInternal_GetLineHeight_IntPtr.SetBelong(null);
+					r_Internal_GetLineHeight_IntPtr = new(typeof(UnityEngine.GUIStyle), "Internal_GetLineHeight", 0, typeof(System.IntPtr));
+					r_Internal_GetLineHeight_IntPtr.SetBelong(null);
 				}
-				return r_RInternal_GetLineHeight_IntPtr;
+				return r_Internal_GetLineHeight_IntPtr;
 			}
 		}
 
 		/// <summary>
 		/// Void Internal_Draw(UnityEngine.Rect, UnityEngine.GUIContent, Boolean, Boolean, Boolean, Boolean)
 		/// </summary>
-		protected RMethod r_RInternal_Draw_Rect_GUIContent_Boolean_Boolean_Boolean_Boolean;
+		protected RMethod r_Internal_Draw_Rect_GUIContent_Boolean_Boolean_Boolean_Boolean;
 		public virtual RMethod RInternal_Draw_Rect_GUIContent_Boolean_Boolean_Boolean_Boolean
 		{
 			get
 			{
-				if(r_RInternal_Draw_Rect_GUIContent_Boolean_Boolean_Boolean_Boolean == null)
+				if(r_Internal_Draw_Rect_GUIContent_Boolean_Boolean_Boolean_Boolean == null)
 				{
-					r_RInternal_Draw_Rect_GUIContent_Boolean_Boolean_Boolean_Boolean = new(this, "Internal_Draw", 0, typeof(UnityEngine.Rect), typeof(UnityEngine.GUIContent), typeof(System.Boolean), typeof(System.Boolean), typeof(System.Boolean), typeof(System.Boolean));
-					r_RInternal_Draw_Rect_GUIContent_Boolean_Boolean_Boolean_Boolean.SetBelong(this.instance);
+					r_Internal_Draw_Rect_GUIContent_Boolean_Boolean_Boolean_Boolean = new(this, "Internal_Draw", 0, typeof(UnityEngine.Rect), typeof(UnityEngine.GUIContent), typeof(System.Boolean), typeof(System.Boolean), typeof(System.Boolean), typeof(System.Boolean));
+					r_Internal_Draw_Rect_GUIContent_Boolean_Boolean_Boolean_Boolean.SetBelong(this.instance);
 				}
-				return r_RInternal_Draw_Rect_GUIContent_Boolean_Boolean_Boolean_Boolean;
+				return r_Internal_Draw_Rect_GUIContent_Boolean_Boolean_Boolean_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Void Internal_Draw2(UnityEngine.Rect, UnityEngine.GUIContent, Int32, Boolean)
 		/// </summary>
-		protected RMethod r_RInternal_Draw2_Rect_GUIContent_Int32_Boolean;
+		protected RMethod r_Internal_Draw2_Rect_GUIContent_Int32_Boolean;
 		public virtual RMethod RInternal_Draw2_Rect_GUIContent_Int32_Boolean
 		{
 			get
 			{
-				if(r_RInternal_Draw2_Rect_GUIContent_Int32_Boolean == null)
+				if(r_Internal_Draw2_Rect_GUIContent_Int32_Boolean == null)
 				{
-					r_RInternal_Draw2_Rect_GUIContent_Int32_Boolean = new(this, "Internal_Draw2", 0, typeof(UnityEngine.Rect), typeof(UnityEngine.GUIContent), typeof(System.Int32), typeof(System.Boolean));
-					r_RInternal_Draw2_Rect_GUIContent_Int32_Boolean.SetBelong(this.instance);
+					r_Internal_Draw2_Rect_GUIContent_Int32_Boolean = new(this, "Internal_Draw2", 0, typeof(UnityEngine.Rect), typeof(UnityEngine.GUIContent), typeof(System.Int32), typeof(System.Boolean));
+					r_Internal_Draw2_Rect_GUIContent_Int32_Boolean.SetBelong(this.instance);
 				}
-				return r_RInternal_Draw2_Rect_GUIContent_Int32_Boolean;
+				return r_Internal_Draw2_Rect_GUIContent_Int32_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Void Internal_DrawCursor(UnityEngine.Rect, UnityEngine.GUIContent, Int32, UnityEngine.Color)
 		/// </summary>
-		protected RMethod r_RInternal_DrawCursor_Rect_GUIContent_Int32_Color;
+		protected RMethod r_Internal_DrawCursor_Rect_GUIContent_Int32_Color;
 		public virtual RMethod RInternal_DrawCursor_Rect_GUIContent_Int32_Color
 		{
 			get
 			{
-				if(r_RInternal_DrawCursor_Rect_GUIContent_Int32_Color == null)
+				if(r_Internal_DrawCursor_Rect_GUIContent_Int32_Color == null)
 				{
-					r_RInternal_DrawCursor_Rect_GUIContent_Int32_Color = new(this, "Internal_DrawCursor", 0, typeof(UnityEngine.Rect), typeof(UnityEngine.GUIContent), typeof(System.Int32), typeof(UnityEngine.Color));
-					r_RInternal_DrawCursor_Rect_GUIContent_Int32_Color.SetBelong(this.instance);
+					r_Internal_DrawCursor_Rect_GUIContent_Int32_Color = new(this, "Internal_DrawCursor", 0, typeof(UnityEngine.Rect), typeof(UnityEngine.GUIContent), typeof(System.Int32), typeof(UnityEngine.Color));
+					r_Internal_DrawCursor_Rect_GUIContent_Int32_Color.SetBelong(this.instance);
 				}
-				return r_RInternal_DrawCursor_Rect_GUIContent_Int32_Color;
+				return r_Internal_DrawCursor_Rect_GUIContent_Int32_Color;
 			}
 		}
 
 		/// <summary>
 		/// Void Internal_DrawWithTextSelection(UnityEngine.Rect, UnityEngine.GUIContent, Boolean, Boolean, Boolean, Boolean, Boolean, Int32, Int32, UnityEngine.Color, UnityEngine.Color)
 		/// </summary>
-		protected RMethod r_RInternal_DrawWithTextSelection_Rect_GUIContent_Boolean_Boolean_Boolean_Boolean_Boolean_Int32_Int32_Color_Color;
+		protected RMethod r_Internal_DrawWithTextSelection_Rect_GUIContent_Boolean_Boolean_Boolean_Boolean_Boolean_Int32_Int32_Color_Color;
 		public virtual RMethod RInternal_DrawWithTextSelection_Rect_GUIContent_Boolean_Boolean_Boolean_Boolean_Boolean_Int32_Int32_Color_Color
 		{
 			get
 			{
-				if(r_RInternal_DrawWithTextSelection_Rect_GUIContent_Boolean_Boolean_Boolean_Boolean_Boolean_Int32_Int32_Color_Color == null)
+				if(r_Internal_DrawWithTextSelection_Rect_GUIContent_Boolean_Boolean_Boolean_Boolean_Boolean_Int32_Int32_Color_Color == null)
 				{
-					r_RInternal_DrawWithTextSelection_Rect_GUIContent_Boolean_Boolean_Boolean_Boolean_Boolean_Int32_Int32_Color_Color = new(this, "Internal_DrawWithTextSelection", 0, typeof(UnityEngine.Rect), typeof(UnityEngine.GUIContent), typeof(System.Boolean), typeof(System.Boolean), typeof(System.Boolean), typeof(System.Boolean), typeof(System.Boolean), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.Color), typeof(UnityEngine.Color));
-					r_RInternal_DrawWithTextSelection_Rect_GUIContent_Boolean_Boolean_Boolean_Boolean_Boolean_Int32_Int32_Color_Color.SetBelong(this.instance);
+					r_Internal_DrawWithTextSelection_Rect_GUIContent_Boolean_Boolean_Boolean_Boolean_Boolean_Int32_Int32_Color_Color = new(this, "Internal_DrawWithTextSelection", 0, typeof(UnityEngine.Rect), typeof(UnityEngine.GUIContent), typeof(System.Boolean), typeof(System.Boolean), typeof(System.Boolean), typeof(System.Boolean), typeof(System.Boolean), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.Color), typeof(UnityEngine.Color));
+					r_Internal_DrawWithTextSelection_Rect_GUIContent_Boolean_Boolean_Boolean_Boolean_Boolean_Int32_Int32_Color_Color.SetBelong(this.instance);
 				}
-				return r_RInternal_DrawWithTextSelection_Rect_GUIContent_Boolean_Boolean_Boolean_Boolean_Boolean_Int32_Int32_Color_Color;
+				return r_Internal_DrawWithTextSelection_Rect_GUIContent_Boolean_Boolean_Boolean_Boolean_Boolean_Int32_Int32_Color_Color;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Vector2 Internal_GetCursorPixelPosition(UnityEngine.Rect, UnityEngine.GUIContent, Int32)
 		/// </summary>
-		protected RMethod r_RInternal_GetCursorPixelPosition_Rect_GUIContent_Int32;
+		protected RMethod r_Internal_GetCursorPixelPosition_Rect_GUIContent_Int32;
 		public virtual RMethod RInternal_GetCursorPixelPosition_Rect_GUIContent_Int32
 		{
 			get
 			{
-				if(r_RInternal_GetCursorPixelPosition_Rect_GUIContent_Int32 == null)
+				if(r_Internal_GetCursorPixelPosition_Rect_GUIContent_Int32 == null)
 				{
-					r_RInternal_GetCursorPixelPosition_Rect_GUIContent_Int32 = new(this, "Internal_GetCursorPixelPosition", 0, typeof(UnityEngine.Rect), typeof(UnityEngine.GUIContent), typeof(System.Int32));
-					r_RInternal_GetCursorPixelPosition_Rect_GUIContent_Int32.SetBelong(this.instance);
+					r_Internal_GetCursorPixelPosition_Rect_GUIContent_Int32 = new(this, "Internal_GetCursorPixelPosition", 0, typeof(UnityEngine.Rect), typeof(UnityEngine.GUIContent), typeof(System.Int32));
+					r_Internal_GetCursorPixelPosition_Rect_GUIContent_Int32.SetBelong(this.instance);
 				}
-				return r_RInternal_GetCursorPixelPosition_Rect_GUIContent_Int32;
+				return r_Internal_GetCursorPixelPosition_Rect_GUIContent_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Int32 Internal_GetCursorStringIndex(UnityEngine.Rect, UnityEngine.GUIContent, UnityEngine.Vector2)
 		/// </summary>
-		protected RMethod r_RInternal_GetCursorStringIndex_Rect_GUIContent_Vector2;
+		protected RMethod r_Internal_GetCursorStringIndex_Rect_GUIContent_Vector2;
 		public virtual RMethod RInternal_GetCursorStringIndex_Rect_GUIContent_Vector2
 		{
 			get
 			{
-				if(r_RInternal_GetCursorStringIndex_Rect_GUIContent_Vector2 == null)
+				if(r_Internal_GetCursorStringIndex_Rect_GUIContent_Vector2 == null)
 				{
-					r_RInternal_GetCursorStringIndex_Rect_GUIContent_Vector2 = new(this, "Internal_GetCursorStringIndex", 0, typeof(UnityEngine.Rect), typeof(UnityEngine.GUIContent), typeof(UnityEngine.Vector2));
-					r_RInternal_GetCursorStringIndex_Rect_GUIContent_Vector2.SetBelong(this.instance);
+					r_Internal_GetCursorStringIndex_Rect_GUIContent_Vector2 = new(this, "Internal_GetCursorStringIndex", 0, typeof(UnityEngine.Rect), typeof(UnityEngine.GUIContent), typeof(UnityEngine.Vector2));
+					r_Internal_GetCursorStringIndex_Rect_GUIContent_Vector2.SetBelong(this.instance);
 				}
-				return r_RInternal_GetCursorStringIndex_Rect_GUIContent_Vector2;
+				return r_Internal_GetCursorStringIndex_Rect_GUIContent_Vector2;
 			}
 		}
 
 		/// <summary>
 		/// System.String Internal_GetSelectedRenderedText(UnityEngine.Rect, UnityEngine.GUIContent, Int32, Int32)
 		/// </summary>
-		protected RMethod r_RInternal_GetSelectedRenderedText_Rect_GUIContent_Int32_Int32;
+		protected RMethod r_Internal_GetSelectedRenderedText_Rect_GUIContent_Int32_Int32;
 		public virtual RMethod RInternal_GetSelectedRenderedText_Rect_GUIContent_Int32_Int32
 		{
 			get
 			{
-				if(r_RInternal_GetSelectedRenderedText_Rect_GUIContent_Int32_Int32 == null)
+				if(r_Internal_GetSelectedRenderedText_Rect_GUIContent_Int32_Int32 == null)
 				{
-					r_RInternal_GetSelectedRenderedText_Rect_GUIContent_Int32_Int32 = new(this, "Internal_GetSelectedRenderedText", 0, typeof(UnityEngine.Rect), typeof(UnityEngine.GUIContent), typeof(System.Int32), typeof(System.Int32));
-					r_RInternal_GetSelectedRenderedText_Rect_GUIContent_Int32_Int32.SetBelong(this.instance);
+					r_Internal_GetSelectedRenderedText_Rect_GUIContent_Int32_Int32 = new(this, "Internal_GetSelectedRenderedText", 0, typeof(UnityEngine.Rect), typeof(UnityEngine.GUIContent), typeof(System.Int32), typeof(System.Int32));
+					r_Internal_GetSelectedRenderedText_Rect_GUIContent_Int32_Int32.SetBelong(this.instance);
 				}
-				return r_RInternal_GetSelectedRenderedText_Rect_GUIContent_Int32_Int32;
+				return r_Internal_GetSelectedRenderedText_Rect_GUIContent_Int32_Int32;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Rect[] Internal_GetHyperlinksRect(UnityEngine.Rect, UnityEngine.GUIContent)
 		/// </summary>
-		protected RMethod r_RInternal_GetHyperlinksRect_Rect_GUIContent;
+		protected RMethod r_Internal_GetHyperlinksRect_Rect_GUIContent;
 		public virtual RMethod RInternal_GetHyperlinksRect_Rect_GUIContent
 		{
 			get
 			{
-				if(r_RInternal_GetHyperlinksRect_Rect_GUIContent == null)
+				if(r_Internal_GetHyperlinksRect_Rect_GUIContent == null)
 				{
-					r_RInternal_GetHyperlinksRect_Rect_GUIContent = new(this, "Internal_GetHyperlinksRect", 0, typeof(UnityEngine.Rect), typeof(UnityEngine.GUIContent));
-					r_RInternal_GetHyperlinksRect_Rect_GUIContent.SetBelong(this.instance);
+					r_Internal_GetHyperlinksRect_Rect_GUIContent = new(this, "Internal_GetHyperlinksRect", 0, typeof(UnityEngine.Rect), typeof(UnityEngine.GUIContent));
+					r_Internal_GetHyperlinksRect_Rect_GUIContent.SetBelong(this.instance);
 				}
-				return r_RInternal_GetHyperlinksRect_Rect_GUIContent;
+				return r_Internal_GetHyperlinksRect_Rect_GUIContent;
 			}
 		}
 
 		/// <summary>
 		/// Int32 Internal_GetNumCharactersThatFitWithinWidth(System.String, Single)
 		/// </summary>
-		protected RMethod r_RInternal_GetNumCharactersThatFitWithinWidth_String_Single;
+		protected RMethod r_Internal_GetNumCharactersThatFitWithinWidth_String_Single;
 		public virtual RMethod RInternal_GetNumCharactersThatFitWithinWidth_String_Single
 		{
 			get
 			{
-				if(r_RInternal_GetNumCharactersThatFitWithinWidth_String_Single == null)
+				if(r_Internal_GetNumCharactersThatFitWithinWidth_String_Single == null)
 				{
-					r_RInternal_GetNumCharactersThatFitWithinWidth_String_Single = new(this, "Internal_GetNumCharactersThatFitWithinWidth", 0, typeof(System.String), typeof(System.Single));
-					r_RInternal_GetNumCharactersThatFitWithinWidth_String_Single.SetBelong(this.instance);
+					r_Internal_GetNumCharactersThatFitWithinWidth_String_Single = new(this, "Internal_GetNumCharactersThatFitWithinWidth", 0, typeof(System.String), typeof(System.Single));
+					r_Internal_GetNumCharactersThatFitWithinWidth_String_Single.SetBelong(this.instance);
 				}
-				return r_RInternal_GetNumCharactersThatFitWithinWidth_String_Single;
+				return r_Internal_GetNumCharactersThatFitWithinWidth_String_Single;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Vector2 Internal_CalcSize(UnityEngine.GUIContent)
 		/// </summary>
-		protected RMethod r_RInternal_CalcSize_GUIContent;
+		protected RMethod r_Internal_CalcSize_GUIContent;
 		public virtual RMethod RInternal_CalcSize_GUIContent
 		{
 			get
 			{
-				if(r_RInternal_CalcSize_GUIContent == null)
+				if(r_Internal_CalcSize_GUIContent == null)
 				{
-					r_RInternal_CalcSize_GUIContent = new(this, "Internal_CalcSize", 0, typeof(UnityEngine.GUIContent));
-					r_RInternal_CalcSize_GUIContent.SetBelong(this.instance);
+					r_Internal_CalcSize_GUIContent = new(this, "Internal_CalcSize", 0, typeof(UnityEngine.GUIContent));
+					r_Internal_CalcSize_GUIContent.SetBelong(this.instance);
 				}
-				return r_RInternal_CalcSize_GUIContent;
+				return r_Internal_CalcSize_GUIContent;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Vector2 Internal_CalcSizeWithConstraints(UnityEngine.GUIContent, UnityEngine.Vector2)
 		/// </summary>
-		protected RMethod r_RInternal_CalcSizeWithConstraints_GUIContent_Vector2;
+		protected RMethod r_Internal_CalcSizeWithConstraints_GUIContent_Vector2;
 		public virtual RMethod RInternal_CalcSizeWithConstraints_GUIContent_Vector2
 		{
 			get
 			{
-				if(r_RInternal_CalcSizeWithConstraints_GUIContent_Vector2 == null)
+				if(r_Internal_CalcSizeWithConstraints_GUIContent_Vector2 == null)
 				{
-					r_RInternal_CalcSizeWithConstraints_GUIContent_Vector2 = new(this, "Internal_CalcSizeWithConstraints", 0, typeof(UnityEngine.GUIContent), typeof(UnityEngine.Vector2));
-					r_RInternal_CalcSizeWithConstraints_GUIContent_Vector2.SetBelong(this.instance);
+					r_Internal_CalcSizeWithConstraints_GUIContent_Vector2 = new(this, "Internal_CalcSizeWithConstraints", 0, typeof(UnityEngine.GUIContent), typeof(UnityEngine.Vector2));
+					r_Internal_CalcSizeWithConstraints_GUIContent_Vector2.SetBelong(this.instance);
 				}
-				return r_RInternal_CalcSizeWithConstraints_GUIContent_Vector2;
+				return r_Internal_CalcSizeWithConstraints_GUIContent_Vector2;
 			}
 		}
 
 		/// <summary>
 		/// Single Internal_CalcHeight(UnityEngine.GUIContent, Single)
 		/// </summary>
-		protected RMethod r_RInternal_CalcHeight_GUIContent_Single;
+		protected RMethod r_Internal_CalcHeight_GUIContent_Single;
 		public virtual RMethod RInternal_CalcHeight_GUIContent_Single
 		{
 			get
 			{
-				if(r_RInternal_CalcHeight_GUIContent_Single == null)
+				if(r_Internal_CalcHeight_GUIContent_Single == null)
 				{
-					r_RInternal_CalcHeight_GUIContent_Single = new(this, "Internal_CalcHeight", 0, typeof(UnityEngine.GUIContent), typeof(System.Single));
-					r_RInternal_CalcHeight_GUIContent_Single.SetBelong(this.instance);
+					r_Internal_CalcHeight_GUIContent_Single = new(this, "Internal_CalcHeight", 0, typeof(UnityEngine.GUIContent), typeof(System.Single));
+					r_Internal_CalcHeight_GUIContent_Single.SetBelong(this.instance);
 				}
-				return r_RInternal_CalcHeight_GUIContent_Single;
+				return r_Internal_CalcHeight_GUIContent_Single;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Vector2 Internal_CalcMinMaxWidth(UnityEngine.GUIContent)
 		/// </summary>
-		protected RMethod r_RInternal_CalcMinMaxWidth_GUIContent;
+		protected RMethod r_Internal_CalcMinMaxWidth_GUIContent;
 		public virtual RMethod RInternal_CalcMinMaxWidth_GUIContent
 		{
 			get
 			{
-				if(r_RInternal_CalcMinMaxWidth_GUIContent == null)
+				if(r_Internal_CalcMinMaxWidth_GUIContent == null)
 				{
-					r_RInternal_CalcMinMaxWidth_GUIContent = new(this, "Internal_CalcMinMaxWidth", 0, typeof(UnityEngine.GUIContent));
-					r_RInternal_CalcMinMaxWidth_GUIContent.SetBelong(this.instance);
+					r_Internal_CalcMinMaxWidth_GUIContent = new(this, "Internal_CalcMinMaxWidth", 0, typeof(UnityEngine.GUIContent));
+					r_Internal_CalcMinMaxWidth_GUIContent.SetBelong(this.instance);
 				}
-				return r_RInternal_CalcMinMaxWidth_GUIContent;
+				return r_Internal_CalcMinMaxWidth_GUIContent;
 			}
 		}
 
 		/// <summary>
 		/// Void Internal_DrawPrefixLabel(UnityEngine.Rect, UnityEngine.GUIContent, Int32, Boolean)
 		/// </summary>
-		protected RMethod r_RInternal_DrawPrefixLabel_Rect_GUIContent_Int32_Boolean;
+		protected RMethod r_Internal_DrawPrefixLabel_Rect_GUIContent_Int32_Boolean;
 		public virtual RMethod RInternal_DrawPrefixLabel_Rect_GUIContent_Int32_Boolean
 		{
 			get
 			{
-				if(r_RInternal_DrawPrefixLabel_Rect_GUIContent_Int32_Boolean == null)
+				if(r_Internal_DrawPrefixLabel_Rect_GUIContent_Int32_Boolean == null)
 				{
-					r_RInternal_DrawPrefixLabel_Rect_GUIContent_Int32_Boolean = new(this, "Internal_DrawPrefixLabel", 0, typeof(UnityEngine.Rect), typeof(UnityEngine.GUIContent), typeof(System.Int32), typeof(System.Boolean));
-					r_RInternal_DrawPrefixLabel_Rect_GUIContent_Int32_Boolean.SetBelong(this.instance);
+					r_Internal_DrawPrefixLabel_Rect_GUIContent_Int32_Boolean = new(this, "Internal_DrawPrefixLabel", 0, typeof(UnityEngine.Rect), typeof(UnityEngine.GUIContent), typeof(System.Int32), typeof(System.Boolean));
+					r_Internal_DrawPrefixLabel_Rect_GUIContent_Int32_Boolean.SetBelong(this.instance);
 				}
-				return r_RInternal_DrawPrefixLabel_Rect_GUIContent_Int32_Boolean;
+				return r_Internal_DrawPrefixLabel_Rect_GUIContent_Int32_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Void Internal_DrawContent(UnityEngine.Rect, UnityEngine.GUIContent, Boolean, Boolean, Boolean, Boolean, Boolean, Boolean, Int32, Int32, UnityEngine.Color, UnityEngine.Color, UnityEngine.Color, Single, Single, Single, Single, Boolean, Boolean)
 		/// </summary>
-		protected RMethod r_RInternal_DrawContent_Rect_GUIContent_Boolean_Boolean_Boolean_Boolean_Boolean_Boolean_Int32_Int32_Color_Color_Color_Single_Single_Single_Single_Boolean_Boolean;
+		protected RMethod r_Internal_DrawContent_Rect_GUIContent_Boolean_Boolean_Boolean_Boolean_Boolean_Boolean_Int32_Int32_Color_Color_Color_Single_Single_Single_Single_Boolean_Boolean;
 		public virtual RMethod RInternal_DrawContent_Rect_GUIContent_Boolean_Boolean_Boolean_Boolean_Boolean_Boolean_Int32_Int32_Color_Color_Color_Single_Single_Single_Single_Boolean_Boolean
 		{
 			get
 			{
-				if(r_RInternal_DrawContent_Rect_GUIContent_Boolean_Boolean_Boolean_Boolean_Boolean_Boolean_Int32_Int32_Color_Color_Color_Single_Single_Single_Single_Boolean_Boolean == null)
+				if(r_Internal_DrawContent_Rect_GUIContent_Boolean_Boolean_Boolean_Boolean_Boolean_Boolean_Int32_Int32_Color_Color_Color_Single_Single_Single_Single_Boolean_Boolean == null)
 				{
-					r_RInternal_DrawContent_Rect_GUIContent_Boolean_Boolean_Boolean_Boolean_Boolean_Boolean_Int32_Int32_Color_Color_Color_Single_Single_Single_Single_Boolean_Boolean = new(this, "Internal_DrawContent", 0, typeof(UnityEngine.Rect), typeof(UnityEngine.GUIContent), typeof(System.Boolean), typeof(System.Boolean), typeof(System.Boolean), typeof(System.Boolean), typeof(System.Boolean), typeof(System.Boolean), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.Color), typeof(UnityEngine.Color), typeof(UnityEngine.Color), typeof(System.Single), typeof(System.Single), typeof(System.Single), typeof(System.Single), typeof(System.Boolean), typeof(System.Boolean));
-					r_RInternal_DrawContent_Rect_GUIContent_Boolean_Boolean_Boolean_Boolean_Boolean_Boolean_Int32_Int32_Color_Color_Color_Single_Single_Single_Single_Boolean_Boolean.SetBelong(this.instance);
+					r_Internal_DrawContent_Rect_GUIContent_Boolean_Boolean_Boolean_Boolean_Boolean_Boolean_Int32_Int32_Color_Color_Color_Single_Single_Single_Single_Boolean_Boolean = new(this, "Internal_DrawContent", 0, typeof(UnityEngine.Rect), typeof(UnityEngine.GUIContent), typeof(System.Boolean), typeof(System.Boolean), typeof(System.Boolean), typeof(System.Boolean), typeof(System.Boolean), typeof(System.Boolean), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.Color), typeof(UnityEngine.Color), typeof(UnityEngine.Color), typeof(System.Single), typeof(System.Single), typeof(System.Single), typeof(System.Single), typeof(System.Boolean), typeof(System.Boolean));
+					r_Internal_DrawContent_Rect_GUIContent_Boolean_Boolean_Boolean_Boolean_Boolean_Boolean_Int32_Int32_Color_Color_Color_Single_Single_Single_Single_Boolean_Boolean.SetBelong(this.instance);
 				}
-				return r_RInternal_DrawContent_Rect_GUIContent_Boolean_Boolean_Boolean_Boolean_Boolean_Boolean_Int32_Int32_Color_Color_Color_Single_Single_Single_Single_Boolean_Boolean;
+				return r_Internal_DrawContent_Rect_GUIContent_Boolean_Boolean_Boolean_Boolean_Boolean_Boolean_Int32_Int32_Color_Color_Color_Single_Single_Single_Single_Boolean_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Void SetMouseTooltip(System.String, UnityEngine.Rect)
 		/// </summary>
-		protected static RMethod r_RSetMouseTooltip_String_Rect;
+		protected static RMethod r_SetMouseTooltip_String_Rect;
 		public static RMethod RSetMouseTooltip_String_Rect
 		{
 			get
 			{
-				if(r_RSetMouseTooltip_String_Rect == null)
+				if(r_SetMouseTooltip_String_Rect == null)
 				{
-					r_RSetMouseTooltip_String_Rect = new(typeof(UnityEngine.GUIStyle), "SetMouseTooltip", 0, typeof(System.String), typeof(UnityEngine.Rect));
-					r_RSetMouseTooltip_String_Rect.SetBelong(null);
+					r_SetMouseTooltip_String_Rect = new(typeof(UnityEngine.GUIStyle), "SetMouseTooltip", 0, typeof(System.String), typeof(UnityEngine.Rect));
+					r_SetMouseTooltip_String_Rect.SetBelong(null);
 				}
-				return r_RSetMouseTooltip_String_Rect;
+				return r_SetMouseTooltip_String_Rect;
 			}
 		}
 
 		/// <summary>
 		/// Boolean IsTooltipActive(System.String)
 		/// </summary>
-		protected static RMethod r_RIsTooltipActive_String;
+		protected static RMethod r_IsTooltipActive_String;
 		public static RMethod RIsTooltipActive_String
 		{
 			get
 			{
-				if(r_RIsTooltipActive_String == null)
+				if(r_IsTooltipActive_String == null)
 				{
-					r_RIsTooltipActive_String = new(typeof(UnityEngine.GUIStyle), "IsTooltipActive", 0, typeof(System.String));
-					r_RIsTooltipActive_String.SetBelong(null);
+					r_IsTooltipActive_String = new(typeof(UnityEngine.GUIStyle), "IsTooltipActive", 0, typeof(System.String));
+					r_IsTooltipActive_String.SetBelong(null);
 				}
-				return r_RIsTooltipActive_String;
+				return r_IsTooltipActive_String;
 			}
 		}
 
 		/// <summary>
 		/// Single Internal_GetCursorFlashOffset()
 		/// </summary>
-		protected static RMethod r_RInternal_GetCursorFlashOffset;
+		protected static RMethod r_Internal_GetCursorFlashOffset;
 		public static RMethod RInternal_GetCursorFlashOffset
 		{
 			get
 			{
-				if(r_RInternal_GetCursorFlashOffset == null)
+				if(r_Internal_GetCursorFlashOffset == null)
 				{
-					r_RInternal_GetCursorFlashOffset = new(typeof(UnityEngine.GUIStyle), "Internal_GetCursorFlashOffset", 0);
-					r_RInternal_GetCursorFlashOffset.SetBelong(null);
+					r_Internal_GetCursorFlashOffset = new(typeof(UnityEngine.GUIStyle), "Internal_GetCursorFlashOffset", 0);
+					r_Internal_GetCursorFlashOffset.SetBelong(null);
 				}
-				return r_RInternal_GetCursorFlashOffset;
+				return r_Internal_GetCursorFlashOffset;
 			}
 		}
 
 		/// <summary>
 		/// Void SetDefaultFont(UnityEngine.Font)
 		/// </summary>
-		protected static RMethod r_RSetDefaultFont_Font;
+		protected static RMethod r_SetDefaultFont_Font;
 		public static RMethod RSetDefaultFont_Font
 		{
 			get
 			{
-				if(r_RSetDefaultFont_Font == null)
+				if(r_SetDefaultFont_Font == null)
 				{
-					r_RSetDefaultFont_Font = new(typeof(UnityEngine.GUIStyle), "SetDefaultFont", 0, typeof(UnityEngine.Font));
-					r_RSetDefaultFont_Font.SetBelong(null);
+					r_SetDefaultFont_Font = new(typeof(UnityEngine.GUIStyle), "SetDefaultFont", 0, typeof(UnityEngine.Font));
+					r_SetDefaultFont_Font.SetBelong(null);
 				}
-				return r_RSetDefaultFont_Font;
+				return r_SetDefaultFont_Font;
 			}
 		}
 
 		/// <summary>
 		/// Void Finalize()
 		/// </summary>
-		protected RMethod r_RFinalize;
+		protected RMethod r_Finalize;
 		public virtual RMethod RFinalize
 		{
 			get
 			{
-				if(r_RFinalize == null)
+				if(r_Finalize == null)
 				{
-					r_RFinalize = new(this, "Finalize", 0);
-					r_RFinalize.SetBelong(this.instance);
+					r_Finalize = new(this, "Finalize", 0);
+					r_Finalize.SetBelong(this.instance);
 				}
-				return r_RFinalize;
+				return r_Finalize;
 			}
 		}
 
 		/// <summary>
 		/// Void CleanupRoots()
 		/// </summary>
-		protected static RMethod r_RCleanupRoots;
+		protected static RMethod r_CleanupRoots;
 		public static RMethod RCleanupRoots
 		{
 			get
 			{
-				if(r_RCleanupRoots == null)
+				if(r_CleanupRoots == null)
 				{
-					r_RCleanupRoots = new(typeof(UnityEngine.GUIStyle), "CleanupRoots", 0);
-					r_RCleanupRoots.SetBelong(null);
+					r_CleanupRoots = new(typeof(UnityEngine.GUIStyle), "CleanupRoots", 0);
+					r_CleanupRoots.SetBelong(null);
 				}
-				return r_RCleanupRoots;
+				return r_CleanupRoots;
 			}
 		}
 
 		/// <summary>
 		/// Void InternalOnAfterDeserialize()
 		/// </summary>
-		protected RMethod r_RInternalOnAfterDeserialize;
+		protected RMethod r_InternalOnAfterDeserialize;
 		public virtual RMethod RInternalOnAfterDeserialize
 		{
 			get
 			{
-				if(r_RInternalOnAfterDeserialize == null)
+				if(r_InternalOnAfterDeserialize == null)
 				{
-					r_RInternalOnAfterDeserialize = new(this, "InternalOnAfterDeserialize", 0);
-					r_RInternalOnAfterDeserialize.SetBelong(this.instance);
+					r_InternalOnAfterDeserialize = new(this, "InternalOnAfterDeserialize", 0);
+					r_InternalOnAfterDeserialize.SetBelong(this.instance);
 				}
-				return r_RInternalOnAfterDeserialize;
+				return r_InternalOnAfterDeserialize;
 			}
 		}
 
 		/// <summary>
 		/// Void Draw(UnityEngine.Rect, Boolean, Boolean, Boolean, Boolean)
 		/// </summary>
-		protected RMethod r_RDraw_Rect_Boolean_Boolean_Boolean_Boolean;
+		protected RMethod r_Draw_Rect_Boolean_Boolean_Boolean_Boolean;
 		public virtual RMethod RDraw_Rect_Boolean_Boolean_Boolean_Boolean
 		{
 			get
 			{
-				if(r_RDraw_Rect_Boolean_Boolean_Boolean_Boolean == null)
+				if(r_Draw_Rect_Boolean_Boolean_Boolean_Boolean == null)
 				{
-					r_RDraw_Rect_Boolean_Boolean_Boolean_Boolean = new(this, "Draw", 0, typeof(UnityEngine.Rect), typeof(System.Boolean), typeof(System.Boolean), typeof(System.Boolean), typeof(System.Boolean));
-					r_RDraw_Rect_Boolean_Boolean_Boolean_Boolean.SetBelong(this.instance);
+					r_Draw_Rect_Boolean_Boolean_Boolean_Boolean = new(this, "Draw", 0, typeof(UnityEngine.Rect), typeof(System.Boolean), typeof(System.Boolean), typeof(System.Boolean), typeof(System.Boolean));
+					r_Draw_Rect_Boolean_Boolean_Boolean_Boolean.SetBelong(this.instance);
 				}
-				return r_RDraw_Rect_Boolean_Boolean_Boolean_Boolean;
+				return r_Draw_Rect_Boolean_Boolean_Boolean_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Void Draw(UnityEngine.Rect, System.String, Boolean, Boolean, Boolean, Boolean)
 		/// </summary>
-		protected RMethod r_RDraw_Rect_String_Boolean_Boolean_Boolean_Boolean;
+		protected RMethod r_Draw_Rect_String_Boolean_Boolean_Boolean_Boolean;
 		public virtual RMethod RDraw_Rect_String_Boolean_Boolean_Boolean_Boolean
 		{
 			get
 			{
-				if(r_RDraw_Rect_String_Boolean_Boolean_Boolean_Boolean == null)
+				if(r_Draw_Rect_String_Boolean_Boolean_Boolean_Boolean == null)
 				{
-					r_RDraw_Rect_String_Boolean_Boolean_Boolean_Boolean = new(this, "Draw", 0, typeof(UnityEngine.Rect), typeof(System.String), typeof(System.Boolean), typeof(System.Boolean), typeof(System.Boolean), typeof(System.Boolean));
-					r_RDraw_Rect_String_Boolean_Boolean_Boolean_Boolean.SetBelong(this.instance);
+					r_Draw_Rect_String_Boolean_Boolean_Boolean_Boolean = new(this, "Draw", 0, typeof(UnityEngine.Rect), typeof(System.String), typeof(System.Boolean), typeof(System.Boolean), typeof(System.Boolean), typeof(System.Boolean));
+					r_Draw_Rect_String_Boolean_Boolean_Boolean_Boolean.SetBelong(this.instance);
 				}
-				return r_RDraw_Rect_String_Boolean_Boolean_Boolean_Boolean;
+				return r_Draw_Rect_String_Boolean_Boolean_Boolean_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Void Draw(UnityEngine.Rect, UnityEngine.Texture, Boolean, Boolean, Boolean, Boolean)
 		/// </summary>
-		protected RMethod r_RDraw_Rect_Texture_Boolean_Boolean_Boolean_Boolean;
+		protected RMethod r_Draw_Rect_Texture_Boolean_Boolean_Boolean_Boolean;
 		public virtual RMethod RDraw_Rect_Texture_Boolean_Boolean_Boolean_Boolean
 		{
 			get
 			{
-				if(r_RDraw_Rect_Texture_Boolean_Boolean_Boolean_Boolean == null)
+				if(r_Draw_Rect_Texture_Boolean_Boolean_Boolean_Boolean == null)
 				{
-					r_RDraw_Rect_Texture_Boolean_Boolean_Boolean_Boolean = new(this, "Draw", 0, typeof(UnityEngine.Rect), typeof(UnityEngine.Texture), typeof(System.Boolean), typeof(System.Boolean), typeof(System.Boolean), typeof(System.Boolean));
-					r_RDraw_Rect_Texture_Boolean_Boolean_Boolean_Boolean.SetBelong(this.instance);
+					r_Draw_Rect_Texture_Boolean_Boolean_Boolean_Boolean = new(this, "Draw", 0, typeof(UnityEngine.Rect), typeof(UnityEngine.Texture), typeof(System.Boolean), typeof(System.Boolean), typeof(System.Boolean), typeof(System.Boolean));
+					r_Draw_Rect_Texture_Boolean_Boolean_Boolean_Boolean.SetBelong(this.instance);
 				}
-				return r_RDraw_Rect_Texture_Boolean_Boolean_Boolean_Boolean;
+				return r_Draw_Rect_Texture_Boolean_Boolean_Boolean_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Void Draw(UnityEngine.Rect, UnityEngine.GUIContent, Boolean, Boolean, Boolean, Boolean)
 		/// </summary>
-		protected RMethod r_RDraw_Rect_GUIContent_Boolean_Boolean_Boolean_Boolean;
+		protected RMethod r_Draw_Rect_GUIContent_Boolean_Boolean_Boolean_Boolean;
 		public virtual RMethod RDraw_Rect_GUIContent_Boolean_Boolean_Boolean_Boolean
 		{
 			get
 			{
-				if(r_RDraw_Rect_GUIContent_Boolean_Boolean_Boolean_Boolean == null)
+				if(r_Draw_Rect_GUIContent_Boolean_Boolean_Boolean_Boolean == null)
 				{
-					r_RDraw_Rect_GUIContent_Boolean_Boolean_Boolean_Boolean = new(this, "Draw", 0, typeof(UnityEngine.Rect), typeof(UnityEngine.GUIContent), typeof(System.Boolean), typeof(System.Boolean), typeof(System.Boolean), typeof(System.Boolean));
-					r_RDraw_Rect_GUIContent_Boolean_Boolean_Boolean_Boolean.SetBelong(this.instance);
+					r_Draw_Rect_GUIContent_Boolean_Boolean_Boolean_Boolean = new(this, "Draw", 0, typeof(UnityEngine.Rect), typeof(UnityEngine.GUIContent), typeof(System.Boolean), typeof(System.Boolean), typeof(System.Boolean), typeof(System.Boolean));
+					r_Draw_Rect_GUIContent_Boolean_Boolean_Boolean_Boolean.SetBelong(this.instance);
 				}
-				return r_RDraw_Rect_GUIContent_Boolean_Boolean_Boolean_Boolean;
+				return r_Draw_Rect_GUIContent_Boolean_Boolean_Boolean_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Void Draw(UnityEngine.Rect, UnityEngine.GUIContent, Int32)
 		/// </summary>
-		protected RMethod r_RDraw_Rect_GUIContent_Int32;
+		protected RMethod r_Draw_Rect_GUIContent_Int32;
 		public virtual RMethod RDraw_Rect_GUIContent_Int32
 		{
 			get
 			{
-				if(r_RDraw_Rect_GUIContent_Int32 == null)
+				if(r_Draw_Rect_GUIContent_Int32 == null)
 				{
-					r_RDraw_Rect_GUIContent_Int32 = new(this, "Draw", 0, typeof(UnityEngine.Rect), typeof(UnityEngine.GUIContent), typeof(System.Int32));
-					r_RDraw_Rect_GUIContent_Int32.SetBelong(this.instance);
+					r_Draw_Rect_GUIContent_Int32 = new(this, "Draw", 0, typeof(UnityEngine.Rect), typeof(UnityEngine.GUIContent), typeof(System.Int32));
+					r_Draw_Rect_GUIContent_Int32.SetBelong(this.instance);
 				}
-				return r_RDraw_Rect_GUIContent_Int32;
+				return r_Draw_Rect_GUIContent_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Void Draw(UnityEngine.Rect, UnityEngine.GUIContent, Int32, Boolean)
 		/// </summary>
-		protected RMethod r_RDraw_Rect_GUIContent_Int32_Boolean;
+		protected RMethod r_Draw_Rect_GUIContent_Int32_Boolean;
 		public virtual RMethod RDraw_Rect_GUIContent_Int32_Boolean
 		{
 			get
 			{
-				if(r_RDraw_Rect_GUIContent_Int32_Boolean == null)
+				if(r_Draw_Rect_GUIContent_Int32_Boolean == null)
 				{
-					r_RDraw_Rect_GUIContent_Int32_Boolean = new(this, "Draw", 0, typeof(UnityEngine.Rect), typeof(UnityEngine.GUIContent), typeof(System.Int32), typeof(System.Boolean));
-					r_RDraw_Rect_GUIContent_Int32_Boolean.SetBelong(this.instance);
+					r_Draw_Rect_GUIContent_Int32_Boolean = new(this, "Draw", 0, typeof(UnityEngine.Rect), typeof(UnityEngine.GUIContent), typeof(System.Int32), typeof(System.Boolean));
+					r_Draw_Rect_GUIContent_Int32_Boolean.SetBelong(this.instance);
 				}
-				return r_RDraw_Rect_GUIContent_Int32_Boolean;
+				return r_Draw_Rect_GUIContent_Int32_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Void Draw(UnityEngine.Rect, UnityEngine.GUIContent, Int32, Boolean, Boolean)
 		/// </summary>
-		protected RMethod r_RDraw_Rect_GUIContent_Int32_Boolean_Boolean;
+		protected RMethod r_Draw_Rect_GUIContent_Int32_Boolean_Boolean;
 		public virtual RMethod RDraw_Rect_GUIContent_Int32_Boolean_Boolean
 		{
 			get
 			{
-				if(r_RDraw_Rect_GUIContent_Int32_Boolean_Boolean == null)
+				if(r_Draw_Rect_GUIContent_Int32_Boolean_Boolean == null)
 				{
-					r_RDraw_Rect_GUIContent_Int32_Boolean_Boolean = new(this, "Draw", 0, typeof(UnityEngine.Rect), typeof(UnityEngine.GUIContent), typeof(System.Int32), typeof(System.Boolean), typeof(System.Boolean));
-					r_RDraw_Rect_GUIContent_Int32_Boolean_Boolean.SetBelong(this.instance);
+					r_Draw_Rect_GUIContent_Int32_Boolean_Boolean = new(this, "Draw", 0, typeof(UnityEngine.Rect), typeof(UnityEngine.GUIContent), typeof(System.Int32), typeof(System.Boolean), typeof(System.Boolean));
+					r_Draw_Rect_GUIContent_Int32_Boolean_Boolean.SetBelong(this.instance);
 				}
-				return r_RDraw_Rect_GUIContent_Int32_Boolean_Boolean;
+				return r_Draw_Rect_GUIContent_Int32_Boolean_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Void Draw(UnityEngine.Rect, UnityEngine.GUIContent, Int32, Boolean, Boolean, Boolean, Boolean)
 		/// </summary>
-		protected RMethod r_RDraw_Rect_GUIContent_Int32_Boolean_Boolean_Boolean_Boolean;
+		protected RMethod r_Draw_Rect_GUIContent_Int32_Boolean_Boolean_Boolean_Boolean;
 		public virtual RMethod RDraw_Rect_GUIContent_Int32_Boolean_Boolean_Boolean_Boolean
 		{
 			get
 			{
-				if(r_RDraw_Rect_GUIContent_Int32_Boolean_Boolean_Boolean_Boolean == null)
+				if(r_Draw_Rect_GUIContent_Int32_Boolean_Boolean_Boolean_Boolean == null)
 				{
-					r_RDraw_Rect_GUIContent_Int32_Boolean_Boolean_Boolean_Boolean = new(this, "Draw", 0, typeof(UnityEngine.Rect), typeof(UnityEngine.GUIContent), typeof(System.Int32), typeof(System.Boolean), typeof(System.Boolean), typeof(System.Boolean), typeof(System.Boolean));
-					r_RDraw_Rect_GUIContent_Int32_Boolean_Boolean_Boolean_Boolean.SetBelong(this.instance);
+					r_Draw_Rect_GUIContent_Int32_Boolean_Boolean_Boolean_Boolean = new(this, "Draw", 0, typeof(UnityEngine.Rect), typeof(UnityEngine.GUIContent), typeof(System.Int32), typeof(System.Boolean), typeof(System.Boolean), typeof(System.Boolean), typeof(System.Boolean));
+					r_Draw_Rect_GUIContent_Int32_Boolean_Boolean_Boolean_Boolean.SetBelong(this.instance);
 				}
-				return r_RDraw_Rect_GUIContent_Int32_Boolean_Boolean_Boolean_Boolean;
+				return r_Draw_Rect_GUIContent_Int32_Boolean_Boolean_Boolean_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Void DrawPrefixLabel(UnityEngine.Rect, UnityEngine.GUIContent, Int32)
 		/// </summary>
-		protected RMethod r_RDrawPrefixLabel_Rect_GUIContent_Int32;
+		protected RMethod r_DrawPrefixLabel_Rect_GUIContent_Int32;
 		public virtual RMethod RDrawPrefixLabel_Rect_GUIContent_Int32
 		{
 			get
 			{
-				if(r_RDrawPrefixLabel_Rect_GUIContent_Int32 == null)
+				if(r_DrawPrefixLabel_Rect_GUIContent_Int32 == null)
 				{
-					r_RDrawPrefixLabel_Rect_GUIContent_Int32 = new(this, "DrawPrefixLabel", 0, typeof(UnityEngine.Rect), typeof(UnityEngine.GUIContent), typeof(System.Int32));
-					r_RDrawPrefixLabel_Rect_GUIContent_Int32.SetBelong(this.instance);
+					r_DrawPrefixLabel_Rect_GUIContent_Int32 = new(this, "DrawPrefixLabel", 0, typeof(UnityEngine.Rect), typeof(UnityEngine.GUIContent), typeof(System.Int32));
+					r_DrawPrefixLabel_Rect_GUIContent_Int32.SetBelong(this.instance);
 				}
-				return r_RDrawPrefixLabel_Rect_GUIContent_Int32;
+				return r_DrawPrefixLabel_Rect_GUIContent_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Void DrawCursor(UnityEngine.Rect, UnityEngine.GUIContent, Int32, Int32)
 		/// </summary>
-		protected RMethod r_RDrawCursor_Rect_GUIContent_Int32_Int32;
+		protected RMethod r_DrawCursor_Rect_GUIContent_Int32_Int32;
 		public virtual RMethod RDrawCursor_Rect_GUIContent_Int32_Int32
 		{
 			get
 			{
-				if(r_RDrawCursor_Rect_GUIContent_Int32_Int32 == null)
+				if(r_DrawCursor_Rect_GUIContent_Int32_Int32 == null)
 				{
-					r_RDrawCursor_Rect_GUIContent_Int32_Int32 = new(this, "DrawCursor", 0, typeof(UnityEngine.Rect), typeof(UnityEngine.GUIContent), typeof(System.Int32), typeof(System.Int32));
-					r_RDrawCursor_Rect_GUIContent_Int32_Int32.SetBelong(this.instance);
+					r_DrawCursor_Rect_GUIContent_Int32_Int32 = new(this, "DrawCursor", 0, typeof(UnityEngine.Rect), typeof(UnityEngine.GUIContent), typeof(System.Int32), typeof(System.Int32));
+					r_DrawCursor_Rect_GUIContent_Int32_Int32.SetBelong(this.instance);
 				}
-				return r_RDrawCursor_Rect_GUIContent_Int32_Int32;
+				return r_DrawCursor_Rect_GUIContent_Int32_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Void DrawWithTextSelection(UnityEngine.Rect, UnityEngine.GUIContent, Boolean, Boolean, Int32, Int32, Boolean, UnityEngine.Color)
 		/// </summary>
-		protected RMethod r_RDrawWithTextSelection_Rect_GUIContent_Boolean_Boolean_Int32_Int32_Boolean_Color;
+		protected RMethod r_DrawWithTextSelection_Rect_GUIContent_Boolean_Boolean_Int32_Int32_Boolean_Color;
 		public virtual RMethod RDrawWithTextSelection_Rect_GUIContent_Boolean_Boolean_Int32_Int32_Boolean_Color
 		{
 			get
 			{
-				if(r_RDrawWithTextSelection_Rect_GUIContent_Boolean_Boolean_Int32_Int32_Boolean_Color == null)
+				if(r_DrawWithTextSelection_Rect_GUIContent_Boolean_Boolean_Int32_Int32_Boolean_Color == null)
 				{
-					r_RDrawWithTextSelection_Rect_GUIContent_Boolean_Boolean_Int32_Int32_Boolean_Color = new(this, "DrawWithTextSelection", 0, typeof(UnityEngine.Rect), typeof(UnityEngine.GUIContent), typeof(System.Boolean), typeof(System.Boolean), typeof(System.Int32), typeof(System.Int32), typeof(System.Boolean), typeof(UnityEngine.Color));
-					r_RDrawWithTextSelection_Rect_GUIContent_Boolean_Boolean_Int32_Int32_Boolean_Color.SetBelong(this.instance);
+					r_DrawWithTextSelection_Rect_GUIContent_Boolean_Boolean_Int32_Int32_Boolean_Color = new(this, "DrawWithTextSelection", 0, typeof(UnityEngine.Rect), typeof(UnityEngine.GUIContent), typeof(System.Boolean), typeof(System.Boolean), typeof(System.Int32), typeof(System.Int32), typeof(System.Boolean), typeof(UnityEngine.Color));
+					r_DrawWithTextSelection_Rect_GUIContent_Boolean_Boolean_Int32_Int32_Boolean_Color.SetBelong(this.instance);
 				}
-				return r_RDrawWithTextSelection_Rect_GUIContent_Boolean_Boolean_Int32_Int32_Boolean_Color;
+				return r_DrawWithTextSelection_Rect_GUIContent_Boolean_Boolean_Int32_Int32_Boolean_Color;
 			}
 		}
 
 		/// <summary>
 		/// Void DrawWithTextSelection(UnityEngine.Rect, UnityEngine.GUIContent, Int32, Int32, Int32, Boolean)
 		/// </summary>
-		protected RMethod r_RDrawWithTextSelection_Rect_GUIContent_Int32_Int32_Int32_Boolean;
+		protected RMethod r_DrawWithTextSelection_Rect_GUIContent_Int32_Int32_Int32_Boolean;
 		public virtual RMethod RDrawWithTextSelection_Rect_GUIContent_Int32_Int32_Int32_Boolean
 		{
 			get
 			{
-				if(r_RDrawWithTextSelection_Rect_GUIContent_Int32_Int32_Int32_Boolean == null)
+				if(r_DrawWithTextSelection_Rect_GUIContent_Int32_Int32_Int32_Boolean == null)
 				{
-					r_RDrawWithTextSelection_Rect_GUIContent_Int32_Int32_Int32_Boolean = new(this, "DrawWithTextSelection", 0, typeof(UnityEngine.Rect), typeof(UnityEngine.GUIContent), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Boolean));
-					r_RDrawWithTextSelection_Rect_GUIContent_Int32_Int32_Int32_Boolean.SetBelong(this.instance);
+					r_DrawWithTextSelection_Rect_GUIContent_Int32_Int32_Int32_Boolean = new(this, "DrawWithTextSelection", 0, typeof(UnityEngine.Rect), typeof(UnityEngine.GUIContent), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Boolean));
+					r_DrawWithTextSelection_Rect_GUIContent_Int32_Int32_Int32_Boolean.SetBelong(this.instance);
 				}
-				return r_RDrawWithTextSelection_Rect_GUIContent_Int32_Int32_Int32_Boolean;
+				return r_DrawWithTextSelection_Rect_GUIContent_Int32_Int32_Int32_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Void DrawWithTextSelection(UnityEngine.Rect, UnityEngine.GUIContent, Int32, Int32, Int32)
 		/// </summary>
-		protected RMethod r_RDrawWithTextSelection_Rect_GUIContent_Int32_Int32_Int32;
+		protected RMethod r_DrawWithTextSelection_Rect_GUIContent_Int32_Int32_Int32;
 		public virtual RMethod RDrawWithTextSelection_Rect_GUIContent_Int32_Int32_Int32
 		{
 			get
 			{
-				if(r_RDrawWithTextSelection_Rect_GUIContent_Int32_Int32_Int32 == null)
+				if(r_DrawWithTextSelection_Rect_GUIContent_Int32_Int32_Int32 == null)
 				{
-					r_RDrawWithTextSelection_Rect_GUIContent_Int32_Int32_Int32 = new(this, "DrawWithTextSelection", 0, typeof(UnityEngine.Rect), typeof(UnityEngine.GUIContent), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32));
-					r_RDrawWithTextSelection_Rect_GUIContent_Int32_Int32_Int32.SetBelong(this.instance);
+					r_DrawWithTextSelection_Rect_GUIContent_Int32_Int32_Int32 = new(this, "DrawWithTextSelection", 0, typeof(UnityEngine.Rect), typeof(UnityEngine.GUIContent), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32));
+					r_DrawWithTextSelection_Rect_GUIContent_Int32_Int32_Int32.SetBelong(this.instance);
 				}
-				return r_RDrawWithTextSelection_Rect_GUIContent_Int32_Int32_Int32;
+				return r_DrawWithTextSelection_Rect_GUIContent_Int32_Int32_Int32;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.GUIStyle op_Implicit(System.String)
 		/// </summary>
-		protected static RMethod r_Rop_Implicit_String;
+		protected static RMethod r_op_Implicit_String;
 		public static RMethod Rop_Implicit_String
 		{
 			get
 			{
-				if(r_Rop_Implicit_String == null)
+				if(r_op_Implicit_String == null)
 				{
-					r_Rop_Implicit_String = new(typeof(UnityEngine.GUIStyle), "op_Implicit", 0, typeof(System.String));
-					r_Rop_Implicit_String.SetBelong(null);
+					r_op_Implicit_String = new(typeof(UnityEngine.GUIStyle), "op_Implicit", 0, typeof(System.String));
+					r_op_Implicit_String.SetBelong(null);
 				}
-				return r_Rop_Implicit_String;
+				return r_op_Implicit_String;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Vector2 GetCursorPixelPosition(UnityEngine.Rect, UnityEngine.GUIContent, Int32)
 		/// </summary>
-		protected RMethod r_RGetCursorPixelPosition_Rect_GUIContent_Int32;
+		protected RMethod r_GetCursorPixelPosition_Rect_GUIContent_Int32;
 		public virtual RMethod RGetCursorPixelPosition_Rect_GUIContent_Int32
 		{
 			get
 			{
-				if(r_RGetCursorPixelPosition_Rect_GUIContent_Int32 == null)
+				if(r_GetCursorPixelPosition_Rect_GUIContent_Int32 == null)
 				{
-					r_RGetCursorPixelPosition_Rect_GUIContent_Int32 = new(this, "GetCursorPixelPosition", 0, typeof(UnityEngine.Rect), typeof(UnityEngine.GUIContent), typeof(System.Int32));
-					r_RGetCursorPixelPosition_Rect_GUIContent_Int32.SetBelong(this.instance);
+					r_GetCursorPixelPosition_Rect_GUIContent_Int32 = new(this, "GetCursorPixelPosition", 0, typeof(UnityEngine.Rect), typeof(UnityEngine.GUIContent), typeof(System.Int32));
+					r_GetCursorPixelPosition_Rect_GUIContent_Int32.SetBelong(this.instance);
 				}
-				return r_RGetCursorPixelPosition_Rect_GUIContent_Int32;
+				return r_GetCursorPixelPosition_Rect_GUIContent_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetCursorStringIndex(UnityEngine.Rect, UnityEngine.GUIContent, UnityEngine.Vector2)
 		/// </summary>
-		protected RMethod r_RGetCursorStringIndex_Rect_GUIContent_Vector2;
+		protected RMethod r_GetCursorStringIndex_Rect_GUIContent_Vector2;
 		public virtual RMethod RGetCursorStringIndex_Rect_GUIContent_Vector2
 		{
 			get
 			{
-				if(r_RGetCursorStringIndex_Rect_GUIContent_Vector2 == null)
+				if(r_GetCursorStringIndex_Rect_GUIContent_Vector2 == null)
 				{
-					r_RGetCursorStringIndex_Rect_GUIContent_Vector2 = new(this, "GetCursorStringIndex", 0, typeof(UnityEngine.Rect), typeof(UnityEngine.GUIContent), typeof(UnityEngine.Vector2));
-					r_RGetCursorStringIndex_Rect_GUIContent_Vector2.SetBelong(this.instance);
+					r_GetCursorStringIndex_Rect_GUIContent_Vector2 = new(this, "GetCursorStringIndex", 0, typeof(UnityEngine.Rect), typeof(UnityEngine.GUIContent), typeof(UnityEngine.Vector2));
+					r_GetCursorStringIndex_Rect_GUIContent_Vector2.SetBelong(this.instance);
 				}
-				return r_RGetCursorStringIndex_Rect_GUIContent_Vector2;
+				return r_GetCursorStringIndex_Rect_GUIContent_Vector2;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetNumCharactersThatFitWithinWidth(System.String, Single)
 		/// </summary>
-		protected RMethod r_RGetNumCharactersThatFitWithinWidth_String_Single;
+		protected RMethod r_GetNumCharactersThatFitWithinWidth_String_Single;
 		public virtual RMethod RGetNumCharactersThatFitWithinWidth_String_Single
 		{
 			get
 			{
-				if(r_RGetNumCharactersThatFitWithinWidth_String_Single == null)
+				if(r_GetNumCharactersThatFitWithinWidth_String_Single == null)
 				{
-					r_RGetNumCharactersThatFitWithinWidth_String_Single = new(this, "GetNumCharactersThatFitWithinWidth", 0, typeof(System.String), typeof(System.Single));
-					r_RGetNumCharactersThatFitWithinWidth_String_Single.SetBelong(this.instance);
+					r_GetNumCharactersThatFitWithinWidth_String_Single = new(this, "GetNumCharactersThatFitWithinWidth", 0, typeof(System.String), typeof(System.Single));
+					r_GetNumCharactersThatFitWithinWidth_String_Single.SetBelong(this.instance);
 				}
-				return r_RGetNumCharactersThatFitWithinWidth_String_Single;
+				return r_GetNumCharactersThatFitWithinWidth_String_Single;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Vector2 CalcSize(UnityEngine.GUIContent)
 		/// </summary>
-		protected RMethod r_RCalcSize_GUIContent;
+		protected RMethod r_CalcSize_GUIContent;
 		public virtual RMethod RCalcSize_GUIContent
 		{
 			get
 			{
-				if(r_RCalcSize_GUIContent == null)
+				if(r_CalcSize_GUIContent == null)
 				{
-					r_RCalcSize_GUIContent = new(this, "CalcSize", 0, typeof(UnityEngine.GUIContent));
-					r_RCalcSize_GUIContent.SetBelong(this.instance);
+					r_CalcSize_GUIContent = new(this, "CalcSize", 0, typeof(UnityEngine.GUIContent));
+					r_CalcSize_GUIContent.SetBelong(this.instance);
 				}
-				return r_RCalcSize_GUIContent;
+				return r_CalcSize_GUIContent;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Vector2 CalcSizeWithConstraints(UnityEngine.GUIContent, UnityEngine.Vector2)
 		/// </summary>
-		protected RMethod r_RCalcSizeWithConstraints_GUIContent_Vector2;
+		protected RMethod r_CalcSizeWithConstraints_GUIContent_Vector2;
 		public virtual RMethod RCalcSizeWithConstraints_GUIContent_Vector2
 		{
 			get
 			{
-				if(r_RCalcSizeWithConstraints_GUIContent_Vector2 == null)
+				if(r_CalcSizeWithConstraints_GUIContent_Vector2 == null)
 				{
-					r_RCalcSizeWithConstraints_GUIContent_Vector2 = new(this, "CalcSizeWithConstraints", 0, typeof(UnityEngine.GUIContent), typeof(UnityEngine.Vector2));
-					r_RCalcSizeWithConstraints_GUIContent_Vector2.SetBelong(this.instance);
+					r_CalcSizeWithConstraints_GUIContent_Vector2 = new(this, "CalcSizeWithConstraints", 0, typeof(UnityEngine.GUIContent), typeof(UnityEngine.Vector2));
+					r_CalcSizeWithConstraints_GUIContent_Vector2.SetBelong(this.instance);
 				}
-				return r_RCalcSizeWithConstraints_GUIContent_Vector2;
+				return r_CalcSizeWithConstraints_GUIContent_Vector2;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Vector2 CalcScreenSize(UnityEngine.Vector2)
 		/// </summary>
-		protected RMethod r_RCalcScreenSize_Vector2;
+		protected RMethod r_CalcScreenSize_Vector2;
 		public virtual RMethod RCalcScreenSize_Vector2
 		{
 			get
 			{
-				if(r_RCalcScreenSize_Vector2 == null)
+				if(r_CalcScreenSize_Vector2 == null)
 				{
-					r_RCalcScreenSize_Vector2 = new(this, "CalcScreenSize", 0, typeof(UnityEngine.Vector2));
-					r_RCalcScreenSize_Vector2.SetBelong(this.instance);
+					r_CalcScreenSize_Vector2 = new(this, "CalcScreenSize", 0, typeof(UnityEngine.Vector2));
+					r_CalcScreenSize_Vector2.SetBelong(this.instance);
 				}
-				return r_RCalcScreenSize_Vector2;
+				return r_CalcScreenSize_Vector2;
 			}
 		}
 
 		/// <summary>
 		/// Single CalcHeight(UnityEngine.GUIContent, Single)
 		/// </summary>
-		protected RMethod r_RCalcHeight_GUIContent_Single;
+		protected RMethod r_CalcHeight_GUIContent_Single;
 		public virtual RMethod RCalcHeight_GUIContent_Single
 		{
 			get
 			{
-				if(r_RCalcHeight_GUIContent_Single == null)
+				if(r_CalcHeight_GUIContent_Single == null)
 				{
-					r_RCalcHeight_GUIContent_Single = new(this, "CalcHeight", 0, typeof(UnityEngine.GUIContent), typeof(System.Single));
-					r_RCalcHeight_GUIContent_Single.SetBelong(this.instance);
+					r_CalcHeight_GUIContent_Single = new(this, "CalcHeight", 0, typeof(UnityEngine.GUIContent), typeof(System.Single));
+					r_CalcHeight_GUIContent_Single.SetBelong(this.instance);
 				}
-				return r_RCalcHeight_GUIContent_Single;
+				return r_CalcHeight_GUIContent_Single;
 			}
 		}
 
 		/// <summary>
 		/// Void CalcMinMaxWidth(UnityEngine.GUIContent, Single ByRef, Single ByRef)
 		/// </summary>
-		protected RMethod r_RCalcMinMaxWidth_GUIContent_Out_Single_Out_Single;
+		protected RMethod r_CalcMinMaxWidth_GUIContent_Out_Single_Out_Single;
 		public virtual RMethod RCalcMinMaxWidth_GUIContent_Out_Single_Out_Single
 		{
 			get
 			{
-				if(r_RCalcMinMaxWidth_GUIContent_Out_Single_Out_Single == null)
+				if(r_CalcMinMaxWidth_GUIContent_Out_Single_Out_Single == null)
 				{
-					r_RCalcMinMaxWidth_GUIContent_Out_Single_Out_Single = new(this, "CalcMinMaxWidth", 0, typeof(UnityEngine.GUIContent), typeof(System.Single).MakeByRefType(), typeof(System.Single).MakeByRefType());
-					r_RCalcMinMaxWidth_GUIContent_Out_Single_Out_Single.SetBelong(this.instance);
+					r_CalcMinMaxWidth_GUIContent_Out_Single_Out_Single = new(this, "CalcMinMaxWidth", 0, typeof(UnityEngine.GUIContent), typeof(System.Single).MakeByRefType(), typeof(System.Single).MakeByRefType());
+					r_CalcMinMaxWidth_GUIContent_Out_Single_Out_Single.SetBelong(this.instance);
 				}
-				return r_RCalcMinMaxWidth_GUIContent_Out_Single_Out_Single;
+				return r_CalcMinMaxWidth_GUIContent_Out_Single_Out_Single;
 			}
 		}
 
 		/// <summary>
 		/// System.String ToString()
 		/// </summary>
-		protected RMethod r_RToString;
+		protected RMethod r_ToString;
 		public virtual RMethod RToString
 		{
 			get
 			{
-				if(r_RToString == null)
+				if(r_ToString == null)
 				{
-					r_RToString = new(this, "ToString", 0);
-					r_RToString.SetBelong(this.instance);
+					r_ToString = new(this, "ToString", 0);
+					r_ToString.SetBelong(this.instance);
 				}
-				return r_RToString;
+				return r_ToString;
 			}
 		}
 
 		/// <summary>
 		/// Void get_contentOffset_Injected(UnityEngine.Vector2 ByRef)
 		/// </summary>
-		protected RMethod r_Rget_contentOffset_Injected_Out_Vector2;
+		protected RMethod r_get_contentOffset_Injected_Out_Vector2;
 		public virtual RMethod Rget_contentOffset_Injected_Out_Vector2
 		{
 			get
 			{
-				if(r_Rget_contentOffset_Injected_Out_Vector2 == null)
+				if(r_get_contentOffset_Injected_Out_Vector2 == null)
 				{
-					r_Rget_contentOffset_Injected_Out_Vector2 = new(this, "get_contentOffset_Injected", 0, typeof(UnityEngine.Vector2).MakeByRefType());
-					r_Rget_contentOffset_Injected_Out_Vector2.SetBelong(this.instance);
+					r_get_contentOffset_Injected_Out_Vector2 = new(this, "get_contentOffset_Injected", 0, typeof(UnityEngine.Vector2).MakeByRefType());
+					r_get_contentOffset_Injected_Out_Vector2.SetBelong(this.instance);
 				}
-				return r_Rget_contentOffset_Injected_Out_Vector2;
+				return r_get_contentOffset_Injected_Out_Vector2;
 			}
 		}
 
 		/// <summary>
 		/// Void set_contentOffset_Injected(UnityEngine.Vector2 ByRef)
 		/// </summary>
-		protected RMethod r_Rset_contentOffset_Injected_Ref_Vector2;
+		protected RMethod r_set_contentOffset_Injected_Ref_Vector2;
 		public virtual RMethod Rset_contentOffset_Injected_Ref_Vector2
 		{
 			get
 			{
-				if(r_Rset_contentOffset_Injected_Ref_Vector2 == null)
+				if(r_set_contentOffset_Injected_Ref_Vector2 == null)
 				{
-					r_Rset_contentOffset_Injected_Ref_Vector2 = new(this, "set_contentOffset_Injected", 0, typeof(UnityEngine.Vector2).MakeByRefType());
-					r_Rset_contentOffset_Injected_Ref_Vector2.SetBelong(this.instance);
+					r_set_contentOffset_Injected_Ref_Vector2 = new(this, "set_contentOffset_Injected", 0, typeof(UnityEngine.Vector2).MakeByRefType());
+					r_set_contentOffset_Injected_Ref_Vector2.SetBelong(this.instance);
 				}
-				return r_Rset_contentOffset_Injected_Ref_Vector2;
+				return r_set_contentOffset_Injected_Ref_Vector2;
 			}
 		}
 
 		/// <summary>
 		/// Void get_clipOffset_Injected(UnityEngine.Vector2 ByRef)
 		/// </summary>
-		protected RMethod r_Rget_clipOffset_Injected_Out_Vector2;
+		protected RMethod r_get_clipOffset_Injected_Out_Vector2;
 		public virtual RMethod Rget_clipOffset_Injected_Out_Vector2
 		{
 			get
 			{
-				if(r_Rget_clipOffset_Injected_Out_Vector2 == null)
+				if(r_get_clipOffset_Injected_Out_Vector2 == null)
 				{
-					r_Rget_clipOffset_Injected_Out_Vector2 = new(this, "get_clipOffset_Injected", 0, typeof(UnityEngine.Vector2).MakeByRefType());
-					r_Rget_clipOffset_Injected_Out_Vector2.SetBelong(this.instance);
+					r_get_clipOffset_Injected_Out_Vector2 = new(this, "get_clipOffset_Injected", 0, typeof(UnityEngine.Vector2).MakeByRefType());
+					r_get_clipOffset_Injected_Out_Vector2.SetBelong(this.instance);
 				}
-				return r_Rget_clipOffset_Injected_Out_Vector2;
+				return r_get_clipOffset_Injected_Out_Vector2;
 			}
 		}
 
 		/// <summary>
 		/// Void set_clipOffset_Injected(UnityEngine.Vector2 ByRef)
 		/// </summary>
-		protected RMethod r_Rset_clipOffset_Injected_Ref_Vector2;
+		protected RMethod r_set_clipOffset_Injected_Ref_Vector2;
 		public virtual RMethod Rset_clipOffset_Injected_Ref_Vector2
 		{
 			get
 			{
-				if(r_Rset_clipOffset_Injected_Ref_Vector2 == null)
+				if(r_set_clipOffset_Injected_Ref_Vector2 == null)
 				{
-					r_Rset_clipOffset_Injected_Ref_Vector2 = new(this, "set_clipOffset_Injected", 0, typeof(UnityEngine.Vector2).MakeByRefType());
-					r_Rset_clipOffset_Injected_Ref_Vector2.SetBelong(this.instance);
+					r_set_clipOffset_Injected_Ref_Vector2 = new(this, "set_clipOffset_Injected", 0, typeof(UnityEngine.Vector2).MakeByRefType());
+					r_set_clipOffset_Injected_Ref_Vector2.SetBelong(this.instance);
 				}
-				return r_Rset_clipOffset_Injected_Ref_Vector2;
+				return r_set_clipOffset_Injected_Ref_Vector2;
 			}
 		}
 
 		/// <summary>
 		/// Void get_Internal_clipOffset_Injected(UnityEngine.Vector2 ByRef)
 		/// </summary>
-		protected RMethod r_Rget_Internal_clipOffset_Injected_Out_Vector2;
+		protected RMethod r_get_Internal_clipOffset_Injected_Out_Vector2;
 		public virtual RMethod Rget_Internal_clipOffset_Injected_Out_Vector2
 		{
 			get
 			{
-				if(r_Rget_Internal_clipOffset_Injected_Out_Vector2 == null)
+				if(r_get_Internal_clipOffset_Injected_Out_Vector2 == null)
 				{
-					r_Rget_Internal_clipOffset_Injected_Out_Vector2 = new(this, "get_Internal_clipOffset_Injected", 0, typeof(UnityEngine.Vector2).MakeByRefType());
-					r_Rget_Internal_clipOffset_Injected_Out_Vector2.SetBelong(this.instance);
+					r_get_Internal_clipOffset_Injected_Out_Vector2 = new(this, "get_Internal_clipOffset_Injected", 0, typeof(UnityEngine.Vector2).MakeByRefType());
+					r_get_Internal_clipOffset_Injected_Out_Vector2.SetBelong(this.instance);
 				}
-				return r_Rget_Internal_clipOffset_Injected_Out_Vector2;
+				return r_get_Internal_clipOffset_Injected_Out_Vector2;
 			}
 		}
 
 		/// <summary>
 		/// Void set_Internal_clipOffset_Injected(UnityEngine.Vector2 ByRef)
 		/// </summary>
-		protected RMethod r_Rset_Internal_clipOffset_Injected_Ref_Vector2;
+		protected RMethod r_set_Internal_clipOffset_Injected_Ref_Vector2;
 		public virtual RMethod Rset_Internal_clipOffset_Injected_Ref_Vector2
 		{
 			get
 			{
-				if(r_Rset_Internal_clipOffset_Injected_Ref_Vector2 == null)
+				if(r_set_Internal_clipOffset_Injected_Ref_Vector2 == null)
 				{
-					r_Rset_Internal_clipOffset_Injected_Ref_Vector2 = new(this, "set_Internal_clipOffset_Injected", 0, typeof(UnityEngine.Vector2).MakeByRefType());
-					r_Rset_Internal_clipOffset_Injected_Ref_Vector2.SetBelong(this.instance);
+					r_set_Internal_clipOffset_Injected_Ref_Vector2 = new(this, "set_Internal_clipOffset_Injected", 0, typeof(UnityEngine.Vector2).MakeByRefType());
+					r_set_Internal_clipOffset_Injected_Ref_Vector2.SetBelong(this.instance);
 				}
-				return r_Rset_Internal_clipOffset_Injected_Ref_Vector2;
+				return r_set_Internal_clipOffset_Injected_Ref_Vector2;
 			}
 		}
 
 		/// <summary>
 		/// Void Internal_Draw_Injected(UnityEngine.Rect ByRef, UnityEngine.GUIContent, Boolean, Boolean, Boolean, Boolean)
 		/// </summary>
-		protected RMethod r_RInternal_Draw_Injected_Ref_Rect_GUIContent_Boolean_Boolean_Boolean_Boolean;
+		protected RMethod r_Internal_Draw_Injected_Ref_Rect_GUIContent_Boolean_Boolean_Boolean_Boolean;
 		public virtual RMethod RInternal_Draw_Injected_Ref_Rect_GUIContent_Boolean_Boolean_Boolean_Boolean
 		{
 			get
 			{
-				if(r_RInternal_Draw_Injected_Ref_Rect_GUIContent_Boolean_Boolean_Boolean_Boolean == null)
+				if(r_Internal_Draw_Injected_Ref_Rect_GUIContent_Boolean_Boolean_Boolean_Boolean == null)
 				{
-					r_RInternal_Draw_Injected_Ref_Rect_GUIContent_Boolean_Boolean_Boolean_Boolean = new(this, "Internal_Draw_Injected", 0, typeof(UnityEngine.Rect).MakeByRefType(), typeof(UnityEngine.GUIContent), typeof(System.Boolean), typeof(System.Boolean), typeof(System.Boolean), typeof(System.Boolean));
-					r_RInternal_Draw_Injected_Ref_Rect_GUIContent_Boolean_Boolean_Boolean_Boolean.SetBelong(this.instance);
+					r_Internal_Draw_Injected_Ref_Rect_GUIContent_Boolean_Boolean_Boolean_Boolean = new(this, "Internal_Draw_Injected", 0, typeof(UnityEngine.Rect).MakeByRefType(), typeof(UnityEngine.GUIContent), typeof(System.Boolean), typeof(System.Boolean), typeof(System.Boolean), typeof(System.Boolean));
+					r_Internal_Draw_Injected_Ref_Rect_GUIContent_Boolean_Boolean_Boolean_Boolean.SetBelong(this.instance);
 				}
-				return r_RInternal_Draw_Injected_Ref_Rect_GUIContent_Boolean_Boolean_Boolean_Boolean;
+				return r_Internal_Draw_Injected_Ref_Rect_GUIContent_Boolean_Boolean_Boolean_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Void Internal_Draw2_Injected(UnityEngine.Rect ByRef, UnityEngine.GUIContent, Int32, Boolean)
 		/// </summary>
-		protected RMethod r_RInternal_Draw2_Injected_Ref_Rect_GUIContent_Int32_Boolean;
+		protected RMethod r_Internal_Draw2_Injected_Ref_Rect_GUIContent_Int32_Boolean;
 		public virtual RMethod RInternal_Draw2_Injected_Ref_Rect_GUIContent_Int32_Boolean
 		{
 			get
 			{
-				if(r_RInternal_Draw2_Injected_Ref_Rect_GUIContent_Int32_Boolean == null)
+				if(r_Internal_Draw2_Injected_Ref_Rect_GUIContent_Int32_Boolean == null)
 				{
-					r_RInternal_Draw2_Injected_Ref_Rect_GUIContent_Int32_Boolean = new(this, "Internal_Draw2_Injected", 0, typeof(UnityEngine.Rect).MakeByRefType(), typeof(UnityEngine.GUIContent), typeof(System.Int32), typeof(System.Boolean));
-					r_RInternal_Draw2_Injected_Ref_Rect_GUIContent_Int32_Boolean.SetBelong(this.instance);
+					r_Internal_Draw2_Injected_Ref_Rect_GUIContent_Int32_Boolean = new(this, "Internal_Draw2_Injected", 0, typeof(UnityEngine.Rect).MakeByRefType(), typeof(UnityEngine.GUIContent), typeof(System.Int32), typeof(System.Boolean));
+					r_Internal_Draw2_Injected_Ref_Rect_GUIContent_Int32_Boolean.SetBelong(this.instance);
 				}
-				return r_RInternal_Draw2_Injected_Ref_Rect_GUIContent_Int32_Boolean;
+				return r_Internal_Draw2_Injected_Ref_Rect_GUIContent_Int32_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Void Internal_DrawCursor_Injected(UnityEngine.Rect ByRef, UnityEngine.GUIContent, Int32, UnityEngine.Color ByRef)
 		/// </summary>
-		protected RMethod r_RInternal_DrawCursor_Injected_Ref_Rect_GUIContent_Int32_Ref_Color;
+		protected RMethod r_Internal_DrawCursor_Injected_Ref_Rect_GUIContent_Int32_Ref_Color;
 		public virtual RMethod RInternal_DrawCursor_Injected_Ref_Rect_GUIContent_Int32_Ref_Color
 		{
 			get
 			{
-				if(r_RInternal_DrawCursor_Injected_Ref_Rect_GUIContent_Int32_Ref_Color == null)
+				if(r_Internal_DrawCursor_Injected_Ref_Rect_GUIContent_Int32_Ref_Color == null)
 				{
-					r_RInternal_DrawCursor_Injected_Ref_Rect_GUIContent_Int32_Ref_Color = new(this, "Internal_DrawCursor_Injected", 0, typeof(UnityEngine.Rect).MakeByRefType(), typeof(UnityEngine.GUIContent), typeof(System.Int32), typeof(UnityEngine.Color).MakeByRefType());
-					r_RInternal_DrawCursor_Injected_Ref_Rect_GUIContent_Int32_Ref_Color.SetBelong(this.instance);
+					r_Internal_DrawCursor_Injected_Ref_Rect_GUIContent_Int32_Ref_Color = new(this, "Internal_DrawCursor_Injected", 0, typeof(UnityEngine.Rect).MakeByRefType(), typeof(UnityEngine.GUIContent), typeof(System.Int32), typeof(UnityEngine.Color).MakeByRefType());
+					r_Internal_DrawCursor_Injected_Ref_Rect_GUIContent_Int32_Ref_Color.SetBelong(this.instance);
 				}
-				return r_RInternal_DrawCursor_Injected_Ref_Rect_GUIContent_Int32_Ref_Color;
+				return r_Internal_DrawCursor_Injected_Ref_Rect_GUIContent_Int32_Ref_Color;
 			}
 		}
 
 		/// <summary>
 		/// Void Internal_DrawWithTextSelection_Injected(UnityEngine.Rect ByRef, UnityEngine.GUIContent, Boolean, Boolean, Boolean, Boolean, Boolean, Int32, Int32, UnityEngine.Color ByRef, UnityEngine.Color ByRef)
 		/// </summary>
-		protected RMethod r_RInternal_DrawWithTextSelection_Injected_Ref_Rect_GUIContent_Boolean_Boolean_Boolean_Boolean_Boolean_Int32_Int32_Ref_Color_Ref_Color;
+		protected RMethod r_Internal_DrawWithTextSelection_Injected_Ref_Rect_GUIContent_Boolean_Boolean_Boolean_Boolean_Boolean_Int32_Int32_Ref_Color_Ref_Color;
 		public virtual RMethod RInternal_DrawWithTextSelection_Injected_Ref_Rect_GUIContent_Boolean_Boolean_Boolean_Boolean_Boolean_Int32_Int32_Ref_Color_Ref_Color
 		{
 			get
 			{
-				if(r_RInternal_DrawWithTextSelection_Injected_Ref_Rect_GUIContent_Boolean_Boolean_Boolean_Boolean_Boolean_Int32_Int32_Ref_Color_Ref_Color == null)
+				if(r_Internal_DrawWithTextSelection_Injected_Ref_Rect_GUIContent_Boolean_Boolean_Boolean_Boolean_Boolean_Int32_Int32_Ref_Color_Ref_Color == null)
 				{
-					r_RInternal_DrawWithTextSelection_Injected_Ref_Rect_GUIContent_Boolean_Boolean_Boolean_Boolean_Boolean_Int32_Int32_Ref_Color_Ref_Color = new(this, "Internal_DrawWithTextSelection_Injected", 0, typeof(UnityEngine.Rect).MakeByRefType(), typeof(UnityEngine.GUIContent), typeof(System.Boolean), typeof(System.Boolean), typeof(System.Boolean), typeof(System.Boolean), typeof(System.Boolean), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.Color).MakeByRefType(), typeof(UnityEngine.Color).MakeByRefType());
-					r_RInternal_DrawWithTextSelection_Injected_Ref_Rect_GUIContent_Boolean_Boolean_Boolean_Boolean_Boolean_Int32_Int32_Ref_Color_Ref_Color.SetBelong(this.instance);
+					r_Internal_DrawWithTextSelection_Injected_Ref_Rect_GUIContent_Boolean_Boolean_Boolean_Boolean_Boolean_Int32_Int32_Ref_Color_Ref_Color = new(this, "Internal_DrawWithTextSelection_Injected", 0, typeof(UnityEngine.Rect).MakeByRefType(), typeof(UnityEngine.GUIContent), typeof(System.Boolean), typeof(System.Boolean), typeof(System.Boolean), typeof(System.Boolean), typeof(System.Boolean), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.Color).MakeByRefType(), typeof(UnityEngine.Color).MakeByRefType());
+					r_Internal_DrawWithTextSelection_Injected_Ref_Rect_GUIContent_Boolean_Boolean_Boolean_Boolean_Boolean_Int32_Int32_Ref_Color_Ref_Color.SetBelong(this.instance);
 				}
-				return r_RInternal_DrawWithTextSelection_Injected_Ref_Rect_GUIContent_Boolean_Boolean_Boolean_Boolean_Boolean_Int32_Int32_Ref_Color_Ref_Color;
+				return r_Internal_DrawWithTextSelection_Injected_Ref_Rect_GUIContent_Boolean_Boolean_Boolean_Boolean_Boolean_Int32_Int32_Ref_Color_Ref_Color;
 			}
 		}
 
 		/// <summary>
 		/// Void Internal_GetCursorPixelPosition_Injected(UnityEngine.Rect ByRef, UnityEngine.GUIContent, Int32, UnityEngine.Vector2 ByRef)
 		/// </summary>
-		protected RMethod r_RInternal_GetCursorPixelPosition_Injected_Ref_Rect_GUIContent_Int32_Out_Vector2;
+		protected RMethod r_Internal_GetCursorPixelPosition_Injected_Ref_Rect_GUIContent_Int32_Out_Vector2;
 		public virtual RMethod RInternal_GetCursorPixelPosition_Injected_Ref_Rect_GUIContent_Int32_Out_Vector2
 		{
 			get
 			{
-				if(r_RInternal_GetCursorPixelPosition_Injected_Ref_Rect_GUIContent_Int32_Out_Vector2 == null)
+				if(r_Internal_GetCursorPixelPosition_Injected_Ref_Rect_GUIContent_Int32_Out_Vector2 == null)
 				{
-					r_RInternal_GetCursorPixelPosition_Injected_Ref_Rect_GUIContent_Int32_Out_Vector2 = new(this, "Internal_GetCursorPixelPosition_Injected", 0, typeof(UnityEngine.Rect).MakeByRefType(), typeof(UnityEngine.GUIContent), typeof(System.Int32), typeof(UnityEngine.Vector2).MakeByRefType());
-					r_RInternal_GetCursorPixelPosition_Injected_Ref_Rect_GUIContent_Int32_Out_Vector2.SetBelong(this.instance);
+					r_Internal_GetCursorPixelPosition_Injected_Ref_Rect_GUIContent_Int32_Out_Vector2 = new(this, "Internal_GetCursorPixelPosition_Injected", 0, typeof(UnityEngine.Rect).MakeByRefType(), typeof(UnityEngine.GUIContent), typeof(System.Int32), typeof(UnityEngine.Vector2).MakeByRefType());
+					r_Internal_GetCursorPixelPosition_Injected_Ref_Rect_GUIContent_Int32_Out_Vector2.SetBelong(this.instance);
 				}
-				return r_RInternal_GetCursorPixelPosition_Injected_Ref_Rect_GUIContent_Int32_Out_Vector2;
+				return r_Internal_GetCursorPixelPosition_Injected_Ref_Rect_GUIContent_Int32_Out_Vector2;
 			}
 		}
 
 		/// <summary>
 		/// Int32 Internal_GetCursorStringIndex_Injected(UnityEngine.Rect ByRef, UnityEngine.GUIContent, UnityEngine.Vector2 ByRef)
 		/// </summary>
-		protected RMethod r_RInternal_GetCursorStringIndex_Injected_Ref_Rect_GUIContent_Ref_Vector2;
+		protected RMethod r_Internal_GetCursorStringIndex_Injected_Ref_Rect_GUIContent_Ref_Vector2;
 		public virtual RMethod RInternal_GetCursorStringIndex_Injected_Ref_Rect_GUIContent_Ref_Vector2
 		{
 			get
 			{
-				if(r_RInternal_GetCursorStringIndex_Injected_Ref_Rect_GUIContent_Ref_Vector2 == null)
+				if(r_Internal_GetCursorStringIndex_Injected_Ref_Rect_GUIContent_Ref_Vector2 == null)
 				{
-					r_RInternal_GetCursorStringIndex_Injected_Ref_Rect_GUIContent_Ref_Vector2 = new(this, "Internal_GetCursorStringIndex_Injected", 0, typeof(UnityEngine.Rect).MakeByRefType(), typeof(UnityEngine.GUIContent), typeof(UnityEngine.Vector2).MakeByRefType());
-					r_RInternal_GetCursorStringIndex_Injected_Ref_Rect_GUIContent_Ref_Vector2.SetBelong(this.instance);
+					r_Internal_GetCursorStringIndex_Injected_Ref_Rect_GUIContent_Ref_Vector2 = new(this, "Internal_GetCursorStringIndex_Injected", 0, typeof(UnityEngine.Rect).MakeByRefType(), typeof(UnityEngine.GUIContent), typeof(UnityEngine.Vector2).MakeByRefType());
+					r_Internal_GetCursorStringIndex_Injected_Ref_Rect_GUIContent_Ref_Vector2.SetBelong(this.instance);
 				}
-				return r_RInternal_GetCursorStringIndex_Injected_Ref_Rect_GUIContent_Ref_Vector2;
+				return r_Internal_GetCursorStringIndex_Injected_Ref_Rect_GUIContent_Ref_Vector2;
 			}
 		}
 
 		/// <summary>
 		/// System.String Internal_GetSelectedRenderedText_Injected(UnityEngine.Rect ByRef, UnityEngine.GUIContent, Int32, Int32)
 		/// </summary>
-		protected RMethod r_RInternal_GetSelectedRenderedText_Injected_Ref_Rect_GUIContent_Int32_Int32;
+		protected RMethod r_Internal_GetSelectedRenderedText_Injected_Ref_Rect_GUIContent_Int32_Int32;
 		public virtual RMethod RInternal_GetSelectedRenderedText_Injected_Ref_Rect_GUIContent_Int32_Int32
 		{
 			get
 			{
-				if(r_RInternal_GetSelectedRenderedText_Injected_Ref_Rect_GUIContent_Int32_Int32 == null)
+				if(r_Internal_GetSelectedRenderedText_Injected_Ref_Rect_GUIContent_Int32_Int32 == null)
 				{
-					r_RInternal_GetSelectedRenderedText_Injected_Ref_Rect_GUIContent_Int32_Int32 = new(this, "Internal_GetSelectedRenderedText_Injected", 0, typeof(UnityEngine.Rect).MakeByRefType(), typeof(UnityEngine.GUIContent), typeof(System.Int32), typeof(System.Int32));
-					r_RInternal_GetSelectedRenderedText_Injected_Ref_Rect_GUIContent_Int32_Int32.SetBelong(this.instance);
+					r_Internal_GetSelectedRenderedText_Injected_Ref_Rect_GUIContent_Int32_Int32 = new(this, "Internal_GetSelectedRenderedText_Injected", 0, typeof(UnityEngine.Rect).MakeByRefType(), typeof(UnityEngine.GUIContent), typeof(System.Int32), typeof(System.Int32));
+					r_Internal_GetSelectedRenderedText_Injected_Ref_Rect_GUIContent_Int32_Int32.SetBelong(this.instance);
 				}
-				return r_RInternal_GetSelectedRenderedText_Injected_Ref_Rect_GUIContent_Int32_Int32;
+				return r_Internal_GetSelectedRenderedText_Injected_Ref_Rect_GUIContent_Int32_Int32;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Rect[] Internal_GetHyperlinksRect_Injected(UnityEngine.Rect ByRef, UnityEngine.GUIContent)
 		/// </summary>
-		protected RMethod r_RInternal_GetHyperlinksRect_Injected_Ref_Rect_GUIContent;
+		protected RMethod r_Internal_GetHyperlinksRect_Injected_Ref_Rect_GUIContent;
 		public virtual RMethod RInternal_GetHyperlinksRect_Injected_Ref_Rect_GUIContent
 		{
 			get
 			{
-				if(r_RInternal_GetHyperlinksRect_Injected_Ref_Rect_GUIContent == null)
+				if(r_Internal_GetHyperlinksRect_Injected_Ref_Rect_GUIContent == null)
 				{
-					r_RInternal_GetHyperlinksRect_Injected_Ref_Rect_GUIContent = new(this, "Internal_GetHyperlinksRect_Injected", 0, typeof(UnityEngine.Rect).MakeByRefType(), typeof(UnityEngine.GUIContent));
-					r_RInternal_GetHyperlinksRect_Injected_Ref_Rect_GUIContent.SetBelong(this.instance);
+					r_Internal_GetHyperlinksRect_Injected_Ref_Rect_GUIContent = new(this, "Internal_GetHyperlinksRect_Injected", 0, typeof(UnityEngine.Rect).MakeByRefType(), typeof(UnityEngine.GUIContent));
+					r_Internal_GetHyperlinksRect_Injected_Ref_Rect_GUIContent.SetBelong(this.instance);
 				}
-				return r_RInternal_GetHyperlinksRect_Injected_Ref_Rect_GUIContent;
+				return r_Internal_GetHyperlinksRect_Injected_Ref_Rect_GUIContent;
 			}
 		}
 
 		/// <summary>
 		/// Void Internal_CalcSize_Injected(UnityEngine.GUIContent, UnityEngine.Vector2 ByRef)
 		/// </summary>
-		protected RMethod r_RInternal_CalcSize_Injected_GUIContent_Out_Vector2;
+		protected RMethod r_Internal_CalcSize_Injected_GUIContent_Out_Vector2;
 		public virtual RMethod RInternal_CalcSize_Injected_GUIContent_Out_Vector2
 		{
 			get
 			{
-				if(r_RInternal_CalcSize_Injected_GUIContent_Out_Vector2 == null)
+				if(r_Internal_CalcSize_Injected_GUIContent_Out_Vector2 == null)
 				{
-					r_RInternal_CalcSize_Injected_GUIContent_Out_Vector2 = new(this, "Internal_CalcSize_Injected", 0, typeof(UnityEngine.GUIContent), typeof(UnityEngine.Vector2).MakeByRefType());
-					r_RInternal_CalcSize_Injected_GUIContent_Out_Vector2.SetBelong(this.instance);
+					r_Internal_CalcSize_Injected_GUIContent_Out_Vector2 = new(this, "Internal_CalcSize_Injected", 0, typeof(UnityEngine.GUIContent), typeof(UnityEngine.Vector2).MakeByRefType());
+					r_Internal_CalcSize_Injected_GUIContent_Out_Vector2.SetBelong(this.instance);
 				}
-				return r_RInternal_CalcSize_Injected_GUIContent_Out_Vector2;
+				return r_Internal_CalcSize_Injected_GUIContent_Out_Vector2;
 			}
 		}
 
 		/// <summary>
 		/// Void Internal_CalcSizeWithConstraints_Injected(UnityEngine.GUIContent, UnityEngine.Vector2 ByRef, UnityEngine.Vector2 ByRef)
 		/// </summary>
-		protected RMethod r_RInternal_CalcSizeWithConstraints_Injected_GUIContent_Ref_Vector2_Out_Vector2;
+		protected RMethod r_Internal_CalcSizeWithConstraints_Injected_GUIContent_Ref_Vector2_Out_Vector2;
 		public virtual RMethod RInternal_CalcSizeWithConstraints_Injected_GUIContent_Ref_Vector2_Out_Vector2
 		{
 			get
 			{
-				if(r_RInternal_CalcSizeWithConstraints_Injected_GUIContent_Ref_Vector2_Out_Vector2 == null)
+				if(r_Internal_CalcSizeWithConstraints_Injected_GUIContent_Ref_Vector2_Out_Vector2 == null)
 				{
-					r_RInternal_CalcSizeWithConstraints_Injected_GUIContent_Ref_Vector2_Out_Vector2 = new(this, "Internal_CalcSizeWithConstraints_Injected", 0, typeof(UnityEngine.GUIContent), typeof(UnityEngine.Vector2).MakeByRefType(), typeof(UnityEngine.Vector2).MakeByRefType());
-					r_RInternal_CalcSizeWithConstraints_Injected_GUIContent_Ref_Vector2_Out_Vector2.SetBelong(this.instance);
+					r_Internal_CalcSizeWithConstraints_Injected_GUIContent_Ref_Vector2_Out_Vector2 = new(this, "Internal_CalcSizeWithConstraints_Injected", 0, typeof(UnityEngine.GUIContent), typeof(UnityEngine.Vector2).MakeByRefType(), typeof(UnityEngine.Vector2).MakeByRefType());
+					r_Internal_CalcSizeWithConstraints_Injected_GUIContent_Ref_Vector2_Out_Vector2.SetBelong(this.instance);
 				}
-				return r_RInternal_CalcSizeWithConstraints_Injected_GUIContent_Ref_Vector2_Out_Vector2;
+				return r_Internal_CalcSizeWithConstraints_Injected_GUIContent_Ref_Vector2_Out_Vector2;
 			}
 		}
 
 		/// <summary>
 		/// Void Internal_CalcMinMaxWidth_Injected(UnityEngine.GUIContent, UnityEngine.Vector2 ByRef)
 		/// </summary>
-		protected RMethod r_RInternal_CalcMinMaxWidth_Injected_GUIContent_Out_Vector2;
+		protected RMethod r_Internal_CalcMinMaxWidth_Injected_GUIContent_Out_Vector2;
 		public virtual RMethod RInternal_CalcMinMaxWidth_Injected_GUIContent_Out_Vector2
 		{
 			get
 			{
-				if(r_RInternal_CalcMinMaxWidth_Injected_GUIContent_Out_Vector2 == null)
+				if(r_Internal_CalcMinMaxWidth_Injected_GUIContent_Out_Vector2 == null)
 				{
-					r_RInternal_CalcMinMaxWidth_Injected_GUIContent_Out_Vector2 = new(this, "Internal_CalcMinMaxWidth_Injected", 0, typeof(UnityEngine.GUIContent), typeof(UnityEngine.Vector2).MakeByRefType());
-					r_RInternal_CalcMinMaxWidth_Injected_GUIContent_Out_Vector2.SetBelong(this.instance);
+					r_Internal_CalcMinMaxWidth_Injected_GUIContent_Out_Vector2 = new(this, "Internal_CalcMinMaxWidth_Injected", 0, typeof(UnityEngine.GUIContent), typeof(UnityEngine.Vector2).MakeByRefType());
+					r_Internal_CalcMinMaxWidth_Injected_GUIContent_Out_Vector2.SetBelong(this.instance);
 				}
-				return r_RInternal_CalcMinMaxWidth_Injected_GUIContent_Out_Vector2;
+				return r_Internal_CalcMinMaxWidth_Injected_GUIContent_Out_Vector2;
 			}
 		}
 
 		/// <summary>
 		/// Void Internal_DrawPrefixLabel_Injected(UnityEngine.Rect ByRef, UnityEngine.GUIContent, Int32, Boolean)
 		/// </summary>
-		protected RMethod r_RInternal_DrawPrefixLabel_Injected_Ref_Rect_GUIContent_Int32_Boolean;
+		protected RMethod r_Internal_DrawPrefixLabel_Injected_Ref_Rect_GUIContent_Int32_Boolean;
 		public virtual RMethod RInternal_DrawPrefixLabel_Injected_Ref_Rect_GUIContent_Int32_Boolean
 		{
 			get
 			{
-				if(r_RInternal_DrawPrefixLabel_Injected_Ref_Rect_GUIContent_Int32_Boolean == null)
+				if(r_Internal_DrawPrefixLabel_Injected_Ref_Rect_GUIContent_Int32_Boolean == null)
 				{
-					r_RInternal_DrawPrefixLabel_Injected_Ref_Rect_GUIContent_Int32_Boolean = new(this, "Internal_DrawPrefixLabel_Injected", 0, typeof(UnityEngine.Rect).MakeByRefType(), typeof(UnityEngine.GUIContent), typeof(System.Int32), typeof(System.Boolean));
-					r_RInternal_DrawPrefixLabel_Injected_Ref_Rect_GUIContent_Int32_Boolean.SetBelong(this.instance);
+					r_Internal_DrawPrefixLabel_Injected_Ref_Rect_GUIContent_Int32_Boolean = new(this, "Internal_DrawPrefixLabel_Injected", 0, typeof(UnityEngine.Rect).MakeByRefType(), typeof(UnityEngine.GUIContent), typeof(System.Int32), typeof(System.Boolean));
+					r_Internal_DrawPrefixLabel_Injected_Ref_Rect_GUIContent_Int32_Boolean.SetBelong(this.instance);
 				}
-				return r_RInternal_DrawPrefixLabel_Injected_Ref_Rect_GUIContent_Int32_Boolean;
+				return r_Internal_DrawPrefixLabel_Injected_Ref_Rect_GUIContent_Int32_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Void Internal_DrawContent_Injected(UnityEngine.Rect ByRef, UnityEngine.GUIContent, Boolean, Boolean, Boolean, Boolean, Boolean, Boolean, Int32, Int32, UnityEngine.Color ByRef, UnityEngine.Color ByRef, UnityEngine.Color ByRef, Single, Single, Single, Single, Boolean, Boolean)
 		/// </summary>
-		protected RMethod r_RInternal_DrawContent_Injected_Ref_Rect_GUIContent_Boolean_Boolean_Boolean_Boolean_Boolean_Boolean_Int32_Int32_Ref_Color_Ref_Color_Ref_Color_Single_Single_Single_Single_Boolean_Boolean;
+		protected RMethod r_Internal_DrawContent_Injected_Ref_Rect_GUIContent_Boolean_Boolean_Boolean_Boolean_Boolean_Boolean_Int32_Int32_Ref_Color_Ref_Color_Ref_Color_Single_Single_Single_Single_Boolean_Boolean;
 		public virtual RMethod RInternal_DrawContent_Injected_Ref_Rect_GUIContent_Boolean_Boolean_Boolean_Boolean_Boolean_Boolean_Int32_Int32_Ref_Color_Ref_Color_Ref_Color_Single_Single_Single_Single_Boolean_Boolean
 		{
 			get
 			{
-				if(r_RInternal_DrawContent_Injected_Ref_Rect_GUIContent_Boolean_Boolean_Boolean_Boolean_Boolean_Boolean_Int32_Int32_Ref_Color_Ref_Color_Ref_Color_Single_Single_Single_Single_Boolean_Boolean == null)
+				if(r_Internal_DrawContent_Injected_Ref_Rect_GUIContent_Boolean_Boolean_Boolean_Boolean_Boolean_Boolean_Int32_Int32_Ref_Color_Ref_Color_Ref_Color_Single_Single_Single_Single_Boolean_Boolean == null)
 				{
-					r_RInternal_DrawContent_Injected_Ref_Rect_GUIContent_Boolean_Boolean_Boolean_Boolean_Boolean_Boolean_Int32_Int32_Ref_Color_Ref_Color_Ref_Color_Single_Single_Single_Single_Boolean_Boolean = new(this, "Internal_DrawContent_Injected", 0, typeof(UnityEngine.Rect).MakeByRefType(), typeof(UnityEngine.GUIContent), typeof(System.Boolean), typeof(System.Boolean), typeof(System.Boolean), typeof(System.Boolean), typeof(System.Boolean), typeof(System.Boolean), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.Color).MakeByRefType(), typeof(UnityEngine.Color).MakeByRefType(), typeof(UnityEngine.Color).MakeByRefType(), typeof(System.Single), typeof(System.Single), typeof(System.Single), typeof(System.Single), typeof(System.Boolean), typeof(System.Boolean));
-					r_RInternal_DrawContent_Injected_Ref_Rect_GUIContent_Boolean_Boolean_Boolean_Boolean_Boolean_Boolean_Int32_Int32_Ref_Color_Ref_Color_Ref_Color_Single_Single_Single_Single_Boolean_Boolean.SetBelong(this.instance);
+					r_Internal_DrawContent_Injected_Ref_Rect_GUIContent_Boolean_Boolean_Boolean_Boolean_Boolean_Boolean_Int32_Int32_Ref_Color_Ref_Color_Ref_Color_Single_Single_Single_Single_Boolean_Boolean = new(this, "Internal_DrawContent_Injected", 0, typeof(UnityEngine.Rect).MakeByRefType(), typeof(UnityEngine.GUIContent), typeof(System.Boolean), typeof(System.Boolean), typeof(System.Boolean), typeof(System.Boolean), typeof(System.Boolean), typeof(System.Boolean), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.Color).MakeByRefType(), typeof(UnityEngine.Color).MakeByRefType(), typeof(UnityEngine.Color).MakeByRefType(), typeof(System.Single), typeof(System.Single), typeof(System.Single), typeof(System.Single), typeof(System.Boolean), typeof(System.Boolean));
+					r_Internal_DrawContent_Injected_Ref_Rect_GUIContent_Boolean_Boolean_Boolean_Boolean_Boolean_Boolean_Int32_Int32_Ref_Color_Ref_Color_Ref_Color_Single_Single_Single_Single_Boolean_Boolean.SetBelong(this.instance);
 				}
-				return r_RInternal_DrawContent_Injected_Ref_Rect_GUIContent_Boolean_Boolean_Boolean_Boolean_Boolean_Boolean_Int32_Int32_Ref_Color_Ref_Color_Ref_Color_Single_Single_Single_Single_Boolean_Boolean;
+				return r_Internal_DrawContent_Injected_Ref_Rect_GUIContent_Boolean_Boolean_Boolean_Boolean_Boolean_Boolean_Int32_Int32_Ref_Color_Ref_Color_Ref_Color_Single_Single_Single_Single_Boolean_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Void SetMouseTooltip_Injected(System.String, UnityEngine.Rect ByRef)
 		/// </summary>
-		protected static RMethod r_RSetMouseTooltip_Injected_String_Ref_Rect;
+		protected static RMethod r_SetMouseTooltip_Injected_String_Ref_Rect;
 		public static RMethod RSetMouseTooltip_Injected_String_Ref_Rect
 		{
 			get
 			{
-				if(r_RSetMouseTooltip_Injected_String_Ref_Rect == null)
+				if(r_SetMouseTooltip_Injected_String_Ref_Rect == null)
 				{
-					r_RSetMouseTooltip_Injected_String_Ref_Rect = new(typeof(UnityEngine.GUIStyle), "SetMouseTooltip_Injected", 0, typeof(System.String), typeof(UnityEngine.Rect).MakeByRefType());
-					r_RSetMouseTooltip_Injected_String_Ref_Rect.SetBelong(null);
+					r_SetMouseTooltip_Injected_String_Ref_Rect = new(typeof(UnityEngine.GUIStyle), "SetMouseTooltip_Injected", 0, typeof(System.String), typeof(UnityEngine.Rect).MakeByRefType());
+					r_SetMouseTooltip_Injected_String_Ref_Rect.SetBelong(null);
 				}
-				return r_RSetMouseTooltip_Injected_String_Ref_Rect;
+				return r_SetMouseTooltip_Injected_String_Ref_Rect;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Equals(System.Object)
 		/// </summary>
-		protected RMethod r_REquals_Object;
+		protected RMethod r_Equals_Object;
 		public virtual RMethod REquals_Object
 		{
 			get
 			{
-				if(r_REquals_Object == null)
+				if(r_Equals_Object == null)
 				{
-					r_REquals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_REquals_Object.SetBelong(this.instance);
+					r_Equals_Object = new(this, "Equals", 0, typeof(System.Object));
+					r_Equals_Object.SetBelong(this.instance);
 				}
-				return r_REquals_Object;
+				return r_Equals_Object;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetHashCode()
 		/// </summary>
-		protected RMethod r_RGetHashCode;
+		protected RMethod r_GetHashCode;
 		public virtual RMethod RGetHashCode
 		{
 			get
 			{
-				if(r_RGetHashCode == null)
+				if(r_GetHashCode == null)
 				{
-					r_RGetHashCode = new(this, "GetHashCode", 0);
-					r_RGetHashCode.SetBelong(this.instance);
+					r_GetHashCode = new(this, "GetHashCode", 0);
+					r_GetHashCode.SetBelong(this.instance);
 				}
-				return r_RGetHashCode;
+				return r_GetHashCode;
 			}
 		}
 
 		/// <summary>
 		/// System.Type GetType()
 		/// </summary>
-		protected RMethod r_RGetType;
+		protected RMethod r_GetType;
 		public virtual RMethod RGetType
 		{
 			get
 			{
-				if(r_RGetType == null)
+				if(r_GetType == null)
 				{
-					r_RGetType = new(this, "GetType", 0);
-					r_RGetType.SetBelong(this.instance);
+					r_GetType = new(this, "GetType", 0);
+					r_GetType.SetBelong(this.instance);
 				}
-				return r_RGetType;
+				return r_GetType;
 			}
 		}
 
 		/// <summary>
 		/// System.Object MemberwiseClone()
 		/// </summary>
-		protected RMethod r_RMemberwiseClone;
+		protected RMethod r_MemberwiseClone;
 		public virtual RMethod RMemberwiseClone
 		{
 			get
 			{
-				if(r_RMemberwiseClone == null)
+				if(r_MemberwiseClone == null)
 				{
-					r_RMemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_RMemberwiseClone.SetBelong(this.instance);
+					r_MemberwiseClone = new(this, "MemberwiseClone", 0);
+					r_MemberwiseClone.SetBelong(this.instance);
 				}
-				return r_RMemberwiseClone;
+				return r_MemberwiseClone;
 			}
 		}
 

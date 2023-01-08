@@ -13,17 +13,17 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RLifetime
 		/// <summary>
 		/// System.TimeSpan Renewal(System.Runtime.Remoting.Lifetime.ILease)
 		/// </summary>
-		protected RMethod r_RRenewal_ILease;
+		protected RMethod r_Renewal_ILease;
 		public virtual RMethod RRenewal_ILease
 		{
 			get
 			{
-				if(r_RRenewal_ILease == null)
+				if(r_Renewal_ILease == null)
 				{
-					r_RRenewal_ILease = new(this, "Renewal", 0, typeof(System.Runtime.Remoting.Lifetime.ILease));
-					r_RRenewal_ILease.SetBelong(this.instance);
+					r_Renewal_ILease = new(this, "Renewal", 0, typeof(System.Runtime.Remoting.Lifetime.ILease));
+					r_Renewal_ILease.SetBelong(this.instance);
 				}
-				return r_RRenewal_ILease;
+				return r_Renewal_ILease;
 			}
 		}
 

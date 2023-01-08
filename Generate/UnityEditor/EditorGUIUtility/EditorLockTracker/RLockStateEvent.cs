@@ -17,850 +17,850 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Void AddListener(UnityEngine.Events.UnityAction`1[System.Boolean])
 		/// </summary>
-		protected RMethod r_RAddListener_UnityAction_d_Boolean_p_;
+		protected RMethod r_AddListener_UnityAction_d_Boolean_p_;
 		public virtual RMethod RAddListener_UnityAction_d_Boolean_p_
 		{
 			get
 			{
-				if(r_RAddListener_UnityAction_d_Boolean_p_ == null)
+				if(r_AddListener_UnityAction_d_Boolean_p_ == null)
 				{
-					r_RAddListener_UnityAction_d_Boolean_p_ = new(this, "AddListener", 0, typeof(UnityEngine.Events.UnityAction<>).MakeGenericType(typeof(System.Boolean)));
-					r_RAddListener_UnityAction_d_Boolean_p_.SetBelong(this.instance);
+					r_AddListener_UnityAction_d_Boolean_p_ = new(this, "AddListener", 0, typeof(UnityEngine.Events.UnityAction<>).MakeGenericType(typeof(System.Boolean)));
+					r_AddListener_UnityAction_d_Boolean_p_.SetBelong(this.instance);
 				}
-				return r_RAddListener_UnityAction_d_Boolean_p_;
+				return r_AddListener_UnityAction_d_Boolean_p_;
 			}
 		}
 
 		/// <summary>
 		/// Void RemoveListener(UnityEngine.Events.UnityAction`1[System.Boolean])
 		/// </summary>
-		protected RMethod r_RRemoveListener_UnityAction_d_Boolean_p_;
+		protected RMethod r_RemoveListener_UnityAction_d_Boolean_p_;
 		public virtual RMethod RRemoveListener_UnityAction_d_Boolean_p_
 		{
 			get
 			{
-				if(r_RRemoveListener_UnityAction_d_Boolean_p_ == null)
+				if(r_RemoveListener_UnityAction_d_Boolean_p_ == null)
 				{
-					r_RRemoveListener_UnityAction_d_Boolean_p_ = new(this, "RemoveListener", 0, typeof(UnityEngine.Events.UnityAction<>).MakeGenericType(typeof(System.Boolean)));
-					r_RRemoveListener_UnityAction_d_Boolean_p_.SetBelong(this.instance);
+					r_RemoveListener_UnityAction_d_Boolean_p_ = new(this, "RemoveListener", 0, typeof(UnityEngine.Events.UnityAction<>).MakeGenericType(typeof(System.Boolean)));
+					r_RemoveListener_UnityAction_d_Boolean_p_.SetBelong(this.instance);
 				}
-				return r_RRemoveListener_UnityAction_d_Boolean_p_;
+				return r_RemoveListener_UnityAction_d_Boolean_p_;
 			}
 		}
 
 		/// <summary>
 		/// System.Reflection.MethodInfo FindMethod_Impl(System.String, System.Type)
 		/// </summary>
-		protected RMethod r_RFindMethod_Impl_String_Type;
+		protected RMethod r_FindMethod_Impl_String_Type;
 		public virtual RMethod RFindMethod_Impl_String_Type
 		{
 			get
 			{
-				if(r_RFindMethod_Impl_String_Type == null)
+				if(r_FindMethod_Impl_String_Type == null)
 				{
-					r_RFindMethod_Impl_String_Type = new(this, "FindMethod_Impl", 0, typeof(System.String), typeof(System.Type));
-					r_RFindMethod_Impl_String_Type.SetBelong(this.instance);
+					r_FindMethod_Impl_String_Type = new(this, "FindMethod_Impl", 0, typeof(System.String), typeof(System.Type));
+					r_FindMethod_Impl_String_Type.SetBelong(this.instance);
 				}
-				return r_RFindMethod_Impl_String_Type;
+				return r_FindMethod_Impl_String_Type;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Events.BaseInvokableCall GetDelegate(System.Object, System.Reflection.MethodInfo)
 		/// </summary>
-		protected RMethod r_RGetDelegate_Object_MethodInfo;
+		protected RMethod r_GetDelegate_Object_MethodInfo;
 		public virtual RMethod RGetDelegate_Object_MethodInfo
 		{
 			get
 			{
-				if(r_RGetDelegate_Object_MethodInfo == null)
+				if(r_GetDelegate_Object_MethodInfo == null)
 				{
-					r_RGetDelegate_Object_MethodInfo = new(this, "GetDelegate", 0, typeof(System.Object), typeof(System.Reflection.MethodInfo));
-					r_RGetDelegate_Object_MethodInfo.SetBelong(this.instance);
+					r_GetDelegate_Object_MethodInfo = new(this, "GetDelegate", 0, typeof(System.Object), typeof(System.Reflection.MethodInfo));
+					r_GetDelegate_Object_MethodInfo.SetBelong(this.instance);
 				}
-				return r_RGetDelegate_Object_MethodInfo;
+				return r_GetDelegate_Object_MethodInfo;
 			}
 		}
 
 		/// <summary>
 		/// Void Invoke(Boolean)
 		/// </summary>
-		protected RMethod r_RInvoke_Boolean;
+		protected RMethod r_Invoke_Boolean;
 		public virtual RMethod RInvoke_Boolean
 		{
 			get
 			{
-				if(r_RInvoke_Boolean == null)
+				if(r_Invoke_Boolean == null)
 				{
-					r_RInvoke_Boolean = new(this, "Invoke", 0, typeof(System.Boolean));
-					r_RInvoke_Boolean.SetBelong(this.instance);
+					r_Invoke_Boolean = new(this, "Invoke", 0, typeof(System.Boolean));
+					r_Invoke_Boolean.SetBelong(this.instance);
 				}
-				return r_RInvoke_Boolean;
+				return r_Invoke_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Void AddPersistentListener(UnityEngine.Events.UnityAction`1[System.Boolean])
 		/// </summary>
-		protected RMethod r_RAddPersistentListener_UnityAction_d_Boolean_p_;
+		protected RMethod r_AddPersistentListener_UnityAction_d_Boolean_p_;
 		public virtual RMethod RAddPersistentListener_UnityAction_d_Boolean_p_
 		{
 			get
 			{
-				if(r_RAddPersistentListener_UnityAction_d_Boolean_p_ == null)
+				if(r_AddPersistentListener_UnityAction_d_Boolean_p_ == null)
 				{
-					r_RAddPersistentListener_UnityAction_d_Boolean_p_ = new(this, "AddPersistentListener", 0, typeof(UnityEngine.Events.UnityAction<>).MakeGenericType(typeof(System.Boolean)));
-					r_RAddPersistentListener_UnityAction_d_Boolean_p_.SetBelong(this.instance);
+					r_AddPersistentListener_UnityAction_d_Boolean_p_ = new(this, "AddPersistentListener", 0, typeof(UnityEngine.Events.UnityAction<>).MakeGenericType(typeof(System.Boolean)));
+					r_AddPersistentListener_UnityAction_d_Boolean_p_.SetBelong(this.instance);
 				}
-				return r_RAddPersistentListener_UnityAction_d_Boolean_p_;
+				return r_AddPersistentListener_UnityAction_d_Boolean_p_;
 			}
 		}
 
 		/// <summary>
 		/// Void AddPersistentListener(UnityEngine.Events.UnityAction`1[System.Boolean], UnityEngine.Events.UnityEventCallState)
 		/// </summary>
-		protected RMethod r_RAddPersistentListener_UnityAction_d_Boolean_p__UnityEventCallState;
+		protected RMethod r_AddPersistentListener_UnityAction_d_Boolean_p__UnityEventCallState;
 		public virtual RMethod RAddPersistentListener_UnityAction_d_Boolean_p__UnityEventCallState
 		{
 			get
 			{
-				if(r_RAddPersistentListener_UnityAction_d_Boolean_p__UnityEventCallState == null)
+				if(r_AddPersistentListener_UnityAction_d_Boolean_p__UnityEventCallState == null)
 				{
-					r_RAddPersistentListener_UnityAction_d_Boolean_p__UnityEventCallState = new(this, "AddPersistentListener", 0, typeof(UnityEngine.Events.UnityAction<>).MakeGenericType(typeof(System.Boolean)), typeof(UnityEngine.Events.UnityEventCallState));
-					r_RAddPersistentListener_UnityAction_d_Boolean_p__UnityEventCallState.SetBelong(this.instance);
+					r_AddPersistentListener_UnityAction_d_Boolean_p__UnityEventCallState = new(this, "AddPersistentListener", 0, typeof(UnityEngine.Events.UnityAction<>).MakeGenericType(typeof(System.Boolean)), typeof(UnityEngine.Events.UnityEventCallState));
+					r_AddPersistentListener_UnityAction_d_Boolean_p__UnityEventCallState.SetBelong(this.instance);
 				}
-				return r_RAddPersistentListener_UnityAction_d_Boolean_p__UnityEventCallState;
+				return r_AddPersistentListener_UnityAction_d_Boolean_p__UnityEventCallState;
 			}
 		}
 
 		/// <summary>
 		/// Void RegisterPersistentListener(Int32, UnityEngine.Events.UnityAction`1[System.Boolean])
 		/// </summary>
-		protected RMethod r_RRegisterPersistentListener_Int32_UnityAction_d_Boolean_p_;
+		protected RMethod r_RegisterPersistentListener_Int32_UnityAction_d_Boolean_p_;
 		public virtual RMethod RRegisterPersistentListener_Int32_UnityAction_d_Boolean_p_
 		{
 			get
 			{
-				if(r_RRegisterPersistentListener_Int32_UnityAction_d_Boolean_p_ == null)
+				if(r_RegisterPersistentListener_Int32_UnityAction_d_Boolean_p_ == null)
 				{
-					r_RRegisterPersistentListener_Int32_UnityAction_d_Boolean_p_ = new(this, "RegisterPersistentListener", 0, typeof(System.Int32), typeof(UnityEngine.Events.UnityAction<>).MakeGenericType(typeof(System.Boolean)));
-					r_RRegisterPersistentListener_Int32_UnityAction_d_Boolean_p_.SetBelong(this.instance);
+					r_RegisterPersistentListener_Int32_UnityAction_d_Boolean_p_ = new(this, "RegisterPersistentListener", 0, typeof(System.Int32), typeof(UnityEngine.Events.UnityAction<>).MakeGenericType(typeof(System.Boolean)));
+					r_RegisterPersistentListener_Int32_UnityAction_d_Boolean_p_.SetBelong(this.instance);
 				}
-				return r_RRegisterPersistentListener_Int32_UnityAction_d_Boolean_p_;
+				return r_RegisterPersistentListener_Int32_UnityAction_d_Boolean_p_;
 			}
 		}
 
 		/// <summary>
 		/// System.Reflection.MethodInfo FindMethod_Impl(System.String, System.Object)
 		/// </summary>
-		protected RMethod r_RFindMethod_Impl_String_Object;
+		protected RMethod r_FindMethod_Impl_String_Object;
 		public virtual RMethod RFindMethod_Impl_String_Object
 		{
 			get
 			{
-				if(r_RFindMethod_Impl_String_Object == null)
+				if(r_FindMethod_Impl_String_Object == null)
 				{
-					r_RFindMethod_Impl_String_Object = new(this, "FindMethod_Impl", 0, typeof(System.String), typeof(System.Object));
-					r_RFindMethod_Impl_String_Object.SetBelong(this.instance);
+					r_FindMethod_Impl_String_Object = new(this, "FindMethod_Impl", 0, typeof(System.String), typeof(System.Object));
+					r_FindMethod_Impl_String_Object.SetBelong(this.instance);
 				}
-				return r_RFindMethod_Impl_String_Object;
+				return r_FindMethod_Impl_String_Object;
 			}
 		}
 
 		/// <summary>
 		/// System.Reflection.MethodInfo FindMethod(UnityEngine.Events.PersistentCall)
 		/// </summary>
-		protected RMethod r_RFindMethod_PersistentCall;
+		protected RMethod r_FindMethod_PersistentCall;
 		public virtual RMethod RFindMethod_PersistentCall
 		{
 			get
 			{
-				if(r_RFindMethod_PersistentCall == null)
+				if(r_FindMethod_PersistentCall == null)
 				{
-					r_RFindMethod_PersistentCall = new(this, "FindMethod", 0,  ReleactionUtils.GetType("UnityEngine.Events.PersistentCall"));
-					r_RFindMethod_PersistentCall.SetBelong(this.instance);
+					r_FindMethod_PersistentCall = new(this, "FindMethod", 0,  ReleactionUtils.GetType("UnityEngine.Events.PersistentCall"));
+					r_FindMethod_PersistentCall.SetBelong(this.instance);
 				}
-				return r_RFindMethod_PersistentCall;
+				return r_FindMethod_PersistentCall;
 			}
 		}
 
 		/// <summary>
 		/// System.Reflection.MethodInfo FindMethod(System.String, System.Type, UnityEngine.Events.PersistentListenerMode, System.Type)
 		/// </summary>
-		protected RMethod r_RFindMethod_String_Type_PersistentListenerMode_Type;
+		protected RMethod r_FindMethod_String_Type_PersistentListenerMode_Type;
 		public virtual RMethod RFindMethod_String_Type_PersistentListenerMode_Type
 		{
 			get
 			{
-				if(r_RFindMethod_String_Type_PersistentListenerMode_Type == null)
+				if(r_FindMethod_String_Type_PersistentListenerMode_Type == null)
 				{
-					r_RFindMethod_String_Type_PersistentListenerMode_Type = new(this, "FindMethod", 0, typeof(System.String), typeof(System.Type), typeof(UnityEngine.Events.PersistentListenerMode), typeof(System.Type));
-					r_RFindMethod_String_Type_PersistentListenerMode_Type.SetBelong(this.instance);
+					r_FindMethod_String_Type_PersistentListenerMode_Type = new(this, "FindMethod", 0, typeof(System.String), typeof(System.Type), typeof(UnityEngine.Events.PersistentListenerMode), typeof(System.Type));
+					r_FindMethod_String_Type_PersistentListenerMode_Type.SetBelong(this.instance);
 				}
-				return r_RFindMethod_String_Type_PersistentListenerMode_Type;
+				return r_FindMethod_String_Type_PersistentListenerMode_Type;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetPersistentEventCount()
 		/// </summary>
-		protected RMethod r_RGetPersistentEventCount;
+		protected RMethod r_GetPersistentEventCount;
 		public virtual RMethod RGetPersistentEventCount
 		{
 			get
 			{
-				if(r_RGetPersistentEventCount == null)
+				if(r_GetPersistentEventCount == null)
 				{
-					r_RGetPersistentEventCount = new(this, "GetPersistentEventCount", 0);
-					r_RGetPersistentEventCount.SetBelong(this.instance);
+					r_GetPersistentEventCount = new(this, "GetPersistentEventCount", 0);
+					r_GetPersistentEventCount.SetBelong(this.instance);
 				}
-				return r_RGetPersistentEventCount;
+				return r_GetPersistentEventCount;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Object GetPersistentTarget(Int32)
 		/// </summary>
-		protected RMethod r_RGetPersistentTarget_Int32;
+		protected RMethod r_GetPersistentTarget_Int32;
 		public virtual RMethod RGetPersistentTarget_Int32
 		{
 			get
 			{
-				if(r_RGetPersistentTarget_Int32 == null)
+				if(r_GetPersistentTarget_Int32 == null)
 				{
-					r_RGetPersistentTarget_Int32 = new(this, "GetPersistentTarget", 0, typeof(System.Int32));
-					r_RGetPersistentTarget_Int32.SetBelong(this.instance);
+					r_GetPersistentTarget_Int32 = new(this, "GetPersistentTarget", 0, typeof(System.Int32));
+					r_GetPersistentTarget_Int32.SetBelong(this.instance);
 				}
-				return r_RGetPersistentTarget_Int32;
+				return r_GetPersistentTarget_Int32;
 			}
 		}
 
 		/// <summary>
 		/// System.String GetPersistentMethodName(Int32)
 		/// </summary>
-		protected RMethod r_RGetPersistentMethodName_Int32;
+		protected RMethod r_GetPersistentMethodName_Int32;
 		public virtual RMethod RGetPersistentMethodName_Int32
 		{
 			get
 			{
-				if(r_RGetPersistentMethodName_Int32 == null)
+				if(r_GetPersistentMethodName_Int32 == null)
 				{
-					r_RGetPersistentMethodName_Int32 = new(this, "GetPersistentMethodName", 0, typeof(System.Int32));
-					r_RGetPersistentMethodName_Int32.SetBelong(this.instance);
+					r_GetPersistentMethodName_Int32 = new(this, "GetPersistentMethodName", 0, typeof(System.Int32));
+					r_GetPersistentMethodName_Int32.SetBelong(this.instance);
 				}
-				return r_RGetPersistentMethodName_Int32;
+				return r_GetPersistentMethodName_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Void SetPersistentListenerState(Int32, UnityEngine.Events.UnityEventCallState)
 		/// </summary>
-		protected RMethod r_RSetPersistentListenerState_Int32_UnityEventCallState;
+		protected RMethod r_SetPersistentListenerState_Int32_UnityEventCallState;
 		public virtual RMethod RSetPersistentListenerState_Int32_UnityEventCallState
 		{
 			get
 			{
-				if(r_RSetPersistentListenerState_Int32_UnityEventCallState == null)
+				if(r_SetPersistentListenerState_Int32_UnityEventCallState == null)
 				{
-					r_RSetPersistentListenerState_Int32_UnityEventCallState = new(this, "SetPersistentListenerState", 0, typeof(System.Int32), typeof(UnityEngine.Events.UnityEventCallState));
-					r_RSetPersistentListenerState_Int32_UnityEventCallState.SetBelong(this.instance);
+					r_SetPersistentListenerState_Int32_UnityEventCallState = new(this, "SetPersistentListenerState", 0, typeof(System.Int32), typeof(UnityEngine.Events.UnityEventCallState));
+					r_SetPersistentListenerState_Int32_UnityEventCallState.SetBelong(this.instance);
 				}
-				return r_RSetPersistentListenerState_Int32_UnityEventCallState;
+				return r_SetPersistentListenerState_Int32_UnityEventCallState;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Events.UnityEventCallState GetPersistentListenerState(Int32)
 		/// </summary>
-		protected RMethod r_RGetPersistentListenerState_Int32;
+		protected RMethod r_GetPersistentListenerState_Int32;
 		public virtual RMethod RGetPersistentListenerState_Int32
 		{
 			get
 			{
-				if(r_RGetPersistentListenerState_Int32 == null)
+				if(r_GetPersistentListenerState_Int32 == null)
 				{
-					r_RGetPersistentListenerState_Int32 = new(this, "GetPersistentListenerState", 0, typeof(System.Int32));
-					r_RGetPersistentListenerState_Int32.SetBelong(this.instance);
+					r_GetPersistentListenerState_Int32 = new(this, "GetPersistentListenerState", 0, typeof(System.Int32));
+					r_GetPersistentListenerState_Int32.SetBelong(this.instance);
 				}
-				return r_RGetPersistentListenerState_Int32;
+				return r_GetPersistentListenerState_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Void AddListener(System.Object, System.Reflection.MethodInfo)
 		/// </summary>
-		protected RMethod r_RAddListener_Object_MethodInfo;
+		protected RMethod r_AddListener_Object_MethodInfo;
 		public virtual RMethod RAddListener_Object_MethodInfo
 		{
 			get
 			{
-				if(r_RAddListener_Object_MethodInfo == null)
+				if(r_AddListener_Object_MethodInfo == null)
 				{
-					r_RAddListener_Object_MethodInfo = new(this, "AddListener", 0, typeof(System.Object), typeof(System.Reflection.MethodInfo));
-					r_RAddListener_Object_MethodInfo.SetBelong(this.instance);
+					r_AddListener_Object_MethodInfo = new(this, "AddListener", 0, typeof(System.Object), typeof(System.Reflection.MethodInfo));
+					r_AddListener_Object_MethodInfo.SetBelong(this.instance);
 				}
-				return r_RAddListener_Object_MethodInfo;
+				return r_AddListener_Object_MethodInfo;
 			}
 		}
 
 		/// <summary>
 		/// Void AddCall(UnityEngine.Events.BaseInvokableCall)
 		/// </summary>
-		protected RMethod r_RAddCall_BaseInvokableCall;
+		protected RMethod r_AddCall_BaseInvokableCall;
 		public virtual RMethod RAddCall_BaseInvokableCall
 		{
 			get
 			{
-				if(r_RAddCall_BaseInvokableCall == null)
+				if(r_AddCall_BaseInvokableCall == null)
 				{
-					r_RAddCall_BaseInvokableCall = new(this, "AddCall", 0,  ReleactionUtils.GetType("UnityEngine.Events.BaseInvokableCall"));
-					r_RAddCall_BaseInvokableCall.SetBelong(this.instance);
+					r_AddCall_BaseInvokableCall = new(this, "AddCall", 0,  ReleactionUtils.GetType("UnityEngine.Events.BaseInvokableCall"));
+					r_AddCall_BaseInvokableCall.SetBelong(this.instance);
 				}
-				return r_RAddCall_BaseInvokableCall;
+				return r_AddCall_BaseInvokableCall;
 			}
 		}
 
 		/// <summary>
 		/// Void RemoveListener(System.Object, System.Reflection.MethodInfo)
 		/// </summary>
-		protected RMethod r_RRemoveListener_Object_MethodInfo;
+		protected RMethod r_RemoveListener_Object_MethodInfo;
 		public virtual RMethod RRemoveListener_Object_MethodInfo
 		{
 			get
 			{
-				if(r_RRemoveListener_Object_MethodInfo == null)
+				if(r_RemoveListener_Object_MethodInfo == null)
 				{
-					r_RRemoveListener_Object_MethodInfo = new(this, "RemoveListener", 0, typeof(System.Object), typeof(System.Reflection.MethodInfo));
-					r_RRemoveListener_Object_MethodInfo.SetBelong(this.instance);
+					r_RemoveListener_Object_MethodInfo = new(this, "RemoveListener", 0, typeof(System.Object), typeof(System.Reflection.MethodInfo));
+					r_RemoveListener_Object_MethodInfo.SetBelong(this.instance);
 				}
-				return r_RRemoveListener_Object_MethodInfo;
+				return r_RemoveListener_Object_MethodInfo;
 			}
 		}
 
 		/// <summary>
 		/// Void RemoveAllListeners()
 		/// </summary>
-		protected RMethod r_RRemoveAllListeners;
+		protected RMethod r_RemoveAllListeners;
 		public virtual RMethod RRemoveAllListeners
 		{
 			get
 			{
-				if(r_RRemoveAllListeners == null)
+				if(r_RemoveAllListeners == null)
 				{
-					r_RRemoveAllListeners = new(this, "RemoveAllListeners", 0);
-					r_RRemoveAllListeners.SetBelong(this.instance);
+					r_RemoveAllListeners = new(this, "RemoveAllListeners", 0);
+					r_RemoveAllListeners.SetBelong(this.instance);
 				}
-				return r_RRemoveAllListeners;
+				return r_RemoveAllListeners;
 			}
 		}
 
 		/// <summary>
 		/// System.Collections.Generic.List`1[UnityEngine.Events.BaseInvokableCall] PrepareInvoke()
 		/// </summary>
-		protected RMethod r_RPrepareInvoke;
+		protected RMethod r_PrepareInvoke;
 		public virtual RMethod RPrepareInvoke
 		{
 			get
 			{
-				if(r_RPrepareInvoke == null)
+				if(r_PrepareInvoke == null)
 				{
-					r_RPrepareInvoke = new(this, "PrepareInvoke", 0);
-					r_RPrepareInvoke.SetBelong(this.instance);
+					r_PrepareInvoke = new(this, "PrepareInvoke", 0);
+					r_PrepareInvoke.SetBelong(this.instance);
 				}
-				return r_RPrepareInvoke;
+				return r_PrepareInvoke;
 			}
 		}
 
 		/// <summary>
 		/// Void Invoke(System.Object[])
 		/// </summary>
-		protected RMethod r_RInvoke_ObjectArray;
+		protected RMethod r_Invoke_ObjectArray;
 		public virtual RMethod RInvoke_ObjectArray
 		{
 			get
 			{
-				if(r_RInvoke_ObjectArray == null)
+				if(r_Invoke_ObjectArray == null)
 				{
-					r_RInvoke_ObjectArray = new(this, "Invoke", 0, typeof(System.Object).MakeArrayType());
-					r_RInvoke_ObjectArray.SetBelong(this.instance);
+					r_Invoke_ObjectArray = new(this, "Invoke", 0, typeof(System.Object).MakeArrayType());
+					r_Invoke_ObjectArray.SetBelong(this.instance);
 				}
-				return r_RInvoke_ObjectArray;
+				return r_Invoke_ObjectArray;
 			}
 		}
 
 		/// <summary>
 		/// System.String ToString()
 		/// </summary>
-		protected RMethod r_RToString;
+		protected RMethod r_ToString;
 		public virtual RMethod RToString
 		{
 			get
 			{
-				if(r_RToString == null)
+				if(r_ToString == null)
 				{
-					r_RToString = new(this, "ToString", 0);
-					r_RToString.SetBelong(this.instance);
+					r_ToString = new(this, "ToString", 0);
+					r_ToString.SetBelong(this.instance);
 				}
-				return r_RToString;
+				return r_ToString;
 			}
 		}
 
 		/// <summary>
 		/// Boolean ValidateRegistration(System.Reflection.MethodInfo, System.Object, UnityEngine.Events.PersistentListenerMode)
 		/// </summary>
-		protected RMethod r_RValidateRegistration_MethodInfo_Object_PersistentListenerMode;
+		protected RMethod r_ValidateRegistration_MethodInfo_Object_PersistentListenerMode;
 		public virtual RMethod RValidateRegistration_MethodInfo_Object_PersistentListenerMode
 		{
 			get
 			{
-				if(r_RValidateRegistration_MethodInfo_Object_PersistentListenerMode == null)
+				if(r_ValidateRegistration_MethodInfo_Object_PersistentListenerMode == null)
 				{
-					r_RValidateRegistration_MethodInfo_Object_PersistentListenerMode = new(this, "ValidateRegistration", 0, typeof(System.Reflection.MethodInfo), typeof(System.Object), typeof(UnityEngine.Events.PersistentListenerMode));
-					r_RValidateRegistration_MethodInfo_Object_PersistentListenerMode.SetBelong(this.instance);
+					r_ValidateRegistration_MethodInfo_Object_PersistentListenerMode = new(this, "ValidateRegistration", 0, typeof(System.Reflection.MethodInfo), typeof(System.Object), typeof(UnityEngine.Events.PersistentListenerMode));
+					r_ValidateRegistration_MethodInfo_Object_PersistentListenerMode.SetBelong(this.instance);
 				}
-				return r_RValidateRegistration_MethodInfo_Object_PersistentListenerMode;
+				return r_ValidateRegistration_MethodInfo_Object_PersistentListenerMode;
 			}
 		}
 
 		/// <summary>
 		/// Boolean ValidateRegistration(System.Reflection.MethodInfo, System.Object, UnityEngine.Events.PersistentListenerMode, System.Type)
 		/// </summary>
-		protected RMethod r_RValidateRegistration_MethodInfo_Object_PersistentListenerMode_Type;
+		protected RMethod r_ValidateRegistration_MethodInfo_Object_PersistentListenerMode_Type;
 		public virtual RMethod RValidateRegistration_MethodInfo_Object_PersistentListenerMode_Type
 		{
 			get
 			{
-				if(r_RValidateRegistration_MethodInfo_Object_PersistentListenerMode_Type == null)
+				if(r_ValidateRegistration_MethodInfo_Object_PersistentListenerMode_Type == null)
 				{
-					r_RValidateRegistration_MethodInfo_Object_PersistentListenerMode_Type = new(this, "ValidateRegistration", 0, typeof(System.Reflection.MethodInfo), typeof(System.Object), typeof(UnityEngine.Events.PersistentListenerMode), typeof(System.Type));
-					r_RValidateRegistration_MethodInfo_Object_PersistentListenerMode_Type.SetBelong(this.instance);
+					r_ValidateRegistration_MethodInfo_Object_PersistentListenerMode_Type = new(this, "ValidateRegistration", 0, typeof(System.Reflection.MethodInfo), typeof(System.Object), typeof(UnityEngine.Events.PersistentListenerMode), typeof(System.Type));
+					r_ValidateRegistration_MethodInfo_Object_PersistentListenerMode_Type.SetBelong(this.instance);
 				}
-				return r_RValidateRegistration_MethodInfo_Object_PersistentListenerMode_Type;
+				return r_ValidateRegistration_MethodInfo_Object_PersistentListenerMode_Type;
 			}
 		}
 
 		/// <summary>
 		/// Void AddPersistentListener()
 		/// </summary>
-		protected RMethod r_RAddPersistentListener;
+		protected RMethod r_AddPersistentListener;
 		public virtual RMethod RAddPersistentListener
 		{
 			get
 			{
-				if(r_RAddPersistentListener == null)
+				if(r_AddPersistentListener == null)
 				{
-					r_RAddPersistentListener = new(this, "AddPersistentListener", 0);
-					r_RAddPersistentListener.SetBelong(this.instance);
+					r_AddPersistentListener = new(this, "AddPersistentListener", 0);
+					r_AddPersistentListener.SetBelong(this.instance);
 				}
-				return r_RAddPersistentListener;
+				return r_AddPersistentListener;
 			}
 		}
 
 		/// <summary>
 		/// Void RegisterPersistentListener(Int32, System.Object, System.Reflection.MethodInfo)
 		/// </summary>
-		protected RMethod r_RRegisterPersistentListener_Int32_Object_MethodInfo;
+		protected RMethod r_RegisterPersistentListener_Int32_Object_MethodInfo;
 		public virtual RMethod RRegisterPersistentListener_Int32_Object_MethodInfo
 		{
 			get
 			{
-				if(r_RRegisterPersistentListener_Int32_Object_MethodInfo == null)
+				if(r_RegisterPersistentListener_Int32_Object_MethodInfo == null)
 				{
-					r_RRegisterPersistentListener_Int32_Object_MethodInfo = new(this, "RegisterPersistentListener", 0, typeof(System.Int32), typeof(System.Object), typeof(System.Reflection.MethodInfo));
-					r_RRegisterPersistentListener_Int32_Object_MethodInfo.SetBelong(this.instance);
+					r_RegisterPersistentListener_Int32_Object_MethodInfo = new(this, "RegisterPersistentListener", 0, typeof(System.Int32), typeof(System.Object), typeof(System.Reflection.MethodInfo));
+					r_RegisterPersistentListener_Int32_Object_MethodInfo.SetBelong(this.instance);
 				}
-				return r_RRegisterPersistentListener_Int32_Object_MethodInfo;
+				return r_RegisterPersistentListener_Int32_Object_MethodInfo;
 			}
 		}
 
 		/// <summary>
 		/// Void RegisterPersistentListener(Int32, System.Object, System.Type, System.Reflection.MethodInfo)
 		/// </summary>
-		protected RMethod r_RRegisterPersistentListener_Int32_Object_Type_MethodInfo;
+		protected RMethod r_RegisterPersistentListener_Int32_Object_Type_MethodInfo;
 		public virtual RMethod RRegisterPersistentListener_Int32_Object_Type_MethodInfo
 		{
 			get
 			{
-				if(r_RRegisterPersistentListener_Int32_Object_Type_MethodInfo == null)
+				if(r_RegisterPersistentListener_Int32_Object_Type_MethodInfo == null)
 				{
-					r_RRegisterPersistentListener_Int32_Object_Type_MethodInfo = new(this, "RegisterPersistentListener", 0, typeof(System.Int32), typeof(System.Object), typeof(System.Type), typeof(System.Reflection.MethodInfo));
-					r_RRegisterPersistentListener_Int32_Object_Type_MethodInfo.SetBelong(this.instance);
+					r_RegisterPersistentListener_Int32_Object_Type_MethodInfo = new(this, "RegisterPersistentListener", 0, typeof(System.Int32), typeof(System.Object), typeof(System.Type), typeof(System.Reflection.MethodInfo));
+					r_RegisterPersistentListener_Int32_Object_Type_MethodInfo.SetBelong(this.instance);
 				}
-				return r_RRegisterPersistentListener_Int32_Object_Type_MethodInfo;
+				return r_RegisterPersistentListener_Int32_Object_Type_MethodInfo;
 			}
 		}
 
 		/// <summary>
 		/// Void RemovePersistentListener(UnityEngine.Object, System.Reflection.MethodInfo)
 		/// </summary>
-		protected RMethod r_RRemovePersistentListener_Object_MethodInfo;
+		protected RMethod r_RemovePersistentListener_Object_MethodInfo;
 		public virtual RMethod RRemovePersistentListener_Object_MethodInfo
 		{
 			get
 			{
-				if(r_RRemovePersistentListener_Object_MethodInfo == null)
+				if(r_RemovePersistentListener_Object_MethodInfo == null)
 				{
-					r_RRemovePersistentListener_Object_MethodInfo = new(this, "RemovePersistentListener", 0, typeof(UnityEngine.Object), typeof(System.Reflection.MethodInfo));
-					r_RRemovePersistentListener_Object_MethodInfo.SetBelong(this.instance);
+					r_RemovePersistentListener_Object_MethodInfo = new(this, "RemovePersistentListener", 0, typeof(UnityEngine.Object), typeof(System.Reflection.MethodInfo));
+					r_RemovePersistentListener_Object_MethodInfo.SetBelong(this.instance);
 				}
-				return r_RRemovePersistentListener_Object_MethodInfo;
+				return r_RemovePersistentListener_Object_MethodInfo;
 			}
 		}
 
 		/// <summary>
 		/// Void RemovePersistentListener(Int32)
 		/// </summary>
-		protected RMethod r_RRemovePersistentListener_Int32;
+		protected RMethod r_RemovePersistentListener_Int32;
 		public virtual RMethod RRemovePersistentListener_Int32
 		{
 			get
 			{
-				if(r_RRemovePersistentListener_Int32 == null)
+				if(r_RemovePersistentListener_Int32 == null)
 				{
-					r_RRemovePersistentListener_Int32 = new(this, "RemovePersistentListener", 0, typeof(System.Int32));
-					r_RRemovePersistentListener_Int32.SetBelong(this.instance);
+					r_RemovePersistentListener_Int32 = new(this, "RemovePersistentListener", 0, typeof(System.Int32));
+					r_RemovePersistentListener_Int32.SetBelong(this.instance);
 				}
-				return r_RRemovePersistentListener_Int32;
+				return r_RemovePersistentListener_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Void UnregisterPersistentListener(Int32)
 		/// </summary>
-		protected RMethod r_RUnregisterPersistentListener_Int32;
+		protected RMethod r_UnregisterPersistentListener_Int32;
 		public virtual RMethod RUnregisterPersistentListener_Int32
 		{
 			get
 			{
-				if(r_RUnregisterPersistentListener_Int32 == null)
+				if(r_UnregisterPersistentListener_Int32 == null)
 				{
-					r_RUnregisterPersistentListener_Int32 = new(this, "UnregisterPersistentListener", 0, typeof(System.Int32));
-					r_RUnregisterPersistentListener_Int32.SetBelong(this.instance);
+					r_UnregisterPersistentListener_Int32 = new(this, "UnregisterPersistentListener", 0, typeof(System.Int32));
+					r_UnregisterPersistentListener_Int32.SetBelong(this.instance);
 				}
-				return r_RUnregisterPersistentListener_Int32;
+				return r_UnregisterPersistentListener_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Void AddVoidPersistentListener(UnityEngine.Events.UnityAction)
 		/// </summary>
-		protected RMethod r_RAddVoidPersistentListener_UnityAction;
+		protected RMethod r_AddVoidPersistentListener_UnityAction;
 		public virtual RMethod RAddVoidPersistentListener_UnityAction
 		{
 			get
 			{
-				if(r_RAddVoidPersistentListener_UnityAction == null)
+				if(r_AddVoidPersistentListener_UnityAction == null)
 				{
-					r_RAddVoidPersistentListener_UnityAction = new(this, "AddVoidPersistentListener", 0, typeof(UnityEngine.Events.UnityAction));
-					r_RAddVoidPersistentListener_UnityAction.SetBelong(this.instance);
+					r_AddVoidPersistentListener_UnityAction = new(this, "AddVoidPersistentListener", 0, typeof(UnityEngine.Events.UnityAction));
+					r_AddVoidPersistentListener_UnityAction.SetBelong(this.instance);
 				}
-				return r_RAddVoidPersistentListener_UnityAction;
+				return r_AddVoidPersistentListener_UnityAction;
 			}
 		}
 
 		/// <summary>
 		/// Void RegisterVoidPersistentListener(Int32, UnityEngine.Events.UnityAction)
 		/// </summary>
-		protected RMethod r_RRegisterVoidPersistentListener_Int32_UnityAction;
+		protected RMethod r_RegisterVoidPersistentListener_Int32_UnityAction;
 		public virtual RMethod RRegisterVoidPersistentListener_Int32_UnityAction
 		{
 			get
 			{
-				if(r_RRegisterVoidPersistentListener_Int32_UnityAction == null)
+				if(r_RegisterVoidPersistentListener_Int32_UnityAction == null)
 				{
-					r_RRegisterVoidPersistentListener_Int32_UnityAction = new(this, "RegisterVoidPersistentListener", 0, typeof(System.Int32), typeof(UnityEngine.Events.UnityAction));
-					r_RRegisterVoidPersistentListener_Int32_UnityAction.SetBelong(this.instance);
+					r_RegisterVoidPersistentListener_Int32_UnityAction = new(this, "RegisterVoidPersistentListener", 0, typeof(System.Int32), typeof(UnityEngine.Events.UnityAction));
+					r_RegisterVoidPersistentListener_Int32_UnityAction.SetBelong(this.instance);
 				}
-				return r_RRegisterVoidPersistentListener_Int32_UnityAction;
+				return r_RegisterVoidPersistentListener_Int32_UnityAction;
 			}
 		}
 
 		/// <summary>
 		/// Void RegisterVoidPersistentListenerWithoutValidation(Int32, UnityEngine.Object, System.String)
 		/// </summary>
-		protected RMethod r_RRegisterVoidPersistentListenerWithoutValidation_Int32_Object_String;
+		protected RMethod r_RegisterVoidPersistentListenerWithoutValidation_Int32_Object_String;
 		public virtual RMethod RRegisterVoidPersistentListenerWithoutValidation_Int32_Object_String
 		{
 			get
 			{
-				if(r_RRegisterVoidPersistentListenerWithoutValidation_Int32_Object_String == null)
+				if(r_RegisterVoidPersistentListenerWithoutValidation_Int32_Object_String == null)
 				{
-					r_RRegisterVoidPersistentListenerWithoutValidation_Int32_Object_String = new(this, "RegisterVoidPersistentListenerWithoutValidation", 0, typeof(System.Int32), typeof(UnityEngine.Object), typeof(System.String));
-					r_RRegisterVoidPersistentListenerWithoutValidation_Int32_Object_String.SetBelong(this.instance);
+					r_RegisterVoidPersistentListenerWithoutValidation_Int32_Object_String = new(this, "RegisterVoidPersistentListenerWithoutValidation", 0, typeof(System.Int32), typeof(UnityEngine.Object), typeof(System.String));
+					r_RegisterVoidPersistentListenerWithoutValidation_Int32_Object_String.SetBelong(this.instance);
 				}
-				return r_RRegisterVoidPersistentListenerWithoutValidation_Int32_Object_String;
+				return r_RegisterVoidPersistentListenerWithoutValidation_Int32_Object_String;
 			}
 		}
 
 		/// <summary>
 		/// Void RegisterVoidPersistentListenerWithoutValidation(Int32, UnityEngine.Object, System.Type, System.String)
 		/// </summary>
-		protected RMethod r_RRegisterVoidPersistentListenerWithoutValidation_Int32_Object_Type_String;
+		protected RMethod r_RegisterVoidPersistentListenerWithoutValidation_Int32_Object_Type_String;
 		public virtual RMethod RRegisterVoidPersistentListenerWithoutValidation_Int32_Object_Type_String
 		{
 			get
 			{
-				if(r_RRegisterVoidPersistentListenerWithoutValidation_Int32_Object_Type_String == null)
+				if(r_RegisterVoidPersistentListenerWithoutValidation_Int32_Object_Type_String == null)
 				{
-					r_RRegisterVoidPersistentListenerWithoutValidation_Int32_Object_Type_String = new(this, "RegisterVoidPersistentListenerWithoutValidation", 0, typeof(System.Int32), typeof(UnityEngine.Object), typeof(System.Type), typeof(System.String));
-					r_RRegisterVoidPersistentListenerWithoutValidation_Int32_Object_Type_String.SetBelong(this.instance);
+					r_RegisterVoidPersistentListenerWithoutValidation_Int32_Object_Type_String = new(this, "RegisterVoidPersistentListenerWithoutValidation", 0, typeof(System.Int32), typeof(UnityEngine.Object), typeof(System.Type), typeof(System.String));
+					r_RegisterVoidPersistentListenerWithoutValidation_Int32_Object_Type_String.SetBelong(this.instance);
 				}
-				return r_RRegisterVoidPersistentListenerWithoutValidation_Int32_Object_Type_String;
+				return r_RegisterVoidPersistentListenerWithoutValidation_Int32_Object_Type_String;
 			}
 		}
 
 		/// <summary>
 		/// Void AddIntPersistentListener(UnityEngine.Events.UnityAction`1[System.Int32], Int32)
 		/// </summary>
-		protected RMethod r_RAddIntPersistentListener_UnityAction_d_Int32_p__Int32;
+		protected RMethod r_AddIntPersistentListener_UnityAction_d_Int32_p__Int32;
 		public virtual RMethod RAddIntPersistentListener_UnityAction_d_Int32_p__Int32
 		{
 			get
 			{
-				if(r_RAddIntPersistentListener_UnityAction_d_Int32_p__Int32 == null)
+				if(r_AddIntPersistentListener_UnityAction_d_Int32_p__Int32 == null)
 				{
-					r_RAddIntPersistentListener_UnityAction_d_Int32_p__Int32 = new(this, "AddIntPersistentListener", 0, typeof(UnityEngine.Events.UnityAction<>).MakeGenericType(typeof(System.Int32)), typeof(System.Int32));
-					r_RAddIntPersistentListener_UnityAction_d_Int32_p__Int32.SetBelong(this.instance);
+					r_AddIntPersistentListener_UnityAction_d_Int32_p__Int32 = new(this, "AddIntPersistentListener", 0, typeof(UnityEngine.Events.UnityAction<>).MakeGenericType(typeof(System.Int32)), typeof(System.Int32));
+					r_AddIntPersistentListener_UnityAction_d_Int32_p__Int32.SetBelong(this.instance);
 				}
-				return r_RAddIntPersistentListener_UnityAction_d_Int32_p__Int32;
+				return r_AddIntPersistentListener_UnityAction_d_Int32_p__Int32;
 			}
 		}
 
 		/// <summary>
 		/// Void RegisterIntPersistentListener(Int32, UnityEngine.Events.UnityAction`1[System.Int32], Int32)
 		/// </summary>
-		protected RMethod r_RRegisterIntPersistentListener_Int32_UnityAction_d_Int32_p__Int32;
+		protected RMethod r_RegisterIntPersistentListener_Int32_UnityAction_d_Int32_p__Int32;
 		public virtual RMethod RRegisterIntPersistentListener_Int32_UnityAction_d_Int32_p__Int32
 		{
 			get
 			{
-				if(r_RRegisterIntPersistentListener_Int32_UnityAction_d_Int32_p__Int32 == null)
+				if(r_RegisterIntPersistentListener_Int32_UnityAction_d_Int32_p__Int32 == null)
 				{
-					r_RRegisterIntPersistentListener_Int32_UnityAction_d_Int32_p__Int32 = new(this, "RegisterIntPersistentListener", 0, typeof(System.Int32), typeof(UnityEngine.Events.UnityAction<>).MakeGenericType(typeof(System.Int32)), typeof(System.Int32));
-					r_RRegisterIntPersistentListener_Int32_UnityAction_d_Int32_p__Int32.SetBelong(this.instance);
+					r_RegisterIntPersistentListener_Int32_UnityAction_d_Int32_p__Int32 = new(this, "RegisterIntPersistentListener", 0, typeof(System.Int32), typeof(UnityEngine.Events.UnityAction<>).MakeGenericType(typeof(System.Int32)), typeof(System.Int32));
+					r_RegisterIntPersistentListener_Int32_UnityAction_d_Int32_p__Int32.SetBelong(this.instance);
 				}
-				return r_RRegisterIntPersistentListener_Int32_UnityAction_d_Int32_p__Int32;
+				return r_RegisterIntPersistentListener_Int32_UnityAction_d_Int32_p__Int32;
 			}
 		}
 
 		/// <summary>
 		/// Void AddFloatPersistentListener(UnityEngine.Events.UnityAction`1[System.Single], Single)
 		/// </summary>
-		protected RMethod r_RAddFloatPersistentListener_UnityAction_d_Single_p__Single;
+		protected RMethod r_AddFloatPersistentListener_UnityAction_d_Single_p__Single;
 		public virtual RMethod RAddFloatPersistentListener_UnityAction_d_Single_p__Single
 		{
 			get
 			{
-				if(r_RAddFloatPersistentListener_UnityAction_d_Single_p__Single == null)
+				if(r_AddFloatPersistentListener_UnityAction_d_Single_p__Single == null)
 				{
-					r_RAddFloatPersistentListener_UnityAction_d_Single_p__Single = new(this, "AddFloatPersistentListener", 0, typeof(UnityEngine.Events.UnityAction<>).MakeGenericType(typeof(System.Single)), typeof(System.Single));
-					r_RAddFloatPersistentListener_UnityAction_d_Single_p__Single.SetBelong(this.instance);
+					r_AddFloatPersistentListener_UnityAction_d_Single_p__Single = new(this, "AddFloatPersistentListener", 0, typeof(UnityEngine.Events.UnityAction<>).MakeGenericType(typeof(System.Single)), typeof(System.Single));
+					r_AddFloatPersistentListener_UnityAction_d_Single_p__Single.SetBelong(this.instance);
 				}
-				return r_RAddFloatPersistentListener_UnityAction_d_Single_p__Single;
+				return r_AddFloatPersistentListener_UnityAction_d_Single_p__Single;
 			}
 		}
 
 		/// <summary>
 		/// Void RegisterFloatPersistentListener(Int32, UnityEngine.Events.UnityAction`1[System.Single], Single)
 		/// </summary>
-		protected RMethod r_RRegisterFloatPersistentListener_Int32_UnityAction_d_Single_p__Single;
+		protected RMethod r_RegisterFloatPersistentListener_Int32_UnityAction_d_Single_p__Single;
 		public virtual RMethod RRegisterFloatPersistentListener_Int32_UnityAction_d_Single_p__Single
 		{
 			get
 			{
-				if(r_RRegisterFloatPersistentListener_Int32_UnityAction_d_Single_p__Single == null)
+				if(r_RegisterFloatPersistentListener_Int32_UnityAction_d_Single_p__Single == null)
 				{
-					r_RRegisterFloatPersistentListener_Int32_UnityAction_d_Single_p__Single = new(this, "RegisterFloatPersistentListener", 0, typeof(System.Int32), typeof(UnityEngine.Events.UnityAction<>).MakeGenericType(typeof(System.Single)), typeof(System.Single));
-					r_RRegisterFloatPersistentListener_Int32_UnityAction_d_Single_p__Single.SetBelong(this.instance);
+					r_RegisterFloatPersistentListener_Int32_UnityAction_d_Single_p__Single = new(this, "RegisterFloatPersistentListener", 0, typeof(System.Int32), typeof(UnityEngine.Events.UnityAction<>).MakeGenericType(typeof(System.Single)), typeof(System.Single));
+					r_RegisterFloatPersistentListener_Int32_UnityAction_d_Single_p__Single.SetBelong(this.instance);
 				}
-				return r_RRegisterFloatPersistentListener_Int32_UnityAction_d_Single_p__Single;
+				return r_RegisterFloatPersistentListener_Int32_UnityAction_d_Single_p__Single;
 			}
 		}
 
 		/// <summary>
 		/// Void AddBoolPersistentListener(UnityEngine.Events.UnityAction`1[System.Boolean], Boolean)
 		/// </summary>
-		protected RMethod r_RAddBoolPersistentListener_UnityAction_d_Boolean_p__Boolean;
+		protected RMethod r_AddBoolPersistentListener_UnityAction_d_Boolean_p__Boolean;
 		public virtual RMethod RAddBoolPersistentListener_UnityAction_d_Boolean_p__Boolean
 		{
 			get
 			{
-				if(r_RAddBoolPersistentListener_UnityAction_d_Boolean_p__Boolean == null)
+				if(r_AddBoolPersistentListener_UnityAction_d_Boolean_p__Boolean == null)
 				{
-					r_RAddBoolPersistentListener_UnityAction_d_Boolean_p__Boolean = new(this, "AddBoolPersistentListener", 0, typeof(UnityEngine.Events.UnityAction<>).MakeGenericType(typeof(System.Boolean)), typeof(System.Boolean));
-					r_RAddBoolPersistentListener_UnityAction_d_Boolean_p__Boolean.SetBelong(this.instance);
+					r_AddBoolPersistentListener_UnityAction_d_Boolean_p__Boolean = new(this, "AddBoolPersistentListener", 0, typeof(UnityEngine.Events.UnityAction<>).MakeGenericType(typeof(System.Boolean)), typeof(System.Boolean));
+					r_AddBoolPersistentListener_UnityAction_d_Boolean_p__Boolean.SetBelong(this.instance);
 				}
-				return r_RAddBoolPersistentListener_UnityAction_d_Boolean_p__Boolean;
+				return r_AddBoolPersistentListener_UnityAction_d_Boolean_p__Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Void RegisterBoolPersistentListener(Int32, UnityEngine.Events.UnityAction`1[System.Boolean], Boolean)
 		/// </summary>
-		protected RMethod r_RRegisterBoolPersistentListener_Int32_UnityAction_d_Boolean_p__Boolean;
+		protected RMethod r_RegisterBoolPersistentListener_Int32_UnityAction_d_Boolean_p__Boolean;
 		public virtual RMethod RRegisterBoolPersistentListener_Int32_UnityAction_d_Boolean_p__Boolean
 		{
 			get
 			{
-				if(r_RRegisterBoolPersistentListener_Int32_UnityAction_d_Boolean_p__Boolean == null)
+				if(r_RegisterBoolPersistentListener_Int32_UnityAction_d_Boolean_p__Boolean == null)
 				{
-					r_RRegisterBoolPersistentListener_Int32_UnityAction_d_Boolean_p__Boolean = new(this, "RegisterBoolPersistentListener", 0, typeof(System.Int32), typeof(UnityEngine.Events.UnityAction<>).MakeGenericType(typeof(System.Boolean)), typeof(System.Boolean));
-					r_RRegisterBoolPersistentListener_Int32_UnityAction_d_Boolean_p__Boolean.SetBelong(this.instance);
+					r_RegisterBoolPersistentListener_Int32_UnityAction_d_Boolean_p__Boolean = new(this, "RegisterBoolPersistentListener", 0, typeof(System.Int32), typeof(UnityEngine.Events.UnityAction<>).MakeGenericType(typeof(System.Boolean)), typeof(System.Boolean));
+					r_RegisterBoolPersistentListener_Int32_UnityAction_d_Boolean_p__Boolean.SetBelong(this.instance);
 				}
-				return r_RRegisterBoolPersistentListener_Int32_UnityAction_d_Boolean_p__Boolean;
+				return r_RegisterBoolPersistentListener_Int32_UnityAction_d_Boolean_p__Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Void AddStringPersistentListener(UnityEngine.Events.UnityAction`1[System.String], System.String)
 		/// </summary>
-		protected RMethod r_RAddStringPersistentListener_UnityAction_d_String_p__String;
+		protected RMethod r_AddStringPersistentListener_UnityAction_d_String_p__String;
 		public virtual RMethod RAddStringPersistentListener_UnityAction_d_String_p__String
 		{
 			get
 			{
-				if(r_RAddStringPersistentListener_UnityAction_d_String_p__String == null)
+				if(r_AddStringPersistentListener_UnityAction_d_String_p__String == null)
 				{
-					r_RAddStringPersistentListener_UnityAction_d_String_p__String = new(this, "AddStringPersistentListener", 0, typeof(UnityEngine.Events.UnityAction<>).MakeGenericType(typeof(System.String)), typeof(System.String));
-					r_RAddStringPersistentListener_UnityAction_d_String_p__String.SetBelong(this.instance);
+					r_AddStringPersistentListener_UnityAction_d_String_p__String = new(this, "AddStringPersistentListener", 0, typeof(UnityEngine.Events.UnityAction<>).MakeGenericType(typeof(System.String)), typeof(System.String));
+					r_AddStringPersistentListener_UnityAction_d_String_p__String.SetBelong(this.instance);
 				}
-				return r_RAddStringPersistentListener_UnityAction_d_String_p__String;
+				return r_AddStringPersistentListener_UnityAction_d_String_p__String;
 			}
 		}
 
 		/// <summary>
 		/// Void RegisterStringPersistentListener(Int32, UnityEngine.Events.UnityAction`1[System.String], System.String)
 		/// </summary>
-		protected RMethod r_RRegisterStringPersistentListener_Int32_UnityAction_d_String_p__String;
+		protected RMethod r_RegisterStringPersistentListener_Int32_UnityAction_d_String_p__String;
 		public virtual RMethod RRegisterStringPersistentListener_Int32_UnityAction_d_String_p__String
 		{
 			get
 			{
-				if(r_RRegisterStringPersistentListener_Int32_UnityAction_d_String_p__String == null)
+				if(r_RegisterStringPersistentListener_Int32_UnityAction_d_String_p__String == null)
 				{
-					r_RRegisterStringPersistentListener_Int32_UnityAction_d_String_p__String = new(this, "RegisterStringPersistentListener", 0, typeof(System.Int32), typeof(UnityEngine.Events.UnityAction<>).MakeGenericType(typeof(System.String)), typeof(System.String));
-					r_RRegisterStringPersistentListener_Int32_UnityAction_d_String_p__String.SetBelong(this.instance);
+					r_RegisterStringPersistentListener_Int32_UnityAction_d_String_p__String = new(this, "RegisterStringPersistentListener", 0, typeof(System.Int32), typeof(UnityEngine.Events.UnityAction<>).MakeGenericType(typeof(System.String)), typeof(System.String));
+					r_RegisterStringPersistentListener_Int32_UnityAction_d_String_p__String.SetBelong(this.instance);
 				}
-				return r_RRegisterStringPersistentListener_Int32_UnityAction_d_String_p__String;
+				return r_RegisterStringPersistentListener_Int32_UnityAction_d_String_p__String;
 			}
 		}
 
 		/// <summary>
 		/// Void AddObjectPersistentListener[T](UnityEngine.Events.UnityAction`1[T], T)
 		/// </summary>
-		protected RMethod r_RAddObjectPersistentListener_GT_UnityAction_d_T_p__T;
+		protected RMethod r_AddObjectPersistentListener_GT_UnityAction_d_T_p__T;
 		public virtual RMethod RAddObjectPersistentListener_GT_UnityAction_d_T_p__T
 		{
 			get
 			{
-				if(r_RAddObjectPersistentListener_GT_UnityAction_d_T_p__T == null)
+				if(r_AddObjectPersistentListener_GT_UnityAction_d_T_p__T == null)
 				{
-					r_RAddObjectPersistentListener_GT_UnityAction_d_T_p__T = new(this, "AddObjectPersistentListener", 1, typeof(UnityEngine.Events.UnityAction<>).MakeGenericType(Type.MakeGenericMethodParameter(0)), Type.MakeGenericMethodParameter(0));
-					r_RAddObjectPersistentListener_GT_UnityAction_d_T_p__T.SetBelong(this.instance);
+					r_AddObjectPersistentListener_GT_UnityAction_d_T_p__T = new(this, "AddObjectPersistentListener", 1, typeof(UnityEngine.Events.UnityAction<>).MakeGenericType(Type.MakeGenericMethodParameter(0)), Type.MakeGenericMethodParameter(0));
+					r_AddObjectPersistentListener_GT_UnityAction_d_T_p__T.SetBelong(this.instance);
 				}
-				return r_RAddObjectPersistentListener_GT_UnityAction_d_T_p__T;
+				return r_AddObjectPersistentListener_GT_UnityAction_d_T_p__T;
 			}
 		}
 
 		/// <summary>
 		/// Void RegisterObjectPersistentListener[T](Int32, UnityEngine.Events.UnityAction`1[T], T)
 		/// </summary>
-		protected RMethod r_RRegisterObjectPersistentListener_GT_Int32_UnityAction_d_T_p__T;
+		protected RMethod r_RegisterObjectPersistentListener_GT_Int32_UnityAction_d_T_p__T;
 		public virtual RMethod RRegisterObjectPersistentListener_GT_Int32_UnityAction_d_T_p__T
 		{
 			get
 			{
-				if(r_RRegisterObjectPersistentListener_GT_Int32_UnityAction_d_T_p__T == null)
+				if(r_RegisterObjectPersistentListener_GT_Int32_UnityAction_d_T_p__T == null)
 				{
-					r_RRegisterObjectPersistentListener_GT_Int32_UnityAction_d_T_p__T = new(this, "RegisterObjectPersistentListener", 1, typeof(System.Int32), typeof(UnityEngine.Events.UnityAction<>).MakeGenericType(Type.MakeGenericMethodParameter(0)), Type.MakeGenericMethodParameter(0));
-					r_RRegisterObjectPersistentListener_GT_Int32_UnityAction_d_T_p__T.SetBelong(this.instance);
+					r_RegisterObjectPersistentListener_GT_Int32_UnityAction_d_T_p__T = new(this, "RegisterObjectPersistentListener", 1, typeof(System.Int32), typeof(UnityEngine.Events.UnityAction<>).MakeGenericType(Type.MakeGenericMethodParameter(0)), Type.MakeGenericMethodParameter(0));
+					r_RegisterObjectPersistentListener_GT_Int32_UnityAction_d_T_p__T.SetBelong(this.instance);
 				}
-				return r_RRegisterObjectPersistentListener_GT_Int32_UnityAction_d_T_p__T;
+				return r_RegisterObjectPersistentListener_GT_Int32_UnityAction_d_T_p__T;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Equals(System.Object)
 		/// </summary>
-		protected RMethod r_REquals_Object;
+		protected RMethod r_Equals_Object;
 		public virtual RMethod REquals_Object
 		{
 			get
 			{
-				if(r_REquals_Object == null)
+				if(r_Equals_Object == null)
 				{
-					r_REquals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_REquals_Object.SetBelong(this.instance);
+					r_Equals_Object = new(this, "Equals", 0, typeof(System.Object));
+					r_Equals_Object.SetBelong(this.instance);
 				}
-				return r_REquals_Object;
+				return r_Equals_Object;
 			}
 		}
 
 		/// <summary>
 		/// Void Finalize()
 		/// </summary>
-		protected RMethod r_RFinalize;
+		protected RMethod r_Finalize;
 		public virtual RMethod RFinalize
 		{
 			get
 			{
-				if(r_RFinalize == null)
+				if(r_Finalize == null)
 				{
-					r_RFinalize = new(this, "Finalize", 0);
-					r_RFinalize.SetBelong(this.instance);
+					r_Finalize = new(this, "Finalize", 0);
+					r_Finalize.SetBelong(this.instance);
 				}
-				return r_RFinalize;
+				return r_Finalize;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetHashCode()
 		/// </summary>
-		protected RMethod r_RGetHashCode;
+		protected RMethod r_GetHashCode;
 		public virtual RMethod RGetHashCode
 		{
 			get
 			{
-				if(r_RGetHashCode == null)
+				if(r_GetHashCode == null)
 				{
-					r_RGetHashCode = new(this, "GetHashCode", 0);
-					r_RGetHashCode.SetBelong(this.instance);
+					r_GetHashCode = new(this, "GetHashCode", 0);
+					r_GetHashCode.SetBelong(this.instance);
 				}
-				return r_RGetHashCode;
+				return r_GetHashCode;
 			}
 		}
 
 		/// <summary>
 		/// System.Type GetType()
 		/// </summary>
-		protected RMethod r_RGetType;
+		protected RMethod r_GetType;
 		public virtual RMethod RGetType
 		{
 			get
 			{
-				if(r_RGetType == null)
+				if(r_GetType == null)
 				{
-					r_RGetType = new(this, "GetType", 0);
-					r_RGetType.SetBelong(this.instance);
+					r_GetType = new(this, "GetType", 0);
+					r_GetType.SetBelong(this.instance);
 				}
-				return r_RGetType;
+				return r_GetType;
 			}
 		}
 
 		/// <summary>
 		/// System.Object MemberwiseClone()
 		/// </summary>
-		protected RMethod r_RMemberwiseClone;
+		protected RMethod r_MemberwiseClone;
 		public virtual RMethod RMemberwiseClone
 		{
 			get
 			{
-				if(r_RMemberwiseClone == null)
+				if(r_MemberwiseClone == null)
 				{
-					r_RMemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_RMemberwiseClone.SetBelong(this.instance);
+					r_MemberwiseClone = new(this, "MemberwiseClone", 0);
+					r_MemberwiseClone.SetBelong(this.instance);
 				}
-				return r_RMemberwiseClone;
+				return r_MemberwiseClone;
 			}
 		}
 

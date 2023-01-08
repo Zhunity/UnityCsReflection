@@ -30,51 +30,51 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Boolean <isReplaying>k__BackingField
 		/// </summary>
-		protected RField r___1__isReplaying__2__k__BackingField;
-		public virtual RField R__1__isReplaying__2__k__BackingField
+		protected RField r___0__isReplaying__1__k__BackingField;
+		public virtual RField R__0__isReplaying__1__k__BackingField
 		{
 			get
 			{
-				if(r___1__isReplaying__2__k__BackingField == null)
+				if(r___0__isReplaying__1__k__BackingField == null)
 				{
-					r___1__isReplaying__2__k__BackingField = new(this, "<isReplaying>k__BackingField");
-					r___1__isReplaying__2__k__BackingField.SetBelong(this.instance);
+					r___0__isReplaying__1__k__BackingField = new(this, "<isReplaying>k__BackingField");
+					r___0__isReplaying__1__k__BackingField.SetBelong(this.instance);
 				}
-				return r___1__isReplaying__2__k__BackingField;
+				return r___0__isReplaying__1__k__BackingField;
 			}
 		}
 
 		/// <summary>
 		/// System.Single <playbackSpeed>k__BackingField
 		/// </summary>
-		protected RField r___1__playbackSpeed__2__k__BackingField;
-		public virtual RField R__1__playbackSpeed__2__k__BackingField
+		protected RField r___0__playbackSpeed__1__k__BackingField;
+		public virtual RField R__0__playbackSpeed__1__k__BackingField
 		{
 			get
 			{
-				if(r___1__playbackSpeed__2__k__BackingField == null)
+				if(r___0__playbackSpeed__1__k__BackingField == null)
 				{
-					r___1__playbackSpeed__2__k__BackingField = new(this, "<playbackSpeed>k__BackingField");
-					r___1__playbackSpeed__2__k__BackingField.SetBelong(this.instance);
+					r___0__playbackSpeed__1__k__BackingField = new(this, "<playbackSpeed>k__BackingField");
+					r___0__playbackSpeed__1__k__BackingField.SetBelong(this.instance);
 				}
-				return r___1__playbackSpeed__2__k__BackingField;
+				return r___0__playbackSpeed__1__k__BackingField;
 			}
 		}
 
 		/// <summary>
 		/// System.Boolean <isPlaybackPaused>k__BackingField
 		/// </summary>
-		protected RField r___1__isPlaybackPaused__2__k__BackingField;
-		public virtual RField R__1__isPlaybackPaused__2__k__BackingField
+		protected RField r___0__isPlaybackPaused__1__k__BackingField;
+		public virtual RField R__0__isPlaybackPaused__1__k__BackingField
 		{
 			get
 			{
-				if(r___1__isPlaybackPaused__2__k__BackingField == null)
+				if(r___0__isPlaybackPaused__1__k__BackingField == null)
 				{
-					r___1__isPlaybackPaused__2__k__BackingField = new(this, "<isPlaybackPaused>k__BackingField");
-					r___1__isPlaybackPaused__2__k__BackingField.SetBelong(this.instance);
+					r___0__isPlaybackPaused__1__k__BackingField = new(this, "<isPlaybackPaused>k__BackingField");
+					r___0__isPlaybackPaused__1__k__BackingField.SetBelong(this.instance);
 				}
-				return r___1__isPlaybackPaused__2__k__BackingField;
+				return r___0__isPlaybackPaused__1__k__BackingField;
 			}
 		}
 
@@ -217,17 +217,17 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Boolean <suspended>k__BackingField
 		/// </summary>
-		protected RField r___1__suspended__2__k__BackingField;
-		public virtual RField R__1__suspended__2__k__BackingField
+		protected RField r___0__suspended__1__k__BackingField;
+		public virtual RField R__0__suspended__1__k__BackingField
 		{
 			get
 			{
-				if(r___1__suspended__2__k__BackingField == null)
+				if(r___0__suspended__1__k__BackingField == null)
 				{
-					r___1__suspended__2__k__BackingField = new(this, "<suspended>k__BackingField");
-					r___1__suspended__2__k__BackingField.SetBelong(this.instance);
+					r___0__suspended__1__k__BackingField = new(this, "<suspended>k__BackingField");
+					r___0__suspended__1__k__BackingField.SetBelong(this.instance);
 				}
-				return r___1__suspended__2__k__BackingField;
+				return r___0__suspended__1__k__BackingField;
 			}
 		}
 
@@ -353,578 +353,578 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Void UpdateModificationCount()
 		/// </summary>
-		protected RMethod r_RUpdateModificationCount;
+		protected RMethod r_UpdateModificationCount;
 		public virtual RMethod RUpdateModificationCount
 		{
 			get
 			{
-				if(r_RUpdateModificationCount == null)
+				if(r_UpdateModificationCount == null)
 				{
-					r_RUpdateModificationCount = new(this, "UpdateModificationCount", 0);
-					r_RUpdateModificationCount.SetBelong(this.instance);
+					r_UpdateModificationCount = new(this, "UpdateModificationCount", 0);
+					r_UpdateModificationCount.SetBelong(this.instance);
 				}
-				return r_RUpdateModificationCount;
+				return r_UpdateModificationCount;
 			}
 		}
 
 		/// <summary>
 		/// Void BeginProcessEvent(UnityEngine.UIElements.EventBase, UnityEngine.UIElements.IEventHandler)
 		/// </summary>
-		protected RMethod r_RBeginProcessEvent_EventBase_IEventHandler;
+		protected RMethod r_BeginProcessEvent_EventBase_IEventHandler;
 		public virtual RMethod RBeginProcessEvent_EventBase_IEventHandler
 		{
 			get
 			{
-				if(r_RBeginProcessEvent_EventBase_IEventHandler == null)
+				if(r_BeginProcessEvent_EventBase_IEventHandler == null)
 				{
-					r_RBeginProcessEvent_EventBase_IEventHandler = new(this, "BeginProcessEvent", 0, typeof(UnityEngine.UIElements.EventBase), typeof(UnityEngine.UIElements.IEventHandler));
-					r_RBeginProcessEvent_EventBase_IEventHandler.SetBelong(this.instance);
+					r_BeginProcessEvent_EventBase_IEventHandler = new(this, "BeginProcessEvent", 0, typeof(UnityEngine.UIElements.EventBase), typeof(UnityEngine.UIElements.IEventHandler));
+					r_BeginProcessEvent_EventBase_IEventHandler.SetBelong(this.instance);
 				}
-				return r_RBeginProcessEvent_EventBase_IEventHandler;
+				return r_BeginProcessEvent_EventBase_IEventHandler;
 			}
 		}
 
 		/// <summary>
 		/// Void EndProcessEvent(UnityEngine.UIElements.EventBase, Int64, UnityEngine.UIElements.IEventHandler)
 		/// </summary>
-		protected RMethod r_REndProcessEvent_EventBase_Int64_IEventHandler;
+		protected RMethod r_EndProcessEvent_EventBase_Int64_IEventHandler;
 		public virtual RMethod REndProcessEvent_EventBase_Int64_IEventHandler
 		{
 			get
 			{
-				if(r_REndProcessEvent_EventBase_Int64_IEventHandler == null)
+				if(r_EndProcessEvent_EventBase_Int64_IEventHandler == null)
 				{
-					r_REndProcessEvent_EventBase_Int64_IEventHandler = new(this, "EndProcessEvent", 0, typeof(UnityEngine.UIElements.EventBase), typeof(System.Int64), typeof(UnityEngine.UIElements.IEventHandler));
-					r_REndProcessEvent_EventBase_Int64_IEventHandler.SetBelong(this.instance);
+					r_EndProcessEvent_EventBase_Int64_IEventHandler = new(this, "EndProcessEvent", 0, typeof(UnityEngine.UIElements.EventBase), typeof(System.Int64), typeof(UnityEngine.UIElements.IEventHandler));
+					r_EndProcessEvent_EventBase_Int64_IEventHandler.SetBelong(this.instance);
 				}
-				return r_REndProcessEvent_EventBase_Int64_IEventHandler;
+				return r_EndProcessEvent_EventBase_Int64_IEventHandler;
 			}
 		}
 
 		/// <summary>
 		/// Void LogCall(Int32, System.String, UnityEngine.UIElements.EventBase, Boolean, Boolean, Boolean, Int64, UnityEngine.UIElements.IEventHandler)
 		/// </summary>
-		protected RMethod r_RLogCall_Int32_String_EventBase_Boolean_Boolean_Boolean_Int64_IEventHandler;
+		protected RMethod r_LogCall_Int32_String_EventBase_Boolean_Boolean_Boolean_Int64_IEventHandler;
 		public virtual RMethod RLogCall_Int32_String_EventBase_Boolean_Boolean_Boolean_Int64_IEventHandler
 		{
 			get
 			{
-				if(r_RLogCall_Int32_String_EventBase_Boolean_Boolean_Boolean_Int64_IEventHandler == null)
+				if(r_LogCall_Int32_String_EventBase_Boolean_Boolean_Boolean_Int64_IEventHandler == null)
 				{
-					r_RLogCall_Int32_String_EventBase_Boolean_Boolean_Boolean_Int64_IEventHandler = new(this, "LogCall", 0, typeof(System.Int32), typeof(System.String), typeof(UnityEngine.UIElements.EventBase), typeof(System.Boolean), typeof(System.Boolean), typeof(System.Boolean), typeof(System.Int64), typeof(UnityEngine.UIElements.IEventHandler));
-					r_RLogCall_Int32_String_EventBase_Boolean_Boolean_Boolean_Int64_IEventHandler.SetBelong(this.instance);
+					r_LogCall_Int32_String_EventBase_Boolean_Boolean_Boolean_Int64_IEventHandler = new(this, "LogCall", 0, typeof(System.Int32), typeof(System.String), typeof(UnityEngine.UIElements.EventBase), typeof(System.Boolean), typeof(System.Boolean), typeof(System.Boolean), typeof(System.Int64), typeof(UnityEngine.UIElements.IEventHandler));
+					r_LogCall_Int32_String_EventBase_Boolean_Boolean_Boolean_Int64_IEventHandler.SetBelong(this.instance);
 				}
-				return r_RLogCall_Int32_String_EventBase_Boolean_Boolean_Boolean_Int64_IEventHandler;
+				return r_LogCall_Int32_String_EventBase_Boolean_Boolean_Boolean_Int64_IEventHandler;
 			}
 		}
 
 		/// <summary>
 		/// Void LogIMGUICall(UnityEngine.UIElements.EventBase, Int64, UnityEngine.UIElements.IEventHandler)
 		/// </summary>
-		protected RMethod r_RLogIMGUICall_EventBase_Int64_IEventHandler;
+		protected RMethod r_LogIMGUICall_EventBase_Int64_IEventHandler;
 		public virtual RMethod RLogIMGUICall_EventBase_Int64_IEventHandler
 		{
 			get
 			{
-				if(r_RLogIMGUICall_EventBase_Int64_IEventHandler == null)
+				if(r_LogIMGUICall_EventBase_Int64_IEventHandler == null)
 				{
-					r_RLogIMGUICall_EventBase_Int64_IEventHandler = new(this, "LogIMGUICall", 0, typeof(UnityEngine.UIElements.EventBase), typeof(System.Int64), typeof(UnityEngine.UIElements.IEventHandler));
-					r_RLogIMGUICall_EventBase_Int64_IEventHandler.SetBelong(this.instance);
+					r_LogIMGUICall_EventBase_Int64_IEventHandler = new(this, "LogIMGUICall", 0, typeof(UnityEngine.UIElements.EventBase), typeof(System.Int64), typeof(UnityEngine.UIElements.IEventHandler));
+					r_LogIMGUICall_EventBase_Int64_IEventHandler.SetBelong(this.instance);
 				}
-				return r_RLogIMGUICall_EventBase_Int64_IEventHandler;
+				return r_LogIMGUICall_EventBase_Int64_IEventHandler;
 			}
 		}
 
 		/// <summary>
 		/// Void LogExecuteDefaultAction(UnityEngine.UIElements.EventBase, UnityEngine.UIElements.PropagationPhase, Int64, UnityEngine.UIElements.IEventHandler)
 		/// </summary>
-		protected RMethod r_RLogExecuteDefaultAction_EventBase_PropagationPhase_Int64_IEventHandler;
+		protected RMethod r_LogExecuteDefaultAction_EventBase_PropagationPhase_Int64_IEventHandler;
 		public virtual RMethod RLogExecuteDefaultAction_EventBase_PropagationPhase_Int64_IEventHandler
 		{
 			get
 			{
-				if(r_RLogExecuteDefaultAction_EventBase_PropagationPhase_Int64_IEventHandler == null)
+				if(r_LogExecuteDefaultAction_EventBase_PropagationPhase_Int64_IEventHandler == null)
 				{
-					r_RLogExecuteDefaultAction_EventBase_PropagationPhase_Int64_IEventHandler = new(this, "LogExecuteDefaultAction", 0, typeof(UnityEngine.UIElements.EventBase), typeof(UnityEngine.UIElements.PropagationPhase), typeof(System.Int64), typeof(UnityEngine.UIElements.IEventHandler));
-					r_RLogExecuteDefaultAction_EventBase_PropagationPhase_Int64_IEventHandler.SetBelong(this.instance);
+					r_LogExecuteDefaultAction_EventBase_PropagationPhase_Int64_IEventHandler = new(this, "LogExecuteDefaultAction", 0, typeof(UnityEngine.UIElements.EventBase), typeof(UnityEngine.UIElements.PropagationPhase), typeof(System.Int64), typeof(UnityEngine.UIElements.IEventHandler));
+					r_LogExecuteDefaultAction_EventBase_PropagationPhase_Int64_IEventHandler.SetBelong(this.instance);
 				}
-				return r_RLogExecuteDefaultAction_EventBase_PropagationPhase_Int64_IEventHandler;
+				return r_LogExecuteDefaultAction_EventBase_PropagationPhase_Int64_IEventHandler;
 			}
 		}
 
 		/// <summary>
 		/// Void LogPropagationPaths(UnityEngine.UIElements.EventBase, UnityEngine.UIElements.PropagationPaths)
 		/// </summary>
-		protected static RMethod r_RLogPropagationPaths_EventBase_PropagationPaths;
+		protected static RMethod r_LogPropagationPaths_EventBase_PropagationPaths;
 		public static RMethod RLogPropagationPaths_EventBase_PropagationPaths
 		{
 			get
 			{
-				if(r_RLogPropagationPaths_EventBase_PropagationPaths == null)
+				if(r_LogPropagationPaths_EventBase_PropagationPaths == null)
 				{
-					r_RLogPropagationPaths_EventBase_PropagationPaths = new( ReleactionUtils.GetType("UnityEngine.UIElements.EventDebugger"), "LogPropagationPaths", 0, typeof(UnityEngine.UIElements.EventBase),  ReleactionUtils.GetType("UnityEngine.UIElements.PropagationPaths"));
-					r_RLogPropagationPaths_EventBase_PropagationPaths.SetBelong(null);
+					r_LogPropagationPaths_EventBase_PropagationPaths = new( ReleactionUtils.GetType("UnityEngine.UIElements.EventDebugger"), "LogPropagationPaths", 0, typeof(UnityEngine.UIElements.EventBase),  ReleactionUtils.GetType("UnityEngine.UIElements.PropagationPaths"));
+					r_LogPropagationPaths_EventBase_PropagationPaths.SetBelong(null);
 				}
-				return r_RLogPropagationPaths_EventBase_PropagationPaths;
+				return r_LogPropagationPaths_EventBase_PropagationPaths;
 			}
 		}
 
 		/// <summary>
 		/// Void LogPropagationPathsInternal(UnityEngine.UIElements.EventBase, UnityEngine.UIElements.PropagationPaths)
 		/// </summary>
-		protected RMethod r_RLogPropagationPathsInternal_EventBase_PropagationPaths;
+		protected RMethod r_LogPropagationPathsInternal_EventBase_PropagationPaths;
 		public virtual RMethod RLogPropagationPathsInternal_EventBase_PropagationPaths
 		{
 			get
 			{
-				if(r_RLogPropagationPathsInternal_EventBase_PropagationPaths == null)
+				if(r_LogPropagationPathsInternal_EventBase_PropagationPaths == null)
 				{
-					r_RLogPropagationPathsInternal_EventBase_PropagationPaths = new(this, "LogPropagationPathsInternal", 0, typeof(UnityEngine.UIElements.EventBase),  ReleactionUtils.GetType("UnityEngine.UIElements.PropagationPaths"));
-					r_RLogPropagationPathsInternal_EventBase_PropagationPaths.SetBelong(this.instance);
+					r_LogPropagationPathsInternal_EventBase_PropagationPaths = new(this, "LogPropagationPathsInternal", 0, typeof(UnityEngine.UIElements.EventBase),  ReleactionUtils.GetType("UnityEngine.UIElements.PropagationPaths"));
+					r_LogPropagationPathsInternal_EventBase_PropagationPaths.SetBelong(this.instance);
 				}
-				return r_RLogPropagationPathsInternal_EventBase_PropagationPaths;
+				return r_LogPropagationPathsInternal_EventBase_PropagationPaths;
 			}
 		}
 
 		/// <summary>
 		/// System.Collections.Generic.List`1[UnityEngine.UIElements.EventDebuggerCallTrace] GetCalls(UnityEngine.UIElements.IPanel, UnityEngine.UIElements.EventDebuggerEventRecord)
 		/// </summary>
-		protected RMethod r_RGetCalls_IPanel_EventDebuggerEventRecord;
+		protected RMethod r_GetCalls_IPanel_EventDebuggerEventRecord;
 		public virtual RMethod RGetCalls_IPanel_EventDebuggerEventRecord
 		{
 			get
 			{
-				if(r_RGetCalls_IPanel_EventDebuggerEventRecord == null)
+				if(r_GetCalls_IPanel_EventDebuggerEventRecord == null)
 				{
-					r_RGetCalls_IPanel_EventDebuggerEventRecord = new(this, "GetCalls", 0, typeof(UnityEngine.UIElements.IPanel),  ReleactionUtils.GetType("UnityEngine.UIElements.EventDebuggerEventRecord"));
-					r_RGetCalls_IPanel_EventDebuggerEventRecord.SetBelong(this.instance);
+					r_GetCalls_IPanel_EventDebuggerEventRecord = new(this, "GetCalls", 0, typeof(UnityEngine.UIElements.IPanel),  ReleactionUtils.GetType("UnityEngine.UIElements.EventDebuggerEventRecord"));
+					r_GetCalls_IPanel_EventDebuggerEventRecord.SetBelong(this.instance);
 				}
-				return r_RGetCalls_IPanel_EventDebuggerEventRecord;
+				return r_GetCalls_IPanel_EventDebuggerEventRecord;
 			}
 		}
 
 		/// <summary>
 		/// System.Collections.Generic.List`1[UnityEngine.UIElements.EventDebuggerDefaultActionTrace] GetDefaultActions(UnityEngine.UIElements.IPanel, UnityEngine.UIElements.EventDebuggerEventRecord)
 		/// </summary>
-		protected RMethod r_RGetDefaultActions_IPanel_EventDebuggerEventRecord;
+		protected RMethod r_GetDefaultActions_IPanel_EventDebuggerEventRecord;
 		public virtual RMethod RGetDefaultActions_IPanel_EventDebuggerEventRecord
 		{
 			get
 			{
-				if(r_RGetDefaultActions_IPanel_EventDebuggerEventRecord == null)
+				if(r_GetDefaultActions_IPanel_EventDebuggerEventRecord == null)
 				{
-					r_RGetDefaultActions_IPanel_EventDebuggerEventRecord = new(this, "GetDefaultActions", 0, typeof(UnityEngine.UIElements.IPanel),  ReleactionUtils.GetType("UnityEngine.UIElements.EventDebuggerEventRecord"));
-					r_RGetDefaultActions_IPanel_EventDebuggerEventRecord.SetBelong(this.instance);
+					r_GetDefaultActions_IPanel_EventDebuggerEventRecord = new(this, "GetDefaultActions", 0, typeof(UnityEngine.UIElements.IPanel),  ReleactionUtils.GetType("UnityEngine.UIElements.EventDebuggerEventRecord"));
+					r_GetDefaultActions_IPanel_EventDebuggerEventRecord.SetBelong(this.instance);
 				}
-				return r_RGetDefaultActions_IPanel_EventDebuggerEventRecord;
+				return r_GetDefaultActions_IPanel_EventDebuggerEventRecord;
 			}
 		}
 
 		/// <summary>
 		/// System.Collections.Generic.List`1[UnityEngine.UIElements.EventDebuggerPathTrace] GetPropagationPaths(UnityEngine.UIElements.IPanel, UnityEngine.UIElements.EventDebuggerEventRecord)
 		/// </summary>
-		protected RMethod r_RGetPropagationPaths_IPanel_EventDebuggerEventRecord;
+		protected RMethod r_GetPropagationPaths_IPanel_EventDebuggerEventRecord;
 		public virtual RMethod RGetPropagationPaths_IPanel_EventDebuggerEventRecord
 		{
 			get
 			{
-				if(r_RGetPropagationPaths_IPanel_EventDebuggerEventRecord == null)
+				if(r_GetPropagationPaths_IPanel_EventDebuggerEventRecord == null)
 				{
-					r_RGetPropagationPaths_IPanel_EventDebuggerEventRecord = new(this, "GetPropagationPaths", 0, typeof(UnityEngine.UIElements.IPanel),  ReleactionUtils.GetType("UnityEngine.UIElements.EventDebuggerEventRecord"));
-					r_RGetPropagationPaths_IPanel_EventDebuggerEventRecord.SetBelong(this.instance);
+					r_GetPropagationPaths_IPanel_EventDebuggerEventRecord = new(this, "GetPropagationPaths", 0, typeof(UnityEngine.UIElements.IPanel),  ReleactionUtils.GetType("UnityEngine.UIElements.EventDebuggerEventRecord"));
+					r_GetPropagationPaths_IPanel_EventDebuggerEventRecord.SetBelong(this.instance);
 				}
-				return r_RGetPropagationPaths_IPanel_EventDebuggerEventRecord;
+				return r_GetPropagationPaths_IPanel_EventDebuggerEventRecord;
 			}
 		}
 
 		/// <summary>
 		/// System.Collections.Generic.List`1[UnityEngine.UIElements.EventDebuggerTrace] GetBeginEndProcessedEvents(UnityEngine.UIElements.IPanel, UnityEngine.UIElements.EventDebuggerEventRecord)
 		/// </summary>
-		protected RMethod r_RGetBeginEndProcessedEvents_IPanel_EventDebuggerEventRecord;
+		protected RMethod r_GetBeginEndProcessedEvents_IPanel_EventDebuggerEventRecord;
 		public virtual RMethod RGetBeginEndProcessedEvents_IPanel_EventDebuggerEventRecord
 		{
 			get
 			{
-				if(r_RGetBeginEndProcessedEvents_IPanel_EventDebuggerEventRecord == null)
+				if(r_GetBeginEndProcessedEvents_IPanel_EventDebuggerEventRecord == null)
 				{
-					r_RGetBeginEndProcessedEvents_IPanel_EventDebuggerEventRecord = new(this, "GetBeginEndProcessedEvents", 0, typeof(UnityEngine.UIElements.IPanel),  ReleactionUtils.GetType("UnityEngine.UIElements.EventDebuggerEventRecord"));
-					r_RGetBeginEndProcessedEvents_IPanel_EventDebuggerEventRecord.SetBelong(this.instance);
+					r_GetBeginEndProcessedEvents_IPanel_EventDebuggerEventRecord = new(this, "GetBeginEndProcessedEvents", 0, typeof(UnityEngine.UIElements.IPanel),  ReleactionUtils.GetType("UnityEngine.UIElements.EventDebuggerEventRecord"));
+					r_GetBeginEndProcessedEvents_IPanel_EventDebuggerEventRecord.SetBelong(this.instance);
 				}
-				return r_RGetBeginEndProcessedEvents_IPanel_EventDebuggerEventRecord;
+				return r_GetBeginEndProcessedEvents_IPanel_EventDebuggerEventRecord;
 			}
 		}
 
 		/// <summary>
 		/// Int64 GetModificationCount(UnityEngine.UIElements.IPanel)
 		/// </summary>
-		protected RMethod r_RGetModificationCount_IPanel;
+		protected RMethod r_GetModificationCount_IPanel;
 		public virtual RMethod RGetModificationCount_IPanel
 		{
 			get
 			{
-				if(r_RGetModificationCount_IPanel == null)
+				if(r_GetModificationCount_IPanel == null)
 				{
-					r_RGetModificationCount_IPanel = new(this, "GetModificationCount", 0, typeof(UnityEngine.UIElements.IPanel));
-					r_RGetModificationCount_IPanel.SetBelong(this.instance);
+					r_GetModificationCount_IPanel = new(this, "GetModificationCount", 0, typeof(UnityEngine.UIElements.IPanel));
+					r_GetModificationCount_IPanel.SetBelong(this.instance);
 				}
-				return r_RGetModificationCount_IPanel;
+				return r_GetModificationCount_IPanel;
 			}
 		}
 
 		/// <summary>
 		/// Void ClearLogs()
 		/// </summary>
-		protected RMethod r_RClearLogs;
+		protected RMethod r_ClearLogs;
 		public virtual RMethod RClearLogs
 		{
 			get
 			{
-				if(r_RClearLogs == null)
+				if(r_ClearLogs == null)
 				{
-					r_RClearLogs = new(this, "ClearLogs", 0);
-					r_RClearLogs.SetBelong(this.instance);
+					r_ClearLogs = new(this, "ClearLogs", 0);
+					r_ClearLogs.SetBelong(this.instance);
 				}
-				return r_RClearLogs;
+				return r_ClearLogs;
 			}
 		}
 
 		/// <summary>
 		/// Void SaveReplaySessionFromSelection(System.String, System.Collections.Generic.List`1[UnityEngine.UIElements.EventDebuggerEventRecord])
 		/// </summary>
-		protected RMethod r_RSaveReplaySessionFromSelection_String_List_d_EventDebuggerEventRecord_p_;
+		protected RMethod r_SaveReplaySessionFromSelection_String_List_d_EventDebuggerEventRecord_p_;
 		public virtual RMethod RSaveReplaySessionFromSelection_String_List_d_EventDebuggerEventRecord_p_
 		{
 			get
 			{
-				if(r_RSaveReplaySessionFromSelection_String_List_d_EventDebuggerEventRecord_p_ == null)
+				if(r_SaveReplaySessionFromSelection_String_List_d_EventDebuggerEventRecord_p_ == null)
 				{
-					r_RSaveReplaySessionFromSelection_String_List_d_EventDebuggerEventRecord_p_ = new(this, "SaveReplaySessionFromSelection", 0, typeof(System.String), typeof(System.Collections.Generic.List<>).MakeGenericType( ReleactionUtils.GetType("UnityEngine.UIElements.EventDebuggerEventRecord")));
-					r_RSaveReplaySessionFromSelection_String_List_d_EventDebuggerEventRecord_p_.SetBelong(this.instance);
+					r_SaveReplaySessionFromSelection_String_List_d_EventDebuggerEventRecord_p_ = new(this, "SaveReplaySessionFromSelection", 0, typeof(System.String), typeof(System.Collections.Generic.List<>).MakeGenericType( ReleactionUtils.GetType("UnityEngine.UIElements.EventDebuggerEventRecord")));
+					r_SaveReplaySessionFromSelection_String_List_d_EventDebuggerEventRecord_p_.SetBelong(this.instance);
 				}
-				return r_RSaveReplaySessionFromSelection_String_List_d_EventDebuggerEventRecord_p_;
+				return r_SaveReplaySessionFromSelection_String_List_d_EventDebuggerEventRecord_p_;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.EventDebuggerRecordList LoadReplaySession(System.String)
 		/// </summary>
-		protected RMethod r_RLoadReplaySession_String;
+		protected RMethod r_LoadReplaySession_String;
 		public virtual RMethod RLoadReplaySession_String
 		{
 			get
 			{
-				if(r_RLoadReplaySession_String == null)
+				if(r_LoadReplaySession_String == null)
 				{
-					r_RLoadReplaySession_String = new(this, "LoadReplaySession", 0, typeof(System.String));
-					r_RLoadReplaySession_String.SetBelong(this.instance);
+					r_LoadReplaySession_String = new(this, "LoadReplaySession", 0, typeof(System.String));
+					r_LoadReplaySession_String.SetBelong(this.instance);
 				}
-				return r_RLoadReplaySession_String;
+				return r_LoadReplaySession_String;
 			}
 		}
 
 		/// <summary>
 		/// System.Collections.IEnumerator ReplayEvents(System.Collections.Generic.IEnumerable`1[UnityEngine.UIElements.EventDebuggerEventRecord], System.Action`2[System.Int32,System.Int32])
 		/// </summary>
-		protected RMethod r_RReplayEvents_IEnumerable_d_EventDebuggerEventRecord_p__Action_d_Int32_Int32_p_;
+		protected RMethod r_ReplayEvents_IEnumerable_d_EventDebuggerEventRecord_p__Action_d_Int32_Int32_p_;
 		public virtual RMethod RReplayEvents_IEnumerable_d_EventDebuggerEventRecord_p__Action_d_Int32_Int32_p_
 		{
 			get
 			{
-				if(r_RReplayEvents_IEnumerable_d_EventDebuggerEventRecord_p__Action_d_Int32_Int32_p_ == null)
+				if(r_ReplayEvents_IEnumerable_d_EventDebuggerEventRecord_p__Action_d_Int32_Int32_p_ == null)
 				{
-					r_RReplayEvents_IEnumerable_d_EventDebuggerEventRecord_p__Action_d_Int32_Int32_p_ = new(this, "ReplayEvents", 0, typeof(System.Collections.Generic.IEnumerable<>).MakeGenericType( ReleactionUtils.GetType("UnityEngine.UIElements.EventDebuggerEventRecord")), typeof(System.Action<, >).MakeGenericType(typeof(System.Int32), typeof(System.Int32)));
-					r_RReplayEvents_IEnumerable_d_EventDebuggerEventRecord_p__Action_d_Int32_Int32_p_.SetBelong(this.instance);
+					r_ReplayEvents_IEnumerable_d_EventDebuggerEventRecord_p__Action_d_Int32_Int32_p_ = new(this, "ReplayEvents", 0, typeof(System.Collections.Generic.IEnumerable<>).MakeGenericType( ReleactionUtils.GetType("UnityEngine.UIElements.EventDebuggerEventRecord")), typeof(System.Action<, >).MakeGenericType(typeof(System.Int32), typeof(System.Int32)));
+					r_ReplayEvents_IEnumerable_d_EventDebuggerEventRecord_p__Action_d_Int32_Int32_p_.SetBelong(this.instance);
 				}
-				return r_RReplayEvents_IEnumerable_d_EventDebuggerEventRecord_p__Action_d_Int32_Int32_p_;
+				return r_ReplayEvents_IEnumerable_d_EventDebuggerEventRecord_p__Action_d_Int32_Int32_p_;
 			}
 		}
 
 		/// <summary>
 		/// Void StopPlayback()
 		/// </summary>
-		protected RMethod r_RStopPlayback;
+		protected RMethod r_StopPlayback;
 		public virtual RMethod RStopPlayback
 		{
 			get
 			{
-				if(r_RStopPlayback == null)
+				if(r_StopPlayback == null)
 				{
-					r_RStopPlayback = new(this, "StopPlayback", 0);
-					r_RStopPlayback.SetBelong(this.instance);
+					r_StopPlayback = new(this, "StopPlayback", 0);
+					r_StopPlayback.SetBelong(this.instance);
 				}
-				return r_RStopPlayback;
+				return r_StopPlayback;
 			}
 		}
 
 		/// <summary>
 		/// System.Collections.IEnumerator DoReplayEvents(System.Collections.Generic.IEnumerable`1[UnityEngine.UIElements.EventDebuggerEventRecord], System.Action`2[System.Int32,System.Int32])
 		/// </summary>
-		protected RMethod r_RDoReplayEvents_IEnumerable_d_EventDebuggerEventRecord_p__Action_d_Int32_Int32_p_;
+		protected RMethod r_DoReplayEvents_IEnumerable_d_EventDebuggerEventRecord_p__Action_d_Int32_Int32_p_;
 		public virtual RMethod RDoReplayEvents_IEnumerable_d_EventDebuggerEventRecord_p__Action_d_Int32_Int32_p_
 		{
 			get
 			{
-				if(r_RDoReplayEvents_IEnumerable_d_EventDebuggerEventRecord_p__Action_d_Int32_Int32_p_ == null)
+				if(r_DoReplayEvents_IEnumerable_d_EventDebuggerEventRecord_p__Action_d_Int32_Int32_p_ == null)
 				{
-					r_RDoReplayEvents_IEnumerable_d_EventDebuggerEventRecord_p__Action_d_Int32_Int32_p_ = new(this, "DoReplayEvents", 0, typeof(System.Collections.Generic.IEnumerable<>).MakeGenericType( ReleactionUtils.GetType("UnityEngine.UIElements.EventDebuggerEventRecord")), typeof(System.Action<, >).MakeGenericType(typeof(System.Int32), typeof(System.Int32)));
-					r_RDoReplayEvents_IEnumerable_d_EventDebuggerEventRecord_p__Action_d_Int32_Int32_p_.SetBelong(this.instance);
+					r_DoReplayEvents_IEnumerable_d_EventDebuggerEventRecord_p__Action_d_Int32_Int32_p_ = new(this, "DoReplayEvents", 0, typeof(System.Collections.Generic.IEnumerable<>).MakeGenericType( ReleactionUtils.GetType("UnityEngine.UIElements.EventDebuggerEventRecord")), typeof(System.Action<, >).MakeGenericType(typeof(System.Int32), typeof(System.Int32)));
+					r_DoReplayEvents_IEnumerable_d_EventDebuggerEventRecord_p__Action_d_Int32_Int32_p_.SetBelong(this.instance);
 				}
-				return r_RDoReplayEvents_IEnumerable_d_EventDebuggerEventRecord_p__Action_d_Int32_Int32_p_;
+				return r_DoReplayEvents_IEnumerable_d_EventDebuggerEventRecord_p__Action_d_Int32_Int32_p_;
 			}
 		}
 
 		/// <summary>
 		/// System.Collections.Generic.Dictionary`2[System.String,UnityEngine.UIElements.EventDebugger+HistogramRecord] ComputeHistogram(System.Collections.Generic.List`1[UnityEngine.UIElements.EventDebuggerEventRecord])
 		/// </summary>
-		protected RMethod r_RComputeHistogram_List_d_EventDebuggerEventRecord_p_;
+		protected RMethod r_ComputeHistogram_List_d_EventDebuggerEventRecord_p_;
 		public virtual RMethod RComputeHistogram_List_d_EventDebuggerEventRecord_p_
 		{
 			get
 			{
-				if(r_RComputeHistogram_List_d_EventDebuggerEventRecord_p_ == null)
+				if(r_ComputeHistogram_List_d_EventDebuggerEventRecord_p_ == null)
 				{
-					r_RComputeHistogram_List_d_EventDebuggerEventRecord_p_ = new(this, "ComputeHistogram", 0, typeof(System.Collections.Generic.List<>).MakeGenericType( ReleactionUtils.GetType("UnityEngine.UIElements.EventDebuggerEventRecord")));
-					r_RComputeHistogram_List_d_EventDebuggerEventRecord_p_.SetBelong(this.instance);
+					r_ComputeHistogram_List_d_EventDebuggerEventRecord_p_ = new(this, "ComputeHistogram", 0, typeof(System.Collections.Generic.List<>).MakeGenericType( ReleactionUtils.GetType("UnityEngine.UIElements.EventDebuggerEventRecord")));
+					r_ComputeHistogram_List_d_EventDebuggerEventRecord_p_.SetBelong(this.instance);
 				}
-				return r_RComputeHistogram_List_d_EventDebuggerEventRecord_p_;
+				return r_ComputeHistogram_List_d_EventDebuggerEventRecord_p_;
 			}
 		}
 
 		/// <summary>
 		/// Void AddCallObject(Int32, System.String, UnityEngine.UIElements.EventBase, Boolean, Boolean, Boolean, Int64, UnityEngine.UIElements.IEventHandler)
 		/// </summary>
-		protected RMethod r_RAddCallObject_Int32_String_EventBase_Boolean_Boolean_Boolean_Int64_IEventHandler;
+		protected RMethod r_AddCallObject_Int32_String_EventBase_Boolean_Boolean_Boolean_Int64_IEventHandler;
 		public virtual RMethod RAddCallObject_Int32_String_EventBase_Boolean_Boolean_Boolean_Int64_IEventHandler
 		{
 			get
 			{
-				if(r_RAddCallObject_Int32_String_EventBase_Boolean_Boolean_Boolean_Int64_IEventHandler == null)
+				if(r_AddCallObject_Int32_String_EventBase_Boolean_Boolean_Boolean_Int64_IEventHandler == null)
 				{
-					r_RAddCallObject_Int32_String_EventBase_Boolean_Boolean_Boolean_Int64_IEventHandler = new(this, "AddCallObject", 0, typeof(System.Int32), typeof(System.String), typeof(UnityEngine.UIElements.EventBase), typeof(System.Boolean), typeof(System.Boolean), typeof(System.Boolean), typeof(System.Int64), typeof(UnityEngine.UIElements.IEventHandler));
-					r_RAddCallObject_Int32_String_EventBase_Boolean_Boolean_Boolean_Int64_IEventHandler.SetBelong(this.instance);
+					r_AddCallObject_Int32_String_EventBase_Boolean_Boolean_Boolean_Int64_IEventHandler = new(this, "AddCallObject", 0, typeof(System.Int32), typeof(System.String), typeof(UnityEngine.UIElements.EventBase), typeof(System.Boolean), typeof(System.Boolean), typeof(System.Boolean), typeof(System.Int64), typeof(UnityEngine.UIElements.IEventHandler));
+					r_AddCallObject_Int32_String_EventBase_Boolean_Boolean_Boolean_Int64_IEventHandler.SetBelong(this.instance);
 				}
-				return r_RAddCallObject_Int32_String_EventBase_Boolean_Boolean_Boolean_Int64_IEventHandler;
+				return r_AddCallObject_Int32_String_EventBase_Boolean_Boolean_Boolean_Int64_IEventHandler;
 			}
 		}
 
 		/// <summary>
 		/// Void AddExecuteDefaultAction(UnityEngine.UIElements.EventBase, UnityEngine.UIElements.PropagationPhase, Int64, UnityEngine.UIElements.IEventHandler)
 		/// </summary>
-		protected RMethod r_RAddExecuteDefaultAction_EventBase_PropagationPhase_Int64_IEventHandler;
+		protected RMethod r_AddExecuteDefaultAction_EventBase_PropagationPhase_Int64_IEventHandler;
 		public virtual RMethod RAddExecuteDefaultAction_EventBase_PropagationPhase_Int64_IEventHandler
 		{
 			get
 			{
-				if(r_RAddExecuteDefaultAction_EventBase_PropagationPhase_Int64_IEventHandler == null)
+				if(r_AddExecuteDefaultAction_EventBase_PropagationPhase_Int64_IEventHandler == null)
 				{
-					r_RAddExecuteDefaultAction_EventBase_PropagationPhase_Int64_IEventHandler = new(this, "AddExecuteDefaultAction", 0, typeof(UnityEngine.UIElements.EventBase), typeof(UnityEngine.UIElements.PropagationPhase), typeof(System.Int64), typeof(UnityEngine.UIElements.IEventHandler));
-					r_RAddExecuteDefaultAction_EventBase_PropagationPhase_Int64_IEventHandler.SetBelong(this.instance);
+					r_AddExecuteDefaultAction_EventBase_PropagationPhase_Int64_IEventHandler = new(this, "AddExecuteDefaultAction", 0, typeof(UnityEngine.UIElements.EventBase), typeof(UnityEngine.UIElements.PropagationPhase), typeof(System.Int64), typeof(UnityEngine.UIElements.IEventHandler));
+					r_AddExecuteDefaultAction_EventBase_PropagationPhase_Int64_IEventHandler.SetBelong(this.instance);
 				}
-				return r_RAddExecuteDefaultAction_EventBase_PropagationPhase_Int64_IEventHandler;
+				return r_AddExecuteDefaultAction_EventBase_PropagationPhase_Int64_IEventHandler;
 			}
 		}
 
 		/// <summary>
 		/// Void AddPropagationPaths(UnityEngine.UIElements.EventBase, UnityEngine.UIElements.PropagationPaths)
 		/// </summary>
-		protected RMethod r_RAddPropagationPaths_EventBase_PropagationPaths;
+		protected RMethod r_AddPropagationPaths_EventBase_PropagationPaths;
 		public virtual RMethod RAddPropagationPaths_EventBase_PropagationPaths
 		{
 			get
 			{
-				if(r_RAddPropagationPaths_EventBase_PropagationPaths == null)
+				if(r_AddPropagationPaths_EventBase_PropagationPaths == null)
 				{
-					r_RAddPropagationPaths_EventBase_PropagationPaths = new(this, "AddPropagationPaths", 0, typeof(UnityEngine.UIElements.EventBase),  ReleactionUtils.GetType("UnityEngine.UIElements.PropagationPaths"));
-					r_RAddPropagationPaths_EventBase_PropagationPaths.SetBelong(this.instance);
+					r_AddPropagationPaths_EventBase_PropagationPaths = new(this, "AddPropagationPaths", 0, typeof(UnityEngine.UIElements.EventBase),  ReleactionUtils.GetType("UnityEngine.UIElements.PropagationPaths"));
+					r_AddPropagationPaths_EventBase_PropagationPaths.SetBelong(this.instance);
 				}
-				return r_RAddPropagationPaths_EventBase_PropagationPaths;
+				return r_AddPropagationPaths_EventBase_PropagationPaths;
 			}
 		}
 
 		/// <summary>
 		/// Void AddIMGUICall(UnityEngine.UIElements.EventBase, Int64, UnityEngine.UIElements.IEventHandler)
 		/// </summary>
-		protected RMethod r_RAddIMGUICall_EventBase_Int64_IEventHandler;
+		protected RMethod r_AddIMGUICall_EventBase_Int64_IEventHandler;
 		public virtual RMethod RAddIMGUICall_EventBase_Int64_IEventHandler
 		{
 			get
 			{
-				if(r_RAddIMGUICall_EventBase_Int64_IEventHandler == null)
+				if(r_AddIMGUICall_EventBase_Int64_IEventHandler == null)
 				{
-					r_RAddIMGUICall_EventBase_Int64_IEventHandler = new(this, "AddIMGUICall", 0, typeof(UnityEngine.UIElements.EventBase), typeof(System.Int64), typeof(UnityEngine.UIElements.IEventHandler));
-					r_RAddIMGUICall_EventBase_Int64_IEventHandler.SetBelong(this.instance);
+					r_AddIMGUICall_EventBase_Int64_IEventHandler = new(this, "AddIMGUICall", 0, typeof(UnityEngine.UIElements.EventBase), typeof(System.Int64), typeof(UnityEngine.UIElements.IEventHandler));
+					r_AddIMGUICall_EventBase_Int64_IEventHandler.SetBelong(this.instance);
 				}
-				return r_RAddIMGUICall_EventBase_Int64_IEventHandler;
+				return r_AddIMGUICall_EventBase_Int64_IEventHandler;
 			}
 		}
 
 		/// <summary>
 		/// Void AddBeginProcessEvent(UnityEngine.UIElements.EventBase, UnityEngine.UIElements.IEventHandler)
 		/// </summary>
-		protected RMethod r_RAddBeginProcessEvent_EventBase_IEventHandler;
+		protected RMethod r_AddBeginProcessEvent_EventBase_IEventHandler;
 		public virtual RMethod RAddBeginProcessEvent_EventBase_IEventHandler
 		{
 			get
 			{
-				if(r_RAddBeginProcessEvent_EventBase_IEventHandler == null)
+				if(r_AddBeginProcessEvent_EventBase_IEventHandler == null)
 				{
-					r_RAddBeginProcessEvent_EventBase_IEventHandler = new(this, "AddBeginProcessEvent", 0, typeof(UnityEngine.UIElements.EventBase), typeof(UnityEngine.UIElements.IEventHandler));
-					r_RAddBeginProcessEvent_EventBase_IEventHandler.SetBelong(this.instance);
+					r_AddBeginProcessEvent_EventBase_IEventHandler = new(this, "AddBeginProcessEvent", 0, typeof(UnityEngine.UIElements.EventBase), typeof(UnityEngine.UIElements.IEventHandler));
+					r_AddBeginProcessEvent_EventBase_IEventHandler.SetBelong(this.instance);
 				}
-				return r_RAddBeginProcessEvent_EventBase_IEventHandler;
+				return r_AddBeginProcessEvent_EventBase_IEventHandler;
 			}
 		}
 
 		/// <summary>
 		/// Void AddEndProcessEvent(UnityEngine.UIElements.EventBase, Int64, UnityEngine.UIElements.IEventHandler)
 		/// </summary>
-		protected RMethod r_RAddEndProcessEvent_EventBase_Int64_IEventHandler;
+		protected RMethod r_AddEndProcessEvent_EventBase_Int64_IEventHandler;
 		public virtual RMethod RAddEndProcessEvent_EventBase_Int64_IEventHandler
 		{
 			get
 			{
-				if(r_RAddEndProcessEvent_EventBase_Int64_IEventHandler == null)
+				if(r_AddEndProcessEvent_EventBase_Int64_IEventHandler == null)
 				{
-					r_RAddEndProcessEvent_EventBase_Int64_IEventHandler = new(this, "AddEndProcessEvent", 0, typeof(UnityEngine.UIElements.EventBase), typeof(System.Int64), typeof(UnityEngine.UIElements.IEventHandler));
-					r_RAddEndProcessEvent_EventBase_Int64_IEventHandler.SetBelong(this.instance);
+					r_AddEndProcessEvent_EventBase_Int64_IEventHandler = new(this, "AddEndProcessEvent", 0, typeof(UnityEngine.UIElements.EventBase), typeof(System.Int64), typeof(UnityEngine.UIElements.IEventHandler));
+					r_AddEndProcessEvent_EventBase_Int64_IEventHandler.SetBelong(this.instance);
 				}
-				return r_RAddEndProcessEvent_EventBase_Int64_IEventHandler;
+				return r_AddEndProcessEvent_EventBase_Int64_IEventHandler;
 			}
 		}
 
 		/// <summary>
 		/// System.String GetObjectDisplayName(System.Object, Boolean)
 		/// </summary>
-		protected static RMethod r_RGetObjectDisplayName_Object_Boolean;
+		protected static RMethod r_GetObjectDisplayName_Object_Boolean;
 		public static RMethod RGetObjectDisplayName_Object_Boolean
 		{
 			get
 			{
-				if(r_RGetObjectDisplayName_Object_Boolean == null)
+				if(r_GetObjectDisplayName_Object_Boolean == null)
 				{
-					r_RGetObjectDisplayName_Object_Boolean = new( ReleactionUtils.GetType("UnityEngine.UIElements.EventDebugger"), "GetObjectDisplayName", 0, typeof(System.Object), typeof(System.Boolean));
-					r_RGetObjectDisplayName_Object_Boolean.SetBelong(null);
+					r_GetObjectDisplayName_Object_Boolean = new( ReleactionUtils.GetType("UnityEngine.UIElements.EventDebugger"), "GetObjectDisplayName", 0, typeof(System.Object), typeof(System.Boolean));
+					r_GetObjectDisplayName_Object_Boolean.SetBelong(null);
 				}
-				return r_RGetObjectDisplayName_Object_Boolean;
+				return r_GetObjectDisplayName_Object_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// System.String GetTypeDisplayName(System.Type)
 		/// </summary>
-		protected static RMethod r_RGetTypeDisplayName_Type;
+		protected static RMethod r_GetTypeDisplayName_Type;
 		public static RMethod RGetTypeDisplayName_Type
 		{
 			get
 			{
-				if(r_RGetTypeDisplayName_Type == null)
+				if(r_GetTypeDisplayName_Type == null)
 				{
-					r_RGetTypeDisplayName_Type = new( ReleactionUtils.GetType("UnityEngine.UIElements.EventDebugger"), "GetTypeDisplayName", 0, typeof(System.Type));
-					r_RGetTypeDisplayName_Type.SetBelong(null);
+					r_GetTypeDisplayName_Type = new( ReleactionUtils.GetType("UnityEngine.UIElements.EventDebugger"), "GetTypeDisplayName", 0, typeof(System.Type));
+					r_GetTypeDisplayName_Type.SetBelong(null);
 				}
-				return r_RGetTypeDisplayName_Type;
+				return r_GetTypeDisplayName_Type;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Equals(System.Object)
 		/// </summary>
-		protected RMethod r_REquals_Object;
+		protected RMethod r_Equals_Object;
 		public virtual RMethod REquals_Object
 		{
 			get
 			{
-				if(r_REquals_Object == null)
+				if(r_Equals_Object == null)
 				{
-					r_REquals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_REquals_Object.SetBelong(this.instance);
+					r_Equals_Object = new(this, "Equals", 0, typeof(System.Object));
+					r_Equals_Object.SetBelong(this.instance);
 				}
-				return r_REquals_Object;
+				return r_Equals_Object;
 			}
 		}
 
 		/// <summary>
 		/// Void Finalize()
 		/// </summary>
-		protected RMethod r_RFinalize;
+		protected RMethod r_Finalize;
 		public virtual RMethod RFinalize
 		{
 			get
 			{
-				if(r_RFinalize == null)
+				if(r_Finalize == null)
 				{
-					r_RFinalize = new(this, "Finalize", 0);
-					r_RFinalize.SetBelong(this.instance);
+					r_Finalize = new(this, "Finalize", 0);
+					r_Finalize.SetBelong(this.instance);
 				}
-				return r_RFinalize;
+				return r_Finalize;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetHashCode()
 		/// </summary>
-		protected RMethod r_RGetHashCode;
+		protected RMethod r_GetHashCode;
 		public virtual RMethod RGetHashCode
 		{
 			get
 			{
-				if(r_RGetHashCode == null)
+				if(r_GetHashCode == null)
 				{
-					r_RGetHashCode = new(this, "GetHashCode", 0);
-					r_RGetHashCode.SetBelong(this.instance);
+					r_GetHashCode = new(this, "GetHashCode", 0);
+					r_GetHashCode.SetBelong(this.instance);
 				}
-				return r_RGetHashCode;
+				return r_GetHashCode;
 			}
 		}
 
 		/// <summary>
 		/// System.Type GetType()
 		/// </summary>
-		protected RMethod r_RGetType;
+		protected RMethod r_GetType;
 		public virtual RMethod RGetType
 		{
 			get
 			{
-				if(r_RGetType == null)
+				if(r_GetType == null)
 				{
-					r_RGetType = new(this, "GetType", 0);
-					r_RGetType.SetBelong(this.instance);
+					r_GetType = new(this, "GetType", 0);
+					r_GetType.SetBelong(this.instance);
 				}
-				return r_RGetType;
+				return r_GetType;
 			}
 		}
 
 		/// <summary>
 		/// System.Object MemberwiseClone()
 		/// </summary>
-		protected RMethod r_RMemberwiseClone;
+		protected RMethod r_MemberwiseClone;
 		public virtual RMethod RMemberwiseClone
 		{
 			get
 			{
-				if(r_RMemberwiseClone == null)
+				if(r_MemberwiseClone == null)
 				{
-					r_RMemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_RMemberwiseClone.SetBelong(this.instance);
+					r_MemberwiseClone = new(this, "MemberwiseClone", 0);
+					r_MemberwiseClone.SetBelong(this.instance);
 				}
-				return r_RMemberwiseClone;
+				return r_MemberwiseClone;
 			}
 		}
 
 		/// <summary>
 		/// System.String ToString()
 		/// </summary>
-		protected RMethod r_RToString;
+		protected RMethod r_ToString;
 		public virtual RMethod RToString
 		{
 			get
 			{
-				if(r_RToString == null)
+				if(r_ToString == null)
 				{
-					r_RToString = new(this, "ToString", 0);
-					r_RToString.SetBelong(this.instance);
+					r_ToString = new(this, "ToString", 0);
+					r_ToString.SetBelong(this.instance);
 				}
-				return r_RToString;
+				return r_ToString;
 			}
 		}
 

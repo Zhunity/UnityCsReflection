@@ -404,255 +404,255 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// Void InitializeEraNames(System.String, Int32)
 		/// </summary>
-		protected RMethod r_RInitializeEraNames_String_Int32;
+		protected RMethod r_InitializeEraNames_String_Int32;
 		public virtual RMethod RInitializeEraNames_String_Int32
 		{
 			get
 			{
-				if(r_RInitializeEraNames_String_Int32 == null)
+				if(r_InitializeEraNames_String_Int32 == null)
 				{
-					r_RInitializeEraNames_String_Int32 = new(this, "InitializeEraNames", 0, typeof(System.String), typeof(System.Int32));
-					r_RInitializeEraNames_String_Int32.SetBelong(this.instance);
+					r_InitializeEraNames_String_Int32 = new(this, "InitializeEraNames", 0, typeof(System.String), typeof(System.Int32));
+					r_InitializeEraNames_String_Int32.SetBelong(this.instance);
 				}
-				return r_RInitializeEraNames_String_Int32;
+				return r_InitializeEraNames_String_Int32;
 			}
 		}
 
 		/// <summary>
 		/// System.String[] GetJapaneseEraNames()
 		/// </summary>
-		protected static RMethod r_RGetJapaneseEraNames;
+		protected static RMethod r_GetJapaneseEraNames;
 		public static RMethod RGetJapaneseEraNames
 		{
 			get
 			{
-				if(r_RGetJapaneseEraNames == null)
+				if(r_GetJapaneseEraNames == null)
 				{
-					r_RGetJapaneseEraNames = new( ReleactionUtils.GetType("System.Globalization.CalendarData"), "GetJapaneseEraNames", 0);
-					r_RGetJapaneseEraNames.SetBelong(null);
+					r_GetJapaneseEraNames = new( ReleactionUtils.GetType("System.Globalization.CalendarData"), "GetJapaneseEraNames", 0);
+					r_GetJapaneseEraNames.SetBelong(null);
 				}
-				return r_RGetJapaneseEraNames;
+				return r_GetJapaneseEraNames;
 			}
 		}
 
 		/// <summary>
 		/// System.String[] GetJapaneseEnglishEraNames()
 		/// </summary>
-		protected static RMethod r_RGetJapaneseEnglishEraNames;
+		protected static RMethod r_GetJapaneseEnglishEraNames;
 		public static RMethod RGetJapaneseEnglishEraNames
 		{
 			get
 			{
-				if(r_RGetJapaneseEnglishEraNames == null)
+				if(r_GetJapaneseEnglishEraNames == null)
 				{
-					r_RGetJapaneseEnglishEraNames = new( ReleactionUtils.GetType("System.Globalization.CalendarData"), "GetJapaneseEnglishEraNames", 0);
-					r_RGetJapaneseEnglishEraNames.SetBelong(null);
+					r_GetJapaneseEnglishEraNames = new( ReleactionUtils.GetType("System.Globalization.CalendarData"), "GetJapaneseEnglishEraNames", 0);
+					r_GetJapaneseEnglishEraNames.SetBelong(null);
 				}
-				return r_RGetJapaneseEnglishEraNames;
+				return r_GetJapaneseEnglishEraNames;
 			}
 		}
 
 		/// <summary>
 		/// Void InitializeAbbreviatedEraNames(System.String, Int32)
 		/// </summary>
-		protected RMethod r_RInitializeAbbreviatedEraNames_String_Int32;
+		protected RMethod r_InitializeAbbreviatedEraNames_String_Int32;
 		public virtual RMethod RInitializeAbbreviatedEraNames_String_Int32
 		{
 			get
 			{
-				if(r_RInitializeAbbreviatedEraNames_String_Int32 == null)
+				if(r_InitializeAbbreviatedEraNames_String_Int32 == null)
 				{
-					r_RInitializeAbbreviatedEraNames_String_Int32 = new(this, "InitializeAbbreviatedEraNames", 0, typeof(System.String), typeof(System.Int32));
-					r_RInitializeAbbreviatedEraNames_String_Int32.SetBelong(this.instance);
+					r_InitializeAbbreviatedEraNames_String_Int32 = new(this, "InitializeAbbreviatedEraNames", 0, typeof(System.String), typeof(System.Int32));
+					r_InitializeAbbreviatedEraNames_String_Int32.SetBelong(this.instance);
 				}
-				return r_RInitializeAbbreviatedEraNames_String_Int32;
+				return r_InitializeAbbreviatedEraNames_String_Int32;
 			}
 		}
 
 		/// <summary>
 		/// System.Globalization.CalendarData GetCalendarData(Int32)
 		/// </summary>
-		protected static RMethod r_RGetCalendarData_Int32;
+		protected static RMethod r_GetCalendarData_Int32;
 		public static RMethod RGetCalendarData_Int32
 		{
 			get
 			{
-				if(r_RGetCalendarData_Int32 == null)
+				if(r_GetCalendarData_Int32 == null)
 				{
-					r_RGetCalendarData_Int32 = new( ReleactionUtils.GetType("System.Globalization.CalendarData"), "GetCalendarData", 0, typeof(System.Int32));
-					r_RGetCalendarData_Int32.SetBelong(null);
+					r_GetCalendarData_Int32 = new( ReleactionUtils.GetType("System.Globalization.CalendarData"), "GetCalendarData", 0, typeof(System.Int32));
+					r_GetCalendarData_Int32.SetBelong(null);
 				}
-				return r_RGetCalendarData_Int32;
+				return r_GetCalendarData_Int32;
 			}
 		}
 
 		/// <summary>
 		/// System.String CalendarIdToCultureName(Int32)
 		/// </summary>
-		protected static RMethod r_RCalendarIdToCultureName_Int32;
+		protected static RMethod r_CalendarIdToCultureName_Int32;
 		public static RMethod RCalendarIdToCultureName_Int32
 		{
 			get
 			{
-				if(r_RCalendarIdToCultureName_Int32 == null)
+				if(r_CalendarIdToCultureName_Int32 == null)
 				{
-					r_RCalendarIdToCultureName_Int32 = new( ReleactionUtils.GetType("System.Globalization.CalendarData"), "CalendarIdToCultureName", 0, typeof(System.Int32));
-					r_RCalendarIdToCultureName_Int32.SetBelong(null);
+					r_CalendarIdToCultureName_Int32 = new( ReleactionUtils.GetType("System.Globalization.CalendarData"), "CalendarIdToCultureName", 0, typeof(System.Int32));
+					r_CalendarIdToCultureName_Int32.SetBelong(null);
 				}
-				return r_RCalendarIdToCultureName_Int32;
+				return r_CalendarIdToCultureName_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Int32 nativeGetTwoDigitYearMax(Int32)
 		/// </summary>
-		protected static RMethod r_RnativeGetTwoDigitYearMax_Int32;
+		protected static RMethod r_nativeGetTwoDigitYearMax_Int32;
 		public static RMethod RnativeGetTwoDigitYearMax_Int32
 		{
 			get
 			{
-				if(r_RnativeGetTwoDigitYearMax_Int32 == null)
+				if(r_nativeGetTwoDigitYearMax_Int32 == null)
 				{
-					r_RnativeGetTwoDigitYearMax_Int32 = new( ReleactionUtils.GetType("System.Globalization.CalendarData"), "nativeGetTwoDigitYearMax", 0, typeof(System.Int32));
-					r_RnativeGetTwoDigitYearMax_Int32.SetBelong(null);
+					r_nativeGetTwoDigitYearMax_Int32 = new( ReleactionUtils.GetType("System.Globalization.CalendarData"), "nativeGetTwoDigitYearMax", 0, typeof(System.Int32));
+					r_nativeGetTwoDigitYearMax_Int32.SetBelong(null);
 				}
-				return r_RnativeGetTwoDigitYearMax_Int32;
+				return r_nativeGetTwoDigitYearMax_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Boolean nativeGetCalendarData(System.Globalization.CalendarData, System.String, Int32)
 		/// </summary>
-		protected static RMethod r_RnativeGetCalendarData_CalendarData_String_Int32;
+		protected static RMethod r_nativeGetCalendarData_CalendarData_String_Int32;
 		public static RMethod RnativeGetCalendarData_CalendarData_String_Int32
 		{
 			get
 			{
-				if(r_RnativeGetCalendarData_CalendarData_String_Int32 == null)
+				if(r_nativeGetCalendarData_CalendarData_String_Int32 == null)
 				{
-					r_RnativeGetCalendarData_CalendarData_String_Int32 = new( ReleactionUtils.GetType("System.Globalization.CalendarData"), "nativeGetCalendarData", 0,  ReleactionUtils.GetType("System.Globalization.CalendarData"), typeof(System.String), typeof(System.Int32));
-					r_RnativeGetCalendarData_CalendarData_String_Int32.SetBelong(null);
+					r_nativeGetCalendarData_CalendarData_String_Int32 = new( ReleactionUtils.GetType("System.Globalization.CalendarData"), "nativeGetCalendarData", 0,  ReleactionUtils.GetType("System.Globalization.CalendarData"), typeof(System.String), typeof(System.Int32));
+					r_nativeGetCalendarData_CalendarData_String_Int32.SetBelong(null);
 				}
-				return r_RnativeGetCalendarData_CalendarData_String_Int32;
+				return r_nativeGetCalendarData_CalendarData_String_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Boolean fill_calendar_data(System.String, Int32)
 		/// </summary>
-		protected RMethod r_Rfill_calendar_data_String_Int32;
+		protected RMethod r_fill_calendar_data_String_Int32;
 		public virtual RMethod Rfill_calendar_data_String_Int32
 		{
 			get
 			{
-				if(r_Rfill_calendar_data_String_Int32 == null)
+				if(r_fill_calendar_data_String_Int32 == null)
 				{
-					r_Rfill_calendar_data_String_Int32 = new(this, "fill_calendar_data", 0, typeof(System.String), typeof(System.Int32));
-					r_Rfill_calendar_data_String_Int32.SetBelong(this.instance);
+					r_fill_calendar_data_String_Int32 = new(this, "fill_calendar_data", 0, typeof(System.String), typeof(System.Int32));
+					r_fill_calendar_data_String_Int32.SetBelong(this.instance);
 				}
-				return r_Rfill_calendar_data_String_Int32;
+				return r_fill_calendar_data_String_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Equals(System.Object)
 		/// </summary>
-		protected RMethod r_REquals_Object;
+		protected RMethod r_Equals_Object;
 		public virtual RMethod REquals_Object
 		{
 			get
 			{
-				if(r_REquals_Object == null)
+				if(r_Equals_Object == null)
 				{
-					r_REquals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_REquals_Object.SetBelong(this.instance);
+					r_Equals_Object = new(this, "Equals", 0, typeof(System.Object));
+					r_Equals_Object.SetBelong(this.instance);
 				}
-				return r_REquals_Object;
+				return r_Equals_Object;
 			}
 		}
 
 		/// <summary>
 		/// Void Finalize()
 		/// </summary>
-		protected RMethod r_RFinalize;
+		protected RMethod r_Finalize;
 		public virtual RMethod RFinalize
 		{
 			get
 			{
-				if(r_RFinalize == null)
+				if(r_Finalize == null)
 				{
-					r_RFinalize = new(this, "Finalize", 0);
-					r_RFinalize.SetBelong(this.instance);
+					r_Finalize = new(this, "Finalize", 0);
+					r_Finalize.SetBelong(this.instance);
 				}
-				return r_RFinalize;
+				return r_Finalize;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetHashCode()
 		/// </summary>
-		protected RMethod r_RGetHashCode;
+		protected RMethod r_GetHashCode;
 		public virtual RMethod RGetHashCode
 		{
 			get
 			{
-				if(r_RGetHashCode == null)
+				if(r_GetHashCode == null)
 				{
-					r_RGetHashCode = new(this, "GetHashCode", 0);
-					r_RGetHashCode.SetBelong(this.instance);
+					r_GetHashCode = new(this, "GetHashCode", 0);
+					r_GetHashCode.SetBelong(this.instance);
 				}
-				return r_RGetHashCode;
+				return r_GetHashCode;
 			}
 		}
 
 		/// <summary>
 		/// System.Type GetType()
 		/// </summary>
-		protected RMethod r_RGetType;
+		protected RMethod r_GetType;
 		public virtual RMethod RGetType
 		{
 			get
 			{
-				if(r_RGetType == null)
+				if(r_GetType == null)
 				{
-					r_RGetType = new(this, "GetType", 0);
-					r_RGetType.SetBelong(this.instance);
+					r_GetType = new(this, "GetType", 0);
+					r_GetType.SetBelong(this.instance);
 				}
-				return r_RGetType;
+				return r_GetType;
 			}
 		}
 
 		/// <summary>
 		/// System.Object MemberwiseClone()
 		/// </summary>
-		protected RMethod r_RMemberwiseClone;
+		protected RMethod r_MemberwiseClone;
 		public virtual RMethod RMemberwiseClone
 		{
 			get
 			{
-				if(r_RMemberwiseClone == null)
+				if(r_MemberwiseClone == null)
 				{
-					r_RMemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_RMemberwiseClone.SetBelong(this.instance);
+					r_MemberwiseClone = new(this, "MemberwiseClone", 0);
+					r_MemberwiseClone.SetBelong(this.instance);
 				}
-				return r_RMemberwiseClone;
+				return r_MemberwiseClone;
 			}
 		}
 
 		/// <summary>
 		/// System.String ToString()
 		/// </summary>
-		protected RMethod r_RToString;
+		protected RMethod r_ToString;
 		public virtual RMethod RToString
 		{
 			get
 			{
-				if(r_RToString == null)
+				if(r_ToString == null)
 				{
-					r_RToString = new(this, "ToString", 0);
-					r_RToString.SetBelong(this.instance);
+					r_ToString = new(this, "ToString", 0);
+					r_ToString.SetBelong(this.instance);
 				}
-				return r_RToString;
+				return r_ToString;
 			}
 		}
 

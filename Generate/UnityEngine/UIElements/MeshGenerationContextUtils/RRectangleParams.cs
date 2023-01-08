@@ -491,323 +491,323 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// RectangleParams MakeSolid(UnityEngine.Rect, UnityEngine.Color, UnityEngine.UIElements.ContextType)
 		/// </summary>
-		protected static RMethod r_RMakeSolid_Rect_Color_ContextType;
+		protected static RMethod r_MakeSolid_Rect_Color_ContextType;
 		public static RMethod RMakeSolid_Rect_Color_ContextType
 		{
 			get
 			{
-				if(r_RMakeSolid_Rect_Color_ContextType == null)
+				if(r_MakeSolid_Rect_Color_ContextType == null)
 				{
-					r_RMakeSolid_Rect_Color_ContextType = new( ReleactionUtils.GetType("UnityEngine.UIElements.MeshGenerationContextUtils+RectangleParams"), "MakeSolid", 0, typeof(UnityEngine.Rect), typeof(UnityEngine.Color), typeof(UnityEngine.UIElements.ContextType));
-					r_RMakeSolid_Rect_Color_ContextType.SetBelong(null);
+					r_MakeSolid_Rect_Color_ContextType = new( ReleactionUtils.GetType("UnityEngine.UIElements.MeshGenerationContextUtils+RectangleParams"), "MakeSolid", 0, typeof(UnityEngine.Rect), typeof(UnityEngine.Color), typeof(UnityEngine.UIElements.ContextType));
+					r_MakeSolid_Rect_Color_ContextType.SetBelong(null);
 				}
-				return r_RMakeSolid_Rect_Color_ContextType;
+				return r_MakeSolid_Rect_Color_ContextType;
 			}
 		}
 
 		/// <summary>
 		/// Void AdjustUVsForScaleMode(UnityEngine.Rect, UnityEngine.Rect, UnityEngine.Texture, UnityEngine.ScaleMode, UnityEngine.Rect ByRef, UnityEngine.Rect ByRef)
 		/// </summary>
-		protected static RMethod r_RAdjustUVsForScaleMode_Rect_Rect_Texture_ScaleMode_Out_Rect_Out_Rect;
+		protected static RMethod r_AdjustUVsForScaleMode_Rect_Rect_Texture_ScaleMode_Out_Rect_Out_Rect;
 		public static RMethod RAdjustUVsForScaleMode_Rect_Rect_Texture_ScaleMode_Out_Rect_Out_Rect
 		{
 			get
 			{
-				if(r_RAdjustUVsForScaleMode_Rect_Rect_Texture_ScaleMode_Out_Rect_Out_Rect == null)
+				if(r_AdjustUVsForScaleMode_Rect_Rect_Texture_ScaleMode_Out_Rect_Out_Rect == null)
 				{
-					r_RAdjustUVsForScaleMode_Rect_Rect_Texture_ScaleMode_Out_Rect_Out_Rect = new( ReleactionUtils.GetType("UnityEngine.UIElements.MeshGenerationContextUtils+RectangleParams"), "AdjustUVsForScaleMode", 0, typeof(UnityEngine.Rect), typeof(UnityEngine.Rect), typeof(UnityEngine.Texture), typeof(UnityEngine.ScaleMode), typeof(UnityEngine.Rect).MakeByRefType(), typeof(UnityEngine.Rect).MakeByRefType());
-					r_RAdjustUVsForScaleMode_Rect_Rect_Texture_ScaleMode_Out_Rect_Out_Rect.SetBelong(null);
+					r_AdjustUVsForScaleMode_Rect_Rect_Texture_ScaleMode_Out_Rect_Out_Rect = new( ReleactionUtils.GetType("UnityEngine.UIElements.MeshGenerationContextUtils+RectangleParams"), "AdjustUVsForScaleMode", 0, typeof(UnityEngine.Rect), typeof(UnityEngine.Rect), typeof(UnityEngine.Texture), typeof(UnityEngine.ScaleMode), typeof(UnityEngine.Rect).MakeByRefType(), typeof(UnityEngine.Rect).MakeByRefType());
+					r_AdjustUVsForScaleMode_Rect_Rect_Texture_ScaleMode_Out_Rect_Out_Rect.SetBelong(null);
 				}
-				return r_RAdjustUVsForScaleMode_Rect_Rect_Texture_ScaleMode_Out_Rect_Out_Rect;
+				return r_AdjustUVsForScaleMode_Rect_Rect_Texture_ScaleMode_Out_Rect_Out_Rect;
 			}
 		}
 
 		/// <summary>
 		/// Void AdjustSpriteUVsForScaleMode(UnityEngine.Rect, UnityEngine.Rect, UnityEngine.Rect, UnityEngine.Texture, UnityEngine.Sprite, UnityEngine.ScaleMode, UnityEngine.Rect ByRef, UnityEngine.Rect ByRef)
 		/// </summary>
-		protected static RMethod r_RAdjustSpriteUVsForScaleMode_Rect_Rect_Rect_Texture_Sprite_ScaleMode_Out_Rect_Out_Rect;
+		protected static RMethod r_AdjustSpriteUVsForScaleMode_Rect_Rect_Rect_Texture_Sprite_ScaleMode_Out_Rect_Out_Rect;
 		public static RMethod RAdjustSpriteUVsForScaleMode_Rect_Rect_Rect_Texture_Sprite_ScaleMode_Out_Rect_Out_Rect
 		{
 			get
 			{
-				if(r_RAdjustSpriteUVsForScaleMode_Rect_Rect_Rect_Texture_Sprite_ScaleMode_Out_Rect_Out_Rect == null)
+				if(r_AdjustSpriteUVsForScaleMode_Rect_Rect_Rect_Texture_Sprite_ScaleMode_Out_Rect_Out_Rect == null)
 				{
-					r_RAdjustSpriteUVsForScaleMode_Rect_Rect_Rect_Texture_Sprite_ScaleMode_Out_Rect_Out_Rect = new( ReleactionUtils.GetType("UnityEngine.UIElements.MeshGenerationContextUtils+RectangleParams"), "AdjustSpriteUVsForScaleMode", 0, typeof(UnityEngine.Rect), typeof(UnityEngine.Rect), typeof(UnityEngine.Rect), typeof(UnityEngine.Texture), typeof(UnityEngine.Sprite), typeof(UnityEngine.ScaleMode), typeof(UnityEngine.Rect).MakeByRefType(), typeof(UnityEngine.Rect).MakeByRefType());
-					r_RAdjustSpriteUVsForScaleMode_Rect_Rect_Rect_Texture_Sprite_ScaleMode_Out_Rect_Out_Rect.SetBelong(null);
+					r_AdjustSpriteUVsForScaleMode_Rect_Rect_Rect_Texture_Sprite_ScaleMode_Out_Rect_Out_Rect = new( ReleactionUtils.GetType("UnityEngine.UIElements.MeshGenerationContextUtils+RectangleParams"), "AdjustSpriteUVsForScaleMode", 0, typeof(UnityEngine.Rect), typeof(UnityEngine.Rect), typeof(UnityEngine.Rect), typeof(UnityEngine.Texture), typeof(UnityEngine.Sprite), typeof(UnityEngine.ScaleMode), typeof(UnityEngine.Rect).MakeByRefType(), typeof(UnityEngine.Rect).MakeByRefType());
+					r_AdjustSpriteUVsForScaleMode_Rect_Rect_Rect_Texture_Sprite_ScaleMode_Out_Rect_Out_Rect.SetBelong(null);
 				}
-				return r_RAdjustSpriteUVsForScaleMode_Rect_Rect_Rect_Texture_Sprite_ScaleMode_Out_Rect_Out_Rect;
+				return r_AdjustSpriteUVsForScaleMode_Rect_Rect_Rect_Texture_Sprite_ScaleMode_Out_Rect_Out_Rect;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Rect RectIntersection(UnityEngine.Rect, UnityEngine.Rect)
 		/// </summary>
-		protected static RMethod r_RRectIntersection_Rect_Rect;
+		protected static RMethod r_RectIntersection_Rect_Rect;
 		public static RMethod RRectIntersection_Rect_Rect
 		{
 			get
 			{
-				if(r_RRectIntersection_Rect_Rect == null)
+				if(r_RectIntersection_Rect_Rect == null)
 				{
-					r_RRectIntersection_Rect_Rect = new( ReleactionUtils.GetType("UnityEngine.UIElements.MeshGenerationContextUtils+RectangleParams"), "RectIntersection", 0, typeof(UnityEngine.Rect), typeof(UnityEngine.Rect));
-					r_RRectIntersection_Rect_Rect.SetBelong(null);
+					r_RectIntersection_Rect_Rect = new( ReleactionUtils.GetType("UnityEngine.UIElements.MeshGenerationContextUtils+RectangleParams"), "RectIntersection", 0, typeof(UnityEngine.Rect), typeof(UnityEngine.Rect));
+					r_RectIntersection_Rect_Rect.SetBelong(null);
 				}
-				return r_RRectIntersection_Rect_Rect;
+				return r_RectIntersection_Rect_Rect;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Rect ComputeGeomRect(UnityEngine.Sprite)
 		/// </summary>
-		protected static RMethod r_RComputeGeomRect_Sprite;
+		protected static RMethod r_ComputeGeomRect_Sprite;
 		public static RMethod RComputeGeomRect_Sprite
 		{
 			get
 			{
-				if(r_RComputeGeomRect_Sprite == null)
+				if(r_ComputeGeomRect_Sprite == null)
 				{
-					r_RComputeGeomRect_Sprite = new( ReleactionUtils.GetType("UnityEngine.UIElements.MeshGenerationContextUtils+RectangleParams"), "ComputeGeomRect", 0, typeof(UnityEngine.Sprite));
-					r_RComputeGeomRect_Sprite.SetBelong(null);
+					r_ComputeGeomRect_Sprite = new( ReleactionUtils.GetType("UnityEngine.UIElements.MeshGenerationContextUtils+RectangleParams"), "ComputeGeomRect", 0, typeof(UnityEngine.Sprite));
+					r_ComputeGeomRect_Sprite.SetBelong(null);
 				}
-				return r_RComputeGeomRect_Sprite;
+				return r_ComputeGeomRect_Sprite;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Rect ComputeUVRect(UnityEngine.Sprite)
 		/// </summary>
-		protected static RMethod r_RComputeUVRect_Sprite;
+		protected static RMethod r_ComputeUVRect_Sprite;
 		public static RMethod RComputeUVRect_Sprite
 		{
 			get
 			{
-				if(r_RComputeUVRect_Sprite == null)
+				if(r_ComputeUVRect_Sprite == null)
 				{
-					r_RComputeUVRect_Sprite = new( ReleactionUtils.GetType("UnityEngine.UIElements.MeshGenerationContextUtils+RectangleParams"), "ComputeUVRect", 0, typeof(UnityEngine.Sprite));
-					r_RComputeUVRect_Sprite.SetBelong(null);
+					r_ComputeUVRect_Sprite = new( ReleactionUtils.GetType("UnityEngine.UIElements.MeshGenerationContextUtils+RectangleParams"), "ComputeUVRect", 0, typeof(UnityEngine.Sprite));
+					r_ComputeUVRect_Sprite.SetBelong(null);
 				}
-				return r_RComputeUVRect_Sprite;
+				return r_ComputeUVRect_Sprite;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Rect ApplyPackingRotation(UnityEngine.Rect, UnityEngine.SpritePackingRotation)
 		/// </summary>
-		protected static RMethod r_RApplyPackingRotation_Rect_SpritePackingRotation;
+		protected static RMethod r_ApplyPackingRotation_Rect_SpritePackingRotation;
 		public static RMethod RApplyPackingRotation_Rect_SpritePackingRotation
 		{
 			get
 			{
-				if(r_RApplyPackingRotation_Rect_SpritePackingRotation == null)
+				if(r_ApplyPackingRotation_Rect_SpritePackingRotation == null)
 				{
-					r_RApplyPackingRotation_Rect_SpritePackingRotation = new( ReleactionUtils.GetType("UnityEngine.UIElements.MeshGenerationContextUtils+RectangleParams"), "ApplyPackingRotation", 0, typeof(UnityEngine.Rect), typeof(UnityEngine.SpritePackingRotation));
-					r_RApplyPackingRotation_Rect_SpritePackingRotation.SetBelong(null);
+					r_ApplyPackingRotation_Rect_SpritePackingRotation = new( ReleactionUtils.GetType("UnityEngine.UIElements.MeshGenerationContextUtils+RectangleParams"), "ApplyPackingRotation", 0, typeof(UnityEngine.Rect), typeof(UnityEngine.SpritePackingRotation));
+					r_ApplyPackingRotation_Rect_SpritePackingRotation.SetBelong(null);
 				}
-				return r_RApplyPackingRotation_Rect_SpritePackingRotation;
+				return r_ApplyPackingRotation_Rect_SpritePackingRotation;
 			}
 		}
 
 		/// <summary>
 		/// RectangleParams MakeTextured(UnityEngine.Rect, UnityEngine.Rect, UnityEngine.Texture, UnityEngine.ScaleMode, UnityEngine.UIElements.ContextType)
 		/// </summary>
-		protected static RMethod r_RMakeTextured_Rect_Rect_Texture_ScaleMode_ContextType;
+		protected static RMethod r_MakeTextured_Rect_Rect_Texture_ScaleMode_ContextType;
 		public static RMethod RMakeTextured_Rect_Rect_Texture_ScaleMode_ContextType
 		{
 			get
 			{
-				if(r_RMakeTextured_Rect_Rect_Texture_ScaleMode_ContextType == null)
+				if(r_MakeTextured_Rect_Rect_Texture_ScaleMode_ContextType == null)
 				{
-					r_RMakeTextured_Rect_Rect_Texture_ScaleMode_ContextType = new( ReleactionUtils.GetType("UnityEngine.UIElements.MeshGenerationContextUtils+RectangleParams"), "MakeTextured", 0, typeof(UnityEngine.Rect), typeof(UnityEngine.Rect), typeof(UnityEngine.Texture), typeof(UnityEngine.ScaleMode), typeof(UnityEngine.UIElements.ContextType));
-					r_RMakeTextured_Rect_Rect_Texture_ScaleMode_ContextType.SetBelong(null);
+					r_MakeTextured_Rect_Rect_Texture_ScaleMode_ContextType = new( ReleactionUtils.GetType("UnityEngine.UIElements.MeshGenerationContextUtils+RectangleParams"), "MakeTextured", 0, typeof(UnityEngine.Rect), typeof(UnityEngine.Rect), typeof(UnityEngine.Texture), typeof(UnityEngine.ScaleMode), typeof(UnityEngine.UIElements.ContextType));
+					r_MakeTextured_Rect_Rect_Texture_ScaleMode_ContextType.SetBelong(null);
 				}
-				return r_RMakeTextured_Rect_Rect_Texture_ScaleMode_ContextType;
+				return r_MakeTextured_Rect_Rect_Texture_ScaleMode_ContextType;
 			}
 		}
 
 		/// <summary>
 		/// RectangleParams MakeSprite(UnityEngine.Rect, UnityEngine.Sprite, UnityEngine.ScaleMode, UnityEngine.UIElements.ContextType, Boolean, UnityEngine.Vector4 ByRef, Boolean)
 		/// </summary>
-		protected static RMethod r_RMakeSprite_Rect_Sprite_ScaleMode_ContextType_Boolean_Ref_Vector4_Boolean;
+		protected static RMethod r_MakeSprite_Rect_Sprite_ScaleMode_ContextType_Boolean_Ref_Vector4_Boolean;
 		public static RMethod RMakeSprite_Rect_Sprite_ScaleMode_ContextType_Boolean_Ref_Vector4_Boolean
 		{
 			get
 			{
-				if(r_RMakeSprite_Rect_Sprite_ScaleMode_ContextType_Boolean_Ref_Vector4_Boolean == null)
+				if(r_MakeSprite_Rect_Sprite_ScaleMode_ContextType_Boolean_Ref_Vector4_Boolean == null)
 				{
-					r_RMakeSprite_Rect_Sprite_ScaleMode_ContextType_Boolean_Ref_Vector4_Boolean = new( ReleactionUtils.GetType("UnityEngine.UIElements.MeshGenerationContextUtils+RectangleParams"), "MakeSprite", 0, typeof(UnityEngine.Rect), typeof(UnityEngine.Sprite), typeof(UnityEngine.ScaleMode), typeof(UnityEngine.UIElements.ContextType), typeof(System.Boolean), typeof(UnityEngine.Vector4).MakeByRefType(), typeof(System.Boolean));
-					r_RMakeSprite_Rect_Sprite_ScaleMode_ContextType_Boolean_Ref_Vector4_Boolean.SetBelong(null);
+					r_MakeSprite_Rect_Sprite_ScaleMode_ContextType_Boolean_Ref_Vector4_Boolean = new( ReleactionUtils.GetType("UnityEngine.UIElements.MeshGenerationContextUtils+RectangleParams"), "MakeSprite", 0, typeof(UnityEngine.Rect), typeof(UnityEngine.Sprite), typeof(UnityEngine.ScaleMode), typeof(UnityEngine.UIElements.ContextType), typeof(System.Boolean), typeof(UnityEngine.Vector4).MakeByRefType(), typeof(System.Boolean));
+					r_MakeSprite_Rect_Sprite_ScaleMode_ContextType_Boolean_Ref_Vector4_Boolean.SetBelong(null);
 				}
-				return r_RMakeSprite_Rect_Sprite_ScaleMode_ContextType_Boolean_Ref_Vector4_Boolean;
+				return r_MakeSprite_Rect_Sprite_ScaleMode_ContextType_Boolean_Ref_Vector4_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// RectangleParams MakeVectorTextured(UnityEngine.Rect, UnityEngine.Rect, UnityEngine.UIElements.VectorImage, UnityEngine.ScaleMode, UnityEngine.UIElements.ContextType)
 		/// </summary>
-		protected static RMethod r_RMakeVectorTextured_Rect_Rect_VectorImage_ScaleMode_ContextType;
+		protected static RMethod r_MakeVectorTextured_Rect_Rect_VectorImage_ScaleMode_ContextType;
 		public static RMethod RMakeVectorTextured_Rect_Rect_VectorImage_ScaleMode_ContextType
 		{
 			get
 			{
-				if(r_RMakeVectorTextured_Rect_Rect_VectorImage_ScaleMode_ContextType == null)
+				if(r_MakeVectorTextured_Rect_Rect_VectorImage_ScaleMode_ContextType == null)
 				{
-					r_RMakeVectorTextured_Rect_Rect_VectorImage_ScaleMode_ContextType = new( ReleactionUtils.GetType("UnityEngine.UIElements.MeshGenerationContextUtils+RectangleParams"), "MakeVectorTextured", 0, typeof(UnityEngine.Rect), typeof(UnityEngine.Rect), typeof(UnityEngine.UIElements.VectorImage), typeof(UnityEngine.ScaleMode), typeof(UnityEngine.UIElements.ContextType));
-					r_RMakeVectorTextured_Rect_Rect_VectorImage_ScaleMode_ContextType.SetBelong(null);
+					r_MakeVectorTextured_Rect_Rect_VectorImage_ScaleMode_ContextType = new( ReleactionUtils.GetType("UnityEngine.UIElements.MeshGenerationContextUtils+RectangleParams"), "MakeVectorTextured", 0, typeof(UnityEngine.Rect), typeof(UnityEngine.Rect), typeof(UnityEngine.UIElements.VectorImage), typeof(UnityEngine.ScaleMode), typeof(UnityEngine.UIElements.ContextType));
+					r_MakeVectorTextured_Rect_Rect_VectorImage_ScaleMode_ContextType.SetBelong(null);
 				}
-				return r_RMakeVectorTextured_Rect_Rect_VectorImage_ScaleMode_ContextType;
+				return r_MakeVectorTextured_Rect_Rect_VectorImage_ScaleMode_ContextType;
 			}
 		}
 
 		/// <summary>
 		/// Boolean HasRadius(Single)
 		/// </summary>
-		protected RMethod r_RHasRadius_Single;
+		protected RMethod r_HasRadius_Single;
 		public virtual RMethod RHasRadius_Single
 		{
 			get
 			{
-				if(r_RHasRadius_Single == null)
+				if(r_HasRadius_Single == null)
 				{
-					r_RHasRadius_Single = new(this, "HasRadius", 0, typeof(System.Single));
-					r_RHasRadius_Single.SetBelong(this.instance);
+					r_HasRadius_Single = new(this, "HasRadius", 0, typeof(System.Single));
+					r_HasRadius_Single.SetBelong(this.instance);
 				}
-				return r_RHasRadius_Single;
+				return r_HasRadius_Single;
 			}
 		}
 
 		/// <summary>
 		/// Boolean HasSlices(Single)
 		/// </summary>
-		protected RMethod r_RHasSlices_Single;
+		protected RMethod r_HasSlices_Single;
 		public virtual RMethod RHasSlices_Single
 		{
 			get
 			{
-				if(r_RHasSlices_Single == null)
+				if(r_HasSlices_Single == null)
 				{
-					r_RHasSlices_Single = new(this, "HasSlices", 0, typeof(System.Single));
-					r_RHasSlices_Single.SetBelong(this.instance);
+					r_HasSlices_Single = new(this, "HasSlices", 0, typeof(System.Single));
+					r_HasSlices_Single.SetBelong(this.instance);
 				}
-				return r_RHasSlices_Single;
+				return r_HasSlices_Single;
 			}
 		}
 
 		/// <summary>
 		/// NativeRectParams ToNativeParams(UnityEngine.Rect)
 		/// </summary>
-		protected RMethod r_RToNativeParams_Rect;
+		protected RMethod r_ToNativeParams_Rect;
 		public virtual RMethod RToNativeParams_Rect
 		{
 			get
 			{
-				if(r_RToNativeParams_Rect == null)
+				if(r_ToNativeParams_Rect == null)
 				{
-					r_RToNativeParams_Rect = new(this, "ToNativeParams", 0, typeof(UnityEngine.Rect));
-					r_RToNativeParams_Rect.SetBelong(this.instance);
+					r_ToNativeParams_Rect = new(this, "ToNativeParams", 0, typeof(UnityEngine.Rect));
+					r_ToNativeParams_Rect.SetBelong(this.instance);
 				}
-				return r_RToNativeParams_Rect;
+				return r_ToNativeParams_Rect;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Equals(System.Object)
 		/// </summary>
-		protected RMethod r_REquals_Object;
+		protected RMethod r_Equals_Object;
 		public virtual RMethod REquals_Object
 		{
 			get
 			{
-				if(r_REquals_Object == null)
+				if(r_Equals_Object == null)
 				{
-					r_REquals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_REquals_Object.SetBelong(this.instance);
+					r_Equals_Object = new(this, "Equals", 0, typeof(System.Object));
+					r_Equals_Object.SetBelong(this.instance);
 				}
-				return r_REquals_Object;
+				return r_Equals_Object;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetHashCode()
 		/// </summary>
-		protected RMethod r_RGetHashCode;
+		protected RMethod r_GetHashCode;
 		public virtual RMethod RGetHashCode
 		{
 			get
 			{
-				if(r_RGetHashCode == null)
+				if(r_GetHashCode == null)
 				{
-					r_RGetHashCode = new(this, "GetHashCode", 0);
-					r_RGetHashCode.SetBelong(this.instance);
+					r_GetHashCode = new(this, "GetHashCode", 0);
+					r_GetHashCode.SetBelong(this.instance);
 				}
-				return r_RGetHashCode;
+				return r_GetHashCode;
 			}
 		}
 
 		/// <summary>
 		/// System.String ToString()
 		/// </summary>
-		protected RMethod r_RToString;
+		protected RMethod r_ToString;
 		public virtual RMethod RToString
 		{
 			get
 			{
-				if(r_RToString == null)
+				if(r_ToString == null)
 				{
-					r_RToString = new(this, "ToString", 0);
-					r_RToString.SetBelong(this.instance);
+					r_ToString = new(this, "ToString", 0);
+					r_ToString.SetBelong(this.instance);
 				}
-				return r_RToString;
+				return r_ToString;
 			}
 		}
 
 		/// <summary>
 		/// Void Finalize()
 		/// </summary>
-		protected RMethod r_RFinalize;
+		protected RMethod r_Finalize;
 		public virtual RMethod RFinalize
 		{
 			get
 			{
-				if(r_RFinalize == null)
+				if(r_Finalize == null)
 				{
-					r_RFinalize = new(this, "Finalize", 0);
-					r_RFinalize.SetBelong(this.instance);
+					r_Finalize = new(this, "Finalize", 0);
+					r_Finalize.SetBelong(this.instance);
 				}
-				return r_RFinalize;
+				return r_Finalize;
 			}
 		}
 
 		/// <summary>
 		/// System.Type GetType()
 		/// </summary>
-		protected RMethod r_RGetType;
+		protected RMethod r_GetType;
 		public virtual RMethod RGetType
 		{
 			get
 			{
-				if(r_RGetType == null)
+				if(r_GetType == null)
 				{
-					r_RGetType = new(this, "GetType", 0);
-					r_RGetType.SetBelong(this.instance);
+					r_GetType = new(this, "GetType", 0);
+					r_GetType.SetBelong(this.instance);
 				}
-				return r_RGetType;
+				return r_GetType;
 			}
 		}
 
 		/// <summary>
 		/// System.Object MemberwiseClone()
 		/// </summary>
-		protected RMethod r_RMemberwiseClone;
+		protected RMethod r_MemberwiseClone;
 		public virtual RMethod RMemberwiseClone
 		{
 			get
 			{
-				if(r_RMemberwiseClone == null)
+				if(r_MemberwiseClone == null)
 				{
-					r_RMemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_RMemberwiseClone.SetBelong(this.instance);
+					r_MemberwiseClone = new(this, "MemberwiseClone", 0);
+					r_MemberwiseClone.SetBelong(this.instance);
 				}
-				return r_RMemberwiseClone;
+				return r_MemberwiseClone;
 			}
 		}
 

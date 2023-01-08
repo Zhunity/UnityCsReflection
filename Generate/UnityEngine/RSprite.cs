@@ -319,833 +319,833 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 GetPackingMode()
 		/// </summary>
-		protected RMethod r_RGetPackingMode;
+		protected RMethod r_GetPackingMode;
 		public virtual RMethod RGetPackingMode
 		{
 			get
 			{
-				if(r_RGetPackingMode == null)
+				if(r_GetPackingMode == null)
 				{
-					r_RGetPackingMode = new(this, "GetPackingMode", 0);
-					r_RGetPackingMode.SetBelong(this.instance);
+					r_GetPackingMode = new(this, "GetPackingMode", 0);
+					r_GetPackingMode.SetBelong(this.instance);
 				}
-				return r_RGetPackingMode;
+				return r_GetPackingMode;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetPackingRotation()
 		/// </summary>
-		protected RMethod r_RGetPackingRotation;
+		protected RMethod r_GetPackingRotation;
 		public virtual RMethod RGetPackingRotation
 		{
 			get
 			{
-				if(r_RGetPackingRotation == null)
+				if(r_GetPackingRotation == null)
 				{
-					r_RGetPackingRotation = new(this, "GetPackingRotation", 0);
-					r_RGetPackingRotation.SetBelong(this.instance);
+					r_GetPackingRotation = new(this, "GetPackingRotation", 0);
+					r_GetPackingRotation.SetBelong(this.instance);
 				}
-				return r_RGetPackingRotation;
+				return r_GetPackingRotation;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetPacked()
 		/// </summary>
-		protected RMethod r_RGetPacked;
+		protected RMethod r_GetPacked;
 		public virtual RMethod RGetPacked
 		{
 			get
 			{
-				if(r_RGetPacked == null)
+				if(r_GetPacked == null)
 				{
-					r_RGetPacked = new(this, "GetPacked", 0);
-					r_RGetPacked.SetBelong(this.instance);
+					r_GetPacked = new(this, "GetPacked", 0);
+					r_GetPacked.SetBelong(this.instance);
 				}
-				return r_RGetPacked;
+				return r_GetPacked;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Rect GetTextureRect()
 		/// </summary>
-		protected RMethod r_RGetTextureRect;
+		protected RMethod r_GetTextureRect;
 		public virtual RMethod RGetTextureRect
 		{
 			get
 			{
-				if(r_RGetTextureRect == null)
+				if(r_GetTextureRect == null)
 				{
-					r_RGetTextureRect = new(this, "GetTextureRect", 0);
-					r_RGetTextureRect.SetBelong(this.instance);
+					r_GetTextureRect = new(this, "GetTextureRect", 0);
+					r_GetTextureRect.SetBelong(this.instance);
 				}
-				return r_RGetTextureRect;
+				return r_GetTextureRect;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Vector2 GetTextureRectOffset()
 		/// </summary>
-		protected RMethod r_RGetTextureRectOffset;
+		protected RMethod r_GetTextureRectOffset;
 		public virtual RMethod RGetTextureRectOffset
 		{
 			get
 			{
-				if(r_RGetTextureRectOffset == null)
+				if(r_GetTextureRectOffset == null)
 				{
-					r_RGetTextureRectOffset = new(this, "GetTextureRectOffset", 0);
-					r_RGetTextureRectOffset.SetBelong(this.instance);
+					r_GetTextureRectOffset = new(this, "GetTextureRectOffset", 0);
+					r_GetTextureRectOffset.SetBelong(this.instance);
 				}
-				return r_RGetTextureRectOffset;
+				return r_GetTextureRectOffset;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Vector4 GetInnerUVs()
 		/// </summary>
-		protected RMethod r_RGetInnerUVs;
+		protected RMethod r_GetInnerUVs;
 		public virtual RMethod RGetInnerUVs
 		{
 			get
 			{
-				if(r_RGetInnerUVs == null)
+				if(r_GetInnerUVs == null)
 				{
-					r_RGetInnerUVs = new(this, "GetInnerUVs", 0);
-					r_RGetInnerUVs.SetBelong(this.instance);
+					r_GetInnerUVs = new(this, "GetInnerUVs", 0);
+					r_GetInnerUVs.SetBelong(this.instance);
 				}
-				return r_RGetInnerUVs;
+				return r_GetInnerUVs;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Vector4 GetOuterUVs()
 		/// </summary>
-		protected RMethod r_RGetOuterUVs;
+		protected RMethod r_GetOuterUVs;
 		public virtual RMethod RGetOuterUVs
 		{
 			get
 			{
-				if(r_RGetOuterUVs == null)
+				if(r_GetOuterUVs == null)
 				{
-					r_RGetOuterUVs = new(this, "GetOuterUVs", 0);
-					r_RGetOuterUVs.SetBelong(this.instance);
+					r_GetOuterUVs = new(this, "GetOuterUVs", 0);
+					r_GetOuterUVs.SetBelong(this.instance);
 				}
-				return r_RGetOuterUVs;
+				return r_GetOuterUVs;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Vector4 GetPadding()
 		/// </summary>
-		protected RMethod r_RGetPadding;
+		protected RMethod r_GetPadding;
 		public virtual RMethod RGetPadding
 		{
 			get
 			{
-				if(r_RGetPadding == null)
+				if(r_GetPadding == null)
 				{
-					r_RGetPadding = new(this, "GetPadding", 0);
-					r_RGetPadding.SetBelong(this.instance);
+					r_GetPadding = new(this, "GetPadding", 0);
+					r_GetPadding.SetBelong(this.instance);
 				}
-				return r_RGetPadding;
+				return r_GetPadding;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Sprite CreateSpriteWithoutTextureScripting(UnityEngine.Rect, UnityEngine.Vector2, Single, UnityEngine.Texture2D)
 		/// </summary>
-		protected static RMethod r_RCreateSpriteWithoutTextureScripting_Rect_Vector2_Single_Texture2D;
+		protected static RMethod r_CreateSpriteWithoutTextureScripting_Rect_Vector2_Single_Texture2D;
 		public static RMethod RCreateSpriteWithoutTextureScripting_Rect_Vector2_Single_Texture2D
 		{
 			get
 			{
-				if(r_RCreateSpriteWithoutTextureScripting_Rect_Vector2_Single_Texture2D == null)
+				if(r_CreateSpriteWithoutTextureScripting_Rect_Vector2_Single_Texture2D == null)
 				{
-					r_RCreateSpriteWithoutTextureScripting_Rect_Vector2_Single_Texture2D = new(typeof(UnityEngine.Sprite), "CreateSpriteWithoutTextureScripting", 0, typeof(UnityEngine.Rect), typeof(UnityEngine.Vector2), typeof(System.Single), typeof(UnityEngine.Texture2D));
-					r_RCreateSpriteWithoutTextureScripting_Rect_Vector2_Single_Texture2D.SetBelong(null);
+					r_CreateSpriteWithoutTextureScripting_Rect_Vector2_Single_Texture2D = new(typeof(UnityEngine.Sprite), "CreateSpriteWithoutTextureScripting", 0, typeof(UnityEngine.Rect), typeof(UnityEngine.Vector2), typeof(System.Single), typeof(UnityEngine.Texture2D));
+					r_CreateSpriteWithoutTextureScripting_Rect_Vector2_Single_Texture2D.SetBelong(null);
 				}
-				return r_RCreateSpriteWithoutTextureScripting_Rect_Vector2_Single_Texture2D;
+				return r_CreateSpriteWithoutTextureScripting_Rect_Vector2_Single_Texture2D;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Sprite CreateSprite(UnityEngine.Texture2D, UnityEngine.Rect, UnityEngine.Vector2, Single, UInt32, UnityEngine.SpriteMeshType, UnityEngine.Vector4, Boolean, UnityEngine.SecondarySpriteTexture[])
 		/// </summary>
-		protected static RMethod r_RCreateSprite_Texture2D_Rect_Vector2_Single_UInt32_SpriteMeshType_Vector4_Boolean_SecondarySpriteTextureArray;
+		protected static RMethod r_CreateSprite_Texture2D_Rect_Vector2_Single_UInt32_SpriteMeshType_Vector4_Boolean_SecondarySpriteTextureArray;
 		public static RMethod RCreateSprite_Texture2D_Rect_Vector2_Single_UInt32_SpriteMeshType_Vector4_Boolean_SecondarySpriteTextureArray
 		{
 			get
 			{
-				if(r_RCreateSprite_Texture2D_Rect_Vector2_Single_UInt32_SpriteMeshType_Vector4_Boolean_SecondarySpriteTextureArray == null)
+				if(r_CreateSprite_Texture2D_Rect_Vector2_Single_UInt32_SpriteMeshType_Vector4_Boolean_SecondarySpriteTextureArray == null)
 				{
-					r_RCreateSprite_Texture2D_Rect_Vector2_Single_UInt32_SpriteMeshType_Vector4_Boolean_SecondarySpriteTextureArray = new(typeof(UnityEngine.Sprite), "CreateSprite", 0, typeof(UnityEngine.Texture2D), typeof(UnityEngine.Rect), typeof(UnityEngine.Vector2), typeof(System.Single), typeof(System.UInt32), typeof(UnityEngine.SpriteMeshType), typeof(UnityEngine.Vector4), typeof(System.Boolean), typeof(UnityEngine.SecondarySpriteTexture).MakeArrayType());
-					r_RCreateSprite_Texture2D_Rect_Vector2_Single_UInt32_SpriteMeshType_Vector4_Boolean_SecondarySpriteTextureArray.SetBelong(null);
+					r_CreateSprite_Texture2D_Rect_Vector2_Single_UInt32_SpriteMeshType_Vector4_Boolean_SecondarySpriteTextureArray = new(typeof(UnityEngine.Sprite), "CreateSprite", 0, typeof(UnityEngine.Texture2D), typeof(UnityEngine.Rect), typeof(UnityEngine.Vector2), typeof(System.Single), typeof(System.UInt32), typeof(UnityEngine.SpriteMeshType), typeof(UnityEngine.Vector4), typeof(System.Boolean), typeof(UnityEngine.SecondarySpriteTexture).MakeArrayType());
+					r_CreateSprite_Texture2D_Rect_Vector2_Single_UInt32_SpriteMeshType_Vector4_Boolean_SecondarySpriteTextureArray.SetBelong(null);
 				}
-				return r_RCreateSprite_Texture2D_Rect_Vector2_Single_UInt32_SpriteMeshType_Vector4_Boolean_SecondarySpriteTextureArray;
+				return r_CreateSprite_Texture2D_Rect_Vector2_Single_UInt32_SpriteMeshType_Vector4_Boolean_SecondarySpriteTextureArray;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Texture2D GetSecondaryTexture(Int32)
 		/// </summary>
-		protected RMethod r_RGetSecondaryTexture_Int32;
+		protected RMethod r_GetSecondaryTexture_Int32;
 		public virtual RMethod RGetSecondaryTexture_Int32
 		{
 			get
 			{
-				if(r_RGetSecondaryTexture_Int32 == null)
+				if(r_GetSecondaryTexture_Int32 == null)
 				{
-					r_RGetSecondaryTexture_Int32 = new(this, "GetSecondaryTexture", 0, typeof(System.Int32));
-					r_RGetSecondaryTexture_Int32.SetBelong(this.instance);
+					r_GetSecondaryTexture_Int32 = new(this, "GetSecondaryTexture", 0, typeof(System.Int32));
+					r_GetSecondaryTexture_Int32.SetBelong(this.instance);
 				}
-				return r_RGetSecondaryTexture_Int32;
+				return r_GetSecondaryTexture_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetSecondaryTextureCount()
 		/// </summary>
-		protected RMethod r_RGetSecondaryTextureCount;
+		protected RMethod r_GetSecondaryTextureCount;
 		public virtual RMethod RGetSecondaryTextureCount
 		{
 			get
 			{
-				if(r_RGetSecondaryTextureCount == null)
+				if(r_GetSecondaryTextureCount == null)
 				{
-					r_RGetSecondaryTextureCount = new(this, "GetSecondaryTextureCount", 0);
-					r_RGetSecondaryTextureCount.SetBelong(this.instance);
+					r_GetSecondaryTextureCount = new(this, "GetSecondaryTextureCount", 0);
+					r_GetSecondaryTextureCount.SetBelong(this.instance);
 				}
-				return r_RGetSecondaryTextureCount;
+				return r_GetSecondaryTextureCount;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetSecondaryTextures(UnityEngine.SecondarySpriteTexture[])
 		/// </summary>
-		protected RMethod r_RGetSecondaryTextures_SecondarySpriteTextureArray;
+		protected RMethod r_GetSecondaryTextures_SecondarySpriteTextureArray;
 		public virtual RMethod RGetSecondaryTextures_SecondarySpriteTextureArray
 		{
 			get
 			{
-				if(r_RGetSecondaryTextures_SecondarySpriteTextureArray == null)
+				if(r_GetSecondaryTextures_SecondarySpriteTextureArray == null)
 				{
-					r_RGetSecondaryTextures_SecondarySpriteTextureArray = new(this, "GetSecondaryTextures", 0, typeof(UnityEngine.SecondarySpriteTexture).MakeArrayType());
-					r_RGetSecondaryTextures_SecondarySpriteTextureArray.SetBelong(this.instance);
+					r_GetSecondaryTextures_SecondarySpriteTextureArray = new(this, "GetSecondaryTextures", 0, typeof(UnityEngine.SecondarySpriteTexture).MakeArrayType());
+					r_GetSecondaryTextures_SecondarySpriteTextureArray.SetBelong(this.instance);
 				}
-				return r_RGetSecondaryTextures_SecondarySpriteTextureArray;
+				return r_GetSecondaryTextures_SecondarySpriteTextureArray;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetPhysicsShapeCount()
 		/// </summary>
-		protected RMethod r_RGetPhysicsShapeCount;
+		protected RMethod r_GetPhysicsShapeCount;
 		public virtual RMethod RGetPhysicsShapeCount
 		{
 			get
 			{
-				if(r_RGetPhysicsShapeCount == null)
+				if(r_GetPhysicsShapeCount == null)
 				{
-					r_RGetPhysicsShapeCount = new(this, "GetPhysicsShapeCount", 0);
-					r_RGetPhysicsShapeCount.SetBelong(this.instance);
+					r_GetPhysicsShapeCount = new(this, "GetPhysicsShapeCount", 0);
+					r_GetPhysicsShapeCount.SetBelong(this.instance);
 				}
-				return r_RGetPhysicsShapeCount;
+				return r_GetPhysicsShapeCount;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetPhysicsShapePointCount(Int32)
 		/// </summary>
-		protected RMethod r_RGetPhysicsShapePointCount_Int32;
+		protected RMethod r_GetPhysicsShapePointCount_Int32;
 		public virtual RMethod RGetPhysicsShapePointCount_Int32
 		{
 			get
 			{
-				if(r_RGetPhysicsShapePointCount_Int32 == null)
+				if(r_GetPhysicsShapePointCount_Int32 == null)
 				{
-					r_RGetPhysicsShapePointCount_Int32 = new(this, "GetPhysicsShapePointCount", 0, typeof(System.Int32));
-					r_RGetPhysicsShapePointCount_Int32.SetBelong(this.instance);
+					r_GetPhysicsShapePointCount_Int32 = new(this, "GetPhysicsShapePointCount", 0, typeof(System.Int32));
+					r_GetPhysicsShapePointCount_Int32.SetBelong(this.instance);
 				}
-				return r_RGetPhysicsShapePointCount_Int32;
+				return r_GetPhysicsShapePointCount_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Int32 Internal_GetPhysicsShapePointCount(Int32)
 		/// </summary>
-		protected RMethod r_RInternal_GetPhysicsShapePointCount_Int32;
+		protected RMethod r_Internal_GetPhysicsShapePointCount_Int32;
 		public virtual RMethod RInternal_GetPhysicsShapePointCount_Int32
 		{
 			get
 			{
-				if(r_RInternal_GetPhysicsShapePointCount_Int32 == null)
+				if(r_Internal_GetPhysicsShapePointCount_Int32 == null)
 				{
-					r_RInternal_GetPhysicsShapePointCount_Int32 = new(this, "Internal_GetPhysicsShapePointCount", 0, typeof(System.Int32));
-					r_RInternal_GetPhysicsShapePointCount_Int32.SetBelong(this.instance);
+					r_Internal_GetPhysicsShapePointCount_Int32 = new(this, "Internal_GetPhysicsShapePointCount", 0, typeof(System.Int32));
+					r_Internal_GetPhysicsShapePointCount_Int32.SetBelong(this.instance);
 				}
-				return r_RInternal_GetPhysicsShapePointCount_Int32;
+				return r_Internal_GetPhysicsShapePointCount_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetPhysicsShape(Int32, System.Collections.Generic.List`1[UnityEngine.Vector2])
 		/// </summary>
-		protected RMethod r_RGetPhysicsShape_Int32_List_d_Vector2_p_;
+		protected RMethod r_GetPhysicsShape_Int32_List_d_Vector2_p_;
 		public virtual RMethod RGetPhysicsShape_Int32_List_d_Vector2_p_
 		{
 			get
 			{
-				if(r_RGetPhysicsShape_Int32_List_d_Vector2_p_ == null)
+				if(r_GetPhysicsShape_Int32_List_d_Vector2_p_ == null)
 				{
-					r_RGetPhysicsShape_Int32_List_d_Vector2_p_ = new(this, "GetPhysicsShape", 0, typeof(System.Int32), typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(UnityEngine.Vector2)));
-					r_RGetPhysicsShape_Int32_List_d_Vector2_p_.SetBelong(this.instance);
+					r_GetPhysicsShape_Int32_List_d_Vector2_p_ = new(this, "GetPhysicsShape", 0, typeof(System.Int32), typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(UnityEngine.Vector2)));
+					r_GetPhysicsShape_Int32_List_d_Vector2_p_.SetBelong(this.instance);
 				}
-				return r_RGetPhysicsShape_Int32_List_d_Vector2_p_;
+				return r_GetPhysicsShape_Int32_List_d_Vector2_p_;
 			}
 		}
 
 		/// <summary>
 		/// Void GetPhysicsShapeImpl(UnityEngine.Sprite, Int32, System.Collections.Generic.List`1[UnityEngine.Vector2])
 		/// </summary>
-		protected static RMethod r_RGetPhysicsShapeImpl_Sprite_Int32_List_d_Vector2_p_;
+		protected static RMethod r_GetPhysicsShapeImpl_Sprite_Int32_List_d_Vector2_p_;
 		public static RMethod RGetPhysicsShapeImpl_Sprite_Int32_List_d_Vector2_p_
 		{
 			get
 			{
-				if(r_RGetPhysicsShapeImpl_Sprite_Int32_List_d_Vector2_p_ == null)
+				if(r_GetPhysicsShapeImpl_Sprite_Int32_List_d_Vector2_p_ == null)
 				{
-					r_RGetPhysicsShapeImpl_Sprite_Int32_List_d_Vector2_p_ = new(typeof(UnityEngine.Sprite), "GetPhysicsShapeImpl", 0, typeof(UnityEngine.Sprite), typeof(System.Int32), typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(UnityEngine.Vector2)));
-					r_RGetPhysicsShapeImpl_Sprite_Int32_List_d_Vector2_p_.SetBelong(null);
+					r_GetPhysicsShapeImpl_Sprite_Int32_List_d_Vector2_p_ = new(typeof(UnityEngine.Sprite), "GetPhysicsShapeImpl", 0, typeof(UnityEngine.Sprite), typeof(System.Int32), typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(UnityEngine.Vector2)));
+					r_GetPhysicsShapeImpl_Sprite_Int32_List_d_Vector2_p_.SetBelong(null);
 				}
-				return r_RGetPhysicsShapeImpl_Sprite_Int32_List_d_Vector2_p_;
+				return r_GetPhysicsShapeImpl_Sprite_Int32_List_d_Vector2_p_;
 			}
 		}
 
 		/// <summary>
 		/// Void OverridePhysicsShape(System.Collections.Generic.IList`1[UnityEngine.Vector2[]])
 		/// </summary>
-		protected RMethod r_ROverridePhysicsShape_IList_d_Vector2Array_p_;
+		protected RMethod r_OverridePhysicsShape_IList_d_Vector2Array_p_;
 		public virtual RMethod ROverridePhysicsShape_IList_d_Vector2Array_p_
 		{
 			get
 			{
-				if(r_ROverridePhysicsShape_IList_d_Vector2Array_p_ == null)
+				if(r_OverridePhysicsShape_IList_d_Vector2Array_p_ == null)
 				{
-					r_ROverridePhysicsShape_IList_d_Vector2Array_p_ = new(this, "OverridePhysicsShape", 0, typeof(System.Collections.Generic.IList<>).MakeGenericType(typeof(UnityEngine.Vector2).MakeArrayType()));
-					r_ROverridePhysicsShape_IList_d_Vector2Array_p_.SetBelong(this.instance);
+					r_OverridePhysicsShape_IList_d_Vector2Array_p_ = new(this, "OverridePhysicsShape", 0, typeof(System.Collections.Generic.IList<>).MakeGenericType(typeof(UnityEngine.Vector2).MakeArrayType()));
+					r_OverridePhysicsShape_IList_d_Vector2Array_p_.SetBelong(this.instance);
 				}
-				return r_ROverridePhysicsShape_IList_d_Vector2Array_p_;
+				return r_OverridePhysicsShape_IList_d_Vector2Array_p_;
 			}
 		}
 
 		/// <summary>
 		/// Void OverridePhysicsShapeCount(UnityEngine.Sprite, Int32)
 		/// </summary>
-		protected static RMethod r_ROverridePhysicsShapeCount_Sprite_Int32;
+		protected static RMethod r_OverridePhysicsShapeCount_Sprite_Int32;
 		public static RMethod ROverridePhysicsShapeCount_Sprite_Int32
 		{
 			get
 			{
-				if(r_ROverridePhysicsShapeCount_Sprite_Int32 == null)
+				if(r_OverridePhysicsShapeCount_Sprite_Int32 == null)
 				{
-					r_ROverridePhysicsShapeCount_Sprite_Int32 = new(typeof(UnityEngine.Sprite), "OverridePhysicsShapeCount", 0, typeof(UnityEngine.Sprite), typeof(System.Int32));
-					r_ROverridePhysicsShapeCount_Sprite_Int32.SetBelong(null);
+					r_OverridePhysicsShapeCount_Sprite_Int32 = new(typeof(UnityEngine.Sprite), "OverridePhysicsShapeCount", 0, typeof(UnityEngine.Sprite), typeof(System.Int32));
+					r_OverridePhysicsShapeCount_Sprite_Int32.SetBelong(null);
 				}
-				return r_ROverridePhysicsShapeCount_Sprite_Int32;
+				return r_OverridePhysicsShapeCount_Sprite_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Void OverridePhysicsShape(UnityEngine.Sprite, UnityEngine.Vector2[], Int32)
 		/// </summary>
-		protected static RMethod r_ROverridePhysicsShape_Sprite_Vector2Array_Int32;
+		protected static RMethod r_OverridePhysicsShape_Sprite_Vector2Array_Int32;
 		public static RMethod ROverridePhysicsShape_Sprite_Vector2Array_Int32
 		{
 			get
 			{
-				if(r_ROverridePhysicsShape_Sprite_Vector2Array_Int32 == null)
+				if(r_OverridePhysicsShape_Sprite_Vector2Array_Int32 == null)
 				{
-					r_ROverridePhysicsShape_Sprite_Vector2Array_Int32 = new(typeof(UnityEngine.Sprite), "OverridePhysicsShape", 0, typeof(UnityEngine.Sprite), typeof(UnityEngine.Vector2).MakeArrayType(), typeof(System.Int32));
-					r_ROverridePhysicsShape_Sprite_Vector2Array_Int32.SetBelong(null);
+					r_OverridePhysicsShape_Sprite_Vector2Array_Int32 = new(typeof(UnityEngine.Sprite), "OverridePhysicsShape", 0, typeof(UnityEngine.Sprite), typeof(UnityEngine.Vector2).MakeArrayType(), typeof(System.Int32));
+					r_OverridePhysicsShape_Sprite_Vector2Array_Int32.SetBelong(null);
 				}
-				return r_ROverridePhysicsShape_Sprite_Vector2Array_Int32;
+				return r_OverridePhysicsShape_Sprite_Vector2Array_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Void OverrideGeometry(UnityEngine.Vector2[], UInt16[])
 		/// </summary>
-		protected RMethod r_ROverrideGeometry_Vector2Array_UInt16Array;
+		protected RMethod r_OverrideGeometry_Vector2Array_UInt16Array;
 		public virtual RMethod ROverrideGeometry_Vector2Array_UInt16Array
 		{
 			get
 			{
-				if(r_ROverrideGeometry_Vector2Array_UInt16Array == null)
+				if(r_OverrideGeometry_Vector2Array_UInt16Array == null)
 				{
-					r_ROverrideGeometry_Vector2Array_UInt16Array = new(this, "OverrideGeometry", 0, typeof(UnityEngine.Vector2).MakeArrayType(), typeof(System.UInt16).MakeArrayType());
-					r_ROverrideGeometry_Vector2Array_UInt16Array.SetBelong(this.instance);
+					r_OverrideGeometry_Vector2Array_UInt16Array = new(this, "OverrideGeometry", 0, typeof(UnityEngine.Vector2).MakeArrayType(), typeof(System.UInt16).MakeArrayType());
+					r_OverrideGeometry_Vector2Array_UInt16Array.SetBelong(this.instance);
 				}
-				return r_ROverrideGeometry_Vector2Array_UInt16Array;
+				return r_OverrideGeometry_Vector2Array_UInt16Array;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Sprite Create(UnityEngine.Rect, UnityEngine.Vector2, Single, UnityEngine.Texture2D)
 		/// </summary>
-		protected static RMethod r_RCreate_Rect_Vector2_Single_Texture2D;
+		protected static RMethod r_Create_Rect_Vector2_Single_Texture2D;
 		public static RMethod RCreate_Rect_Vector2_Single_Texture2D
 		{
 			get
 			{
-				if(r_RCreate_Rect_Vector2_Single_Texture2D == null)
+				if(r_Create_Rect_Vector2_Single_Texture2D == null)
 				{
-					r_RCreate_Rect_Vector2_Single_Texture2D = new(typeof(UnityEngine.Sprite), "Create", 0, typeof(UnityEngine.Rect), typeof(UnityEngine.Vector2), typeof(System.Single), typeof(UnityEngine.Texture2D));
-					r_RCreate_Rect_Vector2_Single_Texture2D.SetBelong(null);
+					r_Create_Rect_Vector2_Single_Texture2D = new(typeof(UnityEngine.Sprite), "Create", 0, typeof(UnityEngine.Rect), typeof(UnityEngine.Vector2), typeof(System.Single), typeof(UnityEngine.Texture2D));
+					r_Create_Rect_Vector2_Single_Texture2D.SetBelong(null);
 				}
-				return r_RCreate_Rect_Vector2_Single_Texture2D;
+				return r_Create_Rect_Vector2_Single_Texture2D;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Sprite Create(UnityEngine.Rect, UnityEngine.Vector2, Single)
 		/// </summary>
-		protected static RMethod r_RCreate_Rect_Vector2_Single;
+		protected static RMethod r_Create_Rect_Vector2_Single;
 		public static RMethod RCreate_Rect_Vector2_Single
 		{
 			get
 			{
-				if(r_RCreate_Rect_Vector2_Single == null)
+				if(r_Create_Rect_Vector2_Single == null)
 				{
-					r_RCreate_Rect_Vector2_Single = new(typeof(UnityEngine.Sprite), "Create", 0, typeof(UnityEngine.Rect), typeof(UnityEngine.Vector2), typeof(System.Single));
-					r_RCreate_Rect_Vector2_Single.SetBelong(null);
+					r_Create_Rect_Vector2_Single = new(typeof(UnityEngine.Sprite), "Create", 0, typeof(UnityEngine.Rect), typeof(UnityEngine.Vector2), typeof(System.Single));
+					r_Create_Rect_Vector2_Single.SetBelong(null);
 				}
-				return r_RCreate_Rect_Vector2_Single;
+				return r_Create_Rect_Vector2_Single;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Sprite Create(UnityEngine.Texture2D, UnityEngine.Rect, UnityEngine.Vector2, Single, UInt32, UnityEngine.SpriteMeshType, UnityEngine.Vector4, Boolean)
 		/// </summary>
-		protected static RMethod r_RCreate_Texture2D_Rect_Vector2_Single_UInt32_SpriteMeshType_Vector4_Boolean;
+		protected static RMethod r_Create_Texture2D_Rect_Vector2_Single_UInt32_SpriteMeshType_Vector4_Boolean;
 		public static RMethod RCreate_Texture2D_Rect_Vector2_Single_UInt32_SpriteMeshType_Vector4_Boolean
 		{
 			get
 			{
-				if(r_RCreate_Texture2D_Rect_Vector2_Single_UInt32_SpriteMeshType_Vector4_Boolean == null)
+				if(r_Create_Texture2D_Rect_Vector2_Single_UInt32_SpriteMeshType_Vector4_Boolean == null)
 				{
-					r_RCreate_Texture2D_Rect_Vector2_Single_UInt32_SpriteMeshType_Vector4_Boolean = new(typeof(UnityEngine.Sprite), "Create", 0, typeof(UnityEngine.Texture2D), typeof(UnityEngine.Rect), typeof(UnityEngine.Vector2), typeof(System.Single), typeof(System.UInt32), typeof(UnityEngine.SpriteMeshType), typeof(UnityEngine.Vector4), typeof(System.Boolean));
-					r_RCreate_Texture2D_Rect_Vector2_Single_UInt32_SpriteMeshType_Vector4_Boolean.SetBelong(null);
+					r_Create_Texture2D_Rect_Vector2_Single_UInt32_SpriteMeshType_Vector4_Boolean = new(typeof(UnityEngine.Sprite), "Create", 0, typeof(UnityEngine.Texture2D), typeof(UnityEngine.Rect), typeof(UnityEngine.Vector2), typeof(System.Single), typeof(System.UInt32), typeof(UnityEngine.SpriteMeshType), typeof(UnityEngine.Vector4), typeof(System.Boolean));
+					r_Create_Texture2D_Rect_Vector2_Single_UInt32_SpriteMeshType_Vector4_Boolean.SetBelong(null);
 				}
-				return r_RCreate_Texture2D_Rect_Vector2_Single_UInt32_SpriteMeshType_Vector4_Boolean;
+				return r_Create_Texture2D_Rect_Vector2_Single_UInt32_SpriteMeshType_Vector4_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Sprite Create(UnityEngine.Texture2D, UnityEngine.Rect, UnityEngine.Vector2, Single, UInt32, UnityEngine.SpriteMeshType, UnityEngine.Vector4, Boolean, UnityEngine.SecondarySpriteTexture[])
 		/// </summary>
-		protected static RMethod r_RCreate_Texture2D_Rect_Vector2_Single_UInt32_SpriteMeshType_Vector4_Boolean_SecondarySpriteTextureArray;
+		protected static RMethod r_Create_Texture2D_Rect_Vector2_Single_UInt32_SpriteMeshType_Vector4_Boolean_SecondarySpriteTextureArray;
 		public static RMethod RCreate_Texture2D_Rect_Vector2_Single_UInt32_SpriteMeshType_Vector4_Boolean_SecondarySpriteTextureArray
 		{
 			get
 			{
-				if(r_RCreate_Texture2D_Rect_Vector2_Single_UInt32_SpriteMeshType_Vector4_Boolean_SecondarySpriteTextureArray == null)
+				if(r_Create_Texture2D_Rect_Vector2_Single_UInt32_SpriteMeshType_Vector4_Boolean_SecondarySpriteTextureArray == null)
 				{
-					r_RCreate_Texture2D_Rect_Vector2_Single_UInt32_SpriteMeshType_Vector4_Boolean_SecondarySpriteTextureArray = new(typeof(UnityEngine.Sprite), "Create", 0, typeof(UnityEngine.Texture2D), typeof(UnityEngine.Rect), typeof(UnityEngine.Vector2), typeof(System.Single), typeof(System.UInt32), typeof(UnityEngine.SpriteMeshType), typeof(UnityEngine.Vector4), typeof(System.Boolean), typeof(UnityEngine.SecondarySpriteTexture).MakeArrayType());
-					r_RCreate_Texture2D_Rect_Vector2_Single_UInt32_SpriteMeshType_Vector4_Boolean_SecondarySpriteTextureArray.SetBelong(null);
+					r_Create_Texture2D_Rect_Vector2_Single_UInt32_SpriteMeshType_Vector4_Boolean_SecondarySpriteTextureArray = new(typeof(UnityEngine.Sprite), "Create", 0, typeof(UnityEngine.Texture2D), typeof(UnityEngine.Rect), typeof(UnityEngine.Vector2), typeof(System.Single), typeof(System.UInt32), typeof(UnityEngine.SpriteMeshType), typeof(UnityEngine.Vector4), typeof(System.Boolean), typeof(UnityEngine.SecondarySpriteTexture).MakeArrayType());
+					r_Create_Texture2D_Rect_Vector2_Single_UInt32_SpriteMeshType_Vector4_Boolean_SecondarySpriteTextureArray.SetBelong(null);
 				}
-				return r_RCreate_Texture2D_Rect_Vector2_Single_UInt32_SpriteMeshType_Vector4_Boolean_SecondarySpriteTextureArray;
+				return r_Create_Texture2D_Rect_Vector2_Single_UInt32_SpriteMeshType_Vector4_Boolean_SecondarySpriteTextureArray;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Sprite Create(UnityEngine.Texture2D, UnityEngine.Rect, UnityEngine.Vector2, Single, UInt32, UnityEngine.SpriteMeshType, UnityEngine.Vector4)
 		/// </summary>
-		protected static RMethod r_RCreate_Texture2D_Rect_Vector2_Single_UInt32_SpriteMeshType_Vector4;
+		protected static RMethod r_Create_Texture2D_Rect_Vector2_Single_UInt32_SpriteMeshType_Vector4;
 		public static RMethod RCreate_Texture2D_Rect_Vector2_Single_UInt32_SpriteMeshType_Vector4
 		{
 			get
 			{
-				if(r_RCreate_Texture2D_Rect_Vector2_Single_UInt32_SpriteMeshType_Vector4 == null)
+				if(r_Create_Texture2D_Rect_Vector2_Single_UInt32_SpriteMeshType_Vector4 == null)
 				{
-					r_RCreate_Texture2D_Rect_Vector2_Single_UInt32_SpriteMeshType_Vector4 = new(typeof(UnityEngine.Sprite), "Create", 0, typeof(UnityEngine.Texture2D), typeof(UnityEngine.Rect), typeof(UnityEngine.Vector2), typeof(System.Single), typeof(System.UInt32), typeof(UnityEngine.SpriteMeshType), typeof(UnityEngine.Vector4));
-					r_RCreate_Texture2D_Rect_Vector2_Single_UInt32_SpriteMeshType_Vector4.SetBelong(null);
+					r_Create_Texture2D_Rect_Vector2_Single_UInt32_SpriteMeshType_Vector4 = new(typeof(UnityEngine.Sprite), "Create", 0, typeof(UnityEngine.Texture2D), typeof(UnityEngine.Rect), typeof(UnityEngine.Vector2), typeof(System.Single), typeof(System.UInt32), typeof(UnityEngine.SpriteMeshType), typeof(UnityEngine.Vector4));
+					r_Create_Texture2D_Rect_Vector2_Single_UInt32_SpriteMeshType_Vector4.SetBelong(null);
 				}
-				return r_RCreate_Texture2D_Rect_Vector2_Single_UInt32_SpriteMeshType_Vector4;
+				return r_Create_Texture2D_Rect_Vector2_Single_UInt32_SpriteMeshType_Vector4;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Sprite Create(UnityEngine.Texture2D, UnityEngine.Rect, UnityEngine.Vector2, Single, UInt32, UnityEngine.SpriteMeshType)
 		/// </summary>
-		protected static RMethod r_RCreate_Texture2D_Rect_Vector2_Single_UInt32_SpriteMeshType;
+		protected static RMethod r_Create_Texture2D_Rect_Vector2_Single_UInt32_SpriteMeshType;
 		public static RMethod RCreate_Texture2D_Rect_Vector2_Single_UInt32_SpriteMeshType
 		{
 			get
 			{
-				if(r_RCreate_Texture2D_Rect_Vector2_Single_UInt32_SpriteMeshType == null)
+				if(r_Create_Texture2D_Rect_Vector2_Single_UInt32_SpriteMeshType == null)
 				{
-					r_RCreate_Texture2D_Rect_Vector2_Single_UInt32_SpriteMeshType = new(typeof(UnityEngine.Sprite), "Create", 0, typeof(UnityEngine.Texture2D), typeof(UnityEngine.Rect), typeof(UnityEngine.Vector2), typeof(System.Single), typeof(System.UInt32), typeof(UnityEngine.SpriteMeshType));
-					r_RCreate_Texture2D_Rect_Vector2_Single_UInt32_SpriteMeshType.SetBelong(null);
+					r_Create_Texture2D_Rect_Vector2_Single_UInt32_SpriteMeshType = new(typeof(UnityEngine.Sprite), "Create", 0, typeof(UnityEngine.Texture2D), typeof(UnityEngine.Rect), typeof(UnityEngine.Vector2), typeof(System.Single), typeof(System.UInt32), typeof(UnityEngine.SpriteMeshType));
+					r_Create_Texture2D_Rect_Vector2_Single_UInt32_SpriteMeshType.SetBelong(null);
 				}
-				return r_RCreate_Texture2D_Rect_Vector2_Single_UInt32_SpriteMeshType;
+				return r_Create_Texture2D_Rect_Vector2_Single_UInt32_SpriteMeshType;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Sprite Create(UnityEngine.Texture2D, UnityEngine.Rect, UnityEngine.Vector2, Single, UInt32)
 		/// </summary>
-		protected static RMethod r_RCreate_Texture2D_Rect_Vector2_Single_UInt32;
+		protected static RMethod r_Create_Texture2D_Rect_Vector2_Single_UInt32;
 		public static RMethod RCreate_Texture2D_Rect_Vector2_Single_UInt32
 		{
 			get
 			{
-				if(r_RCreate_Texture2D_Rect_Vector2_Single_UInt32 == null)
+				if(r_Create_Texture2D_Rect_Vector2_Single_UInt32 == null)
 				{
-					r_RCreate_Texture2D_Rect_Vector2_Single_UInt32 = new(typeof(UnityEngine.Sprite), "Create", 0, typeof(UnityEngine.Texture2D), typeof(UnityEngine.Rect), typeof(UnityEngine.Vector2), typeof(System.Single), typeof(System.UInt32));
-					r_RCreate_Texture2D_Rect_Vector2_Single_UInt32.SetBelong(null);
+					r_Create_Texture2D_Rect_Vector2_Single_UInt32 = new(typeof(UnityEngine.Sprite), "Create", 0, typeof(UnityEngine.Texture2D), typeof(UnityEngine.Rect), typeof(UnityEngine.Vector2), typeof(System.Single), typeof(System.UInt32));
+					r_Create_Texture2D_Rect_Vector2_Single_UInt32.SetBelong(null);
 				}
-				return r_RCreate_Texture2D_Rect_Vector2_Single_UInt32;
+				return r_Create_Texture2D_Rect_Vector2_Single_UInt32;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Sprite Create(UnityEngine.Texture2D, UnityEngine.Rect, UnityEngine.Vector2, Single)
 		/// </summary>
-		protected static RMethod r_RCreate_Texture2D_Rect_Vector2_Single;
+		protected static RMethod r_Create_Texture2D_Rect_Vector2_Single;
 		public static RMethod RCreate_Texture2D_Rect_Vector2_Single
 		{
 			get
 			{
-				if(r_RCreate_Texture2D_Rect_Vector2_Single == null)
+				if(r_Create_Texture2D_Rect_Vector2_Single == null)
 				{
-					r_RCreate_Texture2D_Rect_Vector2_Single = new(typeof(UnityEngine.Sprite), "Create", 0, typeof(UnityEngine.Texture2D), typeof(UnityEngine.Rect), typeof(UnityEngine.Vector2), typeof(System.Single));
-					r_RCreate_Texture2D_Rect_Vector2_Single.SetBelong(null);
+					r_Create_Texture2D_Rect_Vector2_Single = new(typeof(UnityEngine.Sprite), "Create", 0, typeof(UnityEngine.Texture2D), typeof(UnityEngine.Rect), typeof(UnityEngine.Vector2), typeof(System.Single));
+					r_Create_Texture2D_Rect_Vector2_Single.SetBelong(null);
 				}
-				return r_RCreate_Texture2D_Rect_Vector2_Single;
+				return r_Create_Texture2D_Rect_Vector2_Single;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Sprite Create(UnityEngine.Texture2D, UnityEngine.Rect, UnityEngine.Vector2)
 		/// </summary>
-		protected static RMethod r_RCreate_Texture2D_Rect_Vector2;
+		protected static RMethod r_Create_Texture2D_Rect_Vector2;
 		public static RMethod RCreate_Texture2D_Rect_Vector2
 		{
 			get
 			{
-				if(r_RCreate_Texture2D_Rect_Vector2 == null)
+				if(r_Create_Texture2D_Rect_Vector2 == null)
 				{
-					r_RCreate_Texture2D_Rect_Vector2 = new(typeof(UnityEngine.Sprite), "Create", 0, typeof(UnityEngine.Texture2D), typeof(UnityEngine.Rect), typeof(UnityEngine.Vector2));
-					r_RCreate_Texture2D_Rect_Vector2.SetBelong(null);
+					r_Create_Texture2D_Rect_Vector2 = new(typeof(UnityEngine.Sprite), "Create", 0, typeof(UnityEngine.Texture2D), typeof(UnityEngine.Rect), typeof(UnityEngine.Vector2));
+					r_Create_Texture2D_Rect_Vector2.SetBelong(null);
 				}
-				return r_RCreate_Texture2D_Rect_Vector2;
+				return r_Create_Texture2D_Rect_Vector2;
 			}
 		}
 
 		/// <summary>
 		/// Void GetTextureRect_Injected(UnityEngine.Rect ByRef)
 		/// </summary>
-		protected RMethod r_RGetTextureRect_Injected_Out_Rect;
+		protected RMethod r_GetTextureRect_Injected_Out_Rect;
 		public virtual RMethod RGetTextureRect_Injected_Out_Rect
 		{
 			get
 			{
-				if(r_RGetTextureRect_Injected_Out_Rect == null)
+				if(r_GetTextureRect_Injected_Out_Rect == null)
 				{
-					r_RGetTextureRect_Injected_Out_Rect = new(this, "GetTextureRect_Injected", 0, typeof(UnityEngine.Rect).MakeByRefType());
-					r_RGetTextureRect_Injected_Out_Rect.SetBelong(this.instance);
+					r_GetTextureRect_Injected_Out_Rect = new(this, "GetTextureRect_Injected", 0, typeof(UnityEngine.Rect).MakeByRefType());
+					r_GetTextureRect_Injected_Out_Rect.SetBelong(this.instance);
 				}
-				return r_RGetTextureRect_Injected_Out_Rect;
+				return r_GetTextureRect_Injected_Out_Rect;
 			}
 		}
 
 		/// <summary>
 		/// Void GetTextureRectOffset_Injected(UnityEngine.Vector2 ByRef)
 		/// </summary>
-		protected RMethod r_RGetTextureRectOffset_Injected_Out_Vector2;
+		protected RMethod r_GetTextureRectOffset_Injected_Out_Vector2;
 		public virtual RMethod RGetTextureRectOffset_Injected_Out_Vector2
 		{
 			get
 			{
-				if(r_RGetTextureRectOffset_Injected_Out_Vector2 == null)
+				if(r_GetTextureRectOffset_Injected_Out_Vector2 == null)
 				{
-					r_RGetTextureRectOffset_Injected_Out_Vector2 = new(this, "GetTextureRectOffset_Injected", 0, typeof(UnityEngine.Vector2).MakeByRefType());
-					r_RGetTextureRectOffset_Injected_Out_Vector2.SetBelong(this.instance);
+					r_GetTextureRectOffset_Injected_Out_Vector2 = new(this, "GetTextureRectOffset_Injected", 0, typeof(UnityEngine.Vector2).MakeByRefType());
+					r_GetTextureRectOffset_Injected_Out_Vector2.SetBelong(this.instance);
 				}
-				return r_RGetTextureRectOffset_Injected_Out_Vector2;
+				return r_GetTextureRectOffset_Injected_Out_Vector2;
 			}
 		}
 
 		/// <summary>
 		/// Void GetInnerUVs_Injected(UnityEngine.Vector4 ByRef)
 		/// </summary>
-		protected RMethod r_RGetInnerUVs_Injected_Out_Vector4;
+		protected RMethod r_GetInnerUVs_Injected_Out_Vector4;
 		public virtual RMethod RGetInnerUVs_Injected_Out_Vector4
 		{
 			get
 			{
-				if(r_RGetInnerUVs_Injected_Out_Vector4 == null)
+				if(r_GetInnerUVs_Injected_Out_Vector4 == null)
 				{
-					r_RGetInnerUVs_Injected_Out_Vector4 = new(this, "GetInnerUVs_Injected", 0, typeof(UnityEngine.Vector4).MakeByRefType());
-					r_RGetInnerUVs_Injected_Out_Vector4.SetBelong(this.instance);
+					r_GetInnerUVs_Injected_Out_Vector4 = new(this, "GetInnerUVs_Injected", 0, typeof(UnityEngine.Vector4).MakeByRefType());
+					r_GetInnerUVs_Injected_Out_Vector4.SetBelong(this.instance);
 				}
-				return r_RGetInnerUVs_Injected_Out_Vector4;
+				return r_GetInnerUVs_Injected_Out_Vector4;
 			}
 		}
 
 		/// <summary>
 		/// Void GetOuterUVs_Injected(UnityEngine.Vector4 ByRef)
 		/// </summary>
-		protected RMethod r_RGetOuterUVs_Injected_Out_Vector4;
+		protected RMethod r_GetOuterUVs_Injected_Out_Vector4;
 		public virtual RMethod RGetOuterUVs_Injected_Out_Vector4
 		{
 			get
 			{
-				if(r_RGetOuterUVs_Injected_Out_Vector4 == null)
+				if(r_GetOuterUVs_Injected_Out_Vector4 == null)
 				{
-					r_RGetOuterUVs_Injected_Out_Vector4 = new(this, "GetOuterUVs_Injected", 0, typeof(UnityEngine.Vector4).MakeByRefType());
-					r_RGetOuterUVs_Injected_Out_Vector4.SetBelong(this.instance);
+					r_GetOuterUVs_Injected_Out_Vector4 = new(this, "GetOuterUVs_Injected", 0, typeof(UnityEngine.Vector4).MakeByRefType());
+					r_GetOuterUVs_Injected_Out_Vector4.SetBelong(this.instance);
 				}
-				return r_RGetOuterUVs_Injected_Out_Vector4;
+				return r_GetOuterUVs_Injected_Out_Vector4;
 			}
 		}
 
 		/// <summary>
 		/// Void GetPadding_Injected(UnityEngine.Vector4 ByRef)
 		/// </summary>
-		protected RMethod r_RGetPadding_Injected_Out_Vector4;
+		protected RMethod r_GetPadding_Injected_Out_Vector4;
 		public virtual RMethod RGetPadding_Injected_Out_Vector4
 		{
 			get
 			{
-				if(r_RGetPadding_Injected_Out_Vector4 == null)
+				if(r_GetPadding_Injected_Out_Vector4 == null)
 				{
-					r_RGetPadding_Injected_Out_Vector4 = new(this, "GetPadding_Injected", 0, typeof(UnityEngine.Vector4).MakeByRefType());
-					r_RGetPadding_Injected_Out_Vector4.SetBelong(this.instance);
+					r_GetPadding_Injected_Out_Vector4 = new(this, "GetPadding_Injected", 0, typeof(UnityEngine.Vector4).MakeByRefType());
+					r_GetPadding_Injected_Out_Vector4.SetBelong(this.instance);
 				}
-				return r_RGetPadding_Injected_Out_Vector4;
+				return r_GetPadding_Injected_Out_Vector4;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Sprite CreateSpriteWithoutTextureScripting_Injected(UnityEngine.Rect ByRef, UnityEngine.Vector2 ByRef, Single, UnityEngine.Texture2D)
 		/// </summary>
-		protected static RMethod r_RCreateSpriteWithoutTextureScripting_Injected_Ref_Rect_Ref_Vector2_Single_Texture2D;
+		protected static RMethod r_CreateSpriteWithoutTextureScripting_Injected_Ref_Rect_Ref_Vector2_Single_Texture2D;
 		public static RMethod RCreateSpriteWithoutTextureScripting_Injected_Ref_Rect_Ref_Vector2_Single_Texture2D
 		{
 			get
 			{
-				if(r_RCreateSpriteWithoutTextureScripting_Injected_Ref_Rect_Ref_Vector2_Single_Texture2D == null)
+				if(r_CreateSpriteWithoutTextureScripting_Injected_Ref_Rect_Ref_Vector2_Single_Texture2D == null)
 				{
-					r_RCreateSpriteWithoutTextureScripting_Injected_Ref_Rect_Ref_Vector2_Single_Texture2D = new(typeof(UnityEngine.Sprite), "CreateSpriteWithoutTextureScripting_Injected", 0, typeof(UnityEngine.Rect).MakeByRefType(), typeof(UnityEngine.Vector2).MakeByRefType(), typeof(System.Single), typeof(UnityEngine.Texture2D));
-					r_RCreateSpriteWithoutTextureScripting_Injected_Ref_Rect_Ref_Vector2_Single_Texture2D.SetBelong(null);
+					r_CreateSpriteWithoutTextureScripting_Injected_Ref_Rect_Ref_Vector2_Single_Texture2D = new(typeof(UnityEngine.Sprite), "CreateSpriteWithoutTextureScripting_Injected", 0, typeof(UnityEngine.Rect).MakeByRefType(), typeof(UnityEngine.Vector2).MakeByRefType(), typeof(System.Single), typeof(UnityEngine.Texture2D));
+					r_CreateSpriteWithoutTextureScripting_Injected_Ref_Rect_Ref_Vector2_Single_Texture2D.SetBelong(null);
 				}
-				return r_RCreateSpriteWithoutTextureScripting_Injected_Ref_Rect_Ref_Vector2_Single_Texture2D;
+				return r_CreateSpriteWithoutTextureScripting_Injected_Ref_Rect_Ref_Vector2_Single_Texture2D;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Sprite CreateSprite_Injected(UnityEngine.Texture2D, UnityEngine.Rect ByRef, UnityEngine.Vector2 ByRef, Single, UInt32, UnityEngine.SpriteMeshType, UnityEngine.Vector4 ByRef, Boolean, UnityEngine.SecondarySpriteTexture[])
 		/// </summary>
-		protected static RMethod r_RCreateSprite_Injected_Texture2D_Ref_Rect_Ref_Vector2_Single_UInt32_SpriteMeshType_Ref_Vector4_Boolean_SecondarySpriteTextureArray;
+		protected static RMethod r_CreateSprite_Injected_Texture2D_Ref_Rect_Ref_Vector2_Single_UInt32_SpriteMeshType_Ref_Vector4_Boolean_SecondarySpriteTextureArray;
 		public static RMethod RCreateSprite_Injected_Texture2D_Ref_Rect_Ref_Vector2_Single_UInt32_SpriteMeshType_Ref_Vector4_Boolean_SecondarySpriteTextureArray
 		{
 			get
 			{
-				if(r_RCreateSprite_Injected_Texture2D_Ref_Rect_Ref_Vector2_Single_UInt32_SpriteMeshType_Ref_Vector4_Boolean_SecondarySpriteTextureArray == null)
+				if(r_CreateSprite_Injected_Texture2D_Ref_Rect_Ref_Vector2_Single_UInt32_SpriteMeshType_Ref_Vector4_Boolean_SecondarySpriteTextureArray == null)
 				{
-					r_RCreateSprite_Injected_Texture2D_Ref_Rect_Ref_Vector2_Single_UInt32_SpriteMeshType_Ref_Vector4_Boolean_SecondarySpriteTextureArray = new(typeof(UnityEngine.Sprite), "CreateSprite_Injected", 0, typeof(UnityEngine.Texture2D), typeof(UnityEngine.Rect).MakeByRefType(), typeof(UnityEngine.Vector2).MakeByRefType(), typeof(System.Single), typeof(System.UInt32), typeof(UnityEngine.SpriteMeshType), typeof(UnityEngine.Vector4).MakeByRefType(), typeof(System.Boolean), typeof(UnityEngine.SecondarySpriteTexture).MakeArrayType());
-					r_RCreateSprite_Injected_Texture2D_Ref_Rect_Ref_Vector2_Single_UInt32_SpriteMeshType_Ref_Vector4_Boolean_SecondarySpriteTextureArray.SetBelong(null);
+					r_CreateSprite_Injected_Texture2D_Ref_Rect_Ref_Vector2_Single_UInt32_SpriteMeshType_Ref_Vector4_Boolean_SecondarySpriteTextureArray = new(typeof(UnityEngine.Sprite), "CreateSprite_Injected", 0, typeof(UnityEngine.Texture2D), typeof(UnityEngine.Rect).MakeByRefType(), typeof(UnityEngine.Vector2).MakeByRefType(), typeof(System.Single), typeof(System.UInt32), typeof(UnityEngine.SpriteMeshType), typeof(UnityEngine.Vector4).MakeByRefType(), typeof(System.Boolean), typeof(UnityEngine.SecondarySpriteTexture).MakeArrayType());
+					r_CreateSprite_Injected_Texture2D_Ref_Rect_Ref_Vector2_Single_UInt32_SpriteMeshType_Ref_Vector4_Boolean_SecondarySpriteTextureArray.SetBelong(null);
 				}
-				return r_RCreateSprite_Injected_Texture2D_Ref_Rect_Ref_Vector2_Single_UInt32_SpriteMeshType_Ref_Vector4_Boolean_SecondarySpriteTextureArray;
+				return r_CreateSprite_Injected_Texture2D_Ref_Rect_Ref_Vector2_Single_UInt32_SpriteMeshType_Ref_Vector4_Boolean_SecondarySpriteTextureArray;
 			}
 		}
 
 		/// <summary>
 		/// Void get_bounds_Injected(UnityEngine.Bounds ByRef)
 		/// </summary>
-		protected RMethod r_Rget_bounds_Injected_Out_Bounds;
+		protected RMethod r_get_bounds_Injected_Out_Bounds;
 		public virtual RMethod Rget_bounds_Injected_Out_Bounds
 		{
 			get
 			{
-				if(r_Rget_bounds_Injected_Out_Bounds == null)
+				if(r_get_bounds_Injected_Out_Bounds == null)
 				{
-					r_Rget_bounds_Injected_Out_Bounds = new(this, "get_bounds_Injected", 0, typeof(UnityEngine.Bounds).MakeByRefType());
-					r_Rget_bounds_Injected_Out_Bounds.SetBelong(this.instance);
+					r_get_bounds_Injected_Out_Bounds = new(this, "get_bounds_Injected", 0, typeof(UnityEngine.Bounds).MakeByRefType());
+					r_get_bounds_Injected_Out_Bounds.SetBelong(this.instance);
 				}
-				return r_Rget_bounds_Injected_Out_Bounds;
+				return r_get_bounds_Injected_Out_Bounds;
 			}
 		}
 
 		/// <summary>
 		/// Void get_rect_Injected(UnityEngine.Rect ByRef)
 		/// </summary>
-		protected RMethod r_Rget_rect_Injected_Out_Rect;
+		protected RMethod r_get_rect_Injected_Out_Rect;
 		public virtual RMethod Rget_rect_Injected_Out_Rect
 		{
 			get
 			{
-				if(r_Rget_rect_Injected_Out_Rect == null)
+				if(r_get_rect_Injected_Out_Rect == null)
 				{
-					r_Rget_rect_Injected_Out_Rect = new(this, "get_rect_Injected", 0, typeof(UnityEngine.Rect).MakeByRefType());
-					r_Rget_rect_Injected_Out_Rect.SetBelong(this.instance);
+					r_get_rect_Injected_Out_Rect = new(this, "get_rect_Injected", 0, typeof(UnityEngine.Rect).MakeByRefType());
+					r_get_rect_Injected_Out_Rect.SetBelong(this.instance);
 				}
-				return r_Rget_rect_Injected_Out_Rect;
+				return r_get_rect_Injected_Out_Rect;
 			}
 		}
 
 		/// <summary>
 		/// Void get_border_Injected(UnityEngine.Vector4 ByRef)
 		/// </summary>
-		protected RMethod r_Rget_border_Injected_Out_Vector4;
+		protected RMethod r_get_border_Injected_Out_Vector4;
 		public virtual RMethod Rget_border_Injected_Out_Vector4
 		{
 			get
 			{
-				if(r_Rget_border_Injected_Out_Vector4 == null)
+				if(r_get_border_Injected_Out_Vector4 == null)
 				{
-					r_Rget_border_Injected_Out_Vector4 = new(this, "get_border_Injected", 0, typeof(UnityEngine.Vector4).MakeByRefType());
-					r_Rget_border_Injected_Out_Vector4.SetBelong(this.instance);
+					r_get_border_Injected_Out_Vector4 = new(this, "get_border_Injected", 0, typeof(UnityEngine.Vector4).MakeByRefType());
+					r_get_border_Injected_Out_Vector4.SetBelong(this.instance);
 				}
-				return r_Rget_border_Injected_Out_Vector4;
+				return r_get_border_Injected_Out_Vector4;
 			}
 		}
 
 		/// <summary>
 		/// Void get_pivot_Injected(UnityEngine.Vector2 ByRef)
 		/// </summary>
-		protected RMethod r_Rget_pivot_Injected_Out_Vector2;
+		protected RMethod r_get_pivot_Injected_Out_Vector2;
 		public virtual RMethod Rget_pivot_Injected_Out_Vector2
 		{
 			get
 			{
-				if(r_Rget_pivot_Injected_Out_Vector2 == null)
+				if(r_get_pivot_Injected_Out_Vector2 == null)
 				{
-					r_Rget_pivot_Injected_Out_Vector2 = new(this, "get_pivot_Injected", 0, typeof(UnityEngine.Vector2).MakeByRefType());
-					r_Rget_pivot_Injected_Out_Vector2.SetBelong(this.instance);
+					r_get_pivot_Injected_Out_Vector2 = new(this, "get_pivot_Injected", 0, typeof(UnityEngine.Vector2).MakeByRefType());
+					r_get_pivot_Injected_Out_Vector2.SetBelong(this.instance);
 				}
-				return r_Rget_pivot_Injected_Out_Vector2;
+				return r_get_pivot_Injected_Out_Vector2;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetInstanceID()
 		/// </summary>
-		protected RMethod r_RGetInstanceID;
+		protected RMethod r_GetInstanceID;
 		public virtual RMethod RGetInstanceID
 		{
 			get
 			{
-				if(r_RGetInstanceID == null)
+				if(r_GetInstanceID == null)
 				{
-					r_RGetInstanceID = new(this, "GetInstanceID", 0);
-					r_RGetInstanceID.SetBelong(this.instance);
+					r_GetInstanceID = new(this, "GetInstanceID", 0);
+					r_GetInstanceID.SetBelong(this.instance);
 				}
-				return r_RGetInstanceID;
+				return r_GetInstanceID;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetHashCode()
 		/// </summary>
-		protected RMethod r_RGetHashCode;
+		protected RMethod r_GetHashCode;
 		public virtual RMethod RGetHashCode
 		{
 			get
 			{
-				if(r_RGetHashCode == null)
+				if(r_GetHashCode == null)
 				{
-					r_RGetHashCode = new(this, "GetHashCode", 0);
-					r_RGetHashCode.SetBelong(this.instance);
+					r_GetHashCode = new(this, "GetHashCode", 0);
+					r_GetHashCode.SetBelong(this.instance);
 				}
-				return r_RGetHashCode;
+				return r_GetHashCode;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Equals(System.Object)
 		/// </summary>
-		protected RMethod r_REquals_Object;
+		protected RMethod r_Equals_Object;
 		public virtual RMethod REquals_Object
 		{
 			get
 			{
-				if(r_REquals_Object == null)
+				if(r_Equals_Object == null)
 				{
-					r_REquals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_REquals_Object.SetBelong(this.instance);
+					r_Equals_Object = new(this, "Equals", 0, typeof(System.Object));
+					r_Equals_Object.SetBelong(this.instance);
 				}
-				return r_REquals_Object;
+				return r_Equals_Object;
 			}
 		}
 
 		/// <summary>
 		/// System.String ToString()
 		/// </summary>
-		protected RMethod r_RToString;
+		protected RMethod r_ToString;
 		public virtual RMethod RToString
 		{
 			get
 			{
-				if(r_RToString == null)
+				if(r_ToString == null)
 				{
-					r_RToString = new(this, "ToString", 0);
-					r_RToString.SetBelong(this.instance);
+					r_ToString = new(this, "ToString", 0);
+					r_ToString.SetBelong(this.instance);
 				}
-				return r_RToString;
+				return r_ToString;
 			}
 		}
 
 		/// <summary>
 		/// Void Finalize()
 		/// </summary>
-		protected RMethod r_RFinalize;
+		protected RMethod r_Finalize;
 		public virtual RMethod RFinalize
 		{
 			get
 			{
-				if(r_RFinalize == null)
+				if(r_Finalize == null)
 				{
-					r_RFinalize = new(this, "Finalize", 0);
-					r_RFinalize.SetBelong(this.instance);
+					r_Finalize = new(this, "Finalize", 0);
+					r_Finalize.SetBelong(this.instance);
 				}
-				return r_RFinalize;
+				return r_Finalize;
 			}
 		}
 
 		/// <summary>
 		/// System.Type GetType()
 		/// </summary>
-		protected RMethod r_RGetType;
+		protected RMethod r_GetType;
 		public virtual RMethod RGetType
 		{
 			get
 			{
-				if(r_RGetType == null)
+				if(r_GetType == null)
 				{
-					r_RGetType = new(this, "GetType", 0);
-					r_RGetType.SetBelong(this.instance);
+					r_GetType = new(this, "GetType", 0);
+					r_GetType.SetBelong(this.instance);
 				}
-				return r_RGetType;
+				return r_GetType;
 			}
 		}
 
 		/// <summary>
 		/// System.Object MemberwiseClone()
 		/// </summary>
-		protected RMethod r_RMemberwiseClone;
+		protected RMethod r_MemberwiseClone;
 		public virtual RMethod RMemberwiseClone
 		{
 			get
 			{
-				if(r_RMemberwiseClone == null)
+				if(r_MemberwiseClone == null)
 				{
-					r_RMemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_RMemberwiseClone.SetBelong(this.instance);
+					r_MemberwiseClone = new(this, "MemberwiseClone", 0);
+					r_MemberwiseClone.SetBelong(this.instance);
 				}
-				return r_RMemberwiseClone;
+				return r_MemberwiseClone;
 			}
 		}
 

@@ -13,34 +13,34 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.Vector2 <MeasuredSizes>k__BackingField
 		/// </summary>
-		protected RUnityEngine.RVector2 r___1__MeasuredSizes__2__k__BackingField;
-		public virtual RUnityEngine.RVector2 R__1__MeasuredSizes__2__k__BackingField
+		protected RUnityEngine.RVector2 r___0__MeasuredSizes__1__k__BackingField;
+		public virtual RUnityEngine.RVector2 R__0__MeasuredSizes__1__k__BackingField
 		{
 			get
 			{
-				if(r___1__MeasuredSizes__2__k__BackingField == null)
+				if(r___0__MeasuredSizes__1__k__BackingField == null)
 				{
-					r___1__MeasuredSizes__2__k__BackingField = new(this, "<MeasuredSizes>k__BackingField");
-					r___1__MeasuredSizes__2__k__BackingField.SetBelong(this.instance);
+					r___0__MeasuredSizes__1__k__BackingField = new(this, "<MeasuredSizes>k__BackingField");
+					r___0__MeasuredSizes__1__k__BackingField.SetBelong(this.instance);
 				}
-				return r___1__MeasuredSizes__2__k__BackingField;
+				return r___0__MeasuredSizes__1__k__BackingField;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Vector2 <RoundedSizes>k__BackingField
 		/// </summary>
-		protected RUnityEngine.RVector2 r___1__RoundedSizes__2__k__BackingField;
-		public virtual RUnityEngine.RVector2 R__1__RoundedSizes__2__k__BackingField
+		protected RUnityEngine.RVector2 r___0__RoundedSizes__1__k__BackingField;
+		public virtual RUnityEngine.RVector2 R__0__RoundedSizes__1__k__BackingField
 		{
 			get
 			{
-				if(r___1__RoundedSizes__2__k__BackingField == null)
+				if(r___0__RoundedSizes__1__k__BackingField == null)
 				{
-					r___1__RoundedSizes__2__k__BackingField = new(this, "<RoundedSizes>k__BackingField");
-					r___1__RoundedSizes__2__k__BackingField.SetBelong(this.instance);
+					r___0__RoundedSizes__1__k__BackingField = new(this, "<RoundedSizes>k__BackingField");
+					r___0__RoundedSizes__1__k__BackingField.SetBelong(this.instance);
 				}
-				return r___1__RoundedSizes__2__k__BackingField;
+				return r___0__RoundedSizes__1__k__BackingField;
 			}
 		}
 
@@ -167,7 +167,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// UnityEngine.Vector2 RoundedSizes
 		/// </summary>
 		protected RUnityEngine.RVector2 r_RoundedSizes;
-		public virtual RUnityEngine.RVector2 RoundedSizes
+		public virtual RUnityEngine.RVector2 RRoundedSizes
 		{
 			get
 			{
@@ -200,799 +200,799 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Single ComputeTextWidth(System.String, Boolean, Single, Single)
 		/// </summary>
-		protected RMethod r_RComputeTextWidth_String_Boolean_Single_Single;
+		protected RMethod r_ComputeTextWidth_String_Boolean_Single_Single;
 		public virtual RMethod RComputeTextWidth_String_Boolean_Single_Single
 		{
 			get
 			{
-				if(r_RComputeTextWidth_String_Boolean_Single_Single == null)
+				if(r_ComputeTextWidth_String_Boolean_Single_Single == null)
 				{
-					r_RComputeTextWidth_String_Boolean_Single_Single = new(this, "ComputeTextWidth", 0, typeof(System.String), typeof(System.Boolean), typeof(System.Single), typeof(System.Single));
-					r_RComputeTextWidth_String_Boolean_Single_Single.SetBelong(this.instance);
+					r_ComputeTextWidth_String_Boolean_Single_Single = new(this, "ComputeTextWidth", 0, typeof(System.String), typeof(System.Boolean), typeof(System.Single), typeof(System.Single));
+					r_ComputeTextWidth_String_Boolean_Single_Single.SetBelong(this.instance);
 				}
-				return r_RComputeTextWidth_String_Boolean_Single_Single;
+				return r_ComputeTextWidth_String_Boolean_Single_Single;
 			}
 		}
 
 		/// <summary>
 		/// Single ComputeTextHeight(System.String, Single, Single)
 		/// </summary>
-		protected RMethod r_RComputeTextHeight_String_Single_Single;
+		protected RMethod r_ComputeTextHeight_String_Single_Single;
 		public virtual RMethod RComputeTextHeight_String_Single_Single
 		{
 			get
 			{
-				if(r_RComputeTextHeight_String_Single_Single == null)
+				if(r_ComputeTextHeight_String_Single_Single == null)
 				{
-					r_RComputeTextHeight_String_Single_Single = new(this, "ComputeTextHeight", 0, typeof(System.String), typeof(System.Single), typeof(System.Single));
-					r_RComputeTextHeight_String_Single_Single.SetBelong(this.instance);
+					r_ComputeTextHeight_String_Single_Single = new(this, "ComputeTextHeight", 0, typeof(System.String), typeof(System.Single), typeof(System.Single));
+					r_ComputeTextHeight_String_Single_Single.SetBelong(this.instance);
 				}
-				return r_RComputeTextHeight_String_Single_Single;
+				return r_ComputeTextHeight_String_Single_Single;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.TextCore.Text.TextInfo Update()
 		/// </summary>
-		protected RMethod r_RUpdate;
+		protected RMethod r_Update;
 		public virtual RMethod RUpdate
 		{
 			get
 			{
-				if(r_RUpdate == null)
+				if(r_Update == null)
 				{
-					r_RUpdate = new(this, "Update", 0);
-					r_RUpdate.SetBelong(this.instance);
+					r_Update = new(this, "Update", 0);
+					r_Update.SetBelong(this.instance);
 				}
-				return r_RUpdate;
+				return r_Update;
 			}
 		}
 
 		/// <summary>
 		/// Void ATagOnPointerUp(UnityEngine.UIElements.PointerUpEvent)
 		/// </summary>
-		protected RMethod r_RATagOnPointerUp_PointerUpEvent;
+		protected RMethod r_ATagOnPointerUp_PointerUpEvent;
 		public virtual RMethod RATagOnPointerUp_PointerUpEvent
 		{
 			get
 			{
-				if(r_RATagOnPointerUp_PointerUpEvent == null)
+				if(r_ATagOnPointerUp_PointerUpEvent == null)
 				{
-					r_RATagOnPointerUp_PointerUpEvent = new(this, "ATagOnPointerUp", 0, typeof(UnityEngine.UIElements.PointerUpEvent));
-					r_RATagOnPointerUp_PointerUpEvent.SetBelong(this.instance);
+					r_ATagOnPointerUp_PointerUpEvent = new(this, "ATagOnPointerUp", 0, typeof(UnityEngine.UIElements.PointerUpEvent));
+					r_ATagOnPointerUp_PointerUpEvent.SetBelong(this.instance);
 				}
-				return r_RATagOnPointerUp_PointerUpEvent;
+				return r_ATagOnPointerUp_PointerUpEvent;
 			}
 		}
 
 		/// <summary>
 		/// Void ATagOnPointerOver(UnityEngine.UIElements.PointerOverEvent)
 		/// </summary>
-		protected RMethod r_RATagOnPointerOver_PointerOverEvent;
+		protected RMethod r_ATagOnPointerOver_PointerOverEvent;
 		public virtual RMethod RATagOnPointerOver_PointerOverEvent
 		{
 			get
 			{
-				if(r_RATagOnPointerOver_PointerOverEvent == null)
+				if(r_ATagOnPointerOver_PointerOverEvent == null)
 				{
-					r_RATagOnPointerOver_PointerOverEvent = new(this, "ATagOnPointerOver", 0, typeof(UnityEngine.UIElements.PointerOverEvent));
-					r_RATagOnPointerOver_PointerOverEvent.SetBelong(this.instance);
+					r_ATagOnPointerOver_PointerOverEvent = new(this, "ATagOnPointerOver", 0, typeof(UnityEngine.UIElements.PointerOverEvent));
+					r_ATagOnPointerOver_PointerOverEvent.SetBelong(this.instance);
 				}
-				return r_RATagOnPointerOver_PointerOverEvent;
+				return r_ATagOnPointerOver_PointerOverEvent;
 			}
 		}
 
 		/// <summary>
 		/// Void ATagOnPointerMove(UnityEngine.UIElements.PointerMoveEvent)
 		/// </summary>
-		protected RMethod r_RATagOnPointerMove_PointerMoveEvent;
+		protected RMethod r_ATagOnPointerMove_PointerMoveEvent;
 		public virtual RMethod RATagOnPointerMove_PointerMoveEvent
 		{
 			get
 			{
-				if(r_RATagOnPointerMove_PointerMoveEvent == null)
+				if(r_ATagOnPointerMove_PointerMoveEvent == null)
 				{
-					r_RATagOnPointerMove_PointerMoveEvent = new(this, "ATagOnPointerMove", 0, typeof(UnityEngine.UIElements.PointerMoveEvent));
-					r_RATagOnPointerMove_PointerMoveEvent.SetBelong(this.instance);
+					r_ATagOnPointerMove_PointerMoveEvent = new(this, "ATagOnPointerMove", 0, typeof(UnityEngine.UIElements.PointerMoveEvent));
+					r_ATagOnPointerMove_PointerMoveEvent.SetBelong(this.instance);
 				}
-				return r_RATagOnPointerMove_PointerMoveEvent;
+				return r_ATagOnPointerMove_PointerMoveEvent;
 			}
 		}
 
 		/// <summary>
 		/// Void ATagOnPointerOut(UnityEngine.UIElements.PointerOutEvent)
 		/// </summary>
-		protected RMethod r_RATagOnPointerOut_PointerOutEvent;
+		protected RMethod r_ATagOnPointerOut_PointerOutEvent;
 		public virtual RMethod RATagOnPointerOut_PointerOutEvent
 		{
 			get
 			{
-				if(r_RATagOnPointerOut_PointerOutEvent == null)
+				if(r_ATagOnPointerOut_PointerOutEvent == null)
 				{
-					r_RATagOnPointerOut_PointerOutEvent = new(this, "ATagOnPointerOut", 0, typeof(UnityEngine.UIElements.PointerOutEvent));
-					r_RATagOnPointerOut_PointerOutEvent.SetBelong(this.instance);
+					r_ATagOnPointerOut_PointerOutEvent = new(this, "ATagOnPointerOut", 0, typeof(UnityEngine.UIElements.PointerOutEvent));
+					r_ATagOnPointerOut_PointerOutEvent.SetBelong(this.instance);
 				}
-				return r_RATagOnPointerOut_PointerOutEvent;
+				return r_ATagOnPointerOut_PointerOutEvent;
 			}
 		}
 
 		/// <summary>
 		/// Void LinkTagOnPointerDown(UnityEngine.UIElements.PointerDownEvent)
 		/// </summary>
-		protected RMethod r_RLinkTagOnPointerDown_PointerDownEvent;
+		protected RMethod r_LinkTagOnPointerDown_PointerDownEvent;
 		public virtual RMethod RLinkTagOnPointerDown_PointerDownEvent
 		{
 			get
 			{
-				if(r_RLinkTagOnPointerDown_PointerDownEvent == null)
+				if(r_LinkTagOnPointerDown_PointerDownEvent == null)
 				{
-					r_RLinkTagOnPointerDown_PointerDownEvent = new(this, "LinkTagOnPointerDown", 0, typeof(UnityEngine.UIElements.PointerDownEvent));
-					r_RLinkTagOnPointerDown_PointerDownEvent.SetBelong(this.instance);
+					r_LinkTagOnPointerDown_PointerDownEvent = new(this, "LinkTagOnPointerDown", 0, typeof(UnityEngine.UIElements.PointerDownEvent));
+					r_LinkTagOnPointerDown_PointerDownEvent.SetBelong(this.instance);
 				}
-				return r_RLinkTagOnPointerDown_PointerDownEvent;
+				return r_LinkTagOnPointerDown_PointerDownEvent;
 			}
 		}
 
 		/// <summary>
 		/// Void LinkTagOnPointerUp(UnityEngine.UIElements.PointerUpEvent)
 		/// </summary>
-		protected RMethod r_RLinkTagOnPointerUp_PointerUpEvent;
+		protected RMethod r_LinkTagOnPointerUp_PointerUpEvent;
 		public virtual RMethod RLinkTagOnPointerUp_PointerUpEvent
 		{
 			get
 			{
-				if(r_RLinkTagOnPointerUp_PointerUpEvent == null)
+				if(r_LinkTagOnPointerUp_PointerUpEvent == null)
 				{
-					r_RLinkTagOnPointerUp_PointerUpEvent = new(this, "LinkTagOnPointerUp", 0, typeof(UnityEngine.UIElements.PointerUpEvent));
-					r_RLinkTagOnPointerUp_PointerUpEvent.SetBelong(this.instance);
+					r_LinkTagOnPointerUp_PointerUpEvent = new(this, "LinkTagOnPointerUp", 0, typeof(UnityEngine.UIElements.PointerUpEvent));
+					r_LinkTagOnPointerUp_PointerUpEvent.SetBelong(this.instance);
 				}
-				return r_RLinkTagOnPointerUp_PointerUpEvent;
+				return r_LinkTagOnPointerUp_PointerUpEvent;
 			}
 		}
 
 		/// <summary>
 		/// Void LinkTagOnPointerMove(UnityEngine.UIElements.PointerMoveEvent)
 		/// </summary>
-		protected RMethod r_RLinkTagOnPointerMove_PointerMoveEvent;
+		protected RMethod r_LinkTagOnPointerMove_PointerMoveEvent;
 		public virtual RMethod RLinkTagOnPointerMove_PointerMoveEvent
 		{
 			get
 			{
-				if(r_RLinkTagOnPointerMove_PointerMoveEvent == null)
+				if(r_LinkTagOnPointerMove_PointerMoveEvent == null)
 				{
-					r_RLinkTagOnPointerMove_PointerMoveEvent = new(this, "LinkTagOnPointerMove", 0, typeof(UnityEngine.UIElements.PointerMoveEvent));
-					r_RLinkTagOnPointerMove_PointerMoveEvent.SetBelong(this.instance);
+					r_LinkTagOnPointerMove_PointerMoveEvent = new(this, "LinkTagOnPointerMove", 0, typeof(UnityEngine.UIElements.PointerMoveEvent));
+					r_LinkTagOnPointerMove_PointerMoveEvent.SetBelong(this.instance);
 				}
-				return r_RLinkTagOnPointerMove_PointerMoveEvent;
+				return r_LinkTagOnPointerMove_PointerMoveEvent;
 			}
 		}
 
 		/// <summary>
 		/// Void LinkTagOnPointerOut(UnityEngine.UIElements.PointerOutEvent)
 		/// </summary>
-		protected RMethod r_RLinkTagOnPointerOut_PointerOutEvent;
+		protected RMethod r_LinkTagOnPointerOut_PointerOutEvent;
 		public virtual RMethod RLinkTagOnPointerOut_PointerOutEvent
 		{
 			get
 			{
-				if(r_RLinkTagOnPointerOut_PointerOutEvent == null)
+				if(r_LinkTagOnPointerOut_PointerOutEvent == null)
 				{
-					r_RLinkTagOnPointerOut_PointerOutEvent = new(this, "LinkTagOnPointerOut", 0, typeof(UnityEngine.UIElements.PointerOutEvent));
-					r_RLinkTagOnPointerOut_PointerOutEvent.SetBelong(this.instance);
+					r_LinkTagOnPointerOut_PointerOutEvent = new(this, "LinkTagOnPointerOut", 0, typeof(UnityEngine.UIElements.PointerOutEvent));
+					r_LinkTagOnPointerOut_PointerOutEvent.SetBelong(this.instance);
 				}
-				return r_RLinkTagOnPointerOut_PointerOutEvent;
+				return r_LinkTagOnPointerOut_PointerOutEvent;
 			}
 		}
 
 		/// <summary>
 		/// Void HandleLinkTag()
 		/// </summary>
-		protected RMethod r_RHandleLinkTag;
+		protected RMethod r_HandleLinkTag;
 		public virtual RMethod RHandleLinkTag
 		{
 			get
 			{
-				if(r_RHandleLinkTag == null)
+				if(r_HandleLinkTag == null)
 				{
-					r_RHandleLinkTag = new(this, "HandleLinkTag", 0);
-					r_RHandleLinkTag.SetBelong(this.instance);
+					r_HandleLinkTag = new(this, "HandleLinkTag", 0);
+					r_HandleLinkTag.SetBelong(this.instance);
 				}
-				return r_RHandleLinkTag;
+				return r_HandleLinkTag;
 			}
 		}
 
 		/// <summary>
 		/// Void HandleATag()
 		/// </summary>
-		protected RMethod r_RHandleATag;
+		protected RMethod r_HandleATag;
 		public virtual RMethod RHandleATag
 		{
 			get
 			{
-				if(r_RHandleATag == null)
+				if(r_HandleATag == null)
 				{
-					r_RHandleATag = new(this, "HandleATag", 0);
-					r_RHandleATag.SetBelong(this.instance);
+					r_HandleATag = new(this, "HandleATag", 0);
+					r_HandleATag.SetBelong(this.instance);
 				}
-				return r_RHandleATag;
+				return r_HandleATag;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.TextCore.Text.TextOverflowMode GetTextOverflowMode()
 		/// </summary>
-		protected RMethod r_RGetTextOverflowMode;
+		protected RMethod r_GetTextOverflowMode;
 		public virtual RMethod RGetTextOverflowMode
 		{
 			get
 			{
-				if(r_RGetTextOverflowMode == null)
+				if(r_GetTextOverflowMode == null)
 				{
-					r_RGetTextOverflowMode = new(this, "GetTextOverflowMode", 0);
-					r_RGetTextOverflowMode.SetBelong(this.instance);
+					r_GetTextOverflowMode = new(this, "GetTextOverflowMode", 0);
+					r_GetTextOverflowMode.SetBelong(this.instance);
 				}
-				return r_RGetTextOverflowMode;
+				return r_GetTextOverflowMode;
 			}
 		}
 
 		/// <summary>
 		/// Void ConvertUssToTextGenerationSettings(UnityEngine.TextCore.Text.TextGenerationSettings)
 		/// </summary>
-		protected RMethod r_RConvertUssToTextGenerationSettings_TextGenerationSettings;
+		protected RMethod r_ConvertUssToTextGenerationSettings_TextGenerationSettings;
 		public virtual RMethod RConvertUssToTextGenerationSettings_TextGenerationSettings
 		{
 			get
 			{
-				if(r_RConvertUssToTextGenerationSettings_TextGenerationSettings == null)
+				if(r_ConvertUssToTextGenerationSettings_TextGenerationSettings == null)
 				{
-					r_RConvertUssToTextGenerationSettings_TextGenerationSettings = new(this, "ConvertUssToTextGenerationSettings", 0,  ReleactionUtils.GetType("UnityEngine.TextCore.Text.TextGenerationSettings"));
-					r_RConvertUssToTextGenerationSettings_TextGenerationSettings.SetBelong(this.instance);
+					r_ConvertUssToTextGenerationSettings_TextGenerationSettings = new(this, "ConvertUssToTextGenerationSettings", 0,  ReleactionUtils.GetType("UnityEngine.TextCore.Text.TextGenerationSettings"));
+					r_ConvertUssToTextGenerationSettings_TextGenerationSettings.SetBelong(this.instance);
 				}
-				return r_RConvertUssToTextGenerationSettings_TextGenerationSettings;
+				return r_ConvertUssToTextGenerationSettings_TextGenerationSettings;
 			}
 		}
 
 		/// <summary>
 		/// Boolean TextLibraryCanElide()
 		/// </summary>
-		protected RMethod r_RTextLibraryCanElide;
+		protected RMethod r_TextLibraryCanElide;
 		public virtual RMethod RTextLibraryCanElide
 		{
 			get
 			{
-				if(r_RTextLibraryCanElide == null)
+				if(r_TextLibraryCanElide == null)
 				{
-					r_RTextLibraryCanElide = new(this, "TextLibraryCanElide", 0);
-					r_RTextLibraryCanElide.SetBelong(this.instance);
+					r_TextLibraryCanElide = new(this, "TextLibraryCanElide", 0);
+					r_TextLibraryCanElide.SetBelong(this.instance);
 				}
-				return r_RTextLibraryCanElide;
+				return r_TextLibraryCanElide;
 			}
 		}
 
 		/// <summary>
 		/// Boolean IsTextInfoAllocated()
 		/// </summary>
-		protected RMethod r_RIsTextInfoAllocated;
+		protected RMethod r_IsTextInfoAllocated;
 		public virtual RMethod RIsTextInfoAllocated
 		{
 			get
 			{
-				if(r_RIsTextInfoAllocated == null)
+				if(r_IsTextInfoAllocated == null)
 				{
-					r_RIsTextInfoAllocated = new(this, "IsTextInfoAllocated", 0);
-					r_RIsTextInfoAllocated.SetBelong(this.instance);
+					r_IsTextInfoAllocated = new(this, "IsTextInfoAllocated", 0);
+					r_IsTextInfoAllocated.SetBelong(this.instance);
 				}
-				return r_RIsTextInfoAllocated;
+				return r_IsTextInfoAllocated;
 			}
 		}
 
 		/// <summary>
 		/// Void SetDirty()
 		/// </summary>
-		protected RMethod r_RSetDirty;
+		protected RMethod r_SetDirty;
 		public virtual RMethod RSetDirty
 		{
 			get
 			{
-				if(r_RSetDirty == null)
+				if(r_SetDirty == null)
 				{
-					r_RSetDirty = new(this, "SetDirty", 0);
-					r_RSetDirty.SetBelong(this.instance);
+					r_SetDirty = new(this, "SetDirty", 0);
+					r_SetDirty.SetBelong(this.instance);
 				}
-				return r_RSetDirty;
+				return r_SetDirty;
 			}
 		}
 
 		/// <summary>
 		/// Boolean IsDirty()
 		/// </summary>
-		protected RMethod r_RIsDirty;
+		protected RMethod r_IsDirty;
 		public virtual RMethod RIsDirty
 		{
 			get
 			{
-				if(r_RIsDirty == null)
+				if(r_IsDirty == null)
 				{
-					r_RIsDirty = new(this, "IsDirty", 0);
-					r_RIsDirty.SetBelong(this.instance);
+					r_IsDirty = new(this, "IsDirty", 0);
+					r_IsDirty.SetBelong(this.instance);
 				}
-				return r_RIsDirty;
+				return r_IsDirty;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Vector2 GetCursorPositionFromStringIndexUsingCharacterHeight(Int32, Boolean)
 		/// </summary>
-		protected RMethod r_RGetCursorPositionFromStringIndexUsingCharacterHeight_Int32_Boolean;
+		protected RMethod r_GetCursorPositionFromStringIndexUsingCharacterHeight_Int32_Boolean;
 		public virtual RMethod RGetCursorPositionFromStringIndexUsingCharacterHeight_Int32_Boolean
 		{
 			get
 			{
-				if(r_RGetCursorPositionFromStringIndexUsingCharacterHeight_Int32_Boolean == null)
+				if(r_GetCursorPositionFromStringIndexUsingCharacterHeight_Int32_Boolean == null)
 				{
-					r_RGetCursorPositionFromStringIndexUsingCharacterHeight_Int32_Boolean = new(this, "GetCursorPositionFromStringIndexUsingCharacterHeight", 0, typeof(System.Int32), typeof(System.Boolean));
-					r_RGetCursorPositionFromStringIndexUsingCharacterHeight_Int32_Boolean.SetBelong(this.instance);
+					r_GetCursorPositionFromStringIndexUsingCharacterHeight_Int32_Boolean = new(this, "GetCursorPositionFromStringIndexUsingCharacterHeight", 0, typeof(System.Int32), typeof(System.Boolean));
+					r_GetCursorPositionFromStringIndexUsingCharacterHeight_Int32_Boolean.SetBelong(this.instance);
 				}
-				return r_RGetCursorPositionFromStringIndexUsingCharacterHeight_Int32_Boolean;
+				return r_GetCursorPositionFromStringIndexUsingCharacterHeight_Int32_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Vector2 GetCursorPositionFromStringIndexUsingLineHeight(Int32, Boolean, Boolean)
 		/// </summary>
-		protected RMethod r_RGetCursorPositionFromStringIndexUsingLineHeight_Int32_Boolean_Boolean;
+		protected RMethod r_GetCursorPositionFromStringIndexUsingLineHeight_Int32_Boolean_Boolean;
 		public virtual RMethod RGetCursorPositionFromStringIndexUsingLineHeight_Int32_Boolean_Boolean
 		{
 			get
 			{
-				if(r_RGetCursorPositionFromStringIndexUsingLineHeight_Int32_Boolean_Boolean == null)
+				if(r_GetCursorPositionFromStringIndexUsingLineHeight_Int32_Boolean_Boolean == null)
 				{
-					r_RGetCursorPositionFromStringIndexUsingLineHeight_Int32_Boolean_Boolean = new(this, "GetCursorPositionFromStringIndexUsingLineHeight", 0, typeof(System.Int32), typeof(System.Boolean), typeof(System.Boolean));
-					r_RGetCursorPositionFromStringIndexUsingLineHeight_Int32_Boolean_Boolean.SetBelong(this.instance);
+					r_GetCursorPositionFromStringIndexUsingLineHeight_Int32_Boolean_Boolean = new(this, "GetCursorPositionFromStringIndexUsingLineHeight", 0, typeof(System.Int32), typeof(System.Boolean), typeof(System.Boolean));
+					r_GetCursorPositionFromStringIndexUsingLineHeight_Int32_Boolean_Boolean.SetBelong(this.instance);
 				}
-				return r_RGetCursorPositionFromStringIndexUsingLineHeight_Int32_Boolean_Boolean;
+				return r_GetCursorPositionFromStringIndexUsingLineHeight_Int32_Boolean_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetCursorIndexFromPosition(UnityEngine.Vector2, Boolean)
 		/// </summary>
-		protected RMethod r_RGetCursorIndexFromPosition_Vector2_Boolean;
+		protected RMethod r_GetCursorIndexFromPosition_Vector2_Boolean;
 		public virtual RMethod RGetCursorIndexFromPosition_Vector2_Boolean
 		{
 			get
 			{
-				if(r_RGetCursorIndexFromPosition_Vector2_Boolean == null)
+				if(r_GetCursorIndexFromPosition_Vector2_Boolean == null)
 				{
-					r_RGetCursorIndexFromPosition_Vector2_Boolean = new(this, "GetCursorIndexFromPosition", 0, typeof(UnityEngine.Vector2), typeof(System.Boolean));
-					r_RGetCursorIndexFromPosition_Vector2_Boolean.SetBelong(this.instance);
+					r_GetCursorIndexFromPosition_Vector2_Boolean = new(this, "GetCursorIndexFromPosition", 0, typeof(UnityEngine.Vector2), typeof(System.Boolean));
+					r_GetCursorIndexFromPosition_Vector2_Boolean.SetBelong(this.instance);
 				}
-				return r_RGetCursorIndexFromPosition_Vector2_Boolean;
+				return r_GetCursorIndexFromPosition_Vector2_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Int32 LineDownCharacterPosition(Int32)
 		/// </summary>
-		protected RMethod r_RLineDownCharacterPosition_Int32;
+		protected RMethod r_LineDownCharacterPosition_Int32;
 		public virtual RMethod RLineDownCharacterPosition_Int32
 		{
 			get
 			{
-				if(r_RLineDownCharacterPosition_Int32 == null)
+				if(r_LineDownCharacterPosition_Int32 == null)
 				{
-					r_RLineDownCharacterPosition_Int32 = new(this, "LineDownCharacterPosition", 0, typeof(System.Int32));
-					r_RLineDownCharacterPosition_Int32.SetBelong(this.instance);
+					r_LineDownCharacterPosition_Int32 = new(this, "LineDownCharacterPosition", 0, typeof(System.Int32));
+					r_LineDownCharacterPosition_Int32.SetBelong(this.instance);
 				}
-				return r_RLineDownCharacterPosition_Int32;
+				return r_LineDownCharacterPosition_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Int32 LineUpCharacterPosition(Int32)
 		/// </summary>
-		protected RMethod r_RLineUpCharacterPosition_Int32;
+		protected RMethod r_LineUpCharacterPosition_Int32;
 		public virtual RMethod RLineUpCharacterPosition_Int32
 		{
 			get
 			{
-				if(r_RLineUpCharacterPosition_Int32 == null)
+				if(r_LineUpCharacterPosition_Int32 == null)
 				{
-					r_RLineUpCharacterPosition_Int32 = new(this, "LineUpCharacterPosition", 0, typeof(System.Int32));
-					r_RLineUpCharacterPosition_Int32.SetBelong(this.instance);
+					r_LineUpCharacterPosition_Int32 = new(this, "LineUpCharacterPosition", 0, typeof(System.Int32));
+					r_LineUpCharacterPosition_Int32.SetBelong(this.instance);
 				}
-				return r_RLineUpCharacterPosition_Int32;
+				return r_LineUpCharacterPosition_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Int32 FindWordIndex(Int32)
 		/// </summary>
-		protected RMethod r_RFindWordIndex_Int32;
+		protected RMethod r_FindWordIndex_Int32;
 		public virtual RMethod RFindWordIndex_Int32
 		{
 			get
 			{
-				if(r_RFindWordIndex_Int32 == null)
+				if(r_FindWordIndex_Int32 == null)
 				{
-					r_RFindWordIndex_Int32 = new(this, "FindWordIndex", 0, typeof(System.Int32));
-					r_RFindWordIndex_Int32.SetBelong(this.instance);
+					r_FindWordIndex_Int32 = new(this, "FindWordIndex", 0, typeof(System.Int32));
+					r_FindWordIndex_Int32.SetBelong(this.instance);
 				}
-				return r_RFindWordIndex_Int32;
+				return r_FindWordIndex_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Int32 FindNearestLine(UnityEngine.Vector2)
 		/// </summary>
-		protected RMethod r_RFindNearestLine_Vector2;
+		protected RMethod r_FindNearestLine_Vector2;
 		public virtual RMethod RFindNearestLine_Vector2
 		{
 			get
 			{
-				if(r_RFindNearestLine_Vector2 == null)
+				if(r_FindNearestLine_Vector2 == null)
 				{
-					r_RFindNearestLine_Vector2 = new(this, "FindNearestLine", 0, typeof(UnityEngine.Vector2));
-					r_RFindNearestLine_Vector2.SetBelong(this.instance);
+					r_FindNearestLine_Vector2 = new(this, "FindNearestLine", 0, typeof(UnityEngine.Vector2));
+					r_FindNearestLine_Vector2.SetBelong(this.instance);
 				}
-				return r_RFindNearestLine_Vector2;
+				return r_FindNearestLine_Vector2;
 			}
 		}
 
 		/// <summary>
 		/// Int32 FindNearestCharacterOnLine(UnityEngine.Vector2, Int32, Boolean)
 		/// </summary>
-		protected RMethod r_RFindNearestCharacterOnLine_Vector2_Int32_Boolean;
+		protected RMethod r_FindNearestCharacterOnLine_Vector2_Int32_Boolean;
 		public virtual RMethod RFindNearestCharacterOnLine_Vector2_Int32_Boolean
 		{
 			get
 			{
-				if(r_RFindNearestCharacterOnLine_Vector2_Int32_Boolean == null)
+				if(r_FindNearestCharacterOnLine_Vector2_Int32_Boolean == null)
 				{
-					r_RFindNearestCharacterOnLine_Vector2_Int32_Boolean = new(this, "FindNearestCharacterOnLine", 0, typeof(UnityEngine.Vector2), typeof(System.Int32), typeof(System.Boolean));
-					r_RFindNearestCharacterOnLine_Vector2_Int32_Boolean.SetBelong(this.instance);
+					r_FindNearestCharacterOnLine_Vector2_Int32_Boolean = new(this, "FindNearestCharacterOnLine", 0, typeof(UnityEngine.Vector2), typeof(System.Int32), typeof(System.Boolean));
+					r_FindNearestCharacterOnLine_Vector2_Int32_Boolean.SetBelong(this.instance);
 				}
-				return r_RFindNearestCharacterOnLine_Vector2_Int32_Boolean;
+				return r_FindNearestCharacterOnLine_Vector2_Int32_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Int32 FindIntersectingLink(UnityEngine.Vector3, Boolean)
 		/// </summary>
-		protected RMethod r_RFindIntersectingLink_Vector3_Boolean;
+		protected RMethod r_FindIntersectingLink_Vector3_Boolean;
 		public virtual RMethod RFindIntersectingLink_Vector3_Boolean
 		{
 			get
 			{
-				if(r_RFindIntersectingLink_Vector3_Boolean == null)
+				if(r_FindIntersectingLink_Vector3_Boolean == null)
 				{
-					r_RFindIntersectingLink_Vector3_Boolean = new(this, "FindIntersectingLink", 0, typeof(UnityEngine.Vector3), typeof(System.Boolean));
-					r_RFindIntersectingLink_Vector3_Boolean.SetBelong(this.instance);
+					r_FindIntersectingLink_Vector3_Boolean = new(this, "FindIntersectingLink", 0, typeof(UnityEngine.Vector3), typeof(System.Boolean));
+					r_FindIntersectingLink_Vector3_Boolean.SetBelong(this.instance);
 				}
-				return r_RFindIntersectingLink_Vector3_Boolean;
+				return r_FindIntersectingLink_Vector3_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetLineNumber(Int32)
 		/// </summary>
-		protected RMethod r_RGetLineNumber_Int32;
+		protected RMethod r_GetLineNumber_Int32;
 		public virtual RMethod RGetLineNumber_Int32
 		{
 			get
 			{
-				if(r_RGetLineNumber_Int32 == null)
+				if(r_GetLineNumber_Int32 == null)
 				{
-					r_RGetLineNumber_Int32 = new(this, "GetLineNumber", 0, typeof(System.Int32));
-					r_RGetLineNumber_Int32.SetBelong(this.instance);
+					r_GetLineNumber_Int32 = new(this, "GetLineNumber", 0, typeof(System.Int32));
+					r_GetLineNumber_Int32.SetBelong(this.instance);
 				}
-				return r_RGetLineNumber_Int32;
+				return r_GetLineNumber_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Single GetLineHeight(Int32)
 		/// </summary>
-		protected RMethod r_RGetLineHeight_Int32;
+		protected RMethod r_GetLineHeight_Int32;
 		public virtual RMethod RGetLineHeight_Int32
 		{
 			get
 			{
-				if(r_RGetLineHeight_Int32 == null)
+				if(r_GetLineHeight_Int32 == null)
 				{
-					r_RGetLineHeight_Int32 = new(this, "GetLineHeight", 0, typeof(System.Int32));
-					r_RGetLineHeight_Int32.SetBelong(this.instance);
+					r_GetLineHeight_Int32 = new(this, "GetLineHeight", 0, typeof(System.Int32));
+					r_GetLineHeight_Int32.SetBelong(this.instance);
 				}
-				return r_RGetLineHeight_Int32;
+				return r_GetLineHeight_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Single GetLineHeightFromCharacterIndex(Int32)
 		/// </summary>
-		protected RMethod r_RGetLineHeightFromCharacterIndex_Int32;
+		protected RMethod r_GetLineHeightFromCharacterIndex_Int32;
 		public virtual RMethod RGetLineHeightFromCharacterIndex_Int32
 		{
 			get
 			{
-				if(r_RGetLineHeightFromCharacterIndex_Int32 == null)
+				if(r_GetLineHeightFromCharacterIndex_Int32 == null)
 				{
-					r_RGetLineHeightFromCharacterIndex_Int32 = new(this, "GetLineHeightFromCharacterIndex", 0, typeof(System.Int32));
-					r_RGetLineHeightFromCharacterIndex_Int32.SetBelong(this.instance);
+					r_GetLineHeightFromCharacterIndex_Int32 = new(this, "GetLineHeightFromCharacterIndex", 0, typeof(System.Int32));
+					r_GetLineHeightFromCharacterIndex_Int32.SetBelong(this.instance);
 				}
-				return r_RGetLineHeightFromCharacterIndex_Int32;
+				return r_GetLineHeightFromCharacterIndex_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Single GetCharacterHeightFromIndex(Int32)
 		/// </summary>
-		protected RMethod r_RGetCharacterHeightFromIndex_Int32;
+		protected RMethod r_GetCharacterHeightFromIndex_Int32;
 		public virtual RMethod RGetCharacterHeightFromIndex_Int32
 		{
 			get
 			{
-				if(r_RGetCharacterHeightFromIndex_Int32 == null)
+				if(r_GetCharacterHeightFromIndex_Int32 == null)
 				{
-					r_RGetCharacterHeightFromIndex_Int32 = new(this, "GetCharacterHeightFromIndex", 0, typeof(System.Int32));
-					r_RGetCharacterHeightFromIndex_Int32.SetBelong(this.instance);
+					r_GetCharacterHeightFromIndex_Int32 = new(this, "GetCharacterHeightFromIndex", 0, typeof(System.Int32));
+					r_GetCharacterHeightFromIndex_Int32.SetBelong(this.instance);
 				}
-				return r_RGetCharacterHeightFromIndex_Int32;
+				return r_GetCharacterHeightFromIndex_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Boolean IsElided()
 		/// </summary>
-		protected RMethod r_RIsElided;
+		protected RMethod r_IsElided;
 		public virtual RMethod RIsElided
 		{
 			get
 			{
-				if(r_RIsElided == null)
+				if(r_IsElided == null)
 				{
-					r_RIsElided = new(this, "IsElided", 0);
-					r_RIsElided.SetBelong(this.instance);
+					r_IsElided = new(this, "IsElided", 0);
+					r_IsElided.SetBelong(this.instance);
 				}
-				return r_RIsElided;
+				return r_IsElided;
 			}
 		}
 
 		/// <summary>
 		/// System.String Substring(Int32, Int32)
 		/// </summary>
-		protected RMethod r_RSubstring_Int32_Int32;
+		protected RMethod r_Substring_Int32_Int32;
 		public virtual RMethod RSubstring_Int32_Int32
 		{
 			get
 			{
-				if(r_RSubstring_Int32_Int32 == null)
+				if(r_Substring_Int32_Int32 == null)
 				{
-					r_RSubstring_Int32_Int32 = new(this, "Substring", 0, typeof(System.Int32), typeof(System.Int32));
-					r_RSubstring_Int32_Int32.SetBelong(this.instance);
+					r_Substring_Int32_Int32 = new(this, "Substring", 0, typeof(System.Int32), typeof(System.Int32));
+					r_Substring_Int32_Int32.SetBelong(this.instance);
 				}
-				return r_RSubstring_Int32_Int32;
+				return r_Substring_Int32_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Int32 IndexOf(Char, Int32)
 		/// </summary>
-		protected RMethod r_RIndexOf_Char_Int32;
+		protected RMethod r_IndexOf_Char_Int32;
 		public virtual RMethod RIndexOf_Char_Int32
 		{
 			get
 			{
-				if(r_RIndexOf_Char_Int32 == null)
+				if(r_IndexOf_Char_Int32 == null)
 				{
-					r_RIndexOf_Char_Int32 = new(this, "IndexOf", 0, typeof(System.Char), typeof(System.Int32));
-					r_RIndexOf_Char_Int32.SetBelong(this.instance);
+					r_IndexOf_Char_Int32 = new(this, "IndexOf", 0, typeof(System.Char), typeof(System.Int32));
+					r_IndexOf_Char_Int32.SetBelong(this.instance);
 				}
-				return r_RIndexOf_Char_Int32;
+				return r_IndexOf_Char_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Int32 LastIndexOf(Char, Int32)
 		/// </summary>
-		protected RMethod r_RLastIndexOf_Char_Int32;
+		protected RMethod r_LastIndexOf_Char_Int32;
 		public virtual RMethod RLastIndexOf_Char_Int32
 		{
 			get
 			{
-				if(r_RLastIndexOf_Char_Int32 == null)
+				if(r_LastIndexOf_Char_Int32 == null)
 				{
-					r_RLastIndexOf_Char_Int32 = new(this, "LastIndexOf", 0, typeof(System.Char), typeof(System.Int32));
-					r_RLastIndexOf_Char_Int32.SetBelong(this.instance);
+					r_LastIndexOf_Char_Int32 = new(this, "LastIndexOf", 0, typeof(System.Char), typeof(System.Int32));
+					r_LastIndexOf_Char_Int32.SetBelong(this.instance);
 				}
-				return r_RLastIndexOf_Char_Int32;
+				return r_LastIndexOf_Char_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Single ComputeTextWidth(UnityEngine.TextCore.Text.TextGenerationSettings)
 		/// </summary>
-		protected RMethod r_RComputeTextWidth_TextGenerationSettings;
+		protected RMethod r_ComputeTextWidth_TextGenerationSettings;
 		public virtual RMethod RComputeTextWidth_TextGenerationSettings
 		{
 			get
 			{
-				if(r_RComputeTextWidth_TextGenerationSettings == null)
+				if(r_ComputeTextWidth_TextGenerationSettings == null)
 				{
-					r_RComputeTextWidth_TextGenerationSettings = new(this, "ComputeTextWidth", 0,  ReleactionUtils.GetType("UnityEngine.TextCore.Text.TextGenerationSettings"));
-					r_RComputeTextWidth_TextGenerationSettings.SetBelong(this.instance);
+					r_ComputeTextWidth_TextGenerationSettings = new(this, "ComputeTextWidth", 0,  ReleactionUtils.GetType("UnityEngine.TextCore.Text.TextGenerationSettings"));
+					r_ComputeTextWidth_TextGenerationSettings.SetBelong(this.instance);
 				}
-				return r_RComputeTextWidth_TextGenerationSettings;
+				return r_ComputeTextWidth_TextGenerationSettings;
 			}
 		}
 
 		/// <summary>
 		/// Single ComputeTextHeight(UnityEngine.TextCore.Text.TextGenerationSettings)
 		/// </summary>
-		protected RMethod r_RComputeTextHeight_TextGenerationSettings;
+		protected RMethod r_ComputeTextHeight_TextGenerationSettings;
 		public virtual RMethod RComputeTextHeight_TextGenerationSettings
 		{
 			get
 			{
-				if(r_RComputeTextHeight_TextGenerationSettings == null)
+				if(r_ComputeTextHeight_TextGenerationSettings == null)
 				{
-					r_RComputeTextHeight_TextGenerationSettings = new(this, "ComputeTextHeight", 0,  ReleactionUtils.GetType("UnityEngine.TextCore.Text.TextGenerationSettings"));
-					r_RComputeTextHeight_TextGenerationSettings.SetBelong(this.instance);
+					r_ComputeTextHeight_TextGenerationSettings = new(this, "ComputeTextHeight", 0,  ReleactionUtils.GetType("UnityEngine.TextCore.Text.TextGenerationSettings"));
+					r_ComputeTextHeight_TextGenerationSettings.SetBelong(this.instance);
 				}
-				return r_RComputeTextHeight_TextGenerationSettings;
+				return r_ComputeTextHeight_TextGenerationSettings;
 			}
 		}
 
 		/// <summary>
 		/// Void UpdatePreferredValues(UnityEngine.TextCore.Text.TextGenerationSettings)
 		/// </summary>
-		protected RMethod r_RUpdatePreferredValues_TextGenerationSettings;
+		protected RMethod r_UpdatePreferredValues_TextGenerationSettings;
 		public virtual RMethod RUpdatePreferredValues_TextGenerationSettings
 		{
 			get
 			{
-				if(r_RUpdatePreferredValues_TextGenerationSettings == null)
+				if(r_UpdatePreferredValues_TextGenerationSettings == null)
 				{
-					r_RUpdatePreferredValues_TextGenerationSettings = new(this, "UpdatePreferredValues", 0,  ReleactionUtils.GetType("UnityEngine.TextCore.Text.TextGenerationSettings"));
-					r_RUpdatePreferredValues_TextGenerationSettings.SetBelong(this.instance);
+					r_UpdatePreferredValues_TextGenerationSettings = new(this, "UpdatePreferredValues", 0,  ReleactionUtils.GetType("UnityEngine.TextCore.Text.TextGenerationSettings"));
+					r_UpdatePreferredValues_TextGenerationSettings.SetBelong(this.instance);
 				}
-				return r_RUpdatePreferredValues_TextGenerationSettings;
+				return r_UpdatePreferredValues_TextGenerationSettings;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.TextCore.Text.TextInfo Update(System.String)
 		/// </summary>
-		protected RMethod r_RUpdate_String;
+		protected RMethod r_Update_String;
 		public virtual RMethod RUpdate_String
 		{
 			get
 			{
-				if(r_RUpdate_String == null)
+				if(r_Update_String == null)
 				{
-					r_RUpdate_String = new(this, "Update", 0, typeof(System.String));
-					r_RUpdate_String.SetBelong(this.instance);
+					r_Update_String = new(this, "Update", 0, typeof(System.String));
+					r_Update_String.SetBelong(this.instance);
 				}
-				return r_RUpdate_String;
+				return r_Update_String;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.TextCore.Text.TextInfo Update(UnityEngine.TextCore.Text.TextGenerationSettings)
 		/// </summary>
-		protected RMethod r_RUpdate_TextGenerationSettings;
+		protected RMethod r_Update_TextGenerationSettings;
 		public virtual RMethod RUpdate_TextGenerationSettings
 		{
 			get
 			{
-				if(r_RUpdate_TextGenerationSettings == null)
+				if(r_Update_TextGenerationSettings == null)
 				{
-					r_RUpdate_TextGenerationSettings = new(this, "Update", 0,  ReleactionUtils.GetType("UnityEngine.TextCore.Text.TextGenerationSettings"));
-					r_RUpdate_TextGenerationSettings.SetBelong(this.instance);
+					r_Update_TextGenerationSettings = new(this, "Update", 0,  ReleactionUtils.GetType("UnityEngine.TextCore.Text.TextGenerationSettings"));
+					r_Update_TextGenerationSettings.SetBelong(this.instance);
 				}
-				return r_RUpdate_TextGenerationSettings;
+				return r_Update_TextGenerationSettings;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Equals(System.Object)
 		/// </summary>
-		protected RMethod r_REquals_Object;
+		protected RMethod r_Equals_Object;
 		public virtual RMethod REquals_Object
 		{
 			get
 			{
-				if(r_REquals_Object == null)
+				if(r_Equals_Object == null)
 				{
-					r_REquals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_REquals_Object.SetBelong(this.instance);
+					r_Equals_Object = new(this, "Equals", 0, typeof(System.Object));
+					r_Equals_Object.SetBelong(this.instance);
 				}
-				return r_REquals_Object;
+				return r_Equals_Object;
 			}
 		}
 
 		/// <summary>
 		/// Void Finalize()
 		/// </summary>
-		protected RMethod r_RFinalize;
+		protected RMethod r_Finalize;
 		public virtual RMethod RFinalize
 		{
 			get
 			{
-				if(r_RFinalize == null)
+				if(r_Finalize == null)
 				{
-					r_RFinalize = new(this, "Finalize", 0);
-					r_RFinalize.SetBelong(this.instance);
+					r_Finalize = new(this, "Finalize", 0);
+					r_Finalize.SetBelong(this.instance);
 				}
-				return r_RFinalize;
+				return r_Finalize;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetHashCode()
 		/// </summary>
-		protected RMethod r_RGetHashCode;
+		protected RMethod r_GetHashCode;
 		public virtual RMethod RGetHashCode
 		{
 			get
 			{
-				if(r_RGetHashCode == null)
+				if(r_GetHashCode == null)
 				{
-					r_RGetHashCode = new(this, "GetHashCode", 0);
-					r_RGetHashCode.SetBelong(this.instance);
+					r_GetHashCode = new(this, "GetHashCode", 0);
+					r_GetHashCode.SetBelong(this.instance);
 				}
-				return r_RGetHashCode;
+				return r_GetHashCode;
 			}
 		}
 
 		/// <summary>
 		/// System.Type GetType()
 		/// </summary>
-		protected RMethod r_RGetType;
+		protected RMethod r_GetType;
 		public virtual RMethod RGetType
 		{
 			get
 			{
-				if(r_RGetType == null)
+				if(r_GetType == null)
 				{
-					r_RGetType = new(this, "GetType", 0);
-					r_RGetType.SetBelong(this.instance);
+					r_GetType = new(this, "GetType", 0);
+					r_GetType.SetBelong(this.instance);
 				}
-				return r_RGetType;
+				return r_GetType;
 			}
 		}
 
 		/// <summary>
 		/// System.Object MemberwiseClone()
 		/// </summary>
-		protected RMethod r_RMemberwiseClone;
+		protected RMethod r_MemberwiseClone;
 		public virtual RMethod RMemberwiseClone
 		{
 			get
 			{
-				if(r_RMemberwiseClone == null)
+				if(r_MemberwiseClone == null)
 				{
-					r_RMemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_RMemberwiseClone.SetBelong(this.instance);
+					r_MemberwiseClone = new(this, "MemberwiseClone", 0);
+					r_MemberwiseClone.SetBelong(this.instance);
 				}
-				return r_RMemberwiseClone;
+				return r_MemberwiseClone;
 			}
 		}
 
 		/// <summary>
 		/// System.String ToString()
 		/// </summary>
-		protected RMethod r_RToString;
+		protected RMethod r_ToString;
 		public virtual RMethod RToString
 		{
 			get
 			{
-				if(r_RToString == null)
+				if(r_ToString == null)
 				{
-					r_RToString = new(this, "ToString", 0);
-					r_RToString.SetBelong(this.instance);
+					r_ToString = new(this, "ToString", 0);
+					r_ToString.SetBelong(this.instance);
 				}
-				return r_RToString;
+				return r_ToString;
 			}
 		}
 

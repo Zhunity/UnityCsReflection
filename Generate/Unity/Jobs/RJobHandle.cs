@@ -98,493 +98,493 @@ namespace SMFrame.Editor.Refleaction.RUnity.RJobs
 		/// <summary>
 		/// Void Complete()
 		/// </summary>
-		protected RMethod r_RComplete;
+		protected RMethod r_Complete;
 		public virtual RMethod RComplete
 		{
 			get
 			{
-				if(r_RComplete == null)
+				if(r_Complete == null)
 				{
-					r_RComplete = new(this, "Complete", 0);
-					r_RComplete.SetBelong(this.instance);
+					r_Complete = new(this, "Complete", 0);
+					r_Complete.SetBelong(this.instance);
 				}
-				return r_RComplete;
+				return r_Complete;
 			}
 		}
 
 		/// <summary>
 		/// Void CompleteAll(Unity.Jobs.JobHandle ByRef, Unity.Jobs.JobHandle ByRef)
 		/// </summary>
-		protected static RMethod r_RCompleteAll_Ref_JobHandle_Ref_JobHandle;
+		protected static RMethod r_CompleteAll_Ref_JobHandle_Ref_JobHandle;
 		public static RMethod RCompleteAll_Ref_JobHandle_Ref_JobHandle
 		{
 			get
 			{
-				if(r_RCompleteAll_Ref_JobHandle_Ref_JobHandle == null)
+				if(r_CompleteAll_Ref_JobHandle_Ref_JobHandle == null)
 				{
-					r_RCompleteAll_Ref_JobHandle_Ref_JobHandle = new(typeof(Unity.Jobs.JobHandle), "CompleteAll", 0, typeof(Unity.Jobs.JobHandle).MakeByRefType(), typeof(Unity.Jobs.JobHandle).MakeByRefType());
-					r_RCompleteAll_Ref_JobHandle_Ref_JobHandle.SetBelong(null);
+					r_CompleteAll_Ref_JobHandle_Ref_JobHandle = new(typeof(Unity.Jobs.JobHandle), "CompleteAll", 0, typeof(Unity.Jobs.JobHandle).MakeByRefType(), typeof(Unity.Jobs.JobHandle).MakeByRefType());
+					r_CompleteAll_Ref_JobHandle_Ref_JobHandle.SetBelong(null);
 				}
-				return r_RCompleteAll_Ref_JobHandle_Ref_JobHandle;
+				return r_CompleteAll_Ref_JobHandle_Ref_JobHandle;
 			}
 		}
 
 		/// <summary>
 		/// Void CompleteAll(Unity.Jobs.JobHandle ByRef, Unity.Jobs.JobHandle ByRef, Unity.Jobs.JobHandle ByRef)
 		/// </summary>
-		protected static RMethod r_RCompleteAll_Ref_JobHandle_Ref_JobHandle_Ref_JobHandle;
+		protected static RMethod r_CompleteAll_Ref_JobHandle_Ref_JobHandle_Ref_JobHandle;
 		public static RMethod RCompleteAll_Ref_JobHandle_Ref_JobHandle_Ref_JobHandle
 		{
 			get
 			{
-				if(r_RCompleteAll_Ref_JobHandle_Ref_JobHandle_Ref_JobHandle == null)
+				if(r_CompleteAll_Ref_JobHandle_Ref_JobHandle_Ref_JobHandle == null)
 				{
-					r_RCompleteAll_Ref_JobHandle_Ref_JobHandle_Ref_JobHandle = new(typeof(Unity.Jobs.JobHandle), "CompleteAll", 0, typeof(Unity.Jobs.JobHandle).MakeByRefType(), typeof(Unity.Jobs.JobHandle).MakeByRefType(), typeof(Unity.Jobs.JobHandle).MakeByRefType());
-					r_RCompleteAll_Ref_JobHandle_Ref_JobHandle_Ref_JobHandle.SetBelong(null);
+					r_CompleteAll_Ref_JobHandle_Ref_JobHandle_Ref_JobHandle = new(typeof(Unity.Jobs.JobHandle), "CompleteAll", 0, typeof(Unity.Jobs.JobHandle).MakeByRefType(), typeof(Unity.Jobs.JobHandle).MakeByRefType(), typeof(Unity.Jobs.JobHandle).MakeByRefType());
+					r_CompleteAll_Ref_JobHandle_Ref_JobHandle_Ref_JobHandle.SetBelong(null);
 				}
-				return r_RCompleteAll_Ref_JobHandle_Ref_JobHandle_Ref_JobHandle;
+				return r_CompleteAll_Ref_JobHandle_Ref_JobHandle_Ref_JobHandle;
 			}
 		}
 
 		/// <summary>
 		/// Void CompleteAll(Unity.Collections.NativeArray`1[Unity.Jobs.JobHandle])
 		/// </summary>
-		protected static RMethod r_RCompleteAll_NativeArray_d_JobHandle_p_;
+		protected static RMethod r_CompleteAll_NativeArray_d_JobHandle_p_;
 		public static RMethod RCompleteAll_NativeArray_d_JobHandle_p_
 		{
 			get
 			{
-				if(r_RCompleteAll_NativeArray_d_JobHandle_p_ == null)
+				if(r_CompleteAll_NativeArray_d_JobHandle_p_ == null)
 				{
-					r_RCompleteAll_NativeArray_d_JobHandle_p_ = new(typeof(Unity.Jobs.JobHandle), "CompleteAll", 0, typeof(Unity.Collections.NativeArray<>).MakeGenericType(typeof(Unity.Jobs.JobHandle)));
-					r_RCompleteAll_NativeArray_d_JobHandle_p_.SetBelong(null);
+					r_CompleteAll_NativeArray_d_JobHandle_p_ = new(typeof(Unity.Jobs.JobHandle), "CompleteAll", 0, typeof(Unity.Collections.NativeArray<>).MakeGenericType(typeof(Unity.Jobs.JobHandle)));
+					r_CompleteAll_NativeArray_d_JobHandle_p_.SetBelong(null);
 				}
-				return r_RCompleteAll_NativeArray_d_JobHandle_p_;
+				return r_CompleteAll_NativeArray_d_JobHandle_p_;
 			}
 		}
 
 		/// <summary>
 		/// Void ScheduleBatchedJobs()
 		/// </summary>
-		protected static RMethod r_RScheduleBatchedJobs;
+		protected static RMethod r_ScheduleBatchedJobs;
 		public static RMethod RScheduleBatchedJobs
 		{
 			get
 			{
-				if(r_RScheduleBatchedJobs == null)
+				if(r_ScheduleBatchedJobs == null)
 				{
-					r_RScheduleBatchedJobs = new(typeof(Unity.Jobs.JobHandle), "ScheduleBatchedJobs", 0);
-					r_RScheduleBatchedJobs.SetBelong(null);
+					r_ScheduleBatchedJobs = new(typeof(Unity.Jobs.JobHandle), "ScheduleBatchedJobs", 0);
+					r_ScheduleBatchedJobs.SetBelong(null);
 				}
-				return r_RScheduleBatchedJobs;
+				return r_ScheduleBatchedJobs;
 			}
 		}
 
 		/// <summary>
 		/// Void ScheduleBatchedJobsAndComplete(Unity.Jobs.JobHandle ByRef)
 		/// </summary>
-		protected static RMethod r_RScheduleBatchedJobsAndComplete_Ref_JobHandle;
+		protected static RMethod r_ScheduleBatchedJobsAndComplete_Ref_JobHandle;
 		public static RMethod RScheduleBatchedJobsAndComplete_Ref_JobHandle
 		{
 			get
 			{
-				if(r_RScheduleBatchedJobsAndComplete_Ref_JobHandle == null)
+				if(r_ScheduleBatchedJobsAndComplete_Ref_JobHandle == null)
 				{
-					r_RScheduleBatchedJobsAndComplete_Ref_JobHandle = new(typeof(Unity.Jobs.JobHandle), "ScheduleBatchedJobsAndComplete", 0, typeof(Unity.Jobs.JobHandle).MakeByRefType());
-					r_RScheduleBatchedJobsAndComplete_Ref_JobHandle.SetBelong(null);
+					r_ScheduleBatchedJobsAndComplete_Ref_JobHandle = new(typeof(Unity.Jobs.JobHandle), "ScheduleBatchedJobsAndComplete", 0, typeof(Unity.Jobs.JobHandle).MakeByRefType());
+					r_ScheduleBatchedJobsAndComplete_Ref_JobHandle.SetBelong(null);
 				}
-				return r_RScheduleBatchedJobsAndComplete_Ref_JobHandle;
+				return r_ScheduleBatchedJobsAndComplete_Ref_JobHandle;
 			}
 		}
 
 		/// <summary>
 		/// Boolean ScheduleBatchedJobsAndIsCompleted(Unity.Jobs.JobHandle ByRef)
 		/// </summary>
-		protected static RMethod r_RScheduleBatchedJobsAndIsCompleted_Ref_JobHandle;
+		protected static RMethod r_ScheduleBatchedJobsAndIsCompleted_Ref_JobHandle;
 		public static RMethod RScheduleBatchedJobsAndIsCompleted_Ref_JobHandle
 		{
 			get
 			{
-				if(r_RScheduleBatchedJobsAndIsCompleted_Ref_JobHandle == null)
+				if(r_ScheduleBatchedJobsAndIsCompleted_Ref_JobHandle == null)
 				{
-					r_RScheduleBatchedJobsAndIsCompleted_Ref_JobHandle = new(typeof(Unity.Jobs.JobHandle), "ScheduleBatchedJobsAndIsCompleted", 0, typeof(Unity.Jobs.JobHandle).MakeByRefType());
-					r_RScheduleBatchedJobsAndIsCompleted_Ref_JobHandle.SetBelong(null);
+					r_ScheduleBatchedJobsAndIsCompleted_Ref_JobHandle = new(typeof(Unity.Jobs.JobHandle), "ScheduleBatchedJobsAndIsCompleted", 0, typeof(Unity.Jobs.JobHandle).MakeByRefType());
+					r_ScheduleBatchedJobsAndIsCompleted_Ref_JobHandle.SetBelong(null);
 				}
-				return r_RScheduleBatchedJobsAndIsCompleted_Ref_JobHandle;
+				return r_ScheduleBatchedJobsAndIsCompleted_Ref_JobHandle;
 			}
 		}
 
 		/// <summary>
 		/// Void ScheduleBatchedJobsAndCompleteAll(Void*, Int32)
 		/// </summary>
-		protected static RMethod r_RScheduleBatchedJobsAndCompleteAll_VoidPointer_Int32;
+		protected static RMethod r_ScheduleBatchedJobsAndCompleteAll_VoidPointer_Int32;
 		public static RMethod RScheduleBatchedJobsAndCompleteAll_VoidPointer_Int32
 		{
 			get
 			{
-				if(r_RScheduleBatchedJobsAndCompleteAll_VoidPointer_Int32 == null)
+				if(r_ScheduleBatchedJobsAndCompleteAll_VoidPointer_Int32 == null)
 				{
-					r_RScheduleBatchedJobsAndCompleteAll_VoidPointer_Int32 = new(typeof(Unity.Jobs.JobHandle), "ScheduleBatchedJobsAndCompleteAll", 0, typeof(void).MakePointerType(), typeof(System.Int32));
-					r_RScheduleBatchedJobsAndCompleteAll_VoidPointer_Int32.SetBelong(null);
+					r_ScheduleBatchedJobsAndCompleteAll_VoidPointer_Int32 = new(typeof(Unity.Jobs.JobHandle), "ScheduleBatchedJobsAndCompleteAll", 0, typeof(void).MakePointerType(), typeof(System.Int32));
+					r_ScheduleBatchedJobsAndCompleteAll_VoidPointer_Int32.SetBelong(null);
 				}
-				return r_RScheduleBatchedJobsAndCompleteAll_VoidPointer_Int32;
+				return r_ScheduleBatchedJobsAndCompleteAll_VoidPointer_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Unity.Jobs.JobHandle CombineDependencies(Unity.Jobs.JobHandle, Unity.Jobs.JobHandle)
 		/// </summary>
-		protected static RMethod r_RCombineDependencies_JobHandle_JobHandle;
+		protected static RMethod r_CombineDependencies_JobHandle_JobHandle;
 		public static RMethod RCombineDependencies_JobHandle_JobHandle
 		{
 			get
 			{
-				if(r_RCombineDependencies_JobHandle_JobHandle == null)
+				if(r_CombineDependencies_JobHandle_JobHandle == null)
 				{
-					r_RCombineDependencies_JobHandle_JobHandle = new(typeof(Unity.Jobs.JobHandle), "CombineDependencies", 0, typeof(Unity.Jobs.JobHandle), typeof(Unity.Jobs.JobHandle));
-					r_RCombineDependencies_JobHandle_JobHandle.SetBelong(null);
+					r_CombineDependencies_JobHandle_JobHandle = new(typeof(Unity.Jobs.JobHandle), "CombineDependencies", 0, typeof(Unity.Jobs.JobHandle), typeof(Unity.Jobs.JobHandle));
+					r_CombineDependencies_JobHandle_JobHandle.SetBelong(null);
 				}
-				return r_RCombineDependencies_JobHandle_JobHandle;
+				return r_CombineDependencies_JobHandle_JobHandle;
 			}
 		}
 
 		/// <summary>
 		/// Unity.Jobs.JobHandle CombineDependencies(Unity.Jobs.JobHandle, Unity.Jobs.JobHandle, Unity.Jobs.JobHandle)
 		/// </summary>
-		protected static RMethod r_RCombineDependencies_JobHandle_JobHandle_JobHandle;
+		protected static RMethod r_CombineDependencies_JobHandle_JobHandle_JobHandle;
 		public static RMethod RCombineDependencies_JobHandle_JobHandle_JobHandle
 		{
 			get
 			{
-				if(r_RCombineDependencies_JobHandle_JobHandle_JobHandle == null)
+				if(r_CombineDependencies_JobHandle_JobHandle_JobHandle == null)
 				{
-					r_RCombineDependencies_JobHandle_JobHandle_JobHandle = new(typeof(Unity.Jobs.JobHandle), "CombineDependencies", 0, typeof(Unity.Jobs.JobHandle), typeof(Unity.Jobs.JobHandle), typeof(Unity.Jobs.JobHandle));
-					r_RCombineDependencies_JobHandle_JobHandle_JobHandle.SetBelong(null);
+					r_CombineDependencies_JobHandle_JobHandle_JobHandle = new(typeof(Unity.Jobs.JobHandle), "CombineDependencies", 0, typeof(Unity.Jobs.JobHandle), typeof(Unity.Jobs.JobHandle), typeof(Unity.Jobs.JobHandle));
+					r_CombineDependencies_JobHandle_JobHandle_JobHandle.SetBelong(null);
 				}
-				return r_RCombineDependencies_JobHandle_JobHandle_JobHandle;
+				return r_CombineDependencies_JobHandle_JobHandle_JobHandle;
 			}
 		}
 
 		/// <summary>
 		/// Unity.Jobs.JobHandle CombineDependencies(Unity.Collections.NativeArray`1[Unity.Jobs.JobHandle])
 		/// </summary>
-		protected static RMethod r_RCombineDependencies_NativeArray_d_JobHandle_p_;
+		protected static RMethod r_CombineDependencies_NativeArray_d_JobHandle_p_;
 		public static RMethod RCombineDependencies_NativeArray_d_JobHandle_p_
 		{
 			get
 			{
-				if(r_RCombineDependencies_NativeArray_d_JobHandle_p_ == null)
+				if(r_CombineDependencies_NativeArray_d_JobHandle_p_ == null)
 				{
-					r_RCombineDependencies_NativeArray_d_JobHandle_p_ = new(typeof(Unity.Jobs.JobHandle), "CombineDependencies", 0, typeof(Unity.Collections.NativeArray<>).MakeGenericType(typeof(Unity.Jobs.JobHandle)));
-					r_RCombineDependencies_NativeArray_d_JobHandle_p_.SetBelong(null);
+					r_CombineDependencies_NativeArray_d_JobHandle_p_ = new(typeof(Unity.Jobs.JobHandle), "CombineDependencies", 0, typeof(Unity.Collections.NativeArray<>).MakeGenericType(typeof(Unity.Jobs.JobHandle)));
+					r_CombineDependencies_NativeArray_d_JobHandle_p_.SetBelong(null);
 				}
-				return r_RCombineDependencies_NativeArray_d_JobHandle_p_;
+				return r_CombineDependencies_NativeArray_d_JobHandle_p_;
 			}
 		}
 
 		/// <summary>
 		/// Unity.Jobs.JobHandle CombineDependencies(Unity.Collections.NativeSlice`1[Unity.Jobs.JobHandle])
 		/// </summary>
-		protected static RMethod r_RCombineDependencies_NativeSlice_d_JobHandle_p_;
+		protected static RMethod r_CombineDependencies_NativeSlice_d_JobHandle_p_;
 		public static RMethod RCombineDependencies_NativeSlice_d_JobHandle_p_
 		{
 			get
 			{
-				if(r_RCombineDependencies_NativeSlice_d_JobHandle_p_ == null)
+				if(r_CombineDependencies_NativeSlice_d_JobHandle_p_ == null)
 				{
-					r_RCombineDependencies_NativeSlice_d_JobHandle_p_ = new(typeof(Unity.Jobs.JobHandle), "CombineDependencies", 0, typeof(Unity.Collections.NativeSlice<>).MakeGenericType(typeof(Unity.Jobs.JobHandle)));
-					r_RCombineDependencies_NativeSlice_d_JobHandle_p_.SetBelong(null);
+					r_CombineDependencies_NativeSlice_d_JobHandle_p_ = new(typeof(Unity.Jobs.JobHandle), "CombineDependencies", 0, typeof(Unity.Collections.NativeSlice<>).MakeGenericType(typeof(Unity.Jobs.JobHandle)));
+					r_CombineDependencies_NativeSlice_d_JobHandle_p_.SetBelong(null);
 				}
-				return r_RCombineDependencies_NativeSlice_d_JobHandle_p_;
+				return r_CombineDependencies_NativeSlice_d_JobHandle_p_;
 			}
 		}
 
 		/// <summary>
 		/// Unity.Jobs.JobHandle CombineDependenciesInternal2(Unity.Jobs.JobHandle ByRef, Unity.Jobs.JobHandle ByRef)
 		/// </summary>
-		protected static RMethod r_RCombineDependenciesInternal2_Ref_JobHandle_Ref_JobHandle;
+		protected static RMethod r_CombineDependenciesInternal2_Ref_JobHandle_Ref_JobHandle;
 		public static RMethod RCombineDependenciesInternal2_Ref_JobHandle_Ref_JobHandle
 		{
 			get
 			{
-				if(r_RCombineDependenciesInternal2_Ref_JobHandle_Ref_JobHandle == null)
+				if(r_CombineDependenciesInternal2_Ref_JobHandle_Ref_JobHandle == null)
 				{
-					r_RCombineDependenciesInternal2_Ref_JobHandle_Ref_JobHandle = new(typeof(Unity.Jobs.JobHandle), "CombineDependenciesInternal2", 0, typeof(Unity.Jobs.JobHandle).MakeByRefType(), typeof(Unity.Jobs.JobHandle).MakeByRefType());
-					r_RCombineDependenciesInternal2_Ref_JobHandle_Ref_JobHandle.SetBelong(null);
+					r_CombineDependenciesInternal2_Ref_JobHandle_Ref_JobHandle = new(typeof(Unity.Jobs.JobHandle), "CombineDependenciesInternal2", 0, typeof(Unity.Jobs.JobHandle).MakeByRefType(), typeof(Unity.Jobs.JobHandle).MakeByRefType());
+					r_CombineDependenciesInternal2_Ref_JobHandle_Ref_JobHandle.SetBelong(null);
 				}
-				return r_RCombineDependenciesInternal2_Ref_JobHandle_Ref_JobHandle;
+				return r_CombineDependenciesInternal2_Ref_JobHandle_Ref_JobHandle;
 			}
 		}
 
 		/// <summary>
 		/// Unity.Jobs.JobHandle CombineDependenciesInternal3(Unity.Jobs.JobHandle ByRef, Unity.Jobs.JobHandle ByRef, Unity.Jobs.JobHandle ByRef)
 		/// </summary>
-		protected static RMethod r_RCombineDependenciesInternal3_Ref_JobHandle_Ref_JobHandle_Ref_JobHandle;
+		protected static RMethod r_CombineDependenciesInternal3_Ref_JobHandle_Ref_JobHandle_Ref_JobHandle;
 		public static RMethod RCombineDependenciesInternal3_Ref_JobHandle_Ref_JobHandle_Ref_JobHandle
 		{
 			get
 			{
-				if(r_RCombineDependenciesInternal3_Ref_JobHandle_Ref_JobHandle_Ref_JobHandle == null)
+				if(r_CombineDependenciesInternal3_Ref_JobHandle_Ref_JobHandle_Ref_JobHandle == null)
 				{
-					r_RCombineDependenciesInternal3_Ref_JobHandle_Ref_JobHandle_Ref_JobHandle = new(typeof(Unity.Jobs.JobHandle), "CombineDependenciesInternal3", 0, typeof(Unity.Jobs.JobHandle).MakeByRefType(), typeof(Unity.Jobs.JobHandle).MakeByRefType(), typeof(Unity.Jobs.JobHandle).MakeByRefType());
-					r_RCombineDependenciesInternal3_Ref_JobHandle_Ref_JobHandle_Ref_JobHandle.SetBelong(null);
+					r_CombineDependenciesInternal3_Ref_JobHandle_Ref_JobHandle_Ref_JobHandle = new(typeof(Unity.Jobs.JobHandle), "CombineDependenciesInternal3", 0, typeof(Unity.Jobs.JobHandle).MakeByRefType(), typeof(Unity.Jobs.JobHandle).MakeByRefType(), typeof(Unity.Jobs.JobHandle).MakeByRefType());
+					r_CombineDependenciesInternal3_Ref_JobHandle_Ref_JobHandle_Ref_JobHandle.SetBelong(null);
 				}
-				return r_RCombineDependenciesInternal3_Ref_JobHandle_Ref_JobHandle_Ref_JobHandle;
+				return r_CombineDependenciesInternal3_Ref_JobHandle_Ref_JobHandle_Ref_JobHandle;
 			}
 		}
 
 		/// <summary>
 		/// Unity.Jobs.JobHandle CombineDependenciesInternalPtr(Void*, Int32)
 		/// </summary>
-		protected static RMethod r_RCombineDependenciesInternalPtr_VoidPointer_Int32;
+		protected static RMethod r_CombineDependenciesInternalPtr_VoidPointer_Int32;
 		public static RMethod RCombineDependenciesInternalPtr_VoidPointer_Int32
 		{
 			get
 			{
-				if(r_RCombineDependenciesInternalPtr_VoidPointer_Int32 == null)
+				if(r_CombineDependenciesInternalPtr_VoidPointer_Int32 == null)
 				{
-					r_RCombineDependenciesInternalPtr_VoidPointer_Int32 = new(typeof(Unity.Jobs.JobHandle), "CombineDependenciesInternalPtr", 0, typeof(void).MakePointerType(), typeof(System.Int32));
-					r_RCombineDependenciesInternalPtr_VoidPointer_Int32.SetBelong(null);
+					r_CombineDependenciesInternalPtr_VoidPointer_Int32 = new(typeof(Unity.Jobs.JobHandle), "CombineDependenciesInternalPtr", 0, typeof(void).MakePointerType(), typeof(System.Int32));
+					r_CombineDependenciesInternalPtr_VoidPointer_Int32.SetBelong(null);
 				}
-				return r_RCombineDependenciesInternalPtr_VoidPointer_Int32;
+				return r_CombineDependenciesInternalPtr_VoidPointer_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Boolean CheckFenceIsDependencyOrDidSyncFence(Unity.Jobs.JobHandle, Unity.Jobs.JobHandle)
 		/// </summary>
-		protected static RMethod r_RCheckFenceIsDependencyOrDidSyncFence_JobHandle_JobHandle;
+		protected static RMethod r_CheckFenceIsDependencyOrDidSyncFence_JobHandle_JobHandle;
 		public static RMethod RCheckFenceIsDependencyOrDidSyncFence_JobHandle_JobHandle
 		{
 			get
 			{
-				if(r_RCheckFenceIsDependencyOrDidSyncFence_JobHandle_JobHandle == null)
+				if(r_CheckFenceIsDependencyOrDidSyncFence_JobHandle_JobHandle == null)
 				{
-					r_RCheckFenceIsDependencyOrDidSyncFence_JobHandle_JobHandle = new(typeof(Unity.Jobs.JobHandle), "CheckFenceIsDependencyOrDidSyncFence", 0, typeof(Unity.Jobs.JobHandle), typeof(Unity.Jobs.JobHandle));
-					r_RCheckFenceIsDependencyOrDidSyncFence_JobHandle_JobHandle.SetBelong(null);
+					r_CheckFenceIsDependencyOrDidSyncFence_JobHandle_JobHandle = new(typeof(Unity.Jobs.JobHandle), "CheckFenceIsDependencyOrDidSyncFence", 0, typeof(Unity.Jobs.JobHandle), typeof(Unity.Jobs.JobHandle));
+					r_CheckFenceIsDependencyOrDidSyncFence_JobHandle_JobHandle.SetBelong(null);
 				}
-				return r_RCheckFenceIsDependencyOrDidSyncFence_JobHandle_JobHandle;
+				return r_CheckFenceIsDependencyOrDidSyncFence_JobHandle_JobHandle;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Equals(Unity.Jobs.JobHandle)
 		/// </summary>
-		protected RMethod r_REquals_JobHandle;
+		protected RMethod r_Equals_JobHandle;
 		public virtual RMethod REquals_JobHandle
 		{
 			get
 			{
-				if(r_REquals_JobHandle == null)
+				if(r_Equals_JobHandle == null)
 				{
-					r_REquals_JobHandle = new(this, "Equals", 0, typeof(Unity.Jobs.JobHandle));
-					r_REquals_JobHandle.SetBelong(this.instance);
+					r_Equals_JobHandle = new(this, "Equals", 0, typeof(Unity.Jobs.JobHandle));
+					r_Equals_JobHandle.SetBelong(this.instance);
 				}
-				return r_REquals_JobHandle;
+				return r_Equals_JobHandle;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Equals(System.Object)
 		/// </summary>
-		protected RMethod r_REquals_Object;
+		protected RMethod r_Equals_Object;
 		public virtual RMethod REquals_Object
 		{
 			get
 			{
-				if(r_REquals_Object == null)
+				if(r_Equals_Object == null)
 				{
-					r_REquals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_REquals_Object.SetBelong(this.instance);
+					r_Equals_Object = new(this, "Equals", 0, typeof(System.Object));
+					r_Equals_Object.SetBelong(this.instance);
 				}
-				return r_REquals_Object;
+				return r_Equals_Object;
 			}
 		}
 
 		/// <summary>
 		/// Boolean op_Equality(Unity.Jobs.JobHandle, Unity.Jobs.JobHandle)
 		/// </summary>
-		protected static RMethod r_Rop_Equality_JobHandle_JobHandle;
+		protected static RMethod r_op_Equality_JobHandle_JobHandle;
 		public static RMethod Rop_Equality_JobHandle_JobHandle
 		{
 			get
 			{
-				if(r_Rop_Equality_JobHandle_JobHandle == null)
+				if(r_op_Equality_JobHandle_JobHandle == null)
 				{
-					r_Rop_Equality_JobHandle_JobHandle = new(typeof(Unity.Jobs.JobHandle), "op_Equality", 0, typeof(Unity.Jobs.JobHandle), typeof(Unity.Jobs.JobHandle));
-					r_Rop_Equality_JobHandle_JobHandle.SetBelong(null);
+					r_op_Equality_JobHandle_JobHandle = new(typeof(Unity.Jobs.JobHandle), "op_Equality", 0, typeof(Unity.Jobs.JobHandle), typeof(Unity.Jobs.JobHandle));
+					r_op_Equality_JobHandle_JobHandle.SetBelong(null);
 				}
-				return r_Rop_Equality_JobHandle_JobHandle;
+				return r_op_Equality_JobHandle_JobHandle;
 			}
 		}
 
 		/// <summary>
 		/// Boolean op_Inequality(Unity.Jobs.JobHandle, Unity.Jobs.JobHandle)
 		/// </summary>
-		protected static RMethod r_Rop_Inequality_JobHandle_JobHandle;
+		protected static RMethod r_op_Inequality_JobHandle_JobHandle;
 		public static RMethod Rop_Inequality_JobHandle_JobHandle
 		{
 			get
 			{
-				if(r_Rop_Inequality_JobHandle_JobHandle == null)
+				if(r_op_Inequality_JobHandle_JobHandle == null)
 				{
-					r_Rop_Inequality_JobHandle_JobHandle = new(typeof(Unity.Jobs.JobHandle), "op_Inequality", 0, typeof(Unity.Jobs.JobHandle), typeof(Unity.Jobs.JobHandle));
-					r_Rop_Inequality_JobHandle_JobHandle.SetBelong(null);
+					r_op_Inequality_JobHandle_JobHandle = new(typeof(Unity.Jobs.JobHandle), "op_Inequality", 0, typeof(Unity.Jobs.JobHandle), typeof(Unity.Jobs.JobHandle));
+					r_op_Inequality_JobHandle_JobHandle.SetBelong(null);
 				}
-				return r_Rop_Inequality_JobHandle_JobHandle;
+				return r_op_Inequality_JobHandle_JobHandle;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetHashCode()
 		/// </summary>
-		protected RMethod r_RGetHashCode;
+		protected RMethod r_GetHashCode;
 		public virtual RMethod RGetHashCode
 		{
 			get
 			{
-				if(r_RGetHashCode == null)
+				if(r_GetHashCode == null)
 				{
-					r_RGetHashCode = new(this, "GetHashCode", 0);
-					r_RGetHashCode.SetBelong(this.instance);
+					r_GetHashCode = new(this, "GetHashCode", 0);
+					r_GetHashCode.SetBelong(this.instance);
 				}
-				return r_RGetHashCode;
+				return r_GetHashCode;
 			}
 		}
 
 		/// <summary>
 		/// Void CombineDependenciesInternal2_Injected(Unity.Jobs.JobHandle ByRef, Unity.Jobs.JobHandle ByRef, Unity.Jobs.JobHandle ByRef)
 		/// </summary>
-		protected static RMethod r_RCombineDependenciesInternal2_Injected_Ref_JobHandle_Ref_JobHandle_Out_JobHandle;
+		protected static RMethod r_CombineDependenciesInternal2_Injected_Ref_JobHandle_Ref_JobHandle_Out_JobHandle;
 		public static RMethod RCombineDependenciesInternal2_Injected_Ref_JobHandle_Ref_JobHandle_Out_JobHandle
 		{
 			get
 			{
-				if(r_RCombineDependenciesInternal2_Injected_Ref_JobHandle_Ref_JobHandle_Out_JobHandle == null)
+				if(r_CombineDependenciesInternal2_Injected_Ref_JobHandle_Ref_JobHandle_Out_JobHandle == null)
 				{
-					r_RCombineDependenciesInternal2_Injected_Ref_JobHandle_Ref_JobHandle_Out_JobHandle = new(typeof(Unity.Jobs.JobHandle), "CombineDependenciesInternal2_Injected", 0, typeof(Unity.Jobs.JobHandle).MakeByRefType(), typeof(Unity.Jobs.JobHandle).MakeByRefType(), typeof(Unity.Jobs.JobHandle).MakeByRefType());
-					r_RCombineDependenciesInternal2_Injected_Ref_JobHandle_Ref_JobHandle_Out_JobHandle.SetBelong(null);
+					r_CombineDependenciesInternal2_Injected_Ref_JobHandle_Ref_JobHandle_Out_JobHandle = new(typeof(Unity.Jobs.JobHandle), "CombineDependenciesInternal2_Injected", 0, typeof(Unity.Jobs.JobHandle).MakeByRefType(), typeof(Unity.Jobs.JobHandle).MakeByRefType(), typeof(Unity.Jobs.JobHandle).MakeByRefType());
+					r_CombineDependenciesInternal2_Injected_Ref_JobHandle_Ref_JobHandle_Out_JobHandle.SetBelong(null);
 				}
-				return r_RCombineDependenciesInternal2_Injected_Ref_JobHandle_Ref_JobHandle_Out_JobHandle;
+				return r_CombineDependenciesInternal2_Injected_Ref_JobHandle_Ref_JobHandle_Out_JobHandle;
 			}
 		}
 
 		/// <summary>
 		/// Void CombineDependenciesInternal3_Injected(Unity.Jobs.JobHandle ByRef, Unity.Jobs.JobHandle ByRef, Unity.Jobs.JobHandle ByRef, Unity.Jobs.JobHandle ByRef)
 		/// </summary>
-		protected static RMethod r_RCombineDependenciesInternal3_Injected_Ref_JobHandle_Ref_JobHandle_Ref_JobHandle_Out_JobHandle;
+		protected static RMethod r_CombineDependenciesInternal3_Injected_Ref_JobHandle_Ref_JobHandle_Ref_JobHandle_Out_JobHandle;
 		public static RMethod RCombineDependenciesInternal3_Injected_Ref_JobHandle_Ref_JobHandle_Ref_JobHandle_Out_JobHandle
 		{
 			get
 			{
-				if(r_RCombineDependenciesInternal3_Injected_Ref_JobHandle_Ref_JobHandle_Ref_JobHandle_Out_JobHandle == null)
+				if(r_CombineDependenciesInternal3_Injected_Ref_JobHandle_Ref_JobHandle_Ref_JobHandle_Out_JobHandle == null)
 				{
-					r_RCombineDependenciesInternal3_Injected_Ref_JobHandle_Ref_JobHandle_Ref_JobHandle_Out_JobHandle = new(typeof(Unity.Jobs.JobHandle), "CombineDependenciesInternal3_Injected", 0, typeof(Unity.Jobs.JobHandle).MakeByRefType(), typeof(Unity.Jobs.JobHandle).MakeByRefType(), typeof(Unity.Jobs.JobHandle).MakeByRefType(), typeof(Unity.Jobs.JobHandle).MakeByRefType());
-					r_RCombineDependenciesInternal3_Injected_Ref_JobHandle_Ref_JobHandle_Ref_JobHandle_Out_JobHandle.SetBelong(null);
+					r_CombineDependenciesInternal3_Injected_Ref_JobHandle_Ref_JobHandle_Ref_JobHandle_Out_JobHandle = new(typeof(Unity.Jobs.JobHandle), "CombineDependenciesInternal3_Injected", 0, typeof(Unity.Jobs.JobHandle).MakeByRefType(), typeof(Unity.Jobs.JobHandle).MakeByRefType(), typeof(Unity.Jobs.JobHandle).MakeByRefType(), typeof(Unity.Jobs.JobHandle).MakeByRefType());
+					r_CombineDependenciesInternal3_Injected_Ref_JobHandle_Ref_JobHandle_Ref_JobHandle_Out_JobHandle.SetBelong(null);
 				}
-				return r_RCombineDependenciesInternal3_Injected_Ref_JobHandle_Ref_JobHandle_Ref_JobHandle_Out_JobHandle;
+				return r_CombineDependenciesInternal3_Injected_Ref_JobHandle_Ref_JobHandle_Ref_JobHandle_Out_JobHandle;
 			}
 		}
 
 		/// <summary>
 		/// Void CombineDependenciesInternalPtr_Injected(Void*, Int32, Unity.Jobs.JobHandle ByRef)
 		/// </summary>
-		protected static RMethod r_RCombineDependenciesInternalPtr_Injected_VoidPointer_Int32_Out_JobHandle;
+		protected static RMethod r_CombineDependenciesInternalPtr_Injected_VoidPointer_Int32_Out_JobHandle;
 		public static RMethod RCombineDependenciesInternalPtr_Injected_VoidPointer_Int32_Out_JobHandle
 		{
 			get
 			{
-				if(r_RCombineDependenciesInternalPtr_Injected_VoidPointer_Int32_Out_JobHandle == null)
+				if(r_CombineDependenciesInternalPtr_Injected_VoidPointer_Int32_Out_JobHandle == null)
 				{
-					r_RCombineDependenciesInternalPtr_Injected_VoidPointer_Int32_Out_JobHandle = new(typeof(Unity.Jobs.JobHandle), "CombineDependenciesInternalPtr_Injected", 0, typeof(void).MakePointerType(), typeof(System.Int32), typeof(Unity.Jobs.JobHandle).MakeByRefType());
-					r_RCombineDependenciesInternalPtr_Injected_VoidPointer_Int32_Out_JobHandle.SetBelong(null);
+					r_CombineDependenciesInternalPtr_Injected_VoidPointer_Int32_Out_JobHandle = new(typeof(Unity.Jobs.JobHandle), "CombineDependenciesInternalPtr_Injected", 0, typeof(void).MakePointerType(), typeof(System.Int32), typeof(Unity.Jobs.JobHandle).MakeByRefType());
+					r_CombineDependenciesInternalPtr_Injected_VoidPointer_Int32_Out_JobHandle.SetBelong(null);
 				}
-				return r_RCombineDependenciesInternalPtr_Injected_VoidPointer_Int32_Out_JobHandle;
+				return r_CombineDependenciesInternalPtr_Injected_VoidPointer_Int32_Out_JobHandle;
 			}
 		}
 
 		/// <summary>
 		/// Boolean CheckFenceIsDependencyOrDidSyncFence_Injected(Unity.Jobs.JobHandle ByRef, Unity.Jobs.JobHandle ByRef)
 		/// </summary>
-		protected static RMethod r_RCheckFenceIsDependencyOrDidSyncFence_Injected_Ref_JobHandle_Ref_JobHandle;
+		protected static RMethod r_CheckFenceIsDependencyOrDidSyncFence_Injected_Ref_JobHandle_Ref_JobHandle;
 		public static RMethod RCheckFenceIsDependencyOrDidSyncFence_Injected_Ref_JobHandle_Ref_JobHandle
 		{
 			get
 			{
-				if(r_RCheckFenceIsDependencyOrDidSyncFence_Injected_Ref_JobHandle_Ref_JobHandle == null)
+				if(r_CheckFenceIsDependencyOrDidSyncFence_Injected_Ref_JobHandle_Ref_JobHandle == null)
 				{
-					r_RCheckFenceIsDependencyOrDidSyncFence_Injected_Ref_JobHandle_Ref_JobHandle = new(typeof(Unity.Jobs.JobHandle), "CheckFenceIsDependencyOrDidSyncFence_Injected", 0, typeof(Unity.Jobs.JobHandle).MakeByRefType(), typeof(Unity.Jobs.JobHandle).MakeByRefType());
-					r_RCheckFenceIsDependencyOrDidSyncFence_Injected_Ref_JobHandle_Ref_JobHandle.SetBelong(null);
+					r_CheckFenceIsDependencyOrDidSyncFence_Injected_Ref_JobHandle_Ref_JobHandle = new(typeof(Unity.Jobs.JobHandle), "CheckFenceIsDependencyOrDidSyncFence_Injected", 0, typeof(Unity.Jobs.JobHandle).MakeByRefType(), typeof(Unity.Jobs.JobHandle).MakeByRefType());
+					r_CheckFenceIsDependencyOrDidSyncFence_Injected_Ref_JobHandle_Ref_JobHandle.SetBelong(null);
 				}
-				return r_RCheckFenceIsDependencyOrDidSyncFence_Injected_Ref_JobHandle_Ref_JobHandle;
+				return r_CheckFenceIsDependencyOrDidSyncFence_Injected_Ref_JobHandle_Ref_JobHandle;
 			}
 		}
 
 		/// <summary>
 		/// System.String ToString()
 		/// </summary>
-		protected RMethod r_RToString;
+		protected RMethod r_ToString;
 		public virtual RMethod RToString
 		{
 			get
 			{
-				if(r_RToString == null)
+				if(r_ToString == null)
 				{
-					r_RToString = new(this, "ToString", 0);
-					r_RToString.SetBelong(this.instance);
+					r_ToString = new(this, "ToString", 0);
+					r_ToString.SetBelong(this.instance);
 				}
-				return r_RToString;
+				return r_ToString;
 			}
 		}
 
 		/// <summary>
 		/// Void Finalize()
 		/// </summary>
-		protected RMethod r_RFinalize;
+		protected RMethod r_Finalize;
 		public virtual RMethod RFinalize
 		{
 			get
 			{
-				if(r_RFinalize == null)
+				if(r_Finalize == null)
 				{
-					r_RFinalize = new(this, "Finalize", 0);
-					r_RFinalize.SetBelong(this.instance);
+					r_Finalize = new(this, "Finalize", 0);
+					r_Finalize.SetBelong(this.instance);
 				}
-				return r_RFinalize;
+				return r_Finalize;
 			}
 		}
 
 		/// <summary>
 		/// System.Type GetType()
 		/// </summary>
-		protected RMethod r_RGetType;
+		protected RMethod r_GetType;
 		public virtual RMethod RGetType
 		{
 			get
 			{
-				if(r_RGetType == null)
+				if(r_GetType == null)
 				{
-					r_RGetType = new(this, "GetType", 0);
-					r_RGetType.SetBelong(this.instance);
+					r_GetType = new(this, "GetType", 0);
+					r_GetType.SetBelong(this.instance);
 				}
-				return r_RGetType;
+				return r_GetType;
 			}
 		}
 
 		/// <summary>
 		/// System.Object MemberwiseClone()
 		/// </summary>
-		protected RMethod r_RMemberwiseClone;
+		protected RMethod r_MemberwiseClone;
 		public virtual RMethod RMemberwiseClone
 		{
 			get
 			{
-				if(r_RMemberwiseClone == null)
+				if(r_MemberwiseClone == null)
 				{
-					r_RMemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_RMemberwiseClone.SetBelong(this.instance);
+					r_MemberwiseClone = new(this, "MemberwiseClone", 0);
+					r_MemberwiseClone.SetBelong(this.instance);
 				}
-				return r_RMemberwiseClone;
+				return r_MemberwiseClone;
 			}
 		}
 

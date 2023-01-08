@@ -47,170 +47,170 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts
 		/// <summary>
 		/// Boolean RegisterDynamicProperty(System.Runtime.Remoting.Contexts.IDynamicProperty)
 		/// </summary>
-		protected RMethod r_RRegisterDynamicProperty_IDynamicProperty;
+		protected RMethod r_RegisterDynamicProperty_IDynamicProperty;
 		public virtual RMethod RRegisterDynamicProperty_IDynamicProperty
 		{
 			get
 			{
-				if(r_RRegisterDynamicProperty_IDynamicProperty == null)
+				if(r_RegisterDynamicProperty_IDynamicProperty == null)
 				{
-					r_RRegisterDynamicProperty_IDynamicProperty = new(this, "RegisterDynamicProperty", 0, typeof(System.Runtime.Remoting.Contexts.IDynamicProperty));
-					r_RRegisterDynamicProperty_IDynamicProperty.SetBelong(this.instance);
+					r_RegisterDynamicProperty_IDynamicProperty = new(this, "RegisterDynamicProperty", 0, typeof(System.Runtime.Remoting.Contexts.IDynamicProperty));
+					r_RegisterDynamicProperty_IDynamicProperty.SetBelong(this.instance);
 				}
-				return r_RRegisterDynamicProperty_IDynamicProperty;
+				return r_RegisterDynamicProperty_IDynamicProperty;
 			}
 		}
 
 		/// <summary>
 		/// Boolean UnregisterDynamicProperty(System.String)
 		/// </summary>
-		protected RMethod r_RUnregisterDynamicProperty_String;
+		protected RMethod r_UnregisterDynamicProperty_String;
 		public virtual RMethod RUnregisterDynamicProperty_String
 		{
 			get
 			{
-				if(r_RUnregisterDynamicProperty_String == null)
+				if(r_UnregisterDynamicProperty_String == null)
 				{
-					r_RUnregisterDynamicProperty_String = new(this, "UnregisterDynamicProperty", 0, typeof(System.String));
-					r_RUnregisterDynamicProperty_String.SetBelong(this.instance);
+					r_UnregisterDynamicProperty_String = new(this, "UnregisterDynamicProperty", 0, typeof(System.String));
+					r_UnregisterDynamicProperty_String.SetBelong(this.instance);
 				}
-				return r_RUnregisterDynamicProperty_String;
+				return r_UnregisterDynamicProperty_String;
 			}
 		}
 
 		/// <summary>
 		/// Void NotifyMessage(Boolean, System.Runtime.Remoting.Messaging.IMessage, Boolean, Boolean)
 		/// </summary>
-		protected RMethod r_RNotifyMessage_Boolean_IMessage_Boolean_Boolean;
+		protected RMethod r_NotifyMessage_Boolean_IMessage_Boolean_Boolean;
 		public virtual RMethod RNotifyMessage_Boolean_IMessage_Boolean_Boolean
 		{
 			get
 			{
-				if(r_RNotifyMessage_Boolean_IMessage_Boolean_Boolean == null)
+				if(r_NotifyMessage_Boolean_IMessage_Boolean_Boolean == null)
 				{
-					r_RNotifyMessage_Boolean_IMessage_Boolean_Boolean = new(this, "NotifyMessage", 0, typeof(System.Boolean), typeof(System.Runtime.Remoting.Messaging.IMessage), typeof(System.Boolean), typeof(System.Boolean));
-					r_RNotifyMessage_Boolean_IMessage_Boolean_Boolean.SetBelong(this.instance);
+					r_NotifyMessage_Boolean_IMessage_Boolean_Boolean = new(this, "NotifyMessage", 0, typeof(System.Boolean), typeof(System.Runtime.Remoting.Messaging.IMessage), typeof(System.Boolean), typeof(System.Boolean));
+					r_NotifyMessage_Boolean_IMessage_Boolean_Boolean.SetBelong(this.instance);
 				}
-				return r_RNotifyMessage_Boolean_IMessage_Boolean_Boolean;
+				return r_NotifyMessage_Boolean_IMessage_Boolean_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Int32 FindProperty(System.String)
 		/// </summary>
-		protected RMethod r_RFindProperty_String;
+		protected RMethod r_FindProperty_String;
 		public virtual RMethod RFindProperty_String
 		{
 			get
 			{
-				if(r_RFindProperty_String == null)
+				if(r_FindProperty_String == null)
 				{
-					r_RFindProperty_String = new(this, "FindProperty", 0, typeof(System.String));
-					r_RFindProperty_String.SetBelong(this.instance);
+					r_FindProperty_String = new(this, "FindProperty", 0, typeof(System.String));
+					r_FindProperty_String.SetBelong(this.instance);
 				}
-				return r_RFindProperty_String;
+				return r_FindProperty_String;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Equals(System.Object)
 		/// </summary>
-		protected RMethod r_REquals_Object;
+		protected RMethod r_Equals_Object;
 		public virtual RMethod REquals_Object
 		{
 			get
 			{
-				if(r_REquals_Object == null)
+				if(r_Equals_Object == null)
 				{
-					r_REquals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_REquals_Object.SetBelong(this.instance);
+					r_Equals_Object = new(this, "Equals", 0, typeof(System.Object));
+					r_Equals_Object.SetBelong(this.instance);
 				}
-				return r_REquals_Object;
+				return r_Equals_Object;
 			}
 		}
 
 		/// <summary>
 		/// Void Finalize()
 		/// </summary>
-		protected RMethod r_RFinalize;
+		protected RMethod r_Finalize;
 		public virtual RMethod RFinalize
 		{
 			get
 			{
-				if(r_RFinalize == null)
+				if(r_Finalize == null)
 				{
-					r_RFinalize = new(this, "Finalize", 0);
-					r_RFinalize.SetBelong(this.instance);
+					r_Finalize = new(this, "Finalize", 0);
+					r_Finalize.SetBelong(this.instance);
 				}
-				return r_RFinalize;
+				return r_Finalize;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetHashCode()
 		/// </summary>
-		protected RMethod r_RGetHashCode;
+		protected RMethod r_GetHashCode;
 		public virtual RMethod RGetHashCode
 		{
 			get
 			{
-				if(r_RGetHashCode == null)
+				if(r_GetHashCode == null)
 				{
-					r_RGetHashCode = new(this, "GetHashCode", 0);
-					r_RGetHashCode.SetBelong(this.instance);
+					r_GetHashCode = new(this, "GetHashCode", 0);
+					r_GetHashCode.SetBelong(this.instance);
 				}
-				return r_RGetHashCode;
+				return r_GetHashCode;
 			}
 		}
 
 		/// <summary>
 		/// System.Type GetType()
 		/// </summary>
-		protected RMethod r_RGetType;
+		protected RMethod r_GetType;
 		public virtual RMethod RGetType
 		{
 			get
 			{
-				if(r_RGetType == null)
+				if(r_GetType == null)
 				{
-					r_RGetType = new(this, "GetType", 0);
-					r_RGetType.SetBelong(this.instance);
+					r_GetType = new(this, "GetType", 0);
+					r_GetType.SetBelong(this.instance);
 				}
-				return r_RGetType;
+				return r_GetType;
 			}
 		}
 
 		/// <summary>
 		/// System.Object MemberwiseClone()
 		/// </summary>
-		protected RMethod r_RMemberwiseClone;
+		protected RMethod r_MemberwiseClone;
 		public virtual RMethod RMemberwiseClone
 		{
 			get
 			{
-				if(r_RMemberwiseClone == null)
+				if(r_MemberwiseClone == null)
 				{
-					r_RMemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_RMemberwiseClone.SetBelong(this.instance);
+					r_MemberwiseClone = new(this, "MemberwiseClone", 0);
+					r_MemberwiseClone.SetBelong(this.instance);
 				}
-				return r_RMemberwiseClone;
+				return r_MemberwiseClone;
 			}
 		}
 
 		/// <summary>
 		/// System.String ToString()
 		/// </summary>
-		protected RMethod r_RToString;
+		protected RMethod r_ToString;
 		public virtual RMethod RToString
 		{
 			get
 			{
-				if(r_RToString == null)
+				if(r_ToString == null)
 				{
-					r_RToString = new(this, "ToString", 0);
-					r_RToString.SetBelong(this.instance);
+					r_ToString = new(this, "ToString", 0);
+					r_ToString.SetBelong(this.instance);
 				}
-				return r_RToString;
+				return r_ToString;
 			}
 		}
 

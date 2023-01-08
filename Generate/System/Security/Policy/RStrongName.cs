@@ -115,204 +115,204 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
 		/// <summary>
 		/// System.Object Copy()
 		/// </summary>
-		protected RMethod r_RCopy;
+		protected RMethod r_Copy;
 		public virtual RMethod RCopy
 		{
 			get
 			{
-				if(r_RCopy == null)
+				if(r_Copy == null)
 				{
-					r_RCopy = new(this, "Copy", 0);
-					r_RCopy.SetBelong(this.instance);
+					r_Copy = new(this, "Copy", 0);
+					r_Copy.SetBelong(this.instance);
 				}
-				return r_RCopy;
+				return r_Copy;
 			}
 		}
 
 		/// <summary>
 		/// System.Security.IPermission CreateIdentityPermission(System.Security.Policy.Evidence)
 		/// </summary>
-		protected RMethod r_RCreateIdentityPermission_Evidence;
+		protected RMethod r_CreateIdentityPermission_Evidence;
 		public virtual RMethod RCreateIdentityPermission_Evidence
 		{
 			get
 			{
-				if(r_RCreateIdentityPermission_Evidence == null)
+				if(r_CreateIdentityPermission_Evidence == null)
 				{
-					r_RCreateIdentityPermission_Evidence = new(this, "CreateIdentityPermission", 0, typeof(System.Security.Policy.Evidence));
-					r_RCreateIdentityPermission_Evidence.SetBelong(this.instance);
+					r_CreateIdentityPermission_Evidence = new(this, "CreateIdentityPermission", 0, typeof(System.Security.Policy.Evidence));
+					r_CreateIdentityPermission_Evidence.SetBelong(this.instance);
 				}
-				return r_RCreateIdentityPermission_Evidence;
+				return r_CreateIdentityPermission_Evidence;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Equals(System.Object)
 		/// </summary>
-		protected RMethod r_REquals_Object;
+		protected RMethod r_Equals_Object;
 		public virtual RMethod REquals_Object
 		{
 			get
 			{
-				if(r_REquals_Object == null)
+				if(r_Equals_Object == null)
 				{
-					r_REquals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_REquals_Object.SetBelong(this.instance);
+					r_Equals_Object = new(this, "Equals", 0, typeof(System.Object));
+					r_Equals_Object.SetBelong(this.instance);
 				}
-				return r_REquals_Object;
+				return r_Equals_Object;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetHashCode()
 		/// </summary>
-		protected RMethod r_RGetHashCode;
+		protected RMethod r_GetHashCode;
 		public virtual RMethod RGetHashCode
 		{
 			get
 			{
-				if(r_RGetHashCode == null)
+				if(r_GetHashCode == null)
 				{
-					r_RGetHashCode = new(this, "GetHashCode", 0);
-					r_RGetHashCode.SetBelong(this.instance);
+					r_GetHashCode = new(this, "GetHashCode", 0);
+					r_GetHashCode.SetBelong(this.instance);
 				}
-				return r_RGetHashCode;
+				return r_GetHashCode;
 			}
 		}
 
 		/// <summary>
 		/// System.String ToString()
 		/// </summary>
-		protected RMethod r_RToString;
+		protected RMethod r_ToString;
 		public virtual RMethod RToString
 		{
 			get
 			{
-				if(r_RToString == null)
+				if(r_ToString == null)
 				{
-					r_RToString = new(this, "ToString", 0);
-					r_RToString.SetBelong(this.instance);
+					r_ToString = new(this, "ToString", 0);
+					r_ToString.SetBelong(this.instance);
 				}
-				return r_RToString;
+				return r_ToString;
 			}
 		}
 
 		/// <summary>
 		/// Int32 System.Security.Policy.IBuiltInEvidence.GetRequiredSize(Boolean)
 		/// </summary>
-		protected RMethod r_RSystem__0__Security__0__Policy__0__IBuiltInEvidence__0__GetRequiredSize_Boolean;
-		public virtual RMethod RSystem__0__Security__0__Policy__0__IBuiltInEvidence__0__GetRequiredSize_Boolean
+		protected RMethod r_System__2__Security__2__Policy__2__IBuiltInEvidence__2__GetRequiredSize_Boolean;
+		public virtual RMethod RSystem__2__Security__2__Policy__2__IBuiltInEvidence__2__GetRequiredSize_Boolean
 		{
 			get
 			{
-				if(r_RSystem__0__Security__0__Policy__0__IBuiltInEvidence__0__GetRequiredSize_Boolean == null)
+				if(r_System__2__Security__2__Policy__2__IBuiltInEvidence__2__GetRequiredSize_Boolean == null)
 				{
-					r_RSystem__0__Security__0__Policy__0__IBuiltInEvidence__0__GetRequiredSize_Boolean = new(this, "System.Security.Policy.IBuiltInEvidence.GetRequiredSize", 0, typeof(System.Boolean));
-					r_RSystem__0__Security__0__Policy__0__IBuiltInEvidence__0__GetRequiredSize_Boolean.SetBelong(this.instance);
+					r_System__2__Security__2__Policy__2__IBuiltInEvidence__2__GetRequiredSize_Boolean = new(this, "System.Security.Policy.IBuiltInEvidence.GetRequiredSize", 0, typeof(System.Boolean));
+					r_System__2__Security__2__Policy__2__IBuiltInEvidence__2__GetRequiredSize_Boolean.SetBelong(this.instance);
 				}
-				return r_RSystem__0__Security__0__Policy__0__IBuiltInEvidence__0__GetRequiredSize_Boolean;
+				return r_System__2__Security__2__Policy__2__IBuiltInEvidence__2__GetRequiredSize_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Int32 System.Security.Policy.IBuiltInEvidence.InitFromBuffer(Char[], Int32)
 		/// </summary>
-		protected RMethod r_RSystem__0__Security__0__Policy__0__IBuiltInEvidence__0__InitFromBuffer_CharArray_Int32;
-		public virtual RMethod RSystem__0__Security__0__Policy__0__IBuiltInEvidence__0__InitFromBuffer_CharArray_Int32
+		protected RMethod r_System__2__Security__2__Policy__2__IBuiltInEvidence__2__InitFromBuffer_CharArray_Int32;
+		public virtual RMethod RSystem__2__Security__2__Policy__2__IBuiltInEvidence__2__InitFromBuffer_CharArray_Int32
 		{
 			get
 			{
-				if(r_RSystem__0__Security__0__Policy__0__IBuiltInEvidence__0__InitFromBuffer_CharArray_Int32 == null)
+				if(r_System__2__Security__2__Policy__2__IBuiltInEvidence__2__InitFromBuffer_CharArray_Int32 == null)
 				{
-					r_RSystem__0__Security__0__Policy__0__IBuiltInEvidence__0__InitFromBuffer_CharArray_Int32 = new(this, "System.Security.Policy.IBuiltInEvidence.InitFromBuffer", 0, typeof(System.Char).MakeArrayType(), typeof(System.Int32));
-					r_RSystem__0__Security__0__Policy__0__IBuiltInEvidence__0__InitFromBuffer_CharArray_Int32.SetBelong(this.instance);
+					r_System__2__Security__2__Policy__2__IBuiltInEvidence__2__InitFromBuffer_CharArray_Int32 = new(this, "System.Security.Policy.IBuiltInEvidence.InitFromBuffer", 0, typeof(System.Char).MakeArrayType(), typeof(System.Int32));
+					r_System__2__Security__2__Policy__2__IBuiltInEvidence__2__InitFromBuffer_CharArray_Int32.SetBelong(this.instance);
 				}
-				return r_RSystem__0__Security__0__Policy__0__IBuiltInEvidence__0__InitFromBuffer_CharArray_Int32;
+				return r_System__2__Security__2__Policy__2__IBuiltInEvidence__2__InitFromBuffer_CharArray_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Int32 System.Security.Policy.IBuiltInEvidence.OutputToBuffer(Char[], Int32, Boolean)
 		/// </summary>
-		protected RMethod r_RSystem__0__Security__0__Policy__0__IBuiltInEvidence__0__OutputToBuffer_CharArray_Int32_Boolean;
-		public virtual RMethod RSystem__0__Security__0__Policy__0__IBuiltInEvidence__0__OutputToBuffer_CharArray_Int32_Boolean
+		protected RMethod r_System__2__Security__2__Policy__2__IBuiltInEvidence__2__OutputToBuffer_CharArray_Int32_Boolean;
+		public virtual RMethod RSystem__2__Security__2__Policy__2__IBuiltInEvidence__2__OutputToBuffer_CharArray_Int32_Boolean
 		{
 			get
 			{
-				if(r_RSystem__0__Security__0__Policy__0__IBuiltInEvidence__0__OutputToBuffer_CharArray_Int32_Boolean == null)
+				if(r_System__2__Security__2__Policy__2__IBuiltInEvidence__2__OutputToBuffer_CharArray_Int32_Boolean == null)
 				{
-					r_RSystem__0__Security__0__Policy__0__IBuiltInEvidence__0__OutputToBuffer_CharArray_Int32_Boolean = new(this, "System.Security.Policy.IBuiltInEvidence.OutputToBuffer", 0, typeof(System.Char).MakeArrayType(), typeof(System.Int32), typeof(System.Boolean));
-					r_RSystem__0__Security__0__Policy__0__IBuiltInEvidence__0__OutputToBuffer_CharArray_Int32_Boolean.SetBelong(this.instance);
+					r_System__2__Security__2__Policy__2__IBuiltInEvidence__2__OutputToBuffer_CharArray_Int32_Boolean = new(this, "System.Security.Policy.IBuiltInEvidence.OutputToBuffer", 0, typeof(System.Char).MakeArrayType(), typeof(System.Int32), typeof(System.Boolean));
+					r_System__2__Security__2__Policy__2__IBuiltInEvidence__2__OutputToBuffer_CharArray_Int32_Boolean.SetBelong(this.instance);
 				}
-				return r_RSystem__0__Security__0__Policy__0__IBuiltInEvidence__0__OutputToBuffer_CharArray_Int32_Boolean;
+				return r_System__2__Security__2__Policy__2__IBuiltInEvidence__2__OutputToBuffer_CharArray_Int32_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// System.Security.Policy.EvidenceBase Clone()
 		/// </summary>
-		protected RMethod r_RClone;
+		protected RMethod r_Clone;
 		public virtual RMethod RClone
 		{
 			get
 			{
-				if(r_RClone == null)
+				if(r_Clone == null)
 				{
-					r_RClone = new(this, "Clone", 0);
-					r_RClone.SetBelong(this.instance);
+					r_Clone = new(this, "Clone", 0);
+					r_Clone.SetBelong(this.instance);
 				}
-				return r_RClone;
+				return r_Clone;
 			}
 		}
 
 		/// <summary>
 		/// Void Finalize()
 		/// </summary>
-		protected RMethod r_RFinalize;
+		protected RMethod r_Finalize;
 		public virtual RMethod RFinalize
 		{
 			get
 			{
-				if(r_RFinalize == null)
+				if(r_Finalize == null)
 				{
-					r_RFinalize = new(this, "Finalize", 0);
-					r_RFinalize.SetBelong(this.instance);
+					r_Finalize = new(this, "Finalize", 0);
+					r_Finalize.SetBelong(this.instance);
 				}
-				return r_RFinalize;
+				return r_Finalize;
 			}
 		}
 
 		/// <summary>
 		/// System.Type GetType()
 		/// </summary>
-		protected RMethod r_RGetType;
+		protected RMethod r_GetType;
 		public virtual RMethod RGetType
 		{
 			get
 			{
-				if(r_RGetType == null)
+				if(r_GetType == null)
 				{
-					r_RGetType = new(this, "GetType", 0);
-					r_RGetType.SetBelong(this.instance);
+					r_GetType = new(this, "GetType", 0);
+					r_GetType.SetBelong(this.instance);
 				}
-				return r_RGetType;
+				return r_GetType;
 			}
 		}
 
 		/// <summary>
 		/// System.Object MemberwiseClone()
 		/// </summary>
-		protected RMethod r_RMemberwiseClone;
+		protected RMethod r_MemberwiseClone;
 		public virtual RMethod RMemberwiseClone
 		{
 			get
 			{
-				if(r_RMemberwiseClone == null)
+				if(r_MemberwiseClone == null)
 				{
-					r_RMemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_RMemberwiseClone.SetBelong(this.instance);
+					r_MemberwiseClone = new(this, "MemberwiseClone", 0);
+					r_MemberwiseClone.SetBelong(this.instance);
 				}
-				return r_RMemberwiseClone;
+				return r_MemberwiseClone;
 			}
 		}
 
@@ -389,34 +389,34 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
         }
 
 
-        public virtual System.Int32 System__0__Security__0__Policy__0__IBuiltInEvidence__0__GetRequiredSize(System.Boolean  @verbose)
+        public virtual System.Int32 System__2__Security__2__Policy__2__IBuiltInEvidence__2__GetRequiredSize(System.Boolean  @verbose)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@verbose};
-            var ___result = RSystem__0__Security__0__Policy__0__IBuiltInEvidence__0__GetRequiredSize_Boolean.Invoke(___genericsType, ___parameters);
+            var ___result = RSystem__2__Security__2__Policy__2__IBuiltInEvidence__2__GetRequiredSize_Boolean.Invoke(___genericsType, ___parameters);
 
             return (System.Int32)___result;
         }
 
 
-        public virtual System.Int32 System__0__Security__0__Policy__0__IBuiltInEvidence__0__InitFromBuffer(System.Char[]  @buffer, System.Int32  @position)
+        public virtual System.Int32 System__2__Security__2__Policy__2__IBuiltInEvidence__2__InitFromBuffer(System.Char[]  @buffer, System.Int32  @position)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@buffer, @position};
-            var ___result = RSystem__0__Security__0__Policy__0__IBuiltInEvidence__0__InitFromBuffer_CharArray_Int32.Invoke(___genericsType, ___parameters);
+            var ___result = RSystem__2__Security__2__Policy__2__IBuiltInEvidence__2__InitFromBuffer_CharArray_Int32.Invoke(___genericsType, ___parameters);
 
             return (System.Int32)___result;
         }
 
 
-        public virtual System.Int32 System__0__Security__0__Policy__0__IBuiltInEvidence__0__OutputToBuffer(System.Char[]  @buffer, System.Int32  @position, System.Boolean  @verbose)
+        public virtual System.Int32 System__2__Security__2__Policy__2__IBuiltInEvidence__2__OutputToBuffer(System.Char[]  @buffer, System.Int32  @position, System.Boolean  @verbose)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@buffer, @position, @verbose};
-            var ___result = RSystem__0__Security__0__Policy__0__IBuiltInEvidence__0__OutputToBuffer_CharArray_Int32_Boolean.Invoke(___genericsType, ___parameters);
+            var ___result = RSystem__2__Security__2__Policy__2__IBuiltInEvidence__2__OutputToBuffer_CharArray_Int32_Boolean.Invoke(___genericsType, ___parameters);
 
             return (System.Int32)___result;
         }

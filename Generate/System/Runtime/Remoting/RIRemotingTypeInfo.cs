@@ -30,17 +30,17 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting
 		/// <summary>
 		/// Boolean CanCastTo(System.Type, System.Object)
 		/// </summary>
-		protected RMethod r_RCanCastTo_Type_Object;
+		protected RMethod r_CanCastTo_Type_Object;
 		public virtual RMethod RCanCastTo_Type_Object
 		{
 			get
 			{
-				if(r_RCanCastTo_Type_Object == null)
+				if(r_CanCastTo_Type_Object == null)
 				{
-					r_RCanCastTo_Type_Object = new(this, "CanCastTo", 0, typeof(System.Type), typeof(System.Object));
-					r_RCanCastTo_Type_Object.SetBelong(this.instance);
+					r_CanCastTo_Type_Object = new(this, "CanCastTo", 0, typeof(System.Type), typeof(System.Object));
+					r_CanCastTo_Type_Object.SetBelong(this.instance);
 				}
-				return r_RCanCastTo_Type_Object;
+				return r_CanCastTo_Type_Object;
 			}
 		}
 

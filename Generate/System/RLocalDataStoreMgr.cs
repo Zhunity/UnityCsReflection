@@ -149,255 +149,255 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.LocalDataStoreHolder CreateLocalDataStore()
 		/// </summary>
-		protected RMethod r_RCreateLocalDataStore;
+		protected RMethod r_CreateLocalDataStore;
 		public virtual RMethod RCreateLocalDataStore
 		{
 			get
 			{
-				if(r_RCreateLocalDataStore == null)
+				if(r_CreateLocalDataStore == null)
 				{
-					r_RCreateLocalDataStore = new(this, "CreateLocalDataStore", 0);
-					r_RCreateLocalDataStore.SetBelong(this.instance);
+					r_CreateLocalDataStore = new(this, "CreateLocalDataStore", 0);
+					r_CreateLocalDataStore.SetBelong(this.instance);
 				}
-				return r_RCreateLocalDataStore;
+				return r_CreateLocalDataStore;
 			}
 		}
 
 		/// <summary>
 		/// Void DeleteLocalDataStore(System.LocalDataStore)
 		/// </summary>
-		protected RMethod r_RDeleteLocalDataStore_LocalDataStore;
+		protected RMethod r_DeleteLocalDataStore_LocalDataStore;
 		public virtual RMethod RDeleteLocalDataStore_LocalDataStore
 		{
 			get
 			{
-				if(r_RDeleteLocalDataStore_LocalDataStore == null)
+				if(r_DeleteLocalDataStore_LocalDataStore == null)
 				{
-					r_RDeleteLocalDataStore_LocalDataStore = new(this, "DeleteLocalDataStore", 0,  ReleactionUtils.GetType("System.LocalDataStore"));
-					r_RDeleteLocalDataStore_LocalDataStore.SetBelong(this.instance);
+					r_DeleteLocalDataStore_LocalDataStore = new(this, "DeleteLocalDataStore", 0,  ReleactionUtils.GetType("System.LocalDataStore"));
+					r_DeleteLocalDataStore_LocalDataStore.SetBelong(this.instance);
 				}
-				return r_RDeleteLocalDataStore_LocalDataStore;
+				return r_DeleteLocalDataStore_LocalDataStore;
 			}
 		}
 
 		/// <summary>
 		/// System.LocalDataStoreSlot AllocateDataSlot()
 		/// </summary>
-		protected RMethod r_RAllocateDataSlot;
+		protected RMethod r_AllocateDataSlot;
 		public virtual RMethod RAllocateDataSlot
 		{
 			get
 			{
-				if(r_RAllocateDataSlot == null)
+				if(r_AllocateDataSlot == null)
 				{
-					r_RAllocateDataSlot = new(this, "AllocateDataSlot", 0);
-					r_RAllocateDataSlot.SetBelong(this.instance);
+					r_AllocateDataSlot = new(this, "AllocateDataSlot", 0);
+					r_AllocateDataSlot.SetBelong(this.instance);
 				}
-				return r_RAllocateDataSlot;
+				return r_AllocateDataSlot;
 			}
 		}
 
 		/// <summary>
 		/// System.LocalDataStoreSlot AllocateNamedDataSlot(System.String)
 		/// </summary>
-		protected RMethod r_RAllocateNamedDataSlot_String;
+		protected RMethod r_AllocateNamedDataSlot_String;
 		public virtual RMethod RAllocateNamedDataSlot_String
 		{
 			get
 			{
-				if(r_RAllocateNamedDataSlot_String == null)
+				if(r_AllocateNamedDataSlot_String == null)
 				{
-					r_RAllocateNamedDataSlot_String = new(this, "AllocateNamedDataSlot", 0, typeof(System.String));
-					r_RAllocateNamedDataSlot_String.SetBelong(this.instance);
+					r_AllocateNamedDataSlot_String = new(this, "AllocateNamedDataSlot", 0, typeof(System.String));
+					r_AllocateNamedDataSlot_String.SetBelong(this.instance);
 				}
-				return r_RAllocateNamedDataSlot_String;
+				return r_AllocateNamedDataSlot_String;
 			}
 		}
 
 		/// <summary>
 		/// System.LocalDataStoreSlot GetNamedDataSlot(System.String)
 		/// </summary>
-		protected RMethod r_RGetNamedDataSlot_String;
+		protected RMethod r_GetNamedDataSlot_String;
 		public virtual RMethod RGetNamedDataSlot_String
 		{
 			get
 			{
-				if(r_RGetNamedDataSlot_String == null)
+				if(r_GetNamedDataSlot_String == null)
 				{
-					r_RGetNamedDataSlot_String = new(this, "GetNamedDataSlot", 0, typeof(System.String));
-					r_RGetNamedDataSlot_String.SetBelong(this.instance);
+					r_GetNamedDataSlot_String = new(this, "GetNamedDataSlot", 0, typeof(System.String));
+					r_GetNamedDataSlot_String.SetBelong(this.instance);
 				}
-				return r_RGetNamedDataSlot_String;
+				return r_GetNamedDataSlot_String;
 			}
 		}
 
 		/// <summary>
 		/// Void FreeNamedDataSlot(System.String)
 		/// </summary>
-		protected RMethod r_RFreeNamedDataSlot_String;
+		protected RMethod r_FreeNamedDataSlot_String;
 		public virtual RMethod RFreeNamedDataSlot_String
 		{
 			get
 			{
-				if(r_RFreeNamedDataSlot_String == null)
+				if(r_FreeNamedDataSlot_String == null)
 				{
-					r_RFreeNamedDataSlot_String = new(this, "FreeNamedDataSlot", 0, typeof(System.String));
-					r_RFreeNamedDataSlot_String.SetBelong(this.instance);
+					r_FreeNamedDataSlot_String = new(this, "FreeNamedDataSlot", 0, typeof(System.String));
+					r_FreeNamedDataSlot_String.SetBelong(this.instance);
 				}
-				return r_RFreeNamedDataSlot_String;
+				return r_FreeNamedDataSlot_String;
 			}
 		}
 
 		/// <summary>
 		/// Void FreeDataSlot(Int32, Int64)
 		/// </summary>
-		protected RMethod r_RFreeDataSlot_Int32_Int64;
+		protected RMethod r_FreeDataSlot_Int32_Int64;
 		public virtual RMethod RFreeDataSlot_Int32_Int64
 		{
 			get
 			{
-				if(r_RFreeDataSlot_Int32_Int64 == null)
+				if(r_FreeDataSlot_Int32_Int64 == null)
 				{
-					r_RFreeDataSlot_Int32_Int64 = new(this, "FreeDataSlot", 0, typeof(System.Int32), typeof(System.Int64));
-					r_RFreeDataSlot_Int32_Int64.SetBelong(this.instance);
+					r_FreeDataSlot_Int32_Int64 = new(this, "FreeDataSlot", 0, typeof(System.Int32), typeof(System.Int64));
+					r_FreeDataSlot_Int32_Int64.SetBelong(this.instance);
 				}
-				return r_RFreeDataSlot_Int32_Int64;
+				return r_FreeDataSlot_Int32_Int64;
 			}
 		}
 
 		/// <summary>
 		/// Void ValidateSlot(System.LocalDataStoreSlot)
 		/// </summary>
-		protected RMethod r_RValidateSlot_LocalDataStoreSlot;
+		protected RMethod r_ValidateSlot_LocalDataStoreSlot;
 		public virtual RMethod RValidateSlot_LocalDataStoreSlot
 		{
 			get
 			{
-				if(r_RValidateSlot_LocalDataStoreSlot == null)
+				if(r_ValidateSlot_LocalDataStoreSlot == null)
 				{
-					r_RValidateSlot_LocalDataStoreSlot = new(this, "ValidateSlot", 0, typeof(System.LocalDataStoreSlot));
-					r_RValidateSlot_LocalDataStoreSlot.SetBelong(this.instance);
+					r_ValidateSlot_LocalDataStoreSlot = new(this, "ValidateSlot", 0, typeof(System.LocalDataStoreSlot));
+					r_ValidateSlot_LocalDataStoreSlot.SetBelong(this.instance);
 				}
-				return r_RValidateSlot_LocalDataStoreSlot;
+				return r_ValidateSlot_LocalDataStoreSlot;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetSlotTableLength()
 		/// </summary>
-		protected RMethod r_RGetSlotTableLength;
+		protected RMethod r_GetSlotTableLength;
 		public virtual RMethod RGetSlotTableLength
 		{
 			get
 			{
-				if(r_RGetSlotTableLength == null)
+				if(r_GetSlotTableLength == null)
 				{
-					r_RGetSlotTableLength = new(this, "GetSlotTableLength", 0);
-					r_RGetSlotTableLength.SetBelong(this.instance);
+					r_GetSlotTableLength = new(this, "GetSlotTableLength", 0);
+					r_GetSlotTableLength.SetBelong(this.instance);
 				}
-				return r_RGetSlotTableLength;
+				return r_GetSlotTableLength;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Equals(System.Object)
 		/// </summary>
-		protected RMethod r_REquals_Object;
+		protected RMethod r_Equals_Object;
 		public virtual RMethod REquals_Object
 		{
 			get
 			{
-				if(r_REquals_Object == null)
+				if(r_Equals_Object == null)
 				{
-					r_REquals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_REquals_Object.SetBelong(this.instance);
+					r_Equals_Object = new(this, "Equals", 0, typeof(System.Object));
+					r_Equals_Object.SetBelong(this.instance);
 				}
-				return r_REquals_Object;
+				return r_Equals_Object;
 			}
 		}
 
 		/// <summary>
 		/// Void Finalize()
 		/// </summary>
-		protected RMethod r_RFinalize;
+		protected RMethod r_Finalize;
 		public virtual RMethod RFinalize
 		{
 			get
 			{
-				if(r_RFinalize == null)
+				if(r_Finalize == null)
 				{
-					r_RFinalize = new(this, "Finalize", 0);
-					r_RFinalize.SetBelong(this.instance);
+					r_Finalize = new(this, "Finalize", 0);
+					r_Finalize.SetBelong(this.instance);
 				}
-				return r_RFinalize;
+				return r_Finalize;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetHashCode()
 		/// </summary>
-		protected RMethod r_RGetHashCode;
+		protected RMethod r_GetHashCode;
 		public virtual RMethod RGetHashCode
 		{
 			get
 			{
-				if(r_RGetHashCode == null)
+				if(r_GetHashCode == null)
 				{
-					r_RGetHashCode = new(this, "GetHashCode", 0);
-					r_RGetHashCode.SetBelong(this.instance);
+					r_GetHashCode = new(this, "GetHashCode", 0);
+					r_GetHashCode.SetBelong(this.instance);
 				}
-				return r_RGetHashCode;
+				return r_GetHashCode;
 			}
 		}
 
 		/// <summary>
 		/// System.Type GetType()
 		/// </summary>
-		protected RMethod r_RGetType;
+		protected RMethod r_GetType;
 		public virtual RMethod RGetType
 		{
 			get
 			{
-				if(r_RGetType == null)
+				if(r_GetType == null)
 				{
-					r_RGetType = new(this, "GetType", 0);
-					r_RGetType.SetBelong(this.instance);
+					r_GetType = new(this, "GetType", 0);
+					r_GetType.SetBelong(this.instance);
 				}
-				return r_RGetType;
+				return r_GetType;
 			}
 		}
 
 		/// <summary>
 		/// System.Object MemberwiseClone()
 		/// </summary>
-		protected RMethod r_RMemberwiseClone;
+		protected RMethod r_MemberwiseClone;
 		public virtual RMethod RMemberwiseClone
 		{
 			get
 			{
-				if(r_RMemberwiseClone == null)
+				if(r_MemberwiseClone == null)
 				{
-					r_RMemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_RMemberwiseClone.SetBelong(this.instance);
+					r_MemberwiseClone = new(this, "MemberwiseClone", 0);
+					r_MemberwiseClone.SetBelong(this.instance);
 				}
-				return r_RMemberwiseClone;
+				return r_MemberwiseClone;
 			}
 		}
 
 		/// <summary>
 		/// System.String ToString()
 		/// </summary>
-		protected RMethod r_RToString;
+		protected RMethod r_ToString;
 		public virtual RMethod RToString
 		{
 			get
 			{
-				if(r_RToString == null)
+				if(r_ToString == null)
 				{
-					r_RToString = new(this, "ToString", 0);
-					r_RToString.SetBelong(this.instance);
+					r_ToString = new(this, "ToString", 0);
+					r_ToString.SetBelong(this.instance);
 				}
-				return r_RToString;
+				return r_ToString;
 			}
 		}
 

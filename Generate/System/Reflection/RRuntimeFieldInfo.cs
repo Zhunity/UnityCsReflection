@@ -133,7 +133,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// System.RuntimeType ReflectedTypeInternal
 		/// </summary>
 		protected RSystem.RRuntimeType r_ReflectedTypeInternal;
-		public virtual RSystem.RRuntimeType ReflectedTypeInternal
+		public virtual RSystem.RRuntimeType RReflectedTypeInternal
 		{
 			get
 			{
@@ -201,7 +201,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// System.Type ReflectedType
 		/// </summary>
 		protected RSystem.RType r_ReflectedType;
-		public virtual RSystem.RType ReflectedType
+		public virtual RSystem.RType RReflectedType
 		{
 			get
 			{
@@ -557,680 +557,680 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.RuntimeType GetDeclaringTypeInternal()
 		/// </summary>
-		protected RMethod r_RGetDeclaringTypeInternal;
+		protected RMethod r_GetDeclaringTypeInternal;
 		public virtual RMethod RGetDeclaringTypeInternal
 		{
 			get
 			{
-				if(r_RGetDeclaringTypeInternal == null)
+				if(r_GetDeclaringTypeInternal == null)
 				{
-					r_RGetDeclaringTypeInternal = new(this, "GetDeclaringTypeInternal", 0);
-					r_RGetDeclaringTypeInternal.SetBelong(this.instance);
+					r_GetDeclaringTypeInternal = new(this, "GetDeclaringTypeInternal", 0);
+					r_GetDeclaringTypeInternal.SetBelong(this.instance);
 				}
-				return r_RGetDeclaringTypeInternal;
+				return r_GetDeclaringTypeInternal;
 			}
 		}
 
 		/// <summary>
 		/// System.Reflection.RuntimeModule GetRuntimeModule()
 		/// </summary>
-		protected RMethod r_RGetRuntimeModule;
+		protected RMethod r_GetRuntimeModule;
 		public virtual RMethod RGetRuntimeModule
 		{
 			get
 			{
-				if(r_RGetRuntimeModule == null)
+				if(r_GetRuntimeModule == null)
 				{
-					r_RGetRuntimeModule = new(this, "GetRuntimeModule", 0);
-					r_RGetRuntimeModule.SetBelong(this.instance);
+					r_GetRuntimeModule = new(this, "GetRuntimeModule", 0);
+					r_GetRuntimeModule.SetBelong(this.instance);
 				}
-				return r_RGetRuntimeModule;
+				return r_GetRuntimeModule;
 			}
 		}
 
 		/// <summary>
 		/// Void GetObjectData(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)
 		/// </summary>
-		protected RMethod r_RGetObjectData_SerializationInfo_StreamingContext;
+		protected RMethod r_GetObjectData_SerializationInfo_StreamingContext;
 		public virtual RMethod RGetObjectData_SerializationInfo_StreamingContext
 		{
 			get
 			{
-				if(r_RGetObjectData_SerializationInfo_StreamingContext == null)
+				if(r_GetObjectData_SerializationInfo_StreamingContext == null)
 				{
-					r_RGetObjectData_SerializationInfo_StreamingContext = new(this, "GetObjectData", 0, typeof(System.Runtime.Serialization.SerializationInfo), typeof(System.Runtime.Serialization.StreamingContext));
-					r_RGetObjectData_SerializationInfo_StreamingContext.SetBelong(this.instance);
+					r_GetObjectData_SerializationInfo_StreamingContext = new(this, "GetObjectData", 0, typeof(System.Runtime.Serialization.SerializationInfo), typeof(System.Runtime.Serialization.StreamingContext));
+					r_GetObjectData_SerializationInfo_StreamingContext.SetBelong(this.instance);
 				}
-				return r_RGetObjectData_SerializationInfo_StreamingContext;
+				return r_GetObjectData_SerializationInfo_StreamingContext;
 			}
 		}
 
 		/// <summary>
 		/// System.Object UnsafeGetValue(System.Object)
 		/// </summary>
-		protected RMethod r_RUnsafeGetValue_Object;
+		protected RMethod r_UnsafeGetValue_Object;
 		public virtual RMethod RUnsafeGetValue_Object
 		{
 			get
 			{
-				if(r_RUnsafeGetValue_Object == null)
+				if(r_UnsafeGetValue_Object == null)
 				{
-					r_RUnsafeGetValue_Object = new(this, "UnsafeGetValue", 0, typeof(System.Object));
-					r_RUnsafeGetValue_Object.SetBelong(this.instance);
+					r_UnsafeGetValue_Object = new(this, "UnsafeGetValue", 0, typeof(System.Object));
+					r_UnsafeGetValue_Object.SetBelong(this.instance);
 				}
-				return r_RUnsafeGetValue_Object;
+				return r_UnsafeGetValue_Object;
 			}
 		}
 
 		/// <summary>
 		/// Void CheckConsistency(System.Object)
 		/// </summary>
-		protected RMethod r_RCheckConsistency_Object;
+		protected RMethod r_CheckConsistency_Object;
 		public virtual RMethod RCheckConsistency_Object
 		{
 			get
 			{
-				if(r_RCheckConsistency_Object == null)
+				if(r_CheckConsistency_Object == null)
 				{
-					r_RCheckConsistency_Object = new(this, "CheckConsistency", 0, typeof(System.Object));
-					r_RCheckConsistency_Object.SetBelong(this.instance);
+					r_CheckConsistency_Object = new(this, "CheckConsistency", 0, typeof(System.Object));
+					r_CheckConsistency_Object.SetBelong(this.instance);
 				}
-				return r_RCheckConsistency_Object;
+				return r_CheckConsistency_Object;
 			}
 		}
 
 		/// <summary>
 		/// Void UnsafeSetValue(System.Object, System.Object, System.Reflection.BindingFlags, System.Reflection.Binder, System.Globalization.CultureInfo)
 		/// </summary>
-		protected RMethod r_RUnsafeSetValue_Object_Object_BindingFlags_Binder_CultureInfo;
+		protected RMethod r_UnsafeSetValue_Object_Object_BindingFlags_Binder_CultureInfo;
 		public virtual RMethod RUnsafeSetValue_Object_Object_BindingFlags_Binder_CultureInfo
 		{
 			get
 			{
-				if(r_RUnsafeSetValue_Object_Object_BindingFlags_Binder_CultureInfo == null)
+				if(r_UnsafeSetValue_Object_Object_BindingFlags_Binder_CultureInfo == null)
 				{
-					r_RUnsafeSetValue_Object_Object_BindingFlags_Binder_CultureInfo = new(this, "UnsafeSetValue", 0, typeof(System.Object), typeof(System.Object), typeof(System.Reflection.BindingFlags), typeof(System.Reflection.Binder), typeof(System.Globalization.CultureInfo));
-					r_RUnsafeSetValue_Object_Object_BindingFlags_Binder_CultureInfo.SetBelong(this.instance);
+					r_UnsafeSetValue_Object_Object_BindingFlags_Binder_CultureInfo = new(this, "UnsafeSetValue", 0, typeof(System.Object), typeof(System.Object), typeof(System.Reflection.BindingFlags), typeof(System.Reflection.Binder), typeof(System.Globalization.CultureInfo));
+					r_UnsafeSetValue_Object_Object_BindingFlags_Binder_CultureInfo.SetBelong(this.instance);
 				}
-				return r_RUnsafeSetValue_Object_Object_BindingFlags_Binder_CultureInfo;
+				return r_UnsafeSetValue_Object_Object_BindingFlags_Binder_CultureInfo;
 			}
 		}
 
 		/// <summary>
 		/// Void SetValueDirect(TypedReference, System.Object)
 		/// </summary>
-		protected RMethod r_RSetValueDirect_TypedReference_Object;
+		protected RMethod r_SetValueDirect_TypedReference_Object;
 		public virtual RMethod RSetValueDirect_TypedReference_Object
 		{
 			get
 			{
-				if(r_RSetValueDirect_TypedReference_Object == null)
+				if(r_SetValueDirect_TypedReference_Object == null)
 				{
-					r_RSetValueDirect_TypedReference_Object = new(this, "SetValueDirect", 0, typeof(System.TypedReference), typeof(System.Object));
-					r_RSetValueDirect_TypedReference_Object.SetBelong(this.instance);
+					r_SetValueDirect_TypedReference_Object = new(this, "SetValueDirect", 0, typeof(System.TypedReference), typeof(System.Object));
+					r_SetValueDirect_TypedReference_Object.SetBelong(this.instance);
 				}
-				return r_RSetValueDirect_TypedReference_Object;
+				return r_SetValueDirect_TypedReference_Object;
 			}
 		}
 
 		/// <summary>
 		/// System.Object GetValueDirect(TypedReference)
 		/// </summary>
-		protected RMethod r_RGetValueDirect_TypedReference;
+		protected RMethod r_GetValueDirect_TypedReference;
 		public virtual RMethod RGetValueDirect_TypedReference
 		{
 			get
 			{
-				if(r_RGetValueDirect_TypedReference == null)
+				if(r_GetValueDirect_TypedReference == null)
 				{
-					r_RGetValueDirect_TypedReference = new(this, "GetValueDirect", 0, typeof(System.TypedReference));
-					r_RGetValueDirect_TypedReference.SetBelong(this.instance);
+					r_GetValueDirect_TypedReference = new(this, "GetValueDirect", 0, typeof(System.TypedReference));
+					r_GetValueDirect_TypedReference.SetBelong(this.instance);
 				}
-				return r_RGetValueDirect_TypedReference;
+				return r_GetValueDirect_TypedReference;
 			}
 		}
 
 		/// <summary>
 		/// System.Type ResolveType()
 		/// </summary>
-		protected RMethod r_RResolveType;
+		protected RMethod r_ResolveType;
 		public virtual RMethod RResolveType
 		{
 			get
 			{
-				if(r_RResolveType == null)
+				if(r_ResolveType == null)
 				{
-					r_RResolveType = new(this, "ResolveType", 0);
-					r_RResolveType.SetBelong(this.instance);
+					r_ResolveType = new(this, "ResolveType", 0);
+					r_ResolveType.SetBelong(this.instance);
 				}
-				return r_RResolveType;
+				return r_ResolveType;
 			}
 		}
 
 		/// <summary>
 		/// System.Type GetParentType(Boolean)
 		/// </summary>
-		protected RMethod r_RGetParentType_Boolean;
+		protected RMethod r_GetParentType_Boolean;
 		public virtual RMethod RGetParentType_Boolean
 		{
 			get
 			{
-				if(r_RGetParentType_Boolean == null)
+				if(r_GetParentType_Boolean == null)
 				{
-					r_RGetParentType_Boolean = new(this, "GetParentType", 0, typeof(System.Boolean));
-					r_RGetParentType_Boolean.SetBelong(this.instance);
+					r_GetParentType_Boolean = new(this, "GetParentType", 0, typeof(System.Boolean));
+					r_GetParentType_Boolean.SetBelong(this.instance);
 				}
-				return r_RGetParentType_Boolean;
+				return r_GetParentType_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Boolean IsDefined(System.Type, Boolean)
 		/// </summary>
-		protected RMethod r_RIsDefined_Type_Boolean;
+		protected RMethod r_IsDefined_Type_Boolean;
 		public virtual RMethod RIsDefined_Type_Boolean
 		{
 			get
 			{
-				if(r_RIsDefined_Type_Boolean == null)
+				if(r_IsDefined_Type_Boolean == null)
 				{
-					r_RIsDefined_Type_Boolean = new(this, "IsDefined", 0, typeof(System.Type), typeof(System.Boolean));
-					r_RIsDefined_Type_Boolean.SetBelong(this.instance);
+					r_IsDefined_Type_Boolean = new(this, "IsDefined", 0, typeof(System.Type), typeof(System.Boolean));
+					r_IsDefined_Type_Boolean.SetBelong(this.instance);
 				}
-				return r_RIsDefined_Type_Boolean;
+				return r_IsDefined_Type_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// System.Object[] GetCustomAttributes(Boolean)
 		/// </summary>
-		protected RMethod r_RGetCustomAttributes_Boolean;
+		protected RMethod r_GetCustomAttributes_Boolean;
 		public virtual RMethod RGetCustomAttributes_Boolean
 		{
 			get
 			{
-				if(r_RGetCustomAttributes_Boolean == null)
+				if(r_GetCustomAttributes_Boolean == null)
 				{
-					r_RGetCustomAttributes_Boolean = new(this, "GetCustomAttributes", 0, typeof(System.Boolean));
-					r_RGetCustomAttributes_Boolean.SetBelong(this.instance);
+					r_GetCustomAttributes_Boolean = new(this, "GetCustomAttributes", 0, typeof(System.Boolean));
+					r_GetCustomAttributes_Boolean.SetBelong(this.instance);
 				}
-				return r_RGetCustomAttributes_Boolean;
+				return r_GetCustomAttributes_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// System.Object[] GetCustomAttributes(System.Type, Boolean)
 		/// </summary>
-		protected RMethod r_RGetCustomAttributes_Type_Boolean;
+		protected RMethod r_GetCustomAttributes_Type_Boolean;
 		public virtual RMethod RGetCustomAttributes_Type_Boolean
 		{
 			get
 			{
-				if(r_RGetCustomAttributes_Type_Boolean == null)
+				if(r_GetCustomAttributes_Type_Boolean == null)
 				{
-					r_RGetCustomAttributes_Type_Boolean = new(this, "GetCustomAttributes", 0, typeof(System.Type), typeof(System.Boolean));
-					r_RGetCustomAttributes_Type_Boolean.SetBelong(this.instance);
+					r_GetCustomAttributes_Type_Boolean = new(this, "GetCustomAttributes", 0, typeof(System.Type), typeof(System.Boolean));
+					r_GetCustomAttributes_Type_Boolean.SetBelong(this.instance);
 				}
-				return r_RGetCustomAttributes_Type_Boolean;
+				return r_GetCustomAttributes_Type_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetFieldOffset()
 		/// </summary>
-		protected RMethod r_RGetFieldOffset;
+		protected RMethod r_GetFieldOffset;
 		public virtual RMethod RGetFieldOffset
 		{
 			get
 			{
-				if(r_RGetFieldOffset == null)
+				if(r_GetFieldOffset == null)
 				{
-					r_RGetFieldOffset = new(this, "GetFieldOffset", 0);
-					r_RGetFieldOffset.SetBelong(this.instance);
+					r_GetFieldOffset = new(this, "GetFieldOffset", 0);
+					r_GetFieldOffset.SetBelong(this.instance);
 				}
-				return r_RGetFieldOffset;
+				return r_GetFieldOffset;
 			}
 		}
 
 		/// <summary>
 		/// System.Object GetValueInternal(System.Object)
 		/// </summary>
-		protected RMethod r_RGetValueInternal_Object;
+		protected RMethod r_GetValueInternal_Object;
 		public virtual RMethod RGetValueInternal_Object
 		{
 			get
 			{
-				if(r_RGetValueInternal_Object == null)
+				if(r_GetValueInternal_Object == null)
 				{
-					r_RGetValueInternal_Object = new(this, "GetValueInternal", 0, typeof(System.Object));
-					r_RGetValueInternal_Object.SetBelong(this.instance);
+					r_GetValueInternal_Object = new(this, "GetValueInternal", 0, typeof(System.Object));
+					r_GetValueInternal_Object.SetBelong(this.instance);
 				}
-				return r_RGetValueInternal_Object;
+				return r_GetValueInternal_Object;
 			}
 		}
 
 		/// <summary>
 		/// System.Object GetValue(System.Object)
 		/// </summary>
-		protected RMethod r_RGetValue_Object;
+		protected RMethod r_GetValue_Object;
 		public virtual RMethod RGetValue_Object
 		{
 			get
 			{
-				if(r_RGetValue_Object == null)
+				if(r_GetValue_Object == null)
 				{
-					r_RGetValue_Object = new(this, "GetValue", 0, typeof(System.Object));
-					r_RGetValue_Object.SetBelong(this.instance);
+					r_GetValue_Object = new(this, "GetValue", 0, typeof(System.Object));
+					r_GetValue_Object.SetBelong(this.instance);
 				}
-				return r_RGetValue_Object;
+				return r_GetValue_Object;
 			}
 		}
 
 		/// <summary>
 		/// System.String ToString()
 		/// </summary>
-		protected RMethod r_RToString;
+		protected RMethod r_ToString;
 		public virtual RMethod RToString
 		{
 			get
 			{
-				if(r_RToString == null)
+				if(r_ToString == null)
 				{
-					r_RToString = new(this, "ToString", 0);
-					r_RToString.SetBelong(this.instance);
+					r_ToString = new(this, "ToString", 0);
+					r_ToString.SetBelong(this.instance);
 				}
-				return r_RToString;
+				return r_ToString;
 			}
 		}
 
 		/// <summary>
 		/// Void SetValueInternal(System.Reflection.FieldInfo, System.Object, System.Object)
 		/// </summary>
-		protected static RMethod r_RSetValueInternal_FieldInfo_Object_Object;
+		protected static RMethod r_SetValueInternal_FieldInfo_Object_Object;
 		public static RMethod RSetValueInternal_FieldInfo_Object_Object
 		{
 			get
 			{
-				if(r_RSetValueInternal_FieldInfo_Object_Object == null)
+				if(r_SetValueInternal_FieldInfo_Object_Object == null)
 				{
-					r_RSetValueInternal_FieldInfo_Object_Object = new( ReleactionUtils.GetType("System.Reflection.RuntimeFieldInfo"), "SetValueInternal", 0, typeof(System.Reflection.FieldInfo), typeof(System.Object), typeof(System.Object));
-					r_RSetValueInternal_FieldInfo_Object_Object.SetBelong(null);
+					r_SetValueInternal_FieldInfo_Object_Object = new( ReleactionUtils.GetType("System.Reflection.RuntimeFieldInfo"), "SetValueInternal", 0, typeof(System.Reflection.FieldInfo), typeof(System.Object), typeof(System.Object));
+					r_SetValueInternal_FieldInfo_Object_Object.SetBelong(null);
 				}
-				return r_RSetValueInternal_FieldInfo_Object_Object;
+				return r_SetValueInternal_FieldInfo_Object_Object;
 			}
 		}
 
 		/// <summary>
 		/// Void SetValue(System.Object, System.Object, System.Reflection.BindingFlags, System.Reflection.Binder, System.Globalization.CultureInfo)
 		/// </summary>
-		protected RMethod r_RSetValue_Object_Object_BindingFlags_Binder_CultureInfo;
+		protected RMethod r_SetValue_Object_Object_BindingFlags_Binder_CultureInfo;
 		public virtual RMethod RSetValue_Object_Object_BindingFlags_Binder_CultureInfo
 		{
 			get
 			{
-				if(r_RSetValue_Object_Object_BindingFlags_Binder_CultureInfo == null)
+				if(r_SetValue_Object_Object_BindingFlags_Binder_CultureInfo == null)
 				{
-					r_RSetValue_Object_Object_BindingFlags_Binder_CultureInfo = new(this, "SetValue", 0, typeof(System.Object), typeof(System.Object), typeof(System.Reflection.BindingFlags), typeof(System.Reflection.Binder), typeof(System.Globalization.CultureInfo));
-					r_RSetValue_Object_Object_BindingFlags_Binder_CultureInfo.SetBelong(this.instance);
+					r_SetValue_Object_Object_BindingFlags_Binder_CultureInfo = new(this, "SetValue", 0, typeof(System.Object), typeof(System.Object), typeof(System.Reflection.BindingFlags), typeof(System.Reflection.Binder), typeof(System.Globalization.CultureInfo));
+					r_SetValue_Object_Object_BindingFlags_Binder_CultureInfo.SetBelong(this.instance);
 				}
-				return r_RSetValue_Object_Object_BindingFlags_Binder_CultureInfo;
+				return r_SetValue_Object_Object_BindingFlags_Binder_CultureInfo;
 			}
 		}
 
 		/// <summary>
 		/// System.Reflection.RuntimeFieldInfo Clone(System.String)
 		/// </summary>
-		protected RMethod r_RClone_String;
+		protected RMethod r_Clone_String;
 		public virtual RMethod RClone_String
 		{
 			get
 			{
-				if(r_RClone_String == null)
+				if(r_Clone_String == null)
 				{
-					r_RClone_String = new(this, "Clone", 0, typeof(System.String));
-					r_RClone_String.SetBelong(this.instance);
+					r_Clone_String = new(this, "Clone", 0, typeof(System.String));
+					r_Clone_String.SetBelong(this.instance);
 				}
-				return r_RClone_String;
+				return r_Clone_String;
 			}
 		}
 
 		/// <summary>
 		/// System.Object GetRawConstantValue()
 		/// </summary>
-		protected RMethod r_RGetRawConstantValue;
+		protected RMethod r_GetRawConstantValue;
 		public virtual RMethod RGetRawConstantValue
 		{
 			get
 			{
-				if(r_RGetRawConstantValue == null)
+				if(r_GetRawConstantValue == null)
 				{
-					r_RGetRawConstantValue = new(this, "GetRawConstantValue", 0);
-					r_RGetRawConstantValue.SetBelong(this.instance);
+					r_GetRawConstantValue = new(this, "GetRawConstantValue", 0);
+					r_GetRawConstantValue.SetBelong(this.instance);
 				}
-				return r_RGetRawConstantValue;
+				return r_GetRawConstantValue;
 			}
 		}
 
 		/// <summary>
 		/// System.Collections.Generic.IList`1[System.Reflection.CustomAttributeData] GetCustomAttributesData()
 		/// </summary>
-		protected RMethod r_RGetCustomAttributesData;
+		protected RMethod r_GetCustomAttributesData;
 		public virtual RMethod RGetCustomAttributesData
 		{
 			get
 			{
-				if(r_RGetCustomAttributesData == null)
+				if(r_GetCustomAttributesData == null)
 				{
-					r_RGetCustomAttributesData = new(this, "GetCustomAttributesData", 0);
-					r_RGetCustomAttributesData.SetBelong(this.instance);
+					r_GetCustomAttributesData = new(this, "GetCustomAttributesData", 0);
+					r_GetCustomAttributesData.SetBelong(this.instance);
 				}
-				return r_RGetCustomAttributesData;
+				return r_GetCustomAttributesData;
 			}
 		}
 
 		/// <summary>
 		/// Void CheckGeneric()
 		/// </summary>
-		protected RMethod r_RCheckGeneric;
+		protected RMethod r_CheckGeneric;
 		public virtual RMethod RCheckGeneric
 		{
 			get
 			{
-				if(r_RCheckGeneric == null)
+				if(r_CheckGeneric == null)
 				{
-					r_RCheckGeneric = new(this, "CheckGeneric", 0);
-					r_RCheckGeneric.SetBelong(this.instance);
+					r_CheckGeneric = new(this, "CheckGeneric", 0);
+					r_CheckGeneric.SetBelong(this.instance);
 				}
-				return r_RCheckGeneric;
+				return r_CheckGeneric;
 			}
 		}
 
 		/// <summary>
 		/// Int32 get_core_clr_security_level()
 		/// </summary>
-		protected RMethod r_Rget_core_clr_security_level;
+		protected RMethod r_get_core_clr_security_level;
 		public virtual RMethod Rget_core_clr_security_level
 		{
 			get
 			{
-				if(r_Rget_core_clr_security_level == null)
+				if(r_get_core_clr_security_level == null)
 				{
-					r_Rget_core_clr_security_level = new(this, "get_core_clr_security_level", 0);
-					r_Rget_core_clr_security_level.SetBelong(this.instance);
+					r_get_core_clr_security_level = new(this, "get_core_clr_security_level", 0);
+					r_get_core_clr_security_level.SetBelong(this.instance);
 				}
-				return r_Rget_core_clr_security_level;
+				return r_get_core_clr_security_level;
 			}
 		}
 
 		/// <summary>
 		/// Boolean HasSameMetadataDefinitionAs(System.Reflection.MemberInfo)
 		/// </summary>
-		protected RMethod r_RHasSameMetadataDefinitionAs_MemberInfo;
+		protected RMethod r_HasSameMetadataDefinitionAs_MemberInfo;
 		public virtual RMethod RHasSameMetadataDefinitionAs_MemberInfo
 		{
 			get
 			{
-				if(r_RHasSameMetadataDefinitionAs_MemberInfo == null)
+				if(r_HasSameMetadataDefinitionAs_MemberInfo == null)
 				{
-					r_RHasSameMetadataDefinitionAs_MemberInfo = new(this, "HasSameMetadataDefinitionAs", 0, typeof(System.Reflection.MemberInfo));
-					r_RHasSameMetadataDefinitionAs_MemberInfo.SetBelong(this.instance);
+					r_HasSameMetadataDefinitionAs_MemberInfo = new(this, "HasSameMetadataDefinitionAs", 0, typeof(System.Reflection.MemberInfo));
+					r_HasSameMetadataDefinitionAs_MemberInfo.SetBelong(this.instance);
 				}
-				return r_RHasSameMetadataDefinitionAs_MemberInfo;
+				return r_HasSameMetadataDefinitionAs_MemberInfo;
 			}
 		}
 
 		/// <summary>
 		/// Int32 get_metadata_token(System.Reflection.RuntimeFieldInfo)
 		/// </summary>
-		protected static RMethod r_Rget_metadata_token_RuntimeFieldInfo;
+		protected static RMethod r_get_metadata_token_RuntimeFieldInfo;
 		public static RMethod Rget_metadata_token_RuntimeFieldInfo
 		{
 			get
 			{
-				if(r_Rget_metadata_token_RuntimeFieldInfo == null)
+				if(r_get_metadata_token_RuntimeFieldInfo == null)
 				{
-					r_Rget_metadata_token_RuntimeFieldInfo = new( ReleactionUtils.GetType("System.Reflection.RuntimeFieldInfo"), "get_metadata_token", 0,  ReleactionUtils.GetType("System.Reflection.RuntimeFieldInfo"));
-					r_Rget_metadata_token_RuntimeFieldInfo.SetBelong(null);
+					r_get_metadata_token_RuntimeFieldInfo = new( ReleactionUtils.GetType("System.Reflection.RuntimeFieldInfo"), "get_metadata_token", 0,  ReleactionUtils.GetType("System.Reflection.RuntimeFieldInfo"));
+					r_get_metadata_token_RuntimeFieldInfo.SetBelong(null);
 				}
-				return r_Rget_metadata_token_RuntimeFieldInfo;
+				return r_get_metadata_token_RuntimeFieldInfo;
 			}
 		}
 
 		/// <summary>
 		/// System.Type[] GetTypeModifiers(Boolean)
 		/// </summary>
-		protected RMethod r_RGetTypeModifiers_Boolean;
+		protected RMethod r_GetTypeModifiers_Boolean;
 		public virtual RMethod RGetTypeModifiers_Boolean
 		{
 			get
 			{
-				if(r_RGetTypeModifiers_Boolean == null)
+				if(r_GetTypeModifiers_Boolean == null)
 				{
-					r_RGetTypeModifiers_Boolean = new(this, "GetTypeModifiers", 0, typeof(System.Boolean));
-					r_RGetTypeModifiers_Boolean.SetBelong(this.instance);
+					r_GetTypeModifiers_Boolean = new(this, "GetTypeModifiers", 0, typeof(System.Boolean));
+					r_GetTypeModifiers_Boolean.SetBelong(this.instance);
 				}
-				return r_RGetTypeModifiers_Boolean;
+				return r_GetTypeModifiers_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// System.Type[] GetOptionalCustomModifiers()
 		/// </summary>
-		protected RMethod r_RGetOptionalCustomModifiers;
+		protected RMethod r_GetOptionalCustomModifiers;
 		public virtual RMethod RGetOptionalCustomModifiers
 		{
 			get
 			{
-				if(r_RGetOptionalCustomModifiers == null)
+				if(r_GetOptionalCustomModifiers == null)
 				{
-					r_RGetOptionalCustomModifiers = new(this, "GetOptionalCustomModifiers", 0);
-					r_RGetOptionalCustomModifiers.SetBelong(this.instance);
+					r_GetOptionalCustomModifiers = new(this, "GetOptionalCustomModifiers", 0);
+					r_GetOptionalCustomModifiers.SetBelong(this.instance);
 				}
-				return r_RGetOptionalCustomModifiers;
+				return r_GetOptionalCustomModifiers;
 			}
 		}
 
 		/// <summary>
 		/// System.Type[] GetRequiredCustomModifiers()
 		/// </summary>
-		protected RMethod r_RGetRequiredCustomModifiers;
+		protected RMethod r_GetRequiredCustomModifiers;
 		public virtual RMethod RGetRequiredCustomModifiers
 		{
 			get
 			{
-				if(r_RGetRequiredCustomModifiers == null)
+				if(r_GetRequiredCustomModifiers == null)
 				{
-					r_RGetRequiredCustomModifiers = new(this, "GetRequiredCustomModifiers", 0);
-					r_RGetRequiredCustomModifiers.SetBelong(this.instance);
+					r_GetRequiredCustomModifiers = new(this, "GetRequiredCustomModifiers", 0);
+					r_GetRequiredCustomModifiers.SetBelong(this.instance);
 				}
-				return r_RGetRequiredCustomModifiers;
+				return r_GetRequiredCustomModifiers;
 			}
 		}
 
 		/// <summary>
 		/// System.Type[] GetCustomModifiers(Boolean)
 		/// </summary>
-		protected RMethod r_RGetCustomModifiers_Boolean;
+		protected RMethod r_GetCustomModifiers_Boolean;
 		public virtual RMethod RGetCustomModifiers_Boolean
 		{
 			get
 			{
-				if(r_RGetCustomModifiers_Boolean == null)
+				if(r_GetCustomModifiers_Boolean == null)
 				{
-					r_RGetCustomModifiers_Boolean = new(this, "GetCustomModifiers", 0, typeof(System.Boolean));
-					r_RGetCustomModifiers_Boolean.SetBelong(this.instance);
+					r_GetCustomModifiers_Boolean = new(this, "GetCustomModifiers", 0, typeof(System.Boolean));
+					r_GetCustomModifiers_Boolean.SetBelong(this.instance);
 				}
-				return r_RGetCustomModifiers_Boolean;
+				return r_GetCustomModifiers_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Equals(System.Object)
 		/// </summary>
-		protected RMethod r_REquals_Object;
+		protected RMethod r_Equals_Object;
 		public virtual RMethod REquals_Object
 		{
 			get
 			{
-				if(r_REquals_Object == null)
+				if(r_Equals_Object == null)
 				{
-					r_REquals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_REquals_Object.SetBelong(this.instance);
+					r_Equals_Object = new(this, "Equals", 0, typeof(System.Object));
+					r_Equals_Object.SetBelong(this.instance);
 				}
-				return r_REquals_Object;
+				return r_Equals_Object;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetHashCode()
 		/// </summary>
-		protected RMethod r_RGetHashCode;
+		protected RMethod r_GetHashCode;
 		public virtual RMethod RGetHashCode
 		{
 			get
 			{
-				if(r_RGetHashCode == null)
+				if(r_GetHashCode == null)
 				{
-					r_RGetHashCode = new(this, "GetHashCode", 0);
-					r_RGetHashCode.SetBelong(this.instance);
+					r_GetHashCode = new(this, "GetHashCode", 0);
+					r_GetHashCode.SetBelong(this.instance);
 				}
-				return r_RGetHashCode;
+				return r_GetHashCode;
 			}
 		}
 
 		/// <summary>
 		/// Void SetValue(System.Object, System.Object)
 		/// </summary>
-		protected RMethod r_RSetValue_Object_Object;
+		protected RMethod r_SetValue_Object_Object;
 		public virtual RMethod RSetValue_Object_Object
 		{
 			get
 			{
-				if(r_RSetValue_Object_Object == null)
+				if(r_SetValue_Object_Object == null)
 				{
-					r_RSetValue_Object_Object = new(this, "SetValue", 0, typeof(System.Object), typeof(System.Object));
-					r_RSetValue_Object_Object.SetBelong(this.instance);
+					r_SetValue_Object_Object = new(this, "SetValue", 0, typeof(System.Object), typeof(System.Object));
+					r_SetValue_Object_Object.SetBelong(this.instance);
 				}
-				return r_RSetValue_Object_Object;
+				return r_SetValue_Object_Object;
 			}
 		}
 
 		/// <summary>
 		/// System.Object[] GetPseudoCustomAttributes()
 		/// </summary>
-		protected RMethod r_RGetPseudoCustomAttributes;
+		protected RMethod r_GetPseudoCustomAttributes;
 		public virtual RMethod RGetPseudoCustomAttributes
 		{
 			get
 			{
-				if(r_RGetPseudoCustomAttributes == null)
+				if(r_GetPseudoCustomAttributes == null)
 				{
-					r_RGetPseudoCustomAttributes = new(this, "GetPseudoCustomAttributes", 0);
-					r_RGetPseudoCustomAttributes.SetBelong(this.instance);
+					r_GetPseudoCustomAttributes = new(this, "GetPseudoCustomAttributes", 0);
+					r_GetPseudoCustomAttributes.SetBelong(this.instance);
 				}
-				return r_RGetPseudoCustomAttributes;
+				return r_GetPseudoCustomAttributes;
 			}
 		}
 
 		/// <summary>
 		/// System.Reflection.CustomAttributeData[] GetPseudoCustomAttributesData()
 		/// </summary>
-		protected RMethod r_RGetPseudoCustomAttributesData;
+		protected RMethod r_GetPseudoCustomAttributesData;
 		public virtual RMethod RGetPseudoCustomAttributesData
 		{
 			get
 			{
-				if(r_RGetPseudoCustomAttributesData == null)
+				if(r_GetPseudoCustomAttributesData == null)
 				{
-					r_RGetPseudoCustomAttributesData = new(this, "GetPseudoCustomAttributesData", 0);
-					r_RGetPseudoCustomAttributesData.SetBelong(this.instance);
+					r_GetPseudoCustomAttributesData = new(this, "GetPseudoCustomAttributesData", 0);
+					r_GetPseudoCustomAttributesData.SetBelong(this.instance);
 				}
-				return r_RGetPseudoCustomAttributesData;
+				return r_GetPseudoCustomAttributesData;
 			}
 		}
 
 		/// <summary>
 		/// Boolean CacheEquals(System.Object)
 		/// </summary>
-		protected RMethod r_RCacheEquals_Object;
+		protected RMethod r_CacheEquals_Object;
 		public virtual RMethod RCacheEquals_Object
 		{
 			get
 			{
-				if(r_RCacheEquals_Object == null)
+				if(r_CacheEquals_Object == null)
 				{
-					r_RCacheEquals_Object = new(this, "CacheEquals", 0, typeof(System.Object));
-					r_RCacheEquals_Object.SetBelong(this.instance);
+					r_CacheEquals_Object = new(this, "CacheEquals", 0, typeof(System.Object));
+					r_CacheEquals_Object.SetBelong(this.instance);
 				}
-				return r_RCacheEquals_Object;
+				return r_CacheEquals_Object;
 			}
 		}
 
 		/// <summary>
 		/// Boolean HasSameMetadataDefinitionAsCore[TOther](System.Reflection.MemberInfo)
 		/// </summary>
-		protected RMethod r_RHasSameMetadataDefinitionAsCore_GTOther_MemberInfo;
+		protected RMethod r_HasSameMetadataDefinitionAsCore_GTOther_MemberInfo;
 		public virtual RMethod RHasSameMetadataDefinitionAsCore_GTOther_MemberInfo
 		{
 			get
 			{
-				if(r_RHasSameMetadataDefinitionAsCore_GTOther_MemberInfo == null)
+				if(r_HasSameMetadataDefinitionAsCore_GTOther_MemberInfo == null)
 				{
-					r_RHasSameMetadataDefinitionAsCore_GTOther_MemberInfo = new(this, "HasSameMetadataDefinitionAsCore", 1, typeof(System.Reflection.MemberInfo));
-					r_RHasSameMetadataDefinitionAsCore_GTOther_MemberInfo.SetBelong(this.instance);
+					r_HasSameMetadataDefinitionAsCore_GTOther_MemberInfo = new(this, "HasSameMetadataDefinitionAsCore", 1, typeof(System.Reflection.MemberInfo));
+					r_HasSameMetadataDefinitionAsCore_GTOther_MemberInfo.SetBelong(this.instance);
 				}
-				return r_RHasSameMetadataDefinitionAsCore_GTOther_MemberInfo;
+				return r_HasSameMetadataDefinitionAsCore_GTOther_MemberInfo;
 			}
 		}
 
 		/// <summary>
 		/// Void Finalize()
 		/// </summary>
-		protected RMethod r_RFinalize;
+		protected RMethod r_Finalize;
 		public virtual RMethod RFinalize
 		{
 			get
 			{
-				if(r_RFinalize == null)
+				if(r_Finalize == null)
 				{
-					r_RFinalize = new(this, "Finalize", 0);
-					r_RFinalize.SetBelong(this.instance);
+					r_Finalize = new(this, "Finalize", 0);
+					r_Finalize.SetBelong(this.instance);
 				}
-				return r_RFinalize;
+				return r_Finalize;
 			}
 		}
 
 		/// <summary>
 		/// System.Type GetType()
 		/// </summary>
-		protected RMethod r_RGetType;
+		protected RMethod r_GetType;
 		public virtual RMethod RGetType
 		{
 			get
 			{
-				if(r_RGetType == null)
+				if(r_GetType == null)
 				{
-					r_RGetType = new(this, "GetType", 0);
-					r_RGetType.SetBelong(this.instance);
+					r_GetType = new(this, "GetType", 0);
+					r_GetType.SetBelong(this.instance);
 				}
-				return r_RGetType;
+				return r_GetType;
 			}
 		}
 
 		/// <summary>
 		/// System.Object MemberwiseClone()
 		/// </summary>
-		protected RMethod r_RMemberwiseClone;
+		protected RMethod r_MemberwiseClone;
 		public virtual RMethod RMemberwiseClone
 		{
 			get
 			{
-				if(r_RMemberwiseClone == null)
+				if(r_MemberwiseClone == null)
 				{
-					r_RMemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_RMemberwiseClone.SetBelong(this.instance);
+					r_MemberwiseClone = new(this, "MemberwiseClone", 0);
+					r_MemberwiseClone.SetBelong(this.instance);
 				}
-				return r_RMemberwiseClone;
+				return r_MemberwiseClone;
 			}
 		}
 

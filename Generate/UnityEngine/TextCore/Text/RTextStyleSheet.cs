@@ -98,221 +98,221 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// Void Reset()
 		/// </summary>
-		protected RMethod r_RReset;
+		protected RMethod r_Reset;
 		public virtual RMethod RReset
 		{
 			get
 			{
-				if(r_RReset == null)
+				if(r_Reset == null)
 				{
-					r_RReset = new(this, "Reset", 0);
-					r_RReset.SetBelong(this.instance);
+					r_Reset = new(this, "Reset", 0);
+					r_Reset.SetBelong(this.instance);
 				}
-				return r_RReset;
+				return r_Reset;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.TextCore.Text.TextStyle GetStyle(Int32)
 		/// </summary>
-		protected RMethod r_RGetStyle_Int32;
+		protected RMethod r_GetStyle_Int32;
 		public virtual RMethod RGetStyle_Int32
 		{
 			get
 			{
-				if(r_RGetStyle_Int32 == null)
+				if(r_GetStyle_Int32 == null)
 				{
-					r_RGetStyle_Int32 = new(this, "GetStyle", 0, typeof(System.Int32));
-					r_RGetStyle_Int32.SetBelong(this.instance);
+					r_GetStyle_Int32 = new(this, "GetStyle", 0, typeof(System.Int32));
+					r_GetStyle_Int32.SetBelong(this.instance);
 				}
-				return r_RGetStyle_Int32;
+				return r_GetStyle_Int32;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.TextCore.Text.TextStyle GetStyle(System.String)
 		/// </summary>
-		protected RMethod r_RGetStyle_String;
+		protected RMethod r_GetStyle_String;
 		public virtual RMethod RGetStyle_String
 		{
 			get
 			{
-				if(r_RGetStyle_String == null)
+				if(r_GetStyle_String == null)
 				{
-					r_RGetStyle_String = new(this, "GetStyle", 0, typeof(System.String));
-					r_RGetStyle_String.SetBelong(this.instance);
+					r_GetStyle_String = new(this, "GetStyle", 0, typeof(System.String));
+					r_GetStyle_String.SetBelong(this.instance);
 				}
-				return r_RGetStyle_String;
+				return r_GetStyle_String;
 			}
 		}
 
 		/// <summary>
 		/// Void RefreshStyles()
 		/// </summary>
-		protected RMethod r_RRefreshStyles;
+		protected RMethod r_RefreshStyles;
 		public virtual RMethod RRefreshStyles
 		{
 			get
 			{
-				if(r_RRefreshStyles == null)
+				if(r_RefreshStyles == null)
 				{
-					r_RRefreshStyles = new(this, "RefreshStyles", 0);
-					r_RRefreshStyles.SetBelong(this.instance);
+					r_RefreshStyles = new(this, "RefreshStyles", 0);
+					r_RefreshStyles.SetBelong(this.instance);
 				}
-				return r_RRefreshStyles;
+				return r_RefreshStyles;
 			}
 		}
 
 		/// <summary>
 		/// Void LoadStyleDictionaryInternal()
 		/// </summary>
-		protected RMethod r_RLoadStyleDictionaryInternal;
+		protected RMethod r_LoadStyleDictionaryInternal;
 		public virtual RMethod RLoadStyleDictionaryInternal
 		{
 			get
 			{
-				if(r_RLoadStyleDictionaryInternal == null)
+				if(r_LoadStyleDictionaryInternal == null)
 				{
-					r_RLoadStyleDictionaryInternal = new(this, "LoadStyleDictionaryInternal", 0);
-					r_RLoadStyleDictionaryInternal.SetBelong(this.instance);
+					r_LoadStyleDictionaryInternal = new(this, "LoadStyleDictionaryInternal", 0);
+					r_LoadStyleDictionaryInternal.SetBelong(this.instance);
 				}
-				return r_RLoadStyleDictionaryInternal;
+				return r_LoadStyleDictionaryInternal;
 			}
 		}
 
 		/// <summary>
 		/// Void SetDirty()
 		/// </summary>
-		protected RMethod r_RSetDirty;
+		protected RMethod r_SetDirty;
 		public virtual RMethod RSetDirty
 		{
 			get
 			{
-				if(r_RSetDirty == null)
+				if(r_SetDirty == null)
 				{
-					r_RSetDirty = new(this, "SetDirty", 0);
-					r_RSetDirty.SetBelong(this.instance);
+					r_SetDirty = new(this, "SetDirty", 0);
+					r_SetDirty.SetBelong(this.instance);
 				}
-				return r_RSetDirty;
+				return r_SetDirty;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetInstanceID()
 		/// </summary>
-		protected RMethod r_RGetInstanceID;
+		protected RMethod r_GetInstanceID;
 		public virtual RMethod RGetInstanceID
 		{
 			get
 			{
-				if(r_RGetInstanceID == null)
+				if(r_GetInstanceID == null)
 				{
-					r_RGetInstanceID = new(this, "GetInstanceID", 0);
-					r_RGetInstanceID.SetBelong(this.instance);
+					r_GetInstanceID = new(this, "GetInstanceID", 0);
+					r_GetInstanceID.SetBelong(this.instance);
 				}
-				return r_RGetInstanceID;
+				return r_GetInstanceID;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetHashCode()
 		/// </summary>
-		protected RMethod r_RGetHashCode;
+		protected RMethod r_GetHashCode;
 		public virtual RMethod RGetHashCode
 		{
 			get
 			{
-				if(r_RGetHashCode == null)
+				if(r_GetHashCode == null)
 				{
-					r_RGetHashCode = new(this, "GetHashCode", 0);
-					r_RGetHashCode.SetBelong(this.instance);
+					r_GetHashCode = new(this, "GetHashCode", 0);
+					r_GetHashCode.SetBelong(this.instance);
 				}
-				return r_RGetHashCode;
+				return r_GetHashCode;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Equals(System.Object)
 		/// </summary>
-		protected RMethod r_REquals_Object;
+		protected RMethod r_Equals_Object;
 		public virtual RMethod REquals_Object
 		{
 			get
 			{
-				if(r_REquals_Object == null)
+				if(r_Equals_Object == null)
 				{
-					r_REquals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_REquals_Object.SetBelong(this.instance);
+					r_Equals_Object = new(this, "Equals", 0, typeof(System.Object));
+					r_Equals_Object.SetBelong(this.instance);
 				}
-				return r_REquals_Object;
+				return r_Equals_Object;
 			}
 		}
 
 		/// <summary>
 		/// System.String ToString()
 		/// </summary>
-		protected RMethod r_RToString;
+		protected RMethod r_ToString;
 		public virtual RMethod RToString
 		{
 			get
 			{
-				if(r_RToString == null)
+				if(r_ToString == null)
 				{
-					r_RToString = new(this, "ToString", 0);
-					r_RToString.SetBelong(this.instance);
+					r_ToString = new(this, "ToString", 0);
+					r_ToString.SetBelong(this.instance);
 				}
-				return r_RToString;
+				return r_ToString;
 			}
 		}
 
 		/// <summary>
 		/// Void Finalize()
 		/// </summary>
-		protected RMethod r_RFinalize;
+		protected RMethod r_Finalize;
 		public virtual RMethod RFinalize
 		{
 			get
 			{
-				if(r_RFinalize == null)
+				if(r_Finalize == null)
 				{
-					r_RFinalize = new(this, "Finalize", 0);
-					r_RFinalize.SetBelong(this.instance);
+					r_Finalize = new(this, "Finalize", 0);
+					r_Finalize.SetBelong(this.instance);
 				}
-				return r_RFinalize;
+				return r_Finalize;
 			}
 		}
 
 		/// <summary>
 		/// System.Type GetType()
 		/// </summary>
-		protected RMethod r_RGetType;
+		protected RMethod r_GetType;
 		public virtual RMethod RGetType
 		{
 			get
 			{
-				if(r_RGetType == null)
+				if(r_GetType == null)
 				{
-					r_RGetType = new(this, "GetType", 0);
-					r_RGetType.SetBelong(this.instance);
+					r_GetType = new(this, "GetType", 0);
+					r_GetType.SetBelong(this.instance);
 				}
-				return r_RGetType;
+				return r_GetType;
 			}
 		}
 
 		/// <summary>
 		/// System.Object MemberwiseClone()
 		/// </summary>
-		protected RMethod r_RMemberwiseClone;
+		protected RMethod r_MemberwiseClone;
 		public virtual RMethod RMemberwiseClone
 		{
 			get
 			{
-				if(r_RMemberwiseClone == null)
+				if(r_MemberwiseClone == null)
 				{
-					r_RMemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_RMemberwiseClone.SetBelong(this.instance);
+					r_MemberwiseClone = new(this, "MemberwiseClone", 0);
+					r_MemberwiseClone.SetBelong(this.instance);
 				}
-				return r_RMemberwiseClone;
+				return r_MemberwiseClone;
 			}
 		}
 

@@ -81,357 +81,357 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RSynt
 		/// <summary>
 		/// UnityEngine.UIElements.StyleSheets.Syntax.Expression Parse(System.String)
 		/// </summary>
-		protected RMethod r_RParse_String;
+		protected RMethod r_Parse_String;
 		public virtual RMethod RParse_String
 		{
 			get
 			{
-				if(r_RParse_String == null)
+				if(r_Parse_String == null)
 				{
-					r_RParse_String = new(this, "Parse", 0, typeof(System.String));
-					r_RParse_String.SetBelong(this.instance);
+					r_Parse_String = new(this, "Parse", 0, typeof(System.String));
+					r_Parse_String.SetBelong(this.instance);
 				}
-				return r_RParse_String;
+				return r_Parse_String;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleSheets.Syntax.Expression ParseExpression(UnityEngine.UIElements.StyleSheets.Syntax.StyleSyntaxTokenizer)
 		/// </summary>
-		protected RMethod r_RParseExpression_StyleSyntaxTokenizer;
+		protected RMethod r_ParseExpression_StyleSyntaxTokenizer;
 		public virtual RMethod RParseExpression_StyleSyntaxTokenizer
 		{
 			get
 			{
-				if(r_RParseExpression_StyleSyntaxTokenizer == null)
+				if(r_ParseExpression_StyleSyntaxTokenizer == null)
 				{
-					r_RParseExpression_StyleSyntaxTokenizer = new(this, "ParseExpression", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.Syntax.StyleSyntaxTokenizer"));
-					r_RParseExpression_StyleSyntaxTokenizer.SetBelong(this.instance);
+					r_ParseExpression_StyleSyntaxTokenizer = new(this, "ParseExpression", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.Syntax.StyleSyntaxTokenizer"));
+					r_ParseExpression_StyleSyntaxTokenizer.SetBelong(this.instance);
 				}
-				return r_RParseExpression_StyleSyntaxTokenizer;
+				return r_ParseExpression_StyleSyntaxTokenizer;
 			}
 		}
 
 		/// <summary>
 		/// Void ProcessCombinatorStack()
 		/// </summary>
-		protected RMethod r_RProcessCombinatorStack;
+		protected RMethod r_ProcessCombinatorStack;
 		public virtual RMethod RProcessCombinatorStack
 		{
 			get
 			{
-				if(r_RProcessCombinatorStack == null)
+				if(r_ProcessCombinatorStack == null)
 				{
-					r_RProcessCombinatorStack = new(this, "ProcessCombinatorStack", 0);
-					r_RProcessCombinatorStack.SetBelong(this.instance);
+					r_ProcessCombinatorStack = new(this, "ProcessCombinatorStack", 0);
+					r_ProcessCombinatorStack.SetBelong(this.instance);
 				}
-				return r_RProcessCombinatorStack;
+				return r_ProcessCombinatorStack;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleSheets.Syntax.Expression ParseTerm(UnityEngine.UIElements.StyleSheets.Syntax.StyleSyntaxTokenizer)
 		/// </summary>
-		protected RMethod r_RParseTerm_StyleSyntaxTokenizer;
+		protected RMethod r_ParseTerm_StyleSyntaxTokenizer;
 		public virtual RMethod RParseTerm_StyleSyntaxTokenizer
 		{
 			get
 			{
-				if(r_RParseTerm_StyleSyntaxTokenizer == null)
+				if(r_ParseTerm_StyleSyntaxTokenizer == null)
 				{
-					r_RParseTerm_StyleSyntaxTokenizer = new(this, "ParseTerm", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.Syntax.StyleSyntaxTokenizer"));
-					r_RParseTerm_StyleSyntaxTokenizer.SetBelong(this.instance);
+					r_ParseTerm_StyleSyntaxTokenizer = new(this, "ParseTerm", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.Syntax.StyleSyntaxTokenizer"));
+					r_ParseTerm_StyleSyntaxTokenizer.SetBelong(this.instance);
 				}
-				return r_RParseTerm_StyleSyntaxTokenizer;
+				return r_ParseTerm_StyleSyntaxTokenizer;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleSheets.Syntax.ExpressionCombinator ParseCombinatorType(UnityEngine.UIElements.StyleSheets.Syntax.StyleSyntaxTokenizer)
 		/// </summary>
-		protected RMethod r_RParseCombinatorType_StyleSyntaxTokenizer;
+		protected RMethod r_ParseCombinatorType_StyleSyntaxTokenizer;
 		public virtual RMethod RParseCombinatorType_StyleSyntaxTokenizer
 		{
 			get
 			{
-				if(r_RParseCombinatorType_StyleSyntaxTokenizer == null)
+				if(r_ParseCombinatorType_StyleSyntaxTokenizer == null)
 				{
-					r_RParseCombinatorType_StyleSyntaxTokenizer = new(this, "ParseCombinatorType", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.Syntax.StyleSyntaxTokenizer"));
-					r_RParseCombinatorType_StyleSyntaxTokenizer.SetBelong(this.instance);
+					r_ParseCombinatorType_StyleSyntaxTokenizer = new(this, "ParseCombinatorType", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.Syntax.StyleSyntaxTokenizer"));
+					r_ParseCombinatorType_StyleSyntaxTokenizer.SetBelong(this.instance);
 				}
-				return r_RParseCombinatorType_StyleSyntaxTokenizer;
+				return r_ParseCombinatorType_StyleSyntaxTokenizer;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleSheets.Syntax.Expression ParseGroup(UnityEngine.UIElements.StyleSheets.Syntax.StyleSyntaxTokenizer)
 		/// </summary>
-		protected RMethod r_RParseGroup_StyleSyntaxTokenizer;
+		protected RMethod r_ParseGroup_StyleSyntaxTokenizer;
 		public virtual RMethod RParseGroup_StyleSyntaxTokenizer
 		{
 			get
 			{
-				if(r_RParseGroup_StyleSyntaxTokenizer == null)
+				if(r_ParseGroup_StyleSyntaxTokenizer == null)
 				{
-					r_RParseGroup_StyleSyntaxTokenizer = new(this, "ParseGroup", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.Syntax.StyleSyntaxTokenizer"));
-					r_RParseGroup_StyleSyntaxTokenizer.SetBelong(this.instance);
+					r_ParseGroup_StyleSyntaxTokenizer = new(this, "ParseGroup", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.Syntax.StyleSyntaxTokenizer"));
+					r_ParseGroup_StyleSyntaxTokenizer.SetBelong(this.instance);
 				}
-				return r_RParseGroup_StyleSyntaxTokenizer;
+				return r_ParseGroup_StyleSyntaxTokenizer;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleSheets.Syntax.Expression ParseDataType(UnityEngine.UIElements.StyleSheets.Syntax.StyleSyntaxTokenizer)
 		/// </summary>
-		protected RMethod r_RParseDataType_StyleSyntaxTokenizer;
+		protected RMethod r_ParseDataType_StyleSyntaxTokenizer;
 		public virtual RMethod RParseDataType_StyleSyntaxTokenizer
 		{
 			get
 			{
-				if(r_RParseDataType_StyleSyntaxTokenizer == null)
+				if(r_ParseDataType_StyleSyntaxTokenizer == null)
 				{
-					r_RParseDataType_StyleSyntaxTokenizer = new(this, "ParseDataType", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.Syntax.StyleSyntaxTokenizer"));
-					r_RParseDataType_StyleSyntaxTokenizer.SetBelong(this.instance);
+					r_ParseDataType_StyleSyntaxTokenizer = new(this, "ParseDataType", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.Syntax.StyleSyntaxTokenizer"));
+					r_ParseDataType_StyleSyntaxTokenizer.SetBelong(this.instance);
 				}
-				return r_RParseDataType_StyleSyntaxTokenizer;
+				return r_ParseDataType_StyleSyntaxTokenizer;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleSheets.Syntax.Expression ParseNonTerminalValue(System.String)
 		/// </summary>
-		protected RMethod r_RParseNonTerminalValue_String;
+		protected RMethod r_ParseNonTerminalValue_String;
 		public virtual RMethod RParseNonTerminalValue_String
 		{
 			get
 			{
-				if(r_RParseNonTerminalValue_String == null)
+				if(r_ParseNonTerminalValue_String == null)
 				{
-					r_RParseNonTerminalValue_String = new(this, "ParseNonTerminalValue", 0, typeof(System.String));
-					r_RParseNonTerminalValue_String.SetBelong(this.instance);
+					r_ParseNonTerminalValue_String = new(this, "ParseNonTerminalValue", 0, typeof(System.String));
+					r_ParseNonTerminalValue_String.SetBelong(this.instance);
 				}
-				return r_RParseNonTerminalValue_String;
+				return r_ParseNonTerminalValue_String;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleSheets.Syntax.Expression ParseProperty(UnityEngine.UIElements.StyleSheets.Syntax.StyleSyntaxTokenizer)
 		/// </summary>
-		protected RMethod r_RParseProperty_StyleSyntaxTokenizer;
+		protected RMethod r_ParseProperty_StyleSyntaxTokenizer;
 		public virtual RMethod RParseProperty_StyleSyntaxTokenizer
 		{
 			get
 			{
-				if(r_RParseProperty_StyleSyntaxTokenizer == null)
+				if(r_ParseProperty_StyleSyntaxTokenizer == null)
 				{
-					r_RParseProperty_StyleSyntaxTokenizer = new(this, "ParseProperty", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.Syntax.StyleSyntaxTokenizer"));
-					r_RParseProperty_StyleSyntaxTokenizer.SetBelong(this.instance);
+					r_ParseProperty_StyleSyntaxTokenizer = new(this, "ParseProperty", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.Syntax.StyleSyntaxTokenizer"));
+					r_ParseProperty_StyleSyntaxTokenizer.SetBelong(this.instance);
 				}
-				return r_RParseProperty_StyleSyntaxTokenizer;
+				return r_ParseProperty_StyleSyntaxTokenizer;
 			}
 		}
 
 		/// <summary>
 		/// Void ParseMultiplier(UnityEngine.UIElements.StyleSheets.Syntax.StyleSyntaxTokenizer, UnityEngine.UIElements.StyleSheets.Syntax.ExpressionMultiplier ByRef)
 		/// </summary>
-		protected RMethod r_RParseMultiplier_StyleSyntaxTokenizer_Ref_ExpressionMultiplier;
+		protected RMethod r_ParseMultiplier_StyleSyntaxTokenizer_Ref_ExpressionMultiplier;
 		public virtual RMethod RParseMultiplier_StyleSyntaxTokenizer_Ref_ExpressionMultiplier
 		{
 			get
 			{
-				if(r_RParseMultiplier_StyleSyntaxTokenizer_Ref_ExpressionMultiplier == null)
+				if(r_ParseMultiplier_StyleSyntaxTokenizer_Ref_ExpressionMultiplier == null)
 				{
-					r_RParseMultiplier_StyleSyntaxTokenizer_Ref_ExpressionMultiplier = new(this, "ParseMultiplier", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.Syntax.StyleSyntaxTokenizer"),  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.Syntax.ExpressionMultiplier").MakeByRefType());
-					r_RParseMultiplier_StyleSyntaxTokenizer_Ref_ExpressionMultiplier.SetBelong(this.instance);
+					r_ParseMultiplier_StyleSyntaxTokenizer_Ref_ExpressionMultiplier = new(this, "ParseMultiplier", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.Syntax.StyleSyntaxTokenizer"),  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.Syntax.ExpressionMultiplier").MakeByRefType());
+					r_ParseMultiplier_StyleSyntaxTokenizer_Ref_ExpressionMultiplier.SetBelong(this.instance);
 				}
-				return r_RParseMultiplier_StyleSyntaxTokenizer_Ref_ExpressionMultiplier;
+				return r_ParseMultiplier_StyleSyntaxTokenizer_Ref_ExpressionMultiplier;
 			}
 		}
 
 		/// <summary>
 		/// Void ParseRanges(UnityEngine.UIElements.StyleSheets.Syntax.StyleSyntaxTokenizer, Int32 ByRef, Int32 ByRef)
 		/// </summary>
-		protected RMethod r_RParseRanges_StyleSyntaxTokenizer_Out_Int32_Out_Int32;
+		protected RMethod r_ParseRanges_StyleSyntaxTokenizer_Out_Int32_Out_Int32;
 		public virtual RMethod RParseRanges_StyleSyntaxTokenizer_Out_Int32_Out_Int32
 		{
 			get
 			{
-				if(r_RParseRanges_StyleSyntaxTokenizer_Out_Int32_Out_Int32 == null)
+				if(r_ParseRanges_StyleSyntaxTokenizer_Out_Int32_Out_Int32 == null)
 				{
-					r_RParseRanges_StyleSyntaxTokenizer_Out_Int32_Out_Int32 = new(this, "ParseRanges", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.Syntax.StyleSyntaxTokenizer"), typeof(System.Int32).MakeByRefType(), typeof(System.Int32).MakeByRefType());
-					r_RParseRanges_StyleSyntaxTokenizer_Out_Int32_Out_Int32.SetBelong(this.instance);
+					r_ParseRanges_StyleSyntaxTokenizer_Out_Int32_Out_Int32 = new(this, "ParseRanges", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.Syntax.StyleSyntaxTokenizer"), typeof(System.Int32).MakeByRefType(), typeof(System.Int32).MakeByRefType());
+					r_ParseRanges_StyleSyntaxTokenizer_Out_Int32_Out_Int32.SetBelong(this.instance);
 				}
-				return r_RParseRanges_StyleSyntaxTokenizer_Out_Int32_Out_Int32;
+				return r_ParseRanges_StyleSyntaxTokenizer_Out_Int32_Out_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Void EatSpace(UnityEngine.UIElements.StyleSheets.Syntax.StyleSyntaxTokenizer)
 		/// </summary>
-		protected static RMethod r_REatSpace_StyleSyntaxTokenizer;
+		protected static RMethod r_EatSpace_StyleSyntaxTokenizer;
 		public static RMethod REatSpace_StyleSyntaxTokenizer
 		{
 			get
 			{
-				if(r_REatSpace_StyleSyntaxTokenizer == null)
+				if(r_EatSpace_StyleSyntaxTokenizer == null)
 				{
-					r_REatSpace_StyleSyntaxTokenizer = new( ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.Syntax.StyleSyntaxParser"), "EatSpace", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.Syntax.StyleSyntaxTokenizer"));
-					r_REatSpace_StyleSyntaxTokenizer.SetBelong(null);
+					r_EatSpace_StyleSyntaxTokenizer = new( ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.Syntax.StyleSyntaxParser"), "EatSpace", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.Syntax.StyleSyntaxTokenizer"));
+					r_EatSpace_StyleSyntaxTokenizer.SetBelong(null);
 				}
-				return r_REatSpace_StyleSyntaxTokenizer;
+				return r_EatSpace_StyleSyntaxTokenizer;
 			}
 		}
 
 		/// <summary>
 		/// Boolean IsExpressionEnd(UnityEngine.UIElements.StyleSheets.Syntax.StyleSyntaxToken)
 		/// </summary>
-		protected static RMethod r_RIsExpressionEnd_StyleSyntaxToken;
+		protected static RMethod r_IsExpressionEnd_StyleSyntaxToken;
 		public static RMethod RIsExpressionEnd_StyleSyntaxToken
 		{
 			get
 			{
-				if(r_RIsExpressionEnd_StyleSyntaxToken == null)
+				if(r_IsExpressionEnd_StyleSyntaxToken == null)
 				{
-					r_RIsExpressionEnd_StyleSyntaxToken = new( ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.Syntax.StyleSyntaxParser"), "IsExpressionEnd", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.Syntax.StyleSyntaxToken"));
-					r_RIsExpressionEnd_StyleSyntaxToken.SetBelong(null);
+					r_IsExpressionEnd_StyleSyntaxToken = new( ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.Syntax.StyleSyntaxParser"), "IsExpressionEnd", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.Syntax.StyleSyntaxToken"));
+					r_IsExpressionEnd_StyleSyntaxToken.SetBelong(null);
 				}
-				return r_RIsExpressionEnd_StyleSyntaxToken;
+				return r_IsExpressionEnd_StyleSyntaxToken;
 			}
 		}
 
 		/// <summary>
 		/// Boolean IsCombinator(UnityEngine.UIElements.StyleSheets.Syntax.StyleSyntaxToken)
 		/// </summary>
-		protected static RMethod r_RIsCombinator_StyleSyntaxToken;
+		protected static RMethod r_IsCombinator_StyleSyntaxToken;
 		public static RMethod RIsCombinator_StyleSyntaxToken
 		{
 			get
 			{
-				if(r_RIsCombinator_StyleSyntaxToken == null)
+				if(r_IsCombinator_StyleSyntaxToken == null)
 				{
-					r_RIsCombinator_StyleSyntaxToken = new( ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.Syntax.StyleSyntaxParser"), "IsCombinator", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.Syntax.StyleSyntaxToken"));
-					r_RIsCombinator_StyleSyntaxToken.SetBelong(null);
+					r_IsCombinator_StyleSyntaxToken = new( ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.Syntax.StyleSyntaxParser"), "IsCombinator", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.Syntax.StyleSyntaxToken"));
+					r_IsCombinator_StyleSyntaxToken.SetBelong(null);
 				}
-				return r_RIsCombinator_StyleSyntaxToken;
+				return r_IsCombinator_StyleSyntaxToken;
 			}
 		}
 
 		/// <summary>
 		/// Boolean IsMultiplier(UnityEngine.UIElements.StyleSheets.Syntax.StyleSyntaxToken)
 		/// </summary>
-		protected static RMethod r_RIsMultiplier_StyleSyntaxToken;
+		protected static RMethod r_IsMultiplier_StyleSyntaxToken;
 		public static RMethod RIsMultiplier_StyleSyntaxToken
 		{
 			get
 			{
-				if(r_RIsMultiplier_StyleSyntaxToken == null)
+				if(r_IsMultiplier_StyleSyntaxToken == null)
 				{
-					r_RIsMultiplier_StyleSyntaxToken = new( ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.Syntax.StyleSyntaxParser"), "IsMultiplier", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.Syntax.StyleSyntaxToken"));
-					r_RIsMultiplier_StyleSyntaxToken.SetBelong(null);
+					r_IsMultiplier_StyleSyntaxToken = new( ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.Syntax.StyleSyntaxParser"), "IsMultiplier", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.Syntax.StyleSyntaxToken"));
+					r_IsMultiplier_StyleSyntaxToken.SetBelong(null);
 				}
-				return r_RIsMultiplier_StyleSyntaxToken;
+				return r_IsMultiplier_StyleSyntaxToken;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Equals(System.Object)
 		/// </summary>
-		protected RMethod r_REquals_Object;
+		protected RMethod r_Equals_Object;
 		public virtual RMethod REquals_Object
 		{
 			get
 			{
-				if(r_REquals_Object == null)
+				if(r_Equals_Object == null)
 				{
-					r_REquals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_REquals_Object.SetBelong(this.instance);
+					r_Equals_Object = new(this, "Equals", 0, typeof(System.Object));
+					r_Equals_Object.SetBelong(this.instance);
 				}
-				return r_REquals_Object;
+				return r_Equals_Object;
 			}
 		}
 
 		/// <summary>
 		/// Void Finalize()
 		/// </summary>
-		protected RMethod r_RFinalize;
+		protected RMethod r_Finalize;
 		public virtual RMethod RFinalize
 		{
 			get
 			{
-				if(r_RFinalize == null)
+				if(r_Finalize == null)
 				{
-					r_RFinalize = new(this, "Finalize", 0);
-					r_RFinalize.SetBelong(this.instance);
+					r_Finalize = new(this, "Finalize", 0);
+					r_Finalize.SetBelong(this.instance);
 				}
-				return r_RFinalize;
+				return r_Finalize;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetHashCode()
 		/// </summary>
-		protected RMethod r_RGetHashCode;
+		protected RMethod r_GetHashCode;
 		public virtual RMethod RGetHashCode
 		{
 			get
 			{
-				if(r_RGetHashCode == null)
+				if(r_GetHashCode == null)
 				{
-					r_RGetHashCode = new(this, "GetHashCode", 0);
-					r_RGetHashCode.SetBelong(this.instance);
+					r_GetHashCode = new(this, "GetHashCode", 0);
+					r_GetHashCode.SetBelong(this.instance);
 				}
-				return r_RGetHashCode;
+				return r_GetHashCode;
 			}
 		}
 
 		/// <summary>
 		/// System.Type GetType()
 		/// </summary>
-		protected RMethod r_RGetType;
+		protected RMethod r_GetType;
 		public virtual RMethod RGetType
 		{
 			get
 			{
-				if(r_RGetType == null)
+				if(r_GetType == null)
 				{
-					r_RGetType = new(this, "GetType", 0);
-					r_RGetType.SetBelong(this.instance);
+					r_GetType = new(this, "GetType", 0);
+					r_GetType.SetBelong(this.instance);
 				}
-				return r_RGetType;
+				return r_GetType;
 			}
 		}
 
 		/// <summary>
 		/// System.Object MemberwiseClone()
 		/// </summary>
-		protected RMethod r_RMemberwiseClone;
+		protected RMethod r_MemberwiseClone;
 		public virtual RMethod RMemberwiseClone
 		{
 			get
 			{
-				if(r_RMemberwiseClone == null)
+				if(r_MemberwiseClone == null)
 				{
-					r_RMemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_RMemberwiseClone.SetBelong(this.instance);
+					r_MemberwiseClone = new(this, "MemberwiseClone", 0);
+					r_MemberwiseClone.SetBelong(this.instance);
 				}
-				return r_RMemberwiseClone;
+				return r_MemberwiseClone;
 			}
 		}
 
 		/// <summary>
 		/// System.String ToString()
 		/// </summary>
-		protected RMethod r_RToString;
+		protected RMethod r_ToString;
 		public virtual RMethod RToString
 		{
 			get
 			{
-				if(r_RToString == null)
+				if(r_ToString == null)
 				{
-					r_RToString = new(this, "ToString", 0);
-					r_RToString.SetBelong(this.instance);
+					r_ToString = new(this, "ToString", 0);
+					r_ToString.SetBelong(this.instance);
 				}
-				return r_RToString;
+				return r_ToString;
 			}
 		}
 

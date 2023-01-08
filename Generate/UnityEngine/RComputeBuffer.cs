@@ -115,578 +115,578 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Void Finalize()
 		/// </summary>
-		protected RMethod r_RFinalize;
+		protected RMethod r_Finalize;
 		public virtual RMethod RFinalize
 		{
 			get
 			{
-				if(r_RFinalize == null)
+				if(r_Finalize == null)
 				{
-					r_RFinalize = new(this, "Finalize", 0);
-					r_RFinalize.SetBelong(this.instance);
+					r_Finalize = new(this, "Finalize", 0);
+					r_Finalize.SetBelong(this.instance);
 				}
-				return r_RFinalize;
+				return r_Finalize;
 			}
 		}
 
 		/// <summary>
 		/// Void Dispose()
 		/// </summary>
-		protected RMethod r_RDispose;
+		protected RMethod r_Dispose;
 		public virtual RMethod RDispose
 		{
 			get
 			{
-				if(r_RDispose == null)
+				if(r_Dispose == null)
 				{
-					r_RDispose = new(this, "Dispose", 0);
-					r_RDispose.SetBelong(this.instance);
+					r_Dispose = new(this, "Dispose", 0);
+					r_Dispose.SetBelong(this.instance);
 				}
-				return r_RDispose;
+				return r_Dispose;
 			}
 		}
 
 		/// <summary>
 		/// Void Dispose(Boolean)
 		/// </summary>
-		protected RMethod r_RDispose_Boolean;
+		protected RMethod r_Dispose_Boolean;
 		public virtual RMethod RDispose_Boolean
 		{
 			get
 			{
-				if(r_RDispose_Boolean == null)
+				if(r_Dispose_Boolean == null)
 				{
-					r_RDispose_Boolean = new(this, "Dispose", 0, typeof(System.Boolean));
-					r_RDispose_Boolean.SetBelong(this.instance);
+					r_Dispose_Boolean = new(this, "Dispose", 0, typeof(System.Boolean));
+					r_Dispose_Boolean.SetBelong(this.instance);
 				}
-				return r_RDispose_Boolean;
+				return r_Dispose_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// IntPtr InitBuffer(Int32, Int32, UnityEngine.ComputeBufferType, UnityEngine.ComputeBufferMode)
 		/// </summary>
-		protected static RMethod r_RInitBuffer_Int32_Int32_ComputeBufferType_ComputeBufferMode;
+		protected static RMethod r_InitBuffer_Int32_Int32_ComputeBufferType_ComputeBufferMode;
 		public static RMethod RInitBuffer_Int32_Int32_ComputeBufferType_ComputeBufferMode
 		{
 			get
 			{
-				if(r_RInitBuffer_Int32_Int32_ComputeBufferType_ComputeBufferMode == null)
+				if(r_InitBuffer_Int32_Int32_ComputeBufferType_ComputeBufferMode == null)
 				{
-					r_RInitBuffer_Int32_Int32_ComputeBufferType_ComputeBufferMode = new(typeof(UnityEngine.ComputeBuffer), "InitBuffer", 0, typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.ComputeBufferType), typeof(UnityEngine.ComputeBufferMode));
-					r_RInitBuffer_Int32_Int32_ComputeBufferType_ComputeBufferMode.SetBelong(null);
+					r_InitBuffer_Int32_Int32_ComputeBufferType_ComputeBufferMode = new(typeof(UnityEngine.ComputeBuffer), "InitBuffer", 0, typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.ComputeBufferType), typeof(UnityEngine.ComputeBufferMode));
+					r_InitBuffer_Int32_Int32_ComputeBufferType_ComputeBufferMode.SetBelong(null);
 				}
-				return r_RInitBuffer_Int32_Int32_ComputeBufferType_ComputeBufferMode;
+				return r_InitBuffer_Int32_Int32_ComputeBufferType_ComputeBufferMode;
 			}
 		}
 
 		/// <summary>
 		/// Void DestroyBuffer(UnityEngine.ComputeBuffer)
 		/// </summary>
-		protected static RMethod r_RDestroyBuffer_ComputeBuffer;
+		protected static RMethod r_DestroyBuffer_ComputeBuffer;
 		public static RMethod RDestroyBuffer_ComputeBuffer
 		{
 			get
 			{
-				if(r_RDestroyBuffer_ComputeBuffer == null)
+				if(r_DestroyBuffer_ComputeBuffer == null)
 				{
-					r_RDestroyBuffer_ComputeBuffer = new(typeof(UnityEngine.ComputeBuffer), "DestroyBuffer", 0, typeof(UnityEngine.ComputeBuffer));
-					r_RDestroyBuffer_ComputeBuffer.SetBelong(null);
+					r_DestroyBuffer_ComputeBuffer = new(typeof(UnityEngine.ComputeBuffer), "DestroyBuffer", 0, typeof(UnityEngine.ComputeBuffer));
+					r_DestroyBuffer_ComputeBuffer.SetBelong(null);
 				}
-				return r_RDestroyBuffer_ComputeBuffer;
+				return r_DestroyBuffer_ComputeBuffer;
 			}
 		}
 
 		/// <summary>
 		/// Void Release()
 		/// </summary>
-		protected RMethod r_RRelease;
+		protected RMethod r_Release;
 		public virtual RMethod RRelease
 		{
 			get
 			{
-				if(r_RRelease == null)
+				if(r_Release == null)
 				{
-					r_RRelease = new(this, "Release", 0);
-					r_RRelease.SetBelong(this.instance);
+					r_Release = new(this, "Release", 0);
+					r_Release.SetBelong(this.instance);
 				}
-				return r_RRelease;
+				return r_Release;
 			}
 		}
 
 		/// <summary>
 		/// Boolean IsValidBuffer(UnityEngine.ComputeBuffer)
 		/// </summary>
-		protected static RMethod r_RIsValidBuffer_ComputeBuffer;
+		protected static RMethod r_IsValidBuffer_ComputeBuffer;
 		public static RMethod RIsValidBuffer_ComputeBuffer
 		{
 			get
 			{
-				if(r_RIsValidBuffer_ComputeBuffer == null)
+				if(r_IsValidBuffer_ComputeBuffer == null)
 				{
-					r_RIsValidBuffer_ComputeBuffer = new(typeof(UnityEngine.ComputeBuffer), "IsValidBuffer", 0, typeof(UnityEngine.ComputeBuffer));
-					r_RIsValidBuffer_ComputeBuffer.SetBelong(null);
+					r_IsValidBuffer_ComputeBuffer = new(typeof(UnityEngine.ComputeBuffer), "IsValidBuffer", 0, typeof(UnityEngine.ComputeBuffer));
+					r_IsValidBuffer_ComputeBuffer.SetBelong(null);
 				}
-				return r_RIsValidBuffer_ComputeBuffer;
+				return r_IsValidBuffer_ComputeBuffer;
 			}
 		}
 
 		/// <summary>
 		/// Boolean IsValid()
 		/// </summary>
-		protected RMethod r_RIsValid;
+		protected RMethod r_IsValid;
 		public virtual RMethod RIsValid
 		{
 			get
 			{
-				if(r_RIsValid == null)
+				if(r_IsValid == null)
 				{
-					r_RIsValid = new(this, "IsValid", 0);
-					r_RIsValid.SetBelong(this.instance);
+					r_IsValid = new(this, "IsValid", 0);
+					r_IsValid.SetBelong(this.instance);
 				}
-				return r_RIsValid;
+				return r_IsValid;
 			}
 		}
 
 		/// <summary>
 		/// Void SetData(System.Array)
 		/// </summary>
-		protected RMethod r_RSetData_Array;
+		protected RMethod r_SetData_Array;
 		public virtual RMethod RSetData_Array
 		{
 			get
 			{
-				if(r_RSetData_Array == null)
+				if(r_SetData_Array == null)
 				{
-					r_RSetData_Array = new(this, "SetData", 0, typeof(System.Array));
-					r_RSetData_Array.SetBelong(this.instance);
+					r_SetData_Array = new(this, "SetData", 0, typeof(System.Array));
+					r_SetData_Array.SetBelong(this.instance);
 				}
-				return r_RSetData_Array;
+				return r_SetData_Array;
 			}
 		}
 
 		/// <summary>
 		/// Void SetData[T](System.Collections.Generic.List`1[T])
 		/// </summary>
-		protected RMethod r_RSetData_GT_List_d_T_p_;
+		protected RMethod r_SetData_GT_List_d_T_p_;
 		public virtual RMethod RSetData_GT_List_d_T_p_
 		{
 			get
 			{
-				if(r_RSetData_GT_List_d_T_p_ == null)
+				if(r_SetData_GT_List_d_T_p_ == null)
 				{
-					r_RSetData_GT_List_d_T_p_ = new(this, "SetData", 1, typeof(System.Collections.Generic.List<>).MakeGenericType(Type.MakeGenericMethodParameter(0)));
-					r_RSetData_GT_List_d_T_p_.SetBelong(this.instance);
+					r_SetData_GT_List_d_T_p_ = new(this, "SetData", 1, typeof(System.Collections.Generic.List<>).MakeGenericType(Type.MakeGenericMethodParameter(0)));
+					r_SetData_GT_List_d_T_p_.SetBelong(this.instance);
 				}
-				return r_RSetData_GT_List_d_T_p_;
+				return r_SetData_GT_List_d_T_p_;
 			}
 		}
 
 		/// <summary>
 		/// Void SetData[T](Unity.Collections.NativeArray`1[T])
 		/// </summary>
-		protected RMethod r_RSetData_GT_NativeArray_d_T_p_;
+		protected RMethod r_SetData_GT_NativeArray_d_T_p_;
 		public virtual RMethod RSetData_GT_NativeArray_d_T_p_
 		{
 			get
 			{
-				if(r_RSetData_GT_NativeArray_d_T_p_ == null)
+				if(r_SetData_GT_NativeArray_d_T_p_ == null)
 				{
-					r_RSetData_GT_NativeArray_d_T_p_ = new(this, "SetData", 1, typeof(Unity.Collections.NativeArray<>).MakeGenericType(Type.MakeGenericMethodParameter(0)));
-					r_RSetData_GT_NativeArray_d_T_p_.SetBelong(this.instance);
+					r_SetData_GT_NativeArray_d_T_p_ = new(this, "SetData", 1, typeof(Unity.Collections.NativeArray<>).MakeGenericType(Type.MakeGenericMethodParameter(0)));
+					r_SetData_GT_NativeArray_d_T_p_.SetBelong(this.instance);
 				}
-				return r_RSetData_GT_NativeArray_d_T_p_;
+				return r_SetData_GT_NativeArray_d_T_p_;
 			}
 		}
 
 		/// <summary>
 		/// Void SetData(System.Array, Int32, Int32, Int32)
 		/// </summary>
-		protected RMethod r_RSetData_Array_Int32_Int32_Int32;
+		protected RMethod r_SetData_Array_Int32_Int32_Int32;
 		public virtual RMethod RSetData_Array_Int32_Int32_Int32
 		{
 			get
 			{
-				if(r_RSetData_Array_Int32_Int32_Int32 == null)
+				if(r_SetData_Array_Int32_Int32_Int32 == null)
 				{
-					r_RSetData_Array_Int32_Int32_Int32 = new(this, "SetData", 0, typeof(System.Array), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32));
-					r_RSetData_Array_Int32_Int32_Int32.SetBelong(this.instance);
+					r_SetData_Array_Int32_Int32_Int32 = new(this, "SetData", 0, typeof(System.Array), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32));
+					r_SetData_Array_Int32_Int32_Int32.SetBelong(this.instance);
 				}
-				return r_RSetData_Array_Int32_Int32_Int32;
+				return r_SetData_Array_Int32_Int32_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Void SetData[T](System.Collections.Generic.List`1[T], Int32, Int32, Int32)
 		/// </summary>
-		protected RMethod r_RSetData_GT_List_d_T_p__Int32_Int32_Int32;
+		protected RMethod r_SetData_GT_List_d_T_p__Int32_Int32_Int32;
 		public virtual RMethod RSetData_GT_List_d_T_p__Int32_Int32_Int32
 		{
 			get
 			{
-				if(r_RSetData_GT_List_d_T_p__Int32_Int32_Int32 == null)
+				if(r_SetData_GT_List_d_T_p__Int32_Int32_Int32 == null)
 				{
-					r_RSetData_GT_List_d_T_p__Int32_Int32_Int32 = new(this, "SetData", 1, typeof(System.Collections.Generic.List<>).MakeGenericType(Type.MakeGenericMethodParameter(0)), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32));
-					r_RSetData_GT_List_d_T_p__Int32_Int32_Int32.SetBelong(this.instance);
+					r_SetData_GT_List_d_T_p__Int32_Int32_Int32 = new(this, "SetData", 1, typeof(System.Collections.Generic.List<>).MakeGenericType(Type.MakeGenericMethodParameter(0)), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32));
+					r_SetData_GT_List_d_T_p__Int32_Int32_Int32.SetBelong(this.instance);
 				}
-				return r_RSetData_GT_List_d_T_p__Int32_Int32_Int32;
+				return r_SetData_GT_List_d_T_p__Int32_Int32_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Void SetData[T](Unity.Collections.NativeArray`1[T], Int32, Int32, Int32)
 		/// </summary>
-		protected RMethod r_RSetData_GT_NativeArray_d_T_p__Int32_Int32_Int32;
+		protected RMethod r_SetData_GT_NativeArray_d_T_p__Int32_Int32_Int32;
 		public virtual RMethod RSetData_GT_NativeArray_d_T_p__Int32_Int32_Int32
 		{
 			get
 			{
-				if(r_RSetData_GT_NativeArray_d_T_p__Int32_Int32_Int32 == null)
+				if(r_SetData_GT_NativeArray_d_T_p__Int32_Int32_Int32 == null)
 				{
-					r_RSetData_GT_NativeArray_d_T_p__Int32_Int32_Int32 = new(this, "SetData", 1, typeof(Unity.Collections.NativeArray<>).MakeGenericType(Type.MakeGenericMethodParameter(0)), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32));
-					r_RSetData_GT_NativeArray_d_T_p__Int32_Int32_Int32.SetBelong(this.instance);
+					r_SetData_GT_NativeArray_d_T_p__Int32_Int32_Int32 = new(this, "SetData", 1, typeof(Unity.Collections.NativeArray<>).MakeGenericType(Type.MakeGenericMethodParameter(0)), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32));
+					r_SetData_GT_NativeArray_d_T_p__Int32_Int32_Int32.SetBelong(this.instance);
 				}
-				return r_RSetData_GT_NativeArray_d_T_p__Int32_Int32_Int32;
+				return r_SetData_GT_NativeArray_d_T_p__Int32_Int32_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Void InternalSetNativeData(IntPtr, Int32, Int32, Int32, Int32)
 		/// </summary>
-		protected RMethod r_RInternalSetNativeData_IntPtr_Int32_Int32_Int32_Int32;
+		protected RMethod r_InternalSetNativeData_IntPtr_Int32_Int32_Int32_Int32;
 		public virtual RMethod RInternalSetNativeData_IntPtr_Int32_Int32_Int32_Int32
 		{
 			get
 			{
-				if(r_RInternalSetNativeData_IntPtr_Int32_Int32_Int32_Int32 == null)
+				if(r_InternalSetNativeData_IntPtr_Int32_Int32_Int32_Int32 == null)
 				{
-					r_RInternalSetNativeData_IntPtr_Int32_Int32_Int32_Int32 = new(this, "InternalSetNativeData", 0, typeof(System.IntPtr), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32));
-					r_RInternalSetNativeData_IntPtr_Int32_Int32_Int32_Int32.SetBelong(this.instance);
+					r_InternalSetNativeData_IntPtr_Int32_Int32_Int32_Int32 = new(this, "InternalSetNativeData", 0, typeof(System.IntPtr), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32));
+					r_InternalSetNativeData_IntPtr_Int32_Int32_Int32_Int32.SetBelong(this.instance);
 				}
-				return r_RInternalSetNativeData_IntPtr_Int32_Int32_Int32_Int32;
+				return r_InternalSetNativeData_IntPtr_Int32_Int32_Int32_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Void InternalSetData(System.Array, Int32, Int32, Int32, Int32)
 		/// </summary>
-		protected RMethod r_RInternalSetData_Array_Int32_Int32_Int32_Int32;
+		protected RMethod r_InternalSetData_Array_Int32_Int32_Int32_Int32;
 		public virtual RMethod RInternalSetData_Array_Int32_Int32_Int32_Int32
 		{
 			get
 			{
-				if(r_RInternalSetData_Array_Int32_Int32_Int32_Int32 == null)
+				if(r_InternalSetData_Array_Int32_Int32_Int32_Int32 == null)
 				{
-					r_RInternalSetData_Array_Int32_Int32_Int32_Int32 = new(this, "InternalSetData", 0, typeof(System.Array), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32));
-					r_RInternalSetData_Array_Int32_Int32_Int32_Int32.SetBelong(this.instance);
+					r_InternalSetData_Array_Int32_Int32_Int32_Int32 = new(this, "InternalSetData", 0, typeof(System.Array), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32));
+					r_InternalSetData_Array_Int32_Int32_Int32_Int32.SetBelong(this.instance);
 				}
-				return r_RInternalSetData_Array_Int32_Int32_Int32_Int32;
+				return r_InternalSetData_Array_Int32_Int32_Int32_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Void GetData(System.Array)
 		/// </summary>
-		protected RMethod r_RGetData_Array;
+		protected RMethod r_GetData_Array;
 		public virtual RMethod RGetData_Array
 		{
 			get
 			{
-				if(r_RGetData_Array == null)
+				if(r_GetData_Array == null)
 				{
-					r_RGetData_Array = new(this, "GetData", 0, typeof(System.Array));
-					r_RGetData_Array.SetBelong(this.instance);
+					r_GetData_Array = new(this, "GetData", 0, typeof(System.Array));
+					r_GetData_Array.SetBelong(this.instance);
 				}
-				return r_RGetData_Array;
+				return r_GetData_Array;
 			}
 		}
 
 		/// <summary>
 		/// Void GetData(System.Array, Int32, Int32, Int32)
 		/// </summary>
-		protected RMethod r_RGetData_Array_Int32_Int32_Int32;
+		protected RMethod r_GetData_Array_Int32_Int32_Int32;
 		public virtual RMethod RGetData_Array_Int32_Int32_Int32
 		{
 			get
 			{
-				if(r_RGetData_Array_Int32_Int32_Int32 == null)
+				if(r_GetData_Array_Int32_Int32_Int32 == null)
 				{
-					r_RGetData_Array_Int32_Int32_Int32 = new(this, "GetData", 0, typeof(System.Array), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32));
-					r_RGetData_Array_Int32_Int32_Int32.SetBelong(this.instance);
+					r_GetData_Array_Int32_Int32_Int32 = new(this, "GetData", 0, typeof(System.Array), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32));
+					r_GetData_Array_Int32_Int32_Int32.SetBelong(this.instance);
 				}
-				return r_RGetData_Array_Int32_Int32_Int32;
+				return r_GetData_Array_Int32_Int32_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Void InternalGetData(System.Array, Int32, Int32, Int32, Int32)
 		/// </summary>
-		protected RMethod r_RInternalGetData_Array_Int32_Int32_Int32_Int32;
+		protected RMethod r_InternalGetData_Array_Int32_Int32_Int32_Int32;
 		public virtual RMethod RInternalGetData_Array_Int32_Int32_Int32_Int32
 		{
 			get
 			{
-				if(r_RInternalGetData_Array_Int32_Int32_Int32_Int32 == null)
+				if(r_InternalGetData_Array_Int32_Int32_Int32_Int32 == null)
 				{
-					r_RInternalGetData_Array_Int32_Int32_Int32_Int32 = new(this, "InternalGetData", 0, typeof(System.Array), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32));
-					r_RInternalGetData_Array_Int32_Int32_Int32_Int32.SetBelong(this.instance);
+					r_InternalGetData_Array_Int32_Int32_Int32_Int32 = new(this, "InternalGetData", 0, typeof(System.Array), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32));
+					r_InternalGetData_Array_Int32_Int32_Int32_Int32.SetBelong(this.instance);
 				}
-				return r_RInternalGetData_Array_Int32_Int32_Int32_Int32;
+				return r_InternalGetData_Array_Int32_Int32_Int32_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Void* BeginBufferWrite(Int32, Int32)
 		/// </summary>
-		protected RMethod r_RBeginBufferWrite_Int32_Int32;
+		protected RMethod r_BeginBufferWrite_Int32_Int32;
 		public virtual RMethod RBeginBufferWrite_Int32_Int32
 		{
 			get
 			{
-				if(r_RBeginBufferWrite_Int32_Int32 == null)
+				if(r_BeginBufferWrite_Int32_Int32 == null)
 				{
-					r_RBeginBufferWrite_Int32_Int32 = new(this, "BeginBufferWrite", 0, typeof(System.Int32), typeof(System.Int32));
-					r_RBeginBufferWrite_Int32_Int32.SetBelong(this.instance);
+					r_BeginBufferWrite_Int32_Int32 = new(this, "BeginBufferWrite", 0, typeof(System.Int32), typeof(System.Int32));
+					r_BeginBufferWrite_Int32_Int32.SetBelong(this.instance);
 				}
-				return r_RBeginBufferWrite_Int32_Int32;
+				return r_BeginBufferWrite_Int32_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Unity.Collections.NativeArray`1[T] BeginWrite[T](Int32, Int32)
 		/// </summary>
-		protected RMethod r_RBeginWrite_GT_Int32_Int32;
+		protected RMethod r_BeginWrite_GT_Int32_Int32;
 		public virtual RMethod RBeginWrite_GT_Int32_Int32
 		{
 			get
 			{
-				if(r_RBeginWrite_GT_Int32_Int32 == null)
+				if(r_BeginWrite_GT_Int32_Int32 == null)
 				{
-					r_RBeginWrite_GT_Int32_Int32 = new(this, "BeginWrite", 1, typeof(System.Int32), typeof(System.Int32));
-					r_RBeginWrite_GT_Int32_Int32.SetBelong(this.instance);
+					r_BeginWrite_GT_Int32_Int32 = new(this, "BeginWrite", 1, typeof(System.Int32), typeof(System.Int32));
+					r_BeginWrite_GT_Int32_Int32.SetBelong(this.instance);
 				}
-				return r_RBeginWrite_GT_Int32_Int32;
+				return r_BeginWrite_GT_Int32_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Void EndBufferWrite(Int32)
 		/// </summary>
-		protected RMethod r_REndBufferWrite_Int32;
+		protected RMethod r_EndBufferWrite_Int32;
 		public virtual RMethod REndBufferWrite_Int32
 		{
 			get
 			{
-				if(r_REndBufferWrite_Int32 == null)
+				if(r_EndBufferWrite_Int32 == null)
 				{
-					r_REndBufferWrite_Int32 = new(this, "EndBufferWrite", 0, typeof(System.Int32));
-					r_REndBufferWrite_Int32.SetBelong(this.instance);
+					r_EndBufferWrite_Int32 = new(this, "EndBufferWrite", 0, typeof(System.Int32));
+					r_EndBufferWrite_Int32.SetBelong(this.instance);
 				}
-				return r_REndBufferWrite_Int32;
+				return r_EndBufferWrite_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Void EndWrite[T](Int32)
 		/// </summary>
-		protected RMethod r_REndWrite_GT_Int32;
+		protected RMethod r_EndWrite_GT_Int32;
 		public virtual RMethod REndWrite_GT_Int32
 		{
 			get
 			{
-				if(r_REndWrite_GT_Int32 == null)
+				if(r_EndWrite_GT_Int32 == null)
 				{
-					r_REndWrite_GT_Int32 = new(this, "EndWrite", 1, typeof(System.Int32));
-					r_REndWrite_GT_Int32.SetBelong(this.instance);
+					r_EndWrite_GT_Int32 = new(this, "EndWrite", 1, typeof(System.Int32));
+					r_EndWrite_GT_Int32.SetBelong(this.instance);
 				}
-				return r_REndWrite_GT_Int32;
+				return r_EndWrite_GT_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Void SetName(System.String)
 		/// </summary>
-		protected RMethod r_RSetName_String;
+		protected RMethod r_SetName_String;
 		public virtual RMethod RSetName_String
 		{
 			get
 			{
-				if(r_RSetName_String == null)
+				if(r_SetName_String == null)
 				{
-					r_RSetName_String = new(this, "SetName", 0, typeof(System.String));
-					r_RSetName_String.SetBelong(this.instance);
+					r_SetName_String = new(this, "SetName", 0, typeof(System.String));
+					r_SetName_String.SetBelong(this.instance);
 				}
-				return r_RSetName_String;
+				return r_SetName_String;
 			}
 		}
 
 		/// <summary>
 		/// Void SetCounterValue(UInt32)
 		/// </summary>
-		protected RMethod r_RSetCounterValue_UInt32;
+		protected RMethod r_SetCounterValue_UInt32;
 		public virtual RMethod RSetCounterValue_UInt32
 		{
 			get
 			{
-				if(r_RSetCounterValue_UInt32 == null)
+				if(r_SetCounterValue_UInt32 == null)
 				{
-					r_RSetCounterValue_UInt32 = new(this, "SetCounterValue", 0, typeof(System.UInt32));
-					r_RSetCounterValue_UInt32.SetBelong(this.instance);
+					r_SetCounterValue_UInt32 = new(this, "SetCounterValue", 0, typeof(System.UInt32));
+					r_SetCounterValue_UInt32.SetBelong(this.instance);
 				}
-				return r_RSetCounterValue_UInt32;
+				return r_SetCounterValue_UInt32;
 			}
 		}
 
 		/// <summary>
 		/// Void CopyCount(UnityEngine.ComputeBuffer, UnityEngine.ComputeBuffer, Int32)
 		/// </summary>
-		protected static RMethod r_RCopyCount_ComputeBuffer_ComputeBuffer_Int32;
+		protected static RMethod r_CopyCount_ComputeBuffer_ComputeBuffer_Int32;
 		public static RMethod RCopyCount_ComputeBuffer_ComputeBuffer_Int32
 		{
 			get
 			{
-				if(r_RCopyCount_ComputeBuffer_ComputeBuffer_Int32 == null)
+				if(r_CopyCount_ComputeBuffer_ComputeBuffer_Int32 == null)
 				{
-					r_RCopyCount_ComputeBuffer_ComputeBuffer_Int32 = new(typeof(UnityEngine.ComputeBuffer), "CopyCount", 0, typeof(UnityEngine.ComputeBuffer), typeof(UnityEngine.ComputeBuffer), typeof(System.Int32));
-					r_RCopyCount_ComputeBuffer_ComputeBuffer_Int32.SetBelong(null);
+					r_CopyCount_ComputeBuffer_ComputeBuffer_Int32 = new(typeof(UnityEngine.ComputeBuffer), "CopyCount", 0, typeof(UnityEngine.ComputeBuffer), typeof(UnityEngine.ComputeBuffer), typeof(System.Int32));
+					r_CopyCount_ComputeBuffer_ComputeBuffer_Int32.SetBelong(null);
 				}
-				return r_RCopyCount_ComputeBuffer_ComputeBuffer_Int32;
+				return r_CopyCount_ComputeBuffer_ComputeBuffer_Int32;
 			}
 		}
 
 		/// <summary>
 		/// IntPtr GetNativeBufferPtr()
 		/// </summary>
-		protected RMethod r_RGetNativeBufferPtr;
+		protected RMethod r_GetNativeBufferPtr;
 		public virtual RMethod RGetNativeBufferPtr
 		{
 			get
 			{
-				if(r_RGetNativeBufferPtr == null)
+				if(r_GetNativeBufferPtr == null)
 				{
-					r_RGetNativeBufferPtr = new(this, "GetNativeBufferPtr", 0);
-					r_RGetNativeBufferPtr.SetBelong(this.instance);
+					r_GetNativeBufferPtr = new(this, "GetNativeBufferPtr", 0);
+					r_GetNativeBufferPtr.SetBelong(this.instance);
 				}
-				return r_RGetNativeBufferPtr;
+				return r_GetNativeBufferPtr;
 			}
 		}
 
 		/// <summary>
 		/// Void AddBufferToLeakDetector()
 		/// </summary>
-		protected RMethod r_RAddBufferToLeakDetector;
+		protected RMethod r_AddBufferToLeakDetector;
 		public virtual RMethod RAddBufferToLeakDetector
 		{
 			get
 			{
-				if(r_RAddBufferToLeakDetector == null)
+				if(r_AddBufferToLeakDetector == null)
 				{
-					r_RAddBufferToLeakDetector = new(this, "AddBufferToLeakDetector", 0);
-					r_RAddBufferToLeakDetector.SetBelong(this.instance);
+					r_AddBufferToLeakDetector = new(this, "AddBufferToLeakDetector", 0);
+					r_AddBufferToLeakDetector.SetBelong(this.instance);
 				}
-				return r_RAddBufferToLeakDetector;
+				return r_AddBufferToLeakDetector;
 			}
 		}
 
 		/// <summary>
 		/// Void RemoveBufferFromLeakDetector()
 		/// </summary>
-		protected RMethod r_RRemoveBufferFromLeakDetector;
+		protected RMethod r_RemoveBufferFromLeakDetector;
 		public virtual RMethod RRemoveBufferFromLeakDetector
 		{
 			get
 			{
-				if(r_RRemoveBufferFromLeakDetector == null)
+				if(r_RemoveBufferFromLeakDetector == null)
 				{
-					r_RRemoveBufferFromLeakDetector = new(this, "RemoveBufferFromLeakDetector", 0);
-					r_RRemoveBufferFromLeakDetector.SetBelong(this.instance);
+					r_RemoveBufferFromLeakDetector = new(this, "RemoveBufferFromLeakDetector", 0);
+					r_RemoveBufferFromLeakDetector.SetBelong(this.instance);
 				}
-				return r_RRemoveBufferFromLeakDetector;
+				return r_RemoveBufferFromLeakDetector;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Equals(System.Object)
 		/// </summary>
-		protected RMethod r_REquals_Object;
+		protected RMethod r_Equals_Object;
 		public virtual RMethod REquals_Object
 		{
 			get
 			{
-				if(r_REquals_Object == null)
+				if(r_Equals_Object == null)
 				{
-					r_REquals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_REquals_Object.SetBelong(this.instance);
+					r_Equals_Object = new(this, "Equals", 0, typeof(System.Object));
+					r_Equals_Object.SetBelong(this.instance);
 				}
-				return r_REquals_Object;
+				return r_Equals_Object;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetHashCode()
 		/// </summary>
-		protected RMethod r_RGetHashCode;
+		protected RMethod r_GetHashCode;
 		public virtual RMethod RGetHashCode
 		{
 			get
 			{
-				if(r_RGetHashCode == null)
+				if(r_GetHashCode == null)
 				{
-					r_RGetHashCode = new(this, "GetHashCode", 0);
-					r_RGetHashCode.SetBelong(this.instance);
+					r_GetHashCode = new(this, "GetHashCode", 0);
+					r_GetHashCode.SetBelong(this.instance);
 				}
-				return r_RGetHashCode;
+				return r_GetHashCode;
 			}
 		}
 
 		/// <summary>
 		/// System.Type GetType()
 		/// </summary>
-		protected RMethod r_RGetType;
+		protected RMethod r_GetType;
 		public virtual RMethod RGetType
 		{
 			get
 			{
-				if(r_RGetType == null)
+				if(r_GetType == null)
 				{
-					r_RGetType = new(this, "GetType", 0);
-					r_RGetType.SetBelong(this.instance);
+					r_GetType = new(this, "GetType", 0);
+					r_GetType.SetBelong(this.instance);
 				}
-				return r_RGetType;
+				return r_GetType;
 			}
 		}
 
 		/// <summary>
 		/// System.Object MemberwiseClone()
 		/// </summary>
-		protected RMethod r_RMemberwiseClone;
+		protected RMethod r_MemberwiseClone;
 		public virtual RMethod RMemberwiseClone
 		{
 			get
 			{
-				if(r_RMemberwiseClone == null)
+				if(r_MemberwiseClone == null)
 				{
-					r_RMemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_RMemberwiseClone.SetBelong(this.instance);
+					r_MemberwiseClone = new(this, "MemberwiseClone", 0);
+					r_MemberwiseClone.SetBelong(this.instance);
 				}
-				return r_RMemberwiseClone;
+				return r_MemberwiseClone;
 			}
 		}
 
 		/// <summary>
 		/// System.String ToString()
 		/// </summary>
-		protected RMethod r_RToString;
+		protected RMethod r_ToString;
 		public virtual RMethod RToString
 		{
 			get
 			{
-				if(r_RToString == null)
+				if(r_ToString == null)
 				{
-					r_RToString = new(this, "ToString", 0);
-					r_RToString.SetBelong(this.instance);
+					r_ToString = new(this, "ToString", 0);
+					r_ToString.SetBelong(this.instance);
 				}
-				return r_RToString;
+				return r_ToString;
 			}
 		}
 

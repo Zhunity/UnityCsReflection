@@ -489,374 +489,374 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// Void Awake()
 		/// </summary>
-		protected RMethod r_RAwake;
+		protected RMethod r_Awake;
 		public virtual RMethod RAwake
 		{
 			get
 			{
-				if(r_RAwake == null)
+				if(r_Awake == null)
 				{
-					r_RAwake = new(this, "Awake", 0);
-					r_RAwake.SetBelong(this.instance);
+					r_Awake = new(this, "Awake", 0);
+					r_Awake.SetBelong(this.instance);
 				}
-				return r_RAwake;
+				return r_Awake;
 			}
 		}
 
 		/// <summary>
 		/// Void UpdateLookupTables()
 		/// </summary>
-		protected RMethod r_RUpdateLookupTables;
+		protected RMethod r_UpdateLookupTables;
 		public virtual RMethod RUpdateLookupTables
 		{
 			get
 			{
-				if(r_RUpdateLookupTables == null)
+				if(r_UpdateLookupTables == null)
 				{
-					r_RUpdateLookupTables = new(this, "UpdateLookupTables", 0);
-					r_RUpdateLookupTables.SetBelong(this.instance);
+					r_UpdateLookupTables = new(this, "UpdateLookupTables", 0);
+					r_UpdateLookupTables.SetBelong(this.instance);
 				}
-				return r_RUpdateLookupTables;
+				return r_UpdateLookupTables;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetSpriteIndexFromHashcode(Int32)
 		/// </summary>
-		protected RMethod r_RGetSpriteIndexFromHashcode_Int32;
+		protected RMethod r_GetSpriteIndexFromHashcode_Int32;
 		public virtual RMethod RGetSpriteIndexFromHashcode_Int32
 		{
 			get
 			{
-				if(r_RGetSpriteIndexFromHashcode_Int32 == null)
+				if(r_GetSpriteIndexFromHashcode_Int32 == null)
 				{
-					r_RGetSpriteIndexFromHashcode_Int32 = new(this, "GetSpriteIndexFromHashcode", 0, typeof(System.Int32));
-					r_RGetSpriteIndexFromHashcode_Int32.SetBelong(this.instance);
+					r_GetSpriteIndexFromHashcode_Int32 = new(this, "GetSpriteIndexFromHashcode", 0, typeof(System.Int32));
+					r_GetSpriteIndexFromHashcode_Int32.SetBelong(this.instance);
 				}
-				return r_RGetSpriteIndexFromHashcode_Int32;
+				return r_GetSpriteIndexFromHashcode_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetSpriteIndexFromUnicode(UInt32)
 		/// </summary>
-		protected RMethod r_RGetSpriteIndexFromUnicode_UInt32;
+		protected RMethod r_GetSpriteIndexFromUnicode_UInt32;
 		public virtual RMethod RGetSpriteIndexFromUnicode_UInt32
 		{
 			get
 			{
-				if(r_RGetSpriteIndexFromUnicode_UInt32 == null)
+				if(r_GetSpriteIndexFromUnicode_UInt32 == null)
 				{
-					r_RGetSpriteIndexFromUnicode_UInt32 = new(this, "GetSpriteIndexFromUnicode", 0, typeof(System.UInt32));
-					r_RGetSpriteIndexFromUnicode_UInt32.SetBelong(this.instance);
+					r_GetSpriteIndexFromUnicode_UInt32 = new(this, "GetSpriteIndexFromUnicode", 0, typeof(System.UInt32));
+					r_GetSpriteIndexFromUnicode_UInt32.SetBelong(this.instance);
 				}
-				return r_RGetSpriteIndexFromUnicode_UInt32;
+				return r_GetSpriteIndexFromUnicode_UInt32;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetSpriteIndexFromName(System.String)
 		/// </summary>
-		protected RMethod r_RGetSpriteIndexFromName_String;
+		protected RMethod r_GetSpriteIndexFromName_String;
 		public virtual RMethod RGetSpriteIndexFromName_String
 		{
 			get
 			{
-				if(r_RGetSpriteIndexFromName_String == null)
+				if(r_GetSpriteIndexFromName_String == null)
 				{
-					r_RGetSpriteIndexFromName_String = new(this, "GetSpriteIndexFromName", 0, typeof(System.String));
-					r_RGetSpriteIndexFromName_String.SetBelong(this.instance);
+					r_GetSpriteIndexFromName_String = new(this, "GetSpriteIndexFromName", 0, typeof(System.String));
+					r_GetSpriteIndexFromName_String.SetBelong(this.instance);
 				}
-				return r_RGetSpriteIndexFromName_String;
+				return r_GetSpriteIndexFromName_String;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.TextCore.Text.SpriteAsset SearchForSpriteByUnicode(UnityEngine.TextCore.Text.SpriteAsset, UInt32, Boolean, Int32 ByRef)
 		/// </summary>
-		protected static RMethod r_RSearchForSpriteByUnicode_SpriteAsset_UInt32_Boolean_Out_Int32;
+		protected static RMethod r_SearchForSpriteByUnicode_SpriteAsset_UInt32_Boolean_Out_Int32;
 		public static RMethod RSearchForSpriteByUnicode_SpriteAsset_UInt32_Boolean_Out_Int32
 		{
 			get
 			{
-				if(r_RSearchForSpriteByUnicode_SpriteAsset_UInt32_Boolean_Out_Int32 == null)
+				if(r_SearchForSpriteByUnicode_SpriteAsset_UInt32_Boolean_Out_Int32 == null)
 				{
-					r_RSearchForSpriteByUnicode_SpriteAsset_UInt32_Boolean_Out_Int32 = new(typeof(UnityEngine.TextCore.Text.SpriteAsset), "SearchForSpriteByUnicode", 0, typeof(UnityEngine.TextCore.Text.SpriteAsset), typeof(System.UInt32), typeof(System.Boolean), typeof(System.Int32).MakeByRefType());
-					r_RSearchForSpriteByUnicode_SpriteAsset_UInt32_Boolean_Out_Int32.SetBelong(null);
+					r_SearchForSpriteByUnicode_SpriteAsset_UInt32_Boolean_Out_Int32 = new(typeof(UnityEngine.TextCore.Text.SpriteAsset), "SearchForSpriteByUnicode", 0, typeof(UnityEngine.TextCore.Text.SpriteAsset), typeof(System.UInt32), typeof(System.Boolean), typeof(System.Int32).MakeByRefType());
+					r_SearchForSpriteByUnicode_SpriteAsset_UInt32_Boolean_Out_Int32.SetBelong(null);
 				}
-				return r_RSearchForSpriteByUnicode_SpriteAsset_UInt32_Boolean_Out_Int32;
+				return r_SearchForSpriteByUnicode_SpriteAsset_UInt32_Boolean_Out_Int32;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.TextCore.Text.SpriteAsset SearchForSpriteByUnicodeInternal(System.Collections.Generic.List`1[UnityEngine.TextCore.Text.SpriteAsset], UInt32, Boolean, Int32 ByRef)
 		/// </summary>
-		protected static RMethod r_RSearchForSpriteByUnicodeInternal_List_d_SpriteAsset_p__UInt32_Boolean_Out_Int32;
+		protected static RMethod r_SearchForSpriteByUnicodeInternal_List_d_SpriteAsset_p__UInt32_Boolean_Out_Int32;
 		public static RMethod RSearchForSpriteByUnicodeInternal_List_d_SpriteAsset_p__UInt32_Boolean_Out_Int32
 		{
 			get
 			{
-				if(r_RSearchForSpriteByUnicodeInternal_List_d_SpriteAsset_p__UInt32_Boolean_Out_Int32 == null)
+				if(r_SearchForSpriteByUnicodeInternal_List_d_SpriteAsset_p__UInt32_Boolean_Out_Int32 == null)
 				{
-					r_RSearchForSpriteByUnicodeInternal_List_d_SpriteAsset_p__UInt32_Boolean_Out_Int32 = new(typeof(UnityEngine.TextCore.Text.SpriteAsset), "SearchForSpriteByUnicodeInternal", 0, typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(UnityEngine.TextCore.Text.SpriteAsset)), typeof(System.UInt32), typeof(System.Boolean), typeof(System.Int32).MakeByRefType());
-					r_RSearchForSpriteByUnicodeInternal_List_d_SpriteAsset_p__UInt32_Boolean_Out_Int32.SetBelong(null);
+					r_SearchForSpriteByUnicodeInternal_List_d_SpriteAsset_p__UInt32_Boolean_Out_Int32 = new(typeof(UnityEngine.TextCore.Text.SpriteAsset), "SearchForSpriteByUnicodeInternal", 0, typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(UnityEngine.TextCore.Text.SpriteAsset)), typeof(System.UInt32), typeof(System.Boolean), typeof(System.Int32).MakeByRefType());
+					r_SearchForSpriteByUnicodeInternal_List_d_SpriteAsset_p__UInt32_Boolean_Out_Int32.SetBelong(null);
 				}
-				return r_RSearchForSpriteByUnicodeInternal_List_d_SpriteAsset_p__UInt32_Boolean_Out_Int32;
+				return r_SearchForSpriteByUnicodeInternal_List_d_SpriteAsset_p__UInt32_Boolean_Out_Int32;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.TextCore.Text.SpriteAsset SearchForSpriteByUnicodeInternal(UnityEngine.TextCore.Text.SpriteAsset, UInt32, Boolean, Int32 ByRef)
 		/// </summary>
-		protected static RMethod r_RSearchForSpriteByUnicodeInternal_SpriteAsset_UInt32_Boolean_Out_Int32;
+		protected static RMethod r_SearchForSpriteByUnicodeInternal_SpriteAsset_UInt32_Boolean_Out_Int32;
 		public static RMethod RSearchForSpriteByUnicodeInternal_SpriteAsset_UInt32_Boolean_Out_Int32
 		{
 			get
 			{
-				if(r_RSearchForSpriteByUnicodeInternal_SpriteAsset_UInt32_Boolean_Out_Int32 == null)
+				if(r_SearchForSpriteByUnicodeInternal_SpriteAsset_UInt32_Boolean_Out_Int32 == null)
 				{
-					r_RSearchForSpriteByUnicodeInternal_SpriteAsset_UInt32_Boolean_Out_Int32 = new(typeof(UnityEngine.TextCore.Text.SpriteAsset), "SearchForSpriteByUnicodeInternal", 0, typeof(UnityEngine.TextCore.Text.SpriteAsset), typeof(System.UInt32), typeof(System.Boolean), typeof(System.Int32).MakeByRefType());
-					r_RSearchForSpriteByUnicodeInternal_SpriteAsset_UInt32_Boolean_Out_Int32.SetBelong(null);
+					r_SearchForSpriteByUnicodeInternal_SpriteAsset_UInt32_Boolean_Out_Int32 = new(typeof(UnityEngine.TextCore.Text.SpriteAsset), "SearchForSpriteByUnicodeInternal", 0, typeof(UnityEngine.TextCore.Text.SpriteAsset), typeof(System.UInt32), typeof(System.Boolean), typeof(System.Int32).MakeByRefType());
+					r_SearchForSpriteByUnicodeInternal_SpriteAsset_UInt32_Boolean_Out_Int32.SetBelong(null);
 				}
-				return r_RSearchForSpriteByUnicodeInternal_SpriteAsset_UInt32_Boolean_Out_Int32;
+				return r_SearchForSpriteByUnicodeInternal_SpriteAsset_UInt32_Boolean_Out_Int32;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.TextCore.Text.SpriteAsset SearchForSpriteByHashCode(UnityEngine.TextCore.Text.SpriteAsset, Int32, Boolean, Int32 ByRef, UnityEngine.TextCore.Text.TextSettings)
 		/// </summary>
-		protected static RMethod r_RSearchForSpriteByHashCode_SpriteAsset_Int32_Boolean_Out_Int32_TextSettings;
+		protected static RMethod r_SearchForSpriteByHashCode_SpriteAsset_Int32_Boolean_Out_Int32_TextSettings;
 		public static RMethod RSearchForSpriteByHashCode_SpriteAsset_Int32_Boolean_Out_Int32_TextSettings
 		{
 			get
 			{
-				if(r_RSearchForSpriteByHashCode_SpriteAsset_Int32_Boolean_Out_Int32_TextSettings == null)
+				if(r_SearchForSpriteByHashCode_SpriteAsset_Int32_Boolean_Out_Int32_TextSettings == null)
 				{
-					r_RSearchForSpriteByHashCode_SpriteAsset_Int32_Boolean_Out_Int32_TextSettings = new(typeof(UnityEngine.TextCore.Text.SpriteAsset), "SearchForSpriteByHashCode", 0, typeof(UnityEngine.TextCore.Text.SpriteAsset), typeof(System.Int32), typeof(System.Boolean), typeof(System.Int32).MakeByRefType(), typeof(UnityEngine.TextCore.Text.TextSettings));
-					r_RSearchForSpriteByHashCode_SpriteAsset_Int32_Boolean_Out_Int32_TextSettings.SetBelong(null);
+					r_SearchForSpriteByHashCode_SpriteAsset_Int32_Boolean_Out_Int32_TextSettings = new(typeof(UnityEngine.TextCore.Text.SpriteAsset), "SearchForSpriteByHashCode", 0, typeof(UnityEngine.TextCore.Text.SpriteAsset), typeof(System.Int32), typeof(System.Boolean), typeof(System.Int32).MakeByRefType(), typeof(UnityEngine.TextCore.Text.TextSettings));
+					r_SearchForSpriteByHashCode_SpriteAsset_Int32_Boolean_Out_Int32_TextSettings.SetBelong(null);
 				}
-				return r_RSearchForSpriteByHashCode_SpriteAsset_Int32_Boolean_Out_Int32_TextSettings;
+				return r_SearchForSpriteByHashCode_SpriteAsset_Int32_Boolean_Out_Int32_TextSettings;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.TextCore.Text.SpriteAsset SearchForSpriteByHashCodeInternal(System.Collections.Generic.List`1[UnityEngine.TextCore.Text.SpriteAsset], Int32, Boolean, Int32 ByRef)
 		/// </summary>
-		protected static RMethod r_RSearchForSpriteByHashCodeInternal_List_d_SpriteAsset_p__Int32_Boolean_Out_Int32;
+		protected static RMethod r_SearchForSpriteByHashCodeInternal_List_d_SpriteAsset_p__Int32_Boolean_Out_Int32;
 		public static RMethod RSearchForSpriteByHashCodeInternal_List_d_SpriteAsset_p__Int32_Boolean_Out_Int32
 		{
 			get
 			{
-				if(r_RSearchForSpriteByHashCodeInternal_List_d_SpriteAsset_p__Int32_Boolean_Out_Int32 == null)
+				if(r_SearchForSpriteByHashCodeInternal_List_d_SpriteAsset_p__Int32_Boolean_Out_Int32 == null)
 				{
-					r_RSearchForSpriteByHashCodeInternal_List_d_SpriteAsset_p__Int32_Boolean_Out_Int32 = new(typeof(UnityEngine.TextCore.Text.SpriteAsset), "SearchForSpriteByHashCodeInternal", 0, typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(UnityEngine.TextCore.Text.SpriteAsset)), typeof(System.Int32), typeof(System.Boolean), typeof(System.Int32).MakeByRefType());
-					r_RSearchForSpriteByHashCodeInternal_List_d_SpriteAsset_p__Int32_Boolean_Out_Int32.SetBelong(null);
+					r_SearchForSpriteByHashCodeInternal_List_d_SpriteAsset_p__Int32_Boolean_Out_Int32 = new(typeof(UnityEngine.TextCore.Text.SpriteAsset), "SearchForSpriteByHashCodeInternal", 0, typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(UnityEngine.TextCore.Text.SpriteAsset)), typeof(System.Int32), typeof(System.Boolean), typeof(System.Int32).MakeByRefType());
+					r_SearchForSpriteByHashCodeInternal_List_d_SpriteAsset_p__Int32_Boolean_Out_Int32.SetBelong(null);
 				}
-				return r_RSearchForSpriteByHashCodeInternal_List_d_SpriteAsset_p__Int32_Boolean_Out_Int32;
+				return r_SearchForSpriteByHashCodeInternal_List_d_SpriteAsset_p__Int32_Boolean_Out_Int32;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.TextCore.Text.SpriteAsset SearchForSpriteByHashCodeInternal(UnityEngine.TextCore.Text.SpriteAsset, Int32, Boolean, Int32 ByRef)
 		/// </summary>
-		protected static RMethod r_RSearchForSpriteByHashCodeInternal_SpriteAsset_Int32_Boolean_Out_Int32;
+		protected static RMethod r_SearchForSpriteByHashCodeInternal_SpriteAsset_Int32_Boolean_Out_Int32;
 		public static RMethod RSearchForSpriteByHashCodeInternal_SpriteAsset_Int32_Boolean_Out_Int32
 		{
 			get
 			{
-				if(r_RSearchForSpriteByHashCodeInternal_SpriteAsset_Int32_Boolean_Out_Int32 == null)
+				if(r_SearchForSpriteByHashCodeInternal_SpriteAsset_Int32_Boolean_Out_Int32 == null)
 				{
-					r_RSearchForSpriteByHashCodeInternal_SpriteAsset_Int32_Boolean_Out_Int32 = new(typeof(UnityEngine.TextCore.Text.SpriteAsset), "SearchForSpriteByHashCodeInternal", 0, typeof(UnityEngine.TextCore.Text.SpriteAsset), typeof(System.Int32), typeof(System.Boolean), typeof(System.Int32).MakeByRefType());
-					r_RSearchForSpriteByHashCodeInternal_SpriteAsset_Int32_Boolean_Out_Int32.SetBelong(null);
+					r_SearchForSpriteByHashCodeInternal_SpriteAsset_Int32_Boolean_Out_Int32 = new(typeof(UnityEngine.TextCore.Text.SpriteAsset), "SearchForSpriteByHashCodeInternal", 0, typeof(UnityEngine.TextCore.Text.SpriteAsset), typeof(System.Int32), typeof(System.Boolean), typeof(System.Int32).MakeByRefType());
+					r_SearchForSpriteByHashCodeInternal_SpriteAsset_Int32_Boolean_Out_Int32.SetBelong(null);
 				}
-				return r_RSearchForSpriteByHashCodeInternal_SpriteAsset_Int32_Boolean_Out_Int32;
+				return r_SearchForSpriteByHashCodeInternal_SpriteAsset_Int32_Boolean_Out_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Void SortGlyphTable()
 		/// </summary>
-		protected RMethod r_RSortGlyphTable;
+		protected RMethod r_SortGlyphTable;
 		public virtual RMethod RSortGlyphTable
 		{
 			get
 			{
-				if(r_RSortGlyphTable == null)
+				if(r_SortGlyphTable == null)
 				{
-					r_RSortGlyphTable = new(this, "SortGlyphTable", 0);
-					r_RSortGlyphTable.SetBelong(this.instance);
+					r_SortGlyphTable = new(this, "SortGlyphTable", 0);
+					r_SortGlyphTable.SetBelong(this.instance);
 				}
-				return r_RSortGlyphTable;
+				return r_SortGlyphTable;
 			}
 		}
 
 		/// <summary>
 		/// Void SortCharacterTable()
 		/// </summary>
-		protected RMethod r_RSortCharacterTable;
+		protected RMethod r_SortCharacterTable;
 		public virtual RMethod RSortCharacterTable
 		{
 			get
 			{
-				if(r_RSortCharacterTable == null)
+				if(r_SortCharacterTable == null)
 				{
-					r_RSortCharacterTable = new(this, "SortCharacterTable", 0);
-					r_RSortCharacterTable.SetBelong(this.instance);
+					r_SortCharacterTable = new(this, "SortCharacterTable", 0);
+					r_SortCharacterTable.SetBelong(this.instance);
 				}
-				return r_RSortCharacterTable;
+				return r_SortCharacterTable;
 			}
 		}
 
 		/// <summary>
 		/// Void SortGlyphAndCharacterTables()
 		/// </summary>
-		protected RMethod r_RSortGlyphAndCharacterTables;
+		protected RMethod r_SortGlyphAndCharacterTables;
 		public virtual RMethod RSortGlyphAndCharacterTables
 		{
 			get
 			{
-				if(r_RSortGlyphAndCharacterTables == null)
+				if(r_SortGlyphAndCharacterTables == null)
 				{
-					r_RSortGlyphAndCharacterTables = new(this, "SortGlyphAndCharacterTables", 0);
-					r_RSortGlyphAndCharacterTables.SetBelong(this.instance);
+					r_SortGlyphAndCharacterTables = new(this, "SortGlyphAndCharacterTables", 0);
+					r_SortGlyphAndCharacterTables.SetBelong(this.instance);
 				}
-				return r_RSortGlyphAndCharacterTables;
+				return r_SortGlyphAndCharacterTables;
 			}
 		}
 
 		/// <summary>
 		/// Void SetDirty()
 		/// </summary>
-		protected RMethod r_RSetDirty;
+		protected RMethod r_SetDirty;
 		public virtual RMethod RSetDirty
 		{
 			get
 			{
-				if(r_RSetDirty == null)
+				if(r_SetDirty == null)
 				{
-					r_RSetDirty = new(this, "SetDirty", 0);
-					r_RSetDirty.SetBelong(this.instance);
+					r_SetDirty = new(this, "SetDirty", 0);
+					r_SetDirty.SetBelong(this.instance);
 				}
-				return r_RSetDirty;
+				return r_SetDirty;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetInstanceID()
 		/// </summary>
-		protected RMethod r_RGetInstanceID;
+		protected RMethod r_GetInstanceID;
 		public virtual RMethod RGetInstanceID
 		{
 			get
 			{
-				if(r_RGetInstanceID == null)
+				if(r_GetInstanceID == null)
 				{
-					r_RGetInstanceID = new(this, "GetInstanceID", 0);
-					r_RGetInstanceID.SetBelong(this.instance);
+					r_GetInstanceID = new(this, "GetInstanceID", 0);
+					r_GetInstanceID.SetBelong(this.instance);
 				}
-				return r_RGetInstanceID;
+				return r_GetInstanceID;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetHashCode()
 		/// </summary>
-		protected RMethod r_RGetHashCode;
+		protected RMethod r_GetHashCode;
 		public virtual RMethod RGetHashCode
 		{
 			get
 			{
-				if(r_RGetHashCode == null)
+				if(r_GetHashCode == null)
 				{
-					r_RGetHashCode = new(this, "GetHashCode", 0);
-					r_RGetHashCode.SetBelong(this.instance);
+					r_GetHashCode = new(this, "GetHashCode", 0);
+					r_GetHashCode.SetBelong(this.instance);
 				}
-				return r_RGetHashCode;
+				return r_GetHashCode;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Equals(System.Object)
 		/// </summary>
-		protected RMethod r_REquals_Object;
+		protected RMethod r_Equals_Object;
 		public virtual RMethod REquals_Object
 		{
 			get
 			{
-				if(r_REquals_Object == null)
+				if(r_Equals_Object == null)
 				{
-					r_REquals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_REquals_Object.SetBelong(this.instance);
+					r_Equals_Object = new(this, "Equals", 0, typeof(System.Object));
+					r_Equals_Object.SetBelong(this.instance);
 				}
-				return r_REquals_Object;
+				return r_Equals_Object;
 			}
 		}
 
 		/// <summary>
 		/// System.String ToString()
 		/// </summary>
-		protected RMethod r_RToString;
+		protected RMethod r_ToString;
 		public virtual RMethod RToString
 		{
 			get
 			{
-				if(r_RToString == null)
+				if(r_ToString == null)
 				{
-					r_RToString = new(this, "ToString", 0);
-					r_RToString.SetBelong(this.instance);
+					r_ToString = new(this, "ToString", 0);
+					r_ToString.SetBelong(this.instance);
 				}
-				return r_RToString;
+				return r_ToString;
 			}
 		}
 
 		/// <summary>
 		/// Void Finalize()
 		/// </summary>
-		protected RMethod r_RFinalize;
+		protected RMethod r_Finalize;
 		public virtual RMethod RFinalize
 		{
 			get
 			{
-				if(r_RFinalize == null)
+				if(r_Finalize == null)
 				{
-					r_RFinalize = new(this, "Finalize", 0);
-					r_RFinalize.SetBelong(this.instance);
+					r_Finalize = new(this, "Finalize", 0);
+					r_Finalize.SetBelong(this.instance);
 				}
-				return r_RFinalize;
+				return r_Finalize;
 			}
 		}
 
 		/// <summary>
 		/// System.Type GetType()
 		/// </summary>
-		protected RMethod r_RGetType;
+		protected RMethod r_GetType;
 		public virtual RMethod RGetType
 		{
 			get
 			{
-				if(r_RGetType == null)
+				if(r_GetType == null)
 				{
-					r_RGetType = new(this, "GetType", 0);
-					r_RGetType.SetBelong(this.instance);
+					r_GetType = new(this, "GetType", 0);
+					r_GetType.SetBelong(this.instance);
 				}
-				return r_RGetType;
+				return r_GetType;
 			}
 		}
 
 		/// <summary>
 		/// System.Object MemberwiseClone()
 		/// </summary>
-		protected RMethod r_RMemberwiseClone;
+		protected RMethod r_MemberwiseClone;
 		public virtual RMethod RMemberwiseClone
 		{
 			get
 			{
-				if(r_RMemberwiseClone == null)
+				if(r_MemberwiseClone == null)
 				{
-					r_RMemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_RMemberwiseClone.SetBelong(this.instance);
+					r_MemberwiseClone = new(this, "MemberwiseClone", 0);
+					r_MemberwiseClone.SetBelong(this.instance);
 				}
-				return r_RMemberwiseClone;
+				return r_MemberwiseClone;
 			}
 		}
 

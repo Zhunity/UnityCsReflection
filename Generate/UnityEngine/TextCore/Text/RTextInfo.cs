@@ -302,204 +302,204 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// Void Clear()
 		/// </summary>
-		protected RMethod r_RClear;
+		protected RMethod r_Clear;
 		public virtual RMethod RClear
 		{
 			get
 			{
-				if(r_RClear == null)
+				if(r_Clear == null)
 				{
-					r_RClear = new(this, "Clear", 0);
-					r_RClear.SetBelong(this.instance);
+					r_Clear = new(this, "Clear", 0);
+					r_Clear.SetBelong(this.instance);
 				}
-				return r_RClear;
+				return r_Clear;
 			}
 		}
 
 		/// <summary>
 		/// Void ClearMeshInfo(Boolean)
 		/// </summary>
-		protected RMethod r_RClearMeshInfo_Boolean;
+		protected RMethod r_ClearMeshInfo_Boolean;
 		public virtual RMethod RClearMeshInfo_Boolean
 		{
 			get
 			{
-				if(r_RClearMeshInfo_Boolean == null)
+				if(r_ClearMeshInfo_Boolean == null)
 				{
-					r_RClearMeshInfo_Boolean = new(this, "ClearMeshInfo", 0, typeof(System.Boolean));
-					r_RClearMeshInfo_Boolean.SetBelong(this.instance);
+					r_ClearMeshInfo_Boolean = new(this, "ClearMeshInfo", 0, typeof(System.Boolean));
+					r_ClearMeshInfo_Boolean.SetBelong(this.instance);
 				}
-				return r_RClearMeshInfo_Boolean;
+				return r_ClearMeshInfo_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Void ClearLineInfo()
 		/// </summary>
-		protected RMethod r_RClearLineInfo;
+		protected RMethod r_ClearLineInfo;
 		public virtual RMethod RClearLineInfo
 		{
 			get
 			{
-				if(r_RClearLineInfo == null)
+				if(r_ClearLineInfo == null)
 				{
-					r_RClearLineInfo = new(this, "ClearLineInfo", 0);
-					r_RClearLineInfo.SetBelong(this.instance);
+					r_ClearLineInfo = new(this, "ClearLineInfo", 0);
+					r_ClearLineInfo.SetBelong(this.instance);
 				}
-				return r_RClearLineInfo;
+				return r_ClearLineInfo;
 			}
 		}
 
 		/// <summary>
 		/// Void ClearPageInfo()
 		/// </summary>
-		protected RMethod r_RClearPageInfo;
+		protected RMethod r_ClearPageInfo;
 		public virtual RMethod RClearPageInfo
 		{
 			get
 			{
-				if(r_RClearPageInfo == null)
+				if(r_ClearPageInfo == null)
 				{
-					r_RClearPageInfo = new(this, "ClearPageInfo", 0);
-					r_RClearPageInfo.SetBelong(this.instance);
+					r_ClearPageInfo = new(this, "ClearPageInfo", 0);
+					r_ClearPageInfo.SetBelong(this.instance);
 				}
-				return r_RClearPageInfo;
+				return r_ClearPageInfo;
 			}
 		}
 
 		/// <summary>
 		/// Void Resize[T](T[] ByRef, Int32)
 		/// </summary>
-		protected static RMethod r_RResize_GT_Ref_TArray_Int32;
+		protected static RMethod r_Resize_GT_Ref_TArray_Int32;
 		public static RMethod RResize_GT_Ref_TArray_Int32
 		{
 			get
 			{
-				if(r_RResize_GT_Ref_TArray_Int32 == null)
+				if(r_Resize_GT_Ref_TArray_Int32 == null)
 				{
-					r_RResize_GT_Ref_TArray_Int32 = new( ReleactionUtils.GetType("UnityEngine.TextCore.Text.TextInfo"), "Resize", 1, Type.MakeGenericMethodParameter(0).MakeArrayType().MakeByRefType(), typeof(System.Int32));
-					r_RResize_GT_Ref_TArray_Int32.SetBelong(null);
+					r_Resize_GT_Ref_TArray_Int32 = new( ReleactionUtils.GetType("UnityEngine.TextCore.Text.TextInfo"), "Resize", 1, Type.MakeGenericMethodParameter(0).MakeArrayType().MakeByRefType(), typeof(System.Int32));
+					r_Resize_GT_Ref_TArray_Int32.SetBelong(null);
 				}
-				return r_RResize_GT_Ref_TArray_Int32;
+				return r_Resize_GT_Ref_TArray_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Void Resize[T](T[] ByRef, Int32, Boolean)
 		/// </summary>
-		protected static RMethod r_RResize_GT_Ref_TArray_Int32_Boolean;
+		protected static RMethod r_Resize_GT_Ref_TArray_Int32_Boolean;
 		public static RMethod RResize_GT_Ref_TArray_Int32_Boolean
 		{
 			get
 			{
-				if(r_RResize_GT_Ref_TArray_Int32_Boolean == null)
+				if(r_Resize_GT_Ref_TArray_Int32_Boolean == null)
 				{
-					r_RResize_GT_Ref_TArray_Int32_Boolean = new( ReleactionUtils.GetType("UnityEngine.TextCore.Text.TextInfo"), "Resize", 1, Type.MakeGenericMethodParameter(0).MakeArrayType().MakeByRefType(), typeof(System.Int32), typeof(System.Boolean));
-					r_RResize_GT_Ref_TArray_Int32_Boolean.SetBelong(null);
+					r_Resize_GT_Ref_TArray_Int32_Boolean = new( ReleactionUtils.GetType("UnityEngine.TextCore.Text.TextInfo"), "Resize", 1, Type.MakeGenericMethodParameter(0).MakeArrayType().MakeByRefType(), typeof(System.Int32), typeof(System.Boolean));
+					r_Resize_GT_Ref_TArray_Int32_Boolean.SetBelong(null);
 				}
-				return r_RResize_GT_Ref_TArray_Int32_Boolean;
+				return r_Resize_GT_Ref_TArray_Int32_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Equals(System.Object)
 		/// </summary>
-		protected RMethod r_REquals_Object;
+		protected RMethod r_Equals_Object;
 		public virtual RMethod REquals_Object
 		{
 			get
 			{
-				if(r_REquals_Object == null)
+				if(r_Equals_Object == null)
 				{
-					r_REquals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_REquals_Object.SetBelong(this.instance);
+					r_Equals_Object = new(this, "Equals", 0, typeof(System.Object));
+					r_Equals_Object.SetBelong(this.instance);
 				}
-				return r_REquals_Object;
+				return r_Equals_Object;
 			}
 		}
 
 		/// <summary>
 		/// Void Finalize()
 		/// </summary>
-		protected RMethod r_RFinalize;
+		protected RMethod r_Finalize;
 		public virtual RMethod RFinalize
 		{
 			get
 			{
-				if(r_RFinalize == null)
+				if(r_Finalize == null)
 				{
-					r_RFinalize = new(this, "Finalize", 0);
-					r_RFinalize.SetBelong(this.instance);
+					r_Finalize = new(this, "Finalize", 0);
+					r_Finalize.SetBelong(this.instance);
 				}
-				return r_RFinalize;
+				return r_Finalize;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetHashCode()
 		/// </summary>
-		protected RMethod r_RGetHashCode;
+		protected RMethod r_GetHashCode;
 		public virtual RMethod RGetHashCode
 		{
 			get
 			{
-				if(r_RGetHashCode == null)
+				if(r_GetHashCode == null)
 				{
-					r_RGetHashCode = new(this, "GetHashCode", 0);
-					r_RGetHashCode.SetBelong(this.instance);
+					r_GetHashCode = new(this, "GetHashCode", 0);
+					r_GetHashCode.SetBelong(this.instance);
 				}
-				return r_RGetHashCode;
+				return r_GetHashCode;
 			}
 		}
 
 		/// <summary>
 		/// System.Type GetType()
 		/// </summary>
-		protected RMethod r_RGetType;
+		protected RMethod r_GetType;
 		public virtual RMethod RGetType
 		{
 			get
 			{
-				if(r_RGetType == null)
+				if(r_GetType == null)
 				{
-					r_RGetType = new(this, "GetType", 0);
-					r_RGetType.SetBelong(this.instance);
+					r_GetType = new(this, "GetType", 0);
+					r_GetType.SetBelong(this.instance);
 				}
-				return r_RGetType;
+				return r_GetType;
 			}
 		}
 
 		/// <summary>
 		/// System.Object MemberwiseClone()
 		/// </summary>
-		protected RMethod r_RMemberwiseClone;
+		protected RMethod r_MemberwiseClone;
 		public virtual RMethod RMemberwiseClone
 		{
 			get
 			{
-				if(r_RMemberwiseClone == null)
+				if(r_MemberwiseClone == null)
 				{
-					r_RMemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_RMemberwiseClone.SetBelong(this.instance);
+					r_MemberwiseClone = new(this, "MemberwiseClone", 0);
+					r_MemberwiseClone.SetBelong(this.instance);
 				}
-				return r_RMemberwiseClone;
+				return r_MemberwiseClone;
 			}
 		}
 
 		/// <summary>
 		/// System.String ToString()
 		/// </summary>
-		protected RMethod r_RToString;
+		protected RMethod r_ToString;
 		public virtual RMethod RToString
 		{
 			get
 			{
-				if(r_RToString == null)
+				if(r_ToString == null)
 				{
-					r_RToString = new(this, "ToString", 0);
-					r_RToString.SetBelong(this.instance);
+					r_ToString = new(this, "ToString", 0);
+					r_ToString.SetBelong(this.instance);
 				}
-				return r_RToString;
+				return r_ToString;
 			}
 		}
 

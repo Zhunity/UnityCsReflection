@@ -98,170 +98,170 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Void AttachDebugger(UnityEngine.UIElements.IPanelDebugger)
 		/// </summary>
-		protected RMethod r_RAttachDebugger_IPanelDebugger;
+		protected RMethod r_AttachDebugger_IPanelDebugger;
 		public virtual RMethod RAttachDebugger_IPanelDebugger
 		{
 			get
 			{
-				if(r_RAttachDebugger_IPanelDebugger == null)
+				if(r_AttachDebugger_IPanelDebugger == null)
 				{
-					r_RAttachDebugger_IPanelDebugger = new(this, "AttachDebugger", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.IPanelDebugger"));
-					r_RAttachDebugger_IPanelDebugger.SetBelong(this.instance);
+					r_AttachDebugger_IPanelDebugger = new(this, "AttachDebugger", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.IPanelDebugger"));
+					r_AttachDebugger_IPanelDebugger.SetBelong(this.instance);
 				}
-				return r_RAttachDebugger_IPanelDebugger;
+				return r_AttachDebugger_IPanelDebugger;
 			}
 		}
 
 		/// <summary>
 		/// Void DetachDebugger(UnityEngine.UIElements.IPanelDebugger)
 		/// </summary>
-		protected RMethod r_RDetachDebugger_IPanelDebugger;
+		protected RMethod r_DetachDebugger_IPanelDebugger;
 		public virtual RMethod RDetachDebugger_IPanelDebugger
 		{
 			get
 			{
-				if(r_RDetachDebugger_IPanelDebugger == null)
+				if(r_DetachDebugger_IPanelDebugger == null)
 				{
-					r_RDetachDebugger_IPanelDebugger = new(this, "DetachDebugger", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.IPanelDebugger"));
-					r_RDetachDebugger_IPanelDebugger.SetBelong(this.instance);
+					r_DetachDebugger_IPanelDebugger = new(this, "DetachDebugger", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.IPanelDebugger"));
+					r_DetachDebugger_IPanelDebugger.SetBelong(this.instance);
 				}
-				return r_RDetachDebugger_IPanelDebugger;
+				return r_DetachDebugger_IPanelDebugger;
 			}
 		}
 
 		/// <summary>
 		/// Void DetachAllDebuggers()
 		/// </summary>
-		protected RMethod r_RDetachAllDebuggers;
+		protected RMethod r_DetachAllDebuggers;
 		public virtual RMethod RDetachAllDebuggers
 		{
 			get
 			{
-				if(r_RDetachAllDebuggers == null)
+				if(r_DetachAllDebuggers == null)
 				{
-					r_RDetachAllDebuggers = new(this, "DetachAllDebuggers", 0);
-					r_RDetachAllDebuggers.SetBelong(this.instance);
+					r_DetachAllDebuggers = new(this, "DetachAllDebuggers", 0);
+					r_DetachAllDebuggers.SetBelong(this.instance);
 				}
-				return r_RDetachAllDebuggers;
+				return r_DetachAllDebuggers;
 			}
 		}
 
 		/// <summary>
 		/// System.Collections.Generic.IEnumerable`1[UnityEngine.UIElements.IPanelDebugger] GetAttachedDebuggers()
 		/// </summary>
-		protected RMethod r_RGetAttachedDebuggers;
+		protected RMethod r_GetAttachedDebuggers;
 		public virtual RMethod RGetAttachedDebuggers
 		{
 			get
 			{
-				if(r_RGetAttachedDebuggers == null)
+				if(r_GetAttachedDebuggers == null)
 				{
-					r_RGetAttachedDebuggers = new(this, "GetAttachedDebuggers", 0);
-					r_RGetAttachedDebuggers.SetBelong(this.instance);
+					r_GetAttachedDebuggers = new(this, "GetAttachedDebuggers", 0);
+					r_GetAttachedDebuggers.SetBelong(this.instance);
 				}
-				return r_RGetAttachedDebuggers;
+				return r_GetAttachedDebuggers;
 			}
 		}
 
 		/// <summary>
 		/// Void MarkDirtyRepaint()
 		/// </summary>
-		protected RMethod r_RMarkDirtyRepaint;
+		protected RMethod r_MarkDirtyRepaint;
 		public virtual RMethod RMarkDirtyRepaint
 		{
 			get
 			{
-				if(r_RMarkDirtyRepaint == null)
+				if(r_MarkDirtyRepaint == null)
 				{
-					r_RMarkDirtyRepaint = new(this, "MarkDirtyRepaint", 0);
-					r_RMarkDirtyRepaint.SetBelong(this.instance);
+					r_MarkDirtyRepaint = new(this, "MarkDirtyRepaint", 0);
+					r_MarkDirtyRepaint.SetBelong(this.instance);
 				}
-				return r_RMarkDirtyRepaint;
+				return r_MarkDirtyRepaint;
 			}
 		}
 
 		/// <summary>
 		/// Void MarkDebugContainerDirtyRepaint()
 		/// </summary>
-		protected RMethod r_RMarkDebugContainerDirtyRepaint;
+		protected RMethod r_MarkDebugContainerDirtyRepaint;
 		public virtual RMethod RMarkDebugContainerDirtyRepaint
 		{
 			get
 			{
-				if(r_RMarkDebugContainerDirtyRepaint == null)
+				if(r_MarkDebugContainerDirtyRepaint == null)
 				{
-					r_RMarkDebugContainerDirtyRepaint = new(this, "MarkDebugContainerDirtyRepaint", 0);
-					r_RMarkDebugContainerDirtyRepaint.SetBelong(this.instance);
+					r_MarkDebugContainerDirtyRepaint = new(this, "MarkDebugContainerDirtyRepaint", 0);
+					r_MarkDebugContainerDirtyRepaint.SetBelong(this.instance);
 				}
-				return r_RMarkDebugContainerDirtyRepaint;
+				return r_MarkDebugContainerDirtyRepaint;
 			}
 		}
 
 		/// <summary>
 		/// Void Refresh()
 		/// </summary>
-		protected RMethod r_RRefresh;
+		protected RMethod r_Refresh;
 		public virtual RMethod RRefresh
 		{
 			get
 			{
-				if(r_RRefresh == null)
+				if(r_Refresh == null)
 				{
-					r_RRefresh = new(this, "Refresh", 0);
-					r_RRefresh.SetBelong(this.instance);
+					r_Refresh = new(this, "Refresh", 0);
+					r_Refresh.SetBelong(this.instance);
 				}
-				return r_RRefresh;
+				return r_Refresh;
 			}
 		}
 
 		/// <summary>
 		/// Void OnVersionChanged(UnityEngine.UIElements.VisualElement, UnityEngine.UIElements.VersionChangeType)
 		/// </summary>
-		protected RMethod r_ROnVersionChanged_VisualElement_VersionChangeType;
+		protected RMethod r_OnVersionChanged_VisualElement_VersionChangeType;
 		public virtual RMethod ROnVersionChanged_VisualElement_VersionChangeType
 		{
 			get
 			{
-				if(r_ROnVersionChanged_VisualElement_VersionChangeType == null)
+				if(r_OnVersionChanged_VisualElement_VersionChangeType == null)
 				{
-					r_ROnVersionChanged_VisualElement_VersionChangeType = new(this, "OnVersionChanged", 0, typeof(UnityEngine.UIElements.VisualElement),  ReleactionUtils.GetType("UnityEngine.UIElements.VersionChangeType"));
-					r_ROnVersionChanged_VisualElement_VersionChangeType.SetBelong(this.instance);
+					r_OnVersionChanged_VisualElement_VersionChangeType = new(this, "OnVersionChanged", 0, typeof(UnityEngine.UIElements.VisualElement),  ReleactionUtils.GetType("UnityEngine.UIElements.VersionChangeType"));
+					r_OnVersionChanged_VisualElement_VersionChangeType.SetBelong(this.instance);
 				}
-				return r_ROnVersionChanged_VisualElement_VersionChangeType;
+				return r_OnVersionChanged_VisualElement_VersionChangeType;
 			}
 		}
 
 		/// <summary>
 		/// Boolean InterceptEvent(UnityEngine.UIElements.EventBase)
 		/// </summary>
-		protected RMethod r_RInterceptEvent_EventBase;
+		protected RMethod r_InterceptEvent_EventBase;
 		public virtual RMethod RInterceptEvent_EventBase
 		{
 			get
 			{
-				if(r_RInterceptEvent_EventBase == null)
+				if(r_InterceptEvent_EventBase == null)
 				{
-					r_RInterceptEvent_EventBase = new(this, "InterceptEvent", 0, typeof(UnityEngine.UIElements.EventBase));
-					r_RInterceptEvent_EventBase.SetBelong(this.instance);
+					r_InterceptEvent_EventBase = new(this, "InterceptEvent", 0, typeof(UnityEngine.UIElements.EventBase));
+					r_InterceptEvent_EventBase.SetBelong(this.instance);
 				}
-				return r_RInterceptEvent_EventBase;
+				return r_InterceptEvent_EventBase;
 			}
 		}
 
 		/// <summary>
 		/// Void PostProcessEvent(UnityEngine.UIElements.EventBase)
 		/// </summary>
-		protected RMethod r_RPostProcessEvent_EventBase;
+		protected RMethod r_PostProcessEvent_EventBase;
 		public virtual RMethod RPostProcessEvent_EventBase
 		{
 			get
 			{
-				if(r_RPostProcessEvent_EventBase == null)
+				if(r_PostProcessEvent_EventBase == null)
 				{
-					r_RPostProcessEvent_EventBase = new(this, "PostProcessEvent", 0, typeof(UnityEngine.UIElements.EventBase));
-					r_RPostProcessEvent_EventBase.SetBelong(this.instance);
+					r_PostProcessEvent_EventBase = new(this, "PostProcessEvent", 0, typeof(UnityEngine.UIElements.EventBase));
+					r_PostProcessEvent_EventBase.SetBelong(this.instance);
 				}
-				return r_RPostProcessEvent_EventBase;
+				return r_PostProcessEvent_EventBase;
 			}
 		}
 

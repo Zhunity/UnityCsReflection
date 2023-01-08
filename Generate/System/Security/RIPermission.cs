@@ -13,85 +13,85 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
 		/// <summary>
 		/// System.Security.IPermission Copy()
 		/// </summary>
-		protected RMethod r_RCopy;
+		protected RMethod r_Copy;
 		public virtual RMethod RCopy
 		{
 			get
 			{
-				if(r_RCopy == null)
+				if(r_Copy == null)
 				{
-					r_RCopy = new(this, "Copy", 0);
-					r_RCopy.SetBelong(this.instance);
+					r_Copy = new(this, "Copy", 0);
+					r_Copy.SetBelong(this.instance);
 				}
-				return r_RCopy;
+				return r_Copy;
 			}
 		}
 
 		/// <summary>
 		/// Void Demand()
 		/// </summary>
-		protected RMethod r_RDemand;
+		protected RMethod r_Demand;
 		public virtual RMethod RDemand
 		{
 			get
 			{
-				if(r_RDemand == null)
+				if(r_Demand == null)
 				{
-					r_RDemand = new(this, "Demand", 0);
-					r_RDemand.SetBelong(this.instance);
+					r_Demand = new(this, "Demand", 0);
+					r_Demand.SetBelong(this.instance);
 				}
-				return r_RDemand;
+				return r_Demand;
 			}
 		}
 
 		/// <summary>
 		/// System.Security.IPermission Intersect(System.Security.IPermission)
 		/// </summary>
-		protected RMethod r_RIntersect_IPermission;
+		protected RMethod r_Intersect_IPermission;
 		public virtual RMethod RIntersect_IPermission
 		{
 			get
 			{
-				if(r_RIntersect_IPermission == null)
+				if(r_Intersect_IPermission == null)
 				{
-					r_RIntersect_IPermission = new(this, "Intersect", 0, typeof(System.Security.IPermission));
-					r_RIntersect_IPermission.SetBelong(this.instance);
+					r_Intersect_IPermission = new(this, "Intersect", 0, typeof(System.Security.IPermission));
+					r_Intersect_IPermission.SetBelong(this.instance);
 				}
-				return r_RIntersect_IPermission;
+				return r_Intersect_IPermission;
 			}
 		}
 
 		/// <summary>
 		/// Boolean IsSubsetOf(System.Security.IPermission)
 		/// </summary>
-		protected RMethod r_RIsSubsetOf_IPermission;
+		protected RMethod r_IsSubsetOf_IPermission;
 		public virtual RMethod RIsSubsetOf_IPermission
 		{
 			get
 			{
-				if(r_RIsSubsetOf_IPermission == null)
+				if(r_IsSubsetOf_IPermission == null)
 				{
-					r_RIsSubsetOf_IPermission = new(this, "IsSubsetOf", 0, typeof(System.Security.IPermission));
-					r_RIsSubsetOf_IPermission.SetBelong(this.instance);
+					r_IsSubsetOf_IPermission = new(this, "IsSubsetOf", 0, typeof(System.Security.IPermission));
+					r_IsSubsetOf_IPermission.SetBelong(this.instance);
 				}
-				return r_RIsSubsetOf_IPermission;
+				return r_IsSubsetOf_IPermission;
 			}
 		}
 
 		/// <summary>
 		/// System.Security.IPermission Union(System.Security.IPermission)
 		/// </summary>
-		protected RMethod r_RUnion_IPermission;
+		protected RMethod r_Union_IPermission;
 		public virtual RMethod RUnion_IPermission
 		{
 			get
 			{
-				if(r_RUnion_IPermission == null)
+				if(r_Union_IPermission == null)
 				{
-					r_RUnion_IPermission = new(this, "Union", 0, typeof(System.Security.IPermission));
-					r_RUnion_IPermission.SetBelong(this.instance);
+					r_Union_IPermission = new(this, "Union", 0, typeof(System.Security.IPermission));
+					r_Union_IPermission.SetBelong(this.instance);
 				}
-				return r_RUnion_IPermission;
+				return r_Union_IPermission;
 			}
 		}
 

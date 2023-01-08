@@ -472,612 +472,612 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Boolean TryCheckAccess[T](T[], UnityEngine.UIElements.StyleValueType, UnityEngine.UIElements.StyleValueHandle, T ByRef)
 		/// </summary>
-		protected static RMethod r_RTryCheckAccess_GT_TArray_StyleValueType_StyleValueHandle_Out_T;
+		protected static RMethod r_TryCheckAccess_GT_TArray_StyleValueType_StyleValueHandle_Out_T;
 		public static RMethod RTryCheckAccess_GT_TArray_StyleValueType_StyleValueHandle_Out_T
 		{
 			get
 			{
-				if(r_RTryCheckAccess_GT_TArray_StyleValueType_StyleValueHandle_Out_T == null)
+				if(r_TryCheckAccess_GT_TArray_StyleValueType_StyleValueHandle_Out_T == null)
 				{
-					r_RTryCheckAccess_GT_TArray_StyleValueType_StyleValueHandle_Out_T = new(typeof(UnityEngine.UIElements.StyleSheet), "TryCheckAccess", 1, Type.MakeGenericMethodParameter(0).MakeArrayType(),  ReleactionUtils.GetType("UnityEngine.UIElements.StyleValueType"),  ReleactionUtils.GetType("UnityEngine.UIElements.StyleValueHandle"), Type.MakeGenericMethodParameter(0).MakeByRefType());
-					r_RTryCheckAccess_GT_TArray_StyleValueType_StyleValueHandle_Out_T.SetBelong(null);
+					r_TryCheckAccess_GT_TArray_StyleValueType_StyleValueHandle_Out_T = new(typeof(UnityEngine.UIElements.StyleSheet), "TryCheckAccess", 1, Type.MakeGenericMethodParameter(0).MakeArrayType(),  ReleactionUtils.GetType("UnityEngine.UIElements.StyleValueType"),  ReleactionUtils.GetType("UnityEngine.UIElements.StyleValueHandle"), Type.MakeGenericMethodParameter(0).MakeByRefType());
+					r_TryCheckAccess_GT_TArray_StyleValueType_StyleValueHandle_Out_T.SetBelong(null);
 				}
-				return r_RTryCheckAccess_GT_TArray_StyleValueType_StyleValueHandle_Out_T;
+				return r_TryCheckAccess_GT_TArray_StyleValueType_StyleValueHandle_Out_T;
 			}
 		}
 
 		/// <summary>
 		/// T CheckAccess[T](T[], UnityEngine.UIElements.StyleValueType, UnityEngine.UIElements.StyleValueHandle)
 		/// </summary>
-		protected static RMethod r_RCheckAccess_GT_TArray_StyleValueType_StyleValueHandle;
+		protected static RMethod r_CheckAccess_GT_TArray_StyleValueType_StyleValueHandle;
 		public static RMethod RCheckAccess_GT_TArray_StyleValueType_StyleValueHandle
 		{
 			get
 			{
-				if(r_RCheckAccess_GT_TArray_StyleValueType_StyleValueHandle == null)
+				if(r_CheckAccess_GT_TArray_StyleValueType_StyleValueHandle == null)
 				{
-					r_RCheckAccess_GT_TArray_StyleValueType_StyleValueHandle = new(typeof(UnityEngine.UIElements.StyleSheet), "CheckAccess", 1, Type.MakeGenericMethodParameter(0).MakeArrayType(),  ReleactionUtils.GetType("UnityEngine.UIElements.StyleValueType"),  ReleactionUtils.GetType("UnityEngine.UIElements.StyleValueHandle"));
-					r_RCheckAccess_GT_TArray_StyleValueType_StyleValueHandle.SetBelong(null);
+					r_CheckAccess_GT_TArray_StyleValueType_StyleValueHandle = new(typeof(UnityEngine.UIElements.StyleSheet), "CheckAccess", 1, Type.MakeGenericMethodParameter(0).MakeArrayType(),  ReleactionUtils.GetType("UnityEngine.UIElements.StyleValueType"),  ReleactionUtils.GetType("UnityEngine.UIElements.StyleValueHandle"));
+					r_CheckAccess_GT_TArray_StyleValueType_StyleValueHandle.SetBelong(null);
 				}
-				return r_RCheckAccess_GT_TArray_StyleValueType_StyleValueHandle;
+				return r_CheckAccess_GT_TArray_StyleValueType_StyleValueHandle;
 			}
 		}
 
 		/// <summary>
 		/// Void OnEnable()
 		/// </summary>
-		protected RMethod r_ROnEnable;
+		protected RMethod r_OnEnable;
 		public virtual RMethod ROnEnable
 		{
 			get
 			{
-				if(r_ROnEnable == null)
+				if(r_OnEnable == null)
 				{
-					r_ROnEnable = new(this, "OnEnable", 0);
-					r_ROnEnable.SetBelong(this.instance);
+					r_OnEnable = new(this, "OnEnable", 0);
+					r_OnEnable.SetBelong(this.instance);
 				}
-				return r_ROnEnable;
+				return r_OnEnable;
 			}
 		}
 
 		/// <summary>
 		/// Void FlattenImportedStyleSheetsRecursive()
 		/// </summary>
-		protected RMethod r_RFlattenImportedStyleSheetsRecursive;
+		protected RMethod r_FlattenImportedStyleSheetsRecursive;
 		public virtual RMethod RFlattenImportedStyleSheetsRecursive
 		{
 			get
 			{
-				if(r_RFlattenImportedStyleSheetsRecursive == null)
+				if(r_FlattenImportedStyleSheetsRecursive == null)
 				{
-					r_RFlattenImportedStyleSheetsRecursive = new(this, "FlattenImportedStyleSheetsRecursive", 0);
-					r_RFlattenImportedStyleSheetsRecursive.SetBelong(this.instance);
+					r_FlattenImportedStyleSheetsRecursive = new(this, "FlattenImportedStyleSheetsRecursive", 0);
+					r_FlattenImportedStyleSheetsRecursive.SetBelong(this.instance);
 				}
-				return r_RFlattenImportedStyleSheetsRecursive;
+				return r_FlattenImportedStyleSheetsRecursive;
 			}
 		}
 
 		/// <summary>
 		/// Void FlattenImportedStyleSheetsRecursive(UnityEngine.UIElements.StyleSheet)
 		/// </summary>
-		protected RMethod r_RFlattenImportedStyleSheetsRecursive_StyleSheet;
+		protected RMethod r_FlattenImportedStyleSheetsRecursive_StyleSheet;
 		public virtual RMethod RFlattenImportedStyleSheetsRecursive_StyleSheet
 		{
 			get
 			{
-				if(r_RFlattenImportedStyleSheetsRecursive_StyleSheet == null)
+				if(r_FlattenImportedStyleSheetsRecursive_StyleSheet == null)
 				{
-					r_RFlattenImportedStyleSheetsRecursive_StyleSheet = new(this, "FlattenImportedStyleSheetsRecursive", 0, typeof(UnityEngine.UIElements.StyleSheet));
-					r_RFlattenImportedStyleSheetsRecursive_StyleSheet.SetBelong(this.instance);
+					r_FlattenImportedStyleSheetsRecursive_StyleSheet = new(this, "FlattenImportedStyleSheetsRecursive", 0, typeof(UnityEngine.UIElements.StyleSheet));
+					r_FlattenImportedStyleSheetsRecursive_StyleSheet.SetBelong(this.instance);
 				}
-				return r_RFlattenImportedStyleSheetsRecursive_StyleSheet;
+				return r_FlattenImportedStyleSheetsRecursive_StyleSheet;
 			}
 		}
 
 		/// <summary>
 		/// Void SetupReferences()
 		/// </summary>
-		protected RMethod r_RSetupReferences;
+		protected RMethod r_SetupReferences;
 		public virtual RMethod RSetupReferences
 		{
 			get
 			{
-				if(r_RSetupReferences == null)
+				if(r_SetupReferences == null)
 				{
-					r_RSetupReferences = new(this, "SetupReferences", 0);
-					r_RSetupReferences.SetBelong(this.instance);
+					r_SetupReferences = new(this, "SetupReferences", 0);
+					r_SetupReferences.SetBelong(this.instance);
 				}
-				return r_RSetupReferences;
+				return r_SetupReferences;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleValueKeyword ReadKeyword(UnityEngine.UIElements.StyleValueHandle)
 		/// </summary>
-		protected RMethod r_RReadKeyword_StyleValueHandle;
+		protected RMethod r_ReadKeyword_StyleValueHandle;
 		public virtual RMethod RReadKeyword_StyleValueHandle
 		{
 			get
 			{
-				if(r_RReadKeyword_StyleValueHandle == null)
+				if(r_ReadKeyword_StyleValueHandle == null)
 				{
-					r_RReadKeyword_StyleValueHandle = new(this, "ReadKeyword", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleValueHandle"));
-					r_RReadKeyword_StyleValueHandle.SetBelong(this.instance);
+					r_ReadKeyword_StyleValueHandle = new(this, "ReadKeyword", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleValueHandle"));
+					r_ReadKeyword_StyleValueHandle.SetBelong(this.instance);
 				}
-				return r_RReadKeyword_StyleValueHandle;
+				return r_ReadKeyword_StyleValueHandle;
 			}
 		}
 
 		/// <summary>
 		/// Single ReadFloat(UnityEngine.UIElements.StyleValueHandle)
 		/// </summary>
-		protected RMethod r_RReadFloat_StyleValueHandle;
+		protected RMethod r_ReadFloat_StyleValueHandle;
 		public virtual RMethod RReadFloat_StyleValueHandle
 		{
 			get
 			{
-				if(r_RReadFloat_StyleValueHandle == null)
+				if(r_ReadFloat_StyleValueHandle == null)
 				{
-					r_RReadFloat_StyleValueHandle = new(this, "ReadFloat", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleValueHandle"));
-					r_RReadFloat_StyleValueHandle.SetBelong(this.instance);
+					r_ReadFloat_StyleValueHandle = new(this, "ReadFloat", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleValueHandle"));
+					r_ReadFloat_StyleValueHandle.SetBelong(this.instance);
 				}
-				return r_RReadFloat_StyleValueHandle;
+				return r_ReadFloat_StyleValueHandle;
 			}
 		}
 
 		/// <summary>
 		/// Boolean TryReadFloat(UnityEngine.UIElements.StyleValueHandle, Single ByRef)
 		/// </summary>
-		protected RMethod r_RTryReadFloat_StyleValueHandle_Out_Single;
+		protected RMethod r_TryReadFloat_StyleValueHandle_Out_Single;
 		public virtual RMethod RTryReadFloat_StyleValueHandle_Out_Single
 		{
 			get
 			{
-				if(r_RTryReadFloat_StyleValueHandle_Out_Single == null)
+				if(r_TryReadFloat_StyleValueHandle_Out_Single == null)
 				{
-					r_RTryReadFloat_StyleValueHandle_Out_Single = new(this, "TryReadFloat", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleValueHandle"), typeof(System.Single).MakeByRefType());
-					r_RTryReadFloat_StyleValueHandle_Out_Single.SetBelong(this.instance);
+					r_TryReadFloat_StyleValueHandle_Out_Single = new(this, "TryReadFloat", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleValueHandle"), typeof(System.Single).MakeByRefType());
+					r_TryReadFloat_StyleValueHandle_Out_Single.SetBelong(this.instance);
 				}
-				return r_RTryReadFloat_StyleValueHandle_Out_Single;
+				return r_TryReadFloat_StyleValueHandle_Out_Single;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleSheets.Dimension ReadDimension(UnityEngine.UIElements.StyleValueHandle)
 		/// </summary>
-		protected RMethod r_RReadDimension_StyleValueHandle;
+		protected RMethod r_ReadDimension_StyleValueHandle;
 		public virtual RMethod RReadDimension_StyleValueHandle
 		{
 			get
 			{
-				if(r_RReadDimension_StyleValueHandle == null)
+				if(r_ReadDimension_StyleValueHandle == null)
 				{
-					r_RReadDimension_StyleValueHandle = new(this, "ReadDimension", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleValueHandle"));
-					r_RReadDimension_StyleValueHandle.SetBelong(this.instance);
+					r_ReadDimension_StyleValueHandle = new(this, "ReadDimension", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleValueHandle"));
+					r_ReadDimension_StyleValueHandle.SetBelong(this.instance);
 				}
-				return r_RReadDimension_StyleValueHandle;
+				return r_ReadDimension_StyleValueHandle;
 			}
 		}
 
 		/// <summary>
 		/// Boolean TryReadDimension(UnityEngine.UIElements.StyleValueHandle, UnityEngine.UIElements.StyleSheets.Dimension ByRef)
 		/// </summary>
-		protected RMethod r_RTryReadDimension_StyleValueHandle_Out_Dimension;
+		protected RMethod r_TryReadDimension_StyleValueHandle_Out_Dimension;
 		public virtual RMethod RTryReadDimension_StyleValueHandle_Out_Dimension
 		{
 			get
 			{
-				if(r_RTryReadDimension_StyleValueHandle_Out_Dimension == null)
+				if(r_TryReadDimension_StyleValueHandle_Out_Dimension == null)
 				{
-					r_RTryReadDimension_StyleValueHandle_Out_Dimension = new(this, "TryReadDimension", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleValueHandle"),  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.Dimension").MakeByRefType());
-					r_RTryReadDimension_StyleValueHandle_Out_Dimension.SetBelong(this.instance);
+					r_TryReadDimension_StyleValueHandle_Out_Dimension = new(this, "TryReadDimension", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleValueHandle"),  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.Dimension").MakeByRefType());
+					r_TryReadDimension_StyleValueHandle_Out_Dimension.SetBelong(this.instance);
 				}
-				return r_RTryReadDimension_StyleValueHandle_Out_Dimension;
+				return r_TryReadDimension_StyleValueHandle_Out_Dimension;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Color ReadColor(UnityEngine.UIElements.StyleValueHandle)
 		/// </summary>
-		protected RMethod r_RReadColor_StyleValueHandle;
+		protected RMethod r_ReadColor_StyleValueHandle;
 		public virtual RMethod RReadColor_StyleValueHandle
 		{
 			get
 			{
-				if(r_RReadColor_StyleValueHandle == null)
+				if(r_ReadColor_StyleValueHandle == null)
 				{
-					r_RReadColor_StyleValueHandle = new(this, "ReadColor", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleValueHandle"));
-					r_RReadColor_StyleValueHandle.SetBelong(this.instance);
+					r_ReadColor_StyleValueHandle = new(this, "ReadColor", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleValueHandle"));
+					r_ReadColor_StyleValueHandle.SetBelong(this.instance);
 				}
-				return r_RReadColor_StyleValueHandle;
+				return r_ReadColor_StyleValueHandle;
 			}
 		}
 
 		/// <summary>
 		/// Boolean TryReadColor(UnityEngine.UIElements.StyleValueHandle, UnityEngine.Color ByRef)
 		/// </summary>
-		protected RMethod r_RTryReadColor_StyleValueHandle_Out_Color;
+		protected RMethod r_TryReadColor_StyleValueHandle_Out_Color;
 		public virtual RMethod RTryReadColor_StyleValueHandle_Out_Color
 		{
 			get
 			{
-				if(r_RTryReadColor_StyleValueHandle_Out_Color == null)
+				if(r_TryReadColor_StyleValueHandle_Out_Color == null)
 				{
-					r_RTryReadColor_StyleValueHandle_Out_Color = new(this, "TryReadColor", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleValueHandle"), typeof(UnityEngine.Color).MakeByRefType());
-					r_RTryReadColor_StyleValueHandle_Out_Color.SetBelong(this.instance);
+					r_TryReadColor_StyleValueHandle_Out_Color = new(this, "TryReadColor", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleValueHandle"), typeof(UnityEngine.Color).MakeByRefType());
+					r_TryReadColor_StyleValueHandle_Out_Color.SetBelong(this.instance);
 				}
-				return r_RTryReadColor_StyleValueHandle_Out_Color;
+				return r_TryReadColor_StyleValueHandle_Out_Color;
 			}
 		}
 
 		/// <summary>
 		/// System.String ReadString(UnityEngine.UIElements.StyleValueHandle)
 		/// </summary>
-		protected RMethod r_RReadString_StyleValueHandle;
+		protected RMethod r_ReadString_StyleValueHandle;
 		public virtual RMethod RReadString_StyleValueHandle
 		{
 			get
 			{
-				if(r_RReadString_StyleValueHandle == null)
+				if(r_ReadString_StyleValueHandle == null)
 				{
-					r_RReadString_StyleValueHandle = new(this, "ReadString", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleValueHandle"));
-					r_RReadString_StyleValueHandle.SetBelong(this.instance);
+					r_ReadString_StyleValueHandle = new(this, "ReadString", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleValueHandle"));
+					r_ReadString_StyleValueHandle.SetBelong(this.instance);
 				}
-				return r_RReadString_StyleValueHandle;
+				return r_ReadString_StyleValueHandle;
 			}
 		}
 
 		/// <summary>
 		/// Boolean TryReadString(UnityEngine.UIElements.StyleValueHandle, System.String ByRef)
 		/// </summary>
-		protected RMethod r_RTryReadString_StyleValueHandle_Out_String;
+		protected RMethod r_TryReadString_StyleValueHandle_Out_String;
 		public virtual RMethod RTryReadString_StyleValueHandle_Out_String
 		{
 			get
 			{
-				if(r_RTryReadString_StyleValueHandle_Out_String == null)
+				if(r_TryReadString_StyleValueHandle_Out_String == null)
 				{
-					r_RTryReadString_StyleValueHandle_Out_String = new(this, "TryReadString", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleValueHandle"), typeof(System.String).MakeByRefType());
-					r_RTryReadString_StyleValueHandle_Out_String.SetBelong(this.instance);
+					r_TryReadString_StyleValueHandle_Out_String = new(this, "TryReadString", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleValueHandle"), typeof(System.String).MakeByRefType());
+					r_TryReadString_StyleValueHandle_Out_String.SetBelong(this.instance);
 				}
-				return r_RTryReadString_StyleValueHandle_Out_String;
+				return r_TryReadString_StyleValueHandle_Out_String;
 			}
 		}
 
 		/// <summary>
 		/// System.String ReadEnum(UnityEngine.UIElements.StyleValueHandle)
 		/// </summary>
-		protected RMethod r_RReadEnum_StyleValueHandle;
+		protected RMethod r_ReadEnum_StyleValueHandle;
 		public virtual RMethod RReadEnum_StyleValueHandle
 		{
 			get
 			{
-				if(r_RReadEnum_StyleValueHandle == null)
+				if(r_ReadEnum_StyleValueHandle == null)
 				{
-					r_RReadEnum_StyleValueHandle = new(this, "ReadEnum", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleValueHandle"));
-					r_RReadEnum_StyleValueHandle.SetBelong(this.instance);
+					r_ReadEnum_StyleValueHandle = new(this, "ReadEnum", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleValueHandle"));
+					r_ReadEnum_StyleValueHandle.SetBelong(this.instance);
 				}
-				return r_RReadEnum_StyleValueHandle;
+				return r_ReadEnum_StyleValueHandle;
 			}
 		}
 
 		/// <summary>
 		/// Boolean TryReadEnum(UnityEngine.UIElements.StyleValueHandle, System.String ByRef)
 		/// </summary>
-		protected RMethod r_RTryReadEnum_StyleValueHandle_Out_String;
+		protected RMethod r_TryReadEnum_StyleValueHandle_Out_String;
 		public virtual RMethod RTryReadEnum_StyleValueHandle_Out_String
 		{
 			get
 			{
-				if(r_RTryReadEnum_StyleValueHandle_Out_String == null)
+				if(r_TryReadEnum_StyleValueHandle_Out_String == null)
 				{
-					r_RTryReadEnum_StyleValueHandle_Out_String = new(this, "TryReadEnum", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleValueHandle"), typeof(System.String).MakeByRefType());
-					r_RTryReadEnum_StyleValueHandle_Out_String.SetBelong(this.instance);
+					r_TryReadEnum_StyleValueHandle_Out_String = new(this, "TryReadEnum", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleValueHandle"), typeof(System.String).MakeByRefType());
+					r_TryReadEnum_StyleValueHandle_Out_String.SetBelong(this.instance);
 				}
-				return r_RTryReadEnum_StyleValueHandle_Out_String;
+				return r_TryReadEnum_StyleValueHandle_Out_String;
 			}
 		}
 
 		/// <summary>
 		/// System.String ReadVariable(UnityEngine.UIElements.StyleValueHandle)
 		/// </summary>
-		protected RMethod r_RReadVariable_StyleValueHandle;
+		protected RMethod r_ReadVariable_StyleValueHandle;
 		public virtual RMethod RReadVariable_StyleValueHandle
 		{
 			get
 			{
-				if(r_RReadVariable_StyleValueHandle == null)
+				if(r_ReadVariable_StyleValueHandle == null)
 				{
-					r_RReadVariable_StyleValueHandle = new(this, "ReadVariable", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleValueHandle"));
-					r_RReadVariable_StyleValueHandle.SetBelong(this.instance);
+					r_ReadVariable_StyleValueHandle = new(this, "ReadVariable", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleValueHandle"));
+					r_ReadVariable_StyleValueHandle.SetBelong(this.instance);
 				}
-				return r_RReadVariable_StyleValueHandle;
+				return r_ReadVariable_StyleValueHandle;
 			}
 		}
 
 		/// <summary>
 		/// Boolean TryReadVariable(UnityEngine.UIElements.StyleValueHandle, System.String ByRef)
 		/// </summary>
-		protected RMethod r_RTryReadVariable_StyleValueHandle_Out_String;
+		protected RMethod r_TryReadVariable_StyleValueHandle_Out_String;
 		public virtual RMethod RTryReadVariable_StyleValueHandle_Out_String
 		{
 			get
 			{
-				if(r_RTryReadVariable_StyleValueHandle_Out_String == null)
+				if(r_TryReadVariable_StyleValueHandle_Out_String == null)
 				{
-					r_RTryReadVariable_StyleValueHandle_Out_String = new(this, "TryReadVariable", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleValueHandle"), typeof(System.String).MakeByRefType());
-					r_RTryReadVariable_StyleValueHandle_Out_String.SetBelong(this.instance);
+					r_TryReadVariable_StyleValueHandle_Out_String = new(this, "TryReadVariable", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleValueHandle"), typeof(System.String).MakeByRefType());
+					r_TryReadVariable_StyleValueHandle_Out_String.SetBelong(this.instance);
 				}
-				return r_RTryReadVariable_StyleValueHandle_Out_String;
+				return r_TryReadVariable_StyleValueHandle_Out_String;
 			}
 		}
 
 		/// <summary>
 		/// System.String ReadResourcePath(UnityEngine.UIElements.StyleValueHandle)
 		/// </summary>
-		protected RMethod r_RReadResourcePath_StyleValueHandle;
+		protected RMethod r_ReadResourcePath_StyleValueHandle;
 		public virtual RMethod RReadResourcePath_StyleValueHandle
 		{
 			get
 			{
-				if(r_RReadResourcePath_StyleValueHandle == null)
+				if(r_ReadResourcePath_StyleValueHandle == null)
 				{
-					r_RReadResourcePath_StyleValueHandle = new(this, "ReadResourcePath", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleValueHandle"));
-					r_RReadResourcePath_StyleValueHandle.SetBelong(this.instance);
+					r_ReadResourcePath_StyleValueHandle = new(this, "ReadResourcePath", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleValueHandle"));
+					r_ReadResourcePath_StyleValueHandle.SetBelong(this.instance);
 				}
-				return r_RReadResourcePath_StyleValueHandle;
+				return r_ReadResourcePath_StyleValueHandle;
 			}
 		}
 
 		/// <summary>
 		/// Boolean TryReadResourcePath(UnityEngine.UIElements.StyleValueHandle, System.String ByRef)
 		/// </summary>
-		protected RMethod r_RTryReadResourcePath_StyleValueHandle_Out_String;
+		protected RMethod r_TryReadResourcePath_StyleValueHandle_Out_String;
 		public virtual RMethod RTryReadResourcePath_StyleValueHandle_Out_String
 		{
 			get
 			{
-				if(r_RTryReadResourcePath_StyleValueHandle_Out_String == null)
+				if(r_TryReadResourcePath_StyleValueHandle_Out_String == null)
 				{
-					r_RTryReadResourcePath_StyleValueHandle_Out_String = new(this, "TryReadResourcePath", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleValueHandle"), typeof(System.String).MakeByRefType());
-					r_RTryReadResourcePath_StyleValueHandle_Out_String.SetBelong(this.instance);
+					r_TryReadResourcePath_StyleValueHandle_Out_String = new(this, "TryReadResourcePath", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleValueHandle"), typeof(System.String).MakeByRefType());
+					r_TryReadResourcePath_StyleValueHandle_Out_String.SetBelong(this.instance);
 				}
-				return r_RTryReadResourcePath_StyleValueHandle_Out_String;
+				return r_TryReadResourcePath_StyleValueHandle_Out_String;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Object ReadAssetReference(UnityEngine.UIElements.StyleValueHandle)
 		/// </summary>
-		protected RMethod r_RReadAssetReference_StyleValueHandle;
+		protected RMethod r_ReadAssetReference_StyleValueHandle;
 		public virtual RMethod RReadAssetReference_StyleValueHandle
 		{
 			get
 			{
-				if(r_RReadAssetReference_StyleValueHandle == null)
+				if(r_ReadAssetReference_StyleValueHandle == null)
 				{
-					r_RReadAssetReference_StyleValueHandle = new(this, "ReadAssetReference", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleValueHandle"));
-					r_RReadAssetReference_StyleValueHandle.SetBelong(this.instance);
+					r_ReadAssetReference_StyleValueHandle = new(this, "ReadAssetReference", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleValueHandle"));
+					r_ReadAssetReference_StyleValueHandle.SetBelong(this.instance);
 				}
-				return r_RReadAssetReference_StyleValueHandle;
+				return r_ReadAssetReference_StyleValueHandle;
 			}
 		}
 
 		/// <summary>
 		/// System.String ReadMissingAssetReferenceUrl(UnityEngine.UIElements.StyleValueHandle)
 		/// </summary>
-		protected RMethod r_RReadMissingAssetReferenceUrl_StyleValueHandle;
+		protected RMethod r_ReadMissingAssetReferenceUrl_StyleValueHandle;
 		public virtual RMethod RReadMissingAssetReferenceUrl_StyleValueHandle
 		{
 			get
 			{
-				if(r_RReadMissingAssetReferenceUrl_StyleValueHandle == null)
+				if(r_ReadMissingAssetReferenceUrl_StyleValueHandle == null)
 				{
-					r_RReadMissingAssetReferenceUrl_StyleValueHandle = new(this, "ReadMissingAssetReferenceUrl", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleValueHandle"));
-					r_RReadMissingAssetReferenceUrl_StyleValueHandle.SetBelong(this.instance);
+					r_ReadMissingAssetReferenceUrl_StyleValueHandle = new(this, "ReadMissingAssetReferenceUrl", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleValueHandle"));
+					r_ReadMissingAssetReferenceUrl_StyleValueHandle.SetBelong(this.instance);
 				}
-				return r_RReadMissingAssetReferenceUrl_StyleValueHandle;
+				return r_ReadMissingAssetReferenceUrl_StyleValueHandle;
 			}
 		}
 
 		/// <summary>
 		/// Boolean TryReadAssetReference(UnityEngine.UIElements.StyleValueHandle, UnityEngine.Object ByRef)
 		/// </summary>
-		protected RMethod r_RTryReadAssetReference_StyleValueHandle_Out_Object;
+		protected RMethod r_TryReadAssetReference_StyleValueHandle_Out_Object;
 		public virtual RMethod RTryReadAssetReference_StyleValueHandle_Out_Object
 		{
 			get
 			{
-				if(r_RTryReadAssetReference_StyleValueHandle_Out_Object == null)
+				if(r_TryReadAssetReference_StyleValueHandle_Out_Object == null)
 				{
-					r_RTryReadAssetReference_StyleValueHandle_Out_Object = new(this, "TryReadAssetReference", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleValueHandle"), typeof(UnityEngine.Object).MakeByRefType());
-					r_RTryReadAssetReference_StyleValueHandle_Out_Object.SetBelong(this.instance);
+					r_TryReadAssetReference_StyleValueHandle_Out_Object = new(this, "TryReadAssetReference", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleValueHandle"), typeof(UnityEngine.Object).MakeByRefType());
+					r_TryReadAssetReference_StyleValueHandle_Out_Object.SetBelong(this.instance);
 				}
-				return r_RTryReadAssetReference_StyleValueHandle_Out_Object;
+				return r_TryReadAssetReference_StyleValueHandle_Out_Object;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleValueFunction ReadFunction(UnityEngine.UIElements.StyleValueHandle)
 		/// </summary>
-		protected RMethod r_RReadFunction_StyleValueHandle;
+		protected RMethod r_ReadFunction_StyleValueHandle;
 		public virtual RMethod RReadFunction_StyleValueHandle
 		{
 			get
 			{
-				if(r_RReadFunction_StyleValueHandle == null)
+				if(r_ReadFunction_StyleValueHandle == null)
 				{
-					r_RReadFunction_StyleValueHandle = new(this, "ReadFunction", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleValueHandle"));
-					r_RReadFunction_StyleValueHandle.SetBelong(this.instance);
+					r_ReadFunction_StyleValueHandle = new(this, "ReadFunction", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleValueHandle"));
+					r_ReadFunction_StyleValueHandle.SetBelong(this.instance);
 				}
-				return r_RReadFunction_StyleValueHandle;
+				return r_ReadFunction_StyleValueHandle;
 			}
 		}
 
 		/// <summary>
 		/// System.String ReadFunctionName(UnityEngine.UIElements.StyleValueHandle)
 		/// </summary>
-		protected RMethod r_RReadFunctionName_StyleValueHandle;
+		protected RMethod r_ReadFunctionName_StyleValueHandle;
 		public virtual RMethod RReadFunctionName_StyleValueHandle
 		{
 			get
 			{
-				if(r_RReadFunctionName_StyleValueHandle == null)
+				if(r_ReadFunctionName_StyleValueHandle == null)
 				{
-					r_RReadFunctionName_StyleValueHandle = new(this, "ReadFunctionName", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleValueHandle"));
-					r_RReadFunctionName_StyleValueHandle.SetBelong(this.instance);
+					r_ReadFunctionName_StyleValueHandle = new(this, "ReadFunctionName", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleValueHandle"));
+					r_ReadFunctionName_StyleValueHandle.SetBelong(this.instance);
 				}
-				return r_RReadFunctionName_StyleValueHandle;
+				return r_ReadFunctionName_StyleValueHandle;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleSheets.ScalableImage ReadScalableImage(UnityEngine.UIElements.StyleValueHandle)
 		/// </summary>
-		protected RMethod r_RReadScalableImage_StyleValueHandle;
+		protected RMethod r_ReadScalableImage_StyleValueHandle;
 		public virtual RMethod RReadScalableImage_StyleValueHandle
 		{
 			get
 			{
-				if(r_RReadScalableImage_StyleValueHandle == null)
+				if(r_ReadScalableImage_StyleValueHandle == null)
 				{
-					r_RReadScalableImage_StyleValueHandle = new(this, "ReadScalableImage", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleValueHandle"));
-					r_RReadScalableImage_StyleValueHandle.SetBelong(this.instance);
+					r_ReadScalableImage_StyleValueHandle = new(this, "ReadScalableImage", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleValueHandle"));
+					r_ReadScalableImage_StyleValueHandle.SetBelong(this.instance);
 				}
-				return r_RReadScalableImage_StyleValueHandle;
+				return r_ReadScalableImage_StyleValueHandle;
 			}
 		}
 
 		/// <summary>
 		/// Boolean CustomStartsWith(System.String, System.String)
 		/// </summary>
-		protected static RMethod r_RCustomStartsWith_String_String;
+		protected static RMethod r_CustomStartsWith_String_String;
 		public static RMethod RCustomStartsWith_String_String
 		{
 			get
 			{
-				if(r_RCustomStartsWith_String_String == null)
+				if(r_CustomStartsWith_String_String == null)
 				{
-					r_RCustomStartsWith_String_String = new(typeof(UnityEngine.UIElements.StyleSheet), "CustomStartsWith", 0, typeof(System.String), typeof(System.String));
-					r_RCustomStartsWith_String_String.SetBelong(null);
+					r_CustomStartsWith_String_String = new(typeof(UnityEngine.UIElements.StyleSheet), "CustomStartsWith", 0, typeof(System.String), typeof(System.String));
+					r_CustomStartsWith_String_String.SetBelong(null);
 				}
-				return r_RCustomStartsWith_String_String;
+				return r_CustomStartsWith_String_String;
 			}
 		}
 
 		/// <summary>
 		/// Void SetDirty()
 		/// </summary>
-		protected RMethod r_RSetDirty;
+		protected RMethod r_SetDirty;
 		public virtual RMethod RSetDirty
 		{
 			get
 			{
-				if(r_RSetDirty == null)
+				if(r_SetDirty == null)
 				{
-					r_RSetDirty = new(this, "SetDirty", 0);
-					r_RSetDirty.SetBelong(this.instance);
+					r_SetDirty = new(this, "SetDirty", 0);
+					r_SetDirty.SetBelong(this.instance);
 				}
-				return r_RSetDirty;
+				return r_SetDirty;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetInstanceID()
 		/// </summary>
-		protected RMethod r_RGetInstanceID;
+		protected RMethod r_GetInstanceID;
 		public virtual RMethod RGetInstanceID
 		{
 			get
 			{
-				if(r_RGetInstanceID == null)
+				if(r_GetInstanceID == null)
 				{
-					r_RGetInstanceID = new(this, "GetInstanceID", 0);
-					r_RGetInstanceID.SetBelong(this.instance);
+					r_GetInstanceID = new(this, "GetInstanceID", 0);
+					r_GetInstanceID.SetBelong(this.instance);
 				}
-				return r_RGetInstanceID;
+				return r_GetInstanceID;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetHashCode()
 		/// </summary>
-		protected RMethod r_RGetHashCode;
+		protected RMethod r_GetHashCode;
 		public virtual RMethod RGetHashCode
 		{
 			get
 			{
-				if(r_RGetHashCode == null)
+				if(r_GetHashCode == null)
 				{
-					r_RGetHashCode = new(this, "GetHashCode", 0);
-					r_RGetHashCode.SetBelong(this.instance);
+					r_GetHashCode = new(this, "GetHashCode", 0);
+					r_GetHashCode.SetBelong(this.instance);
 				}
-				return r_RGetHashCode;
+				return r_GetHashCode;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Equals(System.Object)
 		/// </summary>
-		protected RMethod r_REquals_Object;
+		protected RMethod r_Equals_Object;
 		public virtual RMethod REquals_Object
 		{
 			get
 			{
-				if(r_REquals_Object == null)
+				if(r_Equals_Object == null)
 				{
-					r_REquals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_REquals_Object.SetBelong(this.instance);
+					r_Equals_Object = new(this, "Equals", 0, typeof(System.Object));
+					r_Equals_Object.SetBelong(this.instance);
 				}
-				return r_REquals_Object;
+				return r_Equals_Object;
 			}
 		}
 
 		/// <summary>
 		/// System.String ToString()
 		/// </summary>
-		protected RMethod r_RToString;
+		protected RMethod r_ToString;
 		public virtual RMethod RToString
 		{
 			get
 			{
-				if(r_RToString == null)
+				if(r_ToString == null)
 				{
-					r_RToString = new(this, "ToString", 0);
-					r_RToString.SetBelong(this.instance);
+					r_ToString = new(this, "ToString", 0);
+					r_ToString.SetBelong(this.instance);
 				}
-				return r_RToString;
+				return r_ToString;
 			}
 		}
 
 		/// <summary>
 		/// Void Finalize()
 		/// </summary>
-		protected RMethod r_RFinalize;
+		protected RMethod r_Finalize;
 		public virtual RMethod RFinalize
 		{
 			get
 			{
-				if(r_RFinalize == null)
+				if(r_Finalize == null)
 				{
-					r_RFinalize = new(this, "Finalize", 0);
-					r_RFinalize.SetBelong(this.instance);
+					r_Finalize = new(this, "Finalize", 0);
+					r_Finalize.SetBelong(this.instance);
 				}
-				return r_RFinalize;
+				return r_Finalize;
 			}
 		}
 
 		/// <summary>
 		/// System.Type GetType()
 		/// </summary>
-		protected RMethod r_RGetType;
+		protected RMethod r_GetType;
 		public virtual RMethod RGetType
 		{
 			get
 			{
-				if(r_RGetType == null)
+				if(r_GetType == null)
 				{
-					r_RGetType = new(this, "GetType", 0);
-					r_RGetType.SetBelong(this.instance);
+					r_GetType = new(this, "GetType", 0);
+					r_GetType.SetBelong(this.instance);
 				}
-				return r_RGetType;
+				return r_GetType;
 			}
 		}
 
 		/// <summary>
 		/// System.Object MemberwiseClone()
 		/// </summary>
-		protected RMethod r_RMemberwiseClone;
+		protected RMethod r_MemberwiseClone;
 		public virtual RMethod RMemberwiseClone
 		{
 			get
 			{
-				if(r_RMemberwiseClone == null)
+				if(r_MemberwiseClone == null)
 				{
-					r_RMemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_RMemberwiseClone.SetBelong(this.instance);
+					r_MemberwiseClone = new(this, "MemberwiseClone", 0);
+					r_MemberwiseClone.SetBelong(this.instance);
 				}
-				return r_RMemberwiseClone;
+				return r_MemberwiseClone;
 			}
 		}
 

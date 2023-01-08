@@ -302,68 +302,68 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RImplementati
 		/// <summary>
 		/// UnityEngine.UIElements.MeshGenerationContext <meshGenerationContext>k__BackingField
 		/// </summary>
-		protected RUnityEngine.RUIElements.RMeshGenerationContext r___1__meshGenerationContext__2__k__BackingField;
-		public virtual RUnityEngine.RUIElements.RMeshGenerationContext R__1__meshGenerationContext__2__k__BackingField
+		protected RUnityEngine.RUIElements.RMeshGenerationContext r___0__meshGenerationContext__1__k__BackingField;
+		public virtual RUnityEngine.RUIElements.RMeshGenerationContext R__0__meshGenerationContext__1__k__BackingField
 		{
 			get
 			{
-				if(r___1__meshGenerationContext__2__k__BackingField == null)
+				if(r___0__meshGenerationContext__1__k__BackingField == null)
 				{
-					r___1__meshGenerationContext__2__k__BackingField = new(this, "<meshGenerationContext>k__BackingField");
-					r___1__meshGenerationContext__2__k__BackingField.SetBelong(this.instance);
+					r___0__meshGenerationContext__1__k__BackingField = new(this, "<meshGenerationContext>k__BackingField");
+					r___0__meshGenerationContext__1__k__BackingField.SetBelong(this.instance);
 				}
-				return r___1__meshGenerationContext__2__k__BackingField;
+				return r___0__meshGenerationContext__1__k__BackingField;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.VisualElement <currentElement>k__BackingField
 		/// </summary>
-		protected RUnityEngine.RUIElements.RVisualElement r___1__currentElement__2__k__BackingField;
-		public virtual RUnityEngine.RUIElements.RVisualElement R__1__currentElement__2__k__BackingField
+		protected RUnityEngine.RUIElements.RVisualElement r___0__currentElement__1__k__BackingField;
+		public virtual RUnityEngine.RUIElements.RVisualElement R__0__currentElement__1__k__BackingField
 		{
 			get
 			{
-				if(r___1__currentElement__2__k__BackingField == null)
+				if(r___0__currentElement__1__k__BackingField == null)
 				{
-					r___1__currentElement__2__k__BackingField = new(this, "<currentElement>k__BackingField");
-					r___1__currentElement__2__k__BackingField.SetBelong(this.instance);
+					r___0__currentElement__1__k__BackingField = new(this, "<currentElement>k__BackingField");
+					r___0__currentElement__1__k__BackingField.SetBelong(this.instance);
 				}
-				return r___1__currentElement__2__k__BackingField;
+				return r___0__currentElement__1__k__BackingField;
 			}
 		}
 
 		/// <summary>
 		/// System.Int32 <totalVertices>k__BackingField
 		/// </summary>
-		protected RField r___1__totalVertices__2__k__BackingField;
-		public virtual RField R__1__totalVertices__2__k__BackingField
+		protected RField r___0__totalVertices__1__k__BackingField;
+		public virtual RField R__0__totalVertices__1__k__BackingField
 		{
 			get
 			{
-				if(r___1__totalVertices__2__k__BackingField == null)
+				if(r___0__totalVertices__1__k__BackingField == null)
 				{
-					r___1__totalVertices__2__k__BackingField = new(this, "<totalVertices>k__BackingField");
-					r___1__totalVertices__2__k__BackingField.SetBelong(this.instance);
+					r___0__totalVertices__1__k__BackingField = new(this, "<totalVertices>k__BackingField");
+					r___0__totalVertices__1__k__BackingField.SetBelong(this.instance);
 				}
-				return r___1__totalVertices__2__k__BackingField;
+				return r___0__totalVertices__1__k__BackingField;
 			}
 		}
 
 		/// <summary>
 		/// System.Int32 <totalIndices>k__BackingField
 		/// </summary>
-		protected RField r___1__totalIndices__2__k__BackingField;
-		public virtual RField R__1__totalIndices__2__k__BackingField
+		protected RField r___0__totalIndices__1__k__BackingField;
+		public virtual RField R__0__totalIndices__1__k__BackingField
 		{
 			get
 			{
-				if(r___1__totalIndices__2__k__BackingField == null)
+				if(r___0__totalIndices__1__k__BackingField == null)
 				{
-					r___1__totalIndices__2__k__BackingField = new(this, "<totalIndices>k__BackingField");
-					r___1__totalIndices__2__k__BackingField.SetBelong(this.instance);
+					r___0__totalIndices__1__k__BackingField = new(this, "<totalIndices>k__BackingField");
+					r___0__totalIndices__1__k__BackingField.SetBelong(this.instance);
 				}
-				return r___1__totalIndices__2__k__BackingField;
+				return r___0__totalIndices__1__k__BackingField;
 			}
 		}
 
@@ -506,663 +506,663 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RImplementati
 		/// <summary>
 		/// UnityEngine.UIElements.MeshWriteData GetPooledMeshWriteData()
 		/// </summary>
-		protected RMethod r_RGetPooledMeshWriteData;
+		protected RMethod r_GetPooledMeshWriteData;
 		public virtual RMethod RGetPooledMeshWriteData
 		{
 			get
 			{
-				if(r_RGetPooledMeshWriteData == null)
+				if(r_GetPooledMeshWriteData == null)
 				{
-					r_RGetPooledMeshWriteData = new(this, "GetPooledMeshWriteData", 0);
-					r_RGetPooledMeshWriteData.SetBelong(this.instance);
+					r_GetPooledMeshWriteData = new(this, "GetPooledMeshWriteData", 0);
+					r_GetPooledMeshWriteData.SetBelong(this.instance);
 				}
-				return r_RGetPooledMeshWriteData;
+				return r_GetPooledMeshWriteData;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.MeshWriteData AllocRawVertsIndices(UInt32, UInt32, AllocMeshData ByRef)
 		/// </summary>
-		protected RMethod r_RAllocRawVertsIndices_UInt32_UInt32_Ref_AllocMeshData;
+		protected RMethod r_AllocRawVertsIndices_UInt32_UInt32_Ref_AllocMeshData;
 		public virtual RMethod RAllocRawVertsIndices_UInt32_UInt32_Ref_AllocMeshData
 		{
 			get
 			{
-				if(r_RAllocRawVertsIndices_UInt32_UInt32_Ref_AllocMeshData == null)
+				if(r_AllocRawVertsIndices_UInt32_UInt32_Ref_AllocMeshData == null)
 				{
-					r_RAllocRawVertsIndices_UInt32_UInt32_Ref_AllocMeshData = new(this, "AllocRawVertsIndices", 0, typeof(System.UInt32), typeof(System.UInt32),  ReleactionUtils.GetType("UnityEngine.UIElements.UIR.MeshBuilder+AllocMeshData").MakeByRefType());
-					r_RAllocRawVertsIndices_UInt32_UInt32_Ref_AllocMeshData.SetBelong(this.instance);
+					r_AllocRawVertsIndices_UInt32_UInt32_Ref_AllocMeshData = new(this, "AllocRawVertsIndices", 0, typeof(System.UInt32), typeof(System.UInt32),  ReleactionUtils.GetType("UnityEngine.UIElements.UIR.MeshBuilder+AllocMeshData").MakeByRefType());
+					r_AllocRawVertsIndices_UInt32_UInt32_Ref_AllocMeshData.SetBelong(this.instance);
 				}
-				return r_RAllocRawVertsIndices_UInt32_UInt32_Ref_AllocMeshData;
+				return r_AllocRawVertsIndices_UInt32_UInt32_Ref_AllocMeshData;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.MeshWriteData AllocThroughDrawMesh(UInt32, UInt32, AllocMeshData ByRef)
 		/// </summary>
-		protected RMethod r_RAllocThroughDrawMesh_UInt32_UInt32_Ref_AllocMeshData;
+		protected RMethod r_AllocThroughDrawMesh_UInt32_UInt32_Ref_AllocMeshData;
 		public virtual RMethod RAllocThroughDrawMesh_UInt32_UInt32_Ref_AllocMeshData
 		{
 			get
 			{
-				if(r_RAllocThroughDrawMesh_UInt32_UInt32_Ref_AllocMeshData == null)
+				if(r_AllocThroughDrawMesh_UInt32_UInt32_Ref_AllocMeshData == null)
 				{
-					r_RAllocThroughDrawMesh_UInt32_UInt32_Ref_AllocMeshData = new(this, "AllocThroughDrawMesh", 0, typeof(System.UInt32), typeof(System.UInt32),  ReleactionUtils.GetType("UnityEngine.UIElements.UIR.MeshBuilder+AllocMeshData").MakeByRefType());
-					r_RAllocThroughDrawMesh_UInt32_UInt32_Ref_AllocMeshData.SetBelong(this.instance);
+					r_AllocThroughDrawMesh_UInt32_UInt32_Ref_AllocMeshData = new(this, "AllocThroughDrawMesh", 0, typeof(System.UInt32), typeof(System.UInt32),  ReleactionUtils.GetType("UnityEngine.UIElements.UIR.MeshBuilder+AllocMeshData").MakeByRefType());
+					r_AllocThroughDrawMesh_UInt32_UInt32_Ref_AllocMeshData.SetBelong(this.instance);
 				}
-				return r_RAllocThroughDrawMesh_UInt32_UInt32_Ref_AllocMeshData;
+				return r_AllocThroughDrawMesh_UInt32_UInt32_Ref_AllocMeshData;
 			}
 		}
 
 		/// <summary>
 		/// Void Begin(UnityEngine.UIElements.VisualElement)
 		/// </summary>
-		protected RMethod r_RBegin_VisualElement;
+		protected RMethod r_Begin_VisualElement;
 		public virtual RMethod RBegin_VisualElement
 		{
 			get
 			{
-				if(r_RBegin_VisualElement == null)
+				if(r_Begin_VisualElement == null)
 				{
-					r_RBegin_VisualElement = new(this, "Begin", 0, typeof(UnityEngine.UIElements.VisualElement));
-					r_RBegin_VisualElement.SetBelong(this.instance);
+					r_Begin_VisualElement = new(this, "Begin", 0, typeof(UnityEngine.UIElements.VisualElement));
+					r_Begin_VisualElement.SetBelong(this.instance);
 				}
-				return r_RBegin_VisualElement;
+				return r_Begin_VisualElement;
 			}
 		}
 
 		/// <summary>
 		/// Void LandClipUnregisterMeshDrawCommand(UnityEngine.UIElements.UIR.RenderChainCommand)
 		/// </summary>
-		protected RMethod r_RLandClipUnregisterMeshDrawCommand_RenderChainCommand;
+		protected RMethod r_LandClipUnregisterMeshDrawCommand_RenderChainCommand;
 		public virtual RMethod RLandClipUnregisterMeshDrawCommand_RenderChainCommand
 		{
 			get
 			{
-				if(r_RLandClipUnregisterMeshDrawCommand_RenderChainCommand == null)
+				if(r_LandClipUnregisterMeshDrawCommand_RenderChainCommand == null)
 				{
-					r_RLandClipUnregisterMeshDrawCommand_RenderChainCommand = new(this, "LandClipUnregisterMeshDrawCommand", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.UIR.RenderChainCommand"));
-					r_RLandClipUnregisterMeshDrawCommand_RenderChainCommand.SetBelong(this.instance);
+					r_LandClipUnregisterMeshDrawCommand_RenderChainCommand = new(this, "LandClipUnregisterMeshDrawCommand", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.UIR.RenderChainCommand"));
+					r_LandClipUnregisterMeshDrawCommand_RenderChainCommand.SetBelong(this.instance);
 				}
-				return r_RLandClipUnregisterMeshDrawCommand_RenderChainCommand;
+				return r_LandClipUnregisterMeshDrawCommand_RenderChainCommand;
 			}
 		}
 
 		/// <summary>
 		/// Void LandClipRegisterMesh(Unity.Collections.NativeSlice`1[UnityEngine.UIElements.Vertex], Unity.Collections.NativeSlice`1[System.UInt16], Int32)
 		/// </summary>
-		protected RMethod r_RLandClipRegisterMesh_NativeSlice_d_Vertex_p__NativeSlice_d_UInt16_p__Int32;
+		protected RMethod r_LandClipRegisterMesh_NativeSlice_d_Vertex_p__NativeSlice_d_UInt16_p__Int32;
 		public virtual RMethod RLandClipRegisterMesh_NativeSlice_d_Vertex_p__NativeSlice_d_UInt16_p__Int32
 		{
 			get
 			{
-				if(r_RLandClipRegisterMesh_NativeSlice_d_Vertex_p__NativeSlice_d_UInt16_p__Int32 == null)
+				if(r_LandClipRegisterMesh_NativeSlice_d_Vertex_p__NativeSlice_d_UInt16_p__Int32 == null)
 				{
-					r_RLandClipRegisterMesh_NativeSlice_d_Vertex_p__NativeSlice_d_UInt16_p__Int32 = new(this, "LandClipRegisterMesh", 0, typeof(Unity.Collections.NativeSlice<>).MakeGenericType(typeof(UnityEngine.UIElements.Vertex)), typeof(Unity.Collections.NativeSlice<>).MakeGenericType(typeof(System.UInt16)), typeof(System.Int32));
-					r_RLandClipRegisterMesh_NativeSlice_d_Vertex_p__NativeSlice_d_UInt16_p__Int32.SetBelong(this.instance);
+					r_LandClipRegisterMesh_NativeSlice_d_Vertex_p__NativeSlice_d_UInt16_p__Int32 = new(this, "LandClipRegisterMesh", 0, typeof(Unity.Collections.NativeSlice<>).MakeGenericType(typeof(UnityEngine.UIElements.Vertex)), typeof(Unity.Collections.NativeSlice<>).MakeGenericType(typeof(System.UInt16)), typeof(System.Int32));
+					r_LandClipRegisterMesh_NativeSlice_d_Vertex_p__NativeSlice_d_UInt16_p__Int32.SetBelong(this.instance);
 				}
-				return r_RLandClipRegisterMesh_NativeSlice_d_Vertex_p__NativeSlice_d_UInt16_p__Int32;
+				return r_LandClipRegisterMesh_NativeSlice_d_Vertex_p__NativeSlice_d_UInt16_p__Int32;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.MeshWriteData AddGradientsEntry(Int32, Int32, UnityEngine.UIElements.TextureId, UnityEngine.Material, MeshFlags)
 		/// </summary>
-		protected RMethod r_RAddGradientsEntry_Int32_Int32_TextureId_Material_MeshFlags;
+		protected RMethod r_AddGradientsEntry_Int32_Int32_TextureId_Material_MeshFlags;
 		public virtual RMethod RAddGradientsEntry_Int32_Int32_TextureId_Material_MeshFlags
 		{
 			get
 			{
-				if(r_RAddGradientsEntry_Int32_Int32_TextureId_Material_MeshFlags == null)
+				if(r_AddGradientsEntry_Int32_Int32_TextureId_Material_MeshFlags == null)
 				{
-					r_RAddGradientsEntry_Int32_Int32_TextureId_Material_MeshFlags = new(this, "AddGradientsEntry", 0, typeof(System.Int32), typeof(System.Int32),  ReleactionUtils.GetType("UnityEngine.UIElements.TextureId"), typeof(UnityEngine.Material),  ReleactionUtils.GetType("UnityEngine.UIElements.MeshGenerationContext+MeshFlags"));
-					r_RAddGradientsEntry_Int32_Int32_TextureId_Material_MeshFlags.SetBelong(this.instance);
+					r_AddGradientsEntry_Int32_Int32_TextureId_Material_MeshFlags = new(this, "AddGradientsEntry", 0, typeof(System.Int32), typeof(System.Int32),  ReleactionUtils.GetType("UnityEngine.UIElements.TextureId"), typeof(UnityEngine.Material),  ReleactionUtils.GetType("UnityEngine.UIElements.MeshGenerationContext+MeshFlags"));
+					r_AddGradientsEntry_Int32_Int32_TextureId_Material_MeshFlags.SetBelong(this.instance);
 				}
-				return r_RAddGradientsEntry_Int32_Int32_TextureId_Material_MeshFlags;
+				return r_AddGradientsEntry_Int32_Int32_TextureId_Material_MeshFlags;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.MeshWriteData DrawMesh(Int32, Int32, UnityEngine.Texture, UnityEngine.Material, MeshFlags)
 		/// </summary>
-		protected RMethod r_RDrawMesh_Int32_Int32_Texture_Material_MeshFlags;
+		protected RMethod r_DrawMesh_Int32_Int32_Texture_Material_MeshFlags;
 		public virtual RMethod RDrawMesh_Int32_Int32_Texture_Material_MeshFlags
 		{
 			get
 			{
-				if(r_RDrawMesh_Int32_Int32_Texture_Material_MeshFlags == null)
+				if(r_DrawMesh_Int32_Int32_Texture_Material_MeshFlags == null)
 				{
-					r_RDrawMesh_Int32_Int32_Texture_Material_MeshFlags = new(this, "DrawMesh", 0, typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.Texture), typeof(UnityEngine.Material),  ReleactionUtils.GetType("UnityEngine.UIElements.MeshGenerationContext+MeshFlags"));
-					r_RDrawMesh_Int32_Int32_Texture_Material_MeshFlags.SetBelong(this.instance);
+					r_DrawMesh_Int32_Int32_Texture_Material_MeshFlags = new(this, "DrawMesh", 0, typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.Texture), typeof(UnityEngine.Material),  ReleactionUtils.GetType("UnityEngine.UIElements.MeshGenerationContext+MeshFlags"));
+					r_DrawMesh_Int32_Int32_Texture_Material_MeshFlags.SetBelong(this.instance);
 				}
-				return r_RDrawMesh_Int32_Int32_Texture_Material_MeshFlags;
+				return r_DrawMesh_Int32_Int32_Texture_Material_MeshFlags;
 			}
 		}
 
 		/// <summary>
 		/// Void TryAtlasTexture(UnityEngine.Texture, MeshFlags, UnityEngine.Rect ByRef, Boolean ByRef, UnityEngine.UIElements.TextureId ByRef, UnityEngine.UIElements.UIR.VertexFlags ByRef)
 		/// </summary>
-		protected RMethod r_RTryAtlasTexture_Texture_MeshFlags_Out_Rect_Out_Boolean_Out_TextureId_Out_VertexFlags;
+		protected RMethod r_TryAtlasTexture_Texture_MeshFlags_Out_Rect_Out_Boolean_Out_TextureId_Out_VertexFlags;
 		public virtual RMethod RTryAtlasTexture_Texture_MeshFlags_Out_Rect_Out_Boolean_Out_TextureId_Out_VertexFlags
 		{
 			get
 			{
-				if(r_RTryAtlasTexture_Texture_MeshFlags_Out_Rect_Out_Boolean_Out_TextureId_Out_VertexFlags == null)
+				if(r_TryAtlasTexture_Texture_MeshFlags_Out_Rect_Out_Boolean_Out_TextureId_Out_VertexFlags == null)
 				{
-					r_RTryAtlasTexture_Texture_MeshFlags_Out_Rect_Out_Boolean_Out_TextureId_Out_VertexFlags = new(this, "TryAtlasTexture", 0, typeof(UnityEngine.Texture),  ReleactionUtils.GetType("UnityEngine.UIElements.MeshGenerationContext+MeshFlags"), typeof(UnityEngine.Rect).MakeByRefType(), typeof(System.Boolean).MakeByRefType(),  ReleactionUtils.GetType("UnityEngine.UIElements.TextureId").MakeByRefType(),  ReleactionUtils.GetType("UnityEngine.UIElements.UIR.VertexFlags").MakeByRefType());
-					r_RTryAtlasTexture_Texture_MeshFlags_Out_Rect_Out_Boolean_Out_TextureId_Out_VertexFlags.SetBelong(this.instance);
+					r_TryAtlasTexture_Texture_MeshFlags_Out_Rect_Out_Boolean_Out_TextureId_Out_VertexFlags = new(this, "TryAtlasTexture", 0, typeof(UnityEngine.Texture),  ReleactionUtils.GetType("UnityEngine.UIElements.MeshGenerationContext+MeshFlags"), typeof(UnityEngine.Rect).MakeByRefType(), typeof(System.Boolean).MakeByRefType(),  ReleactionUtils.GetType("UnityEngine.UIElements.TextureId").MakeByRefType(),  ReleactionUtils.GetType("UnityEngine.UIElements.UIR.VertexFlags").MakeByRefType());
+					r_TryAtlasTexture_Texture_MeshFlags_Out_Rect_Out_Boolean_Out_TextureId_Out_VertexFlags.SetBelong(this.instance);
 				}
-				return r_RTryAtlasTexture_Texture_MeshFlags_Out_Rect_Out_Boolean_Out_TextureId_Out_VertexFlags;
+				return r_TryAtlasTexture_Texture_MeshFlags_Out_Rect_Out_Boolean_Out_TextureId_Out_VertexFlags;
 			}
 		}
 
 		/// <summary>
 		/// Void BuildEntryFromNativeMesh(UnityEngine.UIElements.MeshWriteDataInterface, UnityEngine.Texture, UnityEngine.UIElements.TextureId, Boolean, UnityEngine.Material, MeshFlags, UnityEngine.Rect, UnityEngine.UIElements.UIR.VertexFlags)
 		/// </summary>
-		protected RMethod r_RBuildEntryFromNativeMesh_MeshWriteDataInterface_Texture_TextureId_Boolean_Material_MeshFlags_Rect_VertexFlags;
+		protected RMethod r_BuildEntryFromNativeMesh_MeshWriteDataInterface_Texture_TextureId_Boolean_Material_MeshFlags_Rect_VertexFlags;
 		public virtual RMethod RBuildEntryFromNativeMesh_MeshWriteDataInterface_Texture_TextureId_Boolean_Material_MeshFlags_Rect_VertexFlags
 		{
 			get
 			{
-				if(r_RBuildEntryFromNativeMesh_MeshWriteDataInterface_Texture_TextureId_Boolean_Material_MeshFlags_Rect_VertexFlags == null)
+				if(r_BuildEntryFromNativeMesh_MeshWriteDataInterface_Texture_TextureId_Boolean_Material_MeshFlags_Rect_VertexFlags == null)
 				{
-					r_RBuildEntryFromNativeMesh_MeshWriteDataInterface_Texture_TextureId_Boolean_Material_MeshFlags_Rect_VertexFlags = new(this, "BuildEntryFromNativeMesh", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.MeshWriteDataInterface"), typeof(UnityEngine.Texture),  ReleactionUtils.GetType("UnityEngine.UIElements.TextureId"), typeof(System.Boolean), typeof(UnityEngine.Material),  ReleactionUtils.GetType("UnityEngine.UIElements.MeshGenerationContext+MeshFlags"), typeof(UnityEngine.Rect),  ReleactionUtils.GetType("UnityEngine.UIElements.UIR.VertexFlags"));
-					r_RBuildEntryFromNativeMesh_MeshWriteDataInterface_Texture_TextureId_Boolean_Material_MeshFlags_Rect_VertexFlags.SetBelong(this.instance);
+					r_BuildEntryFromNativeMesh_MeshWriteDataInterface_Texture_TextureId_Boolean_Material_MeshFlags_Rect_VertexFlags = new(this, "BuildEntryFromNativeMesh", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.MeshWriteDataInterface"), typeof(UnityEngine.Texture),  ReleactionUtils.GetType("UnityEngine.UIElements.TextureId"), typeof(System.Boolean), typeof(UnityEngine.Material),  ReleactionUtils.GetType("UnityEngine.UIElements.MeshGenerationContext+MeshFlags"), typeof(UnityEngine.Rect),  ReleactionUtils.GetType("UnityEngine.UIElements.UIR.VertexFlags"));
+					r_BuildEntryFromNativeMesh_MeshWriteDataInterface_Texture_TextureId_Boolean_Material_MeshFlags_Rect_VertexFlags.SetBelong(this.instance);
 				}
-				return r_RBuildEntryFromNativeMesh_MeshWriteDataInterface_Texture_TextureId_Boolean_Material_MeshFlags_Rect_VertexFlags;
+				return r_BuildEntryFromNativeMesh_MeshWriteDataInterface_Texture_TextureId_Boolean_Material_MeshFlags_Rect_VertexFlags;
 			}
 		}
 
 		/// <summary>
 		/// Void BuildGradientEntryFromNativeMesh(UnityEngine.UIElements.MeshWriteDataInterface, UnityEngine.UIElements.TextureId)
 		/// </summary>
-		protected RMethod r_RBuildGradientEntryFromNativeMesh_MeshWriteDataInterface_TextureId;
+		protected RMethod r_BuildGradientEntryFromNativeMesh_MeshWriteDataInterface_TextureId;
 		public virtual RMethod RBuildGradientEntryFromNativeMesh_MeshWriteDataInterface_TextureId
 		{
 			get
 			{
-				if(r_RBuildGradientEntryFromNativeMesh_MeshWriteDataInterface_TextureId == null)
+				if(r_BuildGradientEntryFromNativeMesh_MeshWriteDataInterface_TextureId == null)
 				{
-					r_RBuildGradientEntryFromNativeMesh_MeshWriteDataInterface_TextureId = new(this, "BuildGradientEntryFromNativeMesh", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.MeshWriteDataInterface"),  ReleactionUtils.GetType("UnityEngine.UIElements.TextureId"));
-					r_RBuildGradientEntryFromNativeMesh_MeshWriteDataInterface_TextureId.SetBelong(this.instance);
+					r_BuildGradientEntryFromNativeMesh_MeshWriteDataInterface_TextureId = new(this, "BuildGradientEntryFromNativeMesh", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.MeshWriteDataInterface"),  ReleactionUtils.GetType("UnityEngine.UIElements.TextureId"));
+					r_BuildGradientEntryFromNativeMesh_MeshWriteDataInterface_TextureId.SetBelong(this.instance);
 				}
-				return r_RBuildGradientEntryFromNativeMesh_MeshWriteDataInterface_TextureId;
+				return r_BuildGradientEntryFromNativeMesh_MeshWriteDataInterface_TextureId;
 			}
 		}
 
 		/// <summary>
 		/// Void BuildRawEntryFromNativeMesh(UnityEngine.UIElements.MeshWriteDataInterface)
 		/// </summary>
-		protected RMethod r_RBuildRawEntryFromNativeMesh_MeshWriteDataInterface;
+		protected RMethod r_BuildRawEntryFromNativeMesh_MeshWriteDataInterface;
 		public virtual RMethod RBuildRawEntryFromNativeMesh_MeshWriteDataInterface
 		{
 			get
 			{
-				if(r_RBuildRawEntryFromNativeMesh_MeshWriteDataInterface == null)
+				if(r_BuildRawEntryFromNativeMesh_MeshWriteDataInterface == null)
 				{
-					r_RBuildRawEntryFromNativeMesh_MeshWriteDataInterface = new(this, "BuildRawEntryFromNativeMesh", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.MeshWriteDataInterface"));
-					r_RBuildRawEntryFromNativeMesh_MeshWriteDataInterface.SetBelong(this.instance);
+					r_BuildRawEntryFromNativeMesh_MeshWriteDataInterface = new(this, "BuildRawEntryFromNativeMesh", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.MeshWriteDataInterface"));
+					r_BuildRawEntryFromNativeMesh_MeshWriteDataInterface.SetBelong(this.instance);
 				}
-				return r_RBuildRawEntryFromNativeMesh_MeshWriteDataInterface;
+				return r_BuildRawEntryFromNativeMesh_MeshWriteDataInterface;
 			}
 		}
 
 		/// <summary>
 		/// Void DrawText(UnityEngine.UIElements.TextElement)
 		/// </summary>
-		protected RMethod r_RDrawText_TextElement;
+		protected RMethod r_DrawText_TextElement;
 		public virtual RMethod RDrawText_TextElement
 		{
 			get
 			{
-				if(r_RDrawText_TextElement == null)
+				if(r_DrawText_TextElement == null)
 				{
-					r_RDrawText_TextElement = new(this, "DrawText", 0, typeof(UnityEngine.UIElements.TextElement));
-					r_RDrawText_TextElement.SetBelong(this.instance);
+					r_DrawText_TextElement = new(this, "DrawText", 0, typeof(UnityEngine.UIElements.TextElement));
+					r_DrawText_TextElement.SetBelong(this.instance);
 				}
-				return r_RDrawText_TextElement;
+				return r_DrawText_TextElement;
 			}
 		}
 
 		/// <summary>
 		/// Void DrawText(System.String, UnityEngine.Vector2, Single, UnityEngine.Color, UnityEngine.TextCore.Text.FontAsset)
 		/// </summary>
-		protected RMethod r_RDrawText_String_Vector2_Single_Color_FontAsset;
+		protected RMethod r_DrawText_String_Vector2_Single_Color_FontAsset;
 		public virtual RMethod RDrawText_String_Vector2_Single_Color_FontAsset
 		{
 			get
 			{
-				if(r_RDrawText_String_Vector2_Single_Color_FontAsset == null)
+				if(r_DrawText_String_Vector2_Single_Color_FontAsset == null)
 				{
-					r_RDrawText_String_Vector2_Single_Color_FontAsset = new(this, "DrawText", 0, typeof(System.String), typeof(UnityEngine.Vector2), typeof(System.Single), typeof(UnityEngine.Color), typeof(UnityEngine.TextCore.Text.FontAsset));
-					r_RDrawText_String_Vector2_Single_Color_FontAsset.SetBelong(this.instance);
+					r_DrawText_String_Vector2_Single_Color_FontAsset = new(this, "DrawText", 0, typeof(System.String), typeof(UnityEngine.Vector2), typeof(System.Single), typeof(UnityEngine.Color), typeof(UnityEngine.TextCore.Text.FontAsset));
+					r_DrawText_String_Vector2_Single_Color_FontAsset.SetBelong(this.instance);
 				}
-				return r_RDrawText_String_Vector2_Single_Color_FontAsset;
+				return r_DrawText_String_Vector2_Single_Color_FontAsset;
 			}
 		}
 
 		/// <summary>
 		/// Void DrawTextInfo(UnityEngine.TextCore.Text.TextInfo, UnityEngine.Vector2, Boolean)
 		/// </summary>
-		protected RMethod r_RDrawTextInfo_TextInfo_Vector2_Boolean;
+		protected RMethod r_DrawTextInfo_TextInfo_Vector2_Boolean;
 		public virtual RMethod RDrawTextInfo_TextInfo_Vector2_Boolean
 		{
 			get
 			{
-				if(r_RDrawTextInfo_TextInfo_Vector2_Boolean == null)
+				if(r_DrawTextInfo_TextInfo_Vector2_Boolean == null)
 				{
-					r_RDrawTextInfo_TextInfo_Vector2_Boolean = new(this, "DrawTextInfo", 0,  ReleactionUtils.GetType("UnityEngine.TextCore.Text.TextInfo"), typeof(UnityEngine.Vector2), typeof(System.Boolean));
-					r_RDrawTextInfo_TextInfo_Vector2_Boolean.SetBelong(this.instance);
+					r_DrawTextInfo_TextInfo_Vector2_Boolean = new(this, "DrawTextInfo", 0,  ReleactionUtils.GetType("UnityEngine.TextCore.Text.TextInfo"), typeof(UnityEngine.Vector2), typeof(System.Boolean));
+					r_DrawTextInfo_TextInfo_Vector2_Boolean.SetBelong(this.instance);
 				}
-				return r_RDrawTextInfo_TextInfo_Vector2_Boolean;
+				return r_DrawTextInfo_TextInfo_Vector2_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Void DrawRectangle(RectangleParams)
 		/// </summary>
-		protected RMethod r_RDrawRectangle_RectangleParams;
+		protected RMethod r_DrawRectangle_RectangleParams;
 		public virtual RMethod RDrawRectangle_RectangleParams
 		{
 			get
 			{
-				if(r_RDrawRectangle_RectangleParams == null)
+				if(r_DrawRectangle_RectangleParams == null)
 				{
-					r_RDrawRectangle_RectangleParams = new(this, "DrawRectangle", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.MeshGenerationContextUtils+RectangleParams"));
-					r_RDrawRectangle_RectangleParams.SetBelong(this.instance);
+					r_DrawRectangle_RectangleParams = new(this, "DrawRectangle", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.MeshGenerationContextUtils+RectangleParams"));
+					r_DrawRectangle_RectangleParams.SetBelong(this.instance);
 				}
-				return r_RDrawRectangle_RectangleParams;
+				return r_DrawRectangle_RectangleParams;
 			}
 		}
 
 		/// <summary>
 		/// Void DrawBorder(BorderParams)
 		/// </summary>
-		protected RMethod r_RDrawBorder_BorderParams;
+		protected RMethod r_DrawBorder_BorderParams;
 		public virtual RMethod RDrawBorder_BorderParams
 		{
 			get
 			{
-				if(r_RDrawBorder_BorderParams == null)
+				if(r_DrawBorder_BorderParams == null)
 				{
-					r_RDrawBorder_BorderParams = new(this, "DrawBorder", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.MeshGenerationContextUtils+BorderParams"));
-					r_RDrawBorder_BorderParams.SetBelong(this.instance);
+					r_DrawBorder_BorderParams = new(this, "DrawBorder", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.MeshGenerationContextUtils+BorderParams"));
+					r_DrawBorder_BorderParams.SetBelong(this.instance);
 				}
-				return r_RDrawBorder_BorderParams;
+				return r_DrawBorder_BorderParams;
 			}
 		}
 
 		/// <summary>
 		/// Void DrawImmediate(System.Action, Boolean)
 		/// </summary>
-		protected RMethod r_RDrawImmediate_Action_Boolean;
+		protected RMethod r_DrawImmediate_Action_Boolean;
 		public virtual RMethod RDrawImmediate_Action_Boolean
 		{
 			get
 			{
-				if(r_RDrawImmediate_Action_Boolean == null)
+				if(r_DrawImmediate_Action_Boolean == null)
 				{
-					r_RDrawImmediate_Action_Boolean = new(this, "DrawImmediate", 0, typeof(System.Action), typeof(System.Boolean));
-					r_RDrawImmediate_Action_Boolean.SetBelong(this.instance);
+					r_DrawImmediate_Action_Boolean = new(this, "DrawImmediate", 0, typeof(System.Action), typeof(System.Boolean));
+					r_DrawImmediate_Action_Boolean.SetBelong(this.instance);
 				}
-				return r_RDrawImmediate_Action_Boolean;
+				return r_DrawImmediate_Action_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Void DrawVectorImage(UnityEngine.UIElements.VectorImage, UnityEngine.Vector2, UnityEngine.UIElements.Angle, UnityEngine.Vector2)
 		/// </summary>
-		protected RMethod r_RDrawVectorImage_VectorImage_Vector2_Angle_Vector2;
+		protected RMethod r_DrawVectorImage_VectorImage_Vector2_Angle_Vector2;
 		public virtual RMethod RDrawVectorImage_VectorImage_Vector2_Angle_Vector2
 		{
 			get
 			{
-				if(r_RDrawVectorImage_VectorImage_Vector2_Angle_Vector2 == null)
+				if(r_DrawVectorImage_VectorImage_Vector2_Angle_Vector2 == null)
 				{
-					r_RDrawVectorImage_VectorImage_Vector2_Angle_Vector2 = new(this, "DrawVectorImage", 0, typeof(UnityEngine.UIElements.VectorImage), typeof(UnityEngine.Vector2), typeof(UnityEngine.UIElements.Angle), typeof(UnityEngine.Vector2));
-					r_RDrawVectorImage_VectorImage_Vector2_Angle_Vector2.SetBelong(this.instance);
+					r_DrawVectorImage_VectorImage_Vector2_Angle_Vector2 = new(this, "DrawVectorImage", 0, typeof(UnityEngine.UIElements.VectorImage), typeof(UnityEngine.Vector2), typeof(UnityEngine.UIElements.Angle), typeof(UnityEngine.Vector2));
+					r_DrawVectorImage_VectorImage_Vector2_Angle_Vector2.SetBelong(this.instance);
 				}
-				return r_RDrawVectorImage_VectorImage_Vector2_Angle_Vector2;
+				return r_DrawVectorImage_VectorImage_Vector2_Angle_Vector2;
 			}
 		}
 
 		/// <summary>
 		/// Void DrawVisualElementBackground()
 		/// </summary>
-		protected RMethod r_RDrawVisualElementBackground;
+		protected RMethod r_DrawVisualElementBackground;
 		public virtual RMethod RDrawVisualElementBackground
 		{
 			get
 			{
-				if(r_RDrawVisualElementBackground == null)
+				if(r_DrawVisualElementBackground == null)
 				{
-					r_RDrawVisualElementBackground = new(this, "DrawVisualElementBackground", 0);
-					r_RDrawVisualElementBackground.SetBelong(this.instance);
+					r_DrawVisualElementBackground = new(this, "DrawVisualElementBackground", 0);
+					r_DrawVisualElementBackground.SetBelong(this.instance);
 				}
-				return r_RDrawVisualElementBackground;
+				return r_DrawVisualElementBackground;
 			}
 		}
 
 		/// <summary>
 		/// Void DrawRectangleRepeat(RectangleParams, UnityEngine.Rect)
 		/// </summary>
-		protected RMethod r_RDrawRectangleRepeat_RectangleParams_Rect;
+		protected RMethod r_DrawRectangleRepeat_RectangleParams_Rect;
 		public virtual RMethod RDrawRectangleRepeat_RectangleParams_Rect
 		{
 			get
 			{
-				if(r_RDrawRectangleRepeat_RectangleParams_Rect == null)
+				if(r_DrawRectangleRepeat_RectangleParams_Rect == null)
 				{
-					r_RDrawRectangleRepeat_RectangleParams_Rect = new(this, "DrawRectangleRepeat", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.MeshGenerationContextUtils+RectangleParams"), typeof(UnityEngine.Rect));
-					r_RDrawRectangleRepeat_RectangleParams_Rect.SetBelong(this.instance);
+					r_DrawRectangleRepeat_RectangleParams_Rect = new(this, "DrawRectangleRepeat", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.MeshGenerationContextUtils+RectangleParams"), typeof(UnityEngine.Rect));
+					r_DrawRectangleRepeat_RectangleParams_Rect.SetBelong(this.instance);
 				}
-				return r_RDrawRectangleRepeat_RectangleParams_Rect;
+				return r_DrawRectangleRepeat_RectangleParams_Rect;
 			}
 		}
 
 		/// <summary>
 		/// Void StampRectangleWithSubRect(RectangleParams, UnityEngine.Rect, UnityEngine.Rect)
 		/// </summary>
-		protected RMethod r_RStampRectangleWithSubRect_RectangleParams_Rect_Rect;
+		protected RMethod r_StampRectangleWithSubRect_RectangleParams_Rect_Rect;
 		public virtual RMethod RStampRectangleWithSubRect_RectangleParams_Rect_Rect
 		{
 			get
 			{
-				if(r_RStampRectangleWithSubRect_RectangleParams_Rect_Rect == null)
+				if(r_StampRectangleWithSubRect_RectangleParams_Rect_Rect == null)
 				{
-					r_RStampRectangleWithSubRect_RectangleParams_Rect_Rect = new(this, "StampRectangleWithSubRect", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.MeshGenerationContextUtils+RectangleParams"), typeof(UnityEngine.Rect), typeof(UnityEngine.Rect));
-					r_RStampRectangleWithSubRect_RectangleParams_Rect_Rect.SetBelong(this.instance);
+					r_StampRectangleWithSubRect_RectangleParams_Rect_Rect = new(this, "StampRectangleWithSubRect", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.MeshGenerationContextUtils+RectangleParams"), typeof(UnityEngine.Rect), typeof(UnityEngine.Rect));
+					r_StampRectangleWithSubRect_RectangleParams_Rect_Rect.SetBelong(this.instance);
 				}
-				return r_RStampRectangleWithSubRect_RectangleParams_Rect_Rect;
+				return r_StampRectangleWithSubRect_RectangleParams_Rect_Rect;
 			}
 		}
 
 		/// <summary>
 		/// Void DrawVisualElementBorder()
 		/// </summary>
-		protected RMethod r_RDrawVisualElementBorder;
+		protected RMethod r_DrawVisualElementBorder;
 		public virtual RMethod RDrawVisualElementBorder
 		{
 			get
 			{
-				if(r_RDrawVisualElementBorder == null)
+				if(r_DrawVisualElementBorder == null)
 				{
-					r_RDrawVisualElementBorder = new(this, "DrawVisualElementBorder", 0);
-					r_RDrawVisualElementBorder.SetBelong(this.instance);
+					r_DrawVisualElementBorder = new(this, "DrawVisualElementBorder", 0);
+					r_DrawVisualElementBorder.SetBelong(this.instance);
 				}
-				return r_RDrawVisualElementBorder;
+				return r_DrawVisualElementBorder;
 			}
 		}
 
 		/// <summary>
 		/// Void ApplyVisualElementClipping()
 		/// </summary>
-		protected RMethod r_RApplyVisualElementClipping;
+		protected RMethod r_ApplyVisualElementClipping;
 		public virtual RMethod RApplyVisualElementClipping
 		{
 			get
 			{
-				if(r_RApplyVisualElementClipping == null)
+				if(r_ApplyVisualElementClipping == null)
 				{
-					r_RApplyVisualElementClipping = new(this, "ApplyVisualElementClipping", 0);
-					r_RApplyVisualElementClipping.SetBelong(this.instance);
+					r_ApplyVisualElementClipping = new(this, "ApplyVisualElementClipping", 0);
+					r_ApplyVisualElementClipping.SetBelong(this.instance);
 				}
-				return r_RApplyVisualElementClipping;
+				return r_ApplyVisualElementClipping;
 			}
 		}
 
 		/// <summary>
 		/// UInt16[] AdjustSpriteWinding(UnityEngine.Vector2[], UInt16[])
 		/// </summary>
-		protected RMethod r_RAdjustSpriteWinding_Vector2Array_UInt16Array;
+		protected RMethod r_AdjustSpriteWinding_Vector2Array_UInt16Array;
 		public virtual RMethod RAdjustSpriteWinding_Vector2Array_UInt16Array
 		{
 			get
 			{
-				if(r_RAdjustSpriteWinding_Vector2Array_UInt16Array == null)
+				if(r_AdjustSpriteWinding_Vector2Array_UInt16Array == null)
 				{
-					r_RAdjustSpriteWinding_Vector2Array_UInt16Array = new(this, "AdjustSpriteWinding", 0, typeof(UnityEngine.Vector2).MakeArrayType(), typeof(System.UInt16).MakeArrayType());
-					r_RAdjustSpriteWinding_Vector2Array_UInt16Array.SetBelong(this.instance);
+					r_AdjustSpriteWinding_Vector2Array_UInt16Array = new(this, "AdjustSpriteWinding", 0, typeof(UnityEngine.Vector2).MakeArrayType(), typeof(System.UInt16).MakeArrayType());
+					r_AdjustSpriteWinding_Vector2Array_UInt16Array.SetBelong(this.instance);
 				}
-				return r_RAdjustSpriteWinding_Vector2Array_UInt16Array;
+				return r_AdjustSpriteWinding_Vector2Array_UInt16Array;
 			}
 		}
 
 		/// <summary>
 		/// Void DrawSprite(RectangleParams)
 		/// </summary>
-		protected RMethod r_RDrawSprite_RectangleParams;
+		protected RMethod r_DrawSprite_RectangleParams;
 		public virtual RMethod RDrawSprite_RectangleParams
 		{
 			get
 			{
-				if(r_RDrawSprite_RectangleParams == null)
+				if(r_DrawSprite_RectangleParams == null)
 				{
-					r_RDrawSprite_RectangleParams = new(this, "DrawSprite", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.MeshGenerationContextUtils+RectangleParams"));
-					r_RDrawSprite_RectangleParams.SetBelong(this.instance);
+					r_DrawSprite_RectangleParams = new(this, "DrawSprite", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.MeshGenerationContextUtils+RectangleParams"));
+					r_DrawSprite_RectangleParams.SetBelong(this.instance);
 				}
-				return r_RDrawSprite_RectangleParams;
+				return r_DrawSprite_RectangleParams;
 			}
 		}
 
 		/// <summary>
 		/// Void RegisterVectorImageGradient(UnityEngine.UIElements.VectorImage, Int32 ByRef, UnityEngine.UIElements.TextureId ByRef)
 		/// </summary>
-		protected RMethod r_RRegisterVectorImageGradient_VectorImage_Out_Int32_Out_TextureId;
+		protected RMethod r_RegisterVectorImageGradient_VectorImage_Out_Int32_Out_TextureId;
 		public virtual RMethod RRegisterVectorImageGradient_VectorImage_Out_Int32_Out_TextureId
 		{
 			get
 			{
-				if(r_RRegisterVectorImageGradient_VectorImage_Out_Int32_Out_TextureId == null)
+				if(r_RegisterVectorImageGradient_VectorImage_Out_Int32_Out_TextureId == null)
 				{
-					r_RRegisterVectorImageGradient_VectorImage_Out_Int32_Out_TextureId = new(this, "RegisterVectorImageGradient", 0, typeof(UnityEngine.UIElements.VectorImage), typeof(System.Int32).MakeByRefType(),  ReleactionUtils.GetType("UnityEngine.UIElements.TextureId").MakeByRefType());
-					r_RRegisterVectorImageGradient_VectorImage_Out_Int32_Out_TextureId.SetBelong(this.instance);
+					r_RegisterVectorImageGradient_VectorImage_Out_Int32_Out_TextureId = new(this, "RegisterVectorImageGradient", 0, typeof(UnityEngine.UIElements.VectorImage), typeof(System.Int32).MakeByRefType(),  ReleactionUtils.GetType("UnityEngine.UIElements.TextureId").MakeByRefType());
+					r_RegisterVectorImageGradient_VectorImage_Out_Int32_Out_TextureId.SetBelong(this.instance);
 				}
-				return r_RRegisterVectorImageGradient_VectorImage_Out_Int32_Out_TextureId;
+				return r_RegisterVectorImageGradient_VectorImage_Out_Int32_Out_TextureId;
 			}
 		}
 
 		/// <summary>
 		/// Void DrawVectorImage(RectangleParams)
 		/// </summary>
-		protected RMethod r_RDrawVectorImage_RectangleParams;
+		protected RMethod r_DrawVectorImage_RectangleParams;
 		public virtual RMethod RDrawVectorImage_RectangleParams
 		{
 			get
 			{
-				if(r_RDrawVectorImage_RectangleParams == null)
+				if(r_DrawVectorImage_RectangleParams == null)
 				{
-					r_RDrawVectorImage_RectangleParams = new(this, "DrawVectorImage", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.MeshGenerationContextUtils+RectangleParams"));
-					r_RDrawVectorImage_RectangleParams.SetBelong(this.instance);
+					r_DrawVectorImage_RectangleParams = new(this, "DrawVectorImage", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.MeshGenerationContextUtils+RectangleParams"));
+					r_DrawVectorImage_RectangleParams.SetBelong(this.instance);
 				}
-				return r_RDrawVectorImage_RectangleParams;
+				return r_DrawVectorImage_RectangleParams;
 			}
 		}
 
 		/// <summary>
 		/// Void MakeVectorGraphics(RectangleParams, Boolean, UnityEngine.UIElements.TextureId, Int32, Int32 ByRef, Int32 ByRef)
 		/// </summary>
-		protected RMethod r_RMakeVectorGraphics_RectangleParams_Boolean_TextureId_Int32_Out_Int32_Out_Int32;
+		protected RMethod r_MakeVectorGraphics_RectangleParams_Boolean_TextureId_Int32_Out_Int32_Out_Int32;
 		public virtual RMethod RMakeVectorGraphics_RectangleParams_Boolean_TextureId_Int32_Out_Int32_Out_Int32
 		{
 			get
 			{
-				if(r_RMakeVectorGraphics_RectangleParams_Boolean_TextureId_Int32_Out_Int32_Out_Int32 == null)
+				if(r_MakeVectorGraphics_RectangleParams_Boolean_TextureId_Int32_Out_Int32_Out_Int32 == null)
 				{
-					r_RMakeVectorGraphics_RectangleParams_Boolean_TextureId_Int32_Out_Int32_Out_Int32 = new(this, "MakeVectorGraphics", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.MeshGenerationContextUtils+RectangleParams"), typeof(System.Boolean),  ReleactionUtils.GetType("UnityEngine.UIElements.TextureId"), typeof(System.Int32), typeof(System.Int32).MakeByRefType(), typeof(System.Int32).MakeByRefType());
-					r_RMakeVectorGraphics_RectangleParams_Boolean_TextureId_Int32_Out_Int32_Out_Int32.SetBelong(this.instance);
+					r_MakeVectorGraphics_RectangleParams_Boolean_TextureId_Int32_Out_Int32_Out_Int32 = new(this, "MakeVectorGraphics", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.MeshGenerationContextUtils+RectangleParams"), typeof(System.Boolean),  ReleactionUtils.GetType("UnityEngine.UIElements.TextureId"), typeof(System.Int32), typeof(System.Int32).MakeByRefType(), typeof(System.Int32).MakeByRefType());
+					r_MakeVectorGraphics_RectangleParams_Boolean_TextureId_Int32_Out_Int32_Out_Int32.SetBelong(this.instance);
 				}
-				return r_RMakeVectorGraphics_RectangleParams_Boolean_TextureId_Int32_Out_Int32_Out_Int32;
+				return r_MakeVectorGraphics_RectangleParams_Boolean_TextureId_Int32_Out_Int32_Out_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Void Reset()
 		/// </summary>
-		protected RMethod r_RReset;
+		protected RMethod r_Reset;
 		public virtual RMethod RReset
 		{
 			get
 			{
-				if(r_RReset == null)
+				if(r_Reset == null)
 				{
-					r_RReset = new(this, "Reset", 0);
-					r_RReset.SetBelong(this.instance);
+					r_Reset = new(this, "Reset", 0);
+					r_Reset.SetBelong(this.instance);
 				}
-				return r_RReset;
+				return r_Reset;
 			}
 		}
 
 		/// <summary>
 		/// Void ValidateMeshWriteData()
 		/// </summary>
-		protected RMethod r_RValidateMeshWriteData;
+		protected RMethod r_ValidateMeshWriteData;
 		public virtual RMethod RValidateMeshWriteData
 		{
 			get
 			{
-				if(r_RValidateMeshWriteData == null)
+				if(r_ValidateMeshWriteData == null)
 				{
-					r_RValidateMeshWriteData = new(this, "ValidateMeshWriteData", 0);
-					r_RValidateMeshWriteData.SetBelong(this.instance);
+					r_ValidateMeshWriteData = new(this, "ValidateMeshWriteData", 0);
+					r_ValidateMeshWriteData.SetBelong(this.instance);
 				}
-				return r_RValidateMeshWriteData;
+				return r_ValidateMeshWriteData;
 			}
 		}
 
 		/// <summary>
 		/// Void GenerateStencilClipEntryForRoundedRectBackground()
 		/// </summary>
-		protected RMethod r_RGenerateStencilClipEntryForRoundedRectBackground;
+		protected RMethod r_GenerateStencilClipEntryForRoundedRectBackground;
 		public virtual RMethod RGenerateStencilClipEntryForRoundedRectBackground
 		{
 			get
 			{
-				if(r_RGenerateStencilClipEntryForRoundedRectBackground == null)
+				if(r_GenerateStencilClipEntryForRoundedRectBackground == null)
 				{
-					r_RGenerateStencilClipEntryForRoundedRectBackground = new(this, "GenerateStencilClipEntryForRoundedRectBackground", 0);
-					r_RGenerateStencilClipEntryForRoundedRectBackground.SetBelong(this.instance);
+					r_GenerateStencilClipEntryForRoundedRectBackground = new(this, "GenerateStencilClipEntryForRoundedRectBackground", 0);
+					r_GenerateStencilClipEntryForRoundedRectBackground.SetBelong(this.instance);
 				}
-				return r_RGenerateStencilClipEntryForRoundedRectBackground;
+				return r_GenerateStencilClipEntryForRoundedRectBackground;
 			}
 		}
 
 		/// <summary>
 		/// Void GenerateStencilClipEntryForSVGBackground()
 		/// </summary>
-		protected RMethod r_RGenerateStencilClipEntryForSVGBackground;
+		protected RMethod r_GenerateStencilClipEntryForSVGBackground;
 		public virtual RMethod RGenerateStencilClipEntryForSVGBackground
 		{
 			get
 			{
-				if(r_RGenerateStencilClipEntryForSVGBackground == null)
+				if(r_GenerateStencilClipEntryForSVGBackground == null)
 				{
-					r_RGenerateStencilClipEntryForSVGBackground = new(this, "GenerateStencilClipEntryForSVGBackground", 0);
-					r_RGenerateStencilClipEntryForSVGBackground.SetBelong(this.instance);
+					r_GenerateStencilClipEntryForSVGBackground = new(this, "GenerateStencilClipEntryForSVGBackground", 0);
+					r_GenerateStencilClipEntryForSVGBackground.SetBelong(this.instance);
 				}
-				return r_RGenerateStencilClipEntryForSVGBackground;
+				return r_GenerateStencilClipEntryForSVGBackground;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Equals(System.Object)
 		/// </summary>
-		protected RMethod r_REquals_Object;
+		protected RMethod r_Equals_Object;
 		public virtual RMethod REquals_Object
 		{
 			get
 			{
-				if(r_REquals_Object == null)
+				if(r_Equals_Object == null)
 				{
-					r_REquals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_REquals_Object.SetBelong(this.instance);
+					r_Equals_Object = new(this, "Equals", 0, typeof(System.Object));
+					r_Equals_Object.SetBelong(this.instance);
 				}
-				return r_REquals_Object;
+				return r_Equals_Object;
 			}
 		}
 
 		/// <summary>
 		/// Void Finalize()
 		/// </summary>
-		protected RMethod r_RFinalize;
+		protected RMethod r_Finalize;
 		public virtual RMethod RFinalize
 		{
 			get
 			{
-				if(r_RFinalize == null)
+				if(r_Finalize == null)
 				{
-					r_RFinalize = new(this, "Finalize", 0);
-					r_RFinalize.SetBelong(this.instance);
+					r_Finalize = new(this, "Finalize", 0);
+					r_Finalize.SetBelong(this.instance);
 				}
-				return r_RFinalize;
+				return r_Finalize;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetHashCode()
 		/// </summary>
-		protected RMethod r_RGetHashCode;
+		protected RMethod r_GetHashCode;
 		public virtual RMethod RGetHashCode
 		{
 			get
 			{
-				if(r_RGetHashCode == null)
+				if(r_GetHashCode == null)
 				{
-					r_RGetHashCode = new(this, "GetHashCode", 0);
-					r_RGetHashCode.SetBelong(this.instance);
+					r_GetHashCode = new(this, "GetHashCode", 0);
+					r_GetHashCode.SetBelong(this.instance);
 				}
-				return r_RGetHashCode;
+				return r_GetHashCode;
 			}
 		}
 
 		/// <summary>
 		/// System.Type GetType()
 		/// </summary>
-		protected RMethod r_RGetType;
+		protected RMethod r_GetType;
 		public virtual RMethod RGetType
 		{
 			get
 			{
-				if(r_RGetType == null)
+				if(r_GetType == null)
 				{
-					r_RGetType = new(this, "GetType", 0);
-					r_RGetType.SetBelong(this.instance);
+					r_GetType = new(this, "GetType", 0);
+					r_GetType.SetBelong(this.instance);
 				}
-				return r_RGetType;
+				return r_GetType;
 			}
 		}
 
 		/// <summary>
 		/// System.Object MemberwiseClone()
 		/// </summary>
-		protected RMethod r_RMemberwiseClone;
+		protected RMethod r_MemberwiseClone;
 		public virtual RMethod RMemberwiseClone
 		{
 			get
 			{
-				if(r_RMemberwiseClone == null)
+				if(r_MemberwiseClone == null)
 				{
-					r_RMemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_RMemberwiseClone.SetBelong(this.instance);
+					r_MemberwiseClone = new(this, "MemberwiseClone", 0);
+					r_MemberwiseClone.SetBelong(this.instance);
 				}
-				return r_RMemberwiseClone;
+				return r_MemberwiseClone;
 			}
 		}
 
 		/// <summary>
 		/// System.String ToString()
 		/// </summary>
-		protected RMethod r_RToString;
+		protected RMethod r_ToString;
 		public virtual RMethod RToString
 		{
 			get
 			{
-				if(r_RToString == null)
+				if(r_ToString == null)
 				{
-					r_RToString = new(this, "ToString", 0);
-					r_RToString.SetBelong(this.instance);
+					r_ToString = new(this, "ToString", 0);
+					r_ToString.SetBelong(this.instance);
 				}
-				return r_RToString;
+				return r_ToString;
 			}
 		}
 

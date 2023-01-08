@@ -149,255 +149,255 @@ namespace SMFrame.Editor.Refleaction.RSystem.RDiagnostics
 		/// <summary>
 		/// Void init_frames(Int32, Boolean)
 		/// </summary>
-		protected RMethod r_Rinit_frames_Int32_Boolean;
+		protected RMethod r_init_frames_Int32_Boolean;
 		public virtual RMethod Rinit_frames_Int32_Boolean
 		{
 			get
 			{
-				if(r_Rinit_frames_Int32_Boolean == null)
+				if(r_init_frames_Int32_Boolean == null)
 				{
-					r_Rinit_frames_Int32_Boolean = new(this, "init_frames", 0, typeof(System.Int32), typeof(System.Boolean));
-					r_Rinit_frames_Int32_Boolean.SetBelong(this.instance);
+					r_init_frames_Int32_Boolean = new(this, "init_frames", 0, typeof(System.Int32), typeof(System.Boolean));
+					r_init_frames_Int32_Boolean.SetBelong(this.instance);
 				}
-				return r_Rinit_frames_Int32_Boolean;
+				return r_init_frames_Int32_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// System.Diagnostics.StackFrame[] get_trace(System.Exception, Int32, Boolean)
 		/// </summary>
-		protected static RMethod r_Rget_trace_Exception_Int32_Boolean;
+		protected static RMethod r_get_trace_Exception_Int32_Boolean;
 		public static RMethod Rget_trace_Exception_Int32_Boolean
 		{
 			get
 			{
-				if(r_Rget_trace_Exception_Int32_Boolean == null)
+				if(r_get_trace_Exception_Int32_Boolean == null)
 				{
-					r_Rget_trace_Exception_Int32_Boolean = new(typeof(System.Diagnostics.StackTrace), "get_trace", 0, typeof(System.Exception), typeof(System.Int32), typeof(System.Boolean));
-					r_Rget_trace_Exception_Int32_Boolean.SetBelong(null);
+					r_get_trace_Exception_Int32_Boolean = new(typeof(System.Diagnostics.StackTrace), "get_trace", 0, typeof(System.Exception), typeof(System.Int32), typeof(System.Boolean));
+					r_get_trace_Exception_Int32_Boolean.SetBelong(null);
 				}
-				return r_Rget_trace_Exception_Int32_Boolean;
+				return r_get_trace_Exception_Int32_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// System.Diagnostics.StackFrame GetFrame(Int32)
 		/// </summary>
-		protected RMethod r_RGetFrame_Int32;
+		protected RMethod r_GetFrame_Int32;
 		public virtual RMethod RGetFrame_Int32
 		{
 			get
 			{
-				if(r_RGetFrame_Int32 == null)
+				if(r_GetFrame_Int32 == null)
 				{
-					r_RGetFrame_Int32 = new(this, "GetFrame", 0, typeof(System.Int32));
-					r_RGetFrame_Int32.SetBelong(this.instance);
+					r_GetFrame_Int32 = new(this, "GetFrame", 0, typeof(System.Int32));
+					r_GetFrame_Int32.SetBelong(this.instance);
 				}
-				return r_RGetFrame_Int32;
+				return r_GetFrame_Int32;
 			}
 		}
 
 		/// <summary>
 		/// System.Diagnostics.StackFrame[] GetFrames()
 		/// </summary>
-		protected RMethod r_RGetFrames;
+		protected RMethod r_GetFrames;
 		public virtual RMethod RGetFrames
 		{
 			get
 			{
-				if(r_RGetFrames == null)
+				if(r_GetFrames == null)
 				{
-					r_RGetFrames = new(this, "GetFrames", 0);
-					r_RGetFrames.SetBelong(this.instance);
+					r_GetFrames = new(this, "GetFrames", 0);
+					r_GetFrames.SetBelong(this.instance);
 				}
-				return r_RGetFrames;
+				return r_GetFrames;
 			}
 		}
 
 		/// <summary>
 		/// System.String GetAotId()
 		/// </summary>
-		protected static RMethod r_RGetAotId;
+		protected static RMethod r_GetAotId;
 		public static RMethod RGetAotId
 		{
 			get
 			{
-				if(r_RGetAotId == null)
+				if(r_GetAotId == null)
 				{
-					r_RGetAotId = new(typeof(System.Diagnostics.StackTrace), "GetAotId", 0);
-					r_RGetAotId.SetBelong(null);
+					r_GetAotId = new(typeof(System.Diagnostics.StackTrace), "GetAotId", 0);
+					r_GetAotId.SetBelong(null);
 				}
-				return r_RGetAotId;
+				return r_GetAotId;
 			}
 		}
 
 		/// <summary>
 		/// Boolean AddFrames(System.Text.StringBuilder, Boolean, Boolean ByRef)
 		/// </summary>
-		protected RMethod r_RAddFrames_StringBuilder_Boolean_Out_Boolean;
+		protected RMethod r_AddFrames_StringBuilder_Boolean_Out_Boolean;
 		public virtual RMethod RAddFrames_StringBuilder_Boolean_Out_Boolean
 		{
 			get
 			{
-				if(r_RAddFrames_StringBuilder_Boolean_Out_Boolean == null)
+				if(r_AddFrames_StringBuilder_Boolean_Out_Boolean == null)
 				{
-					r_RAddFrames_StringBuilder_Boolean_Out_Boolean = new(this, "AddFrames", 0, typeof(System.Text.StringBuilder), typeof(System.Boolean), typeof(System.Boolean).MakeByRefType());
-					r_RAddFrames_StringBuilder_Boolean_Out_Boolean.SetBelong(this.instance);
+					r_AddFrames_StringBuilder_Boolean_Out_Boolean = new(this, "AddFrames", 0, typeof(System.Text.StringBuilder), typeof(System.Boolean), typeof(System.Boolean).MakeByRefType());
+					r_AddFrames_StringBuilder_Boolean_Out_Boolean.SetBelong(this.instance);
 				}
-				return r_RAddFrames_StringBuilder_Boolean_Out_Boolean;
+				return r_AddFrames_StringBuilder_Boolean_Out_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Void GetFullNameForStackTrace(System.Text.StringBuilder, System.Reflection.MethodBase, Boolean, Boolean ByRef, Boolean ByRef)
 		/// </summary>
-		protected RMethod r_RGetFullNameForStackTrace_StringBuilder_MethodBase_Boolean_Out_Boolean_Out_Boolean;
+		protected RMethod r_GetFullNameForStackTrace_StringBuilder_MethodBase_Boolean_Out_Boolean_Out_Boolean;
 		public virtual RMethod RGetFullNameForStackTrace_StringBuilder_MethodBase_Boolean_Out_Boolean_Out_Boolean
 		{
 			get
 			{
-				if(r_RGetFullNameForStackTrace_StringBuilder_MethodBase_Boolean_Out_Boolean_Out_Boolean == null)
+				if(r_GetFullNameForStackTrace_StringBuilder_MethodBase_Boolean_Out_Boolean_Out_Boolean == null)
 				{
-					r_RGetFullNameForStackTrace_StringBuilder_MethodBase_Boolean_Out_Boolean_Out_Boolean = new(this, "GetFullNameForStackTrace", 0, typeof(System.Text.StringBuilder), typeof(System.Reflection.MethodBase), typeof(System.Boolean), typeof(System.Boolean).MakeByRefType(), typeof(System.Boolean).MakeByRefType());
-					r_RGetFullNameForStackTrace_StringBuilder_MethodBase_Boolean_Out_Boolean_Out_Boolean.SetBelong(this.instance);
+					r_GetFullNameForStackTrace_StringBuilder_MethodBase_Boolean_Out_Boolean_Out_Boolean = new(this, "GetFullNameForStackTrace", 0, typeof(System.Text.StringBuilder), typeof(System.Reflection.MethodBase), typeof(System.Boolean), typeof(System.Boolean).MakeByRefType(), typeof(System.Boolean).MakeByRefType());
+					r_GetFullNameForStackTrace_StringBuilder_MethodBase_Boolean_Out_Boolean_Out_Boolean.SetBelong(this.instance);
 				}
-				return r_RGetFullNameForStackTrace_StringBuilder_MethodBase_Boolean_Out_Boolean_Out_Boolean;
+				return r_GetFullNameForStackTrace_StringBuilder_MethodBase_Boolean_Out_Boolean_Out_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Void ConvertAsyncStateMachineMethod(System.Reflection.MethodBase ByRef, System.Type ByRef)
 		/// </summary>
-		protected static RMethod r_RConvertAsyncStateMachineMethod_Ref_MethodBase_Ref_Type;
+		protected static RMethod r_ConvertAsyncStateMachineMethod_Ref_MethodBase_Ref_Type;
 		public static RMethod RConvertAsyncStateMachineMethod_Ref_MethodBase_Ref_Type
 		{
 			get
 			{
-				if(r_RConvertAsyncStateMachineMethod_Ref_MethodBase_Ref_Type == null)
+				if(r_ConvertAsyncStateMachineMethod_Ref_MethodBase_Ref_Type == null)
 				{
-					r_RConvertAsyncStateMachineMethod_Ref_MethodBase_Ref_Type = new(typeof(System.Diagnostics.StackTrace), "ConvertAsyncStateMachineMethod", 0, typeof(System.Reflection.MethodBase).MakeByRefType(), typeof(System.Type).MakeByRefType());
-					r_RConvertAsyncStateMachineMethod_Ref_MethodBase_Ref_Type.SetBelong(null);
+					r_ConvertAsyncStateMachineMethod_Ref_MethodBase_Ref_Type = new(typeof(System.Diagnostics.StackTrace), "ConvertAsyncStateMachineMethod", 0, typeof(System.Reflection.MethodBase).MakeByRefType(), typeof(System.Type).MakeByRefType());
+					r_ConvertAsyncStateMachineMethod_Ref_MethodBase_Ref_Type.SetBelong(null);
 				}
-				return r_RConvertAsyncStateMachineMethod_Ref_MethodBase_Ref_Type;
+				return r_ConvertAsyncStateMachineMethod_Ref_MethodBase_Ref_Type;
 			}
 		}
 
 		/// <summary>
 		/// System.String ToString()
 		/// </summary>
-		protected RMethod r_RToString;
+		protected RMethod r_ToString;
 		public virtual RMethod RToString
 		{
 			get
 			{
-				if(r_RToString == null)
+				if(r_ToString == null)
 				{
-					r_RToString = new(this, "ToString", 0);
-					r_RToString.SetBelong(this.instance);
+					r_ToString = new(this, "ToString", 0);
+					r_ToString.SetBelong(this.instance);
 				}
-				return r_RToString;
+				return r_ToString;
 			}
 		}
 
 		/// <summary>
 		/// System.String ToString(TraceFormat)
 		/// </summary>
-		protected RMethod r_RToString_TraceFormat;
+		protected RMethod r_ToString_TraceFormat;
 		public virtual RMethod RToString_TraceFormat
 		{
 			get
 			{
-				if(r_RToString_TraceFormat == null)
+				if(r_ToString_TraceFormat == null)
 				{
-					r_RToString_TraceFormat = new(this, "ToString", 0,  ReleactionUtils.GetType("System.Diagnostics.StackTrace+TraceFormat"));
-					r_RToString_TraceFormat.SetBelong(this.instance);
+					r_ToString_TraceFormat = new(this, "ToString", 0,  ReleactionUtils.GetType("System.Diagnostics.StackTrace+TraceFormat"));
+					r_ToString_TraceFormat.SetBelong(this.instance);
 				}
-				return r_RToString_TraceFormat;
+				return r_ToString_TraceFormat;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Equals(System.Object)
 		/// </summary>
-		protected RMethod r_REquals_Object;
+		protected RMethod r_Equals_Object;
 		public virtual RMethod REquals_Object
 		{
 			get
 			{
-				if(r_REquals_Object == null)
+				if(r_Equals_Object == null)
 				{
-					r_REquals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_REquals_Object.SetBelong(this.instance);
+					r_Equals_Object = new(this, "Equals", 0, typeof(System.Object));
+					r_Equals_Object.SetBelong(this.instance);
 				}
-				return r_REquals_Object;
+				return r_Equals_Object;
 			}
 		}
 
 		/// <summary>
 		/// Void Finalize()
 		/// </summary>
-		protected RMethod r_RFinalize;
+		protected RMethod r_Finalize;
 		public virtual RMethod RFinalize
 		{
 			get
 			{
-				if(r_RFinalize == null)
+				if(r_Finalize == null)
 				{
-					r_RFinalize = new(this, "Finalize", 0);
-					r_RFinalize.SetBelong(this.instance);
+					r_Finalize = new(this, "Finalize", 0);
+					r_Finalize.SetBelong(this.instance);
 				}
-				return r_RFinalize;
+				return r_Finalize;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetHashCode()
 		/// </summary>
-		protected RMethod r_RGetHashCode;
+		protected RMethod r_GetHashCode;
 		public virtual RMethod RGetHashCode
 		{
 			get
 			{
-				if(r_RGetHashCode == null)
+				if(r_GetHashCode == null)
 				{
-					r_RGetHashCode = new(this, "GetHashCode", 0);
-					r_RGetHashCode.SetBelong(this.instance);
+					r_GetHashCode = new(this, "GetHashCode", 0);
+					r_GetHashCode.SetBelong(this.instance);
 				}
-				return r_RGetHashCode;
+				return r_GetHashCode;
 			}
 		}
 
 		/// <summary>
 		/// System.Type GetType()
 		/// </summary>
-		protected RMethod r_RGetType;
+		protected RMethod r_GetType;
 		public virtual RMethod RGetType
 		{
 			get
 			{
-				if(r_RGetType == null)
+				if(r_GetType == null)
 				{
-					r_RGetType = new(this, "GetType", 0);
-					r_RGetType.SetBelong(this.instance);
+					r_GetType = new(this, "GetType", 0);
+					r_GetType.SetBelong(this.instance);
 				}
-				return r_RGetType;
+				return r_GetType;
 			}
 		}
 
 		/// <summary>
 		/// System.Object MemberwiseClone()
 		/// </summary>
-		protected RMethod r_RMemberwiseClone;
+		protected RMethod r_MemberwiseClone;
 		public virtual RMethod RMemberwiseClone
 		{
 			get
 			{
-				if(r_RMemberwiseClone == null)
+				if(r_MemberwiseClone == null)
 				{
-					r_RMemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_RMemberwiseClone.SetBelong(this.instance);
+					r_MemberwiseClone = new(this, "MemberwiseClone", 0);
+					r_MemberwiseClone.SetBelong(this.instance);
 				}
-				return r_RMemberwiseClone;
+				return r_MemberwiseClone;
 			}
 		}
 

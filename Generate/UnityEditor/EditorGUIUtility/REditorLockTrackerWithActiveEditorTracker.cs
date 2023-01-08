@@ -83,170 +83,170 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Void AddItemsToMenu(UnityEditor.GenericMenu, Boolean)
 		/// </summary>
-		protected RMethod r_RAddItemsToMenu_GenericMenu_Boolean;
+		protected RMethod r_AddItemsToMenu_GenericMenu_Boolean;
 		public virtual RMethod RAddItemsToMenu_GenericMenu_Boolean
 		{
 			get
 			{
-				if(r_RAddItemsToMenu_GenericMenu_Boolean == null)
+				if(r_AddItemsToMenu_GenericMenu_Boolean == null)
 				{
-					r_RAddItemsToMenu_GenericMenu_Boolean = new(this, "AddItemsToMenu", 0, typeof(UnityEditor.GenericMenu), typeof(System.Boolean));
-					r_RAddItemsToMenu_GenericMenu_Boolean.SetBelong(this.instance);
+					r_AddItemsToMenu_GenericMenu_Boolean = new(this, "AddItemsToMenu", 0, typeof(UnityEditor.GenericMenu), typeof(System.Boolean));
+					r_AddItemsToMenu_GenericMenu_Boolean.SetBelong(this.instance);
 				}
-				return r_RAddItemsToMenu_GenericMenu_Boolean;
+				return r_AddItemsToMenu_GenericMenu_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Void PingIcon()
 		/// </summary>
-		protected RMethod r_RPingIcon;
+		protected RMethod r_PingIcon;
 		public virtual RMethod RPingIcon
 		{
 			get
 			{
-				if(r_RPingIcon == null)
+				if(r_PingIcon == null)
 				{
-					r_RPingIcon = new(this, "PingIcon", 0);
-					r_RPingIcon.SetBelong(this.instance);
+					r_PingIcon = new(this, "PingIcon", 0);
+					r_PingIcon.SetBelong(this.instance);
 				}
-				return r_RPingIcon;
+				return r_PingIcon;
 			}
 		}
 
 		/// <summary>
 		/// Void StopPingIcon()
 		/// </summary>
-		protected RMethod r_RStopPingIcon;
+		protected RMethod r_StopPingIcon;
 		public virtual RMethod RStopPingIcon
 		{
 			get
 			{
-				if(r_RStopPingIcon == null)
+				if(r_StopPingIcon == null)
 				{
-					r_RStopPingIcon = new(this, "StopPingIcon", 0);
-					r_RStopPingIcon.SetBelong(this.instance);
+					r_StopPingIcon = new(this, "StopPingIcon", 0);
+					r_StopPingIcon.SetBelong(this.instance);
 				}
-				return r_RStopPingIcon;
+				return r_StopPingIcon;
 			}
 		}
 
 		/// <summary>
 		/// Boolean ShowButton(UnityEngine.Rect, UnityEngine.GUIStyle, Boolean)
 		/// </summary>
-		protected RMethod r_RShowButton_Rect_GUIStyle_Boolean;
+		protected RMethod r_ShowButton_Rect_GUIStyle_Boolean;
 		public virtual RMethod RShowButton_Rect_GUIStyle_Boolean
 		{
 			get
 			{
-				if(r_RShowButton_Rect_GUIStyle_Boolean == null)
+				if(r_ShowButton_Rect_GUIStyle_Boolean == null)
 				{
-					r_RShowButton_Rect_GUIStyle_Boolean = new(this, "ShowButton", 0, typeof(UnityEngine.Rect), typeof(UnityEngine.GUIStyle), typeof(System.Boolean));
-					r_RShowButton_Rect_GUIStyle_Boolean.SetBelong(this.instance);
+					r_ShowButton_Rect_GUIStyle_Boolean = new(this, "ShowButton", 0, typeof(UnityEngine.Rect), typeof(UnityEngine.GUIStyle), typeof(System.Boolean));
+					r_ShowButton_Rect_GUIStyle_Boolean.SetBelong(this.instance);
 				}
-				return r_RShowButton_Rect_GUIStyle_Boolean;
+				return r_ShowButton_Rect_GUIStyle_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Equals(System.Object)
 		/// </summary>
-		protected RMethod r_REquals_Object;
+		protected RMethod r_Equals_Object;
 		public virtual RMethod REquals_Object
 		{
 			get
 			{
-				if(r_REquals_Object == null)
+				if(r_Equals_Object == null)
 				{
-					r_REquals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_REquals_Object.SetBelong(this.instance);
+					r_Equals_Object = new(this, "Equals", 0, typeof(System.Object));
+					r_Equals_Object.SetBelong(this.instance);
 				}
-				return r_REquals_Object;
+				return r_Equals_Object;
 			}
 		}
 
 		/// <summary>
 		/// Void Finalize()
 		/// </summary>
-		protected RMethod r_RFinalize;
+		protected RMethod r_Finalize;
 		public virtual RMethod RFinalize
 		{
 			get
 			{
-				if(r_RFinalize == null)
+				if(r_Finalize == null)
 				{
-					r_RFinalize = new(this, "Finalize", 0);
-					r_RFinalize.SetBelong(this.instance);
+					r_Finalize = new(this, "Finalize", 0);
+					r_Finalize.SetBelong(this.instance);
 				}
-				return r_RFinalize;
+				return r_Finalize;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetHashCode()
 		/// </summary>
-		protected RMethod r_RGetHashCode;
+		protected RMethod r_GetHashCode;
 		public virtual RMethod RGetHashCode
 		{
 			get
 			{
-				if(r_RGetHashCode == null)
+				if(r_GetHashCode == null)
 				{
-					r_RGetHashCode = new(this, "GetHashCode", 0);
-					r_RGetHashCode.SetBelong(this.instance);
+					r_GetHashCode = new(this, "GetHashCode", 0);
+					r_GetHashCode.SetBelong(this.instance);
 				}
-				return r_RGetHashCode;
+				return r_GetHashCode;
 			}
 		}
 
 		/// <summary>
 		/// System.Type GetType()
 		/// </summary>
-		protected RMethod r_RGetType;
+		protected RMethod r_GetType;
 		public virtual RMethod RGetType
 		{
 			get
 			{
-				if(r_RGetType == null)
+				if(r_GetType == null)
 				{
-					r_RGetType = new(this, "GetType", 0);
-					r_RGetType.SetBelong(this.instance);
+					r_GetType = new(this, "GetType", 0);
+					r_GetType.SetBelong(this.instance);
 				}
-				return r_RGetType;
+				return r_GetType;
 			}
 		}
 
 		/// <summary>
 		/// System.Object MemberwiseClone()
 		/// </summary>
-		protected RMethod r_RMemberwiseClone;
+		protected RMethod r_MemberwiseClone;
 		public virtual RMethod RMemberwiseClone
 		{
 			get
 			{
-				if(r_RMemberwiseClone == null)
+				if(r_MemberwiseClone == null)
 				{
-					r_RMemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_RMemberwiseClone.SetBelong(this.instance);
+					r_MemberwiseClone = new(this, "MemberwiseClone", 0);
+					r_MemberwiseClone.SetBelong(this.instance);
 				}
-				return r_RMemberwiseClone;
+				return r_MemberwiseClone;
 			}
 		}
 
 		/// <summary>
 		/// System.String ToString()
 		/// </summary>
-		protected RMethod r_RToString;
+		protected RMethod r_ToString;
 		public virtual RMethod RToString
 		{
 			get
 			{
-				if(r_RToString == null)
+				if(r_ToString == null)
 				{
-					r_RToString = new(this, "ToString", 0);
-					r_RToString.SetBelong(this.instance);
+					r_ToString = new(this, "ToString", 0);
+					r_ToString.SetBelong(this.instance);
 				}
-				return r_RToString;
+				return r_ToString;
 			}
 		}
 

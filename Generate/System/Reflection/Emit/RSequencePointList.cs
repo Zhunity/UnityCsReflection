@@ -166,204 +166,204 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// Int32[] GetOffsets()
 		/// </summary>
-		protected RMethod r_RGetOffsets;
+		protected RMethod r_GetOffsets;
 		public virtual RMethod RGetOffsets
 		{
 			get
 			{
-				if(r_RGetOffsets == null)
+				if(r_GetOffsets == null)
 				{
-					r_RGetOffsets = new(this, "GetOffsets", 0);
-					r_RGetOffsets.SetBelong(this.instance);
+					r_GetOffsets = new(this, "GetOffsets", 0);
+					r_GetOffsets.SetBelong(this.instance);
 				}
-				return r_RGetOffsets;
+				return r_GetOffsets;
 			}
 		}
 
 		/// <summary>
 		/// Int32[] GetLines()
 		/// </summary>
-		protected RMethod r_RGetLines;
+		protected RMethod r_GetLines;
 		public virtual RMethod RGetLines
 		{
 			get
 			{
-				if(r_RGetLines == null)
+				if(r_GetLines == null)
 				{
-					r_RGetLines = new(this, "GetLines", 0);
-					r_RGetLines.SetBelong(this.instance);
+					r_GetLines = new(this, "GetLines", 0);
+					r_GetLines.SetBelong(this.instance);
 				}
-				return r_RGetLines;
+				return r_GetLines;
 			}
 		}
 
 		/// <summary>
 		/// Int32[] GetColumns()
 		/// </summary>
-		protected RMethod r_RGetColumns;
+		protected RMethod r_GetColumns;
 		public virtual RMethod RGetColumns
 		{
 			get
 			{
-				if(r_RGetColumns == null)
+				if(r_GetColumns == null)
 				{
-					r_RGetColumns = new(this, "GetColumns", 0);
-					r_RGetColumns.SetBelong(this.instance);
+					r_GetColumns = new(this, "GetColumns", 0);
+					r_GetColumns.SetBelong(this.instance);
 				}
-				return r_RGetColumns;
+				return r_GetColumns;
 			}
 		}
 
 		/// <summary>
 		/// Int32[] GetEndLines()
 		/// </summary>
-		protected RMethod r_RGetEndLines;
+		protected RMethod r_GetEndLines;
 		public virtual RMethod RGetEndLines
 		{
 			get
 			{
-				if(r_RGetEndLines == null)
+				if(r_GetEndLines == null)
 				{
-					r_RGetEndLines = new(this, "GetEndLines", 0);
-					r_RGetEndLines.SetBelong(this.instance);
+					r_GetEndLines = new(this, "GetEndLines", 0);
+					r_GetEndLines.SetBelong(this.instance);
 				}
-				return r_RGetEndLines;
+				return r_GetEndLines;
 			}
 		}
 
 		/// <summary>
 		/// Int32[] GetEndColumns()
 		/// </summary>
-		protected RMethod r_RGetEndColumns;
+		protected RMethod r_GetEndColumns;
 		public virtual RMethod RGetEndColumns
 		{
 			get
 			{
-				if(r_RGetEndColumns == null)
+				if(r_GetEndColumns == null)
 				{
-					r_RGetEndColumns = new(this, "GetEndColumns", 0);
-					r_RGetEndColumns.SetBelong(this.instance);
+					r_GetEndColumns = new(this, "GetEndColumns", 0);
+					r_GetEndColumns.SetBelong(this.instance);
 				}
-				return r_RGetEndColumns;
+				return r_GetEndColumns;
 			}
 		}
 
 		/// <summary>
 		/// Void AddSequencePoint(Int32, Int32, Int32, Int32, Int32)
 		/// </summary>
-		protected RMethod r_RAddSequencePoint_Int32_Int32_Int32_Int32_Int32;
+		protected RMethod r_AddSequencePoint_Int32_Int32_Int32_Int32_Int32;
 		public virtual RMethod RAddSequencePoint_Int32_Int32_Int32_Int32_Int32
 		{
 			get
 			{
-				if(r_RAddSequencePoint_Int32_Int32_Int32_Int32_Int32 == null)
+				if(r_AddSequencePoint_Int32_Int32_Int32_Int32_Int32 == null)
 				{
-					r_RAddSequencePoint_Int32_Int32_Int32_Int32_Int32 = new(this, "AddSequencePoint", 0, typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32));
-					r_RAddSequencePoint_Int32_Int32_Int32_Int32_Int32.SetBelong(this.instance);
+					r_AddSequencePoint_Int32_Int32_Int32_Int32_Int32 = new(this, "AddSequencePoint", 0, typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32));
+					r_AddSequencePoint_Int32_Int32_Int32_Int32_Int32.SetBelong(this.instance);
 				}
-				return r_RAddSequencePoint_Int32_Int32_Int32_Int32_Int32;
+				return r_AddSequencePoint_Int32_Int32_Int32_Int32_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Equals(System.Object)
 		/// </summary>
-		protected RMethod r_REquals_Object;
+		protected RMethod r_Equals_Object;
 		public virtual RMethod REquals_Object
 		{
 			get
 			{
-				if(r_REquals_Object == null)
+				if(r_Equals_Object == null)
 				{
-					r_REquals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_REquals_Object.SetBelong(this.instance);
+					r_Equals_Object = new(this, "Equals", 0, typeof(System.Object));
+					r_Equals_Object.SetBelong(this.instance);
 				}
-				return r_REquals_Object;
+				return r_Equals_Object;
 			}
 		}
 
 		/// <summary>
 		/// Void Finalize()
 		/// </summary>
-		protected RMethod r_RFinalize;
+		protected RMethod r_Finalize;
 		public virtual RMethod RFinalize
 		{
 			get
 			{
-				if(r_RFinalize == null)
+				if(r_Finalize == null)
 				{
-					r_RFinalize = new(this, "Finalize", 0);
-					r_RFinalize.SetBelong(this.instance);
+					r_Finalize = new(this, "Finalize", 0);
+					r_Finalize.SetBelong(this.instance);
 				}
-				return r_RFinalize;
+				return r_Finalize;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetHashCode()
 		/// </summary>
-		protected RMethod r_RGetHashCode;
+		protected RMethod r_GetHashCode;
 		public virtual RMethod RGetHashCode
 		{
 			get
 			{
-				if(r_RGetHashCode == null)
+				if(r_GetHashCode == null)
 				{
-					r_RGetHashCode = new(this, "GetHashCode", 0);
-					r_RGetHashCode.SetBelong(this.instance);
+					r_GetHashCode = new(this, "GetHashCode", 0);
+					r_GetHashCode.SetBelong(this.instance);
 				}
-				return r_RGetHashCode;
+				return r_GetHashCode;
 			}
 		}
 
 		/// <summary>
 		/// System.Type GetType()
 		/// </summary>
-		protected RMethod r_RGetType;
+		protected RMethod r_GetType;
 		public virtual RMethod RGetType
 		{
 			get
 			{
-				if(r_RGetType == null)
+				if(r_GetType == null)
 				{
-					r_RGetType = new(this, "GetType", 0);
-					r_RGetType.SetBelong(this.instance);
+					r_GetType = new(this, "GetType", 0);
+					r_GetType.SetBelong(this.instance);
 				}
-				return r_RGetType;
+				return r_GetType;
 			}
 		}
 
 		/// <summary>
 		/// System.Object MemberwiseClone()
 		/// </summary>
-		protected RMethod r_RMemberwiseClone;
+		protected RMethod r_MemberwiseClone;
 		public virtual RMethod RMemberwiseClone
 		{
 			get
 			{
-				if(r_RMemberwiseClone == null)
+				if(r_MemberwiseClone == null)
 				{
-					r_RMemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_RMemberwiseClone.SetBelong(this.instance);
+					r_MemberwiseClone = new(this, "MemberwiseClone", 0);
+					r_MemberwiseClone.SetBelong(this.instance);
 				}
-				return r_RMemberwiseClone;
+				return r_MemberwiseClone;
 			}
 		}
 
 		/// <summary>
 		/// System.String ToString()
 		/// </summary>
-		protected RMethod r_RToString;
+		protected RMethod r_ToString;
 		public virtual RMethod RToString
 		{
 			get
 			{
-				if(r_RToString == null)
+				if(r_ToString == null)
 				{
-					r_RToString = new(this, "ToString", 0);
-					r_RToString.SetBelong(this.instance);
+					r_ToString = new(this, "ToString", 0);
+					r_ToString.SetBelong(this.instance);
 				}
-				return r_RToString;
+				return r_ToString;
 			}
 		}
 

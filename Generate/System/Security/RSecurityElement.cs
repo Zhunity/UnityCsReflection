@@ -302,391 +302,391 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
 		/// <summary>
 		/// Void AddAttribute(System.String, System.String)
 		/// </summary>
-		protected RMethod r_RAddAttribute_String_String;
+		protected RMethod r_AddAttribute_String_String;
 		public virtual RMethod RAddAttribute_String_String
 		{
 			get
 			{
-				if(r_RAddAttribute_String_String == null)
+				if(r_AddAttribute_String_String == null)
 				{
-					r_RAddAttribute_String_String = new(this, "AddAttribute", 0, typeof(System.String), typeof(System.String));
-					r_RAddAttribute_String_String.SetBelong(this.instance);
+					r_AddAttribute_String_String = new(this, "AddAttribute", 0, typeof(System.String), typeof(System.String));
+					r_AddAttribute_String_String.SetBelong(this.instance);
 				}
-				return r_RAddAttribute_String_String;
+				return r_AddAttribute_String_String;
 			}
 		}
 
 		/// <summary>
 		/// Void AddChild(System.Security.SecurityElement)
 		/// </summary>
-		protected RMethod r_RAddChild_SecurityElement;
+		protected RMethod r_AddChild_SecurityElement;
 		public virtual RMethod RAddChild_SecurityElement
 		{
 			get
 			{
-				if(r_RAddChild_SecurityElement == null)
+				if(r_AddChild_SecurityElement == null)
 				{
-					r_RAddChild_SecurityElement = new(this, "AddChild", 0, typeof(System.Security.SecurityElement));
-					r_RAddChild_SecurityElement.SetBelong(this.instance);
+					r_AddChild_SecurityElement = new(this, "AddChild", 0, typeof(System.Security.SecurityElement));
+					r_AddChild_SecurityElement.SetBelong(this.instance);
 				}
-				return r_RAddChild_SecurityElement;
+				return r_AddChild_SecurityElement;
 			}
 		}
 
 		/// <summary>
 		/// System.String Attribute(System.String)
 		/// </summary>
-		protected RMethod r_RAttribute_String;
+		protected RMethod r_Attribute_String;
 		public virtual RMethod RAttribute_String
 		{
 			get
 			{
-				if(r_RAttribute_String == null)
+				if(r_Attribute_String == null)
 				{
-					r_RAttribute_String = new(this, "Attribute", 0, typeof(System.String));
-					r_RAttribute_String.SetBelong(this.instance);
+					r_Attribute_String = new(this, "Attribute", 0, typeof(System.String));
+					r_Attribute_String.SetBelong(this.instance);
 				}
-				return r_RAttribute_String;
+				return r_Attribute_String;
 			}
 		}
 
 		/// <summary>
 		/// System.Security.SecurityElement Copy()
 		/// </summary>
-		protected RMethod r_RCopy;
+		protected RMethod r_Copy;
 		public virtual RMethod RCopy
 		{
 			get
 			{
-				if(r_RCopy == null)
+				if(r_Copy == null)
 				{
-					r_RCopy = new(this, "Copy", 0);
-					r_RCopy.SetBelong(this.instance);
+					r_Copy = new(this, "Copy", 0);
+					r_Copy.SetBelong(this.instance);
 				}
-				return r_RCopy;
+				return r_Copy;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Equal(System.Security.SecurityElement)
 		/// </summary>
-		protected RMethod r_REqual_SecurityElement;
+		protected RMethod r_Equal_SecurityElement;
 		public virtual RMethod REqual_SecurityElement
 		{
 			get
 			{
-				if(r_REqual_SecurityElement == null)
+				if(r_Equal_SecurityElement == null)
 				{
-					r_REqual_SecurityElement = new(this, "Equal", 0, typeof(System.Security.SecurityElement));
-					r_REqual_SecurityElement.SetBelong(this.instance);
+					r_Equal_SecurityElement = new(this, "Equal", 0, typeof(System.Security.SecurityElement));
+					r_Equal_SecurityElement.SetBelong(this.instance);
 				}
-				return r_REqual_SecurityElement;
+				return r_Equal_SecurityElement;
 			}
 		}
 
 		/// <summary>
 		/// System.String Escape(System.String)
 		/// </summary>
-		protected static RMethod r_REscape_String;
+		protected static RMethod r_Escape_String;
 		public static RMethod REscape_String
 		{
 			get
 			{
-				if(r_REscape_String == null)
+				if(r_Escape_String == null)
 				{
-					r_REscape_String = new(typeof(System.Security.SecurityElement), "Escape", 0, typeof(System.String));
-					r_REscape_String.SetBelong(null);
+					r_Escape_String = new(typeof(System.Security.SecurityElement), "Escape", 0, typeof(System.String));
+					r_Escape_String.SetBelong(null);
 				}
-				return r_REscape_String;
+				return r_Escape_String;
 			}
 		}
 
 		/// <summary>
 		/// System.String Unescape(System.String)
 		/// </summary>
-		protected static RMethod r_RUnescape_String;
+		protected static RMethod r_Unescape_String;
 		public static RMethod RUnescape_String
 		{
 			get
 			{
-				if(r_RUnescape_String == null)
+				if(r_Unescape_String == null)
 				{
-					r_RUnescape_String = new(typeof(System.Security.SecurityElement), "Unescape", 0, typeof(System.String));
-					r_RUnescape_String.SetBelong(null);
+					r_Unescape_String = new(typeof(System.Security.SecurityElement), "Unescape", 0, typeof(System.String));
+					r_Unescape_String.SetBelong(null);
 				}
-				return r_RUnescape_String;
+				return r_Unescape_String;
 			}
 		}
 
 		/// <summary>
 		/// System.Security.SecurityElement FromString(System.String)
 		/// </summary>
-		protected static RMethod r_RFromString_String;
+		protected static RMethod r_FromString_String;
 		public static RMethod RFromString_String
 		{
 			get
 			{
-				if(r_RFromString_String == null)
+				if(r_FromString_String == null)
 				{
-					r_RFromString_String = new(typeof(System.Security.SecurityElement), "FromString", 0, typeof(System.String));
-					r_RFromString_String.SetBelong(null);
+					r_FromString_String = new(typeof(System.Security.SecurityElement), "FromString", 0, typeof(System.String));
+					r_FromString_String.SetBelong(null);
 				}
-				return r_RFromString_String;
+				return r_FromString_String;
 			}
 		}
 
 		/// <summary>
 		/// Boolean IsValidAttributeName(System.String)
 		/// </summary>
-		protected static RMethod r_RIsValidAttributeName_String;
+		protected static RMethod r_IsValidAttributeName_String;
 		public static RMethod RIsValidAttributeName_String
 		{
 			get
 			{
-				if(r_RIsValidAttributeName_String == null)
+				if(r_IsValidAttributeName_String == null)
 				{
-					r_RIsValidAttributeName_String = new(typeof(System.Security.SecurityElement), "IsValidAttributeName", 0, typeof(System.String));
-					r_RIsValidAttributeName_String.SetBelong(null);
+					r_IsValidAttributeName_String = new(typeof(System.Security.SecurityElement), "IsValidAttributeName", 0, typeof(System.String));
+					r_IsValidAttributeName_String.SetBelong(null);
 				}
-				return r_RIsValidAttributeName_String;
+				return r_IsValidAttributeName_String;
 			}
 		}
 
 		/// <summary>
 		/// Boolean IsValidAttributeValue(System.String)
 		/// </summary>
-		protected static RMethod r_RIsValidAttributeValue_String;
+		protected static RMethod r_IsValidAttributeValue_String;
 		public static RMethod RIsValidAttributeValue_String
 		{
 			get
 			{
-				if(r_RIsValidAttributeValue_String == null)
+				if(r_IsValidAttributeValue_String == null)
 				{
-					r_RIsValidAttributeValue_String = new(typeof(System.Security.SecurityElement), "IsValidAttributeValue", 0, typeof(System.String));
-					r_RIsValidAttributeValue_String.SetBelong(null);
+					r_IsValidAttributeValue_String = new(typeof(System.Security.SecurityElement), "IsValidAttributeValue", 0, typeof(System.String));
+					r_IsValidAttributeValue_String.SetBelong(null);
 				}
-				return r_RIsValidAttributeValue_String;
+				return r_IsValidAttributeValue_String;
 			}
 		}
 
 		/// <summary>
 		/// Boolean IsValidTag(System.String)
 		/// </summary>
-		protected static RMethod r_RIsValidTag_String;
+		protected static RMethod r_IsValidTag_String;
 		public static RMethod RIsValidTag_String
 		{
 			get
 			{
-				if(r_RIsValidTag_String == null)
+				if(r_IsValidTag_String == null)
 				{
-					r_RIsValidTag_String = new(typeof(System.Security.SecurityElement), "IsValidTag", 0, typeof(System.String));
-					r_RIsValidTag_String.SetBelong(null);
+					r_IsValidTag_String = new(typeof(System.Security.SecurityElement), "IsValidTag", 0, typeof(System.String));
+					r_IsValidTag_String.SetBelong(null);
 				}
-				return r_RIsValidTag_String;
+				return r_IsValidTag_String;
 			}
 		}
 
 		/// <summary>
 		/// Boolean IsValidText(System.String)
 		/// </summary>
-		protected static RMethod r_RIsValidText_String;
+		protected static RMethod r_IsValidText_String;
 		public static RMethod RIsValidText_String
 		{
 			get
 			{
-				if(r_RIsValidText_String == null)
+				if(r_IsValidText_String == null)
 				{
-					r_RIsValidText_String = new(typeof(System.Security.SecurityElement), "IsValidText", 0, typeof(System.String));
-					r_RIsValidText_String.SetBelong(null);
+					r_IsValidText_String = new(typeof(System.Security.SecurityElement), "IsValidText", 0, typeof(System.String));
+					r_IsValidText_String.SetBelong(null);
 				}
-				return r_RIsValidText_String;
+				return r_IsValidText_String;
 			}
 		}
 
 		/// <summary>
 		/// System.Security.SecurityElement SearchForChildByTag(System.String)
 		/// </summary>
-		protected RMethod r_RSearchForChildByTag_String;
+		protected RMethod r_SearchForChildByTag_String;
 		public virtual RMethod RSearchForChildByTag_String
 		{
 			get
 			{
-				if(r_RSearchForChildByTag_String == null)
+				if(r_SearchForChildByTag_String == null)
 				{
-					r_RSearchForChildByTag_String = new(this, "SearchForChildByTag", 0, typeof(System.String));
-					r_RSearchForChildByTag_String.SetBelong(this.instance);
+					r_SearchForChildByTag_String = new(this, "SearchForChildByTag", 0, typeof(System.String));
+					r_SearchForChildByTag_String.SetBelong(this.instance);
 				}
-				return r_RSearchForChildByTag_String;
+				return r_SearchForChildByTag_String;
 			}
 		}
 
 		/// <summary>
 		/// System.String SearchForTextOfTag(System.String)
 		/// </summary>
-		protected RMethod r_RSearchForTextOfTag_String;
+		protected RMethod r_SearchForTextOfTag_String;
 		public virtual RMethod RSearchForTextOfTag_String
 		{
 			get
 			{
-				if(r_RSearchForTextOfTag_String == null)
+				if(r_SearchForTextOfTag_String == null)
 				{
-					r_RSearchForTextOfTag_String = new(this, "SearchForTextOfTag", 0, typeof(System.String));
-					r_RSearchForTextOfTag_String.SetBelong(this.instance);
+					r_SearchForTextOfTag_String = new(this, "SearchForTextOfTag", 0, typeof(System.String));
+					r_SearchForTextOfTag_String.SetBelong(this.instance);
 				}
-				return r_RSearchForTextOfTag_String;
+				return r_SearchForTextOfTag_String;
 			}
 		}
 
 		/// <summary>
 		/// System.String ToString()
 		/// </summary>
-		protected RMethod r_RToString;
+		protected RMethod r_ToString;
 		public virtual RMethod RToString
 		{
 			get
 			{
-				if(r_RToString == null)
+				if(r_ToString == null)
 				{
-					r_RToString = new(this, "ToString", 0);
-					r_RToString.SetBelong(this.instance);
+					r_ToString = new(this, "ToString", 0);
+					r_ToString.SetBelong(this.instance);
 				}
-				return r_RToString;
+				return r_ToString;
 			}
 		}
 
 		/// <summary>
 		/// Void ToXml(System.Text.StringBuilder ByRef, Int32)
 		/// </summary>
-		protected RMethod r_RToXml_Ref_StringBuilder_Int32;
+		protected RMethod r_ToXml_Ref_StringBuilder_Int32;
 		public virtual RMethod RToXml_Ref_StringBuilder_Int32
 		{
 			get
 			{
-				if(r_RToXml_Ref_StringBuilder_Int32 == null)
+				if(r_ToXml_Ref_StringBuilder_Int32 == null)
 				{
-					r_RToXml_Ref_StringBuilder_Int32 = new(this, "ToXml", 0, typeof(System.Text.StringBuilder).MakeByRefType(), typeof(System.Int32));
-					r_RToXml_Ref_StringBuilder_Int32.SetBelong(this.instance);
+					r_ToXml_Ref_StringBuilder_Int32 = new(this, "ToXml", 0, typeof(System.Text.StringBuilder).MakeByRefType(), typeof(System.Int32));
+					r_ToXml_Ref_StringBuilder_Int32.SetBelong(this.instance);
 				}
-				return r_RToXml_Ref_StringBuilder_Int32;
+				return r_ToXml_Ref_StringBuilder_Int32;
 			}
 		}
 
 		/// <summary>
 		/// SecurityAttribute GetAttribute(System.String)
 		/// </summary>
-		protected RMethod r_RGetAttribute_String;
+		protected RMethod r_GetAttribute_String;
 		public virtual RMethod RGetAttribute_String
 		{
 			get
 			{
-				if(r_RGetAttribute_String == null)
+				if(r_GetAttribute_String == null)
 				{
-					r_RGetAttribute_String = new(this, "GetAttribute", 0, typeof(System.String));
-					r_RGetAttribute_String.SetBelong(this.instance);
+					r_GetAttribute_String = new(this, "GetAttribute", 0, typeof(System.String));
+					r_GetAttribute_String.SetBelong(this.instance);
 				}
-				return r_RGetAttribute_String;
+				return r_GetAttribute_String;
 			}
 		}
 
 		/// <summary>
 		/// System.String SearchForTextOfLocalName(System.String)
 		/// </summary>
-		protected RMethod r_RSearchForTextOfLocalName_String;
+		protected RMethod r_SearchForTextOfLocalName_String;
 		public virtual RMethod RSearchForTextOfLocalName_String
 		{
 			get
 			{
-				if(r_RSearchForTextOfLocalName_String == null)
+				if(r_SearchForTextOfLocalName_String == null)
 				{
-					r_RSearchForTextOfLocalName_String = new(this, "SearchForTextOfLocalName", 0, typeof(System.String));
-					r_RSearchForTextOfLocalName_String.SetBelong(this.instance);
+					r_SearchForTextOfLocalName_String = new(this, "SearchForTextOfLocalName", 0, typeof(System.String));
+					r_SearchForTextOfLocalName_String.SetBelong(this.instance);
 				}
-				return r_RSearchForTextOfLocalName_String;
+				return r_SearchForTextOfLocalName_String;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Equals(System.Object)
 		/// </summary>
-		protected RMethod r_REquals_Object;
+		protected RMethod r_Equals_Object;
 		public virtual RMethod REquals_Object
 		{
 			get
 			{
-				if(r_REquals_Object == null)
+				if(r_Equals_Object == null)
 				{
-					r_REquals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_REquals_Object.SetBelong(this.instance);
+					r_Equals_Object = new(this, "Equals", 0, typeof(System.Object));
+					r_Equals_Object.SetBelong(this.instance);
 				}
-				return r_REquals_Object;
+				return r_Equals_Object;
 			}
 		}
 
 		/// <summary>
 		/// Void Finalize()
 		/// </summary>
-		protected RMethod r_RFinalize;
+		protected RMethod r_Finalize;
 		public virtual RMethod RFinalize
 		{
 			get
 			{
-				if(r_RFinalize == null)
+				if(r_Finalize == null)
 				{
-					r_RFinalize = new(this, "Finalize", 0);
-					r_RFinalize.SetBelong(this.instance);
+					r_Finalize = new(this, "Finalize", 0);
+					r_Finalize.SetBelong(this.instance);
 				}
-				return r_RFinalize;
+				return r_Finalize;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetHashCode()
 		/// </summary>
-		protected RMethod r_RGetHashCode;
+		protected RMethod r_GetHashCode;
 		public virtual RMethod RGetHashCode
 		{
 			get
 			{
-				if(r_RGetHashCode == null)
+				if(r_GetHashCode == null)
 				{
-					r_RGetHashCode = new(this, "GetHashCode", 0);
-					r_RGetHashCode.SetBelong(this.instance);
+					r_GetHashCode = new(this, "GetHashCode", 0);
+					r_GetHashCode.SetBelong(this.instance);
 				}
-				return r_RGetHashCode;
+				return r_GetHashCode;
 			}
 		}
 
 		/// <summary>
 		/// System.Type GetType()
 		/// </summary>
-		protected RMethod r_RGetType;
+		protected RMethod r_GetType;
 		public virtual RMethod RGetType
 		{
 			get
 			{
-				if(r_RGetType == null)
+				if(r_GetType == null)
 				{
-					r_RGetType = new(this, "GetType", 0);
-					r_RGetType.SetBelong(this.instance);
+					r_GetType = new(this, "GetType", 0);
+					r_GetType.SetBelong(this.instance);
 				}
-				return r_RGetType;
+				return r_GetType;
 			}
 		}
 
 		/// <summary>
 		/// System.Object MemberwiseClone()
 		/// </summary>
-		protected RMethod r_RMemberwiseClone;
+		protected RMethod r_MemberwiseClone;
 		public virtual RMethod RMemberwiseClone
 		{
 			get
 			{
-				if(r_RMemberwiseClone == null)
+				if(r_MemberwiseClone == null)
 				{
-					r_RMemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_RMemberwiseClone.SetBelong(this.instance);
+					r_MemberwiseClone = new(this, "MemberwiseClone", 0);
+					r_MemberwiseClone.SetBelong(this.instance);
 				}
-				return r_RMemberwiseClone;
+				return r_MemberwiseClone;
 			}
 		}
 

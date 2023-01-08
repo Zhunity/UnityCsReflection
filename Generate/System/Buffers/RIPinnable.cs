@@ -13,34 +13,34 @@ namespace SMFrame.Editor.Refleaction.RSystem.RBuffers
 		/// <summary>
 		/// System.Buffers.MemoryHandle Pin(Int32)
 		/// </summary>
-		protected RMethod r_RPin_Int32;
+		protected RMethod r_Pin_Int32;
 		public virtual RMethod RPin_Int32
 		{
 			get
 			{
-				if(r_RPin_Int32 == null)
+				if(r_Pin_Int32 == null)
 				{
-					r_RPin_Int32 = new(this, "Pin", 0, typeof(System.Int32));
-					r_RPin_Int32.SetBelong(this.instance);
+					r_Pin_Int32 = new(this, "Pin", 0, typeof(System.Int32));
+					r_Pin_Int32.SetBelong(this.instance);
 				}
-				return r_RPin_Int32;
+				return r_Pin_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Void Unpin()
 		/// </summary>
-		protected RMethod r_RUnpin;
+		protected RMethod r_Unpin;
 		public virtual RMethod RUnpin
 		{
 			get
 			{
-				if(r_RUnpin == null)
+				if(r_Unpin == null)
 				{
-					r_RUnpin = new(this, "Unpin", 0);
-					r_RUnpin.SetBelong(this.instance);
+					r_Unpin = new(this, "Unpin", 0);
+					r_Unpin.SetBelong(this.instance);
 				}
-				return r_RUnpin;
+				return r_Unpin;
 			}
 		}
 

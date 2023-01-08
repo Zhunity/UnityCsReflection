@@ -200,833 +200,833 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Void Internal_Create(UnityEditor.ActiveEditorTracker)
 		/// </summary>
-		protected static RMethod r_RInternal_Create_ActiveEditorTracker;
+		protected static RMethod r_Internal_Create_ActiveEditorTracker;
 		public static RMethod RInternal_Create_ActiveEditorTracker
 		{
 			get
 			{
-				if(r_RInternal_Create_ActiveEditorTracker == null)
+				if(r_Internal_Create_ActiveEditorTracker == null)
 				{
-					r_RInternal_Create_ActiveEditorTracker = new(typeof(UnityEditor.ActiveEditorTracker), "Internal_Create", 0, typeof(UnityEditor.ActiveEditorTracker));
-					r_RInternal_Create_ActiveEditorTracker.SetBelong(null);
+					r_Internal_Create_ActiveEditorTracker = new(typeof(UnityEditor.ActiveEditorTracker), "Internal_Create", 0, typeof(UnityEditor.ActiveEditorTracker));
+					r_Internal_Create_ActiveEditorTracker.SetBelong(null);
 				}
-				return r_RInternal_Create_ActiveEditorTracker;
+				return r_Internal_Create_ActiveEditorTracker;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Equals(System.Object)
 		/// </summary>
-		protected RMethod r_REquals_Object;
+		protected RMethod r_Equals_Object;
 		public virtual RMethod REquals_Object
 		{
 			get
 			{
-				if(r_REquals_Object == null)
+				if(r_Equals_Object == null)
 				{
-					r_REquals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_REquals_Object.SetBelong(this.instance);
+					r_Equals_Object = new(this, "Equals", 0, typeof(System.Object));
+					r_Equals_Object.SetBelong(this.instance);
 				}
-				return r_REquals_Object;
+				return r_Equals_Object;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetHashCode()
 		/// </summary>
-		protected RMethod r_RGetHashCode;
+		protected RMethod r_GetHashCode;
 		public virtual RMethod RGetHashCode
 		{
 			get
 			{
-				if(r_RGetHashCode == null)
+				if(r_GetHashCode == null)
 				{
-					r_RGetHashCode = new(this, "GetHashCode", 0);
-					r_RGetHashCode.SetBelong(this.instance);
+					r_GetHashCode = new(this, "GetHashCode", 0);
+					r_GetHashCode.SetBelong(this.instance);
 				}
-				return r_RGetHashCode;
+				return r_GetHashCode;
 			}
 		}
 
 		/// <summary>
 		/// Void Internal_Dispose(UnityEditor.ActiveEditorTracker)
 		/// </summary>
-		protected static RMethod r_RInternal_Dispose_ActiveEditorTracker;
+		protected static RMethod r_Internal_Dispose_ActiveEditorTracker;
 		public static RMethod RInternal_Dispose_ActiveEditorTracker
 		{
 			get
 			{
-				if(r_RInternal_Dispose_ActiveEditorTracker == null)
+				if(r_Internal_Dispose_ActiveEditorTracker == null)
 				{
-					r_RInternal_Dispose_ActiveEditorTracker = new(typeof(UnityEditor.ActiveEditorTracker), "Internal_Dispose", 0, typeof(UnityEditor.ActiveEditorTracker));
-					r_RInternal_Dispose_ActiveEditorTracker.SetBelong(null);
+					r_Internal_Dispose_ActiveEditorTracker = new(typeof(UnityEditor.ActiveEditorTracker), "Internal_Dispose", 0, typeof(UnityEditor.ActiveEditorTracker));
+					r_Internal_Dispose_ActiveEditorTracker.SetBelong(null);
 				}
-				return r_RInternal_Dispose_ActiveEditorTracker;
+				return r_Internal_Dispose_ActiveEditorTracker;
 			}
 		}
 
 		/// <summary>
 		/// Void Finalize()
 		/// </summary>
-		protected RMethod r_RFinalize;
+		protected RMethod r_Finalize;
 		public virtual RMethod RFinalize
 		{
 			get
 			{
-				if(r_RFinalize == null)
+				if(r_Finalize == null)
 				{
-					r_RFinalize = new(this, "Finalize", 0);
-					r_RFinalize.SetBelong(this.instance);
+					r_Finalize = new(this, "Finalize", 0);
+					r_Finalize.SetBelong(this.instance);
 				}
-				return r_RFinalize;
+				return r_Finalize;
 			}
 		}
 
 		/// <summary>
 		/// Void Internal_Destroy(UnityEditor.ActiveEditorTracker)
 		/// </summary>
-		protected static RMethod r_RInternal_Destroy_ActiveEditorTracker;
+		protected static RMethod r_Internal_Destroy_ActiveEditorTracker;
 		public static RMethod RInternal_Destroy_ActiveEditorTracker
 		{
 			get
 			{
-				if(r_RInternal_Destroy_ActiveEditorTracker == null)
+				if(r_Internal_Destroy_ActiveEditorTracker == null)
 				{
-					r_RInternal_Destroy_ActiveEditorTracker = new(typeof(UnityEditor.ActiveEditorTracker), "Internal_Destroy", 0, typeof(UnityEditor.ActiveEditorTracker));
-					r_RInternal_Destroy_ActiveEditorTracker.SetBelong(null);
+					r_Internal_Destroy_ActiveEditorTracker = new(typeof(UnityEditor.ActiveEditorTracker), "Internal_Destroy", 0, typeof(UnityEditor.ActiveEditorTracker));
+					r_Internal_Destroy_ActiveEditorTracker.SetBelong(null);
 				}
-				return r_RInternal_Destroy_ActiveEditorTracker;
+				return r_Internal_Destroy_ActiveEditorTracker;
 			}
 		}
 
 		/// <summary>
 		/// Void Destroy()
 		/// </summary>
-		protected RMethod r_RDestroy;
+		protected RMethod r_Destroy;
 		public virtual RMethod RDestroy
 		{
 			get
 			{
-				if(r_RDestroy == null)
+				if(r_Destroy == null)
 				{
-					r_RDestroy = new(this, "Destroy", 0);
-					r_RDestroy.SetBelong(this.instance);
+					r_Destroy = new(this, "Destroy", 0);
+					r_Destroy.SetBelong(this.instance);
 				}
-				return r_RDestroy;
+				return r_Destroy;
 			}
 		}
 
 		/// <summary>
 		/// System.Array Internal_GetActiveEditors(UnityEditor.ActiveEditorTracker)
 		/// </summary>
-		protected static RMethod r_RInternal_GetActiveEditors_ActiveEditorTracker;
+		protected static RMethod r_Internal_GetActiveEditors_ActiveEditorTracker;
 		public static RMethod RInternal_GetActiveEditors_ActiveEditorTracker
 		{
 			get
 			{
-				if(r_RInternal_GetActiveEditors_ActiveEditorTracker == null)
+				if(r_Internal_GetActiveEditors_ActiveEditorTracker == null)
 				{
-					r_RInternal_GetActiveEditors_ActiveEditorTracker = new(typeof(UnityEditor.ActiveEditorTracker), "Internal_GetActiveEditors", 0, typeof(UnityEditor.ActiveEditorTracker));
-					r_RInternal_GetActiveEditors_ActiveEditorTracker.SetBelong(null);
+					r_Internal_GetActiveEditors_ActiveEditorTracker = new(typeof(UnityEditor.ActiveEditorTracker), "Internal_GetActiveEditors", 0, typeof(UnityEditor.ActiveEditorTracker));
+					r_Internal_GetActiveEditors_ActiveEditorTracker.SetBelong(null);
 				}
-				return r_RInternal_GetActiveEditors_ActiveEditorTracker;
+				return r_Internal_GetActiveEditors_ActiveEditorTracker;
 			}
 		}
 
 		/// <summary>
 		/// Void Internal_GetActiveEditorsNonAlloc(UnityEditor.ActiveEditorTracker, UnityEditor.Editor[])
 		/// </summary>
-		protected static RMethod r_RInternal_GetActiveEditorsNonAlloc_ActiveEditorTracker_EditorArray;
+		protected static RMethod r_Internal_GetActiveEditorsNonAlloc_ActiveEditorTracker_EditorArray;
 		public static RMethod RInternal_GetActiveEditorsNonAlloc_ActiveEditorTracker_EditorArray
 		{
 			get
 			{
-				if(r_RInternal_GetActiveEditorsNonAlloc_ActiveEditorTracker_EditorArray == null)
+				if(r_Internal_GetActiveEditorsNonAlloc_ActiveEditorTracker_EditorArray == null)
 				{
-					r_RInternal_GetActiveEditorsNonAlloc_ActiveEditorTracker_EditorArray = new(typeof(UnityEditor.ActiveEditorTracker), "Internal_GetActiveEditorsNonAlloc", 0, typeof(UnityEditor.ActiveEditorTracker), typeof(UnityEditor.Editor).MakeArrayType());
-					r_RInternal_GetActiveEditorsNonAlloc_ActiveEditorTracker_EditorArray.SetBelong(null);
+					r_Internal_GetActiveEditorsNonAlloc_ActiveEditorTracker_EditorArray = new(typeof(UnityEditor.ActiveEditorTracker), "Internal_GetActiveEditorsNonAlloc", 0, typeof(UnityEditor.ActiveEditorTracker), typeof(UnityEditor.Editor).MakeArrayType());
+					r_Internal_GetActiveEditorsNonAlloc_ActiveEditorTracker_EditorArray.SetBelong(null);
 				}
-				return r_RInternal_GetActiveEditorsNonAlloc_ActiveEditorTracker_EditorArray;
+				return r_Internal_GetActiveEditorsNonAlloc_ActiveEditorTracker_EditorArray;
 			}
 		}
 
 		/// <summary>
 		/// Void GetObjectsLockedByThisTracker(System.Collections.Generic.List`1[UnityEngine.Object])
 		/// </summary>
-		protected RMethod r_RGetObjectsLockedByThisTracker_List_d_Object_p_;
+		protected RMethod r_GetObjectsLockedByThisTracker_List_d_Object_p_;
 		public virtual RMethod RGetObjectsLockedByThisTracker_List_d_Object_p_
 		{
 			get
 			{
-				if(r_RGetObjectsLockedByThisTracker_List_d_Object_p_ == null)
+				if(r_GetObjectsLockedByThisTracker_List_d_Object_p_ == null)
 				{
-					r_RGetObjectsLockedByThisTracker_List_d_Object_p_ = new(this, "GetObjectsLockedByThisTracker", 0, typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(UnityEngine.Object)));
-					r_RGetObjectsLockedByThisTracker_List_d_Object_p_.SetBelong(this.instance);
+					r_GetObjectsLockedByThisTracker_List_d_Object_p_ = new(this, "GetObjectsLockedByThisTracker", 0, typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(UnityEngine.Object)));
+					r_GetObjectsLockedByThisTracker_List_d_Object_p_.SetBelong(this.instance);
 				}
-				return r_RGetObjectsLockedByThisTracker_List_d_Object_p_;
+				return r_GetObjectsLockedByThisTracker_List_d_Object_p_;
 			}
 		}
 
 		/// <summary>
 		/// Void Internal_GetObjectsLockedByThisTrackerInternal(UnityEditor.ActiveEditorTracker, System.Object)
 		/// </summary>
-		protected static RMethod r_RInternal_GetObjectsLockedByThisTrackerInternal_ActiveEditorTracker_Object;
+		protected static RMethod r_Internal_GetObjectsLockedByThisTrackerInternal_ActiveEditorTracker_Object;
 		public static RMethod RInternal_GetObjectsLockedByThisTrackerInternal_ActiveEditorTracker_Object
 		{
 			get
 			{
-				if(r_RInternal_GetObjectsLockedByThisTrackerInternal_ActiveEditorTracker_Object == null)
+				if(r_Internal_GetObjectsLockedByThisTrackerInternal_ActiveEditorTracker_Object == null)
 				{
-					r_RInternal_GetObjectsLockedByThisTrackerInternal_ActiveEditorTracker_Object = new(typeof(UnityEditor.ActiveEditorTracker), "Internal_GetObjectsLockedByThisTrackerInternal", 0, typeof(UnityEditor.ActiveEditorTracker), typeof(System.Object));
-					r_RInternal_GetObjectsLockedByThisTrackerInternal_ActiveEditorTracker_Object.SetBelong(null);
+					r_Internal_GetObjectsLockedByThisTrackerInternal_ActiveEditorTracker_Object = new(typeof(UnityEditor.ActiveEditorTracker), "Internal_GetObjectsLockedByThisTrackerInternal", 0, typeof(UnityEditor.ActiveEditorTracker), typeof(System.Object));
+					r_Internal_GetObjectsLockedByThisTrackerInternal_ActiveEditorTracker_Object.SetBelong(null);
 				}
-				return r_RInternal_GetObjectsLockedByThisTrackerInternal_ActiveEditorTracker_Object;
+				return r_Internal_GetObjectsLockedByThisTrackerInternal_ActiveEditorTracker_Object;
 			}
 		}
 
 		/// <summary>
 		/// Void GetObjectsLockedByThisTrackerInternal(System.Object)
 		/// </summary>
-		protected RMethod r_RGetObjectsLockedByThisTrackerInternal_Object;
+		protected RMethod r_GetObjectsLockedByThisTrackerInternal_Object;
 		public virtual RMethod RGetObjectsLockedByThisTrackerInternal_Object
 		{
 			get
 			{
-				if(r_RGetObjectsLockedByThisTrackerInternal_Object == null)
+				if(r_GetObjectsLockedByThisTrackerInternal_Object == null)
 				{
-					r_RGetObjectsLockedByThisTrackerInternal_Object = new(this, "GetObjectsLockedByThisTrackerInternal", 0, typeof(System.Object));
-					r_RGetObjectsLockedByThisTrackerInternal_Object.SetBelong(this.instance);
+					r_GetObjectsLockedByThisTrackerInternal_Object = new(this, "GetObjectsLockedByThisTrackerInternal", 0, typeof(System.Object));
+					r_GetObjectsLockedByThisTrackerInternal_Object.SetBelong(this.instance);
 				}
-				return r_RGetObjectsLockedByThisTrackerInternal_Object;
+				return r_GetObjectsLockedByThisTrackerInternal_Object;
 			}
 		}
 
 		/// <summary>
 		/// Void SetObjectsLockedByThisTracker(System.Collections.Generic.List`1[UnityEngine.Object])
 		/// </summary>
-		protected RMethod r_RSetObjectsLockedByThisTracker_List_d_Object_p_;
+		protected RMethod r_SetObjectsLockedByThisTracker_List_d_Object_p_;
 		public virtual RMethod RSetObjectsLockedByThisTracker_List_d_Object_p_
 		{
 			get
 			{
-				if(r_RSetObjectsLockedByThisTracker_List_d_Object_p_ == null)
+				if(r_SetObjectsLockedByThisTracker_List_d_Object_p_ == null)
 				{
-					r_RSetObjectsLockedByThisTracker_List_d_Object_p_ = new(this, "SetObjectsLockedByThisTracker", 0, typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(UnityEngine.Object)));
-					r_RSetObjectsLockedByThisTracker_List_d_Object_p_.SetBelong(this.instance);
+					r_SetObjectsLockedByThisTracker_List_d_Object_p_ = new(this, "SetObjectsLockedByThisTracker", 0, typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(UnityEngine.Object)));
+					r_SetObjectsLockedByThisTracker_List_d_Object_p_.SetBelong(this.instance);
 				}
-				return r_RSetObjectsLockedByThisTracker_List_d_Object_p_;
+				return r_SetObjectsLockedByThisTracker_List_d_Object_p_;
 			}
 		}
 
 		/// <summary>
 		/// Void Internal_SetObjectsLockedByThisTrackerInternal(UnityEditor.ActiveEditorTracker, System.Object)
 		/// </summary>
-		protected static RMethod r_RInternal_SetObjectsLockedByThisTrackerInternal_ActiveEditorTracker_Object;
+		protected static RMethod r_Internal_SetObjectsLockedByThisTrackerInternal_ActiveEditorTracker_Object;
 		public static RMethod RInternal_SetObjectsLockedByThisTrackerInternal_ActiveEditorTracker_Object
 		{
 			get
 			{
-				if(r_RInternal_SetObjectsLockedByThisTrackerInternal_ActiveEditorTracker_Object == null)
+				if(r_Internal_SetObjectsLockedByThisTrackerInternal_ActiveEditorTracker_Object == null)
 				{
-					r_RInternal_SetObjectsLockedByThisTrackerInternal_ActiveEditorTracker_Object = new(typeof(UnityEditor.ActiveEditorTracker), "Internal_SetObjectsLockedByThisTrackerInternal", 0, typeof(UnityEditor.ActiveEditorTracker), typeof(System.Object));
-					r_RInternal_SetObjectsLockedByThisTrackerInternal_ActiveEditorTracker_Object.SetBelong(null);
+					r_Internal_SetObjectsLockedByThisTrackerInternal_ActiveEditorTracker_Object = new(typeof(UnityEditor.ActiveEditorTracker), "Internal_SetObjectsLockedByThisTrackerInternal", 0, typeof(UnityEditor.ActiveEditorTracker), typeof(System.Object));
+					r_Internal_SetObjectsLockedByThisTrackerInternal_ActiveEditorTracker_Object.SetBelong(null);
 				}
-				return r_RInternal_SetObjectsLockedByThisTrackerInternal_ActiveEditorTracker_Object;
+				return r_Internal_SetObjectsLockedByThisTrackerInternal_ActiveEditorTracker_Object;
 			}
 		}
 
 		/// <summary>
 		/// Void SetObjectsLockedByThisTrackerInternal(System.Object)
 		/// </summary>
-		protected RMethod r_RSetObjectsLockedByThisTrackerInternal_Object;
+		protected RMethod r_SetObjectsLockedByThisTrackerInternal_Object;
 		public virtual RMethod RSetObjectsLockedByThisTrackerInternal_Object
 		{
 			get
 			{
-				if(r_RSetObjectsLockedByThisTrackerInternal_Object == null)
+				if(r_SetObjectsLockedByThisTrackerInternal_Object == null)
 				{
-					r_RSetObjectsLockedByThisTrackerInternal_Object = new(this, "SetObjectsLockedByThisTrackerInternal", 0, typeof(System.Object));
-					r_RSetObjectsLockedByThisTrackerInternal_Object.SetBelong(this.instance);
+					r_SetObjectsLockedByThisTrackerInternal_Object = new(this, "SetObjectsLockedByThisTrackerInternal", 0, typeof(System.Object));
+					r_SetObjectsLockedByThisTrackerInternal_Object.SetBelong(this.instance);
 				}
-				return r_RSetObjectsLockedByThisTrackerInternal_Object;
+				return r_SetObjectsLockedByThisTrackerInternal_Object;
 			}
 		}
 
 		/// <summary>
 		/// Int32 Internal_GetVisible(UnityEditor.ActiveEditorTracker, Int32)
 		/// </summary>
-		protected static RMethod r_RInternal_GetVisible_ActiveEditorTracker_Int32;
+		protected static RMethod r_Internal_GetVisible_ActiveEditorTracker_Int32;
 		public static RMethod RInternal_GetVisible_ActiveEditorTracker_Int32
 		{
 			get
 			{
-				if(r_RInternal_GetVisible_ActiveEditorTracker_Int32 == null)
+				if(r_Internal_GetVisible_ActiveEditorTracker_Int32 == null)
 				{
-					r_RInternal_GetVisible_ActiveEditorTracker_Int32 = new(typeof(UnityEditor.ActiveEditorTracker), "Internal_GetVisible", 0, typeof(UnityEditor.ActiveEditorTracker), typeof(System.Int32));
-					r_RInternal_GetVisible_ActiveEditorTracker_Int32.SetBelong(null);
+					r_Internal_GetVisible_ActiveEditorTracker_Int32 = new(typeof(UnityEditor.ActiveEditorTracker), "Internal_GetVisible", 0, typeof(UnityEditor.ActiveEditorTracker), typeof(System.Int32));
+					r_Internal_GetVisible_ActiveEditorTracker_Int32.SetBelong(null);
 				}
-				return r_RInternal_GetVisible_ActiveEditorTracker_Int32;
+				return r_Internal_GetVisible_ActiveEditorTracker_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetVisible(Int32)
 		/// </summary>
-		protected RMethod r_RGetVisible_Int32;
+		protected RMethod r_GetVisible_Int32;
 		public virtual RMethod RGetVisible_Int32
 		{
 			get
 			{
-				if(r_RGetVisible_Int32 == null)
+				if(r_GetVisible_Int32 == null)
 				{
-					r_RGetVisible_Int32 = new(this, "GetVisible", 0, typeof(System.Int32));
-					r_RGetVisible_Int32.SetBelong(this.instance);
+					r_GetVisible_Int32 = new(this, "GetVisible", 0, typeof(System.Int32));
+					r_GetVisible_Int32.SetBelong(this.instance);
 				}
-				return r_RGetVisible_Int32;
+				return r_GetVisible_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Void Internal_SetVisible(UnityEditor.ActiveEditorTracker, Int32, Int32)
 		/// </summary>
-		protected static RMethod r_RInternal_SetVisible_ActiveEditorTracker_Int32_Int32;
+		protected static RMethod r_Internal_SetVisible_ActiveEditorTracker_Int32_Int32;
 		public static RMethod RInternal_SetVisible_ActiveEditorTracker_Int32_Int32
 		{
 			get
 			{
-				if(r_RInternal_SetVisible_ActiveEditorTracker_Int32_Int32 == null)
+				if(r_Internal_SetVisible_ActiveEditorTracker_Int32_Int32 == null)
 				{
-					r_RInternal_SetVisible_ActiveEditorTracker_Int32_Int32 = new(typeof(UnityEditor.ActiveEditorTracker), "Internal_SetVisible", 0, typeof(UnityEditor.ActiveEditorTracker), typeof(System.Int32), typeof(System.Int32));
-					r_RInternal_SetVisible_ActiveEditorTracker_Int32_Int32.SetBelong(null);
+					r_Internal_SetVisible_ActiveEditorTracker_Int32_Int32 = new(typeof(UnityEditor.ActiveEditorTracker), "Internal_SetVisible", 0, typeof(UnityEditor.ActiveEditorTracker), typeof(System.Int32), typeof(System.Int32));
+					r_Internal_SetVisible_ActiveEditorTracker_Int32_Int32.SetBelong(null);
 				}
-				return r_RInternal_SetVisible_ActiveEditorTracker_Int32_Int32;
+				return r_Internal_SetVisible_ActiveEditorTracker_Int32_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Void SetVisible(Int32, Int32)
 		/// </summary>
-		protected RMethod r_RSetVisible_Int32_Int32;
+		protected RMethod r_SetVisible_Int32_Int32;
 		public virtual RMethod RSetVisible_Int32_Int32
 		{
 			get
 			{
-				if(r_RSetVisible_Int32_Int32 == null)
+				if(r_SetVisible_Int32_Int32 == null)
 				{
-					r_RSetVisible_Int32_Int32 = new(this, "SetVisible", 0, typeof(System.Int32), typeof(System.Int32));
-					r_RSetVisible_Int32_Int32.SetBelong(this.instance);
+					r_SetVisible_Int32_Int32 = new(this, "SetVisible", 0, typeof(System.Int32), typeof(System.Int32));
+					r_SetVisible_Int32_Int32.SetBelong(this.instance);
 				}
-				return r_RSetVisible_Int32_Int32;
+				return r_SetVisible_Int32_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Internal_GetIsDirty(UnityEditor.ActiveEditorTracker)
 		/// </summary>
-		protected static RMethod r_RInternal_GetIsDirty_ActiveEditorTracker;
+		protected static RMethod r_Internal_GetIsDirty_ActiveEditorTracker;
 		public static RMethod RInternal_GetIsDirty_ActiveEditorTracker
 		{
 			get
 			{
-				if(r_RInternal_GetIsDirty_ActiveEditorTracker == null)
+				if(r_Internal_GetIsDirty_ActiveEditorTracker == null)
 				{
-					r_RInternal_GetIsDirty_ActiveEditorTracker = new(typeof(UnityEditor.ActiveEditorTracker), "Internal_GetIsDirty", 0, typeof(UnityEditor.ActiveEditorTracker));
-					r_RInternal_GetIsDirty_ActiveEditorTracker.SetBelong(null);
+					r_Internal_GetIsDirty_ActiveEditorTracker = new(typeof(UnityEditor.ActiveEditorTracker), "Internal_GetIsDirty", 0, typeof(UnityEditor.ActiveEditorTracker));
+					r_Internal_GetIsDirty_ActiveEditorTracker.SetBelong(null);
 				}
-				return r_RInternal_GetIsDirty_ActiveEditorTracker;
+				return r_Internal_GetIsDirty_ActiveEditorTracker;
 			}
 		}
 
 		/// <summary>
 		/// Void Internal_ClearDirty(UnityEditor.ActiveEditorTracker)
 		/// </summary>
-		protected static RMethod r_RInternal_ClearDirty_ActiveEditorTracker;
+		protected static RMethod r_Internal_ClearDirty_ActiveEditorTracker;
 		public static RMethod RInternal_ClearDirty_ActiveEditorTracker
 		{
 			get
 			{
-				if(r_RInternal_ClearDirty_ActiveEditorTracker == null)
+				if(r_Internal_ClearDirty_ActiveEditorTracker == null)
 				{
-					r_RInternal_ClearDirty_ActiveEditorTracker = new(typeof(UnityEditor.ActiveEditorTracker), "Internal_ClearDirty", 0, typeof(UnityEditor.ActiveEditorTracker));
-					r_RInternal_ClearDirty_ActiveEditorTracker.SetBelong(null);
+					r_Internal_ClearDirty_ActiveEditorTracker = new(typeof(UnityEditor.ActiveEditorTracker), "Internal_ClearDirty", 0, typeof(UnityEditor.ActiveEditorTracker));
+					r_Internal_ClearDirty_ActiveEditorTracker.SetBelong(null);
 				}
-				return r_RInternal_ClearDirty_ActiveEditorTracker;
+				return r_Internal_ClearDirty_ActiveEditorTracker;
 			}
 		}
 
 		/// <summary>
 		/// Void ClearDirty()
 		/// </summary>
-		protected RMethod r_RClearDirty;
+		protected RMethod r_ClearDirty;
 		public virtual RMethod RClearDirty
 		{
 			get
 			{
-				if(r_RClearDirty == null)
+				if(r_ClearDirty == null)
 				{
-					r_RClearDirty = new(this, "ClearDirty", 0);
-					r_RClearDirty.SetBelong(this.instance);
+					r_ClearDirty = new(this, "ClearDirty", 0);
+					r_ClearDirty.SetBelong(this.instance);
 				}
-				return r_RClearDirty;
+				return r_ClearDirty;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Internal_GetIsLocked(UnityEditor.ActiveEditorTracker)
 		/// </summary>
-		protected static RMethod r_RInternal_GetIsLocked_ActiveEditorTracker;
+		protected static RMethod r_Internal_GetIsLocked_ActiveEditorTracker;
 		public static RMethod RInternal_GetIsLocked_ActiveEditorTracker
 		{
 			get
 			{
-				if(r_RInternal_GetIsLocked_ActiveEditorTracker == null)
+				if(r_Internal_GetIsLocked_ActiveEditorTracker == null)
 				{
-					r_RInternal_GetIsLocked_ActiveEditorTracker = new(typeof(UnityEditor.ActiveEditorTracker), "Internal_GetIsLocked", 0, typeof(UnityEditor.ActiveEditorTracker));
-					r_RInternal_GetIsLocked_ActiveEditorTracker.SetBelong(null);
+					r_Internal_GetIsLocked_ActiveEditorTracker = new(typeof(UnityEditor.ActiveEditorTracker), "Internal_GetIsLocked", 0, typeof(UnityEditor.ActiveEditorTracker));
+					r_Internal_GetIsLocked_ActiveEditorTracker.SetBelong(null);
 				}
-				return r_RInternal_GetIsLocked_ActiveEditorTracker;
+				return r_Internal_GetIsLocked_ActiveEditorTracker;
 			}
 		}
 
 		/// <summary>
 		/// Void Internal_SetIsLocked(UnityEditor.ActiveEditorTracker, Boolean)
 		/// </summary>
-		protected static RMethod r_RInternal_SetIsLocked_ActiveEditorTracker_Boolean;
+		protected static RMethod r_Internal_SetIsLocked_ActiveEditorTracker_Boolean;
 		public static RMethod RInternal_SetIsLocked_ActiveEditorTracker_Boolean
 		{
 			get
 			{
-				if(r_RInternal_SetIsLocked_ActiveEditorTracker_Boolean == null)
+				if(r_Internal_SetIsLocked_ActiveEditorTracker_Boolean == null)
 				{
-					r_RInternal_SetIsLocked_ActiveEditorTracker_Boolean = new(typeof(UnityEditor.ActiveEditorTracker), "Internal_SetIsLocked", 0, typeof(UnityEditor.ActiveEditorTracker), typeof(System.Boolean));
-					r_RInternal_SetIsLocked_ActiveEditorTracker_Boolean.SetBelong(null);
+					r_Internal_SetIsLocked_ActiveEditorTracker_Boolean = new(typeof(UnityEditor.ActiveEditorTracker), "Internal_SetIsLocked", 0, typeof(UnityEditor.ActiveEditorTracker), typeof(System.Boolean));
+					r_Internal_SetIsLocked_ActiveEditorTracker_Boolean.SetBelong(null);
 				}
-				return r_RInternal_SetIsLocked_ActiveEditorTracker_Boolean;
+				return r_Internal_SetIsLocked_ActiveEditorTracker_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Internal_HasUnsavedChanges(UnityEditor.ActiveEditorTracker)
 		/// </summary>
-		protected static RMethod r_RInternal_HasUnsavedChanges_ActiveEditorTracker;
+		protected static RMethod r_Internal_HasUnsavedChanges_ActiveEditorTracker;
 		public static RMethod RInternal_HasUnsavedChanges_ActiveEditorTracker
 		{
 			get
 			{
-				if(r_RInternal_HasUnsavedChanges_ActiveEditorTracker == null)
+				if(r_Internal_HasUnsavedChanges_ActiveEditorTracker == null)
 				{
-					r_RInternal_HasUnsavedChanges_ActiveEditorTracker = new(typeof(UnityEditor.ActiveEditorTracker), "Internal_HasUnsavedChanges", 0, typeof(UnityEditor.ActiveEditorTracker));
-					r_RInternal_HasUnsavedChanges_ActiveEditorTracker.SetBelong(null);
+					r_Internal_HasUnsavedChanges_ActiveEditorTracker = new(typeof(UnityEditor.ActiveEditorTracker), "Internal_HasUnsavedChanges", 0, typeof(UnityEditor.ActiveEditorTracker));
+					r_Internal_HasUnsavedChanges_ActiveEditorTracker.SetBelong(null);
 				}
-				return r_RInternal_HasUnsavedChanges_ActiveEditorTracker;
+				return r_Internal_HasUnsavedChanges_ActiveEditorTracker;
 			}
 		}
 
 		/// <summary>
 		/// Void Internal_UnsavedChangesStateChanged(UnityEditor.ActiveEditorTracker, Int32, Boolean)
 		/// </summary>
-		protected static RMethod r_RInternal_UnsavedChangesStateChanged_ActiveEditorTracker_Int32_Boolean;
+		protected static RMethod r_Internal_UnsavedChangesStateChanged_ActiveEditorTracker_Int32_Boolean;
 		public static RMethod RInternal_UnsavedChangesStateChanged_ActiveEditorTracker_Int32_Boolean
 		{
 			get
 			{
-				if(r_RInternal_UnsavedChangesStateChanged_ActiveEditorTracker_Int32_Boolean == null)
+				if(r_Internal_UnsavedChangesStateChanged_ActiveEditorTracker_Int32_Boolean == null)
 				{
-					r_RInternal_UnsavedChangesStateChanged_ActiveEditorTracker_Int32_Boolean = new(typeof(UnityEditor.ActiveEditorTracker), "Internal_UnsavedChangesStateChanged", 0, typeof(UnityEditor.ActiveEditorTracker), typeof(System.Int32), typeof(System.Boolean));
-					r_RInternal_UnsavedChangesStateChanged_ActiveEditorTracker_Int32_Boolean.SetBelong(null);
+					r_Internal_UnsavedChangesStateChanged_ActiveEditorTracker_Int32_Boolean = new(typeof(UnityEditor.ActiveEditorTracker), "Internal_UnsavedChangesStateChanged", 0, typeof(UnityEditor.ActiveEditorTracker), typeof(System.Int32), typeof(System.Boolean));
+					r_Internal_UnsavedChangesStateChanged_ActiveEditorTracker_Int32_Boolean.SetBelong(null);
 				}
-				return r_RInternal_UnsavedChangesStateChanged_ActiveEditorTracker_Int32_Boolean;
+				return r_Internal_UnsavedChangesStateChanged_ActiveEditorTracker_Int32_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Void UnsavedChangesStateChanged(UnityEditor.Editor, Boolean)
 		/// </summary>
-		protected RMethod r_RUnsavedChangesStateChanged_Editor_Boolean;
+		protected RMethod r_UnsavedChangesStateChanged_Editor_Boolean;
 		public virtual RMethod RUnsavedChangesStateChanged_Editor_Boolean
 		{
 			get
 			{
-				if(r_RUnsavedChangesStateChanged_Editor_Boolean == null)
+				if(r_UnsavedChangesStateChanged_Editor_Boolean == null)
 				{
-					r_RUnsavedChangesStateChanged_Editor_Boolean = new(this, "UnsavedChangesStateChanged", 0, typeof(UnityEditor.Editor), typeof(System.Boolean));
-					r_RUnsavedChangesStateChanged_Editor_Boolean.SetBelong(this.instance);
+					r_UnsavedChangesStateChanged_Editor_Boolean = new(this, "UnsavedChangesStateChanged", 0, typeof(UnityEditor.Editor), typeof(System.Boolean));
+					r_UnsavedChangesStateChanged_Editor_Boolean.SetBelong(this.instance);
 				}
-				return r_RUnsavedChangesStateChanged_Editor_Boolean;
+				return r_UnsavedChangesStateChanged_Editor_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Internal_GetDelayFlushDirtyRebuild()
 		/// </summary>
-		protected static RMethod r_RInternal_GetDelayFlushDirtyRebuild;
+		protected static RMethod r_Internal_GetDelayFlushDirtyRebuild;
 		public static RMethod RInternal_GetDelayFlushDirtyRebuild
 		{
 			get
 			{
-				if(r_RInternal_GetDelayFlushDirtyRebuild == null)
+				if(r_Internal_GetDelayFlushDirtyRebuild == null)
 				{
-					r_RInternal_GetDelayFlushDirtyRebuild = new(typeof(UnityEditor.ActiveEditorTracker), "Internal_GetDelayFlushDirtyRebuild", 0);
-					r_RInternal_GetDelayFlushDirtyRebuild.SetBelong(null);
+					r_Internal_GetDelayFlushDirtyRebuild = new(typeof(UnityEditor.ActiveEditorTracker), "Internal_GetDelayFlushDirtyRebuild", 0);
+					r_Internal_GetDelayFlushDirtyRebuild.SetBelong(null);
 				}
-				return r_RInternal_GetDelayFlushDirtyRebuild;
+				return r_Internal_GetDelayFlushDirtyRebuild;
 			}
 		}
 
 		/// <summary>
 		/// Void Internal_SetDelayFlushDirtyRebuild(Boolean)
 		/// </summary>
-		protected static RMethod r_RInternal_SetDelayFlushDirtyRebuild_Boolean;
+		protected static RMethod r_Internal_SetDelayFlushDirtyRebuild_Boolean;
 		public static RMethod RInternal_SetDelayFlushDirtyRebuild_Boolean
 		{
 			get
 			{
-				if(r_RInternal_SetDelayFlushDirtyRebuild_Boolean == null)
+				if(r_Internal_SetDelayFlushDirtyRebuild_Boolean == null)
 				{
-					r_RInternal_SetDelayFlushDirtyRebuild_Boolean = new(typeof(UnityEditor.ActiveEditorTracker), "Internal_SetDelayFlushDirtyRebuild", 0, typeof(System.Boolean));
-					r_RInternal_SetDelayFlushDirtyRebuild_Boolean.SetBelong(null);
+					r_Internal_SetDelayFlushDirtyRebuild_Boolean = new(typeof(UnityEditor.ActiveEditorTracker), "Internal_SetDelayFlushDirtyRebuild", 0, typeof(System.Boolean));
+					r_Internal_SetDelayFlushDirtyRebuild_Boolean.SetBelong(null);
 				}
-				return r_RInternal_SetDelayFlushDirtyRebuild_Boolean;
+				return r_Internal_SetDelayFlushDirtyRebuild_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// UnityEditor.InspectorMode Internal_GetInspectorMode(UnityEditor.ActiveEditorTracker)
 		/// </summary>
-		protected static RMethod r_RInternal_GetInspectorMode_ActiveEditorTracker;
+		protected static RMethod r_Internal_GetInspectorMode_ActiveEditorTracker;
 		public static RMethod RInternal_GetInspectorMode_ActiveEditorTracker
 		{
 			get
 			{
-				if(r_RInternal_GetInspectorMode_ActiveEditorTracker == null)
+				if(r_Internal_GetInspectorMode_ActiveEditorTracker == null)
 				{
-					r_RInternal_GetInspectorMode_ActiveEditorTracker = new(typeof(UnityEditor.ActiveEditorTracker), "Internal_GetInspectorMode", 0, typeof(UnityEditor.ActiveEditorTracker));
-					r_RInternal_GetInspectorMode_ActiveEditorTracker.SetBelong(null);
+					r_Internal_GetInspectorMode_ActiveEditorTracker = new(typeof(UnityEditor.ActiveEditorTracker), "Internal_GetInspectorMode", 0, typeof(UnityEditor.ActiveEditorTracker));
+					r_Internal_GetInspectorMode_ActiveEditorTracker.SetBelong(null);
 				}
-				return r_RInternal_GetInspectorMode_ActiveEditorTracker;
+				return r_Internal_GetInspectorMode_ActiveEditorTracker;
 			}
 		}
 
 		/// <summary>
 		/// Void Internal_SetInspectorMode(UnityEditor.ActiveEditorTracker, UnityEditor.InspectorMode)
 		/// </summary>
-		protected static RMethod r_RInternal_SetInspectorMode_ActiveEditorTracker_InspectorMode;
+		protected static RMethod r_Internal_SetInspectorMode_ActiveEditorTracker_InspectorMode;
 		public static RMethod RInternal_SetInspectorMode_ActiveEditorTracker_InspectorMode
 		{
 			get
 			{
-				if(r_RInternal_SetInspectorMode_ActiveEditorTracker_InspectorMode == null)
+				if(r_Internal_SetInspectorMode_ActiveEditorTracker_InspectorMode == null)
 				{
-					r_RInternal_SetInspectorMode_ActiveEditorTracker_InspectorMode = new(typeof(UnityEditor.ActiveEditorTracker), "Internal_SetInspectorMode", 0, typeof(UnityEditor.ActiveEditorTracker), typeof(UnityEditor.InspectorMode));
-					r_RInternal_SetInspectorMode_ActiveEditorTracker_InspectorMode.SetBelong(null);
+					r_Internal_SetInspectorMode_ActiveEditorTracker_InspectorMode = new(typeof(UnityEditor.ActiveEditorTracker), "Internal_SetInspectorMode", 0, typeof(UnityEditor.ActiveEditorTracker), typeof(UnityEditor.InspectorMode));
+					r_Internal_SetInspectorMode_ActiveEditorTracker_InspectorMode.SetBelong(null);
 				}
-				return r_RInternal_SetInspectorMode_ActiveEditorTracker_InspectorMode;
+				return r_Internal_SetInspectorMode_ActiveEditorTracker_InspectorMode;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Internal_GetHasComponentsWhichCannotBeMultiEdited(UnityEditor.ActiveEditorTracker)
 		/// </summary>
-		protected static RMethod r_RInternal_GetHasComponentsWhichCannotBeMultiEdited_ActiveEditorTracker;
+		protected static RMethod r_Internal_GetHasComponentsWhichCannotBeMultiEdited_ActiveEditorTracker;
 		public static RMethod RInternal_GetHasComponentsWhichCannotBeMultiEdited_ActiveEditorTracker
 		{
 			get
 			{
-				if(r_RInternal_GetHasComponentsWhichCannotBeMultiEdited_ActiveEditorTracker == null)
+				if(r_Internal_GetHasComponentsWhichCannotBeMultiEdited_ActiveEditorTracker == null)
 				{
-					r_RInternal_GetHasComponentsWhichCannotBeMultiEdited_ActiveEditorTracker = new(typeof(UnityEditor.ActiveEditorTracker), "Internal_GetHasComponentsWhichCannotBeMultiEdited", 0, typeof(UnityEditor.ActiveEditorTracker));
-					r_RInternal_GetHasComponentsWhichCannotBeMultiEdited_ActiveEditorTracker.SetBelong(null);
+					r_Internal_GetHasComponentsWhichCannotBeMultiEdited_ActiveEditorTracker = new(typeof(UnityEditor.ActiveEditorTracker), "Internal_GetHasComponentsWhichCannotBeMultiEdited", 0, typeof(UnityEditor.ActiveEditorTracker));
+					r_Internal_GetHasComponentsWhichCannotBeMultiEdited_ActiveEditorTracker.SetBelong(null);
 				}
-				return r_RInternal_GetHasComponentsWhichCannotBeMultiEdited_ActiveEditorTracker;
+				return r_Internal_GetHasComponentsWhichCannotBeMultiEdited_ActiveEditorTracker;
 			}
 		}
 
 		/// <summary>
 		/// Void Internal_RebuildIfNecessary(UnityEditor.ActiveEditorTracker)
 		/// </summary>
-		protected static RMethod r_RInternal_RebuildIfNecessary_ActiveEditorTracker;
+		protected static RMethod r_Internal_RebuildIfNecessary_ActiveEditorTracker;
 		public static RMethod RInternal_RebuildIfNecessary_ActiveEditorTracker
 		{
 			get
 			{
-				if(r_RInternal_RebuildIfNecessary_ActiveEditorTracker == null)
+				if(r_Internal_RebuildIfNecessary_ActiveEditorTracker == null)
 				{
-					r_RInternal_RebuildIfNecessary_ActiveEditorTracker = new(typeof(UnityEditor.ActiveEditorTracker), "Internal_RebuildIfNecessary", 0, typeof(UnityEditor.ActiveEditorTracker));
-					r_RInternal_RebuildIfNecessary_ActiveEditorTracker.SetBelong(null);
+					r_Internal_RebuildIfNecessary_ActiveEditorTracker = new(typeof(UnityEditor.ActiveEditorTracker), "Internal_RebuildIfNecessary", 0, typeof(UnityEditor.ActiveEditorTracker));
+					r_Internal_RebuildIfNecessary_ActiveEditorTracker.SetBelong(null);
 				}
-				return r_RInternal_RebuildIfNecessary_ActiveEditorTracker;
+				return r_Internal_RebuildIfNecessary_ActiveEditorTracker;
 			}
 		}
 
 		/// <summary>
 		/// Void RebuildIfNecessary()
 		/// </summary>
-		protected RMethod r_RRebuildIfNecessary;
+		protected RMethod r_RebuildIfNecessary;
 		public virtual RMethod RRebuildIfNecessary
 		{
 			get
 			{
-				if(r_RRebuildIfNecessary == null)
+				if(r_RebuildIfNecessary == null)
 				{
-					r_RRebuildIfNecessary = new(this, "RebuildIfNecessary", 0);
-					r_RRebuildIfNecessary.SetBelong(this.instance);
+					r_RebuildIfNecessary = new(this, "RebuildIfNecessary", 0);
+					r_RebuildIfNecessary.SetBelong(this.instance);
 				}
-				return r_RRebuildIfNecessary;
+				return r_RebuildIfNecessary;
 			}
 		}
 
 		/// <summary>
 		/// Void Internal_RebuildAllIfNecessary()
 		/// </summary>
-		protected static RMethod r_RInternal_RebuildAllIfNecessary;
+		protected static RMethod r_Internal_RebuildAllIfNecessary;
 		public static RMethod RInternal_RebuildAllIfNecessary
 		{
 			get
 			{
-				if(r_RInternal_RebuildAllIfNecessary == null)
+				if(r_Internal_RebuildAllIfNecessary == null)
 				{
-					r_RInternal_RebuildAllIfNecessary = new(typeof(UnityEditor.ActiveEditorTracker), "Internal_RebuildAllIfNecessary", 0);
-					r_RInternal_RebuildAllIfNecessary.SetBelong(null);
+					r_Internal_RebuildAllIfNecessary = new(typeof(UnityEditor.ActiveEditorTracker), "Internal_RebuildAllIfNecessary", 0);
+					r_Internal_RebuildAllIfNecessary.SetBelong(null);
 				}
-				return r_RInternal_RebuildAllIfNecessary;
+				return r_Internal_RebuildAllIfNecessary;
 			}
 		}
 
 		/// <summary>
 		/// Void RebuildAllIfNecessary()
 		/// </summary>
-		protected static RMethod r_RRebuildAllIfNecessary;
+		protected static RMethod r_RebuildAllIfNecessary;
 		public static RMethod RRebuildAllIfNecessary
 		{
 			get
 			{
-				if(r_RRebuildAllIfNecessary == null)
+				if(r_RebuildAllIfNecessary == null)
 				{
-					r_RRebuildAllIfNecessary = new(typeof(UnityEditor.ActiveEditorTracker), "RebuildAllIfNecessary", 0);
-					r_RRebuildAllIfNecessary.SetBelong(null);
+					r_RebuildAllIfNecessary = new(typeof(UnityEditor.ActiveEditorTracker), "RebuildAllIfNecessary", 0);
+					r_RebuildAllIfNecessary.SetBelong(null);
 				}
-				return r_RRebuildAllIfNecessary;
+				return r_RebuildAllIfNecessary;
 			}
 		}
 
 		/// <summary>
 		/// Void Internal_ForceRebuild(UnityEditor.ActiveEditorTracker)
 		/// </summary>
-		protected static RMethod r_RInternal_ForceRebuild_ActiveEditorTracker;
+		protected static RMethod r_Internal_ForceRebuild_ActiveEditorTracker;
 		public static RMethod RInternal_ForceRebuild_ActiveEditorTracker
 		{
 			get
 			{
-				if(r_RInternal_ForceRebuild_ActiveEditorTracker == null)
+				if(r_Internal_ForceRebuild_ActiveEditorTracker == null)
 				{
-					r_RInternal_ForceRebuild_ActiveEditorTracker = new(typeof(UnityEditor.ActiveEditorTracker), "Internal_ForceRebuild", 0, typeof(UnityEditor.ActiveEditorTracker));
-					r_RInternal_ForceRebuild_ActiveEditorTracker.SetBelong(null);
+					r_Internal_ForceRebuild_ActiveEditorTracker = new(typeof(UnityEditor.ActiveEditorTracker), "Internal_ForceRebuild", 0, typeof(UnityEditor.ActiveEditorTracker));
+					r_Internal_ForceRebuild_ActiveEditorTracker.SetBelong(null);
 				}
-				return r_RInternal_ForceRebuild_ActiveEditorTracker;
+				return r_Internal_ForceRebuild_ActiveEditorTracker;
 			}
 		}
 
 		/// <summary>
 		/// Void ForceRebuild()
 		/// </summary>
-		protected RMethod r_RForceRebuild;
+		protected RMethod r_ForceRebuild;
 		public virtual RMethod RForceRebuild
 		{
 			get
 			{
-				if(r_RForceRebuild == null)
+				if(r_ForceRebuild == null)
 				{
-					r_RForceRebuild = new(this, "ForceRebuild", 0);
-					r_RForceRebuild.SetBelong(this.instance);
+					r_ForceRebuild = new(this, "ForceRebuild", 0);
+					r_ForceRebuild.SetBelong(this.instance);
 				}
-				return r_RForceRebuild;
+				return r_ForceRebuild;
 			}
 		}
 
 		/// <summary>
 		/// Void Internal_VerifyModifiedMonoBehaviours(UnityEditor.ActiveEditorTracker)
 		/// </summary>
-		protected static RMethod r_RInternal_VerifyModifiedMonoBehaviours_ActiveEditorTracker;
+		protected static RMethod r_Internal_VerifyModifiedMonoBehaviours_ActiveEditorTracker;
 		public static RMethod RInternal_VerifyModifiedMonoBehaviours_ActiveEditorTracker
 		{
 			get
 			{
-				if(r_RInternal_VerifyModifiedMonoBehaviours_ActiveEditorTracker == null)
+				if(r_Internal_VerifyModifiedMonoBehaviours_ActiveEditorTracker == null)
 				{
-					r_RInternal_VerifyModifiedMonoBehaviours_ActiveEditorTracker = new(typeof(UnityEditor.ActiveEditorTracker), "Internal_VerifyModifiedMonoBehaviours", 0, typeof(UnityEditor.ActiveEditorTracker));
-					r_RInternal_VerifyModifiedMonoBehaviours_ActiveEditorTracker.SetBelong(null);
+					r_Internal_VerifyModifiedMonoBehaviours_ActiveEditorTracker = new(typeof(UnityEditor.ActiveEditorTracker), "Internal_VerifyModifiedMonoBehaviours", 0, typeof(UnityEditor.ActiveEditorTracker));
+					r_Internal_VerifyModifiedMonoBehaviours_ActiveEditorTracker.SetBelong(null);
 				}
-				return r_RInternal_VerifyModifiedMonoBehaviours_ActiveEditorTracker;
+				return r_Internal_VerifyModifiedMonoBehaviours_ActiveEditorTracker;
 			}
 		}
 
 		/// <summary>
 		/// Void VerifyModifiedMonoBehaviours()
 		/// </summary>
-		protected RMethod r_RVerifyModifiedMonoBehaviours;
+		protected RMethod r_VerifyModifiedMonoBehaviours;
 		public virtual RMethod RVerifyModifiedMonoBehaviours
 		{
 			get
 			{
-				if(r_RVerifyModifiedMonoBehaviours == null)
+				if(r_VerifyModifiedMonoBehaviours == null)
 				{
-					r_RVerifyModifiedMonoBehaviours = new(this, "VerifyModifiedMonoBehaviours", 0);
-					r_RVerifyModifiedMonoBehaviours.SetBelong(this.instance);
+					r_VerifyModifiedMonoBehaviours = new(this, "VerifyModifiedMonoBehaviours", 0);
+					r_VerifyModifiedMonoBehaviours.SetBelong(this.instance);
 				}
-				return r_RVerifyModifiedMonoBehaviours;
+				return r_VerifyModifiedMonoBehaviours;
 			}
 		}
 
 		/// <summary>
 		/// UnityEditor.DataMode Internal_GetDataMode(UnityEditor.ActiveEditorTracker)
 		/// </summary>
-		protected static RMethod r_RInternal_GetDataMode_ActiveEditorTracker;
+		protected static RMethod r_Internal_GetDataMode_ActiveEditorTracker;
 		public static RMethod RInternal_GetDataMode_ActiveEditorTracker
 		{
 			get
 			{
-				if(r_RInternal_GetDataMode_ActiveEditorTracker == null)
+				if(r_Internal_GetDataMode_ActiveEditorTracker == null)
 				{
-					r_RInternal_GetDataMode_ActiveEditorTracker = new(typeof(UnityEditor.ActiveEditorTracker), "Internal_GetDataMode", 0, typeof(UnityEditor.ActiveEditorTracker));
-					r_RInternal_GetDataMode_ActiveEditorTracker.SetBelong(null);
+					r_Internal_GetDataMode_ActiveEditorTracker = new(typeof(UnityEditor.ActiveEditorTracker), "Internal_GetDataMode", 0, typeof(UnityEditor.ActiveEditorTracker));
+					r_Internal_GetDataMode_ActiveEditorTracker.SetBelong(null);
 				}
-				return r_RInternal_GetDataMode_ActiveEditorTracker;
+				return r_Internal_GetDataMode_ActiveEditorTracker;
 			}
 		}
 
 		/// <summary>
 		/// Void Internal_SetDataMode(UnityEditor.ActiveEditorTracker, UnityEditor.DataMode)
 		/// </summary>
-		protected static RMethod r_RInternal_SetDataMode_ActiveEditorTracker_DataMode;
+		protected static RMethod r_Internal_SetDataMode_ActiveEditorTracker_DataMode;
 		public static RMethod RInternal_SetDataMode_ActiveEditorTracker_DataMode
 		{
 			get
 			{
-				if(r_RInternal_SetDataMode_ActiveEditorTracker_DataMode == null)
+				if(r_Internal_SetDataMode_ActiveEditorTracker_DataMode == null)
 				{
-					r_RInternal_SetDataMode_ActiveEditorTracker_DataMode = new(typeof(UnityEditor.ActiveEditorTracker), "Internal_SetDataMode", 0, typeof(UnityEditor.ActiveEditorTracker), typeof(UnityEditor.DataMode));
-					r_RInternal_SetDataMode_ActiveEditorTracker_DataMode.SetBelong(null);
+					r_Internal_SetDataMode_ActiveEditorTracker_DataMode = new(typeof(UnityEditor.ActiveEditorTracker), "Internal_SetDataMode", 0, typeof(UnityEditor.ActiveEditorTracker), typeof(UnityEditor.DataMode));
+					r_Internal_SetDataMode_ActiveEditorTracker_DataMode.SetBelong(null);
 				}
-				return r_RInternal_SetDataMode_ActiveEditorTracker_DataMode;
+				return r_Internal_SetDataMode_ActiveEditorTracker_DataMode;
 			}
 		}
 
 		/// <summary>
 		/// UnityEditor.Editor MakeCustomEditor(UnityEngine.Object)
 		/// </summary>
-		protected static RMethod r_RMakeCustomEditor_Object;
+		protected static RMethod r_MakeCustomEditor_Object;
 		public static RMethod RMakeCustomEditor_Object
 		{
 			get
 			{
-				if(r_RMakeCustomEditor_Object == null)
+				if(r_MakeCustomEditor_Object == null)
 				{
-					r_RMakeCustomEditor_Object = new(typeof(UnityEditor.ActiveEditorTracker), "MakeCustomEditor", 0, typeof(UnityEngine.Object));
-					r_RMakeCustomEditor_Object.SetBelong(null);
+					r_MakeCustomEditor_Object = new(typeof(UnityEditor.ActiveEditorTracker), "MakeCustomEditor", 0, typeof(UnityEngine.Object));
+					r_MakeCustomEditor_Object.SetBelong(null);
 				}
-				return r_RMakeCustomEditor_Object;
+				return r_MakeCustomEditor_Object;
 			}
 		}
 
 		/// <summary>
 		/// Boolean HasCustomEditor(UnityEngine.Object)
 		/// </summary>
-		protected static RMethod r_RHasCustomEditor_Object;
+		protected static RMethod r_HasCustomEditor_Object;
 		public static RMethod RHasCustomEditor_Object
 		{
 			get
 			{
-				if(r_RHasCustomEditor_Object == null)
+				if(r_HasCustomEditor_Object == null)
 				{
-					r_RHasCustomEditor_Object = new(typeof(UnityEditor.ActiveEditorTracker), "HasCustomEditor", 0, typeof(UnityEngine.Object));
-					r_RHasCustomEditor_Object.SetBelong(null);
+					r_HasCustomEditor_Object = new(typeof(UnityEditor.ActiveEditorTracker), "HasCustomEditor", 0, typeof(UnityEngine.Object));
+					r_HasCustomEditor_Object.SetBelong(null);
 				}
-				return r_RHasCustomEditor_Object;
+				return r_HasCustomEditor_Object;
 			}
 		}
 
 		/// <summary>
 		/// Void SetupSharedTracker(UnityEditor.ActiveEditorTracker)
 		/// </summary>
-		protected static RMethod r_RSetupSharedTracker_ActiveEditorTracker;
+		protected static RMethod r_SetupSharedTracker_ActiveEditorTracker;
 		public static RMethod RSetupSharedTracker_ActiveEditorTracker
 		{
 			get
 			{
-				if(r_RSetupSharedTracker_ActiveEditorTracker == null)
+				if(r_SetupSharedTracker_ActiveEditorTracker == null)
 				{
-					r_RSetupSharedTracker_ActiveEditorTracker = new(typeof(UnityEditor.ActiveEditorTracker), "SetupSharedTracker", 0, typeof(UnityEditor.ActiveEditorTracker));
-					r_RSetupSharedTracker_ActiveEditorTracker.SetBelong(null);
+					r_SetupSharedTracker_ActiveEditorTracker = new(typeof(UnityEditor.ActiveEditorTracker), "SetupSharedTracker", 0, typeof(UnityEditor.ActiveEditorTracker));
+					r_SetupSharedTracker_ActiveEditorTracker.SetBelong(null);
 				}
-				return r_RSetupSharedTracker_ActiveEditorTracker;
+				return r_SetupSharedTracker_ActiveEditorTracker;
 			}
 		}
 
 		/// <summary>
 		/// Void Internal_OnTrackerRebuild()
 		/// </summary>
-		protected static RMethod r_RInternal_OnTrackerRebuild;
+		protected static RMethod r_Internal_OnTrackerRebuild;
 		public static RMethod RInternal_OnTrackerRebuild
 		{
 			get
 			{
-				if(r_RInternal_OnTrackerRebuild == null)
+				if(r_Internal_OnTrackerRebuild == null)
 				{
-					r_RInternal_OnTrackerRebuild = new(typeof(UnityEditor.ActiveEditorTracker), "Internal_OnTrackerRebuild", 0);
-					r_RInternal_OnTrackerRebuild.SetBelong(null);
+					r_Internal_OnTrackerRebuild = new(typeof(UnityEditor.ActiveEditorTracker), "Internal_OnTrackerRebuild", 0);
+					r_Internal_OnTrackerRebuild.SetBelong(null);
 				}
-				return r_RInternal_OnTrackerRebuild;
+				return r_Internal_OnTrackerRebuild;
 			}
 		}
 
 		/// <summary>
 		/// System.Type GetType()
 		/// </summary>
-		protected RMethod r_RGetType;
+		protected RMethod r_GetType;
 		public virtual RMethod RGetType
 		{
 			get
 			{
-				if(r_RGetType == null)
+				if(r_GetType == null)
 				{
-					r_RGetType = new(this, "GetType", 0);
-					r_RGetType.SetBelong(this.instance);
+					r_GetType = new(this, "GetType", 0);
+					r_GetType.SetBelong(this.instance);
 				}
-				return r_RGetType;
+				return r_GetType;
 			}
 		}
 
 		/// <summary>
 		/// System.Object MemberwiseClone()
 		/// </summary>
-		protected RMethod r_RMemberwiseClone;
+		protected RMethod r_MemberwiseClone;
 		public virtual RMethod RMemberwiseClone
 		{
 			get
 			{
-				if(r_RMemberwiseClone == null)
+				if(r_MemberwiseClone == null)
 				{
-					r_RMemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_RMemberwiseClone.SetBelong(this.instance);
+					r_MemberwiseClone = new(this, "MemberwiseClone", 0);
+					r_MemberwiseClone.SetBelong(this.instance);
 				}
-				return r_RMemberwiseClone;
+				return r_MemberwiseClone;
 			}
 		}
 
 		/// <summary>
 		/// System.String ToString()
 		/// </summary>
-		protected RMethod r_RToString;
+		protected RMethod r_ToString;
 		public virtual RMethod RToString
 		{
 			get
 			{
-				if(r_RToString == null)
+				if(r_ToString == null)
 				{
-					r_RToString = new(this, "ToString", 0);
-					r_RToString.SetBelong(this.instance);
+					r_ToString = new(this, "ToString", 0);
+					r_ToString.SetBelong(this.instance);
 				}
-				return r_RToString;
+				return r_ToString;
 			}
 		}
 

@@ -336,561 +336,561 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Text.RegularExpressions.Match Scan(System.Text.RegularExpressions.Regex, System.String, Int32, Int32, Int32, Int32, Boolean)
 		/// </summary>
-		protected RMethod r_RScan_Regex_String_Int32_Int32_Int32_Int32_Boolean;
+		protected RMethod r_Scan_Regex_String_Int32_Int32_Int32_Int32_Boolean;
 		public virtual RMethod RScan_Regex_String_Int32_Int32_Int32_Int32_Boolean
 		{
 			get
 			{
-				if(r_RScan_Regex_String_Int32_Int32_Int32_Int32_Boolean == null)
+				if(r_Scan_Regex_String_Int32_Int32_Int32_Int32_Boolean == null)
 				{
-					r_RScan_Regex_String_Int32_Int32_Int32_Int32_Boolean = new(this, "Scan", 0, typeof(System.Text.RegularExpressions.Regex), typeof(System.String), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Boolean));
-					r_RScan_Regex_String_Int32_Int32_Int32_Int32_Boolean.SetBelong(this.instance);
+					r_Scan_Regex_String_Int32_Int32_Int32_Int32_Boolean = new(this, "Scan", 0, typeof(System.Text.RegularExpressions.Regex), typeof(System.String), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Boolean));
+					r_Scan_Regex_String_Int32_Int32_Int32_Int32_Boolean.SetBelong(this.instance);
 				}
-				return r_RScan_Regex_String_Int32_Int32_Int32_Int32_Boolean;
+				return r_Scan_Regex_String_Int32_Int32_Int32_Int32_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// System.Text.RegularExpressions.Match Scan(System.Text.RegularExpressions.Regex, System.String, Int32, Int32, Int32, Int32, Boolean, System.TimeSpan)
 		/// </summary>
-		protected RMethod r_RScan_Regex_String_Int32_Int32_Int32_Int32_Boolean_TimeSpan;
+		protected RMethod r_Scan_Regex_String_Int32_Int32_Int32_Int32_Boolean_TimeSpan;
 		public virtual RMethod RScan_Regex_String_Int32_Int32_Int32_Int32_Boolean_TimeSpan
 		{
 			get
 			{
-				if(r_RScan_Regex_String_Int32_Int32_Int32_Int32_Boolean_TimeSpan == null)
+				if(r_Scan_Regex_String_Int32_Int32_Int32_Int32_Boolean_TimeSpan == null)
 				{
-					r_RScan_Regex_String_Int32_Int32_Int32_Int32_Boolean_TimeSpan = new(this, "Scan", 0, typeof(System.Text.RegularExpressions.Regex), typeof(System.String), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Boolean), typeof(System.TimeSpan));
-					r_RScan_Regex_String_Int32_Int32_Int32_Int32_Boolean_TimeSpan.SetBelong(this.instance);
+					r_Scan_Regex_String_Int32_Int32_Int32_Int32_Boolean_TimeSpan = new(this, "Scan", 0, typeof(System.Text.RegularExpressions.Regex), typeof(System.String), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Boolean), typeof(System.TimeSpan));
+					r_Scan_Regex_String_Int32_Int32_Int32_Int32_Boolean_TimeSpan.SetBelong(this.instance);
 				}
-				return r_RScan_Regex_String_Int32_Int32_Int32_Int32_Boolean_TimeSpan;
+				return r_Scan_Regex_String_Int32_Int32_Int32_Int32_Boolean_TimeSpan;
 			}
 		}
 
 		/// <summary>
 		/// Void StartTimeoutWatch()
 		/// </summary>
-		protected RMethod r_RStartTimeoutWatch;
+		protected RMethod r_StartTimeoutWatch;
 		public virtual RMethod RStartTimeoutWatch
 		{
 			get
 			{
-				if(r_RStartTimeoutWatch == null)
+				if(r_StartTimeoutWatch == null)
 				{
-					r_RStartTimeoutWatch = new(this, "StartTimeoutWatch", 0);
-					r_RStartTimeoutWatch.SetBelong(this.instance);
+					r_StartTimeoutWatch = new(this, "StartTimeoutWatch", 0);
+					r_StartTimeoutWatch.SetBelong(this.instance);
 				}
-				return r_RStartTimeoutWatch;
+				return r_StartTimeoutWatch;
 			}
 		}
 
 		/// <summary>
 		/// Void CheckTimeout()
 		/// </summary>
-		protected RMethod r_RCheckTimeout;
+		protected RMethod r_CheckTimeout;
 		public virtual RMethod RCheckTimeout
 		{
 			get
 			{
-				if(r_RCheckTimeout == null)
+				if(r_CheckTimeout == null)
 				{
-					r_RCheckTimeout = new(this, "CheckTimeout", 0);
-					r_RCheckTimeout.SetBelong(this.instance);
+					r_CheckTimeout = new(this, "CheckTimeout", 0);
+					r_CheckTimeout.SetBelong(this.instance);
 				}
-				return r_RCheckTimeout;
+				return r_CheckTimeout;
 			}
 		}
 
 		/// <summary>
 		/// Void DoCheckTimeout()
 		/// </summary>
-		protected RMethod r_RDoCheckTimeout;
+		protected RMethod r_DoCheckTimeout;
 		public virtual RMethod RDoCheckTimeout
 		{
 			get
 			{
-				if(r_RDoCheckTimeout == null)
+				if(r_DoCheckTimeout == null)
 				{
-					r_RDoCheckTimeout = new(this, "DoCheckTimeout", 0);
-					r_RDoCheckTimeout.SetBelong(this.instance);
+					r_DoCheckTimeout = new(this, "DoCheckTimeout", 0);
+					r_DoCheckTimeout.SetBelong(this.instance);
 				}
-				return r_RDoCheckTimeout;
+				return r_DoCheckTimeout;
 			}
 		}
 
 		/// <summary>
 		/// Void Go()
 		/// </summary>
-		protected RMethod r_RGo;
+		protected RMethod r_Go;
 		public virtual RMethod RGo
 		{
 			get
 			{
-				if(r_RGo == null)
+				if(r_Go == null)
 				{
-					r_RGo = new(this, "Go", 0);
-					r_RGo.SetBelong(this.instance);
+					r_Go = new(this, "Go", 0);
+					r_Go.SetBelong(this.instance);
 				}
-				return r_RGo;
+				return r_Go;
 			}
 		}
 
 		/// <summary>
 		/// Boolean FindFirstChar()
 		/// </summary>
-		protected RMethod r_RFindFirstChar;
+		protected RMethod r_FindFirstChar;
 		public virtual RMethod RFindFirstChar
 		{
 			get
 			{
-				if(r_RFindFirstChar == null)
+				if(r_FindFirstChar == null)
 				{
-					r_RFindFirstChar = new(this, "FindFirstChar", 0);
-					r_RFindFirstChar.SetBelong(this.instance);
+					r_FindFirstChar = new(this, "FindFirstChar", 0);
+					r_FindFirstChar.SetBelong(this.instance);
 				}
-				return r_RFindFirstChar;
+				return r_FindFirstChar;
 			}
 		}
 
 		/// <summary>
 		/// Void InitTrackCount()
 		/// </summary>
-		protected RMethod r_RInitTrackCount;
+		protected RMethod r_InitTrackCount;
 		public virtual RMethod RInitTrackCount
 		{
 			get
 			{
-				if(r_RInitTrackCount == null)
+				if(r_InitTrackCount == null)
 				{
-					r_RInitTrackCount = new(this, "InitTrackCount", 0);
-					r_RInitTrackCount.SetBelong(this.instance);
+					r_InitTrackCount = new(this, "InitTrackCount", 0);
+					r_InitTrackCount.SetBelong(this.instance);
 				}
-				return r_RInitTrackCount;
+				return r_InitTrackCount;
 			}
 		}
 
 		/// <summary>
 		/// Void InitMatch()
 		/// </summary>
-		protected RMethod r_RInitMatch;
+		protected RMethod r_InitMatch;
 		public virtual RMethod RInitMatch
 		{
 			get
 			{
-				if(r_RInitMatch == null)
+				if(r_InitMatch == null)
 				{
-					r_RInitMatch = new(this, "InitMatch", 0);
-					r_RInitMatch.SetBelong(this.instance);
+					r_InitMatch = new(this, "InitMatch", 0);
+					r_InitMatch.SetBelong(this.instance);
 				}
-				return r_RInitMatch;
+				return r_InitMatch;
 			}
 		}
 
 		/// <summary>
 		/// System.Text.RegularExpressions.Match TidyMatch(Boolean)
 		/// </summary>
-		protected RMethod r_RTidyMatch_Boolean;
+		protected RMethod r_TidyMatch_Boolean;
 		public virtual RMethod RTidyMatch_Boolean
 		{
 			get
 			{
-				if(r_RTidyMatch_Boolean == null)
+				if(r_TidyMatch_Boolean == null)
 				{
-					r_RTidyMatch_Boolean = new(this, "TidyMatch", 0, typeof(System.Boolean));
-					r_RTidyMatch_Boolean.SetBelong(this.instance);
+					r_TidyMatch_Boolean = new(this, "TidyMatch", 0, typeof(System.Boolean));
+					r_TidyMatch_Boolean.SetBelong(this.instance);
 				}
-				return r_RTidyMatch_Boolean;
+				return r_TidyMatch_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Void EnsureStorage()
 		/// </summary>
-		protected RMethod r_REnsureStorage;
+		protected RMethod r_EnsureStorage;
 		public virtual RMethod REnsureStorage
 		{
 			get
 			{
-				if(r_REnsureStorage == null)
+				if(r_EnsureStorage == null)
 				{
-					r_REnsureStorage = new(this, "EnsureStorage", 0);
-					r_REnsureStorage.SetBelong(this.instance);
+					r_EnsureStorage = new(this, "EnsureStorage", 0);
+					r_EnsureStorage.SetBelong(this.instance);
 				}
-				return r_REnsureStorage;
+				return r_EnsureStorage;
 			}
 		}
 
 		/// <summary>
 		/// Boolean IsBoundary(Int32, Int32, Int32)
 		/// </summary>
-		protected RMethod r_RIsBoundary_Int32_Int32_Int32;
+		protected RMethod r_IsBoundary_Int32_Int32_Int32;
 		public virtual RMethod RIsBoundary_Int32_Int32_Int32
 		{
 			get
 			{
-				if(r_RIsBoundary_Int32_Int32_Int32 == null)
+				if(r_IsBoundary_Int32_Int32_Int32 == null)
 				{
-					r_RIsBoundary_Int32_Int32_Int32 = new(this, "IsBoundary", 0, typeof(System.Int32), typeof(System.Int32), typeof(System.Int32));
-					r_RIsBoundary_Int32_Int32_Int32.SetBelong(this.instance);
+					r_IsBoundary_Int32_Int32_Int32 = new(this, "IsBoundary", 0, typeof(System.Int32), typeof(System.Int32), typeof(System.Int32));
+					r_IsBoundary_Int32_Int32_Int32.SetBelong(this.instance);
 				}
-				return r_RIsBoundary_Int32_Int32_Int32;
+				return r_IsBoundary_Int32_Int32_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Boolean IsECMABoundary(Int32, Int32, Int32)
 		/// </summary>
-		protected RMethod r_RIsECMABoundary_Int32_Int32_Int32;
+		protected RMethod r_IsECMABoundary_Int32_Int32_Int32;
 		public virtual RMethod RIsECMABoundary_Int32_Int32_Int32
 		{
 			get
 			{
-				if(r_RIsECMABoundary_Int32_Int32_Int32 == null)
+				if(r_IsECMABoundary_Int32_Int32_Int32 == null)
 				{
-					r_RIsECMABoundary_Int32_Int32_Int32 = new(this, "IsECMABoundary", 0, typeof(System.Int32), typeof(System.Int32), typeof(System.Int32));
-					r_RIsECMABoundary_Int32_Int32_Int32.SetBelong(this.instance);
+					r_IsECMABoundary_Int32_Int32_Int32 = new(this, "IsECMABoundary", 0, typeof(System.Int32), typeof(System.Int32), typeof(System.Int32));
+					r_IsECMABoundary_Int32_Int32_Int32.SetBelong(this.instance);
 				}
-				return r_RIsECMABoundary_Int32_Int32_Int32;
+				return r_IsECMABoundary_Int32_Int32_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Boolean CharInSet(Char, System.String, System.String)
 		/// </summary>
-		protected static RMethod r_RCharInSet_Char_String_String;
+		protected static RMethod r_CharInSet_Char_String_String;
 		public static RMethod RCharInSet_Char_String_String
 		{
 			get
 			{
-				if(r_RCharInSet_Char_String_String == null)
+				if(r_CharInSet_Char_String_String == null)
 				{
-					r_RCharInSet_Char_String_String = new(typeof(System.Text.RegularExpressions.RegexRunner), "CharInSet", 0, typeof(System.Char), typeof(System.String), typeof(System.String));
-					r_RCharInSet_Char_String_String.SetBelong(null);
+					r_CharInSet_Char_String_String = new(typeof(System.Text.RegularExpressions.RegexRunner), "CharInSet", 0, typeof(System.Char), typeof(System.String), typeof(System.String));
+					r_CharInSet_Char_String_String.SetBelong(null);
 				}
-				return r_RCharInSet_Char_String_String;
+				return r_CharInSet_Char_String_String;
 			}
 		}
 
 		/// <summary>
 		/// Boolean CharInClass(Char, System.String)
 		/// </summary>
-		protected static RMethod r_RCharInClass_Char_String;
+		protected static RMethod r_CharInClass_Char_String;
 		public static RMethod RCharInClass_Char_String
 		{
 			get
 			{
-				if(r_RCharInClass_Char_String == null)
+				if(r_CharInClass_Char_String == null)
 				{
-					r_RCharInClass_Char_String = new(typeof(System.Text.RegularExpressions.RegexRunner), "CharInClass", 0, typeof(System.Char), typeof(System.String));
-					r_RCharInClass_Char_String.SetBelong(null);
+					r_CharInClass_Char_String = new(typeof(System.Text.RegularExpressions.RegexRunner), "CharInClass", 0, typeof(System.Char), typeof(System.String));
+					r_CharInClass_Char_String.SetBelong(null);
 				}
-				return r_RCharInClass_Char_String;
+				return r_CharInClass_Char_String;
 			}
 		}
 
 		/// <summary>
 		/// Void DoubleTrack()
 		/// </summary>
-		protected RMethod r_RDoubleTrack;
+		protected RMethod r_DoubleTrack;
 		public virtual RMethod RDoubleTrack
 		{
 			get
 			{
-				if(r_RDoubleTrack == null)
+				if(r_DoubleTrack == null)
 				{
-					r_RDoubleTrack = new(this, "DoubleTrack", 0);
-					r_RDoubleTrack.SetBelong(this.instance);
+					r_DoubleTrack = new(this, "DoubleTrack", 0);
+					r_DoubleTrack.SetBelong(this.instance);
 				}
-				return r_RDoubleTrack;
+				return r_DoubleTrack;
 			}
 		}
 
 		/// <summary>
 		/// Void DoubleStack()
 		/// </summary>
-		protected RMethod r_RDoubleStack;
+		protected RMethod r_DoubleStack;
 		public virtual RMethod RDoubleStack
 		{
 			get
 			{
-				if(r_RDoubleStack == null)
+				if(r_DoubleStack == null)
 				{
-					r_RDoubleStack = new(this, "DoubleStack", 0);
-					r_RDoubleStack.SetBelong(this.instance);
+					r_DoubleStack = new(this, "DoubleStack", 0);
+					r_DoubleStack.SetBelong(this.instance);
 				}
-				return r_RDoubleStack;
+				return r_DoubleStack;
 			}
 		}
 
 		/// <summary>
 		/// Void DoubleCrawl()
 		/// </summary>
-		protected RMethod r_RDoubleCrawl;
+		protected RMethod r_DoubleCrawl;
 		public virtual RMethod RDoubleCrawl
 		{
 			get
 			{
-				if(r_RDoubleCrawl == null)
+				if(r_DoubleCrawl == null)
 				{
-					r_RDoubleCrawl = new(this, "DoubleCrawl", 0);
-					r_RDoubleCrawl.SetBelong(this.instance);
+					r_DoubleCrawl = new(this, "DoubleCrawl", 0);
+					r_DoubleCrawl.SetBelong(this.instance);
 				}
-				return r_RDoubleCrawl;
+				return r_DoubleCrawl;
 			}
 		}
 
 		/// <summary>
 		/// Void Crawl(Int32)
 		/// </summary>
-		protected RMethod r_RCrawl_Int32;
+		protected RMethod r_Crawl_Int32;
 		public virtual RMethod RCrawl_Int32
 		{
 			get
 			{
-				if(r_RCrawl_Int32 == null)
+				if(r_Crawl_Int32 == null)
 				{
-					r_RCrawl_Int32 = new(this, "Crawl", 0, typeof(System.Int32));
-					r_RCrawl_Int32.SetBelong(this.instance);
+					r_Crawl_Int32 = new(this, "Crawl", 0, typeof(System.Int32));
+					r_Crawl_Int32.SetBelong(this.instance);
 				}
-				return r_RCrawl_Int32;
+				return r_Crawl_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Int32 Popcrawl()
 		/// </summary>
-		protected RMethod r_RPopcrawl;
+		protected RMethod r_Popcrawl;
 		public virtual RMethod RPopcrawl
 		{
 			get
 			{
-				if(r_RPopcrawl == null)
+				if(r_Popcrawl == null)
 				{
-					r_RPopcrawl = new(this, "Popcrawl", 0);
-					r_RPopcrawl.SetBelong(this.instance);
+					r_Popcrawl = new(this, "Popcrawl", 0);
+					r_Popcrawl.SetBelong(this.instance);
 				}
-				return r_RPopcrawl;
+				return r_Popcrawl;
 			}
 		}
 
 		/// <summary>
 		/// Int32 Crawlpos()
 		/// </summary>
-		protected RMethod r_RCrawlpos;
+		protected RMethod r_Crawlpos;
 		public virtual RMethod RCrawlpos
 		{
 			get
 			{
-				if(r_RCrawlpos == null)
+				if(r_Crawlpos == null)
 				{
-					r_RCrawlpos = new(this, "Crawlpos", 0);
-					r_RCrawlpos.SetBelong(this.instance);
+					r_Crawlpos = new(this, "Crawlpos", 0);
+					r_Crawlpos.SetBelong(this.instance);
 				}
-				return r_RCrawlpos;
+				return r_Crawlpos;
 			}
 		}
 
 		/// <summary>
 		/// Void Capture(Int32, Int32, Int32)
 		/// </summary>
-		protected RMethod r_RCapture_Int32_Int32_Int32;
+		protected RMethod r_Capture_Int32_Int32_Int32;
 		public virtual RMethod RCapture_Int32_Int32_Int32
 		{
 			get
 			{
-				if(r_RCapture_Int32_Int32_Int32 == null)
+				if(r_Capture_Int32_Int32_Int32 == null)
 				{
-					r_RCapture_Int32_Int32_Int32 = new(this, "Capture", 0, typeof(System.Int32), typeof(System.Int32), typeof(System.Int32));
-					r_RCapture_Int32_Int32_Int32.SetBelong(this.instance);
+					r_Capture_Int32_Int32_Int32 = new(this, "Capture", 0, typeof(System.Int32), typeof(System.Int32), typeof(System.Int32));
+					r_Capture_Int32_Int32_Int32.SetBelong(this.instance);
 				}
-				return r_RCapture_Int32_Int32_Int32;
+				return r_Capture_Int32_Int32_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Void TransferCapture(Int32, Int32, Int32, Int32)
 		/// </summary>
-		protected RMethod r_RTransferCapture_Int32_Int32_Int32_Int32;
+		protected RMethod r_TransferCapture_Int32_Int32_Int32_Int32;
 		public virtual RMethod RTransferCapture_Int32_Int32_Int32_Int32
 		{
 			get
 			{
-				if(r_RTransferCapture_Int32_Int32_Int32_Int32 == null)
+				if(r_TransferCapture_Int32_Int32_Int32_Int32 == null)
 				{
-					r_RTransferCapture_Int32_Int32_Int32_Int32 = new(this, "TransferCapture", 0, typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32));
-					r_RTransferCapture_Int32_Int32_Int32_Int32.SetBelong(this.instance);
+					r_TransferCapture_Int32_Int32_Int32_Int32 = new(this, "TransferCapture", 0, typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32));
+					r_TransferCapture_Int32_Int32_Int32_Int32.SetBelong(this.instance);
 				}
-				return r_RTransferCapture_Int32_Int32_Int32_Int32;
+				return r_TransferCapture_Int32_Int32_Int32_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Void Uncapture()
 		/// </summary>
-		protected RMethod r_RUncapture;
+		protected RMethod r_Uncapture;
 		public virtual RMethod RUncapture
 		{
 			get
 			{
-				if(r_RUncapture == null)
+				if(r_Uncapture == null)
 				{
-					r_RUncapture = new(this, "Uncapture", 0);
-					r_RUncapture.SetBelong(this.instance);
+					r_Uncapture = new(this, "Uncapture", 0);
+					r_Uncapture.SetBelong(this.instance);
 				}
-				return r_RUncapture;
+				return r_Uncapture;
 			}
 		}
 
 		/// <summary>
 		/// Boolean IsMatched(Int32)
 		/// </summary>
-		protected RMethod r_RIsMatched_Int32;
+		protected RMethod r_IsMatched_Int32;
 		public virtual RMethod RIsMatched_Int32
 		{
 			get
 			{
-				if(r_RIsMatched_Int32 == null)
+				if(r_IsMatched_Int32 == null)
 				{
-					r_RIsMatched_Int32 = new(this, "IsMatched", 0, typeof(System.Int32));
-					r_RIsMatched_Int32.SetBelong(this.instance);
+					r_IsMatched_Int32 = new(this, "IsMatched", 0, typeof(System.Int32));
+					r_IsMatched_Int32.SetBelong(this.instance);
 				}
-				return r_RIsMatched_Int32;
+				return r_IsMatched_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Int32 MatchIndex(Int32)
 		/// </summary>
-		protected RMethod r_RMatchIndex_Int32;
+		protected RMethod r_MatchIndex_Int32;
 		public virtual RMethod RMatchIndex_Int32
 		{
 			get
 			{
-				if(r_RMatchIndex_Int32 == null)
+				if(r_MatchIndex_Int32 == null)
 				{
-					r_RMatchIndex_Int32 = new(this, "MatchIndex", 0, typeof(System.Int32));
-					r_RMatchIndex_Int32.SetBelong(this.instance);
+					r_MatchIndex_Int32 = new(this, "MatchIndex", 0, typeof(System.Int32));
+					r_MatchIndex_Int32.SetBelong(this.instance);
 				}
-				return r_RMatchIndex_Int32;
+				return r_MatchIndex_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Int32 MatchLength(Int32)
 		/// </summary>
-		protected RMethod r_RMatchLength_Int32;
+		protected RMethod r_MatchLength_Int32;
 		public virtual RMethod RMatchLength_Int32
 		{
 			get
 			{
-				if(r_RMatchLength_Int32 == null)
+				if(r_MatchLength_Int32 == null)
 				{
-					r_RMatchLength_Int32 = new(this, "MatchLength", 0, typeof(System.Int32));
-					r_RMatchLength_Int32.SetBelong(this.instance);
+					r_MatchLength_Int32 = new(this, "MatchLength", 0, typeof(System.Int32));
+					r_MatchLength_Int32.SetBelong(this.instance);
 				}
-				return r_RMatchLength_Int32;
+				return r_MatchLength_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Equals(System.Object)
 		/// </summary>
-		protected RMethod r_REquals_Object;
+		protected RMethod r_Equals_Object;
 		public virtual RMethod REquals_Object
 		{
 			get
 			{
-				if(r_REquals_Object == null)
+				if(r_Equals_Object == null)
 				{
-					r_REquals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_REquals_Object.SetBelong(this.instance);
+					r_Equals_Object = new(this, "Equals", 0, typeof(System.Object));
+					r_Equals_Object.SetBelong(this.instance);
 				}
-				return r_REquals_Object;
+				return r_Equals_Object;
 			}
 		}
 
 		/// <summary>
 		/// Void Finalize()
 		/// </summary>
-		protected RMethod r_RFinalize;
+		protected RMethod r_Finalize;
 		public virtual RMethod RFinalize
 		{
 			get
 			{
-				if(r_RFinalize == null)
+				if(r_Finalize == null)
 				{
-					r_RFinalize = new(this, "Finalize", 0);
-					r_RFinalize.SetBelong(this.instance);
+					r_Finalize = new(this, "Finalize", 0);
+					r_Finalize.SetBelong(this.instance);
 				}
-				return r_RFinalize;
+				return r_Finalize;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetHashCode()
 		/// </summary>
-		protected RMethod r_RGetHashCode;
+		protected RMethod r_GetHashCode;
 		public virtual RMethod RGetHashCode
 		{
 			get
 			{
-				if(r_RGetHashCode == null)
+				if(r_GetHashCode == null)
 				{
-					r_RGetHashCode = new(this, "GetHashCode", 0);
-					r_RGetHashCode.SetBelong(this.instance);
+					r_GetHashCode = new(this, "GetHashCode", 0);
+					r_GetHashCode.SetBelong(this.instance);
 				}
-				return r_RGetHashCode;
+				return r_GetHashCode;
 			}
 		}
 
 		/// <summary>
 		/// System.Type GetType()
 		/// </summary>
-		protected RMethod r_RGetType;
+		protected RMethod r_GetType;
 		public virtual RMethod RGetType
 		{
 			get
 			{
-				if(r_RGetType == null)
+				if(r_GetType == null)
 				{
-					r_RGetType = new(this, "GetType", 0);
-					r_RGetType.SetBelong(this.instance);
+					r_GetType = new(this, "GetType", 0);
+					r_GetType.SetBelong(this.instance);
 				}
-				return r_RGetType;
+				return r_GetType;
 			}
 		}
 
 		/// <summary>
 		/// System.Object MemberwiseClone()
 		/// </summary>
-		protected RMethod r_RMemberwiseClone;
+		protected RMethod r_MemberwiseClone;
 		public virtual RMethod RMemberwiseClone
 		{
 			get
 			{
-				if(r_RMemberwiseClone == null)
+				if(r_MemberwiseClone == null)
 				{
-					r_RMemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_RMemberwiseClone.SetBelong(this.instance);
+					r_MemberwiseClone = new(this, "MemberwiseClone", 0);
+					r_MemberwiseClone.SetBelong(this.instance);
 				}
-				return r_RMemberwiseClone;
+				return r_MemberwiseClone;
 			}
 		}
 
 		/// <summary>
 		/// System.String ToString()
 		/// </summary>
-		protected RMethod r_RToString;
+		protected RMethod r_ToString;
 		public virtual RMethod RToString
 		{
 			get
 			{
-				if(r_RToString == null)
+				if(r_ToString == null)
 				{
-					r_RToString = new(this, "ToString", 0);
-					r_RToString.SetBelong(this.instance);
+					r_ToString = new(this, "ToString", 0);
+					r_ToString.SetBelong(this.instance);
 				}
-				return r_RToString;
+				return r_ToString;
 			}
 		}
 

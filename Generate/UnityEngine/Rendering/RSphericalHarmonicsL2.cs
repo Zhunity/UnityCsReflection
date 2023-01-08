@@ -489,374 +489,374 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// Void Clear()
 		/// </summary>
-		protected RMethod r_RClear;
+		protected RMethod r_Clear;
 		public virtual RMethod RClear
 		{
 			get
 			{
-				if(r_RClear == null)
+				if(r_Clear == null)
 				{
-					r_RClear = new(this, "Clear", 0);
-					r_RClear.SetBelong(this.instance);
+					r_Clear = new(this, "Clear", 0);
+					r_Clear.SetBelong(this.instance);
 				}
-				return r_RClear;
+				return r_Clear;
 			}
 		}
 
 		/// <summary>
 		/// Void SetZero()
 		/// </summary>
-		protected RMethod r_RSetZero;
+		protected RMethod r_SetZero;
 		public virtual RMethod RSetZero
 		{
 			get
 			{
-				if(r_RSetZero == null)
+				if(r_SetZero == null)
 				{
-					r_RSetZero = new(this, "SetZero", 0);
-					r_RSetZero.SetBelong(this.instance);
+					r_SetZero = new(this, "SetZero", 0);
+					r_SetZero.SetBelong(this.instance);
 				}
-				return r_RSetZero;
+				return r_SetZero;
 			}
 		}
 
 		/// <summary>
 		/// Void AddAmbientLight(UnityEngine.Color)
 		/// </summary>
-		protected RMethod r_RAddAmbientLight_Color;
+		protected RMethod r_AddAmbientLight_Color;
 		public virtual RMethod RAddAmbientLight_Color
 		{
 			get
 			{
-				if(r_RAddAmbientLight_Color == null)
+				if(r_AddAmbientLight_Color == null)
 				{
-					r_RAddAmbientLight_Color = new(this, "AddAmbientLight", 0, typeof(UnityEngine.Color));
-					r_RAddAmbientLight_Color.SetBelong(this.instance);
+					r_AddAmbientLight_Color = new(this, "AddAmbientLight", 0, typeof(UnityEngine.Color));
+					r_AddAmbientLight_Color.SetBelong(this.instance);
 				}
-				return r_RAddAmbientLight_Color;
+				return r_AddAmbientLight_Color;
 			}
 		}
 
 		/// <summary>
 		/// Void AddDirectionalLight(UnityEngine.Vector3, UnityEngine.Color, Single)
 		/// </summary>
-		protected RMethod r_RAddDirectionalLight_Vector3_Color_Single;
+		protected RMethod r_AddDirectionalLight_Vector3_Color_Single;
 		public virtual RMethod RAddDirectionalLight_Vector3_Color_Single
 		{
 			get
 			{
-				if(r_RAddDirectionalLight_Vector3_Color_Single == null)
+				if(r_AddDirectionalLight_Vector3_Color_Single == null)
 				{
-					r_RAddDirectionalLight_Vector3_Color_Single = new(this, "AddDirectionalLight", 0, typeof(UnityEngine.Vector3), typeof(UnityEngine.Color), typeof(System.Single));
-					r_RAddDirectionalLight_Vector3_Color_Single.SetBelong(this.instance);
+					r_AddDirectionalLight_Vector3_Color_Single = new(this, "AddDirectionalLight", 0, typeof(UnityEngine.Vector3), typeof(UnityEngine.Color), typeof(System.Single));
+					r_AddDirectionalLight_Vector3_Color_Single.SetBelong(this.instance);
 				}
-				return r_RAddDirectionalLight_Vector3_Color_Single;
+				return r_AddDirectionalLight_Vector3_Color_Single;
 			}
 		}
 
 		/// <summary>
 		/// Void AddDirectionalLightInternal(UnityEngine.Rendering.SphericalHarmonicsL2 ByRef, UnityEngine.Vector3, UnityEngine.Color)
 		/// </summary>
-		protected static RMethod r_RAddDirectionalLightInternal_Ref_SphericalHarmonicsL2_Vector3_Color;
+		protected static RMethod r_AddDirectionalLightInternal_Ref_SphericalHarmonicsL2_Vector3_Color;
 		public static RMethod RAddDirectionalLightInternal_Ref_SphericalHarmonicsL2_Vector3_Color
 		{
 			get
 			{
-				if(r_RAddDirectionalLightInternal_Ref_SphericalHarmonicsL2_Vector3_Color == null)
+				if(r_AddDirectionalLightInternal_Ref_SphericalHarmonicsL2_Vector3_Color == null)
 				{
-					r_RAddDirectionalLightInternal_Ref_SphericalHarmonicsL2_Vector3_Color = new(typeof(UnityEngine.Rendering.SphericalHarmonicsL2), "AddDirectionalLightInternal", 0, typeof(UnityEngine.Rendering.SphericalHarmonicsL2).MakeByRefType(), typeof(UnityEngine.Vector3), typeof(UnityEngine.Color));
-					r_RAddDirectionalLightInternal_Ref_SphericalHarmonicsL2_Vector3_Color.SetBelong(null);
+					r_AddDirectionalLightInternal_Ref_SphericalHarmonicsL2_Vector3_Color = new(typeof(UnityEngine.Rendering.SphericalHarmonicsL2), "AddDirectionalLightInternal", 0, typeof(UnityEngine.Rendering.SphericalHarmonicsL2).MakeByRefType(), typeof(UnityEngine.Vector3), typeof(UnityEngine.Color));
+					r_AddDirectionalLightInternal_Ref_SphericalHarmonicsL2_Vector3_Color.SetBelong(null);
 				}
-				return r_RAddDirectionalLightInternal_Ref_SphericalHarmonicsL2_Vector3_Color;
+				return r_AddDirectionalLightInternal_Ref_SphericalHarmonicsL2_Vector3_Color;
 			}
 		}
 
 		/// <summary>
 		/// Void Evaluate(UnityEngine.Vector3[], UnityEngine.Color[])
 		/// </summary>
-		protected RMethod r_REvaluate_Vector3Array_ColorArray;
+		protected RMethod r_Evaluate_Vector3Array_ColorArray;
 		public virtual RMethod REvaluate_Vector3Array_ColorArray
 		{
 			get
 			{
-				if(r_REvaluate_Vector3Array_ColorArray == null)
+				if(r_Evaluate_Vector3Array_ColorArray == null)
 				{
-					r_REvaluate_Vector3Array_ColorArray = new(this, "Evaluate", 0, typeof(UnityEngine.Vector3).MakeArrayType(), typeof(UnityEngine.Color).MakeArrayType());
-					r_REvaluate_Vector3Array_ColorArray.SetBelong(this.instance);
+					r_Evaluate_Vector3Array_ColorArray = new(this, "Evaluate", 0, typeof(UnityEngine.Vector3).MakeArrayType(), typeof(UnityEngine.Color).MakeArrayType());
+					r_Evaluate_Vector3Array_ColorArray.SetBelong(this.instance);
 				}
-				return r_REvaluate_Vector3Array_ColorArray;
+				return r_Evaluate_Vector3Array_ColorArray;
 			}
 		}
 
 		/// <summary>
 		/// Void EvaluateInternal(UnityEngine.Rendering.SphericalHarmonicsL2 ByRef, UnityEngine.Vector3[], UnityEngine.Color[])
 		/// </summary>
-		protected static RMethod r_REvaluateInternal_Ref_SphericalHarmonicsL2_Vector3Array_ColorArray;
+		protected static RMethod r_EvaluateInternal_Ref_SphericalHarmonicsL2_Vector3Array_ColorArray;
 		public static RMethod REvaluateInternal_Ref_SphericalHarmonicsL2_Vector3Array_ColorArray
 		{
 			get
 			{
-				if(r_REvaluateInternal_Ref_SphericalHarmonicsL2_Vector3Array_ColorArray == null)
+				if(r_EvaluateInternal_Ref_SphericalHarmonicsL2_Vector3Array_ColorArray == null)
 				{
-					r_REvaluateInternal_Ref_SphericalHarmonicsL2_Vector3Array_ColorArray = new(typeof(UnityEngine.Rendering.SphericalHarmonicsL2), "EvaluateInternal", 0, typeof(UnityEngine.Rendering.SphericalHarmonicsL2).MakeByRefType(), typeof(UnityEngine.Vector3).MakeArrayType(), typeof(UnityEngine.Color).MakeArrayType());
-					r_REvaluateInternal_Ref_SphericalHarmonicsL2_Vector3Array_ColorArray.SetBelong(null);
+					r_EvaluateInternal_Ref_SphericalHarmonicsL2_Vector3Array_ColorArray = new(typeof(UnityEngine.Rendering.SphericalHarmonicsL2), "EvaluateInternal", 0, typeof(UnityEngine.Rendering.SphericalHarmonicsL2).MakeByRefType(), typeof(UnityEngine.Vector3).MakeArrayType(), typeof(UnityEngine.Color).MakeArrayType());
+					r_EvaluateInternal_Ref_SphericalHarmonicsL2_Vector3Array_ColorArray.SetBelong(null);
 				}
-				return r_REvaluateInternal_Ref_SphericalHarmonicsL2_Vector3Array_ColorArray;
+				return r_EvaluateInternal_Ref_SphericalHarmonicsL2_Vector3Array_ColorArray;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetHashCode()
 		/// </summary>
-		protected RMethod r_RGetHashCode;
+		protected RMethod r_GetHashCode;
 		public virtual RMethod RGetHashCode
 		{
 			get
 			{
-				if(r_RGetHashCode == null)
+				if(r_GetHashCode == null)
 				{
-					r_RGetHashCode = new(this, "GetHashCode", 0);
-					r_RGetHashCode.SetBelong(this.instance);
+					r_GetHashCode = new(this, "GetHashCode", 0);
+					r_GetHashCode.SetBelong(this.instance);
 				}
-				return r_RGetHashCode;
+				return r_GetHashCode;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Equals(System.Object)
 		/// </summary>
-		protected RMethod r_REquals_Object;
+		protected RMethod r_Equals_Object;
 		public virtual RMethod REquals_Object
 		{
 			get
 			{
-				if(r_REquals_Object == null)
+				if(r_Equals_Object == null)
 				{
-					r_REquals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_REquals_Object.SetBelong(this.instance);
+					r_Equals_Object = new(this, "Equals", 0, typeof(System.Object));
+					r_Equals_Object.SetBelong(this.instance);
 				}
-				return r_REquals_Object;
+				return r_Equals_Object;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Equals(UnityEngine.Rendering.SphericalHarmonicsL2)
 		/// </summary>
-		protected RMethod r_REquals_SphericalHarmonicsL2;
+		protected RMethod r_Equals_SphericalHarmonicsL2;
 		public virtual RMethod REquals_SphericalHarmonicsL2
 		{
 			get
 			{
-				if(r_REquals_SphericalHarmonicsL2 == null)
+				if(r_Equals_SphericalHarmonicsL2 == null)
 				{
-					r_REquals_SphericalHarmonicsL2 = new(this, "Equals", 0, typeof(UnityEngine.Rendering.SphericalHarmonicsL2));
-					r_REquals_SphericalHarmonicsL2.SetBelong(this.instance);
+					r_Equals_SphericalHarmonicsL2 = new(this, "Equals", 0, typeof(UnityEngine.Rendering.SphericalHarmonicsL2));
+					r_Equals_SphericalHarmonicsL2.SetBelong(this.instance);
 				}
-				return r_REquals_SphericalHarmonicsL2;
+				return r_Equals_SphericalHarmonicsL2;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Rendering.SphericalHarmonicsL2 op_Multiply(UnityEngine.Rendering.SphericalHarmonicsL2, Single)
 		/// </summary>
-		protected static RMethod r_Rop_Multiply_SphericalHarmonicsL2_Single;
+		protected static RMethod r_op_Multiply_SphericalHarmonicsL2_Single;
 		public static RMethod Rop_Multiply_SphericalHarmonicsL2_Single
 		{
 			get
 			{
-				if(r_Rop_Multiply_SphericalHarmonicsL2_Single == null)
+				if(r_op_Multiply_SphericalHarmonicsL2_Single == null)
 				{
-					r_Rop_Multiply_SphericalHarmonicsL2_Single = new(typeof(UnityEngine.Rendering.SphericalHarmonicsL2), "op_Multiply", 0, typeof(UnityEngine.Rendering.SphericalHarmonicsL2), typeof(System.Single));
-					r_Rop_Multiply_SphericalHarmonicsL2_Single.SetBelong(null);
+					r_op_Multiply_SphericalHarmonicsL2_Single = new(typeof(UnityEngine.Rendering.SphericalHarmonicsL2), "op_Multiply", 0, typeof(UnityEngine.Rendering.SphericalHarmonicsL2), typeof(System.Single));
+					r_op_Multiply_SphericalHarmonicsL2_Single.SetBelong(null);
 				}
-				return r_Rop_Multiply_SphericalHarmonicsL2_Single;
+				return r_op_Multiply_SphericalHarmonicsL2_Single;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Rendering.SphericalHarmonicsL2 op_Multiply(Single, UnityEngine.Rendering.SphericalHarmonicsL2)
 		/// </summary>
-		protected static RMethod r_Rop_Multiply_Single_SphericalHarmonicsL2;
+		protected static RMethod r_op_Multiply_Single_SphericalHarmonicsL2;
 		public static RMethod Rop_Multiply_Single_SphericalHarmonicsL2
 		{
 			get
 			{
-				if(r_Rop_Multiply_Single_SphericalHarmonicsL2 == null)
+				if(r_op_Multiply_Single_SphericalHarmonicsL2 == null)
 				{
-					r_Rop_Multiply_Single_SphericalHarmonicsL2 = new(typeof(UnityEngine.Rendering.SphericalHarmonicsL2), "op_Multiply", 0, typeof(System.Single), typeof(UnityEngine.Rendering.SphericalHarmonicsL2));
-					r_Rop_Multiply_Single_SphericalHarmonicsL2.SetBelong(null);
+					r_op_Multiply_Single_SphericalHarmonicsL2 = new(typeof(UnityEngine.Rendering.SphericalHarmonicsL2), "op_Multiply", 0, typeof(System.Single), typeof(UnityEngine.Rendering.SphericalHarmonicsL2));
+					r_op_Multiply_Single_SphericalHarmonicsL2.SetBelong(null);
 				}
-				return r_Rop_Multiply_Single_SphericalHarmonicsL2;
+				return r_op_Multiply_Single_SphericalHarmonicsL2;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Rendering.SphericalHarmonicsL2 op_Addition(UnityEngine.Rendering.SphericalHarmonicsL2, UnityEngine.Rendering.SphericalHarmonicsL2)
 		/// </summary>
-		protected static RMethod r_Rop_Addition_SphericalHarmonicsL2_SphericalHarmonicsL2;
+		protected static RMethod r_op_Addition_SphericalHarmonicsL2_SphericalHarmonicsL2;
 		public static RMethod Rop_Addition_SphericalHarmonicsL2_SphericalHarmonicsL2
 		{
 			get
 			{
-				if(r_Rop_Addition_SphericalHarmonicsL2_SphericalHarmonicsL2 == null)
+				if(r_op_Addition_SphericalHarmonicsL2_SphericalHarmonicsL2 == null)
 				{
-					r_Rop_Addition_SphericalHarmonicsL2_SphericalHarmonicsL2 = new(typeof(UnityEngine.Rendering.SphericalHarmonicsL2), "op_Addition", 0, typeof(UnityEngine.Rendering.SphericalHarmonicsL2), typeof(UnityEngine.Rendering.SphericalHarmonicsL2));
-					r_Rop_Addition_SphericalHarmonicsL2_SphericalHarmonicsL2.SetBelong(null);
+					r_op_Addition_SphericalHarmonicsL2_SphericalHarmonicsL2 = new(typeof(UnityEngine.Rendering.SphericalHarmonicsL2), "op_Addition", 0, typeof(UnityEngine.Rendering.SphericalHarmonicsL2), typeof(UnityEngine.Rendering.SphericalHarmonicsL2));
+					r_op_Addition_SphericalHarmonicsL2_SphericalHarmonicsL2.SetBelong(null);
 				}
-				return r_Rop_Addition_SphericalHarmonicsL2_SphericalHarmonicsL2;
+				return r_op_Addition_SphericalHarmonicsL2_SphericalHarmonicsL2;
 			}
 		}
 
 		/// <summary>
 		/// Boolean op_Equality(UnityEngine.Rendering.SphericalHarmonicsL2, UnityEngine.Rendering.SphericalHarmonicsL2)
 		/// </summary>
-		protected static RMethod r_Rop_Equality_SphericalHarmonicsL2_SphericalHarmonicsL2;
+		protected static RMethod r_op_Equality_SphericalHarmonicsL2_SphericalHarmonicsL2;
 		public static RMethod Rop_Equality_SphericalHarmonicsL2_SphericalHarmonicsL2
 		{
 			get
 			{
-				if(r_Rop_Equality_SphericalHarmonicsL2_SphericalHarmonicsL2 == null)
+				if(r_op_Equality_SphericalHarmonicsL2_SphericalHarmonicsL2 == null)
 				{
-					r_Rop_Equality_SphericalHarmonicsL2_SphericalHarmonicsL2 = new(typeof(UnityEngine.Rendering.SphericalHarmonicsL2), "op_Equality", 0, typeof(UnityEngine.Rendering.SphericalHarmonicsL2), typeof(UnityEngine.Rendering.SphericalHarmonicsL2));
-					r_Rop_Equality_SphericalHarmonicsL2_SphericalHarmonicsL2.SetBelong(null);
+					r_op_Equality_SphericalHarmonicsL2_SphericalHarmonicsL2 = new(typeof(UnityEngine.Rendering.SphericalHarmonicsL2), "op_Equality", 0, typeof(UnityEngine.Rendering.SphericalHarmonicsL2), typeof(UnityEngine.Rendering.SphericalHarmonicsL2));
+					r_op_Equality_SphericalHarmonicsL2_SphericalHarmonicsL2.SetBelong(null);
 				}
-				return r_Rop_Equality_SphericalHarmonicsL2_SphericalHarmonicsL2;
+				return r_op_Equality_SphericalHarmonicsL2_SphericalHarmonicsL2;
 			}
 		}
 
 		/// <summary>
 		/// Boolean op_Inequality(UnityEngine.Rendering.SphericalHarmonicsL2, UnityEngine.Rendering.SphericalHarmonicsL2)
 		/// </summary>
-		protected static RMethod r_Rop_Inequality_SphericalHarmonicsL2_SphericalHarmonicsL2;
+		protected static RMethod r_op_Inequality_SphericalHarmonicsL2_SphericalHarmonicsL2;
 		public static RMethod Rop_Inequality_SphericalHarmonicsL2_SphericalHarmonicsL2
 		{
 			get
 			{
-				if(r_Rop_Inequality_SphericalHarmonicsL2_SphericalHarmonicsL2 == null)
+				if(r_op_Inequality_SphericalHarmonicsL2_SphericalHarmonicsL2 == null)
 				{
-					r_Rop_Inequality_SphericalHarmonicsL2_SphericalHarmonicsL2 = new(typeof(UnityEngine.Rendering.SphericalHarmonicsL2), "op_Inequality", 0, typeof(UnityEngine.Rendering.SphericalHarmonicsL2), typeof(UnityEngine.Rendering.SphericalHarmonicsL2));
-					r_Rop_Inequality_SphericalHarmonicsL2_SphericalHarmonicsL2.SetBelong(null);
+					r_op_Inequality_SphericalHarmonicsL2_SphericalHarmonicsL2 = new(typeof(UnityEngine.Rendering.SphericalHarmonicsL2), "op_Inequality", 0, typeof(UnityEngine.Rendering.SphericalHarmonicsL2), typeof(UnityEngine.Rendering.SphericalHarmonicsL2));
+					r_op_Inequality_SphericalHarmonicsL2_SphericalHarmonicsL2.SetBelong(null);
 				}
-				return r_Rop_Inequality_SphericalHarmonicsL2_SphericalHarmonicsL2;
+				return r_op_Inequality_SphericalHarmonicsL2_SphericalHarmonicsL2;
 			}
 		}
 
 		/// <summary>
 		/// Void SetZero_Injected(UnityEngine.Rendering.SphericalHarmonicsL2 ByRef)
 		/// </summary>
-		protected static RMethod r_RSetZero_Injected_Ref_SphericalHarmonicsL2;
+		protected static RMethod r_SetZero_Injected_Ref_SphericalHarmonicsL2;
 		public static RMethod RSetZero_Injected_Ref_SphericalHarmonicsL2
 		{
 			get
 			{
-				if(r_RSetZero_Injected_Ref_SphericalHarmonicsL2 == null)
+				if(r_SetZero_Injected_Ref_SphericalHarmonicsL2 == null)
 				{
-					r_RSetZero_Injected_Ref_SphericalHarmonicsL2 = new(typeof(UnityEngine.Rendering.SphericalHarmonicsL2), "SetZero_Injected", 0, typeof(UnityEngine.Rendering.SphericalHarmonicsL2).MakeByRefType());
-					r_RSetZero_Injected_Ref_SphericalHarmonicsL2.SetBelong(null);
+					r_SetZero_Injected_Ref_SphericalHarmonicsL2 = new(typeof(UnityEngine.Rendering.SphericalHarmonicsL2), "SetZero_Injected", 0, typeof(UnityEngine.Rendering.SphericalHarmonicsL2).MakeByRefType());
+					r_SetZero_Injected_Ref_SphericalHarmonicsL2.SetBelong(null);
 				}
-				return r_RSetZero_Injected_Ref_SphericalHarmonicsL2;
+				return r_SetZero_Injected_Ref_SphericalHarmonicsL2;
 			}
 		}
 
 		/// <summary>
 		/// Void AddAmbientLight_Injected(UnityEngine.Rendering.SphericalHarmonicsL2 ByRef, UnityEngine.Color ByRef)
 		/// </summary>
-		protected static RMethod r_RAddAmbientLight_Injected_Ref_SphericalHarmonicsL2_Ref_Color;
+		protected static RMethod r_AddAmbientLight_Injected_Ref_SphericalHarmonicsL2_Ref_Color;
 		public static RMethod RAddAmbientLight_Injected_Ref_SphericalHarmonicsL2_Ref_Color
 		{
 			get
 			{
-				if(r_RAddAmbientLight_Injected_Ref_SphericalHarmonicsL2_Ref_Color == null)
+				if(r_AddAmbientLight_Injected_Ref_SphericalHarmonicsL2_Ref_Color == null)
 				{
-					r_RAddAmbientLight_Injected_Ref_SphericalHarmonicsL2_Ref_Color = new(typeof(UnityEngine.Rendering.SphericalHarmonicsL2), "AddAmbientLight_Injected", 0, typeof(UnityEngine.Rendering.SphericalHarmonicsL2).MakeByRefType(), typeof(UnityEngine.Color).MakeByRefType());
-					r_RAddAmbientLight_Injected_Ref_SphericalHarmonicsL2_Ref_Color.SetBelong(null);
+					r_AddAmbientLight_Injected_Ref_SphericalHarmonicsL2_Ref_Color = new(typeof(UnityEngine.Rendering.SphericalHarmonicsL2), "AddAmbientLight_Injected", 0, typeof(UnityEngine.Rendering.SphericalHarmonicsL2).MakeByRefType(), typeof(UnityEngine.Color).MakeByRefType());
+					r_AddAmbientLight_Injected_Ref_SphericalHarmonicsL2_Ref_Color.SetBelong(null);
 				}
-				return r_RAddAmbientLight_Injected_Ref_SphericalHarmonicsL2_Ref_Color;
+				return r_AddAmbientLight_Injected_Ref_SphericalHarmonicsL2_Ref_Color;
 			}
 		}
 
 		/// <summary>
 		/// Void AddDirectionalLightInternal_Injected(UnityEngine.Rendering.SphericalHarmonicsL2 ByRef, UnityEngine.Vector3 ByRef, UnityEngine.Color ByRef)
 		/// </summary>
-		protected static RMethod r_RAddDirectionalLightInternal_Injected_Ref_SphericalHarmonicsL2_Ref_Vector3_Ref_Color;
+		protected static RMethod r_AddDirectionalLightInternal_Injected_Ref_SphericalHarmonicsL2_Ref_Vector3_Ref_Color;
 		public static RMethod RAddDirectionalLightInternal_Injected_Ref_SphericalHarmonicsL2_Ref_Vector3_Ref_Color
 		{
 			get
 			{
-				if(r_RAddDirectionalLightInternal_Injected_Ref_SphericalHarmonicsL2_Ref_Vector3_Ref_Color == null)
+				if(r_AddDirectionalLightInternal_Injected_Ref_SphericalHarmonicsL2_Ref_Vector3_Ref_Color == null)
 				{
-					r_RAddDirectionalLightInternal_Injected_Ref_SphericalHarmonicsL2_Ref_Vector3_Ref_Color = new(typeof(UnityEngine.Rendering.SphericalHarmonicsL2), "AddDirectionalLightInternal_Injected", 0, typeof(UnityEngine.Rendering.SphericalHarmonicsL2).MakeByRefType(), typeof(UnityEngine.Vector3).MakeByRefType(), typeof(UnityEngine.Color).MakeByRefType());
-					r_RAddDirectionalLightInternal_Injected_Ref_SphericalHarmonicsL2_Ref_Vector3_Ref_Color.SetBelong(null);
+					r_AddDirectionalLightInternal_Injected_Ref_SphericalHarmonicsL2_Ref_Vector3_Ref_Color = new(typeof(UnityEngine.Rendering.SphericalHarmonicsL2), "AddDirectionalLightInternal_Injected", 0, typeof(UnityEngine.Rendering.SphericalHarmonicsL2).MakeByRefType(), typeof(UnityEngine.Vector3).MakeByRefType(), typeof(UnityEngine.Color).MakeByRefType());
+					r_AddDirectionalLightInternal_Injected_Ref_SphericalHarmonicsL2_Ref_Vector3_Ref_Color.SetBelong(null);
 				}
-				return r_RAddDirectionalLightInternal_Injected_Ref_SphericalHarmonicsL2_Ref_Vector3_Ref_Color;
+				return r_AddDirectionalLightInternal_Injected_Ref_SphericalHarmonicsL2_Ref_Vector3_Ref_Color;
 			}
 		}
 
 		/// <summary>
 		/// System.String ToString()
 		/// </summary>
-		protected RMethod r_RToString;
+		protected RMethod r_ToString;
 		public virtual RMethod RToString
 		{
 			get
 			{
-				if(r_RToString == null)
+				if(r_ToString == null)
 				{
-					r_RToString = new(this, "ToString", 0);
-					r_RToString.SetBelong(this.instance);
+					r_ToString = new(this, "ToString", 0);
+					r_ToString.SetBelong(this.instance);
 				}
-				return r_RToString;
+				return r_ToString;
 			}
 		}
 
 		/// <summary>
 		/// Void Finalize()
 		/// </summary>
-		protected RMethod r_RFinalize;
+		protected RMethod r_Finalize;
 		public virtual RMethod RFinalize
 		{
 			get
 			{
-				if(r_RFinalize == null)
+				if(r_Finalize == null)
 				{
-					r_RFinalize = new(this, "Finalize", 0);
-					r_RFinalize.SetBelong(this.instance);
+					r_Finalize = new(this, "Finalize", 0);
+					r_Finalize.SetBelong(this.instance);
 				}
-				return r_RFinalize;
+				return r_Finalize;
 			}
 		}
 
 		/// <summary>
 		/// System.Type GetType()
 		/// </summary>
-		protected RMethod r_RGetType;
+		protected RMethod r_GetType;
 		public virtual RMethod RGetType
 		{
 			get
 			{
-				if(r_RGetType == null)
+				if(r_GetType == null)
 				{
-					r_RGetType = new(this, "GetType", 0);
-					r_RGetType.SetBelong(this.instance);
+					r_GetType = new(this, "GetType", 0);
+					r_GetType.SetBelong(this.instance);
 				}
-				return r_RGetType;
+				return r_GetType;
 			}
 		}
 
 		/// <summary>
 		/// System.Object MemberwiseClone()
 		/// </summary>
-		protected RMethod r_RMemberwiseClone;
+		protected RMethod r_MemberwiseClone;
 		public virtual RMethod RMemberwiseClone
 		{
 			get
 			{
-				if(r_RMemberwiseClone == null)
+				if(r_MemberwiseClone == null)
 				{
-					r_RMemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_RMemberwiseClone.SetBelong(this.instance);
+					r_MemberwiseClone = new(this, "MemberwiseClone", 0);
+					r_MemberwiseClone.SetBelong(this.instance);
 				}
-				return r_RMemberwiseClone;
+				return r_MemberwiseClone;
 			}
 		}
 

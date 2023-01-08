@@ -166,561 +166,561 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// Void Update()
 		/// </summary>
-		protected RMethod r_RUpdate;
+		protected RMethod r_Update;
 		public virtual RMethod RUpdate
 		{
 			get
 			{
-				if(r_RUpdate == null)
+				if(r_Update == null)
 				{
-					r_RUpdate = new(this, "Update", 0);
-					r_RUpdate.SetBelong(this.instance);
+					r_Update = new(this, "Update", 0);
+					r_Update.SetBelong(this.instance);
 				}
-				return r_RUpdate;
+				return r_Update;
 			}
 		}
 
 		/// <summary>
 		/// Void WaitForCompletion()
 		/// </summary>
-		protected RMethod r_RWaitForCompletion;
+		protected RMethod r_WaitForCompletion;
 		public virtual RMethod RWaitForCompletion
 		{
 			get
 			{
-				if(r_RWaitForCompletion == null)
+				if(r_WaitForCompletion == null)
 				{
-					r_RWaitForCompletion = new(this, "WaitForCompletion", 0);
-					r_RWaitForCompletion.SetBelong(this.instance);
+					r_WaitForCompletion = new(this, "WaitForCompletion", 0);
+					r_WaitForCompletion.SetBelong(this.instance);
 				}
-				return r_RWaitForCompletion;
+				return r_WaitForCompletion;
 			}
 		}
 
 		/// <summary>
 		/// Unity.Collections.NativeArray`1[T] GetData[T](Int32)
 		/// </summary>
-		protected RMethod r_RGetData_GT_Int32;
+		protected RMethod r_GetData_GT_Int32;
 		public virtual RMethod RGetData_GT_Int32
 		{
 			get
 			{
-				if(r_RGetData_GT_Int32 == null)
+				if(r_GetData_GT_Int32 == null)
 				{
-					r_RGetData_GT_Int32 = new(this, "GetData", 1, typeof(System.Int32));
-					r_RGetData_GT_Int32.SetBelong(this.instance);
+					r_GetData_GT_Int32 = new(this, "GetData", 1, typeof(System.Int32));
+					r_GetData_GT_Int32.SetBelong(this.instance);
 				}
-				return r_RGetData_GT_Int32;
+				return r_GetData_GT_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Boolean IsDone()
 		/// </summary>
-		protected RMethod r_RIsDone;
+		protected RMethod r_IsDone;
 		public virtual RMethod RIsDone
 		{
 			get
 			{
-				if(r_RIsDone == null)
+				if(r_IsDone == null)
 				{
-					r_RIsDone = new(this, "IsDone", 0);
-					r_RIsDone.SetBelong(this.instance);
+					r_IsDone = new(this, "IsDone", 0);
+					r_IsDone.SetBelong(this.instance);
 				}
-				return r_RIsDone;
+				return r_IsDone;
 			}
 		}
 
 		/// <summary>
 		/// Boolean HasError()
 		/// </summary>
-		protected RMethod r_RHasError;
+		protected RMethod r_HasError;
 		public virtual RMethod RHasError
 		{
 			get
 			{
-				if(r_RHasError == null)
+				if(r_HasError == null)
 				{
-					r_RHasError = new(this, "HasError", 0);
-					r_RHasError.SetBelong(this.instance);
+					r_HasError = new(this, "HasError", 0);
+					r_HasError.SetBelong(this.instance);
 				}
-				return r_RHasError;
+				return r_HasError;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetLayerCount()
 		/// </summary>
-		protected RMethod r_RGetLayerCount;
+		protected RMethod r_GetLayerCount;
 		public virtual RMethod RGetLayerCount
 		{
 			get
 			{
-				if(r_RGetLayerCount == null)
+				if(r_GetLayerCount == null)
 				{
-					r_RGetLayerCount = new(this, "GetLayerCount", 0);
-					r_RGetLayerCount.SetBelong(this.instance);
+					r_GetLayerCount = new(this, "GetLayerCount", 0);
+					r_GetLayerCount.SetBelong(this.instance);
 				}
-				return r_RGetLayerCount;
+				return r_GetLayerCount;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetLayerDataSize()
 		/// </summary>
-		protected RMethod r_RGetLayerDataSize;
+		protected RMethod r_GetLayerDataSize;
 		public virtual RMethod RGetLayerDataSize
 		{
 			get
 			{
-				if(r_RGetLayerDataSize == null)
+				if(r_GetLayerDataSize == null)
 				{
-					r_RGetLayerDataSize = new(this, "GetLayerDataSize", 0);
-					r_RGetLayerDataSize.SetBelong(this.instance);
+					r_GetLayerDataSize = new(this, "GetLayerDataSize", 0);
+					r_GetLayerDataSize.SetBelong(this.instance);
 				}
-				return r_RGetLayerDataSize;
+				return r_GetLayerDataSize;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetWidth()
 		/// </summary>
-		protected RMethod r_RGetWidth;
+		protected RMethod r_GetWidth;
 		public virtual RMethod RGetWidth
 		{
 			get
 			{
-				if(r_RGetWidth == null)
+				if(r_GetWidth == null)
 				{
-					r_RGetWidth = new(this, "GetWidth", 0);
-					r_RGetWidth.SetBelong(this.instance);
+					r_GetWidth = new(this, "GetWidth", 0);
+					r_GetWidth.SetBelong(this.instance);
 				}
-				return r_RGetWidth;
+				return r_GetWidth;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetHeight()
 		/// </summary>
-		protected RMethod r_RGetHeight;
+		protected RMethod r_GetHeight;
 		public virtual RMethod RGetHeight
 		{
 			get
 			{
-				if(r_RGetHeight == null)
+				if(r_GetHeight == null)
 				{
-					r_RGetHeight = new(this, "GetHeight", 0);
-					r_RGetHeight.SetBelong(this.instance);
+					r_GetHeight = new(this, "GetHeight", 0);
+					r_GetHeight.SetBelong(this.instance);
 				}
-				return r_RGetHeight;
+				return r_GetHeight;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetDepth()
 		/// </summary>
-		protected RMethod r_RGetDepth;
+		protected RMethod r_GetDepth;
 		public virtual RMethod RGetDepth
 		{
 			get
 			{
-				if(r_RGetDepth == null)
+				if(r_GetDepth == null)
 				{
-					r_RGetDepth = new(this, "GetDepth", 0);
-					r_RGetDepth.SetBelong(this.instance);
+					r_GetDepth = new(this, "GetDepth", 0);
+					r_GetDepth.SetBelong(this.instance);
 				}
-				return r_RGetDepth;
+				return r_GetDepth;
 			}
 		}
 
 		/// <summary>
 		/// Void CreateSafetyHandle()
 		/// </summary>
-		protected RMethod r_RCreateSafetyHandle;
+		protected RMethod r_CreateSafetyHandle;
 		public virtual RMethod RCreateSafetyHandle
 		{
 			get
 			{
-				if(r_RCreateSafetyHandle == null)
+				if(r_CreateSafetyHandle == null)
 				{
-					r_RCreateSafetyHandle = new(this, "CreateSafetyHandle", 0);
-					r_RCreateSafetyHandle.SetBelong(this.instance);
+					r_CreateSafetyHandle = new(this, "CreateSafetyHandle", 0);
+					r_CreateSafetyHandle.SetBelong(this.instance);
 				}
-				return r_RCreateSafetyHandle;
+				return r_CreateSafetyHandle;
 			}
 		}
 
 		/// <summary>
 		/// Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle GetSafetyHandle()
 		/// </summary>
-		protected RMethod r_RGetSafetyHandle;
+		protected RMethod r_GetSafetyHandle;
 		public virtual RMethod RGetSafetyHandle
 		{
 			get
 			{
-				if(r_RGetSafetyHandle == null)
+				if(r_GetSafetyHandle == null)
 				{
-					r_RGetSafetyHandle = new(this, "GetSafetyHandle", 0);
-					r_RGetSafetyHandle.SetBelong(this.instance);
+					r_GetSafetyHandle = new(this, "GetSafetyHandle", 0);
+					r_GetSafetyHandle.SetBelong(this.instance);
 				}
-				return r_RGetSafetyHandle;
+				return r_GetSafetyHandle;
 			}
 		}
 
 		/// <summary>
 		/// Void SetScriptingCallback(System.Action`1[UnityEngine.Rendering.AsyncGPUReadbackRequest])
 		/// </summary>
-		protected RMethod r_RSetScriptingCallback_Action_d_AsyncGPUReadbackRequest_p_;
+		protected RMethod r_SetScriptingCallback_Action_d_AsyncGPUReadbackRequest_p_;
 		public virtual RMethod RSetScriptingCallback_Action_d_AsyncGPUReadbackRequest_p_
 		{
 			get
 			{
-				if(r_RSetScriptingCallback_Action_d_AsyncGPUReadbackRequest_p_ == null)
+				if(r_SetScriptingCallback_Action_d_AsyncGPUReadbackRequest_p_ == null)
 				{
-					r_RSetScriptingCallback_Action_d_AsyncGPUReadbackRequest_p_ = new(this, "SetScriptingCallback", 0, typeof(System.Action<>).MakeGenericType(typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest)));
-					r_RSetScriptingCallback_Action_d_AsyncGPUReadbackRequest_p_.SetBelong(this.instance);
+					r_SetScriptingCallback_Action_d_AsyncGPUReadbackRequest_p_ = new(this, "SetScriptingCallback", 0, typeof(System.Action<>).MakeGenericType(typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest)));
+					r_SetScriptingCallback_Action_d_AsyncGPUReadbackRequest_p_.SetBelong(this.instance);
 				}
-				return r_RSetScriptingCallback_Action_d_AsyncGPUReadbackRequest_p_;
+				return r_SetScriptingCallback_Action_d_AsyncGPUReadbackRequest_p_;
 			}
 		}
 
 		/// <summary>
 		/// IntPtr GetDataRaw(Int32)
 		/// </summary>
-		protected RMethod r_RGetDataRaw_Int32;
+		protected RMethod r_GetDataRaw_Int32;
 		public virtual RMethod RGetDataRaw_Int32
 		{
 			get
 			{
-				if(r_RGetDataRaw_Int32 == null)
+				if(r_GetDataRaw_Int32 == null)
 				{
-					r_RGetDataRaw_Int32 = new(this, "GetDataRaw", 0, typeof(System.Int32));
-					r_RGetDataRaw_Int32.SetBelong(this.instance);
+					r_GetDataRaw_Int32 = new(this, "GetDataRaw", 0, typeof(System.Int32));
+					r_GetDataRaw_Int32.SetBelong(this.instance);
 				}
-				return r_RGetDataRaw_Int32;
+				return r_GetDataRaw_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Void Update_Injected(UnityEngine.Rendering.AsyncGPUReadbackRequest ByRef)
 		/// </summary>
-		protected static RMethod r_RUpdate_Injected_Ref_AsyncGPUReadbackRequest;
+		protected static RMethod r_Update_Injected_Ref_AsyncGPUReadbackRequest;
 		public static RMethod RUpdate_Injected_Ref_AsyncGPUReadbackRequest
 		{
 			get
 			{
-				if(r_RUpdate_Injected_Ref_AsyncGPUReadbackRequest == null)
+				if(r_Update_Injected_Ref_AsyncGPUReadbackRequest == null)
 				{
-					r_RUpdate_Injected_Ref_AsyncGPUReadbackRequest = new(typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest), "Update_Injected", 0, typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest).MakeByRefType());
-					r_RUpdate_Injected_Ref_AsyncGPUReadbackRequest.SetBelong(null);
+					r_Update_Injected_Ref_AsyncGPUReadbackRequest = new(typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest), "Update_Injected", 0, typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest).MakeByRefType());
+					r_Update_Injected_Ref_AsyncGPUReadbackRequest.SetBelong(null);
 				}
-				return r_RUpdate_Injected_Ref_AsyncGPUReadbackRequest;
+				return r_Update_Injected_Ref_AsyncGPUReadbackRequest;
 			}
 		}
 
 		/// <summary>
 		/// Void WaitForCompletion_Injected(UnityEngine.Rendering.AsyncGPUReadbackRequest ByRef)
 		/// </summary>
-		protected static RMethod r_RWaitForCompletion_Injected_Ref_AsyncGPUReadbackRequest;
+		protected static RMethod r_WaitForCompletion_Injected_Ref_AsyncGPUReadbackRequest;
 		public static RMethod RWaitForCompletion_Injected_Ref_AsyncGPUReadbackRequest
 		{
 			get
 			{
-				if(r_RWaitForCompletion_Injected_Ref_AsyncGPUReadbackRequest == null)
+				if(r_WaitForCompletion_Injected_Ref_AsyncGPUReadbackRequest == null)
 				{
-					r_RWaitForCompletion_Injected_Ref_AsyncGPUReadbackRequest = new(typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest), "WaitForCompletion_Injected", 0, typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest).MakeByRefType());
-					r_RWaitForCompletion_Injected_Ref_AsyncGPUReadbackRequest.SetBelong(null);
+					r_WaitForCompletion_Injected_Ref_AsyncGPUReadbackRequest = new(typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest), "WaitForCompletion_Injected", 0, typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest).MakeByRefType());
+					r_WaitForCompletion_Injected_Ref_AsyncGPUReadbackRequest.SetBelong(null);
 				}
-				return r_RWaitForCompletion_Injected_Ref_AsyncGPUReadbackRequest;
+				return r_WaitForCompletion_Injected_Ref_AsyncGPUReadbackRequest;
 			}
 		}
 
 		/// <summary>
 		/// Boolean IsDone_Injected(UnityEngine.Rendering.AsyncGPUReadbackRequest ByRef)
 		/// </summary>
-		protected static RMethod r_RIsDone_Injected_Ref_AsyncGPUReadbackRequest;
+		protected static RMethod r_IsDone_Injected_Ref_AsyncGPUReadbackRequest;
 		public static RMethod RIsDone_Injected_Ref_AsyncGPUReadbackRequest
 		{
 			get
 			{
-				if(r_RIsDone_Injected_Ref_AsyncGPUReadbackRequest == null)
+				if(r_IsDone_Injected_Ref_AsyncGPUReadbackRequest == null)
 				{
-					r_RIsDone_Injected_Ref_AsyncGPUReadbackRequest = new(typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest), "IsDone_Injected", 0, typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest).MakeByRefType());
-					r_RIsDone_Injected_Ref_AsyncGPUReadbackRequest.SetBelong(null);
+					r_IsDone_Injected_Ref_AsyncGPUReadbackRequest = new(typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest), "IsDone_Injected", 0, typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest).MakeByRefType());
+					r_IsDone_Injected_Ref_AsyncGPUReadbackRequest.SetBelong(null);
 				}
-				return r_RIsDone_Injected_Ref_AsyncGPUReadbackRequest;
+				return r_IsDone_Injected_Ref_AsyncGPUReadbackRequest;
 			}
 		}
 
 		/// <summary>
 		/// Boolean HasError_Injected(UnityEngine.Rendering.AsyncGPUReadbackRequest ByRef)
 		/// </summary>
-		protected static RMethod r_RHasError_Injected_Ref_AsyncGPUReadbackRequest;
+		protected static RMethod r_HasError_Injected_Ref_AsyncGPUReadbackRequest;
 		public static RMethod RHasError_Injected_Ref_AsyncGPUReadbackRequest
 		{
 			get
 			{
-				if(r_RHasError_Injected_Ref_AsyncGPUReadbackRequest == null)
+				if(r_HasError_Injected_Ref_AsyncGPUReadbackRequest == null)
 				{
-					r_RHasError_Injected_Ref_AsyncGPUReadbackRequest = new(typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest), "HasError_Injected", 0, typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest).MakeByRefType());
-					r_RHasError_Injected_Ref_AsyncGPUReadbackRequest.SetBelong(null);
+					r_HasError_Injected_Ref_AsyncGPUReadbackRequest = new(typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest), "HasError_Injected", 0, typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest).MakeByRefType());
+					r_HasError_Injected_Ref_AsyncGPUReadbackRequest.SetBelong(null);
 				}
-				return r_RHasError_Injected_Ref_AsyncGPUReadbackRequest;
+				return r_HasError_Injected_Ref_AsyncGPUReadbackRequest;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetLayerCount_Injected(UnityEngine.Rendering.AsyncGPUReadbackRequest ByRef)
 		/// </summary>
-		protected static RMethod r_RGetLayerCount_Injected_Ref_AsyncGPUReadbackRequest;
+		protected static RMethod r_GetLayerCount_Injected_Ref_AsyncGPUReadbackRequest;
 		public static RMethod RGetLayerCount_Injected_Ref_AsyncGPUReadbackRequest
 		{
 			get
 			{
-				if(r_RGetLayerCount_Injected_Ref_AsyncGPUReadbackRequest == null)
+				if(r_GetLayerCount_Injected_Ref_AsyncGPUReadbackRequest == null)
 				{
-					r_RGetLayerCount_Injected_Ref_AsyncGPUReadbackRequest = new(typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest), "GetLayerCount_Injected", 0, typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest).MakeByRefType());
-					r_RGetLayerCount_Injected_Ref_AsyncGPUReadbackRequest.SetBelong(null);
+					r_GetLayerCount_Injected_Ref_AsyncGPUReadbackRequest = new(typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest), "GetLayerCount_Injected", 0, typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest).MakeByRefType());
+					r_GetLayerCount_Injected_Ref_AsyncGPUReadbackRequest.SetBelong(null);
 				}
-				return r_RGetLayerCount_Injected_Ref_AsyncGPUReadbackRequest;
+				return r_GetLayerCount_Injected_Ref_AsyncGPUReadbackRequest;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetLayerDataSize_Injected(UnityEngine.Rendering.AsyncGPUReadbackRequest ByRef)
 		/// </summary>
-		protected static RMethod r_RGetLayerDataSize_Injected_Ref_AsyncGPUReadbackRequest;
+		protected static RMethod r_GetLayerDataSize_Injected_Ref_AsyncGPUReadbackRequest;
 		public static RMethod RGetLayerDataSize_Injected_Ref_AsyncGPUReadbackRequest
 		{
 			get
 			{
-				if(r_RGetLayerDataSize_Injected_Ref_AsyncGPUReadbackRequest == null)
+				if(r_GetLayerDataSize_Injected_Ref_AsyncGPUReadbackRequest == null)
 				{
-					r_RGetLayerDataSize_Injected_Ref_AsyncGPUReadbackRequest = new(typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest), "GetLayerDataSize_Injected", 0, typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest).MakeByRefType());
-					r_RGetLayerDataSize_Injected_Ref_AsyncGPUReadbackRequest.SetBelong(null);
+					r_GetLayerDataSize_Injected_Ref_AsyncGPUReadbackRequest = new(typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest), "GetLayerDataSize_Injected", 0, typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest).MakeByRefType());
+					r_GetLayerDataSize_Injected_Ref_AsyncGPUReadbackRequest.SetBelong(null);
 				}
-				return r_RGetLayerDataSize_Injected_Ref_AsyncGPUReadbackRequest;
+				return r_GetLayerDataSize_Injected_Ref_AsyncGPUReadbackRequest;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetWidth_Injected(UnityEngine.Rendering.AsyncGPUReadbackRequest ByRef)
 		/// </summary>
-		protected static RMethod r_RGetWidth_Injected_Ref_AsyncGPUReadbackRequest;
+		protected static RMethod r_GetWidth_Injected_Ref_AsyncGPUReadbackRequest;
 		public static RMethod RGetWidth_Injected_Ref_AsyncGPUReadbackRequest
 		{
 			get
 			{
-				if(r_RGetWidth_Injected_Ref_AsyncGPUReadbackRequest == null)
+				if(r_GetWidth_Injected_Ref_AsyncGPUReadbackRequest == null)
 				{
-					r_RGetWidth_Injected_Ref_AsyncGPUReadbackRequest = new(typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest), "GetWidth_Injected", 0, typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest).MakeByRefType());
-					r_RGetWidth_Injected_Ref_AsyncGPUReadbackRequest.SetBelong(null);
+					r_GetWidth_Injected_Ref_AsyncGPUReadbackRequest = new(typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest), "GetWidth_Injected", 0, typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest).MakeByRefType());
+					r_GetWidth_Injected_Ref_AsyncGPUReadbackRequest.SetBelong(null);
 				}
-				return r_RGetWidth_Injected_Ref_AsyncGPUReadbackRequest;
+				return r_GetWidth_Injected_Ref_AsyncGPUReadbackRequest;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetHeight_Injected(UnityEngine.Rendering.AsyncGPUReadbackRequest ByRef)
 		/// </summary>
-		protected static RMethod r_RGetHeight_Injected_Ref_AsyncGPUReadbackRequest;
+		protected static RMethod r_GetHeight_Injected_Ref_AsyncGPUReadbackRequest;
 		public static RMethod RGetHeight_Injected_Ref_AsyncGPUReadbackRequest
 		{
 			get
 			{
-				if(r_RGetHeight_Injected_Ref_AsyncGPUReadbackRequest == null)
+				if(r_GetHeight_Injected_Ref_AsyncGPUReadbackRequest == null)
 				{
-					r_RGetHeight_Injected_Ref_AsyncGPUReadbackRequest = new(typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest), "GetHeight_Injected", 0, typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest).MakeByRefType());
-					r_RGetHeight_Injected_Ref_AsyncGPUReadbackRequest.SetBelong(null);
+					r_GetHeight_Injected_Ref_AsyncGPUReadbackRequest = new(typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest), "GetHeight_Injected", 0, typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest).MakeByRefType());
+					r_GetHeight_Injected_Ref_AsyncGPUReadbackRequest.SetBelong(null);
 				}
-				return r_RGetHeight_Injected_Ref_AsyncGPUReadbackRequest;
+				return r_GetHeight_Injected_Ref_AsyncGPUReadbackRequest;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetDepth_Injected(UnityEngine.Rendering.AsyncGPUReadbackRequest ByRef)
 		/// </summary>
-		protected static RMethod r_RGetDepth_Injected_Ref_AsyncGPUReadbackRequest;
+		protected static RMethod r_GetDepth_Injected_Ref_AsyncGPUReadbackRequest;
 		public static RMethod RGetDepth_Injected_Ref_AsyncGPUReadbackRequest
 		{
 			get
 			{
-				if(r_RGetDepth_Injected_Ref_AsyncGPUReadbackRequest == null)
+				if(r_GetDepth_Injected_Ref_AsyncGPUReadbackRequest == null)
 				{
-					r_RGetDepth_Injected_Ref_AsyncGPUReadbackRequest = new(typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest), "GetDepth_Injected", 0, typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest).MakeByRefType());
-					r_RGetDepth_Injected_Ref_AsyncGPUReadbackRequest.SetBelong(null);
+					r_GetDepth_Injected_Ref_AsyncGPUReadbackRequest = new(typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest), "GetDepth_Injected", 0, typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest).MakeByRefType());
+					r_GetDepth_Injected_Ref_AsyncGPUReadbackRequest.SetBelong(null);
 				}
-				return r_RGetDepth_Injected_Ref_AsyncGPUReadbackRequest;
+				return r_GetDepth_Injected_Ref_AsyncGPUReadbackRequest;
 			}
 		}
 
 		/// <summary>
 		/// Void CreateSafetyHandle_Injected(UnityEngine.Rendering.AsyncGPUReadbackRequest ByRef)
 		/// </summary>
-		protected static RMethod r_RCreateSafetyHandle_Injected_Ref_AsyncGPUReadbackRequest;
+		protected static RMethod r_CreateSafetyHandle_Injected_Ref_AsyncGPUReadbackRequest;
 		public static RMethod RCreateSafetyHandle_Injected_Ref_AsyncGPUReadbackRequest
 		{
 			get
 			{
-				if(r_RCreateSafetyHandle_Injected_Ref_AsyncGPUReadbackRequest == null)
+				if(r_CreateSafetyHandle_Injected_Ref_AsyncGPUReadbackRequest == null)
 				{
-					r_RCreateSafetyHandle_Injected_Ref_AsyncGPUReadbackRequest = new(typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest), "CreateSafetyHandle_Injected", 0, typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest).MakeByRefType());
-					r_RCreateSafetyHandle_Injected_Ref_AsyncGPUReadbackRequest.SetBelong(null);
+					r_CreateSafetyHandle_Injected_Ref_AsyncGPUReadbackRequest = new(typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest), "CreateSafetyHandle_Injected", 0, typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest).MakeByRefType());
+					r_CreateSafetyHandle_Injected_Ref_AsyncGPUReadbackRequest.SetBelong(null);
 				}
-				return r_RCreateSafetyHandle_Injected_Ref_AsyncGPUReadbackRequest;
+				return r_CreateSafetyHandle_Injected_Ref_AsyncGPUReadbackRequest;
 			}
 		}
 
 		/// <summary>
 		/// Void GetSafetyHandle_Injected(UnityEngine.Rendering.AsyncGPUReadbackRequest ByRef, Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle ByRef)
 		/// </summary>
-		protected static RMethod r_RGetSafetyHandle_Injected_Ref_AsyncGPUReadbackRequest_Out_AtomicSafetyHandle;
+		protected static RMethod r_GetSafetyHandle_Injected_Ref_AsyncGPUReadbackRequest_Out_AtomicSafetyHandle;
 		public static RMethod RGetSafetyHandle_Injected_Ref_AsyncGPUReadbackRequest_Out_AtomicSafetyHandle
 		{
 			get
 			{
-				if(r_RGetSafetyHandle_Injected_Ref_AsyncGPUReadbackRequest_Out_AtomicSafetyHandle == null)
+				if(r_GetSafetyHandle_Injected_Ref_AsyncGPUReadbackRequest_Out_AtomicSafetyHandle == null)
 				{
-					r_RGetSafetyHandle_Injected_Ref_AsyncGPUReadbackRequest_Out_AtomicSafetyHandle = new(typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest), "GetSafetyHandle_Injected", 0, typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest).MakeByRefType(), typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle).MakeByRefType());
-					r_RGetSafetyHandle_Injected_Ref_AsyncGPUReadbackRequest_Out_AtomicSafetyHandle.SetBelong(null);
+					r_GetSafetyHandle_Injected_Ref_AsyncGPUReadbackRequest_Out_AtomicSafetyHandle = new(typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest), "GetSafetyHandle_Injected", 0, typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest).MakeByRefType(), typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle).MakeByRefType());
+					r_GetSafetyHandle_Injected_Ref_AsyncGPUReadbackRequest_Out_AtomicSafetyHandle.SetBelong(null);
 				}
-				return r_RGetSafetyHandle_Injected_Ref_AsyncGPUReadbackRequest_Out_AtomicSafetyHandle;
+				return r_GetSafetyHandle_Injected_Ref_AsyncGPUReadbackRequest_Out_AtomicSafetyHandle;
 			}
 		}
 
 		/// <summary>
 		/// Void SetScriptingCallback_Injected(UnityEngine.Rendering.AsyncGPUReadbackRequest ByRef, System.Action`1[UnityEngine.Rendering.AsyncGPUReadbackRequest])
 		/// </summary>
-		protected static RMethod r_RSetScriptingCallback_Injected_Ref_AsyncGPUReadbackRequest_Action_d_AsyncGPUReadbackRequest_p_;
+		protected static RMethod r_SetScriptingCallback_Injected_Ref_AsyncGPUReadbackRequest_Action_d_AsyncGPUReadbackRequest_p_;
 		public static RMethod RSetScriptingCallback_Injected_Ref_AsyncGPUReadbackRequest_Action_d_AsyncGPUReadbackRequest_p_
 		{
 			get
 			{
-				if(r_RSetScriptingCallback_Injected_Ref_AsyncGPUReadbackRequest_Action_d_AsyncGPUReadbackRequest_p_ == null)
+				if(r_SetScriptingCallback_Injected_Ref_AsyncGPUReadbackRequest_Action_d_AsyncGPUReadbackRequest_p_ == null)
 				{
-					r_RSetScriptingCallback_Injected_Ref_AsyncGPUReadbackRequest_Action_d_AsyncGPUReadbackRequest_p_ = new(typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest), "SetScriptingCallback_Injected", 0, typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest).MakeByRefType(), typeof(System.Action<>).MakeGenericType(typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest)));
-					r_RSetScriptingCallback_Injected_Ref_AsyncGPUReadbackRequest_Action_d_AsyncGPUReadbackRequest_p_.SetBelong(null);
+					r_SetScriptingCallback_Injected_Ref_AsyncGPUReadbackRequest_Action_d_AsyncGPUReadbackRequest_p_ = new(typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest), "SetScriptingCallback_Injected", 0, typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest).MakeByRefType(), typeof(System.Action<>).MakeGenericType(typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest)));
+					r_SetScriptingCallback_Injected_Ref_AsyncGPUReadbackRequest_Action_d_AsyncGPUReadbackRequest_p_.SetBelong(null);
 				}
-				return r_RSetScriptingCallback_Injected_Ref_AsyncGPUReadbackRequest_Action_d_AsyncGPUReadbackRequest_p_;
+				return r_SetScriptingCallback_Injected_Ref_AsyncGPUReadbackRequest_Action_d_AsyncGPUReadbackRequest_p_;
 			}
 		}
 
 		/// <summary>
 		/// IntPtr GetDataRaw_Injected(UnityEngine.Rendering.AsyncGPUReadbackRequest ByRef, Int32)
 		/// </summary>
-		protected static RMethod r_RGetDataRaw_Injected_Ref_AsyncGPUReadbackRequest_Int32;
+		protected static RMethod r_GetDataRaw_Injected_Ref_AsyncGPUReadbackRequest_Int32;
 		public static RMethod RGetDataRaw_Injected_Ref_AsyncGPUReadbackRequest_Int32
 		{
 			get
 			{
-				if(r_RGetDataRaw_Injected_Ref_AsyncGPUReadbackRequest_Int32 == null)
+				if(r_GetDataRaw_Injected_Ref_AsyncGPUReadbackRequest_Int32 == null)
 				{
-					r_RGetDataRaw_Injected_Ref_AsyncGPUReadbackRequest_Int32 = new(typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest), "GetDataRaw_Injected", 0, typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest).MakeByRefType(), typeof(System.Int32));
-					r_RGetDataRaw_Injected_Ref_AsyncGPUReadbackRequest_Int32.SetBelong(null);
+					r_GetDataRaw_Injected_Ref_AsyncGPUReadbackRequest_Int32 = new(typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest), "GetDataRaw_Injected", 0, typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest).MakeByRefType(), typeof(System.Int32));
+					r_GetDataRaw_Injected_Ref_AsyncGPUReadbackRequest_Int32.SetBelong(null);
 				}
-				return r_RGetDataRaw_Injected_Ref_AsyncGPUReadbackRequest_Int32;
+				return r_GetDataRaw_Injected_Ref_AsyncGPUReadbackRequest_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Equals(System.Object)
 		/// </summary>
-		protected RMethod r_REquals_Object;
+		protected RMethod r_Equals_Object;
 		public virtual RMethod REquals_Object
 		{
 			get
 			{
-				if(r_REquals_Object == null)
+				if(r_Equals_Object == null)
 				{
-					r_REquals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_REquals_Object.SetBelong(this.instance);
+					r_Equals_Object = new(this, "Equals", 0, typeof(System.Object));
+					r_Equals_Object.SetBelong(this.instance);
 				}
-				return r_REquals_Object;
+				return r_Equals_Object;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetHashCode()
 		/// </summary>
-		protected RMethod r_RGetHashCode;
+		protected RMethod r_GetHashCode;
 		public virtual RMethod RGetHashCode
 		{
 			get
 			{
-				if(r_RGetHashCode == null)
+				if(r_GetHashCode == null)
 				{
-					r_RGetHashCode = new(this, "GetHashCode", 0);
-					r_RGetHashCode.SetBelong(this.instance);
+					r_GetHashCode = new(this, "GetHashCode", 0);
+					r_GetHashCode.SetBelong(this.instance);
 				}
-				return r_RGetHashCode;
+				return r_GetHashCode;
 			}
 		}
 
 		/// <summary>
 		/// System.String ToString()
 		/// </summary>
-		protected RMethod r_RToString;
+		protected RMethod r_ToString;
 		public virtual RMethod RToString
 		{
 			get
 			{
-				if(r_RToString == null)
+				if(r_ToString == null)
 				{
-					r_RToString = new(this, "ToString", 0);
-					r_RToString.SetBelong(this.instance);
+					r_ToString = new(this, "ToString", 0);
+					r_ToString.SetBelong(this.instance);
 				}
-				return r_RToString;
+				return r_ToString;
 			}
 		}
 
 		/// <summary>
 		/// Void Finalize()
 		/// </summary>
-		protected RMethod r_RFinalize;
+		protected RMethod r_Finalize;
 		public virtual RMethod RFinalize
 		{
 			get
 			{
-				if(r_RFinalize == null)
+				if(r_Finalize == null)
 				{
-					r_RFinalize = new(this, "Finalize", 0);
-					r_RFinalize.SetBelong(this.instance);
+					r_Finalize = new(this, "Finalize", 0);
+					r_Finalize.SetBelong(this.instance);
 				}
-				return r_RFinalize;
+				return r_Finalize;
 			}
 		}
 
 		/// <summary>
 		/// System.Type GetType()
 		/// </summary>
-		protected RMethod r_RGetType;
+		protected RMethod r_GetType;
 		public virtual RMethod RGetType
 		{
 			get
 			{
-				if(r_RGetType == null)
+				if(r_GetType == null)
 				{
-					r_RGetType = new(this, "GetType", 0);
-					r_RGetType.SetBelong(this.instance);
+					r_GetType = new(this, "GetType", 0);
+					r_GetType.SetBelong(this.instance);
 				}
-				return r_RGetType;
+				return r_GetType;
 			}
 		}
 
 		/// <summary>
 		/// System.Object MemberwiseClone()
 		/// </summary>
-		protected RMethod r_RMemberwiseClone;
+		protected RMethod r_MemberwiseClone;
 		public virtual RMethod RMemberwiseClone
 		{
 			get
 			{
-				if(r_RMemberwiseClone == null)
+				if(r_MemberwiseClone == null)
 				{
-					r_RMemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_RMemberwiseClone.SetBelong(this.instance);
+					r_MemberwiseClone = new(this, "MemberwiseClone", 0);
+					r_MemberwiseClone.SetBelong(this.instance);
 				}
-				return r_RMemberwiseClone;
+				return r_MemberwiseClone;
 			}
 		}
 

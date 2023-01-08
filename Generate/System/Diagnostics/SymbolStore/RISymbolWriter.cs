@@ -13,340 +13,340 @@ namespace SMFrame.Editor.Refleaction.RSystem.RDiagnostics.RSymbolStore
 		/// <summary>
 		/// Void Close()
 		/// </summary>
-		protected RMethod r_RClose;
+		protected RMethod r_Close;
 		public virtual RMethod RClose
 		{
 			get
 			{
-				if(r_RClose == null)
+				if(r_Close == null)
 				{
-					r_RClose = new(this, "Close", 0);
-					r_RClose.SetBelong(this.instance);
+					r_Close = new(this, "Close", 0);
+					r_Close.SetBelong(this.instance);
 				}
-				return r_RClose;
+				return r_Close;
 			}
 		}
 
 		/// <summary>
 		/// Void CloseMethod()
 		/// </summary>
-		protected RMethod r_RCloseMethod;
+		protected RMethod r_CloseMethod;
 		public virtual RMethod RCloseMethod
 		{
 			get
 			{
-				if(r_RCloseMethod == null)
+				if(r_CloseMethod == null)
 				{
-					r_RCloseMethod = new(this, "CloseMethod", 0);
-					r_RCloseMethod.SetBelong(this.instance);
+					r_CloseMethod = new(this, "CloseMethod", 0);
+					r_CloseMethod.SetBelong(this.instance);
 				}
-				return r_RCloseMethod;
+				return r_CloseMethod;
 			}
 		}
 
 		/// <summary>
 		/// Void CloseNamespace()
 		/// </summary>
-		protected RMethod r_RCloseNamespace;
+		protected RMethod r_CloseNamespace;
 		public virtual RMethod RCloseNamespace
 		{
 			get
 			{
-				if(r_RCloseNamespace == null)
+				if(r_CloseNamespace == null)
 				{
-					r_RCloseNamespace = new(this, "CloseNamespace", 0);
-					r_RCloseNamespace.SetBelong(this.instance);
+					r_CloseNamespace = new(this, "CloseNamespace", 0);
+					r_CloseNamespace.SetBelong(this.instance);
 				}
-				return r_RCloseNamespace;
+				return r_CloseNamespace;
 			}
 		}
 
 		/// <summary>
 		/// Void CloseScope(Int32)
 		/// </summary>
-		protected RMethod r_RCloseScope_Int32;
+		protected RMethod r_CloseScope_Int32;
 		public virtual RMethod RCloseScope_Int32
 		{
 			get
 			{
-				if(r_RCloseScope_Int32 == null)
+				if(r_CloseScope_Int32 == null)
 				{
-					r_RCloseScope_Int32 = new(this, "CloseScope", 0, typeof(System.Int32));
-					r_RCloseScope_Int32.SetBelong(this.instance);
+					r_CloseScope_Int32 = new(this, "CloseScope", 0, typeof(System.Int32));
+					r_CloseScope_Int32.SetBelong(this.instance);
 				}
-				return r_RCloseScope_Int32;
+				return r_CloseScope_Int32;
 			}
 		}
 
 		/// <summary>
 		/// System.Diagnostics.SymbolStore.ISymbolDocumentWriter DefineDocument(System.String, System.Guid, System.Guid, System.Guid)
 		/// </summary>
-		protected RMethod r_RDefineDocument_String_Guid_Guid_Guid;
+		protected RMethod r_DefineDocument_String_Guid_Guid_Guid;
 		public virtual RMethod RDefineDocument_String_Guid_Guid_Guid
 		{
 			get
 			{
-				if(r_RDefineDocument_String_Guid_Guid_Guid == null)
+				if(r_DefineDocument_String_Guid_Guid_Guid == null)
 				{
-					r_RDefineDocument_String_Guid_Guid_Guid = new(this, "DefineDocument", 0, typeof(System.String), typeof(System.Guid), typeof(System.Guid), typeof(System.Guid));
-					r_RDefineDocument_String_Guid_Guid_Guid.SetBelong(this.instance);
+					r_DefineDocument_String_Guid_Guid_Guid = new(this, "DefineDocument", 0, typeof(System.String), typeof(System.Guid), typeof(System.Guid), typeof(System.Guid));
+					r_DefineDocument_String_Guid_Guid_Guid.SetBelong(this.instance);
 				}
-				return r_RDefineDocument_String_Guid_Guid_Guid;
+				return r_DefineDocument_String_Guid_Guid_Guid;
 			}
 		}
 
 		/// <summary>
 		/// Void DefineField(System.Diagnostics.SymbolStore.SymbolToken, System.String, System.Reflection.FieldAttributes, Byte[], System.Diagnostics.SymbolStore.SymAddressKind, Int32, Int32, Int32)
 		/// </summary>
-		protected RMethod r_RDefineField_SymbolToken_String_FieldAttributes_ByteArray_SymAddressKind_Int32_Int32_Int32;
+		protected RMethod r_DefineField_SymbolToken_String_FieldAttributes_ByteArray_SymAddressKind_Int32_Int32_Int32;
 		public virtual RMethod RDefineField_SymbolToken_String_FieldAttributes_ByteArray_SymAddressKind_Int32_Int32_Int32
 		{
 			get
 			{
-				if(r_RDefineField_SymbolToken_String_FieldAttributes_ByteArray_SymAddressKind_Int32_Int32_Int32 == null)
+				if(r_DefineField_SymbolToken_String_FieldAttributes_ByteArray_SymAddressKind_Int32_Int32_Int32 == null)
 				{
-					r_RDefineField_SymbolToken_String_FieldAttributes_ByteArray_SymAddressKind_Int32_Int32_Int32 = new(this, "DefineField", 0, typeof(System.Diagnostics.SymbolStore.SymbolToken), typeof(System.String), typeof(System.Reflection.FieldAttributes), typeof(System.Byte).MakeArrayType(), typeof(System.Diagnostics.SymbolStore.SymAddressKind), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32));
-					r_RDefineField_SymbolToken_String_FieldAttributes_ByteArray_SymAddressKind_Int32_Int32_Int32.SetBelong(this.instance);
+					r_DefineField_SymbolToken_String_FieldAttributes_ByteArray_SymAddressKind_Int32_Int32_Int32 = new(this, "DefineField", 0, typeof(System.Diagnostics.SymbolStore.SymbolToken), typeof(System.String), typeof(System.Reflection.FieldAttributes), typeof(System.Byte).MakeArrayType(), typeof(System.Diagnostics.SymbolStore.SymAddressKind), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32));
+					r_DefineField_SymbolToken_String_FieldAttributes_ByteArray_SymAddressKind_Int32_Int32_Int32.SetBelong(this.instance);
 				}
-				return r_RDefineField_SymbolToken_String_FieldAttributes_ByteArray_SymAddressKind_Int32_Int32_Int32;
+				return r_DefineField_SymbolToken_String_FieldAttributes_ByteArray_SymAddressKind_Int32_Int32_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Void DefineGlobalVariable(System.String, System.Reflection.FieldAttributes, Byte[], System.Diagnostics.SymbolStore.SymAddressKind, Int32, Int32, Int32)
 		/// </summary>
-		protected RMethod r_RDefineGlobalVariable_String_FieldAttributes_ByteArray_SymAddressKind_Int32_Int32_Int32;
+		protected RMethod r_DefineGlobalVariable_String_FieldAttributes_ByteArray_SymAddressKind_Int32_Int32_Int32;
 		public virtual RMethod RDefineGlobalVariable_String_FieldAttributes_ByteArray_SymAddressKind_Int32_Int32_Int32
 		{
 			get
 			{
-				if(r_RDefineGlobalVariable_String_FieldAttributes_ByteArray_SymAddressKind_Int32_Int32_Int32 == null)
+				if(r_DefineGlobalVariable_String_FieldAttributes_ByteArray_SymAddressKind_Int32_Int32_Int32 == null)
 				{
-					r_RDefineGlobalVariable_String_FieldAttributes_ByteArray_SymAddressKind_Int32_Int32_Int32 = new(this, "DefineGlobalVariable", 0, typeof(System.String), typeof(System.Reflection.FieldAttributes), typeof(System.Byte).MakeArrayType(), typeof(System.Diagnostics.SymbolStore.SymAddressKind), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32));
-					r_RDefineGlobalVariable_String_FieldAttributes_ByteArray_SymAddressKind_Int32_Int32_Int32.SetBelong(this.instance);
+					r_DefineGlobalVariable_String_FieldAttributes_ByteArray_SymAddressKind_Int32_Int32_Int32 = new(this, "DefineGlobalVariable", 0, typeof(System.String), typeof(System.Reflection.FieldAttributes), typeof(System.Byte).MakeArrayType(), typeof(System.Diagnostics.SymbolStore.SymAddressKind), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32));
+					r_DefineGlobalVariable_String_FieldAttributes_ByteArray_SymAddressKind_Int32_Int32_Int32.SetBelong(this.instance);
 				}
-				return r_RDefineGlobalVariable_String_FieldAttributes_ByteArray_SymAddressKind_Int32_Int32_Int32;
+				return r_DefineGlobalVariable_String_FieldAttributes_ByteArray_SymAddressKind_Int32_Int32_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Void DefineLocalVariable(System.String, System.Reflection.FieldAttributes, Byte[], System.Diagnostics.SymbolStore.SymAddressKind, Int32, Int32, Int32, Int32, Int32)
 		/// </summary>
-		protected RMethod r_RDefineLocalVariable_String_FieldAttributes_ByteArray_SymAddressKind_Int32_Int32_Int32_Int32_Int32;
+		protected RMethod r_DefineLocalVariable_String_FieldAttributes_ByteArray_SymAddressKind_Int32_Int32_Int32_Int32_Int32;
 		public virtual RMethod RDefineLocalVariable_String_FieldAttributes_ByteArray_SymAddressKind_Int32_Int32_Int32_Int32_Int32
 		{
 			get
 			{
-				if(r_RDefineLocalVariable_String_FieldAttributes_ByteArray_SymAddressKind_Int32_Int32_Int32_Int32_Int32 == null)
+				if(r_DefineLocalVariable_String_FieldAttributes_ByteArray_SymAddressKind_Int32_Int32_Int32_Int32_Int32 == null)
 				{
-					r_RDefineLocalVariable_String_FieldAttributes_ByteArray_SymAddressKind_Int32_Int32_Int32_Int32_Int32 = new(this, "DefineLocalVariable", 0, typeof(System.String), typeof(System.Reflection.FieldAttributes), typeof(System.Byte).MakeArrayType(), typeof(System.Diagnostics.SymbolStore.SymAddressKind), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32));
-					r_RDefineLocalVariable_String_FieldAttributes_ByteArray_SymAddressKind_Int32_Int32_Int32_Int32_Int32.SetBelong(this.instance);
+					r_DefineLocalVariable_String_FieldAttributes_ByteArray_SymAddressKind_Int32_Int32_Int32_Int32_Int32 = new(this, "DefineLocalVariable", 0, typeof(System.String), typeof(System.Reflection.FieldAttributes), typeof(System.Byte).MakeArrayType(), typeof(System.Diagnostics.SymbolStore.SymAddressKind), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32));
+					r_DefineLocalVariable_String_FieldAttributes_ByteArray_SymAddressKind_Int32_Int32_Int32_Int32_Int32.SetBelong(this.instance);
 				}
-				return r_RDefineLocalVariable_String_FieldAttributes_ByteArray_SymAddressKind_Int32_Int32_Int32_Int32_Int32;
+				return r_DefineLocalVariable_String_FieldAttributes_ByteArray_SymAddressKind_Int32_Int32_Int32_Int32_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Void DefineParameter(System.String, System.Reflection.ParameterAttributes, Int32, System.Diagnostics.SymbolStore.SymAddressKind, Int32, Int32, Int32)
 		/// </summary>
-		protected RMethod r_RDefineParameter_String_ParameterAttributes_Int32_SymAddressKind_Int32_Int32_Int32;
+		protected RMethod r_DefineParameter_String_ParameterAttributes_Int32_SymAddressKind_Int32_Int32_Int32;
 		public virtual RMethod RDefineParameter_String_ParameterAttributes_Int32_SymAddressKind_Int32_Int32_Int32
 		{
 			get
 			{
-				if(r_RDefineParameter_String_ParameterAttributes_Int32_SymAddressKind_Int32_Int32_Int32 == null)
+				if(r_DefineParameter_String_ParameterAttributes_Int32_SymAddressKind_Int32_Int32_Int32 == null)
 				{
-					r_RDefineParameter_String_ParameterAttributes_Int32_SymAddressKind_Int32_Int32_Int32 = new(this, "DefineParameter", 0, typeof(System.String), typeof(System.Reflection.ParameterAttributes), typeof(System.Int32), typeof(System.Diagnostics.SymbolStore.SymAddressKind), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32));
-					r_RDefineParameter_String_ParameterAttributes_Int32_SymAddressKind_Int32_Int32_Int32.SetBelong(this.instance);
+					r_DefineParameter_String_ParameterAttributes_Int32_SymAddressKind_Int32_Int32_Int32 = new(this, "DefineParameter", 0, typeof(System.String), typeof(System.Reflection.ParameterAttributes), typeof(System.Int32), typeof(System.Diagnostics.SymbolStore.SymAddressKind), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32));
+					r_DefineParameter_String_ParameterAttributes_Int32_SymAddressKind_Int32_Int32_Int32.SetBelong(this.instance);
 				}
-				return r_RDefineParameter_String_ParameterAttributes_Int32_SymAddressKind_Int32_Int32_Int32;
+				return r_DefineParameter_String_ParameterAttributes_Int32_SymAddressKind_Int32_Int32_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Void DefineSequencePoints(System.Diagnostics.SymbolStore.ISymbolDocumentWriter, Int32[], Int32[], Int32[], Int32[], Int32[])
 		/// </summary>
-		protected RMethod r_RDefineSequencePoints_ISymbolDocumentWriter_Int32Array_Int32Array_Int32Array_Int32Array_Int32Array;
+		protected RMethod r_DefineSequencePoints_ISymbolDocumentWriter_Int32Array_Int32Array_Int32Array_Int32Array_Int32Array;
 		public virtual RMethod RDefineSequencePoints_ISymbolDocumentWriter_Int32Array_Int32Array_Int32Array_Int32Array_Int32Array
 		{
 			get
 			{
-				if(r_RDefineSequencePoints_ISymbolDocumentWriter_Int32Array_Int32Array_Int32Array_Int32Array_Int32Array == null)
+				if(r_DefineSequencePoints_ISymbolDocumentWriter_Int32Array_Int32Array_Int32Array_Int32Array_Int32Array == null)
 				{
-					r_RDefineSequencePoints_ISymbolDocumentWriter_Int32Array_Int32Array_Int32Array_Int32Array_Int32Array = new(this, "DefineSequencePoints", 0, typeof(System.Diagnostics.SymbolStore.ISymbolDocumentWriter), typeof(System.Int32).MakeArrayType(), typeof(System.Int32).MakeArrayType(), typeof(System.Int32).MakeArrayType(), typeof(System.Int32).MakeArrayType(), typeof(System.Int32).MakeArrayType());
-					r_RDefineSequencePoints_ISymbolDocumentWriter_Int32Array_Int32Array_Int32Array_Int32Array_Int32Array.SetBelong(this.instance);
+					r_DefineSequencePoints_ISymbolDocumentWriter_Int32Array_Int32Array_Int32Array_Int32Array_Int32Array = new(this, "DefineSequencePoints", 0, typeof(System.Diagnostics.SymbolStore.ISymbolDocumentWriter), typeof(System.Int32).MakeArrayType(), typeof(System.Int32).MakeArrayType(), typeof(System.Int32).MakeArrayType(), typeof(System.Int32).MakeArrayType(), typeof(System.Int32).MakeArrayType());
+					r_DefineSequencePoints_ISymbolDocumentWriter_Int32Array_Int32Array_Int32Array_Int32Array_Int32Array.SetBelong(this.instance);
 				}
-				return r_RDefineSequencePoints_ISymbolDocumentWriter_Int32Array_Int32Array_Int32Array_Int32Array_Int32Array;
+				return r_DefineSequencePoints_ISymbolDocumentWriter_Int32Array_Int32Array_Int32Array_Int32Array_Int32Array;
 			}
 		}
 
 		/// <summary>
 		/// Void Initialize(IntPtr, System.String, Boolean)
 		/// </summary>
-		protected RMethod r_RInitialize_IntPtr_String_Boolean;
+		protected RMethod r_Initialize_IntPtr_String_Boolean;
 		public virtual RMethod RInitialize_IntPtr_String_Boolean
 		{
 			get
 			{
-				if(r_RInitialize_IntPtr_String_Boolean == null)
+				if(r_Initialize_IntPtr_String_Boolean == null)
 				{
-					r_RInitialize_IntPtr_String_Boolean = new(this, "Initialize", 0, typeof(System.IntPtr), typeof(System.String), typeof(System.Boolean));
-					r_RInitialize_IntPtr_String_Boolean.SetBelong(this.instance);
+					r_Initialize_IntPtr_String_Boolean = new(this, "Initialize", 0, typeof(System.IntPtr), typeof(System.String), typeof(System.Boolean));
+					r_Initialize_IntPtr_String_Boolean.SetBelong(this.instance);
 				}
-				return r_RInitialize_IntPtr_String_Boolean;
+				return r_Initialize_IntPtr_String_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Void OpenMethod(System.Diagnostics.SymbolStore.SymbolToken)
 		/// </summary>
-		protected RMethod r_ROpenMethod_SymbolToken;
+		protected RMethod r_OpenMethod_SymbolToken;
 		public virtual RMethod ROpenMethod_SymbolToken
 		{
 			get
 			{
-				if(r_ROpenMethod_SymbolToken == null)
+				if(r_OpenMethod_SymbolToken == null)
 				{
-					r_ROpenMethod_SymbolToken = new(this, "OpenMethod", 0, typeof(System.Diagnostics.SymbolStore.SymbolToken));
-					r_ROpenMethod_SymbolToken.SetBelong(this.instance);
+					r_OpenMethod_SymbolToken = new(this, "OpenMethod", 0, typeof(System.Diagnostics.SymbolStore.SymbolToken));
+					r_OpenMethod_SymbolToken.SetBelong(this.instance);
 				}
-				return r_ROpenMethod_SymbolToken;
+				return r_OpenMethod_SymbolToken;
 			}
 		}
 
 		/// <summary>
 		/// Void OpenNamespace(System.String)
 		/// </summary>
-		protected RMethod r_ROpenNamespace_String;
+		protected RMethod r_OpenNamespace_String;
 		public virtual RMethod ROpenNamespace_String
 		{
 			get
 			{
-				if(r_ROpenNamespace_String == null)
+				if(r_OpenNamespace_String == null)
 				{
-					r_ROpenNamespace_String = new(this, "OpenNamespace", 0, typeof(System.String));
-					r_ROpenNamespace_String.SetBelong(this.instance);
+					r_OpenNamespace_String = new(this, "OpenNamespace", 0, typeof(System.String));
+					r_OpenNamespace_String.SetBelong(this.instance);
 				}
-				return r_ROpenNamespace_String;
+				return r_OpenNamespace_String;
 			}
 		}
 
 		/// <summary>
 		/// Int32 OpenScope(Int32)
 		/// </summary>
-		protected RMethod r_ROpenScope_Int32;
+		protected RMethod r_OpenScope_Int32;
 		public virtual RMethod ROpenScope_Int32
 		{
 			get
 			{
-				if(r_ROpenScope_Int32 == null)
+				if(r_OpenScope_Int32 == null)
 				{
-					r_ROpenScope_Int32 = new(this, "OpenScope", 0, typeof(System.Int32));
-					r_ROpenScope_Int32.SetBelong(this.instance);
+					r_OpenScope_Int32 = new(this, "OpenScope", 0, typeof(System.Int32));
+					r_OpenScope_Int32.SetBelong(this.instance);
 				}
-				return r_ROpenScope_Int32;
+				return r_OpenScope_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Void SetMethodSourceRange(System.Diagnostics.SymbolStore.ISymbolDocumentWriter, Int32, Int32, System.Diagnostics.SymbolStore.ISymbolDocumentWriter, Int32, Int32)
 		/// </summary>
-		protected RMethod r_RSetMethodSourceRange_ISymbolDocumentWriter_Int32_Int32_ISymbolDocumentWriter_Int32_Int32;
+		protected RMethod r_SetMethodSourceRange_ISymbolDocumentWriter_Int32_Int32_ISymbolDocumentWriter_Int32_Int32;
 		public virtual RMethod RSetMethodSourceRange_ISymbolDocumentWriter_Int32_Int32_ISymbolDocumentWriter_Int32_Int32
 		{
 			get
 			{
-				if(r_RSetMethodSourceRange_ISymbolDocumentWriter_Int32_Int32_ISymbolDocumentWriter_Int32_Int32 == null)
+				if(r_SetMethodSourceRange_ISymbolDocumentWriter_Int32_Int32_ISymbolDocumentWriter_Int32_Int32 == null)
 				{
-					r_RSetMethodSourceRange_ISymbolDocumentWriter_Int32_Int32_ISymbolDocumentWriter_Int32_Int32 = new(this, "SetMethodSourceRange", 0, typeof(System.Diagnostics.SymbolStore.ISymbolDocumentWriter), typeof(System.Int32), typeof(System.Int32), typeof(System.Diagnostics.SymbolStore.ISymbolDocumentWriter), typeof(System.Int32), typeof(System.Int32));
-					r_RSetMethodSourceRange_ISymbolDocumentWriter_Int32_Int32_ISymbolDocumentWriter_Int32_Int32.SetBelong(this.instance);
+					r_SetMethodSourceRange_ISymbolDocumentWriter_Int32_Int32_ISymbolDocumentWriter_Int32_Int32 = new(this, "SetMethodSourceRange", 0, typeof(System.Diagnostics.SymbolStore.ISymbolDocumentWriter), typeof(System.Int32), typeof(System.Int32), typeof(System.Diagnostics.SymbolStore.ISymbolDocumentWriter), typeof(System.Int32), typeof(System.Int32));
+					r_SetMethodSourceRange_ISymbolDocumentWriter_Int32_Int32_ISymbolDocumentWriter_Int32_Int32.SetBelong(this.instance);
 				}
-				return r_RSetMethodSourceRange_ISymbolDocumentWriter_Int32_Int32_ISymbolDocumentWriter_Int32_Int32;
+				return r_SetMethodSourceRange_ISymbolDocumentWriter_Int32_Int32_ISymbolDocumentWriter_Int32_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Void SetScopeRange(Int32, Int32, Int32)
 		/// </summary>
-		protected RMethod r_RSetScopeRange_Int32_Int32_Int32;
+		protected RMethod r_SetScopeRange_Int32_Int32_Int32;
 		public virtual RMethod RSetScopeRange_Int32_Int32_Int32
 		{
 			get
 			{
-				if(r_RSetScopeRange_Int32_Int32_Int32 == null)
+				if(r_SetScopeRange_Int32_Int32_Int32 == null)
 				{
-					r_RSetScopeRange_Int32_Int32_Int32 = new(this, "SetScopeRange", 0, typeof(System.Int32), typeof(System.Int32), typeof(System.Int32));
-					r_RSetScopeRange_Int32_Int32_Int32.SetBelong(this.instance);
+					r_SetScopeRange_Int32_Int32_Int32 = new(this, "SetScopeRange", 0, typeof(System.Int32), typeof(System.Int32), typeof(System.Int32));
+					r_SetScopeRange_Int32_Int32_Int32.SetBelong(this.instance);
 				}
-				return r_RSetScopeRange_Int32_Int32_Int32;
+				return r_SetScopeRange_Int32_Int32_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Void SetSymAttribute(System.Diagnostics.SymbolStore.SymbolToken, System.String, Byte[])
 		/// </summary>
-		protected RMethod r_RSetSymAttribute_SymbolToken_String_ByteArray;
+		protected RMethod r_SetSymAttribute_SymbolToken_String_ByteArray;
 		public virtual RMethod RSetSymAttribute_SymbolToken_String_ByteArray
 		{
 			get
 			{
-				if(r_RSetSymAttribute_SymbolToken_String_ByteArray == null)
+				if(r_SetSymAttribute_SymbolToken_String_ByteArray == null)
 				{
-					r_RSetSymAttribute_SymbolToken_String_ByteArray = new(this, "SetSymAttribute", 0, typeof(System.Diagnostics.SymbolStore.SymbolToken), typeof(System.String), typeof(System.Byte).MakeArrayType());
-					r_RSetSymAttribute_SymbolToken_String_ByteArray.SetBelong(this.instance);
+					r_SetSymAttribute_SymbolToken_String_ByteArray = new(this, "SetSymAttribute", 0, typeof(System.Diagnostics.SymbolStore.SymbolToken), typeof(System.String), typeof(System.Byte).MakeArrayType());
+					r_SetSymAttribute_SymbolToken_String_ByteArray.SetBelong(this.instance);
 				}
-				return r_RSetSymAttribute_SymbolToken_String_ByteArray;
+				return r_SetSymAttribute_SymbolToken_String_ByteArray;
 			}
 		}
 
 		/// <summary>
 		/// Void SetUnderlyingWriter(IntPtr)
 		/// </summary>
-		protected RMethod r_RSetUnderlyingWriter_IntPtr;
+		protected RMethod r_SetUnderlyingWriter_IntPtr;
 		public virtual RMethod RSetUnderlyingWriter_IntPtr
 		{
 			get
 			{
-				if(r_RSetUnderlyingWriter_IntPtr == null)
+				if(r_SetUnderlyingWriter_IntPtr == null)
 				{
-					r_RSetUnderlyingWriter_IntPtr = new(this, "SetUnderlyingWriter", 0, typeof(System.IntPtr));
-					r_RSetUnderlyingWriter_IntPtr.SetBelong(this.instance);
+					r_SetUnderlyingWriter_IntPtr = new(this, "SetUnderlyingWriter", 0, typeof(System.IntPtr));
+					r_SetUnderlyingWriter_IntPtr.SetBelong(this.instance);
 				}
-				return r_RSetUnderlyingWriter_IntPtr;
+				return r_SetUnderlyingWriter_IntPtr;
 			}
 		}
 
 		/// <summary>
 		/// Void SetUserEntryPoint(System.Diagnostics.SymbolStore.SymbolToken)
 		/// </summary>
-		protected RMethod r_RSetUserEntryPoint_SymbolToken;
+		protected RMethod r_SetUserEntryPoint_SymbolToken;
 		public virtual RMethod RSetUserEntryPoint_SymbolToken
 		{
 			get
 			{
-				if(r_RSetUserEntryPoint_SymbolToken == null)
+				if(r_SetUserEntryPoint_SymbolToken == null)
 				{
-					r_RSetUserEntryPoint_SymbolToken = new(this, "SetUserEntryPoint", 0, typeof(System.Diagnostics.SymbolStore.SymbolToken));
-					r_RSetUserEntryPoint_SymbolToken.SetBelong(this.instance);
+					r_SetUserEntryPoint_SymbolToken = new(this, "SetUserEntryPoint", 0, typeof(System.Diagnostics.SymbolStore.SymbolToken));
+					r_SetUserEntryPoint_SymbolToken.SetBelong(this.instance);
 				}
-				return r_RSetUserEntryPoint_SymbolToken;
+				return r_SetUserEntryPoint_SymbolToken;
 			}
 		}
 
 		/// <summary>
 		/// Void UsingNamespace(System.String)
 		/// </summary>
-		protected RMethod r_RUsingNamespace_String;
+		protected RMethod r_UsingNamespace_String;
 		public virtual RMethod RUsingNamespace_String
 		{
 			get
 			{
-				if(r_RUsingNamespace_String == null)
+				if(r_UsingNamespace_String == null)
 				{
-					r_RUsingNamespace_String = new(this, "UsingNamespace", 0, typeof(System.String));
-					r_RUsingNamespace_String.SetBelong(this.instance);
+					r_UsingNamespace_String = new(this, "UsingNamespace", 0, typeof(System.String));
+					r_UsingNamespace_String.SetBelong(this.instance);
 				}
-				return r_RUsingNamespace_String;
+				return r_UsingNamespace_String;
 			}
 		}
 

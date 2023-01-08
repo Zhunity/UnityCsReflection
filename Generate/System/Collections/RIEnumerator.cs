@@ -30,34 +30,34 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections
 		/// <summary>
 		/// Boolean MoveNext()
 		/// </summary>
-		protected RMethod r_RMoveNext;
+		protected RMethod r_MoveNext;
 		public virtual RMethod RMoveNext
 		{
 			get
 			{
-				if(r_RMoveNext == null)
+				if(r_MoveNext == null)
 				{
-					r_RMoveNext = new(this, "MoveNext", 0);
-					r_RMoveNext.SetBelong(this.instance);
+					r_MoveNext = new(this, "MoveNext", 0);
+					r_MoveNext.SetBelong(this.instance);
 				}
-				return r_RMoveNext;
+				return r_MoveNext;
 			}
 		}
 
 		/// <summary>
 		/// Void Reset()
 		/// </summary>
-		protected RMethod r_RReset;
+		protected RMethod r_Reset;
 		public virtual RMethod RReset
 		{
 			get
 			{
-				if(r_RReset == null)
+				if(r_Reset == null)
 				{
-					r_RReset = new(this, "Reset", 0);
-					r_RReset.SetBelong(this.instance);
+					r_Reset = new(this, "Reset", 0);
+					r_Reset.SetBelong(this.instance);
 				}
-				return r_RReset;
+				return r_Reset;
 			}
 		}
 

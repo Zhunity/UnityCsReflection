@@ -13,17 +13,17 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Object GetFormat(System.Type)
 		/// </summary>
-		protected RMethod r_RGetFormat_Type;
+		protected RMethod r_GetFormat_Type;
 		public virtual RMethod RGetFormat_Type
 		{
 			get
 			{
-				if(r_RGetFormat_Type == null)
+				if(r_GetFormat_Type == null)
 				{
-					r_RGetFormat_Type = new(this, "GetFormat", 0, typeof(System.Type));
-					r_RGetFormat_Type.SetBelong(this.instance);
+					r_GetFormat_Type = new(this, "GetFormat", 0, typeof(System.Type));
+					r_GetFormat_Type.SetBelong(this.instance);
 				}
-				return r_RGetFormat_Type;
+				return r_GetFormat_Type;
 			}
 		}
 

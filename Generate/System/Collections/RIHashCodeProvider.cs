@@ -13,17 +13,17 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections
 		/// <summary>
 		/// Int32 GetHashCode(System.Object)
 		/// </summary>
-		protected RMethod r_RGetHashCode_Object;
+		protected RMethod r_GetHashCode_Object;
 		public virtual RMethod RGetHashCode_Object
 		{
 			get
 			{
-				if(r_RGetHashCode_Object == null)
+				if(r_GetHashCode_Object == null)
 				{
-					r_RGetHashCode_Object = new(this, "GetHashCode", 0, typeof(System.Object));
-					r_RGetHashCode_Object.SetBelong(this.instance);
+					r_GetHashCode_Object = new(this, "GetHashCode", 0, typeof(System.Object));
+					r_GetHashCode_Object.SetBelong(this.instance);
 				}
-				return r_RGetHashCode_Object;
+				return r_GetHashCode_Object;
 			}
 		}
 

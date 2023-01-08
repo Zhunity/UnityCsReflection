@@ -30,34 +30,34 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
 		/// <summary>
 		/// System.Runtime.Remoting.Messaging.IMessage SyncProcessMessage(System.Runtime.Remoting.Messaging.IMessage)
 		/// </summary>
-		protected RMethod r_RSyncProcessMessage_IMessage;
+		protected RMethod r_SyncProcessMessage_IMessage;
 		public virtual RMethod RSyncProcessMessage_IMessage
 		{
 			get
 			{
-				if(r_RSyncProcessMessage_IMessage == null)
+				if(r_SyncProcessMessage_IMessage == null)
 				{
-					r_RSyncProcessMessage_IMessage = new(this, "SyncProcessMessage", 0, typeof(System.Runtime.Remoting.Messaging.IMessage));
-					r_RSyncProcessMessage_IMessage.SetBelong(this.instance);
+					r_SyncProcessMessage_IMessage = new(this, "SyncProcessMessage", 0, typeof(System.Runtime.Remoting.Messaging.IMessage));
+					r_SyncProcessMessage_IMessage.SetBelong(this.instance);
 				}
-				return r_RSyncProcessMessage_IMessage;
+				return r_SyncProcessMessage_IMessage;
 			}
 		}
 
 		/// <summary>
 		/// System.Runtime.Remoting.Messaging.IMessageCtrl AsyncProcessMessage(System.Runtime.Remoting.Messaging.IMessage, System.Runtime.Remoting.Messaging.IMessageSink)
 		/// </summary>
-		protected RMethod r_RAsyncProcessMessage_IMessage_IMessageSink;
+		protected RMethod r_AsyncProcessMessage_IMessage_IMessageSink;
 		public virtual RMethod RAsyncProcessMessage_IMessage_IMessageSink
 		{
 			get
 			{
-				if(r_RAsyncProcessMessage_IMessage_IMessageSink == null)
+				if(r_AsyncProcessMessage_IMessage_IMessageSink == null)
 				{
-					r_RAsyncProcessMessage_IMessage_IMessageSink = new(this, "AsyncProcessMessage", 0, typeof(System.Runtime.Remoting.Messaging.IMessage), typeof(System.Runtime.Remoting.Messaging.IMessageSink));
-					r_RAsyncProcessMessage_IMessage_IMessageSink.SetBelong(this.instance);
+					r_AsyncProcessMessage_IMessage_IMessageSink = new(this, "AsyncProcessMessage", 0, typeof(System.Runtime.Remoting.Messaging.IMessage), typeof(System.Runtime.Remoting.Messaging.IMessageSink));
+					r_AsyncProcessMessage_IMessage_IMessageSink.SetBelong(this.instance);
 				}
-				return r_RAsyncProcessMessage_IMessage_IMessageSink;
+				return r_AsyncProcessMessage_IMessage_IMessageSink;
 			}
 		}
 

@@ -98,17 +98,17 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Boolean <showGenericMenu>k__BackingField
 		/// </summary>
-		protected RField r___1__showGenericMenu__2__k__BackingField;
-		public virtual RField R__1__showGenericMenu__2__k__BackingField
+		protected RField r___0__showGenericMenu__1__k__BackingField;
+		public virtual RField R__0__showGenericMenu__1__k__BackingField
 		{
 			get
 			{
-				if(r___1__showGenericMenu__2__k__BackingField == null)
+				if(r___0__showGenericMenu__1__k__BackingField == null)
 				{
-					r___1__showGenericMenu__2__k__BackingField = new(this, "<showGenericMenu>k__BackingField");
-					r___1__showGenericMenu__2__k__BackingField.SetBelong(this.instance);
+					r___0__showGenericMenu__1__k__BackingField = new(this, "<showGenericMenu>k__BackingField");
+					r___0__showGenericMenu__1__k__BackingField.SetBelong(this.instance);
 				}
-				return r___1__showGenericMenu__2__k__BackingField;
+				return r___0__showGenericMenu__1__k__BackingField;
 			}
 		}
 
@@ -370,17 +370,17 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Action <UnityEditor.IEditorWindowModel.onSplitterGUIHandler>k__BackingField
 		/// </summary>
-		protected RSystem.RAction r___1__UnityEditor__0__IEditorWindowModel__0__onSplitterGUIHandler__2__k__BackingField;
-		public virtual RSystem.RAction R__1__UnityEditor__0__IEditorWindowModel__0__onSplitterGUIHandler__2__k__BackingField
+		protected RSystem.RAction r___0__UnityEditor__2__IEditorWindowModel__2__onSplitterGUIHandler__1__k__BackingField;
+		public virtual RSystem.RAction R__0__UnityEditor__2__IEditorWindowModel__2__onSplitterGUIHandler__1__k__BackingField
 		{
 			get
 			{
-				if(r___1__UnityEditor__0__IEditorWindowModel__0__onSplitterGUIHandler__2__k__BackingField == null)
+				if(r___0__UnityEditor__2__IEditorWindowModel__2__onSplitterGUIHandler__1__k__BackingField == null)
 				{
-					r___1__UnityEditor__0__IEditorWindowModel__0__onSplitterGUIHandler__2__k__BackingField = new(this, "<UnityEditor.IEditorWindowModel.onSplitterGUIHandler>k__BackingField");
-					r___1__UnityEditor__0__IEditorWindowModel__0__onSplitterGUIHandler__2__k__BackingField.SetBelong(this.instance);
+					r___0__UnityEditor__2__IEditorWindowModel__2__onSplitterGUIHandler__1__k__BackingField = new(this, "<UnityEditor.IEditorWindowModel.onSplitterGUIHandler>k__BackingField");
+					r___0__UnityEditor__2__IEditorWindowModel__2__onSplitterGUIHandler__1__k__BackingField.SetBelong(this.instance);
 				}
-				return r___1__UnityEditor__0__IEditorWindowModel__0__onSplitterGUIHandler__2__k__BackingField;
+				return r___0__UnityEditor__2__IEditorWindowModel__2__onSplitterGUIHandler__1__k__BackingField;
 			}
 		}
 
@@ -608,51 +608,51 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEngine.RectOffset UnityEditor.IEditorWindowModel.viewMargins
 		/// </summary>
-		protected RUnityEngine.RRectOffset r_RUnityEditor__0__IEditorWindowModel__0__get_viewMargins;
-		public virtual RUnityEngine.RRectOffset RUnityEditor__0__IEditorWindowModel__0__get_viewMargins
+		protected RUnityEngine.RRectOffset r_UnityEditor__2__IEditorWindowModel__2__viewMargins;
+		public virtual RUnityEngine.RRectOffset RUnityEditor__2__IEditorWindowModel__2__viewMargins
 		{
 			get
 			{
-				if(r_RUnityEditor__0__IEditorWindowModel__0__get_viewMargins == null)
+				if(r_UnityEditor__2__IEditorWindowModel__2__viewMargins == null)
 				{
-					r_RUnityEditor__0__IEditorWindowModel__0__get_viewMargins = new(this, "UnityEditor.IEditorWindowModel.viewMargins", -1);
-					r_RUnityEditor__0__IEditorWindowModel__0__get_viewMargins.SetBelong(this.instance);
+					r_UnityEditor__2__IEditorWindowModel__2__viewMargins = new(this, "UnityEditor.IEditorWindowModel.viewMargins", -1);
+					r_UnityEditor__2__IEditorWindowModel__2__viewMargins.SetBelong(this.instance);
 				}
-				return r_RUnityEditor__0__IEditorWindowModel__0__get_viewMargins;
+				return r_UnityEditor__2__IEditorWindowModel__2__viewMargins;
 			}
 		}
 
 		/// <summary>
 		/// System.Action UnityEditor.IEditorWindowModel.onSplitterGUIHandler
 		/// </summary>
-		protected RSystem.RAction r_RUnityEditor__0__IEditorWindowModel__0__get_onSplitterGUIHandler;
-		public virtual RSystem.RAction RUnityEditor__0__IEditorWindowModel__0__get_onSplitterGUIHandler
+		protected RSystem.RAction r_UnityEditor__2__IEditorWindowModel__2__onSplitterGUIHandler;
+		public virtual RSystem.RAction RUnityEditor__2__IEditorWindowModel__2__onSplitterGUIHandler
 		{
 			get
 			{
-				if(r_RUnityEditor__0__IEditorWindowModel__0__get_onSplitterGUIHandler == null)
+				if(r_UnityEditor__2__IEditorWindowModel__2__onSplitterGUIHandler == null)
 				{
-					r_RUnityEditor__0__IEditorWindowModel__0__get_onSplitterGUIHandler = new(this, "UnityEditor.IEditorWindowModel.onSplitterGUIHandler", -1);
-					r_RUnityEditor__0__IEditorWindowModel__0__get_onSplitterGUIHandler.SetBelong(this.instance);
+					r_UnityEditor__2__IEditorWindowModel__2__onSplitterGUIHandler = new(this, "UnityEditor.IEditorWindowModel.onSplitterGUIHandler", -1);
+					r_UnityEditor__2__IEditorWindowModel__2__onSplitterGUIHandler.SetBelong(this.instance);
 				}
-				return r_RUnityEditor__0__IEditorWindowModel__0__get_onSplitterGUIHandler;
+				return r_UnityEditor__2__IEditorWindowModel__2__onSplitterGUIHandler;
 			}
 		}
 
 		/// <summary>
 		/// UnityEditor.EditorWindow UnityEditor.IEditorWindowModel.window
 		/// </summary>
-		protected RUnityEditor.REditorWindow r_RUnityEditor__0__IEditorWindowModel__0__get_window;
-		public virtual RUnityEditor.REditorWindow RUnityEditor__0__IEditorWindowModel__0__get_window
+		protected RUnityEditor.REditorWindow r_UnityEditor__2__IEditorWindowModel__2__window;
+		public virtual RUnityEditor.REditorWindow RUnityEditor__2__IEditorWindowModel__2__window
 		{
 			get
 			{
-				if(r_RUnityEditor__0__IEditorWindowModel__0__get_window == null)
+				if(r_UnityEditor__2__IEditorWindowModel__2__window == null)
 				{
-					r_RUnityEditor__0__IEditorWindowModel__0__get_window = new(this, "UnityEditor.IEditorWindowModel.window", -1);
-					r_RUnityEditor__0__IEditorWindowModel__0__get_window.SetBelong(this.instance);
+					r_UnityEditor__2__IEditorWindowModel__2__window = new(this, "UnityEditor.IEditorWindowModel.window", -1);
+					r_UnityEditor__2__IEditorWindowModel__2__window.SetBelong(this.instance);
 				}
-				return r_RUnityEditor__0__IEditorWindowModel__0__get_window;
+				return r_UnityEditor__2__IEditorWindowModel__2__window;
 			}
 		}
 
@@ -676,17 +676,17 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Boolean UnityEditor.IEditorWindowModel.notificationVisible
 		/// </summary>
-		protected RProperty r_RUnityEditor__0__IEditorWindowModel__0__get_notificationVisible;
-		public virtual RProperty RUnityEditor__0__IEditorWindowModel__0__get_notificationVisible
+		protected RProperty r_UnityEditor__2__IEditorWindowModel__2__notificationVisible;
+		public virtual RProperty RUnityEditor__2__IEditorWindowModel__2__notificationVisible
 		{
 			get
 			{
-				if(r_RUnityEditor__0__IEditorWindowModel__0__get_notificationVisible == null)
+				if(r_UnityEditor__2__IEditorWindowModel__2__notificationVisible == null)
 				{
-					r_RUnityEditor__0__IEditorWindowModel__0__get_notificationVisible = new(this, "UnityEditor.IEditorWindowModel.notificationVisible", -1);
-					r_RUnityEditor__0__IEditorWindowModel__0__get_notificationVisible.SetBelong(this.instance);
+					r_UnityEditor__2__IEditorWindowModel__2__notificationVisible = new(this, "UnityEditor.IEditorWindowModel.notificationVisible", -1);
+					r_UnityEditor__2__IEditorWindowModel__2__notificationVisible.SetBelong(this.instance);
 				}
-				return r_RUnityEditor__0__IEditorWindowModel__0__get_notificationVisible;
+				return r_UnityEditor__2__IEditorWindowModel__2__notificationVisible;
 			}
 		}
 
@@ -727,17 +727,17 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEngine.Color UnityEditor.IEditorWindowModel.playModeTintColor
 		/// </summary>
-		protected RUnityEngine.RColor r_RUnityEditor__0__IEditorWindowModel__0__get_playModeTintColor;
-		public virtual RUnityEngine.RColor RUnityEditor__0__IEditorWindowModel__0__get_playModeTintColor
+		protected RUnityEngine.RColor r_UnityEditor__2__IEditorWindowModel__2__playModeTintColor;
+		public virtual RUnityEngine.RColor RUnityEditor__2__IEditorWindowModel__2__playModeTintColor
 		{
 			get
 			{
-				if(r_RUnityEditor__0__IEditorWindowModel__0__get_playModeTintColor == null)
+				if(r_UnityEditor__2__IEditorWindowModel__2__playModeTintColor == null)
 				{
-					r_RUnityEditor__0__IEditorWindowModel__0__get_playModeTintColor = new(this, "UnityEditor.IEditorWindowModel.playModeTintColor", -1);
-					r_RUnityEditor__0__IEditorWindowModel__0__get_playModeTintColor.SetBelong(this.instance);
+					r_UnityEditor__2__IEditorWindowModel__2__playModeTintColor = new(this, "UnityEditor.IEditorWindowModel.playModeTintColor", -1);
+					r_UnityEditor__2__IEditorWindowModel__2__playModeTintColor.SetBelong(this.instance);
 				}
-				return r_RUnityEditor__0__IEditorWindowModel__0__get_playModeTintColor;
+				return r_UnityEditor__2__IEditorWindowModel__2__playModeTintColor;
 			}
 		}
 
@@ -1135,1836 +1135,1836 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Void SetActualViewInternal(UnityEditor.EditorWindow, Boolean)
 		/// </summary>
-		protected RMethod r_RSetActualViewInternal_EditorWindow_Boolean;
+		protected RMethod r_SetActualViewInternal_EditorWindow_Boolean;
 		public virtual RMethod RSetActualViewInternal_EditorWindow_Boolean
 		{
 			get
 			{
-				if(r_RSetActualViewInternal_EditorWindow_Boolean == null)
+				if(r_SetActualViewInternal_EditorWindow_Boolean == null)
 				{
-					r_RSetActualViewInternal_EditorWindow_Boolean = new(this, "SetActualViewInternal", 0, typeof(UnityEditor.EditorWindow), typeof(System.Boolean));
-					r_RSetActualViewInternal_EditorWindow_Boolean.SetBelong(this.instance);
+					r_SetActualViewInternal_EditorWindow_Boolean = new(this, "SetActualViewInternal", 0, typeof(UnityEditor.EditorWindow), typeof(System.Boolean));
+					r_SetActualViewInternal_EditorWindow_Boolean.SetBelong(this.instance);
 				}
-				return r_RSetActualViewInternal_EditorWindow_Boolean;
+				return r_SetActualViewInternal_EditorWindow_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Void CreateDelegates()
 		/// </summary>
-		protected RMethod r_RCreateDelegates;
+		protected RMethod r_CreateDelegates;
 		public virtual RMethod RCreateDelegates
 		{
 			get
 			{
-				if(r_RCreateDelegates == null)
+				if(r_CreateDelegates == null)
 				{
-					r_RCreateDelegates = new(this, "CreateDelegates", 0);
-					r_RCreateDelegates.SetBelong(this.instance);
+					r_CreateDelegates = new(this, "CreateDelegates", 0);
+					r_CreateDelegates.SetBelong(this.instance);
 				}
-				return r_RCreateDelegates;
+				return r_CreateDelegates;
 			}
 		}
 
 		/// <summary>
 		/// Void ClearDelegates()
 		/// </summary>
-		protected RMethod r_RClearDelegates;
+		protected RMethod r_ClearDelegates;
 		public virtual RMethod RClearDelegates
 		{
 			get
 			{
-				if(r_RClearDelegates == null)
+				if(r_ClearDelegates == null)
 				{
-					r_RClearDelegates = new(this, "ClearDelegates", 0);
-					r_RClearDelegates.SetBelong(this.instance);
+					r_ClearDelegates = new(this, "ClearDelegates", 0);
+					r_ClearDelegates.SetBelong(this.instance);
 				}
-				return r_RClearDelegates;
+				return r_ClearDelegates;
 			}
 		}
 
 		/// <summary>
 		/// Void ResetActiveView()
 		/// </summary>
-		protected RMethod r_RResetActiveView;
+		protected RMethod r_ResetActiveView;
 		public virtual RMethod RResetActiveView
 		{
 			get
 			{
-				if(r_RResetActiveView == null)
+				if(r_ResetActiveView == null)
 				{
-					r_RResetActiveView = new(this, "ResetActiveView", 0);
-					r_RResetActiveView.SetBelong(this.instance);
+					r_ResetActiveView = new(this, "ResetActiveView", 0);
+					r_ResetActiveView.SetBelong(this.instance);
 				}
-				return r_RResetActiveView;
+				return r_ResetActiveView;
 			}
 		}
 
 		/// <summary>
 		/// Void UpdateMargins(UnityEditor.EditorWindow)
 		/// </summary>
-		protected RMethod r_RUpdateMargins_EditorWindow;
+		protected RMethod r_UpdateMargins_EditorWindow;
 		public virtual RMethod RUpdateMargins_EditorWindow
 		{
 			get
 			{
-				if(r_RUpdateMargins_EditorWindow == null)
+				if(r_UpdateMargins_EditorWindow == null)
 				{
-					r_RUpdateMargins_EditorWindow = new(this, "UpdateMargins", 0, typeof(UnityEditor.EditorWindow));
-					r_RUpdateMargins_EditorWindow.SetBelong(this.instance);
+					r_UpdateMargins_EditorWindow = new(this, "UpdateMargins", 0, typeof(UnityEditor.EditorWindow));
+					r_UpdateMargins_EditorWindow.SetBelong(this.instance);
 				}
-				return r_RUpdateMargins_EditorWindow;
+				return r_UpdateMargins_EditorWindow;
 			}
 		}
 
 		/// <summary>
 		/// Void UpdateViewMargins(UnityEditor.EditorWindow)
 		/// </summary>
-		protected RMethod r_RUpdateViewMargins_EditorWindow;
+		protected RMethod r_UpdateViewMargins_EditorWindow;
 		public virtual RMethod RUpdateViewMargins_EditorWindow
 		{
 			get
 			{
-				if(r_RUpdateViewMargins_EditorWindow == null)
+				if(r_UpdateViewMargins_EditorWindow == null)
 				{
-					r_RUpdateViewMargins_EditorWindow = new(this, "UpdateViewMargins", 0, typeof(UnityEditor.EditorWindow));
-					r_RUpdateViewMargins_EditorWindow.SetBelong(this.instance);
+					r_UpdateViewMargins_EditorWindow = new(this, "UpdateViewMargins", 0, typeof(UnityEditor.EditorWindow));
+					r_UpdateViewMargins_EditorWindow.SetBelong(this.instance);
 				}
-				return r_RUpdateViewMargins_EditorWindow;
+				return r_UpdateViewMargins_EditorWindow;
 			}
 		}
 
 		/// <summary>
 		/// Void SetPosition(UnityEngine.Rect)
 		/// </summary>
-		protected RMethod r_RSetPosition_Rect;
+		protected RMethod r_SetPosition_Rect;
 		public virtual RMethod RSetPosition_Rect
 		{
 			get
 			{
-				if(r_RSetPosition_Rect == null)
+				if(r_SetPosition_Rect == null)
 				{
-					r_RSetPosition_Rect = new(this, "SetPosition", 0, typeof(UnityEngine.Rect));
-					r_RSetPosition_Rect.SetBelong(this.instance);
+					r_SetPosition_Rect = new(this, "SetPosition", 0, typeof(UnityEngine.Rect));
+					r_SetPosition_Rect.SetBelong(this.instance);
 				}
-				return r_RSetPosition_Rect;
+				return r_SetPosition_Rect;
 			}
 		}
 
 		/// <summary>
 		/// Void SetActualViewPosition(UnityEngine.Rect)
 		/// </summary>
-		protected RMethod r_RSetActualViewPosition_Rect;
+		protected RMethod r_SetActualViewPosition_Rect;
 		public virtual RMethod RSetActualViewPosition_Rect
 		{
 			get
 			{
-				if(r_RSetActualViewPosition_Rect == null)
+				if(r_SetActualViewPosition_Rect == null)
 				{
-					r_RSetActualViewPosition_Rect = new(this, "SetActualViewPosition", 0, typeof(UnityEngine.Rect));
-					r_RSetActualViewPosition_Rect.SetBelong(this.instance);
+					r_SetActualViewPosition_Rect = new(this, "SetActualViewPosition", 0, typeof(UnityEngine.Rect));
+					r_SetActualViewPosition_Rect.SetBelong(this.instance);
 				}
-				return r_RSetActualViewPosition_Rect;
+				return r_SetActualViewPosition_Rect;
 			}
 		}
 
 		/// <summary>
 		/// Void SetWindow(UnityEditor.ContainerWindow)
 		/// </summary>
-		protected RMethod r_RSetWindow_ContainerWindow;
+		protected RMethod r_SetWindow_ContainerWindow;
 		public virtual RMethod RSetWindow_ContainerWindow
 		{
 			get
 			{
-				if(r_RSetWindow_ContainerWindow == null)
+				if(r_SetWindow_ContainerWindow == null)
 				{
-					r_RSetWindow_ContainerWindow = new(this, "SetWindow", 0,  ReleactionUtils.GetType("UnityEditor.ContainerWindow"));
-					r_RSetWindow_ContainerWindow.SetBelong(this.instance);
+					r_SetWindow_ContainerWindow = new(this, "SetWindow", 0,  ReleactionUtils.GetType("UnityEditor.ContainerWindow"));
+					r_SetWindow_ContainerWindow.SetBelong(this.instance);
 				}
-				return r_RSetWindow_ContainerWindow;
+				return r_SetWindow_ContainerWindow;
 			}
 		}
 
 		/// <summary>
 		/// Void OnEnable()
 		/// </summary>
-		protected RMethod r_ROnEnable;
+		protected RMethod r_OnEnable;
 		public virtual RMethod ROnEnable
 		{
 			get
 			{
-				if(r_ROnEnable == null)
+				if(r_OnEnable == null)
 				{
-					r_ROnEnable = new(this, "OnEnable", 0);
-					r_ROnEnable.SetBelong(this.instance);
+					r_OnEnable = new(this, "OnEnable", 0);
+					r_OnEnable.SetBelong(this.instance);
 				}
-				return r_ROnEnable;
+				return r_OnEnable;
 			}
 		}
 
 		/// <summary>
 		/// Void OnDisable()
 		/// </summary>
-		protected RMethod r_ROnDisable;
+		protected RMethod r_OnDisable;
 		public virtual RMethod ROnDisable
 		{
 			get
 			{
-				if(r_ROnDisable == null)
+				if(r_OnDisable == null)
 				{
-					r_ROnDisable = new(this, "OnDisable", 0);
-					r_ROnDisable.SetBelong(this.instance);
+					r_OnDisable = new(this, "OnDisable", 0);
+					r_OnDisable.SetBelong(this.instance);
 				}
-				return r_ROnDisable;
+				return r_OnDisable;
 			}
 		}
 
 		/// <summary>
 		/// Void OnEditorModeChanged(ModeChangedArgs)
 		/// </summary>
-		protected RMethod r_ROnEditorModeChanged_ModeChangedArgs;
+		protected RMethod r_OnEditorModeChanged_ModeChangedArgs;
 		public virtual RMethod ROnEditorModeChanged_ModeChangedArgs
 		{
 			get
 			{
-				if(r_ROnEditorModeChanged_ModeChangedArgs == null)
+				if(r_OnEditorModeChanged_ModeChangedArgs == null)
 				{
-					r_ROnEditorModeChanged_ModeChangedArgs = new(this, "OnEditorModeChanged", 0,  ReleactionUtils.GetType("UnityEditor.ModeService+ModeChangedArgs"));
-					r_ROnEditorModeChanged_ModeChangedArgs.SetBelong(this.instance);
+					r_OnEditorModeChanged_ModeChangedArgs = new(this, "OnEditorModeChanged", 0,  ReleactionUtils.GetType("UnityEditor.ModeService+ModeChangedArgs"));
+					r_OnEditorModeChanged_ModeChangedArgs.SetBelong(this.instance);
 				}
-				return r_ROnEditorModeChanged_ModeChangedArgs;
+				return r_OnEditorModeChanged_ModeChangedArgs;
 			}
 		}
 
 		/// <summary>
 		/// Void HandleSplitView()
 		/// </summary>
-		protected RMethod r_RHandleSplitView;
+		protected RMethod r_HandleSplitView;
 		public virtual RMethod RHandleSplitView
 		{
 			get
 			{
-				if(r_RHandleSplitView == null)
+				if(r_HandleSplitView == null)
 				{
-					r_RHandleSplitView = new(this, "HandleSplitView", 0);
-					r_RHandleSplitView.SetBelong(this.instance);
+					r_HandleSplitView = new(this, "HandleSplitView", 0);
+					r_HandleSplitView.SetBelong(this.instance);
 				}
-				return r_RHandleSplitView;
+				return r_HandleSplitView;
 			}
 		}
 
 		/// <summary>
 		/// Void OldOnGUI()
 		/// </summary>
-		protected RMethod r_ROldOnGUI;
+		protected RMethod r_OldOnGUI;
 		public virtual RMethod ROldOnGUI
 		{
 			get
 			{
-				if(r_ROldOnGUI == null)
+				if(r_OldOnGUI == null)
 				{
-					r_ROldOnGUI = new(this, "OldOnGUI", 0);
-					r_ROldOnGUI.SetBelong(this.instance);
+					r_OldOnGUI = new(this, "OldOnGUI", 0);
+					r_OldOnGUI.SetBelong(this.instance);
 				}
-				return r_ROldOnGUI;
+				return r_OldOnGUI;
 			}
 		}
 
 		/// <summary>
 		/// Boolean OnFocus()
 		/// </summary>
-		protected RMethod r_ROnFocus;
+		protected RMethod r_OnFocus;
 		public virtual RMethod ROnFocus
 		{
 			get
 			{
-				if(r_ROnFocus == null)
+				if(r_OnFocus == null)
 				{
-					r_ROnFocus = new(this, "OnFocus", 0);
-					r_ROnFocus.SetBelong(this.instance);
+					r_OnFocus = new(this, "OnFocus", 0);
+					r_OnFocus.SetBelong(this.instance);
 				}
-				return r_ROnFocus;
+				return r_OnFocus;
 			}
 		}
 
 		/// <summary>
 		/// Void OnLostFocus()
 		/// </summary>
-		protected RMethod r_ROnLostFocus;
+		protected RMethod r_OnLostFocus;
 		public virtual RMethod ROnLostFocus
 		{
 			get
 			{
-				if(r_ROnLostFocus == null)
+				if(r_OnLostFocus == null)
 				{
-					r_ROnLostFocus = new(this, "OnLostFocus", 0);
-					r_ROnLostFocus.SetBelong(this.instance);
+					r_OnLostFocus = new(this, "OnLostFocus", 0);
+					r_OnLostFocus.SetBelong(this.instance);
 				}
-				return r_ROnLostFocus;
+				return r_OnLostFocus;
 			}
 		}
 
 		/// <summary>
 		/// Void OnBackingScaleFactorChanged()
 		/// </summary>
-		protected RMethod r_ROnBackingScaleFactorChanged;
+		protected RMethod r_OnBackingScaleFactorChanged;
 		public virtual RMethod ROnBackingScaleFactorChanged
 		{
 			get
 			{
-				if(r_ROnBackingScaleFactorChanged == null)
+				if(r_OnBackingScaleFactorChanged == null)
 				{
-					r_ROnBackingScaleFactorChanged = new(this, "OnBackingScaleFactorChanged", 0);
-					r_ROnBackingScaleFactorChanged.SetBelong(this.instance);
+					r_OnBackingScaleFactorChanged = new(this, "OnBackingScaleFactorChanged", 0);
+					r_OnBackingScaleFactorChanged.SetBelong(this.instance);
 				}
-				return r_ROnBackingScaleFactorChanged;
+				return r_OnBackingScaleFactorChanged;
 			}
 		}
 
 		/// <summary>
 		/// Void OnDestroy()
 		/// </summary>
-		protected RMethod r_ROnDestroy;
+		protected RMethod r_OnDestroy;
 		public virtual RMethod ROnDestroy
 		{
 			get
 			{
-				if(r_ROnDestroy == null)
+				if(r_OnDestroy == null)
 				{
-					r_ROnDestroy = new(this, "OnDestroy", 0);
-					r_ROnDestroy.SetBelong(this.instance);
+					r_OnDestroy = new(this, "OnDestroy", 0);
+					r_OnDestroy.SetBelong(this.instance);
 				}
-				return r_ROnDestroy;
+				return r_OnDestroy;
 			}
 		}
 
 		/// <summary>
 		/// System.Collections.Generic.IEnumerable`1[System.Type] GetCurrentModePaneTypes(System.String)
 		/// </summary>
-		protected static RMethod r_RGetCurrentModePaneTypes_String;
+		protected static RMethod r_GetCurrentModePaneTypes_String;
 		public static RMethod RGetCurrentModePaneTypes_String
 		{
 			get
 			{
-				if(r_RGetCurrentModePaneTypes_String == null)
+				if(r_GetCurrentModePaneTypes_String == null)
 				{
-					r_RGetCurrentModePaneTypes_String = new( ReleactionUtils.GetType("UnityEditor.HostView"), "GetCurrentModePaneTypes", 0, typeof(System.String));
-					r_RGetCurrentModePaneTypes_String.SetBelong(null);
+					r_GetCurrentModePaneTypes_String = new( ReleactionUtils.GetType("UnityEditor.HostView"), "GetCurrentModePaneTypes", 0, typeof(System.String));
+					r_GetCurrentModePaneTypes_String.SetBelong(null);
 				}
-				return r_RGetCurrentModePaneTypes_String;
+				return r_GetCurrentModePaneTypes_String;
 			}
 		}
 
 		/// <summary>
 		/// System.Collections.Generic.IEnumerable`1[System.Type] GetDefaultPaneTypes()
 		/// </summary>
-		protected static RMethod r_RGetDefaultPaneTypes;
+		protected static RMethod r_GetDefaultPaneTypes;
 		public static RMethod RGetDefaultPaneTypes
 		{
 			get
 			{
-				if(r_RGetDefaultPaneTypes == null)
+				if(r_GetDefaultPaneTypes == null)
 				{
-					r_RGetDefaultPaneTypes = new( ReleactionUtils.GetType("UnityEditor.HostView"), "GetDefaultPaneTypes", 0);
-					r_RGetDefaultPaneTypes.SetBelong(null);
+					r_GetDefaultPaneTypes = new( ReleactionUtils.GetType("UnityEditor.HostView"), "GetDefaultPaneTypes", 0);
+					r_GetDefaultPaneTypes.SetBelong(null);
 				}
-				return r_RGetDefaultPaneTypes;
+				return r_GetDefaultPaneTypes;
 			}
 		}
 
 		/// <summary>
 		/// System.Collections.Generic.IEnumerable`1[System.Type] GetPaneTypes()
 		/// </summary>
-		protected RMethod r_RGetPaneTypes;
+		protected RMethod r_GetPaneTypes;
 		public virtual RMethod RGetPaneTypes
 		{
 			get
 			{
-				if(r_RGetPaneTypes == null)
+				if(r_GetPaneTypes == null)
 				{
-					r_RGetPaneTypes = new(this, "GetPaneTypes", 0);
-					r_RGetPaneTypes.SetBelong(this.instance);
+					r_GetPaneTypes = new(this, "GetPaneTypes", 0);
+					r_GetPaneTypes.SetBelong(this.instance);
 				}
-				return r_RGetPaneTypes;
+				return r_GetPaneTypes;
 			}
 		}
 
 		/// <summary>
 		/// Void OnProjectChange()
 		/// </summary>
-		protected RMethod r_ROnProjectChange;
+		protected RMethod r_OnProjectChange;
 		public virtual RMethod ROnProjectChange
 		{
 			get
 			{
-				if(r_ROnProjectChange == null)
+				if(r_OnProjectChange == null)
 				{
-					r_ROnProjectChange = new(this, "OnProjectChange", 0);
-					r_ROnProjectChange.SetBelong(this.instance);
+					r_OnProjectChange = new(this, "OnProjectChange", 0);
+					r_OnProjectChange.SetBelong(this.instance);
 				}
-				return r_ROnProjectChange;
+				return r_OnProjectChange;
 			}
 		}
 
 		/// <summary>
 		/// Void OnSelectionChange()
 		/// </summary>
-		protected RMethod r_ROnSelectionChange;
+		protected RMethod r_OnSelectionChange;
 		public virtual RMethod ROnSelectionChange
 		{
 			get
 			{
-				if(r_ROnSelectionChange == null)
+				if(r_OnSelectionChange == null)
 				{
-					r_ROnSelectionChange = new(this, "OnSelectionChange", 0);
-					r_ROnSelectionChange.SetBelong(this.instance);
+					r_OnSelectionChange = new(this, "OnSelectionChange", 0);
+					r_OnSelectionChange.SetBelong(this.instance);
 				}
-				return r_ROnSelectionChange;
+				return r_OnSelectionChange;
 			}
 		}
 
 		/// <summary>
 		/// Void OnDidOpenScene()
 		/// </summary>
-		protected RMethod r_ROnDidOpenScene;
+		protected RMethod r_OnDidOpenScene;
 		public virtual RMethod ROnDidOpenScene
 		{
 			get
 			{
-				if(r_ROnDidOpenScene == null)
+				if(r_OnDidOpenScene == null)
 				{
-					r_ROnDidOpenScene = new(this, "OnDidOpenScene", 0);
-					r_ROnDidOpenScene.SetBelong(this.instance);
+					r_OnDidOpenScene = new(this, "OnDidOpenScene", 0);
+					r_OnDidOpenScene.SetBelong(this.instance);
 				}
-				return r_ROnDidOpenScene;
+				return r_OnDidOpenScene;
 			}
 		}
 
 		/// <summary>
 		/// Void OnInspectorUpdate()
 		/// </summary>
-		protected RMethod r_ROnInspectorUpdate;
+		protected RMethod r_OnInspectorUpdate;
 		public virtual RMethod ROnInspectorUpdate
 		{
 			get
 			{
-				if(r_ROnInspectorUpdate == null)
+				if(r_OnInspectorUpdate == null)
 				{
-					r_ROnInspectorUpdate = new(this, "OnInspectorUpdate", 0);
-					r_ROnInspectorUpdate.SetBelong(this.instance);
+					r_OnInspectorUpdate = new(this, "OnInspectorUpdate", 0);
+					r_OnInspectorUpdate.SetBelong(this.instance);
 				}
-				return r_ROnInspectorUpdate;
+				return r_OnInspectorUpdate;
 			}
 		}
 
 		/// <summary>
 		/// Void OnHierarchyChange()
 		/// </summary>
-		protected RMethod r_ROnHierarchyChange;
+		protected RMethod r_OnHierarchyChange;
 		public virtual RMethod ROnHierarchyChange
 		{
 			get
 			{
-				if(r_ROnHierarchyChange == null)
+				if(r_OnHierarchyChange == null)
 				{
-					r_ROnHierarchyChange = new(this, "OnHierarchyChange", 0);
-					r_ROnHierarchyChange.SetBelong(this.instance);
+					r_OnHierarchyChange = new(this, "OnHierarchyChange", 0);
+					r_OnHierarchyChange.SetBelong(this.instance);
 				}
-				return r_ROnHierarchyChange;
+				return r_OnHierarchyChange;
 			}
 		}
 
 		/// <summary>
 		/// EditorWindowDelegate CreateDelegate(System.String)
 		/// </summary>
-		protected RMethod r_RCreateDelegate_String;
+		protected RMethod r_CreateDelegate_String;
 		public virtual RMethod RCreateDelegate_String
 		{
 			get
 			{
-				if(r_RCreateDelegate_String == null)
+				if(r_CreateDelegate_String == null)
 				{
-					r_RCreateDelegate_String = new(this, "CreateDelegate", 0, typeof(System.String));
-					r_RCreateDelegate_String.SetBelong(this.instance);
+					r_CreateDelegate_String = new(this, "CreateDelegate", 0, typeof(System.String));
+					r_CreateDelegate_String.SetBelong(this.instance);
 				}
-				return r_RCreateDelegate_String;
+				return r_CreateDelegate_String;
 			}
 		}
 
 		/// <summary>
 		/// System.Reflection.MethodInfo GetPaneMethod(System.String)
 		/// </summary>
-		protected RMethod r_RGetPaneMethod_String;
+		protected RMethod r_GetPaneMethod_String;
 		public virtual RMethod RGetPaneMethod_String
 		{
 			get
 			{
-				if(r_RGetPaneMethod_String == null)
+				if(r_GetPaneMethod_String == null)
 				{
-					r_RGetPaneMethod_String = new(this, "GetPaneMethod", 0, typeof(System.String));
-					r_RGetPaneMethod_String.SetBelong(this.instance);
+					r_GetPaneMethod_String = new(this, "GetPaneMethod", 0, typeof(System.String));
+					r_GetPaneMethod_String.SetBelong(this.instance);
 				}
-				return r_RGetPaneMethod_String;
+				return r_GetPaneMethod_String;
 			}
 		}
 
 		/// <summary>
 		/// System.Reflection.MethodInfo GetPaneMethod(System.String, System.Object)
 		/// </summary>
-		protected RMethod r_RGetPaneMethod_String_Object;
+		protected RMethod r_GetPaneMethod_String_Object;
 		public virtual RMethod RGetPaneMethod_String_Object
 		{
 			get
 			{
-				if(r_RGetPaneMethod_String_Object == null)
+				if(r_GetPaneMethod_String_Object == null)
 				{
-					r_RGetPaneMethod_String_Object = new(this, "GetPaneMethod", 0, typeof(System.String), typeof(System.Object));
-					r_RGetPaneMethod_String_Object.SetBelong(this.instance);
+					r_GetPaneMethod_String_Object = new(this, "GetPaneMethod", 0, typeof(System.String), typeof(System.Object));
+					r_GetPaneMethod_String_Object.SetBelong(this.instance);
 				}
-				return r_RGetPaneMethod_String_Object;
+				return r_GetPaneMethod_String_Object;
 			}
 		}
 
 		/// <summary>
 		/// System.String GetActualViewName()
 		/// </summary>
-		protected RMethod r_RGetActualViewName;
+		protected RMethod r_GetActualViewName;
 		public virtual RMethod RGetActualViewName
 		{
 			get
 			{
-				if(r_RGetActualViewName == null)
+				if(r_GetActualViewName == null)
 				{
-					r_RGetActualViewName = new(this, "GetActualViewName", 0);
-					r_RGetActualViewName.SetBelong(this.instance);
+					r_GetActualViewName = new(this, "GetActualViewName", 0);
+					r_GetActualViewName.SetBelong(this.instance);
 				}
-				return r_RGetActualViewName;
+				return r_GetActualViewName;
 			}
 		}
 
 		/// <summary>
 		/// Void InvokeOnGUI(UnityEngine.Rect)
 		/// </summary>
-		protected RMethod r_RInvokeOnGUI_Rect;
+		protected RMethod r_InvokeOnGUI_Rect;
 		public virtual RMethod RInvokeOnGUI_Rect
 		{
 			get
 			{
-				if(r_RInvokeOnGUI_Rect == null)
+				if(r_InvokeOnGUI_Rect == null)
 				{
-					r_RInvokeOnGUI_Rect = new(this, "InvokeOnGUI", 0, typeof(UnityEngine.Rect));
-					r_RInvokeOnGUI_Rect.SetBelong(this.instance);
+					r_InvokeOnGUI_Rect = new(this, "InvokeOnGUI", 0, typeof(UnityEngine.Rect));
+					r_InvokeOnGUI_Rect.SetBelong(this.instance);
 				}
-				return r_RInvokeOnGUI_Rect;
+				return r_InvokeOnGUI_Rect;
 			}
 		}
 
 		/// <summary>
 		/// Void Invoke(System.String)
 		/// </summary>
-		protected RMethod r_RInvoke_String;
+		protected RMethod r_Invoke_String;
 		public virtual RMethod RInvoke_String
 		{
 			get
 			{
-				if(r_RInvoke_String == null)
+				if(r_Invoke_String == null)
 				{
-					r_RInvoke_String = new(this, "Invoke", 0, typeof(System.String));
-					r_RInvoke_String.SetBelong(this.instance);
+					r_Invoke_String = new(this, "Invoke", 0, typeof(System.String));
+					r_Invoke_String.SetBelong(this.instance);
 				}
-				return r_RInvoke_String;
+				return r_Invoke_String;
 			}
 		}
 
 		/// <summary>
 		/// Void Invoke(System.String, System.Object)
 		/// </summary>
-		protected RMethod r_RInvoke_String_Object;
+		protected RMethod r_Invoke_String_Object;
 		public virtual RMethod RInvoke_String_Object
 		{
 			get
 			{
-				if(r_RInvoke_String_Object == null)
+				if(r_Invoke_String_Object == null)
 				{
-					r_RInvoke_String_Object = new(this, "Invoke", 0, typeof(System.String), typeof(System.Object));
-					r_RInvoke_String_Object.SetBelong(this.instance);
+					r_Invoke_String_Object = new(this, "Invoke", 0, typeof(System.String), typeof(System.Object));
+					r_Invoke_String_Object.SetBelong(this.instance);
 				}
-				return r_RInvoke_String_Object;
+				return r_Invoke_String_Object;
 			}
 		}
 
 		/// <summary>
 		/// Void RegisterSelectedPane(Boolean)
 		/// </summary>
-		protected RMethod r_RRegisterSelectedPane_Boolean;
+		protected RMethod r_RegisterSelectedPane_Boolean;
 		public virtual RMethod RRegisterSelectedPane_Boolean
 		{
 			get
 			{
-				if(r_RRegisterSelectedPane_Boolean == null)
+				if(r_RegisterSelectedPane_Boolean == null)
 				{
-					r_RRegisterSelectedPane_Boolean = new(this, "RegisterSelectedPane", 0, typeof(System.Boolean));
-					r_RRegisterSelectedPane_Boolean.SetBelong(this.instance);
+					r_RegisterSelectedPane_Boolean = new(this, "RegisterSelectedPane", 0, typeof(System.Boolean));
+					r_RegisterSelectedPane_Boolean.SetBelong(this.instance);
 				}
-				return r_RRegisterSelectedPane_Boolean;
+				return r_RegisterSelectedPane_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Void DeregisterSelectedPane(Boolean, Boolean)
 		/// </summary>
-		protected RMethod r_RDeregisterSelectedPane_Boolean_Boolean;
+		protected RMethod r_DeregisterSelectedPane_Boolean_Boolean;
 		public virtual RMethod RDeregisterSelectedPane_Boolean_Boolean
 		{
 			get
 			{
-				if(r_RDeregisterSelectedPane_Boolean_Boolean == null)
+				if(r_DeregisterSelectedPane_Boolean_Boolean == null)
 				{
-					r_RDeregisterSelectedPane_Boolean_Boolean = new(this, "DeregisterSelectedPane", 0, typeof(System.Boolean), typeof(System.Boolean));
-					r_RDeregisterSelectedPane_Boolean_Boolean.SetBelong(this.instance);
+					r_DeregisterSelectedPane_Boolean_Boolean = new(this, "DeregisterSelectedPane", 0, typeof(System.Boolean), typeof(System.Boolean));
+					r_DeregisterSelectedPane_Boolean_Boolean.SetBelong(this.instance);
 				}
-				return r_RDeregisterSelectedPane_Boolean_Boolean;
+				return r_DeregisterSelectedPane_Boolean_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Void CheckNotificationStatus()
 		/// </summary>
-		protected RMethod r_RCheckNotificationStatus;
+		protected RMethod r_CheckNotificationStatus;
 		public virtual RMethod RCheckNotificationStatus
 		{
 			get
 			{
-				if(r_RCheckNotificationStatus == null)
+				if(r_CheckNotificationStatus == null)
 				{
-					r_RCheckNotificationStatus = new(this, "CheckNotificationStatus", 0);
-					r_RCheckNotificationStatus.SetBelong(this.instance);
+					r_CheckNotificationStatus = new(this, "CheckNotificationStatus", 0);
+					r_CheckNotificationStatus.SetBelong(this.instance);
 				}
-				return r_RCheckNotificationStatus;
+				return r_CheckNotificationStatus;
 			}
 		}
 
 		/// <summary>
 		/// Void SendUpdate()
 		/// </summary>
-		protected RMethod r_RSendUpdate;
+		protected RMethod r_SendUpdate;
 		public virtual RMethod RSendUpdate
 		{
 			get
 			{
-				if(r_RSendUpdate == null)
+				if(r_SendUpdate == null)
 				{
-					r_RSendUpdate = new(this, "SendUpdate", 0);
-					r_RSendUpdate.SetBelong(this.instance);
+					r_SendUpdate = new(this, "SendUpdate", 0);
+					r_SendUpdate.SetBelong(this.instance);
 				}
-				return r_RSendUpdate;
+				return r_SendUpdate;
 			}
 		}
 
 		/// <summary>
 		/// Void SendModKeysChanged()
 		/// </summary>
-		protected RMethod r_RSendModKeysChanged;
+		protected RMethod r_SendModKeysChanged;
 		public virtual RMethod RSendModKeysChanged
 		{
 			get
 			{
-				if(r_RSendModKeysChanged == null)
+				if(r_SendModKeysChanged == null)
 				{
-					r_RSendModKeysChanged = new(this, "SendModKeysChanged", 0);
-					r_RSendModKeysChanged.SetBelong(this.instance);
+					r_SendModKeysChanged = new(this, "SendModKeysChanged", 0);
+					r_SendModKeysChanged.SetBelong(this.instance);
 				}
-				return r_RSendModKeysChanged;
+				return r_SendModKeysChanged;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.RectOffset GetBorderSize()
 		/// </summary>
-		protected RMethod r_RGetBorderSize;
+		protected RMethod r_GetBorderSize;
 		public virtual RMethod RGetBorderSize
 		{
 			get
 			{
-				if(r_RGetBorderSize == null)
+				if(r_GetBorderSize == null)
 				{
-					r_RGetBorderSize = new(this, "GetBorderSize", 0);
-					r_RGetBorderSize.SetBelong(this.instance);
+					r_GetBorderSize = new(this, "GetBorderSize", 0);
+					r_GetBorderSize.SetBelong(this.instance);
 				}
-				return r_RGetBorderSize;
+				return r_GetBorderSize;
 			}
 		}
 
 		/// <summary>
 		/// Single GetGenericMenuLeftOffset(Boolean)
 		/// </summary>
-		protected static RMethod r_RGetGenericMenuLeftOffset_Boolean;
+		protected static RMethod r_GetGenericMenuLeftOffset_Boolean;
 		public static RMethod RGetGenericMenuLeftOffset_Boolean
 		{
 			get
 			{
-				if(r_RGetGenericMenuLeftOffset_Boolean == null)
+				if(r_GetGenericMenuLeftOffset_Boolean == null)
 				{
-					r_RGetGenericMenuLeftOffset_Boolean = new( ReleactionUtils.GetType("UnityEditor.HostView"), "GetGenericMenuLeftOffset", 0, typeof(System.Boolean));
-					r_RGetGenericMenuLeftOffset_Boolean.SetBelong(null);
+					r_GetGenericMenuLeftOffset_Boolean = new( ReleactionUtils.GetType("UnityEditor.HostView"), "GetGenericMenuLeftOffset", 0, typeof(System.Boolean));
+					r_GetGenericMenuLeftOffset_Boolean.SetBelong(null);
 				}
-				return r_RGetGenericMenuLeftOffset_Boolean;
+				return r_GetGenericMenuLeftOffset_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Single GetExtraButtonsWidth()
 		/// </summary>
-		protected RMethod r_RGetExtraButtonsWidth;
+		protected RMethod r_GetExtraButtonsWidth;
 		public virtual RMethod RGetExtraButtonsWidth
 		{
 			get
 			{
-				if(r_RGetExtraButtonsWidth == null)
+				if(r_GetExtraButtonsWidth == null)
 				{
-					r_RGetExtraButtonsWidth = new(this, "GetExtraButtonsWidth", 0);
-					r_RGetExtraButtonsWidth.SetBelong(this.instance);
+					r_GetExtraButtonsWidth = new(this, "GetExtraButtonsWidth", 0);
+					r_GetExtraButtonsWidth.SetBelong(this.instance);
 				}
-				return r_RGetExtraButtonsWidth;
+				return r_GetExtraButtonsWidth;
 			}
 		}
 
 		/// <summary>
 		/// Void ShowGenericMenu(Single, Single)
 		/// </summary>
-		protected RMethod r_RShowGenericMenu_Single_Single;
+		protected RMethod r_ShowGenericMenu_Single_Single;
 		public virtual RMethod RShowGenericMenu_Single_Single
 		{
 			get
 			{
-				if(r_RShowGenericMenu_Single_Single == null)
+				if(r_ShowGenericMenu_Single_Single == null)
 				{
-					r_RShowGenericMenu_Single_Single = new(this, "ShowGenericMenu", 0, typeof(System.Single), typeof(System.Single));
-					r_RShowGenericMenu_Single_Single.SetBelong(this.instance);
+					r_ShowGenericMenu_Single_Single = new(this, "ShowGenericMenu", 0, typeof(System.Single), typeof(System.Single));
+					r_ShowGenericMenu_Single_Single.SetBelong(this.instance);
 				}
-				return r_RShowGenericMenu_Single_Single;
+				return r_ShowGenericMenu_Single_Single;
 			}
 		}
 
 		/// <summary>
 		/// Void PopulateDataModeDropdown(UnityEditor.DataModeController, UnityEditor.GenericMenu)
 		/// </summary>
-		protected RMethod r_RPopulateDataModeDropdown_DataModeController_GenericMenu;
+		protected RMethod r_PopulateDataModeDropdown_DataModeController_GenericMenu;
 		public virtual RMethod RPopulateDataModeDropdown_DataModeController_GenericMenu
 		{
 			get
 			{
-				if(r_RPopulateDataModeDropdown_DataModeController_GenericMenu == null)
+				if(r_PopulateDataModeDropdown_DataModeController_GenericMenu == null)
 				{
-					r_RPopulateDataModeDropdown_DataModeController_GenericMenu = new(this, "PopulateDataModeDropdown", 0,  ReleactionUtils.GetType("UnityEditor.DataModeController"), typeof(UnityEditor.GenericMenu));
-					r_RPopulateDataModeDropdown_DataModeController_GenericMenu.SetBelong(this.instance);
+					r_PopulateDataModeDropdown_DataModeController_GenericMenu = new(this, "PopulateDataModeDropdown", 0,  ReleactionUtils.GetType("UnityEditor.DataModeController"), typeof(UnityEditor.GenericMenu));
+					r_PopulateDataModeDropdown_DataModeController_GenericMenu.SetBelong(this.instance);
 				}
-				return r_RPopulateDataModeDropdown_DataModeController_GenericMenu;
+				return r_PopulateDataModeDropdown_DataModeController_GenericMenu;
 			}
 		}
 
 		/// <summary>
 		/// UnityEditor.WindowAction[] FetchWindowActionFromAttribute()
 		/// </summary>
-		protected static RMethod r_RFetchWindowActionFromAttribute;
+		protected static RMethod r_FetchWindowActionFromAttribute;
 		public static RMethod RFetchWindowActionFromAttribute
 		{
 			get
 			{
-				if(r_RFetchWindowActionFromAttribute == null)
+				if(r_FetchWindowActionFromAttribute == null)
 				{
-					r_RFetchWindowActionFromAttribute = new( ReleactionUtils.GetType("UnityEditor.HostView"), "FetchWindowActionFromAttribute", 0);
-					r_RFetchWindowActionFromAttribute.SetBelong(null);
+					r_FetchWindowActionFromAttribute = new( ReleactionUtils.GetType("UnityEditor.HostView"), "FetchWindowActionFromAttribute", 0);
+					r_FetchWindowActionFromAttribute.SetBelong(null);
 				}
-				return r_RFetchWindowActionFromAttribute;
+				return r_FetchWindowActionFromAttribute;
 			}
 		}
 
 		/// <summary>
 		/// Void FlushView(UnityEditor.EditorWindow)
 		/// </summary>
-		protected static RMethod r_RFlushView_EditorWindow;
+		protected static RMethod r_FlushView_EditorWindow;
 		public static RMethod RFlushView_EditorWindow
 		{
 			get
 			{
-				if(r_RFlushView_EditorWindow == null)
+				if(r_FlushView_EditorWindow == null)
 				{
-					r_RFlushView_EditorWindow = new( ReleactionUtils.GetType("UnityEditor.HostView"), "FlushView", 0, typeof(UnityEditor.EditorWindow));
-					r_RFlushView_EditorWindow.SetBelong(null);
+					r_FlushView_EditorWindow = new( ReleactionUtils.GetType("UnityEditor.HostView"), "FlushView", 0, typeof(UnityEditor.EditorWindow));
+					r_FlushView_EditorWindow.SetBelong(null);
 				}
-				return r_RFlushView_EditorWindow;
+				return r_FlushView_EditorWindow;
 			}
 		}
 
 		/// <summary>
 		/// Void PopupGenericMenu(UnityEditor.EditorWindow, UnityEngine.Rect)
 		/// </summary>
-		protected RMethod r_RPopupGenericMenu_EditorWindow_Rect;
+		protected RMethod r_PopupGenericMenu_EditorWindow_Rect;
 		public virtual RMethod RPopupGenericMenu_EditorWindow_Rect
 		{
 			get
 			{
-				if(r_RPopupGenericMenu_EditorWindow_Rect == null)
+				if(r_PopupGenericMenu_EditorWindow_Rect == null)
 				{
-					r_RPopupGenericMenu_EditorWindow_Rect = new(this, "PopupGenericMenu", 0, typeof(UnityEditor.EditorWindow), typeof(UnityEngine.Rect));
-					r_RPopupGenericMenu_EditorWindow_Rect.SetBelong(this.instance);
+					r_PopupGenericMenu_EditorWindow_Rect = new(this, "PopupGenericMenu", 0, typeof(UnityEditor.EditorWindow), typeof(UnityEngine.Rect));
+					r_PopupGenericMenu_EditorWindow_Rect.SetBelong(this.instance);
 				}
-				return r_RPopupGenericMenu_EditorWindow_Rect;
+				return r_PopupGenericMenu_EditorWindow_Rect;
 			}
 		}
 
 		/// <summary>
 		/// Void AddWindowActionMenu(UnityEditor.GenericMenu, UnityEditor.EditorWindow)
 		/// </summary>
-		protected static RMethod r_RAddWindowActionMenu_GenericMenu_EditorWindow;
+		protected static RMethod r_AddWindowActionMenu_GenericMenu_EditorWindow;
 		public static RMethod RAddWindowActionMenu_GenericMenu_EditorWindow
 		{
 			get
 			{
-				if(r_RAddWindowActionMenu_GenericMenu_EditorWindow == null)
+				if(r_AddWindowActionMenu_GenericMenu_EditorWindow == null)
 				{
-					r_RAddWindowActionMenu_GenericMenu_EditorWindow = new( ReleactionUtils.GetType("UnityEditor.HostView"), "AddWindowActionMenu", 0, typeof(UnityEditor.GenericMenu), typeof(UnityEditor.EditorWindow));
-					r_RAddWindowActionMenu_GenericMenu_EditorWindow.SetBelong(null);
+					r_AddWindowActionMenu_GenericMenu_EditorWindow = new( ReleactionUtils.GetType("UnityEditor.HostView"), "AddWindowActionMenu", 0, typeof(UnityEditor.GenericMenu), typeof(UnityEditor.EditorWindow));
+					r_AddWindowActionMenu_GenericMenu_EditorWindow.SetBelong(null);
 				}
-				return r_RAddWindowActionMenu_GenericMenu_EditorWindow;
+				return r_AddWindowActionMenu_GenericMenu_EditorWindow;
 			}
 		}
 
 		/// <summary>
 		/// Void Inspect(System.Object)
 		/// </summary>
-		protected RMethod r_RInspect_Object;
+		protected RMethod r_Inspect_Object;
 		public virtual RMethod RInspect_Object
 		{
 			get
 			{
-				if(r_RInspect_Object == null)
+				if(r_Inspect_Object == null)
 				{
-					r_RInspect_Object = new(this, "Inspect", 0, typeof(System.Object));
-					r_RInspect_Object.SetBelong(this.instance);
+					r_Inspect_Object = new(this, "Inspect", 0, typeof(System.Object));
+					r_Inspect_Object.SetBelong(this.instance);
 				}
-				return r_RInspect_Object;
+				return r_Inspect_Object;
 			}
 		}
 
 		/// <summary>
 		/// Void Reload(System.Object)
 		/// </summary>
-		protected RMethod r_RReload_Object;
+		protected RMethod r_Reload_Object;
 		public virtual RMethod RReload_Object
 		{
 			get
 			{
-				if(r_RReload_Object == null)
+				if(r_Reload_Object == null)
 				{
-					r_RReload_Object = new(this, "Reload", 0, typeof(System.Object));
-					r_RReload_Object.SetBelong(this.instance);
+					r_Reload_Object = new(this, "Reload", 0, typeof(System.Object));
+					r_Reload_Object.SetBelong(this.instance);
 				}
-				return r_RReload_Object;
+				return r_Reload_Object;
 			}
 		}
 
 		/// <summary>
 		/// Void AddDefaultItemsToMenu(UnityEditor.GenericMenu, UnityEditor.EditorWindow)
 		/// </summary>
-		protected RMethod r_RAddDefaultItemsToMenu_GenericMenu_EditorWindow;
+		protected RMethod r_AddDefaultItemsToMenu_GenericMenu_EditorWindow;
 		public virtual RMethod RAddDefaultItemsToMenu_GenericMenu_EditorWindow
 		{
 			get
 			{
-				if(r_RAddDefaultItemsToMenu_GenericMenu_EditorWindow == null)
+				if(r_AddDefaultItemsToMenu_GenericMenu_EditorWindow == null)
 				{
-					r_RAddDefaultItemsToMenu_GenericMenu_EditorWindow = new(this, "AddDefaultItemsToMenu", 0, typeof(UnityEditor.GenericMenu), typeof(UnityEditor.EditorWindow));
-					r_RAddDefaultItemsToMenu_GenericMenu_EditorWindow.SetBelong(this.instance);
+					r_AddDefaultItemsToMenu_GenericMenu_EditorWindow = new(this, "AddDefaultItemsToMenu", 0, typeof(UnityEditor.GenericMenu), typeof(UnityEditor.EditorWindow));
+					r_AddDefaultItemsToMenu_GenericMenu_EditorWindow.SetBelong(this.instance);
 				}
-				return r_RAddDefaultItemsToMenu_GenericMenu_EditorWindow;
+				return r_AddDefaultItemsToMenu_GenericMenu_EditorWindow;
 			}
 		}
 
 		/// <summary>
 		/// Void PlayModeTintColorChangedCallback(System.String)
 		/// </summary>
-		protected RMethod r_RPlayModeTintColorChangedCallback_String;
+		protected RMethod r_PlayModeTintColorChangedCallback_String;
 		public virtual RMethod RPlayModeTintColorChangedCallback_String
 		{
 			get
 			{
-				if(r_RPlayModeTintColorChangedCallback_String == null)
+				if(r_PlayModeTintColorChangedCallback_String == null)
 				{
-					r_RPlayModeTintColorChangedCallback_String = new(this, "PlayModeTintColorChangedCallback", 0, typeof(System.String));
-					r_RPlayModeTintColorChangedCallback_String.SetBelong(this.instance);
+					r_PlayModeTintColorChangedCallback_String = new(this, "PlayModeTintColorChangedCallback", 0, typeof(System.String));
+					r_PlayModeTintColorChangedCallback_String.SetBelong(this.instance);
 				}
-				return r_RPlayModeTintColorChangedCallback_String;
+				return r_PlayModeTintColorChangedCallback_String;
 			}
 		}
 
 		/// <summary>
 		/// Void Repaint()
 		/// </summary>
-		protected RMethod r_RRepaint;
+		protected RMethod r_Repaint;
 		public virtual RMethod RRepaint
 		{
 			get
 			{
-				if(r_RRepaint == null)
+				if(r_Repaint == null)
 				{
-					r_RRepaint = new(this, "Repaint", 0);
-					r_RRepaint.SetBelong(this.instance);
+					r_Repaint = new(this, "Repaint", 0);
+					r_Repaint.SetBelong(this.instance);
 				}
-				return r_RRepaint;
+				return r_Repaint;
 			}
 		}
 
 		/// <summary>
 		/// Void Focus()
 		/// </summary>
-		protected RMethod r_RFocus;
+		protected RMethod r_Focus;
 		public virtual RMethod RFocus
 		{
 			get
 			{
-				if(r_RFocus == null)
+				if(r_Focus == null)
 				{
-					r_RFocus = new(this, "Focus", 0);
-					r_RFocus.SetBelong(this.instance);
+					r_Focus = new(this, "Focus", 0);
+					r_Focus.SetBelong(this.instance);
 				}
-				return r_RFocus;
+				return r_Focus;
 			}
 		}
 
 		/// <summary>
 		/// Void RepaintImmediately()
 		/// </summary>
-		protected RMethod r_RRepaintImmediately;
+		protected RMethod r_RepaintImmediately;
 		public virtual RMethod RRepaintImmediately
 		{
 			get
 			{
-				if(r_RRepaintImmediately == null)
+				if(r_RepaintImmediately == null)
 				{
-					r_RRepaintImmediately = new(this, "RepaintImmediately", 0);
-					r_RRepaintImmediately.SetBelong(this.instance);
+					r_RepaintImmediately = new(this, "RepaintImmediately", 0);
+					r_RepaintImmediately.SetBelong(this.instance);
 				}
-				return r_RRepaintImmediately;
+				return r_RepaintImmediately;
 			}
 		}
 
 		/// <summary>
 		/// Void CaptureRenderDocScene()
 		/// </summary>
-		protected RMethod r_RCaptureRenderDocScene;
+		protected RMethod r_CaptureRenderDocScene;
 		public virtual RMethod RCaptureRenderDocScene
 		{
 			get
 			{
-				if(r_RCaptureRenderDocScene == null)
+				if(r_CaptureRenderDocScene == null)
 				{
-					r_RCaptureRenderDocScene = new(this, "CaptureRenderDocScene", 0);
-					r_RCaptureRenderDocScene.SetBelong(this.instance);
+					r_CaptureRenderDocScene = new(this, "CaptureRenderDocScene", 0);
+					r_CaptureRenderDocScene.SetBelong(this.instance);
 				}
-				return r_RCaptureRenderDocScene;
+				return r_CaptureRenderDocScene;
 			}
 		}
 
 		/// <summary>
 		/// Void CaptureRenderDocFullContent()
 		/// </summary>
-		protected RMethod r_RCaptureRenderDocFullContent;
+		protected RMethod r_CaptureRenderDocFullContent;
 		public virtual RMethod RCaptureRenderDocFullContent
 		{
 			get
 			{
-				if(r_RCaptureRenderDocFullContent == null)
+				if(r_CaptureRenderDocFullContent == null)
 				{
-					r_RCaptureRenderDocFullContent = new(this, "CaptureRenderDocFullContent", 0);
-					r_RCaptureRenderDocFullContent.SetBelong(this.instance);
+					r_CaptureRenderDocFullContent = new(this, "CaptureRenderDocFullContent", 0);
+					r_CaptureRenderDocFullContent.SetBelong(this.instance);
 				}
-				return r_RCaptureRenderDocFullContent;
+				return r_CaptureRenderDocFullContent;
 			}
 		}
 
 		/// <summary>
 		/// Void BeginCaptureRenderDoc()
 		/// </summary>
-		protected RMethod r_RBeginCaptureRenderDoc;
+		protected RMethod r_BeginCaptureRenderDoc;
 		public virtual RMethod RBeginCaptureRenderDoc
 		{
 			get
 			{
-				if(r_RBeginCaptureRenderDoc == null)
+				if(r_BeginCaptureRenderDoc == null)
 				{
-					r_RBeginCaptureRenderDoc = new(this, "BeginCaptureRenderDoc", 0);
-					r_RBeginCaptureRenderDoc.SetBelong(this.instance);
+					r_BeginCaptureRenderDoc = new(this, "BeginCaptureRenderDoc", 0);
+					r_BeginCaptureRenderDoc.SetBelong(this.instance);
 				}
-				return r_RBeginCaptureRenderDoc;
+				return r_BeginCaptureRenderDoc;
 			}
 		}
 
 		/// <summary>
 		/// Void EndCaptureRenderDoc()
 		/// </summary>
-		protected RMethod r_REndCaptureRenderDoc;
+		protected RMethod r_EndCaptureRenderDoc;
 		public virtual RMethod REndCaptureRenderDoc
 		{
 			get
 			{
-				if(r_REndCaptureRenderDoc == null)
+				if(r_EndCaptureRenderDoc == null)
 				{
-					r_REndCaptureRenderDoc = new(this, "EndCaptureRenderDoc", 0);
-					r_REndCaptureRenderDoc.SetBelong(this.instance);
+					r_EndCaptureRenderDoc = new(this, "EndCaptureRenderDoc", 0);
+					r_EndCaptureRenderDoc.SetBelong(this.instance);
 				}
-				return r_REndCaptureRenderDoc;
+				return r_EndCaptureRenderDoc;
 			}
 		}
 
 		/// <summary>
 		/// Void RenderCurrentSceneForCapture()
 		/// </summary>
-		protected RMethod r_RRenderCurrentSceneForCapture;
+		protected RMethod r_RenderCurrentSceneForCapture;
 		public virtual RMethod RRenderCurrentSceneForCapture
 		{
 			get
 			{
-				if(r_RRenderCurrentSceneForCapture == null)
+				if(r_RenderCurrentSceneForCapture == null)
 				{
-					r_RRenderCurrentSceneForCapture = new(this, "RenderCurrentSceneForCapture", 0);
-					r_RRenderCurrentSceneForCapture.SetBelong(this.instance);
+					r_RenderCurrentSceneForCapture = new(this, "RenderCurrentSceneForCapture", 0);
+					r_RenderCurrentSceneForCapture.SetBelong(this.instance);
 				}
-				return r_RRenderCurrentSceneForCapture;
+				return r_RenderCurrentSceneForCapture;
 			}
 		}
 
 		/// <summary>
 		/// Void SetTitle(System.String)
 		/// </summary>
-		protected RMethod r_RSetTitle_String;
+		protected RMethod r_SetTitle_String;
 		public virtual RMethod RSetTitle_String
 		{
 			get
 			{
-				if(r_RSetTitle_String == null)
+				if(r_SetTitle_String == null)
 				{
-					r_RSetTitle_String = new(this, "SetTitle", 0, typeof(System.String));
-					r_RSetTitle_String.SetBelong(this.instance);
+					r_SetTitle_String = new(this, "SetTitle", 0, typeof(System.String));
+					r_SetTitle_String.SetBelong(this.instance);
 				}
-				return r_RSetTitle_String;
+				return r_SetTitle_String;
 			}
 		}
 
 		/// <summary>
 		/// Void AddToAuxWindowList()
 		/// </summary>
-		protected RMethod r_RAddToAuxWindowList;
+		protected RMethod r_AddToAuxWindowList;
 		public virtual RMethod RAddToAuxWindowList
 		{
 			get
 			{
-				if(r_RAddToAuxWindowList == null)
+				if(r_AddToAuxWindowList == null)
 				{
-					r_RAddToAuxWindowList = new(this, "AddToAuxWindowList", 0);
-					r_RAddToAuxWindowList.SetBelong(this.instance);
+					r_AddToAuxWindowList = new(this, "AddToAuxWindowList", 0);
+					r_AddToAuxWindowList.SetBelong(this.instance);
 				}
-				return r_RAddToAuxWindowList;
+				return r_AddToAuxWindowList;
 			}
 		}
 
 		/// <summary>
 		/// Void SetInternalGameViewDimensions(UnityEngine.Rect, UnityEngine.Rect, UnityEngine.Vector2)
 		/// </summary>
-		protected RMethod r_RSetInternalGameViewDimensions_Rect_Rect_Vector2;
+		protected RMethod r_SetInternalGameViewDimensions_Rect_Rect_Vector2;
 		public virtual RMethod RSetInternalGameViewDimensions_Rect_Rect_Vector2
 		{
 			get
 			{
-				if(r_RSetInternalGameViewDimensions_Rect_Rect_Vector2 == null)
+				if(r_SetInternalGameViewDimensions_Rect_Rect_Vector2 == null)
 				{
-					r_RSetInternalGameViewDimensions_Rect_Rect_Vector2 = new(this, "SetInternalGameViewDimensions", 0, typeof(UnityEngine.Rect), typeof(UnityEngine.Rect), typeof(UnityEngine.Vector2));
-					r_RSetInternalGameViewDimensions_Rect_Rect_Vector2.SetBelong(this.instance);
+					r_SetInternalGameViewDimensions_Rect_Rect_Vector2 = new(this, "SetInternalGameViewDimensions", 0, typeof(UnityEngine.Rect), typeof(UnityEngine.Rect), typeof(UnityEngine.Vector2));
+					r_SetInternalGameViewDimensions_Rect_Rect_Vector2.SetBelong(this.instance);
 				}
-				return r_RSetInternalGameViewDimensions_Rect_Rect_Vector2;
+				return r_SetInternalGameViewDimensions_Rect_Rect_Vector2;
 			}
 		}
 
 		/// <summary>
 		/// Void SetMainPlayModeViewSize(UnityEngine.Vector2)
 		/// </summary>
-		protected RMethod r_RSetMainPlayModeViewSize_Vector2;
+		protected RMethod r_SetMainPlayModeViewSize_Vector2;
 		public virtual RMethod RSetMainPlayModeViewSize_Vector2
 		{
 			get
 			{
-				if(r_RSetMainPlayModeViewSize_Vector2 == null)
+				if(r_SetMainPlayModeViewSize_Vector2 == null)
 				{
-					r_RSetMainPlayModeViewSize_Vector2 = new(this, "SetMainPlayModeViewSize", 0, typeof(UnityEngine.Vector2));
-					r_RSetMainPlayModeViewSize_Vector2.SetBelong(this.instance);
+					r_SetMainPlayModeViewSize_Vector2 = new(this, "SetMainPlayModeViewSize", 0, typeof(UnityEngine.Vector2));
+					r_SetMainPlayModeViewSize_Vector2.SetBelong(this.instance);
 				}
-				return r_RSetMainPlayModeViewSize_Vector2;
+				return r_SetMainPlayModeViewSize_Vector2;
 			}
 		}
 
 		/// <summary>
 		/// Void SetDisplayViewSize(Int32, UnityEngine.Vector2)
 		/// </summary>
-		protected RMethod r_RSetDisplayViewSize_Int32_Vector2;
+		protected RMethod r_SetDisplayViewSize_Int32_Vector2;
 		public virtual RMethod RSetDisplayViewSize_Int32_Vector2
 		{
 			get
 			{
-				if(r_RSetDisplayViewSize_Int32_Vector2 == null)
+				if(r_SetDisplayViewSize_Int32_Vector2 == null)
 				{
-					r_RSetDisplayViewSize_Int32_Vector2 = new(this, "SetDisplayViewSize", 0, typeof(System.Int32), typeof(UnityEngine.Vector2));
-					r_RSetDisplayViewSize_Int32_Vector2.SetBelong(this.instance);
+					r_SetDisplayViewSize_Int32_Vector2 = new(this, "SetDisplayViewSize", 0, typeof(System.Int32), typeof(UnityEngine.Vector2));
+					r_SetDisplayViewSize_Int32_Vector2.SetBelong(this.instance);
 				}
-				return r_RSetDisplayViewSize_Int32_Vector2;
+				return r_SetDisplayViewSize_Int32_Vector2;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Vector2 GetDisplayViewSize(Int32)
 		/// </summary>
-		protected RMethod r_RGetDisplayViewSize_Int32;
+		protected RMethod r_GetDisplayViewSize_Int32;
 		public virtual RMethod RGetDisplayViewSize_Int32
 		{
 			get
 			{
-				if(r_RGetDisplayViewSize_Int32 == null)
+				if(r_GetDisplayViewSize_Int32 == null)
 				{
-					r_RGetDisplayViewSize_Int32 = new(this, "GetDisplayViewSize", 0, typeof(System.Int32));
-					r_RGetDisplayViewSize_Int32.SetBelong(this.instance);
+					r_GetDisplayViewSize_Int32 = new(this, "GetDisplayViewSize", 0, typeof(System.Int32));
+					r_GetDisplayViewSize_Int32.SetBelong(this.instance);
 				}
-				return r_RGetDisplayViewSize_Int32;
+				return r_GetDisplayViewSize_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Void SetAsStartView()
 		/// </summary>
-		protected RMethod r_RSetAsStartView;
+		protected RMethod r_SetAsStartView;
 		public virtual RMethod RSetAsStartView
 		{
 			get
 			{
-				if(r_RSetAsStartView == null)
+				if(r_SetAsStartView == null)
 				{
-					r_RSetAsStartView = new(this, "SetAsStartView", 0);
-					r_RSetAsStartView.SetBelong(this.instance);
+					r_SetAsStartView = new(this, "SetAsStartView", 0);
+					r_SetAsStartView.SetBelong(this.instance);
 				}
-				return r_RSetAsStartView;
+				return r_SetAsStartView;
 			}
 		}
 
 		/// <summary>
 		/// Void SetAsLastPlayModeView()
 		/// </summary>
-		protected RMethod r_RSetAsLastPlayModeView;
+		protected RMethod r_SetAsLastPlayModeView;
 		public virtual RMethod RSetAsLastPlayModeView
 		{
 			get
 			{
-				if(r_RSetAsLastPlayModeView == null)
+				if(r_SetAsLastPlayModeView == null)
 				{
-					r_RSetAsLastPlayModeView = new(this, "SetAsLastPlayModeView", 0);
-					r_RSetAsLastPlayModeView.SetBelong(this.instance);
+					r_SetAsLastPlayModeView = new(this, "SetAsLastPlayModeView", 0);
+					r_SetAsLastPlayModeView.SetBelong(this.instance);
 				}
-				return r_RSetAsLastPlayModeView;
+				return r_SetAsLastPlayModeView;
 			}
 		}
 
 		/// <summary>
 		/// Void SetPlayModeView(Boolean)
 		/// </summary>
-		protected RMethod r_RSetPlayModeView_Boolean;
+		protected RMethod r_SetPlayModeView_Boolean;
 		public virtual RMethod RSetPlayModeView_Boolean
 		{
 			get
 			{
-				if(r_RSetPlayModeView_Boolean == null)
+				if(r_SetPlayModeView_Boolean == null)
 				{
-					r_RSetPlayModeView_Boolean = new(this, "SetPlayModeView", 0, typeof(System.Boolean));
-					r_RSetPlayModeView_Boolean.SetBelong(this.instance);
+					r_SetPlayModeView_Boolean = new(this, "SetPlayModeView", 0, typeof(System.Boolean));
+					r_SetPlayModeView_Boolean.SetBelong(this.instance);
 				}
-				return r_RSetPlayModeView_Boolean;
+				return r_SetPlayModeView_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Void ClearStartView()
 		/// </summary>
-		protected RMethod r_RClearStartView;
+		protected RMethod r_ClearStartView;
 		public virtual RMethod RClearStartView
 		{
 			get
 			{
-				if(r_RClearStartView == null)
+				if(r_ClearStartView == null)
 				{
-					r_RClearStartView = new(this, "ClearStartView", 0);
-					r_RClearStartView.SetBelong(this.instance);
+					r_ClearStartView = new(this, "ClearStartView", 0);
+					r_ClearStartView.SetBelong(this.instance);
 				}
-				return r_RClearStartView;
+				return r_ClearStartView;
 			}
 		}
 
 		/// <summary>
 		/// Void MakeVistaDWMHappyDance()
 		/// </summary>
-		protected RMethod r_RMakeVistaDWMHappyDance;
+		protected RMethod r_MakeVistaDWMHappyDance;
 		public virtual RMethod RMakeVistaDWMHappyDance
 		{
 			get
 			{
-				if(r_RMakeVistaDWMHappyDance == null)
+				if(r_MakeVistaDWMHappyDance == null)
 				{
-					r_RMakeVistaDWMHappyDance = new(this, "MakeVistaDWMHappyDance", 0);
-					r_RMakeVistaDWMHappyDance.SetBelong(this.instance);
+					r_MakeVistaDWMHappyDance = new(this, "MakeVistaDWMHappyDance", 0);
+					r_MakeVistaDWMHappyDance.SetBelong(this.instance);
 				}
-				return r_RMakeVistaDWMHappyDance;
+				return r_MakeVistaDWMHappyDance;
 			}
 		}
 
 		/// <summary>
 		/// Void SetEyeDropperOpen(Boolean)
 		/// </summary>
-		protected RMethod r_RSetEyeDropperOpen_Boolean;
+		protected RMethod r_SetEyeDropperOpen_Boolean;
 		public virtual RMethod RSetEyeDropperOpen_Boolean
 		{
 			get
 			{
-				if(r_RSetEyeDropperOpen_Boolean == null)
+				if(r_SetEyeDropperOpen_Boolean == null)
 				{
-					r_RSetEyeDropperOpen_Boolean = new(this, "SetEyeDropperOpen", 0, typeof(System.Boolean));
-					r_RSetEyeDropperOpen_Boolean.SetBelong(this.instance);
+					r_SetEyeDropperOpen_Boolean = new(this, "SetEyeDropperOpen", 0, typeof(System.Boolean));
+					r_SetEyeDropperOpen_Boolean.SetBelong(this.instance);
 				}
-				return r_RSetEyeDropperOpen_Boolean;
+				return r_SetEyeDropperOpen_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Void StealMouseCapture()
 		/// </summary>
-		protected RMethod r_RStealMouseCapture;
+		protected RMethod r_StealMouseCapture;
 		public virtual RMethod RStealMouseCapture
 		{
 			get
 			{
-				if(r_RStealMouseCapture == null)
+				if(r_StealMouseCapture == null)
 				{
-					r_RStealMouseCapture = new(this, "StealMouseCapture", 0);
-					r_RStealMouseCapture.SetBelong(this.instance);
+					r_StealMouseCapture = new(this, "StealMouseCapture", 0);
+					r_StealMouseCapture.SetBelong(this.instance);
 				}
-				return r_RStealMouseCapture;
+				return r_StealMouseCapture;
 			}
 		}
 
 		/// <summary>
 		/// Void ClearKeyboardControl()
 		/// </summary>
-		protected RMethod r_RClearKeyboardControl;
+		protected RMethod r_ClearKeyboardControl;
 		public virtual RMethod RClearKeyboardControl
 		{
 			get
 			{
-				if(r_RClearKeyboardControl == null)
+				if(r_ClearKeyboardControl == null)
 				{
-					r_RClearKeyboardControl = new(this, "ClearKeyboardControl", 0);
-					r_RClearKeyboardControl.SetBelong(this.instance);
+					r_ClearKeyboardControl = new(this, "ClearKeyboardControl", 0);
+					r_ClearKeyboardControl.SetBelong(this.instance);
 				}
-				return r_RClearKeyboardControl;
+				return r_ClearKeyboardControl;
 			}
 		}
 
 		/// <summary>
 		/// Void SetKeyboardControl(Int32)
 		/// </summary>
-		protected RMethod r_RSetKeyboardControl_Int32;
+		protected RMethod r_SetKeyboardControl_Int32;
 		public virtual RMethod RSetKeyboardControl_Int32
 		{
 			get
 			{
-				if(r_RSetKeyboardControl_Int32 == null)
+				if(r_SetKeyboardControl_Int32 == null)
 				{
-					r_RSetKeyboardControl_Int32 = new(this, "SetKeyboardControl", 0, typeof(System.Int32));
-					r_RSetKeyboardControl_Int32.SetBelong(this.instance);
+					r_SetKeyboardControl_Int32 = new(this, "SetKeyboardControl", 0, typeof(System.Int32));
+					r_SetKeyboardControl_Int32.SetBelong(this.instance);
 				}
-				return r_RSetKeyboardControl_Int32;
+				return r_SetKeyboardControl_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetKeyboardControl()
 		/// </summary>
-		protected RMethod r_RGetKeyboardControl;
+		protected RMethod r_GetKeyboardControl;
 		public virtual RMethod RGetKeyboardControl
 		{
 			get
 			{
-				if(r_RGetKeyboardControl == null)
+				if(r_GetKeyboardControl == null)
 				{
-					r_RGetKeyboardControl = new(this, "GetKeyboardControl", 0);
-					r_RGetKeyboardControl.SetBelong(this.instance);
+					r_GetKeyboardControl = new(this, "GetKeyboardControl", 0);
+					r_GetKeyboardControl.SetBelong(this.instance);
 				}
-				return r_RGetKeyboardControl;
+				return r_GetKeyboardControl;
 			}
 		}
 
 		/// <summary>
 		/// Void GrabPixels(UnityEngine.RenderTexture, UnityEngine.Rect)
 		/// </summary>
-		protected RMethod r_RGrabPixels_RenderTexture_Rect;
+		protected RMethod r_GrabPixels_RenderTexture_Rect;
 		public virtual RMethod RGrabPixels_RenderTexture_Rect
 		{
 			get
 			{
-				if(r_RGrabPixels_RenderTexture_Rect == null)
+				if(r_GrabPixels_RenderTexture_Rect == null)
 				{
-					r_RGrabPixels_RenderTexture_Rect = new(this, "GrabPixels", 0, typeof(UnityEngine.RenderTexture), typeof(UnityEngine.Rect));
-					r_RGrabPixels_RenderTexture_Rect.SetBelong(this.instance);
+					r_GrabPixels_RenderTexture_Rect = new(this, "GrabPixels", 0, typeof(UnityEngine.RenderTexture), typeof(UnityEngine.Rect));
+					r_GrabPixels_RenderTexture_Rect.SetBelong(this.instance);
 				}
-				return r_RGrabPixels_RenderTexture_Rect;
+				return r_GrabPixels_RenderTexture_Rect;
 			}
 		}
 
 		/// <summary>
 		/// Void MarkHotRegion(UnityEngine.Rect)
 		/// </summary>
-		protected RMethod r_RMarkHotRegion_Rect;
+		protected RMethod r_MarkHotRegion_Rect;
 		public virtual RMethod RMarkHotRegion_Rect
 		{
 			get
 			{
-				if(r_RMarkHotRegion_Rect == null)
+				if(r_MarkHotRegion_Rect == null)
 				{
-					r_RMarkHotRegion_Rect = new(this, "MarkHotRegion", 0, typeof(UnityEngine.Rect));
-					r_RMarkHotRegion_Rect.SetBelong(this.instance);
+					r_MarkHotRegion_Rect = new(this, "MarkHotRegion", 0, typeof(UnityEngine.Rect));
+					r_MarkHotRegion_Rect.SetBelong(this.instance);
 				}
-				return r_RMarkHotRegion_Rect;
+				return r_MarkHotRegion_Rect;
 			}
 		}
 
 		/// <summary>
 		/// Void EnableVSync(Boolean)
 		/// </summary>
-		protected RMethod r_REnableVSync_Boolean;
+		protected RMethod r_EnableVSync_Boolean;
 		public virtual RMethod REnableVSync_Boolean
 		{
 			get
 			{
-				if(r_REnableVSync_Boolean == null)
+				if(r_EnableVSync_Boolean == null)
 				{
-					r_REnableVSync_Boolean = new(this, "EnableVSync", 0, typeof(System.Boolean));
-					r_REnableVSync_Boolean.SetBelong(this.instance);
+					r_EnableVSync_Boolean = new(this, "EnableVSync", 0, typeof(System.Boolean));
+					r_EnableVSync_Boolean.SetBelong(this.instance);
 				}
-				return r_REnableVSync_Boolean;
+				return r_EnableVSync_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Void SetActualViewName(System.String)
 		/// </summary>
-		protected RMethod r_RSetActualViewName_String;
+		protected RMethod r_SetActualViewName_String;
 		public virtual RMethod RSetActualViewName_String
 		{
 			get
 			{
-				if(r_RSetActualViewName_String == null)
+				if(r_SetActualViewName_String == null)
 				{
-					r_RSetActualViewName_String = new(this, "SetActualViewName", 0, typeof(System.String));
-					r_RSetActualViewName_String.SetBelong(this.instance);
+					r_SetActualViewName_String = new(this, "SetActualViewName", 0, typeof(System.String));
+					r_SetActualViewName_String.SetBelong(this.instance);
 				}
-				return r_RSetActualViewName_String;
+				return r_SetActualViewName_String;
 			}
 		}
 
 		/// <summary>
 		/// Void Internal_SetAsActiveWindow()
 		/// </summary>
-		protected RMethod r_RInternal_SetAsActiveWindow;
+		protected RMethod r_Internal_SetAsActiveWindow;
 		public virtual RMethod RInternal_SetAsActiveWindow
 		{
 			get
 			{
-				if(r_RInternal_SetAsActiveWindow == null)
+				if(r_Internal_SetAsActiveWindow == null)
 				{
-					r_RInternal_SetAsActiveWindow = new(this, "Internal_SetAsActiveWindow", 0);
-					r_RInternal_SetAsActiveWindow.SetBelong(this.instance);
+					r_Internal_SetAsActiveWindow = new(this, "Internal_SetAsActiveWindow", 0);
+					r_Internal_SetAsActiveWindow.SetBelong(this.instance);
 				}
-				return r_RInternal_SetAsActiveWindow;
+				return r_Internal_SetAsActiveWindow;
 			}
 		}
 
 		/// <summary>
 		/// Boolean SendEvent(UnityEngine.Event)
 		/// </summary>
-		protected RMethod r_RSendEvent_Event;
+		protected RMethod r_SendEvent_Event;
 		public virtual RMethod RSendEvent_Event
 		{
 			get
 			{
-				if(r_RSendEvent_Event == null)
+				if(r_SendEvent_Event == null)
 				{
-					r_RSendEvent_Event = new(this, "SendEvent", 0, typeof(UnityEngine.Event));
-					r_RSendEvent_Event.SetBelong(this.instance);
+					r_SendEvent_Event = new(this, "SendEvent", 0, typeof(UnityEngine.Event));
+					r_SendEvent_Event.SetBelong(this.instance);
 				}
-				return r_RSendEvent_Event;
+				return r_SendEvent_Event;
 			}
 		}
 
 		/// <summary>
 		/// Void RecreateContext()
 		/// </summary>
-		protected RMethod r_RRecreateContext;
+		protected RMethod r_RecreateContext;
 		public virtual RMethod RRecreateContext
 		{
 			get
 			{
-				if(r_RRecreateContext == null)
+				if(r_RecreateContext == null)
 				{
-					r_RRecreateContext = new(this, "RecreateContext", 0);
-					r_RRecreateContext.SetBelong(this.instance);
+					r_RecreateContext = new(this, "RecreateContext", 0);
+					r_RecreateContext.SetBelong(this.instance);
 				}
-				return r_RRecreateContext;
+				return r_RecreateContext;
 			}
 		}
 
 		/// <summary>
 		/// Void ValidateWindowBackendForCurrentView()
 		/// </summary>
-		protected RMethod r_RValidateWindowBackendForCurrentView;
+		protected RMethod r_ValidateWindowBackendForCurrentView;
 		public virtual RMethod RValidateWindowBackendForCurrentView
 		{
 			get
 			{
-				if(r_RValidateWindowBackendForCurrentView == null)
+				if(r_ValidateWindowBackendForCurrentView == null)
 				{
-					r_RValidateWindowBackendForCurrentView = new(this, "ValidateWindowBackendForCurrentView", 0);
-					r_RValidateWindowBackendForCurrentView.SetBelong(this.instance);
+					r_ValidateWindowBackendForCurrentView = new(this, "ValidateWindowBackendForCurrentView", 0);
+					r_ValidateWindowBackendForCurrentView.SetBelong(this.instance);
 				}
-				return r_RValidateWindowBackendForCurrentView;
+				return r_ValidateWindowBackendForCurrentView;
 			}
 		}
 
 		/// <summary>
 		/// Void OnGUI()
 		/// </summary>
-		protected RMethod r_ROnGUI;
+		protected RMethod r_OnGUI;
 		public virtual RMethod ROnGUI
 		{
 			get
 			{
-				if(r_ROnGUI == null)
+				if(r_OnGUI == null)
 				{
-					r_ROnGUI = new(this, "OnGUI", 0);
-					r_ROnGUI.SetBelong(this.instance);
+					r_OnGUI = new(this, "OnGUI", 0);
+					r_OnGUI.SetBelong(this.instance);
 				}
-				return r_ROnGUI;
+				return r_OnGUI;
 			}
 		}
 
 		/// <summary>
 		/// Void DoWindowDecorationStart()
 		/// </summary>
-		protected RMethod r_RDoWindowDecorationStart;
+		protected RMethod r_DoWindowDecorationStart;
 		public virtual RMethod RDoWindowDecorationStart
 		{
 			get
 			{
-				if(r_RDoWindowDecorationStart == null)
+				if(r_DoWindowDecorationStart == null)
 				{
-					r_RDoWindowDecorationStart = new(this, "DoWindowDecorationStart", 0);
-					r_RDoWindowDecorationStart.SetBelong(this.instance);
+					r_DoWindowDecorationStart = new(this, "DoWindowDecorationStart", 0);
+					r_DoWindowDecorationStart.SetBelong(this.instance);
 				}
-				return r_RDoWindowDecorationStart;
+				return r_DoWindowDecorationStart;
 			}
 		}
 
 		/// <summary>
 		/// Void DoWindowDecorationEnd()
 		/// </summary>
-		protected RMethod r_RDoWindowDecorationEnd;
+		protected RMethod r_DoWindowDecorationEnd;
 		public virtual RMethod RDoWindowDecorationEnd
 		{
 			get
 			{
-				if(r_RDoWindowDecorationEnd == null)
+				if(r_DoWindowDecorationEnd == null)
 				{
-					r_RDoWindowDecorationEnd = new(this, "DoWindowDecorationEnd", 0);
-					r_RDoWindowDecorationEnd.SetBelong(this.instance);
+					r_DoWindowDecorationEnd = new(this, "DoWindowDecorationEnd", 0);
+					r_DoWindowDecorationEnd.SetBelong(this.instance);
 				}
-				return r_RDoWindowDecorationEnd;
+				return r_DoWindowDecorationEnd;
 			}
 		}
 
 		/// <summary>
 		/// System.String GetViewName()
 		/// </summary>
-		protected RMethod r_RGetViewName;
+		protected RMethod r_GetViewName;
 		public virtual RMethod RGetViewName
 		{
 			get
 			{
-				if(r_RGetViewName == null)
+				if(r_GetViewName == null)
 				{
-					r_RGetViewName = new(this, "GetViewName", 0);
-					r_RGetViewName.SetBelong(this.instance);
+					r_GetViewName = new(this, "GetViewName", 0);
+					r_GetViewName.SetBelong(this.instance);
 				}
-				return r_RGetViewName;
+				return r_GetViewName;
 			}
 		}
 
 		/// <summary>
 		/// Void CaptureMetalScene()
 		/// </summary>
-		protected RMethod r_RCaptureMetalScene;
+		protected RMethod r_CaptureMetalScene;
 		public virtual RMethod RCaptureMetalScene
 		{
 			get
 			{
-				if(r_RCaptureMetalScene == null)
+				if(r_CaptureMetalScene == null)
 				{
-					r_RCaptureMetalScene = new(this, "CaptureMetalScene", 0);
-					r_RCaptureMetalScene.SetBelong(this.instance);
+					r_CaptureMetalScene = new(this, "CaptureMetalScene", 0);
+					r_CaptureMetalScene.SetBelong(this.instance);
 				}
-				return r_RCaptureMetalScene;
+				return r_CaptureMetalScene;
 			}
 		}
 
 		/// <summary>
 		/// Void Reflow()
 		/// </summary>
-		protected RMethod r_RReflow;
+		protected RMethod r_Reflow;
 		public virtual RMethod RReflow
 		{
 			get
 			{
-				if(r_RReflow == null)
+				if(r_Reflow == null)
 				{
-					r_RReflow = new(this, "Reflow", 0);
-					r_RReflow.SetBelong(this.instance);
+					r_Reflow = new(this, "Reflow", 0);
+					r_Reflow.SetBelong(this.instance);
 				}
-				return r_RReflow;
+				return r_Reflow;
 			}
 		}
 
 		/// <summary>
 		/// System.String DebugHierarchy(Int32)
 		/// </summary>
-		protected RMethod r_RDebugHierarchy_Int32;
+		protected RMethod r_DebugHierarchy_Int32;
 		public virtual RMethod RDebugHierarchy_Int32
 		{
 			get
 			{
-				if(r_RDebugHierarchy_Int32 == null)
+				if(r_DebugHierarchy_Int32 == null)
 				{
-					r_RDebugHierarchy_Int32 = new(this, "DebugHierarchy", 0, typeof(System.Int32));
-					r_RDebugHierarchy_Int32.SetBelong(this.instance);
+					r_DebugHierarchy_Int32 = new(this, "DebugHierarchy", 0, typeof(System.Int32));
+					r_DebugHierarchy_Int32.SetBelong(this.instance);
 				}
-				return r_RDebugHierarchy_Int32;
+				return r_DebugHierarchy_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Void Initialize(UnityEditor.ContainerWindow)
 		/// </summary>
-		protected RMethod r_RInitialize_ContainerWindow;
+		protected RMethod r_Initialize_ContainerWindow;
 		public virtual RMethod RInitialize_ContainerWindow
 		{
 			get
 			{
-				if(r_RInitialize_ContainerWindow == null)
+				if(r_Initialize_ContainerWindow == null)
 				{
-					r_RInitialize_ContainerWindow = new(this, "Initialize", 0,  ReleactionUtils.GetType("UnityEditor.ContainerWindow"));
-					r_RInitialize_ContainerWindow.SetBelong(this.instance);
+					r_Initialize_ContainerWindow = new(this, "Initialize", 0,  ReleactionUtils.GetType("UnityEditor.ContainerWindow"));
+					r_Initialize_ContainerWindow.SetBelong(this.instance);
 				}
-				return r_RInitialize_ContainerWindow;
+				return r_Initialize_ContainerWindow;
 			}
 		}
 
 		/// <summary>
 		/// Void SetMinMaxSizes(UnityEngine.Vector2, UnityEngine.Vector2)
 		/// </summary>
-		protected RMethod r_RSetMinMaxSizes_Vector2_Vector2;
+		protected RMethod r_SetMinMaxSizes_Vector2_Vector2;
 		public virtual RMethod RSetMinMaxSizes_Vector2_Vector2
 		{
 			get
 			{
-				if(r_RSetMinMaxSizes_Vector2_Vector2 == null)
+				if(r_SetMinMaxSizes_Vector2_Vector2 == null)
 				{
-					r_RSetMinMaxSizes_Vector2_Vector2 = new(this, "SetMinMaxSizes", 0, typeof(UnityEngine.Vector2), typeof(UnityEngine.Vector2));
-					r_RSetMinMaxSizes_Vector2_Vector2.SetBelong(this.instance);
+					r_SetMinMaxSizes_Vector2_Vector2 = new(this, "SetMinMaxSizes", 0, typeof(UnityEngine.Vector2), typeof(UnityEngine.Vector2));
+					r_SetMinMaxSizes_Vector2_Vector2.SetBelong(this.instance);
 				}
-				return r_RSetMinMaxSizes_Vector2_Vector2;
+				return r_SetMinMaxSizes_Vector2_Vector2;
 			}
 		}
 
 		/// <summary>
 		/// Void ChildrenMinMaxChanged()
 		/// </summary>
-		protected RMethod r_RChildrenMinMaxChanged;
+		protected RMethod r_ChildrenMinMaxChanged;
 		public virtual RMethod RChildrenMinMaxChanged
 		{
 			get
 			{
-				if(r_RChildrenMinMaxChanged == null)
+				if(r_ChildrenMinMaxChanged == null)
 				{
-					r_RChildrenMinMaxChanged = new(this, "ChildrenMinMaxChanged", 0);
-					r_RChildrenMinMaxChanged.SetBelong(this.instance);
+					r_ChildrenMinMaxChanged = new(this, "ChildrenMinMaxChanged", 0);
+					r_ChildrenMinMaxChanged.SetBelong(this.instance);
 				}
-				return r_RChildrenMinMaxChanged;
+				return r_ChildrenMinMaxChanged;
 			}
 		}
 
 		/// <summary>
 		/// Void SetPositionOnly(UnityEngine.Rect)
 		/// </summary>
-		protected RMethod r_RSetPositionOnly_Rect;
+		protected RMethod r_SetPositionOnly_Rect;
 		public virtual RMethod RSetPositionOnly_Rect
 		{
 			get
 			{
-				if(r_RSetPositionOnly_Rect == null)
+				if(r_SetPositionOnly_Rect == null)
 				{
-					r_RSetPositionOnly_Rect = new(this, "SetPositionOnly", 0, typeof(UnityEngine.Rect));
-					r_RSetPositionOnly_Rect.SetBelong(this.instance);
+					r_SetPositionOnly_Rect = new(this, "SetPositionOnly", 0, typeof(UnityEngine.Rect));
+					r_SetPositionOnly_Rect.SetBelong(this.instance);
 				}
-				return r_RSetPositionOnly_Rect;
+				return r_SetPositionOnly_Rect;
 			}
 		}
 
 		/// <summary>
 		/// Int32 IndexOfChild(UnityEditor.View)
 		/// </summary>
-		protected RMethod r_RIndexOfChild_View;
+		protected RMethod r_IndexOfChild_View;
 		public virtual RMethod RIndexOfChild_View
 		{
 			get
 			{
-				if(r_RIndexOfChild_View == null)
+				if(r_IndexOfChild_View == null)
 				{
-					r_RIndexOfChild_View = new(this, "IndexOfChild", 0,  ReleactionUtils.GetType("UnityEditor.View"));
-					r_RIndexOfChild_View.SetBelong(this.instance);
+					r_IndexOfChild_View = new(this, "IndexOfChild", 0,  ReleactionUtils.GetType("UnityEditor.View"));
+					r_IndexOfChild_View.SetBelong(this.instance);
 				}
-				return r_RIndexOfChild_View;
+				return r_IndexOfChild_View;
 			}
 		}
 
 		/// <summary>
 		/// Void AddChild(UnityEditor.View)
 		/// </summary>
-		protected RMethod r_RAddChild_View;
+		protected RMethod r_AddChild_View;
 		public virtual RMethod RAddChild_View
 		{
 			get
 			{
-				if(r_RAddChild_View == null)
+				if(r_AddChild_View == null)
 				{
-					r_RAddChild_View = new(this, "AddChild", 0,  ReleactionUtils.GetType("UnityEditor.View"));
-					r_RAddChild_View.SetBelong(this.instance);
+					r_AddChild_View = new(this, "AddChild", 0,  ReleactionUtils.GetType("UnityEditor.View"));
+					r_AddChild_View.SetBelong(this.instance);
 				}
-				return r_RAddChild_View;
+				return r_AddChild_View;
 			}
 		}
 
 		/// <summary>
 		/// Void AddChild(UnityEditor.View, Int32)
 		/// </summary>
-		protected RMethod r_RAddChild_View_Int32;
+		protected RMethod r_AddChild_View_Int32;
 		public virtual RMethod RAddChild_View_Int32
 		{
 			get
 			{
-				if(r_RAddChild_View_Int32 == null)
+				if(r_AddChild_View_Int32 == null)
 				{
-					r_RAddChild_View_Int32 = new(this, "AddChild", 0,  ReleactionUtils.GetType("UnityEditor.View"), typeof(System.Int32));
-					r_RAddChild_View_Int32.SetBelong(this.instance);
+					r_AddChild_View_Int32 = new(this, "AddChild", 0,  ReleactionUtils.GetType("UnityEditor.View"), typeof(System.Int32));
+					r_AddChild_View_Int32.SetBelong(this.instance);
 				}
-				return r_RAddChild_View_Int32;
+				return r_AddChild_View_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Void RemoveChild(UnityEditor.View)
 		/// </summary>
-		protected RMethod r_RRemoveChild_View;
+		protected RMethod r_RemoveChild_View;
 		public virtual RMethod RRemoveChild_View
 		{
 			get
 			{
-				if(r_RRemoveChild_View == null)
+				if(r_RemoveChild_View == null)
 				{
-					r_RRemoveChild_View = new(this, "RemoveChild", 0,  ReleactionUtils.GetType("UnityEditor.View"));
-					r_RRemoveChild_View.SetBelong(this.instance);
+					r_RemoveChild_View = new(this, "RemoveChild", 0,  ReleactionUtils.GetType("UnityEditor.View"));
+					r_RemoveChild_View.SetBelong(this.instance);
 				}
-				return r_RRemoveChild_View;
+				return r_RemoveChild_View;
 			}
 		}
 
 		/// <summary>
 		/// Void RemoveChild(Int32)
 		/// </summary>
-		protected RMethod r_RRemoveChild_Int32;
+		protected RMethod r_RemoveChild_Int32;
 		public virtual RMethod RRemoveChild_Int32
 		{
 			get
 			{
-				if(r_RRemoveChild_Int32 == null)
+				if(r_RemoveChild_Int32 == null)
 				{
-					r_RRemoveChild_Int32 = new(this, "RemoveChild", 0, typeof(System.Int32));
-					r_RRemoveChild_Int32.SetBelong(this.instance);
+					r_RemoveChild_Int32 = new(this, "RemoveChild", 0, typeof(System.Int32));
+					r_RemoveChild_Int32.SetBelong(this.instance);
 				}
-				return r_RRemoveChild_Int32;
+				return r_RemoveChild_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Void SetWindowRecurse(UnityEditor.ContainerWindow)
 		/// </summary>
-		protected RMethod r_RSetWindowRecurse_ContainerWindow;
+		protected RMethod r_SetWindowRecurse_ContainerWindow;
 		public virtual RMethod RSetWindowRecurse_ContainerWindow
 		{
 			get
 			{
-				if(r_RSetWindowRecurse_ContainerWindow == null)
+				if(r_SetWindowRecurse_ContainerWindow == null)
 				{
-					r_RSetWindowRecurse_ContainerWindow = new(this, "SetWindowRecurse", 0,  ReleactionUtils.GetType("UnityEditor.ContainerWindow"));
-					r_RSetWindowRecurse_ContainerWindow.SetBelong(this.instance);
+					r_SetWindowRecurse_ContainerWindow = new(this, "SetWindowRecurse", 0,  ReleactionUtils.GetType("UnityEditor.ContainerWindow"));
+					r_SetWindowRecurse_ContainerWindow.SetBelong(this.instance);
 				}
-				return r_RSetWindowRecurse_ContainerWindow;
+				return r_SetWindowRecurse_ContainerWindow;
 			}
 		}
 
 		/// <summary>
 		/// Void SetDirty()
 		/// </summary>
-		protected RMethod r_RSetDirty;
+		protected RMethod r_SetDirty;
 		public virtual RMethod RSetDirty
 		{
 			get
 			{
-				if(r_RSetDirty == null)
+				if(r_SetDirty == null)
 				{
-					r_RSetDirty = new(this, "SetDirty", 0);
-					r_RSetDirty.SetBelong(this.instance);
+					r_SetDirty = new(this, "SetDirty", 0);
+					r_SetDirty.SetBelong(this.instance);
 				}
-				return r_RSetDirty;
+				return r_SetDirty;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetInstanceID()
 		/// </summary>
-		protected RMethod r_RGetInstanceID;
+		protected RMethod r_GetInstanceID;
 		public virtual RMethod RGetInstanceID
 		{
 			get
 			{
-				if(r_RGetInstanceID == null)
+				if(r_GetInstanceID == null)
 				{
-					r_RGetInstanceID = new(this, "GetInstanceID", 0);
-					r_RGetInstanceID.SetBelong(this.instance);
+					r_GetInstanceID = new(this, "GetInstanceID", 0);
+					r_GetInstanceID.SetBelong(this.instance);
 				}
-				return r_RGetInstanceID;
+				return r_GetInstanceID;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetHashCode()
 		/// </summary>
-		protected RMethod r_RGetHashCode;
+		protected RMethod r_GetHashCode;
 		public virtual RMethod RGetHashCode
 		{
 			get
 			{
-				if(r_RGetHashCode == null)
+				if(r_GetHashCode == null)
 				{
-					r_RGetHashCode = new(this, "GetHashCode", 0);
-					r_RGetHashCode.SetBelong(this.instance);
+					r_GetHashCode = new(this, "GetHashCode", 0);
+					r_GetHashCode.SetBelong(this.instance);
 				}
-				return r_RGetHashCode;
+				return r_GetHashCode;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Equals(System.Object)
 		/// </summary>
-		protected RMethod r_REquals_Object;
+		protected RMethod r_Equals_Object;
 		public virtual RMethod REquals_Object
 		{
 			get
 			{
-				if(r_REquals_Object == null)
+				if(r_Equals_Object == null)
 				{
-					r_REquals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_REquals_Object.SetBelong(this.instance);
+					r_Equals_Object = new(this, "Equals", 0, typeof(System.Object));
+					r_Equals_Object.SetBelong(this.instance);
 				}
-				return r_REquals_Object;
+				return r_Equals_Object;
 			}
 		}
 
 		/// <summary>
 		/// System.String ToString()
 		/// </summary>
-		protected RMethod r_RToString;
+		protected RMethod r_ToString;
 		public virtual RMethod RToString
 		{
 			get
 			{
-				if(r_RToString == null)
+				if(r_ToString == null)
 				{
-					r_RToString = new(this, "ToString", 0);
-					r_RToString.SetBelong(this.instance);
+					r_ToString = new(this, "ToString", 0);
+					r_ToString.SetBelong(this.instance);
 				}
-				return r_RToString;
+				return r_ToString;
 			}
 		}
 
 		/// <summary>
 		/// Void Finalize()
 		/// </summary>
-		protected RMethod r_RFinalize;
+		protected RMethod r_Finalize;
 		public virtual RMethod RFinalize
 		{
 			get
 			{
-				if(r_RFinalize == null)
+				if(r_Finalize == null)
 				{
-					r_RFinalize = new(this, "Finalize", 0);
-					r_RFinalize.SetBelong(this.instance);
+					r_Finalize = new(this, "Finalize", 0);
+					r_Finalize.SetBelong(this.instance);
 				}
-				return r_RFinalize;
+				return r_Finalize;
 			}
 		}
 
 		/// <summary>
 		/// System.Type GetType()
 		/// </summary>
-		protected RMethod r_RGetType;
+		protected RMethod r_GetType;
 		public virtual RMethod RGetType
 		{
 			get
 			{
-				if(r_RGetType == null)
+				if(r_GetType == null)
 				{
-					r_RGetType = new(this, "GetType", 0);
-					r_RGetType.SetBelong(this.instance);
+					r_GetType = new(this, "GetType", 0);
+					r_GetType.SetBelong(this.instance);
 				}
-				return r_RGetType;
+				return r_GetType;
 			}
 		}
 
 		/// <summary>
 		/// System.Object MemberwiseClone()
 		/// </summary>
-		protected RMethod r_RMemberwiseClone;
+		protected RMethod r_MemberwiseClone;
 		public virtual RMethod RMemberwiseClone
 		{
 			get
 			{
-				if(r_RMemberwiseClone == null)
+				if(r_MemberwiseClone == null)
 				{
-					r_RMemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_RMemberwiseClone.SetBelong(this.instance);
+					r_MemberwiseClone = new(this, "MemberwiseClone", 0);
+					r_MemberwiseClone.SetBelong(this.instance);
 				}
-				return r_RMemberwiseClone;
+				return r_MemberwiseClone;
 			}
 		}
 

@@ -251,170 +251,170 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// Boolean IsValidKind(System.Reflection.ExceptionHandlingClauseOptions)
 		/// </summary>
-		protected static RMethod r_RIsValidKind_ExceptionHandlingClauseOptions;
+		protected static RMethod r_IsValidKind_ExceptionHandlingClauseOptions;
 		public static RMethod RIsValidKind_ExceptionHandlingClauseOptions
 		{
 			get
 			{
-				if(r_RIsValidKind_ExceptionHandlingClauseOptions == null)
+				if(r_IsValidKind_ExceptionHandlingClauseOptions == null)
 				{
-					r_RIsValidKind_ExceptionHandlingClauseOptions = new(typeof(System.Reflection.Emit.ExceptionHandler), "IsValidKind", 0, typeof(System.Reflection.ExceptionHandlingClauseOptions));
-					r_RIsValidKind_ExceptionHandlingClauseOptions.SetBelong(null);
+					r_IsValidKind_ExceptionHandlingClauseOptions = new(typeof(System.Reflection.Emit.ExceptionHandler), "IsValidKind", 0, typeof(System.Reflection.ExceptionHandlingClauseOptions));
+					r_IsValidKind_ExceptionHandlingClauseOptions.SetBelong(null);
 				}
-				return r_RIsValidKind_ExceptionHandlingClauseOptions;
+				return r_IsValidKind_ExceptionHandlingClauseOptions;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetHashCode()
 		/// </summary>
-		protected RMethod r_RGetHashCode;
+		protected RMethod r_GetHashCode;
 		public virtual RMethod RGetHashCode
 		{
 			get
 			{
-				if(r_RGetHashCode == null)
+				if(r_GetHashCode == null)
 				{
-					r_RGetHashCode = new(this, "GetHashCode", 0);
-					r_RGetHashCode.SetBelong(this.instance);
+					r_GetHashCode = new(this, "GetHashCode", 0);
+					r_GetHashCode.SetBelong(this.instance);
 				}
-				return r_RGetHashCode;
+				return r_GetHashCode;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Equals(System.Object)
 		/// </summary>
-		protected RMethod r_REquals_Object;
+		protected RMethod r_Equals_Object;
 		public virtual RMethod REquals_Object
 		{
 			get
 			{
-				if(r_REquals_Object == null)
+				if(r_Equals_Object == null)
 				{
-					r_REquals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_REquals_Object.SetBelong(this.instance);
+					r_Equals_Object = new(this, "Equals", 0, typeof(System.Object));
+					r_Equals_Object.SetBelong(this.instance);
 				}
-				return r_REquals_Object;
+				return r_Equals_Object;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Equals(System.Reflection.Emit.ExceptionHandler)
 		/// </summary>
-		protected RMethod r_REquals_ExceptionHandler;
+		protected RMethod r_Equals_ExceptionHandler;
 		public virtual RMethod REquals_ExceptionHandler
 		{
 			get
 			{
-				if(r_REquals_ExceptionHandler == null)
+				if(r_Equals_ExceptionHandler == null)
 				{
-					r_REquals_ExceptionHandler = new(this, "Equals", 0, typeof(System.Reflection.Emit.ExceptionHandler));
-					r_REquals_ExceptionHandler.SetBelong(this.instance);
+					r_Equals_ExceptionHandler = new(this, "Equals", 0, typeof(System.Reflection.Emit.ExceptionHandler));
+					r_Equals_ExceptionHandler.SetBelong(this.instance);
 				}
-				return r_REquals_ExceptionHandler;
+				return r_Equals_ExceptionHandler;
 			}
 		}
 
 		/// <summary>
 		/// Boolean op_Equality(System.Reflection.Emit.ExceptionHandler, System.Reflection.Emit.ExceptionHandler)
 		/// </summary>
-		protected static RMethod r_Rop_Equality_ExceptionHandler_ExceptionHandler;
+		protected static RMethod r_op_Equality_ExceptionHandler_ExceptionHandler;
 		public static RMethod Rop_Equality_ExceptionHandler_ExceptionHandler
 		{
 			get
 			{
-				if(r_Rop_Equality_ExceptionHandler_ExceptionHandler == null)
+				if(r_op_Equality_ExceptionHandler_ExceptionHandler == null)
 				{
-					r_Rop_Equality_ExceptionHandler_ExceptionHandler = new(typeof(System.Reflection.Emit.ExceptionHandler), "op_Equality", 0, typeof(System.Reflection.Emit.ExceptionHandler), typeof(System.Reflection.Emit.ExceptionHandler));
-					r_Rop_Equality_ExceptionHandler_ExceptionHandler.SetBelong(null);
+					r_op_Equality_ExceptionHandler_ExceptionHandler = new(typeof(System.Reflection.Emit.ExceptionHandler), "op_Equality", 0, typeof(System.Reflection.Emit.ExceptionHandler), typeof(System.Reflection.Emit.ExceptionHandler));
+					r_op_Equality_ExceptionHandler_ExceptionHandler.SetBelong(null);
 				}
-				return r_Rop_Equality_ExceptionHandler_ExceptionHandler;
+				return r_op_Equality_ExceptionHandler_ExceptionHandler;
 			}
 		}
 
 		/// <summary>
 		/// Boolean op_Inequality(System.Reflection.Emit.ExceptionHandler, System.Reflection.Emit.ExceptionHandler)
 		/// </summary>
-		protected static RMethod r_Rop_Inequality_ExceptionHandler_ExceptionHandler;
+		protected static RMethod r_op_Inequality_ExceptionHandler_ExceptionHandler;
 		public static RMethod Rop_Inequality_ExceptionHandler_ExceptionHandler
 		{
 			get
 			{
-				if(r_Rop_Inequality_ExceptionHandler_ExceptionHandler == null)
+				if(r_op_Inequality_ExceptionHandler_ExceptionHandler == null)
 				{
-					r_Rop_Inequality_ExceptionHandler_ExceptionHandler = new(typeof(System.Reflection.Emit.ExceptionHandler), "op_Inequality", 0, typeof(System.Reflection.Emit.ExceptionHandler), typeof(System.Reflection.Emit.ExceptionHandler));
-					r_Rop_Inequality_ExceptionHandler_ExceptionHandler.SetBelong(null);
+					r_op_Inequality_ExceptionHandler_ExceptionHandler = new(typeof(System.Reflection.Emit.ExceptionHandler), "op_Inequality", 0, typeof(System.Reflection.Emit.ExceptionHandler), typeof(System.Reflection.Emit.ExceptionHandler));
+					r_op_Inequality_ExceptionHandler_ExceptionHandler.SetBelong(null);
 				}
-				return r_Rop_Inequality_ExceptionHandler_ExceptionHandler;
+				return r_op_Inequality_ExceptionHandler_ExceptionHandler;
 			}
 		}
 
 		/// <summary>
 		/// System.String ToString()
 		/// </summary>
-		protected RMethod r_RToString;
+		protected RMethod r_ToString;
 		public virtual RMethod RToString
 		{
 			get
 			{
-				if(r_RToString == null)
+				if(r_ToString == null)
 				{
-					r_RToString = new(this, "ToString", 0);
-					r_RToString.SetBelong(this.instance);
+					r_ToString = new(this, "ToString", 0);
+					r_ToString.SetBelong(this.instance);
 				}
-				return r_RToString;
+				return r_ToString;
 			}
 		}
 
 		/// <summary>
 		/// Void Finalize()
 		/// </summary>
-		protected RMethod r_RFinalize;
+		protected RMethod r_Finalize;
 		public virtual RMethod RFinalize
 		{
 			get
 			{
-				if(r_RFinalize == null)
+				if(r_Finalize == null)
 				{
-					r_RFinalize = new(this, "Finalize", 0);
-					r_RFinalize.SetBelong(this.instance);
+					r_Finalize = new(this, "Finalize", 0);
+					r_Finalize.SetBelong(this.instance);
 				}
-				return r_RFinalize;
+				return r_Finalize;
 			}
 		}
 
 		/// <summary>
 		/// System.Type GetType()
 		/// </summary>
-		protected RMethod r_RGetType;
+		protected RMethod r_GetType;
 		public virtual RMethod RGetType
 		{
 			get
 			{
-				if(r_RGetType == null)
+				if(r_GetType == null)
 				{
-					r_RGetType = new(this, "GetType", 0);
-					r_RGetType.SetBelong(this.instance);
+					r_GetType = new(this, "GetType", 0);
+					r_GetType.SetBelong(this.instance);
 				}
-				return r_RGetType;
+				return r_GetType;
 			}
 		}
 
 		/// <summary>
 		/// System.Object MemberwiseClone()
 		/// </summary>
-		protected RMethod r_RMemberwiseClone;
+		protected RMethod r_MemberwiseClone;
 		public virtual RMethod RMemberwiseClone
 		{
 			get
 			{
-				if(r_RMemberwiseClone == null)
+				if(r_MemberwiseClone == null)
 				{
-					r_RMemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_RMemberwiseClone.SetBelong(this.instance);
+					r_MemberwiseClone = new(this, "MemberwiseClone", 0);
+					r_MemberwiseClone.SetBelong(this.instance);
 				}
-				return r_RMemberwiseClone;
+				return r_MemberwiseClone;
 			}
 		}
 

@@ -48,7 +48,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// System.Int32 RightPortion
 		/// </summary>
 		protected static RField r_RightPortion;
-		public static RField RightPortion
+		public static RField RRightPortion
 		{
 			get
 			{
@@ -132,17 +132,17 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.String <Pattern>k__BackingField
 		/// </summary>
-		protected RField r___1__Pattern__2__k__BackingField;
-		public virtual RField R__1__Pattern__2__k__BackingField
+		protected RField r___0__Pattern__1__k__BackingField;
+		public virtual RField R__0__Pattern__1__k__BackingField
 		{
 			get
 			{
-				if(r___1__Pattern__2__k__BackingField == null)
+				if(r___0__Pattern__1__k__BackingField == null)
 				{
-					r___1__Pattern__2__k__BackingField = new(this, "<Pattern>k__BackingField");
-					r___1__Pattern__2__k__BackingField.SetBelong(this.instance);
+					r___0__Pattern__1__k__BackingField = new(this, "<Pattern>k__BackingField");
+					r___0__Pattern__1__k__BackingField.SetBelong(this.instance);
 				}
-				return r___1__Pattern__2__k__BackingField;
+				return r___0__Pattern__1__k__BackingField;
 			}
 		}
 
@@ -166,187 +166,187 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Text.RegularExpressions.RegexReplacement GetOrCreate(System.WeakReference`1[System.Text.RegularExpressions.RegexReplacement], System.String, System.Collections.Hashtable, Int32, System.Collections.Hashtable, System.Text.RegularExpressions.RegexOptions)
 		/// </summary>
-		protected static RMethod r_RGetOrCreate_WeakReference_d_RegexReplacement_p__String_Hashtable_Int32_Hashtable_RegexOptions;
+		protected static RMethod r_GetOrCreate_WeakReference_d_RegexReplacement_p__String_Hashtable_Int32_Hashtable_RegexOptions;
 		public static RMethod RGetOrCreate_WeakReference_d_RegexReplacement_p__String_Hashtable_Int32_Hashtable_RegexOptions
 		{
 			get
 			{
-				if(r_RGetOrCreate_WeakReference_d_RegexReplacement_p__String_Hashtable_Int32_Hashtable_RegexOptions == null)
+				if(r_GetOrCreate_WeakReference_d_RegexReplacement_p__String_Hashtable_Int32_Hashtable_RegexOptions == null)
 				{
-					r_RGetOrCreate_WeakReference_d_RegexReplacement_p__String_Hashtable_Int32_Hashtable_RegexOptions = new( ReleactionUtils.GetType("System.Text.RegularExpressions.RegexReplacement"), "GetOrCreate", 0, typeof(System.WeakReference<>).MakeGenericType( ReleactionUtils.GetType("System.Text.RegularExpressions.RegexReplacement")), typeof(System.String), typeof(System.Collections.Hashtable), typeof(System.Int32), typeof(System.Collections.Hashtable), typeof(System.Text.RegularExpressions.RegexOptions));
-					r_RGetOrCreate_WeakReference_d_RegexReplacement_p__String_Hashtable_Int32_Hashtable_RegexOptions.SetBelong(null);
+					r_GetOrCreate_WeakReference_d_RegexReplacement_p__String_Hashtable_Int32_Hashtable_RegexOptions = new( ReleactionUtils.GetType("System.Text.RegularExpressions.RegexReplacement"), "GetOrCreate", 0, typeof(System.WeakReference<>).MakeGenericType( ReleactionUtils.GetType("System.Text.RegularExpressions.RegexReplacement")), typeof(System.String), typeof(System.Collections.Hashtable), typeof(System.Int32), typeof(System.Collections.Hashtable), typeof(System.Text.RegularExpressions.RegexOptions));
+					r_GetOrCreate_WeakReference_d_RegexReplacement_p__String_Hashtable_Int32_Hashtable_RegexOptions.SetBelong(null);
 				}
-				return r_RGetOrCreate_WeakReference_d_RegexReplacement_p__String_Hashtable_Int32_Hashtable_RegexOptions;
+				return r_GetOrCreate_WeakReference_d_RegexReplacement_p__String_Hashtable_Int32_Hashtable_RegexOptions;
 			}
 		}
 
 		/// <summary>
 		/// Void ReplacementImpl(System.Text.StringBuilder, System.Text.RegularExpressions.Match)
 		/// </summary>
-		protected RMethod r_RReplacementImpl_StringBuilder_Match;
+		protected RMethod r_ReplacementImpl_StringBuilder_Match;
 		public virtual RMethod RReplacementImpl_StringBuilder_Match
 		{
 			get
 			{
-				if(r_RReplacementImpl_StringBuilder_Match == null)
+				if(r_ReplacementImpl_StringBuilder_Match == null)
 				{
-					r_RReplacementImpl_StringBuilder_Match = new(this, "ReplacementImpl", 0, typeof(System.Text.StringBuilder), typeof(System.Text.RegularExpressions.Match));
-					r_RReplacementImpl_StringBuilder_Match.SetBelong(this.instance);
+					r_ReplacementImpl_StringBuilder_Match = new(this, "ReplacementImpl", 0, typeof(System.Text.StringBuilder), typeof(System.Text.RegularExpressions.Match));
+					r_ReplacementImpl_StringBuilder_Match.SetBelong(this.instance);
 				}
-				return r_RReplacementImpl_StringBuilder_Match;
+				return r_ReplacementImpl_StringBuilder_Match;
 			}
 		}
 
 		/// <summary>
 		/// Void ReplacementImplRTL(System.Collections.Generic.List`1[System.String], System.Text.RegularExpressions.Match)
 		/// </summary>
-		protected RMethod r_RReplacementImplRTL_List_d_String_p__Match;
+		protected RMethod r_ReplacementImplRTL_List_d_String_p__Match;
 		public virtual RMethod RReplacementImplRTL_List_d_String_p__Match
 		{
 			get
 			{
-				if(r_RReplacementImplRTL_List_d_String_p__Match == null)
+				if(r_ReplacementImplRTL_List_d_String_p__Match == null)
 				{
-					r_RReplacementImplRTL_List_d_String_p__Match = new(this, "ReplacementImplRTL", 0, typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(System.String)), typeof(System.Text.RegularExpressions.Match));
-					r_RReplacementImplRTL_List_d_String_p__Match.SetBelong(this.instance);
+					r_ReplacementImplRTL_List_d_String_p__Match = new(this, "ReplacementImplRTL", 0, typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(System.String)), typeof(System.Text.RegularExpressions.Match));
+					r_ReplacementImplRTL_List_d_String_p__Match.SetBelong(this.instance);
 				}
-				return r_RReplacementImplRTL_List_d_String_p__Match;
+				return r_ReplacementImplRTL_List_d_String_p__Match;
 			}
 		}
 
 		/// <summary>
 		/// System.String Replacement(System.Text.RegularExpressions.Match)
 		/// </summary>
-		protected RMethod r_RReplacement_Match;
+		protected RMethod r_Replacement_Match;
 		public virtual RMethod RReplacement_Match
 		{
 			get
 			{
-				if(r_RReplacement_Match == null)
+				if(r_Replacement_Match == null)
 				{
-					r_RReplacement_Match = new(this, "Replacement", 0, typeof(System.Text.RegularExpressions.Match));
-					r_RReplacement_Match.SetBelong(this.instance);
+					r_Replacement_Match = new(this, "Replacement", 0, typeof(System.Text.RegularExpressions.Match));
+					r_Replacement_Match.SetBelong(this.instance);
 				}
-				return r_RReplacement_Match;
+				return r_Replacement_Match;
 			}
 		}
 
 		/// <summary>
 		/// System.String Replace(System.Text.RegularExpressions.Regex, System.String, Int32, Int32)
 		/// </summary>
-		protected RMethod r_RReplace_Regex_String_Int32_Int32;
+		protected RMethod r_Replace_Regex_String_Int32_Int32;
 		public virtual RMethod RReplace_Regex_String_Int32_Int32
 		{
 			get
 			{
-				if(r_RReplace_Regex_String_Int32_Int32 == null)
+				if(r_Replace_Regex_String_Int32_Int32 == null)
 				{
-					r_RReplace_Regex_String_Int32_Int32 = new(this, "Replace", 0, typeof(System.Text.RegularExpressions.Regex), typeof(System.String), typeof(System.Int32), typeof(System.Int32));
-					r_RReplace_Regex_String_Int32_Int32.SetBelong(this.instance);
+					r_Replace_Regex_String_Int32_Int32 = new(this, "Replace", 0, typeof(System.Text.RegularExpressions.Regex), typeof(System.String), typeof(System.Int32), typeof(System.Int32));
+					r_Replace_Regex_String_Int32_Int32.SetBelong(this.instance);
 				}
-				return r_RReplace_Regex_String_Int32_Int32;
+				return r_Replace_Regex_String_Int32_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Equals(System.Object)
 		/// </summary>
-		protected RMethod r_REquals_Object;
+		protected RMethod r_Equals_Object;
 		public virtual RMethod REquals_Object
 		{
 			get
 			{
-				if(r_REquals_Object == null)
+				if(r_Equals_Object == null)
 				{
-					r_REquals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_REquals_Object.SetBelong(this.instance);
+					r_Equals_Object = new(this, "Equals", 0, typeof(System.Object));
+					r_Equals_Object.SetBelong(this.instance);
 				}
-				return r_REquals_Object;
+				return r_Equals_Object;
 			}
 		}
 
 		/// <summary>
 		/// Void Finalize()
 		/// </summary>
-		protected RMethod r_RFinalize;
+		protected RMethod r_Finalize;
 		public virtual RMethod RFinalize
 		{
 			get
 			{
-				if(r_RFinalize == null)
+				if(r_Finalize == null)
 				{
-					r_RFinalize = new(this, "Finalize", 0);
-					r_RFinalize.SetBelong(this.instance);
+					r_Finalize = new(this, "Finalize", 0);
+					r_Finalize.SetBelong(this.instance);
 				}
-				return r_RFinalize;
+				return r_Finalize;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetHashCode()
 		/// </summary>
-		protected RMethod r_RGetHashCode;
+		protected RMethod r_GetHashCode;
 		public virtual RMethod RGetHashCode
 		{
 			get
 			{
-				if(r_RGetHashCode == null)
+				if(r_GetHashCode == null)
 				{
-					r_RGetHashCode = new(this, "GetHashCode", 0);
-					r_RGetHashCode.SetBelong(this.instance);
+					r_GetHashCode = new(this, "GetHashCode", 0);
+					r_GetHashCode.SetBelong(this.instance);
 				}
-				return r_RGetHashCode;
+				return r_GetHashCode;
 			}
 		}
 
 		/// <summary>
 		/// System.Type GetType()
 		/// </summary>
-		protected RMethod r_RGetType;
+		protected RMethod r_GetType;
 		public virtual RMethod RGetType
 		{
 			get
 			{
-				if(r_RGetType == null)
+				if(r_GetType == null)
 				{
-					r_RGetType = new(this, "GetType", 0);
-					r_RGetType.SetBelong(this.instance);
+					r_GetType = new(this, "GetType", 0);
+					r_GetType.SetBelong(this.instance);
 				}
-				return r_RGetType;
+				return r_GetType;
 			}
 		}
 
 		/// <summary>
 		/// System.Object MemberwiseClone()
 		/// </summary>
-		protected RMethod r_RMemberwiseClone;
+		protected RMethod r_MemberwiseClone;
 		public virtual RMethod RMemberwiseClone
 		{
 			get
 			{
-				if(r_RMemberwiseClone == null)
+				if(r_MemberwiseClone == null)
 				{
-					r_RMemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_RMemberwiseClone.SetBelong(this.instance);
+					r_MemberwiseClone = new(this, "MemberwiseClone", 0);
+					r_MemberwiseClone.SetBelong(this.instance);
 				}
-				return r_RMemberwiseClone;
+				return r_MemberwiseClone;
 			}
 		}
 
 		/// <summary>
 		/// System.String ToString()
 		/// </summary>
-		protected RMethod r_RToString;
+		protected RMethod r_ToString;
 		public virtual RMethod RToString
 		{
 			get
 			{
-				if(r_RToString == null)
+				if(r_ToString == null)
 				{
-					r_RToString = new(this, "ToString", 0);
-					r_RToString.SetBelong(this.instance);
+					r_ToString = new(this, "ToString", 0);
+					r_ToString.SetBelong(this.instance);
 				}
-				return r_RToString;
+				return r_ToString;
 			}
 		}
 

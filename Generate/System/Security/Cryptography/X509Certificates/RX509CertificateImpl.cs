@@ -116,7 +116,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certif
 		/// Byte[] RawData
 		/// </summary>
 		protected RPropertyArray<RProperty> r_RawData;
-		public virtual RPropertyArray<RProperty> RawData
+		public virtual RPropertyArray<RProperty> RRawData
 		{
 			get
 			{
@@ -268,289 +268,289 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certif
 		/// <summary>
 		/// IntPtr GetNativeAppleCertificate()
 		/// </summary>
-		protected RMethod r_RGetNativeAppleCertificate;
+		protected RMethod r_GetNativeAppleCertificate;
 		public virtual RMethod RGetNativeAppleCertificate
 		{
 			get
 			{
-				if(r_RGetNativeAppleCertificate == null)
+				if(r_GetNativeAppleCertificate == null)
 				{
-					r_RGetNativeAppleCertificate = new(this, "GetNativeAppleCertificate", 0);
-					r_RGetNativeAppleCertificate.SetBelong(this.instance);
+					r_GetNativeAppleCertificate = new(this, "GetNativeAppleCertificate", 0);
+					r_GetNativeAppleCertificate.SetBelong(this.instance);
 				}
-				return r_RGetNativeAppleCertificate;
+				return r_GetNativeAppleCertificate;
 			}
 		}
 
 		/// <summary>
 		/// Void ThrowIfContextInvalid()
 		/// </summary>
-		protected RMethod r_RThrowIfContextInvalid;
+		protected RMethod r_ThrowIfContextInvalid;
 		public virtual RMethod RThrowIfContextInvalid
 		{
 			get
 			{
-				if(r_RThrowIfContextInvalid == null)
+				if(r_ThrowIfContextInvalid == null)
 				{
-					r_RThrowIfContextInvalid = new(this, "ThrowIfContextInvalid", 0);
-					r_RThrowIfContextInvalid.SetBelong(this.instance);
+					r_ThrowIfContextInvalid = new(this, "ThrowIfContextInvalid", 0);
+					r_ThrowIfContextInvalid.SetBelong(this.instance);
 				}
-				return r_RThrowIfContextInvalid;
+				return r_ThrowIfContextInvalid;
 			}
 		}
 
 		/// <summary>
 		/// System.Security.Cryptography.X509Certificates.X509CertificateImpl Clone()
 		/// </summary>
-		protected RMethod r_RClone;
+		protected RMethod r_Clone;
 		public virtual RMethod RClone
 		{
 			get
 			{
-				if(r_RClone == null)
+				if(r_Clone == null)
 				{
-					r_RClone = new(this, "Clone", 0);
-					r_RClone.SetBelong(this.instance);
+					r_Clone = new(this, "Clone", 0);
+					r_Clone.SetBelong(this.instance);
 				}
-				return r_RClone;
+				return r_Clone;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetHashCode()
 		/// </summary>
-		protected RMethod r_RGetHashCode;
+		protected RMethod r_GetHashCode;
 		public virtual RMethod RGetHashCode
 		{
 			get
 			{
-				if(r_RGetHashCode == null)
+				if(r_GetHashCode == null)
 				{
-					r_RGetHashCode = new(this, "GetHashCode", 0);
-					r_RGetHashCode.SetBelong(this.instance);
+					r_GetHashCode = new(this, "GetHashCode", 0);
+					r_GetHashCode.SetBelong(this.instance);
 				}
-				return r_RGetHashCode;
+				return r_GetHashCode;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Equals(System.Security.Cryptography.X509Certificates.X509CertificateImpl, Boolean ByRef)
 		/// </summary>
-		protected RMethod r_REquals_X509CertificateImpl_Out_Boolean;
+		protected RMethod r_Equals_X509CertificateImpl_Out_Boolean;
 		public virtual RMethod REquals_X509CertificateImpl_Out_Boolean
 		{
 			get
 			{
-				if(r_REquals_X509CertificateImpl_Out_Boolean == null)
+				if(r_Equals_X509CertificateImpl_Out_Boolean == null)
 				{
-					r_REquals_X509CertificateImpl_Out_Boolean = new(this, "Equals", 0,  ReleactionUtils.GetType("System.Security.Cryptography.X509Certificates.X509CertificateImpl"), typeof(System.Boolean).MakeByRefType());
-					r_REquals_X509CertificateImpl_Out_Boolean.SetBelong(this.instance);
+					r_Equals_X509CertificateImpl_Out_Boolean = new(this, "Equals", 0,  ReleactionUtils.GetType("System.Security.Cryptography.X509Certificates.X509CertificateImpl"), typeof(System.Boolean).MakeByRefType());
+					r_Equals_X509CertificateImpl_Out_Boolean.SetBelong(this.instance);
 				}
-				return r_REquals_X509CertificateImpl_Out_Boolean;
+				return r_Equals_X509CertificateImpl_Out_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// System.Security.Cryptography.RSA GetRSAPrivateKey()
 		/// </summary>
-		protected RMethod r_RGetRSAPrivateKey;
+		protected RMethod r_GetRSAPrivateKey;
 		public virtual RMethod RGetRSAPrivateKey
 		{
 			get
 			{
-				if(r_RGetRSAPrivateKey == null)
+				if(r_GetRSAPrivateKey == null)
 				{
-					r_RGetRSAPrivateKey = new(this, "GetRSAPrivateKey", 0);
-					r_RGetRSAPrivateKey.SetBelong(this.instance);
+					r_GetRSAPrivateKey = new(this, "GetRSAPrivateKey", 0);
+					r_GetRSAPrivateKey.SetBelong(this.instance);
 				}
-				return r_RGetRSAPrivateKey;
+				return r_GetRSAPrivateKey;
 			}
 		}
 
 		/// <summary>
 		/// System.Security.Cryptography.DSA GetDSAPrivateKey()
 		/// </summary>
-		protected RMethod r_RGetDSAPrivateKey;
+		protected RMethod r_GetDSAPrivateKey;
 		public virtual RMethod RGetDSAPrivateKey
 		{
 			get
 			{
-				if(r_RGetDSAPrivateKey == null)
+				if(r_GetDSAPrivateKey == null)
 				{
-					r_RGetDSAPrivateKey = new(this, "GetDSAPrivateKey", 0);
-					r_RGetDSAPrivateKey.SetBelong(this.instance);
+					r_GetDSAPrivateKey = new(this, "GetDSAPrivateKey", 0);
+					r_GetDSAPrivateKey.SetBelong(this.instance);
 				}
-				return r_RGetDSAPrivateKey;
+				return r_GetDSAPrivateKey;
 			}
 		}
 
 		/// <summary>
 		/// Byte[] Export(System.Security.Cryptography.X509Certificates.X509ContentType, Microsoft.Win32.SafeHandles.SafePasswordHandle)
 		/// </summary>
-		protected RMethod r_RExport_X509ContentType_SafePasswordHandle;
+		protected RMethod r_Export_X509ContentType_SafePasswordHandle;
 		public virtual RMethod RExport_X509ContentType_SafePasswordHandle
 		{
 			get
 			{
-				if(r_RExport_X509ContentType_SafePasswordHandle == null)
+				if(r_Export_X509ContentType_SafePasswordHandle == null)
 				{
-					r_RExport_X509ContentType_SafePasswordHandle = new(this, "Export", 0, typeof(System.Security.Cryptography.X509Certificates.X509ContentType),  ReleactionUtils.GetType("Microsoft.Win32.SafeHandles.SafePasswordHandle"));
-					r_RExport_X509ContentType_SafePasswordHandle.SetBelong(this.instance);
+					r_Export_X509ContentType_SafePasswordHandle = new(this, "Export", 0, typeof(System.Security.Cryptography.X509Certificates.X509ContentType),  ReleactionUtils.GetType("Microsoft.Win32.SafeHandles.SafePasswordHandle"));
+					r_Export_X509ContentType_SafePasswordHandle.SetBelong(this.instance);
 				}
-				return r_RExport_X509ContentType_SafePasswordHandle;
+				return r_Export_X509ContentType_SafePasswordHandle;
 			}
 		}
 
 		/// <summary>
 		/// System.Security.Cryptography.X509Certificates.X509CertificateImpl CopyWithPrivateKey(System.Security.Cryptography.RSA)
 		/// </summary>
-		protected RMethod r_RCopyWithPrivateKey_RSA;
+		protected RMethod r_CopyWithPrivateKey_RSA;
 		public virtual RMethod RCopyWithPrivateKey_RSA
 		{
 			get
 			{
-				if(r_RCopyWithPrivateKey_RSA == null)
+				if(r_CopyWithPrivateKey_RSA == null)
 				{
-					r_RCopyWithPrivateKey_RSA = new(this, "CopyWithPrivateKey", 0, typeof(System.Security.Cryptography.RSA));
-					r_RCopyWithPrivateKey_RSA.SetBelong(this.instance);
+					r_CopyWithPrivateKey_RSA = new(this, "CopyWithPrivateKey", 0, typeof(System.Security.Cryptography.RSA));
+					r_CopyWithPrivateKey_RSA.SetBelong(this.instance);
 				}
-				return r_RCopyWithPrivateKey_RSA;
+				return r_CopyWithPrivateKey_RSA;
 			}
 		}
 
 		/// <summary>
 		/// System.Security.Cryptography.X509Certificates.X509Certificate CreateCertificate()
 		/// </summary>
-		protected RMethod r_RCreateCertificate;
+		protected RMethod r_CreateCertificate;
 		public virtual RMethod RCreateCertificate
 		{
 			get
 			{
-				if(r_RCreateCertificate == null)
+				if(r_CreateCertificate == null)
 				{
-					r_RCreateCertificate = new(this, "CreateCertificate", 0);
-					r_RCreateCertificate.SetBelong(this.instance);
+					r_CreateCertificate = new(this, "CreateCertificate", 0);
+					r_CreateCertificate.SetBelong(this.instance);
 				}
-				return r_RCreateCertificate;
+				return r_CreateCertificate;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Equals(System.Object)
 		/// </summary>
-		protected RMethod r_REquals_Object;
+		protected RMethod r_Equals_Object;
 		public virtual RMethod REquals_Object
 		{
 			get
 			{
-				if(r_REquals_Object == null)
+				if(r_Equals_Object == null)
 				{
-					r_REquals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_REquals_Object.SetBelong(this.instance);
+					r_Equals_Object = new(this, "Equals", 0, typeof(System.Object));
+					r_Equals_Object.SetBelong(this.instance);
 				}
-				return r_REquals_Object;
+				return r_Equals_Object;
 			}
 		}
 
 		/// <summary>
 		/// Void Dispose()
 		/// </summary>
-		protected RMethod r_RDispose;
+		protected RMethod r_Dispose;
 		public virtual RMethod RDispose
 		{
 			get
 			{
-				if(r_RDispose == null)
+				if(r_Dispose == null)
 				{
-					r_RDispose = new(this, "Dispose", 0);
-					r_RDispose.SetBelong(this.instance);
+					r_Dispose = new(this, "Dispose", 0);
+					r_Dispose.SetBelong(this.instance);
 				}
-				return r_RDispose;
+				return r_Dispose;
 			}
 		}
 
 		/// <summary>
 		/// Void Dispose(Boolean)
 		/// </summary>
-		protected RMethod r_RDispose_Boolean;
+		protected RMethod r_Dispose_Boolean;
 		public virtual RMethod RDispose_Boolean
 		{
 			get
 			{
-				if(r_RDispose_Boolean == null)
+				if(r_Dispose_Boolean == null)
 				{
-					r_RDispose_Boolean = new(this, "Dispose", 0, typeof(System.Boolean));
-					r_RDispose_Boolean.SetBelong(this.instance);
+					r_Dispose_Boolean = new(this, "Dispose", 0, typeof(System.Boolean));
+					r_Dispose_Boolean.SetBelong(this.instance);
 				}
-				return r_RDispose_Boolean;
+				return r_Dispose_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Void Finalize()
 		/// </summary>
-		protected RMethod r_RFinalize;
+		protected RMethod r_Finalize;
 		public virtual RMethod RFinalize
 		{
 			get
 			{
-				if(r_RFinalize == null)
+				if(r_Finalize == null)
 				{
-					r_RFinalize = new(this, "Finalize", 0);
-					r_RFinalize.SetBelong(this.instance);
+					r_Finalize = new(this, "Finalize", 0);
+					r_Finalize.SetBelong(this.instance);
 				}
-				return r_RFinalize;
+				return r_Finalize;
 			}
 		}
 
 		/// <summary>
 		/// System.Type GetType()
 		/// </summary>
-		protected RMethod r_RGetType;
+		protected RMethod r_GetType;
 		public virtual RMethod RGetType
 		{
 			get
 			{
-				if(r_RGetType == null)
+				if(r_GetType == null)
 				{
-					r_RGetType = new(this, "GetType", 0);
-					r_RGetType.SetBelong(this.instance);
+					r_GetType = new(this, "GetType", 0);
+					r_GetType.SetBelong(this.instance);
 				}
-				return r_RGetType;
+				return r_GetType;
 			}
 		}
 
 		/// <summary>
 		/// System.Object MemberwiseClone()
 		/// </summary>
-		protected RMethod r_RMemberwiseClone;
+		protected RMethod r_MemberwiseClone;
 		public virtual RMethod RMemberwiseClone
 		{
 			get
 			{
-				if(r_RMemberwiseClone == null)
+				if(r_MemberwiseClone == null)
 				{
-					r_RMemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_RMemberwiseClone.SetBelong(this.instance);
+					r_MemberwiseClone = new(this, "MemberwiseClone", 0);
+					r_MemberwiseClone.SetBelong(this.instance);
 				}
-				return r_RMemberwiseClone;
+				return r_MemberwiseClone;
 			}
 		}
 
 		/// <summary>
 		/// System.String ToString()
 		/// </summary>
-		protected RMethod r_RToString;
+		protected RMethod r_ToString;
 		public virtual RMethod RToString
 		{
 			get
 			{
-				if(r_RToString == null)
+				if(r_ToString == null)
 				{
-					r_RToString = new(this, "ToString", 0);
-					r_RToString.SetBelong(this.instance);
+					r_ToString = new(this, "ToString", 0);
+					r_ToString.SetBelong(this.instance);
 				}
-				return r_RToString;
+				return r_ToString;
 			}
 		}
 

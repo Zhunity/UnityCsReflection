@@ -47,17 +47,17 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.VisualElement <ve>k__BackingField
 		/// </summary>
-		protected RUnityEngine.RUIElements.RVisualElement r___1__ve__2__k__BackingField;
-		public virtual RUnityEngine.RUIElements.RVisualElement R__1__ve__2__k__BackingField
+		protected RUnityEngine.RUIElements.RVisualElement r___0__ve__1__k__BackingField;
+		public virtual RUnityEngine.RUIElements.RVisualElement R__0__ve__1__k__BackingField
 		{
 			get
 			{
-				if(r___1__ve__2__k__BackingField == null)
+				if(r___0__ve__1__k__BackingField == null)
 				{
-					r___1__ve__2__k__BackingField = new(this, "<ve>k__BackingField");
-					r___1__ve__2__k__BackingField.SetBelong(this.instance);
+					r___0__ve__1__k__BackingField = new(this, "<ve>k__BackingField");
+					r___0__ve__1__k__BackingField.SetBelong(this.instance);
 				}
-				return r___1__ve__2__k__BackingField;
+				return r___0__ve__1__k__BackingField;
 			}
 		}
 
@@ -336,1258 +336,1258 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleEnum`1[UnityEngine.UIElements.Align] UnityEngine.UIElements.IStyle.alignContent
 		/// </summary>
-		protected RProperty r_RUnityEngine__0__UIElements__0__IStyle__0__get_alignContent;
-		public virtual RProperty RUnityEngine__0__UIElements__0__IStyle__0__get_alignContent
+		protected RProperty r_UnityEngine__2__UIElements__2__IStyle__2__alignContent;
+		public virtual RProperty RUnityEngine__2__UIElements__2__IStyle__2__alignContent
 		{
 			get
 			{
-				if(r_RUnityEngine__0__UIElements__0__IStyle__0__get_alignContent == null)
+				if(r_UnityEngine__2__UIElements__2__IStyle__2__alignContent == null)
 				{
-					r_RUnityEngine__0__UIElements__0__IStyle__0__get_alignContent = new(this, "UnityEngine.UIElements.IStyle.alignContent", -1);
-					r_RUnityEngine__0__UIElements__0__IStyle__0__get_alignContent.SetBelong(this.instance);
+					r_UnityEngine__2__UIElements__2__IStyle__2__alignContent = new(this, "UnityEngine.UIElements.IStyle.alignContent", -1);
+					r_UnityEngine__2__UIElements__2__IStyle__2__alignContent.SetBelong(this.instance);
 				}
-				return r_RUnityEngine__0__UIElements__0__IStyle__0__get_alignContent;
+				return r_UnityEngine__2__UIElements__2__IStyle__2__alignContent;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleEnum`1[UnityEngine.UIElements.Align] UnityEngine.UIElements.IStyle.alignItems
 		/// </summary>
-		protected RProperty r_RUnityEngine__0__UIElements__0__IStyle__0__get_alignItems;
-		public virtual RProperty RUnityEngine__0__UIElements__0__IStyle__0__get_alignItems
+		protected RProperty r_UnityEngine__2__UIElements__2__IStyle__2__alignItems;
+		public virtual RProperty RUnityEngine__2__UIElements__2__IStyle__2__alignItems
 		{
 			get
 			{
-				if(r_RUnityEngine__0__UIElements__0__IStyle__0__get_alignItems == null)
+				if(r_UnityEngine__2__UIElements__2__IStyle__2__alignItems == null)
 				{
-					r_RUnityEngine__0__UIElements__0__IStyle__0__get_alignItems = new(this, "UnityEngine.UIElements.IStyle.alignItems", -1);
-					r_RUnityEngine__0__UIElements__0__IStyle__0__get_alignItems.SetBelong(this.instance);
+					r_UnityEngine__2__UIElements__2__IStyle__2__alignItems = new(this, "UnityEngine.UIElements.IStyle.alignItems", -1);
+					r_UnityEngine__2__UIElements__2__IStyle__2__alignItems.SetBelong(this.instance);
 				}
-				return r_RUnityEngine__0__UIElements__0__IStyle__0__get_alignItems;
+				return r_UnityEngine__2__UIElements__2__IStyle__2__alignItems;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleEnum`1[UnityEngine.UIElements.Align] UnityEngine.UIElements.IStyle.alignSelf
 		/// </summary>
-		protected RProperty r_RUnityEngine__0__UIElements__0__IStyle__0__get_alignSelf;
-		public virtual RProperty RUnityEngine__0__UIElements__0__IStyle__0__get_alignSelf
+		protected RProperty r_UnityEngine__2__UIElements__2__IStyle__2__alignSelf;
+		public virtual RProperty RUnityEngine__2__UIElements__2__IStyle__2__alignSelf
 		{
 			get
 			{
-				if(r_RUnityEngine__0__UIElements__0__IStyle__0__get_alignSelf == null)
+				if(r_UnityEngine__2__UIElements__2__IStyle__2__alignSelf == null)
 				{
-					r_RUnityEngine__0__UIElements__0__IStyle__0__get_alignSelf = new(this, "UnityEngine.UIElements.IStyle.alignSelf", -1);
-					r_RUnityEngine__0__UIElements__0__IStyle__0__get_alignSelf.SetBelong(this.instance);
+					r_UnityEngine__2__UIElements__2__IStyle__2__alignSelf = new(this, "UnityEngine.UIElements.IStyle.alignSelf", -1);
+					r_UnityEngine__2__UIElements__2__IStyle__2__alignSelf.SetBelong(this.instance);
 				}
-				return r_RUnityEngine__0__UIElements__0__IStyle__0__get_alignSelf;
+				return r_UnityEngine__2__UIElements__2__IStyle__2__alignSelf;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleColor UnityEngine.UIElements.IStyle.backgroundColor
 		/// </summary>
-		protected RUnityEngine.RUIElements.RStyleColor r_RUnityEngine__0__UIElements__0__IStyle__0__get_backgroundColor;
-		public virtual RUnityEngine.RUIElements.RStyleColor RUnityEngine__0__UIElements__0__IStyle__0__get_backgroundColor
+		protected RUnityEngine.RUIElements.RStyleColor r_UnityEngine__2__UIElements__2__IStyle__2__backgroundColor;
+		public virtual RUnityEngine.RUIElements.RStyleColor RUnityEngine__2__UIElements__2__IStyle__2__backgroundColor
 		{
 			get
 			{
-				if(r_RUnityEngine__0__UIElements__0__IStyle__0__get_backgroundColor == null)
+				if(r_UnityEngine__2__UIElements__2__IStyle__2__backgroundColor == null)
 				{
-					r_RUnityEngine__0__UIElements__0__IStyle__0__get_backgroundColor = new(this, "UnityEngine.UIElements.IStyle.backgroundColor", -1);
-					r_RUnityEngine__0__UIElements__0__IStyle__0__get_backgroundColor.SetBelong(this.instance);
+					r_UnityEngine__2__UIElements__2__IStyle__2__backgroundColor = new(this, "UnityEngine.UIElements.IStyle.backgroundColor", -1);
+					r_UnityEngine__2__UIElements__2__IStyle__2__backgroundColor.SetBelong(this.instance);
 				}
-				return r_RUnityEngine__0__UIElements__0__IStyle__0__get_backgroundColor;
+				return r_UnityEngine__2__UIElements__2__IStyle__2__backgroundColor;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleBackground UnityEngine.UIElements.IStyle.backgroundImage
 		/// </summary>
-		protected RUnityEngine.RUIElements.RStyleBackground r_RUnityEngine__0__UIElements__0__IStyle__0__get_backgroundImage;
-		public virtual RUnityEngine.RUIElements.RStyleBackground RUnityEngine__0__UIElements__0__IStyle__0__get_backgroundImage
+		protected RUnityEngine.RUIElements.RStyleBackground r_UnityEngine__2__UIElements__2__IStyle__2__backgroundImage;
+		public virtual RUnityEngine.RUIElements.RStyleBackground RUnityEngine__2__UIElements__2__IStyle__2__backgroundImage
 		{
 			get
 			{
-				if(r_RUnityEngine__0__UIElements__0__IStyle__0__get_backgroundImage == null)
+				if(r_UnityEngine__2__UIElements__2__IStyle__2__backgroundImage == null)
 				{
-					r_RUnityEngine__0__UIElements__0__IStyle__0__get_backgroundImage = new(this, "UnityEngine.UIElements.IStyle.backgroundImage", -1);
-					r_RUnityEngine__0__UIElements__0__IStyle__0__get_backgroundImage.SetBelong(this.instance);
+					r_UnityEngine__2__UIElements__2__IStyle__2__backgroundImage = new(this, "UnityEngine.UIElements.IStyle.backgroundImage", -1);
+					r_UnityEngine__2__UIElements__2__IStyle__2__backgroundImage.SetBelong(this.instance);
 				}
-				return r_RUnityEngine__0__UIElements__0__IStyle__0__get_backgroundImage;
+				return r_UnityEngine__2__UIElements__2__IStyle__2__backgroundImage;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleBackgroundPosition UnityEngine.UIElements.IStyle.backgroundPositionX
 		/// </summary>
-		protected RUnityEngine.RUIElements.RStyleBackgroundPosition r_RUnityEngine__0__UIElements__0__IStyle__0__get_backgroundPositionX;
-		public virtual RUnityEngine.RUIElements.RStyleBackgroundPosition RUnityEngine__0__UIElements__0__IStyle__0__get_backgroundPositionX
+		protected RUnityEngine.RUIElements.RStyleBackgroundPosition r_UnityEngine__2__UIElements__2__IStyle__2__backgroundPositionX;
+		public virtual RUnityEngine.RUIElements.RStyleBackgroundPosition RUnityEngine__2__UIElements__2__IStyle__2__backgroundPositionX
 		{
 			get
 			{
-				if(r_RUnityEngine__0__UIElements__0__IStyle__0__get_backgroundPositionX == null)
+				if(r_UnityEngine__2__UIElements__2__IStyle__2__backgroundPositionX == null)
 				{
-					r_RUnityEngine__0__UIElements__0__IStyle__0__get_backgroundPositionX = new(this, "UnityEngine.UIElements.IStyle.backgroundPositionX", -1);
-					r_RUnityEngine__0__UIElements__0__IStyle__0__get_backgroundPositionX.SetBelong(this.instance);
+					r_UnityEngine__2__UIElements__2__IStyle__2__backgroundPositionX = new(this, "UnityEngine.UIElements.IStyle.backgroundPositionX", -1);
+					r_UnityEngine__2__UIElements__2__IStyle__2__backgroundPositionX.SetBelong(this.instance);
 				}
-				return r_RUnityEngine__0__UIElements__0__IStyle__0__get_backgroundPositionX;
+				return r_UnityEngine__2__UIElements__2__IStyle__2__backgroundPositionX;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleBackgroundPosition UnityEngine.UIElements.IStyle.backgroundPositionY
 		/// </summary>
-		protected RUnityEngine.RUIElements.RStyleBackgroundPosition r_RUnityEngine__0__UIElements__0__IStyle__0__get_backgroundPositionY;
-		public virtual RUnityEngine.RUIElements.RStyleBackgroundPosition RUnityEngine__0__UIElements__0__IStyle__0__get_backgroundPositionY
+		protected RUnityEngine.RUIElements.RStyleBackgroundPosition r_UnityEngine__2__UIElements__2__IStyle__2__backgroundPositionY;
+		public virtual RUnityEngine.RUIElements.RStyleBackgroundPosition RUnityEngine__2__UIElements__2__IStyle__2__backgroundPositionY
 		{
 			get
 			{
-				if(r_RUnityEngine__0__UIElements__0__IStyle__0__get_backgroundPositionY == null)
+				if(r_UnityEngine__2__UIElements__2__IStyle__2__backgroundPositionY == null)
 				{
-					r_RUnityEngine__0__UIElements__0__IStyle__0__get_backgroundPositionY = new(this, "UnityEngine.UIElements.IStyle.backgroundPositionY", -1);
-					r_RUnityEngine__0__UIElements__0__IStyle__0__get_backgroundPositionY.SetBelong(this.instance);
+					r_UnityEngine__2__UIElements__2__IStyle__2__backgroundPositionY = new(this, "UnityEngine.UIElements.IStyle.backgroundPositionY", -1);
+					r_UnityEngine__2__UIElements__2__IStyle__2__backgroundPositionY.SetBelong(this.instance);
 				}
-				return r_RUnityEngine__0__UIElements__0__IStyle__0__get_backgroundPositionY;
+				return r_UnityEngine__2__UIElements__2__IStyle__2__backgroundPositionY;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleBackgroundRepeat UnityEngine.UIElements.IStyle.backgroundRepeat
 		/// </summary>
-		protected RUnityEngine.RUIElements.RStyleBackgroundRepeat r_RUnityEngine__0__UIElements__0__IStyle__0__get_backgroundRepeat;
-		public virtual RUnityEngine.RUIElements.RStyleBackgroundRepeat RUnityEngine__0__UIElements__0__IStyle__0__get_backgroundRepeat
+		protected RUnityEngine.RUIElements.RStyleBackgroundRepeat r_UnityEngine__2__UIElements__2__IStyle__2__backgroundRepeat;
+		public virtual RUnityEngine.RUIElements.RStyleBackgroundRepeat RUnityEngine__2__UIElements__2__IStyle__2__backgroundRepeat
 		{
 			get
 			{
-				if(r_RUnityEngine__0__UIElements__0__IStyle__0__get_backgroundRepeat == null)
+				if(r_UnityEngine__2__UIElements__2__IStyle__2__backgroundRepeat == null)
 				{
-					r_RUnityEngine__0__UIElements__0__IStyle__0__get_backgroundRepeat = new(this, "UnityEngine.UIElements.IStyle.backgroundRepeat", -1);
-					r_RUnityEngine__0__UIElements__0__IStyle__0__get_backgroundRepeat.SetBelong(this.instance);
+					r_UnityEngine__2__UIElements__2__IStyle__2__backgroundRepeat = new(this, "UnityEngine.UIElements.IStyle.backgroundRepeat", -1);
+					r_UnityEngine__2__UIElements__2__IStyle__2__backgroundRepeat.SetBelong(this.instance);
 				}
-				return r_RUnityEngine__0__UIElements__0__IStyle__0__get_backgroundRepeat;
+				return r_UnityEngine__2__UIElements__2__IStyle__2__backgroundRepeat;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleColor UnityEngine.UIElements.IStyle.borderBottomColor
 		/// </summary>
-		protected RUnityEngine.RUIElements.RStyleColor r_RUnityEngine__0__UIElements__0__IStyle__0__get_borderBottomColor;
-		public virtual RUnityEngine.RUIElements.RStyleColor RUnityEngine__0__UIElements__0__IStyle__0__get_borderBottomColor
+		protected RUnityEngine.RUIElements.RStyleColor r_UnityEngine__2__UIElements__2__IStyle__2__borderBottomColor;
+		public virtual RUnityEngine.RUIElements.RStyleColor RUnityEngine__2__UIElements__2__IStyle__2__borderBottomColor
 		{
 			get
 			{
-				if(r_RUnityEngine__0__UIElements__0__IStyle__0__get_borderBottomColor == null)
+				if(r_UnityEngine__2__UIElements__2__IStyle__2__borderBottomColor == null)
 				{
-					r_RUnityEngine__0__UIElements__0__IStyle__0__get_borderBottomColor = new(this, "UnityEngine.UIElements.IStyle.borderBottomColor", -1);
-					r_RUnityEngine__0__UIElements__0__IStyle__0__get_borderBottomColor.SetBelong(this.instance);
+					r_UnityEngine__2__UIElements__2__IStyle__2__borderBottomColor = new(this, "UnityEngine.UIElements.IStyle.borderBottomColor", -1);
+					r_UnityEngine__2__UIElements__2__IStyle__2__borderBottomColor.SetBelong(this.instance);
 				}
-				return r_RUnityEngine__0__UIElements__0__IStyle__0__get_borderBottomColor;
+				return r_UnityEngine__2__UIElements__2__IStyle__2__borderBottomColor;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleLength UnityEngine.UIElements.IStyle.borderBottomLeftRadius
 		/// </summary>
-		protected RUnityEngine.RUIElements.RStyleLength r_RUnityEngine__0__UIElements__0__IStyle__0__get_borderBottomLeftRadius;
-		public virtual RUnityEngine.RUIElements.RStyleLength RUnityEngine__0__UIElements__0__IStyle__0__get_borderBottomLeftRadius
+		protected RUnityEngine.RUIElements.RStyleLength r_UnityEngine__2__UIElements__2__IStyle__2__borderBottomLeftRadius;
+		public virtual RUnityEngine.RUIElements.RStyleLength RUnityEngine__2__UIElements__2__IStyle__2__borderBottomLeftRadius
 		{
 			get
 			{
-				if(r_RUnityEngine__0__UIElements__0__IStyle__0__get_borderBottomLeftRadius == null)
+				if(r_UnityEngine__2__UIElements__2__IStyle__2__borderBottomLeftRadius == null)
 				{
-					r_RUnityEngine__0__UIElements__0__IStyle__0__get_borderBottomLeftRadius = new(this, "UnityEngine.UIElements.IStyle.borderBottomLeftRadius", -1);
-					r_RUnityEngine__0__UIElements__0__IStyle__0__get_borderBottomLeftRadius.SetBelong(this.instance);
+					r_UnityEngine__2__UIElements__2__IStyle__2__borderBottomLeftRadius = new(this, "UnityEngine.UIElements.IStyle.borderBottomLeftRadius", -1);
+					r_UnityEngine__2__UIElements__2__IStyle__2__borderBottomLeftRadius.SetBelong(this.instance);
 				}
-				return r_RUnityEngine__0__UIElements__0__IStyle__0__get_borderBottomLeftRadius;
+				return r_UnityEngine__2__UIElements__2__IStyle__2__borderBottomLeftRadius;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleLength UnityEngine.UIElements.IStyle.borderBottomRightRadius
 		/// </summary>
-		protected RUnityEngine.RUIElements.RStyleLength r_RUnityEngine__0__UIElements__0__IStyle__0__get_borderBottomRightRadius;
-		public virtual RUnityEngine.RUIElements.RStyleLength RUnityEngine__0__UIElements__0__IStyle__0__get_borderBottomRightRadius
+		protected RUnityEngine.RUIElements.RStyleLength r_UnityEngine__2__UIElements__2__IStyle__2__borderBottomRightRadius;
+		public virtual RUnityEngine.RUIElements.RStyleLength RUnityEngine__2__UIElements__2__IStyle__2__borderBottomRightRadius
 		{
 			get
 			{
-				if(r_RUnityEngine__0__UIElements__0__IStyle__0__get_borderBottomRightRadius == null)
+				if(r_UnityEngine__2__UIElements__2__IStyle__2__borderBottomRightRadius == null)
 				{
-					r_RUnityEngine__0__UIElements__0__IStyle__0__get_borderBottomRightRadius = new(this, "UnityEngine.UIElements.IStyle.borderBottomRightRadius", -1);
-					r_RUnityEngine__0__UIElements__0__IStyle__0__get_borderBottomRightRadius.SetBelong(this.instance);
+					r_UnityEngine__2__UIElements__2__IStyle__2__borderBottomRightRadius = new(this, "UnityEngine.UIElements.IStyle.borderBottomRightRadius", -1);
+					r_UnityEngine__2__UIElements__2__IStyle__2__borderBottomRightRadius.SetBelong(this.instance);
 				}
-				return r_RUnityEngine__0__UIElements__0__IStyle__0__get_borderBottomRightRadius;
+				return r_UnityEngine__2__UIElements__2__IStyle__2__borderBottomRightRadius;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleFloat UnityEngine.UIElements.IStyle.borderBottomWidth
 		/// </summary>
-		protected RUnityEngine.RUIElements.RStyleFloat r_RUnityEngine__0__UIElements__0__IStyle__0__get_borderBottomWidth;
-		public virtual RUnityEngine.RUIElements.RStyleFloat RUnityEngine__0__UIElements__0__IStyle__0__get_borderBottomWidth
+		protected RUnityEngine.RUIElements.RStyleFloat r_UnityEngine__2__UIElements__2__IStyle__2__borderBottomWidth;
+		public virtual RUnityEngine.RUIElements.RStyleFloat RUnityEngine__2__UIElements__2__IStyle__2__borderBottomWidth
 		{
 			get
 			{
-				if(r_RUnityEngine__0__UIElements__0__IStyle__0__get_borderBottomWidth == null)
+				if(r_UnityEngine__2__UIElements__2__IStyle__2__borderBottomWidth == null)
 				{
-					r_RUnityEngine__0__UIElements__0__IStyle__0__get_borderBottomWidth = new(this, "UnityEngine.UIElements.IStyle.borderBottomWidth", -1);
-					r_RUnityEngine__0__UIElements__0__IStyle__0__get_borderBottomWidth.SetBelong(this.instance);
+					r_UnityEngine__2__UIElements__2__IStyle__2__borderBottomWidth = new(this, "UnityEngine.UIElements.IStyle.borderBottomWidth", -1);
+					r_UnityEngine__2__UIElements__2__IStyle__2__borderBottomWidth.SetBelong(this.instance);
 				}
-				return r_RUnityEngine__0__UIElements__0__IStyle__0__get_borderBottomWidth;
+				return r_UnityEngine__2__UIElements__2__IStyle__2__borderBottomWidth;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleColor UnityEngine.UIElements.IStyle.borderLeftColor
 		/// </summary>
-		protected RUnityEngine.RUIElements.RStyleColor r_RUnityEngine__0__UIElements__0__IStyle__0__get_borderLeftColor;
-		public virtual RUnityEngine.RUIElements.RStyleColor RUnityEngine__0__UIElements__0__IStyle__0__get_borderLeftColor
+		protected RUnityEngine.RUIElements.RStyleColor r_UnityEngine__2__UIElements__2__IStyle__2__borderLeftColor;
+		public virtual RUnityEngine.RUIElements.RStyleColor RUnityEngine__2__UIElements__2__IStyle__2__borderLeftColor
 		{
 			get
 			{
-				if(r_RUnityEngine__0__UIElements__0__IStyle__0__get_borderLeftColor == null)
+				if(r_UnityEngine__2__UIElements__2__IStyle__2__borderLeftColor == null)
 				{
-					r_RUnityEngine__0__UIElements__0__IStyle__0__get_borderLeftColor = new(this, "UnityEngine.UIElements.IStyle.borderLeftColor", -1);
-					r_RUnityEngine__0__UIElements__0__IStyle__0__get_borderLeftColor.SetBelong(this.instance);
+					r_UnityEngine__2__UIElements__2__IStyle__2__borderLeftColor = new(this, "UnityEngine.UIElements.IStyle.borderLeftColor", -1);
+					r_UnityEngine__2__UIElements__2__IStyle__2__borderLeftColor.SetBelong(this.instance);
 				}
-				return r_RUnityEngine__0__UIElements__0__IStyle__0__get_borderLeftColor;
+				return r_UnityEngine__2__UIElements__2__IStyle__2__borderLeftColor;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleFloat UnityEngine.UIElements.IStyle.borderLeftWidth
 		/// </summary>
-		protected RUnityEngine.RUIElements.RStyleFloat r_RUnityEngine__0__UIElements__0__IStyle__0__get_borderLeftWidth;
-		public virtual RUnityEngine.RUIElements.RStyleFloat RUnityEngine__0__UIElements__0__IStyle__0__get_borderLeftWidth
+		protected RUnityEngine.RUIElements.RStyleFloat r_UnityEngine__2__UIElements__2__IStyle__2__borderLeftWidth;
+		public virtual RUnityEngine.RUIElements.RStyleFloat RUnityEngine__2__UIElements__2__IStyle__2__borderLeftWidth
 		{
 			get
 			{
-				if(r_RUnityEngine__0__UIElements__0__IStyle__0__get_borderLeftWidth == null)
+				if(r_UnityEngine__2__UIElements__2__IStyle__2__borderLeftWidth == null)
 				{
-					r_RUnityEngine__0__UIElements__0__IStyle__0__get_borderLeftWidth = new(this, "UnityEngine.UIElements.IStyle.borderLeftWidth", -1);
-					r_RUnityEngine__0__UIElements__0__IStyle__0__get_borderLeftWidth.SetBelong(this.instance);
+					r_UnityEngine__2__UIElements__2__IStyle__2__borderLeftWidth = new(this, "UnityEngine.UIElements.IStyle.borderLeftWidth", -1);
+					r_UnityEngine__2__UIElements__2__IStyle__2__borderLeftWidth.SetBelong(this.instance);
 				}
-				return r_RUnityEngine__0__UIElements__0__IStyle__0__get_borderLeftWidth;
+				return r_UnityEngine__2__UIElements__2__IStyle__2__borderLeftWidth;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleColor UnityEngine.UIElements.IStyle.borderRightColor
 		/// </summary>
-		protected RUnityEngine.RUIElements.RStyleColor r_RUnityEngine__0__UIElements__0__IStyle__0__get_borderRightColor;
-		public virtual RUnityEngine.RUIElements.RStyleColor RUnityEngine__0__UIElements__0__IStyle__0__get_borderRightColor
+		protected RUnityEngine.RUIElements.RStyleColor r_UnityEngine__2__UIElements__2__IStyle__2__borderRightColor;
+		public virtual RUnityEngine.RUIElements.RStyleColor RUnityEngine__2__UIElements__2__IStyle__2__borderRightColor
 		{
 			get
 			{
-				if(r_RUnityEngine__0__UIElements__0__IStyle__0__get_borderRightColor == null)
+				if(r_UnityEngine__2__UIElements__2__IStyle__2__borderRightColor == null)
 				{
-					r_RUnityEngine__0__UIElements__0__IStyle__0__get_borderRightColor = new(this, "UnityEngine.UIElements.IStyle.borderRightColor", -1);
-					r_RUnityEngine__0__UIElements__0__IStyle__0__get_borderRightColor.SetBelong(this.instance);
+					r_UnityEngine__2__UIElements__2__IStyle__2__borderRightColor = new(this, "UnityEngine.UIElements.IStyle.borderRightColor", -1);
+					r_UnityEngine__2__UIElements__2__IStyle__2__borderRightColor.SetBelong(this.instance);
 				}
-				return r_RUnityEngine__0__UIElements__0__IStyle__0__get_borderRightColor;
+				return r_UnityEngine__2__UIElements__2__IStyle__2__borderRightColor;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleFloat UnityEngine.UIElements.IStyle.borderRightWidth
 		/// </summary>
-		protected RUnityEngine.RUIElements.RStyleFloat r_RUnityEngine__0__UIElements__0__IStyle__0__get_borderRightWidth;
-		public virtual RUnityEngine.RUIElements.RStyleFloat RUnityEngine__0__UIElements__0__IStyle__0__get_borderRightWidth
+		protected RUnityEngine.RUIElements.RStyleFloat r_UnityEngine__2__UIElements__2__IStyle__2__borderRightWidth;
+		public virtual RUnityEngine.RUIElements.RStyleFloat RUnityEngine__2__UIElements__2__IStyle__2__borderRightWidth
 		{
 			get
 			{
-				if(r_RUnityEngine__0__UIElements__0__IStyle__0__get_borderRightWidth == null)
+				if(r_UnityEngine__2__UIElements__2__IStyle__2__borderRightWidth == null)
 				{
-					r_RUnityEngine__0__UIElements__0__IStyle__0__get_borderRightWidth = new(this, "UnityEngine.UIElements.IStyle.borderRightWidth", -1);
-					r_RUnityEngine__0__UIElements__0__IStyle__0__get_borderRightWidth.SetBelong(this.instance);
+					r_UnityEngine__2__UIElements__2__IStyle__2__borderRightWidth = new(this, "UnityEngine.UIElements.IStyle.borderRightWidth", -1);
+					r_UnityEngine__2__UIElements__2__IStyle__2__borderRightWidth.SetBelong(this.instance);
 				}
-				return r_RUnityEngine__0__UIElements__0__IStyle__0__get_borderRightWidth;
+				return r_UnityEngine__2__UIElements__2__IStyle__2__borderRightWidth;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleColor UnityEngine.UIElements.IStyle.borderTopColor
 		/// </summary>
-		protected RUnityEngine.RUIElements.RStyleColor r_RUnityEngine__0__UIElements__0__IStyle__0__get_borderTopColor;
-		public virtual RUnityEngine.RUIElements.RStyleColor RUnityEngine__0__UIElements__0__IStyle__0__get_borderTopColor
+		protected RUnityEngine.RUIElements.RStyleColor r_UnityEngine__2__UIElements__2__IStyle__2__borderTopColor;
+		public virtual RUnityEngine.RUIElements.RStyleColor RUnityEngine__2__UIElements__2__IStyle__2__borderTopColor
 		{
 			get
 			{
-				if(r_RUnityEngine__0__UIElements__0__IStyle__0__get_borderTopColor == null)
+				if(r_UnityEngine__2__UIElements__2__IStyle__2__borderTopColor == null)
 				{
-					r_RUnityEngine__0__UIElements__0__IStyle__0__get_borderTopColor = new(this, "UnityEngine.UIElements.IStyle.borderTopColor", -1);
-					r_RUnityEngine__0__UIElements__0__IStyle__0__get_borderTopColor.SetBelong(this.instance);
+					r_UnityEngine__2__UIElements__2__IStyle__2__borderTopColor = new(this, "UnityEngine.UIElements.IStyle.borderTopColor", -1);
+					r_UnityEngine__2__UIElements__2__IStyle__2__borderTopColor.SetBelong(this.instance);
 				}
-				return r_RUnityEngine__0__UIElements__0__IStyle__0__get_borderTopColor;
+				return r_UnityEngine__2__UIElements__2__IStyle__2__borderTopColor;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleLength UnityEngine.UIElements.IStyle.borderTopLeftRadius
 		/// </summary>
-		protected RUnityEngine.RUIElements.RStyleLength r_RUnityEngine__0__UIElements__0__IStyle__0__get_borderTopLeftRadius;
-		public virtual RUnityEngine.RUIElements.RStyleLength RUnityEngine__0__UIElements__0__IStyle__0__get_borderTopLeftRadius
+		protected RUnityEngine.RUIElements.RStyleLength r_UnityEngine__2__UIElements__2__IStyle__2__borderTopLeftRadius;
+		public virtual RUnityEngine.RUIElements.RStyleLength RUnityEngine__2__UIElements__2__IStyle__2__borderTopLeftRadius
 		{
 			get
 			{
-				if(r_RUnityEngine__0__UIElements__0__IStyle__0__get_borderTopLeftRadius == null)
+				if(r_UnityEngine__2__UIElements__2__IStyle__2__borderTopLeftRadius == null)
 				{
-					r_RUnityEngine__0__UIElements__0__IStyle__0__get_borderTopLeftRadius = new(this, "UnityEngine.UIElements.IStyle.borderTopLeftRadius", -1);
-					r_RUnityEngine__0__UIElements__0__IStyle__0__get_borderTopLeftRadius.SetBelong(this.instance);
+					r_UnityEngine__2__UIElements__2__IStyle__2__borderTopLeftRadius = new(this, "UnityEngine.UIElements.IStyle.borderTopLeftRadius", -1);
+					r_UnityEngine__2__UIElements__2__IStyle__2__borderTopLeftRadius.SetBelong(this.instance);
 				}
-				return r_RUnityEngine__0__UIElements__0__IStyle__0__get_borderTopLeftRadius;
+				return r_UnityEngine__2__UIElements__2__IStyle__2__borderTopLeftRadius;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleLength UnityEngine.UIElements.IStyle.borderTopRightRadius
 		/// </summary>
-		protected RUnityEngine.RUIElements.RStyleLength r_RUnityEngine__0__UIElements__0__IStyle__0__get_borderTopRightRadius;
-		public virtual RUnityEngine.RUIElements.RStyleLength RUnityEngine__0__UIElements__0__IStyle__0__get_borderTopRightRadius
+		protected RUnityEngine.RUIElements.RStyleLength r_UnityEngine__2__UIElements__2__IStyle__2__borderTopRightRadius;
+		public virtual RUnityEngine.RUIElements.RStyleLength RUnityEngine__2__UIElements__2__IStyle__2__borderTopRightRadius
 		{
 			get
 			{
-				if(r_RUnityEngine__0__UIElements__0__IStyle__0__get_borderTopRightRadius == null)
+				if(r_UnityEngine__2__UIElements__2__IStyle__2__borderTopRightRadius == null)
 				{
-					r_RUnityEngine__0__UIElements__0__IStyle__0__get_borderTopRightRadius = new(this, "UnityEngine.UIElements.IStyle.borderTopRightRadius", -1);
-					r_RUnityEngine__0__UIElements__0__IStyle__0__get_borderTopRightRadius.SetBelong(this.instance);
+					r_UnityEngine__2__UIElements__2__IStyle__2__borderTopRightRadius = new(this, "UnityEngine.UIElements.IStyle.borderTopRightRadius", -1);
+					r_UnityEngine__2__UIElements__2__IStyle__2__borderTopRightRadius.SetBelong(this.instance);
 				}
-				return r_RUnityEngine__0__UIElements__0__IStyle__0__get_borderTopRightRadius;
+				return r_UnityEngine__2__UIElements__2__IStyle__2__borderTopRightRadius;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleFloat UnityEngine.UIElements.IStyle.borderTopWidth
 		/// </summary>
-		protected RUnityEngine.RUIElements.RStyleFloat r_RUnityEngine__0__UIElements__0__IStyle__0__get_borderTopWidth;
-		public virtual RUnityEngine.RUIElements.RStyleFloat RUnityEngine__0__UIElements__0__IStyle__0__get_borderTopWidth
+		protected RUnityEngine.RUIElements.RStyleFloat r_UnityEngine__2__UIElements__2__IStyle__2__borderTopWidth;
+		public virtual RUnityEngine.RUIElements.RStyleFloat RUnityEngine__2__UIElements__2__IStyle__2__borderTopWidth
 		{
 			get
 			{
-				if(r_RUnityEngine__0__UIElements__0__IStyle__0__get_borderTopWidth == null)
+				if(r_UnityEngine__2__UIElements__2__IStyle__2__borderTopWidth == null)
 				{
-					r_RUnityEngine__0__UIElements__0__IStyle__0__get_borderTopWidth = new(this, "UnityEngine.UIElements.IStyle.borderTopWidth", -1);
-					r_RUnityEngine__0__UIElements__0__IStyle__0__get_borderTopWidth.SetBelong(this.instance);
+					r_UnityEngine__2__UIElements__2__IStyle__2__borderTopWidth = new(this, "UnityEngine.UIElements.IStyle.borderTopWidth", -1);
+					r_UnityEngine__2__UIElements__2__IStyle__2__borderTopWidth.SetBelong(this.instance);
 				}
-				return r_RUnityEngine__0__UIElements__0__IStyle__0__get_borderTopWidth;
+				return r_UnityEngine__2__UIElements__2__IStyle__2__borderTopWidth;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleLength UnityEngine.UIElements.IStyle.bottom
 		/// </summary>
-		protected RUnityEngine.RUIElements.RStyleLength r_RUnityEngine__0__UIElements__0__IStyle__0__get_bottom;
-		public virtual RUnityEngine.RUIElements.RStyleLength RUnityEngine__0__UIElements__0__IStyle__0__get_bottom
+		protected RUnityEngine.RUIElements.RStyleLength r_UnityEngine__2__UIElements__2__IStyle__2__bottom;
+		public virtual RUnityEngine.RUIElements.RStyleLength RUnityEngine__2__UIElements__2__IStyle__2__bottom
 		{
 			get
 			{
-				if(r_RUnityEngine__0__UIElements__0__IStyle__0__get_bottom == null)
+				if(r_UnityEngine__2__UIElements__2__IStyle__2__bottom == null)
 				{
-					r_RUnityEngine__0__UIElements__0__IStyle__0__get_bottom = new(this, "UnityEngine.UIElements.IStyle.bottom", -1);
-					r_RUnityEngine__0__UIElements__0__IStyle__0__get_bottom.SetBelong(this.instance);
+					r_UnityEngine__2__UIElements__2__IStyle__2__bottom = new(this, "UnityEngine.UIElements.IStyle.bottom", -1);
+					r_UnityEngine__2__UIElements__2__IStyle__2__bottom.SetBelong(this.instance);
 				}
-				return r_RUnityEngine__0__UIElements__0__IStyle__0__get_bottom;
+				return r_UnityEngine__2__UIElements__2__IStyle__2__bottom;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleColor UnityEngine.UIElements.IStyle.color
 		/// </summary>
-		protected RUnityEngine.RUIElements.RStyleColor r_RUnityEngine__0__UIElements__0__IStyle__0__get_color;
-		public virtual RUnityEngine.RUIElements.RStyleColor RUnityEngine__0__UIElements__0__IStyle__0__get_color
+		protected RUnityEngine.RUIElements.RStyleColor r_UnityEngine__2__UIElements__2__IStyle__2__color;
+		public virtual RUnityEngine.RUIElements.RStyleColor RUnityEngine__2__UIElements__2__IStyle__2__color
 		{
 			get
 			{
-				if(r_RUnityEngine__0__UIElements__0__IStyle__0__get_color == null)
+				if(r_UnityEngine__2__UIElements__2__IStyle__2__color == null)
 				{
-					r_RUnityEngine__0__UIElements__0__IStyle__0__get_color = new(this, "UnityEngine.UIElements.IStyle.color", -1);
-					r_RUnityEngine__0__UIElements__0__IStyle__0__get_color.SetBelong(this.instance);
+					r_UnityEngine__2__UIElements__2__IStyle__2__color = new(this, "UnityEngine.UIElements.IStyle.color", -1);
+					r_UnityEngine__2__UIElements__2__IStyle__2__color.SetBelong(this.instance);
 				}
-				return r_RUnityEngine__0__UIElements__0__IStyle__0__get_color;
+				return r_UnityEngine__2__UIElements__2__IStyle__2__color;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleEnum`1[UnityEngine.UIElements.DisplayStyle] UnityEngine.UIElements.IStyle.display
 		/// </summary>
-		protected RProperty r_RUnityEngine__0__UIElements__0__IStyle__0__get_display;
-		public virtual RProperty RUnityEngine__0__UIElements__0__IStyle__0__get_display
+		protected RProperty r_UnityEngine__2__UIElements__2__IStyle__2__display;
+		public virtual RProperty RUnityEngine__2__UIElements__2__IStyle__2__display
 		{
 			get
 			{
-				if(r_RUnityEngine__0__UIElements__0__IStyle__0__get_display == null)
+				if(r_UnityEngine__2__UIElements__2__IStyle__2__display == null)
 				{
-					r_RUnityEngine__0__UIElements__0__IStyle__0__get_display = new(this, "UnityEngine.UIElements.IStyle.display", -1);
-					r_RUnityEngine__0__UIElements__0__IStyle__0__get_display.SetBelong(this.instance);
+					r_UnityEngine__2__UIElements__2__IStyle__2__display = new(this, "UnityEngine.UIElements.IStyle.display", -1);
+					r_UnityEngine__2__UIElements__2__IStyle__2__display.SetBelong(this.instance);
 				}
-				return r_RUnityEngine__0__UIElements__0__IStyle__0__get_display;
+				return r_UnityEngine__2__UIElements__2__IStyle__2__display;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleLength UnityEngine.UIElements.IStyle.flexBasis
 		/// </summary>
-		protected RUnityEngine.RUIElements.RStyleLength r_RUnityEngine__0__UIElements__0__IStyle__0__get_flexBasis;
-		public virtual RUnityEngine.RUIElements.RStyleLength RUnityEngine__0__UIElements__0__IStyle__0__get_flexBasis
+		protected RUnityEngine.RUIElements.RStyleLength r_UnityEngine__2__UIElements__2__IStyle__2__flexBasis;
+		public virtual RUnityEngine.RUIElements.RStyleLength RUnityEngine__2__UIElements__2__IStyle__2__flexBasis
 		{
 			get
 			{
-				if(r_RUnityEngine__0__UIElements__0__IStyle__0__get_flexBasis == null)
+				if(r_UnityEngine__2__UIElements__2__IStyle__2__flexBasis == null)
 				{
-					r_RUnityEngine__0__UIElements__0__IStyle__0__get_flexBasis = new(this, "UnityEngine.UIElements.IStyle.flexBasis", -1);
-					r_RUnityEngine__0__UIElements__0__IStyle__0__get_flexBasis.SetBelong(this.instance);
+					r_UnityEngine__2__UIElements__2__IStyle__2__flexBasis = new(this, "UnityEngine.UIElements.IStyle.flexBasis", -1);
+					r_UnityEngine__2__UIElements__2__IStyle__2__flexBasis.SetBelong(this.instance);
 				}
-				return r_RUnityEngine__0__UIElements__0__IStyle__0__get_flexBasis;
+				return r_UnityEngine__2__UIElements__2__IStyle__2__flexBasis;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleEnum`1[UnityEngine.UIElements.FlexDirection] UnityEngine.UIElements.IStyle.flexDirection
 		/// </summary>
-		protected RProperty r_RUnityEngine__0__UIElements__0__IStyle__0__get_flexDirection;
-		public virtual RProperty RUnityEngine__0__UIElements__0__IStyle__0__get_flexDirection
+		protected RProperty r_UnityEngine__2__UIElements__2__IStyle__2__flexDirection;
+		public virtual RProperty RUnityEngine__2__UIElements__2__IStyle__2__flexDirection
 		{
 			get
 			{
-				if(r_RUnityEngine__0__UIElements__0__IStyle__0__get_flexDirection == null)
+				if(r_UnityEngine__2__UIElements__2__IStyle__2__flexDirection == null)
 				{
-					r_RUnityEngine__0__UIElements__0__IStyle__0__get_flexDirection = new(this, "UnityEngine.UIElements.IStyle.flexDirection", -1);
-					r_RUnityEngine__0__UIElements__0__IStyle__0__get_flexDirection.SetBelong(this.instance);
+					r_UnityEngine__2__UIElements__2__IStyle__2__flexDirection = new(this, "UnityEngine.UIElements.IStyle.flexDirection", -1);
+					r_UnityEngine__2__UIElements__2__IStyle__2__flexDirection.SetBelong(this.instance);
 				}
-				return r_RUnityEngine__0__UIElements__0__IStyle__0__get_flexDirection;
+				return r_UnityEngine__2__UIElements__2__IStyle__2__flexDirection;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleFloat UnityEngine.UIElements.IStyle.flexGrow
 		/// </summary>
-		protected RUnityEngine.RUIElements.RStyleFloat r_RUnityEngine__0__UIElements__0__IStyle__0__get_flexGrow;
-		public virtual RUnityEngine.RUIElements.RStyleFloat RUnityEngine__0__UIElements__0__IStyle__0__get_flexGrow
+		protected RUnityEngine.RUIElements.RStyleFloat r_UnityEngine__2__UIElements__2__IStyle__2__flexGrow;
+		public virtual RUnityEngine.RUIElements.RStyleFloat RUnityEngine__2__UIElements__2__IStyle__2__flexGrow
 		{
 			get
 			{
-				if(r_RUnityEngine__0__UIElements__0__IStyle__0__get_flexGrow == null)
+				if(r_UnityEngine__2__UIElements__2__IStyle__2__flexGrow == null)
 				{
-					r_RUnityEngine__0__UIElements__0__IStyle__0__get_flexGrow = new(this, "UnityEngine.UIElements.IStyle.flexGrow", -1);
-					r_RUnityEngine__0__UIElements__0__IStyle__0__get_flexGrow.SetBelong(this.instance);
+					r_UnityEngine__2__UIElements__2__IStyle__2__flexGrow = new(this, "UnityEngine.UIElements.IStyle.flexGrow", -1);
+					r_UnityEngine__2__UIElements__2__IStyle__2__flexGrow.SetBelong(this.instance);
 				}
-				return r_RUnityEngine__0__UIElements__0__IStyle__0__get_flexGrow;
+				return r_UnityEngine__2__UIElements__2__IStyle__2__flexGrow;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleFloat UnityEngine.UIElements.IStyle.flexShrink
 		/// </summary>
-		protected RUnityEngine.RUIElements.RStyleFloat r_RUnityEngine__0__UIElements__0__IStyle__0__get_flexShrink;
-		public virtual RUnityEngine.RUIElements.RStyleFloat RUnityEngine__0__UIElements__0__IStyle__0__get_flexShrink
+		protected RUnityEngine.RUIElements.RStyleFloat r_UnityEngine__2__UIElements__2__IStyle__2__flexShrink;
+		public virtual RUnityEngine.RUIElements.RStyleFloat RUnityEngine__2__UIElements__2__IStyle__2__flexShrink
 		{
 			get
 			{
-				if(r_RUnityEngine__0__UIElements__0__IStyle__0__get_flexShrink == null)
+				if(r_UnityEngine__2__UIElements__2__IStyle__2__flexShrink == null)
 				{
-					r_RUnityEngine__0__UIElements__0__IStyle__0__get_flexShrink = new(this, "UnityEngine.UIElements.IStyle.flexShrink", -1);
-					r_RUnityEngine__0__UIElements__0__IStyle__0__get_flexShrink.SetBelong(this.instance);
+					r_UnityEngine__2__UIElements__2__IStyle__2__flexShrink = new(this, "UnityEngine.UIElements.IStyle.flexShrink", -1);
+					r_UnityEngine__2__UIElements__2__IStyle__2__flexShrink.SetBelong(this.instance);
 				}
-				return r_RUnityEngine__0__UIElements__0__IStyle__0__get_flexShrink;
+				return r_UnityEngine__2__UIElements__2__IStyle__2__flexShrink;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleEnum`1[UnityEngine.UIElements.Wrap] UnityEngine.UIElements.IStyle.flexWrap
 		/// </summary>
-		protected RProperty r_RUnityEngine__0__UIElements__0__IStyle__0__get_flexWrap;
-		public virtual RProperty RUnityEngine__0__UIElements__0__IStyle__0__get_flexWrap
+		protected RProperty r_UnityEngine__2__UIElements__2__IStyle__2__flexWrap;
+		public virtual RProperty RUnityEngine__2__UIElements__2__IStyle__2__flexWrap
 		{
 			get
 			{
-				if(r_RUnityEngine__0__UIElements__0__IStyle__0__get_flexWrap == null)
+				if(r_UnityEngine__2__UIElements__2__IStyle__2__flexWrap == null)
 				{
-					r_RUnityEngine__0__UIElements__0__IStyle__0__get_flexWrap = new(this, "UnityEngine.UIElements.IStyle.flexWrap", -1);
-					r_RUnityEngine__0__UIElements__0__IStyle__0__get_flexWrap.SetBelong(this.instance);
+					r_UnityEngine__2__UIElements__2__IStyle__2__flexWrap = new(this, "UnityEngine.UIElements.IStyle.flexWrap", -1);
+					r_UnityEngine__2__UIElements__2__IStyle__2__flexWrap.SetBelong(this.instance);
 				}
-				return r_RUnityEngine__0__UIElements__0__IStyle__0__get_flexWrap;
+				return r_UnityEngine__2__UIElements__2__IStyle__2__flexWrap;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleLength UnityEngine.UIElements.IStyle.fontSize
 		/// </summary>
-		protected RUnityEngine.RUIElements.RStyleLength r_RUnityEngine__0__UIElements__0__IStyle__0__get_fontSize;
-		public virtual RUnityEngine.RUIElements.RStyleLength RUnityEngine__0__UIElements__0__IStyle__0__get_fontSize
+		protected RUnityEngine.RUIElements.RStyleLength r_UnityEngine__2__UIElements__2__IStyle__2__fontSize;
+		public virtual RUnityEngine.RUIElements.RStyleLength RUnityEngine__2__UIElements__2__IStyle__2__fontSize
 		{
 			get
 			{
-				if(r_RUnityEngine__0__UIElements__0__IStyle__0__get_fontSize == null)
+				if(r_UnityEngine__2__UIElements__2__IStyle__2__fontSize == null)
 				{
-					r_RUnityEngine__0__UIElements__0__IStyle__0__get_fontSize = new(this, "UnityEngine.UIElements.IStyle.fontSize", -1);
-					r_RUnityEngine__0__UIElements__0__IStyle__0__get_fontSize.SetBelong(this.instance);
+					r_UnityEngine__2__UIElements__2__IStyle__2__fontSize = new(this, "UnityEngine.UIElements.IStyle.fontSize", -1);
+					r_UnityEngine__2__UIElements__2__IStyle__2__fontSize.SetBelong(this.instance);
 				}
-				return r_RUnityEngine__0__UIElements__0__IStyle__0__get_fontSize;
+				return r_UnityEngine__2__UIElements__2__IStyle__2__fontSize;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleLength UnityEngine.UIElements.IStyle.height
 		/// </summary>
-		protected RUnityEngine.RUIElements.RStyleLength r_RUnityEngine__0__UIElements__0__IStyle__0__get_height;
-		public virtual RUnityEngine.RUIElements.RStyleLength RUnityEngine__0__UIElements__0__IStyle__0__get_height
+		protected RUnityEngine.RUIElements.RStyleLength r_UnityEngine__2__UIElements__2__IStyle__2__height;
+		public virtual RUnityEngine.RUIElements.RStyleLength RUnityEngine__2__UIElements__2__IStyle__2__height
 		{
 			get
 			{
-				if(r_RUnityEngine__0__UIElements__0__IStyle__0__get_height == null)
+				if(r_UnityEngine__2__UIElements__2__IStyle__2__height == null)
 				{
-					r_RUnityEngine__0__UIElements__0__IStyle__0__get_height = new(this, "UnityEngine.UIElements.IStyle.height", -1);
-					r_RUnityEngine__0__UIElements__0__IStyle__0__get_height.SetBelong(this.instance);
+					r_UnityEngine__2__UIElements__2__IStyle__2__height = new(this, "UnityEngine.UIElements.IStyle.height", -1);
+					r_UnityEngine__2__UIElements__2__IStyle__2__height.SetBelong(this.instance);
 				}
-				return r_RUnityEngine__0__UIElements__0__IStyle__0__get_height;
+				return r_UnityEngine__2__UIElements__2__IStyle__2__height;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleEnum`1[UnityEngine.UIElements.Justify] UnityEngine.UIElements.IStyle.justifyContent
 		/// </summary>
-		protected RProperty r_RUnityEngine__0__UIElements__0__IStyle__0__get_justifyContent;
-		public virtual RProperty RUnityEngine__0__UIElements__0__IStyle__0__get_justifyContent
+		protected RProperty r_UnityEngine__2__UIElements__2__IStyle__2__justifyContent;
+		public virtual RProperty RUnityEngine__2__UIElements__2__IStyle__2__justifyContent
 		{
 			get
 			{
-				if(r_RUnityEngine__0__UIElements__0__IStyle__0__get_justifyContent == null)
+				if(r_UnityEngine__2__UIElements__2__IStyle__2__justifyContent == null)
 				{
-					r_RUnityEngine__0__UIElements__0__IStyle__0__get_justifyContent = new(this, "UnityEngine.UIElements.IStyle.justifyContent", -1);
-					r_RUnityEngine__0__UIElements__0__IStyle__0__get_justifyContent.SetBelong(this.instance);
+					r_UnityEngine__2__UIElements__2__IStyle__2__justifyContent = new(this, "UnityEngine.UIElements.IStyle.justifyContent", -1);
+					r_UnityEngine__2__UIElements__2__IStyle__2__justifyContent.SetBelong(this.instance);
 				}
-				return r_RUnityEngine__0__UIElements__0__IStyle__0__get_justifyContent;
+				return r_UnityEngine__2__UIElements__2__IStyle__2__justifyContent;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleLength UnityEngine.UIElements.IStyle.left
 		/// </summary>
-		protected RUnityEngine.RUIElements.RStyleLength r_RUnityEngine__0__UIElements__0__IStyle__0__get_left;
-		public virtual RUnityEngine.RUIElements.RStyleLength RUnityEngine__0__UIElements__0__IStyle__0__get_left
+		protected RUnityEngine.RUIElements.RStyleLength r_UnityEngine__2__UIElements__2__IStyle__2__left;
+		public virtual RUnityEngine.RUIElements.RStyleLength RUnityEngine__2__UIElements__2__IStyle__2__left
 		{
 			get
 			{
-				if(r_RUnityEngine__0__UIElements__0__IStyle__0__get_left == null)
+				if(r_UnityEngine__2__UIElements__2__IStyle__2__left == null)
 				{
-					r_RUnityEngine__0__UIElements__0__IStyle__0__get_left = new(this, "UnityEngine.UIElements.IStyle.left", -1);
-					r_RUnityEngine__0__UIElements__0__IStyle__0__get_left.SetBelong(this.instance);
+					r_UnityEngine__2__UIElements__2__IStyle__2__left = new(this, "UnityEngine.UIElements.IStyle.left", -1);
+					r_UnityEngine__2__UIElements__2__IStyle__2__left.SetBelong(this.instance);
 				}
-				return r_RUnityEngine__0__UIElements__0__IStyle__0__get_left;
+				return r_UnityEngine__2__UIElements__2__IStyle__2__left;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleLength UnityEngine.UIElements.IStyle.letterSpacing
 		/// </summary>
-		protected RUnityEngine.RUIElements.RStyleLength r_RUnityEngine__0__UIElements__0__IStyle__0__get_letterSpacing;
-		public virtual RUnityEngine.RUIElements.RStyleLength RUnityEngine__0__UIElements__0__IStyle__0__get_letterSpacing
+		protected RUnityEngine.RUIElements.RStyleLength r_UnityEngine__2__UIElements__2__IStyle__2__letterSpacing;
+		public virtual RUnityEngine.RUIElements.RStyleLength RUnityEngine__2__UIElements__2__IStyle__2__letterSpacing
 		{
 			get
 			{
-				if(r_RUnityEngine__0__UIElements__0__IStyle__0__get_letterSpacing == null)
+				if(r_UnityEngine__2__UIElements__2__IStyle__2__letterSpacing == null)
 				{
-					r_RUnityEngine__0__UIElements__0__IStyle__0__get_letterSpacing = new(this, "UnityEngine.UIElements.IStyle.letterSpacing", -1);
-					r_RUnityEngine__0__UIElements__0__IStyle__0__get_letterSpacing.SetBelong(this.instance);
+					r_UnityEngine__2__UIElements__2__IStyle__2__letterSpacing = new(this, "UnityEngine.UIElements.IStyle.letterSpacing", -1);
+					r_UnityEngine__2__UIElements__2__IStyle__2__letterSpacing.SetBelong(this.instance);
 				}
-				return r_RUnityEngine__0__UIElements__0__IStyle__0__get_letterSpacing;
+				return r_UnityEngine__2__UIElements__2__IStyle__2__letterSpacing;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleLength UnityEngine.UIElements.IStyle.marginBottom
 		/// </summary>
-		protected RUnityEngine.RUIElements.RStyleLength r_RUnityEngine__0__UIElements__0__IStyle__0__get_marginBottom;
-		public virtual RUnityEngine.RUIElements.RStyleLength RUnityEngine__0__UIElements__0__IStyle__0__get_marginBottom
+		protected RUnityEngine.RUIElements.RStyleLength r_UnityEngine__2__UIElements__2__IStyle__2__marginBottom;
+		public virtual RUnityEngine.RUIElements.RStyleLength RUnityEngine__2__UIElements__2__IStyle__2__marginBottom
 		{
 			get
 			{
-				if(r_RUnityEngine__0__UIElements__0__IStyle__0__get_marginBottom == null)
+				if(r_UnityEngine__2__UIElements__2__IStyle__2__marginBottom == null)
 				{
-					r_RUnityEngine__0__UIElements__0__IStyle__0__get_marginBottom = new(this, "UnityEngine.UIElements.IStyle.marginBottom", -1);
-					r_RUnityEngine__0__UIElements__0__IStyle__0__get_marginBottom.SetBelong(this.instance);
+					r_UnityEngine__2__UIElements__2__IStyle__2__marginBottom = new(this, "UnityEngine.UIElements.IStyle.marginBottom", -1);
+					r_UnityEngine__2__UIElements__2__IStyle__2__marginBottom.SetBelong(this.instance);
 				}
-				return r_RUnityEngine__0__UIElements__0__IStyle__0__get_marginBottom;
+				return r_UnityEngine__2__UIElements__2__IStyle__2__marginBottom;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleLength UnityEngine.UIElements.IStyle.marginLeft
 		/// </summary>
-		protected RUnityEngine.RUIElements.RStyleLength r_RUnityEngine__0__UIElements__0__IStyle__0__get_marginLeft;
-		public virtual RUnityEngine.RUIElements.RStyleLength RUnityEngine__0__UIElements__0__IStyle__0__get_marginLeft
+		protected RUnityEngine.RUIElements.RStyleLength r_UnityEngine__2__UIElements__2__IStyle__2__marginLeft;
+		public virtual RUnityEngine.RUIElements.RStyleLength RUnityEngine__2__UIElements__2__IStyle__2__marginLeft
 		{
 			get
 			{
-				if(r_RUnityEngine__0__UIElements__0__IStyle__0__get_marginLeft == null)
+				if(r_UnityEngine__2__UIElements__2__IStyle__2__marginLeft == null)
 				{
-					r_RUnityEngine__0__UIElements__0__IStyle__0__get_marginLeft = new(this, "UnityEngine.UIElements.IStyle.marginLeft", -1);
-					r_RUnityEngine__0__UIElements__0__IStyle__0__get_marginLeft.SetBelong(this.instance);
+					r_UnityEngine__2__UIElements__2__IStyle__2__marginLeft = new(this, "UnityEngine.UIElements.IStyle.marginLeft", -1);
+					r_UnityEngine__2__UIElements__2__IStyle__2__marginLeft.SetBelong(this.instance);
 				}
-				return r_RUnityEngine__0__UIElements__0__IStyle__0__get_marginLeft;
+				return r_UnityEngine__2__UIElements__2__IStyle__2__marginLeft;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleLength UnityEngine.UIElements.IStyle.marginRight
 		/// </summary>
-		protected RUnityEngine.RUIElements.RStyleLength r_RUnityEngine__0__UIElements__0__IStyle__0__get_marginRight;
-		public virtual RUnityEngine.RUIElements.RStyleLength RUnityEngine__0__UIElements__0__IStyle__0__get_marginRight
+		protected RUnityEngine.RUIElements.RStyleLength r_UnityEngine__2__UIElements__2__IStyle__2__marginRight;
+		public virtual RUnityEngine.RUIElements.RStyleLength RUnityEngine__2__UIElements__2__IStyle__2__marginRight
 		{
 			get
 			{
-				if(r_RUnityEngine__0__UIElements__0__IStyle__0__get_marginRight == null)
+				if(r_UnityEngine__2__UIElements__2__IStyle__2__marginRight == null)
 				{
-					r_RUnityEngine__0__UIElements__0__IStyle__0__get_marginRight = new(this, "UnityEngine.UIElements.IStyle.marginRight", -1);
-					r_RUnityEngine__0__UIElements__0__IStyle__0__get_marginRight.SetBelong(this.instance);
+					r_UnityEngine__2__UIElements__2__IStyle__2__marginRight = new(this, "UnityEngine.UIElements.IStyle.marginRight", -1);
+					r_UnityEngine__2__UIElements__2__IStyle__2__marginRight.SetBelong(this.instance);
 				}
-				return r_RUnityEngine__0__UIElements__0__IStyle__0__get_marginRight;
+				return r_UnityEngine__2__UIElements__2__IStyle__2__marginRight;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleLength UnityEngine.UIElements.IStyle.marginTop
 		/// </summary>
-		protected RUnityEngine.RUIElements.RStyleLength r_RUnityEngine__0__UIElements__0__IStyle__0__get_marginTop;
-		public virtual RUnityEngine.RUIElements.RStyleLength RUnityEngine__0__UIElements__0__IStyle__0__get_marginTop
+		protected RUnityEngine.RUIElements.RStyleLength r_UnityEngine__2__UIElements__2__IStyle__2__marginTop;
+		public virtual RUnityEngine.RUIElements.RStyleLength RUnityEngine__2__UIElements__2__IStyle__2__marginTop
 		{
 			get
 			{
-				if(r_RUnityEngine__0__UIElements__0__IStyle__0__get_marginTop == null)
+				if(r_UnityEngine__2__UIElements__2__IStyle__2__marginTop == null)
 				{
-					r_RUnityEngine__0__UIElements__0__IStyle__0__get_marginTop = new(this, "UnityEngine.UIElements.IStyle.marginTop", -1);
-					r_RUnityEngine__0__UIElements__0__IStyle__0__get_marginTop.SetBelong(this.instance);
+					r_UnityEngine__2__UIElements__2__IStyle__2__marginTop = new(this, "UnityEngine.UIElements.IStyle.marginTop", -1);
+					r_UnityEngine__2__UIElements__2__IStyle__2__marginTop.SetBelong(this.instance);
 				}
-				return r_RUnityEngine__0__UIElements__0__IStyle__0__get_marginTop;
+				return r_UnityEngine__2__UIElements__2__IStyle__2__marginTop;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleLength UnityEngine.UIElements.IStyle.maxHeight
 		/// </summary>
-		protected RUnityEngine.RUIElements.RStyleLength r_RUnityEngine__0__UIElements__0__IStyle__0__get_maxHeight;
-		public virtual RUnityEngine.RUIElements.RStyleLength RUnityEngine__0__UIElements__0__IStyle__0__get_maxHeight
+		protected RUnityEngine.RUIElements.RStyleLength r_UnityEngine__2__UIElements__2__IStyle__2__maxHeight;
+		public virtual RUnityEngine.RUIElements.RStyleLength RUnityEngine__2__UIElements__2__IStyle__2__maxHeight
 		{
 			get
 			{
-				if(r_RUnityEngine__0__UIElements__0__IStyle__0__get_maxHeight == null)
+				if(r_UnityEngine__2__UIElements__2__IStyle__2__maxHeight == null)
 				{
-					r_RUnityEngine__0__UIElements__0__IStyle__0__get_maxHeight = new(this, "UnityEngine.UIElements.IStyle.maxHeight", -1);
-					r_RUnityEngine__0__UIElements__0__IStyle__0__get_maxHeight.SetBelong(this.instance);
+					r_UnityEngine__2__UIElements__2__IStyle__2__maxHeight = new(this, "UnityEngine.UIElements.IStyle.maxHeight", -1);
+					r_UnityEngine__2__UIElements__2__IStyle__2__maxHeight.SetBelong(this.instance);
 				}
-				return r_RUnityEngine__0__UIElements__0__IStyle__0__get_maxHeight;
+				return r_UnityEngine__2__UIElements__2__IStyle__2__maxHeight;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleLength UnityEngine.UIElements.IStyle.maxWidth
 		/// </summary>
-		protected RUnityEngine.RUIElements.RStyleLength r_RUnityEngine__0__UIElements__0__IStyle__0__get_maxWidth;
-		public virtual RUnityEngine.RUIElements.RStyleLength RUnityEngine__0__UIElements__0__IStyle__0__get_maxWidth
+		protected RUnityEngine.RUIElements.RStyleLength r_UnityEngine__2__UIElements__2__IStyle__2__maxWidth;
+		public virtual RUnityEngine.RUIElements.RStyleLength RUnityEngine__2__UIElements__2__IStyle__2__maxWidth
 		{
 			get
 			{
-				if(r_RUnityEngine__0__UIElements__0__IStyle__0__get_maxWidth == null)
+				if(r_UnityEngine__2__UIElements__2__IStyle__2__maxWidth == null)
 				{
-					r_RUnityEngine__0__UIElements__0__IStyle__0__get_maxWidth = new(this, "UnityEngine.UIElements.IStyle.maxWidth", -1);
-					r_RUnityEngine__0__UIElements__0__IStyle__0__get_maxWidth.SetBelong(this.instance);
+					r_UnityEngine__2__UIElements__2__IStyle__2__maxWidth = new(this, "UnityEngine.UIElements.IStyle.maxWidth", -1);
+					r_UnityEngine__2__UIElements__2__IStyle__2__maxWidth.SetBelong(this.instance);
 				}
-				return r_RUnityEngine__0__UIElements__0__IStyle__0__get_maxWidth;
+				return r_UnityEngine__2__UIElements__2__IStyle__2__maxWidth;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleLength UnityEngine.UIElements.IStyle.minHeight
 		/// </summary>
-		protected RUnityEngine.RUIElements.RStyleLength r_RUnityEngine__0__UIElements__0__IStyle__0__get_minHeight;
-		public virtual RUnityEngine.RUIElements.RStyleLength RUnityEngine__0__UIElements__0__IStyle__0__get_minHeight
+		protected RUnityEngine.RUIElements.RStyleLength r_UnityEngine__2__UIElements__2__IStyle__2__minHeight;
+		public virtual RUnityEngine.RUIElements.RStyleLength RUnityEngine__2__UIElements__2__IStyle__2__minHeight
 		{
 			get
 			{
-				if(r_RUnityEngine__0__UIElements__0__IStyle__0__get_minHeight == null)
+				if(r_UnityEngine__2__UIElements__2__IStyle__2__minHeight == null)
 				{
-					r_RUnityEngine__0__UIElements__0__IStyle__0__get_minHeight = new(this, "UnityEngine.UIElements.IStyle.minHeight", -1);
-					r_RUnityEngine__0__UIElements__0__IStyle__0__get_minHeight.SetBelong(this.instance);
+					r_UnityEngine__2__UIElements__2__IStyle__2__minHeight = new(this, "UnityEngine.UIElements.IStyle.minHeight", -1);
+					r_UnityEngine__2__UIElements__2__IStyle__2__minHeight.SetBelong(this.instance);
 				}
-				return r_RUnityEngine__0__UIElements__0__IStyle__0__get_minHeight;
+				return r_UnityEngine__2__UIElements__2__IStyle__2__minHeight;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleLength UnityEngine.UIElements.IStyle.minWidth
 		/// </summary>
-		protected RUnityEngine.RUIElements.RStyleLength r_RUnityEngine__0__UIElements__0__IStyle__0__get_minWidth;
-		public virtual RUnityEngine.RUIElements.RStyleLength RUnityEngine__0__UIElements__0__IStyle__0__get_minWidth
+		protected RUnityEngine.RUIElements.RStyleLength r_UnityEngine__2__UIElements__2__IStyle__2__minWidth;
+		public virtual RUnityEngine.RUIElements.RStyleLength RUnityEngine__2__UIElements__2__IStyle__2__minWidth
 		{
 			get
 			{
-				if(r_RUnityEngine__0__UIElements__0__IStyle__0__get_minWidth == null)
+				if(r_UnityEngine__2__UIElements__2__IStyle__2__minWidth == null)
 				{
-					r_RUnityEngine__0__UIElements__0__IStyle__0__get_minWidth = new(this, "UnityEngine.UIElements.IStyle.minWidth", -1);
-					r_RUnityEngine__0__UIElements__0__IStyle__0__get_minWidth.SetBelong(this.instance);
+					r_UnityEngine__2__UIElements__2__IStyle__2__minWidth = new(this, "UnityEngine.UIElements.IStyle.minWidth", -1);
+					r_UnityEngine__2__UIElements__2__IStyle__2__minWidth.SetBelong(this.instance);
 				}
-				return r_RUnityEngine__0__UIElements__0__IStyle__0__get_minWidth;
+				return r_UnityEngine__2__UIElements__2__IStyle__2__minWidth;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleFloat UnityEngine.UIElements.IStyle.opacity
 		/// </summary>
-		protected RUnityEngine.RUIElements.RStyleFloat r_RUnityEngine__0__UIElements__0__IStyle__0__get_opacity;
-		public virtual RUnityEngine.RUIElements.RStyleFloat RUnityEngine__0__UIElements__0__IStyle__0__get_opacity
+		protected RUnityEngine.RUIElements.RStyleFloat r_UnityEngine__2__UIElements__2__IStyle__2__opacity;
+		public virtual RUnityEngine.RUIElements.RStyleFloat RUnityEngine__2__UIElements__2__IStyle__2__opacity
 		{
 			get
 			{
-				if(r_RUnityEngine__0__UIElements__0__IStyle__0__get_opacity == null)
+				if(r_UnityEngine__2__UIElements__2__IStyle__2__opacity == null)
 				{
-					r_RUnityEngine__0__UIElements__0__IStyle__0__get_opacity = new(this, "UnityEngine.UIElements.IStyle.opacity", -1);
-					r_RUnityEngine__0__UIElements__0__IStyle__0__get_opacity.SetBelong(this.instance);
+					r_UnityEngine__2__UIElements__2__IStyle__2__opacity = new(this, "UnityEngine.UIElements.IStyle.opacity", -1);
+					r_UnityEngine__2__UIElements__2__IStyle__2__opacity.SetBelong(this.instance);
 				}
-				return r_RUnityEngine__0__UIElements__0__IStyle__0__get_opacity;
+				return r_UnityEngine__2__UIElements__2__IStyle__2__opacity;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleEnum`1[UnityEngine.UIElements.Overflow] UnityEngine.UIElements.IStyle.overflow
 		/// </summary>
-		protected RProperty r_RUnityEngine__0__UIElements__0__IStyle__0__get_overflow;
-		public virtual RProperty RUnityEngine__0__UIElements__0__IStyle__0__get_overflow
+		protected RProperty r_UnityEngine__2__UIElements__2__IStyle__2__overflow;
+		public virtual RProperty RUnityEngine__2__UIElements__2__IStyle__2__overflow
 		{
 			get
 			{
-				if(r_RUnityEngine__0__UIElements__0__IStyle__0__get_overflow == null)
+				if(r_UnityEngine__2__UIElements__2__IStyle__2__overflow == null)
 				{
-					r_RUnityEngine__0__UIElements__0__IStyle__0__get_overflow = new(this, "UnityEngine.UIElements.IStyle.overflow", -1);
-					r_RUnityEngine__0__UIElements__0__IStyle__0__get_overflow.SetBelong(this.instance);
+					r_UnityEngine__2__UIElements__2__IStyle__2__overflow = new(this, "UnityEngine.UIElements.IStyle.overflow", -1);
+					r_UnityEngine__2__UIElements__2__IStyle__2__overflow.SetBelong(this.instance);
 				}
-				return r_RUnityEngine__0__UIElements__0__IStyle__0__get_overflow;
+				return r_UnityEngine__2__UIElements__2__IStyle__2__overflow;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleLength UnityEngine.UIElements.IStyle.paddingBottom
 		/// </summary>
-		protected RUnityEngine.RUIElements.RStyleLength r_RUnityEngine__0__UIElements__0__IStyle__0__get_paddingBottom;
-		public virtual RUnityEngine.RUIElements.RStyleLength RUnityEngine__0__UIElements__0__IStyle__0__get_paddingBottom
+		protected RUnityEngine.RUIElements.RStyleLength r_UnityEngine__2__UIElements__2__IStyle__2__paddingBottom;
+		public virtual RUnityEngine.RUIElements.RStyleLength RUnityEngine__2__UIElements__2__IStyle__2__paddingBottom
 		{
 			get
 			{
-				if(r_RUnityEngine__0__UIElements__0__IStyle__0__get_paddingBottom == null)
+				if(r_UnityEngine__2__UIElements__2__IStyle__2__paddingBottom == null)
 				{
-					r_RUnityEngine__0__UIElements__0__IStyle__0__get_paddingBottom = new(this, "UnityEngine.UIElements.IStyle.paddingBottom", -1);
-					r_RUnityEngine__0__UIElements__0__IStyle__0__get_paddingBottom.SetBelong(this.instance);
+					r_UnityEngine__2__UIElements__2__IStyle__2__paddingBottom = new(this, "UnityEngine.UIElements.IStyle.paddingBottom", -1);
+					r_UnityEngine__2__UIElements__2__IStyle__2__paddingBottom.SetBelong(this.instance);
 				}
-				return r_RUnityEngine__0__UIElements__0__IStyle__0__get_paddingBottom;
+				return r_UnityEngine__2__UIElements__2__IStyle__2__paddingBottom;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleLength UnityEngine.UIElements.IStyle.paddingLeft
 		/// </summary>
-		protected RUnityEngine.RUIElements.RStyleLength r_RUnityEngine__0__UIElements__0__IStyle__0__get_paddingLeft;
-		public virtual RUnityEngine.RUIElements.RStyleLength RUnityEngine__0__UIElements__0__IStyle__0__get_paddingLeft
+		protected RUnityEngine.RUIElements.RStyleLength r_UnityEngine__2__UIElements__2__IStyle__2__paddingLeft;
+		public virtual RUnityEngine.RUIElements.RStyleLength RUnityEngine__2__UIElements__2__IStyle__2__paddingLeft
 		{
 			get
 			{
-				if(r_RUnityEngine__0__UIElements__0__IStyle__0__get_paddingLeft == null)
+				if(r_UnityEngine__2__UIElements__2__IStyle__2__paddingLeft == null)
 				{
-					r_RUnityEngine__0__UIElements__0__IStyle__0__get_paddingLeft = new(this, "UnityEngine.UIElements.IStyle.paddingLeft", -1);
-					r_RUnityEngine__0__UIElements__0__IStyle__0__get_paddingLeft.SetBelong(this.instance);
+					r_UnityEngine__2__UIElements__2__IStyle__2__paddingLeft = new(this, "UnityEngine.UIElements.IStyle.paddingLeft", -1);
+					r_UnityEngine__2__UIElements__2__IStyle__2__paddingLeft.SetBelong(this.instance);
 				}
-				return r_RUnityEngine__0__UIElements__0__IStyle__0__get_paddingLeft;
+				return r_UnityEngine__2__UIElements__2__IStyle__2__paddingLeft;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleLength UnityEngine.UIElements.IStyle.paddingRight
 		/// </summary>
-		protected RUnityEngine.RUIElements.RStyleLength r_RUnityEngine__0__UIElements__0__IStyle__0__get_paddingRight;
-		public virtual RUnityEngine.RUIElements.RStyleLength RUnityEngine__0__UIElements__0__IStyle__0__get_paddingRight
+		protected RUnityEngine.RUIElements.RStyleLength r_UnityEngine__2__UIElements__2__IStyle__2__paddingRight;
+		public virtual RUnityEngine.RUIElements.RStyleLength RUnityEngine__2__UIElements__2__IStyle__2__paddingRight
 		{
 			get
 			{
-				if(r_RUnityEngine__0__UIElements__0__IStyle__0__get_paddingRight == null)
+				if(r_UnityEngine__2__UIElements__2__IStyle__2__paddingRight == null)
 				{
-					r_RUnityEngine__0__UIElements__0__IStyle__0__get_paddingRight = new(this, "UnityEngine.UIElements.IStyle.paddingRight", -1);
-					r_RUnityEngine__0__UIElements__0__IStyle__0__get_paddingRight.SetBelong(this.instance);
+					r_UnityEngine__2__UIElements__2__IStyle__2__paddingRight = new(this, "UnityEngine.UIElements.IStyle.paddingRight", -1);
+					r_UnityEngine__2__UIElements__2__IStyle__2__paddingRight.SetBelong(this.instance);
 				}
-				return r_RUnityEngine__0__UIElements__0__IStyle__0__get_paddingRight;
+				return r_UnityEngine__2__UIElements__2__IStyle__2__paddingRight;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleLength UnityEngine.UIElements.IStyle.paddingTop
 		/// </summary>
-		protected RUnityEngine.RUIElements.RStyleLength r_RUnityEngine__0__UIElements__0__IStyle__0__get_paddingTop;
-		public virtual RUnityEngine.RUIElements.RStyleLength RUnityEngine__0__UIElements__0__IStyle__0__get_paddingTop
+		protected RUnityEngine.RUIElements.RStyleLength r_UnityEngine__2__UIElements__2__IStyle__2__paddingTop;
+		public virtual RUnityEngine.RUIElements.RStyleLength RUnityEngine__2__UIElements__2__IStyle__2__paddingTop
 		{
 			get
 			{
-				if(r_RUnityEngine__0__UIElements__0__IStyle__0__get_paddingTop == null)
+				if(r_UnityEngine__2__UIElements__2__IStyle__2__paddingTop == null)
 				{
-					r_RUnityEngine__0__UIElements__0__IStyle__0__get_paddingTop = new(this, "UnityEngine.UIElements.IStyle.paddingTop", -1);
-					r_RUnityEngine__0__UIElements__0__IStyle__0__get_paddingTop.SetBelong(this.instance);
+					r_UnityEngine__2__UIElements__2__IStyle__2__paddingTop = new(this, "UnityEngine.UIElements.IStyle.paddingTop", -1);
+					r_UnityEngine__2__UIElements__2__IStyle__2__paddingTop.SetBelong(this.instance);
 				}
-				return r_RUnityEngine__0__UIElements__0__IStyle__0__get_paddingTop;
+				return r_UnityEngine__2__UIElements__2__IStyle__2__paddingTop;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleEnum`1[UnityEngine.UIElements.Position] UnityEngine.UIElements.IStyle.position
 		/// </summary>
-		protected RProperty r_RUnityEngine__0__UIElements__0__IStyle__0__get_position;
-		public virtual RProperty RUnityEngine__0__UIElements__0__IStyle__0__get_position
+		protected RProperty r_UnityEngine__2__UIElements__2__IStyle__2__position;
+		public virtual RProperty RUnityEngine__2__UIElements__2__IStyle__2__position
 		{
 			get
 			{
-				if(r_RUnityEngine__0__UIElements__0__IStyle__0__get_position == null)
+				if(r_UnityEngine__2__UIElements__2__IStyle__2__position == null)
 				{
-					r_RUnityEngine__0__UIElements__0__IStyle__0__get_position = new(this, "UnityEngine.UIElements.IStyle.position", -1);
-					r_RUnityEngine__0__UIElements__0__IStyle__0__get_position.SetBelong(this.instance);
+					r_UnityEngine__2__UIElements__2__IStyle__2__position = new(this, "UnityEngine.UIElements.IStyle.position", -1);
+					r_UnityEngine__2__UIElements__2__IStyle__2__position.SetBelong(this.instance);
 				}
-				return r_RUnityEngine__0__UIElements__0__IStyle__0__get_position;
+				return r_UnityEngine__2__UIElements__2__IStyle__2__position;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleLength UnityEngine.UIElements.IStyle.right
 		/// </summary>
-		protected RUnityEngine.RUIElements.RStyleLength r_RUnityEngine__0__UIElements__0__IStyle__0__get_right;
-		public virtual RUnityEngine.RUIElements.RStyleLength RUnityEngine__0__UIElements__0__IStyle__0__get_right
+		protected RUnityEngine.RUIElements.RStyleLength r_UnityEngine__2__UIElements__2__IStyle__2__right;
+		public virtual RUnityEngine.RUIElements.RStyleLength RUnityEngine__2__UIElements__2__IStyle__2__right
 		{
 			get
 			{
-				if(r_RUnityEngine__0__UIElements__0__IStyle__0__get_right == null)
+				if(r_UnityEngine__2__UIElements__2__IStyle__2__right == null)
 				{
-					r_RUnityEngine__0__UIElements__0__IStyle__0__get_right = new(this, "UnityEngine.UIElements.IStyle.right", -1);
-					r_RUnityEngine__0__UIElements__0__IStyle__0__get_right.SetBelong(this.instance);
+					r_UnityEngine__2__UIElements__2__IStyle__2__right = new(this, "UnityEngine.UIElements.IStyle.right", -1);
+					r_UnityEngine__2__UIElements__2__IStyle__2__right.SetBelong(this.instance);
 				}
-				return r_RUnityEngine__0__UIElements__0__IStyle__0__get_right;
+				return r_UnityEngine__2__UIElements__2__IStyle__2__right;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleEnum`1[UnityEngine.UIElements.TextOverflow] UnityEngine.UIElements.IStyle.textOverflow
 		/// </summary>
-		protected RProperty r_RUnityEngine__0__UIElements__0__IStyle__0__get_textOverflow;
-		public virtual RProperty RUnityEngine__0__UIElements__0__IStyle__0__get_textOverflow
+		protected RProperty r_UnityEngine__2__UIElements__2__IStyle__2__textOverflow;
+		public virtual RProperty RUnityEngine__2__UIElements__2__IStyle__2__textOverflow
 		{
 			get
 			{
-				if(r_RUnityEngine__0__UIElements__0__IStyle__0__get_textOverflow == null)
+				if(r_UnityEngine__2__UIElements__2__IStyle__2__textOverflow == null)
 				{
-					r_RUnityEngine__0__UIElements__0__IStyle__0__get_textOverflow = new(this, "UnityEngine.UIElements.IStyle.textOverflow", -1);
-					r_RUnityEngine__0__UIElements__0__IStyle__0__get_textOverflow.SetBelong(this.instance);
+					r_UnityEngine__2__UIElements__2__IStyle__2__textOverflow = new(this, "UnityEngine.UIElements.IStyle.textOverflow", -1);
+					r_UnityEngine__2__UIElements__2__IStyle__2__textOverflow.SetBelong(this.instance);
 				}
-				return r_RUnityEngine__0__UIElements__0__IStyle__0__get_textOverflow;
+				return r_UnityEngine__2__UIElements__2__IStyle__2__textOverflow;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleLength UnityEngine.UIElements.IStyle.top
 		/// </summary>
-		protected RUnityEngine.RUIElements.RStyleLength r_RUnityEngine__0__UIElements__0__IStyle__0__get_top;
-		public virtual RUnityEngine.RUIElements.RStyleLength RUnityEngine__0__UIElements__0__IStyle__0__get_top
+		protected RUnityEngine.RUIElements.RStyleLength r_UnityEngine__2__UIElements__2__IStyle__2__top;
+		public virtual RUnityEngine.RUIElements.RStyleLength RUnityEngine__2__UIElements__2__IStyle__2__top
 		{
 			get
 			{
-				if(r_RUnityEngine__0__UIElements__0__IStyle__0__get_top == null)
+				if(r_UnityEngine__2__UIElements__2__IStyle__2__top == null)
 				{
-					r_RUnityEngine__0__UIElements__0__IStyle__0__get_top = new(this, "UnityEngine.UIElements.IStyle.top", -1);
-					r_RUnityEngine__0__UIElements__0__IStyle__0__get_top.SetBelong(this.instance);
+					r_UnityEngine__2__UIElements__2__IStyle__2__top = new(this, "UnityEngine.UIElements.IStyle.top", -1);
+					r_UnityEngine__2__UIElements__2__IStyle__2__top.SetBelong(this.instance);
 				}
-				return r_RUnityEngine__0__UIElements__0__IStyle__0__get_top;
+				return r_UnityEngine__2__UIElements__2__IStyle__2__top;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleList`1[UnityEngine.UIElements.TimeValue] UnityEngine.UIElements.IStyle.transitionDelay
 		/// </summary>
-		protected RUnityEngine.RUIElements.RStyleList<RUnityEngine.RUIElements.RTimeValue> r_RUnityEngine__0__UIElements__0__IStyle__0__get_transitionDelay;
-		public virtual RUnityEngine.RUIElements.RStyleList<RUnityEngine.RUIElements.RTimeValue> RUnityEngine__0__UIElements__0__IStyle__0__get_transitionDelay
+		protected RUnityEngine.RUIElements.RStyleList<RUnityEngine.RUIElements.RTimeValue> r_UnityEngine__2__UIElements__2__IStyle__2__transitionDelay;
+		public virtual RUnityEngine.RUIElements.RStyleList<RUnityEngine.RUIElements.RTimeValue> RUnityEngine__2__UIElements__2__IStyle__2__transitionDelay
 		{
 			get
 			{
-				if(r_RUnityEngine__0__UIElements__0__IStyle__0__get_transitionDelay == null)
+				if(r_UnityEngine__2__UIElements__2__IStyle__2__transitionDelay == null)
 				{
-					r_RUnityEngine__0__UIElements__0__IStyle__0__get_transitionDelay = new(this, "UnityEngine.UIElements.IStyle.transitionDelay", -1);
-					r_RUnityEngine__0__UIElements__0__IStyle__0__get_transitionDelay.SetBelong(this.instance);
+					r_UnityEngine__2__UIElements__2__IStyle__2__transitionDelay = new(this, "UnityEngine.UIElements.IStyle.transitionDelay", -1);
+					r_UnityEngine__2__UIElements__2__IStyle__2__transitionDelay.SetBelong(this.instance);
 				}
-				return r_RUnityEngine__0__UIElements__0__IStyle__0__get_transitionDelay;
+				return r_UnityEngine__2__UIElements__2__IStyle__2__transitionDelay;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleList`1[UnityEngine.UIElements.TimeValue] UnityEngine.UIElements.IStyle.transitionDuration
 		/// </summary>
-		protected RUnityEngine.RUIElements.RStyleList<RUnityEngine.RUIElements.RTimeValue> r_RUnityEngine__0__UIElements__0__IStyle__0__get_transitionDuration;
-		public virtual RUnityEngine.RUIElements.RStyleList<RUnityEngine.RUIElements.RTimeValue> RUnityEngine__0__UIElements__0__IStyle__0__get_transitionDuration
+		protected RUnityEngine.RUIElements.RStyleList<RUnityEngine.RUIElements.RTimeValue> r_UnityEngine__2__UIElements__2__IStyle__2__transitionDuration;
+		public virtual RUnityEngine.RUIElements.RStyleList<RUnityEngine.RUIElements.RTimeValue> RUnityEngine__2__UIElements__2__IStyle__2__transitionDuration
 		{
 			get
 			{
-				if(r_RUnityEngine__0__UIElements__0__IStyle__0__get_transitionDuration == null)
+				if(r_UnityEngine__2__UIElements__2__IStyle__2__transitionDuration == null)
 				{
-					r_RUnityEngine__0__UIElements__0__IStyle__0__get_transitionDuration = new(this, "UnityEngine.UIElements.IStyle.transitionDuration", -1);
-					r_RUnityEngine__0__UIElements__0__IStyle__0__get_transitionDuration.SetBelong(this.instance);
+					r_UnityEngine__2__UIElements__2__IStyle__2__transitionDuration = new(this, "UnityEngine.UIElements.IStyle.transitionDuration", -1);
+					r_UnityEngine__2__UIElements__2__IStyle__2__transitionDuration.SetBelong(this.instance);
 				}
-				return r_RUnityEngine__0__UIElements__0__IStyle__0__get_transitionDuration;
+				return r_UnityEngine__2__UIElements__2__IStyle__2__transitionDuration;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleList`1[UnityEngine.UIElements.StylePropertyName] UnityEngine.UIElements.IStyle.transitionProperty
 		/// </summary>
-		protected RUnityEngine.RUIElements.RStyleList<RUnityEngine.RUIElements.RStylePropertyName> r_RUnityEngine__0__UIElements__0__IStyle__0__get_transitionProperty;
-		public virtual RUnityEngine.RUIElements.RStyleList<RUnityEngine.RUIElements.RStylePropertyName> RUnityEngine__0__UIElements__0__IStyle__0__get_transitionProperty
+		protected RUnityEngine.RUIElements.RStyleList<RUnityEngine.RUIElements.RStylePropertyName> r_UnityEngine__2__UIElements__2__IStyle__2__transitionProperty;
+		public virtual RUnityEngine.RUIElements.RStyleList<RUnityEngine.RUIElements.RStylePropertyName> RUnityEngine__2__UIElements__2__IStyle__2__transitionProperty
 		{
 			get
 			{
-				if(r_RUnityEngine__0__UIElements__0__IStyle__0__get_transitionProperty == null)
+				if(r_UnityEngine__2__UIElements__2__IStyle__2__transitionProperty == null)
 				{
-					r_RUnityEngine__0__UIElements__0__IStyle__0__get_transitionProperty = new(this, "UnityEngine.UIElements.IStyle.transitionProperty", -1);
-					r_RUnityEngine__0__UIElements__0__IStyle__0__get_transitionProperty.SetBelong(this.instance);
+					r_UnityEngine__2__UIElements__2__IStyle__2__transitionProperty = new(this, "UnityEngine.UIElements.IStyle.transitionProperty", -1);
+					r_UnityEngine__2__UIElements__2__IStyle__2__transitionProperty.SetBelong(this.instance);
 				}
-				return r_RUnityEngine__0__UIElements__0__IStyle__0__get_transitionProperty;
+				return r_UnityEngine__2__UIElements__2__IStyle__2__transitionProperty;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleList`1[UnityEngine.UIElements.EasingFunction] UnityEngine.UIElements.IStyle.transitionTimingFunction
 		/// </summary>
-		protected RUnityEngine.RUIElements.RStyleList<RUnityEngine.RUIElements.REasingFunction> r_RUnityEngine__0__UIElements__0__IStyle__0__get_transitionTimingFunction;
-		public virtual RUnityEngine.RUIElements.RStyleList<RUnityEngine.RUIElements.REasingFunction> RUnityEngine__0__UIElements__0__IStyle__0__get_transitionTimingFunction
+		protected RUnityEngine.RUIElements.RStyleList<RUnityEngine.RUIElements.REasingFunction> r_UnityEngine__2__UIElements__2__IStyle__2__transitionTimingFunction;
+		public virtual RUnityEngine.RUIElements.RStyleList<RUnityEngine.RUIElements.REasingFunction> RUnityEngine__2__UIElements__2__IStyle__2__transitionTimingFunction
 		{
 			get
 			{
-				if(r_RUnityEngine__0__UIElements__0__IStyle__0__get_transitionTimingFunction == null)
+				if(r_UnityEngine__2__UIElements__2__IStyle__2__transitionTimingFunction == null)
 				{
-					r_RUnityEngine__0__UIElements__0__IStyle__0__get_transitionTimingFunction = new(this, "UnityEngine.UIElements.IStyle.transitionTimingFunction", -1);
-					r_RUnityEngine__0__UIElements__0__IStyle__0__get_transitionTimingFunction.SetBelong(this.instance);
+					r_UnityEngine__2__UIElements__2__IStyle__2__transitionTimingFunction = new(this, "UnityEngine.UIElements.IStyle.transitionTimingFunction", -1);
+					r_UnityEngine__2__UIElements__2__IStyle__2__transitionTimingFunction.SetBelong(this.instance);
 				}
-				return r_RUnityEngine__0__UIElements__0__IStyle__0__get_transitionTimingFunction;
+				return r_UnityEngine__2__UIElements__2__IStyle__2__transitionTimingFunction;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleColor UnityEngine.UIElements.IStyle.unityBackgroundImageTintColor
 		/// </summary>
-		protected RUnityEngine.RUIElements.RStyleColor r_RUnityEngine__0__UIElements__0__IStyle__0__get_unityBackgroundImageTintColor;
-		public virtual RUnityEngine.RUIElements.RStyleColor RUnityEngine__0__UIElements__0__IStyle__0__get_unityBackgroundImageTintColor
+		protected RUnityEngine.RUIElements.RStyleColor r_UnityEngine__2__UIElements__2__IStyle__2__unityBackgroundImageTintColor;
+		public virtual RUnityEngine.RUIElements.RStyleColor RUnityEngine__2__UIElements__2__IStyle__2__unityBackgroundImageTintColor
 		{
 			get
 			{
-				if(r_RUnityEngine__0__UIElements__0__IStyle__0__get_unityBackgroundImageTintColor == null)
+				if(r_UnityEngine__2__UIElements__2__IStyle__2__unityBackgroundImageTintColor == null)
 				{
-					r_RUnityEngine__0__UIElements__0__IStyle__0__get_unityBackgroundImageTintColor = new(this, "UnityEngine.UIElements.IStyle.unityBackgroundImageTintColor", -1);
-					r_RUnityEngine__0__UIElements__0__IStyle__0__get_unityBackgroundImageTintColor.SetBelong(this.instance);
+					r_UnityEngine__2__UIElements__2__IStyle__2__unityBackgroundImageTintColor = new(this, "UnityEngine.UIElements.IStyle.unityBackgroundImageTintColor", -1);
+					r_UnityEngine__2__UIElements__2__IStyle__2__unityBackgroundImageTintColor.SetBelong(this.instance);
 				}
-				return r_RUnityEngine__0__UIElements__0__IStyle__0__get_unityBackgroundImageTintColor;
+				return r_UnityEngine__2__UIElements__2__IStyle__2__unityBackgroundImageTintColor;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleFont UnityEngine.UIElements.IStyle.unityFont
 		/// </summary>
-		protected RUnityEngine.RUIElements.RStyleFont r_RUnityEngine__0__UIElements__0__IStyle__0__get_unityFont;
-		public virtual RUnityEngine.RUIElements.RStyleFont RUnityEngine__0__UIElements__0__IStyle__0__get_unityFont
+		protected RUnityEngine.RUIElements.RStyleFont r_UnityEngine__2__UIElements__2__IStyle__2__unityFont;
+		public virtual RUnityEngine.RUIElements.RStyleFont RUnityEngine__2__UIElements__2__IStyle__2__unityFont
 		{
 			get
 			{
-				if(r_RUnityEngine__0__UIElements__0__IStyle__0__get_unityFont == null)
+				if(r_UnityEngine__2__UIElements__2__IStyle__2__unityFont == null)
 				{
-					r_RUnityEngine__0__UIElements__0__IStyle__0__get_unityFont = new(this, "UnityEngine.UIElements.IStyle.unityFont", -1);
-					r_RUnityEngine__0__UIElements__0__IStyle__0__get_unityFont.SetBelong(this.instance);
+					r_UnityEngine__2__UIElements__2__IStyle__2__unityFont = new(this, "UnityEngine.UIElements.IStyle.unityFont", -1);
+					r_UnityEngine__2__UIElements__2__IStyle__2__unityFont.SetBelong(this.instance);
 				}
-				return r_RUnityEngine__0__UIElements__0__IStyle__0__get_unityFont;
+				return r_UnityEngine__2__UIElements__2__IStyle__2__unityFont;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleFontDefinition UnityEngine.UIElements.IStyle.unityFontDefinition
 		/// </summary>
-		protected RUnityEngine.RUIElements.RStyleFontDefinition r_RUnityEngine__0__UIElements__0__IStyle__0__get_unityFontDefinition;
-		public virtual RUnityEngine.RUIElements.RStyleFontDefinition RUnityEngine__0__UIElements__0__IStyle__0__get_unityFontDefinition
+		protected RUnityEngine.RUIElements.RStyleFontDefinition r_UnityEngine__2__UIElements__2__IStyle__2__unityFontDefinition;
+		public virtual RUnityEngine.RUIElements.RStyleFontDefinition RUnityEngine__2__UIElements__2__IStyle__2__unityFontDefinition
 		{
 			get
 			{
-				if(r_RUnityEngine__0__UIElements__0__IStyle__0__get_unityFontDefinition == null)
+				if(r_UnityEngine__2__UIElements__2__IStyle__2__unityFontDefinition == null)
 				{
-					r_RUnityEngine__0__UIElements__0__IStyle__0__get_unityFontDefinition = new(this, "UnityEngine.UIElements.IStyle.unityFontDefinition", -1);
-					r_RUnityEngine__0__UIElements__0__IStyle__0__get_unityFontDefinition.SetBelong(this.instance);
+					r_UnityEngine__2__UIElements__2__IStyle__2__unityFontDefinition = new(this, "UnityEngine.UIElements.IStyle.unityFontDefinition", -1);
+					r_UnityEngine__2__UIElements__2__IStyle__2__unityFontDefinition.SetBelong(this.instance);
 				}
-				return r_RUnityEngine__0__UIElements__0__IStyle__0__get_unityFontDefinition;
+				return r_UnityEngine__2__UIElements__2__IStyle__2__unityFontDefinition;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleEnum`1[UnityEngine.FontStyle] UnityEngine.UIElements.IStyle.unityFontStyleAndWeight
 		/// </summary>
-		protected RProperty r_RUnityEngine__0__UIElements__0__IStyle__0__get_unityFontStyleAndWeight;
-		public virtual RProperty RUnityEngine__0__UIElements__0__IStyle__0__get_unityFontStyleAndWeight
+		protected RProperty r_UnityEngine__2__UIElements__2__IStyle__2__unityFontStyleAndWeight;
+		public virtual RProperty RUnityEngine__2__UIElements__2__IStyle__2__unityFontStyleAndWeight
 		{
 			get
 			{
-				if(r_RUnityEngine__0__UIElements__0__IStyle__0__get_unityFontStyleAndWeight == null)
+				if(r_UnityEngine__2__UIElements__2__IStyle__2__unityFontStyleAndWeight == null)
 				{
-					r_RUnityEngine__0__UIElements__0__IStyle__0__get_unityFontStyleAndWeight = new(this, "UnityEngine.UIElements.IStyle.unityFontStyleAndWeight", -1);
-					r_RUnityEngine__0__UIElements__0__IStyle__0__get_unityFontStyleAndWeight.SetBelong(this.instance);
+					r_UnityEngine__2__UIElements__2__IStyle__2__unityFontStyleAndWeight = new(this, "UnityEngine.UIElements.IStyle.unityFontStyleAndWeight", -1);
+					r_UnityEngine__2__UIElements__2__IStyle__2__unityFontStyleAndWeight.SetBelong(this.instance);
 				}
-				return r_RUnityEngine__0__UIElements__0__IStyle__0__get_unityFontStyleAndWeight;
+				return r_UnityEngine__2__UIElements__2__IStyle__2__unityFontStyleAndWeight;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleEnum`1[UnityEngine.UIElements.OverflowClipBox] UnityEngine.UIElements.IStyle.unityOverflowClipBox
 		/// </summary>
-		protected RProperty r_RUnityEngine__0__UIElements__0__IStyle__0__get_unityOverflowClipBox;
-		public virtual RProperty RUnityEngine__0__UIElements__0__IStyle__0__get_unityOverflowClipBox
+		protected RProperty r_UnityEngine__2__UIElements__2__IStyle__2__unityOverflowClipBox;
+		public virtual RProperty RUnityEngine__2__UIElements__2__IStyle__2__unityOverflowClipBox
 		{
 			get
 			{
-				if(r_RUnityEngine__0__UIElements__0__IStyle__0__get_unityOverflowClipBox == null)
+				if(r_UnityEngine__2__UIElements__2__IStyle__2__unityOverflowClipBox == null)
 				{
-					r_RUnityEngine__0__UIElements__0__IStyle__0__get_unityOverflowClipBox = new(this, "UnityEngine.UIElements.IStyle.unityOverflowClipBox", -1);
-					r_RUnityEngine__0__UIElements__0__IStyle__0__get_unityOverflowClipBox.SetBelong(this.instance);
+					r_UnityEngine__2__UIElements__2__IStyle__2__unityOverflowClipBox = new(this, "UnityEngine.UIElements.IStyle.unityOverflowClipBox", -1);
+					r_UnityEngine__2__UIElements__2__IStyle__2__unityOverflowClipBox.SetBelong(this.instance);
 				}
-				return r_RUnityEngine__0__UIElements__0__IStyle__0__get_unityOverflowClipBox;
+				return r_UnityEngine__2__UIElements__2__IStyle__2__unityOverflowClipBox;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleLength UnityEngine.UIElements.IStyle.unityParagraphSpacing
 		/// </summary>
-		protected RUnityEngine.RUIElements.RStyleLength r_RUnityEngine__0__UIElements__0__IStyle__0__get_unityParagraphSpacing;
-		public virtual RUnityEngine.RUIElements.RStyleLength RUnityEngine__0__UIElements__0__IStyle__0__get_unityParagraphSpacing
+		protected RUnityEngine.RUIElements.RStyleLength r_UnityEngine__2__UIElements__2__IStyle__2__unityParagraphSpacing;
+		public virtual RUnityEngine.RUIElements.RStyleLength RUnityEngine__2__UIElements__2__IStyle__2__unityParagraphSpacing
 		{
 			get
 			{
-				if(r_RUnityEngine__0__UIElements__0__IStyle__0__get_unityParagraphSpacing == null)
+				if(r_UnityEngine__2__UIElements__2__IStyle__2__unityParagraphSpacing == null)
 				{
-					r_RUnityEngine__0__UIElements__0__IStyle__0__get_unityParagraphSpacing = new(this, "UnityEngine.UIElements.IStyle.unityParagraphSpacing", -1);
-					r_RUnityEngine__0__UIElements__0__IStyle__0__get_unityParagraphSpacing.SetBelong(this.instance);
+					r_UnityEngine__2__UIElements__2__IStyle__2__unityParagraphSpacing = new(this, "UnityEngine.UIElements.IStyle.unityParagraphSpacing", -1);
+					r_UnityEngine__2__UIElements__2__IStyle__2__unityParagraphSpacing.SetBelong(this.instance);
 				}
-				return r_RUnityEngine__0__UIElements__0__IStyle__0__get_unityParagraphSpacing;
+				return r_UnityEngine__2__UIElements__2__IStyle__2__unityParagraphSpacing;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleInt UnityEngine.UIElements.IStyle.unitySliceBottom
 		/// </summary>
-		protected RUnityEngine.RUIElements.RStyleInt r_RUnityEngine__0__UIElements__0__IStyle__0__get_unitySliceBottom;
-		public virtual RUnityEngine.RUIElements.RStyleInt RUnityEngine__0__UIElements__0__IStyle__0__get_unitySliceBottom
+		protected RUnityEngine.RUIElements.RStyleInt r_UnityEngine__2__UIElements__2__IStyle__2__unitySliceBottom;
+		public virtual RUnityEngine.RUIElements.RStyleInt RUnityEngine__2__UIElements__2__IStyle__2__unitySliceBottom
 		{
 			get
 			{
-				if(r_RUnityEngine__0__UIElements__0__IStyle__0__get_unitySliceBottom == null)
+				if(r_UnityEngine__2__UIElements__2__IStyle__2__unitySliceBottom == null)
 				{
-					r_RUnityEngine__0__UIElements__0__IStyle__0__get_unitySliceBottom = new(this, "UnityEngine.UIElements.IStyle.unitySliceBottom", -1);
-					r_RUnityEngine__0__UIElements__0__IStyle__0__get_unitySliceBottom.SetBelong(this.instance);
+					r_UnityEngine__2__UIElements__2__IStyle__2__unitySliceBottom = new(this, "UnityEngine.UIElements.IStyle.unitySliceBottom", -1);
+					r_UnityEngine__2__UIElements__2__IStyle__2__unitySliceBottom.SetBelong(this.instance);
 				}
-				return r_RUnityEngine__0__UIElements__0__IStyle__0__get_unitySliceBottom;
+				return r_UnityEngine__2__UIElements__2__IStyle__2__unitySliceBottom;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleInt UnityEngine.UIElements.IStyle.unitySliceLeft
 		/// </summary>
-		protected RUnityEngine.RUIElements.RStyleInt r_RUnityEngine__0__UIElements__0__IStyle__0__get_unitySliceLeft;
-		public virtual RUnityEngine.RUIElements.RStyleInt RUnityEngine__0__UIElements__0__IStyle__0__get_unitySliceLeft
+		protected RUnityEngine.RUIElements.RStyleInt r_UnityEngine__2__UIElements__2__IStyle__2__unitySliceLeft;
+		public virtual RUnityEngine.RUIElements.RStyleInt RUnityEngine__2__UIElements__2__IStyle__2__unitySliceLeft
 		{
 			get
 			{
-				if(r_RUnityEngine__0__UIElements__0__IStyle__0__get_unitySliceLeft == null)
+				if(r_UnityEngine__2__UIElements__2__IStyle__2__unitySliceLeft == null)
 				{
-					r_RUnityEngine__0__UIElements__0__IStyle__0__get_unitySliceLeft = new(this, "UnityEngine.UIElements.IStyle.unitySliceLeft", -1);
-					r_RUnityEngine__0__UIElements__0__IStyle__0__get_unitySliceLeft.SetBelong(this.instance);
+					r_UnityEngine__2__UIElements__2__IStyle__2__unitySliceLeft = new(this, "UnityEngine.UIElements.IStyle.unitySliceLeft", -1);
+					r_UnityEngine__2__UIElements__2__IStyle__2__unitySliceLeft.SetBelong(this.instance);
 				}
-				return r_RUnityEngine__0__UIElements__0__IStyle__0__get_unitySliceLeft;
+				return r_UnityEngine__2__UIElements__2__IStyle__2__unitySliceLeft;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleInt UnityEngine.UIElements.IStyle.unitySliceRight
 		/// </summary>
-		protected RUnityEngine.RUIElements.RStyleInt r_RUnityEngine__0__UIElements__0__IStyle__0__get_unitySliceRight;
-		public virtual RUnityEngine.RUIElements.RStyleInt RUnityEngine__0__UIElements__0__IStyle__0__get_unitySliceRight
+		protected RUnityEngine.RUIElements.RStyleInt r_UnityEngine__2__UIElements__2__IStyle__2__unitySliceRight;
+		public virtual RUnityEngine.RUIElements.RStyleInt RUnityEngine__2__UIElements__2__IStyle__2__unitySliceRight
 		{
 			get
 			{
-				if(r_RUnityEngine__0__UIElements__0__IStyle__0__get_unitySliceRight == null)
+				if(r_UnityEngine__2__UIElements__2__IStyle__2__unitySliceRight == null)
 				{
-					r_RUnityEngine__0__UIElements__0__IStyle__0__get_unitySliceRight = new(this, "UnityEngine.UIElements.IStyle.unitySliceRight", -1);
-					r_RUnityEngine__0__UIElements__0__IStyle__0__get_unitySliceRight.SetBelong(this.instance);
+					r_UnityEngine__2__UIElements__2__IStyle__2__unitySliceRight = new(this, "UnityEngine.UIElements.IStyle.unitySliceRight", -1);
+					r_UnityEngine__2__UIElements__2__IStyle__2__unitySliceRight.SetBelong(this.instance);
 				}
-				return r_RUnityEngine__0__UIElements__0__IStyle__0__get_unitySliceRight;
+				return r_UnityEngine__2__UIElements__2__IStyle__2__unitySliceRight;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleFloat UnityEngine.UIElements.IStyle.unitySliceScale
 		/// </summary>
-		protected RUnityEngine.RUIElements.RStyleFloat r_RUnityEngine__0__UIElements__0__IStyle__0__get_unitySliceScale;
-		public virtual RUnityEngine.RUIElements.RStyleFloat RUnityEngine__0__UIElements__0__IStyle__0__get_unitySliceScale
+		protected RUnityEngine.RUIElements.RStyleFloat r_UnityEngine__2__UIElements__2__IStyle__2__unitySliceScale;
+		public virtual RUnityEngine.RUIElements.RStyleFloat RUnityEngine__2__UIElements__2__IStyle__2__unitySliceScale
 		{
 			get
 			{
-				if(r_RUnityEngine__0__UIElements__0__IStyle__0__get_unitySliceScale == null)
+				if(r_UnityEngine__2__UIElements__2__IStyle__2__unitySliceScale == null)
 				{
-					r_RUnityEngine__0__UIElements__0__IStyle__0__get_unitySliceScale = new(this, "UnityEngine.UIElements.IStyle.unitySliceScale", -1);
-					r_RUnityEngine__0__UIElements__0__IStyle__0__get_unitySliceScale.SetBelong(this.instance);
+					r_UnityEngine__2__UIElements__2__IStyle__2__unitySliceScale = new(this, "UnityEngine.UIElements.IStyle.unitySliceScale", -1);
+					r_UnityEngine__2__UIElements__2__IStyle__2__unitySliceScale.SetBelong(this.instance);
 				}
-				return r_RUnityEngine__0__UIElements__0__IStyle__0__get_unitySliceScale;
+				return r_UnityEngine__2__UIElements__2__IStyle__2__unitySliceScale;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleInt UnityEngine.UIElements.IStyle.unitySliceTop
 		/// </summary>
-		protected RUnityEngine.RUIElements.RStyleInt r_RUnityEngine__0__UIElements__0__IStyle__0__get_unitySliceTop;
-		public virtual RUnityEngine.RUIElements.RStyleInt RUnityEngine__0__UIElements__0__IStyle__0__get_unitySliceTop
+		protected RUnityEngine.RUIElements.RStyleInt r_UnityEngine__2__UIElements__2__IStyle__2__unitySliceTop;
+		public virtual RUnityEngine.RUIElements.RStyleInt RUnityEngine__2__UIElements__2__IStyle__2__unitySliceTop
 		{
 			get
 			{
-				if(r_RUnityEngine__0__UIElements__0__IStyle__0__get_unitySliceTop == null)
+				if(r_UnityEngine__2__UIElements__2__IStyle__2__unitySliceTop == null)
 				{
-					r_RUnityEngine__0__UIElements__0__IStyle__0__get_unitySliceTop = new(this, "UnityEngine.UIElements.IStyle.unitySliceTop", -1);
-					r_RUnityEngine__0__UIElements__0__IStyle__0__get_unitySliceTop.SetBelong(this.instance);
+					r_UnityEngine__2__UIElements__2__IStyle__2__unitySliceTop = new(this, "UnityEngine.UIElements.IStyle.unitySliceTop", -1);
+					r_UnityEngine__2__UIElements__2__IStyle__2__unitySliceTop.SetBelong(this.instance);
 				}
-				return r_RUnityEngine__0__UIElements__0__IStyle__0__get_unitySliceTop;
+				return r_UnityEngine__2__UIElements__2__IStyle__2__unitySliceTop;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleEnum`1[UnityEngine.TextAnchor] UnityEngine.UIElements.IStyle.unityTextAlign
 		/// </summary>
-		protected RProperty r_RUnityEngine__0__UIElements__0__IStyle__0__get_unityTextAlign;
-		public virtual RProperty RUnityEngine__0__UIElements__0__IStyle__0__get_unityTextAlign
+		protected RProperty r_UnityEngine__2__UIElements__2__IStyle__2__unityTextAlign;
+		public virtual RProperty RUnityEngine__2__UIElements__2__IStyle__2__unityTextAlign
 		{
 			get
 			{
-				if(r_RUnityEngine__0__UIElements__0__IStyle__0__get_unityTextAlign == null)
+				if(r_UnityEngine__2__UIElements__2__IStyle__2__unityTextAlign == null)
 				{
-					r_RUnityEngine__0__UIElements__0__IStyle__0__get_unityTextAlign = new(this, "UnityEngine.UIElements.IStyle.unityTextAlign", -1);
-					r_RUnityEngine__0__UIElements__0__IStyle__0__get_unityTextAlign.SetBelong(this.instance);
+					r_UnityEngine__2__UIElements__2__IStyle__2__unityTextAlign = new(this, "UnityEngine.UIElements.IStyle.unityTextAlign", -1);
+					r_UnityEngine__2__UIElements__2__IStyle__2__unityTextAlign.SetBelong(this.instance);
 				}
-				return r_RUnityEngine__0__UIElements__0__IStyle__0__get_unityTextAlign;
+				return r_UnityEngine__2__UIElements__2__IStyle__2__unityTextAlign;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleColor UnityEngine.UIElements.IStyle.unityTextOutlineColor
 		/// </summary>
-		protected RUnityEngine.RUIElements.RStyleColor r_RUnityEngine__0__UIElements__0__IStyle__0__get_unityTextOutlineColor;
-		public virtual RUnityEngine.RUIElements.RStyleColor RUnityEngine__0__UIElements__0__IStyle__0__get_unityTextOutlineColor
+		protected RUnityEngine.RUIElements.RStyleColor r_UnityEngine__2__UIElements__2__IStyle__2__unityTextOutlineColor;
+		public virtual RUnityEngine.RUIElements.RStyleColor RUnityEngine__2__UIElements__2__IStyle__2__unityTextOutlineColor
 		{
 			get
 			{
-				if(r_RUnityEngine__0__UIElements__0__IStyle__0__get_unityTextOutlineColor == null)
+				if(r_UnityEngine__2__UIElements__2__IStyle__2__unityTextOutlineColor == null)
 				{
-					r_RUnityEngine__0__UIElements__0__IStyle__0__get_unityTextOutlineColor = new(this, "UnityEngine.UIElements.IStyle.unityTextOutlineColor", -1);
-					r_RUnityEngine__0__UIElements__0__IStyle__0__get_unityTextOutlineColor.SetBelong(this.instance);
+					r_UnityEngine__2__UIElements__2__IStyle__2__unityTextOutlineColor = new(this, "UnityEngine.UIElements.IStyle.unityTextOutlineColor", -1);
+					r_UnityEngine__2__UIElements__2__IStyle__2__unityTextOutlineColor.SetBelong(this.instance);
 				}
-				return r_RUnityEngine__0__UIElements__0__IStyle__0__get_unityTextOutlineColor;
+				return r_UnityEngine__2__UIElements__2__IStyle__2__unityTextOutlineColor;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleFloat UnityEngine.UIElements.IStyle.unityTextOutlineWidth
 		/// </summary>
-		protected RUnityEngine.RUIElements.RStyleFloat r_RUnityEngine__0__UIElements__0__IStyle__0__get_unityTextOutlineWidth;
-		public virtual RUnityEngine.RUIElements.RStyleFloat RUnityEngine__0__UIElements__0__IStyle__0__get_unityTextOutlineWidth
+		protected RUnityEngine.RUIElements.RStyleFloat r_UnityEngine__2__UIElements__2__IStyle__2__unityTextOutlineWidth;
+		public virtual RUnityEngine.RUIElements.RStyleFloat RUnityEngine__2__UIElements__2__IStyle__2__unityTextOutlineWidth
 		{
 			get
 			{
-				if(r_RUnityEngine__0__UIElements__0__IStyle__0__get_unityTextOutlineWidth == null)
+				if(r_UnityEngine__2__UIElements__2__IStyle__2__unityTextOutlineWidth == null)
 				{
-					r_RUnityEngine__0__UIElements__0__IStyle__0__get_unityTextOutlineWidth = new(this, "UnityEngine.UIElements.IStyle.unityTextOutlineWidth", -1);
-					r_RUnityEngine__0__UIElements__0__IStyle__0__get_unityTextOutlineWidth.SetBelong(this.instance);
+					r_UnityEngine__2__UIElements__2__IStyle__2__unityTextOutlineWidth = new(this, "UnityEngine.UIElements.IStyle.unityTextOutlineWidth", -1);
+					r_UnityEngine__2__UIElements__2__IStyle__2__unityTextOutlineWidth.SetBelong(this.instance);
 				}
-				return r_RUnityEngine__0__UIElements__0__IStyle__0__get_unityTextOutlineWidth;
+				return r_UnityEngine__2__UIElements__2__IStyle__2__unityTextOutlineWidth;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleEnum`1[UnityEngine.UIElements.TextOverflowPosition] UnityEngine.UIElements.IStyle.unityTextOverflowPosition
 		/// </summary>
-		protected RProperty r_RUnityEngine__0__UIElements__0__IStyle__0__get_unityTextOverflowPosition;
-		public virtual RProperty RUnityEngine__0__UIElements__0__IStyle__0__get_unityTextOverflowPosition
+		protected RProperty r_UnityEngine__2__UIElements__2__IStyle__2__unityTextOverflowPosition;
+		public virtual RProperty RUnityEngine__2__UIElements__2__IStyle__2__unityTextOverflowPosition
 		{
 			get
 			{
-				if(r_RUnityEngine__0__UIElements__0__IStyle__0__get_unityTextOverflowPosition == null)
+				if(r_UnityEngine__2__UIElements__2__IStyle__2__unityTextOverflowPosition == null)
 				{
-					r_RUnityEngine__0__UIElements__0__IStyle__0__get_unityTextOverflowPosition = new(this, "UnityEngine.UIElements.IStyle.unityTextOverflowPosition", -1);
-					r_RUnityEngine__0__UIElements__0__IStyle__0__get_unityTextOverflowPosition.SetBelong(this.instance);
+					r_UnityEngine__2__UIElements__2__IStyle__2__unityTextOverflowPosition = new(this, "UnityEngine.UIElements.IStyle.unityTextOverflowPosition", -1);
+					r_UnityEngine__2__UIElements__2__IStyle__2__unityTextOverflowPosition.SetBelong(this.instance);
 				}
-				return r_RUnityEngine__0__UIElements__0__IStyle__0__get_unityTextOverflowPosition;
+				return r_UnityEngine__2__UIElements__2__IStyle__2__unityTextOverflowPosition;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleEnum`1[UnityEngine.UIElements.Visibility] UnityEngine.UIElements.IStyle.visibility
 		/// </summary>
-		protected RProperty r_RUnityEngine__0__UIElements__0__IStyle__0__get_visibility;
-		public virtual RProperty RUnityEngine__0__UIElements__0__IStyle__0__get_visibility
+		protected RProperty r_UnityEngine__2__UIElements__2__IStyle__2__visibility;
+		public virtual RProperty RUnityEngine__2__UIElements__2__IStyle__2__visibility
 		{
 			get
 			{
-				if(r_RUnityEngine__0__UIElements__0__IStyle__0__get_visibility == null)
+				if(r_UnityEngine__2__UIElements__2__IStyle__2__visibility == null)
 				{
-					r_RUnityEngine__0__UIElements__0__IStyle__0__get_visibility = new(this, "UnityEngine.UIElements.IStyle.visibility", -1);
-					r_RUnityEngine__0__UIElements__0__IStyle__0__get_visibility.SetBelong(this.instance);
+					r_UnityEngine__2__UIElements__2__IStyle__2__visibility = new(this, "UnityEngine.UIElements.IStyle.visibility", -1);
+					r_UnityEngine__2__UIElements__2__IStyle__2__visibility.SetBelong(this.instance);
 				}
-				return r_RUnityEngine__0__UIElements__0__IStyle__0__get_visibility;
+				return r_UnityEngine__2__UIElements__2__IStyle__2__visibility;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleEnum`1[UnityEngine.UIElements.WhiteSpace] UnityEngine.UIElements.IStyle.whiteSpace
 		/// </summary>
-		protected RProperty r_RUnityEngine__0__UIElements__0__IStyle__0__get_whiteSpace;
-		public virtual RProperty RUnityEngine__0__UIElements__0__IStyle__0__get_whiteSpace
+		protected RProperty r_UnityEngine__2__UIElements__2__IStyle__2__whiteSpace;
+		public virtual RProperty RUnityEngine__2__UIElements__2__IStyle__2__whiteSpace
 		{
 			get
 			{
-				if(r_RUnityEngine__0__UIElements__0__IStyle__0__get_whiteSpace == null)
+				if(r_UnityEngine__2__UIElements__2__IStyle__2__whiteSpace == null)
 				{
-					r_RUnityEngine__0__UIElements__0__IStyle__0__get_whiteSpace = new(this, "UnityEngine.UIElements.IStyle.whiteSpace", -1);
-					r_RUnityEngine__0__UIElements__0__IStyle__0__get_whiteSpace.SetBelong(this.instance);
+					r_UnityEngine__2__UIElements__2__IStyle__2__whiteSpace = new(this, "UnityEngine.UIElements.IStyle.whiteSpace", -1);
+					r_UnityEngine__2__UIElements__2__IStyle__2__whiteSpace.SetBelong(this.instance);
 				}
-				return r_RUnityEngine__0__UIElements__0__IStyle__0__get_whiteSpace;
+				return r_UnityEngine__2__UIElements__2__IStyle__2__whiteSpace;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleLength UnityEngine.UIElements.IStyle.width
 		/// </summary>
-		protected RUnityEngine.RUIElements.RStyleLength r_RUnityEngine__0__UIElements__0__IStyle__0__get_width;
-		public virtual RUnityEngine.RUIElements.RStyleLength RUnityEngine__0__UIElements__0__IStyle__0__get_width
+		protected RUnityEngine.RUIElements.RStyleLength r_UnityEngine__2__UIElements__2__IStyle__2__width;
+		public virtual RUnityEngine.RUIElements.RStyleLength RUnityEngine__2__UIElements__2__IStyle__2__width
 		{
 			get
 			{
-				if(r_RUnityEngine__0__UIElements__0__IStyle__0__get_width == null)
+				if(r_UnityEngine__2__UIElements__2__IStyle__2__width == null)
 				{
-					r_RUnityEngine__0__UIElements__0__IStyle__0__get_width = new(this, "UnityEngine.UIElements.IStyle.width", -1);
-					r_RUnityEngine__0__UIElements__0__IStyle__0__get_width.SetBelong(this.instance);
+					r_UnityEngine__2__UIElements__2__IStyle__2__width = new(this, "UnityEngine.UIElements.IStyle.width", -1);
+					r_UnityEngine__2__UIElements__2__IStyle__2__width.SetBelong(this.instance);
 				}
-				return r_RUnityEngine__0__UIElements__0__IStyle__0__get_width;
+				return r_UnityEngine__2__UIElements__2__IStyle__2__width;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleLength UnityEngine.UIElements.IStyle.wordSpacing
 		/// </summary>
-		protected RUnityEngine.RUIElements.RStyleLength r_RUnityEngine__0__UIElements__0__IStyle__0__get_wordSpacing;
-		public virtual RUnityEngine.RUIElements.RStyleLength RUnityEngine__0__UIElements__0__IStyle__0__get_wordSpacing
+		protected RUnityEngine.RUIElements.RStyleLength r_UnityEngine__2__UIElements__2__IStyle__2__wordSpacing;
+		public virtual RUnityEngine.RUIElements.RStyleLength RUnityEngine__2__UIElements__2__IStyle__2__wordSpacing
 		{
 			get
 			{
-				if(r_RUnityEngine__0__UIElements__0__IStyle__0__get_wordSpacing == null)
+				if(r_UnityEngine__2__UIElements__2__IStyle__2__wordSpacing == null)
 				{
-					r_RUnityEngine__0__UIElements__0__IStyle__0__get_wordSpacing = new(this, "UnityEngine.UIElements.IStyle.wordSpacing", -1);
-					r_RUnityEngine__0__UIElements__0__IStyle__0__get_wordSpacing.SetBelong(this.instance);
+					r_UnityEngine__2__UIElements__2__IStyle__2__wordSpacing = new(this, "UnityEngine.UIElements.IStyle.wordSpacing", -1);
+					r_UnityEngine__2__UIElements__2__IStyle__2__wordSpacing.SetBelong(this.instance);
 				}
-				return r_RUnityEngine__0__UIElements__0__IStyle__0__get_wordSpacing;
+				return r_UnityEngine__2__UIElements__2__IStyle__2__wordSpacing;
 			}
 		}
 
@@ -1628,1139 +1628,1139 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleCursor UnityEngine.UIElements.IStyle.cursor
 		/// </summary>
-		protected RUnityEngine.RUIElements.RStyleCursor r_RUnityEngine__0__UIElements__0__IStyle__0__get_cursor;
-		public virtual RUnityEngine.RUIElements.RStyleCursor RUnityEngine__0__UIElements__0__IStyle__0__get_cursor
+		protected RUnityEngine.RUIElements.RStyleCursor r_UnityEngine__2__UIElements__2__IStyle__2__cursor;
+		public virtual RUnityEngine.RUIElements.RStyleCursor RUnityEngine__2__UIElements__2__IStyle__2__cursor
 		{
 			get
 			{
-				if(r_RUnityEngine__0__UIElements__0__IStyle__0__get_cursor == null)
+				if(r_UnityEngine__2__UIElements__2__IStyle__2__cursor == null)
 				{
-					r_RUnityEngine__0__UIElements__0__IStyle__0__get_cursor = new(this, "UnityEngine.UIElements.IStyle.cursor", -1);
-					r_RUnityEngine__0__UIElements__0__IStyle__0__get_cursor.SetBelong(this.instance);
+					r_UnityEngine__2__UIElements__2__IStyle__2__cursor = new(this, "UnityEngine.UIElements.IStyle.cursor", -1);
+					r_UnityEngine__2__UIElements__2__IStyle__2__cursor.SetBelong(this.instance);
 				}
-				return r_RUnityEngine__0__UIElements__0__IStyle__0__get_cursor;
+				return r_UnityEngine__2__UIElements__2__IStyle__2__cursor;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleTextShadow UnityEngine.UIElements.IStyle.textShadow
 		/// </summary>
-		protected RUnityEngine.RUIElements.RStyleTextShadow r_RUnityEngine__0__UIElements__0__IStyle__0__get_textShadow;
-		public virtual RUnityEngine.RUIElements.RStyleTextShadow RUnityEngine__0__UIElements__0__IStyle__0__get_textShadow
+		protected RUnityEngine.RUIElements.RStyleTextShadow r_UnityEngine__2__UIElements__2__IStyle__2__textShadow;
+		public virtual RUnityEngine.RUIElements.RStyleTextShadow RUnityEngine__2__UIElements__2__IStyle__2__textShadow
 		{
 			get
 			{
-				if(r_RUnityEngine__0__UIElements__0__IStyle__0__get_textShadow == null)
+				if(r_UnityEngine__2__UIElements__2__IStyle__2__textShadow == null)
 				{
-					r_RUnityEngine__0__UIElements__0__IStyle__0__get_textShadow = new(this, "UnityEngine.UIElements.IStyle.textShadow", -1);
-					r_RUnityEngine__0__UIElements__0__IStyle__0__get_textShadow.SetBelong(this.instance);
+					r_UnityEngine__2__UIElements__2__IStyle__2__textShadow = new(this, "UnityEngine.UIElements.IStyle.textShadow", -1);
+					r_UnityEngine__2__UIElements__2__IStyle__2__textShadow.SetBelong(this.instance);
 				}
-				return r_RUnityEngine__0__UIElements__0__IStyle__0__get_textShadow;
+				return r_UnityEngine__2__UIElements__2__IStyle__2__textShadow;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleBackgroundSize UnityEngine.UIElements.IStyle.backgroundSize
 		/// </summary>
-		protected RUnityEngine.RUIElements.RStyleBackgroundSize r_RUnityEngine__0__UIElements__0__IStyle__0__get_backgroundSize;
-		public virtual RUnityEngine.RUIElements.RStyleBackgroundSize RUnityEngine__0__UIElements__0__IStyle__0__get_backgroundSize
+		protected RUnityEngine.RUIElements.RStyleBackgroundSize r_UnityEngine__2__UIElements__2__IStyle__2__backgroundSize;
+		public virtual RUnityEngine.RUIElements.RStyleBackgroundSize RUnityEngine__2__UIElements__2__IStyle__2__backgroundSize
 		{
 			get
 			{
-				if(r_RUnityEngine__0__UIElements__0__IStyle__0__get_backgroundSize == null)
+				if(r_UnityEngine__2__UIElements__2__IStyle__2__backgroundSize == null)
 				{
-					r_RUnityEngine__0__UIElements__0__IStyle__0__get_backgroundSize = new(this, "UnityEngine.UIElements.IStyle.backgroundSize", -1);
-					r_RUnityEngine__0__UIElements__0__IStyle__0__get_backgroundSize.SetBelong(this.instance);
+					r_UnityEngine__2__UIElements__2__IStyle__2__backgroundSize = new(this, "UnityEngine.UIElements.IStyle.backgroundSize", -1);
+					r_UnityEngine__2__UIElements__2__IStyle__2__backgroundSize.SetBelong(this.instance);
 				}
-				return r_RUnityEngine__0__UIElements__0__IStyle__0__get_backgroundSize;
+				return r_UnityEngine__2__UIElements__2__IStyle__2__backgroundSize;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleTransformOrigin UnityEngine.UIElements.IStyle.transformOrigin
 		/// </summary>
-		protected RUnityEngine.RUIElements.RStyleTransformOrigin r_RUnityEngine__0__UIElements__0__IStyle__0__get_transformOrigin;
-		public virtual RUnityEngine.RUIElements.RStyleTransformOrigin RUnityEngine__0__UIElements__0__IStyle__0__get_transformOrigin
+		protected RUnityEngine.RUIElements.RStyleTransformOrigin r_UnityEngine__2__UIElements__2__IStyle__2__transformOrigin;
+		public virtual RUnityEngine.RUIElements.RStyleTransformOrigin RUnityEngine__2__UIElements__2__IStyle__2__transformOrigin
 		{
 			get
 			{
-				if(r_RUnityEngine__0__UIElements__0__IStyle__0__get_transformOrigin == null)
+				if(r_UnityEngine__2__UIElements__2__IStyle__2__transformOrigin == null)
 				{
-					r_RUnityEngine__0__UIElements__0__IStyle__0__get_transformOrigin = new(this, "UnityEngine.UIElements.IStyle.transformOrigin", -1);
-					r_RUnityEngine__0__UIElements__0__IStyle__0__get_transformOrigin.SetBelong(this.instance);
+					r_UnityEngine__2__UIElements__2__IStyle__2__transformOrigin = new(this, "UnityEngine.UIElements.IStyle.transformOrigin", -1);
+					r_UnityEngine__2__UIElements__2__IStyle__2__transformOrigin.SetBelong(this.instance);
 				}
-				return r_RUnityEngine__0__UIElements__0__IStyle__0__get_transformOrigin;
+				return r_UnityEngine__2__UIElements__2__IStyle__2__transformOrigin;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleTranslate UnityEngine.UIElements.IStyle.translate
 		/// </summary>
-		protected RUnityEngine.RUIElements.RStyleTranslate r_RUnityEngine__0__UIElements__0__IStyle__0__get_translate;
-		public virtual RUnityEngine.RUIElements.RStyleTranslate RUnityEngine__0__UIElements__0__IStyle__0__get_translate
+		protected RUnityEngine.RUIElements.RStyleTranslate r_UnityEngine__2__UIElements__2__IStyle__2__translate;
+		public virtual RUnityEngine.RUIElements.RStyleTranslate RUnityEngine__2__UIElements__2__IStyle__2__translate
 		{
 			get
 			{
-				if(r_RUnityEngine__0__UIElements__0__IStyle__0__get_translate == null)
+				if(r_UnityEngine__2__UIElements__2__IStyle__2__translate == null)
 				{
-					r_RUnityEngine__0__UIElements__0__IStyle__0__get_translate = new(this, "UnityEngine.UIElements.IStyle.translate", -1);
-					r_RUnityEngine__0__UIElements__0__IStyle__0__get_translate.SetBelong(this.instance);
+					r_UnityEngine__2__UIElements__2__IStyle__2__translate = new(this, "UnityEngine.UIElements.IStyle.translate", -1);
+					r_UnityEngine__2__UIElements__2__IStyle__2__translate.SetBelong(this.instance);
 				}
-				return r_RUnityEngine__0__UIElements__0__IStyle__0__get_translate;
+				return r_UnityEngine__2__UIElements__2__IStyle__2__translate;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleRotate UnityEngine.UIElements.IStyle.rotate
 		/// </summary>
-		protected RUnityEngine.RUIElements.RStyleRotate r_RUnityEngine__0__UIElements__0__IStyle__0__get_rotate;
-		public virtual RUnityEngine.RUIElements.RStyleRotate RUnityEngine__0__UIElements__0__IStyle__0__get_rotate
+		protected RUnityEngine.RUIElements.RStyleRotate r_UnityEngine__2__UIElements__2__IStyle__2__rotate;
+		public virtual RUnityEngine.RUIElements.RStyleRotate RUnityEngine__2__UIElements__2__IStyle__2__rotate
 		{
 			get
 			{
-				if(r_RUnityEngine__0__UIElements__0__IStyle__0__get_rotate == null)
+				if(r_UnityEngine__2__UIElements__2__IStyle__2__rotate == null)
 				{
-					r_RUnityEngine__0__UIElements__0__IStyle__0__get_rotate = new(this, "UnityEngine.UIElements.IStyle.rotate", -1);
-					r_RUnityEngine__0__UIElements__0__IStyle__0__get_rotate.SetBelong(this.instance);
+					r_UnityEngine__2__UIElements__2__IStyle__2__rotate = new(this, "UnityEngine.UIElements.IStyle.rotate", -1);
+					r_UnityEngine__2__UIElements__2__IStyle__2__rotate.SetBelong(this.instance);
 				}
-				return r_RUnityEngine__0__UIElements__0__IStyle__0__get_rotate;
+				return r_UnityEngine__2__UIElements__2__IStyle__2__rotate;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleScale UnityEngine.UIElements.IStyle.scale
 		/// </summary>
-		protected RUnityEngine.RUIElements.RStyleScale r_RUnityEngine__0__UIElements__0__IStyle__0__get_scale;
-		public virtual RUnityEngine.RUIElements.RStyleScale RUnityEngine__0__UIElements__0__IStyle__0__get_scale
+		protected RUnityEngine.RUIElements.RStyleScale r_UnityEngine__2__UIElements__2__IStyle__2__scale;
+		public virtual RUnityEngine.RUIElements.RStyleScale RUnityEngine__2__UIElements__2__IStyle__2__scale
 		{
 			get
 			{
-				if(r_RUnityEngine__0__UIElements__0__IStyle__0__get_scale == null)
+				if(r_UnityEngine__2__UIElements__2__IStyle__2__scale == null)
 				{
-					r_RUnityEngine__0__UIElements__0__IStyle__0__get_scale = new(this, "UnityEngine.UIElements.IStyle.scale", -1);
-					r_RUnityEngine__0__UIElements__0__IStyle__0__get_scale.SetBelong(this.instance);
+					r_UnityEngine__2__UIElements__2__IStyle__2__scale = new(this, "UnityEngine.UIElements.IStyle.scale", -1);
+					r_UnityEngine__2__UIElements__2__IStyle__2__scale.SetBelong(this.instance);
 				}
-				return r_RUnityEngine__0__UIElements__0__IStyle__0__get_scale;
+				return r_UnityEngine__2__UIElements__2__IStyle__2__scale;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleEnum`1[UnityEngine.ScaleMode] UnityEngine.UIElements.IStyle.unityBackgroundScaleMode
 		/// </summary>
-		protected RProperty r_RUnityEngine__0__UIElements__0__IStyle__0__get_unityBackgroundScaleMode;
-		public virtual RProperty RUnityEngine__0__UIElements__0__IStyle__0__get_unityBackgroundScaleMode
+		protected RProperty r_UnityEngine__2__UIElements__2__IStyle__2__unityBackgroundScaleMode;
+		public virtual RProperty RUnityEngine__2__UIElements__2__IStyle__2__unityBackgroundScaleMode
 		{
 			get
 			{
-				if(r_RUnityEngine__0__UIElements__0__IStyle__0__get_unityBackgroundScaleMode == null)
+				if(r_UnityEngine__2__UIElements__2__IStyle__2__unityBackgroundScaleMode == null)
 				{
-					r_RUnityEngine__0__UIElements__0__IStyle__0__get_unityBackgroundScaleMode = new(this, "UnityEngine.UIElements.IStyle.unityBackgroundScaleMode", -1);
-					r_RUnityEngine__0__UIElements__0__IStyle__0__get_unityBackgroundScaleMode.SetBelong(this.instance);
+					r_UnityEngine__2__UIElements__2__IStyle__2__unityBackgroundScaleMode = new(this, "UnityEngine.UIElements.IStyle.unityBackgroundScaleMode", -1);
+					r_UnityEngine__2__UIElements__2__IStyle__2__unityBackgroundScaleMode.SetBelong(this.instance);
 				}
-				return r_RUnityEngine__0__UIElements__0__IStyle__0__get_unityBackgroundScaleMode;
+				return r_UnityEngine__2__UIElements__2__IStyle__2__unityBackgroundScaleMode;
 			}
 		}
 
 		/// <summary>
 		/// Void Finalize()
 		/// </summary>
-		protected RMethod r_RFinalize;
+		protected RMethod r_Finalize;
 		public virtual RMethod RFinalize
 		{
 			get
 			{
-				if(r_RFinalize == null)
+				if(r_Finalize == null)
 				{
-					r_RFinalize = new(this, "Finalize", 0);
-					r_RFinalize.SetBelong(this.instance);
+					r_Finalize = new(this, "Finalize", 0);
+					r_Finalize.SetBelong(this.instance);
 				}
-				return r_RFinalize;
+				return r_Finalize;
 			}
 		}
 
 		/// <summary>
 		/// Void SetInlineRule(UnityEngine.UIElements.StyleSheet, UnityEngine.UIElements.StyleRule)
 		/// </summary>
-		protected RMethod r_RSetInlineRule_StyleSheet_StyleRule;
+		protected RMethod r_SetInlineRule_StyleSheet_StyleRule;
 		public virtual RMethod RSetInlineRule_StyleSheet_StyleRule
 		{
 			get
 			{
-				if(r_RSetInlineRule_StyleSheet_StyleRule == null)
+				if(r_SetInlineRule_StyleSheet_StyleRule == null)
 				{
-					r_RSetInlineRule_StyleSheet_StyleRule = new(this, "SetInlineRule", 0, typeof(UnityEngine.UIElements.StyleSheet),  ReleactionUtils.GetType("UnityEngine.UIElements.StyleRule"));
-					r_RSetInlineRule_StyleSheet_StyleRule.SetBelong(this.instance);
+					r_SetInlineRule_StyleSheet_StyleRule = new(this, "SetInlineRule", 0, typeof(UnityEngine.UIElements.StyleSheet),  ReleactionUtils.GetType("UnityEngine.UIElements.StyleRule"));
+					r_SetInlineRule_StyleSheet_StyleRule.SetBelong(this.instance);
 				}
-				return r_RSetInlineRule_StyleSheet_StyleRule;
+				return r_SetInlineRule_StyleSheet_StyleRule;
 			}
 		}
 
 		/// <summary>
 		/// Boolean IsValueSet(UnityEngine.UIElements.StyleSheets.StylePropertyId)
 		/// </summary>
-		protected RMethod r_RIsValueSet_StylePropertyId;
+		protected RMethod r_IsValueSet_StylePropertyId;
 		public virtual RMethod RIsValueSet_StylePropertyId
 		{
 			get
 			{
-				if(r_RIsValueSet_StylePropertyId == null)
+				if(r_IsValueSet_StylePropertyId == null)
 				{
-					r_RIsValueSet_StylePropertyId = new(this, "IsValueSet", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"));
-					r_RIsValueSet_StylePropertyId.SetBelong(this.instance);
+					r_IsValueSet_StylePropertyId = new(this, "IsValueSet", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"));
+					r_IsValueSet_StylePropertyId.SetBelong(this.instance);
 				}
-				return r_RIsValueSet_StylePropertyId;
+				return r_IsValueSet_StylePropertyId;
 			}
 		}
 
 		/// <summary>
 		/// Void ApplyInlineStyles(UnityEngine.UIElements.ComputedStyle ByRef)
 		/// </summary>
-		protected RMethod r_RApplyInlineStyles_Ref_ComputedStyle;
+		protected RMethod r_ApplyInlineStyles_Ref_ComputedStyle;
 		public virtual RMethod RApplyInlineStyles_Ref_ComputedStyle
 		{
 			get
 			{
-				if(r_RApplyInlineStyles_Ref_ComputedStyle == null)
+				if(r_ApplyInlineStyles_Ref_ComputedStyle == null)
 				{
-					r_RApplyInlineStyles_Ref_ComputedStyle = new(this, "ApplyInlineStyles", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.ComputedStyle").MakeByRefType());
-					r_RApplyInlineStyles_Ref_ComputedStyle.SetBelong(this.instance);
+					r_ApplyInlineStyles_Ref_ComputedStyle = new(this, "ApplyInlineStyles", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.ComputedStyle").MakeByRefType());
+					r_ApplyInlineStyles_Ref_ComputedStyle.SetBelong(this.instance);
 				}
-				return r_RApplyInlineStyles_Ref_ComputedStyle;
+				return r_ApplyInlineStyles_Ref_ComputedStyle;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleList`1[T] GetStyleList[T](UnityEngine.UIElements.StyleSheets.StylePropertyId)
 		/// </summary>
-		protected RMethod r_RGetStyleList_GT_StylePropertyId;
+		protected RMethod r_GetStyleList_GT_StylePropertyId;
 		public virtual RMethod RGetStyleList_GT_StylePropertyId
 		{
 			get
 			{
-				if(r_RGetStyleList_GT_StylePropertyId == null)
+				if(r_GetStyleList_GT_StylePropertyId == null)
 				{
-					r_RGetStyleList_GT_StylePropertyId = new(this, "GetStyleList", 1,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"));
-					r_RGetStyleList_GT_StylePropertyId.SetBelong(this.instance);
+					r_GetStyleList_GT_StylePropertyId = new(this, "GetStyleList", 1,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"));
+					r_GetStyleList_GT_StylePropertyId.SetBelong(this.instance);
 				}
-				return r_RGetStyleList_GT_StylePropertyId;
+				return r_GetStyleList_GT_StylePropertyId;
 			}
 		}
 
 		/// <summary>
 		/// Void SetStyleValueManaged(UnityEngine.UIElements.StyleSheets.StyleValueManaged)
 		/// </summary>
-		protected RMethod r_RSetStyleValueManaged_StyleValueManaged;
+		protected RMethod r_SetStyleValueManaged_StyleValueManaged;
 		public virtual RMethod RSetStyleValueManaged_StyleValueManaged
 		{
 			get
 			{
-				if(r_RSetStyleValueManaged_StyleValueManaged == null)
+				if(r_SetStyleValueManaged_StyleValueManaged == null)
 				{
-					r_RSetStyleValueManaged_StyleValueManaged = new(this, "SetStyleValueManaged", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StyleValueManaged"));
-					r_RSetStyleValueManaged_StyleValueManaged.SetBelong(this.instance);
+					r_SetStyleValueManaged_StyleValueManaged = new(this, "SetStyleValueManaged", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StyleValueManaged"));
+					r_SetStyleValueManaged_StyleValueManaged.SetBelong(this.instance);
 				}
-				return r_RSetStyleValueManaged_StyleValueManaged;
+				return r_SetStyleValueManaged_StyleValueManaged;
 			}
 		}
 
 		/// <summary>
 		/// Boolean TryGetStyleValueManaged(UnityEngine.UIElements.StyleSheets.StylePropertyId, UnityEngine.UIElements.StyleSheets.StyleValueManaged ByRef)
 		/// </summary>
-		protected RMethod r_RTryGetStyleValueManaged_StylePropertyId_Ref_StyleValueManaged;
+		protected RMethod r_TryGetStyleValueManaged_StylePropertyId_Ref_StyleValueManaged;
 		public virtual RMethod RTryGetStyleValueManaged_StylePropertyId_Ref_StyleValueManaged
 		{
 			get
 			{
-				if(r_RTryGetStyleValueManaged_StylePropertyId_Ref_StyleValueManaged == null)
+				if(r_TryGetStyleValueManaged_StylePropertyId_Ref_StyleValueManaged == null)
 				{
-					r_RTryGetStyleValueManaged_StylePropertyId_Ref_StyleValueManaged = new(this, "TryGetStyleValueManaged", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"),  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StyleValueManaged").MakeByRefType());
-					r_RTryGetStyleValueManaged_StylePropertyId_Ref_StyleValueManaged.SetBelong(this.instance);
+					r_TryGetStyleValueManaged_StylePropertyId_Ref_StyleValueManaged = new(this, "TryGetStyleValueManaged", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"),  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StyleValueManaged").MakeByRefType());
+					r_TryGetStyleValueManaged_StylePropertyId_Ref_StyleValueManaged.SetBelong(this.instance);
 				}
-				return r_RTryGetStyleValueManaged_StylePropertyId_Ref_StyleValueManaged;
+				return r_TryGetStyleValueManaged_StylePropertyId_Ref_StyleValueManaged;
 			}
 		}
 
 		/// <summary>
 		/// Boolean SetStyleValue(UnityEngine.UIElements.StyleSheets.StylePropertyId, UnityEngine.UIElements.StyleBackgroundPosition)
 		/// </summary>
-		protected RMethod r_RSetStyleValue_StylePropertyId_StyleBackgroundPosition;
+		protected RMethod r_SetStyleValue_StylePropertyId_StyleBackgroundPosition;
 		public virtual RMethod RSetStyleValue_StylePropertyId_StyleBackgroundPosition
 		{
 			get
 			{
-				if(r_RSetStyleValue_StylePropertyId_StyleBackgroundPosition == null)
+				if(r_SetStyleValue_StylePropertyId_StyleBackgroundPosition == null)
 				{
-					r_RSetStyleValue_StylePropertyId_StyleBackgroundPosition = new(this, "SetStyleValue", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"), typeof(UnityEngine.UIElements.StyleBackgroundPosition));
-					r_RSetStyleValue_StylePropertyId_StyleBackgroundPosition.SetBelong(this.instance);
+					r_SetStyleValue_StylePropertyId_StyleBackgroundPosition = new(this, "SetStyleValue", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"), typeof(UnityEngine.UIElements.StyleBackgroundPosition));
+					r_SetStyleValue_StylePropertyId_StyleBackgroundPosition.SetBelong(this.instance);
 				}
-				return r_RSetStyleValue_StylePropertyId_StyleBackgroundPosition;
+				return r_SetStyleValue_StylePropertyId_StyleBackgroundPosition;
 			}
 		}
 
 		/// <summary>
 		/// Boolean SetStyleValue(UnityEngine.UIElements.StyleSheets.StylePropertyId, UnityEngine.UIElements.StyleBackgroundRepeat)
 		/// </summary>
-		protected RMethod r_RSetStyleValue_StylePropertyId_StyleBackgroundRepeat;
+		protected RMethod r_SetStyleValue_StylePropertyId_StyleBackgroundRepeat;
 		public virtual RMethod RSetStyleValue_StylePropertyId_StyleBackgroundRepeat
 		{
 			get
 			{
-				if(r_RSetStyleValue_StylePropertyId_StyleBackgroundRepeat == null)
+				if(r_SetStyleValue_StylePropertyId_StyleBackgroundRepeat == null)
 				{
-					r_RSetStyleValue_StylePropertyId_StyleBackgroundRepeat = new(this, "SetStyleValue", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"), typeof(UnityEngine.UIElements.StyleBackgroundRepeat));
-					r_RSetStyleValue_StylePropertyId_StyleBackgroundRepeat.SetBelong(this.instance);
+					r_SetStyleValue_StylePropertyId_StyleBackgroundRepeat = new(this, "SetStyleValue", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"), typeof(UnityEngine.UIElements.StyleBackgroundRepeat));
+					r_SetStyleValue_StylePropertyId_StyleBackgroundRepeat.SetBelong(this.instance);
 				}
-				return r_RSetStyleValue_StylePropertyId_StyleBackgroundRepeat;
+				return r_SetStyleValue_StylePropertyId_StyleBackgroundRepeat;
 			}
 		}
 
 		/// <summary>
 		/// Boolean SetStyleValue(UnityEngine.UIElements.StyleSheets.StylePropertyId, UnityEngine.UIElements.StyleLength)
 		/// </summary>
-		protected RMethod r_RSetStyleValue_StylePropertyId_StyleLength;
+		protected RMethod r_SetStyleValue_StylePropertyId_StyleLength;
 		public virtual RMethod RSetStyleValue_StylePropertyId_StyleLength
 		{
 			get
 			{
-				if(r_RSetStyleValue_StylePropertyId_StyleLength == null)
+				if(r_SetStyleValue_StylePropertyId_StyleLength == null)
 				{
-					r_RSetStyleValue_StylePropertyId_StyleLength = new(this, "SetStyleValue", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"), typeof(UnityEngine.UIElements.StyleLength));
-					r_RSetStyleValue_StylePropertyId_StyleLength.SetBelong(this.instance);
+					r_SetStyleValue_StylePropertyId_StyleLength = new(this, "SetStyleValue", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"), typeof(UnityEngine.UIElements.StyleLength));
+					r_SetStyleValue_StylePropertyId_StyleLength.SetBelong(this.instance);
 				}
-				return r_RSetStyleValue_StylePropertyId_StyleLength;
+				return r_SetStyleValue_StylePropertyId_StyleLength;
 			}
 		}
 
 		/// <summary>
 		/// Boolean SetStyleValue(UnityEngine.UIElements.StyleSheets.StylePropertyId, UnityEngine.UIElements.StyleFloat)
 		/// </summary>
-		protected RMethod r_RSetStyleValue_StylePropertyId_StyleFloat;
+		protected RMethod r_SetStyleValue_StylePropertyId_StyleFloat;
 		public virtual RMethod RSetStyleValue_StylePropertyId_StyleFloat
 		{
 			get
 			{
-				if(r_RSetStyleValue_StylePropertyId_StyleFloat == null)
+				if(r_SetStyleValue_StylePropertyId_StyleFloat == null)
 				{
-					r_RSetStyleValue_StylePropertyId_StyleFloat = new(this, "SetStyleValue", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"), typeof(UnityEngine.UIElements.StyleFloat));
-					r_RSetStyleValue_StylePropertyId_StyleFloat.SetBelong(this.instance);
+					r_SetStyleValue_StylePropertyId_StyleFloat = new(this, "SetStyleValue", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"), typeof(UnityEngine.UIElements.StyleFloat));
+					r_SetStyleValue_StylePropertyId_StyleFloat.SetBelong(this.instance);
 				}
-				return r_RSetStyleValue_StylePropertyId_StyleFloat;
+				return r_SetStyleValue_StylePropertyId_StyleFloat;
 			}
 		}
 
 		/// <summary>
 		/// Boolean SetStyleValue(UnityEngine.UIElements.StyleSheets.StylePropertyId, UnityEngine.UIElements.StyleInt)
 		/// </summary>
-		protected RMethod r_RSetStyleValue_StylePropertyId_StyleInt;
+		protected RMethod r_SetStyleValue_StylePropertyId_StyleInt;
 		public virtual RMethod RSetStyleValue_StylePropertyId_StyleInt
 		{
 			get
 			{
-				if(r_RSetStyleValue_StylePropertyId_StyleInt == null)
+				if(r_SetStyleValue_StylePropertyId_StyleInt == null)
 				{
-					r_RSetStyleValue_StylePropertyId_StyleInt = new(this, "SetStyleValue", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"), typeof(UnityEngine.UIElements.StyleInt));
-					r_RSetStyleValue_StylePropertyId_StyleInt.SetBelong(this.instance);
+					r_SetStyleValue_StylePropertyId_StyleInt = new(this, "SetStyleValue", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"), typeof(UnityEngine.UIElements.StyleInt));
+					r_SetStyleValue_StylePropertyId_StyleInt.SetBelong(this.instance);
 				}
-				return r_RSetStyleValue_StylePropertyId_StyleInt;
+				return r_SetStyleValue_StylePropertyId_StyleInt;
 			}
 		}
 
 		/// <summary>
 		/// Boolean SetStyleValue(UnityEngine.UIElements.StyleSheets.StylePropertyId, UnityEngine.UIElements.StyleColor)
 		/// </summary>
-		protected RMethod r_RSetStyleValue_StylePropertyId_StyleColor;
+		protected RMethod r_SetStyleValue_StylePropertyId_StyleColor;
 		public virtual RMethod RSetStyleValue_StylePropertyId_StyleColor
 		{
 			get
 			{
-				if(r_RSetStyleValue_StylePropertyId_StyleColor == null)
+				if(r_SetStyleValue_StylePropertyId_StyleColor == null)
 				{
-					r_RSetStyleValue_StylePropertyId_StyleColor = new(this, "SetStyleValue", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"), typeof(UnityEngine.UIElements.StyleColor));
-					r_RSetStyleValue_StylePropertyId_StyleColor.SetBelong(this.instance);
+					r_SetStyleValue_StylePropertyId_StyleColor = new(this, "SetStyleValue", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"), typeof(UnityEngine.UIElements.StyleColor));
+					r_SetStyleValue_StylePropertyId_StyleColor.SetBelong(this.instance);
 				}
-				return r_RSetStyleValue_StylePropertyId_StyleColor;
+				return r_SetStyleValue_StylePropertyId_StyleColor;
 			}
 		}
 
 		/// <summary>
 		/// Boolean SetStyleValue[T](UnityEngine.UIElements.StyleSheets.StylePropertyId, UnityEngine.UIElements.StyleEnum`1[T])
 		/// </summary>
-		protected RMethod r_RSetStyleValue_GT_StylePropertyId_StyleEnum_d_T_p_;
+		protected RMethod r_SetStyleValue_GT_StylePropertyId_StyleEnum_d_T_p_;
 		public virtual RMethod RSetStyleValue_GT_StylePropertyId_StyleEnum_d_T_p_
 		{
 			get
 			{
-				if(r_RSetStyleValue_GT_StylePropertyId_StyleEnum_d_T_p_ == null)
+				if(r_SetStyleValue_GT_StylePropertyId_StyleEnum_d_T_p_ == null)
 				{
-					r_RSetStyleValue_GT_StylePropertyId_StyleEnum_d_T_p_ = new(this, "SetStyleValue", 1,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"), typeof(UnityEngine.UIElements.StyleEnum<>).MakeGenericType(Type.MakeGenericMethodParameter(0)));
-					r_RSetStyleValue_GT_StylePropertyId_StyleEnum_d_T_p_.SetBelong(this.instance);
+					r_SetStyleValue_GT_StylePropertyId_StyleEnum_d_T_p_ = new(this, "SetStyleValue", 1,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"), typeof(UnityEngine.UIElements.StyleEnum<>).MakeGenericType(Type.MakeGenericMethodParameter(0)));
+					r_SetStyleValue_GT_StylePropertyId_StyleEnum_d_T_p_.SetBelong(this.instance);
 				}
-				return r_RSetStyleValue_GT_StylePropertyId_StyleEnum_d_T_p_;
+				return r_SetStyleValue_GT_StylePropertyId_StyleEnum_d_T_p_;
 			}
 		}
 
 		/// <summary>
 		/// Boolean SetStyleValue(UnityEngine.UIElements.StyleSheets.StylePropertyId, UnityEngine.UIElements.StyleBackground)
 		/// </summary>
-		protected RMethod r_RSetStyleValue_StylePropertyId_StyleBackground;
+		protected RMethod r_SetStyleValue_StylePropertyId_StyleBackground;
 		public virtual RMethod RSetStyleValue_StylePropertyId_StyleBackground
 		{
 			get
 			{
-				if(r_RSetStyleValue_StylePropertyId_StyleBackground == null)
+				if(r_SetStyleValue_StylePropertyId_StyleBackground == null)
 				{
-					r_RSetStyleValue_StylePropertyId_StyleBackground = new(this, "SetStyleValue", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"), typeof(UnityEngine.UIElements.StyleBackground));
-					r_RSetStyleValue_StylePropertyId_StyleBackground.SetBelong(this.instance);
+					r_SetStyleValue_StylePropertyId_StyleBackground = new(this, "SetStyleValue", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"), typeof(UnityEngine.UIElements.StyleBackground));
+					r_SetStyleValue_StylePropertyId_StyleBackground.SetBelong(this.instance);
 				}
-				return r_RSetStyleValue_StylePropertyId_StyleBackground;
+				return r_SetStyleValue_StylePropertyId_StyleBackground;
 			}
 		}
 
 		/// <summary>
 		/// Boolean SetStyleValue(UnityEngine.UIElements.StyleSheets.StylePropertyId, UnityEngine.UIElements.StyleFontDefinition)
 		/// </summary>
-		protected RMethod r_RSetStyleValue_StylePropertyId_StyleFontDefinition;
+		protected RMethod r_SetStyleValue_StylePropertyId_StyleFontDefinition;
 		public virtual RMethod RSetStyleValue_StylePropertyId_StyleFontDefinition
 		{
 			get
 			{
-				if(r_RSetStyleValue_StylePropertyId_StyleFontDefinition == null)
+				if(r_SetStyleValue_StylePropertyId_StyleFontDefinition == null)
 				{
-					r_RSetStyleValue_StylePropertyId_StyleFontDefinition = new(this, "SetStyleValue", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"), typeof(UnityEngine.UIElements.StyleFontDefinition));
-					r_RSetStyleValue_StylePropertyId_StyleFontDefinition.SetBelong(this.instance);
+					r_SetStyleValue_StylePropertyId_StyleFontDefinition = new(this, "SetStyleValue", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"), typeof(UnityEngine.UIElements.StyleFontDefinition));
+					r_SetStyleValue_StylePropertyId_StyleFontDefinition.SetBelong(this.instance);
 				}
-				return r_RSetStyleValue_StylePropertyId_StyleFontDefinition;
+				return r_SetStyleValue_StylePropertyId_StyleFontDefinition;
 			}
 		}
 
 		/// <summary>
 		/// Boolean SetStyleValue(UnityEngine.UIElements.StyleSheets.StylePropertyId, UnityEngine.UIElements.StyleFont)
 		/// </summary>
-		protected RMethod r_RSetStyleValue_StylePropertyId_StyleFont;
+		protected RMethod r_SetStyleValue_StylePropertyId_StyleFont;
 		public virtual RMethod RSetStyleValue_StylePropertyId_StyleFont
 		{
 			get
 			{
-				if(r_RSetStyleValue_StylePropertyId_StyleFont == null)
+				if(r_SetStyleValue_StylePropertyId_StyleFont == null)
 				{
-					r_RSetStyleValue_StylePropertyId_StyleFont = new(this, "SetStyleValue", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"), typeof(UnityEngine.UIElements.StyleFont));
-					r_RSetStyleValue_StylePropertyId_StyleFont.SetBelong(this.instance);
+					r_SetStyleValue_StylePropertyId_StyleFont = new(this, "SetStyleValue", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"), typeof(UnityEngine.UIElements.StyleFont));
+					r_SetStyleValue_StylePropertyId_StyleFont.SetBelong(this.instance);
 				}
-				return r_RSetStyleValue_StylePropertyId_StyleFont;
+				return r_SetStyleValue_StylePropertyId_StyleFont;
 			}
 		}
 
 		/// <summary>
 		/// Boolean SetStyleValue[T](UnityEngine.UIElements.StyleSheets.StylePropertyId, UnityEngine.UIElements.StyleList`1[T])
 		/// </summary>
-		protected RMethod r_RSetStyleValue_GT_StylePropertyId_StyleList_d_T_p_;
+		protected RMethod r_SetStyleValue_GT_StylePropertyId_StyleList_d_T_p_;
 		public virtual RMethod RSetStyleValue_GT_StylePropertyId_StyleList_d_T_p_
 		{
 			get
 			{
-				if(r_RSetStyleValue_GT_StylePropertyId_StyleList_d_T_p_ == null)
+				if(r_SetStyleValue_GT_StylePropertyId_StyleList_d_T_p_ == null)
 				{
-					r_RSetStyleValue_GT_StylePropertyId_StyleList_d_T_p_ = new(this, "SetStyleValue", 1,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"), typeof(UnityEngine.UIElements.StyleList<>).MakeGenericType(Type.MakeGenericMethodParameter(0)));
-					r_RSetStyleValue_GT_StylePropertyId_StyleList_d_T_p_.SetBelong(this.instance);
+					r_SetStyleValue_GT_StylePropertyId_StyleList_d_T_p_ = new(this, "SetStyleValue", 1,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"), typeof(UnityEngine.UIElements.StyleList<>).MakeGenericType(Type.MakeGenericMethodParameter(0)));
+					r_SetStyleValue_GT_StylePropertyId_StyleList_d_T_p_.SetBelong(this.instance);
 				}
-				return r_RSetStyleValue_GT_StylePropertyId_StyleList_d_T_p_;
+				return r_SetStyleValue_GT_StylePropertyId_StyleList_d_T_p_;
 			}
 		}
 
 		/// <summary>
 		/// Boolean SetInlineCursor(UnityEngine.UIElements.StyleCursor)
 		/// </summary>
-		protected RMethod r_RSetInlineCursor_StyleCursor;
+		protected RMethod r_SetInlineCursor_StyleCursor;
 		public virtual RMethod RSetInlineCursor_StyleCursor
 		{
 			get
 			{
-				if(r_RSetInlineCursor_StyleCursor == null)
+				if(r_SetInlineCursor_StyleCursor == null)
 				{
-					r_RSetInlineCursor_StyleCursor = new(this, "SetInlineCursor", 0, typeof(UnityEngine.UIElements.StyleCursor));
-					r_RSetInlineCursor_StyleCursor.SetBelong(this.instance);
+					r_SetInlineCursor_StyleCursor = new(this, "SetInlineCursor", 0, typeof(UnityEngine.UIElements.StyleCursor));
+					r_SetInlineCursor_StyleCursor.SetBelong(this.instance);
 				}
-				return r_RSetInlineCursor_StyleCursor;
+				return r_SetInlineCursor_StyleCursor;
 			}
 		}
 
 		/// <summary>
 		/// Void ApplyStyleCursor(UnityEngine.UIElements.StyleCursor)
 		/// </summary>
-		protected RMethod r_RApplyStyleCursor_StyleCursor;
+		protected RMethod r_ApplyStyleCursor_StyleCursor;
 		public virtual RMethod RApplyStyleCursor_StyleCursor
 		{
 			get
 			{
-				if(r_RApplyStyleCursor_StyleCursor == null)
+				if(r_ApplyStyleCursor_StyleCursor == null)
 				{
-					r_RApplyStyleCursor_StyleCursor = new(this, "ApplyStyleCursor", 0, typeof(UnityEngine.UIElements.StyleCursor));
-					r_RApplyStyleCursor_StyleCursor.SetBelong(this.instance);
+					r_ApplyStyleCursor_StyleCursor = new(this, "ApplyStyleCursor", 0, typeof(UnityEngine.UIElements.StyleCursor));
+					r_ApplyStyleCursor_StyleCursor.SetBelong(this.instance);
 				}
-				return r_RApplyStyleCursor_StyleCursor;
+				return r_ApplyStyleCursor_StyleCursor;
 			}
 		}
 
 		/// <summary>
 		/// Boolean SetInlineTextShadow(UnityEngine.UIElements.StyleTextShadow)
 		/// </summary>
-		protected RMethod r_RSetInlineTextShadow_StyleTextShadow;
+		protected RMethod r_SetInlineTextShadow_StyleTextShadow;
 		public virtual RMethod RSetInlineTextShadow_StyleTextShadow
 		{
 			get
 			{
-				if(r_RSetInlineTextShadow_StyleTextShadow == null)
+				if(r_SetInlineTextShadow_StyleTextShadow == null)
 				{
-					r_RSetInlineTextShadow_StyleTextShadow = new(this, "SetInlineTextShadow", 0, typeof(UnityEngine.UIElements.StyleTextShadow));
-					r_RSetInlineTextShadow_StyleTextShadow.SetBelong(this.instance);
+					r_SetInlineTextShadow_StyleTextShadow = new(this, "SetInlineTextShadow", 0, typeof(UnityEngine.UIElements.StyleTextShadow));
+					r_SetInlineTextShadow_StyleTextShadow.SetBelong(this.instance);
 				}
-				return r_RSetInlineTextShadow_StyleTextShadow;
+				return r_SetInlineTextShadow_StyleTextShadow;
 			}
 		}
 
 		/// <summary>
 		/// Void ApplyStyleTextShadow(UnityEngine.UIElements.StyleTextShadow)
 		/// </summary>
-		protected RMethod r_RApplyStyleTextShadow_StyleTextShadow;
+		protected RMethod r_ApplyStyleTextShadow_StyleTextShadow;
 		public virtual RMethod RApplyStyleTextShadow_StyleTextShadow
 		{
 			get
 			{
-				if(r_RApplyStyleTextShadow_StyleTextShadow == null)
+				if(r_ApplyStyleTextShadow_StyleTextShadow == null)
 				{
-					r_RApplyStyleTextShadow_StyleTextShadow = new(this, "ApplyStyleTextShadow", 0, typeof(UnityEngine.UIElements.StyleTextShadow));
-					r_RApplyStyleTextShadow_StyleTextShadow.SetBelong(this.instance);
+					r_ApplyStyleTextShadow_StyleTextShadow = new(this, "ApplyStyleTextShadow", 0, typeof(UnityEngine.UIElements.StyleTextShadow));
+					r_ApplyStyleTextShadow_StyleTextShadow.SetBelong(this.instance);
 				}
-				return r_RApplyStyleTextShadow_StyleTextShadow;
+				return r_ApplyStyleTextShadow_StyleTextShadow;
 			}
 		}
 
 		/// <summary>
 		/// Boolean SetInlineTransformOrigin(UnityEngine.UIElements.StyleTransformOrigin)
 		/// </summary>
-		protected RMethod r_RSetInlineTransformOrigin_StyleTransformOrigin;
+		protected RMethod r_SetInlineTransformOrigin_StyleTransformOrigin;
 		public virtual RMethod RSetInlineTransformOrigin_StyleTransformOrigin
 		{
 			get
 			{
-				if(r_RSetInlineTransformOrigin_StyleTransformOrigin == null)
+				if(r_SetInlineTransformOrigin_StyleTransformOrigin == null)
 				{
-					r_RSetInlineTransformOrigin_StyleTransformOrigin = new(this, "SetInlineTransformOrigin", 0, typeof(UnityEngine.UIElements.StyleTransformOrigin));
-					r_RSetInlineTransformOrigin_StyleTransformOrigin.SetBelong(this.instance);
+					r_SetInlineTransformOrigin_StyleTransformOrigin = new(this, "SetInlineTransformOrigin", 0, typeof(UnityEngine.UIElements.StyleTransformOrigin));
+					r_SetInlineTransformOrigin_StyleTransformOrigin.SetBelong(this.instance);
 				}
-				return r_RSetInlineTransformOrigin_StyleTransformOrigin;
+				return r_SetInlineTransformOrigin_StyleTransformOrigin;
 			}
 		}
 
 		/// <summary>
 		/// Void ApplyStyleTransformOrigin(UnityEngine.UIElements.StyleTransformOrigin)
 		/// </summary>
-		protected RMethod r_RApplyStyleTransformOrigin_StyleTransformOrigin;
+		protected RMethod r_ApplyStyleTransformOrigin_StyleTransformOrigin;
 		public virtual RMethod RApplyStyleTransformOrigin_StyleTransformOrigin
 		{
 			get
 			{
-				if(r_RApplyStyleTransformOrigin_StyleTransformOrigin == null)
+				if(r_ApplyStyleTransformOrigin_StyleTransformOrigin == null)
 				{
-					r_RApplyStyleTransformOrigin_StyleTransformOrigin = new(this, "ApplyStyleTransformOrigin", 0, typeof(UnityEngine.UIElements.StyleTransformOrigin));
-					r_RApplyStyleTransformOrigin_StyleTransformOrigin.SetBelong(this.instance);
+					r_ApplyStyleTransformOrigin_StyleTransformOrigin = new(this, "ApplyStyleTransformOrigin", 0, typeof(UnityEngine.UIElements.StyleTransformOrigin));
+					r_ApplyStyleTransformOrigin_StyleTransformOrigin.SetBelong(this.instance);
 				}
-				return r_RApplyStyleTransformOrigin_StyleTransformOrigin;
+				return r_ApplyStyleTransformOrigin_StyleTransformOrigin;
 			}
 		}
 
 		/// <summary>
 		/// Boolean SetInlineTranslate(UnityEngine.UIElements.StyleTranslate)
 		/// </summary>
-		protected RMethod r_RSetInlineTranslate_StyleTranslate;
+		protected RMethod r_SetInlineTranslate_StyleTranslate;
 		public virtual RMethod RSetInlineTranslate_StyleTranslate
 		{
 			get
 			{
-				if(r_RSetInlineTranslate_StyleTranslate == null)
+				if(r_SetInlineTranslate_StyleTranslate == null)
 				{
-					r_RSetInlineTranslate_StyleTranslate = new(this, "SetInlineTranslate", 0, typeof(UnityEngine.UIElements.StyleTranslate));
-					r_RSetInlineTranslate_StyleTranslate.SetBelong(this.instance);
+					r_SetInlineTranslate_StyleTranslate = new(this, "SetInlineTranslate", 0, typeof(UnityEngine.UIElements.StyleTranslate));
+					r_SetInlineTranslate_StyleTranslate.SetBelong(this.instance);
 				}
-				return r_RSetInlineTranslate_StyleTranslate;
+				return r_SetInlineTranslate_StyleTranslate;
 			}
 		}
 
 		/// <summary>
 		/// Void ApplyStyleTranslate(UnityEngine.UIElements.StyleTranslate)
 		/// </summary>
-		protected RMethod r_RApplyStyleTranslate_StyleTranslate;
+		protected RMethod r_ApplyStyleTranslate_StyleTranslate;
 		public virtual RMethod RApplyStyleTranslate_StyleTranslate
 		{
 			get
 			{
-				if(r_RApplyStyleTranslate_StyleTranslate == null)
+				if(r_ApplyStyleTranslate_StyleTranslate == null)
 				{
-					r_RApplyStyleTranslate_StyleTranslate = new(this, "ApplyStyleTranslate", 0, typeof(UnityEngine.UIElements.StyleTranslate));
-					r_RApplyStyleTranslate_StyleTranslate.SetBelong(this.instance);
+					r_ApplyStyleTranslate_StyleTranslate = new(this, "ApplyStyleTranslate", 0, typeof(UnityEngine.UIElements.StyleTranslate));
+					r_ApplyStyleTranslate_StyleTranslate.SetBelong(this.instance);
 				}
-				return r_RApplyStyleTranslate_StyleTranslate;
+				return r_ApplyStyleTranslate_StyleTranslate;
 			}
 		}
 
 		/// <summary>
 		/// Boolean SetInlineScale(UnityEngine.UIElements.StyleScale)
 		/// </summary>
-		protected RMethod r_RSetInlineScale_StyleScale;
+		protected RMethod r_SetInlineScale_StyleScale;
 		public virtual RMethod RSetInlineScale_StyleScale
 		{
 			get
 			{
-				if(r_RSetInlineScale_StyleScale == null)
+				if(r_SetInlineScale_StyleScale == null)
 				{
-					r_RSetInlineScale_StyleScale = new(this, "SetInlineScale", 0, typeof(UnityEngine.UIElements.StyleScale));
-					r_RSetInlineScale_StyleScale.SetBelong(this.instance);
+					r_SetInlineScale_StyleScale = new(this, "SetInlineScale", 0, typeof(UnityEngine.UIElements.StyleScale));
+					r_SetInlineScale_StyleScale.SetBelong(this.instance);
 				}
-				return r_RSetInlineScale_StyleScale;
+				return r_SetInlineScale_StyleScale;
 			}
 		}
 
 		/// <summary>
 		/// Void ApplyStyleScale(UnityEngine.UIElements.StyleScale)
 		/// </summary>
-		protected RMethod r_RApplyStyleScale_StyleScale;
+		protected RMethod r_ApplyStyleScale_StyleScale;
 		public virtual RMethod RApplyStyleScale_StyleScale
 		{
 			get
 			{
-				if(r_RApplyStyleScale_StyleScale == null)
+				if(r_ApplyStyleScale_StyleScale == null)
 				{
-					r_RApplyStyleScale_StyleScale = new(this, "ApplyStyleScale", 0, typeof(UnityEngine.UIElements.StyleScale));
-					r_RApplyStyleScale_StyleScale.SetBelong(this.instance);
+					r_ApplyStyleScale_StyleScale = new(this, "ApplyStyleScale", 0, typeof(UnityEngine.UIElements.StyleScale));
+					r_ApplyStyleScale_StyleScale.SetBelong(this.instance);
 				}
-				return r_RApplyStyleScale_StyleScale;
+				return r_ApplyStyleScale_StyleScale;
 			}
 		}
 
 		/// <summary>
 		/// Boolean SetInlineRotate(UnityEngine.UIElements.StyleRotate)
 		/// </summary>
-		protected RMethod r_RSetInlineRotate_StyleRotate;
+		protected RMethod r_SetInlineRotate_StyleRotate;
 		public virtual RMethod RSetInlineRotate_StyleRotate
 		{
 			get
 			{
-				if(r_RSetInlineRotate_StyleRotate == null)
+				if(r_SetInlineRotate_StyleRotate == null)
 				{
-					r_RSetInlineRotate_StyleRotate = new(this, "SetInlineRotate", 0, typeof(UnityEngine.UIElements.StyleRotate));
-					r_RSetInlineRotate_StyleRotate.SetBelong(this.instance);
+					r_SetInlineRotate_StyleRotate = new(this, "SetInlineRotate", 0, typeof(UnityEngine.UIElements.StyleRotate));
+					r_SetInlineRotate_StyleRotate.SetBelong(this.instance);
 				}
-				return r_RSetInlineRotate_StyleRotate;
+				return r_SetInlineRotate_StyleRotate;
 			}
 		}
 
 		/// <summary>
 		/// Void ApplyStyleRotate(UnityEngine.UIElements.StyleRotate)
 		/// </summary>
-		protected RMethod r_RApplyStyleRotate_StyleRotate;
+		protected RMethod r_ApplyStyleRotate_StyleRotate;
 		public virtual RMethod RApplyStyleRotate_StyleRotate
 		{
 			get
 			{
-				if(r_RApplyStyleRotate_StyleRotate == null)
+				if(r_ApplyStyleRotate_StyleRotate == null)
 				{
-					r_RApplyStyleRotate_StyleRotate = new(this, "ApplyStyleRotate", 0, typeof(UnityEngine.UIElements.StyleRotate));
-					r_RApplyStyleRotate_StyleRotate.SetBelong(this.instance);
+					r_ApplyStyleRotate_StyleRotate = new(this, "ApplyStyleRotate", 0, typeof(UnityEngine.UIElements.StyleRotate));
+					r_ApplyStyleRotate_StyleRotate.SetBelong(this.instance);
 				}
-				return r_RApplyStyleRotate_StyleRotate;
+				return r_ApplyStyleRotate_StyleRotate;
 			}
 		}
 
 		/// <summary>
 		/// Boolean SetInlineBackgroundSize(UnityEngine.UIElements.StyleBackgroundSize)
 		/// </summary>
-		protected RMethod r_RSetInlineBackgroundSize_StyleBackgroundSize;
+		protected RMethod r_SetInlineBackgroundSize_StyleBackgroundSize;
 		public virtual RMethod RSetInlineBackgroundSize_StyleBackgroundSize
 		{
 			get
 			{
-				if(r_RSetInlineBackgroundSize_StyleBackgroundSize == null)
+				if(r_SetInlineBackgroundSize_StyleBackgroundSize == null)
 				{
-					r_RSetInlineBackgroundSize_StyleBackgroundSize = new(this, "SetInlineBackgroundSize", 0, typeof(UnityEngine.UIElements.StyleBackgroundSize));
-					r_RSetInlineBackgroundSize_StyleBackgroundSize.SetBelong(this.instance);
+					r_SetInlineBackgroundSize_StyleBackgroundSize = new(this, "SetInlineBackgroundSize", 0, typeof(UnityEngine.UIElements.StyleBackgroundSize));
+					r_SetInlineBackgroundSize_StyleBackgroundSize.SetBelong(this.instance);
 				}
-				return r_RSetInlineBackgroundSize_StyleBackgroundSize;
+				return r_SetInlineBackgroundSize_StyleBackgroundSize;
 			}
 		}
 
 		/// <summary>
 		/// Void ApplyStyleBackgroundSize(UnityEngine.UIElements.StyleBackgroundSize)
 		/// </summary>
-		protected RMethod r_RApplyStyleBackgroundSize_StyleBackgroundSize;
+		protected RMethod r_ApplyStyleBackgroundSize_StyleBackgroundSize;
 		public virtual RMethod RApplyStyleBackgroundSize_StyleBackgroundSize
 		{
 			get
 			{
-				if(r_RApplyStyleBackgroundSize_StyleBackgroundSize == null)
+				if(r_ApplyStyleBackgroundSize_StyleBackgroundSize == null)
 				{
-					r_RApplyStyleBackgroundSize_StyleBackgroundSize = new(this, "ApplyStyleBackgroundSize", 0, typeof(UnityEngine.UIElements.StyleBackgroundSize));
-					r_RApplyStyleBackgroundSize_StyleBackgroundSize.SetBelong(this.instance);
+					r_ApplyStyleBackgroundSize_StyleBackgroundSize = new(this, "ApplyStyleBackgroundSize", 0, typeof(UnityEngine.UIElements.StyleBackgroundSize));
+					r_ApplyStyleBackgroundSize_StyleBackgroundSize.SetBelong(this.instance);
 				}
-				return r_RApplyStyleBackgroundSize_StyleBackgroundSize;
+				return r_ApplyStyleBackgroundSize_StyleBackgroundSize;
 			}
 		}
 
 		/// <summary>
 		/// Void ApplyStyleValue(UnityEngine.UIElements.StyleSheets.StyleValue)
 		/// </summary>
-		protected RMethod r_RApplyStyleValue_StyleValue;
+		protected RMethod r_ApplyStyleValue_StyleValue;
 		public virtual RMethod RApplyStyleValue_StyleValue
 		{
 			get
 			{
-				if(r_RApplyStyleValue_StyleValue == null)
+				if(r_ApplyStyleValue_StyleValue == null)
 				{
-					r_RApplyStyleValue_StyleValue = new(this, "ApplyStyleValue", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StyleValue"));
-					r_RApplyStyleValue_StyleValue.SetBelong(this.instance);
+					r_ApplyStyleValue_StyleValue = new(this, "ApplyStyleValue", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StyleValue"));
+					r_ApplyStyleValue_StyleValue.SetBelong(this.instance);
 				}
-				return r_RApplyStyleValue_StyleValue;
+				return r_ApplyStyleValue_StyleValue;
 			}
 		}
 
 		/// <summary>
 		/// Void ApplyStyleValue(UnityEngine.UIElements.StyleSheets.StyleValueManaged)
 		/// </summary>
-		protected RMethod r_RApplyStyleValue_StyleValueManaged;
+		protected RMethod r_ApplyStyleValue_StyleValueManaged;
 		public virtual RMethod RApplyStyleValue_StyleValueManaged
 		{
 			get
 			{
-				if(r_RApplyStyleValue_StyleValueManaged == null)
+				if(r_ApplyStyleValue_StyleValueManaged == null)
 				{
-					r_RApplyStyleValue_StyleValueManaged = new(this, "ApplyStyleValue", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StyleValueManaged"));
-					r_RApplyStyleValue_StyleValueManaged.SetBelong(this.instance);
+					r_ApplyStyleValue_StyleValueManaged = new(this, "ApplyStyleValue", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StyleValueManaged"));
+					r_ApplyStyleValue_StyleValueManaged.SetBelong(this.instance);
 				}
-				return r_RApplyStyleValue_StyleValueManaged;
+				return r_ApplyStyleValue_StyleValueManaged;
 			}
 		}
 
 		/// <summary>
 		/// Boolean RemoveInlineStyle(UnityEngine.UIElements.StyleSheets.StylePropertyId)
 		/// </summary>
-		protected RMethod r_RRemoveInlineStyle_StylePropertyId;
+		protected RMethod r_RemoveInlineStyle_StylePropertyId;
 		public virtual RMethod RRemoveInlineStyle_StylePropertyId
 		{
 			get
 			{
-				if(r_RRemoveInlineStyle_StylePropertyId == null)
+				if(r_RemoveInlineStyle_StylePropertyId == null)
 				{
-					r_RRemoveInlineStyle_StylePropertyId = new(this, "RemoveInlineStyle", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"));
-					r_RRemoveInlineStyle_StylePropertyId.SetBelong(this.instance);
+					r_RemoveInlineStyle_StylePropertyId = new(this, "RemoveInlineStyle", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"));
+					r_RemoveInlineStyle_StylePropertyId.SetBelong(this.instance);
 				}
-				return r_RRemoveInlineStyle_StylePropertyId;
+				return r_RemoveInlineStyle_StylePropertyId;
 			}
 		}
 
 		/// <summary>
 		/// Void ApplyFromComputedStyle(UnityEngine.UIElements.StyleSheets.StylePropertyId, UnityEngine.UIElements.ComputedStyle ByRef)
 		/// </summary>
-		protected RMethod r_RApplyFromComputedStyle_StylePropertyId_Ref_ComputedStyle;
+		protected RMethod r_ApplyFromComputedStyle_StylePropertyId_Ref_ComputedStyle;
 		public virtual RMethod RApplyFromComputedStyle_StylePropertyId_Ref_ComputedStyle
 		{
 			get
 			{
-				if(r_RApplyFromComputedStyle_StylePropertyId_Ref_ComputedStyle == null)
+				if(r_ApplyFromComputedStyle_StylePropertyId_Ref_ComputedStyle == null)
 				{
-					r_RApplyFromComputedStyle_StylePropertyId_Ref_ComputedStyle = new(this, "ApplyFromComputedStyle", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"),  ReleactionUtils.GetType("UnityEngine.UIElements.ComputedStyle").MakeByRefType());
-					r_RApplyFromComputedStyle_StylePropertyId_Ref_ComputedStyle.SetBelong(this.instance);
+					r_ApplyFromComputedStyle_StylePropertyId_Ref_ComputedStyle = new(this, "ApplyFromComputedStyle", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"),  ReleactionUtils.GetType("UnityEngine.UIElements.ComputedStyle").MakeByRefType());
+					r_ApplyFromComputedStyle_StylePropertyId_Ref_ComputedStyle.SetBelong(this.instance);
 				}
-				return r_RApplyFromComputedStyle_StylePropertyId_Ref_ComputedStyle;
+				return r_ApplyFromComputedStyle_StylePropertyId_Ref_ComputedStyle;
 			}
 		}
 
 		/// <summary>
 		/// Boolean TryGetInlineCursor(UnityEngine.UIElements.StyleCursor ByRef)
 		/// </summary>
-		protected RMethod r_RTryGetInlineCursor_Ref_StyleCursor;
+		protected RMethod r_TryGetInlineCursor_Ref_StyleCursor;
 		public virtual RMethod RTryGetInlineCursor_Ref_StyleCursor
 		{
 			get
 			{
-				if(r_RTryGetInlineCursor_Ref_StyleCursor == null)
+				if(r_TryGetInlineCursor_Ref_StyleCursor == null)
 				{
-					r_RTryGetInlineCursor_Ref_StyleCursor = new(this, "TryGetInlineCursor", 0, typeof(UnityEngine.UIElements.StyleCursor).MakeByRefType());
-					r_RTryGetInlineCursor_Ref_StyleCursor.SetBelong(this.instance);
+					r_TryGetInlineCursor_Ref_StyleCursor = new(this, "TryGetInlineCursor", 0, typeof(UnityEngine.UIElements.StyleCursor).MakeByRefType());
+					r_TryGetInlineCursor_Ref_StyleCursor.SetBelong(this.instance);
 				}
-				return r_RTryGetInlineCursor_Ref_StyleCursor;
+				return r_TryGetInlineCursor_Ref_StyleCursor;
 			}
 		}
 
 		/// <summary>
 		/// Boolean TryGetInlineTextShadow(UnityEngine.UIElements.StyleTextShadow ByRef)
 		/// </summary>
-		protected RMethod r_RTryGetInlineTextShadow_Ref_StyleTextShadow;
+		protected RMethod r_TryGetInlineTextShadow_Ref_StyleTextShadow;
 		public virtual RMethod RTryGetInlineTextShadow_Ref_StyleTextShadow
 		{
 			get
 			{
-				if(r_RTryGetInlineTextShadow_Ref_StyleTextShadow == null)
+				if(r_TryGetInlineTextShadow_Ref_StyleTextShadow == null)
 				{
-					r_RTryGetInlineTextShadow_Ref_StyleTextShadow = new(this, "TryGetInlineTextShadow", 0, typeof(UnityEngine.UIElements.StyleTextShadow).MakeByRefType());
-					r_RTryGetInlineTextShadow_Ref_StyleTextShadow.SetBelong(this.instance);
+					r_TryGetInlineTextShadow_Ref_StyleTextShadow = new(this, "TryGetInlineTextShadow", 0, typeof(UnityEngine.UIElements.StyleTextShadow).MakeByRefType());
+					r_TryGetInlineTextShadow_Ref_StyleTextShadow.SetBelong(this.instance);
 				}
-				return r_RTryGetInlineTextShadow_Ref_StyleTextShadow;
+				return r_TryGetInlineTextShadow_Ref_StyleTextShadow;
 			}
 		}
 
 		/// <summary>
 		/// Boolean TryGetInlineTransformOrigin(UnityEngine.UIElements.StyleTransformOrigin ByRef)
 		/// </summary>
-		protected RMethod r_RTryGetInlineTransformOrigin_Ref_StyleTransformOrigin;
+		protected RMethod r_TryGetInlineTransformOrigin_Ref_StyleTransformOrigin;
 		public virtual RMethod RTryGetInlineTransformOrigin_Ref_StyleTransformOrigin
 		{
 			get
 			{
-				if(r_RTryGetInlineTransformOrigin_Ref_StyleTransformOrigin == null)
+				if(r_TryGetInlineTransformOrigin_Ref_StyleTransformOrigin == null)
 				{
-					r_RTryGetInlineTransformOrigin_Ref_StyleTransformOrigin = new(this, "TryGetInlineTransformOrigin", 0, typeof(UnityEngine.UIElements.StyleTransformOrigin).MakeByRefType());
-					r_RTryGetInlineTransformOrigin_Ref_StyleTransformOrigin.SetBelong(this.instance);
+					r_TryGetInlineTransformOrigin_Ref_StyleTransformOrigin = new(this, "TryGetInlineTransformOrigin", 0, typeof(UnityEngine.UIElements.StyleTransformOrigin).MakeByRefType());
+					r_TryGetInlineTransformOrigin_Ref_StyleTransformOrigin.SetBelong(this.instance);
 				}
-				return r_RTryGetInlineTransformOrigin_Ref_StyleTransformOrigin;
+				return r_TryGetInlineTransformOrigin_Ref_StyleTransformOrigin;
 			}
 		}
 
 		/// <summary>
 		/// Boolean TryGetInlineTranslate(UnityEngine.UIElements.StyleTranslate ByRef)
 		/// </summary>
-		protected RMethod r_RTryGetInlineTranslate_Ref_StyleTranslate;
+		protected RMethod r_TryGetInlineTranslate_Ref_StyleTranslate;
 		public virtual RMethod RTryGetInlineTranslate_Ref_StyleTranslate
 		{
 			get
 			{
-				if(r_RTryGetInlineTranslate_Ref_StyleTranslate == null)
+				if(r_TryGetInlineTranslate_Ref_StyleTranslate == null)
 				{
-					r_RTryGetInlineTranslate_Ref_StyleTranslate = new(this, "TryGetInlineTranslate", 0, typeof(UnityEngine.UIElements.StyleTranslate).MakeByRefType());
-					r_RTryGetInlineTranslate_Ref_StyleTranslate.SetBelong(this.instance);
+					r_TryGetInlineTranslate_Ref_StyleTranslate = new(this, "TryGetInlineTranslate", 0, typeof(UnityEngine.UIElements.StyleTranslate).MakeByRefType());
+					r_TryGetInlineTranslate_Ref_StyleTranslate.SetBelong(this.instance);
 				}
-				return r_RTryGetInlineTranslate_Ref_StyleTranslate;
+				return r_TryGetInlineTranslate_Ref_StyleTranslate;
 			}
 		}
 
 		/// <summary>
 		/// Boolean TryGetInlineRotate(UnityEngine.UIElements.StyleRotate ByRef)
 		/// </summary>
-		protected RMethod r_RTryGetInlineRotate_Ref_StyleRotate;
+		protected RMethod r_TryGetInlineRotate_Ref_StyleRotate;
 		public virtual RMethod RTryGetInlineRotate_Ref_StyleRotate
 		{
 			get
 			{
-				if(r_RTryGetInlineRotate_Ref_StyleRotate == null)
+				if(r_TryGetInlineRotate_Ref_StyleRotate == null)
 				{
-					r_RTryGetInlineRotate_Ref_StyleRotate = new(this, "TryGetInlineRotate", 0, typeof(UnityEngine.UIElements.StyleRotate).MakeByRefType());
-					r_RTryGetInlineRotate_Ref_StyleRotate.SetBelong(this.instance);
+					r_TryGetInlineRotate_Ref_StyleRotate = new(this, "TryGetInlineRotate", 0, typeof(UnityEngine.UIElements.StyleRotate).MakeByRefType());
+					r_TryGetInlineRotate_Ref_StyleRotate.SetBelong(this.instance);
 				}
-				return r_RTryGetInlineRotate_Ref_StyleRotate;
+				return r_TryGetInlineRotate_Ref_StyleRotate;
 			}
 		}
 
 		/// <summary>
 		/// Boolean TryGetInlineScale(UnityEngine.UIElements.StyleScale ByRef)
 		/// </summary>
-		protected RMethod r_RTryGetInlineScale_Ref_StyleScale;
+		protected RMethod r_TryGetInlineScale_Ref_StyleScale;
 		public virtual RMethod RTryGetInlineScale_Ref_StyleScale
 		{
 			get
 			{
-				if(r_RTryGetInlineScale_Ref_StyleScale == null)
+				if(r_TryGetInlineScale_Ref_StyleScale == null)
 				{
-					r_RTryGetInlineScale_Ref_StyleScale = new(this, "TryGetInlineScale", 0, typeof(UnityEngine.UIElements.StyleScale).MakeByRefType());
-					r_RTryGetInlineScale_Ref_StyleScale.SetBelong(this.instance);
+					r_TryGetInlineScale_Ref_StyleScale = new(this, "TryGetInlineScale", 0, typeof(UnityEngine.UIElements.StyleScale).MakeByRefType());
+					r_TryGetInlineScale_Ref_StyleScale.SetBelong(this.instance);
 				}
-				return r_RTryGetInlineScale_Ref_StyleScale;
+				return r_TryGetInlineScale_Ref_StyleScale;
 			}
 		}
 
 		/// <summary>
 		/// Boolean TryGetInlineBackgroundSize(UnityEngine.UIElements.StyleBackgroundSize ByRef)
 		/// </summary>
-		protected RMethod r_RTryGetInlineBackgroundSize_Ref_StyleBackgroundSize;
+		protected RMethod r_TryGetInlineBackgroundSize_Ref_StyleBackgroundSize;
 		public virtual RMethod RTryGetInlineBackgroundSize_Ref_StyleBackgroundSize
 		{
 			get
 			{
-				if(r_RTryGetInlineBackgroundSize_Ref_StyleBackgroundSize == null)
+				if(r_TryGetInlineBackgroundSize_Ref_StyleBackgroundSize == null)
 				{
-					r_RTryGetInlineBackgroundSize_Ref_StyleBackgroundSize = new(this, "TryGetInlineBackgroundSize", 0, typeof(UnityEngine.UIElements.StyleBackgroundSize).MakeByRefType());
-					r_RTryGetInlineBackgroundSize_Ref_StyleBackgroundSize.SetBelong(this.instance);
+					r_TryGetInlineBackgroundSize_Ref_StyleBackgroundSize = new(this, "TryGetInlineBackgroundSize", 0, typeof(UnityEngine.UIElements.StyleBackgroundSize).MakeByRefType());
+					r_TryGetInlineBackgroundSize_Ref_StyleBackgroundSize.SetBelong(this.instance);
 				}
-				return r_RTryGetInlineBackgroundSize_Ref_StyleBackgroundSize;
+				return r_TryGetInlineBackgroundSize_Ref_StyleBackgroundSize;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleLength GetStyleLength(UnityEngine.UIElements.StyleSheets.StylePropertyId)
 		/// </summary>
-		protected RMethod r_RGetStyleLength_StylePropertyId;
+		protected RMethod r_GetStyleLength_StylePropertyId;
 		public virtual RMethod RGetStyleLength_StylePropertyId
 		{
 			get
 			{
-				if(r_RGetStyleLength_StylePropertyId == null)
+				if(r_GetStyleLength_StylePropertyId == null)
 				{
-					r_RGetStyleLength_StylePropertyId = new(this, "GetStyleLength", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"));
-					r_RGetStyleLength_StylePropertyId.SetBelong(this.instance);
+					r_GetStyleLength_StylePropertyId = new(this, "GetStyleLength", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"));
+					r_GetStyleLength_StylePropertyId.SetBelong(this.instance);
 				}
-				return r_RGetStyleLength_StylePropertyId;
+				return r_GetStyleLength_StylePropertyId;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleFloat GetStyleFloat(UnityEngine.UIElements.StyleSheets.StylePropertyId)
 		/// </summary>
-		protected RMethod r_RGetStyleFloat_StylePropertyId;
+		protected RMethod r_GetStyleFloat_StylePropertyId;
 		public virtual RMethod RGetStyleFloat_StylePropertyId
 		{
 			get
 			{
-				if(r_RGetStyleFloat_StylePropertyId == null)
+				if(r_GetStyleFloat_StylePropertyId == null)
 				{
-					r_RGetStyleFloat_StylePropertyId = new(this, "GetStyleFloat", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"));
-					r_RGetStyleFloat_StylePropertyId.SetBelong(this.instance);
+					r_GetStyleFloat_StylePropertyId = new(this, "GetStyleFloat", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"));
+					r_GetStyleFloat_StylePropertyId.SetBelong(this.instance);
 				}
-				return r_RGetStyleFloat_StylePropertyId;
+				return r_GetStyleFloat_StylePropertyId;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleInt GetStyleInt(UnityEngine.UIElements.StyleSheets.StylePropertyId)
 		/// </summary>
-		protected RMethod r_RGetStyleInt_StylePropertyId;
+		protected RMethod r_GetStyleInt_StylePropertyId;
 		public virtual RMethod RGetStyleInt_StylePropertyId
 		{
 			get
 			{
-				if(r_RGetStyleInt_StylePropertyId == null)
+				if(r_GetStyleInt_StylePropertyId == null)
 				{
-					r_RGetStyleInt_StylePropertyId = new(this, "GetStyleInt", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"));
-					r_RGetStyleInt_StylePropertyId.SetBelong(this.instance);
+					r_GetStyleInt_StylePropertyId = new(this, "GetStyleInt", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"));
+					r_GetStyleInt_StylePropertyId.SetBelong(this.instance);
 				}
-				return r_RGetStyleInt_StylePropertyId;
+				return r_GetStyleInt_StylePropertyId;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleColor GetStyleColor(UnityEngine.UIElements.StyleSheets.StylePropertyId)
 		/// </summary>
-		protected RMethod r_RGetStyleColor_StylePropertyId;
+		protected RMethod r_GetStyleColor_StylePropertyId;
 		public virtual RMethod RGetStyleColor_StylePropertyId
 		{
 			get
 			{
-				if(r_RGetStyleColor_StylePropertyId == null)
+				if(r_GetStyleColor_StylePropertyId == null)
 				{
-					r_RGetStyleColor_StylePropertyId = new(this, "GetStyleColor", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"));
-					r_RGetStyleColor_StylePropertyId.SetBelong(this.instance);
+					r_GetStyleColor_StylePropertyId = new(this, "GetStyleColor", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"));
+					r_GetStyleColor_StylePropertyId.SetBelong(this.instance);
 				}
-				return r_RGetStyleColor_StylePropertyId;
+				return r_GetStyleColor_StylePropertyId;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleBackground GetStyleBackground(UnityEngine.UIElements.StyleSheets.StylePropertyId)
 		/// </summary>
-		protected RMethod r_RGetStyleBackground_StylePropertyId;
+		protected RMethod r_GetStyleBackground_StylePropertyId;
 		public virtual RMethod RGetStyleBackground_StylePropertyId
 		{
 			get
 			{
-				if(r_RGetStyleBackground_StylePropertyId == null)
+				if(r_GetStyleBackground_StylePropertyId == null)
 				{
-					r_RGetStyleBackground_StylePropertyId = new(this, "GetStyleBackground", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"));
-					r_RGetStyleBackground_StylePropertyId.SetBelong(this.instance);
+					r_GetStyleBackground_StylePropertyId = new(this, "GetStyleBackground", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"));
+					r_GetStyleBackground_StylePropertyId.SetBelong(this.instance);
 				}
-				return r_RGetStyleBackground_StylePropertyId;
+				return r_GetStyleBackground_StylePropertyId;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleBackgroundPosition GetStyleBackgroundPosition(UnityEngine.UIElements.StyleSheets.StylePropertyId)
 		/// </summary>
-		protected RMethod r_RGetStyleBackgroundPosition_StylePropertyId;
+		protected RMethod r_GetStyleBackgroundPosition_StylePropertyId;
 		public virtual RMethod RGetStyleBackgroundPosition_StylePropertyId
 		{
 			get
 			{
-				if(r_RGetStyleBackgroundPosition_StylePropertyId == null)
+				if(r_GetStyleBackgroundPosition_StylePropertyId == null)
 				{
-					r_RGetStyleBackgroundPosition_StylePropertyId = new(this, "GetStyleBackgroundPosition", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"));
-					r_RGetStyleBackgroundPosition_StylePropertyId.SetBelong(this.instance);
+					r_GetStyleBackgroundPosition_StylePropertyId = new(this, "GetStyleBackgroundPosition", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"));
+					r_GetStyleBackgroundPosition_StylePropertyId.SetBelong(this.instance);
 				}
-				return r_RGetStyleBackgroundPosition_StylePropertyId;
+				return r_GetStyleBackgroundPosition_StylePropertyId;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleBackgroundRepeat GetStyleBackgroundRepeat(UnityEngine.UIElements.StyleSheets.StylePropertyId)
 		/// </summary>
-		protected RMethod r_RGetStyleBackgroundRepeat_StylePropertyId;
+		protected RMethod r_GetStyleBackgroundRepeat_StylePropertyId;
 		public virtual RMethod RGetStyleBackgroundRepeat_StylePropertyId
 		{
 			get
 			{
-				if(r_RGetStyleBackgroundRepeat_StylePropertyId == null)
+				if(r_GetStyleBackgroundRepeat_StylePropertyId == null)
 				{
-					r_RGetStyleBackgroundRepeat_StylePropertyId = new(this, "GetStyleBackgroundRepeat", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"));
-					r_RGetStyleBackgroundRepeat_StylePropertyId.SetBelong(this.instance);
+					r_GetStyleBackgroundRepeat_StylePropertyId = new(this, "GetStyleBackgroundRepeat", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"));
+					r_GetStyleBackgroundRepeat_StylePropertyId.SetBelong(this.instance);
 				}
-				return r_RGetStyleBackgroundRepeat_StylePropertyId;
+				return r_GetStyleBackgroundRepeat_StylePropertyId;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleFont GetStyleFont(UnityEngine.UIElements.StyleSheets.StylePropertyId)
 		/// </summary>
-		protected RMethod r_RGetStyleFont_StylePropertyId;
+		protected RMethod r_GetStyleFont_StylePropertyId;
 		public virtual RMethod RGetStyleFont_StylePropertyId
 		{
 			get
 			{
-				if(r_RGetStyleFont_StylePropertyId == null)
+				if(r_GetStyleFont_StylePropertyId == null)
 				{
-					r_RGetStyleFont_StylePropertyId = new(this, "GetStyleFont", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"));
-					r_RGetStyleFont_StylePropertyId.SetBelong(this.instance);
+					r_GetStyleFont_StylePropertyId = new(this, "GetStyleFont", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"));
+					r_GetStyleFont_StylePropertyId.SetBelong(this.instance);
 				}
-				return r_RGetStyleFont_StylePropertyId;
+				return r_GetStyleFont_StylePropertyId;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleFontDefinition GetStyleFontDefinition(UnityEngine.UIElements.StyleSheets.StylePropertyId)
 		/// </summary>
-		protected RMethod r_RGetStyleFontDefinition_StylePropertyId;
+		protected RMethod r_GetStyleFontDefinition_StylePropertyId;
 		public virtual RMethod RGetStyleFontDefinition_StylePropertyId
 		{
 			get
 			{
-				if(r_RGetStyleFontDefinition_StylePropertyId == null)
+				if(r_GetStyleFontDefinition_StylePropertyId == null)
 				{
-					r_RGetStyleFontDefinition_StylePropertyId = new(this, "GetStyleFontDefinition", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"));
-					r_RGetStyleFontDefinition_StylePropertyId.SetBelong(this.instance);
+					r_GetStyleFontDefinition_StylePropertyId = new(this, "GetStyleFontDefinition", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"));
+					r_GetStyleFontDefinition_StylePropertyId.SetBelong(this.instance);
 				}
-				return r_RGetStyleFontDefinition_StylePropertyId;
+				return r_GetStyleFontDefinition_StylePropertyId;
 			}
 		}
 
 		/// <summary>
 		/// Boolean TryGetStyleValue(UnityEngine.UIElements.StyleSheets.StylePropertyId, UnityEngine.UIElements.StyleSheets.StyleValue ByRef)
 		/// </summary>
-		protected RMethod r_RTryGetStyleValue_StylePropertyId_Ref_StyleValue;
+		protected RMethod r_TryGetStyleValue_StylePropertyId_Ref_StyleValue;
 		public virtual RMethod RTryGetStyleValue_StylePropertyId_Ref_StyleValue
 		{
 			get
 			{
-				if(r_RTryGetStyleValue_StylePropertyId_Ref_StyleValue == null)
+				if(r_TryGetStyleValue_StylePropertyId_Ref_StyleValue == null)
 				{
-					r_RTryGetStyleValue_StylePropertyId_Ref_StyleValue = new(this, "TryGetStyleValue", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"),  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StyleValue").MakeByRefType());
-					r_RTryGetStyleValue_StylePropertyId_Ref_StyleValue.SetBelong(this.instance);
+					r_TryGetStyleValue_StylePropertyId_Ref_StyleValue = new(this, "TryGetStyleValue", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"),  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StyleValue").MakeByRefType());
+					r_TryGetStyleValue_StylePropertyId_Ref_StyleValue.SetBelong(this.instance);
 				}
-				return r_RTryGetStyleValue_StylePropertyId_Ref_StyleValue;
+				return r_TryGetStyleValue_StylePropertyId_Ref_StyleValue;
 			}
 		}
 
 		/// <summary>
 		/// Void SetStyleValue(UnityEngine.UIElements.StyleSheets.StyleValue)
 		/// </summary>
-		protected RMethod r_RSetStyleValue_StyleValue;
+		protected RMethod r_SetStyleValue_StyleValue;
 		public virtual RMethod RSetStyleValue_StyleValue
 		{
 			get
 			{
-				if(r_RSetStyleValue_StyleValue == null)
+				if(r_SetStyleValue_StyleValue == null)
 				{
-					r_RSetStyleValue_StyleValue = new(this, "SetStyleValue", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StyleValue"));
-					r_RSetStyleValue_StyleValue.SetBelong(this.instance);
+					r_SetStyleValue_StyleValue = new(this, "SetStyleValue", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StyleValue"));
+					r_SetStyleValue_StyleValue.SetBelong(this.instance);
 				}
-				return r_RSetStyleValue_StyleValue;
+				return r_SetStyleValue_StyleValue;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Equals(System.Object)
 		/// </summary>
-		protected RMethod r_REquals_Object;
+		protected RMethod r_Equals_Object;
 		public virtual RMethod REquals_Object
 		{
 			get
 			{
-				if(r_REquals_Object == null)
+				if(r_Equals_Object == null)
 				{
-					r_REquals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_REquals_Object.SetBelong(this.instance);
+					r_Equals_Object = new(this, "Equals", 0, typeof(System.Object));
+					r_Equals_Object.SetBelong(this.instance);
 				}
-				return r_REquals_Object;
+				return r_Equals_Object;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetHashCode()
 		/// </summary>
-		protected RMethod r_RGetHashCode;
+		protected RMethod r_GetHashCode;
 		public virtual RMethod RGetHashCode
 		{
 			get
 			{
-				if(r_RGetHashCode == null)
+				if(r_GetHashCode == null)
 				{
-					r_RGetHashCode = new(this, "GetHashCode", 0);
-					r_RGetHashCode.SetBelong(this.instance);
+					r_GetHashCode = new(this, "GetHashCode", 0);
+					r_GetHashCode.SetBelong(this.instance);
 				}
-				return r_RGetHashCode;
+				return r_GetHashCode;
 			}
 		}
 
 		/// <summary>
 		/// System.Type GetType()
 		/// </summary>
-		protected RMethod r_RGetType;
+		protected RMethod r_GetType;
 		public virtual RMethod RGetType
 		{
 			get
 			{
-				if(r_RGetType == null)
+				if(r_GetType == null)
 				{
-					r_RGetType = new(this, "GetType", 0);
-					r_RGetType.SetBelong(this.instance);
+					r_GetType = new(this, "GetType", 0);
+					r_GetType.SetBelong(this.instance);
 				}
-				return r_RGetType;
+				return r_GetType;
 			}
 		}
 
 		/// <summary>
 		/// System.Object MemberwiseClone()
 		/// </summary>
-		protected RMethod r_RMemberwiseClone;
+		protected RMethod r_MemberwiseClone;
 		public virtual RMethod RMemberwiseClone
 		{
 			get
 			{
-				if(r_RMemberwiseClone == null)
+				if(r_MemberwiseClone == null)
 				{
-					r_RMemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_RMemberwiseClone.SetBelong(this.instance);
+					r_MemberwiseClone = new(this, "MemberwiseClone", 0);
+					r_MemberwiseClone.SetBelong(this.instance);
 				}
-				return r_RMemberwiseClone;
+				return r_MemberwiseClone;
 			}
 		}
 
 		/// <summary>
 		/// System.String ToString()
 		/// </summary>
-		protected RMethod r_RToString;
+		protected RMethod r_ToString;
 		public virtual RMethod RToString
 		{
 			get
 			{
-				if(r_RToString == null)
+				if(r_ToString == null)
 				{
-					r_RToString = new(this, "ToString", 0);
-					r_RToString.SetBelong(this.instance);
+					r_ToString = new(this, "ToString", 0);
+					r_ToString.SetBelong(this.instance);
 				}
-				return r_RToString;
+				return r_ToString;
 			}
 		}
 

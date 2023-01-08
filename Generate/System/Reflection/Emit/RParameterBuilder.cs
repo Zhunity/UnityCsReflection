@@ -251,255 +251,255 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// Void System.Runtime.InteropServices._ParameterBuilder.GetIDsOfNames(System.Guid ByRef, IntPtr, UInt32, UInt32, IntPtr)
 		/// </summary>
-		protected RMethod r_RSystem__0__Runtime__0__InteropServices__0___ParameterBuilder__0__GetIDsOfNames_In_Guid_IntPtr_UInt32_UInt32_IntPtr;
-		public virtual RMethod RSystem__0__Runtime__0__InteropServices__0___ParameterBuilder__0__GetIDsOfNames_In_Guid_IntPtr_UInt32_UInt32_IntPtr
+		protected RMethod r_System__2__Runtime__2__InteropServices__2___ParameterBuilder__2__GetIDsOfNames_In_Guid_IntPtr_UInt32_UInt32_IntPtr;
+		public virtual RMethod RSystem__2__Runtime__2__InteropServices__2___ParameterBuilder__2__GetIDsOfNames_In_Guid_IntPtr_UInt32_UInt32_IntPtr
 		{
 			get
 			{
-				if(r_RSystem__0__Runtime__0__InteropServices__0___ParameterBuilder__0__GetIDsOfNames_In_Guid_IntPtr_UInt32_UInt32_IntPtr == null)
+				if(r_System__2__Runtime__2__InteropServices__2___ParameterBuilder__2__GetIDsOfNames_In_Guid_IntPtr_UInt32_UInt32_IntPtr == null)
 				{
-					r_RSystem__0__Runtime__0__InteropServices__0___ParameterBuilder__0__GetIDsOfNames_In_Guid_IntPtr_UInt32_UInt32_IntPtr = new(this, "System.Runtime.InteropServices._ParameterBuilder.GetIDsOfNames", 0, typeof(System.Guid).MakeByRefType(), typeof(System.IntPtr), typeof(System.UInt32), typeof(System.UInt32), typeof(System.IntPtr));
-					r_RSystem__0__Runtime__0__InteropServices__0___ParameterBuilder__0__GetIDsOfNames_In_Guid_IntPtr_UInt32_UInt32_IntPtr.SetBelong(this.instance);
+					r_System__2__Runtime__2__InteropServices__2___ParameterBuilder__2__GetIDsOfNames_In_Guid_IntPtr_UInt32_UInt32_IntPtr = new(this, "System.Runtime.InteropServices._ParameterBuilder.GetIDsOfNames", 0, typeof(System.Guid).MakeByRefType(), typeof(System.IntPtr), typeof(System.UInt32), typeof(System.UInt32), typeof(System.IntPtr));
+					r_System__2__Runtime__2__InteropServices__2___ParameterBuilder__2__GetIDsOfNames_In_Guid_IntPtr_UInt32_UInt32_IntPtr.SetBelong(this.instance);
 				}
-				return r_RSystem__0__Runtime__0__InteropServices__0___ParameterBuilder__0__GetIDsOfNames_In_Guid_IntPtr_UInt32_UInt32_IntPtr;
+				return r_System__2__Runtime__2__InteropServices__2___ParameterBuilder__2__GetIDsOfNames_In_Guid_IntPtr_UInt32_UInt32_IntPtr;
 			}
 		}
 
 		/// <summary>
 		/// Void System.Runtime.InteropServices._ParameterBuilder.GetTypeInfo(UInt32, UInt32, IntPtr)
 		/// </summary>
-		protected RMethod r_RSystem__0__Runtime__0__InteropServices__0___ParameterBuilder__0__GetTypeInfo_UInt32_UInt32_IntPtr;
-		public virtual RMethod RSystem__0__Runtime__0__InteropServices__0___ParameterBuilder__0__GetTypeInfo_UInt32_UInt32_IntPtr
+		protected RMethod r_System__2__Runtime__2__InteropServices__2___ParameterBuilder__2__GetTypeInfo_UInt32_UInt32_IntPtr;
+		public virtual RMethod RSystem__2__Runtime__2__InteropServices__2___ParameterBuilder__2__GetTypeInfo_UInt32_UInt32_IntPtr
 		{
 			get
 			{
-				if(r_RSystem__0__Runtime__0__InteropServices__0___ParameterBuilder__0__GetTypeInfo_UInt32_UInt32_IntPtr == null)
+				if(r_System__2__Runtime__2__InteropServices__2___ParameterBuilder__2__GetTypeInfo_UInt32_UInt32_IntPtr == null)
 				{
-					r_RSystem__0__Runtime__0__InteropServices__0___ParameterBuilder__0__GetTypeInfo_UInt32_UInt32_IntPtr = new(this, "System.Runtime.InteropServices._ParameterBuilder.GetTypeInfo", 0, typeof(System.UInt32), typeof(System.UInt32), typeof(System.IntPtr));
-					r_RSystem__0__Runtime__0__InteropServices__0___ParameterBuilder__0__GetTypeInfo_UInt32_UInt32_IntPtr.SetBelong(this.instance);
+					r_System__2__Runtime__2__InteropServices__2___ParameterBuilder__2__GetTypeInfo_UInt32_UInt32_IntPtr = new(this, "System.Runtime.InteropServices._ParameterBuilder.GetTypeInfo", 0, typeof(System.UInt32), typeof(System.UInt32), typeof(System.IntPtr));
+					r_System__2__Runtime__2__InteropServices__2___ParameterBuilder__2__GetTypeInfo_UInt32_UInt32_IntPtr.SetBelong(this.instance);
 				}
-				return r_RSystem__0__Runtime__0__InteropServices__0___ParameterBuilder__0__GetTypeInfo_UInt32_UInt32_IntPtr;
+				return r_System__2__Runtime__2__InteropServices__2___ParameterBuilder__2__GetTypeInfo_UInt32_UInt32_IntPtr;
 			}
 		}
 
 		/// <summary>
 		/// Void System.Runtime.InteropServices._ParameterBuilder.GetTypeInfoCount(UInt32 ByRef)
 		/// </summary>
-		protected RMethod r_RSystem__0__Runtime__0__InteropServices__0___ParameterBuilder__0__GetTypeInfoCount_Out_UInt32;
-		public virtual RMethod RSystem__0__Runtime__0__InteropServices__0___ParameterBuilder__0__GetTypeInfoCount_Out_UInt32
+		protected RMethod r_System__2__Runtime__2__InteropServices__2___ParameterBuilder__2__GetTypeInfoCount_Out_UInt32;
+		public virtual RMethod RSystem__2__Runtime__2__InteropServices__2___ParameterBuilder__2__GetTypeInfoCount_Out_UInt32
 		{
 			get
 			{
-				if(r_RSystem__0__Runtime__0__InteropServices__0___ParameterBuilder__0__GetTypeInfoCount_Out_UInt32 == null)
+				if(r_System__2__Runtime__2__InteropServices__2___ParameterBuilder__2__GetTypeInfoCount_Out_UInt32 == null)
 				{
-					r_RSystem__0__Runtime__0__InteropServices__0___ParameterBuilder__0__GetTypeInfoCount_Out_UInt32 = new(this, "System.Runtime.InteropServices._ParameterBuilder.GetTypeInfoCount", 0, typeof(System.UInt32).MakeByRefType());
-					r_RSystem__0__Runtime__0__InteropServices__0___ParameterBuilder__0__GetTypeInfoCount_Out_UInt32.SetBelong(this.instance);
+					r_System__2__Runtime__2__InteropServices__2___ParameterBuilder__2__GetTypeInfoCount_Out_UInt32 = new(this, "System.Runtime.InteropServices._ParameterBuilder.GetTypeInfoCount", 0, typeof(System.UInt32).MakeByRefType());
+					r_System__2__Runtime__2__InteropServices__2___ParameterBuilder__2__GetTypeInfoCount_Out_UInt32.SetBelong(this.instance);
 				}
-				return r_RSystem__0__Runtime__0__InteropServices__0___ParameterBuilder__0__GetTypeInfoCount_Out_UInt32;
+				return r_System__2__Runtime__2__InteropServices__2___ParameterBuilder__2__GetTypeInfoCount_Out_UInt32;
 			}
 		}
 
 		/// <summary>
 		/// Void System.Runtime.InteropServices._ParameterBuilder.Invoke(UInt32, System.Guid ByRef, UInt32, Int16, IntPtr, IntPtr, IntPtr, IntPtr)
 		/// </summary>
-		protected RMethod r_RSystem__0__Runtime__0__InteropServices__0___ParameterBuilder__0__Invoke_UInt32_In_Guid_UInt32_Int16_IntPtr_IntPtr_IntPtr_IntPtr;
-		public virtual RMethod RSystem__0__Runtime__0__InteropServices__0___ParameterBuilder__0__Invoke_UInt32_In_Guid_UInt32_Int16_IntPtr_IntPtr_IntPtr_IntPtr
+		protected RMethod r_System__2__Runtime__2__InteropServices__2___ParameterBuilder__2__Invoke_UInt32_In_Guid_UInt32_Int16_IntPtr_IntPtr_IntPtr_IntPtr;
+		public virtual RMethod RSystem__2__Runtime__2__InteropServices__2___ParameterBuilder__2__Invoke_UInt32_In_Guid_UInt32_Int16_IntPtr_IntPtr_IntPtr_IntPtr
 		{
 			get
 			{
-				if(r_RSystem__0__Runtime__0__InteropServices__0___ParameterBuilder__0__Invoke_UInt32_In_Guid_UInt32_Int16_IntPtr_IntPtr_IntPtr_IntPtr == null)
+				if(r_System__2__Runtime__2__InteropServices__2___ParameterBuilder__2__Invoke_UInt32_In_Guid_UInt32_Int16_IntPtr_IntPtr_IntPtr_IntPtr == null)
 				{
-					r_RSystem__0__Runtime__0__InteropServices__0___ParameterBuilder__0__Invoke_UInt32_In_Guid_UInt32_Int16_IntPtr_IntPtr_IntPtr_IntPtr = new(this, "System.Runtime.InteropServices._ParameterBuilder.Invoke", 0, typeof(System.UInt32), typeof(System.Guid).MakeByRefType(), typeof(System.UInt32), typeof(System.Int16), typeof(System.IntPtr), typeof(System.IntPtr), typeof(System.IntPtr), typeof(System.IntPtr));
-					r_RSystem__0__Runtime__0__InteropServices__0___ParameterBuilder__0__Invoke_UInt32_In_Guid_UInt32_Int16_IntPtr_IntPtr_IntPtr_IntPtr.SetBelong(this.instance);
+					r_System__2__Runtime__2__InteropServices__2___ParameterBuilder__2__Invoke_UInt32_In_Guid_UInt32_Int16_IntPtr_IntPtr_IntPtr_IntPtr = new(this, "System.Runtime.InteropServices._ParameterBuilder.Invoke", 0, typeof(System.UInt32), typeof(System.Guid).MakeByRefType(), typeof(System.UInt32), typeof(System.Int16), typeof(System.IntPtr), typeof(System.IntPtr), typeof(System.IntPtr), typeof(System.IntPtr));
+					r_System__2__Runtime__2__InteropServices__2___ParameterBuilder__2__Invoke_UInt32_In_Guid_UInt32_Int16_IntPtr_IntPtr_IntPtr_IntPtr.SetBelong(this.instance);
 				}
-				return r_RSystem__0__Runtime__0__InteropServices__0___ParameterBuilder__0__Invoke_UInt32_In_Guid_UInt32_Int16_IntPtr_IntPtr_IntPtr_IntPtr;
+				return r_System__2__Runtime__2__InteropServices__2___ParameterBuilder__2__Invoke_UInt32_In_Guid_UInt32_Int16_IntPtr_IntPtr_IntPtr_IntPtr;
 			}
 		}
 
 		/// <summary>
 		/// System.Reflection.Emit.ParameterToken GetToken()
 		/// </summary>
-		protected RMethod r_RGetToken;
+		protected RMethod r_GetToken;
 		public virtual RMethod RGetToken
 		{
 			get
 			{
-				if(r_RGetToken == null)
+				if(r_GetToken == null)
 				{
-					r_RGetToken = new(this, "GetToken", 0);
-					r_RGetToken.SetBelong(this.instance);
+					r_GetToken = new(this, "GetToken", 0);
+					r_GetToken.SetBelong(this.instance);
 				}
-				return r_RGetToken;
+				return r_GetToken;
 			}
 		}
 
 		/// <summary>
 		/// Void SetConstant(System.Object)
 		/// </summary>
-		protected RMethod r_RSetConstant_Object;
+		protected RMethod r_SetConstant_Object;
 		public virtual RMethod RSetConstant_Object
 		{
 			get
 			{
-				if(r_RSetConstant_Object == null)
+				if(r_SetConstant_Object == null)
 				{
-					r_RSetConstant_Object = new(this, "SetConstant", 0, typeof(System.Object));
-					r_RSetConstant_Object.SetBelong(this.instance);
+					r_SetConstant_Object = new(this, "SetConstant", 0, typeof(System.Object));
+					r_SetConstant_Object.SetBelong(this.instance);
 				}
-				return r_RSetConstant_Object;
+				return r_SetConstant_Object;
 			}
 		}
 
 		/// <summary>
 		/// Void SetCustomAttribute(System.Reflection.Emit.CustomAttributeBuilder)
 		/// </summary>
-		protected RMethod r_RSetCustomAttribute_CustomAttributeBuilder;
+		protected RMethod r_SetCustomAttribute_CustomAttributeBuilder;
 		public virtual RMethod RSetCustomAttribute_CustomAttributeBuilder
 		{
 			get
 			{
-				if(r_RSetCustomAttribute_CustomAttributeBuilder == null)
+				if(r_SetCustomAttribute_CustomAttributeBuilder == null)
 				{
-					r_RSetCustomAttribute_CustomAttributeBuilder = new(this, "SetCustomAttribute", 0, typeof(System.Reflection.Emit.CustomAttributeBuilder));
-					r_RSetCustomAttribute_CustomAttributeBuilder.SetBelong(this.instance);
+					r_SetCustomAttribute_CustomAttributeBuilder = new(this, "SetCustomAttribute", 0, typeof(System.Reflection.Emit.CustomAttributeBuilder));
+					r_SetCustomAttribute_CustomAttributeBuilder.SetBelong(this.instance);
 				}
-				return r_RSetCustomAttribute_CustomAttributeBuilder;
+				return r_SetCustomAttribute_CustomAttributeBuilder;
 			}
 		}
 
 		/// <summary>
 		/// Void SetCustomAttribute(System.Reflection.ConstructorInfo, Byte[])
 		/// </summary>
-		protected RMethod r_RSetCustomAttribute_ConstructorInfo_ByteArray;
+		protected RMethod r_SetCustomAttribute_ConstructorInfo_ByteArray;
 		public virtual RMethod RSetCustomAttribute_ConstructorInfo_ByteArray
 		{
 			get
 			{
-				if(r_RSetCustomAttribute_ConstructorInfo_ByteArray == null)
+				if(r_SetCustomAttribute_ConstructorInfo_ByteArray == null)
 				{
-					r_RSetCustomAttribute_ConstructorInfo_ByteArray = new(this, "SetCustomAttribute", 0, typeof(System.Reflection.ConstructorInfo), typeof(System.Byte).MakeArrayType());
-					r_RSetCustomAttribute_ConstructorInfo_ByteArray.SetBelong(this.instance);
+					r_SetCustomAttribute_ConstructorInfo_ByteArray = new(this, "SetCustomAttribute", 0, typeof(System.Reflection.ConstructorInfo), typeof(System.Byte).MakeArrayType());
+					r_SetCustomAttribute_ConstructorInfo_ByteArray.SetBelong(this.instance);
 				}
-				return r_RSetCustomAttribute_ConstructorInfo_ByteArray;
+				return r_SetCustomAttribute_ConstructorInfo_ByteArray;
 			}
 		}
 
 		/// <summary>
 		/// Void SetMarshal(System.Reflection.Emit.UnmanagedMarshal)
 		/// </summary>
-		protected RMethod r_RSetMarshal_UnmanagedMarshal;
+		protected RMethod r_SetMarshal_UnmanagedMarshal;
 		public virtual RMethod RSetMarshal_UnmanagedMarshal
 		{
 			get
 			{
-				if(r_RSetMarshal_UnmanagedMarshal == null)
+				if(r_SetMarshal_UnmanagedMarshal == null)
 				{
-					r_RSetMarshal_UnmanagedMarshal = new(this, "SetMarshal", 0, typeof(System.Reflection.Emit.UnmanagedMarshal));
-					r_RSetMarshal_UnmanagedMarshal.SetBelong(this.instance);
+					r_SetMarshal_UnmanagedMarshal = new(this, "SetMarshal", 0, typeof(System.Reflection.Emit.UnmanagedMarshal));
+					r_SetMarshal_UnmanagedMarshal.SetBelong(this.instance);
 				}
-				return r_RSetMarshal_UnmanagedMarshal;
+				return r_SetMarshal_UnmanagedMarshal;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Equals(System.Object)
 		/// </summary>
-		protected RMethod r_REquals_Object;
+		protected RMethod r_Equals_Object;
 		public virtual RMethod REquals_Object
 		{
 			get
 			{
-				if(r_REquals_Object == null)
+				if(r_Equals_Object == null)
 				{
-					r_REquals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_REquals_Object.SetBelong(this.instance);
+					r_Equals_Object = new(this, "Equals", 0, typeof(System.Object));
+					r_Equals_Object.SetBelong(this.instance);
 				}
-				return r_REquals_Object;
+				return r_Equals_Object;
 			}
 		}
 
 		/// <summary>
 		/// Void Finalize()
 		/// </summary>
-		protected RMethod r_RFinalize;
+		protected RMethod r_Finalize;
 		public virtual RMethod RFinalize
 		{
 			get
 			{
-				if(r_RFinalize == null)
+				if(r_Finalize == null)
 				{
-					r_RFinalize = new(this, "Finalize", 0);
-					r_RFinalize.SetBelong(this.instance);
+					r_Finalize = new(this, "Finalize", 0);
+					r_Finalize.SetBelong(this.instance);
 				}
-				return r_RFinalize;
+				return r_Finalize;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetHashCode()
 		/// </summary>
-		protected RMethod r_RGetHashCode;
+		protected RMethod r_GetHashCode;
 		public virtual RMethod RGetHashCode
 		{
 			get
 			{
-				if(r_RGetHashCode == null)
+				if(r_GetHashCode == null)
 				{
-					r_RGetHashCode = new(this, "GetHashCode", 0);
-					r_RGetHashCode.SetBelong(this.instance);
+					r_GetHashCode = new(this, "GetHashCode", 0);
+					r_GetHashCode.SetBelong(this.instance);
 				}
-				return r_RGetHashCode;
+				return r_GetHashCode;
 			}
 		}
 
 		/// <summary>
 		/// System.Type GetType()
 		/// </summary>
-		protected RMethod r_RGetType;
+		protected RMethod r_GetType;
 		public virtual RMethod RGetType
 		{
 			get
 			{
-				if(r_RGetType == null)
+				if(r_GetType == null)
 				{
-					r_RGetType = new(this, "GetType", 0);
-					r_RGetType.SetBelong(this.instance);
+					r_GetType = new(this, "GetType", 0);
+					r_GetType.SetBelong(this.instance);
 				}
-				return r_RGetType;
+				return r_GetType;
 			}
 		}
 
 		/// <summary>
 		/// System.Object MemberwiseClone()
 		/// </summary>
-		protected RMethod r_RMemberwiseClone;
+		protected RMethod r_MemberwiseClone;
 		public virtual RMethod RMemberwiseClone
 		{
 			get
 			{
-				if(r_RMemberwiseClone == null)
+				if(r_MemberwiseClone == null)
 				{
-					r_RMemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_RMemberwiseClone.SetBelong(this.instance);
+					r_MemberwiseClone = new(this, "MemberwiseClone", 0);
+					r_MemberwiseClone.SetBelong(this.instance);
 				}
-				return r_RMemberwiseClone;
+				return r_MemberwiseClone;
 			}
 		}
 
 		/// <summary>
 		/// System.String ToString()
 		/// </summary>
-		protected RMethod r_RToString;
+		protected RMethod r_ToString;
 		public virtual RMethod RToString
 		{
 			get
 			{
-				if(r_RToString == null)
+				if(r_ToString == null)
 				{
-					r_RToString = new(this, "ToString", 0);
-					r_RToString.SetBelong(this.instance);
+					r_ToString = new(this, "ToString", 0);
+					r_ToString.SetBelong(this.instance);
 				}
-				return r_RToString;
+				return r_ToString;
 			}
 		}
 
@@ -521,47 +521,47 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 	    {
 	    }
 
-        public virtual void System__0__Runtime__0__InteropServices__0___ParameterBuilder__0__GetIDsOfNames(in System.Guid  @riid, System.IntPtr  @rgszNames, System.UInt32  @cNames, System.UInt32  @lcid, System.IntPtr  @rgDispId)
+        public virtual void System__2__Runtime__2__InteropServices__2___ParameterBuilder__2__GetIDsOfNames(in System.Guid  @riid, System.IntPtr  @rgszNames, System.UInt32  @cNames, System.UInt32  @lcid, System.IntPtr  @rgDispId)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@riid, @rgszNames, @cNames, @lcid, @rgDispId};
-            var ___result = RSystem__0__Runtime__0__InteropServices__0___ParameterBuilder__0__GetIDsOfNames_In_Guid_IntPtr_UInt32_UInt32_IntPtr.Invoke(___genericsType, ___parameters);
+            var ___result = RSystem__2__Runtime__2__InteropServices__2___ParameterBuilder__2__GetIDsOfNames_In_Guid_IntPtr_UInt32_UInt32_IntPtr.Invoke(___genericsType, ___parameters);
 
             
         }
 
 
-        public virtual void System__0__Runtime__0__InteropServices__0___ParameterBuilder__0__GetTypeInfo(System.UInt32  @iTInfo, System.UInt32  @lcid, System.IntPtr  @ppTInfo)
+        public virtual void System__2__Runtime__2__InteropServices__2___ParameterBuilder__2__GetTypeInfo(System.UInt32  @iTInfo, System.UInt32  @lcid, System.IntPtr  @ppTInfo)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@iTInfo, @lcid, @ppTInfo};
-            var ___result = RSystem__0__Runtime__0__InteropServices__0___ParameterBuilder__0__GetTypeInfo_UInt32_UInt32_IntPtr.Invoke(___genericsType, ___parameters);
+            var ___result = RSystem__2__Runtime__2__InteropServices__2___ParameterBuilder__2__GetTypeInfo_UInt32_UInt32_IntPtr.Invoke(___genericsType, ___parameters);
 
             
         }
 
 
-        public virtual void System__0__Runtime__0__InteropServices__0___ParameterBuilder__0__GetTypeInfoCount(out System.UInt32  @pcTInfo)
+        public virtual void System__2__Runtime__2__InteropServices__2___ParameterBuilder__2__GetTypeInfoCount(out System.UInt32  @pcTInfo)
         {
 			pcTInfo = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@pcTInfo};
-            var ___result = RSystem__0__Runtime__0__InteropServices__0___ParameterBuilder__0__GetTypeInfoCount_Out_UInt32.Invoke(___genericsType, ___parameters);
+            var ___result = RSystem__2__Runtime__2__InteropServices__2___ParameterBuilder__2__GetTypeInfoCount_Out_UInt32.Invoke(___genericsType, ___parameters);
 			pcTInfo = (System.UInt32)___parameters[0];
 
             
         }
 
 
-        public virtual void System__0__Runtime__0__InteropServices__0___ParameterBuilder__0__Invoke(System.UInt32  @dispIdMember, in System.Guid  @riid, System.UInt32  @lcid, System.Int16  @wFlags, System.IntPtr  @pDispParams, System.IntPtr  @pVarResult, System.IntPtr  @pExcepInfo, System.IntPtr  @puArgErr)
+        public virtual void System__2__Runtime__2__InteropServices__2___ParameterBuilder__2__Invoke(System.UInt32  @dispIdMember, in System.Guid  @riid, System.UInt32  @lcid, System.Int16  @wFlags, System.IntPtr  @pDispParams, System.IntPtr  @pVarResult, System.IntPtr  @pExcepInfo, System.IntPtr  @puArgErr)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@dispIdMember, @riid, @lcid, @wFlags, @pDispParams, @pVarResult, @pExcepInfo, @puArgErr};
-            var ___result = RSystem__0__Runtime__0__InteropServices__0___ParameterBuilder__0__Invoke_UInt32_In_Guid_UInt32_Int16_IntPtr_IntPtr_IntPtr_IntPtr.Invoke(___genericsType, ___parameters);
+            var ___result = RSystem__2__Runtime__2__InteropServices__2___ParameterBuilder__2__Invoke_UInt32_In_Guid_UInt32_Int16_IntPtr_IntPtr_IntPtr_IntPtr.Invoke(___genericsType, ___parameters);
 
             
         }

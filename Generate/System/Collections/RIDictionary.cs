@@ -98,85 +98,85 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections
 		/// <summary>
 		/// Boolean Contains(System.Object)
 		/// </summary>
-		protected RMethod r_RContains_Object;
+		protected RMethod r_Contains_Object;
 		public virtual RMethod RContains_Object
 		{
 			get
 			{
-				if(r_RContains_Object == null)
+				if(r_Contains_Object == null)
 				{
-					r_RContains_Object = new(this, "Contains", 0, typeof(System.Object));
-					r_RContains_Object.SetBelong(this.instance);
+					r_Contains_Object = new(this, "Contains", 0, typeof(System.Object));
+					r_Contains_Object.SetBelong(this.instance);
 				}
-				return r_RContains_Object;
+				return r_Contains_Object;
 			}
 		}
 
 		/// <summary>
 		/// Void Add(System.Object, System.Object)
 		/// </summary>
-		protected RMethod r_RAdd_Object_Object;
+		protected RMethod r_Add_Object_Object;
 		public virtual RMethod RAdd_Object_Object
 		{
 			get
 			{
-				if(r_RAdd_Object_Object == null)
+				if(r_Add_Object_Object == null)
 				{
-					r_RAdd_Object_Object = new(this, "Add", 0, typeof(System.Object), typeof(System.Object));
-					r_RAdd_Object_Object.SetBelong(this.instance);
+					r_Add_Object_Object = new(this, "Add", 0, typeof(System.Object), typeof(System.Object));
+					r_Add_Object_Object.SetBelong(this.instance);
 				}
-				return r_RAdd_Object_Object;
+				return r_Add_Object_Object;
 			}
 		}
 
 		/// <summary>
 		/// Void Clear()
 		/// </summary>
-		protected RMethod r_RClear;
+		protected RMethod r_Clear;
 		public virtual RMethod RClear
 		{
 			get
 			{
-				if(r_RClear == null)
+				if(r_Clear == null)
 				{
-					r_RClear = new(this, "Clear", 0);
-					r_RClear.SetBelong(this.instance);
+					r_Clear = new(this, "Clear", 0);
+					r_Clear.SetBelong(this.instance);
 				}
-				return r_RClear;
+				return r_Clear;
 			}
 		}
 
 		/// <summary>
 		/// System.Collections.IDictionaryEnumerator GetEnumerator()
 		/// </summary>
-		protected RMethod r_RGetEnumerator;
+		protected RMethod r_GetEnumerator;
 		public virtual RMethod RGetEnumerator
 		{
 			get
 			{
-				if(r_RGetEnumerator == null)
+				if(r_GetEnumerator == null)
 				{
-					r_RGetEnumerator = new(this, "GetEnumerator", 0);
-					r_RGetEnumerator.SetBelong(this.instance);
+					r_GetEnumerator = new(this, "GetEnumerator", 0);
+					r_GetEnumerator.SetBelong(this.instance);
 				}
-				return r_RGetEnumerator;
+				return r_GetEnumerator;
 			}
 		}
 
 		/// <summary>
 		/// Void Remove(System.Object)
 		/// </summary>
-		protected RMethod r_RRemove_Object;
+		protected RMethod r_Remove_Object;
 		public virtual RMethod RRemove_Object
 		{
 			get
 			{
-				if(r_RRemove_Object == null)
+				if(r_Remove_Object == null)
 				{
-					r_RRemove_Object = new(this, "Remove", 0, typeof(System.Object));
-					r_RRemove_Object.SetBelong(this.instance);
+					r_Remove_Object = new(this, "Remove", 0, typeof(System.Object));
+					r_Remove_Object.SetBelong(this.instance);
 				}
-				return r_RRemove_Object;
+				return r_Remove_Object;
 			}
 		}
 

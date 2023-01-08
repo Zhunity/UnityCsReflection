@@ -13,17 +13,17 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// Void OnValueChanged(System.Object, System.Object, Boolean)
 		/// </summary>
-		protected RMethod r_ROnValueChanged_Object_Object_Boolean;
+		protected RMethod r_OnValueChanged_Object_Object_Boolean;
 		public virtual RMethod ROnValueChanged_Object_Object_Boolean
 		{
 			get
 			{
-				if(r_ROnValueChanged_Object_Object_Boolean == null)
+				if(r_OnValueChanged_Object_Object_Boolean == null)
 				{
-					r_ROnValueChanged_Object_Object_Boolean = new(this, "OnValueChanged", 0, typeof(System.Object), typeof(System.Object), typeof(System.Boolean));
-					r_ROnValueChanged_Object_Object_Boolean.SetBelong(this.instance);
+					r_OnValueChanged_Object_Object_Boolean = new(this, "OnValueChanged", 0, typeof(System.Object), typeof(System.Object), typeof(System.Boolean));
+					r_OnValueChanged_Object_Object_Boolean.SetBelong(this.instance);
 				}
-				return r_ROnValueChanged_Object_Object_Boolean;
+				return r_OnValueChanged_Object_Object_Boolean;
 			}
 		}
 

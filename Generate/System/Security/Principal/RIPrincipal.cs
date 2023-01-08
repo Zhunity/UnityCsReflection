@@ -30,17 +30,17 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 		/// <summary>
 		/// Boolean IsInRole(System.String)
 		/// </summary>
-		protected RMethod r_RIsInRole_String;
+		protected RMethod r_IsInRole_String;
 		public virtual RMethod RIsInRole_String
 		{
 			get
 			{
-				if(r_RIsInRole_String == null)
+				if(r_IsInRole_String == null)
 				{
-					r_RIsInRole_String = new(this, "IsInRole", 0, typeof(System.String));
-					r_RIsInRole_String.SetBelong(this.instance);
+					r_IsInRole_String = new(this, "IsInRole", 0, typeof(System.String));
+					r_IsInRole_String.SetBelong(this.instance);
 				}
-				return r_RIsInRole_String;
+				return r_IsInRole_String;
 			}
 		}
 

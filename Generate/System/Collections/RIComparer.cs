@@ -13,17 +13,17 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections
 		/// <summary>
 		/// Int32 Compare(System.Object, System.Object)
 		/// </summary>
-		protected RMethod r_RCompare_Object_Object;
+		protected RMethod r_Compare_Object_Object;
 		public virtual RMethod RCompare_Object_Object
 		{
 			get
 			{
-				if(r_RCompare_Object_Object == null)
+				if(r_Compare_Object_Object == null)
 				{
-					r_RCompare_Object_Object = new(this, "Compare", 0, typeof(System.Object), typeof(System.Object));
-					r_RCompare_Object_Object.SetBelong(this.instance);
+					r_Compare_Object_Object = new(this, "Compare", 0, typeof(System.Object), typeof(System.Object));
+					r_Compare_Object_Object.SetBelong(this.instance);
 				}
-				return r_RCompare_Object_Object;
+				return r_Compare_Object_Object;
 			}
 		}
 

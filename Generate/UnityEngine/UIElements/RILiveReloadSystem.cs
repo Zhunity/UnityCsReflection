@@ -47,187 +47,187 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Void Update()
 		/// </summary>
-		protected RMethod r_RUpdate;
+		protected RMethod r_Update;
 		public virtual RMethod RUpdate
 		{
 			get
 			{
-				if(r_RUpdate == null)
+				if(r_Update == null)
 				{
-					r_RUpdate = new(this, "Update", 0);
-					r_RUpdate.SetBelong(this.instance);
+					r_Update = new(this, "Update", 0);
+					r_Update.SetBelong(this.instance);
 				}
-				return r_RUpdate;
+				return r_Update;
 			}
 		}
 
 		/// <summary>
 		/// Void RegisterVisualTreeAssetTracker(UnityEngine.UIElements.ILiveReloadAssetTracker`1[UnityEngine.UIElements.VisualTreeAsset], UnityEngine.UIElements.VisualElement)
 		/// </summary>
-		protected RMethod r_RRegisterVisualTreeAssetTracker_ILiveReloadAssetTracker_d_VisualTreeAsset_p__VisualElement;
+		protected RMethod r_RegisterVisualTreeAssetTracker_ILiveReloadAssetTracker_d_VisualTreeAsset_p__VisualElement;
 		public virtual RMethod RRegisterVisualTreeAssetTracker_ILiveReloadAssetTracker_d_VisualTreeAsset_p__VisualElement
 		{
 			get
 			{
-				if(r_RRegisterVisualTreeAssetTracker_ILiveReloadAssetTracker_d_VisualTreeAsset_p__VisualElement == null)
+				if(r_RegisterVisualTreeAssetTracker_ILiveReloadAssetTracker_d_VisualTreeAsset_p__VisualElement == null)
 				{
-					r_RRegisterVisualTreeAssetTracker_ILiveReloadAssetTracker_d_VisualTreeAsset_p__VisualElement = new(this, "RegisterVisualTreeAssetTracker", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.ILiveReloadAssetTracker`1").MakeGenericType(typeof(UnityEngine.UIElements.VisualTreeAsset)), typeof(UnityEngine.UIElements.VisualElement));
-					r_RRegisterVisualTreeAssetTracker_ILiveReloadAssetTracker_d_VisualTreeAsset_p__VisualElement.SetBelong(this.instance);
+					r_RegisterVisualTreeAssetTracker_ILiveReloadAssetTracker_d_VisualTreeAsset_p__VisualElement = new(this, "RegisterVisualTreeAssetTracker", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.ILiveReloadAssetTracker`1").MakeGenericType(typeof(UnityEngine.UIElements.VisualTreeAsset)), typeof(UnityEngine.UIElements.VisualElement));
+					r_RegisterVisualTreeAssetTracker_ILiveReloadAssetTracker_d_VisualTreeAsset_p__VisualElement.SetBelong(this.instance);
 				}
-				return r_RRegisterVisualTreeAssetTracker_ILiveReloadAssetTracker_d_VisualTreeAsset_p__VisualElement;
+				return r_RegisterVisualTreeAssetTracker_ILiveReloadAssetTracker_d_VisualTreeAsset_p__VisualElement;
 			}
 		}
 
 		/// <summary>
 		/// Void UnregisterVisualTreeAssetTracker(UnityEngine.UIElements.VisualElement)
 		/// </summary>
-		protected RMethod r_RUnregisterVisualTreeAssetTracker_VisualElement;
+		protected RMethod r_UnregisterVisualTreeAssetTracker_VisualElement;
 		public virtual RMethod RUnregisterVisualTreeAssetTracker_VisualElement
 		{
 			get
 			{
-				if(r_RUnregisterVisualTreeAssetTracker_VisualElement == null)
+				if(r_UnregisterVisualTreeAssetTracker_VisualElement == null)
 				{
-					r_RUnregisterVisualTreeAssetTracker_VisualElement = new(this, "UnregisterVisualTreeAssetTracker", 0, typeof(UnityEngine.UIElements.VisualElement));
-					r_RUnregisterVisualTreeAssetTracker_VisualElement.SetBelong(this.instance);
+					r_UnregisterVisualTreeAssetTracker_VisualElement = new(this, "UnregisterVisualTreeAssetTracker", 0, typeof(UnityEngine.UIElements.VisualElement));
+					r_UnregisterVisualTreeAssetTracker_VisualElement.SetBelong(this.instance);
 				}
-				return r_RUnregisterVisualTreeAssetTracker_VisualElement;
+				return r_UnregisterVisualTreeAssetTracker_VisualElement;
 			}
 		}
 
 		/// <summary>
 		/// Void StartTracking(System.Collections.Generic.List`1[UnityEngine.UIElements.VisualElement])
 		/// </summary>
-		protected RMethod r_RStartTracking_List_d_VisualElement_p_;
+		protected RMethod r_StartTracking_List_d_VisualElement_p_;
 		public virtual RMethod RStartTracking_List_d_VisualElement_p_
 		{
 			get
 			{
-				if(r_RStartTracking_List_d_VisualElement_p_ == null)
+				if(r_StartTracking_List_d_VisualElement_p_ == null)
 				{
-					r_RStartTracking_List_d_VisualElement_p_ = new(this, "StartTracking", 0, typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(UnityEngine.UIElements.VisualElement)));
-					r_RStartTracking_List_d_VisualElement_p_.SetBelong(this.instance);
+					r_StartTracking_List_d_VisualElement_p_ = new(this, "StartTracking", 0, typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(UnityEngine.UIElements.VisualElement)));
+					r_StartTracking_List_d_VisualElement_p_.SetBelong(this.instance);
 				}
-				return r_RStartTracking_List_d_VisualElement_p_;
+				return r_StartTracking_List_d_VisualElement_p_;
 			}
 		}
 
 		/// <summary>
 		/// Void StopTracking(System.Collections.Generic.List`1[UnityEngine.UIElements.VisualElement])
 		/// </summary>
-		protected RMethod r_RStopTracking_List_d_VisualElement_p_;
+		protected RMethod r_StopTracking_List_d_VisualElement_p_;
 		public virtual RMethod RStopTracking_List_d_VisualElement_p_
 		{
 			get
 			{
-				if(r_RStopTracking_List_d_VisualElement_p_ == null)
+				if(r_StopTracking_List_d_VisualElement_p_ == null)
 				{
-					r_RStopTracking_List_d_VisualElement_p_ = new(this, "StopTracking", 0, typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(UnityEngine.UIElements.VisualElement)));
-					r_RStopTracking_List_d_VisualElement_p_.SetBelong(this.instance);
+					r_StopTracking_List_d_VisualElement_p_ = new(this, "StopTracking", 0, typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(UnityEngine.UIElements.VisualElement)));
+					r_StopTracking_List_d_VisualElement_p_.SetBelong(this.instance);
 				}
-				return r_RStopTracking_List_d_VisualElement_p_;
+				return r_StopTracking_List_d_VisualElement_p_;
 			}
 		}
 
 		/// <summary>
 		/// Void StartStyleSheetAssetTracking(UnityEngine.UIElements.StyleSheet)
 		/// </summary>
-		protected RMethod r_RStartStyleSheetAssetTracking_StyleSheet;
+		protected RMethod r_StartStyleSheetAssetTracking_StyleSheet;
 		public virtual RMethod RStartStyleSheetAssetTracking_StyleSheet
 		{
 			get
 			{
-				if(r_RStartStyleSheetAssetTracking_StyleSheet == null)
+				if(r_StartStyleSheetAssetTracking_StyleSheet == null)
 				{
-					r_RStartStyleSheetAssetTracking_StyleSheet = new(this, "StartStyleSheetAssetTracking", 0, typeof(UnityEngine.UIElements.StyleSheet));
-					r_RStartStyleSheetAssetTracking_StyleSheet.SetBelong(this.instance);
+					r_StartStyleSheetAssetTracking_StyleSheet = new(this, "StartStyleSheetAssetTracking", 0, typeof(UnityEngine.UIElements.StyleSheet));
+					r_StartStyleSheetAssetTracking_StyleSheet.SetBelong(this.instance);
 				}
-				return r_RStartStyleSheetAssetTracking_StyleSheet;
+				return r_StartStyleSheetAssetTracking_StyleSheet;
 			}
 		}
 
 		/// <summary>
 		/// Void StopStyleSheetAssetTracking(UnityEngine.UIElements.StyleSheet)
 		/// </summary>
-		protected RMethod r_RStopStyleSheetAssetTracking_StyleSheet;
+		protected RMethod r_StopStyleSheetAssetTracking_StyleSheet;
 		public virtual RMethod RStopStyleSheetAssetTracking_StyleSheet
 		{
 			get
 			{
-				if(r_RStopStyleSheetAssetTracking_StyleSheet == null)
+				if(r_StopStyleSheetAssetTracking_StyleSheet == null)
 				{
-					r_RStopStyleSheetAssetTracking_StyleSheet = new(this, "StopStyleSheetAssetTracking", 0, typeof(UnityEngine.UIElements.StyleSheet));
-					r_RStopStyleSheetAssetTracking_StyleSheet.SetBelong(this.instance);
+					r_StopStyleSheetAssetTracking_StyleSheet = new(this, "StopStyleSheetAssetTracking", 0, typeof(UnityEngine.UIElements.StyleSheet));
+					r_StopStyleSheetAssetTracking_StyleSheet.SetBelong(this.instance);
 				}
-				return r_RStopStyleSheetAssetTracking_StyleSheet;
+				return r_StopStyleSheetAssetTracking_StyleSheet;
 			}
 		}
 
 		/// <summary>
 		/// Void OnStyleSheetAssetsImported(System.Collections.Generic.HashSet`1[UnityEngine.UIElements.StyleSheet], System.Collections.Generic.HashSet`1[System.String])
 		/// </summary>
-		protected RMethod r_ROnStyleSheetAssetsImported_HashSet_d_StyleSheet_p__HashSet_d_String_p_;
+		protected RMethod r_OnStyleSheetAssetsImported_HashSet_d_StyleSheet_p__HashSet_d_String_p_;
 		public virtual RMethod ROnStyleSheetAssetsImported_HashSet_d_StyleSheet_p__HashSet_d_String_p_
 		{
 			get
 			{
-				if(r_ROnStyleSheetAssetsImported_HashSet_d_StyleSheet_p__HashSet_d_String_p_ == null)
+				if(r_OnStyleSheetAssetsImported_HashSet_d_StyleSheet_p__HashSet_d_String_p_ == null)
 				{
-					r_ROnStyleSheetAssetsImported_HashSet_d_StyleSheet_p__HashSet_d_String_p_ = new(this, "OnStyleSheetAssetsImported", 0, typeof(System.Collections.Generic.HashSet<>).MakeGenericType(typeof(UnityEngine.UIElements.StyleSheet)), typeof(System.Collections.Generic.HashSet<>).MakeGenericType(typeof(System.String)));
-					r_ROnStyleSheetAssetsImported_HashSet_d_StyleSheet_p__HashSet_d_String_p_.SetBelong(this.instance);
+					r_OnStyleSheetAssetsImported_HashSet_d_StyleSheet_p__HashSet_d_String_p_ = new(this, "OnStyleSheetAssetsImported", 0, typeof(System.Collections.Generic.HashSet<>).MakeGenericType(typeof(UnityEngine.UIElements.StyleSheet)), typeof(System.Collections.Generic.HashSet<>).MakeGenericType(typeof(System.String)));
+					r_OnStyleSheetAssetsImported_HashSet_d_StyleSheet_p__HashSet_d_String_p_.SetBelong(this.instance);
 				}
-				return r_ROnStyleSheetAssetsImported_HashSet_d_StyleSheet_p__HashSet_d_String_p_;
+				return r_OnStyleSheetAssetsImported_HashSet_d_StyleSheet_p__HashSet_d_String_p_;
 			}
 		}
 
 		/// <summary>
 		/// Void OnVisualTreeAssetsImported(System.Collections.Generic.HashSet`1[UnityEngine.UIElements.VisualTreeAsset], System.Collections.Generic.HashSet`1[System.String])
 		/// </summary>
-		protected RMethod r_ROnVisualTreeAssetsImported_HashSet_d_VisualTreeAsset_p__HashSet_d_String_p_;
+		protected RMethod r_OnVisualTreeAssetsImported_HashSet_d_VisualTreeAsset_p__HashSet_d_String_p_;
 		public virtual RMethod ROnVisualTreeAssetsImported_HashSet_d_VisualTreeAsset_p__HashSet_d_String_p_
 		{
 			get
 			{
-				if(r_ROnVisualTreeAssetsImported_HashSet_d_VisualTreeAsset_p__HashSet_d_String_p_ == null)
+				if(r_OnVisualTreeAssetsImported_HashSet_d_VisualTreeAsset_p__HashSet_d_String_p_ == null)
 				{
-					r_ROnVisualTreeAssetsImported_HashSet_d_VisualTreeAsset_p__HashSet_d_String_p_ = new(this, "OnVisualTreeAssetsImported", 0, typeof(System.Collections.Generic.HashSet<>).MakeGenericType(typeof(UnityEngine.UIElements.VisualTreeAsset)), typeof(System.Collections.Generic.HashSet<>).MakeGenericType(typeof(System.String)));
-					r_ROnVisualTreeAssetsImported_HashSet_d_VisualTreeAsset_p__HashSet_d_String_p_.SetBelong(this.instance);
+					r_OnVisualTreeAssetsImported_HashSet_d_VisualTreeAsset_p__HashSet_d_String_p_ = new(this, "OnVisualTreeAssetsImported", 0, typeof(System.Collections.Generic.HashSet<>).MakeGenericType(typeof(UnityEngine.UIElements.VisualTreeAsset)), typeof(System.Collections.Generic.HashSet<>).MakeGenericType(typeof(System.String)));
+					r_OnVisualTreeAssetsImported_HashSet_d_VisualTreeAsset_p__HashSet_d_String_p_.SetBelong(this.instance);
 				}
-				return r_ROnVisualTreeAssetsImported_HashSet_d_VisualTreeAsset_p__HashSet_d_String_p_;
+				return r_OnVisualTreeAssetsImported_HashSet_d_VisualTreeAsset_p__HashSet_d_String_p_;
 			}
 		}
 
 		/// <summary>
 		/// Void RegisterTextElement(UnityEngine.UIElements.TextElement)
 		/// </summary>
-		protected RMethod r_RRegisterTextElement_TextElement;
+		protected RMethod r_RegisterTextElement_TextElement;
 		public virtual RMethod RRegisterTextElement_TextElement
 		{
 			get
 			{
-				if(r_RRegisterTextElement_TextElement == null)
+				if(r_RegisterTextElement_TextElement == null)
 				{
-					r_RRegisterTextElement_TextElement = new(this, "RegisterTextElement", 0, typeof(UnityEngine.UIElements.TextElement));
-					r_RRegisterTextElement_TextElement.SetBelong(this.instance);
+					r_RegisterTextElement_TextElement = new(this, "RegisterTextElement", 0, typeof(UnityEngine.UIElements.TextElement));
+					r_RegisterTextElement_TextElement.SetBelong(this.instance);
 				}
-				return r_RRegisterTextElement_TextElement;
+				return r_RegisterTextElement_TextElement;
 			}
 		}
 
 		/// <summary>
 		/// Void UnregisterTextElement(UnityEngine.UIElements.TextElement)
 		/// </summary>
-		protected RMethod r_RUnregisterTextElement_TextElement;
+		protected RMethod r_UnregisterTextElement_TextElement;
 		public virtual RMethod RUnregisterTextElement_TextElement
 		{
 			get
 			{
-				if(r_RUnregisterTextElement_TextElement == null)
+				if(r_UnregisterTextElement_TextElement == null)
 				{
-					r_RUnregisterTextElement_TextElement = new(this, "UnregisterTextElement", 0, typeof(UnityEngine.UIElements.TextElement));
-					r_RUnregisterTextElement_TextElement.SetBelong(this.instance);
+					r_UnregisterTextElement_TextElement = new(this, "UnregisterTextElement", 0, typeof(UnityEngine.UIElements.TextElement));
+					r_UnregisterTextElement_TextElement.SetBelong(this.instance);
 				}
-				return r_RUnregisterTextElement_TextElement;
+				return r_UnregisterTextElement_TextElement;
 			}
 		}
 

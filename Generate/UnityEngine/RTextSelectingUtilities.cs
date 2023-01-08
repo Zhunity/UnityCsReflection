@@ -404,1105 +404,1105 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Void SetCursorIndexWithoutNotify(Int32)
 		/// </summary>
-		protected RMethod r_RSetCursorIndexWithoutNotify_Int32;
+		protected RMethod r_SetCursorIndexWithoutNotify_Int32;
 		public virtual RMethod RSetCursorIndexWithoutNotify_Int32
 		{
 			get
 			{
-				if(r_RSetCursorIndexWithoutNotify_Int32 == null)
+				if(r_SetCursorIndexWithoutNotify_Int32 == null)
 				{
-					r_RSetCursorIndexWithoutNotify_Int32 = new(this, "SetCursorIndexWithoutNotify", 0, typeof(System.Int32));
-					r_RSetCursorIndexWithoutNotify_Int32.SetBelong(this.instance);
+					r_SetCursorIndexWithoutNotify_Int32 = new(this, "SetCursorIndexWithoutNotify", 0, typeof(System.Int32));
+					r_SetCursorIndexWithoutNotify_Int32.SetBelong(this.instance);
 				}
-				return r_RSetCursorIndexWithoutNotify_Int32;
+				return r_SetCursorIndexWithoutNotify_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Void SetSelectIndexWithoutNotify(Int32)
 		/// </summary>
-		protected RMethod r_RSetSelectIndexWithoutNotify_Int32;
+		protected RMethod r_SetSelectIndexWithoutNotify_Int32;
 		public virtual RMethod RSetSelectIndexWithoutNotify_Int32
 		{
 			get
 			{
-				if(r_RSetSelectIndexWithoutNotify_Int32 == null)
+				if(r_SetSelectIndexWithoutNotify_Int32 == null)
 				{
-					r_RSetSelectIndexWithoutNotify_Int32 = new(this, "SetSelectIndexWithoutNotify", 0, typeof(System.Int32));
-					r_RSetSelectIndexWithoutNotify_Int32.SetBelong(this.instance);
+					r_SetSelectIndexWithoutNotify_Int32 = new(this, "SetSelectIndexWithoutNotify", 0, typeof(System.Int32));
+					r_SetSelectIndexWithoutNotify_Int32.SetBelong(this.instance);
 				}
-				return r_RSetSelectIndexWithoutNotify_Int32;
+				return r_SetSelectIndexWithoutNotify_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Void ClearCursorPos()
 		/// </summary>
-		protected RMethod r_RClearCursorPos;
+		protected RMethod r_ClearCursorPos;
 		public virtual RMethod RClearCursorPos
 		{
 			get
 			{
-				if(r_RClearCursorPos == null)
+				if(r_ClearCursorPos == null)
 				{
-					r_RClearCursorPos = new(this, "ClearCursorPos", 0);
-					r_RClearCursorPos.SetBelong(this.instance);
+					r_ClearCursorPos = new(this, "ClearCursorPos", 0);
+					r_ClearCursorPos.SetBelong(this.instance);
 				}
-				return r_RClearCursorPos;
+				return r_ClearCursorPos;
 			}
 		}
 
 		/// <summary>
 		/// Void OnFocus(Boolean)
 		/// </summary>
-		protected RMethod r_ROnFocus_Boolean;
+		protected RMethod r_OnFocus_Boolean;
 		public virtual RMethod ROnFocus_Boolean
 		{
 			get
 			{
-				if(r_ROnFocus_Boolean == null)
+				if(r_OnFocus_Boolean == null)
 				{
-					r_ROnFocus_Boolean = new(this, "OnFocus", 0, typeof(System.Boolean));
-					r_ROnFocus_Boolean.SetBelong(this.instance);
+					r_OnFocus_Boolean = new(this, "OnFocus", 0, typeof(System.Boolean));
+					r_OnFocus_Boolean.SetBelong(this.instance);
 				}
-				return r_ROnFocus_Boolean;
+				return r_OnFocus_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Void SelectAll()
 		/// </summary>
-		protected RMethod r_RSelectAll;
+		protected RMethod r_SelectAll;
 		public virtual RMethod RSelectAll
 		{
 			get
 			{
-				if(r_RSelectAll == null)
+				if(r_SelectAll == null)
 				{
-					r_RSelectAll = new(this, "SelectAll", 0);
-					r_RSelectAll.SetBelong(this.instance);
+					r_SelectAll = new(this, "SelectAll", 0);
+					r_SelectAll.SetBelong(this.instance);
 				}
-				return r_RSelectAll;
+				return r_SelectAll;
 			}
 		}
 
 		/// <summary>
 		/// Void SelectNone()
 		/// </summary>
-		protected RMethod r_RSelectNone;
+		protected RMethod r_SelectNone;
 		public virtual RMethod RSelectNone
 		{
 			get
 			{
-				if(r_RSelectNone == null)
+				if(r_SelectNone == null)
 				{
-					r_RSelectNone = new(this, "SelectNone", 0);
-					r_RSelectNone.SetBelong(this.instance);
+					r_SelectNone = new(this, "SelectNone", 0);
+					r_SelectNone.SetBelong(this.instance);
 				}
-				return r_RSelectNone;
+				return r_SelectNone;
 			}
 		}
 
 		/// <summary>
 		/// Void SelectLeft()
 		/// </summary>
-		protected RMethod r_RSelectLeft;
+		protected RMethod r_SelectLeft;
 		public virtual RMethod RSelectLeft
 		{
 			get
 			{
-				if(r_RSelectLeft == null)
+				if(r_SelectLeft == null)
 				{
-					r_RSelectLeft = new(this, "SelectLeft", 0);
-					r_RSelectLeft.SetBelong(this.instance);
+					r_SelectLeft = new(this, "SelectLeft", 0);
+					r_SelectLeft.SetBelong(this.instance);
 				}
-				return r_RSelectLeft;
+				return r_SelectLeft;
 			}
 		}
 
 		/// <summary>
 		/// Void SelectRight()
 		/// </summary>
-		protected RMethod r_RSelectRight;
+		protected RMethod r_SelectRight;
 		public virtual RMethod RSelectRight
 		{
 			get
 			{
-				if(r_RSelectRight == null)
+				if(r_SelectRight == null)
 				{
-					r_RSelectRight = new(this, "SelectRight", 0);
-					r_RSelectRight.SetBelong(this.instance);
+					r_SelectRight = new(this, "SelectRight", 0);
+					r_SelectRight.SetBelong(this.instance);
 				}
-				return r_RSelectRight;
+				return r_SelectRight;
 			}
 		}
 
 		/// <summary>
 		/// Void SelectUp()
 		/// </summary>
-		protected RMethod r_RSelectUp;
+		protected RMethod r_SelectUp;
 		public virtual RMethod RSelectUp
 		{
 			get
 			{
-				if(r_RSelectUp == null)
+				if(r_SelectUp == null)
 				{
-					r_RSelectUp = new(this, "SelectUp", 0);
-					r_RSelectUp.SetBelong(this.instance);
+					r_SelectUp = new(this, "SelectUp", 0);
+					r_SelectUp.SetBelong(this.instance);
 				}
-				return r_RSelectUp;
+				return r_SelectUp;
 			}
 		}
 
 		/// <summary>
 		/// Void SelectDown()
 		/// </summary>
-		protected RMethod r_RSelectDown;
+		protected RMethod r_SelectDown;
 		public virtual RMethod RSelectDown
 		{
 			get
 			{
-				if(r_RSelectDown == null)
+				if(r_SelectDown == null)
 				{
-					r_RSelectDown = new(this, "SelectDown", 0);
-					r_RSelectDown.SetBelong(this.instance);
+					r_SelectDown = new(this, "SelectDown", 0);
+					r_SelectDown.SetBelong(this.instance);
 				}
-				return r_RSelectDown;
+				return r_SelectDown;
 			}
 		}
 
 		/// <summary>
 		/// Void SelectTextEnd()
 		/// </summary>
-		protected RMethod r_RSelectTextEnd;
+		protected RMethod r_SelectTextEnd;
 		public virtual RMethod RSelectTextEnd
 		{
 			get
 			{
-				if(r_RSelectTextEnd == null)
+				if(r_SelectTextEnd == null)
 				{
-					r_RSelectTextEnd = new(this, "SelectTextEnd", 0);
-					r_RSelectTextEnd.SetBelong(this.instance);
+					r_SelectTextEnd = new(this, "SelectTextEnd", 0);
+					r_SelectTextEnd.SetBelong(this.instance);
 				}
-				return r_RSelectTextEnd;
+				return r_SelectTextEnd;
 			}
 		}
 
 		/// <summary>
 		/// Void SelectTextStart()
 		/// </summary>
-		protected RMethod r_RSelectTextStart;
+		protected RMethod r_SelectTextStart;
 		public virtual RMethod RSelectTextStart
 		{
 			get
 			{
-				if(r_RSelectTextStart == null)
+				if(r_SelectTextStart == null)
 				{
-					r_RSelectTextStart = new(this, "SelectTextStart", 0);
-					r_RSelectTextStart.SetBelong(this.instance);
+					r_SelectTextStart = new(this, "SelectTextStart", 0);
+					r_SelectTextStart.SetBelong(this.instance);
 				}
-				return r_RSelectTextStart;
+				return r_SelectTextStart;
 			}
 		}
 
 		/// <summary>
 		/// Void SelectToStartOfNextWord()
 		/// </summary>
-		protected RMethod r_RSelectToStartOfNextWord;
+		protected RMethod r_SelectToStartOfNextWord;
 		public virtual RMethod RSelectToStartOfNextWord
 		{
 			get
 			{
-				if(r_RSelectToStartOfNextWord == null)
+				if(r_SelectToStartOfNextWord == null)
 				{
-					r_RSelectToStartOfNextWord = new(this, "SelectToStartOfNextWord", 0);
-					r_RSelectToStartOfNextWord.SetBelong(this.instance);
+					r_SelectToStartOfNextWord = new(this, "SelectToStartOfNextWord", 0);
+					r_SelectToStartOfNextWord.SetBelong(this.instance);
 				}
-				return r_RSelectToStartOfNextWord;
+				return r_SelectToStartOfNextWord;
 			}
 		}
 
 		/// <summary>
 		/// Void SelectToEndOfPreviousWord()
 		/// </summary>
-		protected RMethod r_RSelectToEndOfPreviousWord;
+		protected RMethod r_SelectToEndOfPreviousWord;
 		public virtual RMethod RSelectToEndOfPreviousWord
 		{
 			get
 			{
-				if(r_RSelectToEndOfPreviousWord == null)
+				if(r_SelectToEndOfPreviousWord == null)
 				{
-					r_RSelectToEndOfPreviousWord = new(this, "SelectToEndOfPreviousWord", 0);
-					r_RSelectToEndOfPreviousWord.SetBelong(this.instance);
+					r_SelectToEndOfPreviousWord = new(this, "SelectToEndOfPreviousWord", 0);
+					r_SelectToEndOfPreviousWord.SetBelong(this.instance);
 				}
-				return r_RSelectToEndOfPreviousWord;
+				return r_SelectToEndOfPreviousWord;
 			}
 		}
 
 		/// <summary>
 		/// Void SelectWordRight()
 		/// </summary>
-		protected RMethod r_RSelectWordRight;
+		protected RMethod r_SelectWordRight;
 		public virtual RMethod RSelectWordRight
 		{
 			get
 			{
-				if(r_RSelectWordRight == null)
+				if(r_SelectWordRight == null)
 				{
-					r_RSelectWordRight = new(this, "SelectWordRight", 0);
-					r_RSelectWordRight.SetBelong(this.instance);
+					r_SelectWordRight = new(this, "SelectWordRight", 0);
+					r_SelectWordRight.SetBelong(this.instance);
 				}
-				return r_RSelectWordRight;
+				return r_SelectWordRight;
 			}
 		}
 
 		/// <summary>
 		/// Void SelectWordLeft()
 		/// </summary>
-		protected RMethod r_RSelectWordLeft;
+		protected RMethod r_SelectWordLeft;
 		public virtual RMethod RSelectWordLeft
 		{
 			get
 			{
-				if(r_RSelectWordLeft == null)
+				if(r_SelectWordLeft == null)
 				{
-					r_RSelectWordLeft = new(this, "SelectWordLeft", 0);
-					r_RSelectWordLeft.SetBelong(this.instance);
+					r_SelectWordLeft = new(this, "SelectWordLeft", 0);
+					r_SelectWordLeft.SetBelong(this.instance);
 				}
-				return r_RSelectWordLeft;
+				return r_SelectWordLeft;
 			}
 		}
 
 		/// <summary>
 		/// Void SelectGraphicalLineStart()
 		/// </summary>
-		protected RMethod r_RSelectGraphicalLineStart;
+		protected RMethod r_SelectGraphicalLineStart;
 		public virtual RMethod RSelectGraphicalLineStart
 		{
 			get
 			{
-				if(r_RSelectGraphicalLineStart == null)
+				if(r_SelectGraphicalLineStart == null)
 				{
-					r_RSelectGraphicalLineStart = new(this, "SelectGraphicalLineStart", 0);
-					r_RSelectGraphicalLineStart.SetBelong(this.instance);
+					r_SelectGraphicalLineStart = new(this, "SelectGraphicalLineStart", 0);
+					r_SelectGraphicalLineStart.SetBelong(this.instance);
 				}
-				return r_RSelectGraphicalLineStart;
+				return r_SelectGraphicalLineStart;
 			}
 		}
 
 		/// <summary>
 		/// Void SelectGraphicalLineEnd()
 		/// </summary>
-		protected RMethod r_RSelectGraphicalLineEnd;
+		protected RMethod r_SelectGraphicalLineEnd;
 		public virtual RMethod RSelectGraphicalLineEnd
 		{
 			get
 			{
-				if(r_RSelectGraphicalLineEnd == null)
+				if(r_SelectGraphicalLineEnd == null)
 				{
-					r_RSelectGraphicalLineEnd = new(this, "SelectGraphicalLineEnd", 0);
-					r_RSelectGraphicalLineEnd.SetBelong(this.instance);
+					r_SelectGraphicalLineEnd = new(this, "SelectGraphicalLineEnd", 0);
+					r_SelectGraphicalLineEnd.SetBelong(this.instance);
 				}
-				return r_RSelectGraphicalLineEnd;
+				return r_SelectGraphicalLineEnd;
 			}
 		}
 
 		/// <summary>
 		/// Void SelectParagraphForward()
 		/// </summary>
-		protected RMethod r_RSelectParagraphForward;
+		protected RMethod r_SelectParagraphForward;
 		public virtual RMethod RSelectParagraphForward
 		{
 			get
 			{
-				if(r_RSelectParagraphForward == null)
+				if(r_SelectParagraphForward == null)
 				{
-					r_RSelectParagraphForward = new(this, "SelectParagraphForward", 0);
-					r_RSelectParagraphForward.SetBelong(this.instance);
+					r_SelectParagraphForward = new(this, "SelectParagraphForward", 0);
+					r_SelectParagraphForward.SetBelong(this.instance);
 				}
-				return r_RSelectParagraphForward;
+				return r_SelectParagraphForward;
 			}
 		}
 
 		/// <summary>
 		/// Void SelectParagraphBackward()
 		/// </summary>
-		protected RMethod r_RSelectParagraphBackward;
+		protected RMethod r_SelectParagraphBackward;
 		public virtual RMethod RSelectParagraphBackward
 		{
 			get
 			{
-				if(r_RSelectParagraphBackward == null)
+				if(r_SelectParagraphBackward == null)
 				{
-					r_RSelectParagraphBackward = new(this, "SelectParagraphBackward", 0);
-					r_RSelectParagraphBackward.SetBelong(this.instance);
+					r_SelectParagraphBackward = new(this, "SelectParagraphBackward", 0);
+					r_SelectParagraphBackward.SetBelong(this.instance);
 				}
-				return r_RSelectParagraphBackward;
+				return r_SelectParagraphBackward;
 			}
 		}
 
 		/// <summary>
 		/// Void SelectCurrentWord()
 		/// </summary>
-		protected RMethod r_RSelectCurrentWord;
+		protected RMethod r_SelectCurrentWord;
 		public virtual RMethod RSelectCurrentWord
 		{
 			get
 			{
-				if(r_RSelectCurrentWord == null)
+				if(r_SelectCurrentWord == null)
 				{
-					r_RSelectCurrentWord = new(this, "SelectCurrentWord", 0);
-					r_RSelectCurrentWord.SetBelong(this.instance);
+					r_SelectCurrentWord = new(this, "SelectCurrentWord", 0);
+					r_SelectCurrentWord.SetBelong(this.instance);
 				}
-				return r_RSelectCurrentWord;
+				return r_SelectCurrentWord;
 			}
 		}
 
 		/// <summary>
 		/// Void SelectCurrentParagraph()
 		/// </summary>
-		protected RMethod r_RSelectCurrentParagraph;
+		protected RMethod r_SelectCurrentParagraph;
 		public virtual RMethod RSelectCurrentParagraph
 		{
 			get
 			{
-				if(r_RSelectCurrentParagraph == null)
+				if(r_SelectCurrentParagraph == null)
 				{
-					r_RSelectCurrentParagraph = new(this, "SelectCurrentParagraph", 0);
-					r_RSelectCurrentParagraph.SetBelong(this.instance);
+					r_SelectCurrentParagraph = new(this, "SelectCurrentParagraph", 0);
+					r_SelectCurrentParagraph.SetBelong(this.instance);
 				}
-				return r_RSelectCurrentParagraph;
+				return r_SelectCurrentParagraph;
 			}
 		}
 
 		/// <summary>
 		/// Void MoveRight()
 		/// </summary>
-		protected RMethod r_RMoveRight;
+		protected RMethod r_MoveRight;
 		public virtual RMethod RMoveRight
 		{
 			get
 			{
-				if(r_RMoveRight == null)
+				if(r_MoveRight == null)
 				{
-					r_RMoveRight = new(this, "MoveRight", 0);
-					r_RMoveRight.SetBelong(this.instance);
+					r_MoveRight = new(this, "MoveRight", 0);
+					r_MoveRight.SetBelong(this.instance);
 				}
-				return r_RMoveRight;
+				return r_MoveRight;
 			}
 		}
 
 		/// <summary>
 		/// Void MoveLeft()
 		/// </summary>
-		protected RMethod r_RMoveLeft;
+		protected RMethod r_MoveLeft;
 		public virtual RMethod RMoveLeft
 		{
 			get
 			{
-				if(r_RMoveLeft == null)
+				if(r_MoveLeft == null)
 				{
-					r_RMoveLeft = new(this, "MoveLeft", 0);
-					r_RMoveLeft.SetBelong(this.instance);
+					r_MoveLeft = new(this, "MoveLeft", 0);
+					r_MoveLeft.SetBelong(this.instance);
 				}
-				return r_RMoveLeft;
+				return r_MoveLeft;
 			}
 		}
 
 		/// <summary>
 		/// Void MoveUp()
 		/// </summary>
-		protected RMethod r_RMoveUp;
+		protected RMethod r_MoveUp;
 		public virtual RMethod RMoveUp
 		{
 			get
 			{
-				if(r_RMoveUp == null)
+				if(r_MoveUp == null)
 				{
-					r_RMoveUp = new(this, "MoveUp", 0);
-					r_RMoveUp.SetBelong(this.instance);
+					r_MoveUp = new(this, "MoveUp", 0);
+					r_MoveUp.SetBelong(this.instance);
 				}
-				return r_RMoveUp;
+				return r_MoveUp;
 			}
 		}
 
 		/// <summary>
 		/// Void MoveDown()
 		/// </summary>
-		protected RMethod r_RMoveDown;
+		protected RMethod r_MoveDown;
 		public virtual RMethod RMoveDown
 		{
 			get
 			{
-				if(r_RMoveDown == null)
+				if(r_MoveDown == null)
 				{
-					r_RMoveDown = new(this, "MoveDown", 0);
-					r_RMoveDown.SetBelong(this.instance);
+					r_MoveDown = new(this, "MoveDown", 0);
+					r_MoveDown.SetBelong(this.instance);
 				}
-				return r_RMoveDown;
+				return r_MoveDown;
 			}
 		}
 
 		/// <summary>
 		/// Void MoveLineStart()
 		/// </summary>
-		protected RMethod r_RMoveLineStart;
+		protected RMethod r_MoveLineStart;
 		public virtual RMethod RMoveLineStart
 		{
 			get
 			{
-				if(r_RMoveLineStart == null)
+				if(r_MoveLineStart == null)
 				{
-					r_RMoveLineStart = new(this, "MoveLineStart", 0);
-					r_RMoveLineStart.SetBelong(this.instance);
+					r_MoveLineStart = new(this, "MoveLineStart", 0);
+					r_MoveLineStart.SetBelong(this.instance);
 				}
-				return r_RMoveLineStart;
+				return r_MoveLineStart;
 			}
 		}
 
 		/// <summary>
 		/// Void MoveLineEnd()
 		/// </summary>
-		protected RMethod r_RMoveLineEnd;
+		protected RMethod r_MoveLineEnd;
 		public virtual RMethod RMoveLineEnd
 		{
 			get
 			{
-				if(r_RMoveLineEnd == null)
+				if(r_MoveLineEnd == null)
 				{
-					r_RMoveLineEnd = new(this, "MoveLineEnd", 0);
-					r_RMoveLineEnd.SetBelong(this.instance);
+					r_MoveLineEnd = new(this, "MoveLineEnd", 0);
+					r_MoveLineEnd.SetBelong(this.instance);
 				}
-				return r_RMoveLineEnd;
+				return r_MoveLineEnd;
 			}
 		}
 
 		/// <summary>
 		/// Void MoveGraphicalLineStart()
 		/// </summary>
-		protected RMethod r_RMoveGraphicalLineStart;
+		protected RMethod r_MoveGraphicalLineStart;
 		public virtual RMethod RMoveGraphicalLineStart
 		{
 			get
 			{
-				if(r_RMoveGraphicalLineStart == null)
+				if(r_MoveGraphicalLineStart == null)
 				{
-					r_RMoveGraphicalLineStart = new(this, "MoveGraphicalLineStart", 0);
-					r_RMoveGraphicalLineStart.SetBelong(this.instance);
+					r_MoveGraphicalLineStart = new(this, "MoveGraphicalLineStart", 0);
+					r_MoveGraphicalLineStart.SetBelong(this.instance);
 				}
-				return r_RMoveGraphicalLineStart;
+				return r_MoveGraphicalLineStart;
 			}
 		}
 
 		/// <summary>
 		/// Void MoveGraphicalLineEnd()
 		/// </summary>
-		protected RMethod r_RMoveGraphicalLineEnd;
+		protected RMethod r_MoveGraphicalLineEnd;
 		public virtual RMethod RMoveGraphicalLineEnd
 		{
 			get
 			{
-				if(r_RMoveGraphicalLineEnd == null)
+				if(r_MoveGraphicalLineEnd == null)
 				{
-					r_RMoveGraphicalLineEnd = new(this, "MoveGraphicalLineEnd", 0);
-					r_RMoveGraphicalLineEnd.SetBelong(this.instance);
+					r_MoveGraphicalLineEnd = new(this, "MoveGraphicalLineEnd", 0);
+					r_MoveGraphicalLineEnd.SetBelong(this.instance);
 				}
-				return r_RMoveGraphicalLineEnd;
+				return r_MoveGraphicalLineEnd;
 			}
 		}
 
 		/// <summary>
 		/// Void MoveTextStart()
 		/// </summary>
-		protected RMethod r_RMoveTextStart;
+		protected RMethod r_MoveTextStart;
 		public virtual RMethod RMoveTextStart
 		{
 			get
 			{
-				if(r_RMoveTextStart == null)
+				if(r_MoveTextStart == null)
 				{
-					r_RMoveTextStart = new(this, "MoveTextStart", 0);
-					r_RMoveTextStart.SetBelong(this.instance);
+					r_MoveTextStart = new(this, "MoveTextStart", 0);
+					r_MoveTextStart.SetBelong(this.instance);
 				}
-				return r_RMoveTextStart;
+				return r_MoveTextStart;
 			}
 		}
 
 		/// <summary>
 		/// Void MoveTextEnd()
 		/// </summary>
-		protected RMethod r_RMoveTextEnd;
+		protected RMethod r_MoveTextEnd;
 		public virtual RMethod RMoveTextEnd
 		{
 			get
 			{
-				if(r_RMoveTextEnd == null)
+				if(r_MoveTextEnd == null)
 				{
-					r_RMoveTextEnd = new(this, "MoveTextEnd", 0);
-					r_RMoveTextEnd.SetBelong(this.instance);
+					r_MoveTextEnd = new(this, "MoveTextEnd", 0);
+					r_MoveTextEnd.SetBelong(this.instance);
 				}
-				return r_RMoveTextEnd;
+				return r_MoveTextEnd;
 			}
 		}
 
 		/// <summary>
 		/// Void MoveParagraphForward()
 		/// </summary>
-		protected RMethod r_RMoveParagraphForward;
+		protected RMethod r_MoveParagraphForward;
 		public virtual RMethod RMoveParagraphForward
 		{
 			get
 			{
-				if(r_RMoveParagraphForward == null)
+				if(r_MoveParagraphForward == null)
 				{
-					r_RMoveParagraphForward = new(this, "MoveParagraphForward", 0);
-					r_RMoveParagraphForward.SetBelong(this.instance);
+					r_MoveParagraphForward = new(this, "MoveParagraphForward", 0);
+					r_MoveParagraphForward.SetBelong(this.instance);
 				}
-				return r_RMoveParagraphForward;
+				return r_MoveParagraphForward;
 			}
 		}
 
 		/// <summary>
 		/// Void MoveParagraphBackward()
 		/// </summary>
-		protected RMethod r_RMoveParagraphBackward;
+		protected RMethod r_MoveParagraphBackward;
 		public virtual RMethod RMoveParagraphBackward
 		{
 			get
 			{
-				if(r_RMoveParagraphBackward == null)
+				if(r_MoveParagraphBackward == null)
 				{
-					r_RMoveParagraphBackward = new(this, "MoveParagraphBackward", 0);
-					r_RMoveParagraphBackward.SetBelong(this.instance);
+					r_MoveParagraphBackward = new(this, "MoveParagraphBackward", 0);
+					r_MoveParagraphBackward.SetBelong(this.instance);
 				}
-				return r_RMoveParagraphBackward;
+				return r_MoveParagraphBackward;
 			}
 		}
 
 		/// <summary>
 		/// Void MoveWordRight()
 		/// </summary>
-		protected RMethod r_RMoveWordRight;
+		protected RMethod r_MoveWordRight;
 		public virtual RMethod RMoveWordRight
 		{
 			get
 			{
-				if(r_RMoveWordRight == null)
+				if(r_MoveWordRight == null)
 				{
-					r_RMoveWordRight = new(this, "MoveWordRight", 0);
-					r_RMoveWordRight.SetBelong(this.instance);
+					r_MoveWordRight = new(this, "MoveWordRight", 0);
+					r_MoveWordRight.SetBelong(this.instance);
 				}
-				return r_RMoveWordRight;
+				return r_MoveWordRight;
 			}
 		}
 
 		/// <summary>
 		/// Void MoveToStartOfNextWord()
 		/// </summary>
-		protected RMethod r_RMoveToStartOfNextWord;
+		protected RMethod r_MoveToStartOfNextWord;
 		public virtual RMethod RMoveToStartOfNextWord
 		{
 			get
 			{
-				if(r_RMoveToStartOfNextWord == null)
+				if(r_MoveToStartOfNextWord == null)
 				{
-					r_RMoveToStartOfNextWord = new(this, "MoveToStartOfNextWord", 0);
-					r_RMoveToStartOfNextWord.SetBelong(this.instance);
+					r_MoveToStartOfNextWord = new(this, "MoveToStartOfNextWord", 0);
+					r_MoveToStartOfNextWord.SetBelong(this.instance);
 				}
-				return r_RMoveToStartOfNextWord;
+				return r_MoveToStartOfNextWord;
 			}
 		}
 
 		/// <summary>
 		/// Void MoveToEndOfPreviousWord()
 		/// </summary>
-		protected RMethod r_RMoveToEndOfPreviousWord;
+		protected RMethod r_MoveToEndOfPreviousWord;
 		public virtual RMethod RMoveToEndOfPreviousWord
 		{
 			get
 			{
-				if(r_RMoveToEndOfPreviousWord == null)
+				if(r_MoveToEndOfPreviousWord == null)
 				{
-					r_RMoveToEndOfPreviousWord = new(this, "MoveToEndOfPreviousWord", 0);
-					r_RMoveToEndOfPreviousWord.SetBelong(this.instance);
+					r_MoveToEndOfPreviousWord = new(this, "MoveToEndOfPreviousWord", 0);
+					r_MoveToEndOfPreviousWord.SetBelong(this.instance);
 				}
-				return r_RMoveToEndOfPreviousWord;
+				return r_MoveToEndOfPreviousWord;
 			}
 		}
 
 		/// <summary>
 		/// Void MoveWordLeft()
 		/// </summary>
-		protected RMethod r_RMoveWordLeft;
+		protected RMethod r_MoveWordLeft;
 		public virtual RMethod RMoveWordLeft
 		{
 			get
 			{
-				if(r_RMoveWordLeft == null)
+				if(r_MoveWordLeft == null)
 				{
-					r_RMoveWordLeft = new(this, "MoveWordLeft", 0);
-					r_RMoveWordLeft.SetBelong(this.instance);
+					r_MoveWordLeft = new(this, "MoveWordLeft", 0);
+					r_MoveWordLeft.SetBelong(this.instance);
 				}
-				return r_RMoveWordLeft;
+				return r_MoveWordLeft;
 			}
 		}
 
 		/// <summary>
 		/// Void MouseDragSelectsWholeWords(Boolean)
 		/// </summary>
-		protected RMethod r_RMouseDragSelectsWholeWords_Boolean;
+		protected RMethod r_MouseDragSelectsWholeWords_Boolean;
 		public virtual RMethod RMouseDragSelectsWholeWords_Boolean
 		{
 			get
 			{
-				if(r_RMouseDragSelectsWholeWords_Boolean == null)
+				if(r_MouseDragSelectsWholeWords_Boolean == null)
 				{
-					r_RMouseDragSelectsWholeWords_Boolean = new(this, "MouseDragSelectsWholeWords", 0, typeof(System.Boolean));
-					r_RMouseDragSelectsWholeWords_Boolean.SetBelong(this.instance);
+					r_MouseDragSelectsWholeWords_Boolean = new(this, "MouseDragSelectsWholeWords", 0, typeof(System.Boolean));
+					r_MouseDragSelectsWholeWords_Boolean.SetBelong(this.instance);
 				}
-				return r_RMouseDragSelectsWholeWords_Boolean;
+				return r_MouseDragSelectsWholeWords_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Void ExpandSelectGraphicalLineStart()
 		/// </summary>
-		protected RMethod r_RExpandSelectGraphicalLineStart;
+		protected RMethod r_ExpandSelectGraphicalLineStart;
 		public virtual RMethod RExpandSelectGraphicalLineStart
 		{
 			get
 			{
-				if(r_RExpandSelectGraphicalLineStart == null)
+				if(r_ExpandSelectGraphicalLineStart == null)
 				{
-					r_RExpandSelectGraphicalLineStart = new(this, "ExpandSelectGraphicalLineStart", 0);
-					r_RExpandSelectGraphicalLineStart.SetBelong(this.instance);
+					r_ExpandSelectGraphicalLineStart = new(this, "ExpandSelectGraphicalLineStart", 0);
+					r_ExpandSelectGraphicalLineStart.SetBelong(this.instance);
 				}
-				return r_RExpandSelectGraphicalLineStart;
+				return r_ExpandSelectGraphicalLineStart;
 			}
 		}
 
 		/// <summary>
 		/// Void ExpandSelectGraphicalLineEnd()
 		/// </summary>
-		protected RMethod r_RExpandSelectGraphicalLineEnd;
+		protected RMethod r_ExpandSelectGraphicalLineEnd;
 		public virtual RMethod RExpandSelectGraphicalLineEnd
 		{
 			get
 			{
-				if(r_RExpandSelectGraphicalLineEnd == null)
+				if(r_ExpandSelectGraphicalLineEnd == null)
 				{
-					r_RExpandSelectGraphicalLineEnd = new(this, "ExpandSelectGraphicalLineEnd", 0);
-					r_RExpandSelectGraphicalLineEnd.SetBelong(this.instance);
+					r_ExpandSelectGraphicalLineEnd = new(this, "ExpandSelectGraphicalLineEnd", 0);
+					r_ExpandSelectGraphicalLineEnd.SetBelong(this.instance);
 				}
-				return r_RExpandSelectGraphicalLineEnd;
+				return r_ExpandSelectGraphicalLineEnd;
 			}
 		}
 
 		/// <summary>
 		/// Void DblClickSnap(DblClickSnapping)
 		/// </summary>
-		protected RMethod r_RDblClickSnap_DblClickSnapping;
+		protected RMethod r_DblClickSnap_DblClickSnapping;
 		public virtual RMethod RDblClickSnap_DblClickSnapping
 		{
 			get
 			{
-				if(r_RDblClickSnap_DblClickSnapping == null)
+				if(r_DblClickSnap_DblClickSnapping == null)
 				{
-					r_RDblClickSnap_DblClickSnapping = new(this, "DblClickSnap", 0,  ReleactionUtils.GetType("UnityEngine.TextEditor+DblClickSnapping"));
-					r_RDblClickSnap_DblClickSnapping.SetBelong(this.instance);
+					r_DblClickSnap_DblClickSnapping = new(this, "DblClickSnap", 0,  ReleactionUtils.GetType("UnityEngine.TextEditor+DblClickSnapping"));
+					r_DblClickSnap_DblClickSnapping.SetBelong(this.instance);
 				}
-				return r_RDblClickSnap_DblClickSnapping;
+				return r_DblClickSnap_DblClickSnapping;
 			}
 		}
 
 		/// <summary>
 		/// Void MoveCursorToPosition_Internal(UnityEngine.Vector2, Boolean)
 		/// </summary>
-		protected RMethod r_RMoveCursorToPosition_Internal_Vector2_Boolean;
+		protected RMethod r_MoveCursorToPosition_Internal_Vector2_Boolean;
 		public virtual RMethod RMoveCursorToPosition_Internal_Vector2_Boolean
 		{
 			get
 			{
-				if(r_RMoveCursorToPosition_Internal_Vector2_Boolean == null)
+				if(r_MoveCursorToPosition_Internal_Vector2_Boolean == null)
 				{
-					r_RMoveCursorToPosition_Internal_Vector2_Boolean = new(this, "MoveCursorToPosition_Internal", 0, typeof(UnityEngine.Vector2), typeof(System.Boolean));
-					r_RMoveCursorToPosition_Internal_Vector2_Boolean.SetBelong(this.instance);
+					r_MoveCursorToPosition_Internal_Vector2_Boolean = new(this, "MoveCursorToPosition_Internal", 0, typeof(UnityEngine.Vector2), typeof(System.Boolean));
+					r_MoveCursorToPosition_Internal_Vector2_Boolean.SetBelong(this.instance);
 				}
-				return r_RMoveCursorToPosition_Internal_Vector2_Boolean;
+				return r_MoveCursorToPosition_Internal_Vector2_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Void SelectToPosition(UnityEngine.Vector2)
 		/// </summary>
-		protected RMethod r_RSelectToPosition_Vector2;
+		protected RMethod r_SelectToPosition_Vector2;
 		public virtual RMethod RSelectToPosition_Vector2
 		{
 			get
 			{
-				if(r_RSelectToPosition_Vector2 == null)
+				if(r_SelectToPosition_Vector2 == null)
 				{
-					r_RSelectToPosition_Vector2 = new(this, "SelectToPosition", 0, typeof(UnityEngine.Vector2));
-					r_RSelectToPosition_Vector2.SetBelong(this.instance);
+					r_SelectToPosition_Vector2 = new(this, "SelectToPosition", 0, typeof(UnityEngine.Vector2));
+					r_SelectToPosition_Vector2.SetBelong(this.instance);
 				}
-				return r_RSelectToPosition_Vector2;
+				return r_SelectToPosition_Vector2;
 			}
 		}
 
 		/// <summary>
 		/// Int32 FindNextSeperator(Int32)
 		/// </summary>
-		protected RMethod r_RFindNextSeperator_Int32;
+		protected RMethod r_FindNextSeperator_Int32;
 		public virtual RMethod RFindNextSeperator_Int32
 		{
 			get
 			{
-				if(r_RFindNextSeperator_Int32 == null)
+				if(r_FindNextSeperator_Int32 == null)
 				{
-					r_RFindNextSeperator_Int32 = new(this, "FindNextSeperator", 0, typeof(System.Int32));
-					r_RFindNextSeperator_Int32.SetBelong(this.instance);
+					r_FindNextSeperator_Int32 = new(this, "FindNextSeperator", 0, typeof(System.Int32));
+					r_FindNextSeperator_Int32.SetBelong(this.instance);
 				}
-				return r_RFindNextSeperator_Int32;
+				return r_FindNextSeperator_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Int32 FindPrevSeperator(Int32)
 		/// </summary>
-		protected RMethod r_RFindPrevSeperator_Int32;
+		protected RMethod r_FindPrevSeperator_Int32;
 		public virtual RMethod RFindPrevSeperator_Int32
 		{
 			get
 			{
-				if(r_RFindPrevSeperator_Int32 == null)
+				if(r_FindPrevSeperator_Int32 == null)
 				{
-					r_RFindPrevSeperator_Int32 = new(this, "FindPrevSeperator", 0, typeof(System.Int32));
-					r_RFindPrevSeperator_Int32.SetBelong(this.instance);
+					r_FindPrevSeperator_Int32 = new(this, "FindPrevSeperator", 0, typeof(System.Int32));
+					r_FindPrevSeperator_Int32.SetBelong(this.instance);
 				}
-				return r_RFindPrevSeperator_Int32;
+				return r_FindPrevSeperator_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Int32 FindStartOfNextWord(Int32)
 		/// </summary>
-		protected RMethod r_RFindStartOfNextWord_Int32;
+		protected RMethod r_FindStartOfNextWord_Int32;
 		public virtual RMethod RFindStartOfNextWord_Int32
 		{
 			get
 			{
-				if(r_RFindStartOfNextWord_Int32 == null)
+				if(r_FindStartOfNextWord_Int32 == null)
 				{
-					r_RFindStartOfNextWord_Int32 = new(this, "FindStartOfNextWord", 0, typeof(System.Int32));
-					r_RFindStartOfNextWord_Int32.SetBelong(this.instance);
+					r_FindStartOfNextWord_Int32 = new(this, "FindStartOfNextWord", 0, typeof(System.Int32));
+					r_FindStartOfNextWord_Int32.SetBelong(this.instance);
 				}
-				return r_RFindStartOfNextWord_Int32;
+				return r_FindStartOfNextWord_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Int32 FindEndOfPreviousWord(Int32)
 		/// </summary>
-		protected RMethod r_RFindEndOfPreviousWord_Int32;
+		protected RMethod r_FindEndOfPreviousWord_Int32;
 		public virtual RMethod RFindEndOfPreviousWord_Int32
 		{
 			get
 			{
-				if(r_RFindEndOfPreviousWord_Int32 == null)
+				if(r_FindEndOfPreviousWord_Int32 == null)
 				{
-					r_RFindEndOfPreviousWord_Int32 = new(this, "FindEndOfPreviousWord", 0, typeof(System.Int32));
-					r_RFindEndOfPreviousWord_Int32.SetBelong(this.instance);
+					r_FindEndOfPreviousWord_Int32 = new(this, "FindEndOfPreviousWord", 0, typeof(System.Int32));
+					r_FindEndOfPreviousWord_Int32.SetBelong(this.instance);
 				}
-				return r_RFindEndOfPreviousWord_Int32;
+				return r_FindEndOfPreviousWord_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Int32 FindEndOfClassification(Int32, Direction)
 		/// </summary>
-		protected RMethod r_RFindEndOfClassification_Int32_Direction;
+		protected RMethod r_FindEndOfClassification_Int32_Direction;
 		public virtual RMethod RFindEndOfClassification_Int32_Direction
 		{
 			get
 			{
-				if(r_RFindEndOfClassification_Int32_Direction == null)
+				if(r_FindEndOfClassification_Int32_Direction == null)
 				{
-					r_RFindEndOfClassification_Int32_Direction = new(this, "FindEndOfClassification", 0, typeof(System.Int32),  ReleactionUtils.GetType("UnityEngine.TextSelectingUtilities+Direction"));
-					r_RFindEndOfClassification_Int32_Direction.SetBelong(this.instance);
+					r_FindEndOfClassification_Int32_Direction = new(this, "FindEndOfClassification", 0, typeof(System.Int32),  ReleactionUtils.GetType("UnityEngine.TextSelectingUtilities+Direction"));
+					r_FindEndOfClassification_Int32_Direction.SetBelong(this.instance);
 				}
-				return r_RFindEndOfClassification_Int32_Direction;
+				return r_FindEndOfClassification_Int32_Direction;
 			}
 		}
 
 		/// <summary>
 		/// Int32 ClampTextIndex(Int32)
 		/// </summary>
-		protected RMethod r_RClampTextIndex_Int32;
+		protected RMethod r_ClampTextIndex_Int32;
 		public virtual RMethod RClampTextIndex_Int32
 		{
 			get
 			{
-				if(r_RClampTextIndex_Int32 == null)
+				if(r_ClampTextIndex_Int32 == null)
 				{
-					r_RClampTextIndex_Int32 = new(this, "ClampTextIndex", 0, typeof(System.Int32));
-					r_RClampTextIndex_Int32.SetBelong(this.instance);
+					r_ClampTextIndex_Int32 = new(this, "ClampTextIndex", 0, typeof(System.Int32));
+					r_ClampTextIndex_Int32.SetBelong(this.instance);
 				}
-				return r_RClampTextIndex_Int32;
+				return r_ClampTextIndex_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Int32 EnsureValidCodePointIndex(Int32)
 		/// </summary>
-		protected RMethod r_REnsureValidCodePointIndex_Int32;
+		protected RMethod r_EnsureValidCodePointIndex_Int32;
 		public virtual RMethod REnsureValidCodePointIndex_Int32
 		{
 			get
 			{
-				if(r_REnsureValidCodePointIndex_Int32 == null)
+				if(r_EnsureValidCodePointIndex_Int32 == null)
 				{
-					r_REnsureValidCodePointIndex_Int32 = new(this, "EnsureValidCodePointIndex", 0, typeof(System.Int32));
-					r_REnsureValidCodePointIndex_Int32.SetBelong(this.instance);
+					r_EnsureValidCodePointIndex_Int32 = new(this, "EnsureValidCodePointIndex", 0, typeof(System.Int32));
+					r_EnsureValidCodePointIndex_Int32.SetBelong(this.instance);
 				}
-				return r_REnsureValidCodePointIndex_Int32;
+				return r_EnsureValidCodePointIndex_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Boolean IsValidCodePointIndex(Int32)
 		/// </summary>
-		protected RMethod r_RIsValidCodePointIndex_Int32;
+		protected RMethod r_IsValidCodePointIndex_Int32;
 		public virtual RMethod RIsValidCodePointIndex_Int32
 		{
 			get
 			{
-				if(r_RIsValidCodePointIndex_Int32 == null)
+				if(r_IsValidCodePointIndex_Int32 == null)
 				{
-					r_RIsValidCodePointIndex_Int32 = new(this, "IsValidCodePointIndex", 0, typeof(System.Int32));
-					r_RIsValidCodePointIndex_Int32.SetBelong(this.instance);
+					r_IsValidCodePointIndex_Int32 = new(this, "IsValidCodePointIndex", 0, typeof(System.Int32));
+					r_IsValidCodePointIndex_Int32.SetBelong(this.instance);
 				}
-				return r_RIsValidCodePointIndex_Int32;
+				return r_IsValidCodePointIndex_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Int32 IndexOfEndOfLine(Int32)
 		/// </summary>
-		protected RMethod r_RIndexOfEndOfLine_Int32;
+		protected RMethod r_IndexOfEndOfLine_Int32;
 		public virtual RMethod RIndexOfEndOfLine_Int32
 		{
 			get
 			{
-				if(r_RIndexOfEndOfLine_Int32 == null)
+				if(r_IndexOfEndOfLine_Int32 == null)
 				{
-					r_RIndexOfEndOfLine_Int32 = new(this, "IndexOfEndOfLine", 0, typeof(System.Int32));
-					r_RIndexOfEndOfLine_Int32.SetBelong(this.instance);
+					r_IndexOfEndOfLine_Int32 = new(this, "IndexOfEndOfLine", 0, typeof(System.Int32));
+					r_IndexOfEndOfLine_Int32.SetBelong(this.instance);
 				}
-				return r_RIndexOfEndOfLine_Int32;
+				return r_IndexOfEndOfLine_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Int32 PreviousCodePointIndex(Int32)
 		/// </summary>
-		protected RMethod r_RPreviousCodePointIndex_Int32;
+		protected RMethod r_PreviousCodePointIndex_Int32;
 		public virtual RMethod RPreviousCodePointIndex_Int32
 		{
 			get
 			{
-				if(r_RPreviousCodePointIndex_Int32 == null)
+				if(r_PreviousCodePointIndex_Int32 == null)
 				{
-					r_RPreviousCodePointIndex_Int32 = new(this, "PreviousCodePointIndex", 0, typeof(System.Int32));
-					r_RPreviousCodePointIndex_Int32.SetBelong(this.instance);
+					r_PreviousCodePointIndex_Int32 = new(this, "PreviousCodePointIndex", 0, typeof(System.Int32));
+					r_PreviousCodePointIndex_Int32.SetBelong(this.instance);
 				}
-				return r_RPreviousCodePointIndex_Int32;
+				return r_PreviousCodePointIndex_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Int32 NextCodePointIndex(Int32)
 		/// </summary>
-		protected RMethod r_RNextCodePointIndex_Int32;
+		protected RMethod r_NextCodePointIndex_Int32;
 		public virtual RMethod RNextCodePointIndex_Int32
 		{
 			get
 			{
-				if(r_RNextCodePointIndex_Int32 == null)
+				if(r_NextCodePointIndex_Int32 == null)
 				{
-					r_RNextCodePointIndex_Int32 = new(this, "NextCodePointIndex", 0, typeof(System.Int32));
-					r_RNextCodePointIndex_Int32.SetBelong(this.instance);
+					r_NextCodePointIndex_Int32 = new(this, "NextCodePointIndex", 0, typeof(System.Int32));
+					r_NextCodePointIndex_Int32.SetBelong(this.instance);
 				}
-				return r_RNextCodePointIndex_Int32;
+				return r_NextCodePointIndex_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetGraphicalLineStart(Int32)
 		/// </summary>
-		protected RMethod r_RGetGraphicalLineStart_Int32;
+		protected RMethod r_GetGraphicalLineStart_Int32;
 		public virtual RMethod RGetGraphicalLineStart_Int32
 		{
 			get
 			{
-				if(r_RGetGraphicalLineStart_Int32 == null)
+				if(r_GetGraphicalLineStart_Int32 == null)
 				{
-					r_RGetGraphicalLineStart_Int32 = new(this, "GetGraphicalLineStart", 0, typeof(System.Int32));
-					r_RGetGraphicalLineStart_Int32.SetBelong(this.instance);
+					r_GetGraphicalLineStart_Int32 = new(this, "GetGraphicalLineStart", 0, typeof(System.Int32));
+					r_GetGraphicalLineStart_Int32.SetBelong(this.instance);
 				}
-				return r_RGetGraphicalLineStart_Int32;
+				return r_GetGraphicalLineStart_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetGraphicalLineEnd(Int32)
 		/// </summary>
-		protected RMethod r_RGetGraphicalLineEnd_Int32;
+		protected RMethod r_GetGraphicalLineEnd_Int32;
 		public virtual RMethod RGetGraphicalLineEnd_Int32
 		{
 			get
 			{
-				if(r_RGetGraphicalLineEnd_Int32 == null)
+				if(r_GetGraphicalLineEnd_Int32 == null)
 				{
-					r_RGetGraphicalLineEnd_Int32 = new(this, "GetGraphicalLineEnd", 0, typeof(System.Int32));
-					r_RGetGraphicalLineEnd_Int32.SetBelong(this.instance);
+					r_GetGraphicalLineEnd_Int32 = new(this, "GetGraphicalLineEnd", 0, typeof(System.Int32));
+					r_GetGraphicalLineEnd_Int32.SetBelong(this.instance);
 				}
-				return r_RGetGraphicalLineEnd_Int32;
+				return r_GetGraphicalLineEnd_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Void Copy()
 		/// </summary>
-		protected RMethod r_RCopy;
+		protected RMethod r_Copy;
 		public virtual RMethod RCopy
 		{
 			get
 			{
-				if(r_RCopy == null)
+				if(r_Copy == null)
 				{
-					r_RCopy = new(this, "Copy", 0);
-					r_RCopy.SetBelong(this.instance);
+					r_Copy = new(this, "Copy", 0);
+					r_Copy.SetBelong(this.instance);
 				}
-				return r_RCopy;
+				return r_Copy;
 			}
 		}
 
 		/// <summary>
 		/// CharacterType ClassifyChar(Int32)
 		/// </summary>
-		protected RMethod r_RClassifyChar_Int32;
+		protected RMethod r_ClassifyChar_Int32;
 		public virtual RMethod RClassifyChar_Int32
 		{
 			get
 			{
-				if(r_RClassifyChar_Int32 == null)
+				if(r_ClassifyChar_Int32 == null)
 				{
-					r_RClassifyChar_Int32 = new(this, "ClassifyChar", 0, typeof(System.Int32));
-					r_RClassifyChar_Int32.SetBelong(this.instance);
+					r_ClassifyChar_Int32 = new(this, "ClassifyChar", 0, typeof(System.Int32));
+					r_ClassifyChar_Int32.SetBelong(this.instance);
 				}
-				return r_RClassifyChar_Int32;
+				return r_ClassifyChar_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Equals(System.Object)
 		/// </summary>
-		protected RMethod r_REquals_Object;
+		protected RMethod r_Equals_Object;
 		public virtual RMethod REquals_Object
 		{
 			get
 			{
-				if(r_REquals_Object == null)
+				if(r_Equals_Object == null)
 				{
-					r_REquals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_REquals_Object.SetBelong(this.instance);
+					r_Equals_Object = new(this, "Equals", 0, typeof(System.Object));
+					r_Equals_Object.SetBelong(this.instance);
 				}
-				return r_REquals_Object;
+				return r_Equals_Object;
 			}
 		}
 
 		/// <summary>
 		/// Void Finalize()
 		/// </summary>
-		protected RMethod r_RFinalize;
+		protected RMethod r_Finalize;
 		public virtual RMethod RFinalize
 		{
 			get
 			{
-				if(r_RFinalize == null)
+				if(r_Finalize == null)
 				{
-					r_RFinalize = new(this, "Finalize", 0);
-					r_RFinalize.SetBelong(this.instance);
+					r_Finalize = new(this, "Finalize", 0);
+					r_Finalize.SetBelong(this.instance);
 				}
-				return r_RFinalize;
+				return r_Finalize;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetHashCode()
 		/// </summary>
-		protected RMethod r_RGetHashCode;
+		protected RMethod r_GetHashCode;
 		public virtual RMethod RGetHashCode
 		{
 			get
 			{
-				if(r_RGetHashCode == null)
+				if(r_GetHashCode == null)
 				{
-					r_RGetHashCode = new(this, "GetHashCode", 0);
-					r_RGetHashCode.SetBelong(this.instance);
+					r_GetHashCode = new(this, "GetHashCode", 0);
+					r_GetHashCode.SetBelong(this.instance);
 				}
-				return r_RGetHashCode;
+				return r_GetHashCode;
 			}
 		}
 
 		/// <summary>
 		/// System.Type GetType()
 		/// </summary>
-		protected RMethod r_RGetType;
+		protected RMethod r_GetType;
 		public virtual RMethod RGetType
 		{
 			get
 			{
-				if(r_RGetType == null)
+				if(r_GetType == null)
 				{
-					r_RGetType = new(this, "GetType", 0);
-					r_RGetType.SetBelong(this.instance);
+					r_GetType = new(this, "GetType", 0);
+					r_GetType.SetBelong(this.instance);
 				}
-				return r_RGetType;
+				return r_GetType;
 			}
 		}
 
 		/// <summary>
 		/// System.Object MemberwiseClone()
 		/// </summary>
-		protected RMethod r_RMemberwiseClone;
+		protected RMethod r_MemberwiseClone;
 		public virtual RMethod RMemberwiseClone
 		{
 			get
 			{
-				if(r_RMemberwiseClone == null)
+				if(r_MemberwiseClone == null)
 				{
-					r_RMemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_RMemberwiseClone.SetBelong(this.instance);
+					r_MemberwiseClone = new(this, "MemberwiseClone", 0);
+					r_MemberwiseClone.SetBelong(this.instance);
 				}
-				return r_RMemberwiseClone;
+				return r_MemberwiseClone;
 			}
 		}
 
 		/// <summary>
 		/// System.String ToString()
 		/// </summary>
-		protected RMethod r_RToString;
+		protected RMethod r_ToString;
 		public virtual RMethod RToString
 		{
 			get
 			{
-				if(r_RToString == null)
+				if(r_ToString == null)
 				{
-					r_RToString = new(this, "ToString", 0);
-					r_RToString.SetBelong(this.instance);
+					r_ToString = new(this, "ToString", 0);
+					r_ToString.SetBelong(this.instance);
 				}
-				return r_RToString;
+				return r_ToString;
 			}
 		}
 

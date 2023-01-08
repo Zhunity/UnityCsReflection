@@ -13,17 +13,17 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
 		/// <summary>
 		/// Void Cancel(Int32)
 		/// </summary>
-		protected RMethod r_RCancel_Int32;
+		protected RMethod r_Cancel_Int32;
 		public virtual RMethod RCancel_Int32
 		{
 			get
 			{
-				if(r_RCancel_Int32 == null)
+				if(r_Cancel_Int32 == null)
 				{
-					r_RCancel_Int32 = new(this, "Cancel", 0, typeof(System.Int32));
-					r_RCancel_Int32.SetBelong(this.instance);
+					r_Cancel_Int32 = new(this, "Cancel", 0, typeof(System.Int32));
+					r_Cancel_Int32.SetBelong(this.instance);
 				}
-				return r_RCancel_Int32;
+				return r_Cancel_Int32;
 			}
 		}
 

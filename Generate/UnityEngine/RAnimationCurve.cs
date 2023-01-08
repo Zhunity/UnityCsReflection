@@ -115,442 +115,442 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Void Internal_Destroy(IntPtr)
 		/// </summary>
-		protected static RMethod r_RInternal_Destroy_IntPtr;
+		protected static RMethod r_Internal_Destroy_IntPtr;
 		public static RMethod RInternal_Destroy_IntPtr
 		{
 			get
 			{
-				if(r_RInternal_Destroy_IntPtr == null)
+				if(r_Internal_Destroy_IntPtr == null)
 				{
-					r_RInternal_Destroy_IntPtr = new(typeof(UnityEngine.AnimationCurve), "Internal_Destroy", 0, typeof(System.IntPtr));
-					r_RInternal_Destroy_IntPtr.SetBelong(null);
+					r_Internal_Destroy_IntPtr = new(typeof(UnityEngine.AnimationCurve), "Internal_Destroy", 0, typeof(System.IntPtr));
+					r_Internal_Destroy_IntPtr.SetBelong(null);
 				}
-				return r_RInternal_Destroy_IntPtr;
+				return r_Internal_Destroy_IntPtr;
 			}
 		}
 
 		/// <summary>
 		/// IntPtr Internal_Create(UnityEngine.Keyframe[])
 		/// </summary>
-		protected static RMethod r_RInternal_Create_KeyframeArray;
+		protected static RMethod r_Internal_Create_KeyframeArray;
 		public static RMethod RInternal_Create_KeyframeArray
 		{
 			get
 			{
-				if(r_RInternal_Create_KeyframeArray == null)
+				if(r_Internal_Create_KeyframeArray == null)
 				{
-					r_RInternal_Create_KeyframeArray = new(typeof(UnityEngine.AnimationCurve), "Internal_Create", 0, typeof(UnityEngine.Keyframe).MakeArrayType());
-					r_RInternal_Create_KeyframeArray.SetBelong(null);
+					r_Internal_Create_KeyframeArray = new(typeof(UnityEngine.AnimationCurve), "Internal_Create", 0, typeof(UnityEngine.Keyframe).MakeArrayType());
+					r_Internal_Create_KeyframeArray.SetBelong(null);
 				}
-				return r_RInternal_Create_KeyframeArray;
+				return r_Internal_Create_KeyframeArray;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Internal_Equals(IntPtr)
 		/// </summary>
-		protected RMethod r_RInternal_Equals_IntPtr;
+		protected RMethod r_Internal_Equals_IntPtr;
 		public virtual RMethod RInternal_Equals_IntPtr
 		{
 			get
 			{
-				if(r_RInternal_Equals_IntPtr == null)
+				if(r_Internal_Equals_IntPtr == null)
 				{
-					r_RInternal_Equals_IntPtr = new(this, "Internal_Equals", 0, typeof(System.IntPtr));
-					r_RInternal_Equals_IntPtr.SetBelong(this.instance);
+					r_Internal_Equals_IntPtr = new(this, "Internal_Equals", 0, typeof(System.IntPtr));
+					r_Internal_Equals_IntPtr.SetBelong(this.instance);
 				}
-				return r_RInternal_Equals_IntPtr;
+				return r_Internal_Equals_IntPtr;
 			}
 		}
 
 		/// <summary>
 		/// Void Finalize()
 		/// </summary>
-		protected RMethod r_RFinalize;
+		protected RMethod r_Finalize;
 		public virtual RMethod RFinalize
 		{
 			get
 			{
-				if(r_RFinalize == null)
+				if(r_Finalize == null)
 				{
-					r_RFinalize = new(this, "Finalize", 0);
-					r_RFinalize.SetBelong(this.instance);
+					r_Finalize = new(this, "Finalize", 0);
+					r_Finalize.SetBelong(this.instance);
 				}
-				return r_RFinalize;
+				return r_Finalize;
 			}
 		}
 
 		/// <summary>
 		/// Single Evaluate(Single)
 		/// </summary>
-		protected RMethod r_REvaluate_Single;
+		protected RMethod r_Evaluate_Single;
 		public virtual RMethod REvaluate_Single
 		{
 			get
 			{
-				if(r_REvaluate_Single == null)
+				if(r_Evaluate_Single == null)
 				{
-					r_REvaluate_Single = new(this, "Evaluate", 0, typeof(System.Single));
-					r_REvaluate_Single.SetBelong(this.instance);
+					r_Evaluate_Single = new(this, "Evaluate", 0, typeof(System.Single));
+					r_Evaluate_Single.SetBelong(this.instance);
 				}
-				return r_REvaluate_Single;
+				return r_Evaluate_Single;
 			}
 		}
 
 		/// <summary>
 		/// Int32 AddKey(Single, Single)
 		/// </summary>
-		protected RMethod r_RAddKey_Single_Single;
+		protected RMethod r_AddKey_Single_Single;
 		public virtual RMethod RAddKey_Single_Single
 		{
 			get
 			{
-				if(r_RAddKey_Single_Single == null)
+				if(r_AddKey_Single_Single == null)
 				{
-					r_RAddKey_Single_Single = new(this, "AddKey", 0, typeof(System.Single), typeof(System.Single));
-					r_RAddKey_Single_Single.SetBelong(this.instance);
+					r_AddKey_Single_Single = new(this, "AddKey", 0, typeof(System.Single), typeof(System.Single));
+					r_AddKey_Single_Single.SetBelong(this.instance);
 				}
-				return r_RAddKey_Single_Single;
+				return r_AddKey_Single_Single;
 			}
 		}
 
 		/// <summary>
 		/// Int32 AddKey(UnityEngine.Keyframe)
 		/// </summary>
-		protected RMethod r_RAddKey_Keyframe;
+		protected RMethod r_AddKey_Keyframe;
 		public virtual RMethod RAddKey_Keyframe
 		{
 			get
 			{
-				if(r_RAddKey_Keyframe == null)
+				if(r_AddKey_Keyframe == null)
 				{
-					r_RAddKey_Keyframe = new(this, "AddKey", 0, typeof(UnityEngine.Keyframe));
-					r_RAddKey_Keyframe.SetBelong(this.instance);
+					r_AddKey_Keyframe = new(this, "AddKey", 0, typeof(UnityEngine.Keyframe));
+					r_AddKey_Keyframe.SetBelong(this.instance);
 				}
-				return r_RAddKey_Keyframe;
+				return r_AddKey_Keyframe;
 			}
 		}
 
 		/// <summary>
 		/// Int32 AddKey_Internal(UnityEngine.Keyframe)
 		/// </summary>
-		protected RMethod r_RAddKey_Internal_Keyframe;
+		protected RMethod r_AddKey_Internal_Keyframe;
 		public virtual RMethod RAddKey_Internal_Keyframe
 		{
 			get
 			{
-				if(r_RAddKey_Internal_Keyframe == null)
+				if(r_AddKey_Internal_Keyframe == null)
 				{
-					r_RAddKey_Internal_Keyframe = new(this, "AddKey_Internal", 0, typeof(UnityEngine.Keyframe));
-					r_RAddKey_Internal_Keyframe.SetBelong(this.instance);
+					r_AddKey_Internal_Keyframe = new(this, "AddKey_Internal", 0, typeof(UnityEngine.Keyframe));
+					r_AddKey_Internal_Keyframe.SetBelong(this.instance);
 				}
-				return r_RAddKey_Internal_Keyframe;
+				return r_AddKey_Internal_Keyframe;
 			}
 		}
 
 		/// <summary>
 		/// Int32 MoveKey(Int32, UnityEngine.Keyframe)
 		/// </summary>
-		protected RMethod r_RMoveKey_Int32_Keyframe;
+		protected RMethod r_MoveKey_Int32_Keyframe;
 		public virtual RMethod RMoveKey_Int32_Keyframe
 		{
 			get
 			{
-				if(r_RMoveKey_Int32_Keyframe == null)
+				if(r_MoveKey_Int32_Keyframe == null)
 				{
-					r_RMoveKey_Int32_Keyframe = new(this, "MoveKey", 0, typeof(System.Int32), typeof(UnityEngine.Keyframe));
-					r_RMoveKey_Int32_Keyframe.SetBelong(this.instance);
+					r_MoveKey_Int32_Keyframe = new(this, "MoveKey", 0, typeof(System.Int32), typeof(UnityEngine.Keyframe));
+					r_MoveKey_Int32_Keyframe.SetBelong(this.instance);
 				}
-				return r_RMoveKey_Int32_Keyframe;
+				return r_MoveKey_Int32_Keyframe;
 			}
 		}
 
 		/// <summary>
 		/// Void RemoveKey(Int32)
 		/// </summary>
-		protected RMethod r_RRemoveKey_Int32;
+		protected RMethod r_RemoveKey_Int32;
 		public virtual RMethod RRemoveKey_Int32
 		{
 			get
 			{
-				if(r_RRemoveKey_Int32 == null)
+				if(r_RemoveKey_Int32 == null)
 				{
-					r_RRemoveKey_Int32 = new(this, "RemoveKey", 0, typeof(System.Int32));
-					r_RRemoveKey_Int32.SetBelong(this.instance);
+					r_RemoveKey_Int32 = new(this, "RemoveKey", 0, typeof(System.Int32));
+					r_RemoveKey_Int32.SetBelong(this.instance);
 				}
-				return r_RRemoveKey_Int32;
+				return r_RemoveKey_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Void SetKeys(UnityEngine.Keyframe[])
 		/// </summary>
-		protected RMethod r_RSetKeys_KeyframeArray;
+		protected RMethod r_SetKeys_KeyframeArray;
 		public virtual RMethod RSetKeys_KeyframeArray
 		{
 			get
 			{
-				if(r_RSetKeys_KeyframeArray == null)
+				if(r_SetKeys_KeyframeArray == null)
 				{
-					r_RSetKeys_KeyframeArray = new(this, "SetKeys", 0, typeof(UnityEngine.Keyframe).MakeArrayType());
-					r_RSetKeys_KeyframeArray.SetBelong(this.instance);
+					r_SetKeys_KeyframeArray = new(this, "SetKeys", 0, typeof(UnityEngine.Keyframe).MakeArrayType());
+					r_SetKeys_KeyframeArray.SetBelong(this.instance);
 				}
-				return r_RSetKeys_KeyframeArray;
+				return r_SetKeys_KeyframeArray;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Keyframe GetKey(Int32)
 		/// </summary>
-		protected RMethod r_RGetKey_Int32;
+		protected RMethod r_GetKey_Int32;
 		public virtual RMethod RGetKey_Int32
 		{
 			get
 			{
-				if(r_RGetKey_Int32 == null)
+				if(r_GetKey_Int32 == null)
 				{
-					r_RGetKey_Int32 = new(this, "GetKey", 0, typeof(System.Int32));
-					r_RGetKey_Int32.SetBelong(this.instance);
+					r_GetKey_Int32 = new(this, "GetKey", 0, typeof(System.Int32));
+					r_GetKey_Int32.SetBelong(this.instance);
 				}
-				return r_RGetKey_Int32;
+				return r_GetKey_Int32;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Keyframe[] GetKeys()
 		/// </summary>
-		protected RMethod r_RGetKeys;
+		protected RMethod r_GetKeys;
 		public virtual RMethod RGetKeys
 		{
 			get
 			{
-				if(r_RGetKeys == null)
+				if(r_GetKeys == null)
 				{
-					r_RGetKeys = new(this, "GetKeys", 0);
-					r_RGetKeys.SetBelong(this.instance);
+					r_GetKeys = new(this, "GetKeys", 0);
+					r_GetKeys.SetBelong(this.instance);
 				}
-				return r_RGetKeys;
+				return r_GetKeys;
 			}
 		}
 
 		/// <summary>
 		/// Void SmoothTangents(Int32, Single)
 		/// </summary>
-		protected RMethod r_RSmoothTangents_Int32_Single;
+		protected RMethod r_SmoothTangents_Int32_Single;
 		public virtual RMethod RSmoothTangents_Int32_Single
 		{
 			get
 			{
-				if(r_RSmoothTangents_Int32_Single == null)
+				if(r_SmoothTangents_Int32_Single == null)
 				{
-					r_RSmoothTangents_Int32_Single = new(this, "SmoothTangents", 0, typeof(System.Int32), typeof(System.Single));
-					r_RSmoothTangents_Int32_Single.SetBelong(this.instance);
+					r_SmoothTangents_Int32_Single = new(this, "SmoothTangents", 0, typeof(System.Int32), typeof(System.Single));
+					r_SmoothTangents_Int32_Single.SetBelong(this.instance);
 				}
-				return r_RSmoothTangents_Int32_Single;
+				return r_SmoothTangents_Int32_Single;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.AnimationCurve Constant(Single, Single, Single)
 		/// </summary>
-		protected static RMethod r_RConstant_Single_Single_Single;
+		protected static RMethod r_Constant_Single_Single_Single;
 		public static RMethod RConstant_Single_Single_Single
 		{
 			get
 			{
-				if(r_RConstant_Single_Single_Single == null)
+				if(r_Constant_Single_Single_Single == null)
 				{
-					r_RConstant_Single_Single_Single = new(typeof(UnityEngine.AnimationCurve), "Constant", 0, typeof(System.Single), typeof(System.Single), typeof(System.Single));
-					r_RConstant_Single_Single_Single.SetBelong(null);
+					r_Constant_Single_Single_Single = new(typeof(UnityEngine.AnimationCurve), "Constant", 0, typeof(System.Single), typeof(System.Single), typeof(System.Single));
+					r_Constant_Single_Single_Single.SetBelong(null);
 				}
-				return r_RConstant_Single_Single_Single;
+				return r_Constant_Single_Single_Single;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.AnimationCurve Linear(Single, Single, Single, Single)
 		/// </summary>
-		protected static RMethod r_RLinear_Single_Single_Single_Single;
+		protected static RMethod r_Linear_Single_Single_Single_Single;
 		public static RMethod RLinear_Single_Single_Single_Single
 		{
 			get
 			{
-				if(r_RLinear_Single_Single_Single_Single == null)
+				if(r_Linear_Single_Single_Single_Single == null)
 				{
-					r_RLinear_Single_Single_Single_Single = new(typeof(UnityEngine.AnimationCurve), "Linear", 0, typeof(System.Single), typeof(System.Single), typeof(System.Single), typeof(System.Single));
-					r_RLinear_Single_Single_Single_Single.SetBelong(null);
+					r_Linear_Single_Single_Single_Single = new(typeof(UnityEngine.AnimationCurve), "Linear", 0, typeof(System.Single), typeof(System.Single), typeof(System.Single), typeof(System.Single));
+					r_Linear_Single_Single_Single_Single.SetBelong(null);
 				}
-				return r_RLinear_Single_Single_Single_Single;
+				return r_Linear_Single_Single_Single_Single;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.AnimationCurve EaseInOut(Single, Single, Single, Single)
 		/// </summary>
-		protected static RMethod r_REaseInOut_Single_Single_Single_Single;
+		protected static RMethod r_EaseInOut_Single_Single_Single_Single;
 		public static RMethod REaseInOut_Single_Single_Single_Single
 		{
 			get
 			{
-				if(r_REaseInOut_Single_Single_Single_Single == null)
+				if(r_EaseInOut_Single_Single_Single_Single == null)
 				{
-					r_REaseInOut_Single_Single_Single_Single = new(typeof(UnityEngine.AnimationCurve), "EaseInOut", 0, typeof(System.Single), typeof(System.Single), typeof(System.Single), typeof(System.Single));
-					r_REaseInOut_Single_Single_Single_Single.SetBelong(null);
+					r_EaseInOut_Single_Single_Single_Single = new(typeof(UnityEngine.AnimationCurve), "EaseInOut", 0, typeof(System.Single), typeof(System.Single), typeof(System.Single), typeof(System.Single));
+					r_EaseInOut_Single_Single_Single_Single.SetBelong(null);
 				}
-				return r_REaseInOut_Single_Single_Single_Single;
+				return r_EaseInOut_Single_Single_Single_Single;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Equals(System.Object)
 		/// </summary>
-		protected RMethod r_REquals_Object;
+		protected RMethod r_Equals_Object;
 		public virtual RMethod REquals_Object
 		{
 			get
 			{
-				if(r_REquals_Object == null)
+				if(r_Equals_Object == null)
 				{
-					r_REquals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_REquals_Object.SetBelong(this.instance);
+					r_Equals_Object = new(this, "Equals", 0, typeof(System.Object));
+					r_Equals_Object.SetBelong(this.instance);
 				}
-				return r_REquals_Object;
+				return r_Equals_Object;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Equals(UnityEngine.AnimationCurve)
 		/// </summary>
-		protected RMethod r_REquals_AnimationCurve;
+		protected RMethod r_Equals_AnimationCurve;
 		public virtual RMethod REquals_AnimationCurve
 		{
 			get
 			{
-				if(r_REquals_AnimationCurve == null)
+				if(r_Equals_AnimationCurve == null)
 				{
-					r_REquals_AnimationCurve = new(this, "Equals", 0, typeof(UnityEngine.AnimationCurve));
-					r_REquals_AnimationCurve.SetBelong(this.instance);
+					r_Equals_AnimationCurve = new(this, "Equals", 0, typeof(UnityEngine.AnimationCurve));
+					r_Equals_AnimationCurve.SetBelong(this.instance);
 				}
-				return r_REquals_AnimationCurve;
+				return r_Equals_AnimationCurve;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetHashCode()
 		/// </summary>
-		protected RMethod r_RGetHashCode;
+		protected RMethod r_GetHashCode;
 		public virtual RMethod RGetHashCode
 		{
 			get
 			{
-				if(r_RGetHashCode == null)
+				if(r_GetHashCode == null)
 				{
-					r_RGetHashCode = new(this, "GetHashCode", 0);
-					r_RGetHashCode.SetBelong(this.instance);
+					r_GetHashCode = new(this, "GetHashCode", 0);
+					r_GetHashCode.SetBelong(this.instance);
 				}
-				return r_RGetHashCode;
+				return r_GetHashCode;
 			}
 		}
 
 		/// <summary>
 		/// Int32 AddKey_Internal_Injected(UnityEngine.Keyframe ByRef)
 		/// </summary>
-		protected RMethod r_RAddKey_Internal_Injected_Ref_Keyframe;
+		protected RMethod r_AddKey_Internal_Injected_Ref_Keyframe;
 		public virtual RMethod RAddKey_Internal_Injected_Ref_Keyframe
 		{
 			get
 			{
-				if(r_RAddKey_Internal_Injected_Ref_Keyframe == null)
+				if(r_AddKey_Internal_Injected_Ref_Keyframe == null)
 				{
-					r_RAddKey_Internal_Injected_Ref_Keyframe = new(this, "AddKey_Internal_Injected", 0, typeof(UnityEngine.Keyframe).MakeByRefType());
-					r_RAddKey_Internal_Injected_Ref_Keyframe.SetBelong(this.instance);
+					r_AddKey_Internal_Injected_Ref_Keyframe = new(this, "AddKey_Internal_Injected", 0, typeof(UnityEngine.Keyframe).MakeByRefType());
+					r_AddKey_Internal_Injected_Ref_Keyframe.SetBelong(this.instance);
 				}
-				return r_RAddKey_Internal_Injected_Ref_Keyframe;
+				return r_AddKey_Internal_Injected_Ref_Keyframe;
 			}
 		}
 
 		/// <summary>
 		/// Int32 MoveKey_Injected(Int32, UnityEngine.Keyframe ByRef)
 		/// </summary>
-		protected RMethod r_RMoveKey_Injected_Int32_Ref_Keyframe;
+		protected RMethod r_MoveKey_Injected_Int32_Ref_Keyframe;
 		public virtual RMethod RMoveKey_Injected_Int32_Ref_Keyframe
 		{
 			get
 			{
-				if(r_RMoveKey_Injected_Int32_Ref_Keyframe == null)
+				if(r_MoveKey_Injected_Int32_Ref_Keyframe == null)
 				{
-					r_RMoveKey_Injected_Int32_Ref_Keyframe = new(this, "MoveKey_Injected", 0, typeof(System.Int32), typeof(UnityEngine.Keyframe).MakeByRefType());
-					r_RMoveKey_Injected_Int32_Ref_Keyframe.SetBelong(this.instance);
+					r_MoveKey_Injected_Int32_Ref_Keyframe = new(this, "MoveKey_Injected", 0, typeof(System.Int32), typeof(UnityEngine.Keyframe).MakeByRefType());
+					r_MoveKey_Injected_Int32_Ref_Keyframe.SetBelong(this.instance);
 				}
-				return r_RMoveKey_Injected_Int32_Ref_Keyframe;
+				return r_MoveKey_Injected_Int32_Ref_Keyframe;
 			}
 		}
 
 		/// <summary>
 		/// Void GetKey_Injected(Int32, UnityEngine.Keyframe ByRef)
 		/// </summary>
-		protected RMethod r_RGetKey_Injected_Int32_Out_Keyframe;
+		protected RMethod r_GetKey_Injected_Int32_Out_Keyframe;
 		public virtual RMethod RGetKey_Injected_Int32_Out_Keyframe
 		{
 			get
 			{
-				if(r_RGetKey_Injected_Int32_Out_Keyframe == null)
+				if(r_GetKey_Injected_Int32_Out_Keyframe == null)
 				{
-					r_RGetKey_Injected_Int32_Out_Keyframe = new(this, "GetKey_Injected", 0, typeof(System.Int32), typeof(UnityEngine.Keyframe).MakeByRefType());
-					r_RGetKey_Injected_Int32_Out_Keyframe.SetBelong(this.instance);
+					r_GetKey_Injected_Int32_Out_Keyframe = new(this, "GetKey_Injected", 0, typeof(System.Int32), typeof(UnityEngine.Keyframe).MakeByRefType());
+					r_GetKey_Injected_Int32_Out_Keyframe.SetBelong(this.instance);
 				}
-				return r_RGetKey_Injected_Int32_Out_Keyframe;
+				return r_GetKey_Injected_Int32_Out_Keyframe;
 			}
 		}
 
 		/// <summary>
 		/// System.Type GetType()
 		/// </summary>
-		protected RMethod r_RGetType;
+		protected RMethod r_GetType;
 		public virtual RMethod RGetType
 		{
 			get
 			{
-				if(r_RGetType == null)
+				if(r_GetType == null)
 				{
-					r_RGetType = new(this, "GetType", 0);
-					r_RGetType.SetBelong(this.instance);
+					r_GetType = new(this, "GetType", 0);
+					r_GetType.SetBelong(this.instance);
 				}
-				return r_RGetType;
+				return r_GetType;
 			}
 		}
 
 		/// <summary>
 		/// System.Object MemberwiseClone()
 		/// </summary>
-		protected RMethod r_RMemberwiseClone;
+		protected RMethod r_MemberwiseClone;
 		public virtual RMethod RMemberwiseClone
 		{
 			get
 			{
-				if(r_RMemberwiseClone == null)
+				if(r_MemberwiseClone == null)
 				{
-					r_RMemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_RMemberwiseClone.SetBelong(this.instance);
+					r_MemberwiseClone = new(this, "MemberwiseClone", 0);
+					r_MemberwiseClone.SetBelong(this.instance);
 				}
-				return r_RMemberwiseClone;
+				return r_MemberwiseClone;
 			}
 		}
 
 		/// <summary>
 		/// System.String ToString()
 		/// </summary>
-		protected RMethod r_RToString;
+		protected RMethod r_ToString;
 		public virtual RMethod RToString
 		{
 			get
 			{
-				if(r_RToString == null)
+				if(r_ToString == null)
 				{
-					r_RToString = new(this, "ToString", 0);
-					r_RToString.SetBelong(this.instance);
+					r_ToString = new(this, "ToString", 0);
+					r_ToString.SetBelong(this.instance);
 				}
-				return r_RToString;
+				return r_ToString;
 			}
 		}
 

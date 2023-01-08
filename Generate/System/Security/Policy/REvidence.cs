@@ -183,374 +183,374 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
 		/// <summary>
 		/// Void AddAssembly(System.Object)
 		/// </summary>
-		protected RMethod r_RAddAssembly_Object;
+		protected RMethod r_AddAssembly_Object;
 		public virtual RMethod RAddAssembly_Object
 		{
 			get
 			{
-				if(r_RAddAssembly_Object == null)
+				if(r_AddAssembly_Object == null)
 				{
-					r_RAddAssembly_Object = new(this, "AddAssembly", 0, typeof(System.Object));
-					r_RAddAssembly_Object.SetBelong(this.instance);
+					r_AddAssembly_Object = new(this, "AddAssembly", 0, typeof(System.Object));
+					r_AddAssembly_Object.SetBelong(this.instance);
 				}
-				return r_RAddAssembly_Object;
+				return r_AddAssembly_Object;
 			}
 		}
 
 		/// <summary>
 		/// Void AddHost(System.Object)
 		/// </summary>
-		protected RMethod r_RAddHost_Object;
+		protected RMethod r_AddHost_Object;
 		public virtual RMethod RAddHost_Object
 		{
 			get
 			{
-				if(r_RAddHost_Object == null)
+				if(r_AddHost_Object == null)
 				{
-					r_RAddHost_Object = new(this, "AddHost", 0, typeof(System.Object));
-					r_RAddHost_Object.SetBelong(this.instance);
+					r_AddHost_Object = new(this, "AddHost", 0, typeof(System.Object));
+					r_AddHost_Object.SetBelong(this.instance);
 				}
-				return r_RAddHost_Object;
+				return r_AddHost_Object;
 			}
 		}
 
 		/// <summary>
 		/// Void Clear()
 		/// </summary>
-		protected RMethod r_RClear;
+		protected RMethod r_Clear;
 		public virtual RMethod RClear
 		{
 			get
 			{
-				if(r_RClear == null)
+				if(r_Clear == null)
 				{
-					r_RClear = new(this, "Clear", 0);
-					r_RClear.SetBelong(this.instance);
+					r_Clear = new(this, "Clear", 0);
+					r_Clear.SetBelong(this.instance);
 				}
-				return r_RClear;
+				return r_Clear;
 			}
 		}
 
 		/// <summary>
 		/// System.Security.Policy.Evidence Clone()
 		/// </summary>
-		protected RMethod r_RClone;
+		protected RMethod r_Clone;
 		public virtual RMethod RClone
 		{
 			get
 			{
-				if(r_RClone == null)
+				if(r_Clone == null)
 				{
-					r_RClone = new(this, "Clone", 0);
-					r_RClone.SetBelong(this.instance);
+					r_Clone = new(this, "Clone", 0);
+					r_Clone.SetBelong(this.instance);
 				}
-				return r_RClone;
+				return r_Clone;
 			}
 		}
 
 		/// <summary>
 		/// Void CopyTo(System.Array, Int32)
 		/// </summary>
-		protected RMethod r_RCopyTo_Array_Int32;
+		protected RMethod r_CopyTo_Array_Int32;
 		public virtual RMethod RCopyTo_Array_Int32
 		{
 			get
 			{
-				if(r_RCopyTo_Array_Int32 == null)
+				if(r_CopyTo_Array_Int32 == null)
 				{
-					r_RCopyTo_Array_Int32 = new(this, "CopyTo", 0, typeof(System.Array), typeof(System.Int32));
-					r_RCopyTo_Array_Int32.SetBelong(this.instance);
+					r_CopyTo_Array_Int32 = new(this, "CopyTo", 0, typeof(System.Array), typeof(System.Int32));
+					r_CopyTo_Array_Int32.SetBelong(this.instance);
 				}
-				return r_RCopyTo_Array_Int32;
+				return r_CopyTo_Array_Int32;
 			}
 		}
 
 		/// <summary>
 		/// System.Collections.IEnumerator GetEnumerator()
 		/// </summary>
-		protected RMethod r_RGetEnumerator;
+		protected RMethod r_GetEnumerator;
 		public virtual RMethod RGetEnumerator
 		{
 			get
 			{
-				if(r_RGetEnumerator == null)
+				if(r_GetEnumerator == null)
 				{
-					r_RGetEnumerator = new(this, "GetEnumerator", 0);
-					r_RGetEnumerator.SetBelong(this.instance);
+					r_GetEnumerator = new(this, "GetEnumerator", 0);
+					r_GetEnumerator.SetBelong(this.instance);
 				}
-				return r_RGetEnumerator;
+				return r_GetEnumerator;
 			}
 		}
 
 		/// <summary>
 		/// System.Collections.IEnumerator GetAssemblyEnumerator()
 		/// </summary>
-		protected RMethod r_RGetAssemblyEnumerator;
+		protected RMethod r_GetAssemblyEnumerator;
 		public virtual RMethod RGetAssemblyEnumerator
 		{
 			get
 			{
-				if(r_RGetAssemblyEnumerator == null)
+				if(r_GetAssemblyEnumerator == null)
 				{
-					r_RGetAssemblyEnumerator = new(this, "GetAssemblyEnumerator", 0);
-					r_RGetAssemblyEnumerator.SetBelong(this.instance);
+					r_GetAssemblyEnumerator = new(this, "GetAssemblyEnumerator", 0);
+					r_GetAssemblyEnumerator.SetBelong(this.instance);
 				}
-				return r_RGetAssemblyEnumerator;
+				return r_GetAssemblyEnumerator;
 			}
 		}
 
 		/// <summary>
 		/// System.Collections.IEnumerator GetHostEnumerator()
 		/// </summary>
-		protected RMethod r_RGetHostEnumerator;
+		protected RMethod r_GetHostEnumerator;
 		public virtual RMethod RGetHostEnumerator
 		{
 			get
 			{
-				if(r_RGetHostEnumerator == null)
+				if(r_GetHostEnumerator == null)
 				{
-					r_RGetHostEnumerator = new(this, "GetHostEnumerator", 0);
-					r_RGetHostEnumerator.SetBelong(this.instance);
+					r_GetHostEnumerator = new(this, "GetHostEnumerator", 0);
+					r_GetHostEnumerator.SetBelong(this.instance);
 				}
-				return r_RGetHostEnumerator;
+				return r_GetHostEnumerator;
 			}
 		}
 
 		/// <summary>
 		/// Void Merge(System.Security.Policy.Evidence)
 		/// </summary>
-		protected RMethod r_RMerge_Evidence;
+		protected RMethod r_Merge_Evidence;
 		public virtual RMethod RMerge_Evidence
 		{
 			get
 			{
-				if(r_RMerge_Evidence == null)
+				if(r_Merge_Evidence == null)
 				{
-					r_RMerge_Evidence = new(this, "Merge", 0, typeof(System.Security.Policy.Evidence));
-					r_RMerge_Evidence.SetBelong(this.instance);
+					r_Merge_Evidence = new(this, "Merge", 0, typeof(System.Security.Policy.Evidence));
+					r_Merge_Evidence.SetBelong(this.instance);
 				}
-				return r_RMerge_Evidence;
+				return r_Merge_Evidence;
 			}
 		}
 
 		/// <summary>
 		/// Void RemoveType(System.Type)
 		/// </summary>
-		protected RMethod r_RRemoveType_Type;
+		protected RMethod r_RemoveType_Type;
 		public virtual RMethod RRemoveType_Type
 		{
 			get
 			{
-				if(r_RRemoveType_Type == null)
+				if(r_RemoveType_Type == null)
 				{
-					r_RRemoveType_Type = new(this, "RemoveType", 0, typeof(System.Type));
-					r_RRemoveType_Type.SetBelong(this.instance);
+					r_RemoveType_Type = new(this, "RemoveType", 0, typeof(System.Type));
+					r_RemoveType_Type.SetBelong(this.instance);
 				}
-				return r_RRemoveType_Type;
+				return r_RemoveType_Type;
 			}
 		}
 
 		/// <summary>
 		/// Boolean IsAuthenticodePresent(System.Reflection.Assembly)
 		/// </summary>
-		protected static RMethod r_RIsAuthenticodePresent_Assembly;
+		protected static RMethod r_IsAuthenticodePresent_Assembly;
 		public static RMethod RIsAuthenticodePresent_Assembly
 		{
 			get
 			{
-				if(r_RIsAuthenticodePresent_Assembly == null)
+				if(r_IsAuthenticodePresent_Assembly == null)
 				{
-					r_RIsAuthenticodePresent_Assembly = new(typeof(System.Security.Policy.Evidence), "IsAuthenticodePresent", 0, typeof(System.Reflection.Assembly));
-					r_RIsAuthenticodePresent_Assembly.SetBelong(null);
+					r_IsAuthenticodePresent_Assembly = new(typeof(System.Security.Policy.Evidence), "IsAuthenticodePresent", 0, typeof(System.Reflection.Assembly));
+					r_IsAuthenticodePresent_Assembly.SetBelong(null);
 				}
-				return r_RIsAuthenticodePresent_Assembly;
+				return r_IsAuthenticodePresent_Assembly;
 			}
 		}
 
 		/// <summary>
 		/// System.Security.Policy.Evidence GetDefaultHostEvidence(System.Reflection.Assembly)
 		/// </summary>
-		protected static RMethod r_RGetDefaultHostEvidence_Assembly;
+		protected static RMethod r_GetDefaultHostEvidence_Assembly;
 		public static RMethod RGetDefaultHostEvidence_Assembly
 		{
 			get
 			{
-				if(r_RGetDefaultHostEvidence_Assembly == null)
+				if(r_GetDefaultHostEvidence_Assembly == null)
 				{
-					r_RGetDefaultHostEvidence_Assembly = new(typeof(System.Security.Policy.Evidence), "GetDefaultHostEvidence", 0, typeof(System.Reflection.Assembly));
-					r_RGetDefaultHostEvidence_Assembly.SetBelong(null);
+					r_GetDefaultHostEvidence_Assembly = new(typeof(System.Security.Policy.Evidence), "GetDefaultHostEvidence", 0, typeof(System.Reflection.Assembly));
+					r_GetDefaultHostEvidence_Assembly.SetBelong(null);
 				}
-				return r_RGetDefaultHostEvidence_Assembly;
+				return r_GetDefaultHostEvidence_Assembly;
 			}
 		}
 
 		/// <summary>
 		/// Void AddAssemblyEvidence[T](T)
 		/// </summary>
-		protected RMethod r_RAddAssemblyEvidence_GT_T;
+		protected RMethod r_AddAssemblyEvidence_GT_T;
 		public virtual RMethod RAddAssemblyEvidence_GT_T
 		{
 			get
 			{
-				if(r_RAddAssemblyEvidence_GT_T == null)
+				if(r_AddAssemblyEvidence_GT_T == null)
 				{
-					r_RAddAssemblyEvidence_GT_T = new(this, "AddAssemblyEvidence", 1, Type.MakeGenericMethodParameter(0));
-					r_RAddAssemblyEvidence_GT_T.SetBelong(this.instance);
+					r_AddAssemblyEvidence_GT_T = new(this, "AddAssemblyEvidence", 1, Type.MakeGenericMethodParameter(0));
+					r_AddAssemblyEvidence_GT_T.SetBelong(this.instance);
 				}
-				return r_RAddAssemblyEvidence_GT_T;
+				return r_AddAssemblyEvidence_GT_T;
 			}
 		}
 
 		/// <summary>
 		/// Void AddHostEvidence[T](T)
 		/// </summary>
-		protected RMethod r_RAddHostEvidence_GT_T;
+		protected RMethod r_AddHostEvidence_GT_T;
 		public virtual RMethod RAddHostEvidence_GT_T
 		{
 			get
 			{
-				if(r_RAddHostEvidence_GT_T == null)
+				if(r_AddHostEvidence_GT_T == null)
 				{
-					r_RAddHostEvidence_GT_T = new(this, "AddHostEvidence", 1, Type.MakeGenericMethodParameter(0));
-					r_RAddHostEvidence_GT_T.SetBelong(this.instance);
+					r_AddHostEvidence_GT_T = new(this, "AddHostEvidence", 1, Type.MakeGenericMethodParameter(0));
+					r_AddHostEvidence_GT_T.SetBelong(this.instance);
 				}
-				return r_RAddHostEvidence_GT_T;
+				return r_AddHostEvidence_GT_T;
 			}
 		}
 
 		/// <summary>
 		/// T GetAssemblyEvidence[T]()
 		/// </summary>
-		protected RMethod r_RGetAssemblyEvidence_GT;
+		protected RMethod r_GetAssemblyEvidence_GT;
 		public virtual RMethod RGetAssemblyEvidence_GT
 		{
 			get
 			{
-				if(r_RGetAssemblyEvidence_GT == null)
+				if(r_GetAssemblyEvidence_GT == null)
 				{
-					r_RGetAssemblyEvidence_GT = new(this, "GetAssemblyEvidence", 1);
-					r_RGetAssemblyEvidence_GT.SetBelong(this.instance);
+					r_GetAssemblyEvidence_GT = new(this, "GetAssemblyEvidence", 1);
+					r_GetAssemblyEvidence_GT.SetBelong(this.instance);
 				}
-				return r_RGetAssemblyEvidence_GT;
+				return r_GetAssemblyEvidence_GT;
 			}
 		}
 
 		/// <summary>
 		/// T GetHostEvidence[T]()
 		/// </summary>
-		protected RMethod r_RGetHostEvidence_GT;
+		protected RMethod r_GetHostEvidence_GT;
 		public virtual RMethod RGetHostEvidence_GT
 		{
 			get
 			{
-				if(r_RGetHostEvidence_GT == null)
+				if(r_GetHostEvidence_GT == null)
 				{
-					r_RGetHostEvidence_GT = new(this, "GetHostEvidence", 1);
-					r_RGetHostEvidence_GT.SetBelong(this.instance);
+					r_GetHostEvidence_GT = new(this, "GetHostEvidence", 1);
+					r_GetHostEvidence_GT.SetBelong(this.instance);
 				}
-				return r_RGetHostEvidence_GT;
+				return r_GetHostEvidence_GT;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Equals(System.Object)
 		/// </summary>
-		protected RMethod r_REquals_Object;
+		protected RMethod r_Equals_Object;
 		public virtual RMethod REquals_Object
 		{
 			get
 			{
-				if(r_REquals_Object == null)
+				if(r_Equals_Object == null)
 				{
-					r_REquals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_REquals_Object.SetBelong(this.instance);
+					r_Equals_Object = new(this, "Equals", 0, typeof(System.Object));
+					r_Equals_Object.SetBelong(this.instance);
 				}
-				return r_REquals_Object;
+				return r_Equals_Object;
 			}
 		}
 
 		/// <summary>
 		/// Void Finalize()
 		/// </summary>
-		protected RMethod r_RFinalize;
+		protected RMethod r_Finalize;
 		public virtual RMethod RFinalize
 		{
 			get
 			{
-				if(r_RFinalize == null)
+				if(r_Finalize == null)
 				{
-					r_RFinalize = new(this, "Finalize", 0);
-					r_RFinalize.SetBelong(this.instance);
+					r_Finalize = new(this, "Finalize", 0);
+					r_Finalize.SetBelong(this.instance);
 				}
-				return r_RFinalize;
+				return r_Finalize;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetHashCode()
 		/// </summary>
-		protected RMethod r_RGetHashCode;
+		protected RMethod r_GetHashCode;
 		public virtual RMethod RGetHashCode
 		{
 			get
 			{
-				if(r_RGetHashCode == null)
+				if(r_GetHashCode == null)
 				{
-					r_RGetHashCode = new(this, "GetHashCode", 0);
-					r_RGetHashCode.SetBelong(this.instance);
+					r_GetHashCode = new(this, "GetHashCode", 0);
+					r_GetHashCode.SetBelong(this.instance);
 				}
-				return r_RGetHashCode;
+				return r_GetHashCode;
 			}
 		}
 
 		/// <summary>
 		/// System.Type GetType()
 		/// </summary>
-		protected RMethod r_RGetType;
+		protected RMethod r_GetType;
 		public virtual RMethod RGetType
 		{
 			get
 			{
-				if(r_RGetType == null)
+				if(r_GetType == null)
 				{
-					r_RGetType = new(this, "GetType", 0);
-					r_RGetType.SetBelong(this.instance);
+					r_GetType = new(this, "GetType", 0);
+					r_GetType.SetBelong(this.instance);
 				}
-				return r_RGetType;
+				return r_GetType;
 			}
 		}
 
 		/// <summary>
 		/// System.Object MemberwiseClone()
 		/// </summary>
-		protected RMethod r_RMemberwiseClone;
+		protected RMethod r_MemberwiseClone;
 		public virtual RMethod RMemberwiseClone
 		{
 			get
 			{
-				if(r_RMemberwiseClone == null)
+				if(r_MemberwiseClone == null)
 				{
-					r_RMemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_RMemberwiseClone.SetBelong(this.instance);
+					r_MemberwiseClone = new(this, "MemberwiseClone", 0);
+					r_MemberwiseClone.SetBelong(this.instance);
 				}
-				return r_RMemberwiseClone;
+				return r_MemberwiseClone;
 			}
 		}
 
 		/// <summary>
 		/// System.String ToString()
 		/// </summary>
-		protected RMethod r_RToString;
+		protected RMethod r_ToString;
 		public virtual RMethod RToString
 		{
 			get
 			{
-				if(r_RToString == null)
+				if(r_ToString == null)
 				{
-					r_RToString = new(this, "ToString", 0);
-					r_RToString.SetBelong(this.instance);
+					r_ToString = new(this, "ToString", 0);
+					r_ToString.SetBelong(this.instance);
 				}
-				return r_RToString;
+				return r_ToString;
 			}
 		}
 

@@ -13,34 +13,34 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Void SetCursor(UnityEngine.UIElements.Cursor)
 		/// </summary>
-		protected RMethod r_RSetCursor_Cursor;
+		protected RMethod r_SetCursor_Cursor;
 		public virtual RMethod RSetCursor_Cursor
 		{
 			get
 			{
-				if(r_RSetCursor_Cursor == null)
+				if(r_SetCursor_Cursor == null)
 				{
-					r_RSetCursor_Cursor = new(this, "SetCursor", 0, typeof(UnityEngine.UIElements.Cursor));
-					r_RSetCursor_Cursor.SetBelong(this.instance);
+					r_SetCursor_Cursor = new(this, "SetCursor", 0, typeof(UnityEngine.UIElements.Cursor));
+					r_SetCursor_Cursor.SetBelong(this.instance);
 				}
-				return r_RSetCursor_Cursor;
+				return r_SetCursor_Cursor;
 			}
 		}
 
 		/// <summary>
 		/// Void ResetCursor()
 		/// </summary>
-		protected RMethod r_RResetCursor;
+		protected RMethod r_ResetCursor;
 		public virtual RMethod RResetCursor
 		{
 			get
 			{
-				if(r_RResetCursor == null)
+				if(r_ResetCursor == null)
 				{
-					r_RResetCursor = new(this, "ResetCursor", 0);
-					r_RResetCursor.SetBelong(this.instance);
+					r_ResetCursor = new(this, "ResetCursor", 0);
+					r_ResetCursor.SetBelong(this.instance);
 				}
-				return r_RResetCursor;
+				return r_ResetCursor;
 			}
 		}
 

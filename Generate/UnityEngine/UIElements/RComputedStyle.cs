@@ -1611,1020 +1611,1020 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.ComputedStyle Create()
 		/// </summary>
-		protected static RMethod r_RCreate;
+		protected static RMethod r_Create;
 		public static RMethod RCreate
 		{
 			get
 			{
-				if(r_RCreate == null)
+				if(r_Create == null)
 				{
-					r_RCreate = new( ReleactionUtils.GetType("UnityEngine.UIElements.ComputedStyle"), "Create", 0);
-					r_RCreate.SetBelong(null);
+					r_Create = new( ReleactionUtils.GetType("UnityEngine.UIElements.ComputedStyle"), "Create", 0);
+					r_Create.SetBelong(null);
 				}
-				return r_RCreate;
+				return r_Create;
 			}
 		}
 
 		/// <summary>
 		/// Void FinalizeApply(UnityEngine.UIElements.ComputedStyle ByRef)
 		/// </summary>
-		protected RMethod r_RFinalizeApply_Ref_ComputedStyle;
+		protected RMethod r_FinalizeApply_Ref_ComputedStyle;
 		public virtual RMethod RFinalizeApply_Ref_ComputedStyle
 		{
 			get
 			{
-				if(r_RFinalizeApply_Ref_ComputedStyle == null)
+				if(r_FinalizeApply_Ref_ComputedStyle == null)
 				{
-					r_RFinalizeApply_Ref_ComputedStyle = new(this, "FinalizeApply", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.ComputedStyle").MakeByRefType());
-					r_RFinalizeApply_Ref_ComputedStyle.SetBelong(this.instance);
+					r_FinalizeApply_Ref_ComputedStyle = new(this, "FinalizeApply", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.ComputedStyle").MakeByRefType());
+					r_FinalizeApply_Ref_ComputedStyle.SetBelong(this.instance);
 				}
-				return r_RFinalizeApply_Ref_ComputedStyle;
+				return r_FinalizeApply_Ref_ComputedStyle;
 			}
 		}
 
 		/// <summary>
 		/// Void SyncWithLayout(UnityEngine.Yoga.YogaNode)
 		/// </summary>
-		protected RMethod r_RSyncWithLayout_YogaNode;
+		protected RMethod r_SyncWithLayout_YogaNode;
 		public virtual RMethod RSyncWithLayout_YogaNode
 		{
 			get
 			{
-				if(r_RSyncWithLayout_YogaNode == null)
+				if(r_SyncWithLayout_YogaNode == null)
 				{
-					r_RSyncWithLayout_YogaNode = new(this, "SyncWithLayout", 0,  ReleactionUtils.GetType("UnityEngine.Yoga.YogaNode"));
-					r_RSyncWithLayout_YogaNode.SetBelong(this.instance);
+					r_SyncWithLayout_YogaNode = new(this, "SyncWithLayout", 0,  ReleactionUtils.GetType("UnityEngine.Yoga.YogaNode"));
+					r_SyncWithLayout_YogaNode.SetBelong(this.instance);
 				}
-				return r_RSyncWithLayout_YogaNode;
+				return r_SyncWithLayout_YogaNode;
 			}
 		}
 
 		/// <summary>
 		/// Boolean ApplyGlobalKeyword(UnityEngine.UIElements.StyleSheets.StylePropertyReader, UnityEngine.UIElements.ComputedStyle ByRef)
 		/// </summary>
-		protected RMethod r_RApplyGlobalKeyword_StylePropertyReader_Ref_ComputedStyle;
+		protected RMethod r_ApplyGlobalKeyword_StylePropertyReader_Ref_ComputedStyle;
 		public virtual RMethod RApplyGlobalKeyword_StylePropertyReader_Ref_ComputedStyle
 		{
 			get
 			{
-				if(r_RApplyGlobalKeyword_StylePropertyReader_Ref_ComputedStyle == null)
+				if(r_ApplyGlobalKeyword_StylePropertyReader_Ref_ComputedStyle == null)
 				{
-					r_RApplyGlobalKeyword_StylePropertyReader_Ref_ComputedStyle = new(this, "ApplyGlobalKeyword", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyReader"),  ReleactionUtils.GetType("UnityEngine.UIElements.ComputedStyle").MakeByRefType());
-					r_RApplyGlobalKeyword_StylePropertyReader_Ref_ComputedStyle.SetBelong(this.instance);
+					r_ApplyGlobalKeyword_StylePropertyReader_Ref_ComputedStyle = new(this, "ApplyGlobalKeyword", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyReader"),  ReleactionUtils.GetType("UnityEngine.UIElements.ComputedStyle").MakeByRefType());
+					r_ApplyGlobalKeyword_StylePropertyReader_Ref_ComputedStyle.SetBelong(this.instance);
 				}
-				return r_RApplyGlobalKeyword_StylePropertyReader_Ref_ComputedStyle;
+				return r_ApplyGlobalKeyword_StylePropertyReader_Ref_ComputedStyle;
 			}
 		}
 
 		/// <summary>
 		/// Boolean ApplyGlobalKeyword(UnityEngine.UIElements.StyleSheets.StylePropertyId, UnityEngine.UIElements.StyleKeyword, UnityEngine.UIElements.ComputedStyle ByRef)
 		/// </summary>
-		protected RMethod r_RApplyGlobalKeyword_StylePropertyId_StyleKeyword_Ref_ComputedStyle;
+		protected RMethod r_ApplyGlobalKeyword_StylePropertyId_StyleKeyword_Ref_ComputedStyle;
 		public virtual RMethod RApplyGlobalKeyword_StylePropertyId_StyleKeyword_Ref_ComputedStyle
 		{
 			get
 			{
-				if(r_RApplyGlobalKeyword_StylePropertyId_StyleKeyword_Ref_ComputedStyle == null)
+				if(r_ApplyGlobalKeyword_StylePropertyId_StyleKeyword_Ref_ComputedStyle == null)
 				{
-					r_RApplyGlobalKeyword_StylePropertyId_StyleKeyword_Ref_ComputedStyle = new(this, "ApplyGlobalKeyword", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"), typeof(UnityEngine.UIElements.StyleKeyword),  ReleactionUtils.GetType("UnityEngine.UIElements.ComputedStyle").MakeByRefType());
-					r_RApplyGlobalKeyword_StylePropertyId_StyleKeyword_Ref_ComputedStyle.SetBelong(this.instance);
+					r_ApplyGlobalKeyword_StylePropertyId_StyleKeyword_Ref_ComputedStyle = new(this, "ApplyGlobalKeyword", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"), typeof(UnityEngine.UIElements.StyleKeyword),  ReleactionUtils.GetType("UnityEngine.UIElements.ComputedStyle").MakeByRefType());
+					r_ApplyGlobalKeyword_StylePropertyId_StyleKeyword_Ref_ComputedStyle.SetBelong(this.instance);
 				}
-				return r_RApplyGlobalKeyword_StylePropertyId_StyleKeyword_Ref_ComputedStyle;
+				return r_ApplyGlobalKeyword_StylePropertyId_StyleKeyword_Ref_ComputedStyle;
 			}
 		}
 
 		/// <summary>
 		/// Void RemoveCustomStyleProperty(UnityEngine.UIElements.StyleSheets.StylePropertyReader)
 		/// </summary>
-		protected RMethod r_RRemoveCustomStyleProperty_StylePropertyReader;
+		protected RMethod r_RemoveCustomStyleProperty_StylePropertyReader;
 		public virtual RMethod RRemoveCustomStyleProperty_StylePropertyReader
 		{
 			get
 			{
-				if(r_RRemoveCustomStyleProperty_StylePropertyReader == null)
+				if(r_RemoveCustomStyleProperty_StylePropertyReader == null)
 				{
-					r_RRemoveCustomStyleProperty_StylePropertyReader = new(this, "RemoveCustomStyleProperty", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyReader"));
-					r_RRemoveCustomStyleProperty_StylePropertyReader.SetBelong(this.instance);
+					r_RemoveCustomStyleProperty_StylePropertyReader = new(this, "RemoveCustomStyleProperty", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyReader"));
+					r_RemoveCustomStyleProperty_StylePropertyReader.SetBelong(this.instance);
 				}
-				return r_RRemoveCustomStyleProperty_StylePropertyReader;
+				return r_RemoveCustomStyleProperty_StylePropertyReader;
 			}
 		}
 
 		/// <summary>
 		/// Void ApplyCustomStyleProperty(UnityEngine.UIElements.StyleSheets.StylePropertyReader)
 		/// </summary>
-		protected RMethod r_RApplyCustomStyleProperty_StylePropertyReader;
+		protected RMethod r_ApplyCustomStyleProperty_StylePropertyReader;
 		public virtual RMethod RApplyCustomStyleProperty_StylePropertyReader
 		{
 			get
 			{
-				if(r_RApplyCustomStyleProperty_StylePropertyReader == null)
+				if(r_ApplyCustomStyleProperty_StylePropertyReader == null)
 				{
-					r_RApplyCustomStyleProperty_StylePropertyReader = new(this, "ApplyCustomStyleProperty", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyReader"));
-					r_RApplyCustomStyleProperty_StylePropertyReader.SetBelong(this.instance);
+					r_ApplyCustomStyleProperty_StylePropertyReader = new(this, "ApplyCustomStyleProperty", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyReader"));
+					r_ApplyCustomStyleProperty_StylePropertyReader.SetBelong(this.instance);
 				}
-				return r_RApplyCustomStyleProperty_StylePropertyReader;
+				return r_ApplyCustomStyleProperty_StylePropertyReader;
 			}
 		}
 
 		/// <summary>
 		/// Void ApplyAllPropertyInitial()
 		/// </summary>
-		protected RMethod r_RApplyAllPropertyInitial;
+		protected RMethod r_ApplyAllPropertyInitial;
 		public virtual RMethod RApplyAllPropertyInitial
 		{
 			get
 			{
-				if(r_RApplyAllPropertyInitial == null)
+				if(r_ApplyAllPropertyInitial == null)
 				{
-					r_RApplyAllPropertyInitial = new(this, "ApplyAllPropertyInitial", 0);
-					r_RApplyAllPropertyInitial.SetBelong(this.instance);
+					r_ApplyAllPropertyInitial = new(this, "ApplyAllPropertyInitial", 0);
+					r_ApplyAllPropertyInitial.SetBelong(this.instance);
 				}
-				return r_RApplyAllPropertyInitial;
+				return r_ApplyAllPropertyInitial;
 			}
 		}
 
 		/// <summary>
 		/// Void ResetComputedTransitions()
 		/// </summary>
-		protected RMethod r_RResetComputedTransitions;
+		protected RMethod r_ResetComputedTransitions;
 		public virtual RMethod RResetComputedTransitions
 		{
 			get
 			{
-				if(r_RResetComputedTransitions == null)
+				if(r_ResetComputedTransitions == null)
 				{
-					r_RResetComputedTransitions = new(this, "ResetComputedTransitions", 0);
-					r_RResetComputedTransitions.SetBelong(this.instance);
+					r_ResetComputedTransitions = new(this, "ResetComputedTransitions", 0);
+					r_ResetComputedTransitions.SetBelong(this.instance);
 				}
-				return r_RResetComputedTransitions;
+				return r_ResetComputedTransitions;
 			}
 		}
 
 		/// <summary>
 		/// Boolean StartAnimationInlineTextShadow(UnityEngine.UIElements.VisualElement, UnityEngine.UIElements.ComputedStyle ByRef, UnityEngine.UIElements.StyleTextShadow, Int32, Int32, System.Func`2[System.Single,System.Single])
 		/// </summary>
-		protected static RMethod r_RStartAnimationInlineTextShadow_VisualElement_Ref_ComputedStyle_StyleTextShadow_Int32_Int32_Func_d_Single_Single_p_;
+		protected static RMethod r_StartAnimationInlineTextShadow_VisualElement_Ref_ComputedStyle_StyleTextShadow_Int32_Int32_Func_d_Single_Single_p_;
 		public static RMethod RStartAnimationInlineTextShadow_VisualElement_Ref_ComputedStyle_StyleTextShadow_Int32_Int32_Func_d_Single_Single_p_
 		{
 			get
 			{
-				if(r_RStartAnimationInlineTextShadow_VisualElement_Ref_ComputedStyle_StyleTextShadow_Int32_Int32_Func_d_Single_Single_p_ == null)
+				if(r_StartAnimationInlineTextShadow_VisualElement_Ref_ComputedStyle_StyleTextShadow_Int32_Int32_Func_d_Single_Single_p_ == null)
 				{
-					r_RStartAnimationInlineTextShadow_VisualElement_Ref_ComputedStyle_StyleTextShadow_Int32_Int32_Func_d_Single_Single_p_ = new( ReleactionUtils.GetType("UnityEngine.UIElements.ComputedStyle"), "StartAnimationInlineTextShadow", 0, typeof(UnityEngine.UIElements.VisualElement),  ReleactionUtils.GetType("UnityEngine.UIElements.ComputedStyle").MakeByRefType(), typeof(UnityEngine.UIElements.StyleTextShadow), typeof(System.Int32), typeof(System.Int32), typeof(System.Func<, >).MakeGenericType(typeof(System.Single), typeof(System.Single)));
-					r_RStartAnimationInlineTextShadow_VisualElement_Ref_ComputedStyle_StyleTextShadow_Int32_Int32_Func_d_Single_Single_p_.SetBelong(null);
+					r_StartAnimationInlineTextShadow_VisualElement_Ref_ComputedStyle_StyleTextShadow_Int32_Int32_Func_d_Single_Single_p_ = new( ReleactionUtils.GetType("UnityEngine.UIElements.ComputedStyle"), "StartAnimationInlineTextShadow", 0, typeof(UnityEngine.UIElements.VisualElement),  ReleactionUtils.GetType("UnityEngine.UIElements.ComputedStyle").MakeByRefType(), typeof(UnityEngine.UIElements.StyleTextShadow), typeof(System.Int32), typeof(System.Int32), typeof(System.Func<, >).MakeGenericType(typeof(System.Single), typeof(System.Single)));
+					r_StartAnimationInlineTextShadow_VisualElement_Ref_ComputedStyle_StyleTextShadow_Int32_Int32_Func_d_Single_Single_p_.SetBelong(null);
 				}
-				return r_RStartAnimationInlineTextShadow_VisualElement_Ref_ComputedStyle_StyleTextShadow_Int32_Int32_Func_d_Single_Single_p_;
+				return r_StartAnimationInlineTextShadow_VisualElement_Ref_ComputedStyle_StyleTextShadow_Int32_Int32_Func_d_Single_Single_p_;
 			}
 		}
 
 		/// <summary>
 		/// Boolean StartAnimationInlineRotate(UnityEngine.UIElements.VisualElement, UnityEngine.UIElements.ComputedStyle ByRef, UnityEngine.UIElements.StyleRotate, Int32, Int32, System.Func`2[System.Single,System.Single])
 		/// </summary>
-		protected static RMethod r_RStartAnimationInlineRotate_VisualElement_Ref_ComputedStyle_StyleRotate_Int32_Int32_Func_d_Single_Single_p_;
+		protected static RMethod r_StartAnimationInlineRotate_VisualElement_Ref_ComputedStyle_StyleRotate_Int32_Int32_Func_d_Single_Single_p_;
 		public static RMethod RStartAnimationInlineRotate_VisualElement_Ref_ComputedStyle_StyleRotate_Int32_Int32_Func_d_Single_Single_p_
 		{
 			get
 			{
-				if(r_RStartAnimationInlineRotate_VisualElement_Ref_ComputedStyle_StyleRotate_Int32_Int32_Func_d_Single_Single_p_ == null)
+				if(r_StartAnimationInlineRotate_VisualElement_Ref_ComputedStyle_StyleRotate_Int32_Int32_Func_d_Single_Single_p_ == null)
 				{
-					r_RStartAnimationInlineRotate_VisualElement_Ref_ComputedStyle_StyleRotate_Int32_Int32_Func_d_Single_Single_p_ = new( ReleactionUtils.GetType("UnityEngine.UIElements.ComputedStyle"), "StartAnimationInlineRotate", 0, typeof(UnityEngine.UIElements.VisualElement),  ReleactionUtils.GetType("UnityEngine.UIElements.ComputedStyle").MakeByRefType(), typeof(UnityEngine.UIElements.StyleRotate), typeof(System.Int32), typeof(System.Int32), typeof(System.Func<, >).MakeGenericType(typeof(System.Single), typeof(System.Single)));
-					r_RStartAnimationInlineRotate_VisualElement_Ref_ComputedStyle_StyleRotate_Int32_Int32_Func_d_Single_Single_p_.SetBelong(null);
+					r_StartAnimationInlineRotate_VisualElement_Ref_ComputedStyle_StyleRotate_Int32_Int32_Func_d_Single_Single_p_ = new( ReleactionUtils.GetType("UnityEngine.UIElements.ComputedStyle"), "StartAnimationInlineRotate", 0, typeof(UnityEngine.UIElements.VisualElement),  ReleactionUtils.GetType("UnityEngine.UIElements.ComputedStyle").MakeByRefType(), typeof(UnityEngine.UIElements.StyleRotate), typeof(System.Int32), typeof(System.Int32), typeof(System.Func<, >).MakeGenericType(typeof(System.Single), typeof(System.Single)));
+					r_StartAnimationInlineRotate_VisualElement_Ref_ComputedStyle_StyleRotate_Int32_Int32_Func_d_Single_Single_p_.SetBelong(null);
 				}
-				return r_RStartAnimationInlineRotate_VisualElement_Ref_ComputedStyle_StyleRotate_Int32_Int32_Func_d_Single_Single_p_;
+				return r_StartAnimationInlineRotate_VisualElement_Ref_ComputedStyle_StyleRotate_Int32_Int32_Func_d_Single_Single_p_;
 			}
 		}
 
 		/// <summary>
 		/// Boolean StartAnimationInlineTranslate(UnityEngine.UIElements.VisualElement, UnityEngine.UIElements.ComputedStyle ByRef, UnityEngine.UIElements.StyleTranslate, Int32, Int32, System.Func`2[System.Single,System.Single])
 		/// </summary>
-		protected static RMethod r_RStartAnimationInlineTranslate_VisualElement_Ref_ComputedStyle_StyleTranslate_Int32_Int32_Func_d_Single_Single_p_;
+		protected static RMethod r_StartAnimationInlineTranslate_VisualElement_Ref_ComputedStyle_StyleTranslate_Int32_Int32_Func_d_Single_Single_p_;
 		public static RMethod RStartAnimationInlineTranslate_VisualElement_Ref_ComputedStyle_StyleTranslate_Int32_Int32_Func_d_Single_Single_p_
 		{
 			get
 			{
-				if(r_RStartAnimationInlineTranslate_VisualElement_Ref_ComputedStyle_StyleTranslate_Int32_Int32_Func_d_Single_Single_p_ == null)
+				if(r_StartAnimationInlineTranslate_VisualElement_Ref_ComputedStyle_StyleTranslate_Int32_Int32_Func_d_Single_Single_p_ == null)
 				{
-					r_RStartAnimationInlineTranslate_VisualElement_Ref_ComputedStyle_StyleTranslate_Int32_Int32_Func_d_Single_Single_p_ = new( ReleactionUtils.GetType("UnityEngine.UIElements.ComputedStyle"), "StartAnimationInlineTranslate", 0, typeof(UnityEngine.UIElements.VisualElement),  ReleactionUtils.GetType("UnityEngine.UIElements.ComputedStyle").MakeByRefType(), typeof(UnityEngine.UIElements.StyleTranslate), typeof(System.Int32), typeof(System.Int32), typeof(System.Func<, >).MakeGenericType(typeof(System.Single), typeof(System.Single)));
-					r_RStartAnimationInlineTranslate_VisualElement_Ref_ComputedStyle_StyleTranslate_Int32_Int32_Func_d_Single_Single_p_.SetBelong(null);
+					r_StartAnimationInlineTranslate_VisualElement_Ref_ComputedStyle_StyleTranslate_Int32_Int32_Func_d_Single_Single_p_ = new( ReleactionUtils.GetType("UnityEngine.UIElements.ComputedStyle"), "StartAnimationInlineTranslate", 0, typeof(UnityEngine.UIElements.VisualElement),  ReleactionUtils.GetType("UnityEngine.UIElements.ComputedStyle").MakeByRefType(), typeof(UnityEngine.UIElements.StyleTranslate), typeof(System.Int32), typeof(System.Int32), typeof(System.Func<, >).MakeGenericType(typeof(System.Single), typeof(System.Single)));
+					r_StartAnimationInlineTranslate_VisualElement_Ref_ComputedStyle_StyleTranslate_Int32_Int32_Func_d_Single_Single_p_.SetBelong(null);
 				}
-				return r_RStartAnimationInlineTranslate_VisualElement_Ref_ComputedStyle_StyleTranslate_Int32_Int32_Func_d_Single_Single_p_;
+				return r_StartAnimationInlineTranslate_VisualElement_Ref_ComputedStyle_StyleTranslate_Int32_Int32_Func_d_Single_Single_p_;
 			}
 		}
 
 		/// <summary>
 		/// Boolean StartAnimationInlineScale(UnityEngine.UIElements.VisualElement, UnityEngine.UIElements.ComputedStyle ByRef, UnityEngine.UIElements.StyleScale, Int32, Int32, System.Func`2[System.Single,System.Single])
 		/// </summary>
-		protected static RMethod r_RStartAnimationInlineScale_VisualElement_Ref_ComputedStyle_StyleScale_Int32_Int32_Func_d_Single_Single_p_;
+		protected static RMethod r_StartAnimationInlineScale_VisualElement_Ref_ComputedStyle_StyleScale_Int32_Int32_Func_d_Single_Single_p_;
 		public static RMethod RStartAnimationInlineScale_VisualElement_Ref_ComputedStyle_StyleScale_Int32_Int32_Func_d_Single_Single_p_
 		{
 			get
 			{
-				if(r_RStartAnimationInlineScale_VisualElement_Ref_ComputedStyle_StyleScale_Int32_Int32_Func_d_Single_Single_p_ == null)
+				if(r_StartAnimationInlineScale_VisualElement_Ref_ComputedStyle_StyleScale_Int32_Int32_Func_d_Single_Single_p_ == null)
 				{
-					r_RStartAnimationInlineScale_VisualElement_Ref_ComputedStyle_StyleScale_Int32_Int32_Func_d_Single_Single_p_ = new( ReleactionUtils.GetType("UnityEngine.UIElements.ComputedStyle"), "StartAnimationInlineScale", 0, typeof(UnityEngine.UIElements.VisualElement),  ReleactionUtils.GetType("UnityEngine.UIElements.ComputedStyle").MakeByRefType(), typeof(UnityEngine.UIElements.StyleScale), typeof(System.Int32), typeof(System.Int32), typeof(System.Func<, >).MakeGenericType(typeof(System.Single), typeof(System.Single)));
-					r_RStartAnimationInlineScale_VisualElement_Ref_ComputedStyle_StyleScale_Int32_Int32_Func_d_Single_Single_p_.SetBelong(null);
+					r_StartAnimationInlineScale_VisualElement_Ref_ComputedStyle_StyleScale_Int32_Int32_Func_d_Single_Single_p_ = new( ReleactionUtils.GetType("UnityEngine.UIElements.ComputedStyle"), "StartAnimationInlineScale", 0, typeof(UnityEngine.UIElements.VisualElement),  ReleactionUtils.GetType("UnityEngine.UIElements.ComputedStyle").MakeByRefType(), typeof(UnityEngine.UIElements.StyleScale), typeof(System.Int32), typeof(System.Int32), typeof(System.Func<, >).MakeGenericType(typeof(System.Single), typeof(System.Single)));
+					r_StartAnimationInlineScale_VisualElement_Ref_ComputedStyle_StyleScale_Int32_Int32_Func_d_Single_Single_p_.SetBelong(null);
 				}
-				return r_RStartAnimationInlineScale_VisualElement_Ref_ComputedStyle_StyleScale_Int32_Int32_Func_d_Single_Single_p_;
+				return r_StartAnimationInlineScale_VisualElement_Ref_ComputedStyle_StyleScale_Int32_Int32_Func_d_Single_Single_p_;
 			}
 		}
 
 		/// <summary>
 		/// Boolean StartAnimationInlineTransformOrigin(UnityEngine.UIElements.VisualElement, UnityEngine.UIElements.ComputedStyle ByRef, UnityEngine.UIElements.StyleTransformOrigin, Int32, Int32, System.Func`2[System.Single,System.Single])
 		/// </summary>
-		protected static RMethod r_RStartAnimationInlineTransformOrigin_VisualElement_Ref_ComputedStyle_StyleTransformOrigin_Int32_Int32_Func_d_Single_Single_p_;
+		protected static RMethod r_StartAnimationInlineTransformOrigin_VisualElement_Ref_ComputedStyle_StyleTransformOrigin_Int32_Int32_Func_d_Single_Single_p_;
 		public static RMethod RStartAnimationInlineTransformOrigin_VisualElement_Ref_ComputedStyle_StyleTransformOrigin_Int32_Int32_Func_d_Single_Single_p_
 		{
 			get
 			{
-				if(r_RStartAnimationInlineTransformOrigin_VisualElement_Ref_ComputedStyle_StyleTransformOrigin_Int32_Int32_Func_d_Single_Single_p_ == null)
+				if(r_StartAnimationInlineTransformOrigin_VisualElement_Ref_ComputedStyle_StyleTransformOrigin_Int32_Int32_Func_d_Single_Single_p_ == null)
 				{
-					r_RStartAnimationInlineTransformOrigin_VisualElement_Ref_ComputedStyle_StyleTransformOrigin_Int32_Int32_Func_d_Single_Single_p_ = new( ReleactionUtils.GetType("UnityEngine.UIElements.ComputedStyle"), "StartAnimationInlineTransformOrigin", 0, typeof(UnityEngine.UIElements.VisualElement),  ReleactionUtils.GetType("UnityEngine.UIElements.ComputedStyle").MakeByRefType(), typeof(UnityEngine.UIElements.StyleTransformOrigin), typeof(System.Int32), typeof(System.Int32), typeof(System.Func<, >).MakeGenericType(typeof(System.Single), typeof(System.Single)));
-					r_RStartAnimationInlineTransformOrigin_VisualElement_Ref_ComputedStyle_StyleTransformOrigin_Int32_Int32_Func_d_Single_Single_p_.SetBelong(null);
+					r_StartAnimationInlineTransformOrigin_VisualElement_Ref_ComputedStyle_StyleTransformOrigin_Int32_Int32_Func_d_Single_Single_p_ = new( ReleactionUtils.GetType("UnityEngine.UIElements.ComputedStyle"), "StartAnimationInlineTransformOrigin", 0, typeof(UnityEngine.UIElements.VisualElement),  ReleactionUtils.GetType("UnityEngine.UIElements.ComputedStyle").MakeByRefType(), typeof(UnityEngine.UIElements.StyleTransformOrigin), typeof(System.Int32), typeof(System.Int32), typeof(System.Func<, >).MakeGenericType(typeof(System.Single), typeof(System.Single)));
+					r_StartAnimationInlineTransformOrigin_VisualElement_Ref_ComputedStyle_StyleTransformOrigin_Int32_Int32_Func_d_Single_Single_p_.SetBelong(null);
 				}
-				return r_RStartAnimationInlineTransformOrigin_VisualElement_Ref_ComputedStyle_StyleTransformOrigin_Int32_Int32_Func_d_Single_Single_p_;
+				return r_StartAnimationInlineTransformOrigin_VisualElement_Ref_ComputedStyle_StyleTransformOrigin_Int32_Int32_Func_d_Single_Single_p_;
 			}
 		}
 
 		/// <summary>
 		/// Boolean StartAnimationInlineBackgroundSize(UnityEngine.UIElements.VisualElement, UnityEngine.UIElements.ComputedStyle ByRef, UnityEngine.UIElements.StyleBackgroundSize, Int32, Int32, System.Func`2[System.Single,System.Single])
 		/// </summary>
-		protected static RMethod r_RStartAnimationInlineBackgroundSize_VisualElement_Ref_ComputedStyle_StyleBackgroundSize_Int32_Int32_Func_d_Single_Single_p_;
+		protected static RMethod r_StartAnimationInlineBackgroundSize_VisualElement_Ref_ComputedStyle_StyleBackgroundSize_Int32_Int32_Func_d_Single_Single_p_;
 		public static RMethod RStartAnimationInlineBackgroundSize_VisualElement_Ref_ComputedStyle_StyleBackgroundSize_Int32_Int32_Func_d_Single_Single_p_
 		{
 			get
 			{
-				if(r_RStartAnimationInlineBackgroundSize_VisualElement_Ref_ComputedStyle_StyleBackgroundSize_Int32_Int32_Func_d_Single_Single_p_ == null)
+				if(r_StartAnimationInlineBackgroundSize_VisualElement_Ref_ComputedStyle_StyleBackgroundSize_Int32_Int32_Func_d_Single_Single_p_ == null)
 				{
-					r_RStartAnimationInlineBackgroundSize_VisualElement_Ref_ComputedStyle_StyleBackgroundSize_Int32_Int32_Func_d_Single_Single_p_ = new( ReleactionUtils.GetType("UnityEngine.UIElements.ComputedStyle"), "StartAnimationInlineBackgroundSize", 0, typeof(UnityEngine.UIElements.VisualElement),  ReleactionUtils.GetType("UnityEngine.UIElements.ComputedStyle").MakeByRefType(), typeof(UnityEngine.UIElements.StyleBackgroundSize), typeof(System.Int32), typeof(System.Int32), typeof(System.Func<, >).MakeGenericType(typeof(System.Single), typeof(System.Single)));
-					r_RStartAnimationInlineBackgroundSize_VisualElement_Ref_ComputedStyle_StyleBackgroundSize_Int32_Int32_Func_d_Single_Single_p_.SetBelong(null);
+					r_StartAnimationInlineBackgroundSize_VisualElement_Ref_ComputedStyle_StyleBackgroundSize_Int32_Int32_Func_d_Single_Single_p_ = new( ReleactionUtils.GetType("UnityEngine.UIElements.ComputedStyle"), "StartAnimationInlineBackgroundSize", 0, typeof(UnityEngine.UIElements.VisualElement),  ReleactionUtils.GetType("UnityEngine.UIElements.ComputedStyle").MakeByRefType(), typeof(UnityEngine.UIElements.StyleBackgroundSize), typeof(System.Int32), typeof(System.Int32), typeof(System.Func<, >).MakeGenericType(typeof(System.Single), typeof(System.Single)));
+					r_StartAnimationInlineBackgroundSize_VisualElement_Ref_ComputedStyle_StyleBackgroundSize_Int32_Int32_Func_d_Single_Single_p_.SetBelong(null);
 				}
-				return r_RStartAnimationInlineBackgroundSize_VisualElement_Ref_ComputedStyle_StyleBackgroundSize_Int32_Int32_Func_d_Single_Single_p_;
+				return r_StartAnimationInlineBackgroundSize_VisualElement_Ref_ComputedStyle_StyleBackgroundSize_Int32_Int32_Func_d_Single_Single_p_;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.ComputedStyle Create(UnityEngine.UIElements.ComputedStyle ByRef)
 		/// </summary>
-		protected static RMethod r_RCreate_Ref_ComputedStyle;
+		protected static RMethod r_Create_Ref_ComputedStyle;
 		public static RMethod RCreate_Ref_ComputedStyle
 		{
 			get
 			{
-				if(r_RCreate_Ref_ComputedStyle == null)
+				if(r_Create_Ref_ComputedStyle == null)
 				{
-					r_RCreate_Ref_ComputedStyle = new( ReleactionUtils.GetType("UnityEngine.UIElements.ComputedStyle"), "Create", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.ComputedStyle").MakeByRefType());
-					r_RCreate_Ref_ComputedStyle.SetBelong(null);
+					r_Create_Ref_ComputedStyle = new( ReleactionUtils.GetType("UnityEngine.UIElements.ComputedStyle"), "Create", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.ComputedStyle").MakeByRefType());
+					r_Create_Ref_ComputedStyle.SetBelong(null);
 				}
-				return r_RCreate_Ref_ComputedStyle;
+				return r_Create_Ref_ComputedStyle;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.ComputedStyle CreateInitial()
 		/// </summary>
-		protected static RMethod r_RCreateInitial;
+		protected static RMethod r_CreateInitial;
 		public static RMethod RCreateInitial
 		{
 			get
 			{
-				if(r_RCreateInitial == null)
+				if(r_CreateInitial == null)
 				{
-					r_RCreateInitial = new( ReleactionUtils.GetType("UnityEngine.UIElements.ComputedStyle"), "CreateInitial", 0);
-					r_RCreateInitial.SetBelong(null);
+					r_CreateInitial = new( ReleactionUtils.GetType("UnityEngine.UIElements.ComputedStyle"), "CreateInitial", 0);
+					r_CreateInitial.SetBelong(null);
 				}
-				return r_RCreateInitial;
+				return r_CreateInitial;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.ComputedStyle Acquire()
 		/// </summary>
-		protected RMethod r_RAcquire;
+		protected RMethod r_Acquire;
 		public virtual RMethod RAcquire
 		{
 			get
 			{
-				if(r_RAcquire == null)
+				if(r_Acquire == null)
 				{
-					r_RAcquire = new(this, "Acquire", 0);
-					r_RAcquire.SetBelong(this.instance);
+					r_Acquire = new(this, "Acquire", 0);
+					r_Acquire.SetBelong(this.instance);
 				}
-				return r_RAcquire;
+				return r_Acquire;
 			}
 		}
 
 		/// <summary>
 		/// Void Release()
 		/// </summary>
-		protected RMethod r_RRelease;
+		protected RMethod r_Release;
 		public virtual RMethod RRelease
 		{
 			get
 			{
-				if(r_RRelease == null)
+				if(r_Release == null)
 				{
-					r_RRelease = new(this, "Release", 0);
-					r_RRelease.SetBelong(this.instance);
+					r_Release = new(this, "Release", 0);
+					r_Release.SetBelong(this.instance);
 				}
-				return r_RRelease;
+				return r_Release;
 			}
 		}
 
 		/// <summary>
 		/// Void CopyFrom(UnityEngine.UIElements.ComputedStyle ByRef)
 		/// </summary>
-		protected RMethod r_RCopyFrom_Ref_ComputedStyle;
+		protected RMethod r_CopyFrom_Ref_ComputedStyle;
 		public virtual RMethod RCopyFrom_Ref_ComputedStyle
 		{
 			get
 			{
-				if(r_RCopyFrom_Ref_ComputedStyle == null)
+				if(r_CopyFrom_Ref_ComputedStyle == null)
 				{
-					r_RCopyFrom_Ref_ComputedStyle = new(this, "CopyFrom", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.ComputedStyle").MakeByRefType());
-					r_RCopyFrom_Ref_ComputedStyle.SetBelong(this.instance);
+					r_CopyFrom_Ref_ComputedStyle = new(this, "CopyFrom", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.ComputedStyle").MakeByRefType());
+					r_CopyFrom_Ref_ComputedStyle.SetBelong(this.instance);
 				}
-				return r_RCopyFrom_Ref_ComputedStyle;
+				return r_CopyFrom_Ref_ComputedStyle;
 			}
 		}
 
 		/// <summary>
 		/// Void ApplyProperties(UnityEngine.UIElements.StyleSheets.StylePropertyReader, UnityEngine.UIElements.ComputedStyle ByRef)
 		/// </summary>
-		protected RMethod r_RApplyProperties_StylePropertyReader_Ref_ComputedStyle;
+		protected RMethod r_ApplyProperties_StylePropertyReader_Ref_ComputedStyle;
 		public virtual RMethod RApplyProperties_StylePropertyReader_Ref_ComputedStyle
 		{
 			get
 			{
-				if(r_RApplyProperties_StylePropertyReader_Ref_ComputedStyle == null)
+				if(r_ApplyProperties_StylePropertyReader_Ref_ComputedStyle == null)
 				{
-					r_RApplyProperties_StylePropertyReader_Ref_ComputedStyle = new(this, "ApplyProperties", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyReader"),  ReleactionUtils.GetType("UnityEngine.UIElements.ComputedStyle").MakeByRefType());
-					r_RApplyProperties_StylePropertyReader_Ref_ComputedStyle.SetBelong(this.instance);
+					r_ApplyProperties_StylePropertyReader_Ref_ComputedStyle = new(this, "ApplyProperties", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyReader"),  ReleactionUtils.GetType("UnityEngine.UIElements.ComputedStyle").MakeByRefType());
+					r_ApplyProperties_StylePropertyReader_Ref_ComputedStyle.SetBelong(this.instance);
 				}
-				return r_RApplyProperties_StylePropertyReader_Ref_ComputedStyle;
+				return r_ApplyProperties_StylePropertyReader_Ref_ComputedStyle;
 			}
 		}
 
 		/// <summary>
 		/// Void ApplyStyleValue(UnityEngine.UIElements.StyleSheets.StyleValue, UnityEngine.UIElements.ComputedStyle ByRef)
 		/// </summary>
-		protected RMethod r_RApplyStyleValue_StyleValue_Ref_ComputedStyle;
+		protected RMethod r_ApplyStyleValue_StyleValue_Ref_ComputedStyle;
 		public virtual RMethod RApplyStyleValue_StyleValue_Ref_ComputedStyle
 		{
 			get
 			{
-				if(r_RApplyStyleValue_StyleValue_Ref_ComputedStyle == null)
+				if(r_ApplyStyleValue_StyleValue_Ref_ComputedStyle == null)
 				{
-					r_RApplyStyleValue_StyleValue_Ref_ComputedStyle = new(this, "ApplyStyleValue", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StyleValue"),  ReleactionUtils.GetType("UnityEngine.UIElements.ComputedStyle").MakeByRefType());
-					r_RApplyStyleValue_StyleValue_Ref_ComputedStyle.SetBelong(this.instance);
+					r_ApplyStyleValue_StyleValue_Ref_ComputedStyle = new(this, "ApplyStyleValue", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StyleValue"),  ReleactionUtils.GetType("UnityEngine.UIElements.ComputedStyle").MakeByRefType());
+					r_ApplyStyleValue_StyleValue_Ref_ComputedStyle.SetBelong(this.instance);
 				}
-				return r_RApplyStyleValue_StyleValue_Ref_ComputedStyle;
+				return r_ApplyStyleValue_StyleValue_Ref_ComputedStyle;
 			}
 		}
 
 		/// <summary>
 		/// Void ApplyStyleValueManaged(UnityEngine.UIElements.StyleSheets.StyleValueManaged, UnityEngine.UIElements.ComputedStyle ByRef)
 		/// </summary>
-		protected RMethod r_RApplyStyleValueManaged_StyleValueManaged_Ref_ComputedStyle;
+		protected RMethod r_ApplyStyleValueManaged_StyleValueManaged_Ref_ComputedStyle;
 		public virtual RMethod RApplyStyleValueManaged_StyleValueManaged_Ref_ComputedStyle
 		{
 			get
 			{
-				if(r_RApplyStyleValueManaged_StyleValueManaged_Ref_ComputedStyle == null)
+				if(r_ApplyStyleValueManaged_StyleValueManaged_Ref_ComputedStyle == null)
 				{
-					r_RApplyStyleValueManaged_StyleValueManaged_Ref_ComputedStyle = new(this, "ApplyStyleValueManaged", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StyleValueManaged"),  ReleactionUtils.GetType("UnityEngine.UIElements.ComputedStyle").MakeByRefType());
-					r_RApplyStyleValueManaged_StyleValueManaged_Ref_ComputedStyle.SetBelong(this.instance);
+					r_ApplyStyleValueManaged_StyleValueManaged_Ref_ComputedStyle = new(this, "ApplyStyleValueManaged", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StyleValueManaged"),  ReleactionUtils.GetType("UnityEngine.UIElements.ComputedStyle").MakeByRefType());
+					r_ApplyStyleValueManaged_StyleValueManaged_Ref_ComputedStyle.SetBelong(this.instance);
 				}
-				return r_RApplyStyleValueManaged_StyleValueManaged_Ref_ComputedStyle;
+				return r_ApplyStyleValueManaged_StyleValueManaged_Ref_ComputedStyle;
 			}
 		}
 
 		/// <summary>
 		/// Void ApplyStyleCursor(UnityEngine.UIElements.Cursor)
 		/// </summary>
-		protected RMethod r_RApplyStyleCursor_Cursor;
+		protected RMethod r_ApplyStyleCursor_Cursor;
 		public virtual RMethod RApplyStyleCursor_Cursor
 		{
 			get
 			{
-				if(r_RApplyStyleCursor_Cursor == null)
+				if(r_ApplyStyleCursor_Cursor == null)
 				{
-					r_RApplyStyleCursor_Cursor = new(this, "ApplyStyleCursor", 0, typeof(UnityEngine.UIElements.Cursor));
-					r_RApplyStyleCursor_Cursor.SetBelong(this.instance);
+					r_ApplyStyleCursor_Cursor = new(this, "ApplyStyleCursor", 0, typeof(UnityEngine.UIElements.Cursor));
+					r_ApplyStyleCursor_Cursor.SetBelong(this.instance);
 				}
-				return r_RApplyStyleCursor_Cursor;
+				return r_ApplyStyleCursor_Cursor;
 			}
 		}
 
 		/// <summary>
 		/// Void ApplyStyleTextShadow(UnityEngine.UIElements.TextShadow)
 		/// </summary>
-		protected RMethod r_RApplyStyleTextShadow_TextShadow;
+		protected RMethod r_ApplyStyleTextShadow_TextShadow;
 		public virtual RMethod RApplyStyleTextShadow_TextShadow
 		{
 			get
 			{
-				if(r_RApplyStyleTextShadow_TextShadow == null)
+				if(r_ApplyStyleTextShadow_TextShadow == null)
 				{
-					r_RApplyStyleTextShadow_TextShadow = new(this, "ApplyStyleTextShadow", 0, typeof(UnityEngine.UIElements.TextShadow));
-					r_RApplyStyleTextShadow_TextShadow.SetBelong(this.instance);
+					r_ApplyStyleTextShadow_TextShadow = new(this, "ApplyStyleTextShadow", 0, typeof(UnityEngine.UIElements.TextShadow));
+					r_ApplyStyleTextShadow_TextShadow.SetBelong(this.instance);
 				}
-				return r_RApplyStyleTextShadow_TextShadow;
+				return r_ApplyStyleTextShadow_TextShadow;
 			}
 		}
 
 		/// <summary>
 		/// Void ApplyFromComputedStyle(UnityEngine.UIElements.StyleSheets.StylePropertyId, UnityEngine.UIElements.ComputedStyle ByRef)
 		/// </summary>
-		protected RMethod r_RApplyFromComputedStyle_StylePropertyId_Ref_ComputedStyle;
+		protected RMethod r_ApplyFromComputedStyle_StylePropertyId_Ref_ComputedStyle;
 		public virtual RMethod RApplyFromComputedStyle_StylePropertyId_Ref_ComputedStyle
 		{
 			get
 			{
-				if(r_RApplyFromComputedStyle_StylePropertyId_Ref_ComputedStyle == null)
+				if(r_ApplyFromComputedStyle_StylePropertyId_Ref_ComputedStyle == null)
 				{
-					r_RApplyFromComputedStyle_StylePropertyId_Ref_ComputedStyle = new(this, "ApplyFromComputedStyle", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"),  ReleactionUtils.GetType("UnityEngine.UIElements.ComputedStyle").MakeByRefType());
-					r_RApplyFromComputedStyle_StylePropertyId_Ref_ComputedStyle.SetBelong(this.instance);
+					r_ApplyFromComputedStyle_StylePropertyId_Ref_ComputedStyle = new(this, "ApplyFromComputedStyle", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"),  ReleactionUtils.GetType("UnityEngine.UIElements.ComputedStyle").MakeByRefType());
+					r_ApplyFromComputedStyle_StylePropertyId_Ref_ComputedStyle.SetBelong(this.instance);
 				}
-				return r_RApplyFromComputedStyle_StylePropertyId_Ref_ComputedStyle;
+				return r_ApplyFromComputedStyle_StylePropertyId_Ref_ComputedStyle;
 			}
 		}
 
 		/// <summary>
 		/// Void ApplyPropertyAnimation(UnityEngine.UIElements.VisualElement, UnityEngine.UIElements.StyleSheets.StylePropertyId, UnityEngine.UIElements.Length)
 		/// </summary>
-		protected RMethod r_RApplyPropertyAnimation_VisualElement_StylePropertyId_Length;
+		protected RMethod r_ApplyPropertyAnimation_VisualElement_StylePropertyId_Length;
 		public virtual RMethod RApplyPropertyAnimation_VisualElement_StylePropertyId_Length
 		{
 			get
 			{
-				if(r_RApplyPropertyAnimation_VisualElement_StylePropertyId_Length == null)
+				if(r_ApplyPropertyAnimation_VisualElement_StylePropertyId_Length == null)
 				{
-					r_RApplyPropertyAnimation_VisualElement_StylePropertyId_Length = new(this, "ApplyPropertyAnimation", 0, typeof(UnityEngine.UIElements.VisualElement),  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"), typeof(UnityEngine.UIElements.Length));
-					r_RApplyPropertyAnimation_VisualElement_StylePropertyId_Length.SetBelong(this.instance);
+					r_ApplyPropertyAnimation_VisualElement_StylePropertyId_Length = new(this, "ApplyPropertyAnimation", 0, typeof(UnityEngine.UIElements.VisualElement),  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"), typeof(UnityEngine.UIElements.Length));
+					r_ApplyPropertyAnimation_VisualElement_StylePropertyId_Length.SetBelong(this.instance);
 				}
-				return r_RApplyPropertyAnimation_VisualElement_StylePropertyId_Length;
+				return r_ApplyPropertyAnimation_VisualElement_StylePropertyId_Length;
 			}
 		}
 
 		/// <summary>
 		/// Void ApplyPropertyAnimation(UnityEngine.UIElements.VisualElement, UnityEngine.UIElements.StyleSheets.StylePropertyId, Single)
 		/// </summary>
-		protected RMethod r_RApplyPropertyAnimation_VisualElement_StylePropertyId_Single;
+		protected RMethod r_ApplyPropertyAnimation_VisualElement_StylePropertyId_Single;
 		public virtual RMethod RApplyPropertyAnimation_VisualElement_StylePropertyId_Single
 		{
 			get
 			{
-				if(r_RApplyPropertyAnimation_VisualElement_StylePropertyId_Single == null)
+				if(r_ApplyPropertyAnimation_VisualElement_StylePropertyId_Single == null)
 				{
-					r_RApplyPropertyAnimation_VisualElement_StylePropertyId_Single = new(this, "ApplyPropertyAnimation", 0, typeof(UnityEngine.UIElements.VisualElement),  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"), typeof(System.Single));
-					r_RApplyPropertyAnimation_VisualElement_StylePropertyId_Single.SetBelong(this.instance);
+					r_ApplyPropertyAnimation_VisualElement_StylePropertyId_Single = new(this, "ApplyPropertyAnimation", 0, typeof(UnityEngine.UIElements.VisualElement),  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"), typeof(System.Single));
+					r_ApplyPropertyAnimation_VisualElement_StylePropertyId_Single.SetBelong(this.instance);
 				}
-				return r_RApplyPropertyAnimation_VisualElement_StylePropertyId_Single;
+				return r_ApplyPropertyAnimation_VisualElement_StylePropertyId_Single;
 			}
 		}
 
 		/// <summary>
 		/// Void ApplyPropertyAnimation(UnityEngine.UIElements.VisualElement, UnityEngine.UIElements.StyleSheets.StylePropertyId, Int32)
 		/// </summary>
-		protected RMethod r_RApplyPropertyAnimation_VisualElement_StylePropertyId_Int32;
+		protected RMethod r_ApplyPropertyAnimation_VisualElement_StylePropertyId_Int32;
 		public virtual RMethod RApplyPropertyAnimation_VisualElement_StylePropertyId_Int32
 		{
 			get
 			{
-				if(r_RApplyPropertyAnimation_VisualElement_StylePropertyId_Int32 == null)
+				if(r_ApplyPropertyAnimation_VisualElement_StylePropertyId_Int32 == null)
 				{
-					r_RApplyPropertyAnimation_VisualElement_StylePropertyId_Int32 = new(this, "ApplyPropertyAnimation", 0, typeof(UnityEngine.UIElements.VisualElement),  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"), typeof(System.Int32));
-					r_RApplyPropertyAnimation_VisualElement_StylePropertyId_Int32.SetBelong(this.instance);
+					r_ApplyPropertyAnimation_VisualElement_StylePropertyId_Int32 = new(this, "ApplyPropertyAnimation", 0, typeof(UnityEngine.UIElements.VisualElement),  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"), typeof(System.Int32));
+					r_ApplyPropertyAnimation_VisualElement_StylePropertyId_Int32.SetBelong(this.instance);
 				}
-				return r_RApplyPropertyAnimation_VisualElement_StylePropertyId_Int32;
+				return r_ApplyPropertyAnimation_VisualElement_StylePropertyId_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Void ApplyPropertyAnimation(UnityEngine.UIElements.VisualElement, UnityEngine.UIElements.StyleSheets.StylePropertyId, UnityEngine.UIElements.BackgroundPosition)
 		/// </summary>
-		protected RMethod r_RApplyPropertyAnimation_VisualElement_StylePropertyId_BackgroundPosition;
+		protected RMethod r_ApplyPropertyAnimation_VisualElement_StylePropertyId_BackgroundPosition;
 		public virtual RMethod RApplyPropertyAnimation_VisualElement_StylePropertyId_BackgroundPosition
 		{
 			get
 			{
-				if(r_RApplyPropertyAnimation_VisualElement_StylePropertyId_BackgroundPosition == null)
+				if(r_ApplyPropertyAnimation_VisualElement_StylePropertyId_BackgroundPosition == null)
 				{
-					r_RApplyPropertyAnimation_VisualElement_StylePropertyId_BackgroundPosition = new(this, "ApplyPropertyAnimation", 0, typeof(UnityEngine.UIElements.VisualElement),  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"), typeof(UnityEngine.UIElements.BackgroundPosition));
-					r_RApplyPropertyAnimation_VisualElement_StylePropertyId_BackgroundPosition.SetBelong(this.instance);
+					r_ApplyPropertyAnimation_VisualElement_StylePropertyId_BackgroundPosition = new(this, "ApplyPropertyAnimation", 0, typeof(UnityEngine.UIElements.VisualElement),  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"), typeof(UnityEngine.UIElements.BackgroundPosition));
+					r_ApplyPropertyAnimation_VisualElement_StylePropertyId_BackgroundPosition.SetBelong(this.instance);
 				}
-				return r_RApplyPropertyAnimation_VisualElement_StylePropertyId_BackgroundPosition;
+				return r_ApplyPropertyAnimation_VisualElement_StylePropertyId_BackgroundPosition;
 			}
 		}
 
 		/// <summary>
 		/// Void ApplyPropertyAnimation(UnityEngine.UIElements.VisualElement, UnityEngine.UIElements.StyleSheets.StylePropertyId, UnityEngine.UIElements.BackgroundRepeat)
 		/// </summary>
-		protected RMethod r_RApplyPropertyAnimation_VisualElement_StylePropertyId_BackgroundRepeat;
+		protected RMethod r_ApplyPropertyAnimation_VisualElement_StylePropertyId_BackgroundRepeat;
 		public virtual RMethod RApplyPropertyAnimation_VisualElement_StylePropertyId_BackgroundRepeat
 		{
 			get
 			{
-				if(r_RApplyPropertyAnimation_VisualElement_StylePropertyId_BackgroundRepeat == null)
+				if(r_ApplyPropertyAnimation_VisualElement_StylePropertyId_BackgroundRepeat == null)
 				{
-					r_RApplyPropertyAnimation_VisualElement_StylePropertyId_BackgroundRepeat = new(this, "ApplyPropertyAnimation", 0, typeof(UnityEngine.UIElements.VisualElement),  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"), typeof(UnityEngine.UIElements.BackgroundRepeat));
-					r_RApplyPropertyAnimation_VisualElement_StylePropertyId_BackgroundRepeat.SetBelong(this.instance);
+					r_ApplyPropertyAnimation_VisualElement_StylePropertyId_BackgroundRepeat = new(this, "ApplyPropertyAnimation", 0, typeof(UnityEngine.UIElements.VisualElement),  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"), typeof(UnityEngine.UIElements.BackgroundRepeat));
+					r_ApplyPropertyAnimation_VisualElement_StylePropertyId_BackgroundRepeat.SetBelong(this.instance);
 				}
-				return r_RApplyPropertyAnimation_VisualElement_StylePropertyId_BackgroundRepeat;
+				return r_ApplyPropertyAnimation_VisualElement_StylePropertyId_BackgroundRepeat;
 			}
 		}
 
 		/// <summary>
 		/// Void ApplyPropertyAnimation(UnityEngine.UIElements.VisualElement, UnityEngine.UIElements.StyleSheets.StylePropertyId, UnityEngine.UIElements.BackgroundSize)
 		/// </summary>
-		protected RMethod r_RApplyPropertyAnimation_VisualElement_StylePropertyId_BackgroundSize;
+		protected RMethod r_ApplyPropertyAnimation_VisualElement_StylePropertyId_BackgroundSize;
 		public virtual RMethod RApplyPropertyAnimation_VisualElement_StylePropertyId_BackgroundSize
 		{
 			get
 			{
-				if(r_RApplyPropertyAnimation_VisualElement_StylePropertyId_BackgroundSize == null)
+				if(r_ApplyPropertyAnimation_VisualElement_StylePropertyId_BackgroundSize == null)
 				{
-					r_RApplyPropertyAnimation_VisualElement_StylePropertyId_BackgroundSize = new(this, "ApplyPropertyAnimation", 0, typeof(UnityEngine.UIElements.VisualElement),  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"), typeof(UnityEngine.UIElements.BackgroundSize));
-					r_RApplyPropertyAnimation_VisualElement_StylePropertyId_BackgroundSize.SetBelong(this.instance);
+					r_ApplyPropertyAnimation_VisualElement_StylePropertyId_BackgroundSize = new(this, "ApplyPropertyAnimation", 0, typeof(UnityEngine.UIElements.VisualElement),  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"), typeof(UnityEngine.UIElements.BackgroundSize));
+					r_ApplyPropertyAnimation_VisualElement_StylePropertyId_BackgroundSize.SetBelong(this.instance);
 				}
-				return r_RApplyPropertyAnimation_VisualElement_StylePropertyId_BackgroundSize;
+				return r_ApplyPropertyAnimation_VisualElement_StylePropertyId_BackgroundSize;
 			}
 		}
 
 		/// <summary>
 		/// Void ApplyPropertyAnimation(UnityEngine.UIElements.VisualElement, UnityEngine.UIElements.StyleSheets.StylePropertyId, UnityEngine.Color)
 		/// </summary>
-		protected RMethod r_RApplyPropertyAnimation_VisualElement_StylePropertyId_Color;
+		protected RMethod r_ApplyPropertyAnimation_VisualElement_StylePropertyId_Color;
 		public virtual RMethod RApplyPropertyAnimation_VisualElement_StylePropertyId_Color
 		{
 			get
 			{
-				if(r_RApplyPropertyAnimation_VisualElement_StylePropertyId_Color == null)
+				if(r_ApplyPropertyAnimation_VisualElement_StylePropertyId_Color == null)
 				{
-					r_RApplyPropertyAnimation_VisualElement_StylePropertyId_Color = new(this, "ApplyPropertyAnimation", 0, typeof(UnityEngine.UIElements.VisualElement),  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"), typeof(UnityEngine.Color));
-					r_RApplyPropertyAnimation_VisualElement_StylePropertyId_Color.SetBelong(this.instance);
+					r_ApplyPropertyAnimation_VisualElement_StylePropertyId_Color = new(this, "ApplyPropertyAnimation", 0, typeof(UnityEngine.UIElements.VisualElement),  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"), typeof(UnityEngine.Color));
+					r_ApplyPropertyAnimation_VisualElement_StylePropertyId_Color.SetBelong(this.instance);
 				}
-				return r_RApplyPropertyAnimation_VisualElement_StylePropertyId_Color;
+				return r_ApplyPropertyAnimation_VisualElement_StylePropertyId_Color;
 			}
 		}
 
 		/// <summary>
 		/// Void ApplyPropertyAnimation(UnityEngine.UIElements.VisualElement, UnityEngine.UIElements.StyleSheets.StylePropertyId, UnityEngine.UIElements.Background)
 		/// </summary>
-		protected RMethod r_RApplyPropertyAnimation_VisualElement_StylePropertyId_Background;
+		protected RMethod r_ApplyPropertyAnimation_VisualElement_StylePropertyId_Background;
 		public virtual RMethod RApplyPropertyAnimation_VisualElement_StylePropertyId_Background
 		{
 			get
 			{
-				if(r_RApplyPropertyAnimation_VisualElement_StylePropertyId_Background == null)
+				if(r_ApplyPropertyAnimation_VisualElement_StylePropertyId_Background == null)
 				{
-					r_RApplyPropertyAnimation_VisualElement_StylePropertyId_Background = new(this, "ApplyPropertyAnimation", 0, typeof(UnityEngine.UIElements.VisualElement),  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"), typeof(UnityEngine.UIElements.Background));
-					r_RApplyPropertyAnimation_VisualElement_StylePropertyId_Background.SetBelong(this.instance);
+					r_ApplyPropertyAnimation_VisualElement_StylePropertyId_Background = new(this, "ApplyPropertyAnimation", 0, typeof(UnityEngine.UIElements.VisualElement),  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"), typeof(UnityEngine.UIElements.Background));
+					r_ApplyPropertyAnimation_VisualElement_StylePropertyId_Background.SetBelong(this.instance);
 				}
-				return r_RApplyPropertyAnimation_VisualElement_StylePropertyId_Background;
+				return r_ApplyPropertyAnimation_VisualElement_StylePropertyId_Background;
 			}
 		}
 
 		/// <summary>
 		/// Void ApplyPropertyAnimation(UnityEngine.UIElements.VisualElement, UnityEngine.UIElements.StyleSheets.StylePropertyId, UnityEngine.Font)
 		/// </summary>
-		protected RMethod r_RApplyPropertyAnimation_VisualElement_StylePropertyId_Font;
+		protected RMethod r_ApplyPropertyAnimation_VisualElement_StylePropertyId_Font;
 		public virtual RMethod RApplyPropertyAnimation_VisualElement_StylePropertyId_Font
 		{
 			get
 			{
-				if(r_RApplyPropertyAnimation_VisualElement_StylePropertyId_Font == null)
+				if(r_ApplyPropertyAnimation_VisualElement_StylePropertyId_Font == null)
 				{
-					r_RApplyPropertyAnimation_VisualElement_StylePropertyId_Font = new(this, "ApplyPropertyAnimation", 0, typeof(UnityEngine.UIElements.VisualElement),  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"), typeof(UnityEngine.Font));
-					r_RApplyPropertyAnimation_VisualElement_StylePropertyId_Font.SetBelong(this.instance);
+					r_ApplyPropertyAnimation_VisualElement_StylePropertyId_Font = new(this, "ApplyPropertyAnimation", 0, typeof(UnityEngine.UIElements.VisualElement),  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"), typeof(UnityEngine.Font));
+					r_ApplyPropertyAnimation_VisualElement_StylePropertyId_Font.SetBelong(this.instance);
 				}
-				return r_RApplyPropertyAnimation_VisualElement_StylePropertyId_Font;
+				return r_ApplyPropertyAnimation_VisualElement_StylePropertyId_Font;
 			}
 		}
 
 		/// <summary>
 		/// Void ApplyPropertyAnimation(UnityEngine.UIElements.VisualElement, UnityEngine.UIElements.StyleSheets.StylePropertyId, UnityEngine.UIElements.FontDefinition)
 		/// </summary>
-		protected RMethod r_RApplyPropertyAnimation_VisualElement_StylePropertyId_FontDefinition;
+		protected RMethod r_ApplyPropertyAnimation_VisualElement_StylePropertyId_FontDefinition;
 		public virtual RMethod RApplyPropertyAnimation_VisualElement_StylePropertyId_FontDefinition
 		{
 			get
 			{
-				if(r_RApplyPropertyAnimation_VisualElement_StylePropertyId_FontDefinition == null)
+				if(r_ApplyPropertyAnimation_VisualElement_StylePropertyId_FontDefinition == null)
 				{
-					r_RApplyPropertyAnimation_VisualElement_StylePropertyId_FontDefinition = new(this, "ApplyPropertyAnimation", 0, typeof(UnityEngine.UIElements.VisualElement),  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"), typeof(UnityEngine.UIElements.FontDefinition));
-					r_RApplyPropertyAnimation_VisualElement_StylePropertyId_FontDefinition.SetBelong(this.instance);
+					r_ApplyPropertyAnimation_VisualElement_StylePropertyId_FontDefinition = new(this, "ApplyPropertyAnimation", 0, typeof(UnityEngine.UIElements.VisualElement),  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"), typeof(UnityEngine.UIElements.FontDefinition));
+					r_ApplyPropertyAnimation_VisualElement_StylePropertyId_FontDefinition.SetBelong(this.instance);
 				}
-				return r_RApplyPropertyAnimation_VisualElement_StylePropertyId_FontDefinition;
+				return r_ApplyPropertyAnimation_VisualElement_StylePropertyId_FontDefinition;
 			}
 		}
 
 		/// <summary>
 		/// Void ApplyPropertyAnimation(UnityEngine.UIElements.VisualElement, UnityEngine.UIElements.StyleSheets.StylePropertyId, UnityEngine.UIElements.TextShadow)
 		/// </summary>
-		protected RMethod r_RApplyPropertyAnimation_VisualElement_StylePropertyId_TextShadow;
+		protected RMethod r_ApplyPropertyAnimation_VisualElement_StylePropertyId_TextShadow;
 		public virtual RMethod RApplyPropertyAnimation_VisualElement_StylePropertyId_TextShadow
 		{
 			get
 			{
-				if(r_RApplyPropertyAnimation_VisualElement_StylePropertyId_TextShadow == null)
+				if(r_ApplyPropertyAnimation_VisualElement_StylePropertyId_TextShadow == null)
 				{
-					r_RApplyPropertyAnimation_VisualElement_StylePropertyId_TextShadow = new(this, "ApplyPropertyAnimation", 0, typeof(UnityEngine.UIElements.VisualElement),  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"), typeof(UnityEngine.UIElements.TextShadow));
-					r_RApplyPropertyAnimation_VisualElement_StylePropertyId_TextShadow.SetBelong(this.instance);
+					r_ApplyPropertyAnimation_VisualElement_StylePropertyId_TextShadow = new(this, "ApplyPropertyAnimation", 0, typeof(UnityEngine.UIElements.VisualElement),  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"), typeof(UnityEngine.UIElements.TextShadow));
+					r_ApplyPropertyAnimation_VisualElement_StylePropertyId_TextShadow.SetBelong(this.instance);
 				}
-				return r_RApplyPropertyAnimation_VisualElement_StylePropertyId_TextShadow;
+				return r_ApplyPropertyAnimation_VisualElement_StylePropertyId_TextShadow;
 			}
 		}
 
 		/// <summary>
 		/// Void ApplyPropertyAnimation(UnityEngine.UIElements.VisualElement, UnityEngine.UIElements.StyleSheets.StylePropertyId, UnityEngine.UIElements.Translate)
 		/// </summary>
-		protected RMethod r_RApplyPropertyAnimation_VisualElement_StylePropertyId_Translate;
+		protected RMethod r_ApplyPropertyAnimation_VisualElement_StylePropertyId_Translate;
 		public virtual RMethod RApplyPropertyAnimation_VisualElement_StylePropertyId_Translate
 		{
 			get
 			{
-				if(r_RApplyPropertyAnimation_VisualElement_StylePropertyId_Translate == null)
+				if(r_ApplyPropertyAnimation_VisualElement_StylePropertyId_Translate == null)
 				{
-					r_RApplyPropertyAnimation_VisualElement_StylePropertyId_Translate = new(this, "ApplyPropertyAnimation", 0, typeof(UnityEngine.UIElements.VisualElement),  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"), typeof(UnityEngine.UIElements.Translate));
-					r_RApplyPropertyAnimation_VisualElement_StylePropertyId_Translate.SetBelong(this.instance);
+					r_ApplyPropertyAnimation_VisualElement_StylePropertyId_Translate = new(this, "ApplyPropertyAnimation", 0, typeof(UnityEngine.UIElements.VisualElement),  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"), typeof(UnityEngine.UIElements.Translate));
+					r_ApplyPropertyAnimation_VisualElement_StylePropertyId_Translate.SetBelong(this.instance);
 				}
-				return r_RApplyPropertyAnimation_VisualElement_StylePropertyId_Translate;
+				return r_ApplyPropertyAnimation_VisualElement_StylePropertyId_Translate;
 			}
 		}
 
 		/// <summary>
 		/// Void ApplyPropertyAnimation(UnityEngine.UIElements.VisualElement, UnityEngine.UIElements.StyleSheets.StylePropertyId, UnityEngine.UIElements.TransformOrigin)
 		/// </summary>
-		protected RMethod r_RApplyPropertyAnimation_VisualElement_StylePropertyId_TransformOrigin;
+		protected RMethod r_ApplyPropertyAnimation_VisualElement_StylePropertyId_TransformOrigin;
 		public virtual RMethod RApplyPropertyAnimation_VisualElement_StylePropertyId_TransformOrigin
 		{
 			get
 			{
-				if(r_RApplyPropertyAnimation_VisualElement_StylePropertyId_TransformOrigin == null)
+				if(r_ApplyPropertyAnimation_VisualElement_StylePropertyId_TransformOrigin == null)
 				{
-					r_RApplyPropertyAnimation_VisualElement_StylePropertyId_TransformOrigin = new(this, "ApplyPropertyAnimation", 0, typeof(UnityEngine.UIElements.VisualElement),  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"), typeof(UnityEngine.UIElements.TransformOrigin));
-					r_RApplyPropertyAnimation_VisualElement_StylePropertyId_TransformOrigin.SetBelong(this.instance);
+					r_ApplyPropertyAnimation_VisualElement_StylePropertyId_TransformOrigin = new(this, "ApplyPropertyAnimation", 0, typeof(UnityEngine.UIElements.VisualElement),  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"), typeof(UnityEngine.UIElements.TransformOrigin));
+					r_ApplyPropertyAnimation_VisualElement_StylePropertyId_TransformOrigin.SetBelong(this.instance);
 				}
-				return r_RApplyPropertyAnimation_VisualElement_StylePropertyId_TransformOrigin;
+				return r_ApplyPropertyAnimation_VisualElement_StylePropertyId_TransformOrigin;
 			}
 		}
 
 		/// <summary>
 		/// Void ApplyPropertyAnimation(UnityEngine.UIElements.VisualElement, UnityEngine.UIElements.StyleSheets.StylePropertyId, UnityEngine.UIElements.Rotate)
 		/// </summary>
-		protected RMethod r_RApplyPropertyAnimation_VisualElement_StylePropertyId_Rotate;
+		protected RMethod r_ApplyPropertyAnimation_VisualElement_StylePropertyId_Rotate;
 		public virtual RMethod RApplyPropertyAnimation_VisualElement_StylePropertyId_Rotate
 		{
 			get
 			{
-				if(r_RApplyPropertyAnimation_VisualElement_StylePropertyId_Rotate == null)
+				if(r_ApplyPropertyAnimation_VisualElement_StylePropertyId_Rotate == null)
 				{
-					r_RApplyPropertyAnimation_VisualElement_StylePropertyId_Rotate = new(this, "ApplyPropertyAnimation", 0, typeof(UnityEngine.UIElements.VisualElement),  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"), typeof(UnityEngine.UIElements.Rotate));
-					r_RApplyPropertyAnimation_VisualElement_StylePropertyId_Rotate.SetBelong(this.instance);
+					r_ApplyPropertyAnimation_VisualElement_StylePropertyId_Rotate = new(this, "ApplyPropertyAnimation", 0, typeof(UnityEngine.UIElements.VisualElement),  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"), typeof(UnityEngine.UIElements.Rotate));
+					r_ApplyPropertyAnimation_VisualElement_StylePropertyId_Rotate.SetBelong(this.instance);
 				}
-				return r_RApplyPropertyAnimation_VisualElement_StylePropertyId_Rotate;
+				return r_ApplyPropertyAnimation_VisualElement_StylePropertyId_Rotate;
 			}
 		}
 
 		/// <summary>
 		/// Void ApplyPropertyAnimation(UnityEngine.UIElements.VisualElement, UnityEngine.UIElements.StyleSheets.StylePropertyId, UnityEngine.UIElements.Scale)
 		/// </summary>
-		protected RMethod r_RApplyPropertyAnimation_VisualElement_StylePropertyId_Scale;
+		protected RMethod r_ApplyPropertyAnimation_VisualElement_StylePropertyId_Scale;
 		public virtual RMethod RApplyPropertyAnimation_VisualElement_StylePropertyId_Scale
 		{
 			get
 			{
-				if(r_RApplyPropertyAnimation_VisualElement_StylePropertyId_Scale == null)
+				if(r_ApplyPropertyAnimation_VisualElement_StylePropertyId_Scale == null)
 				{
-					r_RApplyPropertyAnimation_VisualElement_StylePropertyId_Scale = new(this, "ApplyPropertyAnimation", 0, typeof(UnityEngine.UIElements.VisualElement),  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"), typeof(UnityEngine.UIElements.Scale));
-					r_RApplyPropertyAnimation_VisualElement_StylePropertyId_Scale.SetBelong(this.instance);
+					r_ApplyPropertyAnimation_VisualElement_StylePropertyId_Scale = new(this, "ApplyPropertyAnimation", 0, typeof(UnityEngine.UIElements.VisualElement),  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"), typeof(UnityEngine.UIElements.Scale));
+					r_ApplyPropertyAnimation_VisualElement_StylePropertyId_Scale.SetBelong(this.instance);
 				}
-				return r_RApplyPropertyAnimation_VisualElement_StylePropertyId_Scale;
+				return r_ApplyPropertyAnimation_VisualElement_StylePropertyId_Scale;
 			}
 		}
 
 		/// <summary>
 		/// Boolean StartAnimation(UnityEngine.UIElements.VisualElement, UnityEngine.UIElements.StyleSheets.StylePropertyId, UnityEngine.UIElements.ComputedStyle ByRef, UnityEngine.UIElements.ComputedStyle ByRef, Int32, Int32, System.Func`2[System.Single,System.Single])
 		/// </summary>
-		protected static RMethod r_RStartAnimation_VisualElement_StylePropertyId_Ref_ComputedStyle_Ref_ComputedStyle_Int32_Int32_Func_d_Single_Single_p_;
+		protected static RMethod r_StartAnimation_VisualElement_StylePropertyId_Ref_ComputedStyle_Ref_ComputedStyle_Int32_Int32_Func_d_Single_Single_p_;
 		public static RMethod RStartAnimation_VisualElement_StylePropertyId_Ref_ComputedStyle_Ref_ComputedStyle_Int32_Int32_Func_d_Single_Single_p_
 		{
 			get
 			{
-				if(r_RStartAnimation_VisualElement_StylePropertyId_Ref_ComputedStyle_Ref_ComputedStyle_Int32_Int32_Func_d_Single_Single_p_ == null)
+				if(r_StartAnimation_VisualElement_StylePropertyId_Ref_ComputedStyle_Ref_ComputedStyle_Int32_Int32_Func_d_Single_Single_p_ == null)
 				{
-					r_RStartAnimation_VisualElement_StylePropertyId_Ref_ComputedStyle_Ref_ComputedStyle_Int32_Int32_Func_d_Single_Single_p_ = new( ReleactionUtils.GetType("UnityEngine.UIElements.ComputedStyle"), "StartAnimation", 0, typeof(UnityEngine.UIElements.VisualElement),  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"),  ReleactionUtils.GetType("UnityEngine.UIElements.ComputedStyle").MakeByRefType(),  ReleactionUtils.GetType("UnityEngine.UIElements.ComputedStyle").MakeByRefType(), typeof(System.Int32), typeof(System.Int32), typeof(System.Func<, >).MakeGenericType(typeof(System.Single), typeof(System.Single)));
-					r_RStartAnimation_VisualElement_StylePropertyId_Ref_ComputedStyle_Ref_ComputedStyle_Int32_Int32_Func_d_Single_Single_p_.SetBelong(null);
+					r_StartAnimation_VisualElement_StylePropertyId_Ref_ComputedStyle_Ref_ComputedStyle_Int32_Int32_Func_d_Single_Single_p_ = new( ReleactionUtils.GetType("UnityEngine.UIElements.ComputedStyle"), "StartAnimation", 0, typeof(UnityEngine.UIElements.VisualElement),  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"),  ReleactionUtils.GetType("UnityEngine.UIElements.ComputedStyle").MakeByRefType(),  ReleactionUtils.GetType("UnityEngine.UIElements.ComputedStyle").MakeByRefType(), typeof(System.Int32), typeof(System.Int32), typeof(System.Func<, >).MakeGenericType(typeof(System.Single), typeof(System.Single)));
+					r_StartAnimation_VisualElement_StylePropertyId_Ref_ComputedStyle_Ref_ComputedStyle_Int32_Int32_Func_d_Single_Single_p_.SetBelong(null);
 				}
-				return r_RStartAnimation_VisualElement_StylePropertyId_Ref_ComputedStyle_Ref_ComputedStyle_Int32_Int32_Func_d_Single_Single_p_;
+				return r_StartAnimation_VisualElement_StylePropertyId_Ref_ComputedStyle_Ref_ComputedStyle_Int32_Int32_Func_d_Single_Single_p_;
 			}
 		}
 
 		/// <summary>
 		/// Boolean StartAnimationAllProperty(UnityEngine.UIElements.VisualElement, UnityEngine.UIElements.ComputedStyle ByRef, UnityEngine.UIElements.ComputedStyle ByRef, Int32, Int32, System.Func`2[System.Single,System.Single])
 		/// </summary>
-		protected static RMethod r_RStartAnimationAllProperty_VisualElement_Ref_ComputedStyle_Ref_ComputedStyle_Int32_Int32_Func_d_Single_Single_p_;
+		protected static RMethod r_StartAnimationAllProperty_VisualElement_Ref_ComputedStyle_Ref_ComputedStyle_Int32_Int32_Func_d_Single_Single_p_;
 		public static RMethod RStartAnimationAllProperty_VisualElement_Ref_ComputedStyle_Ref_ComputedStyle_Int32_Int32_Func_d_Single_Single_p_
 		{
 			get
 			{
-				if(r_RStartAnimationAllProperty_VisualElement_Ref_ComputedStyle_Ref_ComputedStyle_Int32_Int32_Func_d_Single_Single_p_ == null)
+				if(r_StartAnimationAllProperty_VisualElement_Ref_ComputedStyle_Ref_ComputedStyle_Int32_Int32_Func_d_Single_Single_p_ == null)
 				{
-					r_RStartAnimationAllProperty_VisualElement_Ref_ComputedStyle_Ref_ComputedStyle_Int32_Int32_Func_d_Single_Single_p_ = new( ReleactionUtils.GetType("UnityEngine.UIElements.ComputedStyle"), "StartAnimationAllProperty", 0, typeof(UnityEngine.UIElements.VisualElement),  ReleactionUtils.GetType("UnityEngine.UIElements.ComputedStyle").MakeByRefType(),  ReleactionUtils.GetType("UnityEngine.UIElements.ComputedStyle").MakeByRefType(), typeof(System.Int32), typeof(System.Int32), typeof(System.Func<, >).MakeGenericType(typeof(System.Single), typeof(System.Single)));
-					r_RStartAnimationAllProperty_VisualElement_Ref_ComputedStyle_Ref_ComputedStyle_Int32_Int32_Func_d_Single_Single_p_.SetBelong(null);
+					r_StartAnimationAllProperty_VisualElement_Ref_ComputedStyle_Ref_ComputedStyle_Int32_Int32_Func_d_Single_Single_p_ = new( ReleactionUtils.GetType("UnityEngine.UIElements.ComputedStyle"), "StartAnimationAllProperty", 0, typeof(UnityEngine.UIElements.VisualElement),  ReleactionUtils.GetType("UnityEngine.UIElements.ComputedStyle").MakeByRefType(),  ReleactionUtils.GetType("UnityEngine.UIElements.ComputedStyle").MakeByRefType(), typeof(System.Int32), typeof(System.Int32), typeof(System.Func<, >).MakeGenericType(typeof(System.Single), typeof(System.Single)));
+					r_StartAnimationAllProperty_VisualElement_Ref_ComputedStyle_Ref_ComputedStyle_Int32_Int32_Func_d_Single_Single_p_.SetBelong(null);
 				}
-				return r_RStartAnimationAllProperty_VisualElement_Ref_ComputedStyle_Ref_ComputedStyle_Int32_Int32_Func_d_Single_Single_p_;
+				return r_StartAnimationAllProperty_VisualElement_Ref_ComputedStyle_Ref_ComputedStyle_Int32_Int32_Func_d_Single_Single_p_;
 			}
 		}
 
 		/// <summary>
 		/// Boolean StartAnimationInline(UnityEngine.UIElements.VisualElement, UnityEngine.UIElements.StyleSheets.StylePropertyId, UnityEngine.UIElements.ComputedStyle ByRef, UnityEngine.UIElements.StyleSheets.StyleValue, Int32, Int32, System.Func`2[System.Single,System.Single])
 		/// </summary>
-		protected static RMethod r_RStartAnimationInline_VisualElement_StylePropertyId_Ref_ComputedStyle_StyleValue_Int32_Int32_Func_d_Single_Single_p_;
+		protected static RMethod r_StartAnimationInline_VisualElement_StylePropertyId_Ref_ComputedStyle_StyleValue_Int32_Int32_Func_d_Single_Single_p_;
 		public static RMethod RStartAnimationInline_VisualElement_StylePropertyId_Ref_ComputedStyle_StyleValue_Int32_Int32_Func_d_Single_Single_p_
 		{
 			get
 			{
-				if(r_RStartAnimationInline_VisualElement_StylePropertyId_Ref_ComputedStyle_StyleValue_Int32_Int32_Func_d_Single_Single_p_ == null)
+				if(r_StartAnimationInline_VisualElement_StylePropertyId_Ref_ComputedStyle_StyleValue_Int32_Int32_Func_d_Single_Single_p_ == null)
 				{
-					r_RStartAnimationInline_VisualElement_StylePropertyId_Ref_ComputedStyle_StyleValue_Int32_Int32_Func_d_Single_Single_p_ = new( ReleactionUtils.GetType("UnityEngine.UIElements.ComputedStyle"), "StartAnimationInline", 0, typeof(UnityEngine.UIElements.VisualElement),  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"),  ReleactionUtils.GetType("UnityEngine.UIElements.ComputedStyle").MakeByRefType(),  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StyleValue"), typeof(System.Int32), typeof(System.Int32), typeof(System.Func<, >).MakeGenericType(typeof(System.Single), typeof(System.Single)));
-					r_RStartAnimationInline_VisualElement_StylePropertyId_Ref_ComputedStyle_StyleValue_Int32_Int32_Func_d_Single_Single_p_.SetBelong(null);
+					r_StartAnimationInline_VisualElement_StylePropertyId_Ref_ComputedStyle_StyleValue_Int32_Int32_Func_d_Single_Single_p_ = new( ReleactionUtils.GetType("UnityEngine.UIElements.ComputedStyle"), "StartAnimationInline", 0, typeof(UnityEngine.UIElements.VisualElement),  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"),  ReleactionUtils.GetType("UnityEngine.UIElements.ComputedStyle").MakeByRefType(),  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StyleValue"), typeof(System.Int32), typeof(System.Int32), typeof(System.Func<, >).MakeGenericType(typeof(System.Single), typeof(System.Single)));
+					r_StartAnimationInline_VisualElement_StylePropertyId_Ref_ComputedStyle_StyleValue_Int32_Int32_Func_d_Single_Single_p_.SetBelong(null);
 				}
-				return r_RStartAnimationInline_VisualElement_StylePropertyId_Ref_ComputedStyle_StyleValue_Int32_Int32_Func_d_Single_Single_p_;
+				return r_StartAnimationInline_VisualElement_StylePropertyId_Ref_ComputedStyle_StyleValue_Int32_Int32_Func_d_Single_Single_p_;
 			}
 		}
 
 		/// <summary>
 		/// Void ApplyStyleTransformOrigin(UnityEngine.UIElements.TransformOrigin)
 		/// </summary>
-		protected RMethod r_RApplyStyleTransformOrigin_TransformOrigin;
+		protected RMethod r_ApplyStyleTransformOrigin_TransformOrigin;
 		public virtual RMethod RApplyStyleTransformOrigin_TransformOrigin
 		{
 			get
 			{
-				if(r_RApplyStyleTransformOrigin_TransformOrigin == null)
+				if(r_ApplyStyleTransformOrigin_TransformOrigin == null)
 				{
-					r_RApplyStyleTransformOrigin_TransformOrigin = new(this, "ApplyStyleTransformOrigin", 0, typeof(UnityEngine.UIElements.TransformOrigin));
-					r_RApplyStyleTransformOrigin_TransformOrigin.SetBelong(this.instance);
+					r_ApplyStyleTransformOrigin_TransformOrigin = new(this, "ApplyStyleTransformOrigin", 0, typeof(UnityEngine.UIElements.TransformOrigin));
+					r_ApplyStyleTransformOrigin_TransformOrigin.SetBelong(this.instance);
 				}
-				return r_RApplyStyleTransformOrigin_TransformOrigin;
+				return r_ApplyStyleTransformOrigin_TransformOrigin;
 			}
 		}
 
 		/// <summary>
 		/// Void ApplyStyleTranslate(UnityEngine.UIElements.Translate)
 		/// </summary>
-		protected RMethod r_RApplyStyleTranslate_Translate;
+		protected RMethod r_ApplyStyleTranslate_Translate;
 		public virtual RMethod RApplyStyleTranslate_Translate
 		{
 			get
 			{
-				if(r_RApplyStyleTranslate_Translate == null)
+				if(r_ApplyStyleTranslate_Translate == null)
 				{
-					r_RApplyStyleTranslate_Translate = new(this, "ApplyStyleTranslate", 0, typeof(UnityEngine.UIElements.Translate));
-					r_RApplyStyleTranslate_Translate.SetBelong(this.instance);
+					r_ApplyStyleTranslate_Translate = new(this, "ApplyStyleTranslate", 0, typeof(UnityEngine.UIElements.Translate));
+					r_ApplyStyleTranslate_Translate.SetBelong(this.instance);
 				}
-				return r_RApplyStyleTranslate_Translate;
+				return r_ApplyStyleTranslate_Translate;
 			}
 		}
 
 		/// <summary>
 		/// Void ApplyStyleRotate(UnityEngine.UIElements.Rotate)
 		/// </summary>
-		protected RMethod r_RApplyStyleRotate_Rotate;
+		protected RMethod r_ApplyStyleRotate_Rotate;
 		public virtual RMethod RApplyStyleRotate_Rotate
 		{
 			get
 			{
-				if(r_RApplyStyleRotate_Rotate == null)
+				if(r_ApplyStyleRotate_Rotate == null)
 				{
-					r_RApplyStyleRotate_Rotate = new(this, "ApplyStyleRotate", 0, typeof(UnityEngine.UIElements.Rotate));
-					r_RApplyStyleRotate_Rotate.SetBelong(this.instance);
+					r_ApplyStyleRotate_Rotate = new(this, "ApplyStyleRotate", 0, typeof(UnityEngine.UIElements.Rotate));
+					r_ApplyStyleRotate_Rotate.SetBelong(this.instance);
 				}
-				return r_RApplyStyleRotate_Rotate;
+				return r_ApplyStyleRotate_Rotate;
 			}
 		}
 
 		/// <summary>
 		/// Void ApplyStyleScale(UnityEngine.UIElements.Scale)
 		/// </summary>
-		protected RMethod r_RApplyStyleScale_Scale;
+		protected RMethod r_ApplyStyleScale_Scale;
 		public virtual RMethod RApplyStyleScale_Scale
 		{
 			get
 			{
-				if(r_RApplyStyleScale_Scale == null)
+				if(r_ApplyStyleScale_Scale == null)
 				{
-					r_RApplyStyleScale_Scale = new(this, "ApplyStyleScale", 0, typeof(UnityEngine.UIElements.Scale));
-					r_RApplyStyleScale_Scale.SetBelong(this.instance);
+					r_ApplyStyleScale_Scale = new(this, "ApplyStyleScale", 0, typeof(UnityEngine.UIElements.Scale));
+					r_ApplyStyleScale_Scale.SetBelong(this.instance);
 				}
-				return r_RApplyStyleScale_Scale;
+				return r_ApplyStyleScale_Scale;
 			}
 		}
 
 		/// <summary>
 		/// Void ApplyStyleBackgroundSize(UnityEngine.UIElements.BackgroundSize)
 		/// </summary>
-		protected RMethod r_RApplyStyleBackgroundSize_BackgroundSize;
+		protected RMethod r_ApplyStyleBackgroundSize_BackgroundSize;
 		public virtual RMethod RApplyStyleBackgroundSize_BackgroundSize
 		{
 			get
 			{
-				if(r_RApplyStyleBackgroundSize_BackgroundSize == null)
+				if(r_ApplyStyleBackgroundSize_BackgroundSize == null)
 				{
-					r_RApplyStyleBackgroundSize_BackgroundSize = new(this, "ApplyStyleBackgroundSize", 0, typeof(UnityEngine.UIElements.BackgroundSize));
-					r_RApplyStyleBackgroundSize_BackgroundSize.SetBelong(this.instance);
+					r_ApplyStyleBackgroundSize_BackgroundSize = new(this, "ApplyStyleBackgroundSize", 0, typeof(UnityEngine.UIElements.BackgroundSize));
+					r_ApplyStyleBackgroundSize_BackgroundSize.SetBelong(this.instance);
 				}
-				return r_RApplyStyleBackgroundSize_BackgroundSize;
+				return r_ApplyStyleBackgroundSize_BackgroundSize;
 			}
 		}
 
 		/// <summary>
 		/// Void ApplyInitialValue(UnityEngine.UIElements.StyleSheets.StylePropertyReader)
 		/// </summary>
-		protected RMethod r_RApplyInitialValue_StylePropertyReader;
+		protected RMethod r_ApplyInitialValue_StylePropertyReader;
 		public virtual RMethod RApplyInitialValue_StylePropertyReader
 		{
 			get
 			{
-				if(r_RApplyInitialValue_StylePropertyReader == null)
+				if(r_ApplyInitialValue_StylePropertyReader == null)
 				{
-					r_RApplyInitialValue_StylePropertyReader = new(this, "ApplyInitialValue", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyReader"));
-					r_RApplyInitialValue_StylePropertyReader.SetBelong(this.instance);
+					r_ApplyInitialValue_StylePropertyReader = new(this, "ApplyInitialValue", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyReader"));
+					r_ApplyInitialValue_StylePropertyReader.SetBelong(this.instance);
 				}
-				return r_RApplyInitialValue_StylePropertyReader;
+				return r_ApplyInitialValue_StylePropertyReader;
 			}
 		}
 
 		/// <summary>
 		/// Void ApplyInitialValue(UnityEngine.UIElements.StyleSheets.StylePropertyId)
 		/// </summary>
-		protected RMethod r_RApplyInitialValue_StylePropertyId;
+		protected RMethod r_ApplyInitialValue_StylePropertyId;
 		public virtual RMethod RApplyInitialValue_StylePropertyId
 		{
 			get
 			{
-				if(r_RApplyInitialValue_StylePropertyId == null)
+				if(r_ApplyInitialValue_StylePropertyId == null)
 				{
-					r_RApplyInitialValue_StylePropertyId = new(this, "ApplyInitialValue", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"));
-					r_RApplyInitialValue_StylePropertyId.SetBelong(this.instance);
+					r_ApplyInitialValue_StylePropertyId = new(this, "ApplyInitialValue", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"));
+					r_ApplyInitialValue_StylePropertyId.SetBelong(this.instance);
 				}
-				return r_RApplyInitialValue_StylePropertyId;
+				return r_ApplyInitialValue_StylePropertyId;
 			}
 		}
 
 		/// <summary>
 		/// Void ApplyUnsetValue(UnityEngine.UIElements.StyleSheets.StylePropertyReader, UnityEngine.UIElements.ComputedStyle ByRef)
 		/// </summary>
-		protected RMethod r_RApplyUnsetValue_StylePropertyReader_Ref_ComputedStyle;
+		protected RMethod r_ApplyUnsetValue_StylePropertyReader_Ref_ComputedStyle;
 		public virtual RMethod RApplyUnsetValue_StylePropertyReader_Ref_ComputedStyle
 		{
 			get
 			{
-				if(r_RApplyUnsetValue_StylePropertyReader_Ref_ComputedStyle == null)
+				if(r_ApplyUnsetValue_StylePropertyReader_Ref_ComputedStyle == null)
 				{
-					r_RApplyUnsetValue_StylePropertyReader_Ref_ComputedStyle = new(this, "ApplyUnsetValue", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyReader"),  ReleactionUtils.GetType("UnityEngine.UIElements.ComputedStyle").MakeByRefType());
-					r_RApplyUnsetValue_StylePropertyReader_Ref_ComputedStyle.SetBelong(this.instance);
+					r_ApplyUnsetValue_StylePropertyReader_Ref_ComputedStyle = new(this, "ApplyUnsetValue", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyReader"),  ReleactionUtils.GetType("UnityEngine.UIElements.ComputedStyle").MakeByRefType());
+					r_ApplyUnsetValue_StylePropertyReader_Ref_ComputedStyle.SetBelong(this.instance);
 				}
-				return r_RApplyUnsetValue_StylePropertyReader_Ref_ComputedStyle;
+				return r_ApplyUnsetValue_StylePropertyReader_Ref_ComputedStyle;
 			}
 		}
 
 		/// <summary>
 		/// Void ApplyUnsetValue(UnityEngine.UIElements.StyleSheets.StylePropertyId, UnityEngine.UIElements.ComputedStyle ByRef)
 		/// </summary>
-		protected RMethod r_RApplyUnsetValue_StylePropertyId_Ref_ComputedStyle;
+		protected RMethod r_ApplyUnsetValue_StylePropertyId_Ref_ComputedStyle;
 		public virtual RMethod RApplyUnsetValue_StylePropertyId_Ref_ComputedStyle
 		{
 			get
 			{
-				if(r_RApplyUnsetValue_StylePropertyId_Ref_ComputedStyle == null)
+				if(r_ApplyUnsetValue_StylePropertyId_Ref_ComputedStyle == null)
 				{
-					r_RApplyUnsetValue_StylePropertyId_Ref_ComputedStyle = new(this, "ApplyUnsetValue", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"),  ReleactionUtils.GetType("UnityEngine.UIElements.ComputedStyle").MakeByRefType());
-					r_RApplyUnsetValue_StylePropertyId_Ref_ComputedStyle.SetBelong(this.instance);
+					r_ApplyUnsetValue_StylePropertyId_Ref_ComputedStyle = new(this, "ApplyUnsetValue", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"),  ReleactionUtils.GetType("UnityEngine.UIElements.ComputedStyle").MakeByRefType());
+					r_ApplyUnsetValue_StylePropertyId_Ref_ComputedStyle.SetBelong(this.instance);
 				}
-				return r_RApplyUnsetValue_StylePropertyId_Ref_ComputedStyle;
+				return r_ApplyUnsetValue_StylePropertyId_Ref_ComputedStyle;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.VersionChangeType CompareChanges(UnityEngine.UIElements.ComputedStyle ByRef, UnityEngine.UIElements.ComputedStyle ByRef)
 		/// </summary>
-		protected static RMethod r_RCompareChanges_Ref_ComputedStyle_Ref_ComputedStyle;
+		protected static RMethod r_CompareChanges_Ref_ComputedStyle_Ref_ComputedStyle;
 		public static RMethod RCompareChanges_Ref_ComputedStyle_Ref_ComputedStyle
 		{
 			get
 			{
-				if(r_RCompareChanges_Ref_ComputedStyle_Ref_ComputedStyle == null)
+				if(r_CompareChanges_Ref_ComputedStyle_Ref_ComputedStyle == null)
 				{
-					r_RCompareChanges_Ref_ComputedStyle_Ref_ComputedStyle = new( ReleactionUtils.GetType("UnityEngine.UIElements.ComputedStyle"), "CompareChanges", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.ComputedStyle").MakeByRefType(),  ReleactionUtils.GetType("UnityEngine.UIElements.ComputedStyle").MakeByRefType());
-					r_RCompareChanges_Ref_ComputedStyle_Ref_ComputedStyle.SetBelong(null);
+					r_CompareChanges_Ref_ComputedStyle_Ref_ComputedStyle = new( ReleactionUtils.GetType("UnityEngine.UIElements.ComputedStyle"), "CompareChanges", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.ComputedStyle").MakeByRefType(),  ReleactionUtils.GetType("UnityEngine.UIElements.ComputedStyle").MakeByRefType());
+					r_CompareChanges_Ref_ComputedStyle_Ref_ComputedStyle.SetBelong(null);
 				}
-				return r_RCompareChanges_Ref_ComputedStyle_Ref_ComputedStyle;
+				return r_CompareChanges_Ref_ComputedStyle_Ref_ComputedStyle;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Equals(System.Object)
 		/// </summary>
-		protected RMethod r_REquals_Object;
+		protected RMethod r_Equals_Object;
 		public virtual RMethod REquals_Object
 		{
 			get
 			{
-				if(r_REquals_Object == null)
+				if(r_Equals_Object == null)
 				{
-					r_REquals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_REquals_Object.SetBelong(this.instance);
+					r_Equals_Object = new(this, "Equals", 0, typeof(System.Object));
+					r_Equals_Object.SetBelong(this.instance);
 				}
-				return r_REquals_Object;
+				return r_Equals_Object;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetHashCode()
 		/// </summary>
-		protected RMethod r_RGetHashCode;
+		protected RMethod r_GetHashCode;
 		public virtual RMethod RGetHashCode
 		{
 			get
 			{
-				if(r_RGetHashCode == null)
+				if(r_GetHashCode == null)
 				{
-					r_RGetHashCode = new(this, "GetHashCode", 0);
-					r_RGetHashCode.SetBelong(this.instance);
+					r_GetHashCode = new(this, "GetHashCode", 0);
+					r_GetHashCode.SetBelong(this.instance);
 				}
-				return r_RGetHashCode;
+				return r_GetHashCode;
 			}
 		}
 
 		/// <summary>
 		/// System.String ToString()
 		/// </summary>
-		protected RMethod r_RToString;
+		protected RMethod r_ToString;
 		public virtual RMethod RToString
 		{
 			get
 			{
-				if(r_RToString == null)
+				if(r_ToString == null)
 				{
-					r_RToString = new(this, "ToString", 0);
-					r_RToString.SetBelong(this.instance);
+					r_ToString = new(this, "ToString", 0);
+					r_ToString.SetBelong(this.instance);
 				}
-				return r_RToString;
+				return r_ToString;
 			}
 		}
 
 		/// <summary>
 		/// Void Finalize()
 		/// </summary>
-		protected RMethod r_RFinalize;
+		protected RMethod r_Finalize;
 		public virtual RMethod RFinalize
 		{
 			get
 			{
-				if(r_RFinalize == null)
+				if(r_Finalize == null)
 				{
-					r_RFinalize = new(this, "Finalize", 0);
-					r_RFinalize.SetBelong(this.instance);
+					r_Finalize = new(this, "Finalize", 0);
+					r_Finalize.SetBelong(this.instance);
 				}
-				return r_RFinalize;
+				return r_Finalize;
 			}
 		}
 
 		/// <summary>
 		/// System.Type GetType()
 		/// </summary>
-		protected RMethod r_RGetType;
+		protected RMethod r_GetType;
 		public virtual RMethod RGetType
 		{
 			get
 			{
-				if(r_RGetType == null)
+				if(r_GetType == null)
 				{
-					r_RGetType = new(this, "GetType", 0);
-					r_RGetType.SetBelong(this.instance);
+					r_GetType = new(this, "GetType", 0);
+					r_GetType.SetBelong(this.instance);
 				}
-				return r_RGetType;
+				return r_GetType;
 			}
 		}
 
 		/// <summary>
 		/// System.Object MemberwiseClone()
 		/// </summary>
-		protected RMethod r_RMemberwiseClone;
+		protected RMethod r_MemberwiseClone;
 		public virtual RMethod RMemberwiseClone
 		{
 			get
 			{
-				if(r_RMemberwiseClone == null)
+				if(r_MemberwiseClone == null)
 				{
-					r_RMemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_RMemberwiseClone.SetBelong(this.instance);
+					r_MemberwiseClone = new(this, "MemberwiseClone", 0);
+					r_MemberwiseClone.SetBelong(this.instance);
 				}
-				return r_RMemberwiseClone;
+				return r_MemberwiseClone;
 			}
 		}
 

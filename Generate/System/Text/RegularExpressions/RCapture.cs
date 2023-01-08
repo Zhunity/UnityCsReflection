@@ -13,51 +13,51 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Int32 <Index>k__BackingField
 		/// </summary>
-		protected RField r___1__Index__2__k__BackingField;
-		public virtual RField R__1__Index__2__k__BackingField
+		protected RField r___0__Index__1__k__BackingField;
+		public virtual RField R__0__Index__1__k__BackingField
 		{
 			get
 			{
-				if(r___1__Index__2__k__BackingField == null)
+				if(r___0__Index__1__k__BackingField == null)
 				{
-					r___1__Index__2__k__BackingField = new(this, "<Index>k__BackingField");
-					r___1__Index__2__k__BackingField.SetBelong(this.instance);
+					r___0__Index__1__k__BackingField = new(this, "<Index>k__BackingField");
+					r___0__Index__1__k__BackingField.SetBelong(this.instance);
 				}
-				return r___1__Index__2__k__BackingField;
+				return r___0__Index__1__k__BackingField;
 			}
 		}
 
 		/// <summary>
 		/// System.Int32 <Length>k__BackingField
 		/// </summary>
-		protected RField r___1__Length__2__k__BackingField;
-		public virtual RField R__1__Length__2__k__BackingField
+		protected RField r___0__Length__1__k__BackingField;
+		public virtual RField R__0__Length__1__k__BackingField
 		{
 			get
 			{
-				if(r___1__Length__2__k__BackingField == null)
+				if(r___0__Length__1__k__BackingField == null)
 				{
-					r___1__Length__2__k__BackingField = new(this, "<Length>k__BackingField");
-					r___1__Length__2__k__BackingField.SetBelong(this.instance);
+					r___0__Length__1__k__BackingField = new(this, "<Length>k__BackingField");
+					r___0__Length__1__k__BackingField.SetBelong(this.instance);
 				}
-				return r___1__Length__2__k__BackingField;
+				return r___0__Length__1__k__BackingField;
 			}
 		}
 
 		/// <summary>
 		/// System.String <Text>k__BackingField
 		/// </summary>
-		protected RField r___1__Text__2__k__BackingField;
-		public virtual RField R__1__Text__2__k__BackingField
+		protected RField r___0__Text__1__k__BackingField;
+		public virtual RField R__0__Text__1__k__BackingField
 		{
 			get
 			{
-				if(r___1__Text__2__k__BackingField == null)
+				if(r___0__Text__1__k__BackingField == null)
 				{
-					r___1__Text__2__k__BackingField = new(this, "<Text>k__BackingField");
-					r___1__Text__2__k__BackingField.SetBelong(this.instance);
+					r___0__Text__1__k__BackingField = new(this, "<Text>k__BackingField");
+					r___0__Text__1__k__BackingField.SetBelong(this.instance);
 				}
-				return r___1__Text__2__k__BackingField;
+				return r___0__Text__1__k__BackingField;
 			}
 		}
 
@@ -132,136 +132,136 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.String ToString()
 		/// </summary>
-		protected RMethod r_RToString;
+		protected RMethod r_ToString;
 		public virtual RMethod RToString
 		{
 			get
 			{
-				if(r_RToString == null)
+				if(r_ToString == null)
 				{
-					r_RToString = new(this, "ToString", 0);
-					r_RToString.SetBelong(this.instance);
+					r_ToString = new(this, "ToString", 0);
+					r_ToString.SetBelong(this.instance);
 				}
-				return r_RToString;
+				return r_ToString;
 			}
 		}
 
 		/// <summary>
 		/// System.ReadOnlySpan`1[System.Char] GetLeftSubstring()
 		/// </summary>
-		protected RMethod r_RGetLeftSubstring;
+		protected RMethod r_GetLeftSubstring;
 		public virtual RMethod RGetLeftSubstring
 		{
 			get
 			{
-				if(r_RGetLeftSubstring == null)
+				if(r_GetLeftSubstring == null)
 				{
-					r_RGetLeftSubstring = new(this, "GetLeftSubstring", 0);
-					r_RGetLeftSubstring.SetBelong(this.instance);
+					r_GetLeftSubstring = new(this, "GetLeftSubstring", 0);
+					r_GetLeftSubstring.SetBelong(this.instance);
 				}
-				return r_RGetLeftSubstring;
+				return r_GetLeftSubstring;
 			}
 		}
 
 		/// <summary>
 		/// System.ReadOnlySpan`1[System.Char] GetRightSubstring()
 		/// </summary>
-		protected RMethod r_RGetRightSubstring;
+		protected RMethod r_GetRightSubstring;
 		public virtual RMethod RGetRightSubstring
 		{
 			get
 			{
-				if(r_RGetRightSubstring == null)
+				if(r_GetRightSubstring == null)
 				{
-					r_RGetRightSubstring = new(this, "GetRightSubstring", 0);
-					r_RGetRightSubstring.SetBelong(this.instance);
+					r_GetRightSubstring = new(this, "GetRightSubstring", 0);
+					r_GetRightSubstring.SetBelong(this.instance);
 				}
-				return r_RGetRightSubstring;
+				return r_GetRightSubstring;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Equals(System.Object)
 		/// </summary>
-		protected RMethod r_REquals_Object;
+		protected RMethod r_Equals_Object;
 		public virtual RMethod REquals_Object
 		{
 			get
 			{
-				if(r_REquals_Object == null)
+				if(r_Equals_Object == null)
 				{
-					r_REquals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_REquals_Object.SetBelong(this.instance);
+					r_Equals_Object = new(this, "Equals", 0, typeof(System.Object));
+					r_Equals_Object.SetBelong(this.instance);
 				}
-				return r_REquals_Object;
+				return r_Equals_Object;
 			}
 		}
 
 		/// <summary>
 		/// Void Finalize()
 		/// </summary>
-		protected RMethod r_RFinalize;
+		protected RMethod r_Finalize;
 		public virtual RMethod RFinalize
 		{
 			get
 			{
-				if(r_RFinalize == null)
+				if(r_Finalize == null)
 				{
-					r_RFinalize = new(this, "Finalize", 0);
-					r_RFinalize.SetBelong(this.instance);
+					r_Finalize = new(this, "Finalize", 0);
+					r_Finalize.SetBelong(this.instance);
 				}
-				return r_RFinalize;
+				return r_Finalize;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetHashCode()
 		/// </summary>
-		protected RMethod r_RGetHashCode;
+		protected RMethod r_GetHashCode;
 		public virtual RMethod RGetHashCode
 		{
 			get
 			{
-				if(r_RGetHashCode == null)
+				if(r_GetHashCode == null)
 				{
-					r_RGetHashCode = new(this, "GetHashCode", 0);
-					r_RGetHashCode.SetBelong(this.instance);
+					r_GetHashCode = new(this, "GetHashCode", 0);
+					r_GetHashCode.SetBelong(this.instance);
 				}
-				return r_RGetHashCode;
+				return r_GetHashCode;
 			}
 		}
 
 		/// <summary>
 		/// System.Type GetType()
 		/// </summary>
-		protected RMethod r_RGetType;
+		protected RMethod r_GetType;
 		public virtual RMethod RGetType
 		{
 			get
 			{
-				if(r_RGetType == null)
+				if(r_GetType == null)
 				{
-					r_RGetType = new(this, "GetType", 0);
-					r_RGetType.SetBelong(this.instance);
+					r_GetType = new(this, "GetType", 0);
+					r_GetType.SetBelong(this.instance);
 				}
-				return r_RGetType;
+				return r_GetType;
 			}
 		}
 
 		/// <summary>
 		/// System.Object MemberwiseClone()
 		/// </summary>
-		protected RMethod r_RMemberwiseClone;
+		protected RMethod r_MemberwiseClone;
 		public virtual RMethod RMemberwiseClone
 		{
 			get
 			{
-				if(r_RMemberwiseClone == null)
+				if(r_MemberwiseClone == null)
 				{
-					r_RMemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_RMemberwiseClone.SetBelong(this.instance);
+					r_MemberwiseClone = new(this, "MemberwiseClone", 0);
+					r_MemberwiseClone.SetBelong(this.instance);
 				}
-				return r_RMemberwiseClone;
+				return r_MemberwiseClone;
 			}
 		}
 

@@ -13,51 +13,51 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Object[] GetCustomAttributes(Boolean)
 		/// </summary>
-		protected RMethod r_RGetCustomAttributes_Boolean;
+		protected RMethod r_GetCustomAttributes_Boolean;
 		public virtual RMethod RGetCustomAttributes_Boolean
 		{
 			get
 			{
-				if(r_RGetCustomAttributes_Boolean == null)
+				if(r_GetCustomAttributes_Boolean == null)
 				{
-					r_RGetCustomAttributes_Boolean = new(this, "GetCustomAttributes", 0, typeof(System.Boolean));
-					r_RGetCustomAttributes_Boolean.SetBelong(this.instance);
+					r_GetCustomAttributes_Boolean = new(this, "GetCustomAttributes", 0, typeof(System.Boolean));
+					r_GetCustomAttributes_Boolean.SetBelong(this.instance);
 				}
-				return r_RGetCustomAttributes_Boolean;
+				return r_GetCustomAttributes_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// System.Object[] GetCustomAttributes(System.Type, Boolean)
 		/// </summary>
-		protected RMethod r_RGetCustomAttributes_Type_Boolean;
+		protected RMethod r_GetCustomAttributes_Type_Boolean;
 		public virtual RMethod RGetCustomAttributes_Type_Boolean
 		{
 			get
 			{
-				if(r_RGetCustomAttributes_Type_Boolean == null)
+				if(r_GetCustomAttributes_Type_Boolean == null)
 				{
-					r_RGetCustomAttributes_Type_Boolean = new(this, "GetCustomAttributes", 0, typeof(System.Type), typeof(System.Boolean));
-					r_RGetCustomAttributes_Type_Boolean.SetBelong(this.instance);
+					r_GetCustomAttributes_Type_Boolean = new(this, "GetCustomAttributes", 0, typeof(System.Type), typeof(System.Boolean));
+					r_GetCustomAttributes_Type_Boolean.SetBelong(this.instance);
 				}
-				return r_RGetCustomAttributes_Type_Boolean;
+				return r_GetCustomAttributes_Type_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Boolean IsDefined(System.Type, Boolean)
 		/// </summary>
-		protected RMethod r_RIsDefined_Type_Boolean;
+		protected RMethod r_IsDefined_Type_Boolean;
 		public virtual RMethod RIsDefined_Type_Boolean
 		{
 			get
 			{
-				if(r_RIsDefined_Type_Boolean == null)
+				if(r_IsDefined_Type_Boolean == null)
 				{
-					r_RIsDefined_Type_Boolean = new(this, "IsDefined", 0, typeof(System.Type), typeof(System.Boolean));
-					r_RIsDefined_Type_Boolean.SetBelong(this.instance);
+					r_IsDefined_Type_Boolean = new(this, "IsDefined", 0, typeof(System.Type), typeof(System.Boolean));
+					r_IsDefined_Type_Boolean.SetBelong(this.instance);
 				}
-				return r_RIsDefined_Type_Boolean;
+				return r_IsDefined_Type_Boolean;
 			}
 		}
 

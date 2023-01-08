@@ -13,85 +13,85 @@ namespace SMFrame.Editor.Refleaction.RSystem.RResources
 		/// <summary>
 		/// Void AddResource(System.String, System.String)
 		/// </summary>
-		protected RMethod r_RAddResource_String_String;
+		protected RMethod r_AddResource_String_String;
 		public virtual RMethod RAddResource_String_String
 		{
 			get
 			{
-				if(r_RAddResource_String_String == null)
+				if(r_AddResource_String_String == null)
 				{
-					r_RAddResource_String_String = new(this, "AddResource", 0, typeof(System.String), typeof(System.String));
-					r_RAddResource_String_String.SetBelong(this.instance);
+					r_AddResource_String_String = new(this, "AddResource", 0, typeof(System.String), typeof(System.String));
+					r_AddResource_String_String.SetBelong(this.instance);
 				}
-				return r_RAddResource_String_String;
+				return r_AddResource_String_String;
 			}
 		}
 
 		/// <summary>
 		/// Void AddResource(System.String, System.Object)
 		/// </summary>
-		protected RMethod r_RAddResource_String_Object;
+		protected RMethod r_AddResource_String_Object;
 		public virtual RMethod RAddResource_String_Object
 		{
 			get
 			{
-				if(r_RAddResource_String_Object == null)
+				if(r_AddResource_String_Object == null)
 				{
-					r_RAddResource_String_Object = new(this, "AddResource", 0, typeof(System.String), typeof(System.Object));
-					r_RAddResource_String_Object.SetBelong(this.instance);
+					r_AddResource_String_Object = new(this, "AddResource", 0, typeof(System.String), typeof(System.Object));
+					r_AddResource_String_Object.SetBelong(this.instance);
 				}
-				return r_RAddResource_String_Object;
+				return r_AddResource_String_Object;
 			}
 		}
 
 		/// <summary>
 		/// Void AddResource(System.String, Byte[])
 		/// </summary>
-		protected RMethod r_RAddResource_String_ByteArray;
+		protected RMethod r_AddResource_String_ByteArray;
 		public virtual RMethod RAddResource_String_ByteArray
 		{
 			get
 			{
-				if(r_RAddResource_String_ByteArray == null)
+				if(r_AddResource_String_ByteArray == null)
 				{
-					r_RAddResource_String_ByteArray = new(this, "AddResource", 0, typeof(System.String), typeof(System.Byte).MakeArrayType());
-					r_RAddResource_String_ByteArray.SetBelong(this.instance);
+					r_AddResource_String_ByteArray = new(this, "AddResource", 0, typeof(System.String), typeof(System.Byte).MakeArrayType());
+					r_AddResource_String_ByteArray.SetBelong(this.instance);
 				}
-				return r_RAddResource_String_ByteArray;
+				return r_AddResource_String_ByteArray;
 			}
 		}
 
 		/// <summary>
 		/// Void Close()
 		/// </summary>
-		protected RMethod r_RClose;
+		protected RMethod r_Close;
 		public virtual RMethod RClose
 		{
 			get
 			{
-				if(r_RClose == null)
+				if(r_Close == null)
 				{
-					r_RClose = new(this, "Close", 0);
-					r_RClose.SetBelong(this.instance);
+					r_Close = new(this, "Close", 0);
+					r_Close.SetBelong(this.instance);
 				}
-				return r_RClose;
+				return r_Close;
 			}
 		}
 
 		/// <summary>
 		/// Void Generate()
 		/// </summary>
-		protected RMethod r_RGenerate;
+		protected RMethod r_Generate;
 		public virtual RMethod RGenerate
 		{
 			get
 			{
-				if(r_RGenerate == null)
+				if(r_Generate == null)
 				{
-					r_RGenerate = new(this, "Generate", 0);
-					r_RGenerate.SetBelong(this.instance);
+					r_Generate = new(this, "Generate", 0);
+					r_Generate.SetBelong(this.instance);
 				}
-				return r_RGenerate;
+				return r_Generate;
 			}
 		}
 

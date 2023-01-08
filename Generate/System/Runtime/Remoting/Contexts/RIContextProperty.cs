@@ -30,34 +30,34 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts
 		/// <summary>
 		/// Void Freeze(System.Runtime.Remoting.Contexts.Context)
 		/// </summary>
-		protected RMethod r_RFreeze_Context;
+		protected RMethod r_Freeze_Context;
 		public virtual RMethod RFreeze_Context
 		{
 			get
 			{
-				if(r_RFreeze_Context == null)
+				if(r_Freeze_Context == null)
 				{
-					r_RFreeze_Context = new(this, "Freeze", 0, typeof(System.Runtime.Remoting.Contexts.Context));
-					r_RFreeze_Context.SetBelong(this.instance);
+					r_Freeze_Context = new(this, "Freeze", 0, typeof(System.Runtime.Remoting.Contexts.Context));
+					r_Freeze_Context.SetBelong(this.instance);
 				}
-				return r_RFreeze_Context;
+				return r_Freeze_Context;
 			}
 		}
 
 		/// <summary>
 		/// Boolean IsNewContextOK(System.Runtime.Remoting.Contexts.Context)
 		/// </summary>
-		protected RMethod r_RIsNewContextOK_Context;
+		protected RMethod r_IsNewContextOK_Context;
 		public virtual RMethod RIsNewContextOK_Context
 		{
 			get
 			{
-				if(r_RIsNewContextOK_Context == null)
+				if(r_IsNewContextOK_Context == null)
 				{
-					r_RIsNewContextOK_Context = new(this, "IsNewContextOK", 0, typeof(System.Runtime.Remoting.Contexts.Context));
-					r_RIsNewContextOK_Context.SetBelong(this.instance);
+					r_IsNewContextOK_Context = new(this, "IsNewContextOK", 0, typeof(System.Runtime.Remoting.Contexts.Context));
+					r_IsNewContextOK_Context.SetBelong(this.instance);
 				}
-				return r_RIsNewContextOK_Context;
+				return r_IsNewContextOK_Context;
 			}
 		}
 

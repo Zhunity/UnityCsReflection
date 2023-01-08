@@ -13,68 +13,68 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// Int32 GetToken(System.String)
 		/// </summary>
-		protected RMethod r_RGetToken_String;
+		protected RMethod r_GetToken_String;
 		public virtual RMethod RGetToken_String
 		{
 			get
 			{
-				if(r_RGetToken_String == null)
+				if(r_GetToken_String == null)
 				{
-					r_RGetToken_String = new(this, "GetToken", 0, typeof(System.String));
-					r_RGetToken_String.SetBelong(this.instance);
+					r_GetToken_String = new(this, "GetToken", 0, typeof(System.String));
+					r_GetToken_String.SetBelong(this.instance);
 				}
-				return r_RGetToken_String;
+				return r_GetToken_String;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetToken(System.Reflection.MemberInfo, Boolean)
 		/// </summary>
-		protected RMethod r_RGetToken_MemberInfo_Boolean;
+		protected RMethod r_GetToken_MemberInfo_Boolean;
 		public virtual RMethod RGetToken_MemberInfo_Boolean
 		{
 			get
 			{
-				if(r_RGetToken_MemberInfo_Boolean == null)
+				if(r_GetToken_MemberInfo_Boolean == null)
 				{
-					r_RGetToken_MemberInfo_Boolean = new(this, "GetToken", 0, typeof(System.Reflection.MemberInfo), typeof(System.Boolean));
-					r_RGetToken_MemberInfo_Boolean.SetBelong(this.instance);
+					r_GetToken_MemberInfo_Boolean = new(this, "GetToken", 0, typeof(System.Reflection.MemberInfo), typeof(System.Boolean));
+					r_GetToken_MemberInfo_Boolean.SetBelong(this.instance);
 				}
-				return r_RGetToken_MemberInfo_Boolean;
+				return r_GetToken_MemberInfo_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetToken(System.Reflection.MethodBase, System.Type[])
 		/// </summary>
-		protected RMethod r_RGetToken_MethodBase_TypeArray;
+		protected RMethod r_GetToken_MethodBase_TypeArray;
 		public virtual RMethod RGetToken_MethodBase_TypeArray
 		{
 			get
 			{
-				if(r_RGetToken_MethodBase_TypeArray == null)
+				if(r_GetToken_MethodBase_TypeArray == null)
 				{
-					r_RGetToken_MethodBase_TypeArray = new(this, "GetToken", 0, typeof(System.Reflection.MethodBase), typeof(System.Type).MakeArrayType());
-					r_RGetToken_MethodBase_TypeArray.SetBelong(this.instance);
+					r_GetToken_MethodBase_TypeArray = new(this, "GetToken", 0, typeof(System.Reflection.MethodBase), typeof(System.Type).MakeArrayType());
+					r_GetToken_MethodBase_TypeArray.SetBelong(this.instance);
 				}
-				return r_RGetToken_MethodBase_TypeArray;
+				return r_GetToken_MethodBase_TypeArray;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetToken(System.Reflection.Emit.SignatureHelper)
 		/// </summary>
-		protected RMethod r_RGetToken_SignatureHelper;
+		protected RMethod r_GetToken_SignatureHelper;
 		public virtual RMethod RGetToken_SignatureHelper
 		{
 			get
 			{
-				if(r_RGetToken_SignatureHelper == null)
+				if(r_GetToken_SignatureHelper == null)
 				{
-					r_RGetToken_SignatureHelper = new(this, "GetToken", 0, typeof(System.Reflection.Emit.SignatureHelper));
-					r_RGetToken_SignatureHelper.SetBelong(this.instance);
+					r_GetToken_SignatureHelper = new(this, "GetToken", 0, typeof(System.Reflection.Emit.SignatureHelper));
+					r_GetToken_SignatureHelper.SetBelong(this.instance);
 				}
-				return r_RGetToken_SignatureHelper;
+				return r_GetToken_SignatureHelper;
 			}
 		}
 

@@ -13,34 +13,34 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.FocusChangeDirection GetFocusChangeDirection(UnityEngine.UIElements.Focusable, UnityEngine.UIElements.EventBase)
 		/// </summary>
-		protected RMethod r_RGetFocusChangeDirection_Focusable_EventBase;
+		protected RMethod r_GetFocusChangeDirection_Focusable_EventBase;
 		public virtual RMethod RGetFocusChangeDirection_Focusable_EventBase
 		{
 			get
 			{
-				if(r_RGetFocusChangeDirection_Focusable_EventBase == null)
+				if(r_GetFocusChangeDirection_Focusable_EventBase == null)
 				{
-					r_RGetFocusChangeDirection_Focusable_EventBase = new(this, "GetFocusChangeDirection", 0, typeof(UnityEngine.UIElements.Focusable), typeof(UnityEngine.UIElements.EventBase));
-					r_RGetFocusChangeDirection_Focusable_EventBase.SetBelong(this.instance);
+					r_GetFocusChangeDirection_Focusable_EventBase = new(this, "GetFocusChangeDirection", 0, typeof(UnityEngine.UIElements.Focusable), typeof(UnityEngine.UIElements.EventBase));
+					r_GetFocusChangeDirection_Focusable_EventBase.SetBelong(this.instance);
 				}
-				return r_RGetFocusChangeDirection_Focusable_EventBase;
+				return r_GetFocusChangeDirection_Focusable_EventBase;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.Focusable GetNextFocusable(UnityEngine.UIElements.Focusable, UnityEngine.UIElements.FocusChangeDirection)
 		/// </summary>
-		protected RMethod r_RGetNextFocusable_Focusable_FocusChangeDirection;
+		protected RMethod r_GetNextFocusable_Focusable_FocusChangeDirection;
 		public virtual RMethod RGetNextFocusable_Focusable_FocusChangeDirection
 		{
 			get
 			{
-				if(r_RGetNextFocusable_Focusable_FocusChangeDirection == null)
+				if(r_GetNextFocusable_Focusable_FocusChangeDirection == null)
 				{
-					r_RGetNextFocusable_Focusable_FocusChangeDirection = new(this, "GetNextFocusable", 0, typeof(UnityEngine.UIElements.Focusable), typeof(UnityEngine.UIElements.FocusChangeDirection));
-					r_RGetNextFocusable_Focusable_FocusChangeDirection.SetBelong(this.instance);
+					r_GetNextFocusable_Focusable_FocusChangeDirection = new(this, "GetNextFocusable", 0, typeof(UnityEngine.UIElements.Focusable), typeof(UnityEngine.UIElements.FocusChangeDirection));
+					r_GetNextFocusable_Focusable_FocusChangeDirection.SetBelong(this.instance);
 				}
-				return r_RGetNextFocusable_Focusable_FocusChangeDirection;
+				return r_GetNextFocusable_Focusable_FocusChangeDirection;
 			}
 		}
 

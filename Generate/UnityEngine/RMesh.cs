@@ -557,4794 +557,4794 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Void Internal_Create(UnityEngine.Mesh)
 		/// </summary>
-		protected static RMethod r_RInternal_Create_Mesh;
+		protected static RMethod r_Internal_Create_Mesh;
 		public static RMethod RInternal_Create_Mesh
 		{
 			get
 			{
-				if(r_RInternal_Create_Mesh == null)
+				if(r_Internal_Create_Mesh == null)
 				{
-					r_RInternal_Create_Mesh = new(typeof(UnityEngine.Mesh), "Internal_Create", 0, typeof(UnityEngine.Mesh));
-					r_RInternal_Create_Mesh.SetBelong(null);
+					r_Internal_Create_Mesh = new(typeof(UnityEngine.Mesh), "Internal_Create", 0, typeof(UnityEngine.Mesh));
+					r_Internal_Create_Mesh.SetBelong(null);
 				}
-				return r_RInternal_Create_Mesh;
+				return r_Internal_Create_Mesh;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Mesh FromInstanceID(Int32)
 		/// </summary>
-		protected static RMethod r_RFromInstanceID_Int32;
+		protected static RMethod r_FromInstanceID_Int32;
 		public static RMethod RFromInstanceID_Int32
 		{
 			get
 			{
-				if(r_RFromInstanceID_Int32 == null)
+				if(r_FromInstanceID_Int32 == null)
 				{
-					r_RFromInstanceID_Int32 = new(typeof(UnityEngine.Mesh), "FromInstanceID", 0, typeof(System.Int32));
-					r_RFromInstanceID_Int32.SetBelong(null);
+					r_FromInstanceID_Int32 = new(typeof(UnityEngine.Mesh), "FromInstanceID", 0, typeof(System.Int32));
+					r_FromInstanceID_Int32.SetBelong(null);
 				}
-				return r_RFromInstanceID_Int32;
+				return r_FromInstanceID_Int32;
 			}
 		}
 
 		/// <summary>
 		/// UInt32 GetTotalIndexCount()
 		/// </summary>
-		protected RMethod r_RGetTotalIndexCount;
+		protected RMethod r_GetTotalIndexCount;
 		public virtual RMethod RGetTotalIndexCount
 		{
 			get
 			{
-				if(r_RGetTotalIndexCount == null)
+				if(r_GetTotalIndexCount == null)
 				{
-					r_RGetTotalIndexCount = new(this, "GetTotalIndexCount", 0);
-					r_RGetTotalIndexCount.SetBelong(this.instance);
+					r_GetTotalIndexCount = new(this, "GetTotalIndexCount", 0);
+					r_GetTotalIndexCount.SetBelong(this.instance);
 				}
-				return r_RGetTotalIndexCount;
+				return r_GetTotalIndexCount;
 			}
 		}
 
 		/// <summary>
 		/// Void SetIndexBufferParams(Int32, UnityEngine.Rendering.IndexFormat)
 		/// </summary>
-		protected RMethod r_RSetIndexBufferParams_Int32_IndexFormat;
+		protected RMethod r_SetIndexBufferParams_Int32_IndexFormat;
 		public virtual RMethod RSetIndexBufferParams_Int32_IndexFormat
 		{
 			get
 			{
-				if(r_RSetIndexBufferParams_Int32_IndexFormat == null)
+				if(r_SetIndexBufferParams_Int32_IndexFormat == null)
 				{
-					r_RSetIndexBufferParams_Int32_IndexFormat = new(this, "SetIndexBufferParams", 0, typeof(System.Int32), typeof(UnityEngine.Rendering.IndexFormat));
-					r_RSetIndexBufferParams_Int32_IndexFormat.SetBelong(this.instance);
+					r_SetIndexBufferParams_Int32_IndexFormat = new(this, "SetIndexBufferParams", 0, typeof(System.Int32), typeof(UnityEngine.Rendering.IndexFormat));
+					r_SetIndexBufferParams_Int32_IndexFormat.SetBelong(this.instance);
 				}
-				return r_RSetIndexBufferParams_Int32_IndexFormat;
+				return r_SetIndexBufferParams_Int32_IndexFormat;
 			}
 		}
 
 		/// <summary>
 		/// Void InternalSetIndexBufferData(IntPtr, Int32, Int32, Int32, Int32, UnityEngine.Rendering.MeshUpdateFlags)
 		/// </summary>
-		protected RMethod r_RInternalSetIndexBufferData_IntPtr_Int32_Int32_Int32_Int32_MeshUpdateFlags;
+		protected RMethod r_InternalSetIndexBufferData_IntPtr_Int32_Int32_Int32_Int32_MeshUpdateFlags;
 		public virtual RMethod RInternalSetIndexBufferData_IntPtr_Int32_Int32_Int32_Int32_MeshUpdateFlags
 		{
 			get
 			{
-				if(r_RInternalSetIndexBufferData_IntPtr_Int32_Int32_Int32_Int32_MeshUpdateFlags == null)
+				if(r_InternalSetIndexBufferData_IntPtr_Int32_Int32_Int32_Int32_MeshUpdateFlags == null)
 				{
-					r_RInternalSetIndexBufferData_IntPtr_Int32_Int32_Int32_Int32_MeshUpdateFlags = new(this, "InternalSetIndexBufferData", 0, typeof(System.IntPtr), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.Rendering.MeshUpdateFlags));
-					r_RInternalSetIndexBufferData_IntPtr_Int32_Int32_Int32_Int32_MeshUpdateFlags.SetBelong(this.instance);
+					r_InternalSetIndexBufferData_IntPtr_Int32_Int32_Int32_Int32_MeshUpdateFlags = new(this, "InternalSetIndexBufferData", 0, typeof(System.IntPtr), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.Rendering.MeshUpdateFlags));
+					r_InternalSetIndexBufferData_IntPtr_Int32_Int32_Int32_Int32_MeshUpdateFlags.SetBelong(this.instance);
 				}
-				return r_RInternalSetIndexBufferData_IntPtr_Int32_Int32_Int32_Int32_MeshUpdateFlags;
+				return r_InternalSetIndexBufferData_IntPtr_Int32_Int32_Int32_Int32_MeshUpdateFlags;
 			}
 		}
 
 		/// <summary>
 		/// Void InternalSetIndexBufferDataFromArray(System.Array, Int32, Int32, Int32, Int32, UnityEngine.Rendering.MeshUpdateFlags)
 		/// </summary>
-		protected RMethod r_RInternalSetIndexBufferDataFromArray_Array_Int32_Int32_Int32_Int32_MeshUpdateFlags;
+		protected RMethod r_InternalSetIndexBufferDataFromArray_Array_Int32_Int32_Int32_Int32_MeshUpdateFlags;
 		public virtual RMethod RInternalSetIndexBufferDataFromArray_Array_Int32_Int32_Int32_Int32_MeshUpdateFlags
 		{
 			get
 			{
-				if(r_RInternalSetIndexBufferDataFromArray_Array_Int32_Int32_Int32_Int32_MeshUpdateFlags == null)
+				if(r_InternalSetIndexBufferDataFromArray_Array_Int32_Int32_Int32_Int32_MeshUpdateFlags == null)
 				{
-					r_RInternalSetIndexBufferDataFromArray_Array_Int32_Int32_Int32_Int32_MeshUpdateFlags = new(this, "InternalSetIndexBufferDataFromArray", 0, typeof(System.Array), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.Rendering.MeshUpdateFlags));
-					r_RInternalSetIndexBufferDataFromArray_Array_Int32_Int32_Int32_Int32_MeshUpdateFlags.SetBelong(this.instance);
+					r_InternalSetIndexBufferDataFromArray_Array_Int32_Int32_Int32_Int32_MeshUpdateFlags = new(this, "InternalSetIndexBufferDataFromArray", 0, typeof(System.Array), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.Rendering.MeshUpdateFlags));
+					r_InternalSetIndexBufferDataFromArray_Array_Int32_Int32_Int32_Int32_MeshUpdateFlags.SetBelong(this.instance);
 				}
-				return r_RInternalSetIndexBufferDataFromArray_Array_Int32_Int32_Int32_Int32_MeshUpdateFlags;
+				return r_InternalSetIndexBufferDataFromArray_Array_Int32_Int32_Int32_Int32_MeshUpdateFlags;
 			}
 		}
 
 		/// <summary>
 		/// Void SetVertexBufferParamsFromPtr(Int32, IntPtr, Int32)
 		/// </summary>
-		protected RMethod r_RSetVertexBufferParamsFromPtr_Int32_IntPtr_Int32;
+		protected RMethod r_SetVertexBufferParamsFromPtr_Int32_IntPtr_Int32;
 		public virtual RMethod RSetVertexBufferParamsFromPtr_Int32_IntPtr_Int32
 		{
 			get
 			{
-				if(r_RSetVertexBufferParamsFromPtr_Int32_IntPtr_Int32 == null)
+				if(r_SetVertexBufferParamsFromPtr_Int32_IntPtr_Int32 == null)
 				{
-					r_RSetVertexBufferParamsFromPtr_Int32_IntPtr_Int32 = new(this, "SetVertexBufferParamsFromPtr", 0, typeof(System.Int32), typeof(System.IntPtr), typeof(System.Int32));
-					r_RSetVertexBufferParamsFromPtr_Int32_IntPtr_Int32.SetBelong(this.instance);
+					r_SetVertexBufferParamsFromPtr_Int32_IntPtr_Int32 = new(this, "SetVertexBufferParamsFromPtr", 0, typeof(System.Int32), typeof(System.IntPtr), typeof(System.Int32));
+					r_SetVertexBufferParamsFromPtr_Int32_IntPtr_Int32.SetBelong(this.instance);
 				}
-				return r_RSetVertexBufferParamsFromPtr_Int32_IntPtr_Int32;
+				return r_SetVertexBufferParamsFromPtr_Int32_IntPtr_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Void SetVertexBufferParamsFromArray(Int32, UnityEngine.Rendering.VertexAttributeDescriptor[])
 		/// </summary>
-		protected RMethod r_RSetVertexBufferParamsFromArray_Int32_VertexAttributeDescriptorArray;
+		protected RMethod r_SetVertexBufferParamsFromArray_Int32_VertexAttributeDescriptorArray;
 		public virtual RMethod RSetVertexBufferParamsFromArray_Int32_VertexAttributeDescriptorArray
 		{
 			get
 			{
-				if(r_RSetVertexBufferParamsFromArray_Int32_VertexAttributeDescriptorArray == null)
+				if(r_SetVertexBufferParamsFromArray_Int32_VertexAttributeDescriptorArray == null)
 				{
-					r_RSetVertexBufferParamsFromArray_Int32_VertexAttributeDescriptorArray = new(this, "SetVertexBufferParamsFromArray", 0, typeof(System.Int32), typeof(UnityEngine.Rendering.VertexAttributeDescriptor).MakeArrayType());
-					r_RSetVertexBufferParamsFromArray_Int32_VertexAttributeDescriptorArray.SetBelong(this.instance);
+					r_SetVertexBufferParamsFromArray_Int32_VertexAttributeDescriptorArray = new(this, "SetVertexBufferParamsFromArray", 0, typeof(System.Int32), typeof(UnityEngine.Rendering.VertexAttributeDescriptor).MakeArrayType());
+					r_SetVertexBufferParamsFromArray_Int32_VertexAttributeDescriptorArray.SetBelong(this.instance);
 				}
-				return r_RSetVertexBufferParamsFromArray_Int32_VertexAttributeDescriptorArray;
+				return r_SetVertexBufferParamsFromArray_Int32_VertexAttributeDescriptorArray;
 			}
 		}
 
 		/// <summary>
 		/// Void InternalSetVertexBufferData(Int32, IntPtr, Int32, Int32, Int32, Int32, UnityEngine.Rendering.MeshUpdateFlags)
 		/// </summary>
-		protected RMethod r_RInternalSetVertexBufferData_Int32_IntPtr_Int32_Int32_Int32_Int32_MeshUpdateFlags;
+		protected RMethod r_InternalSetVertexBufferData_Int32_IntPtr_Int32_Int32_Int32_Int32_MeshUpdateFlags;
 		public virtual RMethod RInternalSetVertexBufferData_Int32_IntPtr_Int32_Int32_Int32_Int32_MeshUpdateFlags
 		{
 			get
 			{
-				if(r_RInternalSetVertexBufferData_Int32_IntPtr_Int32_Int32_Int32_Int32_MeshUpdateFlags == null)
+				if(r_InternalSetVertexBufferData_Int32_IntPtr_Int32_Int32_Int32_Int32_MeshUpdateFlags == null)
 				{
-					r_RInternalSetVertexBufferData_Int32_IntPtr_Int32_Int32_Int32_Int32_MeshUpdateFlags = new(this, "InternalSetVertexBufferData", 0, typeof(System.Int32), typeof(System.IntPtr), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.Rendering.MeshUpdateFlags));
-					r_RInternalSetVertexBufferData_Int32_IntPtr_Int32_Int32_Int32_Int32_MeshUpdateFlags.SetBelong(this.instance);
+					r_InternalSetVertexBufferData_Int32_IntPtr_Int32_Int32_Int32_Int32_MeshUpdateFlags = new(this, "InternalSetVertexBufferData", 0, typeof(System.Int32), typeof(System.IntPtr), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.Rendering.MeshUpdateFlags));
+					r_InternalSetVertexBufferData_Int32_IntPtr_Int32_Int32_Int32_Int32_MeshUpdateFlags.SetBelong(this.instance);
 				}
-				return r_RInternalSetVertexBufferData_Int32_IntPtr_Int32_Int32_Int32_Int32_MeshUpdateFlags;
+				return r_InternalSetVertexBufferData_Int32_IntPtr_Int32_Int32_Int32_Int32_MeshUpdateFlags;
 			}
 		}
 
 		/// <summary>
 		/// Void InternalSetVertexBufferDataFromArray(Int32, System.Array, Int32, Int32, Int32, Int32, UnityEngine.Rendering.MeshUpdateFlags)
 		/// </summary>
-		protected RMethod r_RInternalSetVertexBufferDataFromArray_Int32_Array_Int32_Int32_Int32_Int32_MeshUpdateFlags;
+		protected RMethod r_InternalSetVertexBufferDataFromArray_Int32_Array_Int32_Int32_Int32_Int32_MeshUpdateFlags;
 		public virtual RMethod RInternalSetVertexBufferDataFromArray_Int32_Array_Int32_Int32_Int32_Int32_MeshUpdateFlags
 		{
 			get
 			{
-				if(r_RInternalSetVertexBufferDataFromArray_Int32_Array_Int32_Int32_Int32_Int32_MeshUpdateFlags == null)
+				if(r_InternalSetVertexBufferDataFromArray_Int32_Array_Int32_Int32_Int32_Int32_MeshUpdateFlags == null)
 				{
-					r_RInternalSetVertexBufferDataFromArray_Int32_Array_Int32_Int32_Int32_Int32_MeshUpdateFlags = new(this, "InternalSetVertexBufferDataFromArray", 0, typeof(System.Int32), typeof(System.Array), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.Rendering.MeshUpdateFlags));
-					r_RInternalSetVertexBufferDataFromArray_Int32_Array_Int32_Int32_Int32_Int32_MeshUpdateFlags.SetBelong(this.instance);
+					r_InternalSetVertexBufferDataFromArray_Int32_Array_Int32_Int32_Int32_Int32_MeshUpdateFlags = new(this, "InternalSetVertexBufferDataFromArray", 0, typeof(System.Int32), typeof(System.Array), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.Rendering.MeshUpdateFlags));
+					r_InternalSetVertexBufferDataFromArray_Int32_Array_Int32_Int32_Int32_Int32_MeshUpdateFlags.SetBelong(this.instance);
 				}
-				return r_RInternalSetVertexBufferDataFromArray_Int32_Array_Int32_Int32_Int32_Int32_MeshUpdateFlags;
+				return r_InternalSetVertexBufferDataFromArray_Int32_Array_Int32_Int32_Int32_Int32_MeshUpdateFlags;
 			}
 		}
 
 		/// <summary>
 		/// System.Array GetVertexAttributesAlloc()
 		/// </summary>
-		protected RMethod r_RGetVertexAttributesAlloc;
+		protected RMethod r_GetVertexAttributesAlloc;
 		public virtual RMethod RGetVertexAttributesAlloc
 		{
 			get
 			{
-				if(r_RGetVertexAttributesAlloc == null)
+				if(r_GetVertexAttributesAlloc == null)
 				{
-					r_RGetVertexAttributesAlloc = new(this, "GetVertexAttributesAlloc", 0);
-					r_RGetVertexAttributesAlloc.SetBelong(this.instance);
+					r_GetVertexAttributesAlloc = new(this, "GetVertexAttributesAlloc", 0);
+					r_GetVertexAttributesAlloc.SetBelong(this.instance);
 				}
-				return r_RGetVertexAttributesAlloc;
+				return r_GetVertexAttributesAlloc;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetVertexAttributesArray(UnityEngine.Rendering.VertexAttributeDescriptor[])
 		/// </summary>
-		protected RMethod r_RGetVertexAttributesArray_VertexAttributeDescriptorArray;
+		protected RMethod r_GetVertexAttributesArray_VertexAttributeDescriptorArray;
 		public virtual RMethod RGetVertexAttributesArray_VertexAttributeDescriptorArray
 		{
 			get
 			{
-				if(r_RGetVertexAttributesArray_VertexAttributeDescriptorArray == null)
+				if(r_GetVertexAttributesArray_VertexAttributeDescriptorArray == null)
 				{
-					r_RGetVertexAttributesArray_VertexAttributeDescriptorArray = new(this, "GetVertexAttributesArray", 0, typeof(UnityEngine.Rendering.VertexAttributeDescriptor).MakeArrayType());
-					r_RGetVertexAttributesArray_VertexAttributeDescriptorArray.SetBelong(this.instance);
+					r_GetVertexAttributesArray_VertexAttributeDescriptorArray = new(this, "GetVertexAttributesArray", 0, typeof(UnityEngine.Rendering.VertexAttributeDescriptor).MakeArrayType());
+					r_GetVertexAttributesArray_VertexAttributeDescriptorArray.SetBelong(this.instance);
 				}
-				return r_RGetVertexAttributesArray_VertexAttributeDescriptorArray;
+				return r_GetVertexAttributesArray_VertexAttributeDescriptorArray;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetVertexAttributesList(System.Collections.Generic.List`1[UnityEngine.Rendering.VertexAttributeDescriptor])
 		/// </summary>
-		protected RMethod r_RGetVertexAttributesList_List_d_VertexAttributeDescriptor_p_;
+		protected RMethod r_GetVertexAttributesList_List_d_VertexAttributeDescriptor_p_;
 		public virtual RMethod RGetVertexAttributesList_List_d_VertexAttributeDescriptor_p_
 		{
 			get
 			{
-				if(r_RGetVertexAttributesList_List_d_VertexAttributeDescriptor_p_ == null)
+				if(r_GetVertexAttributesList_List_d_VertexAttributeDescriptor_p_ == null)
 				{
-					r_RGetVertexAttributesList_List_d_VertexAttributeDescriptor_p_ = new(this, "GetVertexAttributesList", 0, typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(UnityEngine.Rendering.VertexAttributeDescriptor)));
-					r_RGetVertexAttributesList_List_d_VertexAttributeDescriptor_p_.SetBelong(this.instance);
+					r_GetVertexAttributesList_List_d_VertexAttributeDescriptor_p_ = new(this, "GetVertexAttributesList", 0, typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(UnityEngine.Rendering.VertexAttributeDescriptor)));
+					r_GetVertexAttributesList_List_d_VertexAttributeDescriptor_p_.SetBelong(this.instance);
 				}
-				return r_RGetVertexAttributesList_List_d_VertexAttributeDescriptor_p_;
+				return r_GetVertexAttributesList_List_d_VertexAttributeDescriptor_p_;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetVertexAttributeCountImpl()
 		/// </summary>
-		protected RMethod r_RGetVertexAttributeCountImpl;
+		protected RMethod r_GetVertexAttributeCountImpl;
 		public virtual RMethod RGetVertexAttributeCountImpl
 		{
 			get
 			{
-				if(r_RGetVertexAttributeCountImpl == null)
+				if(r_GetVertexAttributeCountImpl == null)
 				{
-					r_RGetVertexAttributeCountImpl = new(this, "GetVertexAttributeCountImpl", 0);
-					r_RGetVertexAttributeCountImpl.SetBelong(this.instance);
+					r_GetVertexAttributeCountImpl = new(this, "GetVertexAttributeCountImpl", 0);
+					r_GetVertexAttributeCountImpl.SetBelong(this.instance);
 				}
-				return r_RGetVertexAttributeCountImpl;
+				return r_GetVertexAttributeCountImpl;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Rendering.VertexAttributeDescriptor GetVertexAttribute(Int32)
 		/// </summary>
-		protected RMethod r_RGetVertexAttribute_Int32;
+		protected RMethod r_GetVertexAttribute_Int32;
 		public virtual RMethod RGetVertexAttribute_Int32
 		{
 			get
 			{
-				if(r_RGetVertexAttribute_Int32 == null)
+				if(r_GetVertexAttribute_Int32 == null)
 				{
-					r_RGetVertexAttribute_Int32 = new(this, "GetVertexAttribute", 0, typeof(System.Int32));
-					r_RGetVertexAttribute_Int32.SetBelong(this.instance);
+					r_GetVertexAttribute_Int32 = new(this, "GetVertexAttribute", 0, typeof(System.Int32));
+					r_GetVertexAttribute_Int32.SetBelong(this.instance);
 				}
-				return r_RGetVertexAttribute_Int32;
+				return r_GetVertexAttribute_Int32;
 			}
 		}
 
 		/// <summary>
 		/// UInt32 GetIndexStartImpl(Int32)
 		/// </summary>
-		protected RMethod r_RGetIndexStartImpl_Int32;
+		protected RMethod r_GetIndexStartImpl_Int32;
 		public virtual RMethod RGetIndexStartImpl_Int32
 		{
 			get
 			{
-				if(r_RGetIndexStartImpl_Int32 == null)
+				if(r_GetIndexStartImpl_Int32 == null)
 				{
-					r_RGetIndexStartImpl_Int32 = new(this, "GetIndexStartImpl", 0, typeof(System.Int32));
-					r_RGetIndexStartImpl_Int32.SetBelong(this.instance);
+					r_GetIndexStartImpl_Int32 = new(this, "GetIndexStartImpl", 0, typeof(System.Int32));
+					r_GetIndexStartImpl_Int32.SetBelong(this.instance);
 				}
-				return r_RGetIndexStartImpl_Int32;
+				return r_GetIndexStartImpl_Int32;
 			}
 		}
 
 		/// <summary>
 		/// UInt32 GetIndexCountImpl(Int32)
 		/// </summary>
-		protected RMethod r_RGetIndexCountImpl_Int32;
+		protected RMethod r_GetIndexCountImpl_Int32;
 		public virtual RMethod RGetIndexCountImpl_Int32
 		{
 			get
 			{
-				if(r_RGetIndexCountImpl_Int32 == null)
+				if(r_GetIndexCountImpl_Int32 == null)
 				{
-					r_RGetIndexCountImpl_Int32 = new(this, "GetIndexCountImpl", 0, typeof(System.Int32));
-					r_RGetIndexCountImpl_Int32.SetBelong(this.instance);
+					r_GetIndexCountImpl_Int32 = new(this, "GetIndexCountImpl", 0, typeof(System.Int32));
+					r_GetIndexCountImpl_Int32.SetBelong(this.instance);
 				}
-				return r_RGetIndexCountImpl_Int32;
+				return r_GetIndexCountImpl_Int32;
 			}
 		}
 
 		/// <summary>
 		/// UInt32 GetTrianglesCountImpl(Int32)
 		/// </summary>
-		protected RMethod r_RGetTrianglesCountImpl_Int32;
+		protected RMethod r_GetTrianglesCountImpl_Int32;
 		public virtual RMethod RGetTrianglesCountImpl_Int32
 		{
 			get
 			{
-				if(r_RGetTrianglesCountImpl_Int32 == null)
+				if(r_GetTrianglesCountImpl_Int32 == null)
 				{
-					r_RGetTrianglesCountImpl_Int32 = new(this, "GetTrianglesCountImpl", 0, typeof(System.Int32));
-					r_RGetTrianglesCountImpl_Int32.SetBelong(this.instance);
+					r_GetTrianglesCountImpl_Int32 = new(this, "GetTrianglesCountImpl", 0, typeof(System.Int32));
+					r_GetTrianglesCountImpl_Int32.SetBelong(this.instance);
 				}
-				return r_RGetTrianglesCountImpl_Int32;
+				return r_GetTrianglesCountImpl_Int32;
 			}
 		}
 
 		/// <summary>
 		/// UInt32 GetBaseVertexImpl(Int32)
 		/// </summary>
-		protected RMethod r_RGetBaseVertexImpl_Int32;
+		protected RMethod r_GetBaseVertexImpl_Int32;
 		public virtual RMethod RGetBaseVertexImpl_Int32
 		{
 			get
 			{
-				if(r_RGetBaseVertexImpl_Int32 == null)
+				if(r_GetBaseVertexImpl_Int32 == null)
 				{
-					r_RGetBaseVertexImpl_Int32 = new(this, "GetBaseVertexImpl", 0, typeof(System.Int32));
-					r_RGetBaseVertexImpl_Int32.SetBelong(this.instance);
+					r_GetBaseVertexImpl_Int32 = new(this, "GetBaseVertexImpl", 0, typeof(System.Int32));
+					r_GetBaseVertexImpl_Int32.SetBelong(this.instance);
 				}
-				return r_RGetBaseVertexImpl_Int32;
+				return r_GetBaseVertexImpl_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Int32[] GetTrianglesImpl(Int32, Boolean)
 		/// </summary>
-		protected RMethod r_RGetTrianglesImpl_Int32_Boolean;
+		protected RMethod r_GetTrianglesImpl_Int32_Boolean;
 		public virtual RMethod RGetTrianglesImpl_Int32_Boolean
 		{
 			get
 			{
-				if(r_RGetTrianglesImpl_Int32_Boolean == null)
+				if(r_GetTrianglesImpl_Int32_Boolean == null)
 				{
-					r_RGetTrianglesImpl_Int32_Boolean = new(this, "GetTrianglesImpl", 0, typeof(System.Int32), typeof(System.Boolean));
-					r_RGetTrianglesImpl_Int32_Boolean.SetBelong(this.instance);
+					r_GetTrianglesImpl_Int32_Boolean = new(this, "GetTrianglesImpl", 0, typeof(System.Int32), typeof(System.Boolean));
+					r_GetTrianglesImpl_Int32_Boolean.SetBelong(this.instance);
 				}
-				return r_RGetTrianglesImpl_Int32_Boolean;
+				return r_GetTrianglesImpl_Int32_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Int32[] GetIndicesImpl(Int32, Boolean)
 		/// </summary>
-		protected RMethod r_RGetIndicesImpl_Int32_Boolean;
+		protected RMethod r_GetIndicesImpl_Int32_Boolean;
 		public virtual RMethod RGetIndicesImpl_Int32_Boolean
 		{
 			get
 			{
-				if(r_RGetIndicesImpl_Int32_Boolean == null)
+				if(r_GetIndicesImpl_Int32_Boolean == null)
 				{
-					r_RGetIndicesImpl_Int32_Boolean = new(this, "GetIndicesImpl", 0, typeof(System.Int32), typeof(System.Boolean));
-					r_RGetIndicesImpl_Int32_Boolean.SetBelong(this.instance);
+					r_GetIndicesImpl_Int32_Boolean = new(this, "GetIndicesImpl", 0, typeof(System.Int32), typeof(System.Boolean));
+					r_GetIndicesImpl_Int32_Boolean.SetBelong(this.instance);
 				}
-				return r_RGetIndicesImpl_Int32_Boolean;
+				return r_GetIndicesImpl_Int32_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Void SetIndicesImpl(Int32, UnityEngine.MeshTopology, UnityEngine.Rendering.IndexFormat, System.Array, Int32, Int32, Boolean, Int32)
 		/// </summary>
-		protected RMethod r_RSetIndicesImpl_Int32_MeshTopology_IndexFormat_Array_Int32_Int32_Boolean_Int32;
+		protected RMethod r_SetIndicesImpl_Int32_MeshTopology_IndexFormat_Array_Int32_Int32_Boolean_Int32;
 		public virtual RMethod RSetIndicesImpl_Int32_MeshTopology_IndexFormat_Array_Int32_Int32_Boolean_Int32
 		{
 			get
 			{
-				if(r_RSetIndicesImpl_Int32_MeshTopology_IndexFormat_Array_Int32_Int32_Boolean_Int32 == null)
+				if(r_SetIndicesImpl_Int32_MeshTopology_IndexFormat_Array_Int32_Int32_Boolean_Int32 == null)
 				{
-					r_RSetIndicesImpl_Int32_MeshTopology_IndexFormat_Array_Int32_Int32_Boolean_Int32 = new(this, "SetIndicesImpl", 0, typeof(System.Int32), typeof(UnityEngine.MeshTopology), typeof(UnityEngine.Rendering.IndexFormat), typeof(System.Array), typeof(System.Int32), typeof(System.Int32), typeof(System.Boolean), typeof(System.Int32));
-					r_RSetIndicesImpl_Int32_MeshTopology_IndexFormat_Array_Int32_Int32_Boolean_Int32.SetBelong(this.instance);
+					r_SetIndicesImpl_Int32_MeshTopology_IndexFormat_Array_Int32_Int32_Boolean_Int32 = new(this, "SetIndicesImpl", 0, typeof(System.Int32), typeof(UnityEngine.MeshTopology), typeof(UnityEngine.Rendering.IndexFormat), typeof(System.Array), typeof(System.Int32), typeof(System.Int32), typeof(System.Boolean), typeof(System.Int32));
+					r_SetIndicesImpl_Int32_MeshTopology_IndexFormat_Array_Int32_Int32_Boolean_Int32.SetBelong(this.instance);
 				}
-				return r_RSetIndicesImpl_Int32_MeshTopology_IndexFormat_Array_Int32_Int32_Boolean_Int32;
+				return r_SetIndicesImpl_Int32_MeshTopology_IndexFormat_Array_Int32_Int32_Boolean_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Void SetIndicesNativeArrayImpl(Int32, UnityEngine.MeshTopology, UnityEngine.Rendering.IndexFormat, IntPtr, Int32, Int32, Boolean, Int32)
 		/// </summary>
-		protected RMethod r_RSetIndicesNativeArrayImpl_Int32_MeshTopology_IndexFormat_IntPtr_Int32_Int32_Boolean_Int32;
+		protected RMethod r_SetIndicesNativeArrayImpl_Int32_MeshTopology_IndexFormat_IntPtr_Int32_Int32_Boolean_Int32;
 		public virtual RMethod RSetIndicesNativeArrayImpl_Int32_MeshTopology_IndexFormat_IntPtr_Int32_Int32_Boolean_Int32
 		{
 			get
 			{
-				if(r_RSetIndicesNativeArrayImpl_Int32_MeshTopology_IndexFormat_IntPtr_Int32_Int32_Boolean_Int32 == null)
+				if(r_SetIndicesNativeArrayImpl_Int32_MeshTopology_IndexFormat_IntPtr_Int32_Int32_Boolean_Int32 == null)
 				{
-					r_RSetIndicesNativeArrayImpl_Int32_MeshTopology_IndexFormat_IntPtr_Int32_Int32_Boolean_Int32 = new(this, "SetIndicesNativeArrayImpl", 0, typeof(System.Int32), typeof(UnityEngine.MeshTopology), typeof(UnityEngine.Rendering.IndexFormat), typeof(System.IntPtr), typeof(System.Int32), typeof(System.Int32), typeof(System.Boolean), typeof(System.Int32));
-					r_RSetIndicesNativeArrayImpl_Int32_MeshTopology_IndexFormat_IntPtr_Int32_Int32_Boolean_Int32.SetBelong(this.instance);
+					r_SetIndicesNativeArrayImpl_Int32_MeshTopology_IndexFormat_IntPtr_Int32_Int32_Boolean_Int32 = new(this, "SetIndicesNativeArrayImpl", 0, typeof(System.Int32), typeof(UnityEngine.MeshTopology), typeof(UnityEngine.Rendering.IndexFormat), typeof(System.IntPtr), typeof(System.Int32), typeof(System.Int32), typeof(System.Boolean), typeof(System.Int32));
+					r_SetIndicesNativeArrayImpl_Int32_MeshTopology_IndexFormat_IntPtr_Int32_Int32_Boolean_Int32.SetBelong(this.instance);
 				}
-				return r_RSetIndicesNativeArrayImpl_Int32_MeshTopology_IndexFormat_IntPtr_Int32_Int32_Boolean_Int32;
+				return r_SetIndicesNativeArrayImpl_Int32_MeshTopology_IndexFormat_IntPtr_Int32_Int32_Boolean_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Void GetTrianglesNonAllocImpl(Int32[], Int32, Boolean)
 		/// </summary>
-		protected RMethod r_RGetTrianglesNonAllocImpl_Int32Array_Int32_Boolean;
+		protected RMethod r_GetTrianglesNonAllocImpl_Int32Array_Int32_Boolean;
 		public virtual RMethod RGetTrianglesNonAllocImpl_Int32Array_Int32_Boolean
 		{
 			get
 			{
-				if(r_RGetTrianglesNonAllocImpl_Int32Array_Int32_Boolean == null)
+				if(r_GetTrianglesNonAllocImpl_Int32Array_Int32_Boolean == null)
 				{
-					r_RGetTrianglesNonAllocImpl_Int32Array_Int32_Boolean = new(this, "GetTrianglesNonAllocImpl", 0, typeof(System.Int32).MakeArrayType(), typeof(System.Int32), typeof(System.Boolean));
-					r_RGetTrianglesNonAllocImpl_Int32Array_Int32_Boolean.SetBelong(this.instance);
+					r_GetTrianglesNonAllocImpl_Int32Array_Int32_Boolean = new(this, "GetTrianglesNonAllocImpl", 0, typeof(System.Int32).MakeArrayType(), typeof(System.Int32), typeof(System.Boolean));
+					r_GetTrianglesNonAllocImpl_Int32Array_Int32_Boolean.SetBelong(this.instance);
 				}
-				return r_RGetTrianglesNonAllocImpl_Int32Array_Int32_Boolean;
+				return r_GetTrianglesNonAllocImpl_Int32Array_Int32_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Void GetTrianglesNonAllocImpl16(UInt16[], Int32, Boolean)
 		/// </summary>
-		protected RMethod r_RGetTrianglesNonAllocImpl16_UInt16Array_Int32_Boolean;
+		protected RMethod r_GetTrianglesNonAllocImpl16_UInt16Array_Int32_Boolean;
 		public virtual RMethod RGetTrianglesNonAllocImpl16_UInt16Array_Int32_Boolean
 		{
 			get
 			{
-				if(r_RGetTrianglesNonAllocImpl16_UInt16Array_Int32_Boolean == null)
+				if(r_GetTrianglesNonAllocImpl16_UInt16Array_Int32_Boolean == null)
 				{
-					r_RGetTrianglesNonAllocImpl16_UInt16Array_Int32_Boolean = new(this, "GetTrianglesNonAllocImpl16", 0, typeof(System.UInt16).MakeArrayType(), typeof(System.Int32), typeof(System.Boolean));
-					r_RGetTrianglesNonAllocImpl16_UInt16Array_Int32_Boolean.SetBelong(this.instance);
+					r_GetTrianglesNonAllocImpl16_UInt16Array_Int32_Boolean = new(this, "GetTrianglesNonAllocImpl16", 0, typeof(System.UInt16).MakeArrayType(), typeof(System.Int32), typeof(System.Boolean));
+					r_GetTrianglesNonAllocImpl16_UInt16Array_Int32_Boolean.SetBelong(this.instance);
 				}
-				return r_RGetTrianglesNonAllocImpl16_UInt16Array_Int32_Boolean;
+				return r_GetTrianglesNonAllocImpl16_UInt16Array_Int32_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Void GetIndicesNonAllocImpl(Int32[], Int32, Boolean)
 		/// </summary>
-		protected RMethod r_RGetIndicesNonAllocImpl_Int32Array_Int32_Boolean;
+		protected RMethod r_GetIndicesNonAllocImpl_Int32Array_Int32_Boolean;
 		public virtual RMethod RGetIndicesNonAllocImpl_Int32Array_Int32_Boolean
 		{
 			get
 			{
-				if(r_RGetIndicesNonAllocImpl_Int32Array_Int32_Boolean == null)
+				if(r_GetIndicesNonAllocImpl_Int32Array_Int32_Boolean == null)
 				{
-					r_RGetIndicesNonAllocImpl_Int32Array_Int32_Boolean = new(this, "GetIndicesNonAllocImpl", 0, typeof(System.Int32).MakeArrayType(), typeof(System.Int32), typeof(System.Boolean));
-					r_RGetIndicesNonAllocImpl_Int32Array_Int32_Boolean.SetBelong(this.instance);
+					r_GetIndicesNonAllocImpl_Int32Array_Int32_Boolean = new(this, "GetIndicesNonAllocImpl", 0, typeof(System.Int32).MakeArrayType(), typeof(System.Int32), typeof(System.Boolean));
+					r_GetIndicesNonAllocImpl_Int32Array_Int32_Boolean.SetBelong(this.instance);
 				}
-				return r_RGetIndicesNonAllocImpl_Int32Array_Int32_Boolean;
+				return r_GetIndicesNonAllocImpl_Int32Array_Int32_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Void GetIndicesNonAllocImpl16(UInt16[], Int32, Boolean)
 		/// </summary>
-		protected RMethod r_RGetIndicesNonAllocImpl16_UInt16Array_Int32_Boolean;
+		protected RMethod r_GetIndicesNonAllocImpl16_UInt16Array_Int32_Boolean;
 		public virtual RMethod RGetIndicesNonAllocImpl16_UInt16Array_Int32_Boolean
 		{
 			get
 			{
-				if(r_RGetIndicesNonAllocImpl16_UInt16Array_Int32_Boolean == null)
+				if(r_GetIndicesNonAllocImpl16_UInt16Array_Int32_Boolean == null)
 				{
-					r_RGetIndicesNonAllocImpl16_UInt16Array_Int32_Boolean = new(this, "GetIndicesNonAllocImpl16", 0, typeof(System.UInt16).MakeArrayType(), typeof(System.Int32), typeof(System.Boolean));
-					r_RGetIndicesNonAllocImpl16_UInt16Array_Int32_Boolean.SetBelong(this.instance);
+					r_GetIndicesNonAllocImpl16_UInt16Array_Int32_Boolean = new(this, "GetIndicesNonAllocImpl16", 0, typeof(System.UInt16).MakeArrayType(), typeof(System.Int32), typeof(System.Boolean));
+					r_GetIndicesNonAllocImpl16_UInt16Array_Int32_Boolean.SetBelong(this.instance);
 				}
-				return r_RGetIndicesNonAllocImpl16_UInt16Array_Int32_Boolean;
+				return r_GetIndicesNonAllocImpl16_UInt16Array_Int32_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Void PrintErrorCantAccessChannel(UnityEngine.Rendering.VertexAttribute)
 		/// </summary>
-		protected RMethod r_RPrintErrorCantAccessChannel_VertexAttribute;
+		protected RMethod r_PrintErrorCantAccessChannel_VertexAttribute;
 		public virtual RMethod RPrintErrorCantAccessChannel_VertexAttribute
 		{
 			get
 			{
-				if(r_RPrintErrorCantAccessChannel_VertexAttribute == null)
+				if(r_PrintErrorCantAccessChannel_VertexAttribute == null)
 				{
-					r_RPrintErrorCantAccessChannel_VertexAttribute = new(this, "PrintErrorCantAccessChannel", 0, typeof(UnityEngine.Rendering.VertexAttribute));
-					r_RPrintErrorCantAccessChannel_VertexAttribute.SetBelong(this.instance);
+					r_PrintErrorCantAccessChannel_VertexAttribute = new(this, "PrintErrorCantAccessChannel", 0, typeof(UnityEngine.Rendering.VertexAttribute));
+					r_PrintErrorCantAccessChannel_VertexAttribute.SetBelong(this.instance);
 				}
-				return r_RPrintErrorCantAccessChannel_VertexAttribute;
+				return r_PrintErrorCantAccessChannel_VertexAttribute;
 			}
 		}
 
 		/// <summary>
 		/// Boolean HasVertexAttribute(UnityEngine.Rendering.VertexAttribute)
 		/// </summary>
-		protected RMethod r_RHasVertexAttribute_VertexAttribute;
+		protected RMethod r_HasVertexAttribute_VertexAttribute;
 		public virtual RMethod RHasVertexAttribute_VertexAttribute
 		{
 			get
 			{
-				if(r_RHasVertexAttribute_VertexAttribute == null)
+				if(r_HasVertexAttribute_VertexAttribute == null)
 				{
-					r_RHasVertexAttribute_VertexAttribute = new(this, "HasVertexAttribute", 0, typeof(UnityEngine.Rendering.VertexAttribute));
-					r_RHasVertexAttribute_VertexAttribute.SetBelong(this.instance);
+					r_HasVertexAttribute_VertexAttribute = new(this, "HasVertexAttribute", 0, typeof(UnityEngine.Rendering.VertexAttribute));
+					r_HasVertexAttribute_VertexAttribute.SetBelong(this.instance);
 				}
-				return r_RHasVertexAttribute_VertexAttribute;
+				return r_HasVertexAttribute_VertexAttribute;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetVertexAttributeDimension(UnityEngine.Rendering.VertexAttribute)
 		/// </summary>
-		protected RMethod r_RGetVertexAttributeDimension_VertexAttribute;
+		protected RMethod r_GetVertexAttributeDimension_VertexAttribute;
 		public virtual RMethod RGetVertexAttributeDimension_VertexAttribute
 		{
 			get
 			{
-				if(r_RGetVertexAttributeDimension_VertexAttribute == null)
+				if(r_GetVertexAttributeDimension_VertexAttribute == null)
 				{
-					r_RGetVertexAttributeDimension_VertexAttribute = new(this, "GetVertexAttributeDimension", 0, typeof(UnityEngine.Rendering.VertexAttribute));
-					r_RGetVertexAttributeDimension_VertexAttribute.SetBelong(this.instance);
+					r_GetVertexAttributeDimension_VertexAttribute = new(this, "GetVertexAttributeDimension", 0, typeof(UnityEngine.Rendering.VertexAttribute));
+					r_GetVertexAttributeDimension_VertexAttribute.SetBelong(this.instance);
 				}
-				return r_RGetVertexAttributeDimension_VertexAttribute;
+				return r_GetVertexAttributeDimension_VertexAttribute;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Rendering.VertexAttributeFormat GetVertexAttributeFormat(UnityEngine.Rendering.VertexAttribute)
 		/// </summary>
-		protected RMethod r_RGetVertexAttributeFormat_VertexAttribute;
+		protected RMethod r_GetVertexAttributeFormat_VertexAttribute;
 		public virtual RMethod RGetVertexAttributeFormat_VertexAttribute
 		{
 			get
 			{
-				if(r_RGetVertexAttributeFormat_VertexAttribute == null)
+				if(r_GetVertexAttributeFormat_VertexAttribute == null)
 				{
-					r_RGetVertexAttributeFormat_VertexAttribute = new(this, "GetVertexAttributeFormat", 0, typeof(UnityEngine.Rendering.VertexAttribute));
-					r_RGetVertexAttributeFormat_VertexAttribute.SetBelong(this.instance);
+					r_GetVertexAttributeFormat_VertexAttribute = new(this, "GetVertexAttributeFormat", 0, typeof(UnityEngine.Rendering.VertexAttribute));
+					r_GetVertexAttributeFormat_VertexAttribute.SetBelong(this.instance);
 				}
-				return r_RGetVertexAttributeFormat_VertexAttribute;
+				return r_GetVertexAttributeFormat_VertexAttribute;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetVertexAttributeStream(UnityEngine.Rendering.VertexAttribute)
 		/// </summary>
-		protected RMethod r_RGetVertexAttributeStream_VertexAttribute;
+		protected RMethod r_GetVertexAttributeStream_VertexAttribute;
 		public virtual RMethod RGetVertexAttributeStream_VertexAttribute
 		{
 			get
 			{
-				if(r_RGetVertexAttributeStream_VertexAttribute == null)
+				if(r_GetVertexAttributeStream_VertexAttribute == null)
 				{
-					r_RGetVertexAttributeStream_VertexAttribute = new(this, "GetVertexAttributeStream", 0, typeof(UnityEngine.Rendering.VertexAttribute));
-					r_RGetVertexAttributeStream_VertexAttribute.SetBelong(this.instance);
+					r_GetVertexAttributeStream_VertexAttribute = new(this, "GetVertexAttributeStream", 0, typeof(UnityEngine.Rendering.VertexAttribute));
+					r_GetVertexAttributeStream_VertexAttribute.SetBelong(this.instance);
 				}
-				return r_RGetVertexAttributeStream_VertexAttribute;
+				return r_GetVertexAttributeStream_VertexAttribute;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetVertexAttributeOffset(UnityEngine.Rendering.VertexAttribute)
 		/// </summary>
-		protected RMethod r_RGetVertexAttributeOffset_VertexAttribute;
+		protected RMethod r_GetVertexAttributeOffset_VertexAttribute;
 		public virtual RMethod RGetVertexAttributeOffset_VertexAttribute
 		{
 			get
 			{
-				if(r_RGetVertexAttributeOffset_VertexAttribute == null)
+				if(r_GetVertexAttributeOffset_VertexAttribute == null)
 				{
-					r_RGetVertexAttributeOffset_VertexAttribute = new(this, "GetVertexAttributeOffset", 0, typeof(UnityEngine.Rendering.VertexAttribute));
-					r_RGetVertexAttributeOffset_VertexAttribute.SetBelong(this.instance);
+					r_GetVertexAttributeOffset_VertexAttribute = new(this, "GetVertexAttributeOffset", 0, typeof(UnityEngine.Rendering.VertexAttribute));
+					r_GetVertexAttributeOffset_VertexAttribute.SetBelong(this.instance);
 				}
-				return r_RGetVertexAttributeOffset_VertexAttribute;
+				return r_GetVertexAttributeOffset_VertexAttribute;
 			}
 		}
 
 		/// <summary>
 		/// Void SetArrayForChannelImpl(UnityEngine.Rendering.VertexAttribute, UnityEngine.Rendering.VertexAttributeFormat, Int32, System.Array, Int32, Int32, Int32, UnityEngine.Rendering.MeshUpdateFlags)
 		/// </summary>
-		protected RMethod r_RSetArrayForChannelImpl_VertexAttribute_VertexAttributeFormat_Int32_Array_Int32_Int32_Int32_MeshUpdateFlags;
+		protected RMethod r_SetArrayForChannelImpl_VertexAttribute_VertexAttributeFormat_Int32_Array_Int32_Int32_Int32_MeshUpdateFlags;
 		public virtual RMethod RSetArrayForChannelImpl_VertexAttribute_VertexAttributeFormat_Int32_Array_Int32_Int32_Int32_MeshUpdateFlags
 		{
 			get
 			{
-				if(r_RSetArrayForChannelImpl_VertexAttribute_VertexAttributeFormat_Int32_Array_Int32_Int32_Int32_MeshUpdateFlags == null)
+				if(r_SetArrayForChannelImpl_VertexAttribute_VertexAttributeFormat_Int32_Array_Int32_Int32_Int32_MeshUpdateFlags == null)
 				{
-					r_RSetArrayForChannelImpl_VertexAttribute_VertexAttributeFormat_Int32_Array_Int32_Int32_Int32_MeshUpdateFlags = new(this, "SetArrayForChannelImpl", 0, typeof(UnityEngine.Rendering.VertexAttribute), typeof(UnityEngine.Rendering.VertexAttributeFormat), typeof(System.Int32), typeof(System.Array), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.Rendering.MeshUpdateFlags));
-					r_RSetArrayForChannelImpl_VertexAttribute_VertexAttributeFormat_Int32_Array_Int32_Int32_Int32_MeshUpdateFlags.SetBelong(this.instance);
+					r_SetArrayForChannelImpl_VertexAttribute_VertexAttributeFormat_Int32_Array_Int32_Int32_Int32_MeshUpdateFlags = new(this, "SetArrayForChannelImpl", 0, typeof(UnityEngine.Rendering.VertexAttribute), typeof(UnityEngine.Rendering.VertexAttributeFormat), typeof(System.Int32), typeof(System.Array), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.Rendering.MeshUpdateFlags));
+					r_SetArrayForChannelImpl_VertexAttribute_VertexAttributeFormat_Int32_Array_Int32_Int32_Int32_MeshUpdateFlags.SetBelong(this.instance);
 				}
-				return r_RSetArrayForChannelImpl_VertexAttribute_VertexAttributeFormat_Int32_Array_Int32_Int32_Int32_MeshUpdateFlags;
+				return r_SetArrayForChannelImpl_VertexAttribute_VertexAttributeFormat_Int32_Array_Int32_Int32_Int32_MeshUpdateFlags;
 			}
 		}
 
 		/// <summary>
 		/// Void SetNativeArrayForChannelImpl(UnityEngine.Rendering.VertexAttribute, UnityEngine.Rendering.VertexAttributeFormat, Int32, IntPtr, Int32, Int32, Int32, UnityEngine.Rendering.MeshUpdateFlags)
 		/// </summary>
-		protected RMethod r_RSetNativeArrayForChannelImpl_VertexAttribute_VertexAttributeFormat_Int32_IntPtr_Int32_Int32_Int32_MeshUpdateFlags;
+		protected RMethod r_SetNativeArrayForChannelImpl_VertexAttribute_VertexAttributeFormat_Int32_IntPtr_Int32_Int32_Int32_MeshUpdateFlags;
 		public virtual RMethod RSetNativeArrayForChannelImpl_VertexAttribute_VertexAttributeFormat_Int32_IntPtr_Int32_Int32_Int32_MeshUpdateFlags
 		{
 			get
 			{
-				if(r_RSetNativeArrayForChannelImpl_VertexAttribute_VertexAttributeFormat_Int32_IntPtr_Int32_Int32_Int32_MeshUpdateFlags == null)
+				if(r_SetNativeArrayForChannelImpl_VertexAttribute_VertexAttributeFormat_Int32_IntPtr_Int32_Int32_Int32_MeshUpdateFlags == null)
 				{
-					r_RSetNativeArrayForChannelImpl_VertexAttribute_VertexAttributeFormat_Int32_IntPtr_Int32_Int32_Int32_MeshUpdateFlags = new(this, "SetNativeArrayForChannelImpl", 0, typeof(UnityEngine.Rendering.VertexAttribute), typeof(UnityEngine.Rendering.VertexAttributeFormat), typeof(System.Int32), typeof(System.IntPtr), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.Rendering.MeshUpdateFlags));
-					r_RSetNativeArrayForChannelImpl_VertexAttribute_VertexAttributeFormat_Int32_IntPtr_Int32_Int32_Int32_MeshUpdateFlags.SetBelong(this.instance);
+					r_SetNativeArrayForChannelImpl_VertexAttribute_VertexAttributeFormat_Int32_IntPtr_Int32_Int32_Int32_MeshUpdateFlags = new(this, "SetNativeArrayForChannelImpl", 0, typeof(UnityEngine.Rendering.VertexAttribute), typeof(UnityEngine.Rendering.VertexAttributeFormat), typeof(System.Int32), typeof(System.IntPtr), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.Rendering.MeshUpdateFlags));
+					r_SetNativeArrayForChannelImpl_VertexAttribute_VertexAttributeFormat_Int32_IntPtr_Int32_Int32_Int32_MeshUpdateFlags.SetBelong(this.instance);
 				}
-				return r_RSetNativeArrayForChannelImpl_VertexAttribute_VertexAttributeFormat_Int32_IntPtr_Int32_Int32_Int32_MeshUpdateFlags;
+				return r_SetNativeArrayForChannelImpl_VertexAttribute_VertexAttributeFormat_Int32_IntPtr_Int32_Int32_Int32_MeshUpdateFlags;
 			}
 		}
 
 		/// <summary>
 		/// System.Array GetAllocArrayFromChannelImpl(UnityEngine.Rendering.VertexAttribute, UnityEngine.Rendering.VertexAttributeFormat, Int32)
 		/// </summary>
-		protected RMethod r_RGetAllocArrayFromChannelImpl_VertexAttribute_VertexAttributeFormat_Int32;
+		protected RMethod r_GetAllocArrayFromChannelImpl_VertexAttribute_VertexAttributeFormat_Int32;
 		public virtual RMethod RGetAllocArrayFromChannelImpl_VertexAttribute_VertexAttributeFormat_Int32
 		{
 			get
 			{
-				if(r_RGetAllocArrayFromChannelImpl_VertexAttribute_VertexAttributeFormat_Int32 == null)
+				if(r_GetAllocArrayFromChannelImpl_VertexAttribute_VertexAttributeFormat_Int32 == null)
 				{
-					r_RGetAllocArrayFromChannelImpl_VertexAttribute_VertexAttributeFormat_Int32 = new(this, "GetAllocArrayFromChannelImpl", 0, typeof(UnityEngine.Rendering.VertexAttribute), typeof(UnityEngine.Rendering.VertexAttributeFormat), typeof(System.Int32));
-					r_RGetAllocArrayFromChannelImpl_VertexAttribute_VertexAttributeFormat_Int32.SetBelong(this.instance);
+					r_GetAllocArrayFromChannelImpl_VertexAttribute_VertexAttributeFormat_Int32 = new(this, "GetAllocArrayFromChannelImpl", 0, typeof(UnityEngine.Rendering.VertexAttribute), typeof(UnityEngine.Rendering.VertexAttributeFormat), typeof(System.Int32));
+					r_GetAllocArrayFromChannelImpl_VertexAttribute_VertexAttributeFormat_Int32.SetBelong(this.instance);
 				}
-				return r_RGetAllocArrayFromChannelImpl_VertexAttribute_VertexAttributeFormat_Int32;
+				return r_GetAllocArrayFromChannelImpl_VertexAttribute_VertexAttributeFormat_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Void GetArrayFromChannelImpl(UnityEngine.Rendering.VertexAttribute, UnityEngine.Rendering.VertexAttributeFormat, Int32, System.Array)
 		/// </summary>
-		protected RMethod r_RGetArrayFromChannelImpl_VertexAttribute_VertexAttributeFormat_Int32_Array;
+		protected RMethod r_GetArrayFromChannelImpl_VertexAttribute_VertexAttributeFormat_Int32_Array;
 		public virtual RMethod RGetArrayFromChannelImpl_VertexAttribute_VertexAttributeFormat_Int32_Array
 		{
 			get
 			{
-				if(r_RGetArrayFromChannelImpl_VertexAttribute_VertexAttributeFormat_Int32_Array == null)
+				if(r_GetArrayFromChannelImpl_VertexAttribute_VertexAttributeFormat_Int32_Array == null)
 				{
-					r_RGetArrayFromChannelImpl_VertexAttribute_VertexAttributeFormat_Int32_Array = new(this, "GetArrayFromChannelImpl", 0, typeof(UnityEngine.Rendering.VertexAttribute), typeof(UnityEngine.Rendering.VertexAttributeFormat), typeof(System.Int32), typeof(System.Array));
-					r_RGetArrayFromChannelImpl_VertexAttribute_VertexAttributeFormat_Int32_Array.SetBelong(this.instance);
+					r_GetArrayFromChannelImpl_VertexAttribute_VertexAttributeFormat_Int32_Array = new(this, "GetArrayFromChannelImpl", 0, typeof(UnityEngine.Rendering.VertexAttribute), typeof(UnityEngine.Rendering.VertexAttributeFormat), typeof(System.Int32), typeof(System.Array));
+					r_GetArrayFromChannelImpl_VertexAttribute_VertexAttributeFormat_Int32_Array.SetBelong(this.instance);
 				}
-				return r_RGetArrayFromChannelImpl_VertexAttribute_VertexAttributeFormat_Int32_Array;
+				return r_GetArrayFromChannelImpl_VertexAttribute_VertexAttributeFormat_Int32_Array;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetVertexBufferStride(Int32)
 		/// </summary>
-		protected RMethod r_RGetVertexBufferStride_Int32;
+		protected RMethod r_GetVertexBufferStride_Int32;
 		public virtual RMethod RGetVertexBufferStride_Int32
 		{
 			get
 			{
-				if(r_RGetVertexBufferStride_Int32 == null)
+				if(r_GetVertexBufferStride_Int32 == null)
 				{
-					r_RGetVertexBufferStride_Int32 = new(this, "GetVertexBufferStride", 0, typeof(System.Int32));
-					r_RGetVertexBufferStride_Int32.SetBelong(this.instance);
+					r_GetVertexBufferStride_Int32 = new(this, "GetVertexBufferStride", 0, typeof(System.Int32));
+					r_GetVertexBufferStride_Int32.SetBelong(this.instance);
 				}
-				return r_RGetVertexBufferStride_Int32;
+				return r_GetVertexBufferStride_Int32;
 			}
 		}
 
 		/// <summary>
 		/// IntPtr GetNativeVertexBufferPtr(Int32)
 		/// </summary>
-		protected RMethod r_RGetNativeVertexBufferPtr_Int32;
+		protected RMethod r_GetNativeVertexBufferPtr_Int32;
 		public virtual RMethod RGetNativeVertexBufferPtr_Int32
 		{
 			get
 			{
-				if(r_RGetNativeVertexBufferPtr_Int32 == null)
+				if(r_GetNativeVertexBufferPtr_Int32 == null)
 				{
-					r_RGetNativeVertexBufferPtr_Int32 = new(this, "GetNativeVertexBufferPtr", 0, typeof(System.Int32));
-					r_RGetNativeVertexBufferPtr_Int32.SetBelong(this.instance);
+					r_GetNativeVertexBufferPtr_Int32 = new(this, "GetNativeVertexBufferPtr", 0, typeof(System.Int32));
+					r_GetNativeVertexBufferPtr_Int32.SetBelong(this.instance);
 				}
-				return r_RGetNativeVertexBufferPtr_Int32;
+				return r_GetNativeVertexBufferPtr_Int32;
 			}
 		}
 
 		/// <summary>
 		/// IntPtr GetNativeIndexBufferPtr()
 		/// </summary>
-		protected RMethod r_RGetNativeIndexBufferPtr;
+		protected RMethod r_GetNativeIndexBufferPtr;
 		public virtual RMethod RGetNativeIndexBufferPtr
 		{
 			get
 			{
-				if(r_RGetNativeIndexBufferPtr == null)
+				if(r_GetNativeIndexBufferPtr == null)
 				{
-					r_RGetNativeIndexBufferPtr = new(this, "GetNativeIndexBufferPtr", 0);
-					r_RGetNativeIndexBufferPtr.SetBelong(this.instance);
+					r_GetNativeIndexBufferPtr = new(this, "GetNativeIndexBufferPtr", 0);
+					r_GetNativeIndexBufferPtr.SetBelong(this.instance);
 				}
-				return r_RGetNativeIndexBufferPtr;
+				return r_GetNativeIndexBufferPtr;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.GraphicsBuffer GetVertexBufferImpl(Int32)
 		/// </summary>
-		protected RMethod r_RGetVertexBufferImpl_Int32;
+		protected RMethod r_GetVertexBufferImpl_Int32;
 		public virtual RMethod RGetVertexBufferImpl_Int32
 		{
 			get
 			{
-				if(r_RGetVertexBufferImpl_Int32 == null)
+				if(r_GetVertexBufferImpl_Int32 == null)
 				{
-					r_RGetVertexBufferImpl_Int32 = new(this, "GetVertexBufferImpl", 0, typeof(System.Int32));
-					r_RGetVertexBufferImpl_Int32.SetBelong(this.instance);
+					r_GetVertexBufferImpl_Int32 = new(this, "GetVertexBufferImpl", 0, typeof(System.Int32));
+					r_GetVertexBufferImpl_Int32.SetBelong(this.instance);
 				}
-				return r_RGetVertexBufferImpl_Int32;
+				return r_GetVertexBufferImpl_Int32;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.GraphicsBuffer GetIndexBufferImpl()
 		/// </summary>
-		protected RMethod r_RGetIndexBufferImpl;
+		protected RMethod r_GetIndexBufferImpl;
 		public virtual RMethod RGetIndexBufferImpl
 		{
 			get
 			{
-				if(r_RGetIndexBufferImpl == null)
+				if(r_GetIndexBufferImpl == null)
 				{
-					r_RGetIndexBufferImpl = new(this, "GetIndexBufferImpl", 0);
-					r_RGetIndexBufferImpl.SetBelong(this.instance);
+					r_GetIndexBufferImpl = new(this, "GetIndexBufferImpl", 0);
+					r_GetIndexBufferImpl.SetBelong(this.instance);
 				}
-				return r_RGetIndexBufferImpl;
+				return r_GetIndexBufferImpl;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.GraphicsBuffer GetBoneWeightBufferImpl(Int32)
 		/// </summary>
-		protected RMethod r_RGetBoneWeightBufferImpl_Int32;
+		protected RMethod r_GetBoneWeightBufferImpl_Int32;
 		public virtual RMethod RGetBoneWeightBufferImpl_Int32
 		{
 			get
 			{
-				if(r_RGetBoneWeightBufferImpl_Int32 == null)
+				if(r_GetBoneWeightBufferImpl_Int32 == null)
 				{
-					r_RGetBoneWeightBufferImpl_Int32 = new(this, "GetBoneWeightBufferImpl", 0, typeof(System.Int32));
-					r_RGetBoneWeightBufferImpl_Int32.SetBelong(this.instance);
+					r_GetBoneWeightBufferImpl_Int32 = new(this, "GetBoneWeightBufferImpl", 0, typeof(System.Int32));
+					r_GetBoneWeightBufferImpl_Int32.SetBelong(this.instance);
 				}
-				return r_RGetBoneWeightBufferImpl_Int32;
+				return r_GetBoneWeightBufferImpl_Int32;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.GraphicsBuffer GetBlendShapeBufferImpl(Int32)
 		/// </summary>
-		protected RMethod r_RGetBlendShapeBufferImpl_Int32;
+		protected RMethod r_GetBlendShapeBufferImpl_Int32;
 		public virtual RMethod RGetBlendShapeBufferImpl_Int32
 		{
 			get
 			{
-				if(r_RGetBlendShapeBufferImpl_Int32 == null)
+				if(r_GetBlendShapeBufferImpl_Int32 == null)
 				{
-					r_RGetBlendShapeBufferImpl_Int32 = new(this, "GetBlendShapeBufferImpl", 0, typeof(System.Int32));
-					r_RGetBlendShapeBufferImpl_Int32.SetBelong(this.instance);
+					r_GetBlendShapeBufferImpl_Int32 = new(this, "GetBlendShapeBufferImpl", 0, typeof(System.Int32));
+					r_GetBlendShapeBufferImpl_Int32.SetBelong(this.instance);
 				}
-				return r_RGetBlendShapeBufferImpl_Int32;
+				return r_GetBlendShapeBufferImpl_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Void ClearBlendShapes()
 		/// </summary>
-		protected RMethod r_RClearBlendShapes;
+		protected RMethod r_ClearBlendShapes;
 		public virtual RMethod RClearBlendShapes
 		{
 			get
 			{
-				if(r_RClearBlendShapes == null)
+				if(r_ClearBlendShapes == null)
 				{
-					r_RClearBlendShapes = new(this, "ClearBlendShapes", 0);
-					r_RClearBlendShapes.SetBelong(this.instance);
+					r_ClearBlendShapes = new(this, "ClearBlendShapes", 0);
+					r_ClearBlendShapes.SetBelong(this.instance);
 				}
-				return r_RClearBlendShapes;
+				return r_ClearBlendShapes;
 			}
 		}
 
 		/// <summary>
 		/// System.String GetBlendShapeName(Int32)
 		/// </summary>
-		protected RMethod r_RGetBlendShapeName_Int32;
+		protected RMethod r_GetBlendShapeName_Int32;
 		public virtual RMethod RGetBlendShapeName_Int32
 		{
 			get
 			{
-				if(r_RGetBlendShapeName_Int32 == null)
+				if(r_GetBlendShapeName_Int32 == null)
 				{
-					r_RGetBlendShapeName_Int32 = new(this, "GetBlendShapeName", 0, typeof(System.Int32));
-					r_RGetBlendShapeName_Int32.SetBelong(this.instance);
+					r_GetBlendShapeName_Int32 = new(this, "GetBlendShapeName", 0, typeof(System.Int32));
+					r_GetBlendShapeName_Int32.SetBelong(this.instance);
 				}
-				return r_RGetBlendShapeName_Int32;
+				return r_GetBlendShapeName_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetBlendShapeIndex(System.String)
 		/// </summary>
-		protected RMethod r_RGetBlendShapeIndex_String;
+		protected RMethod r_GetBlendShapeIndex_String;
 		public virtual RMethod RGetBlendShapeIndex_String
 		{
 			get
 			{
-				if(r_RGetBlendShapeIndex_String == null)
+				if(r_GetBlendShapeIndex_String == null)
 				{
-					r_RGetBlendShapeIndex_String = new(this, "GetBlendShapeIndex", 0, typeof(System.String));
-					r_RGetBlendShapeIndex_String.SetBelong(this.instance);
+					r_GetBlendShapeIndex_String = new(this, "GetBlendShapeIndex", 0, typeof(System.String));
+					r_GetBlendShapeIndex_String.SetBelong(this.instance);
 				}
-				return r_RGetBlendShapeIndex_String;
+				return r_GetBlendShapeIndex_String;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetBlendShapeFrameCount(Int32)
 		/// </summary>
-		protected RMethod r_RGetBlendShapeFrameCount_Int32;
+		protected RMethod r_GetBlendShapeFrameCount_Int32;
 		public virtual RMethod RGetBlendShapeFrameCount_Int32
 		{
 			get
 			{
-				if(r_RGetBlendShapeFrameCount_Int32 == null)
+				if(r_GetBlendShapeFrameCount_Int32 == null)
 				{
-					r_RGetBlendShapeFrameCount_Int32 = new(this, "GetBlendShapeFrameCount", 0, typeof(System.Int32));
-					r_RGetBlendShapeFrameCount_Int32.SetBelong(this.instance);
+					r_GetBlendShapeFrameCount_Int32 = new(this, "GetBlendShapeFrameCount", 0, typeof(System.Int32));
+					r_GetBlendShapeFrameCount_Int32.SetBelong(this.instance);
 				}
-				return r_RGetBlendShapeFrameCount_Int32;
+				return r_GetBlendShapeFrameCount_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Single GetBlendShapeFrameWeight(Int32, Int32)
 		/// </summary>
-		protected RMethod r_RGetBlendShapeFrameWeight_Int32_Int32;
+		protected RMethod r_GetBlendShapeFrameWeight_Int32_Int32;
 		public virtual RMethod RGetBlendShapeFrameWeight_Int32_Int32
 		{
 			get
 			{
-				if(r_RGetBlendShapeFrameWeight_Int32_Int32 == null)
+				if(r_GetBlendShapeFrameWeight_Int32_Int32 == null)
 				{
-					r_RGetBlendShapeFrameWeight_Int32_Int32 = new(this, "GetBlendShapeFrameWeight", 0, typeof(System.Int32), typeof(System.Int32));
-					r_RGetBlendShapeFrameWeight_Int32_Int32.SetBelong(this.instance);
+					r_GetBlendShapeFrameWeight_Int32_Int32 = new(this, "GetBlendShapeFrameWeight", 0, typeof(System.Int32), typeof(System.Int32));
+					r_GetBlendShapeFrameWeight_Int32_Int32.SetBelong(this.instance);
 				}
-				return r_RGetBlendShapeFrameWeight_Int32_Int32;
+				return r_GetBlendShapeFrameWeight_Int32_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Void GetBlendShapeFrameVertices(Int32, Int32, UnityEngine.Vector3[], UnityEngine.Vector3[], UnityEngine.Vector3[])
 		/// </summary>
-		protected RMethod r_RGetBlendShapeFrameVertices_Int32_Int32_Vector3Array_Vector3Array_Vector3Array;
+		protected RMethod r_GetBlendShapeFrameVertices_Int32_Int32_Vector3Array_Vector3Array_Vector3Array;
 		public virtual RMethod RGetBlendShapeFrameVertices_Int32_Int32_Vector3Array_Vector3Array_Vector3Array
 		{
 			get
 			{
-				if(r_RGetBlendShapeFrameVertices_Int32_Int32_Vector3Array_Vector3Array_Vector3Array == null)
+				if(r_GetBlendShapeFrameVertices_Int32_Int32_Vector3Array_Vector3Array_Vector3Array == null)
 				{
-					r_RGetBlendShapeFrameVertices_Int32_Int32_Vector3Array_Vector3Array_Vector3Array = new(this, "GetBlendShapeFrameVertices", 0, typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.Vector3).MakeArrayType(), typeof(UnityEngine.Vector3).MakeArrayType(), typeof(UnityEngine.Vector3).MakeArrayType());
-					r_RGetBlendShapeFrameVertices_Int32_Int32_Vector3Array_Vector3Array_Vector3Array.SetBelong(this.instance);
+					r_GetBlendShapeFrameVertices_Int32_Int32_Vector3Array_Vector3Array_Vector3Array = new(this, "GetBlendShapeFrameVertices", 0, typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.Vector3).MakeArrayType(), typeof(UnityEngine.Vector3).MakeArrayType(), typeof(UnityEngine.Vector3).MakeArrayType());
+					r_GetBlendShapeFrameVertices_Int32_Int32_Vector3Array_Vector3Array_Vector3Array.SetBelong(this.instance);
 				}
-				return r_RGetBlendShapeFrameVertices_Int32_Int32_Vector3Array_Vector3Array_Vector3Array;
+				return r_GetBlendShapeFrameVertices_Int32_Int32_Vector3Array_Vector3Array_Vector3Array;
 			}
 		}
 
 		/// <summary>
 		/// Void AddBlendShapeFrame(System.String, Single, UnityEngine.Vector3[], UnityEngine.Vector3[], UnityEngine.Vector3[])
 		/// </summary>
-		protected RMethod r_RAddBlendShapeFrame_String_Single_Vector3Array_Vector3Array_Vector3Array;
+		protected RMethod r_AddBlendShapeFrame_String_Single_Vector3Array_Vector3Array_Vector3Array;
 		public virtual RMethod RAddBlendShapeFrame_String_Single_Vector3Array_Vector3Array_Vector3Array
 		{
 			get
 			{
-				if(r_RAddBlendShapeFrame_String_Single_Vector3Array_Vector3Array_Vector3Array == null)
+				if(r_AddBlendShapeFrame_String_Single_Vector3Array_Vector3Array_Vector3Array == null)
 				{
-					r_RAddBlendShapeFrame_String_Single_Vector3Array_Vector3Array_Vector3Array = new(this, "AddBlendShapeFrame", 0, typeof(System.String), typeof(System.Single), typeof(UnityEngine.Vector3).MakeArrayType(), typeof(UnityEngine.Vector3).MakeArrayType(), typeof(UnityEngine.Vector3).MakeArrayType());
-					r_RAddBlendShapeFrame_String_Single_Vector3Array_Vector3Array_Vector3Array.SetBelong(this.instance);
+					r_AddBlendShapeFrame_String_Single_Vector3Array_Vector3Array_Vector3Array = new(this, "AddBlendShapeFrame", 0, typeof(System.String), typeof(System.Single), typeof(UnityEngine.Vector3).MakeArrayType(), typeof(UnityEngine.Vector3).MakeArrayType(), typeof(UnityEngine.Vector3).MakeArrayType());
+					r_AddBlendShapeFrame_String_Single_Vector3Array_Vector3Array_Vector3Array.SetBelong(this.instance);
 				}
-				return r_RAddBlendShapeFrame_String_Single_Vector3Array_Vector3Array_Vector3Array;
+				return r_AddBlendShapeFrame_String_Single_Vector3Array_Vector3Array_Vector3Array;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.BlendShape GetBlendShapeOffsetInternal(Int32)
 		/// </summary>
-		protected RMethod r_RGetBlendShapeOffsetInternal_Int32;
+		protected RMethod r_GetBlendShapeOffsetInternal_Int32;
 		public virtual RMethod RGetBlendShapeOffsetInternal_Int32
 		{
 			get
 			{
-				if(r_RGetBlendShapeOffsetInternal_Int32 == null)
+				if(r_GetBlendShapeOffsetInternal_Int32 == null)
 				{
-					r_RGetBlendShapeOffsetInternal_Int32 = new(this, "GetBlendShapeOffsetInternal", 0, typeof(System.Int32));
-					r_RGetBlendShapeOffsetInternal_Int32.SetBelong(this.instance);
+					r_GetBlendShapeOffsetInternal_Int32 = new(this, "GetBlendShapeOffsetInternal", 0, typeof(System.Int32));
+					r_GetBlendShapeOffsetInternal_Int32.SetBelong(this.instance);
 				}
-				return r_RGetBlendShapeOffsetInternal_Int32;
+				return r_GetBlendShapeOffsetInternal_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Boolean HasBoneWeights()
 		/// </summary>
-		protected RMethod r_RHasBoneWeights;
+		protected RMethod r_HasBoneWeights;
 		public virtual RMethod RHasBoneWeights
 		{
 			get
 			{
-				if(r_RHasBoneWeights == null)
+				if(r_HasBoneWeights == null)
 				{
-					r_RHasBoneWeights = new(this, "HasBoneWeights", 0);
-					r_RHasBoneWeights.SetBelong(this.instance);
+					r_HasBoneWeights = new(this, "HasBoneWeights", 0);
+					r_HasBoneWeights.SetBelong(this.instance);
 				}
-				return r_RHasBoneWeights;
+				return r_HasBoneWeights;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.BoneWeight[] GetBoneWeightsImpl()
 		/// </summary>
-		protected RMethod r_RGetBoneWeightsImpl;
+		protected RMethod r_GetBoneWeightsImpl;
 		public virtual RMethod RGetBoneWeightsImpl
 		{
 			get
 			{
-				if(r_RGetBoneWeightsImpl == null)
+				if(r_GetBoneWeightsImpl == null)
 				{
-					r_RGetBoneWeightsImpl = new(this, "GetBoneWeightsImpl", 0);
-					r_RGetBoneWeightsImpl.SetBelong(this.instance);
+					r_GetBoneWeightsImpl = new(this, "GetBoneWeightsImpl", 0);
+					r_GetBoneWeightsImpl.SetBelong(this.instance);
 				}
-				return r_RGetBoneWeightsImpl;
+				return r_GetBoneWeightsImpl;
 			}
 		}
 
 		/// <summary>
 		/// Void SetBoneWeightsImpl(UnityEngine.BoneWeight[])
 		/// </summary>
-		protected RMethod r_RSetBoneWeightsImpl_BoneWeightArray;
+		protected RMethod r_SetBoneWeightsImpl_BoneWeightArray;
 		public virtual RMethod RSetBoneWeightsImpl_BoneWeightArray
 		{
 			get
 			{
-				if(r_RSetBoneWeightsImpl_BoneWeightArray == null)
+				if(r_SetBoneWeightsImpl_BoneWeightArray == null)
 				{
-					r_RSetBoneWeightsImpl_BoneWeightArray = new(this, "SetBoneWeightsImpl", 0, typeof(UnityEngine.BoneWeight).MakeArrayType());
-					r_RSetBoneWeightsImpl_BoneWeightArray.SetBelong(this.instance);
+					r_SetBoneWeightsImpl_BoneWeightArray = new(this, "SetBoneWeightsImpl", 0, typeof(UnityEngine.BoneWeight).MakeArrayType());
+					r_SetBoneWeightsImpl_BoneWeightArray.SetBelong(this.instance);
 				}
-				return r_RSetBoneWeightsImpl_BoneWeightArray;
+				return r_SetBoneWeightsImpl_BoneWeightArray;
 			}
 		}
 
 		/// <summary>
 		/// Void SetBoneWeights(Unity.Collections.NativeArray`1[System.Byte], Unity.Collections.NativeArray`1[UnityEngine.BoneWeight1])
 		/// </summary>
-		protected RMethod r_RSetBoneWeights_NativeArray_d_Byte_p__NativeArray_d_BoneWeight1_p_;
+		protected RMethod r_SetBoneWeights_NativeArray_d_Byte_p__NativeArray_d_BoneWeight1_p_;
 		public virtual RMethod RSetBoneWeights_NativeArray_d_Byte_p__NativeArray_d_BoneWeight1_p_
 		{
 			get
 			{
-				if(r_RSetBoneWeights_NativeArray_d_Byte_p__NativeArray_d_BoneWeight1_p_ == null)
+				if(r_SetBoneWeights_NativeArray_d_Byte_p__NativeArray_d_BoneWeight1_p_ == null)
 				{
-					r_RSetBoneWeights_NativeArray_d_Byte_p__NativeArray_d_BoneWeight1_p_ = new(this, "SetBoneWeights", 0, typeof(Unity.Collections.NativeArray<>).MakeGenericType(typeof(System.Byte)), typeof(Unity.Collections.NativeArray<>).MakeGenericType(typeof(UnityEngine.BoneWeight1)));
-					r_RSetBoneWeights_NativeArray_d_Byte_p__NativeArray_d_BoneWeight1_p_.SetBelong(this.instance);
+					r_SetBoneWeights_NativeArray_d_Byte_p__NativeArray_d_BoneWeight1_p_ = new(this, "SetBoneWeights", 0, typeof(Unity.Collections.NativeArray<>).MakeGenericType(typeof(System.Byte)), typeof(Unity.Collections.NativeArray<>).MakeGenericType(typeof(UnityEngine.BoneWeight1)));
+					r_SetBoneWeights_NativeArray_d_Byte_p__NativeArray_d_BoneWeight1_p_.SetBelong(this.instance);
 				}
-				return r_RSetBoneWeights_NativeArray_d_Byte_p__NativeArray_d_BoneWeight1_p_;
+				return r_SetBoneWeights_NativeArray_d_Byte_p__NativeArray_d_BoneWeight1_p_;
 			}
 		}
 
 		/// <summary>
 		/// Void InternalSetBoneWeights(IntPtr, Int32, IntPtr, Int32)
 		/// </summary>
-		protected RMethod r_RInternalSetBoneWeights_IntPtr_Int32_IntPtr_Int32;
+		protected RMethod r_InternalSetBoneWeights_IntPtr_Int32_IntPtr_Int32;
 		public virtual RMethod RInternalSetBoneWeights_IntPtr_Int32_IntPtr_Int32
 		{
 			get
 			{
-				if(r_RInternalSetBoneWeights_IntPtr_Int32_IntPtr_Int32 == null)
+				if(r_InternalSetBoneWeights_IntPtr_Int32_IntPtr_Int32 == null)
 				{
-					r_RInternalSetBoneWeights_IntPtr_Int32_IntPtr_Int32 = new(this, "InternalSetBoneWeights", 0, typeof(System.IntPtr), typeof(System.Int32), typeof(System.IntPtr), typeof(System.Int32));
-					r_RInternalSetBoneWeights_IntPtr_Int32_IntPtr_Int32.SetBelong(this.instance);
+					r_InternalSetBoneWeights_IntPtr_Int32_IntPtr_Int32 = new(this, "InternalSetBoneWeights", 0, typeof(System.IntPtr), typeof(System.Int32), typeof(System.IntPtr), typeof(System.Int32));
+					r_InternalSetBoneWeights_IntPtr_Int32_IntPtr_Int32.SetBelong(this.instance);
 				}
-				return r_RInternalSetBoneWeights_IntPtr_Int32_IntPtr_Int32;
+				return r_InternalSetBoneWeights_IntPtr_Int32_IntPtr_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Unity.Collections.NativeArray`1[UnityEngine.BoneWeight1] GetAllBoneWeights()
 		/// </summary>
-		protected RMethod r_RGetAllBoneWeights;
+		protected RMethod r_GetAllBoneWeights;
 		public virtual RMethod RGetAllBoneWeights
 		{
 			get
 			{
-				if(r_RGetAllBoneWeights == null)
+				if(r_GetAllBoneWeights == null)
 				{
-					r_RGetAllBoneWeights = new(this, "GetAllBoneWeights", 0);
-					r_RGetAllBoneWeights.SetBelong(this.instance);
+					r_GetAllBoneWeights = new(this, "GetAllBoneWeights", 0);
+					r_GetAllBoneWeights.SetBelong(this.instance);
 				}
-				return r_RGetAllBoneWeights;
+				return r_GetAllBoneWeights;
 			}
 		}
 
 		/// <summary>
 		/// Unity.Collections.NativeArray`1[System.Byte] GetBonesPerVertex()
 		/// </summary>
-		protected RMethod r_RGetBonesPerVertex;
+		protected RMethod r_GetBonesPerVertex;
 		public virtual RMethod RGetBonesPerVertex
 		{
 			get
 			{
-				if(r_RGetBonesPerVertex == null)
+				if(r_GetBonesPerVertex == null)
 				{
-					r_RGetBonesPerVertex = new(this, "GetBonesPerVertex", 0);
-					r_RGetBonesPerVertex.SetBelong(this.instance);
+					r_GetBonesPerVertex = new(this, "GetBonesPerVertex", 0);
+					r_GetBonesPerVertex.SetBelong(this.instance);
 				}
-				return r_RGetBonesPerVertex;
+				return r_GetBonesPerVertex;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetAllBoneWeightsArraySize()
 		/// </summary>
-		protected RMethod r_RGetAllBoneWeightsArraySize;
+		protected RMethod r_GetAllBoneWeightsArraySize;
 		public virtual RMethod RGetAllBoneWeightsArraySize
 		{
 			get
 			{
-				if(r_RGetAllBoneWeightsArraySize == null)
+				if(r_GetAllBoneWeightsArraySize == null)
 				{
-					r_RGetAllBoneWeightsArraySize = new(this, "GetAllBoneWeightsArraySize", 0);
-					r_RGetAllBoneWeightsArraySize.SetBelong(this.instance);
+					r_GetAllBoneWeightsArraySize = new(this, "GetAllBoneWeightsArraySize", 0);
+					r_GetAllBoneWeightsArraySize.SetBelong(this.instance);
 				}
-				return r_RGetAllBoneWeightsArraySize;
+				return r_GetAllBoneWeightsArraySize;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetBoneWeightBufferLayoutInternal()
 		/// </summary>
-		protected RMethod r_RGetBoneWeightBufferLayoutInternal;
+		protected RMethod r_GetBoneWeightBufferLayoutInternal;
 		public virtual RMethod RGetBoneWeightBufferLayoutInternal
 		{
 			get
 			{
-				if(r_RGetBoneWeightBufferLayoutInternal == null)
+				if(r_GetBoneWeightBufferLayoutInternal == null)
 				{
-					r_RGetBoneWeightBufferLayoutInternal = new(this, "GetBoneWeightBufferLayoutInternal", 0);
-					r_RGetBoneWeightBufferLayoutInternal.SetBelong(this.instance);
+					r_GetBoneWeightBufferLayoutInternal = new(this, "GetBoneWeightBufferLayoutInternal", 0);
+					r_GetBoneWeightBufferLayoutInternal.SetBelong(this.instance);
 				}
-				return r_RGetBoneWeightBufferLayoutInternal;
+				return r_GetBoneWeightBufferLayoutInternal;
 			}
 		}
 
 		/// <summary>
 		/// IntPtr GetAllBoneWeightsArray()
 		/// </summary>
-		protected RMethod r_RGetAllBoneWeightsArray;
+		protected RMethod r_GetAllBoneWeightsArray;
 		public virtual RMethod RGetAllBoneWeightsArray
 		{
 			get
 			{
-				if(r_RGetAllBoneWeightsArray == null)
+				if(r_GetAllBoneWeightsArray == null)
 				{
-					r_RGetAllBoneWeightsArray = new(this, "GetAllBoneWeightsArray", 0);
-					r_RGetAllBoneWeightsArray.SetBelong(this.instance);
+					r_GetAllBoneWeightsArray = new(this, "GetAllBoneWeightsArray", 0);
+					r_GetAllBoneWeightsArray.SetBelong(this.instance);
 				}
-				return r_RGetAllBoneWeightsArray;
+				return r_GetAllBoneWeightsArray;
 			}
 		}
 
 		/// <summary>
 		/// IntPtr GetBonesPerVertexArray()
 		/// </summary>
-		protected RMethod r_RGetBonesPerVertexArray;
+		protected RMethod r_GetBonesPerVertexArray;
 		public virtual RMethod RGetBonesPerVertexArray
 		{
 			get
 			{
-				if(r_RGetBonesPerVertexArray == null)
+				if(r_GetBonesPerVertexArray == null)
 				{
-					r_RGetBonesPerVertexArray = new(this, "GetBonesPerVertexArray", 0);
-					r_RGetBonesPerVertexArray.SetBelong(this.instance);
+					r_GetBonesPerVertexArray = new(this, "GetBonesPerVertexArray", 0);
+					r_GetBonesPerVertexArray.SetBelong(this.instance);
 				}
-				return r_RGetBonesPerVertexArray;
+				return r_GetBonesPerVertexArray;
 			}
 		}
 
 		/// <summary>
 		/// Unity.Collections.NativeArray`1[UnityEngine.Matrix4x4] GetBindposes()
 		/// </summary>
-		protected RMethod r_RGetBindposes;
+		protected RMethod r_GetBindposes;
 		public virtual RMethod RGetBindposes
 		{
 			get
 			{
-				if(r_RGetBindposes == null)
+				if(r_GetBindposes == null)
 				{
-					r_RGetBindposes = new(this, "GetBindposes", 0);
-					r_RGetBindposes.SetBelong(this.instance);
+					r_GetBindposes = new(this, "GetBindposes", 0);
+					r_GetBindposes.SetBelong(this.instance);
 				}
-				return r_RGetBindposes;
+				return r_GetBindposes;
 			}
 		}
 
 		/// <summary>
 		/// IntPtr GetBindposesArray()
 		/// </summary>
-		protected RMethod r_RGetBindposesArray;
+		protected RMethod r_GetBindposesArray;
 		public virtual RMethod RGetBindposesArray
 		{
 			get
 			{
-				if(r_RGetBindposesArray == null)
+				if(r_GetBindposesArray == null)
 				{
-					r_RGetBindposesArray = new(this, "GetBindposesArray", 0);
-					r_RGetBindposesArray.SetBelong(this.instance);
+					r_GetBindposesArray = new(this, "GetBindposesArray", 0);
+					r_GetBindposesArray.SetBelong(this.instance);
 				}
-				return r_RGetBindposesArray;
+				return r_GetBindposesArray;
 			}
 		}
 
 		/// <summary>
 		/// Void GetBoneWeightsNonAllocImpl(UnityEngine.BoneWeight[])
 		/// </summary>
-		protected RMethod r_RGetBoneWeightsNonAllocImpl_BoneWeightArray;
+		protected RMethod r_GetBoneWeightsNonAllocImpl_BoneWeightArray;
 		public virtual RMethod RGetBoneWeightsNonAllocImpl_BoneWeightArray
 		{
 			get
 			{
-				if(r_RGetBoneWeightsNonAllocImpl_BoneWeightArray == null)
+				if(r_GetBoneWeightsNonAllocImpl_BoneWeightArray == null)
 				{
-					r_RGetBoneWeightsNonAllocImpl_BoneWeightArray = new(this, "GetBoneWeightsNonAllocImpl", 0, typeof(UnityEngine.BoneWeight).MakeArrayType());
-					r_RGetBoneWeightsNonAllocImpl_BoneWeightArray.SetBelong(this.instance);
+					r_GetBoneWeightsNonAllocImpl_BoneWeightArray = new(this, "GetBoneWeightsNonAllocImpl", 0, typeof(UnityEngine.BoneWeight).MakeArrayType());
+					r_GetBoneWeightsNonAllocImpl_BoneWeightArray.SetBelong(this.instance);
 				}
-				return r_RGetBoneWeightsNonAllocImpl_BoneWeightArray;
+				return r_GetBoneWeightsNonAllocImpl_BoneWeightArray;
 			}
 		}
 
 		/// <summary>
 		/// Void GetBindposesNonAllocImpl(UnityEngine.Matrix4x4[])
 		/// </summary>
-		protected RMethod r_RGetBindposesNonAllocImpl_Matrix4x4Array;
+		protected RMethod r_GetBindposesNonAllocImpl_Matrix4x4Array;
 		public virtual RMethod RGetBindposesNonAllocImpl_Matrix4x4Array
 		{
 			get
 			{
-				if(r_RGetBindposesNonAllocImpl_Matrix4x4Array == null)
+				if(r_GetBindposesNonAllocImpl_Matrix4x4Array == null)
 				{
-					r_RGetBindposesNonAllocImpl_Matrix4x4Array = new(this, "GetBindposesNonAllocImpl", 0, typeof(UnityEngine.Matrix4x4).MakeArrayType());
-					r_RGetBindposesNonAllocImpl_Matrix4x4Array.SetBelong(this.instance);
+					r_GetBindposesNonAllocImpl_Matrix4x4Array = new(this, "GetBindposesNonAllocImpl", 0, typeof(UnityEngine.Matrix4x4).MakeArrayType());
+					r_GetBindposesNonAllocImpl_Matrix4x4Array.SetBelong(this.instance);
 				}
-				return r_RGetBindposesNonAllocImpl_Matrix4x4Array;
+				return r_GetBindposesNonAllocImpl_Matrix4x4Array;
 			}
 		}
 
 		/// <summary>
 		/// Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle GetReadOnlySafetyHandle(SafetyHandleIndex)
 		/// </summary>
-		protected RMethod r_RGetReadOnlySafetyHandle_SafetyHandleIndex;
+		protected RMethod r_GetReadOnlySafetyHandle_SafetyHandleIndex;
 		public virtual RMethod RGetReadOnlySafetyHandle_SafetyHandleIndex
 		{
 			get
 			{
-				if(r_RGetReadOnlySafetyHandle_SafetyHandleIndex == null)
+				if(r_GetReadOnlySafetyHandle_SafetyHandleIndex == null)
 				{
-					r_RGetReadOnlySafetyHandle_SafetyHandleIndex = new(this, "GetReadOnlySafetyHandle", 0,  ReleactionUtils.GetType("UnityEngine.Mesh+SafetyHandleIndex"));
-					r_RGetReadOnlySafetyHandle_SafetyHandleIndex.SetBelong(this.instance);
+					r_GetReadOnlySafetyHandle_SafetyHandleIndex = new(this, "GetReadOnlySafetyHandle", 0,  ReleactionUtils.GetType("UnityEngine.Mesh+SafetyHandleIndex"));
+					r_GetReadOnlySafetyHandle_SafetyHandleIndex.SetBelong(this.instance);
 				}
-				return r_RGetReadOnlySafetyHandle_SafetyHandleIndex;
+				return r_GetReadOnlySafetyHandle_SafetyHandleIndex;
 			}
 		}
 
 		/// <summary>
 		/// Void SetSubMesh(Int32, UnityEngine.Rendering.SubMeshDescriptor, UnityEngine.Rendering.MeshUpdateFlags)
 		/// </summary>
-		protected RMethod r_RSetSubMesh_Int32_SubMeshDescriptor_MeshUpdateFlags;
+		protected RMethod r_SetSubMesh_Int32_SubMeshDescriptor_MeshUpdateFlags;
 		public virtual RMethod RSetSubMesh_Int32_SubMeshDescriptor_MeshUpdateFlags
 		{
 			get
 			{
-				if(r_RSetSubMesh_Int32_SubMeshDescriptor_MeshUpdateFlags == null)
+				if(r_SetSubMesh_Int32_SubMeshDescriptor_MeshUpdateFlags == null)
 				{
-					r_RSetSubMesh_Int32_SubMeshDescriptor_MeshUpdateFlags = new(this, "SetSubMesh", 0, typeof(System.Int32), typeof(UnityEngine.Rendering.SubMeshDescriptor), typeof(UnityEngine.Rendering.MeshUpdateFlags));
-					r_RSetSubMesh_Int32_SubMeshDescriptor_MeshUpdateFlags.SetBelong(this.instance);
+					r_SetSubMesh_Int32_SubMeshDescriptor_MeshUpdateFlags = new(this, "SetSubMesh", 0, typeof(System.Int32), typeof(UnityEngine.Rendering.SubMeshDescriptor), typeof(UnityEngine.Rendering.MeshUpdateFlags));
+					r_SetSubMesh_Int32_SubMeshDescriptor_MeshUpdateFlags.SetBelong(this.instance);
 				}
-				return r_RSetSubMesh_Int32_SubMeshDescriptor_MeshUpdateFlags;
+				return r_SetSubMesh_Int32_SubMeshDescriptor_MeshUpdateFlags;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Rendering.SubMeshDescriptor GetSubMesh(Int32)
 		/// </summary>
-		protected RMethod r_RGetSubMesh_Int32;
+		protected RMethod r_GetSubMesh_Int32;
 		public virtual RMethod RGetSubMesh_Int32
 		{
 			get
 			{
-				if(r_RGetSubMesh_Int32 == null)
+				if(r_GetSubMesh_Int32 == null)
 				{
-					r_RGetSubMesh_Int32 = new(this, "GetSubMesh", 0, typeof(System.Int32));
-					r_RGetSubMesh_Int32.SetBelong(this.instance);
+					r_GetSubMesh_Int32 = new(this, "GetSubMesh", 0, typeof(System.Int32));
+					r_GetSubMesh_Int32.SetBelong(this.instance);
 				}
-				return r_RGetSubMesh_Int32;
+				return r_GetSubMesh_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Void SetAllSubMeshesAtOnceFromArray(UnityEngine.Rendering.SubMeshDescriptor[], Int32, Int32, UnityEngine.Rendering.MeshUpdateFlags)
 		/// </summary>
-		protected RMethod r_RSetAllSubMeshesAtOnceFromArray_SubMeshDescriptorArray_Int32_Int32_MeshUpdateFlags;
+		protected RMethod r_SetAllSubMeshesAtOnceFromArray_SubMeshDescriptorArray_Int32_Int32_MeshUpdateFlags;
 		public virtual RMethod RSetAllSubMeshesAtOnceFromArray_SubMeshDescriptorArray_Int32_Int32_MeshUpdateFlags
 		{
 			get
 			{
-				if(r_RSetAllSubMeshesAtOnceFromArray_SubMeshDescriptorArray_Int32_Int32_MeshUpdateFlags == null)
+				if(r_SetAllSubMeshesAtOnceFromArray_SubMeshDescriptorArray_Int32_Int32_MeshUpdateFlags == null)
 				{
-					r_RSetAllSubMeshesAtOnceFromArray_SubMeshDescriptorArray_Int32_Int32_MeshUpdateFlags = new(this, "SetAllSubMeshesAtOnceFromArray", 0, typeof(UnityEngine.Rendering.SubMeshDescriptor).MakeArrayType(), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.Rendering.MeshUpdateFlags));
-					r_RSetAllSubMeshesAtOnceFromArray_SubMeshDescriptorArray_Int32_Int32_MeshUpdateFlags.SetBelong(this.instance);
+					r_SetAllSubMeshesAtOnceFromArray_SubMeshDescriptorArray_Int32_Int32_MeshUpdateFlags = new(this, "SetAllSubMeshesAtOnceFromArray", 0, typeof(UnityEngine.Rendering.SubMeshDescriptor).MakeArrayType(), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.Rendering.MeshUpdateFlags));
+					r_SetAllSubMeshesAtOnceFromArray_SubMeshDescriptorArray_Int32_Int32_MeshUpdateFlags.SetBelong(this.instance);
 				}
-				return r_RSetAllSubMeshesAtOnceFromArray_SubMeshDescriptorArray_Int32_Int32_MeshUpdateFlags;
+				return r_SetAllSubMeshesAtOnceFromArray_SubMeshDescriptorArray_Int32_Int32_MeshUpdateFlags;
 			}
 		}
 
 		/// <summary>
 		/// Void SetAllSubMeshesAtOnceFromNativeArray(IntPtr, Int32, Int32, UnityEngine.Rendering.MeshUpdateFlags)
 		/// </summary>
-		protected RMethod r_RSetAllSubMeshesAtOnceFromNativeArray_IntPtr_Int32_Int32_MeshUpdateFlags;
+		protected RMethod r_SetAllSubMeshesAtOnceFromNativeArray_IntPtr_Int32_Int32_MeshUpdateFlags;
 		public virtual RMethod RSetAllSubMeshesAtOnceFromNativeArray_IntPtr_Int32_Int32_MeshUpdateFlags
 		{
 			get
 			{
-				if(r_RSetAllSubMeshesAtOnceFromNativeArray_IntPtr_Int32_Int32_MeshUpdateFlags == null)
+				if(r_SetAllSubMeshesAtOnceFromNativeArray_IntPtr_Int32_Int32_MeshUpdateFlags == null)
 				{
-					r_RSetAllSubMeshesAtOnceFromNativeArray_IntPtr_Int32_Int32_MeshUpdateFlags = new(this, "SetAllSubMeshesAtOnceFromNativeArray", 0, typeof(System.IntPtr), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.Rendering.MeshUpdateFlags));
-					r_RSetAllSubMeshesAtOnceFromNativeArray_IntPtr_Int32_Int32_MeshUpdateFlags.SetBelong(this.instance);
+					r_SetAllSubMeshesAtOnceFromNativeArray_IntPtr_Int32_Int32_MeshUpdateFlags = new(this, "SetAllSubMeshesAtOnceFromNativeArray", 0, typeof(System.IntPtr), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.Rendering.MeshUpdateFlags));
+					r_SetAllSubMeshesAtOnceFromNativeArray_IntPtr_Int32_Int32_MeshUpdateFlags.SetBelong(this.instance);
 				}
-				return r_RSetAllSubMeshesAtOnceFromNativeArray_IntPtr_Int32_Int32_MeshUpdateFlags;
+				return r_SetAllSubMeshesAtOnceFromNativeArray_IntPtr_Int32_Int32_MeshUpdateFlags;
 			}
 		}
 
 		/// <summary>
 		/// Void ClearImpl(Boolean)
 		/// </summary>
-		protected RMethod r_RClearImpl_Boolean;
+		protected RMethod r_ClearImpl_Boolean;
 		public virtual RMethod RClearImpl_Boolean
 		{
 			get
 			{
-				if(r_RClearImpl_Boolean == null)
+				if(r_ClearImpl_Boolean == null)
 				{
-					r_RClearImpl_Boolean = new(this, "ClearImpl", 0, typeof(System.Boolean));
-					r_RClearImpl_Boolean.SetBelong(this.instance);
+					r_ClearImpl_Boolean = new(this, "ClearImpl", 0, typeof(System.Boolean));
+					r_ClearImpl_Boolean.SetBelong(this.instance);
 				}
-				return r_RClearImpl_Boolean;
+				return r_ClearImpl_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Void RecalculateBoundsImpl(UnityEngine.Rendering.MeshUpdateFlags)
 		/// </summary>
-		protected RMethod r_RRecalculateBoundsImpl_MeshUpdateFlags;
+		protected RMethod r_RecalculateBoundsImpl_MeshUpdateFlags;
 		public virtual RMethod RRecalculateBoundsImpl_MeshUpdateFlags
 		{
 			get
 			{
-				if(r_RRecalculateBoundsImpl_MeshUpdateFlags == null)
+				if(r_RecalculateBoundsImpl_MeshUpdateFlags == null)
 				{
-					r_RRecalculateBoundsImpl_MeshUpdateFlags = new(this, "RecalculateBoundsImpl", 0, typeof(UnityEngine.Rendering.MeshUpdateFlags));
-					r_RRecalculateBoundsImpl_MeshUpdateFlags.SetBelong(this.instance);
+					r_RecalculateBoundsImpl_MeshUpdateFlags = new(this, "RecalculateBoundsImpl", 0, typeof(UnityEngine.Rendering.MeshUpdateFlags));
+					r_RecalculateBoundsImpl_MeshUpdateFlags.SetBelong(this.instance);
 				}
-				return r_RRecalculateBoundsImpl_MeshUpdateFlags;
+				return r_RecalculateBoundsImpl_MeshUpdateFlags;
 			}
 		}
 
 		/// <summary>
 		/// Void RecalculateNormalsImpl(UnityEngine.Rendering.MeshUpdateFlags)
 		/// </summary>
-		protected RMethod r_RRecalculateNormalsImpl_MeshUpdateFlags;
+		protected RMethod r_RecalculateNormalsImpl_MeshUpdateFlags;
 		public virtual RMethod RRecalculateNormalsImpl_MeshUpdateFlags
 		{
 			get
 			{
-				if(r_RRecalculateNormalsImpl_MeshUpdateFlags == null)
+				if(r_RecalculateNormalsImpl_MeshUpdateFlags == null)
 				{
-					r_RRecalculateNormalsImpl_MeshUpdateFlags = new(this, "RecalculateNormalsImpl", 0, typeof(UnityEngine.Rendering.MeshUpdateFlags));
-					r_RRecalculateNormalsImpl_MeshUpdateFlags.SetBelong(this.instance);
+					r_RecalculateNormalsImpl_MeshUpdateFlags = new(this, "RecalculateNormalsImpl", 0, typeof(UnityEngine.Rendering.MeshUpdateFlags));
+					r_RecalculateNormalsImpl_MeshUpdateFlags.SetBelong(this.instance);
 				}
-				return r_RRecalculateNormalsImpl_MeshUpdateFlags;
+				return r_RecalculateNormalsImpl_MeshUpdateFlags;
 			}
 		}
 
 		/// <summary>
 		/// Void RecalculateTangentsImpl(UnityEngine.Rendering.MeshUpdateFlags)
 		/// </summary>
-		protected RMethod r_RRecalculateTangentsImpl_MeshUpdateFlags;
+		protected RMethod r_RecalculateTangentsImpl_MeshUpdateFlags;
 		public virtual RMethod RRecalculateTangentsImpl_MeshUpdateFlags
 		{
 			get
 			{
-				if(r_RRecalculateTangentsImpl_MeshUpdateFlags == null)
+				if(r_RecalculateTangentsImpl_MeshUpdateFlags == null)
 				{
-					r_RRecalculateTangentsImpl_MeshUpdateFlags = new(this, "RecalculateTangentsImpl", 0, typeof(UnityEngine.Rendering.MeshUpdateFlags));
-					r_RRecalculateTangentsImpl_MeshUpdateFlags.SetBelong(this.instance);
+					r_RecalculateTangentsImpl_MeshUpdateFlags = new(this, "RecalculateTangentsImpl", 0, typeof(UnityEngine.Rendering.MeshUpdateFlags));
+					r_RecalculateTangentsImpl_MeshUpdateFlags.SetBelong(this.instance);
 				}
-				return r_RRecalculateTangentsImpl_MeshUpdateFlags;
+				return r_RecalculateTangentsImpl_MeshUpdateFlags;
 			}
 		}
 
 		/// <summary>
 		/// Void MarkDynamicImpl()
 		/// </summary>
-		protected RMethod r_RMarkDynamicImpl;
+		protected RMethod r_MarkDynamicImpl;
 		public virtual RMethod RMarkDynamicImpl
 		{
 			get
 			{
-				if(r_RMarkDynamicImpl == null)
+				if(r_MarkDynamicImpl == null)
 				{
-					r_RMarkDynamicImpl = new(this, "MarkDynamicImpl", 0);
-					r_RMarkDynamicImpl.SetBelong(this.instance);
+					r_MarkDynamicImpl = new(this, "MarkDynamicImpl", 0);
+					r_MarkDynamicImpl.SetBelong(this.instance);
 				}
-				return r_RMarkDynamicImpl;
+				return r_MarkDynamicImpl;
 			}
 		}
 
 		/// <summary>
 		/// Void MarkModified()
 		/// </summary>
-		protected RMethod r_RMarkModified;
+		protected RMethod r_MarkModified;
 		public virtual RMethod RMarkModified
 		{
 			get
 			{
-				if(r_RMarkModified == null)
+				if(r_MarkModified == null)
 				{
-					r_RMarkModified = new(this, "MarkModified", 0);
-					r_RMarkModified.SetBelong(this.instance);
+					r_MarkModified = new(this, "MarkModified", 0);
+					r_MarkModified.SetBelong(this.instance);
 				}
-				return r_RMarkModified;
+				return r_MarkModified;
 			}
 		}
 
 		/// <summary>
 		/// Void UploadMeshDataImpl(Boolean)
 		/// </summary>
-		protected RMethod r_RUploadMeshDataImpl_Boolean;
+		protected RMethod r_UploadMeshDataImpl_Boolean;
 		public virtual RMethod RUploadMeshDataImpl_Boolean
 		{
 			get
 			{
-				if(r_RUploadMeshDataImpl_Boolean == null)
+				if(r_UploadMeshDataImpl_Boolean == null)
 				{
-					r_RUploadMeshDataImpl_Boolean = new(this, "UploadMeshDataImpl", 0, typeof(System.Boolean));
-					r_RUploadMeshDataImpl_Boolean.SetBelong(this.instance);
+					r_UploadMeshDataImpl_Boolean = new(this, "UploadMeshDataImpl", 0, typeof(System.Boolean));
+					r_UploadMeshDataImpl_Boolean.SetBelong(this.instance);
 				}
-				return r_RUploadMeshDataImpl_Boolean;
+				return r_UploadMeshDataImpl_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.MeshTopology GetTopologyImpl(Int32)
 		/// </summary>
-		protected RMethod r_RGetTopologyImpl_Int32;
+		protected RMethod r_GetTopologyImpl_Int32;
 		public virtual RMethod RGetTopologyImpl_Int32
 		{
 			get
 			{
-				if(r_RGetTopologyImpl_Int32 == null)
+				if(r_GetTopologyImpl_Int32 == null)
 				{
-					r_RGetTopologyImpl_Int32 = new(this, "GetTopologyImpl", 0, typeof(System.Int32));
-					r_RGetTopologyImpl_Int32.SetBelong(this.instance);
+					r_GetTopologyImpl_Int32 = new(this, "GetTopologyImpl", 0, typeof(System.Int32));
+					r_GetTopologyImpl_Int32.SetBelong(this.instance);
 				}
-				return r_RGetTopologyImpl_Int32;
+				return r_GetTopologyImpl_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Void RecalculateUVDistributionMetricImpl(Int32, Single)
 		/// </summary>
-		protected RMethod r_RRecalculateUVDistributionMetricImpl_Int32_Single;
+		protected RMethod r_RecalculateUVDistributionMetricImpl_Int32_Single;
 		public virtual RMethod RRecalculateUVDistributionMetricImpl_Int32_Single
 		{
 			get
 			{
-				if(r_RRecalculateUVDistributionMetricImpl_Int32_Single == null)
+				if(r_RecalculateUVDistributionMetricImpl_Int32_Single == null)
 				{
-					r_RRecalculateUVDistributionMetricImpl_Int32_Single = new(this, "RecalculateUVDistributionMetricImpl", 0, typeof(System.Int32), typeof(System.Single));
-					r_RRecalculateUVDistributionMetricImpl_Int32_Single.SetBelong(this.instance);
+					r_RecalculateUVDistributionMetricImpl_Int32_Single = new(this, "RecalculateUVDistributionMetricImpl", 0, typeof(System.Int32), typeof(System.Single));
+					r_RecalculateUVDistributionMetricImpl_Int32_Single.SetBelong(this.instance);
 				}
-				return r_RRecalculateUVDistributionMetricImpl_Int32_Single;
+				return r_RecalculateUVDistributionMetricImpl_Int32_Single;
 			}
 		}
 
 		/// <summary>
 		/// Void RecalculateUVDistributionMetricsImpl(Single)
 		/// </summary>
-		protected RMethod r_RRecalculateUVDistributionMetricsImpl_Single;
+		protected RMethod r_RecalculateUVDistributionMetricsImpl_Single;
 		public virtual RMethod RRecalculateUVDistributionMetricsImpl_Single
 		{
 			get
 			{
-				if(r_RRecalculateUVDistributionMetricsImpl_Single == null)
+				if(r_RecalculateUVDistributionMetricsImpl_Single == null)
 				{
-					r_RRecalculateUVDistributionMetricsImpl_Single = new(this, "RecalculateUVDistributionMetricsImpl", 0, typeof(System.Single));
-					r_RRecalculateUVDistributionMetricsImpl_Single.SetBelong(this.instance);
+					r_RecalculateUVDistributionMetricsImpl_Single = new(this, "RecalculateUVDistributionMetricsImpl", 0, typeof(System.Single));
+					r_RecalculateUVDistributionMetricsImpl_Single.SetBelong(this.instance);
 				}
-				return r_RRecalculateUVDistributionMetricsImpl_Single;
+				return r_RecalculateUVDistributionMetricsImpl_Single;
 			}
 		}
 
 		/// <summary>
 		/// Single GetUVDistributionMetric(Int32)
 		/// </summary>
-		protected RMethod r_RGetUVDistributionMetric_Int32;
+		protected RMethod r_GetUVDistributionMetric_Int32;
 		public virtual RMethod RGetUVDistributionMetric_Int32
 		{
 			get
 			{
-				if(r_RGetUVDistributionMetric_Int32 == null)
+				if(r_GetUVDistributionMetric_Int32 == null)
 				{
-					r_RGetUVDistributionMetric_Int32 = new(this, "GetUVDistributionMetric", 0, typeof(System.Int32));
-					r_RGetUVDistributionMetric_Int32.SetBelong(this.instance);
+					r_GetUVDistributionMetric_Int32 = new(this, "GetUVDistributionMetric", 0, typeof(System.Int32));
+					r_GetUVDistributionMetric_Int32.SetBelong(this.instance);
 				}
-				return r_RGetUVDistributionMetric_Int32;
+				return r_GetUVDistributionMetric_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Void CombineMeshesImpl(UnityEngine.CombineInstance[], Boolean, Boolean, Boolean)
 		/// </summary>
-		protected RMethod r_RCombineMeshesImpl_CombineInstanceArray_Boolean_Boolean_Boolean;
+		protected RMethod r_CombineMeshesImpl_CombineInstanceArray_Boolean_Boolean_Boolean;
 		public virtual RMethod RCombineMeshesImpl_CombineInstanceArray_Boolean_Boolean_Boolean
 		{
 			get
 			{
-				if(r_RCombineMeshesImpl_CombineInstanceArray_Boolean_Boolean_Boolean == null)
+				if(r_CombineMeshesImpl_CombineInstanceArray_Boolean_Boolean_Boolean == null)
 				{
-					r_RCombineMeshesImpl_CombineInstanceArray_Boolean_Boolean_Boolean = new(this, "CombineMeshesImpl", 0, typeof(UnityEngine.CombineInstance).MakeArrayType(), typeof(System.Boolean), typeof(System.Boolean), typeof(System.Boolean));
-					r_RCombineMeshesImpl_CombineInstanceArray_Boolean_Boolean_Boolean.SetBelong(this.instance);
+					r_CombineMeshesImpl_CombineInstanceArray_Boolean_Boolean_Boolean = new(this, "CombineMeshesImpl", 0, typeof(UnityEngine.CombineInstance).MakeArrayType(), typeof(System.Boolean), typeof(System.Boolean), typeof(System.Boolean));
+					r_CombineMeshesImpl_CombineInstanceArray_Boolean_Boolean_Boolean.SetBelong(this.instance);
 				}
-				return r_RCombineMeshesImpl_CombineInstanceArray_Boolean_Boolean_Boolean;
+				return r_CombineMeshesImpl_CombineInstanceArray_Boolean_Boolean_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Void OptimizeImpl()
 		/// </summary>
-		protected RMethod r_ROptimizeImpl;
+		protected RMethod r_OptimizeImpl;
 		public virtual RMethod ROptimizeImpl
 		{
 			get
 			{
-				if(r_ROptimizeImpl == null)
+				if(r_OptimizeImpl == null)
 				{
-					r_ROptimizeImpl = new(this, "OptimizeImpl", 0);
-					r_ROptimizeImpl.SetBelong(this.instance);
+					r_OptimizeImpl = new(this, "OptimizeImpl", 0);
+					r_OptimizeImpl.SetBelong(this.instance);
 				}
-				return r_ROptimizeImpl;
+				return r_OptimizeImpl;
 			}
 		}
 
 		/// <summary>
 		/// Void OptimizeIndexBuffersImpl()
 		/// </summary>
-		protected RMethod r_ROptimizeIndexBuffersImpl;
+		protected RMethod r_OptimizeIndexBuffersImpl;
 		public virtual RMethod ROptimizeIndexBuffersImpl
 		{
 			get
 			{
-				if(r_ROptimizeIndexBuffersImpl == null)
+				if(r_OptimizeIndexBuffersImpl == null)
 				{
-					r_ROptimizeIndexBuffersImpl = new(this, "OptimizeIndexBuffersImpl", 0);
-					r_ROptimizeIndexBuffersImpl.SetBelong(this.instance);
+					r_OptimizeIndexBuffersImpl = new(this, "OptimizeIndexBuffersImpl", 0);
+					r_OptimizeIndexBuffersImpl.SetBelong(this.instance);
 				}
-				return r_ROptimizeIndexBuffersImpl;
+				return r_OptimizeIndexBuffersImpl;
 			}
 		}
 
 		/// <summary>
 		/// Void OptimizeReorderVertexBufferImpl()
 		/// </summary>
-		protected RMethod r_ROptimizeReorderVertexBufferImpl;
+		protected RMethod r_OptimizeReorderVertexBufferImpl;
 		public virtual RMethod ROptimizeReorderVertexBufferImpl
 		{
 			get
 			{
-				if(r_ROptimizeReorderVertexBufferImpl == null)
+				if(r_OptimizeReorderVertexBufferImpl == null)
 				{
-					r_ROptimizeReorderVertexBufferImpl = new(this, "OptimizeReorderVertexBufferImpl", 0);
-					r_ROptimizeReorderVertexBufferImpl.SetBelong(this.instance);
+					r_OptimizeReorderVertexBufferImpl = new(this, "OptimizeReorderVertexBufferImpl", 0);
+					r_OptimizeReorderVertexBufferImpl.SetBelong(this.instance);
 				}
-				return r_ROptimizeReorderVertexBufferImpl;
+				return r_OptimizeReorderVertexBufferImpl;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Rendering.VertexAttribute GetUVChannel(Int32)
 		/// </summary>
-		protected static RMethod r_RGetUVChannel_Int32;
+		protected static RMethod r_GetUVChannel_Int32;
 		public static RMethod RGetUVChannel_Int32
 		{
 			get
 			{
-				if(r_RGetUVChannel_Int32 == null)
+				if(r_GetUVChannel_Int32 == null)
 				{
-					r_RGetUVChannel_Int32 = new(typeof(UnityEngine.Mesh), "GetUVChannel", 0, typeof(System.Int32));
-					r_RGetUVChannel_Int32.SetBelong(null);
+					r_GetUVChannel_Int32 = new(typeof(UnityEngine.Mesh), "GetUVChannel", 0, typeof(System.Int32));
+					r_GetUVChannel_Int32.SetBelong(null);
 				}
-				return r_RGetUVChannel_Int32;
+				return r_GetUVChannel_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Int32 DefaultDimensionForChannel(UnityEngine.Rendering.VertexAttribute)
 		/// </summary>
-		protected static RMethod r_RDefaultDimensionForChannel_VertexAttribute;
+		protected static RMethod r_DefaultDimensionForChannel_VertexAttribute;
 		public static RMethod RDefaultDimensionForChannel_VertexAttribute
 		{
 			get
 			{
-				if(r_RDefaultDimensionForChannel_VertexAttribute == null)
+				if(r_DefaultDimensionForChannel_VertexAttribute == null)
 				{
-					r_RDefaultDimensionForChannel_VertexAttribute = new(typeof(UnityEngine.Mesh), "DefaultDimensionForChannel", 0, typeof(UnityEngine.Rendering.VertexAttribute));
-					r_RDefaultDimensionForChannel_VertexAttribute.SetBelong(null);
+					r_DefaultDimensionForChannel_VertexAttribute = new(typeof(UnityEngine.Mesh), "DefaultDimensionForChannel", 0, typeof(UnityEngine.Rendering.VertexAttribute));
+					r_DefaultDimensionForChannel_VertexAttribute.SetBelong(null);
 				}
-				return r_RDefaultDimensionForChannel_VertexAttribute;
+				return r_DefaultDimensionForChannel_VertexAttribute;
 			}
 		}
 
 		/// <summary>
 		/// T[] GetAllocArrayFromChannel[T](UnityEngine.Rendering.VertexAttribute, UnityEngine.Rendering.VertexAttributeFormat, Int32)
 		/// </summary>
-		protected RMethod r_RGetAllocArrayFromChannel_GT_VertexAttribute_VertexAttributeFormat_Int32;
+		protected RMethod r_GetAllocArrayFromChannel_GT_VertexAttribute_VertexAttributeFormat_Int32;
 		public virtual RMethod RGetAllocArrayFromChannel_GT_VertexAttribute_VertexAttributeFormat_Int32
 		{
 			get
 			{
-				if(r_RGetAllocArrayFromChannel_GT_VertexAttribute_VertexAttributeFormat_Int32 == null)
+				if(r_GetAllocArrayFromChannel_GT_VertexAttribute_VertexAttributeFormat_Int32 == null)
 				{
-					r_RGetAllocArrayFromChannel_GT_VertexAttribute_VertexAttributeFormat_Int32 = new(this, "GetAllocArrayFromChannel", 1, typeof(UnityEngine.Rendering.VertexAttribute), typeof(UnityEngine.Rendering.VertexAttributeFormat), typeof(System.Int32));
-					r_RGetAllocArrayFromChannel_GT_VertexAttribute_VertexAttributeFormat_Int32.SetBelong(this.instance);
+					r_GetAllocArrayFromChannel_GT_VertexAttribute_VertexAttributeFormat_Int32 = new(this, "GetAllocArrayFromChannel", 1, typeof(UnityEngine.Rendering.VertexAttribute), typeof(UnityEngine.Rendering.VertexAttributeFormat), typeof(System.Int32));
+					r_GetAllocArrayFromChannel_GT_VertexAttribute_VertexAttributeFormat_Int32.SetBelong(this.instance);
 				}
-				return r_RGetAllocArrayFromChannel_GT_VertexAttribute_VertexAttributeFormat_Int32;
+				return r_GetAllocArrayFromChannel_GT_VertexAttribute_VertexAttributeFormat_Int32;
 			}
 		}
 
 		/// <summary>
 		/// T[] GetAllocArrayFromChannel[T](UnityEngine.Rendering.VertexAttribute)
 		/// </summary>
-		protected RMethod r_RGetAllocArrayFromChannel_GT_VertexAttribute;
+		protected RMethod r_GetAllocArrayFromChannel_GT_VertexAttribute;
 		public virtual RMethod RGetAllocArrayFromChannel_GT_VertexAttribute
 		{
 			get
 			{
-				if(r_RGetAllocArrayFromChannel_GT_VertexAttribute == null)
+				if(r_GetAllocArrayFromChannel_GT_VertexAttribute == null)
 				{
-					r_RGetAllocArrayFromChannel_GT_VertexAttribute = new(this, "GetAllocArrayFromChannel", 1, typeof(UnityEngine.Rendering.VertexAttribute));
-					r_RGetAllocArrayFromChannel_GT_VertexAttribute.SetBelong(this.instance);
+					r_GetAllocArrayFromChannel_GT_VertexAttribute = new(this, "GetAllocArrayFromChannel", 1, typeof(UnityEngine.Rendering.VertexAttribute));
+					r_GetAllocArrayFromChannel_GT_VertexAttribute.SetBelong(this.instance);
 				}
-				return r_RGetAllocArrayFromChannel_GT_VertexAttribute;
+				return r_GetAllocArrayFromChannel_GT_VertexAttribute;
 			}
 		}
 
 		/// <summary>
 		/// Void SetSizedArrayForChannel(UnityEngine.Rendering.VertexAttribute, UnityEngine.Rendering.VertexAttributeFormat, Int32, System.Array, Int32, Int32, Int32, UnityEngine.Rendering.MeshUpdateFlags)
 		/// </summary>
-		protected RMethod r_RSetSizedArrayForChannel_VertexAttribute_VertexAttributeFormat_Int32_Array_Int32_Int32_Int32_MeshUpdateFlags;
+		protected RMethod r_SetSizedArrayForChannel_VertexAttribute_VertexAttributeFormat_Int32_Array_Int32_Int32_Int32_MeshUpdateFlags;
 		public virtual RMethod RSetSizedArrayForChannel_VertexAttribute_VertexAttributeFormat_Int32_Array_Int32_Int32_Int32_MeshUpdateFlags
 		{
 			get
 			{
-				if(r_RSetSizedArrayForChannel_VertexAttribute_VertexAttributeFormat_Int32_Array_Int32_Int32_Int32_MeshUpdateFlags == null)
+				if(r_SetSizedArrayForChannel_VertexAttribute_VertexAttributeFormat_Int32_Array_Int32_Int32_Int32_MeshUpdateFlags == null)
 				{
-					r_RSetSizedArrayForChannel_VertexAttribute_VertexAttributeFormat_Int32_Array_Int32_Int32_Int32_MeshUpdateFlags = new(this, "SetSizedArrayForChannel", 0, typeof(UnityEngine.Rendering.VertexAttribute), typeof(UnityEngine.Rendering.VertexAttributeFormat), typeof(System.Int32), typeof(System.Array), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.Rendering.MeshUpdateFlags));
-					r_RSetSizedArrayForChannel_VertexAttribute_VertexAttributeFormat_Int32_Array_Int32_Int32_Int32_MeshUpdateFlags.SetBelong(this.instance);
+					r_SetSizedArrayForChannel_VertexAttribute_VertexAttributeFormat_Int32_Array_Int32_Int32_Int32_MeshUpdateFlags = new(this, "SetSizedArrayForChannel", 0, typeof(UnityEngine.Rendering.VertexAttribute), typeof(UnityEngine.Rendering.VertexAttributeFormat), typeof(System.Int32), typeof(System.Array), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.Rendering.MeshUpdateFlags));
+					r_SetSizedArrayForChannel_VertexAttribute_VertexAttributeFormat_Int32_Array_Int32_Int32_Int32_MeshUpdateFlags.SetBelong(this.instance);
 				}
-				return r_RSetSizedArrayForChannel_VertexAttribute_VertexAttributeFormat_Int32_Array_Int32_Int32_Int32_MeshUpdateFlags;
+				return r_SetSizedArrayForChannel_VertexAttribute_VertexAttributeFormat_Int32_Array_Int32_Int32_Int32_MeshUpdateFlags;
 			}
 		}
 
 		/// <summary>
 		/// Void SetSizedNativeArrayForChannel(UnityEngine.Rendering.VertexAttribute, UnityEngine.Rendering.VertexAttributeFormat, Int32, IntPtr, Int32, Int32, Int32, UnityEngine.Rendering.MeshUpdateFlags)
 		/// </summary>
-		protected RMethod r_RSetSizedNativeArrayForChannel_VertexAttribute_VertexAttributeFormat_Int32_IntPtr_Int32_Int32_Int32_MeshUpdateFlags;
+		protected RMethod r_SetSizedNativeArrayForChannel_VertexAttribute_VertexAttributeFormat_Int32_IntPtr_Int32_Int32_Int32_MeshUpdateFlags;
 		public virtual RMethod RSetSizedNativeArrayForChannel_VertexAttribute_VertexAttributeFormat_Int32_IntPtr_Int32_Int32_Int32_MeshUpdateFlags
 		{
 			get
 			{
-				if(r_RSetSizedNativeArrayForChannel_VertexAttribute_VertexAttributeFormat_Int32_IntPtr_Int32_Int32_Int32_MeshUpdateFlags == null)
+				if(r_SetSizedNativeArrayForChannel_VertexAttribute_VertexAttributeFormat_Int32_IntPtr_Int32_Int32_Int32_MeshUpdateFlags == null)
 				{
-					r_RSetSizedNativeArrayForChannel_VertexAttribute_VertexAttributeFormat_Int32_IntPtr_Int32_Int32_Int32_MeshUpdateFlags = new(this, "SetSizedNativeArrayForChannel", 0, typeof(UnityEngine.Rendering.VertexAttribute), typeof(UnityEngine.Rendering.VertexAttributeFormat), typeof(System.Int32), typeof(System.IntPtr), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.Rendering.MeshUpdateFlags));
-					r_RSetSizedNativeArrayForChannel_VertexAttribute_VertexAttributeFormat_Int32_IntPtr_Int32_Int32_Int32_MeshUpdateFlags.SetBelong(this.instance);
+					r_SetSizedNativeArrayForChannel_VertexAttribute_VertexAttributeFormat_Int32_IntPtr_Int32_Int32_Int32_MeshUpdateFlags = new(this, "SetSizedNativeArrayForChannel", 0, typeof(UnityEngine.Rendering.VertexAttribute), typeof(UnityEngine.Rendering.VertexAttributeFormat), typeof(System.Int32), typeof(System.IntPtr), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.Rendering.MeshUpdateFlags));
+					r_SetSizedNativeArrayForChannel_VertexAttribute_VertexAttributeFormat_Int32_IntPtr_Int32_Int32_Int32_MeshUpdateFlags.SetBelong(this.instance);
 				}
-				return r_RSetSizedNativeArrayForChannel_VertexAttribute_VertexAttributeFormat_Int32_IntPtr_Int32_Int32_Int32_MeshUpdateFlags;
+				return r_SetSizedNativeArrayForChannel_VertexAttribute_VertexAttributeFormat_Int32_IntPtr_Int32_Int32_Int32_MeshUpdateFlags;
 			}
 		}
 
 		/// <summary>
 		/// Void SetArrayForChannel[T](UnityEngine.Rendering.VertexAttribute, UnityEngine.Rendering.VertexAttributeFormat, Int32, T[], UnityEngine.Rendering.MeshUpdateFlags)
 		/// </summary>
-		protected RMethod r_RSetArrayForChannel_GT_VertexAttribute_VertexAttributeFormat_Int32_TArray_MeshUpdateFlags;
+		protected RMethod r_SetArrayForChannel_GT_VertexAttribute_VertexAttributeFormat_Int32_TArray_MeshUpdateFlags;
 		public virtual RMethod RSetArrayForChannel_GT_VertexAttribute_VertexAttributeFormat_Int32_TArray_MeshUpdateFlags
 		{
 			get
 			{
-				if(r_RSetArrayForChannel_GT_VertexAttribute_VertexAttributeFormat_Int32_TArray_MeshUpdateFlags == null)
+				if(r_SetArrayForChannel_GT_VertexAttribute_VertexAttributeFormat_Int32_TArray_MeshUpdateFlags == null)
 				{
-					r_RSetArrayForChannel_GT_VertexAttribute_VertexAttributeFormat_Int32_TArray_MeshUpdateFlags = new(this, "SetArrayForChannel", 1, typeof(UnityEngine.Rendering.VertexAttribute), typeof(UnityEngine.Rendering.VertexAttributeFormat), typeof(System.Int32), Type.MakeGenericMethodParameter(0).MakeArrayType(), typeof(UnityEngine.Rendering.MeshUpdateFlags));
-					r_RSetArrayForChannel_GT_VertexAttribute_VertexAttributeFormat_Int32_TArray_MeshUpdateFlags.SetBelong(this.instance);
+					r_SetArrayForChannel_GT_VertexAttribute_VertexAttributeFormat_Int32_TArray_MeshUpdateFlags = new(this, "SetArrayForChannel", 1, typeof(UnityEngine.Rendering.VertexAttribute), typeof(UnityEngine.Rendering.VertexAttributeFormat), typeof(System.Int32), Type.MakeGenericMethodParameter(0).MakeArrayType(), typeof(UnityEngine.Rendering.MeshUpdateFlags));
+					r_SetArrayForChannel_GT_VertexAttribute_VertexAttributeFormat_Int32_TArray_MeshUpdateFlags.SetBelong(this.instance);
 				}
-				return r_RSetArrayForChannel_GT_VertexAttribute_VertexAttributeFormat_Int32_TArray_MeshUpdateFlags;
+				return r_SetArrayForChannel_GT_VertexAttribute_VertexAttributeFormat_Int32_TArray_MeshUpdateFlags;
 			}
 		}
 
 		/// <summary>
 		/// Void SetArrayForChannel[T](UnityEngine.Rendering.VertexAttribute, T[], UnityEngine.Rendering.MeshUpdateFlags)
 		/// </summary>
-		protected RMethod r_RSetArrayForChannel_GT_VertexAttribute_TArray_MeshUpdateFlags;
+		protected RMethod r_SetArrayForChannel_GT_VertexAttribute_TArray_MeshUpdateFlags;
 		public virtual RMethod RSetArrayForChannel_GT_VertexAttribute_TArray_MeshUpdateFlags
 		{
 			get
 			{
-				if(r_RSetArrayForChannel_GT_VertexAttribute_TArray_MeshUpdateFlags == null)
+				if(r_SetArrayForChannel_GT_VertexAttribute_TArray_MeshUpdateFlags == null)
 				{
-					r_RSetArrayForChannel_GT_VertexAttribute_TArray_MeshUpdateFlags = new(this, "SetArrayForChannel", 1, typeof(UnityEngine.Rendering.VertexAttribute), Type.MakeGenericMethodParameter(0).MakeArrayType(), typeof(UnityEngine.Rendering.MeshUpdateFlags));
-					r_RSetArrayForChannel_GT_VertexAttribute_TArray_MeshUpdateFlags.SetBelong(this.instance);
+					r_SetArrayForChannel_GT_VertexAttribute_TArray_MeshUpdateFlags = new(this, "SetArrayForChannel", 1, typeof(UnityEngine.Rendering.VertexAttribute), Type.MakeGenericMethodParameter(0).MakeArrayType(), typeof(UnityEngine.Rendering.MeshUpdateFlags));
+					r_SetArrayForChannel_GT_VertexAttribute_TArray_MeshUpdateFlags.SetBelong(this.instance);
 				}
-				return r_RSetArrayForChannel_GT_VertexAttribute_TArray_MeshUpdateFlags;
+				return r_SetArrayForChannel_GT_VertexAttribute_TArray_MeshUpdateFlags;
 			}
 		}
 
 		/// <summary>
 		/// Void SetListForChannel[T](UnityEngine.Rendering.VertexAttribute, UnityEngine.Rendering.VertexAttributeFormat, Int32, System.Collections.Generic.List`1[T], Int32, Int32, UnityEngine.Rendering.MeshUpdateFlags)
 		/// </summary>
-		protected RMethod r_RSetListForChannel_GT_VertexAttribute_VertexAttributeFormat_Int32_List_d_T_p__Int32_Int32_MeshUpdateFlags;
+		protected RMethod r_SetListForChannel_GT_VertexAttribute_VertexAttributeFormat_Int32_List_d_T_p__Int32_Int32_MeshUpdateFlags;
 		public virtual RMethod RSetListForChannel_GT_VertexAttribute_VertexAttributeFormat_Int32_List_d_T_p__Int32_Int32_MeshUpdateFlags
 		{
 			get
 			{
-				if(r_RSetListForChannel_GT_VertexAttribute_VertexAttributeFormat_Int32_List_d_T_p__Int32_Int32_MeshUpdateFlags == null)
+				if(r_SetListForChannel_GT_VertexAttribute_VertexAttributeFormat_Int32_List_d_T_p__Int32_Int32_MeshUpdateFlags == null)
 				{
-					r_RSetListForChannel_GT_VertexAttribute_VertexAttributeFormat_Int32_List_d_T_p__Int32_Int32_MeshUpdateFlags = new(this, "SetListForChannel", 1, typeof(UnityEngine.Rendering.VertexAttribute), typeof(UnityEngine.Rendering.VertexAttributeFormat), typeof(System.Int32), typeof(System.Collections.Generic.List<>).MakeGenericType(Type.MakeGenericMethodParameter(0)), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.Rendering.MeshUpdateFlags));
-					r_RSetListForChannel_GT_VertexAttribute_VertexAttributeFormat_Int32_List_d_T_p__Int32_Int32_MeshUpdateFlags.SetBelong(this.instance);
+					r_SetListForChannel_GT_VertexAttribute_VertexAttributeFormat_Int32_List_d_T_p__Int32_Int32_MeshUpdateFlags = new(this, "SetListForChannel", 1, typeof(UnityEngine.Rendering.VertexAttribute), typeof(UnityEngine.Rendering.VertexAttributeFormat), typeof(System.Int32), typeof(System.Collections.Generic.List<>).MakeGenericType(Type.MakeGenericMethodParameter(0)), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.Rendering.MeshUpdateFlags));
+					r_SetListForChannel_GT_VertexAttribute_VertexAttributeFormat_Int32_List_d_T_p__Int32_Int32_MeshUpdateFlags.SetBelong(this.instance);
 				}
-				return r_RSetListForChannel_GT_VertexAttribute_VertexAttributeFormat_Int32_List_d_T_p__Int32_Int32_MeshUpdateFlags;
+				return r_SetListForChannel_GT_VertexAttribute_VertexAttributeFormat_Int32_List_d_T_p__Int32_Int32_MeshUpdateFlags;
 			}
 		}
 
 		/// <summary>
 		/// Void SetListForChannel[T](UnityEngine.Rendering.VertexAttribute, System.Collections.Generic.List`1[T], Int32, Int32, UnityEngine.Rendering.MeshUpdateFlags)
 		/// </summary>
-		protected RMethod r_RSetListForChannel_GT_VertexAttribute_List_d_T_p__Int32_Int32_MeshUpdateFlags;
+		protected RMethod r_SetListForChannel_GT_VertexAttribute_List_d_T_p__Int32_Int32_MeshUpdateFlags;
 		public virtual RMethod RSetListForChannel_GT_VertexAttribute_List_d_T_p__Int32_Int32_MeshUpdateFlags
 		{
 			get
 			{
-				if(r_RSetListForChannel_GT_VertexAttribute_List_d_T_p__Int32_Int32_MeshUpdateFlags == null)
+				if(r_SetListForChannel_GT_VertexAttribute_List_d_T_p__Int32_Int32_MeshUpdateFlags == null)
 				{
-					r_RSetListForChannel_GT_VertexAttribute_List_d_T_p__Int32_Int32_MeshUpdateFlags = new(this, "SetListForChannel", 1, typeof(UnityEngine.Rendering.VertexAttribute), typeof(System.Collections.Generic.List<>).MakeGenericType(Type.MakeGenericMethodParameter(0)), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.Rendering.MeshUpdateFlags));
-					r_RSetListForChannel_GT_VertexAttribute_List_d_T_p__Int32_Int32_MeshUpdateFlags.SetBelong(this.instance);
+					r_SetListForChannel_GT_VertexAttribute_List_d_T_p__Int32_Int32_MeshUpdateFlags = new(this, "SetListForChannel", 1, typeof(UnityEngine.Rendering.VertexAttribute), typeof(System.Collections.Generic.List<>).MakeGenericType(Type.MakeGenericMethodParameter(0)), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.Rendering.MeshUpdateFlags));
+					r_SetListForChannel_GT_VertexAttribute_List_d_T_p__Int32_Int32_MeshUpdateFlags.SetBelong(this.instance);
 				}
-				return r_RSetListForChannel_GT_VertexAttribute_List_d_T_p__Int32_Int32_MeshUpdateFlags;
+				return r_SetListForChannel_GT_VertexAttribute_List_d_T_p__Int32_Int32_MeshUpdateFlags;
 			}
 		}
 
 		/// <summary>
 		/// Void GetListForChannel[T](System.Collections.Generic.List`1[T], Int32, UnityEngine.Rendering.VertexAttribute, Int32)
 		/// </summary>
-		protected RMethod r_RGetListForChannel_GT_List_d_T_p__Int32_VertexAttribute_Int32;
+		protected RMethod r_GetListForChannel_GT_List_d_T_p__Int32_VertexAttribute_Int32;
 		public virtual RMethod RGetListForChannel_GT_List_d_T_p__Int32_VertexAttribute_Int32
 		{
 			get
 			{
-				if(r_RGetListForChannel_GT_List_d_T_p__Int32_VertexAttribute_Int32 == null)
+				if(r_GetListForChannel_GT_List_d_T_p__Int32_VertexAttribute_Int32 == null)
 				{
-					r_RGetListForChannel_GT_List_d_T_p__Int32_VertexAttribute_Int32 = new(this, "GetListForChannel", 1, typeof(System.Collections.Generic.List<>).MakeGenericType(Type.MakeGenericMethodParameter(0)), typeof(System.Int32), typeof(UnityEngine.Rendering.VertexAttribute), typeof(System.Int32));
-					r_RGetListForChannel_GT_List_d_T_p__Int32_VertexAttribute_Int32.SetBelong(this.instance);
+					r_GetListForChannel_GT_List_d_T_p__Int32_VertexAttribute_Int32 = new(this, "GetListForChannel", 1, typeof(System.Collections.Generic.List<>).MakeGenericType(Type.MakeGenericMethodParameter(0)), typeof(System.Int32), typeof(UnityEngine.Rendering.VertexAttribute), typeof(System.Int32));
+					r_GetListForChannel_GT_List_d_T_p__Int32_VertexAttribute_Int32.SetBelong(this.instance);
 				}
-				return r_RGetListForChannel_GT_List_d_T_p__Int32_VertexAttribute_Int32;
+				return r_GetListForChannel_GT_List_d_T_p__Int32_VertexAttribute_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Void GetListForChannel[T](System.Collections.Generic.List`1[T], Int32, UnityEngine.Rendering.VertexAttribute, Int32, UnityEngine.Rendering.VertexAttributeFormat)
 		/// </summary>
-		protected RMethod r_RGetListForChannel_GT_List_d_T_p__Int32_VertexAttribute_Int32_VertexAttributeFormat;
+		protected RMethod r_GetListForChannel_GT_List_d_T_p__Int32_VertexAttribute_Int32_VertexAttributeFormat;
 		public virtual RMethod RGetListForChannel_GT_List_d_T_p__Int32_VertexAttribute_Int32_VertexAttributeFormat
 		{
 			get
 			{
-				if(r_RGetListForChannel_GT_List_d_T_p__Int32_VertexAttribute_Int32_VertexAttributeFormat == null)
+				if(r_GetListForChannel_GT_List_d_T_p__Int32_VertexAttribute_Int32_VertexAttributeFormat == null)
 				{
-					r_RGetListForChannel_GT_List_d_T_p__Int32_VertexAttribute_Int32_VertexAttributeFormat = new(this, "GetListForChannel", 1, typeof(System.Collections.Generic.List<>).MakeGenericType(Type.MakeGenericMethodParameter(0)), typeof(System.Int32), typeof(UnityEngine.Rendering.VertexAttribute), typeof(System.Int32), typeof(UnityEngine.Rendering.VertexAttributeFormat));
-					r_RGetListForChannel_GT_List_d_T_p__Int32_VertexAttribute_Int32_VertexAttributeFormat.SetBelong(this.instance);
+					r_GetListForChannel_GT_List_d_T_p__Int32_VertexAttribute_Int32_VertexAttributeFormat = new(this, "GetListForChannel", 1, typeof(System.Collections.Generic.List<>).MakeGenericType(Type.MakeGenericMethodParameter(0)), typeof(System.Int32), typeof(UnityEngine.Rendering.VertexAttribute), typeof(System.Int32), typeof(UnityEngine.Rendering.VertexAttributeFormat));
+					r_GetListForChannel_GT_List_d_T_p__Int32_VertexAttribute_Int32_VertexAttributeFormat.SetBelong(this.instance);
 				}
-				return r_RGetListForChannel_GT_List_d_T_p__Int32_VertexAttribute_Int32_VertexAttributeFormat;
+				return r_GetListForChannel_GT_List_d_T_p__Int32_VertexAttribute_Int32_VertexAttributeFormat;
 			}
 		}
 
 		/// <summary>
 		/// Void GetVertices(System.Collections.Generic.List`1[UnityEngine.Vector3])
 		/// </summary>
-		protected RMethod r_RGetVertices_List_d_Vector3_p_;
+		protected RMethod r_GetVertices_List_d_Vector3_p_;
 		public virtual RMethod RGetVertices_List_d_Vector3_p_
 		{
 			get
 			{
-				if(r_RGetVertices_List_d_Vector3_p_ == null)
+				if(r_GetVertices_List_d_Vector3_p_ == null)
 				{
-					r_RGetVertices_List_d_Vector3_p_ = new(this, "GetVertices", 0, typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(UnityEngine.Vector3)));
-					r_RGetVertices_List_d_Vector3_p_.SetBelong(this.instance);
+					r_GetVertices_List_d_Vector3_p_ = new(this, "GetVertices", 0, typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(UnityEngine.Vector3)));
+					r_GetVertices_List_d_Vector3_p_.SetBelong(this.instance);
 				}
-				return r_RGetVertices_List_d_Vector3_p_;
+				return r_GetVertices_List_d_Vector3_p_;
 			}
 		}
 
 		/// <summary>
 		/// Void SetVertices(System.Collections.Generic.List`1[UnityEngine.Vector3])
 		/// </summary>
-		protected RMethod r_RSetVertices_List_d_Vector3_p_;
+		protected RMethod r_SetVertices_List_d_Vector3_p_;
 		public virtual RMethod RSetVertices_List_d_Vector3_p_
 		{
 			get
 			{
-				if(r_RSetVertices_List_d_Vector3_p_ == null)
+				if(r_SetVertices_List_d_Vector3_p_ == null)
 				{
-					r_RSetVertices_List_d_Vector3_p_ = new(this, "SetVertices", 0, typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(UnityEngine.Vector3)));
-					r_RSetVertices_List_d_Vector3_p_.SetBelong(this.instance);
+					r_SetVertices_List_d_Vector3_p_ = new(this, "SetVertices", 0, typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(UnityEngine.Vector3)));
+					r_SetVertices_List_d_Vector3_p_.SetBelong(this.instance);
 				}
-				return r_RSetVertices_List_d_Vector3_p_;
+				return r_SetVertices_List_d_Vector3_p_;
 			}
 		}
 
 		/// <summary>
 		/// Void SetVertices(System.Collections.Generic.List`1[UnityEngine.Vector3], Int32, Int32)
 		/// </summary>
-		protected RMethod r_RSetVertices_List_d_Vector3_p__Int32_Int32;
+		protected RMethod r_SetVertices_List_d_Vector3_p__Int32_Int32;
 		public virtual RMethod RSetVertices_List_d_Vector3_p__Int32_Int32
 		{
 			get
 			{
-				if(r_RSetVertices_List_d_Vector3_p__Int32_Int32 == null)
+				if(r_SetVertices_List_d_Vector3_p__Int32_Int32 == null)
 				{
-					r_RSetVertices_List_d_Vector3_p__Int32_Int32 = new(this, "SetVertices", 0, typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(UnityEngine.Vector3)), typeof(System.Int32), typeof(System.Int32));
-					r_RSetVertices_List_d_Vector3_p__Int32_Int32.SetBelong(this.instance);
+					r_SetVertices_List_d_Vector3_p__Int32_Int32 = new(this, "SetVertices", 0, typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(UnityEngine.Vector3)), typeof(System.Int32), typeof(System.Int32));
+					r_SetVertices_List_d_Vector3_p__Int32_Int32.SetBelong(this.instance);
 				}
-				return r_RSetVertices_List_d_Vector3_p__Int32_Int32;
+				return r_SetVertices_List_d_Vector3_p__Int32_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Void SetVertices(System.Collections.Generic.List`1[UnityEngine.Vector3], Int32, Int32, UnityEngine.Rendering.MeshUpdateFlags)
 		/// </summary>
-		protected RMethod r_RSetVertices_List_d_Vector3_p__Int32_Int32_MeshUpdateFlags;
+		protected RMethod r_SetVertices_List_d_Vector3_p__Int32_Int32_MeshUpdateFlags;
 		public virtual RMethod RSetVertices_List_d_Vector3_p__Int32_Int32_MeshUpdateFlags
 		{
 			get
 			{
-				if(r_RSetVertices_List_d_Vector3_p__Int32_Int32_MeshUpdateFlags == null)
+				if(r_SetVertices_List_d_Vector3_p__Int32_Int32_MeshUpdateFlags == null)
 				{
-					r_RSetVertices_List_d_Vector3_p__Int32_Int32_MeshUpdateFlags = new(this, "SetVertices", 0, typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(UnityEngine.Vector3)), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.Rendering.MeshUpdateFlags));
-					r_RSetVertices_List_d_Vector3_p__Int32_Int32_MeshUpdateFlags.SetBelong(this.instance);
+					r_SetVertices_List_d_Vector3_p__Int32_Int32_MeshUpdateFlags = new(this, "SetVertices", 0, typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(UnityEngine.Vector3)), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.Rendering.MeshUpdateFlags));
+					r_SetVertices_List_d_Vector3_p__Int32_Int32_MeshUpdateFlags.SetBelong(this.instance);
 				}
-				return r_RSetVertices_List_d_Vector3_p__Int32_Int32_MeshUpdateFlags;
+				return r_SetVertices_List_d_Vector3_p__Int32_Int32_MeshUpdateFlags;
 			}
 		}
 
 		/// <summary>
 		/// Void SetVertices(UnityEngine.Vector3[])
 		/// </summary>
-		protected RMethod r_RSetVertices_Vector3Array;
+		protected RMethod r_SetVertices_Vector3Array;
 		public virtual RMethod RSetVertices_Vector3Array
 		{
 			get
 			{
-				if(r_RSetVertices_Vector3Array == null)
+				if(r_SetVertices_Vector3Array == null)
 				{
-					r_RSetVertices_Vector3Array = new(this, "SetVertices", 0, typeof(UnityEngine.Vector3).MakeArrayType());
-					r_RSetVertices_Vector3Array.SetBelong(this.instance);
+					r_SetVertices_Vector3Array = new(this, "SetVertices", 0, typeof(UnityEngine.Vector3).MakeArrayType());
+					r_SetVertices_Vector3Array.SetBelong(this.instance);
 				}
-				return r_RSetVertices_Vector3Array;
+				return r_SetVertices_Vector3Array;
 			}
 		}
 
 		/// <summary>
 		/// Void SetVertices(UnityEngine.Vector3[], Int32, Int32)
 		/// </summary>
-		protected RMethod r_RSetVertices_Vector3Array_Int32_Int32;
+		protected RMethod r_SetVertices_Vector3Array_Int32_Int32;
 		public virtual RMethod RSetVertices_Vector3Array_Int32_Int32
 		{
 			get
 			{
-				if(r_RSetVertices_Vector3Array_Int32_Int32 == null)
+				if(r_SetVertices_Vector3Array_Int32_Int32 == null)
 				{
-					r_RSetVertices_Vector3Array_Int32_Int32 = new(this, "SetVertices", 0, typeof(UnityEngine.Vector3).MakeArrayType(), typeof(System.Int32), typeof(System.Int32));
-					r_RSetVertices_Vector3Array_Int32_Int32.SetBelong(this.instance);
+					r_SetVertices_Vector3Array_Int32_Int32 = new(this, "SetVertices", 0, typeof(UnityEngine.Vector3).MakeArrayType(), typeof(System.Int32), typeof(System.Int32));
+					r_SetVertices_Vector3Array_Int32_Int32.SetBelong(this.instance);
 				}
-				return r_RSetVertices_Vector3Array_Int32_Int32;
+				return r_SetVertices_Vector3Array_Int32_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Void SetVertices(UnityEngine.Vector3[], Int32, Int32, UnityEngine.Rendering.MeshUpdateFlags)
 		/// </summary>
-		protected RMethod r_RSetVertices_Vector3Array_Int32_Int32_MeshUpdateFlags;
+		protected RMethod r_SetVertices_Vector3Array_Int32_Int32_MeshUpdateFlags;
 		public virtual RMethod RSetVertices_Vector3Array_Int32_Int32_MeshUpdateFlags
 		{
 			get
 			{
-				if(r_RSetVertices_Vector3Array_Int32_Int32_MeshUpdateFlags == null)
+				if(r_SetVertices_Vector3Array_Int32_Int32_MeshUpdateFlags == null)
 				{
-					r_RSetVertices_Vector3Array_Int32_Int32_MeshUpdateFlags = new(this, "SetVertices", 0, typeof(UnityEngine.Vector3).MakeArrayType(), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.Rendering.MeshUpdateFlags));
-					r_RSetVertices_Vector3Array_Int32_Int32_MeshUpdateFlags.SetBelong(this.instance);
+					r_SetVertices_Vector3Array_Int32_Int32_MeshUpdateFlags = new(this, "SetVertices", 0, typeof(UnityEngine.Vector3).MakeArrayType(), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.Rendering.MeshUpdateFlags));
+					r_SetVertices_Vector3Array_Int32_Int32_MeshUpdateFlags.SetBelong(this.instance);
 				}
-				return r_RSetVertices_Vector3Array_Int32_Int32_MeshUpdateFlags;
+				return r_SetVertices_Vector3Array_Int32_Int32_MeshUpdateFlags;
 			}
 		}
 
 		/// <summary>
 		/// Void SetVertices[T](Unity.Collections.NativeArray`1[T])
 		/// </summary>
-		protected RMethod r_RSetVertices_GT_NativeArray_d_T_p_;
+		protected RMethod r_SetVertices_GT_NativeArray_d_T_p_;
 		public virtual RMethod RSetVertices_GT_NativeArray_d_T_p_
 		{
 			get
 			{
-				if(r_RSetVertices_GT_NativeArray_d_T_p_ == null)
+				if(r_SetVertices_GT_NativeArray_d_T_p_ == null)
 				{
-					r_RSetVertices_GT_NativeArray_d_T_p_ = new(this, "SetVertices", 1, typeof(Unity.Collections.NativeArray<>).MakeGenericType(Type.MakeGenericMethodParameter(0)));
-					r_RSetVertices_GT_NativeArray_d_T_p_.SetBelong(this.instance);
+					r_SetVertices_GT_NativeArray_d_T_p_ = new(this, "SetVertices", 1, typeof(Unity.Collections.NativeArray<>).MakeGenericType(Type.MakeGenericMethodParameter(0)));
+					r_SetVertices_GT_NativeArray_d_T_p_.SetBelong(this.instance);
 				}
-				return r_RSetVertices_GT_NativeArray_d_T_p_;
+				return r_SetVertices_GT_NativeArray_d_T_p_;
 			}
 		}
 
 		/// <summary>
 		/// Void SetVertices[T](Unity.Collections.NativeArray`1[T], Int32, Int32)
 		/// </summary>
-		protected RMethod r_RSetVertices_GT_NativeArray_d_T_p__Int32_Int32;
+		protected RMethod r_SetVertices_GT_NativeArray_d_T_p__Int32_Int32;
 		public virtual RMethod RSetVertices_GT_NativeArray_d_T_p__Int32_Int32
 		{
 			get
 			{
-				if(r_RSetVertices_GT_NativeArray_d_T_p__Int32_Int32 == null)
+				if(r_SetVertices_GT_NativeArray_d_T_p__Int32_Int32 == null)
 				{
-					r_RSetVertices_GT_NativeArray_d_T_p__Int32_Int32 = new(this, "SetVertices", 1, typeof(Unity.Collections.NativeArray<>).MakeGenericType(Type.MakeGenericMethodParameter(0)), typeof(System.Int32), typeof(System.Int32));
-					r_RSetVertices_GT_NativeArray_d_T_p__Int32_Int32.SetBelong(this.instance);
+					r_SetVertices_GT_NativeArray_d_T_p__Int32_Int32 = new(this, "SetVertices", 1, typeof(Unity.Collections.NativeArray<>).MakeGenericType(Type.MakeGenericMethodParameter(0)), typeof(System.Int32), typeof(System.Int32));
+					r_SetVertices_GT_NativeArray_d_T_p__Int32_Int32.SetBelong(this.instance);
 				}
-				return r_RSetVertices_GT_NativeArray_d_T_p__Int32_Int32;
+				return r_SetVertices_GT_NativeArray_d_T_p__Int32_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Void SetVertices[T](Unity.Collections.NativeArray`1[T], Int32, Int32, UnityEngine.Rendering.MeshUpdateFlags)
 		/// </summary>
-		protected RMethod r_RSetVertices_GT_NativeArray_d_T_p__Int32_Int32_MeshUpdateFlags;
+		protected RMethod r_SetVertices_GT_NativeArray_d_T_p__Int32_Int32_MeshUpdateFlags;
 		public virtual RMethod RSetVertices_GT_NativeArray_d_T_p__Int32_Int32_MeshUpdateFlags
 		{
 			get
 			{
-				if(r_RSetVertices_GT_NativeArray_d_T_p__Int32_Int32_MeshUpdateFlags == null)
+				if(r_SetVertices_GT_NativeArray_d_T_p__Int32_Int32_MeshUpdateFlags == null)
 				{
-					r_RSetVertices_GT_NativeArray_d_T_p__Int32_Int32_MeshUpdateFlags = new(this, "SetVertices", 1, typeof(Unity.Collections.NativeArray<>).MakeGenericType(Type.MakeGenericMethodParameter(0)), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.Rendering.MeshUpdateFlags));
-					r_RSetVertices_GT_NativeArray_d_T_p__Int32_Int32_MeshUpdateFlags.SetBelong(this.instance);
+					r_SetVertices_GT_NativeArray_d_T_p__Int32_Int32_MeshUpdateFlags = new(this, "SetVertices", 1, typeof(Unity.Collections.NativeArray<>).MakeGenericType(Type.MakeGenericMethodParameter(0)), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.Rendering.MeshUpdateFlags));
+					r_SetVertices_GT_NativeArray_d_T_p__Int32_Int32_MeshUpdateFlags.SetBelong(this.instance);
 				}
-				return r_RSetVertices_GT_NativeArray_d_T_p__Int32_Int32_MeshUpdateFlags;
+				return r_SetVertices_GT_NativeArray_d_T_p__Int32_Int32_MeshUpdateFlags;
 			}
 		}
 
 		/// <summary>
 		/// Void GetNormals(System.Collections.Generic.List`1[UnityEngine.Vector3])
 		/// </summary>
-		protected RMethod r_RGetNormals_List_d_Vector3_p_;
+		protected RMethod r_GetNormals_List_d_Vector3_p_;
 		public virtual RMethod RGetNormals_List_d_Vector3_p_
 		{
 			get
 			{
-				if(r_RGetNormals_List_d_Vector3_p_ == null)
+				if(r_GetNormals_List_d_Vector3_p_ == null)
 				{
-					r_RGetNormals_List_d_Vector3_p_ = new(this, "GetNormals", 0, typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(UnityEngine.Vector3)));
-					r_RGetNormals_List_d_Vector3_p_.SetBelong(this.instance);
+					r_GetNormals_List_d_Vector3_p_ = new(this, "GetNormals", 0, typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(UnityEngine.Vector3)));
+					r_GetNormals_List_d_Vector3_p_.SetBelong(this.instance);
 				}
-				return r_RGetNormals_List_d_Vector3_p_;
+				return r_GetNormals_List_d_Vector3_p_;
 			}
 		}
 
 		/// <summary>
 		/// Void SetNormals(System.Collections.Generic.List`1[UnityEngine.Vector3])
 		/// </summary>
-		protected RMethod r_RSetNormals_List_d_Vector3_p_;
+		protected RMethod r_SetNormals_List_d_Vector3_p_;
 		public virtual RMethod RSetNormals_List_d_Vector3_p_
 		{
 			get
 			{
-				if(r_RSetNormals_List_d_Vector3_p_ == null)
+				if(r_SetNormals_List_d_Vector3_p_ == null)
 				{
-					r_RSetNormals_List_d_Vector3_p_ = new(this, "SetNormals", 0, typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(UnityEngine.Vector3)));
-					r_RSetNormals_List_d_Vector3_p_.SetBelong(this.instance);
+					r_SetNormals_List_d_Vector3_p_ = new(this, "SetNormals", 0, typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(UnityEngine.Vector3)));
+					r_SetNormals_List_d_Vector3_p_.SetBelong(this.instance);
 				}
-				return r_RSetNormals_List_d_Vector3_p_;
+				return r_SetNormals_List_d_Vector3_p_;
 			}
 		}
 
 		/// <summary>
 		/// Void SetNormals(System.Collections.Generic.List`1[UnityEngine.Vector3], Int32, Int32)
 		/// </summary>
-		protected RMethod r_RSetNormals_List_d_Vector3_p__Int32_Int32;
+		protected RMethod r_SetNormals_List_d_Vector3_p__Int32_Int32;
 		public virtual RMethod RSetNormals_List_d_Vector3_p__Int32_Int32
 		{
 			get
 			{
-				if(r_RSetNormals_List_d_Vector3_p__Int32_Int32 == null)
+				if(r_SetNormals_List_d_Vector3_p__Int32_Int32 == null)
 				{
-					r_RSetNormals_List_d_Vector3_p__Int32_Int32 = new(this, "SetNormals", 0, typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(UnityEngine.Vector3)), typeof(System.Int32), typeof(System.Int32));
-					r_RSetNormals_List_d_Vector3_p__Int32_Int32.SetBelong(this.instance);
+					r_SetNormals_List_d_Vector3_p__Int32_Int32 = new(this, "SetNormals", 0, typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(UnityEngine.Vector3)), typeof(System.Int32), typeof(System.Int32));
+					r_SetNormals_List_d_Vector3_p__Int32_Int32.SetBelong(this.instance);
 				}
-				return r_RSetNormals_List_d_Vector3_p__Int32_Int32;
+				return r_SetNormals_List_d_Vector3_p__Int32_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Void SetNormals(System.Collections.Generic.List`1[UnityEngine.Vector3], Int32, Int32, UnityEngine.Rendering.MeshUpdateFlags)
 		/// </summary>
-		protected RMethod r_RSetNormals_List_d_Vector3_p__Int32_Int32_MeshUpdateFlags;
+		protected RMethod r_SetNormals_List_d_Vector3_p__Int32_Int32_MeshUpdateFlags;
 		public virtual RMethod RSetNormals_List_d_Vector3_p__Int32_Int32_MeshUpdateFlags
 		{
 			get
 			{
-				if(r_RSetNormals_List_d_Vector3_p__Int32_Int32_MeshUpdateFlags == null)
+				if(r_SetNormals_List_d_Vector3_p__Int32_Int32_MeshUpdateFlags == null)
 				{
-					r_RSetNormals_List_d_Vector3_p__Int32_Int32_MeshUpdateFlags = new(this, "SetNormals", 0, typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(UnityEngine.Vector3)), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.Rendering.MeshUpdateFlags));
-					r_RSetNormals_List_d_Vector3_p__Int32_Int32_MeshUpdateFlags.SetBelong(this.instance);
+					r_SetNormals_List_d_Vector3_p__Int32_Int32_MeshUpdateFlags = new(this, "SetNormals", 0, typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(UnityEngine.Vector3)), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.Rendering.MeshUpdateFlags));
+					r_SetNormals_List_d_Vector3_p__Int32_Int32_MeshUpdateFlags.SetBelong(this.instance);
 				}
-				return r_RSetNormals_List_d_Vector3_p__Int32_Int32_MeshUpdateFlags;
+				return r_SetNormals_List_d_Vector3_p__Int32_Int32_MeshUpdateFlags;
 			}
 		}
 
 		/// <summary>
 		/// Void SetNormals(UnityEngine.Vector3[])
 		/// </summary>
-		protected RMethod r_RSetNormals_Vector3Array;
+		protected RMethod r_SetNormals_Vector3Array;
 		public virtual RMethod RSetNormals_Vector3Array
 		{
 			get
 			{
-				if(r_RSetNormals_Vector3Array == null)
+				if(r_SetNormals_Vector3Array == null)
 				{
-					r_RSetNormals_Vector3Array = new(this, "SetNormals", 0, typeof(UnityEngine.Vector3).MakeArrayType());
-					r_RSetNormals_Vector3Array.SetBelong(this.instance);
+					r_SetNormals_Vector3Array = new(this, "SetNormals", 0, typeof(UnityEngine.Vector3).MakeArrayType());
+					r_SetNormals_Vector3Array.SetBelong(this.instance);
 				}
-				return r_RSetNormals_Vector3Array;
+				return r_SetNormals_Vector3Array;
 			}
 		}
 
 		/// <summary>
 		/// Void SetNormals(UnityEngine.Vector3[], Int32, Int32)
 		/// </summary>
-		protected RMethod r_RSetNormals_Vector3Array_Int32_Int32;
+		protected RMethod r_SetNormals_Vector3Array_Int32_Int32;
 		public virtual RMethod RSetNormals_Vector3Array_Int32_Int32
 		{
 			get
 			{
-				if(r_RSetNormals_Vector3Array_Int32_Int32 == null)
+				if(r_SetNormals_Vector3Array_Int32_Int32 == null)
 				{
-					r_RSetNormals_Vector3Array_Int32_Int32 = new(this, "SetNormals", 0, typeof(UnityEngine.Vector3).MakeArrayType(), typeof(System.Int32), typeof(System.Int32));
-					r_RSetNormals_Vector3Array_Int32_Int32.SetBelong(this.instance);
+					r_SetNormals_Vector3Array_Int32_Int32 = new(this, "SetNormals", 0, typeof(UnityEngine.Vector3).MakeArrayType(), typeof(System.Int32), typeof(System.Int32));
+					r_SetNormals_Vector3Array_Int32_Int32.SetBelong(this.instance);
 				}
-				return r_RSetNormals_Vector3Array_Int32_Int32;
+				return r_SetNormals_Vector3Array_Int32_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Void SetNormals(UnityEngine.Vector3[], Int32, Int32, UnityEngine.Rendering.MeshUpdateFlags)
 		/// </summary>
-		protected RMethod r_RSetNormals_Vector3Array_Int32_Int32_MeshUpdateFlags;
+		protected RMethod r_SetNormals_Vector3Array_Int32_Int32_MeshUpdateFlags;
 		public virtual RMethod RSetNormals_Vector3Array_Int32_Int32_MeshUpdateFlags
 		{
 			get
 			{
-				if(r_RSetNormals_Vector3Array_Int32_Int32_MeshUpdateFlags == null)
+				if(r_SetNormals_Vector3Array_Int32_Int32_MeshUpdateFlags == null)
 				{
-					r_RSetNormals_Vector3Array_Int32_Int32_MeshUpdateFlags = new(this, "SetNormals", 0, typeof(UnityEngine.Vector3).MakeArrayType(), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.Rendering.MeshUpdateFlags));
-					r_RSetNormals_Vector3Array_Int32_Int32_MeshUpdateFlags.SetBelong(this.instance);
+					r_SetNormals_Vector3Array_Int32_Int32_MeshUpdateFlags = new(this, "SetNormals", 0, typeof(UnityEngine.Vector3).MakeArrayType(), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.Rendering.MeshUpdateFlags));
+					r_SetNormals_Vector3Array_Int32_Int32_MeshUpdateFlags.SetBelong(this.instance);
 				}
-				return r_RSetNormals_Vector3Array_Int32_Int32_MeshUpdateFlags;
+				return r_SetNormals_Vector3Array_Int32_Int32_MeshUpdateFlags;
 			}
 		}
 
 		/// <summary>
 		/// Void SetNormals[T](Unity.Collections.NativeArray`1[T])
 		/// </summary>
-		protected RMethod r_RSetNormals_GT_NativeArray_d_T_p_;
+		protected RMethod r_SetNormals_GT_NativeArray_d_T_p_;
 		public virtual RMethod RSetNormals_GT_NativeArray_d_T_p_
 		{
 			get
 			{
-				if(r_RSetNormals_GT_NativeArray_d_T_p_ == null)
+				if(r_SetNormals_GT_NativeArray_d_T_p_ == null)
 				{
-					r_RSetNormals_GT_NativeArray_d_T_p_ = new(this, "SetNormals", 1, typeof(Unity.Collections.NativeArray<>).MakeGenericType(Type.MakeGenericMethodParameter(0)));
-					r_RSetNormals_GT_NativeArray_d_T_p_.SetBelong(this.instance);
+					r_SetNormals_GT_NativeArray_d_T_p_ = new(this, "SetNormals", 1, typeof(Unity.Collections.NativeArray<>).MakeGenericType(Type.MakeGenericMethodParameter(0)));
+					r_SetNormals_GT_NativeArray_d_T_p_.SetBelong(this.instance);
 				}
-				return r_RSetNormals_GT_NativeArray_d_T_p_;
+				return r_SetNormals_GT_NativeArray_d_T_p_;
 			}
 		}
 
 		/// <summary>
 		/// Void SetNormals[T](Unity.Collections.NativeArray`1[T], Int32, Int32)
 		/// </summary>
-		protected RMethod r_RSetNormals_GT_NativeArray_d_T_p__Int32_Int32;
+		protected RMethod r_SetNormals_GT_NativeArray_d_T_p__Int32_Int32;
 		public virtual RMethod RSetNormals_GT_NativeArray_d_T_p__Int32_Int32
 		{
 			get
 			{
-				if(r_RSetNormals_GT_NativeArray_d_T_p__Int32_Int32 == null)
+				if(r_SetNormals_GT_NativeArray_d_T_p__Int32_Int32 == null)
 				{
-					r_RSetNormals_GT_NativeArray_d_T_p__Int32_Int32 = new(this, "SetNormals", 1, typeof(Unity.Collections.NativeArray<>).MakeGenericType(Type.MakeGenericMethodParameter(0)), typeof(System.Int32), typeof(System.Int32));
-					r_RSetNormals_GT_NativeArray_d_T_p__Int32_Int32.SetBelong(this.instance);
+					r_SetNormals_GT_NativeArray_d_T_p__Int32_Int32 = new(this, "SetNormals", 1, typeof(Unity.Collections.NativeArray<>).MakeGenericType(Type.MakeGenericMethodParameter(0)), typeof(System.Int32), typeof(System.Int32));
+					r_SetNormals_GT_NativeArray_d_T_p__Int32_Int32.SetBelong(this.instance);
 				}
-				return r_RSetNormals_GT_NativeArray_d_T_p__Int32_Int32;
+				return r_SetNormals_GT_NativeArray_d_T_p__Int32_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Void SetNormals[T](Unity.Collections.NativeArray`1[T], Int32, Int32, UnityEngine.Rendering.MeshUpdateFlags)
 		/// </summary>
-		protected RMethod r_RSetNormals_GT_NativeArray_d_T_p__Int32_Int32_MeshUpdateFlags;
+		protected RMethod r_SetNormals_GT_NativeArray_d_T_p__Int32_Int32_MeshUpdateFlags;
 		public virtual RMethod RSetNormals_GT_NativeArray_d_T_p__Int32_Int32_MeshUpdateFlags
 		{
 			get
 			{
-				if(r_RSetNormals_GT_NativeArray_d_T_p__Int32_Int32_MeshUpdateFlags == null)
+				if(r_SetNormals_GT_NativeArray_d_T_p__Int32_Int32_MeshUpdateFlags == null)
 				{
-					r_RSetNormals_GT_NativeArray_d_T_p__Int32_Int32_MeshUpdateFlags = new(this, "SetNormals", 1, typeof(Unity.Collections.NativeArray<>).MakeGenericType(Type.MakeGenericMethodParameter(0)), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.Rendering.MeshUpdateFlags));
-					r_RSetNormals_GT_NativeArray_d_T_p__Int32_Int32_MeshUpdateFlags.SetBelong(this.instance);
+					r_SetNormals_GT_NativeArray_d_T_p__Int32_Int32_MeshUpdateFlags = new(this, "SetNormals", 1, typeof(Unity.Collections.NativeArray<>).MakeGenericType(Type.MakeGenericMethodParameter(0)), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.Rendering.MeshUpdateFlags));
+					r_SetNormals_GT_NativeArray_d_T_p__Int32_Int32_MeshUpdateFlags.SetBelong(this.instance);
 				}
-				return r_RSetNormals_GT_NativeArray_d_T_p__Int32_Int32_MeshUpdateFlags;
+				return r_SetNormals_GT_NativeArray_d_T_p__Int32_Int32_MeshUpdateFlags;
 			}
 		}
 
 		/// <summary>
 		/// Void GetTangents(System.Collections.Generic.List`1[UnityEngine.Vector4])
 		/// </summary>
-		protected RMethod r_RGetTangents_List_d_Vector4_p_;
+		protected RMethod r_GetTangents_List_d_Vector4_p_;
 		public virtual RMethod RGetTangents_List_d_Vector4_p_
 		{
 			get
 			{
-				if(r_RGetTangents_List_d_Vector4_p_ == null)
+				if(r_GetTangents_List_d_Vector4_p_ == null)
 				{
-					r_RGetTangents_List_d_Vector4_p_ = new(this, "GetTangents", 0, typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(UnityEngine.Vector4)));
-					r_RGetTangents_List_d_Vector4_p_.SetBelong(this.instance);
+					r_GetTangents_List_d_Vector4_p_ = new(this, "GetTangents", 0, typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(UnityEngine.Vector4)));
+					r_GetTangents_List_d_Vector4_p_.SetBelong(this.instance);
 				}
-				return r_RGetTangents_List_d_Vector4_p_;
+				return r_GetTangents_List_d_Vector4_p_;
 			}
 		}
 
 		/// <summary>
 		/// Void SetTangents(System.Collections.Generic.List`1[UnityEngine.Vector4])
 		/// </summary>
-		protected RMethod r_RSetTangents_List_d_Vector4_p_;
+		protected RMethod r_SetTangents_List_d_Vector4_p_;
 		public virtual RMethod RSetTangents_List_d_Vector4_p_
 		{
 			get
 			{
-				if(r_RSetTangents_List_d_Vector4_p_ == null)
+				if(r_SetTangents_List_d_Vector4_p_ == null)
 				{
-					r_RSetTangents_List_d_Vector4_p_ = new(this, "SetTangents", 0, typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(UnityEngine.Vector4)));
-					r_RSetTangents_List_d_Vector4_p_.SetBelong(this.instance);
+					r_SetTangents_List_d_Vector4_p_ = new(this, "SetTangents", 0, typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(UnityEngine.Vector4)));
+					r_SetTangents_List_d_Vector4_p_.SetBelong(this.instance);
 				}
-				return r_RSetTangents_List_d_Vector4_p_;
+				return r_SetTangents_List_d_Vector4_p_;
 			}
 		}
 
 		/// <summary>
 		/// Void SetTangents(System.Collections.Generic.List`1[UnityEngine.Vector4], Int32, Int32)
 		/// </summary>
-		protected RMethod r_RSetTangents_List_d_Vector4_p__Int32_Int32;
+		protected RMethod r_SetTangents_List_d_Vector4_p__Int32_Int32;
 		public virtual RMethod RSetTangents_List_d_Vector4_p__Int32_Int32
 		{
 			get
 			{
-				if(r_RSetTangents_List_d_Vector4_p__Int32_Int32 == null)
+				if(r_SetTangents_List_d_Vector4_p__Int32_Int32 == null)
 				{
-					r_RSetTangents_List_d_Vector4_p__Int32_Int32 = new(this, "SetTangents", 0, typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(UnityEngine.Vector4)), typeof(System.Int32), typeof(System.Int32));
-					r_RSetTangents_List_d_Vector4_p__Int32_Int32.SetBelong(this.instance);
+					r_SetTangents_List_d_Vector4_p__Int32_Int32 = new(this, "SetTangents", 0, typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(UnityEngine.Vector4)), typeof(System.Int32), typeof(System.Int32));
+					r_SetTangents_List_d_Vector4_p__Int32_Int32.SetBelong(this.instance);
 				}
-				return r_RSetTangents_List_d_Vector4_p__Int32_Int32;
+				return r_SetTangents_List_d_Vector4_p__Int32_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Void SetTangents(System.Collections.Generic.List`1[UnityEngine.Vector4], Int32, Int32, UnityEngine.Rendering.MeshUpdateFlags)
 		/// </summary>
-		protected RMethod r_RSetTangents_List_d_Vector4_p__Int32_Int32_MeshUpdateFlags;
+		protected RMethod r_SetTangents_List_d_Vector4_p__Int32_Int32_MeshUpdateFlags;
 		public virtual RMethod RSetTangents_List_d_Vector4_p__Int32_Int32_MeshUpdateFlags
 		{
 			get
 			{
-				if(r_RSetTangents_List_d_Vector4_p__Int32_Int32_MeshUpdateFlags == null)
+				if(r_SetTangents_List_d_Vector4_p__Int32_Int32_MeshUpdateFlags == null)
 				{
-					r_RSetTangents_List_d_Vector4_p__Int32_Int32_MeshUpdateFlags = new(this, "SetTangents", 0, typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(UnityEngine.Vector4)), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.Rendering.MeshUpdateFlags));
-					r_RSetTangents_List_d_Vector4_p__Int32_Int32_MeshUpdateFlags.SetBelong(this.instance);
+					r_SetTangents_List_d_Vector4_p__Int32_Int32_MeshUpdateFlags = new(this, "SetTangents", 0, typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(UnityEngine.Vector4)), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.Rendering.MeshUpdateFlags));
+					r_SetTangents_List_d_Vector4_p__Int32_Int32_MeshUpdateFlags.SetBelong(this.instance);
 				}
-				return r_RSetTangents_List_d_Vector4_p__Int32_Int32_MeshUpdateFlags;
+				return r_SetTangents_List_d_Vector4_p__Int32_Int32_MeshUpdateFlags;
 			}
 		}
 
 		/// <summary>
 		/// Void SetTangents(UnityEngine.Vector4[])
 		/// </summary>
-		protected RMethod r_RSetTangents_Vector4Array;
+		protected RMethod r_SetTangents_Vector4Array;
 		public virtual RMethod RSetTangents_Vector4Array
 		{
 			get
 			{
-				if(r_RSetTangents_Vector4Array == null)
+				if(r_SetTangents_Vector4Array == null)
 				{
-					r_RSetTangents_Vector4Array = new(this, "SetTangents", 0, typeof(UnityEngine.Vector4).MakeArrayType());
-					r_RSetTangents_Vector4Array.SetBelong(this.instance);
+					r_SetTangents_Vector4Array = new(this, "SetTangents", 0, typeof(UnityEngine.Vector4).MakeArrayType());
+					r_SetTangents_Vector4Array.SetBelong(this.instance);
 				}
-				return r_RSetTangents_Vector4Array;
+				return r_SetTangents_Vector4Array;
 			}
 		}
 
 		/// <summary>
 		/// Void SetTangents(UnityEngine.Vector4[], Int32, Int32)
 		/// </summary>
-		protected RMethod r_RSetTangents_Vector4Array_Int32_Int32;
+		protected RMethod r_SetTangents_Vector4Array_Int32_Int32;
 		public virtual RMethod RSetTangents_Vector4Array_Int32_Int32
 		{
 			get
 			{
-				if(r_RSetTangents_Vector4Array_Int32_Int32 == null)
+				if(r_SetTangents_Vector4Array_Int32_Int32 == null)
 				{
-					r_RSetTangents_Vector4Array_Int32_Int32 = new(this, "SetTangents", 0, typeof(UnityEngine.Vector4).MakeArrayType(), typeof(System.Int32), typeof(System.Int32));
-					r_RSetTangents_Vector4Array_Int32_Int32.SetBelong(this.instance);
+					r_SetTangents_Vector4Array_Int32_Int32 = new(this, "SetTangents", 0, typeof(UnityEngine.Vector4).MakeArrayType(), typeof(System.Int32), typeof(System.Int32));
+					r_SetTangents_Vector4Array_Int32_Int32.SetBelong(this.instance);
 				}
-				return r_RSetTangents_Vector4Array_Int32_Int32;
+				return r_SetTangents_Vector4Array_Int32_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Void SetTangents(UnityEngine.Vector4[], Int32, Int32, UnityEngine.Rendering.MeshUpdateFlags)
 		/// </summary>
-		protected RMethod r_RSetTangents_Vector4Array_Int32_Int32_MeshUpdateFlags;
+		protected RMethod r_SetTangents_Vector4Array_Int32_Int32_MeshUpdateFlags;
 		public virtual RMethod RSetTangents_Vector4Array_Int32_Int32_MeshUpdateFlags
 		{
 			get
 			{
-				if(r_RSetTangents_Vector4Array_Int32_Int32_MeshUpdateFlags == null)
+				if(r_SetTangents_Vector4Array_Int32_Int32_MeshUpdateFlags == null)
 				{
-					r_RSetTangents_Vector4Array_Int32_Int32_MeshUpdateFlags = new(this, "SetTangents", 0, typeof(UnityEngine.Vector4).MakeArrayType(), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.Rendering.MeshUpdateFlags));
-					r_RSetTangents_Vector4Array_Int32_Int32_MeshUpdateFlags.SetBelong(this.instance);
+					r_SetTangents_Vector4Array_Int32_Int32_MeshUpdateFlags = new(this, "SetTangents", 0, typeof(UnityEngine.Vector4).MakeArrayType(), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.Rendering.MeshUpdateFlags));
+					r_SetTangents_Vector4Array_Int32_Int32_MeshUpdateFlags.SetBelong(this.instance);
 				}
-				return r_RSetTangents_Vector4Array_Int32_Int32_MeshUpdateFlags;
+				return r_SetTangents_Vector4Array_Int32_Int32_MeshUpdateFlags;
 			}
 		}
 
 		/// <summary>
 		/// Void SetTangents[T](Unity.Collections.NativeArray`1[T])
 		/// </summary>
-		protected RMethod r_RSetTangents_GT_NativeArray_d_T_p_;
+		protected RMethod r_SetTangents_GT_NativeArray_d_T_p_;
 		public virtual RMethod RSetTangents_GT_NativeArray_d_T_p_
 		{
 			get
 			{
-				if(r_RSetTangents_GT_NativeArray_d_T_p_ == null)
+				if(r_SetTangents_GT_NativeArray_d_T_p_ == null)
 				{
-					r_RSetTangents_GT_NativeArray_d_T_p_ = new(this, "SetTangents", 1, typeof(Unity.Collections.NativeArray<>).MakeGenericType(Type.MakeGenericMethodParameter(0)));
-					r_RSetTangents_GT_NativeArray_d_T_p_.SetBelong(this.instance);
+					r_SetTangents_GT_NativeArray_d_T_p_ = new(this, "SetTangents", 1, typeof(Unity.Collections.NativeArray<>).MakeGenericType(Type.MakeGenericMethodParameter(0)));
+					r_SetTangents_GT_NativeArray_d_T_p_.SetBelong(this.instance);
 				}
-				return r_RSetTangents_GT_NativeArray_d_T_p_;
+				return r_SetTangents_GT_NativeArray_d_T_p_;
 			}
 		}
 
 		/// <summary>
 		/// Void SetTangents[T](Unity.Collections.NativeArray`1[T], Int32, Int32)
 		/// </summary>
-		protected RMethod r_RSetTangents_GT_NativeArray_d_T_p__Int32_Int32;
+		protected RMethod r_SetTangents_GT_NativeArray_d_T_p__Int32_Int32;
 		public virtual RMethod RSetTangents_GT_NativeArray_d_T_p__Int32_Int32
 		{
 			get
 			{
-				if(r_RSetTangents_GT_NativeArray_d_T_p__Int32_Int32 == null)
+				if(r_SetTangents_GT_NativeArray_d_T_p__Int32_Int32 == null)
 				{
-					r_RSetTangents_GT_NativeArray_d_T_p__Int32_Int32 = new(this, "SetTangents", 1, typeof(Unity.Collections.NativeArray<>).MakeGenericType(Type.MakeGenericMethodParameter(0)), typeof(System.Int32), typeof(System.Int32));
-					r_RSetTangents_GT_NativeArray_d_T_p__Int32_Int32.SetBelong(this.instance);
+					r_SetTangents_GT_NativeArray_d_T_p__Int32_Int32 = new(this, "SetTangents", 1, typeof(Unity.Collections.NativeArray<>).MakeGenericType(Type.MakeGenericMethodParameter(0)), typeof(System.Int32), typeof(System.Int32));
+					r_SetTangents_GT_NativeArray_d_T_p__Int32_Int32.SetBelong(this.instance);
 				}
-				return r_RSetTangents_GT_NativeArray_d_T_p__Int32_Int32;
+				return r_SetTangents_GT_NativeArray_d_T_p__Int32_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Void SetTangents[T](Unity.Collections.NativeArray`1[T], Int32, Int32, UnityEngine.Rendering.MeshUpdateFlags)
 		/// </summary>
-		protected RMethod r_RSetTangents_GT_NativeArray_d_T_p__Int32_Int32_MeshUpdateFlags;
+		protected RMethod r_SetTangents_GT_NativeArray_d_T_p__Int32_Int32_MeshUpdateFlags;
 		public virtual RMethod RSetTangents_GT_NativeArray_d_T_p__Int32_Int32_MeshUpdateFlags
 		{
 			get
 			{
-				if(r_RSetTangents_GT_NativeArray_d_T_p__Int32_Int32_MeshUpdateFlags == null)
+				if(r_SetTangents_GT_NativeArray_d_T_p__Int32_Int32_MeshUpdateFlags == null)
 				{
-					r_RSetTangents_GT_NativeArray_d_T_p__Int32_Int32_MeshUpdateFlags = new(this, "SetTangents", 1, typeof(Unity.Collections.NativeArray<>).MakeGenericType(Type.MakeGenericMethodParameter(0)), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.Rendering.MeshUpdateFlags));
-					r_RSetTangents_GT_NativeArray_d_T_p__Int32_Int32_MeshUpdateFlags.SetBelong(this.instance);
+					r_SetTangents_GT_NativeArray_d_T_p__Int32_Int32_MeshUpdateFlags = new(this, "SetTangents", 1, typeof(Unity.Collections.NativeArray<>).MakeGenericType(Type.MakeGenericMethodParameter(0)), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.Rendering.MeshUpdateFlags));
+					r_SetTangents_GT_NativeArray_d_T_p__Int32_Int32_MeshUpdateFlags.SetBelong(this.instance);
 				}
-				return r_RSetTangents_GT_NativeArray_d_T_p__Int32_Int32_MeshUpdateFlags;
+				return r_SetTangents_GT_NativeArray_d_T_p__Int32_Int32_MeshUpdateFlags;
 			}
 		}
 
 		/// <summary>
 		/// Void GetColors(System.Collections.Generic.List`1[UnityEngine.Color])
 		/// </summary>
-		protected RMethod r_RGetColors_List_d_Color_p_;
+		protected RMethod r_GetColors_List_d_Color_p_;
 		public virtual RMethod RGetColors_List_d_Color_p_
 		{
 			get
 			{
-				if(r_RGetColors_List_d_Color_p_ == null)
+				if(r_GetColors_List_d_Color_p_ == null)
 				{
-					r_RGetColors_List_d_Color_p_ = new(this, "GetColors", 0, typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(UnityEngine.Color)));
-					r_RGetColors_List_d_Color_p_.SetBelong(this.instance);
+					r_GetColors_List_d_Color_p_ = new(this, "GetColors", 0, typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(UnityEngine.Color)));
+					r_GetColors_List_d_Color_p_.SetBelong(this.instance);
 				}
-				return r_RGetColors_List_d_Color_p_;
+				return r_GetColors_List_d_Color_p_;
 			}
 		}
 
 		/// <summary>
 		/// Void SetColors(System.Collections.Generic.List`1[UnityEngine.Color])
 		/// </summary>
-		protected RMethod r_RSetColors_List_d_Color_p_;
+		protected RMethod r_SetColors_List_d_Color_p_;
 		public virtual RMethod RSetColors_List_d_Color_p_
 		{
 			get
 			{
-				if(r_RSetColors_List_d_Color_p_ == null)
+				if(r_SetColors_List_d_Color_p_ == null)
 				{
-					r_RSetColors_List_d_Color_p_ = new(this, "SetColors", 0, typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(UnityEngine.Color)));
-					r_RSetColors_List_d_Color_p_.SetBelong(this.instance);
+					r_SetColors_List_d_Color_p_ = new(this, "SetColors", 0, typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(UnityEngine.Color)));
+					r_SetColors_List_d_Color_p_.SetBelong(this.instance);
 				}
-				return r_RSetColors_List_d_Color_p_;
+				return r_SetColors_List_d_Color_p_;
 			}
 		}
 
 		/// <summary>
 		/// Void SetColors(System.Collections.Generic.List`1[UnityEngine.Color], Int32, Int32)
 		/// </summary>
-		protected RMethod r_RSetColors_List_d_Color_p__Int32_Int32;
+		protected RMethod r_SetColors_List_d_Color_p__Int32_Int32;
 		public virtual RMethod RSetColors_List_d_Color_p__Int32_Int32
 		{
 			get
 			{
-				if(r_RSetColors_List_d_Color_p__Int32_Int32 == null)
+				if(r_SetColors_List_d_Color_p__Int32_Int32 == null)
 				{
-					r_RSetColors_List_d_Color_p__Int32_Int32 = new(this, "SetColors", 0, typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(UnityEngine.Color)), typeof(System.Int32), typeof(System.Int32));
-					r_RSetColors_List_d_Color_p__Int32_Int32.SetBelong(this.instance);
+					r_SetColors_List_d_Color_p__Int32_Int32 = new(this, "SetColors", 0, typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(UnityEngine.Color)), typeof(System.Int32), typeof(System.Int32));
+					r_SetColors_List_d_Color_p__Int32_Int32.SetBelong(this.instance);
 				}
-				return r_RSetColors_List_d_Color_p__Int32_Int32;
+				return r_SetColors_List_d_Color_p__Int32_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Void SetColors(System.Collections.Generic.List`1[UnityEngine.Color], Int32, Int32, UnityEngine.Rendering.MeshUpdateFlags)
 		/// </summary>
-		protected RMethod r_RSetColors_List_d_Color_p__Int32_Int32_MeshUpdateFlags;
+		protected RMethod r_SetColors_List_d_Color_p__Int32_Int32_MeshUpdateFlags;
 		public virtual RMethod RSetColors_List_d_Color_p__Int32_Int32_MeshUpdateFlags
 		{
 			get
 			{
-				if(r_RSetColors_List_d_Color_p__Int32_Int32_MeshUpdateFlags == null)
+				if(r_SetColors_List_d_Color_p__Int32_Int32_MeshUpdateFlags == null)
 				{
-					r_RSetColors_List_d_Color_p__Int32_Int32_MeshUpdateFlags = new(this, "SetColors", 0, typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(UnityEngine.Color)), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.Rendering.MeshUpdateFlags));
-					r_RSetColors_List_d_Color_p__Int32_Int32_MeshUpdateFlags.SetBelong(this.instance);
+					r_SetColors_List_d_Color_p__Int32_Int32_MeshUpdateFlags = new(this, "SetColors", 0, typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(UnityEngine.Color)), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.Rendering.MeshUpdateFlags));
+					r_SetColors_List_d_Color_p__Int32_Int32_MeshUpdateFlags.SetBelong(this.instance);
 				}
-				return r_RSetColors_List_d_Color_p__Int32_Int32_MeshUpdateFlags;
+				return r_SetColors_List_d_Color_p__Int32_Int32_MeshUpdateFlags;
 			}
 		}
 
 		/// <summary>
 		/// Void SetColors(UnityEngine.Color[])
 		/// </summary>
-		protected RMethod r_RSetColors_ColorArray;
+		protected RMethod r_SetColors_ColorArray;
 		public virtual RMethod RSetColors_ColorArray
 		{
 			get
 			{
-				if(r_RSetColors_ColorArray == null)
+				if(r_SetColors_ColorArray == null)
 				{
-					r_RSetColors_ColorArray = new(this, "SetColors", 0, typeof(UnityEngine.Color).MakeArrayType());
-					r_RSetColors_ColorArray.SetBelong(this.instance);
+					r_SetColors_ColorArray = new(this, "SetColors", 0, typeof(UnityEngine.Color).MakeArrayType());
+					r_SetColors_ColorArray.SetBelong(this.instance);
 				}
-				return r_RSetColors_ColorArray;
+				return r_SetColors_ColorArray;
 			}
 		}
 
 		/// <summary>
 		/// Void SetColors(UnityEngine.Color[], Int32, Int32)
 		/// </summary>
-		protected RMethod r_RSetColors_ColorArray_Int32_Int32;
+		protected RMethod r_SetColors_ColorArray_Int32_Int32;
 		public virtual RMethod RSetColors_ColorArray_Int32_Int32
 		{
 			get
 			{
-				if(r_RSetColors_ColorArray_Int32_Int32 == null)
+				if(r_SetColors_ColorArray_Int32_Int32 == null)
 				{
-					r_RSetColors_ColorArray_Int32_Int32 = new(this, "SetColors", 0, typeof(UnityEngine.Color).MakeArrayType(), typeof(System.Int32), typeof(System.Int32));
-					r_RSetColors_ColorArray_Int32_Int32.SetBelong(this.instance);
+					r_SetColors_ColorArray_Int32_Int32 = new(this, "SetColors", 0, typeof(UnityEngine.Color).MakeArrayType(), typeof(System.Int32), typeof(System.Int32));
+					r_SetColors_ColorArray_Int32_Int32.SetBelong(this.instance);
 				}
-				return r_RSetColors_ColorArray_Int32_Int32;
+				return r_SetColors_ColorArray_Int32_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Void SetColors(UnityEngine.Color[], Int32, Int32, UnityEngine.Rendering.MeshUpdateFlags)
 		/// </summary>
-		protected RMethod r_RSetColors_ColorArray_Int32_Int32_MeshUpdateFlags;
+		protected RMethod r_SetColors_ColorArray_Int32_Int32_MeshUpdateFlags;
 		public virtual RMethod RSetColors_ColorArray_Int32_Int32_MeshUpdateFlags
 		{
 			get
 			{
-				if(r_RSetColors_ColorArray_Int32_Int32_MeshUpdateFlags == null)
+				if(r_SetColors_ColorArray_Int32_Int32_MeshUpdateFlags == null)
 				{
-					r_RSetColors_ColorArray_Int32_Int32_MeshUpdateFlags = new(this, "SetColors", 0, typeof(UnityEngine.Color).MakeArrayType(), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.Rendering.MeshUpdateFlags));
-					r_RSetColors_ColorArray_Int32_Int32_MeshUpdateFlags.SetBelong(this.instance);
+					r_SetColors_ColorArray_Int32_Int32_MeshUpdateFlags = new(this, "SetColors", 0, typeof(UnityEngine.Color).MakeArrayType(), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.Rendering.MeshUpdateFlags));
+					r_SetColors_ColorArray_Int32_Int32_MeshUpdateFlags.SetBelong(this.instance);
 				}
-				return r_RSetColors_ColorArray_Int32_Int32_MeshUpdateFlags;
+				return r_SetColors_ColorArray_Int32_Int32_MeshUpdateFlags;
 			}
 		}
 
 		/// <summary>
 		/// Void GetColors(System.Collections.Generic.List`1[UnityEngine.Color32])
 		/// </summary>
-		protected RMethod r_RGetColors_List_d_Color32_p_;
+		protected RMethod r_GetColors_List_d_Color32_p_;
 		public virtual RMethod RGetColors_List_d_Color32_p_
 		{
 			get
 			{
-				if(r_RGetColors_List_d_Color32_p_ == null)
+				if(r_GetColors_List_d_Color32_p_ == null)
 				{
-					r_RGetColors_List_d_Color32_p_ = new(this, "GetColors", 0, typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(UnityEngine.Color32)));
-					r_RGetColors_List_d_Color32_p_.SetBelong(this.instance);
+					r_GetColors_List_d_Color32_p_ = new(this, "GetColors", 0, typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(UnityEngine.Color32)));
+					r_GetColors_List_d_Color32_p_.SetBelong(this.instance);
 				}
-				return r_RGetColors_List_d_Color32_p_;
+				return r_GetColors_List_d_Color32_p_;
 			}
 		}
 
 		/// <summary>
 		/// Void SetColors(System.Collections.Generic.List`1[UnityEngine.Color32])
 		/// </summary>
-		protected RMethod r_RSetColors_List_d_Color32_p_;
+		protected RMethod r_SetColors_List_d_Color32_p_;
 		public virtual RMethod RSetColors_List_d_Color32_p_
 		{
 			get
 			{
-				if(r_RSetColors_List_d_Color32_p_ == null)
+				if(r_SetColors_List_d_Color32_p_ == null)
 				{
-					r_RSetColors_List_d_Color32_p_ = new(this, "SetColors", 0, typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(UnityEngine.Color32)));
-					r_RSetColors_List_d_Color32_p_.SetBelong(this.instance);
+					r_SetColors_List_d_Color32_p_ = new(this, "SetColors", 0, typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(UnityEngine.Color32)));
+					r_SetColors_List_d_Color32_p_.SetBelong(this.instance);
 				}
-				return r_RSetColors_List_d_Color32_p_;
+				return r_SetColors_List_d_Color32_p_;
 			}
 		}
 
 		/// <summary>
 		/// Void SetColors(System.Collections.Generic.List`1[UnityEngine.Color32], Int32, Int32)
 		/// </summary>
-		protected RMethod r_RSetColors_List_d_Color32_p__Int32_Int32;
+		protected RMethod r_SetColors_List_d_Color32_p__Int32_Int32;
 		public virtual RMethod RSetColors_List_d_Color32_p__Int32_Int32
 		{
 			get
 			{
-				if(r_RSetColors_List_d_Color32_p__Int32_Int32 == null)
+				if(r_SetColors_List_d_Color32_p__Int32_Int32 == null)
 				{
-					r_RSetColors_List_d_Color32_p__Int32_Int32 = new(this, "SetColors", 0, typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(UnityEngine.Color32)), typeof(System.Int32), typeof(System.Int32));
-					r_RSetColors_List_d_Color32_p__Int32_Int32.SetBelong(this.instance);
+					r_SetColors_List_d_Color32_p__Int32_Int32 = new(this, "SetColors", 0, typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(UnityEngine.Color32)), typeof(System.Int32), typeof(System.Int32));
+					r_SetColors_List_d_Color32_p__Int32_Int32.SetBelong(this.instance);
 				}
-				return r_RSetColors_List_d_Color32_p__Int32_Int32;
+				return r_SetColors_List_d_Color32_p__Int32_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Void SetColors(System.Collections.Generic.List`1[UnityEngine.Color32], Int32, Int32, UnityEngine.Rendering.MeshUpdateFlags)
 		/// </summary>
-		protected RMethod r_RSetColors_List_d_Color32_p__Int32_Int32_MeshUpdateFlags;
+		protected RMethod r_SetColors_List_d_Color32_p__Int32_Int32_MeshUpdateFlags;
 		public virtual RMethod RSetColors_List_d_Color32_p__Int32_Int32_MeshUpdateFlags
 		{
 			get
 			{
-				if(r_RSetColors_List_d_Color32_p__Int32_Int32_MeshUpdateFlags == null)
+				if(r_SetColors_List_d_Color32_p__Int32_Int32_MeshUpdateFlags == null)
 				{
-					r_RSetColors_List_d_Color32_p__Int32_Int32_MeshUpdateFlags = new(this, "SetColors", 0, typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(UnityEngine.Color32)), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.Rendering.MeshUpdateFlags));
-					r_RSetColors_List_d_Color32_p__Int32_Int32_MeshUpdateFlags.SetBelong(this.instance);
+					r_SetColors_List_d_Color32_p__Int32_Int32_MeshUpdateFlags = new(this, "SetColors", 0, typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(UnityEngine.Color32)), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.Rendering.MeshUpdateFlags));
+					r_SetColors_List_d_Color32_p__Int32_Int32_MeshUpdateFlags.SetBelong(this.instance);
 				}
-				return r_RSetColors_List_d_Color32_p__Int32_Int32_MeshUpdateFlags;
+				return r_SetColors_List_d_Color32_p__Int32_Int32_MeshUpdateFlags;
 			}
 		}
 
 		/// <summary>
 		/// Void SetColors(UnityEngine.Color32[])
 		/// </summary>
-		protected RMethod r_RSetColors_Color32Array;
+		protected RMethod r_SetColors_Color32Array;
 		public virtual RMethod RSetColors_Color32Array
 		{
 			get
 			{
-				if(r_RSetColors_Color32Array == null)
+				if(r_SetColors_Color32Array == null)
 				{
-					r_RSetColors_Color32Array = new(this, "SetColors", 0, typeof(UnityEngine.Color32).MakeArrayType());
-					r_RSetColors_Color32Array.SetBelong(this.instance);
+					r_SetColors_Color32Array = new(this, "SetColors", 0, typeof(UnityEngine.Color32).MakeArrayType());
+					r_SetColors_Color32Array.SetBelong(this.instance);
 				}
-				return r_RSetColors_Color32Array;
+				return r_SetColors_Color32Array;
 			}
 		}
 
 		/// <summary>
 		/// Void SetColors(UnityEngine.Color32[], Int32, Int32)
 		/// </summary>
-		protected RMethod r_RSetColors_Color32Array_Int32_Int32;
+		protected RMethod r_SetColors_Color32Array_Int32_Int32;
 		public virtual RMethod RSetColors_Color32Array_Int32_Int32
 		{
 			get
 			{
-				if(r_RSetColors_Color32Array_Int32_Int32 == null)
+				if(r_SetColors_Color32Array_Int32_Int32 == null)
 				{
-					r_RSetColors_Color32Array_Int32_Int32 = new(this, "SetColors", 0, typeof(UnityEngine.Color32).MakeArrayType(), typeof(System.Int32), typeof(System.Int32));
-					r_RSetColors_Color32Array_Int32_Int32.SetBelong(this.instance);
+					r_SetColors_Color32Array_Int32_Int32 = new(this, "SetColors", 0, typeof(UnityEngine.Color32).MakeArrayType(), typeof(System.Int32), typeof(System.Int32));
+					r_SetColors_Color32Array_Int32_Int32.SetBelong(this.instance);
 				}
-				return r_RSetColors_Color32Array_Int32_Int32;
+				return r_SetColors_Color32Array_Int32_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Void SetColors(UnityEngine.Color32[], Int32, Int32, UnityEngine.Rendering.MeshUpdateFlags)
 		/// </summary>
-		protected RMethod r_RSetColors_Color32Array_Int32_Int32_MeshUpdateFlags;
+		protected RMethod r_SetColors_Color32Array_Int32_Int32_MeshUpdateFlags;
 		public virtual RMethod RSetColors_Color32Array_Int32_Int32_MeshUpdateFlags
 		{
 			get
 			{
-				if(r_RSetColors_Color32Array_Int32_Int32_MeshUpdateFlags == null)
+				if(r_SetColors_Color32Array_Int32_Int32_MeshUpdateFlags == null)
 				{
-					r_RSetColors_Color32Array_Int32_Int32_MeshUpdateFlags = new(this, "SetColors", 0, typeof(UnityEngine.Color32).MakeArrayType(), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.Rendering.MeshUpdateFlags));
-					r_RSetColors_Color32Array_Int32_Int32_MeshUpdateFlags.SetBelong(this.instance);
+					r_SetColors_Color32Array_Int32_Int32_MeshUpdateFlags = new(this, "SetColors", 0, typeof(UnityEngine.Color32).MakeArrayType(), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.Rendering.MeshUpdateFlags));
+					r_SetColors_Color32Array_Int32_Int32_MeshUpdateFlags.SetBelong(this.instance);
 				}
-				return r_RSetColors_Color32Array_Int32_Int32_MeshUpdateFlags;
+				return r_SetColors_Color32Array_Int32_Int32_MeshUpdateFlags;
 			}
 		}
 
 		/// <summary>
 		/// Void SetColors[T](Unity.Collections.NativeArray`1[T])
 		/// </summary>
-		protected RMethod r_RSetColors_GT_NativeArray_d_T_p_;
+		protected RMethod r_SetColors_GT_NativeArray_d_T_p_;
 		public virtual RMethod RSetColors_GT_NativeArray_d_T_p_
 		{
 			get
 			{
-				if(r_RSetColors_GT_NativeArray_d_T_p_ == null)
+				if(r_SetColors_GT_NativeArray_d_T_p_ == null)
 				{
-					r_RSetColors_GT_NativeArray_d_T_p_ = new(this, "SetColors", 1, typeof(Unity.Collections.NativeArray<>).MakeGenericType(Type.MakeGenericMethodParameter(0)));
-					r_RSetColors_GT_NativeArray_d_T_p_.SetBelong(this.instance);
+					r_SetColors_GT_NativeArray_d_T_p_ = new(this, "SetColors", 1, typeof(Unity.Collections.NativeArray<>).MakeGenericType(Type.MakeGenericMethodParameter(0)));
+					r_SetColors_GT_NativeArray_d_T_p_.SetBelong(this.instance);
 				}
-				return r_RSetColors_GT_NativeArray_d_T_p_;
+				return r_SetColors_GT_NativeArray_d_T_p_;
 			}
 		}
 
 		/// <summary>
 		/// Void SetColors[T](Unity.Collections.NativeArray`1[T], Int32, Int32)
 		/// </summary>
-		protected RMethod r_RSetColors_GT_NativeArray_d_T_p__Int32_Int32;
+		protected RMethod r_SetColors_GT_NativeArray_d_T_p__Int32_Int32;
 		public virtual RMethod RSetColors_GT_NativeArray_d_T_p__Int32_Int32
 		{
 			get
 			{
-				if(r_RSetColors_GT_NativeArray_d_T_p__Int32_Int32 == null)
+				if(r_SetColors_GT_NativeArray_d_T_p__Int32_Int32 == null)
 				{
-					r_RSetColors_GT_NativeArray_d_T_p__Int32_Int32 = new(this, "SetColors", 1, typeof(Unity.Collections.NativeArray<>).MakeGenericType(Type.MakeGenericMethodParameter(0)), typeof(System.Int32), typeof(System.Int32));
-					r_RSetColors_GT_NativeArray_d_T_p__Int32_Int32.SetBelong(this.instance);
+					r_SetColors_GT_NativeArray_d_T_p__Int32_Int32 = new(this, "SetColors", 1, typeof(Unity.Collections.NativeArray<>).MakeGenericType(Type.MakeGenericMethodParameter(0)), typeof(System.Int32), typeof(System.Int32));
+					r_SetColors_GT_NativeArray_d_T_p__Int32_Int32.SetBelong(this.instance);
 				}
-				return r_RSetColors_GT_NativeArray_d_T_p__Int32_Int32;
+				return r_SetColors_GT_NativeArray_d_T_p__Int32_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Void SetColors[T](Unity.Collections.NativeArray`1[T], Int32, Int32, UnityEngine.Rendering.MeshUpdateFlags)
 		/// </summary>
-		protected RMethod r_RSetColors_GT_NativeArray_d_T_p__Int32_Int32_MeshUpdateFlags;
+		protected RMethod r_SetColors_GT_NativeArray_d_T_p__Int32_Int32_MeshUpdateFlags;
 		public virtual RMethod RSetColors_GT_NativeArray_d_T_p__Int32_Int32_MeshUpdateFlags
 		{
 			get
 			{
-				if(r_RSetColors_GT_NativeArray_d_T_p__Int32_Int32_MeshUpdateFlags == null)
+				if(r_SetColors_GT_NativeArray_d_T_p__Int32_Int32_MeshUpdateFlags == null)
 				{
-					r_RSetColors_GT_NativeArray_d_T_p__Int32_Int32_MeshUpdateFlags = new(this, "SetColors", 1, typeof(Unity.Collections.NativeArray<>).MakeGenericType(Type.MakeGenericMethodParameter(0)), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.Rendering.MeshUpdateFlags));
-					r_RSetColors_GT_NativeArray_d_T_p__Int32_Int32_MeshUpdateFlags.SetBelong(this.instance);
+					r_SetColors_GT_NativeArray_d_T_p__Int32_Int32_MeshUpdateFlags = new(this, "SetColors", 1, typeof(Unity.Collections.NativeArray<>).MakeGenericType(Type.MakeGenericMethodParameter(0)), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.Rendering.MeshUpdateFlags));
+					r_SetColors_GT_NativeArray_d_T_p__Int32_Int32_MeshUpdateFlags.SetBelong(this.instance);
 				}
-				return r_RSetColors_GT_NativeArray_d_T_p__Int32_Int32_MeshUpdateFlags;
+				return r_SetColors_GT_NativeArray_d_T_p__Int32_Int32_MeshUpdateFlags;
 			}
 		}
 
 		/// <summary>
 		/// Void SetUvsImpl[T](Int32, Int32, System.Collections.Generic.List`1[T], Int32, Int32, UnityEngine.Rendering.MeshUpdateFlags)
 		/// </summary>
-		protected RMethod r_RSetUvsImpl_GT_Int32_Int32_List_d_T_p__Int32_Int32_MeshUpdateFlags;
+		protected RMethod r_SetUvsImpl_GT_Int32_Int32_List_d_T_p__Int32_Int32_MeshUpdateFlags;
 		public virtual RMethod RSetUvsImpl_GT_Int32_Int32_List_d_T_p__Int32_Int32_MeshUpdateFlags
 		{
 			get
 			{
-				if(r_RSetUvsImpl_GT_Int32_Int32_List_d_T_p__Int32_Int32_MeshUpdateFlags == null)
+				if(r_SetUvsImpl_GT_Int32_Int32_List_d_T_p__Int32_Int32_MeshUpdateFlags == null)
 				{
-					r_RSetUvsImpl_GT_Int32_Int32_List_d_T_p__Int32_Int32_MeshUpdateFlags = new(this, "SetUvsImpl", 1, typeof(System.Int32), typeof(System.Int32), typeof(System.Collections.Generic.List<>).MakeGenericType(Type.MakeGenericMethodParameter(0)), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.Rendering.MeshUpdateFlags));
-					r_RSetUvsImpl_GT_Int32_Int32_List_d_T_p__Int32_Int32_MeshUpdateFlags.SetBelong(this.instance);
+					r_SetUvsImpl_GT_Int32_Int32_List_d_T_p__Int32_Int32_MeshUpdateFlags = new(this, "SetUvsImpl", 1, typeof(System.Int32), typeof(System.Int32), typeof(System.Collections.Generic.List<>).MakeGenericType(Type.MakeGenericMethodParameter(0)), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.Rendering.MeshUpdateFlags));
+					r_SetUvsImpl_GT_Int32_Int32_List_d_T_p__Int32_Int32_MeshUpdateFlags.SetBelong(this.instance);
 				}
-				return r_RSetUvsImpl_GT_Int32_Int32_List_d_T_p__Int32_Int32_MeshUpdateFlags;
+				return r_SetUvsImpl_GT_Int32_Int32_List_d_T_p__Int32_Int32_MeshUpdateFlags;
 			}
 		}
 
 		/// <summary>
 		/// Void SetUVs(Int32, System.Collections.Generic.List`1[UnityEngine.Vector2])
 		/// </summary>
-		protected RMethod r_RSetUVs_Int32_List_d_Vector2_p_;
+		protected RMethod r_SetUVs_Int32_List_d_Vector2_p_;
 		public virtual RMethod RSetUVs_Int32_List_d_Vector2_p_
 		{
 			get
 			{
-				if(r_RSetUVs_Int32_List_d_Vector2_p_ == null)
+				if(r_SetUVs_Int32_List_d_Vector2_p_ == null)
 				{
-					r_RSetUVs_Int32_List_d_Vector2_p_ = new(this, "SetUVs", 0, typeof(System.Int32), typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(UnityEngine.Vector2)));
-					r_RSetUVs_Int32_List_d_Vector2_p_.SetBelong(this.instance);
+					r_SetUVs_Int32_List_d_Vector2_p_ = new(this, "SetUVs", 0, typeof(System.Int32), typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(UnityEngine.Vector2)));
+					r_SetUVs_Int32_List_d_Vector2_p_.SetBelong(this.instance);
 				}
-				return r_RSetUVs_Int32_List_d_Vector2_p_;
+				return r_SetUVs_Int32_List_d_Vector2_p_;
 			}
 		}
 
 		/// <summary>
 		/// Void SetUVs(Int32, System.Collections.Generic.List`1[UnityEngine.Vector3])
 		/// </summary>
-		protected RMethod r_RSetUVs_Int32_List_d_Vector3_p_;
+		protected RMethod r_SetUVs_Int32_List_d_Vector3_p_;
 		public virtual RMethod RSetUVs_Int32_List_d_Vector3_p_
 		{
 			get
 			{
-				if(r_RSetUVs_Int32_List_d_Vector3_p_ == null)
+				if(r_SetUVs_Int32_List_d_Vector3_p_ == null)
 				{
-					r_RSetUVs_Int32_List_d_Vector3_p_ = new(this, "SetUVs", 0, typeof(System.Int32), typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(UnityEngine.Vector3)));
-					r_RSetUVs_Int32_List_d_Vector3_p_.SetBelong(this.instance);
+					r_SetUVs_Int32_List_d_Vector3_p_ = new(this, "SetUVs", 0, typeof(System.Int32), typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(UnityEngine.Vector3)));
+					r_SetUVs_Int32_List_d_Vector3_p_.SetBelong(this.instance);
 				}
-				return r_RSetUVs_Int32_List_d_Vector3_p_;
+				return r_SetUVs_Int32_List_d_Vector3_p_;
 			}
 		}
 
 		/// <summary>
 		/// Void SetUVs(Int32, System.Collections.Generic.List`1[UnityEngine.Vector4])
 		/// </summary>
-		protected RMethod r_RSetUVs_Int32_List_d_Vector4_p_;
+		protected RMethod r_SetUVs_Int32_List_d_Vector4_p_;
 		public virtual RMethod RSetUVs_Int32_List_d_Vector4_p_
 		{
 			get
 			{
-				if(r_RSetUVs_Int32_List_d_Vector4_p_ == null)
+				if(r_SetUVs_Int32_List_d_Vector4_p_ == null)
 				{
-					r_RSetUVs_Int32_List_d_Vector4_p_ = new(this, "SetUVs", 0, typeof(System.Int32), typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(UnityEngine.Vector4)));
-					r_RSetUVs_Int32_List_d_Vector4_p_.SetBelong(this.instance);
+					r_SetUVs_Int32_List_d_Vector4_p_ = new(this, "SetUVs", 0, typeof(System.Int32), typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(UnityEngine.Vector4)));
+					r_SetUVs_Int32_List_d_Vector4_p_.SetBelong(this.instance);
 				}
-				return r_RSetUVs_Int32_List_d_Vector4_p_;
+				return r_SetUVs_Int32_List_d_Vector4_p_;
 			}
 		}
 
 		/// <summary>
 		/// Void SetUVs(Int32, System.Collections.Generic.List`1[UnityEngine.Vector2], Int32, Int32)
 		/// </summary>
-		protected RMethod r_RSetUVs_Int32_List_d_Vector2_p__Int32_Int32;
+		protected RMethod r_SetUVs_Int32_List_d_Vector2_p__Int32_Int32;
 		public virtual RMethod RSetUVs_Int32_List_d_Vector2_p__Int32_Int32
 		{
 			get
 			{
-				if(r_RSetUVs_Int32_List_d_Vector2_p__Int32_Int32 == null)
+				if(r_SetUVs_Int32_List_d_Vector2_p__Int32_Int32 == null)
 				{
-					r_RSetUVs_Int32_List_d_Vector2_p__Int32_Int32 = new(this, "SetUVs", 0, typeof(System.Int32), typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(UnityEngine.Vector2)), typeof(System.Int32), typeof(System.Int32));
-					r_RSetUVs_Int32_List_d_Vector2_p__Int32_Int32.SetBelong(this.instance);
+					r_SetUVs_Int32_List_d_Vector2_p__Int32_Int32 = new(this, "SetUVs", 0, typeof(System.Int32), typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(UnityEngine.Vector2)), typeof(System.Int32), typeof(System.Int32));
+					r_SetUVs_Int32_List_d_Vector2_p__Int32_Int32.SetBelong(this.instance);
 				}
-				return r_RSetUVs_Int32_List_d_Vector2_p__Int32_Int32;
+				return r_SetUVs_Int32_List_d_Vector2_p__Int32_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Void SetUVs(Int32, System.Collections.Generic.List`1[UnityEngine.Vector2], Int32, Int32, UnityEngine.Rendering.MeshUpdateFlags)
 		/// </summary>
-		protected RMethod r_RSetUVs_Int32_List_d_Vector2_p__Int32_Int32_MeshUpdateFlags;
+		protected RMethod r_SetUVs_Int32_List_d_Vector2_p__Int32_Int32_MeshUpdateFlags;
 		public virtual RMethod RSetUVs_Int32_List_d_Vector2_p__Int32_Int32_MeshUpdateFlags
 		{
 			get
 			{
-				if(r_RSetUVs_Int32_List_d_Vector2_p__Int32_Int32_MeshUpdateFlags == null)
+				if(r_SetUVs_Int32_List_d_Vector2_p__Int32_Int32_MeshUpdateFlags == null)
 				{
-					r_RSetUVs_Int32_List_d_Vector2_p__Int32_Int32_MeshUpdateFlags = new(this, "SetUVs", 0, typeof(System.Int32), typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(UnityEngine.Vector2)), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.Rendering.MeshUpdateFlags));
-					r_RSetUVs_Int32_List_d_Vector2_p__Int32_Int32_MeshUpdateFlags.SetBelong(this.instance);
+					r_SetUVs_Int32_List_d_Vector2_p__Int32_Int32_MeshUpdateFlags = new(this, "SetUVs", 0, typeof(System.Int32), typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(UnityEngine.Vector2)), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.Rendering.MeshUpdateFlags));
+					r_SetUVs_Int32_List_d_Vector2_p__Int32_Int32_MeshUpdateFlags.SetBelong(this.instance);
 				}
-				return r_RSetUVs_Int32_List_d_Vector2_p__Int32_Int32_MeshUpdateFlags;
+				return r_SetUVs_Int32_List_d_Vector2_p__Int32_Int32_MeshUpdateFlags;
 			}
 		}
 
 		/// <summary>
 		/// Void SetUVs(Int32, System.Collections.Generic.List`1[UnityEngine.Vector3], Int32, Int32)
 		/// </summary>
-		protected RMethod r_RSetUVs_Int32_List_d_Vector3_p__Int32_Int32;
+		protected RMethod r_SetUVs_Int32_List_d_Vector3_p__Int32_Int32;
 		public virtual RMethod RSetUVs_Int32_List_d_Vector3_p__Int32_Int32
 		{
 			get
 			{
-				if(r_RSetUVs_Int32_List_d_Vector3_p__Int32_Int32 == null)
+				if(r_SetUVs_Int32_List_d_Vector3_p__Int32_Int32 == null)
 				{
-					r_RSetUVs_Int32_List_d_Vector3_p__Int32_Int32 = new(this, "SetUVs", 0, typeof(System.Int32), typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(UnityEngine.Vector3)), typeof(System.Int32), typeof(System.Int32));
-					r_RSetUVs_Int32_List_d_Vector3_p__Int32_Int32.SetBelong(this.instance);
+					r_SetUVs_Int32_List_d_Vector3_p__Int32_Int32 = new(this, "SetUVs", 0, typeof(System.Int32), typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(UnityEngine.Vector3)), typeof(System.Int32), typeof(System.Int32));
+					r_SetUVs_Int32_List_d_Vector3_p__Int32_Int32.SetBelong(this.instance);
 				}
-				return r_RSetUVs_Int32_List_d_Vector3_p__Int32_Int32;
+				return r_SetUVs_Int32_List_d_Vector3_p__Int32_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Void SetUVs(Int32, System.Collections.Generic.List`1[UnityEngine.Vector3], Int32, Int32, UnityEngine.Rendering.MeshUpdateFlags)
 		/// </summary>
-		protected RMethod r_RSetUVs_Int32_List_d_Vector3_p__Int32_Int32_MeshUpdateFlags;
+		protected RMethod r_SetUVs_Int32_List_d_Vector3_p__Int32_Int32_MeshUpdateFlags;
 		public virtual RMethod RSetUVs_Int32_List_d_Vector3_p__Int32_Int32_MeshUpdateFlags
 		{
 			get
 			{
-				if(r_RSetUVs_Int32_List_d_Vector3_p__Int32_Int32_MeshUpdateFlags == null)
+				if(r_SetUVs_Int32_List_d_Vector3_p__Int32_Int32_MeshUpdateFlags == null)
 				{
-					r_RSetUVs_Int32_List_d_Vector3_p__Int32_Int32_MeshUpdateFlags = new(this, "SetUVs", 0, typeof(System.Int32), typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(UnityEngine.Vector3)), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.Rendering.MeshUpdateFlags));
-					r_RSetUVs_Int32_List_d_Vector3_p__Int32_Int32_MeshUpdateFlags.SetBelong(this.instance);
+					r_SetUVs_Int32_List_d_Vector3_p__Int32_Int32_MeshUpdateFlags = new(this, "SetUVs", 0, typeof(System.Int32), typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(UnityEngine.Vector3)), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.Rendering.MeshUpdateFlags));
+					r_SetUVs_Int32_List_d_Vector3_p__Int32_Int32_MeshUpdateFlags.SetBelong(this.instance);
 				}
-				return r_RSetUVs_Int32_List_d_Vector3_p__Int32_Int32_MeshUpdateFlags;
+				return r_SetUVs_Int32_List_d_Vector3_p__Int32_Int32_MeshUpdateFlags;
 			}
 		}
 
 		/// <summary>
 		/// Void SetUVs(Int32, System.Collections.Generic.List`1[UnityEngine.Vector4], Int32, Int32)
 		/// </summary>
-		protected RMethod r_RSetUVs_Int32_List_d_Vector4_p__Int32_Int32;
+		protected RMethod r_SetUVs_Int32_List_d_Vector4_p__Int32_Int32;
 		public virtual RMethod RSetUVs_Int32_List_d_Vector4_p__Int32_Int32
 		{
 			get
 			{
-				if(r_RSetUVs_Int32_List_d_Vector4_p__Int32_Int32 == null)
+				if(r_SetUVs_Int32_List_d_Vector4_p__Int32_Int32 == null)
 				{
-					r_RSetUVs_Int32_List_d_Vector4_p__Int32_Int32 = new(this, "SetUVs", 0, typeof(System.Int32), typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(UnityEngine.Vector4)), typeof(System.Int32), typeof(System.Int32));
-					r_RSetUVs_Int32_List_d_Vector4_p__Int32_Int32.SetBelong(this.instance);
+					r_SetUVs_Int32_List_d_Vector4_p__Int32_Int32 = new(this, "SetUVs", 0, typeof(System.Int32), typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(UnityEngine.Vector4)), typeof(System.Int32), typeof(System.Int32));
+					r_SetUVs_Int32_List_d_Vector4_p__Int32_Int32.SetBelong(this.instance);
 				}
-				return r_RSetUVs_Int32_List_d_Vector4_p__Int32_Int32;
+				return r_SetUVs_Int32_List_d_Vector4_p__Int32_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Void SetUVs(Int32, System.Collections.Generic.List`1[UnityEngine.Vector4], Int32, Int32, UnityEngine.Rendering.MeshUpdateFlags)
 		/// </summary>
-		protected RMethod r_RSetUVs_Int32_List_d_Vector4_p__Int32_Int32_MeshUpdateFlags;
+		protected RMethod r_SetUVs_Int32_List_d_Vector4_p__Int32_Int32_MeshUpdateFlags;
 		public virtual RMethod RSetUVs_Int32_List_d_Vector4_p__Int32_Int32_MeshUpdateFlags
 		{
 			get
 			{
-				if(r_RSetUVs_Int32_List_d_Vector4_p__Int32_Int32_MeshUpdateFlags == null)
+				if(r_SetUVs_Int32_List_d_Vector4_p__Int32_Int32_MeshUpdateFlags == null)
 				{
-					r_RSetUVs_Int32_List_d_Vector4_p__Int32_Int32_MeshUpdateFlags = new(this, "SetUVs", 0, typeof(System.Int32), typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(UnityEngine.Vector4)), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.Rendering.MeshUpdateFlags));
-					r_RSetUVs_Int32_List_d_Vector4_p__Int32_Int32_MeshUpdateFlags.SetBelong(this.instance);
+					r_SetUVs_Int32_List_d_Vector4_p__Int32_Int32_MeshUpdateFlags = new(this, "SetUVs", 0, typeof(System.Int32), typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(UnityEngine.Vector4)), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.Rendering.MeshUpdateFlags));
+					r_SetUVs_Int32_List_d_Vector4_p__Int32_Int32_MeshUpdateFlags.SetBelong(this.instance);
 				}
-				return r_RSetUVs_Int32_List_d_Vector4_p__Int32_Int32_MeshUpdateFlags;
+				return r_SetUVs_Int32_List_d_Vector4_p__Int32_Int32_MeshUpdateFlags;
 			}
 		}
 
 		/// <summary>
 		/// Void SetUvsImpl(Int32, Int32, System.Array, Int32, Int32, UnityEngine.Rendering.MeshUpdateFlags)
 		/// </summary>
-		protected RMethod r_RSetUvsImpl_Int32_Int32_Array_Int32_Int32_MeshUpdateFlags;
+		protected RMethod r_SetUvsImpl_Int32_Int32_Array_Int32_Int32_MeshUpdateFlags;
 		public virtual RMethod RSetUvsImpl_Int32_Int32_Array_Int32_Int32_MeshUpdateFlags
 		{
 			get
 			{
-				if(r_RSetUvsImpl_Int32_Int32_Array_Int32_Int32_MeshUpdateFlags == null)
+				if(r_SetUvsImpl_Int32_Int32_Array_Int32_Int32_MeshUpdateFlags == null)
 				{
-					r_RSetUvsImpl_Int32_Int32_Array_Int32_Int32_MeshUpdateFlags = new(this, "SetUvsImpl", 0, typeof(System.Int32), typeof(System.Int32), typeof(System.Array), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.Rendering.MeshUpdateFlags));
-					r_RSetUvsImpl_Int32_Int32_Array_Int32_Int32_MeshUpdateFlags.SetBelong(this.instance);
+					r_SetUvsImpl_Int32_Int32_Array_Int32_Int32_MeshUpdateFlags = new(this, "SetUvsImpl", 0, typeof(System.Int32), typeof(System.Int32), typeof(System.Array), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.Rendering.MeshUpdateFlags));
+					r_SetUvsImpl_Int32_Int32_Array_Int32_Int32_MeshUpdateFlags.SetBelong(this.instance);
 				}
-				return r_RSetUvsImpl_Int32_Int32_Array_Int32_Int32_MeshUpdateFlags;
+				return r_SetUvsImpl_Int32_Int32_Array_Int32_Int32_MeshUpdateFlags;
 			}
 		}
 
 		/// <summary>
 		/// Void SetUVs(Int32, UnityEngine.Vector2[])
 		/// </summary>
-		protected RMethod r_RSetUVs_Int32_Vector2Array;
+		protected RMethod r_SetUVs_Int32_Vector2Array;
 		public virtual RMethod RSetUVs_Int32_Vector2Array
 		{
 			get
 			{
-				if(r_RSetUVs_Int32_Vector2Array == null)
+				if(r_SetUVs_Int32_Vector2Array == null)
 				{
-					r_RSetUVs_Int32_Vector2Array = new(this, "SetUVs", 0, typeof(System.Int32), typeof(UnityEngine.Vector2).MakeArrayType());
-					r_RSetUVs_Int32_Vector2Array.SetBelong(this.instance);
+					r_SetUVs_Int32_Vector2Array = new(this, "SetUVs", 0, typeof(System.Int32), typeof(UnityEngine.Vector2).MakeArrayType());
+					r_SetUVs_Int32_Vector2Array.SetBelong(this.instance);
 				}
-				return r_RSetUVs_Int32_Vector2Array;
+				return r_SetUVs_Int32_Vector2Array;
 			}
 		}
 
 		/// <summary>
 		/// Void SetUVs(Int32, UnityEngine.Vector3[])
 		/// </summary>
-		protected RMethod r_RSetUVs_Int32_Vector3Array;
+		protected RMethod r_SetUVs_Int32_Vector3Array;
 		public virtual RMethod RSetUVs_Int32_Vector3Array
 		{
 			get
 			{
-				if(r_RSetUVs_Int32_Vector3Array == null)
+				if(r_SetUVs_Int32_Vector3Array == null)
 				{
-					r_RSetUVs_Int32_Vector3Array = new(this, "SetUVs", 0, typeof(System.Int32), typeof(UnityEngine.Vector3).MakeArrayType());
-					r_RSetUVs_Int32_Vector3Array.SetBelong(this.instance);
+					r_SetUVs_Int32_Vector3Array = new(this, "SetUVs", 0, typeof(System.Int32), typeof(UnityEngine.Vector3).MakeArrayType());
+					r_SetUVs_Int32_Vector3Array.SetBelong(this.instance);
 				}
-				return r_RSetUVs_Int32_Vector3Array;
+				return r_SetUVs_Int32_Vector3Array;
 			}
 		}
 
 		/// <summary>
 		/// Void SetUVs(Int32, UnityEngine.Vector4[])
 		/// </summary>
-		protected RMethod r_RSetUVs_Int32_Vector4Array;
+		protected RMethod r_SetUVs_Int32_Vector4Array;
 		public virtual RMethod RSetUVs_Int32_Vector4Array
 		{
 			get
 			{
-				if(r_RSetUVs_Int32_Vector4Array == null)
+				if(r_SetUVs_Int32_Vector4Array == null)
 				{
-					r_RSetUVs_Int32_Vector4Array = new(this, "SetUVs", 0, typeof(System.Int32), typeof(UnityEngine.Vector4).MakeArrayType());
-					r_RSetUVs_Int32_Vector4Array.SetBelong(this.instance);
+					r_SetUVs_Int32_Vector4Array = new(this, "SetUVs", 0, typeof(System.Int32), typeof(UnityEngine.Vector4).MakeArrayType());
+					r_SetUVs_Int32_Vector4Array.SetBelong(this.instance);
 				}
-				return r_RSetUVs_Int32_Vector4Array;
+				return r_SetUVs_Int32_Vector4Array;
 			}
 		}
 
 		/// <summary>
 		/// Void SetUVs(Int32, UnityEngine.Vector2[], Int32, Int32)
 		/// </summary>
-		protected RMethod r_RSetUVs_Int32_Vector2Array_Int32_Int32;
+		protected RMethod r_SetUVs_Int32_Vector2Array_Int32_Int32;
 		public virtual RMethod RSetUVs_Int32_Vector2Array_Int32_Int32
 		{
 			get
 			{
-				if(r_RSetUVs_Int32_Vector2Array_Int32_Int32 == null)
+				if(r_SetUVs_Int32_Vector2Array_Int32_Int32 == null)
 				{
-					r_RSetUVs_Int32_Vector2Array_Int32_Int32 = new(this, "SetUVs", 0, typeof(System.Int32), typeof(UnityEngine.Vector2).MakeArrayType(), typeof(System.Int32), typeof(System.Int32));
-					r_RSetUVs_Int32_Vector2Array_Int32_Int32.SetBelong(this.instance);
+					r_SetUVs_Int32_Vector2Array_Int32_Int32 = new(this, "SetUVs", 0, typeof(System.Int32), typeof(UnityEngine.Vector2).MakeArrayType(), typeof(System.Int32), typeof(System.Int32));
+					r_SetUVs_Int32_Vector2Array_Int32_Int32.SetBelong(this.instance);
 				}
-				return r_RSetUVs_Int32_Vector2Array_Int32_Int32;
+				return r_SetUVs_Int32_Vector2Array_Int32_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Void SetUVs(Int32, UnityEngine.Vector2[], Int32, Int32, UnityEngine.Rendering.MeshUpdateFlags)
 		/// </summary>
-		protected RMethod r_RSetUVs_Int32_Vector2Array_Int32_Int32_MeshUpdateFlags;
+		protected RMethod r_SetUVs_Int32_Vector2Array_Int32_Int32_MeshUpdateFlags;
 		public virtual RMethod RSetUVs_Int32_Vector2Array_Int32_Int32_MeshUpdateFlags
 		{
 			get
 			{
-				if(r_RSetUVs_Int32_Vector2Array_Int32_Int32_MeshUpdateFlags == null)
+				if(r_SetUVs_Int32_Vector2Array_Int32_Int32_MeshUpdateFlags == null)
 				{
-					r_RSetUVs_Int32_Vector2Array_Int32_Int32_MeshUpdateFlags = new(this, "SetUVs", 0, typeof(System.Int32), typeof(UnityEngine.Vector2).MakeArrayType(), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.Rendering.MeshUpdateFlags));
-					r_RSetUVs_Int32_Vector2Array_Int32_Int32_MeshUpdateFlags.SetBelong(this.instance);
+					r_SetUVs_Int32_Vector2Array_Int32_Int32_MeshUpdateFlags = new(this, "SetUVs", 0, typeof(System.Int32), typeof(UnityEngine.Vector2).MakeArrayType(), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.Rendering.MeshUpdateFlags));
+					r_SetUVs_Int32_Vector2Array_Int32_Int32_MeshUpdateFlags.SetBelong(this.instance);
 				}
-				return r_RSetUVs_Int32_Vector2Array_Int32_Int32_MeshUpdateFlags;
+				return r_SetUVs_Int32_Vector2Array_Int32_Int32_MeshUpdateFlags;
 			}
 		}
 
 		/// <summary>
 		/// Void SetUVs(Int32, UnityEngine.Vector3[], Int32, Int32)
 		/// </summary>
-		protected RMethod r_RSetUVs_Int32_Vector3Array_Int32_Int32;
+		protected RMethod r_SetUVs_Int32_Vector3Array_Int32_Int32;
 		public virtual RMethod RSetUVs_Int32_Vector3Array_Int32_Int32
 		{
 			get
 			{
-				if(r_RSetUVs_Int32_Vector3Array_Int32_Int32 == null)
+				if(r_SetUVs_Int32_Vector3Array_Int32_Int32 == null)
 				{
-					r_RSetUVs_Int32_Vector3Array_Int32_Int32 = new(this, "SetUVs", 0, typeof(System.Int32), typeof(UnityEngine.Vector3).MakeArrayType(), typeof(System.Int32), typeof(System.Int32));
-					r_RSetUVs_Int32_Vector3Array_Int32_Int32.SetBelong(this.instance);
+					r_SetUVs_Int32_Vector3Array_Int32_Int32 = new(this, "SetUVs", 0, typeof(System.Int32), typeof(UnityEngine.Vector3).MakeArrayType(), typeof(System.Int32), typeof(System.Int32));
+					r_SetUVs_Int32_Vector3Array_Int32_Int32.SetBelong(this.instance);
 				}
-				return r_RSetUVs_Int32_Vector3Array_Int32_Int32;
+				return r_SetUVs_Int32_Vector3Array_Int32_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Void SetUVs(Int32, UnityEngine.Vector3[], Int32, Int32, UnityEngine.Rendering.MeshUpdateFlags)
 		/// </summary>
-		protected RMethod r_RSetUVs_Int32_Vector3Array_Int32_Int32_MeshUpdateFlags;
+		protected RMethod r_SetUVs_Int32_Vector3Array_Int32_Int32_MeshUpdateFlags;
 		public virtual RMethod RSetUVs_Int32_Vector3Array_Int32_Int32_MeshUpdateFlags
 		{
 			get
 			{
-				if(r_RSetUVs_Int32_Vector3Array_Int32_Int32_MeshUpdateFlags == null)
+				if(r_SetUVs_Int32_Vector3Array_Int32_Int32_MeshUpdateFlags == null)
 				{
-					r_RSetUVs_Int32_Vector3Array_Int32_Int32_MeshUpdateFlags = new(this, "SetUVs", 0, typeof(System.Int32), typeof(UnityEngine.Vector3).MakeArrayType(), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.Rendering.MeshUpdateFlags));
-					r_RSetUVs_Int32_Vector3Array_Int32_Int32_MeshUpdateFlags.SetBelong(this.instance);
+					r_SetUVs_Int32_Vector3Array_Int32_Int32_MeshUpdateFlags = new(this, "SetUVs", 0, typeof(System.Int32), typeof(UnityEngine.Vector3).MakeArrayType(), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.Rendering.MeshUpdateFlags));
+					r_SetUVs_Int32_Vector3Array_Int32_Int32_MeshUpdateFlags.SetBelong(this.instance);
 				}
-				return r_RSetUVs_Int32_Vector3Array_Int32_Int32_MeshUpdateFlags;
+				return r_SetUVs_Int32_Vector3Array_Int32_Int32_MeshUpdateFlags;
 			}
 		}
 
 		/// <summary>
 		/// Void SetUVs(Int32, UnityEngine.Vector4[], Int32, Int32)
 		/// </summary>
-		protected RMethod r_RSetUVs_Int32_Vector4Array_Int32_Int32;
+		protected RMethod r_SetUVs_Int32_Vector4Array_Int32_Int32;
 		public virtual RMethod RSetUVs_Int32_Vector4Array_Int32_Int32
 		{
 			get
 			{
-				if(r_RSetUVs_Int32_Vector4Array_Int32_Int32 == null)
+				if(r_SetUVs_Int32_Vector4Array_Int32_Int32 == null)
 				{
-					r_RSetUVs_Int32_Vector4Array_Int32_Int32 = new(this, "SetUVs", 0, typeof(System.Int32), typeof(UnityEngine.Vector4).MakeArrayType(), typeof(System.Int32), typeof(System.Int32));
-					r_RSetUVs_Int32_Vector4Array_Int32_Int32.SetBelong(this.instance);
+					r_SetUVs_Int32_Vector4Array_Int32_Int32 = new(this, "SetUVs", 0, typeof(System.Int32), typeof(UnityEngine.Vector4).MakeArrayType(), typeof(System.Int32), typeof(System.Int32));
+					r_SetUVs_Int32_Vector4Array_Int32_Int32.SetBelong(this.instance);
 				}
-				return r_RSetUVs_Int32_Vector4Array_Int32_Int32;
+				return r_SetUVs_Int32_Vector4Array_Int32_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Void SetUVs(Int32, UnityEngine.Vector4[], Int32, Int32, UnityEngine.Rendering.MeshUpdateFlags)
 		/// </summary>
-		protected RMethod r_RSetUVs_Int32_Vector4Array_Int32_Int32_MeshUpdateFlags;
+		protected RMethod r_SetUVs_Int32_Vector4Array_Int32_Int32_MeshUpdateFlags;
 		public virtual RMethod RSetUVs_Int32_Vector4Array_Int32_Int32_MeshUpdateFlags
 		{
 			get
 			{
-				if(r_RSetUVs_Int32_Vector4Array_Int32_Int32_MeshUpdateFlags == null)
+				if(r_SetUVs_Int32_Vector4Array_Int32_Int32_MeshUpdateFlags == null)
 				{
-					r_RSetUVs_Int32_Vector4Array_Int32_Int32_MeshUpdateFlags = new(this, "SetUVs", 0, typeof(System.Int32), typeof(UnityEngine.Vector4).MakeArrayType(), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.Rendering.MeshUpdateFlags));
-					r_RSetUVs_Int32_Vector4Array_Int32_Int32_MeshUpdateFlags.SetBelong(this.instance);
+					r_SetUVs_Int32_Vector4Array_Int32_Int32_MeshUpdateFlags = new(this, "SetUVs", 0, typeof(System.Int32), typeof(UnityEngine.Vector4).MakeArrayType(), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.Rendering.MeshUpdateFlags));
+					r_SetUVs_Int32_Vector4Array_Int32_Int32_MeshUpdateFlags.SetBelong(this.instance);
 				}
-				return r_RSetUVs_Int32_Vector4Array_Int32_Int32_MeshUpdateFlags;
+				return r_SetUVs_Int32_Vector4Array_Int32_Int32_MeshUpdateFlags;
 			}
 		}
 
 		/// <summary>
 		/// Void SetUVs[T](Int32, Unity.Collections.NativeArray`1[T])
 		/// </summary>
-		protected RMethod r_RSetUVs_GT_Int32_NativeArray_d_T_p_;
+		protected RMethod r_SetUVs_GT_Int32_NativeArray_d_T_p_;
 		public virtual RMethod RSetUVs_GT_Int32_NativeArray_d_T_p_
 		{
 			get
 			{
-				if(r_RSetUVs_GT_Int32_NativeArray_d_T_p_ == null)
+				if(r_SetUVs_GT_Int32_NativeArray_d_T_p_ == null)
 				{
-					r_RSetUVs_GT_Int32_NativeArray_d_T_p_ = new(this, "SetUVs", 1, typeof(System.Int32), typeof(Unity.Collections.NativeArray<>).MakeGenericType(Type.MakeGenericMethodParameter(0)));
-					r_RSetUVs_GT_Int32_NativeArray_d_T_p_.SetBelong(this.instance);
+					r_SetUVs_GT_Int32_NativeArray_d_T_p_ = new(this, "SetUVs", 1, typeof(System.Int32), typeof(Unity.Collections.NativeArray<>).MakeGenericType(Type.MakeGenericMethodParameter(0)));
+					r_SetUVs_GT_Int32_NativeArray_d_T_p_.SetBelong(this.instance);
 				}
-				return r_RSetUVs_GT_Int32_NativeArray_d_T_p_;
+				return r_SetUVs_GT_Int32_NativeArray_d_T_p_;
 			}
 		}
 
 		/// <summary>
 		/// Void SetUVs[T](Int32, Unity.Collections.NativeArray`1[T], Int32, Int32)
 		/// </summary>
-		protected RMethod r_RSetUVs_GT_Int32_NativeArray_d_T_p__Int32_Int32;
+		protected RMethod r_SetUVs_GT_Int32_NativeArray_d_T_p__Int32_Int32;
 		public virtual RMethod RSetUVs_GT_Int32_NativeArray_d_T_p__Int32_Int32
 		{
 			get
 			{
-				if(r_RSetUVs_GT_Int32_NativeArray_d_T_p__Int32_Int32 == null)
+				if(r_SetUVs_GT_Int32_NativeArray_d_T_p__Int32_Int32 == null)
 				{
-					r_RSetUVs_GT_Int32_NativeArray_d_T_p__Int32_Int32 = new(this, "SetUVs", 1, typeof(System.Int32), typeof(Unity.Collections.NativeArray<>).MakeGenericType(Type.MakeGenericMethodParameter(0)), typeof(System.Int32), typeof(System.Int32));
-					r_RSetUVs_GT_Int32_NativeArray_d_T_p__Int32_Int32.SetBelong(this.instance);
+					r_SetUVs_GT_Int32_NativeArray_d_T_p__Int32_Int32 = new(this, "SetUVs", 1, typeof(System.Int32), typeof(Unity.Collections.NativeArray<>).MakeGenericType(Type.MakeGenericMethodParameter(0)), typeof(System.Int32), typeof(System.Int32));
+					r_SetUVs_GT_Int32_NativeArray_d_T_p__Int32_Int32.SetBelong(this.instance);
 				}
-				return r_RSetUVs_GT_Int32_NativeArray_d_T_p__Int32_Int32;
+				return r_SetUVs_GT_Int32_NativeArray_d_T_p__Int32_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Void SetUVs[T](Int32, Unity.Collections.NativeArray`1[T], Int32, Int32, UnityEngine.Rendering.MeshUpdateFlags)
 		/// </summary>
-		protected RMethod r_RSetUVs_GT_Int32_NativeArray_d_T_p__Int32_Int32_MeshUpdateFlags;
+		protected RMethod r_SetUVs_GT_Int32_NativeArray_d_T_p__Int32_Int32_MeshUpdateFlags;
 		public virtual RMethod RSetUVs_GT_Int32_NativeArray_d_T_p__Int32_Int32_MeshUpdateFlags
 		{
 			get
 			{
-				if(r_RSetUVs_GT_Int32_NativeArray_d_T_p__Int32_Int32_MeshUpdateFlags == null)
+				if(r_SetUVs_GT_Int32_NativeArray_d_T_p__Int32_Int32_MeshUpdateFlags == null)
 				{
-					r_RSetUVs_GT_Int32_NativeArray_d_T_p__Int32_Int32_MeshUpdateFlags = new(this, "SetUVs", 1, typeof(System.Int32), typeof(Unity.Collections.NativeArray<>).MakeGenericType(Type.MakeGenericMethodParameter(0)), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.Rendering.MeshUpdateFlags));
-					r_RSetUVs_GT_Int32_NativeArray_d_T_p__Int32_Int32_MeshUpdateFlags.SetBelong(this.instance);
+					r_SetUVs_GT_Int32_NativeArray_d_T_p__Int32_Int32_MeshUpdateFlags = new(this, "SetUVs", 1, typeof(System.Int32), typeof(Unity.Collections.NativeArray<>).MakeGenericType(Type.MakeGenericMethodParameter(0)), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.Rendering.MeshUpdateFlags));
+					r_SetUVs_GT_Int32_NativeArray_d_T_p__Int32_Int32_MeshUpdateFlags.SetBelong(this.instance);
 				}
-				return r_RSetUVs_GT_Int32_NativeArray_d_T_p__Int32_Int32_MeshUpdateFlags;
+				return r_SetUVs_GT_Int32_NativeArray_d_T_p__Int32_Int32_MeshUpdateFlags;
 			}
 		}
 
 		/// <summary>
 		/// Void GetUVsImpl[T](Int32, System.Collections.Generic.List`1[T], Int32)
 		/// </summary>
-		protected RMethod r_RGetUVsImpl_GT_Int32_List_d_T_p__Int32;
+		protected RMethod r_GetUVsImpl_GT_Int32_List_d_T_p__Int32;
 		public virtual RMethod RGetUVsImpl_GT_Int32_List_d_T_p__Int32
 		{
 			get
 			{
-				if(r_RGetUVsImpl_GT_Int32_List_d_T_p__Int32 == null)
+				if(r_GetUVsImpl_GT_Int32_List_d_T_p__Int32 == null)
 				{
-					r_RGetUVsImpl_GT_Int32_List_d_T_p__Int32 = new(this, "GetUVsImpl", 1, typeof(System.Int32), typeof(System.Collections.Generic.List<>).MakeGenericType(Type.MakeGenericMethodParameter(0)), typeof(System.Int32));
-					r_RGetUVsImpl_GT_Int32_List_d_T_p__Int32.SetBelong(this.instance);
+					r_GetUVsImpl_GT_Int32_List_d_T_p__Int32 = new(this, "GetUVsImpl", 1, typeof(System.Int32), typeof(System.Collections.Generic.List<>).MakeGenericType(Type.MakeGenericMethodParameter(0)), typeof(System.Int32));
+					r_GetUVsImpl_GT_Int32_List_d_T_p__Int32.SetBelong(this.instance);
 				}
-				return r_RGetUVsImpl_GT_Int32_List_d_T_p__Int32;
+				return r_GetUVsImpl_GT_Int32_List_d_T_p__Int32;
 			}
 		}
 
 		/// <summary>
 		/// Void GetUVs(Int32, System.Collections.Generic.List`1[UnityEngine.Vector2])
 		/// </summary>
-		protected RMethod r_RGetUVs_Int32_List_d_Vector2_p_;
+		protected RMethod r_GetUVs_Int32_List_d_Vector2_p_;
 		public virtual RMethod RGetUVs_Int32_List_d_Vector2_p_
 		{
 			get
 			{
-				if(r_RGetUVs_Int32_List_d_Vector2_p_ == null)
+				if(r_GetUVs_Int32_List_d_Vector2_p_ == null)
 				{
-					r_RGetUVs_Int32_List_d_Vector2_p_ = new(this, "GetUVs", 0, typeof(System.Int32), typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(UnityEngine.Vector2)));
-					r_RGetUVs_Int32_List_d_Vector2_p_.SetBelong(this.instance);
+					r_GetUVs_Int32_List_d_Vector2_p_ = new(this, "GetUVs", 0, typeof(System.Int32), typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(UnityEngine.Vector2)));
+					r_GetUVs_Int32_List_d_Vector2_p_.SetBelong(this.instance);
 				}
-				return r_RGetUVs_Int32_List_d_Vector2_p_;
+				return r_GetUVs_Int32_List_d_Vector2_p_;
 			}
 		}
 
 		/// <summary>
 		/// Void GetUVs(Int32, System.Collections.Generic.List`1[UnityEngine.Vector3])
 		/// </summary>
-		protected RMethod r_RGetUVs_Int32_List_d_Vector3_p_;
+		protected RMethod r_GetUVs_Int32_List_d_Vector3_p_;
 		public virtual RMethod RGetUVs_Int32_List_d_Vector3_p_
 		{
 			get
 			{
-				if(r_RGetUVs_Int32_List_d_Vector3_p_ == null)
+				if(r_GetUVs_Int32_List_d_Vector3_p_ == null)
 				{
-					r_RGetUVs_Int32_List_d_Vector3_p_ = new(this, "GetUVs", 0, typeof(System.Int32), typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(UnityEngine.Vector3)));
-					r_RGetUVs_Int32_List_d_Vector3_p_.SetBelong(this.instance);
+					r_GetUVs_Int32_List_d_Vector3_p_ = new(this, "GetUVs", 0, typeof(System.Int32), typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(UnityEngine.Vector3)));
+					r_GetUVs_Int32_List_d_Vector3_p_.SetBelong(this.instance);
 				}
-				return r_RGetUVs_Int32_List_d_Vector3_p_;
+				return r_GetUVs_Int32_List_d_Vector3_p_;
 			}
 		}
 
 		/// <summary>
 		/// Void GetUVs(Int32, System.Collections.Generic.List`1[UnityEngine.Vector4])
 		/// </summary>
-		protected RMethod r_RGetUVs_Int32_List_d_Vector4_p_;
+		protected RMethod r_GetUVs_Int32_List_d_Vector4_p_;
 		public virtual RMethod RGetUVs_Int32_List_d_Vector4_p_
 		{
 			get
 			{
-				if(r_RGetUVs_Int32_List_d_Vector4_p_ == null)
+				if(r_GetUVs_Int32_List_d_Vector4_p_ == null)
 				{
-					r_RGetUVs_Int32_List_d_Vector4_p_ = new(this, "GetUVs", 0, typeof(System.Int32), typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(UnityEngine.Vector4)));
-					r_RGetUVs_Int32_List_d_Vector4_p_.SetBelong(this.instance);
+					r_GetUVs_Int32_List_d_Vector4_p_ = new(this, "GetUVs", 0, typeof(System.Int32), typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(UnityEngine.Vector4)));
+					r_GetUVs_Int32_List_d_Vector4_p_.SetBelong(this.instance);
 				}
-				return r_RGetUVs_Int32_List_d_Vector4_p_;
+				return r_GetUVs_Int32_List_d_Vector4_p_;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Rendering.VertexAttributeDescriptor[] GetVertexAttributes()
 		/// </summary>
-		protected RMethod r_RGetVertexAttributes;
+		protected RMethod r_GetVertexAttributes;
 		public virtual RMethod RGetVertexAttributes
 		{
 			get
 			{
-				if(r_RGetVertexAttributes == null)
+				if(r_GetVertexAttributes == null)
 				{
-					r_RGetVertexAttributes = new(this, "GetVertexAttributes", 0);
-					r_RGetVertexAttributes.SetBelong(this.instance);
+					r_GetVertexAttributes = new(this, "GetVertexAttributes", 0);
+					r_GetVertexAttributes.SetBelong(this.instance);
 				}
-				return r_RGetVertexAttributes;
+				return r_GetVertexAttributes;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetVertexAttributes(UnityEngine.Rendering.VertexAttributeDescriptor[])
 		/// </summary>
-		protected RMethod r_RGetVertexAttributes_VertexAttributeDescriptorArray;
+		protected RMethod r_GetVertexAttributes_VertexAttributeDescriptorArray;
 		public virtual RMethod RGetVertexAttributes_VertexAttributeDescriptorArray
 		{
 			get
 			{
-				if(r_RGetVertexAttributes_VertexAttributeDescriptorArray == null)
+				if(r_GetVertexAttributes_VertexAttributeDescriptorArray == null)
 				{
-					r_RGetVertexAttributes_VertexAttributeDescriptorArray = new(this, "GetVertexAttributes", 0, typeof(UnityEngine.Rendering.VertexAttributeDescriptor).MakeArrayType());
-					r_RGetVertexAttributes_VertexAttributeDescriptorArray.SetBelong(this.instance);
+					r_GetVertexAttributes_VertexAttributeDescriptorArray = new(this, "GetVertexAttributes", 0, typeof(UnityEngine.Rendering.VertexAttributeDescriptor).MakeArrayType());
+					r_GetVertexAttributes_VertexAttributeDescriptorArray.SetBelong(this.instance);
 				}
-				return r_RGetVertexAttributes_VertexAttributeDescriptorArray;
+				return r_GetVertexAttributes_VertexAttributeDescriptorArray;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetVertexAttributes(System.Collections.Generic.List`1[UnityEngine.Rendering.VertexAttributeDescriptor])
 		/// </summary>
-		protected RMethod r_RGetVertexAttributes_List_d_VertexAttributeDescriptor_p_;
+		protected RMethod r_GetVertexAttributes_List_d_VertexAttributeDescriptor_p_;
 		public virtual RMethod RGetVertexAttributes_List_d_VertexAttributeDescriptor_p_
 		{
 			get
 			{
-				if(r_RGetVertexAttributes_List_d_VertexAttributeDescriptor_p_ == null)
+				if(r_GetVertexAttributes_List_d_VertexAttributeDescriptor_p_ == null)
 				{
-					r_RGetVertexAttributes_List_d_VertexAttributeDescriptor_p_ = new(this, "GetVertexAttributes", 0, typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(UnityEngine.Rendering.VertexAttributeDescriptor)));
-					r_RGetVertexAttributes_List_d_VertexAttributeDescriptor_p_.SetBelong(this.instance);
+					r_GetVertexAttributes_List_d_VertexAttributeDescriptor_p_ = new(this, "GetVertexAttributes", 0, typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(UnityEngine.Rendering.VertexAttributeDescriptor)));
+					r_GetVertexAttributes_List_d_VertexAttributeDescriptor_p_.SetBelong(this.instance);
 				}
-				return r_RGetVertexAttributes_List_d_VertexAttributeDescriptor_p_;
+				return r_GetVertexAttributes_List_d_VertexAttributeDescriptor_p_;
 			}
 		}
 
 		/// <summary>
 		/// Void SetVertexBufferParams(Int32, UnityEngine.Rendering.VertexAttributeDescriptor[])
 		/// </summary>
-		protected RMethod r_RSetVertexBufferParams_Int32_VertexAttributeDescriptorArray;
+		protected RMethod r_SetVertexBufferParams_Int32_VertexAttributeDescriptorArray;
 		public virtual RMethod RSetVertexBufferParams_Int32_VertexAttributeDescriptorArray
 		{
 			get
 			{
-				if(r_RSetVertexBufferParams_Int32_VertexAttributeDescriptorArray == null)
+				if(r_SetVertexBufferParams_Int32_VertexAttributeDescriptorArray == null)
 				{
-					r_RSetVertexBufferParams_Int32_VertexAttributeDescriptorArray = new(this, "SetVertexBufferParams", 0, typeof(System.Int32), typeof(UnityEngine.Rendering.VertexAttributeDescriptor).MakeArrayType());
-					r_RSetVertexBufferParams_Int32_VertexAttributeDescriptorArray.SetBelong(this.instance);
+					r_SetVertexBufferParams_Int32_VertexAttributeDescriptorArray = new(this, "SetVertexBufferParams", 0, typeof(System.Int32), typeof(UnityEngine.Rendering.VertexAttributeDescriptor).MakeArrayType());
+					r_SetVertexBufferParams_Int32_VertexAttributeDescriptorArray.SetBelong(this.instance);
 				}
-				return r_RSetVertexBufferParams_Int32_VertexAttributeDescriptorArray;
+				return r_SetVertexBufferParams_Int32_VertexAttributeDescriptorArray;
 			}
 		}
 
 		/// <summary>
 		/// Void SetVertexBufferParams(Int32, Unity.Collections.NativeArray`1[UnityEngine.Rendering.VertexAttributeDescriptor])
 		/// </summary>
-		protected RMethod r_RSetVertexBufferParams_Int32_NativeArray_d_VertexAttributeDescriptor_p_;
+		protected RMethod r_SetVertexBufferParams_Int32_NativeArray_d_VertexAttributeDescriptor_p_;
 		public virtual RMethod RSetVertexBufferParams_Int32_NativeArray_d_VertexAttributeDescriptor_p_
 		{
 			get
 			{
-				if(r_RSetVertexBufferParams_Int32_NativeArray_d_VertexAttributeDescriptor_p_ == null)
+				if(r_SetVertexBufferParams_Int32_NativeArray_d_VertexAttributeDescriptor_p_ == null)
 				{
-					r_RSetVertexBufferParams_Int32_NativeArray_d_VertexAttributeDescriptor_p_ = new(this, "SetVertexBufferParams", 0, typeof(System.Int32), typeof(Unity.Collections.NativeArray<>).MakeGenericType(typeof(UnityEngine.Rendering.VertexAttributeDescriptor)));
-					r_RSetVertexBufferParams_Int32_NativeArray_d_VertexAttributeDescriptor_p_.SetBelong(this.instance);
+					r_SetVertexBufferParams_Int32_NativeArray_d_VertexAttributeDescriptor_p_ = new(this, "SetVertexBufferParams", 0, typeof(System.Int32), typeof(Unity.Collections.NativeArray<>).MakeGenericType(typeof(UnityEngine.Rendering.VertexAttributeDescriptor)));
+					r_SetVertexBufferParams_Int32_NativeArray_d_VertexAttributeDescriptor_p_.SetBelong(this.instance);
 				}
-				return r_RSetVertexBufferParams_Int32_NativeArray_d_VertexAttributeDescriptor_p_;
+				return r_SetVertexBufferParams_Int32_NativeArray_d_VertexAttributeDescriptor_p_;
 			}
 		}
 
 		/// <summary>
 		/// Void SetVertexBufferData[T](Unity.Collections.NativeArray`1[T], Int32, Int32, Int32, Int32, UnityEngine.Rendering.MeshUpdateFlags)
 		/// </summary>
-		protected RMethod r_RSetVertexBufferData_GT_NativeArray_d_T_p__Int32_Int32_Int32_Int32_MeshUpdateFlags;
+		protected RMethod r_SetVertexBufferData_GT_NativeArray_d_T_p__Int32_Int32_Int32_Int32_MeshUpdateFlags;
 		public virtual RMethod RSetVertexBufferData_GT_NativeArray_d_T_p__Int32_Int32_Int32_Int32_MeshUpdateFlags
 		{
 			get
 			{
-				if(r_RSetVertexBufferData_GT_NativeArray_d_T_p__Int32_Int32_Int32_Int32_MeshUpdateFlags == null)
+				if(r_SetVertexBufferData_GT_NativeArray_d_T_p__Int32_Int32_Int32_Int32_MeshUpdateFlags == null)
 				{
-					r_RSetVertexBufferData_GT_NativeArray_d_T_p__Int32_Int32_Int32_Int32_MeshUpdateFlags = new(this, "SetVertexBufferData", 1, typeof(Unity.Collections.NativeArray<>).MakeGenericType(Type.MakeGenericMethodParameter(0)), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.Rendering.MeshUpdateFlags));
-					r_RSetVertexBufferData_GT_NativeArray_d_T_p__Int32_Int32_Int32_Int32_MeshUpdateFlags.SetBelong(this.instance);
+					r_SetVertexBufferData_GT_NativeArray_d_T_p__Int32_Int32_Int32_Int32_MeshUpdateFlags = new(this, "SetVertexBufferData", 1, typeof(Unity.Collections.NativeArray<>).MakeGenericType(Type.MakeGenericMethodParameter(0)), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.Rendering.MeshUpdateFlags));
+					r_SetVertexBufferData_GT_NativeArray_d_T_p__Int32_Int32_Int32_Int32_MeshUpdateFlags.SetBelong(this.instance);
 				}
-				return r_RSetVertexBufferData_GT_NativeArray_d_T_p__Int32_Int32_Int32_Int32_MeshUpdateFlags;
+				return r_SetVertexBufferData_GT_NativeArray_d_T_p__Int32_Int32_Int32_Int32_MeshUpdateFlags;
 			}
 		}
 
 		/// <summary>
 		/// Void SetVertexBufferData[T](T[], Int32, Int32, Int32, Int32, UnityEngine.Rendering.MeshUpdateFlags)
 		/// </summary>
-		protected RMethod r_RSetVertexBufferData_GT_TArray_Int32_Int32_Int32_Int32_MeshUpdateFlags;
+		protected RMethod r_SetVertexBufferData_GT_TArray_Int32_Int32_Int32_Int32_MeshUpdateFlags;
 		public virtual RMethod RSetVertexBufferData_GT_TArray_Int32_Int32_Int32_Int32_MeshUpdateFlags
 		{
 			get
 			{
-				if(r_RSetVertexBufferData_GT_TArray_Int32_Int32_Int32_Int32_MeshUpdateFlags == null)
+				if(r_SetVertexBufferData_GT_TArray_Int32_Int32_Int32_Int32_MeshUpdateFlags == null)
 				{
-					r_RSetVertexBufferData_GT_TArray_Int32_Int32_Int32_Int32_MeshUpdateFlags = new(this, "SetVertexBufferData", 1, Type.MakeGenericMethodParameter(0).MakeArrayType(), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.Rendering.MeshUpdateFlags));
-					r_RSetVertexBufferData_GT_TArray_Int32_Int32_Int32_Int32_MeshUpdateFlags.SetBelong(this.instance);
+					r_SetVertexBufferData_GT_TArray_Int32_Int32_Int32_Int32_MeshUpdateFlags = new(this, "SetVertexBufferData", 1, Type.MakeGenericMethodParameter(0).MakeArrayType(), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.Rendering.MeshUpdateFlags));
+					r_SetVertexBufferData_GT_TArray_Int32_Int32_Int32_Int32_MeshUpdateFlags.SetBelong(this.instance);
 				}
-				return r_RSetVertexBufferData_GT_TArray_Int32_Int32_Int32_Int32_MeshUpdateFlags;
+				return r_SetVertexBufferData_GT_TArray_Int32_Int32_Int32_Int32_MeshUpdateFlags;
 			}
 		}
 
 		/// <summary>
 		/// Void SetVertexBufferData[T](System.Collections.Generic.List`1[T], Int32, Int32, Int32, Int32, UnityEngine.Rendering.MeshUpdateFlags)
 		/// </summary>
-		protected RMethod r_RSetVertexBufferData_GT_List_d_T_p__Int32_Int32_Int32_Int32_MeshUpdateFlags;
+		protected RMethod r_SetVertexBufferData_GT_List_d_T_p__Int32_Int32_Int32_Int32_MeshUpdateFlags;
 		public virtual RMethod RSetVertexBufferData_GT_List_d_T_p__Int32_Int32_Int32_Int32_MeshUpdateFlags
 		{
 			get
 			{
-				if(r_RSetVertexBufferData_GT_List_d_T_p__Int32_Int32_Int32_Int32_MeshUpdateFlags == null)
+				if(r_SetVertexBufferData_GT_List_d_T_p__Int32_Int32_Int32_Int32_MeshUpdateFlags == null)
 				{
-					r_RSetVertexBufferData_GT_List_d_T_p__Int32_Int32_Int32_Int32_MeshUpdateFlags = new(this, "SetVertexBufferData", 1, typeof(System.Collections.Generic.List<>).MakeGenericType(Type.MakeGenericMethodParameter(0)), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.Rendering.MeshUpdateFlags));
-					r_RSetVertexBufferData_GT_List_d_T_p__Int32_Int32_Int32_Int32_MeshUpdateFlags.SetBelong(this.instance);
+					r_SetVertexBufferData_GT_List_d_T_p__Int32_Int32_Int32_Int32_MeshUpdateFlags = new(this, "SetVertexBufferData", 1, typeof(System.Collections.Generic.List<>).MakeGenericType(Type.MakeGenericMethodParameter(0)), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.Rendering.MeshUpdateFlags));
+					r_SetVertexBufferData_GT_List_d_T_p__Int32_Int32_Int32_Int32_MeshUpdateFlags.SetBelong(this.instance);
 				}
-				return r_RSetVertexBufferData_GT_List_d_T_p__Int32_Int32_Int32_Int32_MeshUpdateFlags;
+				return r_SetVertexBufferData_GT_List_d_T_p__Int32_Int32_Int32_Int32_MeshUpdateFlags;
 			}
 		}
 
 		/// <summary>
 		/// MeshDataArray AcquireReadOnlyMeshData(UnityEngine.Mesh)
 		/// </summary>
-		protected static RMethod r_RAcquireReadOnlyMeshData_Mesh;
+		protected static RMethod r_AcquireReadOnlyMeshData_Mesh;
 		public static RMethod RAcquireReadOnlyMeshData_Mesh
 		{
 			get
 			{
-				if(r_RAcquireReadOnlyMeshData_Mesh == null)
+				if(r_AcquireReadOnlyMeshData_Mesh == null)
 				{
-					r_RAcquireReadOnlyMeshData_Mesh = new(typeof(UnityEngine.Mesh), "AcquireReadOnlyMeshData", 0, typeof(UnityEngine.Mesh));
-					r_RAcquireReadOnlyMeshData_Mesh.SetBelong(null);
+					r_AcquireReadOnlyMeshData_Mesh = new(typeof(UnityEngine.Mesh), "AcquireReadOnlyMeshData", 0, typeof(UnityEngine.Mesh));
+					r_AcquireReadOnlyMeshData_Mesh.SetBelong(null);
 				}
-				return r_RAcquireReadOnlyMeshData_Mesh;
+				return r_AcquireReadOnlyMeshData_Mesh;
 			}
 		}
 
 		/// <summary>
 		/// MeshDataArray AcquireReadOnlyMeshData(UnityEngine.Mesh[])
 		/// </summary>
-		protected static RMethod r_RAcquireReadOnlyMeshData_MeshArray;
+		protected static RMethod r_AcquireReadOnlyMeshData_MeshArray;
 		public static RMethod RAcquireReadOnlyMeshData_MeshArray
 		{
 			get
 			{
-				if(r_RAcquireReadOnlyMeshData_MeshArray == null)
+				if(r_AcquireReadOnlyMeshData_MeshArray == null)
 				{
-					r_RAcquireReadOnlyMeshData_MeshArray = new(typeof(UnityEngine.Mesh), "AcquireReadOnlyMeshData", 0, typeof(UnityEngine.Mesh).MakeArrayType());
-					r_RAcquireReadOnlyMeshData_MeshArray.SetBelong(null);
+					r_AcquireReadOnlyMeshData_MeshArray = new(typeof(UnityEngine.Mesh), "AcquireReadOnlyMeshData", 0, typeof(UnityEngine.Mesh).MakeArrayType());
+					r_AcquireReadOnlyMeshData_MeshArray.SetBelong(null);
 				}
-				return r_RAcquireReadOnlyMeshData_MeshArray;
+				return r_AcquireReadOnlyMeshData_MeshArray;
 			}
 		}
 
 		/// <summary>
 		/// MeshDataArray AcquireReadOnlyMeshData(System.Collections.Generic.List`1[UnityEngine.Mesh])
 		/// </summary>
-		protected static RMethod r_RAcquireReadOnlyMeshData_List_d_Mesh_p_;
+		protected static RMethod r_AcquireReadOnlyMeshData_List_d_Mesh_p_;
 		public static RMethod RAcquireReadOnlyMeshData_List_d_Mesh_p_
 		{
 			get
 			{
-				if(r_RAcquireReadOnlyMeshData_List_d_Mesh_p_ == null)
+				if(r_AcquireReadOnlyMeshData_List_d_Mesh_p_ == null)
 				{
-					r_RAcquireReadOnlyMeshData_List_d_Mesh_p_ = new(typeof(UnityEngine.Mesh), "AcquireReadOnlyMeshData", 0, typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(UnityEngine.Mesh)));
-					r_RAcquireReadOnlyMeshData_List_d_Mesh_p_.SetBelong(null);
+					r_AcquireReadOnlyMeshData_List_d_Mesh_p_ = new(typeof(UnityEngine.Mesh), "AcquireReadOnlyMeshData", 0, typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(UnityEngine.Mesh)));
+					r_AcquireReadOnlyMeshData_List_d_Mesh_p_.SetBelong(null);
 				}
-				return r_RAcquireReadOnlyMeshData_List_d_Mesh_p_;
+				return r_AcquireReadOnlyMeshData_List_d_Mesh_p_;
 			}
 		}
 
 		/// <summary>
 		/// MeshDataArray AllocateWritableMeshData(Int32)
 		/// </summary>
-		protected static RMethod r_RAllocateWritableMeshData_Int32;
+		protected static RMethod r_AllocateWritableMeshData_Int32;
 		public static RMethod RAllocateWritableMeshData_Int32
 		{
 			get
 			{
-				if(r_RAllocateWritableMeshData_Int32 == null)
+				if(r_AllocateWritableMeshData_Int32 == null)
 				{
-					r_RAllocateWritableMeshData_Int32 = new(typeof(UnityEngine.Mesh), "AllocateWritableMeshData", 0, typeof(System.Int32));
-					r_RAllocateWritableMeshData_Int32.SetBelong(null);
+					r_AllocateWritableMeshData_Int32 = new(typeof(UnityEngine.Mesh), "AllocateWritableMeshData", 0, typeof(System.Int32));
+					r_AllocateWritableMeshData_Int32.SetBelong(null);
 				}
-				return r_RAllocateWritableMeshData_Int32;
+				return r_AllocateWritableMeshData_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Void ApplyAndDisposeWritableMeshData(MeshDataArray, UnityEngine.Mesh, UnityEngine.Rendering.MeshUpdateFlags)
 		/// </summary>
-		protected static RMethod r_RApplyAndDisposeWritableMeshData_MeshDataArray_Mesh_MeshUpdateFlags;
+		protected static RMethod r_ApplyAndDisposeWritableMeshData_MeshDataArray_Mesh_MeshUpdateFlags;
 		public static RMethod RApplyAndDisposeWritableMeshData_MeshDataArray_Mesh_MeshUpdateFlags
 		{
 			get
 			{
-				if(r_RApplyAndDisposeWritableMeshData_MeshDataArray_Mesh_MeshUpdateFlags == null)
+				if(r_ApplyAndDisposeWritableMeshData_MeshDataArray_Mesh_MeshUpdateFlags == null)
 				{
-					r_RApplyAndDisposeWritableMeshData_MeshDataArray_Mesh_MeshUpdateFlags = new(typeof(UnityEngine.Mesh), "ApplyAndDisposeWritableMeshData", 0,  ReleactionUtils.GetType("UnityEngine.Mesh+MeshDataArray"), typeof(UnityEngine.Mesh), typeof(UnityEngine.Rendering.MeshUpdateFlags));
-					r_RApplyAndDisposeWritableMeshData_MeshDataArray_Mesh_MeshUpdateFlags.SetBelong(null);
+					r_ApplyAndDisposeWritableMeshData_MeshDataArray_Mesh_MeshUpdateFlags = new(typeof(UnityEngine.Mesh), "ApplyAndDisposeWritableMeshData", 0,  ReleactionUtils.GetType("UnityEngine.Mesh+MeshDataArray"), typeof(UnityEngine.Mesh), typeof(UnityEngine.Rendering.MeshUpdateFlags));
+					r_ApplyAndDisposeWritableMeshData_MeshDataArray_Mesh_MeshUpdateFlags.SetBelong(null);
 				}
-				return r_RApplyAndDisposeWritableMeshData_MeshDataArray_Mesh_MeshUpdateFlags;
+				return r_ApplyAndDisposeWritableMeshData_MeshDataArray_Mesh_MeshUpdateFlags;
 			}
 		}
 
 		/// <summary>
 		/// Void ApplyAndDisposeWritableMeshData(MeshDataArray, UnityEngine.Mesh[], UnityEngine.Rendering.MeshUpdateFlags)
 		/// </summary>
-		protected static RMethod r_RApplyAndDisposeWritableMeshData_MeshDataArray_MeshArray_MeshUpdateFlags;
+		protected static RMethod r_ApplyAndDisposeWritableMeshData_MeshDataArray_MeshArray_MeshUpdateFlags;
 		public static RMethod RApplyAndDisposeWritableMeshData_MeshDataArray_MeshArray_MeshUpdateFlags
 		{
 			get
 			{
-				if(r_RApplyAndDisposeWritableMeshData_MeshDataArray_MeshArray_MeshUpdateFlags == null)
+				if(r_ApplyAndDisposeWritableMeshData_MeshDataArray_MeshArray_MeshUpdateFlags == null)
 				{
-					r_RApplyAndDisposeWritableMeshData_MeshDataArray_MeshArray_MeshUpdateFlags = new(typeof(UnityEngine.Mesh), "ApplyAndDisposeWritableMeshData", 0,  ReleactionUtils.GetType("UnityEngine.Mesh+MeshDataArray"), typeof(UnityEngine.Mesh).MakeArrayType(), typeof(UnityEngine.Rendering.MeshUpdateFlags));
-					r_RApplyAndDisposeWritableMeshData_MeshDataArray_MeshArray_MeshUpdateFlags.SetBelong(null);
+					r_ApplyAndDisposeWritableMeshData_MeshDataArray_MeshArray_MeshUpdateFlags = new(typeof(UnityEngine.Mesh), "ApplyAndDisposeWritableMeshData", 0,  ReleactionUtils.GetType("UnityEngine.Mesh+MeshDataArray"), typeof(UnityEngine.Mesh).MakeArrayType(), typeof(UnityEngine.Rendering.MeshUpdateFlags));
+					r_ApplyAndDisposeWritableMeshData_MeshDataArray_MeshArray_MeshUpdateFlags.SetBelong(null);
 				}
-				return r_RApplyAndDisposeWritableMeshData_MeshDataArray_MeshArray_MeshUpdateFlags;
+				return r_ApplyAndDisposeWritableMeshData_MeshDataArray_MeshArray_MeshUpdateFlags;
 			}
 		}
 
 		/// <summary>
 		/// Void ApplyAndDisposeWritableMeshData(MeshDataArray, System.Collections.Generic.List`1[UnityEngine.Mesh], UnityEngine.Rendering.MeshUpdateFlags)
 		/// </summary>
-		protected static RMethod r_RApplyAndDisposeWritableMeshData_MeshDataArray_List_d_Mesh_p__MeshUpdateFlags;
+		protected static RMethod r_ApplyAndDisposeWritableMeshData_MeshDataArray_List_d_Mesh_p__MeshUpdateFlags;
 		public static RMethod RApplyAndDisposeWritableMeshData_MeshDataArray_List_d_Mesh_p__MeshUpdateFlags
 		{
 			get
 			{
-				if(r_RApplyAndDisposeWritableMeshData_MeshDataArray_List_d_Mesh_p__MeshUpdateFlags == null)
+				if(r_ApplyAndDisposeWritableMeshData_MeshDataArray_List_d_Mesh_p__MeshUpdateFlags == null)
 				{
-					r_RApplyAndDisposeWritableMeshData_MeshDataArray_List_d_Mesh_p__MeshUpdateFlags = new(typeof(UnityEngine.Mesh), "ApplyAndDisposeWritableMeshData", 0,  ReleactionUtils.GetType("UnityEngine.Mesh+MeshDataArray"), typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(UnityEngine.Mesh)), typeof(UnityEngine.Rendering.MeshUpdateFlags));
-					r_RApplyAndDisposeWritableMeshData_MeshDataArray_List_d_Mesh_p__MeshUpdateFlags.SetBelong(null);
+					r_ApplyAndDisposeWritableMeshData_MeshDataArray_List_d_Mesh_p__MeshUpdateFlags = new(typeof(UnityEngine.Mesh), "ApplyAndDisposeWritableMeshData", 0,  ReleactionUtils.GetType("UnityEngine.Mesh+MeshDataArray"), typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(UnityEngine.Mesh)), typeof(UnityEngine.Rendering.MeshUpdateFlags));
+					r_ApplyAndDisposeWritableMeshData_MeshDataArray_List_d_Mesh_p__MeshUpdateFlags.SetBelong(null);
 				}
-				return r_RApplyAndDisposeWritableMeshData_MeshDataArray_List_d_Mesh_p__MeshUpdateFlags;
+				return r_ApplyAndDisposeWritableMeshData_MeshDataArray_List_d_Mesh_p__MeshUpdateFlags;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.GraphicsBuffer GetVertexBuffer(Int32)
 		/// </summary>
-		protected RMethod r_RGetVertexBuffer_Int32;
+		protected RMethod r_GetVertexBuffer_Int32;
 		public virtual RMethod RGetVertexBuffer_Int32
 		{
 			get
 			{
-				if(r_RGetVertexBuffer_Int32 == null)
+				if(r_GetVertexBuffer_Int32 == null)
 				{
-					r_RGetVertexBuffer_Int32 = new(this, "GetVertexBuffer", 0, typeof(System.Int32));
-					r_RGetVertexBuffer_Int32.SetBelong(this.instance);
+					r_GetVertexBuffer_Int32 = new(this, "GetVertexBuffer", 0, typeof(System.Int32));
+					r_GetVertexBuffer_Int32.SetBelong(this.instance);
 				}
-				return r_RGetVertexBuffer_Int32;
+				return r_GetVertexBuffer_Int32;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.GraphicsBuffer GetIndexBuffer()
 		/// </summary>
-		protected RMethod r_RGetIndexBuffer;
+		protected RMethod r_GetIndexBuffer;
 		public virtual RMethod RGetIndexBuffer
 		{
 			get
 			{
-				if(r_RGetIndexBuffer == null)
+				if(r_GetIndexBuffer == null)
 				{
-					r_RGetIndexBuffer = new(this, "GetIndexBuffer", 0);
-					r_RGetIndexBuffer.SetBelong(this.instance);
+					r_GetIndexBuffer = new(this, "GetIndexBuffer", 0);
+					r_GetIndexBuffer.SetBelong(this.instance);
 				}
-				return r_RGetIndexBuffer;
+				return r_GetIndexBuffer;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.GraphicsBuffer GetBoneWeightBuffer(UnityEngine.SkinWeights)
 		/// </summary>
-		protected RMethod r_RGetBoneWeightBuffer_SkinWeights;
+		protected RMethod r_GetBoneWeightBuffer_SkinWeights;
 		public virtual RMethod RGetBoneWeightBuffer_SkinWeights
 		{
 			get
 			{
-				if(r_RGetBoneWeightBuffer_SkinWeights == null)
+				if(r_GetBoneWeightBuffer_SkinWeights == null)
 				{
-					r_RGetBoneWeightBuffer_SkinWeights = new(this, "GetBoneWeightBuffer", 0, typeof(UnityEngine.SkinWeights));
-					r_RGetBoneWeightBuffer_SkinWeights.SetBelong(this.instance);
+					r_GetBoneWeightBuffer_SkinWeights = new(this, "GetBoneWeightBuffer", 0, typeof(UnityEngine.SkinWeights));
+					r_GetBoneWeightBuffer_SkinWeights.SetBelong(this.instance);
 				}
-				return r_RGetBoneWeightBuffer_SkinWeights;
+				return r_GetBoneWeightBuffer_SkinWeights;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.GraphicsBuffer GetBlendShapeBuffer(UnityEngine.Rendering.BlendShapeBufferLayout)
 		/// </summary>
-		protected RMethod r_RGetBlendShapeBuffer_BlendShapeBufferLayout;
+		protected RMethod r_GetBlendShapeBuffer_BlendShapeBufferLayout;
 		public virtual RMethod RGetBlendShapeBuffer_BlendShapeBufferLayout
 		{
 			get
 			{
-				if(r_RGetBlendShapeBuffer_BlendShapeBufferLayout == null)
+				if(r_GetBlendShapeBuffer_BlendShapeBufferLayout == null)
 				{
-					r_RGetBlendShapeBuffer_BlendShapeBufferLayout = new(this, "GetBlendShapeBuffer", 0, typeof(UnityEngine.Rendering.BlendShapeBufferLayout));
-					r_RGetBlendShapeBuffer_BlendShapeBufferLayout.SetBelong(this.instance);
+					r_GetBlendShapeBuffer_BlendShapeBufferLayout = new(this, "GetBlendShapeBuffer", 0, typeof(UnityEngine.Rendering.BlendShapeBufferLayout));
+					r_GetBlendShapeBuffer_BlendShapeBufferLayout.SetBelong(this.instance);
 				}
-				return r_RGetBlendShapeBuffer_BlendShapeBufferLayout;
+				return r_GetBlendShapeBuffer_BlendShapeBufferLayout;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.GraphicsBuffer GetBlendShapeBuffer()
 		/// </summary>
-		protected RMethod r_RGetBlendShapeBuffer;
+		protected RMethod r_GetBlendShapeBuffer;
 		public virtual RMethod RGetBlendShapeBuffer
 		{
 			get
 			{
-				if(r_RGetBlendShapeBuffer == null)
+				if(r_GetBlendShapeBuffer == null)
 				{
-					r_RGetBlendShapeBuffer = new(this, "GetBlendShapeBuffer", 0);
-					r_RGetBlendShapeBuffer.SetBelong(this.instance);
+					r_GetBlendShapeBuffer = new(this, "GetBlendShapeBuffer", 0);
+					r_GetBlendShapeBuffer.SetBelong(this.instance);
 				}
-				return r_RGetBlendShapeBuffer;
+				return r_GetBlendShapeBuffer;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.BlendShapeBufferRange GetBlendShapeBufferRange(Int32)
 		/// </summary>
-		protected RMethod r_RGetBlendShapeBufferRange_Int32;
+		protected RMethod r_GetBlendShapeBufferRange_Int32;
 		public virtual RMethod RGetBlendShapeBufferRange_Int32
 		{
 			get
 			{
-				if(r_RGetBlendShapeBufferRange_Int32 == null)
+				if(r_GetBlendShapeBufferRange_Int32 == null)
 				{
-					r_RGetBlendShapeBufferRange_Int32 = new(this, "GetBlendShapeBufferRange", 0, typeof(System.Int32));
-					r_RGetBlendShapeBufferRange_Int32.SetBelong(this.instance);
+					r_GetBlendShapeBufferRange_Int32 = new(this, "GetBlendShapeBufferRange", 0, typeof(System.Int32));
+					r_GetBlendShapeBufferRange_Int32.SetBelong(this.instance);
 				}
-				return r_RGetBlendShapeBufferRange_Int32;
+				return r_GetBlendShapeBufferRange_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Void PrintErrorCantAccessIndices()
 		/// </summary>
-		protected RMethod r_RPrintErrorCantAccessIndices;
+		protected RMethod r_PrintErrorCantAccessIndices;
 		public virtual RMethod RPrintErrorCantAccessIndices
 		{
 			get
 			{
-				if(r_RPrintErrorCantAccessIndices == null)
+				if(r_PrintErrorCantAccessIndices == null)
 				{
-					r_RPrintErrorCantAccessIndices = new(this, "PrintErrorCantAccessIndices", 0);
-					r_RPrintErrorCantAccessIndices.SetBelong(this.instance);
+					r_PrintErrorCantAccessIndices = new(this, "PrintErrorCantAccessIndices", 0);
+					r_PrintErrorCantAccessIndices.SetBelong(this.instance);
 				}
-				return r_RPrintErrorCantAccessIndices;
+				return r_PrintErrorCantAccessIndices;
 			}
 		}
 
 		/// <summary>
 		/// Boolean CheckCanAccessSubmesh(Int32, Boolean)
 		/// </summary>
-		protected RMethod r_RCheckCanAccessSubmesh_Int32_Boolean;
+		protected RMethod r_CheckCanAccessSubmesh_Int32_Boolean;
 		public virtual RMethod RCheckCanAccessSubmesh_Int32_Boolean
 		{
 			get
 			{
-				if(r_RCheckCanAccessSubmesh_Int32_Boolean == null)
+				if(r_CheckCanAccessSubmesh_Int32_Boolean == null)
 				{
-					r_RCheckCanAccessSubmesh_Int32_Boolean = new(this, "CheckCanAccessSubmesh", 0, typeof(System.Int32), typeof(System.Boolean));
-					r_RCheckCanAccessSubmesh_Int32_Boolean.SetBelong(this.instance);
+					r_CheckCanAccessSubmesh_Int32_Boolean = new(this, "CheckCanAccessSubmesh", 0, typeof(System.Int32), typeof(System.Boolean));
+					r_CheckCanAccessSubmesh_Int32_Boolean.SetBelong(this.instance);
 				}
-				return r_RCheckCanAccessSubmesh_Int32_Boolean;
+				return r_CheckCanAccessSubmesh_Int32_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Boolean CheckCanAccessSubmeshTriangles(Int32)
 		/// </summary>
-		protected RMethod r_RCheckCanAccessSubmeshTriangles_Int32;
+		protected RMethod r_CheckCanAccessSubmeshTriangles_Int32;
 		public virtual RMethod RCheckCanAccessSubmeshTriangles_Int32
 		{
 			get
 			{
-				if(r_RCheckCanAccessSubmeshTriangles_Int32 == null)
+				if(r_CheckCanAccessSubmeshTriangles_Int32 == null)
 				{
-					r_RCheckCanAccessSubmeshTriangles_Int32 = new(this, "CheckCanAccessSubmeshTriangles", 0, typeof(System.Int32));
-					r_RCheckCanAccessSubmeshTriangles_Int32.SetBelong(this.instance);
+					r_CheckCanAccessSubmeshTriangles_Int32 = new(this, "CheckCanAccessSubmeshTriangles", 0, typeof(System.Int32));
+					r_CheckCanAccessSubmeshTriangles_Int32.SetBelong(this.instance);
 				}
-				return r_RCheckCanAccessSubmeshTriangles_Int32;
+				return r_CheckCanAccessSubmeshTriangles_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Boolean CheckCanAccessSubmeshIndices(Int32)
 		/// </summary>
-		protected RMethod r_RCheckCanAccessSubmeshIndices_Int32;
+		protected RMethod r_CheckCanAccessSubmeshIndices_Int32;
 		public virtual RMethod RCheckCanAccessSubmeshIndices_Int32
 		{
 			get
 			{
-				if(r_RCheckCanAccessSubmeshIndices_Int32 == null)
+				if(r_CheckCanAccessSubmeshIndices_Int32 == null)
 				{
-					r_RCheckCanAccessSubmeshIndices_Int32 = new(this, "CheckCanAccessSubmeshIndices", 0, typeof(System.Int32));
-					r_RCheckCanAccessSubmeshIndices_Int32.SetBelong(this.instance);
+					r_CheckCanAccessSubmeshIndices_Int32 = new(this, "CheckCanAccessSubmeshIndices", 0, typeof(System.Int32));
+					r_CheckCanAccessSubmeshIndices_Int32.SetBelong(this.instance);
 				}
-				return r_RCheckCanAccessSubmeshIndices_Int32;
+				return r_CheckCanAccessSubmeshIndices_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Int32[] GetTriangles(Int32)
 		/// </summary>
-		protected RMethod r_RGetTriangles_Int32;
+		protected RMethod r_GetTriangles_Int32;
 		public virtual RMethod RGetTriangles_Int32
 		{
 			get
 			{
-				if(r_RGetTriangles_Int32 == null)
+				if(r_GetTriangles_Int32 == null)
 				{
-					r_RGetTriangles_Int32 = new(this, "GetTriangles", 0, typeof(System.Int32));
-					r_RGetTriangles_Int32.SetBelong(this.instance);
+					r_GetTriangles_Int32 = new(this, "GetTriangles", 0, typeof(System.Int32));
+					r_GetTriangles_Int32.SetBelong(this.instance);
 				}
-				return r_RGetTriangles_Int32;
+				return r_GetTriangles_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Int32[] GetTriangles(Int32, Boolean)
 		/// </summary>
-		protected RMethod r_RGetTriangles_Int32_Boolean;
+		protected RMethod r_GetTriangles_Int32_Boolean;
 		public virtual RMethod RGetTriangles_Int32_Boolean
 		{
 			get
 			{
-				if(r_RGetTriangles_Int32_Boolean == null)
+				if(r_GetTriangles_Int32_Boolean == null)
 				{
-					r_RGetTriangles_Int32_Boolean = new(this, "GetTriangles", 0, typeof(System.Int32), typeof(System.Boolean));
-					r_RGetTriangles_Int32_Boolean.SetBelong(this.instance);
+					r_GetTriangles_Int32_Boolean = new(this, "GetTriangles", 0, typeof(System.Int32), typeof(System.Boolean));
+					r_GetTriangles_Int32_Boolean.SetBelong(this.instance);
 				}
-				return r_RGetTriangles_Int32_Boolean;
+				return r_GetTriangles_Int32_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Void GetTriangles(System.Collections.Generic.List`1[System.Int32], Int32)
 		/// </summary>
-		protected RMethod r_RGetTriangles_List_d_Int32_p__Int32;
+		protected RMethod r_GetTriangles_List_d_Int32_p__Int32;
 		public virtual RMethod RGetTriangles_List_d_Int32_p__Int32
 		{
 			get
 			{
-				if(r_RGetTriangles_List_d_Int32_p__Int32 == null)
+				if(r_GetTriangles_List_d_Int32_p__Int32 == null)
 				{
-					r_RGetTriangles_List_d_Int32_p__Int32 = new(this, "GetTriangles", 0, typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(System.Int32)), typeof(System.Int32));
-					r_RGetTriangles_List_d_Int32_p__Int32.SetBelong(this.instance);
+					r_GetTriangles_List_d_Int32_p__Int32 = new(this, "GetTriangles", 0, typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(System.Int32)), typeof(System.Int32));
+					r_GetTriangles_List_d_Int32_p__Int32.SetBelong(this.instance);
 				}
-				return r_RGetTriangles_List_d_Int32_p__Int32;
+				return r_GetTriangles_List_d_Int32_p__Int32;
 			}
 		}
 
 		/// <summary>
 		/// Void GetTriangles(System.Collections.Generic.List`1[System.Int32], Int32, Boolean)
 		/// </summary>
-		protected RMethod r_RGetTriangles_List_d_Int32_p__Int32_Boolean;
+		protected RMethod r_GetTriangles_List_d_Int32_p__Int32_Boolean;
 		public virtual RMethod RGetTriangles_List_d_Int32_p__Int32_Boolean
 		{
 			get
 			{
-				if(r_RGetTriangles_List_d_Int32_p__Int32_Boolean == null)
+				if(r_GetTriangles_List_d_Int32_p__Int32_Boolean == null)
 				{
-					r_RGetTriangles_List_d_Int32_p__Int32_Boolean = new(this, "GetTriangles", 0, typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(System.Int32)), typeof(System.Int32), typeof(System.Boolean));
-					r_RGetTriangles_List_d_Int32_p__Int32_Boolean.SetBelong(this.instance);
+					r_GetTriangles_List_d_Int32_p__Int32_Boolean = new(this, "GetTriangles", 0, typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(System.Int32)), typeof(System.Int32), typeof(System.Boolean));
+					r_GetTriangles_List_d_Int32_p__Int32_Boolean.SetBelong(this.instance);
 				}
-				return r_RGetTriangles_List_d_Int32_p__Int32_Boolean;
+				return r_GetTriangles_List_d_Int32_p__Int32_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Void GetTriangles(System.Collections.Generic.List`1[System.UInt16], Int32, Boolean)
 		/// </summary>
-		protected RMethod r_RGetTriangles_List_d_UInt16_p__Int32_Boolean;
+		protected RMethod r_GetTriangles_List_d_UInt16_p__Int32_Boolean;
 		public virtual RMethod RGetTriangles_List_d_UInt16_p__Int32_Boolean
 		{
 			get
 			{
-				if(r_RGetTriangles_List_d_UInt16_p__Int32_Boolean == null)
+				if(r_GetTriangles_List_d_UInt16_p__Int32_Boolean == null)
 				{
-					r_RGetTriangles_List_d_UInt16_p__Int32_Boolean = new(this, "GetTriangles", 0, typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(System.UInt16)), typeof(System.Int32), typeof(System.Boolean));
-					r_RGetTriangles_List_d_UInt16_p__Int32_Boolean.SetBelong(this.instance);
+					r_GetTriangles_List_d_UInt16_p__Int32_Boolean = new(this, "GetTriangles", 0, typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(System.UInt16)), typeof(System.Int32), typeof(System.Boolean));
+					r_GetTriangles_List_d_UInt16_p__Int32_Boolean.SetBelong(this.instance);
 				}
-				return r_RGetTriangles_List_d_UInt16_p__Int32_Boolean;
+				return r_GetTriangles_List_d_UInt16_p__Int32_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Int32[] GetIndices(Int32)
 		/// </summary>
-		protected RMethod r_RGetIndices_Int32;
+		protected RMethod r_GetIndices_Int32;
 		public virtual RMethod RGetIndices_Int32
 		{
 			get
 			{
-				if(r_RGetIndices_Int32 == null)
+				if(r_GetIndices_Int32 == null)
 				{
-					r_RGetIndices_Int32 = new(this, "GetIndices", 0, typeof(System.Int32));
-					r_RGetIndices_Int32.SetBelong(this.instance);
+					r_GetIndices_Int32 = new(this, "GetIndices", 0, typeof(System.Int32));
+					r_GetIndices_Int32.SetBelong(this.instance);
 				}
-				return r_RGetIndices_Int32;
+				return r_GetIndices_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Int32[] GetIndices(Int32, Boolean)
 		/// </summary>
-		protected RMethod r_RGetIndices_Int32_Boolean;
+		protected RMethod r_GetIndices_Int32_Boolean;
 		public virtual RMethod RGetIndices_Int32_Boolean
 		{
 			get
 			{
-				if(r_RGetIndices_Int32_Boolean == null)
+				if(r_GetIndices_Int32_Boolean == null)
 				{
-					r_RGetIndices_Int32_Boolean = new(this, "GetIndices", 0, typeof(System.Int32), typeof(System.Boolean));
-					r_RGetIndices_Int32_Boolean.SetBelong(this.instance);
+					r_GetIndices_Int32_Boolean = new(this, "GetIndices", 0, typeof(System.Int32), typeof(System.Boolean));
+					r_GetIndices_Int32_Boolean.SetBelong(this.instance);
 				}
-				return r_RGetIndices_Int32_Boolean;
+				return r_GetIndices_Int32_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Void GetIndices(System.Collections.Generic.List`1[System.Int32], Int32)
 		/// </summary>
-		protected RMethod r_RGetIndices_List_d_Int32_p__Int32;
+		protected RMethod r_GetIndices_List_d_Int32_p__Int32;
 		public virtual RMethod RGetIndices_List_d_Int32_p__Int32
 		{
 			get
 			{
-				if(r_RGetIndices_List_d_Int32_p__Int32 == null)
+				if(r_GetIndices_List_d_Int32_p__Int32 == null)
 				{
-					r_RGetIndices_List_d_Int32_p__Int32 = new(this, "GetIndices", 0, typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(System.Int32)), typeof(System.Int32));
-					r_RGetIndices_List_d_Int32_p__Int32.SetBelong(this.instance);
+					r_GetIndices_List_d_Int32_p__Int32 = new(this, "GetIndices", 0, typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(System.Int32)), typeof(System.Int32));
+					r_GetIndices_List_d_Int32_p__Int32.SetBelong(this.instance);
 				}
-				return r_RGetIndices_List_d_Int32_p__Int32;
+				return r_GetIndices_List_d_Int32_p__Int32;
 			}
 		}
 
 		/// <summary>
 		/// Void GetIndices(System.Collections.Generic.List`1[System.Int32], Int32, Boolean)
 		/// </summary>
-		protected RMethod r_RGetIndices_List_d_Int32_p__Int32_Boolean;
+		protected RMethod r_GetIndices_List_d_Int32_p__Int32_Boolean;
 		public virtual RMethod RGetIndices_List_d_Int32_p__Int32_Boolean
 		{
 			get
 			{
-				if(r_RGetIndices_List_d_Int32_p__Int32_Boolean == null)
+				if(r_GetIndices_List_d_Int32_p__Int32_Boolean == null)
 				{
-					r_RGetIndices_List_d_Int32_p__Int32_Boolean = new(this, "GetIndices", 0, typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(System.Int32)), typeof(System.Int32), typeof(System.Boolean));
-					r_RGetIndices_List_d_Int32_p__Int32_Boolean.SetBelong(this.instance);
+					r_GetIndices_List_d_Int32_p__Int32_Boolean = new(this, "GetIndices", 0, typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(System.Int32)), typeof(System.Int32), typeof(System.Boolean));
+					r_GetIndices_List_d_Int32_p__Int32_Boolean.SetBelong(this.instance);
 				}
-				return r_RGetIndices_List_d_Int32_p__Int32_Boolean;
+				return r_GetIndices_List_d_Int32_p__Int32_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Void GetIndices(System.Collections.Generic.List`1[System.UInt16], Int32, Boolean)
 		/// </summary>
-		protected RMethod r_RGetIndices_List_d_UInt16_p__Int32_Boolean;
+		protected RMethod r_GetIndices_List_d_UInt16_p__Int32_Boolean;
 		public virtual RMethod RGetIndices_List_d_UInt16_p__Int32_Boolean
 		{
 			get
 			{
-				if(r_RGetIndices_List_d_UInt16_p__Int32_Boolean == null)
+				if(r_GetIndices_List_d_UInt16_p__Int32_Boolean == null)
 				{
-					r_RGetIndices_List_d_UInt16_p__Int32_Boolean = new(this, "GetIndices", 0, typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(System.UInt16)), typeof(System.Int32), typeof(System.Boolean));
-					r_RGetIndices_List_d_UInt16_p__Int32_Boolean.SetBelong(this.instance);
+					r_GetIndices_List_d_UInt16_p__Int32_Boolean = new(this, "GetIndices", 0, typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(System.UInt16)), typeof(System.Int32), typeof(System.Boolean));
+					r_GetIndices_List_d_UInt16_p__Int32_Boolean.SetBelong(this.instance);
 				}
-				return r_RGetIndices_List_d_UInt16_p__Int32_Boolean;
+				return r_GetIndices_List_d_UInt16_p__Int32_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Void SetIndexBufferData[T](Unity.Collections.NativeArray`1[T], Int32, Int32, Int32, UnityEngine.Rendering.MeshUpdateFlags)
 		/// </summary>
-		protected RMethod r_RSetIndexBufferData_GT_NativeArray_d_T_p__Int32_Int32_Int32_MeshUpdateFlags;
+		protected RMethod r_SetIndexBufferData_GT_NativeArray_d_T_p__Int32_Int32_Int32_MeshUpdateFlags;
 		public virtual RMethod RSetIndexBufferData_GT_NativeArray_d_T_p__Int32_Int32_Int32_MeshUpdateFlags
 		{
 			get
 			{
-				if(r_RSetIndexBufferData_GT_NativeArray_d_T_p__Int32_Int32_Int32_MeshUpdateFlags == null)
+				if(r_SetIndexBufferData_GT_NativeArray_d_T_p__Int32_Int32_Int32_MeshUpdateFlags == null)
 				{
-					r_RSetIndexBufferData_GT_NativeArray_d_T_p__Int32_Int32_Int32_MeshUpdateFlags = new(this, "SetIndexBufferData", 1, typeof(Unity.Collections.NativeArray<>).MakeGenericType(Type.MakeGenericMethodParameter(0)), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.Rendering.MeshUpdateFlags));
-					r_RSetIndexBufferData_GT_NativeArray_d_T_p__Int32_Int32_Int32_MeshUpdateFlags.SetBelong(this.instance);
+					r_SetIndexBufferData_GT_NativeArray_d_T_p__Int32_Int32_Int32_MeshUpdateFlags = new(this, "SetIndexBufferData", 1, typeof(Unity.Collections.NativeArray<>).MakeGenericType(Type.MakeGenericMethodParameter(0)), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.Rendering.MeshUpdateFlags));
+					r_SetIndexBufferData_GT_NativeArray_d_T_p__Int32_Int32_Int32_MeshUpdateFlags.SetBelong(this.instance);
 				}
-				return r_RSetIndexBufferData_GT_NativeArray_d_T_p__Int32_Int32_Int32_MeshUpdateFlags;
+				return r_SetIndexBufferData_GT_NativeArray_d_T_p__Int32_Int32_Int32_MeshUpdateFlags;
 			}
 		}
 
 		/// <summary>
 		/// Void SetIndexBufferData[T](T[], Int32, Int32, Int32, UnityEngine.Rendering.MeshUpdateFlags)
 		/// </summary>
-		protected RMethod r_RSetIndexBufferData_GT_TArray_Int32_Int32_Int32_MeshUpdateFlags;
+		protected RMethod r_SetIndexBufferData_GT_TArray_Int32_Int32_Int32_MeshUpdateFlags;
 		public virtual RMethod RSetIndexBufferData_GT_TArray_Int32_Int32_Int32_MeshUpdateFlags
 		{
 			get
 			{
-				if(r_RSetIndexBufferData_GT_TArray_Int32_Int32_Int32_MeshUpdateFlags == null)
+				if(r_SetIndexBufferData_GT_TArray_Int32_Int32_Int32_MeshUpdateFlags == null)
 				{
-					r_RSetIndexBufferData_GT_TArray_Int32_Int32_Int32_MeshUpdateFlags = new(this, "SetIndexBufferData", 1, Type.MakeGenericMethodParameter(0).MakeArrayType(), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.Rendering.MeshUpdateFlags));
-					r_RSetIndexBufferData_GT_TArray_Int32_Int32_Int32_MeshUpdateFlags.SetBelong(this.instance);
+					r_SetIndexBufferData_GT_TArray_Int32_Int32_Int32_MeshUpdateFlags = new(this, "SetIndexBufferData", 1, Type.MakeGenericMethodParameter(0).MakeArrayType(), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.Rendering.MeshUpdateFlags));
+					r_SetIndexBufferData_GT_TArray_Int32_Int32_Int32_MeshUpdateFlags.SetBelong(this.instance);
 				}
-				return r_RSetIndexBufferData_GT_TArray_Int32_Int32_Int32_MeshUpdateFlags;
+				return r_SetIndexBufferData_GT_TArray_Int32_Int32_Int32_MeshUpdateFlags;
 			}
 		}
 
 		/// <summary>
 		/// Void SetIndexBufferData[T](System.Collections.Generic.List`1[T], Int32, Int32, Int32, UnityEngine.Rendering.MeshUpdateFlags)
 		/// </summary>
-		protected RMethod r_RSetIndexBufferData_GT_List_d_T_p__Int32_Int32_Int32_MeshUpdateFlags;
+		protected RMethod r_SetIndexBufferData_GT_List_d_T_p__Int32_Int32_Int32_MeshUpdateFlags;
 		public virtual RMethod RSetIndexBufferData_GT_List_d_T_p__Int32_Int32_Int32_MeshUpdateFlags
 		{
 			get
 			{
-				if(r_RSetIndexBufferData_GT_List_d_T_p__Int32_Int32_Int32_MeshUpdateFlags == null)
+				if(r_SetIndexBufferData_GT_List_d_T_p__Int32_Int32_Int32_MeshUpdateFlags == null)
 				{
-					r_RSetIndexBufferData_GT_List_d_T_p__Int32_Int32_Int32_MeshUpdateFlags = new(this, "SetIndexBufferData", 1, typeof(System.Collections.Generic.List<>).MakeGenericType(Type.MakeGenericMethodParameter(0)), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.Rendering.MeshUpdateFlags));
-					r_RSetIndexBufferData_GT_List_d_T_p__Int32_Int32_Int32_MeshUpdateFlags.SetBelong(this.instance);
+					r_SetIndexBufferData_GT_List_d_T_p__Int32_Int32_Int32_MeshUpdateFlags = new(this, "SetIndexBufferData", 1, typeof(System.Collections.Generic.List<>).MakeGenericType(Type.MakeGenericMethodParameter(0)), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.Rendering.MeshUpdateFlags));
+					r_SetIndexBufferData_GT_List_d_T_p__Int32_Int32_Int32_MeshUpdateFlags.SetBelong(this.instance);
 				}
-				return r_RSetIndexBufferData_GT_List_d_T_p__Int32_Int32_Int32_MeshUpdateFlags;
+				return r_SetIndexBufferData_GT_List_d_T_p__Int32_Int32_Int32_MeshUpdateFlags;
 			}
 		}
 
 		/// <summary>
 		/// UInt32 GetIndexStart(Int32)
 		/// </summary>
-		protected RMethod r_RGetIndexStart_Int32;
+		protected RMethod r_GetIndexStart_Int32;
 		public virtual RMethod RGetIndexStart_Int32
 		{
 			get
 			{
-				if(r_RGetIndexStart_Int32 == null)
+				if(r_GetIndexStart_Int32 == null)
 				{
-					r_RGetIndexStart_Int32 = new(this, "GetIndexStart", 0, typeof(System.Int32));
-					r_RGetIndexStart_Int32.SetBelong(this.instance);
+					r_GetIndexStart_Int32 = new(this, "GetIndexStart", 0, typeof(System.Int32));
+					r_GetIndexStart_Int32.SetBelong(this.instance);
 				}
-				return r_RGetIndexStart_Int32;
+				return r_GetIndexStart_Int32;
 			}
 		}
 
 		/// <summary>
 		/// UInt32 GetIndexCount(Int32)
 		/// </summary>
-		protected RMethod r_RGetIndexCount_Int32;
+		protected RMethod r_GetIndexCount_Int32;
 		public virtual RMethod RGetIndexCount_Int32
 		{
 			get
 			{
-				if(r_RGetIndexCount_Int32 == null)
+				if(r_GetIndexCount_Int32 == null)
 				{
-					r_RGetIndexCount_Int32 = new(this, "GetIndexCount", 0, typeof(System.Int32));
-					r_RGetIndexCount_Int32.SetBelong(this.instance);
+					r_GetIndexCount_Int32 = new(this, "GetIndexCount", 0, typeof(System.Int32));
+					r_GetIndexCount_Int32.SetBelong(this.instance);
 				}
-				return r_RGetIndexCount_Int32;
+				return r_GetIndexCount_Int32;
 			}
 		}
 
 		/// <summary>
 		/// UInt32 GetBaseVertex(Int32)
 		/// </summary>
-		protected RMethod r_RGetBaseVertex_Int32;
+		protected RMethod r_GetBaseVertex_Int32;
 		public virtual RMethod RGetBaseVertex_Int32
 		{
 			get
 			{
-				if(r_RGetBaseVertex_Int32 == null)
+				if(r_GetBaseVertex_Int32 == null)
 				{
-					r_RGetBaseVertex_Int32 = new(this, "GetBaseVertex", 0, typeof(System.Int32));
-					r_RGetBaseVertex_Int32.SetBelong(this.instance);
+					r_GetBaseVertex_Int32 = new(this, "GetBaseVertex", 0, typeof(System.Int32));
+					r_GetBaseVertex_Int32.SetBelong(this.instance);
 				}
-				return r_RGetBaseVertex_Int32;
+				return r_GetBaseVertex_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Void CheckIndicesArrayRange(Int32, Int32, Int32)
 		/// </summary>
-		protected RMethod r_RCheckIndicesArrayRange_Int32_Int32_Int32;
+		protected RMethod r_CheckIndicesArrayRange_Int32_Int32_Int32;
 		public virtual RMethod RCheckIndicesArrayRange_Int32_Int32_Int32
 		{
 			get
 			{
-				if(r_RCheckIndicesArrayRange_Int32_Int32_Int32 == null)
+				if(r_CheckIndicesArrayRange_Int32_Int32_Int32 == null)
 				{
-					r_RCheckIndicesArrayRange_Int32_Int32_Int32 = new(this, "CheckIndicesArrayRange", 0, typeof(System.Int32), typeof(System.Int32), typeof(System.Int32));
-					r_RCheckIndicesArrayRange_Int32_Int32_Int32.SetBelong(this.instance);
+					r_CheckIndicesArrayRange_Int32_Int32_Int32 = new(this, "CheckIndicesArrayRange", 0, typeof(System.Int32), typeof(System.Int32), typeof(System.Int32));
+					r_CheckIndicesArrayRange_Int32_Int32_Int32.SetBelong(this.instance);
 				}
-				return r_RCheckIndicesArrayRange_Int32_Int32_Int32;
+				return r_CheckIndicesArrayRange_Int32_Int32_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Void SetTrianglesImpl(Int32, UnityEngine.Rendering.IndexFormat, System.Array, Int32, Int32, Int32, Boolean, Int32)
 		/// </summary>
-		protected RMethod r_RSetTrianglesImpl_Int32_IndexFormat_Array_Int32_Int32_Int32_Boolean_Int32;
+		protected RMethod r_SetTrianglesImpl_Int32_IndexFormat_Array_Int32_Int32_Int32_Boolean_Int32;
 		public virtual RMethod RSetTrianglesImpl_Int32_IndexFormat_Array_Int32_Int32_Int32_Boolean_Int32
 		{
 			get
 			{
-				if(r_RSetTrianglesImpl_Int32_IndexFormat_Array_Int32_Int32_Int32_Boolean_Int32 == null)
+				if(r_SetTrianglesImpl_Int32_IndexFormat_Array_Int32_Int32_Int32_Boolean_Int32 == null)
 				{
-					r_RSetTrianglesImpl_Int32_IndexFormat_Array_Int32_Int32_Int32_Boolean_Int32 = new(this, "SetTrianglesImpl", 0, typeof(System.Int32), typeof(UnityEngine.Rendering.IndexFormat), typeof(System.Array), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Boolean), typeof(System.Int32));
-					r_RSetTrianglesImpl_Int32_IndexFormat_Array_Int32_Int32_Int32_Boolean_Int32.SetBelong(this.instance);
+					r_SetTrianglesImpl_Int32_IndexFormat_Array_Int32_Int32_Int32_Boolean_Int32 = new(this, "SetTrianglesImpl", 0, typeof(System.Int32), typeof(UnityEngine.Rendering.IndexFormat), typeof(System.Array), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Boolean), typeof(System.Int32));
+					r_SetTrianglesImpl_Int32_IndexFormat_Array_Int32_Int32_Int32_Boolean_Int32.SetBelong(this.instance);
 				}
-				return r_RSetTrianglesImpl_Int32_IndexFormat_Array_Int32_Int32_Int32_Boolean_Int32;
+				return r_SetTrianglesImpl_Int32_IndexFormat_Array_Int32_Int32_Int32_Boolean_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Void SetTriangles(Int32[], Int32)
 		/// </summary>
-		protected RMethod r_RSetTriangles_Int32Array_Int32;
+		protected RMethod r_SetTriangles_Int32Array_Int32;
 		public virtual RMethod RSetTriangles_Int32Array_Int32
 		{
 			get
 			{
-				if(r_RSetTriangles_Int32Array_Int32 == null)
+				if(r_SetTriangles_Int32Array_Int32 == null)
 				{
-					r_RSetTriangles_Int32Array_Int32 = new(this, "SetTriangles", 0, typeof(System.Int32).MakeArrayType(), typeof(System.Int32));
-					r_RSetTriangles_Int32Array_Int32.SetBelong(this.instance);
+					r_SetTriangles_Int32Array_Int32 = new(this, "SetTriangles", 0, typeof(System.Int32).MakeArrayType(), typeof(System.Int32));
+					r_SetTriangles_Int32Array_Int32.SetBelong(this.instance);
 				}
-				return r_RSetTriangles_Int32Array_Int32;
+				return r_SetTriangles_Int32Array_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Void SetTriangles(Int32[], Int32, Boolean)
 		/// </summary>
-		protected RMethod r_RSetTriangles_Int32Array_Int32_Boolean;
+		protected RMethod r_SetTriangles_Int32Array_Int32_Boolean;
 		public virtual RMethod RSetTriangles_Int32Array_Int32_Boolean
 		{
 			get
 			{
-				if(r_RSetTriangles_Int32Array_Int32_Boolean == null)
+				if(r_SetTriangles_Int32Array_Int32_Boolean == null)
 				{
-					r_RSetTriangles_Int32Array_Int32_Boolean = new(this, "SetTriangles", 0, typeof(System.Int32).MakeArrayType(), typeof(System.Int32), typeof(System.Boolean));
-					r_RSetTriangles_Int32Array_Int32_Boolean.SetBelong(this.instance);
+					r_SetTriangles_Int32Array_Int32_Boolean = new(this, "SetTriangles", 0, typeof(System.Int32).MakeArrayType(), typeof(System.Int32), typeof(System.Boolean));
+					r_SetTriangles_Int32Array_Int32_Boolean.SetBelong(this.instance);
 				}
-				return r_RSetTriangles_Int32Array_Int32_Boolean;
+				return r_SetTriangles_Int32Array_Int32_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Void SetTriangles(Int32[], Int32, Boolean, Int32)
 		/// </summary>
-		protected RMethod r_RSetTriangles_Int32Array_Int32_Boolean_Int32;
+		protected RMethod r_SetTriangles_Int32Array_Int32_Boolean_Int32;
 		public virtual RMethod RSetTriangles_Int32Array_Int32_Boolean_Int32
 		{
 			get
 			{
-				if(r_RSetTriangles_Int32Array_Int32_Boolean_Int32 == null)
+				if(r_SetTriangles_Int32Array_Int32_Boolean_Int32 == null)
 				{
-					r_RSetTriangles_Int32Array_Int32_Boolean_Int32 = new(this, "SetTriangles", 0, typeof(System.Int32).MakeArrayType(), typeof(System.Int32), typeof(System.Boolean), typeof(System.Int32));
-					r_RSetTriangles_Int32Array_Int32_Boolean_Int32.SetBelong(this.instance);
+					r_SetTriangles_Int32Array_Int32_Boolean_Int32 = new(this, "SetTriangles", 0, typeof(System.Int32).MakeArrayType(), typeof(System.Int32), typeof(System.Boolean), typeof(System.Int32));
+					r_SetTriangles_Int32Array_Int32_Boolean_Int32.SetBelong(this.instance);
 				}
-				return r_RSetTriangles_Int32Array_Int32_Boolean_Int32;
+				return r_SetTriangles_Int32Array_Int32_Boolean_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Void SetTriangles(Int32[], Int32, Int32, Int32, Boolean, Int32)
 		/// </summary>
-		protected RMethod r_RSetTriangles_Int32Array_Int32_Int32_Int32_Boolean_Int32;
+		protected RMethod r_SetTriangles_Int32Array_Int32_Int32_Int32_Boolean_Int32;
 		public virtual RMethod RSetTriangles_Int32Array_Int32_Int32_Int32_Boolean_Int32
 		{
 			get
 			{
-				if(r_RSetTriangles_Int32Array_Int32_Int32_Int32_Boolean_Int32 == null)
+				if(r_SetTriangles_Int32Array_Int32_Int32_Int32_Boolean_Int32 == null)
 				{
-					r_RSetTriangles_Int32Array_Int32_Int32_Int32_Boolean_Int32 = new(this, "SetTriangles", 0, typeof(System.Int32).MakeArrayType(), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Boolean), typeof(System.Int32));
-					r_RSetTriangles_Int32Array_Int32_Int32_Int32_Boolean_Int32.SetBelong(this.instance);
+					r_SetTriangles_Int32Array_Int32_Int32_Int32_Boolean_Int32 = new(this, "SetTriangles", 0, typeof(System.Int32).MakeArrayType(), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Boolean), typeof(System.Int32));
+					r_SetTriangles_Int32Array_Int32_Int32_Int32_Boolean_Int32.SetBelong(this.instance);
 				}
-				return r_RSetTriangles_Int32Array_Int32_Int32_Int32_Boolean_Int32;
+				return r_SetTriangles_Int32Array_Int32_Int32_Int32_Boolean_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Void SetTriangles(UInt16[], Int32, Boolean, Int32)
 		/// </summary>
-		protected RMethod r_RSetTriangles_UInt16Array_Int32_Boolean_Int32;
+		protected RMethod r_SetTriangles_UInt16Array_Int32_Boolean_Int32;
 		public virtual RMethod RSetTriangles_UInt16Array_Int32_Boolean_Int32
 		{
 			get
 			{
-				if(r_RSetTriangles_UInt16Array_Int32_Boolean_Int32 == null)
+				if(r_SetTriangles_UInt16Array_Int32_Boolean_Int32 == null)
 				{
-					r_RSetTriangles_UInt16Array_Int32_Boolean_Int32 = new(this, "SetTriangles", 0, typeof(System.UInt16).MakeArrayType(), typeof(System.Int32), typeof(System.Boolean), typeof(System.Int32));
-					r_RSetTriangles_UInt16Array_Int32_Boolean_Int32.SetBelong(this.instance);
+					r_SetTriangles_UInt16Array_Int32_Boolean_Int32 = new(this, "SetTriangles", 0, typeof(System.UInt16).MakeArrayType(), typeof(System.Int32), typeof(System.Boolean), typeof(System.Int32));
+					r_SetTriangles_UInt16Array_Int32_Boolean_Int32.SetBelong(this.instance);
 				}
-				return r_RSetTriangles_UInt16Array_Int32_Boolean_Int32;
+				return r_SetTriangles_UInt16Array_Int32_Boolean_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Void SetTriangles(UInt16[], Int32, Int32, Int32, Boolean, Int32)
 		/// </summary>
-		protected RMethod r_RSetTriangles_UInt16Array_Int32_Int32_Int32_Boolean_Int32;
+		protected RMethod r_SetTriangles_UInt16Array_Int32_Int32_Int32_Boolean_Int32;
 		public virtual RMethod RSetTriangles_UInt16Array_Int32_Int32_Int32_Boolean_Int32
 		{
 			get
 			{
-				if(r_RSetTriangles_UInt16Array_Int32_Int32_Int32_Boolean_Int32 == null)
+				if(r_SetTriangles_UInt16Array_Int32_Int32_Int32_Boolean_Int32 == null)
 				{
-					r_RSetTriangles_UInt16Array_Int32_Int32_Int32_Boolean_Int32 = new(this, "SetTriangles", 0, typeof(System.UInt16).MakeArrayType(), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Boolean), typeof(System.Int32));
-					r_RSetTriangles_UInt16Array_Int32_Int32_Int32_Boolean_Int32.SetBelong(this.instance);
+					r_SetTriangles_UInt16Array_Int32_Int32_Int32_Boolean_Int32 = new(this, "SetTriangles", 0, typeof(System.UInt16).MakeArrayType(), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Boolean), typeof(System.Int32));
+					r_SetTriangles_UInt16Array_Int32_Int32_Int32_Boolean_Int32.SetBelong(this.instance);
 				}
-				return r_RSetTriangles_UInt16Array_Int32_Int32_Int32_Boolean_Int32;
+				return r_SetTriangles_UInt16Array_Int32_Int32_Int32_Boolean_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Void SetTriangles(System.Collections.Generic.List`1[System.Int32], Int32)
 		/// </summary>
-		protected RMethod r_RSetTriangles_List_d_Int32_p__Int32;
+		protected RMethod r_SetTriangles_List_d_Int32_p__Int32;
 		public virtual RMethod RSetTriangles_List_d_Int32_p__Int32
 		{
 			get
 			{
-				if(r_RSetTriangles_List_d_Int32_p__Int32 == null)
+				if(r_SetTriangles_List_d_Int32_p__Int32 == null)
 				{
-					r_RSetTriangles_List_d_Int32_p__Int32 = new(this, "SetTriangles", 0, typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(System.Int32)), typeof(System.Int32));
-					r_RSetTriangles_List_d_Int32_p__Int32.SetBelong(this.instance);
+					r_SetTriangles_List_d_Int32_p__Int32 = new(this, "SetTriangles", 0, typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(System.Int32)), typeof(System.Int32));
+					r_SetTriangles_List_d_Int32_p__Int32.SetBelong(this.instance);
 				}
-				return r_RSetTriangles_List_d_Int32_p__Int32;
+				return r_SetTriangles_List_d_Int32_p__Int32;
 			}
 		}
 
 		/// <summary>
 		/// Void SetTriangles(System.Collections.Generic.List`1[System.Int32], Int32, Boolean)
 		/// </summary>
-		protected RMethod r_RSetTriangles_List_d_Int32_p__Int32_Boolean;
+		protected RMethod r_SetTriangles_List_d_Int32_p__Int32_Boolean;
 		public virtual RMethod RSetTriangles_List_d_Int32_p__Int32_Boolean
 		{
 			get
 			{
-				if(r_RSetTriangles_List_d_Int32_p__Int32_Boolean == null)
+				if(r_SetTriangles_List_d_Int32_p__Int32_Boolean == null)
 				{
-					r_RSetTriangles_List_d_Int32_p__Int32_Boolean = new(this, "SetTriangles", 0, typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(System.Int32)), typeof(System.Int32), typeof(System.Boolean));
-					r_RSetTriangles_List_d_Int32_p__Int32_Boolean.SetBelong(this.instance);
+					r_SetTriangles_List_d_Int32_p__Int32_Boolean = new(this, "SetTriangles", 0, typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(System.Int32)), typeof(System.Int32), typeof(System.Boolean));
+					r_SetTriangles_List_d_Int32_p__Int32_Boolean.SetBelong(this.instance);
 				}
-				return r_RSetTriangles_List_d_Int32_p__Int32_Boolean;
+				return r_SetTriangles_List_d_Int32_p__Int32_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Void SetTriangles(System.Collections.Generic.List`1[System.Int32], Int32, Boolean, Int32)
 		/// </summary>
-		protected RMethod r_RSetTriangles_List_d_Int32_p__Int32_Boolean_Int32;
+		protected RMethod r_SetTriangles_List_d_Int32_p__Int32_Boolean_Int32;
 		public virtual RMethod RSetTriangles_List_d_Int32_p__Int32_Boolean_Int32
 		{
 			get
 			{
-				if(r_RSetTriangles_List_d_Int32_p__Int32_Boolean_Int32 == null)
+				if(r_SetTriangles_List_d_Int32_p__Int32_Boolean_Int32 == null)
 				{
-					r_RSetTriangles_List_d_Int32_p__Int32_Boolean_Int32 = new(this, "SetTriangles", 0, typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(System.Int32)), typeof(System.Int32), typeof(System.Boolean), typeof(System.Int32));
-					r_RSetTriangles_List_d_Int32_p__Int32_Boolean_Int32.SetBelong(this.instance);
+					r_SetTriangles_List_d_Int32_p__Int32_Boolean_Int32 = new(this, "SetTriangles", 0, typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(System.Int32)), typeof(System.Int32), typeof(System.Boolean), typeof(System.Int32));
+					r_SetTriangles_List_d_Int32_p__Int32_Boolean_Int32.SetBelong(this.instance);
 				}
-				return r_RSetTriangles_List_d_Int32_p__Int32_Boolean_Int32;
+				return r_SetTriangles_List_d_Int32_p__Int32_Boolean_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Void SetTriangles(System.Collections.Generic.List`1[System.Int32], Int32, Int32, Int32, Boolean, Int32)
 		/// </summary>
-		protected RMethod r_RSetTriangles_List_d_Int32_p__Int32_Int32_Int32_Boolean_Int32;
+		protected RMethod r_SetTriangles_List_d_Int32_p__Int32_Int32_Int32_Boolean_Int32;
 		public virtual RMethod RSetTriangles_List_d_Int32_p__Int32_Int32_Int32_Boolean_Int32
 		{
 			get
 			{
-				if(r_RSetTriangles_List_d_Int32_p__Int32_Int32_Int32_Boolean_Int32 == null)
+				if(r_SetTriangles_List_d_Int32_p__Int32_Int32_Int32_Boolean_Int32 == null)
 				{
-					r_RSetTriangles_List_d_Int32_p__Int32_Int32_Int32_Boolean_Int32 = new(this, "SetTriangles", 0, typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(System.Int32)), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Boolean), typeof(System.Int32));
-					r_RSetTriangles_List_d_Int32_p__Int32_Int32_Int32_Boolean_Int32.SetBelong(this.instance);
+					r_SetTriangles_List_d_Int32_p__Int32_Int32_Int32_Boolean_Int32 = new(this, "SetTriangles", 0, typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(System.Int32)), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Boolean), typeof(System.Int32));
+					r_SetTriangles_List_d_Int32_p__Int32_Int32_Int32_Boolean_Int32.SetBelong(this.instance);
 				}
-				return r_RSetTriangles_List_d_Int32_p__Int32_Int32_Int32_Boolean_Int32;
+				return r_SetTriangles_List_d_Int32_p__Int32_Int32_Int32_Boolean_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Void SetTriangles(System.Collections.Generic.List`1[System.UInt16], Int32, Boolean, Int32)
 		/// </summary>
-		protected RMethod r_RSetTriangles_List_d_UInt16_p__Int32_Boolean_Int32;
+		protected RMethod r_SetTriangles_List_d_UInt16_p__Int32_Boolean_Int32;
 		public virtual RMethod RSetTriangles_List_d_UInt16_p__Int32_Boolean_Int32
 		{
 			get
 			{
-				if(r_RSetTriangles_List_d_UInt16_p__Int32_Boolean_Int32 == null)
+				if(r_SetTriangles_List_d_UInt16_p__Int32_Boolean_Int32 == null)
 				{
-					r_RSetTriangles_List_d_UInt16_p__Int32_Boolean_Int32 = new(this, "SetTriangles", 0, typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(System.UInt16)), typeof(System.Int32), typeof(System.Boolean), typeof(System.Int32));
-					r_RSetTriangles_List_d_UInt16_p__Int32_Boolean_Int32.SetBelong(this.instance);
+					r_SetTriangles_List_d_UInt16_p__Int32_Boolean_Int32 = new(this, "SetTriangles", 0, typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(System.UInt16)), typeof(System.Int32), typeof(System.Boolean), typeof(System.Int32));
+					r_SetTriangles_List_d_UInt16_p__Int32_Boolean_Int32.SetBelong(this.instance);
 				}
-				return r_RSetTriangles_List_d_UInt16_p__Int32_Boolean_Int32;
+				return r_SetTriangles_List_d_UInt16_p__Int32_Boolean_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Void SetTriangles(System.Collections.Generic.List`1[System.UInt16], Int32, Int32, Int32, Boolean, Int32)
 		/// </summary>
-		protected RMethod r_RSetTriangles_List_d_UInt16_p__Int32_Int32_Int32_Boolean_Int32;
+		protected RMethod r_SetTriangles_List_d_UInt16_p__Int32_Int32_Int32_Boolean_Int32;
 		public virtual RMethod RSetTriangles_List_d_UInt16_p__Int32_Int32_Int32_Boolean_Int32
 		{
 			get
 			{
-				if(r_RSetTriangles_List_d_UInt16_p__Int32_Int32_Int32_Boolean_Int32 == null)
+				if(r_SetTriangles_List_d_UInt16_p__Int32_Int32_Int32_Boolean_Int32 == null)
 				{
-					r_RSetTriangles_List_d_UInt16_p__Int32_Int32_Int32_Boolean_Int32 = new(this, "SetTriangles", 0, typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(System.UInt16)), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Boolean), typeof(System.Int32));
-					r_RSetTriangles_List_d_UInt16_p__Int32_Int32_Int32_Boolean_Int32.SetBelong(this.instance);
+					r_SetTriangles_List_d_UInt16_p__Int32_Int32_Int32_Boolean_Int32 = new(this, "SetTriangles", 0, typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(System.UInt16)), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Boolean), typeof(System.Int32));
+					r_SetTriangles_List_d_UInt16_p__Int32_Int32_Int32_Boolean_Int32.SetBelong(this.instance);
 				}
-				return r_RSetTriangles_List_d_UInt16_p__Int32_Int32_Int32_Boolean_Int32;
+				return r_SetTriangles_List_d_UInt16_p__Int32_Int32_Int32_Boolean_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Void SetIndices(Int32[], UnityEngine.MeshTopology, Int32)
 		/// </summary>
-		protected RMethod r_RSetIndices_Int32Array_MeshTopology_Int32;
+		protected RMethod r_SetIndices_Int32Array_MeshTopology_Int32;
 		public virtual RMethod RSetIndices_Int32Array_MeshTopology_Int32
 		{
 			get
 			{
-				if(r_RSetIndices_Int32Array_MeshTopology_Int32 == null)
+				if(r_SetIndices_Int32Array_MeshTopology_Int32 == null)
 				{
-					r_RSetIndices_Int32Array_MeshTopology_Int32 = new(this, "SetIndices", 0, typeof(System.Int32).MakeArrayType(), typeof(UnityEngine.MeshTopology), typeof(System.Int32));
-					r_RSetIndices_Int32Array_MeshTopology_Int32.SetBelong(this.instance);
+					r_SetIndices_Int32Array_MeshTopology_Int32 = new(this, "SetIndices", 0, typeof(System.Int32).MakeArrayType(), typeof(UnityEngine.MeshTopology), typeof(System.Int32));
+					r_SetIndices_Int32Array_MeshTopology_Int32.SetBelong(this.instance);
 				}
-				return r_RSetIndices_Int32Array_MeshTopology_Int32;
+				return r_SetIndices_Int32Array_MeshTopology_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Void SetIndices(Int32[], UnityEngine.MeshTopology, Int32, Boolean)
 		/// </summary>
-		protected RMethod r_RSetIndices_Int32Array_MeshTopology_Int32_Boolean;
+		protected RMethod r_SetIndices_Int32Array_MeshTopology_Int32_Boolean;
 		public virtual RMethod RSetIndices_Int32Array_MeshTopology_Int32_Boolean
 		{
 			get
 			{
-				if(r_RSetIndices_Int32Array_MeshTopology_Int32_Boolean == null)
+				if(r_SetIndices_Int32Array_MeshTopology_Int32_Boolean == null)
 				{
-					r_RSetIndices_Int32Array_MeshTopology_Int32_Boolean = new(this, "SetIndices", 0, typeof(System.Int32).MakeArrayType(), typeof(UnityEngine.MeshTopology), typeof(System.Int32), typeof(System.Boolean));
-					r_RSetIndices_Int32Array_MeshTopology_Int32_Boolean.SetBelong(this.instance);
+					r_SetIndices_Int32Array_MeshTopology_Int32_Boolean = new(this, "SetIndices", 0, typeof(System.Int32).MakeArrayType(), typeof(UnityEngine.MeshTopology), typeof(System.Int32), typeof(System.Boolean));
+					r_SetIndices_Int32Array_MeshTopology_Int32_Boolean.SetBelong(this.instance);
 				}
-				return r_RSetIndices_Int32Array_MeshTopology_Int32_Boolean;
+				return r_SetIndices_Int32Array_MeshTopology_Int32_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Void SetIndices(Int32[], UnityEngine.MeshTopology, Int32, Boolean, Int32)
 		/// </summary>
-		protected RMethod r_RSetIndices_Int32Array_MeshTopology_Int32_Boolean_Int32;
+		protected RMethod r_SetIndices_Int32Array_MeshTopology_Int32_Boolean_Int32;
 		public virtual RMethod RSetIndices_Int32Array_MeshTopology_Int32_Boolean_Int32
 		{
 			get
 			{
-				if(r_RSetIndices_Int32Array_MeshTopology_Int32_Boolean_Int32 == null)
+				if(r_SetIndices_Int32Array_MeshTopology_Int32_Boolean_Int32 == null)
 				{
-					r_RSetIndices_Int32Array_MeshTopology_Int32_Boolean_Int32 = new(this, "SetIndices", 0, typeof(System.Int32).MakeArrayType(), typeof(UnityEngine.MeshTopology), typeof(System.Int32), typeof(System.Boolean), typeof(System.Int32));
-					r_RSetIndices_Int32Array_MeshTopology_Int32_Boolean_Int32.SetBelong(this.instance);
+					r_SetIndices_Int32Array_MeshTopology_Int32_Boolean_Int32 = new(this, "SetIndices", 0, typeof(System.Int32).MakeArrayType(), typeof(UnityEngine.MeshTopology), typeof(System.Int32), typeof(System.Boolean), typeof(System.Int32));
+					r_SetIndices_Int32Array_MeshTopology_Int32_Boolean_Int32.SetBelong(this.instance);
 				}
-				return r_RSetIndices_Int32Array_MeshTopology_Int32_Boolean_Int32;
+				return r_SetIndices_Int32Array_MeshTopology_Int32_Boolean_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Void SetIndices(Int32[], Int32, Int32, UnityEngine.MeshTopology, Int32, Boolean, Int32)
 		/// </summary>
-		protected RMethod r_RSetIndices_Int32Array_Int32_Int32_MeshTopology_Int32_Boolean_Int32;
+		protected RMethod r_SetIndices_Int32Array_Int32_Int32_MeshTopology_Int32_Boolean_Int32;
 		public virtual RMethod RSetIndices_Int32Array_Int32_Int32_MeshTopology_Int32_Boolean_Int32
 		{
 			get
 			{
-				if(r_RSetIndices_Int32Array_Int32_Int32_MeshTopology_Int32_Boolean_Int32 == null)
+				if(r_SetIndices_Int32Array_Int32_Int32_MeshTopology_Int32_Boolean_Int32 == null)
 				{
-					r_RSetIndices_Int32Array_Int32_Int32_MeshTopology_Int32_Boolean_Int32 = new(this, "SetIndices", 0, typeof(System.Int32).MakeArrayType(), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.MeshTopology), typeof(System.Int32), typeof(System.Boolean), typeof(System.Int32));
-					r_RSetIndices_Int32Array_Int32_Int32_MeshTopology_Int32_Boolean_Int32.SetBelong(this.instance);
+					r_SetIndices_Int32Array_Int32_Int32_MeshTopology_Int32_Boolean_Int32 = new(this, "SetIndices", 0, typeof(System.Int32).MakeArrayType(), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.MeshTopology), typeof(System.Int32), typeof(System.Boolean), typeof(System.Int32));
+					r_SetIndices_Int32Array_Int32_Int32_MeshTopology_Int32_Boolean_Int32.SetBelong(this.instance);
 				}
-				return r_RSetIndices_Int32Array_Int32_Int32_MeshTopology_Int32_Boolean_Int32;
+				return r_SetIndices_Int32Array_Int32_Int32_MeshTopology_Int32_Boolean_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Void SetIndices(UInt16[], UnityEngine.MeshTopology, Int32, Boolean, Int32)
 		/// </summary>
-		protected RMethod r_RSetIndices_UInt16Array_MeshTopology_Int32_Boolean_Int32;
+		protected RMethod r_SetIndices_UInt16Array_MeshTopology_Int32_Boolean_Int32;
 		public virtual RMethod RSetIndices_UInt16Array_MeshTopology_Int32_Boolean_Int32
 		{
 			get
 			{
-				if(r_RSetIndices_UInt16Array_MeshTopology_Int32_Boolean_Int32 == null)
+				if(r_SetIndices_UInt16Array_MeshTopology_Int32_Boolean_Int32 == null)
 				{
-					r_RSetIndices_UInt16Array_MeshTopology_Int32_Boolean_Int32 = new(this, "SetIndices", 0, typeof(System.UInt16).MakeArrayType(), typeof(UnityEngine.MeshTopology), typeof(System.Int32), typeof(System.Boolean), typeof(System.Int32));
-					r_RSetIndices_UInt16Array_MeshTopology_Int32_Boolean_Int32.SetBelong(this.instance);
+					r_SetIndices_UInt16Array_MeshTopology_Int32_Boolean_Int32 = new(this, "SetIndices", 0, typeof(System.UInt16).MakeArrayType(), typeof(UnityEngine.MeshTopology), typeof(System.Int32), typeof(System.Boolean), typeof(System.Int32));
+					r_SetIndices_UInt16Array_MeshTopology_Int32_Boolean_Int32.SetBelong(this.instance);
 				}
-				return r_RSetIndices_UInt16Array_MeshTopology_Int32_Boolean_Int32;
+				return r_SetIndices_UInt16Array_MeshTopology_Int32_Boolean_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Void SetIndices(UInt16[], Int32, Int32, UnityEngine.MeshTopology, Int32, Boolean, Int32)
 		/// </summary>
-		protected RMethod r_RSetIndices_UInt16Array_Int32_Int32_MeshTopology_Int32_Boolean_Int32;
+		protected RMethod r_SetIndices_UInt16Array_Int32_Int32_MeshTopology_Int32_Boolean_Int32;
 		public virtual RMethod RSetIndices_UInt16Array_Int32_Int32_MeshTopology_Int32_Boolean_Int32
 		{
 			get
 			{
-				if(r_RSetIndices_UInt16Array_Int32_Int32_MeshTopology_Int32_Boolean_Int32 == null)
+				if(r_SetIndices_UInt16Array_Int32_Int32_MeshTopology_Int32_Boolean_Int32 == null)
 				{
-					r_RSetIndices_UInt16Array_Int32_Int32_MeshTopology_Int32_Boolean_Int32 = new(this, "SetIndices", 0, typeof(System.UInt16).MakeArrayType(), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.MeshTopology), typeof(System.Int32), typeof(System.Boolean), typeof(System.Int32));
-					r_RSetIndices_UInt16Array_Int32_Int32_MeshTopology_Int32_Boolean_Int32.SetBelong(this.instance);
+					r_SetIndices_UInt16Array_Int32_Int32_MeshTopology_Int32_Boolean_Int32 = new(this, "SetIndices", 0, typeof(System.UInt16).MakeArrayType(), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.MeshTopology), typeof(System.Int32), typeof(System.Boolean), typeof(System.Int32));
+					r_SetIndices_UInt16Array_Int32_Int32_MeshTopology_Int32_Boolean_Int32.SetBelong(this.instance);
 				}
-				return r_RSetIndices_UInt16Array_Int32_Int32_MeshTopology_Int32_Boolean_Int32;
+				return r_SetIndices_UInt16Array_Int32_Int32_MeshTopology_Int32_Boolean_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Void SetIndices[T](Unity.Collections.NativeArray`1[T], UnityEngine.MeshTopology, Int32, Boolean, Int32)
 		/// </summary>
-		protected RMethod r_RSetIndices_GT_NativeArray_d_T_p__MeshTopology_Int32_Boolean_Int32;
+		protected RMethod r_SetIndices_GT_NativeArray_d_T_p__MeshTopology_Int32_Boolean_Int32;
 		public virtual RMethod RSetIndices_GT_NativeArray_d_T_p__MeshTopology_Int32_Boolean_Int32
 		{
 			get
 			{
-				if(r_RSetIndices_GT_NativeArray_d_T_p__MeshTopology_Int32_Boolean_Int32 == null)
+				if(r_SetIndices_GT_NativeArray_d_T_p__MeshTopology_Int32_Boolean_Int32 == null)
 				{
-					r_RSetIndices_GT_NativeArray_d_T_p__MeshTopology_Int32_Boolean_Int32 = new(this, "SetIndices", 1, typeof(Unity.Collections.NativeArray<>).MakeGenericType(Type.MakeGenericMethodParameter(0)), typeof(UnityEngine.MeshTopology), typeof(System.Int32), typeof(System.Boolean), typeof(System.Int32));
-					r_RSetIndices_GT_NativeArray_d_T_p__MeshTopology_Int32_Boolean_Int32.SetBelong(this.instance);
+					r_SetIndices_GT_NativeArray_d_T_p__MeshTopology_Int32_Boolean_Int32 = new(this, "SetIndices", 1, typeof(Unity.Collections.NativeArray<>).MakeGenericType(Type.MakeGenericMethodParameter(0)), typeof(UnityEngine.MeshTopology), typeof(System.Int32), typeof(System.Boolean), typeof(System.Int32));
+					r_SetIndices_GT_NativeArray_d_T_p__MeshTopology_Int32_Boolean_Int32.SetBelong(this.instance);
 				}
-				return r_RSetIndices_GT_NativeArray_d_T_p__MeshTopology_Int32_Boolean_Int32;
+				return r_SetIndices_GT_NativeArray_d_T_p__MeshTopology_Int32_Boolean_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Void SetIndices[T](Unity.Collections.NativeArray`1[T], Int32, Int32, UnityEngine.MeshTopology, Int32, Boolean, Int32)
 		/// </summary>
-		protected RMethod r_RSetIndices_GT_NativeArray_d_T_p__Int32_Int32_MeshTopology_Int32_Boolean_Int32;
+		protected RMethod r_SetIndices_GT_NativeArray_d_T_p__Int32_Int32_MeshTopology_Int32_Boolean_Int32;
 		public virtual RMethod RSetIndices_GT_NativeArray_d_T_p__Int32_Int32_MeshTopology_Int32_Boolean_Int32
 		{
 			get
 			{
-				if(r_RSetIndices_GT_NativeArray_d_T_p__Int32_Int32_MeshTopology_Int32_Boolean_Int32 == null)
+				if(r_SetIndices_GT_NativeArray_d_T_p__Int32_Int32_MeshTopology_Int32_Boolean_Int32 == null)
 				{
-					r_RSetIndices_GT_NativeArray_d_T_p__Int32_Int32_MeshTopology_Int32_Boolean_Int32 = new(this, "SetIndices", 1, typeof(Unity.Collections.NativeArray<>).MakeGenericType(Type.MakeGenericMethodParameter(0)), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.MeshTopology), typeof(System.Int32), typeof(System.Boolean), typeof(System.Int32));
-					r_RSetIndices_GT_NativeArray_d_T_p__Int32_Int32_MeshTopology_Int32_Boolean_Int32.SetBelong(this.instance);
+					r_SetIndices_GT_NativeArray_d_T_p__Int32_Int32_MeshTopology_Int32_Boolean_Int32 = new(this, "SetIndices", 1, typeof(Unity.Collections.NativeArray<>).MakeGenericType(Type.MakeGenericMethodParameter(0)), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.MeshTopology), typeof(System.Int32), typeof(System.Boolean), typeof(System.Int32));
+					r_SetIndices_GT_NativeArray_d_T_p__Int32_Int32_MeshTopology_Int32_Boolean_Int32.SetBelong(this.instance);
 				}
-				return r_RSetIndices_GT_NativeArray_d_T_p__Int32_Int32_MeshTopology_Int32_Boolean_Int32;
+				return r_SetIndices_GT_NativeArray_d_T_p__Int32_Int32_MeshTopology_Int32_Boolean_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Void SetIndices(System.Collections.Generic.List`1[System.Int32], UnityEngine.MeshTopology, Int32, Boolean, Int32)
 		/// </summary>
-		protected RMethod r_RSetIndices_List_d_Int32_p__MeshTopology_Int32_Boolean_Int32;
+		protected RMethod r_SetIndices_List_d_Int32_p__MeshTopology_Int32_Boolean_Int32;
 		public virtual RMethod RSetIndices_List_d_Int32_p__MeshTopology_Int32_Boolean_Int32
 		{
 			get
 			{
-				if(r_RSetIndices_List_d_Int32_p__MeshTopology_Int32_Boolean_Int32 == null)
+				if(r_SetIndices_List_d_Int32_p__MeshTopology_Int32_Boolean_Int32 == null)
 				{
-					r_RSetIndices_List_d_Int32_p__MeshTopology_Int32_Boolean_Int32 = new(this, "SetIndices", 0, typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(System.Int32)), typeof(UnityEngine.MeshTopology), typeof(System.Int32), typeof(System.Boolean), typeof(System.Int32));
-					r_RSetIndices_List_d_Int32_p__MeshTopology_Int32_Boolean_Int32.SetBelong(this.instance);
+					r_SetIndices_List_d_Int32_p__MeshTopology_Int32_Boolean_Int32 = new(this, "SetIndices", 0, typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(System.Int32)), typeof(UnityEngine.MeshTopology), typeof(System.Int32), typeof(System.Boolean), typeof(System.Int32));
+					r_SetIndices_List_d_Int32_p__MeshTopology_Int32_Boolean_Int32.SetBelong(this.instance);
 				}
-				return r_RSetIndices_List_d_Int32_p__MeshTopology_Int32_Boolean_Int32;
+				return r_SetIndices_List_d_Int32_p__MeshTopology_Int32_Boolean_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Void SetIndices(System.Collections.Generic.List`1[System.Int32], Int32, Int32, UnityEngine.MeshTopology, Int32, Boolean, Int32)
 		/// </summary>
-		protected RMethod r_RSetIndices_List_d_Int32_p__Int32_Int32_MeshTopology_Int32_Boolean_Int32;
+		protected RMethod r_SetIndices_List_d_Int32_p__Int32_Int32_MeshTopology_Int32_Boolean_Int32;
 		public virtual RMethod RSetIndices_List_d_Int32_p__Int32_Int32_MeshTopology_Int32_Boolean_Int32
 		{
 			get
 			{
-				if(r_RSetIndices_List_d_Int32_p__Int32_Int32_MeshTopology_Int32_Boolean_Int32 == null)
+				if(r_SetIndices_List_d_Int32_p__Int32_Int32_MeshTopology_Int32_Boolean_Int32 == null)
 				{
-					r_RSetIndices_List_d_Int32_p__Int32_Int32_MeshTopology_Int32_Boolean_Int32 = new(this, "SetIndices", 0, typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(System.Int32)), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.MeshTopology), typeof(System.Int32), typeof(System.Boolean), typeof(System.Int32));
-					r_RSetIndices_List_d_Int32_p__Int32_Int32_MeshTopology_Int32_Boolean_Int32.SetBelong(this.instance);
+					r_SetIndices_List_d_Int32_p__Int32_Int32_MeshTopology_Int32_Boolean_Int32 = new(this, "SetIndices", 0, typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(System.Int32)), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.MeshTopology), typeof(System.Int32), typeof(System.Boolean), typeof(System.Int32));
+					r_SetIndices_List_d_Int32_p__Int32_Int32_MeshTopology_Int32_Boolean_Int32.SetBelong(this.instance);
 				}
-				return r_RSetIndices_List_d_Int32_p__Int32_Int32_MeshTopology_Int32_Boolean_Int32;
+				return r_SetIndices_List_d_Int32_p__Int32_Int32_MeshTopology_Int32_Boolean_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Void SetIndices(System.Collections.Generic.List`1[System.UInt16], UnityEngine.MeshTopology, Int32, Boolean, Int32)
 		/// </summary>
-		protected RMethod r_RSetIndices_List_d_UInt16_p__MeshTopology_Int32_Boolean_Int32;
+		protected RMethod r_SetIndices_List_d_UInt16_p__MeshTopology_Int32_Boolean_Int32;
 		public virtual RMethod RSetIndices_List_d_UInt16_p__MeshTopology_Int32_Boolean_Int32
 		{
 			get
 			{
-				if(r_RSetIndices_List_d_UInt16_p__MeshTopology_Int32_Boolean_Int32 == null)
+				if(r_SetIndices_List_d_UInt16_p__MeshTopology_Int32_Boolean_Int32 == null)
 				{
-					r_RSetIndices_List_d_UInt16_p__MeshTopology_Int32_Boolean_Int32 = new(this, "SetIndices", 0, typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(System.UInt16)), typeof(UnityEngine.MeshTopology), typeof(System.Int32), typeof(System.Boolean), typeof(System.Int32));
-					r_RSetIndices_List_d_UInt16_p__MeshTopology_Int32_Boolean_Int32.SetBelong(this.instance);
+					r_SetIndices_List_d_UInt16_p__MeshTopology_Int32_Boolean_Int32 = new(this, "SetIndices", 0, typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(System.UInt16)), typeof(UnityEngine.MeshTopology), typeof(System.Int32), typeof(System.Boolean), typeof(System.Int32));
+					r_SetIndices_List_d_UInt16_p__MeshTopology_Int32_Boolean_Int32.SetBelong(this.instance);
 				}
-				return r_RSetIndices_List_d_UInt16_p__MeshTopology_Int32_Boolean_Int32;
+				return r_SetIndices_List_d_UInt16_p__MeshTopology_Int32_Boolean_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Void SetIndices(System.Collections.Generic.List`1[System.UInt16], Int32, Int32, UnityEngine.MeshTopology, Int32, Boolean, Int32)
 		/// </summary>
-		protected RMethod r_RSetIndices_List_d_UInt16_p__Int32_Int32_MeshTopology_Int32_Boolean_Int32;
+		protected RMethod r_SetIndices_List_d_UInt16_p__Int32_Int32_MeshTopology_Int32_Boolean_Int32;
 		public virtual RMethod RSetIndices_List_d_UInt16_p__Int32_Int32_MeshTopology_Int32_Boolean_Int32
 		{
 			get
 			{
-				if(r_RSetIndices_List_d_UInt16_p__Int32_Int32_MeshTopology_Int32_Boolean_Int32 == null)
+				if(r_SetIndices_List_d_UInt16_p__Int32_Int32_MeshTopology_Int32_Boolean_Int32 == null)
 				{
-					r_RSetIndices_List_d_UInt16_p__Int32_Int32_MeshTopology_Int32_Boolean_Int32 = new(this, "SetIndices", 0, typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(System.UInt16)), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.MeshTopology), typeof(System.Int32), typeof(System.Boolean), typeof(System.Int32));
-					r_RSetIndices_List_d_UInt16_p__Int32_Int32_MeshTopology_Int32_Boolean_Int32.SetBelong(this.instance);
+					r_SetIndices_List_d_UInt16_p__Int32_Int32_MeshTopology_Int32_Boolean_Int32 = new(this, "SetIndices", 0, typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(System.UInt16)), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.MeshTopology), typeof(System.Int32), typeof(System.Boolean), typeof(System.Int32));
+					r_SetIndices_List_d_UInt16_p__Int32_Int32_MeshTopology_Int32_Boolean_Int32.SetBelong(this.instance);
 				}
-				return r_RSetIndices_List_d_UInt16_p__Int32_Int32_MeshTopology_Int32_Boolean_Int32;
+				return r_SetIndices_List_d_UInt16_p__Int32_Int32_MeshTopology_Int32_Boolean_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Void SetSubMeshes(UnityEngine.Rendering.SubMeshDescriptor[], Int32, Int32, UnityEngine.Rendering.MeshUpdateFlags)
 		/// </summary>
-		protected RMethod r_RSetSubMeshes_SubMeshDescriptorArray_Int32_Int32_MeshUpdateFlags;
+		protected RMethod r_SetSubMeshes_SubMeshDescriptorArray_Int32_Int32_MeshUpdateFlags;
 		public virtual RMethod RSetSubMeshes_SubMeshDescriptorArray_Int32_Int32_MeshUpdateFlags
 		{
 			get
 			{
-				if(r_RSetSubMeshes_SubMeshDescriptorArray_Int32_Int32_MeshUpdateFlags == null)
+				if(r_SetSubMeshes_SubMeshDescriptorArray_Int32_Int32_MeshUpdateFlags == null)
 				{
-					r_RSetSubMeshes_SubMeshDescriptorArray_Int32_Int32_MeshUpdateFlags = new(this, "SetSubMeshes", 0, typeof(UnityEngine.Rendering.SubMeshDescriptor).MakeArrayType(), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.Rendering.MeshUpdateFlags));
-					r_RSetSubMeshes_SubMeshDescriptorArray_Int32_Int32_MeshUpdateFlags.SetBelong(this.instance);
+					r_SetSubMeshes_SubMeshDescriptorArray_Int32_Int32_MeshUpdateFlags = new(this, "SetSubMeshes", 0, typeof(UnityEngine.Rendering.SubMeshDescriptor).MakeArrayType(), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.Rendering.MeshUpdateFlags));
+					r_SetSubMeshes_SubMeshDescriptorArray_Int32_Int32_MeshUpdateFlags.SetBelong(this.instance);
 				}
-				return r_RSetSubMeshes_SubMeshDescriptorArray_Int32_Int32_MeshUpdateFlags;
+				return r_SetSubMeshes_SubMeshDescriptorArray_Int32_Int32_MeshUpdateFlags;
 			}
 		}
 
 		/// <summary>
 		/// Void SetSubMeshes(UnityEngine.Rendering.SubMeshDescriptor[], UnityEngine.Rendering.MeshUpdateFlags)
 		/// </summary>
-		protected RMethod r_RSetSubMeshes_SubMeshDescriptorArray_MeshUpdateFlags;
+		protected RMethod r_SetSubMeshes_SubMeshDescriptorArray_MeshUpdateFlags;
 		public virtual RMethod RSetSubMeshes_SubMeshDescriptorArray_MeshUpdateFlags
 		{
 			get
 			{
-				if(r_RSetSubMeshes_SubMeshDescriptorArray_MeshUpdateFlags == null)
+				if(r_SetSubMeshes_SubMeshDescriptorArray_MeshUpdateFlags == null)
 				{
-					r_RSetSubMeshes_SubMeshDescriptorArray_MeshUpdateFlags = new(this, "SetSubMeshes", 0, typeof(UnityEngine.Rendering.SubMeshDescriptor).MakeArrayType(), typeof(UnityEngine.Rendering.MeshUpdateFlags));
-					r_RSetSubMeshes_SubMeshDescriptorArray_MeshUpdateFlags.SetBelong(this.instance);
+					r_SetSubMeshes_SubMeshDescriptorArray_MeshUpdateFlags = new(this, "SetSubMeshes", 0, typeof(UnityEngine.Rendering.SubMeshDescriptor).MakeArrayType(), typeof(UnityEngine.Rendering.MeshUpdateFlags));
+					r_SetSubMeshes_SubMeshDescriptorArray_MeshUpdateFlags.SetBelong(this.instance);
 				}
-				return r_RSetSubMeshes_SubMeshDescriptorArray_MeshUpdateFlags;
+				return r_SetSubMeshes_SubMeshDescriptorArray_MeshUpdateFlags;
 			}
 		}
 
 		/// <summary>
 		/// Void SetSubMeshes(System.Collections.Generic.List`1[UnityEngine.Rendering.SubMeshDescriptor], Int32, Int32, UnityEngine.Rendering.MeshUpdateFlags)
 		/// </summary>
-		protected RMethod r_RSetSubMeshes_List_d_SubMeshDescriptor_p__Int32_Int32_MeshUpdateFlags;
+		protected RMethod r_SetSubMeshes_List_d_SubMeshDescriptor_p__Int32_Int32_MeshUpdateFlags;
 		public virtual RMethod RSetSubMeshes_List_d_SubMeshDescriptor_p__Int32_Int32_MeshUpdateFlags
 		{
 			get
 			{
-				if(r_RSetSubMeshes_List_d_SubMeshDescriptor_p__Int32_Int32_MeshUpdateFlags == null)
+				if(r_SetSubMeshes_List_d_SubMeshDescriptor_p__Int32_Int32_MeshUpdateFlags == null)
 				{
-					r_RSetSubMeshes_List_d_SubMeshDescriptor_p__Int32_Int32_MeshUpdateFlags = new(this, "SetSubMeshes", 0, typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(UnityEngine.Rendering.SubMeshDescriptor)), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.Rendering.MeshUpdateFlags));
-					r_RSetSubMeshes_List_d_SubMeshDescriptor_p__Int32_Int32_MeshUpdateFlags.SetBelong(this.instance);
+					r_SetSubMeshes_List_d_SubMeshDescriptor_p__Int32_Int32_MeshUpdateFlags = new(this, "SetSubMeshes", 0, typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(UnityEngine.Rendering.SubMeshDescriptor)), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.Rendering.MeshUpdateFlags));
+					r_SetSubMeshes_List_d_SubMeshDescriptor_p__Int32_Int32_MeshUpdateFlags.SetBelong(this.instance);
 				}
-				return r_RSetSubMeshes_List_d_SubMeshDescriptor_p__Int32_Int32_MeshUpdateFlags;
+				return r_SetSubMeshes_List_d_SubMeshDescriptor_p__Int32_Int32_MeshUpdateFlags;
 			}
 		}
 
 		/// <summary>
 		/// Void SetSubMeshes(System.Collections.Generic.List`1[UnityEngine.Rendering.SubMeshDescriptor], UnityEngine.Rendering.MeshUpdateFlags)
 		/// </summary>
-		protected RMethod r_RSetSubMeshes_List_d_SubMeshDescriptor_p__MeshUpdateFlags;
+		protected RMethod r_SetSubMeshes_List_d_SubMeshDescriptor_p__MeshUpdateFlags;
 		public virtual RMethod RSetSubMeshes_List_d_SubMeshDescriptor_p__MeshUpdateFlags
 		{
 			get
 			{
-				if(r_RSetSubMeshes_List_d_SubMeshDescriptor_p__MeshUpdateFlags == null)
+				if(r_SetSubMeshes_List_d_SubMeshDescriptor_p__MeshUpdateFlags == null)
 				{
-					r_RSetSubMeshes_List_d_SubMeshDescriptor_p__MeshUpdateFlags = new(this, "SetSubMeshes", 0, typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(UnityEngine.Rendering.SubMeshDescriptor)), typeof(UnityEngine.Rendering.MeshUpdateFlags));
-					r_RSetSubMeshes_List_d_SubMeshDescriptor_p__MeshUpdateFlags.SetBelong(this.instance);
+					r_SetSubMeshes_List_d_SubMeshDescriptor_p__MeshUpdateFlags = new(this, "SetSubMeshes", 0, typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(UnityEngine.Rendering.SubMeshDescriptor)), typeof(UnityEngine.Rendering.MeshUpdateFlags));
+					r_SetSubMeshes_List_d_SubMeshDescriptor_p__MeshUpdateFlags.SetBelong(this.instance);
 				}
-				return r_RSetSubMeshes_List_d_SubMeshDescriptor_p__MeshUpdateFlags;
+				return r_SetSubMeshes_List_d_SubMeshDescriptor_p__MeshUpdateFlags;
 			}
 		}
 
 		/// <summary>
 		/// Void SetSubMeshes[T](Unity.Collections.NativeArray`1[T], Int32, Int32, UnityEngine.Rendering.MeshUpdateFlags)
 		/// </summary>
-		protected RMethod r_RSetSubMeshes_GT_NativeArray_d_T_p__Int32_Int32_MeshUpdateFlags;
+		protected RMethod r_SetSubMeshes_GT_NativeArray_d_T_p__Int32_Int32_MeshUpdateFlags;
 		public virtual RMethod RSetSubMeshes_GT_NativeArray_d_T_p__Int32_Int32_MeshUpdateFlags
 		{
 			get
 			{
-				if(r_RSetSubMeshes_GT_NativeArray_d_T_p__Int32_Int32_MeshUpdateFlags == null)
+				if(r_SetSubMeshes_GT_NativeArray_d_T_p__Int32_Int32_MeshUpdateFlags == null)
 				{
-					r_RSetSubMeshes_GT_NativeArray_d_T_p__Int32_Int32_MeshUpdateFlags = new(this, "SetSubMeshes", 1, typeof(Unity.Collections.NativeArray<>).MakeGenericType(Type.MakeGenericMethodParameter(0)), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.Rendering.MeshUpdateFlags));
-					r_RSetSubMeshes_GT_NativeArray_d_T_p__Int32_Int32_MeshUpdateFlags.SetBelong(this.instance);
+					r_SetSubMeshes_GT_NativeArray_d_T_p__Int32_Int32_MeshUpdateFlags = new(this, "SetSubMeshes", 1, typeof(Unity.Collections.NativeArray<>).MakeGenericType(Type.MakeGenericMethodParameter(0)), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.Rendering.MeshUpdateFlags));
+					r_SetSubMeshes_GT_NativeArray_d_T_p__Int32_Int32_MeshUpdateFlags.SetBelong(this.instance);
 				}
-				return r_RSetSubMeshes_GT_NativeArray_d_T_p__Int32_Int32_MeshUpdateFlags;
+				return r_SetSubMeshes_GT_NativeArray_d_T_p__Int32_Int32_MeshUpdateFlags;
 			}
 		}
 
 		/// <summary>
 		/// Void SetSubMeshes[T](Unity.Collections.NativeArray`1[T], UnityEngine.Rendering.MeshUpdateFlags)
 		/// </summary>
-		protected RMethod r_RSetSubMeshes_GT_NativeArray_d_T_p__MeshUpdateFlags;
+		protected RMethod r_SetSubMeshes_GT_NativeArray_d_T_p__MeshUpdateFlags;
 		public virtual RMethod RSetSubMeshes_GT_NativeArray_d_T_p__MeshUpdateFlags
 		{
 			get
 			{
-				if(r_RSetSubMeshes_GT_NativeArray_d_T_p__MeshUpdateFlags == null)
+				if(r_SetSubMeshes_GT_NativeArray_d_T_p__MeshUpdateFlags == null)
 				{
-					r_RSetSubMeshes_GT_NativeArray_d_T_p__MeshUpdateFlags = new(this, "SetSubMeshes", 1, typeof(Unity.Collections.NativeArray<>).MakeGenericType(Type.MakeGenericMethodParameter(0)), typeof(UnityEngine.Rendering.MeshUpdateFlags));
-					r_RSetSubMeshes_GT_NativeArray_d_T_p__MeshUpdateFlags.SetBelong(this.instance);
+					r_SetSubMeshes_GT_NativeArray_d_T_p__MeshUpdateFlags = new(this, "SetSubMeshes", 1, typeof(Unity.Collections.NativeArray<>).MakeGenericType(Type.MakeGenericMethodParameter(0)), typeof(UnityEngine.Rendering.MeshUpdateFlags));
+					r_SetSubMeshes_GT_NativeArray_d_T_p__MeshUpdateFlags.SetBelong(this.instance);
 				}
-				return r_RSetSubMeshes_GT_NativeArray_d_T_p__MeshUpdateFlags;
+				return r_SetSubMeshes_GT_NativeArray_d_T_p__MeshUpdateFlags;
 			}
 		}
 
 		/// <summary>
 		/// Void GetBindposes(System.Collections.Generic.List`1[UnityEngine.Matrix4x4])
 		/// </summary>
-		protected RMethod r_RGetBindposes_List_d_Matrix4x4_p_;
+		protected RMethod r_GetBindposes_List_d_Matrix4x4_p_;
 		public virtual RMethod RGetBindposes_List_d_Matrix4x4_p_
 		{
 			get
 			{
-				if(r_RGetBindposes_List_d_Matrix4x4_p_ == null)
+				if(r_GetBindposes_List_d_Matrix4x4_p_ == null)
 				{
-					r_RGetBindposes_List_d_Matrix4x4_p_ = new(this, "GetBindposes", 0, typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(UnityEngine.Matrix4x4)));
-					r_RGetBindposes_List_d_Matrix4x4_p_.SetBelong(this.instance);
+					r_GetBindposes_List_d_Matrix4x4_p_ = new(this, "GetBindposes", 0, typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(UnityEngine.Matrix4x4)));
+					r_GetBindposes_List_d_Matrix4x4_p_.SetBelong(this.instance);
 				}
-				return r_RGetBindposes_List_d_Matrix4x4_p_;
+				return r_GetBindposes_List_d_Matrix4x4_p_;
 			}
 		}
 
 		/// <summary>
 		/// Void GetBoneWeights(System.Collections.Generic.List`1[UnityEngine.BoneWeight])
 		/// </summary>
-		protected RMethod r_RGetBoneWeights_List_d_BoneWeight_p_;
+		protected RMethod r_GetBoneWeights_List_d_BoneWeight_p_;
 		public virtual RMethod RGetBoneWeights_List_d_BoneWeight_p_
 		{
 			get
 			{
-				if(r_RGetBoneWeights_List_d_BoneWeight_p_ == null)
+				if(r_GetBoneWeights_List_d_BoneWeight_p_ == null)
 				{
-					r_RGetBoneWeights_List_d_BoneWeight_p_ = new(this, "GetBoneWeights", 0, typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(UnityEngine.BoneWeight)));
-					r_RGetBoneWeights_List_d_BoneWeight_p_.SetBelong(this.instance);
+					r_GetBoneWeights_List_d_BoneWeight_p_ = new(this, "GetBoneWeights", 0, typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(UnityEngine.BoneWeight)));
+					r_GetBoneWeights_List_d_BoneWeight_p_.SetBelong(this.instance);
 				}
-				return r_RGetBoneWeights_List_d_BoneWeight_p_;
+				return r_GetBoneWeights_List_d_BoneWeight_p_;
 			}
 		}
 
 		/// <summary>
 		/// Void Clear(Boolean)
 		/// </summary>
-		protected RMethod r_RClear_Boolean;
+		protected RMethod r_Clear_Boolean;
 		public virtual RMethod RClear_Boolean
 		{
 			get
 			{
-				if(r_RClear_Boolean == null)
+				if(r_Clear_Boolean == null)
 				{
-					r_RClear_Boolean = new(this, "Clear", 0, typeof(System.Boolean));
-					r_RClear_Boolean.SetBelong(this.instance);
+					r_Clear_Boolean = new(this, "Clear", 0, typeof(System.Boolean));
+					r_Clear_Boolean.SetBelong(this.instance);
 				}
-				return r_RClear_Boolean;
+				return r_Clear_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Void Clear()
 		/// </summary>
-		protected RMethod r_RClear;
+		protected RMethod r_Clear;
 		public virtual RMethod RClear
 		{
 			get
 			{
-				if(r_RClear == null)
+				if(r_Clear == null)
 				{
-					r_RClear = new(this, "Clear", 0);
-					r_RClear.SetBelong(this.instance);
+					r_Clear = new(this, "Clear", 0);
+					r_Clear.SetBelong(this.instance);
 				}
-				return r_RClear;
+				return r_Clear;
 			}
 		}
 
 		/// <summary>
 		/// Void RecalculateBounds()
 		/// </summary>
-		protected RMethod r_RRecalculateBounds;
+		protected RMethod r_RecalculateBounds;
 		public virtual RMethod RRecalculateBounds
 		{
 			get
 			{
-				if(r_RRecalculateBounds == null)
+				if(r_RecalculateBounds == null)
 				{
-					r_RRecalculateBounds = new(this, "RecalculateBounds", 0);
-					r_RRecalculateBounds.SetBelong(this.instance);
+					r_RecalculateBounds = new(this, "RecalculateBounds", 0);
+					r_RecalculateBounds.SetBelong(this.instance);
 				}
-				return r_RRecalculateBounds;
+				return r_RecalculateBounds;
 			}
 		}
 
 		/// <summary>
 		/// Void RecalculateNormals()
 		/// </summary>
-		protected RMethod r_RRecalculateNormals;
+		protected RMethod r_RecalculateNormals;
 		public virtual RMethod RRecalculateNormals
 		{
 			get
 			{
-				if(r_RRecalculateNormals == null)
+				if(r_RecalculateNormals == null)
 				{
-					r_RRecalculateNormals = new(this, "RecalculateNormals", 0);
-					r_RRecalculateNormals.SetBelong(this.instance);
+					r_RecalculateNormals = new(this, "RecalculateNormals", 0);
+					r_RecalculateNormals.SetBelong(this.instance);
 				}
-				return r_RRecalculateNormals;
+				return r_RecalculateNormals;
 			}
 		}
 
 		/// <summary>
 		/// Void RecalculateTangents()
 		/// </summary>
-		protected RMethod r_RRecalculateTangents;
+		protected RMethod r_RecalculateTangents;
 		public virtual RMethod RRecalculateTangents
 		{
 			get
 			{
-				if(r_RRecalculateTangents == null)
+				if(r_RecalculateTangents == null)
 				{
-					r_RRecalculateTangents = new(this, "RecalculateTangents", 0);
-					r_RRecalculateTangents.SetBelong(this.instance);
+					r_RecalculateTangents = new(this, "RecalculateTangents", 0);
+					r_RecalculateTangents.SetBelong(this.instance);
 				}
-				return r_RRecalculateTangents;
+				return r_RecalculateTangents;
 			}
 		}
 
 		/// <summary>
 		/// Void RecalculateBounds(UnityEngine.Rendering.MeshUpdateFlags)
 		/// </summary>
-		protected RMethod r_RRecalculateBounds_MeshUpdateFlags;
+		protected RMethod r_RecalculateBounds_MeshUpdateFlags;
 		public virtual RMethod RRecalculateBounds_MeshUpdateFlags
 		{
 			get
 			{
-				if(r_RRecalculateBounds_MeshUpdateFlags == null)
+				if(r_RecalculateBounds_MeshUpdateFlags == null)
 				{
-					r_RRecalculateBounds_MeshUpdateFlags = new(this, "RecalculateBounds", 0, typeof(UnityEngine.Rendering.MeshUpdateFlags));
-					r_RRecalculateBounds_MeshUpdateFlags.SetBelong(this.instance);
+					r_RecalculateBounds_MeshUpdateFlags = new(this, "RecalculateBounds", 0, typeof(UnityEngine.Rendering.MeshUpdateFlags));
+					r_RecalculateBounds_MeshUpdateFlags.SetBelong(this.instance);
 				}
-				return r_RRecalculateBounds_MeshUpdateFlags;
+				return r_RecalculateBounds_MeshUpdateFlags;
 			}
 		}
 
 		/// <summary>
 		/// Void RecalculateNormals(UnityEngine.Rendering.MeshUpdateFlags)
 		/// </summary>
-		protected RMethod r_RRecalculateNormals_MeshUpdateFlags;
+		protected RMethod r_RecalculateNormals_MeshUpdateFlags;
 		public virtual RMethod RRecalculateNormals_MeshUpdateFlags
 		{
 			get
 			{
-				if(r_RRecalculateNormals_MeshUpdateFlags == null)
+				if(r_RecalculateNormals_MeshUpdateFlags == null)
 				{
-					r_RRecalculateNormals_MeshUpdateFlags = new(this, "RecalculateNormals", 0, typeof(UnityEngine.Rendering.MeshUpdateFlags));
-					r_RRecalculateNormals_MeshUpdateFlags.SetBelong(this.instance);
+					r_RecalculateNormals_MeshUpdateFlags = new(this, "RecalculateNormals", 0, typeof(UnityEngine.Rendering.MeshUpdateFlags));
+					r_RecalculateNormals_MeshUpdateFlags.SetBelong(this.instance);
 				}
-				return r_RRecalculateNormals_MeshUpdateFlags;
+				return r_RecalculateNormals_MeshUpdateFlags;
 			}
 		}
 
 		/// <summary>
 		/// Void RecalculateTangents(UnityEngine.Rendering.MeshUpdateFlags)
 		/// </summary>
-		protected RMethod r_RRecalculateTangents_MeshUpdateFlags;
+		protected RMethod r_RecalculateTangents_MeshUpdateFlags;
 		public virtual RMethod RRecalculateTangents_MeshUpdateFlags
 		{
 			get
 			{
-				if(r_RRecalculateTangents_MeshUpdateFlags == null)
+				if(r_RecalculateTangents_MeshUpdateFlags == null)
 				{
-					r_RRecalculateTangents_MeshUpdateFlags = new(this, "RecalculateTangents", 0, typeof(UnityEngine.Rendering.MeshUpdateFlags));
-					r_RRecalculateTangents_MeshUpdateFlags.SetBelong(this.instance);
+					r_RecalculateTangents_MeshUpdateFlags = new(this, "RecalculateTangents", 0, typeof(UnityEngine.Rendering.MeshUpdateFlags));
+					r_RecalculateTangents_MeshUpdateFlags.SetBelong(this.instance);
 				}
-				return r_RRecalculateTangents_MeshUpdateFlags;
+				return r_RecalculateTangents_MeshUpdateFlags;
 			}
 		}
 
 		/// <summary>
 		/// Void RecalculateUVDistributionMetric(Int32, Single)
 		/// </summary>
-		protected RMethod r_RRecalculateUVDistributionMetric_Int32_Single;
+		protected RMethod r_RecalculateUVDistributionMetric_Int32_Single;
 		public virtual RMethod RRecalculateUVDistributionMetric_Int32_Single
 		{
 			get
 			{
-				if(r_RRecalculateUVDistributionMetric_Int32_Single == null)
+				if(r_RecalculateUVDistributionMetric_Int32_Single == null)
 				{
-					r_RRecalculateUVDistributionMetric_Int32_Single = new(this, "RecalculateUVDistributionMetric", 0, typeof(System.Int32), typeof(System.Single));
-					r_RRecalculateUVDistributionMetric_Int32_Single.SetBelong(this.instance);
+					r_RecalculateUVDistributionMetric_Int32_Single = new(this, "RecalculateUVDistributionMetric", 0, typeof(System.Int32), typeof(System.Single));
+					r_RecalculateUVDistributionMetric_Int32_Single.SetBelong(this.instance);
 				}
-				return r_RRecalculateUVDistributionMetric_Int32_Single;
+				return r_RecalculateUVDistributionMetric_Int32_Single;
 			}
 		}
 
 		/// <summary>
 		/// Void RecalculateUVDistributionMetrics(Single)
 		/// </summary>
-		protected RMethod r_RRecalculateUVDistributionMetrics_Single;
+		protected RMethod r_RecalculateUVDistributionMetrics_Single;
 		public virtual RMethod RRecalculateUVDistributionMetrics_Single
 		{
 			get
 			{
-				if(r_RRecalculateUVDistributionMetrics_Single == null)
+				if(r_RecalculateUVDistributionMetrics_Single == null)
 				{
-					r_RRecalculateUVDistributionMetrics_Single = new(this, "RecalculateUVDistributionMetrics", 0, typeof(System.Single));
-					r_RRecalculateUVDistributionMetrics_Single.SetBelong(this.instance);
+					r_RecalculateUVDistributionMetrics_Single = new(this, "RecalculateUVDistributionMetrics", 0, typeof(System.Single));
+					r_RecalculateUVDistributionMetrics_Single.SetBelong(this.instance);
 				}
-				return r_RRecalculateUVDistributionMetrics_Single;
+				return r_RecalculateUVDistributionMetrics_Single;
 			}
 		}
 
 		/// <summary>
 		/// Void MarkDynamic()
 		/// </summary>
-		protected RMethod r_RMarkDynamic;
+		protected RMethod r_MarkDynamic;
 		public virtual RMethod RMarkDynamic
 		{
 			get
 			{
-				if(r_RMarkDynamic == null)
+				if(r_MarkDynamic == null)
 				{
-					r_RMarkDynamic = new(this, "MarkDynamic", 0);
-					r_RMarkDynamic.SetBelong(this.instance);
+					r_MarkDynamic = new(this, "MarkDynamic", 0);
+					r_MarkDynamic.SetBelong(this.instance);
 				}
-				return r_RMarkDynamic;
+				return r_MarkDynamic;
 			}
 		}
 
 		/// <summary>
 		/// Void UploadMeshData(Boolean)
 		/// </summary>
-		protected RMethod r_RUploadMeshData_Boolean;
+		protected RMethod r_UploadMeshData_Boolean;
 		public virtual RMethod RUploadMeshData_Boolean
 		{
 			get
 			{
-				if(r_RUploadMeshData_Boolean == null)
+				if(r_UploadMeshData_Boolean == null)
 				{
-					r_RUploadMeshData_Boolean = new(this, "UploadMeshData", 0, typeof(System.Boolean));
-					r_RUploadMeshData_Boolean.SetBelong(this.instance);
+					r_UploadMeshData_Boolean = new(this, "UploadMeshData", 0, typeof(System.Boolean));
+					r_UploadMeshData_Boolean.SetBelong(this.instance);
 				}
-				return r_RUploadMeshData_Boolean;
+				return r_UploadMeshData_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Void Optimize()
 		/// </summary>
-		protected RMethod r_ROptimize;
+		protected RMethod r_Optimize;
 		public virtual RMethod ROptimize
 		{
 			get
 			{
-				if(r_ROptimize == null)
+				if(r_Optimize == null)
 				{
-					r_ROptimize = new(this, "Optimize", 0);
-					r_ROptimize.SetBelong(this.instance);
+					r_Optimize = new(this, "Optimize", 0);
+					r_Optimize.SetBelong(this.instance);
 				}
-				return r_ROptimize;
+				return r_Optimize;
 			}
 		}
 
 		/// <summary>
 		/// Void OptimizeIndexBuffers()
 		/// </summary>
-		protected RMethod r_ROptimizeIndexBuffers;
+		protected RMethod r_OptimizeIndexBuffers;
 		public virtual RMethod ROptimizeIndexBuffers
 		{
 			get
 			{
-				if(r_ROptimizeIndexBuffers == null)
+				if(r_OptimizeIndexBuffers == null)
 				{
-					r_ROptimizeIndexBuffers = new(this, "OptimizeIndexBuffers", 0);
-					r_ROptimizeIndexBuffers.SetBelong(this.instance);
+					r_OptimizeIndexBuffers = new(this, "OptimizeIndexBuffers", 0);
+					r_OptimizeIndexBuffers.SetBelong(this.instance);
 				}
-				return r_ROptimizeIndexBuffers;
+				return r_OptimizeIndexBuffers;
 			}
 		}
 
 		/// <summary>
 		/// Void OptimizeReorderVertexBuffer()
 		/// </summary>
-		protected RMethod r_ROptimizeReorderVertexBuffer;
+		protected RMethod r_OptimizeReorderVertexBuffer;
 		public virtual RMethod ROptimizeReorderVertexBuffer
 		{
 			get
 			{
-				if(r_ROptimizeReorderVertexBuffer == null)
+				if(r_OptimizeReorderVertexBuffer == null)
 				{
-					r_ROptimizeReorderVertexBuffer = new(this, "OptimizeReorderVertexBuffer", 0);
-					r_ROptimizeReorderVertexBuffer.SetBelong(this.instance);
+					r_OptimizeReorderVertexBuffer = new(this, "OptimizeReorderVertexBuffer", 0);
+					r_OptimizeReorderVertexBuffer.SetBelong(this.instance);
 				}
-				return r_ROptimizeReorderVertexBuffer;
+				return r_OptimizeReorderVertexBuffer;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.MeshTopology GetTopology(Int32)
 		/// </summary>
-		protected RMethod r_RGetTopology_Int32;
+		protected RMethod r_GetTopology_Int32;
 		public virtual RMethod RGetTopology_Int32
 		{
 			get
 			{
-				if(r_RGetTopology_Int32 == null)
+				if(r_GetTopology_Int32 == null)
 				{
-					r_RGetTopology_Int32 = new(this, "GetTopology", 0, typeof(System.Int32));
-					r_RGetTopology_Int32.SetBelong(this.instance);
+					r_GetTopology_Int32 = new(this, "GetTopology", 0, typeof(System.Int32));
+					r_GetTopology_Int32.SetBelong(this.instance);
 				}
-				return r_RGetTopology_Int32;
+				return r_GetTopology_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Void CombineMeshes(UnityEngine.CombineInstance[], Boolean, Boolean, Boolean)
 		/// </summary>
-		protected RMethod r_RCombineMeshes_CombineInstanceArray_Boolean_Boolean_Boolean;
+		protected RMethod r_CombineMeshes_CombineInstanceArray_Boolean_Boolean_Boolean;
 		public virtual RMethod RCombineMeshes_CombineInstanceArray_Boolean_Boolean_Boolean
 		{
 			get
 			{
-				if(r_RCombineMeshes_CombineInstanceArray_Boolean_Boolean_Boolean == null)
+				if(r_CombineMeshes_CombineInstanceArray_Boolean_Boolean_Boolean == null)
 				{
-					r_RCombineMeshes_CombineInstanceArray_Boolean_Boolean_Boolean = new(this, "CombineMeshes", 0, typeof(UnityEngine.CombineInstance).MakeArrayType(), typeof(System.Boolean), typeof(System.Boolean), typeof(System.Boolean));
-					r_RCombineMeshes_CombineInstanceArray_Boolean_Boolean_Boolean.SetBelong(this.instance);
+					r_CombineMeshes_CombineInstanceArray_Boolean_Boolean_Boolean = new(this, "CombineMeshes", 0, typeof(UnityEngine.CombineInstance).MakeArrayType(), typeof(System.Boolean), typeof(System.Boolean), typeof(System.Boolean));
+					r_CombineMeshes_CombineInstanceArray_Boolean_Boolean_Boolean.SetBelong(this.instance);
 				}
-				return r_RCombineMeshes_CombineInstanceArray_Boolean_Boolean_Boolean;
+				return r_CombineMeshes_CombineInstanceArray_Boolean_Boolean_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Void CombineMeshes(UnityEngine.CombineInstance[], Boolean, Boolean)
 		/// </summary>
-		protected RMethod r_RCombineMeshes_CombineInstanceArray_Boolean_Boolean;
+		protected RMethod r_CombineMeshes_CombineInstanceArray_Boolean_Boolean;
 		public virtual RMethod RCombineMeshes_CombineInstanceArray_Boolean_Boolean
 		{
 			get
 			{
-				if(r_RCombineMeshes_CombineInstanceArray_Boolean_Boolean == null)
+				if(r_CombineMeshes_CombineInstanceArray_Boolean_Boolean == null)
 				{
-					r_RCombineMeshes_CombineInstanceArray_Boolean_Boolean = new(this, "CombineMeshes", 0, typeof(UnityEngine.CombineInstance).MakeArrayType(), typeof(System.Boolean), typeof(System.Boolean));
-					r_RCombineMeshes_CombineInstanceArray_Boolean_Boolean.SetBelong(this.instance);
+					r_CombineMeshes_CombineInstanceArray_Boolean_Boolean = new(this, "CombineMeshes", 0, typeof(UnityEngine.CombineInstance).MakeArrayType(), typeof(System.Boolean), typeof(System.Boolean));
+					r_CombineMeshes_CombineInstanceArray_Boolean_Boolean.SetBelong(this.instance);
 				}
-				return r_RCombineMeshes_CombineInstanceArray_Boolean_Boolean;
+				return r_CombineMeshes_CombineInstanceArray_Boolean_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Void CombineMeshes(UnityEngine.CombineInstance[], Boolean)
 		/// </summary>
-		protected RMethod r_RCombineMeshes_CombineInstanceArray_Boolean;
+		protected RMethod r_CombineMeshes_CombineInstanceArray_Boolean;
 		public virtual RMethod RCombineMeshes_CombineInstanceArray_Boolean
 		{
 			get
 			{
-				if(r_RCombineMeshes_CombineInstanceArray_Boolean == null)
+				if(r_CombineMeshes_CombineInstanceArray_Boolean == null)
 				{
-					r_RCombineMeshes_CombineInstanceArray_Boolean = new(this, "CombineMeshes", 0, typeof(UnityEngine.CombineInstance).MakeArrayType(), typeof(System.Boolean));
-					r_RCombineMeshes_CombineInstanceArray_Boolean.SetBelong(this.instance);
+					r_CombineMeshes_CombineInstanceArray_Boolean = new(this, "CombineMeshes", 0, typeof(UnityEngine.CombineInstance).MakeArrayType(), typeof(System.Boolean));
+					r_CombineMeshes_CombineInstanceArray_Boolean.SetBelong(this.instance);
 				}
-				return r_RCombineMeshes_CombineInstanceArray_Boolean;
+				return r_CombineMeshes_CombineInstanceArray_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Void CombineMeshes(UnityEngine.CombineInstance[])
 		/// </summary>
-		protected RMethod r_RCombineMeshes_CombineInstanceArray;
+		protected RMethod r_CombineMeshes_CombineInstanceArray;
 		public virtual RMethod RCombineMeshes_CombineInstanceArray
 		{
 			get
 			{
-				if(r_RCombineMeshes_CombineInstanceArray == null)
+				if(r_CombineMeshes_CombineInstanceArray == null)
 				{
-					r_RCombineMeshes_CombineInstanceArray = new(this, "CombineMeshes", 0, typeof(UnityEngine.CombineInstance).MakeArrayType());
-					r_RCombineMeshes_CombineInstanceArray.SetBelong(this.instance);
+					r_CombineMeshes_CombineInstanceArray = new(this, "CombineMeshes", 0, typeof(UnityEngine.CombineInstance).MakeArrayType());
+					r_CombineMeshes_CombineInstanceArray.SetBelong(this.instance);
 				}
-				return r_RCombineMeshes_CombineInstanceArray;
+				return r_CombineMeshes_CombineInstanceArray;
 			}
 		}
 
 		/// <summary>
 		/// Void GetVertexAttribute_Injected(Int32, UnityEngine.Rendering.VertexAttributeDescriptor ByRef)
 		/// </summary>
-		protected RMethod r_RGetVertexAttribute_Injected_Int32_Out_VertexAttributeDescriptor;
+		protected RMethod r_GetVertexAttribute_Injected_Int32_Out_VertexAttributeDescriptor;
 		public virtual RMethod RGetVertexAttribute_Injected_Int32_Out_VertexAttributeDescriptor
 		{
 			get
 			{
-				if(r_RGetVertexAttribute_Injected_Int32_Out_VertexAttributeDescriptor == null)
+				if(r_GetVertexAttribute_Injected_Int32_Out_VertexAttributeDescriptor == null)
 				{
-					r_RGetVertexAttribute_Injected_Int32_Out_VertexAttributeDescriptor = new(this, "GetVertexAttribute_Injected", 0, typeof(System.Int32), typeof(UnityEngine.Rendering.VertexAttributeDescriptor).MakeByRefType());
-					r_RGetVertexAttribute_Injected_Int32_Out_VertexAttributeDescriptor.SetBelong(this.instance);
+					r_GetVertexAttribute_Injected_Int32_Out_VertexAttributeDescriptor = new(this, "GetVertexAttribute_Injected", 0, typeof(System.Int32), typeof(UnityEngine.Rendering.VertexAttributeDescriptor).MakeByRefType());
+					r_GetVertexAttribute_Injected_Int32_Out_VertexAttributeDescriptor.SetBelong(this.instance);
 				}
-				return r_RGetVertexAttribute_Injected_Int32_Out_VertexAttributeDescriptor;
+				return r_GetVertexAttribute_Injected_Int32_Out_VertexAttributeDescriptor;
 			}
 		}
 
 		/// <summary>
 		/// Void GetBlendShapeOffsetInternal_Injected(Int32, UnityEngine.BlendShape ByRef)
 		/// </summary>
-		protected RMethod r_RGetBlendShapeOffsetInternal_Injected_Int32_Out_BlendShape;
+		protected RMethod r_GetBlendShapeOffsetInternal_Injected_Int32_Out_BlendShape;
 		public virtual RMethod RGetBlendShapeOffsetInternal_Injected_Int32_Out_BlendShape
 		{
 			get
 			{
-				if(r_RGetBlendShapeOffsetInternal_Injected_Int32_Out_BlendShape == null)
+				if(r_GetBlendShapeOffsetInternal_Injected_Int32_Out_BlendShape == null)
 				{
-					r_RGetBlendShapeOffsetInternal_Injected_Int32_Out_BlendShape = new(this, "GetBlendShapeOffsetInternal_Injected", 0, typeof(System.Int32),  ReleactionUtils.GetType("UnityEngine.BlendShape").MakeByRefType());
-					r_RGetBlendShapeOffsetInternal_Injected_Int32_Out_BlendShape.SetBelong(this.instance);
+					r_GetBlendShapeOffsetInternal_Injected_Int32_Out_BlendShape = new(this, "GetBlendShapeOffsetInternal_Injected", 0, typeof(System.Int32),  ReleactionUtils.GetType("UnityEngine.BlendShape").MakeByRefType());
+					r_GetBlendShapeOffsetInternal_Injected_Int32_Out_BlendShape.SetBelong(this.instance);
 				}
-				return r_RGetBlendShapeOffsetInternal_Injected_Int32_Out_BlendShape;
+				return r_GetBlendShapeOffsetInternal_Injected_Int32_Out_BlendShape;
 			}
 		}
 
 		/// <summary>
 		/// Void GetReadOnlySafetyHandle_Injected(SafetyHandleIndex, Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle ByRef)
 		/// </summary>
-		protected RMethod r_RGetReadOnlySafetyHandle_Injected_SafetyHandleIndex_Out_AtomicSafetyHandle;
+		protected RMethod r_GetReadOnlySafetyHandle_Injected_SafetyHandleIndex_Out_AtomicSafetyHandle;
 		public virtual RMethod RGetReadOnlySafetyHandle_Injected_SafetyHandleIndex_Out_AtomicSafetyHandle
 		{
 			get
 			{
-				if(r_RGetReadOnlySafetyHandle_Injected_SafetyHandleIndex_Out_AtomicSafetyHandle == null)
+				if(r_GetReadOnlySafetyHandle_Injected_SafetyHandleIndex_Out_AtomicSafetyHandle == null)
 				{
-					r_RGetReadOnlySafetyHandle_Injected_SafetyHandleIndex_Out_AtomicSafetyHandle = new(this, "GetReadOnlySafetyHandle_Injected", 0,  ReleactionUtils.GetType("UnityEngine.Mesh+SafetyHandleIndex"), typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle).MakeByRefType());
-					r_RGetReadOnlySafetyHandle_Injected_SafetyHandleIndex_Out_AtomicSafetyHandle.SetBelong(this.instance);
+					r_GetReadOnlySafetyHandle_Injected_SafetyHandleIndex_Out_AtomicSafetyHandle = new(this, "GetReadOnlySafetyHandle_Injected", 0,  ReleactionUtils.GetType("UnityEngine.Mesh+SafetyHandleIndex"), typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle).MakeByRefType());
+					r_GetReadOnlySafetyHandle_Injected_SafetyHandleIndex_Out_AtomicSafetyHandle.SetBelong(this.instance);
 				}
-				return r_RGetReadOnlySafetyHandle_Injected_SafetyHandleIndex_Out_AtomicSafetyHandle;
+				return r_GetReadOnlySafetyHandle_Injected_SafetyHandleIndex_Out_AtomicSafetyHandle;
 			}
 		}
 
 		/// <summary>
 		/// Void SetSubMesh_Injected(Int32, UnityEngine.Rendering.SubMeshDescriptor ByRef, UnityEngine.Rendering.MeshUpdateFlags)
 		/// </summary>
-		protected RMethod r_RSetSubMesh_Injected_Int32_Ref_SubMeshDescriptor_MeshUpdateFlags;
+		protected RMethod r_SetSubMesh_Injected_Int32_Ref_SubMeshDescriptor_MeshUpdateFlags;
 		public virtual RMethod RSetSubMesh_Injected_Int32_Ref_SubMeshDescriptor_MeshUpdateFlags
 		{
 			get
 			{
-				if(r_RSetSubMesh_Injected_Int32_Ref_SubMeshDescriptor_MeshUpdateFlags == null)
+				if(r_SetSubMesh_Injected_Int32_Ref_SubMeshDescriptor_MeshUpdateFlags == null)
 				{
-					r_RSetSubMesh_Injected_Int32_Ref_SubMeshDescriptor_MeshUpdateFlags = new(this, "SetSubMesh_Injected", 0, typeof(System.Int32), typeof(UnityEngine.Rendering.SubMeshDescriptor).MakeByRefType(), typeof(UnityEngine.Rendering.MeshUpdateFlags));
-					r_RSetSubMesh_Injected_Int32_Ref_SubMeshDescriptor_MeshUpdateFlags.SetBelong(this.instance);
+					r_SetSubMesh_Injected_Int32_Ref_SubMeshDescriptor_MeshUpdateFlags = new(this, "SetSubMesh_Injected", 0, typeof(System.Int32), typeof(UnityEngine.Rendering.SubMeshDescriptor).MakeByRefType(), typeof(UnityEngine.Rendering.MeshUpdateFlags));
+					r_SetSubMesh_Injected_Int32_Ref_SubMeshDescriptor_MeshUpdateFlags.SetBelong(this.instance);
 				}
-				return r_RSetSubMesh_Injected_Int32_Ref_SubMeshDescriptor_MeshUpdateFlags;
+				return r_SetSubMesh_Injected_Int32_Ref_SubMeshDescriptor_MeshUpdateFlags;
 			}
 		}
 
 		/// <summary>
 		/// Void GetSubMesh_Injected(Int32, UnityEngine.Rendering.SubMeshDescriptor ByRef)
 		/// </summary>
-		protected RMethod r_RGetSubMesh_Injected_Int32_Out_SubMeshDescriptor;
+		protected RMethod r_GetSubMesh_Injected_Int32_Out_SubMeshDescriptor;
 		public virtual RMethod RGetSubMesh_Injected_Int32_Out_SubMeshDescriptor
 		{
 			get
 			{
-				if(r_RGetSubMesh_Injected_Int32_Out_SubMeshDescriptor == null)
+				if(r_GetSubMesh_Injected_Int32_Out_SubMeshDescriptor == null)
 				{
-					r_RGetSubMesh_Injected_Int32_Out_SubMeshDescriptor = new(this, "GetSubMesh_Injected", 0, typeof(System.Int32), typeof(UnityEngine.Rendering.SubMeshDescriptor).MakeByRefType());
-					r_RGetSubMesh_Injected_Int32_Out_SubMeshDescriptor.SetBelong(this.instance);
+					r_GetSubMesh_Injected_Int32_Out_SubMeshDescriptor = new(this, "GetSubMesh_Injected", 0, typeof(System.Int32), typeof(UnityEngine.Rendering.SubMeshDescriptor).MakeByRefType());
+					r_GetSubMesh_Injected_Int32_Out_SubMeshDescriptor.SetBelong(this.instance);
 				}
-				return r_RGetSubMesh_Injected_Int32_Out_SubMeshDescriptor;
+				return r_GetSubMesh_Injected_Int32_Out_SubMeshDescriptor;
 			}
 		}
 
 		/// <summary>
 		/// Void get_bounds_Injected(UnityEngine.Bounds ByRef)
 		/// </summary>
-		protected RMethod r_Rget_bounds_Injected_Out_Bounds;
+		protected RMethod r_get_bounds_Injected_Out_Bounds;
 		public virtual RMethod Rget_bounds_Injected_Out_Bounds
 		{
 			get
 			{
-				if(r_Rget_bounds_Injected_Out_Bounds == null)
+				if(r_get_bounds_Injected_Out_Bounds == null)
 				{
-					r_Rget_bounds_Injected_Out_Bounds = new(this, "get_bounds_Injected", 0, typeof(UnityEngine.Bounds).MakeByRefType());
-					r_Rget_bounds_Injected_Out_Bounds.SetBelong(this.instance);
+					r_get_bounds_Injected_Out_Bounds = new(this, "get_bounds_Injected", 0, typeof(UnityEngine.Bounds).MakeByRefType());
+					r_get_bounds_Injected_Out_Bounds.SetBelong(this.instance);
 				}
-				return r_Rget_bounds_Injected_Out_Bounds;
+				return r_get_bounds_Injected_Out_Bounds;
 			}
 		}
 
 		/// <summary>
 		/// Void set_bounds_Injected(UnityEngine.Bounds ByRef)
 		/// </summary>
-		protected RMethod r_Rset_bounds_Injected_Ref_Bounds;
+		protected RMethod r_set_bounds_Injected_Ref_Bounds;
 		public virtual RMethod Rset_bounds_Injected_Ref_Bounds
 		{
 			get
 			{
-				if(r_Rset_bounds_Injected_Ref_Bounds == null)
+				if(r_set_bounds_Injected_Ref_Bounds == null)
 				{
-					r_Rset_bounds_Injected_Ref_Bounds = new(this, "set_bounds_Injected", 0, typeof(UnityEngine.Bounds).MakeByRefType());
-					r_Rset_bounds_Injected_Ref_Bounds.SetBelong(this.instance);
+					r_set_bounds_Injected_Ref_Bounds = new(this, "set_bounds_Injected", 0, typeof(UnityEngine.Bounds).MakeByRefType());
+					r_set_bounds_Injected_Ref_Bounds.SetBelong(this.instance);
 				}
-				return r_Rset_bounds_Injected_Ref_Bounds;
+				return r_set_bounds_Injected_Ref_Bounds;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetInstanceID()
 		/// </summary>
-		protected RMethod r_RGetInstanceID;
+		protected RMethod r_GetInstanceID;
 		public virtual RMethod RGetInstanceID
 		{
 			get
 			{
-				if(r_RGetInstanceID == null)
+				if(r_GetInstanceID == null)
 				{
-					r_RGetInstanceID = new(this, "GetInstanceID", 0);
-					r_RGetInstanceID.SetBelong(this.instance);
+					r_GetInstanceID = new(this, "GetInstanceID", 0);
+					r_GetInstanceID.SetBelong(this.instance);
 				}
-				return r_RGetInstanceID;
+				return r_GetInstanceID;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetHashCode()
 		/// </summary>
-		protected RMethod r_RGetHashCode;
+		protected RMethod r_GetHashCode;
 		public virtual RMethod RGetHashCode
 		{
 			get
 			{
-				if(r_RGetHashCode == null)
+				if(r_GetHashCode == null)
 				{
-					r_RGetHashCode = new(this, "GetHashCode", 0);
-					r_RGetHashCode.SetBelong(this.instance);
+					r_GetHashCode = new(this, "GetHashCode", 0);
+					r_GetHashCode.SetBelong(this.instance);
 				}
-				return r_RGetHashCode;
+				return r_GetHashCode;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Equals(System.Object)
 		/// </summary>
-		protected RMethod r_REquals_Object;
+		protected RMethod r_Equals_Object;
 		public virtual RMethod REquals_Object
 		{
 			get
 			{
-				if(r_REquals_Object == null)
+				if(r_Equals_Object == null)
 				{
-					r_REquals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_REquals_Object.SetBelong(this.instance);
+					r_Equals_Object = new(this, "Equals", 0, typeof(System.Object));
+					r_Equals_Object.SetBelong(this.instance);
 				}
-				return r_REquals_Object;
+				return r_Equals_Object;
 			}
 		}
 
 		/// <summary>
 		/// System.String ToString()
 		/// </summary>
-		protected RMethod r_RToString;
+		protected RMethod r_ToString;
 		public virtual RMethod RToString
 		{
 			get
 			{
-				if(r_RToString == null)
+				if(r_ToString == null)
 				{
-					r_RToString = new(this, "ToString", 0);
-					r_RToString.SetBelong(this.instance);
+					r_ToString = new(this, "ToString", 0);
+					r_ToString.SetBelong(this.instance);
 				}
-				return r_RToString;
+				return r_ToString;
 			}
 		}
 
 		/// <summary>
 		/// Void Finalize()
 		/// </summary>
-		protected RMethod r_RFinalize;
+		protected RMethod r_Finalize;
 		public virtual RMethod RFinalize
 		{
 			get
 			{
-				if(r_RFinalize == null)
+				if(r_Finalize == null)
 				{
-					r_RFinalize = new(this, "Finalize", 0);
-					r_RFinalize.SetBelong(this.instance);
+					r_Finalize = new(this, "Finalize", 0);
+					r_Finalize.SetBelong(this.instance);
 				}
-				return r_RFinalize;
+				return r_Finalize;
 			}
 		}
 
 		/// <summary>
 		/// System.Type GetType()
 		/// </summary>
-		protected RMethod r_RGetType;
+		protected RMethod r_GetType;
 		public virtual RMethod RGetType
 		{
 			get
 			{
-				if(r_RGetType == null)
+				if(r_GetType == null)
 				{
-					r_RGetType = new(this, "GetType", 0);
-					r_RGetType.SetBelong(this.instance);
+					r_GetType = new(this, "GetType", 0);
+					r_GetType.SetBelong(this.instance);
 				}
-				return r_RGetType;
+				return r_GetType;
 			}
 		}
 
 		/// <summary>
 		/// System.Object MemberwiseClone()
 		/// </summary>
-		protected RMethod r_RMemberwiseClone;
+		protected RMethod r_MemberwiseClone;
 		public virtual RMethod RMemberwiseClone
 		{
 			get
 			{
-				if(r_RMemberwiseClone == null)
+				if(r_MemberwiseClone == null)
 				{
-					r_RMemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_RMemberwiseClone.SetBelong(this.instance);
+					r_MemberwiseClone = new(this, "MemberwiseClone", 0);
+					r_MemberwiseClone.SetBelong(this.instance);
 				}
-				return r_RMemberwiseClone;
+				return r_MemberwiseClone;
 			}
 		}
 

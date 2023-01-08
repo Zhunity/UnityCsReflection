@@ -149,1003 +149,1003 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 GetInstanceID()
 		/// </summary>
-		protected RMethod r_RGetInstanceID;
+		protected RMethod r_GetInstanceID;
 		public virtual RMethod RGetInstanceID
 		{
 			get
 			{
-				if(r_RGetInstanceID == null)
+				if(r_GetInstanceID == null)
 				{
-					r_RGetInstanceID = new(this, "GetInstanceID", 0);
-					r_RGetInstanceID.SetBelong(this.instance);
+					r_GetInstanceID = new(this, "GetInstanceID", 0);
+					r_GetInstanceID.SetBelong(this.instance);
 				}
-				return r_RGetInstanceID;
+				return r_GetInstanceID;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetHashCode()
 		/// </summary>
-		protected RMethod r_RGetHashCode;
+		protected RMethod r_GetHashCode;
 		public virtual RMethod RGetHashCode
 		{
 			get
 			{
-				if(r_RGetHashCode == null)
+				if(r_GetHashCode == null)
 				{
-					r_RGetHashCode = new(this, "GetHashCode", 0);
-					r_RGetHashCode.SetBelong(this.instance);
+					r_GetHashCode = new(this, "GetHashCode", 0);
+					r_GetHashCode.SetBelong(this.instance);
 				}
-				return r_RGetHashCode;
+				return r_GetHashCode;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Equals(System.Object)
 		/// </summary>
-		protected RMethod r_REquals_Object;
+		protected RMethod r_Equals_Object;
 		public virtual RMethod REquals_Object
 		{
 			get
 			{
-				if(r_REquals_Object == null)
+				if(r_Equals_Object == null)
 				{
-					r_REquals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_REquals_Object.SetBelong(this.instance);
+					r_Equals_Object = new(this, "Equals", 0, typeof(System.Object));
+					r_Equals_Object.SetBelong(this.instance);
 				}
-				return r_REquals_Object;
+				return r_Equals_Object;
 			}
 		}
 
 		/// <summary>
 		/// Boolean op_Implicit(UnityEngine.Object)
 		/// </summary>
-		protected static RMethod r_Rop_Implicit_Object;
+		protected static RMethod r_op_Implicit_Object;
 		public static RMethod Rop_Implicit_Object
 		{
 			get
 			{
-				if(r_Rop_Implicit_Object == null)
+				if(r_op_Implicit_Object == null)
 				{
-					r_Rop_Implicit_Object = new(typeof(UnityEngine.Object), "op_Implicit", 0, typeof(UnityEngine.Object));
-					r_Rop_Implicit_Object.SetBelong(null);
+					r_op_Implicit_Object = new(typeof(UnityEngine.Object), "op_Implicit", 0, typeof(UnityEngine.Object));
+					r_op_Implicit_Object.SetBelong(null);
 				}
-				return r_Rop_Implicit_Object;
+				return r_op_Implicit_Object;
 			}
 		}
 
 		/// <summary>
 		/// Boolean CompareBaseObjects(UnityEngine.Object, UnityEngine.Object)
 		/// </summary>
-		protected static RMethod r_RCompareBaseObjects_Object_Object;
+		protected static RMethod r_CompareBaseObjects_Object_Object;
 		public static RMethod RCompareBaseObjects_Object_Object
 		{
 			get
 			{
-				if(r_RCompareBaseObjects_Object_Object == null)
+				if(r_CompareBaseObjects_Object_Object == null)
 				{
-					r_RCompareBaseObjects_Object_Object = new(typeof(UnityEngine.Object), "CompareBaseObjects", 0, typeof(UnityEngine.Object), typeof(UnityEngine.Object));
-					r_RCompareBaseObjects_Object_Object.SetBelong(null);
+					r_CompareBaseObjects_Object_Object = new(typeof(UnityEngine.Object), "CompareBaseObjects", 0, typeof(UnityEngine.Object), typeof(UnityEngine.Object));
+					r_CompareBaseObjects_Object_Object.SetBelong(null);
 				}
-				return r_RCompareBaseObjects_Object_Object;
+				return r_CompareBaseObjects_Object_Object;
 			}
 		}
 
 		/// <summary>
 		/// Void EnsureRunningOnMainThread()
 		/// </summary>
-		protected RMethod r_REnsureRunningOnMainThread;
+		protected RMethod r_EnsureRunningOnMainThread;
 		public virtual RMethod REnsureRunningOnMainThread
 		{
 			get
 			{
-				if(r_REnsureRunningOnMainThread == null)
+				if(r_EnsureRunningOnMainThread == null)
 				{
-					r_REnsureRunningOnMainThread = new(this, "EnsureRunningOnMainThread", 0);
-					r_REnsureRunningOnMainThread.SetBelong(this.instance);
+					r_EnsureRunningOnMainThread = new(this, "EnsureRunningOnMainThread", 0);
+					r_EnsureRunningOnMainThread.SetBelong(this.instance);
 				}
-				return r_REnsureRunningOnMainThread;
+				return r_EnsureRunningOnMainThread;
 			}
 		}
 
 		/// <summary>
 		/// Boolean IsNativeObjectAlive(UnityEngine.Object)
 		/// </summary>
-		protected static RMethod r_RIsNativeObjectAlive_Object;
+		protected static RMethod r_IsNativeObjectAlive_Object;
 		public static RMethod RIsNativeObjectAlive_Object
 		{
 			get
 			{
-				if(r_RIsNativeObjectAlive_Object == null)
+				if(r_IsNativeObjectAlive_Object == null)
 				{
-					r_RIsNativeObjectAlive_Object = new(typeof(UnityEngine.Object), "IsNativeObjectAlive", 0, typeof(UnityEngine.Object));
-					r_RIsNativeObjectAlive_Object.SetBelong(null);
+					r_IsNativeObjectAlive_Object = new(typeof(UnityEngine.Object), "IsNativeObjectAlive", 0, typeof(UnityEngine.Object));
+					r_IsNativeObjectAlive_Object.SetBelong(null);
 				}
-				return r_RIsNativeObjectAlive_Object;
+				return r_IsNativeObjectAlive_Object;
 			}
 		}
 
 		/// <summary>
 		/// IntPtr GetCachedPtr()
 		/// </summary>
-		protected RMethod r_RGetCachedPtr;
+		protected RMethod r_GetCachedPtr;
 		public virtual RMethod RGetCachedPtr
 		{
 			get
 			{
-				if(r_RGetCachedPtr == null)
+				if(r_GetCachedPtr == null)
 				{
-					r_RGetCachedPtr = new(this, "GetCachedPtr", 0);
-					r_RGetCachedPtr.SetBelong(this.instance);
+					r_GetCachedPtr = new(this, "GetCachedPtr", 0);
+					r_GetCachedPtr.SetBelong(this.instance);
 				}
-				return r_RGetCachedPtr;
+				return r_GetCachedPtr;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Object Instantiate(UnityEngine.Object, UnityEngine.Vector3, UnityEngine.Quaternion)
 		/// </summary>
-		protected static RMethod r_RInstantiate_Object_Vector3_Quaternion;
+		protected static RMethod r_Instantiate_Object_Vector3_Quaternion;
 		public static RMethod RInstantiate_Object_Vector3_Quaternion
 		{
 			get
 			{
-				if(r_RInstantiate_Object_Vector3_Quaternion == null)
+				if(r_Instantiate_Object_Vector3_Quaternion == null)
 				{
-					r_RInstantiate_Object_Vector3_Quaternion = new(typeof(UnityEngine.Object), "Instantiate", 0, typeof(UnityEngine.Object), typeof(UnityEngine.Vector3), typeof(UnityEngine.Quaternion));
-					r_RInstantiate_Object_Vector3_Quaternion.SetBelong(null);
+					r_Instantiate_Object_Vector3_Quaternion = new(typeof(UnityEngine.Object), "Instantiate", 0, typeof(UnityEngine.Object), typeof(UnityEngine.Vector3), typeof(UnityEngine.Quaternion));
+					r_Instantiate_Object_Vector3_Quaternion.SetBelong(null);
 				}
-				return r_RInstantiate_Object_Vector3_Quaternion;
+				return r_Instantiate_Object_Vector3_Quaternion;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Object Instantiate(UnityEngine.Object, UnityEngine.Vector3, UnityEngine.Quaternion, UnityEngine.Transform)
 		/// </summary>
-		protected static RMethod r_RInstantiate_Object_Vector3_Quaternion_Transform;
+		protected static RMethod r_Instantiate_Object_Vector3_Quaternion_Transform;
 		public static RMethod RInstantiate_Object_Vector3_Quaternion_Transform
 		{
 			get
 			{
-				if(r_RInstantiate_Object_Vector3_Quaternion_Transform == null)
+				if(r_Instantiate_Object_Vector3_Quaternion_Transform == null)
 				{
-					r_RInstantiate_Object_Vector3_Quaternion_Transform = new(typeof(UnityEngine.Object), "Instantiate", 0, typeof(UnityEngine.Object), typeof(UnityEngine.Vector3), typeof(UnityEngine.Quaternion), typeof(UnityEngine.Transform));
-					r_RInstantiate_Object_Vector3_Quaternion_Transform.SetBelong(null);
+					r_Instantiate_Object_Vector3_Quaternion_Transform = new(typeof(UnityEngine.Object), "Instantiate", 0, typeof(UnityEngine.Object), typeof(UnityEngine.Vector3), typeof(UnityEngine.Quaternion), typeof(UnityEngine.Transform));
+					r_Instantiate_Object_Vector3_Quaternion_Transform.SetBelong(null);
 				}
-				return r_RInstantiate_Object_Vector3_Quaternion_Transform;
+				return r_Instantiate_Object_Vector3_Quaternion_Transform;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Object Instantiate(UnityEngine.Object)
 		/// </summary>
-		protected static RMethod r_RInstantiate_Object;
+		protected static RMethod r_Instantiate_Object;
 		public static RMethod RInstantiate_Object
 		{
 			get
 			{
-				if(r_RInstantiate_Object == null)
+				if(r_Instantiate_Object == null)
 				{
-					r_RInstantiate_Object = new(typeof(UnityEngine.Object), "Instantiate", 0, typeof(UnityEngine.Object));
-					r_RInstantiate_Object.SetBelong(null);
+					r_Instantiate_Object = new(typeof(UnityEngine.Object), "Instantiate", 0, typeof(UnityEngine.Object));
+					r_Instantiate_Object.SetBelong(null);
 				}
-				return r_RInstantiate_Object;
+				return r_Instantiate_Object;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Object Instantiate(UnityEngine.Object, UnityEngine.Transform)
 		/// </summary>
-		protected static RMethod r_RInstantiate_Object_Transform;
+		protected static RMethod r_Instantiate_Object_Transform;
 		public static RMethod RInstantiate_Object_Transform
 		{
 			get
 			{
-				if(r_RInstantiate_Object_Transform == null)
+				if(r_Instantiate_Object_Transform == null)
 				{
-					r_RInstantiate_Object_Transform = new(typeof(UnityEngine.Object), "Instantiate", 0, typeof(UnityEngine.Object), typeof(UnityEngine.Transform));
-					r_RInstantiate_Object_Transform.SetBelong(null);
+					r_Instantiate_Object_Transform = new(typeof(UnityEngine.Object), "Instantiate", 0, typeof(UnityEngine.Object), typeof(UnityEngine.Transform));
+					r_Instantiate_Object_Transform.SetBelong(null);
 				}
-				return r_RInstantiate_Object_Transform;
+				return r_Instantiate_Object_Transform;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Object Instantiate(UnityEngine.Object, UnityEngine.Transform, Boolean)
 		/// </summary>
-		protected static RMethod r_RInstantiate_Object_Transform_Boolean;
+		protected static RMethod r_Instantiate_Object_Transform_Boolean;
 		public static RMethod RInstantiate_Object_Transform_Boolean
 		{
 			get
 			{
-				if(r_RInstantiate_Object_Transform_Boolean == null)
+				if(r_Instantiate_Object_Transform_Boolean == null)
 				{
-					r_RInstantiate_Object_Transform_Boolean = new(typeof(UnityEngine.Object), "Instantiate", 0, typeof(UnityEngine.Object), typeof(UnityEngine.Transform), typeof(System.Boolean));
-					r_RInstantiate_Object_Transform_Boolean.SetBelong(null);
+					r_Instantiate_Object_Transform_Boolean = new(typeof(UnityEngine.Object), "Instantiate", 0, typeof(UnityEngine.Object), typeof(UnityEngine.Transform), typeof(System.Boolean));
+					r_Instantiate_Object_Transform_Boolean.SetBelong(null);
 				}
-				return r_RInstantiate_Object_Transform_Boolean;
+				return r_Instantiate_Object_Transform_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// T Instantiate[T](T)
 		/// </summary>
-		protected static RMethod r_RInstantiate_GT_T;
+		protected static RMethod r_Instantiate_GT_T;
 		public static RMethod RInstantiate_GT_T
 		{
 			get
 			{
-				if(r_RInstantiate_GT_T == null)
+				if(r_Instantiate_GT_T == null)
 				{
-					r_RInstantiate_GT_T = new(typeof(UnityEngine.Object), "Instantiate", 1, Type.MakeGenericMethodParameter(0));
-					r_RInstantiate_GT_T.SetBelong(null);
+					r_Instantiate_GT_T = new(typeof(UnityEngine.Object), "Instantiate", 1, Type.MakeGenericMethodParameter(0));
+					r_Instantiate_GT_T.SetBelong(null);
 				}
-				return r_RInstantiate_GT_T;
+				return r_Instantiate_GT_T;
 			}
 		}
 
 		/// <summary>
 		/// T Instantiate[T](T, UnityEngine.Vector3, UnityEngine.Quaternion)
 		/// </summary>
-		protected static RMethod r_RInstantiate_GT_T_Vector3_Quaternion;
+		protected static RMethod r_Instantiate_GT_T_Vector3_Quaternion;
 		public static RMethod RInstantiate_GT_T_Vector3_Quaternion
 		{
 			get
 			{
-				if(r_RInstantiate_GT_T_Vector3_Quaternion == null)
+				if(r_Instantiate_GT_T_Vector3_Quaternion == null)
 				{
-					r_RInstantiate_GT_T_Vector3_Quaternion = new(typeof(UnityEngine.Object), "Instantiate", 1, Type.MakeGenericMethodParameter(0), typeof(UnityEngine.Vector3), typeof(UnityEngine.Quaternion));
-					r_RInstantiate_GT_T_Vector3_Quaternion.SetBelong(null);
+					r_Instantiate_GT_T_Vector3_Quaternion = new(typeof(UnityEngine.Object), "Instantiate", 1, Type.MakeGenericMethodParameter(0), typeof(UnityEngine.Vector3), typeof(UnityEngine.Quaternion));
+					r_Instantiate_GT_T_Vector3_Quaternion.SetBelong(null);
 				}
-				return r_RInstantiate_GT_T_Vector3_Quaternion;
+				return r_Instantiate_GT_T_Vector3_Quaternion;
 			}
 		}
 
 		/// <summary>
 		/// T Instantiate[T](T, UnityEngine.Vector3, UnityEngine.Quaternion, UnityEngine.Transform)
 		/// </summary>
-		protected static RMethod r_RInstantiate_GT_T_Vector3_Quaternion_Transform;
+		protected static RMethod r_Instantiate_GT_T_Vector3_Quaternion_Transform;
 		public static RMethod RInstantiate_GT_T_Vector3_Quaternion_Transform
 		{
 			get
 			{
-				if(r_RInstantiate_GT_T_Vector3_Quaternion_Transform == null)
+				if(r_Instantiate_GT_T_Vector3_Quaternion_Transform == null)
 				{
-					r_RInstantiate_GT_T_Vector3_Quaternion_Transform = new(typeof(UnityEngine.Object), "Instantiate", 1, Type.MakeGenericMethodParameter(0), typeof(UnityEngine.Vector3), typeof(UnityEngine.Quaternion), typeof(UnityEngine.Transform));
-					r_RInstantiate_GT_T_Vector3_Quaternion_Transform.SetBelong(null);
+					r_Instantiate_GT_T_Vector3_Quaternion_Transform = new(typeof(UnityEngine.Object), "Instantiate", 1, Type.MakeGenericMethodParameter(0), typeof(UnityEngine.Vector3), typeof(UnityEngine.Quaternion), typeof(UnityEngine.Transform));
+					r_Instantiate_GT_T_Vector3_Quaternion_Transform.SetBelong(null);
 				}
-				return r_RInstantiate_GT_T_Vector3_Quaternion_Transform;
+				return r_Instantiate_GT_T_Vector3_Quaternion_Transform;
 			}
 		}
 
 		/// <summary>
 		/// T Instantiate[T](T, UnityEngine.Transform)
 		/// </summary>
-		protected static RMethod r_RInstantiate_GT_T_Transform;
+		protected static RMethod r_Instantiate_GT_T_Transform;
 		public static RMethod RInstantiate_GT_T_Transform
 		{
 			get
 			{
-				if(r_RInstantiate_GT_T_Transform == null)
+				if(r_Instantiate_GT_T_Transform == null)
 				{
-					r_RInstantiate_GT_T_Transform = new(typeof(UnityEngine.Object), "Instantiate", 1, Type.MakeGenericMethodParameter(0), typeof(UnityEngine.Transform));
-					r_RInstantiate_GT_T_Transform.SetBelong(null);
+					r_Instantiate_GT_T_Transform = new(typeof(UnityEngine.Object), "Instantiate", 1, Type.MakeGenericMethodParameter(0), typeof(UnityEngine.Transform));
+					r_Instantiate_GT_T_Transform.SetBelong(null);
 				}
-				return r_RInstantiate_GT_T_Transform;
+				return r_Instantiate_GT_T_Transform;
 			}
 		}
 
 		/// <summary>
 		/// T Instantiate[T](T, UnityEngine.Transform, Boolean)
 		/// </summary>
-		protected static RMethod r_RInstantiate_GT_T_Transform_Boolean;
+		protected static RMethod r_Instantiate_GT_T_Transform_Boolean;
 		public static RMethod RInstantiate_GT_T_Transform_Boolean
 		{
 			get
 			{
-				if(r_RInstantiate_GT_T_Transform_Boolean == null)
+				if(r_Instantiate_GT_T_Transform_Boolean == null)
 				{
-					r_RInstantiate_GT_T_Transform_Boolean = new(typeof(UnityEngine.Object), "Instantiate", 1, Type.MakeGenericMethodParameter(0), typeof(UnityEngine.Transform), typeof(System.Boolean));
-					r_RInstantiate_GT_T_Transform_Boolean.SetBelong(null);
+					r_Instantiate_GT_T_Transform_Boolean = new(typeof(UnityEngine.Object), "Instantiate", 1, Type.MakeGenericMethodParameter(0), typeof(UnityEngine.Transform), typeof(System.Boolean));
+					r_Instantiate_GT_T_Transform_Boolean.SetBelong(null);
 				}
-				return r_RInstantiate_GT_T_Transform_Boolean;
+				return r_Instantiate_GT_T_Transform_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Void Destroy(UnityEngine.Object, Single)
 		/// </summary>
-		protected static RMethod r_RDestroy_Object_Single;
+		protected static RMethod r_Destroy_Object_Single;
 		public static RMethod RDestroy_Object_Single
 		{
 			get
 			{
-				if(r_RDestroy_Object_Single == null)
+				if(r_Destroy_Object_Single == null)
 				{
-					r_RDestroy_Object_Single = new(typeof(UnityEngine.Object), "Destroy", 0, typeof(UnityEngine.Object), typeof(System.Single));
-					r_RDestroy_Object_Single.SetBelong(null);
+					r_Destroy_Object_Single = new(typeof(UnityEngine.Object), "Destroy", 0, typeof(UnityEngine.Object), typeof(System.Single));
+					r_Destroy_Object_Single.SetBelong(null);
 				}
-				return r_RDestroy_Object_Single;
+				return r_Destroy_Object_Single;
 			}
 		}
 
 		/// <summary>
 		/// Void Destroy(UnityEngine.Object)
 		/// </summary>
-		protected static RMethod r_RDestroy_Object;
+		protected static RMethod r_Destroy_Object;
 		public static RMethod RDestroy_Object
 		{
 			get
 			{
-				if(r_RDestroy_Object == null)
+				if(r_Destroy_Object == null)
 				{
-					r_RDestroy_Object = new(typeof(UnityEngine.Object), "Destroy", 0, typeof(UnityEngine.Object));
-					r_RDestroy_Object.SetBelong(null);
+					r_Destroy_Object = new(typeof(UnityEngine.Object), "Destroy", 0, typeof(UnityEngine.Object));
+					r_Destroy_Object.SetBelong(null);
 				}
-				return r_RDestroy_Object;
+				return r_Destroy_Object;
 			}
 		}
 
 		/// <summary>
 		/// Void DestroyImmediate(UnityEngine.Object, Boolean)
 		/// </summary>
-		protected static RMethod r_RDestroyImmediate_Object_Boolean;
+		protected static RMethod r_DestroyImmediate_Object_Boolean;
 		public static RMethod RDestroyImmediate_Object_Boolean
 		{
 			get
 			{
-				if(r_RDestroyImmediate_Object_Boolean == null)
+				if(r_DestroyImmediate_Object_Boolean == null)
 				{
-					r_RDestroyImmediate_Object_Boolean = new(typeof(UnityEngine.Object), "DestroyImmediate", 0, typeof(UnityEngine.Object), typeof(System.Boolean));
-					r_RDestroyImmediate_Object_Boolean.SetBelong(null);
+					r_DestroyImmediate_Object_Boolean = new(typeof(UnityEngine.Object), "DestroyImmediate", 0, typeof(UnityEngine.Object), typeof(System.Boolean));
+					r_DestroyImmediate_Object_Boolean.SetBelong(null);
 				}
-				return r_RDestroyImmediate_Object_Boolean;
+				return r_DestroyImmediate_Object_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Void DestroyImmediate(UnityEngine.Object)
 		/// </summary>
-		protected static RMethod r_RDestroyImmediate_Object;
+		protected static RMethod r_DestroyImmediate_Object;
 		public static RMethod RDestroyImmediate_Object
 		{
 			get
 			{
-				if(r_RDestroyImmediate_Object == null)
+				if(r_DestroyImmediate_Object == null)
 				{
-					r_RDestroyImmediate_Object = new(typeof(UnityEngine.Object), "DestroyImmediate", 0, typeof(UnityEngine.Object));
-					r_RDestroyImmediate_Object.SetBelong(null);
+					r_DestroyImmediate_Object = new(typeof(UnityEngine.Object), "DestroyImmediate", 0, typeof(UnityEngine.Object));
+					r_DestroyImmediate_Object.SetBelong(null);
 				}
-				return r_RDestroyImmediate_Object;
+				return r_DestroyImmediate_Object;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Object[] FindObjectsOfType(System.Type)
 		/// </summary>
-		protected static RMethod r_RFindObjectsOfType_Type;
+		protected static RMethod r_FindObjectsOfType_Type;
 		public static RMethod RFindObjectsOfType_Type
 		{
 			get
 			{
-				if(r_RFindObjectsOfType_Type == null)
+				if(r_FindObjectsOfType_Type == null)
 				{
-					r_RFindObjectsOfType_Type = new(typeof(UnityEngine.Object), "FindObjectsOfType", 0, typeof(System.Type));
-					r_RFindObjectsOfType_Type.SetBelong(null);
+					r_FindObjectsOfType_Type = new(typeof(UnityEngine.Object), "FindObjectsOfType", 0, typeof(System.Type));
+					r_FindObjectsOfType_Type.SetBelong(null);
 				}
-				return r_RFindObjectsOfType_Type;
+				return r_FindObjectsOfType_Type;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Object[] FindObjectsOfType(System.Type, Boolean)
 		/// </summary>
-		protected static RMethod r_RFindObjectsOfType_Type_Boolean;
+		protected static RMethod r_FindObjectsOfType_Type_Boolean;
 		public static RMethod RFindObjectsOfType_Type_Boolean
 		{
 			get
 			{
-				if(r_RFindObjectsOfType_Type_Boolean == null)
+				if(r_FindObjectsOfType_Type_Boolean == null)
 				{
-					r_RFindObjectsOfType_Type_Boolean = new(typeof(UnityEngine.Object), "FindObjectsOfType", 0, typeof(System.Type), typeof(System.Boolean));
-					r_RFindObjectsOfType_Type_Boolean.SetBelong(null);
+					r_FindObjectsOfType_Type_Boolean = new(typeof(UnityEngine.Object), "FindObjectsOfType", 0, typeof(System.Type), typeof(System.Boolean));
+					r_FindObjectsOfType_Type_Boolean.SetBelong(null);
 				}
-				return r_RFindObjectsOfType_Type_Boolean;
+				return r_FindObjectsOfType_Type_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Void DontDestroyOnLoad(UnityEngine.Object)
 		/// </summary>
-		protected static RMethod r_RDontDestroyOnLoad_Object;
+		protected static RMethod r_DontDestroyOnLoad_Object;
 		public static RMethod RDontDestroyOnLoad_Object
 		{
 			get
 			{
-				if(r_RDontDestroyOnLoad_Object == null)
+				if(r_DontDestroyOnLoad_Object == null)
 				{
-					r_RDontDestroyOnLoad_Object = new(typeof(UnityEngine.Object), "DontDestroyOnLoad", 0, typeof(UnityEngine.Object));
-					r_RDontDestroyOnLoad_Object.SetBelong(null);
+					r_DontDestroyOnLoad_Object = new(typeof(UnityEngine.Object), "DontDestroyOnLoad", 0, typeof(UnityEngine.Object));
+					r_DontDestroyOnLoad_Object.SetBelong(null);
 				}
-				return r_RDontDestroyOnLoad_Object;
+				return r_DontDestroyOnLoad_Object;
 			}
 		}
 
 		/// <summary>
 		/// Void DestroyObject(UnityEngine.Object, Single)
 		/// </summary>
-		protected static RMethod r_RDestroyObject_Object_Single;
+		protected static RMethod r_DestroyObject_Object_Single;
 		public static RMethod RDestroyObject_Object_Single
 		{
 			get
 			{
-				if(r_RDestroyObject_Object_Single == null)
+				if(r_DestroyObject_Object_Single == null)
 				{
-					r_RDestroyObject_Object_Single = new(typeof(UnityEngine.Object), "DestroyObject", 0, typeof(UnityEngine.Object), typeof(System.Single));
-					r_RDestroyObject_Object_Single.SetBelong(null);
+					r_DestroyObject_Object_Single = new(typeof(UnityEngine.Object), "DestroyObject", 0, typeof(UnityEngine.Object), typeof(System.Single));
+					r_DestroyObject_Object_Single.SetBelong(null);
 				}
-				return r_RDestroyObject_Object_Single;
+				return r_DestroyObject_Object_Single;
 			}
 		}
 
 		/// <summary>
 		/// Void DestroyObject(UnityEngine.Object)
 		/// </summary>
-		protected static RMethod r_RDestroyObject_Object;
+		protected static RMethod r_DestroyObject_Object;
 		public static RMethod RDestroyObject_Object
 		{
 			get
 			{
-				if(r_RDestroyObject_Object == null)
+				if(r_DestroyObject_Object == null)
 				{
-					r_RDestroyObject_Object = new(typeof(UnityEngine.Object), "DestroyObject", 0, typeof(UnityEngine.Object));
-					r_RDestroyObject_Object.SetBelong(null);
+					r_DestroyObject_Object = new(typeof(UnityEngine.Object), "DestroyObject", 0, typeof(UnityEngine.Object));
+					r_DestroyObject_Object.SetBelong(null);
 				}
-				return r_RDestroyObject_Object;
+				return r_DestroyObject_Object;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Object[] FindSceneObjectsOfType(System.Type)
 		/// </summary>
-		protected static RMethod r_RFindSceneObjectsOfType_Type;
+		protected static RMethod r_FindSceneObjectsOfType_Type;
 		public static RMethod RFindSceneObjectsOfType_Type
 		{
 			get
 			{
-				if(r_RFindSceneObjectsOfType_Type == null)
+				if(r_FindSceneObjectsOfType_Type == null)
 				{
-					r_RFindSceneObjectsOfType_Type = new(typeof(UnityEngine.Object), "FindSceneObjectsOfType", 0, typeof(System.Type));
-					r_RFindSceneObjectsOfType_Type.SetBelong(null);
+					r_FindSceneObjectsOfType_Type = new(typeof(UnityEngine.Object), "FindSceneObjectsOfType", 0, typeof(System.Type));
+					r_FindSceneObjectsOfType_Type.SetBelong(null);
 				}
-				return r_RFindSceneObjectsOfType_Type;
+				return r_FindSceneObjectsOfType_Type;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Object[] FindObjectsOfTypeIncludingAssets(System.Type)
 		/// </summary>
-		protected static RMethod r_RFindObjectsOfTypeIncludingAssets_Type;
+		protected static RMethod r_FindObjectsOfTypeIncludingAssets_Type;
 		public static RMethod RFindObjectsOfTypeIncludingAssets_Type
 		{
 			get
 			{
-				if(r_RFindObjectsOfTypeIncludingAssets_Type == null)
+				if(r_FindObjectsOfTypeIncludingAssets_Type == null)
 				{
-					r_RFindObjectsOfTypeIncludingAssets_Type = new(typeof(UnityEngine.Object), "FindObjectsOfTypeIncludingAssets", 0, typeof(System.Type));
-					r_RFindObjectsOfTypeIncludingAssets_Type.SetBelong(null);
+					r_FindObjectsOfTypeIncludingAssets_Type = new(typeof(UnityEngine.Object), "FindObjectsOfTypeIncludingAssets", 0, typeof(System.Type));
+					r_FindObjectsOfTypeIncludingAssets_Type.SetBelong(null);
 				}
-				return r_RFindObjectsOfTypeIncludingAssets_Type;
+				return r_FindObjectsOfTypeIncludingAssets_Type;
 			}
 		}
 
 		/// <summary>
 		/// T[] FindObjectsOfType[T]()
 		/// </summary>
-		protected static RMethod r_RFindObjectsOfType_GT;
+		protected static RMethod r_FindObjectsOfType_GT;
 		public static RMethod RFindObjectsOfType_GT
 		{
 			get
 			{
-				if(r_RFindObjectsOfType_GT == null)
+				if(r_FindObjectsOfType_GT == null)
 				{
-					r_RFindObjectsOfType_GT = new(typeof(UnityEngine.Object), "FindObjectsOfType", 1);
-					r_RFindObjectsOfType_GT.SetBelong(null);
+					r_FindObjectsOfType_GT = new(typeof(UnityEngine.Object), "FindObjectsOfType", 1);
+					r_FindObjectsOfType_GT.SetBelong(null);
 				}
-				return r_RFindObjectsOfType_GT;
+				return r_FindObjectsOfType_GT;
 			}
 		}
 
 		/// <summary>
 		/// T[] FindObjectsOfType[T](Boolean)
 		/// </summary>
-		protected static RMethod r_RFindObjectsOfType_GT_Boolean;
+		protected static RMethod r_FindObjectsOfType_GT_Boolean;
 		public static RMethod RFindObjectsOfType_GT_Boolean
 		{
 			get
 			{
-				if(r_RFindObjectsOfType_GT_Boolean == null)
+				if(r_FindObjectsOfType_GT_Boolean == null)
 				{
-					r_RFindObjectsOfType_GT_Boolean = new(typeof(UnityEngine.Object), "FindObjectsOfType", 1, typeof(System.Boolean));
-					r_RFindObjectsOfType_GT_Boolean.SetBelong(null);
+					r_FindObjectsOfType_GT_Boolean = new(typeof(UnityEngine.Object), "FindObjectsOfType", 1, typeof(System.Boolean));
+					r_FindObjectsOfType_GT_Boolean.SetBelong(null);
 				}
-				return r_RFindObjectsOfType_GT_Boolean;
+				return r_FindObjectsOfType_GT_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// T FindObjectOfType[T]()
 		/// </summary>
-		protected static RMethod r_RFindObjectOfType_GT;
+		protected static RMethod r_FindObjectOfType_GT;
 		public static RMethod RFindObjectOfType_GT
 		{
 			get
 			{
-				if(r_RFindObjectOfType_GT == null)
+				if(r_FindObjectOfType_GT == null)
 				{
-					r_RFindObjectOfType_GT = new(typeof(UnityEngine.Object), "FindObjectOfType", 1);
-					r_RFindObjectOfType_GT.SetBelong(null);
+					r_FindObjectOfType_GT = new(typeof(UnityEngine.Object), "FindObjectOfType", 1);
+					r_FindObjectOfType_GT.SetBelong(null);
 				}
-				return r_RFindObjectOfType_GT;
+				return r_FindObjectOfType_GT;
 			}
 		}
 
 		/// <summary>
 		/// T FindObjectOfType[T](Boolean)
 		/// </summary>
-		protected static RMethod r_RFindObjectOfType_GT_Boolean;
+		protected static RMethod r_FindObjectOfType_GT_Boolean;
 		public static RMethod RFindObjectOfType_GT_Boolean
 		{
 			get
 			{
-				if(r_RFindObjectOfType_GT_Boolean == null)
+				if(r_FindObjectOfType_GT_Boolean == null)
 				{
-					r_RFindObjectOfType_GT_Boolean = new(typeof(UnityEngine.Object), "FindObjectOfType", 1, typeof(System.Boolean));
-					r_RFindObjectOfType_GT_Boolean.SetBelong(null);
+					r_FindObjectOfType_GT_Boolean = new(typeof(UnityEngine.Object), "FindObjectOfType", 1, typeof(System.Boolean));
+					r_FindObjectOfType_GT_Boolean.SetBelong(null);
 				}
-				return r_RFindObjectOfType_GT_Boolean;
+				return r_FindObjectOfType_GT_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Object[] FindObjectsOfTypeAll(System.Type)
 		/// </summary>
-		protected static RMethod r_RFindObjectsOfTypeAll_Type;
+		protected static RMethod r_FindObjectsOfTypeAll_Type;
 		public static RMethod RFindObjectsOfTypeAll_Type
 		{
 			get
 			{
-				if(r_RFindObjectsOfTypeAll_Type == null)
+				if(r_FindObjectsOfTypeAll_Type == null)
 				{
-					r_RFindObjectsOfTypeAll_Type = new(typeof(UnityEngine.Object), "FindObjectsOfTypeAll", 0, typeof(System.Type));
-					r_RFindObjectsOfTypeAll_Type.SetBelong(null);
+					r_FindObjectsOfTypeAll_Type = new(typeof(UnityEngine.Object), "FindObjectsOfTypeAll", 0, typeof(System.Type));
+					r_FindObjectsOfTypeAll_Type.SetBelong(null);
 				}
-				return r_RFindObjectsOfTypeAll_Type;
+				return r_FindObjectsOfTypeAll_Type;
 			}
 		}
 
 		/// <summary>
 		/// Void CheckNullArgument(System.Object, System.String)
 		/// </summary>
-		protected static RMethod r_RCheckNullArgument_Object_String;
+		protected static RMethod r_CheckNullArgument_Object_String;
 		public static RMethod RCheckNullArgument_Object_String
 		{
 			get
 			{
-				if(r_RCheckNullArgument_Object_String == null)
+				if(r_CheckNullArgument_Object_String == null)
 				{
-					r_RCheckNullArgument_Object_String = new(typeof(UnityEngine.Object), "CheckNullArgument", 0, typeof(System.Object), typeof(System.String));
-					r_RCheckNullArgument_Object_String.SetBelong(null);
+					r_CheckNullArgument_Object_String = new(typeof(UnityEngine.Object), "CheckNullArgument", 0, typeof(System.Object), typeof(System.String));
+					r_CheckNullArgument_Object_String.SetBelong(null);
 				}
-				return r_RCheckNullArgument_Object_String;
+				return r_CheckNullArgument_Object_String;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Object FindObjectOfType(System.Type)
 		/// </summary>
-		protected static RMethod r_RFindObjectOfType_Type;
+		protected static RMethod r_FindObjectOfType_Type;
 		public static RMethod RFindObjectOfType_Type
 		{
 			get
 			{
-				if(r_RFindObjectOfType_Type == null)
+				if(r_FindObjectOfType_Type == null)
 				{
-					r_RFindObjectOfType_Type = new(typeof(UnityEngine.Object), "FindObjectOfType", 0, typeof(System.Type));
-					r_RFindObjectOfType_Type.SetBelong(null);
+					r_FindObjectOfType_Type = new(typeof(UnityEngine.Object), "FindObjectOfType", 0, typeof(System.Type));
+					r_FindObjectOfType_Type.SetBelong(null);
 				}
-				return r_RFindObjectOfType_Type;
+				return r_FindObjectOfType_Type;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Object FindObjectOfType(System.Type, Boolean)
 		/// </summary>
-		protected static RMethod r_RFindObjectOfType_Type_Boolean;
+		protected static RMethod r_FindObjectOfType_Type_Boolean;
 		public static RMethod RFindObjectOfType_Type_Boolean
 		{
 			get
 			{
-				if(r_RFindObjectOfType_Type_Boolean == null)
+				if(r_FindObjectOfType_Type_Boolean == null)
 				{
-					r_RFindObjectOfType_Type_Boolean = new(typeof(UnityEngine.Object), "FindObjectOfType", 0, typeof(System.Type), typeof(System.Boolean));
-					r_RFindObjectOfType_Type_Boolean.SetBelong(null);
+					r_FindObjectOfType_Type_Boolean = new(typeof(UnityEngine.Object), "FindObjectOfType", 0, typeof(System.Type), typeof(System.Boolean));
+					r_FindObjectOfType_Type_Boolean.SetBelong(null);
 				}
-				return r_RFindObjectOfType_Type_Boolean;
+				return r_FindObjectOfType_Type_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// System.String ToString()
 		/// </summary>
-		protected RMethod r_RToString;
+		protected RMethod r_ToString;
 		public virtual RMethod RToString
 		{
 			get
 			{
-				if(r_RToString == null)
+				if(r_ToString == null)
 				{
-					r_RToString = new(this, "ToString", 0);
-					r_RToString.SetBelong(this.instance);
+					r_ToString = new(this, "ToString", 0);
+					r_ToString.SetBelong(this.instance);
 				}
-				return r_RToString;
+				return r_ToString;
 			}
 		}
 
 		/// <summary>
 		/// Boolean op_Equality(UnityEngine.Object, UnityEngine.Object)
 		/// </summary>
-		protected static RMethod r_Rop_Equality_Object_Object;
+		protected static RMethod r_op_Equality_Object_Object;
 		public static RMethod Rop_Equality_Object_Object
 		{
 			get
 			{
-				if(r_Rop_Equality_Object_Object == null)
+				if(r_op_Equality_Object_Object == null)
 				{
-					r_Rop_Equality_Object_Object = new(typeof(UnityEngine.Object), "op_Equality", 0, typeof(UnityEngine.Object), typeof(UnityEngine.Object));
-					r_Rop_Equality_Object_Object.SetBelong(null);
+					r_op_Equality_Object_Object = new(typeof(UnityEngine.Object), "op_Equality", 0, typeof(UnityEngine.Object), typeof(UnityEngine.Object));
+					r_op_Equality_Object_Object.SetBelong(null);
 				}
-				return r_Rop_Equality_Object_Object;
+				return r_op_Equality_Object_Object;
 			}
 		}
 
 		/// <summary>
 		/// Boolean op_Inequality(UnityEngine.Object, UnityEngine.Object)
 		/// </summary>
-		protected static RMethod r_Rop_Inequality_Object_Object;
+		protected static RMethod r_op_Inequality_Object_Object;
 		public static RMethod Rop_Inequality_Object_Object
 		{
 			get
 			{
-				if(r_Rop_Inequality_Object_Object == null)
+				if(r_op_Inequality_Object_Object == null)
 				{
-					r_Rop_Inequality_Object_Object = new(typeof(UnityEngine.Object), "op_Inequality", 0, typeof(UnityEngine.Object), typeof(UnityEngine.Object));
-					r_Rop_Inequality_Object_Object.SetBelong(null);
+					r_op_Inequality_Object_Object = new(typeof(UnityEngine.Object), "op_Inequality", 0, typeof(UnityEngine.Object), typeof(UnityEngine.Object));
+					r_op_Inequality_Object_Object.SetBelong(null);
 				}
-				return r_Rop_Inequality_Object_Object;
+				return r_op_Inequality_Object_Object;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetOffsetOfInstanceIDInCPlusPlusObject()
 		/// </summary>
-		protected static RMethod r_RGetOffsetOfInstanceIDInCPlusPlusObject;
+		protected static RMethod r_GetOffsetOfInstanceIDInCPlusPlusObject;
 		public static RMethod RGetOffsetOfInstanceIDInCPlusPlusObject
 		{
 			get
 			{
-				if(r_RGetOffsetOfInstanceIDInCPlusPlusObject == null)
+				if(r_GetOffsetOfInstanceIDInCPlusPlusObject == null)
 				{
-					r_RGetOffsetOfInstanceIDInCPlusPlusObject = new(typeof(UnityEngine.Object), "GetOffsetOfInstanceIDInCPlusPlusObject", 0);
-					r_RGetOffsetOfInstanceIDInCPlusPlusObject.SetBelong(null);
+					r_GetOffsetOfInstanceIDInCPlusPlusObject = new(typeof(UnityEngine.Object), "GetOffsetOfInstanceIDInCPlusPlusObject", 0);
+					r_GetOffsetOfInstanceIDInCPlusPlusObject.SetBelong(null);
 				}
-				return r_RGetOffsetOfInstanceIDInCPlusPlusObject;
+				return r_GetOffsetOfInstanceIDInCPlusPlusObject;
 			}
 		}
 
 		/// <summary>
 		/// Boolean CurrentThreadIsMainThread()
 		/// </summary>
-		protected static RMethod r_RCurrentThreadIsMainThread;
+		protected static RMethod r_CurrentThreadIsMainThread;
 		public static RMethod RCurrentThreadIsMainThread
 		{
 			get
 			{
-				if(r_RCurrentThreadIsMainThread == null)
+				if(r_CurrentThreadIsMainThread == null)
 				{
-					r_RCurrentThreadIsMainThread = new(typeof(UnityEngine.Object), "CurrentThreadIsMainThread", 0);
-					r_RCurrentThreadIsMainThread.SetBelong(null);
+					r_CurrentThreadIsMainThread = new(typeof(UnityEngine.Object), "CurrentThreadIsMainThread", 0);
+					r_CurrentThreadIsMainThread.SetBelong(null);
 				}
-				return r_RCurrentThreadIsMainThread;
+				return r_CurrentThreadIsMainThread;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Object Internal_CloneSingle(UnityEngine.Object)
 		/// </summary>
-		protected static RMethod r_RInternal_CloneSingle_Object;
+		protected static RMethod r_Internal_CloneSingle_Object;
 		public static RMethod RInternal_CloneSingle_Object
 		{
 			get
 			{
-				if(r_RInternal_CloneSingle_Object == null)
+				if(r_Internal_CloneSingle_Object == null)
 				{
-					r_RInternal_CloneSingle_Object = new(typeof(UnityEngine.Object), "Internal_CloneSingle", 0, typeof(UnityEngine.Object));
-					r_RInternal_CloneSingle_Object.SetBelong(null);
+					r_Internal_CloneSingle_Object = new(typeof(UnityEngine.Object), "Internal_CloneSingle", 0, typeof(UnityEngine.Object));
+					r_Internal_CloneSingle_Object.SetBelong(null);
 				}
-				return r_RInternal_CloneSingle_Object;
+				return r_Internal_CloneSingle_Object;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Object Internal_CloneSingleWithParent(UnityEngine.Object, UnityEngine.Transform, Boolean)
 		/// </summary>
-		protected static RMethod r_RInternal_CloneSingleWithParent_Object_Transform_Boolean;
+		protected static RMethod r_Internal_CloneSingleWithParent_Object_Transform_Boolean;
 		public static RMethod RInternal_CloneSingleWithParent_Object_Transform_Boolean
 		{
 			get
 			{
-				if(r_RInternal_CloneSingleWithParent_Object_Transform_Boolean == null)
+				if(r_Internal_CloneSingleWithParent_Object_Transform_Boolean == null)
 				{
-					r_RInternal_CloneSingleWithParent_Object_Transform_Boolean = new(typeof(UnityEngine.Object), "Internal_CloneSingleWithParent", 0, typeof(UnityEngine.Object), typeof(UnityEngine.Transform), typeof(System.Boolean));
-					r_RInternal_CloneSingleWithParent_Object_Transform_Boolean.SetBelong(null);
+					r_Internal_CloneSingleWithParent_Object_Transform_Boolean = new(typeof(UnityEngine.Object), "Internal_CloneSingleWithParent", 0, typeof(UnityEngine.Object), typeof(UnityEngine.Transform), typeof(System.Boolean));
+					r_Internal_CloneSingleWithParent_Object_Transform_Boolean.SetBelong(null);
 				}
-				return r_RInternal_CloneSingleWithParent_Object_Transform_Boolean;
+				return r_Internal_CloneSingleWithParent_Object_Transform_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Object Internal_InstantiateSingle(UnityEngine.Object, UnityEngine.Vector3, UnityEngine.Quaternion)
 		/// </summary>
-		protected static RMethod r_RInternal_InstantiateSingle_Object_Vector3_Quaternion;
+		protected static RMethod r_Internal_InstantiateSingle_Object_Vector3_Quaternion;
 		public static RMethod RInternal_InstantiateSingle_Object_Vector3_Quaternion
 		{
 			get
 			{
-				if(r_RInternal_InstantiateSingle_Object_Vector3_Quaternion == null)
+				if(r_Internal_InstantiateSingle_Object_Vector3_Quaternion == null)
 				{
-					r_RInternal_InstantiateSingle_Object_Vector3_Quaternion = new(typeof(UnityEngine.Object), "Internal_InstantiateSingle", 0, typeof(UnityEngine.Object), typeof(UnityEngine.Vector3), typeof(UnityEngine.Quaternion));
-					r_RInternal_InstantiateSingle_Object_Vector3_Quaternion.SetBelong(null);
+					r_Internal_InstantiateSingle_Object_Vector3_Quaternion = new(typeof(UnityEngine.Object), "Internal_InstantiateSingle", 0, typeof(UnityEngine.Object), typeof(UnityEngine.Vector3), typeof(UnityEngine.Quaternion));
+					r_Internal_InstantiateSingle_Object_Vector3_Quaternion.SetBelong(null);
 				}
-				return r_RInternal_InstantiateSingle_Object_Vector3_Quaternion;
+				return r_Internal_InstantiateSingle_Object_Vector3_Quaternion;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Object Internal_InstantiateSingleWithParent(UnityEngine.Object, UnityEngine.Transform, UnityEngine.Vector3, UnityEngine.Quaternion)
 		/// </summary>
-		protected static RMethod r_RInternal_InstantiateSingleWithParent_Object_Transform_Vector3_Quaternion;
+		protected static RMethod r_Internal_InstantiateSingleWithParent_Object_Transform_Vector3_Quaternion;
 		public static RMethod RInternal_InstantiateSingleWithParent_Object_Transform_Vector3_Quaternion
 		{
 			get
 			{
-				if(r_RInternal_InstantiateSingleWithParent_Object_Transform_Vector3_Quaternion == null)
+				if(r_Internal_InstantiateSingleWithParent_Object_Transform_Vector3_Quaternion == null)
 				{
-					r_RInternal_InstantiateSingleWithParent_Object_Transform_Vector3_Quaternion = new(typeof(UnityEngine.Object), "Internal_InstantiateSingleWithParent", 0, typeof(UnityEngine.Object), typeof(UnityEngine.Transform), typeof(UnityEngine.Vector3), typeof(UnityEngine.Quaternion));
-					r_RInternal_InstantiateSingleWithParent_Object_Transform_Vector3_Quaternion.SetBelong(null);
+					r_Internal_InstantiateSingleWithParent_Object_Transform_Vector3_Quaternion = new(typeof(UnityEngine.Object), "Internal_InstantiateSingleWithParent", 0, typeof(UnityEngine.Object), typeof(UnityEngine.Transform), typeof(UnityEngine.Vector3), typeof(UnityEngine.Quaternion));
+					r_Internal_InstantiateSingleWithParent_Object_Transform_Vector3_Quaternion.SetBelong(null);
 				}
-				return r_RInternal_InstantiateSingleWithParent_Object_Transform_Vector3_Quaternion;
+				return r_Internal_InstantiateSingleWithParent_Object_Transform_Vector3_Quaternion;
 			}
 		}
 
 		/// <summary>
 		/// System.String ToString(UnityEngine.Object)
 		/// </summary>
-		protected static RMethod r_RToString_Object;
+		protected static RMethod r_ToString_Object;
 		public static RMethod RToString_Object
 		{
 			get
 			{
-				if(r_RToString_Object == null)
+				if(r_ToString_Object == null)
 				{
-					r_RToString_Object = new(typeof(UnityEngine.Object), "ToString", 0, typeof(UnityEngine.Object));
-					r_RToString_Object.SetBelong(null);
+					r_ToString_Object = new(typeof(UnityEngine.Object), "ToString", 0, typeof(UnityEngine.Object));
+					r_ToString_Object.SetBelong(null);
 				}
-				return r_RToString_Object;
+				return r_ToString_Object;
 			}
 		}
 
 		/// <summary>
 		/// System.String GetName(UnityEngine.Object)
 		/// </summary>
-		protected static RMethod r_RGetName_Object;
+		protected static RMethod r_GetName_Object;
 		public static RMethod RGetName_Object
 		{
 			get
 			{
-				if(r_RGetName_Object == null)
+				if(r_GetName_Object == null)
 				{
-					r_RGetName_Object = new(typeof(UnityEngine.Object), "GetName", 0, typeof(UnityEngine.Object));
-					r_RGetName_Object.SetBelong(null);
+					r_GetName_Object = new(typeof(UnityEngine.Object), "GetName", 0, typeof(UnityEngine.Object));
+					r_GetName_Object.SetBelong(null);
 				}
-				return r_RGetName_Object;
+				return r_GetName_Object;
 			}
 		}
 
 		/// <summary>
 		/// Boolean IsPersistent(UnityEngine.Object)
 		/// </summary>
-		protected static RMethod r_RIsPersistent_Object;
+		protected static RMethod r_IsPersistent_Object;
 		public static RMethod RIsPersistent_Object
 		{
 			get
 			{
-				if(r_RIsPersistent_Object == null)
+				if(r_IsPersistent_Object == null)
 				{
-					r_RIsPersistent_Object = new(typeof(UnityEngine.Object), "IsPersistent", 0, typeof(UnityEngine.Object));
-					r_RIsPersistent_Object.SetBelong(null);
+					r_IsPersistent_Object = new(typeof(UnityEngine.Object), "IsPersistent", 0, typeof(UnityEngine.Object));
+					r_IsPersistent_Object.SetBelong(null);
 				}
-				return r_RIsPersistent_Object;
+				return r_IsPersistent_Object;
 			}
 		}
 
 		/// <summary>
 		/// Void SetName(UnityEngine.Object, System.String)
 		/// </summary>
-		protected static RMethod r_RSetName_Object_String;
+		protected static RMethod r_SetName_Object_String;
 		public static RMethod RSetName_Object_String
 		{
 			get
 			{
-				if(r_RSetName_Object_String == null)
+				if(r_SetName_Object_String == null)
 				{
-					r_RSetName_Object_String = new(typeof(UnityEngine.Object), "SetName", 0, typeof(UnityEngine.Object), typeof(System.String));
-					r_RSetName_Object_String.SetBelong(null);
+					r_SetName_Object_String = new(typeof(UnityEngine.Object), "SetName", 0, typeof(UnityEngine.Object), typeof(System.String));
+					r_SetName_Object_String.SetBelong(null);
 				}
-				return r_RSetName_Object_String;
+				return r_SetName_Object_String;
 			}
 		}
 
 		/// <summary>
 		/// Boolean DoesObjectWithInstanceIDExist(Int32)
 		/// </summary>
-		protected static RMethod r_RDoesObjectWithInstanceIDExist_Int32;
+		protected static RMethod r_DoesObjectWithInstanceIDExist_Int32;
 		public static RMethod RDoesObjectWithInstanceIDExist_Int32
 		{
 			get
 			{
-				if(r_RDoesObjectWithInstanceIDExist_Int32 == null)
+				if(r_DoesObjectWithInstanceIDExist_Int32 == null)
 				{
-					r_RDoesObjectWithInstanceIDExist_Int32 = new(typeof(UnityEngine.Object), "DoesObjectWithInstanceIDExist", 0, typeof(System.Int32));
-					r_RDoesObjectWithInstanceIDExist_Int32.SetBelong(null);
+					r_DoesObjectWithInstanceIDExist_Int32 = new(typeof(UnityEngine.Object), "DoesObjectWithInstanceIDExist", 0, typeof(System.Int32));
+					r_DoesObjectWithInstanceIDExist_Int32.SetBelong(null);
 				}
-				return r_RDoesObjectWithInstanceIDExist_Int32;
+				return r_DoesObjectWithInstanceIDExist_Int32;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Object FindObjectFromInstanceID(Int32)
 		/// </summary>
-		protected static RMethod r_RFindObjectFromInstanceID_Int32;
+		protected static RMethod r_FindObjectFromInstanceID_Int32;
 		public static RMethod RFindObjectFromInstanceID_Int32
 		{
 			get
 			{
-				if(r_RFindObjectFromInstanceID_Int32 == null)
+				if(r_FindObjectFromInstanceID_Int32 == null)
 				{
-					r_RFindObjectFromInstanceID_Int32 = new(typeof(UnityEngine.Object), "FindObjectFromInstanceID", 0, typeof(System.Int32));
-					r_RFindObjectFromInstanceID_Int32.SetBelong(null);
+					r_FindObjectFromInstanceID_Int32 = new(typeof(UnityEngine.Object), "FindObjectFromInstanceID", 0, typeof(System.Int32));
+					r_FindObjectFromInstanceID_Int32.SetBelong(null);
 				}
-				return r_RFindObjectFromInstanceID_Int32;
+				return r_FindObjectFromInstanceID_Int32;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Object ForceLoadFromInstanceID(Int32)
 		/// </summary>
-		protected static RMethod r_RForceLoadFromInstanceID_Int32;
+		protected static RMethod r_ForceLoadFromInstanceID_Int32;
 		public static RMethod RForceLoadFromInstanceID_Int32
 		{
 			get
 			{
-				if(r_RForceLoadFromInstanceID_Int32 == null)
+				if(r_ForceLoadFromInstanceID_Int32 == null)
 				{
-					r_RForceLoadFromInstanceID_Int32 = new(typeof(UnityEngine.Object), "ForceLoadFromInstanceID", 0, typeof(System.Int32));
-					r_RForceLoadFromInstanceID_Int32.SetBelong(null);
+					r_ForceLoadFromInstanceID_Int32 = new(typeof(UnityEngine.Object), "ForceLoadFromInstanceID", 0, typeof(System.Int32));
+					r_ForceLoadFromInstanceID_Int32.SetBelong(null);
 				}
-				return r_RForceLoadFromInstanceID_Int32;
+				return r_ForceLoadFromInstanceID_Int32;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Object CreateMissingReferenceObject(Int32)
 		/// </summary>
-		protected static RMethod r_RCreateMissingReferenceObject_Int32;
+		protected static RMethod r_CreateMissingReferenceObject_Int32;
 		public static RMethod RCreateMissingReferenceObject_Int32
 		{
 			get
 			{
-				if(r_RCreateMissingReferenceObject_Int32 == null)
+				if(r_CreateMissingReferenceObject_Int32 == null)
 				{
-					r_RCreateMissingReferenceObject_Int32 = new(typeof(UnityEngine.Object), "CreateMissingReferenceObject", 0, typeof(System.Int32));
-					r_RCreateMissingReferenceObject_Int32.SetBelong(null);
+					r_CreateMissingReferenceObject_Int32 = new(typeof(UnityEngine.Object), "CreateMissingReferenceObject", 0, typeof(System.Int32));
+					r_CreateMissingReferenceObject_Int32.SetBelong(null);
 				}
-				return r_RCreateMissingReferenceObject_Int32;
+				return r_CreateMissingReferenceObject_Int32;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Object Internal_InstantiateSingle_Injected(UnityEngine.Object, UnityEngine.Vector3 ByRef, UnityEngine.Quaternion ByRef)
 		/// </summary>
-		protected static RMethod r_RInternal_InstantiateSingle_Injected_Object_Ref_Vector3_Ref_Quaternion;
+		protected static RMethod r_Internal_InstantiateSingle_Injected_Object_Ref_Vector3_Ref_Quaternion;
 		public static RMethod RInternal_InstantiateSingle_Injected_Object_Ref_Vector3_Ref_Quaternion
 		{
 			get
 			{
-				if(r_RInternal_InstantiateSingle_Injected_Object_Ref_Vector3_Ref_Quaternion == null)
+				if(r_Internal_InstantiateSingle_Injected_Object_Ref_Vector3_Ref_Quaternion == null)
 				{
-					r_RInternal_InstantiateSingle_Injected_Object_Ref_Vector3_Ref_Quaternion = new(typeof(UnityEngine.Object), "Internal_InstantiateSingle_Injected", 0, typeof(UnityEngine.Object), typeof(UnityEngine.Vector3).MakeByRefType(), typeof(UnityEngine.Quaternion).MakeByRefType());
-					r_RInternal_InstantiateSingle_Injected_Object_Ref_Vector3_Ref_Quaternion.SetBelong(null);
+					r_Internal_InstantiateSingle_Injected_Object_Ref_Vector3_Ref_Quaternion = new(typeof(UnityEngine.Object), "Internal_InstantiateSingle_Injected", 0, typeof(UnityEngine.Object), typeof(UnityEngine.Vector3).MakeByRefType(), typeof(UnityEngine.Quaternion).MakeByRefType());
+					r_Internal_InstantiateSingle_Injected_Object_Ref_Vector3_Ref_Quaternion.SetBelong(null);
 				}
-				return r_RInternal_InstantiateSingle_Injected_Object_Ref_Vector3_Ref_Quaternion;
+				return r_Internal_InstantiateSingle_Injected_Object_Ref_Vector3_Ref_Quaternion;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Object Internal_InstantiateSingleWithParent_Injected(UnityEngine.Object, UnityEngine.Transform, UnityEngine.Vector3 ByRef, UnityEngine.Quaternion ByRef)
 		/// </summary>
-		protected static RMethod r_RInternal_InstantiateSingleWithParent_Injected_Object_Transform_Ref_Vector3_Ref_Quaternion;
+		protected static RMethod r_Internal_InstantiateSingleWithParent_Injected_Object_Transform_Ref_Vector3_Ref_Quaternion;
 		public static RMethod RInternal_InstantiateSingleWithParent_Injected_Object_Transform_Ref_Vector3_Ref_Quaternion
 		{
 			get
 			{
-				if(r_RInternal_InstantiateSingleWithParent_Injected_Object_Transform_Ref_Vector3_Ref_Quaternion == null)
+				if(r_Internal_InstantiateSingleWithParent_Injected_Object_Transform_Ref_Vector3_Ref_Quaternion == null)
 				{
-					r_RInternal_InstantiateSingleWithParent_Injected_Object_Transform_Ref_Vector3_Ref_Quaternion = new(typeof(UnityEngine.Object), "Internal_InstantiateSingleWithParent_Injected", 0, typeof(UnityEngine.Object), typeof(UnityEngine.Transform), typeof(UnityEngine.Vector3).MakeByRefType(), typeof(UnityEngine.Quaternion).MakeByRefType());
-					r_RInternal_InstantiateSingleWithParent_Injected_Object_Transform_Ref_Vector3_Ref_Quaternion.SetBelong(null);
+					r_Internal_InstantiateSingleWithParent_Injected_Object_Transform_Ref_Vector3_Ref_Quaternion = new(typeof(UnityEngine.Object), "Internal_InstantiateSingleWithParent_Injected", 0, typeof(UnityEngine.Object), typeof(UnityEngine.Transform), typeof(UnityEngine.Vector3).MakeByRefType(), typeof(UnityEngine.Quaternion).MakeByRefType());
+					r_Internal_InstantiateSingleWithParent_Injected_Object_Transform_Ref_Vector3_Ref_Quaternion.SetBelong(null);
 				}
-				return r_RInternal_InstantiateSingleWithParent_Injected_Object_Transform_Ref_Vector3_Ref_Quaternion;
+				return r_Internal_InstantiateSingleWithParent_Injected_Object_Transform_Ref_Vector3_Ref_Quaternion;
 			}
 		}
 
 		/// <summary>
 		/// Void Finalize()
 		/// </summary>
-		protected RMethod r_RFinalize;
+		protected RMethod r_Finalize;
 		public virtual RMethod RFinalize
 		{
 			get
 			{
-				if(r_RFinalize == null)
+				if(r_Finalize == null)
 				{
-					r_RFinalize = new(this, "Finalize", 0);
-					r_RFinalize.SetBelong(this.instance);
+					r_Finalize = new(this, "Finalize", 0);
+					r_Finalize.SetBelong(this.instance);
 				}
-				return r_RFinalize;
+				return r_Finalize;
 			}
 		}
 
 		/// <summary>
 		/// System.Type GetType()
 		/// </summary>
-		protected RMethod r_RGetType;
+		protected RMethod r_GetType;
 		public virtual RMethod RGetType
 		{
 			get
 			{
-				if(r_RGetType == null)
+				if(r_GetType == null)
 				{
-					r_RGetType = new(this, "GetType", 0);
-					r_RGetType.SetBelong(this.instance);
+					r_GetType = new(this, "GetType", 0);
+					r_GetType.SetBelong(this.instance);
 				}
-				return r_RGetType;
+				return r_GetType;
 			}
 		}
 
 		/// <summary>
 		/// System.Object MemberwiseClone()
 		/// </summary>
-		protected RMethod r_RMemberwiseClone;
+		protected RMethod r_MemberwiseClone;
 		public virtual RMethod RMemberwiseClone
 		{
 			get
 			{
-				if(r_RMemberwiseClone == null)
+				if(r_MemberwiseClone == null)
 				{
-					r_RMemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_RMemberwiseClone.SetBelong(this.instance);
+					r_MemberwiseClone = new(this, "MemberwiseClone", 0);
+					r_MemberwiseClone.SetBelong(this.instance);
 				}
-				return r_RMemberwiseClone;
+				return r_MemberwiseClone;
 			}
 		}
 

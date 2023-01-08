@@ -438,17 +438,17 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.String <TargetFrameworkName>k__BackingField
 		/// </summary>
-		protected RField r___1__TargetFrameworkName__2__k__BackingField;
-		public virtual RField R__1__TargetFrameworkName__2__k__BackingField
+		protected RField r___0__TargetFrameworkName__1__k__BackingField;
+		public virtual RField R__0__TargetFrameworkName__1__k__BackingField
 		{
 			get
 			{
-				if(r___1__TargetFrameworkName__2__k__BackingField == null)
+				if(r___0__TargetFrameworkName__1__k__BackingField == null)
 				{
-					r___1__TargetFrameworkName__2__k__BackingField = new(this, "<TargetFrameworkName>k__BackingField");
-					r___1__TargetFrameworkName__2__k__BackingField.SetBelong(this.instance);
+					r___0__TargetFrameworkName__1__k__BackingField = new(this, "<TargetFrameworkName>k__BackingField");
+					r___0__TargetFrameworkName__1__k__BackingField.SetBelong(this.instance);
 				}
-				return r___1__TargetFrameworkName__2__k__BackingField;
+				return r___0__TargetFrameworkName__1__k__BackingField;
 			}
 		}
 
@@ -863,221 +863,221 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.String GetAppBase(System.String)
 		/// </summary>
-		protected static RMethod r_RGetAppBase_String;
+		protected static RMethod r_GetAppBase_String;
 		public static RMethod RGetAppBase_String
 		{
 			get
 			{
-				if(r_RGetAppBase_String == null)
+				if(r_GetAppBase_String == null)
 				{
-					r_RGetAppBase_String = new(typeof(System.AppDomainSetup), "GetAppBase", 0, typeof(System.String));
-					r_RGetAppBase_String.SetBelong(null);
+					r_GetAppBase_String = new(typeof(System.AppDomainSetup), "GetAppBase", 0, typeof(System.String));
+					r_GetAppBase_String.SetBelong(null);
 				}
-				return r_RGetAppBase_String;
+				return r_GetAppBase_String;
 			}
 		}
 
 		/// <summary>
 		/// Byte[] GetConfigurationBytes()
 		/// </summary>
-		protected RMethod r_RGetConfigurationBytes;
+		protected RMethod r_GetConfigurationBytes;
 		public virtual RMethod RGetConfigurationBytes
 		{
 			get
 			{
-				if(r_RGetConfigurationBytes == null)
+				if(r_GetConfigurationBytes == null)
 				{
-					r_RGetConfigurationBytes = new(this, "GetConfigurationBytes", 0);
-					r_RGetConfigurationBytes.SetBelong(this.instance);
+					r_GetConfigurationBytes = new(this, "GetConfigurationBytes", 0);
+					r_GetConfigurationBytes.SetBelong(this.instance);
 				}
-				return r_RGetConfigurationBytes;
+				return r_GetConfigurationBytes;
 			}
 		}
 
 		/// <summary>
 		/// Void SetConfigurationBytes(Byte[])
 		/// </summary>
-		protected RMethod r_RSetConfigurationBytes_ByteArray;
+		protected RMethod r_SetConfigurationBytes_ByteArray;
 		public virtual RMethod RSetConfigurationBytes_ByteArray
 		{
 			get
 			{
-				if(r_RSetConfigurationBytes_ByteArray == null)
+				if(r_SetConfigurationBytes_ByteArray == null)
 				{
-					r_RSetConfigurationBytes_ByteArray = new(this, "SetConfigurationBytes", 0, typeof(System.Byte).MakeArrayType());
-					r_RSetConfigurationBytes_ByteArray.SetBelong(this.instance);
+					r_SetConfigurationBytes_ByteArray = new(this, "SetConfigurationBytes", 0, typeof(System.Byte).MakeArrayType());
+					r_SetConfigurationBytes_ByteArray.SetBelong(this.instance);
 				}
-				return r_RSetConfigurationBytes_ByteArray;
+				return r_SetConfigurationBytes_ByteArray;
 			}
 		}
 
 		/// <summary>
 		/// Void DeserializeNonPrimitives()
 		/// </summary>
-		protected RMethod r_RDeserializeNonPrimitives;
+		protected RMethod r_DeserializeNonPrimitives;
 		public virtual RMethod RDeserializeNonPrimitives
 		{
 			get
 			{
-				if(r_RDeserializeNonPrimitives == null)
+				if(r_DeserializeNonPrimitives == null)
 				{
-					r_RDeserializeNonPrimitives = new(this, "DeserializeNonPrimitives", 0);
-					r_RDeserializeNonPrimitives.SetBelong(this.instance);
+					r_DeserializeNonPrimitives = new(this, "DeserializeNonPrimitives", 0);
+					r_DeserializeNonPrimitives.SetBelong(this.instance);
 				}
-				return r_RDeserializeNonPrimitives;
+				return r_DeserializeNonPrimitives;
 			}
 		}
 
 		/// <summary>
 		/// Void SerializeNonPrimitives()
 		/// </summary>
-		protected RMethod r_RSerializeNonPrimitives;
+		protected RMethod r_SerializeNonPrimitives;
 		public virtual RMethod RSerializeNonPrimitives
 		{
 			get
 			{
-				if(r_RSerializeNonPrimitives == null)
+				if(r_SerializeNonPrimitives == null)
 				{
-					r_RSerializeNonPrimitives = new(this, "SerializeNonPrimitives", 0);
-					r_RSerializeNonPrimitives.SetBelong(this.instance);
+					r_SerializeNonPrimitives = new(this, "SerializeNonPrimitives", 0);
+					r_SerializeNonPrimitives.SetBelong(this.instance);
 				}
-				return r_RSerializeNonPrimitives;
+				return r_SerializeNonPrimitives;
 			}
 		}
 
 		/// <summary>
 		/// Void SetCompatibilitySwitches(System.Collections.Generic.IEnumerable`1[System.String])
 		/// </summary>
-		protected RMethod r_RSetCompatibilitySwitches_IEnumerable_d_String_p_;
+		protected RMethod r_SetCompatibilitySwitches_IEnumerable_d_String_p_;
 		public virtual RMethod RSetCompatibilitySwitches_IEnumerable_d_String_p_
 		{
 			get
 			{
-				if(r_RSetCompatibilitySwitches_IEnumerable_d_String_p_ == null)
+				if(r_SetCompatibilitySwitches_IEnumerable_d_String_p_ == null)
 				{
-					r_RSetCompatibilitySwitches_IEnumerable_d_String_p_ = new(this, "SetCompatibilitySwitches", 0, typeof(System.Collections.Generic.IEnumerable<>).MakeGenericType(typeof(System.String)));
-					r_RSetCompatibilitySwitches_IEnumerable_d_String_p_.SetBelong(this.instance);
+					r_SetCompatibilitySwitches_IEnumerable_d_String_p_ = new(this, "SetCompatibilitySwitches", 0, typeof(System.Collections.Generic.IEnumerable<>).MakeGenericType(typeof(System.String)));
+					r_SetCompatibilitySwitches_IEnumerable_d_String_p_.SetBelong(this.instance);
 				}
-				return r_RSetCompatibilitySwitches_IEnumerable_d_String_p_;
+				return r_SetCompatibilitySwitches_IEnumerable_d_String_p_;
 			}
 		}
 
 		/// <summary>
 		/// Void SetNativeFunction(System.String, Int32, IntPtr)
 		/// </summary>
-		protected RMethod r_RSetNativeFunction_String_Int32_IntPtr;
+		protected RMethod r_SetNativeFunction_String_Int32_IntPtr;
 		public virtual RMethod RSetNativeFunction_String_Int32_IntPtr
 		{
 			get
 			{
-				if(r_RSetNativeFunction_String_Int32_IntPtr == null)
+				if(r_SetNativeFunction_String_Int32_IntPtr == null)
 				{
-					r_RSetNativeFunction_String_Int32_IntPtr = new(this, "SetNativeFunction", 0, typeof(System.String), typeof(System.Int32), typeof(System.IntPtr));
-					r_RSetNativeFunction_String_Int32_IntPtr.SetBelong(this.instance);
+					r_SetNativeFunction_String_Int32_IntPtr = new(this, "SetNativeFunction", 0, typeof(System.String), typeof(System.Int32), typeof(System.IntPtr));
+					r_SetNativeFunction_String_Int32_IntPtr.SetBelong(this.instance);
 				}
-				return r_RSetNativeFunction_String_Int32_IntPtr;
+				return r_SetNativeFunction_String_Int32_IntPtr;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Equals(System.Object)
 		/// </summary>
-		protected RMethod r_REquals_Object;
+		protected RMethod r_Equals_Object;
 		public virtual RMethod REquals_Object
 		{
 			get
 			{
-				if(r_REquals_Object == null)
+				if(r_Equals_Object == null)
 				{
-					r_REquals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_REquals_Object.SetBelong(this.instance);
+					r_Equals_Object = new(this, "Equals", 0, typeof(System.Object));
+					r_Equals_Object.SetBelong(this.instance);
 				}
-				return r_REquals_Object;
+				return r_Equals_Object;
 			}
 		}
 
 		/// <summary>
 		/// Void Finalize()
 		/// </summary>
-		protected RMethod r_RFinalize;
+		protected RMethod r_Finalize;
 		public virtual RMethod RFinalize
 		{
 			get
 			{
-				if(r_RFinalize == null)
+				if(r_Finalize == null)
 				{
-					r_RFinalize = new(this, "Finalize", 0);
-					r_RFinalize.SetBelong(this.instance);
+					r_Finalize = new(this, "Finalize", 0);
+					r_Finalize.SetBelong(this.instance);
 				}
-				return r_RFinalize;
+				return r_Finalize;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetHashCode()
 		/// </summary>
-		protected RMethod r_RGetHashCode;
+		protected RMethod r_GetHashCode;
 		public virtual RMethod RGetHashCode
 		{
 			get
 			{
-				if(r_RGetHashCode == null)
+				if(r_GetHashCode == null)
 				{
-					r_RGetHashCode = new(this, "GetHashCode", 0);
-					r_RGetHashCode.SetBelong(this.instance);
+					r_GetHashCode = new(this, "GetHashCode", 0);
+					r_GetHashCode.SetBelong(this.instance);
 				}
-				return r_RGetHashCode;
+				return r_GetHashCode;
 			}
 		}
 
 		/// <summary>
 		/// System.Type GetType()
 		/// </summary>
-		protected RMethod r_RGetType;
+		protected RMethod r_GetType;
 		public virtual RMethod RGetType
 		{
 			get
 			{
-				if(r_RGetType == null)
+				if(r_GetType == null)
 				{
-					r_RGetType = new(this, "GetType", 0);
-					r_RGetType.SetBelong(this.instance);
+					r_GetType = new(this, "GetType", 0);
+					r_GetType.SetBelong(this.instance);
 				}
-				return r_RGetType;
+				return r_GetType;
 			}
 		}
 
 		/// <summary>
 		/// System.Object MemberwiseClone()
 		/// </summary>
-		protected RMethod r_RMemberwiseClone;
+		protected RMethod r_MemberwiseClone;
 		public virtual RMethod RMemberwiseClone
 		{
 			get
 			{
-				if(r_RMemberwiseClone == null)
+				if(r_MemberwiseClone == null)
 				{
-					r_RMemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_RMemberwiseClone.SetBelong(this.instance);
+					r_MemberwiseClone = new(this, "MemberwiseClone", 0);
+					r_MemberwiseClone.SetBelong(this.instance);
 				}
-				return r_RMemberwiseClone;
+				return r_MemberwiseClone;
 			}
 		}
 
 		/// <summary>
 		/// System.String ToString()
 		/// </summary>
-		protected RMethod r_RToString;
+		protected RMethod r_ToString;
 		public virtual RMethod RToString
 		{
 			get
 			{
-				if(r_RToString == null)
+				if(r_ToString == null)
 				{
-					r_RToString = new(this, "ToString", 0);
-					r_RToString.SetBelong(this.instance);
+					r_ToString = new(this, "ToString", 0);
+					r_ToString.SetBelong(this.instance);
 				}
-				return r_RToString;
+				return r_ToString;
 			}
 		}
 

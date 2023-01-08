@@ -389,646 +389,646 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// UInt32 GetExponent(Single)
 		/// </summary>
-		protected static RMethod r_RGetExponent_Single;
+		protected static RMethod r_GetExponent_Single;
 		public static RMethod RGetExponent_Single
 		{
 			get
 			{
-				if(r_RGetExponent_Single == null)
+				if(r_GetExponent_Single == null)
 				{
-					r_RGetExponent_Single = new( ReleactionUtils.GetType("System.Decimal+DecCalc"), "GetExponent", 0, typeof(System.Single));
-					r_RGetExponent_Single.SetBelong(null);
+					r_GetExponent_Single = new( ReleactionUtils.GetType("System.Decimal+DecCalc"), "GetExponent", 0, typeof(System.Single));
+					r_GetExponent_Single.SetBelong(null);
 				}
-				return r_RGetExponent_Single;
+				return r_GetExponent_Single;
 			}
 		}
 
 		/// <summary>
 		/// UInt32 GetExponent(Double)
 		/// </summary>
-		protected static RMethod r_RGetExponent_Double;
+		protected static RMethod r_GetExponent_Double;
 		public static RMethod RGetExponent_Double
 		{
 			get
 			{
-				if(r_RGetExponent_Double == null)
+				if(r_GetExponent_Double == null)
 				{
-					r_RGetExponent_Double = new( ReleactionUtils.GetType("System.Decimal+DecCalc"), "GetExponent", 0, typeof(System.Double));
-					r_RGetExponent_Double.SetBelong(null);
+					r_GetExponent_Double = new( ReleactionUtils.GetType("System.Decimal+DecCalc"), "GetExponent", 0, typeof(System.Double));
+					r_GetExponent_Double.SetBelong(null);
 				}
-				return r_RGetExponent_Double;
+				return r_GetExponent_Double;
 			}
 		}
 
 		/// <summary>
 		/// UInt64 UInt32x32To64(UInt32, UInt32)
 		/// </summary>
-		protected static RMethod r_RUInt32x32To64_UInt32_UInt32;
+		protected static RMethod r_UInt32x32To64_UInt32_UInt32;
 		public static RMethod RUInt32x32To64_UInt32_UInt32
 		{
 			get
 			{
-				if(r_RUInt32x32To64_UInt32_UInt32 == null)
+				if(r_UInt32x32To64_UInt32_UInt32 == null)
 				{
-					r_RUInt32x32To64_UInt32_UInt32 = new( ReleactionUtils.GetType("System.Decimal+DecCalc"), "UInt32x32To64", 0, typeof(System.UInt32), typeof(System.UInt32));
-					r_RUInt32x32To64_UInt32_UInt32.SetBelong(null);
+					r_UInt32x32To64_UInt32_UInt32 = new( ReleactionUtils.GetType("System.Decimal+DecCalc"), "UInt32x32To64", 0, typeof(System.UInt32), typeof(System.UInt32));
+					r_UInt32x32To64_UInt32_UInt32.SetBelong(null);
 				}
-				return r_RUInt32x32To64_UInt32_UInt32;
+				return r_UInt32x32To64_UInt32_UInt32;
 			}
 		}
 
 		/// <summary>
 		/// Void UInt64x64To128(UInt64, UInt64, DecCalc ByRef)
 		/// </summary>
-		protected static RMethod r_RUInt64x64To128_UInt64_UInt64_Ref_DecCalc;
+		protected static RMethod r_UInt64x64To128_UInt64_UInt64_Ref_DecCalc;
 		public static RMethod RUInt64x64To128_UInt64_UInt64_Ref_DecCalc
 		{
 			get
 			{
-				if(r_RUInt64x64To128_UInt64_UInt64_Ref_DecCalc == null)
+				if(r_UInt64x64To128_UInt64_UInt64_Ref_DecCalc == null)
 				{
-					r_RUInt64x64To128_UInt64_UInt64_Ref_DecCalc = new( ReleactionUtils.GetType("System.Decimal+DecCalc"), "UInt64x64To128", 0, typeof(System.UInt64), typeof(System.UInt64),  ReleactionUtils.GetType("System.Decimal+DecCalc").MakeByRefType());
-					r_RUInt64x64To128_UInt64_UInt64_Ref_DecCalc.SetBelong(null);
+					r_UInt64x64To128_UInt64_UInt64_Ref_DecCalc = new( ReleactionUtils.GetType("System.Decimal+DecCalc"), "UInt64x64To128", 0, typeof(System.UInt64), typeof(System.UInt64),  ReleactionUtils.GetType("System.Decimal+DecCalc").MakeByRefType());
+					r_UInt64x64To128_UInt64_UInt64_Ref_DecCalc.SetBelong(null);
 				}
-				return r_RUInt64x64To128_UInt64_UInt64_Ref_DecCalc;
+				return r_UInt64x64To128_UInt64_UInt64_Ref_DecCalc;
 			}
 		}
 
 		/// <summary>
 		/// UInt32 Div96By32(Buf12 ByRef, UInt32)
 		/// </summary>
-		protected static RMethod r_RDiv96By32_Ref_Buf12_UInt32;
+		protected static RMethod r_Div96By32_Ref_Buf12_UInt32;
 		public static RMethod RDiv96By32_Ref_Buf12_UInt32
 		{
 			get
 			{
-				if(r_RDiv96By32_Ref_Buf12_UInt32 == null)
+				if(r_Div96By32_Ref_Buf12_UInt32 == null)
 				{
-					r_RDiv96By32_Ref_Buf12_UInt32 = new( ReleactionUtils.GetType("System.Decimal+DecCalc"), "Div96By32", 0,  ReleactionUtils.GetType("System.Decimal+DecCalc+Buf12").MakeByRefType(), typeof(System.UInt32));
-					r_RDiv96By32_Ref_Buf12_UInt32.SetBelong(null);
+					r_Div96By32_Ref_Buf12_UInt32 = new( ReleactionUtils.GetType("System.Decimal+DecCalc"), "Div96By32", 0,  ReleactionUtils.GetType("System.Decimal+DecCalc+Buf12").MakeByRefType(), typeof(System.UInt32));
+					r_Div96By32_Ref_Buf12_UInt32.SetBelong(null);
 				}
-				return r_RDiv96By32_Ref_Buf12_UInt32;
+				return r_Div96By32_Ref_Buf12_UInt32;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Div96ByConst(UInt64 ByRef, UInt32 ByRef, UInt32)
 		/// </summary>
-		protected static RMethod r_RDiv96ByConst_Ref_UInt64_Ref_UInt32_UInt32;
+		protected static RMethod r_Div96ByConst_Ref_UInt64_Ref_UInt32_UInt32;
 		public static RMethod RDiv96ByConst_Ref_UInt64_Ref_UInt32_UInt32
 		{
 			get
 			{
-				if(r_RDiv96ByConst_Ref_UInt64_Ref_UInt32_UInt32 == null)
+				if(r_Div96ByConst_Ref_UInt64_Ref_UInt32_UInt32 == null)
 				{
-					r_RDiv96ByConst_Ref_UInt64_Ref_UInt32_UInt32 = new( ReleactionUtils.GetType("System.Decimal+DecCalc"), "Div96ByConst", 0, typeof(System.UInt64).MakeByRefType(), typeof(System.UInt32).MakeByRefType(), typeof(System.UInt32));
-					r_RDiv96ByConst_Ref_UInt64_Ref_UInt32_UInt32.SetBelong(null);
+					r_Div96ByConst_Ref_UInt64_Ref_UInt32_UInt32 = new( ReleactionUtils.GetType("System.Decimal+DecCalc"), "Div96ByConst", 0, typeof(System.UInt64).MakeByRefType(), typeof(System.UInt32).MakeByRefType(), typeof(System.UInt32));
+					r_Div96ByConst_Ref_UInt64_Ref_UInt32_UInt32.SetBelong(null);
 				}
-				return r_RDiv96ByConst_Ref_UInt64_Ref_UInt32_UInt32;
+				return r_Div96ByConst_Ref_UInt64_Ref_UInt32_UInt32;
 			}
 		}
 
 		/// <summary>
 		/// Void Unscale(UInt32 ByRef, UInt64 ByRef, Int32 ByRef)
 		/// </summary>
-		protected static RMethod r_RUnscale_Ref_UInt32_Ref_UInt64_Ref_Int32;
+		protected static RMethod r_Unscale_Ref_UInt32_Ref_UInt64_Ref_Int32;
 		public static RMethod RUnscale_Ref_UInt32_Ref_UInt64_Ref_Int32
 		{
 			get
 			{
-				if(r_RUnscale_Ref_UInt32_Ref_UInt64_Ref_Int32 == null)
+				if(r_Unscale_Ref_UInt32_Ref_UInt64_Ref_Int32 == null)
 				{
-					r_RUnscale_Ref_UInt32_Ref_UInt64_Ref_Int32 = new( ReleactionUtils.GetType("System.Decimal+DecCalc"), "Unscale", 0, typeof(System.UInt32).MakeByRefType(), typeof(System.UInt64).MakeByRefType(), typeof(System.Int32).MakeByRefType());
-					r_RUnscale_Ref_UInt32_Ref_UInt64_Ref_Int32.SetBelong(null);
+					r_Unscale_Ref_UInt32_Ref_UInt64_Ref_Int32 = new( ReleactionUtils.GetType("System.Decimal+DecCalc"), "Unscale", 0, typeof(System.UInt32).MakeByRefType(), typeof(System.UInt64).MakeByRefType(), typeof(System.Int32).MakeByRefType());
+					r_Unscale_Ref_UInt32_Ref_UInt64_Ref_Int32.SetBelong(null);
 				}
-				return r_RUnscale_Ref_UInt32_Ref_UInt64_Ref_Int32;
+				return r_Unscale_Ref_UInt32_Ref_UInt64_Ref_Int32;
 			}
 		}
 
 		/// <summary>
 		/// UInt32 Div96By64(Buf12 ByRef, UInt64)
 		/// </summary>
-		protected static RMethod r_RDiv96By64_Ref_Buf12_UInt64;
+		protected static RMethod r_Div96By64_Ref_Buf12_UInt64;
 		public static RMethod RDiv96By64_Ref_Buf12_UInt64
 		{
 			get
 			{
-				if(r_RDiv96By64_Ref_Buf12_UInt64 == null)
+				if(r_Div96By64_Ref_Buf12_UInt64 == null)
 				{
-					r_RDiv96By64_Ref_Buf12_UInt64 = new( ReleactionUtils.GetType("System.Decimal+DecCalc"), "Div96By64", 0,  ReleactionUtils.GetType("System.Decimal+DecCalc+Buf12").MakeByRefType(), typeof(System.UInt64));
-					r_RDiv96By64_Ref_Buf12_UInt64.SetBelong(null);
+					r_Div96By64_Ref_Buf12_UInt64 = new( ReleactionUtils.GetType("System.Decimal+DecCalc"), "Div96By64", 0,  ReleactionUtils.GetType("System.Decimal+DecCalc+Buf12").MakeByRefType(), typeof(System.UInt64));
+					r_Div96By64_Ref_Buf12_UInt64.SetBelong(null);
 				}
-				return r_RDiv96By64_Ref_Buf12_UInt64;
+				return r_Div96By64_Ref_Buf12_UInt64;
 			}
 		}
 
 		/// <summary>
 		/// UInt32 Div128By96(Buf16 ByRef, Buf12 ByRef)
 		/// </summary>
-		protected static RMethod r_RDiv128By96_Ref_Buf16_Ref_Buf12;
+		protected static RMethod r_Div128By96_Ref_Buf16_Ref_Buf12;
 		public static RMethod RDiv128By96_Ref_Buf16_Ref_Buf12
 		{
 			get
 			{
-				if(r_RDiv128By96_Ref_Buf16_Ref_Buf12 == null)
+				if(r_Div128By96_Ref_Buf16_Ref_Buf12 == null)
 				{
-					r_RDiv128By96_Ref_Buf16_Ref_Buf12 = new( ReleactionUtils.GetType("System.Decimal+DecCalc"), "Div128By96", 0,  ReleactionUtils.GetType("System.Decimal+DecCalc+Buf16").MakeByRefType(),  ReleactionUtils.GetType("System.Decimal+DecCalc+Buf12").MakeByRefType());
-					r_RDiv128By96_Ref_Buf16_Ref_Buf12.SetBelong(null);
+					r_Div128By96_Ref_Buf16_Ref_Buf12 = new( ReleactionUtils.GetType("System.Decimal+DecCalc"), "Div128By96", 0,  ReleactionUtils.GetType("System.Decimal+DecCalc+Buf16").MakeByRefType(),  ReleactionUtils.GetType("System.Decimal+DecCalc+Buf12").MakeByRefType());
+					r_Div128By96_Ref_Buf16_Ref_Buf12.SetBelong(null);
 				}
-				return r_RDiv128By96_Ref_Buf16_Ref_Buf12;
+				return r_Div128By96_Ref_Buf16_Ref_Buf12;
 			}
 		}
 
 		/// <summary>
 		/// UInt32 IncreaseScale(Buf12 ByRef, UInt32)
 		/// </summary>
-		protected static RMethod r_RIncreaseScale_Ref_Buf12_UInt32;
+		protected static RMethod r_IncreaseScale_Ref_Buf12_UInt32;
 		public static RMethod RIncreaseScale_Ref_Buf12_UInt32
 		{
 			get
 			{
-				if(r_RIncreaseScale_Ref_Buf12_UInt32 == null)
+				if(r_IncreaseScale_Ref_Buf12_UInt32 == null)
 				{
-					r_RIncreaseScale_Ref_Buf12_UInt32 = new( ReleactionUtils.GetType("System.Decimal+DecCalc"), "IncreaseScale", 0,  ReleactionUtils.GetType("System.Decimal+DecCalc+Buf12").MakeByRefType(), typeof(System.UInt32));
-					r_RIncreaseScale_Ref_Buf12_UInt32.SetBelong(null);
+					r_IncreaseScale_Ref_Buf12_UInt32 = new( ReleactionUtils.GetType("System.Decimal+DecCalc"), "IncreaseScale", 0,  ReleactionUtils.GetType("System.Decimal+DecCalc+Buf12").MakeByRefType(), typeof(System.UInt32));
+					r_IncreaseScale_Ref_Buf12_UInt32.SetBelong(null);
 				}
-				return r_RIncreaseScale_Ref_Buf12_UInt32;
+				return r_IncreaseScale_Ref_Buf12_UInt32;
 			}
 		}
 
 		/// <summary>
 		/// Void IncreaseScale64(Buf12 ByRef, UInt32)
 		/// </summary>
-		protected static RMethod r_RIncreaseScale64_Ref_Buf12_UInt32;
+		protected static RMethod r_IncreaseScale64_Ref_Buf12_UInt32;
 		public static RMethod RIncreaseScale64_Ref_Buf12_UInt32
 		{
 			get
 			{
-				if(r_RIncreaseScale64_Ref_Buf12_UInt32 == null)
+				if(r_IncreaseScale64_Ref_Buf12_UInt32 == null)
 				{
-					r_RIncreaseScale64_Ref_Buf12_UInt32 = new( ReleactionUtils.GetType("System.Decimal+DecCalc"), "IncreaseScale64", 0,  ReleactionUtils.GetType("System.Decimal+DecCalc+Buf12").MakeByRefType(), typeof(System.UInt32));
-					r_RIncreaseScale64_Ref_Buf12_UInt32.SetBelong(null);
+					r_IncreaseScale64_Ref_Buf12_UInt32 = new( ReleactionUtils.GetType("System.Decimal+DecCalc"), "IncreaseScale64", 0,  ReleactionUtils.GetType("System.Decimal+DecCalc+Buf12").MakeByRefType(), typeof(System.UInt32));
+					r_IncreaseScale64_Ref_Buf12_UInt32.SetBelong(null);
 				}
-				return r_RIncreaseScale64_Ref_Buf12_UInt32;
+				return r_IncreaseScale64_Ref_Buf12_UInt32;
 			}
 		}
 
 		/// <summary>
 		/// Int32 ScaleResult(Buf24*, UInt32, Int32)
 		/// </summary>
-		protected static RMethod r_RScaleResult_Buf24Pointer_UInt32_Int32;
+		protected static RMethod r_ScaleResult_Buf24Pointer_UInt32_Int32;
 		public static RMethod RScaleResult_Buf24Pointer_UInt32_Int32
 		{
 			get
 			{
-				if(r_RScaleResult_Buf24Pointer_UInt32_Int32 == null)
+				if(r_ScaleResult_Buf24Pointer_UInt32_Int32 == null)
 				{
-					r_RScaleResult_Buf24Pointer_UInt32_Int32 = new( ReleactionUtils.GetType("System.Decimal+DecCalc"), "ScaleResult", 0,  ReleactionUtils.GetType("System.Decimal+DecCalc+Buf24").MakePointerType(), typeof(System.UInt32), typeof(System.Int32));
-					r_RScaleResult_Buf24Pointer_UInt32_Int32.SetBelong(null);
+					r_ScaleResult_Buf24Pointer_UInt32_Int32 = new( ReleactionUtils.GetType("System.Decimal+DecCalc"), "ScaleResult", 0,  ReleactionUtils.GetType("System.Decimal+DecCalc+Buf24").MakePointerType(), typeof(System.UInt32), typeof(System.Int32));
+					r_ScaleResult_Buf24Pointer_UInt32_Int32.SetBelong(null);
 				}
-				return r_RScaleResult_Buf24Pointer_UInt32_Int32;
+				return r_ScaleResult_Buf24Pointer_UInt32_Int32;
 			}
 		}
 
 		/// <summary>
 		/// UInt32 DivByConst(UInt32*, UInt32, UInt32 ByRef, UInt32 ByRef, UInt32)
 		/// </summary>
-		protected static RMethod r_RDivByConst_UInt32Pointer_UInt32_Out_UInt32_Out_UInt32_UInt32;
+		protected static RMethod r_DivByConst_UInt32Pointer_UInt32_Out_UInt32_Out_UInt32_UInt32;
 		public static RMethod RDivByConst_UInt32Pointer_UInt32_Out_UInt32_Out_UInt32_UInt32
 		{
 			get
 			{
-				if(r_RDivByConst_UInt32Pointer_UInt32_Out_UInt32_Out_UInt32_UInt32 == null)
+				if(r_DivByConst_UInt32Pointer_UInt32_Out_UInt32_Out_UInt32_UInt32 == null)
 				{
-					r_RDivByConst_UInt32Pointer_UInt32_Out_UInt32_Out_UInt32_UInt32 = new( ReleactionUtils.GetType("System.Decimal+DecCalc"), "DivByConst", 0, typeof(System.UInt32).MakePointerType(), typeof(System.UInt32), typeof(System.UInt32).MakeByRefType(), typeof(System.UInt32).MakeByRefType(), typeof(System.UInt32));
-					r_RDivByConst_UInt32Pointer_UInt32_Out_UInt32_Out_UInt32_UInt32.SetBelong(null);
+					r_DivByConst_UInt32Pointer_UInt32_Out_UInt32_Out_UInt32_UInt32 = new( ReleactionUtils.GetType("System.Decimal+DecCalc"), "DivByConst", 0, typeof(System.UInt32).MakePointerType(), typeof(System.UInt32), typeof(System.UInt32).MakeByRefType(), typeof(System.UInt32).MakeByRefType(), typeof(System.UInt32));
+					r_DivByConst_UInt32Pointer_UInt32_Out_UInt32_Out_UInt32_UInt32.SetBelong(null);
 				}
-				return r_RDivByConst_UInt32Pointer_UInt32_Out_UInt32_Out_UInt32_UInt32;
+				return r_DivByConst_UInt32Pointer_UInt32_Out_UInt32_Out_UInt32_UInt32;
 			}
 		}
 
 		/// <summary>
 		/// Int32 LeadingZeroCount(UInt32)
 		/// </summary>
-		protected static RMethod r_RLeadingZeroCount_UInt32;
+		protected static RMethod r_LeadingZeroCount_UInt32;
 		public static RMethod RLeadingZeroCount_UInt32
 		{
 			get
 			{
-				if(r_RLeadingZeroCount_UInt32 == null)
+				if(r_LeadingZeroCount_UInt32 == null)
 				{
-					r_RLeadingZeroCount_UInt32 = new( ReleactionUtils.GetType("System.Decimal+DecCalc"), "LeadingZeroCount", 0, typeof(System.UInt32));
-					r_RLeadingZeroCount_UInt32.SetBelong(null);
+					r_LeadingZeroCount_UInt32 = new( ReleactionUtils.GetType("System.Decimal+DecCalc"), "LeadingZeroCount", 0, typeof(System.UInt32));
+					r_LeadingZeroCount_UInt32.SetBelong(null);
 				}
-				return r_RLeadingZeroCount_UInt32;
+				return r_LeadingZeroCount_UInt32;
 			}
 		}
 
 		/// <summary>
 		/// Int32 OverflowUnscale(Buf12 ByRef, Int32, Boolean)
 		/// </summary>
-		protected static RMethod r_ROverflowUnscale_Ref_Buf12_Int32_Boolean;
+		protected static RMethod r_OverflowUnscale_Ref_Buf12_Int32_Boolean;
 		public static RMethod ROverflowUnscale_Ref_Buf12_Int32_Boolean
 		{
 			get
 			{
-				if(r_ROverflowUnscale_Ref_Buf12_Int32_Boolean == null)
+				if(r_OverflowUnscale_Ref_Buf12_Int32_Boolean == null)
 				{
-					r_ROverflowUnscale_Ref_Buf12_Int32_Boolean = new( ReleactionUtils.GetType("System.Decimal+DecCalc"), "OverflowUnscale", 0,  ReleactionUtils.GetType("System.Decimal+DecCalc+Buf12").MakeByRefType(), typeof(System.Int32), typeof(System.Boolean));
-					r_ROverflowUnscale_Ref_Buf12_Int32_Boolean.SetBelong(null);
+					r_OverflowUnscale_Ref_Buf12_Int32_Boolean = new( ReleactionUtils.GetType("System.Decimal+DecCalc"), "OverflowUnscale", 0,  ReleactionUtils.GetType("System.Decimal+DecCalc+Buf12").MakeByRefType(), typeof(System.Int32), typeof(System.Boolean));
+					r_OverflowUnscale_Ref_Buf12_Int32_Boolean.SetBelong(null);
 				}
-				return r_ROverflowUnscale_Ref_Buf12_Int32_Boolean;
+				return r_OverflowUnscale_Ref_Buf12_Int32_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Int32 SearchScale(Buf12 ByRef, Int32)
 		/// </summary>
-		protected static RMethod r_RSearchScale_Ref_Buf12_Int32;
+		protected static RMethod r_SearchScale_Ref_Buf12_Int32;
 		public static RMethod RSearchScale_Ref_Buf12_Int32
 		{
 			get
 			{
-				if(r_RSearchScale_Ref_Buf12_Int32 == null)
+				if(r_SearchScale_Ref_Buf12_Int32 == null)
 				{
-					r_RSearchScale_Ref_Buf12_Int32 = new( ReleactionUtils.GetType("System.Decimal+DecCalc"), "SearchScale", 0,  ReleactionUtils.GetType("System.Decimal+DecCalc+Buf12").MakeByRefType(), typeof(System.Int32));
-					r_RSearchScale_Ref_Buf12_Int32.SetBelong(null);
+					r_SearchScale_Ref_Buf12_Int32 = new( ReleactionUtils.GetType("System.Decimal+DecCalc"), "SearchScale", 0,  ReleactionUtils.GetType("System.Decimal+DecCalc+Buf12").MakeByRefType(), typeof(System.Int32));
+					r_SearchScale_Ref_Buf12_Int32.SetBelong(null);
 				}
-				return r_RSearchScale_Ref_Buf12_Int32;
+				return r_SearchScale_Ref_Buf12_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Add32To96(Buf12 ByRef, UInt32)
 		/// </summary>
-		protected static RMethod r_RAdd32To96_Ref_Buf12_UInt32;
+		protected static RMethod r_Add32To96_Ref_Buf12_UInt32;
 		public static RMethod RAdd32To96_Ref_Buf12_UInt32
 		{
 			get
 			{
-				if(r_RAdd32To96_Ref_Buf12_UInt32 == null)
+				if(r_Add32To96_Ref_Buf12_UInt32 == null)
 				{
-					r_RAdd32To96_Ref_Buf12_UInt32 = new( ReleactionUtils.GetType("System.Decimal+DecCalc"), "Add32To96", 0,  ReleactionUtils.GetType("System.Decimal+DecCalc+Buf12").MakeByRefType(), typeof(System.UInt32));
-					r_RAdd32To96_Ref_Buf12_UInt32.SetBelong(null);
+					r_Add32To96_Ref_Buf12_UInt32 = new( ReleactionUtils.GetType("System.Decimal+DecCalc"), "Add32To96", 0,  ReleactionUtils.GetType("System.Decimal+DecCalc+Buf12").MakeByRefType(), typeof(System.UInt32));
+					r_Add32To96_Ref_Buf12_UInt32.SetBelong(null);
 				}
-				return r_RAdd32To96_Ref_Buf12_UInt32;
+				return r_Add32To96_Ref_Buf12_UInt32;
 			}
 		}
 
 		/// <summary>
 		/// Void DecAddSub(DecCalc ByRef, DecCalc ByRef, Boolean)
 		/// </summary>
-		protected static RMethod r_RDecAddSub_Ref_DecCalc_Ref_DecCalc_Boolean;
+		protected static RMethod r_DecAddSub_Ref_DecCalc_Ref_DecCalc_Boolean;
 		public static RMethod RDecAddSub_Ref_DecCalc_Ref_DecCalc_Boolean
 		{
 			get
 			{
-				if(r_RDecAddSub_Ref_DecCalc_Ref_DecCalc_Boolean == null)
+				if(r_DecAddSub_Ref_DecCalc_Ref_DecCalc_Boolean == null)
 				{
-					r_RDecAddSub_Ref_DecCalc_Ref_DecCalc_Boolean = new( ReleactionUtils.GetType("System.Decimal+DecCalc"), "DecAddSub", 0,  ReleactionUtils.GetType("System.Decimal+DecCalc").MakeByRefType(),  ReleactionUtils.GetType("System.Decimal+DecCalc").MakeByRefType(), typeof(System.Boolean));
-					r_RDecAddSub_Ref_DecCalc_Ref_DecCalc_Boolean.SetBelong(null);
+					r_DecAddSub_Ref_DecCalc_Ref_DecCalc_Boolean = new( ReleactionUtils.GetType("System.Decimal+DecCalc"), "DecAddSub", 0,  ReleactionUtils.GetType("System.Decimal+DecCalc").MakeByRefType(),  ReleactionUtils.GetType("System.Decimal+DecCalc").MakeByRefType(), typeof(System.Boolean));
+					r_DecAddSub_Ref_DecCalc_Ref_DecCalc_Boolean.SetBelong(null);
 				}
-				return r_RDecAddSub_Ref_DecCalc_Ref_DecCalc_Boolean;
+				return r_DecAddSub_Ref_DecCalc_Ref_DecCalc_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Int64 VarCyFromDec(DecCalc ByRef)
 		/// </summary>
-		protected static RMethod r_RVarCyFromDec_Ref_DecCalc;
+		protected static RMethod r_VarCyFromDec_Ref_DecCalc;
 		public static RMethod RVarCyFromDec_Ref_DecCalc
 		{
 			get
 			{
-				if(r_RVarCyFromDec_Ref_DecCalc == null)
+				if(r_VarCyFromDec_Ref_DecCalc == null)
 				{
-					r_RVarCyFromDec_Ref_DecCalc = new( ReleactionUtils.GetType("System.Decimal+DecCalc"), "VarCyFromDec", 0,  ReleactionUtils.GetType("System.Decimal+DecCalc").MakeByRefType());
-					r_RVarCyFromDec_Ref_DecCalc.SetBelong(null);
+					r_VarCyFromDec_Ref_DecCalc = new( ReleactionUtils.GetType("System.Decimal+DecCalc"), "VarCyFromDec", 0,  ReleactionUtils.GetType("System.Decimal+DecCalc").MakeByRefType());
+					r_VarCyFromDec_Ref_DecCalc.SetBelong(null);
 				}
-				return r_RVarCyFromDec_Ref_DecCalc;
+				return r_VarCyFromDec_Ref_DecCalc;
 			}
 		}
 
 		/// <summary>
 		/// Int32 VarDecCmp(System.Decimal ByRef, System.Decimal ByRef)
 		/// </summary>
-		protected static RMethod r_RVarDecCmp_In_Decimal_In_Decimal;
+		protected static RMethod r_VarDecCmp_In_Decimal_In_Decimal;
 		public static RMethod RVarDecCmp_In_Decimal_In_Decimal
 		{
 			get
 			{
-				if(r_RVarDecCmp_In_Decimal_In_Decimal == null)
+				if(r_VarDecCmp_In_Decimal_In_Decimal == null)
 				{
-					r_RVarDecCmp_In_Decimal_In_Decimal = new( ReleactionUtils.GetType("System.Decimal+DecCalc"), "VarDecCmp", 0, typeof(System.Decimal).MakeByRefType(), typeof(System.Decimal).MakeByRefType());
-					r_RVarDecCmp_In_Decimal_In_Decimal.SetBelong(null);
+					r_VarDecCmp_In_Decimal_In_Decimal = new( ReleactionUtils.GetType("System.Decimal+DecCalc"), "VarDecCmp", 0, typeof(System.Decimal).MakeByRefType(), typeof(System.Decimal).MakeByRefType());
+					r_VarDecCmp_In_Decimal_In_Decimal.SetBelong(null);
 				}
-				return r_RVarDecCmp_In_Decimal_In_Decimal;
+				return r_VarDecCmp_In_Decimal_In_Decimal;
 			}
 		}
 
 		/// <summary>
 		/// Int32 VarDecCmpSub(System.Decimal ByRef, System.Decimal ByRef)
 		/// </summary>
-		protected static RMethod r_RVarDecCmpSub_In_Decimal_In_Decimal;
+		protected static RMethod r_VarDecCmpSub_In_Decimal_In_Decimal;
 		public static RMethod RVarDecCmpSub_In_Decimal_In_Decimal
 		{
 			get
 			{
-				if(r_RVarDecCmpSub_In_Decimal_In_Decimal == null)
+				if(r_VarDecCmpSub_In_Decimal_In_Decimal == null)
 				{
-					r_RVarDecCmpSub_In_Decimal_In_Decimal = new( ReleactionUtils.GetType("System.Decimal+DecCalc"), "VarDecCmpSub", 0, typeof(System.Decimal).MakeByRefType(), typeof(System.Decimal).MakeByRefType());
-					r_RVarDecCmpSub_In_Decimal_In_Decimal.SetBelong(null);
+					r_VarDecCmpSub_In_Decimal_In_Decimal = new( ReleactionUtils.GetType("System.Decimal+DecCalc"), "VarDecCmpSub", 0, typeof(System.Decimal).MakeByRefType(), typeof(System.Decimal).MakeByRefType());
+					r_VarDecCmpSub_In_Decimal_In_Decimal.SetBelong(null);
 				}
-				return r_RVarDecCmpSub_In_Decimal_In_Decimal;
+				return r_VarDecCmpSub_In_Decimal_In_Decimal;
 			}
 		}
 
 		/// <summary>
 		/// Void VarDecMul(DecCalc ByRef, DecCalc ByRef)
 		/// </summary>
-		protected static RMethod r_RVarDecMul_Ref_DecCalc_Ref_DecCalc;
+		protected static RMethod r_VarDecMul_Ref_DecCalc_Ref_DecCalc;
 		public static RMethod RVarDecMul_Ref_DecCalc_Ref_DecCalc
 		{
 			get
 			{
-				if(r_RVarDecMul_Ref_DecCalc_Ref_DecCalc == null)
+				if(r_VarDecMul_Ref_DecCalc_Ref_DecCalc == null)
 				{
-					r_RVarDecMul_Ref_DecCalc_Ref_DecCalc = new( ReleactionUtils.GetType("System.Decimal+DecCalc"), "VarDecMul", 0,  ReleactionUtils.GetType("System.Decimal+DecCalc").MakeByRefType(),  ReleactionUtils.GetType("System.Decimal+DecCalc").MakeByRefType());
-					r_RVarDecMul_Ref_DecCalc_Ref_DecCalc.SetBelong(null);
+					r_VarDecMul_Ref_DecCalc_Ref_DecCalc = new( ReleactionUtils.GetType("System.Decimal+DecCalc"), "VarDecMul", 0,  ReleactionUtils.GetType("System.Decimal+DecCalc").MakeByRefType(),  ReleactionUtils.GetType("System.Decimal+DecCalc").MakeByRefType());
+					r_VarDecMul_Ref_DecCalc_Ref_DecCalc.SetBelong(null);
 				}
-				return r_RVarDecMul_Ref_DecCalc_Ref_DecCalc;
+				return r_VarDecMul_Ref_DecCalc_Ref_DecCalc;
 			}
 		}
 
 		/// <summary>
 		/// Void VarDecFromR4(Single, DecCalc ByRef)
 		/// </summary>
-		protected static RMethod r_RVarDecFromR4_Single_Out_DecCalc;
+		protected static RMethod r_VarDecFromR4_Single_Out_DecCalc;
 		public static RMethod RVarDecFromR4_Single_Out_DecCalc
 		{
 			get
 			{
-				if(r_RVarDecFromR4_Single_Out_DecCalc == null)
+				if(r_VarDecFromR4_Single_Out_DecCalc == null)
 				{
-					r_RVarDecFromR4_Single_Out_DecCalc = new( ReleactionUtils.GetType("System.Decimal+DecCalc"), "VarDecFromR4", 0, typeof(System.Single),  ReleactionUtils.GetType("System.Decimal+DecCalc").MakeByRefType());
-					r_RVarDecFromR4_Single_Out_DecCalc.SetBelong(null);
+					r_VarDecFromR4_Single_Out_DecCalc = new( ReleactionUtils.GetType("System.Decimal+DecCalc"), "VarDecFromR4", 0, typeof(System.Single),  ReleactionUtils.GetType("System.Decimal+DecCalc").MakeByRefType());
+					r_VarDecFromR4_Single_Out_DecCalc.SetBelong(null);
 				}
-				return r_RVarDecFromR4_Single_Out_DecCalc;
+				return r_VarDecFromR4_Single_Out_DecCalc;
 			}
 		}
 
 		/// <summary>
 		/// Void VarDecFromR8(Double, DecCalc ByRef)
 		/// </summary>
-		protected static RMethod r_RVarDecFromR8_Double_Out_DecCalc;
+		protected static RMethod r_VarDecFromR8_Double_Out_DecCalc;
 		public static RMethod RVarDecFromR8_Double_Out_DecCalc
 		{
 			get
 			{
-				if(r_RVarDecFromR8_Double_Out_DecCalc == null)
+				if(r_VarDecFromR8_Double_Out_DecCalc == null)
 				{
-					r_RVarDecFromR8_Double_Out_DecCalc = new( ReleactionUtils.GetType("System.Decimal+DecCalc"), "VarDecFromR8", 0, typeof(System.Double),  ReleactionUtils.GetType("System.Decimal+DecCalc").MakeByRefType());
-					r_RVarDecFromR8_Double_Out_DecCalc.SetBelong(null);
+					r_VarDecFromR8_Double_Out_DecCalc = new( ReleactionUtils.GetType("System.Decimal+DecCalc"), "VarDecFromR8", 0, typeof(System.Double),  ReleactionUtils.GetType("System.Decimal+DecCalc").MakeByRefType());
+					r_VarDecFromR8_Double_Out_DecCalc.SetBelong(null);
 				}
-				return r_RVarDecFromR8_Double_Out_DecCalc;
+				return r_VarDecFromR8_Double_Out_DecCalc;
 			}
 		}
 
 		/// <summary>
 		/// Single VarR4FromDec(System.Decimal ByRef)
 		/// </summary>
-		protected static RMethod r_RVarR4FromDec_In_Decimal;
+		protected static RMethod r_VarR4FromDec_In_Decimal;
 		public static RMethod RVarR4FromDec_In_Decimal
 		{
 			get
 			{
-				if(r_RVarR4FromDec_In_Decimal == null)
+				if(r_VarR4FromDec_In_Decimal == null)
 				{
-					r_RVarR4FromDec_In_Decimal = new( ReleactionUtils.GetType("System.Decimal+DecCalc"), "VarR4FromDec", 0, typeof(System.Decimal).MakeByRefType());
-					r_RVarR4FromDec_In_Decimal.SetBelong(null);
+					r_VarR4FromDec_In_Decimal = new( ReleactionUtils.GetType("System.Decimal+DecCalc"), "VarR4FromDec", 0, typeof(System.Decimal).MakeByRefType());
+					r_VarR4FromDec_In_Decimal.SetBelong(null);
 				}
-				return r_RVarR4FromDec_In_Decimal;
+				return r_VarR4FromDec_In_Decimal;
 			}
 		}
 
 		/// <summary>
 		/// Double VarR8FromDec(System.Decimal ByRef)
 		/// </summary>
-		protected static RMethod r_RVarR8FromDec_In_Decimal;
+		protected static RMethod r_VarR8FromDec_In_Decimal;
 		public static RMethod RVarR8FromDec_In_Decimal
 		{
 			get
 			{
-				if(r_RVarR8FromDec_In_Decimal == null)
+				if(r_VarR8FromDec_In_Decimal == null)
 				{
-					r_RVarR8FromDec_In_Decimal = new( ReleactionUtils.GetType("System.Decimal+DecCalc"), "VarR8FromDec", 0, typeof(System.Decimal).MakeByRefType());
-					r_RVarR8FromDec_In_Decimal.SetBelong(null);
+					r_VarR8FromDec_In_Decimal = new( ReleactionUtils.GetType("System.Decimal+DecCalc"), "VarR8FromDec", 0, typeof(System.Decimal).MakeByRefType());
+					r_VarR8FromDec_In_Decimal.SetBelong(null);
 				}
-				return r_RVarR8FromDec_In_Decimal;
+				return r_VarR8FromDec_In_Decimal;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetHashCode(System.Decimal ByRef)
 		/// </summary>
-		protected static RMethod r_RGetHashCode_In_Decimal;
+		protected static RMethod r_GetHashCode_In_Decimal;
 		public static RMethod RGetHashCode_In_Decimal
 		{
 			get
 			{
-				if(r_RGetHashCode_In_Decimal == null)
+				if(r_GetHashCode_In_Decimal == null)
 				{
-					r_RGetHashCode_In_Decimal = new( ReleactionUtils.GetType("System.Decimal+DecCalc"), "GetHashCode", 0, typeof(System.Decimal).MakeByRefType());
-					r_RGetHashCode_In_Decimal.SetBelong(null);
+					r_GetHashCode_In_Decimal = new( ReleactionUtils.GetType("System.Decimal+DecCalc"), "GetHashCode", 0, typeof(System.Decimal).MakeByRefType());
+					r_GetHashCode_In_Decimal.SetBelong(null);
 				}
-				return r_RGetHashCode_In_Decimal;
+				return r_GetHashCode_In_Decimal;
 			}
 		}
 
 		/// <summary>
 		/// Void VarDecDiv(DecCalc ByRef, DecCalc ByRef)
 		/// </summary>
-		protected static RMethod r_RVarDecDiv_Ref_DecCalc_Ref_DecCalc;
+		protected static RMethod r_VarDecDiv_Ref_DecCalc_Ref_DecCalc;
 		public static RMethod RVarDecDiv_Ref_DecCalc_Ref_DecCalc
 		{
 			get
 			{
-				if(r_RVarDecDiv_Ref_DecCalc_Ref_DecCalc == null)
+				if(r_VarDecDiv_Ref_DecCalc_Ref_DecCalc == null)
 				{
-					r_RVarDecDiv_Ref_DecCalc_Ref_DecCalc = new( ReleactionUtils.GetType("System.Decimal+DecCalc"), "VarDecDiv", 0,  ReleactionUtils.GetType("System.Decimal+DecCalc").MakeByRefType(),  ReleactionUtils.GetType("System.Decimal+DecCalc").MakeByRefType());
-					r_RVarDecDiv_Ref_DecCalc_Ref_DecCalc.SetBelong(null);
+					r_VarDecDiv_Ref_DecCalc_Ref_DecCalc = new( ReleactionUtils.GetType("System.Decimal+DecCalc"), "VarDecDiv", 0,  ReleactionUtils.GetType("System.Decimal+DecCalc").MakeByRefType(),  ReleactionUtils.GetType("System.Decimal+DecCalc").MakeByRefType());
+					r_VarDecDiv_Ref_DecCalc_Ref_DecCalc.SetBelong(null);
 				}
-				return r_RVarDecDiv_Ref_DecCalc_Ref_DecCalc;
+				return r_VarDecDiv_Ref_DecCalc_Ref_DecCalc;
 			}
 		}
 
 		/// <summary>
 		/// Void VarDecMod(DecCalc ByRef, DecCalc ByRef)
 		/// </summary>
-		protected static RMethod r_RVarDecMod_Ref_DecCalc_Ref_DecCalc;
+		protected static RMethod r_VarDecMod_Ref_DecCalc_Ref_DecCalc;
 		public static RMethod RVarDecMod_Ref_DecCalc_Ref_DecCalc
 		{
 			get
 			{
-				if(r_RVarDecMod_Ref_DecCalc_Ref_DecCalc == null)
+				if(r_VarDecMod_Ref_DecCalc_Ref_DecCalc == null)
 				{
-					r_RVarDecMod_Ref_DecCalc_Ref_DecCalc = new( ReleactionUtils.GetType("System.Decimal+DecCalc"), "VarDecMod", 0,  ReleactionUtils.GetType("System.Decimal+DecCalc").MakeByRefType(),  ReleactionUtils.GetType("System.Decimal+DecCalc").MakeByRefType());
-					r_RVarDecMod_Ref_DecCalc_Ref_DecCalc.SetBelong(null);
+					r_VarDecMod_Ref_DecCalc_Ref_DecCalc = new( ReleactionUtils.GetType("System.Decimal+DecCalc"), "VarDecMod", 0,  ReleactionUtils.GetType("System.Decimal+DecCalc").MakeByRefType(),  ReleactionUtils.GetType("System.Decimal+DecCalc").MakeByRefType());
+					r_VarDecMod_Ref_DecCalc_Ref_DecCalc.SetBelong(null);
 				}
-				return r_RVarDecMod_Ref_DecCalc_Ref_DecCalc;
+				return r_VarDecMod_Ref_DecCalc_Ref_DecCalc;
 			}
 		}
 
 		/// <summary>
 		/// Void VarDecModFull(DecCalc ByRef, DecCalc ByRef, Int32)
 		/// </summary>
-		protected static RMethod r_RVarDecModFull_Ref_DecCalc_Ref_DecCalc_Int32;
+		protected static RMethod r_VarDecModFull_Ref_DecCalc_Ref_DecCalc_Int32;
 		public static RMethod RVarDecModFull_Ref_DecCalc_Ref_DecCalc_Int32
 		{
 			get
 			{
-				if(r_RVarDecModFull_Ref_DecCalc_Ref_DecCalc_Int32 == null)
+				if(r_VarDecModFull_Ref_DecCalc_Ref_DecCalc_Int32 == null)
 				{
-					r_RVarDecModFull_Ref_DecCalc_Ref_DecCalc_Int32 = new( ReleactionUtils.GetType("System.Decimal+DecCalc"), "VarDecModFull", 0,  ReleactionUtils.GetType("System.Decimal+DecCalc").MakeByRefType(),  ReleactionUtils.GetType("System.Decimal+DecCalc").MakeByRefType(), typeof(System.Int32));
-					r_RVarDecModFull_Ref_DecCalc_Ref_DecCalc_Int32.SetBelong(null);
+					r_VarDecModFull_Ref_DecCalc_Ref_DecCalc_Int32 = new( ReleactionUtils.GetType("System.Decimal+DecCalc"), "VarDecModFull", 0,  ReleactionUtils.GetType("System.Decimal+DecCalc").MakeByRefType(),  ReleactionUtils.GetType("System.Decimal+DecCalc").MakeByRefType(), typeof(System.Int32));
+					r_VarDecModFull_Ref_DecCalc_Ref_DecCalc_Int32.SetBelong(null);
 				}
-				return r_RVarDecModFull_Ref_DecCalc_Ref_DecCalc_Int32;
+				return r_VarDecModFull_Ref_DecCalc_Ref_DecCalc_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Void InternalRound(DecCalc ByRef, UInt32, RoundingMode)
 		/// </summary>
-		protected static RMethod r_RInternalRound_Ref_DecCalc_UInt32_RoundingMode;
+		protected static RMethod r_InternalRound_Ref_DecCalc_UInt32_RoundingMode;
 		public static RMethod RInternalRound_Ref_DecCalc_UInt32_RoundingMode
 		{
 			get
 			{
-				if(r_RInternalRound_Ref_DecCalc_UInt32_RoundingMode == null)
+				if(r_InternalRound_Ref_DecCalc_UInt32_RoundingMode == null)
 				{
-					r_RInternalRound_Ref_DecCalc_UInt32_RoundingMode = new( ReleactionUtils.GetType("System.Decimal+DecCalc"), "InternalRound", 0,  ReleactionUtils.GetType("System.Decimal+DecCalc").MakeByRefType(), typeof(System.UInt32),  ReleactionUtils.GetType("System.Decimal+DecCalc+RoundingMode"));
-					r_RInternalRound_Ref_DecCalc_UInt32_RoundingMode.SetBelong(null);
+					r_InternalRound_Ref_DecCalc_UInt32_RoundingMode = new( ReleactionUtils.GetType("System.Decimal+DecCalc"), "InternalRound", 0,  ReleactionUtils.GetType("System.Decimal+DecCalc").MakeByRefType(), typeof(System.UInt32),  ReleactionUtils.GetType("System.Decimal+DecCalc+RoundingMode"));
+					r_InternalRound_Ref_DecCalc_UInt32_RoundingMode.SetBelong(null);
 				}
-				return r_RInternalRound_Ref_DecCalc_UInt32_RoundingMode;
+				return r_InternalRound_Ref_DecCalc_UInt32_RoundingMode;
 			}
 		}
 
 		/// <summary>
 		/// UInt32 DecDivMod1E9(DecCalc ByRef)
 		/// </summary>
-		protected static RMethod r_RDecDivMod1E9_Ref_DecCalc;
+		protected static RMethod r_DecDivMod1E9_Ref_DecCalc;
 		public static RMethod RDecDivMod1E9_Ref_DecCalc
 		{
 			get
 			{
-				if(r_RDecDivMod1E9_Ref_DecCalc == null)
+				if(r_DecDivMod1E9_Ref_DecCalc == null)
 				{
-					r_RDecDivMod1E9_Ref_DecCalc = new( ReleactionUtils.GetType("System.Decimal+DecCalc"), "DecDivMod1E9", 0,  ReleactionUtils.GetType("System.Decimal+DecCalc").MakeByRefType());
-					r_RDecDivMod1E9_Ref_DecCalc.SetBelong(null);
+					r_DecDivMod1E9_Ref_DecCalc = new( ReleactionUtils.GetType("System.Decimal+DecCalc"), "DecDivMod1E9", 0,  ReleactionUtils.GetType("System.Decimal+DecCalc").MakeByRefType());
+					r_DecDivMod1E9_Ref_DecCalc.SetBelong(null);
 				}
-				return r_RDecDivMod1E9_Ref_DecCalc;
+				return r_DecDivMod1E9_Ref_DecCalc;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Equals(System.Object)
 		/// </summary>
-		protected RMethod r_REquals_Object;
+		protected RMethod r_Equals_Object;
 		public virtual RMethod REquals_Object
 		{
 			get
 			{
-				if(r_REquals_Object == null)
+				if(r_Equals_Object == null)
 				{
-					r_REquals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_REquals_Object.SetBelong(this.instance);
+					r_Equals_Object = new(this, "Equals", 0, typeof(System.Object));
+					r_Equals_Object.SetBelong(this.instance);
 				}
-				return r_REquals_Object;
+				return r_Equals_Object;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetHashCode()
 		/// </summary>
-		protected RMethod r_RGetHashCode;
+		protected RMethod r_GetHashCode;
 		public virtual RMethod RGetHashCode
 		{
 			get
 			{
-				if(r_RGetHashCode == null)
+				if(r_GetHashCode == null)
 				{
-					r_RGetHashCode = new(this, "GetHashCode", 0);
-					r_RGetHashCode.SetBelong(this.instance);
+					r_GetHashCode = new(this, "GetHashCode", 0);
+					r_GetHashCode.SetBelong(this.instance);
 				}
-				return r_RGetHashCode;
+				return r_GetHashCode;
 			}
 		}
 
 		/// <summary>
 		/// System.String ToString()
 		/// </summary>
-		protected RMethod r_RToString;
+		protected RMethod r_ToString;
 		public virtual RMethod RToString
 		{
 			get
 			{
-				if(r_RToString == null)
+				if(r_ToString == null)
 				{
-					r_RToString = new(this, "ToString", 0);
-					r_RToString.SetBelong(this.instance);
+					r_ToString = new(this, "ToString", 0);
+					r_ToString.SetBelong(this.instance);
 				}
-				return r_RToString;
+				return r_ToString;
 			}
 		}
 
 		/// <summary>
 		/// Void Finalize()
 		/// </summary>
-		protected RMethod r_RFinalize;
+		protected RMethod r_Finalize;
 		public virtual RMethod RFinalize
 		{
 			get
 			{
-				if(r_RFinalize == null)
+				if(r_Finalize == null)
 				{
-					r_RFinalize = new(this, "Finalize", 0);
-					r_RFinalize.SetBelong(this.instance);
+					r_Finalize = new(this, "Finalize", 0);
+					r_Finalize.SetBelong(this.instance);
 				}
-				return r_RFinalize;
+				return r_Finalize;
 			}
 		}
 
 		/// <summary>
 		/// System.Type GetType()
 		/// </summary>
-		protected RMethod r_RGetType;
+		protected RMethod r_GetType;
 		public virtual RMethod RGetType
 		{
 			get
 			{
-				if(r_RGetType == null)
+				if(r_GetType == null)
 				{
-					r_RGetType = new(this, "GetType", 0);
-					r_RGetType.SetBelong(this.instance);
+					r_GetType = new(this, "GetType", 0);
+					r_GetType.SetBelong(this.instance);
 				}
-				return r_RGetType;
+				return r_GetType;
 			}
 		}
 
 		/// <summary>
 		/// System.Object MemberwiseClone()
 		/// </summary>
-		protected RMethod r_RMemberwiseClone;
+		protected RMethod r_MemberwiseClone;
 		public virtual RMethod RMemberwiseClone
 		{
 			get
 			{
-				if(r_RMemberwiseClone == null)
+				if(r_MemberwiseClone == null)
 				{
-					r_RMemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_RMemberwiseClone.SetBelong(this.instance);
+					r_MemberwiseClone = new(this, "MemberwiseClone", 0);
+					r_MemberwiseClone.SetBelong(this.instance);
 				}
-				return r_RMemberwiseClone;
+				return r_MemberwiseClone;
 			}
 		}
 

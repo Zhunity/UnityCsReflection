@@ -13,17 +13,17 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
 		/// <summary>
 		/// Void Tick(Int64)
 		/// </summary>
-		protected RMethod r_RTick_Int64;
+		protected RMethod r_Tick_Int64;
 		public virtual RMethod RTick_Int64
 		{
 			get
 			{
-				if(r_RTick_Int64 == null)
+				if(r_Tick_Int64 == null)
 				{
-					r_RTick_Int64 = new(this, "Tick", 0, typeof(System.Int64));
-					r_RTick_Int64.SetBelong(this.instance);
+					r_Tick_Int64 = new(this, "Tick", 0, typeof(System.Int64));
+					r_Tick_Int64.SetBelong(this.instance);
 				}
-				return r_RTick_Int64;
+				return r_Tick_Int64;
 			}
 		}
 

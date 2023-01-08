@@ -82,7 +82,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// System.Security.AccessControl.ResourceType ResourceType
 		/// </summary>
 		protected RProperty r_ResourceType;
-		public virtual RProperty ResourceType
+		public virtual RProperty RResourceType
 		{
 			get
 			{
@@ -285,1190 +285,1190 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Security.AccessControl.AccessRule AccessRuleFactory(System.Security.Principal.IdentityReference, Int32, Boolean, System.Security.AccessControl.InheritanceFlags, System.Security.AccessControl.PropagationFlags, System.Security.AccessControl.AccessControlType)
 		/// </summary>
-		protected RMethod r_RAccessRuleFactory_IdentityReference_Int32_Boolean_InheritanceFlags_PropagationFlags_AccessControlType;
+		protected RMethod r_AccessRuleFactory_IdentityReference_Int32_Boolean_InheritanceFlags_PropagationFlags_AccessControlType;
 		public virtual RMethod RAccessRuleFactory_IdentityReference_Int32_Boolean_InheritanceFlags_PropagationFlags_AccessControlType
 		{
 			get
 			{
-				if(r_RAccessRuleFactory_IdentityReference_Int32_Boolean_InheritanceFlags_PropagationFlags_AccessControlType == null)
+				if(r_AccessRuleFactory_IdentityReference_Int32_Boolean_InheritanceFlags_PropagationFlags_AccessControlType == null)
 				{
-					r_RAccessRuleFactory_IdentityReference_Int32_Boolean_InheritanceFlags_PropagationFlags_AccessControlType = new(this, "AccessRuleFactory", 0, typeof(System.Security.Principal.IdentityReference), typeof(System.Int32), typeof(System.Boolean), typeof(System.Security.AccessControl.InheritanceFlags), typeof(System.Security.AccessControl.PropagationFlags), typeof(System.Security.AccessControl.AccessControlType));
-					r_RAccessRuleFactory_IdentityReference_Int32_Boolean_InheritanceFlags_PropagationFlags_AccessControlType.SetBelong(this.instance);
+					r_AccessRuleFactory_IdentityReference_Int32_Boolean_InheritanceFlags_PropagationFlags_AccessControlType = new(this, "AccessRuleFactory", 0, typeof(System.Security.Principal.IdentityReference), typeof(System.Int32), typeof(System.Boolean), typeof(System.Security.AccessControl.InheritanceFlags), typeof(System.Security.AccessControl.PropagationFlags), typeof(System.Security.AccessControl.AccessControlType));
+					r_AccessRuleFactory_IdentityReference_Int32_Boolean_InheritanceFlags_PropagationFlags_AccessControlType.SetBelong(this.instance);
 				}
-				return r_RAccessRuleFactory_IdentityReference_Int32_Boolean_InheritanceFlags_PropagationFlags_AccessControlType;
+				return r_AccessRuleFactory_IdentityReference_Int32_Boolean_InheritanceFlags_PropagationFlags_AccessControlType;
 			}
 		}
 
 		/// <summary>
 		/// Void AddAccessRule(System.Security.AccessControl.EventWaitHandleAccessRule)
 		/// </summary>
-		protected RMethod r_RAddAccessRule_EventWaitHandleAccessRule;
+		protected RMethod r_AddAccessRule_EventWaitHandleAccessRule;
 		public virtual RMethod RAddAccessRule_EventWaitHandleAccessRule
 		{
 			get
 			{
-				if(r_RAddAccessRule_EventWaitHandleAccessRule == null)
+				if(r_AddAccessRule_EventWaitHandleAccessRule == null)
 				{
-					r_RAddAccessRule_EventWaitHandleAccessRule = new(this, "AddAccessRule", 0, typeof(System.Security.AccessControl.EventWaitHandleAccessRule));
-					r_RAddAccessRule_EventWaitHandleAccessRule.SetBelong(this.instance);
+					r_AddAccessRule_EventWaitHandleAccessRule = new(this, "AddAccessRule", 0, typeof(System.Security.AccessControl.EventWaitHandleAccessRule));
+					r_AddAccessRule_EventWaitHandleAccessRule.SetBelong(this.instance);
 				}
-				return r_RAddAccessRule_EventWaitHandleAccessRule;
+				return r_AddAccessRule_EventWaitHandleAccessRule;
 			}
 		}
 
 		/// <summary>
 		/// Boolean RemoveAccessRule(System.Security.AccessControl.EventWaitHandleAccessRule)
 		/// </summary>
-		protected RMethod r_RRemoveAccessRule_EventWaitHandleAccessRule;
+		protected RMethod r_RemoveAccessRule_EventWaitHandleAccessRule;
 		public virtual RMethod RRemoveAccessRule_EventWaitHandleAccessRule
 		{
 			get
 			{
-				if(r_RRemoveAccessRule_EventWaitHandleAccessRule == null)
+				if(r_RemoveAccessRule_EventWaitHandleAccessRule == null)
 				{
-					r_RRemoveAccessRule_EventWaitHandleAccessRule = new(this, "RemoveAccessRule", 0, typeof(System.Security.AccessControl.EventWaitHandleAccessRule));
-					r_RRemoveAccessRule_EventWaitHandleAccessRule.SetBelong(this.instance);
+					r_RemoveAccessRule_EventWaitHandleAccessRule = new(this, "RemoveAccessRule", 0, typeof(System.Security.AccessControl.EventWaitHandleAccessRule));
+					r_RemoveAccessRule_EventWaitHandleAccessRule.SetBelong(this.instance);
 				}
-				return r_RRemoveAccessRule_EventWaitHandleAccessRule;
+				return r_RemoveAccessRule_EventWaitHandleAccessRule;
 			}
 		}
 
 		/// <summary>
 		/// Void RemoveAccessRuleAll(System.Security.AccessControl.EventWaitHandleAccessRule)
 		/// </summary>
-		protected RMethod r_RRemoveAccessRuleAll_EventWaitHandleAccessRule;
+		protected RMethod r_RemoveAccessRuleAll_EventWaitHandleAccessRule;
 		public virtual RMethod RRemoveAccessRuleAll_EventWaitHandleAccessRule
 		{
 			get
 			{
-				if(r_RRemoveAccessRuleAll_EventWaitHandleAccessRule == null)
+				if(r_RemoveAccessRuleAll_EventWaitHandleAccessRule == null)
 				{
-					r_RRemoveAccessRuleAll_EventWaitHandleAccessRule = new(this, "RemoveAccessRuleAll", 0, typeof(System.Security.AccessControl.EventWaitHandleAccessRule));
-					r_RRemoveAccessRuleAll_EventWaitHandleAccessRule.SetBelong(this.instance);
+					r_RemoveAccessRuleAll_EventWaitHandleAccessRule = new(this, "RemoveAccessRuleAll", 0, typeof(System.Security.AccessControl.EventWaitHandleAccessRule));
+					r_RemoveAccessRuleAll_EventWaitHandleAccessRule.SetBelong(this.instance);
 				}
-				return r_RRemoveAccessRuleAll_EventWaitHandleAccessRule;
+				return r_RemoveAccessRuleAll_EventWaitHandleAccessRule;
 			}
 		}
 
 		/// <summary>
 		/// Void RemoveAccessRuleSpecific(System.Security.AccessControl.EventWaitHandleAccessRule)
 		/// </summary>
-		protected RMethod r_RRemoveAccessRuleSpecific_EventWaitHandleAccessRule;
+		protected RMethod r_RemoveAccessRuleSpecific_EventWaitHandleAccessRule;
 		public virtual RMethod RRemoveAccessRuleSpecific_EventWaitHandleAccessRule
 		{
 			get
 			{
-				if(r_RRemoveAccessRuleSpecific_EventWaitHandleAccessRule == null)
+				if(r_RemoveAccessRuleSpecific_EventWaitHandleAccessRule == null)
 				{
-					r_RRemoveAccessRuleSpecific_EventWaitHandleAccessRule = new(this, "RemoveAccessRuleSpecific", 0, typeof(System.Security.AccessControl.EventWaitHandleAccessRule));
-					r_RRemoveAccessRuleSpecific_EventWaitHandleAccessRule.SetBelong(this.instance);
+					r_RemoveAccessRuleSpecific_EventWaitHandleAccessRule = new(this, "RemoveAccessRuleSpecific", 0, typeof(System.Security.AccessControl.EventWaitHandleAccessRule));
+					r_RemoveAccessRuleSpecific_EventWaitHandleAccessRule.SetBelong(this.instance);
 				}
-				return r_RRemoveAccessRuleSpecific_EventWaitHandleAccessRule;
+				return r_RemoveAccessRuleSpecific_EventWaitHandleAccessRule;
 			}
 		}
 
 		/// <summary>
 		/// Void ResetAccessRule(System.Security.AccessControl.EventWaitHandleAccessRule)
 		/// </summary>
-		protected RMethod r_RResetAccessRule_EventWaitHandleAccessRule;
+		protected RMethod r_ResetAccessRule_EventWaitHandleAccessRule;
 		public virtual RMethod RResetAccessRule_EventWaitHandleAccessRule
 		{
 			get
 			{
-				if(r_RResetAccessRule_EventWaitHandleAccessRule == null)
+				if(r_ResetAccessRule_EventWaitHandleAccessRule == null)
 				{
-					r_RResetAccessRule_EventWaitHandleAccessRule = new(this, "ResetAccessRule", 0, typeof(System.Security.AccessControl.EventWaitHandleAccessRule));
-					r_RResetAccessRule_EventWaitHandleAccessRule.SetBelong(this.instance);
+					r_ResetAccessRule_EventWaitHandleAccessRule = new(this, "ResetAccessRule", 0, typeof(System.Security.AccessControl.EventWaitHandleAccessRule));
+					r_ResetAccessRule_EventWaitHandleAccessRule.SetBelong(this.instance);
 				}
-				return r_RResetAccessRule_EventWaitHandleAccessRule;
+				return r_ResetAccessRule_EventWaitHandleAccessRule;
 			}
 		}
 
 		/// <summary>
 		/// Void SetAccessRule(System.Security.AccessControl.EventWaitHandleAccessRule)
 		/// </summary>
-		protected RMethod r_RSetAccessRule_EventWaitHandleAccessRule;
+		protected RMethod r_SetAccessRule_EventWaitHandleAccessRule;
 		public virtual RMethod RSetAccessRule_EventWaitHandleAccessRule
 		{
 			get
 			{
-				if(r_RSetAccessRule_EventWaitHandleAccessRule == null)
+				if(r_SetAccessRule_EventWaitHandleAccessRule == null)
 				{
-					r_RSetAccessRule_EventWaitHandleAccessRule = new(this, "SetAccessRule", 0, typeof(System.Security.AccessControl.EventWaitHandleAccessRule));
-					r_RSetAccessRule_EventWaitHandleAccessRule.SetBelong(this.instance);
+					r_SetAccessRule_EventWaitHandleAccessRule = new(this, "SetAccessRule", 0, typeof(System.Security.AccessControl.EventWaitHandleAccessRule));
+					r_SetAccessRule_EventWaitHandleAccessRule.SetBelong(this.instance);
 				}
-				return r_RSetAccessRule_EventWaitHandleAccessRule;
+				return r_SetAccessRule_EventWaitHandleAccessRule;
 			}
 		}
 
 		/// <summary>
 		/// System.Security.AccessControl.AuditRule AuditRuleFactory(System.Security.Principal.IdentityReference, Int32, Boolean, System.Security.AccessControl.InheritanceFlags, System.Security.AccessControl.PropagationFlags, System.Security.AccessControl.AuditFlags)
 		/// </summary>
-		protected RMethod r_RAuditRuleFactory_IdentityReference_Int32_Boolean_InheritanceFlags_PropagationFlags_AuditFlags;
+		protected RMethod r_AuditRuleFactory_IdentityReference_Int32_Boolean_InheritanceFlags_PropagationFlags_AuditFlags;
 		public virtual RMethod RAuditRuleFactory_IdentityReference_Int32_Boolean_InheritanceFlags_PropagationFlags_AuditFlags
 		{
 			get
 			{
-				if(r_RAuditRuleFactory_IdentityReference_Int32_Boolean_InheritanceFlags_PropagationFlags_AuditFlags == null)
+				if(r_AuditRuleFactory_IdentityReference_Int32_Boolean_InheritanceFlags_PropagationFlags_AuditFlags == null)
 				{
-					r_RAuditRuleFactory_IdentityReference_Int32_Boolean_InheritanceFlags_PropagationFlags_AuditFlags = new(this, "AuditRuleFactory", 0, typeof(System.Security.Principal.IdentityReference), typeof(System.Int32), typeof(System.Boolean), typeof(System.Security.AccessControl.InheritanceFlags), typeof(System.Security.AccessControl.PropagationFlags), typeof(System.Security.AccessControl.AuditFlags));
-					r_RAuditRuleFactory_IdentityReference_Int32_Boolean_InheritanceFlags_PropagationFlags_AuditFlags.SetBelong(this.instance);
+					r_AuditRuleFactory_IdentityReference_Int32_Boolean_InheritanceFlags_PropagationFlags_AuditFlags = new(this, "AuditRuleFactory", 0, typeof(System.Security.Principal.IdentityReference), typeof(System.Int32), typeof(System.Boolean), typeof(System.Security.AccessControl.InheritanceFlags), typeof(System.Security.AccessControl.PropagationFlags), typeof(System.Security.AccessControl.AuditFlags));
+					r_AuditRuleFactory_IdentityReference_Int32_Boolean_InheritanceFlags_PropagationFlags_AuditFlags.SetBelong(this.instance);
 				}
-				return r_RAuditRuleFactory_IdentityReference_Int32_Boolean_InheritanceFlags_PropagationFlags_AuditFlags;
+				return r_AuditRuleFactory_IdentityReference_Int32_Boolean_InheritanceFlags_PropagationFlags_AuditFlags;
 			}
 		}
 
 		/// <summary>
 		/// Void AddAuditRule(System.Security.AccessControl.EventWaitHandleAuditRule)
 		/// </summary>
-		protected RMethod r_RAddAuditRule_EventWaitHandleAuditRule;
+		protected RMethod r_AddAuditRule_EventWaitHandleAuditRule;
 		public virtual RMethod RAddAuditRule_EventWaitHandleAuditRule
 		{
 			get
 			{
-				if(r_RAddAuditRule_EventWaitHandleAuditRule == null)
+				if(r_AddAuditRule_EventWaitHandleAuditRule == null)
 				{
-					r_RAddAuditRule_EventWaitHandleAuditRule = new(this, "AddAuditRule", 0, typeof(System.Security.AccessControl.EventWaitHandleAuditRule));
-					r_RAddAuditRule_EventWaitHandleAuditRule.SetBelong(this.instance);
+					r_AddAuditRule_EventWaitHandleAuditRule = new(this, "AddAuditRule", 0, typeof(System.Security.AccessControl.EventWaitHandleAuditRule));
+					r_AddAuditRule_EventWaitHandleAuditRule.SetBelong(this.instance);
 				}
-				return r_RAddAuditRule_EventWaitHandleAuditRule;
+				return r_AddAuditRule_EventWaitHandleAuditRule;
 			}
 		}
 
 		/// <summary>
 		/// Boolean RemoveAuditRule(System.Security.AccessControl.EventWaitHandleAuditRule)
 		/// </summary>
-		protected RMethod r_RRemoveAuditRule_EventWaitHandleAuditRule;
+		protected RMethod r_RemoveAuditRule_EventWaitHandleAuditRule;
 		public virtual RMethod RRemoveAuditRule_EventWaitHandleAuditRule
 		{
 			get
 			{
-				if(r_RRemoveAuditRule_EventWaitHandleAuditRule == null)
+				if(r_RemoveAuditRule_EventWaitHandleAuditRule == null)
 				{
-					r_RRemoveAuditRule_EventWaitHandleAuditRule = new(this, "RemoveAuditRule", 0, typeof(System.Security.AccessControl.EventWaitHandleAuditRule));
-					r_RRemoveAuditRule_EventWaitHandleAuditRule.SetBelong(this.instance);
+					r_RemoveAuditRule_EventWaitHandleAuditRule = new(this, "RemoveAuditRule", 0, typeof(System.Security.AccessControl.EventWaitHandleAuditRule));
+					r_RemoveAuditRule_EventWaitHandleAuditRule.SetBelong(this.instance);
 				}
-				return r_RRemoveAuditRule_EventWaitHandleAuditRule;
+				return r_RemoveAuditRule_EventWaitHandleAuditRule;
 			}
 		}
 
 		/// <summary>
 		/// Void RemoveAuditRuleAll(System.Security.AccessControl.EventWaitHandleAuditRule)
 		/// </summary>
-		protected RMethod r_RRemoveAuditRuleAll_EventWaitHandleAuditRule;
+		protected RMethod r_RemoveAuditRuleAll_EventWaitHandleAuditRule;
 		public virtual RMethod RRemoveAuditRuleAll_EventWaitHandleAuditRule
 		{
 			get
 			{
-				if(r_RRemoveAuditRuleAll_EventWaitHandleAuditRule == null)
+				if(r_RemoveAuditRuleAll_EventWaitHandleAuditRule == null)
 				{
-					r_RRemoveAuditRuleAll_EventWaitHandleAuditRule = new(this, "RemoveAuditRuleAll", 0, typeof(System.Security.AccessControl.EventWaitHandleAuditRule));
-					r_RRemoveAuditRuleAll_EventWaitHandleAuditRule.SetBelong(this.instance);
+					r_RemoveAuditRuleAll_EventWaitHandleAuditRule = new(this, "RemoveAuditRuleAll", 0, typeof(System.Security.AccessControl.EventWaitHandleAuditRule));
+					r_RemoveAuditRuleAll_EventWaitHandleAuditRule.SetBelong(this.instance);
 				}
-				return r_RRemoveAuditRuleAll_EventWaitHandleAuditRule;
+				return r_RemoveAuditRuleAll_EventWaitHandleAuditRule;
 			}
 		}
 
 		/// <summary>
 		/// Void RemoveAuditRuleSpecific(System.Security.AccessControl.EventWaitHandleAuditRule)
 		/// </summary>
-		protected RMethod r_RRemoveAuditRuleSpecific_EventWaitHandleAuditRule;
+		protected RMethod r_RemoveAuditRuleSpecific_EventWaitHandleAuditRule;
 		public virtual RMethod RRemoveAuditRuleSpecific_EventWaitHandleAuditRule
 		{
 			get
 			{
-				if(r_RRemoveAuditRuleSpecific_EventWaitHandleAuditRule == null)
+				if(r_RemoveAuditRuleSpecific_EventWaitHandleAuditRule == null)
 				{
-					r_RRemoveAuditRuleSpecific_EventWaitHandleAuditRule = new(this, "RemoveAuditRuleSpecific", 0, typeof(System.Security.AccessControl.EventWaitHandleAuditRule));
-					r_RRemoveAuditRuleSpecific_EventWaitHandleAuditRule.SetBelong(this.instance);
+					r_RemoveAuditRuleSpecific_EventWaitHandleAuditRule = new(this, "RemoveAuditRuleSpecific", 0, typeof(System.Security.AccessControl.EventWaitHandleAuditRule));
+					r_RemoveAuditRuleSpecific_EventWaitHandleAuditRule.SetBelong(this.instance);
 				}
-				return r_RRemoveAuditRuleSpecific_EventWaitHandleAuditRule;
+				return r_RemoveAuditRuleSpecific_EventWaitHandleAuditRule;
 			}
 		}
 
 		/// <summary>
 		/// Void SetAuditRule(System.Security.AccessControl.EventWaitHandleAuditRule)
 		/// </summary>
-		protected RMethod r_RSetAuditRule_EventWaitHandleAuditRule;
+		protected RMethod r_SetAuditRule_EventWaitHandleAuditRule;
 		public virtual RMethod RSetAuditRule_EventWaitHandleAuditRule
 		{
 			get
 			{
-				if(r_RSetAuditRule_EventWaitHandleAuditRule == null)
+				if(r_SetAuditRule_EventWaitHandleAuditRule == null)
 				{
-					r_RSetAuditRule_EventWaitHandleAuditRule = new(this, "SetAuditRule", 0, typeof(System.Security.AccessControl.EventWaitHandleAuditRule));
-					r_RSetAuditRule_EventWaitHandleAuditRule.SetBelong(this.instance);
+					r_SetAuditRule_EventWaitHandleAuditRule = new(this, "SetAuditRule", 0, typeof(System.Security.AccessControl.EventWaitHandleAuditRule));
+					r_SetAuditRule_EventWaitHandleAuditRule.SetBelong(this.instance);
 				}
-				return r_RSetAuditRule_EventWaitHandleAuditRule;
+				return r_SetAuditRule_EventWaitHandleAuditRule;
 			}
 		}
 
 		/// <summary>
 		/// Void Persist(System.Runtime.InteropServices.SafeHandle)
 		/// </summary>
-		protected RMethod r_RPersist_SafeHandle;
+		protected RMethod r_Persist_SafeHandle;
 		public virtual RMethod RPersist_SafeHandle
 		{
 			get
 			{
-				if(r_RPersist_SafeHandle == null)
+				if(r_Persist_SafeHandle == null)
 				{
-					r_RPersist_SafeHandle = new(this, "Persist", 0, typeof(System.Runtime.InteropServices.SafeHandle));
-					r_RPersist_SafeHandle.SetBelong(this.instance);
+					r_Persist_SafeHandle = new(this, "Persist", 0, typeof(System.Runtime.InteropServices.SafeHandle));
+					r_Persist_SafeHandle.SetBelong(this.instance);
 				}
-				return r_RPersist_SafeHandle;
+				return r_Persist_SafeHandle;
 			}
 		}
 
 		/// <summary>
 		/// Void Persist(System.Runtime.InteropServices.SafeHandle, System.Security.AccessControl.AccessControlSections)
 		/// </summary>
-		protected RMethod r_RPersist_SafeHandle_AccessControlSections;
+		protected RMethod r_Persist_SafeHandle_AccessControlSections;
 		public virtual RMethod RPersist_SafeHandle_AccessControlSections
 		{
 			get
 			{
-				if(r_RPersist_SafeHandle_AccessControlSections == null)
+				if(r_Persist_SafeHandle_AccessControlSections == null)
 				{
-					r_RPersist_SafeHandle_AccessControlSections = new(this, "Persist", 0, typeof(System.Runtime.InteropServices.SafeHandle), typeof(System.Security.AccessControl.AccessControlSections));
-					r_RPersist_SafeHandle_AccessControlSections.SetBelong(this.instance);
+					r_Persist_SafeHandle_AccessControlSections = new(this, "Persist", 0, typeof(System.Runtime.InteropServices.SafeHandle), typeof(System.Security.AccessControl.AccessControlSections));
+					r_Persist_SafeHandle_AccessControlSections.SetBelong(this.instance);
 				}
-				return r_RPersist_SafeHandle_AccessControlSections;
+				return r_Persist_SafeHandle_AccessControlSections;
 			}
 		}
 
 		/// <summary>
 		/// Void Persist(System.String, System.Security.AccessControl.AccessControlSections)
 		/// </summary>
-		protected RMethod r_RPersist_String_AccessControlSections;
+		protected RMethod r_Persist_String_AccessControlSections;
 		public virtual RMethod RPersist_String_AccessControlSections
 		{
 			get
 			{
-				if(r_RPersist_String_AccessControlSections == null)
+				if(r_Persist_String_AccessControlSections == null)
 				{
-					r_RPersist_String_AccessControlSections = new(this, "Persist", 0, typeof(System.String), typeof(System.Security.AccessControl.AccessControlSections));
-					r_RPersist_String_AccessControlSections.SetBelong(this.instance);
+					r_Persist_String_AccessControlSections = new(this, "Persist", 0, typeof(System.String), typeof(System.Security.AccessControl.AccessControlSections));
+					r_Persist_String_AccessControlSections.SetBelong(this.instance);
 				}
-				return r_RPersist_String_AccessControlSections;
+				return r_Persist_String_AccessControlSections;
 			}
 		}
 
 		/// <summary>
 		/// Void PersistModifications(System.Runtime.InteropServices.SafeHandle)
 		/// </summary>
-		protected RMethod r_RPersistModifications_SafeHandle;
+		protected RMethod r_PersistModifications_SafeHandle;
 		public virtual RMethod RPersistModifications_SafeHandle
 		{
 			get
 			{
-				if(r_RPersistModifications_SafeHandle == null)
+				if(r_PersistModifications_SafeHandle == null)
 				{
-					r_RPersistModifications_SafeHandle = new(this, "PersistModifications", 0, typeof(System.Runtime.InteropServices.SafeHandle));
-					r_RPersistModifications_SafeHandle.SetBelong(this.instance);
+					r_PersistModifications_SafeHandle = new(this, "PersistModifications", 0, typeof(System.Runtime.InteropServices.SafeHandle));
+					r_PersistModifications_SafeHandle.SetBelong(this.instance);
 				}
-				return r_RPersistModifications_SafeHandle;
+				return r_PersistModifications_SafeHandle;
 			}
 		}
 
 		/// <summary>
 		/// Void Persist(System.Runtime.InteropServices.SafeHandle, System.Security.AccessControl.AccessControlSections, System.Object)
 		/// </summary>
-		protected RMethod r_RPersist_SafeHandle_AccessControlSections_Object;
+		protected RMethod r_Persist_SafeHandle_AccessControlSections_Object;
 		public virtual RMethod RPersist_SafeHandle_AccessControlSections_Object
 		{
 			get
 			{
-				if(r_RPersist_SafeHandle_AccessControlSections_Object == null)
+				if(r_Persist_SafeHandle_AccessControlSections_Object == null)
 				{
-					r_RPersist_SafeHandle_AccessControlSections_Object = new(this, "Persist", 0, typeof(System.Runtime.InteropServices.SafeHandle), typeof(System.Security.AccessControl.AccessControlSections), typeof(System.Object));
-					r_RPersist_SafeHandle_AccessControlSections_Object.SetBelong(this.instance);
+					r_Persist_SafeHandle_AccessControlSections_Object = new(this, "Persist", 0, typeof(System.Runtime.InteropServices.SafeHandle), typeof(System.Security.AccessControl.AccessControlSections), typeof(System.Object));
+					r_Persist_SafeHandle_AccessControlSections_Object.SetBelong(this.instance);
 				}
-				return r_RPersist_SafeHandle_AccessControlSections_Object;
+				return r_Persist_SafeHandle_AccessControlSections_Object;
 			}
 		}
 
 		/// <summary>
 		/// Void PersistModifications(System.String)
 		/// </summary>
-		protected RMethod r_RPersistModifications_String;
+		protected RMethod r_PersistModifications_String;
 		public virtual RMethod RPersistModifications_String
 		{
 			get
 			{
-				if(r_RPersistModifications_String == null)
+				if(r_PersistModifications_String == null)
 				{
-					r_RPersistModifications_String = new(this, "PersistModifications", 0, typeof(System.String));
-					r_RPersistModifications_String.SetBelong(this.instance);
+					r_PersistModifications_String = new(this, "PersistModifications", 0, typeof(System.String));
+					r_PersistModifications_String.SetBelong(this.instance);
 				}
-				return r_RPersistModifications_String;
+				return r_PersistModifications_String;
 			}
 		}
 
 		/// <summary>
 		/// Void Persist(System.String, System.Security.AccessControl.AccessControlSections, System.Object)
 		/// </summary>
-		protected RMethod r_RPersist_String_AccessControlSections_Object;
+		protected RMethod r_Persist_String_AccessControlSections_Object;
 		public virtual RMethod RPersist_String_AccessControlSections_Object
 		{
 			get
 			{
-				if(r_RPersist_String_AccessControlSections_Object == null)
+				if(r_Persist_String_AccessControlSections_Object == null)
 				{
-					r_RPersist_String_AccessControlSections_Object = new(this, "Persist", 0, typeof(System.String), typeof(System.Security.AccessControl.AccessControlSections), typeof(System.Object));
-					r_RPersist_String_AccessControlSections_Object.SetBelong(this.instance);
+					r_Persist_String_AccessControlSections_Object = new(this, "Persist", 0, typeof(System.String), typeof(System.Security.AccessControl.AccessControlSections), typeof(System.Object));
+					r_Persist_String_AccessControlSections_Object.SetBelong(this.instance);
 				}
-				return r_RPersist_String_AccessControlSections_Object;
+				return r_Persist_String_AccessControlSections_Object;
 			}
 		}
 
 		/// <summary>
 		/// Int32 InternalGet(System.Runtime.InteropServices.SafeHandle, System.Security.AccessControl.AccessControlSections)
 		/// </summary>
-		protected RMethod r_RInternalGet_SafeHandle_AccessControlSections;
+		protected RMethod r_InternalGet_SafeHandle_AccessControlSections;
 		public virtual RMethod RInternalGet_SafeHandle_AccessControlSections
 		{
 			get
 			{
-				if(r_RInternalGet_SafeHandle_AccessControlSections == null)
+				if(r_InternalGet_SafeHandle_AccessControlSections == null)
 				{
-					r_RInternalGet_SafeHandle_AccessControlSections = new(this, "InternalGet", 0, typeof(System.Runtime.InteropServices.SafeHandle), typeof(System.Security.AccessControl.AccessControlSections));
-					r_RInternalGet_SafeHandle_AccessControlSections.SetBelong(this.instance);
+					r_InternalGet_SafeHandle_AccessControlSections = new(this, "InternalGet", 0, typeof(System.Runtime.InteropServices.SafeHandle), typeof(System.Security.AccessControl.AccessControlSections));
+					r_InternalGet_SafeHandle_AccessControlSections.SetBelong(this.instance);
 				}
-				return r_RInternalGet_SafeHandle_AccessControlSections;
+				return r_InternalGet_SafeHandle_AccessControlSections;
 			}
 		}
 
 		/// <summary>
 		/// Int32 InternalGet(System.String, System.Security.AccessControl.AccessControlSections)
 		/// </summary>
-		protected RMethod r_RInternalGet_String_AccessControlSections;
+		protected RMethod r_InternalGet_String_AccessControlSections;
 		public virtual RMethod RInternalGet_String_AccessControlSections
 		{
 			get
 			{
-				if(r_RInternalGet_String_AccessControlSections == null)
+				if(r_InternalGet_String_AccessControlSections == null)
 				{
-					r_RInternalGet_String_AccessControlSections = new(this, "InternalGet", 0, typeof(System.String), typeof(System.Security.AccessControl.AccessControlSections));
-					r_RInternalGet_String_AccessControlSections.SetBelong(this.instance);
+					r_InternalGet_String_AccessControlSections = new(this, "InternalGet", 0, typeof(System.String), typeof(System.Security.AccessControl.AccessControlSections));
+					r_InternalGet_String_AccessControlSections.SetBelong(this.instance);
 				}
-				return r_RInternalGet_String_AccessControlSections;
+				return r_InternalGet_String_AccessControlSections;
 			}
 		}
 
 		/// <summary>
 		/// Int32 InternalSet(System.Runtime.InteropServices.SafeHandle, System.Security.AccessControl.AccessControlSections)
 		/// </summary>
-		protected RMethod r_RInternalSet_SafeHandle_AccessControlSections;
+		protected RMethod r_InternalSet_SafeHandle_AccessControlSections;
 		public virtual RMethod RInternalSet_SafeHandle_AccessControlSections
 		{
 			get
 			{
-				if(r_RInternalSet_SafeHandle_AccessControlSections == null)
+				if(r_InternalSet_SafeHandle_AccessControlSections == null)
 				{
-					r_RInternalSet_SafeHandle_AccessControlSections = new(this, "InternalSet", 0, typeof(System.Runtime.InteropServices.SafeHandle), typeof(System.Security.AccessControl.AccessControlSections));
-					r_RInternalSet_SafeHandle_AccessControlSections.SetBelong(this.instance);
+					r_InternalSet_SafeHandle_AccessControlSections = new(this, "InternalSet", 0, typeof(System.Runtime.InteropServices.SafeHandle), typeof(System.Security.AccessControl.AccessControlSections));
+					r_InternalSet_SafeHandle_AccessControlSections.SetBelong(this.instance);
 				}
-				return r_RInternalSet_SafeHandle_AccessControlSections;
+				return r_InternalSet_SafeHandle_AccessControlSections;
 			}
 		}
 
 		/// <summary>
 		/// Int32 InternalSet(System.String, System.Security.AccessControl.AccessControlSections)
 		/// </summary>
-		protected RMethod r_RInternalSet_String_AccessControlSections;
+		protected RMethod r_InternalSet_String_AccessControlSections;
 		public virtual RMethod RInternalSet_String_AccessControlSections
 		{
 			get
 			{
-				if(r_RInternalSet_String_AccessControlSections == null)
+				if(r_InternalSet_String_AccessControlSections == null)
 				{
-					r_RInternalSet_String_AccessControlSections = new(this, "InternalSet", 0, typeof(System.String), typeof(System.Security.AccessControl.AccessControlSections));
-					r_RInternalSet_String_AccessControlSections.SetBelong(this.instance);
+					r_InternalSet_String_AccessControlSections = new(this, "InternalSet", 0, typeof(System.String), typeof(System.Security.AccessControl.AccessControlSections));
+					r_InternalSet_String_AccessControlSections.SetBelong(this.instance);
 				}
-				return r_RInternalSet_String_AccessControlSections;
+				return r_InternalSet_String_AccessControlSections;
 			}
 		}
 
 		/// <summary>
 		/// System.Security.AccessControl.AuthorizationRuleCollection GetAccessRules(Boolean, Boolean, System.Type)
 		/// </summary>
-		protected RMethod r_RGetAccessRules_Boolean_Boolean_Type;
+		protected RMethod r_GetAccessRules_Boolean_Boolean_Type;
 		public virtual RMethod RGetAccessRules_Boolean_Boolean_Type
 		{
 			get
 			{
-				if(r_RGetAccessRules_Boolean_Boolean_Type == null)
+				if(r_GetAccessRules_Boolean_Boolean_Type == null)
 				{
-					r_RGetAccessRules_Boolean_Boolean_Type = new(this, "GetAccessRules", 0, typeof(System.Boolean), typeof(System.Boolean), typeof(System.Type));
-					r_RGetAccessRules_Boolean_Boolean_Type.SetBelong(this.instance);
+					r_GetAccessRules_Boolean_Boolean_Type = new(this, "GetAccessRules", 0, typeof(System.Boolean), typeof(System.Boolean), typeof(System.Type));
+					r_GetAccessRules_Boolean_Boolean_Type.SetBelong(this.instance);
 				}
-				return r_RGetAccessRules_Boolean_Boolean_Type;
+				return r_GetAccessRules_Boolean_Boolean_Type;
 			}
 		}
 
 		/// <summary>
 		/// System.Security.AccessControl.AuthorizationRuleCollection GetAuditRules(Boolean, Boolean, System.Type)
 		/// </summary>
-		protected RMethod r_RGetAuditRules_Boolean_Boolean_Type;
+		protected RMethod r_GetAuditRules_Boolean_Boolean_Type;
 		public virtual RMethod RGetAuditRules_Boolean_Boolean_Type
 		{
 			get
 			{
-				if(r_RGetAuditRules_Boolean_Boolean_Type == null)
+				if(r_GetAuditRules_Boolean_Boolean_Type == null)
 				{
-					r_RGetAuditRules_Boolean_Boolean_Type = new(this, "GetAuditRules", 0, typeof(System.Boolean), typeof(System.Boolean), typeof(System.Type));
-					r_RGetAuditRules_Boolean_Boolean_Type.SetBelong(this.instance);
+					r_GetAuditRules_Boolean_Boolean_Type = new(this, "GetAuditRules", 0, typeof(System.Boolean), typeof(System.Boolean), typeof(System.Type));
+					r_GetAuditRules_Boolean_Boolean_Type.SetBelong(this.instance);
 				}
-				return r_RGetAuditRules_Boolean_Boolean_Type;
+				return r_GetAuditRules_Boolean_Boolean_Type;
 			}
 		}
 
 		/// <summary>
 		/// Void AddAccessRule(System.Security.AccessControl.AccessRule)
 		/// </summary>
-		protected RMethod r_RAddAccessRule_AccessRule;
+		protected RMethod r_AddAccessRule_AccessRule;
 		public virtual RMethod RAddAccessRule_AccessRule
 		{
 			get
 			{
-				if(r_RAddAccessRule_AccessRule == null)
+				if(r_AddAccessRule_AccessRule == null)
 				{
-					r_RAddAccessRule_AccessRule = new(this, "AddAccessRule", 0, typeof(System.Security.AccessControl.AccessRule));
-					r_RAddAccessRule_AccessRule.SetBelong(this.instance);
+					r_AddAccessRule_AccessRule = new(this, "AddAccessRule", 0, typeof(System.Security.AccessControl.AccessRule));
+					r_AddAccessRule_AccessRule.SetBelong(this.instance);
 				}
-				return r_RAddAccessRule_AccessRule;
+				return r_AddAccessRule_AccessRule;
 			}
 		}
 
 		/// <summary>
 		/// Boolean RemoveAccessRule(System.Security.AccessControl.AccessRule)
 		/// </summary>
-		protected RMethod r_RRemoveAccessRule_AccessRule;
+		protected RMethod r_RemoveAccessRule_AccessRule;
 		public virtual RMethod RRemoveAccessRule_AccessRule
 		{
 			get
 			{
-				if(r_RRemoveAccessRule_AccessRule == null)
+				if(r_RemoveAccessRule_AccessRule == null)
 				{
-					r_RRemoveAccessRule_AccessRule = new(this, "RemoveAccessRule", 0, typeof(System.Security.AccessControl.AccessRule));
-					r_RRemoveAccessRule_AccessRule.SetBelong(this.instance);
+					r_RemoveAccessRule_AccessRule = new(this, "RemoveAccessRule", 0, typeof(System.Security.AccessControl.AccessRule));
+					r_RemoveAccessRule_AccessRule.SetBelong(this.instance);
 				}
-				return r_RRemoveAccessRule_AccessRule;
+				return r_RemoveAccessRule_AccessRule;
 			}
 		}
 
 		/// <summary>
 		/// Void RemoveAccessRuleAll(System.Security.AccessControl.AccessRule)
 		/// </summary>
-		protected RMethod r_RRemoveAccessRuleAll_AccessRule;
+		protected RMethod r_RemoveAccessRuleAll_AccessRule;
 		public virtual RMethod RRemoveAccessRuleAll_AccessRule
 		{
 			get
 			{
-				if(r_RRemoveAccessRuleAll_AccessRule == null)
+				if(r_RemoveAccessRuleAll_AccessRule == null)
 				{
-					r_RRemoveAccessRuleAll_AccessRule = new(this, "RemoveAccessRuleAll", 0, typeof(System.Security.AccessControl.AccessRule));
-					r_RRemoveAccessRuleAll_AccessRule.SetBelong(this.instance);
+					r_RemoveAccessRuleAll_AccessRule = new(this, "RemoveAccessRuleAll", 0, typeof(System.Security.AccessControl.AccessRule));
+					r_RemoveAccessRuleAll_AccessRule.SetBelong(this.instance);
 				}
-				return r_RRemoveAccessRuleAll_AccessRule;
+				return r_RemoveAccessRuleAll_AccessRule;
 			}
 		}
 
 		/// <summary>
 		/// Void RemoveAccessRuleSpecific(System.Security.AccessControl.AccessRule)
 		/// </summary>
-		protected RMethod r_RRemoveAccessRuleSpecific_AccessRule;
+		protected RMethod r_RemoveAccessRuleSpecific_AccessRule;
 		public virtual RMethod RRemoveAccessRuleSpecific_AccessRule
 		{
 			get
 			{
-				if(r_RRemoveAccessRuleSpecific_AccessRule == null)
+				if(r_RemoveAccessRuleSpecific_AccessRule == null)
 				{
-					r_RRemoveAccessRuleSpecific_AccessRule = new(this, "RemoveAccessRuleSpecific", 0, typeof(System.Security.AccessControl.AccessRule));
-					r_RRemoveAccessRuleSpecific_AccessRule.SetBelong(this.instance);
+					r_RemoveAccessRuleSpecific_AccessRule = new(this, "RemoveAccessRuleSpecific", 0, typeof(System.Security.AccessControl.AccessRule));
+					r_RemoveAccessRuleSpecific_AccessRule.SetBelong(this.instance);
 				}
-				return r_RRemoveAccessRuleSpecific_AccessRule;
+				return r_RemoveAccessRuleSpecific_AccessRule;
 			}
 		}
 
 		/// <summary>
 		/// Void ResetAccessRule(System.Security.AccessControl.AccessRule)
 		/// </summary>
-		protected RMethod r_RResetAccessRule_AccessRule;
+		protected RMethod r_ResetAccessRule_AccessRule;
 		public virtual RMethod RResetAccessRule_AccessRule
 		{
 			get
 			{
-				if(r_RResetAccessRule_AccessRule == null)
+				if(r_ResetAccessRule_AccessRule == null)
 				{
-					r_RResetAccessRule_AccessRule = new(this, "ResetAccessRule", 0, typeof(System.Security.AccessControl.AccessRule));
-					r_RResetAccessRule_AccessRule.SetBelong(this.instance);
+					r_ResetAccessRule_AccessRule = new(this, "ResetAccessRule", 0, typeof(System.Security.AccessControl.AccessRule));
+					r_ResetAccessRule_AccessRule.SetBelong(this.instance);
 				}
-				return r_RResetAccessRule_AccessRule;
+				return r_ResetAccessRule_AccessRule;
 			}
 		}
 
 		/// <summary>
 		/// Void SetAccessRule(System.Security.AccessControl.AccessRule)
 		/// </summary>
-		protected RMethod r_RSetAccessRule_AccessRule;
+		protected RMethod r_SetAccessRule_AccessRule;
 		public virtual RMethod RSetAccessRule_AccessRule
 		{
 			get
 			{
-				if(r_RSetAccessRule_AccessRule == null)
+				if(r_SetAccessRule_AccessRule == null)
 				{
-					r_RSetAccessRule_AccessRule = new(this, "SetAccessRule", 0, typeof(System.Security.AccessControl.AccessRule));
-					r_RSetAccessRule_AccessRule.SetBelong(this.instance);
+					r_SetAccessRule_AccessRule = new(this, "SetAccessRule", 0, typeof(System.Security.AccessControl.AccessRule));
+					r_SetAccessRule_AccessRule.SetBelong(this.instance);
 				}
-				return r_RSetAccessRule_AccessRule;
+				return r_SetAccessRule_AccessRule;
 			}
 		}
 
 		/// <summary>
 		/// Boolean ModifyAccess(System.Security.AccessControl.AccessControlModification, System.Security.AccessControl.AccessRule, Boolean ByRef)
 		/// </summary>
-		protected RMethod r_RModifyAccess_AccessControlModification_AccessRule_Out_Boolean;
+		protected RMethod r_ModifyAccess_AccessControlModification_AccessRule_Out_Boolean;
 		public virtual RMethod RModifyAccess_AccessControlModification_AccessRule_Out_Boolean
 		{
 			get
 			{
-				if(r_RModifyAccess_AccessControlModification_AccessRule_Out_Boolean == null)
+				if(r_ModifyAccess_AccessControlModification_AccessRule_Out_Boolean == null)
 				{
-					r_RModifyAccess_AccessControlModification_AccessRule_Out_Boolean = new(this, "ModifyAccess", 0, typeof(System.Security.AccessControl.AccessControlModification), typeof(System.Security.AccessControl.AccessRule), typeof(System.Boolean).MakeByRefType());
-					r_RModifyAccess_AccessControlModification_AccessRule_Out_Boolean.SetBelong(this.instance);
+					r_ModifyAccess_AccessControlModification_AccessRule_Out_Boolean = new(this, "ModifyAccess", 0, typeof(System.Security.AccessControl.AccessControlModification), typeof(System.Security.AccessControl.AccessRule), typeof(System.Boolean).MakeByRefType());
+					r_ModifyAccess_AccessControlModification_AccessRule_Out_Boolean.SetBelong(this.instance);
 				}
-				return r_RModifyAccess_AccessControlModification_AccessRule_Out_Boolean;
+				return r_ModifyAccess_AccessControlModification_AccessRule_Out_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Void AddAuditRule(System.Security.AccessControl.AuditRule)
 		/// </summary>
-		protected RMethod r_RAddAuditRule_AuditRule;
+		protected RMethod r_AddAuditRule_AuditRule;
 		public virtual RMethod RAddAuditRule_AuditRule
 		{
 			get
 			{
-				if(r_RAddAuditRule_AuditRule == null)
+				if(r_AddAuditRule_AuditRule == null)
 				{
-					r_RAddAuditRule_AuditRule = new(this, "AddAuditRule", 0, typeof(System.Security.AccessControl.AuditRule));
-					r_RAddAuditRule_AuditRule.SetBelong(this.instance);
+					r_AddAuditRule_AuditRule = new(this, "AddAuditRule", 0, typeof(System.Security.AccessControl.AuditRule));
+					r_AddAuditRule_AuditRule.SetBelong(this.instance);
 				}
-				return r_RAddAuditRule_AuditRule;
+				return r_AddAuditRule_AuditRule;
 			}
 		}
 
 		/// <summary>
 		/// Boolean RemoveAuditRule(System.Security.AccessControl.AuditRule)
 		/// </summary>
-		protected RMethod r_RRemoveAuditRule_AuditRule;
+		protected RMethod r_RemoveAuditRule_AuditRule;
 		public virtual RMethod RRemoveAuditRule_AuditRule
 		{
 			get
 			{
-				if(r_RRemoveAuditRule_AuditRule == null)
+				if(r_RemoveAuditRule_AuditRule == null)
 				{
-					r_RRemoveAuditRule_AuditRule = new(this, "RemoveAuditRule", 0, typeof(System.Security.AccessControl.AuditRule));
-					r_RRemoveAuditRule_AuditRule.SetBelong(this.instance);
+					r_RemoveAuditRule_AuditRule = new(this, "RemoveAuditRule", 0, typeof(System.Security.AccessControl.AuditRule));
+					r_RemoveAuditRule_AuditRule.SetBelong(this.instance);
 				}
-				return r_RRemoveAuditRule_AuditRule;
+				return r_RemoveAuditRule_AuditRule;
 			}
 		}
 
 		/// <summary>
 		/// Void RemoveAuditRuleAll(System.Security.AccessControl.AuditRule)
 		/// </summary>
-		protected RMethod r_RRemoveAuditRuleAll_AuditRule;
+		protected RMethod r_RemoveAuditRuleAll_AuditRule;
 		public virtual RMethod RRemoveAuditRuleAll_AuditRule
 		{
 			get
 			{
-				if(r_RRemoveAuditRuleAll_AuditRule == null)
+				if(r_RemoveAuditRuleAll_AuditRule == null)
 				{
-					r_RRemoveAuditRuleAll_AuditRule = new(this, "RemoveAuditRuleAll", 0, typeof(System.Security.AccessControl.AuditRule));
-					r_RRemoveAuditRuleAll_AuditRule.SetBelong(this.instance);
+					r_RemoveAuditRuleAll_AuditRule = new(this, "RemoveAuditRuleAll", 0, typeof(System.Security.AccessControl.AuditRule));
+					r_RemoveAuditRuleAll_AuditRule.SetBelong(this.instance);
 				}
-				return r_RRemoveAuditRuleAll_AuditRule;
+				return r_RemoveAuditRuleAll_AuditRule;
 			}
 		}
 
 		/// <summary>
 		/// Void RemoveAuditRuleSpecific(System.Security.AccessControl.AuditRule)
 		/// </summary>
-		protected RMethod r_RRemoveAuditRuleSpecific_AuditRule;
+		protected RMethod r_RemoveAuditRuleSpecific_AuditRule;
 		public virtual RMethod RRemoveAuditRuleSpecific_AuditRule
 		{
 			get
 			{
-				if(r_RRemoveAuditRuleSpecific_AuditRule == null)
+				if(r_RemoveAuditRuleSpecific_AuditRule == null)
 				{
-					r_RRemoveAuditRuleSpecific_AuditRule = new(this, "RemoveAuditRuleSpecific", 0, typeof(System.Security.AccessControl.AuditRule));
-					r_RRemoveAuditRuleSpecific_AuditRule.SetBelong(this.instance);
+					r_RemoveAuditRuleSpecific_AuditRule = new(this, "RemoveAuditRuleSpecific", 0, typeof(System.Security.AccessControl.AuditRule));
+					r_RemoveAuditRuleSpecific_AuditRule.SetBelong(this.instance);
 				}
-				return r_RRemoveAuditRuleSpecific_AuditRule;
+				return r_RemoveAuditRuleSpecific_AuditRule;
 			}
 		}
 
 		/// <summary>
 		/// Void SetAuditRule(System.Security.AccessControl.AuditRule)
 		/// </summary>
-		protected RMethod r_RSetAuditRule_AuditRule;
+		protected RMethod r_SetAuditRule_AuditRule;
 		public virtual RMethod RSetAuditRule_AuditRule
 		{
 			get
 			{
-				if(r_RSetAuditRule_AuditRule == null)
+				if(r_SetAuditRule_AuditRule == null)
 				{
-					r_RSetAuditRule_AuditRule = new(this, "SetAuditRule", 0, typeof(System.Security.AccessControl.AuditRule));
-					r_RSetAuditRule_AuditRule.SetBelong(this.instance);
+					r_SetAuditRule_AuditRule = new(this, "SetAuditRule", 0, typeof(System.Security.AccessControl.AuditRule));
+					r_SetAuditRule_AuditRule.SetBelong(this.instance);
 				}
-				return r_RSetAuditRule_AuditRule;
+				return r_SetAuditRule_AuditRule;
 			}
 		}
 
 		/// <summary>
 		/// Boolean ModifyAudit(System.Security.AccessControl.AccessControlModification, System.Security.AccessControl.AuditRule, Boolean ByRef)
 		/// </summary>
-		protected RMethod r_RModifyAudit_AccessControlModification_AuditRule_Out_Boolean;
+		protected RMethod r_ModifyAudit_AccessControlModification_AuditRule_Out_Boolean;
 		public virtual RMethod RModifyAudit_AccessControlModification_AuditRule_Out_Boolean
 		{
 			get
 			{
-				if(r_RModifyAudit_AccessControlModification_AuditRule_Out_Boolean == null)
+				if(r_ModifyAudit_AccessControlModification_AuditRule_Out_Boolean == null)
 				{
-					r_RModifyAudit_AccessControlModification_AuditRule_Out_Boolean = new(this, "ModifyAudit", 0, typeof(System.Security.AccessControl.AccessControlModification), typeof(System.Security.AccessControl.AuditRule), typeof(System.Boolean).MakeByRefType());
-					r_RModifyAudit_AccessControlModification_AuditRule_Out_Boolean.SetBelong(this.instance);
+					r_ModifyAudit_AccessControlModification_AuditRule_Out_Boolean = new(this, "ModifyAudit", 0, typeof(System.Security.AccessControl.AccessControlModification), typeof(System.Security.AccessControl.AuditRule), typeof(System.Boolean).MakeByRefType());
+					r_ModifyAudit_AccessControlModification_AuditRule_Out_Boolean.SetBelong(this.instance);
 				}
-				return r_RModifyAudit_AccessControlModification_AuditRule_Out_Boolean;
+				return r_ModifyAudit_AccessControlModification_AuditRule_Out_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// System.Security.Principal.IdentityReference GetGroup(System.Type)
 		/// </summary>
-		protected RMethod r_RGetGroup_Type;
+		protected RMethod r_GetGroup_Type;
 		public virtual RMethod RGetGroup_Type
 		{
 			get
 			{
-				if(r_RGetGroup_Type == null)
+				if(r_GetGroup_Type == null)
 				{
-					r_RGetGroup_Type = new(this, "GetGroup", 0, typeof(System.Type));
-					r_RGetGroup_Type.SetBelong(this.instance);
+					r_GetGroup_Type = new(this, "GetGroup", 0, typeof(System.Type));
+					r_GetGroup_Type.SetBelong(this.instance);
 				}
-				return r_RGetGroup_Type;
+				return r_GetGroup_Type;
 			}
 		}
 
 		/// <summary>
 		/// System.Security.Principal.IdentityReference GetOwner(System.Type)
 		/// </summary>
-		protected RMethod r_RGetOwner_Type;
+		protected RMethod r_GetOwner_Type;
 		public virtual RMethod RGetOwner_Type
 		{
 			get
 			{
-				if(r_RGetOwner_Type == null)
+				if(r_GetOwner_Type == null)
 				{
-					r_RGetOwner_Type = new(this, "GetOwner", 0, typeof(System.Type));
-					r_RGetOwner_Type.SetBelong(this.instance);
+					r_GetOwner_Type = new(this, "GetOwner", 0, typeof(System.Type));
+					r_GetOwner_Type.SetBelong(this.instance);
 				}
-				return r_RGetOwner_Type;
+				return r_GetOwner_Type;
 			}
 		}
 
 		/// <summary>
 		/// Byte[] GetSecurityDescriptorBinaryForm()
 		/// </summary>
-		protected RMethod r_RGetSecurityDescriptorBinaryForm;
+		protected RMethod r_GetSecurityDescriptorBinaryForm;
 		public virtual RMethod RGetSecurityDescriptorBinaryForm
 		{
 			get
 			{
-				if(r_RGetSecurityDescriptorBinaryForm == null)
+				if(r_GetSecurityDescriptorBinaryForm == null)
 				{
-					r_RGetSecurityDescriptorBinaryForm = new(this, "GetSecurityDescriptorBinaryForm", 0);
-					r_RGetSecurityDescriptorBinaryForm.SetBelong(this.instance);
+					r_GetSecurityDescriptorBinaryForm = new(this, "GetSecurityDescriptorBinaryForm", 0);
+					r_GetSecurityDescriptorBinaryForm.SetBelong(this.instance);
 				}
-				return r_RGetSecurityDescriptorBinaryForm;
+				return r_GetSecurityDescriptorBinaryForm;
 			}
 		}
 
 		/// <summary>
 		/// System.String GetSecurityDescriptorSddlForm(System.Security.AccessControl.AccessControlSections)
 		/// </summary>
-		protected RMethod r_RGetSecurityDescriptorSddlForm_AccessControlSections;
+		protected RMethod r_GetSecurityDescriptorSddlForm_AccessControlSections;
 		public virtual RMethod RGetSecurityDescriptorSddlForm_AccessControlSections
 		{
 			get
 			{
-				if(r_RGetSecurityDescriptorSddlForm_AccessControlSections == null)
+				if(r_GetSecurityDescriptorSddlForm_AccessControlSections == null)
 				{
-					r_RGetSecurityDescriptorSddlForm_AccessControlSections = new(this, "GetSecurityDescriptorSddlForm", 0, typeof(System.Security.AccessControl.AccessControlSections));
-					r_RGetSecurityDescriptorSddlForm_AccessControlSections.SetBelong(this.instance);
+					r_GetSecurityDescriptorSddlForm_AccessControlSections = new(this, "GetSecurityDescriptorSddlForm", 0, typeof(System.Security.AccessControl.AccessControlSections));
+					r_GetSecurityDescriptorSddlForm_AccessControlSections.SetBelong(this.instance);
 				}
-				return r_RGetSecurityDescriptorSddlForm_AccessControlSections;
+				return r_GetSecurityDescriptorSddlForm_AccessControlSections;
 			}
 		}
 
 		/// <summary>
 		/// Boolean ModifyAccessRule(System.Security.AccessControl.AccessControlModification, System.Security.AccessControl.AccessRule, Boolean ByRef)
 		/// </summary>
-		protected RMethod r_RModifyAccessRule_AccessControlModification_AccessRule_Out_Boolean;
+		protected RMethod r_ModifyAccessRule_AccessControlModification_AccessRule_Out_Boolean;
 		public virtual RMethod RModifyAccessRule_AccessControlModification_AccessRule_Out_Boolean
 		{
 			get
 			{
-				if(r_RModifyAccessRule_AccessControlModification_AccessRule_Out_Boolean == null)
+				if(r_ModifyAccessRule_AccessControlModification_AccessRule_Out_Boolean == null)
 				{
-					r_RModifyAccessRule_AccessControlModification_AccessRule_Out_Boolean = new(this, "ModifyAccessRule", 0, typeof(System.Security.AccessControl.AccessControlModification), typeof(System.Security.AccessControl.AccessRule), typeof(System.Boolean).MakeByRefType());
-					r_RModifyAccessRule_AccessControlModification_AccessRule_Out_Boolean.SetBelong(this.instance);
+					r_ModifyAccessRule_AccessControlModification_AccessRule_Out_Boolean = new(this, "ModifyAccessRule", 0, typeof(System.Security.AccessControl.AccessControlModification), typeof(System.Security.AccessControl.AccessRule), typeof(System.Boolean).MakeByRefType());
+					r_ModifyAccessRule_AccessControlModification_AccessRule_Out_Boolean.SetBelong(this.instance);
 				}
-				return r_RModifyAccessRule_AccessControlModification_AccessRule_Out_Boolean;
+				return r_ModifyAccessRule_AccessControlModification_AccessRule_Out_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Boolean ModifyAuditRule(System.Security.AccessControl.AccessControlModification, System.Security.AccessControl.AuditRule, Boolean ByRef)
 		/// </summary>
-		protected RMethod r_RModifyAuditRule_AccessControlModification_AuditRule_Out_Boolean;
+		protected RMethod r_ModifyAuditRule_AccessControlModification_AuditRule_Out_Boolean;
 		public virtual RMethod RModifyAuditRule_AccessControlModification_AuditRule_Out_Boolean
 		{
 			get
 			{
-				if(r_RModifyAuditRule_AccessControlModification_AuditRule_Out_Boolean == null)
+				if(r_ModifyAuditRule_AccessControlModification_AuditRule_Out_Boolean == null)
 				{
-					r_RModifyAuditRule_AccessControlModification_AuditRule_Out_Boolean = new(this, "ModifyAuditRule", 0, typeof(System.Security.AccessControl.AccessControlModification), typeof(System.Security.AccessControl.AuditRule), typeof(System.Boolean).MakeByRefType());
-					r_RModifyAuditRule_AccessControlModification_AuditRule_Out_Boolean.SetBelong(this.instance);
+					r_ModifyAuditRule_AccessControlModification_AuditRule_Out_Boolean = new(this, "ModifyAuditRule", 0, typeof(System.Security.AccessControl.AccessControlModification), typeof(System.Security.AccessControl.AuditRule), typeof(System.Boolean).MakeByRefType());
+					r_ModifyAuditRule_AccessControlModification_AuditRule_Out_Boolean.SetBelong(this.instance);
 				}
-				return r_RModifyAuditRule_AccessControlModification_AuditRule_Out_Boolean;
+				return r_ModifyAuditRule_AccessControlModification_AuditRule_Out_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Void PurgeAccessRules(System.Security.Principal.IdentityReference)
 		/// </summary>
-		protected RMethod r_RPurgeAccessRules_IdentityReference;
+		protected RMethod r_PurgeAccessRules_IdentityReference;
 		public virtual RMethod RPurgeAccessRules_IdentityReference
 		{
 			get
 			{
-				if(r_RPurgeAccessRules_IdentityReference == null)
+				if(r_PurgeAccessRules_IdentityReference == null)
 				{
-					r_RPurgeAccessRules_IdentityReference = new(this, "PurgeAccessRules", 0, typeof(System.Security.Principal.IdentityReference));
-					r_RPurgeAccessRules_IdentityReference.SetBelong(this.instance);
+					r_PurgeAccessRules_IdentityReference = new(this, "PurgeAccessRules", 0, typeof(System.Security.Principal.IdentityReference));
+					r_PurgeAccessRules_IdentityReference.SetBelong(this.instance);
 				}
-				return r_RPurgeAccessRules_IdentityReference;
+				return r_PurgeAccessRules_IdentityReference;
 			}
 		}
 
 		/// <summary>
 		/// Void PurgeAuditRules(System.Security.Principal.IdentityReference)
 		/// </summary>
-		protected RMethod r_RPurgeAuditRules_IdentityReference;
+		protected RMethod r_PurgeAuditRules_IdentityReference;
 		public virtual RMethod RPurgeAuditRules_IdentityReference
 		{
 			get
 			{
-				if(r_RPurgeAuditRules_IdentityReference == null)
+				if(r_PurgeAuditRules_IdentityReference == null)
 				{
-					r_RPurgeAuditRules_IdentityReference = new(this, "PurgeAuditRules", 0, typeof(System.Security.Principal.IdentityReference));
-					r_RPurgeAuditRules_IdentityReference.SetBelong(this.instance);
+					r_PurgeAuditRules_IdentityReference = new(this, "PurgeAuditRules", 0, typeof(System.Security.Principal.IdentityReference));
+					r_PurgeAuditRules_IdentityReference.SetBelong(this.instance);
 				}
-				return r_RPurgeAuditRules_IdentityReference;
+				return r_PurgeAuditRules_IdentityReference;
 			}
 		}
 
 		/// <summary>
 		/// Void SetAccessRuleProtection(Boolean, Boolean)
 		/// </summary>
-		protected RMethod r_RSetAccessRuleProtection_Boolean_Boolean;
+		protected RMethod r_SetAccessRuleProtection_Boolean_Boolean;
 		public virtual RMethod RSetAccessRuleProtection_Boolean_Boolean
 		{
 			get
 			{
-				if(r_RSetAccessRuleProtection_Boolean_Boolean == null)
+				if(r_SetAccessRuleProtection_Boolean_Boolean == null)
 				{
-					r_RSetAccessRuleProtection_Boolean_Boolean = new(this, "SetAccessRuleProtection", 0, typeof(System.Boolean), typeof(System.Boolean));
-					r_RSetAccessRuleProtection_Boolean_Boolean.SetBelong(this.instance);
+					r_SetAccessRuleProtection_Boolean_Boolean = new(this, "SetAccessRuleProtection", 0, typeof(System.Boolean), typeof(System.Boolean));
+					r_SetAccessRuleProtection_Boolean_Boolean.SetBelong(this.instance);
 				}
-				return r_RSetAccessRuleProtection_Boolean_Boolean;
+				return r_SetAccessRuleProtection_Boolean_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Void SetAuditRuleProtection(Boolean, Boolean)
 		/// </summary>
-		protected RMethod r_RSetAuditRuleProtection_Boolean_Boolean;
+		protected RMethod r_SetAuditRuleProtection_Boolean_Boolean;
 		public virtual RMethod RSetAuditRuleProtection_Boolean_Boolean
 		{
 			get
 			{
-				if(r_RSetAuditRuleProtection_Boolean_Boolean == null)
+				if(r_SetAuditRuleProtection_Boolean_Boolean == null)
 				{
-					r_RSetAuditRuleProtection_Boolean_Boolean = new(this, "SetAuditRuleProtection", 0, typeof(System.Boolean), typeof(System.Boolean));
-					r_RSetAuditRuleProtection_Boolean_Boolean.SetBelong(this.instance);
+					r_SetAuditRuleProtection_Boolean_Boolean = new(this, "SetAuditRuleProtection", 0, typeof(System.Boolean), typeof(System.Boolean));
+					r_SetAuditRuleProtection_Boolean_Boolean.SetBelong(this.instance);
 				}
-				return r_RSetAuditRuleProtection_Boolean_Boolean;
+				return r_SetAuditRuleProtection_Boolean_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Void SetGroup(System.Security.Principal.IdentityReference)
 		/// </summary>
-		protected RMethod r_RSetGroup_IdentityReference;
+		protected RMethod r_SetGroup_IdentityReference;
 		public virtual RMethod RSetGroup_IdentityReference
 		{
 			get
 			{
-				if(r_RSetGroup_IdentityReference == null)
+				if(r_SetGroup_IdentityReference == null)
 				{
-					r_RSetGroup_IdentityReference = new(this, "SetGroup", 0, typeof(System.Security.Principal.IdentityReference));
-					r_RSetGroup_IdentityReference.SetBelong(this.instance);
+					r_SetGroup_IdentityReference = new(this, "SetGroup", 0, typeof(System.Security.Principal.IdentityReference));
+					r_SetGroup_IdentityReference.SetBelong(this.instance);
 				}
-				return r_RSetGroup_IdentityReference;
+				return r_SetGroup_IdentityReference;
 			}
 		}
 
 		/// <summary>
 		/// Void SetOwner(System.Security.Principal.IdentityReference)
 		/// </summary>
-		protected RMethod r_RSetOwner_IdentityReference;
+		protected RMethod r_SetOwner_IdentityReference;
 		public virtual RMethod RSetOwner_IdentityReference
 		{
 			get
 			{
-				if(r_RSetOwner_IdentityReference == null)
+				if(r_SetOwner_IdentityReference == null)
 				{
-					r_RSetOwner_IdentityReference = new(this, "SetOwner", 0, typeof(System.Security.Principal.IdentityReference));
-					r_RSetOwner_IdentityReference.SetBelong(this.instance);
+					r_SetOwner_IdentityReference = new(this, "SetOwner", 0, typeof(System.Security.Principal.IdentityReference));
+					r_SetOwner_IdentityReference.SetBelong(this.instance);
 				}
-				return r_RSetOwner_IdentityReference;
+				return r_SetOwner_IdentityReference;
 			}
 		}
 
 		/// <summary>
 		/// Void SetSecurityDescriptorBinaryForm(Byte[])
 		/// </summary>
-		protected RMethod r_RSetSecurityDescriptorBinaryForm_ByteArray;
+		protected RMethod r_SetSecurityDescriptorBinaryForm_ByteArray;
 		public virtual RMethod RSetSecurityDescriptorBinaryForm_ByteArray
 		{
 			get
 			{
-				if(r_RSetSecurityDescriptorBinaryForm_ByteArray == null)
+				if(r_SetSecurityDescriptorBinaryForm_ByteArray == null)
 				{
-					r_RSetSecurityDescriptorBinaryForm_ByteArray = new(this, "SetSecurityDescriptorBinaryForm", 0, typeof(System.Byte).MakeArrayType());
-					r_RSetSecurityDescriptorBinaryForm_ByteArray.SetBelong(this.instance);
+					r_SetSecurityDescriptorBinaryForm_ByteArray = new(this, "SetSecurityDescriptorBinaryForm", 0, typeof(System.Byte).MakeArrayType());
+					r_SetSecurityDescriptorBinaryForm_ByteArray.SetBelong(this.instance);
 				}
-				return r_RSetSecurityDescriptorBinaryForm_ByteArray;
+				return r_SetSecurityDescriptorBinaryForm_ByteArray;
 			}
 		}
 
 		/// <summary>
 		/// Void SetSecurityDescriptorBinaryForm(Byte[], System.Security.AccessControl.AccessControlSections)
 		/// </summary>
-		protected RMethod r_RSetSecurityDescriptorBinaryForm_ByteArray_AccessControlSections;
+		protected RMethod r_SetSecurityDescriptorBinaryForm_ByteArray_AccessControlSections;
 		public virtual RMethod RSetSecurityDescriptorBinaryForm_ByteArray_AccessControlSections
 		{
 			get
 			{
-				if(r_RSetSecurityDescriptorBinaryForm_ByteArray_AccessControlSections == null)
+				if(r_SetSecurityDescriptorBinaryForm_ByteArray_AccessControlSections == null)
 				{
-					r_RSetSecurityDescriptorBinaryForm_ByteArray_AccessControlSections = new(this, "SetSecurityDescriptorBinaryForm", 0, typeof(System.Byte).MakeArrayType(), typeof(System.Security.AccessControl.AccessControlSections));
-					r_RSetSecurityDescriptorBinaryForm_ByteArray_AccessControlSections.SetBelong(this.instance);
+					r_SetSecurityDescriptorBinaryForm_ByteArray_AccessControlSections = new(this, "SetSecurityDescriptorBinaryForm", 0, typeof(System.Byte).MakeArrayType(), typeof(System.Security.AccessControl.AccessControlSections));
+					r_SetSecurityDescriptorBinaryForm_ByteArray_AccessControlSections.SetBelong(this.instance);
 				}
-				return r_RSetSecurityDescriptorBinaryForm_ByteArray_AccessControlSections;
+				return r_SetSecurityDescriptorBinaryForm_ByteArray_AccessControlSections;
 			}
 		}
 
 		/// <summary>
 		/// Void SetSecurityDescriptorSddlForm(System.String)
 		/// </summary>
-		protected RMethod r_RSetSecurityDescriptorSddlForm_String;
+		protected RMethod r_SetSecurityDescriptorSddlForm_String;
 		public virtual RMethod RSetSecurityDescriptorSddlForm_String
 		{
 			get
 			{
-				if(r_RSetSecurityDescriptorSddlForm_String == null)
+				if(r_SetSecurityDescriptorSddlForm_String == null)
 				{
-					r_RSetSecurityDescriptorSddlForm_String = new(this, "SetSecurityDescriptorSddlForm", 0, typeof(System.String));
-					r_RSetSecurityDescriptorSddlForm_String.SetBelong(this.instance);
+					r_SetSecurityDescriptorSddlForm_String = new(this, "SetSecurityDescriptorSddlForm", 0, typeof(System.String));
+					r_SetSecurityDescriptorSddlForm_String.SetBelong(this.instance);
 				}
-				return r_RSetSecurityDescriptorSddlForm_String;
+				return r_SetSecurityDescriptorSddlForm_String;
 			}
 		}
 
 		/// <summary>
 		/// Void SetSecurityDescriptorSddlForm(System.String, System.Security.AccessControl.AccessControlSections)
 		/// </summary>
-		protected RMethod r_RSetSecurityDescriptorSddlForm_String_AccessControlSections;
+		protected RMethod r_SetSecurityDescriptorSddlForm_String_AccessControlSections;
 		public virtual RMethod RSetSecurityDescriptorSddlForm_String_AccessControlSections
 		{
 			get
 			{
-				if(r_RSetSecurityDescriptorSddlForm_String_AccessControlSections == null)
+				if(r_SetSecurityDescriptorSddlForm_String_AccessControlSections == null)
 				{
-					r_RSetSecurityDescriptorSddlForm_String_AccessControlSections = new(this, "SetSecurityDescriptorSddlForm", 0, typeof(System.String), typeof(System.Security.AccessControl.AccessControlSections));
-					r_RSetSecurityDescriptorSddlForm_String_AccessControlSections.SetBelong(this.instance);
+					r_SetSecurityDescriptorSddlForm_String_AccessControlSections = new(this, "SetSecurityDescriptorSddlForm", 0, typeof(System.String), typeof(System.Security.AccessControl.AccessControlSections));
+					r_SetSecurityDescriptorSddlForm_String_AccessControlSections.SetBelong(this.instance);
 				}
-				return r_RSetSecurityDescriptorSddlForm_String_AccessControlSections;
+				return r_SetSecurityDescriptorSddlForm_String_AccessControlSections;
 			}
 		}
 
 		/// <summary>
 		/// Void Persist(Boolean, System.String, System.Security.AccessControl.AccessControlSections)
 		/// </summary>
-		protected RMethod r_RPersist_Boolean_String_AccessControlSections;
+		protected RMethod r_Persist_Boolean_String_AccessControlSections;
 		public virtual RMethod RPersist_Boolean_String_AccessControlSections
 		{
 			get
 			{
-				if(r_RPersist_Boolean_String_AccessControlSections == null)
+				if(r_Persist_Boolean_String_AccessControlSections == null)
 				{
-					r_RPersist_Boolean_String_AccessControlSections = new(this, "Persist", 0, typeof(System.Boolean), typeof(System.String), typeof(System.Security.AccessControl.AccessControlSections));
-					r_RPersist_Boolean_String_AccessControlSections.SetBelong(this.instance);
+					r_Persist_Boolean_String_AccessControlSections = new(this, "Persist", 0, typeof(System.Boolean), typeof(System.String), typeof(System.Security.AccessControl.AccessControlSections));
+					r_Persist_Boolean_String_AccessControlSections.SetBelong(this.instance);
 				}
-				return r_RPersist_Boolean_String_AccessControlSections;
+				return r_Persist_Boolean_String_AccessControlSections;
 			}
 		}
 
 		/// <summary>
 		/// Void ReadLock()
 		/// </summary>
-		protected RMethod r_RReadLock;
+		protected RMethod r_ReadLock;
 		public virtual RMethod RReadLock
 		{
 			get
 			{
-				if(r_RReadLock == null)
+				if(r_ReadLock == null)
 				{
-					r_RReadLock = new(this, "ReadLock", 0);
-					r_RReadLock.SetBelong(this.instance);
+					r_ReadLock = new(this, "ReadLock", 0);
+					r_ReadLock.SetBelong(this.instance);
 				}
-				return r_RReadLock;
+				return r_ReadLock;
 			}
 		}
 
 		/// <summary>
 		/// Void ReadUnlock()
 		/// </summary>
-		protected RMethod r_RReadUnlock;
+		protected RMethod r_ReadUnlock;
 		public virtual RMethod RReadUnlock
 		{
 			get
 			{
-				if(r_RReadUnlock == null)
+				if(r_ReadUnlock == null)
 				{
-					r_RReadUnlock = new(this, "ReadUnlock", 0);
-					r_RReadUnlock.SetBelong(this.instance);
+					r_ReadUnlock = new(this, "ReadUnlock", 0);
+					r_ReadUnlock.SetBelong(this.instance);
 				}
-				return r_RReadUnlock;
+				return r_ReadUnlock;
 			}
 		}
 
 		/// <summary>
 		/// Void WriteLock()
 		/// </summary>
-		protected RMethod r_RWriteLock;
+		protected RMethod r_WriteLock;
 		public virtual RMethod RWriteLock
 		{
 			get
 			{
-				if(r_RWriteLock == null)
+				if(r_WriteLock == null)
 				{
-					r_RWriteLock = new(this, "WriteLock", 0);
-					r_RWriteLock.SetBelong(this.instance);
+					r_WriteLock = new(this, "WriteLock", 0);
+					r_WriteLock.SetBelong(this.instance);
 				}
-				return r_RWriteLock;
+				return r_WriteLock;
 			}
 		}
 
 		/// <summary>
 		/// Void WriteUnlock()
 		/// </summary>
-		protected RMethod r_RWriteUnlock;
+		protected RMethod r_WriteUnlock;
 		public virtual RMethod RWriteUnlock
 		{
 			get
 			{
-				if(r_RWriteUnlock == null)
+				if(r_WriteUnlock == null)
 				{
-					r_RWriteUnlock = new(this, "WriteUnlock", 0);
-					r_RWriteUnlock.SetBelong(this.instance);
+					r_WriteUnlock = new(this, "WriteUnlock", 0);
+					r_WriteUnlock.SetBelong(this.instance);
 				}
-				return r_RWriteUnlock;
+				return r_WriteUnlock;
 			}
 		}
 
 		/// <summary>
 		/// System.Security.AccessControl.AuthorizationRuleCollection InternalGetAccessRules(Boolean, Boolean, System.Type)
 		/// </summary>
-		protected RMethod r_RInternalGetAccessRules_Boolean_Boolean_Type;
+		protected RMethod r_InternalGetAccessRules_Boolean_Boolean_Type;
 		public virtual RMethod RInternalGetAccessRules_Boolean_Boolean_Type
 		{
 			get
 			{
-				if(r_RInternalGetAccessRules_Boolean_Boolean_Type == null)
+				if(r_InternalGetAccessRules_Boolean_Boolean_Type == null)
 				{
-					r_RInternalGetAccessRules_Boolean_Boolean_Type = new(this, "InternalGetAccessRules", 0, typeof(System.Boolean), typeof(System.Boolean), typeof(System.Type));
-					r_RInternalGetAccessRules_Boolean_Boolean_Type.SetBelong(this.instance);
+					r_InternalGetAccessRules_Boolean_Boolean_Type = new(this, "InternalGetAccessRules", 0, typeof(System.Boolean), typeof(System.Boolean), typeof(System.Type));
+					r_InternalGetAccessRules_Boolean_Boolean_Type.SetBelong(this.instance);
 				}
-				return r_RInternalGetAccessRules_Boolean_Boolean_Type;
+				return r_InternalGetAccessRules_Boolean_Boolean_Type;
 			}
 		}
 
 		/// <summary>
 		/// System.Security.AccessControl.AccessRule InternalAccessRuleFactory(System.Security.AccessControl.QualifiedAce, System.Type, System.Security.AccessControl.AccessControlType)
 		/// </summary>
-		protected RMethod r_RInternalAccessRuleFactory_QualifiedAce_Type_AccessControlType;
+		protected RMethod r_InternalAccessRuleFactory_QualifiedAce_Type_AccessControlType;
 		public virtual RMethod RInternalAccessRuleFactory_QualifiedAce_Type_AccessControlType
 		{
 			get
 			{
-				if(r_RInternalAccessRuleFactory_QualifiedAce_Type_AccessControlType == null)
+				if(r_InternalAccessRuleFactory_QualifiedAce_Type_AccessControlType == null)
 				{
-					r_RInternalAccessRuleFactory_QualifiedAce_Type_AccessControlType = new(this, "InternalAccessRuleFactory", 0, typeof(System.Security.AccessControl.QualifiedAce), typeof(System.Type), typeof(System.Security.AccessControl.AccessControlType));
-					r_RInternalAccessRuleFactory_QualifiedAce_Type_AccessControlType.SetBelong(this.instance);
+					r_InternalAccessRuleFactory_QualifiedAce_Type_AccessControlType = new(this, "InternalAccessRuleFactory", 0, typeof(System.Security.AccessControl.QualifiedAce), typeof(System.Type), typeof(System.Security.AccessControl.AccessControlType));
+					r_InternalAccessRuleFactory_QualifiedAce_Type_AccessControlType.SetBelong(this.instance);
 				}
-				return r_RInternalAccessRuleFactory_QualifiedAce_Type_AccessControlType;
+				return r_InternalAccessRuleFactory_QualifiedAce_Type_AccessControlType;
 			}
 		}
 
 		/// <summary>
 		/// System.Security.AccessControl.AuthorizationRuleCollection InternalGetAuditRules(Boolean, Boolean, System.Type)
 		/// </summary>
-		protected RMethod r_RInternalGetAuditRules_Boolean_Boolean_Type;
+		protected RMethod r_InternalGetAuditRules_Boolean_Boolean_Type;
 		public virtual RMethod RInternalGetAuditRules_Boolean_Boolean_Type
 		{
 			get
 			{
-				if(r_RInternalGetAuditRules_Boolean_Boolean_Type == null)
+				if(r_InternalGetAuditRules_Boolean_Boolean_Type == null)
 				{
-					r_RInternalGetAuditRules_Boolean_Boolean_Type = new(this, "InternalGetAuditRules", 0, typeof(System.Boolean), typeof(System.Boolean), typeof(System.Type));
-					r_RInternalGetAuditRules_Boolean_Boolean_Type.SetBelong(this.instance);
+					r_InternalGetAuditRules_Boolean_Boolean_Type = new(this, "InternalGetAuditRules", 0, typeof(System.Boolean), typeof(System.Boolean), typeof(System.Type));
+					r_InternalGetAuditRules_Boolean_Boolean_Type.SetBelong(this.instance);
 				}
-				return r_RInternalGetAuditRules_Boolean_Boolean_Type;
+				return r_InternalGetAuditRules_Boolean_Boolean_Type;
 			}
 		}
 
 		/// <summary>
 		/// System.Security.AccessControl.AuditRule InternalAuditRuleFactory(System.Security.AccessControl.QualifiedAce, System.Type)
 		/// </summary>
-		protected RMethod r_RInternalAuditRuleFactory_QualifiedAce_Type;
+		protected RMethod r_InternalAuditRuleFactory_QualifiedAce_Type;
 		public virtual RMethod RInternalAuditRuleFactory_QualifiedAce_Type
 		{
 			get
 			{
-				if(r_RInternalAuditRuleFactory_QualifiedAce_Type == null)
+				if(r_InternalAuditRuleFactory_QualifiedAce_Type == null)
 				{
-					r_RInternalAuditRuleFactory_QualifiedAce_Type = new(this, "InternalAuditRuleFactory", 0, typeof(System.Security.AccessControl.QualifiedAce), typeof(System.Type));
-					r_RInternalAuditRuleFactory_QualifiedAce_Type.SetBelong(this.instance);
+					r_InternalAuditRuleFactory_QualifiedAce_Type = new(this, "InternalAuditRuleFactory", 0, typeof(System.Security.AccessControl.QualifiedAce), typeof(System.Type));
+					r_InternalAuditRuleFactory_QualifiedAce_Type.SetBelong(this.instance);
 				}
-				return r_RInternalAuditRuleFactory_QualifiedAce_Type;
+				return r_InternalAuditRuleFactory_QualifiedAce_Type;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Equals(System.Object)
 		/// </summary>
-		protected RMethod r_REquals_Object;
+		protected RMethod r_Equals_Object;
 		public virtual RMethod REquals_Object
 		{
 			get
 			{
-				if(r_REquals_Object == null)
+				if(r_Equals_Object == null)
 				{
-					r_REquals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_REquals_Object.SetBelong(this.instance);
+					r_Equals_Object = new(this, "Equals", 0, typeof(System.Object));
+					r_Equals_Object.SetBelong(this.instance);
 				}
-				return r_REquals_Object;
+				return r_Equals_Object;
 			}
 		}
 
 		/// <summary>
 		/// Void Finalize()
 		/// </summary>
-		protected RMethod r_RFinalize;
+		protected RMethod r_Finalize;
 		public virtual RMethod RFinalize
 		{
 			get
 			{
-				if(r_RFinalize == null)
+				if(r_Finalize == null)
 				{
-					r_RFinalize = new(this, "Finalize", 0);
-					r_RFinalize.SetBelong(this.instance);
+					r_Finalize = new(this, "Finalize", 0);
+					r_Finalize.SetBelong(this.instance);
 				}
-				return r_RFinalize;
+				return r_Finalize;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetHashCode()
 		/// </summary>
-		protected RMethod r_RGetHashCode;
+		protected RMethod r_GetHashCode;
 		public virtual RMethod RGetHashCode
 		{
 			get
 			{
-				if(r_RGetHashCode == null)
+				if(r_GetHashCode == null)
 				{
-					r_RGetHashCode = new(this, "GetHashCode", 0);
-					r_RGetHashCode.SetBelong(this.instance);
+					r_GetHashCode = new(this, "GetHashCode", 0);
+					r_GetHashCode.SetBelong(this.instance);
 				}
-				return r_RGetHashCode;
+				return r_GetHashCode;
 			}
 		}
 
 		/// <summary>
 		/// System.Type GetType()
 		/// </summary>
-		protected RMethod r_RGetType;
+		protected RMethod r_GetType;
 		public virtual RMethod RGetType
 		{
 			get
 			{
-				if(r_RGetType == null)
+				if(r_GetType == null)
 				{
-					r_RGetType = new(this, "GetType", 0);
-					r_RGetType.SetBelong(this.instance);
+					r_GetType = new(this, "GetType", 0);
+					r_GetType.SetBelong(this.instance);
 				}
-				return r_RGetType;
+				return r_GetType;
 			}
 		}
 
 		/// <summary>
 		/// System.Object MemberwiseClone()
 		/// </summary>
-		protected RMethod r_RMemberwiseClone;
+		protected RMethod r_MemberwiseClone;
 		public virtual RMethod RMemberwiseClone
 		{
 			get
 			{
-				if(r_RMemberwiseClone == null)
+				if(r_MemberwiseClone == null)
 				{
-					r_RMemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_RMemberwiseClone.SetBelong(this.instance);
+					r_MemberwiseClone = new(this, "MemberwiseClone", 0);
+					r_MemberwiseClone.SetBelong(this.instance);
 				}
-				return r_RMemberwiseClone;
+				return r_MemberwiseClone;
 			}
 		}
 
 		/// <summary>
 		/// System.String ToString()
 		/// </summary>
-		protected RMethod r_RToString;
+		protected RMethod r_ToString;
 		public virtual RMethod RToString
 		{
 			get
 			{
-				if(r_RToString == null)
+				if(r_ToString == null)
 				{
-					r_RToString = new(this, "ToString", 0);
-					r_RToString.SetBelong(this.instance);
+					r_ToString = new(this, "ToString", 0);
+					r_ToString.SetBelong(this.instance);
 				}
-				return r_RToString;
+				return r_ToString;
 			}
 		}
 

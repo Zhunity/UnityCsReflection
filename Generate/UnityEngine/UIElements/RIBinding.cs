@@ -13,51 +13,51 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Void PreUpdate()
 		/// </summary>
-		protected RMethod r_RPreUpdate;
+		protected RMethod r_PreUpdate;
 		public virtual RMethod RPreUpdate
 		{
 			get
 			{
-				if(r_RPreUpdate == null)
+				if(r_PreUpdate == null)
 				{
-					r_RPreUpdate = new(this, "PreUpdate", 0);
-					r_RPreUpdate.SetBelong(this.instance);
+					r_PreUpdate = new(this, "PreUpdate", 0);
+					r_PreUpdate.SetBelong(this.instance);
 				}
-				return r_RPreUpdate;
+				return r_PreUpdate;
 			}
 		}
 
 		/// <summary>
 		/// Void Update()
 		/// </summary>
-		protected RMethod r_RUpdate;
+		protected RMethod r_Update;
 		public virtual RMethod RUpdate
 		{
 			get
 			{
-				if(r_RUpdate == null)
+				if(r_Update == null)
 				{
-					r_RUpdate = new(this, "Update", 0);
-					r_RUpdate.SetBelong(this.instance);
+					r_Update = new(this, "Update", 0);
+					r_Update.SetBelong(this.instance);
 				}
-				return r_RUpdate;
+				return r_Update;
 			}
 		}
 
 		/// <summary>
 		/// Void Release()
 		/// </summary>
-		protected RMethod r_RRelease;
+		protected RMethod r_Release;
 		public virtual RMethod RRelease
 		{
 			get
 			{
-				if(r_RRelease == null)
+				if(r_Release == null)
 				{
-					r_RRelease = new(this, "Release", 0);
-					r_RRelease.SetBelong(this.instance);
+					r_Release = new(this, "Release", 0);
+					r_Release.SetBelong(this.instance);
 				}
-				return r_RRelease;
+				return r_Release;
 			}
 		}
 

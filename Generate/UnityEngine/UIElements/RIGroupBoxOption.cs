@@ -13,17 +13,17 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Void SetSelected(Boolean)
 		/// </summary>
-		protected RMethod r_RSetSelected_Boolean;
+		protected RMethod r_SetSelected_Boolean;
 		public virtual RMethod RSetSelected_Boolean
 		{
 			get
 			{
-				if(r_RSetSelected_Boolean == null)
+				if(r_SetSelected_Boolean == null)
 				{
-					r_RSetSelected_Boolean = new(this, "SetSelected", 0, typeof(System.Boolean));
-					r_RSetSelected_Boolean.SetBelong(this.instance);
+					r_SetSelected_Boolean = new(this, "SetSelected", 0, typeof(System.Boolean));
+					r_SetSelected_Boolean.SetBelong(this.instance);
 				}
-				return r_RSetSelected_Boolean;
+				return r_SetSelected_Boolean;
 			}
 		}
 

@@ -1135,357 +1135,357 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// Void OnSerializing(System.Runtime.Serialization.StreamingContext)
 		/// </summary>
-		protected RMethod r_ROnSerializing_StreamingContext;
+		protected RMethod r_OnSerializing_StreamingContext;
 		public virtual RMethod ROnSerializing_StreamingContext
 		{
 			get
 			{
-				if(r_ROnSerializing_StreamingContext == null)
+				if(r_OnSerializing_StreamingContext == null)
 				{
-					r_ROnSerializing_StreamingContext = new(this, "OnSerializing", 0, typeof(System.Runtime.Serialization.StreamingContext));
-					r_ROnSerializing_StreamingContext.SetBelong(this.instance);
+					r_OnSerializing_StreamingContext = new(this, "OnSerializing", 0, typeof(System.Runtime.Serialization.StreamingContext));
+					r_OnSerializing_StreamingContext.SetBelong(this.instance);
 				}
-				return r_ROnSerializing_StreamingContext;
+				return r_OnSerializing_StreamingContext;
 			}
 		}
 
 		/// <summary>
 		/// Void OnDeserializing(System.Runtime.Serialization.StreamingContext)
 		/// </summary>
-		protected RMethod r_ROnDeserializing_StreamingContext;
+		protected RMethod r_OnDeserializing_StreamingContext;
 		public virtual RMethod ROnDeserializing_StreamingContext
 		{
 			get
 			{
-				if(r_ROnDeserializing_StreamingContext == null)
+				if(r_OnDeserializing_StreamingContext == null)
 				{
-					r_ROnDeserializing_StreamingContext = new(this, "OnDeserializing", 0, typeof(System.Runtime.Serialization.StreamingContext));
-					r_ROnDeserializing_StreamingContext.SetBelong(this.instance);
+					r_OnDeserializing_StreamingContext = new(this, "OnDeserializing", 0, typeof(System.Runtime.Serialization.StreamingContext));
+					r_OnDeserializing_StreamingContext.SetBelong(this.instance);
 				}
-				return r_ROnDeserializing_StreamingContext;
+				return r_OnDeserializing_StreamingContext;
 			}
 		}
 
 		/// <summary>
 		/// Void OnDeserialized(System.Runtime.Serialization.StreamingContext)
 		/// </summary>
-		protected RMethod r_ROnDeserialized_StreamingContext;
+		protected RMethod r_OnDeserialized_StreamingContext;
 		public virtual RMethod ROnDeserialized_StreamingContext
 		{
 			get
 			{
-				if(r_ROnDeserialized_StreamingContext == null)
+				if(r_OnDeserialized_StreamingContext == null)
 				{
-					r_ROnDeserialized_StreamingContext = new(this, "OnDeserialized", 0, typeof(System.Runtime.Serialization.StreamingContext));
-					r_ROnDeserialized_StreamingContext.SetBelong(this.instance);
+					r_OnDeserialized_StreamingContext = new(this, "OnDeserialized", 0, typeof(System.Runtime.Serialization.StreamingContext));
+					r_OnDeserialized_StreamingContext.SetBelong(this.instance);
 				}
-				return r_ROnDeserialized_StreamingContext;
+				return r_OnDeserialized_StreamingContext;
 			}
 		}
 
 		/// <summary>
 		/// Void VerifyDecimalSeparator(System.String, System.String)
 		/// </summary>
-		protected static RMethod r_RVerifyDecimalSeparator_String_String;
+		protected static RMethod r_VerifyDecimalSeparator_String_String;
 		public static RMethod RVerifyDecimalSeparator_String_String
 		{
 			get
 			{
-				if(r_RVerifyDecimalSeparator_String_String == null)
+				if(r_VerifyDecimalSeparator_String_String == null)
 				{
-					r_RVerifyDecimalSeparator_String_String = new(typeof(System.Globalization.NumberFormatInfo), "VerifyDecimalSeparator", 0, typeof(System.String), typeof(System.String));
-					r_RVerifyDecimalSeparator_String_String.SetBelong(null);
+					r_VerifyDecimalSeparator_String_String = new(typeof(System.Globalization.NumberFormatInfo), "VerifyDecimalSeparator", 0, typeof(System.String), typeof(System.String));
+					r_VerifyDecimalSeparator_String_String.SetBelong(null);
 				}
-				return r_RVerifyDecimalSeparator_String_String;
+				return r_VerifyDecimalSeparator_String_String;
 			}
 		}
 
 		/// <summary>
 		/// Void VerifyGroupSeparator(System.String, System.String)
 		/// </summary>
-		protected static RMethod r_RVerifyGroupSeparator_String_String;
+		protected static RMethod r_VerifyGroupSeparator_String_String;
 		public static RMethod RVerifyGroupSeparator_String_String
 		{
 			get
 			{
-				if(r_RVerifyGroupSeparator_String_String == null)
+				if(r_VerifyGroupSeparator_String_String == null)
 				{
-					r_RVerifyGroupSeparator_String_String = new(typeof(System.Globalization.NumberFormatInfo), "VerifyGroupSeparator", 0, typeof(System.String), typeof(System.String));
-					r_RVerifyGroupSeparator_String_String.SetBelong(null);
+					r_VerifyGroupSeparator_String_String = new(typeof(System.Globalization.NumberFormatInfo), "VerifyGroupSeparator", 0, typeof(System.String), typeof(System.String));
+					r_VerifyGroupSeparator_String_String.SetBelong(null);
 				}
-				return r_RVerifyGroupSeparator_String_String;
+				return r_VerifyGroupSeparator_String_String;
 			}
 		}
 
 		/// <summary>
 		/// Void VerifyNativeDigits(System.String[], System.String)
 		/// </summary>
-		protected static RMethod r_RVerifyNativeDigits_StringArray_String;
+		protected static RMethod r_VerifyNativeDigits_StringArray_String;
 		public static RMethod RVerifyNativeDigits_StringArray_String
 		{
 			get
 			{
-				if(r_RVerifyNativeDigits_StringArray_String == null)
+				if(r_VerifyNativeDigits_StringArray_String == null)
 				{
-					r_RVerifyNativeDigits_StringArray_String = new(typeof(System.Globalization.NumberFormatInfo), "VerifyNativeDigits", 0, typeof(System.String).MakeArrayType(), typeof(System.String));
-					r_RVerifyNativeDigits_StringArray_String.SetBelong(null);
+					r_VerifyNativeDigits_StringArray_String = new(typeof(System.Globalization.NumberFormatInfo), "VerifyNativeDigits", 0, typeof(System.String).MakeArrayType(), typeof(System.String));
+					r_VerifyNativeDigits_StringArray_String.SetBelong(null);
 				}
-				return r_RVerifyNativeDigits_StringArray_String;
+				return r_VerifyNativeDigits_StringArray_String;
 			}
 		}
 
 		/// <summary>
 		/// Void VerifyDigitSubstitution(System.Globalization.DigitShapes, System.String)
 		/// </summary>
-		protected static RMethod r_RVerifyDigitSubstitution_DigitShapes_String;
+		protected static RMethod r_VerifyDigitSubstitution_DigitShapes_String;
 		public static RMethod RVerifyDigitSubstitution_DigitShapes_String
 		{
 			get
 			{
-				if(r_RVerifyDigitSubstitution_DigitShapes_String == null)
+				if(r_VerifyDigitSubstitution_DigitShapes_String == null)
 				{
-					r_RVerifyDigitSubstitution_DigitShapes_String = new(typeof(System.Globalization.NumberFormatInfo), "VerifyDigitSubstitution", 0, typeof(System.Globalization.DigitShapes), typeof(System.String));
-					r_RVerifyDigitSubstitution_DigitShapes_String.SetBelong(null);
+					r_VerifyDigitSubstitution_DigitShapes_String = new(typeof(System.Globalization.NumberFormatInfo), "VerifyDigitSubstitution", 0, typeof(System.Globalization.DigitShapes), typeof(System.String));
+					r_VerifyDigitSubstitution_DigitShapes_String.SetBelong(null);
 				}
-				return r_RVerifyDigitSubstitution_DigitShapes_String;
+				return r_VerifyDigitSubstitution_DigitShapes_String;
 			}
 		}
 
 		/// <summary>
 		/// Void VerifyWritable()
 		/// </summary>
-		protected RMethod r_RVerifyWritable;
+		protected RMethod r_VerifyWritable;
 		public virtual RMethod RVerifyWritable
 		{
 			get
 			{
-				if(r_RVerifyWritable == null)
+				if(r_VerifyWritable == null)
 				{
-					r_RVerifyWritable = new(this, "VerifyWritable", 0);
-					r_RVerifyWritable.SetBelong(this.instance);
+					r_VerifyWritable = new(this, "VerifyWritable", 0);
+					r_VerifyWritable.SetBelong(this.instance);
 				}
-				return r_RVerifyWritable;
+				return r_VerifyWritable;
 			}
 		}
 
 		/// <summary>
 		/// System.Globalization.NumberFormatInfo GetInstance(System.IFormatProvider)
 		/// </summary>
-		protected static RMethod r_RGetInstance_IFormatProvider;
+		protected static RMethod r_GetInstance_IFormatProvider;
 		public static RMethod RGetInstance_IFormatProvider
 		{
 			get
 			{
-				if(r_RGetInstance_IFormatProvider == null)
+				if(r_GetInstance_IFormatProvider == null)
 				{
-					r_RGetInstance_IFormatProvider = new(typeof(System.Globalization.NumberFormatInfo), "GetInstance", 0, typeof(System.IFormatProvider));
-					r_RGetInstance_IFormatProvider.SetBelong(null);
+					r_GetInstance_IFormatProvider = new(typeof(System.Globalization.NumberFormatInfo), "GetInstance", 0, typeof(System.IFormatProvider));
+					r_GetInstance_IFormatProvider.SetBelong(null);
 				}
-				return r_RGetInstance_IFormatProvider;
+				return r_GetInstance_IFormatProvider;
 			}
 		}
 
 		/// <summary>
 		/// System.Object Clone()
 		/// </summary>
-		protected RMethod r_RClone;
+		protected RMethod r_Clone;
 		public virtual RMethod RClone
 		{
 			get
 			{
-				if(r_RClone == null)
+				if(r_Clone == null)
 				{
-					r_RClone = new(this, "Clone", 0);
-					r_RClone.SetBelong(this.instance);
+					r_Clone = new(this, "Clone", 0);
+					r_Clone.SetBelong(this.instance);
 				}
-				return r_RClone;
+				return r_Clone;
 			}
 		}
 
 		/// <summary>
 		/// Void CheckGroupSize(System.String, Int32[])
 		/// </summary>
-		protected static RMethod r_RCheckGroupSize_String_Int32Array;
+		protected static RMethod r_CheckGroupSize_String_Int32Array;
 		public static RMethod RCheckGroupSize_String_Int32Array
 		{
 			get
 			{
-				if(r_RCheckGroupSize_String_Int32Array == null)
+				if(r_CheckGroupSize_String_Int32Array == null)
 				{
-					r_RCheckGroupSize_String_Int32Array = new(typeof(System.Globalization.NumberFormatInfo), "CheckGroupSize", 0, typeof(System.String), typeof(System.Int32).MakeArrayType());
-					r_RCheckGroupSize_String_Int32Array.SetBelong(null);
+					r_CheckGroupSize_String_Int32Array = new(typeof(System.Globalization.NumberFormatInfo), "CheckGroupSize", 0, typeof(System.String), typeof(System.Int32).MakeArrayType());
+					r_CheckGroupSize_String_Int32Array.SetBelong(null);
 				}
-				return r_RCheckGroupSize_String_Int32Array;
+				return r_CheckGroupSize_String_Int32Array;
 			}
 		}
 
 		/// <summary>
 		/// System.Object GetFormat(System.Type)
 		/// </summary>
-		protected RMethod r_RGetFormat_Type;
+		protected RMethod r_GetFormat_Type;
 		public virtual RMethod RGetFormat_Type
 		{
 			get
 			{
-				if(r_RGetFormat_Type == null)
+				if(r_GetFormat_Type == null)
 				{
-					r_RGetFormat_Type = new(this, "GetFormat", 0, typeof(System.Type));
-					r_RGetFormat_Type.SetBelong(this.instance);
+					r_GetFormat_Type = new(this, "GetFormat", 0, typeof(System.Type));
+					r_GetFormat_Type.SetBelong(this.instance);
 				}
-				return r_RGetFormat_Type;
+				return r_GetFormat_Type;
 			}
 		}
 
 		/// <summary>
 		/// System.Globalization.NumberFormatInfo ReadOnly(System.Globalization.NumberFormatInfo)
 		/// </summary>
-		protected static RMethod r_RReadOnly_NumberFormatInfo;
+		protected static RMethod r_ReadOnly_NumberFormatInfo;
 		public static RMethod RReadOnly_NumberFormatInfo
 		{
 			get
 			{
-				if(r_RReadOnly_NumberFormatInfo == null)
+				if(r_ReadOnly_NumberFormatInfo == null)
 				{
-					r_RReadOnly_NumberFormatInfo = new(typeof(System.Globalization.NumberFormatInfo), "ReadOnly", 0, typeof(System.Globalization.NumberFormatInfo));
-					r_RReadOnly_NumberFormatInfo.SetBelong(null);
+					r_ReadOnly_NumberFormatInfo = new(typeof(System.Globalization.NumberFormatInfo), "ReadOnly", 0, typeof(System.Globalization.NumberFormatInfo));
+					r_ReadOnly_NumberFormatInfo.SetBelong(null);
 				}
-				return r_RReadOnly_NumberFormatInfo;
+				return r_ReadOnly_NumberFormatInfo;
 			}
 		}
 
 		/// <summary>
 		/// Void ValidateParseStyleInteger(System.Globalization.NumberStyles)
 		/// </summary>
-		protected static RMethod r_RValidateParseStyleInteger_NumberStyles;
+		protected static RMethod r_ValidateParseStyleInteger_NumberStyles;
 		public static RMethod RValidateParseStyleInteger_NumberStyles
 		{
 			get
 			{
-				if(r_RValidateParseStyleInteger_NumberStyles == null)
+				if(r_ValidateParseStyleInteger_NumberStyles == null)
 				{
-					r_RValidateParseStyleInteger_NumberStyles = new(typeof(System.Globalization.NumberFormatInfo), "ValidateParseStyleInteger", 0, typeof(System.Globalization.NumberStyles));
-					r_RValidateParseStyleInteger_NumberStyles.SetBelong(null);
+					r_ValidateParseStyleInteger_NumberStyles = new(typeof(System.Globalization.NumberFormatInfo), "ValidateParseStyleInteger", 0, typeof(System.Globalization.NumberStyles));
+					r_ValidateParseStyleInteger_NumberStyles.SetBelong(null);
 				}
-				return r_RValidateParseStyleInteger_NumberStyles;
+				return r_ValidateParseStyleInteger_NumberStyles;
 			}
 		}
 
 		/// <summary>
 		/// Void ValidateParseStyleFloatingPoint(System.Globalization.NumberStyles)
 		/// </summary>
-		protected static RMethod r_RValidateParseStyleFloatingPoint_NumberStyles;
+		protected static RMethod r_ValidateParseStyleFloatingPoint_NumberStyles;
 		public static RMethod RValidateParseStyleFloatingPoint_NumberStyles
 		{
 			get
 			{
-				if(r_RValidateParseStyleFloatingPoint_NumberStyles == null)
+				if(r_ValidateParseStyleFloatingPoint_NumberStyles == null)
 				{
-					r_RValidateParseStyleFloatingPoint_NumberStyles = new(typeof(System.Globalization.NumberFormatInfo), "ValidateParseStyleFloatingPoint", 0, typeof(System.Globalization.NumberStyles));
-					r_RValidateParseStyleFloatingPoint_NumberStyles.SetBelong(null);
+					r_ValidateParseStyleFloatingPoint_NumberStyles = new(typeof(System.Globalization.NumberFormatInfo), "ValidateParseStyleFloatingPoint", 0, typeof(System.Globalization.NumberStyles));
+					r_ValidateParseStyleFloatingPoint_NumberStyles.SetBelong(null);
 				}
-				return r_RValidateParseStyleFloatingPoint_NumberStyles;
+				return r_ValidateParseStyleFloatingPoint_NumberStyles;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Equals(System.Object)
 		/// </summary>
-		protected RMethod r_REquals_Object;
+		protected RMethod r_Equals_Object;
 		public virtual RMethod REquals_Object
 		{
 			get
 			{
-				if(r_REquals_Object == null)
+				if(r_Equals_Object == null)
 				{
-					r_REquals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_REquals_Object.SetBelong(this.instance);
+					r_Equals_Object = new(this, "Equals", 0, typeof(System.Object));
+					r_Equals_Object.SetBelong(this.instance);
 				}
-				return r_REquals_Object;
+				return r_Equals_Object;
 			}
 		}
 
 		/// <summary>
 		/// Void Finalize()
 		/// </summary>
-		protected RMethod r_RFinalize;
+		protected RMethod r_Finalize;
 		public virtual RMethod RFinalize
 		{
 			get
 			{
-				if(r_RFinalize == null)
+				if(r_Finalize == null)
 				{
-					r_RFinalize = new(this, "Finalize", 0);
-					r_RFinalize.SetBelong(this.instance);
+					r_Finalize = new(this, "Finalize", 0);
+					r_Finalize.SetBelong(this.instance);
 				}
-				return r_RFinalize;
+				return r_Finalize;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetHashCode()
 		/// </summary>
-		protected RMethod r_RGetHashCode;
+		protected RMethod r_GetHashCode;
 		public virtual RMethod RGetHashCode
 		{
 			get
 			{
-				if(r_RGetHashCode == null)
+				if(r_GetHashCode == null)
 				{
-					r_RGetHashCode = new(this, "GetHashCode", 0);
-					r_RGetHashCode.SetBelong(this.instance);
+					r_GetHashCode = new(this, "GetHashCode", 0);
+					r_GetHashCode.SetBelong(this.instance);
 				}
-				return r_RGetHashCode;
+				return r_GetHashCode;
 			}
 		}
 
 		/// <summary>
 		/// System.Type GetType()
 		/// </summary>
-		protected RMethod r_RGetType;
+		protected RMethod r_GetType;
 		public virtual RMethod RGetType
 		{
 			get
 			{
-				if(r_RGetType == null)
+				if(r_GetType == null)
 				{
-					r_RGetType = new(this, "GetType", 0);
-					r_RGetType.SetBelong(this.instance);
+					r_GetType = new(this, "GetType", 0);
+					r_GetType.SetBelong(this.instance);
 				}
-				return r_RGetType;
+				return r_GetType;
 			}
 		}
 
 		/// <summary>
 		/// System.Object MemberwiseClone()
 		/// </summary>
-		protected RMethod r_RMemberwiseClone;
+		protected RMethod r_MemberwiseClone;
 		public virtual RMethod RMemberwiseClone
 		{
 			get
 			{
-				if(r_RMemberwiseClone == null)
+				if(r_MemberwiseClone == null)
 				{
-					r_RMemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_RMemberwiseClone.SetBelong(this.instance);
+					r_MemberwiseClone = new(this, "MemberwiseClone", 0);
+					r_MemberwiseClone.SetBelong(this.instance);
 				}
-				return r_RMemberwiseClone;
+				return r_MemberwiseClone;
 			}
 		}
 
 		/// <summary>
 		/// System.String ToString()
 		/// </summary>
-		protected RMethod r_RToString;
+		protected RMethod r_ToString;
 		public virtual RMethod RToString
 		{
 			get
 			{
-				if(r_RToString == null)
+				if(r_ToString == null)
 				{
-					r_RToString = new(this, "ToString", 0);
-					r_RToString.SetBelong(this.instance);
+					r_ToString = new(this, "ToString", 0);
+					r_ToString.SetBelong(this.instance);
 				}
-				return r_RToString;
+				return r_ToString;
 			}
 		}
 

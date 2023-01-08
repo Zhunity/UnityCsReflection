@@ -81,306 +81,306 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.LocalKeyword[] GetKeywords()
 		/// </summary>
-		protected RMethod r_RGetKeywords;
+		protected RMethod r_GetKeywords;
 		public virtual RMethod RGetKeywords
 		{
 			get
 			{
-				if(r_RGetKeywords == null)
+				if(r_GetKeywords == null)
 				{
-					r_RGetKeywords = new(this, "GetKeywords", 0);
-					r_RGetKeywords.SetBelong(this.instance);
+					r_GetKeywords = new(this, "GetKeywords", 0);
+					r_GetKeywords.SetBelong(this.instance);
 				}
-				return r_RGetKeywords;
+				return r_GetKeywords;
 			}
 		}
 
 		/// <summary>
 		/// System.String[] GetKeywordNames()
 		/// </summary>
-		protected RMethod r_RGetKeywordNames;
+		protected RMethod r_GetKeywordNames;
 		public virtual RMethod RGetKeywordNames
 		{
 			get
 			{
-				if(r_RGetKeywordNames == null)
+				if(r_GetKeywordNames == null)
 				{
-					r_RGetKeywordNames = new(this, "GetKeywordNames", 0);
-					r_RGetKeywordNames.SetBelong(this.instance);
+					r_GetKeywordNames = new(this, "GetKeywordNames", 0);
+					r_GetKeywordNames.SetBelong(this.instance);
 				}
-				return r_RGetKeywordNames;
+				return r_GetKeywordNames;
 			}
 		}
 
 		/// <summary>
 		/// UInt32 GetKeywordCount()
 		/// </summary>
-		protected RMethod r_RGetKeywordCount;
+		protected RMethod r_GetKeywordCount;
 		public virtual RMethod RGetKeywordCount
 		{
 			get
 			{
-				if(r_RGetKeywordCount == null)
+				if(r_GetKeywordCount == null)
 				{
-					r_RGetKeywordCount = new(this, "GetKeywordCount", 0);
-					r_RGetKeywordCount.SetBelong(this.instance);
+					r_GetKeywordCount = new(this, "GetKeywordCount", 0);
+					r_GetKeywordCount.SetBelong(this.instance);
 				}
-				return r_RGetKeywordCount;
+				return r_GetKeywordCount;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Rendering.LocalKeyword GetKeyword(System.String)
 		/// </summary>
-		protected RMethod r_RGetKeyword_String;
+		protected RMethod r_GetKeyword_String;
 		public virtual RMethod RGetKeyword_String
 		{
 			get
 			{
-				if(r_RGetKeyword_String == null)
+				if(r_GetKeyword_String == null)
 				{
-					r_RGetKeyword_String = new(this, "GetKeyword", 0, typeof(System.String));
-					r_RGetKeyword_String.SetBelong(this.instance);
+					r_GetKeyword_String = new(this, "GetKeyword", 0, typeof(System.String));
+					r_GetKeyword_String.SetBelong(this.instance);
 				}
-				return r_RGetKeyword_String;
+				return r_GetKeyword_String;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Rendering.LocalKeyword FindKeyword(System.String)
 		/// </summary>
-		protected RMethod r_RFindKeyword_String;
+		protected RMethod r_FindKeyword_String;
 		public virtual RMethod RFindKeyword_String
 		{
 			get
 			{
-				if(r_RFindKeyword_String == null)
+				if(r_FindKeyword_String == null)
 				{
-					r_RFindKeyword_String = new(this, "FindKeyword", 0, typeof(System.String));
-					r_RFindKeyword_String.SetBelong(this.instance);
+					r_FindKeyword_String = new(this, "FindKeyword", 0, typeof(System.String));
+					r_FindKeyword_String.SetBelong(this.instance);
 				}
-				return r_RFindKeyword_String;
+				return r_FindKeyword_String;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Equals(System.Object)
 		/// </summary>
-		protected RMethod r_REquals_Object;
+		protected RMethod r_Equals_Object;
 		public virtual RMethod REquals_Object
 		{
 			get
 			{
-				if(r_REquals_Object == null)
+				if(r_Equals_Object == null)
 				{
-					r_REquals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_REquals_Object.SetBelong(this.instance);
+					r_Equals_Object = new(this, "Equals", 0, typeof(System.Object));
+					r_Equals_Object.SetBelong(this.instance);
 				}
-				return r_REquals_Object;
+				return r_Equals_Object;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Equals(UnityEngine.Rendering.LocalKeywordSpace)
 		/// </summary>
-		protected RMethod r_REquals_LocalKeywordSpace;
+		protected RMethod r_Equals_LocalKeywordSpace;
 		public virtual RMethod REquals_LocalKeywordSpace
 		{
 			get
 			{
-				if(r_REquals_LocalKeywordSpace == null)
+				if(r_Equals_LocalKeywordSpace == null)
 				{
-					r_REquals_LocalKeywordSpace = new(this, "Equals", 0, typeof(UnityEngine.Rendering.LocalKeywordSpace));
-					r_REquals_LocalKeywordSpace.SetBelong(this.instance);
+					r_Equals_LocalKeywordSpace = new(this, "Equals", 0, typeof(UnityEngine.Rendering.LocalKeywordSpace));
+					r_Equals_LocalKeywordSpace.SetBelong(this.instance);
 				}
-				return r_REquals_LocalKeywordSpace;
+				return r_Equals_LocalKeywordSpace;
 			}
 		}
 
 		/// <summary>
 		/// Boolean op_Equality(UnityEngine.Rendering.LocalKeywordSpace, UnityEngine.Rendering.LocalKeywordSpace)
 		/// </summary>
-		protected static RMethod r_Rop_Equality_LocalKeywordSpace_LocalKeywordSpace;
+		protected static RMethod r_op_Equality_LocalKeywordSpace_LocalKeywordSpace;
 		public static RMethod Rop_Equality_LocalKeywordSpace_LocalKeywordSpace
 		{
 			get
 			{
-				if(r_Rop_Equality_LocalKeywordSpace_LocalKeywordSpace == null)
+				if(r_op_Equality_LocalKeywordSpace_LocalKeywordSpace == null)
 				{
-					r_Rop_Equality_LocalKeywordSpace_LocalKeywordSpace = new(typeof(UnityEngine.Rendering.LocalKeywordSpace), "op_Equality", 0, typeof(UnityEngine.Rendering.LocalKeywordSpace), typeof(UnityEngine.Rendering.LocalKeywordSpace));
-					r_Rop_Equality_LocalKeywordSpace_LocalKeywordSpace.SetBelong(null);
+					r_op_Equality_LocalKeywordSpace_LocalKeywordSpace = new(typeof(UnityEngine.Rendering.LocalKeywordSpace), "op_Equality", 0, typeof(UnityEngine.Rendering.LocalKeywordSpace), typeof(UnityEngine.Rendering.LocalKeywordSpace));
+					r_op_Equality_LocalKeywordSpace_LocalKeywordSpace.SetBelong(null);
 				}
-				return r_Rop_Equality_LocalKeywordSpace_LocalKeywordSpace;
+				return r_op_Equality_LocalKeywordSpace_LocalKeywordSpace;
 			}
 		}
 
 		/// <summary>
 		/// Boolean op_Inequality(UnityEngine.Rendering.LocalKeywordSpace, UnityEngine.Rendering.LocalKeywordSpace)
 		/// </summary>
-		protected static RMethod r_Rop_Inequality_LocalKeywordSpace_LocalKeywordSpace;
+		protected static RMethod r_op_Inequality_LocalKeywordSpace_LocalKeywordSpace;
 		public static RMethod Rop_Inequality_LocalKeywordSpace_LocalKeywordSpace
 		{
 			get
 			{
-				if(r_Rop_Inequality_LocalKeywordSpace_LocalKeywordSpace == null)
+				if(r_op_Inequality_LocalKeywordSpace_LocalKeywordSpace == null)
 				{
-					r_Rop_Inequality_LocalKeywordSpace_LocalKeywordSpace = new(typeof(UnityEngine.Rendering.LocalKeywordSpace), "op_Inequality", 0, typeof(UnityEngine.Rendering.LocalKeywordSpace), typeof(UnityEngine.Rendering.LocalKeywordSpace));
-					r_Rop_Inequality_LocalKeywordSpace_LocalKeywordSpace.SetBelong(null);
+					r_op_Inequality_LocalKeywordSpace_LocalKeywordSpace = new(typeof(UnityEngine.Rendering.LocalKeywordSpace), "op_Inequality", 0, typeof(UnityEngine.Rendering.LocalKeywordSpace), typeof(UnityEngine.Rendering.LocalKeywordSpace));
+					r_op_Inequality_LocalKeywordSpace_LocalKeywordSpace.SetBelong(null);
 				}
-				return r_Rop_Inequality_LocalKeywordSpace_LocalKeywordSpace;
+				return r_op_Inequality_LocalKeywordSpace_LocalKeywordSpace;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetHashCode()
 		/// </summary>
-		protected RMethod r_RGetHashCode;
+		protected RMethod r_GetHashCode;
 		public virtual RMethod RGetHashCode
 		{
 			get
 			{
-				if(r_RGetHashCode == null)
+				if(r_GetHashCode == null)
 				{
-					r_RGetHashCode = new(this, "GetHashCode", 0);
-					r_RGetHashCode.SetBelong(this.instance);
+					r_GetHashCode = new(this, "GetHashCode", 0);
+					r_GetHashCode.SetBelong(this.instance);
 				}
-				return r_RGetHashCode;
+				return r_GetHashCode;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Rendering.LocalKeyword[] GetKeywords_Injected(UnityEngine.Rendering.LocalKeywordSpace ByRef)
 		/// </summary>
-		protected static RMethod r_RGetKeywords_Injected_Ref_LocalKeywordSpace;
+		protected static RMethod r_GetKeywords_Injected_Ref_LocalKeywordSpace;
 		public static RMethod RGetKeywords_Injected_Ref_LocalKeywordSpace
 		{
 			get
 			{
-				if(r_RGetKeywords_Injected_Ref_LocalKeywordSpace == null)
+				if(r_GetKeywords_Injected_Ref_LocalKeywordSpace == null)
 				{
-					r_RGetKeywords_Injected_Ref_LocalKeywordSpace = new(typeof(UnityEngine.Rendering.LocalKeywordSpace), "GetKeywords_Injected", 0, typeof(UnityEngine.Rendering.LocalKeywordSpace).MakeByRefType());
-					r_RGetKeywords_Injected_Ref_LocalKeywordSpace.SetBelong(null);
+					r_GetKeywords_Injected_Ref_LocalKeywordSpace = new(typeof(UnityEngine.Rendering.LocalKeywordSpace), "GetKeywords_Injected", 0, typeof(UnityEngine.Rendering.LocalKeywordSpace).MakeByRefType());
+					r_GetKeywords_Injected_Ref_LocalKeywordSpace.SetBelong(null);
 				}
-				return r_RGetKeywords_Injected_Ref_LocalKeywordSpace;
+				return r_GetKeywords_Injected_Ref_LocalKeywordSpace;
 			}
 		}
 
 		/// <summary>
 		/// System.String[] GetKeywordNames_Injected(UnityEngine.Rendering.LocalKeywordSpace ByRef)
 		/// </summary>
-		protected static RMethod r_RGetKeywordNames_Injected_Ref_LocalKeywordSpace;
+		protected static RMethod r_GetKeywordNames_Injected_Ref_LocalKeywordSpace;
 		public static RMethod RGetKeywordNames_Injected_Ref_LocalKeywordSpace
 		{
 			get
 			{
-				if(r_RGetKeywordNames_Injected_Ref_LocalKeywordSpace == null)
+				if(r_GetKeywordNames_Injected_Ref_LocalKeywordSpace == null)
 				{
-					r_RGetKeywordNames_Injected_Ref_LocalKeywordSpace = new(typeof(UnityEngine.Rendering.LocalKeywordSpace), "GetKeywordNames_Injected", 0, typeof(UnityEngine.Rendering.LocalKeywordSpace).MakeByRefType());
-					r_RGetKeywordNames_Injected_Ref_LocalKeywordSpace.SetBelong(null);
+					r_GetKeywordNames_Injected_Ref_LocalKeywordSpace = new(typeof(UnityEngine.Rendering.LocalKeywordSpace), "GetKeywordNames_Injected", 0, typeof(UnityEngine.Rendering.LocalKeywordSpace).MakeByRefType());
+					r_GetKeywordNames_Injected_Ref_LocalKeywordSpace.SetBelong(null);
 				}
-				return r_RGetKeywordNames_Injected_Ref_LocalKeywordSpace;
+				return r_GetKeywordNames_Injected_Ref_LocalKeywordSpace;
 			}
 		}
 
 		/// <summary>
 		/// UInt32 GetKeywordCount_Injected(UnityEngine.Rendering.LocalKeywordSpace ByRef)
 		/// </summary>
-		protected static RMethod r_RGetKeywordCount_Injected_Ref_LocalKeywordSpace;
+		protected static RMethod r_GetKeywordCount_Injected_Ref_LocalKeywordSpace;
 		public static RMethod RGetKeywordCount_Injected_Ref_LocalKeywordSpace
 		{
 			get
 			{
-				if(r_RGetKeywordCount_Injected_Ref_LocalKeywordSpace == null)
+				if(r_GetKeywordCount_Injected_Ref_LocalKeywordSpace == null)
 				{
-					r_RGetKeywordCount_Injected_Ref_LocalKeywordSpace = new(typeof(UnityEngine.Rendering.LocalKeywordSpace), "GetKeywordCount_Injected", 0, typeof(UnityEngine.Rendering.LocalKeywordSpace).MakeByRefType());
-					r_RGetKeywordCount_Injected_Ref_LocalKeywordSpace.SetBelong(null);
+					r_GetKeywordCount_Injected_Ref_LocalKeywordSpace = new(typeof(UnityEngine.Rendering.LocalKeywordSpace), "GetKeywordCount_Injected", 0, typeof(UnityEngine.Rendering.LocalKeywordSpace).MakeByRefType());
+					r_GetKeywordCount_Injected_Ref_LocalKeywordSpace.SetBelong(null);
 				}
-				return r_RGetKeywordCount_Injected_Ref_LocalKeywordSpace;
+				return r_GetKeywordCount_Injected_Ref_LocalKeywordSpace;
 			}
 		}
 
 		/// <summary>
 		/// Void GetKeyword_Injected(UnityEngine.Rendering.LocalKeywordSpace ByRef, System.String, UnityEngine.Rendering.LocalKeyword ByRef)
 		/// </summary>
-		protected static RMethod r_RGetKeyword_Injected_Ref_LocalKeywordSpace_String_Out_LocalKeyword;
+		protected static RMethod r_GetKeyword_Injected_Ref_LocalKeywordSpace_String_Out_LocalKeyword;
 		public static RMethod RGetKeyword_Injected_Ref_LocalKeywordSpace_String_Out_LocalKeyword
 		{
 			get
 			{
-				if(r_RGetKeyword_Injected_Ref_LocalKeywordSpace_String_Out_LocalKeyword == null)
+				if(r_GetKeyword_Injected_Ref_LocalKeywordSpace_String_Out_LocalKeyword == null)
 				{
-					r_RGetKeyword_Injected_Ref_LocalKeywordSpace_String_Out_LocalKeyword = new(typeof(UnityEngine.Rendering.LocalKeywordSpace), "GetKeyword_Injected", 0, typeof(UnityEngine.Rendering.LocalKeywordSpace).MakeByRefType(), typeof(System.String), typeof(UnityEngine.Rendering.LocalKeyword).MakeByRefType());
-					r_RGetKeyword_Injected_Ref_LocalKeywordSpace_String_Out_LocalKeyword.SetBelong(null);
+					r_GetKeyword_Injected_Ref_LocalKeywordSpace_String_Out_LocalKeyword = new(typeof(UnityEngine.Rendering.LocalKeywordSpace), "GetKeyword_Injected", 0, typeof(UnityEngine.Rendering.LocalKeywordSpace).MakeByRefType(), typeof(System.String), typeof(UnityEngine.Rendering.LocalKeyword).MakeByRefType());
+					r_GetKeyword_Injected_Ref_LocalKeywordSpace_String_Out_LocalKeyword.SetBelong(null);
 				}
-				return r_RGetKeyword_Injected_Ref_LocalKeywordSpace_String_Out_LocalKeyword;
+				return r_GetKeyword_Injected_Ref_LocalKeywordSpace_String_Out_LocalKeyword;
 			}
 		}
 
 		/// <summary>
 		/// System.String ToString()
 		/// </summary>
-		protected RMethod r_RToString;
+		protected RMethod r_ToString;
 		public virtual RMethod RToString
 		{
 			get
 			{
-				if(r_RToString == null)
+				if(r_ToString == null)
 				{
-					r_RToString = new(this, "ToString", 0);
-					r_RToString.SetBelong(this.instance);
+					r_ToString = new(this, "ToString", 0);
+					r_ToString.SetBelong(this.instance);
 				}
-				return r_RToString;
+				return r_ToString;
 			}
 		}
 
 		/// <summary>
 		/// Void Finalize()
 		/// </summary>
-		protected RMethod r_RFinalize;
+		protected RMethod r_Finalize;
 		public virtual RMethod RFinalize
 		{
 			get
 			{
-				if(r_RFinalize == null)
+				if(r_Finalize == null)
 				{
-					r_RFinalize = new(this, "Finalize", 0);
-					r_RFinalize.SetBelong(this.instance);
+					r_Finalize = new(this, "Finalize", 0);
+					r_Finalize.SetBelong(this.instance);
 				}
-				return r_RFinalize;
+				return r_Finalize;
 			}
 		}
 
 		/// <summary>
 		/// System.Type GetType()
 		/// </summary>
-		protected RMethod r_RGetType;
+		protected RMethod r_GetType;
 		public virtual RMethod RGetType
 		{
 			get
 			{
-				if(r_RGetType == null)
+				if(r_GetType == null)
 				{
-					r_RGetType = new(this, "GetType", 0);
-					r_RGetType.SetBelong(this.instance);
+					r_GetType = new(this, "GetType", 0);
+					r_GetType.SetBelong(this.instance);
 				}
-				return r_RGetType;
+				return r_GetType;
 			}
 		}
 
 		/// <summary>
 		/// System.Object MemberwiseClone()
 		/// </summary>
-		protected RMethod r_RMemberwiseClone;
+		protected RMethod r_MemberwiseClone;
 		public virtual RMethod RMemberwiseClone
 		{
 			get
 			{
-				if(r_RMemberwiseClone == null)
+				if(r_MemberwiseClone == null)
 				{
-					r_RMemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_RMemberwiseClone.SetBelong(this.instance);
+					r_MemberwiseClone = new(this, "MemberwiseClone", 0);
+					r_MemberwiseClone.SetBelong(this.instance);
 				}
-				return r_RMemberwiseClone;
+				return r_MemberwiseClone;
 			}
 		}
 

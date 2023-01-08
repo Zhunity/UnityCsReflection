@@ -166,187 +166,187 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Void Load()
 		/// </summary>
-		protected RMethod r_RLoad;
+		protected RMethod r_Load;
 		public virtual RMethod RLoad
 		{
 			get
 			{
-				if(r_RLoad == null)
+				if(r_Load == null)
 				{
-					r_RLoad = new(this, "Load", 0);
-					r_RLoad.SetBelong(this.instance);
+					r_Load = new(this, "Load", 0);
+					r_Load.SetBelong(this.instance);
 				}
-				return r_RLoad;
+				return r_Load;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Color op_Implicit(UnityEditor.PrefColor)
 		/// </summary>
-		protected static RMethod r_Rop_Implicit_PrefColor;
+		protected static RMethod r_op_Implicit_PrefColor;
 		public static RMethod Rop_Implicit_PrefColor
 		{
 			get
 			{
-				if(r_Rop_Implicit_PrefColor == null)
+				if(r_op_Implicit_PrefColor == null)
 				{
-					r_Rop_Implicit_PrefColor = new( ReleactionUtils.GetType("UnityEditor.PrefColor"), "op_Implicit", 0,  ReleactionUtils.GetType("UnityEditor.PrefColor"));
-					r_Rop_Implicit_PrefColor.SetBelong(null);
+					r_op_Implicit_PrefColor = new( ReleactionUtils.GetType("UnityEditor.PrefColor"), "op_Implicit", 0,  ReleactionUtils.GetType("UnityEditor.PrefColor"));
+					r_op_Implicit_PrefColor.SetBelong(null);
 				}
-				return r_Rop_Implicit_PrefColor;
+				return r_op_Implicit_PrefColor;
 			}
 		}
 
 		/// <summary>
 		/// System.String ToUniqueString()
 		/// </summary>
-		protected RMethod r_RToUniqueString;
+		protected RMethod r_ToUniqueString;
 		public virtual RMethod RToUniqueString
 		{
 			get
 			{
-				if(r_RToUniqueString == null)
+				if(r_ToUniqueString == null)
 				{
-					r_RToUniqueString = new(this, "ToUniqueString", 0);
-					r_RToUniqueString.SetBelong(this.instance);
+					r_ToUniqueString = new(this, "ToUniqueString", 0);
+					r_ToUniqueString.SetBelong(this.instance);
 				}
-				return r_RToUniqueString;
+				return r_ToUniqueString;
 			}
 		}
 
 		/// <summary>
 		/// Void FromUniqueString(System.String)
 		/// </summary>
-		protected RMethod r_RFromUniqueString_String;
+		protected RMethod r_FromUniqueString_String;
 		public virtual RMethod RFromUniqueString_String
 		{
 			get
 			{
-				if(r_RFromUniqueString_String == null)
+				if(r_FromUniqueString_String == null)
 				{
-					r_RFromUniqueString_String = new(this, "FromUniqueString", 0, typeof(System.String));
-					r_RFromUniqueString_String.SetBelong(this.instance);
+					r_FromUniqueString_String = new(this, "FromUniqueString", 0, typeof(System.String));
+					r_FromUniqueString_String.SetBelong(this.instance);
 				}
-				return r_RFromUniqueString_String;
+				return r_FromUniqueString_String;
 			}
 		}
 
 		/// <summary>
 		/// Void ResetToDefault()
 		/// </summary>
-		protected RMethod r_RResetToDefault;
+		protected RMethod r_ResetToDefault;
 		public virtual RMethod RResetToDefault
 		{
 			get
 			{
-				if(r_RResetToDefault == null)
+				if(r_ResetToDefault == null)
 				{
-					r_RResetToDefault = new(this, "ResetToDefault", 0);
-					r_RResetToDefault.SetBelong(this.instance);
+					r_ResetToDefault = new(this, "ResetToDefault", 0);
+					r_ResetToDefault.SetBelong(this.instance);
 				}
-				return r_RResetToDefault;
+				return r_ResetToDefault;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Equals(System.Object)
 		/// </summary>
-		protected RMethod r_REquals_Object;
+		protected RMethod r_Equals_Object;
 		public virtual RMethod REquals_Object
 		{
 			get
 			{
-				if(r_REquals_Object == null)
+				if(r_Equals_Object == null)
 				{
-					r_REquals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_REquals_Object.SetBelong(this.instance);
+					r_Equals_Object = new(this, "Equals", 0, typeof(System.Object));
+					r_Equals_Object.SetBelong(this.instance);
 				}
-				return r_REquals_Object;
+				return r_Equals_Object;
 			}
 		}
 
 		/// <summary>
 		/// Void Finalize()
 		/// </summary>
-		protected RMethod r_RFinalize;
+		protected RMethod r_Finalize;
 		public virtual RMethod RFinalize
 		{
 			get
 			{
-				if(r_RFinalize == null)
+				if(r_Finalize == null)
 				{
-					r_RFinalize = new(this, "Finalize", 0);
-					r_RFinalize.SetBelong(this.instance);
+					r_Finalize = new(this, "Finalize", 0);
+					r_Finalize.SetBelong(this.instance);
 				}
-				return r_RFinalize;
+				return r_Finalize;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetHashCode()
 		/// </summary>
-		protected RMethod r_RGetHashCode;
+		protected RMethod r_GetHashCode;
 		public virtual RMethod RGetHashCode
 		{
 			get
 			{
-				if(r_RGetHashCode == null)
+				if(r_GetHashCode == null)
 				{
-					r_RGetHashCode = new(this, "GetHashCode", 0);
-					r_RGetHashCode.SetBelong(this.instance);
+					r_GetHashCode = new(this, "GetHashCode", 0);
+					r_GetHashCode.SetBelong(this.instance);
 				}
-				return r_RGetHashCode;
+				return r_GetHashCode;
 			}
 		}
 
 		/// <summary>
 		/// System.Type GetType()
 		/// </summary>
-		protected RMethod r_RGetType;
+		protected RMethod r_GetType;
 		public virtual RMethod RGetType
 		{
 			get
 			{
-				if(r_RGetType == null)
+				if(r_GetType == null)
 				{
-					r_RGetType = new(this, "GetType", 0);
-					r_RGetType.SetBelong(this.instance);
+					r_GetType = new(this, "GetType", 0);
+					r_GetType.SetBelong(this.instance);
 				}
-				return r_RGetType;
+				return r_GetType;
 			}
 		}
 
 		/// <summary>
 		/// System.Object MemberwiseClone()
 		/// </summary>
-		protected RMethod r_RMemberwiseClone;
+		protected RMethod r_MemberwiseClone;
 		public virtual RMethod RMemberwiseClone
 		{
 			get
 			{
-				if(r_RMemberwiseClone == null)
+				if(r_MemberwiseClone == null)
 				{
-					r_RMemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_RMemberwiseClone.SetBelong(this.instance);
+					r_MemberwiseClone = new(this, "MemberwiseClone", 0);
+					r_MemberwiseClone.SetBelong(this.instance);
 				}
-				return r_RMemberwiseClone;
+				return r_MemberwiseClone;
 			}
 		}
 
 		/// <summary>
 		/// System.String ToString()
 		/// </summary>
-		protected RMethod r_RToString;
+		protected RMethod r_ToString;
 		public virtual RMethod RToString
 		{
 			get
 			{
-				if(r_RToString == null)
+				if(r_ToString == null)
 				{
-					r_RToString = new(this, "ToString", 0);
-					r_RToString.SetBelong(this.instance);
+					r_ToString = new(this, "ToString", 0);
+					r_ToString.SetBelong(this.instance);
 				}
-				return r_RToString;
+				return r_ToString;
 			}
 		}
 

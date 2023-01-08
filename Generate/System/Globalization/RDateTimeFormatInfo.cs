@@ -813,7 +813,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// System.String RoundtripFormat
 		/// </summary>
 		protected static RField r_RoundtripFormat;
-		public static RField RoundtripFormat
+		public static RField RRoundtripFormat
 		{
 			get
 			{
@@ -830,7 +830,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// System.String RoundtripDateTimeUnfixed
 		/// </summary>
 		protected static RField r_RoundtripDateTimeUnfixed;
-		public static RField RoundtripDateTimeUnfixed
+		public static RField RRoundtripDateTimeUnfixed
 		{
 			get
 			{
@@ -1731,7 +1731,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// System.String RFC1123Pattern
 		/// </summary>
 		protected RProperty r_RFC1123Pattern;
-		public virtual RProperty RFC1123Pattern
+		public virtual RProperty RRFC1123Pattern
 		{
 			get
 			{
@@ -2359,935 +2359,935 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String[] internalGetAbbreviatedDayOfWeekNames()
 		/// </summary>
-		protected RMethod r_RinternalGetAbbreviatedDayOfWeekNames;
+		protected RMethod r_internalGetAbbreviatedDayOfWeekNames;
 		public virtual RMethod RinternalGetAbbreviatedDayOfWeekNames
 		{
 			get
 			{
-				if(r_RinternalGetAbbreviatedDayOfWeekNames == null)
+				if(r_internalGetAbbreviatedDayOfWeekNames == null)
 				{
-					r_RinternalGetAbbreviatedDayOfWeekNames = new(this, "internalGetAbbreviatedDayOfWeekNames", 0);
-					r_RinternalGetAbbreviatedDayOfWeekNames.SetBelong(this.instance);
+					r_internalGetAbbreviatedDayOfWeekNames = new(this, "internalGetAbbreviatedDayOfWeekNames", 0);
+					r_internalGetAbbreviatedDayOfWeekNames.SetBelong(this.instance);
 				}
-				return r_RinternalGetAbbreviatedDayOfWeekNames;
+				return r_internalGetAbbreviatedDayOfWeekNames;
 			}
 		}
 
 		/// <summary>
 		/// System.String[] internalGetAbbreviatedDayOfWeekNamesCore()
 		/// </summary>
-		protected RMethod r_RinternalGetAbbreviatedDayOfWeekNamesCore;
+		protected RMethod r_internalGetAbbreviatedDayOfWeekNamesCore;
 		public virtual RMethod RinternalGetAbbreviatedDayOfWeekNamesCore
 		{
 			get
 			{
-				if(r_RinternalGetAbbreviatedDayOfWeekNamesCore == null)
+				if(r_internalGetAbbreviatedDayOfWeekNamesCore == null)
 				{
-					r_RinternalGetAbbreviatedDayOfWeekNamesCore = new(this, "internalGetAbbreviatedDayOfWeekNamesCore", 0);
-					r_RinternalGetAbbreviatedDayOfWeekNamesCore.SetBelong(this.instance);
+					r_internalGetAbbreviatedDayOfWeekNamesCore = new(this, "internalGetAbbreviatedDayOfWeekNamesCore", 0);
+					r_internalGetAbbreviatedDayOfWeekNamesCore.SetBelong(this.instance);
 				}
-				return r_RinternalGetAbbreviatedDayOfWeekNamesCore;
+				return r_internalGetAbbreviatedDayOfWeekNamesCore;
 			}
 		}
 
 		/// <summary>
 		/// System.String[] internalGetSuperShortDayNames()
 		/// </summary>
-		protected RMethod r_RinternalGetSuperShortDayNames;
+		protected RMethod r_internalGetSuperShortDayNames;
 		public virtual RMethod RinternalGetSuperShortDayNames
 		{
 			get
 			{
-				if(r_RinternalGetSuperShortDayNames == null)
+				if(r_internalGetSuperShortDayNames == null)
 				{
-					r_RinternalGetSuperShortDayNames = new(this, "internalGetSuperShortDayNames", 0);
-					r_RinternalGetSuperShortDayNames.SetBelong(this.instance);
+					r_internalGetSuperShortDayNames = new(this, "internalGetSuperShortDayNames", 0);
+					r_internalGetSuperShortDayNames.SetBelong(this.instance);
 				}
-				return r_RinternalGetSuperShortDayNames;
+				return r_internalGetSuperShortDayNames;
 			}
 		}
 
 		/// <summary>
 		/// System.String[] internalGetSuperShortDayNamesCore()
 		/// </summary>
-		protected RMethod r_RinternalGetSuperShortDayNamesCore;
+		protected RMethod r_internalGetSuperShortDayNamesCore;
 		public virtual RMethod RinternalGetSuperShortDayNamesCore
 		{
 			get
 			{
-				if(r_RinternalGetSuperShortDayNamesCore == null)
+				if(r_internalGetSuperShortDayNamesCore == null)
 				{
-					r_RinternalGetSuperShortDayNamesCore = new(this, "internalGetSuperShortDayNamesCore", 0);
-					r_RinternalGetSuperShortDayNamesCore.SetBelong(this.instance);
+					r_internalGetSuperShortDayNamesCore = new(this, "internalGetSuperShortDayNamesCore", 0);
+					r_internalGetSuperShortDayNamesCore.SetBelong(this.instance);
 				}
-				return r_RinternalGetSuperShortDayNamesCore;
+				return r_internalGetSuperShortDayNamesCore;
 			}
 		}
 
 		/// <summary>
 		/// System.String[] internalGetDayOfWeekNames()
 		/// </summary>
-		protected RMethod r_RinternalGetDayOfWeekNames;
+		protected RMethod r_internalGetDayOfWeekNames;
 		public virtual RMethod RinternalGetDayOfWeekNames
 		{
 			get
 			{
-				if(r_RinternalGetDayOfWeekNames == null)
+				if(r_internalGetDayOfWeekNames == null)
 				{
-					r_RinternalGetDayOfWeekNames = new(this, "internalGetDayOfWeekNames", 0);
-					r_RinternalGetDayOfWeekNames.SetBelong(this.instance);
+					r_internalGetDayOfWeekNames = new(this, "internalGetDayOfWeekNames", 0);
+					r_internalGetDayOfWeekNames.SetBelong(this.instance);
 				}
-				return r_RinternalGetDayOfWeekNames;
+				return r_internalGetDayOfWeekNames;
 			}
 		}
 
 		/// <summary>
 		/// System.String[] internalGetDayOfWeekNamesCore()
 		/// </summary>
-		protected RMethod r_RinternalGetDayOfWeekNamesCore;
+		protected RMethod r_internalGetDayOfWeekNamesCore;
 		public virtual RMethod RinternalGetDayOfWeekNamesCore
 		{
 			get
 			{
-				if(r_RinternalGetDayOfWeekNamesCore == null)
+				if(r_internalGetDayOfWeekNamesCore == null)
 				{
-					r_RinternalGetDayOfWeekNamesCore = new(this, "internalGetDayOfWeekNamesCore", 0);
-					r_RinternalGetDayOfWeekNamesCore.SetBelong(this.instance);
+					r_internalGetDayOfWeekNamesCore = new(this, "internalGetDayOfWeekNamesCore", 0);
+					r_internalGetDayOfWeekNamesCore.SetBelong(this.instance);
 				}
-				return r_RinternalGetDayOfWeekNamesCore;
+				return r_internalGetDayOfWeekNamesCore;
 			}
 		}
 
 		/// <summary>
 		/// System.String[] internalGetAbbreviatedMonthNames()
 		/// </summary>
-		protected RMethod r_RinternalGetAbbreviatedMonthNames;
+		protected RMethod r_internalGetAbbreviatedMonthNames;
 		public virtual RMethod RinternalGetAbbreviatedMonthNames
 		{
 			get
 			{
-				if(r_RinternalGetAbbreviatedMonthNames == null)
+				if(r_internalGetAbbreviatedMonthNames == null)
 				{
-					r_RinternalGetAbbreviatedMonthNames = new(this, "internalGetAbbreviatedMonthNames", 0);
-					r_RinternalGetAbbreviatedMonthNames.SetBelong(this.instance);
+					r_internalGetAbbreviatedMonthNames = new(this, "internalGetAbbreviatedMonthNames", 0);
+					r_internalGetAbbreviatedMonthNames.SetBelong(this.instance);
 				}
-				return r_RinternalGetAbbreviatedMonthNames;
+				return r_internalGetAbbreviatedMonthNames;
 			}
 		}
 
 		/// <summary>
 		/// System.String[] internalGetAbbreviatedMonthNamesCore()
 		/// </summary>
-		protected RMethod r_RinternalGetAbbreviatedMonthNamesCore;
+		protected RMethod r_internalGetAbbreviatedMonthNamesCore;
 		public virtual RMethod RinternalGetAbbreviatedMonthNamesCore
 		{
 			get
 			{
-				if(r_RinternalGetAbbreviatedMonthNamesCore == null)
+				if(r_internalGetAbbreviatedMonthNamesCore == null)
 				{
-					r_RinternalGetAbbreviatedMonthNamesCore = new(this, "internalGetAbbreviatedMonthNamesCore", 0);
-					r_RinternalGetAbbreviatedMonthNamesCore.SetBelong(this.instance);
+					r_internalGetAbbreviatedMonthNamesCore = new(this, "internalGetAbbreviatedMonthNamesCore", 0);
+					r_internalGetAbbreviatedMonthNamesCore.SetBelong(this.instance);
 				}
-				return r_RinternalGetAbbreviatedMonthNamesCore;
+				return r_internalGetAbbreviatedMonthNamesCore;
 			}
 		}
 
 		/// <summary>
 		/// System.String[] internalGetMonthNames()
 		/// </summary>
-		protected RMethod r_RinternalGetMonthNames;
+		protected RMethod r_internalGetMonthNames;
 		public virtual RMethod RinternalGetMonthNames
 		{
 			get
 			{
-				if(r_RinternalGetMonthNames == null)
+				if(r_internalGetMonthNames == null)
 				{
-					r_RinternalGetMonthNames = new(this, "internalGetMonthNames", 0);
-					r_RinternalGetMonthNames.SetBelong(this.instance);
+					r_internalGetMonthNames = new(this, "internalGetMonthNames", 0);
+					r_internalGetMonthNames.SetBelong(this.instance);
 				}
-				return r_RinternalGetMonthNames;
+				return r_internalGetMonthNames;
 			}
 		}
 
 		/// <summary>
 		/// System.String[] internalGetMonthNamesCore()
 		/// </summary>
-		protected RMethod r_RinternalGetMonthNamesCore;
+		protected RMethod r_internalGetMonthNamesCore;
 		public virtual RMethod RinternalGetMonthNamesCore
 		{
 			get
 			{
-				if(r_RinternalGetMonthNamesCore == null)
+				if(r_internalGetMonthNamesCore == null)
 				{
-					r_RinternalGetMonthNamesCore = new(this, "internalGetMonthNamesCore", 0);
-					r_RinternalGetMonthNamesCore.SetBelong(this.instance);
+					r_internalGetMonthNamesCore = new(this, "internalGetMonthNamesCore", 0);
+					r_internalGetMonthNamesCore.SetBelong(this.instance);
 				}
-				return r_RinternalGetMonthNamesCore;
+				return r_internalGetMonthNamesCore;
 			}
 		}
 
 		/// <summary>
 		/// Void InitializeOverridableProperties(System.Globalization.CultureData, Int32)
 		/// </summary>
-		protected RMethod r_RInitializeOverridableProperties_CultureData_Int32;
+		protected RMethod r_InitializeOverridableProperties_CultureData_Int32;
 		public virtual RMethod RInitializeOverridableProperties_CultureData_Int32
 		{
 			get
 			{
-				if(r_RInitializeOverridableProperties_CultureData_Int32 == null)
+				if(r_InitializeOverridableProperties_CultureData_Int32 == null)
 				{
-					r_RInitializeOverridableProperties_CultureData_Int32 = new(this, "InitializeOverridableProperties", 0,  ReleactionUtils.GetType("System.Globalization.CultureData"), typeof(System.Int32));
-					r_RInitializeOverridableProperties_CultureData_Int32.SetBelong(this.instance);
+					r_InitializeOverridableProperties_CultureData_Int32 = new(this, "InitializeOverridableProperties", 0,  ReleactionUtils.GetType("System.Globalization.CultureData"), typeof(System.Int32));
+					r_InitializeOverridableProperties_CultureData_Int32.SetBelong(this.instance);
 				}
-				return r_RInitializeOverridableProperties_CultureData_Int32;
+				return r_InitializeOverridableProperties_CultureData_Int32;
 			}
 		}
 
 		/// <summary>
 		/// System.Globalization.DateTimeFormatInfo GetInstance(System.IFormatProvider)
 		/// </summary>
-		protected static RMethod r_RGetInstance_IFormatProvider;
+		protected static RMethod r_GetInstance_IFormatProvider;
 		public static RMethod RGetInstance_IFormatProvider
 		{
 			get
 			{
-				if(r_RGetInstance_IFormatProvider == null)
+				if(r_GetInstance_IFormatProvider == null)
 				{
-					r_RGetInstance_IFormatProvider = new(typeof(System.Globalization.DateTimeFormatInfo), "GetInstance", 0, typeof(System.IFormatProvider));
-					r_RGetInstance_IFormatProvider.SetBelong(null);
+					r_GetInstance_IFormatProvider = new(typeof(System.Globalization.DateTimeFormatInfo), "GetInstance", 0, typeof(System.IFormatProvider));
+					r_GetInstance_IFormatProvider.SetBelong(null);
 				}
-				return r_RGetInstance_IFormatProvider;
+				return r_GetInstance_IFormatProvider;
 			}
 		}
 
 		/// <summary>
 		/// System.Object GetFormat(System.Type)
 		/// </summary>
-		protected RMethod r_RGetFormat_Type;
+		protected RMethod r_GetFormat_Type;
 		public virtual RMethod RGetFormat_Type
 		{
 			get
 			{
-				if(r_RGetFormat_Type == null)
+				if(r_GetFormat_Type == null)
 				{
-					r_RGetFormat_Type = new(this, "GetFormat", 0, typeof(System.Type));
-					r_RGetFormat_Type.SetBelong(this.instance);
+					r_GetFormat_Type = new(this, "GetFormat", 0, typeof(System.Type));
+					r_GetFormat_Type.SetBelong(this.instance);
 				}
-				return r_RGetFormat_Type;
+				return r_GetFormat_Type;
 			}
 		}
 
 		/// <summary>
 		/// System.Object Clone()
 		/// </summary>
-		protected RMethod r_RClone;
+		protected RMethod r_Clone;
 		public virtual RMethod RClone
 		{
 			get
 			{
-				if(r_RClone == null)
+				if(r_Clone == null)
 				{
-					r_RClone = new(this, "Clone", 0);
-					r_RClone.SetBelong(this.instance);
+					r_Clone = new(this, "Clone", 0);
+					r_Clone.SetBelong(this.instance);
 				}
-				return r_RClone;
+				return r_Clone;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetEra(System.String)
 		/// </summary>
-		protected RMethod r_RGetEra_String;
+		protected RMethod r_GetEra_String;
 		public virtual RMethod RGetEra_String
 		{
 			get
 			{
-				if(r_RGetEra_String == null)
+				if(r_GetEra_String == null)
 				{
-					r_RGetEra_String = new(this, "GetEra", 0, typeof(System.String));
-					r_RGetEra_String.SetBelong(this.instance);
+					r_GetEra_String = new(this, "GetEra", 0, typeof(System.String));
+					r_GetEra_String.SetBelong(this.instance);
 				}
-				return r_RGetEra_String;
+				return r_GetEra_String;
 			}
 		}
 
 		/// <summary>
 		/// System.String GetEraName(Int32)
 		/// </summary>
-		protected RMethod r_RGetEraName_Int32;
+		protected RMethod r_GetEraName_Int32;
 		public virtual RMethod RGetEraName_Int32
 		{
 			get
 			{
-				if(r_RGetEraName_Int32 == null)
+				if(r_GetEraName_Int32 == null)
 				{
-					r_RGetEraName_Int32 = new(this, "GetEraName", 0, typeof(System.Int32));
-					r_RGetEraName_Int32.SetBelong(this.instance);
+					r_GetEraName_Int32 = new(this, "GetEraName", 0, typeof(System.Int32));
+					r_GetEraName_Int32.SetBelong(this.instance);
 				}
-				return r_RGetEraName_Int32;
+				return r_GetEraName_Int32;
 			}
 		}
 
 		/// <summary>
 		/// System.String GetAbbreviatedEraName(Int32)
 		/// </summary>
-		protected RMethod r_RGetAbbreviatedEraName_Int32;
+		protected RMethod r_GetAbbreviatedEraName_Int32;
 		public virtual RMethod RGetAbbreviatedEraName_Int32
 		{
 			get
 			{
-				if(r_RGetAbbreviatedEraName_Int32 == null)
+				if(r_GetAbbreviatedEraName_Int32 == null)
 				{
-					r_RGetAbbreviatedEraName_Int32 = new(this, "GetAbbreviatedEraName", 0, typeof(System.Int32));
-					r_RGetAbbreviatedEraName_Int32.SetBelong(this.instance);
+					r_GetAbbreviatedEraName_Int32 = new(this, "GetAbbreviatedEraName", 0, typeof(System.Int32));
+					r_GetAbbreviatedEraName_Int32.SetBelong(this.instance);
 				}
-				return r_RGetAbbreviatedEraName_Int32;
+				return r_GetAbbreviatedEraName_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Void CheckNullValue(System.String[], Int32)
 		/// </summary>
-		protected static RMethod r_RCheckNullValue_StringArray_Int32;
+		protected static RMethod r_CheckNullValue_StringArray_Int32;
 		public static RMethod RCheckNullValue_StringArray_Int32
 		{
 			get
 			{
-				if(r_RCheckNullValue_StringArray_Int32 == null)
+				if(r_CheckNullValue_StringArray_Int32 == null)
 				{
-					r_RCheckNullValue_StringArray_Int32 = new(typeof(System.Globalization.DateTimeFormatInfo), "CheckNullValue", 0, typeof(System.String).MakeArrayType(), typeof(System.Int32));
-					r_RCheckNullValue_StringArray_Int32.SetBelong(null);
+					r_CheckNullValue_StringArray_Int32 = new(typeof(System.Globalization.DateTimeFormatInfo), "CheckNullValue", 0, typeof(System.String).MakeArrayType(), typeof(System.Int32));
+					r_CheckNullValue_StringArray_Int32.SetBelong(null);
 				}
-				return r_RCheckNullValue_StringArray_Int32;
+				return r_CheckNullValue_StringArray_Int32;
 			}
 		}
 
 		/// <summary>
 		/// System.String internalGetMonthName(Int32, System.Globalization.MonthNameStyles, Boolean)
 		/// </summary>
-		protected RMethod r_RinternalGetMonthName_Int32_MonthNameStyles_Boolean;
+		protected RMethod r_internalGetMonthName_Int32_MonthNameStyles_Boolean;
 		public virtual RMethod RinternalGetMonthName_Int32_MonthNameStyles_Boolean
 		{
 			get
 			{
-				if(r_RinternalGetMonthName_Int32_MonthNameStyles_Boolean == null)
+				if(r_internalGetMonthName_Int32_MonthNameStyles_Boolean == null)
 				{
-					r_RinternalGetMonthName_Int32_MonthNameStyles_Boolean = new(this, "internalGetMonthName", 0, typeof(System.Int32),  ReleactionUtils.GetType("System.Globalization.MonthNameStyles"), typeof(System.Boolean));
-					r_RinternalGetMonthName_Int32_MonthNameStyles_Boolean.SetBelong(this.instance);
+					r_internalGetMonthName_Int32_MonthNameStyles_Boolean = new(this, "internalGetMonthName", 0, typeof(System.Int32),  ReleactionUtils.GetType("System.Globalization.MonthNameStyles"), typeof(System.Boolean));
+					r_internalGetMonthName_Int32_MonthNameStyles_Boolean.SetBelong(this.instance);
 				}
-				return r_RinternalGetMonthName_Int32_MonthNameStyles_Boolean;
+				return r_internalGetMonthName_Int32_MonthNameStyles_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// System.String[] internalGetGenitiveMonthNames(Boolean)
 		/// </summary>
-		protected RMethod r_RinternalGetGenitiveMonthNames_Boolean;
+		protected RMethod r_internalGetGenitiveMonthNames_Boolean;
 		public virtual RMethod RinternalGetGenitiveMonthNames_Boolean
 		{
 			get
 			{
-				if(r_RinternalGetGenitiveMonthNames_Boolean == null)
+				if(r_internalGetGenitiveMonthNames_Boolean == null)
 				{
-					r_RinternalGetGenitiveMonthNames_Boolean = new(this, "internalGetGenitiveMonthNames", 0, typeof(System.Boolean));
-					r_RinternalGetGenitiveMonthNames_Boolean.SetBelong(this.instance);
+					r_internalGetGenitiveMonthNames_Boolean = new(this, "internalGetGenitiveMonthNames", 0, typeof(System.Boolean));
+					r_internalGetGenitiveMonthNames_Boolean.SetBelong(this.instance);
 				}
-				return r_RinternalGetGenitiveMonthNames_Boolean;
+				return r_internalGetGenitiveMonthNames_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// System.String[] internalGetLeapYearMonthNames()
 		/// </summary>
-		protected RMethod r_RinternalGetLeapYearMonthNames;
+		protected RMethod r_internalGetLeapYearMonthNames;
 		public virtual RMethod RinternalGetLeapYearMonthNames
 		{
 			get
 			{
-				if(r_RinternalGetLeapYearMonthNames == null)
+				if(r_internalGetLeapYearMonthNames == null)
 				{
-					r_RinternalGetLeapYearMonthNames = new(this, "internalGetLeapYearMonthNames", 0);
-					r_RinternalGetLeapYearMonthNames.SetBelong(this.instance);
+					r_internalGetLeapYearMonthNames = new(this, "internalGetLeapYearMonthNames", 0);
+					r_internalGetLeapYearMonthNames.SetBelong(this.instance);
 				}
-				return r_RinternalGetLeapYearMonthNames;
+				return r_internalGetLeapYearMonthNames;
 			}
 		}
 
 		/// <summary>
 		/// System.String GetAbbreviatedDayName(System.DayOfWeek)
 		/// </summary>
-		protected RMethod r_RGetAbbreviatedDayName_DayOfWeek;
+		protected RMethod r_GetAbbreviatedDayName_DayOfWeek;
 		public virtual RMethod RGetAbbreviatedDayName_DayOfWeek
 		{
 			get
 			{
-				if(r_RGetAbbreviatedDayName_DayOfWeek == null)
+				if(r_GetAbbreviatedDayName_DayOfWeek == null)
 				{
-					r_RGetAbbreviatedDayName_DayOfWeek = new(this, "GetAbbreviatedDayName", 0, typeof(System.DayOfWeek));
-					r_RGetAbbreviatedDayName_DayOfWeek.SetBelong(this.instance);
+					r_GetAbbreviatedDayName_DayOfWeek = new(this, "GetAbbreviatedDayName", 0, typeof(System.DayOfWeek));
+					r_GetAbbreviatedDayName_DayOfWeek.SetBelong(this.instance);
 				}
-				return r_RGetAbbreviatedDayName_DayOfWeek;
+				return r_GetAbbreviatedDayName_DayOfWeek;
 			}
 		}
 
 		/// <summary>
 		/// System.String GetShortestDayName(System.DayOfWeek)
 		/// </summary>
-		protected RMethod r_RGetShortestDayName_DayOfWeek;
+		protected RMethod r_GetShortestDayName_DayOfWeek;
 		public virtual RMethod RGetShortestDayName_DayOfWeek
 		{
 			get
 			{
-				if(r_RGetShortestDayName_DayOfWeek == null)
+				if(r_GetShortestDayName_DayOfWeek == null)
 				{
-					r_RGetShortestDayName_DayOfWeek = new(this, "GetShortestDayName", 0, typeof(System.DayOfWeek));
-					r_RGetShortestDayName_DayOfWeek.SetBelong(this.instance);
+					r_GetShortestDayName_DayOfWeek = new(this, "GetShortestDayName", 0, typeof(System.DayOfWeek));
+					r_GetShortestDayName_DayOfWeek.SetBelong(this.instance);
 				}
-				return r_RGetShortestDayName_DayOfWeek;
+				return r_GetShortestDayName_DayOfWeek;
 			}
 		}
 
 		/// <summary>
 		/// System.String[] GetCombinedPatterns(System.String[], System.String[], System.String)
 		/// </summary>
-		protected static RMethod r_RGetCombinedPatterns_StringArray_StringArray_String;
+		protected static RMethod r_GetCombinedPatterns_StringArray_StringArray_String;
 		public static RMethod RGetCombinedPatterns_StringArray_StringArray_String
 		{
 			get
 			{
-				if(r_RGetCombinedPatterns_StringArray_StringArray_String == null)
+				if(r_GetCombinedPatterns_StringArray_StringArray_String == null)
 				{
-					r_RGetCombinedPatterns_StringArray_StringArray_String = new(typeof(System.Globalization.DateTimeFormatInfo), "GetCombinedPatterns", 0, typeof(System.String).MakeArrayType(), typeof(System.String).MakeArrayType(), typeof(System.String));
-					r_RGetCombinedPatterns_StringArray_StringArray_String.SetBelong(null);
+					r_GetCombinedPatterns_StringArray_StringArray_String = new(typeof(System.Globalization.DateTimeFormatInfo), "GetCombinedPatterns", 0, typeof(System.String).MakeArrayType(), typeof(System.String).MakeArrayType(), typeof(System.String));
+					r_GetCombinedPatterns_StringArray_StringArray_String.SetBelong(null);
 				}
-				return r_RGetCombinedPatterns_StringArray_StringArray_String;
+				return r_GetCombinedPatterns_StringArray_StringArray_String;
 			}
 		}
 
 		/// <summary>
 		/// System.String[] GetAllDateTimePatterns()
 		/// </summary>
-		protected RMethod r_RGetAllDateTimePatterns;
+		protected RMethod r_GetAllDateTimePatterns;
 		public virtual RMethod RGetAllDateTimePatterns
 		{
 			get
 			{
-				if(r_RGetAllDateTimePatterns == null)
+				if(r_GetAllDateTimePatterns == null)
 				{
-					r_RGetAllDateTimePatterns = new(this, "GetAllDateTimePatterns", 0);
-					r_RGetAllDateTimePatterns.SetBelong(this.instance);
+					r_GetAllDateTimePatterns = new(this, "GetAllDateTimePatterns", 0);
+					r_GetAllDateTimePatterns.SetBelong(this.instance);
 				}
-				return r_RGetAllDateTimePatterns;
+				return r_GetAllDateTimePatterns;
 			}
 		}
 
 		/// <summary>
 		/// System.String[] GetAllDateTimePatterns(Char)
 		/// </summary>
-		protected RMethod r_RGetAllDateTimePatterns_Char;
+		protected RMethod r_GetAllDateTimePatterns_Char;
 		public virtual RMethod RGetAllDateTimePatterns_Char
 		{
 			get
 			{
-				if(r_RGetAllDateTimePatterns_Char == null)
+				if(r_GetAllDateTimePatterns_Char == null)
 				{
-					r_RGetAllDateTimePatterns_Char = new(this, "GetAllDateTimePatterns", 0, typeof(System.Char));
-					r_RGetAllDateTimePatterns_Char.SetBelong(this.instance);
+					r_GetAllDateTimePatterns_Char = new(this, "GetAllDateTimePatterns", 0, typeof(System.Char));
+					r_GetAllDateTimePatterns_Char.SetBelong(this.instance);
 				}
-				return r_RGetAllDateTimePatterns_Char;
+				return r_GetAllDateTimePatterns_Char;
 			}
 		}
 
 		/// <summary>
 		/// System.String GetDayName(System.DayOfWeek)
 		/// </summary>
-		protected RMethod r_RGetDayName_DayOfWeek;
+		protected RMethod r_GetDayName_DayOfWeek;
 		public virtual RMethod RGetDayName_DayOfWeek
 		{
 			get
 			{
-				if(r_RGetDayName_DayOfWeek == null)
+				if(r_GetDayName_DayOfWeek == null)
 				{
-					r_RGetDayName_DayOfWeek = new(this, "GetDayName", 0, typeof(System.DayOfWeek));
-					r_RGetDayName_DayOfWeek.SetBelong(this.instance);
+					r_GetDayName_DayOfWeek = new(this, "GetDayName", 0, typeof(System.DayOfWeek));
+					r_GetDayName_DayOfWeek.SetBelong(this.instance);
 				}
-				return r_RGetDayName_DayOfWeek;
+				return r_GetDayName_DayOfWeek;
 			}
 		}
 
 		/// <summary>
 		/// System.String GetAbbreviatedMonthName(Int32)
 		/// </summary>
-		protected RMethod r_RGetAbbreviatedMonthName_Int32;
+		protected RMethod r_GetAbbreviatedMonthName_Int32;
 		public virtual RMethod RGetAbbreviatedMonthName_Int32
 		{
 			get
 			{
-				if(r_RGetAbbreviatedMonthName_Int32 == null)
+				if(r_GetAbbreviatedMonthName_Int32 == null)
 				{
-					r_RGetAbbreviatedMonthName_Int32 = new(this, "GetAbbreviatedMonthName", 0, typeof(System.Int32));
-					r_RGetAbbreviatedMonthName_Int32.SetBelong(this.instance);
+					r_GetAbbreviatedMonthName_Int32 = new(this, "GetAbbreviatedMonthName", 0, typeof(System.Int32));
+					r_GetAbbreviatedMonthName_Int32.SetBelong(this.instance);
 				}
-				return r_RGetAbbreviatedMonthName_Int32;
+				return r_GetAbbreviatedMonthName_Int32;
 			}
 		}
 
 		/// <summary>
 		/// System.String GetMonthName(Int32)
 		/// </summary>
-		protected RMethod r_RGetMonthName_Int32;
+		protected RMethod r_GetMonthName_Int32;
 		public virtual RMethod RGetMonthName_Int32
 		{
 			get
 			{
-				if(r_RGetMonthName_Int32 == null)
+				if(r_GetMonthName_Int32 == null)
 				{
-					r_RGetMonthName_Int32 = new(this, "GetMonthName", 0, typeof(System.Int32));
-					r_RGetMonthName_Int32.SetBelong(this.instance);
+					r_GetMonthName_Int32 = new(this, "GetMonthName", 0, typeof(System.Int32));
+					r_GetMonthName_Int32.SetBelong(this.instance);
 				}
-				return r_RGetMonthName_Int32;
+				return r_GetMonthName_Int32;
 			}
 		}
 
 		/// <summary>
 		/// System.String[] GetMergedPatterns(System.String[], System.String)
 		/// </summary>
-		protected static RMethod r_RGetMergedPatterns_StringArray_String;
+		protected static RMethod r_GetMergedPatterns_StringArray_String;
 		public static RMethod RGetMergedPatterns_StringArray_String
 		{
 			get
 			{
-				if(r_RGetMergedPatterns_StringArray_String == null)
+				if(r_GetMergedPatterns_StringArray_String == null)
 				{
-					r_RGetMergedPatterns_StringArray_String = new(typeof(System.Globalization.DateTimeFormatInfo), "GetMergedPatterns", 0, typeof(System.String).MakeArrayType(), typeof(System.String));
-					r_RGetMergedPatterns_StringArray_String.SetBelong(null);
+					r_GetMergedPatterns_StringArray_String = new(typeof(System.Globalization.DateTimeFormatInfo), "GetMergedPatterns", 0, typeof(System.String).MakeArrayType(), typeof(System.String));
+					r_GetMergedPatterns_StringArray_String.SetBelong(null);
 				}
-				return r_RGetMergedPatterns_StringArray_String;
+				return r_GetMergedPatterns_StringArray_String;
 			}
 		}
 
 		/// <summary>
 		/// System.Globalization.DateTimeFormatInfo ReadOnly(System.Globalization.DateTimeFormatInfo)
 		/// </summary>
-		protected static RMethod r_RReadOnly_DateTimeFormatInfo;
+		protected static RMethod r_ReadOnly_DateTimeFormatInfo;
 		public static RMethod RReadOnly_DateTimeFormatInfo
 		{
 			get
 			{
-				if(r_RReadOnly_DateTimeFormatInfo == null)
+				if(r_ReadOnly_DateTimeFormatInfo == null)
 				{
-					r_RReadOnly_DateTimeFormatInfo = new(typeof(System.Globalization.DateTimeFormatInfo), "ReadOnly", 0, typeof(System.Globalization.DateTimeFormatInfo));
-					r_RReadOnly_DateTimeFormatInfo.SetBelong(null);
+					r_ReadOnly_DateTimeFormatInfo = new(typeof(System.Globalization.DateTimeFormatInfo), "ReadOnly", 0, typeof(System.Globalization.DateTimeFormatInfo));
+					r_ReadOnly_DateTimeFormatInfo.SetBelong(null);
 				}
-				return r_RReadOnly_DateTimeFormatInfo;
+				return r_ReadOnly_DateTimeFormatInfo;
 			}
 		}
 
 		/// <summary>
 		/// Void SetAllDateTimePatterns(System.String[], Char)
 		/// </summary>
-		protected RMethod r_RSetAllDateTimePatterns_StringArray_Char;
+		protected RMethod r_SetAllDateTimePatterns_StringArray_Char;
 		public virtual RMethod RSetAllDateTimePatterns_StringArray_Char
 		{
 			get
 			{
-				if(r_RSetAllDateTimePatterns_StringArray_Char == null)
+				if(r_SetAllDateTimePatterns_StringArray_Char == null)
 				{
-					r_RSetAllDateTimePatterns_StringArray_Char = new(this, "SetAllDateTimePatterns", 0, typeof(System.String).MakeArrayType(), typeof(System.Char));
-					r_RSetAllDateTimePatterns_StringArray_Char.SetBelong(this.instance);
+					r_SetAllDateTimePatterns_StringArray_Char = new(this, "SetAllDateTimePatterns", 0, typeof(System.String).MakeArrayType(), typeof(System.Char));
+					r_SetAllDateTimePatterns_StringArray_Char.SetBelong(this.instance);
 				}
-				return r_RSetAllDateTimePatterns_StringArray_Char;
+				return r_SetAllDateTimePatterns_StringArray_Char;
 			}
 		}
 
 		/// <summary>
 		/// Void ValidateStyles(System.Globalization.DateTimeStyles, System.String)
 		/// </summary>
-		protected static RMethod r_RValidateStyles_DateTimeStyles_String;
+		protected static RMethod r_ValidateStyles_DateTimeStyles_String;
 		public static RMethod RValidateStyles_DateTimeStyles_String
 		{
 			get
 			{
-				if(r_RValidateStyles_DateTimeStyles_String == null)
+				if(r_ValidateStyles_DateTimeStyles_String == null)
 				{
-					r_RValidateStyles_DateTimeStyles_String = new(typeof(System.Globalization.DateTimeFormatInfo), "ValidateStyles", 0, typeof(System.Globalization.DateTimeStyles), typeof(System.String));
-					r_RValidateStyles_DateTimeStyles_String.SetBelong(null);
+					r_ValidateStyles_DateTimeStyles_String = new(typeof(System.Globalization.DateTimeFormatInfo), "ValidateStyles", 0, typeof(System.Globalization.DateTimeStyles), typeof(System.String));
+					r_ValidateStyles_DateTimeStyles_String.SetBelong(null);
 				}
-				return r_RValidateStyles_DateTimeStyles_String;
+				return r_ValidateStyles_DateTimeStyles_String;
 			}
 		}
 
 		/// <summary>
 		/// System.Globalization.DateTimeFormatFlags InitializeFormatFlags()
 		/// </summary>
-		protected RMethod r_RInitializeFormatFlags;
+		protected RMethod r_InitializeFormatFlags;
 		public virtual RMethod RInitializeFormatFlags
 		{
 			get
 			{
-				if(r_RInitializeFormatFlags == null)
+				if(r_InitializeFormatFlags == null)
 				{
-					r_RInitializeFormatFlags = new(this, "InitializeFormatFlags", 0);
-					r_RInitializeFormatFlags.SetBelong(this.instance);
+					r_InitializeFormatFlags = new(this, "InitializeFormatFlags", 0);
+					r_InitializeFormatFlags.SetBelong(this.instance);
 				}
-				return r_RInitializeFormatFlags;
+				return r_InitializeFormatFlags;
 			}
 		}
 
 		/// <summary>
 		/// Boolean YearMonthAdjustment(Int32 ByRef, Int32 ByRef, Boolean)
 		/// </summary>
-		protected RMethod r_RYearMonthAdjustment_Ref_Int32_Ref_Int32_Boolean;
+		protected RMethod r_YearMonthAdjustment_Ref_Int32_Ref_Int32_Boolean;
 		public virtual RMethod RYearMonthAdjustment_Ref_Int32_Ref_Int32_Boolean
 		{
 			get
 			{
-				if(r_RYearMonthAdjustment_Ref_Int32_Ref_Int32_Boolean == null)
+				if(r_YearMonthAdjustment_Ref_Int32_Ref_Int32_Boolean == null)
 				{
-					r_RYearMonthAdjustment_Ref_Int32_Ref_Int32_Boolean = new(this, "YearMonthAdjustment", 0, typeof(System.Int32).MakeByRefType(), typeof(System.Int32).MakeByRefType(), typeof(System.Boolean));
-					r_RYearMonthAdjustment_Ref_Int32_Ref_Int32_Boolean.SetBelong(this.instance);
+					r_YearMonthAdjustment_Ref_Int32_Ref_Int32_Boolean = new(this, "YearMonthAdjustment", 0, typeof(System.Int32).MakeByRefType(), typeof(System.Int32).MakeByRefType(), typeof(System.Boolean));
+					r_YearMonthAdjustment_Ref_Int32_Ref_Int32_Boolean.SetBelong(this.instance);
 				}
-				return r_RYearMonthAdjustment_Ref_Int32_Ref_Int32_Boolean;
+				return r_YearMonthAdjustment_Ref_Int32_Ref_Int32_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// System.Globalization.DateTimeFormatInfo GetJapaneseCalendarDTFI()
 		/// </summary>
-		protected static RMethod r_RGetJapaneseCalendarDTFI;
+		protected static RMethod r_GetJapaneseCalendarDTFI;
 		public static RMethod RGetJapaneseCalendarDTFI
 		{
 			get
 			{
-				if(r_RGetJapaneseCalendarDTFI == null)
+				if(r_GetJapaneseCalendarDTFI == null)
 				{
-					r_RGetJapaneseCalendarDTFI = new(typeof(System.Globalization.DateTimeFormatInfo), "GetJapaneseCalendarDTFI", 0);
-					r_RGetJapaneseCalendarDTFI.SetBelong(null);
+					r_GetJapaneseCalendarDTFI = new(typeof(System.Globalization.DateTimeFormatInfo), "GetJapaneseCalendarDTFI", 0);
+					r_GetJapaneseCalendarDTFI.SetBelong(null);
 				}
-				return r_RGetJapaneseCalendarDTFI;
+				return r_GetJapaneseCalendarDTFI;
 			}
 		}
 
 		/// <summary>
 		/// System.Globalization.DateTimeFormatInfo GetTaiwanCalendarDTFI()
 		/// </summary>
-		protected static RMethod r_RGetTaiwanCalendarDTFI;
+		protected static RMethod r_GetTaiwanCalendarDTFI;
 		public static RMethod RGetTaiwanCalendarDTFI
 		{
 			get
 			{
-				if(r_RGetTaiwanCalendarDTFI == null)
+				if(r_GetTaiwanCalendarDTFI == null)
 				{
-					r_RGetTaiwanCalendarDTFI = new(typeof(System.Globalization.DateTimeFormatInfo), "GetTaiwanCalendarDTFI", 0);
-					r_RGetTaiwanCalendarDTFI.SetBelong(null);
+					r_GetTaiwanCalendarDTFI = new(typeof(System.Globalization.DateTimeFormatInfo), "GetTaiwanCalendarDTFI", 0);
+					r_GetTaiwanCalendarDTFI.SetBelong(null);
 				}
-				return r_RGetTaiwanCalendarDTFI;
+				return r_GetTaiwanCalendarDTFI;
 			}
 		}
 
 		/// <summary>
 		/// Void ClearTokenHashTable()
 		/// </summary>
-		protected RMethod r_RClearTokenHashTable;
+		protected RMethod r_ClearTokenHashTable;
 		public virtual RMethod RClearTokenHashTable
 		{
 			get
 			{
-				if(r_RClearTokenHashTable == null)
+				if(r_ClearTokenHashTable == null)
 				{
-					r_RClearTokenHashTable = new(this, "ClearTokenHashTable", 0);
-					r_RClearTokenHashTable.SetBelong(this.instance);
+					r_ClearTokenHashTable = new(this, "ClearTokenHashTable", 0);
+					r_ClearTokenHashTable.SetBelong(this.instance);
 				}
-				return r_RClearTokenHashTable;
+				return r_ClearTokenHashTable;
 			}
 		}
 
 		/// <summary>
 		/// TokenHashValue[] CreateTokenHashTable()
 		/// </summary>
-		protected RMethod r_RCreateTokenHashTable;
+		protected RMethod r_CreateTokenHashTable;
 		public virtual RMethod RCreateTokenHashTable
 		{
 			get
 			{
-				if(r_RCreateTokenHashTable == null)
+				if(r_CreateTokenHashTable == null)
 				{
-					r_RCreateTokenHashTable = new(this, "CreateTokenHashTable", 0);
-					r_RCreateTokenHashTable.SetBelong(this.instance);
+					r_CreateTokenHashTable = new(this, "CreateTokenHashTable", 0);
+					r_CreateTokenHashTable.SetBelong(this.instance);
 				}
-				return r_RCreateTokenHashTable;
+				return r_CreateTokenHashTable;
 			}
 		}
 
 		/// <summary>
 		/// Void PopulateSpecialTokenHashTable(TokenHashValue[], Boolean ByRef)
 		/// </summary>
-		protected RMethod r_RPopulateSpecialTokenHashTable_TokenHashValueArray_Ref_Boolean;
+		protected RMethod r_PopulateSpecialTokenHashTable_TokenHashValueArray_Ref_Boolean;
 		public virtual RMethod RPopulateSpecialTokenHashTable_TokenHashValueArray_Ref_Boolean
 		{
 			get
 			{
-				if(r_RPopulateSpecialTokenHashTable_TokenHashValueArray_Ref_Boolean == null)
+				if(r_PopulateSpecialTokenHashTable_TokenHashValueArray_Ref_Boolean == null)
 				{
-					r_RPopulateSpecialTokenHashTable_TokenHashValueArray_Ref_Boolean = new(this, "PopulateSpecialTokenHashTable", 0,  ReleactionUtils.GetType("System.Globalization.DateTimeFormatInfo+TokenHashValue").MakeArrayType(), typeof(System.Boolean).MakeByRefType());
-					r_RPopulateSpecialTokenHashTable_TokenHashValueArray_Ref_Boolean.SetBelong(this.instance);
+					r_PopulateSpecialTokenHashTable_TokenHashValueArray_Ref_Boolean = new(this, "PopulateSpecialTokenHashTable", 0,  ReleactionUtils.GetType("System.Globalization.DateTimeFormatInfo+TokenHashValue").MakeArrayType(), typeof(System.Boolean).MakeByRefType());
+					r_PopulateSpecialTokenHashTable_TokenHashValueArray_Ref_Boolean.SetBelong(this.instance);
 				}
-				return r_RPopulateSpecialTokenHashTable_TokenHashValueArray_Ref_Boolean;
+				return r_PopulateSpecialTokenHashTable_TokenHashValueArray_Ref_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Boolean IsJapaneseCalendar(System.Globalization.Calendar)
 		/// </summary>
-		protected static RMethod r_RIsJapaneseCalendar_Calendar;
+		protected static RMethod r_IsJapaneseCalendar_Calendar;
 		public static RMethod RIsJapaneseCalendar_Calendar
 		{
 			get
 			{
-				if(r_RIsJapaneseCalendar_Calendar == null)
+				if(r_IsJapaneseCalendar_Calendar == null)
 				{
-					r_RIsJapaneseCalendar_Calendar = new(typeof(System.Globalization.DateTimeFormatInfo), "IsJapaneseCalendar", 0, typeof(System.Globalization.Calendar));
-					r_RIsJapaneseCalendar_Calendar.SetBelong(null);
+					r_IsJapaneseCalendar_Calendar = new(typeof(System.Globalization.DateTimeFormatInfo), "IsJapaneseCalendar", 0, typeof(System.Globalization.Calendar));
+					r_IsJapaneseCalendar_Calendar.SetBelong(null);
 				}
-				return r_RIsJapaneseCalendar_Calendar;
+				return r_IsJapaneseCalendar_Calendar;
 			}
 		}
 
 		/// <summary>
 		/// Void AddMonthNames(TokenHashValue[], System.String)
 		/// </summary>
-		protected RMethod r_RAddMonthNames_TokenHashValueArray_String;
+		protected RMethod r_AddMonthNames_TokenHashValueArray_String;
 		public virtual RMethod RAddMonthNames_TokenHashValueArray_String
 		{
 			get
 			{
-				if(r_RAddMonthNames_TokenHashValueArray_String == null)
+				if(r_AddMonthNames_TokenHashValueArray_String == null)
 				{
-					r_RAddMonthNames_TokenHashValueArray_String = new(this, "AddMonthNames", 0,  ReleactionUtils.GetType("System.Globalization.DateTimeFormatInfo+TokenHashValue").MakeArrayType(), typeof(System.String));
-					r_RAddMonthNames_TokenHashValueArray_String.SetBelong(this.instance);
+					r_AddMonthNames_TokenHashValueArray_String = new(this, "AddMonthNames", 0,  ReleactionUtils.GetType("System.Globalization.DateTimeFormatInfo+TokenHashValue").MakeArrayType(), typeof(System.String));
+					r_AddMonthNames_TokenHashValueArray_String.SetBelong(this.instance);
 				}
-				return r_RAddMonthNames_TokenHashValueArray_String;
+				return r_AddMonthNames_TokenHashValueArray_String;
 			}
 		}
 
 		/// <summary>
 		/// Boolean TryParseHebrewNumber(System.__DTString ByRef, Boolean ByRef, Int32 ByRef)
 		/// </summary>
-		protected static RMethod r_RTryParseHebrewNumber_Ref___DTString_Out_Boolean_Out_Int32;
+		protected static RMethod r_TryParseHebrewNumber_Ref___DTString_Out_Boolean_Out_Int32;
 		public static RMethod RTryParseHebrewNumber_Ref___DTString_Out_Boolean_Out_Int32
 		{
 			get
 			{
-				if(r_RTryParseHebrewNumber_Ref___DTString_Out_Boolean_Out_Int32 == null)
+				if(r_TryParseHebrewNumber_Ref___DTString_Out_Boolean_Out_Int32 == null)
 				{
-					r_RTryParseHebrewNumber_Ref___DTString_Out_Boolean_Out_Int32 = new(typeof(System.Globalization.DateTimeFormatInfo), "TryParseHebrewNumber", 0,  ReleactionUtils.GetType("System.__DTString").MakeByRefType(), typeof(System.Boolean).MakeByRefType(), typeof(System.Int32).MakeByRefType());
-					r_RTryParseHebrewNumber_Ref___DTString_Out_Boolean_Out_Int32.SetBelong(null);
+					r_TryParseHebrewNumber_Ref___DTString_Out_Boolean_Out_Int32 = new(typeof(System.Globalization.DateTimeFormatInfo), "TryParseHebrewNumber", 0,  ReleactionUtils.GetType("System.__DTString").MakeByRefType(), typeof(System.Boolean).MakeByRefType(), typeof(System.Int32).MakeByRefType());
+					r_TryParseHebrewNumber_Ref___DTString_Out_Boolean_Out_Int32.SetBelong(null);
 				}
-				return r_RTryParseHebrewNumber_Ref___DTString_Out_Boolean_Out_Int32;
+				return r_TryParseHebrewNumber_Ref___DTString_Out_Boolean_Out_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Boolean IsHebrewChar(Char)
 		/// </summary>
-		protected static RMethod r_RIsHebrewChar_Char;
+		protected static RMethod r_IsHebrewChar_Char;
 		public static RMethod RIsHebrewChar_Char
 		{
 			get
 			{
-				if(r_RIsHebrewChar_Char == null)
+				if(r_IsHebrewChar_Char == null)
 				{
-					r_RIsHebrewChar_Char = new(typeof(System.Globalization.DateTimeFormatInfo), "IsHebrewChar", 0, typeof(System.Char));
-					r_RIsHebrewChar_Char.SetBelong(null);
+					r_IsHebrewChar_Char = new(typeof(System.Globalization.DateTimeFormatInfo), "IsHebrewChar", 0, typeof(System.Char));
+					r_IsHebrewChar_Char.SetBelong(null);
 				}
-				return r_RIsHebrewChar_Char;
+				return r_IsHebrewChar_Char;
 			}
 		}
 
 		/// <summary>
 		/// Boolean IsAllowedJapaneseTokenFollowedByNonSpaceLetter(System.String, Char)
 		/// </summary>
-		protected RMethod r_RIsAllowedJapaneseTokenFollowedByNonSpaceLetter_String_Char;
+		protected RMethod r_IsAllowedJapaneseTokenFollowedByNonSpaceLetter_String_Char;
 		public virtual RMethod RIsAllowedJapaneseTokenFollowedByNonSpaceLetter_String_Char
 		{
 			get
 			{
-				if(r_RIsAllowedJapaneseTokenFollowedByNonSpaceLetter_String_Char == null)
+				if(r_IsAllowedJapaneseTokenFollowedByNonSpaceLetter_String_Char == null)
 				{
-					r_RIsAllowedJapaneseTokenFollowedByNonSpaceLetter_String_Char = new(this, "IsAllowedJapaneseTokenFollowedByNonSpaceLetter", 0, typeof(System.String), typeof(System.Char));
-					r_RIsAllowedJapaneseTokenFollowedByNonSpaceLetter_String_Char.SetBelong(this.instance);
+					r_IsAllowedJapaneseTokenFollowedByNonSpaceLetter_String_Char = new(this, "IsAllowedJapaneseTokenFollowedByNonSpaceLetter", 0, typeof(System.String), typeof(System.Char));
+					r_IsAllowedJapaneseTokenFollowedByNonSpaceLetter_String_Char.SetBelong(this.instance);
 				}
-				return r_RIsAllowedJapaneseTokenFollowedByNonSpaceLetter_String_Char;
+				return r_IsAllowedJapaneseTokenFollowedByNonSpaceLetter_String_Char;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Tokenize(System.TokenType, System.TokenType ByRef, Int32 ByRef, System.__DTString ByRef)
 		/// </summary>
-		protected RMethod r_RTokenize_TokenType_Out_TokenType_Out_Int32_Ref___DTString;
+		protected RMethod r_Tokenize_TokenType_Out_TokenType_Out_Int32_Ref___DTString;
 		public virtual RMethod RTokenize_TokenType_Out_TokenType_Out_Int32_Ref___DTString
 		{
 			get
 			{
-				if(r_RTokenize_TokenType_Out_TokenType_Out_Int32_Ref___DTString == null)
+				if(r_Tokenize_TokenType_Out_TokenType_Out_Int32_Ref___DTString == null)
 				{
-					r_RTokenize_TokenType_Out_TokenType_Out_Int32_Ref___DTString = new(this, "Tokenize", 0,  ReleactionUtils.GetType("System.TokenType"),  ReleactionUtils.GetType("System.TokenType").MakeByRefType(), typeof(System.Int32).MakeByRefType(),  ReleactionUtils.GetType("System.__DTString").MakeByRefType());
-					r_RTokenize_TokenType_Out_TokenType_Out_Int32_Ref___DTString.SetBelong(this.instance);
+					r_Tokenize_TokenType_Out_TokenType_Out_Int32_Ref___DTString = new(this, "Tokenize", 0,  ReleactionUtils.GetType("System.TokenType"),  ReleactionUtils.GetType("System.TokenType").MakeByRefType(), typeof(System.Int32).MakeByRefType(),  ReleactionUtils.GetType("System.__DTString").MakeByRefType());
+					r_Tokenize_TokenType_Out_TokenType_Out_Int32_Ref___DTString.SetBelong(this.instance);
 				}
-				return r_RTokenize_TokenType_Out_TokenType_Out_Int32_Ref___DTString;
+				return r_Tokenize_TokenType_Out_TokenType_Out_Int32_Ref___DTString;
 			}
 		}
 
 		/// <summary>
 		/// Void InsertAtCurrentHashNode(TokenHashValue[], System.String, Char, System.TokenType, Int32, Int32, Int32, Int32)
 		/// </summary>
-		protected RMethod r_RInsertAtCurrentHashNode_TokenHashValueArray_String_Char_TokenType_Int32_Int32_Int32_Int32;
+		protected RMethod r_InsertAtCurrentHashNode_TokenHashValueArray_String_Char_TokenType_Int32_Int32_Int32_Int32;
 		public virtual RMethod RInsertAtCurrentHashNode_TokenHashValueArray_String_Char_TokenType_Int32_Int32_Int32_Int32
 		{
 			get
 			{
-				if(r_RInsertAtCurrentHashNode_TokenHashValueArray_String_Char_TokenType_Int32_Int32_Int32_Int32 == null)
+				if(r_InsertAtCurrentHashNode_TokenHashValueArray_String_Char_TokenType_Int32_Int32_Int32_Int32 == null)
 				{
-					r_RInsertAtCurrentHashNode_TokenHashValueArray_String_Char_TokenType_Int32_Int32_Int32_Int32 = new(this, "InsertAtCurrentHashNode", 0,  ReleactionUtils.GetType("System.Globalization.DateTimeFormatInfo+TokenHashValue").MakeArrayType(), typeof(System.String), typeof(System.Char),  ReleactionUtils.GetType("System.TokenType"), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32));
-					r_RInsertAtCurrentHashNode_TokenHashValueArray_String_Char_TokenType_Int32_Int32_Int32_Int32.SetBelong(this.instance);
+					r_InsertAtCurrentHashNode_TokenHashValueArray_String_Char_TokenType_Int32_Int32_Int32_Int32 = new(this, "InsertAtCurrentHashNode", 0,  ReleactionUtils.GetType("System.Globalization.DateTimeFormatInfo+TokenHashValue").MakeArrayType(), typeof(System.String), typeof(System.Char),  ReleactionUtils.GetType("System.TokenType"), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32));
+					r_InsertAtCurrentHashNode_TokenHashValueArray_String_Char_TokenType_Int32_Int32_Int32_Int32.SetBelong(this.instance);
 				}
-				return r_RInsertAtCurrentHashNode_TokenHashValueArray_String_Char_TokenType_Int32_Int32_Int32_Int32;
+				return r_InsertAtCurrentHashNode_TokenHashValueArray_String_Char_TokenType_Int32_Int32_Int32_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Void InsertHash(TokenHashValue[], System.String, System.TokenType, Int32)
 		/// </summary>
-		protected RMethod r_RInsertHash_TokenHashValueArray_String_TokenType_Int32;
+		protected RMethod r_InsertHash_TokenHashValueArray_String_TokenType_Int32;
 		public virtual RMethod RInsertHash_TokenHashValueArray_String_TokenType_Int32
 		{
 			get
 			{
-				if(r_RInsertHash_TokenHashValueArray_String_TokenType_Int32 == null)
+				if(r_InsertHash_TokenHashValueArray_String_TokenType_Int32 == null)
 				{
-					r_RInsertHash_TokenHashValueArray_String_TokenType_Int32 = new(this, "InsertHash", 0,  ReleactionUtils.GetType("System.Globalization.DateTimeFormatInfo+TokenHashValue").MakeArrayType(), typeof(System.String),  ReleactionUtils.GetType("System.TokenType"), typeof(System.Int32));
-					r_RInsertHash_TokenHashValueArray_String_TokenType_Int32.SetBelong(this.instance);
+					r_InsertHash_TokenHashValueArray_String_TokenType_Int32 = new(this, "InsertHash", 0,  ReleactionUtils.GetType("System.Globalization.DateTimeFormatInfo+TokenHashValue").MakeArrayType(), typeof(System.String),  ReleactionUtils.GetType("System.TokenType"), typeof(System.Int32));
+					r_InsertHash_TokenHashValueArray_String_TokenType_Int32.SetBelong(this.instance);
 				}
-				return r_RInsertHash_TokenHashValueArray_String_TokenType_Int32;
+				return r_InsertHash_TokenHashValueArray_String_TokenType_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Boolean CompareStringIgnoreCaseOptimized(System.String, Int32, Int32, System.String, Int32, Int32)
 		/// </summary>
-		protected RMethod r_RCompareStringIgnoreCaseOptimized_String_Int32_Int32_String_Int32_Int32;
+		protected RMethod r_CompareStringIgnoreCaseOptimized_String_Int32_Int32_String_Int32_Int32;
 		public virtual RMethod RCompareStringIgnoreCaseOptimized_String_Int32_Int32_String_Int32_Int32
 		{
 			get
 			{
-				if(r_RCompareStringIgnoreCaseOptimized_String_Int32_Int32_String_Int32_Int32 == null)
+				if(r_CompareStringIgnoreCaseOptimized_String_Int32_Int32_String_Int32_Int32 == null)
 				{
-					r_RCompareStringIgnoreCaseOptimized_String_Int32_Int32_String_Int32_Int32 = new(this, "CompareStringIgnoreCaseOptimized", 0, typeof(System.String), typeof(System.Int32), typeof(System.Int32), typeof(System.String), typeof(System.Int32), typeof(System.Int32));
-					r_RCompareStringIgnoreCaseOptimized_String_Int32_Int32_String_Int32_Int32.SetBelong(this.instance);
+					r_CompareStringIgnoreCaseOptimized_String_Int32_Int32_String_Int32_Int32 = new(this, "CompareStringIgnoreCaseOptimized", 0, typeof(System.String), typeof(System.Int32), typeof(System.Int32), typeof(System.String), typeof(System.Int32), typeof(System.Int32));
+					r_CompareStringIgnoreCaseOptimized_String_Int32_Int32_String_Int32_Int32.SetBelong(this.instance);
 				}
-				return r_RCompareStringIgnoreCaseOptimized_String_Int32_Int32_String_Int32_Int32;
+				return r_CompareStringIgnoreCaseOptimized_String_Int32_Int32_String_Int32_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Equals(System.Object)
 		/// </summary>
-		protected RMethod r_REquals_Object;
+		protected RMethod r_Equals_Object;
 		public virtual RMethod REquals_Object
 		{
 			get
 			{
-				if(r_REquals_Object == null)
+				if(r_Equals_Object == null)
 				{
-					r_REquals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_REquals_Object.SetBelong(this.instance);
+					r_Equals_Object = new(this, "Equals", 0, typeof(System.Object));
+					r_Equals_Object.SetBelong(this.instance);
 				}
-				return r_REquals_Object;
+				return r_Equals_Object;
 			}
 		}
 
 		/// <summary>
 		/// Void Finalize()
 		/// </summary>
-		protected RMethod r_RFinalize;
+		protected RMethod r_Finalize;
 		public virtual RMethod RFinalize
 		{
 			get
 			{
-				if(r_RFinalize == null)
+				if(r_Finalize == null)
 				{
-					r_RFinalize = new(this, "Finalize", 0);
-					r_RFinalize.SetBelong(this.instance);
+					r_Finalize = new(this, "Finalize", 0);
+					r_Finalize.SetBelong(this.instance);
 				}
-				return r_RFinalize;
+				return r_Finalize;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetHashCode()
 		/// </summary>
-		protected RMethod r_RGetHashCode;
+		protected RMethod r_GetHashCode;
 		public virtual RMethod RGetHashCode
 		{
 			get
 			{
-				if(r_RGetHashCode == null)
+				if(r_GetHashCode == null)
 				{
-					r_RGetHashCode = new(this, "GetHashCode", 0);
-					r_RGetHashCode.SetBelong(this.instance);
+					r_GetHashCode = new(this, "GetHashCode", 0);
+					r_GetHashCode.SetBelong(this.instance);
 				}
-				return r_RGetHashCode;
+				return r_GetHashCode;
 			}
 		}
 
 		/// <summary>
 		/// System.Type GetType()
 		/// </summary>
-		protected RMethod r_RGetType;
+		protected RMethod r_GetType;
 		public virtual RMethod RGetType
 		{
 			get
 			{
-				if(r_RGetType == null)
+				if(r_GetType == null)
 				{
-					r_RGetType = new(this, "GetType", 0);
-					r_RGetType.SetBelong(this.instance);
+					r_GetType = new(this, "GetType", 0);
+					r_GetType.SetBelong(this.instance);
 				}
-				return r_RGetType;
+				return r_GetType;
 			}
 		}
 
 		/// <summary>
 		/// System.Object MemberwiseClone()
 		/// </summary>
-		protected RMethod r_RMemberwiseClone;
+		protected RMethod r_MemberwiseClone;
 		public virtual RMethod RMemberwiseClone
 		{
 			get
 			{
-				if(r_RMemberwiseClone == null)
+				if(r_MemberwiseClone == null)
 				{
-					r_RMemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_RMemberwiseClone.SetBelong(this.instance);
+					r_MemberwiseClone = new(this, "MemberwiseClone", 0);
+					r_MemberwiseClone.SetBelong(this.instance);
 				}
-				return r_RMemberwiseClone;
+				return r_MemberwiseClone;
 			}
 		}
 
 		/// <summary>
 		/// System.String ToString()
 		/// </summary>
-		protected RMethod r_RToString;
+		protected RMethod r_ToString;
 		public virtual RMethod RToString
 		{
 			get
 			{
-				if(r_RToString == null)
+				if(r_ToString == null)
 				{
-					r_RToString = new(this, "ToString", 0);
-					r_RToString.SetBelong(this.instance);
+					r_ToString = new(this, "ToString", 0);
+					r_ToString.SetBelong(this.instance);
 				}
-				return r_RToString;
+				return r_ToString;
 			}
 		}
 

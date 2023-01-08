@@ -64,357 +64,357 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 		/// <summary>
 		/// IntPtr AddrOfPinnedObject()
 		/// </summary>
-		protected RMethod r_RAddrOfPinnedObject;
+		protected RMethod r_AddrOfPinnedObject;
 		public virtual RMethod RAddrOfPinnedObject
 		{
 			get
 			{
-				if(r_RAddrOfPinnedObject == null)
+				if(r_AddrOfPinnedObject == null)
 				{
-					r_RAddrOfPinnedObject = new(this, "AddrOfPinnedObject", 0);
-					r_RAddrOfPinnedObject.SetBelong(this.instance);
+					r_AddrOfPinnedObject = new(this, "AddrOfPinnedObject", 0);
+					r_AddrOfPinnedObject.SetBelong(this.instance);
 				}
-				return r_RAddrOfPinnedObject;
+				return r_AddrOfPinnedObject;
 			}
 		}
 
 		/// <summary>
 		/// System.Runtime.InteropServices.GCHandle Alloc(System.Object)
 		/// </summary>
-		protected static RMethod r_RAlloc_Object;
+		protected static RMethod r_Alloc_Object;
 		public static RMethod RAlloc_Object
 		{
 			get
 			{
-				if(r_RAlloc_Object == null)
+				if(r_Alloc_Object == null)
 				{
-					r_RAlloc_Object = new(typeof(System.Runtime.InteropServices.GCHandle), "Alloc", 0, typeof(System.Object));
-					r_RAlloc_Object.SetBelong(null);
+					r_Alloc_Object = new(typeof(System.Runtime.InteropServices.GCHandle), "Alloc", 0, typeof(System.Object));
+					r_Alloc_Object.SetBelong(null);
 				}
-				return r_RAlloc_Object;
+				return r_Alloc_Object;
 			}
 		}
 
 		/// <summary>
 		/// System.Runtime.InteropServices.GCHandle Alloc(System.Object, System.Runtime.InteropServices.GCHandleType)
 		/// </summary>
-		protected static RMethod r_RAlloc_Object_GCHandleType;
+		protected static RMethod r_Alloc_Object_GCHandleType;
 		public static RMethod RAlloc_Object_GCHandleType
 		{
 			get
 			{
-				if(r_RAlloc_Object_GCHandleType == null)
+				if(r_Alloc_Object_GCHandleType == null)
 				{
-					r_RAlloc_Object_GCHandleType = new(typeof(System.Runtime.InteropServices.GCHandle), "Alloc", 0, typeof(System.Object), typeof(System.Runtime.InteropServices.GCHandleType));
-					r_RAlloc_Object_GCHandleType.SetBelong(null);
+					r_Alloc_Object_GCHandleType = new(typeof(System.Runtime.InteropServices.GCHandle), "Alloc", 0, typeof(System.Object), typeof(System.Runtime.InteropServices.GCHandleType));
+					r_Alloc_Object_GCHandleType.SetBelong(null);
 				}
-				return r_RAlloc_Object_GCHandleType;
+				return r_Alloc_Object_GCHandleType;
 			}
 		}
 
 		/// <summary>
 		/// Void Free()
 		/// </summary>
-		protected RMethod r_RFree;
+		protected RMethod r_Free;
 		public virtual RMethod RFree
 		{
 			get
 			{
-				if(r_RFree == null)
+				if(r_Free == null)
 				{
-					r_RFree = new(this, "Free", 0);
-					r_RFree.SetBelong(this.instance);
+					r_Free = new(this, "Free", 0);
+					r_Free.SetBelong(this.instance);
 				}
-				return r_RFree;
+				return r_Free;
 			}
 		}
 
 		/// <summary>
 		/// IntPtr op_Explicit(System.Runtime.InteropServices.GCHandle)
 		/// </summary>
-		protected static RMethod r_Rop_Explicit_GCHandle;
+		protected static RMethod r_op_Explicit_GCHandle;
 		public static RMethod Rop_Explicit_GCHandle
 		{
 			get
 			{
-				if(r_Rop_Explicit_GCHandle == null)
+				if(r_op_Explicit_GCHandle == null)
 				{
-					r_Rop_Explicit_GCHandle = new(typeof(System.Runtime.InteropServices.GCHandle), "op_Explicit", 0, typeof(System.Runtime.InteropServices.GCHandle));
-					r_Rop_Explicit_GCHandle.SetBelong(null);
+					r_op_Explicit_GCHandle = new(typeof(System.Runtime.InteropServices.GCHandle), "op_Explicit", 0, typeof(System.Runtime.InteropServices.GCHandle));
+					r_op_Explicit_GCHandle.SetBelong(null);
 				}
-				return r_Rop_Explicit_GCHandle;
+				return r_op_Explicit_GCHandle;
 			}
 		}
 
 		/// <summary>
 		/// System.Runtime.InteropServices.GCHandle op_Explicit(IntPtr)
 		/// </summary>
-		protected static RMethod r_Rop_Explicit_IntPtr;
+		protected static RMethod r_op_Explicit_IntPtr;
 		public static RMethod Rop_Explicit_IntPtr
 		{
 			get
 			{
-				if(r_Rop_Explicit_IntPtr == null)
+				if(r_op_Explicit_IntPtr == null)
 				{
-					r_Rop_Explicit_IntPtr = new(typeof(System.Runtime.InteropServices.GCHandle), "op_Explicit", 0, typeof(System.IntPtr));
-					r_Rop_Explicit_IntPtr.SetBelong(null);
+					r_op_Explicit_IntPtr = new(typeof(System.Runtime.InteropServices.GCHandle), "op_Explicit", 0, typeof(System.IntPtr));
+					r_op_Explicit_IntPtr.SetBelong(null);
 				}
-				return r_Rop_Explicit_IntPtr;
+				return r_op_Explicit_IntPtr;
 			}
 		}
 
 		/// <summary>
 		/// Boolean CheckCurrentDomain(IntPtr)
 		/// </summary>
-		protected static RMethod r_RCheckCurrentDomain_IntPtr;
+		protected static RMethod r_CheckCurrentDomain_IntPtr;
 		public static RMethod RCheckCurrentDomain_IntPtr
 		{
 			get
 			{
-				if(r_RCheckCurrentDomain_IntPtr == null)
+				if(r_CheckCurrentDomain_IntPtr == null)
 				{
-					r_RCheckCurrentDomain_IntPtr = new(typeof(System.Runtime.InteropServices.GCHandle), "CheckCurrentDomain", 0, typeof(System.IntPtr));
-					r_RCheckCurrentDomain_IntPtr.SetBelong(null);
+					r_CheckCurrentDomain_IntPtr = new(typeof(System.Runtime.InteropServices.GCHandle), "CheckCurrentDomain", 0, typeof(System.IntPtr));
+					r_CheckCurrentDomain_IntPtr.SetBelong(null);
 				}
-				return r_RCheckCurrentDomain_IntPtr;
+				return r_CheckCurrentDomain_IntPtr;
 			}
 		}
 
 		/// <summary>
 		/// System.Object GetTarget(IntPtr)
 		/// </summary>
-		protected static RMethod r_RGetTarget_IntPtr;
+		protected static RMethod r_GetTarget_IntPtr;
 		public static RMethod RGetTarget_IntPtr
 		{
 			get
 			{
-				if(r_RGetTarget_IntPtr == null)
+				if(r_GetTarget_IntPtr == null)
 				{
-					r_RGetTarget_IntPtr = new(typeof(System.Runtime.InteropServices.GCHandle), "GetTarget", 0, typeof(System.IntPtr));
-					r_RGetTarget_IntPtr.SetBelong(null);
+					r_GetTarget_IntPtr = new(typeof(System.Runtime.InteropServices.GCHandle), "GetTarget", 0, typeof(System.IntPtr));
+					r_GetTarget_IntPtr.SetBelong(null);
 				}
-				return r_RGetTarget_IntPtr;
+				return r_GetTarget_IntPtr;
 			}
 		}
 
 		/// <summary>
 		/// IntPtr GetTargetHandle(System.Object, IntPtr, System.Runtime.InteropServices.GCHandleType)
 		/// </summary>
-		protected static RMethod r_RGetTargetHandle_Object_IntPtr_GCHandleType;
+		protected static RMethod r_GetTargetHandle_Object_IntPtr_GCHandleType;
 		public static RMethod RGetTargetHandle_Object_IntPtr_GCHandleType
 		{
 			get
 			{
-				if(r_RGetTargetHandle_Object_IntPtr_GCHandleType == null)
+				if(r_GetTargetHandle_Object_IntPtr_GCHandleType == null)
 				{
-					r_RGetTargetHandle_Object_IntPtr_GCHandleType = new(typeof(System.Runtime.InteropServices.GCHandle), "GetTargetHandle", 0, typeof(System.Object), typeof(System.IntPtr), typeof(System.Runtime.InteropServices.GCHandleType));
-					r_RGetTargetHandle_Object_IntPtr_GCHandleType.SetBelong(null);
+					r_GetTargetHandle_Object_IntPtr_GCHandleType = new(typeof(System.Runtime.InteropServices.GCHandle), "GetTargetHandle", 0, typeof(System.Object), typeof(System.IntPtr), typeof(System.Runtime.InteropServices.GCHandleType));
+					r_GetTargetHandle_Object_IntPtr_GCHandleType.SetBelong(null);
 				}
-				return r_RGetTargetHandle_Object_IntPtr_GCHandleType;
+				return r_GetTargetHandle_Object_IntPtr_GCHandleType;
 			}
 		}
 
 		/// <summary>
 		/// Void FreeHandle(IntPtr)
 		/// </summary>
-		protected static RMethod r_RFreeHandle_IntPtr;
+		protected static RMethod r_FreeHandle_IntPtr;
 		public static RMethod RFreeHandle_IntPtr
 		{
 			get
 			{
-				if(r_RFreeHandle_IntPtr == null)
+				if(r_FreeHandle_IntPtr == null)
 				{
-					r_RFreeHandle_IntPtr = new(typeof(System.Runtime.InteropServices.GCHandle), "FreeHandle", 0, typeof(System.IntPtr));
-					r_RFreeHandle_IntPtr.SetBelong(null);
+					r_FreeHandle_IntPtr = new(typeof(System.Runtime.InteropServices.GCHandle), "FreeHandle", 0, typeof(System.IntPtr));
+					r_FreeHandle_IntPtr.SetBelong(null);
 				}
-				return r_RFreeHandle_IntPtr;
+				return r_FreeHandle_IntPtr;
 			}
 		}
 
 		/// <summary>
 		/// IntPtr GetAddrOfPinnedObject(IntPtr)
 		/// </summary>
-		protected static RMethod r_RGetAddrOfPinnedObject_IntPtr;
+		protected static RMethod r_GetAddrOfPinnedObject_IntPtr;
 		public static RMethod RGetAddrOfPinnedObject_IntPtr
 		{
 			get
 			{
-				if(r_RGetAddrOfPinnedObject_IntPtr == null)
+				if(r_GetAddrOfPinnedObject_IntPtr == null)
 				{
-					r_RGetAddrOfPinnedObject_IntPtr = new(typeof(System.Runtime.InteropServices.GCHandle), "GetAddrOfPinnedObject", 0, typeof(System.IntPtr));
-					r_RGetAddrOfPinnedObject_IntPtr.SetBelong(null);
+					r_GetAddrOfPinnedObject_IntPtr = new(typeof(System.Runtime.InteropServices.GCHandle), "GetAddrOfPinnedObject", 0, typeof(System.IntPtr));
+					r_GetAddrOfPinnedObject_IntPtr.SetBelong(null);
 				}
-				return r_RGetAddrOfPinnedObject_IntPtr;
+				return r_GetAddrOfPinnedObject_IntPtr;
 			}
 		}
 
 		/// <summary>
 		/// Boolean op_Equality(System.Runtime.InteropServices.GCHandle, System.Runtime.InteropServices.GCHandle)
 		/// </summary>
-		protected static RMethod r_Rop_Equality_GCHandle_GCHandle;
+		protected static RMethod r_op_Equality_GCHandle_GCHandle;
 		public static RMethod Rop_Equality_GCHandle_GCHandle
 		{
 			get
 			{
-				if(r_Rop_Equality_GCHandle_GCHandle == null)
+				if(r_op_Equality_GCHandle_GCHandle == null)
 				{
-					r_Rop_Equality_GCHandle_GCHandle = new(typeof(System.Runtime.InteropServices.GCHandle), "op_Equality", 0, typeof(System.Runtime.InteropServices.GCHandle), typeof(System.Runtime.InteropServices.GCHandle));
-					r_Rop_Equality_GCHandle_GCHandle.SetBelong(null);
+					r_op_Equality_GCHandle_GCHandle = new(typeof(System.Runtime.InteropServices.GCHandle), "op_Equality", 0, typeof(System.Runtime.InteropServices.GCHandle), typeof(System.Runtime.InteropServices.GCHandle));
+					r_op_Equality_GCHandle_GCHandle.SetBelong(null);
 				}
-				return r_Rop_Equality_GCHandle_GCHandle;
+				return r_op_Equality_GCHandle_GCHandle;
 			}
 		}
 
 		/// <summary>
 		/// Boolean op_Inequality(System.Runtime.InteropServices.GCHandle, System.Runtime.InteropServices.GCHandle)
 		/// </summary>
-		protected static RMethod r_Rop_Inequality_GCHandle_GCHandle;
+		protected static RMethod r_op_Inequality_GCHandle_GCHandle;
 		public static RMethod Rop_Inequality_GCHandle_GCHandle
 		{
 			get
 			{
-				if(r_Rop_Inequality_GCHandle_GCHandle == null)
+				if(r_op_Inequality_GCHandle_GCHandle == null)
 				{
-					r_Rop_Inequality_GCHandle_GCHandle = new(typeof(System.Runtime.InteropServices.GCHandle), "op_Inequality", 0, typeof(System.Runtime.InteropServices.GCHandle), typeof(System.Runtime.InteropServices.GCHandle));
-					r_Rop_Inequality_GCHandle_GCHandle.SetBelong(null);
+					r_op_Inequality_GCHandle_GCHandle = new(typeof(System.Runtime.InteropServices.GCHandle), "op_Inequality", 0, typeof(System.Runtime.InteropServices.GCHandle), typeof(System.Runtime.InteropServices.GCHandle));
+					r_op_Inequality_GCHandle_GCHandle.SetBelong(null);
 				}
-				return r_Rop_Inequality_GCHandle_GCHandle;
+				return r_op_Inequality_GCHandle_GCHandle;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Equals(System.Object)
 		/// </summary>
-		protected RMethod r_REquals_Object;
+		protected RMethod r_Equals_Object;
 		public virtual RMethod REquals_Object
 		{
 			get
 			{
-				if(r_REquals_Object == null)
+				if(r_Equals_Object == null)
 				{
-					r_REquals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_REquals_Object.SetBelong(this.instance);
+					r_Equals_Object = new(this, "Equals", 0, typeof(System.Object));
+					r_Equals_Object.SetBelong(this.instance);
 				}
-				return r_REquals_Object;
+				return r_Equals_Object;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetHashCode()
 		/// </summary>
-		protected RMethod r_RGetHashCode;
+		protected RMethod r_GetHashCode;
 		public virtual RMethod RGetHashCode
 		{
 			get
 			{
-				if(r_RGetHashCode == null)
+				if(r_GetHashCode == null)
 				{
-					r_RGetHashCode = new(this, "GetHashCode", 0);
-					r_RGetHashCode.SetBelong(this.instance);
+					r_GetHashCode = new(this, "GetHashCode", 0);
+					r_GetHashCode.SetBelong(this.instance);
 				}
-				return r_RGetHashCode;
+				return r_GetHashCode;
 			}
 		}
 
 		/// <summary>
 		/// System.Runtime.InteropServices.GCHandle FromIntPtr(IntPtr)
 		/// </summary>
-		protected static RMethod r_RFromIntPtr_IntPtr;
+		protected static RMethod r_FromIntPtr_IntPtr;
 		public static RMethod RFromIntPtr_IntPtr
 		{
 			get
 			{
-				if(r_RFromIntPtr_IntPtr == null)
+				if(r_FromIntPtr_IntPtr == null)
 				{
-					r_RFromIntPtr_IntPtr = new(typeof(System.Runtime.InteropServices.GCHandle), "FromIntPtr", 0, typeof(System.IntPtr));
-					r_RFromIntPtr_IntPtr.SetBelong(null);
+					r_FromIntPtr_IntPtr = new(typeof(System.Runtime.InteropServices.GCHandle), "FromIntPtr", 0, typeof(System.IntPtr));
+					r_FromIntPtr_IntPtr.SetBelong(null);
 				}
-				return r_RFromIntPtr_IntPtr;
+				return r_FromIntPtr_IntPtr;
 			}
 		}
 
 		/// <summary>
 		/// IntPtr ToIntPtr(System.Runtime.InteropServices.GCHandle)
 		/// </summary>
-		protected static RMethod r_RToIntPtr_GCHandle;
+		protected static RMethod r_ToIntPtr_GCHandle;
 		public static RMethod RToIntPtr_GCHandle
 		{
 			get
 			{
-				if(r_RToIntPtr_GCHandle == null)
+				if(r_ToIntPtr_GCHandle == null)
 				{
-					r_RToIntPtr_GCHandle = new(typeof(System.Runtime.InteropServices.GCHandle), "ToIntPtr", 0, typeof(System.Runtime.InteropServices.GCHandle));
-					r_RToIntPtr_GCHandle.SetBelong(null);
+					r_ToIntPtr_GCHandle = new(typeof(System.Runtime.InteropServices.GCHandle), "ToIntPtr", 0, typeof(System.Runtime.InteropServices.GCHandle));
+					r_ToIntPtr_GCHandle.SetBelong(null);
 				}
-				return r_RToIntPtr_GCHandle;
+				return r_ToIntPtr_GCHandle;
 			}
 		}
 
 		/// <summary>
 		/// System.String ToString()
 		/// </summary>
-		protected RMethod r_RToString;
+		protected RMethod r_ToString;
 		public virtual RMethod RToString
 		{
 			get
 			{
-				if(r_RToString == null)
+				if(r_ToString == null)
 				{
-					r_RToString = new(this, "ToString", 0);
-					r_RToString.SetBelong(this.instance);
+					r_ToString = new(this, "ToString", 0);
+					r_ToString.SetBelong(this.instance);
 				}
-				return r_RToString;
+				return r_ToString;
 			}
 		}
 
 		/// <summary>
 		/// Void Finalize()
 		/// </summary>
-		protected RMethod r_RFinalize;
+		protected RMethod r_Finalize;
 		public virtual RMethod RFinalize
 		{
 			get
 			{
-				if(r_RFinalize == null)
+				if(r_Finalize == null)
 				{
-					r_RFinalize = new(this, "Finalize", 0);
-					r_RFinalize.SetBelong(this.instance);
+					r_Finalize = new(this, "Finalize", 0);
+					r_Finalize.SetBelong(this.instance);
 				}
-				return r_RFinalize;
+				return r_Finalize;
 			}
 		}
 
 		/// <summary>
 		/// System.Type GetType()
 		/// </summary>
-		protected RMethod r_RGetType;
+		protected RMethod r_GetType;
 		public virtual RMethod RGetType
 		{
 			get
 			{
-				if(r_RGetType == null)
+				if(r_GetType == null)
 				{
-					r_RGetType = new(this, "GetType", 0);
-					r_RGetType.SetBelong(this.instance);
+					r_GetType = new(this, "GetType", 0);
+					r_GetType.SetBelong(this.instance);
 				}
-				return r_RGetType;
+				return r_GetType;
 			}
 		}
 
 		/// <summary>
 		/// System.Object MemberwiseClone()
 		/// </summary>
-		protected RMethod r_RMemberwiseClone;
+		protected RMethod r_MemberwiseClone;
 		public virtual RMethod RMemberwiseClone
 		{
 			get
 			{
-				if(r_RMemberwiseClone == null)
+				if(r_MemberwiseClone == null)
 				{
-					r_RMemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_RMemberwiseClone.SetBelong(this.instance);
+					r_MemberwiseClone = new(this, "MemberwiseClone", 0);
+					r_MemberwiseClone.SetBelong(this.instance);
 				}
-				return r_RMemberwiseClone;
+				return r_MemberwiseClone;
 			}
 		}
 

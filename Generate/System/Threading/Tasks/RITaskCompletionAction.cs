@@ -30,17 +30,17 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 		/// <summary>
 		/// Void Invoke(System.Threading.Tasks.Task)
 		/// </summary>
-		protected RMethod r_RInvoke_Task;
+		protected RMethod r_Invoke_Task;
 		public virtual RMethod RInvoke_Task
 		{
 			get
 			{
-				if(r_RInvoke_Task == null)
+				if(r_Invoke_Task == null)
 				{
-					r_RInvoke_Task = new(this, "Invoke", 0, typeof(System.Threading.Tasks.Task));
-					r_RInvoke_Task.SetBelong(this.instance);
+					r_Invoke_Task = new(this, "Invoke", 0, typeof(System.Threading.Tasks.Task));
+					r_Invoke_Task.SetBelong(this.instance);
 				}
-				return r_RInvoke_Task;
+				return r_Invoke_Task;
 			}
 		}
 

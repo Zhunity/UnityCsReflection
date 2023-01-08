@@ -13,51 +13,51 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks.RSources
 		/// <summary>
 		/// System.Threading.Tasks.Sources.ValueTaskSourceStatus GetStatus(Int16)
 		/// </summary>
-		protected RMethod r_RGetStatus_Int16;
+		protected RMethod r_GetStatus_Int16;
 		public virtual RMethod RGetStatus_Int16
 		{
 			get
 			{
-				if(r_RGetStatus_Int16 == null)
+				if(r_GetStatus_Int16 == null)
 				{
-					r_RGetStatus_Int16 = new(this, "GetStatus", 0, typeof(System.Int16));
-					r_RGetStatus_Int16.SetBelong(this.instance);
+					r_GetStatus_Int16 = new(this, "GetStatus", 0, typeof(System.Int16));
+					r_GetStatus_Int16.SetBelong(this.instance);
 				}
-				return r_RGetStatus_Int16;
+				return r_GetStatus_Int16;
 			}
 		}
 
 		/// <summary>
 		/// Void OnCompleted(System.Action`1[System.Object], System.Object, Int16, System.Threading.Tasks.Sources.ValueTaskSourceOnCompletedFlags)
 		/// </summary>
-		protected RMethod r_ROnCompleted_Action_d_Object_p__Object_Int16_ValueTaskSourceOnCompletedFlags;
+		protected RMethod r_OnCompleted_Action_d_Object_p__Object_Int16_ValueTaskSourceOnCompletedFlags;
 		public virtual RMethod ROnCompleted_Action_d_Object_p__Object_Int16_ValueTaskSourceOnCompletedFlags
 		{
 			get
 			{
-				if(r_ROnCompleted_Action_d_Object_p__Object_Int16_ValueTaskSourceOnCompletedFlags == null)
+				if(r_OnCompleted_Action_d_Object_p__Object_Int16_ValueTaskSourceOnCompletedFlags == null)
 				{
-					r_ROnCompleted_Action_d_Object_p__Object_Int16_ValueTaskSourceOnCompletedFlags = new(this, "OnCompleted", 0, typeof(System.Action<>).MakeGenericType(typeof(System.Object)), typeof(System.Object), typeof(System.Int16), typeof(System.Threading.Tasks.Sources.ValueTaskSourceOnCompletedFlags));
-					r_ROnCompleted_Action_d_Object_p__Object_Int16_ValueTaskSourceOnCompletedFlags.SetBelong(this.instance);
+					r_OnCompleted_Action_d_Object_p__Object_Int16_ValueTaskSourceOnCompletedFlags = new(this, "OnCompleted", 0, typeof(System.Action<>).MakeGenericType(typeof(System.Object)), typeof(System.Object), typeof(System.Int16), typeof(System.Threading.Tasks.Sources.ValueTaskSourceOnCompletedFlags));
+					r_OnCompleted_Action_d_Object_p__Object_Int16_ValueTaskSourceOnCompletedFlags.SetBelong(this.instance);
 				}
-				return r_ROnCompleted_Action_d_Object_p__Object_Int16_ValueTaskSourceOnCompletedFlags;
+				return r_OnCompleted_Action_d_Object_p__Object_Int16_ValueTaskSourceOnCompletedFlags;
 			}
 		}
 
 		/// <summary>
 		/// Void GetResult(Int16)
 		/// </summary>
-		protected RMethod r_RGetResult_Int16;
+		protected RMethod r_GetResult_Int16;
 		public virtual RMethod RGetResult_Int16
 		{
 			get
 			{
-				if(r_RGetResult_Int16 == null)
+				if(r_GetResult_Int16 == null)
 				{
-					r_RGetResult_Int16 = new(this, "GetResult", 0, typeof(System.Int16));
-					r_RGetResult_Int16.SetBelong(this.instance);
+					r_GetResult_Int16 = new(this, "GetResult", 0, typeof(System.Int16));
+					r_GetResult_Int16.SetBelong(this.instance);
 				}
-				return r_RGetResult_Int16;
+				return r_GetResult_Int16;
 			}
 		}
 

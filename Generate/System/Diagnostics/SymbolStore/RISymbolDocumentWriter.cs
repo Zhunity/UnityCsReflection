@@ -13,34 +13,34 @@ namespace SMFrame.Editor.Refleaction.RSystem.RDiagnostics.RSymbolStore
 		/// <summary>
 		/// Void SetCheckSum(System.Guid, Byte[])
 		/// </summary>
-		protected RMethod r_RSetCheckSum_Guid_ByteArray;
+		protected RMethod r_SetCheckSum_Guid_ByteArray;
 		public virtual RMethod RSetCheckSum_Guid_ByteArray
 		{
 			get
 			{
-				if(r_RSetCheckSum_Guid_ByteArray == null)
+				if(r_SetCheckSum_Guid_ByteArray == null)
 				{
-					r_RSetCheckSum_Guid_ByteArray = new(this, "SetCheckSum", 0, typeof(System.Guid), typeof(System.Byte).MakeArrayType());
-					r_RSetCheckSum_Guid_ByteArray.SetBelong(this.instance);
+					r_SetCheckSum_Guid_ByteArray = new(this, "SetCheckSum", 0, typeof(System.Guid), typeof(System.Byte).MakeArrayType());
+					r_SetCheckSum_Guid_ByteArray.SetBelong(this.instance);
 				}
-				return r_RSetCheckSum_Guid_ByteArray;
+				return r_SetCheckSum_Guid_ByteArray;
 			}
 		}
 
 		/// <summary>
 		/// Void SetSource(Byte[])
 		/// </summary>
-		protected RMethod r_RSetSource_ByteArray;
+		protected RMethod r_SetSource_ByteArray;
 		public virtual RMethod RSetSource_ByteArray
 		{
 			get
 			{
-				if(r_RSetSource_ByteArray == null)
+				if(r_SetSource_ByteArray == null)
 				{
-					r_RSetSource_ByteArray = new(this, "SetSource", 0, typeof(System.Byte).MakeArrayType());
-					r_RSetSource_ByteArray.SetBelong(this.instance);
+					r_SetSource_ByteArray = new(this, "SetSource", 0, typeof(System.Byte).MakeArrayType());
+					r_SetSource_ByteArray.SetBelong(this.instance);
 				}
-				return r_RSetSource_ByteArray;
+				return r_SetSource_ByteArray;
 			}
 		}
 

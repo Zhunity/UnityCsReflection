@@ -64,17 +64,17 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections
 		/// <summary>
 		/// Void CopyTo(System.Array, Int32)
 		/// </summary>
-		protected RMethod r_RCopyTo_Array_Int32;
+		protected RMethod r_CopyTo_Array_Int32;
 		public virtual RMethod RCopyTo_Array_Int32
 		{
 			get
 			{
-				if(r_RCopyTo_Array_Int32 == null)
+				if(r_CopyTo_Array_Int32 == null)
 				{
-					r_RCopyTo_Array_Int32 = new(this, "CopyTo", 0, typeof(System.Array), typeof(System.Int32));
-					r_RCopyTo_Array_Int32.SetBelong(this.instance);
+					r_CopyTo_Array_Int32 = new(this, "CopyTo", 0, typeof(System.Array), typeof(System.Int32));
+					r_CopyTo_Array_Int32.SetBelong(this.instance);
 				}
-				return r_RCopyTo_Array_Int32;
+				return r_CopyTo_Array_Int32;
 			}
 		}
 

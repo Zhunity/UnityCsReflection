@@ -115,782 +115,782 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
 		/// <summary>
 		/// System.Security.Cryptography.DSA Create()
 		/// </summary>
-		protected static RMethod r_RCreate;
+		protected static RMethod r_Create;
 		public static RMethod RCreate
 		{
 			get
 			{
-				if(r_RCreate == null)
+				if(r_Create == null)
 				{
-					r_RCreate = new(typeof(System.Security.Cryptography.DSA), "Create", 0);
-					r_RCreate.SetBelong(null);
+					r_Create = new(typeof(System.Security.Cryptography.DSA), "Create", 0);
+					r_Create.SetBelong(null);
 				}
-				return r_RCreate;
+				return r_Create;
 			}
 		}
 
 		/// <summary>
 		/// System.Security.Cryptography.DSA Create(System.String)
 		/// </summary>
-		protected static RMethod r_RCreate_String;
+		protected static RMethod r_Create_String;
 		public static RMethod RCreate_String
 		{
 			get
 			{
-				if(r_RCreate_String == null)
+				if(r_Create_String == null)
 				{
-					r_RCreate_String = new(typeof(System.Security.Cryptography.DSA), "Create", 0, typeof(System.String));
-					r_RCreate_String.SetBelong(null);
+					r_Create_String = new(typeof(System.Security.Cryptography.DSA), "Create", 0, typeof(System.String));
+					r_Create_String.SetBelong(null);
 				}
-				return r_RCreate_String;
+				return r_Create_String;
 			}
 		}
 
 		/// <summary>
 		/// Byte[] CreateSignature(Byte[])
 		/// </summary>
-		protected RMethod r_RCreateSignature_ByteArray;
+		protected RMethod r_CreateSignature_ByteArray;
 		public virtual RMethod RCreateSignature_ByteArray
 		{
 			get
 			{
-				if(r_RCreateSignature_ByteArray == null)
+				if(r_CreateSignature_ByteArray == null)
 				{
-					r_RCreateSignature_ByteArray = new(this, "CreateSignature", 0, typeof(System.Byte).MakeArrayType());
-					r_RCreateSignature_ByteArray.SetBelong(this.instance);
+					r_CreateSignature_ByteArray = new(this, "CreateSignature", 0, typeof(System.Byte).MakeArrayType());
+					r_CreateSignature_ByteArray.SetBelong(this.instance);
 				}
-				return r_RCreateSignature_ByteArray;
+				return r_CreateSignature_ByteArray;
 			}
 		}
 
 		/// <summary>
 		/// Boolean VerifySignature(Byte[], Byte[])
 		/// </summary>
-		protected RMethod r_RVerifySignature_ByteArray_ByteArray;
+		protected RMethod r_VerifySignature_ByteArray_ByteArray;
 		public virtual RMethod RVerifySignature_ByteArray_ByteArray
 		{
 			get
 			{
-				if(r_RVerifySignature_ByteArray_ByteArray == null)
+				if(r_VerifySignature_ByteArray_ByteArray == null)
 				{
-					r_RVerifySignature_ByteArray_ByteArray = new(this, "VerifySignature", 0, typeof(System.Byte).MakeArrayType(), typeof(System.Byte).MakeArrayType());
-					r_RVerifySignature_ByteArray_ByteArray.SetBelong(this.instance);
+					r_VerifySignature_ByteArray_ByteArray = new(this, "VerifySignature", 0, typeof(System.Byte).MakeArrayType(), typeof(System.Byte).MakeArrayType());
+					r_VerifySignature_ByteArray_ByteArray.SetBelong(this.instance);
 				}
-				return r_RVerifySignature_ByteArray_ByteArray;
+				return r_VerifySignature_ByteArray_ByteArray;
 			}
 		}
 
 		/// <summary>
 		/// Byte[] HashData(Byte[], Int32, Int32, System.Security.Cryptography.HashAlgorithmName)
 		/// </summary>
-		protected RMethod r_RHashData_ByteArray_Int32_Int32_HashAlgorithmName;
+		protected RMethod r_HashData_ByteArray_Int32_Int32_HashAlgorithmName;
 		public virtual RMethod RHashData_ByteArray_Int32_Int32_HashAlgorithmName
 		{
 			get
 			{
-				if(r_RHashData_ByteArray_Int32_Int32_HashAlgorithmName == null)
+				if(r_HashData_ByteArray_Int32_Int32_HashAlgorithmName == null)
 				{
-					r_RHashData_ByteArray_Int32_Int32_HashAlgorithmName = new(this, "HashData", 0, typeof(System.Byte).MakeArrayType(), typeof(System.Int32), typeof(System.Int32), typeof(System.Security.Cryptography.HashAlgorithmName));
-					r_RHashData_ByteArray_Int32_Int32_HashAlgorithmName.SetBelong(this.instance);
+					r_HashData_ByteArray_Int32_Int32_HashAlgorithmName = new(this, "HashData", 0, typeof(System.Byte).MakeArrayType(), typeof(System.Int32), typeof(System.Int32), typeof(System.Security.Cryptography.HashAlgorithmName));
+					r_HashData_ByteArray_Int32_Int32_HashAlgorithmName.SetBelong(this.instance);
 				}
-				return r_RHashData_ByteArray_Int32_Int32_HashAlgorithmName;
+				return r_HashData_ByteArray_Int32_Int32_HashAlgorithmName;
 			}
 		}
 
 		/// <summary>
 		/// Byte[] HashData(System.IO.Stream, System.Security.Cryptography.HashAlgorithmName)
 		/// </summary>
-		protected RMethod r_RHashData_Stream_HashAlgorithmName;
+		protected RMethod r_HashData_Stream_HashAlgorithmName;
 		public virtual RMethod RHashData_Stream_HashAlgorithmName
 		{
 			get
 			{
-				if(r_RHashData_Stream_HashAlgorithmName == null)
+				if(r_HashData_Stream_HashAlgorithmName == null)
 				{
-					r_RHashData_Stream_HashAlgorithmName = new(this, "HashData", 0, typeof(System.IO.Stream), typeof(System.Security.Cryptography.HashAlgorithmName));
-					r_RHashData_Stream_HashAlgorithmName.SetBelong(this.instance);
+					r_HashData_Stream_HashAlgorithmName = new(this, "HashData", 0, typeof(System.IO.Stream), typeof(System.Security.Cryptography.HashAlgorithmName));
+					r_HashData_Stream_HashAlgorithmName.SetBelong(this.instance);
 				}
-				return r_RHashData_Stream_HashAlgorithmName;
+				return r_HashData_Stream_HashAlgorithmName;
 			}
 		}
 
 		/// <summary>
 		/// Byte[] SignData(Byte[], System.Security.Cryptography.HashAlgorithmName)
 		/// </summary>
-		protected RMethod r_RSignData_ByteArray_HashAlgorithmName;
+		protected RMethod r_SignData_ByteArray_HashAlgorithmName;
 		public virtual RMethod RSignData_ByteArray_HashAlgorithmName
 		{
 			get
 			{
-				if(r_RSignData_ByteArray_HashAlgorithmName == null)
+				if(r_SignData_ByteArray_HashAlgorithmName == null)
 				{
-					r_RSignData_ByteArray_HashAlgorithmName = new(this, "SignData", 0, typeof(System.Byte).MakeArrayType(), typeof(System.Security.Cryptography.HashAlgorithmName));
-					r_RSignData_ByteArray_HashAlgorithmName.SetBelong(this.instance);
+					r_SignData_ByteArray_HashAlgorithmName = new(this, "SignData", 0, typeof(System.Byte).MakeArrayType(), typeof(System.Security.Cryptography.HashAlgorithmName));
+					r_SignData_ByteArray_HashAlgorithmName.SetBelong(this.instance);
 				}
-				return r_RSignData_ByteArray_HashAlgorithmName;
+				return r_SignData_ByteArray_HashAlgorithmName;
 			}
 		}
 
 		/// <summary>
 		/// Byte[] SignData(Byte[], Int32, Int32, System.Security.Cryptography.HashAlgorithmName)
 		/// </summary>
-		protected RMethod r_RSignData_ByteArray_Int32_Int32_HashAlgorithmName;
+		protected RMethod r_SignData_ByteArray_Int32_Int32_HashAlgorithmName;
 		public virtual RMethod RSignData_ByteArray_Int32_Int32_HashAlgorithmName
 		{
 			get
 			{
-				if(r_RSignData_ByteArray_Int32_Int32_HashAlgorithmName == null)
+				if(r_SignData_ByteArray_Int32_Int32_HashAlgorithmName == null)
 				{
-					r_RSignData_ByteArray_Int32_Int32_HashAlgorithmName = new(this, "SignData", 0, typeof(System.Byte).MakeArrayType(), typeof(System.Int32), typeof(System.Int32), typeof(System.Security.Cryptography.HashAlgorithmName));
-					r_RSignData_ByteArray_Int32_Int32_HashAlgorithmName.SetBelong(this.instance);
+					r_SignData_ByteArray_Int32_Int32_HashAlgorithmName = new(this, "SignData", 0, typeof(System.Byte).MakeArrayType(), typeof(System.Int32), typeof(System.Int32), typeof(System.Security.Cryptography.HashAlgorithmName));
+					r_SignData_ByteArray_Int32_Int32_HashAlgorithmName.SetBelong(this.instance);
 				}
-				return r_RSignData_ByteArray_Int32_Int32_HashAlgorithmName;
+				return r_SignData_ByteArray_Int32_Int32_HashAlgorithmName;
 			}
 		}
 
 		/// <summary>
 		/// Byte[] SignData(System.IO.Stream, System.Security.Cryptography.HashAlgorithmName)
 		/// </summary>
-		protected RMethod r_RSignData_Stream_HashAlgorithmName;
+		protected RMethod r_SignData_Stream_HashAlgorithmName;
 		public virtual RMethod RSignData_Stream_HashAlgorithmName
 		{
 			get
 			{
-				if(r_RSignData_Stream_HashAlgorithmName == null)
+				if(r_SignData_Stream_HashAlgorithmName == null)
 				{
-					r_RSignData_Stream_HashAlgorithmName = new(this, "SignData", 0, typeof(System.IO.Stream), typeof(System.Security.Cryptography.HashAlgorithmName));
-					r_RSignData_Stream_HashAlgorithmName.SetBelong(this.instance);
+					r_SignData_Stream_HashAlgorithmName = new(this, "SignData", 0, typeof(System.IO.Stream), typeof(System.Security.Cryptography.HashAlgorithmName));
+					r_SignData_Stream_HashAlgorithmName.SetBelong(this.instance);
 				}
-				return r_RSignData_Stream_HashAlgorithmName;
+				return r_SignData_Stream_HashAlgorithmName;
 			}
 		}
 
 		/// <summary>
 		/// Boolean VerifyData(Byte[], Byte[], System.Security.Cryptography.HashAlgorithmName)
 		/// </summary>
-		protected RMethod r_RVerifyData_ByteArray_ByteArray_HashAlgorithmName;
+		protected RMethod r_VerifyData_ByteArray_ByteArray_HashAlgorithmName;
 		public virtual RMethod RVerifyData_ByteArray_ByteArray_HashAlgorithmName
 		{
 			get
 			{
-				if(r_RVerifyData_ByteArray_ByteArray_HashAlgorithmName == null)
+				if(r_VerifyData_ByteArray_ByteArray_HashAlgorithmName == null)
 				{
-					r_RVerifyData_ByteArray_ByteArray_HashAlgorithmName = new(this, "VerifyData", 0, typeof(System.Byte).MakeArrayType(), typeof(System.Byte).MakeArrayType(), typeof(System.Security.Cryptography.HashAlgorithmName));
-					r_RVerifyData_ByteArray_ByteArray_HashAlgorithmName.SetBelong(this.instance);
+					r_VerifyData_ByteArray_ByteArray_HashAlgorithmName = new(this, "VerifyData", 0, typeof(System.Byte).MakeArrayType(), typeof(System.Byte).MakeArrayType(), typeof(System.Security.Cryptography.HashAlgorithmName));
+					r_VerifyData_ByteArray_ByteArray_HashAlgorithmName.SetBelong(this.instance);
 				}
-				return r_RVerifyData_ByteArray_ByteArray_HashAlgorithmName;
+				return r_VerifyData_ByteArray_ByteArray_HashAlgorithmName;
 			}
 		}
 
 		/// <summary>
 		/// Boolean VerifyData(Byte[], Int32, Int32, Byte[], System.Security.Cryptography.HashAlgorithmName)
 		/// </summary>
-		protected RMethod r_RVerifyData_ByteArray_Int32_Int32_ByteArray_HashAlgorithmName;
+		protected RMethod r_VerifyData_ByteArray_Int32_Int32_ByteArray_HashAlgorithmName;
 		public virtual RMethod RVerifyData_ByteArray_Int32_Int32_ByteArray_HashAlgorithmName
 		{
 			get
 			{
-				if(r_RVerifyData_ByteArray_Int32_Int32_ByteArray_HashAlgorithmName == null)
+				if(r_VerifyData_ByteArray_Int32_Int32_ByteArray_HashAlgorithmName == null)
 				{
-					r_RVerifyData_ByteArray_Int32_Int32_ByteArray_HashAlgorithmName = new(this, "VerifyData", 0, typeof(System.Byte).MakeArrayType(), typeof(System.Int32), typeof(System.Int32), typeof(System.Byte).MakeArrayType(), typeof(System.Security.Cryptography.HashAlgorithmName));
-					r_RVerifyData_ByteArray_Int32_Int32_ByteArray_HashAlgorithmName.SetBelong(this.instance);
+					r_VerifyData_ByteArray_Int32_Int32_ByteArray_HashAlgorithmName = new(this, "VerifyData", 0, typeof(System.Byte).MakeArrayType(), typeof(System.Int32), typeof(System.Int32), typeof(System.Byte).MakeArrayType(), typeof(System.Security.Cryptography.HashAlgorithmName));
+					r_VerifyData_ByteArray_Int32_Int32_ByteArray_HashAlgorithmName.SetBelong(this.instance);
 				}
-				return r_RVerifyData_ByteArray_Int32_Int32_ByteArray_HashAlgorithmName;
+				return r_VerifyData_ByteArray_Int32_Int32_ByteArray_HashAlgorithmName;
 			}
 		}
 
 		/// <summary>
 		/// Boolean VerifyData(System.IO.Stream, Byte[], System.Security.Cryptography.HashAlgorithmName)
 		/// </summary>
-		protected RMethod r_RVerifyData_Stream_ByteArray_HashAlgorithmName;
+		protected RMethod r_VerifyData_Stream_ByteArray_HashAlgorithmName;
 		public virtual RMethod RVerifyData_Stream_ByteArray_HashAlgorithmName
 		{
 			get
 			{
-				if(r_RVerifyData_Stream_ByteArray_HashAlgorithmName == null)
+				if(r_VerifyData_Stream_ByteArray_HashAlgorithmName == null)
 				{
-					r_RVerifyData_Stream_ByteArray_HashAlgorithmName = new(this, "VerifyData", 0, typeof(System.IO.Stream), typeof(System.Byte).MakeArrayType(), typeof(System.Security.Cryptography.HashAlgorithmName));
-					r_RVerifyData_Stream_ByteArray_HashAlgorithmName.SetBelong(this.instance);
+					r_VerifyData_Stream_ByteArray_HashAlgorithmName = new(this, "VerifyData", 0, typeof(System.IO.Stream), typeof(System.Byte).MakeArrayType(), typeof(System.Security.Cryptography.HashAlgorithmName));
+					r_VerifyData_Stream_ByteArray_HashAlgorithmName.SetBelong(this.instance);
 				}
-				return r_RVerifyData_Stream_ByteArray_HashAlgorithmName;
+				return r_VerifyData_Stream_ByteArray_HashAlgorithmName;
 			}
 		}
 
 		/// <summary>
 		/// Void FromXmlString(System.String)
 		/// </summary>
-		protected RMethod r_RFromXmlString_String;
+		protected RMethod r_FromXmlString_String;
 		public virtual RMethod RFromXmlString_String
 		{
 			get
 			{
-				if(r_RFromXmlString_String == null)
+				if(r_FromXmlString_String == null)
 				{
-					r_RFromXmlString_String = new(this, "FromXmlString", 0, typeof(System.String));
-					r_RFromXmlString_String.SetBelong(this.instance);
+					r_FromXmlString_String = new(this, "FromXmlString", 0, typeof(System.String));
+					r_FromXmlString_String.SetBelong(this.instance);
 				}
-				return r_RFromXmlString_String;
+				return r_FromXmlString_String;
 			}
 		}
 
 		/// <summary>
 		/// System.String ToXmlString(Boolean)
 		/// </summary>
-		protected RMethod r_RToXmlString_Boolean;
+		protected RMethod r_ToXmlString_Boolean;
 		public virtual RMethod RToXmlString_Boolean
 		{
 			get
 			{
-				if(r_RToXmlString_Boolean == null)
+				if(r_ToXmlString_Boolean == null)
 				{
-					r_RToXmlString_Boolean = new(this, "ToXmlString", 0, typeof(System.Boolean));
-					r_RToXmlString_Boolean.SetBelong(this.instance);
+					r_ToXmlString_Boolean = new(this, "ToXmlString", 0, typeof(System.Boolean));
+					r_ToXmlString_Boolean.SetBelong(this.instance);
 				}
-				return r_RToXmlString_Boolean;
+				return r_ToXmlString_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// System.Security.Cryptography.DSAParameters ExportParameters(Boolean)
 		/// </summary>
-		protected RMethod r_RExportParameters_Boolean;
+		protected RMethod r_ExportParameters_Boolean;
 		public virtual RMethod RExportParameters_Boolean
 		{
 			get
 			{
-				if(r_RExportParameters_Boolean == null)
+				if(r_ExportParameters_Boolean == null)
 				{
-					r_RExportParameters_Boolean = new(this, "ExportParameters", 0, typeof(System.Boolean));
-					r_RExportParameters_Boolean.SetBelong(this.instance);
+					r_ExportParameters_Boolean = new(this, "ExportParameters", 0, typeof(System.Boolean));
+					r_ExportParameters_Boolean.SetBelong(this.instance);
 				}
-				return r_RExportParameters_Boolean;
+				return r_ExportParameters_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Void ImportParameters(System.Security.Cryptography.DSAParameters)
 		/// </summary>
-		protected RMethod r_RImportParameters_DSAParameters;
+		protected RMethod r_ImportParameters_DSAParameters;
 		public virtual RMethod RImportParameters_DSAParameters
 		{
 			get
 			{
-				if(r_RImportParameters_DSAParameters == null)
+				if(r_ImportParameters_DSAParameters == null)
 				{
-					r_RImportParameters_DSAParameters = new(this, "ImportParameters", 0, typeof(System.Security.Cryptography.DSAParameters));
-					r_RImportParameters_DSAParameters.SetBelong(this.instance);
+					r_ImportParameters_DSAParameters = new(this, "ImportParameters", 0, typeof(System.Security.Cryptography.DSAParameters));
+					r_ImportParameters_DSAParameters.SetBelong(this.instance);
 				}
-				return r_RImportParameters_DSAParameters;
+				return r_ImportParameters_DSAParameters;
 			}
 		}
 
 		/// <summary>
 		/// System.Exception DerivedClassMustOverride()
 		/// </summary>
-		protected static RMethod r_RDerivedClassMustOverride;
+		protected static RMethod r_DerivedClassMustOverride;
 		public static RMethod RDerivedClassMustOverride
 		{
 			get
 			{
-				if(r_RDerivedClassMustOverride == null)
+				if(r_DerivedClassMustOverride == null)
 				{
-					r_RDerivedClassMustOverride = new(typeof(System.Security.Cryptography.DSA), "DerivedClassMustOverride", 0);
-					r_RDerivedClassMustOverride.SetBelong(null);
+					r_DerivedClassMustOverride = new(typeof(System.Security.Cryptography.DSA), "DerivedClassMustOverride", 0);
+					r_DerivedClassMustOverride.SetBelong(null);
 				}
-				return r_RDerivedClassMustOverride;
+				return r_DerivedClassMustOverride;
 			}
 		}
 
 		/// <summary>
 		/// System.Exception HashAlgorithmNameNullOrEmpty()
 		/// </summary>
-		protected static RMethod r_RHashAlgorithmNameNullOrEmpty;
+		protected static RMethod r_HashAlgorithmNameNullOrEmpty;
 		public static RMethod RHashAlgorithmNameNullOrEmpty
 		{
 			get
 			{
-				if(r_RHashAlgorithmNameNullOrEmpty == null)
+				if(r_HashAlgorithmNameNullOrEmpty == null)
 				{
-					r_RHashAlgorithmNameNullOrEmpty = new(typeof(System.Security.Cryptography.DSA), "HashAlgorithmNameNullOrEmpty", 0);
-					r_RHashAlgorithmNameNullOrEmpty.SetBelong(null);
+					r_HashAlgorithmNameNullOrEmpty = new(typeof(System.Security.Cryptography.DSA), "HashAlgorithmNameNullOrEmpty", 0);
+					r_HashAlgorithmNameNullOrEmpty.SetBelong(null);
 				}
-				return r_RHashAlgorithmNameNullOrEmpty;
+				return r_HashAlgorithmNameNullOrEmpty;
 			}
 		}
 
 		/// <summary>
 		/// System.Security.Cryptography.DSA Create(Int32)
 		/// </summary>
-		protected static RMethod r_RCreate_Int32;
+		protected static RMethod r_Create_Int32;
 		public static RMethod RCreate_Int32
 		{
 			get
 			{
-				if(r_RCreate_Int32 == null)
+				if(r_Create_Int32 == null)
 				{
-					r_RCreate_Int32 = new(typeof(System.Security.Cryptography.DSA), "Create", 0, typeof(System.Int32));
-					r_RCreate_Int32.SetBelong(null);
+					r_Create_Int32 = new(typeof(System.Security.Cryptography.DSA), "Create", 0, typeof(System.Int32));
+					r_Create_Int32.SetBelong(null);
 				}
-				return r_RCreate_Int32;
+				return r_Create_Int32;
 			}
 		}
 
 		/// <summary>
 		/// System.Security.Cryptography.DSA Create(System.Security.Cryptography.DSAParameters)
 		/// </summary>
-		protected static RMethod r_RCreate_DSAParameters;
+		protected static RMethod r_Create_DSAParameters;
 		public static RMethod RCreate_DSAParameters
 		{
 			get
 			{
-				if(r_RCreate_DSAParameters == null)
+				if(r_Create_DSAParameters == null)
 				{
-					r_RCreate_DSAParameters = new(typeof(System.Security.Cryptography.DSA), "Create", 0, typeof(System.Security.Cryptography.DSAParameters));
-					r_RCreate_DSAParameters.SetBelong(null);
+					r_Create_DSAParameters = new(typeof(System.Security.Cryptography.DSA), "Create", 0, typeof(System.Security.Cryptography.DSAParameters));
+					r_Create_DSAParameters.SetBelong(null);
 				}
-				return r_RCreate_DSAParameters;
+				return r_Create_DSAParameters;
 			}
 		}
 
 		/// <summary>
 		/// Boolean TryCreateSignature(System.ReadOnlySpan`1[System.Byte], System.Span`1[System.Byte], Int32 ByRef)
 		/// </summary>
-		protected RMethod r_RTryCreateSignature_ReadOnlySpan_d_Byte_p__Span_d_Byte_p__Out_Int32;
+		protected RMethod r_TryCreateSignature_ReadOnlySpan_d_Byte_p__Span_d_Byte_p__Out_Int32;
 		public virtual RMethod RTryCreateSignature_ReadOnlySpan_d_Byte_p__Span_d_Byte_p__Out_Int32
 		{
 			get
 			{
-				if(r_RTryCreateSignature_ReadOnlySpan_d_Byte_p__Span_d_Byte_p__Out_Int32 == null)
+				if(r_TryCreateSignature_ReadOnlySpan_d_Byte_p__Span_d_Byte_p__Out_Int32 == null)
 				{
-					r_RTryCreateSignature_ReadOnlySpan_d_Byte_p__Span_d_Byte_p__Out_Int32 = new(this, "TryCreateSignature", 0, typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Byte)), typeof(System.Span<>).MakeGenericType(typeof(System.Byte)), typeof(System.Int32).MakeByRefType());
-					r_RTryCreateSignature_ReadOnlySpan_d_Byte_p__Span_d_Byte_p__Out_Int32.SetBelong(this.instance);
+					r_TryCreateSignature_ReadOnlySpan_d_Byte_p__Span_d_Byte_p__Out_Int32 = new(this, "TryCreateSignature", 0, typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Byte)), typeof(System.Span<>).MakeGenericType(typeof(System.Byte)), typeof(System.Int32).MakeByRefType());
+					r_TryCreateSignature_ReadOnlySpan_d_Byte_p__Span_d_Byte_p__Out_Int32.SetBelong(this.instance);
 				}
-				return r_RTryCreateSignature_ReadOnlySpan_d_Byte_p__Span_d_Byte_p__Out_Int32;
+				return r_TryCreateSignature_ReadOnlySpan_d_Byte_p__Span_d_Byte_p__Out_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Boolean TryHashData(System.ReadOnlySpan`1[System.Byte], System.Span`1[System.Byte], System.Security.Cryptography.HashAlgorithmName, Int32 ByRef)
 		/// </summary>
-		protected RMethod r_RTryHashData_ReadOnlySpan_d_Byte_p__Span_d_Byte_p__HashAlgorithmName_Out_Int32;
+		protected RMethod r_TryHashData_ReadOnlySpan_d_Byte_p__Span_d_Byte_p__HashAlgorithmName_Out_Int32;
 		public virtual RMethod RTryHashData_ReadOnlySpan_d_Byte_p__Span_d_Byte_p__HashAlgorithmName_Out_Int32
 		{
 			get
 			{
-				if(r_RTryHashData_ReadOnlySpan_d_Byte_p__Span_d_Byte_p__HashAlgorithmName_Out_Int32 == null)
+				if(r_TryHashData_ReadOnlySpan_d_Byte_p__Span_d_Byte_p__HashAlgorithmName_Out_Int32 == null)
 				{
-					r_RTryHashData_ReadOnlySpan_d_Byte_p__Span_d_Byte_p__HashAlgorithmName_Out_Int32 = new(this, "TryHashData", 0, typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Byte)), typeof(System.Span<>).MakeGenericType(typeof(System.Byte)), typeof(System.Security.Cryptography.HashAlgorithmName), typeof(System.Int32).MakeByRefType());
-					r_RTryHashData_ReadOnlySpan_d_Byte_p__Span_d_Byte_p__HashAlgorithmName_Out_Int32.SetBelong(this.instance);
+					r_TryHashData_ReadOnlySpan_d_Byte_p__Span_d_Byte_p__HashAlgorithmName_Out_Int32 = new(this, "TryHashData", 0, typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Byte)), typeof(System.Span<>).MakeGenericType(typeof(System.Byte)), typeof(System.Security.Cryptography.HashAlgorithmName), typeof(System.Int32).MakeByRefType());
+					r_TryHashData_ReadOnlySpan_d_Byte_p__Span_d_Byte_p__HashAlgorithmName_Out_Int32.SetBelong(this.instance);
 				}
-				return r_RTryHashData_ReadOnlySpan_d_Byte_p__Span_d_Byte_p__HashAlgorithmName_Out_Int32;
+				return r_TryHashData_ReadOnlySpan_d_Byte_p__Span_d_Byte_p__HashAlgorithmName_Out_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Boolean TrySignData(System.ReadOnlySpan`1[System.Byte], System.Span`1[System.Byte], System.Security.Cryptography.HashAlgorithmName, Int32 ByRef)
 		/// </summary>
-		protected RMethod r_RTrySignData_ReadOnlySpan_d_Byte_p__Span_d_Byte_p__HashAlgorithmName_Out_Int32;
+		protected RMethod r_TrySignData_ReadOnlySpan_d_Byte_p__Span_d_Byte_p__HashAlgorithmName_Out_Int32;
 		public virtual RMethod RTrySignData_ReadOnlySpan_d_Byte_p__Span_d_Byte_p__HashAlgorithmName_Out_Int32
 		{
 			get
 			{
-				if(r_RTrySignData_ReadOnlySpan_d_Byte_p__Span_d_Byte_p__HashAlgorithmName_Out_Int32 == null)
+				if(r_TrySignData_ReadOnlySpan_d_Byte_p__Span_d_Byte_p__HashAlgorithmName_Out_Int32 == null)
 				{
-					r_RTrySignData_ReadOnlySpan_d_Byte_p__Span_d_Byte_p__HashAlgorithmName_Out_Int32 = new(this, "TrySignData", 0, typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Byte)), typeof(System.Span<>).MakeGenericType(typeof(System.Byte)), typeof(System.Security.Cryptography.HashAlgorithmName), typeof(System.Int32).MakeByRefType());
-					r_RTrySignData_ReadOnlySpan_d_Byte_p__Span_d_Byte_p__HashAlgorithmName_Out_Int32.SetBelong(this.instance);
+					r_TrySignData_ReadOnlySpan_d_Byte_p__Span_d_Byte_p__HashAlgorithmName_Out_Int32 = new(this, "TrySignData", 0, typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Byte)), typeof(System.Span<>).MakeGenericType(typeof(System.Byte)), typeof(System.Security.Cryptography.HashAlgorithmName), typeof(System.Int32).MakeByRefType());
+					r_TrySignData_ReadOnlySpan_d_Byte_p__Span_d_Byte_p__HashAlgorithmName_Out_Int32.SetBelong(this.instance);
 				}
-				return r_RTrySignData_ReadOnlySpan_d_Byte_p__Span_d_Byte_p__HashAlgorithmName_Out_Int32;
+				return r_TrySignData_ReadOnlySpan_d_Byte_p__Span_d_Byte_p__HashAlgorithmName_Out_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Boolean VerifyData(System.ReadOnlySpan`1[System.Byte], System.ReadOnlySpan`1[System.Byte], System.Security.Cryptography.HashAlgorithmName)
 		/// </summary>
-		protected RMethod r_RVerifyData_ReadOnlySpan_d_Byte_p__ReadOnlySpan_d_Byte_p__HashAlgorithmName;
+		protected RMethod r_VerifyData_ReadOnlySpan_d_Byte_p__ReadOnlySpan_d_Byte_p__HashAlgorithmName;
 		public virtual RMethod RVerifyData_ReadOnlySpan_d_Byte_p__ReadOnlySpan_d_Byte_p__HashAlgorithmName
 		{
 			get
 			{
-				if(r_RVerifyData_ReadOnlySpan_d_Byte_p__ReadOnlySpan_d_Byte_p__HashAlgorithmName == null)
+				if(r_VerifyData_ReadOnlySpan_d_Byte_p__ReadOnlySpan_d_Byte_p__HashAlgorithmName == null)
 				{
-					r_RVerifyData_ReadOnlySpan_d_Byte_p__ReadOnlySpan_d_Byte_p__HashAlgorithmName = new(this, "VerifyData", 0, typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Byte)), typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Byte)), typeof(System.Security.Cryptography.HashAlgorithmName));
-					r_RVerifyData_ReadOnlySpan_d_Byte_p__ReadOnlySpan_d_Byte_p__HashAlgorithmName.SetBelong(this.instance);
+					r_VerifyData_ReadOnlySpan_d_Byte_p__ReadOnlySpan_d_Byte_p__HashAlgorithmName = new(this, "VerifyData", 0, typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Byte)), typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Byte)), typeof(System.Security.Cryptography.HashAlgorithmName));
+					r_VerifyData_ReadOnlySpan_d_Byte_p__ReadOnlySpan_d_Byte_p__HashAlgorithmName.SetBelong(this.instance);
 				}
-				return r_RVerifyData_ReadOnlySpan_d_Byte_p__ReadOnlySpan_d_Byte_p__HashAlgorithmName;
+				return r_VerifyData_ReadOnlySpan_d_Byte_p__ReadOnlySpan_d_Byte_p__HashAlgorithmName;
 			}
 		}
 
 		/// <summary>
 		/// Boolean VerifySignature(System.ReadOnlySpan`1[System.Byte], System.ReadOnlySpan`1[System.Byte])
 		/// </summary>
-		protected RMethod r_RVerifySignature_ReadOnlySpan_d_Byte_p__ReadOnlySpan_d_Byte_p_;
+		protected RMethod r_VerifySignature_ReadOnlySpan_d_Byte_p__ReadOnlySpan_d_Byte_p_;
 		public virtual RMethod RVerifySignature_ReadOnlySpan_d_Byte_p__ReadOnlySpan_d_Byte_p_
 		{
 			get
 			{
-				if(r_RVerifySignature_ReadOnlySpan_d_Byte_p__ReadOnlySpan_d_Byte_p_ == null)
+				if(r_VerifySignature_ReadOnlySpan_d_Byte_p__ReadOnlySpan_d_Byte_p_ == null)
 				{
-					r_RVerifySignature_ReadOnlySpan_d_Byte_p__ReadOnlySpan_d_Byte_p_ = new(this, "VerifySignature", 0, typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Byte)), typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Byte)));
-					r_RVerifySignature_ReadOnlySpan_d_Byte_p__ReadOnlySpan_d_Byte_p_.SetBelong(this.instance);
+					r_VerifySignature_ReadOnlySpan_d_Byte_p__ReadOnlySpan_d_Byte_p_ = new(this, "VerifySignature", 0, typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Byte)), typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Byte)));
+					r_VerifySignature_ReadOnlySpan_d_Byte_p__ReadOnlySpan_d_Byte_p_.SetBelong(this.instance);
 				}
-				return r_RVerifySignature_ReadOnlySpan_d_Byte_p__ReadOnlySpan_d_Byte_p_;
+				return r_VerifySignature_ReadOnlySpan_d_Byte_p__ReadOnlySpan_d_Byte_p_;
 			}
 		}
 
 		/// <summary>
 		/// Void Dispose()
 		/// </summary>
-		protected RMethod r_RDispose;
+		protected RMethod r_Dispose;
 		public virtual RMethod RDispose
 		{
 			get
 			{
-				if(r_RDispose == null)
+				if(r_Dispose == null)
 				{
-					r_RDispose = new(this, "Dispose", 0);
-					r_RDispose.SetBelong(this.instance);
+					r_Dispose = new(this, "Dispose", 0);
+					r_Dispose.SetBelong(this.instance);
 				}
-				return r_RDispose;
+				return r_Dispose;
 			}
 		}
 
 		/// <summary>
 		/// Void Clear()
 		/// </summary>
-		protected RMethod r_RClear;
+		protected RMethod r_Clear;
 		public virtual RMethod RClear
 		{
 			get
 			{
-				if(r_RClear == null)
+				if(r_Clear == null)
 				{
-					r_RClear = new(this, "Clear", 0);
-					r_RClear.SetBelong(this.instance);
+					r_Clear = new(this, "Clear", 0);
+					r_Clear.SetBelong(this.instance);
 				}
-				return r_RClear;
+				return r_Clear;
 			}
 		}
 
 		/// <summary>
 		/// Void Dispose(Boolean)
 		/// </summary>
-		protected RMethod r_RDispose_Boolean;
+		protected RMethod r_Dispose_Boolean;
 		public virtual RMethod RDispose_Boolean
 		{
 			get
 			{
-				if(r_RDispose_Boolean == null)
+				if(r_Dispose_Boolean == null)
 				{
-					r_RDispose_Boolean = new(this, "Dispose", 0, typeof(System.Boolean));
-					r_RDispose_Boolean.SetBelong(this.instance);
+					r_Dispose_Boolean = new(this, "Dispose", 0, typeof(System.Boolean));
+					r_Dispose_Boolean.SetBelong(this.instance);
 				}
-				return r_RDispose_Boolean;
+				return r_Dispose_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Byte[] ExportEncryptedPkcs8PrivateKey(System.ReadOnlySpan`1[System.Byte], System.Security.Cryptography.PbeParameters)
 		/// </summary>
-		protected RMethod r_RExportEncryptedPkcs8PrivateKey_ReadOnlySpan_d_Byte_p__PbeParameters;
+		protected RMethod r_ExportEncryptedPkcs8PrivateKey_ReadOnlySpan_d_Byte_p__PbeParameters;
 		public virtual RMethod RExportEncryptedPkcs8PrivateKey_ReadOnlySpan_d_Byte_p__PbeParameters
 		{
 			get
 			{
-				if(r_RExportEncryptedPkcs8PrivateKey_ReadOnlySpan_d_Byte_p__PbeParameters == null)
+				if(r_ExportEncryptedPkcs8PrivateKey_ReadOnlySpan_d_Byte_p__PbeParameters == null)
 				{
-					r_RExportEncryptedPkcs8PrivateKey_ReadOnlySpan_d_Byte_p__PbeParameters = new(this, "ExportEncryptedPkcs8PrivateKey", 0, typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Byte)), typeof(System.Security.Cryptography.PbeParameters));
-					r_RExportEncryptedPkcs8PrivateKey_ReadOnlySpan_d_Byte_p__PbeParameters.SetBelong(this.instance);
+					r_ExportEncryptedPkcs8PrivateKey_ReadOnlySpan_d_Byte_p__PbeParameters = new(this, "ExportEncryptedPkcs8PrivateKey", 0, typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Byte)), typeof(System.Security.Cryptography.PbeParameters));
+					r_ExportEncryptedPkcs8PrivateKey_ReadOnlySpan_d_Byte_p__PbeParameters.SetBelong(this.instance);
 				}
-				return r_RExportEncryptedPkcs8PrivateKey_ReadOnlySpan_d_Byte_p__PbeParameters;
+				return r_ExportEncryptedPkcs8PrivateKey_ReadOnlySpan_d_Byte_p__PbeParameters;
 			}
 		}
 
 		/// <summary>
 		/// Byte[] ExportEncryptedPkcs8PrivateKey(System.ReadOnlySpan`1[System.Char], System.Security.Cryptography.PbeParameters)
 		/// </summary>
-		protected RMethod r_RExportEncryptedPkcs8PrivateKey_ReadOnlySpan_d_Char_p__PbeParameters;
+		protected RMethod r_ExportEncryptedPkcs8PrivateKey_ReadOnlySpan_d_Char_p__PbeParameters;
 		public virtual RMethod RExportEncryptedPkcs8PrivateKey_ReadOnlySpan_d_Char_p__PbeParameters
 		{
 			get
 			{
-				if(r_RExportEncryptedPkcs8PrivateKey_ReadOnlySpan_d_Char_p__PbeParameters == null)
+				if(r_ExportEncryptedPkcs8PrivateKey_ReadOnlySpan_d_Char_p__PbeParameters == null)
 				{
-					r_RExportEncryptedPkcs8PrivateKey_ReadOnlySpan_d_Char_p__PbeParameters = new(this, "ExportEncryptedPkcs8PrivateKey", 0, typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Char)), typeof(System.Security.Cryptography.PbeParameters));
-					r_RExportEncryptedPkcs8PrivateKey_ReadOnlySpan_d_Char_p__PbeParameters.SetBelong(this.instance);
+					r_ExportEncryptedPkcs8PrivateKey_ReadOnlySpan_d_Char_p__PbeParameters = new(this, "ExportEncryptedPkcs8PrivateKey", 0, typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Char)), typeof(System.Security.Cryptography.PbeParameters));
+					r_ExportEncryptedPkcs8PrivateKey_ReadOnlySpan_d_Char_p__PbeParameters.SetBelong(this.instance);
 				}
-				return r_RExportEncryptedPkcs8PrivateKey_ReadOnlySpan_d_Char_p__PbeParameters;
+				return r_ExportEncryptedPkcs8PrivateKey_ReadOnlySpan_d_Char_p__PbeParameters;
 			}
 		}
 
 		/// <summary>
 		/// Byte[] ExportPkcs8PrivateKey()
 		/// </summary>
-		protected RMethod r_RExportPkcs8PrivateKey;
+		protected RMethod r_ExportPkcs8PrivateKey;
 		public virtual RMethod RExportPkcs8PrivateKey
 		{
 			get
 			{
-				if(r_RExportPkcs8PrivateKey == null)
+				if(r_ExportPkcs8PrivateKey == null)
 				{
-					r_RExportPkcs8PrivateKey = new(this, "ExportPkcs8PrivateKey", 0);
-					r_RExportPkcs8PrivateKey.SetBelong(this.instance);
+					r_ExportPkcs8PrivateKey = new(this, "ExportPkcs8PrivateKey", 0);
+					r_ExportPkcs8PrivateKey.SetBelong(this.instance);
 				}
-				return r_RExportPkcs8PrivateKey;
+				return r_ExportPkcs8PrivateKey;
 			}
 		}
 
 		/// <summary>
 		/// Byte[] ExportSubjectPublicKeyInfo()
 		/// </summary>
-		protected RMethod r_RExportSubjectPublicKeyInfo;
+		protected RMethod r_ExportSubjectPublicKeyInfo;
 		public virtual RMethod RExportSubjectPublicKeyInfo
 		{
 			get
 			{
-				if(r_RExportSubjectPublicKeyInfo == null)
+				if(r_ExportSubjectPublicKeyInfo == null)
 				{
-					r_RExportSubjectPublicKeyInfo = new(this, "ExportSubjectPublicKeyInfo", 0);
-					r_RExportSubjectPublicKeyInfo.SetBelong(this.instance);
+					r_ExportSubjectPublicKeyInfo = new(this, "ExportSubjectPublicKeyInfo", 0);
+					r_ExportSubjectPublicKeyInfo.SetBelong(this.instance);
 				}
-				return r_RExportSubjectPublicKeyInfo;
+				return r_ExportSubjectPublicKeyInfo;
 			}
 		}
 
 		/// <summary>
 		/// Void ImportEncryptedPkcs8PrivateKey(System.ReadOnlySpan`1[System.Byte], System.ReadOnlySpan`1[System.Byte], Int32 ByRef)
 		/// </summary>
-		protected RMethod r_RImportEncryptedPkcs8PrivateKey_ReadOnlySpan_d_Byte_p__ReadOnlySpan_d_Byte_p__Out_Int32;
+		protected RMethod r_ImportEncryptedPkcs8PrivateKey_ReadOnlySpan_d_Byte_p__ReadOnlySpan_d_Byte_p__Out_Int32;
 		public virtual RMethod RImportEncryptedPkcs8PrivateKey_ReadOnlySpan_d_Byte_p__ReadOnlySpan_d_Byte_p__Out_Int32
 		{
 			get
 			{
-				if(r_RImportEncryptedPkcs8PrivateKey_ReadOnlySpan_d_Byte_p__ReadOnlySpan_d_Byte_p__Out_Int32 == null)
+				if(r_ImportEncryptedPkcs8PrivateKey_ReadOnlySpan_d_Byte_p__ReadOnlySpan_d_Byte_p__Out_Int32 == null)
 				{
-					r_RImportEncryptedPkcs8PrivateKey_ReadOnlySpan_d_Byte_p__ReadOnlySpan_d_Byte_p__Out_Int32 = new(this, "ImportEncryptedPkcs8PrivateKey", 0, typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Byte)), typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Byte)), typeof(System.Int32).MakeByRefType());
-					r_RImportEncryptedPkcs8PrivateKey_ReadOnlySpan_d_Byte_p__ReadOnlySpan_d_Byte_p__Out_Int32.SetBelong(this.instance);
+					r_ImportEncryptedPkcs8PrivateKey_ReadOnlySpan_d_Byte_p__ReadOnlySpan_d_Byte_p__Out_Int32 = new(this, "ImportEncryptedPkcs8PrivateKey", 0, typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Byte)), typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Byte)), typeof(System.Int32).MakeByRefType());
+					r_ImportEncryptedPkcs8PrivateKey_ReadOnlySpan_d_Byte_p__ReadOnlySpan_d_Byte_p__Out_Int32.SetBelong(this.instance);
 				}
-				return r_RImportEncryptedPkcs8PrivateKey_ReadOnlySpan_d_Byte_p__ReadOnlySpan_d_Byte_p__Out_Int32;
+				return r_ImportEncryptedPkcs8PrivateKey_ReadOnlySpan_d_Byte_p__ReadOnlySpan_d_Byte_p__Out_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Void ImportEncryptedPkcs8PrivateKey(System.ReadOnlySpan`1[System.Char], System.ReadOnlySpan`1[System.Byte], Int32 ByRef)
 		/// </summary>
-		protected RMethod r_RImportEncryptedPkcs8PrivateKey_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Byte_p__Out_Int32;
+		protected RMethod r_ImportEncryptedPkcs8PrivateKey_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Byte_p__Out_Int32;
 		public virtual RMethod RImportEncryptedPkcs8PrivateKey_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Byte_p__Out_Int32
 		{
 			get
 			{
-				if(r_RImportEncryptedPkcs8PrivateKey_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Byte_p__Out_Int32 == null)
+				if(r_ImportEncryptedPkcs8PrivateKey_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Byte_p__Out_Int32 == null)
 				{
-					r_RImportEncryptedPkcs8PrivateKey_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Byte_p__Out_Int32 = new(this, "ImportEncryptedPkcs8PrivateKey", 0, typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Char)), typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Byte)), typeof(System.Int32).MakeByRefType());
-					r_RImportEncryptedPkcs8PrivateKey_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Byte_p__Out_Int32.SetBelong(this.instance);
+					r_ImportEncryptedPkcs8PrivateKey_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Byte_p__Out_Int32 = new(this, "ImportEncryptedPkcs8PrivateKey", 0, typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Char)), typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Byte)), typeof(System.Int32).MakeByRefType());
+					r_ImportEncryptedPkcs8PrivateKey_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Byte_p__Out_Int32.SetBelong(this.instance);
 				}
-				return r_RImportEncryptedPkcs8PrivateKey_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Byte_p__Out_Int32;
+				return r_ImportEncryptedPkcs8PrivateKey_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Byte_p__Out_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Void ImportPkcs8PrivateKey(System.ReadOnlySpan`1[System.Byte], Int32 ByRef)
 		/// </summary>
-		protected RMethod r_RImportPkcs8PrivateKey_ReadOnlySpan_d_Byte_p__Out_Int32;
+		protected RMethod r_ImportPkcs8PrivateKey_ReadOnlySpan_d_Byte_p__Out_Int32;
 		public virtual RMethod RImportPkcs8PrivateKey_ReadOnlySpan_d_Byte_p__Out_Int32
 		{
 			get
 			{
-				if(r_RImportPkcs8PrivateKey_ReadOnlySpan_d_Byte_p__Out_Int32 == null)
+				if(r_ImportPkcs8PrivateKey_ReadOnlySpan_d_Byte_p__Out_Int32 == null)
 				{
-					r_RImportPkcs8PrivateKey_ReadOnlySpan_d_Byte_p__Out_Int32 = new(this, "ImportPkcs8PrivateKey", 0, typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Byte)), typeof(System.Int32).MakeByRefType());
-					r_RImportPkcs8PrivateKey_ReadOnlySpan_d_Byte_p__Out_Int32.SetBelong(this.instance);
+					r_ImportPkcs8PrivateKey_ReadOnlySpan_d_Byte_p__Out_Int32 = new(this, "ImportPkcs8PrivateKey", 0, typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Byte)), typeof(System.Int32).MakeByRefType());
+					r_ImportPkcs8PrivateKey_ReadOnlySpan_d_Byte_p__Out_Int32.SetBelong(this.instance);
 				}
-				return r_RImportPkcs8PrivateKey_ReadOnlySpan_d_Byte_p__Out_Int32;
+				return r_ImportPkcs8PrivateKey_ReadOnlySpan_d_Byte_p__Out_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Void ImportSubjectPublicKeyInfo(System.ReadOnlySpan`1[System.Byte], Int32 ByRef)
 		/// </summary>
-		protected RMethod r_RImportSubjectPublicKeyInfo_ReadOnlySpan_d_Byte_p__Out_Int32;
+		protected RMethod r_ImportSubjectPublicKeyInfo_ReadOnlySpan_d_Byte_p__Out_Int32;
 		public virtual RMethod RImportSubjectPublicKeyInfo_ReadOnlySpan_d_Byte_p__Out_Int32
 		{
 			get
 			{
-				if(r_RImportSubjectPublicKeyInfo_ReadOnlySpan_d_Byte_p__Out_Int32 == null)
+				if(r_ImportSubjectPublicKeyInfo_ReadOnlySpan_d_Byte_p__Out_Int32 == null)
 				{
-					r_RImportSubjectPublicKeyInfo_ReadOnlySpan_d_Byte_p__Out_Int32 = new(this, "ImportSubjectPublicKeyInfo", 0, typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Byte)), typeof(System.Int32).MakeByRefType());
-					r_RImportSubjectPublicKeyInfo_ReadOnlySpan_d_Byte_p__Out_Int32.SetBelong(this.instance);
+					r_ImportSubjectPublicKeyInfo_ReadOnlySpan_d_Byte_p__Out_Int32 = new(this, "ImportSubjectPublicKeyInfo", 0, typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Byte)), typeof(System.Int32).MakeByRefType());
+					r_ImportSubjectPublicKeyInfo_ReadOnlySpan_d_Byte_p__Out_Int32.SetBelong(this.instance);
 				}
-				return r_RImportSubjectPublicKeyInfo_ReadOnlySpan_d_Byte_p__Out_Int32;
+				return r_ImportSubjectPublicKeyInfo_ReadOnlySpan_d_Byte_p__Out_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Boolean TryExportEncryptedPkcs8PrivateKey(System.ReadOnlySpan`1[System.Byte], System.Security.Cryptography.PbeParameters, System.Span`1[System.Byte], Int32 ByRef)
 		/// </summary>
-		protected RMethod r_RTryExportEncryptedPkcs8PrivateKey_ReadOnlySpan_d_Byte_p__PbeParameters_Span_d_Byte_p__Out_Int32;
+		protected RMethod r_TryExportEncryptedPkcs8PrivateKey_ReadOnlySpan_d_Byte_p__PbeParameters_Span_d_Byte_p__Out_Int32;
 		public virtual RMethod RTryExportEncryptedPkcs8PrivateKey_ReadOnlySpan_d_Byte_p__PbeParameters_Span_d_Byte_p__Out_Int32
 		{
 			get
 			{
-				if(r_RTryExportEncryptedPkcs8PrivateKey_ReadOnlySpan_d_Byte_p__PbeParameters_Span_d_Byte_p__Out_Int32 == null)
+				if(r_TryExportEncryptedPkcs8PrivateKey_ReadOnlySpan_d_Byte_p__PbeParameters_Span_d_Byte_p__Out_Int32 == null)
 				{
-					r_RTryExportEncryptedPkcs8PrivateKey_ReadOnlySpan_d_Byte_p__PbeParameters_Span_d_Byte_p__Out_Int32 = new(this, "TryExportEncryptedPkcs8PrivateKey", 0, typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Byte)), typeof(System.Security.Cryptography.PbeParameters), typeof(System.Span<>).MakeGenericType(typeof(System.Byte)), typeof(System.Int32).MakeByRefType());
-					r_RTryExportEncryptedPkcs8PrivateKey_ReadOnlySpan_d_Byte_p__PbeParameters_Span_d_Byte_p__Out_Int32.SetBelong(this.instance);
+					r_TryExportEncryptedPkcs8PrivateKey_ReadOnlySpan_d_Byte_p__PbeParameters_Span_d_Byte_p__Out_Int32 = new(this, "TryExportEncryptedPkcs8PrivateKey", 0, typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Byte)), typeof(System.Security.Cryptography.PbeParameters), typeof(System.Span<>).MakeGenericType(typeof(System.Byte)), typeof(System.Int32).MakeByRefType());
+					r_TryExportEncryptedPkcs8PrivateKey_ReadOnlySpan_d_Byte_p__PbeParameters_Span_d_Byte_p__Out_Int32.SetBelong(this.instance);
 				}
-				return r_RTryExportEncryptedPkcs8PrivateKey_ReadOnlySpan_d_Byte_p__PbeParameters_Span_d_Byte_p__Out_Int32;
+				return r_TryExportEncryptedPkcs8PrivateKey_ReadOnlySpan_d_Byte_p__PbeParameters_Span_d_Byte_p__Out_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Boolean TryExportEncryptedPkcs8PrivateKey(System.ReadOnlySpan`1[System.Char], System.Security.Cryptography.PbeParameters, System.Span`1[System.Byte], Int32 ByRef)
 		/// </summary>
-		protected RMethod r_RTryExportEncryptedPkcs8PrivateKey_ReadOnlySpan_d_Char_p__PbeParameters_Span_d_Byte_p__Out_Int32;
+		protected RMethod r_TryExportEncryptedPkcs8PrivateKey_ReadOnlySpan_d_Char_p__PbeParameters_Span_d_Byte_p__Out_Int32;
 		public virtual RMethod RTryExportEncryptedPkcs8PrivateKey_ReadOnlySpan_d_Char_p__PbeParameters_Span_d_Byte_p__Out_Int32
 		{
 			get
 			{
-				if(r_RTryExportEncryptedPkcs8PrivateKey_ReadOnlySpan_d_Char_p__PbeParameters_Span_d_Byte_p__Out_Int32 == null)
+				if(r_TryExportEncryptedPkcs8PrivateKey_ReadOnlySpan_d_Char_p__PbeParameters_Span_d_Byte_p__Out_Int32 == null)
 				{
-					r_RTryExportEncryptedPkcs8PrivateKey_ReadOnlySpan_d_Char_p__PbeParameters_Span_d_Byte_p__Out_Int32 = new(this, "TryExportEncryptedPkcs8PrivateKey", 0, typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Char)), typeof(System.Security.Cryptography.PbeParameters), typeof(System.Span<>).MakeGenericType(typeof(System.Byte)), typeof(System.Int32).MakeByRefType());
-					r_RTryExportEncryptedPkcs8PrivateKey_ReadOnlySpan_d_Char_p__PbeParameters_Span_d_Byte_p__Out_Int32.SetBelong(this.instance);
+					r_TryExportEncryptedPkcs8PrivateKey_ReadOnlySpan_d_Char_p__PbeParameters_Span_d_Byte_p__Out_Int32 = new(this, "TryExportEncryptedPkcs8PrivateKey", 0, typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Char)), typeof(System.Security.Cryptography.PbeParameters), typeof(System.Span<>).MakeGenericType(typeof(System.Byte)), typeof(System.Int32).MakeByRefType());
+					r_TryExportEncryptedPkcs8PrivateKey_ReadOnlySpan_d_Char_p__PbeParameters_Span_d_Byte_p__Out_Int32.SetBelong(this.instance);
 				}
-				return r_RTryExportEncryptedPkcs8PrivateKey_ReadOnlySpan_d_Char_p__PbeParameters_Span_d_Byte_p__Out_Int32;
+				return r_TryExportEncryptedPkcs8PrivateKey_ReadOnlySpan_d_Char_p__PbeParameters_Span_d_Byte_p__Out_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Boolean TryExportPkcs8PrivateKey(System.Span`1[System.Byte], Int32 ByRef)
 		/// </summary>
-		protected RMethod r_RTryExportPkcs8PrivateKey_Span_d_Byte_p__Out_Int32;
+		protected RMethod r_TryExportPkcs8PrivateKey_Span_d_Byte_p__Out_Int32;
 		public virtual RMethod RTryExportPkcs8PrivateKey_Span_d_Byte_p__Out_Int32
 		{
 			get
 			{
-				if(r_RTryExportPkcs8PrivateKey_Span_d_Byte_p__Out_Int32 == null)
+				if(r_TryExportPkcs8PrivateKey_Span_d_Byte_p__Out_Int32 == null)
 				{
-					r_RTryExportPkcs8PrivateKey_Span_d_Byte_p__Out_Int32 = new(this, "TryExportPkcs8PrivateKey", 0, typeof(System.Span<>).MakeGenericType(typeof(System.Byte)), typeof(System.Int32).MakeByRefType());
-					r_RTryExportPkcs8PrivateKey_Span_d_Byte_p__Out_Int32.SetBelong(this.instance);
+					r_TryExportPkcs8PrivateKey_Span_d_Byte_p__Out_Int32 = new(this, "TryExportPkcs8PrivateKey", 0, typeof(System.Span<>).MakeGenericType(typeof(System.Byte)), typeof(System.Int32).MakeByRefType());
+					r_TryExportPkcs8PrivateKey_Span_d_Byte_p__Out_Int32.SetBelong(this.instance);
 				}
-				return r_RTryExportPkcs8PrivateKey_Span_d_Byte_p__Out_Int32;
+				return r_TryExportPkcs8PrivateKey_Span_d_Byte_p__Out_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Boolean TryExportSubjectPublicKeyInfo(System.Span`1[System.Byte], Int32 ByRef)
 		/// </summary>
-		protected RMethod r_RTryExportSubjectPublicKeyInfo_Span_d_Byte_p__Out_Int32;
+		protected RMethod r_TryExportSubjectPublicKeyInfo_Span_d_Byte_p__Out_Int32;
 		public virtual RMethod RTryExportSubjectPublicKeyInfo_Span_d_Byte_p__Out_Int32
 		{
 			get
 			{
-				if(r_RTryExportSubjectPublicKeyInfo_Span_d_Byte_p__Out_Int32 == null)
+				if(r_TryExportSubjectPublicKeyInfo_Span_d_Byte_p__Out_Int32 == null)
 				{
-					r_RTryExportSubjectPublicKeyInfo_Span_d_Byte_p__Out_Int32 = new(this, "TryExportSubjectPublicKeyInfo", 0, typeof(System.Span<>).MakeGenericType(typeof(System.Byte)), typeof(System.Int32).MakeByRefType());
-					r_RTryExportSubjectPublicKeyInfo_Span_d_Byte_p__Out_Int32.SetBelong(this.instance);
+					r_TryExportSubjectPublicKeyInfo_Span_d_Byte_p__Out_Int32 = new(this, "TryExportSubjectPublicKeyInfo", 0, typeof(System.Span<>).MakeGenericType(typeof(System.Byte)), typeof(System.Int32).MakeByRefType());
+					r_TryExportSubjectPublicKeyInfo_Span_d_Byte_p__Out_Int32.SetBelong(this.instance);
 				}
-				return r_RTryExportSubjectPublicKeyInfo_Span_d_Byte_p__Out_Int32;
+				return r_TryExportSubjectPublicKeyInfo_Span_d_Byte_p__Out_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Equals(System.Object)
 		/// </summary>
-		protected RMethod r_REquals_Object;
+		protected RMethod r_Equals_Object;
 		public virtual RMethod REquals_Object
 		{
 			get
 			{
-				if(r_REquals_Object == null)
+				if(r_Equals_Object == null)
 				{
-					r_REquals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_REquals_Object.SetBelong(this.instance);
+					r_Equals_Object = new(this, "Equals", 0, typeof(System.Object));
+					r_Equals_Object.SetBelong(this.instance);
 				}
-				return r_REquals_Object;
+				return r_Equals_Object;
 			}
 		}
 
 		/// <summary>
 		/// Void Finalize()
 		/// </summary>
-		protected RMethod r_RFinalize;
+		protected RMethod r_Finalize;
 		public virtual RMethod RFinalize
 		{
 			get
 			{
-				if(r_RFinalize == null)
+				if(r_Finalize == null)
 				{
-					r_RFinalize = new(this, "Finalize", 0);
-					r_RFinalize.SetBelong(this.instance);
+					r_Finalize = new(this, "Finalize", 0);
+					r_Finalize.SetBelong(this.instance);
 				}
-				return r_RFinalize;
+				return r_Finalize;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetHashCode()
 		/// </summary>
-		protected RMethod r_RGetHashCode;
+		protected RMethod r_GetHashCode;
 		public virtual RMethod RGetHashCode
 		{
 			get
 			{
-				if(r_RGetHashCode == null)
+				if(r_GetHashCode == null)
 				{
-					r_RGetHashCode = new(this, "GetHashCode", 0);
-					r_RGetHashCode.SetBelong(this.instance);
+					r_GetHashCode = new(this, "GetHashCode", 0);
+					r_GetHashCode.SetBelong(this.instance);
 				}
-				return r_RGetHashCode;
+				return r_GetHashCode;
 			}
 		}
 
 		/// <summary>
 		/// System.Type GetType()
 		/// </summary>
-		protected RMethod r_RGetType;
+		protected RMethod r_GetType;
 		public virtual RMethod RGetType
 		{
 			get
 			{
-				if(r_RGetType == null)
+				if(r_GetType == null)
 				{
-					r_RGetType = new(this, "GetType", 0);
-					r_RGetType.SetBelong(this.instance);
+					r_GetType = new(this, "GetType", 0);
+					r_GetType.SetBelong(this.instance);
 				}
-				return r_RGetType;
+				return r_GetType;
 			}
 		}
 
 		/// <summary>
 		/// System.Object MemberwiseClone()
 		/// </summary>
-		protected RMethod r_RMemberwiseClone;
+		protected RMethod r_MemberwiseClone;
 		public virtual RMethod RMemberwiseClone
 		{
 			get
 			{
-				if(r_RMemberwiseClone == null)
+				if(r_MemberwiseClone == null)
 				{
-					r_RMemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_RMemberwiseClone.SetBelong(this.instance);
+					r_MemberwiseClone = new(this, "MemberwiseClone", 0);
+					r_MemberwiseClone.SetBelong(this.instance);
 				}
-				return r_RMemberwiseClone;
+				return r_MemberwiseClone;
 			}
 		}
 
 		/// <summary>
 		/// System.String ToString()
 		/// </summary>
-		protected RMethod r_RToString;
+		protected RMethod r_ToString;
 		public virtual RMethod RToString
 		{
 			get
 			{
-				if(r_RToString == null)
+				if(r_ToString == null)
 				{
-					r_RToString = new(this, "ToString", 0);
-					r_RToString.SetBelong(this.instance);
+					r_ToString = new(this, "ToString", 0);
+					r_ToString.SetBelong(this.instance);
 				}
-				return r_RToString;
+				return r_ToString;
 			}
 		}
 

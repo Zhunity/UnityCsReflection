@@ -47,867 +47,867 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// Void GetObjectData(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)
 		/// </summary>
-		protected RMethod r_RGetObjectData_SerializationInfo_StreamingContext;
+		protected RMethod r_GetObjectData_SerializationInfo_StreamingContext;
 		public virtual RMethod RGetObjectData_SerializationInfo_StreamingContext
 		{
 			get
 			{
-				if(r_RGetObjectData_SerializationInfo_StreamingContext == null)
+				if(r_GetObjectData_SerializationInfo_StreamingContext == null)
 				{
-					r_RGetObjectData_SerializationInfo_StreamingContext = new(this, "GetObjectData", 0, typeof(System.Runtime.Serialization.SerializationInfo), typeof(System.Runtime.Serialization.StreamingContext));
-					r_RGetObjectData_SerializationInfo_StreamingContext.SetBelong(this.instance);
+					r_GetObjectData_SerializationInfo_StreamingContext = new(this, "GetObjectData", 0, typeof(System.Runtime.Serialization.SerializationInfo), typeof(System.Runtime.Serialization.StreamingContext));
+					r_GetObjectData_SerializationInfo_StreamingContext.SetBelong(this.instance);
 				}
-				return r_RGetObjectData_SerializationInfo_StreamingContext;
+				return r_GetObjectData_SerializationInfo_StreamingContext;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Equals(System.Object)
 		/// </summary>
-		protected RMethod r_REquals_Object;
+		protected RMethod r_Equals_Object;
 		public virtual RMethod REquals_Object
 		{
 			get
 			{
-				if(r_REquals_Object == null)
+				if(r_Equals_Object == null)
 				{
-					r_REquals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_REquals_Object.SetBelong(this.instance);
+					r_Equals_Object = new(this, "Equals", 0, typeof(System.Object));
+					r_Equals_Object.SetBelong(this.instance);
 				}
-				return r_REquals_Object;
+				return r_Equals_Object;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Equals(System.RuntimeTypeHandle)
 		/// </summary>
-		protected RMethod r_REquals_RuntimeTypeHandle;
+		protected RMethod r_Equals_RuntimeTypeHandle;
 		public virtual RMethod REquals_RuntimeTypeHandle
 		{
 			get
 			{
-				if(r_REquals_RuntimeTypeHandle == null)
+				if(r_Equals_RuntimeTypeHandle == null)
 				{
-					r_REquals_RuntimeTypeHandle = new(this, "Equals", 0, typeof(System.RuntimeTypeHandle));
-					r_REquals_RuntimeTypeHandle.SetBelong(this.instance);
+					r_Equals_RuntimeTypeHandle = new(this, "Equals", 0, typeof(System.RuntimeTypeHandle));
+					r_Equals_RuntimeTypeHandle.SetBelong(this.instance);
 				}
-				return r_REquals_RuntimeTypeHandle;
+				return r_Equals_RuntimeTypeHandle;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetHashCode()
 		/// </summary>
-		protected RMethod r_RGetHashCode;
+		protected RMethod r_GetHashCode;
 		public virtual RMethod RGetHashCode
 		{
 			get
 			{
-				if(r_RGetHashCode == null)
+				if(r_GetHashCode == null)
 				{
-					r_RGetHashCode = new(this, "GetHashCode", 0);
-					r_RGetHashCode.SetBelong(this.instance);
+					r_GetHashCode = new(this, "GetHashCode", 0);
+					r_GetHashCode.SetBelong(this.instance);
 				}
-				return r_RGetHashCode;
+				return r_GetHashCode;
 			}
 		}
 
 		/// <summary>
 		/// Boolean op_Equality(System.RuntimeTypeHandle, System.Object)
 		/// </summary>
-		protected static RMethod r_Rop_Equality_RuntimeTypeHandle_Object;
+		protected static RMethod r_op_Equality_RuntimeTypeHandle_Object;
 		public static RMethod Rop_Equality_RuntimeTypeHandle_Object
 		{
 			get
 			{
-				if(r_Rop_Equality_RuntimeTypeHandle_Object == null)
+				if(r_op_Equality_RuntimeTypeHandle_Object == null)
 				{
-					r_Rop_Equality_RuntimeTypeHandle_Object = new(typeof(System.RuntimeTypeHandle), "op_Equality", 0, typeof(System.RuntimeTypeHandle), typeof(System.Object));
-					r_Rop_Equality_RuntimeTypeHandle_Object.SetBelong(null);
+					r_op_Equality_RuntimeTypeHandle_Object = new(typeof(System.RuntimeTypeHandle), "op_Equality", 0, typeof(System.RuntimeTypeHandle), typeof(System.Object));
+					r_op_Equality_RuntimeTypeHandle_Object.SetBelong(null);
 				}
-				return r_Rop_Equality_RuntimeTypeHandle_Object;
+				return r_op_Equality_RuntimeTypeHandle_Object;
 			}
 		}
 
 		/// <summary>
 		/// Boolean op_Inequality(System.RuntimeTypeHandle, System.Object)
 		/// </summary>
-		protected static RMethod r_Rop_Inequality_RuntimeTypeHandle_Object;
+		protected static RMethod r_op_Inequality_RuntimeTypeHandle_Object;
 		public static RMethod Rop_Inequality_RuntimeTypeHandle_Object
 		{
 			get
 			{
-				if(r_Rop_Inequality_RuntimeTypeHandle_Object == null)
+				if(r_op_Inequality_RuntimeTypeHandle_Object == null)
 				{
-					r_Rop_Inequality_RuntimeTypeHandle_Object = new(typeof(System.RuntimeTypeHandle), "op_Inequality", 0, typeof(System.RuntimeTypeHandle), typeof(System.Object));
-					r_Rop_Inequality_RuntimeTypeHandle_Object.SetBelong(null);
+					r_op_Inequality_RuntimeTypeHandle_Object = new(typeof(System.RuntimeTypeHandle), "op_Inequality", 0, typeof(System.RuntimeTypeHandle), typeof(System.Object));
+					r_op_Inequality_RuntimeTypeHandle_Object.SetBelong(null);
 				}
-				return r_Rop_Inequality_RuntimeTypeHandle_Object;
+				return r_op_Inequality_RuntimeTypeHandle_Object;
 			}
 		}
 
 		/// <summary>
 		/// Boolean op_Equality(System.Object, System.RuntimeTypeHandle)
 		/// </summary>
-		protected static RMethod r_Rop_Equality_Object_RuntimeTypeHandle;
+		protected static RMethod r_op_Equality_Object_RuntimeTypeHandle;
 		public static RMethod Rop_Equality_Object_RuntimeTypeHandle
 		{
 			get
 			{
-				if(r_Rop_Equality_Object_RuntimeTypeHandle == null)
+				if(r_op_Equality_Object_RuntimeTypeHandle == null)
 				{
-					r_Rop_Equality_Object_RuntimeTypeHandle = new(typeof(System.RuntimeTypeHandle), "op_Equality", 0, typeof(System.Object), typeof(System.RuntimeTypeHandle));
-					r_Rop_Equality_Object_RuntimeTypeHandle.SetBelong(null);
+					r_op_Equality_Object_RuntimeTypeHandle = new(typeof(System.RuntimeTypeHandle), "op_Equality", 0, typeof(System.Object), typeof(System.RuntimeTypeHandle));
+					r_op_Equality_Object_RuntimeTypeHandle.SetBelong(null);
 				}
-				return r_Rop_Equality_Object_RuntimeTypeHandle;
+				return r_op_Equality_Object_RuntimeTypeHandle;
 			}
 		}
 
 		/// <summary>
 		/// Boolean op_Inequality(System.Object, System.RuntimeTypeHandle)
 		/// </summary>
-		protected static RMethod r_Rop_Inequality_Object_RuntimeTypeHandle;
+		protected static RMethod r_op_Inequality_Object_RuntimeTypeHandle;
 		public static RMethod Rop_Inequality_Object_RuntimeTypeHandle
 		{
 			get
 			{
-				if(r_Rop_Inequality_Object_RuntimeTypeHandle == null)
+				if(r_op_Inequality_Object_RuntimeTypeHandle == null)
 				{
-					r_Rop_Inequality_Object_RuntimeTypeHandle = new(typeof(System.RuntimeTypeHandle), "op_Inequality", 0, typeof(System.Object), typeof(System.RuntimeTypeHandle));
-					r_Rop_Inequality_Object_RuntimeTypeHandle.SetBelong(null);
+					r_op_Inequality_Object_RuntimeTypeHandle = new(typeof(System.RuntimeTypeHandle), "op_Inequality", 0, typeof(System.Object), typeof(System.RuntimeTypeHandle));
+					r_op_Inequality_Object_RuntimeTypeHandle.SetBelong(null);
 				}
-				return r_Rop_Inequality_Object_RuntimeTypeHandle;
+				return r_op_Inequality_Object_RuntimeTypeHandle;
 			}
 		}
 
 		/// <summary>
 		/// System.Reflection.TypeAttributes GetAttributes(System.RuntimeType)
 		/// </summary>
-		protected static RMethod r_RGetAttributes_RuntimeType;
+		protected static RMethod r_GetAttributes_RuntimeType;
 		public static RMethod RGetAttributes_RuntimeType
 		{
 			get
 			{
-				if(r_RGetAttributes_RuntimeType == null)
+				if(r_GetAttributes_RuntimeType == null)
 				{
-					r_RGetAttributes_RuntimeType = new(typeof(System.RuntimeTypeHandle), "GetAttributes", 0,  ReleactionUtils.GetType("System.RuntimeType"));
-					r_RGetAttributes_RuntimeType.SetBelong(null);
+					r_GetAttributes_RuntimeType = new(typeof(System.RuntimeTypeHandle), "GetAttributes", 0,  ReleactionUtils.GetType("System.RuntimeType"));
+					r_GetAttributes_RuntimeType.SetBelong(null);
 				}
-				return r_RGetAttributes_RuntimeType;
+				return r_GetAttributes_RuntimeType;
 			}
 		}
 
 		/// <summary>
 		/// System.ModuleHandle GetModuleHandle()
 		/// </summary>
-		protected RMethod r_RGetModuleHandle;
+		protected RMethod r_GetModuleHandle;
 		public virtual RMethod RGetModuleHandle
 		{
 			get
 			{
-				if(r_RGetModuleHandle == null)
+				if(r_GetModuleHandle == null)
 				{
-					r_RGetModuleHandle = new(this, "GetModuleHandle", 0);
-					r_RGetModuleHandle.SetBelong(this.instance);
+					r_GetModuleHandle = new(this, "GetModuleHandle", 0);
+					r_GetModuleHandle.SetBelong(this.instance);
 				}
-				return r_RGetModuleHandle;
+				return r_GetModuleHandle;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetMetadataToken(System.RuntimeType)
 		/// </summary>
-		protected static RMethod r_RGetMetadataToken_RuntimeType;
+		protected static RMethod r_GetMetadataToken_RuntimeType;
 		public static RMethod RGetMetadataToken_RuntimeType
 		{
 			get
 			{
-				if(r_RGetMetadataToken_RuntimeType == null)
+				if(r_GetMetadataToken_RuntimeType == null)
 				{
-					r_RGetMetadataToken_RuntimeType = new(typeof(System.RuntimeTypeHandle), "GetMetadataToken", 0,  ReleactionUtils.GetType("System.RuntimeType"));
-					r_RGetMetadataToken_RuntimeType.SetBelong(null);
+					r_GetMetadataToken_RuntimeType = new(typeof(System.RuntimeTypeHandle), "GetMetadataToken", 0,  ReleactionUtils.GetType("System.RuntimeType"));
+					r_GetMetadataToken_RuntimeType.SetBelong(null);
 				}
-				return r_RGetMetadataToken_RuntimeType;
+				return r_GetMetadataToken_RuntimeType;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetToken(System.RuntimeType)
 		/// </summary>
-		protected static RMethod r_RGetToken_RuntimeType;
+		protected static RMethod r_GetToken_RuntimeType;
 		public static RMethod RGetToken_RuntimeType
 		{
 			get
 			{
-				if(r_RGetToken_RuntimeType == null)
+				if(r_GetToken_RuntimeType == null)
 				{
-					r_RGetToken_RuntimeType = new(typeof(System.RuntimeTypeHandle), "GetToken", 0,  ReleactionUtils.GetType("System.RuntimeType"));
-					r_RGetToken_RuntimeType.SetBelong(null);
+					r_GetToken_RuntimeType = new(typeof(System.RuntimeTypeHandle), "GetToken", 0,  ReleactionUtils.GetType("System.RuntimeType"));
+					r_GetToken_RuntimeType.SetBelong(null);
 				}
-				return r_RGetToken_RuntimeType;
+				return r_GetToken_RuntimeType;
 			}
 		}
 
 		/// <summary>
 		/// System.Type GetGenericTypeDefinition_impl(System.RuntimeType)
 		/// </summary>
-		protected static RMethod r_RGetGenericTypeDefinition_impl_RuntimeType;
+		protected static RMethod r_GetGenericTypeDefinition_impl_RuntimeType;
 		public static RMethod RGetGenericTypeDefinition_impl_RuntimeType
 		{
 			get
 			{
-				if(r_RGetGenericTypeDefinition_impl_RuntimeType == null)
+				if(r_GetGenericTypeDefinition_impl_RuntimeType == null)
 				{
-					r_RGetGenericTypeDefinition_impl_RuntimeType = new(typeof(System.RuntimeTypeHandle), "GetGenericTypeDefinition_impl", 0,  ReleactionUtils.GetType("System.RuntimeType"));
-					r_RGetGenericTypeDefinition_impl_RuntimeType.SetBelong(null);
+					r_GetGenericTypeDefinition_impl_RuntimeType = new(typeof(System.RuntimeTypeHandle), "GetGenericTypeDefinition_impl", 0,  ReleactionUtils.GetType("System.RuntimeType"));
+					r_GetGenericTypeDefinition_impl_RuntimeType.SetBelong(null);
 				}
-				return r_RGetGenericTypeDefinition_impl_RuntimeType;
+				return r_GetGenericTypeDefinition_impl_RuntimeType;
 			}
 		}
 
 		/// <summary>
 		/// System.Type GetGenericTypeDefinition(System.RuntimeType)
 		/// </summary>
-		protected static RMethod r_RGetGenericTypeDefinition_RuntimeType;
+		protected static RMethod r_GetGenericTypeDefinition_RuntimeType;
 		public static RMethod RGetGenericTypeDefinition_RuntimeType
 		{
 			get
 			{
-				if(r_RGetGenericTypeDefinition_RuntimeType == null)
+				if(r_GetGenericTypeDefinition_RuntimeType == null)
 				{
-					r_RGetGenericTypeDefinition_RuntimeType = new(typeof(System.RuntimeTypeHandle), "GetGenericTypeDefinition", 0,  ReleactionUtils.GetType("System.RuntimeType"));
-					r_RGetGenericTypeDefinition_RuntimeType.SetBelong(null);
+					r_GetGenericTypeDefinition_RuntimeType = new(typeof(System.RuntimeTypeHandle), "GetGenericTypeDefinition", 0,  ReleactionUtils.GetType("System.RuntimeType"));
+					r_GetGenericTypeDefinition_RuntimeType.SetBelong(null);
 				}
-				return r_RGetGenericTypeDefinition_RuntimeType;
+				return r_GetGenericTypeDefinition_RuntimeType;
 			}
 		}
 
 		/// <summary>
 		/// Boolean HasProxyAttribute(System.RuntimeType)
 		/// </summary>
-		protected static RMethod r_RHasProxyAttribute_RuntimeType;
+		protected static RMethod r_HasProxyAttribute_RuntimeType;
 		public static RMethod RHasProxyAttribute_RuntimeType
 		{
 			get
 			{
-				if(r_RHasProxyAttribute_RuntimeType == null)
+				if(r_HasProxyAttribute_RuntimeType == null)
 				{
-					r_RHasProxyAttribute_RuntimeType = new(typeof(System.RuntimeTypeHandle), "HasProxyAttribute", 0,  ReleactionUtils.GetType("System.RuntimeType"));
-					r_RHasProxyAttribute_RuntimeType.SetBelong(null);
+					r_HasProxyAttribute_RuntimeType = new(typeof(System.RuntimeTypeHandle), "HasProxyAttribute", 0,  ReleactionUtils.GetType("System.RuntimeType"));
+					r_HasProxyAttribute_RuntimeType.SetBelong(null);
 				}
-				return r_RHasProxyAttribute_RuntimeType;
+				return r_HasProxyAttribute_RuntimeType;
 			}
 		}
 
 		/// <summary>
 		/// Boolean IsPrimitive(System.RuntimeType)
 		/// </summary>
-		protected static RMethod r_RIsPrimitive_RuntimeType;
+		protected static RMethod r_IsPrimitive_RuntimeType;
 		public static RMethod RIsPrimitive_RuntimeType
 		{
 			get
 			{
-				if(r_RIsPrimitive_RuntimeType == null)
+				if(r_IsPrimitive_RuntimeType == null)
 				{
-					r_RIsPrimitive_RuntimeType = new(typeof(System.RuntimeTypeHandle), "IsPrimitive", 0,  ReleactionUtils.GetType("System.RuntimeType"));
-					r_RIsPrimitive_RuntimeType.SetBelong(null);
+					r_IsPrimitive_RuntimeType = new(typeof(System.RuntimeTypeHandle), "IsPrimitive", 0,  ReleactionUtils.GetType("System.RuntimeType"));
+					r_IsPrimitive_RuntimeType.SetBelong(null);
 				}
-				return r_RIsPrimitive_RuntimeType;
+				return r_IsPrimitive_RuntimeType;
 			}
 		}
 
 		/// <summary>
 		/// Boolean IsByRef(System.RuntimeType)
 		/// </summary>
-		protected static RMethod r_RIsByRef_RuntimeType;
+		protected static RMethod r_IsByRef_RuntimeType;
 		public static RMethod RIsByRef_RuntimeType
 		{
 			get
 			{
-				if(r_RIsByRef_RuntimeType == null)
+				if(r_IsByRef_RuntimeType == null)
 				{
-					r_RIsByRef_RuntimeType = new(typeof(System.RuntimeTypeHandle), "IsByRef", 0,  ReleactionUtils.GetType("System.RuntimeType"));
-					r_RIsByRef_RuntimeType.SetBelong(null);
+					r_IsByRef_RuntimeType = new(typeof(System.RuntimeTypeHandle), "IsByRef", 0,  ReleactionUtils.GetType("System.RuntimeType"));
+					r_IsByRef_RuntimeType.SetBelong(null);
 				}
-				return r_RIsByRef_RuntimeType;
+				return r_IsByRef_RuntimeType;
 			}
 		}
 
 		/// <summary>
 		/// Boolean IsPointer(System.RuntimeType)
 		/// </summary>
-		protected static RMethod r_RIsPointer_RuntimeType;
+		protected static RMethod r_IsPointer_RuntimeType;
 		public static RMethod RIsPointer_RuntimeType
 		{
 			get
 			{
-				if(r_RIsPointer_RuntimeType == null)
+				if(r_IsPointer_RuntimeType == null)
 				{
-					r_RIsPointer_RuntimeType = new(typeof(System.RuntimeTypeHandle), "IsPointer", 0,  ReleactionUtils.GetType("System.RuntimeType"));
-					r_RIsPointer_RuntimeType.SetBelong(null);
+					r_IsPointer_RuntimeType = new(typeof(System.RuntimeTypeHandle), "IsPointer", 0,  ReleactionUtils.GetType("System.RuntimeType"));
+					r_IsPointer_RuntimeType.SetBelong(null);
 				}
-				return r_RIsPointer_RuntimeType;
+				return r_IsPointer_RuntimeType;
 			}
 		}
 
 		/// <summary>
 		/// Boolean IsArray(System.RuntimeType)
 		/// </summary>
-		protected static RMethod r_RIsArray_RuntimeType;
+		protected static RMethod r_IsArray_RuntimeType;
 		public static RMethod RIsArray_RuntimeType
 		{
 			get
 			{
-				if(r_RIsArray_RuntimeType == null)
+				if(r_IsArray_RuntimeType == null)
 				{
-					r_RIsArray_RuntimeType = new(typeof(System.RuntimeTypeHandle), "IsArray", 0,  ReleactionUtils.GetType("System.RuntimeType"));
-					r_RIsArray_RuntimeType.SetBelong(null);
+					r_IsArray_RuntimeType = new(typeof(System.RuntimeTypeHandle), "IsArray", 0,  ReleactionUtils.GetType("System.RuntimeType"));
+					r_IsArray_RuntimeType.SetBelong(null);
 				}
-				return r_RIsArray_RuntimeType;
+				return r_IsArray_RuntimeType;
 			}
 		}
 
 		/// <summary>
 		/// Boolean IsSzArray(System.RuntimeType)
 		/// </summary>
-		protected static RMethod r_RIsSzArray_RuntimeType;
+		protected static RMethod r_IsSzArray_RuntimeType;
 		public static RMethod RIsSzArray_RuntimeType
 		{
 			get
 			{
-				if(r_RIsSzArray_RuntimeType == null)
+				if(r_IsSzArray_RuntimeType == null)
 				{
-					r_RIsSzArray_RuntimeType = new(typeof(System.RuntimeTypeHandle), "IsSzArray", 0,  ReleactionUtils.GetType("System.RuntimeType"));
-					r_RIsSzArray_RuntimeType.SetBelong(null);
+					r_IsSzArray_RuntimeType = new(typeof(System.RuntimeTypeHandle), "IsSzArray", 0,  ReleactionUtils.GetType("System.RuntimeType"));
+					r_IsSzArray_RuntimeType.SetBelong(null);
 				}
-				return r_RIsSzArray_RuntimeType;
+				return r_IsSzArray_RuntimeType;
 			}
 		}
 
 		/// <summary>
 		/// Boolean HasElementType(System.RuntimeType)
 		/// </summary>
-		protected static RMethod r_RHasElementType_RuntimeType;
+		protected static RMethod r_HasElementType_RuntimeType;
 		public static RMethod RHasElementType_RuntimeType
 		{
 			get
 			{
-				if(r_RHasElementType_RuntimeType == null)
+				if(r_HasElementType_RuntimeType == null)
 				{
-					r_RHasElementType_RuntimeType = new(typeof(System.RuntimeTypeHandle), "HasElementType", 0,  ReleactionUtils.GetType("System.RuntimeType"));
-					r_RHasElementType_RuntimeType.SetBelong(null);
+					r_HasElementType_RuntimeType = new(typeof(System.RuntimeTypeHandle), "HasElementType", 0,  ReleactionUtils.GetType("System.RuntimeType"));
+					r_HasElementType_RuntimeType.SetBelong(null);
 				}
-				return r_RHasElementType_RuntimeType;
+				return r_HasElementType_RuntimeType;
 			}
 		}
 
 		/// <summary>
 		/// System.Reflection.CorElementType GetCorElementType(System.RuntimeType)
 		/// </summary>
-		protected static RMethod r_RGetCorElementType_RuntimeType;
+		protected static RMethod r_GetCorElementType_RuntimeType;
 		public static RMethod RGetCorElementType_RuntimeType
 		{
 			get
 			{
-				if(r_RGetCorElementType_RuntimeType == null)
+				if(r_GetCorElementType_RuntimeType == null)
 				{
-					r_RGetCorElementType_RuntimeType = new(typeof(System.RuntimeTypeHandle), "GetCorElementType", 0,  ReleactionUtils.GetType("System.RuntimeType"));
-					r_RGetCorElementType_RuntimeType.SetBelong(null);
+					r_GetCorElementType_RuntimeType = new(typeof(System.RuntimeTypeHandle), "GetCorElementType", 0,  ReleactionUtils.GetType("System.RuntimeType"));
+					r_GetCorElementType_RuntimeType.SetBelong(null);
 				}
-				return r_RGetCorElementType_RuntimeType;
+				return r_GetCorElementType_RuntimeType;
 			}
 		}
 
 		/// <summary>
 		/// Boolean HasInstantiation(System.RuntimeType)
 		/// </summary>
-		protected static RMethod r_RHasInstantiation_RuntimeType;
+		protected static RMethod r_HasInstantiation_RuntimeType;
 		public static RMethod RHasInstantiation_RuntimeType
 		{
 			get
 			{
-				if(r_RHasInstantiation_RuntimeType == null)
+				if(r_HasInstantiation_RuntimeType == null)
 				{
-					r_RHasInstantiation_RuntimeType = new(typeof(System.RuntimeTypeHandle), "HasInstantiation", 0,  ReleactionUtils.GetType("System.RuntimeType"));
-					r_RHasInstantiation_RuntimeType.SetBelong(null);
+					r_HasInstantiation_RuntimeType = new(typeof(System.RuntimeTypeHandle), "HasInstantiation", 0,  ReleactionUtils.GetType("System.RuntimeType"));
+					r_HasInstantiation_RuntimeType.SetBelong(null);
 				}
-				return r_RHasInstantiation_RuntimeType;
+				return r_HasInstantiation_RuntimeType;
 			}
 		}
 
 		/// <summary>
 		/// Boolean IsComObject(System.RuntimeType)
 		/// </summary>
-		protected static RMethod r_RIsComObject_RuntimeType;
+		protected static RMethod r_IsComObject_RuntimeType;
 		public static RMethod RIsComObject_RuntimeType
 		{
 			get
 			{
-				if(r_RIsComObject_RuntimeType == null)
+				if(r_IsComObject_RuntimeType == null)
 				{
-					r_RIsComObject_RuntimeType = new(typeof(System.RuntimeTypeHandle), "IsComObject", 0,  ReleactionUtils.GetType("System.RuntimeType"));
-					r_RIsComObject_RuntimeType.SetBelong(null);
+					r_IsComObject_RuntimeType = new(typeof(System.RuntimeTypeHandle), "IsComObject", 0,  ReleactionUtils.GetType("System.RuntimeType"));
+					r_IsComObject_RuntimeType.SetBelong(null);
 				}
-				return r_RIsComObject_RuntimeType;
+				return r_IsComObject_RuntimeType;
 			}
 		}
 
 		/// <summary>
 		/// Boolean IsInstanceOfType(System.RuntimeType, System.Object)
 		/// </summary>
-		protected static RMethod r_RIsInstanceOfType_RuntimeType_Object;
+		protected static RMethod r_IsInstanceOfType_RuntimeType_Object;
 		public static RMethod RIsInstanceOfType_RuntimeType_Object
 		{
 			get
 			{
-				if(r_RIsInstanceOfType_RuntimeType_Object == null)
+				if(r_IsInstanceOfType_RuntimeType_Object == null)
 				{
-					r_RIsInstanceOfType_RuntimeType_Object = new(typeof(System.RuntimeTypeHandle), "IsInstanceOfType", 0,  ReleactionUtils.GetType("System.RuntimeType"), typeof(System.Object));
-					r_RIsInstanceOfType_RuntimeType_Object.SetBelong(null);
+					r_IsInstanceOfType_RuntimeType_Object = new(typeof(System.RuntimeTypeHandle), "IsInstanceOfType", 0,  ReleactionUtils.GetType("System.RuntimeType"), typeof(System.Object));
+					r_IsInstanceOfType_RuntimeType_Object.SetBelong(null);
 				}
-				return r_RIsInstanceOfType_RuntimeType_Object;
+				return r_IsInstanceOfType_RuntimeType_Object;
 			}
 		}
 
 		/// <summary>
 		/// Boolean HasReferences(System.RuntimeType)
 		/// </summary>
-		protected static RMethod r_RHasReferences_RuntimeType;
+		protected static RMethod r_HasReferences_RuntimeType;
 		public static RMethod RHasReferences_RuntimeType
 		{
 			get
 			{
-				if(r_RHasReferences_RuntimeType == null)
+				if(r_HasReferences_RuntimeType == null)
 				{
-					r_RHasReferences_RuntimeType = new(typeof(System.RuntimeTypeHandle), "HasReferences", 0,  ReleactionUtils.GetType("System.RuntimeType"));
-					r_RHasReferences_RuntimeType.SetBelong(null);
+					r_HasReferences_RuntimeType = new(typeof(System.RuntimeTypeHandle), "HasReferences", 0,  ReleactionUtils.GetType("System.RuntimeType"));
+					r_HasReferences_RuntimeType.SetBelong(null);
 				}
-				return r_RHasReferences_RuntimeType;
+				return r_HasReferences_RuntimeType;
 			}
 		}
 
 		/// <summary>
 		/// Boolean IsComObject(System.RuntimeType, Boolean)
 		/// </summary>
-		protected static RMethod r_RIsComObject_RuntimeType_Boolean;
+		protected static RMethod r_IsComObject_RuntimeType_Boolean;
 		public static RMethod RIsComObject_RuntimeType_Boolean
 		{
 			get
 			{
-				if(r_RIsComObject_RuntimeType_Boolean == null)
+				if(r_IsComObject_RuntimeType_Boolean == null)
 				{
-					r_RIsComObject_RuntimeType_Boolean = new(typeof(System.RuntimeTypeHandle), "IsComObject", 0,  ReleactionUtils.GetType("System.RuntimeType"), typeof(System.Boolean));
-					r_RIsComObject_RuntimeType_Boolean.SetBelong(null);
+					r_IsComObject_RuntimeType_Boolean = new(typeof(System.RuntimeTypeHandle), "IsComObject", 0,  ReleactionUtils.GetType("System.RuntimeType"), typeof(System.Boolean));
+					r_IsComObject_RuntimeType_Boolean.SetBelong(null);
 				}
-				return r_RIsComObject_RuntimeType_Boolean;
+				return r_IsComObject_RuntimeType_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Boolean IsContextful(System.RuntimeType)
 		/// </summary>
-		protected static RMethod r_RIsContextful_RuntimeType;
+		protected static RMethod r_IsContextful_RuntimeType;
 		public static RMethod RIsContextful_RuntimeType
 		{
 			get
 			{
-				if(r_RIsContextful_RuntimeType == null)
+				if(r_IsContextful_RuntimeType == null)
 				{
-					r_RIsContextful_RuntimeType = new(typeof(System.RuntimeTypeHandle), "IsContextful", 0,  ReleactionUtils.GetType("System.RuntimeType"));
-					r_RIsContextful_RuntimeType.SetBelong(null);
+					r_IsContextful_RuntimeType = new(typeof(System.RuntimeTypeHandle), "IsContextful", 0,  ReleactionUtils.GetType("System.RuntimeType"));
+					r_IsContextful_RuntimeType.SetBelong(null);
 				}
-				return r_RIsContextful_RuntimeType;
+				return r_IsContextful_RuntimeType;
 			}
 		}
 
 		/// <summary>
 		/// Boolean IsEquivalentTo(System.RuntimeType, System.RuntimeType)
 		/// </summary>
-		protected static RMethod r_RIsEquivalentTo_RuntimeType_RuntimeType;
+		protected static RMethod r_IsEquivalentTo_RuntimeType_RuntimeType;
 		public static RMethod RIsEquivalentTo_RuntimeType_RuntimeType
 		{
 			get
 			{
-				if(r_RIsEquivalentTo_RuntimeType_RuntimeType == null)
+				if(r_IsEquivalentTo_RuntimeType_RuntimeType == null)
 				{
-					r_RIsEquivalentTo_RuntimeType_RuntimeType = new(typeof(System.RuntimeTypeHandle), "IsEquivalentTo", 0,  ReleactionUtils.GetType("System.RuntimeType"),  ReleactionUtils.GetType("System.RuntimeType"));
-					r_RIsEquivalentTo_RuntimeType_RuntimeType.SetBelong(null);
+					r_IsEquivalentTo_RuntimeType_RuntimeType = new(typeof(System.RuntimeTypeHandle), "IsEquivalentTo", 0,  ReleactionUtils.GetType("System.RuntimeType"),  ReleactionUtils.GetType("System.RuntimeType"));
+					r_IsEquivalentTo_RuntimeType_RuntimeType.SetBelong(null);
 				}
-				return r_RIsEquivalentTo_RuntimeType_RuntimeType;
+				return r_IsEquivalentTo_RuntimeType_RuntimeType;
 			}
 		}
 
 		/// <summary>
 		/// Boolean IsInterface(System.RuntimeType)
 		/// </summary>
-		protected static RMethod r_RIsInterface_RuntimeType;
+		protected static RMethod r_IsInterface_RuntimeType;
 		public static RMethod RIsInterface_RuntimeType
 		{
 			get
 			{
-				if(r_RIsInterface_RuntimeType == null)
+				if(r_IsInterface_RuntimeType == null)
 				{
-					r_RIsInterface_RuntimeType = new(typeof(System.RuntimeTypeHandle), "IsInterface", 0,  ReleactionUtils.GetType("System.RuntimeType"));
-					r_RIsInterface_RuntimeType.SetBelong(null);
+					r_IsInterface_RuntimeType = new(typeof(System.RuntimeTypeHandle), "IsInterface", 0,  ReleactionUtils.GetType("System.RuntimeType"));
+					r_IsInterface_RuntimeType.SetBelong(null);
 				}
-				return r_RIsInterface_RuntimeType;
+				return r_IsInterface_RuntimeType;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetArrayRank(System.RuntimeType)
 		/// </summary>
-		protected static RMethod r_RGetArrayRank_RuntimeType;
+		protected static RMethod r_GetArrayRank_RuntimeType;
 		public static RMethod RGetArrayRank_RuntimeType
 		{
 			get
 			{
-				if(r_RGetArrayRank_RuntimeType == null)
+				if(r_GetArrayRank_RuntimeType == null)
 				{
-					r_RGetArrayRank_RuntimeType = new(typeof(System.RuntimeTypeHandle), "GetArrayRank", 0,  ReleactionUtils.GetType("System.RuntimeType"));
-					r_RGetArrayRank_RuntimeType.SetBelong(null);
+					r_GetArrayRank_RuntimeType = new(typeof(System.RuntimeTypeHandle), "GetArrayRank", 0,  ReleactionUtils.GetType("System.RuntimeType"));
+					r_GetArrayRank_RuntimeType.SetBelong(null);
 				}
-				return r_RGetArrayRank_RuntimeType;
+				return r_GetArrayRank_RuntimeType;
 			}
 		}
 
 		/// <summary>
 		/// System.Reflection.RuntimeAssembly GetAssembly(System.RuntimeType)
 		/// </summary>
-		protected static RMethod r_RGetAssembly_RuntimeType;
+		protected static RMethod r_GetAssembly_RuntimeType;
 		public static RMethod RGetAssembly_RuntimeType
 		{
 			get
 			{
-				if(r_RGetAssembly_RuntimeType == null)
+				if(r_GetAssembly_RuntimeType == null)
 				{
-					r_RGetAssembly_RuntimeType = new(typeof(System.RuntimeTypeHandle), "GetAssembly", 0,  ReleactionUtils.GetType("System.RuntimeType"));
-					r_RGetAssembly_RuntimeType.SetBelong(null);
+					r_GetAssembly_RuntimeType = new(typeof(System.RuntimeTypeHandle), "GetAssembly", 0,  ReleactionUtils.GetType("System.RuntimeType"));
+					r_GetAssembly_RuntimeType.SetBelong(null);
 				}
-				return r_RGetAssembly_RuntimeType;
+				return r_GetAssembly_RuntimeType;
 			}
 		}
 
 		/// <summary>
 		/// System.RuntimeType GetElementType(System.RuntimeType)
 		/// </summary>
-		protected static RMethod r_RGetElementType_RuntimeType;
+		protected static RMethod r_GetElementType_RuntimeType;
 		public static RMethod RGetElementType_RuntimeType
 		{
 			get
 			{
-				if(r_RGetElementType_RuntimeType == null)
+				if(r_GetElementType_RuntimeType == null)
 				{
-					r_RGetElementType_RuntimeType = new(typeof(System.RuntimeTypeHandle), "GetElementType", 0,  ReleactionUtils.GetType("System.RuntimeType"));
-					r_RGetElementType_RuntimeType.SetBelong(null);
+					r_GetElementType_RuntimeType = new(typeof(System.RuntimeTypeHandle), "GetElementType", 0,  ReleactionUtils.GetType("System.RuntimeType"));
+					r_GetElementType_RuntimeType.SetBelong(null);
 				}
-				return r_RGetElementType_RuntimeType;
+				return r_GetElementType_RuntimeType;
 			}
 		}
 
 		/// <summary>
 		/// System.Reflection.RuntimeModule GetModule(System.RuntimeType)
 		/// </summary>
-		protected static RMethod r_RGetModule_RuntimeType;
+		protected static RMethod r_GetModule_RuntimeType;
 		public static RMethod RGetModule_RuntimeType
 		{
 			get
 			{
-				if(r_RGetModule_RuntimeType == null)
+				if(r_GetModule_RuntimeType == null)
 				{
-					r_RGetModule_RuntimeType = new(typeof(System.RuntimeTypeHandle), "GetModule", 0,  ReleactionUtils.GetType("System.RuntimeType"));
-					r_RGetModule_RuntimeType.SetBelong(null);
+					r_GetModule_RuntimeType = new(typeof(System.RuntimeTypeHandle), "GetModule", 0,  ReleactionUtils.GetType("System.RuntimeType"));
+					r_GetModule_RuntimeType.SetBelong(null);
 				}
-				return r_RGetModule_RuntimeType;
+				return r_GetModule_RuntimeType;
 			}
 		}
 
 		/// <summary>
 		/// Boolean IsGenericVariable(System.RuntimeType)
 		/// </summary>
-		protected static RMethod r_RIsGenericVariable_RuntimeType;
+		protected static RMethod r_IsGenericVariable_RuntimeType;
 		public static RMethod RIsGenericVariable_RuntimeType
 		{
 			get
 			{
-				if(r_RIsGenericVariable_RuntimeType == null)
+				if(r_IsGenericVariable_RuntimeType == null)
 				{
-					r_RIsGenericVariable_RuntimeType = new(typeof(System.RuntimeTypeHandle), "IsGenericVariable", 0,  ReleactionUtils.GetType("System.RuntimeType"));
-					r_RIsGenericVariable_RuntimeType.SetBelong(null);
+					r_IsGenericVariable_RuntimeType = new(typeof(System.RuntimeTypeHandle), "IsGenericVariable", 0,  ReleactionUtils.GetType("System.RuntimeType"));
+					r_IsGenericVariable_RuntimeType.SetBelong(null);
 				}
-				return r_RIsGenericVariable_RuntimeType;
+				return r_IsGenericVariable_RuntimeType;
 			}
 		}
 
 		/// <summary>
 		/// System.RuntimeType GetBaseType(System.RuntimeType)
 		/// </summary>
-		protected static RMethod r_RGetBaseType_RuntimeType;
+		protected static RMethod r_GetBaseType_RuntimeType;
 		public static RMethod RGetBaseType_RuntimeType
 		{
 			get
 			{
-				if(r_RGetBaseType_RuntimeType == null)
+				if(r_GetBaseType_RuntimeType == null)
 				{
-					r_RGetBaseType_RuntimeType = new(typeof(System.RuntimeTypeHandle), "GetBaseType", 0,  ReleactionUtils.GetType("System.RuntimeType"));
-					r_RGetBaseType_RuntimeType.SetBelong(null);
+					r_GetBaseType_RuntimeType = new(typeof(System.RuntimeTypeHandle), "GetBaseType", 0,  ReleactionUtils.GetType("System.RuntimeType"));
+					r_GetBaseType_RuntimeType.SetBelong(null);
 				}
-				return r_RGetBaseType_RuntimeType;
+				return r_GetBaseType_RuntimeType;
 			}
 		}
 
 		/// <summary>
 		/// Boolean CanCastTo(System.RuntimeType, System.RuntimeType)
 		/// </summary>
-		protected static RMethod r_RCanCastTo_RuntimeType_RuntimeType;
+		protected static RMethod r_CanCastTo_RuntimeType_RuntimeType;
 		public static RMethod RCanCastTo_RuntimeType_RuntimeType
 		{
 			get
 			{
-				if(r_RCanCastTo_RuntimeType_RuntimeType == null)
+				if(r_CanCastTo_RuntimeType_RuntimeType == null)
 				{
-					r_RCanCastTo_RuntimeType_RuntimeType = new(typeof(System.RuntimeTypeHandle), "CanCastTo", 0,  ReleactionUtils.GetType("System.RuntimeType"),  ReleactionUtils.GetType("System.RuntimeType"));
-					r_RCanCastTo_RuntimeType_RuntimeType.SetBelong(null);
+					r_CanCastTo_RuntimeType_RuntimeType = new(typeof(System.RuntimeTypeHandle), "CanCastTo", 0,  ReleactionUtils.GetType("System.RuntimeType"),  ReleactionUtils.GetType("System.RuntimeType"));
+					r_CanCastTo_RuntimeType_RuntimeType.SetBelong(null);
 				}
-				return r_RCanCastTo_RuntimeType_RuntimeType;
+				return r_CanCastTo_RuntimeType_RuntimeType;
 			}
 		}
 
 		/// <summary>
 		/// Boolean type_is_assignable_from(System.Type, System.Type)
 		/// </summary>
-		protected static RMethod r_Rtype_is_assignable_from_Type_Type;
+		protected static RMethod r_type_is_assignable_from_Type_Type;
 		public static RMethod Rtype_is_assignable_from_Type_Type
 		{
 			get
 			{
-				if(r_Rtype_is_assignable_from_Type_Type == null)
+				if(r_type_is_assignable_from_Type_Type == null)
 				{
-					r_Rtype_is_assignable_from_Type_Type = new(typeof(System.RuntimeTypeHandle), "type_is_assignable_from", 0, typeof(System.Type), typeof(System.Type));
-					r_Rtype_is_assignable_from_Type_Type.SetBelong(null);
+					r_type_is_assignable_from_Type_Type = new(typeof(System.RuntimeTypeHandle), "type_is_assignable_from", 0, typeof(System.Type), typeof(System.Type));
+					r_type_is_assignable_from_Type_Type.SetBelong(null);
 				}
-				return r_Rtype_is_assignable_from_Type_Type;
+				return r_type_is_assignable_from_Type_Type;
 			}
 		}
 
 		/// <summary>
 		/// Boolean IsGenericTypeDefinition(System.RuntimeType)
 		/// </summary>
-		protected static RMethod r_RIsGenericTypeDefinition_RuntimeType;
+		protected static RMethod r_IsGenericTypeDefinition_RuntimeType;
 		public static RMethod RIsGenericTypeDefinition_RuntimeType
 		{
 			get
 			{
-				if(r_RIsGenericTypeDefinition_RuntimeType == null)
+				if(r_IsGenericTypeDefinition_RuntimeType == null)
 				{
-					r_RIsGenericTypeDefinition_RuntimeType = new(typeof(System.RuntimeTypeHandle), "IsGenericTypeDefinition", 0,  ReleactionUtils.GetType("System.RuntimeType"));
-					r_RIsGenericTypeDefinition_RuntimeType.SetBelong(null);
+					r_IsGenericTypeDefinition_RuntimeType = new(typeof(System.RuntimeTypeHandle), "IsGenericTypeDefinition", 0,  ReleactionUtils.GetType("System.RuntimeType"));
+					r_IsGenericTypeDefinition_RuntimeType.SetBelong(null);
 				}
-				return r_RIsGenericTypeDefinition_RuntimeType;
+				return r_IsGenericTypeDefinition_RuntimeType;
 			}
 		}
 
 		/// <summary>
 		/// IntPtr GetGenericParameterInfo(System.RuntimeType)
 		/// </summary>
-		protected static RMethod r_RGetGenericParameterInfo_RuntimeType;
+		protected static RMethod r_GetGenericParameterInfo_RuntimeType;
 		public static RMethod RGetGenericParameterInfo_RuntimeType
 		{
 			get
 			{
-				if(r_RGetGenericParameterInfo_RuntimeType == null)
+				if(r_GetGenericParameterInfo_RuntimeType == null)
 				{
-					r_RGetGenericParameterInfo_RuntimeType = new(typeof(System.RuntimeTypeHandle), "GetGenericParameterInfo", 0,  ReleactionUtils.GetType("System.RuntimeType"));
-					r_RGetGenericParameterInfo_RuntimeType.SetBelong(null);
+					r_GetGenericParameterInfo_RuntimeType = new(typeof(System.RuntimeTypeHandle), "GetGenericParameterInfo", 0,  ReleactionUtils.GetType("System.RuntimeType"));
+					r_GetGenericParameterInfo_RuntimeType.SetBelong(null);
 				}
-				return r_RGetGenericParameterInfo_RuntimeType;
+				return r_GetGenericParameterInfo_RuntimeType;
 			}
 		}
 
 		/// <summary>
 		/// Boolean IsSubclassOf(System.RuntimeType, System.RuntimeType)
 		/// </summary>
-		protected static RMethod r_RIsSubclassOf_RuntimeType_RuntimeType;
+		protected static RMethod r_IsSubclassOf_RuntimeType_RuntimeType;
 		public static RMethod RIsSubclassOf_RuntimeType_RuntimeType
 		{
 			get
 			{
-				if(r_RIsSubclassOf_RuntimeType_RuntimeType == null)
+				if(r_IsSubclassOf_RuntimeType_RuntimeType == null)
 				{
-					r_RIsSubclassOf_RuntimeType_RuntimeType = new(typeof(System.RuntimeTypeHandle), "IsSubclassOf", 0,  ReleactionUtils.GetType("System.RuntimeType"),  ReleactionUtils.GetType("System.RuntimeType"));
-					r_RIsSubclassOf_RuntimeType_RuntimeType.SetBelong(null);
+					r_IsSubclassOf_RuntimeType_RuntimeType = new(typeof(System.RuntimeTypeHandle), "IsSubclassOf", 0,  ReleactionUtils.GetType("System.RuntimeType"),  ReleactionUtils.GetType("System.RuntimeType"));
+					r_IsSubclassOf_RuntimeType_RuntimeType.SetBelong(null);
 				}
-				return r_RIsSubclassOf_RuntimeType_RuntimeType;
+				return r_IsSubclassOf_RuntimeType_RuntimeType;
 			}
 		}
 
 		/// <summary>
 		/// Boolean is_subclass_of(IntPtr, IntPtr)
 		/// </summary>
-		protected static RMethod r_Ris_subclass_of_IntPtr_IntPtr;
+		protected static RMethod r_is_subclass_of_IntPtr_IntPtr;
 		public static RMethod Ris_subclass_of_IntPtr_IntPtr
 		{
 			get
 			{
-				if(r_Ris_subclass_of_IntPtr_IntPtr == null)
+				if(r_is_subclass_of_IntPtr_IntPtr == null)
 				{
-					r_Ris_subclass_of_IntPtr_IntPtr = new(typeof(System.RuntimeTypeHandle), "is_subclass_of", 0, typeof(System.IntPtr), typeof(System.IntPtr));
-					r_Ris_subclass_of_IntPtr_IntPtr.SetBelong(null);
+					r_is_subclass_of_IntPtr_IntPtr = new(typeof(System.RuntimeTypeHandle), "is_subclass_of", 0, typeof(System.IntPtr), typeof(System.IntPtr));
+					r_is_subclass_of_IntPtr_IntPtr.SetBelong(null);
 				}
-				return r_Ris_subclass_of_IntPtr_IntPtr;
+				return r_is_subclass_of_IntPtr_IntPtr;
 			}
 		}
 
 		/// <summary>
 		/// Boolean IsByRefLike(System.RuntimeType)
 		/// </summary>
-		protected static RMethod r_RIsByRefLike_RuntimeType;
+		protected static RMethod r_IsByRefLike_RuntimeType;
 		public static RMethod RIsByRefLike_RuntimeType
 		{
 			get
 			{
-				if(r_RIsByRefLike_RuntimeType == null)
+				if(r_IsByRefLike_RuntimeType == null)
 				{
-					r_RIsByRefLike_RuntimeType = new(typeof(System.RuntimeTypeHandle), "IsByRefLike", 0,  ReleactionUtils.GetType("System.RuntimeType"));
-					r_RIsByRefLike_RuntimeType.SetBelong(null);
+					r_IsByRefLike_RuntimeType = new(typeof(System.RuntimeTypeHandle), "IsByRefLike", 0,  ReleactionUtils.GetType("System.RuntimeType"));
+					r_IsByRefLike_RuntimeType.SetBelong(null);
 				}
-				return r_RIsByRefLike_RuntimeType;
+				return r_IsByRefLike_RuntimeType;
 			}
 		}
 
 		/// <summary>
 		/// Boolean IsTypeDefinition(System.RuntimeType)
 		/// </summary>
-		protected static RMethod r_RIsTypeDefinition_RuntimeType;
+		protected static RMethod r_IsTypeDefinition_RuntimeType;
 		public static RMethod RIsTypeDefinition_RuntimeType
 		{
 			get
 			{
-				if(r_RIsTypeDefinition_RuntimeType == null)
+				if(r_IsTypeDefinition_RuntimeType == null)
 				{
-					r_RIsTypeDefinition_RuntimeType = new(typeof(System.RuntimeTypeHandle), "IsTypeDefinition", 0,  ReleactionUtils.GetType("System.RuntimeType"));
-					r_RIsTypeDefinition_RuntimeType.SetBelong(null);
+					r_IsTypeDefinition_RuntimeType = new(typeof(System.RuntimeTypeHandle), "IsTypeDefinition", 0,  ReleactionUtils.GetType("System.RuntimeType"));
+					r_IsTypeDefinition_RuntimeType.SetBelong(null);
 				}
-				return r_RIsTypeDefinition_RuntimeType;
+				return r_IsTypeDefinition_RuntimeType;
 			}
 		}
 
 		/// <summary>
 		/// System.RuntimeType internal_from_name(System.String, System.Threading.StackCrawlMark ByRef, System.Reflection.Assembly, Boolean, Boolean, Boolean)
 		/// </summary>
-		protected static RMethod r_Rinternal_from_name_String_Ref_StackCrawlMark_Assembly_Boolean_Boolean_Boolean;
+		protected static RMethod r_internal_from_name_String_Ref_StackCrawlMark_Assembly_Boolean_Boolean_Boolean;
 		public static RMethod Rinternal_from_name_String_Ref_StackCrawlMark_Assembly_Boolean_Boolean_Boolean
 		{
 			get
 			{
-				if(r_Rinternal_from_name_String_Ref_StackCrawlMark_Assembly_Boolean_Boolean_Boolean == null)
+				if(r_internal_from_name_String_Ref_StackCrawlMark_Assembly_Boolean_Boolean_Boolean == null)
 				{
-					r_Rinternal_from_name_String_Ref_StackCrawlMark_Assembly_Boolean_Boolean_Boolean = new(typeof(System.RuntimeTypeHandle), "internal_from_name", 0, typeof(System.String),  ReleactionUtils.GetType("System.Threading.StackCrawlMark").MakeByRefType(), typeof(System.Reflection.Assembly), typeof(System.Boolean), typeof(System.Boolean), typeof(System.Boolean));
-					r_Rinternal_from_name_String_Ref_StackCrawlMark_Assembly_Boolean_Boolean_Boolean.SetBelong(null);
+					r_internal_from_name_String_Ref_StackCrawlMark_Assembly_Boolean_Boolean_Boolean = new(typeof(System.RuntimeTypeHandle), "internal_from_name", 0, typeof(System.String),  ReleactionUtils.GetType("System.Threading.StackCrawlMark").MakeByRefType(), typeof(System.Reflection.Assembly), typeof(System.Boolean), typeof(System.Boolean), typeof(System.Boolean));
+					r_internal_from_name_String_Ref_StackCrawlMark_Assembly_Boolean_Boolean_Boolean.SetBelong(null);
 				}
-				return r_Rinternal_from_name_String_Ref_StackCrawlMark_Assembly_Boolean_Boolean_Boolean;
+				return r_internal_from_name_String_Ref_StackCrawlMark_Assembly_Boolean_Boolean_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// System.RuntimeType GetTypeByName(System.String, Boolean, Boolean, Boolean, System.Threading.StackCrawlMark ByRef, Boolean)
 		/// </summary>
-		protected static RMethod r_RGetTypeByName_String_Boolean_Boolean_Boolean_Ref_StackCrawlMark_Boolean;
+		protected static RMethod r_GetTypeByName_String_Boolean_Boolean_Boolean_Ref_StackCrawlMark_Boolean;
 		public static RMethod RGetTypeByName_String_Boolean_Boolean_Boolean_Ref_StackCrawlMark_Boolean
 		{
 			get
 			{
-				if(r_RGetTypeByName_String_Boolean_Boolean_Boolean_Ref_StackCrawlMark_Boolean == null)
+				if(r_GetTypeByName_String_Boolean_Boolean_Boolean_Ref_StackCrawlMark_Boolean == null)
 				{
-					r_RGetTypeByName_String_Boolean_Boolean_Boolean_Ref_StackCrawlMark_Boolean = new(typeof(System.RuntimeTypeHandle), "GetTypeByName", 0, typeof(System.String), typeof(System.Boolean), typeof(System.Boolean), typeof(System.Boolean),  ReleactionUtils.GetType("System.Threading.StackCrawlMark").MakeByRefType(), typeof(System.Boolean));
-					r_RGetTypeByName_String_Boolean_Boolean_Boolean_Ref_StackCrawlMark_Boolean.SetBelong(null);
+					r_GetTypeByName_String_Boolean_Boolean_Boolean_Ref_StackCrawlMark_Boolean = new(typeof(System.RuntimeTypeHandle), "GetTypeByName", 0, typeof(System.String), typeof(System.Boolean), typeof(System.Boolean), typeof(System.Boolean),  ReleactionUtils.GetType("System.Threading.StackCrawlMark").MakeByRefType(), typeof(System.Boolean));
+					r_GetTypeByName_String_Boolean_Boolean_Boolean_Ref_StackCrawlMark_Boolean.SetBelong(null);
 				}
-				return r_RGetTypeByName_String_Boolean_Boolean_Boolean_Ref_StackCrawlMark_Boolean;
+				return r_GetTypeByName_String_Boolean_Boolean_Boolean_Ref_StackCrawlMark_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// IntPtr[] CopyRuntimeTypeHandles(System.RuntimeTypeHandle[], Int32 ByRef)
 		/// </summary>
-		protected static RMethod r_RCopyRuntimeTypeHandles_RuntimeTypeHandleArray_Out_Int32;
+		protected static RMethod r_CopyRuntimeTypeHandles_RuntimeTypeHandleArray_Out_Int32;
 		public static RMethod RCopyRuntimeTypeHandles_RuntimeTypeHandleArray_Out_Int32
 		{
 			get
 			{
-				if(r_RCopyRuntimeTypeHandles_RuntimeTypeHandleArray_Out_Int32 == null)
+				if(r_CopyRuntimeTypeHandles_RuntimeTypeHandleArray_Out_Int32 == null)
 				{
-					r_RCopyRuntimeTypeHandles_RuntimeTypeHandleArray_Out_Int32 = new(typeof(System.RuntimeTypeHandle), "CopyRuntimeTypeHandles", 0, typeof(System.RuntimeTypeHandle).MakeArrayType(), typeof(System.Int32).MakeByRefType());
-					r_RCopyRuntimeTypeHandles_RuntimeTypeHandleArray_Out_Int32.SetBelong(null);
+					r_CopyRuntimeTypeHandles_RuntimeTypeHandleArray_Out_Int32 = new(typeof(System.RuntimeTypeHandle), "CopyRuntimeTypeHandles", 0, typeof(System.RuntimeTypeHandle).MakeArrayType(), typeof(System.Int32).MakeByRefType());
+					r_CopyRuntimeTypeHandles_RuntimeTypeHandleArray_Out_Int32.SetBelong(null);
 				}
-				return r_RCopyRuntimeTypeHandles_RuntimeTypeHandleArray_Out_Int32;
+				return r_CopyRuntimeTypeHandles_RuntimeTypeHandleArray_Out_Int32;
 			}
 		}
 
 		/// <summary>
 		/// System.String ToString()
 		/// </summary>
-		protected RMethod r_RToString;
+		protected RMethod r_ToString;
 		public virtual RMethod RToString
 		{
 			get
 			{
-				if(r_RToString == null)
+				if(r_ToString == null)
 				{
-					r_RToString = new(this, "ToString", 0);
-					r_RToString.SetBelong(this.instance);
+					r_ToString = new(this, "ToString", 0);
+					r_ToString.SetBelong(this.instance);
 				}
-				return r_RToString;
+				return r_ToString;
 			}
 		}
 
 		/// <summary>
 		/// Void Finalize()
 		/// </summary>
-		protected RMethod r_RFinalize;
+		protected RMethod r_Finalize;
 		public virtual RMethod RFinalize
 		{
 			get
 			{
-				if(r_RFinalize == null)
+				if(r_Finalize == null)
 				{
-					r_RFinalize = new(this, "Finalize", 0);
-					r_RFinalize.SetBelong(this.instance);
+					r_Finalize = new(this, "Finalize", 0);
+					r_Finalize.SetBelong(this.instance);
 				}
-				return r_RFinalize;
+				return r_Finalize;
 			}
 		}
 
 		/// <summary>
 		/// System.Type GetType()
 		/// </summary>
-		protected RMethod r_RGetType;
+		protected RMethod r_GetType;
 		public virtual RMethod RGetType
 		{
 			get
 			{
-				if(r_RGetType == null)
+				if(r_GetType == null)
 				{
-					r_RGetType = new(this, "GetType", 0);
-					r_RGetType.SetBelong(this.instance);
+					r_GetType = new(this, "GetType", 0);
+					r_GetType.SetBelong(this.instance);
 				}
-				return r_RGetType;
+				return r_GetType;
 			}
 		}
 
 		/// <summary>
 		/// System.Object MemberwiseClone()
 		/// </summary>
-		protected RMethod r_RMemberwiseClone;
+		protected RMethod r_MemberwiseClone;
 		public virtual RMethod RMemberwiseClone
 		{
 			get
 			{
-				if(r_RMemberwiseClone == null)
+				if(r_MemberwiseClone == null)
 				{
-					r_RMemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_RMemberwiseClone.SetBelong(this.instance);
+					r_MemberwiseClone = new(this, "MemberwiseClone", 0);
+					r_MemberwiseClone.SetBelong(this.instance);
 				}
-				return r_RMemberwiseClone;
+				return r_MemberwiseClone;
 			}
 		}
 

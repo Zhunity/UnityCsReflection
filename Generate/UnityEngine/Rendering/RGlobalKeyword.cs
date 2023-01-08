@@ -64,170 +64,170 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UInt32 GetGlobalKeywordCount()
 		/// </summary>
-		protected static RMethod r_RGetGlobalKeywordCount;
+		protected static RMethod r_GetGlobalKeywordCount;
 		public static RMethod RGetGlobalKeywordCount
 		{
 			get
 			{
-				if(r_RGetGlobalKeywordCount == null)
+				if(r_GetGlobalKeywordCount == null)
 				{
-					r_RGetGlobalKeywordCount = new(typeof(UnityEngine.Rendering.GlobalKeyword), "GetGlobalKeywordCount", 0);
-					r_RGetGlobalKeywordCount.SetBelong(null);
+					r_GetGlobalKeywordCount = new(typeof(UnityEngine.Rendering.GlobalKeyword), "GetGlobalKeywordCount", 0);
+					r_GetGlobalKeywordCount.SetBelong(null);
 				}
-				return r_RGetGlobalKeywordCount;
+				return r_GetGlobalKeywordCount;
 			}
 		}
 
 		/// <summary>
 		/// UInt32 GetGlobalKeywordIndex(System.String)
 		/// </summary>
-		protected static RMethod r_RGetGlobalKeywordIndex_String;
+		protected static RMethod r_GetGlobalKeywordIndex_String;
 		public static RMethod RGetGlobalKeywordIndex_String
 		{
 			get
 			{
-				if(r_RGetGlobalKeywordIndex_String == null)
+				if(r_GetGlobalKeywordIndex_String == null)
 				{
-					r_RGetGlobalKeywordIndex_String = new(typeof(UnityEngine.Rendering.GlobalKeyword), "GetGlobalKeywordIndex", 0, typeof(System.String));
-					r_RGetGlobalKeywordIndex_String.SetBelong(null);
+					r_GetGlobalKeywordIndex_String = new(typeof(UnityEngine.Rendering.GlobalKeyword), "GetGlobalKeywordIndex", 0, typeof(System.String));
+					r_GetGlobalKeywordIndex_String.SetBelong(null);
 				}
-				return r_RGetGlobalKeywordIndex_String;
+				return r_GetGlobalKeywordIndex_String;
 			}
 		}
 
 		/// <summary>
 		/// Void CreateGlobalKeyword(System.String)
 		/// </summary>
-		protected static RMethod r_RCreateGlobalKeyword_String;
+		protected static RMethod r_CreateGlobalKeyword_String;
 		public static RMethod RCreateGlobalKeyword_String
 		{
 			get
 			{
-				if(r_RCreateGlobalKeyword_String == null)
+				if(r_CreateGlobalKeyword_String == null)
 				{
-					r_RCreateGlobalKeyword_String = new(typeof(UnityEngine.Rendering.GlobalKeyword), "CreateGlobalKeyword", 0, typeof(System.String));
-					r_RCreateGlobalKeyword_String.SetBelong(null);
+					r_CreateGlobalKeyword_String = new(typeof(UnityEngine.Rendering.GlobalKeyword), "CreateGlobalKeyword", 0, typeof(System.String));
+					r_CreateGlobalKeyword_String.SetBelong(null);
 				}
-				return r_RCreateGlobalKeyword_String;
+				return r_CreateGlobalKeyword_String;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Rendering.GlobalKeyword Create(System.String)
 		/// </summary>
-		protected static RMethod r_RCreate_String;
+		protected static RMethod r_Create_String;
 		public static RMethod RCreate_String
 		{
 			get
 			{
-				if(r_RCreate_String == null)
+				if(r_Create_String == null)
 				{
-					r_RCreate_String = new(typeof(UnityEngine.Rendering.GlobalKeyword), "Create", 0, typeof(System.String));
-					r_RCreate_String.SetBelong(null);
+					r_Create_String = new(typeof(UnityEngine.Rendering.GlobalKeyword), "Create", 0, typeof(System.String));
+					r_Create_String.SetBelong(null);
 				}
-				return r_RCreate_String;
+				return r_Create_String;
 			}
 		}
 
 		/// <summary>
 		/// System.String ToString()
 		/// </summary>
-		protected RMethod r_RToString;
+		protected RMethod r_ToString;
 		public virtual RMethod RToString
 		{
 			get
 			{
-				if(r_RToString == null)
+				if(r_ToString == null)
 				{
-					r_RToString = new(this, "ToString", 0);
-					r_RToString.SetBelong(this.instance);
+					r_ToString = new(this, "ToString", 0);
+					r_ToString.SetBelong(this.instance);
 				}
-				return r_RToString;
+				return r_ToString;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Equals(System.Object)
 		/// </summary>
-		protected RMethod r_REquals_Object;
+		protected RMethod r_Equals_Object;
 		public virtual RMethod REquals_Object
 		{
 			get
 			{
-				if(r_REquals_Object == null)
+				if(r_Equals_Object == null)
 				{
-					r_REquals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_REquals_Object.SetBelong(this.instance);
+					r_Equals_Object = new(this, "Equals", 0, typeof(System.Object));
+					r_Equals_Object.SetBelong(this.instance);
 				}
-				return r_REquals_Object;
+				return r_Equals_Object;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetHashCode()
 		/// </summary>
-		protected RMethod r_RGetHashCode;
+		protected RMethod r_GetHashCode;
 		public virtual RMethod RGetHashCode
 		{
 			get
 			{
-				if(r_RGetHashCode == null)
+				if(r_GetHashCode == null)
 				{
-					r_RGetHashCode = new(this, "GetHashCode", 0);
-					r_RGetHashCode.SetBelong(this.instance);
+					r_GetHashCode = new(this, "GetHashCode", 0);
+					r_GetHashCode.SetBelong(this.instance);
 				}
-				return r_RGetHashCode;
+				return r_GetHashCode;
 			}
 		}
 
 		/// <summary>
 		/// Void Finalize()
 		/// </summary>
-		protected RMethod r_RFinalize;
+		protected RMethod r_Finalize;
 		public virtual RMethod RFinalize
 		{
 			get
 			{
-				if(r_RFinalize == null)
+				if(r_Finalize == null)
 				{
-					r_RFinalize = new(this, "Finalize", 0);
-					r_RFinalize.SetBelong(this.instance);
+					r_Finalize = new(this, "Finalize", 0);
+					r_Finalize.SetBelong(this.instance);
 				}
-				return r_RFinalize;
+				return r_Finalize;
 			}
 		}
 
 		/// <summary>
 		/// System.Type GetType()
 		/// </summary>
-		protected RMethod r_RGetType;
+		protected RMethod r_GetType;
 		public virtual RMethod RGetType
 		{
 			get
 			{
-				if(r_RGetType == null)
+				if(r_GetType == null)
 				{
-					r_RGetType = new(this, "GetType", 0);
-					r_RGetType.SetBelong(this.instance);
+					r_GetType = new(this, "GetType", 0);
+					r_GetType.SetBelong(this.instance);
 				}
-				return r_RGetType;
+				return r_GetType;
 			}
 		}
 
 		/// <summary>
 		/// System.Object MemberwiseClone()
 		/// </summary>
-		protected RMethod r_RMemberwiseClone;
+		protected RMethod r_MemberwiseClone;
 		public virtual RMethod RMemberwiseClone
 		{
 			get
 			{
-				if(r_RMemberwiseClone == null)
+				if(r_MemberwiseClone == null)
 				{
-					r_RMemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_RMemberwiseClone.SetBelong(this.instance);
+					r_MemberwiseClone = new(this, "MemberwiseClone", 0);
+					r_MemberwiseClone.SetBelong(this.instance);
 				}
-				return r_RMemberwiseClone;
+				return r_MemberwiseClone;
 			}
 		}
 

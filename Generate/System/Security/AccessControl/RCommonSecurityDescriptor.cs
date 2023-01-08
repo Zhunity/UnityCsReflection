@@ -370,289 +370,289 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// Void Init(Boolean, Boolean, System.Security.AccessControl.RawSecurityDescriptor)
 		/// </summary>
-		protected RMethod r_RInit_Boolean_Boolean_RawSecurityDescriptor;
+		protected RMethod r_Init_Boolean_Boolean_RawSecurityDescriptor;
 		public virtual RMethod RInit_Boolean_Boolean_RawSecurityDescriptor
 		{
 			get
 			{
-				if(r_RInit_Boolean_Boolean_RawSecurityDescriptor == null)
+				if(r_Init_Boolean_Boolean_RawSecurityDescriptor == null)
 				{
-					r_RInit_Boolean_Boolean_RawSecurityDescriptor = new(this, "Init", 0, typeof(System.Boolean), typeof(System.Boolean), typeof(System.Security.AccessControl.RawSecurityDescriptor));
-					r_RInit_Boolean_Boolean_RawSecurityDescriptor.SetBelong(this.instance);
+					r_Init_Boolean_Boolean_RawSecurityDescriptor = new(this, "Init", 0, typeof(System.Boolean), typeof(System.Boolean), typeof(System.Security.AccessControl.RawSecurityDescriptor));
+					r_Init_Boolean_Boolean_RawSecurityDescriptor.SetBelong(this.instance);
 				}
-				return r_RInit_Boolean_Boolean_RawSecurityDescriptor;
+				return r_Init_Boolean_Boolean_RawSecurityDescriptor;
 			}
 		}
 
 		/// <summary>
 		/// Void Init(Boolean, Boolean, System.Security.AccessControl.ControlFlags, System.Security.Principal.SecurityIdentifier, System.Security.Principal.SecurityIdentifier, System.Security.AccessControl.SystemAcl, System.Security.AccessControl.DiscretionaryAcl)
 		/// </summary>
-		protected RMethod r_RInit_Boolean_Boolean_ControlFlags_SecurityIdentifier_SecurityIdentifier_SystemAcl_DiscretionaryAcl;
+		protected RMethod r_Init_Boolean_Boolean_ControlFlags_SecurityIdentifier_SecurityIdentifier_SystemAcl_DiscretionaryAcl;
 		public virtual RMethod RInit_Boolean_Boolean_ControlFlags_SecurityIdentifier_SecurityIdentifier_SystemAcl_DiscretionaryAcl
 		{
 			get
 			{
-				if(r_RInit_Boolean_Boolean_ControlFlags_SecurityIdentifier_SecurityIdentifier_SystemAcl_DiscretionaryAcl == null)
+				if(r_Init_Boolean_Boolean_ControlFlags_SecurityIdentifier_SecurityIdentifier_SystemAcl_DiscretionaryAcl == null)
 				{
-					r_RInit_Boolean_Boolean_ControlFlags_SecurityIdentifier_SecurityIdentifier_SystemAcl_DiscretionaryAcl = new(this, "Init", 0, typeof(System.Boolean), typeof(System.Boolean), typeof(System.Security.AccessControl.ControlFlags), typeof(System.Security.Principal.SecurityIdentifier), typeof(System.Security.Principal.SecurityIdentifier), typeof(System.Security.AccessControl.SystemAcl), typeof(System.Security.AccessControl.DiscretionaryAcl));
-					r_RInit_Boolean_Boolean_ControlFlags_SecurityIdentifier_SecurityIdentifier_SystemAcl_DiscretionaryAcl.SetBelong(this.instance);
+					r_Init_Boolean_Boolean_ControlFlags_SecurityIdentifier_SecurityIdentifier_SystemAcl_DiscretionaryAcl = new(this, "Init", 0, typeof(System.Boolean), typeof(System.Boolean), typeof(System.Security.AccessControl.ControlFlags), typeof(System.Security.Principal.SecurityIdentifier), typeof(System.Security.Principal.SecurityIdentifier), typeof(System.Security.AccessControl.SystemAcl), typeof(System.Security.AccessControl.DiscretionaryAcl));
+					r_Init_Boolean_Boolean_ControlFlags_SecurityIdentifier_SecurityIdentifier_SystemAcl_DiscretionaryAcl.SetBelong(this.instance);
 				}
-				return r_RInit_Boolean_Boolean_ControlFlags_SecurityIdentifier_SecurityIdentifier_SystemAcl_DiscretionaryAcl;
+				return r_Init_Boolean_Boolean_ControlFlags_SecurityIdentifier_SecurityIdentifier_SystemAcl_DiscretionaryAcl;
 			}
 		}
 
 		/// <summary>
 		/// Void PurgeAccessControl(System.Security.Principal.SecurityIdentifier)
 		/// </summary>
-		protected RMethod r_RPurgeAccessControl_SecurityIdentifier;
+		protected RMethod r_PurgeAccessControl_SecurityIdentifier;
 		public virtual RMethod RPurgeAccessControl_SecurityIdentifier
 		{
 			get
 			{
-				if(r_RPurgeAccessControl_SecurityIdentifier == null)
+				if(r_PurgeAccessControl_SecurityIdentifier == null)
 				{
-					r_RPurgeAccessControl_SecurityIdentifier = new(this, "PurgeAccessControl", 0, typeof(System.Security.Principal.SecurityIdentifier));
-					r_RPurgeAccessControl_SecurityIdentifier.SetBelong(this.instance);
+					r_PurgeAccessControl_SecurityIdentifier = new(this, "PurgeAccessControl", 0, typeof(System.Security.Principal.SecurityIdentifier));
+					r_PurgeAccessControl_SecurityIdentifier.SetBelong(this.instance);
 				}
-				return r_RPurgeAccessControl_SecurityIdentifier;
+				return r_PurgeAccessControl_SecurityIdentifier;
 			}
 		}
 
 		/// <summary>
 		/// Void PurgeAudit(System.Security.Principal.SecurityIdentifier)
 		/// </summary>
-		protected RMethod r_RPurgeAudit_SecurityIdentifier;
+		protected RMethod r_PurgeAudit_SecurityIdentifier;
 		public virtual RMethod RPurgeAudit_SecurityIdentifier
 		{
 			get
 			{
-				if(r_RPurgeAudit_SecurityIdentifier == null)
+				if(r_PurgeAudit_SecurityIdentifier == null)
 				{
-					r_RPurgeAudit_SecurityIdentifier = new(this, "PurgeAudit", 0, typeof(System.Security.Principal.SecurityIdentifier));
-					r_RPurgeAudit_SecurityIdentifier.SetBelong(this.instance);
+					r_PurgeAudit_SecurityIdentifier = new(this, "PurgeAudit", 0, typeof(System.Security.Principal.SecurityIdentifier));
+					r_PurgeAudit_SecurityIdentifier.SetBelong(this.instance);
 				}
-				return r_RPurgeAudit_SecurityIdentifier;
+				return r_PurgeAudit_SecurityIdentifier;
 			}
 		}
 
 		/// <summary>
 		/// Void SetDiscretionaryAclProtection(Boolean, Boolean)
 		/// </summary>
-		protected RMethod r_RSetDiscretionaryAclProtection_Boolean_Boolean;
+		protected RMethod r_SetDiscretionaryAclProtection_Boolean_Boolean;
 		public virtual RMethod RSetDiscretionaryAclProtection_Boolean_Boolean
 		{
 			get
 			{
-				if(r_RSetDiscretionaryAclProtection_Boolean_Boolean == null)
+				if(r_SetDiscretionaryAclProtection_Boolean_Boolean == null)
 				{
-					r_RSetDiscretionaryAclProtection_Boolean_Boolean = new(this, "SetDiscretionaryAclProtection", 0, typeof(System.Boolean), typeof(System.Boolean));
-					r_RSetDiscretionaryAclProtection_Boolean_Boolean.SetBelong(this.instance);
+					r_SetDiscretionaryAclProtection_Boolean_Boolean = new(this, "SetDiscretionaryAclProtection", 0, typeof(System.Boolean), typeof(System.Boolean));
+					r_SetDiscretionaryAclProtection_Boolean_Boolean.SetBelong(this.instance);
 				}
-				return r_RSetDiscretionaryAclProtection_Boolean_Boolean;
+				return r_SetDiscretionaryAclProtection_Boolean_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Void SetSystemAclProtection(Boolean, Boolean)
 		/// </summary>
-		protected RMethod r_RSetSystemAclProtection_Boolean_Boolean;
+		protected RMethod r_SetSystemAclProtection_Boolean_Boolean;
 		public virtual RMethod RSetSystemAclProtection_Boolean_Boolean
 		{
 			get
 			{
-				if(r_RSetSystemAclProtection_Boolean_Boolean == null)
+				if(r_SetSystemAclProtection_Boolean_Boolean == null)
 				{
-					r_RSetSystemAclProtection_Boolean_Boolean = new(this, "SetSystemAclProtection", 0, typeof(System.Boolean), typeof(System.Boolean));
-					r_RSetSystemAclProtection_Boolean_Boolean.SetBelong(this.instance);
+					r_SetSystemAclProtection_Boolean_Boolean = new(this, "SetSystemAclProtection", 0, typeof(System.Boolean), typeof(System.Boolean));
+					r_SetSystemAclProtection_Boolean_Boolean.SetBelong(this.instance);
 				}
-				return r_RSetSystemAclProtection_Boolean_Boolean;
+				return r_SetSystemAclProtection_Boolean_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Void AddDiscretionaryAcl(Byte, Int32)
 		/// </summary>
-		protected RMethod r_RAddDiscretionaryAcl_Byte_Int32;
+		protected RMethod r_AddDiscretionaryAcl_Byte_Int32;
 		public virtual RMethod RAddDiscretionaryAcl_Byte_Int32
 		{
 			get
 			{
-				if(r_RAddDiscretionaryAcl_Byte_Int32 == null)
+				if(r_AddDiscretionaryAcl_Byte_Int32 == null)
 				{
-					r_RAddDiscretionaryAcl_Byte_Int32 = new(this, "AddDiscretionaryAcl", 0, typeof(System.Byte), typeof(System.Int32));
-					r_RAddDiscretionaryAcl_Byte_Int32.SetBelong(this.instance);
+					r_AddDiscretionaryAcl_Byte_Int32 = new(this, "AddDiscretionaryAcl", 0, typeof(System.Byte), typeof(System.Int32));
+					r_AddDiscretionaryAcl_Byte_Int32.SetBelong(this.instance);
 				}
-				return r_RAddDiscretionaryAcl_Byte_Int32;
+				return r_AddDiscretionaryAcl_Byte_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Void AddSystemAcl(Byte, Int32)
 		/// </summary>
-		protected RMethod r_RAddSystemAcl_Byte_Int32;
+		protected RMethod r_AddSystemAcl_Byte_Int32;
 		public virtual RMethod RAddSystemAcl_Byte_Int32
 		{
 			get
 			{
-				if(r_RAddSystemAcl_Byte_Int32 == null)
+				if(r_AddSystemAcl_Byte_Int32 == null)
 				{
-					r_RAddSystemAcl_Byte_Int32 = new(this, "AddSystemAcl", 0, typeof(System.Byte), typeof(System.Int32));
-					r_RAddSystemAcl_Byte_Int32.SetBelong(this.instance);
+					r_AddSystemAcl_Byte_Int32 = new(this, "AddSystemAcl", 0, typeof(System.Byte), typeof(System.Int32));
+					r_AddSystemAcl_Byte_Int32.SetBelong(this.instance);
 				}
-				return r_RAddSystemAcl_Byte_Int32;
+				return r_AddSystemAcl_Byte_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Void CheckAclConsistency(System.Security.AccessControl.CommonAcl)
 		/// </summary>
-		protected RMethod r_RCheckAclConsistency_CommonAcl;
+		protected RMethod r_CheckAclConsistency_CommonAcl;
 		public virtual RMethod RCheckAclConsistency_CommonAcl
 		{
 			get
 			{
-				if(r_RCheckAclConsistency_CommonAcl == null)
+				if(r_CheckAclConsistency_CommonAcl == null)
 				{
-					r_RCheckAclConsistency_CommonAcl = new(this, "CheckAclConsistency", 0, typeof(System.Security.AccessControl.CommonAcl));
-					r_RCheckAclConsistency_CommonAcl.SetBelong(this.instance);
+					r_CheckAclConsistency_CommonAcl = new(this, "CheckAclConsistency", 0, typeof(System.Security.AccessControl.CommonAcl));
+					r_CheckAclConsistency_CommonAcl.SetBelong(this.instance);
 				}
-				return r_RCheckAclConsistency_CommonAcl;
+				return r_CheckAclConsistency_CommonAcl;
 			}
 		}
 
 		/// <summary>
 		/// Void GetBinaryForm(Byte[], Int32)
 		/// </summary>
-		protected RMethod r_RGetBinaryForm_ByteArray_Int32;
+		protected RMethod r_GetBinaryForm_ByteArray_Int32;
 		public virtual RMethod RGetBinaryForm_ByteArray_Int32
 		{
 			get
 			{
-				if(r_RGetBinaryForm_ByteArray_Int32 == null)
+				if(r_GetBinaryForm_ByteArray_Int32 == null)
 				{
-					r_RGetBinaryForm_ByteArray_Int32 = new(this, "GetBinaryForm", 0, typeof(System.Byte).MakeArrayType(), typeof(System.Int32));
-					r_RGetBinaryForm_ByteArray_Int32.SetBelong(this.instance);
+					r_GetBinaryForm_ByteArray_Int32 = new(this, "GetBinaryForm", 0, typeof(System.Byte).MakeArrayType(), typeof(System.Int32));
+					r_GetBinaryForm_ByteArray_Int32.SetBelong(this.instance);
 				}
-				return r_RGetBinaryForm_ByteArray_Int32;
+				return r_GetBinaryForm_ByteArray_Int32;
 			}
 		}
 
 		/// <summary>
 		/// System.String GetSddlForm(System.Security.AccessControl.AccessControlSections)
 		/// </summary>
-		protected RMethod r_RGetSddlForm_AccessControlSections;
+		protected RMethod r_GetSddlForm_AccessControlSections;
 		public virtual RMethod RGetSddlForm_AccessControlSections
 		{
 			get
 			{
-				if(r_RGetSddlForm_AccessControlSections == null)
+				if(r_GetSddlForm_AccessControlSections == null)
 				{
-					r_RGetSddlForm_AccessControlSections = new(this, "GetSddlForm", 0, typeof(System.Security.AccessControl.AccessControlSections));
-					r_RGetSddlForm_AccessControlSections.SetBelong(this.instance);
+					r_GetSddlForm_AccessControlSections = new(this, "GetSddlForm", 0, typeof(System.Security.AccessControl.AccessControlSections));
+					r_GetSddlForm_AccessControlSections.SetBelong(this.instance);
 				}
-				return r_RGetSddlForm_AccessControlSections;
+				return r_GetSddlForm_AccessControlSections;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Equals(System.Object)
 		/// </summary>
-		protected RMethod r_REquals_Object;
+		protected RMethod r_Equals_Object;
 		public virtual RMethod REquals_Object
 		{
 			get
 			{
-				if(r_REquals_Object == null)
+				if(r_Equals_Object == null)
 				{
-					r_REquals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_REquals_Object.SetBelong(this.instance);
+					r_Equals_Object = new(this, "Equals", 0, typeof(System.Object));
+					r_Equals_Object.SetBelong(this.instance);
 				}
-				return r_REquals_Object;
+				return r_Equals_Object;
 			}
 		}
 
 		/// <summary>
 		/// Void Finalize()
 		/// </summary>
-		protected RMethod r_RFinalize;
+		protected RMethod r_Finalize;
 		public virtual RMethod RFinalize
 		{
 			get
 			{
-				if(r_RFinalize == null)
+				if(r_Finalize == null)
 				{
-					r_RFinalize = new(this, "Finalize", 0);
-					r_RFinalize.SetBelong(this.instance);
+					r_Finalize = new(this, "Finalize", 0);
+					r_Finalize.SetBelong(this.instance);
 				}
-				return r_RFinalize;
+				return r_Finalize;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetHashCode()
 		/// </summary>
-		protected RMethod r_RGetHashCode;
+		protected RMethod r_GetHashCode;
 		public virtual RMethod RGetHashCode
 		{
 			get
 			{
-				if(r_RGetHashCode == null)
+				if(r_GetHashCode == null)
 				{
-					r_RGetHashCode = new(this, "GetHashCode", 0);
-					r_RGetHashCode.SetBelong(this.instance);
+					r_GetHashCode = new(this, "GetHashCode", 0);
+					r_GetHashCode.SetBelong(this.instance);
 				}
-				return r_RGetHashCode;
+				return r_GetHashCode;
 			}
 		}
 
 		/// <summary>
 		/// System.Type GetType()
 		/// </summary>
-		protected RMethod r_RGetType;
+		protected RMethod r_GetType;
 		public virtual RMethod RGetType
 		{
 			get
 			{
-				if(r_RGetType == null)
+				if(r_GetType == null)
 				{
-					r_RGetType = new(this, "GetType", 0);
-					r_RGetType.SetBelong(this.instance);
+					r_GetType = new(this, "GetType", 0);
+					r_GetType.SetBelong(this.instance);
 				}
-				return r_RGetType;
+				return r_GetType;
 			}
 		}
 
 		/// <summary>
 		/// System.Object MemberwiseClone()
 		/// </summary>
-		protected RMethod r_RMemberwiseClone;
+		protected RMethod r_MemberwiseClone;
 		public virtual RMethod RMemberwiseClone
 		{
 			get
 			{
-				if(r_RMemberwiseClone == null)
+				if(r_MemberwiseClone == null)
 				{
-					r_RMemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_RMemberwiseClone.SetBelong(this.instance);
+					r_MemberwiseClone = new(this, "MemberwiseClone", 0);
+					r_MemberwiseClone.SetBelong(this.instance);
 				}
-				return r_RMemberwiseClone;
+				return r_MemberwiseClone;
 			}
 		}
 
 		/// <summary>
 		/// System.String ToString()
 		/// </summary>
-		protected RMethod r_RToString;
+		protected RMethod r_ToString;
 		public virtual RMethod RToString
 		{
 			get
 			{
-				if(r_RToString == null)
+				if(r_ToString == null)
 				{
-					r_RToString = new(this, "ToString", 0);
-					r_RToString.SetBelong(this.instance);
+					r_ToString = new(this, "ToString", 0);
+					r_ToString.SetBelong(this.instance);
 				}
-				return r_RToString;
+				return r_ToString;
 			}
 		}
 

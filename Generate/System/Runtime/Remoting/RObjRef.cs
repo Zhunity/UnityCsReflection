@@ -251,255 +251,255 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting
 		/// <summary>
 		/// System.Runtime.Remoting.ObjRef DeserializeInTheCurrentDomain(Int32, Byte[])
 		/// </summary>
-		protected RMethod r_RDeserializeInTheCurrentDomain_Int32_ByteArray;
+		protected RMethod r_DeserializeInTheCurrentDomain_Int32_ByteArray;
 		public virtual RMethod RDeserializeInTheCurrentDomain_Int32_ByteArray
 		{
 			get
 			{
-				if(r_RDeserializeInTheCurrentDomain_Int32_ByteArray == null)
+				if(r_DeserializeInTheCurrentDomain_Int32_ByteArray == null)
 				{
-					r_RDeserializeInTheCurrentDomain_Int32_ByteArray = new(this, "DeserializeInTheCurrentDomain", 0, typeof(System.Int32), typeof(System.Byte).MakeArrayType());
-					r_RDeserializeInTheCurrentDomain_Int32_ByteArray.SetBelong(this.instance);
+					r_DeserializeInTheCurrentDomain_Int32_ByteArray = new(this, "DeserializeInTheCurrentDomain", 0, typeof(System.Int32), typeof(System.Byte).MakeArrayType());
+					r_DeserializeInTheCurrentDomain_Int32_ByteArray.SetBelong(this.instance);
 				}
-				return r_RDeserializeInTheCurrentDomain_Int32_ByteArray;
+				return r_DeserializeInTheCurrentDomain_Int32_ByteArray;
 			}
 		}
 
 		/// <summary>
 		/// Byte[] SerializeType()
 		/// </summary>
-		protected RMethod r_RSerializeType;
+		protected RMethod r_SerializeType;
 		public virtual RMethod RSerializeType
 		{
 			get
 			{
-				if(r_RSerializeType == null)
+				if(r_SerializeType == null)
 				{
-					r_RSerializeType = new(this, "SerializeType", 0);
-					r_RSerializeType.SetBelong(this.instance);
+					r_SerializeType = new(this, "SerializeType", 0);
+					r_SerializeType.SetBelong(this.instance);
 				}
-				return r_RSerializeType;
+				return r_SerializeType;
 			}
 		}
 
 		/// <summary>
 		/// Boolean IsPossibleToCAD()
 		/// </summary>
-		protected RMethod r_RIsPossibleToCAD;
+		protected RMethod r_IsPossibleToCAD;
 		public virtual RMethod RIsPossibleToCAD
 		{
 			get
 			{
-				if(r_RIsPossibleToCAD == null)
+				if(r_IsPossibleToCAD == null)
 				{
-					r_RIsPossibleToCAD = new(this, "IsPossibleToCAD", 0);
-					r_RIsPossibleToCAD.SetBelong(this.instance);
+					r_IsPossibleToCAD = new(this, "IsPossibleToCAD", 0);
+					r_IsPossibleToCAD.SetBelong(this.instance);
 				}
-				return r_RIsPossibleToCAD;
+				return r_IsPossibleToCAD;
 			}
 		}
 
 		/// <summary>
 		/// Void GetObjectData(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)
 		/// </summary>
-		protected RMethod r_RGetObjectData_SerializationInfo_StreamingContext;
+		protected RMethod r_GetObjectData_SerializationInfo_StreamingContext;
 		public virtual RMethod RGetObjectData_SerializationInfo_StreamingContext
 		{
 			get
 			{
-				if(r_RGetObjectData_SerializationInfo_StreamingContext == null)
+				if(r_GetObjectData_SerializationInfo_StreamingContext == null)
 				{
-					r_RGetObjectData_SerializationInfo_StreamingContext = new(this, "GetObjectData", 0, typeof(System.Runtime.Serialization.SerializationInfo), typeof(System.Runtime.Serialization.StreamingContext));
-					r_RGetObjectData_SerializationInfo_StreamingContext.SetBelong(this.instance);
+					r_GetObjectData_SerializationInfo_StreamingContext = new(this, "GetObjectData", 0, typeof(System.Runtime.Serialization.SerializationInfo), typeof(System.Runtime.Serialization.StreamingContext));
+					r_GetObjectData_SerializationInfo_StreamingContext.SetBelong(this.instance);
 				}
-				return r_RGetObjectData_SerializationInfo_StreamingContext;
+				return r_GetObjectData_SerializationInfo_StreamingContext;
 			}
 		}
 
 		/// <summary>
 		/// System.Object GetRealObject(System.Runtime.Serialization.StreamingContext)
 		/// </summary>
-		protected RMethod r_RGetRealObject_StreamingContext;
+		protected RMethod r_GetRealObject_StreamingContext;
 		public virtual RMethod RGetRealObject_StreamingContext
 		{
 			get
 			{
-				if(r_RGetRealObject_StreamingContext == null)
+				if(r_GetRealObject_StreamingContext == null)
 				{
-					r_RGetRealObject_StreamingContext = new(this, "GetRealObject", 0, typeof(System.Runtime.Serialization.StreamingContext));
-					r_RGetRealObject_StreamingContext.SetBelong(this.instance);
+					r_GetRealObject_StreamingContext = new(this, "GetRealObject", 0, typeof(System.Runtime.Serialization.StreamingContext));
+					r_GetRealObject_StreamingContext.SetBelong(this.instance);
 				}
-				return r_RGetRealObject_StreamingContext;
+				return r_GetRealObject_StreamingContext;
 			}
 		}
 
 		/// <summary>
 		/// Boolean IsFromThisAppDomain()
 		/// </summary>
-		protected RMethod r_RIsFromThisAppDomain;
+		protected RMethod r_IsFromThisAppDomain;
 		public virtual RMethod RIsFromThisAppDomain
 		{
 			get
 			{
-				if(r_RIsFromThisAppDomain == null)
+				if(r_IsFromThisAppDomain == null)
 				{
-					r_RIsFromThisAppDomain = new(this, "IsFromThisAppDomain", 0);
-					r_RIsFromThisAppDomain.SetBelong(this.instance);
+					r_IsFromThisAppDomain = new(this, "IsFromThisAppDomain", 0);
+					r_IsFromThisAppDomain.SetBelong(this.instance);
 				}
-				return r_RIsFromThisAppDomain;
+				return r_IsFromThisAppDomain;
 			}
 		}
 
 		/// <summary>
 		/// Boolean IsFromThisProcess()
 		/// </summary>
-		protected RMethod r_RIsFromThisProcess;
+		protected RMethod r_IsFromThisProcess;
 		public virtual RMethod RIsFromThisProcess
 		{
 			get
 			{
-				if(r_RIsFromThisProcess == null)
+				if(r_IsFromThisProcess == null)
 				{
-					r_RIsFromThisProcess = new(this, "IsFromThisProcess", 0);
-					r_RIsFromThisProcess.SetBelong(this.instance);
+					r_IsFromThisProcess = new(this, "IsFromThisProcess", 0);
+					r_IsFromThisProcess.SetBelong(this.instance);
 				}
-				return r_RIsFromThisProcess;
+				return r_IsFromThisProcess;
 			}
 		}
 
 		/// <summary>
 		/// Void UpdateChannelInfo()
 		/// </summary>
-		protected RMethod r_RUpdateChannelInfo;
+		protected RMethod r_UpdateChannelInfo;
 		public virtual RMethod RUpdateChannelInfo
 		{
 			get
 			{
-				if(r_RUpdateChannelInfo == null)
+				if(r_UpdateChannelInfo == null)
 				{
-					r_RUpdateChannelInfo = new(this, "UpdateChannelInfo", 0);
-					r_RUpdateChannelInfo.SetBelong(this.instance);
+					r_UpdateChannelInfo = new(this, "UpdateChannelInfo", 0);
+					r_UpdateChannelInfo.SetBelong(this.instance);
 				}
-				return r_RUpdateChannelInfo;
+				return r_UpdateChannelInfo;
 			}
 		}
 
 		/// <summary>
 		/// Void SetDomainID(Int32)
 		/// </summary>
-		protected RMethod r_RSetDomainID_Int32;
+		protected RMethod r_SetDomainID_Int32;
 		public virtual RMethod RSetDomainID_Int32
 		{
 			get
 			{
-				if(r_RSetDomainID_Int32 == null)
+				if(r_SetDomainID_Int32 == null)
 				{
-					r_RSetDomainID_Int32 = new(this, "SetDomainID", 0, typeof(System.Int32));
-					r_RSetDomainID_Int32.SetBelong(this.instance);
+					r_SetDomainID_Int32 = new(this, "SetDomainID", 0, typeof(System.Int32));
+					r_SetDomainID_Int32.SetBelong(this.instance);
 				}
-				return r_RSetDomainID_Int32;
+				return r_SetDomainID_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Equals(System.Object)
 		/// </summary>
-		protected RMethod r_REquals_Object;
+		protected RMethod r_Equals_Object;
 		public virtual RMethod REquals_Object
 		{
 			get
 			{
-				if(r_REquals_Object == null)
+				if(r_Equals_Object == null)
 				{
-					r_REquals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_REquals_Object.SetBelong(this.instance);
+					r_Equals_Object = new(this, "Equals", 0, typeof(System.Object));
+					r_Equals_Object.SetBelong(this.instance);
 				}
-				return r_REquals_Object;
+				return r_Equals_Object;
 			}
 		}
 
 		/// <summary>
 		/// Void Finalize()
 		/// </summary>
-		protected RMethod r_RFinalize;
+		protected RMethod r_Finalize;
 		public virtual RMethod RFinalize
 		{
 			get
 			{
-				if(r_RFinalize == null)
+				if(r_Finalize == null)
 				{
-					r_RFinalize = new(this, "Finalize", 0);
-					r_RFinalize.SetBelong(this.instance);
+					r_Finalize = new(this, "Finalize", 0);
+					r_Finalize.SetBelong(this.instance);
 				}
-				return r_RFinalize;
+				return r_Finalize;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetHashCode()
 		/// </summary>
-		protected RMethod r_RGetHashCode;
+		protected RMethod r_GetHashCode;
 		public virtual RMethod RGetHashCode
 		{
 			get
 			{
-				if(r_RGetHashCode == null)
+				if(r_GetHashCode == null)
 				{
-					r_RGetHashCode = new(this, "GetHashCode", 0);
-					r_RGetHashCode.SetBelong(this.instance);
+					r_GetHashCode = new(this, "GetHashCode", 0);
+					r_GetHashCode.SetBelong(this.instance);
 				}
-				return r_RGetHashCode;
+				return r_GetHashCode;
 			}
 		}
 
 		/// <summary>
 		/// System.Type GetType()
 		/// </summary>
-		protected RMethod r_RGetType;
+		protected RMethod r_GetType;
 		public virtual RMethod RGetType
 		{
 			get
 			{
-				if(r_RGetType == null)
+				if(r_GetType == null)
 				{
-					r_RGetType = new(this, "GetType", 0);
-					r_RGetType.SetBelong(this.instance);
+					r_GetType = new(this, "GetType", 0);
+					r_GetType.SetBelong(this.instance);
 				}
-				return r_RGetType;
+				return r_GetType;
 			}
 		}
 
 		/// <summary>
 		/// System.Object MemberwiseClone()
 		/// </summary>
-		protected RMethod r_RMemberwiseClone;
+		protected RMethod r_MemberwiseClone;
 		public virtual RMethod RMemberwiseClone
 		{
 			get
 			{
-				if(r_RMemberwiseClone == null)
+				if(r_MemberwiseClone == null)
 				{
-					r_RMemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_RMemberwiseClone.SetBelong(this.instance);
+					r_MemberwiseClone = new(this, "MemberwiseClone", 0);
+					r_MemberwiseClone.SetBelong(this.instance);
 				}
-				return r_RMemberwiseClone;
+				return r_MemberwiseClone;
 			}
 		}
 
 		/// <summary>
 		/// System.String ToString()
 		/// </summary>
-		protected RMethod r_RToString;
+		protected RMethod r_ToString;
 		public virtual RMethod RToString
 		{
 			get
 			{
-				if(r_RToString == null)
+				if(r_ToString == null)
 				{
-					r_RToString = new(this, "ToString", 0);
-					r_RToString.SetBelong(this.instance);
+					r_ToString = new(this, "ToString", 0);
+					r_ToString.SetBelong(this.instance);
 				}
-				return r_RToString;
+				return r_ToString;
 			}
 		}
 

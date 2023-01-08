@@ -47,17 +47,17 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RActivation
 		/// <summary>
 		/// System.Runtime.Remoting.Activation.IConstructionReturnMessage Activate(System.Runtime.Remoting.Activation.IConstructionCallMessage)
 		/// </summary>
-		protected RMethod r_RActivate_IConstructionCallMessage;
+		protected RMethod r_Activate_IConstructionCallMessage;
 		public virtual RMethod RActivate_IConstructionCallMessage
 		{
 			get
 			{
-				if(r_RActivate_IConstructionCallMessage == null)
+				if(r_Activate_IConstructionCallMessage == null)
 				{
-					r_RActivate_IConstructionCallMessage = new(this, "Activate", 0, typeof(System.Runtime.Remoting.Activation.IConstructionCallMessage));
-					r_RActivate_IConstructionCallMessage.SetBelong(this.instance);
+					r_Activate_IConstructionCallMessage = new(this, "Activate", 0, typeof(System.Runtime.Remoting.Activation.IConstructionCallMessage));
+					r_Activate_IConstructionCallMessage.SetBelong(this.instance);
 				}
-				return r_RActivate_IConstructionCallMessage;
+				return r_Activate_IConstructionCallMessage;
 			}
 		}
 

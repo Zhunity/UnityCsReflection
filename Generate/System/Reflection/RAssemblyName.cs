@@ -523,442 +523,442 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// Boolean ParseAssemblyName(IntPtr, Mono.MonoAssemblyName ByRef, Boolean ByRef, Boolean ByRef)
 		/// </summary>
-		protected static RMethod r_RParseAssemblyName_IntPtr_Out_MonoAssemblyName_Out_Boolean_Out_Boolean;
+		protected static RMethod r_ParseAssemblyName_IntPtr_Out_MonoAssemblyName_Out_Boolean_Out_Boolean;
 		public static RMethod RParseAssemblyName_IntPtr_Out_MonoAssemblyName_Out_Boolean_Out_Boolean
 		{
 			get
 			{
-				if(r_RParseAssemblyName_IntPtr_Out_MonoAssemblyName_Out_Boolean_Out_Boolean == null)
+				if(r_ParseAssemblyName_IntPtr_Out_MonoAssemblyName_Out_Boolean_Out_Boolean == null)
 				{
-					r_RParseAssemblyName_IntPtr_Out_MonoAssemblyName_Out_Boolean_Out_Boolean = new(typeof(System.Reflection.AssemblyName), "ParseAssemblyName", 0, typeof(System.IntPtr),  ReleactionUtils.GetType("Mono.MonoAssemblyName").MakeByRefType(), typeof(System.Boolean).MakeByRefType(), typeof(System.Boolean).MakeByRefType());
-					r_RParseAssemblyName_IntPtr_Out_MonoAssemblyName_Out_Boolean_Out_Boolean.SetBelong(null);
+					r_ParseAssemblyName_IntPtr_Out_MonoAssemblyName_Out_Boolean_Out_Boolean = new(typeof(System.Reflection.AssemblyName), "ParseAssemblyName", 0, typeof(System.IntPtr),  ReleactionUtils.GetType("Mono.MonoAssemblyName").MakeByRefType(), typeof(System.Boolean).MakeByRefType(), typeof(System.Boolean).MakeByRefType());
+					r_ParseAssemblyName_IntPtr_Out_MonoAssemblyName_Out_Boolean_Out_Boolean.SetBelong(null);
 				}
-				return r_RParseAssemblyName_IntPtr_Out_MonoAssemblyName_Out_Boolean_Out_Boolean;
+				return r_ParseAssemblyName_IntPtr_Out_MonoAssemblyName_Out_Boolean_Out_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// System.String ToString()
 		/// </summary>
-		protected RMethod r_RToString;
+		protected RMethod r_ToString;
 		public virtual RMethod RToString
 		{
 			get
 			{
-				if(r_RToString == null)
+				if(r_ToString == null)
 				{
-					r_RToString = new(this, "ToString", 0);
-					r_RToString.SetBelong(this.instance);
+					r_ToString = new(this, "ToString", 0);
+					r_ToString.SetBelong(this.instance);
 				}
-				return r_RToString;
+				return r_ToString;
 			}
 		}
 
 		/// <summary>
 		/// Byte[] GetPublicKey()
 		/// </summary>
-		protected RMethod r_RGetPublicKey;
+		protected RMethod r_GetPublicKey;
 		public virtual RMethod RGetPublicKey
 		{
 			get
 			{
-				if(r_RGetPublicKey == null)
+				if(r_GetPublicKey == null)
 				{
-					r_RGetPublicKey = new(this, "GetPublicKey", 0);
-					r_RGetPublicKey.SetBelong(this.instance);
+					r_GetPublicKey = new(this, "GetPublicKey", 0);
+					r_GetPublicKey.SetBelong(this.instance);
 				}
-				return r_RGetPublicKey;
+				return r_GetPublicKey;
 			}
 		}
 
 		/// <summary>
 		/// Byte[] GetPublicKeyToken()
 		/// </summary>
-		protected RMethod r_RGetPublicKeyToken;
+		protected RMethod r_GetPublicKeyToken;
 		public virtual RMethod RGetPublicKeyToken
 		{
 			get
 			{
-				if(r_RGetPublicKeyToken == null)
+				if(r_GetPublicKeyToken == null)
 				{
-					r_RGetPublicKeyToken = new(this, "GetPublicKeyToken", 0);
-					r_RGetPublicKeyToken.SetBelong(this.instance);
+					r_GetPublicKeyToken = new(this, "GetPublicKeyToken", 0);
+					r_GetPublicKeyToken.SetBelong(this.instance);
 				}
-				return r_RGetPublicKeyToken;
+				return r_GetPublicKeyToken;
 			}
 		}
 
 		/// <summary>
 		/// Byte[] InternalGetPublicKeyToken()
 		/// </summary>
-		protected RMethod r_RInternalGetPublicKeyToken;
+		protected RMethod r_InternalGetPublicKeyToken;
 		public virtual RMethod RInternalGetPublicKeyToken
 		{
 			get
 			{
-				if(r_RInternalGetPublicKeyToken == null)
+				if(r_InternalGetPublicKeyToken == null)
 				{
-					r_RInternalGetPublicKeyToken = new(this, "InternalGetPublicKeyToken", 0);
-					r_RInternalGetPublicKeyToken.SetBelong(this.instance);
+					r_InternalGetPublicKeyToken = new(this, "InternalGetPublicKeyToken", 0);
+					r_InternalGetPublicKeyToken.SetBelong(this.instance);
 				}
-				return r_RInternalGetPublicKeyToken;
+				return r_InternalGetPublicKeyToken;
 			}
 		}
 
 		/// <summary>
 		/// Void get_public_token(Byte*, Byte*, Int32)
 		/// </summary>
-		protected static RMethod r_Rget_public_token_BytePointer_BytePointer_Int32;
+		protected static RMethod r_get_public_token_BytePointer_BytePointer_Int32;
 		public static RMethod Rget_public_token_BytePointer_BytePointer_Int32
 		{
 			get
 			{
-				if(r_Rget_public_token_BytePointer_BytePointer_Int32 == null)
+				if(r_get_public_token_BytePointer_BytePointer_Int32 == null)
 				{
-					r_Rget_public_token_BytePointer_BytePointer_Int32 = new(typeof(System.Reflection.AssemblyName), "get_public_token", 0, typeof(System.Byte).MakePointerType(), typeof(System.Byte).MakePointerType(), typeof(System.Int32));
-					r_Rget_public_token_BytePointer_BytePointer_Int32.SetBelong(null);
+					r_get_public_token_BytePointer_BytePointer_Int32 = new(typeof(System.Reflection.AssemblyName), "get_public_token", 0, typeof(System.Byte).MakePointerType(), typeof(System.Byte).MakePointerType(), typeof(System.Int32));
+					r_get_public_token_BytePointer_BytePointer_Int32.SetBelong(null);
 				}
-				return r_Rget_public_token_BytePointer_BytePointer_Int32;
+				return r_get_public_token_BytePointer_BytePointer_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Byte[] ComputePublicKeyToken()
 		/// </summary>
-		protected RMethod r_RComputePublicKeyToken;
+		protected RMethod r_ComputePublicKeyToken;
 		public virtual RMethod RComputePublicKeyToken
 		{
 			get
 			{
-				if(r_RComputePublicKeyToken == null)
+				if(r_ComputePublicKeyToken == null)
 				{
-					r_RComputePublicKeyToken = new(this, "ComputePublicKeyToken", 0);
-					r_RComputePublicKeyToken.SetBelong(this.instance);
+					r_ComputePublicKeyToken = new(this, "ComputePublicKeyToken", 0);
+					r_ComputePublicKeyToken.SetBelong(this.instance);
 				}
-				return r_RComputePublicKeyToken;
+				return r_ComputePublicKeyToken;
 			}
 		}
 
 		/// <summary>
 		/// Boolean ReferenceMatchesDefinition(System.Reflection.AssemblyName, System.Reflection.AssemblyName)
 		/// </summary>
-		protected static RMethod r_RReferenceMatchesDefinition_AssemblyName_AssemblyName;
+		protected static RMethod r_ReferenceMatchesDefinition_AssemblyName_AssemblyName;
 		public static RMethod RReferenceMatchesDefinition_AssemblyName_AssemblyName
 		{
 			get
 			{
-				if(r_RReferenceMatchesDefinition_AssemblyName_AssemblyName == null)
+				if(r_ReferenceMatchesDefinition_AssemblyName_AssemblyName == null)
 				{
-					r_RReferenceMatchesDefinition_AssemblyName_AssemblyName = new(typeof(System.Reflection.AssemblyName), "ReferenceMatchesDefinition", 0, typeof(System.Reflection.AssemblyName), typeof(System.Reflection.AssemblyName));
-					r_RReferenceMatchesDefinition_AssemblyName_AssemblyName.SetBelong(null);
+					r_ReferenceMatchesDefinition_AssemblyName_AssemblyName = new(typeof(System.Reflection.AssemblyName), "ReferenceMatchesDefinition", 0, typeof(System.Reflection.AssemblyName), typeof(System.Reflection.AssemblyName));
+					r_ReferenceMatchesDefinition_AssemblyName_AssemblyName.SetBelong(null);
 				}
-				return r_RReferenceMatchesDefinition_AssemblyName_AssemblyName;
+				return r_ReferenceMatchesDefinition_AssemblyName_AssemblyName;
 			}
 		}
 
 		/// <summary>
 		/// Void SetPublicKey(Byte[])
 		/// </summary>
-		protected RMethod r_RSetPublicKey_ByteArray;
+		protected RMethod r_SetPublicKey_ByteArray;
 		public virtual RMethod RSetPublicKey_ByteArray
 		{
 			get
 			{
-				if(r_RSetPublicKey_ByteArray == null)
+				if(r_SetPublicKey_ByteArray == null)
 				{
-					r_RSetPublicKey_ByteArray = new(this, "SetPublicKey", 0, typeof(System.Byte).MakeArrayType());
-					r_RSetPublicKey_ByteArray.SetBelong(this.instance);
+					r_SetPublicKey_ByteArray = new(this, "SetPublicKey", 0, typeof(System.Byte).MakeArrayType());
+					r_SetPublicKey_ByteArray.SetBelong(this.instance);
 				}
-				return r_RSetPublicKey_ByteArray;
+				return r_SetPublicKey_ByteArray;
 			}
 		}
 
 		/// <summary>
 		/// Void SetPublicKeyToken(Byte[])
 		/// </summary>
-		protected RMethod r_RSetPublicKeyToken_ByteArray;
+		protected RMethod r_SetPublicKeyToken_ByteArray;
 		public virtual RMethod RSetPublicKeyToken_ByteArray
 		{
 			get
 			{
-				if(r_RSetPublicKeyToken_ByteArray == null)
+				if(r_SetPublicKeyToken_ByteArray == null)
 				{
-					r_RSetPublicKeyToken_ByteArray = new(this, "SetPublicKeyToken", 0, typeof(System.Byte).MakeArrayType());
-					r_RSetPublicKeyToken_ByteArray.SetBelong(this.instance);
+					r_SetPublicKeyToken_ByteArray = new(this, "SetPublicKeyToken", 0, typeof(System.Byte).MakeArrayType());
+					r_SetPublicKeyToken_ByteArray.SetBelong(this.instance);
 				}
-				return r_RSetPublicKeyToken_ByteArray;
+				return r_SetPublicKeyToken_ByteArray;
 			}
 		}
 
 		/// <summary>
 		/// Void GetObjectData(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)
 		/// </summary>
-		protected RMethod r_RGetObjectData_SerializationInfo_StreamingContext;
+		protected RMethod r_GetObjectData_SerializationInfo_StreamingContext;
 		public virtual RMethod RGetObjectData_SerializationInfo_StreamingContext
 		{
 			get
 			{
-				if(r_RGetObjectData_SerializationInfo_StreamingContext == null)
+				if(r_GetObjectData_SerializationInfo_StreamingContext == null)
 				{
-					r_RGetObjectData_SerializationInfo_StreamingContext = new(this, "GetObjectData", 0, typeof(System.Runtime.Serialization.SerializationInfo), typeof(System.Runtime.Serialization.StreamingContext));
-					r_RGetObjectData_SerializationInfo_StreamingContext.SetBelong(this.instance);
+					r_GetObjectData_SerializationInfo_StreamingContext = new(this, "GetObjectData", 0, typeof(System.Runtime.Serialization.SerializationInfo), typeof(System.Runtime.Serialization.StreamingContext));
+					r_GetObjectData_SerializationInfo_StreamingContext.SetBelong(this.instance);
 				}
-				return r_RGetObjectData_SerializationInfo_StreamingContext;
+				return r_GetObjectData_SerializationInfo_StreamingContext;
 			}
 		}
 
 		/// <summary>
 		/// System.Object Clone()
 		/// </summary>
-		protected RMethod r_RClone;
+		protected RMethod r_Clone;
 		public virtual RMethod RClone
 		{
 			get
 			{
-				if(r_RClone == null)
+				if(r_Clone == null)
 				{
-					r_RClone = new(this, "Clone", 0);
-					r_RClone.SetBelong(this.instance);
+					r_Clone = new(this, "Clone", 0);
+					r_Clone.SetBelong(this.instance);
 				}
-				return r_RClone;
+				return r_Clone;
 			}
 		}
 
 		/// <summary>
 		/// Void OnDeserialization(System.Object)
 		/// </summary>
-		protected RMethod r_ROnDeserialization_Object;
+		protected RMethod r_OnDeserialization_Object;
 		public virtual RMethod ROnDeserialization_Object
 		{
 			get
 			{
-				if(r_ROnDeserialization_Object == null)
+				if(r_OnDeserialization_Object == null)
 				{
-					r_ROnDeserialization_Object = new(this, "OnDeserialization", 0, typeof(System.Object));
-					r_ROnDeserialization_Object.SetBelong(this.instance);
+					r_OnDeserialization_Object = new(this, "OnDeserialization", 0, typeof(System.Object));
+					r_OnDeserialization_Object.SetBelong(this.instance);
 				}
-				return r_ROnDeserialization_Object;
+				return r_OnDeserialization_Object;
 			}
 		}
 
 		/// <summary>
 		/// System.Reflection.AssemblyName GetAssemblyName(System.String)
 		/// </summary>
-		protected static RMethod r_RGetAssemblyName_String;
+		protected static RMethod r_GetAssemblyName_String;
 		public static RMethod RGetAssemblyName_String
 		{
 			get
 			{
-				if(r_RGetAssemblyName_String == null)
+				if(r_GetAssemblyName_String == null)
 				{
-					r_RGetAssemblyName_String = new(typeof(System.Reflection.AssemblyName), "GetAssemblyName", 0, typeof(System.String));
-					r_RGetAssemblyName_String.SetBelong(null);
+					r_GetAssemblyName_String = new(typeof(System.Reflection.AssemblyName), "GetAssemblyName", 0, typeof(System.String));
+					r_GetAssemblyName_String.SetBelong(null);
 				}
-				return r_RGetAssemblyName_String;
+				return r_GetAssemblyName_String;
 			}
 		}
 
 		/// <summary>
 		/// Void System.Runtime.InteropServices._AssemblyName.GetIDsOfNames(System.Guid ByRef, IntPtr, UInt32, UInt32, IntPtr)
 		/// </summary>
-		protected RMethod r_RSystem__0__Runtime__0__InteropServices__0___AssemblyName__0__GetIDsOfNames_In_Guid_IntPtr_UInt32_UInt32_IntPtr;
-		public virtual RMethod RSystem__0__Runtime__0__InteropServices__0___AssemblyName__0__GetIDsOfNames_In_Guid_IntPtr_UInt32_UInt32_IntPtr
+		protected RMethod r_System__2__Runtime__2__InteropServices__2___AssemblyName__2__GetIDsOfNames_In_Guid_IntPtr_UInt32_UInt32_IntPtr;
+		public virtual RMethod RSystem__2__Runtime__2__InteropServices__2___AssemblyName__2__GetIDsOfNames_In_Guid_IntPtr_UInt32_UInt32_IntPtr
 		{
 			get
 			{
-				if(r_RSystem__0__Runtime__0__InteropServices__0___AssemblyName__0__GetIDsOfNames_In_Guid_IntPtr_UInt32_UInt32_IntPtr == null)
+				if(r_System__2__Runtime__2__InteropServices__2___AssemblyName__2__GetIDsOfNames_In_Guid_IntPtr_UInt32_UInt32_IntPtr == null)
 				{
-					r_RSystem__0__Runtime__0__InteropServices__0___AssemblyName__0__GetIDsOfNames_In_Guid_IntPtr_UInt32_UInt32_IntPtr = new(this, "System.Runtime.InteropServices._AssemblyName.GetIDsOfNames", 0, typeof(System.Guid).MakeByRefType(), typeof(System.IntPtr), typeof(System.UInt32), typeof(System.UInt32), typeof(System.IntPtr));
-					r_RSystem__0__Runtime__0__InteropServices__0___AssemblyName__0__GetIDsOfNames_In_Guid_IntPtr_UInt32_UInt32_IntPtr.SetBelong(this.instance);
+					r_System__2__Runtime__2__InteropServices__2___AssemblyName__2__GetIDsOfNames_In_Guid_IntPtr_UInt32_UInt32_IntPtr = new(this, "System.Runtime.InteropServices._AssemblyName.GetIDsOfNames", 0, typeof(System.Guid).MakeByRefType(), typeof(System.IntPtr), typeof(System.UInt32), typeof(System.UInt32), typeof(System.IntPtr));
+					r_System__2__Runtime__2__InteropServices__2___AssemblyName__2__GetIDsOfNames_In_Guid_IntPtr_UInt32_UInt32_IntPtr.SetBelong(this.instance);
 				}
-				return r_RSystem__0__Runtime__0__InteropServices__0___AssemblyName__0__GetIDsOfNames_In_Guid_IntPtr_UInt32_UInt32_IntPtr;
+				return r_System__2__Runtime__2__InteropServices__2___AssemblyName__2__GetIDsOfNames_In_Guid_IntPtr_UInt32_UInt32_IntPtr;
 			}
 		}
 
 		/// <summary>
 		/// Void System.Runtime.InteropServices._AssemblyName.GetTypeInfo(UInt32, UInt32, IntPtr)
 		/// </summary>
-		protected RMethod r_RSystem__0__Runtime__0__InteropServices__0___AssemblyName__0__GetTypeInfo_UInt32_UInt32_IntPtr;
-		public virtual RMethod RSystem__0__Runtime__0__InteropServices__0___AssemblyName__0__GetTypeInfo_UInt32_UInt32_IntPtr
+		protected RMethod r_System__2__Runtime__2__InteropServices__2___AssemblyName__2__GetTypeInfo_UInt32_UInt32_IntPtr;
+		public virtual RMethod RSystem__2__Runtime__2__InteropServices__2___AssemblyName__2__GetTypeInfo_UInt32_UInt32_IntPtr
 		{
 			get
 			{
-				if(r_RSystem__0__Runtime__0__InteropServices__0___AssemblyName__0__GetTypeInfo_UInt32_UInt32_IntPtr == null)
+				if(r_System__2__Runtime__2__InteropServices__2___AssemblyName__2__GetTypeInfo_UInt32_UInt32_IntPtr == null)
 				{
-					r_RSystem__0__Runtime__0__InteropServices__0___AssemblyName__0__GetTypeInfo_UInt32_UInt32_IntPtr = new(this, "System.Runtime.InteropServices._AssemblyName.GetTypeInfo", 0, typeof(System.UInt32), typeof(System.UInt32), typeof(System.IntPtr));
-					r_RSystem__0__Runtime__0__InteropServices__0___AssemblyName__0__GetTypeInfo_UInt32_UInt32_IntPtr.SetBelong(this.instance);
+					r_System__2__Runtime__2__InteropServices__2___AssemblyName__2__GetTypeInfo_UInt32_UInt32_IntPtr = new(this, "System.Runtime.InteropServices._AssemblyName.GetTypeInfo", 0, typeof(System.UInt32), typeof(System.UInt32), typeof(System.IntPtr));
+					r_System__2__Runtime__2__InteropServices__2___AssemblyName__2__GetTypeInfo_UInt32_UInt32_IntPtr.SetBelong(this.instance);
 				}
-				return r_RSystem__0__Runtime__0__InteropServices__0___AssemblyName__0__GetTypeInfo_UInt32_UInt32_IntPtr;
+				return r_System__2__Runtime__2__InteropServices__2___AssemblyName__2__GetTypeInfo_UInt32_UInt32_IntPtr;
 			}
 		}
 
 		/// <summary>
 		/// Void System.Runtime.InteropServices._AssemblyName.GetTypeInfoCount(UInt32 ByRef)
 		/// </summary>
-		protected RMethod r_RSystem__0__Runtime__0__InteropServices__0___AssemblyName__0__GetTypeInfoCount_Out_UInt32;
-		public virtual RMethod RSystem__0__Runtime__0__InteropServices__0___AssemblyName__0__GetTypeInfoCount_Out_UInt32
+		protected RMethod r_System__2__Runtime__2__InteropServices__2___AssemblyName__2__GetTypeInfoCount_Out_UInt32;
+		public virtual RMethod RSystem__2__Runtime__2__InteropServices__2___AssemblyName__2__GetTypeInfoCount_Out_UInt32
 		{
 			get
 			{
-				if(r_RSystem__0__Runtime__0__InteropServices__0___AssemblyName__0__GetTypeInfoCount_Out_UInt32 == null)
+				if(r_System__2__Runtime__2__InteropServices__2___AssemblyName__2__GetTypeInfoCount_Out_UInt32 == null)
 				{
-					r_RSystem__0__Runtime__0__InteropServices__0___AssemblyName__0__GetTypeInfoCount_Out_UInt32 = new(this, "System.Runtime.InteropServices._AssemblyName.GetTypeInfoCount", 0, typeof(System.UInt32).MakeByRefType());
-					r_RSystem__0__Runtime__0__InteropServices__0___AssemblyName__0__GetTypeInfoCount_Out_UInt32.SetBelong(this.instance);
+					r_System__2__Runtime__2__InteropServices__2___AssemblyName__2__GetTypeInfoCount_Out_UInt32 = new(this, "System.Runtime.InteropServices._AssemblyName.GetTypeInfoCount", 0, typeof(System.UInt32).MakeByRefType());
+					r_System__2__Runtime__2__InteropServices__2___AssemblyName__2__GetTypeInfoCount_Out_UInt32.SetBelong(this.instance);
 				}
-				return r_RSystem__0__Runtime__0__InteropServices__0___AssemblyName__0__GetTypeInfoCount_Out_UInt32;
+				return r_System__2__Runtime__2__InteropServices__2___AssemblyName__2__GetTypeInfoCount_Out_UInt32;
 			}
 		}
 
 		/// <summary>
 		/// Void System.Runtime.InteropServices._AssemblyName.Invoke(UInt32, System.Guid ByRef, UInt32, Int16, IntPtr, IntPtr, IntPtr, IntPtr)
 		/// </summary>
-		protected RMethod r_RSystem__0__Runtime__0__InteropServices__0___AssemblyName__0__Invoke_UInt32_In_Guid_UInt32_Int16_IntPtr_IntPtr_IntPtr_IntPtr;
-		public virtual RMethod RSystem__0__Runtime__0__InteropServices__0___AssemblyName__0__Invoke_UInt32_In_Guid_UInt32_Int16_IntPtr_IntPtr_IntPtr_IntPtr
+		protected RMethod r_System__2__Runtime__2__InteropServices__2___AssemblyName__2__Invoke_UInt32_In_Guid_UInt32_Int16_IntPtr_IntPtr_IntPtr_IntPtr;
+		public virtual RMethod RSystem__2__Runtime__2__InteropServices__2___AssemblyName__2__Invoke_UInt32_In_Guid_UInt32_Int16_IntPtr_IntPtr_IntPtr_IntPtr
 		{
 			get
 			{
-				if(r_RSystem__0__Runtime__0__InteropServices__0___AssemblyName__0__Invoke_UInt32_In_Guid_UInt32_Int16_IntPtr_IntPtr_IntPtr_IntPtr == null)
+				if(r_System__2__Runtime__2__InteropServices__2___AssemblyName__2__Invoke_UInt32_In_Guid_UInt32_Int16_IntPtr_IntPtr_IntPtr_IntPtr == null)
 				{
-					r_RSystem__0__Runtime__0__InteropServices__0___AssemblyName__0__Invoke_UInt32_In_Guid_UInt32_Int16_IntPtr_IntPtr_IntPtr_IntPtr = new(this, "System.Runtime.InteropServices._AssemblyName.Invoke", 0, typeof(System.UInt32), typeof(System.Guid).MakeByRefType(), typeof(System.UInt32), typeof(System.Int16), typeof(System.IntPtr), typeof(System.IntPtr), typeof(System.IntPtr), typeof(System.IntPtr));
-					r_RSystem__0__Runtime__0__InteropServices__0___AssemblyName__0__Invoke_UInt32_In_Guid_UInt32_Int16_IntPtr_IntPtr_IntPtr_IntPtr.SetBelong(this.instance);
+					r_System__2__Runtime__2__InteropServices__2___AssemblyName__2__Invoke_UInt32_In_Guid_UInt32_Int16_IntPtr_IntPtr_IntPtr_IntPtr = new(this, "System.Runtime.InteropServices._AssemblyName.Invoke", 0, typeof(System.UInt32), typeof(System.Guid).MakeByRefType(), typeof(System.UInt32), typeof(System.Int16), typeof(System.IntPtr), typeof(System.IntPtr), typeof(System.IntPtr), typeof(System.IntPtr));
+					r_System__2__Runtime__2__InteropServices__2___AssemblyName__2__Invoke_UInt32_In_Guid_UInt32_Int16_IntPtr_IntPtr_IntPtr_IntPtr.SetBelong(this.instance);
 				}
-				return r_RSystem__0__Runtime__0__InteropServices__0___AssemblyName__0__Invoke_UInt32_In_Guid_UInt32_Int16_IntPtr_IntPtr_IntPtr_IntPtr;
+				return r_System__2__Runtime__2__InteropServices__2___AssemblyName__2__Invoke_UInt32_In_Guid_UInt32_Int16_IntPtr_IntPtr_IntPtr_IntPtr;
 			}
 		}
 
 		/// <summary>
 		/// Mono.MonoAssemblyName* GetNativeName(IntPtr)
 		/// </summary>
-		protected static RMethod r_RGetNativeName_IntPtr;
+		protected static RMethod r_GetNativeName_IntPtr;
 		public static RMethod RGetNativeName_IntPtr
 		{
 			get
 			{
-				if(r_RGetNativeName_IntPtr == null)
+				if(r_GetNativeName_IntPtr == null)
 				{
-					r_RGetNativeName_IntPtr = new(typeof(System.Reflection.AssemblyName), "GetNativeName", 0, typeof(System.IntPtr));
-					r_RGetNativeName_IntPtr.SetBelong(null);
+					r_GetNativeName_IntPtr = new(typeof(System.Reflection.AssemblyName), "GetNativeName", 0, typeof(System.IntPtr));
+					r_GetNativeName_IntPtr.SetBelong(null);
 				}
-				return r_RGetNativeName_IntPtr;
+				return r_GetNativeName_IntPtr;
 			}
 		}
 
 		/// <summary>
 		/// Void FillName(Mono.MonoAssemblyName*, System.String, Boolean, Boolean, Boolean, Boolean)
 		/// </summary>
-		protected RMethod r_RFillName_MonoAssemblyNamePointer_String_Boolean_Boolean_Boolean_Boolean;
+		protected RMethod r_FillName_MonoAssemblyNamePointer_String_Boolean_Boolean_Boolean_Boolean;
 		public virtual RMethod RFillName_MonoAssemblyNamePointer_String_Boolean_Boolean_Boolean_Boolean
 		{
 			get
 			{
-				if(r_RFillName_MonoAssemblyNamePointer_String_Boolean_Boolean_Boolean_Boolean == null)
+				if(r_FillName_MonoAssemblyNamePointer_String_Boolean_Boolean_Boolean_Boolean == null)
 				{
-					r_RFillName_MonoAssemblyNamePointer_String_Boolean_Boolean_Boolean_Boolean = new(this, "FillName", 0,  ReleactionUtils.GetType("Mono.MonoAssemblyName").MakePointerType(), typeof(System.String), typeof(System.Boolean), typeof(System.Boolean), typeof(System.Boolean), typeof(System.Boolean));
-					r_RFillName_MonoAssemblyNamePointer_String_Boolean_Boolean_Boolean_Boolean.SetBelong(this.instance);
+					r_FillName_MonoAssemblyNamePointer_String_Boolean_Boolean_Boolean_Boolean = new(this, "FillName", 0,  ReleactionUtils.GetType("Mono.MonoAssemblyName").MakePointerType(), typeof(System.String), typeof(System.Boolean), typeof(System.Boolean), typeof(System.Boolean), typeof(System.Boolean));
+					r_FillName_MonoAssemblyNamePointer_String_Boolean_Boolean_Boolean_Boolean.SetBelong(this.instance);
 				}
-				return r_RFillName_MonoAssemblyNamePointer_String_Boolean_Boolean_Boolean_Boolean;
+				return r_FillName_MonoAssemblyNamePointer_String_Boolean_Boolean_Boolean_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// System.Reflection.AssemblyName Create(System.Reflection.Assembly, Boolean)
 		/// </summary>
-		protected static RMethod r_RCreate_Assembly_Boolean;
+		protected static RMethod r_Create_Assembly_Boolean;
 		public static RMethod RCreate_Assembly_Boolean
 		{
 			get
 			{
-				if(r_RCreate_Assembly_Boolean == null)
+				if(r_Create_Assembly_Boolean == null)
 				{
-					r_RCreate_Assembly_Boolean = new(typeof(System.Reflection.AssemblyName), "Create", 0, typeof(System.Reflection.Assembly), typeof(System.Boolean));
-					r_RCreate_Assembly_Boolean.SetBelong(null);
+					r_Create_Assembly_Boolean = new(typeof(System.Reflection.AssemblyName), "Create", 0, typeof(System.Reflection.Assembly), typeof(System.Boolean));
+					r_Create_Assembly_Boolean.SetBelong(null);
 				}
-				return r_RCreate_Assembly_Boolean;
+				return r_Create_Assembly_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Equals(System.Object)
 		/// </summary>
-		protected RMethod r_REquals_Object;
+		protected RMethod r_Equals_Object;
 		public virtual RMethod REquals_Object
 		{
 			get
 			{
-				if(r_REquals_Object == null)
+				if(r_Equals_Object == null)
 				{
-					r_REquals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_REquals_Object.SetBelong(this.instance);
+					r_Equals_Object = new(this, "Equals", 0, typeof(System.Object));
+					r_Equals_Object.SetBelong(this.instance);
 				}
-				return r_REquals_Object;
+				return r_Equals_Object;
 			}
 		}
 
 		/// <summary>
 		/// Void Finalize()
 		/// </summary>
-		protected RMethod r_RFinalize;
+		protected RMethod r_Finalize;
 		public virtual RMethod RFinalize
 		{
 			get
 			{
-				if(r_RFinalize == null)
+				if(r_Finalize == null)
 				{
-					r_RFinalize = new(this, "Finalize", 0);
-					r_RFinalize.SetBelong(this.instance);
+					r_Finalize = new(this, "Finalize", 0);
+					r_Finalize.SetBelong(this.instance);
 				}
-				return r_RFinalize;
+				return r_Finalize;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetHashCode()
 		/// </summary>
-		protected RMethod r_RGetHashCode;
+		protected RMethod r_GetHashCode;
 		public virtual RMethod RGetHashCode
 		{
 			get
 			{
-				if(r_RGetHashCode == null)
+				if(r_GetHashCode == null)
 				{
-					r_RGetHashCode = new(this, "GetHashCode", 0);
-					r_RGetHashCode.SetBelong(this.instance);
+					r_GetHashCode = new(this, "GetHashCode", 0);
+					r_GetHashCode.SetBelong(this.instance);
 				}
-				return r_RGetHashCode;
+				return r_GetHashCode;
 			}
 		}
 
 		/// <summary>
 		/// System.Type GetType()
 		/// </summary>
-		protected RMethod r_RGetType;
+		protected RMethod r_GetType;
 		public virtual RMethod RGetType
 		{
 			get
 			{
-				if(r_RGetType == null)
+				if(r_GetType == null)
 				{
-					r_RGetType = new(this, "GetType", 0);
-					r_RGetType.SetBelong(this.instance);
+					r_GetType = new(this, "GetType", 0);
+					r_GetType.SetBelong(this.instance);
 				}
-				return r_RGetType;
+				return r_GetType;
 			}
 		}
 
 		/// <summary>
 		/// System.Object MemberwiseClone()
 		/// </summary>
-		protected RMethod r_RMemberwiseClone;
+		protected RMethod r_MemberwiseClone;
 		public virtual RMethod RMemberwiseClone
 		{
 			get
 			{
-				if(r_RMemberwiseClone == null)
+				if(r_MemberwiseClone == null)
 				{
-					r_RMemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_RMemberwiseClone.SetBelong(this.instance);
+					r_MemberwiseClone = new(this, "MemberwiseClone", 0);
+					r_MemberwiseClone.SetBelong(this.instance);
 				}
-				return r_RMemberwiseClone;
+				return r_MemberwiseClone;
 			}
 		}
 
@@ -1114,47 +1114,47 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
         }
 
 
-        public virtual void System__0__Runtime__0__InteropServices__0___AssemblyName__0__GetIDsOfNames(in System.Guid  @riid, System.IntPtr  @rgszNames, System.UInt32  @cNames, System.UInt32  @lcid, System.IntPtr  @rgDispId)
+        public virtual void System__2__Runtime__2__InteropServices__2___AssemblyName__2__GetIDsOfNames(in System.Guid  @riid, System.IntPtr  @rgszNames, System.UInt32  @cNames, System.UInt32  @lcid, System.IntPtr  @rgDispId)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@riid, @rgszNames, @cNames, @lcid, @rgDispId};
-            var ___result = RSystem__0__Runtime__0__InteropServices__0___AssemblyName__0__GetIDsOfNames_In_Guid_IntPtr_UInt32_UInt32_IntPtr.Invoke(___genericsType, ___parameters);
+            var ___result = RSystem__2__Runtime__2__InteropServices__2___AssemblyName__2__GetIDsOfNames_In_Guid_IntPtr_UInt32_UInt32_IntPtr.Invoke(___genericsType, ___parameters);
 
             
         }
 
 
-        public virtual void System__0__Runtime__0__InteropServices__0___AssemblyName__0__GetTypeInfo(System.UInt32  @iTInfo, System.UInt32  @lcid, System.IntPtr  @ppTInfo)
+        public virtual void System__2__Runtime__2__InteropServices__2___AssemblyName__2__GetTypeInfo(System.UInt32  @iTInfo, System.UInt32  @lcid, System.IntPtr  @ppTInfo)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@iTInfo, @lcid, @ppTInfo};
-            var ___result = RSystem__0__Runtime__0__InteropServices__0___AssemblyName__0__GetTypeInfo_UInt32_UInt32_IntPtr.Invoke(___genericsType, ___parameters);
+            var ___result = RSystem__2__Runtime__2__InteropServices__2___AssemblyName__2__GetTypeInfo_UInt32_UInt32_IntPtr.Invoke(___genericsType, ___parameters);
 
             
         }
 
 
-        public virtual void System__0__Runtime__0__InteropServices__0___AssemblyName__0__GetTypeInfoCount(out System.UInt32  @pcTInfo)
+        public virtual void System__2__Runtime__2__InteropServices__2___AssemblyName__2__GetTypeInfoCount(out System.UInt32  @pcTInfo)
         {
 			pcTInfo = default;
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@pcTInfo};
-            var ___result = RSystem__0__Runtime__0__InteropServices__0___AssemblyName__0__GetTypeInfoCount_Out_UInt32.Invoke(___genericsType, ___parameters);
+            var ___result = RSystem__2__Runtime__2__InteropServices__2___AssemblyName__2__GetTypeInfoCount_Out_UInt32.Invoke(___genericsType, ___parameters);
 			pcTInfo = (System.UInt32)___parameters[0];
 
             
         }
 
 
-        public virtual void System__0__Runtime__0__InteropServices__0___AssemblyName__0__Invoke(System.UInt32  @dispIdMember, in System.Guid  @riid, System.UInt32  @lcid, System.Int16  @wFlags, System.IntPtr  @pDispParams, System.IntPtr  @pVarResult, System.IntPtr  @pExcepInfo, System.IntPtr  @puArgErr)
+        public virtual void System__2__Runtime__2__InteropServices__2___AssemblyName__2__Invoke(System.UInt32  @dispIdMember, in System.Guid  @riid, System.UInt32  @lcid, System.Int16  @wFlags, System.IntPtr  @pDispParams, System.IntPtr  @pVarResult, System.IntPtr  @pExcepInfo, System.IntPtr  @puArgErr)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@dispIdMember, @riid, @lcid, @wFlags, @pDispParams, @pVarResult, @pExcepInfo, @puArgErr};
-            var ___result = RSystem__0__Runtime__0__InteropServices__0___AssemblyName__0__Invoke_UInt32_In_Guid_UInt32_Int16_IntPtr_IntPtr_IntPtr_IntPtr.Invoke(___genericsType, ___parameters);
+            var ___result = RSystem__2__Runtime__2__InteropServices__2___AssemblyName__2__Invoke_UInt32_In_Guid_UInt32_Int16_IntPtr_IntPtr_IntPtr_IntPtr.Invoke(___genericsType, ___parameters);
 
             
         }

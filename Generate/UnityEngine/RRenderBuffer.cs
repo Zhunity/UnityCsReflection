@@ -81,272 +81,272 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Void SetLoadAction(UnityEngine.Rendering.RenderBufferLoadAction)
 		/// </summary>
-		protected RMethod r_RSetLoadAction_RenderBufferLoadAction;
+		protected RMethod r_SetLoadAction_RenderBufferLoadAction;
 		public virtual RMethod RSetLoadAction_RenderBufferLoadAction
 		{
 			get
 			{
-				if(r_RSetLoadAction_RenderBufferLoadAction == null)
+				if(r_SetLoadAction_RenderBufferLoadAction == null)
 				{
-					r_RSetLoadAction_RenderBufferLoadAction = new(this, "SetLoadAction", 0, typeof(UnityEngine.Rendering.RenderBufferLoadAction));
-					r_RSetLoadAction_RenderBufferLoadAction.SetBelong(this.instance);
+					r_SetLoadAction_RenderBufferLoadAction = new(this, "SetLoadAction", 0, typeof(UnityEngine.Rendering.RenderBufferLoadAction));
+					r_SetLoadAction_RenderBufferLoadAction.SetBelong(this.instance);
 				}
-				return r_RSetLoadAction_RenderBufferLoadAction;
+				return r_SetLoadAction_RenderBufferLoadAction;
 			}
 		}
 
 		/// <summary>
 		/// Void SetStoreAction(UnityEngine.Rendering.RenderBufferStoreAction)
 		/// </summary>
-		protected RMethod r_RSetStoreAction_RenderBufferStoreAction;
+		protected RMethod r_SetStoreAction_RenderBufferStoreAction;
 		public virtual RMethod RSetStoreAction_RenderBufferStoreAction
 		{
 			get
 			{
-				if(r_RSetStoreAction_RenderBufferStoreAction == null)
+				if(r_SetStoreAction_RenderBufferStoreAction == null)
 				{
-					r_RSetStoreAction_RenderBufferStoreAction = new(this, "SetStoreAction", 0, typeof(UnityEngine.Rendering.RenderBufferStoreAction));
-					r_RSetStoreAction_RenderBufferStoreAction.SetBelong(this.instance);
+					r_SetStoreAction_RenderBufferStoreAction = new(this, "SetStoreAction", 0, typeof(UnityEngine.Rendering.RenderBufferStoreAction));
+					r_SetStoreAction_RenderBufferStoreAction.SetBelong(this.instance);
 				}
-				return r_RSetStoreAction_RenderBufferStoreAction;
+				return r_SetStoreAction_RenderBufferStoreAction;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Rendering.RenderBufferLoadAction GetLoadAction()
 		/// </summary>
-		protected RMethod r_RGetLoadAction;
+		protected RMethod r_GetLoadAction;
 		public virtual RMethod RGetLoadAction
 		{
 			get
 			{
-				if(r_RGetLoadAction == null)
+				if(r_GetLoadAction == null)
 				{
-					r_RGetLoadAction = new(this, "GetLoadAction", 0);
-					r_RGetLoadAction.SetBelong(this.instance);
+					r_GetLoadAction = new(this, "GetLoadAction", 0);
+					r_GetLoadAction.SetBelong(this.instance);
 				}
-				return r_RGetLoadAction;
+				return r_GetLoadAction;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Rendering.RenderBufferStoreAction GetStoreAction()
 		/// </summary>
-		protected RMethod r_RGetStoreAction;
+		protected RMethod r_GetStoreAction;
 		public virtual RMethod RGetStoreAction
 		{
 			get
 			{
-				if(r_RGetStoreAction == null)
+				if(r_GetStoreAction == null)
 				{
-					r_RGetStoreAction = new(this, "GetStoreAction", 0);
-					r_RGetStoreAction.SetBelong(this.instance);
+					r_GetStoreAction = new(this, "GetStoreAction", 0);
+					r_GetStoreAction.SetBelong(this.instance);
 				}
-				return r_RGetStoreAction;
+				return r_GetStoreAction;
 			}
 		}
 
 		/// <summary>
 		/// IntPtr GetNativeRenderBufferPtr()
 		/// </summary>
-		protected RMethod r_RGetNativeRenderBufferPtr;
+		protected RMethod r_GetNativeRenderBufferPtr;
 		public virtual RMethod RGetNativeRenderBufferPtr
 		{
 			get
 			{
-				if(r_RGetNativeRenderBufferPtr == null)
+				if(r_GetNativeRenderBufferPtr == null)
 				{
-					r_RGetNativeRenderBufferPtr = new(this, "GetNativeRenderBufferPtr", 0);
-					r_RGetNativeRenderBufferPtr.SetBelong(this.instance);
+					r_GetNativeRenderBufferPtr = new(this, "GetNativeRenderBufferPtr", 0);
+					r_GetNativeRenderBufferPtr.SetBelong(this.instance);
 				}
-				return r_RGetNativeRenderBufferPtr;
+				return r_GetNativeRenderBufferPtr;
 			}
 		}
 
 		/// <summary>
 		/// Void SetLoadAction_Injected(UnityEngine.RenderBuffer ByRef, UnityEngine.Rendering.RenderBufferLoadAction)
 		/// </summary>
-		protected static RMethod r_RSetLoadAction_Injected_Ref_RenderBuffer_RenderBufferLoadAction;
+		protected static RMethod r_SetLoadAction_Injected_Ref_RenderBuffer_RenderBufferLoadAction;
 		public static RMethod RSetLoadAction_Injected_Ref_RenderBuffer_RenderBufferLoadAction
 		{
 			get
 			{
-				if(r_RSetLoadAction_Injected_Ref_RenderBuffer_RenderBufferLoadAction == null)
+				if(r_SetLoadAction_Injected_Ref_RenderBuffer_RenderBufferLoadAction == null)
 				{
-					r_RSetLoadAction_Injected_Ref_RenderBuffer_RenderBufferLoadAction = new(typeof(UnityEngine.RenderBuffer), "SetLoadAction_Injected", 0, typeof(UnityEngine.RenderBuffer).MakeByRefType(), typeof(UnityEngine.Rendering.RenderBufferLoadAction));
-					r_RSetLoadAction_Injected_Ref_RenderBuffer_RenderBufferLoadAction.SetBelong(null);
+					r_SetLoadAction_Injected_Ref_RenderBuffer_RenderBufferLoadAction = new(typeof(UnityEngine.RenderBuffer), "SetLoadAction_Injected", 0, typeof(UnityEngine.RenderBuffer).MakeByRefType(), typeof(UnityEngine.Rendering.RenderBufferLoadAction));
+					r_SetLoadAction_Injected_Ref_RenderBuffer_RenderBufferLoadAction.SetBelong(null);
 				}
-				return r_RSetLoadAction_Injected_Ref_RenderBuffer_RenderBufferLoadAction;
+				return r_SetLoadAction_Injected_Ref_RenderBuffer_RenderBufferLoadAction;
 			}
 		}
 
 		/// <summary>
 		/// Void SetStoreAction_Injected(UnityEngine.RenderBuffer ByRef, UnityEngine.Rendering.RenderBufferStoreAction)
 		/// </summary>
-		protected static RMethod r_RSetStoreAction_Injected_Ref_RenderBuffer_RenderBufferStoreAction;
+		protected static RMethod r_SetStoreAction_Injected_Ref_RenderBuffer_RenderBufferStoreAction;
 		public static RMethod RSetStoreAction_Injected_Ref_RenderBuffer_RenderBufferStoreAction
 		{
 			get
 			{
-				if(r_RSetStoreAction_Injected_Ref_RenderBuffer_RenderBufferStoreAction == null)
+				if(r_SetStoreAction_Injected_Ref_RenderBuffer_RenderBufferStoreAction == null)
 				{
-					r_RSetStoreAction_Injected_Ref_RenderBuffer_RenderBufferStoreAction = new(typeof(UnityEngine.RenderBuffer), "SetStoreAction_Injected", 0, typeof(UnityEngine.RenderBuffer).MakeByRefType(), typeof(UnityEngine.Rendering.RenderBufferStoreAction));
-					r_RSetStoreAction_Injected_Ref_RenderBuffer_RenderBufferStoreAction.SetBelong(null);
+					r_SetStoreAction_Injected_Ref_RenderBuffer_RenderBufferStoreAction = new(typeof(UnityEngine.RenderBuffer), "SetStoreAction_Injected", 0, typeof(UnityEngine.RenderBuffer).MakeByRefType(), typeof(UnityEngine.Rendering.RenderBufferStoreAction));
+					r_SetStoreAction_Injected_Ref_RenderBuffer_RenderBufferStoreAction.SetBelong(null);
 				}
-				return r_RSetStoreAction_Injected_Ref_RenderBuffer_RenderBufferStoreAction;
+				return r_SetStoreAction_Injected_Ref_RenderBuffer_RenderBufferStoreAction;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Rendering.RenderBufferLoadAction GetLoadAction_Injected(UnityEngine.RenderBuffer ByRef)
 		/// </summary>
-		protected static RMethod r_RGetLoadAction_Injected_Ref_RenderBuffer;
+		protected static RMethod r_GetLoadAction_Injected_Ref_RenderBuffer;
 		public static RMethod RGetLoadAction_Injected_Ref_RenderBuffer
 		{
 			get
 			{
-				if(r_RGetLoadAction_Injected_Ref_RenderBuffer == null)
+				if(r_GetLoadAction_Injected_Ref_RenderBuffer == null)
 				{
-					r_RGetLoadAction_Injected_Ref_RenderBuffer = new(typeof(UnityEngine.RenderBuffer), "GetLoadAction_Injected", 0, typeof(UnityEngine.RenderBuffer).MakeByRefType());
-					r_RGetLoadAction_Injected_Ref_RenderBuffer.SetBelong(null);
+					r_GetLoadAction_Injected_Ref_RenderBuffer = new(typeof(UnityEngine.RenderBuffer), "GetLoadAction_Injected", 0, typeof(UnityEngine.RenderBuffer).MakeByRefType());
+					r_GetLoadAction_Injected_Ref_RenderBuffer.SetBelong(null);
 				}
-				return r_RGetLoadAction_Injected_Ref_RenderBuffer;
+				return r_GetLoadAction_Injected_Ref_RenderBuffer;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Rendering.RenderBufferStoreAction GetStoreAction_Injected(UnityEngine.RenderBuffer ByRef)
 		/// </summary>
-		protected static RMethod r_RGetStoreAction_Injected_Ref_RenderBuffer;
+		protected static RMethod r_GetStoreAction_Injected_Ref_RenderBuffer;
 		public static RMethod RGetStoreAction_Injected_Ref_RenderBuffer
 		{
 			get
 			{
-				if(r_RGetStoreAction_Injected_Ref_RenderBuffer == null)
+				if(r_GetStoreAction_Injected_Ref_RenderBuffer == null)
 				{
-					r_RGetStoreAction_Injected_Ref_RenderBuffer = new(typeof(UnityEngine.RenderBuffer), "GetStoreAction_Injected", 0, typeof(UnityEngine.RenderBuffer).MakeByRefType());
-					r_RGetStoreAction_Injected_Ref_RenderBuffer.SetBelong(null);
+					r_GetStoreAction_Injected_Ref_RenderBuffer = new(typeof(UnityEngine.RenderBuffer), "GetStoreAction_Injected", 0, typeof(UnityEngine.RenderBuffer).MakeByRefType());
+					r_GetStoreAction_Injected_Ref_RenderBuffer.SetBelong(null);
 				}
-				return r_RGetStoreAction_Injected_Ref_RenderBuffer;
+				return r_GetStoreAction_Injected_Ref_RenderBuffer;
 			}
 		}
 
 		/// <summary>
 		/// IntPtr GetNativeRenderBufferPtr_Injected(UnityEngine.RenderBuffer ByRef)
 		/// </summary>
-		protected static RMethod r_RGetNativeRenderBufferPtr_Injected_Ref_RenderBuffer;
+		protected static RMethod r_GetNativeRenderBufferPtr_Injected_Ref_RenderBuffer;
 		public static RMethod RGetNativeRenderBufferPtr_Injected_Ref_RenderBuffer
 		{
 			get
 			{
-				if(r_RGetNativeRenderBufferPtr_Injected_Ref_RenderBuffer == null)
+				if(r_GetNativeRenderBufferPtr_Injected_Ref_RenderBuffer == null)
 				{
-					r_RGetNativeRenderBufferPtr_Injected_Ref_RenderBuffer = new(typeof(UnityEngine.RenderBuffer), "GetNativeRenderBufferPtr_Injected", 0, typeof(UnityEngine.RenderBuffer).MakeByRefType());
-					r_RGetNativeRenderBufferPtr_Injected_Ref_RenderBuffer.SetBelong(null);
+					r_GetNativeRenderBufferPtr_Injected_Ref_RenderBuffer = new(typeof(UnityEngine.RenderBuffer), "GetNativeRenderBufferPtr_Injected", 0, typeof(UnityEngine.RenderBuffer).MakeByRefType());
+					r_GetNativeRenderBufferPtr_Injected_Ref_RenderBuffer.SetBelong(null);
 				}
-				return r_RGetNativeRenderBufferPtr_Injected_Ref_RenderBuffer;
+				return r_GetNativeRenderBufferPtr_Injected_Ref_RenderBuffer;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Equals(System.Object)
 		/// </summary>
-		protected RMethod r_REquals_Object;
+		protected RMethod r_Equals_Object;
 		public virtual RMethod REquals_Object
 		{
 			get
 			{
-				if(r_REquals_Object == null)
+				if(r_Equals_Object == null)
 				{
-					r_REquals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_REquals_Object.SetBelong(this.instance);
+					r_Equals_Object = new(this, "Equals", 0, typeof(System.Object));
+					r_Equals_Object.SetBelong(this.instance);
 				}
-				return r_REquals_Object;
+				return r_Equals_Object;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetHashCode()
 		/// </summary>
-		protected RMethod r_RGetHashCode;
+		protected RMethod r_GetHashCode;
 		public virtual RMethod RGetHashCode
 		{
 			get
 			{
-				if(r_RGetHashCode == null)
+				if(r_GetHashCode == null)
 				{
-					r_RGetHashCode = new(this, "GetHashCode", 0);
-					r_RGetHashCode.SetBelong(this.instance);
+					r_GetHashCode = new(this, "GetHashCode", 0);
+					r_GetHashCode.SetBelong(this.instance);
 				}
-				return r_RGetHashCode;
+				return r_GetHashCode;
 			}
 		}
 
 		/// <summary>
 		/// System.String ToString()
 		/// </summary>
-		protected RMethod r_RToString;
+		protected RMethod r_ToString;
 		public virtual RMethod RToString
 		{
 			get
 			{
-				if(r_RToString == null)
+				if(r_ToString == null)
 				{
-					r_RToString = new(this, "ToString", 0);
-					r_RToString.SetBelong(this.instance);
+					r_ToString = new(this, "ToString", 0);
+					r_ToString.SetBelong(this.instance);
 				}
-				return r_RToString;
+				return r_ToString;
 			}
 		}
 
 		/// <summary>
 		/// Void Finalize()
 		/// </summary>
-		protected RMethod r_RFinalize;
+		protected RMethod r_Finalize;
 		public virtual RMethod RFinalize
 		{
 			get
 			{
-				if(r_RFinalize == null)
+				if(r_Finalize == null)
 				{
-					r_RFinalize = new(this, "Finalize", 0);
-					r_RFinalize.SetBelong(this.instance);
+					r_Finalize = new(this, "Finalize", 0);
+					r_Finalize.SetBelong(this.instance);
 				}
-				return r_RFinalize;
+				return r_Finalize;
 			}
 		}
 
 		/// <summary>
 		/// System.Type GetType()
 		/// </summary>
-		protected RMethod r_RGetType;
+		protected RMethod r_GetType;
 		public virtual RMethod RGetType
 		{
 			get
 			{
-				if(r_RGetType == null)
+				if(r_GetType == null)
 				{
-					r_RGetType = new(this, "GetType", 0);
-					r_RGetType.SetBelong(this.instance);
+					r_GetType = new(this, "GetType", 0);
+					r_GetType.SetBelong(this.instance);
 				}
-				return r_RGetType;
+				return r_GetType;
 			}
 		}
 
 		/// <summary>
 		/// System.Object MemberwiseClone()
 		/// </summary>
-		protected RMethod r_RMemberwiseClone;
+		protected RMethod r_MemberwiseClone;
 		public virtual RMethod RMemberwiseClone
 		{
 			get
 			{
-				if(r_RMemberwiseClone == null)
+				if(r_MemberwiseClone == null)
 				{
-					r_RMemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_RMemberwiseClone.SetBelong(this.instance);
+					r_MemberwiseClone = new(this, "MemberwiseClone", 0);
+					r_MemberwiseClone.SetBelong(this.instance);
 				}
-				return r_RMemberwiseClone;
+				return r_MemberwiseClone;
 			}
 		}
 

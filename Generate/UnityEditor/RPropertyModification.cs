@@ -81,170 +81,170 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Void Apply()
 		/// </summary>
-		protected RMethod r_RApply;
+		protected RMethod r_Apply;
 		public virtual RMethod RApply
 		{
 			get
 			{
-				if(r_RApply == null)
+				if(r_Apply == null)
 				{
-					r_RApply = new(this, "Apply", 0);
-					r_RApply.SetBelong(this.instance);
+					r_Apply = new(this, "Apply", 0);
+					r_Apply.SetBelong(this.instance);
 				}
-				return r_RApply;
+				return r_Apply;
 			}
 		}
 
 		/// <summary>
 		/// Void ApplyToObject(UnityEngine.Object)
 		/// </summary>
-		protected RMethod r_RApplyToObject_Object;
+		protected RMethod r_ApplyToObject_Object;
 		public virtual RMethod RApplyToObject_Object
 		{
 			get
 			{
-				if(r_RApplyToObject_Object == null)
+				if(r_ApplyToObject_Object == null)
 				{
-					r_RApplyToObject_Object = new(this, "ApplyToObject", 0, typeof(UnityEngine.Object));
-					r_RApplyToObject_Object.SetBelong(this.instance);
+					r_ApplyToObject_Object = new(this, "ApplyToObject", 0, typeof(UnityEngine.Object));
+					r_ApplyToObject_Object.SetBelong(this.instance);
 				}
-				return r_RApplyToObject_Object;
+				return r_ApplyToObject_Object;
 			}
 		}
 
 		/// <summary>
 		/// Void ApplyPropertyModificationToObject(UnityEngine.Object, UnityEditor.PropertyModification)
 		/// </summary>
-		protected static RMethod r_RApplyPropertyModificationToObject_Object_PropertyModification;
+		protected static RMethod r_ApplyPropertyModificationToObject_Object_PropertyModification;
 		public static RMethod RApplyPropertyModificationToObject_Object_PropertyModification
 		{
 			get
 			{
-				if(r_RApplyPropertyModificationToObject_Object_PropertyModification == null)
+				if(r_ApplyPropertyModificationToObject_Object_PropertyModification == null)
 				{
-					r_RApplyPropertyModificationToObject_Object_PropertyModification = new(typeof(UnityEditor.PropertyModification), "ApplyPropertyModificationToObject", 0, typeof(UnityEngine.Object), typeof(UnityEditor.PropertyModification));
-					r_RApplyPropertyModificationToObject_Object_PropertyModification.SetBelong(null);
+					r_ApplyPropertyModificationToObject_Object_PropertyModification = new(typeof(UnityEditor.PropertyModification), "ApplyPropertyModificationToObject", 0, typeof(UnityEngine.Object), typeof(UnityEditor.PropertyModification));
+					r_ApplyPropertyModificationToObject_Object_PropertyModification.SetBelong(null);
 				}
-				return r_RApplyPropertyModificationToObject_Object_PropertyModification;
+				return r_ApplyPropertyModificationToObject_Object_PropertyModification;
 			}
 		}
 
 		/// <summary>
 		/// Void ApplyPropertyModificationsToObject(UnityEngine.Object, UnityEditor.PropertyModification[])
 		/// </summary>
-		protected static RMethod r_RApplyPropertyModificationsToObject_Object_PropertyModificationArray;
+		protected static RMethod r_ApplyPropertyModificationsToObject_Object_PropertyModificationArray;
 		public static RMethod RApplyPropertyModificationsToObject_Object_PropertyModificationArray
 		{
 			get
 			{
-				if(r_RApplyPropertyModificationsToObject_Object_PropertyModificationArray == null)
+				if(r_ApplyPropertyModificationsToObject_Object_PropertyModificationArray == null)
 				{
-					r_RApplyPropertyModificationsToObject_Object_PropertyModificationArray = new(typeof(UnityEditor.PropertyModification), "ApplyPropertyModificationsToObject", 0, typeof(UnityEngine.Object), typeof(UnityEditor.PropertyModification).MakeArrayType());
-					r_RApplyPropertyModificationsToObject_Object_PropertyModificationArray.SetBelong(null);
+					r_ApplyPropertyModificationsToObject_Object_PropertyModificationArray = new(typeof(UnityEditor.PropertyModification), "ApplyPropertyModificationsToObject", 0, typeof(UnityEngine.Object), typeof(UnityEditor.PropertyModification).MakeArrayType());
+					r_ApplyPropertyModificationsToObject_Object_PropertyModificationArray.SetBelong(null);
 				}
-				return r_RApplyPropertyModificationsToObject_Object_PropertyModificationArray;
+				return r_ApplyPropertyModificationsToObject_Object_PropertyModificationArray;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Equals(System.Object)
 		/// </summary>
-		protected RMethod r_REquals_Object;
+		protected RMethod r_Equals_Object;
 		public virtual RMethod REquals_Object
 		{
 			get
 			{
-				if(r_REquals_Object == null)
+				if(r_Equals_Object == null)
 				{
-					r_REquals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_REquals_Object.SetBelong(this.instance);
+					r_Equals_Object = new(this, "Equals", 0, typeof(System.Object));
+					r_Equals_Object.SetBelong(this.instance);
 				}
-				return r_REquals_Object;
+				return r_Equals_Object;
 			}
 		}
 
 		/// <summary>
 		/// Void Finalize()
 		/// </summary>
-		protected RMethod r_RFinalize;
+		protected RMethod r_Finalize;
 		public virtual RMethod RFinalize
 		{
 			get
 			{
-				if(r_RFinalize == null)
+				if(r_Finalize == null)
 				{
-					r_RFinalize = new(this, "Finalize", 0);
-					r_RFinalize.SetBelong(this.instance);
+					r_Finalize = new(this, "Finalize", 0);
+					r_Finalize.SetBelong(this.instance);
 				}
-				return r_RFinalize;
+				return r_Finalize;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetHashCode()
 		/// </summary>
-		protected RMethod r_RGetHashCode;
+		protected RMethod r_GetHashCode;
 		public virtual RMethod RGetHashCode
 		{
 			get
 			{
-				if(r_RGetHashCode == null)
+				if(r_GetHashCode == null)
 				{
-					r_RGetHashCode = new(this, "GetHashCode", 0);
-					r_RGetHashCode.SetBelong(this.instance);
+					r_GetHashCode = new(this, "GetHashCode", 0);
+					r_GetHashCode.SetBelong(this.instance);
 				}
-				return r_RGetHashCode;
+				return r_GetHashCode;
 			}
 		}
 
 		/// <summary>
 		/// System.Type GetType()
 		/// </summary>
-		protected RMethod r_RGetType;
+		protected RMethod r_GetType;
 		public virtual RMethod RGetType
 		{
 			get
 			{
-				if(r_RGetType == null)
+				if(r_GetType == null)
 				{
-					r_RGetType = new(this, "GetType", 0);
-					r_RGetType.SetBelong(this.instance);
+					r_GetType = new(this, "GetType", 0);
+					r_GetType.SetBelong(this.instance);
 				}
-				return r_RGetType;
+				return r_GetType;
 			}
 		}
 
 		/// <summary>
 		/// System.Object MemberwiseClone()
 		/// </summary>
-		protected RMethod r_RMemberwiseClone;
+		protected RMethod r_MemberwiseClone;
 		public virtual RMethod RMemberwiseClone
 		{
 			get
 			{
-				if(r_RMemberwiseClone == null)
+				if(r_MemberwiseClone == null)
 				{
-					r_RMemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_RMemberwiseClone.SetBelong(this.instance);
+					r_MemberwiseClone = new(this, "MemberwiseClone", 0);
+					r_MemberwiseClone.SetBelong(this.instance);
 				}
-				return r_RMemberwiseClone;
+				return r_MemberwiseClone;
 			}
 		}
 
 		/// <summary>
 		/// System.String ToString()
 		/// </summary>
-		protected RMethod r_RToString;
+		protected RMethod r_ToString;
 		public virtual RMethod RToString
 		{
 			get
 			{
-				if(r_RToString == null)
+				if(r_ToString == null)
 				{
-					r_RToString = new(this, "ToString", 0);
-					r_RToString.SetBelong(this.instance);
+					r_ToString = new(this, "ToString", 0);
+					r_ToString.SetBelong(this.instance);
 				}
-				return r_RToString;
+				return r_ToString;
 			}
 		}
 

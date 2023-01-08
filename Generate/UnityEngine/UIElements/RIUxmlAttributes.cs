@@ -13,17 +13,17 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Boolean TryGetAttributeValue(System.String, System.String ByRef)
 		/// </summary>
-		protected RMethod r_RTryGetAttributeValue_String_Out_String;
+		protected RMethod r_TryGetAttributeValue_String_Out_String;
 		public virtual RMethod RTryGetAttributeValue_String_Out_String
 		{
 			get
 			{
-				if(r_RTryGetAttributeValue_String_Out_String == null)
+				if(r_TryGetAttributeValue_String_Out_String == null)
 				{
-					r_RTryGetAttributeValue_String_Out_String = new(this, "TryGetAttributeValue", 0, typeof(System.String), typeof(System.String).MakeByRefType());
-					r_RTryGetAttributeValue_String_Out_String.SetBelong(this.instance);
+					r_TryGetAttributeValue_String_Out_String = new(this, "TryGetAttributeValue", 0, typeof(System.String), typeof(System.String).MakeByRefType());
+					r_TryGetAttributeValue_String_Out_String.SetBelong(this.instance);
 				}
-				return r_RTryGetAttributeValue_String_Out_String;
+				return r_TryGetAttributeValue_String_Out_String;
 			}
 		}
 

@@ -183,170 +183,170 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RProfiling
 		/// <summary>
 		/// Void Finalize()
 		/// </summary>
-		protected RMethod r_RFinalize;
+		protected RMethod r_Finalize;
 		public virtual RMethod RFinalize
 		{
 			get
 			{
-				if(r_RFinalize == null)
+				if(r_Finalize == null)
 				{
-					r_RFinalize = new(this, "Finalize", 0);
-					r_RFinalize.SetBelong(this.instance);
+					r_Finalize = new(this, "Finalize", 0);
+					r_Finalize.SetBelong(this.instance);
 				}
-				return r_RFinalize;
+				return r_Finalize;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Profiling.Recorder Get(System.String)
 		/// </summary>
-		protected static RMethod r_RGet_String;
+		protected static RMethod r_Get_String;
 		public static RMethod RGet_String
 		{
 			get
 			{
-				if(r_RGet_String == null)
+				if(r_Get_String == null)
 				{
-					r_RGet_String = new(typeof(UnityEngine.Profiling.Recorder), "Get", 0, typeof(System.String));
-					r_RGet_String.SetBelong(null);
+					r_Get_String = new(typeof(UnityEngine.Profiling.Recorder), "Get", 0, typeof(System.String));
+					r_Get_String.SetBelong(null);
 				}
-				return r_RGet_String;
+				return r_Get_String;
 			}
 		}
 
 		/// <summary>
 		/// Void FilterToCurrentThread()
 		/// </summary>
-		protected RMethod r_RFilterToCurrentThread;
+		protected RMethod r_FilterToCurrentThread;
 		public virtual RMethod RFilterToCurrentThread
 		{
 			get
 			{
-				if(r_RFilterToCurrentThread == null)
+				if(r_FilterToCurrentThread == null)
 				{
-					r_RFilterToCurrentThread = new(this, "FilterToCurrentThread", 0);
-					r_RFilterToCurrentThread.SetBelong(this.instance);
+					r_FilterToCurrentThread = new(this, "FilterToCurrentThread", 0);
+					r_FilterToCurrentThread.SetBelong(this.instance);
 				}
-				return r_RFilterToCurrentThread;
+				return r_FilterToCurrentThread;
 			}
 		}
 
 		/// <summary>
 		/// Void CollectFromAllThreads()
 		/// </summary>
-		protected RMethod r_RCollectFromAllThreads;
+		protected RMethod r_CollectFromAllThreads;
 		public virtual RMethod RCollectFromAllThreads
 		{
 			get
 			{
-				if(r_RCollectFromAllThreads == null)
+				if(r_CollectFromAllThreads == null)
 				{
-					r_RCollectFromAllThreads = new(this, "CollectFromAllThreads", 0);
-					r_RCollectFromAllThreads.SetBelong(this.instance);
+					r_CollectFromAllThreads = new(this, "CollectFromAllThreads", 0);
+					r_CollectFromAllThreads.SetBelong(this.instance);
 				}
-				return r_RCollectFromAllThreads;
+				return r_CollectFromAllThreads;
 			}
 		}
 
 		/// <summary>
 		/// Void SetEnabled(Boolean)
 		/// </summary>
-		protected RMethod r_RSetEnabled_Boolean;
+		protected RMethod r_SetEnabled_Boolean;
 		public virtual RMethod RSetEnabled_Boolean
 		{
 			get
 			{
-				if(r_RSetEnabled_Boolean == null)
+				if(r_SetEnabled_Boolean == null)
 				{
-					r_RSetEnabled_Boolean = new(this, "SetEnabled", 0, typeof(System.Boolean));
-					r_RSetEnabled_Boolean.SetBelong(this.instance);
+					r_SetEnabled_Boolean = new(this, "SetEnabled", 0, typeof(System.Boolean));
+					r_SetEnabled_Boolean.SetBelong(this.instance);
 				}
-				return r_RSetEnabled_Boolean;
+				return r_SetEnabled_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Equals(System.Object)
 		/// </summary>
-		protected RMethod r_REquals_Object;
+		protected RMethod r_Equals_Object;
 		public virtual RMethod REquals_Object
 		{
 			get
 			{
-				if(r_REquals_Object == null)
+				if(r_Equals_Object == null)
 				{
-					r_REquals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_REquals_Object.SetBelong(this.instance);
+					r_Equals_Object = new(this, "Equals", 0, typeof(System.Object));
+					r_Equals_Object.SetBelong(this.instance);
 				}
-				return r_REquals_Object;
+				return r_Equals_Object;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetHashCode()
 		/// </summary>
-		protected RMethod r_RGetHashCode;
+		protected RMethod r_GetHashCode;
 		public virtual RMethod RGetHashCode
 		{
 			get
 			{
-				if(r_RGetHashCode == null)
+				if(r_GetHashCode == null)
 				{
-					r_RGetHashCode = new(this, "GetHashCode", 0);
-					r_RGetHashCode.SetBelong(this.instance);
+					r_GetHashCode = new(this, "GetHashCode", 0);
+					r_GetHashCode.SetBelong(this.instance);
 				}
-				return r_RGetHashCode;
+				return r_GetHashCode;
 			}
 		}
 
 		/// <summary>
 		/// System.Type GetType()
 		/// </summary>
-		protected RMethod r_RGetType;
+		protected RMethod r_GetType;
 		public virtual RMethod RGetType
 		{
 			get
 			{
-				if(r_RGetType == null)
+				if(r_GetType == null)
 				{
-					r_RGetType = new(this, "GetType", 0);
-					r_RGetType.SetBelong(this.instance);
+					r_GetType = new(this, "GetType", 0);
+					r_GetType.SetBelong(this.instance);
 				}
-				return r_RGetType;
+				return r_GetType;
 			}
 		}
 
 		/// <summary>
 		/// System.Object MemberwiseClone()
 		/// </summary>
-		protected RMethod r_RMemberwiseClone;
+		protected RMethod r_MemberwiseClone;
 		public virtual RMethod RMemberwiseClone
 		{
 			get
 			{
-				if(r_RMemberwiseClone == null)
+				if(r_MemberwiseClone == null)
 				{
-					r_RMemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_RMemberwiseClone.SetBelong(this.instance);
+					r_MemberwiseClone = new(this, "MemberwiseClone", 0);
+					r_MemberwiseClone.SetBelong(this.instance);
 				}
-				return r_RMemberwiseClone;
+				return r_MemberwiseClone;
 			}
 		}
 
 		/// <summary>
 		/// System.String ToString()
 		/// </summary>
-		protected RMethod r_RToString;
+		protected RMethod r_ToString;
 		public virtual RMethod RToString
 		{
 			get
 			{
-				if(r_RToString == null)
+				if(r_ToString == null)
 				{
-					r_RToString = new(this, "ToString", 0);
-					r_RToString.SetBelong(this.instance);
+					r_ToString = new(this, "ToString", 0);
+					r_ToString.SetBelong(this.instance);
 				}
-				return r_RToString;
+				return r_ToString;
 			}
 		}
 

@@ -132,459 +132,459 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 GetHashCode()
 		/// </summary>
-		protected RMethod r_RGetHashCode;
+		protected RMethod r_GetHashCode;
 		public virtual RMethod RGetHashCode
 		{
 			get
 			{
-				if(r_RGetHashCode == null)
+				if(r_GetHashCode == null)
 				{
-					r_RGetHashCode = new(this, "GetHashCode", 0);
-					r_RGetHashCode.SetBelong(this.instance);
+					r_GetHashCode = new(this, "GetHashCode", 0);
+					r_GetHashCode.SetBelong(this.instance);
 				}
-				return r_RGetHashCode;
+				return r_GetHashCode;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Equals(System.Object)
 		/// </summary>
-		protected RMethod r_REquals_Object;
+		protected RMethod r_Equals_Object;
 		public virtual RMethod REquals_Object
 		{
 			get
 			{
-				if(r_REquals_Object == null)
+				if(r_Equals_Object == null)
 				{
-					r_REquals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_REquals_Object.SetBelong(this.instance);
+					r_Equals_Object = new(this, "Equals", 0, typeof(System.Object));
+					r_Equals_Object.SetBelong(this.instance);
 				}
-				return r_REquals_Object;
+				return r_Equals_Object;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Equals(UnityEngine.Bounds)
 		/// </summary>
-		protected RMethod r_REquals_Bounds;
+		protected RMethod r_Equals_Bounds;
 		public virtual RMethod REquals_Bounds
 		{
 			get
 			{
-				if(r_REquals_Bounds == null)
+				if(r_Equals_Bounds == null)
 				{
-					r_REquals_Bounds = new(this, "Equals", 0, typeof(UnityEngine.Bounds));
-					r_REquals_Bounds.SetBelong(this.instance);
+					r_Equals_Bounds = new(this, "Equals", 0, typeof(UnityEngine.Bounds));
+					r_Equals_Bounds.SetBelong(this.instance);
 				}
-				return r_REquals_Bounds;
+				return r_Equals_Bounds;
 			}
 		}
 
 		/// <summary>
 		/// Boolean op_Equality(UnityEngine.Bounds, UnityEngine.Bounds)
 		/// </summary>
-		protected static RMethod r_Rop_Equality_Bounds_Bounds;
+		protected static RMethod r_op_Equality_Bounds_Bounds;
 		public static RMethod Rop_Equality_Bounds_Bounds
 		{
 			get
 			{
-				if(r_Rop_Equality_Bounds_Bounds == null)
+				if(r_op_Equality_Bounds_Bounds == null)
 				{
-					r_Rop_Equality_Bounds_Bounds = new(typeof(UnityEngine.Bounds), "op_Equality", 0, typeof(UnityEngine.Bounds), typeof(UnityEngine.Bounds));
-					r_Rop_Equality_Bounds_Bounds.SetBelong(null);
+					r_op_Equality_Bounds_Bounds = new(typeof(UnityEngine.Bounds), "op_Equality", 0, typeof(UnityEngine.Bounds), typeof(UnityEngine.Bounds));
+					r_op_Equality_Bounds_Bounds.SetBelong(null);
 				}
-				return r_Rop_Equality_Bounds_Bounds;
+				return r_op_Equality_Bounds_Bounds;
 			}
 		}
 
 		/// <summary>
 		/// Boolean op_Inequality(UnityEngine.Bounds, UnityEngine.Bounds)
 		/// </summary>
-		protected static RMethod r_Rop_Inequality_Bounds_Bounds;
+		protected static RMethod r_op_Inequality_Bounds_Bounds;
 		public static RMethod Rop_Inequality_Bounds_Bounds
 		{
 			get
 			{
-				if(r_Rop_Inequality_Bounds_Bounds == null)
+				if(r_op_Inequality_Bounds_Bounds == null)
 				{
-					r_Rop_Inequality_Bounds_Bounds = new(typeof(UnityEngine.Bounds), "op_Inequality", 0, typeof(UnityEngine.Bounds), typeof(UnityEngine.Bounds));
-					r_Rop_Inequality_Bounds_Bounds.SetBelong(null);
+					r_op_Inequality_Bounds_Bounds = new(typeof(UnityEngine.Bounds), "op_Inequality", 0, typeof(UnityEngine.Bounds), typeof(UnityEngine.Bounds));
+					r_op_Inequality_Bounds_Bounds.SetBelong(null);
 				}
-				return r_Rop_Inequality_Bounds_Bounds;
+				return r_op_Inequality_Bounds_Bounds;
 			}
 		}
 
 		/// <summary>
 		/// Void SetMinMax(UnityEngine.Vector3, UnityEngine.Vector3)
 		/// </summary>
-		protected RMethod r_RSetMinMax_Vector3_Vector3;
+		protected RMethod r_SetMinMax_Vector3_Vector3;
 		public virtual RMethod RSetMinMax_Vector3_Vector3
 		{
 			get
 			{
-				if(r_RSetMinMax_Vector3_Vector3 == null)
+				if(r_SetMinMax_Vector3_Vector3 == null)
 				{
-					r_RSetMinMax_Vector3_Vector3 = new(this, "SetMinMax", 0, typeof(UnityEngine.Vector3), typeof(UnityEngine.Vector3));
-					r_RSetMinMax_Vector3_Vector3.SetBelong(this.instance);
+					r_SetMinMax_Vector3_Vector3 = new(this, "SetMinMax", 0, typeof(UnityEngine.Vector3), typeof(UnityEngine.Vector3));
+					r_SetMinMax_Vector3_Vector3.SetBelong(this.instance);
 				}
-				return r_RSetMinMax_Vector3_Vector3;
+				return r_SetMinMax_Vector3_Vector3;
 			}
 		}
 
 		/// <summary>
 		/// Void Encapsulate(UnityEngine.Vector3)
 		/// </summary>
-		protected RMethod r_REncapsulate_Vector3;
+		protected RMethod r_Encapsulate_Vector3;
 		public virtual RMethod REncapsulate_Vector3
 		{
 			get
 			{
-				if(r_REncapsulate_Vector3 == null)
+				if(r_Encapsulate_Vector3 == null)
 				{
-					r_REncapsulate_Vector3 = new(this, "Encapsulate", 0, typeof(UnityEngine.Vector3));
-					r_REncapsulate_Vector3.SetBelong(this.instance);
+					r_Encapsulate_Vector3 = new(this, "Encapsulate", 0, typeof(UnityEngine.Vector3));
+					r_Encapsulate_Vector3.SetBelong(this.instance);
 				}
-				return r_REncapsulate_Vector3;
+				return r_Encapsulate_Vector3;
 			}
 		}
 
 		/// <summary>
 		/// Void Encapsulate(UnityEngine.Bounds)
 		/// </summary>
-		protected RMethod r_REncapsulate_Bounds;
+		protected RMethod r_Encapsulate_Bounds;
 		public virtual RMethod REncapsulate_Bounds
 		{
 			get
 			{
-				if(r_REncapsulate_Bounds == null)
+				if(r_Encapsulate_Bounds == null)
 				{
-					r_REncapsulate_Bounds = new(this, "Encapsulate", 0, typeof(UnityEngine.Bounds));
-					r_REncapsulate_Bounds.SetBelong(this.instance);
+					r_Encapsulate_Bounds = new(this, "Encapsulate", 0, typeof(UnityEngine.Bounds));
+					r_Encapsulate_Bounds.SetBelong(this.instance);
 				}
-				return r_REncapsulate_Bounds;
+				return r_Encapsulate_Bounds;
 			}
 		}
 
 		/// <summary>
 		/// Void Expand(Single)
 		/// </summary>
-		protected RMethod r_RExpand_Single;
+		protected RMethod r_Expand_Single;
 		public virtual RMethod RExpand_Single
 		{
 			get
 			{
-				if(r_RExpand_Single == null)
+				if(r_Expand_Single == null)
 				{
-					r_RExpand_Single = new(this, "Expand", 0, typeof(System.Single));
-					r_RExpand_Single.SetBelong(this.instance);
+					r_Expand_Single = new(this, "Expand", 0, typeof(System.Single));
+					r_Expand_Single.SetBelong(this.instance);
 				}
-				return r_RExpand_Single;
+				return r_Expand_Single;
 			}
 		}
 
 		/// <summary>
 		/// Void Expand(UnityEngine.Vector3)
 		/// </summary>
-		protected RMethod r_RExpand_Vector3;
+		protected RMethod r_Expand_Vector3;
 		public virtual RMethod RExpand_Vector3
 		{
 			get
 			{
-				if(r_RExpand_Vector3 == null)
+				if(r_Expand_Vector3 == null)
 				{
-					r_RExpand_Vector3 = new(this, "Expand", 0, typeof(UnityEngine.Vector3));
-					r_RExpand_Vector3.SetBelong(this.instance);
+					r_Expand_Vector3 = new(this, "Expand", 0, typeof(UnityEngine.Vector3));
+					r_Expand_Vector3.SetBelong(this.instance);
 				}
-				return r_RExpand_Vector3;
+				return r_Expand_Vector3;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Intersects(UnityEngine.Bounds)
 		/// </summary>
-		protected RMethod r_RIntersects_Bounds;
+		protected RMethod r_Intersects_Bounds;
 		public virtual RMethod RIntersects_Bounds
 		{
 			get
 			{
-				if(r_RIntersects_Bounds == null)
+				if(r_Intersects_Bounds == null)
 				{
-					r_RIntersects_Bounds = new(this, "Intersects", 0, typeof(UnityEngine.Bounds));
-					r_RIntersects_Bounds.SetBelong(this.instance);
+					r_Intersects_Bounds = new(this, "Intersects", 0, typeof(UnityEngine.Bounds));
+					r_Intersects_Bounds.SetBelong(this.instance);
 				}
-				return r_RIntersects_Bounds;
+				return r_Intersects_Bounds;
 			}
 		}
 
 		/// <summary>
 		/// Boolean IntersectRay(UnityEngine.Ray)
 		/// </summary>
-		protected RMethod r_RIntersectRay_Ray;
+		protected RMethod r_IntersectRay_Ray;
 		public virtual RMethod RIntersectRay_Ray
 		{
 			get
 			{
-				if(r_RIntersectRay_Ray == null)
+				if(r_IntersectRay_Ray == null)
 				{
-					r_RIntersectRay_Ray = new(this, "IntersectRay", 0, typeof(UnityEngine.Ray));
-					r_RIntersectRay_Ray.SetBelong(this.instance);
+					r_IntersectRay_Ray = new(this, "IntersectRay", 0, typeof(UnityEngine.Ray));
+					r_IntersectRay_Ray.SetBelong(this.instance);
 				}
-				return r_RIntersectRay_Ray;
+				return r_IntersectRay_Ray;
 			}
 		}
 
 		/// <summary>
 		/// Boolean IntersectRay(UnityEngine.Ray, Single ByRef)
 		/// </summary>
-		protected RMethod r_RIntersectRay_Ray_Out_Single;
+		protected RMethod r_IntersectRay_Ray_Out_Single;
 		public virtual RMethod RIntersectRay_Ray_Out_Single
 		{
 			get
 			{
-				if(r_RIntersectRay_Ray_Out_Single == null)
+				if(r_IntersectRay_Ray_Out_Single == null)
 				{
-					r_RIntersectRay_Ray_Out_Single = new(this, "IntersectRay", 0, typeof(UnityEngine.Ray), typeof(System.Single).MakeByRefType());
-					r_RIntersectRay_Ray_Out_Single.SetBelong(this.instance);
+					r_IntersectRay_Ray_Out_Single = new(this, "IntersectRay", 0, typeof(UnityEngine.Ray), typeof(System.Single).MakeByRefType());
+					r_IntersectRay_Ray_Out_Single.SetBelong(this.instance);
 				}
-				return r_RIntersectRay_Ray_Out_Single;
+				return r_IntersectRay_Ray_Out_Single;
 			}
 		}
 
 		/// <summary>
 		/// System.String ToString()
 		/// </summary>
-		protected RMethod r_RToString;
+		protected RMethod r_ToString;
 		public virtual RMethod RToString
 		{
 			get
 			{
-				if(r_RToString == null)
+				if(r_ToString == null)
 				{
-					r_RToString = new(this, "ToString", 0);
-					r_RToString.SetBelong(this.instance);
+					r_ToString = new(this, "ToString", 0);
+					r_ToString.SetBelong(this.instance);
 				}
-				return r_RToString;
+				return r_ToString;
 			}
 		}
 
 		/// <summary>
 		/// System.String ToString(System.String)
 		/// </summary>
-		protected RMethod r_RToString_String;
+		protected RMethod r_ToString_String;
 		public virtual RMethod RToString_String
 		{
 			get
 			{
-				if(r_RToString_String == null)
+				if(r_ToString_String == null)
 				{
-					r_RToString_String = new(this, "ToString", 0, typeof(System.String));
-					r_RToString_String.SetBelong(this.instance);
+					r_ToString_String = new(this, "ToString", 0, typeof(System.String));
+					r_ToString_String.SetBelong(this.instance);
 				}
-				return r_RToString_String;
+				return r_ToString_String;
 			}
 		}
 
 		/// <summary>
 		/// System.String ToString(System.String, System.IFormatProvider)
 		/// </summary>
-		protected RMethod r_RToString_String_IFormatProvider;
+		protected RMethod r_ToString_String_IFormatProvider;
 		public virtual RMethod RToString_String_IFormatProvider
 		{
 			get
 			{
-				if(r_RToString_String_IFormatProvider == null)
+				if(r_ToString_String_IFormatProvider == null)
 				{
-					r_RToString_String_IFormatProvider = new(this, "ToString", 0, typeof(System.String), typeof(System.IFormatProvider));
-					r_RToString_String_IFormatProvider.SetBelong(this.instance);
+					r_ToString_String_IFormatProvider = new(this, "ToString", 0, typeof(System.String), typeof(System.IFormatProvider));
+					r_ToString_String_IFormatProvider.SetBelong(this.instance);
 				}
-				return r_RToString_String_IFormatProvider;
+				return r_ToString_String_IFormatProvider;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Contains(UnityEngine.Vector3)
 		/// </summary>
-		protected RMethod r_RContains_Vector3;
+		protected RMethod r_Contains_Vector3;
 		public virtual RMethod RContains_Vector3
 		{
 			get
 			{
-				if(r_RContains_Vector3 == null)
+				if(r_Contains_Vector3 == null)
 				{
-					r_RContains_Vector3 = new(this, "Contains", 0, typeof(UnityEngine.Vector3));
-					r_RContains_Vector3.SetBelong(this.instance);
+					r_Contains_Vector3 = new(this, "Contains", 0, typeof(UnityEngine.Vector3));
+					r_Contains_Vector3.SetBelong(this.instance);
 				}
-				return r_RContains_Vector3;
+				return r_Contains_Vector3;
 			}
 		}
 
 		/// <summary>
 		/// Single SqrDistance(UnityEngine.Vector3)
 		/// </summary>
-		protected RMethod r_RSqrDistance_Vector3;
+		protected RMethod r_SqrDistance_Vector3;
 		public virtual RMethod RSqrDistance_Vector3
 		{
 			get
 			{
-				if(r_RSqrDistance_Vector3 == null)
+				if(r_SqrDistance_Vector3 == null)
 				{
-					r_RSqrDistance_Vector3 = new(this, "SqrDistance", 0, typeof(UnityEngine.Vector3));
-					r_RSqrDistance_Vector3.SetBelong(this.instance);
+					r_SqrDistance_Vector3 = new(this, "SqrDistance", 0, typeof(UnityEngine.Vector3));
+					r_SqrDistance_Vector3.SetBelong(this.instance);
 				}
-				return r_RSqrDistance_Vector3;
+				return r_SqrDistance_Vector3;
 			}
 		}
 
 		/// <summary>
 		/// Boolean IntersectRayAABB(UnityEngine.Ray, UnityEngine.Bounds, Single ByRef)
 		/// </summary>
-		protected static RMethod r_RIntersectRayAABB_Ray_Bounds_Out_Single;
+		protected static RMethod r_IntersectRayAABB_Ray_Bounds_Out_Single;
 		public static RMethod RIntersectRayAABB_Ray_Bounds_Out_Single
 		{
 			get
 			{
-				if(r_RIntersectRayAABB_Ray_Bounds_Out_Single == null)
+				if(r_IntersectRayAABB_Ray_Bounds_Out_Single == null)
 				{
-					r_RIntersectRayAABB_Ray_Bounds_Out_Single = new(typeof(UnityEngine.Bounds), "IntersectRayAABB", 0, typeof(UnityEngine.Ray), typeof(UnityEngine.Bounds), typeof(System.Single).MakeByRefType());
-					r_RIntersectRayAABB_Ray_Bounds_Out_Single.SetBelong(null);
+					r_IntersectRayAABB_Ray_Bounds_Out_Single = new(typeof(UnityEngine.Bounds), "IntersectRayAABB", 0, typeof(UnityEngine.Ray), typeof(UnityEngine.Bounds), typeof(System.Single).MakeByRefType());
+					r_IntersectRayAABB_Ray_Bounds_Out_Single.SetBelong(null);
 				}
-				return r_RIntersectRayAABB_Ray_Bounds_Out_Single;
+				return r_IntersectRayAABB_Ray_Bounds_Out_Single;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Vector3 ClosestPoint(UnityEngine.Vector3)
 		/// </summary>
-		protected RMethod r_RClosestPoint_Vector3;
+		protected RMethod r_ClosestPoint_Vector3;
 		public virtual RMethod RClosestPoint_Vector3
 		{
 			get
 			{
-				if(r_RClosestPoint_Vector3 == null)
+				if(r_ClosestPoint_Vector3 == null)
 				{
-					r_RClosestPoint_Vector3 = new(this, "ClosestPoint", 0, typeof(UnityEngine.Vector3));
-					r_RClosestPoint_Vector3.SetBelong(this.instance);
+					r_ClosestPoint_Vector3 = new(this, "ClosestPoint", 0, typeof(UnityEngine.Vector3));
+					r_ClosestPoint_Vector3.SetBelong(this.instance);
 				}
-				return r_RClosestPoint_Vector3;
+				return r_ClosestPoint_Vector3;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Contains_Injected(UnityEngine.Bounds ByRef, UnityEngine.Vector3 ByRef)
 		/// </summary>
-		protected static RMethod r_RContains_Injected_Ref_Bounds_Ref_Vector3;
+		protected static RMethod r_Contains_Injected_Ref_Bounds_Ref_Vector3;
 		public static RMethod RContains_Injected_Ref_Bounds_Ref_Vector3
 		{
 			get
 			{
-				if(r_RContains_Injected_Ref_Bounds_Ref_Vector3 == null)
+				if(r_Contains_Injected_Ref_Bounds_Ref_Vector3 == null)
 				{
-					r_RContains_Injected_Ref_Bounds_Ref_Vector3 = new(typeof(UnityEngine.Bounds), "Contains_Injected", 0, typeof(UnityEngine.Bounds).MakeByRefType(), typeof(UnityEngine.Vector3).MakeByRefType());
-					r_RContains_Injected_Ref_Bounds_Ref_Vector3.SetBelong(null);
+					r_Contains_Injected_Ref_Bounds_Ref_Vector3 = new(typeof(UnityEngine.Bounds), "Contains_Injected", 0, typeof(UnityEngine.Bounds).MakeByRefType(), typeof(UnityEngine.Vector3).MakeByRefType());
+					r_Contains_Injected_Ref_Bounds_Ref_Vector3.SetBelong(null);
 				}
-				return r_RContains_Injected_Ref_Bounds_Ref_Vector3;
+				return r_Contains_Injected_Ref_Bounds_Ref_Vector3;
 			}
 		}
 
 		/// <summary>
 		/// Single SqrDistance_Injected(UnityEngine.Bounds ByRef, UnityEngine.Vector3 ByRef)
 		/// </summary>
-		protected static RMethod r_RSqrDistance_Injected_Ref_Bounds_Ref_Vector3;
+		protected static RMethod r_SqrDistance_Injected_Ref_Bounds_Ref_Vector3;
 		public static RMethod RSqrDistance_Injected_Ref_Bounds_Ref_Vector3
 		{
 			get
 			{
-				if(r_RSqrDistance_Injected_Ref_Bounds_Ref_Vector3 == null)
+				if(r_SqrDistance_Injected_Ref_Bounds_Ref_Vector3 == null)
 				{
-					r_RSqrDistance_Injected_Ref_Bounds_Ref_Vector3 = new(typeof(UnityEngine.Bounds), "SqrDistance_Injected", 0, typeof(UnityEngine.Bounds).MakeByRefType(), typeof(UnityEngine.Vector3).MakeByRefType());
-					r_RSqrDistance_Injected_Ref_Bounds_Ref_Vector3.SetBelong(null);
+					r_SqrDistance_Injected_Ref_Bounds_Ref_Vector3 = new(typeof(UnityEngine.Bounds), "SqrDistance_Injected", 0, typeof(UnityEngine.Bounds).MakeByRefType(), typeof(UnityEngine.Vector3).MakeByRefType());
+					r_SqrDistance_Injected_Ref_Bounds_Ref_Vector3.SetBelong(null);
 				}
-				return r_RSqrDistance_Injected_Ref_Bounds_Ref_Vector3;
+				return r_SqrDistance_Injected_Ref_Bounds_Ref_Vector3;
 			}
 		}
 
 		/// <summary>
 		/// Boolean IntersectRayAABB_Injected(UnityEngine.Ray ByRef, UnityEngine.Bounds ByRef, Single ByRef)
 		/// </summary>
-		protected static RMethod r_RIntersectRayAABB_Injected_Ref_Ray_Ref_Bounds_Out_Single;
+		protected static RMethod r_IntersectRayAABB_Injected_Ref_Ray_Ref_Bounds_Out_Single;
 		public static RMethod RIntersectRayAABB_Injected_Ref_Ray_Ref_Bounds_Out_Single
 		{
 			get
 			{
-				if(r_RIntersectRayAABB_Injected_Ref_Ray_Ref_Bounds_Out_Single == null)
+				if(r_IntersectRayAABB_Injected_Ref_Ray_Ref_Bounds_Out_Single == null)
 				{
-					r_RIntersectRayAABB_Injected_Ref_Ray_Ref_Bounds_Out_Single = new(typeof(UnityEngine.Bounds), "IntersectRayAABB_Injected", 0, typeof(UnityEngine.Ray).MakeByRefType(), typeof(UnityEngine.Bounds).MakeByRefType(), typeof(System.Single).MakeByRefType());
-					r_RIntersectRayAABB_Injected_Ref_Ray_Ref_Bounds_Out_Single.SetBelong(null);
+					r_IntersectRayAABB_Injected_Ref_Ray_Ref_Bounds_Out_Single = new(typeof(UnityEngine.Bounds), "IntersectRayAABB_Injected", 0, typeof(UnityEngine.Ray).MakeByRefType(), typeof(UnityEngine.Bounds).MakeByRefType(), typeof(System.Single).MakeByRefType());
+					r_IntersectRayAABB_Injected_Ref_Ray_Ref_Bounds_Out_Single.SetBelong(null);
 				}
-				return r_RIntersectRayAABB_Injected_Ref_Ray_Ref_Bounds_Out_Single;
+				return r_IntersectRayAABB_Injected_Ref_Ray_Ref_Bounds_Out_Single;
 			}
 		}
 
 		/// <summary>
 		/// Void ClosestPoint_Injected(UnityEngine.Bounds ByRef, UnityEngine.Vector3 ByRef, UnityEngine.Vector3 ByRef)
 		/// </summary>
-		protected static RMethod r_RClosestPoint_Injected_Ref_Bounds_Ref_Vector3_Out_Vector3;
+		protected static RMethod r_ClosestPoint_Injected_Ref_Bounds_Ref_Vector3_Out_Vector3;
 		public static RMethod RClosestPoint_Injected_Ref_Bounds_Ref_Vector3_Out_Vector3
 		{
 			get
 			{
-				if(r_RClosestPoint_Injected_Ref_Bounds_Ref_Vector3_Out_Vector3 == null)
+				if(r_ClosestPoint_Injected_Ref_Bounds_Ref_Vector3_Out_Vector3 == null)
 				{
-					r_RClosestPoint_Injected_Ref_Bounds_Ref_Vector3_Out_Vector3 = new(typeof(UnityEngine.Bounds), "ClosestPoint_Injected", 0, typeof(UnityEngine.Bounds).MakeByRefType(), typeof(UnityEngine.Vector3).MakeByRefType(), typeof(UnityEngine.Vector3).MakeByRefType());
-					r_RClosestPoint_Injected_Ref_Bounds_Ref_Vector3_Out_Vector3.SetBelong(null);
+					r_ClosestPoint_Injected_Ref_Bounds_Ref_Vector3_Out_Vector3 = new(typeof(UnityEngine.Bounds), "ClosestPoint_Injected", 0, typeof(UnityEngine.Bounds).MakeByRefType(), typeof(UnityEngine.Vector3).MakeByRefType(), typeof(UnityEngine.Vector3).MakeByRefType());
+					r_ClosestPoint_Injected_Ref_Bounds_Ref_Vector3_Out_Vector3.SetBelong(null);
 				}
-				return r_RClosestPoint_Injected_Ref_Bounds_Ref_Vector3_Out_Vector3;
+				return r_ClosestPoint_Injected_Ref_Bounds_Ref_Vector3_Out_Vector3;
 			}
 		}
 
 		/// <summary>
 		/// Void Finalize()
 		/// </summary>
-		protected RMethod r_RFinalize;
+		protected RMethod r_Finalize;
 		public virtual RMethod RFinalize
 		{
 			get
 			{
-				if(r_RFinalize == null)
+				if(r_Finalize == null)
 				{
-					r_RFinalize = new(this, "Finalize", 0);
-					r_RFinalize.SetBelong(this.instance);
+					r_Finalize = new(this, "Finalize", 0);
+					r_Finalize.SetBelong(this.instance);
 				}
-				return r_RFinalize;
+				return r_Finalize;
 			}
 		}
 
 		/// <summary>
 		/// System.Type GetType()
 		/// </summary>
-		protected RMethod r_RGetType;
+		protected RMethod r_GetType;
 		public virtual RMethod RGetType
 		{
 			get
 			{
-				if(r_RGetType == null)
+				if(r_GetType == null)
 				{
-					r_RGetType = new(this, "GetType", 0);
-					r_RGetType.SetBelong(this.instance);
+					r_GetType = new(this, "GetType", 0);
+					r_GetType.SetBelong(this.instance);
 				}
-				return r_RGetType;
+				return r_GetType;
 			}
 		}
 
 		/// <summary>
 		/// System.Object MemberwiseClone()
 		/// </summary>
-		protected RMethod r_RMemberwiseClone;
+		protected RMethod r_MemberwiseClone;
 		public virtual RMethod RMemberwiseClone
 		{
 			get
 			{
-				if(r_RMemberwiseClone == null)
+				if(r_MemberwiseClone == null)
 				{
-					r_RMemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_RMemberwiseClone.SetBelong(this.instance);
+					r_MemberwiseClone = new(this, "MemberwiseClone", 0);
+					r_MemberwiseClone.SetBelong(this.instance);
 				}
-				return r_RMemberwiseClone;
+				return r_MemberwiseClone;
 			}
 		}
 

@@ -591,561 +591,561 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// UnityEngine.Vector2Int AllocToTexelCoord(UnityEngine.UIElements.UIR.BitmapAllocator32 ByRef, UnityEngine.UIElements.UIR.BMPAlloc)
 		/// </summary>
-		protected static RMethod r_RAllocToTexelCoord_Ref_BitmapAllocator32_BMPAlloc;
+		protected static RMethod r_AllocToTexelCoord_Ref_BitmapAllocator32_BMPAlloc;
 		public static RMethod RAllocToTexelCoord_Ref_BitmapAllocator32_BMPAlloc
 		{
 			get
 			{
-				if(r_RAllocToTexelCoord_Ref_BitmapAllocator32_BMPAlloc == null)
+				if(r_AllocToTexelCoord_Ref_BitmapAllocator32_BMPAlloc == null)
 				{
-					r_RAllocToTexelCoord_Ref_BitmapAllocator32_BMPAlloc = new( ReleactionUtils.GetType("UnityEngine.UIElements.UIR.UIRVEShaderInfoAllocator"), "AllocToTexelCoord", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.UIR.BitmapAllocator32").MakeByRefType(),  ReleactionUtils.GetType("UnityEngine.UIElements.UIR.BMPAlloc"));
-					r_RAllocToTexelCoord_Ref_BitmapAllocator32_BMPAlloc.SetBelong(null);
+					r_AllocToTexelCoord_Ref_BitmapAllocator32_BMPAlloc = new( ReleactionUtils.GetType("UnityEngine.UIElements.UIR.UIRVEShaderInfoAllocator"), "AllocToTexelCoord", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.UIR.BitmapAllocator32").MakeByRefType(),  ReleactionUtils.GetType("UnityEngine.UIElements.UIR.BMPAlloc"));
+					r_AllocToTexelCoord_Ref_BitmapAllocator32_BMPAlloc.SetBelong(null);
 				}
-				return r_RAllocToTexelCoord_Ref_BitmapAllocator32_BMPAlloc;
+				return r_AllocToTexelCoord_Ref_BitmapAllocator32_BMPAlloc;
 			}
 		}
 
 		/// <summary>
 		/// Int32 AllocToConstantBufferIndex(UnityEngine.UIElements.UIR.BMPAlloc)
 		/// </summary>
-		protected static RMethod r_RAllocToConstantBufferIndex_BMPAlloc;
+		protected static RMethod r_AllocToConstantBufferIndex_BMPAlloc;
 		public static RMethod RAllocToConstantBufferIndex_BMPAlloc
 		{
 			get
 			{
-				if(r_RAllocToConstantBufferIndex_BMPAlloc == null)
+				if(r_AllocToConstantBufferIndex_BMPAlloc == null)
 				{
-					r_RAllocToConstantBufferIndex_BMPAlloc = new( ReleactionUtils.GetType("UnityEngine.UIElements.UIR.UIRVEShaderInfoAllocator"), "AllocToConstantBufferIndex", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.UIR.BMPAlloc"));
-					r_RAllocToConstantBufferIndex_BMPAlloc.SetBelong(null);
+					r_AllocToConstantBufferIndex_BMPAlloc = new( ReleactionUtils.GetType("UnityEngine.UIElements.UIR.UIRVEShaderInfoAllocator"), "AllocToConstantBufferIndex", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.UIR.BMPAlloc"));
+					r_AllocToConstantBufferIndex_BMPAlloc.SetBelong(null);
 				}
-				return r_RAllocToConstantBufferIndex_BMPAlloc;
+				return r_AllocToConstantBufferIndex_BMPAlloc;
 			}
 		}
 
 		/// <summary>
 		/// Boolean AtlasRectMatchesPage(UnityEngine.UIElements.UIR.BitmapAllocator32 ByRef, UnityEngine.UIElements.UIR.BMPAlloc, UnityEngine.RectInt)
 		/// </summary>
-		protected static RMethod r_RAtlasRectMatchesPage_Ref_BitmapAllocator32_BMPAlloc_RectInt;
+		protected static RMethod r_AtlasRectMatchesPage_Ref_BitmapAllocator32_BMPAlloc_RectInt;
 		public static RMethod RAtlasRectMatchesPage_Ref_BitmapAllocator32_BMPAlloc_RectInt
 		{
 			get
 			{
-				if(r_RAtlasRectMatchesPage_Ref_BitmapAllocator32_BMPAlloc_RectInt == null)
+				if(r_AtlasRectMatchesPage_Ref_BitmapAllocator32_BMPAlloc_RectInt == null)
 				{
-					r_RAtlasRectMatchesPage_Ref_BitmapAllocator32_BMPAlloc_RectInt = new( ReleactionUtils.GetType("UnityEngine.UIElements.UIR.UIRVEShaderInfoAllocator"), "AtlasRectMatchesPage", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.UIR.BitmapAllocator32").MakeByRefType(),  ReleactionUtils.GetType("UnityEngine.UIElements.UIR.BMPAlloc"), typeof(UnityEngine.RectInt));
-					r_RAtlasRectMatchesPage_Ref_BitmapAllocator32_BMPAlloc_RectInt.SetBelong(null);
+					r_AtlasRectMatchesPage_Ref_BitmapAllocator32_BMPAlloc_RectInt = new( ReleactionUtils.GetType("UnityEngine.UIElements.UIR.UIRVEShaderInfoAllocator"), "AtlasRectMatchesPage", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.UIR.BitmapAllocator32").MakeByRefType(),  ReleactionUtils.GetType("UnityEngine.UIElements.UIR.BMPAlloc"), typeof(UnityEngine.RectInt));
+					r_AtlasRectMatchesPage_Ref_BitmapAllocator32_BMPAlloc_RectInt.SetBelong(null);
 				}
-				return r_RAtlasRectMatchesPage_Ref_BitmapAllocator32_BMPAlloc_RectInt;
+				return r_AtlasRectMatchesPage_Ref_BitmapAllocator32_BMPAlloc_RectInt;
 			}
 		}
 
 		/// <summary>
 		/// Void Construct()
 		/// </summary>
-		protected RMethod r_RConstruct;
+		protected RMethod r_Construct;
 		public virtual RMethod RConstruct
 		{
 			get
 			{
-				if(r_RConstruct == null)
+				if(r_Construct == null)
 				{
-					r_RConstruct = new(this, "Construct", 0);
-					r_RConstruct.SetBelong(this.instance);
+					r_Construct = new(this, "Construct", 0);
+					r_Construct.SetBelong(this.instance);
 				}
-				return r_RConstruct;
+				return r_Construct;
 			}
 		}
 
 		/// <summary>
 		/// Void ReallyCreateStorage()
 		/// </summary>
-		protected RMethod r_RReallyCreateStorage;
+		protected RMethod r_ReallyCreateStorage;
 		public virtual RMethod RReallyCreateStorage
 		{
 			get
 			{
-				if(r_RReallyCreateStorage == null)
+				if(r_ReallyCreateStorage == null)
 				{
-					r_RReallyCreateStorage = new(this, "ReallyCreateStorage", 0);
-					r_RReallyCreateStorage.SetBelong(this.instance);
+					r_ReallyCreateStorage = new(this, "ReallyCreateStorage", 0);
+					r_ReallyCreateStorage.SetBelong(this.instance);
 				}
-				return r_RReallyCreateStorage;
+				return r_ReallyCreateStorage;
 			}
 		}
 
 		/// <summary>
 		/// Void Dispose()
 		/// </summary>
-		protected RMethod r_RDispose;
+		protected RMethod r_Dispose;
 		public virtual RMethod RDispose
 		{
 			get
 			{
-				if(r_RDispose == null)
+				if(r_Dispose == null)
 				{
-					r_RDispose = new(this, "Dispose", 0);
-					r_RDispose.SetBelong(this.instance);
+					r_Dispose = new(this, "Dispose", 0);
+					r_Dispose.SetBelong(this.instance);
 				}
-				return r_RDispose;
+				return r_Dispose;
 			}
 		}
 
 		/// <summary>
 		/// Void IssuePendingStorageChanges()
 		/// </summary>
-		protected RMethod r_RIssuePendingStorageChanges;
+		protected RMethod r_IssuePendingStorageChanges;
 		public virtual RMethod RIssuePendingStorageChanges
 		{
 			get
 			{
-				if(r_RIssuePendingStorageChanges == null)
+				if(r_IssuePendingStorageChanges == null)
 				{
-					r_RIssuePendingStorageChanges = new(this, "IssuePendingStorageChanges", 0);
-					r_RIssuePendingStorageChanges.SetBelong(this.instance);
+					r_IssuePendingStorageChanges = new(this, "IssuePendingStorageChanges", 0);
+					r_IssuePendingStorageChanges.SetBelong(this.instance);
 				}
-				return r_RIssuePendingStorageChanges;
+				return r_IssuePendingStorageChanges;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.UIR.BMPAlloc AllocTransform()
 		/// </summary>
-		protected RMethod r_RAllocTransform;
+		protected RMethod r_AllocTransform;
 		public virtual RMethod RAllocTransform
 		{
 			get
 			{
-				if(r_RAllocTransform == null)
+				if(r_AllocTransform == null)
 				{
-					r_RAllocTransform = new(this, "AllocTransform", 0);
-					r_RAllocTransform.SetBelong(this.instance);
+					r_AllocTransform = new(this, "AllocTransform", 0);
+					r_AllocTransform.SetBelong(this.instance);
 				}
-				return r_RAllocTransform;
+				return r_AllocTransform;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.UIR.BMPAlloc AllocClipRect()
 		/// </summary>
-		protected RMethod r_RAllocClipRect;
+		protected RMethod r_AllocClipRect;
 		public virtual RMethod RAllocClipRect
 		{
 			get
 			{
-				if(r_RAllocClipRect == null)
+				if(r_AllocClipRect == null)
 				{
-					r_RAllocClipRect = new(this, "AllocClipRect", 0);
-					r_RAllocClipRect.SetBelong(this.instance);
+					r_AllocClipRect = new(this, "AllocClipRect", 0);
+					r_AllocClipRect.SetBelong(this.instance);
 				}
-				return r_RAllocClipRect;
+				return r_AllocClipRect;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.UIR.BMPAlloc AllocOpacity()
 		/// </summary>
-		protected RMethod r_RAllocOpacity;
+		protected RMethod r_AllocOpacity;
 		public virtual RMethod RAllocOpacity
 		{
 			get
 			{
-				if(r_RAllocOpacity == null)
+				if(r_AllocOpacity == null)
 				{
-					r_RAllocOpacity = new(this, "AllocOpacity", 0);
-					r_RAllocOpacity.SetBelong(this.instance);
+					r_AllocOpacity = new(this, "AllocOpacity", 0);
+					r_AllocOpacity.SetBelong(this.instance);
 				}
-				return r_RAllocOpacity;
+				return r_AllocOpacity;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.UIR.BMPAlloc AllocColor()
 		/// </summary>
-		protected RMethod r_RAllocColor;
+		protected RMethod r_AllocColor;
 		public virtual RMethod RAllocColor
 		{
 			get
 			{
-				if(r_RAllocColor == null)
+				if(r_AllocColor == null)
 				{
-					r_RAllocColor = new(this, "AllocColor", 0);
-					r_RAllocColor.SetBelong(this.instance);
+					r_AllocColor = new(this, "AllocColor", 0);
+					r_AllocColor.SetBelong(this.instance);
 				}
-				return r_RAllocColor;
+				return r_AllocColor;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.UIR.BMPAlloc AllocTextCoreSettings(UnityEngine.UIElements.UIR.TextCoreSettings)
 		/// </summary>
-		protected RMethod r_RAllocTextCoreSettings_TextCoreSettings;
+		protected RMethod r_AllocTextCoreSettings_TextCoreSettings;
 		public virtual RMethod RAllocTextCoreSettings_TextCoreSettings
 		{
 			get
 			{
-				if(r_RAllocTextCoreSettings_TextCoreSettings == null)
+				if(r_AllocTextCoreSettings_TextCoreSettings == null)
 				{
-					r_RAllocTextCoreSettings_TextCoreSettings = new(this, "AllocTextCoreSettings", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.UIR.TextCoreSettings"));
-					r_RAllocTextCoreSettings_TextCoreSettings.SetBelong(this.instance);
+					r_AllocTextCoreSettings_TextCoreSettings = new(this, "AllocTextCoreSettings", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.UIR.TextCoreSettings"));
+					r_AllocTextCoreSettings_TextCoreSettings.SetBelong(this.instance);
 				}
-				return r_RAllocTextCoreSettings_TextCoreSettings;
+				return r_AllocTextCoreSettings_TextCoreSettings;
 			}
 		}
 
 		/// <summary>
 		/// Void SetTransformValue(UnityEngine.UIElements.UIR.BMPAlloc, UnityEngine.Matrix4x4)
 		/// </summary>
-		protected RMethod r_RSetTransformValue_BMPAlloc_Matrix4x4;
+		protected RMethod r_SetTransformValue_BMPAlloc_Matrix4x4;
 		public virtual RMethod RSetTransformValue_BMPAlloc_Matrix4x4
 		{
 			get
 			{
-				if(r_RSetTransformValue_BMPAlloc_Matrix4x4 == null)
+				if(r_SetTransformValue_BMPAlloc_Matrix4x4 == null)
 				{
-					r_RSetTransformValue_BMPAlloc_Matrix4x4 = new(this, "SetTransformValue", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.UIR.BMPAlloc"), typeof(UnityEngine.Matrix4x4));
-					r_RSetTransformValue_BMPAlloc_Matrix4x4.SetBelong(this.instance);
+					r_SetTransformValue_BMPAlloc_Matrix4x4 = new(this, "SetTransformValue", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.UIR.BMPAlloc"), typeof(UnityEngine.Matrix4x4));
+					r_SetTransformValue_BMPAlloc_Matrix4x4.SetBelong(this.instance);
 				}
-				return r_RSetTransformValue_BMPAlloc_Matrix4x4;
+				return r_SetTransformValue_BMPAlloc_Matrix4x4;
 			}
 		}
 
 		/// <summary>
 		/// Void SetClipRectValue(UnityEngine.UIElements.UIR.BMPAlloc, UnityEngine.Vector4)
 		/// </summary>
-		protected RMethod r_RSetClipRectValue_BMPAlloc_Vector4;
+		protected RMethod r_SetClipRectValue_BMPAlloc_Vector4;
 		public virtual RMethod RSetClipRectValue_BMPAlloc_Vector4
 		{
 			get
 			{
-				if(r_RSetClipRectValue_BMPAlloc_Vector4 == null)
+				if(r_SetClipRectValue_BMPAlloc_Vector4 == null)
 				{
-					r_RSetClipRectValue_BMPAlloc_Vector4 = new(this, "SetClipRectValue", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.UIR.BMPAlloc"), typeof(UnityEngine.Vector4));
-					r_RSetClipRectValue_BMPAlloc_Vector4.SetBelong(this.instance);
+					r_SetClipRectValue_BMPAlloc_Vector4 = new(this, "SetClipRectValue", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.UIR.BMPAlloc"), typeof(UnityEngine.Vector4));
+					r_SetClipRectValue_BMPAlloc_Vector4.SetBelong(this.instance);
 				}
-				return r_RSetClipRectValue_BMPAlloc_Vector4;
+				return r_SetClipRectValue_BMPAlloc_Vector4;
 			}
 		}
 
 		/// <summary>
 		/// Void SetOpacityValue(UnityEngine.UIElements.UIR.BMPAlloc, Single)
 		/// </summary>
-		protected RMethod r_RSetOpacityValue_BMPAlloc_Single;
+		protected RMethod r_SetOpacityValue_BMPAlloc_Single;
 		public virtual RMethod RSetOpacityValue_BMPAlloc_Single
 		{
 			get
 			{
-				if(r_RSetOpacityValue_BMPAlloc_Single == null)
+				if(r_SetOpacityValue_BMPAlloc_Single == null)
 				{
-					r_RSetOpacityValue_BMPAlloc_Single = new(this, "SetOpacityValue", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.UIR.BMPAlloc"), typeof(System.Single));
-					r_RSetOpacityValue_BMPAlloc_Single.SetBelong(this.instance);
+					r_SetOpacityValue_BMPAlloc_Single = new(this, "SetOpacityValue", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.UIR.BMPAlloc"), typeof(System.Single));
+					r_SetOpacityValue_BMPAlloc_Single.SetBelong(this.instance);
 				}
-				return r_RSetOpacityValue_BMPAlloc_Single;
+				return r_SetOpacityValue_BMPAlloc_Single;
 			}
 		}
 
 		/// <summary>
 		/// Void SetColorValue(UnityEngine.UIElements.UIR.BMPAlloc, UnityEngine.Color)
 		/// </summary>
-		protected RMethod r_RSetColorValue_BMPAlloc_Color;
+		protected RMethod r_SetColorValue_BMPAlloc_Color;
 		public virtual RMethod RSetColorValue_BMPAlloc_Color
 		{
 			get
 			{
-				if(r_RSetColorValue_BMPAlloc_Color == null)
+				if(r_SetColorValue_BMPAlloc_Color == null)
 				{
-					r_RSetColorValue_BMPAlloc_Color = new(this, "SetColorValue", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.UIR.BMPAlloc"), typeof(UnityEngine.Color));
-					r_RSetColorValue_BMPAlloc_Color.SetBelong(this.instance);
+					r_SetColorValue_BMPAlloc_Color = new(this, "SetColorValue", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.UIR.BMPAlloc"), typeof(UnityEngine.Color));
+					r_SetColorValue_BMPAlloc_Color.SetBelong(this.instance);
 				}
-				return r_RSetColorValue_BMPAlloc_Color;
+				return r_SetColorValue_BMPAlloc_Color;
 			}
 		}
 
 		/// <summary>
 		/// Void SetTextCoreSettingValue(UnityEngine.UIElements.UIR.BMPAlloc, UnityEngine.UIElements.UIR.TextCoreSettings)
 		/// </summary>
-		protected RMethod r_RSetTextCoreSettingValue_BMPAlloc_TextCoreSettings;
+		protected RMethod r_SetTextCoreSettingValue_BMPAlloc_TextCoreSettings;
 		public virtual RMethod RSetTextCoreSettingValue_BMPAlloc_TextCoreSettings
 		{
 			get
 			{
-				if(r_RSetTextCoreSettingValue_BMPAlloc_TextCoreSettings == null)
+				if(r_SetTextCoreSettingValue_BMPAlloc_TextCoreSettings == null)
 				{
-					r_RSetTextCoreSettingValue_BMPAlloc_TextCoreSettings = new(this, "SetTextCoreSettingValue", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.UIR.BMPAlloc"),  ReleactionUtils.GetType("UnityEngine.UIElements.UIR.TextCoreSettings"));
-					r_RSetTextCoreSettingValue_BMPAlloc_TextCoreSettings.SetBelong(this.instance);
+					r_SetTextCoreSettingValue_BMPAlloc_TextCoreSettings = new(this, "SetTextCoreSettingValue", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.UIR.BMPAlloc"),  ReleactionUtils.GetType("UnityEngine.UIElements.UIR.TextCoreSettings"));
+					r_SetTextCoreSettingValue_BMPAlloc_TextCoreSettings.SetBelong(this.instance);
 				}
-				return r_RSetTextCoreSettingValue_BMPAlloc_TextCoreSettings;
+				return r_SetTextCoreSettingValue_BMPAlloc_TextCoreSettings;
 			}
 		}
 
 		/// <summary>
 		/// Void FreeTransform(UnityEngine.UIElements.UIR.BMPAlloc)
 		/// </summary>
-		protected RMethod r_RFreeTransform_BMPAlloc;
+		protected RMethod r_FreeTransform_BMPAlloc;
 		public virtual RMethod RFreeTransform_BMPAlloc
 		{
 			get
 			{
-				if(r_RFreeTransform_BMPAlloc == null)
+				if(r_FreeTransform_BMPAlloc == null)
 				{
-					r_RFreeTransform_BMPAlloc = new(this, "FreeTransform", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.UIR.BMPAlloc"));
-					r_RFreeTransform_BMPAlloc.SetBelong(this.instance);
+					r_FreeTransform_BMPAlloc = new(this, "FreeTransform", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.UIR.BMPAlloc"));
+					r_FreeTransform_BMPAlloc.SetBelong(this.instance);
 				}
-				return r_RFreeTransform_BMPAlloc;
+				return r_FreeTransform_BMPAlloc;
 			}
 		}
 
 		/// <summary>
 		/// Void FreeClipRect(UnityEngine.UIElements.UIR.BMPAlloc)
 		/// </summary>
-		protected RMethod r_RFreeClipRect_BMPAlloc;
+		protected RMethod r_FreeClipRect_BMPAlloc;
 		public virtual RMethod RFreeClipRect_BMPAlloc
 		{
 			get
 			{
-				if(r_RFreeClipRect_BMPAlloc == null)
+				if(r_FreeClipRect_BMPAlloc == null)
 				{
-					r_RFreeClipRect_BMPAlloc = new(this, "FreeClipRect", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.UIR.BMPAlloc"));
-					r_RFreeClipRect_BMPAlloc.SetBelong(this.instance);
+					r_FreeClipRect_BMPAlloc = new(this, "FreeClipRect", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.UIR.BMPAlloc"));
+					r_FreeClipRect_BMPAlloc.SetBelong(this.instance);
 				}
-				return r_RFreeClipRect_BMPAlloc;
+				return r_FreeClipRect_BMPAlloc;
 			}
 		}
 
 		/// <summary>
 		/// Void FreeOpacity(UnityEngine.UIElements.UIR.BMPAlloc)
 		/// </summary>
-		protected RMethod r_RFreeOpacity_BMPAlloc;
+		protected RMethod r_FreeOpacity_BMPAlloc;
 		public virtual RMethod RFreeOpacity_BMPAlloc
 		{
 			get
 			{
-				if(r_RFreeOpacity_BMPAlloc == null)
+				if(r_FreeOpacity_BMPAlloc == null)
 				{
-					r_RFreeOpacity_BMPAlloc = new(this, "FreeOpacity", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.UIR.BMPAlloc"));
-					r_RFreeOpacity_BMPAlloc.SetBelong(this.instance);
+					r_FreeOpacity_BMPAlloc = new(this, "FreeOpacity", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.UIR.BMPAlloc"));
+					r_FreeOpacity_BMPAlloc.SetBelong(this.instance);
 				}
-				return r_RFreeOpacity_BMPAlloc;
+				return r_FreeOpacity_BMPAlloc;
 			}
 		}
 
 		/// <summary>
 		/// Void FreeColor(UnityEngine.UIElements.UIR.BMPAlloc)
 		/// </summary>
-		protected RMethod r_RFreeColor_BMPAlloc;
+		protected RMethod r_FreeColor_BMPAlloc;
 		public virtual RMethod RFreeColor_BMPAlloc
 		{
 			get
 			{
-				if(r_RFreeColor_BMPAlloc == null)
+				if(r_FreeColor_BMPAlloc == null)
 				{
-					r_RFreeColor_BMPAlloc = new(this, "FreeColor", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.UIR.BMPAlloc"));
-					r_RFreeColor_BMPAlloc.SetBelong(this.instance);
+					r_FreeColor_BMPAlloc = new(this, "FreeColor", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.UIR.BMPAlloc"));
+					r_FreeColor_BMPAlloc.SetBelong(this.instance);
 				}
-				return r_RFreeColor_BMPAlloc;
+				return r_FreeColor_BMPAlloc;
 			}
 		}
 
 		/// <summary>
 		/// Void FreeTextCoreSettings(UnityEngine.UIElements.UIR.BMPAlloc)
 		/// </summary>
-		protected RMethod r_RFreeTextCoreSettings_BMPAlloc;
+		protected RMethod r_FreeTextCoreSettings_BMPAlloc;
 		public virtual RMethod RFreeTextCoreSettings_BMPAlloc
 		{
 			get
 			{
-				if(r_RFreeTextCoreSettings_BMPAlloc == null)
+				if(r_FreeTextCoreSettings_BMPAlloc == null)
 				{
-					r_RFreeTextCoreSettings_BMPAlloc = new(this, "FreeTextCoreSettings", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.UIR.BMPAlloc"));
-					r_RFreeTextCoreSettings_BMPAlloc.SetBelong(this.instance);
+					r_FreeTextCoreSettings_BMPAlloc = new(this, "FreeTextCoreSettings", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.UIR.BMPAlloc"));
+					r_FreeTextCoreSettings_BMPAlloc.SetBelong(this.instance);
 				}
-				return r_RFreeTextCoreSettings_BMPAlloc;
+				return r_FreeTextCoreSettings_BMPAlloc;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Color32 TransformAllocToVertexData(UnityEngine.UIElements.UIR.BMPAlloc)
 		/// </summary>
-		protected RMethod r_RTransformAllocToVertexData_BMPAlloc;
+		protected RMethod r_TransformAllocToVertexData_BMPAlloc;
 		public virtual RMethod RTransformAllocToVertexData_BMPAlloc
 		{
 			get
 			{
-				if(r_RTransformAllocToVertexData_BMPAlloc == null)
+				if(r_TransformAllocToVertexData_BMPAlloc == null)
 				{
-					r_RTransformAllocToVertexData_BMPAlloc = new(this, "TransformAllocToVertexData", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.UIR.BMPAlloc"));
-					r_RTransformAllocToVertexData_BMPAlloc.SetBelong(this.instance);
+					r_TransformAllocToVertexData_BMPAlloc = new(this, "TransformAllocToVertexData", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.UIR.BMPAlloc"));
+					r_TransformAllocToVertexData_BMPAlloc.SetBelong(this.instance);
 				}
-				return r_RTransformAllocToVertexData_BMPAlloc;
+				return r_TransformAllocToVertexData_BMPAlloc;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Color32 ClipRectAllocToVertexData(UnityEngine.UIElements.UIR.BMPAlloc)
 		/// </summary>
-		protected RMethod r_RClipRectAllocToVertexData_BMPAlloc;
+		protected RMethod r_ClipRectAllocToVertexData_BMPAlloc;
 		public virtual RMethod RClipRectAllocToVertexData_BMPAlloc
 		{
 			get
 			{
-				if(r_RClipRectAllocToVertexData_BMPAlloc == null)
+				if(r_ClipRectAllocToVertexData_BMPAlloc == null)
 				{
-					r_RClipRectAllocToVertexData_BMPAlloc = new(this, "ClipRectAllocToVertexData", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.UIR.BMPAlloc"));
-					r_RClipRectAllocToVertexData_BMPAlloc.SetBelong(this.instance);
+					r_ClipRectAllocToVertexData_BMPAlloc = new(this, "ClipRectAllocToVertexData", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.UIR.BMPAlloc"));
+					r_ClipRectAllocToVertexData_BMPAlloc.SetBelong(this.instance);
 				}
-				return r_RClipRectAllocToVertexData_BMPAlloc;
+				return r_ClipRectAllocToVertexData_BMPAlloc;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Color32 OpacityAllocToVertexData(UnityEngine.UIElements.UIR.BMPAlloc)
 		/// </summary>
-		protected RMethod r_ROpacityAllocToVertexData_BMPAlloc;
+		protected RMethod r_OpacityAllocToVertexData_BMPAlloc;
 		public virtual RMethod ROpacityAllocToVertexData_BMPAlloc
 		{
 			get
 			{
-				if(r_ROpacityAllocToVertexData_BMPAlloc == null)
+				if(r_OpacityAllocToVertexData_BMPAlloc == null)
 				{
-					r_ROpacityAllocToVertexData_BMPAlloc = new(this, "OpacityAllocToVertexData", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.UIR.BMPAlloc"));
-					r_ROpacityAllocToVertexData_BMPAlloc.SetBelong(this.instance);
+					r_OpacityAllocToVertexData_BMPAlloc = new(this, "OpacityAllocToVertexData", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.UIR.BMPAlloc"));
+					r_OpacityAllocToVertexData_BMPAlloc.SetBelong(this.instance);
 				}
-				return r_ROpacityAllocToVertexData_BMPAlloc;
+				return r_OpacityAllocToVertexData_BMPAlloc;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Color32 ColorAllocToVertexData(UnityEngine.UIElements.UIR.BMPAlloc)
 		/// </summary>
-		protected RMethod r_RColorAllocToVertexData_BMPAlloc;
+		protected RMethod r_ColorAllocToVertexData_BMPAlloc;
 		public virtual RMethod RColorAllocToVertexData_BMPAlloc
 		{
 			get
 			{
-				if(r_RColorAllocToVertexData_BMPAlloc == null)
+				if(r_ColorAllocToVertexData_BMPAlloc == null)
 				{
-					r_RColorAllocToVertexData_BMPAlloc = new(this, "ColorAllocToVertexData", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.UIR.BMPAlloc"));
-					r_RColorAllocToVertexData_BMPAlloc.SetBelong(this.instance);
+					r_ColorAllocToVertexData_BMPAlloc = new(this, "ColorAllocToVertexData", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.UIR.BMPAlloc"));
+					r_ColorAllocToVertexData_BMPAlloc.SetBelong(this.instance);
 				}
-				return r_RColorAllocToVertexData_BMPAlloc;
+				return r_ColorAllocToVertexData_BMPAlloc;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Color32 TextCoreSettingsToVertexData(UnityEngine.UIElements.UIR.BMPAlloc)
 		/// </summary>
-		protected RMethod r_RTextCoreSettingsToVertexData_BMPAlloc;
+		protected RMethod r_TextCoreSettingsToVertexData_BMPAlloc;
 		public virtual RMethod RTextCoreSettingsToVertexData_BMPAlloc
 		{
 			get
 			{
-				if(r_RTextCoreSettingsToVertexData_BMPAlloc == null)
+				if(r_TextCoreSettingsToVertexData_BMPAlloc == null)
 				{
-					r_RTextCoreSettingsToVertexData_BMPAlloc = new(this, "TextCoreSettingsToVertexData", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.UIR.BMPAlloc"));
-					r_RTextCoreSettingsToVertexData_BMPAlloc.SetBelong(this.instance);
+					r_TextCoreSettingsToVertexData_BMPAlloc = new(this, "TextCoreSettingsToVertexData", 0,  ReleactionUtils.GetType("UnityEngine.UIElements.UIR.BMPAlloc"));
+					r_TextCoreSettingsToVertexData_BMPAlloc.SetBelong(this.instance);
 				}
-				return r_RTextCoreSettingsToVertexData_BMPAlloc;
+				return r_TextCoreSettingsToVertexData_BMPAlloc;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Equals(System.Object)
 		/// </summary>
-		protected RMethod r_REquals_Object;
+		protected RMethod r_Equals_Object;
 		public virtual RMethod REquals_Object
 		{
 			get
 			{
-				if(r_REquals_Object == null)
+				if(r_Equals_Object == null)
 				{
-					r_REquals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_REquals_Object.SetBelong(this.instance);
+					r_Equals_Object = new(this, "Equals", 0, typeof(System.Object));
+					r_Equals_Object.SetBelong(this.instance);
 				}
-				return r_REquals_Object;
+				return r_Equals_Object;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetHashCode()
 		/// </summary>
-		protected RMethod r_RGetHashCode;
+		protected RMethod r_GetHashCode;
 		public virtual RMethod RGetHashCode
 		{
 			get
 			{
-				if(r_RGetHashCode == null)
+				if(r_GetHashCode == null)
 				{
-					r_RGetHashCode = new(this, "GetHashCode", 0);
-					r_RGetHashCode.SetBelong(this.instance);
+					r_GetHashCode = new(this, "GetHashCode", 0);
+					r_GetHashCode.SetBelong(this.instance);
 				}
-				return r_RGetHashCode;
+				return r_GetHashCode;
 			}
 		}
 
 		/// <summary>
 		/// System.String ToString()
 		/// </summary>
-		protected RMethod r_RToString;
+		protected RMethod r_ToString;
 		public virtual RMethod RToString
 		{
 			get
 			{
-				if(r_RToString == null)
+				if(r_ToString == null)
 				{
-					r_RToString = new(this, "ToString", 0);
-					r_RToString.SetBelong(this.instance);
+					r_ToString = new(this, "ToString", 0);
+					r_ToString.SetBelong(this.instance);
 				}
-				return r_RToString;
+				return r_ToString;
 			}
 		}
 
 		/// <summary>
 		/// Void Finalize()
 		/// </summary>
-		protected RMethod r_RFinalize;
+		protected RMethod r_Finalize;
 		public virtual RMethod RFinalize
 		{
 			get
 			{
-				if(r_RFinalize == null)
+				if(r_Finalize == null)
 				{
-					r_RFinalize = new(this, "Finalize", 0);
-					r_RFinalize.SetBelong(this.instance);
+					r_Finalize = new(this, "Finalize", 0);
+					r_Finalize.SetBelong(this.instance);
 				}
-				return r_RFinalize;
+				return r_Finalize;
 			}
 		}
 
 		/// <summary>
 		/// System.Type GetType()
 		/// </summary>
-		protected RMethod r_RGetType;
+		protected RMethod r_GetType;
 		public virtual RMethod RGetType
 		{
 			get
 			{
-				if(r_RGetType == null)
+				if(r_GetType == null)
 				{
-					r_RGetType = new(this, "GetType", 0);
-					r_RGetType.SetBelong(this.instance);
+					r_GetType = new(this, "GetType", 0);
+					r_GetType.SetBelong(this.instance);
 				}
-				return r_RGetType;
+				return r_GetType;
 			}
 		}
 
 		/// <summary>
 		/// System.Object MemberwiseClone()
 		/// </summary>
-		protected RMethod r_RMemberwiseClone;
+		protected RMethod r_MemberwiseClone;
 		public virtual RMethod RMemberwiseClone
 		{
 			get
 			{
-				if(r_RMemberwiseClone == null)
+				if(r_MemberwiseClone == null)
 				{
-					r_RMemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_RMemberwiseClone.SetBelong(this.instance);
+					r_MemberwiseClone = new(this, "MemberwiseClone", 0);
+					r_MemberwiseClone.SetBelong(this.instance);
 				}
-				return r_RMemberwiseClone;
+				return r_MemberwiseClone;
 			}
 		}
 

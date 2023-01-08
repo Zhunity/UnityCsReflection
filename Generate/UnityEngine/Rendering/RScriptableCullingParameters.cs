@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.ScriptableCullingParameters+<m_CullingPlanes>e__FixedBuffer m_CullingPlanes
 		/// </summary>
-		protected RUnityEngine.RRendering.RScriptableCullingParameters.R__1__m_CullingPlanes__2__e__FixedBuffer r_m_CullingPlanes;
-		public virtual RUnityEngine.RRendering.RScriptableCullingParameters.R__1__m_CullingPlanes__2__e__FixedBuffer Rm_CullingPlanes
+		protected RUnityEngine.RRendering.RScriptableCullingParameters.R__0__m_CullingPlanes__1__e__FixedBuffer r_m_CullingPlanes;
+		public virtual RUnityEngine.RRendering.RScriptableCullingParameters.R__0__m_CullingPlanes__1__e__FixedBuffer Rm_CullingPlanes
 		{
 			get
 			{
@@ -200,8 +200,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.ScriptableCullingParameters+<m_LayerFarCullDistances>e__FixedBuffer m_LayerFarCullDistances
 		/// </summary>
-		protected RUnityEngine.RRendering.RScriptableCullingParameters.R__1__m_LayerFarCullDistances__2__e__FixedBuffer r_m_LayerFarCullDistances;
-		public virtual RUnityEngine.RRendering.RScriptableCullingParameters.R__1__m_LayerFarCullDistances__2__e__FixedBuffer Rm_LayerFarCullDistances
+		protected RUnityEngine.RRendering.RScriptableCullingParameters.R__0__m_LayerFarCullDistances__1__e__FixedBuffer r_m_LayerFarCullDistances;
+		public virtual RUnityEngine.RRendering.RScriptableCullingParameters.R__0__m_LayerFarCullDistances__1__e__FixedBuffer Rm_LayerFarCullDistances
 		{
 			get
 			{
@@ -880,221 +880,221 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// Single GetLayerCullingDistance(Int32)
 		/// </summary>
-		protected RMethod r_RGetLayerCullingDistance_Int32;
+		protected RMethod r_GetLayerCullingDistance_Int32;
 		public virtual RMethod RGetLayerCullingDistance_Int32
 		{
 			get
 			{
-				if(r_RGetLayerCullingDistance_Int32 == null)
+				if(r_GetLayerCullingDistance_Int32 == null)
 				{
-					r_RGetLayerCullingDistance_Int32 = new(this, "GetLayerCullingDistance", 0, typeof(System.Int32));
-					r_RGetLayerCullingDistance_Int32.SetBelong(this.instance);
+					r_GetLayerCullingDistance_Int32 = new(this, "GetLayerCullingDistance", 0, typeof(System.Int32));
+					r_GetLayerCullingDistance_Int32.SetBelong(this.instance);
 				}
-				return r_RGetLayerCullingDistance_Int32;
+				return r_GetLayerCullingDistance_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Void SetLayerCullingDistance(Int32, Single)
 		/// </summary>
-		protected RMethod r_RSetLayerCullingDistance_Int32_Single;
+		protected RMethod r_SetLayerCullingDistance_Int32_Single;
 		public virtual RMethod RSetLayerCullingDistance_Int32_Single
 		{
 			get
 			{
-				if(r_RSetLayerCullingDistance_Int32_Single == null)
+				if(r_SetLayerCullingDistance_Int32_Single == null)
 				{
-					r_RSetLayerCullingDistance_Int32_Single = new(this, "SetLayerCullingDistance", 0, typeof(System.Int32), typeof(System.Single));
-					r_RSetLayerCullingDistance_Int32_Single.SetBelong(this.instance);
+					r_SetLayerCullingDistance_Int32_Single = new(this, "SetLayerCullingDistance", 0, typeof(System.Int32), typeof(System.Single));
+					r_SetLayerCullingDistance_Int32_Single.SetBelong(this.instance);
 				}
-				return r_RSetLayerCullingDistance_Int32_Single;
+				return r_SetLayerCullingDistance_Int32_Single;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Plane GetCullingPlane(Int32)
 		/// </summary>
-		protected RMethod r_RGetCullingPlane_Int32;
+		protected RMethod r_GetCullingPlane_Int32;
 		public virtual RMethod RGetCullingPlane_Int32
 		{
 			get
 			{
-				if(r_RGetCullingPlane_Int32 == null)
+				if(r_GetCullingPlane_Int32 == null)
 				{
-					r_RGetCullingPlane_Int32 = new(this, "GetCullingPlane", 0, typeof(System.Int32));
-					r_RGetCullingPlane_Int32.SetBelong(this.instance);
+					r_GetCullingPlane_Int32 = new(this, "GetCullingPlane", 0, typeof(System.Int32));
+					r_GetCullingPlane_Int32.SetBelong(this.instance);
 				}
-				return r_RGetCullingPlane_Int32;
+				return r_GetCullingPlane_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Void SetCullingPlane(Int32, UnityEngine.Plane)
 		/// </summary>
-		protected RMethod r_RSetCullingPlane_Int32_Plane;
+		protected RMethod r_SetCullingPlane_Int32_Plane;
 		public virtual RMethod RSetCullingPlane_Int32_Plane
 		{
 			get
 			{
-				if(r_RSetCullingPlane_Int32_Plane == null)
+				if(r_SetCullingPlane_Int32_Plane == null)
 				{
-					r_RSetCullingPlane_Int32_Plane = new(this, "SetCullingPlane", 0, typeof(System.Int32), typeof(UnityEngine.Plane));
-					r_RSetCullingPlane_Int32_Plane.SetBelong(this.instance);
+					r_SetCullingPlane_Int32_Plane = new(this, "SetCullingPlane", 0, typeof(System.Int32), typeof(UnityEngine.Plane));
+					r_SetCullingPlane_Int32_Plane.SetBelong(this.instance);
 				}
-				return r_RSetCullingPlane_Int32_Plane;
+				return r_SetCullingPlane_Int32_Plane;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Equals(UnityEngine.Rendering.ScriptableCullingParameters)
 		/// </summary>
-		protected RMethod r_REquals_ScriptableCullingParameters;
+		protected RMethod r_Equals_ScriptableCullingParameters;
 		public virtual RMethod REquals_ScriptableCullingParameters
 		{
 			get
 			{
-				if(r_REquals_ScriptableCullingParameters == null)
+				if(r_Equals_ScriptableCullingParameters == null)
 				{
-					r_REquals_ScriptableCullingParameters = new(this, "Equals", 0, typeof(UnityEngine.Rendering.ScriptableCullingParameters));
-					r_REquals_ScriptableCullingParameters.SetBelong(this.instance);
+					r_Equals_ScriptableCullingParameters = new(this, "Equals", 0, typeof(UnityEngine.Rendering.ScriptableCullingParameters));
+					r_Equals_ScriptableCullingParameters.SetBelong(this.instance);
 				}
-				return r_REquals_ScriptableCullingParameters;
+				return r_Equals_ScriptableCullingParameters;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Equals(System.Object)
 		/// </summary>
-		protected RMethod r_REquals_Object;
+		protected RMethod r_Equals_Object;
 		public virtual RMethod REquals_Object
 		{
 			get
 			{
-				if(r_REquals_Object == null)
+				if(r_Equals_Object == null)
 				{
-					r_REquals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_REquals_Object.SetBelong(this.instance);
+					r_Equals_Object = new(this, "Equals", 0, typeof(System.Object));
+					r_Equals_Object.SetBelong(this.instance);
 				}
-				return r_REquals_Object;
+				return r_Equals_Object;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetHashCode()
 		/// </summary>
-		protected RMethod r_RGetHashCode;
+		protected RMethod r_GetHashCode;
 		public virtual RMethod RGetHashCode
 		{
 			get
 			{
-				if(r_RGetHashCode == null)
+				if(r_GetHashCode == null)
 				{
-					r_RGetHashCode = new(this, "GetHashCode", 0);
-					r_RGetHashCode.SetBelong(this.instance);
+					r_GetHashCode = new(this, "GetHashCode", 0);
+					r_GetHashCode.SetBelong(this.instance);
 				}
-				return r_RGetHashCode;
+				return r_GetHashCode;
 			}
 		}
 
 		/// <summary>
 		/// Boolean op_Equality(UnityEngine.Rendering.ScriptableCullingParameters, UnityEngine.Rendering.ScriptableCullingParameters)
 		/// </summary>
-		protected static RMethod r_Rop_Equality_ScriptableCullingParameters_ScriptableCullingParameters;
+		protected static RMethod r_op_Equality_ScriptableCullingParameters_ScriptableCullingParameters;
 		public static RMethod Rop_Equality_ScriptableCullingParameters_ScriptableCullingParameters
 		{
 			get
 			{
-				if(r_Rop_Equality_ScriptableCullingParameters_ScriptableCullingParameters == null)
+				if(r_op_Equality_ScriptableCullingParameters_ScriptableCullingParameters == null)
 				{
-					r_Rop_Equality_ScriptableCullingParameters_ScriptableCullingParameters = new(typeof(UnityEngine.Rendering.ScriptableCullingParameters), "op_Equality", 0, typeof(UnityEngine.Rendering.ScriptableCullingParameters), typeof(UnityEngine.Rendering.ScriptableCullingParameters));
-					r_Rop_Equality_ScriptableCullingParameters_ScriptableCullingParameters.SetBelong(null);
+					r_op_Equality_ScriptableCullingParameters_ScriptableCullingParameters = new(typeof(UnityEngine.Rendering.ScriptableCullingParameters), "op_Equality", 0, typeof(UnityEngine.Rendering.ScriptableCullingParameters), typeof(UnityEngine.Rendering.ScriptableCullingParameters));
+					r_op_Equality_ScriptableCullingParameters_ScriptableCullingParameters.SetBelong(null);
 				}
-				return r_Rop_Equality_ScriptableCullingParameters_ScriptableCullingParameters;
+				return r_op_Equality_ScriptableCullingParameters_ScriptableCullingParameters;
 			}
 		}
 
 		/// <summary>
 		/// Boolean op_Inequality(UnityEngine.Rendering.ScriptableCullingParameters, UnityEngine.Rendering.ScriptableCullingParameters)
 		/// </summary>
-		protected static RMethod r_Rop_Inequality_ScriptableCullingParameters_ScriptableCullingParameters;
+		protected static RMethod r_op_Inequality_ScriptableCullingParameters_ScriptableCullingParameters;
 		public static RMethod Rop_Inequality_ScriptableCullingParameters_ScriptableCullingParameters
 		{
 			get
 			{
-				if(r_Rop_Inequality_ScriptableCullingParameters_ScriptableCullingParameters == null)
+				if(r_op_Inequality_ScriptableCullingParameters_ScriptableCullingParameters == null)
 				{
-					r_Rop_Inequality_ScriptableCullingParameters_ScriptableCullingParameters = new(typeof(UnityEngine.Rendering.ScriptableCullingParameters), "op_Inequality", 0, typeof(UnityEngine.Rendering.ScriptableCullingParameters), typeof(UnityEngine.Rendering.ScriptableCullingParameters));
-					r_Rop_Inequality_ScriptableCullingParameters_ScriptableCullingParameters.SetBelong(null);
+					r_op_Inequality_ScriptableCullingParameters_ScriptableCullingParameters = new(typeof(UnityEngine.Rendering.ScriptableCullingParameters), "op_Inequality", 0, typeof(UnityEngine.Rendering.ScriptableCullingParameters), typeof(UnityEngine.Rendering.ScriptableCullingParameters));
+					r_op_Inequality_ScriptableCullingParameters_ScriptableCullingParameters.SetBelong(null);
 				}
-				return r_Rop_Inequality_ScriptableCullingParameters_ScriptableCullingParameters;
+				return r_op_Inequality_ScriptableCullingParameters_ScriptableCullingParameters;
 			}
 		}
 
 		/// <summary>
 		/// System.String ToString()
 		/// </summary>
-		protected RMethod r_RToString;
+		protected RMethod r_ToString;
 		public virtual RMethod RToString
 		{
 			get
 			{
-				if(r_RToString == null)
+				if(r_ToString == null)
 				{
-					r_RToString = new(this, "ToString", 0);
-					r_RToString.SetBelong(this.instance);
+					r_ToString = new(this, "ToString", 0);
+					r_ToString.SetBelong(this.instance);
 				}
-				return r_RToString;
+				return r_ToString;
 			}
 		}
 
 		/// <summary>
 		/// Void Finalize()
 		/// </summary>
-		protected RMethod r_RFinalize;
+		protected RMethod r_Finalize;
 		public virtual RMethod RFinalize
 		{
 			get
 			{
-				if(r_RFinalize == null)
+				if(r_Finalize == null)
 				{
-					r_RFinalize = new(this, "Finalize", 0);
-					r_RFinalize.SetBelong(this.instance);
+					r_Finalize = new(this, "Finalize", 0);
+					r_Finalize.SetBelong(this.instance);
 				}
-				return r_RFinalize;
+				return r_Finalize;
 			}
 		}
 
 		/// <summary>
 		/// System.Type GetType()
 		/// </summary>
-		protected RMethod r_RGetType;
+		protected RMethod r_GetType;
 		public virtual RMethod RGetType
 		{
 			get
 			{
-				if(r_RGetType == null)
+				if(r_GetType == null)
 				{
-					r_RGetType = new(this, "GetType", 0);
-					r_RGetType.SetBelong(this.instance);
+					r_GetType = new(this, "GetType", 0);
+					r_GetType.SetBelong(this.instance);
 				}
-				return r_RGetType;
+				return r_GetType;
 			}
 		}
 
 		/// <summary>
 		/// System.Object MemberwiseClone()
 		/// </summary>
-		protected RMethod r_RMemberwiseClone;
+		protected RMethod r_MemberwiseClone;
 		public virtual RMethod RMemberwiseClone
 		{
 			get
 			{
-				if(r_RMemberwiseClone == null)
+				if(r_MemberwiseClone == null)
 				{
-					r_RMemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_RMemberwiseClone.SetBelong(this.instance);
+					r_MemberwiseClone = new(this, "MemberwiseClone", 0);
+					r_MemberwiseClone.SetBelong(this.instance);
 				}
-				return r_RMemberwiseClone;
+				return r_MemberwiseClone;
 			}
 		}
 

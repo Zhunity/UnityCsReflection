@@ -30,765 +30,765 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 		/// <summary>
 		/// Void Finalize()
 		/// </summary>
-		protected RMethod r_RFinalize;
+		protected RMethod r_Finalize;
 		public virtual RMethod RFinalize
 		{
 			get
 			{
-				if(r_RFinalize == null)
+				if(r_Finalize == null)
 				{
-					r_RFinalize = new(this, "Finalize", 0);
-					r_RFinalize.SetBelong(this.instance);
+					r_Finalize = new(this, "Finalize", 0);
+					r_Finalize.SetBelong(this.instance);
 				}
-				return r_RFinalize;
+				return r_Finalize;
 			}
 		}
 
 		/// <summary>
 		/// Void Dispose()
 		/// </summary>
-		protected RMethod r_RDispose;
+		protected RMethod r_Dispose;
 		public virtual RMethod RDispose
 		{
 			get
 			{
-				if(r_RDispose == null)
+				if(r_Dispose == null)
 				{
-					r_RDispose = new(this, "Dispose", 0);
-					r_RDispose.SetBelong(this.instance);
+					r_Dispose = new(this, "Dispose", 0);
+					r_Dispose.SetBelong(this.instance);
 				}
-				return r_RDispose;
+				return r_Dispose;
 			}
 		}
 
 		/// <summary>
 		/// Void Dispose(Boolean)
 		/// </summary>
-		protected RMethod r_RDispose_Boolean;
+		protected RMethod r_Dispose_Boolean;
 		public virtual RMethod RDispose_Boolean
 		{
 			get
 			{
-				if(r_RDispose_Boolean == null)
+				if(r_Dispose_Boolean == null)
 				{
-					r_RDispose_Boolean = new(this, "Dispose", 0, typeof(System.Boolean));
-					r_RDispose_Boolean.SetBelong(this.instance);
+					r_Dispose_Boolean = new(this, "Dispose", 0, typeof(System.Boolean));
+					r_Dispose_Boolean.SetBelong(this.instance);
 				}
-				return r_RDispose_Boolean;
+				return r_Dispose_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// IntPtr Create(RASSettings)
 		/// </summary>
-		protected static RMethod r_RCreate_RASSettings;
+		protected static RMethod r_Create_RASSettings;
 		public static RMethod RCreate_RASSettings
 		{
 			get
 			{
-				if(r_RCreate_RASSettings == null)
+				if(r_Create_RASSettings == null)
 				{
-					r_RCreate_RASSettings = new(typeof(UnityEngine.Experimental.Rendering.RayTracingAccelerationStructure), "Create", 0,  ReleactionUtils.GetType("UnityEngine.Experimental.Rendering.RayTracingAccelerationStructure+RASSettings"));
-					r_RCreate_RASSettings.SetBelong(null);
+					r_Create_RASSettings = new(typeof(UnityEngine.Experimental.Rendering.RayTracingAccelerationStructure), "Create", 0,  ReleactionUtils.GetType("UnityEngine.Experimental.Rendering.RayTracingAccelerationStructure+RASSettings"));
+					r_Create_RASSettings.SetBelong(null);
 				}
-				return r_RCreate_RASSettings;
+				return r_Create_RASSettings;
 			}
 		}
 
 		/// <summary>
 		/// Void Destroy(UnityEngine.Experimental.Rendering.RayTracingAccelerationStructure)
 		/// </summary>
-		protected static RMethod r_RDestroy_RayTracingAccelerationStructure;
+		protected static RMethod r_Destroy_RayTracingAccelerationStructure;
 		public static RMethod RDestroy_RayTracingAccelerationStructure
 		{
 			get
 			{
-				if(r_RDestroy_RayTracingAccelerationStructure == null)
+				if(r_Destroy_RayTracingAccelerationStructure == null)
 				{
-					r_RDestroy_RayTracingAccelerationStructure = new(typeof(UnityEngine.Experimental.Rendering.RayTracingAccelerationStructure), "Destroy", 0, typeof(UnityEngine.Experimental.Rendering.RayTracingAccelerationStructure));
-					r_RDestroy_RayTracingAccelerationStructure.SetBelong(null);
+					r_Destroy_RayTracingAccelerationStructure = new(typeof(UnityEngine.Experimental.Rendering.RayTracingAccelerationStructure), "Destroy", 0, typeof(UnityEngine.Experimental.Rendering.RayTracingAccelerationStructure));
+					r_Destroy_RayTracingAccelerationStructure.SetBelong(null);
 				}
-				return r_RDestroy_RayTracingAccelerationStructure;
+				return r_Destroy_RayTracingAccelerationStructure;
 			}
 		}
 
 		/// <summary>
 		/// Void Release()
 		/// </summary>
-		protected RMethod r_RRelease;
+		protected RMethod r_Release;
 		public virtual RMethod RRelease
 		{
 			get
 			{
-				if(r_RRelease == null)
+				if(r_Release == null)
 				{
-					r_RRelease = new(this, "Release", 0);
-					r_RRelease.SetBelong(this.instance);
+					r_Release = new(this, "Release", 0);
+					r_Release.SetBelong(this.instance);
 				}
-				return r_RRelease;
+				return r_Release;
 			}
 		}
 
 		/// <summary>
 		/// Void Build()
 		/// </summary>
-		protected RMethod r_RBuild;
+		protected RMethod r_Build;
 		public virtual RMethod RBuild
 		{
 			get
 			{
-				if(r_RBuild == null)
+				if(r_Build == null)
 				{
-					r_RBuild = new(this, "Build", 0);
-					r_RBuild.SetBelong(this.instance);
+					r_Build = new(this, "Build", 0);
+					r_Build.SetBelong(this.instance);
 				}
-				return r_RBuild;
+				return r_Build;
 			}
 		}
 
 		/// <summary>
 		/// Void AddInstance(UnityEngine.Renderer, UnityEngine.Experimental.Rendering.RayTracingSubMeshFlags[], Boolean, Boolean, UInt32, UInt32)
 		/// </summary>
-		protected RMethod r_RAddInstance_Renderer_RayTracingSubMeshFlagsArray_Boolean_Boolean_UInt32_UInt32;
+		protected RMethod r_AddInstance_Renderer_RayTracingSubMeshFlagsArray_Boolean_Boolean_UInt32_UInt32;
 		public virtual RMethod RAddInstance_Renderer_RayTracingSubMeshFlagsArray_Boolean_Boolean_UInt32_UInt32
 		{
 			get
 			{
-				if(r_RAddInstance_Renderer_RayTracingSubMeshFlagsArray_Boolean_Boolean_UInt32_UInt32 == null)
+				if(r_AddInstance_Renderer_RayTracingSubMeshFlagsArray_Boolean_Boolean_UInt32_UInt32 == null)
 				{
-					r_RAddInstance_Renderer_RayTracingSubMeshFlagsArray_Boolean_Boolean_UInt32_UInt32 = new(this, "AddInstance", 0, typeof(UnityEngine.Renderer), typeof(UnityEngine.Experimental.Rendering.RayTracingSubMeshFlags).MakeArrayType(), typeof(System.Boolean), typeof(System.Boolean), typeof(System.UInt32), typeof(System.UInt32));
-					r_RAddInstance_Renderer_RayTracingSubMeshFlagsArray_Boolean_Boolean_UInt32_UInt32.SetBelong(this.instance);
+					r_AddInstance_Renderer_RayTracingSubMeshFlagsArray_Boolean_Boolean_UInt32_UInt32 = new(this, "AddInstance", 0, typeof(UnityEngine.Renderer), typeof(UnityEngine.Experimental.Rendering.RayTracingSubMeshFlags).MakeArrayType(), typeof(System.Boolean), typeof(System.Boolean), typeof(System.UInt32), typeof(System.UInt32));
+					r_AddInstance_Renderer_RayTracingSubMeshFlagsArray_Boolean_Boolean_UInt32_UInt32.SetBelong(this.instance);
 				}
-				return r_RAddInstance_Renderer_RayTracingSubMeshFlagsArray_Boolean_Boolean_UInt32_UInt32;
+				return r_AddInstance_Renderer_RayTracingSubMeshFlagsArray_Boolean_Boolean_UInt32_UInt32;
 			}
 		}
 
 		/// <summary>
 		/// Int32 AddInstance(UnityEngine.GraphicsBuffer, UInt32, Boolean, UnityEngine.Matrix4x4, UnityEngine.Material, Boolean, UnityEngine.MaterialPropertyBlock, UInt32, UInt32)
 		/// </summary>
-		protected RMethod r_RAddInstance_GraphicsBuffer_UInt32_Boolean_Matrix4x4_Material_Boolean_MaterialPropertyBlock_UInt32_UInt32;
+		protected RMethod r_AddInstance_GraphicsBuffer_UInt32_Boolean_Matrix4x4_Material_Boolean_MaterialPropertyBlock_UInt32_UInt32;
 		public virtual RMethod RAddInstance_GraphicsBuffer_UInt32_Boolean_Matrix4x4_Material_Boolean_MaterialPropertyBlock_UInt32_UInt32
 		{
 			get
 			{
-				if(r_RAddInstance_GraphicsBuffer_UInt32_Boolean_Matrix4x4_Material_Boolean_MaterialPropertyBlock_UInt32_UInt32 == null)
+				if(r_AddInstance_GraphicsBuffer_UInt32_Boolean_Matrix4x4_Material_Boolean_MaterialPropertyBlock_UInt32_UInt32 == null)
 				{
-					r_RAddInstance_GraphicsBuffer_UInt32_Boolean_Matrix4x4_Material_Boolean_MaterialPropertyBlock_UInt32_UInt32 = new(this, "AddInstance", 0, typeof(UnityEngine.GraphicsBuffer), typeof(System.UInt32), typeof(System.Boolean), typeof(UnityEngine.Matrix4x4), typeof(UnityEngine.Material), typeof(System.Boolean), typeof(UnityEngine.MaterialPropertyBlock), typeof(System.UInt32), typeof(System.UInt32));
-					r_RAddInstance_GraphicsBuffer_UInt32_Boolean_Matrix4x4_Material_Boolean_MaterialPropertyBlock_UInt32_UInt32.SetBelong(this.instance);
+					r_AddInstance_GraphicsBuffer_UInt32_Boolean_Matrix4x4_Material_Boolean_MaterialPropertyBlock_UInt32_UInt32 = new(this, "AddInstance", 0, typeof(UnityEngine.GraphicsBuffer), typeof(System.UInt32), typeof(System.Boolean), typeof(UnityEngine.Matrix4x4), typeof(UnityEngine.Material), typeof(System.Boolean), typeof(UnityEngine.MaterialPropertyBlock), typeof(System.UInt32), typeof(System.UInt32));
+					r_AddInstance_GraphicsBuffer_UInt32_Boolean_Matrix4x4_Material_Boolean_MaterialPropertyBlock_UInt32_UInt32.SetBelong(this.instance);
 				}
-				return r_RAddInstance_GraphicsBuffer_UInt32_Boolean_Matrix4x4_Material_Boolean_MaterialPropertyBlock_UInt32_UInt32;
+				return r_AddInstance_GraphicsBuffer_UInt32_Boolean_Matrix4x4_Material_Boolean_MaterialPropertyBlock_UInt32_UInt32;
 			}
 		}
 
 		/// <summary>
 		/// Void RemoveInstance(UnityEngine.Renderer)
 		/// </summary>
-		protected RMethod r_RRemoveInstance_Renderer;
+		protected RMethod r_RemoveInstance_Renderer;
 		public virtual RMethod RRemoveInstance_Renderer
 		{
 			get
 			{
-				if(r_RRemoveInstance_Renderer == null)
+				if(r_RemoveInstance_Renderer == null)
 				{
-					r_RRemoveInstance_Renderer = new(this, "RemoveInstance", 0, typeof(UnityEngine.Renderer));
-					r_RRemoveInstance_Renderer.SetBelong(this.instance);
+					r_RemoveInstance_Renderer = new(this, "RemoveInstance", 0, typeof(UnityEngine.Renderer));
+					r_RemoveInstance_Renderer.SetBelong(this.instance);
 				}
-				return r_RRemoveInstance_Renderer;
+				return r_RemoveInstance_Renderer;
 			}
 		}
 
 		/// <summary>
 		/// Void RemoveInstance(Int32)
 		/// </summary>
-		protected RMethod r_RRemoveInstance_Int32;
+		protected RMethod r_RemoveInstance_Int32;
 		public virtual RMethod RRemoveInstance_Int32
 		{
 			get
 			{
-				if(r_RRemoveInstance_Int32 == null)
+				if(r_RemoveInstance_Int32 == null)
 				{
-					r_RRemoveInstance_Int32 = new(this, "RemoveInstance", 0, typeof(System.Int32));
-					r_RRemoveInstance_Int32.SetBelong(this.instance);
+					r_RemoveInstance_Int32 = new(this, "RemoveInstance", 0, typeof(System.Int32));
+					r_RemoveInstance_Int32.SetBelong(this.instance);
 				}
-				return r_RRemoveInstance_Int32;
+				return r_RemoveInstance_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Void UpdateInstanceTransform(UnityEngine.Renderer)
 		/// </summary>
-		protected RMethod r_RUpdateInstanceTransform_Renderer;
+		protected RMethod r_UpdateInstanceTransform_Renderer;
 		public virtual RMethod RUpdateInstanceTransform_Renderer
 		{
 			get
 			{
-				if(r_RUpdateInstanceTransform_Renderer == null)
+				if(r_UpdateInstanceTransform_Renderer == null)
 				{
-					r_RUpdateInstanceTransform_Renderer = new(this, "UpdateInstanceTransform", 0, typeof(UnityEngine.Renderer));
-					r_RUpdateInstanceTransform_Renderer.SetBelong(this.instance);
+					r_UpdateInstanceTransform_Renderer = new(this, "UpdateInstanceTransform", 0, typeof(UnityEngine.Renderer));
+					r_UpdateInstanceTransform_Renderer.SetBelong(this.instance);
 				}
-				return r_RUpdateInstanceTransform_Renderer;
+				return r_UpdateInstanceTransform_Renderer;
 			}
 		}
 
 		/// <summary>
 		/// Void UpdateInstanceTransform(Int32, UnityEngine.Matrix4x4)
 		/// </summary>
-		protected RMethod r_RUpdateInstanceTransform_Int32_Matrix4x4;
+		protected RMethod r_UpdateInstanceTransform_Int32_Matrix4x4;
 		public virtual RMethod RUpdateInstanceTransform_Int32_Matrix4x4
 		{
 			get
 			{
-				if(r_RUpdateInstanceTransform_Int32_Matrix4x4 == null)
+				if(r_UpdateInstanceTransform_Int32_Matrix4x4 == null)
 				{
-					r_RUpdateInstanceTransform_Int32_Matrix4x4 = new(this, "UpdateInstanceTransform", 0, typeof(System.Int32), typeof(UnityEngine.Matrix4x4));
-					r_RUpdateInstanceTransform_Int32_Matrix4x4.SetBelong(this.instance);
+					r_UpdateInstanceTransform_Int32_Matrix4x4 = new(this, "UpdateInstanceTransform", 0, typeof(System.Int32), typeof(UnityEngine.Matrix4x4));
+					r_UpdateInstanceTransform_Int32_Matrix4x4.SetBelong(this.instance);
 				}
-				return r_RUpdateInstanceTransform_Int32_Matrix4x4;
+				return r_UpdateInstanceTransform_Int32_Matrix4x4;
 			}
 		}
 
 		/// <summary>
 		/// Void Update()
 		/// </summary>
-		protected RMethod r_RUpdate;
+		protected RMethod r_Update;
 		public virtual RMethod RUpdate
 		{
 			get
 			{
-				if(r_RUpdate == null)
+				if(r_Update == null)
 				{
-					r_RUpdate = new(this, "Update", 0);
-					r_RUpdate.SetBelong(this.instance);
+					r_Update = new(this, "Update", 0);
+					r_Update.SetBelong(this.instance);
 				}
-				return r_RUpdate;
+				return r_Update;
 			}
 		}
 
 		/// <summary>
 		/// Void Update(UnityEngine.Vector3)
 		/// </summary>
-		protected RMethod r_RUpdate_Vector3;
+		protected RMethod r_Update_Vector3;
 		public virtual RMethod RUpdate_Vector3
 		{
 			get
 			{
-				if(r_RUpdate_Vector3 == null)
+				if(r_Update_Vector3 == null)
 				{
-					r_RUpdate_Vector3 = new(this, "Update", 0, typeof(UnityEngine.Vector3));
-					r_RUpdate_Vector3.SetBelong(this.instance);
+					r_Update_Vector3 = new(this, "Update", 0, typeof(UnityEngine.Vector3));
+					r_Update_Vector3.SetBelong(this.instance);
 				}
-				return r_RUpdate_Vector3;
+				return r_Update_Vector3;
 			}
 		}
 
 		/// <summary>
 		/// Void AddInstance(UnityEngine.Renderer, Boolean[], Boolean[], Boolean, Boolean, UInt32, UInt32)
 		/// </summary>
-		protected RMethod r_RAddInstance_Renderer_BooleanArray_BooleanArray_Boolean_Boolean_UInt32_UInt32;
+		protected RMethod r_AddInstance_Renderer_BooleanArray_BooleanArray_Boolean_Boolean_UInt32_UInt32;
 		public virtual RMethod RAddInstance_Renderer_BooleanArray_BooleanArray_Boolean_Boolean_UInt32_UInt32
 		{
 			get
 			{
-				if(r_RAddInstance_Renderer_BooleanArray_BooleanArray_Boolean_Boolean_UInt32_UInt32 == null)
+				if(r_AddInstance_Renderer_BooleanArray_BooleanArray_Boolean_Boolean_UInt32_UInt32 == null)
 				{
-					r_RAddInstance_Renderer_BooleanArray_BooleanArray_Boolean_Boolean_UInt32_UInt32 = new(this, "AddInstance", 0, typeof(UnityEngine.Renderer), typeof(System.Boolean).MakeArrayType(), typeof(System.Boolean).MakeArrayType(), typeof(System.Boolean), typeof(System.Boolean), typeof(System.UInt32), typeof(System.UInt32));
-					r_RAddInstance_Renderer_BooleanArray_BooleanArray_Boolean_Boolean_UInt32_UInt32.SetBelong(this.instance);
+					r_AddInstance_Renderer_BooleanArray_BooleanArray_Boolean_Boolean_UInt32_UInt32 = new(this, "AddInstance", 0, typeof(UnityEngine.Renderer), typeof(System.Boolean).MakeArrayType(), typeof(System.Boolean).MakeArrayType(), typeof(System.Boolean), typeof(System.Boolean), typeof(System.UInt32), typeof(System.UInt32));
+					r_AddInstance_Renderer_BooleanArray_BooleanArray_Boolean_Boolean_UInt32_UInt32.SetBelong(this.instance);
 				}
-				return r_RAddInstance_Renderer_BooleanArray_BooleanArray_Boolean_Boolean_UInt32_UInt32;
+				return r_AddInstance_Renderer_BooleanArray_BooleanArray_Boolean_Boolean_UInt32_UInt32;
 			}
 		}
 
 		/// <summary>
 		/// Void AddInstance(UnityEngine.GraphicsBuffer, UInt32, UnityEngine.Material, Boolean, Boolean, Boolean, UInt32, Boolean, UInt32)
 		/// </summary>
-		protected RMethod r_RAddInstance_GraphicsBuffer_UInt32_Material_Boolean_Boolean_Boolean_UInt32_Boolean_UInt32;
+		protected RMethod r_AddInstance_GraphicsBuffer_UInt32_Material_Boolean_Boolean_Boolean_UInt32_Boolean_UInt32;
 		public virtual RMethod RAddInstance_GraphicsBuffer_UInt32_Material_Boolean_Boolean_Boolean_UInt32_Boolean_UInt32
 		{
 			get
 			{
-				if(r_RAddInstance_GraphicsBuffer_UInt32_Material_Boolean_Boolean_Boolean_UInt32_Boolean_UInt32 == null)
+				if(r_AddInstance_GraphicsBuffer_UInt32_Material_Boolean_Boolean_Boolean_UInt32_Boolean_UInt32 == null)
 				{
-					r_RAddInstance_GraphicsBuffer_UInt32_Material_Boolean_Boolean_Boolean_UInt32_Boolean_UInt32 = new(this, "AddInstance", 0, typeof(UnityEngine.GraphicsBuffer), typeof(System.UInt32), typeof(UnityEngine.Material), typeof(System.Boolean), typeof(System.Boolean), typeof(System.Boolean), typeof(System.UInt32), typeof(System.Boolean), typeof(System.UInt32));
-					r_RAddInstance_GraphicsBuffer_UInt32_Material_Boolean_Boolean_Boolean_UInt32_Boolean_UInt32.SetBelong(this.instance);
+					r_AddInstance_GraphicsBuffer_UInt32_Material_Boolean_Boolean_Boolean_UInt32_Boolean_UInt32 = new(this, "AddInstance", 0, typeof(UnityEngine.GraphicsBuffer), typeof(System.UInt32), typeof(UnityEngine.Material), typeof(System.Boolean), typeof(System.Boolean), typeof(System.Boolean), typeof(System.UInt32), typeof(System.Boolean), typeof(System.UInt32));
+					r_AddInstance_GraphicsBuffer_UInt32_Material_Boolean_Boolean_Boolean_UInt32_Boolean_UInt32.SetBelong(this.instance);
 				}
-				return r_RAddInstance_GraphicsBuffer_UInt32_Material_Boolean_Boolean_Boolean_UInt32_Boolean_UInt32;
+				return r_AddInstance_GraphicsBuffer_UInt32_Material_Boolean_Boolean_Boolean_UInt32_Boolean_UInt32;
 			}
 		}
 
 		/// <summary>
 		/// Void AddInstance(UnityEngine.GraphicsBuffer, UInt32, UnityEngine.Material, UnityEngine.Matrix4x4, Boolean, Boolean, Boolean, UInt32, Boolean, UInt32)
 		/// </summary>
-		protected RMethod r_RAddInstance_GraphicsBuffer_UInt32_Material_Matrix4x4_Boolean_Boolean_Boolean_UInt32_Boolean_UInt32;
+		protected RMethod r_AddInstance_GraphicsBuffer_UInt32_Material_Matrix4x4_Boolean_Boolean_Boolean_UInt32_Boolean_UInt32;
 		public virtual RMethod RAddInstance_GraphicsBuffer_UInt32_Material_Matrix4x4_Boolean_Boolean_Boolean_UInt32_Boolean_UInt32
 		{
 			get
 			{
-				if(r_RAddInstance_GraphicsBuffer_UInt32_Material_Matrix4x4_Boolean_Boolean_Boolean_UInt32_Boolean_UInt32 == null)
+				if(r_AddInstance_GraphicsBuffer_UInt32_Material_Matrix4x4_Boolean_Boolean_Boolean_UInt32_Boolean_UInt32 == null)
 				{
-					r_RAddInstance_GraphicsBuffer_UInt32_Material_Matrix4x4_Boolean_Boolean_Boolean_UInt32_Boolean_UInt32 = new(this, "AddInstance", 0, typeof(UnityEngine.GraphicsBuffer), typeof(System.UInt32), typeof(UnityEngine.Material), typeof(UnityEngine.Matrix4x4), typeof(System.Boolean), typeof(System.Boolean), typeof(System.Boolean), typeof(System.UInt32), typeof(System.Boolean), typeof(System.UInt32));
-					r_RAddInstance_GraphicsBuffer_UInt32_Material_Matrix4x4_Boolean_Boolean_Boolean_UInt32_Boolean_UInt32.SetBelong(this.instance);
+					r_AddInstance_GraphicsBuffer_UInt32_Material_Matrix4x4_Boolean_Boolean_Boolean_UInt32_Boolean_UInt32 = new(this, "AddInstance", 0, typeof(UnityEngine.GraphicsBuffer), typeof(System.UInt32), typeof(UnityEngine.Material), typeof(UnityEngine.Matrix4x4), typeof(System.Boolean), typeof(System.Boolean), typeof(System.Boolean), typeof(System.UInt32), typeof(System.Boolean), typeof(System.UInt32));
+					r_AddInstance_GraphicsBuffer_UInt32_Material_Matrix4x4_Boolean_Boolean_Boolean_UInt32_Boolean_UInt32.SetBelong(this.instance);
 				}
-				return r_RAddInstance_GraphicsBuffer_UInt32_Material_Matrix4x4_Boolean_Boolean_Boolean_UInt32_Boolean_UInt32;
+				return r_AddInstance_GraphicsBuffer_UInt32_Material_Matrix4x4_Boolean_Boolean_Boolean_UInt32_Boolean_UInt32;
 			}
 		}
 
 		/// <summary>
 		/// Void Build(UnityEngine.Vector3)
 		/// </summary>
-		protected RMethod r_RBuild_Vector3;
+		protected RMethod r_Build_Vector3;
 		public virtual RMethod RBuild_Vector3
 		{
 			get
 			{
-				if(r_RBuild_Vector3 == null)
+				if(r_Build_Vector3 == null)
 				{
-					r_RBuild_Vector3 = new(this, "Build", 0, typeof(UnityEngine.Vector3));
-					r_RBuild_Vector3.SetBelong(this.instance);
+					r_Build_Vector3 = new(this, "Build", 0, typeof(UnityEngine.Vector3));
+					r_Build_Vector3.SetBelong(this.instance);
 				}
-				return r_RBuild_Vector3;
+				return r_Build_Vector3;
 			}
 		}
 
 		/// <summary>
 		/// Void AddInstance_Procedural_Deprecated(UnityEngine.GraphicsBuffer, UInt32, UnityEngine.Material, UnityEngine.Matrix4x4, Boolean, Boolean, Boolean, UInt32, Boolean, UInt32)
 		/// </summary>
-		protected RMethod r_RAddInstance_Procedural_Deprecated_GraphicsBuffer_UInt32_Material_Matrix4x4_Boolean_Boolean_Boolean_UInt32_Boolean_UInt32;
+		protected RMethod r_AddInstance_Procedural_Deprecated_GraphicsBuffer_UInt32_Material_Matrix4x4_Boolean_Boolean_Boolean_UInt32_Boolean_UInt32;
 		public virtual RMethod RAddInstance_Procedural_Deprecated_GraphicsBuffer_UInt32_Material_Matrix4x4_Boolean_Boolean_Boolean_UInt32_Boolean_UInt32
 		{
 			get
 			{
-				if(r_RAddInstance_Procedural_Deprecated_GraphicsBuffer_UInt32_Material_Matrix4x4_Boolean_Boolean_Boolean_UInt32_Boolean_UInt32 == null)
+				if(r_AddInstance_Procedural_Deprecated_GraphicsBuffer_UInt32_Material_Matrix4x4_Boolean_Boolean_Boolean_UInt32_Boolean_UInt32 == null)
 				{
-					r_RAddInstance_Procedural_Deprecated_GraphicsBuffer_UInt32_Material_Matrix4x4_Boolean_Boolean_Boolean_UInt32_Boolean_UInt32 = new(this, "AddInstance_Procedural_Deprecated", 0, typeof(UnityEngine.GraphicsBuffer), typeof(System.UInt32), typeof(UnityEngine.Material), typeof(UnityEngine.Matrix4x4), typeof(System.Boolean), typeof(System.Boolean), typeof(System.Boolean), typeof(System.UInt32), typeof(System.Boolean), typeof(System.UInt32));
-					r_RAddInstance_Procedural_Deprecated_GraphicsBuffer_UInt32_Material_Matrix4x4_Boolean_Boolean_Boolean_UInt32_Boolean_UInt32.SetBelong(this.instance);
+					r_AddInstance_Procedural_Deprecated_GraphicsBuffer_UInt32_Material_Matrix4x4_Boolean_Boolean_Boolean_UInt32_Boolean_UInt32 = new(this, "AddInstance_Procedural_Deprecated", 0, typeof(UnityEngine.GraphicsBuffer), typeof(System.UInt32), typeof(UnityEngine.Material), typeof(UnityEngine.Matrix4x4), typeof(System.Boolean), typeof(System.Boolean), typeof(System.Boolean), typeof(System.UInt32), typeof(System.Boolean), typeof(System.UInt32));
+					r_AddInstance_Procedural_Deprecated_GraphicsBuffer_UInt32_Material_Matrix4x4_Boolean_Boolean_Boolean_UInt32_Boolean_UInt32.SetBelong(this.instance);
 				}
-				return r_RAddInstance_Procedural_Deprecated_GraphicsBuffer_UInt32_Material_Matrix4x4_Boolean_Boolean_Boolean_UInt32_Boolean_UInt32;
+				return r_AddInstance_Procedural_Deprecated_GraphicsBuffer_UInt32_Material_Matrix4x4_Boolean_Boolean_Boolean_UInt32_Boolean_UInt32;
 			}
 		}
 
 		/// <summary>
 		/// Int32 AddInstance_Procedural(UnityEngine.GraphicsBuffer, UInt32, Boolean, UnityEngine.Matrix4x4, UnityEngine.Material, Boolean, UnityEngine.MaterialPropertyBlock, UInt32, UInt32)
 		/// </summary>
-		protected RMethod r_RAddInstance_Procedural_GraphicsBuffer_UInt32_Boolean_Matrix4x4_Material_Boolean_MaterialPropertyBlock_UInt32_UInt32;
+		protected RMethod r_AddInstance_Procedural_GraphicsBuffer_UInt32_Boolean_Matrix4x4_Material_Boolean_MaterialPropertyBlock_UInt32_UInt32;
 		public virtual RMethod RAddInstance_Procedural_GraphicsBuffer_UInt32_Boolean_Matrix4x4_Material_Boolean_MaterialPropertyBlock_UInt32_UInt32
 		{
 			get
 			{
-				if(r_RAddInstance_Procedural_GraphicsBuffer_UInt32_Boolean_Matrix4x4_Material_Boolean_MaterialPropertyBlock_UInt32_UInt32 == null)
+				if(r_AddInstance_Procedural_GraphicsBuffer_UInt32_Boolean_Matrix4x4_Material_Boolean_MaterialPropertyBlock_UInt32_UInt32 == null)
 				{
-					r_RAddInstance_Procedural_GraphicsBuffer_UInt32_Boolean_Matrix4x4_Material_Boolean_MaterialPropertyBlock_UInt32_UInt32 = new(this, "AddInstance_Procedural", 0, typeof(UnityEngine.GraphicsBuffer), typeof(System.UInt32), typeof(System.Boolean), typeof(UnityEngine.Matrix4x4), typeof(UnityEngine.Material), typeof(System.Boolean), typeof(UnityEngine.MaterialPropertyBlock), typeof(System.UInt32), typeof(System.UInt32));
-					r_RAddInstance_Procedural_GraphicsBuffer_UInt32_Boolean_Matrix4x4_Material_Boolean_MaterialPropertyBlock_UInt32_UInt32.SetBelong(this.instance);
+					r_AddInstance_Procedural_GraphicsBuffer_UInt32_Boolean_Matrix4x4_Material_Boolean_MaterialPropertyBlock_UInt32_UInt32 = new(this, "AddInstance_Procedural", 0, typeof(UnityEngine.GraphicsBuffer), typeof(System.UInt32), typeof(System.Boolean), typeof(UnityEngine.Matrix4x4), typeof(UnityEngine.Material), typeof(System.Boolean), typeof(UnityEngine.MaterialPropertyBlock), typeof(System.UInt32), typeof(System.UInt32));
+					r_AddInstance_Procedural_GraphicsBuffer_UInt32_Boolean_Matrix4x4_Material_Boolean_MaterialPropertyBlock_UInt32_UInt32.SetBelong(this.instance);
 				}
-				return r_RAddInstance_Procedural_GraphicsBuffer_UInt32_Boolean_Matrix4x4_Material_Boolean_MaterialPropertyBlock_UInt32_UInt32;
+				return r_AddInstance_Procedural_GraphicsBuffer_UInt32_Boolean_Matrix4x4_Material_Boolean_MaterialPropertyBlock_UInt32_UInt32;
 			}
 		}
 
 		/// <summary>
 		/// Void RemoveInstance_Renderer(UnityEngine.Renderer)
 		/// </summary>
-		protected RMethod r_RRemoveInstance_Renderer_Renderer;
+		protected RMethod r_RemoveInstance_Renderer_Renderer;
 		public virtual RMethod RRemoveInstance_Renderer_Renderer
 		{
 			get
 			{
-				if(r_RRemoveInstance_Renderer_Renderer == null)
+				if(r_RemoveInstance_Renderer_Renderer == null)
 				{
-					r_RRemoveInstance_Renderer_Renderer = new(this, "RemoveInstance_Renderer", 0, typeof(UnityEngine.Renderer));
-					r_RRemoveInstance_Renderer_Renderer.SetBelong(this.instance);
+					r_RemoveInstance_Renderer_Renderer = new(this, "RemoveInstance_Renderer", 0, typeof(UnityEngine.Renderer));
+					r_RemoveInstance_Renderer_Renderer.SetBelong(this.instance);
 				}
-				return r_RRemoveInstance_Renderer_Renderer;
+				return r_RemoveInstance_Renderer_Renderer;
 			}
 		}
 
 		/// <summary>
 		/// Void RemoveInstance_InstanceID(Int32)
 		/// </summary>
-		protected RMethod r_RRemoveInstance_InstanceID_Int32;
+		protected RMethod r_RemoveInstance_InstanceID_Int32;
 		public virtual RMethod RRemoveInstance_InstanceID_Int32
 		{
 			get
 			{
-				if(r_RRemoveInstance_InstanceID_Int32 == null)
+				if(r_RemoveInstance_InstanceID_Int32 == null)
 				{
-					r_RRemoveInstance_InstanceID_Int32 = new(this, "RemoveInstance_InstanceID", 0, typeof(System.Int32));
-					r_RRemoveInstance_InstanceID_Int32.SetBelong(this.instance);
+					r_RemoveInstance_InstanceID_Int32 = new(this, "RemoveInstance_InstanceID", 0, typeof(System.Int32));
+					r_RemoveInstance_InstanceID_Int32.SetBelong(this.instance);
 				}
-				return r_RRemoveInstance_InstanceID_Int32;
+				return r_RemoveInstance_InstanceID_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Void UpdateInstanceTransform_Renderer(UnityEngine.Renderer)
 		/// </summary>
-		protected RMethod r_RUpdateInstanceTransform_Renderer_Renderer;
+		protected RMethod r_UpdateInstanceTransform_Renderer_Renderer;
 		public virtual RMethod RUpdateInstanceTransform_Renderer_Renderer
 		{
 			get
 			{
-				if(r_RUpdateInstanceTransform_Renderer_Renderer == null)
+				if(r_UpdateInstanceTransform_Renderer_Renderer == null)
 				{
-					r_RUpdateInstanceTransform_Renderer_Renderer = new(this, "UpdateInstanceTransform_Renderer", 0, typeof(UnityEngine.Renderer));
-					r_RUpdateInstanceTransform_Renderer_Renderer.SetBelong(this.instance);
+					r_UpdateInstanceTransform_Renderer_Renderer = new(this, "UpdateInstanceTransform_Renderer", 0, typeof(UnityEngine.Renderer));
+					r_UpdateInstanceTransform_Renderer_Renderer.SetBelong(this.instance);
 				}
-				return r_RUpdateInstanceTransform_Renderer_Renderer;
+				return r_UpdateInstanceTransform_Renderer_Renderer;
 			}
 		}
 
 		/// <summary>
 		/// Void UpdateInstanceTransform_InstanceID(Int32, UnityEngine.Matrix4x4)
 		/// </summary>
-		protected RMethod r_RUpdateInstanceTransform_InstanceID_Int32_Matrix4x4;
+		protected RMethod r_UpdateInstanceTransform_InstanceID_Int32_Matrix4x4;
 		public virtual RMethod RUpdateInstanceTransform_InstanceID_Int32_Matrix4x4
 		{
 			get
 			{
-				if(r_RUpdateInstanceTransform_InstanceID_Int32_Matrix4x4 == null)
+				if(r_UpdateInstanceTransform_InstanceID_Int32_Matrix4x4 == null)
 				{
-					r_RUpdateInstanceTransform_InstanceID_Int32_Matrix4x4 = new(this, "UpdateInstanceTransform_InstanceID", 0, typeof(System.Int32), typeof(UnityEngine.Matrix4x4));
-					r_RUpdateInstanceTransform_InstanceID_Int32_Matrix4x4.SetBelong(this.instance);
+					r_UpdateInstanceTransform_InstanceID_Int32_Matrix4x4 = new(this, "UpdateInstanceTransform_InstanceID", 0, typeof(System.Int32), typeof(UnityEngine.Matrix4x4));
+					r_UpdateInstanceTransform_InstanceID_Int32_Matrix4x4.SetBelong(this.instance);
 				}
-				return r_RUpdateInstanceTransform_InstanceID_Int32_Matrix4x4;
+				return r_UpdateInstanceTransform_InstanceID_Int32_Matrix4x4;
 			}
 		}
 
 		/// <summary>
 		/// Void UpdateInstanceMask(UnityEngine.Renderer, UInt32)
 		/// </summary>
-		protected RMethod r_RUpdateInstanceMask_Renderer_UInt32;
+		protected RMethod r_UpdateInstanceMask_Renderer_UInt32;
 		public virtual RMethod RUpdateInstanceMask_Renderer_UInt32
 		{
 			get
 			{
-				if(r_RUpdateInstanceMask_Renderer_UInt32 == null)
+				if(r_UpdateInstanceMask_Renderer_UInt32 == null)
 				{
-					r_RUpdateInstanceMask_Renderer_UInt32 = new(this, "UpdateInstanceMask", 0, typeof(UnityEngine.Renderer), typeof(System.UInt32));
-					r_RUpdateInstanceMask_Renderer_UInt32.SetBelong(this.instance);
+					r_UpdateInstanceMask_Renderer_UInt32 = new(this, "UpdateInstanceMask", 0, typeof(UnityEngine.Renderer), typeof(System.UInt32));
+					r_UpdateInstanceMask_Renderer_UInt32.SetBelong(this.instance);
 				}
-				return r_RUpdateInstanceMask_Renderer_UInt32;
+				return r_UpdateInstanceMask_Renderer_UInt32;
 			}
 		}
 
 		/// <summary>
 		/// Void UpdateInstanceID(UnityEngine.Renderer, UInt32)
 		/// </summary>
-		protected RMethod r_RUpdateInstanceID_Renderer_UInt32;
+		protected RMethod r_UpdateInstanceID_Renderer_UInt32;
 		public virtual RMethod RUpdateInstanceID_Renderer_UInt32
 		{
 			get
 			{
-				if(r_RUpdateInstanceID_Renderer_UInt32 == null)
+				if(r_UpdateInstanceID_Renderer_UInt32 == null)
 				{
-					r_RUpdateInstanceID_Renderer_UInt32 = new(this, "UpdateInstanceID", 0, typeof(UnityEngine.Renderer), typeof(System.UInt32));
-					r_RUpdateInstanceID_Renderer_UInt32.SetBelong(this.instance);
+					r_UpdateInstanceID_Renderer_UInt32 = new(this, "UpdateInstanceID", 0, typeof(UnityEngine.Renderer), typeof(System.UInt32));
+					r_UpdateInstanceID_Renderer_UInt32.SetBelong(this.instance);
 				}
-				return r_RUpdateInstanceID_Renderer_UInt32;
+				return r_UpdateInstanceID_Renderer_UInt32;
 			}
 		}
 
 		/// <summary>
 		/// Void UpdateInstancePropertyBlock(Int32, UnityEngine.MaterialPropertyBlock)
 		/// </summary>
-		protected RMethod r_RUpdateInstancePropertyBlock_Int32_MaterialPropertyBlock;
+		protected RMethod r_UpdateInstancePropertyBlock_Int32_MaterialPropertyBlock;
 		public virtual RMethod RUpdateInstancePropertyBlock_Int32_MaterialPropertyBlock
 		{
 			get
 			{
-				if(r_RUpdateInstancePropertyBlock_Int32_MaterialPropertyBlock == null)
+				if(r_UpdateInstancePropertyBlock_Int32_MaterialPropertyBlock == null)
 				{
-					r_RUpdateInstancePropertyBlock_Int32_MaterialPropertyBlock = new(this, "UpdateInstancePropertyBlock", 0, typeof(System.Int32), typeof(UnityEngine.MaterialPropertyBlock));
-					r_RUpdateInstancePropertyBlock_Int32_MaterialPropertyBlock.SetBelong(this.instance);
+					r_UpdateInstancePropertyBlock_Int32_MaterialPropertyBlock = new(this, "UpdateInstancePropertyBlock", 0, typeof(System.Int32), typeof(UnityEngine.MaterialPropertyBlock));
+					r_UpdateInstancePropertyBlock_Int32_MaterialPropertyBlock.SetBelong(this.instance);
 				}
-				return r_RUpdateInstancePropertyBlock_Int32_MaterialPropertyBlock;
+				return r_UpdateInstancePropertyBlock_Int32_MaterialPropertyBlock;
 			}
 		}
 
 		/// <summary>
 		/// UInt64 GetSize()
 		/// </summary>
-		protected RMethod r_RGetSize;
+		protected RMethod r_GetSize;
 		public virtual RMethod RGetSize
 		{
 			get
 			{
-				if(r_RGetSize == null)
+				if(r_GetSize == null)
 				{
-					r_RGetSize = new(this, "GetSize", 0);
-					r_RGetSize.SetBelong(this.instance);
+					r_GetSize = new(this, "GetSize", 0);
+					r_GetSize.SetBelong(this.instance);
 				}
-				return r_RGetSize;
+				return r_GetSize;
 			}
 		}
 
 		/// <summary>
 		/// UInt32 GetInstanceCount()
 		/// </summary>
-		protected RMethod r_RGetInstanceCount;
+		protected RMethod r_GetInstanceCount;
 		public virtual RMethod RGetInstanceCount
 		{
 			get
 			{
-				if(r_RGetInstanceCount == null)
+				if(r_GetInstanceCount == null)
 				{
-					r_RGetInstanceCount = new(this, "GetInstanceCount", 0);
-					r_RGetInstanceCount.SetBelong(this.instance);
+					r_GetInstanceCount = new(this, "GetInstanceCount", 0);
+					r_GetInstanceCount.SetBelong(this.instance);
 				}
-				return r_RGetInstanceCount;
+				return r_GetInstanceCount;
 			}
 		}
 
 		/// <summary>
 		/// Void ClearInstances()
 		/// </summary>
-		protected RMethod r_RClearInstances;
+		protected RMethod r_ClearInstances;
 		public virtual RMethod RClearInstances
 		{
 			get
 			{
-				if(r_RClearInstances == null)
+				if(r_ClearInstances == null)
 				{
-					r_RClearInstances = new(this, "ClearInstances", 0);
-					r_RClearInstances.SetBelong(this.instance);
+					r_ClearInstances = new(this, "ClearInstances", 0);
+					r_ClearInstances.SetBelong(this.instance);
 				}
-				return r_RClearInstances;
+				return r_ClearInstances;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Experimental.Rendering.RayTracingInstanceCullingResults CullInstances(UnityEngine.Experimental.Rendering.RayTracingInstanceCullingConfig ByRef)
 		/// </summary>
-		protected RMethod r_RCullInstances_Ref_RayTracingInstanceCullingConfig;
+		protected RMethod r_CullInstances_Ref_RayTracingInstanceCullingConfig;
 		public virtual RMethod RCullInstances_Ref_RayTracingInstanceCullingConfig
 		{
 			get
 			{
-				if(r_RCullInstances_Ref_RayTracingInstanceCullingConfig == null)
+				if(r_CullInstances_Ref_RayTracingInstanceCullingConfig == null)
 				{
-					r_RCullInstances_Ref_RayTracingInstanceCullingConfig = new(this, "CullInstances", 0, typeof(UnityEngine.Experimental.Rendering.RayTracingInstanceCullingConfig).MakeByRefType());
-					r_RCullInstances_Ref_RayTracingInstanceCullingConfig.SetBelong(this.instance);
+					r_CullInstances_Ref_RayTracingInstanceCullingConfig = new(this, "CullInstances", 0, typeof(UnityEngine.Experimental.Rendering.RayTracingInstanceCullingConfig).MakeByRefType());
+					r_CullInstances_Ref_RayTracingInstanceCullingConfig.SetBelong(this.instance);
 				}
-				return r_RCullInstances_Ref_RayTracingInstanceCullingConfig;
+				return r_CullInstances_Ref_RayTracingInstanceCullingConfig;
 			}
 		}
 
 		/// <summary>
 		/// Void AddInstanceSubMeshFlagsArray(UnityEngine.Renderer, UnityEngine.Experimental.Rendering.RayTracingSubMeshFlags[], Boolean, Boolean, UInt32, UInt32)
 		/// </summary>
-		protected RMethod r_RAddInstanceSubMeshFlagsArray_Renderer_RayTracingSubMeshFlagsArray_Boolean_Boolean_UInt32_UInt32;
+		protected RMethod r_AddInstanceSubMeshFlagsArray_Renderer_RayTracingSubMeshFlagsArray_Boolean_Boolean_UInt32_UInt32;
 		public virtual RMethod RAddInstanceSubMeshFlagsArray_Renderer_RayTracingSubMeshFlagsArray_Boolean_Boolean_UInt32_UInt32
 		{
 			get
 			{
-				if(r_RAddInstanceSubMeshFlagsArray_Renderer_RayTracingSubMeshFlagsArray_Boolean_Boolean_UInt32_UInt32 == null)
+				if(r_AddInstanceSubMeshFlagsArray_Renderer_RayTracingSubMeshFlagsArray_Boolean_Boolean_UInt32_UInt32 == null)
 				{
-					r_RAddInstanceSubMeshFlagsArray_Renderer_RayTracingSubMeshFlagsArray_Boolean_Boolean_UInt32_UInt32 = new(this, "AddInstanceSubMeshFlagsArray", 0, typeof(UnityEngine.Renderer), typeof(UnityEngine.Experimental.Rendering.RayTracingSubMeshFlags).MakeArrayType(), typeof(System.Boolean), typeof(System.Boolean), typeof(System.UInt32), typeof(System.UInt32));
-					r_RAddInstanceSubMeshFlagsArray_Renderer_RayTracingSubMeshFlagsArray_Boolean_Boolean_UInt32_UInt32.SetBelong(this.instance);
+					r_AddInstanceSubMeshFlagsArray_Renderer_RayTracingSubMeshFlagsArray_Boolean_Boolean_UInt32_UInt32 = new(this, "AddInstanceSubMeshFlagsArray", 0, typeof(UnityEngine.Renderer), typeof(UnityEngine.Experimental.Rendering.RayTracingSubMeshFlags).MakeArrayType(), typeof(System.Boolean), typeof(System.Boolean), typeof(System.UInt32), typeof(System.UInt32));
+					r_AddInstanceSubMeshFlagsArray_Renderer_RayTracingSubMeshFlagsArray_Boolean_Boolean_UInt32_UInt32.SetBelong(this.instance);
 				}
-				return r_RAddInstanceSubMeshFlagsArray_Renderer_RayTracingSubMeshFlagsArray_Boolean_Boolean_UInt32_UInt32;
+				return r_AddInstanceSubMeshFlagsArray_Renderer_RayTracingSubMeshFlagsArray_Boolean_Boolean_UInt32_UInt32;
 			}
 		}
 
 		/// <summary>
 		/// IntPtr Create_Injected(RASSettings ByRef)
 		/// </summary>
-		protected static RMethod r_RCreate_Injected_Ref_RASSettings;
+		protected static RMethod r_Create_Injected_Ref_RASSettings;
 		public static RMethod RCreate_Injected_Ref_RASSettings
 		{
 			get
 			{
-				if(r_RCreate_Injected_Ref_RASSettings == null)
+				if(r_Create_Injected_Ref_RASSettings == null)
 				{
-					r_RCreate_Injected_Ref_RASSettings = new(typeof(UnityEngine.Experimental.Rendering.RayTracingAccelerationStructure), "Create_Injected", 0,  ReleactionUtils.GetType("UnityEngine.Experimental.Rendering.RayTracingAccelerationStructure+RASSettings").MakeByRefType());
-					r_RCreate_Injected_Ref_RASSettings.SetBelong(null);
+					r_Create_Injected_Ref_RASSettings = new(typeof(UnityEngine.Experimental.Rendering.RayTracingAccelerationStructure), "Create_Injected", 0,  ReleactionUtils.GetType("UnityEngine.Experimental.Rendering.RayTracingAccelerationStructure+RASSettings").MakeByRefType());
+					r_Create_Injected_Ref_RASSettings.SetBelong(null);
 				}
-				return r_RCreate_Injected_Ref_RASSettings;
+				return r_Create_Injected_Ref_RASSettings;
 			}
 		}
 
 		/// <summary>
 		/// Void Update_Injected(UnityEngine.Vector3 ByRef)
 		/// </summary>
-		protected RMethod r_RUpdate_Injected_Ref_Vector3;
+		protected RMethod r_Update_Injected_Ref_Vector3;
 		public virtual RMethod RUpdate_Injected_Ref_Vector3
 		{
 			get
 			{
-				if(r_RUpdate_Injected_Ref_Vector3 == null)
+				if(r_Update_Injected_Ref_Vector3 == null)
 				{
-					r_RUpdate_Injected_Ref_Vector3 = new(this, "Update_Injected", 0, typeof(UnityEngine.Vector3).MakeByRefType());
-					r_RUpdate_Injected_Ref_Vector3.SetBelong(this.instance);
+					r_Update_Injected_Ref_Vector3 = new(this, "Update_Injected", 0, typeof(UnityEngine.Vector3).MakeByRefType());
+					r_Update_Injected_Ref_Vector3.SetBelong(this.instance);
 				}
-				return r_RUpdate_Injected_Ref_Vector3;
+				return r_Update_Injected_Ref_Vector3;
 			}
 		}
 
 		/// <summary>
 		/// Void Build_Injected(UnityEngine.Vector3 ByRef)
 		/// </summary>
-		protected RMethod r_RBuild_Injected_Ref_Vector3;
+		protected RMethod r_Build_Injected_Ref_Vector3;
 		public virtual RMethod RBuild_Injected_Ref_Vector3
 		{
 			get
 			{
-				if(r_RBuild_Injected_Ref_Vector3 == null)
+				if(r_Build_Injected_Ref_Vector3 == null)
 				{
-					r_RBuild_Injected_Ref_Vector3 = new(this, "Build_Injected", 0, typeof(UnityEngine.Vector3).MakeByRefType());
-					r_RBuild_Injected_Ref_Vector3.SetBelong(this.instance);
+					r_Build_Injected_Ref_Vector3 = new(this, "Build_Injected", 0, typeof(UnityEngine.Vector3).MakeByRefType());
+					r_Build_Injected_Ref_Vector3.SetBelong(this.instance);
 				}
-				return r_RBuild_Injected_Ref_Vector3;
+				return r_Build_Injected_Ref_Vector3;
 			}
 		}
 
 		/// <summary>
 		/// Void AddInstance_Procedural_Deprecated_Injected(UnityEngine.GraphicsBuffer, UInt32, UnityEngine.Material, UnityEngine.Matrix4x4 ByRef, Boolean, Boolean, Boolean, UInt32, Boolean, UInt32)
 		/// </summary>
-		protected RMethod r_RAddInstance_Procedural_Deprecated_Injected_GraphicsBuffer_UInt32_Material_Ref_Matrix4x4_Boolean_Boolean_Boolean_UInt32_Boolean_UInt32;
+		protected RMethod r_AddInstance_Procedural_Deprecated_Injected_GraphicsBuffer_UInt32_Material_Ref_Matrix4x4_Boolean_Boolean_Boolean_UInt32_Boolean_UInt32;
 		public virtual RMethod RAddInstance_Procedural_Deprecated_Injected_GraphicsBuffer_UInt32_Material_Ref_Matrix4x4_Boolean_Boolean_Boolean_UInt32_Boolean_UInt32
 		{
 			get
 			{
-				if(r_RAddInstance_Procedural_Deprecated_Injected_GraphicsBuffer_UInt32_Material_Ref_Matrix4x4_Boolean_Boolean_Boolean_UInt32_Boolean_UInt32 == null)
+				if(r_AddInstance_Procedural_Deprecated_Injected_GraphicsBuffer_UInt32_Material_Ref_Matrix4x4_Boolean_Boolean_Boolean_UInt32_Boolean_UInt32 == null)
 				{
-					r_RAddInstance_Procedural_Deprecated_Injected_GraphicsBuffer_UInt32_Material_Ref_Matrix4x4_Boolean_Boolean_Boolean_UInt32_Boolean_UInt32 = new(this, "AddInstance_Procedural_Deprecated_Injected", 0, typeof(UnityEngine.GraphicsBuffer), typeof(System.UInt32), typeof(UnityEngine.Material), typeof(UnityEngine.Matrix4x4).MakeByRefType(), typeof(System.Boolean), typeof(System.Boolean), typeof(System.Boolean), typeof(System.UInt32), typeof(System.Boolean), typeof(System.UInt32));
-					r_RAddInstance_Procedural_Deprecated_Injected_GraphicsBuffer_UInt32_Material_Ref_Matrix4x4_Boolean_Boolean_Boolean_UInt32_Boolean_UInt32.SetBelong(this.instance);
+					r_AddInstance_Procedural_Deprecated_Injected_GraphicsBuffer_UInt32_Material_Ref_Matrix4x4_Boolean_Boolean_Boolean_UInt32_Boolean_UInt32 = new(this, "AddInstance_Procedural_Deprecated_Injected", 0, typeof(UnityEngine.GraphicsBuffer), typeof(System.UInt32), typeof(UnityEngine.Material), typeof(UnityEngine.Matrix4x4).MakeByRefType(), typeof(System.Boolean), typeof(System.Boolean), typeof(System.Boolean), typeof(System.UInt32), typeof(System.Boolean), typeof(System.UInt32));
+					r_AddInstance_Procedural_Deprecated_Injected_GraphicsBuffer_UInt32_Material_Ref_Matrix4x4_Boolean_Boolean_Boolean_UInt32_Boolean_UInt32.SetBelong(this.instance);
 				}
-				return r_RAddInstance_Procedural_Deprecated_Injected_GraphicsBuffer_UInt32_Material_Ref_Matrix4x4_Boolean_Boolean_Boolean_UInt32_Boolean_UInt32;
+				return r_AddInstance_Procedural_Deprecated_Injected_GraphicsBuffer_UInt32_Material_Ref_Matrix4x4_Boolean_Boolean_Boolean_UInt32_Boolean_UInt32;
 			}
 		}
 
 		/// <summary>
 		/// Int32 AddInstance_Procedural_Injected(UnityEngine.GraphicsBuffer, UInt32, Boolean, UnityEngine.Matrix4x4 ByRef, UnityEngine.Material, Boolean, UnityEngine.MaterialPropertyBlock, UInt32, UInt32)
 		/// </summary>
-		protected RMethod r_RAddInstance_Procedural_Injected_GraphicsBuffer_UInt32_Boolean_Ref_Matrix4x4_Material_Boolean_MaterialPropertyBlock_UInt32_UInt32;
+		protected RMethod r_AddInstance_Procedural_Injected_GraphicsBuffer_UInt32_Boolean_Ref_Matrix4x4_Material_Boolean_MaterialPropertyBlock_UInt32_UInt32;
 		public virtual RMethod RAddInstance_Procedural_Injected_GraphicsBuffer_UInt32_Boolean_Ref_Matrix4x4_Material_Boolean_MaterialPropertyBlock_UInt32_UInt32
 		{
 			get
 			{
-				if(r_RAddInstance_Procedural_Injected_GraphicsBuffer_UInt32_Boolean_Ref_Matrix4x4_Material_Boolean_MaterialPropertyBlock_UInt32_UInt32 == null)
+				if(r_AddInstance_Procedural_Injected_GraphicsBuffer_UInt32_Boolean_Ref_Matrix4x4_Material_Boolean_MaterialPropertyBlock_UInt32_UInt32 == null)
 				{
-					r_RAddInstance_Procedural_Injected_GraphicsBuffer_UInt32_Boolean_Ref_Matrix4x4_Material_Boolean_MaterialPropertyBlock_UInt32_UInt32 = new(this, "AddInstance_Procedural_Injected", 0, typeof(UnityEngine.GraphicsBuffer), typeof(System.UInt32), typeof(System.Boolean), typeof(UnityEngine.Matrix4x4).MakeByRefType(), typeof(UnityEngine.Material), typeof(System.Boolean), typeof(UnityEngine.MaterialPropertyBlock), typeof(System.UInt32), typeof(System.UInt32));
-					r_RAddInstance_Procedural_Injected_GraphicsBuffer_UInt32_Boolean_Ref_Matrix4x4_Material_Boolean_MaterialPropertyBlock_UInt32_UInt32.SetBelong(this.instance);
+					r_AddInstance_Procedural_Injected_GraphicsBuffer_UInt32_Boolean_Ref_Matrix4x4_Material_Boolean_MaterialPropertyBlock_UInt32_UInt32 = new(this, "AddInstance_Procedural_Injected", 0, typeof(UnityEngine.GraphicsBuffer), typeof(System.UInt32), typeof(System.Boolean), typeof(UnityEngine.Matrix4x4).MakeByRefType(), typeof(UnityEngine.Material), typeof(System.Boolean), typeof(UnityEngine.MaterialPropertyBlock), typeof(System.UInt32), typeof(System.UInt32));
+					r_AddInstance_Procedural_Injected_GraphicsBuffer_UInt32_Boolean_Ref_Matrix4x4_Material_Boolean_MaterialPropertyBlock_UInt32_UInt32.SetBelong(this.instance);
 				}
-				return r_RAddInstance_Procedural_Injected_GraphicsBuffer_UInt32_Boolean_Ref_Matrix4x4_Material_Boolean_MaterialPropertyBlock_UInt32_UInt32;
+				return r_AddInstance_Procedural_Injected_GraphicsBuffer_UInt32_Boolean_Ref_Matrix4x4_Material_Boolean_MaterialPropertyBlock_UInt32_UInt32;
 			}
 		}
 
 		/// <summary>
 		/// Void UpdateInstanceTransform_InstanceID_Injected(Int32, UnityEngine.Matrix4x4 ByRef)
 		/// </summary>
-		protected RMethod r_RUpdateInstanceTransform_InstanceID_Injected_Int32_Ref_Matrix4x4;
+		protected RMethod r_UpdateInstanceTransform_InstanceID_Injected_Int32_Ref_Matrix4x4;
 		public virtual RMethod RUpdateInstanceTransform_InstanceID_Injected_Int32_Ref_Matrix4x4
 		{
 			get
 			{
-				if(r_RUpdateInstanceTransform_InstanceID_Injected_Int32_Ref_Matrix4x4 == null)
+				if(r_UpdateInstanceTransform_InstanceID_Injected_Int32_Ref_Matrix4x4 == null)
 				{
-					r_RUpdateInstanceTransform_InstanceID_Injected_Int32_Ref_Matrix4x4 = new(this, "UpdateInstanceTransform_InstanceID_Injected", 0, typeof(System.Int32), typeof(UnityEngine.Matrix4x4).MakeByRefType());
-					r_RUpdateInstanceTransform_InstanceID_Injected_Int32_Ref_Matrix4x4.SetBelong(this.instance);
+					r_UpdateInstanceTransform_InstanceID_Injected_Int32_Ref_Matrix4x4 = new(this, "UpdateInstanceTransform_InstanceID_Injected", 0, typeof(System.Int32), typeof(UnityEngine.Matrix4x4).MakeByRefType());
+					r_UpdateInstanceTransform_InstanceID_Injected_Int32_Ref_Matrix4x4.SetBelong(this.instance);
 				}
-				return r_RUpdateInstanceTransform_InstanceID_Injected_Int32_Ref_Matrix4x4;
+				return r_UpdateInstanceTransform_InstanceID_Injected_Int32_Ref_Matrix4x4;
 			}
 		}
 
 		/// <summary>
 		/// Void CullInstances_Injected(UnityEngine.Experimental.Rendering.RayTracingInstanceCullingConfig ByRef, UnityEngine.Experimental.Rendering.RayTracingInstanceCullingResults ByRef)
 		/// </summary>
-		protected RMethod r_RCullInstances_Injected_Ref_RayTracingInstanceCullingConfig_Out_RayTracingInstanceCullingResults;
+		protected RMethod r_CullInstances_Injected_Ref_RayTracingInstanceCullingConfig_Out_RayTracingInstanceCullingResults;
 		public virtual RMethod RCullInstances_Injected_Ref_RayTracingInstanceCullingConfig_Out_RayTracingInstanceCullingResults
 		{
 			get
 			{
-				if(r_RCullInstances_Injected_Ref_RayTracingInstanceCullingConfig_Out_RayTracingInstanceCullingResults == null)
+				if(r_CullInstances_Injected_Ref_RayTracingInstanceCullingConfig_Out_RayTracingInstanceCullingResults == null)
 				{
-					r_RCullInstances_Injected_Ref_RayTracingInstanceCullingConfig_Out_RayTracingInstanceCullingResults = new(this, "CullInstances_Injected", 0, typeof(UnityEngine.Experimental.Rendering.RayTracingInstanceCullingConfig).MakeByRefType(), typeof(UnityEngine.Experimental.Rendering.RayTracingInstanceCullingResults).MakeByRefType());
-					r_RCullInstances_Injected_Ref_RayTracingInstanceCullingConfig_Out_RayTracingInstanceCullingResults.SetBelong(this.instance);
+					r_CullInstances_Injected_Ref_RayTracingInstanceCullingConfig_Out_RayTracingInstanceCullingResults = new(this, "CullInstances_Injected", 0, typeof(UnityEngine.Experimental.Rendering.RayTracingInstanceCullingConfig).MakeByRefType(), typeof(UnityEngine.Experimental.Rendering.RayTracingInstanceCullingResults).MakeByRefType());
+					r_CullInstances_Injected_Ref_RayTracingInstanceCullingConfig_Out_RayTracingInstanceCullingResults.SetBelong(this.instance);
 				}
-				return r_RCullInstances_Injected_Ref_RayTracingInstanceCullingConfig_Out_RayTracingInstanceCullingResults;
+				return r_CullInstances_Injected_Ref_RayTracingInstanceCullingConfig_Out_RayTracingInstanceCullingResults;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Equals(System.Object)
 		/// </summary>
-		protected RMethod r_REquals_Object;
+		protected RMethod r_Equals_Object;
 		public virtual RMethod REquals_Object
 		{
 			get
 			{
-				if(r_REquals_Object == null)
+				if(r_Equals_Object == null)
 				{
-					r_REquals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_REquals_Object.SetBelong(this.instance);
+					r_Equals_Object = new(this, "Equals", 0, typeof(System.Object));
+					r_Equals_Object.SetBelong(this.instance);
 				}
-				return r_REquals_Object;
+				return r_Equals_Object;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetHashCode()
 		/// </summary>
-		protected RMethod r_RGetHashCode;
+		protected RMethod r_GetHashCode;
 		public virtual RMethod RGetHashCode
 		{
 			get
 			{
-				if(r_RGetHashCode == null)
+				if(r_GetHashCode == null)
 				{
-					r_RGetHashCode = new(this, "GetHashCode", 0);
-					r_RGetHashCode.SetBelong(this.instance);
+					r_GetHashCode = new(this, "GetHashCode", 0);
+					r_GetHashCode.SetBelong(this.instance);
 				}
-				return r_RGetHashCode;
+				return r_GetHashCode;
 			}
 		}
 
 		/// <summary>
 		/// System.Type GetType()
 		/// </summary>
-		protected RMethod r_RGetType;
+		protected RMethod r_GetType;
 		public virtual RMethod RGetType
 		{
 			get
 			{
-				if(r_RGetType == null)
+				if(r_GetType == null)
 				{
-					r_RGetType = new(this, "GetType", 0);
-					r_RGetType.SetBelong(this.instance);
+					r_GetType = new(this, "GetType", 0);
+					r_GetType.SetBelong(this.instance);
 				}
-				return r_RGetType;
+				return r_GetType;
 			}
 		}
 
 		/// <summary>
 		/// System.Object MemberwiseClone()
 		/// </summary>
-		protected RMethod r_RMemberwiseClone;
+		protected RMethod r_MemberwiseClone;
 		public virtual RMethod RMemberwiseClone
 		{
 			get
 			{
-				if(r_RMemberwiseClone == null)
+				if(r_MemberwiseClone == null)
 				{
-					r_RMemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_RMemberwiseClone.SetBelong(this.instance);
+					r_MemberwiseClone = new(this, "MemberwiseClone", 0);
+					r_MemberwiseClone.SetBelong(this.instance);
 				}
-				return r_RMemberwiseClone;
+				return r_MemberwiseClone;
 			}
 		}
 
 		/// <summary>
 		/// System.String ToString()
 		/// </summary>
-		protected RMethod r_RToString;
+		protected RMethod r_ToString;
 		public virtual RMethod RToString
 		{
 			get
 			{
-				if(r_RToString == null)
+				if(r_ToString == null)
 				{
-					r_RToString = new(this, "ToString", 0);
-					r_RToString.SetBelong(this.instance);
+					r_ToString = new(this, "ToString", 0);
+					r_ToString.SetBelong(this.instance);
 				}
-				return r_RToString;
+				return r_ToString;
 			}
 		}
 

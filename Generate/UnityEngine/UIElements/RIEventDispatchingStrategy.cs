@@ -13,34 +13,34 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Boolean CanDispatchEvent(UnityEngine.UIElements.EventBase)
 		/// </summary>
-		protected RMethod r_RCanDispatchEvent_EventBase;
+		protected RMethod r_CanDispatchEvent_EventBase;
 		public virtual RMethod RCanDispatchEvent_EventBase
 		{
 			get
 			{
-				if(r_RCanDispatchEvent_EventBase == null)
+				if(r_CanDispatchEvent_EventBase == null)
 				{
-					r_RCanDispatchEvent_EventBase = new(this, "CanDispatchEvent", 0, typeof(UnityEngine.UIElements.EventBase));
-					r_RCanDispatchEvent_EventBase.SetBelong(this.instance);
+					r_CanDispatchEvent_EventBase = new(this, "CanDispatchEvent", 0, typeof(UnityEngine.UIElements.EventBase));
+					r_CanDispatchEvent_EventBase.SetBelong(this.instance);
 				}
-				return r_RCanDispatchEvent_EventBase;
+				return r_CanDispatchEvent_EventBase;
 			}
 		}
 
 		/// <summary>
 		/// Void DispatchEvent(UnityEngine.UIElements.EventBase, UnityEngine.UIElements.IPanel)
 		/// </summary>
-		protected RMethod r_RDispatchEvent_EventBase_IPanel;
+		protected RMethod r_DispatchEvent_EventBase_IPanel;
 		public virtual RMethod RDispatchEvent_EventBase_IPanel
 		{
 			get
 			{
-				if(r_RDispatchEvent_EventBase_IPanel == null)
+				if(r_DispatchEvent_EventBase_IPanel == null)
 				{
-					r_RDispatchEvent_EventBase_IPanel = new(this, "DispatchEvent", 0, typeof(UnityEngine.UIElements.EventBase), typeof(UnityEngine.UIElements.IPanel));
-					r_RDispatchEvent_EventBase_IPanel.SetBelong(this.instance);
+					r_DispatchEvent_EventBase_IPanel = new(this, "DispatchEvent", 0, typeof(UnityEngine.UIElements.EventBase), typeof(UnityEngine.UIElements.IPanel));
+					r_DispatchEvent_EventBase_IPanel.SetBelong(this.instance);
 				}
-				return r_RDispatchEvent_EventBase_IPanel;
+				return r_DispatchEvent_EventBase_IPanel;
 			}
 		}
 

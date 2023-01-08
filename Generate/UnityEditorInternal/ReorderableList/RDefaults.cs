@@ -372,374 +372,374 @@ namespace SMFrame.Editor.Refleaction.RUnityEditorInternal
 		/// <summary>
 		/// Int32 ArrayCountInPropertyPath(UnityEditor.SerializedProperty)
 		/// </summary>
-		protected RMethod r_RArrayCountInPropertyPath_SerializedProperty;
+		protected RMethod r_ArrayCountInPropertyPath_SerializedProperty;
 		public virtual RMethod RArrayCountInPropertyPath_SerializedProperty
 		{
 			get
 			{
-				if(r_RArrayCountInPropertyPath_SerializedProperty == null)
+				if(r_ArrayCountInPropertyPath_SerializedProperty == null)
 				{
-					r_RArrayCountInPropertyPath_SerializedProperty = new(this, "ArrayCountInPropertyPath", 0, typeof(UnityEditor.SerializedProperty));
-					r_RArrayCountInPropertyPath_SerializedProperty.SetBelong(this.instance);
+					r_ArrayCountInPropertyPath_SerializedProperty = new(this, "ArrayCountInPropertyPath", 0, typeof(UnityEditor.SerializedProperty));
+					r_ArrayCountInPropertyPath_SerializedProperty.SetBelong(this.instance);
 				}
-				return r_RArrayCountInPropertyPath_SerializedProperty;
+				return r_ArrayCountInPropertyPath_SerializedProperty;
 			}
 		}
 
 		/// <summary>
 		/// Single FieldLabelSize(UnityEngine.Rect, UnityEditor.SerializedProperty)
 		/// </summary>
-		protected RMethod r_RFieldLabelSize_Rect_SerializedProperty;
+		protected RMethod r_FieldLabelSize_Rect_SerializedProperty;
 		public virtual RMethod RFieldLabelSize_Rect_SerializedProperty
 		{
 			get
 			{
-				if(r_RFieldLabelSize_Rect_SerializedProperty == null)
+				if(r_FieldLabelSize_Rect_SerializedProperty == null)
 				{
-					r_RFieldLabelSize_Rect_SerializedProperty = new(this, "FieldLabelSize", 0, typeof(UnityEngine.Rect), typeof(UnityEditor.SerializedProperty));
-					r_RFieldLabelSize_Rect_SerializedProperty.SetBelong(this.instance);
+					r_FieldLabelSize_Rect_SerializedProperty = new(this, "FieldLabelSize", 0, typeof(UnityEngine.Rect), typeof(UnityEditor.SerializedProperty));
+					r_FieldLabelSize_Rect_SerializedProperty.SetBelong(this.instance);
 				}
-				return r_RFieldLabelSize_Rect_SerializedProperty;
+				return r_FieldLabelSize_Rect_SerializedProperty;
 			}
 		}
 
 		/// <summary>
 		/// Single ElementPadding(Single)
 		/// </summary>
-		protected static RMethod r_RElementPadding_Single;
+		protected static RMethod r_ElementPadding_Single;
 		public static RMethod RElementPadding_Single
 		{
 			get
 			{
-				if(r_RElementPadding_Single == null)
+				if(r_ElementPadding_Single == null)
 				{
-					r_RElementPadding_Single = new( ReleactionUtils.GetType("UnityEditorInternal.ReorderableList+Defaults"), "ElementPadding", 0, typeof(System.Single));
-					r_RElementPadding_Single.SetBelong(null);
+					r_ElementPadding_Single = new( ReleactionUtils.GetType("UnityEditorInternal.ReorderableList+Defaults"), "ElementPadding", 0, typeof(System.Single));
+					r_ElementPadding_Single.SetBelong(null);
 				}
-				return r_RElementPadding_Single;
+				return r_ElementPadding_Single;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.GUIContent OverMaxMultiEditLimit(Int32)
 		/// </summary>
-		protected static RMethod r_ROverMaxMultiEditLimit_Int32;
+		protected static RMethod r_OverMaxMultiEditLimit_Int32;
 		public static RMethod ROverMaxMultiEditLimit_Int32
 		{
 			get
 			{
-				if(r_ROverMaxMultiEditLimit_Int32 == null)
+				if(r_OverMaxMultiEditLimit_Int32 == null)
 				{
-					r_ROverMaxMultiEditLimit_Int32 = new( ReleactionUtils.GetType("UnityEditorInternal.ReorderableList+Defaults"), "OverMaxMultiEditLimit", 0, typeof(System.Int32));
-					r_ROverMaxMultiEditLimit_Int32.SetBelong(null);
+					r_OverMaxMultiEditLimit_Int32 = new( ReleactionUtils.GetType("UnityEditorInternal.ReorderableList+Defaults"), "OverMaxMultiEditLimit", 0, typeof(System.Int32));
+					r_OverMaxMultiEditLimit_Int32.SetBelong(null);
 				}
-				return r_ROverMaxMultiEditLimit_Int32;
+				return r_OverMaxMultiEditLimit_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Void DrawFooter(UnityEngine.Rect, UnityEditorInternal.ReorderableList)
 		/// </summary>
-		protected RMethod r_RDrawFooter_Rect_ReorderableList;
+		protected RMethod r_DrawFooter_Rect_ReorderableList;
 		public virtual RMethod RDrawFooter_Rect_ReorderableList
 		{
 			get
 			{
-				if(r_RDrawFooter_Rect_ReorderableList == null)
+				if(r_DrawFooter_Rect_ReorderableList == null)
 				{
-					r_RDrawFooter_Rect_ReorderableList = new(this, "DrawFooter", 0, typeof(UnityEngine.Rect), typeof(UnityEditorInternal.ReorderableList));
-					r_RDrawFooter_Rect_ReorderableList.SetBelong(this.instance);
+					r_DrawFooter_Rect_ReorderableList = new(this, "DrawFooter", 0, typeof(UnityEngine.Rect), typeof(UnityEditorInternal.ReorderableList));
+					r_DrawFooter_Rect_ReorderableList.SetBelong(this.instance);
 				}
-				return r_RDrawFooter_Rect_ReorderableList;
+				return r_DrawFooter_Rect_ReorderableList;
 			}
 		}
 
 		/// <summary>
 		/// Void DoAddButton(UnityEditorInternal.ReorderableList, UnityEngine.Object)
 		/// </summary>
-		protected RMethod r_RDoAddButton_ReorderableList_Object;
+		protected RMethod r_DoAddButton_ReorderableList_Object;
 		public virtual RMethod RDoAddButton_ReorderableList_Object
 		{
 			get
 			{
-				if(r_RDoAddButton_ReorderableList_Object == null)
+				if(r_DoAddButton_ReorderableList_Object == null)
 				{
-					r_RDoAddButton_ReorderableList_Object = new(this, "DoAddButton", 0, typeof(UnityEditorInternal.ReorderableList), typeof(UnityEngine.Object));
-					r_RDoAddButton_ReorderableList_Object.SetBelong(this.instance);
+					r_DoAddButton_ReorderableList_Object = new(this, "DoAddButton", 0, typeof(UnityEditorInternal.ReorderableList), typeof(UnityEngine.Object));
+					r_DoAddButton_ReorderableList_Object.SetBelong(this.instance);
 				}
-				return r_RDoAddButton_ReorderableList_Object;
+				return r_DoAddButton_ReorderableList_Object;
 			}
 		}
 
 		/// <summary>
 		/// Void DoAddButton(UnityEditorInternal.ReorderableList)
 		/// </summary>
-		protected RMethod r_RDoAddButton_ReorderableList;
+		protected RMethod r_DoAddButton_ReorderableList;
 		public virtual RMethod RDoAddButton_ReorderableList
 		{
 			get
 			{
-				if(r_RDoAddButton_ReorderableList == null)
+				if(r_DoAddButton_ReorderableList == null)
 				{
-					r_RDoAddButton_ReorderableList = new(this, "DoAddButton", 0, typeof(UnityEditorInternal.ReorderableList));
-					r_RDoAddButton_ReorderableList.SetBelong(this.instance);
+					r_DoAddButton_ReorderableList = new(this, "DoAddButton", 0, typeof(UnityEditorInternal.ReorderableList));
+					r_DoAddButton_ReorderableList.SetBelong(this.instance);
 				}
-				return r_RDoAddButton_ReorderableList;
+				return r_DoAddButton_ReorderableList;
 			}
 		}
 
 		/// <summary>
 		/// Void DoRemoveButton(UnityEditorInternal.ReorderableList)
 		/// </summary>
-		protected RMethod r_RDoRemoveButton_ReorderableList;
+		protected RMethod r_DoRemoveButton_ReorderableList;
 		public virtual RMethod RDoRemoveButton_ReorderableList
 		{
 			get
 			{
-				if(r_RDoRemoveButton_ReorderableList == null)
+				if(r_DoRemoveButton_ReorderableList == null)
 				{
-					r_RDoRemoveButton_ReorderableList = new(this, "DoRemoveButton", 0, typeof(UnityEditorInternal.ReorderableList));
-					r_RDoRemoveButton_ReorderableList.SetBelong(this.instance);
+					r_DoRemoveButton_ReorderableList = new(this, "DoRemoveButton", 0, typeof(UnityEditorInternal.ReorderableList));
+					r_DoRemoveButton_ReorderableList.SetBelong(this.instance);
 				}
-				return r_RDoRemoveButton_ReorderableList;
+				return r_DoRemoveButton_ReorderableList;
 			}
 		}
 
 		/// <summary>
 		/// Void DrawHeaderBackground(UnityEngine.Rect)
 		/// </summary>
-		protected RMethod r_RDrawHeaderBackground_Rect;
+		protected RMethod r_DrawHeaderBackground_Rect;
 		public virtual RMethod RDrawHeaderBackground_Rect
 		{
 			get
 			{
-				if(r_RDrawHeaderBackground_Rect == null)
+				if(r_DrawHeaderBackground_Rect == null)
 				{
-					r_RDrawHeaderBackground_Rect = new(this, "DrawHeaderBackground", 0, typeof(UnityEngine.Rect));
-					r_RDrawHeaderBackground_Rect.SetBelong(this.instance);
+					r_DrawHeaderBackground_Rect = new(this, "DrawHeaderBackground", 0, typeof(UnityEngine.Rect));
+					r_DrawHeaderBackground_Rect.SetBelong(this.instance);
 				}
-				return r_RDrawHeaderBackground_Rect;
+				return r_DrawHeaderBackground_Rect;
 			}
 		}
 
 		/// <summary>
 		/// Void DrawHeader(UnityEngine.Rect, UnityEditor.SerializedObject, UnityEditor.SerializedProperty, System.Collections.IList)
 		/// </summary>
-		protected RMethod r_RDrawHeader_Rect_SerializedObject_SerializedProperty_IList;
+		protected RMethod r_DrawHeader_Rect_SerializedObject_SerializedProperty_IList;
 		public virtual RMethod RDrawHeader_Rect_SerializedObject_SerializedProperty_IList
 		{
 			get
 			{
-				if(r_RDrawHeader_Rect_SerializedObject_SerializedProperty_IList == null)
+				if(r_DrawHeader_Rect_SerializedObject_SerializedProperty_IList == null)
 				{
-					r_RDrawHeader_Rect_SerializedObject_SerializedProperty_IList = new(this, "DrawHeader", 0, typeof(UnityEngine.Rect), typeof(UnityEditor.SerializedObject), typeof(UnityEditor.SerializedProperty), typeof(System.Collections.IList));
-					r_RDrawHeader_Rect_SerializedObject_SerializedProperty_IList.SetBelong(this.instance);
+					r_DrawHeader_Rect_SerializedObject_SerializedProperty_IList = new(this, "DrawHeader", 0, typeof(UnityEngine.Rect), typeof(UnityEditor.SerializedObject), typeof(UnityEditor.SerializedProperty), typeof(System.Collections.IList));
+					r_DrawHeader_Rect_SerializedObject_SerializedProperty_IList.SetBelong(this.instance);
 				}
-				return r_RDrawHeader_Rect_SerializedObject_SerializedProperty_IList;
+				return r_DrawHeader_Rect_SerializedObject_SerializedProperty_IList;
 			}
 		}
 
 		/// <summary>
 		/// Void DrawElementBackground(UnityEngine.Rect, Int32, Boolean, Boolean, Boolean)
 		/// </summary>
-		protected RMethod r_RDrawElementBackground_Rect_Int32_Boolean_Boolean_Boolean;
+		protected RMethod r_DrawElementBackground_Rect_Int32_Boolean_Boolean_Boolean;
 		public virtual RMethod RDrawElementBackground_Rect_Int32_Boolean_Boolean_Boolean
 		{
 			get
 			{
-				if(r_RDrawElementBackground_Rect_Int32_Boolean_Boolean_Boolean == null)
+				if(r_DrawElementBackground_Rect_Int32_Boolean_Boolean_Boolean == null)
 				{
-					r_RDrawElementBackground_Rect_Int32_Boolean_Boolean_Boolean = new(this, "DrawElementBackground", 0, typeof(UnityEngine.Rect), typeof(System.Int32), typeof(System.Boolean), typeof(System.Boolean), typeof(System.Boolean));
-					r_RDrawElementBackground_Rect_Int32_Boolean_Boolean_Boolean.SetBelong(this.instance);
+					r_DrawElementBackground_Rect_Int32_Boolean_Boolean_Boolean = new(this, "DrawElementBackground", 0, typeof(UnityEngine.Rect), typeof(System.Int32), typeof(System.Boolean), typeof(System.Boolean), typeof(System.Boolean));
+					r_DrawElementBackground_Rect_Int32_Boolean_Boolean_Boolean.SetBelong(this.instance);
 				}
-				return r_RDrawElementBackground_Rect_Int32_Boolean_Boolean_Boolean;
+				return r_DrawElementBackground_Rect_Int32_Boolean_Boolean_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Void DrawElementDraggingHandle(UnityEngine.Rect, Int32, Boolean, Boolean, Boolean)
 		/// </summary>
-		protected RMethod r_RDrawElementDraggingHandle_Rect_Int32_Boolean_Boolean_Boolean;
+		protected RMethod r_DrawElementDraggingHandle_Rect_Int32_Boolean_Boolean_Boolean;
 		public virtual RMethod RDrawElementDraggingHandle_Rect_Int32_Boolean_Boolean_Boolean
 		{
 			get
 			{
-				if(r_RDrawElementDraggingHandle_Rect_Int32_Boolean_Boolean_Boolean == null)
+				if(r_DrawElementDraggingHandle_Rect_Int32_Boolean_Boolean_Boolean == null)
 				{
-					r_RDrawElementDraggingHandle_Rect_Int32_Boolean_Boolean_Boolean = new(this, "DrawElementDraggingHandle", 0, typeof(UnityEngine.Rect), typeof(System.Int32), typeof(System.Boolean), typeof(System.Boolean), typeof(System.Boolean));
-					r_RDrawElementDraggingHandle_Rect_Int32_Boolean_Boolean_Boolean.SetBelong(this.instance);
+					r_DrawElementDraggingHandle_Rect_Int32_Boolean_Boolean_Boolean = new(this, "DrawElementDraggingHandle", 0, typeof(UnityEngine.Rect), typeof(System.Int32), typeof(System.Boolean), typeof(System.Boolean), typeof(System.Boolean));
+					r_DrawElementDraggingHandle_Rect_Int32_Boolean_Boolean_Boolean.SetBelong(this.instance);
 				}
-				return r_RDrawElementDraggingHandle_Rect_Int32_Boolean_Boolean_Boolean;
+				return r_DrawElementDraggingHandle_Rect_Int32_Boolean_Boolean_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Void DrawElement(UnityEngine.Rect, UnityEditor.SerializedProperty, System.Object, Boolean, Boolean, Boolean)
 		/// </summary>
-		protected RMethod r_RDrawElement_Rect_SerializedProperty_Object_Boolean_Boolean_Boolean;
+		protected RMethod r_DrawElement_Rect_SerializedProperty_Object_Boolean_Boolean_Boolean;
 		public virtual RMethod RDrawElement_Rect_SerializedProperty_Object_Boolean_Boolean_Boolean
 		{
 			get
 			{
-				if(r_RDrawElement_Rect_SerializedProperty_Object_Boolean_Boolean_Boolean == null)
+				if(r_DrawElement_Rect_SerializedProperty_Object_Boolean_Boolean_Boolean == null)
 				{
-					r_RDrawElement_Rect_SerializedProperty_Object_Boolean_Boolean_Boolean = new(this, "DrawElement", 0, typeof(UnityEngine.Rect), typeof(UnityEditor.SerializedProperty), typeof(System.Object), typeof(System.Boolean), typeof(System.Boolean), typeof(System.Boolean));
-					r_RDrawElement_Rect_SerializedProperty_Object_Boolean_Boolean_Boolean.SetBelong(this.instance);
+					r_DrawElement_Rect_SerializedProperty_Object_Boolean_Boolean_Boolean = new(this, "DrawElement", 0, typeof(UnityEngine.Rect), typeof(UnityEditor.SerializedProperty), typeof(System.Object), typeof(System.Boolean), typeof(System.Boolean), typeof(System.Boolean));
+					r_DrawElement_Rect_SerializedProperty_Object_Boolean_Boolean_Boolean.SetBelong(this.instance);
 				}
-				return r_RDrawElement_Rect_SerializedProperty_Object_Boolean_Boolean_Boolean;
+				return r_DrawElement_Rect_SerializedProperty_Object_Boolean_Boolean_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Void DrawElement(UnityEngine.Rect, UnityEditor.SerializedProperty, System.Object, Boolean, Boolean, Boolean, Boolean)
 		/// </summary>
-		protected RMethod r_RDrawElement_Rect_SerializedProperty_Object_Boolean_Boolean_Boolean_Boolean;
+		protected RMethod r_DrawElement_Rect_SerializedProperty_Object_Boolean_Boolean_Boolean_Boolean;
 		public virtual RMethod RDrawElement_Rect_SerializedProperty_Object_Boolean_Boolean_Boolean_Boolean
 		{
 			get
 			{
-				if(r_RDrawElement_Rect_SerializedProperty_Object_Boolean_Boolean_Boolean_Boolean == null)
+				if(r_DrawElement_Rect_SerializedProperty_Object_Boolean_Boolean_Boolean_Boolean == null)
 				{
-					r_RDrawElement_Rect_SerializedProperty_Object_Boolean_Boolean_Boolean_Boolean = new(this, "DrawElement", 0, typeof(UnityEngine.Rect), typeof(UnityEditor.SerializedProperty), typeof(System.Object), typeof(System.Boolean), typeof(System.Boolean), typeof(System.Boolean), typeof(System.Boolean));
-					r_RDrawElement_Rect_SerializedProperty_Object_Boolean_Boolean_Boolean_Boolean.SetBelong(this.instance);
+					r_DrawElement_Rect_SerializedProperty_Object_Boolean_Boolean_Boolean_Boolean = new(this, "DrawElement", 0, typeof(UnityEngine.Rect), typeof(UnityEditor.SerializedProperty), typeof(System.Object), typeof(System.Boolean), typeof(System.Boolean), typeof(System.Boolean), typeof(System.Boolean));
+					r_DrawElement_Rect_SerializedProperty_Object_Boolean_Boolean_Boolean_Boolean.SetBelong(this.instance);
 				}
-				return r_RDrawElement_Rect_SerializedProperty_Object_Boolean_Boolean_Boolean_Boolean;
+				return r_DrawElement_Rect_SerializedProperty_Object_Boolean_Boolean_Boolean_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Void DrawNoneElement(UnityEngine.Rect, Boolean)
 		/// </summary>
-		protected RMethod r_RDrawNoneElement_Rect_Boolean;
+		protected RMethod r_DrawNoneElement_Rect_Boolean;
 		public virtual RMethod RDrawNoneElement_Rect_Boolean
 		{
 			get
 			{
-				if(r_RDrawNoneElement_Rect_Boolean == null)
+				if(r_DrawNoneElement_Rect_Boolean == null)
 				{
-					r_RDrawNoneElement_Rect_Boolean = new(this, "DrawNoneElement", 0, typeof(UnityEngine.Rect), typeof(System.Boolean));
-					r_RDrawNoneElement_Rect_Boolean.SetBelong(this.instance);
+					r_DrawNoneElement_Rect_Boolean = new(this, "DrawNoneElement", 0, typeof(UnityEngine.Rect), typeof(System.Boolean));
+					r_DrawNoneElement_Rect_Boolean.SetBelong(this.instance);
 				}
-				return r_RDrawNoneElement_Rect_Boolean;
+				return r_DrawNoneElement_Rect_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Void DrawOverMaxMultiEditElement(UnityEngine.Rect, Int32, Boolean)
 		/// </summary>
-		protected RMethod r_RDrawOverMaxMultiEditElement_Rect_Int32_Boolean;
+		protected RMethod r_DrawOverMaxMultiEditElement_Rect_Int32_Boolean;
 		public virtual RMethod RDrawOverMaxMultiEditElement_Rect_Int32_Boolean
 		{
 			get
 			{
-				if(r_RDrawOverMaxMultiEditElement_Rect_Int32_Boolean == null)
+				if(r_DrawOverMaxMultiEditElement_Rect_Int32_Boolean == null)
 				{
-					r_RDrawOverMaxMultiEditElement_Rect_Int32_Boolean = new(this, "DrawOverMaxMultiEditElement", 0, typeof(UnityEngine.Rect), typeof(System.Int32), typeof(System.Boolean));
-					r_RDrawOverMaxMultiEditElement_Rect_Int32_Boolean.SetBelong(this.instance);
+					r_DrawOverMaxMultiEditElement_Rect_Int32_Boolean = new(this, "DrawOverMaxMultiEditElement", 0, typeof(UnityEngine.Rect), typeof(System.Int32), typeof(System.Boolean));
+					r_DrawOverMaxMultiEditElement_Rect_Int32_Boolean.SetBelong(this.instance);
 				}
-				return r_RDrawOverMaxMultiEditElement_Rect_Int32_Boolean;
+				return r_DrawOverMaxMultiEditElement_Rect_Int32_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Equals(System.Object)
 		/// </summary>
-		protected RMethod r_REquals_Object;
+		protected RMethod r_Equals_Object;
 		public virtual RMethod REquals_Object
 		{
 			get
 			{
-				if(r_REquals_Object == null)
+				if(r_Equals_Object == null)
 				{
-					r_REquals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_REquals_Object.SetBelong(this.instance);
+					r_Equals_Object = new(this, "Equals", 0, typeof(System.Object));
+					r_Equals_Object.SetBelong(this.instance);
 				}
-				return r_REquals_Object;
+				return r_Equals_Object;
 			}
 		}
 
 		/// <summary>
 		/// Void Finalize()
 		/// </summary>
-		protected RMethod r_RFinalize;
+		protected RMethod r_Finalize;
 		public virtual RMethod RFinalize
 		{
 			get
 			{
-				if(r_RFinalize == null)
+				if(r_Finalize == null)
 				{
-					r_RFinalize = new(this, "Finalize", 0);
-					r_RFinalize.SetBelong(this.instance);
+					r_Finalize = new(this, "Finalize", 0);
+					r_Finalize.SetBelong(this.instance);
 				}
-				return r_RFinalize;
+				return r_Finalize;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetHashCode()
 		/// </summary>
-		protected RMethod r_RGetHashCode;
+		protected RMethod r_GetHashCode;
 		public virtual RMethod RGetHashCode
 		{
 			get
 			{
-				if(r_RGetHashCode == null)
+				if(r_GetHashCode == null)
 				{
-					r_RGetHashCode = new(this, "GetHashCode", 0);
-					r_RGetHashCode.SetBelong(this.instance);
+					r_GetHashCode = new(this, "GetHashCode", 0);
+					r_GetHashCode.SetBelong(this.instance);
 				}
-				return r_RGetHashCode;
+				return r_GetHashCode;
 			}
 		}
 
 		/// <summary>
 		/// System.Type GetType()
 		/// </summary>
-		protected RMethod r_RGetType;
+		protected RMethod r_GetType;
 		public virtual RMethod RGetType
 		{
 			get
 			{
-				if(r_RGetType == null)
+				if(r_GetType == null)
 				{
-					r_RGetType = new(this, "GetType", 0);
-					r_RGetType.SetBelong(this.instance);
+					r_GetType = new(this, "GetType", 0);
+					r_GetType.SetBelong(this.instance);
 				}
-				return r_RGetType;
+				return r_GetType;
 			}
 		}
 
 		/// <summary>
 		/// System.Object MemberwiseClone()
 		/// </summary>
-		protected RMethod r_RMemberwiseClone;
+		protected RMethod r_MemberwiseClone;
 		public virtual RMethod RMemberwiseClone
 		{
 			get
 			{
-				if(r_RMemberwiseClone == null)
+				if(r_MemberwiseClone == null)
 				{
-					r_RMemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_RMemberwiseClone.SetBelong(this.instance);
+					r_MemberwiseClone = new(this, "MemberwiseClone", 0);
+					r_MemberwiseClone.SetBelong(this.instance);
 				}
-				return r_RMemberwiseClone;
+				return r_MemberwiseClone;
 			}
 		}
 
 		/// <summary>
 		/// System.String ToString()
 		/// </summary>
-		protected RMethod r_RToString;
+		protected RMethod r_ToString;
 		public virtual RMethod RToString
 		{
 			get
 			{
-				if(r_RToString == null)
+				if(r_ToString == null)
 				{
-					r_RToString = new(this, "ToString", 0);
-					r_RToString.SetBelong(this.instance);
+					r_ToString = new(this, "ToString", 0);
+					r_ToString.SetBelong(this.instance);
 				}
-				return r_RToString;
+				return r_ToString;
 			}
 		}
 

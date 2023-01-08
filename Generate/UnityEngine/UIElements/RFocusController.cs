@@ -13,17 +13,17 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.IFocusRing <focusRing>k__BackingField
 		/// </summary>
-		protected RUnityEngine.RUIElements.RIFocusRing r___1__focusRing__2__k__BackingField;
-		public virtual RUnityEngine.RUIElements.RIFocusRing R__1__focusRing__2__k__BackingField
+		protected RUnityEngine.RUIElements.RIFocusRing r___0__focusRing__1__k__BackingField;
+		public virtual RUnityEngine.RUIElements.RIFocusRing R__0__focusRing__1__k__BackingField
 		{
 			get
 			{
-				if(r___1__focusRing__2__k__BackingField == null)
+				if(r___0__focusRing__1__k__BackingField == null)
 				{
-					r___1__focusRing__2__k__BackingField = new(this, "<focusRing>k__BackingField");
-					r___1__focusRing__2__k__BackingField.SetBelong(this.instance);
+					r___0__focusRing__1__k__BackingField = new(this, "<focusRing>k__BackingField");
+					r___0__focusRing__1__k__BackingField.SetBelong(this.instance);
 				}
-				return r___1__focusRing__2__k__BackingField;
+				return r___0__focusRing__1__k__BackingField;
 			}
 		}
 
@@ -115,17 +115,17 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int32 <imguiKeyboardControl>k__BackingField
 		/// </summary>
-		protected RField r___1__imguiKeyboardControl__2__k__BackingField;
-		public virtual RField R__1__imguiKeyboardControl__2__k__BackingField
+		protected RField r___0__imguiKeyboardControl__1__k__BackingField;
+		public virtual RField R__0__imguiKeyboardControl__1__k__BackingField
 		{
 			get
 			{
-				if(r___1__imguiKeyboardControl__2__k__BackingField == null)
+				if(r___0__imguiKeyboardControl__1__k__BackingField == null)
 				{
-					r___1__imguiKeyboardControl__2__k__BackingField = new(this, "<imguiKeyboardControl>k__BackingField");
-					r___1__imguiKeyboardControl__2__k__BackingField.SetBelong(this.instance);
+					r___0__imguiKeyboardControl__1__k__BackingField = new(this, "<imguiKeyboardControl>k__BackingField");
+					r___0__imguiKeyboardControl__1__k__BackingField.SetBelong(this.instance);
 				}
-				return r___1__imguiKeyboardControl__2__k__BackingField;
+				return r___0__imguiKeyboardControl__1__k__BackingField;
 			}
 		}
 
@@ -200,493 +200,493 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Boolean IsFocused(UnityEngine.UIElements.Focusable)
 		/// </summary>
-		protected RMethod r_RIsFocused_Focusable;
+		protected RMethod r_IsFocused_Focusable;
 		public virtual RMethod RIsFocused_Focusable
 		{
 			get
 			{
-				if(r_RIsFocused_Focusable == null)
+				if(r_IsFocused_Focusable == null)
 				{
-					r_RIsFocused_Focusable = new(this, "IsFocused", 0, typeof(UnityEngine.UIElements.Focusable));
-					r_RIsFocused_Focusable.SetBelong(this.instance);
+					r_IsFocused_Focusable = new(this, "IsFocused", 0, typeof(UnityEngine.UIElements.Focusable));
+					r_IsFocused_Focusable.SetBelong(this.instance);
 				}
-				return r_RIsFocused_Focusable;
+				return r_IsFocused_Focusable;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.Focusable GetRetargetedFocusedElement(UnityEngine.UIElements.VisualElement)
 		/// </summary>
-		protected RMethod r_RGetRetargetedFocusedElement_VisualElement;
+		protected RMethod r_GetRetargetedFocusedElement_VisualElement;
 		public virtual RMethod RGetRetargetedFocusedElement_VisualElement
 		{
 			get
 			{
-				if(r_RGetRetargetedFocusedElement_VisualElement == null)
+				if(r_GetRetargetedFocusedElement_VisualElement == null)
 				{
-					r_RGetRetargetedFocusedElement_VisualElement = new(this, "GetRetargetedFocusedElement", 0, typeof(UnityEngine.UIElements.VisualElement));
-					r_RGetRetargetedFocusedElement_VisualElement.SetBelong(this.instance);
+					r_GetRetargetedFocusedElement_VisualElement = new(this, "GetRetargetedFocusedElement", 0, typeof(UnityEngine.UIElements.VisualElement));
+					r_GetRetargetedFocusedElement_VisualElement.SetBelong(this.instance);
 				}
-				return r_RGetRetargetedFocusedElement_VisualElement;
+				return r_GetRetargetedFocusedElement_VisualElement;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.Focusable GetLeafFocusedElement()
 		/// </summary>
-		protected RMethod r_RGetLeafFocusedElement;
+		protected RMethod r_GetLeafFocusedElement;
 		public virtual RMethod RGetLeafFocusedElement
 		{
 			get
 			{
-				if(r_RGetLeafFocusedElement == null)
+				if(r_GetLeafFocusedElement == null)
 				{
-					r_RGetLeafFocusedElement = new(this, "GetLeafFocusedElement", 0);
-					r_RGetLeafFocusedElement.SetBelong(this.instance);
+					r_GetLeafFocusedElement = new(this, "GetLeafFocusedElement", 0);
+					r_GetLeafFocusedElement.SetBelong(this.instance);
 				}
-				return r_RGetLeafFocusedElement;
+				return r_GetLeafFocusedElement;
 			}
 		}
 
 		/// <summary>
 		/// Boolean IsLocalElement(UnityEngine.UIElements.Focusable)
 		/// </summary>
-		protected RMethod r_RIsLocalElement_Focusable;
+		protected RMethod r_IsLocalElement_Focusable;
 		public virtual RMethod RIsLocalElement_Focusable
 		{
 			get
 			{
-				if(r_RIsLocalElement_Focusable == null)
+				if(r_IsLocalElement_Focusable == null)
 				{
-					r_RIsLocalElement_Focusable = new(this, "IsLocalElement", 0, typeof(UnityEngine.UIElements.Focusable));
-					r_RIsLocalElement_Focusable.SetBelong(this.instance);
+					r_IsLocalElement_Focusable = new(this, "IsLocalElement", 0, typeof(UnityEngine.UIElements.Focusable));
+					r_IsLocalElement_Focusable.SetBelong(this.instance);
 				}
-				return r_RIsLocalElement_Focusable;
+				return r_IsLocalElement_Focusable;
 			}
 		}
 
 		/// <summary>
 		/// Void ValidateInternalState(UnityEngine.UIElements.IPanel)
 		/// </summary>
-		protected RMethod r_RValidateInternalState_IPanel;
+		protected RMethod r_ValidateInternalState_IPanel;
 		public virtual RMethod RValidateInternalState_IPanel
 		{
 			get
 			{
-				if(r_RValidateInternalState_IPanel == null)
+				if(r_ValidateInternalState_IPanel == null)
 				{
-					r_RValidateInternalState_IPanel = new(this, "ValidateInternalState", 0, typeof(UnityEngine.UIElements.IPanel));
-					r_RValidateInternalState_IPanel.SetBelong(this.instance);
+					r_ValidateInternalState_IPanel = new(this, "ValidateInternalState", 0, typeof(UnityEngine.UIElements.IPanel));
+					r_ValidateInternalState_IPanel.SetBelong(this.instance);
 				}
-				return r_RValidateInternalState_IPanel;
+				return r_ValidateInternalState_IPanel;
 			}
 		}
 
 		/// <summary>
 		/// Void ClearPendingFocusEvents()
 		/// </summary>
-		protected RMethod r_RClearPendingFocusEvents;
+		protected RMethod r_ClearPendingFocusEvents;
 		public virtual RMethod RClearPendingFocusEvents
 		{
 			get
 			{
-				if(r_RClearPendingFocusEvents == null)
+				if(r_ClearPendingFocusEvents == null)
 				{
-					r_RClearPendingFocusEvents = new(this, "ClearPendingFocusEvents", 0);
-					r_RClearPendingFocusEvents.SetBelong(this.instance);
+					r_ClearPendingFocusEvents = new(this, "ClearPendingFocusEvents", 0);
+					r_ClearPendingFocusEvents.SetBelong(this.instance);
 				}
-				return r_RClearPendingFocusEvents;
+				return r_ClearPendingFocusEvents;
 			}
 		}
 
 		/// <summary>
 		/// Boolean IsPendingFocus(UnityEngine.UIElements.Focusable)
 		/// </summary>
-		protected RMethod r_RIsPendingFocus_Focusable;
+		protected RMethod r_IsPendingFocus_Focusable;
 		public virtual RMethod RIsPendingFocus_Focusable
 		{
 			get
 			{
-				if(r_RIsPendingFocus_Focusable == null)
+				if(r_IsPendingFocus_Focusable == null)
 				{
-					r_RIsPendingFocus_Focusable = new(this, "IsPendingFocus", 0, typeof(UnityEngine.UIElements.Focusable));
-					r_RIsPendingFocus_Focusable.SetBelong(this.instance);
+					r_IsPendingFocus_Focusable = new(this, "IsPendingFocus", 0, typeof(UnityEngine.UIElements.Focusable));
+					r_IsPendingFocus_Focusable.SetBelong(this.instance);
 				}
-				return r_RIsPendingFocus_Focusable;
+				return r_IsPendingFocus_Focusable;
 			}
 		}
 
 		/// <summary>
 		/// Void SetFocusToLastFocusedElement()
 		/// </summary>
-		protected RMethod r_RSetFocusToLastFocusedElement;
+		protected RMethod r_SetFocusToLastFocusedElement;
 		public virtual RMethod RSetFocusToLastFocusedElement
 		{
 			get
 			{
-				if(r_RSetFocusToLastFocusedElement == null)
+				if(r_SetFocusToLastFocusedElement == null)
 				{
-					r_RSetFocusToLastFocusedElement = new(this, "SetFocusToLastFocusedElement", 0);
-					r_RSetFocusToLastFocusedElement.SetBelong(this.instance);
+					r_SetFocusToLastFocusedElement = new(this, "SetFocusToLastFocusedElement", 0);
+					r_SetFocusToLastFocusedElement.SetBelong(this.instance);
 				}
-				return r_RSetFocusToLastFocusedElement;
+				return r_SetFocusToLastFocusedElement;
 			}
 		}
 
 		/// <summary>
 		/// Void BlurLastFocusedElement()
 		/// </summary>
-		protected RMethod r_RBlurLastFocusedElement;
+		protected RMethod r_BlurLastFocusedElement;
 		public virtual RMethod RBlurLastFocusedElement
 		{
 			get
 			{
-				if(r_RBlurLastFocusedElement == null)
+				if(r_BlurLastFocusedElement == null)
 				{
-					r_RBlurLastFocusedElement = new(this, "BlurLastFocusedElement", 0);
-					r_RBlurLastFocusedElement.SetBelong(this.instance);
+					r_BlurLastFocusedElement = new(this, "BlurLastFocusedElement", 0);
+					r_BlurLastFocusedElement.SetBelong(this.instance);
 				}
-				return r_RBlurLastFocusedElement;
+				return r_BlurLastFocusedElement;
 			}
 		}
 
 		/// <summary>
 		/// Void DoFocusChange(UnityEngine.UIElements.Focusable)
 		/// </summary>
-		protected RMethod r_RDoFocusChange_Focusable;
+		protected RMethod r_DoFocusChange_Focusable;
 		public virtual RMethod RDoFocusChange_Focusable
 		{
 			get
 			{
-				if(r_RDoFocusChange_Focusable == null)
+				if(r_DoFocusChange_Focusable == null)
 				{
-					r_RDoFocusChange_Focusable = new(this, "DoFocusChange", 0, typeof(UnityEngine.UIElements.Focusable));
-					r_RDoFocusChange_Focusable.SetBelong(this.instance);
+					r_DoFocusChange_Focusable = new(this, "DoFocusChange", 0, typeof(UnityEngine.UIElements.Focusable));
+					r_DoFocusChange_Focusable.SetBelong(this.instance);
 				}
-				return r_RDoFocusChange_Focusable;
+				return r_DoFocusChange_Focusable;
 			}
 		}
 
 		/// <summary>
 		/// Void ProcessPendingFocusChange(UnityEngine.UIElements.Focusable)
 		/// </summary>
-		protected RMethod r_RProcessPendingFocusChange_Focusable;
+		protected RMethod r_ProcessPendingFocusChange_Focusable;
 		public virtual RMethod RProcessPendingFocusChange_Focusable
 		{
 			get
 			{
-				if(r_RProcessPendingFocusChange_Focusable == null)
+				if(r_ProcessPendingFocusChange_Focusable == null)
 				{
-					r_RProcessPendingFocusChange_Focusable = new(this, "ProcessPendingFocusChange", 0, typeof(UnityEngine.UIElements.Focusable));
-					r_RProcessPendingFocusChange_Focusable.SetBelong(this.instance);
+					r_ProcessPendingFocusChange_Focusable = new(this, "ProcessPendingFocusChange", 0, typeof(UnityEngine.UIElements.Focusable));
+					r_ProcessPendingFocusChange_Focusable.SetBelong(this.instance);
 				}
-				return r_RProcessPendingFocusChange_Focusable;
+				return r_ProcessPendingFocusChange_Focusable;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.UIElements.Focusable FocusNextInDirection(UnityEngine.UIElements.FocusChangeDirection)
 		/// </summary>
-		protected RMethod r_RFocusNextInDirection_FocusChangeDirection;
+		protected RMethod r_FocusNextInDirection_FocusChangeDirection;
 		public virtual RMethod RFocusNextInDirection_FocusChangeDirection
 		{
 			get
 			{
-				if(r_RFocusNextInDirection_FocusChangeDirection == null)
+				if(r_FocusNextInDirection_FocusChangeDirection == null)
 				{
-					r_RFocusNextInDirection_FocusChangeDirection = new(this, "FocusNextInDirection", 0, typeof(UnityEngine.UIElements.FocusChangeDirection));
-					r_RFocusNextInDirection_FocusChangeDirection.SetBelong(this.instance);
+					r_FocusNextInDirection_FocusChangeDirection = new(this, "FocusNextInDirection", 0, typeof(UnityEngine.UIElements.FocusChangeDirection));
+					r_FocusNextInDirection_FocusChangeDirection.SetBelong(this.instance);
 				}
-				return r_RFocusNextInDirection_FocusChangeDirection;
+				return r_FocusNextInDirection_FocusChangeDirection;
 			}
 		}
 
 		/// <summary>
 		/// Void AboutToReleaseFocus(UnityEngine.UIElements.Focusable, UnityEngine.UIElements.Focusable, UnityEngine.UIElements.FocusChangeDirection, UnityEngine.UIElements.DispatchMode)
 		/// </summary>
-		protected RMethod r_RAboutToReleaseFocus_Focusable_Focusable_FocusChangeDirection_DispatchMode;
+		protected RMethod r_AboutToReleaseFocus_Focusable_Focusable_FocusChangeDirection_DispatchMode;
 		public virtual RMethod RAboutToReleaseFocus_Focusable_Focusable_FocusChangeDirection_DispatchMode
 		{
 			get
 			{
-				if(r_RAboutToReleaseFocus_Focusable_Focusable_FocusChangeDirection_DispatchMode == null)
+				if(r_AboutToReleaseFocus_Focusable_Focusable_FocusChangeDirection_DispatchMode == null)
 				{
-					r_RAboutToReleaseFocus_Focusable_Focusable_FocusChangeDirection_DispatchMode = new(this, "AboutToReleaseFocus", 0, typeof(UnityEngine.UIElements.Focusable), typeof(UnityEngine.UIElements.Focusable), typeof(UnityEngine.UIElements.FocusChangeDirection),  ReleactionUtils.GetType("UnityEngine.UIElements.DispatchMode"));
-					r_RAboutToReleaseFocus_Focusable_Focusable_FocusChangeDirection_DispatchMode.SetBelong(this.instance);
+					r_AboutToReleaseFocus_Focusable_Focusable_FocusChangeDirection_DispatchMode = new(this, "AboutToReleaseFocus", 0, typeof(UnityEngine.UIElements.Focusable), typeof(UnityEngine.UIElements.Focusable), typeof(UnityEngine.UIElements.FocusChangeDirection),  ReleactionUtils.GetType("UnityEngine.UIElements.DispatchMode"));
+					r_AboutToReleaseFocus_Focusable_Focusable_FocusChangeDirection_DispatchMode.SetBelong(this.instance);
 				}
-				return r_RAboutToReleaseFocus_Focusable_Focusable_FocusChangeDirection_DispatchMode;
+				return r_AboutToReleaseFocus_Focusable_Focusable_FocusChangeDirection_DispatchMode;
 			}
 		}
 
 		/// <summary>
 		/// Void ReleaseFocus(UnityEngine.UIElements.Focusable, UnityEngine.UIElements.Focusable, UnityEngine.UIElements.FocusChangeDirection, UnityEngine.UIElements.DispatchMode)
 		/// </summary>
-		protected RMethod r_RReleaseFocus_Focusable_Focusable_FocusChangeDirection_DispatchMode;
+		protected RMethod r_ReleaseFocus_Focusable_Focusable_FocusChangeDirection_DispatchMode;
 		public virtual RMethod RReleaseFocus_Focusable_Focusable_FocusChangeDirection_DispatchMode
 		{
 			get
 			{
-				if(r_RReleaseFocus_Focusable_Focusable_FocusChangeDirection_DispatchMode == null)
+				if(r_ReleaseFocus_Focusable_Focusable_FocusChangeDirection_DispatchMode == null)
 				{
-					r_RReleaseFocus_Focusable_Focusable_FocusChangeDirection_DispatchMode = new(this, "ReleaseFocus", 0, typeof(UnityEngine.UIElements.Focusable), typeof(UnityEngine.UIElements.Focusable), typeof(UnityEngine.UIElements.FocusChangeDirection),  ReleactionUtils.GetType("UnityEngine.UIElements.DispatchMode"));
-					r_RReleaseFocus_Focusable_Focusable_FocusChangeDirection_DispatchMode.SetBelong(this.instance);
+					r_ReleaseFocus_Focusable_Focusable_FocusChangeDirection_DispatchMode = new(this, "ReleaseFocus", 0, typeof(UnityEngine.UIElements.Focusable), typeof(UnityEngine.UIElements.Focusable), typeof(UnityEngine.UIElements.FocusChangeDirection),  ReleactionUtils.GetType("UnityEngine.UIElements.DispatchMode"));
+					r_ReleaseFocus_Focusable_Focusable_FocusChangeDirection_DispatchMode.SetBelong(this.instance);
 				}
-				return r_RReleaseFocus_Focusable_Focusable_FocusChangeDirection_DispatchMode;
+				return r_ReleaseFocus_Focusable_Focusable_FocusChangeDirection_DispatchMode;
 			}
 		}
 
 		/// <summary>
 		/// Void AboutToGrabFocus(UnityEngine.UIElements.Focusable, UnityEngine.UIElements.Focusable, UnityEngine.UIElements.FocusChangeDirection, UnityEngine.UIElements.DispatchMode)
 		/// </summary>
-		protected RMethod r_RAboutToGrabFocus_Focusable_Focusable_FocusChangeDirection_DispatchMode;
+		protected RMethod r_AboutToGrabFocus_Focusable_Focusable_FocusChangeDirection_DispatchMode;
 		public virtual RMethod RAboutToGrabFocus_Focusable_Focusable_FocusChangeDirection_DispatchMode
 		{
 			get
 			{
-				if(r_RAboutToGrabFocus_Focusable_Focusable_FocusChangeDirection_DispatchMode == null)
+				if(r_AboutToGrabFocus_Focusable_Focusable_FocusChangeDirection_DispatchMode == null)
 				{
-					r_RAboutToGrabFocus_Focusable_Focusable_FocusChangeDirection_DispatchMode = new(this, "AboutToGrabFocus", 0, typeof(UnityEngine.UIElements.Focusable), typeof(UnityEngine.UIElements.Focusable), typeof(UnityEngine.UIElements.FocusChangeDirection),  ReleactionUtils.GetType("UnityEngine.UIElements.DispatchMode"));
-					r_RAboutToGrabFocus_Focusable_Focusable_FocusChangeDirection_DispatchMode.SetBelong(this.instance);
+					r_AboutToGrabFocus_Focusable_Focusable_FocusChangeDirection_DispatchMode = new(this, "AboutToGrabFocus", 0, typeof(UnityEngine.UIElements.Focusable), typeof(UnityEngine.UIElements.Focusable), typeof(UnityEngine.UIElements.FocusChangeDirection),  ReleactionUtils.GetType("UnityEngine.UIElements.DispatchMode"));
+					r_AboutToGrabFocus_Focusable_Focusable_FocusChangeDirection_DispatchMode.SetBelong(this.instance);
 				}
-				return r_RAboutToGrabFocus_Focusable_Focusable_FocusChangeDirection_DispatchMode;
+				return r_AboutToGrabFocus_Focusable_Focusable_FocusChangeDirection_DispatchMode;
 			}
 		}
 
 		/// <summary>
 		/// Void GrabFocus(UnityEngine.UIElements.Focusable, UnityEngine.UIElements.Focusable, UnityEngine.UIElements.FocusChangeDirection, Boolean, UnityEngine.UIElements.DispatchMode)
 		/// </summary>
-		protected RMethod r_RGrabFocus_Focusable_Focusable_FocusChangeDirection_Boolean_DispatchMode;
+		protected RMethod r_GrabFocus_Focusable_Focusable_FocusChangeDirection_Boolean_DispatchMode;
 		public virtual RMethod RGrabFocus_Focusable_Focusable_FocusChangeDirection_Boolean_DispatchMode
 		{
 			get
 			{
-				if(r_RGrabFocus_Focusable_Focusable_FocusChangeDirection_Boolean_DispatchMode == null)
+				if(r_GrabFocus_Focusable_Focusable_FocusChangeDirection_Boolean_DispatchMode == null)
 				{
-					r_RGrabFocus_Focusable_Focusable_FocusChangeDirection_Boolean_DispatchMode = new(this, "GrabFocus", 0, typeof(UnityEngine.UIElements.Focusable), typeof(UnityEngine.UIElements.Focusable), typeof(UnityEngine.UIElements.FocusChangeDirection), typeof(System.Boolean),  ReleactionUtils.GetType("UnityEngine.UIElements.DispatchMode"));
-					r_RGrabFocus_Focusable_Focusable_FocusChangeDirection_Boolean_DispatchMode.SetBelong(this.instance);
+					r_GrabFocus_Focusable_Focusable_FocusChangeDirection_Boolean_DispatchMode = new(this, "GrabFocus", 0, typeof(UnityEngine.UIElements.Focusable), typeof(UnityEngine.UIElements.Focusable), typeof(UnityEngine.UIElements.FocusChangeDirection), typeof(System.Boolean),  ReleactionUtils.GetType("UnityEngine.UIElements.DispatchMode"));
+					r_GrabFocus_Focusable_Focusable_FocusChangeDirection_Boolean_DispatchMode.SetBelong(this.instance);
 				}
-				return r_RGrabFocus_Focusable_Focusable_FocusChangeDirection_Boolean_DispatchMode;
+				return r_GrabFocus_Focusable_Focusable_FocusChangeDirection_Boolean_DispatchMode;
 			}
 		}
 
 		/// <summary>
 		/// Void Blur(UnityEngine.UIElements.Focusable, Boolean, UnityEngine.UIElements.DispatchMode)
 		/// </summary>
-		protected RMethod r_RBlur_Focusable_Boolean_DispatchMode;
+		protected RMethod r_Blur_Focusable_Boolean_DispatchMode;
 		public virtual RMethod RBlur_Focusable_Boolean_DispatchMode
 		{
 			get
 			{
-				if(r_RBlur_Focusable_Boolean_DispatchMode == null)
+				if(r_Blur_Focusable_Boolean_DispatchMode == null)
 				{
-					r_RBlur_Focusable_Boolean_DispatchMode = new(this, "Blur", 0, typeof(UnityEngine.UIElements.Focusable), typeof(System.Boolean),  ReleactionUtils.GetType("UnityEngine.UIElements.DispatchMode"));
-					r_RBlur_Focusable_Boolean_DispatchMode.SetBelong(this.instance);
+					r_Blur_Focusable_Boolean_DispatchMode = new(this, "Blur", 0, typeof(UnityEngine.UIElements.Focusable), typeof(System.Boolean),  ReleactionUtils.GetType("UnityEngine.UIElements.DispatchMode"));
+					r_Blur_Focusable_Boolean_DispatchMode.SetBelong(this.instance);
 				}
-				return r_RBlur_Focusable_Boolean_DispatchMode;
+				return r_Blur_Focusable_Boolean_DispatchMode;
 			}
 		}
 
 		/// <summary>
 		/// Void SwitchFocus(UnityEngine.UIElements.Focusable, Boolean, UnityEngine.UIElements.DispatchMode)
 		/// </summary>
-		protected RMethod r_RSwitchFocus_Focusable_Boolean_DispatchMode;
+		protected RMethod r_SwitchFocus_Focusable_Boolean_DispatchMode;
 		public virtual RMethod RSwitchFocus_Focusable_Boolean_DispatchMode
 		{
 			get
 			{
-				if(r_RSwitchFocus_Focusable_Boolean_DispatchMode == null)
+				if(r_SwitchFocus_Focusable_Boolean_DispatchMode == null)
 				{
-					r_RSwitchFocus_Focusable_Boolean_DispatchMode = new(this, "SwitchFocus", 0, typeof(UnityEngine.UIElements.Focusable), typeof(System.Boolean),  ReleactionUtils.GetType("UnityEngine.UIElements.DispatchMode"));
-					r_RSwitchFocus_Focusable_Boolean_DispatchMode.SetBelong(this.instance);
+					r_SwitchFocus_Focusable_Boolean_DispatchMode = new(this, "SwitchFocus", 0, typeof(UnityEngine.UIElements.Focusable), typeof(System.Boolean),  ReleactionUtils.GetType("UnityEngine.UIElements.DispatchMode"));
+					r_SwitchFocus_Focusable_Boolean_DispatchMode.SetBelong(this.instance);
 				}
-				return r_RSwitchFocus_Focusable_Boolean_DispatchMode;
+				return r_SwitchFocus_Focusable_Boolean_DispatchMode;
 			}
 		}
 
 		/// <summary>
 		/// Void SwitchFocus(UnityEngine.UIElements.Focusable, UnityEngine.UIElements.FocusChangeDirection, Boolean, UnityEngine.UIElements.DispatchMode)
 		/// </summary>
-		protected RMethod r_RSwitchFocus_Focusable_FocusChangeDirection_Boolean_DispatchMode;
+		protected RMethod r_SwitchFocus_Focusable_FocusChangeDirection_Boolean_DispatchMode;
 		public virtual RMethod RSwitchFocus_Focusable_FocusChangeDirection_Boolean_DispatchMode
 		{
 			get
 			{
-				if(r_RSwitchFocus_Focusable_FocusChangeDirection_Boolean_DispatchMode == null)
+				if(r_SwitchFocus_Focusable_FocusChangeDirection_Boolean_DispatchMode == null)
 				{
-					r_RSwitchFocus_Focusable_FocusChangeDirection_Boolean_DispatchMode = new(this, "SwitchFocus", 0, typeof(UnityEngine.UIElements.Focusable), typeof(UnityEngine.UIElements.FocusChangeDirection), typeof(System.Boolean),  ReleactionUtils.GetType("UnityEngine.UIElements.DispatchMode"));
-					r_RSwitchFocus_Focusable_FocusChangeDirection_Boolean_DispatchMode.SetBelong(this.instance);
+					r_SwitchFocus_Focusable_FocusChangeDirection_Boolean_DispatchMode = new(this, "SwitchFocus", 0, typeof(UnityEngine.UIElements.Focusable), typeof(UnityEngine.UIElements.FocusChangeDirection), typeof(System.Boolean),  ReleactionUtils.GetType("UnityEngine.UIElements.DispatchMode"));
+					r_SwitchFocus_Focusable_FocusChangeDirection_Boolean_DispatchMode.SetBelong(this.instance);
 				}
-				return r_RSwitchFocus_Focusable_FocusChangeDirection_Boolean_DispatchMode;
+				return r_SwitchFocus_Focusable_FocusChangeDirection_Boolean_DispatchMode;
 			}
 		}
 
 		/// <summary>
 		/// Void SwitchFocusOnEvent(UnityEngine.UIElements.EventBase)
 		/// </summary>
-		protected RMethod r_RSwitchFocusOnEvent_EventBase;
+		protected RMethod r_SwitchFocusOnEvent_EventBase;
 		public virtual RMethod RSwitchFocusOnEvent_EventBase
 		{
 			get
 			{
-				if(r_RSwitchFocusOnEvent_EventBase == null)
+				if(r_SwitchFocusOnEvent_EventBase == null)
 				{
-					r_RSwitchFocusOnEvent_EventBase = new(this, "SwitchFocusOnEvent", 0, typeof(UnityEngine.UIElements.EventBase));
-					r_RSwitchFocusOnEvent_EventBase.SetBelong(this.instance);
+					r_SwitchFocusOnEvent_EventBase = new(this, "SwitchFocusOnEvent", 0, typeof(UnityEngine.UIElements.EventBase));
+					r_SwitchFocusOnEvent_EventBase.SetBelong(this.instance);
 				}
-				return r_RSwitchFocusOnEvent_EventBase;
+				return r_SwitchFocusOnEvent_EventBase;
 			}
 		}
 
 		/// <summary>
 		/// Void ReevaluateFocus()
 		/// </summary>
-		protected RMethod r_RReevaluateFocus;
+		protected RMethod r_ReevaluateFocus;
 		public virtual RMethod RReevaluateFocus
 		{
 			get
 			{
-				if(r_RReevaluateFocus == null)
+				if(r_ReevaluateFocus == null)
 				{
-					r_RReevaluateFocus = new(this, "ReevaluateFocus", 0);
-					r_RReevaluateFocus.SetBelong(this.instance);
+					r_ReevaluateFocus = new(this, "ReevaluateFocus", 0);
+					r_ReevaluateFocus.SetBelong(this.instance);
 				}
-				return r_RReevaluateFocus;
+				return r_ReevaluateFocus;
 			}
 		}
 
 		/// <summary>
 		/// Boolean GetFocusableParentForPointerEvent(UnityEngine.UIElements.Focusable, UnityEngine.UIElements.Focusable ByRef)
 		/// </summary>
-		protected RMethod r_RGetFocusableParentForPointerEvent_Focusable_Out_Focusable;
+		protected RMethod r_GetFocusableParentForPointerEvent_Focusable_Out_Focusable;
 		public virtual RMethod RGetFocusableParentForPointerEvent_Focusable_Out_Focusable
 		{
 			get
 			{
-				if(r_RGetFocusableParentForPointerEvent_Focusable_Out_Focusable == null)
+				if(r_GetFocusableParentForPointerEvent_Focusable_Out_Focusable == null)
 				{
-					r_RGetFocusableParentForPointerEvent_Focusable_Out_Focusable = new(this, "GetFocusableParentForPointerEvent", 0, typeof(UnityEngine.UIElements.Focusable), typeof(UnityEngine.UIElements.Focusable).MakeByRefType());
-					r_RGetFocusableParentForPointerEvent_Focusable_Out_Focusable.SetBelong(this.instance);
+					r_GetFocusableParentForPointerEvent_Focusable_Out_Focusable = new(this, "GetFocusableParentForPointerEvent", 0, typeof(UnityEngine.UIElements.Focusable), typeof(UnityEngine.UIElements.Focusable).MakeByRefType());
+					r_GetFocusableParentForPointerEvent_Focusable_Out_Focusable.SetBelong(this.instance);
 				}
-				return r_RGetFocusableParentForPointerEvent_Focusable_Out_Focusable;
+				return r_GetFocusableParentForPointerEvent_Focusable_Out_Focusable;
 			}
 		}
 
 		/// <summary>
 		/// Void SyncIMGUIFocus(Int32, UnityEngine.UIElements.Focusable, Boolean)
 		/// </summary>
-		protected RMethod r_RSyncIMGUIFocus_Int32_Focusable_Boolean;
+		protected RMethod r_SyncIMGUIFocus_Int32_Focusable_Boolean;
 		public virtual RMethod RSyncIMGUIFocus_Int32_Focusable_Boolean
 		{
 			get
 			{
-				if(r_RSyncIMGUIFocus_Int32_Focusable_Boolean == null)
+				if(r_SyncIMGUIFocus_Int32_Focusable_Boolean == null)
 				{
-					r_RSyncIMGUIFocus_Int32_Focusable_Boolean = new(this, "SyncIMGUIFocus", 0, typeof(System.Int32), typeof(UnityEngine.UIElements.Focusable), typeof(System.Boolean));
-					r_RSyncIMGUIFocus_Int32_Focusable_Boolean.SetBelong(this.instance);
+					r_SyncIMGUIFocus_Int32_Focusable_Boolean = new(this, "SyncIMGUIFocus", 0, typeof(System.Int32), typeof(UnityEngine.UIElements.Focusable), typeof(System.Boolean));
+					r_SyncIMGUIFocus_Int32_Focusable_Boolean.SetBelong(this.instance);
 				}
-				return r_RSyncIMGUIFocus_Int32_Focusable_Boolean;
+				return r_SyncIMGUIFocus_Int32_Focusable_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Equals(System.Object)
 		/// </summary>
-		protected RMethod r_REquals_Object;
+		protected RMethod r_Equals_Object;
 		public virtual RMethod REquals_Object
 		{
 			get
 			{
-				if(r_REquals_Object == null)
+				if(r_Equals_Object == null)
 				{
-					r_REquals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_REquals_Object.SetBelong(this.instance);
+					r_Equals_Object = new(this, "Equals", 0, typeof(System.Object));
+					r_Equals_Object.SetBelong(this.instance);
 				}
-				return r_REquals_Object;
+				return r_Equals_Object;
 			}
 		}
 
 		/// <summary>
 		/// Void Finalize()
 		/// </summary>
-		protected RMethod r_RFinalize;
+		protected RMethod r_Finalize;
 		public virtual RMethod RFinalize
 		{
 			get
 			{
-				if(r_RFinalize == null)
+				if(r_Finalize == null)
 				{
-					r_RFinalize = new(this, "Finalize", 0);
-					r_RFinalize.SetBelong(this.instance);
+					r_Finalize = new(this, "Finalize", 0);
+					r_Finalize.SetBelong(this.instance);
 				}
-				return r_RFinalize;
+				return r_Finalize;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetHashCode()
 		/// </summary>
-		protected RMethod r_RGetHashCode;
+		protected RMethod r_GetHashCode;
 		public virtual RMethod RGetHashCode
 		{
 			get
 			{
-				if(r_RGetHashCode == null)
+				if(r_GetHashCode == null)
 				{
-					r_RGetHashCode = new(this, "GetHashCode", 0);
-					r_RGetHashCode.SetBelong(this.instance);
+					r_GetHashCode = new(this, "GetHashCode", 0);
+					r_GetHashCode.SetBelong(this.instance);
 				}
-				return r_RGetHashCode;
+				return r_GetHashCode;
 			}
 		}
 
 		/// <summary>
 		/// System.Type GetType()
 		/// </summary>
-		protected RMethod r_RGetType;
+		protected RMethod r_GetType;
 		public virtual RMethod RGetType
 		{
 			get
 			{
-				if(r_RGetType == null)
+				if(r_GetType == null)
 				{
-					r_RGetType = new(this, "GetType", 0);
-					r_RGetType.SetBelong(this.instance);
+					r_GetType = new(this, "GetType", 0);
+					r_GetType.SetBelong(this.instance);
 				}
-				return r_RGetType;
+				return r_GetType;
 			}
 		}
 
 		/// <summary>
 		/// System.Object MemberwiseClone()
 		/// </summary>
-		protected RMethod r_RMemberwiseClone;
+		protected RMethod r_MemberwiseClone;
 		public virtual RMethod RMemberwiseClone
 		{
 			get
 			{
-				if(r_RMemberwiseClone == null)
+				if(r_MemberwiseClone == null)
 				{
-					r_RMemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_RMemberwiseClone.SetBelong(this.instance);
+					r_MemberwiseClone = new(this, "MemberwiseClone", 0);
+					r_MemberwiseClone.SetBelong(this.instance);
 				}
-				return r_RMemberwiseClone;
+				return r_MemberwiseClone;
 			}
 		}
 
 		/// <summary>
 		/// System.String ToString()
 		/// </summary>
-		protected RMethod r_RToString;
+		protected RMethod r_ToString;
 		public virtual RMethod RToString
 		{
 			get
 			{
-				if(r_RToString == null)
+				if(r_ToString == null)
 				{
-					r_RToString = new(this, "ToString", 0);
-					r_RToString.SetBelong(this.instance);
+					r_ToString = new(this, "ToString", 0);
+					r_ToString.SetBelong(this.instance);
 				}
-				return r_RToString;
+				return r_ToString;
 			}
 		}
 

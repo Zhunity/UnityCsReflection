@@ -64,238 +64,238 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Void Add(UnityEngine.UIElements.StyleSheet)
 		/// </summary>
-		protected RMethod r_RAdd_StyleSheet;
+		protected RMethod r_Add_StyleSheet;
 		public virtual RMethod RAdd_StyleSheet
 		{
 			get
 			{
-				if(r_RAdd_StyleSheet == null)
+				if(r_Add_StyleSheet == null)
 				{
-					r_RAdd_StyleSheet = new(this, "Add", 0, typeof(UnityEngine.UIElements.StyleSheet));
-					r_RAdd_StyleSheet.SetBelong(this.instance);
+					r_Add_StyleSheet = new(this, "Add", 0, typeof(UnityEngine.UIElements.StyleSheet));
+					r_Add_StyleSheet.SetBelong(this.instance);
 				}
-				return r_RAdd_StyleSheet;
+				return r_Add_StyleSheet;
 			}
 		}
 
 		/// <summary>
 		/// Void Clear()
 		/// </summary>
-		protected RMethod r_RClear;
+		protected RMethod r_Clear;
 		public virtual RMethod RClear
 		{
 			get
 			{
-				if(r_RClear == null)
+				if(r_Clear == null)
 				{
-					r_RClear = new(this, "Clear", 0);
-					r_RClear.SetBelong(this.instance);
+					r_Clear = new(this, "Clear", 0);
+					r_Clear.SetBelong(this.instance);
 				}
-				return r_RClear;
+				return r_Clear;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Remove(UnityEngine.UIElements.StyleSheet)
 		/// </summary>
-		protected RMethod r_RRemove_StyleSheet;
+		protected RMethod r_Remove_StyleSheet;
 		public virtual RMethod RRemove_StyleSheet
 		{
 			get
 			{
-				if(r_RRemove_StyleSheet == null)
+				if(r_Remove_StyleSheet == null)
 				{
-					r_RRemove_StyleSheet = new(this, "Remove", 0, typeof(UnityEngine.UIElements.StyleSheet));
-					r_RRemove_StyleSheet.SetBelong(this.instance);
+					r_Remove_StyleSheet = new(this, "Remove", 0, typeof(UnityEngine.UIElements.StyleSheet));
+					r_Remove_StyleSheet.SetBelong(this.instance);
 				}
-				return r_RRemove_StyleSheet;
+				return r_Remove_StyleSheet;
 			}
 		}
 
 		/// <summary>
 		/// Void Swap(UnityEngine.UIElements.StyleSheet, UnityEngine.UIElements.StyleSheet)
 		/// </summary>
-		protected RMethod r_RSwap_StyleSheet_StyleSheet;
+		protected RMethod r_Swap_StyleSheet_StyleSheet;
 		public virtual RMethod RSwap_StyleSheet_StyleSheet
 		{
 			get
 			{
-				if(r_RSwap_StyleSheet_StyleSheet == null)
+				if(r_Swap_StyleSheet_StyleSheet == null)
 				{
-					r_RSwap_StyleSheet_StyleSheet = new(this, "Swap", 0, typeof(UnityEngine.UIElements.StyleSheet), typeof(UnityEngine.UIElements.StyleSheet));
-					r_RSwap_StyleSheet_StyleSheet.SetBelong(this.instance);
+					r_Swap_StyleSheet_StyleSheet = new(this, "Swap", 0, typeof(UnityEngine.UIElements.StyleSheet), typeof(UnityEngine.UIElements.StyleSheet));
+					r_Swap_StyleSheet_StyleSheet.SetBelong(this.instance);
 				}
-				return r_RSwap_StyleSheet_StyleSheet;
+				return r_Swap_StyleSheet_StyleSheet;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Contains(UnityEngine.UIElements.StyleSheet)
 		/// </summary>
-		protected RMethod r_RContains_StyleSheet;
+		protected RMethod r_Contains_StyleSheet;
 		public virtual RMethod RContains_StyleSheet
 		{
 			get
 			{
-				if(r_RContains_StyleSheet == null)
+				if(r_Contains_StyleSheet == null)
 				{
-					r_RContains_StyleSheet = new(this, "Contains", 0, typeof(UnityEngine.UIElements.StyleSheet));
-					r_RContains_StyleSheet.SetBelong(this.instance);
+					r_Contains_StyleSheet = new(this, "Contains", 0, typeof(UnityEngine.UIElements.StyleSheet));
+					r_Contains_StyleSheet.SetBelong(this.instance);
 				}
-				return r_RContains_StyleSheet;
+				return r_Contains_StyleSheet;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Equals(UnityEngine.UIElements.VisualElementStyleSheetSet)
 		/// </summary>
-		protected RMethod r_REquals_VisualElementStyleSheetSet;
+		protected RMethod r_Equals_VisualElementStyleSheetSet;
 		public virtual RMethod REquals_VisualElementStyleSheetSet
 		{
 			get
 			{
-				if(r_REquals_VisualElementStyleSheetSet == null)
+				if(r_Equals_VisualElementStyleSheetSet == null)
 				{
-					r_REquals_VisualElementStyleSheetSet = new(this, "Equals", 0, typeof(UnityEngine.UIElements.VisualElementStyleSheetSet));
-					r_REquals_VisualElementStyleSheetSet.SetBelong(this.instance);
+					r_Equals_VisualElementStyleSheetSet = new(this, "Equals", 0, typeof(UnityEngine.UIElements.VisualElementStyleSheetSet));
+					r_Equals_VisualElementStyleSheetSet.SetBelong(this.instance);
 				}
-				return r_REquals_VisualElementStyleSheetSet;
+				return r_Equals_VisualElementStyleSheetSet;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Equals(System.Object)
 		/// </summary>
-		protected RMethod r_REquals_Object;
+		protected RMethod r_Equals_Object;
 		public virtual RMethod REquals_Object
 		{
 			get
 			{
-				if(r_REquals_Object == null)
+				if(r_Equals_Object == null)
 				{
-					r_REquals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_REquals_Object.SetBelong(this.instance);
+					r_Equals_Object = new(this, "Equals", 0, typeof(System.Object));
+					r_Equals_Object.SetBelong(this.instance);
 				}
-				return r_REquals_Object;
+				return r_Equals_Object;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetHashCode()
 		/// </summary>
-		protected RMethod r_RGetHashCode;
+		protected RMethod r_GetHashCode;
 		public virtual RMethod RGetHashCode
 		{
 			get
 			{
-				if(r_RGetHashCode == null)
+				if(r_GetHashCode == null)
 				{
-					r_RGetHashCode = new(this, "GetHashCode", 0);
-					r_RGetHashCode.SetBelong(this.instance);
+					r_GetHashCode = new(this, "GetHashCode", 0);
+					r_GetHashCode.SetBelong(this.instance);
 				}
-				return r_RGetHashCode;
+				return r_GetHashCode;
 			}
 		}
 
 		/// <summary>
 		/// Boolean op_Equality(UnityEngine.UIElements.VisualElementStyleSheetSet, UnityEngine.UIElements.VisualElementStyleSheetSet)
 		/// </summary>
-		protected static RMethod r_Rop_Equality_VisualElementStyleSheetSet_VisualElementStyleSheetSet;
+		protected static RMethod r_op_Equality_VisualElementStyleSheetSet_VisualElementStyleSheetSet;
 		public static RMethod Rop_Equality_VisualElementStyleSheetSet_VisualElementStyleSheetSet
 		{
 			get
 			{
-				if(r_Rop_Equality_VisualElementStyleSheetSet_VisualElementStyleSheetSet == null)
+				if(r_op_Equality_VisualElementStyleSheetSet_VisualElementStyleSheetSet == null)
 				{
-					r_Rop_Equality_VisualElementStyleSheetSet_VisualElementStyleSheetSet = new(typeof(UnityEngine.UIElements.VisualElementStyleSheetSet), "op_Equality", 0, typeof(UnityEngine.UIElements.VisualElementStyleSheetSet), typeof(UnityEngine.UIElements.VisualElementStyleSheetSet));
-					r_Rop_Equality_VisualElementStyleSheetSet_VisualElementStyleSheetSet.SetBelong(null);
+					r_op_Equality_VisualElementStyleSheetSet_VisualElementStyleSheetSet = new(typeof(UnityEngine.UIElements.VisualElementStyleSheetSet), "op_Equality", 0, typeof(UnityEngine.UIElements.VisualElementStyleSheetSet), typeof(UnityEngine.UIElements.VisualElementStyleSheetSet));
+					r_op_Equality_VisualElementStyleSheetSet_VisualElementStyleSheetSet.SetBelong(null);
 				}
-				return r_Rop_Equality_VisualElementStyleSheetSet_VisualElementStyleSheetSet;
+				return r_op_Equality_VisualElementStyleSheetSet_VisualElementStyleSheetSet;
 			}
 		}
 
 		/// <summary>
 		/// Boolean op_Inequality(UnityEngine.UIElements.VisualElementStyleSheetSet, UnityEngine.UIElements.VisualElementStyleSheetSet)
 		/// </summary>
-		protected static RMethod r_Rop_Inequality_VisualElementStyleSheetSet_VisualElementStyleSheetSet;
+		protected static RMethod r_op_Inequality_VisualElementStyleSheetSet_VisualElementStyleSheetSet;
 		public static RMethod Rop_Inequality_VisualElementStyleSheetSet_VisualElementStyleSheetSet
 		{
 			get
 			{
-				if(r_Rop_Inequality_VisualElementStyleSheetSet_VisualElementStyleSheetSet == null)
+				if(r_op_Inequality_VisualElementStyleSheetSet_VisualElementStyleSheetSet == null)
 				{
-					r_Rop_Inequality_VisualElementStyleSheetSet_VisualElementStyleSheetSet = new(typeof(UnityEngine.UIElements.VisualElementStyleSheetSet), "op_Inequality", 0, typeof(UnityEngine.UIElements.VisualElementStyleSheetSet), typeof(UnityEngine.UIElements.VisualElementStyleSheetSet));
-					r_Rop_Inequality_VisualElementStyleSheetSet_VisualElementStyleSheetSet.SetBelong(null);
+					r_op_Inequality_VisualElementStyleSheetSet_VisualElementStyleSheetSet = new(typeof(UnityEngine.UIElements.VisualElementStyleSheetSet), "op_Inequality", 0, typeof(UnityEngine.UIElements.VisualElementStyleSheetSet), typeof(UnityEngine.UIElements.VisualElementStyleSheetSet));
+					r_op_Inequality_VisualElementStyleSheetSet_VisualElementStyleSheetSet.SetBelong(null);
 				}
-				return r_Rop_Inequality_VisualElementStyleSheetSet_VisualElementStyleSheetSet;
+				return r_op_Inequality_VisualElementStyleSheetSet_VisualElementStyleSheetSet;
 			}
 		}
 
 		/// <summary>
 		/// System.String ToString()
 		/// </summary>
-		protected RMethod r_RToString;
+		protected RMethod r_ToString;
 		public virtual RMethod RToString
 		{
 			get
 			{
-				if(r_RToString == null)
+				if(r_ToString == null)
 				{
-					r_RToString = new(this, "ToString", 0);
-					r_RToString.SetBelong(this.instance);
+					r_ToString = new(this, "ToString", 0);
+					r_ToString.SetBelong(this.instance);
 				}
-				return r_RToString;
+				return r_ToString;
 			}
 		}
 
 		/// <summary>
 		/// Void Finalize()
 		/// </summary>
-		protected RMethod r_RFinalize;
+		protected RMethod r_Finalize;
 		public virtual RMethod RFinalize
 		{
 			get
 			{
-				if(r_RFinalize == null)
+				if(r_Finalize == null)
 				{
-					r_RFinalize = new(this, "Finalize", 0);
-					r_RFinalize.SetBelong(this.instance);
+					r_Finalize = new(this, "Finalize", 0);
+					r_Finalize.SetBelong(this.instance);
 				}
-				return r_RFinalize;
+				return r_Finalize;
 			}
 		}
 
 		/// <summary>
 		/// System.Type GetType()
 		/// </summary>
-		protected RMethod r_RGetType;
+		protected RMethod r_GetType;
 		public virtual RMethod RGetType
 		{
 			get
 			{
-				if(r_RGetType == null)
+				if(r_GetType == null)
 				{
-					r_RGetType = new(this, "GetType", 0);
-					r_RGetType.SetBelong(this.instance);
+					r_GetType = new(this, "GetType", 0);
+					r_GetType.SetBelong(this.instance);
 				}
-				return r_RGetType;
+				return r_GetType;
 			}
 		}
 
 		/// <summary>
 		/// System.Object MemberwiseClone()
 		/// </summary>
-		protected RMethod r_RMemberwiseClone;
+		protected RMethod r_MemberwiseClone;
 		public virtual RMethod RMemberwiseClone
 		{
 			get
 			{
-				if(r_RMemberwiseClone == null)
+				if(r_MemberwiseClone == null)
 				{
-					r_RMemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_RMemberwiseClone.SetBelong(this.instance);
+					r_MemberwiseClone = new(this, "MemberwiseClone", 0);
+					r_MemberwiseClone.SetBelong(this.instance);
 				}
-				return r_RMemberwiseClone;
+				return r_MemberwiseClone;
 			}
 		}
 

@@ -30,136 +30,136 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Void PlayModeTintColorChanged()
 		/// </summary>
-		protected RMethod r_RPlayModeTintColorChanged;
+		protected RMethod r_PlayModeTintColorChanged;
 		public virtual RMethod RPlayModeTintColorChanged
 		{
 			get
 			{
-				if(r_RPlayModeTintColorChanged == null)
+				if(r_PlayModeTintColorChanged == null)
 				{
-					r_RPlayModeTintColorChanged = new(this, "PlayModeTintColorChanged", 0);
-					r_RPlayModeTintColorChanged.SetBelong(this.instance);
+					r_PlayModeTintColorChanged = new(this, "PlayModeTintColorChanged", 0);
+					r_PlayModeTintColorChanged.SetBelong(this.instance);
 				}
-				return r_RPlayModeTintColorChanged;
+				return r_PlayModeTintColorChanged;
 			}
 		}
 
 		/// <summary>
 		/// Void NotificationVisibilityChanged()
 		/// </summary>
-		protected RMethod r_RNotificationVisibilityChanged;
+		protected RMethod r_NotificationVisibilityChanged;
 		public virtual RMethod RNotificationVisibilityChanged
 		{
 			get
 			{
-				if(r_RNotificationVisibilityChanged == null)
+				if(r_NotificationVisibilityChanged == null)
 				{
-					r_RNotificationVisibilityChanged = new(this, "NotificationVisibilityChanged", 0);
-					r_RNotificationVisibilityChanged.SetBelong(this.instance);
+					r_NotificationVisibilityChanged = new(this, "NotificationVisibilityChanged", 0);
+					r_NotificationVisibilityChanged.SetBelong(this.instance);
 				}
-				return r_RNotificationVisibilityChanged;
+				return r_NotificationVisibilityChanged;
 			}
 		}
 
 		/// <summary>
 		/// Void Focused()
 		/// </summary>
-		protected RMethod r_RFocused;
+		protected RMethod r_Focused;
 		public virtual RMethod RFocused
 		{
 			get
 			{
-				if(r_RFocused == null)
+				if(r_Focused == null)
 				{
-					r_RFocused = new(this, "Focused", 0);
-					r_RFocused.SetBelong(this.instance);
+					r_Focused = new(this, "Focused", 0);
+					r_Focused.SetBelong(this.instance);
 				}
-				return r_RFocused;
+				return r_Focused;
 			}
 		}
 
 		/// <summary>
 		/// Void Blurred()
 		/// </summary>
-		protected RMethod r_RBlurred;
+		protected RMethod r_Blurred;
 		public virtual RMethod RBlurred
 		{
 			get
 			{
-				if(r_RBlurred == null)
+				if(r_Blurred == null)
 				{
-					r_RBlurred = new(this, "Blurred", 0);
-					r_RBlurred.SetBelong(this.instance);
+					r_Blurred = new(this, "Blurred", 0);
+					r_Blurred.SetBelong(this.instance);
 				}
-				return r_RBlurred;
+				return r_Blurred;
 			}
 		}
 
 		/// <summary>
 		/// Void OnRegisterWindow()
 		/// </summary>
-		protected RMethod r_ROnRegisterWindow;
+		protected RMethod r_OnRegisterWindow;
 		public virtual RMethod ROnRegisterWindow
 		{
 			get
 			{
-				if(r_ROnRegisterWindow == null)
+				if(r_OnRegisterWindow == null)
 				{
-					r_ROnRegisterWindow = new(this, "OnRegisterWindow", 0);
-					r_ROnRegisterWindow.SetBelong(this.instance);
+					r_OnRegisterWindow = new(this, "OnRegisterWindow", 0);
+					r_OnRegisterWindow.SetBelong(this.instance);
 				}
-				return r_ROnRegisterWindow;
+				return r_OnRegisterWindow;
 			}
 		}
 
 		/// <summary>
 		/// Void OnUnregisterWindow()
 		/// </summary>
-		protected RMethod r_ROnUnregisterWindow;
+		protected RMethod r_OnUnregisterWindow;
 		public virtual RMethod ROnUnregisterWindow
 		{
 			get
 			{
-				if(r_ROnUnregisterWindow == null)
+				if(r_OnUnregisterWindow == null)
 				{
-					r_ROnUnregisterWindow = new(this, "OnUnregisterWindow", 0);
-					r_ROnUnregisterWindow.SetBelong(this.instance);
+					r_OnUnregisterWindow = new(this, "OnUnregisterWindow", 0);
+					r_OnUnregisterWindow.SetBelong(this.instance);
 				}
-				return r_ROnUnregisterWindow;
+				return r_OnUnregisterWindow;
 			}
 		}
 
 		/// <summary>
 		/// Void OnDisplayWindowMenu(UnityEditor.GenericMenu)
 		/// </summary>
-		protected RMethod r_ROnDisplayWindowMenu_GenericMenu;
+		protected RMethod r_OnDisplayWindowMenu_GenericMenu;
 		public virtual RMethod ROnDisplayWindowMenu_GenericMenu
 		{
 			get
 			{
-				if(r_ROnDisplayWindowMenu_GenericMenu == null)
+				if(r_OnDisplayWindowMenu_GenericMenu == null)
 				{
-					r_ROnDisplayWindowMenu_GenericMenu = new(this, "OnDisplayWindowMenu", 0, typeof(UnityEditor.GenericMenu));
-					r_ROnDisplayWindowMenu_GenericMenu.SetBelong(this.instance);
+					r_OnDisplayWindowMenu_GenericMenu = new(this, "OnDisplayWindowMenu", 0, typeof(UnityEditor.GenericMenu));
+					r_OnDisplayWindowMenu_GenericMenu.SetBelong(this.instance);
 				}
-				return r_ROnDisplayWindowMenu_GenericMenu;
+				return r_OnDisplayWindowMenu_GenericMenu;
 			}
 		}
 
 		/// <summary>
 		/// Void ViewMarginsChanged()
 		/// </summary>
-		protected RMethod r_RViewMarginsChanged;
+		protected RMethod r_ViewMarginsChanged;
 		public virtual RMethod RViewMarginsChanged
 		{
 			get
 			{
-				if(r_RViewMarginsChanged == null)
+				if(r_ViewMarginsChanged == null)
 				{
-					r_RViewMarginsChanged = new(this, "ViewMarginsChanged", 0);
-					r_RViewMarginsChanged.SetBelong(this.instance);
+					r_ViewMarginsChanged = new(this, "ViewMarginsChanged", 0);
+					r_ViewMarginsChanged.SetBelong(this.instance);
 				}
-				return r_RViewMarginsChanged;
+				return r_ViewMarginsChanged;
 			}
 		}
 

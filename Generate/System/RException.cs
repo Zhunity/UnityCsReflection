@@ -439,7 +439,7 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// System.String RemoteStackTrace
 		/// </summary>
 		protected RProperty r_RemoteStackTrace;
-		public virtual RProperty RemoteStackTrace
+		public virtual RProperty RRemoteStackTrace
 		{
 			get
 			{
@@ -506,476 +506,476 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// Void Init()
 		/// </summary>
-		protected RMethod r_RInit;
+		protected RMethod r_Init;
 		public virtual RMethod RInit
 		{
 			get
 			{
-				if(r_RInit == null)
+				if(r_Init == null)
 				{
-					r_RInit = new(this, "Init", 0);
-					r_RInit.SetBelong(this.instance);
+					r_Init = new(this, "Init", 0);
+					r_Init.SetBelong(this.instance);
 				}
-				return r_RInit;
+				return r_Init;
 			}
 		}
 
 		/// <summary>
 		/// Boolean IsImmutableAgileException(System.Exception)
 		/// </summary>
-		protected static RMethod r_RIsImmutableAgileException_Exception;
+		protected static RMethod r_IsImmutableAgileException_Exception;
 		public static RMethod RIsImmutableAgileException_Exception
 		{
 			get
 			{
-				if(r_RIsImmutableAgileException_Exception == null)
+				if(r_IsImmutableAgileException_Exception == null)
 				{
-					r_RIsImmutableAgileException_Exception = new(typeof(System.Exception), "IsImmutableAgileException", 0, typeof(System.Exception));
-					r_RIsImmutableAgileException_Exception.SetBelong(null);
+					r_IsImmutableAgileException_Exception = new(typeof(System.Exception), "IsImmutableAgileException", 0, typeof(System.Exception));
+					r_IsImmutableAgileException_Exception.SetBelong(null);
 				}
-				return r_RIsImmutableAgileException_Exception;
+				return r_IsImmutableAgileException_Exception;
 			}
 		}
 
 		/// <summary>
 		/// Void AddExceptionDataForRestrictedErrorInfo(System.String, System.String, System.String, System.Object, Boolean)
 		/// </summary>
-		protected RMethod r_RAddExceptionDataForRestrictedErrorInfo_String_String_String_Object_Boolean;
+		protected RMethod r_AddExceptionDataForRestrictedErrorInfo_String_String_String_Object_Boolean;
 		public virtual RMethod RAddExceptionDataForRestrictedErrorInfo_String_String_String_Object_Boolean
 		{
 			get
 			{
-				if(r_RAddExceptionDataForRestrictedErrorInfo_String_String_String_Object_Boolean == null)
+				if(r_AddExceptionDataForRestrictedErrorInfo_String_String_String_Object_Boolean == null)
 				{
-					r_RAddExceptionDataForRestrictedErrorInfo_String_String_String_Object_Boolean = new(this, "AddExceptionDataForRestrictedErrorInfo", 0, typeof(System.String), typeof(System.String), typeof(System.String), typeof(System.Object), typeof(System.Boolean));
-					r_RAddExceptionDataForRestrictedErrorInfo_String_String_String_Object_Boolean.SetBelong(this.instance);
+					r_AddExceptionDataForRestrictedErrorInfo_String_String_String_Object_Boolean = new(this, "AddExceptionDataForRestrictedErrorInfo", 0, typeof(System.String), typeof(System.String), typeof(System.String), typeof(System.Object), typeof(System.Boolean));
+					r_AddExceptionDataForRestrictedErrorInfo_String_String_String_Object_Boolean.SetBelong(this.instance);
 				}
-				return r_RAddExceptionDataForRestrictedErrorInfo_String_String_String_Object_Boolean;
+				return r_AddExceptionDataForRestrictedErrorInfo_String_String_String_Object_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Boolean TryGetRestrictedLanguageErrorObject(System.Object ByRef)
 		/// </summary>
-		protected RMethod r_RTryGetRestrictedLanguageErrorObject_Out_Object;
+		protected RMethod r_TryGetRestrictedLanguageErrorObject_Out_Object;
 		public virtual RMethod RTryGetRestrictedLanguageErrorObject_Out_Object
 		{
 			get
 			{
-				if(r_RTryGetRestrictedLanguageErrorObject_Out_Object == null)
+				if(r_TryGetRestrictedLanguageErrorObject_Out_Object == null)
 				{
-					r_RTryGetRestrictedLanguageErrorObject_Out_Object = new(this, "TryGetRestrictedLanguageErrorObject", 0, typeof(System.Object).MakeByRefType());
-					r_RTryGetRestrictedLanguageErrorObject_Out_Object.SetBelong(this.instance);
+					r_TryGetRestrictedLanguageErrorObject_Out_Object = new(this, "TryGetRestrictedLanguageErrorObject", 0, typeof(System.Object).MakeByRefType());
+					r_TryGetRestrictedLanguageErrorObject_Out_Object.SetBelong(this.instance);
 				}
-				return r_RTryGetRestrictedLanguageErrorObject_Out_Object;
+				return r_TryGetRestrictedLanguageErrorObject_Out_Object;
 			}
 		}
 
 		/// <summary>
 		/// System.String GetClassName()
 		/// </summary>
-		protected RMethod r_RGetClassName;
+		protected RMethod r_GetClassName;
 		public virtual RMethod RGetClassName
 		{
 			get
 			{
-				if(r_RGetClassName == null)
+				if(r_GetClassName == null)
 				{
-					r_RGetClassName = new(this, "GetClassName", 0);
-					r_RGetClassName.SetBelong(this.instance);
+					r_GetClassName = new(this, "GetClassName", 0);
+					r_GetClassName.SetBelong(this.instance);
 				}
-				return r_RGetClassName;
+				return r_GetClassName;
 			}
 		}
 
 		/// <summary>
 		/// System.Exception GetBaseException()
 		/// </summary>
-		protected RMethod r_RGetBaseException;
+		protected RMethod r_GetBaseException;
 		public virtual RMethod RGetBaseException
 		{
 			get
 			{
-				if(r_RGetBaseException == null)
+				if(r_GetBaseException == null)
 				{
-					r_RGetBaseException = new(this, "GetBaseException", 0);
-					r_RGetBaseException.SetBelong(this.instance);
+					r_GetBaseException = new(this, "GetBaseException", 0);
+					r_GetBaseException.SetBelong(this.instance);
 				}
-				return r_RGetBaseException;
+				return r_GetBaseException;
 			}
 		}
 
 		/// <summary>
 		/// System.String GetStackTrace(Boolean)
 		/// </summary>
-		protected RMethod r_RGetStackTrace_Boolean;
+		protected RMethod r_GetStackTrace_Boolean;
 		public virtual RMethod RGetStackTrace_Boolean
 		{
 			get
 			{
-				if(r_RGetStackTrace_Boolean == null)
+				if(r_GetStackTrace_Boolean == null)
 				{
-					r_RGetStackTrace_Boolean = new(this, "GetStackTrace", 0, typeof(System.Boolean));
-					r_RGetStackTrace_Boolean.SetBelong(this.instance);
+					r_GetStackTrace_Boolean = new(this, "GetStackTrace", 0, typeof(System.Boolean));
+					r_GetStackTrace_Boolean.SetBelong(this.instance);
 				}
-				return r_RGetStackTrace_Boolean;
+				return r_GetStackTrace_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Void SetErrorCode(Int32)
 		/// </summary>
-		protected RMethod r_RSetErrorCode_Int32;
+		protected RMethod r_SetErrorCode_Int32;
 		public virtual RMethod RSetErrorCode_Int32
 		{
 			get
 			{
-				if(r_RSetErrorCode_Int32 == null)
+				if(r_SetErrorCode_Int32 == null)
 				{
-					r_RSetErrorCode_Int32 = new(this, "SetErrorCode", 0, typeof(System.Int32));
-					r_RSetErrorCode_Int32.SetBelong(this.instance);
+					r_SetErrorCode_Int32 = new(this, "SetErrorCode", 0, typeof(System.Int32));
+					r_SetErrorCode_Int32.SetBelong(this.instance);
 				}
-				return r_RSetErrorCode_Int32;
+				return r_SetErrorCode_Int32;
 			}
 		}
 
 		/// <summary>
 		/// System.String ToString()
 		/// </summary>
-		protected RMethod r_RToString;
+		protected RMethod r_ToString;
 		public virtual RMethod RToString
 		{
 			get
 			{
-				if(r_RToString == null)
+				if(r_ToString == null)
 				{
-					r_RToString = new(this, "ToString", 0);
-					r_RToString.SetBelong(this.instance);
+					r_ToString = new(this, "ToString", 0);
+					r_ToString.SetBelong(this.instance);
 				}
-				return r_RToString;
+				return r_ToString;
 			}
 		}
 
 		/// <summary>
 		/// System.String ToString(Boolean, Boolean)
 		/// </summary>
-		protected RMethod r_RToString_Boolean_Boolean;
+		protected RMethod r_ToString_Boolean_Boolean;
 		public virtual RMethod RToString_Boolean_Boolean
 		{
 			get
 			{
-				if(r_RToString_Boolean_Boolean == null)
+				if(r_ToString_Boolean_Boolean == null)
 				{
-					r_RToString_Boolean_Boolean = new(this, "ToString", 0, typeof(System.Boolean), typeof(System.Boolean));
-					r_RToString_Boolean_Boolean.SetBelong(this.instance);
+					r_ToString_Boolean_Boolean = new(this, "ToString", 0, typeof(System.Boolean), typeof(System.Boolean));
+					r_ToString_Boolean_Boolean.SetBelong(this.instance);
 				}
-				return r_RToString_Boolean_Boolean;
+				return r_ToString_Boolean_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Void GetObjectData(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)
 		/// </summary>
-		protected RMethod r_RGetObjectData_SerializationInfo_StreamingContext;
+		protected RMethod r_GetObjectData_SerializationInfo_StreamingContext;
 		public virtual RMethod RGetObjectData_SerializationInfo_StreamingContext
 		{
 			get
 			{
-				if(r_RGetObjectData_SerializationInfo_StreamingContext == null)
+				if(r_GetObjectData_SerializationInfo_StreamingContext == null)
 				{
-					r_RGetObjectData_SerializationInfo_StreamingContext = new(this, "GetObjectData", 0, typeof(System.Runtime.Serialization.SerializationInfo), typeof(System.Runtime.Serialization.StreamingContext));
-					r_RGetObjectData_SerializationInfo_StreamingContext.SetBelong(this.instance);
+					r_GetObjectData_SerializationInfo_StreamingContext = new(this, "GetObjectData", 0, typeof(System.Runtime.Serialization.SerializationInfo), typeof(System.Runtime.Serialization.StreamingContext));
+					r_GetObjectData_SerializationInfo_StreamingContext.SetBelong(this.instance);
 				}
-				return r_RGetObjectData_SerializationInfo_StreamingContext;
+				return r_GetObjectData_SerializationInfo_StreamingContext;
 			}
 		}
 
 		/// <summary>
 		/// System.Exception PrepForRemoting()
 		/// </summary>
-		protected RMethod r_RPrepForRemoting;
+		protected RMethod r_PrepForRemoting;
 		public virtual RMethod RPrepForRemoting
 		{
 			get
 			{
-				if(r_RPrepForRemoting == null)
+				if(r_PrepForRemoting == null)
 				{
-					r_RPrepForRemoting = new(this, "PrepForRemoting", 0);
-					r_RPrepForRemoting.SetBelong(this.instance);
+					r_PrepForRemoting = new(this, "PrepForRemoting", 0);
+					r_PrepForRemoting.SetBelong(this.instance);
 				}
-				return r_RPrepForRemoting;
+				return r_PrepForRemoting;
 			}
 		}
 
 		/// <summary>
 		/// Void OnDeserialized(System.Runtime.Serialization.StreamingContext)
 		/// </summary>
-		protected RMethod r_ROnDeserialized_StreamingContext;
+		protected RMethod r_OnDeserialized_StreamingContext;
 		public virtual RMethod ROnDeserialized_StreamingContext
 		{
 			get
 			{
-				if(r_ROnDeserialized_StreamingContext == null)
+				if(r_OnDeserialized_StreamingContext == null)
 				{
-					r_ROnDeserialized_StreamingContext = new(this, "OnDeserialized", 0, typeof(System.Runtime.Serialization.StreamingContext));
-					r_ROnDeserialized_StreamingContext.SetBelong(this.instance);
+					r_OnDeserialized_StreamingContext = new(this, "OnDeserialized", 0, typeof(System.Runtime.Serialization.StreamingContext));
+					r_OnDeserialized_StreamingContext.SetBelong(this.instance);
 				}
-				return r_ROnDeserialized_StreamingContext;
+				return r_OnDeserialized_StreamingContext;
 			}
 		}
 
 		/// <summary>
 		/// Void InternalPreserveStackTrace()
 		/// </summary>
-		protected RMethod r_RInternalPreserveStackTrace;
+		protected RMethod r_InternalPreserveStackTrace;
 		public virtual RMethod RInternalPreserveStackTrace
 		{
 			get
 			{
-				if(r_RInternalPreserveStackTrace == null)
+				if(r_InternalPreserveStackTrace == null)
 				{
-					r_RInternalPreserveStackTrace = new(this, "InternalPreserveStackTrace", 0);
-					r_RInternalPreserveStackTrace.SetBelong(this.instance);
+					r_InternalPreserveStackTrace = new(this, "InternalPreserveStackTrace", 0);
+					r_InternalPreserveStackTrace.SetBelong(this.instance);
 				}
-				return r_RInternalPreserveStackTrace;
+				return r_InternalPreserveStackTrace;
 			}
 		}
 
 		/// <summary>
 		/// System.String StripFileInfo(System.String, Boolean)
 		/// </summary>
-		protected RMethod r_RStripFileInfo_String_Boolean;
+		protected RMethod r_StripFileInfo_String_Boolean;
 		public virtual RMethod RStripFileInfo_String_Boolean
 		{
 			get
 			{
-				if(r_RStripFileInfo_String_Boolean == null)
+				if(r_StripFileInfo_String_Boolean == null)
 				{
-					r_RStripFileInfo_String_Boolean = new(this, "StripFileInfo", 0, typeof(System.String), typeof(System.Boolean));
-					r_RStripFileInfo_String_Boolean.SetBelong(this.instance);
+					r_StripFileInfo_String_Boolean = new(this, "StripFileInfo", 0, typeof(System.String), typeof(System.Boolean));
+					r_StripFileInfo_String_Boolean.SetBelong(this.instance);
 				}
-				return r_RStripFileInfo_String_Boolean;
+				return r_StripFileInfo_String_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Void RestoreExceptionDispatchInfo(System.Runtime.ExceptionServices.ExceptionDispatchInfo)
 		/// </summary>
-		protected RMethod r_RRestoreExceptionDispatchInfo_ExceptionDispatchInfo;
+		protected RMethod r_RestoreExceptionDispatchInfo_ExceptionDispatchInfo;
 		public virtual RMethod RRestoreExceptionDispatchInfo_ExceptionDispatchInfo
 		{
 			get
 			{
-				if(r_RRestoreExceptionDispatchInfo_ExceptionDispatchInfo == null)
+				if(r_RestoreExceptionDispatchInfo_ExceptionDispatchInfo == null)
 				{
-					r_RRestoreExceptionDispatchInfo_ExceptionDispatchInfo = new(this, "RestoreExceptionDispatchInfo", 0, typeof(System.Runtime.ExceptionServices.ExceptionDispatchInfo));
-					r_RRestoreExceptionDispatchInfo_ExceptionDispatchInfo.SetBelong(this.instance);
+					r_RestoreExceptionDispatchInfo_ExceptionDispatchInfo = new(this, "RestoreExceptionDispatchInfo", 0, typeof(System.Runtime.ExceptionServices.ExceptionDispatchInfo));
+					r_RestoreExceptionDispatchInfo_ExceptionDispatchInfo.SetBelong(this.instance);
 				}
-				return r_RRestoreExceptionDispatchInfo_ExceptionDispatchInfo;
+				return r_RestoreExceptionDispatchInfo_ExceptionDispatchInfo;
 			}
 		}
 
 		/// <summary>
 		/// System.String InternalToString()
 		/// </summary>
-		protected RMethod r_RInternalToString;
+		protected RMethod r_InternalToString;
 		public virtual RMethod RInternalToString
 		{
 			get
 			{
-				if(r_RInternalToString == null)
+				if(r_InternalToString == null)
 				{
-					r_RInternalToString = new(this, "InternalToString", 0);
-					r_RInternalToString.SetBelong(this.instance);
+					r_InternalToString = new(this, "InternalToString", 0);
+					r_InternalToString.SetBelong(this.instance);
 				}
-				return r_RInternalToString;
+				return r_InternalToString;
 			}
 		}
 
 		/// <summary>
 		/// System.Type GetType()
 		/// </summary>
-		protected RMethod r_RGetType;
+		protected RMethod r_GetType;
 		public virtual RMethod RGetType
 		{
 			get
 			{
-				if(r_RGetType == null)
+				if(r_GetType == null)
 				{
-					r_RGetType = new(this, "GetType", 0);
-					r_RGetType.SetBelong(this.instance);
+					r_GetType = new(this, "GetType", 0);
+					r_GetType.SetBelong(this.instance);
 				}
-				return r_RGetType;
+				return r_GetType;
 			}
 		}
 
 		/// <summary>
 		/// Boolean nIsTransient(Int32)
 		/// </summary>
-		protected static RMethod r_RnIsTransient_Int32;
+		protected static RMethod r_nIsTransient_Int32;
 		public static RMethod RnIsTransient_Int32
 		{
 			get
 			{
-				if(r_RnIsTransient_Int32 == null)
+				if(r_nIsTransient_Int32 == null)
 				{
-					r_RnIsTransient_Int32 = new(typeof(System.Exception), "nIsTransient", 0, typeof(System.Int32));
-					r_RnIsTransient_Int32.SetBelong(null);
+					r_nIsTransient_Int32 = new(typeof(System.Exception), "nIsTransient", 0, typeof(System.Int32));
+					r_nIsTransient_Int32.SetBelong(null);
 				}
-				return r_RnIsTransient_Int32;
+				return r_nIsTransient_Int32;
 			}
 		}
 
 		/// <summary>
 		/// System.String GetMessageFromNativeResources(ExceptionMessageKind)
 		/// </summary>
-		protected static RMethod r_RGetMessageFromNativeResources_ExceptionMessageKind;
+		protected static RMethod r_GetMessageFromNativeResources_ExceptionMessageKind;
 		public static RMethod RGetMessageFromNativeResources_ExceptionMessageKind
 		{
 			get
 			{
-				if(r_RGetMessageFromNativeResources_ExceptionMessageKind == null)
+				if(r_GetMessageFromNativeResources_ExceptionMessageKind == null)
 				{
-					r_RGetMessageFromNativeResources_ExceptionMessageKind = new(typeof(System.Exception), "GetMessageFromNativeResources", 0,  ReleactionUtils.GetType("System.Exception+ExceptionMessageKind"));
-					r_RGetMessageFromNativeResources_ExceptionMessageKind.SetBelong(null);
+					r_GetMessageFromNativeResources_ExceptionMessageKind = new(typeof(System.Exception), "GetMessageFromNativeResources", 0,  ReleactionUtils.GetType("System.Exception+ExceptionMessageKind"));
+					r_GetMessageFromNativeResources_ExceptionMessageKind.SetBelong(null);
 				}
-				return r_RGetMessageFromNativeResources_ExceptionMessageKind;
+				return r_GetMessageFromNativeResources_ExceptionMessageKind;
 			}
 		}
 
 		/// <summary>
 		/// Void SetMessage(System.String)
 		/// </summary>
-		protected RMethod r_RSetMessage_String;
+		protected RMethod r_SetMessage_String;
 		public virtual RMethod RSetMessage_String
 		{
 			get
 			{
-				if(r_RSetMessage_String == null)
+				if(r_SetMessage_String == null)
 				{
-					r_RSetMessage_String = new(this, "SetMessage", 0, typeof(System.String));
-					r_RSetMessage_String.SetBelong(this.instance);
+					r_SetMessage_String = new(this, "SetMessage", 0, typeof(System.String));
+					r_SetMessage_String.SetBelong(this.instance);
 				}
-				return r_RSetMessage_String;
+				return r_SetMessage_String;
 			}
 		}
 
 		/// <summary>
 		/// Void SetStackTrace(System.String)
 		/// </summary>
-		protected RMethod r_RSetStackTrace_String;
+		protected RMethod r_SetStackTrace_String;
 		public virtual RMethod RSetStackTrace_String
 		{
 			get
 			{
-				if(r_RSetStackTrace_String == null)
+				if(r_SetStackTrace_String == null)
 				{
-					r_RSetStackTrace_String = new(this, "SetStackTrace", 0, typeof(System.String));
-					r_RSetStackTrace_String.SetBelong(this.instance);
+					r_SetStackTrace_String = new(this, "SetStackTrace", 0, typeof(System.String));
+					r_SetStackTrace_String.SetBelong(this.instance);
 				}
-				return r_RSetStackTrace_String;
+				return r_SetStackTrace_String;
 			}
 		}
 
 		/// <summary>
 		/// System.Exception FixRemotingException()
 		/// </summary>
-		protected RMethod r_RFixRemotingException;
+		protected RMethod r_FixRemotingException;
 		public virtual RMethod RFixRemotingException
 		{
 			get
 			{
-				if(r_RFixRemotingException == null)
+				if(r_FixRemotingException == null)
 				{
-					r_RFixRemotingException = new(this, "FixRemotingException", 0);
-					r_RFixRemotingException.SetBelong(this.instance);
+					r_FixRemotingException = new(this, "FixRemotingException", 0);
+					r_FixRemotingException.SetBelong(this.instance);
 				}
-				return r_RFixRemotingException;
+				return r_FixRemotingException;
 			}
 		}
 
 		/// <summary>
 		/// Void ReportUnhandledException(System.Exception)
 		/// </summary>
-		protected static RMethod r_RReportUnhandledException_Exception;
+		protected static RMethod r_ReportUnhandledException_Exception;
 		public static RMethod RReportUnhandledException_Exception
 		{
 			get
 			{
-				if(r_RReportUnhandledException_Exception == null)
+				if(r_ReportUnhandledException_Exception == null)
 				{
-					r_RReportUnhandledException_Exception = new(typeof(System.Exception), "ReportUnhandledException", 0, typeof(System.Exception));
-					r_RReportUnhandledException_Exception.SetBelong(null);
+					r_ReportUnhandledException_Exception = new(typeof(System.Exception), "ReportUnhandledException", 0, typeof(System.Exception));
+					r_ReportUnhandledException_Exception.SetBelong(null);
 				}
-				return r_RReportUnhandledException_Exception;
+				return r_ReportUnhandledException_Exception;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Equals(System.Object)
 		/// </summary>
-		protected RMethod r_REquals_Object;
+		protected RMethod r_Equals_Object;
 		public virtual RMethod REquals_Object
 		{
 			get
 			{
-				if(r_REquals_Object == null)
+				if(r_Equals_Object == null)
 				{
-					r_REquals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_REquals_Object.SetBelong(this.instance);
+					r_Equals_Object = new(this, "Equals", 0, typeof(System.Object));
+					r_Equals_Object.SetBelong(this.instance);
 				}
-				return r_REquals_Object;
+				return r_Equals_Object;
 			}
 		}
 
 		/// <summary>
 		/// Void Finalize()
 		/// </summary>
-		protected RMethod r_RFinalize;
+		protected RMethod r_Finalize;
 		public virtual RMethod RFinalize
 		{
 			get
 			{
-				if(r_RFinalize == null)
+				if(r_Finalize == null)
 				{
-					r_RFinalize = new(this, "Finalize", 0);
-					r_RFinalize.SetBelong(this.instance);
+					r_Finalize = new(this, "Finalize", 0);
+					r_Finalize.SetBelong(this.instance);
 				}
-				return r_RFinalize;
+				return r_Finalize;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetHashCode()
 		/// </summary>
-		protected RMethod r_RGetHashCode;
+		protected RMethod r_GetHashCode;
 		public virtual RMethod RGetHashCode
 		{
 			get
 			{
-				if(r_RGetHashCode == null)
+				if(r_GetHashCode == null)
 				{
-					r_RGetHashCode = new(this, "GetHashCode", 0);
-					r_RGetHashCode.SetBelong(this.instance);
+					r_GetHashCode = new(this, "GetHashCode", 0);
+					r_GetHashCode.SetBelong(this.instance);
 				}
-				return r_RGetHashCode;
+				return r_GetHashCode;
 			}
 		}
 
 		/// <summary>
 		/// System.Object MemberwiseClone()
 		/// </summary>
-		protected RMethod r_RMemberwiseClone;
+		protected RMethod r_MemberwiseClone;
 		public virtual RMethod RMemberwiseClone
 		{
 			get
 			{
-				if(r_RMemberwiseClone == null)
+				if(r_MemberwiseClone == null)
 				{
-					r_RMemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_RMemberwiseClone.SetBelong(this.instance);
+					r_MemberwiseClone = new(this, "MemberwiseClone", 0);
+					r_MemberwiseClone.SetBelong(this.instance);
 				}
-				return r_RMemberwiseClone;
+				return r_MemberwiseClone;
 			}
 		}
 

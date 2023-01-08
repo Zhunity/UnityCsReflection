@@ -269,7 +269,7 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
 		/// System.Security.Policy.PolicyLevel Resolver
 		/// </summary>
 		protected RSystem.RSecurity.RPolicy.RPolicyLevel r_Resolver;
-		public virtual RSystem.RSecurity.RPolicy.RPolicyLevel Resolver
+		public virtual RSystem.RSecurity.RPolicy.RPolicyLevel RResolver
 		{
 			get
 			{
@@ -285,697 +285,697 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
 		/// <summary>
 		/// System.Security.IPermission AddPermission(System.Security.IPermission)
 		/// </summary>
-		protected RMethod r_RAddPermission_IPermission;
+		protected RMethod r_AddPermission_IPermission;
 		public virtual RMethod RAddPermission_IPermission
 		{
 			get
 			{
-				if(r_RAddPermission_IPermission == null)
+				if(r_AddPermission_IPermission == null)
 				{
-					r_RAddPermission_IPermission = new(this, "AddPermission", 0, typeof(System.Security.IPermission));
-					r_RAddPermission_IPermission.SetBelong(this.instance);
+					r_AddPermission_IPermission = new(this, "AddPermission", 0, typeof(System.Security.IPermission));
+					r_AddPermission_IPermission.SetBelong(this.instance);
 				}
-				return r_RAddPermission_IPermission;
+				return r_AddPermission_IPermission;
 			}
 		}
 
 		/// <summary>
 		/// Void Assert()
 		/// </summary>
-		protected RMethod r_RAssert;
+		protected RMethod r_Assert;
 		public virtual RMethod RAssert
 		{
 			get
 			{
-				if(r_RAssert == null)
+				if(r_Assert == null)
 				{
-					r_RAssert = new(this, "Assert", 0);
-					r_RAssert.SetBelong(this.instance);
+					r_Assert = new(this, "Assert", 0);
+					r_Assert.SetBelong(this.instance);
 				}
-				return r_RAssert;
+				return r_Assert;
 			}
 		}
 
 		/// <summary>
 		/// Void Clear()
 		/// </summary>
-		protected RMethod r_RClear;
+		protected RMethod r_Clear;
 		public virtual RMethod RClear
 		{
 			get
 			{
-				if(r_RClear == null)
+				if(r_Clear == null)
 				{
-					r_RClear = new(this, "Clear", 0);
-					r_RClear.SetBelong(this.instance);
+					r_Clear = new(this, "Clear", 0);
+					r_Clear.SetBelong(this.instance);
 				}
-				return r_RClear;
+				return r_Clear;
 			}
 		}
 
 		/// <summary>
 		/// System.Security.PermissionSet Copy()
 		/// </summary>
-		protected RMethod r_RCopy;
+		protected RMethod r_Copy;
 		public virtual RMethod RCopy
 		{
 			get
 			{
-				if(r_RCopy == null)
+				if(r_Copy == null)
 				{
-					r_RCopy = new(this, "Copy", 0);
-					r_RCopy.SetBelong(this.instance);
+					r_Copy = new(this, "Copy", 0);
+					r_Copy.SetBelong(this.instance);
 				}
-				return r_RCopy;
+				return r_Copy;
 			}
 		}
 
 		/// <summary>
 		/// Void CopyTo(System.Array, Int32)
 		/// </summary>
-		protected RMethod r_RCopyTo_Array_Int32;
+		protected RMethod r_CopyTo_Array_Int32;
 		public virtual RMethod RCopyTo_Array_Int32
 		{
 			get
 			{
-				if(r_RCopyTo_Array_Int32 == null)
+				if(r_CopyTo_Array_Int32 == null)
 				{
-					r_RCopyTo_Array_Int32 = new(this, "CopyTo", 0, typeof(System.Array), typeof(System.Int32));
-					r_RCopyTo_Array_Int32.SetBelong(this.instance);
+					r_CopyTo_Array_Int32 = new(this, "CopyTo", 0, typeof(System.Array), typeof(System.Int32));
+					r_CopyTo_Array_Int32.SetBelong(this.instance);
 				}
-				return r_RCopyTo_Array_Int32;
+				return r_CopyTo_Array_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Void Demand()
 		/// </summary>
-		protected RMethod r_RDemand;
+		protected RMethod r_Demand;
 		public virtual RMethod RDemand
 		{
 			get
 			{
-				if(r_RDemand == null)
+				if(r_Demand == null)
 				{
-					r_RDemand = new(this, "Demand", 0);
-					r_RDemand.SetBelong(this.instance);
+					r_Demand = new(this, "Demand", 0);
+					r_Demand.SetBelong(this.instance);
 				}
-				return r_RDemand;
+				return r_Demand;
 			}
 		}
 
 		/// <summary>
 		/// Void CasOnlyDemand(Int32)
 		/// </summary>
-		protected RMethod r_RCasOnlyDemand_Int32;
+		protected RMethod r_CasOnlyDemand_Int32;
 		public virtual RMethod RCasOnlyDemand_Int32
 		{
 			get
 			{
-				if(r_RCasOnlyDemand_Int32 == null)
+				if(r_CasOnlyDemand_Int32 == null)
 				{
-					r_RCasOnlyDemand_Int32 = new(this, "CasOnlyDemand", 0, typeof(System.Int32));
-					r_RCasOnlyDemand_Int32.SetBelong(this.instance);
+					r_CasOnlyDemand_Int32 = new(this, "CasOnlyDemand", 0, typeof(System.Int32));
+					r_CasOnlyDemand_Int32.SetBelong(this.instance);
 				}
-				return r_RCasOnlyDemand_Int32;
+				return r_CasOnlyDemand_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Void Deny()
 		/// </summary>
-		protected RMethod r_RDeny;
+		protected RMethod r_Deny;
 		public virtual RMethod RDeny
 		{
 			get
 			{
-				if(r_RDeny == null)
+				if(r_Deny == null)
 				{
-					r_RDeny = new(this, "Deny", 0);
-					r_RDeny.SetBelong(this.instance);
+					r_Deny = new(this, "Deny", 0);
+					r_Deny.SetBelong(this.instance);
 				}
-				return r_RDeny;
+				return r_Deny;
 			}
 		}
 
 		/// <summary>
 		/// Void FromXml(System.Security.SecurityElement)
 		/// </summary>
-		protected RMethod r_RFromXml_SecurityElement;
+		protected RMethod r_FromXml_SecurityElement;
 		public virtual RMethod RFromXml_SecurityElement
 		{
 			get
 			{
-				if(r_RFromXml_SecurityElement == null)
+				if(r_FromXml_SecurityElement == null)
 				{
-					r_RFromXml_SecurityElement = new(this, "FromXml", 0, typeof(System.Security.SecurityElement));
-					r_RFromXml_SecurityElement.SetBelong(this.instance);
+					r_FromXml_SecurityElement = new(this, "FromXml", 0, typeof(System.Security.SecurityElement));
+					r_FromXml_SecurityElement.SetBelong(this.instance);
 				}
-				return r_RFromXml_SecurityElement;
+				return r_FromXml_SecurityElement;
 			}
 		}
 
 		/// <summary>
 		/// System.Collections.IEnumerator GetEnumerator()
 		/// </summary>
-		protected RMethod r_RGetEnumerator;
+		protected RMethod r_GetEnumerator;
 		public virtual RMethod RGetEnumerator
 		{
 			get
 			{
-				if(r_RGetEnumerator == null)
+				if(r_GetEnumerator == null)
 				{
-					r_RGetEnumerator = new(this, "GetEnumerator", 0);
-					r_RGetEnumerator.SetBelong(this.instance);
+					r_GetEnumerator = new(this, "GetEnumerator", 0);
+					r_GetEnumerator.SetBelong(this.instance);
 				}
-				return r_RGetEnumerator;
+				return r_GetEnumerator;
 			}
 		}
 
 		/// <summary>
 		/// Boolean IsSubsetOf(System.Security.PermissionSet)
 		/// </summary>
-		protected RMethod r_RIsSubsetOf_PermissionSet;
+		protected RMethod r_IsSubsetOf_PermissionSet;
 		public virtual RMethod RIsSubsetOf_PermissionSet
 		{
 			get
 			{
-				if(r_RIsSubsetOf_PermissionSet == null)
+				if(r_IsSubsetOf_PermissionSet == null)
 				{
-					r_RIsSubsetOf_PermissionSet = new(this, "IsSubsetOf", 0, typeof(System.Security.PermissionSet));
-					r_RIsSubsetOf_PermissionSet.SetBelong(this.instance);
+					r_IsSubsetOf_PermissionSet = new(this, "IsSubsetOf", 0, typeof(System.Security.PermissionSet));
+					r_IsSubsetOf_PermissionSet.SetBelong(this.instance);
 				}
-				return r_RIsSubsetOf_PermissionSet;
+				return r_IsSubsetOf_PermissionSet;
 			}
 		}
 
 		/// <summary>
 		/// Void PermitOnly()
 		/// </summary>
-		protected RMethod r_RPermitOnly;
+		protected RMethod r_PermitOnly;
 		public virtual RMethod RPermitOnly
 		{
 			get
 			{
-				if(r_RPermitOnly == null)
+				if(r_PermitOnly == null)
 				{
-					r_RPermitOnly = new(this, "PermitOnly", 0);
-					r_RPermitOnly.SetBelong(this.instance);
+					r_PermitOnly = new(this, "PermitOnly", 0);
+					r_PermitOnly.SetBelong(this.instance);
 				}
-				return r_RPermitOnly;
+				return r_PermitOnly;
 			}
 		}
 
 		/// <summary>
 		/// Boolean ContainsNonCodeAccessPermissions()
 		/// </summary>
-		protected RMethod r_RContainsNonCodeAccessPermissions;
+		protected RMethod r_ContainsNonCodeAccessPermissions;
 		public virtual RMethod RContainsNonCodeAccessPermissions
 		{
 			get
 			{
-				if(r_RContainsNonCodeAccessPermissions == null)
+				if(r_ContainsNonCodeAccessPermissions == null)
 				{
-					r_RContainsNonCodeAccessPermissions = new(this, "ContainsNonCodeAccessPermissions", 0);
-					r_RContainsNonCodeAccessPermissions.SetBelong(this.instance);
+					r_ContainsNonCodeAccessPermissions = new(this, "ContainsNonCodeAccessPermissions", 0);
+					r_ContainsNonCodeAccessPermissions.SetBelong(this.instance);
 				}
-				return r_RContainsNonCodeAccessPermissions;
+				return r_ContainsNonCodeAccessPermissions;
 			}
 		}
 
 		/// <summary>
 		/// Byte[] ConvertPermissionSet(System.String, Byte[], System.String)
 		/// </summary>
-		protected static RMethod r_RConvertPermissionSet_String_ByteArray_String;
+		protected static RMethod r_ConvertPermissionSet_String_ByteArray_String;
 		public static RMethod RConvertPermissionSet_String_ByteArray_String
 		{
 			get
 			{
-				if(r_RConvertPermissionSet_String_ByteArray_String == null)
+				if(r_ConvertPermissionSet_String_ByteArray_String == null)
 				{
-					r_RConvertPermissionSet_String_ByteArray_String = new(typeof(System.Security.PermissionSet), "ConvertPermissionSet", 0, typeof(System.String), typeof(System.Byte).MakeArrayType(), typeof(System.String));
-					r_RConvertPermissionSet_String_ByteArray_String.SetBelong(null);
+					r_ConvertPermissionSet_String_ByteArray_String = new(typeof(System.Security.PermissionSet), "ConvertPermissionSet", 0, typeof(System.String), typeof(System.Byte).MakeArrayType(), typeof(System.String));
+					r_ConvertPermissionSet_String_ByteArray_String.SetBelong(null);
 				}
-				return r_RConvertPermissionSet_String_ByteArray_String;
+				return r_ConvertPermissionSet_String_ByteArray_String;
 			}
 		}
 
 		/// <summary>
 		/// System.Security.IPermission GetPermission(System.Type)
 		/// </summary>
-		protected RMethod r_RGetPermission_Type;
+		protected RMethod r_GetPermission_Type;
 		public virtual RMethod RGetPermission_Type
 		{
 			get
 			{
-				if(r_RGetPermission_Type == null)
+				if(r_GetPermission_Type == null)
 				{
-					r_RGetPermission_Type = new(this, "GetPermission", 0, typeof(System.Type));
-					r_RGetPermission_Type.SetBelong(this.instance);
+					r_GetPermission_Type = new(this, "GetPermission", 0, typeof(System.Type));
+					r_GetPermission_Type.SetBelong(this.instance);
 				}
-				return r_RGetPermission_Type;
+				return r_GetPermission_Type;
 			}
 		}
 
 		/// <summary>
 		/// System.Security.PermissionSet Intersect(System.Security.PermissionSet)
 		/// </summary>
-		protected RMethod r_RIntersect_PermissionSet;
+		protected RMethod r_Intersect_PermissionSet;
 		public virtual RMethod RIntersect_PermissionSet
 		{
 			get
 			{
-				if(r_RIntersect_PermissionSet == null)
+				if(r_Intersect_PermissionSet == null)
 				{
-					r_RIntersect_PermissionSet = new(this, "Intersect", 0, typeof(System.Security.PermissionSet));
-					r_RIntersect_PermissionSet.SetBelong(this.instance);
+					r_Intersect_PermissionSet = new(this, "Intersect", 0, typeof(System.Security.PermissionSet));
+					r_Intersect_PermissionSet.SetBelong(this.instance);
 				}
-				return r_RIntersect_PermissionSet;
+				return r_Intersect_PermissionSet;
 			}
 		}
 
 		/// <summary>
 		/// Void InternalIntersect(System.Security.PermissionSet, System.Security.PermissionSet, System.Security.PermissionSet, Boolean)
 		/// </summary>
-		protected RMethod r_RInternalIntersect_PermissionSet_PermissionSet_PermissionSet_Boolean;
+		protected RMethod r_InternalIntersect_PermissionSet_PermissionSet_PermissionSet_Boolean;
 		public virtual RMethod RInternalIntersect_PermissionSet_PermissionSet_PermissionSet_Boolean
 		{
 			get
 			{
-				if(r_RInternalIntersect_PermissionSet_PermissionSet_PermissionSet_Boolean == null)
+				if(r_InternalIntersect_PermissionSet_PermissionSet_PermissionSet_Boolean == null)
 				{
-					r_RInternalIntersect_PermissionSet_PermissionSet_PermissionSet_Boolean = new(this, "InternalIntersect", 0, typeof(System.Security.PermissionSet), typeof(System.Security.PermissionSet), typeof(System.Security.PermissionSet), typeof(System.Boolean));
-					r_RInternalIntersect_PermissionSet_PermissionSet_PermissionSet_Boolean.SetBelong(this.instance);
+					r_InternalIntersect_PermissionSet_PermissionSet_PermissionSet_Boolean = new(this, "InternalIntersect", 0, typeof(System.Security.PermissionSet), typeof(System.Security.PermissionSet), typeof(System.Security.PermissionSet), typeof(System.Boolean));
+					r_InternalIntersect_PermissionSet_PermissionSet_PermissionSet_Boolean.SetBelong(this.instance);
 				}
-				return r_RInternalIntersect_PermissionSet_PermissionSet_PermissionSet_Boolean;
+				return r_InternalIntersect_PermissionSet_PermissionSet_PermissionSet_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Boolean IsEmpty()
 		/// </summary>
-		protected RMethod r_RIsEmpty;
+		protected RMethod r_IsEmpty;
 		public virtual RMethod RIsEmpty
 		{
 			get
 			{
-				if(r_RIsEmpty == null)
+				if(r_IsEmpty == null)
 				{
-					r_RIsEmpty = new(this, "IsEmpty", 0);
-					r_RIsEmpty.SetBelong(this.instance);
+					r_IsEmpty = new(this, "IsEmpty", 0);
+					r_IsEmpty.SetBelong(this.instance);
 				}
-				return r_RIsEmpty;
+				return r_IsEmpty;
 			}
 		}
 
 		/// <summary>
 		/// Boolean IsUnrestricted()
 		/// </summary>
-		protected RMethod r_RIsUnrestricted;
+		protected RMethod r_IsUnrestricted;
 		public virtual RMethod RIsUnrestricted
 		{
 			get
 			{
-				if(r_RIsUnrestricted == null)
+				if(r_IsUnrestricted == null)
 				{
-					r_RIsUnrestricted = new(this, "IsUnrestricted", 0);
-					r_RIsUnrestricted.SetBelong(this.instance);
+					r_IsUnrestricted = new(this, "IsUnrestricted", 0);
+					r_IsUnrestricted.SetBelong(this.instance);
 				}
-				return r_RIsUnrestricted;
+				return r_IsUnrestricted;
 			}
 		}
 
 		/// <summary>
 		/// System.Security.IPermission RemovePermission(System.Type)
 		/// </summary>
-		protected RMethod r_RRemovePermission_Type;
+		protected RMethod r_RemovePermission_Type;
 		public virtual RMethod RRemovePermission_Type
 		{
 			get
 			{
-				if(r_RRemovePermission_Type == null)
+				if(r_RemovePermission_Type == null)
 				{
-					r_RRemovePermission_Type = new(this, "RemovePermission", 0, typeof(System.Type));
-					r_RRemovePermission_Type.SetBelong(this.instance);
+					r_RemovePermission_Type = new(this, "RemovePermission", 0, typeof(System.Type));
+					r_RemovePermission_Type.SetBelong(this.instance);
 				}
-				return r_RRemovePermission_Type;
+				return r_RemovePermission_Type;
 			}
 		}
 
 		/// <summary>
 		/// System.Security.IPermission SetPermission(System.Security.IPermission)
 		/// </summary>
-		protected RMethod r_RSetPermission_IPermission;
+		protected RMethod r_SetPermission_IPermission;
 		public virtual RMethod RSetPermission_IPermission
 		{
 			get
 			{
-				if(r_RSetPermission_IPermission == null)
+				if(r_SetPermission_IPermission == null)
 				{
-					r_RSetPermission_IPermission = new(this, "SetPermission", 0, typeof(System.Security.IPermission));
-					r_RSetPermission_IPermission.SetBelong(this.instance);
+					r_SetPermission_IPermission = new(this, "SetPermission", 0, typeof(System.Security.IPermission));
+					r_SetPermission_IPermission.SetBelong(this.instance);
 				}
-				return r_RSetPermission_IPermission;
+				return r_SetPermission_IPermission;
 			}
 		}
 
 		/// <summary>
 		/// System.String ToString()
 		/// </summary>
-		protected RMethod r_RToString;
+		protected RMethod r_ToString;
 		public virtual RMethod RToString
 		{
 			get
 			{
-				if(r_RToString == null)
+				if(r_ToString == null)
 				{
-					r_RToString = new(this, "ToString", 0);
-					r_RToString.SetBelong(this.instance);
+					r_ToString = new(this, "ToString", 0);
+					r_ToString.SetBelong(this.instance);
 				}
-				return r_RToString;
+				return r_ToString;
 			}
 		}
 
 		/// <summary>
 		/// System.Security.SecurityElement ToXml()
 		/// </summary>
-		protected RMethod r_RToXml;
+		protected RMethod r_ToXml;
 		public virtual RMethod RToXml
 		{
 			get
 			{
-				if(r_RToXml == null)
+				if(r_ToXml == null)
 				{
-					r_RToXml = new(this, "ToXml", 0);
-					r_RToXml.SetBelong(this.instance);
+					r_ToXml = new(this, "ToXml", 0);
+					r_ToXml.SetBelong(this.instance);
 				}
-				return r_RToXml;
+				return r_ToXml;
 			}
 		}
 
 		/// <summary>
 		/// System.Security.PermissionSet Union(System.Security.PermissionSet)
 		/// </summary>
-		protected RMethod r_RUnion_PermissionSet;
+		protected RMethod r_Union_PermissionSet;
 		public virtual RMethod RUnion_PermissionSet
 		{
 			get
 			{
-				if(r_RUnion_PermissionSet == null)
+				if(r_Union_PermissionSet == null)
 				{
-					r_RUnion_PermissionSet = new(this, "Union", 0, typeof(System.Security.PermissionSet));
-					r_RUnion_PermissionSet.SetBelong(this.instance);
+					r_Union_PermissionSet = new(this, "Union", 0, typeof(System.Security.PermissionSet));
+					r_Union_PermissionSet.SetBelong(this.instance);
 				}
-				return r_RUnion_PermissionSet;
+				return r_Union_PermissionSet;
 			}
 		}
 
 		/// <summary>
 		/// Void System.Runtime.Serialization.IDeserializationCallback.OnDeserialization(System.Object)
 		/// </summary>
-		protected RMethod r_RSystem__0__Runtime__0__Serialization__0__IDeserializationCallback__0__OnDeserialization_Object;
-		public virtual RMethod RSystem__0__Runtime__0__Serialization__0__IDeserializationCallback__0__OnDeserialization_Object
+		protected RMethod r_System__2__Runtime__2__Serialization__2__IDeserializationCallback__2__OnDeserialization_Object;
+		public virtual RMethod RSystem__2__Runtime__2__Serialization__2__IDeserializationCallback__2__OnDeserialization_Object
 		{
 			get
 			{
-				if(r_RSystem__0__Runtime__0__Serialization__0__IDeserializationCallback__0__OnDeserialization_Object == null)
+				if(r_System__2__Runtime__2__Serialization__2__IDeserializationCallback__2__OnDeserialization_Object == null)
 				{
-					r_RSystem__0__Runtime__0__Serialization__0__IDeserializationCallback__0__OnDeserialization_Object = new(this, "System.Runtime.Serialization.IDeserializationCallback.OnDeserialization", 0, typeof(System.Object));
-					r_RSystem__0__Runtime__0__Serialization__0__IDeserializationCallback__0__OnDeserialization_Object.SetBelong(this.instance);
+					r_System__2__Runtime__2__Serialization__2__IDeserializationCallback__2__OnDeserialization_Object = new(this, "System.Runtime.Serialization.IDeserializationCallback.OnDeserialization", 0, typeof(System.Object));
+					r_System__2__Runtime__2__Serialization__2__IDeserializationCallback__2__OnDeserialization_Object.SetBelong(this.instance);
 				}
-				return r_RSystem__0__Runtime__0__Serialization__0__IDeserializationCallback__0__OnDeserialization_Object;
+				return r_System__2__Runtime__2__Serialization__2__IDeserializationCallback__2__OnDeserialization_Object;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Equals(System.Object)
 		/// </summary>
-		protected RMethod r_REquals_Object;
+		protected RMethod r_Equals_Object;
 		public virtual RMethod REquals_Object
 		{
 			get
 			{
-				if(r_REquals_Object == null)
+				if(r_Equals_Object == null)
 				{
-					r_REquals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_REquals_Object.SetBelong(this.instance);
+					r_Equals_Object = new(this, "Equals", 0, typeof(System.Object));
+					r_Equals_Object.SetBelong(this.instance);
 				}
-				return r_REquals_Object;
+				return r_Equals_Object;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetHashCode()
 		/// </summary>
-		protected RMethod r_RGetHashCode;
+		protected RMethod r_GetHashCode;
 		public virtual RMethod RGetHashCode
 		{
 			get
 			{
-				if(r_RGetHashCode == null)
+				if(r_GetHashCode == null)
 				{
-					r_RGetHashCode = new(this, "GetHashCode", 0);
-					r_RGetHashCode.SetBelong(this.instance);
+					r_GetHashCode = new(this, "GetHashCode", 0);
+					r_GetHashCode.SetBelong(this.instance);
 				}
-				return r_RGetHashCode;
+				return r_GetHashCode;
 			}
 		}
 
 		/// <summary>
 		/// Void RevertAssert()
 		/// </summary>
-		protected static RMethod r_RRevertAssert;
+		protected static RMethod r_RevertAssert;
 		public static RMethod RRevertAssert
 		{
 			get
 			{
-				if(r_RRevertAssert == null)
+				if(r_RevertAssert == null)
 				{
-					r_RRevertAssert = new(typeof(System.Security.PermissionSet), "RevertAssert", 0);
-					r_RRevertAssert.SetBelong(null);
+					r_RevertAssert = new(typeof(System.Security.PermissionSet), "RevertAssert", 0);
+					r_RevertAssert.SetBelong(null);
 				}
-				return r_RRevertAssert;
+				return r_RevertAssert;
 			}
 		}
 
 		/// <summary>
 		/// Void SetReadOnly(Boolean)
 		/// </summary>
-		protected RMethod r_RSetReadOnly_Boolean;
+		protected RMethod r_SetReadOnly_Boolean;
 		public virtual RMethod RSetReadOnly_Boolean
 		{
 			get
 			{
-				if(r_RSetReadOnly_Boolean == null)
+				if(r_SetReadOnly_Boolean == null)
 				{
-					r_RSetReadOnly_Boolean = new(this, "SetReadOnly", 0, typeof(System.Boolean));
-					r_RSetReadOnly_Boolean.SetBelong(this.instance);
+					r_SetReadOnly_Boolean = new(this, "SetReadOnly", 0, typeof(System.Boolean));
+					r_SetReadOnly_Boolean.SetBelong(this.instance);
 				}
-				return r_RSetReadOnly_Boolean;
+				return r_SetReadOnly_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Boolean AllIgnored()
 		/// </summary>
-		protected RMethod r_RAllIgnored;
+		protected RMethod r_AllIgnored;
 		public virtual RMethod RAllIgnored
 		{
 			get
 			{
-				if(r_RAllIgnored == null)
+				if(r_AllIgnored == null)
 				{
-					r_RAllIgnored = new(this, "AllIgnored", 0);
-					r_RAllIgnored.SetBelong(this.instance);
+					r_AllIgnored = new(this, "AllIgnored", 0);
+					r_AllIgnored.SetBelong(this.instance);
 				}
-				return r_RAllIgnored;
+				return r_AllIgnored;
 			}
 		}
 
 		/// <summary>
 		/// System.Security.PermissionSet CreateFromBinaryFormat(Byte[])
 		/// </summary>
-		protected static RMethod r_RCreateFromBinaryFormat_ByteArray;
+		protected static RMethod r_CreateFromBinaryFormat_ByteArray;
 		public static RMethod RCreateFromBinaryFormat_ByteArray
 		{
 			get
 			{
-				if(r_RCreateFromBinaryFormat_ByteArray == null)
+				if(r_CreateFromBinaryFormat_ByteArray == null)
 				{
-					r_RCreateFromBinaryFormat_ByteArray = new(typeof(System.Security.PermissionSet), "CreateFromBinaryFormat", 0, typeof(System.Byte).MakeArrayType());
-					r_RCreateFromBinaryFormat_ByteArray.SetBelong(null);
+					r_CreateFromBinaryFormat_ByteArray = new(typeof(System.Security.PermissionSet), "CreateFromBinaryFormat", 0, typeof(System.Byte).MakeArrayType());
+					r_CreateFromBinaryFormat_ByteArray.SetBelong(null);
 				}
-				return r_RCreateFromBinaryFormat_ByteArray;
+				return r_CreateFromBinaryFormat_ByteArray;
 			}
 		}
 
 		/// <summary>
 		/// Int32 ReadEncodedInt(Byte[], Int32 ByRef)
 		/// </summary>
-		protected static RMethod r_RReadEncodedInt_ByteArray_Ref_Int32;
+		protected static RMethod r_ReadEncodedInt_ByteArray_Ref_Int32;
 		public static RMethod RReadEncodedInt_ByteArray_Ref_Int32
 		{
 			get
 			{
-				if(r_RReadEncodedInt_ByteArray_Ref_Int32 == null)
+				if(r_ReadEncodedInt_ByteArray_Ref_Int32 == null)
 				{
-					r_RReadEncodedInt_ByteArray_Ref_Int32 = new(typeof(System.Security.PermissionSet), "ReadEncodedInt", 0, typeof(System.Byte).MakeArrayType(), typeof(System.Int32).MakeByRefType());
-					r_RReadEncodedInt_ByteArray_Ref_Int32.SetBelong(null);
+					r_ReadEncodedInt_ByteArray_Ref_Int32 = new(typeof(System.Security.PermissionSet), "ReadEncodedInt", 0, typeof(System.Byte).MakeArrayType(), typeof(System.Int32).MakeByRefType());
+					r_ReadEncodedInt_ByteArray_Ref_Int32.SetBelong(null);
 				}
-				return r_RReadEncodedInt_ByteArray_Ref_Int32;
+				return r_ReadEncodedInt_ByteArray_Ref_Int32;
 			}
 		}
 
 		/// <summary>
 		/// System.Security.IPermission ProcessAttribute(Byte[], Int32 ByRef)
 		/// </summary>
-		protected static RMethod r_RProcessAttribute_ByteArray_Ref_Int32;
+		protected static RMethod r_ProcessAttribute_ByteArray_Ref_Int32;
 		public static RMethod RProcessAttribute_ByteArray_Ref_Int32
 		{
 			get
 			{
-				if(r_RProcessAttribute_ByteArray_Ref_Int32 == null)
+				if(r_ProcessAttribute_ByteArray_Ref_Int32 == null)
 				{
-					r_RProcessAttribute_ByteArray_Ref_Int32 = new(typeof(System.Security.PermissionSet), "ProcessAttribute", 0, typeof(System.Byte).MakeArrayType(), typeof(System.Int32).MakeByRefType());
-					r_RProcessAttribute_ByteArray_Ref_Int32.SetBelong(null);
+					r_ProcessAttribute_ByteArray_Ref_Int32 = new(typeof(System.Security.PermissionSet), "ProcessAttribute", 0, typeof(System.Byte).MakeArrayType(), typeof(System.Int32).MakeByRefType());
+					r_ProcessAttribute_ByteArray_Ref_Int32.SetBelong(null);
 				}
-				return r_RProcessAttribute_ByteArray_Ref_Int32;
+				return r_ProcessAttribute_ByteArray_Ref_Int32;
 			}
 		}
 
 		/// <summary>
 		/// System.Security.IPermission AddPermissionImpl(System.Security.IPermission)
 		/// </summary>
-		protected RMethod r_RAddPermissionImpl_IPermission;
+		protected RMethod r_AddPermissionImpl_IPermission;
 		public virtual RMethod RAddPermissionImpl_IPermission
 		{
 			get
 			{
-				if(r_RAddPermissionImpl_IPermission == null)
+				if(r_AddPermissionImpl_IPermission == null)
 				{
-					r_RAddPermissionImpl_IPermission = new(this, "AddPermissionImpl", 0, typeof(System.Security.IPermission));
-					r_RAddPermissionImpl_IPermission.SetBelong(this.instance);
+					r_AddPermissionImpl_IPermission = new(this, "AddPermissionImpl", 0, typeof(System.Security.IPermission));
+					r_AddPermissionImpl_IPermission.SetBelong(this.instance);
 				}
-				return r_RAddPermissionImpl_IPermission;
+				return r_AddPermissionImpl_IPermission;
 			}
 		}
 
 		/// <summary>
 		/// System.Collections.IEnumerator GetEnumeratorImpl()
 		/// </summary>
-		protected RMethod r_RGetEnumeratorImpl;
+		protected RMethod r_GetEnumeratorImpl;
 		public virtual RMethod RGetEnumeratorImpl
 		{
 			get
 			{
-				if(r_RGetEnumeratorImpl == null)
+				if(r_GetEnumeratorImpl == null)
 				{
-					r_RGetEnumeratorImpl = new(this, "GetEnumeratorImpl", 0);
-					r_RGetEnumeratorImpl.SetBelong(this.instance);
+					r_GetEnumeratorImpl = new(this, "GetEnumeratorImpl", 0);
+					r_GetEnumeratorImpl.SetBelong(this.instance);
 				}
-				return r_RGetEnumeratorImpl;
+				return r_GetEnumeratorImpl;
 			}
 		}
 
 		/// <summary>
 		/// System.Security.IPermission GetPermissionImpl(System.Type)
 		/// </summary>
-		protected RMethod r_RGetPermissionImpl_Type;
+		protected RMethod r_GetPermissionImpl_Type;
 		public virtual RMethod RGetPermissionImpl_Type
 		{
 			get
 			{
-				if(r_RGetPermissionImpl_Type == null)
+				if(r_GetPermissionImpl_Type == null)
 				{
-					r_RGetPermissionImpl_Type = new(this, "GetPermissionImpl", 0, typeof(System.Type));
-					r_RGetPermissionImpl_Type.SetBelong(this.instance);
+					r_GetPermissionImpl_Type = new(this, "GetPermissionImpl", 0, typeof(System.Type));
+					r_GetPermissionImpl_Type.SetBelong(this.instance);
 				}
-				return r_RGetPermissionImpl_Type;
+				return r_GetPermissionImpl_Type;
 			}
 		}
 
 		/// <summary>
 		/// System.Security.IPermission RemovePermissionImpl(System.Type)
 		/// </summary>
-		protected RMethod r_RRemovePermissionImpl_Type;
+		protected RMethod r_RemovePermissionImpl_Type;
 		public virtual RMethod RRemovePermissionImpl_Type
 		{
 			get
 			{
-				if(r_RRemovePermissionImpl_Type == null)
+				if(r_RemovePermissionImpl_Type == null)
 				{
-					r_RRemovePermissionImpl_Type = new(this, "RemovePermissionImpl", 0, typeof(System.Type));
-					r_RRemovePermissionImpl_Type.SetBelong(this.instance);
+					r_RemovePermissionImpl_Type = new(this, "RemovePermissionImpl", 0, typeof(System.Type));
+					r_RemovePermissionImpl_Type.SetBelong(this.instance);
 				}
-				return r_RRemovePermissionImpl_Type;
+				return r_RemovePermissionImpl_Type;
 			}
 		}
 
 		/// <summary>
 		/// System.Security.IPermission SetPermissionImpl(System.Security.IPermission)
 		/// </summary>
-		protected RMethod r_RSetPermissionImpl_IPermission;
+		protected RMethod r_SetPermissionImpl_IPermission;
 		public virtual RMethod RSetPermissionImpl_IPermission
 		{
 			get
 			{
-				if(r_RSetPermissionImpl_IPermission == null)
+				if(r_SetPermissionImpl_IPermission == null)
 				{
-					r_RSetPermissionImpl_IPermission = new(this, "SetPermissionImpl", 0, typeof(System.Security.IPermission));
-					r_RSetPermissionImpl_IPermission.SetBelong(this.instance);
+					r_SetPermissionImpl_IPermission = new(this, "SetPermissionImpl", 0, typeof(System.Security.IPermission));
+					r_SetPermissionImpl_IPermission.SetBelong(this.instance);
 				}
-				return r_RSetPermissionImpl_IPermission;
+				return r_SetPermissionImpl_IPermission;
 			}
 		}
 
 		/// <summary>
 		/// Void Finalize()
 		/// </summary>
-		protected RMethod r_RFinalize;
+		protected RMethod r_Finalize;
 		public virtual RMethod RFinalize
 		{
 			get
 			{
-				if(r_RFinalize == null)
+				if(r_Finalize == null)
 				{
-					r_RFinalize = new(this, "Finalize", 0);
-					r_RFinalize.SetBelong(this.instance);
+					r_Finalize = new(this, "Finalize", 0);
+					r_Finalize.SetBelong(this.instance);
 				}
-				return r_RFinalize;
+				return r_Finalize;
 			}
 		}
 
 		/// <summary>
 		/// System.Type GetType()
 		/// </summary>
-		protected RMethod r_RGetType;
+		protected RMethod r_GetType;
 		public virtual RMethod RGetType
 		{
 			get
 			{
-				if(r_RGetType == null)
+				if(r_GetType == null)
 				{
-					r_RGetType = new(this, "GetType", 0);
-					r_RGetType.SetBelong(this.instance);
+					r_GetType = new(this, "GetType", 0);
+					r_GetType.SetBelong(this.instance);
 				}
-				return r_RGetType;
+				return r_GetType;
 			}
 		}
 
 		/// <summary>
 		/// System.Object MemberwiseClone()
 		/// </summary>
-		protected RMethod r_RMemberwiseClone;
+		protected RMethod r_MemberwiseClone;
 		public virtual RMethod RMemberwiseClone
 		{
 			get
 			{
-				if(r_RMemberwiseClone == null)
+				if(r_MemberwiseClone == null)
 				{
-					r_RMemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_RMemberwiseClone.SetBelong(this.instance);
+					r_MemberwiseClone = new(this, "MemberwiseClone", 0);
+					r_MemberwiseClone.SetBelong(this.instance);
 				}
-				return r_RMemberwiseClone;
+				return r_MemberwiseClone;
 			}
 		}
 
@@ -1261,12 +1261,12 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
         }
 
 
-        public virtual void System__0__Runtime__0__Serialization__0__IDeserializationCallback__0__OnDeserialization(System.Object  @sender)
+        public virtual void System__2__Runtime__2__Serialization__2__IDeserializationCallback__2__OnDeserialization(System.Object  @sender)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@sender};
-            var ___result = RSystem__0__Runtime__0__Serialization__0__IDeserializationCallback__0__OnDeserialization_Object.Invoke(___genericsType, ___parameters);
+            var ___result = RSystem__2__Runtime__2__Serialization__2__IDeserializationCallback__2__OnDeserialization_Object.Invoke(___genericsType, ___parameters);
 
             
         }

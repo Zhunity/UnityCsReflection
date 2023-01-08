@@ -13,68 +13,68 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
 		/// <summary>
 		/// Boolean Check(System.Security.Policy.Evidence)
 		/// </summary>
-		protected RMethod r_RCheck_Evidence;
+		protected RMethod r_Check_Evidence;
 		public virtual RMethod RCheck_Evidence
 		{
 			get
 			{
-				if(r_RCheck_Evidence == null)
+				if(r_Check_Evidence == null)
 				{
-					r_RCheck_Evidence = new(this, "Check", 0, typeof(System.Security.Policy.Evidence));
-					r_RCheck_Evidence.SetBelong(this.instance);
+					r_Check_Evidence = new(this, "Check", 0, typeof(System.Security.Policy.Evidence));
+					r_Check_Evidence.SetBelong(this.instance);
 				}
-				return r_RCheck_Evidence;
+				return r_Check_Evidence;
 			}
 		}
 
 		/// <summary>
 		/// System.Security.Policy.IMembershipCondition Copy()
 		/// </summary>
-		protected RMethod r_RCopy;
+		protected RMethod r_Copy;
 		public virtual RMethod RCopy
 		{
 			get
 			{
-				if(r_RCopy == null)
+				if(r_Copy == null)
 				{
-					r_RCopy = new(this, "Copy", 0);
-					r_RCopy.SetBelong(this.instance);
+					r_Copy = new(this, "Copy", 0);
+					r_Copy.SetBelong(this.instance);
 				}
-				return r_RCopy;
+				return r_Copy;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Equals(System.Object)
 		/// </summary>
-		protected RMethod r_REquals_Object;
+		protected RMethod r_Equals_Object;
 		public virtual RMethod REquals_Object
 		{
 			get
 			{
-				if(r_REquals_Object == null)
+				if(r_Equals_Object == null)
 				{
-					r_REquals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_REquals_Object.SetBelong(this.instance);
+					r_Equals_Object = new(this, "Equals", 0, typeof(System.Object));
+					r_Equals_Object.SetBelong(this.instance);
 				}
-				return r_REquals_Object;
+				return r_Equals_Object;
 			}
 		}
 
 		/// <summary>
 		/// System.String ToString()
 		/// </summary>
-		protected RMethod r_RToString;
+		protected RMethod r_ToString;
 		public virtual RMethod RToString
 		{
 			get
 			{
-				if(r_RToString == null)
+				if(r_ToString == null)
 				{
-					r_RToString = new(this, "ToString", 0);
-					r_RToString.SetBelong(this.instance);
+					r_ToString = new(this, "ToString", 0);
+					r_ToString.SetBelong(this.instance);
 				}
-				return r_RToString;
+				return r_ToString;
 			}
 		}
 

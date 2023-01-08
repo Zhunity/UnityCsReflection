@@ -14,7 +14,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
 		/// System.Int32 Read
 		/// </summary>
 		protected static RField r_Read;
-		public static RField Read
+		public static RField RRead
 		{
 			get
 			{
@@ -65,7 +65,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
 		/// System.Int32 ReadCheck
 		/// </summary>
 		protected static RField r_ReadCheck;
-		public static RField ReadCheck
+		public static RField RReadCheck
 		{
 			get
 			{
@@ -116,7 +116,7 @@ namespace SMFrame.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
 		/// System.Int32 ReadWriteDisposeCheck
 		/// </summary>
 		protected static RField r_ReadWriteDisposeCheck;
-		public static RField ReadWriteDisposeCheck
+		public static RField RReadWriteDisposeCheck
 		{
 			get
 			{
@@ -183,1173 +183,1173 @@ namespace SMFrame.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
 		/// <summary>
 		/// Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle Create()
 		/// </summary>
-		protected static RMethod r_RCreate;
+		protected static RMethod r_Create;
 		public static RMethod RCreate
 		{
 			get
 			{
-				if(r_RCreate == null)
+				if(r_Create == null)
 				{
-					r_RCreate = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "Create", 0);
-					r_RCreate.SetBelong(null);
+					r_Create = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "Create", 0);
+					r_Create.SetBelong(null);
 				}
-				return r_RCreate;
+				return r_Create;
 			}
 		}
 
 		/// <summary>
 		/// Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle GetTempUnsafePtrSliceHandle()
 		/// </summary>
-		protected static RMethod r_RGetTempUnsafePtrSliceHandle;
+		protected static RMethod r_GetTempUnsafePtrSliceHandle;
 		public static RMethod RGetTempUnsafePtrSliceHandle
 		{
 			get
 			{
-				if(r_RGetTempUnsafePtrSliceHandle == null)
+				if(r_GetTempUnsafePtrSliceHandle == null)
 				{
-					r_RGetTempUnsafePtrSliceHandle = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "GetTempUnsafePtrSliceHandle", 0);
-					r_RGetTempUnsafePtrSliceHandle.SetBelong(null);
+					r_GetTempUnsafePtrSliceHandle = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "GetTempUnsafePtrSliceHandle", 0);
+					r_GetTempUnsafePtrSliceHandle.SetBelong(null);
 				}
-				return r_RGetTempUnsafePtrSliceHandle;
+				return r_GetTempUnsafePtrSliceHandle;
 			}
 		}
 
 		/// <summary>
 		/// Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle GetTempMemoryHandle()
 		/// </summary>
-		protected static RMethod r_RGetTempMemoryHandle;
+		protected static RMethod r_GetTempMemoryHandle;
 		public static RMethod RGetTempMemoryHandle
 		{
 			get
 			{
-				if(r_RGetTempMemoryHandle == null)
+				if(r_GetTempMemoryHandle == null)
 				{
-					r_RGetTempMemoryHandle = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "GetTempMemoryHandle", 0);
-					r_RGetTempMemoryHandle.SetBelong(null);
+					r_GetTempMemoryHandle = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "GetTempMemoryHandle", 0);
+					r_GetTempMemoryHandle.SetBelong(null);
 				}
-				return r_RGetTempMemoryHandle;
+				return r_GetTempMemoryHandle;
 			}
 		}
 
 		/// <summary>
 		/// Boolean IsTempMemoryHandle(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)
 		/// </summary>
-		protected static RMethod r_RIsTempMemoryHandle_AtomicSafetyHandle;
+		protected static RMethod r_IsTempMemoryHandle_AtomicSafetyHandle;
 		public static RMethod RIsTempMemoryHandle_AtomicSafetyHandle
 		{
 			get
 			{
-				if(r_RIsTempMemoryHandle_AtomicSafetyHandle == null)
+				if(r_IsTempMemoryHandle_AtomicSafetyHandle == null)
 				{
-					r_RIsTempMemoryHandle_AtomicSafetyHandle = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "IsTempMemoryHandle", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle));
-					r_RIsTempMemoryHandle_AtomicSafetyHandle.SetBelong(null);
+					r_IsTempMemoryHandle_AtomicSafetyHandle = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "IsTempMemoryHandle", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle));
+					r_IsTempMemoryHandle_AtomicSafetyHandle.SetBelong(null);
 				}
-				return r_RIsTempMemoryHandle_AtomicSafetyHandle;
+				return r_IsTempMemoryHandle_AtomicSafetyHandle;
 			}
 		}
 
 		/// <summary>
 		/// Void Release(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)
 		/// </summary>
-		protected static RMethod r_RRelease_AtomicSafetyHandle;
+		protected static RMethod r_Release_AtomicSafetyHandle;
 		public static RMethod RRelease_AtomicSafetyHandle
 		{
 			get
 			{
-				if(r_RRelease_AtomicSafetyHandle == null)
+				if(r_Release_AtomicSafetyHandle == null)
 				{
-					r_RRelease_AtomicSafetyHandle = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "Release", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle));
-					r_RRelease_AtomicSafetyHandle.SetBelong(null);
+					r_Release_AtomicSafetyHandle = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "Release", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle));
+					r_Release_AtomicSafetyHandle.SetBelong(null);
 				}
-				return r_RRelease_AtomicSafetyHandle;
+				return r_Release_AtomicSafetyHandle;
 			}
 		}
 
 		/// <summary>
 		/// Boolean IsDefaultValue(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle ByRef)
 		/// </summary>
-		protected static RMethod r_RIsDefaultValue_In_AtomicSafetyHandle;
+		protected static RMethod r_IsDefaultValue_In_AtomicSafetyHandle;
 		public static RMethod RIsDefaultValue_In_AtomicSafetyHandle
 		{
 			get
 			{
-				if(r_RIsDefaultValue_In_AtomicSafetyHandle == null)
+				if(r_IsDefaultValue_In_AtomicSafetyHandle == null)
 				{
-					r_RIsDefaultValue_In_AtomicSafetyHandle = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "IsDefaultValue", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle).MakeByRefType());
-					r_RIsDefaultValue_In_AtomicSafetyHandle.SetBelong(null);
+					r_IsDefaultValue_In_AtomicSafetyHandle = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "IsDefaultValue", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle).MakeByRefType());
+					r_IsDefaultValue_In_AtomicSafetyHandle.SetBelong(null);
 				}
-				return r_RIsDefaultValue_In_AtomicSafetyHandle;
+				return r_IsDefaultValue_In_AtomicSafetyHandle;
 			}
 		}
 
 		/// <summary>
 		/// Void SetExclusiveWeak(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle ByRef, Boolean)
 		/// </summary>
-		protected static RMethod r_RSetExclusiveWeak_Ref_AtomicSafetyHandle_Boolean;
+		protected static RMethod r_SetExclusiveWeak_Ref_AtomicSafetyHandle_Boolean;
 		public static RMethod RSetExclusiveWeak_Ref_AtomicSafetyHandle_Boolean
 		{
 			get
 			{
-				if(r_RSetExclusiveWeak_Ref_AtomicSafetyHandle_Boolean == null)
+				if(r_SetExclusiveWeak_Ref_AtomicSafetyHandle_Boolean == null)
 				{
-					r_RSetExclusiveWeak_Ref_AtomicSafetyHandle_Boolean = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "SetExclusiveWeak", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle).MakeByRefType(), typeof(System.Boolean));
-					r_RSetExclusiveWeak_Ref_AtomicSafetyHandle_Boolean.SetBelong(null);
+					r_SetExclusiveWeak_Ref_AtomicSafetyHandle_Boolean = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "SetExclusiveWeak", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle).MakeByRefType(), typeof(System.Boolean));
+					r_SetExclusiveWeak_Ref_AtomicSafetyHandle_Boolean.SetBelong(null);
 				}
-				return r_RSetExclusiveWeak_Ref_AtomicSafetyHandle_Boolean;
+				return r_SetExclusiveWeak_Ref_AtomicSafetyHandle_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Boolean GetExclusiveWeak(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle ByRef)
 		/// </summary>
-		protected static RMethod r_RGetExclusiveWeak_In_AtomicSafetyHandle;
+		protected static RMethod r_GetExclusiveWeak_In_AtomicSafetyHandle;
 		public static RMethod RGetExclusiveWeak_In_AtomicSafetyHandle
 		{
 			get
 			{
-				if(r_RGetExclusiveWeak_In_AtomicSafetyHandle == null)
+				if(r_GetExclusiveWeak_In_AtomicSafetyHandle == null)
 				{
-					r_RGetExclusiveWeak_In_AtomicSafetyHandle = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "GetExclusiveWeak", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle).MakeByRefType());
-					r_RGetExclusiveWeak_In_AtomicSafetyHandle.SetBelong(null);
+					r_GetExclusiveWeak_In_AtomicSafetyHandle = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "GetExclusiveWeak", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle).MakeByRefType());
+					r_GetExclusiveWeak_In_AtomicSafetyHandle.SetBelong(null);
 				}
-				return r_RGetExclusiveWeak_In_AtomicSafetyHandle;
+				return r_GetExclusiveWeak_In_AtomicSafetyHandle;
 			}
 		}
 
 		/// <summary>
 		/// Void PrepareUndisposable(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle ByRef)
 		/// </summary>
-		protected static RMethod r_RPrepareUndisposable_Ref_AtomicSafetyHandle;
+		protected static RMethod r_PrepareUndisposable_Ref_AtomicSafetyHandle;
 		public static RMethod RPrepareUndisposable_Ref_AtomicSafetyHandle
 		{
 			get
 			{
-				if(r_RPrepareUndisposable_Ref_AtomicSafetyHandle == null)
+				if(r_PrepareUndisposable_Ref_AtomicSafetyHandle == null)
 				{
-					r_RPrepareUndisposable_Ref_AtomicSafetyHandle = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "PrepareUndisposable", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle).MakeByRefType());
-					r_RPrepareUndisposable_Ref_AtomicSafetyHandle.SetBelong(null);
+					r_PrepareUndisposable_Ref_AtomicSafetyHandle = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "PrepareUndisposable", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle).MakeByRefType());
+					r_PrepareUndisposable_Ref_AtomicSafetyHandle.SetBelong(null);
 				}
-				return r_RPrepareUndisposable_Ref_AtomicSafetyHandle;
+				return r_PrepareUndisposable_Ref_AtomicSafetyHandle;
 			}
 		}
 
 		/// <summary>
 		/// Void UseSecondaryVersion(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle ByRef)
 		/// </summary>
-		protected static RMethod r_RUseSecondaryVersion_Ref_AtomicSafetyHandle;
+		protected static RMethod r_UseSecondaryVersion_Ref_AtomicSafetyHandle;
 		public static RMethod RUseSecondaryVersion_Ref_AtomicSafetyHandle
 		{
 			get
 			{
-				if(r_RUseSecondaryVersion_Ref_AtomicSafetyHandle == null)
+				if(r_UseSecondaryVersion_Ref_AtomicSafetyHandle == null)
 				{
-					r_RUseSecondaryVersion_Ref_AtomicSafetyHandle = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "UseSecondaryVersion", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle).MakeByRefType());
-					r_RUseSecondaryVersion_Ref_AtomicSafetyHandle.SetBelong(null);
+					r_UseSecondaryVersion_Ref_AtomicSafetyHandle = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "UseSecondaryVersion", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle).MakeByRefType());
+					r_UseSecondaryVersion_Ref_AtomicSafetyHandle.SetBelong(null);
 				}
-				return r_RUseSecondaryVersion_Ref_AtomicSafetyHandle;
+				return r_UseSecondaryVersion_Ref_AtomicSafetyHandle;
 			}
 		}
 
 		/// <summary>
 		/// Void SetAllowSecondaryVersionWriting(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle, Boolean)
 		/// </summary>
-		protected static RMethod r_RSetAllowSecondaryVersionWriting_AtomicSafetyHandle_Boolean;
+		protected static RMethod r_SetAllowSecondaryVersionWriting_AtomicSafetyHandle_Boolean;
 		public static RMethod RSetAllowSecondaryVersionWriting_AtomicSafetyHandle_Boolean
 		{
 			get
 			{
-				if(r_RSetAllowSecondaryVersionWriting_AtomicSafetyHandle_Boolean == null)
+				if(r_SetAllowSecondaryVersionWriting_AtomicSafetyHandle_Boolean == null)
 				{
-					r_RSetAllowSecondaryVersionWriting_AtomicSafetyHandle_Boolean = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "SetAllowSecondaryVersionWriting", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), typeof(System.Boolean));
-					r_RSetAllowSecondaryVersionWriting_AtomicSafetyHandle_Boolean.SetBelong(null);
+					r_SetAllowSecondaryVersionWriting_AtomicSafetyHandle_Boolean = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "SetAllowSecondaryVersionWriting", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), typeof(System.Boolean));
+					r_SetAllowSecondaryVersionWriting_AtomicSafetyHandle_Boolean.SetBelong(null);
 				}
-				return r_RSetAllowSecondaryVersionWriting_AtomicSafetyHandle_Boolean;
+				return r_SetAllowSecondaryVersionWriting_AtomicSafetyHandle_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Void SetBumpSecondaryVersionOnScheduleWrite(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle, Boolean)
 		/// </summary>
-		protected static RMethod r_RSetBumpSecondaryVersionOnScheduleWrite_AtomicSafetyHandle_Boolean;
+		protected static RMethod r_SetBumpSecondaryVersionOnScheduleWrite_AtomicSafetyHandle_Boolean;
 		public static RMethod RSetBumpSecondaryVersionOnScheduleWrite_AtomicSafetyHandle_Boolean
 		{
 			get
 			{
-				if(r_RSetBumpSecondaryVersionOnScheduleWrite_AtomicSafetyHandle_Boolean == null)
+				if(r_SetBumpSecondaryVersionOnScheduleWrite_AtomicSafetyHandle_Boolean == null)
 				{
-					r_RSetBumpSecondaryVersionOnScheduleWrite_AtomicSafetyHandle_Boolean = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "SetBumpSecondaryVersionOnScheduleWrite", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), typeof(System.Boolean));
-					r_RSetBumpSecondaryVersionOnScheduleWrite_AtomicSafetyHandle_Boolean.SetBelong(null);
+					r_SetBumpSecondaryVersionOnScheduleWrite_AtomicSafetyHandle_Boolean = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "SetBumpSecondaryVersionOnScheduleWrite", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), typeof(System.Boolean));
+					r_SetBumpSecondaryVersionOnScheduleWrite_AtomicSafetyHandle_Boolean.SetBelong(null);
 				}
-				return r_RSetBumpSecondaryVersionOnScheduleWrite_AtomicSafetyHandle_Boolean;
+				return r_SetBumpSecondaryVersionOnScheduleWrite_AtomicSafetyHandle_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Void SetAllowReadOrWriteAccess(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle, Boolean)
 		/// </summary>
-		protected static RMethod r_RSetAllowReadOrWriteAccess_AtomicSafetyHandle_Boolean;
+		protected static RMethod r_SetAllowReadOrWriteAccess_AtomicSafetyHandle_Boolean;
 		public static RMethod RSetAllowReadOrWriteAccess_AtomicSafetyHandle_Boolean
 		{
 			get
 			{
-				if(r_RSetAllowReadOrWriteAccess_AtomicSafetyHandle_Boolean == null)
+				if(r_SetAllowReadOrWriteAccess_AtomicSafetyHandle_Boolean == null)
 				{
-					r_RSetAllowReadOrWriteAccess_AtomicSafetyHandle_Boolean = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "SetAllowReadOrWriteAccess", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), typeof(System.Boolean));
-					r_RSetAllowReadOrWriteAccess_AtomicSafetyHandle_Boolean.SetBelong(null);
+					r_SetAllowReadOrWriteAccess_AtomicSafetyHandle_Boolean = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "SetAllowReadOrWriteAccess", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), typeof(System.Boolean));
+					r_SetAllowReadOrWriteAccess_AtomicSafetyHandle_Boolean.SetBelong(null);
 				}
-				return r_RSetAllowReadOrWriteAccess_AtomicSafetyHandle_Boolean;
+				return r_SetAllowReadOrWriteAccess_AtomicSafetyHandle_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Boolean GetAllowReadOrWriteAccess(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)
 		/// </summary>
-		protected static RMethod r_RGetAllowReadOrWriteAccess_AtomicSafetyHandle;
+		protected static RMethod r_GetAllowReadOrWriteAccess_AtomicSafetyHandle;
 		public static RMethod RGetAllowReadOrWriteAccess_AtomicSafetyHandle
 		{
 			get
 			{
-				if(r_RGetAllowReadOrWriteAccess_AtomicSafetyHandle == null)
+				if(r_GetAllowReadOrWriteAccess_AtomicSafetyHandle == null)
 				{
-					r_RGetAllowReadOrWriteAccess_AtomicSafetyHandle = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "GetAllowReadOrWriteAccess", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle));
-					r_RGetAllowReadOrWriteAccess_AtomicSafetyHandle.SetBelong(null);
+					r_GetAllowReadOrWriteAccess_AtomicSafetyHandle = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "GetAllowReadOrWriteAccess", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle));
+					r_GetAllowReadOrWriteAccess_AtomicSafetyHandle.SetBelong(null);
 				}
-				return r_RGetAllowReadOrWriteAccess_AtomicSafetyHandle;
+				return r_GetAllowReadOrWriteAccess_AtomicSafetyHandle;
 			}
 		}
 
 		/// <summary>
 		/// Void SetNestedContainer(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle, Boolean)
 		/// </summary>
-		protected static RMethod r_RSetNestedContainer_AtomicSafetyHandle_Boolean;
+		protected static RMethod r_SetNestedContainer_AtomicSafetyHandle_Boolean;
 		public static RMethod RSetNestedContainer_AtomicSafetyHandle_Boolean
 		{
 			get
 			{
-				if(r_RSetNestedContainer_AtomicSafetyHandle_Boolean == null)
+				if(r_SetNestedContainer_AtomicSafetyHandle_Boolean == null)
 				{
-					r_RSetNestedContainer_AtomicSafetyHandle_Boolean = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "SetNestedContainer", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), typeof(System.Boolean));
-					r_RSetNestedContainer_AtomicSafetyHandle_Boolean.SetBelong(null);
+					r_SetNestedContainer_AtomicSafetyHandle_Boolean = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "SetNestedContainer", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), typeof(System.Boolean));
+					r_SetNestedContainer_AtomicSafetyHandle_Boolean.SetBelong(null);
 				}
-				return r_RSetNestedContainer_AtomicSafetyHandle_Boolean;
+				return r_SetNestedContainer_AtomicSafetyHandle_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Boolean GetNestedContainer(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)
 		/// </summary>
-		protected static RMethod r_RGetNestedContainer_AtomicSafetyHandle;
+		protected static RMethod r_GetNestedContainer_AtomicSafetyHandle;
 		public static RMethod RGetNestedContainer_AtomicSafetyHandle
 		{
 			get
 			{
-				if(r_RGetNestedContainer_AtomicSafetyHandle == null)
+				if(r_GetNestedContainer_AtomicSafetyHandle == null)
 				{
-					r_RGetNestedContainer_AtomicSafetyHandle = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "GetNestedContainer", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle));
-					r_RGetNestedContainer_AtomicSafetyHandle.SetBelong(null);
+					r_GetNestedContainer_AtomicSafetyHandle = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "GetNestedContainer", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle));
+					r_GetNestedContainer_AtomicSafetyHandle.SetBelong(null);
 				}
-				return r_RGetNestedContainer_AtomicSafetyHandle;
+				return r_GetNestedContainer_AtomicSafetyHandle;
 			}
 		}
 
 		/// <summary>
 		/// Void CheckWriteAndBumpSecondaryVersion(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)
 		/// </summary>
-		protected static RMethod r_RCheckWriteAndBumpSecondaryVersion_AtomicSafetyHandle;
+		protected static RMethod r_CheckWriteAndBumpSecondaryVersion_AtomicSafetyHandle;
 		public static RMethod RCheckWriteAndBumpSecondaryVersion_AtomicSafetyHandle
 		{
 			get
 			{
-				if(r_RCheckWriteAndBumpSecondaryVersion_AtomicSafetyHandle == null)
+				if(r_CheckWriteAndBumpSecondaryVersion_AtomicSafetyHandle == null)
 				{
-					r_RCheckWriteAndBumpSecondaryVersion_AtomicSafetyHandle = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "CheckWriteAndBumpSecondaryVersion", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle));
-					r_RCheckWriteAndBumpSecondaryVersion_AtomicSafetyHandle.SetBelong(null);
+					r_CheckWriteAndBumpSecondaryVersion_AtomicSafetyHandle = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "CheckWriteAndBumpSecondaryVersion", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle));
+					r_CheckWriteAndBumpSecondaryVersion_AtomicSafetyHandle.SetBelong(null);
 				}
-				return r_RCheckWriteAndBumpSecondaryVersion_AtomicSafetyHandle;
+				return r_CheckWriteAndBumpSecondaryVersion_AtomicSafetyHandle;
 			}
 		}
 
 		/// <summary>
 		/// Unity.Collections.LowLevel.Unsafe.EnforceJobResult EnforceAllBufferJobsHaveCompleted(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)
 		/// </summary>
-		protected static RMethod r_REnforceAllBufferJobsHaveCompleted_AtomicSafetyHandle;
+		protected static RMethod r_EnforceAllBufferJobsHaveCompleted_AtomicSafetyHandle;
 		public static RMethod REnforceAllBufferJobsHaveCompleted_AtomicSafetyHandle
 		{
 			get
 			{
-				if(r_REnforceAllBufferJobsHaveCompleted_AtomicSafetyHandle == null)
+				if(r_EnforceAllBufferJobsHaveCompleted_AtomicSafetyHandle == null)
 				{
-					r_REnforceAllBufferJobsHaveCompleted_AtomicSafetyHandle = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "EnforceAllBufferJobsHaveCompleted", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle));
-					r_REnforceAllBufferJobsHaveCompleted_AtomicSafetyHandle.SetBelong(null);
+					r_EnforceAllBufferJobsHaveCompleted_AtomicSafetyHandle = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "EnforceAllBufferJobsHaveCompleted", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle));
+					r_EnforceAllBufferJobsHaveCompleted_AtomicSafetyHandle.SetBelong(null);
 				}
-				return r_REnforceAllBufferJobsHaveCompleted_AtomicSafetyHandle;
+				return r_EnforceAllBufferJobsHaveCompleted_AtomicSafetyHandle;
 			}
 		}
 
 		/// <summary>
 		/// Unity.Collections.LowLevel.Unsafe.EnforceJobResult EnforceAllBufferJobsHaveCompletedAndRelease(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)
 		/// </summary>
-		protected static RMethod r_REnforceAllBufferJobsHaveCompletedAndRelease_AtomicSafetyHandle;
+		protected static RMethod r_EnforceAllBufferJobsHaveCompletedAndRelease_AtomicSafetyHandle;
 		public static RMethod REnforceAllBufferJobsHaveCompletedAndRelease_AtomicSafetyHandle
 		{
 			get
 			{
-				if(r_REnforceAllBufferJobsHaveCompletedAndRelease_AtomicSafetyHandle == null)
+				if(r_EnforceAllBufferJobsHaveCompletedAndRelease_AtomicSafetyHandle == null)
 				{
-					r_REnforceAllBufferJobsHaveCompletedAndRelease_AtomicSafetyHandle = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "EnforceAllBufferJobsHaveCompletedAndRelease", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle));
-					r_REnforceAllBufferJobsHaveCompletedAndRelease_AtomicSafetyHandle.SetBelong(null);
+					r_EnforceAllBufferJobsHaveCompletedAndRelease_AtomicSafetyHandle = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "EnforceAllBufferJobsHaveCompletedAndRelease", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle));
+					r_EnforceAllBufferJobsHaveCompletedAndRelease_AtomicSafetyHandle.SetBelong(null);
 				}
-				return r_REnforceAllBufferJobsHaveCompletedAndRelease_AtomicSafetyHandle;
+				return r_EnforceAllBufferJobsHaveCompletedAndRelease_AtomicSafetyHandle;
 			}
 		}
 
 		/// <summary>
 		/// Unity.Collections.LowLevel.Unsafe.EnforceJobResult EnforceAllBufferJobsHaveCompletedAndDisableReadWrite(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)
 		/// </summary>
-		protected static RMethod r_REnforceAllBufferJobsHaveCompletedAndDisableReadWrite_AtomicSafetyHandle;
+		protected static RMethod r_EnforceAllBufferJobsHaveCompletedAndDisableReadWrite_AtomicSafetyHandle;
 		public static RMethod REnforceAllBufferJobsHaveCompletedAndDisableReadWrite_AtomicSafetyHandle
 		{
 			get
 			{
-				if(r_REnforceAllBufferJobsHaveCompletedAndDisableReadWrite_AtomicSafetyHandle == null)
+				if(r_EnforceAllBufferJobsHaveCompletedAndDisableReadWrite_AtomicSafetyHandle == null)
 				{
-					r_REnforceAllBufferJobsHaveCompletedAndDisableReadWrite_AtomicSafetyHandle = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "EnforceAllBufferJobsHaveCompletedAndDisableReadWrite", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle));
-					r_REnforceAllBufferJobsHaveCompletedAndDisableReadWrite_AtomicSafetyHandle.SetBelong(null);
+					r_EnforceAllBufferJobsHaveCompletedAndDisableReadWrite_AtomicSafetyHandle = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "EnforceAllBufferJobsHaveCompletedAndDisableReadWrite", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle));
+					r_EnforceAllBufferJobsHaveCompletedAndDisableReadWrite_AtomicSafetyHandle.SetBelong(null);
 				}
-				return r_REnforceAllBufferJobsHaveCompletedAndDisableReadWrite_AtomicSafetyHandle;
+				return r_EnforceAllBufferJobsHaveCompletedAndDisableReadWrite_AtomicSafetyHandle;
 			}
 		}
 
 		/// <summary>
 		/// Void CheckReadAndThrowNoEarlyOut(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)
 		/// </summary>
-		protected static RMethod r_RCheckReadAndThrowNoEarlyOut_AtomicSafetyHandle;
+		protected static RMethod r_CheckReadAndThrowNoEarlyOut_AtomicSafetyHandle;
 		public static RMethod RCheckReadAndThrowNoEarlyOut_AtomicSafetyHandle
 		{
 			get
 			{
-				if(r_RCheckReadAndThrowNoEarlyOut_AtomicSafetyHandle == null)
+				if(r_CheckReadAndThrowNoEarlyOut_AtomicSafetyHandle == null)
 				{
-					r_RCheckReadAndThrowNoEarlyOut_AtomicSafetyHandle = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "CheckReadAndThrowNoEarlyOut", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle));
-					r_RCheckReadAndThrowNoEarlyOut_AtomicSafetyHandle.SetBelong(null);
+					r_CheckReadAndThrowNoEarlyOut_AtomicSafetyHandle = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "CheckReadAndThrowNoEarlyOut", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle));
+					r_CheckReadAndThrowNoEarlyOut_AtomicSafetyHandle.SetBelong(null);
 				}
-				return r_RCheckReadAndThrowNoEarlyOut_AtomicSafetyHandle;
+				return r_CheckReadAndThrowNoEarlyOut_AtomicSafetyHandle;
 			}
 		}
 
 		/// <summary>
 		/// Void CheckWriteAndThrowNoEarlyOut(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)
 		/// </summary>
-		protected static RMethod r_RCheckWriteAndThrowNoEarlyOut_AtomicSafetyHandle;
+		protected static RMethod r_CheckWriteAndThrowNoEarlyOut_AtomicSafetyHandle;
 		public static RMethod RCheckWriteAndThrowNoEarlyOut_AtomicSafetyHandle
 		{
 			get
 			{
-				if(r_RCheckWriteAndThrowNoEarlyOut_AtomicSafetyHandle == null)
+				if(r_CheckWriteAndThrowNoEarlyOut_AtomicSafetyHandle == null)
 				{
-					r_RCheckWriteAndThrowNoEarlyOut_AtomicSafetyHandle = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "CheckWriteAndThrowNoEarlyOut", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle));
-					r_RCheckWriteAndThrowNoEarlyOut_AtomicSafetyHandle.SetBelong(null);
+					r_CheckWriteAndThrowNoEarlyOut_AtomicSafetyHandle = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "CheckWriteAndThrowNoEarlyOut", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle));
+					r_CheckWriteAndThrowNoEarlyOut_AtomicSafetyHandle.SetBelong(null);
 				}
-				return r_RCheckWriteAndThrowNoEarlyOut_AtomicSafetyHandle;
+				return r_CheckWriteAndThrowNoEarlyOut_AtomicSafetyHandle;
 			}
 		}
 
 		/// <summary>
 		/// Void CheckDeallocateAndThrow(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)
 		/// </summary>
-		protected static RMethod r_RCheckDeallocateAndThrow_AtomicSafetyHandle;
+		protected static RMethod r_CheckDeallocateAndThrow_AtomicSafetyHandle;
 		public static RMethod RCheckDeallocateAndThrow_AtomicSafetyHandle
 		{
 			get
 			{
-				if(r_RCheckDeallocateAndThrow_AtomicSafetyHandle == null)
+				if(r_CheckDeallocateAndThrow_AtomicSafetyHandle == null)
 				{
-					r_RCheckDeallocateAndThrow_AtomicSafetyHandle = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "CheckDeallocateAndThrow", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle));
-					r_RCheckDeallocateAndThrow_AtomicSafetyHandle.SetBelong(null);
+					r_CheckDeallocateAndThrow_AtomicSafetyHandle = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "CheckDeallocateAndThrow", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle));
+					r_CheckDeallocateAndThrow_AtomicSafetyHandle.SetBelong(null);
 				}
-				return r_RCheckDeallocateAndThrow_AtomicSafetyHandle;
+				return r_CheckDeallocateAndThrow_AtomicSafetyHandle;
 			}
 		}
 
 		/// <summary>
 		/// Void CheckGetSecondaryDataPointerAndThrow(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)
 		/// </summary>
-		protected static RMethod r_RCheckGetSecondaryDataPointerAndThrow_AtomicSafetyHandle;
+		protected static RMethod r_CheckGetSecondaryDataPointerAndThrow_AtomicSafetyHandle;
 		public static RMethod RCheckGetSecondaryDataPointerAndThrow_AtomicSafetyHandle
 		{
 			get
 			{
-				if(r_RCheckGetSecondaryDataPointerAndThrow_AtomicSafetyHandle == null)
+				if(r_CheckGetSecondaryDataPointerAndThrow_AtomicSafetyHandle == null)
 				{
-					r_RCheckGetSecondaryDataPointerAndThrow_AtomicSafetyHandle = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "CheckGetSecondaryDataPointerAndThrow", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle));
-					r_RCheckGetSecondaryDataPointerAndThrow_AtomicSafetyHandle.SetBelong(null);
+					r_CheckGetSecondaryDataPointerAndThrow_AtomicSafetyHandle = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "CheckGetSecondaryDataPointerAndThrow", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle));
+					r_CheckGetSecondaryDataPointerAndThrow_AtomicSafetyHandle.SetBelong(null);
 				}
-				return r_RCheckGetSecondaryDataPointerAndThrow_AtomicSafetyHandle;
+				return r_CheckGetSecondaryDataPointerAndThrow_AtomicSafetyHandle;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetReaderArray(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle, Int32, IntPtr)
 		/// </summary>
-		protected static RMethod r_RGetReaderArray_AtomicSafetyHandle_Int32_IntPtr;
+		protected static RMethod r_GetReaderArray_AtomicSafetyHandle_Int32_IntPtr;
 		public static RMethod RGetReaderArray_AtomicSafetyHandle_Int32_IntPtr
 		{
 			get
 			{
-				if(r_RGetReaderArray_AtomicSafetyHandle_Int32_IntPtr == null)
+				if(r_GetReaderArray_AtomicSafetyHandle_Int32_IntPtr == null)
 				{
-					r_RGetReaderArray_AtomicSafetyHandle_Int32_IntPtr = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "GetReaderArray", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), typeof(System.Int32), typeof(System.IntPtr));
-					r_RGetReaderArray_AtomicSafetyHandle_Int32_IntPtr.SetBelong(null);
+					r_GetReaderArray_AtomicSafetyHandle_Int32_IntPtr = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "GetReaderArray", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), typeof(System.Int32), typeof(System.IntPtr));
+					r_GetReaderArray_AtomicSafetyHandle_Int32_IntPtr.SetBelong(null);
 				}
-				return r_RGetReaderArray_AtomicSafetyHandle_Int32_IntPtr;
+				return r_GetReaderArray_AtomicSafetyHandle_Int32_IntPtr;
 			}
 		}
 
 		/// <summary>
 		/// Unity.Jobs.JobHandle GetWriter(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)
 		/// </summary>
-		protected static RMethod r_RGetWriter_AtomicSafetyHandle;
+		protected static RMethod r_GetWriter_AtomicSafetyHandle;
 		public static RMethod RGetWriter_AtomicSafetyHandle
 		{
 			get
 			{
-				if(r_RGetWriter_AtomicSafetyHandle == null)
+				if(r_GetWriter_AtomicSafetyHandle == null)
 				{
-					r_RGetWriter_AtomicSafetyHandle = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "GetWriter", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle));
-					r_RGetWriter_AtomicSafetyHandle.SetBelong(null);
+					r_GetWriter_AtomicSafetyHandle = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "GetWriter", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle));
+					r_GetWriter_AtomicSafetyHandle.SetBelong(null);
 				}
-				return r_RGetWriter_AtomicSafetyHandle;
+				return r_GetWriter_AtomicSafetyHandle;
 			}
 		}
 
 		/// <summary>
 		/// Void CheckReadAndThrow(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)
 		/// </summary>
-		protected static RMethod r_RCheckReadAndThrow_AtomicSafetyHandle;
+		protected static RMethod r_CheckReadAndThrow_AtomicSafetyHandle;
 		public static RMethod RCheckReadAndThrow_AtomicSafetyHandle
 		{
 			get
 			{
-				if(r_RCheckReadAndThrow_AtomicSafetyHandle == null)
+				if(r_CheckReadAndThrow_AtomicSafetyHandle == null)
 				{
-					r_RCheckReadAndThrow_AtomicSafetyHandle = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "CheckReadAndThrow", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle));
-					r_RCheckReadAndThrow_AtomicSafetyHandle.SetBelong(null);
+					r_CheckReadAndThrow_AtomicSafetyHandle = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "CheckReadAndThrow", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle));
+					r_CheckReadAndThrow_AtomicSafetyHandle.SetBelong(null);
 				}
-				return r_RCheckReadAndThrow_AtomicSafetyHandle;
+				return r_CheckReadAndThrow_AtomicSafetyHandle;
 			}
 		}
 
 		/// <summary>
 		/// Void CheckWriteAndThrow(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)
 		/// </summary>
-		protected static RMethod r_RCheckWriteAndThrow_AtomicSafetyHandle;
+		protected static RMethod r_CheckWriteAndThrow_AtomicSafetyHandle;
 		public static RMethod RCheckWriteAndThrow_AtomicSafetyHandle
 		{
 			get
 			{
-				if(r_RCheckWriteAndThrow_AtomicSafetyHandle == null)
+				if(r_CheckWriteAndThrow_AtomicSafetyHandle == null)
 				{
-					r_RCheckWriteAndThrow_AtomicSafetyHandle = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "CheckWriteAndThrow", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle));
-					r_RCheckWriteAndThrow_AtomicSafetyHandle.SetBelong(null);
+					r_CheckWriteAndThrow_AtomicSafetyHandle = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "CheckWriteAndThrow", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle));
+					r_CheckWriteAndThrow_AtomicSafetyHandle.SetBelong(null);
 				}
-				return r_RCheckWriteAndThrow_AtomicSafetyHandle;
+				return r_CheckWriteAndThrow_AtomicSafetyHandle;
 			}
 		}
 
 		/// <summary>
 		/// Void ValidateNonDefaultHandle(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle ByRef)
 		/// </summary>
-		protected static RMethod r_RValidateNonDefaultHandle_In_AtomicSafetyHandle;
+		protected static RMethod r_ValidateNonDefaultHandle_In_AtomicSafetyHandle;
 		public static RMethod RValidateNonDefaultHandle_In_AtomicSafetyHandle
 		{
 			get
 			{
-				if(r_RValidateNonDefaultHandle_In_AtomicSafetyHandle == null)
+				if(r_ValidateNonDefaultHandle_In_AtomicSafetyHandle == null)
 				{
-					r_RValidateNonDefaultHandle_In_AtomicSafetyHandle = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "ValidateNonDefaultHandle", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle).MakeByRefType());
-					r_RValidateNonDefaultHandle_In_AtomicSafetyHandle.SetBelong(null);
+					r_ValidateNonDefaultHandle_In_AtomicSafetyHandle = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "ValidateNonDefaultHandle", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle).MakeByRefType());
+					r_ValidateNonDefaultHandle_In_AtomicSafetyHandle.SetBelong(null);
 				}
-				return r_RValidateNonDefaultHandle_In_AtomicSafetyHandle;
+				return r_ValidateNonDefaultHandle_In_AtomicSafetyHandle;
 			}
 		}
 
 		/// <summary>
 		/// Boolean IsValidNonDefaultHandle(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle ByRef)
 		/// </summary>
-		protected static RMethod r_RIsValidNonDefaultHandle_In_AtomicSafetyHandle;
+		protected static RMethod r_IsValidNonDefaultHandle_In_AtomicSafetyHandle;
 		public static RMethod RIsValidNonDefaultHandle_In_AtomicSafetyHandle
 		{
 			get
 			{
-				if(r_RIsValidNonDefaultHandle_In_AtomicSafetyHandle == null)
+				if(r_IsValidNonDefaultHandle_In_AtomicSafetyHandle == null)
 				{
-					r_RIsValidNonDefaultHandle_In_AtomicSafetyHandle = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "IsValidNonDefaultHandle", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle).MakeByRefType());
-					r_RIsValidNonDefaultHandle_In_AtomicSafetyHandle.SetBelong(null);
+					r_IsValidNonDefaultHandle_In_AtomicSafetyHandle = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "IsValidNonDefaultHandle", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle).MakeByRefType());
+					r_IsValidNonDefaultHandle_In_AtomicSafetyHandle.SetBelong(null);
 				}
-				return r_RIsValidNonDefaultHandle_In_AtomicSafetyHandle;
+				return r_IsValidNonDefaultHandle_In_AtomicSafetyHandle;
 			}
 		}
 
 		/// <summary>
 		/// Void CheckExistsAndThrow(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle ByRef)
 		/// </summary>
-		protected static RMethod r_RCheckExistsAndThrow_In_AtomicSafetyHandle;
+		protected static RMethod r_CheckExistsAndThrow_In_AtomicSafetyHandle;
 		public static RMethod RCheckExistsAndThrow_In_AtomicSafetyHandle
 		{
 			get
 			{
-				if(r_RCheckExistsAndThrow_In_AtomicSafetyHandle == null)
+				if(r_CheckExistsAndThrow_In_AtomicSafetyHandle == null)
 				{
-					r_RCheckExistsAndThrow_In_AtomicSafetyHandle = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "CheckExistsAndThrow", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle).MakeByRefType());
-					r_RCheckExistsAndThrow_In_AtomicSafetyHandle.SetBelong(null);
+					r_CheckExistsAndThrow_In_AtomicSafetyHandle = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "CheckExistsAndThrow", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle).MakeByRefType());
+					r_CheckExistsAndThrow_In_AtomicSafetyHandle.SetBelong(null);
 				}
-				return r_RCheckExistsAndThrow_In_AtomicSafetyHandle;
+				return r_CheckExistsAndThrow_In_AtomicSafetyHandle;
 			}
 		}
 
 		/// <summary>
 		/// Boolean IsHandleValid(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle ByRef)
 		/// </summary>
-		protected static RMethod r_RIsHandleValid_In_AtomicSafetyHandle;
+		protected static RMethod r_IsHandleValid_In_AtomicSafetyHandle;
 		public static RMethod RIsHandleValid_In_AtomicSafetyHandle
 		{
 			get
 			{
-				if(r_RIsHandleValid_In_AtomicSafetyHandle == null)
+				if(r_IsHandleValid_In_AtomicSafetyHandle == null)
 				{
-					r_RIsHandleValid_In_AtomicSafetyHandle = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "IsHandleValid", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle).MakeByRefType());
-					r_RIsHandleValid_In_AtomicSafetyHandle.SetBelong(null);
+					r_IsHandleValid_In_AtomicSafetyHandle = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "IsHandleValid", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle).MakeByRefType());
+					r_IsHandleValid_In_AtomicSafetyHandle.SetBelong(null);
 				}
-				return r_RIsHandleValid_In_AtomicSafetyHandle;
+				return r_IsHandleValid_In_AtomicSafetyHandle;
 			}
 		}
 
 		/// <summary>
 		/// System.String GetReaderName(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle, Int32)
 		/// </summary>
-		protected static RMethod r_RGetReaderName_AtomicSafetyHandle_Int32;
+		protected static RMethod r_GetReaderName_AtomicSafetyHandle_Int32;
 		public static RMethod RGetReaderName_AtomicSafetyHandle_Int32
 		{
 			get
 			{
-				if(r_RGetReaderName_AtomicSafetyHandle_Int32 == null)
+				if(r_GetReaderName_AtomicSafetyHandle_Int32 == null)
 				{
-					r_RGetReaderName_AtomicSafetyHandle_Int32 = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "GetReaderName", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), typeof(System.Int32));
-					r_RGetReaderName_AtomicSafetyHandle_Int32.SetBelong(null);
+					r_GetReaderName_AtomicSafetyHandle_Int32 = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "GetReaderName", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), typeof(System.Int32));
+					r_GetReaderName_AtomicSafetyHandle_Int32.SetBelong(null);
 				}
-				return r_RGetReaderName_AtomicSafetyHandle_Int32;
+				return r_GetReaderName_AtomicSafetyHandle_Int32;
 			}
 		}
 
 		/// <summary>
 		/// System.String GetWriterName(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)
 		/// </summary>
-		protected static RMethod r_RGetWriterName_AtomicSafetyHandle;
+		protected static RMethod r_GetWriterName_AtomicSafetyHandle;
 		public static RMethod RGetWriterName_AtomicSafetyHandle
 		{
 			get
 			{
-				if(r_RGetWriterName_AtomicSafetyHandle == null)
+				if(r_GetWriterName_AtomicSafetyHandle == null)
 				{
-					r_RGetWriterName_AtomicSafetyHandle = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "GetWriterName", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle));
-					r_RGetWriterName_AtomicSafetyHandle.SetBelong(null);
+					r_GetWriterName_AtomicSafetyHandle = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "GetWriterName", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle));
+					r_GetWriterName_AtomicSafetyHandle.SetBelong(null);
 				}
-				return r_RGetWriterName_AtomicSafetyHandle;
+				return r_GetWriterName_AtomicSafetyHandle;
 			}
 		}
 
 		/// <summary>
 		/// Int32 NewStaticSafetyId(Byte*, Int32)
 		/// </summary>
-		protected static RMethod r_RNewStaticSafetyId_BytePointer_Int32;
+		protected static RMethod r_NewStaticSafetyId_BytePointer_Int32;
 		public static RMethod RNewStaticSafetyId_BytePointer_Int32
 		{
 			get
 			{
-				if(r_RNewStaticSafetyId_BytePointer_Int32 == null)
+				if(r_NewStaticSafetyId_BytePointer_Int32 == null)
 				{
-					r_RNewStaticSafetyId_BytePointer_Int32 = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "NewStaticSafetyId", 0, typeof(System.Byte).MakePointerType(), typeof(System.Int32));
-					r_RNewStaticSafetyId_BytePointer_Int32.SetBelong(null);
+					r_NewStaticSafetyId_BytePointer_Int32 = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "NewStaticSafetyId", 0, typeof(System.Byte).MakePointerType(), typeof(System.Int32));
+					r_NewStaticSafetyId_BytePointer_Int32.SetBelong(null);
 				}
-				return r_RNewStaticSafetyId_BytePointer_Int32;
+				return r_NewStaticSafetyId_BytePointer_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Int32 NewStaticSafetyId[T]()
 		/// </summary>
-		protected static RMethod r_RNewStaticSafetyId_GT;
+		protected static RMethod r_NewStaticSafetyId_GT;
 		public static RMethod RNewStaticSafetyId_GT
 		{
 			get
 			{
-				if(r_RNewStaticSafetyId_GT == null)
+				if(r_NewStaticSafetyId_GT == null)
 				{
-					r_RNewStaticSafetyId_GT = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "NewStaticSafetyId", 1);
-					r_RNewStaticSafetyId_GT.SetBelong(null);
+					r_NewStaticSafetyId_GT = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "NewStaticSafetyId", 1);
+					r_NewStaticSafetyId_GT.SetBelong(null);
 				}
-				return r_RNewStaticSafetyId_GT;
+				return r_NewStaticSafetyId_GT;
 			}
 		}
 
 		/// <summary>
 		/// Void SetCustomErrorMessage(Int32, Unity.Collections.LowLevel.Unsafe.AtomicSafetyErrorType, Byte*, Int32)
 		/// </summary>
-		protected static RMethod r_RSetCustomErrorMessage_Int32_AtomicSafetyErrorType_BytePointer_Int32;
+		protected static RMethod r_SetCustomErrorMessage_Int32_AtomicSafetyErrorType_BytePointer_Int32;
 		public static RMethod RSetCustomErrorMessage_Int32_AtomicSafetyErrorType_BytePointer_Int32
 		{
 			get
 			{
-				if(r_RSetCustomErrorMessage_Int32_AtomicSafetyErrorType_BytePointer_Int32 == null)
+				if(r_SetCustomErrorMessage_Int32_AtomicSafetyErrorType_BytePointer_Int32 == null)
 				{
-					r_RSetCustomErrorMessage_Int32_AtomicSafetyErrorType_BytePointer_Int32 = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "SetCustomErrorMessage", 0, typeof(System.Int32), typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyErrorType), typeof(System.Byte).MakePointerType(), typeof(System.Int32));
-					r_RSetCustomErrorMessage_Int32_AtomicSafetyErrorType_BytePointer_Int32.SetBelong(null);
+					r_SetCustomErrorMessage_Int32_AtomicSafetyErrorType_BytePointer_Int32 = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "SetCustomErrorMessage", 0, typeof(System.Int32), typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyErrorType), typeof(System.Byte).MakePointerType(), typeof(System.Int32));
+					r_SetCustomErrorMessage_Int32_AtomicSafetyErrorType_BytePointer_Int32.SetBelong(null);
 				}
-				return r_RSetCustomErrorMessage_Int32_AtomicSafetyErrorType_BytePointer_Int32;
+				return r_SetCustomErrorMessage_Int32_AtomicSafetyErrorType_BytePointer_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Void SetStaticSafetyId(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle ByRef, Int32)
 		/// </summary>
-		protected static RMethod r_RSetStaticSafetyId_Ref_AtomicSafetyHandle_Int32;
+		protected static RMethod r_SetStaticSafetyId_Ref_AtomicSafetyHandle_Int32;
 		public static RMethod RSetStaticSafetyId_Ref_AtomicSafetyHandle_Int32
 		{
 			get
 			{
-				if(r_RSetStaticSafetyId_Ref_AtomicSafetyHandle_Int32 == null)
+				if(r_SetStaticSafetyId_Ref_AtomicSafetyHandle_Int32 == null)
 				{
-					r_RSetStaticSafetyId_Ref_AtomicSafetyHandle_Int32 = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "SetStaticSafetyId", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle).MakeByRefType(), typeof(System.Int32));
-					r_RSetStaticSafetyId_Ref_AtomicSafetyHandle_Int32.SetBelong(null);
+					r_SetStaticSafetyId_Ref_AtomicSafetyHandle_Int32 = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "SetStaticSafetyId", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle).MakeByRefType(), typeof(System.Int32));
+					r_SetStaticSafetyId_Ref_AtomicSafetyHandle_Int32.SetBelong(null);
 				}
-				return r_RSetStaticSafetyId_Ref_AtomicSafetyHandle_Int32;
+				return r_SetStaticSafetyId_Ref_AtomicSafetyHandle_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Void CreateHandle(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle ByRef, Unity.Collections.Allocator)
 		/// </summary>
-		protected static RMethod r_RCreateHandle_Out_AtomicSafetyHandle_Allocator;
+		protected static RMethod r_CreateHandle_Out_AtomicSafetyHandle_Allocator;
 		public static RMethod RCreateHandle_Out_AtomicSafetyHandle_Allocator
 		{
 			get
 			{
-				if(r_RCreateHandle_Out_AtomicSafetyHandle_Allocator == null)
+				if(r_CreateHandle_Out_AtomicSafetyHandle_Allocator == null)
 				{
-					r_RCreateHandle_Out_AtomicSafetyHandle_Allocator = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "CreateHandle", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle).MakeByRefType(), typeof(Unity.Collections.Allocator));
-					r_RCreateHandle_Out_AtomicSafetyHandle_Allocator.SetBelong(null);
+					r_CreateHandle_Out_AtomicSafetyHandle_Allocator = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "CreateHandle", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle).MakeByRefType(), typeof(Unity.Collections.Allocator));
+					r_CreateHandle_Out_AtomicSafetyHandle_Allocator.SetBelong(null);
 				}
-				return r_RCreateHandle_Out_AtomicSafetyHandle_Allocator;
+				return r_CreateHandle_Out_AtomicSafetyHandle_Allocator;
 			}
 		}
 
 		/// <summary>
 		/// Void DisposeHandle(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle ByRef)
 		/// </summary>
-		protected static RMethod r_RDisposeHandle_Ref_AtomicSafetyHandle;
+		protected static RMethod r_DisposeHandle_Ref_AtomicSafetyHandle;
 		public static RMethod RDisposeHandle_Ref_AtomicSafetyHandle
 		{
 			get
 			{
-				if(r_RDisposeHandle_Ref_AtomicSafetyHandle == null)
+				if(r_DisposeHandle_Ref_AtomicSafetyHandle == null)
 				{
-					r_RDisposeHandle_Ref_AtomicSafetyHandle = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "DisposeHandle", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle).MakeByRefType());
-					r_RDisposeHandle_Ref_AtomicSafetyHandle.SetBelong(null);
+					r_DisposeHandle_Ref_AtomicSafetyHandle = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "DisposeHandle", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle).MakeByRefType());
+					r_DisposeHandle_Ref_AtomicSafetyHandle.SetBelong(null);
 				}
-				return r_RDisposeHandle_Ref_AtomicSafetyHandle;
+				return r_DisposeHandle_Ref_AtomicSafetyHandle;
 			}
 		}
 
 		/// <summary>
 		/// Void Create_Injected(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle ByRef)
 		/// </summary>
-		protected static RMethod r_RCreate_Injected_Out_AtomicSafetyHandle;
+		protected static RMethod r_Create_Injected_Out_AtomicSafetyHandle;
 		public static RMethod RCreate_Injected_Out_AtomicSafetyHandle
 		{
 			get
 			{
-				if(r_RCreate_Injected_Out_AtomicSafetyHandle == null)
+				if(r_Create_Injected_Out_AtomicSafetyHandle == null)
 				{
-					r_RCreate_Injected_Out_AtomicSafetyHandle = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "Create_Injected", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle).MakeByRefType());
-					r_RCreate_Injected_Out_AtomicSafetyHandle.SetBelong(null);
+					r_Create_Injected_Out_AtomicSafetyHandle = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "Create_Injected", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle).MakeByRefType());
+					r_Create_Injected_Out_AtomicSafetyHandle.SetBelong(null);
 				}
-				return r_RCreate_Injected_Out_AtomicSafetyHandle;
+				return r_Create_Injected_Out_AtomicSafetyHandle;
 			}
 		}
 
 		/// <summary>
 		/// Void GetTempUnsafePtrSliceHandle_Injected(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle ByRef)
 		/// </summary>
-		protected static RMethod r_RGetTempUnsafePtrSliceHandle_Injected_Out_AtomicSafetyHandle;
+		protected static RMethod r_GetTempUnsafePtrSliceHandle_Injected_Out_AtomicSafetyHandle;
 		public static RMethod RGetTempUnsafePtrSliceHandle_Injected_Out_AtomicSafetyHandle
 		{
 			get
 			{
-				if(r_RGetTempUnsafePtrSliceHandle_Injected_Out_AtomicSafetyHandle == null)
+				if(r_GetTempUnsafePtrSliceHandle_Injected_Out_AtomicSafetyHandle == null)
 				{
-					r_RGetTempUnsafePtrSliceHandle_Injected_Out_AtomicSafetyHandle = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "GetTempUnsafePtrSliceHandle_Injected", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle).MakeByRefType());
-					r_RGetTempUnsafePtrSliceHandle_Injected_Out_AtomicSafetyHandle.SetBelong(null);
+					r_GetTempUnsafePtrSliceHandle_Injected_Out_AtomicSafetyHandle = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "GetTempUnsafePtrSliceHandle_Injected", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle).MakeByRefType());
+					r_GetTempUnsafePtrSliceHandle_Injected_Out_AtomicSafetyHandle.SetBelong(null);
 				}
-				return r_RGetTempUnsafePtrSliceHandle_Injected_Out_AtomicSafetyHandle;
+				return r_GetTempUnsafePtrSliceHandle_Injected_Out_AtomicSafetyHandle;
 			}
 		}
 
 		/// <summary>
 		/// Void GetTempMemoryHandle_Injected(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle ByRef)
 		/// </summary>
-		protected static RMethod r_RGetTempMemoryHandle_Injected_Out_AtomicSafetyHandle;
+		protected static RMethod r_GetTempMemoryHandle_Injected_Out_AtomicSafetyHandle;
 		public static RMethod RGetTempMemoryHandle_Injected_Out_AtomicSafetyHandle
 		{
 			get
 			{
-				if(r_RGetTempMemoryHandle_Injected_Out_AtomicSafetyHandle == null)
+				if(r_GetTempMemoryHandle_Injected_Out_AtomicSafetyHandle == null)
 				{
-					r_RGetTempMemoryHandle_Injected_Out_AtomicSafetyHandle = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "GetTempMemoryHandle_Injected", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle).MakeByRefType());
-					r_RGetTempMemoryHandle_Injected_Out_AtomicSafetyHandle.SetBelong(null);
+					r_GetTempMemoryHandle_Injected_Out_AtomicSafetyHandle = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "GetTempMemoryHandle_Injected", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle).MakeByRefType());
+					r_GetTempMemoryHandle_Injected_Out_AtomicSafetyHandle.SetBelong(null);
 				}
-				return r_RGetTempMemoryHandle_Injected_Out_AtomicSafetyHandle;
+				return r_GetTempMemoryHandle_Injected_Out_AtomicSafetyHandle;
 			}
 		}
 
 		/// <summary>
 		/// Boolean IsTempMemoryHandle_Injected(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle ByRef)
 		/// </summary>
-		protected static RMethod r_RIsTempMemoryHandle_Injected_Ref_AtomicSafetyHandle;
+		protected static RMethod r_IsTempMemoryHandle_Injected_Ref_AtomicSafetyHandle;
 		public static RMethod RIsTempMemoryHandle_Injected_Ref_AtomicSafetyHandle
 		{
 			get
 			{
-				if(r_RIsTempMemoryHandle_Injected_Ref_AtomicSafetyHandle == null)
+				if(r_IsTempMemoryHandle_Injected_Ref_AtomicSafetyHandle == null)
 				{
-					r_RIsTempMemoryHandle_Injected_Ref_AtomicSafetyHandle = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "IsTempMemoryHandle_Injected", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle).MakeByRefType());
-					r_RIsTempMemoryHandle_Injected_Ref_AtomicSafetyHandle.SetBelong(null);
+					r_IsTempMemoryHandle_Injected_Ref_AtomicSafetyHandle = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "IsTempMemoryHandle_Injected", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle).MakeByRefType());
+					r_IsTempMemoryHandle_Injected_Ref_AtomicSafetyHandle.SetBelong(null);
 				}
-				return r_RIsTempMemoryHandle_Injected_Ref_AtomicSafetyHandle;
+				return r_IsTempMemoryHandle_Injected_Ref_AtomicSafetyHandle;
 			}
 		}
 
 		/// <summary>
 		/// Void Release_Injected(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle ByRef)
 		/// </summary>
-		protected static RMethod r_RRelease_Injected_Ref_AtomicSafetyHandle;
+		protected static RMethod r_Release_Injected_Ref_AtomicSafetyHandle;
 		public static RMethod RRelease_Injected_Ref_AtomicSafetyHandle
 		{
 			get
 			{
-				if(r_RRelease_Injected_Ref_AtomicSafetyHandle == null)
+				if(r_Release_Injected_Ref_AtomicSafetyHandle == null)
 				{
-					r_RRelease_Injected_Ref_AtomicSafetyHandle = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "Release_Injected", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle).MakeByRefType());
-					r_RRelease_Injected_Ref_AtomicSafetyHandle.SetBelong(null);
+					r_Release_Injected_Ref_AtomicSafetyHandle = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "Release_Injected", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle).MakeByRefType());
+					r_Release_Injected_Ref_AtomicSafetyHandle.SetBelong(null);
 				}
-				return r_RRelease_Injected_Ref_AtomicSafetyHandle;
+				return r_Release_Injected_Ref_AtomicSafetyHandle;
 			}
 		}
 
 		/// <summary>
 		/// Void SetAllowSecondaryVersionWriting_Injected(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle ByRef, Boolean)
 		/// </summary>
-		protected static RMethod r_RSetAllowSecondaryVersionWriting_Injected_Ref_AtomicSafetyHandle_Boolean;
+		protected static RMethod r_SetAllowSecondaryVersionWriting_Injected_Ref_AtomicSafetyHandle_Boolean;
 		public static RMethod RSetAllowSecondaryVersionWriting_Injected_Ref_AtomicSafetyHandle_Boolean
 		{
 			get
 			{
-				if(r_RSetAllowSecondaryVersionWriting_Injected_Ref_AtomicSafetyHandle_Boolean == null)
+				if(r_SetAllowSecondaryVersionWriting_Injected_Ref_AtomicSafetyHandle_Boolean == null)
 				{
-					r_RSetAllowSecondaryVersionWriting_Injected_Ref_AtomicSafetyHandle_Boolean = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "SetAllowSecondaryVersionWriting_Injected", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle).MakeByRefType(), typeof(System.Boolean));
-					r_RSetAllowSecondaryVersionWriting_Injected_Ref_AtomicSafetyHandle_Boolean.SetBelong(null);
+					r_SetAllowSecondaryVersionWriting_Injected_Ref_AtomicSafetyHandle_Boolean = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "SetAllowSecondaryVersionWriting_Injected", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle).MakeByRefType(), typeof(System.Boolean));
+					r_SetAllowSecondaryVersionWriting_Injected_Ref_AtomicSafetyHandle_Boolean.SetBelong(null);
 				}
-				return r_RSetAllowSecondaryVersionWriting_Injected_Ref_AtomicSafetyHandle_Boolean;
+				return r_SetAllowSecondaryVersionWriting_Injected_Ref_AtomicSafetyHandle_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Void SetBumpSecondaryVersionOnScheduleWrite_Injected(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle ByRef, Boolean)
 		/// </summary>
-		protected static RMethod r_RSetBumpSecondaryVersionOnScheduleWrite_Injected_Ref_AtomicSafetyHandle_Boolean;
+		protected static RMethod r_SetBumpSecondaryVersionOnScheduleWrite_Injected_Ref_AtomicSafetyHandle_Boolean;
 		public static RMethod RSetBumpSecondaryVersionOnScheduleWrite_Injected_Ref_AtomicSafetyHandle_Boolean
 		{
 			get
 			{
-				if(r_RSetBumpSecondaryVersionOnScheduleWrite_Injected_Ref_AtomicSafetyHandle_Boolean == null)
+				if(r_SetBumpSecondaryVersionOnScheduleWrite_Injected_Ref_AtomicSafetyHandle_Boolean == null)
 				{
-					r_RSetBumpSecondaryVersionOnScheduleWrite_Injected_Ref_AtomicSafetyHandle_Boolean = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "SetBumpSecondaryVersionOnScheduleWrite_Injected", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle).MakeByRefType(), typeof(System.Boolean));
-					r_RSetBumpSecondaryVersionOnScheduleWrite_Injected_Ref_AtomicSafetyHandle_Boolean.SetBelong(null);
+					r_SetBumpSecondaryVersionOnScheduleWrite_Injected_Ref_AtomicSafetyHandle_Boolean = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "SetBumpSecondaryVersionOnScheduleWrite_Injected", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle).MakeByRefType(), typeof(System.Boolean));
+					r_SetBumpSecondaryVersionOnScheduleWrite_Injected_Ref_AtomicSafetyHandle_Boolean.SetBelong(null);
 				}
-				return r_RSetBumpSecondaryVersionOnScheduleWrite_Injected_Ref_AtomicSafetyHandle_Boolean;
+				return r_SetBumpSecondaryVersionOnScheduleWrite_Injected_Ref_AtomicSafetyHandle_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Void SetAllowReadOrWriteAccess_Injected(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle ByRef, Boolean)
 		/// </summary>
-		protected static RMethod r_RSetAllowReadOrWriteAccess_Injected_Ref_AtomicSafetyHandle_Boolean;
+		protected static RMethod r_SetAllowReadOrWriteAccess_Injected_Ref_AtomicSafetyHandle_Boolean;
 		public static RMethod RSetAllowReadOrWriteAccess_Injected_Ref_AtomicSafetyHandle_Boolean
 		{
 			get
 			{
-				if(r_RSetAllowReadOrWriteAccess_Injected_Ref_AtomicSafetyHandle_Boolean == null)
+				if(r_SetAllowReadOrWriteAccess_Injected_Ref_AtomicSafetyHandle_Boolean == null)
 				{
-					r_RSetAllowReadOrWriteAccess_Injected_Ref_AtomicSafetyHandle_Boolean = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "SetAllowReadOrWriteAccess_Injected", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle).MakeByRefType(), typeof(System.Boolean));
-					r_RSetAllowReadOrWriteAccess_Injected_Ref_AtomicSafetyHandle_Boolean.SetBelong(null);
+					r_SetAllowReadOrWriteAccess_Injected_Ref_AtomicSafetyHandle_Boolean = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "SetAllowReadOrWriteAccess_Injected", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle).MakeByRefType(), typeof(System.Boolean));
+					r_SetAllowReadOrWriteAccess_Injected_Ref_AtomicSafetyHandle_Boolean.SetBelong(null);
 				}
-				return r_RSetAllowReadOrWriteAccess_Injected_Ref_AtomicSafetyHandle_Boolean;
+				return r_SetAllowReadOrWriteAccess_Injected_Ref_AtomicSafetyHandle_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Boolean GetAllowReadOrWriteAccess_Injected(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle ByRef)
 		/// </summary>
-		protected static RMethod r_RGetAllowReadOrWriteAccess_Injected_Ref_AtomicSafetyHandle;
+		protected static RMethod r_GetAllowReadOrWriteAccess_Injected_Ref_AtomicSafetyHandle;
 		public static RMethod RGetAllowReadOrWriteAccess_Injected_Ref_AtomicSafetyHandle
 		{
 			get
 			{
-				if(r_RGetAllowReadOrWriteAccess_Injected_Ref_AtomicSafetyHandle == null)
+				if(r_GetAllowReadOrWriteAccess_Injected_Ref_AtomicSafetyHandle == null)
 				{
-					r_RGetAllowReadOrWriteAccess_Injected_Ref_AtomicSafetyHandle = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "GetAllowReadOrWriteAccess_Injected", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle).MakeByRefType());
-					r_RGetAllowReadOrWriteAccess_Injected_Ref_AtomicSafetyHandle.SetBelong(null);
+					r_GetAllowReadOrWriteAccess_Injected_Ref_AtomicSafetyHandle = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "GetAllowReadOrWriteAccess_Injected", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle).MakeByRefType());
+					r_GetAllowReadOrWriteAccess_Injected_Ref_AtomicSafetyHandle.SetBelong(null);
 				}
-				return r_RGetAllowReadOrWriteAccess_Injected_Ref_AtomicSafetyHandle;
+				return r_GetAllowReadOrWriteAccess_Injected_Ref_AtomicSafetyHandle;
 			}
 		}
 
 		/// <summary>
 		/// Void SetNestedContainer_Injected(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle ByRef, Boolean)
 		/// </summary>
-		protected static RMethod r_RSetNestedContainer_Injected_Ref_AtomicSafetyHandle_Boolean;
+		protected static RMethod r_SetNestedContainer_Injected_Ref_AtomicSafetyHandle_Boolean;
 		public static RMethod RSetNestedContainer_Injected_Ref_AtomicSafetyHandle_Boolean
 		{
 			get
 			{
-				if(r_RSetNestedContainer_Injected_Ref_AtomicSafetyHandle_Boolean == null)
+				if(r_SetNestedContainer_Injected_Ref_AtomicSafetyHandle_Boolean == null)
 				{
-					r_RSetNestedContainer_Injected_Ref_AtomicSafetyHandle_Boolean = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "SetNestedContainer_Injected", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle).MakeByRefType(), typeof(System.Boolean));
-					r_RSetNestedContainer_Injected_Ref_AtomicSafetyHandle_Boolean.SetBelong(null);
+					r_SetNestedContainer_Injected_Ref_AtomicSafetyHandle_Boolean = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "SetNestedContainer_Injected", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle).MakeByRefType(), typeof(System.Boolean));
+					r_SetNestedContainer_Injected_Ref_AtomicSafetyHandle_Boolean.SetBelong(null);
 				}
-				return r_RSetNestedContainer_Injected_Ref_AtomicSafetyHandle_Boolean;
+				return r_SetNestedContainer_Injected_Ref_AtomicSafetyHandle_Boolean;
 			}
 		}
 
 		/// <summary>
 		/// Boolean GetNestedContainer_Injected(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle ByRef)
 		/// </summary>
-		protected static RMethod r_RGetNestedContainer_Injected_Ref_AtomicSafetyHandle;
+		protected static RMethod r_GetNestedContainer_Injected_Ref_AtomicSafetyHandle;
 		public static RMethod RGetNestedContainer_Injected_Ref_AtomicSafetyHandle
 		{
 			get
 			{
-				if(r_RGetNestedContainer_Injected_Ref_AtomicSafetyHandle == null)
+				if(r_GetNestedContainer_Injected_Ref_AtomicSafetyHandle == null)
 				{
-					r_RGetNestedContainer_Injected_Ref_AtomicSafetyHandle = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "GetNestedContainer_Injected", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle).MakeByRefType());
-					r_RGetNestedContainer_Injected_Ref_AtomicSafetyHandle.SetBelong(null);
+					r_GetNestedContainer_Injected_Ref_AtomicSafetyHandle = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "GetNestedContainer_Injected", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle).MakeByRefType());
+					r_GetNestedContainer_Injected_Ref_AtomicSafetyHandle.SetBelong(null);
 				}
-				return r_RGetNestedContainer_Injected_Ref_AtomicSafetyHandle;
+				return r_GetNestedContainer_Injected_Ref_AtomicSafetyHandle;
 			}
 		}
 
 		/// <summary>
 		/// Void CheckWriteAndBumpSecondaryVersion_Injected(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle ByRef)
 		/// </summary>
-		protected static RMethod r_RCheckWriteAndBumpSecondaryVersion_Injected_Ref_AtomicSafetyHandle;
+		protected static RMethod r_CheckWriteAndBumpSecondaryVersion_Injected_Ref_AtomicSafetyHandle;
 		public static RMethod RCheckWriteAndBumpSecondaryVersion_Injected_Ref_AtomicSafetyHandle
 		{
 			get
 			{
-				if(r_RCheckWriteAndBumpSecondaryVersion_Injected_Ref_AtomicSafetyHandle == null)
+				if(r_CheckWriteAndBumpSecondaryVersion_Injected_Ref_AtomicSafetyHandle == null)
 				{
-					r_RCheckWriteAndBumpSecondaryVersion_Injected_Ref_AtomicSafetyHandle = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "CheckWriteAndBumpSecondaryVersion_Injected", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle).MakeByRefType());
-					r_RCheckWriteAndBumpSecondaryVersion_Injected_Ref_AtomicSafetyHandle.SetBelong(null);
+					r_CheckWriteAndBumpSecondaryVersion_Injected_Ref_AtomicSafetyHandle = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "CheckWriteAndBumpSecondaryVersion_Injected", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle).MakeByRefType());
+					r_CheckWriteAndBumpSecondaryVersion_Injected_Ref_AtomicSafetyHandle.SetBelong(null);
 				}
-				return r_RCheckWriteAndBumpSecondaryVersion_Injected_Ref_AtomicSafetyHandle;
+				return r_CheckWriteAndBumpSecondaryVersion_Injected_Ref_AtomicSafetyHandle;
 			}
 		}
 
 		/// <summary>
 		/// Unity.Collections.LowLevel.Unsafe.EnforceJobResult EnforceAllBufferJobsHaveCompleted_Injected(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle ByRef)
 		/// </summary>
-		protected static RMethod r_REnforceAllBufferJobsHaveCompleted_Injected_Ref_AtomicSafetyHandle;
+		protected static RMethod r_EnforceAllBufferJobsHaveCompleted_Injected_Ref_AtomicSafetyHandle;
 		public static RMethod REnforceAllBufferJobsHaveCompleted_Injected_Ref_AtomicSafetyHandle
 		{
 			get
 			{
-				if(r_REnforceAllBufferJobsHaveCompleted_Injected_Ref_AtomicSafetyHandle == null)
+				if(r_EnforceAllBufferJobsHaveCompleted_Injected_Ref_AtomicSafetyHandle == null)
 				{
-					r_REnforceAllBufferJobsHaveCompleted_Injected_Ref_AtomicSafetyHandle = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "EnforceAllBufferJobsHaveCompleted_Injected", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle).MakeByRefType());
-					r_REnforceAllBufferJobsHaveCompleted_Injected_Ref_AtomicSafetyHandle.SetBelong(null);
+					r_EnforceAllBufferJobsHaveCompleted_Injected_Ref_AtomicSafetyHandle = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "EnforceAllBufferJobsHaveCompleted_Injected", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle).MakeByRefType());
+					r_EnforceAllBufferJobsHaveCompleted_Injected_Ref_AtomicSafetyHandle.SetBelong(null);
 				}
-				return r_REnforceAllBufferJobsHaveCompleted_Injected_Ref_AtomicSafetyHandle;
+				return r_EnforceAllBufferJobsHaveCompleted_Injected_Ref_AtomicSafetyHandle;
 			}
 		}
 
 		/// <summary>
 		/// Unity.Collections.LowLevel.Unsafe.EnforceJobResult EnforceAllBufferJobsHaveCompletedAndRelease_Injected(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle ByRef)
 		/// </summary>
-		protected static RMethod r_REnforceAllBufferJobsHaveCompletedAndRelease_Injected_Ref_AtomicSafetyHandle;
+		protected static RMethod r_EnforceAllBufferJobsHaveCompletedAndRelease_Injected_Ref_AtomicSafetyHandle;
 		public static RMethod REnforceAllBufferJobsHaveCompletedAndRelease_Injected_Ref_AtomicSafetyHandle
 		{
 			get
 			{
-				if(r_REnforceAllBufferJobsHaveCompletedAndRelease_Injected_Ref_AtomicSafetyHandle == null)
+				if(r_EnforceAllBufferJobsHaveCompletedAndRelease_Injected_Ref_AtomicSafetyHandle == null)
 				{
-					r_REnforceAllBufferJobsHaveCompletedAndRelease_Injected_Ref_AtomicSafetyHandle = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "EnforceAllBufferJobsHaveCompletedAndRelease_Injected", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle).MakeByRefType());
-					r_REnforceAllBufferJobsHaveCompletedAndRelease_Injected_Ref_AtomicSafetyHandle.SetBelong(null);
+					r_EnforceAllBufferJobsHaveCompletedAndRelease_Injected_Ref_AtomicSafetyHandle = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "EnforceAllBufferJobsHaveCompletedAndRelease_Injected", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle).MakeByRefType());
+					r_EnforceAllBufferJobsHaveCompletedAndRelease_Injected_Ref_AtomicSafetyHandle.SetBelong(null);
 				}
-				return r_REnforceAllBufferJobsHaveCompletedAndRelease_Injected_Ref_AtomicSafetyHandle;
+				return r_EnforceAllBufferJobsHaveCompletedAndRelease_Injected_Ref_AtomicSafetyHandle;
 			}
 		}
 
 		/// <summary>
 		/// Unity.Collections.LowLevel.Unsafe.EnforceJobResult EnforceAllBufferJobsHaveCompletedAndDisableReadWrite_Injected(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle ByRef)
 		/// </summary>
-		protected static RMethod r_REnforceAllBufferJobsHaveCompletedAndDisableReadWrite_Injected_Ref_AtomicSafetyHandle;
+		protected static RMethod r_EnforceAllBufferJobsHaveCompletedAndDisableReadWrite_Injected_Ref_AtomicSafetyHandle;
 		public static RMethod REnforceAllBufferJobsHaveCompletedAndDisableReadWrite_Injected_Ref_AtomicSafetyHandle
 		{
 			get
 			{
-				if(r_REnforceAllBufferJobsHaveCompletedAndDisableReadWrite_Injected_Ref_AtomicSafetyHandle == null)
+				if(r_EnforceAllBufferJobsHaveCompletedAndDisableReadWrite_Injected_Ref_AtomicSafetyHandle == null)
 				{
-					r_REnforceAllBufferJobsHaveCompletedAndDisableReadWrite_Injected_Ref_AtomicSafetyHandle = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "EnforceAllBufferJobsHaveCompletedAndDisableReadWrite_Injected", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle).MakeByRefType());
-					r_REnforceAllBufferJobsHaveCompletedAndDisableReadWrite_Injected_Ref_AtomicSafetyHandle.SetBelong(null);
+					r_EnforceAllBufferJobsHaveCompletedAndDisableReadWrite_Injected_Ref_AtomicSafetyHandle = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "EnforceAllBufferJobsHaveCompletedAndDisableReadWrite_Injected", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle).MakeByRefType());
+					r_EnforceAllBufferJobsHaveCompletedAndDisableReadWrite_Injected_Ref_AtomicSafetyHandle.SetBelong(null);
 				}
-				return r_REnforceAllBufferJobsHaveCompletedAndDisableReadWrite_Injected_Ref_AtomicSafetyHandle;
+				return r_EnforceAllBufferJobsHaveCompletedAndDisableReadWrite_Injected_Ref_AtomicSafetyHandle;
 			}
 		}
 
 		/// <summary>
 		/// Void CheckReadAndThrowNoEarlyOut_Injected(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle ByRef)
 		/// </summary>
-		protected static RMethod r_RCheckReadAndThrowNoEarlyOut_Injected_Ref_AtomicSafetyHandle;
+		protected static RMethod r_CheckReadAndThrowNoEarlyOut_Injected_Ref_AtomicSafetyHandle;
 		public static RMethod RCheckReadAndThrowNoEarlyOut_Injected_Ref_AtomicSafetyHandle
 		{
 			get
 			{
-				if(r_RCheckReadAndThrowNoEarlyOut_Injected_Ref_AtomicSafetyHandle == null)
+				if(r_CheckReadAndThrowNoEarlyOut_Injected_Ref_AtomicSafetyHandle == null)
 				{
-					r_RCheckReadAndThrowNoEarlyOut_Injected_Ref_AtomicSafetyHandle = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "CheckReadAndThrowNoEarlyOut_Injected", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle).MakeByRefType());
-					r_RCheckReadAndThrowNoEarlyOut_Injected_Ref_AtomicSafetyHandle.SetBelong(null);
+					r_CheckReadAndThrowNoEarlyOut_Injected_Ref_AtomicSafetyHandle = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "CheckReadAndThrowNoEarlyOut_Injected", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle).MakeByRefType());
+					r_CheckReadAndThrowNoEarlyOut_Injected_Ref_AtomicSafetyHandle.SetBelong(null);
 				}
-				return r_RCheckReadAndThrowNoEarlyOut_Injected_Ref_AtomicSafetyHandle;
+				return r_CheckReadAndThrowNoEarlyOut_Injected_Ref_AtomicSafetyHandle;
 			}
 		}
 
 		/// <summary>
 		/// Void CheckWriteAndThrowNoEarlyOut_Injected(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle ByRef)
 		/// </summary>
-		protected static RMethod r_RCheckWriteAndThrowNoEarlyOut_Injected_Ref_AtomicSafetyHandle;
+		protected static RMethod r_CheckWriteAndThrowNoEarlyOut_Injected_Ref_AtomicSafetyHandle;
 		public static RMethod RCheckWriteAndThrowNoEarlyOut_Injected_Ref_AtomicSafetyHandle
 		{
 			get
 			{
-				if(r_RCheckWriteAndThrowNoEarlyOut_Injected_Ref_AtomicSafetyHandle == null)
+				if(r_CheckWriteAndThrowNoEarlyOut_Injected_Ref_AtomicSafetyHandle == null)
 				{
-					r_RCheckWriteAndThrowNoEarlyOut_Injected_Ref_AtomicSafetyHandle = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "CheckWriteAndThrowNoEarlyOut_Injected", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle).MakeByRefType());
-					r_RCheckWriteAndThrowNoEarlyOut_Injected_Ref_AtomicSafetyHandle.SetBelong(null);
+					r_CheckWriteAndThrowNoEarlyOut_Injected_Ref_AtomicSafetyHandle = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "CheckWriteAndThrowNoEarlyOut_Injected", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle).MakeByRefType());
+					r_CheckWriteAndThrowNoEarlyOut_Injected_Ref_AtomicSafetyHandle.SetBelong(null);
 				}
-				return r_RCheckWriteAndThrowNoEarlyOut_Injected_Ref_AtomicSafetyHandle;
+				return r_CheckWriteAndThrowNoEarlyOut_Injected_Ref_AtomicSafetyHandle;
 			}
 		}
 
 		/// <summary>
 		/// Void CheckDeallocateAndThrow_Injected(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle ByRef)
 		/// </summary>
-		protected static RMethod r_RCheckDeallocateAndThrow_Injected_Ref_AtomicSafetyHandle;
+		protected static RMethod r_CheckDeallocateAndThrow_Injected_Ref_AtomicSafetyHandle;
 		public static RMethod RCheckDeallocateAndThrow_Injected_Ref_AtomicSafetyHandle
 		{
 			get
 			{
-				if(r_RCheckDeallocateAndThrow_Injected_Ref_AtomicSafetyHandle == null)
+				if(r_CheckDeallocateAndThrow_Injected_Ref_AtomicSafetyHandle == null)
 				{
-					r_RCheckDeallocateAndThrow_Injected_Ref_AtomicSafetyHandle = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "CheckDeallocateAndThrow_Injected", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle).MakeByRefType());
-					r_RCheckDeallocateAndThrow_Injected_Ref_AtomicSafetyHandle.SetBelong(null);
+					r_CheckDeallocateAndThrow_Injected_Ref_AtomicSafetyHandle = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "CheckDeallocateAndThrow_Injected", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle).MakeByRefType());
+					r_CheckDeallocateAndThrow_Injected_Ref_AtomicSafetyHandle.SetBelong(null);
 				}
-				return r_RCheckDeallocateAndThrow_Injected_Ref_AtomicSafetyHandle;
+				return r_CheckDeallocateAndThrow_Injected_Ref_AtomicSafetyHandle;
 			}
 		}
 
 		/// <summary>
 		/// Void CheckGetSecondaryDataPointerAndThrow_Injected(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle ByRef)
 		/// </summary>
-		protected static RMethod r_RCheckGetSecondaryDataPointerAndThrow_Injected_Ref_AtomicSafetyHandle;
+		protected static RMethod r_CheckGetSecondaryDataPointerAndThrow_Injected_Ref_AtomicSafetyHandle;
 		public static RMethod RCheckGetSecondaryDataPointerAndThrow_Injected_Ref_AtomicSafetyHandle
 		{
 			get
 			{
-				if(r_RCheckGetSecondaryDataPointerAndThrow_Injected_Ref_AtomicSafetyHandle == null)
+				if(r_CheckGetSecondaryDataPointerAndThrow_Injected_Ref_AtomicSafetyHandle == null)
 				{
-					r_RCheckGetSecondaryDataPointerAndThrow_Injected_Ref_AtomicSafetyHandle = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "CheckGetSecondaryDataPointerAndThrow_Injected", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle).MakeByRefType());
-					r_RCheckGetSecondaryDataPointerAndThrow_Injected_Ref_AtomicSafetyHandle.SetBelong(null);
+					r_CheckGetSecondaryDataPointerAndThrow_Injected_Ref_AtomicSafetyHandle = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "CheckGetSecondaryDataPointerAndThrow_Injected", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle).MakeByRefType());
+					r_CheckGetSecondaryDataPointerAndThrow_Injected_Ref_AtomicSafetyHandle.SetBelong(null);
 				}
-				return r_RCheckGetSecondaryDataPointerAndThrow_Injected_Ref_AtomicSafetyHandle;
+				return r_CheckGetSecondaryDataPointerAndThrow_Injected_Ref_AtomicSafetyHandle;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetReaderArray_Injected(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle ByRef, Int32, IntPtr)
 		/// </summary>
-		protected static RMethod r_RGetReaderArray_Injected_Ref_AtomicSafetyHandle_Int32_IntPtr;
+		protected static RMethod r_GetReaderArray_Injected_Ref_AtomicSafetyHandle_Int32_IntPtr;
 		public static RMethod RGetReaderArray_Injected_Ref_AtomicSafetyHandle_Int32_IntPtr
 		{
 			get
 			{
-				if(r_RGetReaderArray_Injected_Ref_AtomicSafetyHandle_Int32_IntPtr == null)
+				if(r_GetReaderArray_Injected_Ref_AtomicSafetyHandle_Int32_IntPtr == null)
 				{
-					r_RGetReaderArray_Injected_Ref_AtomicSafetyHandle_Int32_IntPtr = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "GetReaderArray_Injected", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle).MakeByRefType(), typeof(System.Int32), typeof(System.IntPtr));
-					r_RGetReaderArray_Injected_Ref_AtomicSafetyHandle_Int32_IntPtr.SetBelong(null);
+					r_GetReaderArray_Injected_Ref_AtomicSafetyHandle_Int32_IntPtr = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "GetReaderArray_Injected", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle).MakeByRefType(), typeof(System.Int32), typeof(System.IntPtr));
+					r_GetReaderArray_Injected_Ref_AtomicSafetyHandle_Int32_IntPtr.SetBelong(null);
 				}
-				return r_RGetReaderArray_Injected_Ref_AtomicSafetyHandle_Int32_IntPtr;
+				return r_GetReaderArray_Injected_Ref_AtomicSafetyHandle_Int32_IntPtr;
 			}
 		}
 
 		/// <summary>
 		/// Void GetWriter_Injected(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle ByRef, Unity.Jobs.JobHandle ByRef)
 		/// </summary>
-		protected static RMethod r_RGetWriter_Injected_Ref_AtomicSafetyHandle_Out_JobHandle;
+		protected static RMethod r_GetWriter_Injected_Ref_AtomicSafetyHandle_Out_JobHandle;
 		public static RMethod RGetWriter_Injected_Ref_AtomicSafetyHandle_Out_JobHandle
 		{
 			get
 			{
-				if(r_RGetWriter_Injected_Ref_AtomicSafetyHandle_Out_JobHandle == null)
+				if(r_GetWriter_Injected_Ref_AtomicSafetyHandle_Out_JobHandle == null)
 				{
-					r_RGetWriter_Injected_Ref_AtomicSafetyHandle_Out_JobHandle = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "GetWriter_Injected", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle).MakeByRefType(), typeof(Unity.Jobs.JobHandle).MakeByRefType());
-					r_RGetWriter_Injected_Ref_AtomicSafetyHandle_Out_JobHandle.SetBelong(null);
+					r_GetWriter_Injected_Ref_AtomicSafetyHandle_Out_JobHandle = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "GetWriter_Injected", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle).MakeByRefType(), typeof(Unity.Jobs.JobHandle).MakeByRefType());
+					r_GetWriter_Injected_Ref_AtomicSafetyHandle_Out_JobHandle.SetBelong(null);
 				}
-				return r_RGetWriter_Injected_Ref_AtomicSafetyHandle_Out_JobHandle;
+				return r_GetWriter_Injected_Ref_AtomicSafetyHandle_Out_JobHandle;
 			}
 		}
 
 		/// <summary>
 		/// System.String GetReaderName_Injected(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle ByRef, Int32)
 		/// </summary>
-		protected static RMethod r_RGetReaderName_Injected_Ref_AtomicSafetyHandle_Int32;
+		protected static RMethod r_GetReaderName_Injected_Ref_AtomicSafetyHandle_Int32;
 		public static RMethod RGetReaderName_Injected_Ref_AtomicSafetyHandle_Int32
 		{
 			get
 			{
-				if(r_RGetReaderName_Injected_Ref_AtomicSafetyHandle_Int32 == null)
+				if(r_GetReaderName_Injected_Ref_AtomicSafetyHandle_Int32 == null)
 				{
-					r_RGetReaderName_Injected_Ref_AtomicSafetyHandle_Int32 = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "GetReaderName_Injected", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle).MakeByRefType(), typeof(System.Int32));
-					r_RGetReaderName_Injected_Ref_AtomicSafetyHandle_Int32.SetBelong(null);
+					r_GetReaderName_Injected_Ref_AtomicSafetyHandle_Int32 = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "GetReaderName_Injected", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle).MakeByRefType(), typeof(System.Int32));
+					r_GetReaderName_Injected_Ref_AtomicSafetyHandle_Int32.SetBelong(null);
 				}
-				return r_RGetReaderName_Injected_Ref_AtomicSafetyHandle_Int32;
+				return r_GetReaderName_Injected_Ref_AtomicSafetyHandle_Int32;
 			}
 		}
 
 		/// <summary>
 		/// System.String GetWriterName_Injected(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle ByRef)
 		/// </summary>
-		protected static RMethod r_RGetWriterName_Injected_Ref_AtomicSafetyHandle;
+		protected static RMethod r_GetWriterName_Injected_Ref_AtomicSafetyHandle;
 		public static RMethod RGetWriterName_Injected_Ref_AtomicSafetyHandle
 		{
 			get
 			{
-				if(r_RGetWriterName_Injected_Ref_AtomicSafetyHandle == null)
+				if(r_GetWriterName_Injected_Ref_AtomicSafetyHandle == null)
 				{
-					r_RGetWriterName_Injected_Ref_AtomicSafetyHandle = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "GetWriterName_Injected", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle).MakeByRefType());
-					r_RGetWriterName_Injected_Ref_AtomicSafetyHandle.SetBelong(null);
+					r_GetWriterName_Injected_Ref_AtomicSafetyHandle = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "GetWriterName_Injected", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle).MakeByRefType());
+					r_GetWriterName_Injected_Ref_AtomicSafetyHandle.SetBelong(null);
 				}
-				return r_RGetWriterName_Injected_Ref_AtomicSafetyHandle;
+				return r_GetWriterName_Injected_Ref_AtomicSafetyHandle;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Equals(System.Object)
 		/// </summary>
-		protected RMethod r_REquals_Object;
+		protected RMethod r_Equals_Object;
 		public virtual RMethod REquals_Object
 		{
 			get
 			{
-				if(r_REquals_Object == null)
+				if(r_Equals_Object == null)
 				{
-					r_REquals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_REquals_Object.SetBelong(this.instance);
+					r_Equals_Object = new(this, "Equals", 0, typeof(System.Object));
+					r_Equals_Object.SetBelong(this.instance);
 				}
-				return r_REquals_Object;
+				return r_Equals_Object;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetHashCode()
 		/// </summary>
-		protected RMethod r_RGetHashCode;
+		protected RMethod r_GetHashCode;
 		public virtual RMethod RGetHashCode
 		{
 			get
 			{
-				if(r_RGetHashCode == null)
+				if(r_GetHashCode == null)
 				{
-					r_RGetHashCode = new(this, "GetHashCode", 0);
-					r_RGetHashCode.SetBelong(this.instance);
+					r_GetHashCode = new(this, "GetHashCode", 0);
+					r_GetHashCode.SetBelong(this.instance);
 				}
-				return r_RGetHashCode;
+				return r_GetHashCode;
 			}
 		}
 
 		/// <summary>
 		/// System.String ToString()
 		/// </summary>
-		protected RMethod r_RToString;
+		protected RMethod r_ToString;
 		public virtual RMethod RToString
 		{
 			get
 			{
-				if(r_RToString == null)
+				if(r_ToString == null)
 				{
-					r_RToString = new(this, "ToString", 0);
-					r_RToString.SetBelong(this.instance);
+					r_ToString = new(this, "ToString", 0);
+					r_ToString.SetBelong(this.instance);
 				}
-				return r_RToString;
+				return r_ToString;
 			}
 		}
 
 		/// <summary>
 		/// Void Finalize()
 		/// </summary>
-		protected RMethod r_RFinalize;
+		protected RMethod r_Finalize;
 		public virtual RMethod RFinalize
 		{
 			get
 			{
-				if(r_RFinalize == null)
+				if(r_Finalize == null)
 				{
-					r_RFinalize = new(this, "Finalize", 0);
-					r_RFinalize.SetBelong(this.instance);
+					r_Finalize = new(this, "Finalize", 0);
+					r_Finalize.SetBelong(this.instance);
 				}
-				return r_RFinalize;
+				return r_Finalize;
 			}
 		}
 
 		/// <summary>
 		/// System.Type GetType()
 		/// </summary>
-		protected RMethod r_RGetType;
+		protected RMethod r_GetType;
 		public virtual RMethod RGetType
 		{
 			get
 			{
-				if(r_RGetType == null)
+				if(r_GetType == null)
 				{
-					r_RGetType = new(this, "GetType", 0);
-					r_RGetType.SetBelong(this.instance);
+					r_GetType = new(this, "GetType", 0);
+					r_GetType.SetBelong(this.instance);
 				}
-				return r_RGetType;
+				return r_GetType;
 			}
 		}
 
 		/// <summary>
 		/// System.Object MemberwiseClone()
 		/// </summary>
-		protected RMethod r_RMemberwiseClone;
+		protected RMethod r_MemberwiseClone;
 		public virtual RMethod RMemberwiseClone
 		{
 			get
 			{
-				if(r_RMemberwiseClone == null)
+				if(r_MemberwiseClone == null)
 				{
-					r_RMemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_RMemberwiseClone.SetBelong(this.instance);
+					r_MemberwiseClone = new(this, "MemberwiseClone", 0);
+					r_MemberwiseClone.SetBelong(this.instance);
 				}
-				return r_RMemberwiseClone;
+				return r_MemberwiseClone;
 			}
 		}
 

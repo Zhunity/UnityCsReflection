@@ -421,8 +421,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.CameraProperties+<m_ShadowCullPlanes>e__FixedBuffer m_ShadowCullPlanes
 		/// </summary>
-		protected RUnityEngine.RRendering.RCameraProperties.R__1__m_ShadowCullPlanes__2__e__FixedBuffer r_m_ShadowCullPlanes;
-		public virtual RUnityEngine.RRendering.RCameraProperties.R__1__m_ShadowCullPlanes__2__e__FixedBuffer Rm_ShadowCullPlanes
+		protected RUnityEngine.RRendering.RCameraProperties.R__0__m_ShadowCullPlanes__1__e__FixedBuffer r_m_ShadowCullPlanes;
+		public virtual RUnityEngine.RRendering.RCameraProperties.R__0__m_ShadowCullPlanes__1__e__FixedBuffer Rm_ShadowCullPlanes
 		{
 			get
 			{
@@ -438,8 +438,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.CameraProperties+<m_CameraCullPlanes>e__FixedBuffer m_CameraCullPlanes
 		/// </summary>
-		protected RUnityEngine.RRendering.RCameraProperties.R__1__m_CameraCullPlanes__2__e__FixedBuffer r_m_CameraCullPlanes;
-		public virtual RUnityEngine.RRendering.RCameraProperties.R__1__m_CameraCullPlanes__2__e__FixedBuffer Rm_CameraCullPlanes
+		protected RUnityEngine.RRendering.RCameraProperties.R__0__m_CameraCullPlanes__1__e__FixedBuffer r_m_CameraCullPlanes;
+		public virtual RUnityEngine.RRendering.RCameraProperties.R__0__m_CameraCullPlanes__1__e__FixedBuffer Rm_CameraCullPlanes
 		{
 			get
 			{
@@ -489,8 +489,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Rendering.CameraProperties+<layerCullDistances>e__FixedBuffer layerCullDistances
 		/// </summary>
-		protected RUnityEngine.RRendering.RCameraProperties.R__1__layerCullDistances__2__e__FixedBuffer r_layerCullDistances;
-		public virtual RUnityEngine.RRendering.RCameraProperties.R__1__layerCullDistances__2__e__FixedBuffer RlayerCullDistances
+		protected RUnityEngine.RRendering.RCameraProperties.R__0__layerCullDistances__1__e__FixedBuffer r_layerCullDistances;
+		public virtual RUnityEngine.RRendering.RCameraProperties.R__0__layerCullDistances__1__e__FixedBuffer RlayerCullDistances
 		{
 			get
 			{
@@ -591,221 +591,221 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UnityEngine.Plane GetShadowCullingPlane(Int32)
 		/// </summary>
-		protected RMethod r_RGetShadowCullingPlane_Int32;
+		protected RMethod r_GetShadowCullingPlane_Int32;
 		public virtual RMethod RGetShadowCullingPlane_Int32
 		{
 			get
 			{
-				if(r_RGetShadowCullingPlane_Int32 == null)
+				if(r_GetShadowCullingPlane_Int32 == null)
 				{
-					r_RGetShadowCullingPlane_Int32 = new(this, "GetShadowCullingPlane", 0, typeof(System.Int32));
-					r_RGetShadowCullingPlane_Int32.SetBelong(this.instance);
+					r_GetShadowCullingPlane_Int32 = new(this, "GetShadowCullingPlane", 0, typeof(System.Int32));
+					r_GetShadowCullingPlane_Int32.SetBelong(this.instance);
 				}
-				return r_RGetShadowCullingPlane_Int32;
+				return r_GetShadowCullingPlane_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Void SetShadowCullingPlane(Int32, UnityEngine.Plane)
 		/// </summary>
-		protected RMethod r_RSetShadowCullingPlane_Int32_Plane;
+		protected RMethod r_SetShadowCullingPlane_Int32_Plane;
 		public virtual RMethod RSetShadowCullingPlane_Int32_Plane
 		{
 			get
 			{
-				if(r_RSetShadowCullingPlane_Int32_Plane == null)
+				if(r_SetShadowCullingPlane_Int32_Plane == null)
 				{
-					r_RSetShadowCullingPlane_Int32_Plane = new(this, "SetShadowCullingPlane", 0, typeof(System.Int32), typeof(UnityEngine.Plane));
-					r_RSetShadowCullingPlane_Int32_Plane.SetBelong(this.instance);
+					r_SetShadowCullingPlane_Int32_Plane = new(this, "SetShadowCullingPlane", 0, typeof(System.Int32), typeof(UnityEngine.Plane));
+					r_SetShadowCullingPlane_Int32_Plane.SetBelong(this.instance);
 				}
-				return r_RSetShadowCullingPlane_Int32_Plane;
+				return r_SetShadowCullingPlane_Int32_Plane;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Plane GetCameraCullingPlane(Int32)
 		/// </summary>
-		protected RMethod r_RGetCameraCullingPlane_Int32;
+		protected RMethod r_GetCameraCullingPlane_Int32;
 		public virtual RMethod RGetCameraCullingPlane_Int32
 		{
 			get
 			{
-				if(r_RGetCameraCullingPlane_Int32 == null)
+				if(r_GetCameraCullingPlane_Int32 == null)
 				{
-					r_RGetCameraCullingPlane_Int32 = new(this, "GetCameraCullingPlane", 0, typeof(System.Int32));
-					r_RGetCameraCullingPlane_Int32.SetBelong(this.instance);
+					r_GetCameraCullingPlane_Int32 = new(this, "GetCameraCullingPlane", 0, typeof(System.Int32));
+					r_GetCameraCullingPlane_Int32.SetBelong(this.instance);
 				}
-				return r_RGetCameraCullingPlane_Int32;
+				return r_GetCameraCullingPlane_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Void SetCameraCullingPlane(Int32, UnityEngine.Plane)
 		/// </summary>
-		protected RMethod r_RSetCameraCullingPlane_Int32_Plane;
+		protected RMethod r_SetCameraCullingPlane_Int32_Plane;
 		public virtual RMethod RSetCameraCullingPlane_Int32_Plane
 		{
 			get
 			{
-				if(r_RSetCameraCullingPlane_Int32_Plane == null)
+				if(r_SetCameraCullingPlane_Int32_Plane == null)
 				{
-					r_RSetCameraCullingPlane_Int32_Plane = new(this, "SetCameraCullingPlane", 0, typeof(System.Int32), typeof(UnityEngine.Plane));
-					r_RSetCameraCullingPlane_Int32_Plane.SetBelong(this.instance);
+					r_SetCameraCullingPlane_Int32_Plane = new(this, "SetCameraCullingPlane", 0, typeof(System.Int32), typeof(UnityEngine.Plane));
+					r_SetCameraCullingPlane_Int32_Plane.SetBelong(this.instance);
 				}
-				return r_RSetCameraCullingPlane_Int32_Plane;
+				return r_SetCameraCullingPlane_Int32_Plane;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Equals(UnityEngine.Rendering.CameraProperties)
 		/// </summary>
-		protected RMethod r_REquals_CameraProperties;
+		protected RMethod r_Equals_CameraProperties;
 		public virtual RMethod REquals_CameraProperties
 		{
 			get
 			{
-				if(r_REquals_CameraProperties == null)
+				if(r_Equals_CameraProperties == null)
 				{
-					r_REquals_CameraProperties = new(this, "Equals", 0, typeof(UnityEngine.Rendering.CameraProperties));
-					r_REquals_CameraProperties.SetBelong(this.instance);
+					r_Equals_CameraProperties = new(this, "Equals", 0, typeof(UnityEngine.Rendering.CameraProperties));
+					r_Equals_CameraProperties.SetBelong(this.instance);
 				}
-				return r_REquals_CameraProperties;
+				return r_Equals_CameraProperties;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Equals(System.Object)
 		/// </summary>
-		protected RMethod r_REquals_Object;
+		protected RMethod r_Equals_Object;
 		public virtual RMethod REquals_Object
 		{
 			get
 			{
-				if(r_REquals_Object == null)
+				if(r_Equals_Object == null)
 				{
-					r_REquals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_REquals_Object.SetBelong(this.instance);
+					r_Equals_Object = new(this, "Equals", 0, typeof(System.Object));
+					r_Equals_Object.SetBelong(this.instance);
 				}
-				return r_REquals_Object;
+				return r_Equals_Object;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetHashCode()
 		/// </summary>
-		protected RMethod r_RGetHashCode;
+		protected RMethod r_GetHashCode;
 		public virtual RMethod RGetHashCode
 		{
 			get
 			{
-				if(r_RGetHashCode == null)
+				if(r_GetHashCode == null)
 				{
-					r_RGetHashCode = new(this, "GetHashCode", 0);
-					r_RGetHashCode.SetBelong(this.instance);
+					r_GetHashCode = new(this, "GetHashCode", 0);
+					r_GetHashCode.SetBelong(this.instance);
 				}
-				return r_RGetHashCode;
+				return r_GetHashCode;
 			}
 		}
 
 		/// <summary>
 		/// Boolean op_Equality(UnityEngine.Rendering.CameraProperties, UnityEngine.Rendering.CameraProperties)
 		/// </summary>
-		protected static RMethod r_Rop_Equality_CameraProperties_CameraProperties;
+		protected static RMethod r_op_Equality_CameraProperties_CameraProperties;
 		public static RMethod Rop_Equality_CameraProperties_CameraProperties
 		{
 			get
 			{
-				if(r_Rop_Equality_CameraProperties_CameraProperties == null)
+				if(r_op_Equality_CameraProperties_CameraProperties == null)
 				{
-					r_Rop_Equality_CameraProperties_CameraProperties = new(typeof(UnityEngine.Rendering.CameraProperties), "op_Equality", 0, typeof(UnityEngine.Rendering.CameraProperties), typeof(UnityEngine.Rendering.CameraProperties));
-					r_Rop_Equality_CameraProperties_CameraProperties.SetBelong(null);
+					r_op_Equality_CameraProperties_CameraProperties = new(typeof(UnityEngine.Rendering.CameraProperties), "op_Equality", 0, typeof(UnityEngine.Rendering.CameraProperties), typeof(UnityEngine.Rendering.CameraProperties));
+					r_op_Equality_CameraProperties_CameraProperties.SetBelong(null);
 				}
-				return r_Rop_Equality_CameraProperties_CameraProperties;
+				return r_op_Equality_CameraProperties_CameraProperties;
 			}
 		}
 
 		/// <summary>
 		/// Boolean op_Inequality(UnityEngine.Rendering.CameraProperties, UnityEngine.Rendering.CameraProperties)
 		/// </summary>
-		protected static RMethod r_Rop_Inequality_CameraProperties_CameraProperties;
+		protected static RMethod r_op_Inequality_CameraProperties_CameraProperties;
 		public static RMethod Rop_Inequality_CameraProperties_CameraProperties
 		{
 			get
 			{
-				if(r_Rop_Inequality_CameraProperties_CameraProperties == null)
+				if(r_op_Inequality_CameraProperties_CameraProperties == null)
 				{
-					r_Rop_Inequality_CameraProperties_CameraProperties = new(typeof(UnityEngine.Rendering.CameraProperties), "op_Inequality", 0, typeof(UnityEngine.Rendering.CameraProperties), typeof(UnityEngine.Rendering.CameraProperties));
-					r_Rop_Inequality_CameraProperties_CameraProperties.SetBelong(null);
+					r_op_Inequality_CameraProperties_CameraProperties = new(typeof(UnityEngine.Rendering.CameraProperties), "op_Inequality", 0, typeof(UnityEngine.Rendering.CameraProperties), typeof(UnityEngine.Rendering.CameraProperties));
+					r_op_Inequality_CameraProperties_CameraProperties.SetBelong(null);
 				}
-				return r_Rop_Inequality_CameraProperties_CameraProperties;
+				return r_op_Inequality_CameraProperties_CameraProperties;
 			}
 		}
 
 		/// <summary>
 		/// System.String ToString()
 		/// </summary>
-		protected RMethod r_RToString;
+		protected RMethod r_ToString;
 		public virtual RMethod RToString
 		{
 			get
 			{
-				if(r_RToString == null)
+				if(r_ToString == null)
 				{
-					r_RToString = new(this, "ToString", 0);
-					r_RToString.SetBelong(this.instance);
+					r_ToString = new(this, "ToString", 0);
+					r_ToString.SetBelong(this.instance);
 				}
-				return r_RToString;
+				return r_ToString;
 			}
 		}
 
 		/// <summary>
 		/// Void Finalize()
 		/// </summary>
-		protected RMethod r_RFinalize;
+		protected RMethod r_Finalize;
 		public virtual RMethod RFinalize
 		{
 			get
 			{
-				if(r_RFinalize == null)
+				if(r_Finalize == null)
 				{
-					r_RFinalize = new(this, "Finalize", 0);
-					r_RFinalize.SetBelong(this.instance);
+					r_Finalize = new(this, "Finalize", 0);
+					r_Finalize.SetBelong(this.instance);
 				}
-				return r_RFinalize;
+				return r_Finalize;
 			}
 		}
 
 		/// <summary>
 		/// System.Type GetType()
 		/// </summary>
-		protected RMethod r_RGetType;
+		protected RMethod r_GetType;
 		public virtual RMethod RGetType
 		{
 			get
 			{
-				if(r_RGetType == null)
+				if(r_GetType == null)
 				{
-					r_RGetType = new(this, "GetType", 0);
-					r_RGetType.SetBelong(this.instance);
+					r_GetType = new(this, "GetType", 0);
+					r_GetType.SetBelong(this.instance);
 				}
-				return r_RGetType;
+				return r_GetType;
 			}
 		}
 
 		/// <summary>
 		/// System.Object MemberwiseClone()
 		/// </summary>
-		protected RMethod r_RMemberwiseClone;
+		protected RMethod r_MemberwiseClone;
 		public virtual RMethod RMemberwiseClone
 		{
 			get
 			{
-				if(r_RMemberwiseClone == null)
+				if(r_MemberwiseClone == null)
 				{
-					r_RMemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_RMemberwiseClone.SetBelong(this.instance);
+					r_MemberwiseClone = new(this, "MemberwiseClone", 0);
+					r_MemberwiseClone.SetBelong(this.instance);
 				}
-				return r_RMemberwiseClone;
+				return r_MemberwiseClone;
 			}
 		}
 

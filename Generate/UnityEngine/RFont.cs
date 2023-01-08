@@ -217,425 +217,425 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Font CreateDynamicFontFromOSFont(System.String, Int32)
 		/// </summary>
-		protected static RMethod r_RCreateDynamicFontFromOSFont_String_Int32;
+		protected static RMethod r_CreateDynamicFontFromOSFont_String_Int32;
 		public static RMethod RCreateDynamicFontFromOSFont_String_Int32
 		{
 			get
 			{
-				if(r_RCreateDynamicFontFromOSFont_String_Int32 == null)
+				if(r_CreateDynamicFontFromOSFont_String_Int32 == null)
 				{
-					r_RCreateDynamicFontFromOSFont_String_Int32 = new(typeof(UnityEngine.Font), "CreateDynamicFontFromOSFont", 0, typeof(System.String), typeof(System.Int32));
-					r_RCreateDynamicFontFromOSFont_String_Int32.SetBelong(null);
+					r_CreateDynamicFontFromOSFont_String_Int32 = new(typeof(UnityEngine.Font), "CreateDynamicFontFromOSFont", 0, typeof(System.String), typeof(System.Int32));
+					r_CreateDynamicFontFromOSFont_String_Int32.SetBelong(null);
 				}
-				return r_RCreateDynamicFontFromOSFont_String_Int32;
+				return r_CreateDynamicFontFromOSFont_String_Int32;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Font CreateDynamicFontFromOSFont(System.String[], Int32)
 		/// </summary>
-		protected static RMethod r_RCreateDynamicFontFromOSFont_StringArray_Int32;
+		protected static RMethod r_CreateDynamicFontFromOSFont_StringArray_Int32;
 		public static RMethod RCreateDynamicFontFromOSFont_StringArray_Int32
 		{
 			get
 			{
-				if(r_RCreateDynamicFontFromOSFont_StringArray_Int32 == null)
+				if(r_CreateDynamicFontFromOSFont_StringArray_Int32 == null)
 				{
-					r_RCreateDynamicFontFromOSFont_StringArray_Int32 = new(typeof(UnityEngine.Font), "CreateDynamicFontFromOSFont", 0, typeof(System.String).MakeArrayType(), typeof(System.Int32));
-					r_RCreateDynamicFontFromOSFont_StringArray_Int32.SetBelong(null);
+					r_CreateDynamicFontFromOSFont_StringArray_Int32 = new(typeof(UnityEngine.Font), "CreateDynamicFontFromOSFont", 0, typeof(System.String).MakeArrayType(), typeof(System.Int32));
+					r_CreateDynamicFontFromOSFont_StringArray_Int32.SetBelong(null);
 				}
-				return r_RCreateDynamicFontFromOSFont_StringArray_Int32;
+				return r_CreateDynamicFontFromOSFont_StringArray_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Void InvokeTextureRebuilt_Internal(UnityEngine.Font)
 		/// </summary>
-		protected static RMethod r_RInvokeTextureRebuilt_Internal_Font;
+		protected static RMethod r_InvokeTextureRebuilt_Internal_Font;
 		public static RMethod RInvokeTextureRebuilt_Internal_Font
 		{
 			get
 			{
-				if(r_RInvokeTextureRebuilt_Internal_Font == null)
+				if(r_InvokeTextureRebuilt_Internal_Font == null)
 				{
-					r_RInvokeTextureRebuilt_Internal_Font = new(typeof(UnityEngine.Font), "InvokeTextureRebuilt_Internal", 0, typeof(UnityEngine.Font));
-					r_RInvokeTextureRebuilt_Internal_Font.SetBelong(null);
+					r_InvokeTextureRebuilt_Internal_Font = new(typeof(UnityEngine.Font), "InvokeTextureRebuilt_Internal", 0, typeof(UnityEngine.Font));
+					r_InvokeTextureRebuilt_Internal_Font.SetBelong(null);
 				}
-				return r_RInvokeTextureRebuilt_Internal_Font;
+				return r_InvokeTextureRebuilt_Internal_Font;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetMaxVertsForString(System.String)
 		/// </summary>
-		protected static RMethod r_RGetMaxVertsForString_String;
+		protected static RMethod r_GetMaxVertsForString_String;
 		public static RMethod RGetMaxVertsForString_String
 		{
 			get
 			{
-				if(r_RGetMaxVertsForString_String == null)
+				if(r_GetMaxVertsForString_String == null)
 				{
-					r_RGetMaxVertsForString_String = new(typeof(UnityEngine.Font), "GetMaxVertsForString", 0, typeof(System.String));
-					r_RGetMaxVertsForString_String.SetBelong(null);
+					r_GetMaxVertsForString_String = new(typeof(UnityEngine.Font), "GetMaxVertsForString", 0, typeof(System.String));
+					r_GetMaxVertsForString_String.SetBelong(null);
 				}
-				return r_RGetMaxVertsForString_String;
+				return r_GetMaxVertsForString_String;
 			}
 		}
 
 		/// <summary>
 		/// UnityEngine.Font GetDefault()
 		/// </summary>
-		protected static RMethod r_RGetDefault;
+		protected static RMethod r_GetDefault;
 		public static RMethod RGetDefault
 		{
 			get
 			{
-				if(r_RGetDefault == null)
+				if(r_GetDefault == null)
 				{
-					r_RGetDefault = new(typeof(UnityEngine.Font), "GetDefault", 0);
-					r_RGetDefault.SetBelong(null);
+					r_GetDefault = new(typeof(UnityEngine.Font), "GetDefault", 0);
+					r_GetDefault.SetBelong(null);
 				}
-				return r_RGetDefault;
+				return r_GetDefault;
 			}
 		}
 
 		/// <summary>
 		/// Boolean HasCharacter(Char)
 		/// </summary>
-		protected RMethod r_RHasCharacter_Char;
+		protected RMethod r_HasCharacter_Char;
 		public virtual RMethod RHasCharacter_Char
 		{
 			get
 			{
-				if(r_RHasCharacter_Char == null)
+				if(r_HasCharacter_Char == null)
 				{
-					r_RHasCharacter_Char = new(this, "HasCharacter", 0, typeof(System.Char));
-					r_RHasCharacter_Char.SetBelong(this.instance);
+					r_HasCharacter_Char = new(this, "HasCharacter", 0, typeof(System.Char));
+					r_HasCharacter_Char.SetBelong(this.instance);
 				}
-				return r_RHasCharacter_Char;
+				return r_HasCharacter_Char;
 			}
 		}
 
 		/// <summary>
 		/// Boolean HasCharacter(Int32)
 		/// </summary>
-		protected RMethod r_RHasCharacter_Int32;
+		protected RMethod r_HasCharacter_Int32;
 		public virtual RMethod RHasCharacter_Int32
 		{
 			get
 			{
-				if(r_RHasCharacter_Int32 == null)
+				if(r_HasCharacter_Int32 == null)
 				{
-					r_RHasCharacter_Int32 = new(this, "HasCharacter", 0, typeof(System.Int32));
-					r_RHasCharacter_Int32.SetBelong(this.instance);
+					r_HasCharacter_Int32 = new(this, "HasCharacter", 0, typeof(System.Int32));
+					r_HasCharacter_Int32.SetBelong(this.instance);
 				}
-				return r_RHasCharacter_Int32;
+				return r_HasCharacter_Int32;
 			}
 		}
 
 		/// <summary>
 		/// System.String[] GetOSInstalledFontNames()
 		/// </summary>
-		protected static RMethod r_RGetOSInstalledFontNames;
+		protected static RMethod r_GetOSInstalledFontNames;
 		public static RMethod RGetOSInstalledFontNames
 		{
 			get
 			{
-				if(r_RGetOSInstalledFontNames == null)
+				if(r_GetOSInstalledFontNames == null)
 				{
-					r_RGetOSInstalledFontNames = new(typeof(UnityEngine.Font), "GetOSInstalledFontNames", 0);
-					r_RGetOSInstalledFontNames.SetBelong(null);
+					r_GetOSInstalledFontNames = new(typeof(UnityEngine.Font), "GetOSInstalledFontNames", 0);
+					r_GetOSInstalledFontNames.SetBelong(null);
 				}
-				return r_RGetOSInstalledFontNames;
+				return r_GetOSInstalledFontNames;
 			}
 		}
 
 		/// <summary>
 		/// System.String[] GetPathsToOSFonts()
 		/// </summary>
-		protected static RMethod r_RGetPathsToOSFonts;
+		protected static RMethod r_GetPathsToOSFonts;
 		public static RMethod RGetPathsToOSFonts
 		{
 			get
 			{
-				if(r_RGetPathsToOSFonts == null)
+				if(r_GetPathsToOSFonts == null)
 				{
-					r_RGetPathsToOSFonts = new(typeof(UnityEngine.Font), "GetPathsToOSFonts", 0);
-					r_RGetPathsToOSFonts.SetBelong(null);
+					r_GetPathsToOSFonts = new(typeof(UnityEngine.Font), "GetPathsToOSFonts", 0);
+					r_GetPathsToOSFonts.SetBelong(null);
 				}
-				return r_RGetPathsToOSFonts;
+				return r_GetPathsToOSFonts;
 			}
 		}
 
 		/// <summary>
 		/// Void Internal_CreateFont(UnityEngine.Font, System.String)
 		/// </summary>
-		protected static RMethod r_RInternal_CreateFont_Font_String;
+		protected static RMethod r_Internal_CreateFont_Font_String;
 		public static RMethod RInternal_CreateFont_Font_String
 		{
 			get
 			{
-				if(r_RInternal_CreateFont_Font_String == null)
+				if(r_Internal_CreateFont_Font_String == null)
 				{
-					r_RInternal_CreateFont_Font_String = new(typeof(UnityEngine.Font), "Internal_CreateFont", 0, typeof(UnityEngine.Font), typeof(System.String));
-					r_RInternal_CreateFont_Font_String.SetBelong(null);
+					r_Internal_CreateFont_Font_String = new(typeof(UnityEngine.Font), "Internal_CreateFont", 0, typeof(UnityEngine.Font), typeof(System.String));
+					r_Internal_CreateFont_Font_String.SetBelong(null);
 				}
-				return r_RInternal_CreateFont_Font_String;
+				return r_Internal_CreateFont_Font_String;
 			}
 		}
 
 		/// <summary>
 		/// Void Internal_CreateFontFromPath(UnityEngine.Font, System.String)
 		/// </summary>
-		protected static RMethod r_RInternal_CreateFontFromPath_Font_String;
+		protected static RMethod r_Internal_CreateFontFromPath_Font_String;
 		public static RMethod RInternal_CreateFontFromPath_Font_String
 		{
 			get
 			{
-				if(r_RInternal_CreateFontFromPath_Font_String == null)
+				if(r_Internal_CreateFontFromPath_Font_String == null)
 				{
-					r_RInternal_CreateFontFromPath_Font_String = new(typeof(UnityEngine.Font), "Internal_CreateFontFromPath", 0, typeof(UnityEngine.Font), typeof(System.String));
-					r_RInternal_CreateFontFromPath_Font_String.SetBelong(null);
+					r_Internal_CreateFontFromPath_Font_String = new(typeof(UnityEngine.Font), "Internal_CreateFontFromPath", 0, typeof(UnityEngine.Font), typeof(System.String));
+					r_Internal_CreateFontFromPath_Font_String.SetBelong(null);
 				}
-				return r_RInternal_CreateFontFromPath_Font_String;
+				return r_Internal_CreateFontFromPath_Font_String;
 			}
 		}
 
 		/// <summary>
 		/// Void Internal_CreateDynamicFont(UnityEngine.Font, System.String[], Int32)
 		/// </summary>
-		protected static RMethod r_RInternal_CreateDynamicFont_Font_StringArray_Int32;
+		protected static RMethod r_Internal_CreateDynamicFont_Font_StringArray_Int32;
 		public static RMethod RInternal_CreateDynamicFont_Font_StringArray_Int32
 		{
 			get
 			{
-				if(r_RInternal_CreateDynamicFont_Font_StringArray_Int32 == null)
+				if(r_Internal_CreateDynamicFont_Font_StringArray_Int32 == null)
 				{
-					r_RInternal_CreateDynamicFont_Font_StringArray_Int32 = new(typeof(UnityEngine.Font), "Internal_CreateDynamicFont", 0, typeof(UnityEngine.Font), typeof(System.String).MakeArrayType(), typeof(System.Int32));
-					r_RInternal_CreateDynamicFont_Font_StringArray_Int32.SetBelong(null);
+					r_Internal_CreateDynamicFont_Font_StringArray_Int32 = new(typeof(UnityEngine.Font), "Internal_CreateDynamicFont", 0, typeof(UnityEngine.Font), typeof(System.String).MakeArrayType(), typeof(System.Int32));
+					r_Internal_CreateDynamicFont_Font_StringArray_Int32.SetBelong(null);
 				}
-				return r_RInternal_CreateDynamicFont_Font_StringArray_Int32;
+				return r_Internal_CreateDynamicFont_Font_StringArray_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Boolean GetCharacterInfo(Char, UnityEngine.CharacterInfo ByRef, Int32, UnityEngine.FontStyle)
 		/// </summary>
-		protected RMethod r_RGetCharacterInfo_Char_Out_CharacterInfo_Int32_FontStyle;
+		protected RMethod r_GetCharacterInfo_Char_Out_CharacterInfo_Int32_FontStyle;
 		public virtual RMethod RGetCharacterInfo_Char_Out_CharacterInfo_Int32_FontStyle
 		{
 			get
 			{
-				if(r_RGetCharacterInfo_Char_Out_CharacterInfo_Int32_FontStyle == null)
+				if(r_GetCharacterInfo_Char_Out_CharacterInfo_Int32_FontStyle == null)
 				{
-					r_RGetCharacterInfo_Char_Out_CharacterInfo_Int32_FontStyle = new(this, "GetCharacterInfo", 0, typeof(System.Char), typeof(UnityEngine.CharacterInfo).MakeByRefType(), typeof(System.Int32), typeof(UnityEngine.FontStyle));
-					r_RGetCharacterInfo_Char_Out_CharacterInfo_Int32_FontStyle.SetBelong(this.instance);
+					r_GetCharacterInfo_Char_Out_CharacterInfo_Int32_FontStyle = new(this, "GetCharacterInfo", 0, typeof(System.Char), typeof(UnityEngine.CharacterInfo).MakeByRefType(), typeof(System.Int32), typeof(UnityEngine.FontStyle));
+					r_GetCharacterInfo_Char_Out_CharacterInfo_Int32_FontStyle.SetBelong(this.instance);
 				}
-				return r_RGetCharacterInfo_Char_Out_CharacterInfo_Int32_FontStyle;
+				return r_GetCharacterInfo_Char_Out_CharacterInfo_Int32_FontStyle;
 			}
 		}
 
 		/// <summary>
 		/// Boolean GetCharacterInfo(Char, UnityEngine.CharacterInfo ByRef, Int32)
 		/// </summary>
-		protected RMethod r_RGetCharacterInfo_Char_Out_CharacterInfo_Int32;
+		protected RMethod r_GetCharacterInfo_Char_Out_CharacterInfo_Int32;
 		public virtual RMethod RGetCharacterInfo_Char_Out_CharacterInfo_Int32
 		{
 			get
 			{
-				if(r_RGetCharacterInfo_Char_Out_CharacterInfo_Int32 == null)
+				if(r_GetCharacterInfo_Char_Out_CharacterInfo_Int32 == null)
 				{
-					r_RGetCharacterInfo_Char_Out_CharacterInfo_Int32 = new(this, "GetCharacterInfo", 0, typeof(System.Char), typeof(UnityEngine.CharacterInfo).MakeByRefType(), typeof(System.Int32));
-					r_RGetCharacterInfo_Char_Out_CharacterInfo_Int32.SetBelong(this.instance);
+					r_GetCharacterInfo_Char_Out_CharacterInfo_Int32 = new(this, "GetCharacterInfo", 0, typeof(System.Char), typeof(UnityEngine.CharacterInfo).MakeByRefType(), typeof(System.Int32));
+					r_GetCharacterInfo_Char_Out_CharacterInfo_Int32.SetBelong(this.instance);
 				}
-				return r_RGetCharacterInfo_Char_Out_CharacterInfo_Int32;
+				return r_GetCharacterInfo_Char_Out_CharacterInfo_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Boolean GetCharacterInfo(Char, UnityEngine.CharacterInfo ByRef)
 		/// </summary>
-		protected RMethod r_RGetCharacterInfo_Char_Out_CharacterInfo;
+		protected RMethod r_GetCharacterInfo_Char_Out_CharacterInfo;
 		public virtual RMethod RGetCharacterInfo_Char_Out_CharacterInfo
 		{
 			get
 			{
-				if(r_RGetCharacterInfo_Char_Out_CharacterInfo == null)
+				if(r_GetCharacterInfo_Char_Out_CharacterInfo == null)
 				{
-					r_RGetCharacterInfo_Char_Out_CharacterInfo = new(this, "GetCharacterInfo", 0, typeof(System.Char), typeof(UnityEngine.CharacterInfo).MakeByRefType());
-					r_RGetCharacterInfo_Char_Out_CharacterInfo.SetBelong(this.instance);
+					r_GetCharacterInfo_Char_Out_CharacterInfo = new(this, "GetCharacterInfo", 0, typeof(System.Char), typeof(UnityEngine.CharacterInfo).MakeByRefType());
+					r_GetCharacterInfo_Char_Out_CharacterInfo.SetBelong(this.instance);
 				}
-				return r_RGetCharacterInfo_Char_Out_CharacterInfo;
+				return r_GetCharacterInfo_Char_Out_CharacterInfo;
 			}
 		}
 
 		/// <summary>
 		/// Void RequestCharactersInTexture(System.String, Int32, UnityEngine.FontStyle)
 		/// </summary>
-		protected RMethod r_RRequestCharactersInTexture_String_Int32_FontStyle;
+		protected RMethod r_RequestCharactersInTexture_String_Int32_FontStyle;
 		public virtual RMethod RRequestCharactersInTexture_String_Int32_FontStyle
 		{
 			get
 			{
-				if(r_RRequestCharactersInTexture_String_Int32_FontStyle == null)
+				if(r_RequestCharactersInTexture_String_Int32_FontStyle == null)
 				{
-					r_RRequestCharactersInTexture_String_Int32_FontStyle = new(this, "RequestCharactersInTexture", 0, typeof(System.String), typeof(System.Int32), typeof(UnityEngine.FontStyle));
-					r_RRequestCharactersInTexture_String_Int32_FontStyle.SetBelong(this.instance);
+					r_RequestCharactersInTexture_String_Int32_FontStyle = new(this, "RequestCharactersInTexture", 0, typeof(System.String), typeof(System.Int32), typeof(UnityEngine.FontStyle));
+					r_RequestCharactersInTexture_String_Int32_FontStyle.SetBelong(this.instance);
 				}
-				return r_RRequestCharactersInTexture_String_Int32_FontStyle;
+				return r_RequestCharactersInTexture_String_Int32_FontStyle;
 			}
 		}
 
 		/// <summary>
 		/// Void RequestCharactersInTexture(System.String, Int32)
 		/// </summary>
-		protected RMethod r_RRequestCharactersInTexture_String_Int32;
+		protected RMethod r_RequestCharactersInTexture_String_Int32;
 		public virtual RMethod RRequestCharactersInTexture_String_Int32
 		{
 			get
 			{
-				if(r_RRequestCharactersInTexture_String_Int32 == null)
+				if(r_RequestCharactersInTexture_String_Int32 == null)
 				{
-					r_RRequestCharactersInTexture_String_Int32 = new(this, "RequestCharactersInTexture", 0, typeof(System.String), typeof(System.Int32));
-					r_RRequestCharactersInTexture_String_Int32.SetBelong(this.instance);
+					r_RequestCharactersInTexture_String_Int32 = new(this, "RequestCharactersInTexture", 0, typeof(System.String), typeof(System.Int32));
+					r_RequestCharactersInTexture_String_Int32.SetBelong(this.instance);
 				}
-				return r_RRequestCharactersInTexture_String_Int32;
+				return r_RequestCharactersInTexture_String_Int32;
 			}
 		}
 
 		/// <summary>
 		/// Void RequestCharactersInTexture(System.String)
 		/// </summary>
-		protected RMethod r_RRequestCharactersInTexture_String;
+		protected RMethod r_RequestCharactersInTexture_String;
 		public virtual RMethod RRequestCharactersInTexture_String
 		{
 			get
 			{
-				if(r_RRequestCharactersInTexture_String == null)
+				if(r_RequestCharactersInTexture_String == null)
 				{
-					r_RRequestCharactersInTexture_String = new(this, "RequestCharactersInTexture", 0, typeof(System.String));
-					r_RRequestCharactersInTexture_String.SetBelong(this.instance);
+					r_RequestCharactersInTexture_String = new(this, "RequestCharactersInTexture", 0, typeof(System.String));
+					r_RequestCharactersInTexture_String.SetBelong(this.instance);
 				}
-				return r_RRequestCharactersInTexture_String;
+				return r_RequestCharactersInTexture_String;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetInstanceID()
 		/// </summary>
-		protected RMethod r_RGetInstanceID;
+		protected RMethod r_GetInstanceID;
 		public virtual RMethod RGetInstanceID
 		{
 			get
 			{
-				if(r_RGetInstanceID == null)
+				if(r_GetInstanceID == null)
 				{
-					r_RGetInstanceID = new(this, "GetInstanceID", 0);
-					r_RGetInstanceID.SetBelong(this.instance);
+					r_GetInstanceID = new(this, "GetInstanceID", 0);
+					r_GetInstanceID.SetBelong(this.instance);
 				}
-				return r_RGetInstanceID;
+				return r_GetInstanceID;
 			}
 		}
 
 		/// <summary>
 		/// Int32 GetHashCode()
 		/// </summary>
-		protected RMethod r_RGetHashCode;
+		protected RMethod r_GetHashCode;
 		public virtual RMethod RGetHashCode
 		{
 			get
 			{
-				if(r_RGetHashCode == null)
+				if(r_GetHashCode == null)
 				{
-					r_RGetHashCode = new(this, "GetHashCode", 0);
-					r_RGetHashCode.SetBelong(this.instance);
+					r_GetHashCode = new(this, "GetHashCode", 0);
+					r_GetHashCode.SetBelong(this.instance);
 				}
-				return r_RGetHashCode;
+				return r_GetHashCode;
 			}
 		}
 
 		/// <summary>
 		/// Boolean Equals(System.Object)
 		/// </summary>
-		protected RMethod r_REquals_Object;
+		protected RMethod r_Equals_Object;
 		public virtual RMethod REquals_Object
 		{
 			get
 			{
-				if(r_REquals_Object == null)
+				if(r_Equals_Object == null)
 				{
-					r_REquals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_REquals_Object.SetBelong(this.instance);
+					r_Equals_Object = new(this, "Equals", 0, typeof(System.Object));
+					r_Equals_Object.SetBelong(this.instance);
 				}
-				return r_REquals_Object;
+				return r_Equals_Object;
 			}
 		}
 
 		/// <summary>
 		/// System.String ToString()
 		/// </summary>
-		protected RMethod r_RToString;
+		protected RMethod r_ToString;
 		public virtual RMethod RToString
 		{
 			get
 			{
-				if(r_RToString == null)
+				if(r_ToString == null)
 				{
-					r_RToString = new(this, "ToString", 0);
-					r_RToString.SetBelong(this.instance);
+					r_ToString = new(this, "ToString", 0);
+					r_ToString.SetBelong(this.instance);
 				}
-				return r_RToString;
+				return r_ToString;
 			}
 		}
 
 		/// <summary>
 		/// Void Finalize()
 		/// </summary>
-		protected RMethod r_RFinalize;
+		protected RMethod r_Finalize;
 		public virtual RMethod RFinalize
 		{
 			get
 			{
-				if(r_RFinalize == null)
+				if(r_Finalize == null)
 				{
-					r_RFinalize = new(this, "Finalize", 0);
-					r_RFinalize.SetBelong(this.instance);
+					r_Finalize = new(this, "Finalize", 0);
+					r_Finalize.SetBelong(this.instance);
 				}
-				return r_RFinalize;
+				return r_Finalize;
 			}
 		}
 
 		/// <summary>
 		/// System.Type GetType()
 		/// </summary>
-		protected RMethod r_RGetType;
+		protected RMethod r_GetType;
 		public virtual RMethod RGetType
 		{
 			get
 			{
-				if(r_RGetType == null)
+				if(r_GetType == null)
 				{
-					r_RGetType = new(this, "GetType", 0);
-					r_RGetType.SetBelong(this.instance);
+					r_GetType = new(this, "GetType", 0);
+					r_GetType.SetBelong(this.instance);
 				}
-				return r_RGetType;
+				return r_GetType;
 			}
 		}
 
 		/// <summary>
 		/// System.Object MemberwiseClone()
 		/// </summary>
-		protected RMethod r_RMemberwiseClone;
+		protected RMethod r_MemberwiseClone;
 		public virtual RMethod RMemberwiseClone
 		{
 			get
 			{
-				if(r_RMemberwiseClone == null)
+				if(r_MemberwiseClone == null)
 				{
-					r_RMemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_RMemberwiseClone.SetBelong(this.instance);
+					r_MemberwiseClone = new(this, "MemberwiseClone", 0);
+					r_MemberwiseClone.SetBelong(this.instance);
 				}
-				return r_RMemberwiseClone;
+				return r_MemberwiseClone;
 			}
 		}
 

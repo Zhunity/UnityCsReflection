@@ -47,34 +47,34 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Void UpdateSupportedDataModes(System.Collections.Generic.IList`1[UnityEditor.DataMode], UnityEditor.DataMode)
 		/// </summary>
-		protected RMethod r_RUpdateSupportedDataModes_IList_d_DataMode_p__DataMode;
+		protected RMethod r_UpdateSupportedDataModes_IList_d_DataMode_p__DataMode;
 		public virtual RMethod RUpdateSupportedDataModes_IList_d_DataMode_p__DataMode
 		{
 			get
 			{
-				if(r_RUpdateSupportedDataModes_IList_d_DataMode_p__DataMode == null)
+				if(r_UpdateSupportedDataModes_IList_d_DataMode_p__DataMode == null)
 				{
-					r_RUpdateSupportedDataModes_IList_d_DataMode_p__DataMode = new(this, "UpdateSupportedDataModes", 0, typeof(System.Collections.Generic.IList<>).MakeGenericType(typeof(UnityEditor.DataMode)), typeof(UnityEditor.DataMode));
-					r_RUpdateSupportedDataModes_IList_d_DataMode_p__DataMode.SetBelong(this.instance);
+					r_UpdateSupportedDataModes_IList_d_DataMode_p__DataMode = new(this, "UpdateSupportedDataModes", 0, typeof(System.Collections.Generic.IList<>).MakeGenericType(typeof(UnityEditor.DataMode)), typeof(UnityEditor.DataMode));
+					r_UpdateSupportedDataModes_IList_d_DataMode_p__DataMode.SetBelong(this.instance);
 				}
-				return r_RUpdateSupportedDataModes_IList_d_DataMode_p__DataMode;
+				return r_UpdateSupportedDataModes_IList_d_DataMode_p__DataMode;
 			}
 		}
 
 		/// <summary>
 		/// Boolean TryChangeDataMode(UnityEditor.DataMode)
 		/// </summary>
-		protected RMethod r_RTryChangeDataMode_DataMode;
+		protected RMethod r_TryChangeDataMode_DataMode;
 		public virtual RMethod RTryChangeDataMode_DataMode
 		{
 			get
 			{
-				if(r_RTryChangeDataMode_DataMode == null)
+				if(r_TryChangeDataMode_DataMode == null)
 				{
-					r_RTryChangeDataMode_DataMode = new(this, "TryChangeDataMode", 0, typeof(UnityEditor.DataMode));
-					r_RTryChangeDataMode_DataMode.SetBelong(this.instance);
+					r_TryChangeDataMode_DataMode = new(this, "TryChangeDataMode", 0, typeof(UnityEditor.DataMode));
+					r_TryChangeDataMode_DataMode.SetBelong(this.instance);
 				}
-				return r_RTryChangeDataMode_DataMode;
+				return r_TryChangeDataMode_DataMode;
 			}
 		}
 
