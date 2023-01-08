@@ -278,9 +278,17 @@ namespace SMFrame.Editor.Refleaction
 		[MenuItem("Tools/test generic")]
 		static void SHow()
 		{
-			string a = "fffffff`3";
-			var m = Regex.Match(a, @"`\d+");
-			Debug.Log(m.Index);
+			// 因为只有set函数，所以就一定有一个参数
+			var t = typeof(Assembly);
+			var p = t.GetProperties(RType.flags);
+			foreach(var itm in p)
+			{
+				var m = itm.GetMethod == null ? itm.SetMethod : itm.GetMethod;
+				Debug.Log(itm.Name + "  " + itm.GetIndexParameters().Length + "  " + m.Name + "  " + m.GetParameters().Length + "  " + itm.DeclaringType);
+			}
+
+			var ss = t.GetProperty("FromByteArray", RType.flags, null, null, new Type[] { typeof(System.Boolean) }, null);
+			Debug.Log(ss);
 		}
 	}
 }

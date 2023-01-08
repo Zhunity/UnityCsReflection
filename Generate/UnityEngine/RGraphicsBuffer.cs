@@ -132,17 +132,17 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.String name
 		/// </summary>
-		protected RProperty r_name_String;
-		public virtual RProperty Rname_String
+		protected RProperty r_name;
+		public virtual RProperty Rname
 		{
 			get
 			{
-				if(r_name_String == null)
+				if(r_name == null)
 				{
-					r_name_String = new(this, "name", -1, typeof(System.String));
-					r_name_String.SetBelong(this.instance);
+					r_name = new(this, "name", -1, typeof(System.String));
+					r_name.SetBelong(this.instance);
 				}
-				return r_name_String;
+				return r_name;
 			}
 		}
 

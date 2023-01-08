@@ -1050,17 +1050,17 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// UnityEngine.Texture2D collapsedIcon
 		/// </summary>
-		protected RUnityEngine.RTexture2D r_collapsedIcon_Texture2D;
-		public virtual RUnityEngine.RTexture2D RcollapsedIcon_Texture2D
+		protected RUnityEngine.RTexture2D r_collapsedIcon;
+		public virtual RUnityEngine.RTexture2D RcollapsedIcon
 		{
 			get
 			{
-				if(r_collapsedIcon_Texture2D == null)
+				if(r_collapsedIcon == null)
 				{
-					r_collapsedIcon_Texture2D = new(this, "collapsedIcon", -1, typeof(UnityEngine.Texture2D));
-					r_collapsedIcon_Texture2D.SetBelong(this.instance);
+					r_collapsedIcon = new(this, "collapsedIcon", -1, typeof(UnityEngine.Texture2D));
+					r_collapsedIcon.SetBelong(this.instance);
 				}
-				return r_collapsedIcon_Texture2D;
+				return r_collapsedIcon;
 			}
 		}
 

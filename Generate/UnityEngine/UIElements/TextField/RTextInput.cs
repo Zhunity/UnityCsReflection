@@ -338,17 +338,17 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Boolean isPasswordField
 		/// </summary>
-		protected RProperty r_isPasswordField_Boolean;
-		public virtual RProperty RisPasswordField_Boolean
+		protected RProperty r_isPasswordField;
+		public virtual RProperty RisPasswordField
 		{
 			get
 			{
-				if(r_isPasswordField_Boolean == null)
+				if(r_isPasswordField == null)
 				{
-					r_isPasswordField_Boolean = new(this, "isPasswordField", -1, typeof(System.Boolean));
-					r_isPasswordField_Boolean.SetBelong(this.instance);
+					r_isPasswordField = new(this, "isPasswordField", -1, typeof(System.Boolean));
+					r_isPasswordField.SetBelong(this.instance);
 				}
-				return r_isPasswordField_Boolean;
+				return r_isPasswordField;
 			}
 		}
 

@@ -387,17 +387,17 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
 		/// <summary>
 		/// Single Flex
 		/// </summary>
-		protected RProperty r_Flex_Single;
-		public virtual RProperty RFlex_Single
+		protected RProperty r_Flex;
+		public virtual RProperty RFlex
 		{
 			get
 			{
-				if(r_Flex_Single == null)
+				if(r_Flex == null)
 				{
-					r_Flex_Single = new(this, "Flex", -1, typeof(System.Single));
-					r_Flex_Single.SetBelong(this.instance);
+					r_Flex = new(this, "Flex", -1, typeof(System.Single));
+					r_Flex.SetBelong(this.instance);
 				}
-				return r_Flex_Single;
+				return r_Flex;
 			}
 		}
 

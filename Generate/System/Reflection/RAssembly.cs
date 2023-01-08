@@ -115,17 +115,17 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// Boolean FromByteArray
 		/// </summary>
-		protected RProperty r_FromByteArray_Boolean;
-		public virtual RProperty RFromByteArray_Boolean
+		protected RProperty r_FromByteArray;
+		public virtual RProperty RFromByteArray
 		{
 			get
 			{
-				if(r_FromByteArray_Boolean == null)
+				if(r_FromByteArray == null)
 				{
-					r_FromByteArray_Boolean = new(this, "FromByteArray", -1, typeof(System.Boolean));
-					r_FromByteArray_Boolean.SetBelong(this.instance);
+					r_FromByteArray = new(this, "FromByteArray", -1, typeof(System.Boolean));
+					r_FromByteArray.SetBelong(this.instance);
 				}
-				return r_FromByteArray_Boolean;
+				return r_FromByteArray;
 			}
 		}
 

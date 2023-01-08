@@ -268,17 +268,17 @@ namespace SMFrame.Editor.Refleaction.RSystem.RResources
 		/// <summary>
 		/// System.String Item [System.String]
 		/// </summary>
-		protected RProperty r_Item_String_String;
-		public virtual RProperty RItem_String_String
+		protected RProperty r_Item_String;
+		public virtual RProperty RItem_String
 		{
 			get
 			{
-				if(r_Item_String_String == null)
+				if(r_Item_String == null)
 				{
-					r_Item_String_String = new(this, "Item", -1, typeof(System.String), typeof(System.String));
-					r_Item_String_String.SetBelong(this.instance);
+					r_Item_String = new(this, "Item", -1, typeof(System.String), typeof(System.String));
+					r_Item_String.SetBelong(this.instance);
 				}
-				return r_Item_String_String;
+				return r_Item_String;
 			}
 		}
 

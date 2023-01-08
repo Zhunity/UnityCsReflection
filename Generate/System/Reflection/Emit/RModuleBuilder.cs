@@ -659,17 +659,17 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// Boolean IsMain
 		/// </summary>
-		protected RProperty r_IsMain_Boolean;
-		public virtual RProperty RIsMain_Boolean
+		protected RProperty r_IsMain;
+		public virtual RProperty RIsMain
 		{
 			get
 			{
-				if(r_IsMain_Boolean == null)
+				if(r_IsMain == null)
 				{
-					r_IsMain_Boolean = new(this, "IsMain", -1, typeof(System.Boolean));
-					r_IsMain_Boolean.SetBelong(this.instance);
+					r_IsMain = new(this, "IsMain", -1, typeof(System.Boolean));
+					r_IsMain.SetBelong(this.instance);
 				}
-				return r_IsMain_Boolean;
+				return r_IsMain;
 			}
 		}
 

@@ -693,68 +693,68 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// Boolean BestFitMapping
 		/// </summary>
-		protected RProperty r_BestFitMapping_Boolean;
-		public virtual RProperty RBestFitMapping_Boolean
+		protected RProperty r_BestFitMapping;
+		public virtual RProperty RBestFitMapping
 		{
 			get
 			{
-				if(r_BestFitMapping_Boolean == null)
+				if(r_BestFitMapping == null)
 				{
-					r_BestFitMapping_Boolean = new(this, "BestFitMapping", -1, typeof(System.Boolean));
-					r_BestFitMapping_Boolean.SetBelong(this.instance);
+					r_BestFitMapping = new(this, "BestFitMapping", -1, typeof(System.Boolean));
+					r_BestFitMapping.SetBelong(this.instance);
 				}
-				return r_BestFitMapping_Boolean;
+				return r_BestFitMapping;
 			}
 		}
 
 		/// <summary>
 		/// Boolean ThrowOnUnmappableChar
 		/// </summary>
-		protected RProperty r_ThrowOnUnmappableChar_Boolean;
-		public virtual RProperty RThrowOnUnmappableChar_Boolean
+		protected RProperty r_ThrowOnUnmappableChar;
+		public virtual RProperty RThrowOnUnmappableChar
 		{
 			get
 			{
-				if(r_ThrowOnUnmappableChar_Boolean == null)
+				if(r_ThrowOnUnmappableChar == null)
 				{
-					r_ThrowOnUnmappableChar_Boolean = new(this, "ThrowOnUnmappableChar", -1, typeof(System.Boolean));
-					r_ThrowOnUnmappableChar_Boolean.SetBelong(this.instance);
+					r_ThrowOnUnmappableChar = new(this, "ThrowOnUnmappableChar", -1, typeof(System.Boolean));
+					r_ThrowOnUnmappableChar.SetBelong(this.instance);
 				}
-				return r_ThrowOnUnmappableChar_Boolean;
+				return r_ThrowOnUnmappableChar;
 			}
 		}
 
 		/// <summary>
 		/// Boolean ExactSpelling
 		/// </summary>
-		protected RProperty r_ExactSpelling_Boolean;
-		public virtual RProperty RExactSpelling_Boolean
+		protected RProperty r_ExactSpelling;
+		public virtual RProperty RExactSpelling
 		{
 			get
 			{
-				if(r_ExactSpelling_Boolean == null)
+				if(r_ExactSpelling == null)
 				{
-					r_ExactSpelling_Boolean = new(this, "ExactSpelling", -1, typeof(System.Boolean));
-					r_ExactSpelling_Boolean.SetBelong(this.instance);
+					r_ExactSpelling = new(this, "ExactSpelling", -1, typeof(System.Boolean));
+					r_ExactSpelling.SetBelong(this.instance);
 				}
-				return r_ExactSpelling_Boolean;
+				return r_ExactSpelling;
 			}
 		}
 
 		/// <summary>
 		/// Boolean SetLastError
 		/// </summary>
-		protected RProperty r_SetLastError_Boolean;
-		public virtual RProperty RSetLastError_Boolean
+		protected RProperty r_SetLastError;
+		public virtual RProperty RSetLastError
 		{
 			get
 			{
-				if(r_SetLastError_Boolean == null)
+				if(r_SetLastError == null)
 				{
-					r_SetLastError_Boolean = new(this, "SetLastError", -1, typeof(System.Boolean));
-					r_SetLastError_Boolean.SetBelong(this.instance);
+					r_SetLastError = new(this, "SetLastError", -1, typeof(System.Boolean));
+					r_SetLastError.SetBelong(this.instance);
 				}
-				return r_SetLastError_Boolean;
+				return r_SetLastError;
 			}
 		}
 
