@@ -11,6 +11,23 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
     {
 
 		/// <summary>
+		/// System.Reflection.ModuleResolveEventHandler ModuleResolve
+		/// </summary>
+		protected REvent r_ModuleResolve;
+		public virtual REvent RModuleResolve
+		{
+			get
+			{
+				if(r_ModuleResolve == null)
+				{
+					r_ModuleResolve = new(this, "ModuleResolve");
+					r_ModuleResolve.SetBelong(this.instance);
+				}
+				return r_ModuleResolve;
+			}
+		}
+
+		/// <summary>
 		/// System.IntPtr _mono_assembly
 		/// </summary>
 		protected RField r__mono_assembly;
@@ -1248,23 +1265,6 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 					r_CustomAttributes.SetBelong(this.instance);
 				}
 				return r_CustomAttributes;
-			}
-		}
-
-		/// <summary>
-		/// System.Reflection.ModuleResolveEventHandler ModuleResolve
-		/// </summary>
-		protected REvent r_ModuleResolve;
-		public virtual REvent RModuleResolve
-		{
-			get
-			{
-				if(r_ModuleResolve == null)
-				{
-					r_ModuleResolve = new(this, "ModuleResolve");
-					r_ModuleResolve.SetBelong(this.instance);
-				}
-				return r_ModuleResolve;
 			}
 		}
 

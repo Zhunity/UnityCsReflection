@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Action`1[UnityEngine.UIElements.BaseVisualElementPanel] panelDisposed
 		/// </summary>
-		protected RSystem.RAction<RUnityEngine.RUIElements.RBaseVisualElementPanel> r_panelDisposed;
-		public virtual RSystem.RAction<RUnityEngine.RUIElements.RBaseVisualElementPanel> RpanelDisposed
+		protected REvent r_panelDisposed;
+		public virtual REvent RpanelDisposed
 		{
 			get
 			{
@@ -24,6 +24,108 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 					r_panelDisposed.SetBelong(this.instance);
 				}
 				return r_panelDisposed;
+			}
+		}
+
+		/// <summary>
+		/// System.Action standardShaderChanged
+		/// </summary>
+		protected REvent r_standardShaderChanged;
+		public virtual REvent RstandardShaderChanged
+		{
+			get
+			{
+				if(r_standardShaderChanged == null)
+				{
+					r_standardShaderChanged = new(this, "standardShaderChanged");
+					r_standardShaderChanged.SetBelong(this.instance);
+				}
+				return r_standardShaderChanged;
+			}
+		}
+
+		/// <summary>
+		/// System.Action standardWorldSpaceShaderChanged
+		/// </summary>
+		protected REvent r_standardWorldSpaceShaderChanged;
+		public virtual REvent RstandardWorldSpaceShaderChanged
+		{
+			get
+			{
+				if(r_standardWorldSpaceShaderChanged == null)
+				{
+					r_standardWorldSpaceShaderChanged = new(this, "standardWorldSpaceShaderChanged");
+					r_standardWorldSpaceShaderChanged.SetBelong(this.instance);
+				}
+				return r_standardWorldSpaceShaderChanged;
+			}
+		}
+
+		/// <summary>
+		/// System.Action atlasChanged
+		/// </summary>
+		protected REvent r_atlasChanged;
+		public virtual REvent RatlasChanged
+		{
+			get
+			{
+				if(r_atlasChanged == null)
+				{
+					r_atlasChanged = new(this, "atlasChanged");
+					r_atlasChanged.SetBelong(this.instance);
+				}
+				return r_atlasChanged;
+			}
+		}
+
+		/// <summary>
+		/// System.Action`1[UnityEngine.Material] updateMaterial
+		/// </summary>
+		protected REvent r_updateMaterial;
+		public virtual REvent RupdateMaterial
+		{
+			get
+			{
+				if(r_updateMaterial == null)
+				{
+					r_updateMaterial = new(this, "updateMaterial");
+					r_updateMaterial.SetBelong(this.instance);
+				}
+				return r_updateMaterial;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.UIElements.HierarchyEvent hierarchyChanged
+		/// </summary>
+		protected REvent r_hierarchyChanged;
+		public virtual REvent RhierarchyChanged
+		{
+			get
+			{
+				if(r_hierarchyChanged == null)
+				{
+					r_hierarchyChanged = new(this, "hierarchyChanged");
+					r_hierarchyChanged.SetBelong(this.instance);
+				}
+				return r_hierarchyChanged;
+			}
+		}
+
+		/// <summary>
+		/// System.Action`1[UnityEngine.UIElements.IPanel] beforeUpdate
+		/// </summary>
+		protected REvent r_beforeUpdate;
+		public virtual REvent RbeforeUpdate
+		{
+			get
+			{
+				if(r_beforeUpdate == null)
+				{
+					r_beforeUpdate = new(this, "beforeUpdate");
+					r_beforeUpdate.SetBelong(this.instance);
+				}
+				return r_beforeUpdate;
 			}
 		}
 
@@ -228,108 +330,6 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 					r_m_TopElementUnderPointers.SetBelong(this.instance);
 				}
 				return r_m_TopElementUnderPointers;
-			}
-		}
-
-		/// <summary>
-		/// System.Action standardShaderChanged
-		/// </summary>
-		protected RSystem.RAction r_standardShaderChanged;
-		public virtual RSystem.RAction RstandardShaderChanged
-		{
-			get
-			{
-				if(r_standardShaderChanged == null)
-				{
-					r_standardShaderChanged = new(this, "standardShaderChanged");
-					r_standardShaderChanged.SetBelong(this.instance);
-				}
-				return r_standardShaderChanged;
-			}
-		}
-
-		/// <summary>
-		/// System.Action standardWorldSpaceShaderChanged
-		/// </summary>
-		protected RSystem.RAction r_standardWorldSpaceShaderChanged;
-		public virtual RSystem.RAction RstandardWorldSpaceShaderChanged
-		{
-			get
-			{
-				if(r_standardWorldSpaceShaderChanged == null)
-				{
-					r_standardWorldSpaceShaderChanged = new(this, "standardWorldSpaceShaderChanged");
-					r_standardWorldSpaceShaderChanged.SetBelong(this.instance);
-				}
-				return r_standardWorldSpaceShaderChanged;
-			}
-		}
-
-		/// <summary>
-		/// System.Action atlasChanged
-		/// </summary>
-		protected RSystem.RAction r_atlasChanged;
-		public virtual RSystem.RAction RatlasChanged
-		{
-			get
-			{
-				if(r_atlasChanged == null)
-				{
-					r_atlasChanged = new(this, "atlasChanged");
-					r_atlasChanged.SetBelong(this.instance);
-				}
-				return r_atlasChanged;
-			}
-		}
-
-		/// <summary>
-		/// System.Action`1[UnityEngine.Material] updateMaterial
-		/// </summary>
-		protected RSystem.RAction<RUnityEngine.RMaterial> r_updateMaterial;
-		public virtual RSystem.RAction<RUnityEngine.RMaterial> RupdateMaterial
-		{
-			get
-			{
-				if(r_updateMaterial == null)
-				{
-					r_updateMaterial = new(this, "updateMaterial");
-					r_updateMaterial.SetBelong(this.instance);
-				}
-				return r_updateMaterial;
-			}
-		}
-
-		/// <summary>
-		/// UnityEngine.UIElements.HierarchyEvent hierarchyChanged
-		/// </summary>
-		protected RUnityEngine.RUIElements.RHierarchyEvent r_hierarchyChanged;
-		public virtual RUnityEngine.RUIElements.RHierarchyEvent RhierarchyChanged
-		{
-			get
-			{
-				if(r_hierarchyChanged == null)
-				{
-					r_hierarchyChanged = new(this, "hierarchyChanged");
-					r_hierarchyChanged.SetBelong(this.instance);
-				}
-				return r_hierarchyChanged;
-			}
-		}
-
-		/// <summary>
-		/// System.Action`1[UnityEngine.UIElements.IPanel] beforeUpdate
-		/// </summary>
-		protected RSystem.RAction<RUnityEngine.RUIElements.RIPanel> r_beforeUpdate;
-		public virtual RSystem.RAction<RUnityEngine.RUIElements.RIPanel> RbeforeUpdate
-		{
-			get
-			{
-				if(r_beforeUpdate == null)
-				{
-					r_beforeUpdate = new(this, "beforeUpdate");
-					r_beforeUpdate.SetBelong(this.instance);
-				}
-				return r_beforeUpdate;
 			}
 		}
 

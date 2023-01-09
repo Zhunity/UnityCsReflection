@@ -11,6 +11,23 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
     {
 
 		/// <summary>
+		/// System.Action OnTextChanged
+		/// </summary>
+		protected REvent r_OnTextChanged;
+		public virtual REvent ROnTextChanged
+		{
+			get
+			{
+				if(r_OnTextChanged == null)
+				{
+					r_OnTextChanged = new(this, "OnTextChanged");
+					r_OnTextChanged.SetBelong(this.instance);
+				}
+				return r_OnTextChanged;
+			}
+		}
+
+		/// <summary>
 		/// System.String m_Text
 		/// </summary>
 		protected RField r_m_Text;
@@ -58,23 +75,6 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 					r_m_Tooltip.SetBelong(this.instance);
 				}
 				return r_m_Tooltip;
-			}
-		}
-
-		/// <summary>
-		/// System.Action OnTextChanged
-		/// </summary>
-		protected RSystem.RAction r_OnTextChanged;
-		public virtual RSystem.RAction ROnTextChanged
-		{
-			get
-			{
-				if(r_OnTextChanged == null)
-				{
-					r_OnTextChanged = new(this, "OnTextChanged");
-					r_OnTextChanged.SetBelong(this.instance);
-				}
-				return r_OnTextChanged;
 			}
 		}
 

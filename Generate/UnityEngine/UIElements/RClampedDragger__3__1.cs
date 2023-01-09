@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Action dragging
 		/// </summary>
-		protected RSystem.RAction r_dragging;
-		public virtual RSystem.RAction Rdragging
+		protected REvent r_dragging;
+		public virtual REvent Rdragging
 		{
 			get
 			{
@@ -24,6 +24,40 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 					r_dragging.SetBelong(this.instance);
 				}
 				return r_dragging;
+			}
+		}
+
+		/// <summary>
+		/// System.Action`1[UnityEngine.UIElements.EventBase] clickedWithEventInfo
+		/// </summary>
+		protected REvent r_clickedWithEventInfo;
+		public virtual REvent RclickedWithEventInfo
+		{
+			get
+			{
+				if(r_clickedWithEventInfo == null)
+				{
+					r_clickedWithEventInfo = new(this, "clickedWithEventInfo");
+					r_clickedWithEventInfo.SetBelong(this.instance);
+				}
+				return r_clickedWithEventInfo;
+			}
+		}
+
+		/// <summary>
+		/// System.Action clicked
+		/// </summary>
+		protected REvent r_clicked;
+		public virtual REvent Rclicked
+		{
+			get
+			{
+				if(r_clicked == null)
+				{
+					r_clicked = new(this, "clicked");
+					r_clicked.SetBelong(this.instance);
+				}
+				return r_clicked;
 			}
 		}
 
@@ -228,40 +262,6 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 					r_target.SetBelong(this.instance);
 				}
 				return r_target;
-			}
-		}
-
-		/// <summary>
-		/// System.Action`1[UnityEngine.UIElements.EventBase] clickedWithEventInfo
-		/// </summary>
-		protected REvent r_clickedWithEventInfo;
-		public virtual REvent RclickedWithEventInfo
-		{
-			get
-			{
-				if(r_clickedWithEventInfo == null)
-				{
-					r_clickedWithEventInfo = new(this, "clickedWithEventInfo");
-					r_clickedWithEventInfo.SetBelong(this.instance);
-				}
-				return r_clickedWithEventInfo;
-			}
-		}
-
-		/// <summary>
-		/// System.Action clicked
-		/// </summary>
-		protected REvent r_clicked;
-		public virtual REvent Rclicked
-		{
-			get
-			{
-				if(r_clicked == null)
-				{
-					r_clicked = new(this, "clicked");
-					r_clicked.SetBelong(this.instance);
-				}
-				return r_clicked;
 			}
 		}
 

@@ -11,6 +11,23 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
     {
 
 		/// <summary>
+		/// System.Action`1[System.Boolean] overlaysEnabledChanged
+		/// </summary>
+		protected REvent r_overlaysEnabledChanged;
+		public virtual REvent RoverlaysEnabledChanged
+		{
+			get
+			{
+				if(r_overlaysEnabledChanged == null)
+				{
+					r_overlaysEnabledChanged = new(this, "overlaysEnabledChanged");
+					r_overlaysEnabledChanged.SetBelong(this.instance);
+				}
+				return r_overlaysEnabledChanged;
+			}
+		}
+
+		/// <summary>
 		/// System.String ussClassName
 		/// </summary>
 		protected static RField r_ussClassName;
@@ -585,23 +602,6 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 					r_afterOverlaysInitialized.SetBelong(this.instance);
 				}
 				return r_afterOverlaysInitialized;
-			}
-		}
-
-		/// <summary>
-		/// System.Action`1[System.Boolean] overlaysEnabledChanged
-		/// </summary>
-		protected RSystem.RAction<RField> r_overlaysEnabledChanged;
-		public virtual RSystem.RAction<RField> RoverlaysEnabledChanged
-		{
-			get
-			{
-				if(r_overlaysEnabledChanged == null)
-				{
-					r_overlaysEnabledChanged = new(this, "overlaysEnabledChanged");
-					r_overlaysEnabledChanged.SetBelong(this.instance);
-				}
-				return r_overlaysEnabledChanged;
 			}
 		}
 

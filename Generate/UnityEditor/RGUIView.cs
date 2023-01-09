@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Action`1[UnityEditor.GUIView] positionChanged
 		/// </summary>
-		protected static RSystem.RAction<RUnityEditor.RGUIView> r_positionChanged;
-		public static RSystem.RAction<RUnityEditor.RGUIView> RpositionChanged
+		protected static REvent r_positionChanged;
+		public static REvent RpositionChanged
 		{
 			get
 			{

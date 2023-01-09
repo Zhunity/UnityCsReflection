@@ -11,6 +11,23 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
     {
 
 		/// <summary>
+		/// System.Reflection.ModuleResolveEventHandler ModuleResolve
+		/// </summary>
+		protected REvent r_ModuleResolve;
+		public virtual REvent RModuleResolve
+		{
+			get
+			{
+				if(r_ModuleResolve == null)
+				{
+					r_ModuleResolve = new(this, "ModuleResolve");
+					r_ModuleResolve.SetBelong(this.instance);
+				}
+				return r_ModuleResolve;
+			}
+		}
+
+		/// <summary>
 		/// System.String CodeBase
 		/// </summary>
 		protected RProperty r_CodeBase;
@@ -398,23 +415,6 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 					r_CustomAttributes.SetBelong(this.instance);
 				}
 				return r_CustomAttributes;
-			}
-		}
-
-		/// <summary>
-		/// System.Reflection.ModuleResolveEventHandler ModuleResolve
-		/// </summary>
-		protected REvent r_ModuleResolve;
-		public virtual REvent RModuleResolve
-		{
-			get
-			{
-				if(r_ModuleResolve == null)
-				{
-					r_ModuleResolve = new(this, "ModuleResolve");
-					r_ModuleResolve.SetBelong(this.instance);
-				}
-				return r_ModuleResolve;
 			}
 		}
 

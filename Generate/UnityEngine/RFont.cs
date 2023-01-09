@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Action`1[UnityEngine.Font] textureRebuilt
 		/// </summary>
-		protected static RSystem.RAction<RUnityEngine.RFont> r_textureRebuilt;
-		public static RSystem.RAction<RUnityEngine.RFont> RtextureRebuilt
+		protected static REvent r_textureRebuilt;
+		public static REvent RtextureRebuilt
 		{
 			get
 			{
@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UnityEngine.Font+FontTextureRebuildCallback m_FontTextureRebuildCallback
 		/// </summary>
-		protected RUnityEngine.RFont.RFontTextureRebuildCallback r_m_FontTextureRebuildCallback;
-		public virtual RUnityEngine.RFont.RFontTextureRebuildCallback Rm_FontTextureRebuildCallback
+		protected REvent r_m_FontTextureRebuildCallback;
+		public virtual REvent Rm_FontTextureRebuildCallback
 		{
 			get
 			{

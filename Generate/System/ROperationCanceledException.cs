@@ -11,6 +11,23 @@ namespace SMFrame.Editor.Refleaction.RSystem
     {
 
 		/// <summary>
+		/// System.EventHandler`1[System.Runtime.Serialization.SafeSerializationEventArgs] SerializeObjectState
+		/// </summary>
+		protected REvent r_SerializeObjectState;
+		public virtual REvent RSerializeObjectState
+		{
+			get
+			{
+				if(r_SerializeObjectState == null)
+				{
+					r_SerializeObjectState = new(this, "SerializeObjectState");
+					r_SerializeObjectState.SetBelong(this.instance);
+				}
+				return r_SerializeObjectState;
+			}
+		}
+
+		/// <summary>
 		/// System.Threading.CancellationToken _cancellationToken
 		/// </summary>
 		protected RSystem.RThreading.RCancellationToken r__cancellationToken;
@@ -262,23 +279,6 @@ namespace SMFrame.Editor.Refleaction.RSystem
 					r_IsTransient.SetBelong(this.instance);
 				}
 				return r_IsTransient;
-			}
-		}
-
-		/// <summary>
-		/// System.EventHandler`1[System.Runtime.Serialization.SafeSerializationEventArgs] SerializeObjectState
-		/// </summary>
-		protected REvent r_SerializeObjectState;
-		public virtual REvent RSerializeObjectState
-		{
-			get
-			{
-				if(r_SerializeObjectState == null)
-				{
-					r_SerializeObjectState = new(this, "SerializeObjectState");
-					r_SerializeObjectState.SetBelong(this.instance);
-				}
-				return r_SerializeObjectState;
 			}
 		}
 

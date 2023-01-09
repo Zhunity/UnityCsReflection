@@ -11,6 +11,23 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
     {
 
 		/// <summary>
+		/// System.EventHandler`1[System.Threading.Tasks.UnobservedTaskExceptionEventArgs] UnobservedTaskException
+		/// </summary>
+		protected static REvent r_UnobservedTaskException;
+		public static REvent RUnobservedTaskException
+		{
+			get
+			{
+				if(r_UnobservedTaskException == null)
+				{
+					r_UnobservedTaskException = new(typeof(System.Threading.Tasks.TaskScheduler), "UnobservedTaskException");
+					r_UnobservedTaskException.SetBelong(null);
+				}
+				return r_UnobservedTaskException;
+			}
+		}
+
+		/// <summary>
 		/// System.Runtime.CompilerServices.ConditionalWeakTable`2[System.Threading.Tasks.TaskScheduler,System.Object] s_activeTaskSchedulers
 		/// </summary>
 		protected static RSystem.RRuntime.RCompilerServices.RConditionalWeakTable<RSystem.RThreading.RTasks.RTaskScheduler, RSystem.RObject> r_s_activeTaskSchedulers;
@@ -211,23 +228,6 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 					r_Id.SetBelong(this.instance);
 				}
 				return r_Id;
-			}
-		}
-
-		/// <summary>
-		/// System.EventHandler`1[System.Threading.Tasks.UnobservedTaskExceptionEventArgs] UnobservedTaskException
-		/// </summary>
-		protected static REvent r_UnobservedTaskException;
-		public static REvent RUnobservedTaskException
-		{
-			get
-			{
-				if(r_UnobservedTaskException == null)
-				{
-					r_UnobservedTaskException = new(typeof(System.Threading.Tasks.TaskScheduler), "UnobservedTaskException");
-					r_UnobservedTaskException.SetBelong(null);
-				}
-				return r_UnobservedTaskException;
 			}
 		}
 

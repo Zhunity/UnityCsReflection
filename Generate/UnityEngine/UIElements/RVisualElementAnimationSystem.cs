@@ -11,6 +11,23 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
     {
 
 		/// <summary>
+		/// System.Action`1[UnityEngine.UIElements.BaseVisualElementPanel] panelChanged
+		/// </summary>
+		protected REvent r_panelChanged;
+		public virtual REvent RpanelChanged
+		{
+			get
+			{
+				if(r_panelChanged == null)
+				{
+					r_panelChanged = new(this, "panelChanged");
+					r_panelChanged.SetBelong(this.instance);
+				}
+				return r_panelChanged;
+			}
+		}
+
+		/// <summary>
 		/// System.Collections.Generic.HashSet`1[UnityEngine.UIElements.Experimental.IValueAnimationUpdate] m_Animations
 		/// </summary>
 		protected RSystem.RCollections.RGeneric.RHashSet<RUnityEngine.RUIElements.RExperimental.RIValueAnimationUpdate> r_m_Animations;
@@ -228,23 +245,6 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 					r_visualTree.SetBelong(this.instance);
 				}
 				return r_visualTree;
-			}
-		}
-
-		/// <summary>
-		/// System.Action`1[UnityEngine.UIElements.BaseVisualElementPanel] panelChanged
-		/// </summary>
-		protected REvent r_panelChanged;
-		public virtual REvent RpanelChanged
-		{
-			get
-			{
-				if(r_panelChanged == null)
-				{
-					r_panelChanged = new(this, "panelChanged");
-					r_panelChanged.SetBelong(this.instance);
-				}
-				return r_panelChanged;
 			}
 		}
 

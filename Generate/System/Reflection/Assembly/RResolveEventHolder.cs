@@ -15,8 +15,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Reflection.ModuleResolveEventHandler ModuleResolve
 		/// </summary>
-		protected RSystem.RReflection.RModuleResolveEventHandler r_ModuleResolve;
-		public virtual RSystem.RReflection.RModuleResolveEventHandler RModuleResolve
+		protected REvent r_ModuleResolve;
+		public virtual REvent RModuleResolve
 		{
 			get
 			{

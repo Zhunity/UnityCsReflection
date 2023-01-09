@@ -11,6 +11,40 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
     {
 
 		/// <summary>
+		/// System.Action onClick
+		/// </summary>
+		protected REvent r_onClick;
+		public virtual REvent RonClick
+		{
+			get
+			{
+				if(r_onClick == null)
+				{
+					r_onClick = new(this, "onClick");
+					r_onClick.SetBelong(this.instance);
+				}
+				return r_onClick;
+			}
+		}
+
+		/// <summary>
+		/// System.Action clicked
+		/// </summary>
+		protected REvent r_clicked;
+		public virtual REvent Rclicked
+		{
+			get
+			{
+				if(r_clicked == null)
+				{
+					r_clicked = new(this, "clicked");
+					r_clicked.SetBelong(this.instance);
+				}
+				return r_clicked;
+			}
+		}
+
+		/// <summary>
 		/// System.String ussClassName
 		/// </summary>
 		protected static RField r_ussClassName;
@@ -1928,40 +1962,6 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 					r_excludeFromFocusRing.SetBelong(this.instance);
 				}
 				return r_excludeFromFocusRing;
-			}
-		}
-
-		/// <summary>
-		/// System.Action onClick
-		/// </summary>
-		protected REvent r_onClick;
-		public virtual REvent RonClick
-		{
-			get
-			{
-				if(r_onClick == null)
-				{
-					r_onClick = new(this, "onClick");
-					r_onClick.SetBelong(this.instance);
-				}
-				return r_onClick;
-			}
-		}
-
-		/// <summary>
-		/// System.Action clicked
-		/// </summary>
-		protected REvent r_clicked;
-		public virtual REvent Rclicked
-		{
-			get
-			{
-				if(r_clicked == null)
-				{
-					r_clicked = new(this, "clicked");
-					r_clicked.SetBelong(this.instance);
-				}
-				return r_clicked;
 			}
 		}
 

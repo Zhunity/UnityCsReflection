@@ -9,6 +9,8 @@ using System.Reflection;
 using System.IO;
 using System.Runtime.CompilerServices;
 using System.Text.RegularExpressions;
+using SMFrame.Editor.Refleaction.RSystem.RReflection;
+using UnityEngine.UI;
 
 namespace SMFrame.Editor.Refleaction
 {
@@ -289,6 +291,33 @@ namespace SMFrame.Editor.Refleaction
 
 			var ss = t.GetProperty("FromByteArray", RType.flags, null, null, new Type[] { typeof(System.Boolean) }, null);
 			Debug.Log(ss);
+		}
+
+
+		class e
+		{
+			public event Action OnTextChanged;
+		}
+		[MenuItem("Tools/test event")]
+		static void TestEvent()
+		{
+			var t = typeof(e);
+			var m = t.GetMembers();
+			foreach(var i in m)
+			{
+				Debug.Log(i + "  " + i.MemberType);
+			}
+
+			var fields = t.GetFields(RType.flags);
+			foreach(var fs in fields)
+			{
+				Debug.Log(fs.Name + "  " + fs.MemberType + " " + fs.FieldType);
+			}
+
+			var f = t.GetField("OnTextChanged");
+			var e = t.GetEvent("OnTextChanged");
+			Debug.Log("f " + f);
+			Debug.Log("e " + e);
 		}
 	}
 }

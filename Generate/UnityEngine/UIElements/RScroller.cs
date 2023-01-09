@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Action`1[System.Single] valueChanged
 		/// </summary>
-		protected RSystem.RAction<RField> r_valueChanged;
-		public virtual RSystem.RAction<RField> RvalueChanged
+		protected REvent r_valueChanged;
+		public virtual REvent RvalueChanged
 		{
 			get
 			{

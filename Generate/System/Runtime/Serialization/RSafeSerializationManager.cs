@@ -11,6 +11,23 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization
     {
 
 		/// <summary>
+		/// System.EventHandler`1[System.Runtime.Serialization.SafeSerializationEventArgs] SerializeObjectState
+		/// </summary>
+		protected REvent r_SerializeObjectState;
+		public virtual REvent RSerializeObjectState
+		{
+			get
+			{
+				if(r_SerializeObjectState == null)
+				{
+					r_SerializeObjectState = new(this, "SerializeObjectState");
+					r_SerializeObjectState.SetBelong(this.instance);
+				}
+				return r_SerializeObjectState;
+			}
+		}
+
+		/// <summary>
 		/// System.Collections.Generic.IList`1[System.Object] m_serializedStates
 		/// </summary>
 		protected RSystem.RCollections.RGeneric.RIList<RSystem.RObject> r_m_serializedStates;
@@ -75,23 +92,6 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization
 					r_m_realType.SetBelong(this.instance);
 				}
 				return r_m_realType;
-			}
-		}
-
-		/// <summary>
-		/// System.EventHandler`1[System.Runtime.Serialization.SafeSerializationEventArgs] SerializeObjectState
-		/// </summary>
-		protected RSystem.REventHandler<RSystem.RRuntime.RSerialization.RSafeSerializationEventArgs> r_SerializeObjectState;
-		public virtual RSystem.REventHandler<RSystem.RRuntime.RSerialization.RSafeSerializationEventArgs> RSerializeObjectState
-		{
-			get
-			{
-				if(r_SerializeObjectState == null)
-				{
-					r_SerializeObjectState = new(this, "SerializeObjectState");
-					r_SerializeObjectState.SetBelong(this.instance);
-				}
-				return r_SerializeObjectState;
 			}
 		}
 

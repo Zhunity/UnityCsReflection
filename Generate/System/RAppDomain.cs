@@ -11,6 +11,159 @@ namespace SMFrame.Editor.Refleaction.RSystem
     {
 
 		/// <summary>
+		/// System.AssemblyLoadEventHandler AssemblyLoad
+		/// </summary>
+		protected REvent r_AssemblyLoad;
+		public virtual REvent RAssemblyLoad
+		{
+			get
+			{
+				if(r_AssemblyLoad == null)
+				{
+					r_AssemblyLoad = new(this, "AssemblyLoad");
+					r_AssemblyLoad.SetBelong(this.instance);
+				}
+				return r_AssemblyLoad;
+			}
+		}
+
+		/// <summary>
+		/// System.ResolveEventHandler AssemblyResolve
+		/// </summary>
+		protected REvent r_AssemblyResolve;
+		public virtual REvent RAssemblyResolve
+		{
+			get
+			{
+				if(r_AssemblyResolve == null)
+				{
+					r_AssemblyResolve = new(this, "AssemblyResolve");
+					r_AssemblyResolve.SetBelong(this.instance);
+				}
+				return r_AssemblyResolve;
+			}
+		}
+
+		/// <summary>
+		/// System.EventHandler DomainUnload
+		/// </summary>
+		protected REvent r_DomainUnload;
+		public virtual REvent RDomainUnload
+		{
+			get
+			{
+				if(r_DomainUnload == null)
+				{
+					r_DomainUnload = new(this, "DomainUnload");
+					r_DomainUnload.SetBelong(this.instance);
+				}
+				return r_DomainUnload;
+			}
+		}
+
+		/// <summary>
+		/// System.EventHandler ProcessExit
+		/// </summary>
+		protected REvent r_ProcessExit;
+		public virtual REvent RProcessExit
+		{
+			get
+			{
+				if(r_ProcessExit == null)
+				{
+					r_ProcessExit = new(this, "ProcessExit");
+					r_ProcessExit.SetBelong(this.instance);
+				}
+				return r_ProcessExit;
+			}
+		}
+
+		/// <summary>
+		/// System.ResolveEventHandler ResourceResolve
+		/// </summary>
+		protected REvent r_ResourceResolve;
+		public virtual REvent RResourceResolve
+		{
+			get
+			{
+				if(r_ResourceResolve == null)
+				{
+					r_ResourceResolve = new(this, "ResourceResolve");
+					r_ResourceResolve.SetBelong(this.instance);
+				}
+				return r_ResourceResolve;
+			}
+		}
+
+		/// <summary>
+		/// System.ResolveEventHandler TypeResolve
+		/// </summary>
+		protected REvent r_TypeResolve;
+		public virtual REvent RTypeResolve
+		{
+			get
+			{
+				if(r_TypeResolve == null)
+				{
+					r_TypeResolve = new(this, "TypeResolve");
+					r_TypeResolve.SetBelong(this.instance);
+				}
+				return r_TypeResolve;
+			}
+		}
+
+		/// <summary>
+		/// System.UnhandledExceptionEventHandler UnhandledException
+		/// </summary>
+		protected REvent r_UnhandledException;
+		public virtual REvent RUnhandledException
+		{
+			get
+			{
+				if(r_UnhandledException == null)
+				{
+					r_UnhandledException = new(this, "UnhandledException");
+					r_UnhandledException.SetBelong(this.instance);
+				}
+				return r_UnhandledException;
+			}
+		}
+
+		/// <summary>
+		/// System.EventHandler`1[System.Runtime.ExceptionServices.FirstChanceExceptionEventArgs] FirstChanceException
+		/// </summary>
+		protected REvent r_FirstChanceException;
+		public virtual REvent RFirstChanceException
+		{
+			get
+			{
+				if(r_FirstChanceException == null)
+				{
+					r_FirstChanceException = new(this, "FirstChanceException");
+					r_FirstChanceException.SetBelong(this.instance);
+				}
+				return r_FirstChanceException;
+			}
+		}
+
+		/// <summary>
+		/// System.ResolveEventHandler ReflectionOnlyAssemblyResolve
+		/// </summary>
+		protected REvent r_ReflectionOnlyAssemblyResolve;
+		public virtual REvent RReflectionOnlyAssemblyResolve
+		{
+			get
+			{
+				if(r_ReflectionOnlyAssemblyResolve == null)
+				{
+					r_ReflectionOnlyAssemblyResolve = new(this, "ReflectionOnlyAssemblyResolve");
+					r_ReflectionOnlyAssemblyResolve.SetBelong(this.instance);
+				}
+				return r_ReflectionOnlyAssemblyResolve;
+			}
+		}
+
+		/// <summary>
 		/// System.IntPtr _mono_app_domain
 		/// </summary>
 		protected RField r__mono_app_domain;
@@ -181,142 +334,6 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		}
 
 		/// <summary>
-		/// System.AssemblyLoadEventHandler AssemblyLoad
-		/// </summary>
-		protected RSystem.RAssemblyLoadEventHandler r_AssemblyLoad;
-		public virtual RSystem.RAssemblyLoadEventHandler RAssemblyLoad
-		{
-			get
-			{
-				if(r_AssemblyLoad == null)
-				{
-					r_AssemblyLoad = new(this, "AssemblyLoad");
-					r_AssemblyLoad.SetBelong(this.instance);
-				}
-				return r_AssemblyLoad;
-			}
-		}
-
-		/// <summary>
-		/// System.ResolveEventHandler AssemblyResolve
-		/// </summary>
-		protected RSystem.RResolveEventHandler r_AssemblyResolve;
-		public virtual RSystem.RResolveEventHandler RAssemblyResolve
-		{
-			get
-			{
-				if(r_AssemblyResolve == null)
-				{
-					r_AssemblyResolve = new(this, "AssemblyResolve");
-					r_AssemblyResolve.SetBelong(this.instance);
-				}
-				return r_AssemblyResolve;
-			}
-		}
-
-		/// <summary>
-		/// System.EventHandler DomainUnload
-		/// </summary>
-		protected RSystem.REventHandler r_DomainUnload;
-		public virtual RSystem.REventHandler RDomainUnload
-		{
-			get
-			{
-				if(r_DomainUnload == null)
-				{
-					r_DomainUnload = new(this, "DomainUnload");
-					r_DomainUnload.SetBelong(this.instance);
-				}
-				return r_DomainUnload;
-			}
-		}
-
-		/// <summary>
-		/// System.EventHandler ProcessExit
-		/// </summary>
-		protected RSystem.REventHandler r_ProcessExit;
-		public virtual RSystem.REventHandler RProcessExit
-		{
-			get
-			{
-				if(r_ProcessExit == null)
-				{
-					r_ProcessExit = new(this, "ProcessExit");
-					r_ProcessExit.SetBelong(this.instance);
-				}
-				return r_ProcessExit;
-			}
-		}
-
-		/// <summary>
-		/// System.ResolveEventHandler ResourceResolve
-		/// </summary>
-		protected RSystem.RResolveEventHandler r_ResourceResolve;
-		public virtual RSystem.RResolveEventHandler RResourceResolve
-		{
-			get
-			{
-				if(r_ResourceResolve == null)
-				{
-					r_ResourceResolve = new(this, "ResourceResolve");
-					r_ResourceResolve.SetBelong(this.instance);
-				}
-				return r_ResourceResolve;
-			}
-		}
-
-		/// <summary>
-		/// System.ResolveEventHandler TypeResolve
-		/// </summary>
-		protected RSystem.RResolveEventHandler r_TypeResolve;
-		public virtual RSystem.RResolveEventHandler RTypeResolve
-		{
-			get
-			{
-				if(r_TypeResolve == null)
-				{
-					r_TypeResolve = new(this, "TypeResolve");
-					r_TypeResolve.SetBelong(this.instance);
-				}
-				return r_TypeResolve;
-			}
-		}
-
-		/// <summary>
-		/// System.UnhandledExceptionEventHandler UnhandledException
-		/// </summary>
-		protected RSystem.RUnhandledExceptionEventHandler r_UnhandledException;
-		public virtual RSystem.RUnhandledExceptionEventHandler RUnhandledException
-		{
-			get
-			{
-				if(r_UnhandledException == null)
-				{
-					r_UnhandledException = new(this, "UnhandledException");
-					r_UnhandledException.SetBelong(this.instance);
-				}
-				return r_UnhandledException;
-			}
-		}
-
-		/// <summary>
-		/// System.EventHandler`1[System.Runtime.ExceptionServices.FirstChanceExceptionEventArgs] FirstChanceException
-		/// </summary>
-		protected RSystem.REventHandler<RSystem.RRuntime.RExceptionServices.RFirstChanceExceptionEventArgs> r_FirstChanceException;
-		public virtual RSystem.REventHandler<RSystem.RRuntime.RExceptionServices.RFirstChanceExceptionEventArgs> RFirstChanceException
-		{
-			get
-			{
-				if(r_FirstChanceException == null)
-				{
-					r_FirstChanceException = new(this, "FirstChanceException");
-					r_FirstChanceException.SetBelong(this.instance);
-				}
-				return r_FirstChanceException;
-			}
-		}
-
-		/// <summary>
 		/// System.AppDomainManager _domain_manager
 		/// </summary>
 		protected RSystem.RAppDomainManager r__domain_manager;
@@ -330,23 +347,6 @@ namespace SMFrame.Editor.Refleaction.RSystem
 					r__domain_manager.SetBelong(this.instance);
 				}
 				return r__domain_manager;
-			}
-		}
-
-		/// <summary>
-		/// System.ResolveEventHandler ReflectionOnlyAssemblyResolve
-		/// </summary>
-		protected RSystem.RResolveEventHandler r_ReflectionOnlyAssemblyResolve;
-		public virtual RSystem.RResolveEventHandler RReflectionOnlyAssemblyResolve
-		{
-			get
-			{
-				if(r_ReflectionOnlyAssemblyResolve == null)
-				{
-					r_ReflectionOnlyAssemblyResolve = new(this, "ReflectionOnlyAssemblyResolve");
-					r_ReflectionOnlyAssemblyResolve.SetBelong(this.instance);
-				}
-				return r_ReflectionOnlyAssemblyResolve;
 			}
 		}
 

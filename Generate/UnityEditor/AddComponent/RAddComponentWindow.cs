@@ -11,6 +11,57 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RAddComponent
     {
 
 		/// <summary>
+		/// System.Action`1[UnityEditor.IMGUI.Controls.AdvancedDropdownWindow] windowClosed
+		/// </summary>
+		protected REvent r_windowClosed;
+		public virtual REvent RwindowClosed
+		{
+			get
+			{
+				if(r_windowClosed == null)
+				{
+					r_windowClosed = new(this, "windowClosed");
+					r_windowClosed.SetBelong(this.instance);
+				}
+				return r_windowClosed;
+			}
+		}
+
+		/// <summary>
+		/// System.Action`1[UnityEditor.IMGUI.Controls.AdvancedDropdownItem] selectionChanged
+		/// </summary>
+		protected REvent r_selectionChanged;
+		public virtual REvent RselectionChanged
+		{
+			get
+			{
+				if(r_selectionChanged == null)
+				{
+					r_selectionChanged = new(this, "selectionChanged");
+					r_selectionChanged.SetBelong(this.instance);
+				}
+				return r_selectionChanged;
+			}
+		}
+
+		/// <summary>
+		/// System.Action selectionCanceled
+		/// </summary>
+		protected REvent r_selectionCanceled;
+		public virtual REvent RselectionCanceled
+		{
+			get
+			{
+				if(r_selectionCanceled == null)
+				{
+					r_selectionCanceled = new(this, "selectionCanceled");
+					r_selectionCanceled.SetBelong(this.instance);
+				}
+				return r_selectionCanceled;
+			}
+		}
+
+		/// <summary>
 		/// System.String OpenAddComponentDropdown
 		/// </summary>
 		protected static RField r_OpenAddComponentDropdown;
@@ -874,57 +925,6 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RAddComponent
 					r_hideFlags.SetBelong(this.instance);
 				}
 				return r_hideFlags;
-			}
-		}
-
-		/// <summary>
-		/// System.Action`1[UnityEditor.IMGUI.Controls.AdvancedDropdownWindow] windowClosed
-		/// </summary>
-		protected REvent r_windowClosed;
-		public virtual REvent RwindowClosed
-		{
-			get
-			{
-				if(r_windowClosed == null)
-				{
-					r_windowClosed = new(this, "windowClosed");
-					r_windowClosed.SetBelong(this.instance);
-				}
-				return r_windowClosed;
-			}
-		}
-
-		/// <summary>
-		/// System.Action`1[UnityEditor.IMGUI.Controls.AdvancedDropdownItem] selectionChanged
-		/// </summary>
-		protected REvent r_selectionChanged;
-		public virtual REvent RselectionChanged
-		{
-			get
-			{
-				if(r_selectionChanged == null)
-				{
-					r_selectionChanged = new(this, "selectionChanged");
-					r_selectionChanged.SetBelong(this.instance);
-				}
-				return r_selectionChanged;
-			}
-		}
-
-		/// <summary>
-		/// System.Action selectionCanceled
-		/// </summary>
-		protected REvent r_selectionCanceled;
-		public virtual REvent RselectionCanceled
-		{
-			get
-			{
-				if(r_selectionCanceled == null)
-				{
-					r_selectionCanceled = new(this, "selectionCanceled");
-					r_selectionCanceled.SetBelong(this.instance);
-				}
-				return r_selectionCanceled;
 			}
 		}
 

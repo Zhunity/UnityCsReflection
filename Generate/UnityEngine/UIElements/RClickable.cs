@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Action`1[UnityEngine.UIElements.EventBase] clickedWithEventInfo
 		/// </summary>
-		protected RSystem.RAction<RUnityEngine.RUIElements.REventBase> r_clickedWithEventInfo;
-		public virtual RSystem.RAction<RUnityEngine.RUIElements.REventBase> RclickedWithEventInfo
+		protected REvent r_clickedWithEventInfo;
+		public virtual REvent RclickedWithEventInfo
 		{
 			get
 			{
@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Action clicked
 		/// </summary>
-		protected RSystem.RAction r_clicked;
-		public virtual RSystem.RAction Rclicked
+		protected REvent r_clicked;
+		public virtual REvent Rclicked
 		{
 			get
 			{

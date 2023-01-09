@@ -11,23 +11,6 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
     {
 
 		/// <summary>
-		/// UnityEditor.DataMode dataMode
-		/// </summary>
-		protected RProperty r_dataMode;
-		public virtual RProperty RdataMode
-		{
-			get
-			{
-				if(r_dataMode == null)
-				{
-					r_dataMode = new(this, "dataMode", -1);
-					r_dataMode.SetBelong(this.instance);
-				}
-				return r_dataMode;
-			}
-		}
-
-		/// <summary>
 		/// System.Action`1[UnityEditor.DataModeChangeEventArgs] dataModeChanged
 		/// </summary>
 		protected REvent r_dataModeChanged;
@@ -41,6 +24,23 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 					r_dataModeChanged.SetBelong(this.instance);
 				}
 				return r_dataModeChanged;
+			}
+		}
+
+		/// <summary>
+		/// UnityEditor.DataMode dataMode
+		/// </summary>
+		protected RProperty r_dataMode;
+		public virtual RProperty RdataMode
+		{
+			get
+			{
+				if(r_dataMode == null)
+				{
+					r_dataMode = new(this, "dataMode", -1);
+					r_dataMode.SetBelong(this.instance);
+				}
+				return r_dataMode;
 			}
 		}
 

@@ -11,6 +11,23 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
     {
 
 		/// <summary>
+		/// System.Func`2[TValueType,TValueType] onValidateValue
+		/// </summary>
+		protected REvent r_onValidateValue;
+		public virtual REvent RonValidateValue
+		{
+			get
+			{
+				if(r_onValidateValue == null)
+				{
+					r_onValidateValue = new(this, "onValidateValue");
+					r_onValidateValue.SetBelong(this.instance);
+				}
+				return r_onValidateValue;
+			}
+		}
+
+		/// <summary>
 		/// UnityEngine.UIElements.VisualElement <dragContainer>k__BackingField
 		/// </summary>
 		protected RUnityEngine.RUIElements.RVisualElement r___0__dragContainer__1__k__BackingField;
@@ -2489,23 +2506,6 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 					r_excludeFromFocusRing.SetBelong(this.instance);
 				}
 				return r_excludeFromFocusRing;
-			}
-		}
-
-		/// <summary>
-		/// System.Func`2[TValueType,TValueType] onValidateValue
-		/// </summary>
-		protected REvent r_onValidateValue;
-		public virtual REvent RonValidateValue
-		{
-			get
-			{
-				if(r_onValidateValue == null)
-				{
-					r_onValidateValue = new(this, "onValidateValue");
-					r_onValidateValue.SetBelong(this.instance);
-				}
-				return r_onValidateValue;
 			}
 		}
 

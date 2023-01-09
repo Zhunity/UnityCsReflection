@@ -11,6 +11,40 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
     {
 
 		/// <summary>
+		/// System.Action`1[System.Boolean] onIsReadOnlyChanged
+		/// </summary>
+		protected REvent r_onIsReadOnlyChanged;
+		public virtual REvent RonIsReadOnlyChanged
+		{
+			get
+			{
+				if(r_onIsReadOnlyChanged == null)
+				{
+					r_onIsReadOnlyChanged = new(this, "onIsReadOnlyChanged");
+					r_onIsReadOnlyChanged.SetBelong(this.instance);
+				}
+				return r_onIsReadOnlyChanged;
+			}
+		}
+
+		/// <summary>
+		/// System.Func`2[System.String,System.String] onValidateValue
+		/// </summary>
+		protected REvent r_onValidateValue;
+		public virtual REvent RonValidateValue
+		{
+			get
+			{
+				if(r_onValidateValue == null)
+				{
+					r_onValidateValue = new(this, "onValidateValue");
+					r_onValidateValue.SetBelong(this.instance);
+				}
+				return r_onValidateValue;
+			}
+		}
+
+		/// <summary>
 		/// System.String ussClassName
 		/// </summary>
 		protected static RField r_ussClassName;
@@ -2200,40 +2234,6 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 					r_excludeFromFocusRing.SetBelong(this.instance);
 				}
 				return r_excludeFromFocusRing;
-			}
-		}
-
-		/// <summary>
-		/// System.Action`1[System.Boolean] onIsReadOnlyChanged
-		/// </summary>
-		protected REvent r_onIsReadOnlyChanged;
-		public virtual REvent RonIsReadOnlyChanged
-		{
-			get
-			{
-				if(r_onIsReadOnlyChanged == null)
-				{
-					r_onIsReadOnlyChanged = new(this, "onIsReadOnlyChanged");
-					r_onIsReadOnlyChanged.SetBelong(this.instance);
-				}
-				return r_onIsReadOnlyChanged;
-			}
-		}
-
-		/// <summary>
-		/// System.Func`2[System.String,System.String] onValidateValue
-		/// </summary>
-		protected REvent r_onValidateValue;
-		public virtual REvent RonValidateValue
-		{
-			get
-			{
-				if(r_onValidateValue == null)
-				{
-					r_onValidateValue = new(this, "onValidateValue");
-					r_onValidateValue.SetBelong(this.instance);
-				}
-				return r_onValidateValue;
 			}
 		}
 

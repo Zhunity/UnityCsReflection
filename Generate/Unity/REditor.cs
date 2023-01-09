@@ -11,6 +11,23 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
     {
 
 		/// <summary>
+		/// System.Action`1[UnityEditor.Editor] finishedDefaultHeaderGUI
+		/// </summary>
+		protected static REvent r_finishedDefaultHeaderGUI;
+		public static REvent RfinishedDefaultHeaderGUI
+		{
+			get
+			{
+				if(r_finishedDefaultHeaderGUI == null)
+				{
+					r_finishedDefaultHeaderGUI = new(typeof(UnityEditor.Editor), "finishedDefaultHeaderGUI");
+					r_finishedDefaultHeaderGUI.SetBelong(null);
+				}
+				return r_finishedDefaultHeaderGUI;
+			}
+		}
+
+		/// <summary>
 		/// UnityEngine.Object[] m_Targets
 		/// </summary>
 		protected RFieldArray<RUnityEngine.RObject> r_m_Targets;
@@ -364,23 +381,6 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 					r___0__propertyViewer__1__k__BackingField.SetBelong(this.instance);
 				}
 				return r___0__propertyViewer__1__k__BackingField;
-			}
-		}
-
-		/// <summary>
-		/// System.Action`1[UnityEditor.Editor] finishedDefaultHeaderGUI
-		/// </summary>
-		protected static RSystem.RAction<RUnityEditor.REditor> r_finishedDefaultHeaderGUI;
-		public static RSystem.RAction<RUnityEditor.REditor> RfinishedDefaultHeaderGUI
-		{
-			get
-			{
-				if(r_finishedDefaultHeaderGUI == null)
-				{
-					r_finishedDefaultHeaderGUI = new(typeof(UnityEditor.Editor), "finishedDefaultHeaderGUI");
-					r_finishedDefaultHeaderGUI.SetBelong(null);
-				}
-				return r_finishedDefaultHeaderGUI;
 			}
 		}
 

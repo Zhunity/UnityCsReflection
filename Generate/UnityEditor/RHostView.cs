@@ -11,6 +11,23 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
     {
 
 		/// <summary>
+		/// System.Action`1[UnityEditor.HostView] actualViewChanged
+		/// </summary>
+		protected static REvent r_actualViewChanged;
+		public static REvent RactualViewChanged
+		{
+			get
+			{
+				if(r_actualViewChanged == null)
+				{
+					r_actualViewChanged = new( ReflectionUtils.GetType("UnityEditor.HostView"), "actualViewChanged");
+					r_actualViewChanged.SetBelong(null);
+				}
+				return r_actualViewChanged;
+			}
+		}
+
+		/// <summary>
 		/// System.String kPlayModeDarkenKey
 		/// </summary>
 		protected static RField r_kPlayModeDarkenKey;
@@ -41,23 +58,6 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 					r_kPlayModeDarken.SetBelong(null);
 				}
 				return r_kPlayModeDarken;
-			}
-		}
-
-		/// <summary>
-		/// System.Action`1[UnityEditor.HostView] actualViewChanged
-		/// </summary>
-		protected static RSystem.RAction<RUnityEditor.RHostView> r_actualViewChanged;
-		public static RSystem.RAction<RUnityEditor.RHostView> RactualViewChanged
-		{
-			get
-			{
-				if(r_actualViewChanged == null)
-				{
-					r_actualViewChanged = new( ReflectionUtils.GetType("UnityEditor.HostView"), "actualViewChanged");
-					r_actualViewChanged.SetBelong(null);
-				}
-				return r_actualViewChanged;
 			}
 		}
 

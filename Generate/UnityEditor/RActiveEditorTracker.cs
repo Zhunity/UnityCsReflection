@@ -11,6 +11,23 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
     {
 
 		/// <summary>
+		/// System.Action editorTrackerRebuilt
+		/// </summary>
+		protected static REvent r_editorTrackerRebuilt;
+		public static REvent ReditorTrackerRebuilt
+		{
+			get
+			{
+				if(r_editorTrackerRebuilt == null)
+				{
+					r_editorTrackerRebuilt = new(typeof(UnityEditor.ActiveEditorTracker), "editorTrackerRebuilt");
+					r_editorTrackerRebuilt.SetBelong(null);
+				}
+				return r_editorTrackerRebuilt;
+			}
+		}
+
+		/// <summary>
 		/// UnityEditor.MonoReloadableIntPtrClear m_Property
 		/// </summary>
 		protected RUnityEditor.RMonoReloadableIntPtrClear r_m_Property;
@@ -24,23 +41,6 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 					r_m_Property.SetBelong(this.instance);
 				}
 				return r_m_Property;
-			}
-		}
-
-		/// <summary>
-		/// System.Action editorTrackerRebuilt
-		/// </summary>
-		protected static RSystem.RAction r_editorTrackerRebuilt;
-		public static RSystem.RAction ReditorTrackerRebuilt
-		{
-			get
-			{
-				if(r_editorTrackerRebuilt == null)
-				{
-					r_editorTrackerRebuilt = new(typeof(UnityEditor.ActiveEditorTracker), "editorTrackerRebuilt");
-					r_editorTrackerRebuilt.SetBelong(null);
-				}
-				return r_editorTrackerRebuilt;
 			}
 		}
 
