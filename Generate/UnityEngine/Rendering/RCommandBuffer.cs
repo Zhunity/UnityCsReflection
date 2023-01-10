@@ -7415,7 +7415,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 			{
 				if(r_WaitOnGPUFence_GPUFence_SynchronisationStage == null)
 				{
-					r_WaitOnGPUFence_GPUFence_SynchronisationStage = new(this, "WaitOnGPUFence", 0, typeof(UnityEngine.Rendering.GraphicsFence), typeof(UnityEngine.Rendering.SynchronisationStage));
+					r_WaitOnGPUFence_GPUFence_SynchronisationStage = new(this, "WaitOnGPUFence", 0, typeof(UnityEngine.Rendering.GPUFence), typeof(UnityEngine.Rendering.SynchronisationStage));
 					r_WaitOnGPUFence_GPUFence_SynchronisationStage.SetBelong(this.instance);
 				}
 				return r_WaitOnGPUFence_GPUFence_SynchronisationStage;
@@ -7432,7 +7432,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 			{
 				if(r_WaitOnGPUFence_GPUFence == null)
 				{
-					r_WaitOnGPUFence_GPUFence = new(this, "WaitOnGPUFence", 0, typeof(UnityEngine.Rendering.GraphicsFence));
+					r_WaitOnGPUFence_GPUFence = new(this, "WaitOnGPUFence", 0, typeof(UnityEngine.Rendering.GPUFence));
 					r_WaitOnGPUFence_GPUFence.SetBelong(this.instance);
 				}
 				return r_WaitOnGPUFence_GPUFence;
@@ -12908,29 +12908,29 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual UnityEngine.Rendering.GraphicsFence CreateGPUFence(UnityEngine.Rendering.SynchronisationStage @stage)
+        public virtual UnityEngine.Rendering.GPUFence CreateGPUFence(UnityEngine.Rendering.SynchronisationStage @stage)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@stage};
             var ___result = RCreateGPUFence_SynchronisationStage.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.Rendering.GraphicsFence)___result;
+            return (UnityEngine.Rendering.GPUFence)___result;
         }
 
 
-        public virtual UnityEngine.Rendering.GraphicsFence CreateGPUFence()
+        public virtual UnityEngine.Rendering.GPUFence CreateGPUFence()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RCreateGPUFence.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.Rendering.GraphicsFence)___result;
+            return (UnityEngine.Rendering.GPUFence)___result;
         }
 
 
-        public virtual void WaitOnGPUFence(UnityEngine.Rendering.GraphicsFence @fence, UnityEngine.Rendering.SynchronisationStage @stage)
+        public virtual void WaitOnGPUFence(UnityEngine.Rendering.GPUFence @fence, UnityEngine.Rendering.SynchronisationStage @stage)
         {
 
             var ___genericsType = new Type[] {};
@@ -12941,7 +12941,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void WaitOnGPUFence(UnityEngine.Rendering.GraphicsFence @fence)
+        public virtual void WaitOnGPUFence(UnityEngine.Rendering.GPUFence @fence)
         {
 
             var ___genericsType = new Type[] {};

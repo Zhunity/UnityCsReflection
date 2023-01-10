@@ -7,7 +7,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 	/// <summary>
 	/// UnityEngine.UIElements.StyleDataRef`1
 	/// </summary>
-    public partial class RStyleDataRef<T> : RMember // where T : struct, System.IEquatable<T>
+    public partial class RStyleDataRef<T> : RMember // where T : struct
     {
 
 		/// <summary>
@@ -384,25 +384,25 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual T Read()
+        public virtual RType Read()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RRead.Invoke(___genericsType, ___parameters);
 
-            return (T)___result;
+            return new RType(___result);
         }
 
 
-        public virtual T Write()
+        public virtual RType Write()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RWrite.Invoke(___genericsType, ___parameters);
 
-            return (T)___result;
+            return new RType(___result);
         }
 
 

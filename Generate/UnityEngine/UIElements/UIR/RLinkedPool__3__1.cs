@@ -294,22 +294,22 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
         }
 
 
-        public virtual T Get()
+        public virtual RType Get()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RGet.Invoke(___genericsType, ___parameters);
 
-            return (T)___result;
+            return new RType(___result);
         }
 
 
-        public virtual void Return(T @item)
+        public virtual void Return(RType @item)
         {
 
             var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@item};
+            var ___parameters = new object[]{@item.Value};
             var ___result = RReturn_T.Invoke(___genericsType, ___parameters);
 
             
