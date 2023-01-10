@@ -234,9 +234,22 @@ namespace SMFrame.Editor.Refleaction
 
 		class aBase
 		{
+			public int newfield;
+			public int newproperty { get; }
+			public event Action newevent;
+			public event Action newevent2 
+			{
+				add
+				{
+				}
+				remove
+				{
+				}
+			}
+
 			public void newmethod()
 			{
-
+				Debug.Log("abase");
 			}
 
 			public virtual void virtualmethod()
@@ -247,9 +260,22 @@ namespace SMFrame.Editor.Refleaction
 
 		class child : aBase
 		{
+			public new int newfield;
+			public new int newproperty { get; }
+			public new event Action newevent;
+			public new event Action newevent2
+			{
+				add
+				{
+				}
+				remove
+				{
+				}
+			}
+
 			public new void newmethod()
 			{
-
+				Debug.Log("child");
 			}
 
 			public override void virtualmethod()
@@ -318,6 +344,32 @@ namespace SMFrame.Editor.Refleaction
 			var e = t.GetEvent("OnTextChanged");
 			Debug.Log("f " + f);
 			Debug.Log("e " + e);
+		}
+
+
+
+
+
+		[MenuItem("Tools/test new method")]
+		static void TestNewMethod()
+		{
+			var abase = typeof(aBase);
+			var cr = typeof(child);
+
+
+			var childM = cr.GetMethods();
+			child ci = new child();
+			foreach (var item in childM)
+			{
+				if(item.Name == "newmethod")
+				{
+					item.Invoke(ci, null);
+				}
+			}
+			var baseM = abase.GetMethod("newmethod");
+			
+			
+			baseM.Invoke(ci, null);
 		}
 	}
 }
