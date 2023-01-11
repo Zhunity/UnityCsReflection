@@ -343,7 +343,7 @@ namespace SMFrame.Editor.Refleaction
 			var f = t.GetField("OnTextChanged");
 			var e = t.GetEvent("OnTextChanged");
 			Debug.Log("f " + f);
-			Debug.Log("e " + e);
+			Debug.Log("e " + e + "  " + e.EventHandlerType);
 		}
 
 
