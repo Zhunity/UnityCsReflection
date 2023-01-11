@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RJobs
 		/// <summary>
 		/// System.UInt64 jobGroup
 		/// </summary>
-		protected RField r_jobGroup;
-		public virtual RField RjobGroup
+		protected RSystem.RUInt64 r_jobGroup;
+		public virtual RSystem.RUInt64 RjobGroup
 		{
 			get
 			{
@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RJobs
 		/// <summary>
 		/// System.Int32 version
 		/// </summary>
-		protected RField r_version;
-		public virtual RField Rversion
+		protected RSystem.RInt32 r_version;
+		public virtual RSystem.RInt32 Rversion
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RJobs
 		/// <summary>
 		/// System.Int32 debugVersion
 		/// </summary>
-		protected RField r_debugVersion;
-		public virtual RField RdebugVersion
+		protected RSystem.RInt32 r_debugVersion;
+		public virtual RSystem.RInt32 RdebugVersion
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RJobs
 		/// <summary>
 		/// System.IntPtr debugInfo
 		/// </summary>
-		protected RField r_debugInfo;
-		public virtual RField RdebugInfo
+		protected RSystem.RIntPtr r_debugInfo;
+		public virtual RSystem.RIntPtr RdebugInfo
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RJobs
 		/// <summary>
 		/// Boolean IsCompleted
 		/// </summary>
-		protected RProperty r_IsCompleted;
-		public virtual RProperty RIsCompleted
+		protected RSystem.RBoolean r_IsCompleted;
+		public virtual RSystem.RBoolean RIsCompleted
 		{
 			get
 			{
@@ -644,6 +644,16 @@ namespace SMFrame.Editor.Refleaction.RUnity.RJobs
         }
 
 
+        public static void CompleteAll(RUnity.RCollections.RNativeArray<RUnity.RJobs.RJobHandle> @jobs)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@jobs.Value};
+            var ___result = RCompleteAll_NativeArray_d_JobHandle_p_.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
 
         public static void ScheduleBatchedJobs()
         {
@@ -713,6 +723,26 @@ namespace SMFrame.Editor.Refleaction.RUnity.RJobs
         }
 
 
+        public static Unity.Jobs.JobHandle CombineDependencies(RUnity.RCollections.RNativeArray<RUnity.RJobs.RJobHandle> @jobs)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@jobs.Value};
+            var ___result = RCombineDependencies_NativeArray_d_JobHandle_p_.Invoke(___genericsType, ___parameters);
+
+            return (Unity.Jobs.JobHandle)___result;
+        }
+
+
+        public static Unity.Jobs.JobHandle CombineDependencies(RUnity.RCollections.RNativeSlice<RUnity.RJobs.RJobHandle> @jobs)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@jobs.Value};
+            var ___result = RCombineDependencies_NativeSlice_d_JobHandle_p_.Invoke(___genericsType, ___parameters);
+
+            return (Unity.Jobs.JobHandle)___result;
+        }
 
 
         public static Unity.Jobs.JobHandle CombineDependenciesInternal2(ref Unity.Jobs.JobHandle @job0, ref Unity.Jobs.JobHandle @job1)

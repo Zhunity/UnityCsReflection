@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Int32 defaultSplitSize
 		/// </summary>
-		protected static RField r_defaultSplitSize;
-		public static RField RdefaultSplitSize
+		protected static RSystem.RInt32 r_defaultSplitSize;
+		public static RSystem.RInt32 RdefaultSplitSize
 		{
 			get
 			{
@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Int32 ID
 		/// </summary>
-		protected RField r_ID;
-		public virtual RField RID
+		protected RSystem.RInt32 r_ID;
+		public virtual RSystem.RInt32 RID
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Single splitterInitialOffset
 		/// </summary>
-		protected RField r_splitterInitialOffset;
-		public virtual RField RsplitterInitialOffset
+		protected RSystem.RSingle r_splitterInitialOffset;
+		public virtual RSystem.RSingle RsplitterInitialOffset
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Int32 currentActiveSplitter
 		/// </summary>
-		protected RField r_currentActiveSplitter;
-		public virtual RField RcurrentActiveSplitter
+		protected RSystem.RInt32 r_currentActiveSplitter;
+		public virtual RSystem.RInt32 RcurrentActiveSplitter
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Single[] realSizes
 		/// </summary>
-		protected RFieldArray<RField> r_realSizes;
-		public virtual RFieldArray<RField> RrealSizes
+		protected RFieldArray<RSystem.RSingle> r_realSizes;
+		public virtual RFieldArray<RSystem.RSingle> RrealSizes
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Single[] relativeSizes
 		/// </summary>
-		protected RFieldArray<RField> r_relativeSizes;
-		public virtual RFieldArray<RField> RrelativeSizes
+		protected RFieldArray<RSystem.RSingle> r_relativeSizes;
+		public virtual RFieldArray<RSystem.RSingle> RrelativeSizes
 		{
 			get
 			{
@@ -115,8 +115,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Single[] minSizes
 		/// </summary>
-		protected RFieldArray<RField> r_minSizes;
-		public virtual RFieldArray<RField> RminSizes
+		protected RFieldArray<RSystem.RSingle> r_minSizes;
+		public virtual RFieldArray<RSystem.RSingle> RminSizes
 		{
 			get
 			{
@@ -132,8 +132,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Single[] maxSizes
 		/// </summary>
-		protected RFieldArray<RField> r_maxSizes;
-		public virtual RFieldArray<RField> RmaxSizes
+		protected RFieldArray<RSystem.RSingle> r_maxSizes;
+		public virtual RFieldArray<RSystem.RSingle> RmaxSizes
 		{
 			get
 			{
@@ -149,8 +149,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Single lastTotalSize
 		/// </summary>
-		protected RField r_lastTotalSize;
-		public virtual RField RlastTotalSize
+		protected RSystem.RSingle r_lastTotalSize;
+		public virtual RSystem.RSingle RlastTotalSize
 		{
 			get
 			{
@@ -166,8 +166,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Single splitSize
 		/// </summary>
-		protected RField r_splitSize;
-		public virtual RField RsplitSize
+		protected RSystem.RSingle r_splitSize;
+		public virtual RSystem.RSingle RsplitSize
 		{
 			get
 			{
@@ -183,8 +183,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Single xOffset
 		/// </summary>
-		protected RField r_xOffset;
-		public virtual RField RxOffset
+		protected RSystem.RSingle r_xOffset;
+		public virtual RSystem.RSingle RxOffset
 		{
 			get
 			{
@@ -200,8 +200,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Int32 m_Version
 		/// </summary>
-		protected RField r_m_Version;
-		public virtual RField Rm_Version
+		protected RSystem.RInt32 r_m_Version;
+		public virtual RSystem.RInt32 Rm_Version
 		{
 			get
 			{
@@ -217,8 +217,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Int32[] oldRealSizes
 		/// </summary>
-		protected RFieldArray<RField> r_oldRealSizes;
-		public virtual RFieldArray<RField> RoldRealSizes
+		protected RFieldArray<RSystem.RInt32> r_oldRealSizes;
+		public virtual RFieldArray<RSystem.RInt32> RoldRealSizes
 		{
 			get
 			{
@@ -234,8 +234,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Int32[] oldMinSizes
 		/// </summary>
-		protected RFieldArray<RField> r_oldMinSizes;
-		public virtual RFieldArray<RField> RoldMinSizes
+		protected RFieldArray<RSystem.RInt32> r_oldMinSizes;
+		public virtual RFieldArray<RSystem.RInt32> RoldMinSizes
 		{
 			get
 			{
@@ -251,8 +251,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Int32[] oldMaxSizes
 		/// </summary>
-		protected RFieldArray<RField> r_oldMaxSizes;
-		public virtual RFieldArray<RField> RoldMaxSizes
+		protected RFieldArray<RSystem.RInt32> r_oldMaxSizes;
+		public virtual RFieldArray<RSystem.RInt32> RoldMaxSizes
 		{
 			get
 			{
@@ -268,8 +268,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Int32 oldSplitSize
 		/// </summary>
-		protected RField r_oldSplitSize;
-		public virtual RField RoldSplitSize
+		protected RSystem.RInt32 r_oldSplitSize;
+		public virtual RSystem.RInt32 RoldSplitSize
 		{
 			get
 			{
@@ -285,8 +285,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Converter`2[System.Int32,System.Single] s_ConverterDelegate
 		/// </summary>
-		protected static RSystem.RConverter<RField, RField> r_s_ConverterDelegate;
-		public static RSystem.RConverter<RField, RField> Rs_ConverterDelegate
+		protected static RSystem.RConverter<RSystem.RInt32, RSystem.RSingle> r_s_ConverterDelegate;
+		public static RSystem.RConverter<RSystem.RInt32, RSystem.RSingle> Rs_ConverterDelegate
 		{
 			get
 			{

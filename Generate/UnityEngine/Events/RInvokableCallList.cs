@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.REvents
 		/// <summary>
 		/// System.Boolean m_NeedsUpdate
 		/// </summary>
-		protected RField r_m_NeedsUpdate;
-		public virtual RField Rm_NeedsUpdate
+		protected RSystem.RBoolean r_m_NeedsUpdate;
+		public virtual RSystem.RBoolean Rm_NeedsUpdate
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.REvents
 		/// <summary>
 		/// Int32 Count
 		/// </summary>
-		protected RProperty r_Count;
-		public virtual RProperty RCount
+		protected RSystem.RInt32 r_Count;
+		public virtual RSystem.RInt32 RCount
 		{
 			get
 			{

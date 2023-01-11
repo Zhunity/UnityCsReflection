@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RSynt
 		/// <summary>
 		/// System.String text
 		/// </summary>
-		protected RField r_text;
-		public virtual RField Rtext
+		protected RSystem.RString r_text;
+		public virtual RSystem.RString Rtext
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RSynt
 		/// <summary>
 		/// System.Int32 number
 		/// </summary>
-		protected RField r_number;
-		public virtual RField Rnumber
+		protected RSystem.RInt32 r_number;
+		public virtual RSystem.RInt32 Rnumber
 		{
 			get
 			{

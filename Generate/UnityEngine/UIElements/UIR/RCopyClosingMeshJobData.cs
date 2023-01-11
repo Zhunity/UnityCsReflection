@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.IntPtr vertSrc
 		/// </summary>
-		protected RField r_vertSrc;
-		public virtual RField RvertSrc
+		protected RSystem.RIntPtr r_vertSrc;
+		public virtual RSystem.RIntPtr RvertSrc
 		{
 			get
 			{
@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.IntPtr vertDst
 		/// </summary>
-		protected RField r_vertDst;
-		public virtual RField RvertDst
+		protected RSystem.RIntPtr r_vertDst;
+		public virtual RSystem.RIntPtr RvertDst
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Int32 vertCount
 		/// </summary>
-		protected RField r_vertCount;
-		public virtual RField RvertCount
+		protected RSystem.RInt32 r_vertCount;
+		public virtual RSystem.RInt32 RvertCount
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.IntPtr indexSrc
 		/// </summary>
-		protected RField r_indexSrc;
-		public virtual RField RindexSrc
+		protected RSystem.RIntPtr r_indexSrc;
+		public virtual RSystem.RIntPtr RindexSrc
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.IntPtr indexDst
 		/// </summary>
-		protected RField r_indexDst;
-		public virtual RField RindexDst
+		protected RSystem.RIntPtr r_indexDst;
+		public virtual RSystem.RIntPtr RindexDst
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Int32 indexCount
 		/// </summary>
-		protected RField r_indexCount;
-		public virtual RField RindexCount
+		protected RSystem.RInt32 r_indexCount;
+		public virtual RSystem.RInt32 RindexCount
 		{
 			get
 			{
@@ -115,8 +115,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Int32 indexOffset
 		/// </summary>
-		protected RField r_indexOffset;
-		public virtual RField RindexOffset
+		protected RSystem.RInt32 r_indexOffset;
+		public virtual RSystem.RInt32 RindexOffset
 		{
 			get
 			{

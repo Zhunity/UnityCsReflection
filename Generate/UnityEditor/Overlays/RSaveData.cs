@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// System.Int32 k_InvalidIndex
 		/// </summary>
-		protected static RField r_k_InvalidIndex;
-		public static RField Rk_InvalidIndex
+		protected static RSystem.RInt32 r_k_InvalidIndex;
+		public static RSystem.RInt32 Rk_InvalidIndex
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// System.String containerId
 		/// </summary>
-		protected RField r_containerId;
-		public virtual RField RcontainerId
+		protected RSystem.RString r_containerId;
+		public virtual RSystem.RString RcontainerId
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// System.Boolean floating
 		/// </summary>
-		protected RField r_floating;
-		public virtual RField Rfloating
+		protected RSystem.RBoolean r_floating;
+		public virtual RSystem.RBoolean Rfloating
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// System.Boolean collapsed
 		/// </summary>
-		protected RField r_collapsed;
-		public virtual RField Rcollapsed
+		protected RSystem.RBoolean r_collapsed;
+		public virtual RSystem.RBoolean Rcollapsed
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// System.Boolean displayed
 		/// </summary>
-		protected RField r_displayed;
-		public virtual RField Rdisplayed
+		protected RSystem.RBoolean r_displayed;
+		public virtual RSystem.RBoolean Rdisplayed
 		{
 			get
 			{
@@ -166,8 +166,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// System.String id
 		/// </summary>
-		protected RField r_id;
-		public virtual RField Rid
+		protected RSystem.RString r_id;
+		public virtual RSystem.RString Rid
 		{
 			get
 			{
@@ -183,8 +183,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// System.Int32 index
 		/// </summary>
-		protected RField r_index;
-		public virtual RField Rindex
+		protected RSystem.RInt32 r_index;
+		public virtual RSystem.RInt32 Rindex
 		{
 			get
 			{
@@ -234,8 +234,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// System.Boolean sizeOverriden
 		/// </summary>
-		protected RField r_sizeOverriden;
-		public virtual RField RsizeOverriden
+		protected RSystem.RBoolean r_sizeOverriden;
+		public virtual RSystem.RBoolean RsizeOverriden
 		{
 			get
 			{

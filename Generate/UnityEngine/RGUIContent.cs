@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.String m_Text
 		/// </summary>
-		protected RField r_m_Text;
-		public virtual RField Rm_Text
+		protected RSystem.RString r_m_Text;
+		public virtual RSystem.RString Rm_Text
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.String m_Tooltip
 		/// </summary>
-		protected RField r_m_Tooltip;
-		public virtual RField Rm_Tooltip
+		protected RSystem.RString r_m_Tooltip;
+		public virtual RSystem.RString Rm_Tooltip
 		{
 			get
 			{
@@ -149,8 +149,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.String text
 		/// </summary>
-		protected RProperty r_text;
-		public virtual RProperty Rtext
+		protected RSystem.RString r_text;
+		public virtual RSystem.RString Rtext
 		{
 			get
 			{
@@ -183,8 +183,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.String tooltip
 		/// </summary>
-		protected RProperty r_tooltip;
-		public virtual RProperty Rtooltip
+		protected RSystem.RString r_tooltip;
+		public virtual RSystem.RString Rtooltip
 		{
 			get
 			{
@@ -200,8 +200,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 hash
 		/// </summary>
-		protected RProperty r_hash;
-		public virtual RProperty Rhash
+		protected RSystem.RInt32 r_hash;
+		public virtual RSystem.RInt32 Rhash
 		{
 			get
 			{

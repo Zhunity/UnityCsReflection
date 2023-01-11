@@ -15,8 +15,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Int32 <id>k__BackingField
 		/// </summary>
-		protected RField r___0__id__1__k__BackingField;
-		public virtual RField R__0__id__1__k__BackingField
+		protected RSystem.RInt32 r___0__id__1__k__BackingField;
+		public virtual RSystem.RInt32 R__0__id__1__k__BackingField
 		{
 			get
 			{
@@ -83,8 +83,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 id
 		/// </summary>
-		protected RProperty r_id;
-		public virtual RProperty Rid
+		protected RSystem.RInt32 r_id;
+		public virtual RSystem.RInt32 Rid
 		{
 			get
 			{

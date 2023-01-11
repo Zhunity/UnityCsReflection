@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 		/// <summary>
 		/// System.Collections.Generic.List`1[System.Int32] m_ValueCount
 		/// </summary>
-		protected RSystem.RCollections.RGeneric.RList<RField> r_m_ValueCount;
-		public virtual RSystem.RCollections.RGeneric.RList<RField> Rm_ValueCount
+		protected RSystem.RCollections.RGeneric.RList<RSystem.RInt32> r_m_ValueCount;
+		public virtual RSystem.RCollections.RGeneric.RList<RSystem.RInt32> Rm_ValueCount
 		{
 			get
 			{
@@ -132,8 +132,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 		/// <summary>
 		/// System.Int32 m_CurrentValueIndex
 		/// </summary>
-		protected RField r_m_CurrentValueIndex;
-		public virtual RField Rm_CurrentValueIndex
+		protected RSystem.RInt32 r_m_CurrentValueIndex;
+		public virtual RSystem.RInt32 Rm_CurrentValueIndex
 		{
 			get
 			{
@@ -149,8 +149,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 		/// <summary>
 		/// System.Int32 m_CurrentPropertyIndex
 		/// </summary>
-		protected RField r_m_CurrentPropertyIndex;
-		public virtual RField Rm_CurrentPropertyIndex
+		protected RSystem.RInt32 r_m_CurrentPropertyIndex;
+		public virtual RSystem.RInt32 Rm_CurrentPropertyIndex
 		{
 			get
 			{
@@ -200,8 +200,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 		/// <summary>
 		/// System.Int32 <valueCount>k__BackingField
 		/// </summary>
-		protected RField r___0__valueCount__1__k__BackingField;
-		public virtual RField R__0__valueCount__1__k__BackingField
+		protected RSystem.RInt32 r___0__valueCount__1__k__BackingField;
+		public virtual RSystem.RInt32 R__0__valueCount__1__k__BackingField
 		{
 			get
 			{
@@ -217,8 +217,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 		/// <summary>
 		/// System.Single <dpiScaling>k__BackingField
 		/// </summary>
-		protected RField r___0__dpiScaling__1__k__BackingField;
-		public virtual RField R__0__dpiScaling__1__k__BackingField
+		protected RSystem.RSingle r___0__dpiScaling__1__k__BackingField;
+		public virtual RSystem.RSingle R__0__dpiScaling__1__k__BackingField
 		{
 			get
 			{
@@ -268,8 +268,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 		/// <summary>
 		/// Int32 valueCount
 		/// </summary>
-		protected RProperty r_valueCount;
-		public virtual RProperty RvalueCount
+		protected RSystem.RInt32 r_valueCount;
+		public virtual RSystem.RInt32 RvalueCount
 		{
 			get
 			{
@@ -285,8 +285,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 		/// <summary>
 		/// Single dpiScaling
 		/// </summary>
-		protected RProperty r_dpiScaling;
-		public virtual RProperty RdpiScaling
+		protected RSystem.RSingle r_dpiScaling;
+		public virtual RSystem.RSingle RdpiScaling
 		{
 			get
 			{

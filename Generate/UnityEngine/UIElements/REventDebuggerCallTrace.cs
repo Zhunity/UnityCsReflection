@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int32 <callbackHashCode>k__BackingField
 		/// </summary>
-		protected RField r___0__callbackHashCode__1__k__BackingField;
-		public virtual RField R__0__callbackHashCode__1__k__BackingField
+		protected RSystem.RInt32 r___0__callbackHashCode__1__k__BackingField;
+		public virtual RSystem.RInt32 R__0__callbackHashCode__1__k__BackingField
 		{
 			get
 			{
@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.String <callbackName>k__BackingField
 		/// </summary>
-		protected RField r___0__callbackName__1__k__BackingField;
-		public virtual RField R__0__callbackName__1__k__BackingField
+		protected RSystem.RString r___0__callbackName__1__k__BackingField;
+		public virtual RSystem.RString R__0__callbackName__1__k__BackingField
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Boolean <propagationHasStopped>k__BackingField
 		/// </summary>
-		protected RField r___0__propagationHasStopped__1__k__BackingField;
-		public virtual RField R__0__propagationHasStopped__1__k__BackingField
+		protected RSystem.RBoolean r___0__propagationHasStopped__1__k__BackingField;
+		public virtual RSystem.RBoolean R__0__propagationHasStopped__1__k__BackingField
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Boolean <immediatePropagationHasStopped>k__BackingField
 		/// </summary>
-		protected RField r___0__immediatePropagationHasStopped__1__k__BackingField;
-		public virtual RField R__0__immediatePropagationHasStopped__1__k__BackingField
+		protected RSystem.RBoolean r___0__immediatePropagationHasStopped__1__k__BackingField;
+		public virtual RSystem.RBoolean R__0__immediatePropagationHasStopped__1__k__BackingField
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Boolean <defaultHasBeenPrevented>k__BackingField
 		/// </summary>
-		protected RField r___0__defaultHasBeenPrevented__1__k__BackingField;
-		public virtual RField R__0__defaultHasBeenPrevented__1__k__BackingField
+		protected RSystem.RBoolean r___0__defaultHasBeenPrevented__1__k__BackingField;
+		public virtual RSystem.RBoolean R__0__defaultHasBeenPrevented__1__k__BackingField
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Int32 callbackHashCode
 		/// </summary>
-		protected RProperty r_callbackHashCode;
-		public virtual RProperty RcallbackHashCode
+		protected RSystem.RInt32 r_callbackHashCode;
+		public virtual RSystem.RInt32 RcallbackHashCode
 		{
 			get
 			{
@@ -115,8 +115,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.String callbackName
 		/// </summary>
-		protected RProperty r_callbackName;
-		public virtual RProperty RcallbackName
+		protected RSystem.RString r_callbackName;
+		public virtual RSystem.RString RcallbackName
 		{
 			get
 			{
@@ -132,8 +132,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Boolean propagationHasStopped
 		/// </summary>
-		protected RProperty r_propagationHasStopped;
-		public virtual RProperty RpropagationHasStopped
+		protected RSystem.RBoolean r_propagationHasStopped;
+		public virtual RSystem.RBoolean RpropagationHasStopped
 		{
 			get
 			{
@@ -149,8 +149,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Boolean immediatePropagationHasStopped
 		/// </summary>
-		protected RProperty r_immediatePropagationHasStopped;
-		public virtual RProperty RimmediatePropagationHasStopped
+		protected RSystem.RBoolean r_immediatePropagationHasStopped;
+		public virtual RSystem.RBoolean RimmediatePropagationHasStopped
 		{
 			get
 			{
@@ -166,8 +166,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Boolean defaultHasBeenPrevented
 		/// </summary>
-		protected RProperty r_defaultHasBeenPrevented;
-		public virtual RProperty RdefaultHasBeenPrevented
+		protected RSystem.RBoolean r_defaultHasBeenPrevented;
+		public virtual RSystem.RBoolean RdefaultHasBeenPrevented
 		{
 			get
 			{
@@ -234,8 +234,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Int64 duration
 		/// </summary>
-		protected RProperty r_duration;
-		public virtual RProperty Rduration
+		protected RSystem.RInt64 r_duration;
+		public virtual RSystem.RInt64 Rduration
 		{
 			get
 			{

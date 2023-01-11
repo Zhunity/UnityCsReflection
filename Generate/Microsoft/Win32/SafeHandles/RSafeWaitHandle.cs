@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RMicrosoft.RWin32.RSafeHandles
 		/// <summary>
 		/// System.IntPtr handle
 		/// </summary>
-		protected RField r_handle;
-		public virtual RField Rhandle
+		protected RSystem.RIntPtr r_handle;
+		public virtual RSystem.RIntPtr Rhandle
 		{
 			get
 			{
@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RMicrosoft.RWin32.RSafeHandles
 		/// <summary>
 		/// Boolean IsInvalid
 		/// </summary>
-		protected RProperty r_IsInvalid;
-		public virtual RProperty RIsInvalid
+		protected RSystem.RBoolean r_IsInvalid;
+		public virtual RSystem.RBoolean RIsInvalid
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RMicrosoft.RWin32.RSafeHandles
 		/// <summary>
 		/// Boolean IsClosed
 		/// </summary>
-		protected RProperty r_IsClosed;
-		public virtual RProperty RIsClosed
+		protected RSystem.RBoolean r_IsClosed;
+		public virtual RSystem.RBoolean RIsClosed
 		{
 			get
 			{

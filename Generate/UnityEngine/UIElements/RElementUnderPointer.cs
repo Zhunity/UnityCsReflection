@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Boolean[] m_IsPickingPointerTemporaries
 		/// </summary>
-		protected RFieldArray<RField> r_m_IsPickingPointerTemporaries;
-		public virtual RFieldArray<RField> Rm_IsPickingPointerTemporaries
+		protected RFieldArray<RSystem.RBoolean> r_m_IsPickingPointerTemporaries;
+		public virtual RFieldArray<RSystem.RBoolean> Rm_IsPickingPointerTemporaries
 		{
 			get
 			{

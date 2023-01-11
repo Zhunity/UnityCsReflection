@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditorInternal
 		/// <summary>
 		/// System.Single m_HeaderHeight
 		/// </summary>
-		protected RField r_m_HeaderHeight;
-		public virtual RField Rm_HeaderHeight
+		protected RSystem.RSingle r_m_HeaderHeight;
+		public virtual RSystem.RSingle Rm_HeaderHeight
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditorInternal
 		/// <summary>
 		/// System.Boolean m_Reorderable
 		/// </summary>
-		protected RField r_m_Reorderable;
-		public virtual RField Rm_Reorderable
+		protected RSystem.RBoolean r_m_Reorderable;
+		public virtual RSystem.RBoolean Rm_Reorderable
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditorInternal
 		/// <summary>
 		/// System.Boolean m_IsNotInPrefabContextModeWithOverrides
 		/// </summary>
-		protected RField r_m_IsNotInPrefabContextModeWithOverrides;
-		public virtual RField Rm_IsNotInPrefabContextModeWithOverrides
+		protected RSystem.RBoolean r_m_IsNotInPrefabContextModeWithOverrides;
+		public virtual RSystem.RBoolean Rm_IsNotInPrefabContextModeWithOverrides
 		{
 			get
 			{
@@ -132,8 +132,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditorInternal
 		/// <summary>
 		/// System.Int32 m_LastArraySize
 		/// </summary>
-		protected RField r_m_LastArraySize;
-		public virtual RField Rm_LastArraySize
+		protected RSystem.RInt32 r_m_LastArraySize;
+		public virtual RSystem.RInt32 Rm_LastArraySize
 		{
 			get
 			{

@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Func`1[System.Boolean] timerUpdateStopCondition
 		/// </summary>
-		protected RSystem.RFunc<RField> r_timerUpdateStopCondition;
-		public virtual RSystem.RFunc<RField> RtimerUpdateStopCondition
+		protected RSystem.RFunc<RSystem.RBoolean> r_timerUpdateStopCondition;
+		public virtual RSystem.RFunc<RSystem.RBoolean> RtimerUpdateStopCondition
 		{
 			get
 			{
@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Func`1[System.Boolean] OnceCondition
 		/// </summary>
-		protected static RSystem.RFunc<RField> r_OnceCondition;
-		public static RSystem.RFunc<RField> ROnceCondition
+		protected static RSystem.RFunc<RSystem.RBoolean> r_OnceCondition;
+		public static RSystem.RFunc<RSystem.RBoolean> ROnceCondition
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Func`1[System.Boolean] ForeverCondition
 		/// </summary>
-		protected static RSystem.RFunc<RField> r_ForeverCondition;
-		public static RSystem.RFunc<RField> RForeverCondition
+		protected static RSystem.RFunc<RSystem.RBoolean> r_ForeverCondition;
+		public static RSystem.RFunc<RSystem.RBoolean> RForeverCondition
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int64 <startMs>k__BackingField
 		/// </summary>
-		protected RField r___0__startMs__1__k__BackingField;
-		public virtual RField R__0__startMs__1__k__BackingField
+		protected RSystem.RInt64 r___0__startMs__1__k__BackingField;
+		public virtual RSystem.RInt64 R__0__startMs__1__k__BackingField
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int64 <delayMs>k__BackingField
 		/// </summary>
-		protected RField r___0__delayMs__1__k__BackingField;
-		public virtual RField R__0__delayMs__1__k__BackingField
+		protected RSystem.RInt64 r___0__delayMs__1__k__BackingField;
+		public virtual RSystem.RInt64 R__0__delayMs__1__k__BackingField
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int64 <intervalMs>k__BackingField
 		/// </summary>
-		protected RField r___0__intervalMs__1__k__BackingField;
-		public virtual RField R__0__intervalMs__1__k__BackingField
+		protected RSystem.RInt64 r___0__intervalMs__1__k__BackingField;
+		public virtual RSystem.RInt64 R__0__intervalMs__1__k__BackingField
 		{
 			get
 			{
@@ -115,8 +115,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int64 <endTimeMs>k__BackingField
 		/// </summary>
-		protected RField r___0__endTimeMs__1__k__BackingField;
-		public virtual RField R__0__endTimeMs__1__k__BackingField
+		protected RSystem.RInt64 r___0__endTimeMs__1__k__BackingField;
+		public virtual RSystem.RInt64 R__0__endTimeMs__1__k__BackingField
 		{
 			get
 			{
@@ -132,8 +132,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Int64 startMs
 		/// </summary>
-		protected RProperty r_startMs;
-		public virtual RProperty RstartMs
+		protected RSystem.RInt64 r_startMs;
+		public virtual RSystem.RInt64 RstartMs
 		{
 			get
 			{
@@ -149,8 +149,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Int64 delayMs
 		/// </summary>
-		protected RProperty r_delayMs;
-		public virtual RProperty RdelayMs
+		protected RSystem.RInt64 r_delayMs;
+		public virtual RSystem.RInt64 RdelayMs
 		{
 			get
 			{
@@ -166,8 +166,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Int64 intervalMs
 		/// </summary>
-		protected RProperty r_intervalMs;
-		public virtual RProperty RintervalMs
+		protected RSystem.RInt64 r_intervalMs;
+		public virtual RSystem.RInt64 RintervalMs
 		{
 			get
 			{
@@ -183,8 +183,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Int64 endTimeMs
 		/// </summary>
-		protected RProperty r_endTimeMs;
-		public virtual RProperty RendTimeMs
+		protected RSystem.RInt64 r_endTimeMs;
+		public virtual RSystem.RInt64 RendTimeMs
 		{
 			get
 			{

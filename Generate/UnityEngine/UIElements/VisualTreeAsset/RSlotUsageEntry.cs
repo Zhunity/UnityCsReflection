@@ -15,8 +15,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.String slotName
 		/// </summary>
-		protected RField r_slotName;
-		public virtual RField RslotName
+		protected RSystem.RString r_slotName;
+		public virtual RSystem.RString RslotName
 		{
 			get
 			{
@@ -32,8 +32,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int32 assetId
 		/// </summary>
-		protected RField r_assetId;
-		public virtual RField RassetId
+		protected RSystem.RInt32 r_assetId;
+		public virtual RSystem.RInt32 RassetId
 		{
 			get
 			{

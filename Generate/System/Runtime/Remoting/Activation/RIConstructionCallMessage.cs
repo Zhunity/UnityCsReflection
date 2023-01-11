@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RActivation
 		/// <summary>
 		/// System.String ActivationTypeName
 		/// </summary>
-		protected RProperty r_ActivationTypeName;
-		public virtual RProperty RActivationTypeName
+		protected RSystem.RString r_ActivationTypeName;
+		public virtual RSystem.RString RActivationTypeName
 		{
 			get
 			{

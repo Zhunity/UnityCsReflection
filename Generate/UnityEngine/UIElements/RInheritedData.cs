@@ -183,8 +183,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Single unityTextOutlineWidth
 		/// </summary>
-		protected RField r_unityTextOutlineWidth;
-		public virtual RField RunityTextOutlineWidth
+		protected RSystem.RSingle r_unityTextOutlineWidth;
+		public virtual RSystem.RSingle RunityTextOutlineWidth
 		{
 			get
 			{

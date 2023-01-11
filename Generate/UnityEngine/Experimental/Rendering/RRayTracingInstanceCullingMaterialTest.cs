@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 		/// <summary>
 		/// System.String[] deniedShaderPasses
 		/// </summary>
-		protected RFieldArray<RField> r_deniedShaderPasses;
-		public virtual RFieldArray<RField> RdeniedShaderPasses
+		protected RFieldArray<RSystem.RString> r_deniedShaderPasses;
+		public virtual RFieldArray<RSystem.RString> RdeniedShaderPasses
 		{
 			get
 			{

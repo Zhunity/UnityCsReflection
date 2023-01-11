@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RResources
 		/// <summary>
 		/// System.Int32 language
 		/// </summary>
-		protected RField r_language;
-		public virtual RField Rlanguage
+		protected RSystem.RInt32 r_language;
+		public virtual RSystem.RInt32 Rlanguage
 		{
 			get
 			{
@@ -115,8 +115,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RResources
 		/// <summary>
 		/// Int32 Language
 		/// </summary>
-		protected RProperty r_Language;
-		public virtual RProperty RLanguage
+		protected RSystem.RInt32 r_Language;
+		public virtual RSystem.RInt32 RLanguage
 		{
 			get
 			{

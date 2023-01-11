@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
 		/// <summary>
 		/// System.String label
 		/// </summary>
-		protected RField r_label;
-		public virtual RField Rlabel
+		protected RSystem.RString r_label;
+		public virtual RSystem.RString Rlabel
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
 		/// <summary>
 		/// System.String _location
 		/// </summary>
-		protected RField r__location;
-		public virtual RField R_location
+		protected RSystem.RString r__location;
+		public virtual RSystem.RString R_location
 		{
 			get
 			{
@@ -166,8 +166,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
 		/// <summary>
 		/// System.String Label
 		/// </summary>
-		protected RProperty r_Label;
-		public virtual RProperty RLabel
+		protected RSystem.RString r_Label;
+		public virtual RSystem.RString RLabel
 		{
 			get
 			{
@@ -217,8 +217,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
 		/// <summary>
 		/// System.String StoreLocation
 		/// </summary>
-		protected RProperty r_StoreLocation;
-		public virtual RProperty RStoreLocation
+		protected RSystem.RString r_StoreLocation;
+		public virtual RSystem.RString RStoreLocation
 		{
 			get
 			{

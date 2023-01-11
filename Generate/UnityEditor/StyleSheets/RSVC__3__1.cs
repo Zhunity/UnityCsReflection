@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RStyleSheets
 		/// <summary>
 		/// System.Int32 m_Key
 		/// </summary>
-		protected RField r_m_Key;
-		public virtual RField Rm_Key
+		protected RSystem.RInt32 r_m_Key;
+		public virtual RSystem.RInt32 Rm_Key
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RStyleSheets
 		/// <summary>
 		/// System.Int32 m_Prop
 		/// </summary>
-		protected RField r_m_Prop;
-		public virtual RField Rm_Prop
+		protected RSystem.RInt32 r_m_Prop;
+		public virtual RSystem.RInt32 Rm_Prop
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RStyleSheets
 		/// <summary>
 		/// System.Boolean m_Initialized
 		/// </summary>
-		protected RField r_m_Initialized;
-		public virtual RField Rm_Initialized
+		protected RSystem.RBoolean r_m_Initialized;
+		public virtual RSystem.RBoolean Rm_Initialized
 		{
 			get
 			{

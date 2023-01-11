@@ -100,8 +100,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 		/// <summary>
 		/// System.Int32 m_internalCancellationRequested
 		/// </summary>
-		protected RField r_m_internalCancellationRequested;
-		public virtual RField Rm_internalCancellationRequested
+		protected RSystem.RInt32 r_m_internalCancellationRequested;
+		public virtual RSystem.RInt32 Rm_internalCancellationRequested
 		{
 			get
 			{
@@ -117,8 +117,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 		/// <summary>
 		/// System.Int32 m_completionCountdown
 		/// </summary>
-		protected RField r_m_completionCountdown;
-		public virtual RField Rm_completionCountdown
+		protected RSystem.RInt32 r_m_completionCountdown;
+		public virtual RSystem.RInt32 Rm_completionCountdown
 		{
 			get
 			{

@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certif
 		/// <summary>
 		/// System.Byte[] lazyCertHash
 		/// </summary>
-		protected RFieldArray<RField> r_lazyCertHash;
-		public virtual RFieldArray<RField> RlazyCertHash
+		protected RFieldArray<RSystem.RByte> r_lazyCertHash;
+		public virtual RFieldArray<RSystem.RByte> RlazyCertHash
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certif
 		/// <summary>
 		/// System.Byte[] lazySerialNumber
 		/// </summary>
-		protected RFieldArray<RField> r_lazySerialNumber;
-		public virtual RFieldArray<RField> RlazySerialNumber
+		protected RFieldArray<RSystem.RByte> r_lazySerialNumber;
+		public virtual RFieldArray<RSystem.RByte> RlazySerialNumber
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certif
 		/// <summary>
 		/// System.String lazyIssuer
 		/// </summary>
-		protected RField r_lazyIssuer;
-		public virtual RField RlazyIssuer
+		protected RSystem.RString r_lazyIssuer;
+		public virtual RSystem.RString RlazyIssuer
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certif
 		/// <summary>
 		/// System.String lazySubject
 		/// </summary>
-		protected RField r_lazySubject;
-		public virtual RField RlazySubject
+		protected RSystem.RString r_lazySubject;
+		public virtual RSystem.RString RlazySubject
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certif
 		/// <summary>
 		/// System.String lazyKeyAlgorithm
 		/// </summary>
-		protected RField r_lazyKeyAlgorithm;
-		public virtual RField RlazyKeyAlgorithm
+		protected RSystem.RString r_lazyKeyAlgorithm;
+		public virtual RSystem.RString RlazyKeyAlgorithm
 		{
 			get
 			{
@@ -115,8 +115,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certif
 		/// <summary>
 		/// System.Byte[] lazyKeyAlgorithmParameters
 		/// </summary>
-		protected RFieldArray<RField> r_lazyKeyAlgorithmParameters;
-		public virtual RFieldArray<RField> RlazyKeyAlgorithmParameters
+		protected RFieldArray<RSystem.RByte> r_lazyKeyAlgorithmParameters;
+		public virtual RFieldArray<RSystem.RByte> RlazyKeyAlgorithmParameters
 		{
 			get
 			{
@@ -132,8 +132,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certif
 		/// <summary>
 		/// System.Byte[] lazyPublicKey
 		/// </summary>
-		protected RFieldArray<RField> r_lazyPublicKey;
-		public virtual RFieldArray<RField> RlazyPublicKey
+		protected RFieldArray<RSystem.RByte> r_lazyPublicKey;
+		public virtual RFieldArray<RSystem.RByte> RlazyPublicKey
 		{
 			get
 			{
@@ -200,8 +200,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certif
 		/// <summary>
 		/// IntPtr Handle
 		/// </summary>
-		protected RProperty r_Handle;
-		public virtual RProperty RHandle
+		protected RSystem.RIntPtr r_Handle;
+		public virtual RSystem.RIntPtr RHandle
 		{
 			get
 			{
@@ -217,8 +217,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certif
 		/// <summary>
 		/// System.String Issuer
 		/// </summary>
-		protected RProperty r_Issuer;
-		public virtual RProperty RIssuer
+		protected RSystem.RString r_Issuer;
+		public virtual RSystem.RString RIssuer
 		{
 			get
 			{
@@ -234,8 +234,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certif
 		/// <summary>
 		/// System.String Subject
 		/// </summary>
-		protected RProperty r_Subject;
-		public virtual RProperty RSubject
+		protected RSystem.RString r_Subject;
+		public virtual RSystem.RString RSubject
 		{
 			get
 			{
@@ -268,8 +268,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certif
 		/// <summary>
 		/// Boolean IsValid
 		/// </summary>
-		protected RProperty r_IsValid;
-		public virtual RProperty RIsValid
+		protected RSystem.RBoolean r_IsValid;
+		public virtual RSystem.RBoolean RIsValid
 		{
 			get
 			{
@@ -1348,6 +1348,18 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certif
             return (System.Byte[])___result;
         }
 
+
+        public virtual System.Boolean TryGetCertHash(System.Security.Cryptography.HashAlgorithmName @hashAlgorithm, RSystem.RSpan<RSystem.RByte> @destination, out System.Int32 @bytesWritten)
+        {
+			@bytesWritten = default;
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@hashAlgorithm, @destination.Value, @bytesWritten};
+            var ___result = RTryGetCertHash_HashAlgorithmName_Span_d_Byte_p__Out_Int32.Invoke(___genericsType, ___parameters);
+			@bytesWritten = (System.Int32)___parameters[2];
+
+            return (System.Boolean)___result;
+        }
 
 
         public virtual System.String GetCertHashString()

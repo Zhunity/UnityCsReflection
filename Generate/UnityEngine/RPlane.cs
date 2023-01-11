@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Int32 size
 		/// </summary>
-		protected static RField r_size;
-		public static RField Rsize
+		protected static RSystem.RInt32 r_size;
+		public static RSystem.RInt32 Rsize
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Single m_Distance
 		/// </summary>
-		protected RField r_m_Distance;
-		public virtual RField Rm_Distance
+		protected RSystem.RSingle r_m_Distance;
+		public virtual RSystem.RSingle Rm_Distance
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Single distance
 		/// </summary>
-		protected RProperty r_distance;
-		public virtual RProperty Rdistance
+		protected RSystem.RSingle r_distance;
+		public virtual RSystem.RSingle Rdistance
 		{
 			get
 			{

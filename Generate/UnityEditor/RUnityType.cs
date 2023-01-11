@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.String <name>k__BackingField
 		/// </summary>
-		protected RField r___0__name__1__k__BackingField;
-		public virtual RField R__0__name__1__k__BackingField
+		protected RSystem.RString r___0__name__1__k__BackingField;
+		public virtual RSystem.RString R__0__name__1__k__BackingField
 		{
 			get
 			{
@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.String <nativeNamespace>k__BackingField
 		/// </summary>
-		protected RField r___0__nativeNamespace__1__k__BackingField;
-		public virtual RField R__0__nativeNamespace__1__k__BackingField
+		protected RSystem.RString r___0__nativeNamespace__1__k__BackingField;
+		public virtual RSystem.RString R__0__nativeNamespace__1__k__BackingField
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.String <module>k__BackingField
 		/// </summary>
-		protected RField r___0__module__1__k__BackingField;
-		public virtual RField R__0__module__1__k__BackingField
+		protected RSystem.RString r___0__module__1__k__BackingField;
+		public virtual RSystem.RString R__0__module__1__k__BackingField
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Int32 <persistentTypeID>k__BackingField
 		/// </summary>
-		protected RField r___0__persistentTypeID__1__k__BackingField;
-		public virtual RField R__0__persistentTypeID__1__k__BackingField
+		protected RSystem.RInt32 r___0__persistentTypeID__1__k__BackingField;
+		public virtual RSystem.RInt32 R__0__persistentTypeID__1__k__BackingField
 		{
 			get
 			{
@@ -115,8 +115,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.UInt32 runtimeTypeIndex
 		/// </summary>
-		protected RField r_runtimeTypeIndex;
-		public virtual RField RruntimeTypeIndex
+		protected RSystem.RUInt32 r_runtimeTypeIndex;
+		public virtual RSystem.RUInt32 RruntimeTypeIndex
 		{
 			get
 			{
@@ -132,8 +132,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.UInt32 descendantCount
 		/// </summary>
-		protected RField r_descendantCount;
-		public virtual RField RdescendantCount
+		protected RSystem.RUInt32 r_descendantCount;
+		public virtual RSystem.RUInt32 RdescendantCount
 		{
 			get
 			{
@@ -183,8 +183,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Collections.Generic.Dictionary`2[System.Int32,UnityEditor.UnityType] ms_idToType
 		/// </summary>
-		protected static RSystem.RCollections.RGeneric.RDictionary<RField, RUnityEditor.RUnityType> r_ms_idToType;
-		public static RSystem.RCollections.RGeneric.RDictionary<RField, RUnityEditor.RUnityType> Rms_idToType
+		protected static RSystem.RCollections.RGeneric.RDictionary<RSystem.RInt32, RUnityEditor.RUnityType> r_ms_idToType;
+		public static RSystem.RCollections.RGeneric.RDictionary<RSystem.RInt32, RUnityEditor.RUnityType> Rms_idToType
 		{
 			get
 			{
@@ -200,8 +200,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Collections.Generic.Dictionary`2[System.String,UnityEditor.UnityType] ms_nameToType
 		/// </summary>
-		protected static RSystem.RCollections.RGeneric.RDictionary<RField, RUnityEditor.RUnityType> r_ms_nameToType;
-		public static RSystem.RCollections.RGeneric.RDictionary<RField, RUnityEditor.RUnityType> Rms_nameToType
+		protected static RSystem.RCollections.RGeneric.RDictionary<RSystem.RString, RUnityEditor.RUnityType> r_ms_nameToType;
+		public static RSystem.RCollections.RGeneric.RDictionary<RSystem.RString, RUnityEditor.RUnityType> Rms_nameToType
 		{
 			get
 			{
@@ -217,8 +217,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.String name
 		/// </summary>
-		protected RProperty r_name;
-		public virtual RProperty Rname
+		protected RSystem.RString r_name;
+		public virtual RSystem.RString Rname
 		{
 			get
 			{
@@ -234,8 +234,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.String nativeNamespace
 		/// </summary>
-		protected RProperty r_nativeNamespace;
-		public virtual RProperty RnativeNamespace
+		protected RSystem.RString r_nativeNamespace;
+		public virtual RSystem.RString RnativeNamespace
 		{
 			get
 			{
@@ -251,8 +251,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.String module
 		/// </summary>
-		protected RProperty r_module;
-		public virtual RProperty Rmodule
+		protected RSystem.RString r_module;
+		public virtual RSystem.RString Rmodule
 		{
 			get
 			{
@@ -268,8 +268,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Int32 persistentTypeID
 		/// </summary>
-		protected RProperty r_persistentTypeID;
-		public virtual RProperty RpersistentTypeID
+		protected RSystem.RInt32 r_persistentTypeID;
+		public virtual RSystem.RInt32 RpersistentTypeID
 		{
 			get
 			{
@@ -319,8 +319,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Boolean isAbstract
 		/// </summary>
-		protected RProperty r_isAbstract;
-		public virtual RProperty RisAbstract
+		protected RSystem.RBoolean r_isAbstract;
+		public virtual RSystem.RBoolean RisAbstract
 		{
 			get
 			{
@@ -336,8 +336,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Boolean isSealed
 		/// </summary>
-		protected RProperty r_isSealed;
-		public virtual RProperty RisSealed
+		protected RSystem.RBoolean r_isSealed;
+		public virtual RSystem.RBoolean RisSealed
 		{
 			get
 			{
@@ -353,8 +353,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Boolean isEditorOnly
 		/// </summary>
-		protected RProperty r_isEditorOnly;
-		public virtual RProperty RisEditorOnly
+		protected RSystem.RBoolean r_isEditorOnly;
+		public virtual RSystem.RBoolean RisEditorOnly
 		{
 			get
 			{
@@ -370,8 +370,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.String qualifiedName
 		/// </summary>
-		protected RProperty r_qualifiedName;
-		public virtual RProperty RqualifiedName
+		protected RSystem.RString r_qualifiedName;
+		public virtual RSystem.RString RqualifiedName
 		{
 			get
 			{
@@ -387,8 +387,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Boolean hasNativeNamespace
 		/// </summary>
-		protected RProperty r_hasNativeNamespace;
-		public virtual RProperty RhasNativeNamespace
+		protected RSystem.RBoolean r_hasNativeNamespace;
+		public virtual RSystem.RBoolean RhasNativeNamespace
 		{
 			get
 			{
@@ -404,8 +404,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UInt32 TypeCount
 		/// </summary>
-		protected static RProperty r_TypeCount;
-		public static RProperty RTypeCount
+		protected static RSystem.RUInt32 r_TypeCount;
+		public static RSystem.RUInt32 RTypeCount
 		{
 			get
 			{

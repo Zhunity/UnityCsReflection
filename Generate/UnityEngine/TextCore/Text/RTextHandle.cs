@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Int32 m_PreviousGenerationSettingsHash
 		/// </summary>
-		protected RField r_m_PreviousGenerationSettingsHash;
-		public virtual RField Rm_PreviousGenerationSettingsHash
+		protected RSystem.RInt32 r_m_PreviousGenerationSettingsHash;
+		public virtual RSystem.RInt32 Rm_PreviousGenerationSettingsHash
 		{
 			get
 			{
@@ -115,8 +115,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Boolean isDirty
 		/// </summary>
-		protected RField r_isDirty;
-		public virtual RField RisDirty
+		protected RSystem.RBoolean r_isDirty;
+		public virtual RSystem.RBoolean RisDirty
 		{
 			get
 			{

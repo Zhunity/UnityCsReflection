@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 		/// <summary>
 		/// System.UInt32[] m_ComponentGlyphIDs
 		/// </summary>
-		protected RFieldArray<RField> r_m_ComponentGlyphIDs;
-		public virtual RFieldArray<RField> Rm_ComponentGlyphIDs
+		protected RFieldArray<RSystem.RUInt32> r_m_ComponentGlyphIDs;
+		public virtual RFieldArray<RSystem.RUInt32> Rm_ComponentGlyphIDs
 		{
 			get
 			{
@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 		/// <summary>
 		/// System.UInt32 m_LigatureGlyphID
 		/// </summary>
-		protected RField r_m_LigatureGlyphID;
-		public virtual RField Rm_LigatureGlyphID
+		protected RSystem.RUInt32 r_m_LigatureGlyphID;
+		public virtual RSystem.RUInt32 Rm_LigatureGlyphID
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 		/// <summary>
 		/// UInt32[] componentGlyphIDs
 		/// </summary>
-		protected RPropertyArray<RProperty> r_componentGlyphIDs;
-		public virtual RPropertyArray<RProperty> RcomponentGlyphIDs
+		protected RPropertyArray<RSystem.RUInt32> r_componentGlyphIDs;
+		public virtual RPropertyArray<RSystem.RUInt32> RcomponentGlyphIDs
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 		/// <summary>
 		/// UInt32 ligatureGlyphID
 		/// </summary>
-		protected RProperty r_ligatureGlyphID;
-		public virtual RProperty RligatureGlyphID
+		protected RSystem.RUInt32 r_ligatureGlyphID;
+		public virtual RSystem.RUInt32 RligatureGlyphID
 		{
 			get
 			{

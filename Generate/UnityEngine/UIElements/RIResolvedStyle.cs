@@ -183,8 +183,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Single borderBottomLeftRadius
 		/// </summary>
-		protected RProperty r_borderBottomLeftRadius;
-		public virtual RProperty RborderBottomLeftRadius
+		protected RSystem.RSingle r_borderBottomLeftRadius;
+		public virtual RSystem.RSingle RborderBottomLeftRadius
 		{
 			get
 			{
@@ -200,8 +200,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Single borderBottomRightRadius
 		/// </summary>
-		protected RProperty r_borderBottomRightRadius;
-		public virtual RProperty RborderBottomRightRadius
+		protected RSystem.RSingle r_borderBottomRightRadius;
+		public virtual RSystem.RSingle RborderBottomRightRadius
 		{
 			get
 			{
@@ -217,8 +217,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Single borderBottomWidth
 		/// </summary>
-		protected RProperty r_borderBottomWidth;
-		public virtual RProperty RborderBottomWidth
+		protected RSystem.RSingle r_borderBottomWidth;
+		public virtual RSystem.RSingle RborderBottomWidth
 		{
 			get
 			{
@@ -251,8 +251,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Single borderLeftWidth
 		/// </summary>
-		protected RProperty r_borderLeftWidth;
-		public virtual RProperty RborderLeftWidth
+		protected RSystem.RSingle r_borderLeftWidth;
+		public virtual RSystem.RSingle RborderLeftWidth
 		{
 			get
 			{
@@ -285,8 +285,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Single borderRightWidth
 		/// </summary>
-		protected RProperty r_borderRightWidth;
-		public virtual RProperty RborderRightWidth
+		protected RSystem.RSingle r_borderRightWidth;
+		public virtual RSystem.RSingle RborderRightWidth
 		{
 			get
 			{
@@ -319,8 +319,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Single borderTopLeftRadius
 		/// </summary>
-		protected RProperty r_borderTopLeftRadius;
-		public virtual RProperty RborderTopLeftRadius
+		protected RSystem.RSingle r_borderTopLeftRadius;
+		public virtual RSystem.RSingle RborderTopLeftRadius
 		{
 			get
 			{
@@ -336,8 +336,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Single borderTopRightRadius
 		/// </summary>
-		protected RProperty r_borderTopRightRadius;
-		public virtual RProperty RborderTopRightRadius
+		protected RSystem.RSingle r_borderTopRightRadius;
+		public virtual RSystem.RSingle RborderTopRightRadius
 		{
 			get
 			{
@@ -353,8 +353,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Single borderTopWidth
 		/// </summary>
-		protected RProperty r_borderTopWidth;
-		public virtual RProperty RborderTopWidth
+		protected RSystem.RSingle r_borderTopWidth;
+		public virtual RSystem.RSingle RborderTopWidth
 		{
 			get
 			{
@@ -370,8 +370,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Single bottom
 		/// </summary>
-		protected RProperty r_bottom;
-		public virtual RProperty Rbottom
+		protected RSystem.RSingle r_bottom;
+		public virtual RSystem.RSingle Rbottom
 		{
 			get
 			{
@@ -455,8 +455,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Single flexGrow
 		/// </summary>
-		protected RProperty r_flexGrow;
-		public virtual RProperty RflexGrow
+		protected RSystem.RSingle r_flexGrow;
+		public virtual RSystem.RSingle RflexGrow
 		{
 			get
 			{
@@ -472,8 +472,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Single flexShrink
 		/// </summary>
-		protected RProperty r_flexShrink;
-		public virtual RProperty RflexShrink
+		protected RSystem.RSingle r_flexShrink;
+		public virtual RSystem.RSingle RflexShrink
 		{
 			get
 			{
@@ -506,8 +506,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Single fontSize
 		/// </summary>
-		protected RProperty r_fontSize;
-		public virtual RProperty RfontSize
+		protected RSystem.RSingle r_fontSize;
+		public virtual RSystem.RSingle RfontSize
 		{
 			get
 			{
@@ -523,8 +523,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Single height
 		/// </summary>
-		protected RProperty r_height;
-		public virtual RProperty Rheight
+		protected RSystem.RSingle r_height;
+		public virtual RSystem.RSingle Rheight
 		{
 			get
 			{
@@ -557,8 +557,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Single left
 		/// </summary>
-		protected RProperty r_left;
-		public virtual RProperty Rleft
+		protected RSystem.RSingle r_left;
+		public virtual RSystem.RSingle Rleft
 		{
 			get
 			{
@@ -574,8 +574,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Single letterSpacing
 		/// </summary>
-		protected RProperty r_letterSpacing;
-		public virtual RProperty RletterSpacing
+		protected RSystem.RSingle r_letterSpacing;
+		public virtual RSystem.RSingle RletterSpacing
 		{
 			get
 			{
@@ -591,8 +591,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Single marginBottom
 		/// </summary>
-		protected RProperty r_marginBottom;
-		public virtual RProperty RmarginBottom
+		protected RSystem.RSingle r_marginBottom;
+		public virtual RSystem.RSingle RmarginBottom
 		{
 			get
 			{
@@ -608,8 +608,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Single marginLeft
 		/// </summary>
-		protected RProperty r_marginLeft;
-		public virtual RProperty RmarginLeft
+		protected RSystem.RSingle r_marginLeft;
+		public virtual RSystem.RSingle RmarginLeft
 		{
 			get
 			{
@@ -625,8 +625,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Single marginRight
 		/// </summary>
-		protected RProperty r_marginRight;
-		public virtual RProperty RmarginRight
+		protected RSystem.RSingle r_marginRight;
+		public virtual RSystem.RSingle RmarginRight
 		{
 			get
 			{
@@ -642,8 +642,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Single marginTop
 		/// </summary>
-		protected RProperty r_marginTop;
-		public virtual RProperty RmarginTop
+		protected RSystem.RSingle r_marginTop;
+		public virtual RSystem.RSingle RmarginTop
 		{
 			get
 			{
@@ -727,8 +727,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Single opacity
 		/// </summary>
-		protected RProperty r_opacity;
-		public virtual RProperty Ropacity
+		protected RSystem.RSingle r_opacity;
+		public virtual RSystem.RSingle Ropacity
 		{
 			get
 			{
@@ -744,8 +744,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Single paddingBottom
 		/// </summary>
-		protected RProperty r_paddingBottom;
-		public virtual RProperty RpaddingBottom
+		protected RSystem.RSingle r_paddingBottom;
+		public virtual RSystem.RSingle RpaddingBottom
 		{
 			get
 			{
@@ -761,8 +761,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Single paddingLeft
 		/// </summary>
-		protected RProperty r_paddingLeft;
-		public virtual RProperty RpaddingLeft
+		protected RSystem.RSingle r_paddingLeft;
+		public virtual RSystem.RSingle RpaddingLeft
 		{
 			get
 			{
@@ -778,8 +778,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Single paddingRight
 		/// </summary>
-		protected RProperty r_paddingRight;
-		public virtual RProperty RpaddingRight
+		protected RSystem.RSingle r_paddingRight;
+		public virtual RSystem.RSingle RpaddingRight
 		{
 			get
 			{
@@ -795,8 +795,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Single paddingTop
 		/// </summary>
-		protected RProperty r_paddingTop;
-		public virtual RProperty RpaddingTop
+		protected RSystem.RSingle r_paddingTop;
+		public virtual RSystem.RSingle RpaddingTop
 		{
 			get
 			{
@@ -829,8 +829,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Single right
 		/// </summary>
-		protected RProperty r_right;
-		public virtual RProperty Rright
+		protected RSystem.RSingle r_right;
+		public virtual RSystem.RSingle Rright
 		{
 			get
 			{
@@ -897,8 +897,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Single top
 		/// </summary>
-		protected RProperty r_top;
-		public virtual RProperty Rtop
+		protected RSystem.RSingle r_top;
+		public virtual RSystem.RSingle Rtop
 		{
 			get
 			{
@@ -1084,8 +1084,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Single unityParagraphSpacing
 		/// </summary>
-		protected RProperty r_unityParagraphSpacing;
-		public virtual RProperty RunityParagraphSpacing
+		protected RSystem.RSingle r_unityParagraphSpacing;
+		public virtual RSystem.RSingle RunityParagraphSpacing
 		{
 			get
 			{
@@ -1101,8 +1101,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Int32 unitySliceBottom
 		/// </summary>
-		protected RProperty r_unitySliceBottom;
-		public virtual RProperty RunitySliceBottom
+		protected RSystem.RInt32 r_unitySliceBottom;
+		public virtual RSystem.RInt32 RunitySliceBottom
 		{
 			get
 			{
@@ -1118,8 +1118,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Int32 unitySliceLeft
 		/// </summary>
-		protected RProperty r_unitySliceLeft;
-		public virtual RProperty RunitySliceLeft
+		protected RSystem.RInt32 r_unitySliceLeft;
+		public virtual RSystem.RInt32 RunitySliceLeft
 		{
 			get
 			{
@@ -1135,8 +1135,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Int32 unitySliceRight
 		/// </summary>
-		protected RProperty r_unitySliceRight;
-		public virtual RProperty RunitySliceRight
+		protected RSystem.RInt32 r_unitySliceRight;
+		public virtual RSystem.RInt32 RunitySliceRight
 		{
 			get
 			{
@@ -1152,8 +1152,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Single unitySliceScale
 		/// </summary>
-		protected RProperty r_unitySliceScale;
-		public virtual RProperty RunitySliceScale
+		protected RSystem.RSingle r_unitySliceScale;
+		public virtual RSystem.RSingle RunitySliceScale
 		{
 			get
 			{
@@ -1169,8 +1169,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Int32 unitySliceTop
 		/// </summary>
-		protected RProperty r_unitySliceTop;
-		public virtual RProperty RunitySliceTop
+		protected RSystem.RInt32 r_unitySliceTop;
+		public virtual RSystem.RInt32 RunitySliceTop
 		{
 			get
 			{
@@ -1220,8 +1220,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Single unityTextOutlineWidth
 		/// </summary>
-		protected RProperty r_unityTextOutlineWidth;
-		public virtual RProperty RunityTextOutlineWidth
+		protected RSystem.RSingle r_unityTextOutlineWidth;
+		public virtual RSystem.RSingle RunityTextOutlineWidth
 		{
 			get
 			{
@@ -1288,8 +1288,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Single width
 		/// </summary>
-		protected RProperty r_width;
-		public virtual RProperty Rwidth
+		protected RSystem.RSingle r_width;
+		public virtual RSystem.RSingle Rwidth
 		{
 			get
 			{
@@ -1305,8 +1305,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Single wordSpacing
 		/// </summary>
-		protected RProperty r_wordSpacing;
-		public virtual RProperty RwordSpacing
+		protected RSystem.RSingle r_wordSpacing;
+		public virtual RSystem.RSingle RwordSpacing
 		{
 			get
 			{
@@ -1322,8 +1322,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleEnum`1[UnityEngine.ScaleMode] unityBackgroundScaleMode
 		/// </summary>
-		protected RProperty r_unityBackgroundScaleMode;
-		public virtual RProperty RunityBackgroundScaleMode
+		protected RUnityEngine.RUIElements.RStyleEnum<RProperty> r_unityBackgroundScaleMode;
+		public virtual RUnityEngine.RUIElements.RStyleEnum<RProperty> RunityBackgroundScaleMode
 		{
 			get
 			{

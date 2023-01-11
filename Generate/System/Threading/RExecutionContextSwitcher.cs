@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Boolean outerECBelongsToScope
 		/// </summary>
-		protected RField r_outerECBelongsToScope;
-		public virtual RField RouterECBelongsToScope
+		protected RSystem.RBoolean r_outerECBelongsToScope;
+		public virtual RSystem.RBoolean RouterECBelongsToScope
 		{
 			get
 			{

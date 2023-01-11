@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// Boolean IsSpecialName
 		/// </summary>
-		protected RProperty r_IsSpecialName;
-		public virtual RProperty RIsSpecialName
+		protected RSystem.RBoolean r_IsSpecialName;
+		public virtual RSystem.RBoolean RIsSpecialName
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// Boolean CanRead
 		/// </summary>
-		protected RProperty r_CanRead;
-		public virtual RProperty RCanRead
+		protected RSystem.RBoolean r_CanRead;
+		public virtual RSystem.RBoolean RCanRead
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// Boolean CanWrite
 		/// </summary>
-		protected RProperty r_CanWrite;
-		public virtual RProperty RCanWrite
+		protected RSystem.RBoolean r_CanWrite;
+		public virtual RSystem.RBoolean RCanWrite
 		{
 			get
 			{
@@ -149,8 +149,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.String Name
 		/// </summary>
-		protected RProperty r_Name;
-		public virtual RProperty RName
+		protected RSystem.RString r_Name;
+		public virtual RSystem.RString RName
 		{
 			get
 			{
@@ -234,8 +234,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// Int32 MetadataToken
 		/// </summary>
-		protected RProperty r_MetadataToken;
-		public virtual RProperty RMetadataToken
+		protected RSystem.RInt32 r_MetadataToken;
+		public virtual RSystem.RInt32 RMetadataToken
 		{
 			get
 			{

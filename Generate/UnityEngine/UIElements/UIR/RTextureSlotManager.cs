@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Int32 k_SlotCount
 		/// </summary>
-		protected static RField r_k_SlotCount;
-		public static RField Rk_SlotCount
+		protected static RSystem.RInt32 r_k_SlotCount;
+		public static RSystem.RInt32 Rk_SlotCount
 		{
 			get
 			{
@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Int32 k_SlotSize
 		/// </summary>
-		protected static RField r_k_SlotSize;
-		public static RField Rk_SlotSize
+		protected static RSystem.RInt32 r_k_SlotSize;
+		public static RSystem.RInt32 Rk_SlotSize
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Int32[] slotIds
 		/// </summary>
-		protected static RFieldArray<RField> r_slotIds;
-		public static RFieldArray<RField> RslotIds
+		protected static RFieldArray<RSystem.RInt32> r_slotIds;
+		public static RFieldArray<RSystem.RInt32> RslotIds
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Int32 textureTableId
 		/// </summary>
-		protected static RField r_textureTableId;
-		public static RField RtextureTableId
+		protected static RSystem.RInt32 r_textureTableId;
+		public static RSystem.RInt32 RtextureTableId
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Int32[] m_Tickets
 		/// </summary>
-		protected RFieldArray<RField> r_m_Tickets;
-		public virtual RFieldArray<RField> Rm_Tickets
+		protected RFieldArray<RSystem.RInt32> r_m_Tickets;
+		public virtual RFieldArray<RSystem.RInt32> Rm_Tickets
 		{
 			get
 			{
@@ -115,8 +115,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Int32 m_CurrentTicket
 		/// </summary>
-		protected RField r_m_CurrentTicket;
-		public virtual RField Rm_CurrentTicket
+		protected RSystem.RInt32 r_m_CurrentTicket;
+		public virtual RSystem.RInt32 Rm_CurrentTicket
 		{
 			get
 			{
@@ -132,8 +132,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Int32 m_FirstUsedTicket
 		/// </summary>
-		protected RField r_m_FirstUsedTicket;
-		public virtual RField Rm_FirstUsedTicket
+		protected RSystem.RInt32 r_m_FirstUsedTicket;
+		public virtual RSystem.RInt32 Rm_FirstUsedTicket
 		{
 			get
 			{
@@ -166,8 +166,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Int32 <FreeSlots>k__BackingField
 		/// </summary>
-		protected RField r___0__FreeSlots__1__k__BackingField;
-		public virtual RField R__0__FreeSlots__1__k__BackingField
+		protected RSystem.RInt32 r___0__FreeSlots__1__k__BackingField;
+		public virtual RSystem.RInt32 R__0__FreeSlots__1__k__BackingField
 		{
 			get
 			{
@@ -200,8 +200,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// Int32 FreeSlots
 		/// </summary>
-		protected RProperty r_FreeSlots;
-		public virtual RProperty RFreeSlots
+		protected RSystem.RInt32 r_FreeSlots;
+		public virtual RSystem.RInt32 RFreeSlots
 		{
 			get
 			{

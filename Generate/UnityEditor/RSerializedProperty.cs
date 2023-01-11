@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.IntPtr m_NativePropertyPtr
 		/// </summary>
-		protected RField r_m_NativePropertyPtr;
-		public virtual RField Rm_NativePropertyPtr
+		protected RSystem.RIntPtr r_m_NativePropertyPtr;
+		public virtual RSystem.RIntPtr Rm_NativePropertyPtr
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.String m_CachedLocalizedDisplayName
 		/// </summary>
-		protected RField r_m_CachedLocalizedDisplayName;
-		public virtual RField Rm_CachedLocalizedDisplayName
+		protected RSystem.RString r_m_CachedLocalizedDisplayName;
+		public virtual RSystem.RString Rm_CachedLocalizedDisplayName
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.String m_CachedTooltip
 		/// </summary>
-		protected RField r_m_CachedTooltip;
-		public virtual RField Rm_CachedTooltip
+		protected RSystem.RString r_m_CachedTooltip;
+		public virtual RSystem.RString Rm_CachedTooltip
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.String m_PropertyPath
 		/// </summary>
-		protected RField r_m_PropertyPath;
-		public virtual RField Rm_PropertyPath
+		protected RSystem.RString r_m_PropertyPath;
+		public virtual RSystem.RString Rm_PropertyPath
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Int32 m_PropertyPathHash
 		/// </summary>
-		protected RField r_m_PropertyPathHash;
-		public virtual RField Rm_PropertyPathHash
+		protected RSystem.RInt32 r_m_PropertyPathHash;
+		public virtual RSystem.RInt32 Rm_PropertyPathHash
 		{
 			get
 			{
@@ -115,8 +115,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Boolean <unsafeMode>k__BackingField
 		/// </summary>
-		protected RField r___0__unsafeMode__1__k__BackingField;
-		public virtual RField R__0__unsafeMode__1__k__BackingField
+		protected RSystem.RBoolean r___0__unsafeMode__1__k__BackingField;
+		public virtual RSystem.RBoolean R__0__unsafeMode__1__k__BackingField
 		{
 			get
 			{
@@ -166,8 +166,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Boolean isScript
 		/// </summary>
-		protected RProperty r_isScript;
-		public virtual RProperty RisScript
+		protected RSystem.RBoolean r_isScript;
+		public virtual RSystem.RBoolean RisScript
 		{
 			get
 			{
@@ -183,8 +183,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.String localizedDisplayName
 		/// </summary>
-		protected RProperty r_localizedDisplayName;
-		public virtual RProperty RlocalizedDisplayName
+		protected RSystem.RString r_localizedDisplayName;
+		public virtual RSystem.RString RlocalizedDisplayName
 		{
 			get
 			{
@@ -200,8 +200,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.String[] enumLocalizedDisplayNames
 		/// </summary>
-		protected RPropertyArray<RProperty> r_enumLocalizedDisplayNames;
-		public virtual RPropertyArray<RProperty> RenumLocalizedDisplayNames
+		protected RPropertyArray<RSystem.RString> r_enumLocalizedDisplayNames;
+		public virtual RPropertyArray<RSystem.RString> RenumLocalizedDisplayNames
 		{
 			get
 			{
@@ -234,8 +234,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Boolean hasMultipleDifferentValues
 		/// </summary>
-		protected RProperty r_hasMultipleDifferentValues;
-		public virtual RProperty RhasMultipleDifferentValues
+		protected RSystem.RBoolean r_hasMultipleDifferentValues;
+		public virtual RSystem.RBoolean RhasMultipleDifferentValues
 		{
 			get
 			{
@@ -251,8 +251,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Int32 hasMultipleDifferentValuesBitwise
 		/// </summary>
-		protected RProperty r_hasMultipleDifferentValuesBitwise;
-		public virtual RProperty RhasMultipleDifferentValuesBitwise
+		protected RSystem.RInt32 r_hasMultipleDifferentValuesBitwise;
+		public virtual RSystem.RInt32 RhasMultipleDifferentValuesBitwise
 		{
 			get
 			{
@@ -268,8 +268,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.String displayName
 		/// </summary>
-		protected RProperty r_displayName;
-		public virtual RProperty RdisplayName
+		protected RSystem.RString r_displayName;
+		public virtual RSystem.RString RdisplayName
 		{
 			get
 			{
@@ -285,8 +285,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.String name
 		/// </summary>
-		protected RProperty r_name;
-		public virtual RProperty Rname
+		protected RSystem.RString r_name;
+		public virtual RSystem.RString Rname
 		{
 			get
 			{
@@ -302,8 +302,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.String type
 		/// </summary>
-		protected RProperty r_type;
-		public virtual RProperty Rtype
+		protected RSystem.RString r_type;
+		public virtual RSystem.RString Rtype
 		{
 			get
 			{
@@ -319,8 +319,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.String arrayElementType
 		/// </summary>
-		protected RProperty r_arrayElementType;
-		public virtual RProperty RarrayElementType
+		protected RSystem.RString r_arrayElementType;
+		public virtual RSystem.RString RarrayElementType
 		{
 			get
 			{
@@ -336,8 +336,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.String tooltip
 		/// </summary>
-		protected RProperty r_tooltip;
-		public virtual RProperty Rtooltip
+		protected RSystem.RString r_tooltip;
+		public virtual RSystem.RString Rtooltip
 		{
 			get
 			{
@@ -353,8 +353,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Int32 depth
 		/// </summary>
-		protected RProperty r_depth;
-		public virtual RProperty Rdepth
+		protected RSystem.RInt32 r_depth;
+		public virtual RSystem.RInt32 Rdepth
 		{
 			get
 			{
@@ -370,8 +370,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.String propertyPath
 		/// </summary>
-		protected RProperty r_propertyPath;
-		public virtual RProperty RpropertyPath
+		protected RSystem.RString r_propertyPath;
+		public virtual RSystem.RString RpropertyPath
 		{
 			get
 			{
@@ -387,8 +387,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Int32 hashCodeForPropertyPathWithoutArrayIndex
 		/// </summary>
-		protected RProperty r_hashCodeForPropertyPathWithoutArrayIndex;
-		public virtual RProperty RhashCodeForPropertyPathWithoutArrayIndex
+		protected RSystem.RInt32 r_hashCodeForPropertyPathWithoutArrayIndex;
+		public virtual RSystem.RInt32 RhashCodeForPropertyPathWithoutArrayIndex
 		{
 			get
 			{
@@ -404,8 +404,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Int32 hashCodeForPropertyPath
 		/// </summary>
-		protected RProperty r_hashCodeForPropertyPath;
-		public virtual RProperty RhashCodeForPropertyPath
+		protected RSystem.RInt32 r_hashCodeForPropertyPath;
+		public virtual RSystem.RInt32 RhashCodeForPropertyPath
 		{
 			get
 			{
@@ -421,8 +421,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Boolean editable
 		/// </summary>
-		protected RProperty r_editable;
-		public virtual RProperty Reditable
+		protected RSystem.RBoolean r_editable;
+		public virtual RSystem.RBoolean Reditable
 		{
 			get
 			{
@@ -438,8 +438,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Boolean isAnimated
 		/// </summary>
-		protected RProperty r_isAnimated;
-		public virtual RProperty RisAnimated
+		protected RSystem.RBoolean r_isAnimated;
+		public virtual RSystem.RBoolean RisAnimated
 		{
 			get
 			{
@@ -455,8 +455,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Boolean isCandidate
 		/// </summary>
-		protected RProperty r_isCandidate;
-		public virtual RProperty RisCandidate
+		protected RSystem.RBoolean r_isCandidate;
+		public virtual RSystem.RBoolean RisCandidate
 		{
 			get
 			{
@@ -472,8 +472,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Boolean isKey
 		/// </summary>
-		protected RProperty r_isKey;
-		public virtual RProperty RisKey
+		protected RSystem.RBoolean r_isKey;
+		public virtual RSystem.RBoolean RisKey
 		{
 			get
 			{
@@ -489,8 +489,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Boolean isLiveModified
 		/// </summary>
-		protected RProperty r_isLiveModified;
-		public virtual RProperty RisLiveModified
+		protected RSystem.RBoolean r_isLiveModified;
+		public virtual RSystem.RBoolean RisLiveModified
 		{
 			get
 			{
@@ -506,8 +506,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Boolean isExpanded
 		/// </summary>
-		protected RProperty r_isExpanded;
-		public virtual RProperty RisExpanded
+		protected RSystem.RBoolean r_isExpanded;
+		public virtual RSystem.RBoolean RisExpanded
 		{
 			get
 			{
@@ -523,8 +523,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Boolean hasChildren
 		/// </summary>
-		protected RProperty r_hasChildren;
-		public virtual RProperty RhasChildren
+		protected RSystem.RBoolean r_hasChildren;
+		public virtual RSystem.RBoolean RhasChildren
 		{
 			get
 			{
@@ -540,8 +540,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Boolean hasVisibleChildren
 		/// </summary>
-		protected RProperty r_hasVisibleChildren;
-		public virtual RProperty RhasVisibleChildren
+		protected RSystem.RBoolean r_hasVisibleChildren;
+		public virtual RSystem.RBoolean RhasVisibleChildren
 		{
 			get
 			{
@@ -557,8 +557,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Boolean isInstantiatedPrefab
 		/// </summary>
-		protected RProperty r_isInstantiatedPrefab;
-		public virtual RProperty RisInstantiatedPrefab
+		protected RSystem.RBoolean r_isInstantiatedPrefab;
+		public virtual RSystem.RBoolean RisInstantiatedPrefab
 		{
 			get
 			{
@@ -574,8 +574,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Boolean isReferencingAManagedReferenceField
 		/// </summary>
-		protected RProperty r_isReferencingAManagedReferenceField;
-		public virtual RProperty RisReferencingAManagedReferenceField
+		protected RSystem.RBoolean r_isReferencingAManagedReferenceField;
+		public virtual RSystem.RBoolean RisReferencingAManagedReferenceField
 		{
 			get
 			{
@@ -591,8 +591,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.String managedReferencePropertyPath
 		/// </summary>
-		protected RProperty r_managedReferencePropertyPath;
-		public virtual RProperty RmanagedReferencePropertyPath
+		protected RSystem.RString r_managedReferencePropertyPath;
+		public virtual RSystem.RString RmanagedReferencePropertyPath
 		{
 			get
 			{
@@ -608,8 +608,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Boolean prefabOverride
 		/// </summary>
-		protected RProperty r_prefabOverride;
-		public virtual RProperty RprefabOverride
+		protected RSystem.RBoolean r_prefabOverride;
+		public virtual RSystem.RBoolean RprefabOverride
 		{
 			get
 			{
@@ -625,8 +625,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Boolean isDefaultOverride
 		/// </summary>
-		protected RProperty r_isDefaultOverride;
-		public virtual RProperty RisDefaultOverride
+		protected RSystem.RBoolean r_isDefaultOverride;
+		public virtual RSystem.RBoolean RisDefaultOverride
 		{
 			get
 			{
@@ -642,8 +642,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Boolean isDrivenRectTransformProperty
 		/// </summary>
-		protected RProperty r_isDrivenRectTransformProperty;
-		public virtual RProperty RisDrivenRectTransformProperty
+		protected RSystem.RBoolean r_isDrivenRectTransformProperty;
+		public virtual RSystem.RBoolean RisDrivenRectTransformProperty
 		{
 			get
 			{
@@ -693,8 +693,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Int32 intValue
 		/// </summary>
-		protected RProperty r_intValue;
-		public virtual RProperty RintValue
+		protected RSystem.RInt32 r_intValue;
+		public virtual RSystem.RInt32 RintValue
 		{
 			get
 			{
@@ -710,8 +710,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Int64 longValue
 		/// </summary>
-		protected RProperty r_longValue;
-		public virtual RProperty RlongValue
+		protected RSystem.RInt64 r_longValue;
+		public virtual RSystem.RInt64 RlongValue
 		{
 			get
 			{
@@ -727,8 +727,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UInt64 ulongValue
 		/// </summary>
-		protected RProperty r_ulongValue;
-		public virtual RProperty RulongValue
+		protected RSystem.RUInt64 r_ulongValue;
+		public virtual RSystem.RUInt64 RulongValue
 		{
 			get
 			{
@@ -744,8 +744,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UInt32 uintValue
 		/// </summary>
-		protected RProperty r_uintValue;
-		public virtual RProperty RuintValue
+		protected RSystem.RUInt32 r_uintValue;
+		public virtual RSystem.RUInt32 RuintValue
 		{
 			get
 			{
@@ -761,8 +761,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Boolean boolValue
 		/// </summary>
-		protected RProperty r_boolValue;
-		public virtual RProperty RboolValue
+		protected RSystem.RBoolean r_boolValue;
+		public virtual RSystem.RBoolean RboolValue
 		{
 			get
 			{
@@ -778,8 +778,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Single floatValue
 		/// </summary>
-		protected RProperty r_floatValue;
-		public virtual RProperty RfloatValue
+		protected RSystem.RSingle r_floatValue;
+		public virtual RSystem.RSingle RfloatValue
 		{
 			get
 			{
@@ -795,8 +795,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Double[] allDoubleValues
 		/// </summary>
-		protected RPropertyArray<RProperty> r_allDoubleValues;
-		public virtual RPropertyArray<RProperty> RallDoubleValues
+		protected RPropertyArray<RSystem.RDouble> r_allDoubleValues;
+		public virtual RPropertyArray<RSystem.RDouble> RallDoubleValues
 		{
 			get
 			{
@@ -812,8 +812,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Int64[] allLongValues
 		/// </summary>
-		protected RPropertyArray<RProperty> r_allLongValues;
-		public virtual RPropertyArray<RProperty> RallLongValues
+		protected RPropertyArray<RSystem.RInt64> r_allLongValues;
+		public virtual RPropertyArray<RSystem.RInt64> RallLongValues
 		{
 			get
 			{
@@ -829,8 +829,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Double doubleValue
 		/// </summary>
-		protected RProperty r_doubleValue;
-		public virtual RProperty RdoubleValue
+		protected RSystem.RDouble r_doubleValue;
+		public virtual RSystem.RDouble RdoubleValue
 		{
 			get
 			{
@@ -846,8 +846,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.String stringValue
 		/// </summary>
-		protected RProperty r_stringValue;
-		public virtual RProperty RstringValue
+		protected RSystem.RString r_stringValue;
+		public virtual RSystem.RString RstringValue
 		{
 			get
 			{
@@ -948,8 +948,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Int64 managedReferenceId
 		/// </summary>
-		protected RProperty r_managedReferenceId;
-		public virtual RProperty RmanagedReferenceId
+		protected RSystem.RInt64 r_managedReferenceId;
+		public virtual RSystem.RInt64 RmanagedReferenceId
 		{
 			get
 			{
@@ -965,8 +965,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.String managedReferenceFullTypename
 		/// </summary>
-		protected RProperty r_managedReferenceFullTypename;
-		public virtual RProperty RmanagedReferenceFullTypename
+		protected RSystem.RString r_managedReferenceFullTypename;
+		public virtual RSystem.RString RmanagedReferenceFullTypename
 		{
 			get
 			{
@@ -982,8 +982,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.String managedReferenceFieldTypename
 		/// </summary>
-		protected RProperty r_managedReferenceFieldTypename;
-		public virtual RProperty RmanagedReferenceFieldTypename
+		protected RSystem.RString r_managedReferenceFieldTypename;
+		public virtual RSystem.RString RmanagedReferenceFieldTypename
 		{
 			get
 			{
@@ -1016,8 +1016,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Int32 objectReferenceInstanceIDValue
 		/// </summary>
-		protected RProperty r_objectReferenceInstanceIDValue;
-		public virtual RProperty RobjectReferenceInstanceIDValue
+		protected RSystem.RInt32 r_objectReferenceInstanceIDValue;
+		public virtual RSystem.RInt32 RobjectReferenceInstanceIDValue
 		{
 			get
 			{
@@ -1033,8 +1033,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.String objectReferenceStringValue
 		/// </summary>
-		protected RProperty r_objectReferenceStringValue;
-		public virtual RProperty RobjectReferenceStringValue
+		protected RSystem.RString r_objectReferenceStringValue;
+		public virtual RSystem.RString RobjectReferenceStringValue
 		{
 			get
 			{
@@ -1050,8 +1050,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.String objectReferenceTypeString
 		/// </summary>
-		protected RProperty r_objectReferenceTypeString;
-		public virtual RProperty RobjectReferenceTypeString
+		protected RSystem.RString r_objectReferenceTypeString;
+		public virtual RSystem.RString RobjectReferenceTypeString
 		{
 			get
 			{
@@ -1067,8 +1067,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UInt32 layerMaskBits
 		/// </summary>
-		protected RProperty r_layerMaskBits;
-		public virtual RProperty RlayerMaskBits
+		protected RSystem.RUInt32 r_layerMaskBits;
+		public virtual RSystem.RUInt32 RlayerMaskBits
 		{
 			get
 			{
@@ -1084,8 +1084,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Int32 enumValueIndex
 		/// </summary>
-		protected RProperty r_enumValueIndex;
-		public virtual RProperty RenumValueIndex
+		protected RSystem.RInt32 r_enumValueIndex;
+		public virtual RSystem.RInt32 RenumValueIndex
 		{
 			get
 			{
@@ -1101,8 +1101,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Int32 enumValueFlag
 		/// </summary>
-		protected RProperty r_enumValueFlag;
-		public virtual RProperty RenumValueFlag
+		protected RSystem.RInt32 r_enumValueFlag;
+		public virtual RSystem.RInt32 RenumValueFlag
 		{
 			get
 			{
@@ -1118,8 +1118,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.String[] enumNames
 		/// </summary>
-		protected RPropertyArray<RProperty> r_enumNames;
-		public virtual RPropertyArray<RProperty> RenumNames
+		protected RPropertyArray<RSystem.RString> r_enumNames;
+		public virtual RPropertyArray<RSystem.RString> RenumNames
 		{
 			get
 			{
@@ -1135,8 +1135,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.String[] enumDisplayNames
 		/// </summary>
-		protected RPropertyArray<RProperty> r_enumDisplayNames;
-		public virtual RPropertyArray<RProperty> RenumDisplayNames
+		protected RPropertyArray<RSystem.RString> r_enumDisplayNames;
+		public virtual RPropertyArray<RSystem.RString> RenumDisplayNames
 		{
 			get
 			{
@@ -1339,8 +1339,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Boolean isArray
 		/// </summary>
-		protected RProperty r_isArray;
-		public virtual RProperty RisArray
+		protected RSystem.RBoolean r_isArray;
+		public virtual RSystem.RBoolean RisArray
 		{
 			get
 			{
@@ -1356,8 +1356,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Int32 arraySize
 		/// </summary>
-		protected RProperty r_arraySize;
-		public virtual RProperty RarraySize
+		protected RSystem.RInt32 r_arraySize;
+		public virtual RSystem.RInt32 RarraySize
 		{
 			get
 			{
@@ -1373,8 +1373,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Int32 minArraySize
 		/// </summary>
-		protected RProperty r_minArraySize;
-		public virtual RProperty RminArraySize
+		protected RSystem.RInt32 r_minArraySize;
+		public virtual RSystem.RInt32 RminArraySize
 		{
 			get
 			{
@@ -1390,8 +1390,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Boolean isFixedBuffer
 		/// </summary>
-		protected RProperty r_isFixedBuffer;
-		public virtual RProperty RisFixedBuffer
+		protected RSystem.RBoolean r_isFixedBuffer;
+		public virtual RSystem.RBoolean RisFixedBuffer
 		{
 			get
 			{
@@ -1407,8 +1407,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Int32 fixedBufferSize
 		/// </summary>
-		protected RProperty r_fixedBufferSize;
-		public virtual RProperty RfixedBufferSize
+		protected RSystem.RInt32 r_fixedBufferSize;
+		public virtual RSystem.RInt32 RfixedBufferSize
 		{
 			get
 			{
@@ -1424,8 +1424,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Boolean isValidDisplayNameCache
 		/// </summary>
-		protected RProperty r_isValidDisplayNameCache;
-		public virtual RProperty RisValidDisplayNameCache
+		protected RSystem.RBoolean r_isValidDisplayNameCache;
+		public virtual RSystem.RBoolean RisValidDisplayNameCache
 		{
 			get
 			{
@@ -1441,8 +1441,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Boolean isValidTooltipCache
 		/// </summary>
-		protected RProperty r_isValidTooltipCache;
-		public virtual RProperty RisValidTooltipCache
+		protected RSystem.RBoolean r_isValidTooltipCache;
+		public virtual RSystem.RBoolean RisValidTooltipCache
 		{
 			get
 			{
@@ -1458,8 +1458,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Boolean unsafeMode
 		/// </summary>
-		protected RProperty r_unsafeMode;
-		public virtual RProperty RunsafeMode
+		protected RSystem.RBoolean r_unsafeMode;
+		public virtual RSystem.RBoolean RunsafeMode
 		{
 			get
 			{
@@ -1475,8 +1475,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Boolean isValid
 		/// </summary>
-		protected RProperty r_isValid;
-		public virtual RProperty RisValid
+		protected RSystem.RBoolean r_isValid;
+		public virtual RSystem.RBoolean RisValid
 		{
 			get
 			{
@@ -1492,8 +1492,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UInt32 contentHash
 		/// </summary>
-		protected RProperty r_contentHash;
-		public virtual RProperty RcontentHash
+		protected RSystem.RUInt32 r_contentHash;
+		public virtual RSystem.RUInt32 RcontentHash
 		{
 			get
 			{

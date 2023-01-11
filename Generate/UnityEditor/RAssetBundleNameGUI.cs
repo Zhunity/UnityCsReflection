@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Int32 kAssetBundleNameFieldIdHash
 		/// </summary>
-		protected static RField r_kAssetBundleNameFieldIdHash;
-		public static RField RkAssetBundleNameFieldIdHash
+		protected static RSystem.RInt32 r_kAssetBundleNameFieldIdHash;
+		public static RSystem.RInt32 RkAssetBundleNameFieldIdHash
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Int32 kAssetBundleVariantFieldIdHash
 		/// </summary>
-		protected static RField r_kAssetBundleVariantFieldIdHash;
-		public static RField RkAssetBundleVariantFieldIdHash
+		protected static RSystem.RInt32 r_kAssetBundleVariantFieldIdHash;
+		public static RSystem.RInt32 RkAssetBundleVariantFieldIdHash
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Boolean m_ShowAssetBundleNameTextField
 		/// </summary>
-		protected RField r_m_ShowAssetBundleNameTextField;
-		public virtual RField Rm_ShowAssetBundleNameTextField
+		protected RSystem.RBoolean r_m_ShowAssetBundleNameTextField;
+		public virtual RSystem.RBoolean Rm_ShowAssetBundleNameTextField
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Boolean m_ShowAssetBundleVariantTextField
 		/// </summary>
-		protected RField r_m_ShowAssetBundleVariantTextField;
-		public virtual RField Rm_ShowAssetBundleVariantTextField
+		protected RSystem.RBoolean r_m_ShowAssetBundleVariantTextField;
+		public virtual RSystem.RBoolean Rm_ShowAssetBundleVariantTextField
 		{
 			get
 			{

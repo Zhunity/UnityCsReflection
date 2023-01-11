@@ -32,8 +32,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Boolean dynamic
 		/// </summary>
-		protected RField r_dynamic;
-		public virtual RField Rdynamic
+		protected RSystem.RBoolean r_dynamic;
+		public virtual RSystem.RBoolean Rdynamic
 		{
 			get
 			{
@@ -49,8 +49,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int32 refCount
 		/// </summary>
-		protected RField r_refCount;
-		public virtual RField RrefCount
+		protected RSystem.RInt32 r_refCount;
+		public virtual RSystem.RInt32 RrefCount
 		{
 			get
 			{

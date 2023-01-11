@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.String name
 		/// </summary>
-		protected RField r_name;
-		public virtual RField Rname
+		protected RSystem.RString r_name;
+		public virtual RSystem.RString Rname
 		{
 			get
 			{
@@ -166,8 +166,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Int32 table_idx
 		/// </summary>
-		protected RField r_table_idx;
-		public virtual RField Rtable_idx
+		protected RSystem.RInt32 r_table_idx;
+		public virtual RSystem.RInt32 Rtable_idx
 		{
 			get
 			{

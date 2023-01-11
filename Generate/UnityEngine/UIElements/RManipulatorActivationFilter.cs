@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int32 <clickCount>k__BackingField
 		/// </summary>
-		protected RField r___0__clickCount__1__k__BackingField;
-		public virtual RField R__0__clickCount__1__k__BackingField
+		protected RSystem.RInt32 r___0__clickCount__1__k__BackingField;
+		public virtual RSystem.RInt32 R__0__clickCount__1__k__BackingField
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Int32 clickCount
 		/// </summary>
-		protected RProperty r_clickCount;
-		public virtual RProperty RclickCount
+		protected RSystem.RInt32 r_clickCount;
+		public virtual RSystem.RInt32 RclickCount
 		{
 			get
 			{

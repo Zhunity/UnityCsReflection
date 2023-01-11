@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RResources
 		/// <summary>
 		/// System.String[] WellKnownProperties
 		/// </summary>
-		protected RFieldArray<RField> r_WellKnownProperties;
-		public virtual RFieldArray<RField> RWellKnownProperties
+		protected RFieldArray<RSystem.RString> r_WellKnownProperties;
+		public virtual RFieldArray<RSystem.RString> RWellKnownProperties
 		{
 			get
 			{
@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RResources
 		/// <summary>
 		/// System.Int64 signature
 		/// </summary>
-		protected RField r_signature;
-		public virtual RField Rsignature
+		protected RSystem.RInt64 r_signature;
+		public virtual RSystem.RInt64 Rsignature
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RResources
 		/// <summary>
 		/// System.Int32 struct_version
 		/// </summary>
-		protected RField r_struct_version;
-		public virtual RField Rstruct_version
+		protected RSystem.RInt32 r_struct_version;
+		public virtual RSystem.RInt32 Rstruct_version
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RResources
 		/// <summary>
 		/// System.Int64 file_version
 		/// </summary>
-		protected RField r_file_version;
-		public virtual RField Rfile_version
+		protected RSystem.RInt64 r_file_version;
+		public virtual RSystem.RInt64 Rfile_version
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RResources
 		/// <summary>
 		/// System.Int64 product_version
 		/// </summary>
-		protected RField r_product_version;
-		public virtual RField Rproduct_version
+		protected RSystem.RInt64 r_product_version;
+		public virtual RSystem.RInt64 Rproduct_version
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RResources
 		/// <summary>
 		/// System.Int32 file_flags_mask
 		/// </summary>
-		protected RField r_file_flags_mask;
-		public virtual RField Rfile_flags_mask
+		protected RSystem.RInt32 r_file_flags_mask;
+		public virtual RSystem.RInt32 Rfile_flags_mask
 		{
 			get
 			{
@@ -115,8 +115,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RResources
 		/// <summary>
 		/// System.Int32 file_flags
 		/// </summary>
-		protected RField r_file_flags;
-		public virtual RField Rfile_flags
+		protected RSystem.RInt32 r_file_flags;
+		public virtual RSystem.RInt32 Rfile_flags
 		{
 			get
 			{
@@ -132,8 +132,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RResources
 		/// <summary>
 		/// System.Int32 file_os
 		/// </summary>
-		protected RField r_file_os;
-		public virtual RField Rfile_os
+		protected RSystem.RInt32 r_file_os;
+		public virtual RSystem.RInt32 Rfile_os
 		{
 			get
 			{
@@ -149,8 +149,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RResources
 		/// <summary>
 		/// System.Int32 file_type
 		/// </summary>
-		protected RField r_file_type;
-		public virtual RField Rfile_type
+		protected RSystem.RInt32 r_file_type;
+		public virtual RSystem.RInt32 Rfile_type
 		{
 			get
 			{
@@ -166,8 +166,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RResources
 		/// <summary>
 		/// System.Int32 file_subtype
 		/// </summary>
-		protected RField r_file_subtype;
-		public virtual RField Rfile_subtype
+		protected RSystem.RInt32 r_file_subtype;
+		public virtual RSystem.RInt32 Rfile_subtype
 		{
 			get
 			{
@@ -183,8 +183,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RResources
 		/// <summary>
 		/// System.Int64 file_date
 		/// </summary>
-		protected RField r_file_date;
-		public virtual RField Rfile_date
+		protected RSystem.RInt64 r_file_date;
+		public virtual RSystem.RInt64 Rfile_date
 		{
 			get
 			{
@@ -200,8 +200,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RResources
 		/// <summary>
 		/// System.Int32 file_lang
 		/// </summary>
-		protected RField r_file_lang;
-		public virtual RField Rfile_lang
+		protected RSystem.RInt32 r_file_lang;
+		public virtual RSystem.RInt32 Rfile_lang
 		{
 			get
 			{
@@ -217,8 +217,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RResources
 		/// <summary>
 		/// System.Int32 file_codepage
 		/// </summary>
-		protected RField r_file_codepage;
-		public virtual RField Rfile_codepage
+		protected RSystem.RInt32 r_file_codepage;
+		public virtual RSystem.RInt32 Rfile_codepage
 		{
 			get
 			{
@@ -251,8 +251,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RResources
 		/// <summary>
 		/// System.String Version
 		/// </summary>
-		protected RProperty r_Version;
-		public virtual RProperty RVersion
+		protected RSystem.RString r_Version;
+		public virtual RSystem.RString RVersion
 		{
 			get
 			{
@@ -268,8 +268,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RResources
 		/// <summary>
 		/// System.String Item [System.String]
 		/// </summary>
-		protected RProperty r_Item_String;
-		public virtual RProperty RItem_String
+		protected RSystem.RString r_Item_String;
+		public virtual RSystem.RString RItem_String
 		{
 			get
 			{
@@ -285,8 +285,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RResources
 		/// <summary>
 		/// System.String Comments
 		/// </summary>
-		protected RProperty r_Comments;
-		public virtual RProperty RComments
+		protected RSystem.RString r_Comments;
+		public virtual RSystem.RString RComments
 		{
 			get
 			{
@@ -302,8 +302,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RResources
 		/// <summary>
 		/// System.String CompanyName
 		/// </summary>
-		protected RProperty r_CompanyName;
-		public virtual RProperty RCompanyName
+		protected RSystem.RString r_CompanyName;
+		public virtual RSystem.RString RCompanyName
 		{
 			get
 			{
@@ -319,8 +319,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RResources
 		/// <summary>
 		/// System.String LegalCopyright
 		/// </summary>
-		protected RProperty r_LegalCopyright;
-		public virtual RProperty RLegalCopyright
+		protected RSystem.RString r_LegalCopyright;
+		public virtual RSystem.RString RLegalCopyright
 		{
 			get
 			{
@@ -336,8 +336,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RResources
 		/// <summary>
 		/// System.String LegalTrademarks
 		/// </summary>
-		protected RProperty r_LegalTrademarks;
-		public virtual RProperty RLegalTrademarks
+		protected RSystem.RString r_LegalTrademarks;
+		public virtual RSystem.RString RLegalTrademarks
 		{
 			get
 			{
@@ -353,8 +353,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RResources
 		/// <summary>
 		/// System.String OriginalFilename
 		/// </summary>
-		protected RProperty r_OriginalFilename;
-		public virtual RProperty ROriginalFilename
+		protected RSystem.RString r_OriginalFilename;
+		public virtual RSystem.RString ROriginalFilename
 		{
 			get
 			{
@@ -370,8 +370,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RResources
 		/// <summary>
 		/// System.String ProductName
 		/// </summary>
-		protected RProperty r_ProductName;
-		public virtual RProperty RProductName
+		protected RSystem.RString r_ProductName;
+		public virtual RSystem.RString RProductName
 		{
 			get
 			{
@@ -387,8 +387,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RResources
 		/// <summary>
 		/// System.String ProductVersion
 		/// </summary>
-		protected RProperty r_ProductVersion;
-		public virtual RProperty RProductVersion
+		protected RSystem.RString r_ProductVersion;
+		public virtual RSystem.RString RProductVersion
 		{
 			get
 			{
@@ -404,8 +404,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RResources
 		/// <summary>
 		/// System.String InternalName
 		/// </summary>
-		protected RProperty r_InternalName;
-		public virtual RProperty RInternalName
+		protected RSystem.RString r_InternalName;
+		public virtual RSystem.RString RInternalName
 		{
 			get
 			{
@@ -421,8 +421,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RResources
 		/// <summary>
 		/// System.String FileDescription
 		/// </summary>
-		protected RProperty r_FileDescription;
-		public virtual RProperty RFileDescription
+		protected RSystem.RString r_FileDescription;
+		public virtual RSystem.RString RFileDescription
 		{
 			get
 			{
@@ -438,8 +438,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RResources
 		/// <summary>
 		/// Int32 FileLanguage
 		/// </summary>
-		protected RProperty r_FileLanguage;
-		public virtual RProperty RFileLanguage
+		protected RSystem.RInt32 r_FileLanguage;
+		public virtual RSystem.RInt32 RFileLanguage
 		{
 			get
 			{
@@ -455,8 +455,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RResources
 		/// <summary>
 		/// System.String FileVersion
 		/// </summary>
-		protected RProperty r_FileVersion;
-		public virtual RProperty RFileVersion
+		protected RSystem.RString r_FileVersion;
+		public virtual RSystem.RString RFileVersion
 		{
 			get
 			{
@@ -523,8 +523,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RResources
 		/// <summary>
 		/// Int32 Language
 		/// </summary>
-		protected RProperty r_Language;
-		public virtual RProperty RLanguage
+		protected RSystem.RInt32 r_Language;
+		public virtual RSystem.RInt32 RLanguage
 		{
 			get
 			{

@@ -32,8 +32,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
 		/// <summary>
 		/// System.Int32 _version
 		/// </summary>
-		protected RField r__version;
-		public virtual RField R_version
+		protected RSystem.RInt32 r__version;
+		public virtual RSystem.RInt32 R_version
 		{
 			get
 			{
@@ -49,8 +49,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
 		/// <summary>
 		/// System.Int32 _index
 		/// </summary>
-		protected RField r__index;
-		public virtual RField R_index
+		protected RSystem.RInt32 r__index;
+		public virtual RSystem.RInt32 R_index
 		{
 			get
 			{
@@ -83,8 +83,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
 		/// <summary>
 		/// System.Int32 _getEnumeratorRetType
 		/// </summary>
-		protected RField r__getEnumeratorRetType;
-		public virtual RField R_getEnumeratorRetType
+		protected RSystem.RInt32 r__getEnumeratorRetType;
+		public virtual RSystem.RInt32 R_getEnumeratorRetType
 		{
 			get
 			{
@@ -100,8 +100,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
 		/// <summary>
 		/// System.Int32 DictEntry
 		/// </summary>
-		protected static RField r_DictEntry;
-		public static RField RDictEntry
+		protected static RSystem.RInt32 r_DictEntry;
+		public static RSystem.RInt32 RDictEntry
 		{
 			get
 			{
@@ -117,8 +117,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
 		/// <summary>
 		/// System.Int32 KeyValuePair
 		/// </summary>
-		protected static RField r_KeyValuePair;
-		public static RField RKeyValuePair
+		protected static RSystem.RInt32 r_KeyValuePair;
+		public static RSystem.RInt32 RKeyValuePair
 		{
 			get
 			{

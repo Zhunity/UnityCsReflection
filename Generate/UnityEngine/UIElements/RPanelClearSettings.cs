@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Boolean clearDepthStencil
 		/// </summary>
-		protected RField r_clearDepthStencil;
-		public virtual RField RclearDepthStencil
+		protected RSystem.RBoolean r_clearDepthStencil;
+		public virtual RSystem.RBoolean RclearDepthStencil
 		{
 			get
 			{
@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Boolean clearColor
 		/// </summary>
-		protected RField r_clearColor;
-		public virtual RField RclearColor
+		protected RSystem.RBoolean r_clearColor;
+		public virtual RSystem.RBoolean RclearColor
 		{
 			get
 			{

@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
 		/// <summary>
 		/// System.Int32 k_DefaultDurationMs
 		/// </summary>
-		protected static RField r_k_DefaultDurationMs;
-		public static RField Rk_DefaultDurationMs
+		protected static RSystem.RInt32 r_k_DefaultDurationMs;
+		public static RSystem.RInt32 Rk_DefaultDurationMs
 		{
 			get
 			{
@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
 		/// <summary>
 		/// System.Int32 k_DefaultMaxPoolSize
 		/// </summary>
-		protected static RField r_k_DefaultMaxPoolSize;
-		public static RField Rk_DefaultMaxPoolSize
+		protected static RSystem.RInt32 r_k_DefaultMaxPoolSize;
+		public static RSystem.RInt32 Rk_DefaultMaxPoolSize
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
 		/// <summary>
 		/// System.Int64 m_StartTimeMs
 		/// </summary>
-		protected RField r_m_StartTimeMs;
-		public virtual RField Rm_StartTimeMs
+		protected RSystem.RInt64 r_m_StartTimeMs;
+		public virtual RSystem.RInt64 Rm_StartTimeMs
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
 		/// <summary>
 		/// System.Int32 m_DurationMs
 		/// </summary>
-		protected RField r_m_DurationMs;
-		public virtual RField Rm_DurationMs
+		protected RSystem.RInt32 r_m_DurationMs;
+		public virtual RSystem.RInt32 Rm_DurationMs
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
 		/// <summary>
 		/// System.Func`2[System.Single,System.Single] <easingCurve>k__BackingField
 		/// </summary>
-		protected RSystem.RFunc<RField, RField> r___0__easingCurve__1__k__BackingField;
-		public virtual RSystem.RFunc<RField, RField> R__0__easingCurve__1__k__BackingField
+		protected RSystem.RFunc<RSystem.RSingle, RSystem.RSingle> r___0__easingCurve__1__k__BackingField;
+		public virtual RSystem.RFunc<RSystem.RSingle, RSystem.RSingle> R__0__easingCurve__1__k__BackingField
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
 		/// <summary>
 		/// System.Boolean <isRunning>k__BackingField
 		/// </summary>
-		protected RField r___0__isRunning__1__k__BackingField;
-		public virtual RField R__0__isRunning__1__k__BackingField
+		protected RSystem.RBoolean r___0__isRunning__1__k__BackingField;
+		public virtual RSystem.RBoolean R__0__isRunning__1__k__BackingField
 		{
 			get
 			{
@@ -132,8 +132,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
 		/// <summary>
 		/// System.Boolean <autoRecycle>k__BackingField
 		/// </summary>
-		protected RField r___0__autoRecycle__1__k__BackingField;
-		public virtual RField R__0__autoRecycle__1__k__BackingField
+		protected RSystem.RBoolean r___0__autoRecycle__1__k__BackingField;
+		public virtual RSystem.RBoolean R__0__autoRecycle__1__k__BackingField
 		{
 			get
 			{
@@ -149,8 +149,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
 		/// <summary>
 		/// System.Boolean <recycled>k__BackingField
 		/// </summary>
-		protected RField r___0__recycled__1__k__BackingField;
-		public virtual RField R__0__recycled__1__k__BackingField
+		protected RSystem.RBoolean r___0__recycled__1__k__BackingField;
+		public virtual RSystem.RBoolean R__0__recycled__1__k__BackingField
 		{
 			get
 			{
@@ -234,8 +234,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
 		/// <summary>
 		/// System.Func`4[T,T,System.Single,T] <interpolator>k__BackingField
 		/// </summary>
-		protected RSystem.RFunc<RField, RField, RField, RField> r___0__interpolator__1__k__BackingField;
-		public virtual RSystem.RFunc<RField, RField, RField, RField> R__0__interpolator__1__k__BackingField
+		protected RSystem.RFunc<RField, RField, RSystem.RSingle, RField> r___0__interpolator__1__k__BackingField;
+		public virtual RSystem.RFunc<RField, RField, RSystem.RSingle, RField> R__0__interpolator__1__k__BackingField
 		{
 			get
 			{
@@ -268,8 +268,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
 		/// <summary>
 		/// System.Boolean fromValueSet
 		/// </summary>
-		protected RField r_fromValueSet;
-		public virtual RField RfromValueSet
+		protected RSystem.RBoolean r_fromValueSet;
+		public virtual RSystem.RBoolean RfromValueSet
 		{
 			get
 			{
@@ -302,8 +302,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
 		/// <summary>
 		/// Int32 durationMs
 		/// </summary>
-		protected RProperty r_durationMs;
-		public virtual RProperty RdurationMs
+		protected RSystem.RInt32 r_durationMs;
+		public virtual RSystem.RInt32 RdurationMs
 		{
 			get
 			{
@@ -319,8 +319,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
 		/// <summary>
 		/// System.Func`2[System.Single,System.Single] easingCurve
 		/// </summary>
-		protected RSystem.RFunc<RProperty, RProperty> r_easingCurve;
-		public virtual RSystem.RFunc<RProperty, RProperty> ReasingCurve
+		protected RSystem.RFunc<RSystem.RSingle, RSystem.RSingle> r_easingCurve;
+		public virtual RSystem.RFunc<RSystem.RSingle, RSystem.RSingle> ReasingCurve
 		{
 			get
 			{
@@ -336,8 +336,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
 		/// <summary>
 		/// Boolean isRunning
 		/// </summary>
-		protected RProperty r_isRunning;
-		public virtual RProperty RisRunning
+		protected RSystem.RBoolean r_isRunning;
+		public virtual RSystem.RBoolean RisRunning
 		{
 			get
 			{
@@ -370,8 +370,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
 		/// <summary>
 		/// Boolean autoRecycle
 		/// </summary>
-		protected RProperty r_autoRecycle;
-		public virtual RProperty RautoRecycle
+		protected RSystem.RBoolean r_autoRecycle;
+		public virtual RSystem.RBoolean RautoRecycle
 		{
 			get
 			{
@@ -387,8 +387,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
 		/// <summary>
 		/// Boolean recycled
 		/// </summary>
-		protected RProperty r_recycled;
-		public virtual RProperty Rrecycled
+		protected RSystem.RBoolean r_recycled;
+		public virtual RSystem.RBoolean Rrecycled
 		{
 			get
 			{
@@ -455,8 +455,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
 		/// <summary>
 		/// System.Func`4[T,T,System.Single,T] interpolator
 		/// </summary>
-		protected RSystem.RFunc<RProperty, RProperty, RProperty, RProperty> r_interpolator;
-		public virtual RSystem.RFunc<RProperty, RProperty, RProperty, RProperty> Rinterpolator
+		protected RSystem.RFunc<RProperty, RProperty, RSystem.RSingle, RProperty> r_interpolator;
+		public virtual RSystem.RFunc<RProperty, RProperty, RSystem.RSingle, RProperty> Rinterpolator
 		{
 			get
 			{

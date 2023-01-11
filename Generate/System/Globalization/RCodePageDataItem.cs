@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 m_dataIndex
 		/// </summary>
-		protected RField r_m_dataIndex;
-		public virtual RField Rm_dataIndex
+		protected RSystem.RInt32 r_m_dataIndex;
+		public virtual RSystem.RInt32 Rm_dataIndex
 		{
 			get
 			{
@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 m_uiFamilyCodePage
 		/// </summary>
-		protected RField r_m_uiFamilyCodePage;
-		public virtual RField Rm_uiFamilyCodePage
+		protected RSystem.RInt32 r_m_uiFamilyCodePage;
+		public virtual RSystem.RInt32 Rm_uiFamilyCodePage
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String m_webName
 		/// </summary>
-		protected RField r_m_webName;
-		public virtual RField Rm_webName
+		protected RSystem.RString r_m_webName;
+		public virtual RSystem.RString Rm_webName
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String m_headerName
 		/// </summary>
-		protected RField r_m_headerName;
-		public virtual RField Rm_headerName
+		protected RSystem.RString r_m_headerName;
+		public virtual RSystem.RString Rm_headerName
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String m_bodyName
 		/// </summary>
-		protected RField r_m_bodyName;
-		public virtual RField Rm_bodyName
+		protected RSystem.RString r_m_bodyName;
+		public virtual RSystem.RString Rm_bodyName
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.UInt32 m_flags
 		/// </summary>
-		protected RField r_m_flags;
-		public virtual RField Rm_flags
+		protected RSystem.RUInt32 r_m_flags;
+		public virtual RSystem.RUInt32 Rm_flags
 		{
 			get
 			{
@@ -115,8 +115,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Char[] sep
 		/// </summary>
-		protected static RFieldArray<RField> r_sep;
-		public static RFieldArray<RField> Rsep
+		protected static RFieldArray<RSystem.RChar> r_sep;
+		public static RFieldArray<RSystem.RChar> Rsep
 		{
 			get
 			{
@@ -132,8 +132,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String WebName
 		/// </summary>
-		protected RProperty r_WebName;
-		public virtual RProperty RWebName
+		protected RSystem.RString r_WebName;
+		public virtual RSystem.RString RWebName
 		{
 			get
 			{
@@ -149,8 +149,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// Int32 UIFamilyCodePage
 		/// </summary>
-		protected RProperty r_UIFamilyCodePage;
-		public virtual RProperty RUIFamilyCodePage
+		protected RSystem.RInt32 r_UIFamilyCodePage;
+		public virtual RSystem.RInt32 RUIFamilyCodePage
 		{
 			get
 			{
@@ -166,8 +166,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String HeaderName
 		/// </summary>
-		protected RProperty r_HeaderName;
-		public virtual RProperty RHeaderName
+		protected RSystem.RString r_HeaderName;
+		public virtual RSystem.RString RHeaderName
 		{
 			get
 			{
@@ -183,8 +183,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String BodyName
 		/// </summary>
-		protected RProperty r_BodyName;
-		public virtual RProperty RBodyName
+		protected RSystem.RString r_BodyName;
+		public virtual RSystem.RString RBodyName
 		{
 			get
 			{
@@ -200,8 +200,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// UInt32 Flags
 		/// </summary>
-		protected RProperty r_Flags;
-		public virtual RProperty RFlags
+		protected RSystem.RUInt32 r_Flags;
+		public virtual RSystem.RUInt32 RFlags
 		{
 			get
 			{

@@ -166,8 +166,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Int32 clickCount
 		/// </summary>
-		protected RProperty r_clickCount;
-		public virtual RProperty RclickCount
+		protected RSystem.RInt32 r_clickCount;
+		public virtual RSystem.RInt32 RclickCount
 		{
 			get
 			{
@@ -183,8 +183,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Int32 button
 		/// </summary>
-		protected RProperty r_button;
-		public virtual RProperty Rbutton
+		protected RSystem.RInt32 r_button;
+		public virtual RSystem.RInt32 Rbutton
 		{
 			get
 			{
@@ -200,8 +200,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Int32 pressedButtons
 		/// </summary>
-		protected RProperty r_pressedButtons;
-		public virtual RProperty RpressedButtons
+		protected RSystem.RInt32 r_pressedButtons;
+		public virtual RSystem.RInt32 RpressedButtons
 		{
 			get
 			{
@@ -217,8 +217,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Boolean shiftKey
 		/// </summary>
-		protected RProperty r_shiftKey;
-		public virtual RProperty RshiftKey
+		protected RSystem.RBoolean r_shiftKey;
+		public virtual RSystem.RBoolean RshiftKey
 		{
 			get
 			{
@@ -234,8 +234,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Boolean ctrlKey
 		/// </summary>
-		protected RProperty r_ctrlKey;
-		public virtual RProperty RctrlKey
+		protected RSystem.RBoolean r_ctrlKey;
+		public virtual RSystem.RBoolean RctrlKey
 		{
 			get
 			{
@@ -251,8 +251,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Boolean commandKey
 		/// </summary>
-		protected RProperty r_commandKey;
-		public virtual RProperty RcommandKey
+		protected RSystem.RBoolean r_commandKey;
+		public virtual RSystem.RBoolean RcommandKey
 		{
 			get
 			{
@@ -268,8 +268,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Boolean altKey
 		/// </summary>
-		protected RProperty r_altKey;
-		public virtual RProperty RaltKey
+		protected RSystem.RBoolean r_altKey;
+		public virtual RSystem.RBoolean RaltKey
 		{
 			get
 			{
@@ -285,8 +285,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Boolean actionKey
 		/// </summary>
-		protected RProperty r_actionKey;
-		public virtual RProperty RactionKey
+		protected RSystem.RBoolean r_actionKey;
+		public virtual RSystem.RBoolean RactionKey
 		{
 			get
 			{
@@ -319,8 +319,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Int64 eventTypeId
 		/// </summary>
-		protected RProperty r_eventTypeId;
-		public virtual RProperty ReventTypeId
+		protected RSystem.RInt64 r_eventTypeId;
+		public virtual RSystem.RInt64 ReventTypeId
 		{
 			get
 			{
@@ -353,8 +353,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Int64 timestamp
 		/// </summary>
-		protected RProperty r_timestamp;
-		public virtual RProperty Rtimestamp
+		protected RSystem.RInt64 r_timestamp;
+		public virtual RSystem.RInt64 Rtimestamp
 		{
 			get
 			{
@@ -370,8 +370,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UInt64 eventId
 		/// </summary>
-		protected RProperty r_eventId;
-		public virtual RProperty ReventId
+		protected RSystem.RUInt64 r_eventId;
+		public virtual RSystem.RUInt64 ReventId
 		{
 			get
 			{
@@ -387,8 +387,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UInt64 triggerEventId
 		/// </summary>
-		protected RProperty r_triggerEventId;
-		public virtual RProperty RtriggerEventId
+		protected RSystem.RUInt64 r_triggerEventId;
+		public virtual RSystem.RUInt64 RtriggerEventId
 		{
 			get
 			{
@@ -438,8 +438,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Boolean bubbles
 		/// </summary>
-		protected RProperty r_bubbles;
-		public virtual RProperty Rbubbles
+		protected RSystem.RBoolean r_bubbles;
+		public virtual RSystem.RBoolean Rbubbles
 		{
 			get
 			{
@@ -455,8 +455,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Boolean tricklesDown
 		/// </summary>
-		protected RProperty r_tricklesDown;
-		public virtual RProperty RtricklesDown
+		protected RSystem.RBoolean r_tricklesDown;
+		public virtual RSystem.RBoolean RtricklesDown
 		{
 			get
 			{
@@ -472,8 +472,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Boolean bubblesOrTricklesDown
 		/// </summary>
-		protected RProperty r_bubblesOrTricklesDown;
-		public virtual RProperty RbubblesOrTricklesDown
+		protected RSystem.RBoolean r_bubblesOrTricklesDown;
+		public virtual RSystem.RBoolean RbubblesOrTricklesDown
 		{
 			get
 			{
@@ -489,8 +489,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Boolean skipDisabledElements
 		/// </summary>
-		protected RProperty r_skipDisabledElements;
-		public virtual RProperty RskipDisabledElements
+		protected RSystem.RBoolean r_skipDisabledElements;
+		public virtual RSystem.RBoolean RskipDisabledElements
 		{
 			get
 			{
@@ -506,8 +506,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Boolean ignoreCompositeRoots
 		/// </summary>
-		protected RProperty r_ignoreCompositeRoots;
-		public virtual RProperty RignoreCompositeRoots
+		protected RSystem.RBoolean r_ignoreCompositeRoots;
+		public virtual RSystem.RBoolean RignoreCompositeRoots
 		{
 			get
 			{
@@ -574,8 +574,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Boolean isPropagationStopped
 		/// </summary>
-		protected RProperty r_isPropagationStopped;
-		public virtual RProperty RisPropagationStopped
+		protected RSystem.RBoolean r_isPropagationStopped;
+		public virtual RSystem.RBoolean RisPropagationStopped
 		{
 			get
 			{
@@ -591,8 +591,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Boolean isImmediatePropagationStopped
 		/// </summary>
-		protected RProperty r_isImmediatePropagationStopped;
-		public virtual RProperty RisImmediatePropagationStopped
+		protected RSystem.RBoolean r_isImmediatePropagationStopped;
+		public virtual RSystem.RBoolean RisImmediatePropagationStopped
 		{
 			get
 			{
@@ -608,8 +608,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Boolean isDefaultPrevented
 		/// </summary>
-		protected RProperty r_isDefaultPrevented;
-		public virtual RProperty RisDefaultPrevented
+		protected RSystem.RBoolean r_isDefaultPrevented;
+		public virtual RSystem.RBoolean RisDefaultPrevented
 		{
 			get
 			{
@@ -642,8 +642,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Boolean dispatch
 		/// </summary>
-		protected RProperty r_dispatch;
-		public virtual RProperty Rdispatch
+		protected RSystem.RBoolean r_dispatch;
+		public virtual RSystem.RBoolean Rdispatch
 		{
 			get
 			{
@@ -659,8 +659,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Boolean processed
 		/// </summary>
-		protected RProperty r_processed;
-		public virtual RProperty Rprocessed
+		protected RSystem.RBoolean r_processed;
+		public virtual RSystem.RBoolean Rprocessed
 		{
 			get
 			{
@@ -676,8 +676,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Boolean processedByFocusController
 		/// </summary>
-		protected RProperty r_processedByFocusController;
-		public virtual RProperty RprocessedByFocusController
+		protected RSystem.RBoolean r_processedByFocusController;
+		public virtual RSystem.RBoolean RprocessedByFocusController
 		{
 			get
 			{
@@ -693,8 +693,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Boolean stopDispatch
 		/// </summary>
-		protected RProperty r_stopDispatch;
-		public virtual RProperty RstopDispatch
+		protected RSystem.RBoolean r_stopDispatch;
+		public virtual RSystem.RBoolean RstopDispatch
 		{
 			get
 			{
@@ -710,8 +710,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Boolean propagateToIMGUI
 		/// </summary>
-		protected RProperty r_propagateToIMGUI;
-		public virtual RProperty RpropagateToIMGUI
+		protected RSystem.RBoolean r_propagateToIMGUI;
+		public virtual RSystem.RBoolean RpropagateToIMGUI
 		{
 			get
 			{
@@ -778,8 +778,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Boolean log
 		/// </summary>
-		protected RProperty r_log;
-		public virtual RProperty Rlog
+		protected RSystem.RBoolean r_log;
+		public virtual RSystem.RBoolean Rlog
 		{
 			get
 			{
@@ -795,8 +795,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Boolean pooled
 		/// </summary>
-		protected RProperty r_pooled;
-		public virtual RProperty Rpooled
+		protected RSystem.RBoolean r_pooled;
+		public virtual RSystem.RBoolean Rpooled
 		{
 			get
 			{

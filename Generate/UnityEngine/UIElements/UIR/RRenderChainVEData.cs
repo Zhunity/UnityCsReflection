@@ -115,8 +115,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Int32 hierarchyDepth
 		/// </summary>
-		protected RField r_hierarchyDepth;
-		public virtual RField RhierarchyDepth
+		protected RSystem.RInt32 r_hierarchyDepth;
+		public virtual RSystem.RInt32 RhierarchyDepth
 		{
 			get
 			{
@@ -149,8 +149,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.UInt32 dirtyID
 		/// </summary>
-		protected RField r_dirtyID;
-		public virtual RField RdirtyID
+		protected RSystem.RUInt32 r_dirtyID;
+		public virtual RSystem.RUInt32 RdirtyID
 		{
 			get
 			{
@@ -234,8 +234,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Boolean isInChain
 		/// </summary>
-		protected RField r_isInChain;
-		public virtual RField RisInChain
+		protected RSystem.RBoolean r_isInChain;
+		public virtual RSystem.RBoolean RisInChain
 		{
 			get
 			{
@@ -251,8 +251,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Boolean isHierarchyHidden
 		/// </summary>
-		protected RField r_isHierarchyHidden;
-		public virtual RField RisHierarchyHidden
+		protected RSystem.RBoolean r_isHierarchyHidden;
+		public virtual RSystem.RBoolean RisHierarchyHidden
 		{
 			get
 			{
@@ -268,8 +268,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Boolean localFlipsWinding
 		/// </summary>
-		protected RField r_localFlipsWinding;
-		public virtual RField RlocalFlipsWinding
+		protected RSystem.RBoolean r_localFlipsWinding;
+		public virtual RSystem.RBoolean RlocalFlipsWinding
 		{
 			get
 			{
@@ -285,8 +285,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Boolean localTransformScaleZero
 		/// </summary>
-		protected RField r_localTransformScaleZero;
-		public virtual RField RlocalTransformScaleZero
+		protected RSystem.RBoolean r_localTransformScaleZero;
+		public virtual RSystem.RBoolean RlocalTransformScaleZero
 		{
 			get
 			{
@@ -302,8 +302,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Boolean worldFlipsWinding
 		/// </summary>
-		protected RField r_worldFlipsWinding;
-		public virtual RField RworldFlipsWinding
+		protected RSystem.RBoolean r_worldFlipsWinding;
+		public virtual RSystem.RBoolean RworldFlipsWinding
 		{
 			get
 			{
@@ -336,8 +336,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Int32 childrenStencilRef
 		/// </summary>
-		protected RField r_childrenStencilRef;
-		public virtual RField RchildrenStencilRef
+		protected RSystem.RInt32 r_childrenStencilRef;
+		public virtual RSystem.RInt32 RchildrenStencilRef
 		{
 			get
 			{
@@ -353,8 +353,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Int32 childrenMaskDepth
 		/// </summary>
-		protected RField r_childrenMaskDepth;
-		public virtual RField RchildrenMaskDepth
+		protected RSystem.RInt32 r_childrenMaskDepth;
+		public virtual RSystem.RInt32 RchildrenMaskDepth
 		{
 			get
 			{
@@ -370,8 +370,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Boolean disableNudging
 		/// </summary>
-		protected RField r_disableNudging;
-		public virtual RField RdisableNudging
+		protected RSystem.RBoolean r_disableNudging;
+		public virtual RSystem.RBoolean RdisableNudging
 		{
 			get
 			{
@@ -438,8 +438,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Int32 displacementUVStart
 		/// </summary>
-		protected RField r_displacementUVStart;
-		public virtual RField RdisplacementUVStart
+		protected RSystem.RInt32 r_displacementUVStart;
+		public virtual RSystem.RInt32 RdisplacementUVStart
 		{
 			get
 			{
@@ -455,8 +455,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Int32 displacementUVEnd
 		/// </summary>
-		protected RField r_displacementUVEnd;
-		public virtual RField RdisplacementUVEnd
+		protected RSystem.RInt32 r_displacementUVEnd;
+		public virtual RSystem.RInt32 RdisplacementUVEnd
 		{
 			get
 			{
@@ -659,8 +659,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Single compositeOpacity
 		/// </summary>
-		protected RField r_compositeOpacity;
-		public virtual RField RcompositeOpacity
+		protected RSystem.RSingle r_compositeOpacity;
+		public virtual RSystem.RSingle RcompositeOpacity
 		{
 			get
 			{

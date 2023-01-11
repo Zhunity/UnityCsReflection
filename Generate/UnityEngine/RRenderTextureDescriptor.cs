@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Int32 <width>k__BackingField
 		/// </summary>
-		protected RField r___0__width__1__k__BackingField;
-		public virtual RField R__0__width__1__k__BackingField
+		protected RSystem.RInt32 r___0__width__1__k__BackingField;
+		public virtual RSystem.RInt32 R__0__width__1__k__BackingField
 		{
 			get
 			{
@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Int32 <height>k__BackingField
 		/// </summary>
-		protected RField r___0__height__1__k__BackingField;
-		public virtual RField R__0__height__1__k__BackingField
+		protected RSystem.RInt32 r___0__height__1__k__BackingField;
+		public virtual RSystem.RInt32 R__0__height__1__k__BackingField
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Int32 <msaaSamples>k__BackingField
 		/// </summary>
-		protected RField r___0__msaaSamples__1__k__BackingField;
-		public virtual RField R__0__msaaSamples__1__k__BackingField
+		protected RSystem.RInt32 r___0__msaaSamples__1__k__BackingField;
+		public virtual RSystem.RInt32 R__0__msaaSamples__1__k__BackingField
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Int32 <volumeDepth>k__BackingField
 		/// </summary>
-		protected RField r___0__volumeDepth__1__k__BackingField;
-		public virtual RField R__0__volumeDepth__1__k__BackingField
+		protected RSystem.RInt32 r___0__volumeDepth__1__k__BackingField;
+		public virtual RSystem.RInt32 R__0__volumeDepth__1__k__BackingField
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Int32 <mipCount>k__BackingField
 		/// </summary>
-		protected RField r___0__mipCount__1__k__BackingField;
-		public virtual RField R__0__mipCount__1__k__BackingField
+		protected RSystem.RInt32 r___0__mipCount__1__k__BackingField;
+		public virtual RSystem.RInt32 R__0__mipCount__1__k__BackingField
 		{
 			get
 			{
@@ -234,8 +234,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 width
 		/// </summary>
-		protected RProperty r_width;
-		public virtual RProperty Rwidth
+		protected RSystem.RInt32 r_width;
+		public virtual RSystem.RInt32 Rwidth
 		{
 			get
 			{
@@ -251,8 +251,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 height
 		/// </summary>
-		protected RProperty r_height;
-		public virtual RProperty Rheight
+		protected RSystem.RInt32 r_height;
+		public virtual RSystem.RInt32 Rheight
 		{
 			get
 			{
@@ -268,8 +268,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 msaaSamples
 		/// </summary>
-		protected RProperty r_msaaSamples;
-		public virtual RProperty RmsaaSamples
+		protected RSystem.RInt32 r_msaaSamples;
+		public virtual RSystem.RInt32 RmsaaSamples
 		{
 			get
 			{
@@ -285,8 +285,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 volumeDepth
 		/// </summary>
-		protected RProperty r_volumeDepth;
-		public virtual RProperty RvolumeDepth
+		protected RSystem.RInt32 r_volumeDepth;
+		public virtual RSystem.RInt32 RvolumeDepth
 		{
 			get
 			{
@@ -302,8 +302,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 mipCount
 		/// </summary>
-		protected RProperty r_mipCount;
-		public virtual RProperty RmipCount
+		protected RSystem.RInt32 r_mipCount;
+		public virtual RSystem.RInt32 RmipCount
 		{
 			get
 			{
@@ -387,8 +387,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Boolean sRGB
 		/// </summary>
-		protected RProperty r_sRGB;
-		public virtual RProperty RsRGB
+		protected RSystem.RBoolean r_sRGB;
+		public virtual RSystem.RBoolean RsRGB
 		{
 			get
 			{
@@ -404,8 +404,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 depthBufferBits
 		/// </summary>
-		protected RProperty r_depthBufferBits;
-		public virtual RProperty RdepthBufferBits
+		protected RSystem.RInt32 r_depthBufferBits;
+		public virtual RSystem.RInt32 RdepthBufferBits
 		{
 			get
 			{
@@ -506,8 +506,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Boolean useMipMap
 		/// </summary>
-		protected RProperty r_useMipMap;
-		public virtual RProperty RuseMipMap
+		protected RSystem.RBoolean r_useMipMap;
+		public virtual RSystem.RBoolean RuseMipMap
 		{
 			get
 			{
@@ -523,8 +523,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Boolean autoGenerateMips
 		/// </summary>
-		protected RProperty r_autoGenerateMips;
-		public virtual RProperty RautoGenerateMips
+		protected RSystem.RBoolean r_autoGenerateMips;
+		public virtual RSystem.RBoolean RautoGenerateMips
 		{
 			get
 			{
@@ -540,8 +540,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Boolean enableRandomWrite
 		/// </summary>
-		protected RProperty r_enableRandomWrite;
-		public virtual RProperty RenableRandomWrite
+		protected RSystem.RBoolean r_enableRandomWrite;
+		public virtual RSystem.RBoolean RenableRandomWrite
 		{
 			get
 			{
@@ -557,8 +557,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Boolean bindMS
 		/// </summary>
-		protected RProperty r_bindMS;
-		public virtual RProperty RbindMS
+		protected RSystem.RBoolean r_bindMS;
+		public virtual RSystem.RBoolean RbindMS
 		{
 			get
 			{
@@ -574,8 +574,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Boolean createdFromScript
 		/// </summary>
-		protected RProperty r_createdFromScript;
-		public virtual RProperty RcreatedFromScript
+		protected RSystem.RBoolean r_createdFromScript;
+		public virtual RSystem.RBoolean RcreatedFromScript
 		{
 			get
 			{
@@ -591,8 +591,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Boolean useDynamicScale
 		/// </summary>
-		protected RProperty r_useDynamicScale;
-		public virtual RProperty RuseDynamicScale
+		protected RSystem.RBoolean r_useDynamicScale;
+		public virtual RSystem.RBoolean RuseDynamicScale
 		{
 			get
 			{

@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngineInternal
 		/// <summary>
 		/// Int32 Count
 		/// </summary>
-		protected RProperty r_Count;
-		public virtual RProperty RCount
+		protected RSystem.RInt32 r_Count;
+		public virtual RSystem.RInt32 RCount
 		{
 			get
 			{
@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngineInternal
 		/// <summary>
 		/// Boolean IsSynchronized
 		/// </summary>
-		protected RProperty r_IsSynchronized;
-		public virtual RProperty RIsSynchronized
+		protected RSystem.RBoolean r_IsSynchronized;
+		public virtual RSystem.RBoolean RIsSynchronized
 		{
 			get
 			{

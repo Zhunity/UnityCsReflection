@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Single blurRadius
 		/// </summary>
-		protected RField r_blurRadius;
-		public virtual RField RblurRadius
+		protected RSystem.RSingle r_blurRadius;
+		public virtual RSystem.RSingle RblurRadius
 		{
 			get
 			{

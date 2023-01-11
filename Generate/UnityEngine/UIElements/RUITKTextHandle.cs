@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Boolean isOverridingCursor
 		/// </summary>
-		protected RField r_isOverridingCursor;
-		public virtual RField RisOverridingCursor
+		protected RSystem.RBoolean r_isOverridingCursor;
+		public virtual RSystem.RBoolean RisOverridingCursor
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int32 currentLinkIDHash
 		/// </summary>
-		protected RField r_currentLinkIDHash;
-		public virtual RField RcurrentLinkIDHash
+		protected RSystem.RInt32 r_currentLinkIDHash;
+		public virtual RSystem.RInt32 RcurrentLinkIDHash
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Boolean hasLinkTag
 		/// </summary>
-		protected RField r_hasLinkTag;
-		public virtual RField RhasLinkTag
+		protected RSystem.RBoolean r_hasLinkTag;
+		public virtual RSystem.RBoolean RhasLinkTag
 		{
 			get
 			{
@@ -115,8 +115,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Boolean hasATag
 		/// </summary>
-		protected RField r_hasATag;
-		public virtual RField RhasATag
+		protected RSystem.RBoolean r_hasATag;
+		public virtual RSystem.RBoolean RhasATag
 		{
 			get
 			{

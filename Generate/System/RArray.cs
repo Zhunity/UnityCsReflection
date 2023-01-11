@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// Int32 System.Collections.ICollection.Count
 		/// </summary>
-		protected RProperty r_System__2__Collections__2__ICollection__2__Count;
-		public virtual RProperty RSystem__2__Collections__2__ICollection__2__Count
+		protected RSystem.RInt32 r_System__2__Collections__2__ICollection__2__Count;
+		public virtual RSystem.RInt32 RSystem__2__Collections__2__ICollection__2__Count
 		{
 			get
 			{
@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// Boolean System.Collections.IList.IsReadOnly
 		/// </summary>
-		protected RProperty r_System__2__Collections__2__IList__2__IsReadOnly;
-		public virtual RProperty RSystem__2__Collections__2__IList__2__IsReadOnly
+		protected RSystem.RBoolean r_System__2__Collections__2__IList__2__IsReadOnly;
+		public virtual RSystem.RBoolean RSystem__2__Collections__2__IList__2__IsReadOnly
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// Int64 LongLength
 		/// </summary>
-		protected RProperty r_LongLength;
-		public virtual RProperty RLongLength
+		protected RSystem.RInt64 r_LongLength;
+		public virtual RSystem.RInt64 RLongLength
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// Boolean IsFixedSize
 		/// </summary>
-		protected RProperty r_IsFixedSize;
-		public virtual RProperty RIsFixedSize
+		protected RSystem.RBoolean r_IsFixedSize;
+		public virtual RSystem.RBoolean RIsFixedSize
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// Boolean IsReadOnly
 		/// </summary>
-		protected RProperty r_IsReadOnly;
-		public virtual RProperty RIsReadOnly
+		protected RSystem.RBoolean r_IsReadOnly;
+		public virtual RSystem.RBoolean RIsReadOnly
 		{
 			get
 			{
@@ -115,8 +115,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// Boolean IsSynchronized
 		/// </summary>
-		protected RProperty r_IsSynchronized;
-		public virtual RProperty RIsSynchronized
+		protected RSystem.RBoolean r_IsSynchronized;
+		public virtual RSystem.RBoolean RIsSynchronized
 		{
 			get
 			{
@@ -149,8 +149,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// Int32 Length
 		/// </summary>
-		protected RProperty r_Length;
-		public virtual RProperty RLength
+		protected RSystem.RInt32 r_Length;
+		public virtual RSystem.RInt32 RLength
 		{
 			get
 			{
@@ -166,8 +166,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// Int32 Rank
 		/// </summary>
-		protected RProperty r_Rank;
-		public virtual RProperty RRank
+		protected RSystem.RInt32 r_Rank;
+		public virtual RSystem.RInt32 RRank
 		{
 			get
 			{

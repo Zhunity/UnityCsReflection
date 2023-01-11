@@ -49,8 +49,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Int32[] minDepths
 		/// </summary>
-		protected RFieldArray<RField> r_minDepths;
-		public virtual RFieldArray<RField> RminDepths
+		protected RFieldArray<RSystem.RInt32> r_minDepths;
+		public virtual RFieldArray<RSystem.RInt32> RminDepths
 		{
 			get
 			{
@@ -66,8 +66,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Int32[] maxDepths
 		/// </summary>
-		protected RFieldArray<RField> r_maxDepths;
-		public virtual RFieldArray<RField> RmaxDepths
+		protected RFieldArray<RSystem.RInt32> r_maxDepths;
+		public virtual RFieldArray<RSystem.RInt32> RmaxDepths
 		{
 			get
 			{
@@ -83,8 +83,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.UInt32 dirtyID
 		/// </summary>
-		protected RField r_dirtyID;
-		public virtual RField RdirtyID
+		protected RSystem.RUInt32 r_dirtyID;
+		public virtual RSystem.RUInt32 RdirtyID
 		{
 			get
 			{

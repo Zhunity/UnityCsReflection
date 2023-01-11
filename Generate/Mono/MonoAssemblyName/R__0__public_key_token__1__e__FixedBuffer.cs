@@ -15,8 +15,8 @@ namespace SMFrame.Editor.Refleaction.RMono
 		/// <summary>
 		/// System.Byte FixedElementField
 		/// </summary>
-		protected RField r_FixedElementField;
-		public virtual RField RFixedElementField
+		protected RSystem.RByte r_FixedElementField;
+		public virtual RSystem.RByte RFixedElementField
 		{
 			get
 			{

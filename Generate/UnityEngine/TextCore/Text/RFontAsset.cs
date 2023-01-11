@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.String m_SourceFontFileGUID
 		/// </summary>
-		protected RField r_m_SourceFontFileGUID;
-		public virtual RField Rm_SourceFontFileGUID
+		protected RSystem.RString r_m_SourceFontFileGUID;
+		public virtual RSystem.RString Rm_SourceFontFileGUID
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.String m_SourceFontFilePath
 		/// </summary>
-		protected RField r_m_SourceFontFilePath;
-		public virtual RField Rm_SourceFontFilePath
+		protected RSystem.RString r_m_SourceFontFilePath;
+		public virtual RSystem.RString Rm_SourceFontFilePath
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Boolean InternalDynamicOS
 		/// </summary>
-		protected RField r_InternalDynamicOS;
-		public virtual RField RInternalDynamicOS
+		protected RSystem.RBoolean r_InternalDynamicOS;
+		public virtual RSystem.RBoolean RInternalDynamicOS
 		{
 			get
 			{
@@ -132,8 +132,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Int32 m_FamilyNameHashCode
 		/// </summary>
-		protected RField r_m_FamilyNameHashCode;
-		public virtual RField Rm_FamilyNameHashCode
+		protected RSystem.RInt32 r_m_FamilyNameHashCode;
+		public virtual RSystem.RInt32 Rm_FamilyNameHashCode
 		{
 			get
 			{
@@ -149,8 +149,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Int32 m_StyleNameHashCode
 		/// </summary>
-		protected RField r_m_StyleNameHashCode;
-		public virtual RField Rm_StyleNameHashCode
+		protected RSystem.RInt32 r_m_StyleNameHashCode;
+		public virtual RSystem.RInt32 Rm_StyleNameHashCode
 		{
 			get
 			{
@@ -183,8 +183,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Collections.Generic.Dictionary`2[System.UInt32,UnityEngine.TextCore.Glyph] m_GlyphLookupDictionary
 		/// </summary>
-		protected RSystem.RCollections.RGeneric.RDictionary<RField, RUnityEngine.RTextCore.RGlyph> r_m_GlyphLookupDictionary;
-		public virtual RSystem.RCollections.RGeneric.RDictionary<RField, RUnityEngine.RTextCore.RGlyph> Rm_GlyphLookupDictionary
+		protected RSystem.RCollections.RGeneric.RDictionary<RSystem.RUInt32, RUnityEngine.RTextCore.RGlyph> r_m_GlyphLookupDictionary;
+		public virtual RSystem.RCollections.RGeneric.RDictionary<RSystem.RUInt32, RUnityEngine.RTextCore.RGlyph> Rm_GlyphLookupDictionary
 		{
 			get
 			{
@@ -217,8 +217,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Collections.Generic.Dictionary`2[System.UInt32,UnityEngine.TextCore.Text.Character] m_CharacterLookupDictionary
 		/// </summary>
-		protected RSystem.RCollections.RGeneric.RDictionary<RField, RUnityEngine.RTextCore.RText.RCharacter> r_m_CharacterLookupDictionary;
-		public virtual RSystem.RCollections.RGeneric.RDictionary<RField, RUnityEngine.RTextCore.RText.RCharacter> Rm_CharacterLookupDictionary
+		protected RSystem.RCollections.RGeneric.RDictionary<RSystem.RUInt32, RUnityEngine.RTextCore.RText.RCharacter> r_m_CharacterLookupDictionary;
+		public virtual RSystem.RCollections.RGeneric.RDictionary<RSystem.RUInt32, RUnityEngine.RTextCore.RText.RCharacter> Rm_CharacterLookupDictionary
 		{
 			get
 			{
@@ -268,8 +268,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Int32 m_AtlasTextureIndex
 		/// </summary>
-		protected RField r_m_AtlasTextureIndex;
-		public virtual RField Rm_AtlasTextureIndex
+		protected RSystem.RInt32 r_m_AtlasTextureIndex;
+		public virtual RSystem.RInt32 Rm_AtlasTextureIndex
 		{
 			get
 			{
@@ -285,8 +285,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Boolean m_IsMultiAtlasTexturesEnabled
 		/// </summary>
-		protected RField r_m_IsMultiAtlasTexturesEnabled;
-		public virtual RField Rm_IsMultiAtlasTexturesEnabled
+		protected RSystem.RBoolean r_m_IsMultiAtlasTexturesEnabled;
+		public virtual RSystem.RBoolean Rm_IsMultiAtlasTexturesEnabled
 		{
 			get
 			{
@@ -302,8 +302,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Boolean m_ClearDynamicDataOnBuild
 		/// </summary>
-		protected RField r_m_ClearDynamicDataOnBuild;
-		public virtual RField Rm_ClearDynamicDataOnBuild
+		protected RSystem.RBoolean r_m_ClearDynamicDataOnBuild;
+		public virtual RSystem.RBoolean Rm_ClearDynamicDataOnBuild
 		{
 			get
 			{
@@ -319,8 +319,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Int32 m_AtlasWidth
 		/// </summary>
-		protected RField r_m_AtlasWidth;
-		public virtual RField Rm_AtlasWidth
+		protected RSystem.RInt32 r_m_AtlasWidth;
+		public virtual RSystem.RInt32 Rm_AtlasWidth
 		{
 			get
 			{
@@ -336,8 +336,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Int32 m_AtlasHeight
 		/// </summary>
-		protected RField r_m_AtlasHeight;
-		public virtual RField Rm_AtlasHeight
+		protected RSystem.RInt32 r_m_AtlasHeight;
+		public virtual RSystem.RInt32 Rm_AtlasHeight
 		{
 			get
 			{
@@ -353,8 +353,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Int32 m_AtlasPadding
 		/// </summary>
-		protected RField r_m_AtlasPadding;
-		public virtual RField Rm_AtlasPadding
+		protected RSystem.RInt32 r_m_AtlasPadding;
+		public virtual RSystem.RInt32 Rm_AtlasPadding
 		{
 			get
 			{
@@ -489,8 +489,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Single m_RegularStyleWeight
 		/// </summary>
-		protected RField r_m_RegularStyleWeight;
-		public virtual RField Rm_RegularStyleWeight
+		protected RSystem.RSingle r_m_RegularStyleWeight;
+		public virtual RSystem.RSingle Rm_RegularStyleWeight
 		{
 			get
 			{
@@ -506,8 +506,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Single m_RegularStyleSpacing
 		/// </summary>
-		protected RField r_m_RegularStyleSpacing;
-		public virtual RField Rm_RegularStyleSpacing
+		protected RSystem.RSingle r_m_RegularStyleSpacing;
+		public virtual RSystem.RSingle Rm_RegularStyleSpacing
 		{
 			get
 			{
@@ -523,8 +523,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Single m_BoldStyleWeight
 		/// </summary>
-		protected RField r_m_BoldStyleWeight;
-		public virtual RField Rm_BoldStyleWeight
+		protected RSystem.RSingle r_m_BoldStyleWeight;
+		public virtual RSystem.RSingle Rm_BoldStyleWeight
 		{
 			get
 			{
@@ -540,8 +540,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Single m_BoldStyleSpacing
 		/// </summary>
-		protected RField r_m_BoldStyleSpacing;
-		public virtual RField Rm_BoldStyleSpacing
+		protected RSystem.RSingle r_m_BoldStyleSpacing;
+		public virtual RSystem.RSingle Rm_BoldStyleSpacing
 		{
 			get
 			{
@@ -557,8 +557,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Byte m_ItalicStyleSlant
 		/// </summary>
-		protected RField r_m_ItalicStyleSlant;
-		public virtual RField Rm_ItalicStyleSlant
+		protected RSystem.RByte r_m_ItalicStyleSlant;
+		public virtual RSystem.RByte Rm_ItalicStyleSlant
 		{
 			get
 			{
@@ -574,8 +574,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Byte m_TabMultiple
 		/// </summary>
-		protected RField r_m_TabMultiple;
-		public virtual RField Rm_TabMultiple
+		protected RSystem.RByte r_m_TabMultiple;
+		public virtual RSystem.RByte Rm_TabMultiple
 		{
 			get
 			{
@@ -591,8 +591,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Boolean IsFontAssetLookupTablesDirty
 		/// </summary>
-		protected RField r_IsFontAssetLookupTablesDirty;
-		public virtual RField RIsFontAssetLookupTablesDirty
+		protected RSystem.RBoolean r_IsFontAssetLookupTablesDirty;
+		public virtual RSystem.RBoolean RIsFontAssetLookupTablesDirty
 		{
 			get
 			{
@@ -659,8 +659,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Action`2[UnityEngine.Texture2D,System.Boolean] SetAtlasTextureIsReadable
 		/// </summary>
-		protected static RSystem.RAction<RUnityEngine.RTexture2D, RField> r_SetAtlasTextureIsReadable;
-		public static RSystem.RAction<RUnityEngine.RTexture2D, RField> RSetAtlasTextureIsReadable
+		protected static RSystem.RAction<RUnityEngine.RTexture2D, RSystem.RBoolean> r_SetAtlasTextureIsReadable;
+		public static RSystem.RAction<RUnityEngine.RTexture2D, RSystem.RBoolean> RSetAtlasTextureIsReadable
 		{
 			get
 			{
@@ -676,8 +676,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Func`2[System.String,UnityEngine.Font] GetSourceFontRef
 		/// </summary>
-		protected static RSystem.RFunc<RField, RUnityEngine.RFont> r_GetSourceFontRef;
-		public static RSystem.RFunc<RField, RUnityEngine.RFont> RGetSourceFontRef
+		protected static RSystem.RFunc<RSystem.RString, RUnityEngine.RFont> r_GetSourceFontRef;
+		public static RSystem.RFunc<RSystem.RString, RUnityEngine.RFont> RGetSourceFontRef
 		{
 			get
 			{
@@ -693,8 +693,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Func`2[UnityEngine.Font,System.String] SetSourceFontGUID
 		/// </summary>
-		protected static RSystem.RFunc<RUnityEngine.RFont, RField> r_SetSourceFontGUID;
-		public static RSystem.RFunc<RUnityEngine.RFont, RField> RSetSourceFontGUID
+		protected static RSystem.RFunc<RUnityEngine.RFont, RSystem.RString> r_SetSourceFontGUID;
+		public static RSystem.RFunc<RUnityEngine.RFont, RSystem.RString> RSetSourceFontGUID
 		{
 			get
 			{
@@ -863,8 +863,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.String s_DefaultMaterialSuffix
 		/// </summary>
-		protected static RField r_s_DefaultMaterialSuffix;
-		public static RField Rs_DefaultMaterialSuffix
+		protected static RSystem.RString r_s_DefaultMaterialSuffix;
+		public static RSystem.RString Rs_DefaultMaterialSuffix
 		{
 			get
 			{
@@ -880,8 +880,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Collections.Generic.HashSet`1[System.Int32] k_SearchedFontAssetLookup
 		/// </summary>
-		protected static RSystem.RCollections.RGeneric.RHashSet<RField> r_k_SearchedFontAssetLookup;
-		public static RSystem.RCollections.RGeneric.RHashSet<RField> Rk_SearchedFontAssetLookup
+		protected static RSystem.RCollections.RGeneric.RHashSet<RSystem.RInt32> r_k_SearchedFontAssetLookup;
+		public static RSystem.RCollections.RGeneric.RHashSet<RSystem.RInt32> Rk_SearchedFontAssetLookup
 		{
 			get
 			{
@@ -914,8 +914,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Collections.Generic.HashSet`1[System.Int32] k_FontAssets_FontFeaturesUpdateQueueLookup
 		/// </summary>
-		protected static RSystem.RCollections.RGeneric.RHashSet<RField> r_k_FontAssets_FontFeaturesUpdateQueueLookup;
-		public static RSystem.RCollections.RGeneric.RHashSet<RField> Rk_FontAssets_FontFeaturesUpdateQueueLookup
+		protected static RSystem.RCollections.RGeneric.RHashSet<RSystem.RInt32> r_k_FontAssets_FontFeaturesUpdateQueueLookup;
+		public static RSystem.RCollections.RGeneric.RHashSet<RSystem.RInt32> Rk_FontAssets_FontFeaturesUpdateQueueLookup
 		{
 			get
 			{
@@ -948,8 +948,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Collections.Generic.HashSet`1[System.Int32] k_FontAssets_AtlasTexturesUpdateQueueLookup
 		/// </summary>
-		protected static RSystem.RCollections.RGeneric.RHashSet<RField> r_k_FontAssets_AtlasTexturesUpdateQueueLookup;
-		public static RSystem.RCollections.RGeneric.RHashSet<RField> Rk_FontAssets_AtlasTexturesUpdateQueueLookup
+		protected static RSystem.RCollections.RGeneric.RHashSet<RSystem.RInt32> r_k_FontAssets_AtlasTexturesUpdateQueueLookup;
+		public static RSystem.RCollections.RGeneric.RHashSet<RSystem.RInt32> Rk_FontAssets_AtlasTexturesUpdateQueueLookup
 		{
 			get
 			{
@@ -999,8 +999,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Collections.Generic.List`1[System.UInt32] m_GlyphIndexList
 		/// </summary>
-		protected RSystem.RCollections.RGeneric.RList<RField> r_m_GlyphIndexList;
-		public virtual RSystem.RCollections.RGeneric.RList<RField> Rm_GlyphIndexList
+		protected RSystem.RCollections.RGeneric.RList<RSystem.RUInt32> r_m_GlyphIndexList;
+		public virtual RSystem.RCollections.RGeneric.RList<RSystem.RUInt32> Rm_GlyphIndexList
 		{
 			get
 			{
@@ -1016,8 +1016,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Collections.Generic.List`1[System.UInt32] m_GlyphIndexListNewlyAdded
 		/// </summary>
-		protected RSystem.RCollections.RGeneric.RList<RField> r_m_GlyphIndexListNewlyAdded;
-		public virtual RSystem.RCollections.RGeneric.RList<RField> Rm_GlyphIndexListNewlyAdded
+		protected RSystem.RCollections.RGeneric.RList<RSystem.RUInt32> r_m_GlyphIndexListNewlyAdded;
+		public virtual RSystem.RCollections.RGeneric.RList<RSystem.RUInt32> Rm_GlyphIndexListNewlyAdded
 		{
 			get
 			{
@@ -1033,8 +1033,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Collections.Generic.List`1[System.UInt32] m_GlyphsToAdd
 		/// </summary>
-		protected RSystem.RCollections.RGeneric.RList<RField> r_m_GlyphsToAdd;
-		public virtual RSystem.RCollections.RGeneric.RList<RField> Rm_GlyphsToAdd
+		protected RSystem.RCollections.RGeneric.RList<RSystem.RUInt32> r_m_GlyphsToAdd;
+		public virtual RSystem.RCollections.RGeneric.RList<RSystem.RUInt32> Rm_GlyphsToAdd
 		{
 			get
 			{
@@ -1050,8 +1050,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Collections.Generic.HashSet`1[System.UInt32] m_GlyphsToAddLookup
 		/// </summary>
-		protected RSystem.RCollections.RGeneric.RHashSet<RField> r_m_GlyphsToAddLookup;
-		public virtual RSystem.RCollections.RGeneric.RHashSet<RField> Rm_GlyphsToAddLookup
+		protected RSystem.RCollections.RGeneric.RHashSet<RSystem.RUInt32> r_m_GlyphsToAddLookup;
+		public virtual RSystem.RCollections.RGeneric.RHashSet<RSystem.RUInt32> Rm_GlyphsToAddLookup
 		{
 			get
 			{
@@ -1084,8 +1084,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Collections.Generic.HashSet`1[System.UInt32] m_CharactersToAddLookup
 		/// </summary>
-		protected RSystem.RCollections.RGeneric.RHashSet<RField> r_m_CharactersToAddLookup;
-		public virtual RSystem.RCollections.RGeneric.RHashSet<RField> Rm_CharactersToAddLookup
+		protected RSystem.RCollections.RGeneric.RHashSet<RSystem.RUInt32> r_m_CharactersToAddLookup;
+		public virtual RSystem.RCollections.RGeneric.RHashSet<RSystem.RUInt32> Rm_CharactersToAddLookup
 		{
 			get
 			{
@@ -1101,8 +1101,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Collections.Generic.List`1[System.UInt32] s_MissingCharacterList
 		/// </summary>
-		protected RSystem.RCollections.RGeneric.RList<RField> r_s_MissingCharacterList;
-		public virtual RSystem.RCollections.RGeneric.RList<RField> Rs_MissingCharacterList
+		protected RSystem.RCollections.RGeneric.RList<RSystem.RUInt32> r_s_MissingCharacterList;
+		public virtual RSystem.RCollections.RGeneric.RList<RSystem.RUInt32> Rs_MissingCharacterList
 		{
 			get
 			{
@@ -1118,8 +1118,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Collections.Generic.HashSet`1[System.UInt32] m_MissingUnicodesFromFontFile
 		/// </summary>
-		protected RSystem.RCollections.RGeneric.RHashSet<RField> r_m_MissingUnicodesFromFontFile;
-		public virtual RSystem.RCollections.RGeneric.RHashSet<RField> Rm_MissingUnicodesFromFontFile
+		protected RSystem.RCollections.RGeneric.RHashSet<RSystem.RUInt32> r_m_MissingUnicodesFromFontFile;
+		public virtual RSystem.RCollections.RGeneric.RHashSet<RSystem.RUInt32> Rm_MissingUnicodesFromFontFile
 		{
 			get
 			{
@@ -1135,8 +1135,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.UInt32[] k_GlyphIndexArray
 		/// </summary>
-		protected static RFieldArray<RField> r_k_GlyphIndexArray;
-		public static RFieldArray<RField> Rk_GlyphIndexArray
+		protected static RFieldArray<RSystem.RUInt32> r_k_GlyphIndexArray;
+		public static RFieldArray<RSystem.RUInt32> Rk_GlyphIndexArray
 		{
 			get
 			{
@@ -1152,8 +1152,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.String m_Version
 		/// </summary>
-		protected RField r_m_Version;
-		public virtual RField Rm_Version
+		protected RSystem.RString r_m_Version;
+		public virtual RSystem.RString Rm_Version
 		{
 			get
 			{
@@ -1169,8 +1169,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Int32 m_InstanceID
 		/// </summary>
-		protected RField r_m_InstanceID;
-		public virtual RField Rm_InstanceID
+		protected RSystem.RInt32 r_m_InstanceID;
+		public virtual RSystem.RInt32 Rm_InstanceID
 		{
 			get
 			{
@@ -1186,8 +1186,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Int32 m_HashCode
 		/// </summary>
-		protected RField r_m_HashCode;
-		public virtual RField Rm_HashCode
+		protected RSystem.RInt32 r_m_HashCode;
+		public virtual RSystem.RInt32 Rm_HashCode
 		{
 			get
 			{
@@ -1220,8 +1220,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Int32 m_MaterialHashCode
 		/// </summary>
-		protected RField r_m_MaterialHashCode;
-		public virtual RField Rm_MaterialHashCode
+		protected RSystem.RInt32 r_m_MaterialHashCode;
+		public virtual RSystem.RInt32 Rm_MaterialHashCode
 		{
 			get
 			{
@@ -1305,8 +1305,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// Int32 familyNameHashCode
 		/// </summary>
-		protected RProperty r_familyNameHashCode;
-		public virtual RProperty RfamilyNameHashCode
+		protected RSystem.RInt32 r_familyNameHashCode;
+		public virtual RSystem.RInt32 RfamilyNameHashCode
 		{
 			get
 			{
@@ -1322,8 +1322,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// Int32 styleNameHashCode
 		/// </summary>
-		protected RProperty r_styleNameHashCode;
-		public virtual RProperty RstyleNameHashCode
+		protected RSystem.RInt32 r_styleNameHashCode;
+		public virtual RSystem.RInt32 RstyleNameHashCode
 		{
 			get
 			{
@@ -1356,8 +1356,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Collections.Generic.Dictionary`2[System.UInt32,UnityEngine.TextCore.Glyph] glyphLookupTable
 		/// </summary>
-		protected RSystem.RCollections.RGeneric.RDictionary<RProperty, RUnityEngine.RTextCore.RGlyph> r_glyphLookupTable;
-		public virtual RSystem.RCollections.RGeneric.RDictionary<RProperty, RUnityEngine.RTextCore.RGlyph> RglyphLookupTable
+		protected RSystem.RCollections.RGeneric.RDictionary<RSystem.RUInt32, RUnityEngine.RTextCore.RGlyph> r_glyphLookupTable;
+		public virtual RSystem.RCollections.RGeneric.RDictionary<RSystem.RUInt32, RUnityEngine.RTextCore.RGlyph> RglyphLookupTable
 		{
 			get
 			{
@@ -1390,8 +1390,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Collections.Generic.Dictionary`2[System.UInt32,UnityEngine.TextCore.Text.Character] characterLookupTable
 		/// </summary>
-		protected RSystem.RCollections.RGeneric.RDictionary<RProperty, RUnityEngine.RTextCore.RText.RCharacter> r_characterLookupTable;
-		public virtual RSystem.RCollections.RGeneric.RDictionary<RProperty, RUnityEngine.RTextCore.RText.RCharacter> RcharacterLookupTable
+		protected RSystem.RCollections.RGeneric.RDictionary<RSystem.RUInt32, RUnityEngine.RTextCore.RText.RCharacter> r_characterLookupTable;
+		public virtual RSystem.RCollections.RGeneric.RDictionary<RSystem.RUInt32, RUnityEngine.RTextCore.RText.RCharacter> RcharacterLookupTable
 		{
 			get
 			{
@@ -1441,8 +1441,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// Int32 atlasTextureCount
 		/// </summary>
-		protected RProperty r_atlasTextureCount;
-		public virtual RProperty RatlasTextureCount
+		protected RSystem.RInt32 r_atlasTextureCount;
+		public virtual RSystem.RInt32 RatlasTextureCount
 		{
 			get
 			{
@@ -1458,8 +1458,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// Boolean isMultiAtlasTexturesEnabled
 		/// </summary>
-		protected RProperty r_isMultiAtlasTexturesEnabled;
-		public virtual RProperty RisMultiAtlasTexturesEnabled
+		protected RSystem.RBoolean r_isMultiAtlasTexturesEnabled;
+		public virtual RSystem.RBoolean RisMultiAtlasTexturesEnabled
 		{
 			get
 			{
@@ -1475,8 +1475,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// Boolean clearDynamicDataOnBuild
 		/// </summary>
-		protected RProperty r_clearDynamicDataOnBuild;
-		public virtual RProperty RclearDynamicDataOnBuild
+		protected RSystem.RBoolean r_clearDynamicDataOnBuild;
+		public virtual RSystem.RBoolean RclearDynamicDataOnBuild
 		{
 			get
 			{
@@ -1492,8 +1492,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// Int32 atlasWidth
 		/// </summary>
-		protected RProperty r_atlasWidth;
-		public virtual RProperty RatlasWidth
+		protected RSystem.RInt32 r_atlasWidth;
+		public virtual RSystem.RInt32 RatlasWidth
 		{
 			get
 			{
@@ -1509,8 +1509,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// Int32 atlasHeight
 		/// </summary>
-		protected RProperty r_atlasHeight;
-		public virtual RProperty RatlasHeight
+		protected RSystem.RInt32 r_atlasHeight;
+		public virtual RSystem.RInt32 RatlasHeight
 		{
 			get
 			{
@@ -1526,8 +1526,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// Int32 atlasPadding
 		/// </summary>
-		protected RProperty r_atlasPadding;
-		public virtual RProperty RatlasPadding
+		protected RSystem.RInt32 r_atlasPadding;
+		public virtual RSystem.RInt32 RatlasPadding
 		{
 			get
 			{
@@ -1662,8 +1662,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// Single regularStyleWeight
 		/// </summary>
-		protected RProperty r_regularStyleWeight;
-		public virtual RProperty RregularStyleWeight
+		protected RSystem.RSingle r_regularStyleWeight;
+		public virtual RSystem.RSingle RregularStyleWeight
 		{
 			get
 			{
@@ -1679,8 +1679,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// Single regularStyleSpacing
 		/// </summary>
-		protected RProperty r_regularStyleSpacing;
-		public virtual RProperty RregularStyleSpacing
+		protected RSystem.RSingle r_regularStyleSpacing;
+		public virtual RSystem.RSingle RregularStyleSpacing
 		{
 			get
 			{
@@ -1696,8 +1696,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// Single boldStyleWeight
 		/// </summary>
-		protected RProperty r_boldStyleWeight;
-		public virtual RProperty RboldStyleWeight
+		protected RSystem.RSingle r_boldStyleWeight;
+		public virtual RSystem.RSingle RboldStyleWeight
 		{
 			get
 			{
@@ -1713,8 +1713,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// Single boldStyleSpacing
 		/// </summary>
-		protected RProperty r_boldStyleSpacing;
-		public virtual RProperty RboldStyleSpacing
+		protected RSystem.RSingle r_boldStyleSpacing;
+		public virtual RSystem.RSingle RboldStyleSpacing
 		{
 			get
 			{
@@ -1730,8 +1730,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// Byte italicStyleSlant
 		/// </summary>
-		protected RProperty r_italicStyleSlant;
-		public virtual RProperty RitalicStyleSlant
+		protected RSystem.RByte r_italicStyleSlant;
+		public virtual RSystem.RByte RitalicStyleSlant
 		{
 			get
 			{
@@ -1747,8 +1747,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// Byte tabMultiple
 		/// </summary>
-		protected RProperty r_tabMultiple;
-		public virtual RProperty RtabMultiple
+		protected RSystem.RByte r_tabMultiple;
+		public virtual RSystem.RByte RtabMultiple
 		{
 			get
 			{
@@ -1764,8 +1764,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.String version
 		/// </summary>
-		protected RProperty r_version;
-		public virtual RProperty Rversion
+		protected RSystem.RString r_version;
+		public virtual RSystem.RString Rversion
 		{
 			get
 			{
@@ -1781,8 +1781,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// Int32 instanceID
 		/// </summary>
-		protected RProperty r_instanceID;
-		public virtual RProperty RinstanceID
+		protected RSystem.RInt32 r_instanceID;
+		public virtual RSystem.RInt32 RinstanceID
 		{
 			get
 			{
@@ -1798,8 +1798,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// Int32 hashCode
 		/// </summary>
-		protected RProperty r_hashCode;
-		public virtual RProperty RhashCode
+		protected RSystem.RInt32 r_hashCode;
+		public virtual RSystem.RInt32 RhashCode
 		{
 			get
 			{
@@ -1832,8 +1832,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// Int32 materialHashCode
 		/// </summary>
-		protected RProperty r_materialHashCode;
-		public virtual RProperty RmaterialHashCode
+		protected RSystem.RInt32 r_materialHashCode;
+		public virtual RSystem.RInt32 RmaterialHashCode
 		{
 			get
 			{
@@ -1849,8 +1849,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.String name
 		/// </summary>
-		protected RProperty r_name;
-		public virtual RProperty Rname
+		protected RSystem.RString r_name;
+		public virtual RSystem.RString Rname
 		{
 			get
 			{

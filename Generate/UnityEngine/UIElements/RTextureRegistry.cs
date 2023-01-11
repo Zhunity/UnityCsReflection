@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int32 maxTextures
 		/// </summary>
-		protected static RField r_maxTextures;
-		public static RField RmaxTextures
+		protected static RSystem.RInt32 r_maxTextures;
+		public static RSystem.RInt32 RmaxTextures
 		{
 			get
 			{

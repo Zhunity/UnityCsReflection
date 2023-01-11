@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.IntPtr m_Ptr
 		/// </summary>
-		protected RField r_m_Ptr;
-		public virtual RField Rm_Ptr
+		protected RSystem.RIntPtr r_m_Ptr;
+		public virtual RSystem.RIntPtr Rm_Ptr
 		{
 			get
 			{
@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Int32 m_Version
 		/// </summary>
-		protected RField r_m_Version;
-		public virtual RField Rm_Version
+		protected RSystem.RInt32 r_m_Version;
+		public virtual RSystem.RInt32 Rm_Version
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// Boolean passed
 		/// </summary>
-		protected RProperty r_passed;
-		public virtual RProperty Rpassed
+		protected RSystem.RBoolean r_passed;
+		public virtual RSystem.RBoolean Rpassed
 		{
 			get
 			{

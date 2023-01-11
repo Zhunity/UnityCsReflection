@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RProfiling
 		/// <summary>
 		/// System.IntPtr m_Ptr
 		/// </summary>
-		protected RField r_m_Ptr;
-		public virtual RField Rm_Ptr
+		protected RSystem.RIntPtr r_m_Ptr;
+		public virtual RSystem.RIntPtr Rm_Ptr
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RProfiling
 		/// <summary>
 		/// Boolean isValid
 		/// </summary>
-		protected RProperty r_isValid;
-		public virtual RProperty RisValid
+		protected RSystem.RBoolean r_isValid;
+		public virtual RSystem.RBoolean RisValid
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RProfiling
 		/// <summary>
 		/// System.String name
 		/// </summary>
-		protected RProperty r_name;
-		public virtual RProperty Rname
+		protected RSystem.RString r_name;
+		public virtual RSystem.RString Rname
 		{
 			get
 			{

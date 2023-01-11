@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// Boolean IsInherited
 		/// </summary>
-		protected RProperty r_IsInherited;
-		public virtual RProperty RIsInherited
+		protected RSystem.RBoolean r_IsInherited;
+		public virtual RSystem.RBoolean RIsInherited
 		{
 			get
 			{
@@ -115,8 +115,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// Int32 AccessMask
 		/// </summary>
-		protected RProperty r_AccessMask;
-		public virtual RProperty RAccessMask
+		protected RSystem.RInt32 r_AccessMask;
+		public virtual RSystem.RInt32 RAccessMask
 		{
 			get
 			{

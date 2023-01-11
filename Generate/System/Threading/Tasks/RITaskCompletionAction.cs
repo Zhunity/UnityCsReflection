@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 		/// <summary>
 		/// Boolean InvokeMayRunArbitraryCode
 		/// </summary>
-		protected RProperty r_InvokeMayRunArbitraryCode;
-		public virtual RProperty RInvokeMayRunArbitraryCode
+		protected RSystem.RBoolean r_InvokeMayRunArbitraryCode;
+		public virtual RSystem.RBoolean RInvokeMayRunArbitraryCode
 		{
 			get
 			{

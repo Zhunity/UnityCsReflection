@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.IntPtr Value
 		/// </summary>
-		protected RField r_Value;
-		public virtual RField RValue
+		protected RSystem.RIntPtr r_Value;
+		public virtual RSystem.RIntPtr RValue
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.IntPtr Type
 		/// </summary>
-		protected RField r_Type;
-		public virtual RField RType
+		protected RSystem.RIntPtr r_Type;
+		public virtual RSystem.RIntPtr RType
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// Boolean IsNull
 		/// </summary>
-		protected RProperty r_IsNull;
-		public virtual RProperty RIsNull
+		protected RSystem.RBoolean r_IsNull;
+		public virtual RSystem.RBoolean RIsNull
 		{
 			get
 			{
@@ -317,14 +317,14 @@ namespace SMFrame.Editor.Refleaction.RSystem
 	    {
 	    }
 
-        public static System.Object MakeTypedReference(System.Object @target, System.Reflection.FieldInfo[] @flds)
+        public static RSystem.RTypedReference MakeTypedReference(System.Object @target, System.Reflection.FieldInfo[] @flds)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@target, @flds};
             var ___result = RMakeTypedReference_Object_FieldInfoArray.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RSystem.RTypedReference(___result);
         }
 
 
@@ -361,6 +361,16 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
+        public static System.Object ToObject(RSystem.RTypedReference @value)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@value.Value};
+            var ___result = RToObject_TypedReference.Invoke(___genericsType, ___parameters);
+
+            return (System.Object)___result;
+        }
+
 
         public unsafe static System.Object InternalToObject(void* @value)
         {
@@ -373,7 +383,37 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
+        public static System.Type GetTargetType(RSystem.RTypedReference @value)
+        {
 
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@value.Value};
+            var ___result = RGetTargetType_TypedReference.Invoke(___genericsType, ___parameters);
+
+            return (System.Type)___result;
+        }
+
+
+        public static System.RuntimeTypeHandle TargetTypeToken(RSystem.RTypedReference @value)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@value.Value};
+            var ___result = RTargetTypeToken_TypedReference.Invoke(___genericsType, ___parameters);
+
+            return (System.RuntimeTypeHandle)___result;
+        }
+
+
+        public static void SetTypedReference(RSystem.RTypedReference @target, System.Object @value)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@target.Value, @value};
+            var ___result = RSetTypedReference_TypedReference_Object.Invoke(___genericsType, ___parameters);
+
+            
+        }
 
 
         public virtual System.String ToString()

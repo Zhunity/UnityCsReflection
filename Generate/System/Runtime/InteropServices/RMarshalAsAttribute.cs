@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 		/// <summary>
 		/// System.String MarshalCookie
 		/// </summary>
-		protected RField r_MarshalCookie;
-		public virtual RField RMarshalCookie
+		protected RSystem.RString r_MarshalCookie;
+		public virtual RSystem.RString RMarshalCookie
 		{
 			get
 			{
@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 		/// <summary>
 		/// System.String MarshalType
 		/// </summary>
-		protected RField r_MarshalType;
-		public virtual RField RMarshalType
+		protected RSystem.RString r_MarshalType;
+		public virtual RSystem.RString RMarshalType
 		{
 			get
 			{
@@ -132,8 +132,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 		/// <summary>
 		/// System.Int32 SizeConst
 		/// </summary>
-		protected RField r_SizeConst;
-		public virtual RField RSizeConst
+		protected RSystem.RInt32 r_SizeConst;
+		public virtual RSystem.RInt32 RSizeConst
 		{
 			get
 			{
@@ -149,8 +149,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 		/// <summary>
 		/// System.Int32 IidParameterIndex
 		/// </summary>
-		protected RField r_IidParameterIndex;
-		public virtual RField RIidParameterIndex
+		protected RSystem.RInt32 r_IidParameterIndex;
+		public virtual RSystem.RInt32 RIidParameterIndex
 		{
 			get
 			{
@@ -166,8 +166,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 		/// <summary>
 		/// System.Int16 SizeParamIndex
 		/// </summary>
-		protected RField r_SizeParamIndex;
-		public virtual RField RSizeParamIndex
+		protected RSystem.RInt16 r_SizeParamIndex;
+		public virtual RSystem.RInt16 RSizeParamIndex
 		{
 			get
 			{

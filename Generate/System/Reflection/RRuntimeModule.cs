@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.IntPtr _impl
 		/// </summary>
-		protected RField r__impl;
-		public virtual RField R_impl
+		protected RSystem.RIntPtr r__impl;
+		public virtual RSystem.RIntPtr R_impl
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.String fqname
 		/// </summary>
-		protected RField r_fqname;
-		public virtual RField Rfqname
+		protected RSystem.RString r_fqname;
+		public virtual RSystem.RString Rfqname
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.String name
 		/// </summary>
-		protected RField r_name;
-		public virtual RField Rname
+		protected RSystem.RString r_name;
+		public virtual RSystem.RString Rname
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.String scopename
 		/// </summary>
-		protected RField r_scopename;
-		public virtual RField Rscopename
+		protected RSystem.RString r_scopename;
+		public virtual RSystem.RString Rscopename
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Boolean is_resource
 		/// </summary>
-		protected RField r_is_resource;
-		public virtual RField Ris_resource
+		protected RSystem.RBoolean r_is_resource;
+		public virtual RSystem.RBoolean Ris_resource
 		{
 			get
 			{
@@ -115,8 +115,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Int32 token
 		/// </summary>
-		protected RField r_token;
-		public virtual RField Rtoken
+		protected RSystem.RInt32 r_token;
+		public virtual RSystem.RInt32 Rtoken
 		{
 			get
 			{
@@ -149,8 +149,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.String Name
 		/// </summary>
-		protected RProperty r_Name;
-		public virtual RProperty RName
+		protected RSystem.RString r_Name;
+		public virtual RSystem.RString RName
 		{
 			get
 			{
@@ -166,8 +166,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.String ScopeName
 		/// </summary>
-		protected RProperty r_ScopeName;
-		public virtual RProperty RScopeName
+		protected RSystem.RString r_ScopeName;
+		public virtual RSystem.RString RScopeName
 		{
 			get
 			{
@@ -183,8 +183,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// Int32 MDStreamVersion
 		/// </summary>
-		protected RProperty r_MDStreamVersion;
-		public virtual RProperty RMDStreamVersion
+		protected RSystem.RInt32 r_MDStreamVersion;
+		public virtual RSystem.RInt32 RMDStreamVersion
 		{
 			get
 			{
@@ -217,8 +217,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.String FullyQualifiedName
 		/// </summary>
-		protected RProperty r_FullyQualifiedName;
-		public virtual RProperty RFullyQualifiedName
+		protected RSystem.RString r_FullyQualifiedName;
+		public virtual RSystem.RString RFullyQualifiedName
 		{
 			get
 			{
@@ -234,8 +234,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// Int32 MetadataToken
 		/// </summary>
-		protected RProperty r_MetadataToken;
-		public virtual RProperty RMetadataToken
+		protected RSystem.RInt32 r_MetadataToken;
+		public virtual RSystem.RInt32 RMetadataToken
 		{
 			get
 			{
@@ -251,8 +251,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// IntPtr MonoModule
 		/// </summary>
-		protected RProperty r_MonoModule;
-		public virtual RProperty RMonoModule
+		protected RSystem.RIntPtr r_MonoModule;
+		public virtual RSystem.RIntPtr RMonoModule
 		{
 			get
 			{

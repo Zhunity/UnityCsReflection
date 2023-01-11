@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Char character
 		/// </summary>
-		protected RField r_character;
-		public virtual RField Rcharacter
+		protected RSystem.RChar r_character;
+		public virtual RSystem.RChar Rcharacter
 		{
 			get
 			{
@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Int32 index
 		/// </summary>
-		protected RField r_index;
-		public virtual RField Rindex
+		protected RSystem.RInt32 r_index;
+		public virtual RSystem.RInt32 Rindex
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Int32 stringLength
 		/// </summary>
-		protected RField r_stringLength;
-		public virtual RField RstringLength
+		protected RSystem.RInt32 r_stringLength;
+		public virtual RSystem.RInt32 RstringLength
 		{
 			get
 			{
@@ -149,8 +149,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Int32 spriteIndex
 		/// </summary>
-		protected RField r_spriteIndex;
-		public virtual RField RspriteIndex
+		protected RSystem.RInt32 r_spriteIndex;
+		public virtual RSystem.RInt32 RspriteIndex
 		{
 			get
 			{
@@ -183,8 +183,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Int32 materialReferenceIndex
 		/// </summary>
-		protected RField r_materialReferenceIndex;
-		public virtual RField RmaterialReferenceIndex
+		protected RSystem.RInt32 r_materialReferenceIndex;
+		public virtual RSystem.RInt32 RmaterialReferenceIndex
 		{
 			get
 			{
@@ -200,8 +200,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Boolean isUsingAlternateTypeface
 		/// </summary>
-		protected RField r_isUsingAlternateTypeface;
-		public virtual RField RisUsingAlternateTypeface
+		protected RSystem.RBoolean r_isUsingAlternateTypeface;
+		public virtual RSystem.RBoolean RisUsingAlternateTypeface
 		{
 			get
 			{
@@ -217,8 +217,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Single pointSize
 		/// </summary>
-		protected RField r_pointSize;
-		public virtual RField RpointSize
+		protected RSystem.RSingle r_pointSize;
+		public virtual RSystem.RSingle RpointSize
 		{
 			get
 			{
@@ -234,8 +234,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Int32 lineNumber
 		/// </summary>
-		protected RField r_lineNumber;
-		public virtual RField RlineNumber
+		protected RSystem.RInt32 r_lineNumber;
+		public virtual RSystem.RInt32 RlineNumber
 		{
 			get
 			{
@@ -251,8 +251,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Int32 pageNumber
 		/// </summary>
-		protected RField r_pageNumber;
-		public virtual RField RpageNumber
+		protected RSystem.RInt32 r_pageNumber;
+		public virtual RSystem.RInt32 RpageNumber
 		{
 			get
 			{
@@ -268,8 +268,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Int32 vertexIndex
 		/// </summary>
-		protected RField r_vertexIndex;
-		public virtual RField RvertexIndex
+		protected RSystem.RInt32 r_vertexIndex;
+		public virtual RSystem.RInt32 RvertexIndex
 		{
 			get
 			{
@@ -421,8 +421,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Single origin
 		/// </summary>
-		protected RField r_origin;
-		public virtual RField Rorigin
+		protected RSystem.RSingle r_origin;
+		public virtual RSystem.RSingle Rorigin
 		{
 			get
 			{
@@ -438,8 +438,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Single ascender
 		/// </summary>
-		protected RField r_ascender;
-		public virtual RField Rascender
+		protected RSystem.RSingle r_ascender;
+		public virtual RSystem.RSingle Rascender
 		{
 			get
 			{
@@ -455,8 +455,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Single baseLine
 		/// </summary>
-		protected RField r_baseLine;
-		public virtual RField RbaseLine
+		protected RSystem.RSingle r_baseLine;
+		public virtual RSystem.RSingle RbaseLine
 		{
 			get
 			{
@@ -472,8 +472,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Single descender
 		/// </summary>
-		protected RField r_descender;
-		public virtual RField Rdescender
+		protected RSystem.RSingle r_descender;
+		public virtual RSystem.RSingle Rdescender
 		{
 			get
 			{
@@ -489,8 +489,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Single adjustedAscender
 		/// </summary>
-		protected RField r_adjustedAscender;
-		public virtual RField RadjustedAscender
+		protected RSystem.RSingle r_adjustedAscender;
+		public virtual RSystem.RSingle RadjustedAscender
 		{
 			get
 			{
@@ -506,8 +506,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Single adjustedDescender
 		/// </summary>
-		protected RField r_adjustedDescender;
-		public virtual RField RadjustedDescender
+		protected RSystem.RSingle r_adjustedDescender;
+		public virtual RSystem.RSingle RadjustedDescender
 		{
 			get
 			{
@@ -523,8 +523,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Single adjustedHorizontalAdvance
 		/// </summary>
-		protected RField r_adjustedHorizontalAdvance;
-		public virtual RField RadjustedHorizontalAdvance
+		protected RSystem.RSingle r_adjustedHorizontalAdvance;
+		public virtual RSystem.RSingle RadjustedHorizontalAdvance
 		{
 			get
 			{
@@ -540,8 +540,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Single xAdvance
 		/// </summary>
-		protected RField r_xAdvance;
-		public virtual RField RxAdvance
+		protected RSystem.RSingle r_xAdvance;
+		public virtual RSystem.RSingle RxAdvance
 		{
 			get
 			{
@@ -557,8 +557,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Single aspectRatio
 		/// </summary>
-		protected RField r_aspectRatio;
-		public virtual RField RaspectRatio
+		protected RSystem.RSingle r_aspectRatio;
+		public virtual RSystem.RSingle RaspectRatio
 		{
 			get
 			{
@@ -574,8 +574,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Single scale
 		/// </summary>
-		protected RField r_scale;
-		public virtual RField Rscale
+		protected RSystem.RSingle r_scale;
+		public virtual RSystem.RSingle Rscale
 		{
 			get
 			{
@@ -625,8 +625,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Int32 underlineVertexIndex
 		/// </summary>
-		protected RField r_underlineVertexIndex;
-		public virtual RField RunderlineVertexIndex
+		protected RSystem.RInt32 r_underlineVertexIndex;
+		public virtual RSystem.RInt32 RunderlineVertexIndex
 		{
 			get
 			{
@@ -659,8 +659,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Int32 strikethroughVertexIndex
 		/// </summary>
-		protected RField r_strikethroughVertexIndex;
-		public virtual RField RstrikethroughVertexIndex
+		protected RSystem.RInt32 r_strikethroughVertexIndex;
+		public virtual RSystem.RInt32 RstrikethroughVertexIndex
 		{
 			get
 			{
@@ -727,8 +727,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Boolean isVisible
 		/// </summary>
-		protected RField r_isVisible;
-		public virtual RField RisVisible
+		protected RSystem.RBoolean r_isVisible;
+		public virtual RSystem.RBoolean RisVisible
 		{
 			get
 			{

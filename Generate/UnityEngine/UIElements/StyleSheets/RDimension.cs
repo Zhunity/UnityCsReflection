@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 		/// <summary>
 		/// System.Single value
 		/// </summary>
-		protected RField r_value;
-		public virtual RField Rvalue
+		protected RSystem.RSingle r_value;
+		public virtual RSystem.RSingle Rvalue
 		{
 			get
 			{

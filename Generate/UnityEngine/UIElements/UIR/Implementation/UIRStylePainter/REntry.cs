@@ -15,8 +15,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RImplementati
 		/// <summary>
 		/// Unity.Collections.NativeSlice`1[UnityEngine.UIElements.Vertex] vertices
 		/// </summary>
-		protected RField r_vertices;
-		public virtual RField Rvertices
+		protected RUnity.RCollections.RNativeSlice<RUnityEngine.RUIElements.RVertex> r_vertices;
+		public virtual RUnity.RCollections.RNativeSlice<RUnityEngine.RUIElements.RVertex> Rvertices
 		{
 			get
 			{
@@ -32,8 +32,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RImplementati
 		/// <summary>
 		/// Unity.Collections.NativeSlice`1[System.UInt16] indices
 		/// </summary>
-		protected RField r_indices;
-		public virtual RField Rindices
+		protected RUnity.RCollections.RNativeSlice<RSystem.RUInt16> r_indices;
+		public virtual RUnity.RCollections.RNativeSlice<RSystem.RUInt16> Rindices
 		{
 			get
 			{
@@ -66,8 +66,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RImplementati
 		/// <summary>
 		/// System.Single fontTexSDFScale
 		/// </summary>
-		protected RField r_fontTexSDFScale;
-		public virtual RField RfontTexSDFScale
+		protected RSystem.RSingle r_fontTexSDFScale;
+		public virtual RSystem.RSingle RfontTexSDFScale
 		{
 			get
 			{
@@ -151,8 +151,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RImplementati
 		/// <summary>
 		/// System.Boolean uvIsDisplacement
 		/// </summary>
-		protected RField r_uvIsDisplacement;
-		public virtual RField RuvIsDisplacement
+		protected RSystem.RBoolean r_uvIsDisplacement;
+		public virtual RSystem.RBoolean RuvIsDisplacement
 		{
 			get
 			{
@@ -168,8 +168,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RImplementati
 		/// <summary>
 		/// System.Boolean isTextEntry
 		/// </summary>
-		protected RField r_isTextEntry;
-		public virtual RField RisTextEntry
+		protected RSystem.RBoolean r_isTextEntry;
+		public virtual RSystem.RBoolean RisTextEntry
 		{
 			get
 			{
@@ -185,8 +185,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RImplementati
 		/// <summary>
 		/// System.Boolean isClipRegisterEntry
 		/// </summary>
-		protected RField r_isClipRegisterEntry;
-		public virtual RField RisClipRegisterEntry
+		protected RSystem.RBoolean r_isClipRegisterEntry;
+		public virtual RSystem.RBoolean RisClipRegisterEntry
 		{
 			get
 			{
@@ -202,8 +202,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RImplementati
 		/// <summary>
 		/// System.Int32 stencilRef
 		/// </summary>
-		protected RField r_stencilRef;
-		public virtual RField RstencilRef
+		protected RSystem.RInt32 r_stencilRef;
+		public virtual RSystem.RInt32 RstencilRef
 		{
 			get
 			{
@@ -219,8 +219,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RImplementati
 		/// <summary>
 		/// System.Int32 maskDepth
 		/// </summary>
-		protected RField r_maskDepth;
-		public virtual RField RmaskDepth
+		protected RSystem.RInt32 r_maskDepth;
+		public virtual RSystem.RInt32 RmaskDepth
 		{
 			get
 			{

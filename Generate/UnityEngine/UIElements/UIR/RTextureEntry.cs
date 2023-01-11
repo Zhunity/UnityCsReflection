@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Boolean replaced
 		/// </summary>
-		protected RField r_replaced;
-		public virtual RField Rreplaced
+		protected RSystem.RBoolean r_replaced;
+		public virtual RSystem.RBoolean Rreplaced
 		{
 			get
 			{

@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
 		/// <summary>
 		/// System.Int32 KeySizeValue
 		/// </summary>
-		protected RField r_KeySizeValue;
-		public virtual RField RKeySizeValue
+		protected RSystem.RInt32 r_KeySizeValue;
+		public virtual RSystem.RInt32 RKeySizeValue
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
 		/// <summary>
 		/// System.String KeyExchangeAlgorithm
 		/// </summary>
-		protected RProperty r_KeyExchangeAlgorithm;
-		public virtual RProperty RKeyExchangeAlgorithm
+		protected RSystem.RString r_KeyExchangeAlgorithm;
+		public virtual RSystem.RString RKeyExchangeAlgorithm
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
 		/// <summary>
 		/// System.String SignatureAlgorithm
 		/// </summary>
-		protected RProperty r_SignatureAlgorithm;
-		public virtual RProperty RSignatureAlgorithm
+		protected RSystem.RString r_SignatureAlgorithm;
+		public virtual RSystem.RString RSignatureAlgorithm
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
 		/// <summary>
 		/// Int32 KeySize
 		/// </summary>
-		protected RProperty r_KeySize;
-		public virtual RProperty RKeySize
+		protected RSystem.RInt32 r_KeySize;
+		public virtual RSystem.RInt32 RKeySize
 		{
 			get
 			{
@@ -1380,11 +1380,91 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
         }
 
 
+        public virtual System.Boolean TryDecrypt(RSystem.RReadOnlySpan<RSystem.RByte> @data, RSystem.RSpan<RSystem.RByte> @destination, System.Security.Cryptography.RSAEncryptionPadding @padding, out System.Int32 @bytesWritten)
+        {
+			@bytesWritten = default;
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@data.Value, @destination.Value, @padding, @bytesWritten};
+            var ___result = RTryDecrypt_ReadOnlySpan_d_Byte_p__Span_d_Byte_p__RSAEncryptionPadding_Out_Int32.Invoke(___genericsType, ___parameters);
+			@bytesWritten = (System.Int32)___parameters[3];
+
+            return (System.Boolean)___result;
+        }
 
 
+        public virtual System.Boolean TryEncrypt(RSystem.RReadOnlySpan<RSystem.RByte> @data, RSystem.RSpan<RSystem.RByte> @destination, System.Security.Cryptography.RSAEncryptionPadding @padding, out System.Int32 @bytesWritten)
+        {
+			@bytesWritten = default;
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@data.Value, @destination.Value, @padding, @bytesWritten};
+            var ___result = RTryEncrypt_ReadOnlySpan_d_Byte_p__Span_d_Byte_p__RSAEncryptionPadding_Out_Int32.Invoke(___genericsType, ___parameters);
+			@bytesWritten = (System.Int32)___parameters[3];
+
+            return (System.Boolean)___result;
+        }
 
 
+        public virtual System.Boolean TryHashData(RSystem.RReadOnlySpan<RSystem.RByte> @data, RSystem.RSpan<RSystem.RByte> @destination, System.Security.Cryptography.HashAlgorithmName @hashAlgorithm, out System.Int32 @bytesWritten)
+        {
+			@bytesWritten = default;
 
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@data.Value, @destination.Value, @hashAlgorithm, @bytesWritten};
+            var ___result = RTryHashData_ReadOnlySpan_d_Byte_p__Span_d_Byte_p__HashAlgorithmName_Out_Int32.Invoke(___genericsType, ___parameters);
+			@bytesWritten = (System.Int32)___parameters[3];
+
+            return (System.Boolean)___result;
+        }
+
+
+        public virtual System.Boolean TrySignHash(RSystem.RReadOnlySpan<RSystem.RByte> @hash, RSystem.RSpan<RSystem.RByte> @destination, System.Security.Cryptography.HashAlgorithmName @hashAlgorithm, System.Security.Cryptography.RSASignaturePadding @padding, out System.Int32 @bytesWritten)
+        {
+			@bytesWritten = default;
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@hash.Value, @destination.Value, @hashAlgorithm, @padding, @bytesWritten};
+            var ___result = RTrySignHash_ReadOnlySpan_d_Byte_p__Span_d_Byte_p__HashAlgorithmName_RSASignaturePadding_Out_Int32.Invoke(___genericsType, ___parameters);
+			@bytesWritten = (System.Int32)___parameters[4];
+
+            return (System.Boolean)___result;
+        }
+
+
+        public virtual System.Boolean TrySignData(RSystem.RReadOnlySpan<RSystem.RByte> @data, RSystem.RSpan<RSystem.RByte> @destination, System.Security.Cryptography.HashAlgorithmName @hashAlgorithm, System.Security.Cryptography.RSASignaturePadding @padding, out System.Int32 @bytesWritten)
+        {
+			@bytesWritten = default;
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@data.Value, @destination.Value, @hashAlgorithm, @padding, @bytesWritten};
+            var ___result = RTrySignData_ReadOnlySpan_d_Byte_p__Span_d_Byte_p__HashAlgorithmName_RSASignaturePadding_Out_Int32.Invoke(___genericsType, ___parameters);
+			@bytesWritten = (System.Int32)___parameters[4];
+
+            return (System.Boolean)___result;
+        }
+
+
+        public virtual System.Boolean VerifyData(RSystem.RReadOnlySpan<RSystem.RByte> @data, RSystem.RReadOnlySpan<RSystem.RByte> @signature, System.Security.Cryptography.HashAlgorithmName @hashAlgorithm, System.Security.Cryptography.RSASignaturePadding @padding)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@data.Value, @signature.Value, @hashAlgorithm, @padding};
+            var ___result = RVerifyData_ReadOnlySpan_d_Byte_p__ReadOnlySpan_d_Byte_p__HashAlgorithmName_RSASignaturePadding.Invoke(___genericsType, ___parameters);
+
+            return (System.Boolean)___result;
+        }
+
+
+        public virtual System.Boolean VerifyHash(RSystem.RReadOnlySpan<RSystem.RByte> @hash, RSystem.RReadOnlySpan<RSystem.RByte> @signature, System.Security.Cryptography.HashAlgorithmName @hashAlgorithm, System.Security.Cryptography.RSASignaturePadding @padding)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@hash.Value, @signature.Value, @hashAlgorithm, @padding};
+            var ___result = RVerifyHash_ReadOnlySpan_d_Byte_p__ReadOnlySpan_d_Byte_p__HashAlgorithmName_RSASignaturePadding.Invoke(___genericsType, ___parameters);
+
+            return (System.Boolean)___result;
+        }
 
 
         public virtual System.Byte[] ExportRSAPrivateKey()
@@ -1409,8 +1489,56 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
         }
 
 
+        public virtual void ImportRSAPrivateKey(RSystem.RReadOnlySpan<RSystem.RByte> @source, out System.Int32 @bytesRead)
+        {
+			@bytesRead = default;
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@source.Value, @bytesRead};
+            var ___result = RImportRSAPrivateKey_ReadOnlySpan_d_Byte_p__Out_Int32.Invoke(___genericsType, ___parameters);
+			@bytesRead = (System.Int32)___parameters[1];
+
+            
+        }
 
 
+        public virtual void ImportRSAPublicKey(RSystem.RReadOnlySpan<RSystem.RByte> @source, out System.Int32 @bytesRead)
+        {
+			@bytesRead = default;
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@source.Value, @bytesRead};
+            var ___result = RImportRSAPublicKey_ReadOnlySpan_d_Byte_p__Out_Int32.Invoke(___genericsType, ___parameters);
+			@bytesRead = (System.Int32)___parameters[1];
+
+            
+        }
+
+
+        public virtual System.Boolean TryExportRSAPrivateKey(RSystem.RSpan<RSystem.RByte> @destination, out System.Int32 @bytesWritten)
+        {
+			@bytesWritten = default;
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@destination.Value, @bytesWritten};
+            var ___result = RTryExportRSAPrivateKey_Span_d_Byte_p__Out_Int32.Invoke(___genericsType, ___parameters);
+			@bytesWritten = (System.Int32)___parameters[1];
+
+            return (System.Boolean)___result;
+        }
+
+
+        public virtual System.Boolean TryExportRSAPublicKey(RSystem.RSpan<RSystem.RByte> @destination, out System.Int32 @bytesWritten)
+        {
+			@bytesWritten = default;
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@destination.Value, @bytesWritten};
+            var ___result = RTryExportRSAPublicKey_Span_d_Byte_p__Out_Int32.Invoke(___genericsType, ___parameters);
+			@bytesWritten = (System.Int32)___parameters[1];
+
+            return (System.Boolean)___result;
+        }
 
 
         public virtual void Dispose()
@@ -1446,6 +1574,26 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
         }
 
 
+        public virtual System.Byte[] ExportEncryptedPkcs8PrivateKey(RSystem.RReadOnlySpan<RSystem.RByte> @passwordBytes, System.Security.Cryptography.PbeParameters @pbeParameters)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@passwordBytes.Value, @pbeParameters};
+            var ___result = RExportEncryptedPkcs8PrivateKey_ReadOnlySpan_d_Byte_p__PbeParameters.Invoke(___genericsType, ___parameters);
+
+            return (System.Byte[])___result;
+        }
+
+
+        public virtual System.Byte[] ExportEncryptedPkcs8PrivateKey(RSystem.RReadOnlySpan<RSystem.RChar> @password, System.Security.Cryptography.PbeParameters @pbeParameters)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@password.Value, @pbeParameters};
+            var ___result = RExportEncryptedPkcs8PrivateKey_ReadOnlySpan_d_Char_p__PbeParameters.Invoke(___genericsType, ___parameters);
+
+            return (System.Byte[])___result;
+        }
 
 
         public virtual System.Byte[] ExportPkcs8PrivateKey()
@@ -1470,12 +1618,108 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
         }
 
 
+        public virtual void ImportEncryptedPkcs8PrivateKey(RSystem.RReadOnlySpan<RSystem.RByte> @passwordBytes, RSystem.RReadOnlySpan<RSystem.RByte> @source, out System.Int32 @bytesRead)
+        {
+			@bytesRead = default;
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@passwordBytes.Value, @source.Value, @bytesRead};
+            var ___result = RImportEncryptedPkcs8PrivateKey_ReadOnlySpan_d_Byte_p__ReadOnlySpan_d_Byte_p__Out_Int32.Invoke(___genericsType, ___parameters);
+			@bytesRead = (System.Int32)___parameters[2];
+
+            
+        }
 
 
+        public virtual void ImportEncryptedPkcs8PrivateKey(RSystem.RReadOnlySpan<RSystem.RChar> @password, RSystem.RReadOnlySpan<RSystem.RByte> @source, out System.Int32 @bytesRead)
+        {
+			@bytesRead = default;
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@password.Value, @source.Value, @bytesRead};
+            var ___result = RImportEncryptedPkcs8PrivateKey_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Byte_p__Out_Int32.Invoke(___genericsType, ___parameters);
+			@bytesRead = (System.Int32)___parameters[2];
+
+            
+        }
 
 
+        public virtual void ImportPkcs8PrivateKey(RSystem.RReadOnlySpan<RSystem.RByte> @source, out System.Int32 @bytesRead)
+        {
+			@bytesRead = default;
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@source.Value, @bytesRead};
+            var ___result = RImportPkcs8PrivateKey_ReadOnlySpan_d_Byte_p__Out_Int32.Invoke(___genericsType, ___parameters);
+			@bytesRead = (System.Int32)___parameters[1];
+
+            
+        }
 
 
+        public virtual void ImportSubjectPublicKeyInfo(RSystem.RReadOnlySpan<RSystem.RByte> @source, out System.Int32 @bytesRead)
+        {
+			@bytesRead = default;
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@source.Value, @bytesRead};
+            var ___result = RImportSubjectPublicKeyInfo_ReadOnlySpan_d_Byte_p__Out_Int32.Invoke(___genericsType, ___parameters);
+			@bytesRead = (System.Int32)___parameters[1];
+
+            
+        }
+
+
+        public virtual System.Boolean TryExportEncryptedPkcs8PrivateKey(RSystem.RReadOnlySpan<RSystem.RByte> @passwordBytes, System.Security.Cryptography.PbeParameters @pbeParameters, RSystem.RSpan<RSystem.RByte> @destination, out System.Int32 @bytesWritten)
+        {
+			@bytesWritten = default;
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@passwordBytes.Value, @pbeParameters, @destination.Value, @bytesWritten};
+            var ___result = RTryExportEncryptedPkcs8PrivateKey_ReadOnlySpan_d_Byte_p__PbeParameters_Span_d_Byte_p__Out_Int32.Invoke(___genericsType, ___parameters);
+			@bytesWritten = (System.Int32)___parameters[3];
+
+            return (System.Boolean)___result;
+        }
+
+
+        public virtual System.Boolean TryExportEncryptedPkcs8PrivateKey(RSystem.RReadOnlySpan<RSystem.RChar> @password, System.Security.Cryptography.PbeParameters @pbeParameters, RSystem.RSpan<RSystem.RByte> @destination, out System.Int32 @bytesWritten)
+        {
+			@bytesWritten = default;
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@password.Value, @pbeParameters, @destination.Value, @bytesWritten};
+            var ___result = RTryExportEncryptedPkcs8PrivateKey_ReadOnlySpan_d_Char_p__PbeParameters_Span_d_Byte_p__Out_Int32.Invoke(___genericsType, ___parameters);
+			@bytesWritten = (System.Int32)___parameters[3];
+
+            return (System.Boolean)___result;
+        }
+
+
+        public virtual System.Boolean TryExportPkcs8PrivateKey(RSystem.RSpan<RSystem.RByte> @destination, out System.Int32 @bytesWritten)
+        {
+			@bytesWritten = default;
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@destination.Value, @bytesWritten};
+            var ___result = RTryExportPkcs8PrivateKey_Span_d_Byte_p__Out_Int32.Invoke(___genericsType, ___parameters);
+			@bytesWritten = (System.Int32)___parameters[1];
+
+            return (System.Boolean)___result;
+        }
+
+
+        public virtual System.Boolean TryExportSubjectPublicKeyInfo(RSystem.RSpan<RSystem.RByte> @destination, out System.Int32 @bytesWritten)
+        {
+			@bytesWritten = default;
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@destination.Value, @bytesWritten};
+            var ___result = RTryExportSubjectPublicKeyInfo_Span_d_Byte_p__Out_Int32.Invoke(___genericsType, ___parameters);
+			@bytesWritten = (System.Int32)___parameters[1];
+
+            return (System.Boolean)___result;
+        }
 
 
         public virtual System.Boolean Equals(System.Object @obj)

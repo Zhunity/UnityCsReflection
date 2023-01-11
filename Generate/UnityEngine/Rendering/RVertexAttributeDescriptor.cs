@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Int32 <dimension>k__BackingField
 		/// </summary>
-		protected RField r___0__dimension__1__k__BackingField;
-		public virtual RField R__0__dimension__1__k__BackingField
+		protected RSystem.RInt32 r___0__dimension__1__k__BackingField;
+		public virtual RSystem.RInt32 R__0__dimension__1__k__BackingField
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Int32 <stream>k__BackingField
 		/// </summary>
-		protected RField r___0__stream__1__k__BackingField;
-		public virtual RField R__0__stream__1__k__BackingField
+		protected RSystem.RInt32 r___0__stream__1__k__BackingField;
+		public virtual RSystem.RInt32 R__0__stream__1__k__BackingField
 		{
 			get
 			{
@@ -115,8 +115,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// Int32 dimension
 		/// </summary>
-		protected RProperty r_dimension;
-		public virtual RProperty Rdimension
+		protected RSystem.RInt32 r_dimension;
+		public virtual RSystem.RInt32 Rdimension
 		{
 			get
 			{
@@ -132,8 +132,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// Int32 stream
 		/// </summary>
-		protected RProperty r_stream;
-		public virtual RProperty Rstream
+		protected RSystem.RInt32 r_stream;
+		public virtual RSystem.RInt32 Rstream
 		{
 			get
 			{

@@ -66,8 +66,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.String _failureMessageID
 		/// </summary>
-		protected RField r__failureMessageID;
-		public virtual RField R_failureMessageID
+		protected RSystem.RString r__failureMessageID;
+		public virtual RSystem.RString R_failureMessageID
 		{
 			get
 			{
@@ -100,8 +100,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.String _failureArgumentName
 		/// </summary>
-		protected RField r__failureArgumentName;
-		public virtual RField R_failureArgumentName
+		protected RSystem.RString r__failureArgumentName;
+		public virtual RSystem.RString R_failureArgumentName
 		{
 			get
 			{

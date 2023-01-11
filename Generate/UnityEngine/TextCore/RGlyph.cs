@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore
 		/// <summary>
 		/// System.UInt32 m_Index
 		/// </summary>
-		protected RField r_m_Index;
-		public virtual RField Rm_Index
+		protected RSystem.RUInt32 r_m_Index;
+		public virtual RSystem.RUInt32 Rm_Index
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore
 		/// <summary>
 		/// System.Single m_Scale
 		/// </summary>
-		protected RField r_m_Scale;
-		public virtual RField Rm_Scale
+		protected RSystem.RSingle r_m_Scale;
+		public virtual RSystem.RSingle Rm_Scale
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore
 		/// <summary>
 		/// System.Int32 m_AtlasIndex
 		/// </summary>
-		protected RField r_m_AtlasIndex;
-		public virtual RField Rm_AtlasIndex
+		protected RSystem.RInt32 r_m_AtlasIndex;
+		public virtual RSystem.RInt32 Rm_AtlasIndex
 		{
 			get
 			{
@@ -115,8 +115,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore
 		/// <summary>
 		/// UInt32 index
 		/// </summary>
-		protected RProperty r_index;
-		public virtual RProperty Rindex
+		protected RSystem.RUInt32 r_index;
+		public virtual RSystem.RUInt32 Rindex
 		{
 			get
 			{
@@ -166,8 +166,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore
 		/// <summary>
 		/// Single scale
 		/// </summary>
-		protected RProperty r_scale;
-		public virtual RProperty Rscale
+		protected RSystem.RSingle r_scale;
+		public virtual RSystem.RSingle Rscale
 		{
 			get
 			{
@@ -183,8 +183,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore
 		/// <summary>
 		/// Int32 atlasIndex
 		/// </summary>
-		protected RProperty r_atlasIndex;
-		public virtual RProperty RatlasIndex
+		protected RSystem.RInt32 r_atlasIndex;
+		public virtual RSystem.RInt32 RatlasIndex
 		{
 			get
 			{

@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// System.Boolean m_CursorIsOverPopup
 		/// </summary>
-		protected RField r_m_CursorIsOverPopup;
-		public virtual RField Rm_CursorIsOverPopup
+		protected RSystem.RBoolean r_m_CursorIsOverPopup;
+		public virtual RSystem.RBoolean Rm_CursorIsOverPopup
 		{
 			get
 			{
@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// System.String k_OutsideToolbar
 		/// </summary>
-		protected static RField r_k_OutsideToolbar;
-		public static RField Rk_OutsideToolbar
+		protected static RSystem.RString r_k_OutsideToolbar;
+		public static RSystem.RString Rk_OutsideToolbar
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// System.String k_FromHorizontal
 		/// </summary>
-		protected static RField r_k_FromHorizontal;
-		public static RField Rk_FromHorizontal
+		protected static RSystem.RString r_k_FromHorizontal;
+		public static RSystem.RString Rk_FromHorizontal
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// System.String k_FromVertical
 		/// </summary>
-		protected static RField r_k_FromVertical;
-		public static RField Rk_FromVertical
+		protected static RSystem.RString r_k_FromVertical;
+		public static RSystem.RString Rk_FromVertical
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// System.String k_Clamped
 		/// </summary>
-		protected static RField r_k_Clamped;
-		public static RField Rk_Clamped
+		protected static RSystem.RString r_k_Clamped;
+		public static RSystem.RString Rk_Clamped
 		{
 			get
 			{
@@ -234,8 +234,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// System.Int32 inheritedStylesHash
 		/// </summary>
-		protected RField r_inheritedStylesHash;
-		public virtual RField RinheritedStylesHash
+		protected RSystem.RInt32 r_inheritedStylesHash;
+		public virtual RSystem.RInt32 RinheritedStylesHash
 		{
 			get
 			{
@@ -251,8 +251,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// System.UInt32 controlid
 		/// </summary>
-		protected RField r_controlid;
-		public virtual RField Rcontrolid
+		protected RSystem.RUInt32 r_controlid;
+		public virtual RSystem.RUInt32 Rcontrolid
 		{
 			get
 			{
@@ -268,8 +268,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// System.Int32 imguiContainerDescendantCount
 		/// </summary>
-		protected RField r_imguiContainerDescendantCount;
-		public virtual RField RimguiContainerDescendantCount
+		protected RSystem.RInt32 r_imguiContainerDescendantCount;
+		public virtual RSystem.RInt32 RimguiContainerDescendantCount
 		{
 			get
 			{
@@ -319,8 +319,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// System.Boolean isIMGUIContainer
 		/// </summary>
-		protected RField r_isIMGUIContainer;
-		public virtual RField RisIMGUIContainer
+		protected RSystem.RBoolean r_isIMGUIContainer;
+		public virtual RSystem.RBoolean RisIMGUIContainer
 		{
 			get
 			{
@@ -336,8 +336,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// Boolean containsCursor
 		/// </summary>
-		protected RProperty r_containsCursor;
-		public virtual RProperty RcontainsCursor
+		protected RSystem.RBoolean r_containsCursor;
+		public virtual RSystem.RBoolean RcontainsCursor
 		{
 			get
 			{
@@ -370,8 +370,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// Boolean hasRunningAnimations
 		/// </summary>
-		protected RProperty r_hasRunningAnimations;
-		public virtual RProperty RhasRunningAnimations
+		protected RSystem.RBoolean r_hasRunningAnimations;
+		public virtual RSystem.RBoolean RhasRunningAnimations
 		{
 			get
 			{
@@ -387,8 +387,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// Boolean hasCompletedAnimations
 		/// </summary>
-		protected RProperty r_hasCompletedAnimations;
-		public virtual RProperty RhasCompletedAnimations
+		protected RSystem.RBoolean r_hasCompletedAnimations;
+		public virtual RSystem.RBoolean RhasCompletedAnimations
 		{
 			get
 			{
@@ -421,8 +421,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// Boolean isCompositeRoot
 		/// </summary>
-		protected RProperty r_isCompositeRoot;
-		public virtual RProperty RisCompositeRoot
+		protected RSystem.RBoolean r_isCompositeRoot;
+		public virtual RSystem.RBoolean RisCompositeRoot
 		{
 			get
 			{
@@ -438,8 +438,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// Boolean isHierarchyDisplayed
 		/// </summary>
-		protected RProperty r_isHierarchyDisplayed;
-		public virtual RProperty RisHierarchyDisplayed
+		protected RSystem.RBoolean r_isHierarchyDisplayed;
+		public virtual RSystem.RBoolean RisHierarchyDisplayed
 		{
 			get
 			{
@@ -455,8 +455,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// System.String viewDataKey
 		/// </summary>
-		protected RProperty r_viewDataKey;
-		public virtual RProperty RviewDataKey
+		protected RSystem.RString r_viewDataKey;
+		public virtual RSystem.RString RviewDataKey
 		{
 			get
 			{
@@ -472,8 +472,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// Boolean enableViewDataPersistence
 		/// </summary>
-		protected RProperty r_enableViewDataPersistence;
-		public virtual RProperty RenableViewDataPersistence
+		protected RSystem.RBoolean r_enableViewDataPersistence;
+		public virtual RSystem.RBoolean RenableViewDataPersistence
 		{
 			get
 			{
@@ -506,8 +506,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// Boolean canGrabFocus
 		/// </summary>
-		protected RProperty r_canGrabFocus;
-		public virtual RProperty RcanGrabFocus
+		protected RSystem.RBoolean r_canGrabFocus;
+		public virtual RSystem.RBoolean RcanGrabFocus
 		{
 			get
 			{
@@ -591,8 +591,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// Boolean isLayoutManual
 		/// </summary>
-		protected RProperty r_isLayoutManual;
-		public virtual RProperty RisLayoutManual
+		protected RSystem.RBoolean r_isLayoutManual;
+		public virtual RSystem.RBoolean RisLayoutManual
 		{
 			get
 			{
@@ -608,8 +608,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// Single scaledPixelsPerPoint
 		/// </summary>
-		protected RProperty r_scaledPixelsPerPoint;
-		public virtual RProperty RscaledPixelsPerPoint
+		protected RSystem.RSingle r_scaledPixelsPerPoint;
+		public virtual RSystem.RSingle RscaledPixelsPerPoint
 		{
 			get
 			{
@@ -676,8 +676,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// Boolean isBoundingBoxDirty
 		/// </summary>
-		protected RProperty r_isBoundingBoxDirty;
-		public virtual RProperty RisBoundingBoxDirty
+		protected RSystem.RBoolean r_isBoundingBoxDirty;
+		public virtual RSystem.RBoolean RisBoundingBoxDirty
 		{
 			get
 			{
@@ -693,8 +693,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// Boolean isWorldBoundingBoxDirty
 		/// </summary>
-		protected RProperty r_isWorldBoundingBoxDirty;
-		public virtual RProperty RisWorldBoundingBoxDirty
+		protected RSystem.RBoolean r_isWorldBoundingBoxDirty;
+		public virtual RSystem.RBoolean RisWorldBoundingBoxDirty
 		{
 			get
 			{
@@ -710,8 +710,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// Boolean isWorldBoundingBoxOrDependenciesDirty
 		/// </summary>
-		protected RProperty r_isWorldBoundingBoxOrDependenciesDirty;
-		public virtual RProperty RisWorldBoundingBoxOrDependenciesDirty
+		protected RSystem.RBoolean r_isWorldBoundingBoxOrDependenciesDirty;
+		public virtual RSystem.RBoolean RisWorldBoundingBoxOrDependenciesDirty
 		{
 			get
 			{
@@ -812,8 +812,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// Boolean isWorldTransformDirty
 		/// </summary>
-		protected RProperty r_isWorldTransformDirty;
-		public virtual RProperty RisWorldTransformDirty
+		protected RSystem.RBoolean r_isWorldTransformDirty;
+		public virtual RSystem.RBoolean RisWorldTransformDirty
 		{
 			get
 			{
@@ -829,8 +829,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// Boolean isWorldTransformInverseDirty
 		/// </summary>
-		protected RProperty r_isWorldTransformInverseDirty;
-		public virtual RProperty RisWorldTransformInverseDirty
+		protected RSystem.RBoolean r_isWorldTransformInverseDirty;
+		public virtual RSystem.RBoolean RisWorldTransformInverseDirty
 		{
 			get
 			{
@@ -846,8 +846,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// Boolean isWorldTransformInverseOrDependenciesDirty
 		/// </summary>
-		protected RProperty r_isWorldTransformInverseOrDependenciesDirty;
-		public virtual RProperty RisWorldTransformInverseOrDependenciesDirty
+		protected RSystem.RBoolean r_isWorldTransformInverseOrDependenciesDirty;
+		public virtual RSystem.RBoolean RisWorldTransformInverseOrDependenciesDirty
 		{
 			get
 			{
@@ -914,8 +914,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// Boolean isWorldClipDirty
 		/// </summary>
-		protected RProperty r_isWorldClipDirty;
-		public virtual RProperty RisWorldClipDirty
+		protected RSystem.RBoolean r_isWorldClipDirty;
+		public virtual RSystem.RBoolean RisWorldClipDirty
 		{
 			get
 			{
@@ -965,8 +965,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// Boolean worldClipIsInfinite
 		/// </summary>
-		protected RProperty r_worldClipIsInfinite;
-		public virtual RProperty RworldClipIsInfinite
+		protected RSystem.RBoolean r_worldClipIsInfinite;
+		public virtual RSystem.RBoolean RworldClipIsInfinite
 		{
 			get
 			{
@@ -999,8 +999,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// Int32 containedPointerIds
 		/// </summary>
-		protected RProperty r_containedPointerIds;
-		public virtual RProperty RcontainedPointerIds
+		protected RSystem.RInt32 r_containedPointerIds;
+		public virtual RSystem.RInt32 RcontainedPointerIds
 		{
 			get
 			{
@@ -1033,8 +1033,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// System.String name
 		/// </summary>
-		protected RProperty r_name;
-		public virtual RProperty Rname
+		protected RSystem.RString r_name;
+		public virtual RSystem.RString Rname
 		{
 			get
 			{
@@ -1050,8 +1050,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// System.Collections.Generic.List`1[System.String] classList
 		/// </summary>
-		protected RSystem.RCollections.RGeneric.RList<RProperty> r_classList;
-		public virtual RSystem.RCollections.RGeneric.RList<RProperty> RclassList
+		protected RSystem.RCollections.RGeneric.RList<RSystem.RString> r_classList;
+		public virtual RSystem.RCollections.RGeneric.RList<RSystem.RString> RclassList
 		{
 			get
 			{
@@ -1067,8 +1067,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// System.String fullTypeName
 		/// </summary>
-		protected RProperty r_fullTypeName;
-		public virtual RProperty RfullTypeName
+		protected RSystem.RString r_fullTypeName;
+		public virtual RSystem.RString RfullTypeName
 		{
 			get
 			{
@@ -1084,8 +1084,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// System.String typeName
 		/// </summary>
-		protected RProperty r_typeName;
-		public virtual RProperty RtypeName
+		protected RSystem.RString r_typeName;
+		public virtual RSystem.RString RtypeName
 		{
 			get
 			{
@@ -1135,8 +1135,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// Boolean hasInlineStyle
 		/// </summary>
-		protected RProperty r_hasInlineStyle;
-		public virtual RProperty RhasInlineStyle
+		protected RSystem.RBoolean r_hasInlineStyle;
+		public virtual RSystem.RBoolean RhasInlineStyle
 		{
 			get
 			{
@@ -1152,8 +1152,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// Boolean styleInitialized
 		/// </summary>
-		protected RProperty r_styleInitialized;
-		public virtual RProperty RstyleInitialized
+		protected RSystem.RBoolean r_styleInitialized;
+		public virtual RSystem.RBoolean RstyleInitialized
 		{
 			get
 			{
@@ -1169,8 +1169,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// Single opacity
 		/// </summary>
-		protected RProperty r_opacity;
-		public virtual RProperty Ropacity
+		protected RSystem.RSingle r_opacity;
+		public virtual RSystem.RSingle Ropacity
 		{
 			get
 			{
@@ -1186,8 +1186,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// Boolean enabledInHierarchy
 		/// </summary>
-		protected RProperty r_enabledInHierarchy;
-		public virtual RProperty RenabledInHierarchy
+		protected RSystem.RBoolean r_enabledInHierarchy;
+		public virtual RSystem.RBoolean RenabledInHierarchy
 		{
 			get
 			{
@@ -1203,8 +1203,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// Boolean enabledSelf
 		/// </summary>
-		protected RProperty r_enabledSelf;
-		public virtual RProperty RenabledSelf
+		protected RSystem.RBoolean r_enabledSelf;
+		public virtual RSystem.RBoolean RenabledSelf
 		{
 			get
 			{
@@ -1220,8 +1220,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// Boolean visible
 		/// </summary>
-		protected RProperty r_visible;
-		public virtual RProperty Rvisible
+		protected RSystem.RBoolean r_visible;
+		public virtual RSystem.RBoolean Rvisible
 		{
 			get
 			{
@@ -1254,8 +1254,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// Boolean requireMeasureFunction
 		/// </summary>
-		protected RProperty r_requireMeasureFunction;
-		public virtual RProperty RrequireMeasureFunction
+		protected RSystem.RBoolean r_requireMeasureFunction;
+		public virtual RSystem.RBoolean RrequireMeasureFunction
 		{
 			get
 			{
@@ -1322,8 +1322,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// Int32 eventCallbackCategories
 		/// </summary>
-		protected RProperty r_eventCallbackCategories;
-		public virtual RProperty ReventCallbackCategories
+		protected RSystem.RInt32 r_eventCallbackCategories;
+		public virtual RSystem.RInt32 ReventCallbackCategories
 		{
 			get
 			{
@@ -1339,8 +1339,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// Int32 eventCallbackParentCategories
 		/// </summary>
-		protected RProperty r_eventCallbackParentCategories;
-		public virtual RProperty ReventCallbackParentCategories
+		protected RSystem.RInt32 r_eventCallbackParentCategories;
+		public virtual RSystem.RInt32 ReventCallbackParentCategories
 		{
 			get
 			{
@@ -1356,8 +1356,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// Boolean isEventCallbackParentCategoriesDirty
 		/// </summary>
-		protected RProperty r_isEventCallbackParentCategoriesDirty;
-		public virtual RProperty RisEventCallbackParentCategoriesDirty
+		protected RSystem.RBoolean r_isEventCallbackParentCategoriesDirty;
+		public virtual RSystem.RBoolean RisEventCallbackParentCategoriesDirty
 		{
 			get
 			{
@@ -1407,8 +1407,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// Boolean isRootVisualContainer
 		/// </summary>
-		protected RProperty r_isRootVisualContainer;
-		public virtual RProperty RisRootVisualContainer
+		protected RSystem.RBoolean r_isRootVisualContainer;
+		public virtual RSystem.RBoolean RisRootVisualContainer
 		{
 			get
 			{
@@ -1424,8 +1424,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// Boolean cacheAsBitmap
 		/// </summary>
-		protected RProperty r_cacheAsBitmap;
-		public virtual RProperty RcacheAsBitmap
+		protected RSystem.RBoolean r_cacheAsBitmap;
+		public virtual RSystem.RBoolean RcacheAsBitmap
 		{
 			get
 			{
@@ -1441,8 +1441,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// Boolean disableClipping
 		/// </summary>
-		protected RProperty r_disableClipping;
-		public virtual RProperty RdisableClipping
+		protected RSystem.RBoolean r_disableClipping;
+		public virtual RSystem.RBoolean RdisableClipping
 		{
 			get
 			{
@@ -1560,8 +1560,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// Int32 childCount
 		/// </summary>
-		protected RProperty r_childCount;
-		public virtual RProperty RchildCount
+		protected RSystem.RInt32 r_childCount;
+		public virtual RSystem.RInt32 RchildCount
 		{
 			get
 			{
@@ -1577,8 +1577,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// Boolean hasDefaultRotationAndScale
 		/// </summary>
-		protected RProperty r_hasDefaultRotationAndScale;
-		public virtual RProperty RhasDefaultRotationAndScale
+		protected RSystem.RBoolean r_hasDefaultRotationAndScale;
+		public virtual RSystem.RBoolean RhasDefaultRotationAndScale
 		{
 			get
 			{
@@ -1662,8 +1662,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// System.String tooltip
 		/// </summary>
-		protected RProperty r_tooltip;
-		public virtual RProperty Rtooltip
+		protected RSystem.RString r_tooltip;
+		public virtual RSystem.RString Rtooltip
 		{
 			get
 			{
@@ -1679,8 +1679,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// Boolean focusable
 		/// </summary>
-		protected RProperty r_focusable;
-		public virtual RProperty Rfocusable
+		protected RSystem.RBoolean r_focusable;
+		public virtual RSystem.RBoolean Rfocusable
 		{
 			get
 			{
@@ -1696,8 +1696,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// Int32 tabIndex
 		/// </summary>
-		protected RProperty r_tabIndex;
-		public virtual RProperty RtabIndex
+		protected RSystem.RInt32 r_tabIndex;
+		public virtual RSystem.RInt32 RtabIndex
 		{
 			get
 			{
@@ -1713,8 +1713,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// Boolean delegatesFocus
 		/// </summary>
-		protected RProperty r_delegatesFocus;
-		public virtual RProperty RdelegatesFocus
+		protected RSystem.RBoolean r_delegatesFocus;
+		public virtual RSystem.RBoolean RdelegatesFocus
 		{
 			get
 			{
@@ -1730,8 +1730,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// Boolean excludeFromFocusRing
 		/// </summary>
-		protected RProperty r_excludeFromFocusRing;
-		public virtual RProperty RexcludeFromFocusRing
+		protected RSystem.RBoolean r_excludeFromFocusRing;
+		public virtual RSystem.RBoolean RexcludeFromFocusRing
 		{
 			get
 			{

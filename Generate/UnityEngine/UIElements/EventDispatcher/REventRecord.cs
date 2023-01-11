@@ -66,8 +66,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.String stackTrace
 		/// </summary>
-		protected RProperty r_stackTrace;
-		public virtual RProperty RstackTrace
+		protected RSystem.RString r_stackTrace;
+		public virtual RSystem.RString RstackTrace
 		{
 			get
 			{

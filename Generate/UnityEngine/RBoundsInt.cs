@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 x
 		/// </summary>
-		protected RProperty r_x;
-		public virtual RProperty Rx
+		protected RSystem.RInt32 r_x;
+		public virtual RSystem.RInt32 Rx
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 y
 		/// </summary>
-		protected RProperty r_y;
-		public virtual RProperty Ry
+		protected RSystem.RInt32 r_y;
+		public virtual RSystem.RInt32 Ry
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 z
 		/// </summary>
-		protected RProperty r_z;
-		public virtual RProperty Rz
+		protected RSystem.RInt32 r_z;
+		public virtual RSystem.RInt32 Rz
 		{
 			get
 			{
@@ -149,8 +149,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 xMin
 		/// </summary>
-		protected RProperty r_xMin;
-		public virtual RProperty RxMin
+		protected RSystem.RInt32 r_xMin;
+		public virtual RSystem.RInt32 RxMin
 		{
 			get
 			{
@@ -166,8 +166,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 yMin
 		/// </summary>
-		protected RProperty r_yMin;
-		public virtual RProperty RyMin
+		protected RSystem.RInt32 r_yMin;
+		public virtual RSystem.RInt32 RyMin
 		{
 			get
 			{
@@ -183,8 +183,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 zMin
 		/// </summary>
-		protected RProperty r_zMin;
-		public virtual RProperty RzMin
+		protected RSystem.RInt32 r_zMin;
+		public virtual RSystem.RInt32 RzMin
 		{
 			get
 			{
@@ -200,8 +200,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 xMax
 		/// </summary>
-		protected RProperty r_xMax;
-		public virtual RProperty RxMax
+		protected RSystem.RInt32 r_xMax;
+		public virtual RSystem.RInt32 RxMax
 		{
 			get
 			{
@@ -217,8 +217,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 yMax
 		/// </summary>
-		protected RProperty r_yMax;
-		public virtual RProperty RyMax
+		protected RSystem.RInt32 r_yMax;
+		public virtual RSystem.RInt32 RyMax
 		{
 			get
 			{
@@ -234,8 +234,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 zMax
 		/// </summary>
-		protected RProperty r_zMax;
-		public virtual RProperty RzMax
+		protected RSystem.RInt32 r_zMax;
+		public virtual RSystem.RInt32 RzMax
 		{
 			get
 			{

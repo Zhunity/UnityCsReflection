@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Collections.Generic.Dictionary`2[System.Int32,UnityEditor.PropertyHandler] m_PropertyHandlers
 		/// </summary>
-		protected RSystem.RCollections.RGeneric.RDictionary<RField, RUnityEditor.RPropertyHandler> r_m_PropertyHandlers;
-		public virtual RSystem.RCollections.RGeneric.RDictionary<RField, RUnityEditor.RPropertyHandler> Rm_PropertyHandlers
+		protected RSystem.RCollections.RGeneric.RDictionary<RSystem.RInt32, RUnityEditor.RPropertyHandler> r_m_PropertyHandlers;
+		public virtual RSystem.RCollections.RGeneric.RDictionary<RSystem.RInt32, RUnityEditor.RPropertyHandler> Rm_PropertyHandlers
 		{
 			get
 			{

@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RObjectModel
 		/// <summary>
 		/// Int32 Count
 		/// </summary>
-		protected RProperty r_Count;
-		public virtual RProperty RCount
+		protected RSystem.RInt32 r_Count;
+		public virtual RSystem.RInt32 RCount
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RObjectModel
 		/// <summary>
 		/// Boolean System.Collections.Generic.ICollection<T>.IsReadOnly
 		/// </summary>
-		protected RProperty r_System__2__Collections__2__Generic__2__ICollection__0__T__1____2__IsReadOnly;
-		public virtual RProperty RSystem__2__Collections__2__Generic__2__ICollection__0__T__1____2__IsReadOnly
+		protected RSystem.RBoolean r_System__2__Collections__2__Generic__2__ICollection__0__T__1____2__IsReadOnly;
+		public virtual RSystem.RBoolean RSystem__2__Collections__2__Generic__2__ICollection__0__T__1____2__IsReadOnly
 		{
 			get
 			{
@@ -132,8 +132,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RObjectModel
 		/// <summary>
 		/// Boolean System.Collections.ICollection.IsSynchronized
 		/// </summary>
-		protected RProperty r_System__2__Collections__2__ICollection__2__IsSynchronized;
-		public virtual RProperty RSystem__2__Collections__2__ICollection__2__IsSynchronized
+		protected RSystem.RBoolean r_System__2__Collections__2__ICollection__2__IsSynchronized;
+		public virtual RSystem.RBoolean RSystem__2__Collections__2__ICollection__2__IsSynchronized
 		{
 			get
 			{
@@ -166,8 +166,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RObjectModel
 		/// <summary>
 		/// Boolean System.Collections.IList.IsFixedSize
 		/// </summary>
-		protected RProperty r_System__2__Collections__2__IList__2__IsFixedSize;
-		public virtual RProperty RSystem__2__Collections__2__IList__2__IsFixedSize
+		protected RSystem.RBoolean r_System__2__Collections__2__IList__2__IsFixedSize;
+		public virtual RSystem.RBoolean RSystem__2__Collections__2__IList__2__IsFixedSize
 		{
 			get
 			{
@@ -183,8 +183,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RObjectModel
 		/// <summary>
 		/// Boolean System.Collections.IList.IsReadOnly
 		/// </summary>
-		protected RProperty r_System__2__Collections__2__IList__2__IsReadOnly;
-		public virtual RProperty RSystem__2__Collections__2__IList__2__IsReadOnly
+		protected RSystem.RBoolean r_System__2__Collections__2__IList__2__IsReadOnly;
+		public virtual RSystem.RBoolean RSystem__2__Collections__2__IList__2__IsReadOnly
 		{
 			get
 			{

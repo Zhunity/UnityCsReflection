@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 		/// <summary>
 		/// System.Single m_XPlacement
 		/// </summary>
-		protected RField r_m_XPlacement;
-		public virtual RField Rm_XPlacement
+		protected RSystem.RSingle r_m_XPlacement;
+		public virtual RSystem.RSingle Rm_XPlacement
 		{
 			get
 			{
@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 		/// <summary>
 		/// System.Single m_YPlacement
 		/// </summary>
-		protected RField r_m_YPlacement;
-		public virtual RField Rm_YPlacement
+		protected RSystem.RSingle r_m_YPlacement;
+		public virtual RSystem.RSingle Rm_YPlacement
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 		/// <summary>
 		/// System.Single m_XAdvance
 		/// </summary>
-		protected RField r_m_XAdvance;
-		public virtual RField Rm_XAdvance
+		protected RSystem.RSingle r_m_XAdvance;
+		public virtual RSystem.RSingle Rm_XAdvance
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 		/// <summary>
 		/// System.Single m_YAdvance
 		/// </summary>
-		protected RField r_m_YAdvance;
-		public virtual RField Rm_YAdvance
+		protected RSystem.RSingle r_m_YAdvance;
+		public virtual RSystem.RSingle Rm_YAdvance
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 		/// <summary>
 		/// Single xPlacement
 		/// </summary>
-		protected RProperty r_xPlacement;
-		public virtual RProperty RxPlacement
+		protected RSystem.RSingle r_xPlacement;
+		public virtual RSystem.RSingle RxPlacement
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 		/// <summary>
 		/// Single yPlacement
 		/// </summary>
-		protected RProperty r_yPlacement;
-		public virtual RProperty RyPlacement
+		protected RSystem.RSingle r_yPlacement;
+		public virtual RSystem.RSingle RyPlacement
 		{
 			get
 			{
@@ -115,8 +115,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 		/// <summary>
 		/// Single xAdvance
 		/// </summary>
-		protected RProperty r_xAdvance;
-		public virtual RProperty RxAdvance
+		protected RSystem.RSingle r_xAdvance;
+		public virtual RSystem.RSingle RxAdvance
 		{
 			get
 			{
@@ -132,8 +132,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 		/// <summary>
 		/// Single yAdvance
 		/// </summary>
-		protected RProperty r_yAdvance;
-		public virtual RProperty RyAdvance
+		protected RSystem.RSingle r_yAdvance;
+		public virtual RSystem.RSingle RyAdvance
 		{
 			get
 			{

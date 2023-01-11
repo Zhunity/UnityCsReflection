@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Boolean trackResurrection
 		/// </summary>
-		protected RField r_trackResurrection;
-		public virtual RField RtrackResurrection
+		protected RSystem.RBoolean r_trackResurrection;
+		public virtual RSystem.RBoolean RtrackResurrection
 		{
 			get
 			{

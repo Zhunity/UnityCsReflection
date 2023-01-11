@@ -83,8 +83,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Boolean enabled
 		/// </summary>
-		protected RField r_enabled;
-		public virtual RField Renabled
+		protected RSystem.RBoolean r_enabled;
+		public virtual RSystem.RBoolean Renabled
 		{
 			get
 			{
@@ -100,8 +100,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Boolean changed
 		/// </summary>
-		protected RField r_changed;
-		public virtual RField Rchanged
+		protected RSystem.RBoolean r_changed;
+		public virtual RSystem.RBoolean Rchanged
 		{
 			get
 			{
@@ -117,8 +117,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int32 displayIndex
 		/// </summary>
-		protected RField r_displayIndex;
-		public virtual RField RdisplayIndex
+		protected RSystem.RInt32 r_displayIndex;
+		public virtual RSystem.RInt32 RdisplayIndex
 		{
 			get
 			{

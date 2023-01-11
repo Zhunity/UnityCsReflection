@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String _name
 		/// </summary>
-		protected RField r__name;
-		public virtual RField R_name
+		protected RSystem.RString r__name;
+		public virtual RSystem.RString R_name
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String _langName
 		/// </summary>
-		protected RField r__langName;
-		public virtual RField R_langName
+		protected RSystem.RString r__langName;
+		public virtual RSystem.RString R_langName
 		{
 			get
 			{
@@ -115,8 +115,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String amDesignator
 		/// </summary>
-		protected RField r_amDesignator;
-		public virtual RField RamDesignator
+		protected RSystem.RString r_amDesignator;
+		public virtual RSystem.RString RamDesignator
 		{
 			get
 			{
@@ -132,8 +132,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String pmDesignator
 		/// </summary>
-		protected RField r_pmDesignator;
-		public virtual RField RpmDesignator
+		protected RSystem.RString r_pmDesignator;
+		public virtual RSystem.RString RpmDesignator
 		{
 			get
 			{
@@ -149,8 +149,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String dateSeparator
 		/// </summary>
-		protected RField r_dateSeparator;
-		public virtual RField RdateSeparator
+		protected RSystem.RString r_dateSeparator;
+		public virtual RSystem.RString RdateSeparator
 		{
 			get
 			{
@@ -166,8 +166,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String generalShortTimePattern
 		/// </summary>
-		protected RField r_generalShortTimePattern;
-		public virtual RField RgeneralShortTimePattern
+		protected RSystem.RString r_generalShortTimePattern;
+		public virtual RSystem.RString RgeneralShortTimePattern
 		{
 			get
 			{
@@ -183,8 +183,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String generalLongTimePattern
 		/// </summary>
-		protected RField r_generalLongTimePattern;
-		public virtual RField RgeneralLongTimePattern
+		protected RSystem.RString r_generalLongTimePattern;
+		public virtual RSystem.RString RgeneralLongTimePattern
 		{
 			get
 			{
@@ -200,8 +200,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String timeSeparator
 		/// </summary>
-		protected RField r_timeSeparator;
-		public virtual RField RtimeSeparator
+		protected RSystem.RString r_timeSeparator;
+		public virtual RSystem.RString RtimeSeparator
 		{
 			get
 			{
@@ -217,8 +217,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String monthDayPattern
 		/// </summary>
-		protected RField r_monthDayPattern;
-		public virtual RField RmonthDayPattern
+		protected RSystem.RString r_monthDayPattern;
+		public virtual RSystem.RString RmonthDayPattern
 		{
 			get
 			{
@@ -234,8 +234,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String dateTimeOffsetPattern
 		/// </summary>
-		protected RField r_dateTimeOffsetPattern;
-		public virtual RField RdateTimeOffsetPattern
+		protected RSystem.RString r_dateTimeOffsetPattern;
+		public virtual RSystem.RString RdateTimeOffsetPattern
 		{
 			get
 			{
@@ -251,8 +251,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String rfc1123Pattern
 		/// </summary>
-		protected static RField r_rfc1123Pattern;
-		public static RField Rrfc1123Pattern
+		protected static RSystem.RString r_rfc1123Pattern;
+		public static RSystem.RString Rrfc1123Pattern
 		{
 			get
 			{
@@ -268,8 +268,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String sortableDateTimePattern
 		/// </summary>
-		protected static RField r_sortableDateTimePattern;
-		public static RField RsortableDateTimePattern
+		protected static RSystem.RString r_sortableDateTimePattern;
+		public static RSystem.RString RsortableDateTimePattern
 		{
 			get
 			{
@@ -285,8 +285,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String universalSortableDateTimePattern
 		/// </summary>
-		protected static RField r_universalSortableDateTimePattern;
-		public static RField RuniversalSortableDateTimePattern
+		protected static RSystem.RString r_universalSortableDateTimePattern;
+		public static RSystem.RString RuniversalSortableDateTimePattern
 		{
 			get
 			{
@@ -319,8 +319,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 firstDayOfWeek
 		/// </summary>
-		protected RField r_firstDayOfWeek;
-		public virtual RField RfirstDayOfWeek
+		protected RSystem.RInt32 r_firstDayOfWeek;
+		public virtual RSystem.RInt32 RfirstDayOfWeek
 		{
 			get
 			{
@@ -336,8 +336,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 calendarWeekRule
 		/// </summary>
-		protected RField r_calendarWeekRule;
-		public virtual RField RcalendarWeekRule
+		protected RSystem.RInt32 r_calendarWeekRule;
+		public virtual RSystem.RInt32 RcalendarWeekRule
 		{
 			get
 			{
@@ -353,8 +353,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String fullDateTimePattern
 		/// </summary>
-		protected RField r_fullDateTimePattern;
-		public virtual RField RfullDateTimePattern
+		protected RSystem.RString r_fullDateTimePattern;
+		public virtual RSystem.RString RfullDateTimePattern
 		{
 			get
 			{
@@ -370,8 +370,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String[] abbreviatedDayNames
 		/// </summary>
-		protected RFieldArray<RField> r_abbreviatedDayNames;
-		public virtual RFieldArray<RField> RabbreviatedDayNames
+		protected RFieldArray<RSystem.RString> r_abbreviatedDayNames;
+		public virtual RFieldArray<RSystem.RString> RabbreviatedDayNames
 		{
 			get
 			{
@@ -387,8 +387,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String[] m_superShortDayNames
 		/// </summary>
-		protected RFieldArray<RField> r_m_superShortDayNames;
-		public virtual RFieldArray<RField> Rm_superShortDayNames
+		protected RFieldArray<RSystem.RString> r_m_superShortDayNames;
+		public virtual RFieldArray<RSystem.RString> Rm_superShortDayNames
 		{
 			get
 			{
@@ -404,8 +404,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String[] dayNames
 		/// </summary>
-		protected RFieldArray<RField> r_dayNames;
-		public virtual RFieldArray<RField> RdayNames
+		protected RFieldArray<RSystem.RString> r_dayNames;
+		public virtual RFieldArray<RSystem.RString> RdayNames
 		{
 			get
 			{
@@ -421,8 +421,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String[] abbreviatedMonthNames
 		/// </summary>
-		protected RFieldArray<RField> r_abbreviatedMonthNames;
-		public virtual RFieldArray<RField> RabbreviatedMonthNames
+		protected RFieldArray<RSystem.RString> r_abbreviatedMonthNames;
+		public virtual RFieldArray<RSystem.RString> RabbreviatedMonthNames
 		{
 			get
 			{
@@ -438,8 +438,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String[] monthNames
 		/// </summary>
-		protected RFieldArray<RField> r_monthNames;
-		public virtual RFieldArray<RField> RmonthNames
+		protected RFieldArray<RSystem.RString> r_monthNames;
+		public virtual RFieldArray<RSystem.RString> RmonthNames
 		{
 			get
 			{
@@ -455,8 +455,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String[] genitiveMonthNames
 		/// </summary>
-		protected RFieldArray<RField> r_genitiveMonthNames;
-		public virtual RFieldArray<RField> RgenitiveMonthNames
+		protected RFieldArray<RSystem.RString> r_genitiveMonthNames;
+		public virtual RFieldArray<RSystem.RString> RgenitiveMonthNames
 		{
 			get
 			{
@@ -472,8 +472,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String[] m_genitiveAbbreviatedMonthNames
 		/// </summary>
-		protected RFieldArray<RField> r_m_genitiveAbbreviatedMonthNames;
-		public virtual RFieldArray<RField> Rm_genitiveAbbreviatedMonthNames
+		protected RFieldArray<RSystem.RString> r_m_genitiveAbbreviatedMonthNames;
+		public virtual RFieldArray<RSystem.RString> Rm_genitiveAbbreviatedMonthNames
 		{
 			get
 			{
@@ -489,8 +489,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String[] leapYearMonthNames
 		/// </summary>
-		protected RFieldArray<RField> r_leapYearMonthNames;
-		public virtual RFieldArray<RField> RleapYearMonthNames
+		protected RFieldArray<RSystem.RString> r_leapYearMonthNames;
+		public virtual RFieldArray<RSystem.RString> RleapYearMonthNames
 		{
 			get
 			{
@@ -506,8 +506,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String longDatePattern
 		/// </summary>
-		protected RField r_longDatePattern;
-		public virtual RField RlongDatePattern
+		protected RSystem.RString r_longDatePattern;
+		public virtual RSystem.RString RlongDatePattern
 		{
 			get
 			{
@@ -523,8 +523,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String shortDatePattern
 		/// </summary>
-		protected RField r_shortDatePattern;
-		public virtual RField RshortDatePattern
+		protected RSystem.RString r_shortDatePattern;
+		public virtual RSystem.RString RshortDatePattern
 		{
 			get
 			{
@@ -540,8 +540,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String yearMonthPattern
 		/// </summary>
-		protected RField r_yearMonthPattern;
-		public virtual RField RyearMonthPattern
+		protected RSystem.RString r_yearMonthPattern;
+		public virtual RSystem.RString RyearMonthPattern
 		{
 			get
 			{
@@ -557,8 +557,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String longTimePattern
 		/// </summary>
-		protected RField r_longTimePattern;
-		public virtual RField RlongTimePattern
+		protected RSystem.RString r_longTimePattern;
+		public virtual RSystem.RString RlongTimePattern
 		{
 			get
 			{
@@ -574,8 +574,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String shortTimePattern
 		/// </summary>
-		protected RField r_shortTimePattern;
-		public virtual RField RshortTimePattern
+		protected RSystem.RString r_shortTimePattern;
+		public virtual RSystem.RString RshortTimePattern
 		{
 			get
 			{
@@ -591,8 +591,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String[] allYearMonthPatterns
 		/// </summary>
-		protected RFieldArray<RField> r_allYearMonthPatterns;
-		public virtual RFieldArray<RField> RallYearMonthPatterns
+		protected RFieldArray<RSystem.RString> r_allYearMonthPatterns;
+		public virtual RFieldArray<RSystem.RString> RallYearMonthPatterns
 		{
 			get
 			{
@@ -608,8 +608,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String[] allShortDatePatterns
 		/// </summary>
-		protected RFieldArray<RField> r_allShortDatePatterns;
-		public virtual RFieldArray<RField> RallShortDatePatterns
+		protected RFieldArray<RSystem.RString> r_allShortDatePatterns;
+		public virtual RFieldArray<RSystem.RString> RallShortDatePatterns
 		{
 			get
 			{
@@ -625,8 +625,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String[] allLongDatePatterns
 		/// </summary>
-		protected RFieldArray<RField> r_allLongDatePatterns;
-		public virtual RFieldArray<RField> RallLongDatePatterns
+		protected RFieldArray<RSystem.RString> r_allLongDatePatterns;
+		public virtual RFieldArray<RSystem.RString> RallLongDatePatterns
 		{
 			get
 			{
@@ -642,8 +642,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String[] allShortTimePatterns
 		/// </summary>
-		protected RFieldArray<RField> r_allShortTimePatterns;
-		public virtual RFieldArray<RField> RallShortTimePatterns
+		protected RFieldArray<RSystem.RString> r_allShortTimePatterns;
+		public virtual RFieldArray<RSystem.RString> RallShortTimePatterns
 		{
 			get
 			{
@@ -659,8 +659,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String[] allLongTimePatterns
 		/// </summary>
-		protected RFieldArray<RField> r_allLongTimePatterns;
-		public virtual RFieldArray<RField> RallLongTimePatterns
+		protected RFieldArray<RSystem.RString> r_allLongTimePatterns;
+		public virtual RFieldArray<RSystem.RString> RallLongTimePatterns
 		{
 			get
 			{
@@ -676,8 +676,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String[] m_eraNames
 		/// </summary>
-		protected RFieldArray<RField> r_m_eraNames;
-		public virtual RFieldArray<RField> Rm_eraNames
+		protected RFieldArray<RSystem.RString> r_m_eraNames;
+		public virtual RFieldArray<RSystem.RString> Rm_eraNames
 		{
 			get
 			{
@@ -693,8 +693,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String[] m_abbrevEraNames
 		/// </summary>
-		protected RFieldArray<RField> r_m_abbrevEraNames;
-		public virtual RFieldArray<RField> Rm_abbrevEraNames
+		protected RFieldArray<RSystem.RString> r_m_abbrevEraNames;
+		public virtual RFieldArray<RSystem.RString> Rm_abbrevEraNames
 		{
 			get
 			{
@@ -710,8 +710,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String[] m_abbrevEnglishEraNames
 		/// </summary>
-		protected RFieldArray<RField> r_m_abbrevEnglishEraNames;
-		public virtual RFieldArray<RField> Rm_abbrevEnglishEraNames
+		protected RFieldArray<RSystem.RString> r_m_abbrevEnglishEraNames;
+		public virtual RFieldArray<RSystem.RString> Rm_abbrevEnglishEraNames
 		{
 			get
 			{
@@ -744,8 +744,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 DEFAULT_ALL_DATETIMES_SIZE
 		/// </summary>
-		protected static RField r_DEFAULT_ALL_DATETIMES_SIZE;
-		public static RField RDEFAULT_ALL_DATETIMES_SIZE
+		protected static RSystem.RInt32 r_DEFAULT_ALL_DATETIMES_SIZE;
+		public static RSystem.RInt32 RDEFAULT_ALL_DATETIMES_SIZE
 		{
 			get
 			{
@@ -761,8 +761,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Boolean _isReadOnly
 		/// </summary>
-		protected RField r__isReadOnly;
-		public virtual RField R_isReadOnly
+		protected RSystem.RBoolean r__isReadOnly;
+		public virtual RSystem.RBoolean R_isReadOnly
 		{
 			get
 			{
@@ -795,8 +795,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Char[] s_monthSpaces
 		/// </summary>
-		protected static RFieldArray<RField> r_s_monthSpaces;
-		public static RFieldArray<RField> Rs_monthSpaces
+		protected static RFieldArray<RSystem.RChar> r_s_monthSpaces;
+		public static RFieldArray<RSystem.RChar> Rs_monthSpaces
 		{
 			get
 			{
@@ -812,8 +812,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String RoundtripFormat
 		/// </summary>
-		protected static RField r_RoundtripFormat;
-		public static RField RRoundtripFormat
+		protected static RSystem.RString r_RoundtripFormat;
+		public static RSystem.RString RRoundtripFormat
 		{
 			get
 			{
@@ -829,8 +829,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String RoundtripDateTimeUnfixed
 		/// </summary>
-		protected static RField r_RoundtripDateTimeUnfixed;
-		public static RField RRoundtripDateTimeUnfixed
+		protected static RSystem.RString r_RoundtripDateTimeUnfixed;
+		public static RSystem.RString RRoundtripDateTimeUnfixed
 		{
 			get
 			{
@@ -846,8 +846,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String _fullTimeSpanPositivePattern
 		/// </summary>
-		protected RField r__fullTimeSpanPositivePattern;
-		public virtual RField R_fullTimeSpanPositivePattern
+		protected RSystem.RString r__fullTimeSpanPositivePattern;
+		public virtual RSystem.RString R_fullTimeSpanPositivePattern
 		{
 			get
 			{
@@ -863,8 +863,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String _fullTimeSpanNegativePattern
 		/// </summary>
-		protected RField r__fullTimeSpanNegativePattern;
-		public virtual RField R_fullTimeSpanNegativePattern
+		protected RSystem.RString r__fullTimeSpanNegativePattern;
+		public virtual RSystem.RString R_fullTimeSpanNegativePattern
 		{
 			get
 			{
@@ -914,8 +914,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 TOKEN_HASH_SIZE
 		/// </summary>
-		protected static RField r_TOKEN_HASH_SIZE;
-		public static RField RTOKEN_HASH_SIZE
+		protected static RSystem.RInt32 r_TOKEN_HASH_SIZE;
+		public static RSystem.RInt32 RTOKEN_HASH_SIZE
 		{
 			get
 			{
@@ -931,8 +931,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 SECOND_PRIME
 		/// </summary>
-		protected static RField r_SECOND_PRIME;
-		public static RField RSECOND_PRIME
+		protected static RSystem.RInt32 r_SECOND_PRIME;
+		public static RSystem.RInt32 RSECOND_PRIME
 		{
 			get
 			{
@@ -948,8 +948,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String dateSeparatorOrTimeZoneOffset
 		/// </summary>
-		protected static RField r_dateSeparatorOrTimeZoneOffset;
-		public static RField RdateSeparatorOrTimeZoneOffset
+		protected static RSystem.RString r_dateSeparatorOrTimeZoneOffset;
+		public static RSystem.RString RdateSeparatorOrTimeZoneOffset
 		{
 			get
 			{
@@ -965,8 +965,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String invariantDateSeparator
 		/// </summary>
-		protected static RField r_invariantDateSeparator;
-		public static RField RinvariantDateSeparator
+		protected static RSystem.RString r_invariantDateSeparator;
+		public static RSystem.RString RinvariantDateSeparator
 		{
 			get
 			{
@@ -982,8 +982,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String invariantTimeSeparator
 		/// </summary>
-		protected static RField r_invariantTimeSeparator;
-		public static RField RinvariantTimeSeparator
+		protected static RSystem.RString r_invariantTimeSeparator;
+		public static RSystem.RString RinvariantTimeSeparator
 		{
 			get
 			{
@@ -999,8 +999,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String IgnorablePeriod
 		/// </summary>
-		protected static RField r_IgnorablePeriod;
-		public static RField RIgnorablePeriod
+		protected static RSystem.RString r_IgnorablePeriod;
+		public static RSystem.RString RIgnorablePeriod
 		{
 			get
 			{
@@ -1016,8 +1016,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String IgnorableComma
 		/// </summary>
-		protected static RField r_IgnorableComma;
-		public static RField RIgnorableComma
+		protected static RSystem.RString r_IgnorableComma;
+		public static RSystem.RString RIgnorableComma
 		{
 			get
 			{
@@ -1033,8 +1033,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String CJKYearSuff
 		/// </summary>
-		protected static RField r_CJKYearSuff;
-		public static RField RCJKYearSuff
+		protected static RSystem.RString r_CJKYearSuff;
+		public static RSystem.RString RCJKYearSuff
 		{
 			get
 			{
@@ -1050,8 +1050,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String CJKMonthSuff
 		/// </summary>
-		protected static RField r_CJKMonthSuff;
-		public static RField RCJKMonthSuff
+		protected static RSystem.RString r_CJKMonthSuff;
+		public static RSystem.RString RCJKMonthSuff
 		{
 			get
 			{
@@ -1067,8 +1067,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String CJKDaySuff
 		/// </summary>
-		protected static RField r_CJKDaySuff;
-		public static RField RCJKDaySuff
+		protected static RSystem.RString r_CJKDaySuff;
+		public static RSystem.RString RCJKDaySuff
 		{
 			get
 			{
@@ -1084,8 +1084,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String KoreanYearSuff
 		/// </summary>
-		protected static RField r_KoreanYearSuff;
-		public static RField RKoreanYearSuff
+		protected static RSystem.RString r_KoreanYearSuff;
+		public static RSystem.RString RKoreanYearSuff
 		{
 			get
 			{
@@ -1101,8 +1101,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String KoreanMonthSuff
 		/// </summary>
-		protected static RField r_KoreanMonthSuff;
-		public static RField RKoreanMonthSuff
+		protected static RSystem.RString r_KoreanMonthSuff;
+		public static RSystem.RString RKoreanMonthSuff
 		{
 			get
 			{
@@ -1118,8 +1118,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String KoreanDaySuff
 		/// </summary>
-		protected static RField r_KoreanDaySuff;
-		public static RField RKoreanDaySuff
+		protected static RSystem.RString r_KoreanDaySuff;
+		public static RSystem.RString RKoreanDaySuff
 		{
 			get
 			{
@@ -1135,8 +1135,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String KoreanHourSuff
 		/// </summary>
-		protected static RField r_KoreanHourSuff;
-		public static RField RKoreanHourSuff
+		protected static RSystem.RString r_KoreanHourSuff;
+		public static RSystem.RString RKoreanHourSuff
 		{
 			get
 			{
@@ -1152,8 +1152,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String KoreanMinuteSuff
 		/// </summary>
-		protected static RField r_KoreanMinuteSuff;
-		public static RField RKoreanMinuteSuff
+		protected static RSystem.RString r_KoreanMinuteSuff;
+		public static RSystem.RString RKoreanMinuteSuff
 		{
 			get
 			{
@@ -1169,8 +1169,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String KoreanSecondSuff
 		/// </summary>
-		protected static RField r_KoreanSecondSuff;
-		public static RField RKoreanSecondSuff
+		protected static RSystem.RString r_KoreanSecondSuff;
+		public static RSystem.RString RKoreanSecondSuff
 		{
 			get
 			{
@@ -1186,8 +1186,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String CJKHourSuff
 		/// </summary>
-		protected static RField r_CJKHourSuff;
-		public static RField RCJKHourSuff
+		protected static RSystem.RString r_CJKHourSuff;
+		public static RSystem.RString RCJKHourSuff
 		{
 			get
 			{
@@ -1203,8 +1203,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String ChineseHourSuff
 		/// </summary>
-		protected static RField r_ChineseHourSuff;
-		public static RField RChineseHourSuff
+		protected static RSystem.RString r_ChineseHourSuff;
+		public static RSystem.RString RChineseHourSuff
 		{
 			get
 			{
@@ -1220,8 +1220,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String CJKMinuteSuff
 		/// </summary>
-		protected static RField r_CJKMinuteSuff;
-		public static RField RCJKMinuteSuff
+		protected static RSystem.RString r_CJKMinuteSuff;
+		public static RSystem.RString RCJKMinuteSuff
 		{
 			get
 			{
@@ -1237,8 +1237,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String CJKSecondSuff
 		/// </summary>
-		protected static RField r_CJKSecondSuff;
-		public static RField RCJKSecondSuff
+		protected static RSystem.RString r_CJKSecondSuff;
+		public static RSystem.RString RCJKSecondSuff
 		{
 			get
 			{
@@ -1254,8 +1254,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String JapaneseEraStart
 		/// </summary>
-		protected static RField r_JapaneseEraStart;
-		public static RField RJapaneseEraStart
+		protected static RSystem.RString r_JapaneseEraStart;
+		public static RSystem.RString RJapaneseEraStart
 		{
 			get
 			{
@@ -1271,8 +1271,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String LocalTimeMark
 		/// </summary>
-		protected static RField r_LocalTimeMark;
-		public static RField RLocalTimeMark
+		protected static RSystem.RString r_LocalTimeMark;
+		public static RSystem.RString RLocalTimeMark
 		{
 			get
 			{
@@ -1288,8 +1288,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String GMTName
 		/// </summary>
-		protected static RField r_GMTName;
-		public static RField RGMTName
+		protected static RSystem.RString r_GMTName;
+		public static RSystem.RString RGMTName
 		{
 			get
 			{
@@ -1305,8 +1305,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String ZuluName
 		/// </summary>
-		protected static RField r_ZuluName;
-		public static RField RZuluName
+		protected static RSystem.RString r_ZuluName;
+		public static RSystem.RString RZuluName
 		{
 			get
 			{
@@ -1322,8 +1322,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String KoreanLangName
 		/// </summary>
-		protected static RField r_KoreanLangName;
-		public static RField RKoreanLangName
+		protected static RSystem.RString r_KoreanLangName;
+		public static RSystem.RString RKoreanLangName
 		{
 			get
 			{
@@ -1339,8 +1339,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String JapaneseLangName
 		/// </summary>
-		protected static RField r_JapaneseLangName;
-		public static RField RJapaneseLangName
+		protected static RSystem.RString r_JapaneseLangName;
+		public static RSystem.RString RJapaneseLangName
 		{
 			get
 			{
@@ -1356,8 +1356,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String EnglishLangName
 		/// </summary>
-		protected static RField r_EnglishLangName;
-		public static RField REnglishLangName
+		protected static RSystem.RString r_EnglishLangName;
+		public static RSystem.RString REnglishLangName
 		{
 			get
 			{
@@ -1407,8 +1407,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String CultureName
 		/// </summary>
-		protected RProperty r_CultureName;
-		public virtual RProperty RCultureName
+		protected RSystem.RString r_CultureName;
+		public virtual RSystem.RString RCultureName
 		{
 			get
 			{
@@ -1441,8 +1441,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String LanguageName
 		/// </summary>
-		protected RProperty r_LanguageName;
-		public virtual RProperty RLanguageName
+		protected RSystem.RString r_LanguageName;
+		public virtual RSystem.RString RLanguageName
 		{
 			get
 			{
@@ -1492,8 +1492,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String AMDesignator
 		/// </summary>
-		protected RProperty r_AMDesignator;
-		public virtual RProperty RAMDesignator
+		protected RSystem.RString r_AMDesignator;
+		public virtual RSystem.RString RAMDesignator
 		{
 			get
 			{
@@ -1543,8 +1543,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String[] EraNames
 		/// </summary>
-		protected RPropertyArray<RProperty> r_EraNames;
-		public virtual RPropertyArray<RProperty> REraNames
+		protected RPropertyArray<RSystem.RString> r_EraNames;
+		public virtual RPropertyArray<RSystem.RString> REraNames
 		{
 			get
 			{
@@ -1560,8 +1560,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String[] AbbreviatedEraNames
 		/// </summary>
-		protected RPropertyArray<RProperty> r_AbbreviatedEraNames;
-		public virtual RPropertyArray<RProperty> RAbbreviatedEraNames
+		protected RPropertyArray<RSystem.RString> r_AbbreviatedEraNames;
+		public virtual RPropertyArray<RSystem.RString> RAbbreviatedEraNames
 		{
 			get
 			{
@@ -1577,8 +1577,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String[] AbbreviatedEnglishEraNames
 		/// </summary>
-		protected RPropertyArray<RProperty> r_AbbreviatedEnglishEraNames;
-		public virtual RPropertyArray<RProperty> RAbbreviatedEnglishEraNames
+		protected RPropertyArray<RSystem.RString> r_AbbreviatedEnglishEraNames;
+		public virtual RPropertyArray<RSystem.RString> RAbbreviatedEnglishEraNames
 		{
 			get
 			{
@@ -1594,8 +1594,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String DateSeparator
 		/// </summary>
-		protected RProperty r_DateSeparator;
-		public virtual RProperty RDateSeparator
+		protected RSystem.RString r_DateSeparator;
+		public virtual RSystem.RString RDateSeparator
 		{
 			get
 			{
@@ -1645,8 +1645,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String FullDateTimePattern
 		/// </summary>
-		protected RProperty r_FullDateTimePattern;
-		public virtual RProperty RFullDateTimePattern
+		protected RSystem.RString r_FullDateTimePattern;
+		public virtual RSystem.RString RFullDateTimePattern
 		{
 			get
 			{
@@ -1662,8 +1662,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String LongDatePattern
 		/// </summary>
-		protected RProperty r_LongDatePattern;
-		public virtual RProperty RLongDatePattern
+		protected RSystem.RString r_LongDatePattern;
+		public virtual RSystem.RString RLongDatePattern
 		{
 			get
 			{
@@ -1679,8 +1679,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String LongTimePattern
 		/// </summary>
-		protected RProperty r_LongTimePattern;
-		public virtual RProperty RLongTimePattern
+		protected RSystem.RString r_LongTimePattern;
+		public virtual RSystem.RString RLongTimePattern
 		{
 			get
 			{
@@ -1696,8 +1696,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String MonthDayPattern
 		/// </summary>
-		protected RProperty r_MonthDayPattern;
-		public virtual RProperty RMonthDayPattern
+		protected RSystem.RString r_MonthDayPattern;
+		public virtual RSystem.RString RMonthDayPattern
 		{
 			get
 			{
@@ -1713,8 +1713,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String PMDesignator
 		/// </summary>
-		protected RProperty r_PMDesignator;
-		public virtual RProperty RPMDesignator
+		protected RSystem.RString r_PMDesignator;
+		public virtual RSystem.RString RPMDesignator
 		{
 			get
 			{
@@ -1730,8 +1730,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String RFC1123Pattern
 		/// </summary>
-		protected RProperty r_RFC1123Pattern;
-		public virtual RProperty RRFC1123Pattern
+		protected RSystem.RString r_RFC1123Pattern;
+		public virtual RSystem.RString RRFC1123Pattern
 		{
 			get
 			{
@@ -1747,8 +1747,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String ShortDatePattern
 		/// </summary>
-		protected RProperty r_ShortDatePattern;
-		public virtual RProperty RShortDatePattern
+		protected RSystem.RString r_ShortDatePattern;
+		public virtual RSystem.RString RShortDatePattern
 		{
 			get
 			{
@@ -1764,8 +1764,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String ShortTimePattern
 		/// </summary>
-		protected RProperty r_ShortTimePattern;
-		public virtual RProperty RShortTimePattern
+		protected RSystem.RString r_ShortTimePattern;
+		public virtual RSystem.RString RShortTimePattern
 		{
 			get
 			{
@@ -1781,8 +1781,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String SortableDateTimePattern
 		/// </summary>
-		protected RProperty r_SortableDateTimePattern;
-		public virtual RProperty RSortableDateTimePattern
+		protected RSystem.RString r_SortableDateTimePattern;
+		public virtual RSystem.RString RSortableDateTimePattern
 		{
 			get
 			{
@@ -1798,8 +1798,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String GeneralShortTimePattern
 		/// </summary>
-		protected RProperty r_GeneralShortTimePattern;
-		public virtual RProperty RGeneralShortTimePattern
+		protected RSystem.RString r_GeneralShortTimePattern;
+		public virtual RSystem.RString RGeneralShortTimePattern
 		{
 			get
 			{
@@ -1815,8 +1815,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String GeneralLongTimePattern
 		/// </summary>
-		protected RProperty r_GeneralLongTimePattern;
-		public virtual RProperty RGeneralLongTimePattern
+		protected RSystem.RString r_GeneralLongTimePattern;
+		public virtual RSystem.RString RGeneralLongTimePattern
 		{
 			get
 			{
@@ -1832,8 +1832,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String DateTimeOffsetPattern
 		/// </summary>
-		protected RProperty r_DateTimeOffsetPattern;
-		public virtual RProperty RDateTimeOffsetPattern
+		protected RSystem.RString r_DateTimeOffsetPattern;
+		public virtual RSystem.RString RDateTimeOffsetPattern
 		{
 			get
 			{
@@ -1849,8 +1849,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String TimeSeparator
 		/// </summary>
-		protected RProperty r_TimeSeparator;
-		public virtual RProperty RTimeSeparator
+		protected RSystem.RString r_TimeSeparator;
+		public virtual RSystem.RString RTimeSeparator
 		{
 			get
 			{
@@ -1866,8 +1866,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String UniversalSortableDateTimePattern
 		/// </summary>
-		protected RProperty r_UniversalSortableDateTimePattern;
-		public virtual RProperty RUniversalSortableDateTimePattern
+		protected RSystem.RString r_UniversalSortableDateTimePattern;
+		public virtual RSystem.RString RUniversalSortableDateTimePattern
 		{
 			get
 			{
@@ -1883,8 +1883,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String YearMonthPattern
 		/// </summary>
-		protected RProperty r_YearMonthPattern;
-		public virtual RProperty RYearMonthPattern
+		protected RSystem.RString r_YearMonthPattern;
+		public virtual RSystem.RString RYearMonthPattern
 		{
 			get
 			{
@@ -1900,8 +1900,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String[] AbbreviatedDayNames
 		/// </summary>
-		protected RPropertyArray<RProperty> r_AbbreviatedDayNames;
-		public virtual RPropertyArray<RProperty> RAbbreviatedDayNames
+		protected RPropertyArray<RSystem.RString> r_AbbreviatedDayNames;
+		public virtual RPropertyArray<RSystem.RString> RAbbreviatedDayNames
 		{
 			get
 			{
@@ -1917,8 +1917,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String[] ShortestDayNames
 		/// </summary>
-		protected RPropertyArray<RProperty> r_ShortestDayNames;
-		public virtual RPropertyArray<RProperty> RShortestDayNames
+		protected RPropertyArray<RSystem.RString> r_ShortestDayNames;
+		public virtual RPropertyArray<RSystem.RString> RShortestDayNames
 		{
 			get
 			{
@@ -1934,8 +1934,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String[] DayNames
 		/// </summary>
-		protected RPropertyArray<RProperty> r_DayNames;
-		public virtual RPropertyArray<RProperty> RDayNames
+		protected RPropertyArray<RSystem.RString> r_DayNames;
+		public virtual RPropertyArray<RSystem.RString> RDayNames
 		{
 			get
 			{
@@ -1951,8 +1951,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String[] AbbreviatedMonthNames
 		/// </summary>
-		protected RPropertyArray<RProperty> r_AbbreviatedMonthNames;
-		public virtual RPropertyArray<RProperty> RAbbreviatedMonthNames
+		protected RPropertyArray<RSystem.RString> r_AbbreviatedMonthNames;
+		public virtual RPropertyArray<RSystem.RString> RAbbreviatedMonthNames
 		{
 			get
 			{
@@ -1968,8 +1968,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String[] MonthNames
 		/// </summary>
-		protected RPropertyArray<RProperty> r_MonthNames;
-		public virtual RPropertyArray<RProperty> RMonthNames
+		protected RPropertyArray<RSystem.RString> r_MonthNames;
+		public virtual RPropertyArray<RSystem.RString> RMonthNames
 		{
 			get
 			{
@@ -1985,8 +1985,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// Boolean HasSpacesInMonthNames
 		/// </summary>
-		protected RProperty r_HasSpacesInMonthNames;
-		public virtual RProperty RHasSpacesInMonthNames
+		protected RSystem.RBoolean r_HasSpacesInMonthNames;
+		public virtual RSystem.RBoolean RHasSpacesInMonthNames
 		{
 			get
 			{
@@ -2002,8 +2002,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// Boolean HasSpacesInDayNames
 		/// </summary>
-		protected RProperty r_HasSpacesInDayNames;
-		public virtual RProperty RHasSpacesInDayNames
+		protected RSystem.RBoolean r_HasSpacesInDayNames;
+		public virtual RSystem.RBoolean RHasSpacesInDayNames
 		{
 			get
 			{
@@ -2019,8 +2019,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String[] AllYearMonthPatterns
 		/// </summary>
-		protected RPropertyArray<RProperty> r_AllYearMonthPatterns;
-		public virtual RPropertyArray<RProperty> RAllYearMonthPatterns
+		protected RPropertyArray<RSystem.RString> r_AllYearMonthPatterns;
+		public virtual RPropertyArray<RSystem.RString> RAllYearMonthPatterns
 		{
 			get
 			{
@@ -2036,8 +2036,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String[] AllShortDatePatterns
 		/// </summary>
-		protected RPropertyArray<RProperty> r_AllShortDatePatterns;
-		public virtual RPropertyArray<RProperty> RAllShortDatePatterns
+		protected RPropertyArray<RSystem.RString> r_AllShortDatePatterns;
+		public virtual RPropertyArray<RSystem.RString> RAllShortDatePatterns
 		{
 			get
 			{
@@ -2053,8 +2053,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String[] AllShortTimePatterns
 		/// </summary>
-		protected RPropertyArray<RProperty> r_AllShortTimePatterns;
-		public virtual RPropertyArray<RProperty> RAllShortTimePatterns
+		protected RPropertyArray<RSystem.RString> r_AllShortTimePatterns;
+		public virtual RPropertyArray<RSystem.RString> RAllShortTimePatterns
 		{
 			get
 			{
@@ -2070,8 +2070,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String[] AllLongDatePatterns
 		/// </summary>
-		protected RPropertyArray<RProperty> r_AllLongDatePatterns;
-		public virtual RPropertyArray<RProperty> RAllLongDatePatterns
+		protected RPropertyArray<RSystem.RString> r_AllLongDatePatterns;
+		public virtual RPropertyArray<RSystem.RString> RAllLongDatePatterns
 		{
 			get
 			{
@@ -2087,8 +2087,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String[] AllLongTimePatterns
 		/// </summary>
-		protected RPropertyArray<RProperty> r_AllLongTimePatterns;
-		public virtual RPropertyArray<RProperty> RAllLongTimePatterns
+		protected RPropertyArray<RSystem.RString> r_AllLongTimePatterns;
+		public virtual RPropertyArray<RSystem.RString> RAllLongTimePatterns
 		{
 			get
 			{
@@ -2104,8 +2104,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String[] UnclonedYearMonthPatterns
 		/// </summary>
-		protected RPropertyArray<RProperty> r_UnclonedYearMonthPatterns;
-		public virtual RPropertyArray<RProperty> RUnclonedYearMonthPatterns
+		protected RPropertyArray<RSystem.RString> r_UnclonedYearMonthPatterns;
+		public virtual RPropertyArray<RSystem.RString> RUnclonedYearMonthPatterns
 		{
 			get
 			{
@@ -2121,8 +2121,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String[] UnclonedShortDatePatterns
 		/// </summary>
-		protected RPropertyArray<RProperty> r_UnclonedShortDatePatterns;
-		public virtual RPropertyArray<RProperty> RUnclonedShortDatePatterns
+		protected RPropertyArray<RSystem.RString> r_UnclonedShortDatePatterns;
+		public virtual RPropertyArray<RSystem.RString> RUnclonedShortDatePatterns
 		{
 			get
 			{
@@ -2138,8 +2138,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String[] UnclonedLongDatePatterns
 		/// </summary>
-		protected RPropertyArray<RProperty> r_UnclonedLongDatePatterns;
-		public virtual RPropertyArray<RProperty> RUnclonedLongDatePatterns
+		protected RPropertyArray<RSystem.RString> r_UnclonedLongDatePatterns;
+		public virtual RPropertyArray<RSystem.RString> RUnclonedLongDatePatterns
 		{
 			get
 			{
@@ -2155,8 +2155,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String[] UnclonedShortTimePatterns
 		/// </summary>
-		protected RPropertyArray<RProperty> r_UnclonedShortTimePatterns;
-		public virtual RPropertyArray<RProperty> RUnclonedShortTimePatterns
+		protected RPropertyArray<RSystem.RString> r_UnclonedShortTimePatterns;
+		public virtual RPropertyArray<RSystem.RString> RUnclonedShortTimePatterns
 		{
 			get
 			{
@@ -2172,8 +2172,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String[] UnclonedLongTimePatterns
 		/// </summary>
-		protected RPropertyArray<RProperty> r_UnclonedLongTimePatterns;
-		public virtual RPropertyArray<RProperty> RUnclonedLongTimePatterns
+		protected RPropertyArray<RSystem.RString> r_UnclonedLongTimePatterns;
+		public virtual RPropertyArray<RSystem.RString> RUnclonedLongTimePatterns
 		{
 			get
 			{
@@ -2189,8 +2189,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// Boolean IsReadOnly
 		/// </summary>
-		protected RProperty r_IsReadOnly;
-		public virtual RProperty RIsReadOnly
+		protected RSystem.RBoolean r_IsReadOnly;
+		public virtual RSystem.RBoolean RIsReadOnly
 		{
 			get
 			{
@@ -2206,8 +2206,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String NativeCalendarName
 		/// </summary>
-		protected RProperty r_NativeCalendarName;
-		public virtual RProperty RNativeCalendarName
+		protected RSystem.RString r_NativeCalendarName;
+		public virtual RSystem.RString RNativeCalendarName
 		{
 			get
 			{
@@ -2223,8 +2223,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String[] AbbreviatedMonthGenitiveNames
 		/// </summary>
-		protected RPropertyArray<RProperty> r_AbbreviatedMonthGenitiveNames;
-		public virtual RPropertyArray<RProperty> RAbbreviatedMonthGenitiveNames
+		protected RPropertyArray<RSystem.RString> r_AbbreviatedMonthGenitiveNames;
+		public virtual RPropertyArray<RSystem.RString> RAbbreviatedMonthGenitiveNames
 		{
 			get
 			{
@@ -2240,8 +2240,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String[] MonthGenitiveNames
 		/// </summary>
-		protected RPropertyArray<RProperty> r_MonthGenitiveNames;
-		public virtual RPropertyArray<RProperty> RMonthGenitiveNames
+		protected RPropertyArray<RSystem.RString> r_MonthGenitiveNames;
+		public virtual RPropertyArray<RSystem.RString> RMonthGenitiveNames
 		{
 			get
 			{
@@ -2257,8 +2257,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String FullTimeSpanPositivePattern
 		/// </summary>
-		protected RProperty r_FullTimeSpanPositivePattern;
-		public virtual RProperty RFullTimeSpanPositivePattern
+		protected RSystem.RString r_FullTimeSpanPositivePattern;
+		public virtual RSystem.RString RFullTimeSpanPositivePattern
 		{
 			get
 			{
@@ -2274,8 +2274,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String FullTimeSpanNegativePattern
 		/// </summary>
-		protected RProperty r_FullTimeSpanNegativePattern;
-		public virtual RProperty RFullTimeSpanNegativePattern
+		protected RSystem.RString r_FullTimeSpanNegativePattern;
+		public virtual RSystem.RString RFullTimeSpanNegativePattern
 		{
 			get
 			{
@@ -2325,8 +2325,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// Boolean HasForceTwoDigitYears
 		/// </summary>
-		protected RProperty r_HasForceTwoDigitYears;
-		public virtual RProperty RHasForceTwoDigitYears
+		protected RSystem.RBoolean r_HasForceTwoDigitYears;
+		public virtual RSystem.RBoolean RHasForceTwoDigitYears
 		{
 			get
 			{
@@ -2342,8 +2342,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// Boolean HasYearMonthAdjustment
 		/// </summary>
-		protected RProperty r_HasYearMonthAdjustment;
-		public virtual RProperty RHasYearMonthAdjustment
+		protected RSystem.RBoolean r_HasYearMonthAdjustment;
+		public virtual RSystem.RBoolean RHasYearMonthAdjustment
 		{
 			get
 			{

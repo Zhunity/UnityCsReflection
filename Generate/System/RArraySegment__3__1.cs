@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Int32 _offset
 		/// </summary>
-		protected RField r__offset;
-		public virtual RField R_offset
+		protected RSystem.RInt32 r__offset;
+		public virtual RSystem.RInt32 R_offset
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Int32 _count
 		/// </summary>
-		protected RField r__count;
-		public virtual RField R_count
+		protected RSystem.RInt32 r__count;
+		public virtual RSystem.RInt32 R_count
 		{
 			get
 			{
@@ -115,8 +115,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// Int32 Offset
 		/// </summary>
-		protected RProperty r_Offset;
-		public virtual RProperty ROffset
+		protected RSystem.RInt32 r_Offset;
+		public virtual RSystem.RInt32 ROffset
 		{
 			get
 			{
@@ -132,8 +132,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// Int32 Count
 		/// </summary>
-		protected RProperty r_Count;
-		public virtual RProperty RCount
+		protected RSystem.RInt32 r_Count;
+		public virtual RSystem.RInt32 RCount
 		{
 			get
 			{
@@ -200,8 +200,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// Boolean System.Collections.Generic.ICollection<T>.IsReadOnly
 		/// </summary>
-		protected RProperty r_System__2__Collections__2__Generic__2__ICollection__0__T__1____2__IsReadOnly;
-		public virtual RProperty RSystem__2__Collections__2__Generic__2__ICollection__0__T__1____2__IsReadOnly
+		protected RSystem.RBoolean r_System__2__Collections__2__Generic__2__ICollection__0__T__1____2__IsReadOnly;
+		public virtual RSystem.RBoolean RSystem__2__Collections__2__Generic__2__ICollection__0__T__1____2__IsReadOnly
 		{
 			get
 			{

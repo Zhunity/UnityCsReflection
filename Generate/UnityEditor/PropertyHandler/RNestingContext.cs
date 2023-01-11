@@ -32,8 +32,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Int32 m_NestingLevel
 		/// </summary>
-		protected RField r_m_NestingLevel;
-		public virtual RField Rm_NestingLevel
+		protected RSystem.RInt32 r_m_NestingLevel;
+		public virtual RSystem.RInt32 Rm_NestingLevel
 		{
 			get
 			{
@@ -49,8 +49,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Int32 m_OldNestingLevel
 		/// </summary>
-		protected RField r_m_OldNestingLevel;
-		public virtual RField Rm_OldNestingLevel
+		protected RSystem.RInt32 r_m_OldNestingLevel;
+		public virtual RSystem.RInt32 Rm_OldNestingLevel
 		{
 			get
 			{

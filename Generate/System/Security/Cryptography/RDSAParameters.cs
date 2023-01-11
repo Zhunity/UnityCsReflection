@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
 		/// <summary>
 		/// System.Byte[] P
 		/// </summary>
-		protected RFieldArray<RField> r_P;
-		public virtual RFieldArray<RField> RP
+		protected RFieldArray<RSystem.RByte> r_P;
+		public virtual RFieldArray<RSystem.RByte> RP
 		{
 			get
 			{
@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
 		/// <summary>
 		/// System.Byte[] Q
 		/// </summary>
-		protected RFieldArray<RField> r_Q;
-		public virtual RFieldArray<RField> RQ
+		protected RFieldArray<RSystem.RByte> r_Q;
+		public virtual RFieldArray<RSystem.RByte> RQ
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
 		/// <summary>
 		/// System.Byte[] G
 		/// </summary>
-		protected RFieldArray<RField> r_G;
-		public virtual RFieldArray<RField> RG
+		protected RFieldArray<RSystem.RByte> r_G;
+		public virtual RFieldArray<RSystem.RByte> RG
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
 		/// <summary>
 		/// System.Byte[] Y
 		/// </summary>
-		protected RFieldArray<RField> r_Y;
-		public virtual RFieldArray<RField> RY
+		protected RFieldArray<RSystem.RByte> r_Y;
+		public virtual RFieldArray<RSystem.RByte> RY
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
 		/// <summary>
 		/// System.Byte[] J
 		/// </summary>
-		protected RFieldArray<RField> r_J;
-		public virtual RFieldArray<RField> RJ
+		protected RFieldArray<RSystem.RByte> r_J;
+		public virtual RFieldArray<RSystem.RByte> RJ
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
 		/// <summary>
 		/// System.Byte[] X
 		/// </summary>
-		protected RFieldArray<RField> r_X;
-		public virtual RFieldArray<RField> RX
+		protected RFieldArray<RSystem.RByte> r_X;
+		public virtual RFieldArray<RSystem.RByte> RX
 		{
 			get
 			{
@@ -115,8 +115,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
 		/// <summary>
 		/// System.Byte[] Seed
 		/// </summary>
-		protected RFieldArray<RField> r_Seed;
-		public virtual RFieldArray<RField> RSeed
+		protected RFieldArray<RSystem.RByte> r_Seed;
+		public virtual RFieldArray<RSystem.RByte> RSeed
 		{
 			get
 			{
@@ -132,8 +132,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
 		/// <summary>
 		/// System.Int32 Counter
 		/// </summary>
-		protected RField r_Counter;
-		public virtual RField RCounter
+		protected RSystem.RInt32 r_Counter;
+		public virtual RSystem.RInt32 RCounter
 		{
 			get
 			{

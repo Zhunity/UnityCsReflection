@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.String _fullName
 		/// </summary>
-		protected RField r__fullName;
-		public virtual RField R_fullName
+		protected RSystem.RString r__fullName;
+		public virtual RSystem.RString R_fullName
 		{
 			get
 			{
@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.String _codeBase
 		/// </summary>
-		protected RField r__codeBase;
-		public virtual RField R_codeBase
+		protected RSystem.RString r__codeBase;
+		public virtual RSystem.RString R_codeBase
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.String CodeBase
 		/// </summary>
-		protected RProperty r_CodeBase;
-		public virtual RProperty RCodeBase
+		protected RSystem.RString r_CodeBase;
+		public virtual RSystem.RString RCodeBase
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.String FullName
 		/// </summary>
-		protected RProperty r_FullName;
-		public virtual RProperty RFullName
+		protected RSystem.RString r_FullName;
+		public virtual RSystem.RString RFullName
 		{
 			get
 			{

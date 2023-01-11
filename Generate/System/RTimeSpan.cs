@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Int64 TicksPerMillisecond
 		/// </summary>
-		protected static RField r_TicksPerMillisecond;
-		public static RField RTicksPerMillisecond
+		protected static RSystem.RInt64 r_TicksPerMillisecond;
+		public static RSystem.RInt64 RTicksPerMillisecond
 		{
 			get
 			{
@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Double MillisecondsPerTick
 		/// </summary>
-		protected static RField r_MillisecondsPerTick;
-		public static RField RMillisecondsPerTick
+		protected static RSystem.RDouble r_MillisecondsPerTick;
+		public static RSystem.RDouble RMillisecondsPerTick
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Int64 TicksPerSecond
 		/// </summary>
-		protected static RField r_TicksPerSecond;
-		public static RField RTicksPerSecond
+		protected static RSystem.RInt64 r_TicksPerSecond;
+		public static RSystem.RInt64 RTicksPerSecond
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Double SecondsPerTick
 		/// </summary>
-		protected static RField r_SecondsPerTick;
-		public static RField RSecondsPerTick
+		protected static RSystem.RDouble r_SecondsPerTick;
+		public static RSystem.RDouble RSecondsPerTick
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Int64 TicksPerMinute
 		/// </summary>
-		protected static RField r_TicksPerMinute;
-		public static RField RTicksPerMinute
+		protected static RSystem.RInt64 r_TicksPerMinute;
+		public static RSystem.RInt64 RTicksPerMinute
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Double MinutesPerTick
 		/// </summary>
-		protected static RField r_MinutesPerTick;
-		public static RField RMinutesPerTick
+		protected static RSystem.RDouble r_MinutesPerTick;
+		public static RSystem.RDouble RMinutesPerTick
 		{
 			get
 			{
@@ -115,8 +115,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Int64 TicksPerHour
 		/// </summary>
-		protected static RField r_TicksPerHour;
-		public static RField RTicksPerHour
+		protected static RSystem.RInt64 r_TicksPerHour;
+		public static RSystem.RInt64 RTicksPerHour
 		{
 			get
 			{
@@ -132,8 +132,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Double HoursPerTick
 		/// </summary>
-		protected static RField r_HoursPerTick;
-		public static RField RHoursPerTick
+		protected static RSystem.RDouble r_HoursPerTick;
+		public static RSystem.RDouble RHoursPerTick
 		{
 			get
 			{
@@ -149,8 +149,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Int64 TicksPerDay
 		/// </summary>
-		protected static RField r_TicksPerDay;
-		public static RField RTicksPerDay
+		protected static RSystem.RInt64 r_TicksPerDay;
+		public static RSystem.RInt64 RTicksPerDay
 		{
 			get
 			{
@@ -166,8 +166,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Double DaysPerTick
 		/// </summary>
-		protected static RField r_DaysPerTick;
-		public static RField RDaysPerTick
+		protected static RSystem.RDouble r_DaysPerTick;
+		public static RSystem.RDouble RDaysPerTick
 		{
 			get
 			{
@@ -183,8 +183,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Int32 MillisPerSecond
 		/// </summary>
-		protected static RField r_MillisPerSecond;
-		public static RField RMillisPerSecond
+		protected static RSystem.RInt32 r_MillisPerSecond;
+		public static RSystem.RInt32 RMillisPerSecond
 		{
 			get
 			{
@@ -200,8 +200,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Int32 MillisPerMinute
 		/// </summary>
-		protected static RField r_MillisPerMinute;
-		public static RField RMillisPerMinute
+		protected static RSystem.RInt32 r_MillisPerMinute;
+		public static RSystem.RInt32 RMillisPerMinute
 		{
 			get
 			{
@@ -217,8 +217,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Int32 MillisPerHour
 		/// </summary>
-		protected static RField r_MillisPerHour;
-		public static RField RMillisPerHour
+		protected static RSystem.RInt32 r_MillisPerHour;
+		public static RSystem.RInt32 RMillisPerHour
 		{
 			get
 			{
@@ -234,8 +234,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Int32 MillisPerDay
 		/// </summary>
-		protected static RField r_MillisPerDay;
-		public static RField RMillisPerDay
+		protected static RSystem.RInt32 r_MillisPerDay;
+		public static RSystem.RInt32 RMillisPerDay
 		{
 			get
 			{
@@ -251,8 +251,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Int64 MaxSeconds
 		/// </summary>
-		protected static RField r_MaxSeconds;
-		public static RField RMaxSeconds
+		protected static RSystem.RInt64 r_MaxSeconds;
+		public static RSystem.RInt64 RMaxSeconds
 		{
 			get
 			{
@@ -268,8 +268,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Int64 MinSeconds
 		/// </summary>
-		protected static RField r_MinSeconds;
-		public static RField RMinSeconds
+		protected static RSystem.RInt64 r_MinSeconds;
+		public static RSystem.RInt64 RMinSeconds
 		{
 			get
 			{
@@ -285,8 +285,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Int64 MaxMilliSeconds
 		/// </summary>
-		protected static RField r_MaxMilliSeconds;
-		public static RField RMaxMilliSeconds
+		protected static RSystem.RInt64 r_MaxMilliSeconds;
+		public static RSystem.RInt64 RMaxMilliSeconds
 		{
 			get
 			{
@@ -302,8 +302,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Int64 MinMilliSeconds
 		/// </summary>
-		protected static RField r_MinMilliSeconds;
-		public static RField RMinMilliSeconds
+		protected static RSystem.RInt64 r_MinMilliSeconds;
+		public static RSystem.RInt64 RMinMilliSeconds
 		{
 			get
 			{
@@ -319,8 +319,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Int64 TicksPerTenthSecond
 		/// </summary>
-		protected static RField r_TicksPerTenthSecond;
-		public static RField RTicksPerTenthSecond
+		protected static RSystem.RInt64 r_TicksPerTenthSecond;
+		public static RSystem.RInt64 RTicksPerTenthSecond
 		{
 			get
 			{
@@ -387,8 +387,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Int64 _ticks
 		/// </summary>
-		protected RField r__ticks;
-		public virtual RField R_ticks
+		protected RSystem.RInt64 r__ticks;
+		public virtual RSystem.RInt64 R_ticks
 		{
 			get
 			{
@@ -404,8 +404,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// Int64 Ticks
 		/// </summary>
-		protected RProperty r_Ticks;
-		public virtual RProperty RTicks
+		protected RSystem.RInt64 r_Ticks;
+		public virtual RSystem.RInt64 RTicks
 		{
 			get
 			{
@@ -421,8 +421,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// Int32 Days
 		/// </summary>
-		protected RProperty r_Days;
-		public virtual RProperty RDays
+		protected RSystem.RInt32 r_Days;
+		public virtual RSystem.RInt32 RDays
 		{
 			get
 			{
@@ -438,8 +438,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// Int32 Hours
 		/// </summary>
-		protected RProperty r_Hours;
-		public virtual RProperty RHours
+		protected RSystem.RInt32 r_Hours;
+		public virtual RSystem.RInt32 RHours
 		{
 			get
 			{
@@ -455,8 +455,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// Int32 Milliseconds
 		/// </summary>
-		protected RProperty r_Milliseconds;
-		public virtual RProperty RMilliseconds
+		protected RSystem.RInt32 r_Milliseconds;
+		public virtual RSystem.RInt32 RMilliseconds
 		{
 			get
 			{
@@ -472,8 +472,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// Int32 Minutes
 		/// </summary>
-		protected RProperty r_Minutes;
-		public virtual RProperty RMinutes
+		protected RSystem.RInt32 r_Minutes;
+		public virtual RSystem.RInt32 RMinutes
 		{
 			get
 			{
@@ -489,8 +489,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// Int32 Seconds
 		/// </summary>
-		protected RProperty r_Seconds;
-		public virtual RProperty RSeconds
+		protected RSystem.RInt32 r_Seconds;
+		public virtual RSystem.RInt32 RSeconds
 		{
 			get
 			{
@@ -506,8 +506,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// Double TotalDays
 		/// </summary>
-		protected RProperty r_TotalDays;
-		public virtual RProperty RTotalDays
+		protected RSystem.RDouble r_TotalDays;
+		public virtual RSystem.RDouble RTotalDays
 		{
 			get
 			{
@@ -523,8 +523,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// Double TotalHours
 		/// </summary>
-		protected RProperty r_TotalHours;
-		public virtual RProperty RTotalHours
+		protected RSystem.RDouble r_TotalHours;
+		public virtual RSystem.RDouble RTotalHours
 		{
 			get
 			{
@@ -540,8 +540,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// Double TotalMilliseconds
 		/// </summary>
-		protected RProperty r_TotalMilliseconds;
-		public virtual RProperty RTotalMilliseconds
+		protected RSystem.RDouble r_TotalMilliseconds;
+		public virtual RSystem.RDouble RTotalMilliseconds
 		{
 			get
 			{
@@ -557,8 +557,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// Double TotalMinutes
 		/// </summary>
-		protected RProperty r_TotalMinutes;
-		public virtual RProperty RTotalMinutes
+		protected RSystem.RDouble r_TotalMinutes;
+		public virtual RSystem.RDouble RTotalMinutes
 		{
 			get
 			{
@@ -574,8 +574,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// Double TotalSeconds
 		/// </summary>
-		protected RProperty r_TotalSeconds;
-		public virtual RProperty RTotalSeconds
+		protected RSystem.RDouble r_TotalSeconds;
+		public virtual RSystem.RDouble RTotalSeconds
 		{
 			get
 			{
@@ -1986,6 +1986,16 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
+        public static System.TimeSpan Parse(RSystem.RReadOnlySpan<RSystem.RChar> @input, System.IFormatProvider @formatProvider)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@input.Value, @formatProvider};
+            var ___result = RParse_ReadOnlySpan_d_Char_p__IFormatProvider.Invoke(___genericsType, ___parameters);
+
+            return (System.TimeSpan)___result;
+        }
+
 
         public static System.TimeSpan ParseExact(System.String @input, System.String @format, System.IFormatProvider @formatProvider)
         {
@@ -2020,6 +2030,16 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
+        public static System.TimeSpan ParseExact(RSystem.RReadOnlySpan<RSystem.RChar> @input, RSystem.RReadOnlySpan<RSystem.RChar> @format, System.IFormatProvider @formatProvider, System.Globalization.TimeSpanStyles @styles)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@input.Value, @format.Value, @formatProvider, @styles};
+            var ___result = RParseExact_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p__IFormatProvider_TimeSpanStyles.Invoke(___genericsType, ___parameters);
+
+            return (System.TimeSpan)___result;
+        }
+
 
         public static System.TimeSpan ParseExact(System.String @input, System.String[] @formats, System.IFormatProvider @formatProvider, System.Globalization.TimeSpanStyles @styles)
         {
@@ -2031,6 +2051,16 @@ namespace SMFrame.Editor.Refleaction.RSystem
             return (System.TimeSpan)___result;
         }
 
+
+        public static System.TimeSpan ParseExact(RSystem.RReadOnlySpan<RSystem.RChar> @input, System.String[] @formats, System.IFormatProvider @formatProvider, System.Globalization.TimeSpanStyles @styles)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@input.Value, @formats, @formatProvider, @styles};
+            var ___result = RParseExact_ReadOnlySpan_d_Char_p__StringArray_IFormatProvider_TimeSpanStyles.Invoke(___genericsType, ___parameters);
+
+            return (System.TimeSpan)___result;
+        }
 
 
         public static System.Boolean TryParse(System.String @s, out System.TimeSpan @result)
@@ -2046,6 +2076,18 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
+        public static System.Boolean TryParse(RSystem.RReadOnlySpan<RSystem.RChar> @s, out System.TimeSpan @result)
+        {
+			@result = default;
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@s.Value, @result};
+            var ___result = RTryParse_ReadOnlySpan_d_Char_p__Out_TimeSpan.Invoke(___genericsType, ___parameters);
+			@result = (System.TimeSpan)___parameters[1];
+
+            return (System.Boolean)___result;
+        }
+
 
         public static System.Boolean TryParse(System.String @input, System.IFormatProvider @formatProvider, out System.TimeSpan @result)
         {
@@ -2059,6 +2101,18 @@ namespace SMFrame.Editor.Refleaction.RSystem
             return (System.Boolean)___result;
         }
 
+
+        public static System.Boolean TryParse(RSystem.RReadOnlySpan<RSystem.RChar> @input, System.IFormatProvider @formatProvider, out System.TimeSpan @result)
+        {
+			@result = default;
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@input.Value, @formatProvider, @result};
+            var ___result = RTryParse_ReadOnlySpan_d_Char_p__IFormatProvider_Out_TimeSpan.Invoke(___genericsType, ___parameters);
+			@result = (System.TimeSpan)___parameters[2];
+
+            return (System.Boolean)___result;
+        }
 
 
         public static System.Boolean TryParseExact(System.String @input, System.String @format, System.IFormatProvider @formatProvider, out System.TimeSpan @result)
@@ -2074,6 +2128,18 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
+        public static System.Boolean TryParseExact(RSystem.RReadOnlySpan<RSystem.RChar> @input, RSystem.RReadOnlySpan<RSystem.RChar> @format, System.IFormatProvider @formatProvider, out System.TimeSpan @result)
+        {
+			@result = default;
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@input.Value, @format.Value, @formatProvider, @result};
+            var ___result = RTryParseExact_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p__IFormatProvider_Out_TimeSpan.Invoke(___genericsType, ___parameters);
+			@result = (System.TimeSpan)___parameters[3];
+
+            return (System.Boolean)___result;
+        }
+
 
         public static System.Boolean TryParseExact(System.String @input, System.String[] @formats, System.IFormatProvider @formatProvider, out System.TimeSpan @result)
         {
@@ -2087,6 +2153,18 @@ namespace SMFrame.Editor.Refleaction.RSystem
             return (System.Boolean)___result;
         }
 
+
+        public static System.Boolean TryParseExact(RSystem.RReadOnlySpan<RSystem.RChar> @input, System.String[] @formats, System.IFormatProvider @formatProvider, out System.TimeSpan @result)
+        {
+			@result = default;
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@input.Value, @formats, @formatProvider, @result};
+            var ___result = RTryParseExact_ReadOnlySpan_d_Char_p__StringArray_IFormatProvider_Out_TimeSpan.Invoke(___genericsType, ___parameters);
+			@result = (System.TimeSpan)___parameters[3];
+
+            return (System.Boolean)___result;
+        }
 
 
         public static System.Boolean TryParseExact(System.String @input, System.String @format, System.IFormatProvider @formatProvider, System.Globalization.TimeSpanStyles @styles, out System.TimeSpan @result)
@@ -2102,6 +2180,18 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
+        public static System.Boolean TryParseExact(RSystem.RReadOnlySpan<RSystem.RChar> @input, RSystem.RReadOnlySpan<RSystem.RChar> @format, System.IFormatProvider @formatProvider, System.Globalization.TimeSpanStyles @styles, out System.TimeSpan @result)
+        {
+			@result = default;
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@input.Value, @format.Value, @formatProvider, @styles, @result};
+            var ___result = RTryParseExact_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p__IFormatProvider_TimeSpanStyles_Out_TimeSpan.Invoke(___genericsType, ___parameters);
+			@result = (System.TimeSpan)___parameters[4];
+
+            return (System.Boolean)___result;
+        }
+
 
         public static System.Boolean TryParseExact(System.String @input, System.String[] @formats, System.IFormatProvider @formatProvider, System.Globalization.TimeSpanStyles @styles, out System.TimeSpan @result)
         {
@@ -2115,6 +2205,18 @@ namespace SMFrame.Editor.Refleaction.RSystem
             return (System.Boolean)___result;
         }
 
+
+        public static System.Boolean TryParseExact(RSystem.RReadOnlySpan<RSystem.RChar> @input, System.String[] @formats, System.IFormatProvider @formatProvider, System.Globalization.TimeSpanStyles @styles, out System.TimeSpan @result)
+        {
+			@result = default;
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@input.Value, @formats, @formatProvider, @styles, @result};
+            var ___result = RTryParseExact_ReadOnlySpan_d_Char_p__StringArray_IFormatProvider_TimeSpanStyles_Out_TimeSpan.Invoke(___genericsType, ___parameters);
+			@result = (System.TimeSpan)___parameters[4];
+
+            return (System.Boolean)___result;
+        }
 
 
         public virtual System.String ToString()
@@ -2149,6 +2251,18 @@ namespace SMFrame.Editor.Refleaction.RSystem
             return (System.String)___result;
         }
 
+
+        public virtual System.Boolean TryFormat(RSystem.RSpan<RSystem.RChar> @destination, out System.Int32 @charsWritten, RSystem.RReadOnlySpan<RSystem.RChar> @format, System.IFormatProvider @formatProvider)
+        {
+			@charsWritten = default;
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@destination.Value, @charsWritten, @format.Value, @formatProvider};
+            var ___result = RTryFormat_Span_d_Char_p__Out_Int32_ReadOnlySpan_d_Char_p__IFormatProvider.Invoke(___genericsType, ___parameters);
+			@charsWritten = (System.Int32)___parameters[1];
+
+            return (System.Boolean)___result;
+        }
 
 
         public static System.TimeSpan op_UnaryNegation(System.TimeSpan @t)

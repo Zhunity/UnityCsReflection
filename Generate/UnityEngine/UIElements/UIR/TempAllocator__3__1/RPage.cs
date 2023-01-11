@@ -15,8 +15,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// Unity.Collections.NativeArray`1[T] array
 		/// </summary>
-		protected RField r_array;
-		public virtual RField Rarray
+		protected RUnity.RCollections.RNativeArray<RField> r_array;
+		public virtual RUnity.RCollections.RNativeArray<RField> Rarray
 		{
 			get
 			{
@@ -32,8 +32,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Int32 used
 		/// </summary>
-		protected RField r_used;
-		public virtual RField Rused
+		protected RSystem.RInt32 r_used;
+		public virtual RSystem.RInt32 Rused
 		{
 			get
 			{

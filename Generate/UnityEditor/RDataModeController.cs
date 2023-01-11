@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Boolean isAutomatic
 		/// </summary>
-		protected RField r_isAutomatic;
-		public virtual RField RisAutomatic
+		protected RSystem.RBoolean r_isAutomatic;
+		public virtual RSystem.RBoolean RisAutomatic
 		{
 			get
 			{

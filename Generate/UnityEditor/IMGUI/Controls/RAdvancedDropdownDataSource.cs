@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 		/// <summary>
 		/// System.String kSearchHeader
 		/// </summary>
-		protected static RField r_kSearchHeader;
-		public static RField RkSearchHeader
+		protected static RSystem.RString r_kSearchHeader;
+		public static RSystem.RString RkSearchHeader
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 		/// <summary>
 		/// System.Collections.Generic.List`1[System.Int32] m_SelectedIDs
 		/// </summary>
-		protected RSystem.RCollections.RGeneric.RList<RField> r_m_SelectedIDs;
-		public virtual RSystem.RCollections.RGeneric.RList<RField> Rm_SelectedIDs
+		protected RSystem.RCollections.RGeneric.RList<RSystem.RInt32> r_m_SelectedIDs;
+		public virtual RSystem.RCollections.RGeneric.RList<RSystem.RInt32> Rm_SelectedIDs
 		{
 			get
 			{
@@ -166,8 +166,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 		/// <summary>
 		/// System.Collections.Generic.List`1[System.Int32] selectedIDs
 		/// </summary>
-		protected RSystem.RCollections.RGeneric.RList<RProperty> r_selectedIDs;
-		public virtual RSystem.RCollections.RGeneric.RList<RProperty> RselectedIDs
+		protected RSystem.RCollections.RGeneric.RList<RSystem.RInt32> r_selectedIDs;
+		public virtual RSystem.RCollections.RGeneric.RList<RSystem.RInt32> RselectedIDs
 		{
 			get
 			{

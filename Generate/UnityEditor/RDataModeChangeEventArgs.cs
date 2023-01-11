@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Boolean changedThroughUI
 		/// </summary>
-		protected RField r_changedThroughUI;
-		public virtual RField RchangedThroughUI
+		protected RSystem.RBoolean r_changedThroughUI;
+		public virtual RSystem.RBoolean RchangedThroughUI
 		{
 			get
 			{

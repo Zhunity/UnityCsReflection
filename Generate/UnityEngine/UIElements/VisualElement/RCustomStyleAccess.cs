@@ -15,8 +15,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Collections.Generic.Dictionary`2[System.String,UnityEngine.UIElements.StyleSheets.StylePropertyValue] m_CustomProperties
 		/// </summary>
-		protected RSystem.RCollections.RGeneric.RDictionary<RField, RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue> r_m_CustomProperties;
-		public virtual RSystem.RCollections.RGeneric.RDictionary<RField, RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue> Rm_CustomProperties
+		protected RSystem.RCollections.RGeneric.RDictionary<RSystem.RString, RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue> r_m_CustomProperties;
+		public virtual RSystem.RCollections.RGeneric.RDictionary<RSystem.RString, RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue> Rm_CustomProperties
 		{
 			get
 			{
@@ -32,8 +32,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Single m_DpiScaling
 		/// </summary>
-		protected RField r_m_DpiScaling;
-		public virtual RField Rm_DpiScaling
+		protected RSystem.RSingle r_m_DpiScaling;
+		public virtual RSystem.RSingle Rm_DpiScaling
 		{
 			get
 			{
@@ -370,7 +370,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 	    {
 	    }
 
-        public virtual void SetContext(RSystem.RCollections.RGeneric.RDictionary<RType, RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue> @customProperties, System.Single @dpiScaling)
+        public virtual void SetContext(RSystem.RCollections.RGeneric.RDictionary<RSystem.RString, RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue> @customProperties, System.Single @dpiScaling)
         {
 
             var ___genericsType = new Type[] {};

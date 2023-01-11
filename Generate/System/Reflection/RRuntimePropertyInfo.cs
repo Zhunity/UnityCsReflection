@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.IntPtr klass
 		/// </summary>
-		protected RField r_klass;
-		public virtual RField Rklass
+		protected RSystem.RIntPtr r_klass;
+		public virtual RSystem.RIntPtr Rklass
 		{
 			get
 			{
@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.IntPtr prop
 		/// </summary>
-		protected RField r_prop;
-		public virtual RField Rprop
+		protected RSystem.RIntPtr r_prop;
+		public virtual RSystem.RIntPtr Rprop
 		{
 			get
 			{
@@ -166,8 +166,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// Boolean CanRead
 		/// </summary>
-		protected RProperty r_CanRead;
-		public virtual RProperty RCanRead
+		protected RSystem.RBoolean r_CanRead;
+		public virtual RSystem.RBoolean RCanRead
 		{
 			get
 			{
@@ -183,8 +183,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// Boolean CanWrite
 		/// </summary>
-		protected RProperty r_CanWrite;
-		public virtual RProperty RCanWrite
+		protected RSystem.RBoolean r_CanWrite;
+		public virtual RSystem.RBoolean RCanWrite
 		{
 			get
 			{
@@ -251,8 +251,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.String Name
 		/// </summary>
-		protected RProperty r_Name;
-		public virtual RProperty RName
+		protected RSystem.RString r_Name;
+		public virtual RSystem.RString RName
 		{
 			get
 			{
@@ -268,8 +268,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// Int32 MetadataToken
 		/// </summary>
-		protected RProperty r_MetadataToken;
-		public virtual RProperty RMetadataToken
+		protected RSystem.RInt32 r_MetadataToken;
+		public virtual RSystem.RInt32 RMetadataToken
 		{
 			get
 			{
@@ -302,8 +302,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// Boolean IsSpecialName
 		/// </summary>
-		protected RProperty r_IsSpecialName;
-		public virtual RProperty RIsSpecialName
+		protected RSystem.RBoolean r_IsSpecialName;
+		public virtual RSystem.RBoolean RIsSpecialName
 		{
 			get
 			{

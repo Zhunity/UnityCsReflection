@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Int32 _currArrayIndex
 		/// </summary>
-		protected RField r__currArrayIndex;
-		public virtual RField R_currArrayIndex
+		protected RSystem.RInt32 r__currArrayIndex;
+		public virtual RSystem.RInt32 R_currArrayIndex
 		{
 			get
 			{

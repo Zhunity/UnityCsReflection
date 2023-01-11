@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Byte[] il
 		/// </summary>
-		protected RFieldArray<RField> r_il;
-		public virtual RFieldArray<RField> Ril
+		protected RFieldArray<RSystem.RByte> r_il;
+		public virtual RFieldArray<RSystem.RByte> Ril
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Boolean init_locals
 		/// </summary>
-		protected RField r_init_locals;
-		public virtual RField Rinit_locals
+		protected RSystem.RBoolean r_init_locals;
+		public virtual RSystem.RBoolean Rinit_locals
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Int32 sig_token
 		/// </summary>
-		protected RField r_sig_token;
-		public virtual RField Rsig_token
+		protected RSystem.RInt32 r_sig_token;
+		public virtual RSystem.RInt32 Rsig_token
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Int32 max_stack
 		/// </summary>
-		protected RField r_max_stack;
-		public virtual RField Rmax_stack
+		protected RSystem.RInt32 r_max_stack;
+		public virtual RSystem.RInt32 Rmax_stack
 		{
 			get
 			{
@@ -149,8 +149,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// Boolean InitLocals
 		/// </summary>
-		protected RProperty r_InitLocals;
-		public virtual RProperty RInitLocals
+		protected RSystem.RBoolean r_InitLocals;
+		public virtual RSystem.RBoolean RInitLocals
 		{
 			get
 			{
@@ -166,8 +166,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// Int32 LocalSignatureMetadataToken
 		/// </summary>
-		protected RProperty r_LocalSignatureMetadataToken;
-		public virtual RProperty RLocalSignatureMetadataToken
+		protected RSystem.RInt32 r_LocalSignatureMetadataToken;
+		public virtual RSystem.RInt32 RLocalSignatureMetadataToken
 		{
 			get
 			{
@@ -183,8 +183,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// Int32 MaxStackSize
 		/// </summary>
-		protected RProperty r_MaxStackSize;
-		public virtual RProperty RMaxStackSize
+		protected RSystem.RInt32 r_MaxStackSize;
+		public virtual RSystem.RInt32 RMaxStackSize
 		{
 			get
 			{

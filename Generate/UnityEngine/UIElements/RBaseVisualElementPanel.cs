@@ -149,8 +149,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Single m_Scale
 		/// </summary>
-		protected RField r_m_Scale;
-		public virtual RField Rm_Scale
+		protected RSystem.RSingle r_m_Scale;
+		public virtual RSystem.RSingle Rm_Scale
 		{
 			get
 			{
@@ -183,8 +183,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Single m_PixelsPerPoint
 		/// </summary>
-		protected RField r_m_PixelsPerPoint;
-		public virtual RField Rm_PixelsPerPoint
+		protected RSystem.RSingle r_m_PixelsPerPoint;
+		public virtual RSystem.RSingle Rm_PixelsPerPoint
 		{
 			get
 			{
@@ -200,8 +200,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Single <referenceSpritePixelsPerUnit>k__BackingField
 		/// </summary>
-		protected RField r___0__referenceSpritePixelsPerUnit__1__k__BackingField;
-		public virtual RField R__0__referenceSpritePixelsPerUnit__1__k__BackingField
+		protected RSystem.RSingle r___0__referenceSpritePixelsPerUnit__1__k__BackingField;
+		public virtual RSystem.RSingle R__0__referenceSpritePixelsPerUnit__1__k__BackingField
 		{
 			get
 			{
@@ -234,8 +234,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Boolean <duringLayoutPhase>k__BackingField
 		/// </summary>
-		protected RField r___0__duringLayoutPhase__1__k__BackingField;
-		public virtual RField R__0__duringLayoutPhase__1__k__BackingField
+		protected RSystem.RBoolean r___0__duringLayoutPhase__1__k__BackingField;
+		public virtual RSystem.RBoolean R__0__duringLayoutPhase__1__k__BackingField
 		{
 			get
 			{
@@ -302,8 +302,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Boolean <disposed>k__BackingField
 		/// </summary>
-		protected RField r___0__disposed__1__k__BackingField;
-		public virtual RField R__0__disposed__1__k__BackingField
+		protected RSystem.RBoolean r___0__disposed__1__k__BackingField;
+		public virtual RSystem.RBoolean R__0__disposed__1__k__BackingField
 		{
 			get
 			{
@@ -438,8 +438,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Int32 IMGUIContainersCount
 		/// </summary>
-		protected RProperty r_IMGUIContainersCount;
-		public virtual RProperty RIMGUIContainersCount
+		protected RSystem.RInt32 r_IMGUIContainersCount;
+		public virtual RSystem.RInt32 RIMGUIContainersCount
 		{
 			get
 			{
@@ -506,8 +506,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Boolean enableAssetReload
 		/// </summary>
-		protected RProperty r_enableAssetReload;
-		public virtual RProperty RenableAssetReload
+		protected RSystem.RBoolean r_enableAssetReload;
+		public virtual RSystem.RBoolean RenableAssetReload
 		{
 			get
 			{
@@ -523,8 +523,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Single scale
 		/// </summary>
-		protected RProperty r_scale;
-		public virtual RProperty Rscale
+		protected RSystem.RSingle r_scale;
+		public virtual RSystem.RSingle Rscale
 		{
 			get
 			{
@@ -540,8 +540,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Single pixelsPerPoint
 		/// </summary>
-		protected RProperty r_pixelsPerPoint;
-		public virtual RProperty RpixelsPerPoint
+		protected RSystem.RSingle r_pixelsPerPoint;
+		public virtual RSystem.RSingle RpixelsPerPoint
 		{
 			get
 			{
@@ -557,8 +557,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Single scaledPixelsPerPoint
 		/// </summary>
-		protected RProperty r_scaledPixelsPerPoint;
-		public virtual RProperty RscaledPixelsPerPoint
+		protected RSystem.RSingle r_scaledPixelsPerPoint;
+		public virtual RSystem.RSingle RscaledPixelsPerPoint
 		{
 			get
 			{
@@ -574,8 +574,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Single referenceSpritePixelsPerUnit
 		/// </summary>
-		protected RProperty r_referenceSpritePixelsPerUnit;
-		public virtual RProperty RreferenceSpritePixelsPerUnit
+		protected RSystem.RSingle r_referenceSpritePixelsPerUnit;
+		public virtual RSystem.RSingle RreferenceSpritePixelsPerUnit
 		{
 			get
 			{
@@ -625,8 +625,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Boolean duringLayoutPhase
 		/// </summary>
-		protected RProperty r_duringLayoutPhase;
-		public virtual RProperty RduringLayoutPhase
+		protected RSystem.RBoolean r_duringLayoutPhase;
+		public virtual RSystem.RBoolean RduringLayoutPhase
 		{
 			get
 			{
@@ -642,8 +642,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Boolean isDirty
 		/// </summary>
-		protected RProperty r_isDirty;
-		public virtual RProperty RisDirty
+		protected RSystem.RBoolean r_isDirty;
+		public virtual RSystem.RBoolean RisDirty
 		{
 			get
 			{
@@ -659,8 +659,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UInt32 version
 		/// </summary>
-		protected RProperty r_version;
-		public virtual RProperty Rversion
+		protected RSystem.RUInt32 r_version;
+		public virtual RSystem.RUInt32 Rversion
 		{
 			get
 			{
@@ -676,8 +676,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UInt32 repaintVersion
 		/// </summary>
-		protected RProperty r_repaintVersion;
-		public virtual RProperty RrepaintVersion
+		protected RSystem.RUInt32 r_repaintVersion;
+		public virtual RSystem.RUInt32 RrepaintVersion
 		{
 			get
 			{
@@ -693,8 +693,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UInt32 hierarchyVersion
 		/// </summary>
-		protected RProperty r_hierarchyVersion;
-		public virtual RProperty RhierarchyVersion
+		protected RSystem.RUInt32 r_hierarchyVersion;
+		public virtual RSystem.RUInt32 RhierarchyVersion
 		{
 			get
 			{
@@ -846,8 +846,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Boolean disposed
 		/// </summary>
-		protected RProperty r_disposed;
-		public virtual RProperty Rdisposed
+		protected RSystem.RBoolean r_disposed;
+		public virtual RSystem.RBoolean Rdisposed
 		{
 			get
 			{

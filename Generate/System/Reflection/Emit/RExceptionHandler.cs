@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Int32 m_exceptionClass
 		/// </summary>
-		protected RField r_m_exceptionClass;
-		public virtual RField Rm_exceptionClass
+		protected RSystem.RInt32 r_m_exceptionClass;
+		public virtual RSystem.RInt32 Rm_exceptionClass
 		{
 			get
 			{
@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Int32 m_tryStartOffset
 		/// </summary>
-		protected RField r_m_tryStartOffset;
-		public virtual RField Rm_tryStartOffset
+		protected RSystem.RInt32 r_m_tryStartOffset;
+		public virtual RSystem.RInt32 Rm_tryStartOffset
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Int32 m_tryEndOffset
 		/// </summary>
-		protected RField r_m_tryEndOffset;
-		public virtual RField Rm_tryEndOffset
+		protected RSystem.RInt32 r_m_tryEndOffset;
+		public virtual RSystem.RInt32 Rm_tryEndOffset
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Int32 m_filterOffset
 		/// </summary>
-		protected RField r_m_filterOffset;
-		public virtual RField Rm_filterOffset
+		protected RSystem.RInt32 r_m_filterOffset;
+		public virtual RSystem.RInt32 Rm_filterOffset
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Int32 m_handlerStartOffset
 		/// </summary>
-		protected RField r_m_handlerStartOffset;
-		public virtual RField Rm_handlerStartOffset
+		protected RSystem.RInt32 r_m_handlerStartOffset;
+		public virtual RSystem.RInt32 Rm_handlerStartOffset
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Int32 m_handlerEndOffset
 		/// </summary>
-		protected RField r_m_handlerEndOffset;
-		public virtual RField Rm_handlerEndOffset
+		protected RSystem.RInt32 r_m_handlerEndOffset;
+		public virtual RSystem.RInt32 Rm_handlerEndOffset
 		{
 			get
 			{
@@ -132,8 +132,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// Int32 ExceptionTypeToken
 		/// </summary>
-		protected RProperty r_ExceptionTypeToken;
-		public virtual RProperty RExceptionTypeToken
+		protected RSystem.RInt32 r_ExceptionTypeToken;
+		public virtual RSystem.RInt32 RExceptionTypeToken
 		{
 			get
 			{
@@ -149,8 +149,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// Int32 TryOffset
 		/// </summary>
-		protected RProperty r_TryOffset;
-		public virtual RProperty RTryOffset
+		protected RSystem.RInt32 r_TryOffset;
+		public virtual RSystem.RInt32 RTryOffset
 		{
 			get
 			{
@@ -166,8 +166,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// Int32 TryLength
 		/// </summary>
-		protected RProperty r_TryLength;
-		public virtual RProperty RTryLength
+		protected RSystem.RInt32 r_TryLength;
+		public virtual RSystem.RInt32 RTryLength
 		{
 			get
 			{
@@ -183,8 +183,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// Int32 FilterOffset
 		/// </summary>
-		protected RProperty r_FilterOffset;
-		public virtual RProperty RFilterOffset
+		protected RSystem.RInt32 r_FilterOffset;
+		public virtual RSystem.RInt32 RFilterOffset
 		{
 			get
 			{
@@ -200,8 +200,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// Int32 HandlerOffset
 		/// </summary>
-		protected RProperty r_HandlerOffset;
-		public virtual RProperty RHandlerOffset
+		protected RSystem.RInt32 r_HandlerOffset;
+		public virtual RSystem.RInt32 RHandlerOffset
 		{
 			get
 			{
@@ -217,8 +217,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// Int32 HandlerLength
 		/// </summary>
-		protected RProperty r_HandlerLength;
-		public virtual RProperty RHandlerLength
+		protected RSystem.RInt32 r_HandlerLength;
+		public virtual RSystem.RInt32 RHandlerLength
 		{
 			get
 			{

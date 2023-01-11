@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Collections.Generic.Dictionary`2[System.Int32,System.Int32] m_NameLookup
 		/// </summary>
-		protected RSystem.RCollections.RGeneric.RDictionary<RField, RField> r_m_NameLookup;
-		public virtual RSystem.RCollections.RGeneric.RDictionary<RField, RField> Rm_NameLookup
+		protected RSystem.RCollections.RGeneric.RDictionary<RSystem.RInt32, RSystem.RInt32> r_m_NameLookup;
+		public virtual RSystem.RCollections.RGeneric.RDictionary<RSystem.RInt32, RSystem.RInt32> Rm_NameLookup
 		{
 			get
 			{
@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Collections.Generic.Dictionary`2[System.UInt32,System.Int32] m_GlyphIndexLookup
 		/// </summary>
-		protected RSystem.RCollections.RGeneric.RDictionary<RField, RField> r_m_GlyphIndexLookup;
-		public virtual RSystem.RCollections.RGeneric.RDictionary<RField, RField> Rm_GlyphIndexLookup
+		protected RSystem.RCollections.RGeneric.RDictionary<RSystem.RUInt32, RSystem.RInt32> r_m_GlyphIndexLookup;
+		public virtual RSystem.RCollections.RGeneric.RDictionary<RSystem.RUInt32, RSystem.RInt32> Rm_GlyphIndexLookup
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Collections.Generic.Dictionary`2[System.UInt32,UnityEngine.TextCore.Text.SpriteCharacter] m_SpriteCharacterLookup
 		/// </summary>
-		protected RSystem.RCollections.RGeneric.RDictionary<RField, RUnityEngine.RTextCore.RText.RSpriteCharacter> r_m_SpriteCharacterLookup;
-		public virtual RSystem.RCollections.RGeneric.RDictionary<RField, RUnityEngine.RTextCore.RText.RSpriteCharacter> Rm_SpriteCharacterLookup
+		protected RSystem.RCollections.RGeneric.RDictionary<RSystem.RUInt32, RUnityEngine.RTextCore.RText.RSpriteCharacter> r_m_SpriteCharacterLookup;
+		public virtual RSystem.RCollections.RGeneric.RDictionary<RSystem.RUInt32, RUnityEngine.RTextCore.RText.RSpriteCharacter> Rm_SpriteCharacterLookup
 		{
 			get
 			{
@@ -132,8 +132,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Collections.Generic.Dictionary`2[System.UInt32,UnityEngine.TextCore.Text.SpriteGlyph] m_SpriteGlyphLookup
 		/// </summary>
-		protected RSystem.RCollections.RGeneric.RDictionary<RField, RUnityEngine.RTextCore.RText.RSpriteGlyph> r_m_SpriteGlyphLookup;
-		public virtual RSystem.RCollections.RGeneric.RDictionary<RField, RUnityEngine.RTextCore.RText.RSpriteGlyph> Rm_SpriteGlyphLookup
+		protected RSystem.RCollections.RGeneric.RDictionary<RSystem.RUInt32, RUnityEngine.RTextCore.RText.RSpriteGlyph> r_m_SpriteGlyphLookup;
+		public virtual RSystem.RCollections.RGeneric.RDictionary<RSystem.RUInt32, RUnityEngine.RTextCore.RText.RSpriteGlyph> Rm_SpriteGlyphLookup
 		{
 			get
 			{
@@ -166,8 +166,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Boolean m_IsSpriteAssetLookupTablesDirty
 		/// </summary>
-		protected RField r_m_IsSpriteAssetLookupTablesDirty;
-		public virtual RField Rm_IsSpriteAssetLookupTablesDirty
+		protected RSystem.RBoolean r_m_IsSpriteAssetLookupTablesDirty;
+		public virtual RSystem.RBoolean Rm_IsSpriteAssetLookupTablesDirty
 		{
 			get
 			{
@@ -183,8 +183,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Collections.Generic.HashSet`1[System.Int32] k_searchedSpriteAssets
 		/// </summary>
-		protected static RSystem.RCollections.RGeneric.RHashSet<RField> r_k_searchedSpriteAssets;
-		public static RSystem.RCollections.RGeneric.RHashSet<RField> Rk_searchedSpriteAssets
+		protected static RSystem.RCollections.RGeneric.RHashSet<RSystem.RInt32> r_k_searchedSpriteAssets;
+		public static RSystem.RCollections.RGeneric.RHashSet<RSystem.RInt32> Rk_searchedSpriteAssets
 		{
 			get
 			{
@@ -200,8 +200,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.String m_Version
 		/// </summary>
-		protected RField r_m_Version;
-		public virtual RField Rm_Version
+		protected RSystem.RString r_m_Version;
+		public virtual RSystem.RString Rm_Version
 		{
 			get
 			{
@@ -217,8 +217,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Int32 m_InstanceID
 		/// </summary>
-		protected RField r_m_InstanceID;
-		public virtual RField Rm_InstanceID
+		protected RSystem.RInt32 r_m_InstanceID;
+		public virtual RSystem.RInt32 Rm_InstanceID
 		{
 			get
 			{
@@ -234,8 +234,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Int32 m_HashCode
 		/// </summary>
-		protected RField r_m_HashCode;
-		public virtual RField Rm_HashCode
+		protected RSystem.RInt32 r_m_HashCode;
+		public virtual RSystem.RInt32 Rm_HashCode
 		{
 			get
 			{
@@ -268,8 +268,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Int32 m_MaterialHashCode
 		/// </summary>
-		protected RField r_m_MaterialHashCode;
-		public virtual RField Rm_MaterialHashCode
+		protected RSystem.RInt32 r_m_MaterialHashCode;
+		public virtual RSystem.RInt32 Rm_MaterialHashCode
 		{
 			get
 			{
@@ -336,8 +336,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Collections.Generic.Dictionary`2[System.UInt32,UnityEngine.TextCore.Text.SpriteCharacter] spriteCharacterLookupTable
 		/// </summary>
-		protected RSystem.RCollections.RGeneric.RDictionary<RProperty, RUnityEngine.RTextCore.RText.RSpriteCharacter> r_spriteCharacterLookupTable;
-		public virtual RSystem.RCollections.RGeneric.RDictionary<RProperty, RUnityEngine.RTextCore.RText.RSpriteCharacter> RspriteCharacterLookupTable
+		protected RSystem.RCollections.RGeneric.RDictionary<RSystem.RUInt32, RUnityEngine.RTextCore.RText.RSpriteCharacter> r_spriteCharacterLookupTable;
+		public virtual RSystem.RCollections.RGeneric.RDictionary<RSystem.RUInt32, RUnityEngine.RTextCore.RText.RSpriteCharacter> RspriteCharacterLookupTable
 		{
 			get
 			{
@@ -370,8 +370,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.String version
 		/// </summary>
-		protected RProperty r_version;
-		public virtual RProperty Rversion
+		protected RSystem.RString r_version;
+		public virtual RSystem.RString Rversion
 		{
 			get
 			{
@@ -387,8 +387,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// Int32 instanceID
 		/// </summary>
-		protected RProperty r_instanceID;
-		public virtual RProperty RinstanceID
+		protected RSystem.RInt32 r_instanceID;
+		public virtual RSystem.RInt32 RinstanceID
 		{
 			get
 			{
@@ -404,8 +404,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// Int32 hashCode
 		/// </summary>
-		protected RProperty r_hashCode;
-		public virtual RProperty RhashCode
+		protected RSystem.RInt32 r_hashCode;
+		public virtual RSystem.RInt32 RhashCode
 		{
 			get
 			{
@@ -438,8 +438,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// Int32 materialHashCode
 		/// </summary>
-		protected RProperty r_materialHashCode;
-		public virtual RProperty RmaterialHashCode
+		protected RSystem.RInt32 r_materialHashCode;
+		public virtual RSystem.RInt32 RmaterialHashCode
 		{
 			get
 			{
@@ -455,8 +455,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.String name
 		/// </summary>
-		protected RProperty r_name;
-		public virtual RProperty Rname
+		protected RSystem.RString r_name;
+		public virtual RSystem.RString Rname
 		{
 			get
 			{

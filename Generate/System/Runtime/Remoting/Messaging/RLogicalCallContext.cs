@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
 		/// <summary>
 		/// System.String s_CorrelationMgrSlotName
 		/// </summary>
-		protected static RField r_s_CorrelationMgrSlotName;
-		public static RField Rs_CorrelationMgrSlotName
+		protected static RSystem.RString r_s_CorrelationMgrSlotName;
+		public static RSystem.RString Rs_CorrelationMgrSlotName
 		{
 			get
 			{
@@ -115,8 +115,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
 		/// <summary>
 		/// System.Boolean m_IsCorrelationMgr
 		/// </summary>
-		protected RField r_m_IsCorrelationMgr;
-		public virtual RField Rm_IsCorrelationMgr
+		protected RSystem.RBoolean r_m_IsCorrelationMgr;
+		public virtual RSystem.RBoolean Rm_IsCorrelationMgr
 		{
 			get
 			{
@@ -166,8 +166,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
 		/// <summary>
 		/// Boolean HasInfo
 		/// </summary>
-		protected RProperty r_HasInfo;
-		public virtual RProperty RHasInfo
+		protected RSystem.RBoolean r_HasInfo;
+		public virtual RSystem.RBoolean RHasInfo
 		{
 			get
 			{
@@ -183,8 +183,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
 		/// <summary>
 		/// Boolean HasUserData
 		/// </summary>
-		protected RProperty r_HasUserData;
-		public virtual RProperty RHasUserData
+		protected RSystem.RBoolean r_HasUserData;
+		public virtual RSystem.RBoolean RHasUserData
 		{
 			get
 			{

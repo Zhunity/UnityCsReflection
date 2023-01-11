@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// Boolean isEmpty
 		/// </summary>
-		protected RProperty r_isEmpty;
-		public virtual RProperty RisEmpty
+		protected RSystem.RBoolean r_isEmpty;
+		public virtual RSystem.RBoolean RisEmpty
 		{
 			get
 			{

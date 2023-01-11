@@ -17,8 +17,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.UInt32 U0
 		/// </summary>
-		protected RField r_U0;
-		public virtual RField RU0
+		protected RSystem.RUInt32 r_U0;
+		public virtual RSystem.RUInt32 RU0
 		{
 			get
 			{
@@ -34,8 +34,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.UInt32 U1
 		/// </summary>
-		protected RField r_U1;
-		public virtual RField RU1
+		protected RSystem.RUInt32 r_U1;
+		public virtual RSystem.RUInt32 RU1
 		{
 			get
 			{
@@ -51,8 +51,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.UInt32 U2
 		/// </summary>
-		protected RField r_U2;
-		public virtual RField RU2
+		protected RSystem.RUInt32 r_U2;
+		public virtual RSystem.RUInt32 RU2
 		{
 			get
 			{
@@ -68,8 +68,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.UInt32 U3
 		/// </summary>
-		protected RField r_U3;
-		public virtual RField RU3
+		protected RSystem.RUInt32 r_U3;
+		public virtual RSystem.RUInt32 RU3
 		{
 			get
 			{
@@ -85,8 +85,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.UInt64 ulo64LE
 		/// </summary>
-		protected RField r_ulo64LE;
-		public virtual RField Rulo64LE
+		protected RSystem.RUInt64 r_ulo64LE;
+		public virtual RSystem.RUInt64 Rulo64LE
 		{
 			get
 			{
@@ -102,8 +102,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.UInt64 uhigh64LE
 		/// </summary>
-		protected RField r_uhigh64LE;
-		public virtual RField Ruhigh64LE
+		protected RSystem.RUInt64 r_uhigh64LE;
+		public virtual RSystem.RUInt64 Ruhigh64LE
 		{
 			get
 			{
@@ -119,8 +119,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// UInt64 Low64
 		/// </summary>
-		protected RProperty r_Low64;
-		public virtual RProperty RLow64
+		protected RSystem.RUInt64 r_Low64;
+		public virtual RSystem.RUInt64 RLow64
 		{
 			get
 			{
@@ -136,8 +136,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// UInt64 High64
 		/// </summary>
-		protected RProperty r_High64;
-		public virtual RProperty RHigh64
+		protected RSystem.RUInt64 r_High64;
+		public virtual RSystem.RUInt64 RHigh64
 		{
 			get
 			{

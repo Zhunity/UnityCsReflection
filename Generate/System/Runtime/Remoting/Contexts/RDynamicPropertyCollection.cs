@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts
 		/// <summary>
 		/// Boolean HasProperties
 		/// </summary>
-		protected RProperty r_HasProperties;
-		public virtual RProperty RHasProperties
+		protected RSystem.RBoolean r_HasProperties;
+		public virtual RSystem.RBoolean RHasProperties
 		{
 			get
 			{

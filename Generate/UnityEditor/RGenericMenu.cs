@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Boolean <allowDuplicateNames>k__BackingField
 		/// </summary>
-		protected RField r___0__allowDuplicateNames__1__k__BackingField;
-		public virtual RField R__0__allowDuplicateNames__1__k__BackingField
+		protected RSystem.RBoolean r___0__allowDuplicateNames__1__k__BackingField;
+		public virtual RSystem.RBoolean R__0__allowDuplicateNames__1__k__BackingField
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Boolean allowDuplicateNames
 		/// </summary>
-		protected RProperty r_allowDuplicateNames;
-		public virtual RProperty RallowDuplicateNames
+		protected RSystem.RBoolean r_allowDuplicateNames;
+		public virtual RSystem.RBoolean RallowDuplicateNames
 		{
 			get
 			{

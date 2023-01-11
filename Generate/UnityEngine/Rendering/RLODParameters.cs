@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Int32 m_IsOrthographic
 		/// </summary>
-		protected RField r_m_IsOrthographic;
-		public virtual RField Rm_IsOrthographic
+		protected RSystem.RInt32 r_m_IsOrthographic;
+		public virtual RSystem.RInt32 Rm_IsOrthographic
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Single m_FieldOfView
 		/// </summary>
-		protected RField r_m_FieldOfView;
-		public virtual RField Rm_FieldOfView
+		protected RSystem.RSingle r_m_FieldOfView;
+		public virtual RSystem.RSingle Rm_FieldOfView
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Single m_OrthoSize
 		/// </summary>
-		protected RField r_m_OrthoSize;
-		public virtual RField Rm_OrthoSize
+		protected RSystem.RSingle r_m_OrthoSize;
+		public virtual RSystem.RSingle Rm_OrthoSize
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Int32 m_CameraPixelHeight
 		/// </summary>
-		protected RField r_m_CameraPixelHeight;
-		public virtual RField Rm_CameraPixelHeight
+		protected RSystem.RInt32 r_m_CameraPixelHeight;
+		public virtual RSystem.RInt32 Rm_CameraPixelHeight
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// Boolean isOrthographic
 		/// </summary>
-		protected RProperty r_isOrthographic;
-		public virtual RProperty RisOrthographic
+		protected RSystem.RBoolean r_isOrthographic;
+		public virtual RSystem.RBoolean RisOrthographic
 		{
 			get
 			{
@@ -132,8 +132,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// Single fieldOfView
 		/// </summary>
-		protected RProperty r_fieldOfView;
-		public virtual RProperty RfieldOfView
+		protected RSystem.RSingle r_fieldOfView;
+		public virtual RSystem.RSingle RfieldOfView
 		{
 			get
 			{
@@ -149,8 +149,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// Single orthoSize
 		/// </summary>
-		protected RProperty r_orthoSize;
-		public virtual RProperty RorthoSize
+		protected RSystem.RSingle r_orthoSize;
+		public virtual RSystem.RSingle RorthoSize
 		{
 			get
 			{
@@ -166,8 +166,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// Int32 cameraPixelHeight
 		/// </summary>
-		protected RProperty r_cameraPixelHeight;
-		public virtual RProperty RcameraPixelHeight
+		protected RSystem.RInt32 r_cameraPixelHeight;
+		public virtual RSystem.RInt32 RcameraPixelHeight
 		{
 			get
 			{

@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Int32 index
 		/// </summary>
-		protected RField r_index;
-		public virtual RField Rindex
+		protected RSystem.RInt32 r_index;
+		public virtual RSystem.RInt32 Rindex
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Single width
 		/// </summary>
-		protected RField r_width;
-		public virtual RField Rwidth
+		protected RSystem.RSingle r_width;
+		public virtual RSystem.RSingle Rwidth
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Int32 size
 		/// </summary>
-		protected RField r_size;
-		public virtual RField Rsize
+		protected RSystem.RInt32 r_size;
+		public virtual RSystem.RInt32 Rsize
 		{
 			get
 			{
@@ -115,8 +115,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Boolean flipped
 		/// </summary>
-		protected RField r_flipped;
-		public virtual RField Rflipped
+		protected RSystem.RBoolean r_flipped;
+		public virtual RSystem.RBoolean Rflipped
 		{
 			get
 			{
@@ -132,8 +132,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 advance
 		/// </summary>
-		protected RProperty r_advance;
-		public virtual RProperty Radvance
+		protected RSystem.RInt32 r_advance;
+		public virtual RSystem.RInt32 Radvance
 		{
 			get
 			{
@@ -149,8 +149,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 glyphWidth
 		/// </summary>
-		protected RProperty r_glyphWidth;
-		public virtual RProperty RglyphWidth
+		protected RSystem.RInt32 r_glyphWidth;
+		public virtual RSystem.RInt32 RglyphWidth
 		{
 			get
 			{
@@ -166,8 +166,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 glyphHeight
 		/// </summary>
-		protected RProperty r_glyphHeight;
-		public virtual RProperty RglyphHeight
+		protected RSystem.RInt32 r_glyphHeight;
+		public virtual RSystem.RInt32 RglyphHeight
 		{
 			get
 			{
@@ -183,8 +183,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 bearing
 		/// </summary>
-		protected RProperty r_bearing;
-		public virtual RProperty Rbearing
+		protected RSystem.RInt32 r_bearing;
+		public virtual RSystem.RInt32 Rbearing
 		{
 			get
 			{
@@ -200,8 +200,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 minY
 		/// </summary>
-		protected RProperty r_minY;
-		public virtual RProperty RminY
+		protected RSystem.RInt32 r_minY;
+		public virtual RSystem.RInt32 RminY
 		{
 			get
 			{
@@ -217,8 +217,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 maxY
 		/// </summary>
-		protected RProperty r_maxY;
-		public virtual RProperty RmaxY
+		protected RSystem.RInt32 r_maxY;
+		public virtual RSystem.RInt32 RmaxY
 		{
 			get
 			{
@@ -234,8 +234,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 minX
 		/// </summary>
-		protected RProperty r_minX;
-		public virtual RProperty RminX
+		protected RSystem.RInt32 r_minX;
+		public virtual RSystem.RInt32 RminX
 		{
 			get
 			{
@@ -251,8 +251,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 maxX
 		/// </summary>
-		protected RProperty r_maxX;
-		public virtual RProperty RmaxX
+		protected RSystem.RInt32 r_maxX;
+		public virtual RSystem.RInt32 RmaxX
 		{
 			get
 			{

@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Byte[] data
 		/// </summary>
-		protected RFieldArray<RField> r_data;
-		public virtual RFieldArray<RField> Rdata
+		protected RFieldArray<RSystem.RByte> r_data;
+		public virtual RFieldArray<RSystem.RByte> Rdata
 		{
 			get
 			{
@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.String name
 		/// </summary>
-		protected RField r_name;
-		public virtual RField Rname
+		protected RSystem.RString r_name;
+		public virtual RSystem.RString Rname
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.String filename
 		/// </summary>
-		protected RField r_filename;
-		public virtual RField Rfilename
+		protected RSystem.RString r_filename;
+		public virtual RSystem.RString Rfilename
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Int32 offset
 		/// </summary>
-		protected RField r_offset;
-		public virtual RField Roffset
+		protected RSystem.RInt32 r_offset;
+		public virtual RSystem.RInt32 Roffset
 		{
 			get
 			{

@@ -132,8 +132,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Collections.Generic.Dictionary`2[System.String,UnityEngine.UIElements.StyleSheets.StylePropertyValue] customProperties
 		/// </summary>
-		protected RSystem.RCollections.RGeneric.RDictionary<RField, RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue> r_customProperties;
-		public virtual RSystem.RCollections.RGeneric.RDictionary<RField, RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue> RcustomProperties
+		protected RSystem.RCollections.RGeneric.RDictionary<RSystem.RString, RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue> r_customProperties;
+		public virtual RSystem.RCollections.RGeneric.RDictionary<RSystem.RString, RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue> RcustomProperties
 		{
 			get
 			{
@@ -149,8 +149,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int64 matchingRulesHash
 		/// </summary>
-		protected RField r_matchingRulesHash;
-		public virtual RField RmatchingRulesHash
+		protected RSystem.RInt64 r_matchingRulesHash;
+		public virtual RSystem.RInt64 RmatchingRulesHash
 		{
 			get
 			{
@@ -166,8 +166,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Single dpiScaling
 		/// </summary>
-		protected RField r_dpiScaling;
-		public virtual RField RdpiScaling
+		protected RSystem.RSingle r_dpiScaling;
+		public virtual RSystem.RSingle RdpiScaling
 		{
 			get
 			{
@@ -200,8 +200,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Int32 customPropertiesCount
 		/// </summary>
-		protected RProperty r_customPropertiesCount;
-		public virtual RProperty RcustomPropertiesCount
+		protected RSystem.RInt32 r_customPropertiesCount;
+		public virtual RSystem.RInt32 RcustomPropertiesCount
 		{
 			get
 			{
@@ -217,8 +217,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Boolean hasTransition
 		/// </summary>
-		protected RProperty r_hasTransition;
-		public virtual RProperty RhasTransition
+		protected RSystem.RBoolean r_hasTransition;
+		public virtual RSystem.RBoolean RhasTransition
 		{
 			get
 			{
@@ -438,8 +438,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Single borderBottomWidth
 		/// </summary>
-		protected RProperty r_borderBottomWidth;
-		public virtual RProperty RborderBottomWidth
+		protected RSystem.RSingle r_borderBottomWidth;
+		public virtual RSystem.RSingle RborderBottomWidth
 		{
 			get
 			{
@@ -472,8 +472,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Single borderLeftWidth
 		/// </summary>
-		protected RProperty r_borderLeftWidth;
-		public virtual RProperty RborderLeftWidth
+		protected RSystem.RSingle r_borderLeftWidth;
+		public virtual RSystem.RSingle RborderLeftWidth
 		{
 			get
 			{
@@ -506,8 +506,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Single borderRightWidth
 		/// </summary>
-		protected RProperty r_borderRightWidth;
-		public virtual RProperty RborderRightWidth
+		protected RSystem.RSingle r_borderRightWidth;
+		public virtual RSystem.RSingle RborderRightWidth
 		{
 			get
 			{
@@ -574,8 +574,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Single borderTopWidth
 		/// </summary>
-		protected RProperty r_borderTopWidth;
-		public virtual RProperty RborderTopWidth
+		protected RSystem.RSingle r_borderTopWidth;
+		public virtual RSystem.RSingle RborderTopWidth
 		{
 			get
 			{
@@ -693,8 +693,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Single flexGrow
 		/// </summary>
-		protected RProperty r_flexGrow;
-		public virtual RProperty RflexGrow
+		protected RSystem.RSingle r_flexGrow;
+		public virtual RSystem.RSingle RflexGrow
 		{
 			get
 			{
@@ -710,8 +710,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Single flexShrink
 		/// </summary>
-		protected RProperty r_flexShrink;
-		public virtual RProperty RflexShrink
+		protected RSystem.RSingle r_flexShrink;
+		public virtual RSystem.RSingle RflexShrink
 		{
 			get
 			{
@@ -965,8 +965,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Single opacity
 		/// </summary>
-		protected RProperty r_opacity;
-		public virtual RProperty Ropacity
+		protected RSystem.RSingle r_opacity;
+		public virtual RSystem.RSingle Ropacity
 		{
 			get
 			{
@@ -1390,8 +1390,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Int32 unitySliceBottom
 		/// </summary>
-		protected RProperty r_unitySliceBottom;
-		public virtual RProperty RunitySliceBottom
+		protected RSystem.RInt32 r_unitySliceBottom;
+		public virtual RSystem.RInt32 RunitySliceBottom
 		{
 			get
 			{
@@ -1407,8 +1407,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Int32 unitySliceLeft
 		/// </summary>
-		protected RProperty r_unitySliceLeft;
-		public virtual RProperty RunitySliceLeft
+		protected RSystem.RInt32 r_unitySliceLeft;
+		public virtual RSystem.RInt32 RunitySliceLeft
 		{
 			get
 			{
@@ -1424,8 +1424,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Int32 unitySliceRight
 		/// </summary>
-		protected RProperty r_unitySliceRight;
-		public virtual RProperty RunitySliceRight
+		protected RSystem.RInt32 r_unitySliceRight;
+		public virtual RSystem.RInt32 RunitySliceRight
 		{
 			get
 			{
@@ -1441,8 +1441,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Single unitySliceScale
 		/// </summary>
-		protected RProperty r_unitySliceScale;
-		public virtual RProperty RunitySliceScale
+		protected RSystem.RSingle r_unitySliceScale;
+		public virtual RSystem.RSingle RunitySliceScale
 		{
 			get
 			{
@@ -1458,8 +1458,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Int32 unitySliceTop
 		/// </summary>
-		protected RProperty r_unitySliceTop;
-		public virtual RProperty RunitySliceTop
+		protected RSystem.RInt32 r_unitySliceTop;
+		public virtual RSystem.RInt32 RunitySliceTop
 		{
 			get
 			{
@@ -1509,8 +1509,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Single unityTextOutlineWidth
 		/// </summary>
-		protected RProperty r_unityTextOutlineWidth;
-		public virtual RProperty RunityTextOutlineWidth
+		protected RSystem.RSingle r_unityTextOutlineWidth;
+		public virtual RSystem.RSingle RunityTextOutlineWidth
 		{
 			get
 			{

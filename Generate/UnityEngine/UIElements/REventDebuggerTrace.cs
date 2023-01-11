@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int64 <duration>k__BackingField
 		/// </summary>
-		protected RField r___0__duration__1__k__BackingField;
-		public virtual RField R__0__duration__1__k__BackingField
+		protected RSystem.RInt64 r___0__duration__1__k__BackingField;
+		public virtual RSystem.RInt64 R__0__duration__1__k__BackingField
 		{
 			get
 			{
@@ -132,8 +132,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Int64 duration
 		/// </summary>
-		protected RProperty r_duration;
-		public virtual RProperty Rduration
+		protected RSystem.RInt64 r_duration;
+		public virtual RSystem.RInt64 Rduration
 		{
 			get
 			{

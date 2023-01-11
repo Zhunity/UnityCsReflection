@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
 		/// <summary>
 		/// Boolean HasInfo
 		/// </summary>
-		protected RProperty r_HasInfo;
-		public virtual RProperty RHasInfo
+		protected RSystem.RBoolean r_HasInfo;
+		public virtual RSystem.RBoolean RHasInfo
 		{
 			get
 			{

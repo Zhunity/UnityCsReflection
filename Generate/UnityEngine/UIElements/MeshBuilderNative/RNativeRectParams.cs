@@ -219,8 +219,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Single texturePixelsPerPoint
 		/// </summary>
-		protected RField r_texturePixelsPerPoint;
-		public virtual RField RtexturePixelsPerPoint
+		protected RSystem.RSingle r_texturePixelsPerPoint;
+		public virtual RSystem.RSingle RtexturePixelsPerPoint
 		{
 			get
 			{
@@ -236,8 +236,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int32 leftSlice
 		/// </summary>
-		protected RField r_leftSlice;
-		public virtual RField RleftSlice
+		protected RSystem.RInt32 r_leftSlice;
+		public virtual RSystem.RInt32 RleftSlice
 		{
 			get
 			{
@@ -253,8 +253,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int32 topSlice
 		/// </summary>
-		protected RField r_topSlice;
-		public virtual RField RtopSlice
+		protected RSystem.RInt32 r_topSlice;
+		public virtual RSystem.RInt32 RtopSlice
 		{
 			get
 			{
@@ -270,8 +270,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int32 rightSlice
 		/// </summary>
-		protected RField r_rightSlice;
-		public virtual RField RrightSlice
+		protected RSystem.RInt32 r_rightSlice;
+		public virtual RSystem.RInt32 RrightSlice
 		{
 			get
 			{
@@ -287,8 +287,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int32 bottomSlice
 		/// </summary>
-		protected RField r_bottomSlice;
-		public virtual RField RbottomSlice
+		protected RSystem.RInt32 r_bottomSlice;
+		public virtual RSystem.RInt32 RbottomSlice
 		{
 			get
 			{
@@ -304,8 +304,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Single sliceScale
 		/// </summary>
-		protected RField r_sliceScale;
-		public virtual RField RsliceScale
+		protected RSystem.RSingle r_sliceScale;
+		public virtual RSystem.RSingle RsliceScale
 		{
 			get
 			{

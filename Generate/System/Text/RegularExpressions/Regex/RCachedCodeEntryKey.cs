@@ -32,8 +32,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.String _cultureKey
 		/// </summary>
-		protected RField r__cultureKey;
-		public virtual RField R_cultureKey
+		protected RSystem.RString r__cultureKey;
+		public virtual RSystem.RString R_cultureKey
 		{
 			get
 			{
@@ -49,8 +49,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.String _pattern
 		/// </summary>
-		protected RField r__pattern;
-		public virtual RField R_pattern
+		protected RSystem.RString r__pattern;
+		public virtual RSystem.RString R_pattern
 		{
 			get
 			{

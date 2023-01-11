@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
 		/// <summary>
 		/// System.String _uri
 		/// </summary>
-		protected RField r__uri;
-		public virtual RField R_uri
+		protected RSystem.RString r__uri;
+		public virtual RSystem.RString R_uri
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
 		/// <summary>
 		/// System.Byte[] _serializedArgs
 		/// </summary>
-		protected RFieldArray<RField> r__serializedArgs;
-		public virtual RFieldArray<RField> R_serializedArgs
+		protected RFieldArray<RSystem.RByte> r__serializedArgs;
+		public virtual RFieldArray<RSystem.RByte> R_serializedArgs
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
 		/// <summary>
 		/// System.Int32 _propertyCount
 		/// </summary>
-		protected RField r__propertyCount;
-		public virtual RField R_propertyCount
+		protected RSystem.RInt32 r__propertyCount;
+		public virtual RSystem.RInt32 R_propertyCount
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
 		/// <summary>
 		/// System.Byte[] serializedMethod
 		/// </summary>
-		protected RFieldArray<RField> r_serializedMethod;
-		public virtual RFieldArray<RField> RserializedMethod
+		protected RFieldArray<RSystem.RByte> r_serializedMethod;
+		public virtual RFieldArray<RSystem.RByte> RserializedMethod
 		{
 			get
 			{
@@ -115,8 +115,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
 		/// <summary>
 		/// System.String Uri
 		/// </summary>
-		protected RProperty r_Uri;
-		public virtual RProperty RUri
+		protected RSystem.RString r_Uri;
+		public virtual RSystem.RString RUri
 		{
 			get
 			{
@@ -132,8 +132,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
 		/// <summary>
 		/// Int32 PropertiesCount
 		/// </summary>
-		protected RProperty r_PropertiesCount;
-		public virtual RProperty RPropertiesCount
+		protected RSystem.RInt32 r_PropertiesCount;
+		public virtual RSystem.RInt32 RPropertiesCount
 		{
 			get
 			{

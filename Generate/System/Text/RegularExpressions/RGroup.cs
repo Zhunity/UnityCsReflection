@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Int32[] _caps
 		/// </summary>
-		protected RFieldArray<RField> r__caps;
-		public virtual RFieldArray<RField> R_caps
+		protected RFieldArray<RSystem.RInt32> r__caps;
+		public virtual RFieldArray<RSystem.RInt32> R_caps
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Int32 _capcount
 		/// </summary>
-		protected RField r__capcount;
-		public virtual RField R_capcount
+		protected RSystem.RInt32 r__capcount;
+		public virtual RSystem.RInt32 R_capcount
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.String <Name>k__BackingField
 		/// </summary>
-		protected RField r___0__Name__1__k__BackingField;
-		public virtual RField R__0__Name__1__k__BackingField
+		protected RSystem.RString r___0__Name__1__k__BackingField;
+		public virtual RSystem.RString R__0__Name__1__k__BackingField
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// Boolean Success
 		/// </summary>
-		protected RProperty r_Success;
-		public virtual RProperty RSuccess
+		protected RSystem.RBoolean r_Success;
+		public virtual RSystem.RBoolean RSuccess
 		{
 			get
 			{
@@ -115,8 +115,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.String Name
 		/// </summary>
-		protected RProperty r_Name;
-		public virtual RProperty RName
+		protected RSystem.RString r_Name;
+		public virtual RSystem.RString RName
 		{
 			get
 			{
@@ -149,8 +149,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// Int32 Index
 		/// </summary>
-		protected RProperty r_Index;
-		public virtual RProperty RIndex
+		protected RSystem.RInt32 r_Index;
+		public virtual RSystem.RInt32 RIndex
 		{
 			get
 			{
@@ -166,8 +166,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// Int32 Length
 		/// </summary>
-		protected RProperty r_Length;
-		public virtual RProperty RLength
+		protected RSystem.RInt32 r_Length;
+		public virtual RSystem.RInt32 RLength
 		{
 			get
 			{
@@ -183,8 +183,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.String Text
 		/// </summary>
-		protected RProperty r_Text;
-		public virtual RProperty RText
+		protected RSystem.RString r_Text;
+		public virtual RSystem.RString RText
 		{
 			get
 			{
@@ -200,8 +200,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.String Value
 		/// </summary>
-		protected RProperty r_Value;
-		public virtual RProperty RValue
+		protected RSystem.RString r_Value;
+		public virtual RSystem.RString RValue
 		{
 			get
 			{
@@ -407,25 +407,25 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
         }
 
 
-        public virtual System.Object GetLeftSubstring()
+        public virtual RSystem.RReadOnlySpan<RSystem.RChar> GetLeftSubstring()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RGetLeftSubstring.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RSystem.RReadOnlySpan<RSystem.RChar>(___result);
         }
 
 
-        public virtual System.Object GetRightSubstring()
+        public virtual RSystem.RReadOnlySpan<RSystem.RChar> GetRightSubstring()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RGetRightSubstring.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RSystem.RReadOnlySpan<RSystem.RChar>(___result);
         }
 
 

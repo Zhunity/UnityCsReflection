@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 		/// <summary>
 		/// System.Single number
 		/// </summary>
-		protected RField r_number;
-		public virtual RField Rnumber
+		protected RSystem.RSingle r_number;
+		public virtual RSystem.RSingle Rnumber
 		{
 			get
 			{

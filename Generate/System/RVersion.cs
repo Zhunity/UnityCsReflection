@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Int32 _Major
 		/// </summary>
-		protected RField r__Major;
-		public virtual RField R_Major
+		protected RSystem.RInt32 r__Major;
+		public virtual RSystem.RInt32 R_Major
 		{
 			get
 			{
@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Int32 _Minor
 		/// </summary>
-		protected RField r__Minor;
-		public virtual RField R_Minor
+		protected RSystem.RInt32 r__Minor;
+		public virtual RSystem.RInt32 R_Minor
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Int32 _Build
 		/// </summary>
-		protected RField r__Build;
-		public virtual RField R_Build
+		protected RSystem.RInt32 r__Build;
+		public virtual RSystem.RInt32 R_Build
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Int32 _Revision
 		/// </summary>
-		protected RField r__Revision;
-		public virtual RField R_Revision
+		protected RSystem.RInt32 r__Revision;
+		public virtual RSystem.RInt32 R_Revision
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// Int32 Major
 		/// </summary>
-		protected RProperty r_Major;
-		public virtual RProperty RMajor
+		protected RSystem.RInt32 r_Major;
+		public virtual RSystem.RInt32 RMajor
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// Int32 Minor
 		/// </summary>
-		protected RProperty r_Minor;
-		public virtual RProperty RMinor
+		protected RSystem.RInt32 r_Minor;
+		public virtual RSystem.RInt32 RMinor
 		{
 			get
 			{
@@ -115,8 +115,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// Int32 Build
 		/// </summary>
-		protected RProperty r_Build;
-		public virtual RProperty RBuild
+		protected RSystem.RInt32 r_Build;
+		public virtual RSystem.RInt32 RBuild
 		{
 			get
 			{
@@ -132,8 +132,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// Int32 Revision
 		/// </summary>
-		protected RProperty r_Revision;
-		public virtual RProperty RRevision
+		protected RSystem.RInt32 r_Revision;
+		public virtual RSystem.RInt32 RRevision
 		{
 			get
 			{
@@ -149,8 +149,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// Int16 MajorRevision
 		/// </summary>
-		protected RProperty r_MajorRevision;
-		public virtual RProperty RMajorRevision
+		protected RSystem.RInt16 r_MajorRevision;
+		public virtual RSystem.RInt16 RMajorRevision
 		{
 			get
 			{
@@ -166,8 +166,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// Int16 MinorRevision
 		/// </summary>
-		protected RProperty r_MinorRevision;
-		public virtual RProperty RMinorRevision
+		protected RSystem.RInt16 r_MinorRevision;
+		public virtual RSystem.RInt16 RMinorRevision
 		{
 			get
 			{
@@ -183,8 +183,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// Int32 DefaultFormatFieldCount
 		/// </summary>
-		protected RProperty r_DefaultFormatFieldCount;
-		public virtual RProperty RDefaultFormatFieldCount
+		protected RSystem.RInt32 r_DefaultFormatFieldCount;
+		public virtual RSystem.RInt32 RDefaultFormatFieldCount
 		{
 			get
 			{
@@ -762,7 +762,43 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
+        public virtual System.Boolean TryFormat(RSystem.RSpan<RSystem.RChar> @destination, out System.Int32 @charsWritten)
+        {
+			@charsWritten = default;
 
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@destination.Value, @charsWritten};
+            var ___result = RTryFormat_Span_d_Char_p__Out_Int32.Invoke(___genericsType, ___parameters);
+			@charsWritten = (System.Int32)___parameters[1];
+
+            return (System.Boolean)___result;
+        }
+
+
+        public virtual System.Boolean TryFormat(RSystem.RSpan<RSystem.RChar> @destination, System.Int32 @fieldCount, out System.Int32 @charsWritten)
+        {
+			@charsWritten = default;
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@destination.Value, @fieldCount, @charsWritten};
+            var ___result = RTryFormat_Span_d_Char_p__Int32_Out_Int32.Invoke(___genericsType, ___parameters);
+			@charsWritten = (System.Int32)___parameters[2];
+
+            return (System.Boolean)___result;
+        }
+
+
+        public virtual System.Boolean System__2__ISpanFormattable__2__TryFormat(RSystem.RSpan<RSystem.RChar> @destination, out System.Int32 @charsWritten, RSystem.RReadOnlySpan<RSystem.RChar> @format, System.IFormatProvider @provider)
+        {
+			@charsWritten = default;
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@destination.Value, @charsWritten, @format.Value, @provider};
+            var ___result = RSystem__2__ISpanFormattable__2__TryFormat_Span_d_Char_p__Out_Int32_ReadOnlySpan_d_Char_p__IFormatProvider.Invoke(___genericsType, ___parameters);
+			@charsWritten = (System.Int32)___parameters[1];
+
+            return (System.Boolean)___result;
+        }
 
 
         public virtual System.Text.StringBuilder ToCachedStringBuilder(System.Int32 @fieldCount)
@@ -787,6 +823,16 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
+        public static System.Version Parse(RSystem.RReadOnlySpan<RSystem.RChar> @input)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@input.Value};
+            var ___result = RParse_ReadOnlySpan_d_Char_p_.Invoke(___genericsType, ___parameters);
+
+            return (System.Version)___result;
+        }
+
 
         public static System.Boolean TryParse(System.String @input, out System.Version @result)
         {
@@ -801,7 +847,41 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
+        public static System.Boolean TryParse(RSystem.RReadOnlySpan<RSystem.RChar> @input, out System.Version @result)
+        {
+			@result = default;
 
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@input.Value, @result};
+            var ___result = RTryParse_ReadOnlySpan_d_Char_p__Out_Version.Invoke(___genericsType, ___parameters);
+			@result = (System.Version)___parameters[1];
+
+            return (System.Boolean)___result;
+        }
+
+
+        public static System.Version ParseVersion(RSystem.RReadOnlySpan<RSystem.RChar> @input, System.Boolean @throwOnFailure)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@input.Value, @throwOnFailure};
+            var ___result = RParseVersion_ReadOnlySpan_d_Char_p__Boolean.Invoke(___genericsType, ___parameters);
+
+            return (System.Version)___result;
+        }
+
+
+        public static System.Boolean TryParseComponent(RSystem.RReadOnlySpan<RSystem.RChar> @component, System.String @componentName, System.Boolean @throwOnFailure, out System.Int32 @parsedComponent)
+        {
+			@parsedComponent = default;
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@component.Value, @componentName, @throwOnFailure, @parsedComponent};
+            var ___result = RTryParseComponent_ReadOnlySpan_d_Char_p__String_Boolean_Out_Int32.Invoke(___genericsType, ___parameters);
+			@parsedComponent = (System.Int32)___parameters[3];
+
+            return (System.Boolean)___result;
+        }
 
 
         public static System.Boolean op_Equality(System.Version @v1, System.Version @v2)

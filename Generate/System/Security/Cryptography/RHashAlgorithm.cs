@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
 		/// <summary>
 		/// System.Boolean _disposed
 		/// </summary>
-		protected RField r__disposed;
-		public virtual RField R_disposed
+		protected RSystem.RBoolean r__disposed;
+		public virtual RSystem.RBoolean R_disposed
 		{
 			get
 			{
@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
 		/// <summary>
 		/// System.Int32 HashSizeValue
 		/// </summary>
-		protected RField r_HashSizeValue;
-		public virtual RField RHashSizeValue
+		protected RSystem.RInt32 r_HashSizeValue;
+		public virtual RSystem.RInt32 RHashSizeValue
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
 		/// <summary>
 		/// System.Byte[] HashValue
 		/// </summary>
-		protected RFieldArray<RField> r_HashValue;
-		public virtual RFieldArray<RField> RHashValue
+		protected RFieldArray<RSystem.RByte> r_HashValue;
+		public virtual RFieldArray<RSystem.RByte> RHashValue
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
 		/// <summary>
 		/// System.Int32 State
 		/// </summary>
-		protected RField r_State;
-		public virtual RField RState
+		protected RSystem.RInt32 r_State;
+		public virtual RSystem.RInt32 RState
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
 		/// <summary>
 		/// Int32 HashSize
 		/// </summary>
-		protected RProperty r_HashSize;
-		public virtual RProperty RHashSize
+		protected RSystem.RInt32 r_HashSize;
+		public virtual RSystem.RInt32 RHashSize
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
 		/// <summary>
 		/// Byte[] Hash
 		/// </summary>
-		protected RPropertyArray<RProperty> r_Hash;
-		public virtual RPropertyArray<RProperty> RHash
+		protected RPropertyArray<RSystem.RByte> r_Hash;
+		public virtual RPropertyArray<RSystem.RByte> RHash
 		{
 			get
 			{
@@ -115,8 +115,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
 		/// <summary>
 		/// Int32 InputBlockSize
 		/// </summary>
-		protected RProperty r_InputBlockSize;
-		public virtual RProperty RInputBlockSize
+		protected RSystem.RInt32 r_InputBlockSize;
+		public virtual RSystem.RInt32 RInputBlockSize
 		{
 			get
 			{
@@ -132,8 +132,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
 		/// <summary>
 		/// Int32 OutputBlockSize
 		/// </summary>
-		protected RProperty r_OutputBlockSize;
-		public virtual RProperty ROutputBlockSize
+		protected RSystem.RInt32 r_OutputBlockSize;
+		public virtual RSystem.RInt32 ROutputBlockSize
 		{
 			get
 			{
@@ -149,8 +149,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
 		/// <summary>
 		/// Boolean CanTransformMultipleBlocks
 		/// </summary>
-		protected RProperty r_CanTransformMultipleBlocks;
-		public virtual RProperty RCanTransformMultipleBlocks
+		protected RSystem.RBoolean r_CanTransformMultipleBlocks;
+		public virtual RSystem.RBoolean RCanTransformMultipleBlocks
 		{
 			get
 			{
@@ -166,8 +166,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
 		/// <summary>
 		/// Boolean CanReuseTransform
 		/// </summary>
-		protected RProperty r_CanReuseTransform;
-		public virtual RProperty RCanReuseTransform
+		protected RSystem.RBoolean r_CanReuseTransform;
+		public virtual RSystem.RBoolean RCanReuseTransform
 		{
 			get
 			{
@@ -639,6 +639,18 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
         }
 
 
+        public virtual System.Boolean TryComputeHash(RSystem.RReadOnlySpan<RSystem.RByte> @source, RSystem.RSpan<RSystem.RByte> @destination, out System.Int32 @bytesWritten)
+        {
+			@bytesWritten = default;
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@source.Value, @destination.Value, @bytesWritten};
+            var ___result = RTryComputeHash_ReadOnlySpan_d_Byte_p__Span_d_Byte_p__Out_Int32.Invoke(___genericsType, ___parameters);
+			@bytesWritten = (System.Int32)___parameters[2];
+
+            return (System.Boolean)___result;
+        }
+
 
         public virtual System.Byte[] ComputeHash(System.Byte[] @buffer, System.Int32 @offset, System.Int32 @count)
         {
@@ -772,6 +784,28 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
         }
 
 
+        public virtual void HashCore(RSystem.RReadOnlySpan<RSystem.RByte> @source)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@source.Value};
+            var ___result = RHashCore_ReadOnlySpan_d_Byte_p_.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual System.Boolean TryHashFinal(RSystem.RSpan<RSystem.RByte> @destination, out System.Int32 @bytesWritten)
+        {
+			@bytesWritten = default;
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@destination.Value, @bytesWritten};
+            var ___result = RTryHashFinal_Span_d_Byte_p__Out_Int32.Invoke(___genericsType, ___parameters);
+			@bytesWritten = (System.Int32)___parameters[1];
+
+            return (System.Boolean)___result;
+        }
 
 
         public virtual System.Boolean Equals(System.Object @obj)

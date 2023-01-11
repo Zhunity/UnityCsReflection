@@ -15,8 +15,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.UInt16 x
 		/// </summary>
-		protected RField r_x;
-		public virtual RField Rx
+		protected RSystem.RUInt16 r_x;
+		public virtual RSystem.RUInt16 Rx
 		{
 			get
 			{
@@ -32,8 +32,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.UInt16 y
 		/// </summary>
-		protected RField r_y;
-		public virtual RField Ry
+		protected RSystem.RUInt16 r_y;
+		public virtual RSystem.RUInt16 Ry
 		{
 			get
 			{
@@ -49,8 +49,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Int32 freeSlots
 		/// </summary>
-		protected RField r_freeSlots;
-		public virtual RField RfreeSlots
+		protected RSystem.RInt32 r_freeSlots;
+		public virtual RSystem.RInt32 RfreeSlots
 		{
 			get
 			{

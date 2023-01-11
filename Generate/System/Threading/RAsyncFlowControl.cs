@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Boolean useEC
 		/// </summary>
-		protected RField r_useEC;
-		public virtual RField RuseEC
+		protected RSystem.RBoolean r_useEC;
+		public virtual RSystem.RBoolean RuseEC
 		{
 			get
 			{

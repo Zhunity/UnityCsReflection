@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Int32 current
 		/// </summary>
-		protected RField r_current;
-		public virtual RField Rcurrent
+		protected RSystem.RInt32 r_current;
+		public virtual RSystem.RInt32 Rcurrent
 		{
 			get
 			{

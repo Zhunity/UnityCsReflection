@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 		/// <summary>
 		/// System.IntPtr handle
 		/// </summary>
-		protected RField r_handle;
-		public virtual RField Rhandle
+		protected RSystem.RIntPtr r_handle;
+		public virtual RSystem.RIntPtr Rhandle
 		{
 			get
 			{
@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 		/// <summary>
 		/// System.Int32 _state
 		/// </summary>
-		protected RField r__state;
-		public virtual RField R_state
+		protected RSystem.RInt32 r__state;
+		public virtual RSystem.RInt32 R_state
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 		/// <summary>
 		/// System.Boolean _ownsHandle
 		/// </summary>
-		protected RField r__ownsHandle;
-		public virtual RField R_ownsHandle
+		protected RSystem.RBoolean r__ownsHandle;
+		public virtual RSystem.RBoolean R_ownsHandle
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 		/// <summary>
 		/// System.Boolean _fullyInitialized
 		/// </summary>
-		protected RField r__fullyInitialized;
-		public virtual RField R_fullyInitialized
+		protected RSystem.RBoolean r__fullyInitialized;
+		public virtual RSystem.RBoolean R_fullyInitialized
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 		/// <summary>
 		/// System.Int32 RefCount_Mask
 		/// </summary>
-		protected static RField r_RefCount_Mask;
-		public static RField RRefCount_Mask
+		protected static RSystem.RInt32 r_RefCount_Mask;
+		public static RSystem.RInt32 RRefCount_Mask
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 		/// <summary>
 		/// System.Int32 RefCount_One
 		/// </summary>
-		protected static RField r_RefCount_One;
-		public static RField RRefCount_One
+		protected static RSystem.RInt32 r_RefCount_One;
+		public static RSystem.RInt32 RRefCount_One
 		{
 			get
 			{
@@ -115,8 +115,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 		/// <summary>
 		/// Boolean IsClosed
 		/// </summary>
-		protected RProperty r_IsClosed;
-		public virtual RProperty RIsClosed
+		protected RSystem.RBoolean r_IsClosed;
+		public virtual RSystem.RBoolean RIsClosed
 		{
 			get
 			{
@@ -132,8 +132,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 		/// <summary>
 		/// Boolean IsInvalid
 		/// </summary>
-		protected RProperty r_IsInvalid;
-		public virtual RProperty RIsInvalid
+		protected RSystem.RBoolean r_IsInvalid;
+		public virtual RSystem.RBoolean RIsInvalid
 		{
 			get
 			{

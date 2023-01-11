@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Int32 m_IsDirty
 		/// </summary>
-		protected RField r_m_IsDirty;
-		public virtual RField Rm_IsDirty
+		protected RSystem.RInt32 r_m_IsDirty;
+		public virtual RSystem.RInt32 Rm_IsDirty
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Int32 m_ReferenceTargetIndex
 		/// </summary>
-		protected RField r_m_ReferenceTargetIndex;
-		public virtual RField Rm_ReferenceTargetIndex
+		protected RSystem.RInt32 r_m_ReferenceTargetIndex;
+		public virtual RSystem.RInt32 Rm_ReferenceTargetIndex
 		{
 			get
 			{
@@ -200,8 +200,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Single kLineHeight
 		/// </summary>
-		protected static RField r_kLineHeight;
-		public static RField RkLineHeight
+		protected static RSystem.RSingle r_kLineHeight;
+		public static RSystem.RSingle RkLineHeight
 		{
 			get
 			{
@@ -217,8 +217,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Boolean hideInspector
 		/// </summary>
-		protected RField r_hideInspector;
-		public virtual RField RhideInspector
+		protected RSystem.RBoolean r_hideInspector;
+		public virtual RSystem.RBoolean RhideInspector
 		{
 			get
 			{
@@ -234,8 +234,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Single kImageSectionWidth
 		/// </summary>
-		protected static RField r_kImageSectionWidth;
-		public static RField RkImageSectionWidth
+		protected static RSystem.RSingle r_kImageSectionWidth;
+		public static RSystem.RSingle RkImageSectionWidth
 		{
 			get
 			{
@@ -251,8 +251,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Single k_WideModeMinWidth
 		/// </summary>
-		protected static RField r_k_WideModeMinWidth;
-		public static RField Rk_WideModeMinWidth
+		protected static RSystem.RSingle r_k_WideModeMinWidth;
+		public static RSystem.RSingle Rk_WideModeMinWidth
 		{
 			get
 			{
@@ -268,8 +268,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Single k_HeaderHeight
 		/// </summary>
-		protected static RField r_k_HeaderHeight;
-		public static RField Rk_HeaderHeight
+		protected static RSystem.RSingle r_k_HeaderHeight;
+		public static RSystem.RSingle Rk_HeaderHeight
 		{
 			get
 			{
@@ -302,8 +302,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Boolean m_AllowMultiObjectAccess
 		/// </summary>
-		protected static RField r_m_AllowMultiObjectAccess;
-		public static RField Rm_AllowMultiObjectAccess
+		protected static RSystem.RBoolean r_m_AllowMultiObjectAccess;
+		public static RSystem.RBoolean Rm_AllowMultiObjectAccess
 		{
 			get
 			{
@@ -319,8 +319,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Boolean m_HasUnsavedChanges
 		/// </summary>
-		protected RField r_m_HasUnsavedChanges;
-		public virtual RField Rm_HasUnsavedChanges
+		protected RSystem.RBoolean r_m_HasUnsavedChanges;
+		public virtual RSystem.RBoolean Rm_HasUnsavedChanges
 		{
 			get
 			{
@@ -336,8 +336,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.String <saveChangesMessage>k__BackingField
 		/// </summary>
-		protected RField r___0__saveChangesMessage__1__k__BackingField;
-		public virtual RField R__0__saveChangesMessage__1__k__BackingField
+		protected RSystem.RString r___0__saveChangesMessage__1__k__BackingField;
+		public virtual RSystem.RString R__0__saveChangesMessage__1__k__BackingField
 		{
 			get
 			{
@@ -353,8 +353,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Boolean <firstInspectedEditor>k__BackingField
 		/// </summary>
-		protected RField r___0__firstInspectedEditor__1__k__BackingField;
-		public virtual RField R__0__firstInspectedEditor__1__k__BackingField
+		protected RSystem.RBoolean r___0__firstInspectedEditor__1__k__BackingField;
+		public virtual RSystem.RBoolean R__0__firstInspectedEditor__1__k__BackingField
 		{
 			get
 			{
@@ -387,8 +387,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Boolean <alwaysAllowExpansion>k__BackingField
 		/// </summary>
-		protected RField r___0__alwaysAllowExpansion__1__k__BackingField;
-		public virtual RField R__0__alwaysAllowExpansion__1__k__BackingField
+		protected RSystem.RBoolean r___0__alwaysAllowExpansion__1__k__BackingField;
+		public virtual RSystem.RBoolean R__0__alwaysAllowExpansion__1__k__BackingField
 		{
 			get
 			{
@@ -438,8 +438,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Boolean hasUnsavedChanges
 		/// </summary>
-		protected RProperty r_hasUnsavedChanges;
-		public virtual RProperty RhasUnsavedChanges
+		protected RSystem.RBoolean r_hasUnsavedChanges;
+		public virtual RSystem.RBoolean RhasUnsavedChanges
 		{
 			get
 			{
@@ -455,8 +455,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.String saveChangesMessage
 		/// </summary>
-		protected RProperty r_saveChangesMessage;
-		public virtual RProperty RsaveChangesMessage
+		protected RSystem.RString r_saveChangesMessage;
+		public virtual RSystem.RString RsaveChangesMessage
 		{
 			get
 			{
@@ -472,8 +472,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Boolean firstInspectedEditor
 		/// </summary>
-		protected RProperty r_firstInspectedEditor;
-		public virtual RProperty RfirstInspectedEditor
+		protected RSystem.RBoolean r_firstInspectedEditor;
+		public virtual RSystem.RBoolean RfirstInspectedEditor
 		{
 			get
 			{
@@ -506,8 +506,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Boolean canEditMultipleObjects
 		/// </summary>
-		protected RProperty r_canEditMultipleObjects;
-		public virtual RProperty RcanEditMultipleObjects
+		protected RSystem.RBoolean r_canEditMultipleObjects;
+		public virtual RSystem.RBoolean RcanEditMultipleObjects
 		{
 			get
 			{
@@ -557,8 +557,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Boolean UnityEditor.IToolModeOwner.areToolModesAvailable
 		/// </summary>
-		protected RProperty r_UnityEditor__2__IToolModeOwner__2__areToolModesAvailable;
-		public virtual RProperty RUnityEditor__2__IToolModeOwner__2__areToolModesAvailable
+		protected RSystem.RBoolean r_UnityEditor__2__IToolModeOwner__2__areToolModesAvailable;
+		public virtual RSystem.RBoolean RUnityEditor__2__IToolModeOwner__2__areToolModesAvailable
 		{
 			get
 			{
@@ -608,8 +608,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Int32 referenceTargetIndex
 		/// </summary>
-		protected RProperty r_referenceTargetIndex;
-		public virtual RProperty RreferenceTargetIndex
+		protected RSystem.RInt32 r_referenceTargetIndex;
+		public virtual RSystem.RInt32 RreferenceTargetIndex
 		{
 			get
 			{
@@ -625,8 +625,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.String targetTitle
 		/// </summary>
-		protected RProperty r_targetTitle;
-		public virtual RProperty RtargetTitle
+		protected RSystem.RString r_targetTitle;
+		public virtual RSystem.RString RtargetTitle
 		{
 			get
 			{
@@ -676,8 +676,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Boolean isInspectorDirty
 		/// </summary>
-		protected RProperty r_isInspectorDirty;
-		public virtual RProperty RisInspectorDirty
+		protected RSystem.RBoolean r_isInspectorDirty;
+		public virtual RSystem.RBoolean RisInspectorDirty
 		{
 			get
 			{
@@ -693,8 +693,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Boolean alwaysAllowExpansion
 		/// </summary>
-		protected RProperty r_alwaysAllowExpansion;
-		public virtual RProperty RalwaysAllowExpansion
+		protected RSystem.RBoolean r_alwaysAllowExpansion;
+		public virtual RSystem.RBoolean RalwaysAllowExpansion
 		{
 			get
 			{
@@ -710,8 +710,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.String name
 		/// </summary>
-		protected RProperty r_name;
-		public virtual RProperty Rname
+		protected RSystem.RString r_name;
+		public virtual RSystem.RString Rname
 		{
 			get
 			{

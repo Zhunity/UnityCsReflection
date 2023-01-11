@@ -49,8 +49,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Boolean vertices
 		/// </summary>
-		protected RField r_vertices;
-		public virtual RField Rvertices
+		protected RSystem.RBoolean r_vertices;
+		public virtual RSystem.RBoolean Rvertices
 		{
 			get
 			{

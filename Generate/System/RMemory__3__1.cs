@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Int32 _index
 		/// </summary>
-		protected RField r__index;
-		public virtual RField R_index
+		protected RSystem.RInt32 r__index;
+		public virtual RSystem.RInt32 R_index
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Int32 _length
 		/// </summary>
-		protected RField r__length;
-		public virtual RField R_length
+		protected RSystem.RInt32 r__length;
+		public virtual RSystem.RInt32 R_length
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Int32 RemoveFlagsBitMask
 		/// </summary>
-		protected static RField r_RemoveFlagsBitMask;
-		public static RField RRemoveFlagsBitMask
+		protected static RSystem.RInt32 r_RemoveFlagsBitMask;
+		public static RSystem.RInt32 RRemoveFlagsBitMask
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// Int32 Length
 		/// </summary>
-		protected RProperty r_Length;
-		public virtual RProperty RLength
+		protected RSystem.RInt32 r_Length;
+		public virtual RSystem.RInt32 RLength
 		{
 			get
 			{
@@ -115,8 +115,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// Boolean IsEmpty
 		/// </summary>
-		protected RProperty r_IsEmpty;
-		public virtual RProperty RIsEmpty
+		protected RSystem.RBoolean r_IsEmpty;
+		public virtual RSystem.RBoolean RIsEmpty
 		{
 			get
 			{

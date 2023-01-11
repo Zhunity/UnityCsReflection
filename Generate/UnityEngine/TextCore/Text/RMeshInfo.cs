@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Int32 vertexCount
 		/// </summary>
-		protected RField r_vertexCount;
-		public virtual RField RvertexCount
+		protected RSystem.RInt32 r_vertexCount;
+		public virtual RSystem.RInt32 RvertexCount
 		{
 			get
 			{
@@ -217,8 +217,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Int32[] triangles
 		/// </summary>
-		protected RFieldArray<RField> r_triangles;
-		public virtual RFieldArray<RField> Rtriangles
+		protected RFieldArray<RSystem.RInt32> r_triangles;
+		public virtual RFieldArray<RSystem.RInt32> Rtriangles
 		{
 			get
 			{

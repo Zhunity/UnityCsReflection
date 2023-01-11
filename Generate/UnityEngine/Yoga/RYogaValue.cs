@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
 		/// <summary>
 		/// System.Single value
 		/// </summary>
-		protected RField r_value;
-		public virtual RField Rvalue
+		protected RSystem.RSingle r_value;
+		public virtual RSystem.RSingle Rvalue
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
 		/// <summary>
 		/// Single Value
 		/// </summary>
-		protected RProperty r_Value;
-		public virtual RProperty RValue
+		protected RSystem.RSingle r_Value;
+		public virtual RSystem.RSingle RValue
 		{
 			get
 			{

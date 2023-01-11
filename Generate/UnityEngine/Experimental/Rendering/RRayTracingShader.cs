@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 		/// <summary>
 		/// Single maxRecursionDepth
 		/// </summary>
-		protected RProperty r_maxRecursionDepth;
-		public virtual RProperty RmaxRecursionDepth
+		protected RSystem.RSingle r_maxRecursionDepth;
+		public virtual RSystem.RSingle RmaxRecursionDepth
 		{
 			get
 			{
@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 		/// <summary>
 		/// System.String name
 		/// </summary>
-		protected RProperty r_name;
-		public virtual RProperty Rname
+		protected RSystem.RString r_name;
+		public virtual RSystem.RString Rname
 		{
 			get
 			{

@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Int32 id
 		/// </summary>
-		protected RField r_id;
-		public virtual RField Rid
+		protected RSystem.RInt32 r_id;
+		public virtual RSystem.RInt32 Rid
 		{
 			get
 			{
@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Int32 conflictIndex
 		/// </summary>
-		protected RField r_conflictIndex;
-		public virtual RField RconflictIndex
+		protected RSystem.RInt32 r_conflictIndex;
+		public virtual RSystem.RInt32 RconflictIndex
 		{
 			get
 			{

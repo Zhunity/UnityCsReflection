@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Int32 InitialSlotTableSize
 		/// </summary>
-		protected static RField r_InitialSlotTableSize;
-		public static RField RInitialSlotTableSize
+		protected static RSystem.RInt32 r_InitialSlotTableSize;
+		public static RSystem.RInt32 RInitialSlotTableSize
 		{
 			get
 			{
@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Int32 SlotTableDoubleThreshold
 		/// </summary>
-		protected static RField r_SlotTableDoubleThreshold;
-		public static RField RSlotTableDoubleThreshold
+		protected static RSystem.RInt32 r_SlotTableDoubleThreshold;
+		public static RSystem.RInt32 RSlotTableDoubleThreshold
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Int32 LargeSlotTableSizeIncrease
 		/// </summary>
-		protected static RField r_LargeSlotTableSizeIncrease;
-		public static RField RLargeSlotTableSizeIncrease
+		protected static RSystem.RInt32 r_LargeSlotTableSizeIncrease;
+		public static RSystem.RInt32 RLargeSlotTableSizeIncrease
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Boolean[] m_SlotInfoTable
 		/// </summary>
-		protected RFieldArray<RField> r_m_SlotInfoTable;
-		public virtual RFieldArray<RField> Rm_SlotInfoTable
+		protected RFieldArray<RSystem.RBoolean> r_m_SlotInfoTable;
+		public virtual RFieldArray<RSystem.RBoolean> Rm_SlotInfoTable
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Int32 m_FirstAvailableSlot
 		/// </summary>
-		protected RField r_m_FirstAvailableSlot;
-		public virtual RField Rm_FirstAvailableSlot
+		protected RSystem.RInt32 r_m_FirstAvailableSlot;
+		public virtual RSystem.RInt32 Rm_FirstAvailableSlot
 		{
 			get
 			{
@@ -115,8 +115,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Collections.Generic.Dictionary`2[System.String,System.LocalDataStoreSlot] m_KeyToSlotMap
 		/// </summary>
-		protected RSystem.RCollections.RGeneric.RDictionary<RField, RSystem.RLocalDataStoreSlot> r_m_KeyToSlotMap;
-		public virtual RSystem.RCollections.RGeneric.RDictionary<RField, RSystem.RLocalDataStoreSlot> Rm_KeyToSlotMap
+		protected RSystem.RCollections.RGeneric.RDictionary<RSystem.RString, RSystem.RLocalDataStoreSlot> r_m_KeyToSlotMap;
+		public virtual RSystem.RCollections.RGeneric.RDictionary<RSystem.RString, RSystem.RLocalDataStoreSlot> Rm_KeyToSlotMap
 		{
 			get
 			{
@@ -132,8 +132,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Int64 m_CookieGenerator
 		/// </summary>
-		protected RField r_m_CookieGenerator;
-		public virtual RField Rm_CookieGenerator
+		protected RSystem.RInt64 r_m_CookieGenerator;
+		public virtual RSystem.RInt64 Rm_CookieGenerator
 		{
 			get
 			{

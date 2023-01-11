@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Byte* byteStart
 		/// </summary>
-		protected RFieldPointer<RField> r_byteStart;
-		public virtual RFieldPointer<RField> RbyteStart
+		protected RFieldPointer<RSystem.RByte> r_byteStart;
+		public virtual RFieldPointer<RSystem.RByte> RbyteStart
 		{
 			get
 			{
@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Char* charEnd
 		/// </summary>
-		protected RFieldPointer<RField> r_charEnd;
-		public virtual RFieldPointer<RField> RcharEnd
+		protected RFieldPointer<RSystem.RChar> r_charEnd;
+		public virtual RFieldPointer<RSystem.RChar> RcharEnd
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// Int32 Remaining
 		/// </summary>
-		protected RProperty r_Remaining;
-		public virtual RProperty RRemaining
+		protected RSystem.RInt32 r_Remaining;
+		public virtual RSystem.RInt32 RRemaining
 		{
 			get
 			{

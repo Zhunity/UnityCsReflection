@@ -32,8 +32,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
 		/// <summary>
 		/// System.Int32 _index
 		/// </summary>
-		protected RField r__index;
-		public virtual RField R_index
+		protected RSystem.RInt32 r__index;
+		public virtual RSystem.RInt32 R_index
 		{
 			get
 			{
@@ -49,8 +49,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
 		/// <summary>
 		/// System.Int32 _version
 		/// </summary>
-		protected RField r__version;
-		public virtual RField R_version
+		protected RSystem.RInt32 r__version;
+		public virtual RSystem.RInt32 R_version
 		{
 			get
 			{

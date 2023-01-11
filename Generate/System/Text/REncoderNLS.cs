@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Char _charLeftOver
 		/// </summary>
-		protected RField r__charLeftOver;
-		public virtual RField R_charLeftOver
+		protected RSystem.RChar r__charLeftOver;
+		public virtual RSystem.RChar R_charLeftOver
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Boolean _mustFlush
 		/// </summary>
-		protected RField r__mustFlush;
-		public virtual RField R_mustFlush
+		protected RSystem.RBoolean r__mustFlush;
+		public virtual RSystem.RBoolean R_mustFlush
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Boolean _throwOnOverflow
 		/// </summary>
-		protected RField r__throwOnOverflow;
-		public virtual RField R_throwOnOverflow
+		protected RSystem.RBoolean r__throwOnOverflow;
+		public virtual RSystem.RBoolean R_throwOnOverflow
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Int32 _charsUsed
 		/// </summary>
-		protected RField r__charsUsed;
-		public virtual RField R_charsUsed
+		protected RSystem.RInt32 r__charsUsed;
+		public virtual RSystem.RInt32 R_charsUsed
 		{
 			get
 			{
@@ -149,8 +149,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// Boolean MustFlush
 		/// </summary>
-		protected RProperty r_MustFlush;
-		public virtual RProperty RMustFlush
+		protected RSystem.RBoolean r_MustFlush;
+		public virtual RSystem.RBoolean RMustFlush
 		{
 			get
 			{
@@ -166,8 +166,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// Boolean HasState
 		/// </summary>
-		protected RProperty r_HasState;
-		public virtual RProperty RHasState
+		protected RSystem.RBoolean r_HasState;
+		public virtual RSystem.RBoolean RHasState
 		{
 			get
 			{
@@ -217,8 +217,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// Boolean InternalHasFallbackBuffer
 		/// </summary>
-		protected RProperty r_InternalHasFallbackBuffer;
-		public virtual RProperty RInternalHasFallbackBuffer
+		protected RSystem.RBoolean r_InternalHasFallbackBuffer;
+		public virtual RSystem.RBoolean RInternalHasFallbackBuffer
 		{
 			get
 			{
@@ -638,7 +638,43 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
         }
 
 
+        public virtual System.Int32 GetByteCount(RSystem.RReadOnlySpan<RSystem.RChar> @chars, System.Boolean @flush)
+        {
 
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@chars.Value, @flush};
+            var ___result = RGetByteCount_ReadOnlySpan_d_Char_p__Boolean.Invoke(___genericsType, ___parameters);
+
+            return (System.Int32)___result;
+        }
+
+
+        public virtual System.Int32 GetBytes(RSystem.RReadOnlySpan<RSystem.RChar> @chars, RSystem.RSpan<RSystem.RByte> @bytes, System.Boolean @flush)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@chars.Value, @bytes.Value, @flush};
+            var ___result = RGetBytes_ReadOnlySpan_d_Char_p__Span_d_Byte_p__Boolean.Invoke(___genericsType, ___parameters);
+
+            return (System.Int32)___result;
+        }
+
+
+        public virtual void Convert(RSystem.RReadOnlySpan<RSystem.RChar> @chars, RSystem.RSpan<RSystem.RByte> @bytes, System.Boolean @flush, out System.Int32 @charsUsed, out System.Int32 @bytesUsed, out System.Boolean @completed)
+        {
+			@charsUsed = default;
+			@bytesUsed = default;
+			@completed = default;
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@chars.Value, @bytes.Value, @flush, @charsUsed, @bytesUsed, @completed};
+            var ___result = RConvert_ReadOnlySpan_d_Char_p__Span_d_Byte_p__Boolean_Out_Int32_Out_Int32_Out_Boolean.Invoke(___genericsType, ___parameters);
+			@charsUsed = (System.Int32)___parameters[3];
+			@bytesUsed = (System.Int32)___parameters[4];
+			@completed = (System.Boolean)___parameters[5];
+
+            
+        }
 
 
         public virtual System.Boolean Equals(System.Object @obj)

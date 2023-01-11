@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int32 m_Value
 		/// </summary>
-		protected RField r_m_Value;
-		public virtual RField Rm_Value
+		protected RSystem.RInt32 r_m_Value;
+		public virtual RSystem.RInt32 Rm_Value
 		{
 			get
 			{

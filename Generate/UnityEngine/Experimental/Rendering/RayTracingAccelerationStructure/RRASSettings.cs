@@ -49,8 +49,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 		/// <summary>
 		/// System.Int32 layerMask
 		/// </summary>
-		protected RField r_layerMask;
-		public virtual RField RlayerMask
+		protected RSystem.RInt32 r_layerMask;
+		public virtual RSystem.RInt32 RlayerMask
 		{
 			get
 			{

@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Collections.Generic.Dictionary`2[System.String,UnityEngine.UIElements.VisualElement] <slotInsertionPoints>k__BackingField
 		/// </summary>
-		protected RSystem.RCollections.RGeneric.RDictionary<RField, RUnityEngine.RUIElements.RVisualElement> r___0__slotInsertionPoints__1__k__BackingField;
-		public virtual RSystem.RCollections.RGeneric.RDictionary<RField, RUnityEngine.RUIElements.RVisualElement> R__0__slotInsertionPoints__1__k__BackingField
+		protected RSystem.RCollections.RGeneric.RDictionary<RSystem.RString, RUnityEngine.RUIElements.RVisualElement> r___0__slotInsertionPoints__1__k__BackingField;
+		public virtual RSystem.RCollections.RGeneric.RDictionary<RSystem.RString, RUnityEngine.RUIElements.RVisualElement> R__0__slotInsertionPoints__1__k__BackingField
 		{
 			get
 			{
@@ -132,8 +132,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Collections.Generic.Dictionary`2[System.String,UnityEngine.UIElements.VisualElement] slotInsertionPoints
 		/// </summary>
-		protected RSystem.RCollections.RGeneric.RDictionary<RProperty, RUnityEngine.RUIElements.RVisualElement> r_slotInsertionPoints;
-		public virtual RSystem.RCollections.RGeneric.RDictionary<RProperty, RUnityEngine.RUIElements.RVisualElement> RslotInsertionPoints
+		protected RSystem.RCollections.RGeneric.RDictionary<RSystem.RString, RUnityEngine.RUIElements.RVisualElement> r_slotInsertionPoints;
+		public virtual RSystem.RCollections.RGeneric.RDictionary<RSystem.RString, RUnityEngine.RUIElements.RVisualElement> RslotInsertionPoints
 		{
 			get
 			{

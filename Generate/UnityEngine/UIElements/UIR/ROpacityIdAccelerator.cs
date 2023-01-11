@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Int32 k_VerticesPerBatch
 		/// </summary>
-		protected static RField r_k_VerticesPerBatch;
-		public static RField Rk_VerticesPerBatch
+		protected static RSystem.RInt32 r_k_VerticesPerBatch;
+		public static RSystem.RInt32 Rk_VerticesPerBatch
 		{
 			get
 			{
@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Int32 k_JobLimit
 		/// </summary>
-		protected static RField r_k_JobLimit;
-		public static RField Rk_JobLimit
+		protected static RSystem.RInt32 r_k_JobLimit;
+		public static RSystem.RInt32 Rk_JobLimit
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// Unity.Collections.NativeArray`1[Unity.Jobs.JobHandle] m_Jobs
 		/// </summary>
-		protected RField r_m_Jobs;
-		public virtual RField Rm_Jobs
+		protected RUnity.RCollections.RNativeArray<RUnity.RJobs.RJobHandle> r_m_Jobs;
+		public virtual RUnity.RCollections.RNativeArray<RUnity.RJobs.RJobHandle> Rm_Jobs
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Int32 m_NextJobIndex
 		/// </summary>
-		protected RField r_m_NextJobIndex;
-		public virtual RField Rm_NextJobIndex
+		protected RSystem.RInt32 r_m_NextJobIndex;
+		public virtual RSystem.RInt32 Rm_NextJobIndex
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Boolean <disposed>k__BackingField
 		/// </summary>
-		protected RField r___0__disposed__1__k__BackingField;
-		public virtual RField R__0__disposed__1__k__BackingField
+		protected RSystem.RBoolean r___0__disposed__1__k__BackingField;
+		public virtual RSystem.RBoolean R__0__disposed__1__k__BackingField
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// Boolean disposed
 		/// </summary>
-		protected RProperty r_disposed;
-		public virtual RProperty Rdisposed
+		protected RSystem.RBoolean r_disposed;
+		public virtual RSystem.RBoolean Rdisposed
 		{
 			get
 			{
@@ -299,6 +299,16 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		 public ROpacityIdAccelerator(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
 	    {
 	    }
+
+        public virtual void CreateJob(RUnity.RCollections.RNativeSlice<RUnityEngine.RUIElements.RVertex> @oldVerts, RUnity.RCollections.RNativeSlice<RUnityEngine.RUIElements.RVertex> @newVerts, UnityEngine.Color32 @opacityData, System.Int32 @vertexCount)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@oldVerts.Value, @newVerts.Value, @opacityData, @vertexCount};
+            var ___result = RCreateJob_NativeSlice_d_Vertex_p__NativeSlice_d_Vertex_p__Color32_Int32.Invoke(___genericsType, ___parameters);
+
+            
+        }
 
 
         public virtual void CompleteJobs()

@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.String name
 		/// </summary>
-		protected RField r_name;
-		public virtual RField Rname
+		protected RSystem.RString r_name;
+		public virtual RSystem.RString Rname
 		{
 			get
 			{
@@ -149,8 +149,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Int32 table_idx
 		/// </summary>
-		protected RField r_table_idx;
-		public virtual RField Rtable_idx
+		protected RSystem.RInt32 r_table_idx;
+		public virtual RSystem.RInt32 Rtable_idx
 		{
 			get
 			{
@@ -285,8 +285,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// Boolean CanRead
 		/// </summary>
-		protected RProperty r_CanRead;
-		public virtual RProperty RCanRead
+		protected RSystem.RBoolean r_CanRead;
+		public virtual RSystem.RBoolean RCanRead
 		{
 			get
 			{
@@ -302,8 +302,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// Boolean CanWrite
 		/// </summary>
-		protected RProperty r_CanWrite;
-		public virtual RProperty RCanWrite
+		protected RSystem.RBoolean r_CanWrite;
+		public virtual RSystem.RBoolean RCanWrite
 		{
 			get
 			{
@@ -336,8 +336,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.String Name
 		/// </summary>
-		protected RProperty r_Name;
-		public virtual RProperty RName
+		protected RSystem.RString r_Name;
+		public virtual RSystem.RString RName
 		{
 			get
 			{
@@ -438,8 +438,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// Boolean IsSpecialName
 		/// </summary>
-		protected RProperty r_IsSpecialName;
-		public virtual RProperty RIsSpecialName
+		protected RSystem.RBoolean r_IsSpecialName;
+		public virtual RSystem.RBoolean RIsSpecialName
 		{
 			get
 			{
@@ -506,8 +506,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// Int32 MetadataToken
 		/// </summary>
-		protected RProperty r_MetadataToken;
-		public virtual RProperty RMetadataToken
+		protected RSystem.RInt32 r_MetadataToken;
+		public virtual RSystem.RInt32 RMetadataToken
 		{
 			get
 			{

@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Boolean hasAttachedDebuggers
 		/// </summary>
-		protected RProperty r_hasAttachedDebuggers;
-		public virtual RProperty RhasAttachedDebuggers
+		protected RSystem.RBoolean r_hasAttachedDebuggers;
+		public virtual RSystem.RBoolean RhasAttachedDebuggers
 		{
 			get
 			{

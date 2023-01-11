@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.String method_name
 		/// </summary>
-		protected RField r_method_name;
-		public virtual RField Rmethod_name
+		protected RSystem.RString r_method_name;
+		public virtual RSystem.RString Rmethod_name
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Boolean curried_first_arg
 		/// </summary>
-		protected RField r_curried_first_arg;
-		public virtual RField Rcurried_first_arg
+		protected RSystem.RBoolean r_curried_first_arg;
+		public virtual RSystem.RBoolean Rcurried_first_arg
 		{
 			get
 			{

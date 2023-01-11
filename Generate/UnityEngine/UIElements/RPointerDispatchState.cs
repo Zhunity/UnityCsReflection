@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Boolean[] m_ShouldSendCompatibilityMouseEvents
 		/// </summary>
-		protected RFieldArray<RField> r_m_ShouldSendCompatibilityMouseEvents;
-		public virtual RFieldArray<RField> Rm_ShouldSendCompatibilityMouseEvents
+		protected RFieldArray<RSystem.RBoolean> r_m_ShouldSendCompatibilityMouseEvents;
+		public virtual RFieldArray<RSystem.RBoolean> Rm_ShouldSendCompatibilityMouseEvents
 		{
 			get
 			{

@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Int32 m_slot
 		/// </summary>
-		protected RField r_m_slot;
-		public virtual RField Rm_slot
+		protected RSystem.RInt32 r_m_slot;
+		public virtual RSystem.RInt32 Rm_slot
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Int64 m_cookie
 		/// </summary>
-		protected RField r_m_cookie;
-		public virtual RField Rm_cookie
+		protected RSystem.RInt64 r_m_cookie;
+		public virtual RSystem.RInt64 Rm_cookie
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// Int32 Slot
 		/// </summary>
-		protected RProperty r_Slot;
-		public virtual RProperty RSlot
+		protected RSystem.RInt32 r_Slot;
+		public virtual RSystem.RInt32 RSlot
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// Int64 Cookie
 		/// </summary>
-		protected RProperty r_Cookie;
-		public virtual RProperty RCookie
+		protected RSystem.RInt64 r_Cookie;
+		public virtual RSystem.RInt64 RCookie
 		{
 			get
 			{

@@ -15,8 +15,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RAddComponent
 		/// <summary>
 		/// System.String name
 		/// </summary>
-		protected RField r_name;
-		public virtual RField Rname
+		protected RSystem.RString r_name;
+		public virtual RSystem.RString Rname
 		{
 			get
 			{
@@ -32,8 +32,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RAddComponent
 		/// <summary>
 		/// System.String filter
 		/// </summary>
-		protected RField r_filter;
-		public virtual RField Rfilter
+		protected RSystem.RString r_filter;
+		public virtual RSystem.RString Rfilter
 		{
 			get
 			{
@@ -49,8 +49,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RAddComponent
 		/// <summary>
 		/// System.Boolean isNewScript
 		/// </summary>
-		protected RField r_isNewScript;
-		public virtual RField RisNewScript
+		protected RSystem.RBoolean r_isNewScript;
+		public virtual RSystem.RBoolean RisNewScript
 		{
 			get
 			{

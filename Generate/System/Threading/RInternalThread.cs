@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Int32 lock_thread_id
 		/// </summary>
-		protected RField r_lock_thread_id;
-		public virtual RField Rlock_thread_id
+		protected RSystem.RInt32 r_lock_thread_id;
+		public virtual RSystem.RInt32 Rlock_thread_id
 		{
 			get
 			{
@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.IntPtr handle
 		/// </summary>
-		protected RField r_handle;
-		public virtual RField Rhandle
+		protected RSystem.RIntPtr r_handle;
+		public virtual RSystem.RIntPtr Rhandle
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.IntPtr native_handle
 		/// </summary>
-		protected RField r_native_handle;
-		public virtual RField Rnative_handle
+		protected RSystem.RIntPtr r_native_handle;
+		public virtual RSystem.RIntPtr Rnative_handle
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.IntPtr name_chars
 		/// </summary>
-		protected RField r_name_chars;
-		public virtual RField Rname_chars
+		protected RSystem.RIntPtr r_name_chars;
+		public virtual RSystem.RIntPtr Rname_chars
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Int32 name_free
 		/// </summary>
-		protected RField r_name_free;
-		public virtual RField Rname_free
+		protected RSystem.RInt32 r_name_free;
+		public virtual RSystem.RInt32 Rname_free
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Int32 name_length
 		/// </summary>
-		protected RField r_name_length;
-		public virtual RField Rname_length
+		protected RSystem.RInt32 r_name_length;
+		public virtual RSystem.RInt32 Rname_length
 		{
 			get
 			{
@@ -149,8 +149,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Int32 abort_state_handle
 		/// </summary>
-		protected RField r_abort_state_handle;
-		public virtual RField Rabort_state_handle
+		protected RSystem.RInt32 r_abort_state_handle;
+		public virtual RSystem.RInt32 Rabort_state_handle
 		{
 			get
 			{
@@ -166,8 +166,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Int64 thread_id
 		/// </summary>
-		protected RField r_thread_id;
-		public virtual RField Rthread_id
+		protected RSystem.RInt64 r_thread_id;
+		public virtual RSystem.RInt64 Rthread_id
 		{
 			get
 			{
@@ -183,8 +183,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.IntPtr debugger_thread
 		/// </summary>
-		protected RField r_debugger_thread;
-		public virtual RField Rdebugger_thread
+		protected RSystem.RIntPtr r_debugger_thread;
+		public virtual RSystem.RIntPtr Rdebugger_thread
 		{
 			get
 			{
@@ -200,8 +200,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.UIntPtr static_data
 		/// </summary>
-		protected RField r_static_data;
-		public virtual RField Rstatic_data
+		protected RSystem.RUIntPtr r_static_data;
+		public virtual RSystem.RUIntPtr Rstatic_data
 		{
 			get
 			{
@@ -217,8 +217,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.IntPtr runtime_thread_info
 		/// </summary>
-		protected RField r_runtime_thread_info;
-		public virtual RField Rruntime_thread_info
+		protected RSystem.RIntPtr r_runtime_thread_info;
+		public virtual RSystem.RIntPtr Rruntime_thread_info
 		{
 			get
 			{
@@ -268,8 +268,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Byte[] _serialized_principal
 		/// </summary>
-		protected RFieldArray<RField> r__serialized_principal;
-		public virtual RFieldArray<RField> R_serialized_principal
+		protected RFieldArray<RSystem.RByte> r__serialized_principal;
+		public virtual RFieldArray<RSystem.RByte> R_serialized_principal
 		{
 			get
 			{
@@ -285,8 +285,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Int32 _serialized_principal_version
 		/// </summary>
-		protected RField r__serialized_principal_version;
-		public virtual RField R_serialized_principal_version
+		protected RSystem.RInt32 r__serialized_principal_version;
+		public virtual RSystem.RInt32 R_serialized_principal_version
 		{
 			get
 			{
@@ -302,8 +302,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.IntPtr appdomain_refs
 		/// </summary>
-		protected RField r_appdomain_refs;
-		public virtual RField Rappdomain_refs
+		protected RSystem.RIntPtr r_appdomain_refs;
+		public virtual RSystem.RIntPtr Rappdomain_refs
 		{
 			get
 			{
@@ -319,8 +319,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Int32 interruption_requested
 		/// </summary>
-		protected RField r_interruption_requested;
-		public virtual RField Rinterruption_requested
+		protected RSystem.RInt32 r_interruption_requested;
+		public virtual RSystem.RInt32 Rinterruption_requested
 		{
 			get
 			{
@@ -336,8 +336,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.IntPtr longlived
 		/// </summary>
-		protected RField r_longlived;
-		public virtual RField Rlonglived
+		protected RSystem.RIntPtr r_longlived;
+		public virtual RSystem.RIntPtr Rlonglived
 		{
 			get
 			{
@@ -353,8 +353,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Boolean threadpool_thread
 		/// </summary>
-		protected RField r_threadpool_thread;
-		public virtual RField Rthreadpool_thread
+		protected RSystem.RBoolean r_threadpool_thread;
+		public virtual RSystem.RBoolean Rthreadpool_thread
 		{
 			get
 			{
@@ -370,8 +370,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Boolean thread_interrupt_requested
 		/// </summary>
-		protected RField r_thread_interrupt_requested;
-		public virtual RField Rthread_interrupt_requested
+		protected RSystem.RBoolean r_thread_interrupt_requested;
+		public virtual RSystem.RBoolean Rthread_interrupt_requested
 		{
 			get
 			{
@@ -387,8 +387,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Int32 stack_size
 		/// </summary>
-		protected RField r_stack_size;
-		public virtual RField Rstack_size
+		protected RSystem.RInt32 r_stack_size;
+		public virtual RSystem.RInt32 Rstack_size
 		{
 			get
 			{
@@ -404,8 +404,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Byte apartment_state
 		/// </summary>
-		protected RField r_apartment_state;
-		public virtual RField Rapartment_state
+		protected RSystem.RByte r_apartment_state;
+		public virtual RSystem.RByte Rapartment_state
 		{
 			get
 			{
@@ -421,8 +421,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Int32 critical_region_level
 		/// </summary>
-		protected RField r_critical_region_level;
-		public virtual RField Rcritical_region_level
+		protected RSystem.RInt32 r_critical_region_level;
+		public virtual RSystem.RInt32 Rcritical_region_level
 		{
 			get
 			{
@@ -438,8 +438,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Int32 managed_id
 		/// </summary>
-		protected RField r_managed_id;
-		public virtual RField Rmanaged_id
+		protected RSystem.RInt32 r_managed_id;
+		public virtual RSystem.RInt32 Rmanaged_id
 		{
 			get
 			{
@@ -455,8 +455,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Int32 small_id
 		/// </summary>
-		protected RField r_small_id;
-		public virtual RField Rsmall_id
+		protected RSystem.RInt32 r_small_id;
+		public virtual RSystem.RInt32 Rsmall_id
 		{
 			get
 			{
@@ -472,8 +472,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.IntPtr manage_callback
 		/// </summary>
-		protected RField r_manage_callback;
-		public virtual RField Rmanage_callback
+		protected RSystem.RIntPtr r_manage_callback;
+		public virtual RSystem.RIntPtr Rmanage_callback
 		{
 			get
 			{
@@ -489,8 +489,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.IntPtr flags
 		/// </summary>
-		protected RField r_flags;
-		public virtual RField Rflags
+		protected RSystem.RIntPtr r_flags;
+		public virtual RSystem.RIntPtr Rflags
 		{
 			get
 			{
@@ -506,8 +506,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.IntPtr thread_pinning_ref
 		/// </summary>
-		protected RField r_thread_pinning_ref;
-		public virtual RField Rthread_pinning_ref
+		protected RSystem.RIntPtr r_thread_pinning_ref;
+		public virtual RSystem.RIntPtr Rthread_pinning_ref
 		{
 			get
 			{
@@ -523,8 +523,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.IntPtr abort_protected_block_count
 		/// </summary>
-		protected RField r_abort_protected_block_count;
-		public virtual RField Rabort_protected_block_count
+		protected RSystem.RIntPtr r_abort_protected_block_count;
+		public virtual RSystem.RIntPtr Rabort_protected_block_count
 		{
 			get
 			{
@@ -540,8 +540,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Int32 priority
 		/// </summary>
-		protected RField r_priority;
-		public virtual RField Rpriority
+		protected RSystem.RInt32 r_priority;
+		public virtual RSystem.RInt32 Rpriority
 		{
 			get
 			{
@@ -557,8 +557,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.IntPtr owned_mutex
 		/// </summary>
-		protected RField r_owned_mutex;
-		public virtual RField Rowned_mutex
+		protected RSystem.RIntPtr r_owned_mutex;
+		public virtual RSystem.RIntPtr Rowned_mutex
 		{
 			get
 			{
@@ -574,8 +574,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.IntPtr suspended_event
 		/// </summary>
-		protected RField r_suspended_event;
-		public virtual RField Rsuspended_event
+		protected RSystem.RIntPtr r_suspended_event;
+		public virtual RSystem.RIntPtr Rsuspended_event
 		{
 			get
 			{
@@ -591,8 +591,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Int32 self_suspended
 		/// </summary>
-		protected RField r_self_suspended;
-		public virtual RField Rself_suspended
+		protected RSystem.RInt32 r_self_suspended;
+		public virtual RSystem.RInt32 Rself_suspended
 		{
 			get
 			{
@@ -608,8 +608,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.IntPtr thread_state
 		/// </summary>
-		protected RField r_thread_state;
-		public virtual RField Rthread_state
+		protected RSystem.RIntPtr r_thread_state;
+		public virtual RSystem.RIntPtr Rthread_state
 		{
 			get
 			{
@@ -625,8 +625,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.IntPtr netcore0
 		/// </summary>
-		protected RField r_netcore0;
-		public virtual RField Rnetcore0
+		protected RSystem.RIntPtr r_netcore0;
+		public virtual RSystem.RIntPtr Rnetcore0
 		{
 			get
 			{
@@ -642,8 +642,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.IntPtr netcore1
 		/// </summary>
-		protected RField r_netcore1;
-		public virtual RField Rnetcore1
+		protected RSystem.RIntPtr r_netcore1;
+		public virtual RSystem.RIntPtr Rnetcore1
 		{
 			get
 			{
@@ -659,8 +659,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.IntPtr netcore2
 		/// </summary>
-		protected RField r_netcore2;
-		public virtual RField Rnetcore2
+		protected RSystem.RIntPtr r_netcore2;
+		public virtual RSystem.RIntPtr Rnetcore2
 		{
 			get
 			{
@@ -676,8 +676,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.IntPtr last
 		/// </summary>
-		protected RField r_last;
-		public virtual RField Rlast
+		protected RSystem.RIntPtr r_last;
+		public virtual RSystem.RIntPtr Rlast
 		{
 			get
 			{

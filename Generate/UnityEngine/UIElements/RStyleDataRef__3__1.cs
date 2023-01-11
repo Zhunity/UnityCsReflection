@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Int32 refCount
 		/// </summary>
-		protected RProperty r_refCount;
-		public virtual RProperty RrefCount
+		protected RSystem.RInt32 r_refCount;
+		public virtual RSystem.RInt32 RrefCount
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UInt32 id
 		/// </summary>
-		protected RProperty r_id;
-		public virtual RProperty Rid
+		protected RSystem.RUInt32 r_id;
+		public virtual RSystem.RUInt32 Rid
 		{
 			get
 			{

@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 		/// <summary>
 		/// System.IntPtr handle
 		/// </summary>
-		protected RField r_handle;
-		public virtual RField Rhandle
+		protected RSystem.RIntPtr r_handle;
+		public virtual RSystem.RIntPtr Rhandle
 		{
 			get
 			{
@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 		/// <summary>
 		/// Boolean IsAllocated
 		/// </summary>
-		protected RProperty r_IsAllocated;
-		public virtual RProperty RIsAllocated
+		protected RSystem.RBoolean r_IsAllocated;
+		public virtual RSystem.RBoolean RIsAllocated
 		{
 			get
 			{

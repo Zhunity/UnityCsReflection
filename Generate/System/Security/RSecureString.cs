@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
 		/// <summary>
 		/// System.Int32 BlockSize
 		/// </summary>
-		protected static RField r_BlockSize;
-		public static RField RBlockSize
+		protected static RSystem.RInt32 r_BlockSize;
+		public static RSystem.RInt32 RBlockSize
 		{
 			get
 			{
@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
 		/// <summary>
 		/// System.Int32 MaxSize
 		/// </summary>
-		protected static RField r_MaxSize;
-		public static RField RMaxSize
+		protected static RSystem.RInt32 r_MaxSize;
+		public static RSystem.RInt32 RMaxSize
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
 		/// <summary>
 		/// System.Int32 length
 		/// </summary>
-		protected RField r_length;
-		public virtual RField Rlength
+		protected RSystem.RInt32 r_length;
+		public virtual RSystem.RInt32 Rlength
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
 		/// <summary>
 		/// System.Boolean disposed
 		/// </summary>
-		protected RField r_disposed;
-		public virtual RField Rdisposed
+		protected RSystem.RBoolean r_disposed;
+		public virtual RSystem.RBoolean Rdisposed
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
 		/// <summary>
 		/// System.Boolean read_only
 		/// </summary>
-		protected RField r_read_only;
-		public virtual RField Rread_only
+		protected RSystem.RBoolean r_read_only;
+		public virtual RSystem.RBoolean Rread_only
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
 		/// <summary>
 		/// System.Byte[] data
 		/// </summary>
-		protected RFieldArray<RField> r_data;
-		public virtual RFieldArray<RField> Rdata
+		protected RFieldArray<RSystem.RByte> r_data;
+		public virtual RFieldArray<RSystem.RByte> Rdata
 		{
 			get
 			{
@@ -115,8 +115,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
 		/// <summary>
 		/// Int32 Length
 		/// </summary>
-		protected RProperty r_Length;
-		public virtual RProperty RLength
+		protected RSystem.RInt32 r_Length;
+		public virtual RSystem.RInt32 RLength
 		{
 			get
 			{

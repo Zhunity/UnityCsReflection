@@ -32,8 +32,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RCompilerServices
 		/// <summary>
 		/// System.Boolean m_continueOnCapturedContext
 		/// </summary>
-		protected RField r_m_continueOnCapturedContext;
-		public virtual RField Rm_continueOnCapturedContext
+		protected RSystem.RBoolean r_m_continueOnCapturedContext;
+		public virtual RSystem.RBoolean Rm_continueOnCapturedContext
 		{
 			get
 			{
@@ -49,8 +49,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RCompilerServices
 		/// <summary>
 		/// Boolean IsCompleted
 		/// </summary>
-		protected RProperty r_IsCompleted;
-		public virtual RProperty RIsCompleted
+		protected RSystem.RBoolean r_IsCompleted;
+		public virtual RSystem.RBoolean RIsCompleted
 		{
 			get
 			{

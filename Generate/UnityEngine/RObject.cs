@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.IntPtr m_CachedPtr
 		/// </summary>
-		protected RField r_m_CachedPtr;
-		public virtual RField Rm_CachedPtr
+		protected RSystem.RIntPtr r_m_CachedPtr;
+		public virtual RSystem.RIntPtr Rm_CachedPtr
 		{
 			get
 			{
@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Int32 m_InstanceID
 		/// </summary>
-		protected RField r_m_InstanceID;
-		public virtual RField Rm_InstanceID
+		protected RSystem.RInt32 r_m_InstanceID;
+		public virtual RSystem.RInt32 Rm_InstanceID
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.String m_UnityRuntimeErrorString
 		/// </summary>
-		protected RField r_m_UnityRuntimeErrorString;
-		public virtual RField Rm_UnityRuntimeErrorString
+		protected RSystem.RString r_m_UnityRuntimeErrorString;
+		public virtual RSystem.RString Rm_UnityRuntimeErrorString
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Int32 OffsetOfInstanceIDInCPlusPlusObject
 		/// </summary>
-		protected static RField r_OffsetOfInstanceIDInCPlusPlusObject;
-		public static RField ROffsetOfInstanceIDInCPlusPlusObject
+		protected static RSystem.RInt32 r_OffsetOfInstanceIDInCPlusPlusObject;
+		public static RSystem.RInt32 ROffsetOfInstanceIDInCPlusPlusObject
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.String objectIsNullMessage
 		/// </summary>
-		protected static RField r_objectIsNullMessage;
-		public static RField RobjectIsNullMessage
+		protected static RSystem.RString r_objectIsNullMessage;
+		public static RSystem.RString RobjectIsNullMessage
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.String cloneDestroyedMessage
 		/// </summary>
-		protected static RField r_cloneDestroyedMessage;
-		public static RField RcloneDestroyedMessage
+		protected static RSystem.RString r_cloneDestroyedMessage;
+		public static RSystem.RString RcloneDestroyedMessage
 		{
 			get
 			{
@@ -115,8 +115,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.String name
 		/// </summary>
-		protected RProperty r_name;
-		public virtual RProperty Rname
+		protected RSystem.RString r_name;
+		public virtual RSystem.RString Rname
 		{
 			get
 			{

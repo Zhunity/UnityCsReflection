@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.String DisplayName
 		/// </summary>
-		protected RProperty r_DisplayName;
-		public virtual RProperty RDisplayName
+		protected RSystem.RString r_DisplayName;
+		public virtual RSystem.RString RDisplayName
 		{
 			get
 			{

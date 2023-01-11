@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Boolean is_container
 		/// </summary>
-		protected RField r_is_container;
-		public virtual RField Ris_container
+		protected RSystem.RBoolean r_is_container;
+		public virtual RSystem.RBoolean Ris_container
 		{
 			get
 			{
@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Boolean is_ds
 		/// </summary>
-		protected RField r_is_ds;
-		public virtual RField Ris_ds
+		protected RSystem.RBoolean r_is_ds;
+		public virtual RSystem.RBoolean Ris_ds
 		{
 			get
 			{
@@ -200,8 +200,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// Boolean IsContainer
 		/// </summary>
-		protected RProperty r_IsContainer;
-		public virtual RProperty RIsContainer
+		protected RSystem.RBoolean r_IsContainer;
+		public virtual RSystem.RBoolean RIsContainer
 		{
 			get
 			{
@@ -217,8 +217,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// Boolean IsDiscretionaryAclCanonical
 		/// </summary>
-		protected RProperty r_IsDiscretionaryAclCanonical;
-		public virtual RProperty RIsDiscretionaryAclCanonical
+		protected RSystem.RBoolean r_IsDiscretionaryAclCanonical;
+		public virtual RSystem.RBoolean RIsDiscretionaryAclCanonical
 		{
 			get
 			{
@@ -234,8 +234,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// Boolean IsDS
 		/// </summary>
-		protected RProperty r_IsDS;
-		public virtual RProperty RIsDS
+		protected RSystem.RBoolean r_IsDS;
+		public virtual RSystem.RBoolean RIsDS
 		{
 			get
 			{
@@ -251,8 +251,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// Boolean IsSystemAclCanonical
 		/// </summary>
-		protected RProperty r_IsSystemAclCanonical;
-		public virtual RProperty RIsSystemAclCanonical
+		protected RSystem.RBoolean r_IsSystemAclCanonical;
+		public virtual RSystem.RBoolean RIsSystemAclCanonical
 		{
 			get
 			{
@@ -319,8 +319,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// Boolean DaclIsUnmodifiedAefa
 		/// </summary>
-		protected RProperty r_DaclIsUnmodifiedAefa;
-		public virtual RProperty RDaclIsUnmodifiedAefa
+		protected RSystem.RBoolean r_DaclIsUnmodifiedAefa;
+		public virtual RSystem.RBoolean RDaclIsUnmodifiedAefa
 		{
 			get
 			{
@@ -336,8 +336,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// Int32 BinaryLength
 		/// </summary>
-		protected RProperty r_BinaryLength;
-		public virtual RProperty RBinaryLength
+		protected RSystem.RInt32 r_BinaryLength;
+		public virtual RSystem.RInt32 RBinaryLength
 		{
 			get
 			{
@@ -353,8 +353,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// Byte InternalReservedField
 		/// </summary>
-		protected RProperty r_InternalReservedField;
-		public virtual RProperty RInternalReservedField
+		protected RSystem.RByte r_InternalReservedField;
+		public virtual RSystem.RByte RInternalReservedField
 		{
 			get
 			{

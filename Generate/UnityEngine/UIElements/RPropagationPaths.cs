@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int32 k_DefaultPropagationDepth
 		/// </summary>
-		protected static RField r_k_DefaultPropagationDepth;
-		public static RField Rk_DefaultPropagationDepth
+		protected static RSystem.RInt32 r_k_DefaultPropagationDepth;
+		public static RSystem.RInt32 Rk_DefaultPropagationDepth
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int32 k_DefaultTargetCount
 		/// </summary>
-		protected static RField r_k_DefaultTargetCount;
-		public static RField Rk_DefaultTargetCount
+		protected static RSystem.RInt32 r_k_DefaultTargetCount;
+		public static RSystem.RInt32 Rk_DefaultTargetCount
 		{
 			get
 			{

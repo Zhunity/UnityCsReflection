@@ -100,8 +100,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Single leftWidth
 		/// </summary>
-		protected RField r_leftWidth;
-		public virtual RField RleftWidth
+		protected RSystem.RSingle r_leftWidth;
+		public virtual RSystem.RSingle RleftWidth
 		{
 			get
 			{
@@ -117,8 +117,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Single topWidth
 		/// </summary>
-		protected RField r_topWidth;
-		public virtual RField RtopWidth
+		protected RSystem.RSingle r_topWidth;
+		public virtual RSystem.RSingle RtopWidth
 		{
 			get
 			{
@@ -134,8 +134,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Single rightWidth
 		/// </summary>
-		protected RField r_rightWidth;
-		public virtual RField RrightWidth
+		protected RSystem.RSingle r_rightWidth;
+		public virtual RSystem.RSingle RrightWidth
 		{
 			get
 			{
@@ -151,8 +151,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Single bottomWidth
 		/// </summary>
-		protected RField r_bottomWidth;
-		public virtual RField RbottomWidth
+		protected RSystem.RSingle r_bottomWidth;
+		public virtual RSystem.RSingle RbottomWidth
 		{
 			get
 			{

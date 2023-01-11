@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 		/// <summary>
 		/// System.Int32 s_taskSchedulerIdCounter
 		/// </summary>
-		protected static RField r_s_taskSchedulerIdCounter;
-		public static RField Rs_taskSchedulerIdCounter
+		protected static RSystem.RInt32 r_s_taskSchedulerIdCounter;
+		public static RSystem.RInt32 Rs_taskSchedulerIdCounter
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 		/// <summary>
 		/// System.Int32 m_taskSchedulerId
 		/// </summary>
-		protected RField r_m_taskSchedulerId;
-		public virtual RField Rm_taskSchedulerId
+		protected RSystem.RInt32 r_m_taskSchedulerId;
+		public virtual RSystem.RInt32 Rm_taskSchedulerId
 		{
 			get
 			{
@@ -132,8 +132,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 		/// <summary>
 		/// Int32 MaximumConcurrencyLevel
 		/// </summary>
-		protected RProperty r_MaximumConcurrencyLevel;
-		public virtual RProperty RMaximumConcurrencyLevel
+		protected RSystem.RInt32 r_MaximumConcurrencyLevel;
+		public virtual RSystem.RInt32 RMaximumConcurrencyLevel
 		{
 			get
 			{
@@ -149,8 +149,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 		/// <summary>
 		/// Boolean RequiresAtomicStartTransition
 		/// </summary>
-		protected RProperty r_RequiresAtomicStartTransition;
-		public virtual RProperty RRequiresAtomicStartTransition
+		protected RSystem.RBoolean r_RequiresAtomicStartTransition;
+		public virtual RSystem.RBoolean RRequiresAtomicStartTransition
 		{
 			get
 			{
@@ -217,8 +217,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 		/// <summary>
 		/// Int32 Id
 		/// </summary>
-		protected RProperty r_Id;
-		public virtual RProperty RId
+		protected RSystem.RInt32 r_Id;
+		public virtual RSystem.RInt32 RId
 		{
 			get
 			{

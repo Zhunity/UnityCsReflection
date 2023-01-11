@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.IntPtr m_Ptr
 		/// </summary>
-		protected RField r_m_Ptr;
-		public virtual RField Rm_Ptr
+		protected RSystem.RIntPtr r_m_Ptr;
+		public virtual RSystem.RIntPtr Rm_Ptr
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 length
 		/// </summary>
-		protected RProperty r_length;
-		public virtual RProperty Rlength
+		protected RSystem.RInt32 r_length;
+		public virtual RSystem.RInt32 Rlength
 		{
 			get
 			{

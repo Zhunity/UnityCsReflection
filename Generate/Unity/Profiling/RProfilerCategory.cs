@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
 		/// <summary>
 		/// System.UInt16 m_CategoryId
 		/// </summary>
-		protected RField r_m_CategoryId;
-		public virtual RField Rm_CategoryId
+		protected RSystem.RUInt16 r_m_CategoryId;
+		public virtual RSystem.RUInt16 Rm_CategoryId
 		{
 			get
 			{
@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
 		/// <summary>
 		/// System.String Name
 		/// </summary>
-		protected RProperty r_Name;
-		public virtual RProperty RName
+		protected RSystem.RString r_Name;
+		public virtual RSystem.RString RName
 		{
 			get
 			{

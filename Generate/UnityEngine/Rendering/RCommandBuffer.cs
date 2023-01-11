@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.IntPtr m_Ptr
 		/// </summary>
-		protected RField r_m_Ptr;
-		public virtual RField Rm_Ptr
+		protected RSystem.RIntPtr r_m_Ptr;
+		public virtual RSystem.RIntPtr Rm_Ptr
 		{
 			get
 			{
@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.String name
 		/// </summary>
-		protected RProperty r_name;
-		public virtual RProperty Rname
+		protected RSystem.RString r_name;
+		public virtual RSystem.RString Rname
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// Int32 sizeInBytes
 		/// </summary>
-		protected RProperty r_sizeInBytes;
-		public virtual RProperty RsizeInBytes
+		protected RSystem.RInt32 r_sizeInBytes;
+		public virtual RSystem.RInt32 RsizeInBytes
 		{
 			get
 			{
@@ -8580,26 +8580,268 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
+        public virtual void RequestAsyncReadbackIntoNativeArray<T>(ref RUnity.RCollections.RNativeArray<RType> @output, UnityEngine.ComputeBuffer @src, System.Action<UnityEngine.Rendering.AsyncGPUReadbackRequest> @callback) where T : struct
+        {
+
+            var ___genericsType = new Type[] {typeof(T)};
+            var ___parameters = new object[]{@output.Value, @src, @callback};
+            var ___result = RRequestAsyncReadbackIntoNativeArray_GT_Ref_NativeArray_d_T_p__ComputeBuffer_Action_d_AsyncGPUReadbackRequest_p_.Invoke(___genericsType, ___parameters);
+			@output = new RUnity.RCollections.RNativeArray<RType>(___parameters[0]);
+
+            
+        }
 
 
+        public virtual void RequestAsyncReadbackIntoNativeArray<T>(ref RUnity.RCollections.RNativeArray<RType> @output, UnityEngine.ComputeBuffer @src, System.Int32 @size, System.Int32 @offset, System.Action<UnityEngine.Rendering.AsyncGPUReadbackRequest> @callback) where T : struct
+        {
+
+            var ___genericsType = new Type[] {typeof(T)};
+            var ___parameters = new object[]{@output.Value, @src, @size, @offset, @callback};
+            var ___result = RRequestAsyncReadbackIntoNativeArray_GT_Ref_NativeArray_d_T_p__ComputeBuffer_Int32_Int32_Action_d_AsyncGPUReadbackRequest_p_.Invoke(___genericsType, ___parameters);
+			@output = new RUnity.RCollections.RNativeArray<RType>(___parameters[0]);
+
+            
+        }
 
 
+        public virtual void RequestAsyncReadbackIntoNativeArray<T>(ref RUnity.RCollections.RNativeArray<RType> @output, UnityEngine.GraphicsBuffer @src, System.Action<UnityEngine.Rendering.AsyncGPUReadbackRequest> @callback) where T : struct
+        {
+
+            var ___genericsType = new Type[] {typeof(T)};
+            var ___parameters = new object[]{@output.Value, @src, @callback};
+            var ___result = RRequestAsyncReadbackIntoNativeArray_GT_Ref_NativeArray_d_T_p__GraphicsBuffer_Action_d_AsyncGPUReadbackRequest_p_.Invoke(___genericsType, ___parameters);
+			@output = new RUnity.RCollections.RNativeArray<RType>(___parameters[0]);
+
+            
+        }
 
 
+        public virtual void RequestAsyncReadbackIntoNativeArray<T>(ref RUnity.RCollections.RNativeArray<RType> @output, UnityEngine.GraphicsBuffer @src, System.Int32 @size, System.Int32 @offset, System.Action<UnityEngine.Rendering.AsyncGPUReadbackRequest> @callback) where T : struct
+        {
+
+            var ___genericsType = new Type[] {typeof(T)};
+            var ___parameters = new object[]{@output.Value, @src, @size, @offset, @callback};
+            var ___result = RRequestAsyncReadbackIntoNativeArray_GT_Ref_NativeArray_d_T_p__GraphicsBuffer_Int32_Int32_Action_d_AsyncGPUReadbackRequest_p_.Invoke(___genericsType, ___parameters);
+			@output = new RUnity.RCollections.RNativeArray<RType>(___parameters[0]);
+
+            
+        }
 
 
+        public virtual void RequestAsyncReadbackIntoNativeArray<T>(ref RUnity.RCollections.RNativeArray<RType> @output, UnityEngine.Texture @src, System.Action<UnityEngine.Rendering.AsyncGPUReadbackRequest> @callback) where T : struct
+        {
+
+            var ___genericsType = new Type[] {typeof(T)};
+            var ___parameters = new object[]{@output.Value, @src, @callback};
+            var ___result = RRequestAsyncReadbackIntoNativeArray_GT_Ref_NativeArray_d_T_p__Texture_Action_d_AsyncGPUReadbackRequest_p_.Invoke(___genericsType, ___parameters);
+			@output = new RUnity.RCollections.RNativeArray<RType>(___parameters[0]);
+
+            
+        }
 
 
+        public virtual void RequestAsyncReadbackIntoNativeArray<T>(ref RUnity.RCollections.RNativeArray<RType> @output, UnityEngine.Texture @src, System.Int32 @mipIndex, System.Action<UnityEngine.Rendering.AsyncGPUReadbackRequest> @callback) where T : struct
+        {
+
+            var ___genericsType = new Type[] {typeof(T)};
+            var ___parameters = new object[]{@output.Value, @src, @mipIndex, @callback};
+            var ___result = RRequestAsyncReadbackIntoNativeArray_GT_Ref_NativeArray_d_T_p__Texture_Int32_Action_d_AsyncGPUReadbackRequest_p_.Invoke(___genericsType, ___parameters);
+			@output = new RUnity.RCollections.RNativeArray<RType>(___parameters[0]);
+
+            
+        }
 
 
+        public virtual void RequestAsyncReadbackIntoNativeArray<T>(ref RUnity.RCollections.RNativeArray<RType> @output, UnityEngine.Texture @src, System.Int32 @mipIndex, UnityEngine.TextureFormat @dstFormat, System.Action<UnityEngine.Rendering.AsyncGPUReadbackRequest> @callback) where T : struct
+        {
+
+            var ___genericsType = new Type[] {typeof(T)};
+            var ___parameters = new object[]{@output.Value, @src, @mipIndex, @dstFormat, @callback};
+            var ___result = RRequestAsyncReadbackIntoNativeArray_GT_Ref_NativeArray_d_T_p__Texture_Int32_TextureFormat_Action_d_AsyncGPUReadbackRequest_p_.Invoke(___genericsType, ___parameters);
+			@output = new RUnity.RCollections.RNativeArray<RType>(___parameters[0]);
+
+            
+        }
 
 
+        public virtual void RequestAsyncReadbackIntoNativeArray<T>(ref RUnity.RCollections.RNativeArray<RType> @output, UnityEngine.Texture @src, System.Int32 @mipIndex, UnityEngine.Experimental.Rendering.GraphicsFormat @dstFormat, System.Action<UnityEngine.Rendering.AsyncGPUReadbackRequest> @callback) where T : struct
+        {
+
+            var ___genericsType = new Type[] {typeof(T)};
+            var ___parameters = new object[]{@output.Value, @src, @mipIndex, @dstFormat, @callback};
+            var ___result = RRequestAsyncReadbackIntoNativeArray_GT_Ref_NativeArray_d_T_p__Texture_Int32_GraphicsFormat_Action_d_AsyncGPUReadbackRequest_p_.Invoke(___genericsType, ___parameters);
+			@output = new RUnity.RCollections.RNativeArray<RType>(___parameters[0]);
+
+            
+        }
 
 
+        public virtual void RequestAsyncReadbackIntoNativeArray<T>(ref RUnity.RCollections.RNativeArray<RType> @output, UnityEngine.Texture @src, System.Int32 @mipIndex, System.Int32 @x, System.Int32 @width, System.Int32 @y, System.Int32 @height, System.Int32 @z, System.Int32 @depth, System.Action<UnityEngine.Rendering.AsyncGPUReadbackRequest> @callback) where T : struct
+        {
+
+            var ___genericsType = new Type[] {typeof(T)};
+            var ___parameters = new object[]{@output.Value, @src, @mipIndex, @x, @width, @y, @height, @z, @depth, @callback};
+            var ___result = RRequestAsyncReadbackIntoNativeArray_GT_Ref_NativeArray_d_T_p__Texture_Int32_Int32_Int32_Int32_Int32_Int32_Int32_Action_d_AsyncGPUReadbackRequest_p_.Invoke(___genericsType, ___parameters);
+			@output = new RUnity.RCollections.RNativeArray<RType>(___parameters[0]);
+
+            
+        }
 
 
+        public virtual void RequestAsyncReadbackIntoNativeArray<T>(ref RUnity.RCollections.RNativeArray<RType> @output, UnityEngine.Texture @src, System.Int32 @mipIndex, System.Int32 @x, System.Int32 @width, System.Int32 @y, System.Int32 @height, System.Int32 @z, System.Int32 @depth, UnityEngine.TextureFormat @dstFormat, System.Action<UnityEngine.Rendering.AsyncGPUReadbackRequest> @callback) where T : struct
+        {
+
+            var ___genericsType = new Type[] {typeof(T)};
+            var ___parameters = new object[]{@output.Value, @src, @mipIndex, @x, @width, @y, @height, @z, @depth, @dstFormat, @callback};
+            var ___result = RRequestAsyncReadbackIntoNativeArray_GT_Ref_NativeArray_d_T_p__Texture_Int32_Int32_Int32_Int32_Int32_Int32_Int32_TextureFormat_Action_d_AsyncGPUReadbackRequest_p_.Invoke(___genericsType, ___parameters);
+			@output = new RUnity.RCollections.RNativeArray<RType>(___parameters[0]);
+
+            
+        }
 
 
+        public virtual void RequestAsyncReadbackIntoNativeArray<T>(ref RUnity.RCollections.RNativeArray<RType> @output, UnityEngine.Texture @src, System.Int32 @mipIndex, System.Int32 @x, System.Int32 @width, System.Int32 @y, System.Int32 @height, System.Int32 @z, System.Int32 @depth, UnityEngine.Experimental.Rendering.GraphicsFormat @dstFormat, System.Action<UnityEngine.Rendering.AsyncGPUReadbackRequest> @callback) where T : struct
+        {
+
+            var ___genericsType = new Type[] {typeof(T)};
+            var ___parameters = new object[]{@output.Value, @src, @mipIndex, @x, @width, @y, @height, @z, @depth, @dstFormat, @callback};
+            var ___result = RRequestAsyncReadbackIntoNativeArray_GT_Ref_NativeArray_d_T_p__Texture_Int32_Int32_Int32_Int32_Int32_Int32_Int32_GraphicsFormat_Action_d_AsyncGPUReadbackRequest_p_.Invoke(___genericsType, ___parameters);
+			@output = new RUnity.RCollections.RNativeArray<RType>(___parameters[0]);
+
+            
+        }
+
+
+        public virtual void RequestAsyncReadbackIntoNativeSlice<T>(ref RUnity.RCollections.RNativeSlice<RType> @output, UnityEngine.ComputeBuffer @src, System.Action<UnityEngine.Rendering.AsyncGPUReadbackRequest> @callback) where T : struct
+        {
+
+            var ___genericsType = new Type[] {typeof(T)};
+            var ___parameters = new object[]{@output.Value, @src, @callback};
+            var ___result = RRequestAsyncReadbackIntoNativeSlice_GT_Ref_NativeSlice_d_T_p__ComputeBuffer_Action_d_AsyncGPUReadbackRequest_p_.Invoke(___genericsType, ___parameters);
+			@output = new RUnity.RCollections.RNativeSlice<RType>(___parameters[0]);
+
+            
+        }
+
+
+        public virtual void RequestAsyncReadbackIntoNativeSlice<T>(ref RUnity.RCollections.RNativeSlice<RType> @output, UnityEngine.ComputeBuffer @src, System.Int32 @size, System.Int32 @offset, System.Action<UnityEngine.Rendering.AsyncGPUReadbackRequest> @callback) where T : struct
+        {
+
+            var ___genericsType = new Type[] {typeof(T)};
+            var ___parameters = new object[]{@output.Value, @src, @size, @offset, @callback};
+            var ___result = RRequestAsyncReadbackIntoNativeSlice_GT_Ref_NativeSlice_d_T_p__ComputeBuffer_Int32_Int32_Action_d_AsyncGPUReadbackRequest_p_.Invoke(___genericsType, ___parameters);
+			@output = new RUnity.RCollections.RNativeSlice<RType>(___parameters[0]);
+
+            
+        }
+
+
+        public virtual void RequestAsyncReadbackIntoNativeSlice<T>(ref RUnity.RCollections.RNativeSlice<RType> @output, UnityEngine.GraphicsBuffer @src, System.Action<UnityEngine.Rendering.AsyncGPUReadbackRequest> @callback) where T : struct
+        {
+
+            var ___genericsType = new Type[] {typeof(T)};
+            var ___parameters = new object[]{@output.Value, @src, @callback};
+            var ___result = RRequestAsyncReadbackIntoNativeSlice_GT_Ref_NativeSlice_d_T_p__GraphicsBuffer_Action_d_AsyncGPUReadbackRequest_p_.Invoke(___genericsType, ___parameters);
+			@output = new RUnity.RCollections.RNativeSlice<RType>(___parameters[0]);
+
+            
+        }
+
+
+        public virtual void RequestAsyncReadbackIntoNativeSlice<T>(ref RUnity.RCollections.RNativeSlice<RType> @output, UnityEngine.GraphicsBuffer @src, System.Int32 @size, System.Int32 @offset, System.Action<UnityEngine.Rendering.AsyncGPUReadbackRequest> @callback) where T : struct
+        {
+
+            var ___genericsType = new Type[] {typeof(T)};
+            var ___parameters = new object[]{@output.Value, @src, @size, @offset, @callback};
+            var ___result = RRequestAsyncReadbackIntoNativeSlice_GT_Ref_NativeSlice_d_T_p__GraphicsBuffer_Int32_Int32_Action_d_AsyncGPUReadbackRequest_p_.Invoke(___genericsType, ___parameters);
+			@output = new RUnity.RCollections.RNativeSlice<RType>(___parameters[0]);
+
+            
+        }
+
+
+        public virtual void RequestAsyncReadbackIntoNativeSlice<T>(ref RUnity.RCollections.RNativeSlice<RType> @output, UnityEngine.Texture @src, System.Action<UnityEngine.Rendering.AsyncGPUReadbackRequest> @callback) where T : struct
+        {
+
+            var ___genericsType = new Type[] {typeof(T)};
+            var ___parameters = new object[]{@output.Value, @src, @callback};
+            var ___result = RRequestAsyncReadbackIntoNativeSlice_GT_Ref_NativeSlice_d_T_p__Texture_Action_d_AsyncGPUReadbackRequest_p_.Invoke(___genericsType, ___parameters);
+			@output = new RUnity.RCollections.RNativeSlice<RType>(___parameters[0]);
+
+            
+        }
+
+
+        public virtual void RequestAsyncReadbackIntoNativeSlice<T>(ref RUnity.RCollections.RNativeSlice<RType> @output, UnityEngine.Texture @src, System.Int32 @mipIndex, System.Action<UnityEngine.Rendering.AsyncGPUReadbackRequest> @callback) where T : struct
+        {
+
+            var ___genericsType = new Type[] {typeof(T)};
+            var ___parameters = new object[]{@output.Value, @src, @mipIndex, @callback};
+            var ___result = RRequestAsyncReadbackIntoNativeSlice_GT_Ref_NativeSlice_d_T_p__Texture_Int32_Action_d_AsyncGPUReadbackRequest_p_.Invoke(___genericsType, ___parameters);
+			@output = new RUnity.RCollections.RNativeSlice<RType>(___parameters[0]);
+
+            
+        }
+
+
+        public virtual void RequestAsyncReadbackIntoNativeSlice<T>(ref RUnity.RCollections.RNativeSlice<RType> @output, UnityEngine.Texture @src, System.Int32 @mipIndex, UnityEngine.TextureFormat @dstFormat, System.Action<UnityEngine.Rendering.AsyncGPUReadbackRequest> @callback) where T : struct
+        {
+
+            var ___genericsType = new Type[] {typeof(T)};
+            var ___parameters = new object[]{@output.Value, @src, @mipIndex, @dstFormat, @callback};
+            var ___result = RRequestAsyncReadbackIntoNativeSlice_GT_Ref_NativeSlice_d_T_p__Texture_Int32_TextureFormat_Action_d_AsyncGPUReadbackRequest_p_.Invoke(___genericsType, ___parameters);
+			@output = new RUnity.RCollections.RNativeSlice<RType>(___parameters[0]);
+
+            
+        }
+
+
+        public virtual void RequestAsyncReadbackIntoNativeSlice<T>(ref RUnity.RCollections.RNativeSlice<RType> @output, UnityEngine.Texture @src, System.Int32 @mipIndex, UnityEngine.Experimental.Rendering.GraphicsFormat @dstFormat, System.Action<UnityEngine.Rendering.AsyncGPUReadbackRequest> @callback) where T : struct
+        {
+
+            var ___genericsType = new Type[] {typeof(T)};
+            var ___parameters = new object[]{@output.Value, @src, @mipIndex, @dstFormat, @callback};
+            var ___result = RRequestAsyncReadbackIntoNativeSlice_GT_Ref_NativeSlice_d_T_p__Texture_Int32_GraphicsFormat_Action_d_AsyncGPUReadbackRequest_p_.Invoke(___genericsType, ___parameters);
+			@output = new RUnity.RCollections.RNativeSlice<RType>(___parameters[0]);
+
+            
+        }
+
+
+        public virtual void RequestAsyncReadbackIntoNativeSlice<T>(ref RUnity.RCollections.RNativeSlice<RType> @output, UnityEngine.Texture @src, System.Int32 @mipIndex, System.Int32 @x, System.Int32 @width, System.Int32 @y, System.Int32 @height, System.Int32 @z, System.Int32 @depth, System.Action<UnityEngine.Rendering.AsyncGPUReadbackRequest> @callback) where T : struct
+        {
+
+            var ___genericsType = new Type[] {typeof(T)};
+            var ___parameters = new object[]{@output.Value, @src, @mipIndex, @x, @width, @y, @height, @z, @depth, @callback};
+            var ___result = RRequestAsyncReadbackIntoNativeSlice_GT_Ref_NativeSlice_d_T_p__Texture_Int32_Int32_Int32_Int32_Int32_Int32_Int32_Action_d_AsyncGPUReadbackRequest_p_.Invoke(___genericsType, ___parameters);
+			@output = new RUnity.RCollections.RNativeSlice<RType>(___parameters[0]);
+
+            
+        }
+
+
+        public virtual void RequestAsyncReadbackIntoNativeSlice<T>(ref RUnity.RCollections.RNativeSlice<RType> @output, UnityEngine.Texture @src, System.Int32 @mipIndex, System.Int32 @x, System.Int32 @width, System.Int32 @y, System.Int32 @height, System.Int32 @z, System.Int32 @depth, UnityEngine.TextureFormat @dstFormat, System.Action<UnityEngine.Rendering.AsyncGPUReadbackRequest> @callback) where T : struct
+        {
+
+            var ___genericsType = new Type[] {typeof(T)};
+            var ___parameters = new object[]{@output.Value, @src, @mipIndex, @x, @width, @y, @height, @z, @depth, @dstFormat, @callback};
+            var ___result = RRequestAsyncReadbackIntoNativeSlice_GT_Ref_NativeSlice_d_T_p__Texture_Int32_Int32_Int32_Int32_Int32_Int32_Int32_TextureFormat_Action_d_AsyncGPUReadbackRequest_p_.Invoke(___genericsType, ___parameters);
+			@output = new RUnity.RCollections.RNativeSlice<RType>(___parameters[0]);
+
+            
+        }
+
+
+        public virtual void RequestAsyncReadbackIntoNativeSlice<T>(ref RUnity.RCollections.RNativeSlice<RType> @output, UnityEngine.Texture @src, System.Int32 @mipIndex, System.Int32 @x, System.Int32 @width, System.Int32 @y, System.Int32 @height, System.Int32 @z, System.Int32 @depth, UnityEngine.Experimental.Rendering.GraphicsFormat @dstFormat, System.Action<UnityEngine.Rendering.AsyncGPUReadbackRequest> @callback) where T : struct
+        {
+
+            var ___genericsType = new Type[] {typeof(T)};
+            var ___parameters = new object[]{@output.Value, @src, @mipIndex, @x, @width, @y, @height, @z, @depth, @dstFormat, @callback};
+            var ___result = RRequestAsyncReadbackIntoNativeSlice_GT_Ref_NativeSlice_d_T_p__Texture_Int32_Int32_Int32_Int32_Int32_Int32_Int32_GraphicsFormat_Action_d_AsyncGPUReadbackRequest_p_.Invoke(___genericsType, ___parameters);
+			@output = new RUnity.RCollections.RNativeSlice<RType>(___parameters[0]);
+
+            
+        }
 
 
         public unsafe virtual void Internal_RequestAsyncReadback_1(UnityEngine.ComputeBuffer @src, System.Action<UnityEngine.Rendering.AsyncGPUReadbackRequest> @callback, RTypePointer<RUnityEngine.RRendering.RAsyncRequestNativeArrayData> @nativeArrayData)
@@ -10847,16 +11089,26 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetBufferData<T>(UnityEngine.ComputeBuffer @buffer, System.Collections.Generic.List<T> @data) where T : struct
+        public virtual void SetBufferData<T>(UnityEngine.ComputeBuffer @buffer, RSystem.RCollections.RGeneric.RList<RType> @data) where T : struct
         {
 
             var ___genericsType = new Type[] {typeof(T)};
-            var ___parameters = new object[]{@buffer, @data};
+            var ___parameters = new object[]{@buffer, @data.Value};
             var ___result = RSetBufferData_GT_ComputeBuffer_List_d_T_p_.Invoke(___genericsType, ___parameters);
 
             
         }
 
+
+        public virtual void SetBufferData<T>(UnityEngine.ComputeBuffer @buffer, RUnity.RCollections.RNativeArray<RType> @data) where T : struct
+        {
+
+            var ___genericsType = new Type[] {typeof(T)};
+            var ___parameters = new object[]{@buffer, @data.Value};
+            var ___result = RSetBufferData_GT_ComputeBuffer_NativeArray_d_T_p_.Invoke(___genericsType, ___parameters);
+
+            
+        }
 
 
         public virtual void SetBufferData(UnityEngine.ComputeBuffer @buffer, System.Array @data, System.Int32 @managedBufferStartIndex, System.Int32 @graphicsBufferStartIndex, System.Int32 @count)
@@ -10870,16 +11122,26 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetBufferData<T>(UnityEngine.ComputeBuffer @buffer, System.Collections.Generic.List<T> @data, System.Int32 @managedBufferStartIndex, System.Int32 @graphicsBufferStartIndex, System.Int32 @count) where T : struct
+        public virtual void SetBufferData<T>(UnityEngine.ComputeBuffer @buffer, RSystem.RCollections.RGeneric.RList<RType> @data, System.Int32 @managedBufferStartIndex, System.Int32 @graphicsBufferStartIndex, System.Int32 @count) where T : struct
         {
 
             var ___genericsType = new Type[] {typeof(T)};
-            var ___parameters = new object[]{@buffer, @data, @managedBufferStartIndex, @graphicsBufferStartIndex, @count};
+            var ___parameters = new object[]{@buffer, @data.Value, @managedBufferStartIndex, @graphicsBufferStartIndex, @count};
             var ___result = RSetBufferData_GT_ComputeBuffer_List_d_T_p__Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
 
             
         }
 
+
+        public virtual void SetBufferData<T>(UnityEngine.ComputeBuffer @buffer, RUnity.RCollections.RNativeArray<RType> @data, System.Int32 @nativeBufferStartIndex, System.Int32 @graphicsBufferStartIndex, System.Int32 @count) where T : struct
+        {
+
+            var ___genericsType = new Type[] {typeof(T)};
+            var ___parameters = new object[]{@buffer, @data.Value, @nativeBufferStartIndex, @graphicsBufferStartIndex, @count};
+            var ___result = RSetBufferData_GT_ComputeBuffer_NativeArray_d_T_p__Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
+
+            
+        }
 
 
         public virtual void SetBufferCounterValue(UnityEngine.ComputeBuffer @buffer, System.UInt32 @counterValue)
@@ -10937,16 +11199,26 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetBufferData<T>(UnityEngine.GraphicsBuffer @buffer, System.Collections.Generic.List<T> @data) where T : struct
+        public virtual void SetBufferData<T>(UnityEngine.GraphicsBuffer @buffer, RSystem.RCollections.RGeneric.RList<RType> @data) where T : struct
         {
 
             var ___genericsType = new Type[] {typeof(T)};
-            var ___parameters = new object[]{@buffer, @data};
+            var ___parameters = new object[]{@buffer, @data.Value};
             var ___result = RSetBufferData_GT_GraphicsBuffer_List_d_T_p_.Invoke(___genericsType, ___parameters);
 
             
         }
 
+
+        public virtual void SetBufferData<T>(UnityEngine.GraphicsBuffer @buffer, RUnity.RCollections.RNativeArray<RType> @data) where T : struct
+        {
+
+            var ___genericsType = new Type[] {typeof(T)};
+            var ___parameters = new object[]{@buffer, @data.Value};
+            var ___result = RSetBufferData_GT_GraphicsBuffer_NativeArray_d_T_p_.Invoke(___genericsType, ___parameters);
+
+            
+        }
 
 
         public virtual void SetBufferData(UnityEngine.GraphicsBuffer @buffer, System.Array @data, System.Int32 @managedBufferStartIndex, System.Int32 @graphicsBufferStartIndex, System.Int32 @count)
@@ -10960,16 +11232,26 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetBufferData<T>(UnityEngine.GraphicsBuffer @buffer, System.Collections.Generic.List<T> @data, System.Int32 @managedBufferStartIndex, System.Int32 @graphicsBufferStartIndex, System.Int32 @count) where T : struct
+        public virtual void SetBufferData<T>(UnityEngine.GraphicsBuffer @buffer, RSystem.RCollections.RGeneric.RList<RType> @data, System.Int32 @managedBufferStartIndex, System.Int32 @graphicsBufferStartIndex, System.Int32 @count) where T : struct
         {
 
             var ___genericsType = new Type[] {typeof(T)};
-            var ___parameters = new object[]{@buffer, @data, @managedBufferStartIndex, @graphicsBufferStartIndex, @count};
+            var ___parameters = new object[]{@buffer, @data.Value, @managedBufferStartIndex, @graphicsBufferStartIndex, @count};
             var ___result = RSetBufferData_GT_GraphicsBuffer_List_d_T_p__Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
 
             
         }
 
+
+        public virtual void SetBufferData<T>(UnityEngine.GraphicsBuffer @buffer, RUnity.RCollections.RNativeArray<RType> @data, System.Int32 @nativeBufferStartIndex, System.Int32 @graphicsBufferStartIndex, System.Int32 @count) where T : struct
+        {
+
+            var ___genericsType = new Type[] {typeof(T)};
+            var ___parameters = new object[]{@buffer, @data.Value, @nativeBufferStartIndex, @graphicsBufferStartIndex, @count};
+            var ___result = RSetBufferData_GT_GraphicsBuffer_NativeArray_d_T_p__Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
+
+            
+        }
 
 
         public virtual void SetBufferCounterValue(UnityEngine.GraphicsBuffer @buffer, System.UInt32 @counterValue)
@@ -12963,16 +13245,26 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetComputeBufferData<T>(UnityEngine.ComputeBuffer @buffer, System.Collections.Generic.List<T> @data) where T : struct
+        public virtual void SetComputeBufferData<T>(UnityEngine.ComputeBuffer @buffer, RSystem.RCollections.RGeneric.RList<RType> @data) where T : struct
         {
 
             var ___genericsType = new Type[] {typeof(T)};
-            var ___parameters = new object[]{@buffer, @data};
+            var ___parameters = new object[]{@buffer, @data.Value};
             var ___result = RSetComputeBufferData_GT_ComputeBuffer_List_d_T_p_.Invoke(___genericsType, ___parameters);
 
             
         }
 
+
+        public virtual void SetComputeBufferData<T>(UnityEngine.ComputeBuffer @buffer, RUnity.RCollections.RNativeArray<RType> @data) where T : struct
+        {
+
+            var ___genericsType = new Type[] {typeof(T)};
+            var ___parameters = new object[]{@buffer, @data.Value};
+            var ___result = RSetComputeBufferData_GT_ComputeBuffer_NativeArray_d_T_p_.Invoke(___genericsType, ___parameters);
+
+            
+        }
 
 
         public virtual void SetComputeBufferData(UnityEngine.ComputeBuffer @buffer, System.Array @data, System.Int32 @managedBufferStartIndex, System.Int32 @graphicsBufferStartIndex, System.Int32 @count)
@@ -12986,16 +13278,26 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetComputeBufferData<T>(UnityEngine.ComputeBuffer @buffer, System.Collections.Generic.List<T> @data, System.Int32 @managedBufferStartIndex, System.Int32 @graphicsBufferStartIndex, System.Int32 @count) where T : struct
+        public virtual void SetComputeBufferData<T>(UnityEngine.ComputeBuffer @buffer, RSystem.RCollections.RGeneric.RList<RType> @data, System.Int32 @managedBufferStartIndex, System.Int32 @graphicsBufferStartIndex, System.Int32 @count) where T : struct
         {
 
             var ___genericsType = new Type[] {typeof(T)};
-            var ___parameters = new object[]{@buffer, @data, @managedBufferStartIndex, @graphicsBufferStartIndex, @count};
+            var ___parameters = new object[]{@buffer, @data.Value, @managedBufferStartIndex, @graphicsBufferStartIndex, @count};
             var ___result = RSetComputeBufferData_GT_ComputeBuffer_List_d_T_p__Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
 
             
         }
 
+
+        public virtual void SetComputeBufferData<T>(UnityEngine.ComputeBuffer @buffer, RUnity.RCollections.RNativeArray<RType> @data, System.Int32 @nativeBufferStartIndex, System.Int32 @graphicsBufferStartIndex, System.Int32 @count) where T : struct
+        {
+
+            var ___genericsType = new Type[] {typeof(T)};
+            var ___parameters = new object[]{@buffer, @data.Value, @nativeBufferStartIndex, @graphicsBufferStartIndex, @count};
+            var ___result = RSetComputeBufferData_GT_ComputeBuffer_NativeArray_d_T_p__Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
+
+            
+        }
 
 
         public virtual void SetComputeBufferCounterValue(UnityEngine.ComputeBuffer @buffer, System.UInt32 @counterValue)

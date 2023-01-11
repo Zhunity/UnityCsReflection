@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Int32 streamingMipmapsPriorityMin
 		/// </summary>
-		protected static RField r_streamingMipmapsPriorityMin;
-		public static RField RstreamingMipmapsPriorityMin
+		protected static RSystem.RInt32 r_streamingMipmapsPriorityMin;
+		public static RSystem.RInt32 RstreamingMipmapsPriorityMin
 		{
 			get
 			{
@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Int32 streamingMipmapsPriorityMax
 		/// </summary>
-		protected static RField r_streamingMipmapsPriorityMax;
-		public static RField RstreamingMipmapsPriorityMax
+		protected static RSystem.RInt32 r_streamingMipmapsPriorityMax;
+		public static RSystem.RInt32 RstreamingMipmapsPriorityMax
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Boolean ignoreMipmapLimit
 		/// </summary>
-		protected RProperty r_ignoreMipmapLimit;
-		public virtual RProperty RignoreMipmapLimit
+		protected RSystem.RBoolean r_ignoreMipmapLimit;
+		public virtual RSystem.RBoolean RignoreMipmapLimit
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.String mipmapLimitGroup
 		/// </summary>
-		protected RProperty r_mipmapLimitGroup;
-		public virtual RProperty RmipmapLimitGroup
+		protected RSystem.RString r_mipmapLimitGroup;
+		public virtual RSystem.RString RmipmapLimitGroup
 		{
 			get
 			{
@@ -200,8 +200,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Boolean isReadable
 		/// </summary>
-		protected RProperty r_isReadable;
-		public virtual RProperty RisReadable
+		protected RSystem.RBoolean r_isReadable;
+		public virtual RSystem.RBoolean RisReadable
 		{
 			get
 			{
@@ -217,8 +217,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Boolean vtOnly
 		/// </summary>
-		protected RProperty r_vtOnly;
-		public virtual RProperty RvtOnly
+		protected RSystem.RBoolean r_vtOnly;
+		public virtual RSystem.RBoolean RvtOnly
 		{
 			get
 			{
@@ -234,8 +234,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Boolean isPreProcessed
 		/// </summary>
-		protected RProperty r_isPreProcessed;
-		public virtual RProperty RisPreProcessed
+		protected RSystem.RBoolean r_isPreProcessed;
+		public virtual RSystem.RBoolean RisPreProcessed
 		{
 			get
 			{
@@ -251,8 +251,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Boolean streamingMipmaps
 		/// </summary>
-		protected RProperty r_streamingMipmaps;
-		public virtual RProperty RstreamingMipmaps
+		protected RSystem.RBoolean r_streamingMipmaps;
+		public virtual RSystem.RBoolean RstreamingMipmaps
 		{
 			get
 			{
@@ -268,8 +268,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 streamingMipmapsPriority
 		/// </summary>
-		protected RProperty r_streamingMipmapsPriority;
-		public virtual RProperty RstreamingMipmapsPriority
+		protected RSystem.RInt32 r_streamingMipmapsPriority;
+		public virtual RSystem.RInt32 RstreamingMipmapsPriority
 		{
 			get
 			{
@@ -285,8 +285,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 requestedMipmapLevel
 		/// </summary>
-		protected RProperty r_requestedMipmapLevel;
-		public virtual RProperty RrequestedMipmapLevel
+		protected RSystem.RInt32 r_requestedMipmapLevel;
+		public virtual RSystem.RInt32 RrequestedMipmapLevel
 		{
 			get
 			{
@@ -302,8 +302,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 minimumMipmapLevel
 		/// </summary>
-		protected RProperty r_minimumMipmapLevel;
-		public virtual RProperty RminimumMipmapLevel
+		protected RSystem.RInt32 r_minimumMipmapLevel;
+		public virtual RSystem.RInt32 RminimumMipmapLevel
 		{
 			get
 			{
@@ -319,8 +319,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Boolean loadAllMips
 		/// </summary>
-		protected RProperty r_loadAllMips;
-		public virtual RProperty RloadAllMips
+		protected RSystem.RBoolean r_loadAllMips;
+		public virtual RSystem.RBoolean RloadAllMips
 		{
 			get
 			{
@@ -336,8 +336,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 calculatedMipmapLevel
 		/// </summary>
-		protected RProperty r_calculatedMipmapLevel;
-		public virtual RProperty RcalculatedMipmapLevel
+		protected RSystem.RInt32 r_calculatedMipmapLevel;
+		public virtual RSystem.RInt32 RcalculatedMipmapLevel
 		{
 			get
 			{
@@ -353,8 +353,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 desiredMipmapLevel
 		/// </summary>
-		protected RProperty r_desiredMipmapLevel;
-		public virtual RProperty RdesiredMipmapLevel
+		protected RSystem.RInt32 r_desiredMipmapLevel;
+		public virtual RSystem.RInt32 RdesiredMipmapLevel
 		{
 			get
 			{
@@ -370,8 +370,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 loadingMipmapLevel
 		/// </summary>
-		protected RProperty r_loadingMipmapLevel;
-		public virtual RProperty RloadingMipmapLevel
+		protected RSystem.RInt32 r_loadingMipmapLevel;
+		public virtual RSystem.RInt32 RloadingMipmapLevel
 		{
 			get
 			{
@@ -387,8 +387,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 loadedMipmapLevel
 		/// </summary>
-		protected RProperty r_loadedMipmapLevel;
-		public virtual RProperty RloadedMipmapLevel
+		protected RSystem.RInt32 r_loadedMipmapLevel;
+		public virtual RSystem.RInt32 RloadedMipmapLevel
 		{
 			get
 			{
@@ -404,8 +404,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Boolean alphaIsTransparency
 		/// </summary>
-		protected RProperty r_alphaIsTransparency;
-		public virtual RProperty RalphaIsTransparency
+		protected RSystem.RBoolean r_alphaIsTransparency;
+		public virtual RSystem.RBoolean RalphaIsTransparency
 		{
 			get
 			{
@@ -421,8 +421,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Single pixelsPerPoint
 		/// </summary>
-		protected RProperty r_pixelsPerPoint;
-		public virtual RProperty RpixelsPerPoint
+		protected RSystem.RSingle r_pixelsPerPoint;
+		public virtual RSystem.RSingle RpixelsPerPoint
 		{
 			get
 			{
@@ -438,8 +438,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 mipmapCount
 		/// </summary>
-		protected RProperty r_mipmapCount;
-		public virtual RProperty RmipmapCount
+		protected RSystem.RInt32 r_mipmapCount;
+		public virtual RSystem.RInt32 RmipmapCount
 		{
 			get
 			{
@@ -472,8 +472,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 width
 		/// </summary>
-		protected RProperty r_width;
-		public virtual RProperty Rwidth
+		protected RSystem.RInt32 r_width;
+		public virtual RSystem.RInt32 Rwidth
 		{
 			get
 			{
@@ -489,8 +489,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 height
 		/// </summary>
-		protected RProperty r_height;
-		public virtual RProperty Rheight
+		protected RSystem.RInt32 r_height;
+		public virtual RSystem.RInt32 Rheight
 		{
 			get
 			{
@@ -608,8 +608,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 anisoLevel
 		/// </summary>
-		protected RProperty r_anisoLevel;
-		public virtual RProperty RanisoLevel
+		protected RSystem.RInt32 r_anisoLevel;
+		public virtual RSystem.RInt32 RanisoLevel
 		{
 			get
 			{
@@ -625,8 +625,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Single mipMapBias
 		/// </summary>
-		protected RProperty r_mipMapBias;
-		public virtual RProperty RmipMapBias
+		protected RSystem.RSingle r_mipMapBias;
+		public virtual RSystem.RSingle RmipMapBias
 		{
 			get
 			{
@@ -659,8 +659,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UInt32 updateCount
 		/// </summary>
-		protected RProperty r_updateCount;
-		public virtual RProperty RupdateCount
+		protected RSystem.RUInt32 r_updateCount;
+		public virtual RSystem.RUInt32 RupdateCount
 		{
 			get
 			{
@@ -693,8 +693,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Boolean isDataSRGB
 		/// </summary>
-		protected RProperty r_isDataSRGB;
-		public virtual RProperty RisDataSRGB
+		protected RSystem.RBoolean r_isDataSRGB;
+		public virtual RSystem.RBoolean RisDataSRGB
 		{
 			get
 			{
@@ -727,8 +727,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.String name
 		/// </summary>
-		protected RProperty r_name;
-		public virtual RProperty Rname
+		protected RSystem.RString r_name;
+		public virtual RSystem.RString Rname
 		{
 			get
 			{
@@ -2958,6 +2958,16 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
+        public virtual void LoadRawTextureData<T>(RUnity.RCollections.RNativeArray<RType> @data) where T : struct
+        {
+
+            var ___genericsType = new Type[] {typeof(T)};
+            var ___parameters = new object[]{@data.Value};
+            var ___result = RLoadRawTextureData_GT_NativeArray_d_T_p_.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
 
         public virtual void SetPixelData<T>(T[] @data, System.Int32 @mipLevel, System.Int32 @sourceDataStartIndex)
         {
@@ -2970,26 +2980,36 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
+        public virtual void SetPixelData<T>(RUnity.RCollections.RNativeArray<RType> @data, System.Int32 @mipLevel, System.Int32 @sourceDataStartIndex) where T : struct
+        {
 
-        public virtual System.Object GetPixelData<T>(System.Int32 @mipLevel) where T : struct
+            var ___genericsType = new Type[] {typeof(T)};
+            var ___parameters = new object[]{@data.Value, @mipLevel, @sourceDataStartIndex};
+            var ___result = RSetPixelData_GT_NativeArray_d_T_p__Int32_Int32.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual RUnity.RCollections.RNativeArray<RType> GetPixelData<T>(System.Int32 @mipLevel) where T : struct
         {
 
             var ___genericsType = new Type[] {typeof(T)};
             var ___parameters = new object[]{@mipLevel};
             var ___result = RGetPixelData_GT_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RUnity.RCollections.RNativeArray<RType>(___result);
         }
 
 
-        public virtual System.Object GetRawTextureData<T>() where T : struct
+        public virtual RUnity.RCollections.RNativeArray<RType> GetRawTextureData<T>() where T : struct
         {
 
             var ___genericsType = new Type[] {typeof(T)};
             var ___parameters = new object[]{};
             var ___result = RGetRawTextureData_GT.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RUnity.RCollections.RNativeArray<RType>(___result);
         }
 
 

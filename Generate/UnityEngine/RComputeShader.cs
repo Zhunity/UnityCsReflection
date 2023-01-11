@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.String[] shaderKeywords
 		/// </summary>
-		protected RPropertyArray<RProperty> r_shaderKeywords;
-		public virtual RPropertyArray<RProperty> RshaderKeywords
+		protected RPropertyArray<RSystem.RString> r_shaderKeywords;
+		public virtual RPropertyArray<RSystem.RString> RshaderKeywords
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.String name
 		/// </summary>
-		protected RProperty r_name;
-		public virtual RProperty Rname
+		protected RSystem.RString r_name;
+		public virtual RSystem.RString Rname
 		{
 			get
 			{

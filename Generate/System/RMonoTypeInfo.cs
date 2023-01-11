@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.String full_name
 		/// </summary>
-		protected RField r_full_name;
-		public virtual RField Rfull_name
+		protected RSystem.RString r_full_name;
+		public virtual RSystem.RString Rfull_name
 		{
 			get
 			{

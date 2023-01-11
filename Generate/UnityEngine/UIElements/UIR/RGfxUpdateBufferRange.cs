@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.UInt32 offsetFromWriteStart
 		/// </summary>
-		protected RField r_offsetFromWriteStart;
-		public virtual RField RoffsetFromWriteStart
+		protected RSystem.RUInt32 r_offsetFromWriteStart;
+		public virtual RSystem.RUInt32 RoffsetFromWriteStart
 		{
 			get
 			{
@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.UInt32 size
 		/// </summary>
-		protected RField r_size;
-		public virtual RField Rsize
+		protected RSystem.RUInt32 r_size;
+		public virtual RSystem.RUInt32 Rsize
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.UIntPtr source
 		/// </summary>
-		protected RField r_source;
-		public virtual RField Rsource
+		protected RSystem.RUIntPtr r_source;
+		public virtual RSystem.RUIntPtr Rsource
 		{
 			get
 			{

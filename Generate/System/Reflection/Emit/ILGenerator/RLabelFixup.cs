@@ -15,8 +15,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Int32 offset
 		/// </summary>
-		protected RField r_offset;
-		public virtual RField Roffset
+		protected RSystem.RInt32 r_offset;
+		public virtual RSystem.RInt32 Roffset
 		{
 			get
 			{
@@ -32,8 +32,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Int32 pos
 		/// </summary>
-		protected RField r_pos;
-		public virtual RField Rpos
+		protected RSystem.RInt32 r_pos;
+		public virtual RSystem.RInt32 Rpos
 		{
 			get
 			{
@@ -49,8 +49,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Int32 label_idx
 		/// </summary>
-		protected RField r_label_idx;
-		public virtual RField Rlabel_idx
+		protected RSystem.RInt32 r_label_idx;
+		public virtual RSystem.RInt32 Rlabel_idx
 		{
 			get
 			{

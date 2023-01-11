@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.String m_TemplateAlias
 		/// </summary>
-		protected RField r_m_TemplateAlias;
-		public virtual RField Rm_TemplateAlias
+		protected RSystem.RString r_m_TemplateAlias;
+		public virtual RSystem.RString Rm_TemplateAlias
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Collections.Generic.List`1[System.String] m_Properties
 		/// </summary>
-		protected RSystem.RCollections.RGeneric.RList<RField> r_m_Properties;
-		public virtual RSystem.RCollections.RGeneric.RList<RField> Rm_Properties
+		protected RSystem.RCollections.RGeneric.RList<RSystem.RString> r_m_Properties;
+		public virtual RSystem.RCollections.RGeneric.RList<RSystem.RString> Rm_Properties
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.String templateAlias
 		/// </summary>
-		protected RProperty r_templateAlias;
-		public virtual RProperty RtemplateAlias
+		protected RSystem.RString r_templateAlias;
+		public virtual RSystem.RString RtemplateAlias
 		{
 			get
 			{
@@ -132,8 +132,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Int32 ruleIndex
 		/// </summary>
-		protected RProperty r_ruleIndex;
-		public virtual RProperty RruleIndex
+		protected RSystem.RInt32 r_ruleIndex;
+		public virtual RSystem.RInt32 RruleIndex
 		{
 			get
 			{
@@ -149,8 +149,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.String[] classes
 		/// </summary>
-		protected RPropertyArray<RProperty> r_classes;
-		public virtual RPropertyArray<RProperty> Rclasses
+		protected RPropertyArray<RSystem.RString> r_classes;
+		public virtual RPropertyArray<RSystem.RString> Rclasses
 		{
 			get
 			{
@@ -166,8 +166,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Collections.Generic.List`1[System.String] stylesheetPaths
 		/// </summary>
-		protected RSystem.RCollections.RGeneric.RList<RProperty> r_stylesheetPaths;
-		public virtual RSystem.RCollections.RGeneric.RList<RProperty> RstylesheetPaths
+		protected RSystem.RCollections.RGeneric.RList<RSystem.RString> r_stylesheetPaths;
+		public virtual RSystem.RCollections.RGeneric.RList<RSystem.RString> RstylesheetPaths
 		{
 			get
 			{
@@ -183,8 +183,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Boolean hasStylesheetPaths
 		/// </summary>
-		protected RProperty r_hasStylesheetPaths;
-		public virtual RProperty RhasStylesheetPaths
+		protected RSystem.RBoolean r_hasStylesheetPaths;
+		public virtual RSystem.RBoolean RhasStylesheetPaths
 		{
 			get
 			{
@@ -217,8 +217,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Boolean hasStylesheets
 		/// </summary>
-		protected RProperty r_hasStylesheets;
-		public virtual RProperty RhasStylesheets
+		protected RSystem.RBoolean r_hasStylesheets;
+		public virtual RSystem.RBoolean RhasStylesheets
 		{
 			get
 			{
@@ -234,8 +234,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.String fullTypeName
 		/// </summary>
-		protected RProperty r_fullTypeName;
-		public virtual RProperty RfullTypeName
+		protected RSystem.RString r_fullTypeName;
+		public virtual RSystem.RString RfullTypeName
 		{
 			get
 			{
@@ -251,8 +251,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Int32 id
 		/// </summary>
-		protected RProperty r_id;
-		public virtual RProperty Rid
+		protected RSystem.RInt32 r_id;
+		public virtual RSystem.RInt32 Rid
 		{
 			get
 			{
@@ -268,8 +268,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Int32 orderInDocument
 		/// </summary>
-		protected RProperty r_orderInDocument;
-		public virtual RProperty RorderInDocument
+		protected RSystem.RInt32 r_orderInDocument;
+		public virtual RSystem.RInt32 RorderInDocument
 		{
 			get
 			{
@@ -285,8 +285,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Int32 parentId
 		/// </summary>
-		protected RProperty r_parentId;
-		public virtual RProperty RparentId
+		protected RSystem.RInt32 r_parentId;
+		public virtual RSystem.RInt32 RparentId
 		{
 			get
 			{

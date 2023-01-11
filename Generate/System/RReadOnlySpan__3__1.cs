@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Int32 _length
 		/// </summary>
-		protected RField r__length;
-		public virtual RField R_length
+		protected RSystem.RInt32 r__length;
+		public virtual RSystem.RInt32 R_length
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// Int32 Length
 		/// </summary>
-		protected RProperty r_Length;
-		public virtual RProperty RLength
+		protected RSystem.RInt32 r_Length;
+		public virtual RSystem.RInt32 RLength
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// Boolean IsEmpty
 		/// </summary>
-		protected RProperty r_IsEmpty;
-		public virtual RProperty RIsEmpty
+		protected RSystem.RBoolean r_IsEmpty;
+		public virtual RSystem.RBoolean RIsEmpty
 		{
 			get
 			{
@@ -430,7 +430,37 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
+        public virtual void CopyTo(RSystem.RSpan<RType> @destination)
+        {
 
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@destination.Value};
+            var ___result = RCopyTo_Span_d_T_p_.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual System.Boolean TryCopyTo(RSystem.RSpan<RType> @destination)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@destination.Value};
+            var ___result = RTryCopyTo_Span_d_T_p_.Invoke(___genericsType, ___parameters);
+
+            return (System.Boolean)___result;
+        }
+
+
+        public static System.Boolean op_Equality(RSystem.RReadOnlySpan<RType> @left, RSystem.RReadOnlySpan<RType> @right)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@left.Value, @right.Value};
+            var ___result = Rop_Equality_ReadOnlySpan_d_T_p__ReadOnlySpan_d_T_p_.Invoke(___genericsType, ___parameters);
+
+            return (System.Boolean)___result;
+        }
 
 
         public virtual System.String ToString()
@@ -444,25 +474,25 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Object Slice(System.Int32 @start)
+        public virtual RSystem.RReadOnlySpan<RType> Slice(System.Int32 @start)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@start};
             var ___result = RSlice_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RSystem.RReadOnlySpan<RType>(___result);
         }
 
 
-        public virtual System.Object Slice(System.Int32 @start, System.Int32 @length)
+        public virtual RSystem.RReadOnlySpan<RType> Slice(System.Int32 @start, System.Int32 @length)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@start, @length};
             var ___result = RSlice_Int32_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RSystem.RReadOnlySpan<RType>(___result);
         }
 
 
@@ -476,6 +506,16 @@ namespace SMFrame.Editor.Refleaction.RSystem
             return (T[])___result;
         }
 
+
+        public static System.Boolean op_Inequality(RSystem.RReadOnlySpan<RType> @left, RSystem.RReadOnlySpan<RType> @right)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@left.Value, @right.Value};
+            var ___result = Rop_Inequality_ReadOnlySpan_d_T_p__ReadOnlySpan_d_T_p_.Invoke(___genericsType, ___parameters);
+
+            return (System.Boolean)___result;
+        }
 
 
         public virtual System.Boolean Equals(System.Object @obj)
@@ -500,25 +540,25 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public static System.Object op_Implicit(T[] @array)
+        public static RSystem.RReadOnlySpan<RType> op_Implicit(T[] @array)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@array};
             var ___result = Rop_Implicit_TArray.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RSystem.RReadOnlySpan<RType>(___result);
         }
 
 
-        public static System.Object op_Implicit(System.ArraySegment<T> @segment)
+        public static RSystem.RReadOnlySpan<RType> op_Implicit(System.ArraySegment<T> @segment)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@segment};
             var ___result = Rop_Implicit_ArraySegment_d_T_p_.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RSystem.RReadOnlySpan<RType>(___result);
         }
 
 

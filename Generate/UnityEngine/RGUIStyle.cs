@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.IntPtr m_Ptr
 		/// </summary>
-		protected RField r_m_Ptr;
-		public virtual RField Rm_Ptr
+		protected RSystem.RIntPtr r_m_Ptr;
+		public virtual RSystem.RIntPtr Rm_Ptr
 		{
 			get
 			{
@@ -234,8 +234,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.String m_Name
 		/// </summary>
-		protected RField r_m_Name;
-		public virtual RField Rm_Name
+		protected RSystem.RString r_m_Name;
+		public virtual RSystem.RString Rm_Name
 		{
 			get
 			{
@@ -268,8 +268,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Int32 blockId
 		/// </summary>
-		protected RField r_blockId;
-		public virtual RField RblockId
+		protected RSystem.RInt32 r_blockId;
+		public virtual RSystem.RInt32 RblockId
 		{
 			get
 			{
@@ -285,8 +285,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Boolean showKeyboardFocus
 		/// </summary>
-		protected static RField r_showKeyboardFocus;
-		public static RField RshowKeyboardFocus
+		protected static RSystem.RBoolean r_showKeyboardFocus;
+		public static RSystem.RBoolean RshowKeyboardFocus
 		{
 			get
 			{
@@ -319,8 +319,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.String rawName
 		/// </summary>
-		protected RProperty r_rawName;
-		public virtual RProperty RrawName
+		protected RSystem.RString r_rawName;
+		public virtual RSystem.RString RrawName
 		{
 			get
 			{
@@ -387,8 +387,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Boolean wordWrap
 		/// </summary>
-		protected RProperty r_wordWrap;
-		public virtual RProperty RwordWrap
+		protected RSystem.RBoolean r_wordWrap;
+		public virtual RSystem.RBoolean RwordWrap
 		{
 			get
 			{
@@ -438,8 +438,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Single fixedWidth
 		/// </summary>
-		protected RProperty r_fixedWidth;
-		public virtual RProperty RfixedWidth
+		protected RSystem.RSingle r_fixedWidth;
+		public virtual RSystem.RSingle RfixedWidth
 		{
 			get
 			{
@@ -455,8 +455,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Single fixedHeight
 		/// </summary>
-		protected RProperty r_fixedHeight;
-		public virtual RProperty RfixedHeight
+		protected RSystem.RSingle r_fixedHeight;
+		public virtual RSystem.RSingle RfixedHeight
 		{
 			get
 			{
@@ -472,8 +472,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Boolean stretchWidth
 		/// </summary>
-		protected RProperty r_stretchWidth;
-		public virtual RProperty RstretchWidth
+		protected RSystem.RBoolean r_stretchWidth;
+		public virtual RSystem.RBoolean RstretchWidth
 		{
 			get
 			{
@@ -489,8 +489,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Boolean stretchHeight
 		/// </summary>
-		protected RProperty r_stretchHeight;
-		public virtual RProperty RstretchHeight
+		protected RSystem.RBoolean r_stretchHeight;
+		public virtual RSystem.RBoolean RstretchHeight
 		{
 			get
 			{
@@ -506,8 +506,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 fontSize
 		/// </summary>
-		protected RProperty r_fontSize;
-		public virtual RProperty RfontSize
+		protected RSystem.RInt32 r_fontSize;
+		public virtual RSystem.RInt32 RfontSize
 		{
 			get
 			{
@@ -540,8 +540,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Boolean richText
 		/// </summary>
-		protected RProperty r_richText;
-		public virtual RProperty RrichText
+		protected RSystem.RBoolean r_richText;
+		public virtual RSystem.RBoolean RrichText
 		{
 			get
 			{
@@ -591,8 +591,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.String name
 		/// </summary>
-		protected RProperty r_name;
-		public virtual RProperty Rname
+		protected RSystem.RString r_name;
+		public virtual RSystem.RString Rname
 		{
 			get
 			{
@@ -812,8 +812,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Single lineHeight
 		/// </summary>
-		protected RProperty r_lineHeight;
-		public virtual RProperty RlineHeight
+		protected RSystem.RSingle r_lineHeight;
+		public virtual RSystem.RSingle RlineHeight
 		{
 			get
 			{
@@ -846,8 +846,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Boolean isHeightDependantOnWidth
 		/// </summary>
-		protected RProperty r_isHeightDependantOnWidth;
-		public virtual RProperty RisHeightDependantOnWidth
+		protected RSystem.RBoolean r_isHeightDependantOnWidth;
+		public virtual RSystem.RBoolean RisHeightDependantOnWidth
 		{
 			get
 			{

@@ -32,8 +32,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Boolean negate
 		/// </summary>
-		protected RField r_negate;
-		public virtual RField Rnegate
+		protected RSystem.RBoolean r_negate;
+		public virtual RSystem.RBoolean Rnegate
 		{
 			get
 			{

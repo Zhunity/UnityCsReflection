@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int32 m_MaxSize
 		/// </summary>
-		protected RField r_m_MaxSize;
-		public virtual RField Rm_MaxSize
+		protected RSystem.RInt32 r_m_MaxSize;
+		public virtual RSystem.RInt32 Rm_MaxSize
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Int32 maxSize
 		/// </summary>
-		protected RProperty r_maxSize;
-		public virtual RProperty RmaxSize
+		protected RSystem.RInt32 r_maxSize;
+		public virtual RSystem.RInt32 RmaxSize
 		{
 			get
 			{

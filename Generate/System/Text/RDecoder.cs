@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// Boolean InternalHasFallbackBuffer
 		/// </summary>
-		protected RProperty r_InternalHasFallbackBuffer;
-		public virtual RProperty RInternalHasFallbackBuffer
+		protected RSystem.RBoolean r_InternalHasFallbackBuffer;
+		public virtual RSystem.RBoolean RInternalHasFallbackBuffer
 		{
 			get
 			{
@@ -463,6 +463,16 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
         }
 
 
+        public virtual System.Int32 GetCharCount(RSystem.RReadOnlySpan<RSystem.RByte> @bytes, System.Boolean @flush)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@bytes.Value, @flush};
+            var ___result = RGetCharCount_ReadOnlySpan_d_Byte_p__Boolean.Invoke(___genericsType, ___parameters);
+
+            return (System.Int32)___result;
+        }
+
 
         public virtual System.Int32 GetChars(System.Byte[] @bytes, System.Int32 @byteIndex, System.Int32 @byteCount, System.Char[] @chars, System.Int32 @charIndex)
         {
@@ -496,6 +506,16 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
             return (System.Int32)___result;
         }
 
+
+        public virtual System.Int32 GetChars(RSystem.RReadOnlySpan<RSystem.RByte> @bytes, RSystem.RSpan<RSystem.RChar> @chars, System.Boolean @flush)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@bytes.Value, @chars.Value, @flush};
+            var ___result = RGetChars_ReadOnlySpan_d_Byte_p__Span_d_Char_p__Boolean.Invoke(___genericsType, ___parameters);
+
+            return (System.Int32)___result;
+        }
 
 
         public virtual void Convert(System.Byte[] @bytes, System.Int32 @byteIndex, System.Int32 @byteCount, System.Char[] @chars, System.Int32 @charIndex, System.Int32 @charCount, System.Boolean @flush, out System.Int32 @bytesUsed, out System.Int32 @charsUsed, out System.Boolean @completed)
@@ -531,6 +551,22 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
             
         }
 
+
+        public virtual void Convert(RSystem.RReadOnlySpan<RSystem.RByte> @bytes, RSystem.RSpan<RSystem.RChar> @chars, System.Boolean @flush, out System.Int32 @bytesUsed, out System.Int32 @charsUsed, out System.Boolean @completed)
+        {
+			@bytesUsed = default;
+			@charsUsed = default;
+			@completed = default;
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@bytes.Value, @chars.Value, @flush, @bytesUsed, @charsUsed, @completed};
+            var ___result = RConvert_ReadOnlySpan_d_Byte_p__Span_d_Char_p__Boolean_Out_Int32_Out_Int32_Out_Boolean.Invoke(___genericsType, ___parameters);
+			@bytesUsed = (System.Int32)___parameters[3];
+			@charsUsed = (System.Int32)___parameters[4];
+			@completed = (System.Boolean)___parameters[5];
+
+            
+        }
 
 
         public virtual System.Boolean Equals(System.Object @obj)

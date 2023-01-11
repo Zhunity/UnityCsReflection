@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int32 version
 		/// </summary>
-		protected RField r_version;
-		public virtual RField Rversion
+		protected RSystem.RInt32 r_version;
+		public virtual RSystem.RInt32 Rversion
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.UInt16[] indices
 		/// </summary>
-		protected RFieldArray<RField> r_indices;
-		public virtual RFieldArray<RField> Rindices
+		protected RFieldArray<RSystem.RUInt16> r_indices;
+		public virtual RFieldArray<RSystem.RUInt16> Rindices
 		{
 			get
 			{
@@ -115,8 +115,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Single width
 		/// </summary>
-		protected RProperty r_width;
-		public virtual RProperty Rwidth
+		protected RSystem.RSingle r_width;
+		public virtual RSystem.RSingle Rwidth
 		{
 			get
 			{
@@ -132,8 +132,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Single height
 		/// </summary>
-		protected RProperty r_height;
-		public virtual RProperty Rheight
+		protected RSystem.RSingle r_height;
+		public virtual RSystem.RSingle Rheight
 		{
 			get
 			{
@@ -149,8 +149,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.String name
 		/// </summary>
-		protected RProperty r_name;
-		public virtual RProperty Rname
+		protected RSystem.RString r_name;
+		public virtual RSystem.RString Rname
 		{
 			get
 			{

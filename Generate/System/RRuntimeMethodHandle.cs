@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.IntPtr value
 		/// </summary>
-		protected RField r_value;
-		public virtual RField Rvalue
+		protected RSystem.RIntPtr r_value;
+		public virtual RSystem.RIntPtr Rvalue
 		{
 			get
 			{
@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// IntPtr Value
 		/// </summary>
-		protected RProperty r_Value;
-		public virtual RProperty RValue
+		protected RSystem.RIntPtr r_Value;
+		public virtual RSystem.RIntPtr RValue
 		{
 			get
 			{

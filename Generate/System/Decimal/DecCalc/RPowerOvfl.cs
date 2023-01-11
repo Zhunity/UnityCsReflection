@@ -17,8 +17,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.UInt32 Hi
 		/// </summary>
-		protected RField r_Hi;
-		public virtual RField RHi
+		protected RSystem.RUInt32 r_Hi;
+		public virtual RSystem.RUInt32 RHi
 		{
 			get
 			{
@@ -34,8 +34,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.UInt64 MidLo
 		/// </summary>
-		protected RField r_MidLo;
-		public virtual RField RMidLo
+		protected RSystem.RUInt64 r_MidLo;
+		public virtual RSystem.RUInt64 RMidLo
 		{
 			get
 			{

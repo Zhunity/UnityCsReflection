@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Byte AclRevision
 		/// </summary>
-		protected static RField r_AclRevision;
-		public static RField RAclRevision
+		protected static RSystem.RByte r_AclRevision;
+		public static RSystem.RByte RAclRevision
 		{
 			get
 			{
@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Byte AclRevisionDS
 		/// </summary>
-		protected static RField r_AclRevisionDS;
-		public static RField RAclRevisionDS
+		protected static RSystem.RByte r_AclRevisionDS;
+		public static RSystem.RByte RAclRevisionDS
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Int32 MaxBinaryLength
 		/// </summary>
-		protected static RField r_MaxBinaryLength;
-		public static RField RMaxBinaryLength
+		protected static RSystem.RInt32 r_MaxBinaryLength;
+		public static RSystem.RInt32 RMaxBinaryLength
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// Int32 BinaryLength
 		/// </summary>
-		protected RProperty r_BinaryLength;
-		public virtual RProperty RBinaryLength
+		protected RSystem.RInt32 r_BinaryLength;
+		public virtual RSystem.RInt32 RBinaryLength
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// Int32 Count
 		/// </summary>
-		protected RProperty r_Count;
-		public virtual RProperty RCount
+		protected RSystem.RInt32 r_Count;
+		public virtual RSystem.RInt32 RCount
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// Boolean IsSynchronized
 		/// </summary>
-		protected RProperty r_IsSynchronized;
-		public virtual RProperty RIsSynchronized
+		protected RSystem.RBoolean r_IsSynchronized;
+		public virtual RSystem.RBoolean RIsSynchronized
 		{
 			get
 			{
@@ -132,8 +132,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// Byte Revision
 		/// </summary>
-		protected RProperty r_Revision;
-		public virtual RProperty RRevision
+		protected RSystem.RByte r_Revision;
+		public virtual RSystem.RByte RRevision
 		{
 			get
 			{

@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 maximumChunksOverride
 		/// </summary>
-		protected static RProperty r_maximumChunksOverride;
-		public static RProperty RmaximumChunksOverride
+		protected static RSystem.RInt32 r_maximumChunksOverride;
+		public static RSystem.RInt32 RmaximumChunksOverride
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 maximumLOD
 		/// </summary>
-		protected RProperty r_maximumLOD;
-		public virtual RProperty RmaximumLOD
+		protected RSystem.RInt32 r_maximumLOD;
+		public virtual RSystem.RInt32 RmaximumLOD
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 globalMaximumLOD
 		/// </summary>
-		protected static RProperty r_globalMaximumLOD;
-		public static RProperty RglobalMaximumLOD
+		protected static RSystem.RInt32 r_globalMaximumLOD;
+		public static RSystem.RInt32 RglobalMaximumLOD
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Boolean isSupported
 		/// </summary>
-		protected RProperty r_isSupported;
-		public virtual RProperty RisSupported
+		protected RSystem.RBoolean r_isSupported;
+		public virtual RSystem.RBoolean RisSupported
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.String globalRenderPipeline
 		/// </summary>
-		protected static RProperty r_globalRenderPipeline;
-		public static RProperty RglobalRenderPipeline
+		protected static RSystem.RString r_globalRenderPipeline;
+		public static RSystem.RString RglobalRenderPipeline
 		{
 			get
 			{
@@ -166,8 +166,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 renderQueue
 		/// </summary>
-		protected RProperty r_renderQueue;
-		public virtual RProperty RrenderQueue
+		protected RSystem.RInt32 r_renderQueue;
+		public virtual RSystem.RInt32 RrenderQueue
 		{
 			get
 			{
@@ -200,8 +200,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 passCount
 		/// </summary>
-		protected RProperty r_passCount;
-		public virtual RProperty RpassCount
+		protected RSystem.RInt32 r_passCount;
+		public virtual RSystem.RInt32 RpassCount
 		{
 			get
 			{
@@ -217,8 +217,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 subshaderCount
 		/// </summary>
-		protected RProperty r_subshaderCount;
-		public virtual RProperty RsubshaderCount
+		protected RSystem.RInt32 r_subshaderCount;
+		public virtual RSystem.RInt32 RsubshaderCount
 		{
 			get
 			{
@@ -234,8 +234,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.String customEditor
 		/// </summary>
-		protected RProperty r_customEditor;
-		public virtual RProperty RcustomEditor
+		protected RSystem.RString r_customEditor;
+		public virtual RSystem.RString RcustomEditor
 		{
 			get
 			{
@@ -251,8 +251,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.String name
 		/// </summary>
-		protected RProperty r_name;
-		public virtual RProperty Rname
+		protected RSystem.RString r_name;
+		public virtual RSystem.RString Rname
 		{
 			get
 			{

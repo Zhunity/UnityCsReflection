@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.String undoName
 		/// </summary>
-		protected RField r_undoName;
-		public virtual RField RundoName
+		protected RSystem.RString r_undoName;
+		public virtual RSystem.RString RundoName
 		{
 			get
 			{
@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Int32 undoGroup
 		/// </summary>
-		protected RField r_undoGroup;
-		public virtual RField RundoGroup
+		protected RSystem.RInt32 r_undoGroup;
+		public virtual RSystem.RInt32 RundoGroup
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Int32 m_IsRedo
 		/// </summary>
-		protected RField r_m_IsRedo;
-		public virtual RField Rm_IsRedo
+		protected RSystem.RInt32 r_m_IsRedo;
+		public virtual RSystem.RInt32 Rm_IsRedo
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Boolean isRedo
 		/// </summary>
-		protected RProperty r_isRedo;
-		public virtual RProperty RisRedo
+		protected RSystem.RBoolean r_isRedo;
+		public virtual RSystem.RBoolean RisRedo
 		{
 			get
 			{

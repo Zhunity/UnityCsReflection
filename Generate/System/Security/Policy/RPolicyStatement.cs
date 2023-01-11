@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
 		/// <summary>
 		/// System.String AttributeString
 		/// </summary>
-		protected RProperty r_AttributeString;
-		public virtual RProperty RAttributeString
+		protected RSystem.RString r_AttributeString;
+		public virtual RSystem.RString RAttributeString
 		{
 			get
 			{

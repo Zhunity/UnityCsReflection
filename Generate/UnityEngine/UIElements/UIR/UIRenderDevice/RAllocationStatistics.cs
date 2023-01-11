@@ -32,8 +32,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Int32[] freesDeferred
 		/// </summary>
-		protected RFieldArray<RField> r_freesDeferred;
-		public virtual RFieldArray<RField> RfreesDeferred
+		protected RFieldArray<RSystem.RInt32> r_freesDeferred;
+		public virtual RFieldArray<RSystem.RInt32> RfreesDeferred
 		{
 			get
 			{
@@ -49,8 +49,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Boolean completeInit
 		/// </summary>
-		protected RField r_completeInit;
-		public virtual RField RcompleteInit
+		protected RSystem.RBoolean r_completeInit;
+		public virtual RSystem.RBoolean RcompleteInit
 		{
 			get
 			{

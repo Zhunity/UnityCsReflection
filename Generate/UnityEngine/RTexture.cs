@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Int32 GenerateAllMips
 		/// </summary>
-		protected static RField r_GenerateAllMips;
-		public static RField RGenerateAllMips
+		protected static RSystem.RInt32 r_GenerateAllMips;
+		public static RSystem.RInt32 RGenerateAllMips
 		{
 			get
 			{
@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 masterTextureLimit
 		/// </summary>
-		protected static RProperty r_masterTextureLimit;
-		public static RProperty RmasterTextureLimit
+		protected static RSystem.RInt32 r_masterTextureLimit;
+		public static RSystem.RInt32 RmasterTextureLimit
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 globalMipmapLimit
 		/// </summary>
-		protected static RProperty r_globalMipmapLimit;
-		public static RProperty RglobalMipmapLimit
+		protected static RSystem.RInt32 r_globalMipmapLimit;
+		public static RSystem.RInt32 RglobalMipmapLimit
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 mipmapCount
 		/// </summary>
-		protected RProperty r_mipmapCount;
-		public virtual RProperty RmipmapCount
+		protected RSystem.RInt32 r_mipmapCount;
+		public virtual RSystem.RInt32 RmipmapCount
 		{
 			get
 			{
@@ -115,8 +115,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 width
 		/// </summary>
-		protected RProperty r_width;
-		public virtual RProperty Rwidth
+		protected RSystem.RInt32 r_width;
+		public virtual RSystem.RInt32 Rwidth
 		{
 			get
 			{
@@ -132,8 +132,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 height
 		/// </summary>
-		protected RProperty r_height;
-		public virtual RProperty Rheight
+		protected RSystem.RInt32 r_height;
+		public virtual RSystem.RInt32 Rheight
 		{
 			get
 			{
@@ -166,8 +166,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Boolean isReadable
 		/// </summary>
-		protected RProperty r_isReadable;
-		public virtual RProperty RisReadable
+		protected RSystem.RBoolean r_isReadable;
+		public virtual RSystem.RBoolean RisReadable
 		{
 			get
 			{
@@ -268,8 +268,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 anisoLevel
 		/// </summary>
-		protected RProperty r_anisoLevel;
-		public virtual RProperty RanisoLevel
+		protected RSystem.RInt32 r_anisoLevel;
+		public virtual RSystem.RInt32 RanisoLevel
 		{
 			get
 			{
@@ -285,8 +285,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Single mipMapBias
 		/// </summary>
-		protected RProperty r_mipMapBias;
-		public virtual RProperty RmipMapBias
+		protected RSystem.RSingle r_mipMapBias;
+		public virtual RSystem.RSingle RmipMapBias
 		{
 			get
 			{
@@ -319,8 +319,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UInt32 updateCount
 		/// </summary>
-		protected RProperty r_updateCount;
-		public virtual RProperty RupdateCount
+		protected RSystem.RUInt32 r_updateCount;
+		public virtual RSystem.RUInt32 RupdateCount
 		{
 			get
 			{
@@ -353,8 +353,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Boolean isDataSRGB
 		/// </summary>
-		protected RProperty r_isDataSRGB;
-		public virtual RProperty RisDataSRGB
+		protected RSystem.RBoolean r_isDataSRGB;
+		public virtual RSystem.RBoolean RisDataSRGB
 		{
 			get
 			{
@@ -387,8 +387,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UInt64 totalTextureMemory
 		/// </summary>
-		protected static RProperty r_totalTextureMemory;
-		public static RProperty RtotalTextureMemory
+		protected static RSystem.RUInt64 r_totalTextureMemory;
+		public static RSystem.RUInt64 RtotalTextureMemory
 		{
 			get
 			{
@@ -404,8 +404,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UInt64 desiredTextureMemory
 		/// </summary>
-		protected static RProperty r_desiredTextureMemory;
-		public static RProperty RdesiredTextureMemory
+		protected static RSystem.RUInt64 r_desiredTextureMemory;
+		public static RSystem.RUInt64 RdesiredTextureMemory
 		{
 			get
 			{
@@ -421,8 +421,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UInt64 targetTextureMemory
 		/// </summary>
-		protected static RProperty r_targetTextureMemory;
-		public static RProperty RtargetTextureMemory
+		protected static RSystem.RUInt64 r_targetTextureMemory;
+		public static RSystem.RUInt64 RtargetTextureMemory
 		{
 			get
 			{
@@ -438,8 +438,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UInt64 currentTextureMemory
 		/// </summary>
-		protected static RProperty r_currentTextureMemory;
-		public static RProperty RcurrentTextureMemory
+		protected static RSystem.RUInt64 r_currentTextureMemory;
+		public static RSystem.RUInt64 RcurrentTextureMemory
 		{
 			get
 			{
@@ -455,8 +455,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UInt64 nonStreamingTextureMemory
 		/// </summary>
-		protected static RProperty r_nonStreamingTextureMemory;
-		public static RProperty RnonStreamingTextureMemory
+		protected static RSystem.RUInt64 r_nonStreamingTextureMemory;
+		public static RSystem.RUInt64 RnonStreamingTextureMemory
 		{
 			get
 			{
@@ -472,8 +472,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UInt64 streamingMipmapUploadCount
 		/// </summary>
-		protected static RProperty r_streamingMipmapUploadCount;
-		public static RProperty RstreamingMipmapUploadCount
+		protected static RSystem.RUInt64 r_streamingMipmapUploadCount;
+		public static RSystem.RUInt64 RstreamingMipmapUploadCount
 		{
 			get
 			{
@@ -489,8 +489,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UInt64 streamingRendererCount
 		/// </summary>
-		protected static RProperty r_streamingRendererCount;
-		public static RProperty RstreamingRendererCount
+		protected static RSystem.RUInt64 r_streamingRendererCount;
+		public static RSystem.RUInt64 RstreamingRendererCount
 		{
 			get
 			{
@@ -506,8 +506,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UInt64 streamingTextureCount
 		/// </summary>
-		protected static RProperty r_streamingTextureCount;
-		public static RProperty RstreamingTextureCount
+		protected static RSystem.RUInt64 r_streamingTextureCount;
+		public static RSystem.RUInt64 RstreamingTextureCount
 		{
 			get
 			{
@@ -523,8 +523,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UInt64 nonStreamingTextureCount
 		/// </summary>
-		protected static RProperty r_nonStreamingTextureCount;
-		public static RProperty RnonStreamingTextureCount
+		protected static RSystem.RUInt64 r_nonStreamingTextureCount;
+		public static RSystem.RUInt64 RnonStreamingTextureCount
 		{
 			get
 			{
@@ -540,8 +540,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UInt64 streamingTexturePendingLoadCount
 		/// </summary>
-		protected static RProperty r_streamingTexturePendingLoadCount;
-		public static RProperty RstreamingTexturePendingLoadCount
+		protected static RSystem.RUInt64 r_streamingTexturePendingLoadCount;
+		public static RSystem.RUInt64 RstreamingTexturePendingLoadCount
 		{
 			get
 			{
@@ -557,8 +557,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UInt64 streamingTextureLoadingCount
 		/// </summary>
-		protected static RProperty r_streamingTextureLoadingCount;
-		public static RProperty RstreamingTextureLoadingCount
+		protected static RSystem.RUInt64 r_streamingTextureLoadingCount;
+		public static RSystem.RUInt64 RstreamingTextureLoadingCount
 		{
 			get
 			{
@@ -574,8 +574,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Boolean streamingTextureForceLoadAll
 		/// </summary>
-		protected static RProperty r_streamingTextureForceLoadAll;
-		public static RProperty RstreamingTextureForceLoadAll
+		protected static RSystem.RBoolean r_streamingTextureForceLoadAll;
+		public static RSystem.RBoolean RstreamingTextureForceLoadAll
 		{
 			get
 			{
@@ -591,8 +591,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Boolean streamingTextureDiscardUnusedMips
 		/// </summary>
-		protected static RProperty r_streamingTextureDiscardUnusedMips;
-		public static RProperty RstreamingTextureDiscardUnusedMips
+		protected static RSystem.RBoolean r_streamingTextureDiscardUnusedMips;
+		public static RSystem.RBoolean RstreamingTextureDiscardUnusedMips
 		{
 			get
 			{
@@ -608,8 +608,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Boolean allowThreadedTextureCreation
 		/// </summary>
-		protected static RProperty r_allowThreadedTextureCreation;
-		public static RProperty RallowThreadedTextureCreation
+		protected static RSystem.RBoolean r_allowThreadedTextureCreation;
+		public static RSystem.RBoolean RallowThreadedTextureCreation
 		{
 			get
 			{
@@ -625,8 +625,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.String name
 		/// </summary>
-		protected RProperty r_name;
-		public virtual RProperty Rname
+		protected RSystem.RString r_name;
+		public virtual RSystem.RString Rname
 		{
 			get
 			{

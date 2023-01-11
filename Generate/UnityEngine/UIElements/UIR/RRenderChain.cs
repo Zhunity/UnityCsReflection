@@ -166,8 +166,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Boolean m_BlockDirtyRegistration
 		/// </summary>
-		protected RField r_m_BlockDirtyRegistration;
-		public virtual RField Rm_BlockDirtyRegistration
+		protected RSystem.RBoolean r_m_BlockDirtyRegistration;
+		public virtual RSystem.RBoolean Rm_BlockDirtyRegistration
 		{
 			get
 			{
@@ -183,8 +183,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Int32 m_StaticIndex
 		/// </summary>
-		protected RField r_m_StaticIndex;
-		public virtual RField Rm_StaticIndex
+		protected RSystem.RInt32 r_m_StaticIndex;
+		public virtual RSystem.RInt32 Rm_StaticIndex
 		{
 			get
 			{
@@ -200,8 +200,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Int32 m_ActiveRenderNodes
 		/// </summary>
-		protected RField r_m_ActiveRenderNodes;
-		public virtual RField Rm_ActiveRenderNodes
+		protected RSystem.RInt32 r_m_ActiveRenderNodes;
+		public virtual RSystem.RInt32 Rm_ActiveRenderNodes
 		{
 			get
 			{
@@ -217,8 +217,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Int32 m_CustomMaterialCommands
 		/// </summary>
-		protected RField r_m_CustomMaterialCommands;
-		public virtual RField Rm_CustomMaterialCommands
+		protected RSystem.RInt32 r_m_CustomMaterialCommands;
+		public virtual RSystem.RInt32 Rm_CustomMaterialCommands
 		{
 			get
 			{
@@ -251,8 +251,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.UInt32 m_StatsElementsAdded
 		/// </summary>
-		protected RField r_m_StatsElementsAdded;
-		public virtual RField Rm_StatsElementsAdded
+		protected RSystem.RUInt32 r_m_StatsElementsAdded;
+		public virtual RSystem.RUInt32 Rm_StatsElementsAdded
 		{
 			get
 			{
@@ -268,8 +268,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.UInt32 m_StatsElementsRemoved
 		/// </summary>
-		protected RField r_m_StatsElementsRemoved;
-		public virtual RField Rm_StatsElementsRemoved
+		protected RSystem.RUInt32 r_m_StatsElementsRemoved;
+		public virtual RSystem.RUInt32 Rm_StatsElementsRemoved
 		{
 			get
 			{
@@ -438,8 +438,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Boolean <disposed>k__BackingField
 		/// </summary>
-		protected RField r___0__disposed__1__k__BackingField;
-		public virtual RField R__0__disposed__1__k__BackingField
+		protected RSystem.RBoolean r___0__disposed__1__k__BackingField;
+		public virtual RSystem.RBoolean R__0__disposed__1__k__BackingField
 		{
 			get
 			{
@@ -557,8 +557,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// UnityEngine.UIElements.UIR.TempAllocator`1[System.UInt16] <indicesPool>k__BackingField
 		/// </summary>
-		protected RUnityEngine.RUIElements.RUIR.RTempAllocator<RField> r___0__indicesPool__1__k__BackingField;
-		public virtual RUnityEngine.RUIElements.RUIR.RTempAllocator<RField> R__0__indicesPool__1__k__BackingField
+		protected RUnityEngine.RUIElements.RUIR.RTempAllocator<RSystem.RUInt16> r___0__indicesPool__1__k__BackingField;
+		public virtual RUnityEngine.RUIElements.RUIR.RTempAllocator<RSystem.RUInt16> R__0__indicesPool__1__k__BackingField
 		{
 			get
 			{
@@ -625,8 +625,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Boolean <drawStats>k__BackingField
 		/// </summary>
-		protected RField r___0__drawStats__1__k__BackingField;
-		public virtual RField R__0__drawStats__1__k__BackingField
+		protected RSystem.RBoolean r___0__drawStats__1__k__BackingField;
+		public virtual RSystem.RBoolean R__0__drawStats__1__k__BackingField
 		{
 			get
 			{
@@ -642,8 +642,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Boolean <drawInCameras>k__BackingField
 		/// </summary>
-		protected RField r___0__drawInCameras__1__k__BackingField;
-		public virtual RField R__0__drawInCameras__1__k__BackingField
+		protected RSystem.RBoolean r___0__drawInCameras__1__k__BackingField;
+		public virtual RSystem.RBoolean R__0__drawInCameras__1__k__BackingField
 		{
 			get
 			{
@@ -693,8 +693,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// Boolean disposed
 		/// </summary>
-		protected RProperty r_disposed;
-		public virtual RProperty Rdisposed
+		protected RSystem.RBoolean r_disposed;
+		public virtual RSystem.RBoolean Rdisposed
 		{
 			get
 			{
@@ -812,8 +812,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// UnityEngine.UIElements.UIR.TempAllocator`1[System.UInt16] indicesPool
 		/// </summary>
-		protected RUnityEngine.RUIElements.RUIR.RTempAllocator<RProperty> r_indicesPool;
-		public virtual RUnityEngine.RUIElements.RUIR.RTempAllocator<RProperty> RindicesPool
+		protected RUnityEngine.RUIElements.RUIR.RTempAllocator<RSystem.RUInt16> r_indicesPool;
+		public virtual RUnityEngine.RUIElements.RUIR.RTempAllocator<RSystem.RUInt16> RindicesPool
 		{
 			get
 			{
@@ -863,8 +863,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// Boolean drawStats
 		/// </summary>
-		protected RProperty r_drawStats;
-		public virtual RProperty RdrawStats
+		protected RSystem.RBoolean r_drawStats;
+		public virtual RSystem.RBoolean RdrawStats
 		{
 			get
 			{
@@ -880,8 +880,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// Boolean drawInCameras
 		/// </summary>
-		protected RProperty r_drawInCameras;
-		public virtual RProperty RdrawInCameras
+		protected RSystem.RBoolean r_drawInCameras;
+		public virtual RSystem.RBoolean RdrawInCameras
 		{
 			get
 			{

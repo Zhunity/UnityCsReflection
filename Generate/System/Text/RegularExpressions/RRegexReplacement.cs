@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Int32 Specials
 		/// </summary>
-		protected static RField r_Specials;
-		public static RField RSpecials
+		protected static RSystem.RInt32 r_Specials;
+		public static RSystem.RInt32 RSpecials
 		{
 			get
 			{
@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Int32 LeftPortion
 		/// </summary>
-		protected static RField r_LeftPortion;
-		public static RField RLeftPortion
+		protected static RSystem.RInt32 r_LeftPortion;
+		public static RSystem.RInt32 RLeftPortion
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Int32 RightPortion
 		/// </summary>
-		protected static RField r_RightPortion;
-		public static RField RRightPortion
+		protected static RSystem.RInt32 r_RightPortion;
+		public static RSystem.RInt32 RRightPortion
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Int32 LastGroup
 		/// </summary>
-		protected static RField r_LastGroup;
-		public static RField RLastGroup
+		protected static RSystem.RInt32 r_LastGroup;
+		public static RSystem.RInt32 RLastGroup
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Int32 WholeString
 		/// </summary>
-		protected static RField r_WholeString;
-		public static RField RWholeString
+		protected static RSystem.RInt32 r_WholeString;
+		public static RSystem.RInt32 RWholeString
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Collections.Generic.List`1[System.String] _strings
 		/// </summary>
-		protected RSystem.RCollections.RGeneric.RList<RField> r__strings;
-		public virtual RSystem.RCollections.RGeneric.RList<RField> R_strings
+		protected RSystem.RCollections.RGeneric.RList<RSystem.RString> r__strings;
+		public virtual RSystem.RCollections.RGeneric.RList<RSystem.RString> R_strings
 		{
 			get
 			{
@@ -115,8 +115,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Collections.Generic.List`1[System.Int32] _rules
 		/// </summary>
-		protected RSystem.RCollections.RGeneric.RList<RField> r__rules;
-		public virtual RSystem.RCollections.RGeneric.RList<RField> R_rules
+		protected RSystem.RCollections.RGeneric.RList<RSystem.RInt32> r__rules;
+		public virtual RSystem.RCollections.RGeneric.RList<RSystem.RInt32> R_rules
 		{
 			get
 			{
@@ -132,8 +132,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.String <Pattern>k__BackingField
 		/// </summary>
-		protected RField r___0__Pattern__1__k__BackingField;
-		public virtual RField R__0__Pattern__1__k__BackingField
+		protected RSystem.RString r___0__Pattern__1__k__BackingField;
+		public virtual RSystem.RString R__0__Pattern__1__k__BackingField
 		{
 			get
 			{
@@ -149,8 +149,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.String Pattern
 		/// </summary>
-		protected RProperty r_Pattern;
-		public virtual RProperty RPattern
+		protected RSystem.RString r_Pattern;
+		public virtual RSystem.RString RPattern
 		{
 			get
 			{

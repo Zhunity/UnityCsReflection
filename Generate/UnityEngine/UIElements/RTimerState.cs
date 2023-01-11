@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int64 <start>k__BackingField
 		/// </summary>
-		protected RField r___0__start__1__k__BackingField;
-		public virtual RField R__0__start__1__k__BackingField
+		protected RSystem.RInt64 r___0__start__1__k__BackingField;
+		public virtual RSystem.RInt64 R__0__start__1__k__BackingField
 		{
 			get
 			{
@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int64 <now>k__BackingField
 		/// </summary>
-		protected RField r___0__now__1__k__BackingField;
-		public virtual RField R__0__now__1__k__BackingField
+		protected RSystem.RInt64 r___0__now__1__k__BackingField;
+		public virtual RSystem.RInt64 R__0__now__1__k__BackingField
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Int64 start
 		/// </summary>
-		protected RProperty r_start;
-		public virtual RProperty Rstart
+		protected RSystem.RInt64 r_start;
+		public virtual RSystem.RInt64 Rstart
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Int64 now
 		/// </summary>
-		protected RProperty r_now;
-		public virtual RProperty Rnow
+		protected RSystem.RInt64 r_now;
+		public virtual RSystem.RInt64 Rnow
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Int64 deltaTime
 		/// </summary>
-		protected RProperty r_deltaTime;
-		public virtual RProperty RdeltaTime
+		protected RSystem.RInt64 r_deltaTime;
+		public virtual RSystem.RInt64 RdeltaTime
 		{
 			get
 			{

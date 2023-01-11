@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Boolean m_Disposed
 		/// </summary>
-		protected RField r_m_Disposed;
-		public virtual RField Rm_Disposed
+		protected RSystem.RBoolean r_m_Disposed;
+		public virtual RSystem.RBoolean Rm_Disposed
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Boolean <isPainterActive>k__BackingField
 		/// </summary>
-		protected static RField r___0__isPainterActive__1__k__BackingField;
-		public static RField R__0__isPainterActive__1__k__BackingField
+		protected static RSystem.RBoolean r___0__isPainterActive__1__k__BackingField;
+		public static RSystem.RBoolean R__0__isPainterActive__1__k__BackingField
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Single s_MaxArcRadius
 		/// </summary>
-		protected static RField r_s_MaxArcRadius;
-		public static RField Rs_MaxArcRadius
+		protected static RSystem.RSingle r_s_MaxArcRadius;
+		public static RSystem.RSingle Rs_MaxArcRadius
 		{
 			get
 			{
@@ -149,8 +149,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Boolean isDetached
 		/// </summary>
-		protected RProperty r_isDetached;
-		public virtual RProperty RisDetached
+		protected RSystem.RBoolean r_isDetached;
+		public virtual RSystem.RBoolean RisDetached
 		{
 			get
 			{
@@ -166,8 +166,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Single lineWidth
 		/// </summary>
-		protected RProperty r_lineWidth;
-		public virtual RProperty RlineWidth
+		protected RSystem.RSingle r_lineWidth;
+		public virtual RSystem.RSingle RlineWidth
 		{
 			get
 			{
@@ -268,8 +268,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Single miterLimit
 		/// </summary>
-		protected RProperty r_miterLimit;
-		public virtual RProperty RmiterLimit
+		protected RSystem.RSingle r_miterLimit;
+		public virtual RSystem.RSingle RmiterLimit
 		{
 			get
 			{
@@ -285,8 +285,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Boolean isPainterActive
 		/// </summary>
-		protected static RProperty r_isPainterActive;
-		public static RProperty RisPainterActive
+		protected static RSystem.RBoolean r_isPainterActive;
+		public static RSystem.RBoolean RisPainterActive
 		{
 			get
 			{
@@ -302,8 +302,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Single maxArcRadius
 		/// </summary>
-		protected static RProperty r_maxArcRadius;
-		public static RProperty RmaxArcRadius
+		protected static RSystem.RSingle r_maxArcRadius;
+		public static RSystem.RSingle RmaxArcRadius
 		{
 			get
 			{

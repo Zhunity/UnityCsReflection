@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Boolean m_UseModernHangulLineBreakingRules
 		/// </summary>
-		protected RField r_m_UseModernHangulLineBreakingRules;
-		public virtual RField Rm_UseModernHangulLineBreakingRules
+		protected RSystem.RBoolean r_m_UseModernHangulLineBreakingRules;
+		public virtual RSystem.RBoolean Rm_UseModernHangulLineBreakingRules
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Collections.Generic.HashSet`1[System.UInt32] s_LeadingCharactersLookup
 		/// </summary>
-		protected static RSystem.RCollections.RGeneric.RHashSet<RField> r_s_LeadingCharactersLookup;
-		public static RSystem.RCollections.RGeneric.RHashSet<RField> Rs_LeadingCharactersLookup
+		protected static RSystem.RCollections.RGeneric.RHashSet<RSystem.RUInt32> r_s_LeadingCharactersLookup;
+		public static RSystem.RCollections.RGeneric.RHashSet<RSystem.RUInt32> Rs_LeadingCharactersLookup
 		{
 			get
 			{
@@ -115,8 +115,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Collections.Generic.HashSet`1[System.UInt32] s_FollowingCharactersLookup
 		/// </summary>
-		protected static RSystem.RCollections.RGeneric.RHashSet<RField> r_s_FollowingCharactersLookup;
-		public static RSystem.RCollections.RGeneric.RHashSet<RField> Rs_FollowingCharactersLookup
+		protected static RSystem.RCollections.RGeneric.RHashSet<RSystem.RUInt32> r_s_FollowingCharactersLookup;
+		public static RSystem.RCollections.RGeneric.RHashSet<RSystem.RUInt32> Rs_FollowingCharactersLookup
 		{
 			get
 			{
@@ -183,8 +183,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Collections.Generic.HashSet`1[System.UInt32] leadingCharactersLookup
 		/// </summary>
-		protected RSystem.RCollections.RGeneric.RHashSet<RProperty> r_leadingCharactersLookup;
-		public virtual RSystem.RCollections.RGeneric.RHashSet<RProperty> RleadingCharactersLookup
+		protected RSystem.RCollections.RGeneric.RHashSet<RSystem.RUInt32> r_leadingCharactersLookup;
+		public virtual RSystem.RCollections.RGeneric.RHashSet<RSystem.RUInt32> RleadingCharactersLookup
 		{
 			get
 			{
@@ -200,8 +200,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Collections.Generic.HashSet`1[System.UInt32] followingCharactersLookup
 		/// </summary>
-		protected RSystem.RCollections.RGeneric.RHashSet<RProperty> r_followingCharactersLookup;
-		public virtual RSystem.RCollections.RGeneric.RHashSet<RProperty> RfollowingCharactersLookup
+		protected RSystem.RCollections.RGeneric.RHashSet<RSystem.RUInt32> r_followingCharactersLookup;
+		public virtual RSystem.RCollections.RGeneric.RHashSet<RSystem.RUInt32> RfollowingCharactersLookup
 		{
 			get
 			{
@@ -217,8 +217,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// Boolean useModernHangulLineBreakingRules
 		/// </summary>
-		protected RProperty r_useModernHangulLineBreakingRules;
-		public virtual RProperty RuseModernHangulLineBreakingRules
+		protected RSystem.RBoolean r_useModernHangulLineBreakingRules;
+		public virtual RSystem.RBoolean RuseModernHangulLineBreakingRules
 		{
 			get
 			{

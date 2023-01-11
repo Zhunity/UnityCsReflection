@@ -66,8 +66,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Boolean isValid
 		/// </summary>
-		protected RProperty r_isValid;
-		public virtual RProperty RisValid
+		protected RSystem.RBoolean r_isValid;
+		public virtual RSystem.RBoolean RisValid
 		{
 			get
 			{

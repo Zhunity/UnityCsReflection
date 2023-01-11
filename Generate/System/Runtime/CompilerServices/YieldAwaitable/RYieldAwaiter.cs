@@ -49,8 +49,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RCompilerServices
 		/// <summary>
 		/// Boolean IsCompleted
 		/// </summary>
-		protected RProperty r_IsCompleted;
-		public virtual RProperty RIsCompleted
+		protected RSystem.RBoolean r_IsCompleted;
+		public virtual RSystem.RBoolean RIsCompleted
 		{
 			get
 			{

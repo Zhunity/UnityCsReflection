@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.ReadOnlySpan`1[System.Char] Value
 		/// </summary>
-		protected RSystem.RReadOnlySpan<RField> r_Value;
-		public virtual RSystem.RReadOnlySpan<RField> RValue
+		protected RSystem.RReadOnlySpan<RSystem.RChar> r_Value;
+		public virtual RSystem.RReadOnlySpan<RSystem.RChar> RValue
 		{
 			get
 			{
@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Int32 Index
 		/// </summary>
-		protected RField r_Index;
-		public virtual RField RIndex
+		protected RSystem.RInt32 r_Index;
+		public virtual RSystem.RInt32 RIndex
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Char m_current
 		/// </summary>
-		protected RField r_m_current;
-		public virtual RField Rm_current
+		protected RSystem.RChar r_m_current;
+		public virtual RSystem.RChar Rm_current
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Boolean m_checkDigitToken
 		/// </summary>
-		protected RField r_m_checkDigitToken;
-		public virtual RField Rm_checkDigitToken
+		protected RSystem.RBoolean r_m_checkDigitToken;
+		public virtual RSystem.RBoolean Rm_checkDigitToken
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Char[] WhiteSpaceChecks
 		/// </summary>
-		protected static RFieldArray<RField> r_WhiteSpaceChecks;
-		public static RFieldArray<RField> RWhiteSpaceChecks
+		protected static RFieldArray<RSystem.RChar> r_WhiteSpaceChecks;
+		public static RFieldArray<RSystem.RChar> RWhiteSpaceChecks
 		{
 			get
 			{
@@ -115,8 +115,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// Int32 Length
 		/// </summary>
-		protected RProperty r_Length;
-		public virtual RProperty RLength
+		protected RSystem.RInt32 r_Length;
+		public virtual RSystem.RInt32 RLength
 		{
 			get
 			{

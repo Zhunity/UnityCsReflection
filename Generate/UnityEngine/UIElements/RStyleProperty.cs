@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.String m_Name
 		/// </summary>
-		protected RField r_m_Name;
-		public virtual RField Rm_Name
+		protected RSystem.RString r_m_Name;
+		public virtual RSystem.RString Rm_Name
 		{
 			get
 			{
@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int32 m_Line
 		/// </summary>
-		protected RField r_m_Line;
-		public virtual RField Rm_Line
+		protected RSystem.RInt32 r_m_Line;
+		public virtual RSystem.RInt32 Rm_Line
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Boolean isCustomProperty
 		/// </summary>
-		protected RField r_isCustomProperty;
-		public virtual RField RisCustomProperty
+		protected RSystem.RBoolean r_isCustomProperty;
+		public virtual RSystem.RBoolean RisCustomProperty
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Boolean requireVariableResolve
 		/// </summary>
-		protected RField r_requireVariableResolve;
-		public virtual RField RrequireVariableResolve
+		protected RSystem.RBoolean r_requireVariableResolve;
+		public virtual RSystem.RBoolean RrequireVariableResolve
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.String name
 		/// </summary>
-		protected RProperty r_name;
-		public virtual RProperty Rname
+		protected RSystem.RString r_name;
+		public virtual RSystem.RString Rname
 		{
 			get
 			{
@@ -115,8 +115,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Int32 line
 		/// </summary>
-		protected RProperty r_line;
-		public virtual RProperty Rline
+		protected RSystem.RInt32 r_line;
+		public virtual RSystem.RInt32 Rline
 		{
 			get
 			{

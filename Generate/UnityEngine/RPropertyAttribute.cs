@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Int32 <order>k__BackingField
 		/// </summary>
-		protected RField r___0__order__1__k__BackingField;
-		public virtual RField R__0__order__1__k__BackingField
+		protected RSystem.RInt32 r___0__order__1__k__BackingField;
+		public virtual RSystem.RInt32 R__0__order__1__k__BackingField
 		{
 			get
 			{
@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 order
 		/// </summary>
-		protected RProperty r_order;
-		public virtual RProperty Rorder
+		protected RSystem.RInt32 r_order;
+		public virtual RSystem.RInt32 Rorder
 		{
 			get
 			{

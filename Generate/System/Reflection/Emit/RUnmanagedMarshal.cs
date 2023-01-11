@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Int32 count
 		/// </summary>
-		protected RField r_count;
-		public virtual RField Rcount
+		protected RSystem.RInt32 r_count;
+		public virtual RSystem.RInt32 Rcount
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.String guid
 		/// </summary>
-		protected RField r_guid;
-		public virtual RField Rguid
+		protected RSystem.RString r_guid;
+		public virtual RSystem.RString Rguid
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.String mcookie
 		/// </summary>
-		protected RField r_mcookie;
-		public virtual RField Rmcookie
+		protected RSystem.RString r_mcookie;
+		public virtual RSystem.RString Rmcookie
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.String marshaltype
 		/// </summary>
-		protected RField r_marshaltype;
-		public virtual RField Rmarshaltype
+		protected RSystem.RString r_marshaltype;
+		public virtual RSystem.RString Rmarshaltype
 		{
 			get
 			{
@@ -132,8 +132,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Int32 param_num
 		/// </summary>
-		protected RField r_param_num;
-		public virtual RField Rparam_num
+		protected RSystem.RInt32 r_param_num;
+		public virtual RSystem.RInt32 Rparam_num
 		{
 			get
 			{
@@ -149,8 +149,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Boolean has_size
 		/// </summary>
-		protected RField r_has_size;
-		public virtual RField Rhas_size
+		protected RSystem.RBoolean r_has_size;
+		public virtual RSystem.RBoolean Rhas_size
 		{
 			get
 			{
@@ -183,8 +183,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// Int32 ElementCount
 		/// </summary>
-		protected RProperty r_ElementCount;
-		public virtual RProperty RElementCount
+		protected RSystem.RInt32 r_ElementCount;
+		public virtual RSystem.RInt32 RElementCount
 		{
 			get
 			{

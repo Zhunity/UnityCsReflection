@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.String m_Name
 		/// </summary>
-		protected RField r_m_Name;
-		public virtual RField Rm_Name
+		protected RSystem.RString r_m_Name;
+		public virtual RSystem.RString Rm_Name
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.UInt32 m_Unicode
 		/// </summary>
-		protected RField r_m_Unicode;
-		public virtual RField Rm_Unicode
+		protected RSystem.RUInt32 r_m_Unicode;
+		public virtual RSystem.RUInt32 Rm_Unicode
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.UInt32 m_GlyphIndex
 		/// </summary>
-		protected RField r_m_GlyphIndex;
-		public virtual RField Rm_GlyphIndex
+		protected RSystem.RUInt32 r_m_GlyphIndex;
+		public virtual RSystem.RUInt32 Rm_GlyphIndex
 		{
 			get
 			{
@@ -115,8 +115,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Single m_Scale
 		/// </summary>
-		protected RField r_m_Scale;
-		public virtual RField Rm_Scale
+		protected RSystem.RSingle r_m_Scale;
+		public virtual RSystem.RSingle Rm_Scale
 		{
 			get
 			{
@@ -132,8 +132,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.String name
 		/// </summary>
-		protected RProperty r_name;
-		public virtual RProperty Rname
+		protected RSystem.RString r_name;
+		public virtual RSystem.RString Rname
 		{
 			get
 			{
@@ -166,8 +166,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UInt32 unicode
 		/// </summary>
-		protected RProperty r_unicode;
-		public virtual RProperty Runicode
+		protected RSystem.RUInt32 r_unicode;
+		public virtual RSystem.RUInt32 Runicode
 		{
 			get
 			{
@@ -217,8 +217,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UInt32 glyphIndex
 		/// </summary>
-		protected RProperty r_glyphIndex;
-		public virtual RProperty RglyphIndex
+		protected RSystem.RUInt32 r_glyphIndex;
+		public virtual RSystem.RUInt32 RglyphIndex
 		{
 			get
 			{
@@ -234,8 +234,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// Single scale
 		/// </summary>
-		protected RProperty r_scale;
-		public virtual RProperty Rscale
+		protected RSystem.RSingle r_scale;
+		public virtual RSystem.RSingle Rscale
 		{
 			get
 			{

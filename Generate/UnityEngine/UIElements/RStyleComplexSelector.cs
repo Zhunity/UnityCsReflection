@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int32 m_Specificity
 		/// </summary>
-		protected RField r_m_Specificity;
-		public virtual RField Rm_Specificity
+		protected RSystem.RInt32 r_m_Specificity;
+		public virtual RSystem.RInt32 Rm_Specificity
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Boolean m_isSimple
 		/// </summary>
-		protected RField r_m_isSimple;
-		public virtual RField Rm_isSimple
+		protected RSystem.RBoolean r_m_isSimple;
+		public virtual RSystem.RBoolean Rm_isSimple
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int32 ruleIndex
 		/// </summary>
-		protected RField r_ruleIndex;
-		public virtual RField RruleIndex
+		protected RSystem.RInt32 r_ruleIndex;
+		public virtual RSystem.RInt32 RruleIndex
 		{
 			get
 			{
@@ -132,8 +132,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int32 orderInStyleSheet
 		/// </summary>
-		protected RField r_orderInStyleSheet;
-		public virtual RField RorderInStyleSheet
+		protected RSystem.RInt32 r_orderInStyleSheet;
+		public virtual RSystem.RInt32 RorderInStyleSheet
 		{
 			get
 			{
@@ -149,8 +149,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Collections.Generic.Dictionary`2[System.String,UnityEngine.UIElements.StyleComplexSelector+PseudoStateData] s_PseudoStates
 		/// </summary>
-		protected static RSystem.RCollections.RGeneric.RDictionary<RField, RUnityEngine.RUIElements.RStyleComplexSelector.RPseudoStateData> r_s_PseudoStates;
-		public static RSystem.RCollections.RGeneric.RDictionary<RField, RUnityEngine.RUIElements.RStyleComplexSelector.RPseudoStateData> Rs_PseudoStates
+		protected static RSystem.RCollections.RGeneric.RDictionary<RSystem.RString, RUnityEngine.RUIElements.RStyleComplexSelector.RPseudoStateData> r_s_PseudoStates;
+		public static RSystem.RCollections.RGeneric.RDictionary<RSystem.RString, RUnityEngine.RUIElements.RStyleComplexSelector.RPseudoStateData> Rs_PseudoStates
 		{
 			get
 			{
@@ -183,8 +183,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Int32 specificity
 		/// </summary>
-		protected RProperty r_specificity;
-		public virtual RProperty Rspecificity
+		protected RSystem.RInt32 r_specificity;
+		public virtual RSystem.RInt32 Rspecificity
 		{
 			get
 			{
@@ -217,8 +217,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Boolean isSimple
 		/// </summary>
-		protected RProperty r_isSimple;
-		public virtual RProperty RisSimple
+		protected RSystem.RBoolean r_isSimple;
+		public virtual RSystem.RBoolean RisSimple
 		{
 			get
 			{

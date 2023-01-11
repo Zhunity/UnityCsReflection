@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UInt32 index
 		/// </summary>
-		protected RProperty r_index;
-		public virtual RProperty Rindex
+		protected RSystem.RUInt32 r_index;
+		public virtual RSystem.RUInt32 Rindex
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// Single scale
 		/// </summary>
-		protected RProperty r_scale;
-		public virtual RProperty Rscale
+		protected RSystem.RSingle r_scale;
+		public virtual RSystem.RSingle Rscale
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// Int32 atlasIndex
 		/// </summary>
-		protected RProperty r_atlasIndex;
-		public virtual RProperty RatlasIndex
+		protected RSystem.RInt32 r_atlasIndex;
+		public virtual RSystem.RInt32 RatlasIndex
 		{
 			get
 			{

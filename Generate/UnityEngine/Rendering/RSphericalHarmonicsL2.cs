@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Single shr0
 		/// </summary>
-		protected RField r_shr0;
-		public virtual RField Rshr0
+		protected RSystem.RSingle r_shr0;
+		public virtual RSystem.RSingle Rshr0
 		{
 			get
 			{
@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Single shr1
 		/// </summary>
-		protected RField r_shr1;
-		public virtual RField Rshr1
+		protected RSystem.RSingle r_shr1;
+		public virtual RSystem.RSingle Rshr1
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Single shr2
 		/// </summary>
-		protected RField r_shr2;
-		public virtual RField Rshr2
+		protected RSystem.RSingle r_shr2;
+		public virtual RSystem.RSingle Rshr2
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Single shr3
 		/// </summary>
-		protected RField r_shr3;
-		public virtual RField Rshr3
+		protected RSystem.RSingle r_shr3;
+		public virtual RSystem.RSingle Rshr3
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Single shr4
 		/// </summary>
-		protected RField r_shr4;
-		public virtual RField Rshr4
+		protected RSystem.RSingle r_shr4;
+		public virtual RSystem.RSingle Rshr4
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Single shr5
 		/// </summary>
-		protected RField r_shr5;
-		public virtual RField Rshr5
+		protected RSystem.RSingle r_shr5;
+		public virtual RSystem.RSingle Rshr5
 		{
 			get
 			{
@@ -115,8 +115,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Single shr6
 		/// </summary>
-		protected RField r_shr6;
-		public virtual RField Rshr6
+		protected RSystem.RSingle r_shr6;
+		public virtual RSystem.RSingle Rshr6
 		{
 			get
 			{
@@ -132,8 +132,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Single shr7
 		/// </summary>
-		protected RField r_shr7;
-		public virtual RField Rshr7
+		protected RSystem.RSingle r_shr7;
+		public virtual RSystem.RSingle Rshr7
 		{
 			get
 			{
@@ -149,8 +149,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Single shr8
 		/// </summary>
-		protected RField r_shr8;
-		public virtual RField Rshr8
+		protected RSystem.RSingle r_shr8;
+		public virtual RSystem.RSingle Rshr8
 		{
 			get
 			{
@@ -166,8 +166,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Single shg0
 		/// </summary>
-		protected RField r_shg0;
-		public virtual RField Rshg0
+		protected RSystem.RSingle r_shg0;
+		public virtual RSystem.RSingle Rshg0
 		{
 			get
 			{
@@ -183,8 +183,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Single shg1
 		/// </summary>
-		protected RField r_shg1;
-		public virtual RField Rshg1
+		protected RSystem.RSingle r_shg1;
+		public virtual RSystem.RSingle Rshg1
 		{
 			get
 			{
@@ -200,8 +200,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Single shg2
 		/// </summary>
-		protected RField r_shg2;
-		public virtual RField Rshg2
+		protected RSystem.RSingle r_shg2;
+		public virtual RSystem.RSingle Rshg2
 		{
 			get
 			{
@@ -217,8 +217,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Single shg3
 		/// </summary>
-		protected RField r_shg3;
-		public virtual RField Rshg3
+		protected RSystem.RSingle r_shg3;
+		public virtual RSystem.RSingle Rshg3
 		{
 			get
 			{
@@ -234,8 +234,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Single shg4
 		/// </summary>
-		protected RField r_shg4;
-		public virtual RField Rshg4
+		protected RSystem.RSingle r_shg4;
+		public virtual RSystem.RSingle Rshg4
 		{
 			get
 			{
@@ -251,8 +251,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Single shg5
 		/// </summary>
-		protected RField r_shg5;
-		public virtual RField Rshg5
+		protected RSystem.RSingle r_shg5;
+		public virtual RSystem.RSingle Rshg5
 		{
 			get
 			{
@@ -268,8 +268,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Single shg6
 		/// </summary>
-		protected RField r_shg6;
-		public virtual RField Rshg6
+		protected RSystem.RSingle r_shg6;
+		public virtual RSystem.RSingle Rshg6
 		{
 			get
 			{
@@ -285,8 +285,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Single shg7
 		/// </summary>
-		protected RField r_shg7;
-		public virtual RField Rshg7
+		protected RSystem.RSingle r_shg7;
+		public virtual RSystem.RSingle Rshg7
 		{
 			get
 			{
@@ -302,8 +302,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Single shg8
 		/// </summary>
-		protected RField r_shg8;
-		public virtual RField Rshg8
+		protected RSystem.RSingle r_shg8;
+		public virtual RSystem.RSingle Rshg8
 		{
 			get
 			{
@@ -319,8 +319,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Single shb0
 		/// </summary>
-		protected RField r_shb0;
-		public virtual RField Rshb0
+		protected RSystem.RSingle r_shb0;
+		public virtual RSystem.RSingle Rshb0
 		{
 			get
 			{
@@ -336,8 +336,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Single shb1
 		/// </summary>
-		protected RField r_shb1;
-		public virtual RField Rshb1
+		protected RSystem.RSingle r_shb1;
+		public virtual RSystem.RSingle Rshb1
 		{
 			get
 			{
@@ -353,8 +353,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Single shb2
 		/// </summary>
-		protected RField r_shb2;
-		public virtual RField Rshb2
+		protected RSystem.RSingle r_shb2;
+		public virtual RSystem.RSingle Rshb2
 		{
 			get
 			{
@@ -370,8 +370,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Single shb3
 		/// </summary>
-		protected RField r_shb3;
-		public virtual RField Rshb3
+		protected RSystem.RSingle r_shb3;
+		public virtual RSystem.RSingle Rshb3
 		{
 			get
 			{
@@ -387,8 +387,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Single shb4
 		/// </summary>
-		protected RField r_shb4;
-		public virtual RField Rshb4
+		protected RSystem.RSingle r_shb4;
+		public virtual RSystem.RSingle Rshb4
 		{
 			get
 			{
@@ -404,8 +404,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Single shb5
 		/// </summary>
-		protected RField r_shb5;
-		public virtual RField Rshb5
+		protected RSystem.RSingle r_shb5;
+		public virtual RSystem.RSingle Rshb5
 		{
 			get
 			{
@@ -421,8 +421,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Single shb6
 		/// </summary>
-		protected RField r_shb6;
-		public virtual RField Rshb6
+		protected RSystem.RSingle r_shb6;
+		public virtual RSystem.RSingle Rshb6
 		{
 			get
 			{
@@ -438,8 +438,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Single shb7
 		/// </summary>
-		protected RField r_shb7;
-		public virtual RField Rshb7
+		protected RSystem.RSingle r_shb7;
+		public virtual RSystem.RSingle Rshb7
 		{
 			get
 			{
@@ -455,8 +455,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Single shb8
 		/// </summary>
-		protected RField r_shb8;
-		public virtual RField Rshb8
+		protected RSystem.RSingle r_shb8;
+		public virtual RSystem.RSingle Rshb8
 		{
 			get
 			{
@@ -472,8 +472,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// Single Item [Int32, Int32]
 		/// </summary>
-		protected RProperty r_Item_Int32_Int32;
-		public virtual RProperty RItem_Int32_Int32
+		protected RSystem.RSingle r_Item_Int32_Int32;
+		public virtual RSystem.RSingle RItem_Int32_Int32
 		{
 			get
 			{

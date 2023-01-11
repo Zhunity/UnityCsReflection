@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Int32 origIndex
 		/// </summary>
-		protected RField r_origIndex;
-		public virtual RField RorigIndex
+		protected RSystem.RInt32 r_origIndex;
+		public virtual RSystem.RInt32 RorigIndex
 		{
 			get
 			{
@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Int32 destIndex
 		/// </summary>
-		protected RField r_destIndex;
-		public virtual RField RdestIndex
+		protected RSystem.RInt32 r_destIndex;
+		public virtual RSystem.RInt32 RdestIndex
 		{
 			get
 			{

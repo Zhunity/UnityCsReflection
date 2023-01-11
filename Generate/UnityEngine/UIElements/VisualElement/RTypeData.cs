@@ -32,8 +32,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.String m_FullTypeName
 		/// </summary>
-		protected RField r_m_FullTypeName;
-		public virtual RField Rm_FullTypeName
+		protected RSystem.RString r_m_FullTypeName;
+		public virtual RSystem.RString Rm_FullTypeName
 		{
 			get
 			{
@@ -49,8 +49,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.String m_TypeName
 		/// </summary>
-		protected RField r_m_TypeName;
-		public virtual RField Rm_TypeName
+		protected RSystem.RString r_m_TypeName;
+		public virtual RSystem.RString Rm_TypeName
 		{
 			get
 			{
@@ -66,8 +66,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.String m_TypeNamespace
 		/// </summary>
-		protected RField r_m_TypeNamespace;
-		public virtual RField Rm_TypeNamespace
+		protected RSystem.RString r_m_TypeNamespace;
+		public virtual RSystem.RString Rm_TypeNamespace
 		{
 			get
 			{
@@ -100,8 +100,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.String fullTypeName
 		/// </summary>
-		protected RProperty r_fullTypeName;
-		public virtual RProperty RfullTypeName
+		protected RSystem.RString r_fullTypeName;
+		public virtual RSystem.RString RfullTypeName
 		{
 			get
 			{
@@ -117,8 +117,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.String typeName
 		/// </summary>
-		protected RProperty r_typeName;
-		public virtual RProperty RtypeName
+		protected RSystem.RString r_typeName;
+		public virtual RSystem.RString RtypeName
 		{
 			get
 			{
@@ -134,8 +134,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.String typeNamespace
 		/// </summary>
-		protected RProperty r_typeNamespace;
-		public virtual RProperty RtypeNamespace
+		protected RSystem.RString r_typeNamespace;
+		public virtual RSystem.RString RtypeNamespace
 		{
 			get
 			{

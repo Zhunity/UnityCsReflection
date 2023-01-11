@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.UInt64 u64_0
 		/// </summary>
-		protected RField r_u64_0;
-		public virtual RField Ru64_0
+		protected RSystem.RUInt64 r_u64_0;
+		public virtual RSystem.RUInt64 Ru64_0
 		{
 			get
 			{
@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.UInt64 u64_1
 		/// </summary>
-		protected RField r_u64_1;
-		public virtual RField Ru64_1
+		protected RSystem.RUInt64 r_u64_1;
+		public virtual RSystem.RUInt64 Ru64_1
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.UInt64 kConst
 		/// </summary>
-		protected static RField r_kConst;
-		public static RField RkConst
+		protected static RSystem.RUInt64 r_kConst;
+		public static RSystem.RUInt64 RkConst
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Boolean isValid
 		/// </summary>
-		protected RProperty r_isValid;
-		public virtual RProperty RisValid
+		protected RSystem.RBoolean r_isValid;
+		public virtual RSystem.RBoolean RisValid
 		{
 			get
 			{
@@ -952,59 +952,79 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-
-
-        public static UnityEngine.Hash128 Compute<T>(T[] @data) where T : struct
+        public static UnityEngine.Hash128 Compute<T>(RUnity.RCollections.RNativeArray<RType> @data) where T : struct
         {
 
             var ___genericsType = new Type[] {typeof(T)};
-            var ___parameters = new object[]{@data};
+            var ___parameters = new object[]{@data.Value};
+            var ___result = RCompute_GT_NativeArray_d_T_p_.Invoke(___genericsType, ___parameters);
+
+            return (UnityEngine.Hash128)___result;
+        }
+
+
+        public static UnityEngine.Hash128 Compute<T>(RUnity.RCollections.RNativeArray<RType> @data, System.Int32 @start, System.Int32 @count) where T : struct
+        {
+
+            var ___genericsType = new Type[] {typeof(T)};
+            var ___parameters = new object[]{@data.Value, @start, @count};
+            var ___result = RCompute_GT_NativeArray_d_T_p__Int32_Int32.Invoke(___genericsType, ___parameters);
+
+            return (UnityEngine.Hash128)___result;
+        }
+
+
+        public static UnityEngine.Hash128 Compute<T>(RTypeArray<RType> @data) where T : struct
+        {
+
+            var ___genericsType = new Type[] {typeof(T)};
+            var ___parameters = new object[]{@data.Value};
             var ___result = RCompute_GT_TArray.Invoke(___genericsType, ___parameters);
 
             return (UnityEngine.Hash128)___result;
         }
 
 
-        public static UnityEngine.Hash128 Compute<T>(T[] @data, System.Int32 @start, System.Int32 @count) where T : struct
+        public static UnityEngine.Hash128 Compute<T>(RTypeArray<RType> @data, System.Int32 @start, System.Int32 @count) where T : struct
         {
 
             var ___genericsType = new Type[] {typeof(T)};
-            var ___parameters = new object[]{@data, @start, @count};
+            var ___parameters = new object[]{@data.Value, @start, @count};
             var ___result = RCompute_GT_TArray_Int32_Int32.Invoke(___genericsType, ___parameters);
 
             return (UnityEngine.Hash128)___result;
         }
 
 
-        public static UnityEngine.Hash128 Compute<T>(System.Collections.Generic.List<T> @data) where T : struct
+        public static UnityEngine.Hash128 Compute<T>(RSystem.RCollections.RGeneric.RList<RType> @data) where T : struct
         {
 
             var ___genericsType = new Type[] {typeof(T)};
-            var ___parameters = new object[]{@data};
+            var ___parameters = new object[]{@data.Value};
             var ___result = RCompute_GT_List_d_T_p_.Invoke(___genericsType, ___parameters);
 
             return (UnityEngine.Hash128)___result;
         }
 
 
-        public static UnityEngine.Hash128 Compute<T>(System.Collections.Generic.List<T> @data, System.Int32 @start, System.Int32 @count) where T : struct
+        public static UnityEngine.Hash128 Compute<T>(RSystem.RCollections.RGeneric.RList<RType> @data, System.Int32 @start, System.Int32 @count) where T : struct
         {
 
             var ___genericsType = new Type[] {typeof(T)};
-            var ___parameters = new object[]{@data, @start, @count};
+            var ___parameters = new object[]{@data.Value, @start, @count};
             var ___result = RCompute_GT_List_d_T_p__Int32_Int32.Invoke(___genericsType, ___parameters);
 
             return (UnityEngine.Hash128)___result;
         }
 
 
-        public static UnityEngine.Hash128 Compute<T>(ref T @val) where T : struct
+        public static UnityEngine.Hash128 Compute<T>(ref RType @val) where T : struct
         {
 
             var ___genericsType = new Type[] {typeof(T)};
-            var ___parameters = new object[]{@val};
+            var ___parameters = new object[]{@val.Value};
             var ___result = RCompute_GT_Ref_T.Invoke(___genericsType, ___parameters);
-			@val = (T)___parameters[0];
+			@val = new RType(___parameters[0]);
 
             return (UnityEngine.Hash128)___result;
         }
@@ -1054,59 +1074,79 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-
-
-        public virtual void Append<T>(T[] @data) where T : struct
+        public virtual void Append<T>(RUnity.RCollections.RNativeArray<RType> @data) where T : struct
         {
 
             var ___genericsType = new Type[] {typeof(T)};
-            var ___parameters = new object[]{@data};
+            var ___parameters = new object[]{@data.Value};
+            var ___result = RAppend_GT_NativeArray_d_T_p_.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void Append<T>(RUnity.RCollections.RNativeArray<RType> @data, System.Int32 @start, System.Int32 @count) where T : struct
+        {
+
+            var ___genericsType = new Type[] {typeof(T)};
+            var ___parameters = new object[]{@data.Value, @start, @count};
+            var ___result = RAppend_GT_NativeArray_d_T_p__Int32_Int32.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void Append<T>(RTypeArray<RType> @data) where T : struct
+        {
+
+            var ___genericsType = new Type[] {typeof(T)};
+            var ___parameters = new object[]{@data.Value};
             var ___result = RAppend_GT_TArray.Invoke(___genericsType, ___parameters);
 
             
         }
 
 
-        public virtual void Append<T>(T[] @data, System.Int32 @start, System.Int32 @count) where T : struct
+        public virtual void Append<T>(RTypeArray<RType> @data, System.Int32 @start, System.Int32 @count) where T : struct
         {
 
             var ___genericsType = new Type[] {typeof(T)};
-            var ___parameters = new object[]{@data, @start, @count};
+            var ___parameters = new object[]{@data.Value, @start, @count};
             var ___result = RAppend_GT_TArray_Int32_Int32.Invoke(___genericsType, ___parameters);
 
             
         }
 
 
-        public virtual void Append<T>(System.Collections.Generic.List<T> @data) where T : struct
+        public virtual void Append<T>(RSystem.RCollections.RGeneric.RList<RType> @data) where T : struct
         {
 
             var ___genericsType = new Type[] {typeof(T)};
-            var ___parameters = new object[]{@data};
+            var ___parameters = new object[]{@data.Value};
             var ___result = RAppend_GT_List_d_T_p_.Invoke(___genericsType, ___parameters);
 
             
         }
 
 
-        public virtual void Append<T>(System.Collections.Generic.List<T> @data, System.Int32 @start, System.Int32 @count) where T : struct
+        public virtual void Append<T>(RSystem.RCollections.RGeneric.RList<RType> @data, System.Int32 @start, System.Int32 @count) where T : struct
         {
 
             var ___genericsType = new Type[] {typeof(T)};
-            var ___parameters = new object[]{@data, @start, @count};
+            var ___parameters = new object[]{@data.Value, @start, @count};
             var ___result = RAppend_GT_List_d_T_p__Int32_Int32.Invoke(___genericsType, ___parameters);
 
             
         }
 
 
-        public virtual void Append<T>(ref T @val) where T : struct
+        public virtual void Append<T>(ref RType @val) where T : struct
         {
 
             var ___genericsType = new Type[] {typeof(T)};
-            var ___parameters = new object[]{@val};
+            var ___parameters = new object[]{@val.Value};
             var ___result = RAppend_GT_Ref_T.Invoke(___genericsType, ___parameters);
-			@val = (T)___parameters[0];
+			@val = new RType(___parameters[0]);
 
             
         }

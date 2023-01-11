@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Int32 stencilRef
 		/// </summary>
-		protected RField r_stencilRef;
-		public virtual RField RstencilRef
+		protected RSystem.RInt32 r_stencilRef;
+		public virtual RSystem.RInt32 RstencilRef
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Single sdfScale
 		/// </summary>
-		protected RField r_sdfScale;
-		public virtual RField RsdfScale
+		protected RSystem.RSingle r_sdfScale;
+		public virtual RSystem.RSingle RsdfScale
 		{
 			get
 			{

@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RSynt
 		/// <summary>
 		/// System.Int32 Infinity
 		/// </summary>
-		protected static RField r_Infinity;
-		public static RField RInfinity
+		protected static RSystem.RInt32 r_Infinity;
+		public static RSystem.RInt32 RInfinity
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RSynt
 		/// <summary>
 		/// System.Int32 min
 		/// </summary>
-		protected RField r_min;
-		public virtual RField Rmin
+		protected RSystem.RInt32 r_min;
+		public virtual RSystem.RInt32 Rmin
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RSynt
 		/// <summary>
 		/// System.Int32 max
 		/// </summary>
-		protected RField r_max;
-		public virtual RField Rmax
+		protected RSystem.RInt32 r_max;
+		public virtual RSystem.RInt32 Rmax
 		{
 			get
 			{

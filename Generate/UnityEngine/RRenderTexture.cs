@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 width
 		/// </summary>
-		protected RProperty r_width;
-		public virtual RProperty Rwidth
+		protected RSystem.RInt32 r_width;
+		public virtual RSystem.RInt32 Rwidth
 		{
 			get
 			{
@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 height
 		/// </summary>
-		protected RProperty r_height;
-		public virtual RProperty Rheight
+		protected RSystem.RInt32 r_height;
+		public virtual RSystem.RInt32 Rheight
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Boolean useMipMap
 		/// </summary>
-		protected RProperty r_useMipMap;
-		public virtual RProperty RuseMipMap
+		protected RSystem.RBoolean r_useMipMap;
+		public virtual RSystem.RBoolean RuseMipMap
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Boolean sRGB
 		/// </summary>
-		protected RProperty r_sRGB;
-		public virtual RProperty RsRGB
+		protected RSystem.RBoolean r_sRGB;
+		public virtual RSystem.RBoolean RsRGB
 		{
 			get
 			{
@@ -200,8 +200,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Boolean autoGenerateMips
 		/// </summary>
-		protected RProperty r_autoGenerateMips;
-		public virtual RProperty RautoGenerateMips
+		protected RSystem.RBoolean r_autoGenerateMips;
+		public virtual RSystem.RBoolean RautoGenerateMips
 		{
 			get
 			{
@@ -217,8 +217,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 volumeDepth
 		/// </summary>
-		protected RProperty r_volumeDepth;
-		public virtual RProperty RvolumeDepth
+		protected RSystem.RInt32 r_volumeDepth;
+		public virtual RSystem.RInt32 RvolumeDepth
 		{
 			get
 			{
@@ -234,8 +234,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 antiAliasing
 		/// </summary>
-		protected RProperty r_antiAliasing;
-		public virtual RProperty RantiAliasing
+		protected RSystem.RInt32 r_antiAliasing;
+		public virtual RSystem.RInt32 RantiAliasing
 		{
 			get
 			{
@@ -251,8 +251,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Boolean bindTextureMS
 		/// </summary>
-		protected RProperty r_bindTextureMS;
-		public virtual RProperty RbindTextureMS
+		protected RSystem.RBoolean r_bindTextureMS;
+		public virtual RSystem.RBoolean RbindTextureMS
 		{
 			get
 			{
@@ -268,8 +268,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Boolean enableRandomWrite
 		/// </summary>
-		protected RProperty r_enableRandomWrite;
-		public virtual RProperty RenableRandomWrite
+		protected RSystem.RBoolean r_enableRandomWrite;
+		public virtual RSystem.RBoolean RenableRandomWrite
 		{
 			get
 			{
@@ -285,8 +285,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Boolean useDynamicScale
 		/// </summary>
-		protected RProperty r_useDynamicScale;
-		public virtual RProperty RuseDynamicScale
+		protected RSystem.RBoolean r_useDynamicScale;
+		public virtual RSystem.RBoolean RuseDynamicScale
 		{
 			get
 			{
@@ -302,8 +302,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Boolean isPowerOfTwo
 		/// </summary>
-		protected RProperty r_isPowerOfTwo;
-		public virtual RProperty RisPowerOfTwo
+		protected RSystem.RBoolean r_isPowerOfTwo;
+		public virtual RSystem.RBoolean RisPowerOfTwo
 		{
 			get
 			{
@@ -370,8 +370,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 depth
 		/// </summary>
-		protected RProperty r_depth;
-		public virtual RProperty Rdepth
+		protected RSystem.RInt32 r_depth;
+		public virtual RSystem.RInt32 Rdepth
 		{
 			get
 			{
@@ -404,8 +404,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Boolean generateMips
 		/// </summary>
-		protected RProperty r_generateMips;
-		public virtual RProperty RgenerateMips
+		protected RSystem.RBoolean r_generateMips;
+		public virtual RSystem.RBoolean RgenerateMips
 		{
 			get
 			{
@@ -421,8 +421,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Boolean isCubemap
 		/// </summary>
-		protected RProperty r_isCubemap;
-		public virtual RProperty RisCubemap
+		protected RSystem.RBoolean r_isCubemap;
+		public virtual RSystem.RBoolean RisCubemap
 		{
 			get
 			{
@@ -438,8 +438,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Boolean isVolume
 		/// </summary>
-		protected RProperty r_isVolume;
-		public virtual RProperty RisVolume
+		protected RSystem.RBoolean r_isVolume;
+		public virtual RSystem.RBoolean RisVolume
 		{
 			get
 			{
@@ -455,8 +455,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Boolean enabled
 		/// </summary>
-		protected static RProperty r_enabled;
-		public static RProperty Renabled
+		protected static RSystem.RBoolean r_enabled;
+		public static RSystem.RBoolean Renabled
 		{
 			get
 			{
@@ -472,8 +472,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 mipmapCount
 		/// </summary>
-		protected RProperty r_mipmapCount;
-		public virtual RProperty RmipmapCount
+		protected RSystem.RInt32 r_mipmapCount;
+		public virtual RSystem.RInt32 RmipmapCount
 		{
 			get
 			{
@@ -489,8 +489,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Boolean isReadable
 		/// </summary>
-		protected RProperty r_isReadable;
-		public virtual RProperty RisReadable
+		protected RSystem.RBoolean r_isReadable;
+		public virtual RSystem.RBoolean RisReadable
 		{
 			get
 			{
@@ -591,8 +591,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 anisoLevel
 		/// </summary>
-		protected RProperty r_anisoLevel;
-		public virtual RProperty RanisoLevel
+		protected RSystem.RInt32 r_anisoLevel;
+		public virtual RSystem.RInt32 RanisoLevel
 		{
 			get
 			{
@@ -608,8 +608,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Single mipMapBias
 		/// </summary>
-		protected RProperty r_mipMapBias;
-		public virtual RProperty RmipMapBias
+		protected RSystem.RSingle r_mipMapBias;
+		public virtual RSystem.RSingle RmipMapBias
 		{
 			get
 			{
@@ -642,8 +642,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UInt32 updateCount
 		/// </summary>
-		protected RProperty r_updateCount;
-		public virtual RProperty RupdateCount
+		protected RSystem.RUInt32 r_updateCount;
+		public virtual RSystem.RUInt32 RupdateCount
 		{
 			get
 			{
@@ -676,8 +676,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Boolean isDataSRGB
 		/// </summary>
-		protected RProperty r_isDataSRGB;
-		public virtual RProperty RisDataSRGB
+		protected RSystem.RBoolean r_isDataSRGB;
+		public virtual RSystem.RBoolean RisDataSRGB
 		{
 			get
 			{
@@ -710,8 +710,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.String name
 		/// </summary>
-		protected RProperty r_name;
-		public virtual RProperty Rname
+		protected RSystem.RString r_name;
+		public virtual RSystem.RString Rname
 		{
 			get
 			{

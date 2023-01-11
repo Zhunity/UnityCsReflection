@@ -15,8 +15,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.IntPtr m_Ptr
 		/// </summary>
-		protected RField r_m_Ptr;
-		public virtual RField Rm_Ptr
+		protected RSystem.RIntPtr r_m_Ptr;
+		public virtual RSystem.RIntPtr Rm_Ptr
 		{
 			get
 			{
@@ -49,8 +49,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 vertexCount
 		/// </summary>
-		protected RProperty r_vertexCount;
-		public virtual RProperty RvertexCount
+		protected RSystem.RInt32 r_vertexCount;
+		public virtual RSystem.RInt32 RvertexCount
 		{
 			get
 			{
@@ -66,8 +66,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 vertexBufferCount
 		/// </summary>
-		protected RProperty r_vertexBufferCount;
-		public virtual RProperty RvertexBufferCount
+		protected RSystem.RInt32 r_vertexBufferCount;
+		public virtual RSystem.RInt32 RvertexBufferCount
 		{
 			get
 			{
@@ -100,8 +100,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 subMeshCount
 		/// </summary>
-		protected RProperty r_subMeshCount;
-		public virtual RProperty RsubMeshCount
+		protected RSystem.RInt32 r_subMeshCount;
+		public virtual RSystem.RInt32 RsubMeshCount
 		{
 			get
 			{
@@ -1420,24 +1420,114 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
+        public virtual void GetVertices(RUnity.RCollections.RNativeArray<RUnityEngine.RVector3> @outVertices)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@outVertices.Value};
+            var ___result = RGetVertices_NativeArray_d_Vector3_p_.Invoke(___genericsType, ___parameters);
+
+            
+        }
 
 
+        public virtual void GetNormals(RUnity.RCollections.RNativeArray<RUnityEngine.RVector3> @outNormals)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@outNormals.Value};
+            var ___result = RGetNormals_NativeArray_d_Vector3_p_.Invoke(___genericsType, ___parameters);
+
+            
+        }
 
 
+        public virtual void GetTangents(RUnity.RCollections.RNativeArray<RUnityEngine.RVector4> @outTangents)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@outTangents.Value};
+            var ___result = RGetTangents_NativeArray_d_Vector4_p_.Invoke(___genericsType, ___parameters);
+
+            
+        }
 
 
+        public virtual void GetColors(RUnity.RCollections.RNativeArray<RUnityEngine.RColor> @outColors)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@outColors.Value};
+            var ___result = RGetColors_NativeArray_d_Color_p_.Invoke(___genericsType, ___parameters);
+
+            
+        }
 
 
-        public virtual System.Object GetVertexData<T>(System.Int32 @stream) where T : struct
+        public virtual void GetColors(RUnity.RCollections.RNativeArray<RUnityEngine.RColor32> @outColors)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@outColors.Value};
+            var ___result = RGetColors_NativeArray_d_Color32_p_.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void GetUVs(System.Int32 @channel, RUnity.RCollections.RNativeArray<RUnityEngine.RVector2> @outUVs)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@channel, @outUVs.Value};
+            var ___result = RGetUVs_Int32_NativeArray_d_Vector2_p_.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void GetUVs(System.Int32 @channel, RUnity.RCollections.RNativeArray<RUnityEngine.RVector3> @outUVs)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@channel, @outUVs.Value};
+            var ___result = RGetUVs_Int32_NativeArray_d_Vector3_p_.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void GetUVs(System.Int32 @channel, RUnity.RCollections.RNativeArray<RUnityEngine.RVector4> @outUVs)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@channel, @outUVs.Value};
+            var ___result = RGetUVs_Int32_NativeArray_d_Vector4_p_.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual RUnity.RCollections.RNativeArray<RType> GetVertexData<T>(System.Int32 @stream) where T : struct
         {
 
             var ___genericsType = new Type[] {typeof(T)};
             var ___parameters = new object[]{@stream};
             var ___result = RGetVertexData_GT_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RUnity.RCollections.RNativeArray<RType>(___result);
         }
 
+
+        public virtual void CopyAttributeInto<T>(RUnity.RCollections.RNativeArray<RType> @buffer, UnityEngine.Rendering.VertexAttribute @channel, UnityEngine.Rendering.VertexAttributeFormat @format, System.Int32 @dim) where T : struct
+        {
+
+            var ___genericsType = new Type[] {typeof(T)};
+            var ___parameters = new object[]{@buffer.Value, @channel, @format, @dim};
+            var ___result = RCopyAttributeInto_GT_NativeArray_d_T_p__VertexAttribute_VertexAttributeFormat_Int32.Invoke(___genericsType, ___parameters);
+
+            
+        }
 
 
         public virtual void SetVertexBufferParams(System.Int32 @vertexCount, UnityEngine.Rendering.VertexAttributeDescriptor[] @attributes)
@@ -1451,6 +1541,16 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
+        public virtual void SetVertexBufferParams(System.Int32 @vertexCount, RUnity.RCollections.RNativeArray<RUnityEngine.RRendering.RVertexAttributeDescriptor> @attributes)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@vertexCount, @attributes.Value};
+            var ___result = RSetVertexBufferParams_Int32_NativeArray_d_VertexAttributeDescriptor_p_.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
 
         public virtual void SetIndexBufferParams(System.Int32 @indexCount, UnityEngine.Rendering.IndexFormat @format)
         {
@@ -1463,16 +1563,36 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
+        public virtual void GetIndices(RUnity.RCollections.RNativeArray<RSystem.RUInt16> @outIndices, System.Int32 @submesh, System.Boolean @applyBaseVertex)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@outIndices.Value, @submesh, @applyBaseVertex};
+            var ___result = RGetIndices_NativeArray_d_UInt16_p__Int32_Boolean.Invoke(___genericsType, ___parameters);
+
+            
+        }
 
 
-        public virtual System.Object GetIndexData<T>() where T : struct
+        public virtual void GetIndices(RUnity.RCollections.RNativeArray<RSystem.RInt32> @outIndices, System.Int32 @submesh, System.Boolean @applyBaseVertex)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@outIndices.Value, @submesh, @applyBaseVertex};
+            var ___result = RGetIndices_NativeArray_d_Int32_p__Int32_Boolean.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual RUnity.RCollections.RNativeArray<RType> GetIndexData<T>() where T : struct
         {
 
             var ___genericsType = new Type[] {typeof(T)};
             var ___parameters = new object[]{};
             var ___result = RGetIndexData_GT.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RUnity.RCollections.RNativeArray<RType>(___result);
         }
 
 

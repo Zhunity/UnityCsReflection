@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.String text
 		/// </summary>
-		protected RField r_text;
-		public virtual RField Rtext
+		protected RSystem.RString r_text;
+		public virtual RSystem.RString Rtext
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Single scale
 		/// </summary>
-		protected RField r_scale;
-		public virtual RField Rscale
+		protected RSystem.RSingle r_scale;
+		public virtual RSystem.RSingle Rscale
 		{
 			get
 			{
@@ -217,8 +217,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Boolean wordWrap
 		/// </summary>
-		protected RField r_wordWrap;
-		public virtual RField RwordWrap
+		protected RSystem.RBoolean r_wordWrap;
+		public virtual RSystem.RBoolean RwordWrap
 		{
 			get
 			{
@@ -234,8 +234,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Single wordWrappingRatio
 		/// </summary>
-		protected RField r_wordWrappingRatio;
-		public virtual RField RwordWrappingRatio
+		protected RSystem.RSingle r_wordWrappingRatio;
+		public virtual RSystem.RSingle RwordWrappingRatio
 		{
 			get
 			{
@@ -302,8 +302,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Boolean tintSprites
 		/// </summary>
-		protected RField r_tintSprites;
-		public virtual RField RtintSprites
+		protected RSystem.RBoolean r_tintSprites;
+		public virtual RSystem.RBoolean RtintSprites
 		{
 			get
 			{
@@ -319,8 +319,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Boolean overrideRichTextColors
 		/// </summary>
-		protected RField r_overrideRichTextColors;
-		public virtual RField RoverrideRichTextColors
+		protected RSystem.RBoolean r_overrideRichTextColors;
+		public virtual RSystem.RBoolean RoverrideRichTextColors
 		{
 			get
 			{
@@ -336,8 +336,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Boolean shouldConvertToLinearSpace
 		/// </summary>
-		protected RField r_shouldConvertToLinearSpace;
-		public virtual RField RshouldConvertToLinearSpace
+		protected RSystem.RBoolean r_shouldConvertToLinearSpace;
+		public virtual RSystem.RBoolean RshouldConvertToLinearSpace
 		{
 			get
 			{
@@ -353,8 +353,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Single fontSize
 		/// </summary>
-		protected RField r_fontSize;
-		public virtual RField RfontSize
+		protected RSystem.RSingle r_fontSize;
+		public virtual RSystem.RSingle RfontSize
 		{
 			get
 			{
@@ -370,8 +370,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Boolean autoSize
 		/// </summary>
-		protected RField r_autoSize;
-		public virtual RField RautoSize
+		protected RSystem.RBoolean r_autoSize;
+		public virtual RSystem.RBoolean RautoSize
 		{
 			get
 			{
@@ -387,8 +387,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Single fontSizeMin
 		/// </summary>
-		protected RField r_fontSizeMin;
-		public virtual RField RfontSizeMin
+		protected RSystem.RSingle r_fontSizeMin;
+		public virtual RSystem.RSingle RfontSizeMin
 		{
 			get
 			{
@@ -404,8 +404,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Single fontSizeMax
 		/// </summary>
-		protected RField r_fontSizeMax;
-		public virtual RField RfontSizeMax
+		protected RSystem.RSingle r_fontSizeMax;
+		public virtual RSystem.RSingle RfontSizeMax
 		{
 			get
 			{
@@ -421,8 +421,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Boolean enableKerning
 		/// </summary>
-		protected RField r_enableKerning;
-		public virtual RField RenableKerning
+		protected RSystem.RBoolean r_enableKerning;
+		public virtual RSystem.RBoolean RenableKerning
 		{
 			get
 			{
@@ -438,8 +438,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Boolean richText
 		/// </summary>
-		protected RField r_richText;
-		public virtual RField RrichText
+		protected RSystem.RBoolean r_richText;
+		public virtual RSystem.RBoolean RrichText
 		{
 			get
 			{
@@ -455,8 +455,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Boolean isRightToLeft
 		/// </summary>
-		protected RField r_isRightToLeft;
-		public virtual RField RisRightToLeft
+		protected RSystem.RBoolean r_isRightToLeft;
+		public virtual RSystem.RBoolean RisRightToLeft
 		{
 			get
 			{
@@ -472,8 +472,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Boolean extraPadding
 		/// </summary>
-		protected RField r_extraPadding;
-		public virtual RField RextraPadding
+		protected RSystem.RBoolean r_extraPadding;
+		public virtual RSystem.RBoolean RextraPadding
 		{
 			get
 			{
@@ -489,8 +489,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Boolean parseControlCharacters
 		/// </summary>
-		protected RField r_parseControlCharacters;
-		public virtual RField RparseControlCharacters
+		protected RSystem.RBoolean r_parseControlCharacters;
+		public virtual RSystem.RBoolean RparseControlCharacters
 		{
 			get
 			{
@@ -506,8 +506,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Boolean isOrthographic
 		/// </summary>
-		protected RField r_isOrthographic;
-		public virtual RField RisOrthographic
+		protected RSystem.RBoolean r_isOrthographic;
+		public virtual RSystem.RBoolean RisOrthographic
 		{
 			get
 			{
@@ -523,8 +523,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Boolean tagNoParsing
 		/// </summary>
-		protected RField r_tagNoParsing;
-		public virtual RField RtagNoParsing
+		protected RSystem.RBoolean r_tagNoParsing;
+		public virtual RSystem.RBoolean RtagNoParsing
 		{
 			get
 			{
@@ -540,8 +540,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Single characterSpacing
 		/// </summary>
-		protected RField r_characterSpacing;
-		public virtual RField RcharacterSpacing
+		protected RSystem.RSingle r_characterSpacing;
+		public virtual RSystem.RSingle RcharacterSpacing
 		{
 			get
 			{
@@ -557,8 +557,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Single wordSpacing
 		/// </summary>
-		protected RField r_wordSpacing;
-		public virtual RField RwordSpacing
+		protected RSystem.RSingle r_wordSpacing;
+		public virtual RSystem.RSingle RwordSpacing
 		{
 			get
 			{
@@ -574,8 +574,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Single lineSpacing
 		/// </summary>
-		protected RField r_lineSpacing;
-		public virtual RField RlineSpacing
+		protected RSystem.RSingle r_lineSpacing;
+		public virtual RSystem.RSingle RlineSpacing
 		{
 			get
 			{
@@ -591,8 +591,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Single paragraphSpacing
 		/// </summary>
-		protected RField r_paragraphSpacing;
-		public virtual RField RparagraphSpacing
+		protected RSystem.RSingle r_paragraphSpacing;
+		public virtual RSystem.RSingle RparagraphSpacing
 		{
 			get
 			{
@@ -608,8 +608,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Single lineSpacingMax
 		/// </summary>
-		protected RField r_lineSpacingMax;
-		public virtual RField RlineSpacingMax
+		protected RSystem.RSingle r_lineSpacingMax;
+		public virtual RSystem.RSingle RlineSpacingMax
 		{
 			get
 			{
@@ -642,8 +642,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Int32 maxVisibleCharacters
 		/// </summary>
-		protected RField r_maxVisibleCharacters;
-		public virtual RField RmaxVisibleCharacters
+		protected RSystem.RInt32 r_maxVisibleCharacters;
+		public virtual RSystem.RInt32 RmaxVisibleCharacters
 		{
 			get
 			{
@@ -659,8 +659,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Int32 maxVisibleWords
 		/// </summary>
-		protected RField r_maxVisibleWords;
-		public virtual RField RmaxVisibleWords
+		protected RSystem.RInt32 r_maxVisibleWords;
+		public virtual RSystem.RInt32 RmaxVisibleWords
 		{
 			get
 			{
@@ -676,8 +676,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Int32 maxVisibleLines
 		/// </summary>
-		protected RField r_maxVisibleLines;
-		public virtual RField RmaxVisibleLines
+		protected RSystem.RInt32 r_maxVisibleLines;
+		public virtual RSystem.RInt32 RmaxVisibleLines
 		{
 			get
 			{
@@ -693,8 +693,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Int32 firstVisibleCharacter
 		/// </summary>
-		protected RField r_firstVisibleCharacter;
-		public virtual RField RfirstVisibleCharacter
+		protected RSystem.RInt32 r_firstVisibleCharacter;
+		public virtual RSystem.RInt32 RfirstVisibleCharacter
 		{
 			get
 			{
@@ -710,8 +710,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Boolean useMaxVisibleDescender
 		/// </summary>
-		protected RField r_useMaxVisibleDescender;
-		public virtual RField RuseMaxVisibleDescender
+		protected RSystem.RBoolean r_useMaxVisibleDescender;
+		public virtual RSystem.RBoolean RuseMaxVisibleDescender
 		{
 			get
 			{
@@ -744,8 +744,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Int32 pageToDisplay
 		/// </summary>
-		protected RField r_pageToDisplay;
-		public virtual RField RpageToDisplay
+		protected RSystem.RInt32 r_pageToDisplay;
+		public virtual RSystem.RInt32 RpageToDisplay
 		{
 			get
 			{
@@ -795,8 +795,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Single uvLineOffset
 		/// </summary>
-		protected RField r_uvLineOffset;
-		public virtual RField RuvLineOffset
+		protected RSystem.RSingle r_uvLineOffset;
+		public virtual RSystem.RSingle RuvLineOffset
 		{
 			get
 			{
@@ -829,8 +829,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Boolean inverseYAxis
 		/// </summary>
-		protected RField r_inverseYAxis;
-		public virtual RField RinverseYAxis
+		protected RSystem.RBoolean r_inverseYAxis;
+		public virtual RSystem.RBoolean RinverseYAxis
 		{
 			get
 			{
@@ -846,8 +846,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Single charWidthMaxAdj
 		/// </summary>
-		protected RField r_charWidthMaxAdj;
-		public virtual RField RcharWidthMaxAdj
+		protected RSystem.RSingle r_charWidthMaxAdj;
+		public virtual RSystem.RSingle RcharWidthMaxAdj
 		{
 			get
 			{

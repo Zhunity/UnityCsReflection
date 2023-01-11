@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.String application_base
 		/// </summary>
-		protected RField r_application_base;
-		public virtual RField Rapplication_base
+		protected RSystem.RString r_application_base;
+		public virtual RSystem.RString Rapplication_base
 		{
 			get
 			{
@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.String application_name
 		/// </summary>
-		protected RField r_application_name;
-		public virtual RField Rapplication_name
+		protected RSystem.RString r_application_name;
+		public virtual RSystem.RString Rapplication_name
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.String cache_path
 		/// </summary>
-		protected RField r_cache_path;
-		public virtual RField Rcache_path
+		protected RSystem.RString r_cache_path;
+		public virtual RSystem.RString Rcache_path
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.String configuration_file
 		/// </summary>
-		protected RField r_configuration_file;
-		public virtual RField Rconfiguration_file
+		protected RSystem.RString r_configuration_file;
+		public virtual RSystem.RString Rconfiguration_file
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.String dynamic_base
 		/// </summary>
-		protected RField r_dynamic_base;
-		public virtual RField Rdynamic_base
+		protected RSystem.RString r_dynamic_base;
+		public virtual RSystem.RString Rdynamic_base
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.String license_file
 		/// </summary>
-		protected RField r_license_file;
-		public virtual RField Rlicense_file
+		protected RSystem.RString r_license_file;
+		public virtual RSystem.RString Rlicense_file
 		{
 			get
 			{
@@ -115,8 +115,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.String private_bin_path
 		/// </summary>
-		protected RField r_private_bin_path;
-		public virtual RField Rprivate_bin_path
+		protected RSystem.RString r_private_bin_path;
+		public virtual RSystem.RString Rprivate_bin_path
 		{
 			get
 			{
@@ -132,8 +132,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.String private_bin_path_probe
 		/// </summary>
-		protected RField r_private_bin_path_probe;
-		public virtual RField Rprivate_bin_path_probe
+		protected RSystem.RString r_private_bin_path_probe;
+		public virtual RSystem.RString Rprivate_bin_path_probe
 		{
 			get
 			{
@@ -149,8 +149,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.String shadow_copy_directories
 		/// </summary>
-		protected RField r_shadow_copy_directories;
-		public virtual RField Rshadow_copy_directories
+		protected RSystem.RString r_shadow_copy_directories;
+		public virtual RSystem.RString Rshadow_copy_directories
 		{
 			get
 			{
@@ -166,8 +166,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.String shadow_copy_files
 		/// </summary>
-		protected RField r_shadow_copy_files;
-		public virtual RField Rshadow_copy_files
+		protected RSystem.RString r_shadow_copy_files;
+		public virtual RSystem.RString Rshadow_copy_files
 		{
 			get
 			{
@@ -183,8 +183,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Boolean publisher_policy
 		/// </summary>
-		protected RField r_publisher_policy;
-		public virtual RField Rpublisher_policy
+		protected RSystem.RBoolean r_publisher_policy;
+		public virtual RSystem.RBoolean Rpublisher_policy
 		{
 			get
 			{
@@ -200,8 +200,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Boolean path_changed
 		/// </summary>
-		protected RField r_path_changed;
-		public virtual RField Rpath_changed
+		protected RSystem.RBoolean r_path_changed;
+		public virtual RSystem.RBoolean Rpath_changed
 		{
 			get
 			{
@@ -234,8 +234,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Boolean disallow_binding_redirects
 		/// </summary>
-		protected RField r_disallow_binding_redirects;
-		public virtual RField Rdisallow_binding_redirects
+		protected RSystem.RBoolean r_disallow_binding_redirects;
+		public virtual RSystem.RBoolean Rdisallow_binding_redirects
 		{
 			get
 			{
@@ -251,8 +251,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Boolean disallow_code_downloads
 		/// </summary>
-		protected RField r_disallow_code_downloads;
-		public virtual RField Rdisallow_code_downloads
+		protected RSystem.RBoolean r_disallow_code_downloads;
+		public virtual RSystem.RBoolean Rdisallow_code_downloads
 		{
 			get
 			{
@@ -319,8 +319,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.String[] domain_initializer_args
 		/// </summary>
-		protected RFieldArray<RField> r_domain_initializer_args;
-		public virtual RFieldArray<RField> Rdomain_initializer_args
+		protected RFieldArray<RSystem.RString> r_domain_initializer_args;
+		public virtual RFieldArray<RSystem.RString> Rdomain_initializer_args
 		{
 			get
 			{
@@ -336,8 +336,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Boolean disallow_appbase_probe
 		/// </summary>
-		protected RField r_disallow_appbase_probe;
-		public virtual RField Rdisallow_appbase_probe
+		protected RSystem.RBoolean r_disallow_appbase_probe;
+		public virtual RSystem.RBoolean Rdisallow_appbase_probe
 		{
 			get
 			{
@@ -353,8 +353,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Byte[] configuration_bytes
 		/// </summary>
-		protected RFieldArray<RField> r_configuration_bytes;
-		public virtual RFieldArray<RField> Rconfiguration_bytes
+		protected RFieldArray<RSystem.RByte> r_configuration_bytes;
+		public virtual RFieldArray<RSystem.RByte> Rconfiguration_bytes
 		{
 			get
 			{
@@ -370,8 +370,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Byte[] serialized_non_primitives
 		/// </summary>
-		protected RFieldArray<RField> r_serialized_non_primitives;
-		public virtual RFieldArray<RField> Rserialized_non_primitives
+		protected RFieldArray<RSystem.RByte> r_serialized_non_primitives;
+		public virtual RFieldArray<RSystem.RByte> Rserialized_non_primitives
 		{
 			get
 			{
@@ -387,8 +387,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.String manager_assembly
 		/// </summary>
-		protected RField r_manager_assembly;
-		public virtual RField Rmanager_assembly
+		protected RSystem.RString r_manager_assembly;
+		public virtual RSystem.RString Rmanager_assembly
 		{
 			get
 			{
@@ -404,8 +404,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.String manager_type
 		/// </summary>
-		protected RField r_manager_type;
-		public virtual RField Rmanager_type
+		protected RSystem.RString r_manager_type;
+		public virtual RSystem.RString Rmanager_type
 		{
 			get
 			{
@@ -421,8 +421,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.String[] partial_visible_assemblies
 		/// </summary>
-		protected RFieldArray<RField> r_partial_visible_assemblies;
-		public virtual RFieldArray<RField> Rpartial_visible_assemblies
+		protected RFieldArray<RSystem.RString> r_partial_visible_assemblies;
+		public virtual RFieldArray<RSystem.RString> Rpartial_visible_assemblies
 		{
 			get
 			{
@@ -438,8 +438,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.String <TargetFrameworkName>k__BackingField
 		/// </summary>
-		protected RField r___0__TargetFrameworkName__1__k__BackingField;
-		public virtual RField R__0__TargetFrameworkName__1__k__BackingField
+		protected RSystem.RString r___0__TargetFrameworkName__1__k__BackingField;
+		public virtual RSystem.RString R__0__TargetFrameworkName__1__k__BackingField
 		{
 			get
 			{
@@ -455,8 +455,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.String ApplicationBase
 		/// </summary>
-		protected RProperty r_ApplicationBase;
-		public virtual RProperty RApplicationBase
+		protected RSystem.RString r_ApplicationBase;
+		public virtual RSystem.RString RApplicationBase
 		{
 			get
 			{
@@ -472,8 +472,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.String ApplicationName
 		/// </summary>
-		protected RProperty r_ApplicationName;
-		public virtual RProperty RApplicationName
+		protected RSystem.RString r_ApplicationName;
+		public virtual RSystem.RString RApplicationName
 		{
 			get
 			{
@@ -489,8 +489,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.String CachePath
 		/// </summary>
-		protected RProperty r_CachePath;
-		public virtual RProperty RCachePath
+		protected RSystem.RString r_CachePath;
+		public virtual RSystem.RString RCachePath
 		{
 			get
 			{
@@ -506,8 +506,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.String ConfigurationFile
 		/// </summary>
-		protected RProperty r_ConfigurationFile;
-		public virtual RProperty RConfigurationFile
+		protected RSystem.RString r_ConfigurationFile;
+		public virtual RSystem.RString RConfigurationFile
 		{
 			get
 			{
@@ -523,8 +523,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// Boolean DisallowPublisherPolicy
 		/// </summary>
-		protected RProperty r_DisallowPublisherPolicy;
-		public virtual RProperty RDisallowPublisherPolicy
+		protected RSystem.RBoolean r_DisallowPublisherPolicy;
+		public virtual RSystem.RBoolean RDisallowPublisherPolicy
 		{
 			get
 			{
@@ -540,8 +540,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.String DynamicBase
 		/// </summary>
-		protected RProperty r_DynamicBase;
-		public virtual RProperty RDynamicBase
+		protected RSystem.RString r_DynamicBase;
+		public virtual RSystem.RString RDynamicBase
 		{
 			get
 			{
@@ -557,8 +557,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.String LicenseFile
 		/// </summary>
-		protected RProperty r_LicenseFile;
-		public virtual RProperty RLicenseFile
+		protected RSystem.RString r_LicenseFile;
+		public virtual RSystem.RString RLicenseFile
 		{
 			get
 			{
@@ -591,8 +591,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.String AppDomainManagerAssembly
 		/// </summary>
-		protected RProperty r_AppDomainManagerAssembly;
-		public virtual RProperty RAppDomainManagerAssembly
+		protected RSystem.RString r_AppDomainManagerAssembly;
+		public virtual RSystem.RString RAppDomainManagerAssembly
 		{
 			get
 			{
@@ -608,8 +608,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.String AppDomainManagerType
 		/// </summary>
-		protected RProperty r_AppDomainManagerType;
-		public virtual RProperty RAppDomainManagerType
+		protected RSystem.RString r_AppDomainManagerType;
+		public virtual RSystem.RString RAppDomainManagerType
 		{
 			get
 			{
@@ -625,8 +625,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.String[] PartialTrustVisibleAssemblies
 		/// </summary>
-		protected RPropertyArray<RProperty> r_PartialTrustVisibleAssemblies;
-		public virtual RPropertyArray<RProperty> RPartialTrustVisibleAssemblies
+		protected RPropertyArray<RSystem.RString> r_PartialTrustVisibleAssemblies;
+		public virtual RPropertyArray<RSystem.RString> RPartialTrustVisibleAssemblies
 		{
 			get
 			{
@@ -642,8 +642,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.String PrivateBinPath
 		/// </summary>
-		protected RProperty r_PrivateBinPath;
-		public virtual RProperty RPrivateBinPath
+		protected RSystem.RString r_PrivateBinPath;
+		public virtual RSystem.RString RPrivateBinPath
 		{
 			get
 			{
@@ -659,8 +659,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.String PrivateBinPathProbe
 		/// </summary>
-		protected RProperty r_PrivateBinPathProbe;
-		public virtual RProperty RPrivateBinPathProbe
+		protected RSystem.RString r_PrivateBinPathProbe;
+		public virtual RSystem.RString RPrivateBinPathProbe
 		{
 			get
 			{
@@ -676,8 +676,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.String ShadowCopyDirectories
 		/// </summary>
-		protected RProperty r_ShadowCopyDirectories;
-		public virtual RProperty RShadowCopyDirectories
+		protected RSystem.RString r_ShadowCopyDirectories;
+		public virtual RSystem.RString RShadowCopyDirectories
 		{
 			get
 			{
@@ -693,8 +693,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.String ShadowCopyFiles
 		/// </summary>
-		protected RProperty r_ShadowCopyFiles;
-		public virtual RProperty RShadowCopyFiles
+		protected RSystem.RString r_ShadowCopyFiles;
+		public virtual RSystem.RString RShadowCopyFiles
 		{
 			get
 			{
@@ -710,8 +710,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// Boolean DisallowBindingRedirects
 		/// </summary>
-		protected RProperty r_DisallowBindingRedirects;
-		public virtual RProperty RDisallowBindingRedirects
+		protected RSystem.RBoolean r_DisallowBindingRedirects;
+		public virtual RSystem.RBoolean RDisallowBindingRedirects
 		{
 			get
 			{
@@ -727,8 +727,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// Boolean DisallowCodeDownload
 		/// </summary>
-		protected RProperty r_DisallowCodeDownload;
-		public virtual RProperty RDisallowCodeDownload
+		protected RSystem.RBoolean r_DisallowCodeDownload;
+		public virtual RSystem.RBoolean RDisallowCodeDownload
 		{
 			get
 			{
@@ -744,8 +744,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.String TargetFrameworkName
 		/// </summary>
-		protected RProperty r_TargetFrameworkName;
-		public virtual RProperty RTargetFrameworkName
+		protected RSystem.RString r_TargetFrameworkName;
+		public virtual RSystem.RString RTargetFrameworkName
 		{
 			get
 			{
@@ -795,8 +795,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.String[] AppDomainInitializerArguments
 		/// </summary>
-		protected RPropertyArray<RProperty> r_AppDomainInitializerArguments;
-		public virtual RPropertyArray<RProperty> RAppDomainInitializerArguments
+		protected RPropertyArray<RSystem.RString> r_AppDomainInitializerArguments;
+		public virtual RPropertyArray<RSystem.RString> RAppDomainInitializerArguments
 		{
 			get
 			{
@@ -829,8 +829,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// Boolean DisallowApplicationBaseProbing
 		/// </summary>
-		protected RProperty r_DisallowApplicationBaseProbing;
-		public virtual RProperty RDisallowApplicationBaseProbing
+		protected RSystem.RBoolean r_DisallowApplicationBaseProbing;
+		public virtual RSystem.RBoolean RDisallowApplicationBaseProbing
 		{
 			get
 			{
@@ -846,8 +846,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// Boolean SandboxInterop
 		/// </summary>
-		protected RProperty r_SandboxInterop;
-		public virtual RProperty RSandboxInterop
+		protected RSystem.RBoolean r_SandboxInterop;
+		public virtual RSystem.RBoolean RSandboxInterop
 		{
 			get
 			{

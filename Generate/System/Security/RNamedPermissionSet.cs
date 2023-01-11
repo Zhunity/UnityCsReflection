@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
 		/// <summary>
 		/// System.String name
 		/// </summary>
-		protected RField r_name;
-		public virtual RField Rname
+		protected RSystem.RString r_name;
+		public virtual RSystem.RString Rname
 		{
 			get
 			{
@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
 		/// <summary>
 		/// System.String description
 		/// </summary>
-		protected RField r_description;
-		public virtual RField Rdescription
+		protected RSystem.RString r_description;
+		public virtual RSystem.RString Rdescription
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
 		/// <summary>
 		/// System.String Description
 		/// </summary>
-		protected RProperty r_Description;
-		public virtual RProperty RDescription
+		protected RSystem.RString r_Description;
+		public virtual RSystem.RString RDescription
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
 		/// <summary>
 		/// System.String Name
 		/// </summary>
-		protected RProperty r_Name;
-		public virtual RProperty RName
+		protected RSystem.RString r_Name;
+		public virtual RSystem.RString RName
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
 		/// <summary>
 		/// Int32 Count
 		/// </summary>
-		protected RProperty r_Count;
-		public virtual RProperty RCount
+		protected RSystem.RInt32 r_Count;
+		public virtual RSystem.RInt32 RCount
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
 		/// <summary>
 		/// Boolean IsSynchronized
 		/// </summary>
-		protected RProperty r_IsSynchronized;
-		public virtual RProperty RIsSynchronized
+		protected RSystem.RBoolean r_IsSynchronized;
+		public virtual RSystem.RBoolean RIsSynchronized
 		{
 			get
 			{
@@ -115,8 +115,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
 		/// <summary>
 		/// Boolean IsReadOnly
 		/// </summary>
-		protected RProperty r_IsReadOnly;
-		public virtual RProperty RIsReadOnly
+		protected RSystem.RBoolean r_IsReadOnly;
+		public virtual RSystem.RBoolean RIsReadOnly
 		{
 			get
 			{
@@ -149,8 +149,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
 		/// <summary>
 		/// Boolean DeclarativeSecurity
 		/// </summary>
-		protected RProperty r_DeclarativeSecurity;
-		public virtual RProperty RDeclarativeSecurity
+		protected RSystem.RBoolean r_DeclarativeSecurity;
+		public virtual RSystem.RBoolean RDeclarativeSecurity
 		{
 			get
 			{

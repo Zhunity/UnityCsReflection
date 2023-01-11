@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// Boolean IsCompleted
 		/// </summary>
-		protected RProperty r_IsCompleted;
-		public virtual RProperty RIsCompleted
+		protected RSystem.RBoolean r_IsCompleted;
+		public virtual RSystem.RBoolean RIsCompleted
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// Boolean CompletedSynchronously
 		/// </summary>
-		protected RProperty r_CompletedSynchronously;
-		public virtual RProperty RCompletedSynchronously
+		protected RSystem.RBoolean r_CompletedSynchronously;
+		public virtual RSystem.RBoolean RCompletedSynchronously
 		{
 			get
 			{

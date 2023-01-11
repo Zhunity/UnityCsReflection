@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.String name
 		/// </summary>
-		protected RField r_name;
-		public virtual RField Rname
+		protected RSystem.RString r_name;
+		public virtual RSystem.RString Rname
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Int32 startOffset
 		/// </summary>
-		protected RField r_startOffset;
-		public virtual RField RstartOffset
+		protected RSystem.RInt32 r_startOffset;
+		public virtual RSystem.RInt32 RstartOffset
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Int32 endOffset
 		/// </summary>
-		protected RField r_endOffset;
-		public virtual RField RendOffset
+		protected RSystem.RInt32 r_endOffset;
+		public virtual RSystem.RInt32 RendOffset
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Boolean is_pinned
 		/// </summary>
-		protected RField r_is_pinned;
-		public virtual RField Ris_pinned
+		protected RSystem.RBoolean r_is_pinned;
+		public virtual RSystem.RBoolean Ris_pinned
 		{
 			get
 			{
@@ -115,8 +115,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.UInt16 position
 		/// </summary>
-		protected RField r_position;
-		public virtual RField Rposition
+		protected RSystem.RUInt16 r_position;
+		public virtual RSystem.RUInt16 Rposition
 		{
 			get
 			{
@@ -149,8 +149,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// Boolean IsPinned
 		/// </summary>
-		protected RProperty r_IsPinned;
-		public virtual RProperty RIsPinned
+		protected RSystem.RBoolean r_IsPinned;
+		public virtual RSystem.RBoolean RIsPinned
 		{
 			get
 			{
@@ -166,8 +166,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// Int32 LocalIndex
 		/// </summary>
-		protected RProperty r_LocalIndex;
-		public virtual RProperty RLocalIndex
+		protected RSystem.RInt32 r_LocalIndex;
+		public virtual RSystem.RInt32 RLocalIndex
 		{
 			get
 			{
@@ -183,8 +183,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.String Name
 		/// </summary>
-		protected RProperty r_Name;
-		public virtual RProperty RName
+		protected RSystem.RString r_Name;
+		public virtual RSystem.RString RName
 		{
 			get
 			{
@@ -200,8 +200,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// Int32 StartOffset
 		/// </summary>
-		protected RProperty r_StartOffset;
-		public virtual RProperty RStartOffset
+		protected RSystem.RInt32 r_StartOffset;
+		public virtual RSystem.RInt32 RStartOffset
 		{
 			get
 			{
@@ -217,8 +217,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// Int32 EndOffset
 		/// </summary>
-		protected RProperty r_EndOffset;
-		public virtual RProperty REndOffset
+		protected RSystem.RInt32 r_EndOffset;
+		public virtual RSystem.RInt32 REndOffset
 		{
 			get
 			{

@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.String InternalName
 		/// </summary>
-		protected RProperty r_InternalName;
-		public virtual RProperty RInternalName
+		protected RSystem.RString r_InternalName;
+		public virtual RSystem.RString RInternalName
 		{
 			get
 			{

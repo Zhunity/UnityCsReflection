@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RHosting
 		/// <summary>
 		/// System.String[] _data
 		/// </summary>
-		protected RFieldArray<RField> r__data;
-		public virtual RFieldArray<RField> R_data
+		protected RFieldArray<RSystem.RString> r__data;
+		public virtual RFieldArray<RSystem.RString> R_data
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RHosting
 		/// <summary>
 		/// System.String[] ActivationData
 		/// </summary>
-		protected RPropertyArray<RProperty> r_ActivationData;
-		public virtual RPropertyArray<RProperty> RActivationData
+		protected RPropertyArray<RSystem.RString> r_ActivationData;
+		public virtual RPropertyArray<RSystem.RString> RActivationData
 		{
 			get
 			{

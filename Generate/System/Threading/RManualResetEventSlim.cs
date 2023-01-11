@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Int32 DEFAULT_SPIN_SP
 		/// </summary>
-		protected static RField r_DEFAULT_SPIN_SP;
-		public static RField RDEFAULT_SPIN_SP
+		protected static RSystem.RInt32 r_DEFAULT_SPIN_SP;
+		public static RSystem.RInt32 RDEFAULT_SPIN_SP
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Int32 m_combinedState
 		/// </summary>
-		protected RField r_m_combinedState;
-		public virtual RField Rm_combinedState
+		protected RSystem.RInt32 r_m_combinedState;
+		public virtual RSystem.RInt32 Rm_combinedState
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Int32 SignalledState_BitMask
 		/// </summary>
-		protected static RField r_SignalledState_BitMask;
-		public static RField RSignalledState_BitMask
+		protected static RSystem.RInt32 r_SignalledState_BitMask;
+		public static RSystem.RInt32 RSignalledState_BitMask
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Int32 SignalledState_ShiftCount
 		/// </summary>
-		protected static RField r_SignalledState_ShiftCount;
-		public static RField RSignalledState_ShiftCount
+		protected static RSystem.RInt32 r_SignalledState_ShiftCount;
+		public static RSystem.RInt32 RSignalledState_ShiftCount
 		{
 			get
 			{
@@ -115,8 +115,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Int32 Dispose_BitMask
 		/// </summary>
-		protected static RField r_Dispose_BitMask;
-		public static RField RDispose_BitMask
+		protected static RSystem.RInt32 r_Dispose_BitMask;
+		public static RSystem.RInt32 RDispose_BitMask
 		{
 			get
 			{
@@ -132,8 +132,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Int32 SpinCountState_BitMask
 		/// </summary>
-		protected static RField r_SpinCountState_BitMask;
-		public static RField RSpinCountState_BitMask
+		protected static RSystem.RInt32 r_SpinCountState_BitMask;
+		public static RSystem.RInt32 RSpinCountState_BitMask
 		{
 			get
 			{
@@ -149,8 +149,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Int32 SpinCountState_ShiftCount
 		/// </summary>
-		protected static RField r_SpinCountState_ShiftCount;
-		public static RField RSpinCountState_ShiftCount
+		protected static RSystem.RInt32 r_SpinCountState_ShiftCount;
+		public static RSystem.RInt32 RSpinCountState_ShiftCount
 		{
 			get
 			{
@@ -166,8 +166,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Int32 SpinCountState_MaxValue
 		/// </summary>
-		protected static RField r_SpinCountState_MaxValue;
-		public static RField RSpinCountState_MaxValue
+		protected static RSystem.RInt32 r_SpinCountState_MaxValue;
+		public static RSystem.RInt32 RSpinCountState_MaxValue
 		{
 			get
 			{
@@ -183,8 +183,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Int32 NumWaitersState_BitMask
 		/// </summary>
-		protected static RField r_NumWaitersState_BitMask;
-		public static RField RNumWaitersState_BitMask
+		protected static RSystem.RInt32 r_NumWaitersState_BitMask;
+		public static RSystem.RInt32 RNumWaitersState_BitMask
 		{
 			get
 			{
@@ -200,8 +200,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Int32 NumWaitersState_ShiftCount
 		/// </summary>
-		protected static RField r_NumWaitersState_ShiftCount;
-		public static RField RNumWaitersState_ShiftCount
+		protected static RSystem.RInt32 r_NumWaitersState_ShiftCount;
+		public static RSystem.RInt32 RNumWaitersState_ShiftCount
 		{
 			get
 			{
@@ -217,8 +217,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Int32 NumWaitersState_MaxValue
 		/// </summary>
-		protected static RField r_NumWaitersState_MaxValue;
-		public static RField RNumWaitersState_MaxValue
+		protected static RSystem.RInt32 r_NumWaitersState_MaxValue;
+		public static RSystem.RInt32 RNumWaitersState_MaxValue
 		{
 			get
 			{
@@ -268,8 +268,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// Boolean IsSet
 		/// </summary>
-		protected RProperty r_IsSet;
-		public virtual RProperty RIsSet
+		protected RSystem.RBoolean r_IsSet;
+		public virtual RSystem.RBoolean RIsSet
 		{
 			get
 			{
@@ -285,8 +285,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// Int32 SpinCount
 		/// </summary>
-		protected RProperty r_SpinCount;
-		public virtual RProperty RSpinCount
+		protected RSystem.RInt32 r_SpinCount;
+		public virtual RSystem.RInt32 RSpinCount
 		{
 			get
 			{
@@ -302,8 +302,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// Int32 Waiters
 		/// </summary>
-		protected RProperty r_Waiters;
-		public virtual RProperty RWaiters
+		protected RSystem.RInt32 r_Waiters;
+		public virtual RSystem.RInt32 RWaiters
 		{
 			get
 			{

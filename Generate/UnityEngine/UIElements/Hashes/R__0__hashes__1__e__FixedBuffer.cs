@@ -15,8 +15,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int32 FixedElementField
 		/// </summary>
-		protected RField r_FixedElementField;
-		public virtual RField RFixedElementField
+		protected RSystem.RInt32 r_FixedElementField;
+		public virtual RSystem.RInt32 RFixedElementField
 		{
 			get
 			{

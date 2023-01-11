@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
 		/// <summary>
 		/// Int32 ArgCount
 		/// </summary>
-		protected RProperty r_ArgCount;
-		public virtual RProperty RArgCount
+		protected RSystem.RInt32 r_ArgCount;
+		public virtual RSystem.RInt32 RArgCount
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
 		/// <summary>
 		/// Boolean HasVarArgs
 		/// </summary>
-		protected RProperty r_HasVarArgs;
-		public virtual RProperty RHasVarArgs
+		protected RSystem.RBoolean r_HasVarArgs;
+		public virtual RSystem.RBoolean RHasVarArgs
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
 		/// <summary>
 		/// System.String MethodName
 		/// </summary>
-		protected RProperty r_MethodName;
-		public virtual RProperty RMethodName
+		protected RSystem.RString r_MethodName;
+		public virtual RSystem.RString RMethodName
 		{
 			get
 			{
@@ -132,8 +132,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
 		/// <summary>
 		/// System.String TypeName
 		/// </summary>
-		protected RProperty r_TypeName;
-		public virtual RProperty RTypeName
+		protected RSystem.RString r_TypeName;
+		public virtual RSystem.RString RTypeName
 		{
 			get
 			{
@@ -149,8 +149,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
 		/// <summary>
 		/// System.String Uri
 		/// </summary>
-		protected RProperty r_Uri;
-		public virtual RProperty RUri
+		protected RSystem.RString r_Uri;
+		public virtual RSystem.RString RUri
 		{
 			get
 			{

@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Boolean <CaseInsensitive>k__BackingField
 		/// </summary>
-		protected RField r___0__CaseInsensitive__1__k__BackingField;
-		public virtual RField R__0__CaseInsensitive__1__k__BackingField
+		protected RSystem.RBoolean r___0__CaseInsensitive__1__k__BackingField;
+		public virtual RSystem.RBoolean R__0__CaseInsensitive__1__k__BackingField
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.String <Prefix>k__BackingField
 		/// </summary>
-		protected RField r___0__Prefix__1__k__BackingField;
-		public virtual RField R__0__Prefix__1__k__BackingField
+		protected RSystem.RString r___0__Prefix__1__k__BackingField;
+		public virtual RSystem.RString R__0__Prefix__1__k__BackingField
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// Boolean CaseInsensitive
 		/// </summary>
-		protected RProperty r_CaseInsensitive;
-		public virtual RProperty RCaseInsensitive
+		protected RSystem.RBoolean r_CaseInsensitive;
+		public virtual RSystem.RBoolean RCaseInsensitive
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.String Prefix
 		/// </summary>
-		protected RProperty r_Prefix;
-		public virtual RProperty RPrefix
+		protected RSystem.RString r_Prefix;
+		public virtual RSystem.RString RPrefix
 		{
 			get
 			{

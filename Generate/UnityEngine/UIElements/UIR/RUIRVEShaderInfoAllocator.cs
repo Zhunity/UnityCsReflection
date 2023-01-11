@@ -115,8 +115,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Boolean m_StorageReallyCreated
 		/// </summary>
-		protected RField r_m_StorageReallyCreated;
-		public virtual RField Rm_StorageReallyCreated
+		protected RSystem.RBoolean r_m_StorageReallyCreated;
+		public virtual RSystem.RBoolean Rm_StorageReallyCreated
 		{
 			get
 			{
@@ -132,8 +132,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Boolean m_VertexTexturingEnabled
 		/// </summary>
-		protected RField r_m_VertexTexturingEnabled;
-		public virtual RField Rm_VertexTexturingEnabled
+		protected RSystem.RBoolean r_m_VertexTexturingEnabled;
+		public virtual RSystem.RBoolean Rm_VertexTexturingEnabled
 		{
 			get
 			{
@@ -149,8 +149,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// Unity.Collections.NativeArray`1[UnityEngine.UIElements.UIR.Transform3x4] m_Transforms
 		/// </summary>
-		protected RField r_m_Transforms;
-		public virtual RField Rm_Transforms
+		protected RUnity.RCollections.RNativeArray<RUnityEngine.RUIElements.RUIR.RTransform3x4> r_m_Transforms;
+		public virtual RUnity.RCollections.RNativeArray<RUnityEngine.RUIElements.RUIR.RTransform3x4> Rm_Transforms
 		{
 			get
 			{
@@ -166,8 +166,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// Unity.Collections.NativeArray`1[UnityEngine.Vector4] m_ClipRects
 		/// </summary>
-		protected RField r_m_ClipRects;
-		public virtual RField Rm_ClipRects
+		protected RUnity.RCollections.RNativeArray<RUnityEngine.RVector4> r_m_ClipRects;
+		public virtual RUnity.RCollections.RNativeArray<RUnityEngine.RVector4> Rm_ClipRects
 		{
 			get
 			{
@@ -489,8 +489,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// Int32 pageWidth
 		/// </summary>
-		protected static RProperty r_pageWidth;
-		public static RProperty RpageWidth
+		protected static RSystem.RInt32 r_pageWidth;
+		public static RSystem.RInt32 RpageWidth
 		{
 			get
 			{
@@ -506,8 +506,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// Int32 pageHeight
 		/// </summary>
-		protected static RProperty r_pageHeight;
-		public static RProperty RpageHeight
+		protected static RSystem.RInt32 r_pageHeight;
+		public static RSystem.RInt32 RpageHeight
 		{
 			get
 			{
@@ -523,8 +523,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// Unity.Collections.NativeSlice`1[UnityEngine.UIElements.UIR.Transform3x4] transformConstants
 		/// </summary>
-		protected RProperty r_transformConstants;
-		public virtual RProperty RtransformConstants
+		protected RUnity.RCollections.RNativeSlice<RUnityEngine.RUIElements.RUIR.RTransform3x4> r_transformConstants;
+		public virtual RUnity.RCollections.RNativeSlice<RUnityEngine.RUIElements.RUIR.RTransform3x4> RtransformConstants
 		{
 			get
 			{
@@ -540,8 +540,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// Unity.Collections.NativeSlice`1[UnityEngine.Vector4] clipRectConstants
 		/// </summary>
-		protected RProperty r_clipRectConstants;
-		public virtual RProperty RclipRectConstants
+		protected RUnity.RCollections.RNativeSlice<RUnityEngine.RVector4> r_clipRectConstants;
+		public virtual RUnity.RCollections.RNativeSlice<RUnityEngine.RVector4> RclipRectConstants
 		{
 			get
 			{
@@ -574,8 +574,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// Boolean internalAtlasCreated
 		/// </summary>
-		protected RProperty r_internalAtlasCreated;
-		public virtual RProperty RinternalAtlasCreated
+		protected RSystem.RBoolean r_internalAtlasCreated;
+		public virtual RSystem.RBoolean RinternalAtlasCreated
 		{
 			get
 			{

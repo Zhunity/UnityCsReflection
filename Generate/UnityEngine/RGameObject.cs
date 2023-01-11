@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 layer
 		/// </summary>
-		protected RProperty r_layer;
-		public virtual RProperty Rlayer
+		protected RSystem.RInt32 r_layer;
+		public virtual RSystem.RInt32 Rlayer
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Boolean active
 		/// </summary>
-		protected RProperty r_active;
-		public virtual RProperty Ractive
+		protected RSystem.RBoolean r_active;
+		public virtual RSystem.RBoolean Ractive
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Boolean activeSelf
 		/// </summary>
-		protected RProperty r_activeSelf;
-		public virtual RProperty RactiveSelf
+		protected RSystem.RBoolean r_activeSelf;
+		public virtual RSystem.RBoolean RactiveSelf
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Boolean activeInHierarchy
 		/// </summary>
-		protected RProperty r_activeInHierarchy;
-		public virtual RProperty RactiveInHierarchy
+		protected RSystem.RBoolean r_activeInHierarchy;
+		public virtual RSystem.RBoolean RactiveInHierarchy
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Boolean isStatic
 		/// </summary>
-		protected RProperty r_isStatic;
-		public virtual RProperty RisStatic
+		protected RSystem.RBoolean r_isStatic;
+		public virtual RSystem.RBoolean RisStatic
 		{
 			get
 			{
@@ -115,8 +115,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Boolean isStaticBatchable
 		/// </summary>
-		protected RProperty r_isStaticBatchable;
-		public virtual RProperty RisStaticBatchable
+		protected RSystem.RBoolean r_isStaticBatchable;
+		public virtual RSystem.RBoolean RisStaticBatchable
 		{
 			get
 			{
@@ -132,8 +132,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.String tag
 		/// </summary>
-		protected RProperty r_tag;
-		public virtual RProperty Rtag
+		protected RSystem.RString r_tag;
+		public virtual RSystem.RString Rtag
 		{
 			get
 			{
@@ -166,8 +166,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UInt64 sceneCullingMask
 		/// </summary>
-		protected RProperty r_sceneCullingMask;
-		public virtual RProperty RsceneCullingMask
+		protected RSystem.RUInt64 r_sceneCullingMask;
+		public virtual RSystem.RUInt64 RsceneCullingMask
 		{
 			get
 			{
@@ -421,8 +421,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.String name
 		/// </summary>
-		protected RProperty r_name;
-		public virtual RProperty Rname
+		protected RSystem.RString r_name;
+		public virtual RSystem.RString Rname
 		{
 			get
 			{

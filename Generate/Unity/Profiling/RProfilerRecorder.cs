@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
 		/// <summary>
 		/// System.UInt64 handle
 		/// </summary>
-		protected RField r_handle;
-		public virtual RField Rhandle
+		protected RSystem.RUInt64 r_handle;
+		public virtual RSystem.RUInt64 Rhandle
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
 		/// <summary>
 		/// Boolean Valid
 		/// </summary>
-		protected RProperty r_Valid;
-		public virtual RProperty RValid
+		protected RSystem.RBoolean r_Valid;
+		public virtual RSystem.RBoolean RValid
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
 		/// <summary>
 		/// Int64 CurrentValue
 		/// </summary>
-		protected RProperty r_CurrentValue;
-		public virtual RProperty RCurrentValue
+		protected RSystem.RInt64 r_CurrentValue;
+		public virtual RSystem.RInt64 RCurrentValue
 		{
 			get
 			{
@@ -115,8 +115,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
 		/// <summary>
 		/// Double CurrentValueAsDouble
 		/// </summary>
-		protected RProperty r_CurrentValueAsDouble;
-		public virtual RProperty RCurrentValueAsDouble
+		protected RSystem.RDouble r_CurrentValueAsDouble;
+		public virtual RSystem.RDouble RCurrentValueAsDouble
 		{
 			get
 			{
@@ -132,8 +132,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
 		/// <summary>
 		/// Int64 LastValue
 		/// </summary>
-		protected RProperty r_LastValue;
-		public virtual RProperty RLastValue
+		protected RSystem.RInt64 r_LastValue;
+		public virtual RSystem.RInt64 RLastValue
 		{
 			get
 			{
@@ -149,8 +149,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
 		/// <summary>
 		/// Double LastValueAsDouble
 		/// </summary>
-		protected RProperty r_LastValueAsDouble;
-		public virtual RProperty RLastValueAsDouble
+		protected RSystem.RDouble r_LastValueAsDouble;
+		public virtual RSystem.RDouble RLastValueAsDouble
 		{
 			get
 			{
@@ -166,8 +166,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
 		/// <summary>
 		/// Int32 Capacity
 		/// </summary>
-		protected RProperty r_Capacity;
-		public virtual RProperty RCapacity
+		protected RSystem.RInt32 r_Capacity;
+		public virtual RSystem.RInt32 RCapacity
 		{
 			get
 			{
@@ -183,8 +183,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
 		/// <summary>
 		/// Int32 Count
 		/// </summary>
-		protected RProperty r_Count;
-		public virtual RProperty RCount
+		protected RSystem.RInt32 r_Count;
+		public virtual RSystem.RInt32 RCount
 		{
 			get
 			{
@@ -200,8 +200,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
 		/// <summary>
 		/// Boolean IsRunning
 		/// </summary>
-		protected RProperty r_IsRunning;
-		public virtual RProperty RIsRunning
+		protected RSystem.RBoolean r_IsRunning;
+		public virtual RSystem.RBoolean RIsRunning
 		{
 			get
 			{
@@ -217,8 +217,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
 		/// <summary>
 		/// Boolean WrappedAround
 		/// </summary>
-		protected RProperty r_WrappedAround;
-		public virtual RProperty RWrappedAround
+		protected RSystem.RBoolean r_WrappedAround;
+		public virtual RSystem.RBoolean RWrappedAround
 		{
 			get
 			{

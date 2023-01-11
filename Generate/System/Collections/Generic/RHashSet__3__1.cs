@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
 		/// <summary>
 		/// System.Int32 Lower31BitMask
 		/// </summary>
-		protected static RField r_Lower31BitMask;
-		public static RField RLower31BitMask
+		protected static RSystem.RInt32 r_Lower31BitMask;
+		public static RSystem.RInt32 RLower31BitMask
 		{
 			get
 			{
@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
 		/// <summary>
 		/// System.Int32 StackAllocThreshold
 		/// </summary>
-		protected static RField r_StackAllocThreshold;
-		public static RField RStackAllocThreshold
+		protected static RSystem.RInt32 r_StackAllocThreshold;
+		public static RSystem.RInt32 RStackAllocThreshold
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
 		/// <summary>
 		/// System.Int32 ShrinkThreshold
 		/// </summary>
-		protected static RField r_ShrinkThreshold;
-		public static RField RShrinkThreshold
+		protected static RSystem.RInt32 r_ShrinkThreshold;
+		public static RSystem.RInt32 RShrinkThreshold
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
 		/// <summary>
 		/// System.String CapacityName
 		/// </summary>
-		protected static RField r_CapacityName;
-		public static RField RCapacityName
+		protected static RSystem.RString r_CapacityName;
+		public static RSystem.RString RCapacityName
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
 		/// <summary>
 		/// System.String ElementsName
 		/// </summary>
-		protected static RField r_ElementsName;
-		public static RField RElementsName
+		protected static RSystem.RString r_ElementsName;
+		public static RSystem.RString RElementsName
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
 		/// <summary>
 		/// System.String ComparerName
 		/// </summary>
-		protected static RField r_ComparerName;
-		public static RField RComparerName
+		protected static RSystem.RString r_ComparerName;
+		public static RSystem.RString RComparerName
 		{
 			get
 			{
@@ -115,8 +115,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
 		/// <summary>
 		/// System.String VersionName
 		/// </summary>
-		protected static RField r_VersionName;
-		public static RField RVersionName
+		protected static RSystem.RString r_VersionName;
+		public static RSystem.RString RVersionName
 		{
 			get
 			{
@@ -132,8 +132,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
 		/// <summary>
 		/// System.Int32[] _buckets
 		/// </summary>
-		protected RFieldArray<RField> r__buckets;
-		public virtual RFieldArray<RField> R_buckets
+		protected RFieldArray<RSystem.RInt32> r__buckets;
+		public virtual RFieldArray<RSystem.RInt32> R_buckets
 		{
 			get
 			{
@@ -166,8 +166,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
 		/// <summary>
 		/// System.Int32 _count
 		/// </summary>
-		protected RField r__count;
-		public virtual RField R_count
+		protected RSystem.RInt32 r__count;
+		public virtual RSystem.RInt32 R_count
 		{
 			get
 			{
@@ -183,8 +183,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
 		/// <summary>
 		/// System.Int32 _lastIndex
 		/// </summary>
-		protected RField r__lastIndex;
-		public virtual RField R_lastIndex
+		protected RSystem.RInt32 r__lastIndex;
+		public virtual RSystem.RInt32 R_lastIndex
 		{
 			get
 			{
@@ -200,8 +200,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
 		/// <summary>
 		/// System.Int32 _freeList
 		/// </summary>
-		protected RField r__freeList;
-		public virtual RField R_freeList
+		protected RSystem.RInt32 r__freeList;
+		public virtual RSystem.RInt32 R_freeList
 		{
 			get
 			{
@@ -234,8 +234,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
 		/// <summary>
 		/// System.Int32 _version
 		/// </summary>
-		protected RField r__version;
-		public virtual RField R_version
+		protected RSystem.RInt32 r__version;
+		public virtual RSystem.RInt32 R_version
 		{
 			get
 			{
@@ -268,8 +268,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
 		/// <summary>
 		/// Int32 Count
 		/// </summary>
-		protected RProperty r_Count;
-		public virtual RProperty RCount
+		protected RSystem.RInt32 r_Count;
+		public virtual RSystem.RInt32 RCount
 		{
 			get
 			{
@@ -285,8 +285,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
 		/// <summary>
 		/// Boolean System.Collections.Generic.ICollection<T>.IsReadOnly
 		/// </summary>
-		protected RProperty r_System__2__Collections__2__Generic__2__ICollection__0__T__1____2__IsReadOnly;
-		public virtual RProperty RSystem__2__Collections__2__Generic__2__ICollection__0__T__1____2__IsReadOnly
+		protected RSystem.RBoolean r_System__2__Collections__2__Generic__2__ICollection__0__T__1____2__IsReadOnly;
+		public virtual RSystem.RBoolean RSystem__2__Collections__2__Generic__2__ICollection__0__T__1____2__IsReadOnly
 		{
 			get
 			{

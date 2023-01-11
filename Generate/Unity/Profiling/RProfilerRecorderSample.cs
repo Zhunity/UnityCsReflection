@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
 		/// <summary>
 		/// System.Int64 value
 		/// </summary>
-		protected RField r_value;
-		public virtual RField Rvalue
+		protected RSystem.RInt64 r_value;
+		public virtual RSystem.RInt64 Rvalue
 		{
 			get
 			{
@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
 		/// <summary>
 		/// System.Int64 count
 		/// </summary>
-		protected RField r_count;
-		public virtual RField Rcount
+		protected RSystem.RInt64 r_count;
+		public virtual RSystem.RInt64 Rcount
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
 		/// <summary>
 		/// System.Int64 refValue
 		/// </summary>
-		protected RField r_refValue;
-		public virtual RField RrefValue
+		protected RSystem.RInt64 r_refValue;
+		public virtual RSystem.RInt64 RrefValue
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
 		/// <summary>
 		/// Int64 Value
 		/// </summary>
-		protected RProperty r_Value;
-		public virtual RProperty RValue
+		protected RSystem.RInt64 r_Value;
+		public virtual RSystem.RInt64 RValue
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling
 		/// <summary>
 		/// Int64 Count
 		/// </summary>
-		protected RProperty r_Count;
-		public virtual RProperty RCount
+		protected RSystem.RInt64 r_Count;
+		public virtual RSystem.RInt64 RCount
 		{
 			get
 			{

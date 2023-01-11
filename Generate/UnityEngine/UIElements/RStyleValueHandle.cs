@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int32 valueIndex
 		/// </summary>
-		protected RField r_valueIndex;
-		public virtual RField RvalueIndex
+		protected RSystem.RInt32 r_valueIndex;
+		public virtual RSystem.RInt32 RvalueIndex
 		{
 			get
 			{

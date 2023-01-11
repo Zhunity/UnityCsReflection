@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.UInt32 triangleCount
 		/// </summary>
-		protected RField r_triangleCount;
-		public virtual RField RtriangleCount
+		protected RSystem.RUInt32 r_triangleCount;
+		public virtual RSystem.RUInt32 RtriangleCount
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.UInt32 allocTime
 		/// </summary>
-		protected RField r_allocTime;
-		public virtual RField RallocTime
+		protected RSystem.RUInt32 r_allocTime;
+		public virtual RSystem.RUInt32 RallocTime
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.UInt32 updateAllocID
 		/// </summary>
-		protected RField r_updateAllocID;
-		public virtual RField RupdateAllocID
+		protected RSystem.RUInt32 r_updateAllocID;
+		public virtual RSystem.RUInt32 RupdateAllocID
 		{
 			get
 			{

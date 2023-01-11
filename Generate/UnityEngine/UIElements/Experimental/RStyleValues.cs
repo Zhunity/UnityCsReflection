@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
 		/// <summary>
 		/// Single top
 		/// </summary>
-		protected RProperty r_top;
-		public virtual RProperty Rtop
+		protected RSystem.RSingle r_top;
+		public virtual RSystem.RSingle Rtop
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
 		/// <summary>
 		/// Single left
 		/// </summary>
-		protected RProperty r_left;
-		public virtual RProperty Rleft
+		protected RSystem.RSingle r_left;
+		public virtual RSystem.RSingle Rleft
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
 		/// <summary>
 		/// Single width
 		/// </summary>
-		protected RProperty r_width;
-		public virtual RProperty Rwidth
+		protected RSystem.RSingle r_width;
+		public virtual RSystem.RSingle Rwidth
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
 		/// <summary>
 		/// Single height
 		/// </summary>
-		protected RProperty r_height;
-		public virtual RProperty Rheight
+		protected RSystem.RSingle r_height;
+		public virtual RSystem.RSingle Rheight
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
 		/// <summary>
 		/// Single right
 		/// </summary>
-		protected RProperty r_right;
-		public virtual RProperty Rright
+		protected RSystem.RSingle r_right;
+		public virtual RSystem.RSingle Rright
 		{
 			get
 			{
@@ -115,8 +115,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
 		/// <summary>
 		/// Single bottom
 		/// </summary>
-		protected RProperty r_bottom;
-		public virtual RProperty Rbottom
+		protected RSystem.RSingle r_bottom;
+		public virtual RSystem.RSingle Rbottom
 		{
 			get
 			{
@@ -200,8 +200,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
 		/// <summary>
 		/// Single marginLeft
 		/// </summary>
-		protected RProperty r_marginLeft;
-		public virtual RProperty RmarginLeft
+		protected RSystem.RSingle r_marginLeft;
+		public virtual RSystem.RSingle RmarginLeft
 		{
 			get
 			{
@@ -217,8 +217,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
 		/// <summary>
 		/// Single marginTop
 		/// </summary>
-		protected RProperty r_marginTop;
-		public virtual RProperty RmarginTop
+		protected RSystem.RSingle r_marginTop;
+		public virtual RSystem.RSingle RmarginTop
 		{
 			get
 			{
@@ -234,8 +234,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
 		/// <summary>
 		/// Single marginRight
 		/// </summary>
-		protected RProperty r_marginRight;
-		public virtual RProperty RmarginRight
+		protected RSystem.RSingle r_marginRight;
+		public virtual RSystem.RSingle RmarginRight
 		{
 			get
 			{
@@ -251,8 +251,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
 		/// <summary>
 		/// Single marginBottom
 		/// </summary>
-		protected RProperty r_marginBottom;
-		public virtual RProperty RmarginBottom
+		protected RSystem.RSingle r_marginBottom;
+		public virtual RSystem.RSingle RmarginBottom
 		{
 			get
 			{
@@ -268,8 +268,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
 		/// <summary>
 		/// Single paddingLeft
 		/// </summary>
-		protected RProperty r_paddingLeft;
-		public virtual RProperty RpaddingLeft
+		protected RSystem.RSingle r_paddingLeft;
+		public virtual RSystem.RSingle RpaddingLeft
 		{
 			get
 			{
@@ -285,8 +285,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
 		/// <summary>
 		/// Single paddingTop
 		/// </summary>
-		protected RProperty r_paddingTop;
-		public virtual RProperty RpaddingTop
+		protected RSystem.RSingle r_paddingTop;
+		public virtual RSystem.RSingle RpaddingTop
 		{
 			get
 			{
@@ -302,8 +302,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
 		/// <summary>
 		/// Single paddingRight
 		/// </summary>
-		protected RProperty r_paddingRight;
-		public virtual RProperty RpaddingRight
+		protected RSystem.RSingle r_paddingRight;
+		public virtual RSystem.RSingle RpaddingRight
 		{
 			get
 			{
@@ -319,8 +319,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
 		/// <summary>
 		/// Single paddingBottom
 		/// </summary>
-		protected RProperty r_paddingBottom;
-		public virtual RProperty RpaddingBottom
+		protected RSystem.RSingle r_paddingBottom;
+		public virtual RSystem.RSingle RpaddingBottom
 		{
 			get
 			{
@@ -336,8 +336,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
 		/// <summary>
 		/// Single borderLeftWidth
 		/// </summary>
-		protected RProperty r_borderLeftWidth;
-		public virtual RProperty RborderLeftWidth
+		protected RSystem.RSingle r_borderLeftWidth;
+		public virtual RSystem.RSingle RborderLeftWidth
 		{
 			get
 			{
@@ -353,8 +353,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
 		/// <summary>
 		/// Single borderRightWidth
 		/// </summary>
-		protected RProperty r_borderRightWidth;
-		public virtual RProperty RborderRightWidth
+		protected RSystem.RSingle r_borderRightWidth;
+		public virtual RSystem.RSingle RborderRightWidth
 		{
 			get
 			{
@@ -370,8 +370,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
 		/// <summary>
 		/// Single borderTopWidth
 		/// </summary>
-		protected RProperty r_borderTopWidth;
-		public virtual RProperty RborderTopWidth
+		protected RSystem.RSingle r_borderTopWidth;
+		public virtual RSystem.RSingle RborderTopWidth
 		{
 			get
 			{
@@ -387,8 +387,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
 		/// <summary>
 		/// Single borderBottomWidth
 		/// </summary>
-		protected RProperty r_borderBottomWidth;
-		public virtual RProperty RborderBottomWidth
+		protected RSystem.RSingle r_borderBottomWidth;
+		public virtual RSystem.RSingle RborderBottomWidth
 		{
 			get
 			{
@@ -404,8 +404,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
 		/// <summary>
 		/// Single borderTopLeftRadius
 		/// </summary>
-		protected RProperty r_borderTopLeftRadius;
-		public virtual RProperty RborderTopLeftRadius
+		protected RSystem.RSingle r_borderTopLeftRadius;
+		public virtual RSystem.RSingle RborderTopLeftRadius
 		{
 			get
 			{
@@ -421,8 +421,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
 		/// <summary>
 		/// Single borderTopRightRadius
 		/// </summary>
-		protected RProperty r_borderTopRightRadius;
-		public virtual RProperty RborderTopRightRadius
+		protected RSystem.RSingle r_borderTopRightRadius;
+		public virtual RSystem.RSingle RborderTopRightRadius
 		{
 			get
 			{
@@ -438,8 +438,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
 		/// <summary>
 		/// Single borderBottomLeftRadius
 		/// </summary>
-		protected RProperty r_borderBottomLeftRadius;
-		public virtual RProperty RborderBottomLeftRadius
+		protected RSystem.RSingle r_borderBottomLeftRadius;
+		public virtual RSystem.RSingle RborderBottomLeftRadius
 		{
 			get
 			{
@@ -455,8 +455,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
 		/// <summary>
 		/// Single borderBottomRightRadius
 		/// </summary>
-		protected RProperty r_borderBottomRightRadius;
-		public virtual RProperty RborderBottomRightRadius
+		protected RSystem.RSingle r_borderBottomRightRadius;
+		public virtual RSystem.RSingle RborderBottomRightRadius
 		{
 			get
 			{
@@ -472,8 +472,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
 		/// <summary>
 		/// Single opacity
 		/// </summary>
-		protected RProperty r_opacity;
-		public virtual RProperty Ropacity
+		protected RSystem.RSingle r_opacity;
+		public virtual RSystem.RSingle Ropacity
 		{
 			get
 			{
@@ -489,8 +489,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
 		/// <summary>
 		/// Single flexGrow
 		/// </summary>
-		protected RProperty r_flexGrow;
-		public virtual RProperty RflexGrow
+		protected RSystem.RSingle r_flexGrow;
+		public virtual RSystem.RSingle RflexGrow
 		{
 			get
 			{
@@ -506,8 +506,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
 		/// <summary>
 		/// Single flexShrink
 		/// </summary>
-		protected RProperty r_flexShrink;
-		public virtual RProperty RflexShrink
+		protected RSystem.RSingle r_flexShrink;
+		public virtual RSystem.RSingle RflexShrink
 		{
 			get
 			{

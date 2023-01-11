@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.IntPtr m_Ptr
 		/// </summary>
-		protected RField r_m_Ptr;
-		public virtual RField Rm_Ptr
+		protected RSystem.RIntPtr r_m_Ptr;
+		public virtual RSystem.RIntPtr Rm_Ptr
 		{
 			get
 			{
@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Int32 m_Version
 		/// </summary>
-		protected RField r_m_Version;
-		public virtual RField Rm_Version
+		protected RSystem.RInt32 r_m_Version;
+		public virtual RSystem.RInt32 Rm_Version
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// Boolean done
 		/// </summary>
-		protected RProperty r_done;
-		public virtual RProperty Rdone
+		protected RSystem.RBoolean r_done;
+		public virtual RSystem.RBoolean Rdone
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// Boolean hasError
 		/// </summary>
-		protected RProperty r_hasError;
-		public virtual RProperty RhasError
+		protected RSystem.RBoolean r_hasError;
+		public virtual RSystem.RBoolean RhasError
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// Int32 layerCount
 		/// </summary>
-		protected RProperty r_layerCount;
-		public virtual RProperty RlayerCount
+		protected RSystem.RInt32 r_layerCount;
+		public virtual RSystem.RInt32 RlayerCount
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// Int32 layerDataSize
 		/// </summary>
-		protected RProperty r_layerDataSize;
-		public virtual RProperty RlayerDataSize
+		protected RSystem.RInt32 r_layerDataSize;
+		public virtual RSystem.RInt32 RlayerDataSize
 		{
 			get
 			{
@@ -115,8 +115,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// Int32 width
 		/// </summary>
-		protected RProperty r_width;
-		public virtual RProperty Rwidth
+		protected RSystem.RInt32 r_width;
+		public virtual RSystem.RInt32 Rwidth
 		{
 			get
 			{
@@ -132,8 +132,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// Int32 height
 		/// </summary>
-		protected RProperty r_height;
-		public virtual RProperty Rheight
+		protected RSystem.RInt32 r_height;
+		public virtual RSystem.RInt32 Rheight
 		{
 			get
 			{
@@ -149,8 +149,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// Int32 depth
 		/// </summary>
-		protected RProperty r_depth;
-		public virtual RProperty Rdepth
+		protected RSystem.RInt32 r_depth;
+		public virtual RSystem.RInt32 Rdepth
 		{
 			get
 			{
@@ -764,14 +764,14 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual System.Object GetData<T>(System.Int32 @layer) where T : struct
+        public virtual RUnity.RCollections.RNativeArray<RType> GetData<T>(System.Int32 @layer) where T : struct
         {
 
             var ___genericsType = new Type[] {typeof(T)};
             var ___parameters = new object[]{@layer};
             var ___result = RGetData_GT_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RUnity.RCollections.RNativeArray<RType>(___result);
         }
 
 

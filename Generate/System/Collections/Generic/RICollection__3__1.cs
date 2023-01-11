@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
 		/// <summary>
 		/// Int32 Count
 		/// </summary>
-		protected RProperty r_Count;
-		public virtual RProperty RCount
+		protected RSystem.RInt32 r_Count;
+		public virtual RSystem.RInt32 RCount
 		{
 			get
 			{
@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
 		/// <summary>
 		/// Boolean IsReadOnly
 		/// </summary>
-		protected RProperty r_IsReadOnly;
-		public virtual RProperty RIsReadOnly
+		protected RSystem.RBoolean r_IsReadOnly;
+		public virtual RSystem.RBoolean RIsReadOnly
 		{
 			get
 			{

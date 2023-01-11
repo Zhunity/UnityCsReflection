@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// System.String m_Id
 		/// </summary>
-		protected RField r_m_Id;
-		public virtual RField Rm_Id
+		protected RSystem.RString r_m_Id;
+		public virtual RSystem.RString Rm_Id
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// System.String m_UssName
 		/// </summary>
-		protected RField r_m_UssName;
-		public virtual RField Rm_UssName
+		protected RSystem.RString r_m_UssName;
+		public virtual RSystem.RString Rm_UssName
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// System.Boolean m_DefaultDisplay
 		/// </summary>
-		protected RField r_m_DefaultDisplay;
-		public virtual RField Rm_DefaultDisplay
+		protected RSystem.RBoolean r_m_DefaultDisplay;
+		public virtual RSystem.RBoolean Rm_DefaultDisplay
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// System.String m_DisplayName
 		/// </summary>
-		protected RField r_m_DisplayName;
-		public virtual RField Rm_DisplayName
+		protected RSystem.RString r_m_DisplayName;
+		public virtual RSystem.RString Rm_DisplayName
 		{
 			get
 			{
@@ -132,8 +132,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// System.Int32 m_DefaultDockIndex
 		/// </summary>
-		protected RField r_m_DefaultDockIndex;
-		public virtual RField Rm_DefaultDockIndex
+		protected RSystem.RInt32 r_m_DefaultDockIndex;
+		public virtual RSystem.RInt32 Rm_DefaultDockIndex
 		{
 			get
 			{
@@ -183,8 +183,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// System.String id
 		/// </summary>
-		protected RProperty r_id;
-		public virtual RProperty Rid
+		protected RSystem.RString r_id;
+		public virtual RSystem.RString Rid
 		{
 			get
 			{
@@ -200,8 +200,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// System.String displayName
 		/// </summary>
-		protected RProperty r_displayName;
-		public virtual RProperty RdisplayName
+		protected RSystem.RString r_displayName;
+		public virtual RSystem.RString RdisplayName
 		{
 			get
 			{
@@ -217,8 +217,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// System.String ussName
 		/// </summary>
-		protected RProperty r_ussName;
-		public virtual RProperty RussName
+		protected RSystem.RString r_ussName;
+		public virtual RSystem.RString RussName
 		{
 			get
 			{
@@ -234,8 +234,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// Boolean defaultDisplay
 		/// </summary>
-		protected RProperty r_defaultDisplay;
-		public virtual RProperty RdefaultDisplay
+		protected RSystem.RBoolean r_defaultDisplay;
+		public virtual RSystem.RBoolean RdefaultDisplay
 		{
 			get
 			{
@@ -285,8 +285,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// Int32 defaultDockIndex
 		/// </summary>
-		protected RProperty r_defaultDockIndex;
-		public virtual RProperty RdefaultDockIndex
+		protected RSystem.RInt32 r_defaultDockIndex;
+		public virtual RSystem.RInt32 RdefaultDockIndex
 		{
 			get
 			{

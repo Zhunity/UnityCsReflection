@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.IntPtr method_ptr
 		/// </summary>
-		protected RField r_method_ptr;
-		public virtual RField Rmethod_ptr
+		protected RSystem.RIntPtr r_method_ptr;
+		public virtual RSystem.RIntPtr Rmethod_ptr
 		{
 			get
 			{
@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.IntPtr invoke_impl
 		/// </summary>
-		protected RField r_invoke_impl;
-		public virtual RField Rinvoke_impl
+		protected RSystem.RIntPtr r_invoke_impl;
+		public virtual RSystem.RIntPtr Rinvoke_impl
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.IntPtr method
 		/// </summary>
-		protected RField r_method;
-		public virtual RField Rmethod
+		protected RSystem.RIntPtr r_method;
+		public virtual RSystem.RIntPtr Rmethod
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.IntPtr delegate_trampoline
 		/// </summary>
-		protected RField r_delegate_trampoline;
-		public virtual RField Rdelegate_trampoline
+		protected RSystem.RIntPtr r_delegate_trampoline;
+		public virtual RSystem.RIntPtr Rdelegate_trampoline
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.IntPtr extra_arg
 		/// </summary>
-		protected RField r_extra_arg;
-		public virtual RField Rextra_arg
+		protected RSystem.RIntPtr r_extra_arg;
+		public virtual RSystem.RIntPtr Rextra_arg
 		{
 			get
 			{
@@ -115,8 +115,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.IntPtr method_code
 		/// </summary>
-		protected RField r_method_code;
-		public virtual RField Rmethod_code
+		protected RSystem.RIntPtr r_method_code;
+		public virtual RSystem.RIntPtr Rmethod_code
 		{
 			get
 			{
@@ -132,8 +132,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.IntPtr interp_method
 		/// </summary>
-		protected RField r_interp_method;
-		public virtual RField Rinterp_method
+		protected RSystem.RIntPtr r_interp_method;
+		public virtual RSystem.RIntPtr Rinterp_method
 		{
 			get
 			{
@@ -149,8 +149,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.IntPtr interp_invoke_impl
 		/// </summary>
-		protected RField r_interp_invoke_impl;
-		public virtual RField Rinterp_invoke_impl
+		protected RSystem.RIntPtr r_interp_invoke_impl;
+		public virtual RSystem.RIntPtr Rinterp_invoke_impl
 		{
 			get
 			{
@@ -217,8 +217,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Boolean method_is_virtual
 		/// </summary>
-		protected RField r_method_is_virtual;
-		public virtual RField Rmethod_is_virtual
+		protected RSystem.RBoolean r_method_is_virtual;
+		public virtual RSystem.RBoolean Rmethod_is_virtual
 		{
 			get
 			{

@@ -115,8 +115,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Boolean hasPainter2D
 		/// </summary>
-		protected RProperty r_hasPainter2D;
-		public virtual RProperty RhasPainter2D
+		protected RSystem.RBoolean r_hasPainter2D;
+		public virtual RSystem.RBoolean RhasPainter2D
 		{
 			get
 			{

@@ -11,6 +11,6 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RAddComponent
 	public partial class RComponentDropdownItem
 	{
 		// ComponentItem在AddComponentWindow显示的名字
-		public RProperty displayName => RdisplayName;
+		public RSystem.RString displayName => RdisplayName;
 	}
 }

@@ -15,8 +15,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Single FixedElementField
 		/// </summary>
-		protected RField r_FixedElementField;
-		public virtual RField RFixedElementField
+		protected RSystem.RSingle r_FixedElementField;
+		public virtual RSystem.RSingle RFixedElementField
 		{
 			get
 			{

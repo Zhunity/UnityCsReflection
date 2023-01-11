@@ -15,8 +15,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
 		/// <summary>
 		/// System.Int32 uniqueCount
 		/// </summary>
-		protected RField r_uniqueCount;
-		public virtual RField RuniqueCount
+		protected RSystem.RInt32 r_uniqueCount;
+		public virtual RSystem.RInt32 RuniqueCount
 		{
 			get
 			{
@@ -32,8 +32,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
 		/// <summary>
 		/// System.Int32 unfoundCount
 		/// </summary>
-		protected RField r_unfoundCount;
-		public virtual RField RunfoundCount
+		protected RSystem.RInt32 r_unfoundCount;
+		public virtual RSystem.RInt32 RunfoundCount
 		{
 			get
 			{

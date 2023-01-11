@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.REvents
 		/// <summary>
 		/// System.Boolean m_CallsDirty
 		/// </summary>
-		protected RField r_m_CallsDirty;
-		public virtual RField Rm_CallsDirty
+		protected RSystem.RBoolean r_m_CallsDirty;
+		public virtual RSystem.RBoolean Rm_CallsDirty
 		{
 			get
 			{

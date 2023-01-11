@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// Boolean HasSingleTarget
 		/// </summary>
-		protected RProperty r_HasSingleTarget;
-		public virtual RProperty RHasSingleTarget
+		protected RSystem.RBoolean r_HasSingleTarget;
+		public virtual RSystem.RBoolean RHasSingleTarget
 		{
 			get
 			{

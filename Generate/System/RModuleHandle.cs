@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.IntPtr value
 		/// </summary>
-		protected RField r_value;
-		public virtual RField Rvalue
+		protected RSystem.RIntPtr r_value;
+		public virtual RSystem.RIntPtr Rvalue
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// IntPtr Value
 		/// </summary>
-		protected RProperty r_Value;
-		public virtual RProperty RValue
+		protected RSystem.RIntPtr r_Value;
+		public virtual RSystem.RIntPtr RValue
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// Int32 MDStreamVersion
 		/// </summary>
-		protected RProperty r_MDStreamVersion;
-		public virtual RProperty RMDStreamVersion
+		protected RSystem.RInt32 r_MDStreamVersion;
+		public virtual RSystem.RInt32 RMDStreamVersion
 		{
 			get
 			{

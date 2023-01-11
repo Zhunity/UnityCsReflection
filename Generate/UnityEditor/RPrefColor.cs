@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.String m_Name
 		/// </summary>
-		protected RField r_m_Name;
-		public virtual RField Rm_Name
+		protected RSystem.RString r_m_Name;
+		public virtual RSystem.RString Rm_Name
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Boolean m_SeparateColors
 		/// </summary>
-		protected RField r_m_SeparateColors;
-		public virtual RField Rm_SeparateColors
+		protected RSystem.RBoolean r_m_SeparateColors;
+		public virtual RSystem.RBoolean Rm_SeparateColors
 		{
 			get
 			{
@@ -115,8 +115,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Boolean m_Loaded
 		/// </summary>
-		protected RField r_m_Loaded;
-		public virtual RField Rm_Loaded
+		protected RSystem.RBoolean r_m_Loaded;
+		public virtual RSystem.RBoolean Rm_Loaded
 		{
 			get
 			{
@@ -149,8 +149,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.String Name
 		/// </summary>
-		protected RProperty r_Name;
-		public virtual RProperty RName
+		protected RSystem.RString r_Name;
+		public virtual RSystem.RString RName
 		{
 			get
 			{

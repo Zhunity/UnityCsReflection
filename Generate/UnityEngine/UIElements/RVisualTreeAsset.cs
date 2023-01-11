@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.String LinkedVEAInTemplatePropertyName
 		/// </summary>
-		protected static RField r_LinkedVEAInTemplatePropertyName;
-		public static RField RLinkedVEAInTemplatePropertyName
+		protected static RSystem.RString r_LinkedVEAInTemplatePropertyName;
+		public static RSystem.RString RLinkedVEAInTemplatePropertyName
 		{
 			get
 			{
@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Boolean m_ImportedWithErrors
 		/// </summary>
-		protected RField r_m_ImportedWithErrors;
-		public virtual RField Rm_ImportedWithErrors
+		protected RSystem.RBoolean r_m_ImportedWithErrors;
+		public virtual RSystem.RBoolean Rm_ImportedWithErrors
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Boolean m_ImportedWithWarnings
 		/// </summary>
-		protected RField r_m_ImportedWithWarnings;
-		public virtual RField Rm_ImportedWithWarnings
+		protected RSystem.RBoolean r_m_ImportedWithWarnings;
+		public virtual RSystem.RBoolean Rm_ImportedWithWarnings
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Collections.Generic.Dictionary`2[System.String,UnityEngine.UIElements.VisualElement] s_TemporarySlotInsertionPoints
 		/// </summary>
-		protected static RSystem.RCollections.RGeneric.RDictionary<RField, RUnityEngine.RUIElements.RVisualElement> r_s_TemporarySlotInsertionPoints;
-		public static RSystem.RCollections.RGeneric.RDictionary<RField, RUnityEngine.RUIElements.RVisualElement> Rs_TemporarySlotInsertionPoints
+		protected static RSystem.RCollections.RGeneric.RDictionary<RSystem.RString, RUnityEngine.RUIElements.RVisualElement> r_s_TemporarySlotInsertionPoints;
+		public static RSystem.RCollections.RGeneric.RDictionary<RSystem.RString, RUnityEngine.RUIElements.RVisualElement> Rs_TemporarySlotInsertionPoints
 		{
 			get
 			{
@@ -166,8 +166,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Collections.Generic.List`1[System.Int32] m_UxmlObjectIds
 		/// </summary>
-		protected RSystem.RCollections.RGeneric.RList<RField> r_m_UxmlObjectIds;
-		public virtual RSystem.RCollections.RGeneric.RList<RField> Rm_UxmlObjectIds
+		protected RSystem.RCollections.RGeneric.RList<RSystem.RInt32> r_m_UxmlObjectIds;
+		public virtual RSystem.RCollections.RGeneric.RList<RSystem.RInt32> Rm_UxmlObjectIds
 		{
 			get
 			{
@@ -217,8 +217,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int32 m_ContentContainerId
 		/// </summary>
-		protected RField r_m_ContentContainerId;
-		public virtual RField Rm_ContentContainerId
+		protected RSystem.RInt32 r_m_ContentContainerId;
+		public virtual RSystem.RInt32 Rm_ContentContainerId
 		{
 			get
 			{
@@ -234,8 +234,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int32 m_ContentHash
 		/// </summary>
-		protected RField r_m_ContentHash;
-		public virtual RField Rm_ContentHash
+		protected RSystem.RInt32 r_m_ContentHash;
+		public virtual RSystem.RInt32 Rm_ContentHash
 		{
 			get
 			{
@@ -251,8 +251,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Boolean importedWithErrors
 		/// </summary>
-		protected RProperty r_importedWithErrors;
-		public virtual RProperty RimportedWithErrors
+		protected RSystem.RBoolean r_importedWithErrors;
+		public virtual RSystem.RBoolean RimportedWithErrors
 		{
 			get
 			{
@@ -268,8 +268,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Boolean importedWithWarnings
 		/// </summary>
-		protected RProperty r_importedWithWarnings;
-		public virtual RProperty RimportedWithWarnings
+		protected RSystem.RBoolean r_importedWithWarnings;
+		public virtual RSystem.RBoolean RimportedWithWarnings
 		{
 			get
 			{
@@ -370,8 +370,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Collections.Generic.List`1[System.Int32] uxmlObjectIds
 		/// </summary>
-		protected RSystem.RCollections.RGeneric.RList<RProperty> r_uxmlObjectIds;
-		public virtual RSystem.RCollections.RGeneric.RList<RProperty> RuxmlObjectIds
+		protected RSystem.RCollections.RGeneric.RList<RSystem.RInt32> r_uxmlObjectIds;
+		public virtual RSystem.RCollections.RGeneric.RList<RSystem.RInt32> RuxmlObjectIds
 		{
 			get
 			{
@@ -404,8 +404,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Int32 contentContainerId
 		/// </summary>
-		protected RProperty r_contentContainerId;
-		public virtual RProperty RcontentContainerId
+		protected RSystem.RInt32 r_contentContainerId;
+		public virtual RSystem.RInt32 RcontentContainerId
 		{
 			get
 			{
@@ -421,8 +421,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Int32 contentHash
 		/// </summary>
-		protected RProperty r_contentHash;
-		public virtual RProperty RcontentHash
+		protected RSystem.RInt32 r_contentHash;
+		public virtual RSystem.RInt32 RcontentHash
 		{
 			get
 			{
@@ -438,8 +438,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.String name
 		/// </summary>
-		protected RProperty r_name;
-		public virtual RProperty Rname
+		protected RSystem.RString r_name;
+		public virtual RSystem.RString Rname
 		{
 			get
 			{
@@ -1319,7 +1319,7 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual UnityEngine.UIElements.VisualElement CloneSetupRecursively(RUnityEngine.RUIElements.RVisualElementAsset @root, RSystem.RCollections.RGeneric.RDictionary<RType, RSystem.RCollections.RGeneric.RList<RUnityEngine.RUIElements.RVisualElementAsset>> @idToChildren, UnityEngine.UIElements.CreationContext @context)
+        public virtual UnityEngine.UIElements.VisualElement CloneSetupRecursively(RUnityEngine.RUIElements.RVisualElementAsset @root, RSystem.RCollections.RGeneric.RDictionary<RSystem.RInt32, RSystem.RCollections.RGeneric.RList<RUnityEngine.RUIElements.RVisualElementAsset>> @idToChildren, UnityEngine.UIElements.CreationContext @context)
         {
 
             var ___genericsType = new Type[] {};

@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 		/// <summary>
 		/// System.Single kBorderThickness
 		/// </summary>
-		protected static RField r_kBorderThickness;
-		public static RField RkBorderThickness
+		protected static RSystem.RSingle r_kBorderThickness;
+		public static RSystem.RSingle RkBorderThickness
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 		/// <summary>
 		/// System.Single kRightMargin
 		/// </summary>
-		protected static RField r_kRightMargin;
-		public static RField RkRightMargin
+		protected static RSystem.RSingle r_kRightMargin;
+		public static RSystem.RSingle RkRightMargin
 		{
 			get
 			{
@@ -183,8 +183,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 		/// <summary>
 		/// System.Single m_NewAnimTarget
 		/// </summary>
-		protected RField r_m_NewAnimTarget;
-		public virtual RField Rm_NewAnimTarget
+		protected RSystem.RSingle r_m_NewAnimTarget;
+		public virtual RSystem.RSingle Rm_NewAnimTarget
 		{
 			get
 			{
@@ -200,8 +200,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 		/// <summary>
 		/// System.Int64 m_LastTime
 		/// </summary>
-		protected RField r_m_LastTime;
-		public virtual RField Rm_LastTime
+		protected RSystem.RInt64 r_m_LastTime;
+		public virtual RSystem.RInt64 Rm_LastTime
 		{
 			get
 			{
@@ -217,8 +217,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 		/// <summary>
 		/// System.Boolean m_ScrollToSelected
 		/// </summary>
-		protected RField r_m_ScrollToSelected;
-		public virtual RField Rm_ScrollToSelected
+		protected RSystem.RBoolean r_m_ScrollToSelected;
+		public virtual RSystem.RBoolean Rm_ScrollToSelected
 		{
 			get
 			{
@@ -234,8 +234,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 		/// <summary>
 		/// System.Single m_InitialSelectionPosition
 		/// </summary>
-		protected RField r_m_InitialSelectionPosition;
-		public virtual RField Rm_InitialSelectionPosition
+		protected RSystem.RSingle r_m_InitialSelectionPosition;
+		public virtual RSystem.RSingle Rm_InitialSelectionPosition
 		{
 			get
 			{
@@ -285,8 +285,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 		/// <summary>
 		/// System.Boolean m_DirtyList
 		/// </summary>
-		protected RField r_m_DirtyList;
-		public virtual RField Rm_DirtyList
+		protected RSystem.RBoolean r_m_DirtyList;
+		public virtual RSystem.RBoolean Rm_DirtyList
 		{
 			get
 			{
@@ -302,8 +302,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 		/// <summary>
 		/// System.String m_Search
 		/// </summary>
-		protected RField r_m_Search;
-		public virtual RField Rm_Search
+		protected RSystem.RString r_m_Search;
+		public virtual RSystem.RString Rm_Search
 		{
 			get
 			{
@@ -319,8 +319,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 		/// <summary>
 		/// System.Boolean <showHeader>k__BackingField
 		/// </summary>
-		protected RField r___0__showHeader__1__k__BackingField;
-		public virtual RField R__0__showHeader__1__k__BackingField
+		protected RSystem.RBoolean r___0__showHeader__1__k__BackingField;
+		public virtual RSystem.RBoolean R__0__showHeader__1__k__BackingField
 		{
 			get
 			{
@@ -336,8 +336,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 		/// <summary>
 		/// System.Boolean <searchable>k__BackingField
 		/// </summary>
-		protected RField r___0__searchable__1__k__BackingField;
-		public virtual RField R__0__searchable__1__k__BackingField
+		protected RSystem.RBoolean r___0__searchable__1__k__BackingField;
+		public virtual RSystem.RBoolean R__0__searchable__1__k__BackingField
 		{
 			get
 			{
@@ -353,8 +353,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 		/// <summary>
 		/// System.Boolean <closeOnSelection>k__BackingField
 		/// </summary>
-		protected RField r___0__closeOnSelection__1__k__BackingField;
-		public virtual RField R__0__closeOnSelection__1__k__BackingField
+		protected RSystem.RBoolean r___0__closeOnSelection__1__k__BackingField;
+		public virtual RSystem.RBoolean R__0__closeOnSelection__1__k__BackingField
 		{
 			get
 			{
@@ -370,8 +370,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 		/// <summary>
 		/// System.Boolean <isSearchFieldDisabled>k__BackingField
 		/// </summary>
-		protected RField r___0__isSearchFieldDisabled__1__k__BackingField;
-		public virtual RField R__0__isSearchFieldDisabled__1__k__BackingField
+		protected RSystem.RBoolean r___0__isSearchFieldDisabled__1__k__BackingField;
+		public virtual RSystem.RBoolean R__0__isSearchFieldDisabled__1__k__BackingField
 		{
 			get
 			{
@@ -387,8 +387,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 		/// <summary>
 		/// System.Boolean <setInitialSelectionPosition>k__BackingField
 		/// </summary>
-		protected RField r___0__setInitialSelectionPosition__1__k__BackingField;
-		public virtual RField R__0__setInitialSelectionPosition__1__k__BackingField
+		protected RSystem.RBoolean r___0__setInitialSelectionPosition__1__k__BackingField;
+		public virtual RSystem.RBoolean R__0__setInitialSelectionPosition__1__k__BackingField
 		{
 			get
 			{
@@ -404,8 +404,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 		/// <summary>
 		/// System.Func`2[UnityEngine.Event,System.Boolean] specialKeyboardHandling
 		/// </summary>
-		protected RSystem.RFunc<RUnityEngine.REvent, RField> r_specialKeyboardHandling;
-		public virtual RSystem.RFunc<RUnityEngine.REvent, RField> RspecialKeyboardHandling
+		protected RSystem.RFunc<RUnityEngine.REvent, RSystem.RBoolean> r_specialKeyboardHandling;
+		public virtual RSystem.RFunc<RUnityEngine.REvent, RSystem.RBoolean> RspecialKeyboardHandling
 		{
 			get
 			{
@@ -506,8 +506,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 		/// <summary>
 		/// System.Single m_FadeoutTime
 		/// </summary>
-		protected RField r_m_FadeoutTime;
-		public virtual RField Rm_FadeoutTime
+		protected RSystem.RSingle r_m_FadeoutTime;
+		public virtual RSystem.RSingle Rm_FadeoutTime
 		{
 			get
 			{
@@ -540,8 +540,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 		/// <summary>
 		/// Boolean hasSearch
 		/// </summary>
-		protected RProperty r_hasSearch;
-		public virtual RProperty RhasSearch
+		protected RSystem.RBoolean r_hasSearch;
+		public virtual RSystem.RBoolean RhasSearch
 		{
 			get
 			{
@@ -557,8 +557,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 		/// <summary>
 		/// System.String searchString
 		/// </summary>
-		protected RProperty r_searchString;
-		public virtual RProperty RsearchString
+		protected RSystem.RString r_searchString;
+		public virtual RSystem.RString RsearchString
 		{
 			get
 			{
@@ -574,8 +574,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 		/// <summary>
 		/// Boolean showHeader
 		/// </summary>
-		protected RProperty r_showHeader;
-		public virtual RProperty RshowHeader
+		protected RSystem.RBoolean r_showHeader;
+		public virtual RSystem.RBoolean RshowHeader
 		{
 			get
 			{
@@ -591,8 +591,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 		/// <summary>
 		/// Boolean searchable
 		/// </summary>
-		protected RProperty r_searchable;
-		public virtual RProperty Rsearchable
+		protected RSystem.RBoolean r_searchable;
+		public virtual RSystem.RBoolean Rsearchable
 		{
 			get
 			{
@@ -608,8 +608,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 		/// <summary>
 		/// Boolean closeOnSelection
 		/// </summary>
-		protected RProperty r_closeOnSelection;
-		public virtual RProperty RcloseOnSelection
+		protected RSystem.RBoolean r_closeOnSelection;
+		public virtual RSystem.RBoolean RcloseOnSelection
 		{
 			get
 			{
@@ -625,8 +625,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 		/// <summary>
 		/// Boolean isSearchFieldDisabled
 		/// </summary>
-		protected RProperty r_isSearchFieldDisabled;
-		public virtual RProperty RisSearchFieldDisabled
+		protected RSystem.RBoolean r_isSearchFieldDisabled;
+		public virtual RSystem.RBoolean RisSearchFieldDisabled
 		{
 			get
 			{
@@ -642,8 +642,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 		/// <summary>
 		/// Boolean setInitialSelectionPosition
 		/// </summary>
-		protected RProperty r_setInitialSelectionPosition;
-		public virtual RProperty RsetInitialSelectionPosition
+		protected RSystem.RBoolean r_setInitialSelectionPosition;
+		public virtual RSystem.RBoolean RsetInitialSelectionPosition
 		{
 			get
 			{
@@ -761,8 +761,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 		/// <summary>
 		/// Boolean liveReloadPreferenceDefault
 		/// </summary>
-		protected RProperty r_liveReloadPreferenceDefault;
-		public virtual RProperty RliveReloadPreferenceDefault
+		protected RSystem.RBoolean r_liveReloadPreferenceDefault;
+		public virtual RSystem.RBoolean RliveReloadPreferenceDefault
 		{
 			get
 			{
@@ -778,8 +778,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 		/// <summary>
 		/// Boolean isUIToolkitWindow
 		/// </summary>
-		protected RProperty r_isUIToolkitWindow;
-		public virtual RProperty RisUIToolkitWindow
+		protected RSystem.RBoolean r_isUIToolkitWindow;
+		public virtual RSystem.RBoolean RisUIToolkitWindow
 		{
 			get
 			{
@@ -829,8 +829,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 		/// <summary>
 		/// Boolean wantsMouseMove
 		/// </summary>
-		protected RProperty r_wantsMouseMove;
-		public virtual RProperty RwantsMouseMove
+		protected RSystem.RBoolean r_wantsMouseMove;
+		public virtual RSystem.RBoolean RwantsMouseMove
 		{
 			get
 			{
@@ -846,8 +846,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 		/// <summary>
 		/// Boolean wantsMouseEnterLeaveWindow
 		/// </summary>
-		protected RProperty r_wantsMouseEnterLeaveWindow;
-		public virtual RProperty RwantsMouseEnterLeaveWindow
+		protected RSystem.RBoolean r_wantsMouseEnterLeaveWindow;
+		public virtual RSystem.RBoolean RwantsMouseEnterLeaveWindow
 		{
 			get
 			{
@@ -863,8 +863,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 		/// <summary>
 		/// Boolean wantsLessLayoutEvents
 		/// </summary>
-		protected RProperty r_wantsLessLayoutEvents;
-		public virtual RProperty RwantsLessLayoutEvents
+		protected RSystem.RBoolean r_wantsLessLayoutEvents;
+		public virtual RSystem.RBoolean RwantsLessLayoutEvents
 		{
 			get
 			{
@@ -880,8 +880,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 		/// <summary>
 		/// Boolean autoRepaintOnSceneChange
 		/// </summary>
-		protected RProperty r_autoRepaintOnSceneChange;
-		public virtual RProperty RautoRepaintOnSceneChange
+		protected RSystem.RBoolean r_autoRepaintOnSceneChange;
+		public virtual RSystem.RBoolean RautoRepaintOnSceneChange
 		{
 			get
 			{
@@ -897,8 +897,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 		/// <summary>
 		/// Boolean maximized
 		/// </summary>
-		protected RProperty r_maximized;
-		public virtual RProperty Rmaximized
+		protected RSystem.RBoolean r_maximized;
+		public virtual RSystem.RBoolean Rmaximized
 		{
 			get
 			{
@@ -914,8 +914,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 		/// <summary>
 		/// Boolean hasFocus
 		/// </summary>
-		protected RProperty r_hasFocus;
-		public virtual RProperty RhasFocus
+		protected RSystem.RBoolean r_hasFocus;
+		public virtual RSystem.RBoolean RhasFocus
 		{
 			get
 			{
@@ -931,8 +931,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 		/// <summary>
 		/// Boolean docked
 		/// </summary>
-		protected RProperty r_docked;
-		public virtual RProperty Rdocked
+		protected RSystem.RBoolean r_docked;
+		public virtual RSystem.RBoolean Rdocked
 		{
 			get
 			{
@@ -948,8 +948,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 		/// <summary>
 		/// Boolean disableInputEvents
 		/// </summary>
-		protected RProperty r_disableInputEvents;
-		public virtual RProperty RdisableInputEvents
+		protected RSystem.RBoolean r_disableInputEvents;
+		public virtual RSystem.RBoolean RdisableInputEvents
 		{
 			get
 			{
@@ -965,8 +965,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 		/// <summary>
 		/// Boolean hasUnsavedChanges
 		/// </summary>
-		protected RProperty r_hasUnsavedChanges;
-		public virtual RProperty RhasUnsavedChanges
+		protected RSystem.RBoolean r_hasUnsavedChanges;
+		public virtual RSystem.RBoolean RhasUnsavedChanges
 		{
 			get
 			{
@@ -982,8 +982,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 		/// <summary>
 		/// System.String saveChangesMessage
 		/// </summary>
-		protected RProperty r_saveChangesMessage;
-		public virtual RProperty RsaveChangesMessage
+		protected RSystem.RString r_saveChangesMessage;
+		public virtual RSystem.RString RsaveChangesMessage
 		{
 			get
 			{
@@ -1033,8 +1033,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 		/// <summary>
 		/// System.String title
 		/// </summary>
-		protected RProperty r_title;
-		public virtual RProperty Rtitle
+		protected RSystem.RString r_title;
+		public virtual RSystem.RString Rtitle
 		{
 			get
 			{
@@ -1067,8 +1067,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 		/// <summary>
 		/// Int32 depthBufferBits
 		/// </summary>
-		protected RProperty r_depthBufferBits;
-		public virtual RProperty RdepthBufferBits
+		protected RSystem.RInt32 r_depthBufferBits;
+		public virtual RSystem.RInt32 RdepthBufferBits
 		{
 			get
 			{
@@ -1084,8 +1084,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 		/// <summary>
 		/// Int32 antiAliasing
 		/// </summary>
-		protected RProperty r_antiAliasing;
-		public virtual RProperty RantiAliasing
+		protected RSystem.RInt32 r_antiAliasing;
+		public virtual RSystem.RInt32 RantiAliasing
 		{
 			get
 			{
@@ -1101,8 +1101,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 		/// <summary>
 		/// Int32 antiAlias
 		/// </summary>
-		protected RProperty r_antiAlias;
-		public virtual RProperty RantiAlias
+		protected RSystem.RInt32 r_antiAlias;
+		public virtual RSystem.RInt32 RantiAlias
 		{
 			get
 			{
@@ -1135,8 +1135,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 		/// <summary>
 		/// System.String name
 		/// </summary>
-		protected RProperty r_name;
-		public virtual RProperty Rname
+		protected RSystem.RString r_name;
+		public virtual RSystem.RString Rname
 		{
 			get
 			{

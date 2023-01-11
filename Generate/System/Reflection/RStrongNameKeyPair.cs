@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Byte[] _publicKey
 		/// </summary>
-		protected RFieldArray<RField> r__publicKey;
-		public virtual RFieldArray<RField> R_publicKey
+		protected RFieldArray<RSystem.RByte> r__publicKey;
+		public virtual RFieldArray<RSystem.RByte> R_publicKey
 		{
 			get
 			{
@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.String _keyPairContainer
 		/// </summary>
-		protected RField r__keyPairContainer;
-		public virtual RField R_keyPairContainer
+		protected RSystem.RString r__keyPairContainer;
+		public virtual RSystem.RString R_keyPairContainer
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Boolean _keyPairExported
 		/// </summary>
-		protected RField r__keyPairExported;
-		public virtual RField R_keyPairExported
+		protected RSystem.RBoolean r__keyPairExported;
+		public virtual RSystem.RBoolean R_keyPairExported
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Byte[] _keyPairArray
 		/// </summary>
-		protected RFieldArray<RField> r__keyPairArray;
-		public virtual RFieldArray<RField> R_keyPairArray
+		protected RFieldArray<RSystem.RByte> r__keyPairArray;
+		public virtual RFieldArray<RSystem.RByte> R_keyPairArray
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// Byte[] PublicKey
 		/// </summary>
-		protected RPropertyArray<RProperty> r_PublicKey;
-		public virtual RPropertyArray<RProperty> RPublicKey
+		protected RPropertyArray<RSystem.RByte> r_PublicKey;
+		public virtual RPropertyArray<RSystem.RByte> RPublicKey
 		{
 			get
 			{

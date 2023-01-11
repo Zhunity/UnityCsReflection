@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Single m_Time
 		/// </summary>
-		protected RField r_m_Time;
-		public virtual RField Rm_Time
+		protected RSystem.RSingle r_m_Time;
+		public virtual RSystem.RSingle Rm_Time
 		{
 			get
 			{
@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Single m_Value
 		/// </summary>
-		protected RField r_m_Value;
-		public virtual RField Rm_Value
+		protected RSystem.RSingle r_m_Value;
+		public virtual RSystem.RSingle Rm_Value
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Single m_InTangent
 		/// </summary>
-		protected RField r_m_InTangent;
-		public virtual RField Rm_InTangent
+		protected RSystem.RSingle r_m_InTangent;
+		public virtual RSystem.RSingle Rm_InTangent
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Single m_OutTangent
 		/// </summary>
-		protected RField r_m_OutTangent;
-		public virtual RField Rm_OutTangent
+		protected RSystem.RSingle r_m_OutTangent;
+		public virtual RSystem.RSingle Rm_OutTangent
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Int32 m_TangentMode
 		/// </summary>
-		protected RField r_m_TangentMode;
-		public virtual RField Rm_TangentMode
+		protected RSystem.RInt32 r_m_TangentMode;
+		public virtual RSystem.RInt32 Rm_TangentMode
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Int32 m_WeightedMode
 		/// </summary>
-		protected RField r_m_WeightedMode;
-		public virtual RField Rm_WeightedMode
+		protected RSystem.RInt32 r_m_WeightedMode;
+		public virtual RSystem.RInt32 Rm_WeightedMode
 		{
 			get
 			{
@@ -115,8 +115,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Single m_InWeight
 		/// </summary>
-		protected RField r_m_InWeight;
-		public virtual RField Rm_InWeight
+		protected RSystem.RSingle r_m_InWeight;
+		public virtual RSystem.RSingle Rm_InWeight
 		{
 			get
 			{
@@ -132,8 +132,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Single m_OutWeight
 		/// </summary>
-		protected RField r_m_OutWeight;
-		public virtual RField Rm_OutWeight
+		protected RSystem.RSingle r_m_OutWeight;
+		public virtual RSystem.RSingle Rm_OutWeight
 		{
 			get
 			{
@@ -149,8 +149,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Single time
 		/// </summary>
-		protected RProperty r_time;
-		public virtual RProperty Rtime
+		protected RSystem.RSingle r_time;
+		public virtual RSystem.RSingle Rtime
 		{
 			get
 			{
@@ -166,8 +166,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Single value
 		/// </summary>
-		protected RProperty r_value;
-		public virtual RProperty Rvalue
+		protected RSystem.RSingle r_value;
+		public virtual RSystem.RSingle Rvalue
 		{
 			get
 			{
@@ -183,8 +183,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Single inTangent
 		/// </summary>
-		protected RProperty r_inTangent;
-		public virtual RProperty RinTangent
+		protected RSystem.RSingle r_inTangent;
+		public virtual RSystem.RSingle RinTangent
 		{
 			get
 			{
@@ -200,8 +200,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Single outTangent
 		/// </summary>
-		protected RProperty r_outTangent;
-		public virtual RProperty RoutTangent
+		protected RSystem.RSingle r_outTangent;
+		public virtual RSystem.RSingle RoutTangent
 		{
 			get
 			{
@@ -217,8 +217,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Single inWeight
 		/// </summary>
-		protected RProperty r_inWeight;
-		public virtual RProperty RinWeight
+		protected RSystem.RSingle r_inWeight;
+		public virtual RSystem.RSingle RinWeight
 		{
 			get
 			{
@@ -234,8 +234,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Single outWeight
 		/// </summary>
-		protected RProperty r_outWeight;
-		public virtual RProperty RoutWeight
+		protected RSystem.RSingle r_outWeight;
+		public virtual RSystem.RSingle RoutWeight
 		{
 			get
 			{
@@ -268,8 +268,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 tangentMode
 		/// </summary>
-		protected RProperty r_tangentMode;
-		public virtual RProperty RtangentMode
+		protected RSystem.RInt32 r_tangentMode;
+		public virtual RSystem.RInt32 RtangentMode
 		{
 			get
 			{
@@ -285,8 +285,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 tangentModeInternal
 		/// </summary>
-		protected RProperty r_tangentModeInternal;
-		public virtual RProperty RtangentModeInternal
+		protected RSystem.RInt32 r_tangentModeInternal;
+		public virtual RSystem.RInt32 RtangentModeInternal
 		{
 			get
 			{

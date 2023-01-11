@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int64 TicksPerMillisecond
 		/// </summary>
-		protected static RField r_TicksPerMillisecond;
-		public static RField RTicksPerMillisecond
+		protected static RSystem.RInt64 r_TicksPerMillisecond;
+		public static RSystem.RInt64 RTicksPerMillisecond
 		{
 			get
 			{
@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int64 TicksPerSecond
 		/// </summary>
-		protected static RField r_TicksPerSecond;
-		public static RField RTicksPerSecond
+		protected static RSystem.RInt64 r_TicksPerSecond;
+		public static RSystem.RInt64 RTicksPerSecond
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int64 TicksPerMinute
 		/// </summary>
-		protected static RField r_TicksPerMinute;
-		public static RField RTicksPerMinute
+		protected static RSystem.RInt64 r_TicksPerMinute;
+		public static RSystem.RInt64 RTicksPerMinute
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int64 TicksPerHour
 		/// </summary>
-		protected static RField r_TicksPerHour;
-		public static RField RTicksPerHour
+		protected static RSystem.RInt64 r_TicksPerHour;
+		public static RSystem.RInt64 RTicksPerHour
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int64 TicksPerDay
 		/// </summary>
-		protected static RField r_TicksPerDay;
-		public static RField RTicksPerDay
+		protected static RSystem.RInt64 r_TicksPerDay;
+		public static RSystem.RInt64 RTicksPerDay
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 MillisPerSecond
 		/// </summary>
-		protected static RField r_MillisPerSecond;
-		public static RField RMillisPerSecond
+		protected static RSystem.RInt32 r_MillisPerSecond;
+		public static RSystem.RInt32 RMillisPerSecond
 		{
 			get
 			{
@@ -115,8 +115,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 MillisPerMinute
 		/// </summary>
-		protected static RField r_MillisPerMinute;
-		public static RField RMillisPerMinute
+		protected static RSystem.RInt32 r_MillisPerMinute;
+		public static RSystem.RInt32 RMillisPerMinute
 		{
 			get
 			{
@@ -132,8 +132,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 MillisPerHour
 		/// </summary>
-		protected static RField r_MillisPerHour;
-		public static RField RMillisPerHour
+		protected static RSystem.RInt32 r_MillisPerHour;
+		public static RSystem.RInt32 RMillisPerHour
 		{
 			get
 			{
@@ -149,8 +149,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 MillisPerDay
 		/// </summary>
-		protected static RField r_MillisPerDay;
-		public static RField RMillisPerDay
+		protected static RSystem.RInt32 r_MillisPerDay;
+		public static RSystem.RInt32 RMillisPerDay
 		{
 			get
 			{
@@ -166,8 +166,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 DaysPerYear
 		/// </summary>
-		protected static RField r_DaysPerYear;
-		public static RField RDaysPerYear
+		protected static RSystem.RInt32 r_DaysPerYear;
+		public static RSystem.RInt32 RDaysPerYear
 		{
 			get
 			{
@@ -183,8 +183,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 DaysPer4Years
 		/// </summary>
-		protected static RField r_DaysPer4Years;
-		public static RField RDaysPer4Years
+		protected static RSystem.RInt32 r_DaysPer4Years;
+		public static RSystem.RInt32 RDaysPer4Years
 		{
 			get
 			{
@@ -200,8 +200,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 DaysPer100Years
 		/// </summary>
-		protected static RField r_DaysPer100Years;
-		public static RField RDaysPer100Years
+		protected static RSystem.RInt32 r_DaysPer100Years;
+		public static RSystem.RInt32 RDaysPer100Years
 		{
 			get
 			{
@@ -217,8 +217,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 DaysPer400Years
 		/// </summary>
-		protected static RField r_DaysPer400Years;
-		public static RField RDaysPer400Years
+		protected static RSystem.RInt32 r_DaysPer400Years;
+		public static RSystem.RInt32 RDaysPer400Years
 		{
 			get
 			{
@@ -234,8 +234,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 DaysTo10000
 		/// </summary>
-		protected static RField r_DaysTo10000;
-		public static RField RDaysTo10000
+		protected static RSystem.RInt32 r_DaysTo10000;
+		public static RSystem.RInt32 RDaysTo10000
 		{
 			get
 			{
@@ -251,8 +251,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int64 MaxMillis
 		/// </summary>
-		protected static RField r_MaxMillis;
-		public static RField RMaxMillis
+		protected static RSystem.RInt64 r_MaxMillis;
+		public static RSystem.RInt64 RMaxMillis
 		{
 			get
 			{
@@ -268,8 +268,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 CAL_GREGORIAN
 		/// </summary>
-		protected static RField r_CAL_GREGORIAN;
-		public static RField RCAL_GREGORIAN
+		protected static RSystem.RInt32 r_CAL_GREGORIAN;
+		public static RSystem.RInt32 RCAL_GREGORIAN
 		{
 			get
 			{
@@ -285,8 +285,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 CAL_GREGORIAN_US
 		/// </summary>
-		protected static RField r_CAL_GREGORIAN_US;
-		public static RField RCAL_GREGORIAN_US
+		protected static RSystem.RInt32 r_CAL_GREGORIAN_US;
+		public static RSystem.RInt32 RCAL_GREGORIAN_US
 		{
 			get
 			{
@@ -302,8 +302,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 CAL_JAPAN
 		/// </summary>
-		protected static RField r_CAL_JAPAN;
-		public static RField RCAL_JAPAN
+		protected static RSystem.RInt32 r_CAL_JAPAN;
+		public static RSystem.RInt32 RCAL_JAPAN
 		{
 			get
 			{
@@ -319,8 +319,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 CAL_TAIWAN
 		/// </summary>
-		protected static RField r_CAL_TAIWAN;
-		public static RField RCAL_TAIWAN
+		protected static RSystem.RInt32 r_CAL_TAIWAN;
+		public static RSystem.RInt32 RCAL_TAIWAN
 		{
 			get
 			{
@@ -336,8 +336,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 CAL_KOREA
 		/// </summary>
-		protected static RField r_CAL_KOREA;
-		public static RField RCAL_KOREA
+		protected static RSystem.RInt32 r_CAL_KOREA;
+		public static RSystem.RInt32 RCAL_KOREA
 		{
 			get
 			{
@@ -353,8 +353,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 CAL_HIJRI
 		/// </summary>
-		protected static RField r_CAL_HIJRI;
-		public static RField RCAL_HIJRI
+		protected static RSystem.RInt32 r_CAL_HIJRI;
+		public static RSystem.RInt32 RCAL_HIJRI
 		{
 			get
 			{
@@ -370,8 +370,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 CAL_THAI
 		/// </summary>
-		protected static RField r_CAL_THAI;
-		public static RField RCAL_THAI
+		protected static RSystem.RInt32 r_CAL_THAI;
+		public static RSystem.RInt32 RCAL_THAI
 		{
 			get
 			{
@@ -387,8 +387,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 CAL_HEBREW
 		/// </summary>
-		protected static RField r_CAL_HEBREW;
-		public static RField RCAL_HEBREW
+		protected static RSystem.RInt32 r_CAL_HEBREW;
+		public static RSystem.RInt32 RCAL_HEBREW
 		{
 			get
 			{
@@ -404,8 +404,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 CAL_GREGORIAN_ME_FRENCH
 		/// </summary>
-		protected static RField r_CAL_GREGORIAN_ME_FRENCH;
-		public static RField RCAL_GREGORIAN_ME_FRENCH
+		protected static RSystem.RInt32 r_CAL_GREGORIAN_ME_FRENCH;
+		public static RSystem.RInt32 RCAL_GREGORIAN_ME_FRENCH
 		{
 			get
 			{
@@ -421,8 +421,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 CAL_GREGORIAN_ARABIC
 		/// </summary>
-		protected static RField r_CAL_GREGORIAN_ARABIC;
-		public static RField RCAL_GREGORIAN_ARABIC
+		protected static RSystem.RInt32 r_CAL_GREGORIAN_ARABIC;
+		public static RSystem.RInt32 RCAL_GREGORIAN_ARABIC
 		{
 			get
 			{
@@ -438,8 +438,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 CAL_GREGORIAN_XLIT_ENGLISH
 		/// </summary>
-		protected static RField r_CAL_GREGORIAN_XLIT_ENGLISH;
-		public static RField RCAL_GREGORIAN_XLIT_ENGLISH
+		protected static RSystem.RInt32 r_CAL_GREGORIAN_XLIT_ENGLISH;
+		public static RSystem.RInt32 RCAL_GREGORIAN_XLIT_ENGLISH
 		{
 			get
 			{
@@ -455,8 +455,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 CAL_GREGORIAN_XLIT_FRENCH
 		/// </summary>
-		protected static RField r_CAL_GREGORIAN_XLIT_FRENCH;
-		public static RField RCAL_GREGORIAN_XLIT_FRENCH
+		protected static RSystem.RInt32 r_CAL_GREGORIAN_XLIT_FRENCH;
+		public static RSystem.RInt32 RCAL_GREGORIAN_XLIT_FRENCH
 		{
 			get
 			{
@@ -472,8 +472,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 CAL_JULIAN
 		/// </summary>
-		protected static RField r_CAL_JULIAN;
-		public static RField RCAL_JULIAN
+		protected static RSystem.RInt32 r_CAL_JULIAN;
+		public static RSystem.RInt32 RCAL_JULIAN
 		{
 			get
 			{
@@ -489,8 +489,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 CAL_JAPANESELUNISOLAR
 		/// </summary>
-		protected static RField r_CAL_JAPANESELUNISOLAR;
-		public static RField RCAL_JAPANESELUNISOLAR
+		protected static RSystem.RInt32 r_CAL_JAPANESELUNISOLAR;
+		public static RSystem.RInt32 RCAL_JAPANESELUNISOLAR
 		{
 			get
 			{
@@ -506,8 +506,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 CAL_CHINESELUNISOLAR
 		/// </summary>
-		protected static RField r_CAL_CHINESELUNISOLAR;
-		public static RField RCAL_CHINESELUNISOLAR
+		protected static RSystem.RInt32 r_CAL_CHINESELUNISOLAR;
+		public static RSystem.RInt32 RCAL_CHINESELUNISOLAR
 		{
 			get
 			{
@@ -523,8 +523,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 CAL_SAKA
 		/// </summary>
-		protected static RField r_CAL_SAKA;
-		public static RField RCAL_SAKA
+		protected static RSystem.RInt32 r_CAL_SAKA;
+		public static RSystem.RInt32 RCAL_SAKA
 		{
 			get
 			{
@@ -540,8 +540,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 CAL_LUNAR_ETO_CHN
 		/// </summary>
-		protected static RField r_CAL_LUNAR_ETO_CHN;
-		public static RField RCAL_LUNAR_ETO_CHN
+		protected static RSystem.RInt32 r_CAL_LUNAR_ETO_CHN;
+		public static RSystem.RInt32 RCAL_LUNAR_ETO_CHN
 		{
 			get
 			{
@@ -557,8 +557,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 CAL_LUNAR_ETO_KOR
 		/// </summary>
-		protected static RField r_CAL_LUNAR_ETO_KOR;
-		public static RField RCAL_LUNAR_ETO_KOR
+		protected static RSystem.RInt32 r_CAL_LUNAR_ETO_KOR;
+		public static RSystem.RInt32 RCAL_LUNAR_ETO_KOR
 		{
 			get
 			{
@@ -574,8 +574,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 CAL_LUNAR_ETO_ROKUYOU
 		/// </summary>
-		protected static RField r_CAL_LUNAR_ETO_ROKUYOU;
-		public static RField RCAL_LUNAR_ETO_ROKUYOU
+		protected static RSystem.RInt32 r_CAL_LUNAR_ETO_ROKUYOU;
+		public static RSystem.RInt32 RCAL_LUNAR_ETO_ROKUYOU
 		{
 			get
 			{
@@ -591,8 +591,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 CAL_KOREANLUNISOLAR
 		/// </summary>
-		protected static RField r_CAL_KOREANLUNISOLAR;
-		public static RField RCAL_KOREANLUNISOLAR
+		protected static RSystem.RInt32 r_CAL_KOREANLUNISOLAR;
+		public static RSystem.RInt32 RCAL_KOREANLUNISOLAR
 		{
 			get
 			{
@@ -608,8 +608,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 CAL_TAIWANLUNISOLAR
 		/// </summary>
-		protected static RField r_CAL_TAIWANLUNISOLAR;
-		public static RField RCAL_TAIWANLUNISOLAR
+		protected static RSystem.RInt32 r_CAL_TAIWANLUNISOLAR;
+		public static RSystem.RInt32 RCAL_TAIWANLUNISOLAR
 		{
 			get
 			{
@@ -625,8 +625,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 CAL_PERSIAN
 		/// </summary>
-		protected static RField r_CAL_PERSIAN;
-		public static RField RCAL_PERSIAN
+		protected static RSystem.RInt32 r_CAL_PERSIAN;
+		public static RSystem.RInt32 RCAL_PERSIAN
 		{
 			get
 			{
@@ -642,8 +642,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 CAL_UMALQURA
 		/// </summary>
-		protected static RField r_CAL_UMALQURA;
-		public static RField RCAL_UMALQURA
+		protected static RSystem.RInt32 r_CAL_UMALQURA;
+		public static RSystem.RInt32 RCAL_UMALQURA
 		{
 			get
 			{
@@ -659,8 +659,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 m_currentEraValue
 		/// </summary>
-		protected RField r_m_currentEraValue;
-		public virtual RField Rm_currentEraValue
+		protected RSystem.RInt32 r_m_currentEraValue;
+		public virtual RSystem.RInt32 Rm_currentEraValue
 		{
 			get
 			{
@@ -676,8 +676,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Boolean m_isReadOnly
 		/// </summary>
-		protected RField r_m_isReadOnly;
-		public virtual RField Rm_isReadOnly
+		protected RSystem.RBoolean r_m_isReadOnly;
+		public virtual RSystem.RBoolean Rm_isReadOnly
 		{
 			get
 			{
@@ -693,8 +693,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 CurrentEra
 		/// </summary>
-		protected static RField r_CurrentEra;
-		public static RField RCurrentEra
+		protected static RSystem.RInt32 r_CurrentEra;
+		public static RSystem.RInt32 RCurrentEra
 		{
 			get
 			{
@@ -710,8 +710,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 twoDigitYearMax
 		/// </summary>
-		protected RField r_twoDigitYearMax;
-		public virtual RField RtwoDigitYearMax
+		protected RSystem.RInt32 r_twoDigitYearMax;
+		public virtual RSystem.RInt32 RtwoDigitYearMax
 		{
 			get
 			{
@@ -761,8 +761,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// Int32 ID
 		/// </summary>
-		protected RProperty r_ID;
-		public virtual RProperty RID
+		protected RSystem.RInt32 r_ID;
+		public virtual RSystem.RInt32 RID
 		{
 			get
 			{
@@ -778,8 +778,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// Int32 BaseCalendarID
 		/// </summary>
-		protected RProperty r_BaseCalendarID;
-		public virtual RProperty RBaseCalendarID
+		protected RSystem.RInt32 r_BaseCalendarID;
+		public virtual RSystem.RInt32 RBaseCalendarID
 		{
 			get
 			{
@@ -812,8 +812,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// Boolean IsReadOnly
 		/// </summary>
-		protected RProperty r_IsReadOnly;
-		public virtual RProperty RIsReadOnly
+		protected RSystem.RBoolean r_IsReadOnly;
+		public virtual RSystem.RBoolean RIsReadOnly
 		{
 			get
 			{
@@ -829,8 +829,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// Int32 CurrentEraValue
 		/// </summary>
-		protected RProperty r_CurrentEraValue;
-		public virtual RProperty RCurrentEraValue
+		protected RSystem.RInt32 r_CurrentEraValue;
+		public virtual RSystem.RInt32 RCurrentEraValue
 		{
 			get
 			{
@@ -846,8 +846,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// Int32[] Eras
 		/// </summary>
-		protected RPropertyArray<RProperty> r_Eras;
-		public virtual RPropertyArray<RProperty> REras
+		protected RPropertyArray<RSystem.RInt32> r_Eras;
+		public virtual RPropertyArray<RSystem.RInt32> REras
 		{
 			get
 			{
@@ -863,8 +863,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// Int32 DaysInYearBeforeMinSupportedYear
 		/// </summary>
-		protected RProperty r_DaysInYearBeforeMinSupportedYear;
-		public virtual RProperty RDaysInYearBeforeMinSupportedYear
+		protected RSystem.RInt32 r_DaysInYearBeforeMinSupportedYear;
+		public virtual RSystem.RInt32 RDaysInYearBeforeMinSupportedYear
 		{
 			get
 			{
@@ -880,8 +880,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// Int32 TwoDigitYearMax
 		/// </summary>
-		protected RProperty r_TwoDigitYearMax;
-		public virtual RProperty RTwoDigitYearMax
+		protected RSystem.RInt32 r_TwoDigitYearMax;
+		public virtual RSystem.RInt32 RTwoDigitYearMax
 		{
 			get
 			{

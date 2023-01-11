@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore
 		/// <summary>
 		/// System.Int32 m_X
 		/// </summary>
-		protected RField r_m_X;
-		public virtual RField Rm_X
+		protected RSystem.RInt32 r_m_X;
+		public virtual RSystem.RInt32 Rm_X
 		{
 			get
 			{
@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore
 		/// <summary>
 		/// System.Int32 m_Y
 		/// </summary>
-		protected RField r_m_Y;
-		public virtual RField Rm_Y
+		protected RSystem.RInt32 r_m_Y;
+		public virtual RSystem.RInt32 Rm_Y
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore
 		/// <summary>
 		/// System.Int32 m_Width
 		/// </summary>
-		protected RField r_m_Width;
-		public virtual RField Rm_Width
+		protected RSystem.RInt32 r_m_Width;
+		public virtual RSystem.RInt32 Rm_Width
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore
 		/// <summary>
 		/// System.Int32 m_Height
 		/// </summary>
-		protected RField r_m_Height;
-		public virtual RField Rm_Height
+		protected RSystem.RInt32 r_m_Height;
+		public virtual RSystem.RInt32 Rm_Height
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore
 		/// <summary>
 		/// Int32 x
 		/// </summary>
-		protected RProperty r_x;
-		public virtual RProperty Rx
+		protected RSystem.RInt32 r_x;
+		public virtual RSystem.RInt32 Rx
 		{
 			get
 			{
@@ -115,8 +115,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore
 		/// <summary>
 		/// Int32 y
 		/// </summary>
-		protected RProperty r_y;
-		public virtual RProperty Ry
+		protected RSystem.RInt32 r_y;
+		public virtual RSystem.RInt32 Ry
 		{
 			get
 			{
@@ -132,8 +132,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore
 		/// <summary>
 		/// Int32 width
 		/// </summary>
-		protected RProperty r_width;
-		public virtual RProperty Rwidth
+		protected RSystem.RInt32 r_width;
+		public virtual RSystem.RInt32 Rwidth
 		{
 			get
 			{
@@ -149,8 +149,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore
 		/// <summary>
 		/// Int32 height
 		/// </summary>
-		protected RProperty r_height;
-		public virtual RProperty Rheight
+		protected RSystem.RInt32 r_height;
+		public virtual RSystem.RInt32 Rheight
 		{
 			get
 			{

@@ -15,8 +15,8 @@ namespace SMFrame.Editor.Refleaction.RMono.RSecurity
 		/// <summary>
 		/// System.Byte[] hash
 		/// </summary>
-		protected RFieldArray<RField> r_hash;
-		public virtual RFieldArray<RField> Rhash
+		protected RFieldArray<RSystem.RByte> r_hash;
+		public virtual RFieldArray<RSystem.RByte> Rhash
 		{
 			get
 			{
@@ -32,8 +32,8 @@ namespace SMFrame.Editor.Refleaction.RMono.RSecurity
 		/// <summary>
 		/// System.Byte[] signature
 		/// </summary>
-		protected RFieldArray<RField> r_signature;
-		public virtual RFieldArray<RField> Rsignature
+		protected RFieldArray<RSystem.RByte> r_signature;
+		public virtual RFieldArray<RSystem.RByte> Rsignature
 		{
 			get
 			{
@@ -49,8 +49,8 @@ namespace SMFrame.Editor.Refleaction.RMono.RSecurity
 		/// <summary>
 		/// System.UInt32 signaturePosition
 		/// </summary>
-		protected RField r_signaturePosition;
-		public virtual RField RsignaturePosition
+		protected RSystem.RUInt32 r_signaturePosition;
+		public virtual RSystem.RUInt32 RsignaturePosition
 		{
 			get
 			{
@@ -66,8 +66,8 @@ namespace SMFrame.Editor.Refleaction.RMono.RSecurity
 		/// <summary>
 		/// System.UInt32 signatureLength
 		/// </summary>
-		protected RField r_signatureLength;
-		public virtual RField RsignatureLength
+		protected RSystem.RUInt32 r_signatureLength;
+		public virtual RSystem.RUInt32 RsignatureLength
 		{
 			get
 			{
@@ -83,8 +83,8 @@ namespace SMFrame.Editor.Refleaction.RMono.RSecurity
 		/// <summary>
 		/// System.UInt32 metadataPosition
 		/// </summary>
-		protected RField r_metadataPosition;
-		public virtual RField RmetadataPosition
+		protected RSystem.RUInt32 r_metadataPosition;
+		public virtual RSystem.RUInt32 RmetadataPosition
 		{
 			get
 			{
@@ -100,8 +100,8 @@ namespace SMFrame.Editor.Refleaction.RMono.RSecurity
 		/// <summary>
 		/// System.UInt32 metadataLength
 		/// </summary>
-		protected RField r_metadataLength;
-		public virtual RField RmetadataLength
+		protected RSystem.RUInt32 r_metadataLength;
+		public virtual RSystem.RUInt32 RmetadataLength
 		{
 			get
 			{
@@ -117,8 +117,8 @@ namespace SMFrame.Editor.Refleaction.RMono.RSecurity
 		/// <summary>
 		/// System.Byte cliFlag
 		/// </summary>
-		protected RField r_cliFlag;
-		public virtual RField RcliFlag
+		protected RSystem.RByte r_cliFlag;
+		public virtual RSystem.RByte RcliFlag
 		{
 			get
 			{
@@ -134,8 +134,8 @@ namespace SMFrame.Editor.Refleaction.RMono.RSecurity
 		/// <summary>
 		/// System.UInt32 cliFlagPosition
 		/// </summary>
-		protected RField r_cliFlagPosition;
-		public virtual RField RcliFlagPosition
+		protected RSystem.RUInt32 r_cliFlagPosition;
+		public virtual RSystem.RUInt32 RcliFlagPosition
 		{
 			get
 			{
@@ -151,8 +151,8 @@ namespace SMFrame.Editor.Refleaction.RMono.RSecurity
 		/// <summary>
 		/// Byte[] Hash
 		/// </summary>
-		protected RPropertyArray<RProperty> r_Hash;
-		public virtual RPropertyArray<RProperty> RHash
+		protected RPropertyArray<RSystem.RByte> r_Hash;
+		public virtual RPropertyArray<RSystem.RByte> RHash
 		{
 			get
 			{
@@ -168,8 +168,8 @@ namespace SMFrame.Editor.Refleaction.RMono.RSecurity
 		/// <summary>
 		/// Byte[] Signature
 		/// </summary>
-		protected RPropertyArray<RProperty> r_Signature;
-		public virtual RPropertyArray<RProperty> RSignature
+		protected RPropertyArray<RSystem.RByte> r_Signature;
+		public virtual RPropertyArray<RSystem.RByte> RSignature
 		{
 			get
 			{
@@ -185,8 +185,8 @@ namespace SMFrame.Editor.Refleaction.RMono.RSecurity
 		/// <summary>
 		/// UInt32 MetadataPosition
 		/// </summary>
-		protected RProperty r_MetadataPosition;
-		public virtual RProperty RMetadataPosition
+		protected RSystem.RUInt32 r_MetadataPosition;
+		public virtual RSystem.RUInt32 RMetadataPosition
 		{
 			get
 			{
@@ -202,8 +202,8 @@ namespace SMFrame.Editor.Refleaction.RMono.RSecurity
 		/// <summary>
 		/// UInt32 MetadataLength
 		/// </summary>
-		protected RProperty r_MetadataLength;
-		public virtual RProperty RMetadataLength
+		protected RSystem.RUInt32 r_MetadataLength;
+		public virtual RSystem.RUInt32 RMetadataLength
 		{
 			get
 			{
@@ -219,8 +219,8 @@ namespace SMFrame.Editor.Refleaction.RMono.RSecurity
 		/// <summary>
 		/// UInt32 SignaturePosition
 		/// </summary>
-		protected RProperty r_SignaturePosition;
-		public virtual RProperty RSignaturePosition
+		protected RSystem.RUInt32 r_SignaturePosition;
+		public virtual RSystem.RUInt32 RSignaturePosition
 		{
 			get
 			{
@@ -236,8 +236,8 @@ namespace SMFrame.Editor.Refleaction.RMono.RSecurity
 		/// <summary>
 		/// UInt32 SignatureLength
 		/// </summary>
-		protected RProperty r_SignatureLength;
-		public virtual RProperty RSignatureLength
+		protected RSystem.RUInt32 r_SignatureLength;
+		public virtual RSystem.RUInt32 RSignatureLength
 		{
 			get
 			{
@@ -253,8 +253,8 @@ namespace SMFrame.Editor.Refleaction.RMono.RSecurity
 		/// <summary>
 		/// Byte CliFlag
 		/// </summary>
-		protected RProperty r_CliFlag;
-		public virtual RProperty RCliFlag
+		protected RSystem.RByte r_CliFlag;
+		public virtual RSystem.RByte RCliFlag
 		{
 			get
 			{
@@ -270,8 +270,8 @@ namespace SMFrame.Editor.Refleaction.RMono.RSecurity
 		/// <summary>
 		/// UInt32 CliFlagPosition
 		/// </summary>
-		protected RProperty r_CliFlagPosition;
-		public virtual RProperty RCliFlagPosition
+		protected RSystem.RUInt32 r_CliFlagPosition;
+		public virtual RSystem.RUInt32 RCliFlagPosition
 		{
 			get
 			{

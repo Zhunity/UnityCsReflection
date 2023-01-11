@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 		/// <summary>
 		/// System.Single sphereRadius
 		/// </summary>
-		protected RField r_sphereRadius;
-		public virtual RField RsphereRadius
+		protected RSystem.RSingle r_sphereRadius;
+		public virtual RSystem.RSingle RsphereRadius
 		{
 			get
 			{

@@ -15,8 +15,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int32 isValid
 		/// </summary>
-		protected RField r_isValid;
-		public virtual RField RisValid
+		protected RSystem.RInt32 r_isValid;
+		public virtual RSystem.RInt32 RisValid
 		{
 			get
 			{

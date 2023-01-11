@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
 		/// <summary>
 		/// System.Single width
 		/// </summary>
-		protected RField r_width;
-		public virtual RField Rwidth
+		protected RSystem.RSingle r_width;
+		public virtual RSystem.RSingle Rwidth
 		{
 			get
 			{
@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
 		/// <summary>
 		/// System.Single height
 		/// </summary>
-		protected RField r_height;
-		public virtual RField Rheight
+		protected RSystem.RSingle r_height;
+		public virtual RSystem.RSingle Rheight
 		{
 			get
 			{

@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections
 		/// <summary>
 		/// System.Int32 HashPrime
 		/// </summary>
-		protected static RField r_HashPrime;
-		public static RField RHashPrime
+		protected static RSystem.RInt32 r_HashPrime;
+		public static RSystem.RInt32 RHashPrime
 		{
 			get
 			{
@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections
 		/// <summary>
 		/// System.Int32 InitialSize
 		/// </summary>
-		protected static RField r_InitialSize;
-		public static RField RInitialSize
+		protected static RSystem.RInt32 r_InitialSize;
+		public static RSystem.RInt32 RInitialSize
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections
 		/// <summary>
 		/// System.String LoadFactorName
 		/// </summary>
-		protected static RField r_LoadFactorName;
-		public static RField RLoadFactorName
+		protected static RSystem.RString r_LoadFactorName;
+		public static RSystem.RString RLoadFactorName
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections
 		/// <summary>
 		/// System.String VersionName
 		/// </summary>
-		protected static RField r_VersionName;
-		public static RField RVersionName
+		protected static RSystem.RString r_VersionName;
+		public static RSystem.RString RVersionName
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections
 		/// <summary>
 		/// System.String ComparerName
 		/// </summary>
-		protected static RField r_ComparerName;
-		public static RField RComparerName
+		protected static RSystem.RString r_ComparerName;
+		public static RSystem.RString RComparerName
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections
 		/// <summary>
 		/// System.String HashCodeProviderName
 		/// </summary>
-		protected static RField r_HashCodeProviderName;
-		public static RField RHashCodeProviderName
+		protected static RSystem.RString r_HashCodeProviderName;
+		public static RSystem.RString RHashCodeProviderName
 		{
 			get
 			{
@@ -115,8 +115,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections
 		/// <summary>
 		/// System.String HashSizeName
 		/// </summary>
-		protected static RField r_HashSizeName;
-		public static RField RHashSizeName
+		protected static RSystem.RString r_HashSizeName;
+		public static RSystem.RString RHashSizeName
 		{
 			get
 			{
@@ -132,8 +132,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections
 		/// <summary>
 		/// System.String KeysName
 		/// </summary>
-		protected static RField r_KeysName;
-		public static RField RKeysName
+		protected static RSystem.RString r_KeysName;
+		public static RSystem.RString RKeysName
 		{
 			get
 			{
@@ -149,8 +149,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections
 		/// <summary>
 		/// System.String ValuesName
 		/// </summary>
-		protected static RField r_ValuesName;
-		public static RField RValuesName
+		protected static RSystem.RString r_ValuesName;
+		public static RSystem.RString RValuesName
 		{
 			get
 			{
@@ -166,8 +166,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections
 		/// <summary>
 		/// System.String KeyComparerName
 		/// </summary>
-		protected static RField r_KeyComparerName;
-		public static RField RKeyComparerName
+		protected static RSystem.RString r_KeyComparerName;
+		public static RSystem.RString RKeyComparerName
 		{
 			get
 			{
@@ -200,8 +200,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections
 		/// <summary>
 		/// System.Int32 _count
 		/// </summary>
-		protected RField r__count;
-		public virtual RField R_count
+		protected RSystem.RInt32 r__count;
+		public virtual RSystem.RInt32 R_count
 		{
 			get
 			{
@@ -217,8 +217,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections
 		/// <summary>
 		/// System.Int32 _occupancy
 		/// </summary>
-		protected RField r__occupancy;
-		public virtual RField R_occupancy
+		protected RSystem.RInt32 r__occupancy;
+		public virtual RSystem.RInt32 R_occupancy
 		{
 			get
 			{
@@ -234,8 +234,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections
 		/// <summary>
 		/// System.Int32 _loadsize
 		/// </summary>
-		protected RField r__loadsize;
-		public virtual RField R_loadsize
+		protected RSystem.RInt32 r__loadsize;
+		public virtual RSystem.RInt32 R_loadsize
 		{
 			get
 			{
@@ -251,8 +251,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections
 		/// <summary>
 		/// System.Single _loadFactor
 		/// </summary>
-		protected RField r__loadFactor;
-		public virtual RField R_loadFactor
+		protected RSystem.RSingle r__loadFactor;
+		public virtual RSystem.RSingle R_loadFactor
 		{
 			get
 			{
@@ -268,8 +268,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections
 		/// <summary>
 		/// System.Int32 _version
 		/// </summary>
-		protected RField r__version;
-		public virtual RField R_version
+		protected RSystem.RInt32 r__version;
+		public virtual RSystem.RInt32 R_version
 		{
 			get
 			{
@@ -285,8 +285,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections
 		/// <summary>
 		/// System.Boolean _isWriterInProgress
 		/// </summary>
-		protected RField r__isWriterInProgress;
-		public virtual RField R_isWriterInProgress
+		protected RSystem.RBoolean r__isWriterInProgress;
+		public virtual RSystem.RBoolean R_isWriterInProgress
 		{
 			get
 			{
@@ -472,8 +472,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections
 		/// <summary>
 		/// Boolean IsReadOnly
 		/// </summary>
-		protected RProperty r_IsReadOnly;
-		public virtual RProperty RIsReadOnly
+		protected RSystem.RBoolean r_IsReadOnly;
+		public virtual RSystem.RBoolean RIsReadOnly
 		{
 			get
 			{
@@ -489,8 +489,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections
 		/// <summary>
 		/// Boolean IsFixedSize
 		/// </summary>
-		protected RProperty r_IsFixedSize;
-		public virtual RProperty RIsFixedSize
+		protected RSystem.RBoolean r_IsFixedSize;
+		public virtual RSystem.RBoolean RIsFixedSize
 		{
 			get
 			{
@@ -506,8 +506,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections
 		/// <summary>
 		/// Boolean IsSynchronized
 		/// </summary>
-		protected RProperty r_IsSynchronized;
-		public virtual RProperty RIsSynchronized
+		protected RSystem.RBoolean r_IsSynchronized;
+		public virtual RSystem.RBoolean RIsSynchronized
 		{
 			get
 			{
@@ -574,8 +574,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections
 		/// <summary>
 		/// Int32 Count
 		/// </summary>
-		protected RProperty r_Count;
-		public virtual RProperty RCount
+		protected RSystem.RInt32 r_Count;
+		public virtual RSystem.RInt32 RCount
 		{
 			get
 			{

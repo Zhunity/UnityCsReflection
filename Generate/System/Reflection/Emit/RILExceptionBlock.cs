@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Int32 CATCH
 		/// </summary>
-		protected static RField r_CATCH;
-		public static RField RCATCH
+		protected static RSystem.RInt32 r_CATCH;
+		public static RSystem.RInt32 RCATCH
 		{
 			get
 			{
@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Int32 FILTER
 		/// </summary>
-		protected static RField r_FILTER;
-		public static RField RFILTER
+		protected static RSystem.RInt32 r_FILTER;
+		public static RSystem.RInt32 RFILTER
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Int32 FINALLY
 		/// </summary>
-		protected static RField r_FINALLY;
-		public static RField RFINALLY
+		protected static RSystem.RInt32 r_FINALLY;
+		public static RSystem.RInt32 RFINALLY
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Int32 FAULT
 		/// </summary>
-		protected static RField r_FAULT;
-		public static RField RFAULT
+		protected static RSystem.RInt32 r_FAULT;
+		public static RSystem.RInt32 RFAULT
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Int32 FILTER_START
 		/// </summary>
-		protected static RField r_FILTER_START;
-		public static RField RFILTER_START
+		protected static RSystem.RInt32 r_FILTER_START;
+		public static RSystem.RInt32 RFILTER_START
 		{
 			get
 			{
@@ -115,8 +115,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Int32 type
 		/// </summary>
-		protected RField r_type;
-		public virtual RField Rtype
+		protected RSystem.RInt32 r_type;
+		public virtual RSystem.RInt32 Rtype
 		{
 			get
 			{
@@ -132,8 +132,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Int32 start
 		/// </summary>
-		protected RField r_start;
-		public virtual RField Rstart
+		protected RSystem.RInt32 r_start;
+		public virtual RSystem.RInt32 Rstart
 		{
 			get
 			{
@@ -149,8 +149,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Int32 len
 		/// </summary>
-		protected RField r_len;
-		public virtual RField Rlen
+		protected RSystem.RInt32 r_len;
+		public virtual RSystem.RInt32 Rlen
 		{
 			get
 			{
@@ -166,8 +166,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Int32 filter_offset
 		/// </summary>
-		protected RField r_filter_offset;
-		public virtual RField Rfilter_offset
+		protected RSystem.RInt32 r_filter_offset;
+		public virtual RSystem.RInt32 Rfilter_offset
 		{
 			get
 			{

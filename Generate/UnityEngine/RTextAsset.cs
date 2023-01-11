@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Byte[] bytes
 		/// </summary>
-		protected RPropertyArray<RProperty> r_bytes;
-		public virtual RPropertyArray<RProperty> Rbytes
+		protected RPropertyArray<RSystem.RByte> r_bytes;
+		public virtual RPropertyArray<RSystem.RByte> Rbytes
 		{
 			get
 			{
@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.String text
 		/// </summary>
-		protected RProperty r_text;
-		public virtual RProperty Rtext
+		protected RSystem.RString r_text;
+		public virtual RSystem.RString Rtext
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int64 dataSize
 		/// </summary>
-		protected RProperty r_dataSize;
-		public virtual RProperty RdataSize
+		protected RSystem.RInt64 r_dataSize;
+		public virtual RSystem.RInt64 RdataSize
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.String name
 		/// </summary>
-		protected RProperty r_name;
-		public virtual RProperty Rname
+		protected RSystem.RString r_name;
+		public virtual RSystem.RString Rname
 		{
 			get
 			{
@@ -451,14 +451,14 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Object GetData<T>() where T : struct
+        public virtual RUnity.RCollections.RNativeArray<RType> GetData<T>() where T : struct
         {
 
             var ___genericsType = new Type[] {typeof(T)};
             var ___parameters = new object[]{};
             var ___result = RGetData_GT.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RUnity.RCollections.RNativeArray<RType>(___result);
         }
 
 

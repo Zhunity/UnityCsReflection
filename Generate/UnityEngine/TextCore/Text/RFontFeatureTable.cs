@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Collections.Generic.Dictionary`2[System.UInt32,System.Collections.Generic.List`1[UnityEngine.TextCore.LowLevel.LigatureSubstitutionRecord]] m_LigatureSubstitutionRecordLookup
 		/// </summary>
-		protected RSystem.RCollections.RGeneric.RDictionary<RField, RSystem.RCollections.RGeneric.RList<RUnityEngine.RTextCore.RLowLevel.RLigatureSubstitutionRecord>> r_m_LigatureSubstitutionRecordLookup;
-		public virtual RSystem.RCollections.RGeneric.RDictionary<RField, RSystem.RCollections.RGeneric.RList<RUnityEngine.RTextCore.RLowLevel.RLigatureSubstitutionRecord>> Rm_LigatureSubstitutionRecordLookup
+		protected RSystem.RCollections.RGeneric.RDictionary<RSystem.RUInt32, RSystem.RCollections.RGeneric.RList<RUnityEngine.RTextCore.RLowLevel.RLigatureSubstitutionRecord>> r_m_LigatureSubstitutionRecordLookup;
+		public virtual RSystem.RCollections.RGeneric.RDictionary<RSystem.RUInt32, RSystem.RCollections.RGeneric.RList<RUnityEngine.RTextCore.RLowLevel.RLigatureSubstitutionRecord>> Rm_LigatureSubstitutionRecordLookup
 		{
 			get
 			{
@@ -115,8 +115,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Collections.Generic.Dictionary`2[System.UInt32,UnityEngine.TextCore.LowLevel.GlyphPairAdjustmentRecord] m_GlyphPairAdjustmentRecordLookup
 		/// </summary>
-		protected RSystem.RCollections.RGeneric.RDictionary<RField, RUnityEngine.RTextCore.RLowLevel.RGlyphPairAdjustmentRecord> r_m_GlyphPairAdjustmentRecordLookup;
-		public virtual RSystem.RCollections.RGeneric.RDictionary<RField, RUnityEngine.RTextCore.RLowLevel.RGlyphPairAdjustmentRecord> Rm_GlyphPairAdjustmentRecordLookup
+		protected RSystem.RCollections.RGeneric.RDictionary<RSystem.RUInt32, RUnityEngine.RTextCore.RLowLevel.RGlyphPairAdjustmentRecord> r_m_GlyphPairAdjustmentRecordLookup;
+		public virtual RSystem.RCollections.RGeneric.RDictionary<RSystem.RUInt32, RUnityEngine.RTextCore.RLowLevel.RGlyphPairAdjustmentRecord> Rm_GlyphPairAdjustmentRecordLookup
 		{
 			get
 			{
@@ -132,8 +132,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Collections.Generic.Dictionary`2[System.UInt32,UnityEngine.TextCore.LowLevel.MarkToBaseAdjustmentRecord] m_MarkToBaseAdjustmentRecordLookup
 		/// </summary>
-		protected RSystem.RCollections.RGeneric.RDictionary<RField, RUnityEngine.RTextCore.RLowLevel.RMarkToBaseAdjustmentRecord> r_m_MarkToBaseAdjustmentRecordLookup;
-		public virtual RSystem.RCollections.RGeneric.RDictionary<RField, RUnityEngine.RTextCore.RLowLevel.RMarkToBaseAdjustmentRecord> Rm_MarkToBaseAdjustmentRecordLookup
+		protected RSystem.RCollections.RGeneric.RDictionary<RSystem.RUInt32, RUnityEngine.RTextCore.RLowLevel.RMarkToBaseAdjustmentRecord> r_m_MarkToBaseAdjustmentRecordLookup;
+		public virtual RSystem.RCollections.RGeneric.RDictionary<RSystem.RUInt32, RUnityEngine.RTextCore.RLowLevel.RMarkToBaseAdjustmentRecord> Rm_MarkToBaseAdjustmentRecordLookup
 		{
 			get
 			{
@@ -149,8 +149,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Collections.Generic.Dictionary`2[System.UInt32,UnityEngine.TextCore.LowLevel.MarkToMarkAdjustmentRecord] m_MarkToMarkAdjustmentRecordLookup
 		/// </summary>
-		protected RSystem.RCollections.RGeneric.RDictionary<RField, RUnityEngine.RTextCore.RLowLevel.RMarkToMarkAdjustmentRecord> r_m_MarkToMarkAdjustmentRecordLookup;
-		public virtual RSystem.RCollections.RGeneric.RDictionary<RField, RUnityEngine.RTextCore.RLowLevel.RMarkToMarkAdjustmentRecord> Rm_MarkToMarkAdjustmentRecordLookup
+		protected RSystem.RCollections.RGeneric.RDictionary<RSystem.RUInt32, RUnityEngine.RTextCore.RLowLevel.RMarkToMarkAdjustmentRecord> r_m_MarkToMarkAdjustmentRecordLookup;
+		public virtual RSystem.RCollections.RGeneric.RDictionary<RSystem.RUInt32, RUnityEngine.RTextCore.RLowLevel.RMarkToMarkAdjustmentRecord> Rm_MarkToMarkAdjustmentRecordLookup
 		{
 			get
 			{

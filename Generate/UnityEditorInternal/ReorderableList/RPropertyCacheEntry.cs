@@ -32,8 +32,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditorInternal
 		/// <summary>
 		/// System.Single height
 		/// </summary>
-		protected RField r_height;
-		public virtual RField Rheight
+		protected RSystem.RSingle r_height;
+		public virtual RSystem.RSingle Rheight
 		{
 			get
 			{
@@ -49,8 +49,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditorInternal
 		/// <summary>
 		/// System.Single offset
 		/// </summary>
-		protected RField r_offset;
-		public virtual RField Roffset
+		protected RSystem.RSingle r_offset;
+		public virtual RSystem.RSingle Roffset
 		{
 			get
 			{
@@ -66,8 +66,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditorInternal
 		/// <summary>
 		/// System.Int32 controlCount
 		/// </summary>
-		protected RField r_controlCount;
-		public virtual RField RcontrolCount
+		protected RSystem.RInt32 r_controlCount;
+		public virtual RSystem.RInt32 RcontrolCount
 		{
 			get
 			{

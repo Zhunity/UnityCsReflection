@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RSynt
 		/// <summary>
 		/// System.Int32 m_CurrentTokenIndex
 		/// </summary>
-		protected RField r_m_CurrentTokenIndex;
-		public virtual RField Rm_CurrentTokenIndex
+		protected RSystem.RInt32 r_m_CurrentTokenIndex;
+		public virtual RSystem.RInt32 Rm_CurrentTokenIndex
 		{
 			get
 			{

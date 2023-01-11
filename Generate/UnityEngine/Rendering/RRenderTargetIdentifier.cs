@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Int32 AllDepthSlices
 		/// </summary>
-		protected static RField r_AllDepthSlices;
-		public static RField RAllDepthSlices
+		protected static RSystem.RInt32 r_AllDepthSlices;
+		public static RSystem.RInt32 RAllDepthSlices
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Int32 m_NameID
 		/// </summary>
-		protected RField r_m_NameID;
-		public virtual RField Rm_NameID
+		protected RSystem.RInt32 r_m_NameID;
+		public virtual RSystem.RInt32 Rm_NameID
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Int32 m_InstanceID
 		/// </summary>
-		protected RField r_m_InstanceID;
-		public virtual RField Rm_InstanceID
+		protected RSystem.RInt32 r_m_InstanceID;
+		public virtual RSystem.RInt32 Rm_InstanceID
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.IntPtr m_BufferPointer
 		/// </summary>
-		protected RField r_m_BufferPointer;
-		public virtual RField Rm_BufferPointer
+		protected RSystem.RIntPtr r_m_BufferPointer;
+		public virtual RSystem.RIntPtr Rm_BufferPointer
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Int32 m_MipLevel
 		/// </summary>
-		protected RField r_m_MipLevel;
-		public virtual RField Rm_MipLevel
+		protected RSystem.RInt32 r_m_MipLevel;
+		public virtual RSystem.RInt32 Rm_MipLevel
 		{
 			get
 			{
@@ -132,8 +132,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Int32 m_DepthSlice
 		/// </summary>
-		protected RField r_m_DepthSlice;
-		public virtual RField Rm_DepthSlice
+		protected RSystem.RInt32 r_m_DepthSlice;
+		public virtual RSystem.RInt32 Rm_DepthSlice
 		{
 			get
 			{

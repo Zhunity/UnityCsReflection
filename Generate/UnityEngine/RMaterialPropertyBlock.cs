@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.IntPtr m_Ptr
 		/// </summary>
-		protected RField r_m_Ptr;
-		public virtual RField Rm_Ptr
+		protected RSystem.RIntPtr r_m_Ptr;
+		public virtual RSystem.RIntPtr Rm_Ptr
 		{
 			get
 			{
@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Boolean isEmpty
 		/// </summary>
-		protected RProperty r_isEmpty;
-		public virtual RProperty RisEmpty
+		protected RSystem.RBoolean r_isEmpty;
+		public virtual RSystem.RBoolean RisEmpty
 		{
 			get
 			{

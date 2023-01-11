@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int32 <s_DoubleClickTime>k__BackingField
 		/// </summary>
-		protected static RField r___0__s_DoubleClickTime__1__k__BackingField;
-		public static RField R__0__s_DoubleClickTime__1__k__BackingField
+		protected static RSystem.RInt32 r___0__s_DoubleClickTime__1__k__BackingField;
+		public static RSystem.RInt32 R__0__s_DoubleClickTime__1__k__BackingField
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Int32 s_DoubleClickTime
 		/// </summary>
-		protected static RProperty r_s_DoubleClickTime;
-		public static RProperty Rs_DoubleClickTime
+		protected static RSystem.RInt32 r_s_DoubleClickTime;
+		public static RSystem.RInt32 Rs_DoubleClickTime
 		{
 			get
 			{

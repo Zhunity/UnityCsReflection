@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 vertexBufferCount
 		/// </summary>
-		protected RProperty r_vertexBufferCount;
-		public virtual RProperty RvertexBufferCount
+		protected RSystem.RInt32 r_vertexBufferCount;
+		public virtual RSystem.RInt32 RvertexBufferCount
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 blendShapeCount
 		/// </summary>
-		protected RProperty r_blendShapeCount;
-		public virtual RProperty RblendShapeCount
+		protected RSystem.RInt32 r_blendShapeCount;
+		public virtual RSystem.RInt32 RblendShapeCount
 		{
 			get
 			{
@@ -115,8 +115,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 bindposeCount
 		/// </summary>
-		protected RProperty r_bindposeCount;
-		public virtual RProperty RbindposeCount
+		protected RSystem.RInt32 r_bindposeCount;
+		public virtual RSystem.RInt32 RbindposeCount
 		{
 			get
 			{
@@ -149,8 +149,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Boolean isReadable
 		/// </summary>
-		protected RProperty r_isReadable;
-		public virtual RProperty RisReadable
+		protected RSystem.RBoolean r_isReadable;
+		public virtual RSystem.RBoolean RisReadable
 		{
 			get
 			{
@@ -166,8 +166,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Boolean canAccess
 		/// </summary>
-		protected RProperty r_canAccess;
-		public virtual RProperty RcanAccess
+		protected RSystem.RBoolean r_canAccess;
+		public virtual RSystem.RBoolean RcanAccess
 		{
 			get
 			{
@@ -183,8 +183,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 vertexCount
 		/// </summary>
-		protected RProperty r_vertexCount;
-		public virtual RProperty RvertexCount
+		protected RSystem.RInt32 r_vertexCount;
+		public virtual RSystem.RInt32 RvertexCount
 		{
 			get
 			{
@@ -200,8 +200,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 subMeshCount
 		/// </summary>
-		protected RProperty r_subMeshCount;
-		public virtual RProperty RsubMeshCount
+		protected RSystem.RInt32 r_subMeshCount;
+		public virtual RSystem.RInt32 RsubMeshCount
 		{
 			get
 			{
@@ -455,8 +455,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 vertexAttributeCount
 		/// </summary>
-		protected RProperty r_vertexAttributeCount;
-		public virtual RProperty RvertexAttributeCount
+		protected RSystem.RInt32 r_vertexAttributeCount;
+		public virtual RSystem.RInt32 RvertexAttributeCount
 		{
 			get
 			{
@@ -472,8 +472,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32[] triangles
 		/// </summary>
-		protected RPropertyArray<RProperty> r_triangles;
-		public virtual RPropertyArray<RProperty> Rtriangles
+		protected RPropertyArray<RSystem.RInt32> r_triangles;
+		public virtual RPropertyArray<RSystem.RInt32> Rtriangles
 		{
 			get
 			{
@@ -523,8 +523,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.String name
 		/// </summary>
-		protected RProperty r_name;
-		public virtual RProperty Rname
+		protected RSystem.RString r_name;
+		public virtual RSystem.RString Rname
 		{
 			get
 			{
@@ -5971,6 +5971,16 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
+        public virtual void SetBoneWeights(RUnity.RCollections.RNativeArray<RSystem.RByte> @bonesPerVertex, RUnity.RCollections.RNativeArray<RUnityEngine.RBoneWeight1> @weights)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@bonesPerVertex.Value, @weights.Value};
+            var ___result = RSetBoneWeights_NativeArray_d_Byte_p__NativeArray_d_BoneWeight1_p_.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
 
         public virtual void InternalSetBoneWeights(System.IntPtr @bonesPerVertex, System.Int32 @bonesPerVertexSize, System.IntPtr @weights, System.Int32 @weightsSize)
         {
@@ -5983,25 +5993,25 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Object GetAllBoneWeights()
+        public virtual RUnity.RCollections.RNativeArray<RUnityEngine.RBoneWeight1> GetAllBoneWeights()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RGetAllBoneWeights.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RUnity.RCollections.RNativeArray<RUnityEngine.RBoneWeight1>(___result);
         }
 
 
-        public virtual System.Object GetBonesPerVertex()
+        public virtual RUnity.RCollections.RNativeArray<RSystem.RByte> GetBonesPerVertex()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RGetBonesPerVertex.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RUnity.RCollections.RNativeArray<RSystem.RByte>(___result);
         }
 
 
@@ -6049,14 +6059,14 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Object GetBindposes()
+        public virtual RUnity.RCollections.RNativeArray<RUnityEngine.RMatrix4x4> GetBindposes()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RGetBindposes.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RUnity.RCollections.RNativeArray<RUnityEngine.RMatrix4x4>(___result);
         }
 
 
@@ -6522,7 +6532,37 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
+        public virtual void SetVertices<T>(RUnity.RCollections.RNativeArray<RType> @inVertices) where T : struct
+        {
 
+            var ___genericsType = new Type[] {typeof(T)};
+            var ___parameters = new object[]{@inVertices.Value};
+            var ___result = RSetVertices_GT_NativeArray_d_T_p_.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void SetVertices<T>(RUnity.RCollections.RNativeArray<RType> @inVertices, System.Int32 @start, System.Int32 @length) where T : struct
+        {
+
+            var ___genericsType = new Type[] {typeof(T)};
+            var ___parameters = new object[]{@inVertices.Value, @start, @length};
+            var ___result = RSetVertices_GT_NativeArray_d_T_p__Int32_Int32.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void SetVertices<T>(RUnity.RCollections.RNativeArray<RType> @inVertices, System.Int32 @start, System.Int32 @length, UnityEngine.Rendering.MeshUpdateFlags @flags) where T : struct
+        {
+
+            var ___genericsType = new Type[] {typeof(T)};
+            var ___parameters = new object[]{@inVertices.Value, @start, @length, @flags};
+            var ___result = RSetVertices_GT_NativeArray_d_T_p__Int32_Int32_MeshUpdateFlags.Invoke(___genericsType, ___parameters);
+
+            
+        }
 
 
         public virtual void GetNormals(System.Collections.Generic.List<UnityEngine.Vector3> @normals)
@@ -6602,7 +6642,37 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
+        public virtual void SetNormals<T>(RUnity.RCollections.RNativeArray<RType> @inNormals) where T : struct
+        {
 
+            var ___genericsType = new Type[] {typeof(T)};
+            var ___parameters = new object[]{@inNormals.Value};
+            var ___result = RSetNormals_GT_NativeArray_d_T_p_.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void SetNormals<T>(RUnity.RCollections.RNativeArray<RType> @inNormals, System.Int32 @start, System.Int32 @length) where T : struct
+        {
+
+            var ___genericsType = new Type[] {typeof(T)};
+            var ___parameters = new object[]{@inNormals.Value, @start, @length};
+            var ___result = RSetNormals_GT_NativeArray_d_T_p__Int32_Int32.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void SetNormals<T>(RUnity.RCollections.RNativeArray<RType> @inNormals, System.Int32 @start, System.Int32 @length, UnityEngine.Rendering.MeshUpdateFlags @flags) where T : struct
+        {
+
+            var ___genericsType = new Type[] {typeof(T)};
+            var ___parameters = new object[]{@inNormals.Value, @start, @length, @flags};
+            var ___result = RSetNormals_GT_NativeArray_d_T_p__Int32_Int32_MeshUpdateFlags.Invoke(___genericsType, ___parameters);
+
+            
+        }
 
 
         public virtual void GetTangents(System.Collections.Generic.List<UnityEngine.Vector4> @tangents)
@@ -6682,7 +6752,37 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
+        public virtual void SetTangents<T>(RUnity.RCollections.RNativeArray<RType> @inTangents) where T : struct
+        {
 
+            var ___genericsType = new Type[] {typeof(T)};
+            var ___parameters = new object[]{@inTangents.Value};
+            var ___result = RSetTangents_GT_NativeArray_d_T_p_.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void SetTangents<T>(RUnity.RCollections.RNativeArray<RType> @inTangents, System.Int32 @start, System.Int32 @length) where T : struct
+        {
+
+            var ___genericsType = new Type[] {typeof(T)};
+            var ___parameters = new object[]{@inTangents.Value, @start, @length};
+            var ___result = RSetTangents_GT_NativeArray_d_T_p__Int32_Int32.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void SetTangents<T>(RUnity.RCollections.RNativeArray<RType> @inTangents, System.Int32 @start, System.Int32 @length, UnityEngine.Rendering.MeshUpdateFlags @flags) where T : struct
+        {
+
+            var ___genericsType = new Type[] {typeof(T)};
+            var ___parameters = new object[]{@inTangents.Value, @start, @length, @flags};
+            var ___result = RSetTangents_GT_NativeArray_d_T_p__Int32_Int32_MeshUpdateFlags.Invoke(___genericsType, ___parameters);
+
+            
+        }
 
 
         public virtual void GetColors(System.Collections.Generic.List<UnityEngine.Color> @colors)
@@ -6839,7 +6939,37 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
+        public virtual void SetColors<T>(RUnity.RCollections.RNativeArray<RType> @inColors) where T : struct
+        {
 
+            var ___genericsType = new Type[] {typeof(T)};
+            var ___parameters = new object[]{@inColors.Value};
+            var ___result = RSetColors_GT_NativeArray_d_T_p_.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void SetColors<T>(RUnity.RCollections.RNativeArray<RType> @inColors, System.Int32 @start, System.Int32 @length) where T : struct
+        {
+
+            var ___genericsType = new Type[] {typeof(T)};
+            var ___parameters = new object[]{@inColors.Value, @start, @length};
+            var ___result = RSetColors_GT_NativeArray_d_T_p__Int32_Int32.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void SetColors<T>(RUnity.RCollections.RNativeArray<RType> @inColors, System.Int32 @start, System.Int32 @length, UnityEngine.Rendering.MeshUpdateFlags @flags) where T : struct
+        {
+
+            var ___genericsType = new Type[] {typeof(T)};
+            var ___parameters = new object[]{@inColors.Value, @start, @length, @flags};
+            var ___result = RSetColors_GT_NativeArray_d_T_p__Int32_Int32_MeshUpdateFlags.Invoke(___genericsType, ___parameters);
+
+            
+        }
 
 
         public virtual void SetUvsImpl<T>(System.Int32 @uvIndex, System.Int32 @dim, System.Collections.Generic.List<T> @uvs, System.Int32 @start, System.Int32 @length, UnityEngine.Rendering.MeshUpdateFlags @flags)
@@ -7062,7 +7192,37 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
+        public virtual void SetUVs<T>(System.Int32 @channel, RUnity.RCollections.RNativeArray<RType> @uvs) where T : struct
+        {
 
+            var ___genericsType = new Type[] {typeof(T)};
+            var ___parameters = new object[]{@channel, @uvs.Value};
+            var ___result = RSetUVs_GT_Int32_NativeArray_d_T_p_.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void SetUVs<T>(System.Int32 @channel, RUnity.RCollections.RNativeArray<RType> @uvs, System.Int32 @start, System.Int32 @length) where T : struct
+        {
+
+            var ___genericsType = new Type[] {typeof(T)};
+            var ___parameters = new object[]{@channel, @uvs.Value, @start, @length};
+            var ___result = RSetUVs_GT_Int32_NativeArray_d_T_p__Int32_Int32.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void SetUVs<T>(System.Int32 @channel, RUnity.RCollections.RNativeArray<RType> @uvs, System.Int32 @start, System.Int32 @length, UnityEngine.Rendering.MeshUpdateFlags @flags) where T : struct
+        {
+
+            var ___genericsType = new Type[] {typeof(T)};
+            var ___parameters = new object[]{@channel, @uvs.Value, @start, @length, @flags};
+            var ___result = RSetUVs_GT_Int32_NativeArray_d_T_p__Int32_Int32_MeshUpdateFlags.Invoke(___genericsType, ___parameters);
+
+            
+        }
 
 
         public virtual void GetUVsImpl<T>(System.Int32 @uvIndex, System.Collections.Generic.List<T> @uvs, System.Int32 @dim)
@@ -7153,24 +7313,44 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
+        public virtual void SetVertexBufferParams(System.Int32 @vertexCount, RUnity.RCollections.RNativeArray<RUnityEngine.RRendering.RVertexAttributeDescriptor> @attributes)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@vertexCount, @attributes.Value};
+            var ___result = RSetVertexBufferParams_Int32_NativeArray_d_VertexAttributeDescriptor_p_.Invoke(___genericsType, ___parameters);
+
+            
+        }
 
 
-        public virtual void SetVertexBufferData<T>(T[] @data, System.Int32 @dataStart, System.Int32 @meshBufferStart, System.Int32 @count, System.Int32 @stream, UnityEngine.Rendering.MeshUpdateFlags @flags) where T : struct
+        public virtual void SetVertexBufferData<T>(RUnity.RCollections.RNativeArray<RType> @data, System.Int32 @dataStart, System.Int32 @meshBufferStart, System.Int32 @count, System.Int32 @stream, UnityEngine.Rendering.MeshUpdateFlags @flags) where T : struct
         {
 
             var ___genericsType = new Type[] {typeof(T)};
-            var ___parameters = new object[]{@data, @dataStart, @meshBufferStart, @count, @stream, @flags};
+            var ___parameters = new object[]{@data.Value, @dataStart, @meshBufferStart, @count, @stream, @flags};
+            var ___result = RSetVertexBufferData_GT_NativeArray_d_T_p__Int32_Int32_Int32_Int32_MeshUpdateFlags.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void SetVertexBufferData<T>(RTypeArray<RType> @data, System.Int32 @dataStart, System.Int32 @meshBufferStart, System.Int32 @count, System.Int32 @stream, UnityEngine.Rendering.MeshUpdateFlags @flags) where T : struct
+        {
+
+            var ___genericsType = new Type[] {typeof(T)};
+            var ___parameters = new object[]{@data.Value, @dataStart, @meshBufferStart, @count, @stream, @flags};
             var ___result = RSetVertexBufferData_GT_TArray_Int32_Int32_Int32_Int32_MeshUpdateFlags.Invoke(___genericsType, ___parameters);
 
             
         }
 
 
-        public virtual void SetVertexBufferData<T>(System.Collections.Generic.List<T> @data, System.Int32 @dataStart, System.Int32 @meshBufferStart, System.Int32 @count, System.Int32 @stream, UnityEngine.Rendering.MeshUpdateFlags @flags) where T : struct
+        public virtual void SetVertexBufferData<T>(RSystem.RCollections.RGeneric.RList<RType> @data, System.Int32 @dataStart, System.Int32 @meshBufferStart, System.Int32 @count, System.Int32 @stream, UnityEngine.Rendering.MeshUpdateFlags @flags) where T : struct
         {
 
             var ___genericsType = new Type[] {typeof(T)};
-            var ___parameters = new object[]{@data, @dataStart, @meshBufferStart, @count, @stream, @flags};
+            var ___parameters = new object[]{@data.Value, @dataStart, @meshBufferStart, @count, @stream, @flags};
             var ___result = RSetVertexBufferData_GT_List_d_T_p__Int32_Int32_Int32_Int32_MeshUpdateFlags.Invoke(___genericsType, ___parameters);
 
             
@@ -7474,23 +7654,33 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-
-        public virtual void SetIndexBufferData<T>(T[] @data, System.Int32 @dataStart, System.Int32 @meshBufferStart, System.Int32 @count, UnityEngine.Rendering.MeshUpdateFlags @flags) where T : struct
+        public virtual void SetIndexBufferData<T>(RUnity.RCollections.RNativeArray<RType> @data, System.Int32 @dataStart, System.Int32 @meshBufferStart, System.Int32 @count, UnityEngine.Rendering.MeshUpdateFlags @flags) where T : struct
         {
 
             var ___genericsType = new Type[] {typeof(T)};
-            var ___parameters = new object[]{@data, @dataStart, @meshBufferStart, @count, @flags};
+            var ___parameters = new object[]{@data.Value, @dataStart, @meshBufferStart, @count, @flags};
+            var ___result = RSetIndexBufferData_GT_NativeArray_d_T_p__Int32_Int32_Int32_MeshUpdateFlags.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void SetIndexBufferData<T>(RTypeArray<RType> @data, System.Int32 @dataStart, System.Int32 @meshBufferStart, System.Int32 @count, UnityEngine.Rendering.MeshUpdateFlags @flags) where T : struct
+        {
+
+            var ___genericsType = new Type[] {typeof(T)};
+            var ___parameters = new object[]{@data.Value, @dataStart, @meshBufferStart, @count, @flags};
             var ___result = RSetIndexBufferData_GT_TArray_Int32_Int32_Int32_MeshUpdateFlags.Invoke(___genericsType, ___parameters);
 
             
         }
 
 
-        public virtual void SetIndexBufferData<T>(System.Collections.Generic.List<T> @data, System.Int32 @dataStart, System.Int32 @meshBufferStart, System.Int32 @count, UnityEngine.Rendering.MeshUpdateFlags @flags) where T : struct
+        public virtual void SetIndexBufferData<T>(RSystem.RCollections.RGeneric.RList<RType> @data, System.Int32 @dataStart, System.Int32 @meshBufferStart, System.Int32 @count, UnityEngine.Rendering.MeshUpdateFlags @flags) where T : struct
         {
 
             var ___genericsType = new Type[] {typeof(T)};
-            var ___parameters = new object[]{@data, @dataStart, @meshBufferStart, @count, @flags};
+            var ___parameters = new object[]{@data.Value, @dataStart, @meshBufferStart, @count, @flags};
             var ___result = RSetIndexBufferData_GT_List_d_T_p__Int32_Int32_Int32_MeshUpdateFlags.Invoke(___genericsType, ___parameters);
 
             
@@ -7750,6 +7940,26 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
+        public virtual void SetIndices<T>(RUnity.RCollections.RNativeArray<RType> @indices, UnityEngine.MeshTopology @topology, System.Int32 @submesh, System.Boolean @calculateBounds, System.Int32 @baseVertex) where T : struct
+        {
+
+            var ___genericsType = new Type[] {typeof(T)};
+            var ___parameters = new object[]{@indices.Value, @topology, @submesh, @calculateBounds, @baseVertex};
+            var ___result = RSetIndices_GT_NativeArray_d_T_p__MeshTopology_Int32_Boolean_Int32.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void SetIndices<T>(RUnity.RCollections.RNativeArray<RType> @indices, System.Int32 @indicesStart, System.Int32 @indicesLength, UnityEngine.MeshTopology @topology, System.Int32 @submesh, System.Boolean @calculateBounds, System.Int32 @baseVertex) where T : struct
+        {
+
+            var ___genericsType = new Type[] {typeof(T)};
+            var ___parameters = new object[]{@indices.Value, @indicesStart, @indicesLength, @topology, @submesh, @calculateBounds, @baseVertex};
+            var ___result = RSetIndices_GT_NativeArray_d_T_p__Int32_Int32_MeshTopology_Int32_Boolean_Int32.Invoke(___genericsType, ___parameters);
+
+            
+        }
 
 
         public virtual void SetIndices(System.Collections.Generic.List<System.Int32> @indices, UnityEngine.MeshTopology @topology, System.Int32 @submesh, System.Boolean @calculateBounds, System.Int32 @baseVertex)
@@ -7840,6 +8050,26 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
+        public virtual void SetSubMeshes<T>(RUnity.RCollections.RNativeArray<RType> @desc, System.Int32 @start, System.Int32 @count, UnityEngine.Rendering.MeshUpdateFlags @flags) where T : struct
+        {
+
+            var ___genericsType = new Type[] {typeof(T)};
+            var ___parameters = new object[]{@desc.Value, @start, @count, @flags};
+            var ___result = RSetSubMeshes_GT_NativeArray_d_T_p__Int32_Int32_MeshUpdateFlags.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void SetSubMeshes<T>(RUnity.RCollections.RNativeArray<RType> @desc, UnityEngine.Rendering.MeshUpdateFlags @flags) where T : struct
+        {
+
+            var ___genericsType = new Type[] {typeof(T)};
+            var ___parameters = new object[]{@desc.Value, @flags};
+            var ___result = RSetSubMeshes_GT_NativeArray_d_T_p__MeshUpdateFlags.Invoke(___genericsType, ___parameters);
+
+            
+        }
 
 
         public virtual void GetBindposes(System.Collections.Generic.List<UnityEngine.Matrix4x4> @bindposes)

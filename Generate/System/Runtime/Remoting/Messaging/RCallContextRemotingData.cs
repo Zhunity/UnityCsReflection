@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
 		/// <summary>
 		/// System.String _logicalCallID
 		/// </summary>
-		protected RField r__logicalCallID;
-		public virtual RField R_logicalCallID
+		protected RSystem.RString r__logicalCallID;
+		public virtual RSystem.RString R_logicalCallID
 		{
 			get
 			{
@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
 		/// <summary>
 		/// System.String LogicalCallID
 		/// </summary>
-		protected RProperty r_LogicalCallID;
-		public virtual RProperty RLogicalCallID
+		protected RSystem.RString r_LogicalCallID;
+		public virtual RSystem.RString RLogicalCallID
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
 		/// <summary>
 		/// Boolean HasInfo
 		/// </summary>
-		protected RProperty r_HasInfo;
-		public virtual RProperty RHasInfo
+		protected RSystem.RBoolean r_HasInfo;
+		public virtual RSystem.RBoolean RHasInfo
 		{
 			get
 			{

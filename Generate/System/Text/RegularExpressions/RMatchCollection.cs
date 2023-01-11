@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Boolean _done
 		/// </summary>
-		protected RField r__done;
-		public virtual RField R_done
+		protected RSystem.RBoolean r__done;
+		public virtual RSystem.RBoolean R_done
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.String _input
 		/// </summary>
-		protected RField r__input;
-		public virtual RField R_input
+		protected RSystem.RString r__input;
+		public virtual RSystem.RString R_input
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Int32 _beginning
 		/// </summary>
-		protected RField r__beginning;
-		public virtual RField R_beginning
+		protected RSystem.RInt32 r__beginning;
+		public virtual RSystem.RInt32 R_beginning
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Int32 _length
 		/// </summary>
-		protected RField r__length;
-		public virtual RField R_length
+		protected RSystem.RInt32 r__length;
+		public virtual RSystem.RInt32 R_length
 		{
 			get
 			{
@@ -115,8 +115,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Int32 _startat
 		/// </summary>
-		protected RField r__startat;
-		public virtual RField R_startat
+		protected RSystem.RInt32 r__startat;
+		public virtual RSystem.RInt32 R_startat
 		{
 			get
 			{
@@ -132,8 +132,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Int32 _prevlen
 		/// </summary>
-		protected RField r__prevlen;
-		public virtual RField R_prevlen
+		protected RSystem.RInt32 r__prevlen;
+		public virtual RSystem.RInt32 R_prevlen
 		{
 			get
 			{
@@ -149,8 +149,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// Boolean IsReadOnly
 		/// </summary>
-		protected RProperty r_IsReadOnly;
-		public virtual RProperty RIsReadOnly
+		protected RSystem.RBoolean r_IsReadOnly;
+		public virtual RSystem.RBoolean RIsReadOnly
 		{
 			get
 			{
@@ -166,8 +166,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// Int32 Count
 		/// </summary>
-		protected RProperty r_Count;
-		public virtual RProperty RCount
+		protected RSystem.RInt32 r_Count;
+		public virtual RSystem.RInt32 RCount
 		{
 			get
 			{
@@ -200,8 +200,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// Boolean IsSynchronized
 		/// </summary>
-		protected RProperty r_IsSynchronized;
-		public virtual RProperty RIsSynchronized
+		protected RSystem.RBoolean r_IsSynchronized;
+		public virtual RSystem.RBoolean RIsSynchronized
 		{
 			get
 			{
@@ -251,8 +251,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// Boolean System.Collections.IList.IsFixedSize
 		/// </summary>
-		protected RProperty r_System__2__Collections__2__IList__2__IsFixedSize;
-		public virtual RProperty RSystem__2__Collections__2__IList__2__IsFixedSize
+		protected RSystem.RBoolean r_System__2__Collections__2__IList__2__IsFixedSize;
+		public virtual RSystem.RBoolean RSystem__2__Collections__2__IList__2__IsFixedSize
 		{
 			get
 			{

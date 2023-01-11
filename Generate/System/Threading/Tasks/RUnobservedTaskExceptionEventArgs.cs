@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 		/// <summary>
 		/// System.Boolean m_observed
 		/// </summary>
-		protected RField r_m_observed;
-		public virtual RField Rm_observed
+		protected RSystem.RBoolean r_m_observed;
+		public virtual RSystem.RBoolean Rm_observed
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 		/// <summary>
 		/// Boolean Observed
 		/// </summary>
-		protected RProperty r_Observed;
-		public virtual RProperty RObserved
+		protected RSystem.RBoolean r_Observed;
+		public virtual RSystem.RBoolean RObserved
 		{
 			get
 			{

@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.UInt32 settingIndex
 		/// </summary>
-		protected RField r_settingIndex;
-		public virtual RField RsettingIndex
+		protected RSystem.RUInt32 r_settingIndex;
+		public virtual RSystem.RUInt32 RsettingIndex
 		{
 			get
 			{

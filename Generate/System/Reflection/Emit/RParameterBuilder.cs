@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.String name
 		/// </summary>
-		protected RField r_name;
-		public virtual RField Rname
+		protected RSystem.RString r_name;
+		public virtual RSystem.RString Rname
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Int32 position
 		/// </summary>
-		protected RField r_position;
-		public virtual RField Rposition
+		protected RSystem.RInt32 r_position;
+		public virtual RSystem.RInt32 Rposition
 		{
 			get
 			{
@@ -115,8 +115,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Int32 table_idx
 		/// </summary>
-		protected RField r_table_idx;
-		public virtual RField Rtable_idx
+		protected RSystem.RInt32 r_table_idx;
+		public virtual RSystem.RInt32 Rtable_idx
 		{
 			get
 			{
@@ -149,8 +149,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// Int32 Attributes
 		/// </summary>
-		protected RProperty r_Attributes;
-		public virtual RProperty RAttributes
+		protected RSystem.RInt32 r_Attributes;
+		public virtual RSystem.RInt32 RAttributes
 		{
 			get
 			{
@@ -166,8 +166,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// Boolean IsIn
 		/// </summary>
-		protected RProperty r_IsIn;
-		public virtual RProperty RIsIn
+		protected RSystem.RBoolean r_IsIn;
+		public virtual RSystem.RBoolean RIsIn
 		{
 			get
 			{
@@ -183,8 +183,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// Boolean IsOut
 		/// </summary>
-		protected RProperty r_IsOut;
-		public virtual RProperty RIsOut
+		protected RSystem.RBoolean r_IsOut;
+		public virtual RSystem.RBoolean RIsOut
 		{
 			get
 			{
@@ -200,8 +200,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// Boolean IsOptional
 		/// </summary>
-		protected RProperty r_IsOptional;
-		public virtual RProperty RIsOptional
+		protected RSystem.RBoolean r_IsOptional;
+		public virtual RSystem.RBoolean RIsOptional
 		{
 			get
 			{
@@ -217,8 +217,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.String Name
 		/// </summary>
-		protected RProperty r_Name;
-		public virtual RProperty RName
+		protected RSystem.RString r_Name;
+		public virtual RSystem.RString RName
 		{
 			get
 			{
@@ -234,8 +234,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// Int32 Position
 		/// </summary>
-		protected RProperty r_Position;
-		public virtual RProperty RPosition
+		protected RSystem.RInt32 r_Position;
+		public virtual RSystem.RInt32 RPosition
 		{
 			get
 			{

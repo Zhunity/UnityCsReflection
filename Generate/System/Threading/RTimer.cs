@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Int64 due_time_ms
 		/// </summary>
-		protected RField r_due_time_ms;
-		public virtual RField Rdue_time_ms
+		protected RSystem.RInt64 r_due_time_ms;
+		public virtual RSystem.RInt64 Rdue_time_ms
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Int64 period_ms
 		/// </summary>
-		protected RField r_period_ms;
-		public virtual RField Rperiod_ms
+		protected RSystem.RInt64 r_period_ms;
+		public virtual RSystem.RInt64 Rperiod_ms
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Int64 next_run
 		/// </summary>
-		protected RField r_next_run;
-		public virtual RField Rnext_run
+		protected RSystem.RInt64 r_next_run;
+		public virtual RSystem.RInt64 Rnext_run
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Boolean disposed
 		/// </summary>
-		protected RField r_disposed;
-		public virtual RField Rdisposed
+		protected RSystem.RBoolean r_disposed;
+		public virtual RSystem.RBoolean Rdisposed
 		{
 			get
 			{
@@ -115,8 +115,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Boolean is_dead
 		/// </summary>
-		protected RField r_is_dead;
-		public virtual RField Ris_dead
+		protected RSystem.RBoolean r_is_dead;
+		public virtual RSystem.RBoolean Ris_dead
 		{
 			get
 			{
@@ -132,8 +132,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Boolean is_added
 		/// </summary>
-		protected RField r_is_added;
-		public virtual RField Ris_added
+		protected RSystem.RBoolean r_is_added;
+		public virtual RSystem.RBoolean Ris_added
 		{
 			get
 			{
@@ -149,8 +149,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Int64 MaxValue
 		/// </summary>
-		protected static RField r_MaxValue;
-		public static RField RMaxValue
+		protected static RSystem.RInt64 r_MaxValue;
+		public static RSystem.RInt64 RMaxValue
 		{
 			get
 			{

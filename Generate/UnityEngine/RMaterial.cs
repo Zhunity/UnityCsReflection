@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 renderQueue
 		/// </summary>
-		protected RProperty r_renderQueue;
-		public virtual RProperty RrenderQueue
+		protected RSystem.RInt32 r_renderQueue;
+		public virtual RSystem.RInt32 RrenderQueue
 		{
 			get
 			{
@@ -115,8 +115,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 rawRenderQueue
 		/// </summary>
-		protected RProperty r_rawRenderQueue;
-		public virtual RProperty RrawRenderQueue
+		protected RSystem.RInt32 r_rawRenderQueue;
+		public virtual RSystem.RInt32 RrawRenderQueue
 		{
 			get
 			{
@@ -166,8 +166,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Boolean doubleSidedGI
 		/// </summary>
-		protected RProperty r_doubleSidedGI;
-		public virtual RProperty RdoubleSidedGI
+		protected RSystem.RBoolean r_doubleSidedGI;
+		public virtual RSystem.RBoolean RdoubleSidedGI
 		{
 			get
 			{
@@ -183,8 +183,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Boolean enableInstancing
 		/// </summary>
-		protected RProperty r_enableInstancing;
-		public virtual RProperty RenableInstancing
+		protected RSystem.RBoolean r_enableInstancing;
+		public virtual RSystem.RBoolean RenableInstancing
 		{
 			get
 			{
@@ -200,8 +200,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 passCount
 		/// </summary>
-		protected RProperty r_passCount;
-		public virtual RProperty RpassCount
+		protected RSystem.RInt32 r_passCount;
+		public virtual RSystem.RInt32 RpassCount
 		{
 			get
 			{
@@ -217,8 +217,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.String[] shaderKeywords
 		/// </summary>
-		protected RPropertyArray<RProperty> r_shaderKeywords;
-		public virtual RPropertyArray<RProperty> RshaderKeywords
+		protected RPropertyArray<RSystem.RString> r_shaderKeywords;
+		public virtual RPropertyArray<RSystem.RString> RshaderKeywords
 		{
 			get
 			{
@@ -251,8 +251,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Boolean isVariant
 		/// </summary>
-		protected RProperty r_isVariant;
-		public virtual RProperty RisVariant
+		protected RSystem.RBoolean r_isVariant;
+		public virtual RSystem.RBoolean RisVariant
 		{
 			get
 			{
@@ -268,8 +268,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 overrideCount
 		/// </summary>
-		protected RProperty r_overrideCount;
-		public virtual RProperty RoverrideCount
+		protected RSystem.RInt32 r_overrideCount;
+		public virtual RSystem.RInt32 RoverrideCount
 		{
 			get
 			{
@@ -285,8 +285,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 lockCount
 		/// </summary>
-		protected RProperty r_lockCount;
-		public virtual RProperty RlockCount
+		protected RSystem.RInt32 r_lockCount;
+		public virtual RSystem.RInt32 RlockCount
 		{
 			get
 			{
@@ -302,8 +302,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.String name
 		/// </summary>
-		protected RProperty r_name;
-		public virtual RProperty Rname
+		protected RSystem.RString r_name;
+		public virtual RSystem.RString Rname
 		{
 			get
 			{

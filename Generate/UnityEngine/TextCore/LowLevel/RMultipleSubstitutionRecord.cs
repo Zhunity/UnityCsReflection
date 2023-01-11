@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 		/// <summary>
 		/// System.UInt32 m_TargetGlyphID
 		/// </summary>
-		protected RField r_m_TargetGlyphID;
-		public virtual RField Rm_TargetGlyphID
+		protected RSystem.RUInt32 r_m_TargetGlyphID;
+		public virtual RSystem.RUInt32 Rm_TargetGlyphID
 		{
 			get
 			{
@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 		/// <summary>
 		/// System.UInt32[] m_SubstituteGlyphIDs
 		/// </summary>
-		protected RFieldArray<RField> r_m_SubstituteGlyphIDs;
-		public virtual RFieldArray<RField> Rm_SubstituteGlyphIDs
+		protected RFieldArray<RSystem.RUInt32> r_m_SubstituteGlyphIDs;
+		public virtual RFieldArray<RSystem.RUInt32> Rm_SubstituteGlyphIDs
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 		/// <summary>
 		/// UInt32 targetGlyphID
 		/// </summary>
-		protected RProperty r_targetGlyphID;
-		public virtual RProperty RtargetGlyphID
+		protected RSystem.RUInt32 r_targetGlyphID;
+		public virtual RSystem.RUInt32 RtargetGlyphID
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 		/// <summary>
 		/// UInt32[] substituteGlyphIDs
 		/// </summary>
-		protected RPropertyArray<RProperty> r_substituteGlyphIDs;
-		public virtual RPropertyArray<RProperty> RsubstituteGlyphIDs
+		protected RPropertyArray<RSystem.RUInt32> r_substituteGlyphIDs;
+		public virtual RPropertyArray<RSystem.RUInt32> RsubstituteGlyphIDs
 		{
 			get
 			{

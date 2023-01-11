@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
 		/// <summary>
 		/// System.String HeaderNamespace
 		/// </summary>
-		protected RField r_HeaderNamespace;
-		public virtual RField RHeaderNamespace
+		protected RSystem.RString r_HeaderNamespace;
+		public virtual RSystem.RString RHeaderNamespace
 		{
 			get
 			{
@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
 		/// <summary>
 		/// System.Boolean MustUnderstand
 		/// </summary>
-		protected RField r_MustUnderstand;
-		public virtual RField RMustUnderstand
+		protected RSystem.RBoolean r_MustUnderstand;
+		public virtual RSystem.RBoolean RMustUnderstand
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
 		/// <summary>
 		/// System.String Name
 		/// </summary>
-		protected RField r_Name;
-		public virtual RField RName
+		protected RSystem.RString r_Name;
+		public virtual RSystem.RString RName
 		{
 			get
 			{

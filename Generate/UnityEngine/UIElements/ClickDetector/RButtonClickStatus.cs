@@ -49,8 +49,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int64 m_LastPointerDownTime
 		/// </summary>
-		protected RField r_m_LastPointerDownTime;
-		public virtual RField Rm_LastPointerDownTime
+		protected RSystem.RInt64 r_m_LastPointerDownTime;
+		public virtual RSystem.RInt64 Rm_LastPointerDownTime
 		{
 			get
 			{
@@ -66,8 +66,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int32 m_ClickCount
 		/// </summary>
-		protected RField r_m_ClickCount;
-		public virtual RField Rm_ClickCount
+		protected RSystem.RInt32 r_m_ClickCount;
+		public virtual RSystem.RInt32 Rm_ClickCount
 		{
 			get
 			{

@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Boolean isLongReference
 		/// </summary>
-		protected RField r_isLongReference;
-		public virtual RField RisLongReference
+		protected RSystem.RBoolean r_isLongReference;
+		public virtual RSystem.RBoolean RisLongReference
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// Boolean IsAlive
 		/// </summary>
-		protected RProperty r_IsAlive;
-		public virtual RProperty RIsAlive
+		protected RSystem.RBoolean r_IsAlive;
+		public virtual RSystem.RBoolean RIsAlive
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// Boolean TrackResurrection
 		/// </summary>
-		protected RProperty r_TrackResurrection;
-		public virtual RProperty RTrackResurrection
+		protected RSystem.RBoolean r_TrackResurrection;
+		public virtual RSystem.RBoolean RTrackResurrection
 		{
 			get
 			{

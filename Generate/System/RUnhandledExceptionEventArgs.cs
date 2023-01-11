@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Boolean _isTerminating
 		/// </summary>
-		protected RField r__isTerminating;
-		public virtual RField R_isTerminating
+		protected RSystem.RBoolean r__isTerminating;
+		public virtual RSystem.RBoolean R_isTerminating
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// Boolean IsTerminating
 		/// </summary>
-		protected RProperty r_IsTerminating;
-		public virtual RProperty RIsTerminating
+		protected RSystem.RBoolean r_IsTerminating;
+		public virtual RSystem.RBoolean RIsTerminating
 		{
 			get
 			{

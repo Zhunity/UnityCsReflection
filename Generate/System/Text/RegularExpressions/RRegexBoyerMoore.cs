@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Int32[] Positive
 		/// </summary>
-		protected RFieldArray<RField> r_Positive;
-		public virtual RFieldArray<RField> RPositive
+		protected RFieldArray<RSystem.RInt32> r_Positive;
+		public virtual RFieldArray<RSystem.RInt32> RPositive
 		{
 			get
 			{
@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Int32[] NegativeASCII
 		/// </summary>
-		protected RFieldArray<RField> r_NegativeASCII;
-		public virtual RFieldArray<RField> RNegativeASCII
+		protected RFieldArray<RSystem.RInt32> r_NegativeASCII;
+		public virtual RFieldArray<RSystem.RInt32> RNegativeASCII
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Int32[][] NegativeUnicode
 		/// </summary>
-		protected RFieldArray<RFieldArray<RField>> r_NegativeUnicode;
-		public virtual RFieldArray<RFieldArray<RField>> RNegativeUnicode
+		protected RFieldArray<RFieldArray<RSystem.RInt32>> r_NegativeUnicode;
+		public virtual RFieldArray<RFieldArray<RSystem.RInt32>> RNegativeUnicode
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.String Pattern
 		/// </summary>
-		protected RField r_Pattern;
-		public virtual RField RPattern
+		protected RSystem.RString r_Pattern;
+		public virtual RSystem.RString RPattern
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Int32 LowASCII
 		/// </summary>
-		protected RField r_LowASCII;
-		public virtual RField RLowASCII
+		protected RSystem.RInt32 r_LowASCII;
+		public virtual RSystem.RInt32 RLowASCII
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Int32 HighASCII
 		/// </summary>
-		protected RField r_HighASCII;
-		public virtual RField RHighASCII
+		protected RSystem.RInt32 r_HighASCII;
+		public virtual RSystem.RInt32 RHighASCII
 		{
 			get
 			{
@@ -115,8 +115,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Boolean RightToLeft
 		/// </summary>
-		protected RField r_RightToLeft;
-		public virtual RField RRightToLeft
+		protected RSystem.RBoolean r_RightToLeft;
+		public virtual RSystem.RBoolean RRightToLeft
 		{
 			get
 			{
@@ -132,8 +132,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Boolean CaseInsensitive
 		/// </summary>
-		protected RField r_CaseInsensitive;
-		public virtual RField RCaseInsensitive
+		protected RSystem.RBoolean r_CaseInsensitive;
+		public virtual RSystem.RBoolean RCaseInsensitive
 		{
 			get
 			{

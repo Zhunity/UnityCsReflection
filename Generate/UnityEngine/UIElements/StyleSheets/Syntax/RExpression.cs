@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RSynt
 		/// <summary>
 		/// System.String keyword
 		/// </summary>
-		protected RField r_keyword;
-		public virtual RField Rkeyword
+		protected RSystem.RString r_keyword;
+		public virtual RSystem.RString Rkeyword
 		{
 			get
 			{

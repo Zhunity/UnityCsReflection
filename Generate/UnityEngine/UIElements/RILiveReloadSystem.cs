@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Boolean enable
 		/// </summary>
-		protected RProperty r_enable;
-		public virtual RProperty Renable
+		protected RSystem.RBoolean r_enable;
+		public virtual RSystem.RBoolean Renable
 		{
 			get
 			{

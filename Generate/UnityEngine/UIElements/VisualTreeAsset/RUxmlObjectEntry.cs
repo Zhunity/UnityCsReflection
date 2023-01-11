@@ -15,8 +15,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int32 parentId
 		/// </summary>
-		protected RField r_parentId;
-		public virtual RField RparentId
+		protected RSystem.RInt32 r_parentId;
+		public virtual RSystem.RInt32 RparentId
 		{
 			get
 			{

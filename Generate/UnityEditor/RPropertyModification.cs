@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.String propertyPath
 		/// </summary>
-		protected RField r_propertyPath;
-		public virtual RField RpropertyPath
+		protected RSystem.RString r_propertyPath;
+		public virtual RSystem.RString RpropertyPath
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.String value
 		/// </summary>
-		protected RField r_value;
-		public virtual RField Rvalue
+		protected RSystem.RString r_value;
+		public virtual RSystem.RString Rvalue
 		{
 			get
 			{

@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// System.String m_RawWindowType
 		/// </summary>
-		protected RField r_m_RawWindowType;
-		public virtual RField Rm_RawWindowType
+		protected RSystem.RString r_m_RawWindowType;
+		public virtual RSystem.RString Rm_RawWindowType
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// System.String name
 		/// </summary>
-		protected RProperty r_name;
-		public virtual RProperty Rname
+		protected RSystem.RString r_name;
+		public virtual RSystem.RString Rname
 		{
 			get
 			{

@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts
 		/// <summary>
 		/// System.Int32 domain_id
 		/// </summary>
-		protected RField r_domain_id;
-		public virtual RField Rdomain_id
+		protected RSystem.RInt32 r_domain_id;
+		public virtual RSystem.RInt32 Rdomain_id
 		{
 			get
 			{
@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts
 		/// <summary>
 		/// System.Int32 context_id
 		/// </summary>
-		protected RField r_context_id;
-		public virtual RField Rcontext_id
+		protected RSystem.RInt32 r_context_id;
+		public virtual RSystem.RInt32 Rcontext_id
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts
 		/// <summary>
 		/// System.UIntPtr static_data
 		/// </summary>
-		protected RField r_static_data;
-		public virtual RField Rstatic_data
+		protected RSystem.RUIntPtr r_static_data;
+		public virtual RSystem.RUIntPtr Rstatic_data
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts
 		/// <summary>
 		/// System.UIntPtr data
 		/// </summary>
-		protected RField r_data;
-		public virtual RField Rdata
+		protected RSystem.RUIntPtr r_data;
+		public virtual RSystem.RUIntPtr Rdata
 		{
 			get
 			{
@@ -166,8 +166,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts
 		/// <summary>
 		/// System.Int32 global_count
 		/// </summary>
-		protected static RField r_global_count;
-		public static RField Rglobal_count
+		protected static RSystem.RInt32 r_global_count;
+		public static RSystem.RInt32 Rglobal_count
 		{
 			get
 			{
@@ -285,8 +285,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts
 		/// <summary>
 		/// Int32 ContextID
 		/// </summary>
-		protected RProperty r_ContextID;
-		public virtual RProperty RContextID
+		protected RSystem.RInt32 r_ContextID;
+		public virtual RSystem.RInt32 RContextID
 		{
 			get
 			{
@@ -319,8 +319,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts
 		/// <summary>
 		/// Boolean IsDefaultContext
 		/// </summary>
-		protected RProperty r_IsDefaultContext;
-		public virtual RProperty RIsDefaultContext
+		protected RSystem.RBoolean r_IsDefaultContext;
+		public virtual RSystem.RBoolean RIsDefaultContext
 		{
 			get
 			{
@@ -336,8 +336,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts
 		/// <summary>
 		/// Boolean NeedsContextSink
 		/// </summary>
-		protected RProperty r_NeedsContextSink;
-		public virtual RProperty RNeedsContextSink
+		protected RSystem.RBoolean r_NeedsContextSink;
+		public virtual RSystem.RBoolean RNeedsContextSink
 		{
 			get
 			{
@@ -353,8 +353,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts
 		/// <summary>
 		/// Boolean HasGlobalDynamicSinks
 		/// </summary>
-		protected static RProperty r_HasGlobalDynamicSinks;
-		public static RProperty RHasGlobalDynamicSinks
+		protected static RSystem.RBoolean r_HasGlobalDynamicSinks;
+		public static RSystem.RBoolean RHasGlobalDynamicSinks
 		{
 			get
 			{
@@ -370,8 +370,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts
 		/// <summary>
 		/// Boolean HasDynamicSinks
 		/// </summary>
-		protected RProperty r_HasDynamicSinks;
-		public virtual RProperty RHasDynamicSinks
+		protected RSystem.RBoolean r_HasDynamicSinks;
+		public virtual RSystem.RBoolean RHasDynamicSinks
 		{
 			get
 			{
@@ -387,8 +387,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts
 		/// <summary>
 		/// Boolean HasExitSinks
 		/// </summary>
-		protected RProperty r_HasExitSinks;
-		public virtual RProperty RHasExitSinks
+		protected RSystem.RBoolean r_HasExitSinks;
+		public virtual RSystem.RBoolean RHasExitSinks
 		{
 			get
 			{

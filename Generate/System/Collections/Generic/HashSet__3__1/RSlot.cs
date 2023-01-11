@@ -15,8 +15,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
 		/// <summary>
 		/// System.Int32 hashCode
 		/// </summary>
-		protected RField r_hashCode;
-		public virtual RField RhashCode
+		protected RSystem.RInt32 r_hashCode;
+		public virtual RSystem.RInt32 RhashCode
 		{
 			get
 			{
@@ -32,8 +32,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
 		/// <summary>
 		/// System.Int32 next
 		/// </summary>
-		protected RField r_next;
-		public virtual RField Rnext
+		protected RSystem.RInt32 r_next;
+		public virtual RSystem.RInt32 Rnext
 		{
 			get
 			{

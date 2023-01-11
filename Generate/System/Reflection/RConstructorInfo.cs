@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.String ConstructorName
 		/// </summary>
-		protected static RField r_ConstructorName;
-		public static RField RConstructorName
+		protected static RSystem.RString r_ConstructorName;
+		public static RSystem.RString RConstructorName
 		{
 			get
 			{
@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.String TypeConstructorName
 		/// </summary>
-		protected static RField r_TypeConstructorName;
-		public static RField RTypeConstructorName
+		protected static RSystem.RString r_TypeConstructorName;
+		public static RSystem.RString RTypeConstructorName
 		{
 			get
 			{
@@ -115,8 +115,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// Boolean IsAbstract
 		/// </summary>
-		protected RProperty r_IsAbstract;
-		public virtual RProperty RIsAbstract
+		protected RSystem.RBoolean r_IsAbstract;
+		public virtual RSystem.RBoolean RIsAbstract
 		{
 			get
 			{
@@ -132,8 +132,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// Boolean IsConstructor
 		/// </summary>
-		protected RProperty r_IsConstructor;
-		public virtual RProperty RIsConstructor
+		protected RSystem.RBoolean r_IsConstructor;
+		public virtual RSystem.RBoolean RIsConstructor
 		{
 			get
 			{
@@ -149,8 +149,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// Boolean IsFinal
 		/// </summary>
-		protected RProperty r_IsFinal;
-		public virtual RProperty RIsFinal
+		protected RSystem.RBoolean r_IsFinal;
+		public virtual RSystem.RBoolean RIsFinal
 		{
 			get
 			{
@@ -166,8 +166,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// Boolean IsHideBySig
 		/// </summary>
-		protected RProperty r_IsHideBySig;
-		public virtual RProperty RIsHideBySig
+		protected RSystem.RBoolean r_IsHideBySig;
+		public virtual RSystem.RBoolean RIsHideBySig
 		{
 			get
 			{
@@ -183,8 +183,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// Boolean IsSpecialName
 		/// </summary>
-		protected RProperty r_IsSpecialName;
-		public virtual RProperty RIsSpecialName
+		protected RSystem.RBoolean r_IsSpecialName;
+		public virtual RSystem.RBoolean RIsSpecialName
 		{
 			get
 			{
@@ -200,8 +200,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// Boolean IsStatic
 		/// </summary>
-		protected RProperty r_IsStatic;
-		public virtual RProperty RIsStatic
+		protected RSystem.RBoolean r_IsStatic;
+		public virtual RSystem.RBoolean RIsStatic
 		{
 			get
 			{
@@ -217,8 +217,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// Boolean IsVirtual
 		/// </summary>
-		protected RProperty r_IsVirtual;
-		public virtual RProperty RIsVirtual
+		protected RSystem.RBoolean r_IsVirtual;
+		public virtual RSystem.RBoolean RIsVirtual
 		{
 			get
 			{
@@ -234,8 +234,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// Boolean IsAssembly
 		/// </summary>
-		protected RProperty r_IsAssembly;
-		public virtual RProperty RIsAssembly
+		protected RSystem.RBoolean r_IsAssembly;
+		public virtual RSystem.RBoolean RIsAssembly
 		{
 			get
 			{
@@ -251,8 +251,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// Boolean IsFamily
 		/// </summary>
-		protected RProperty r_IsFamily;
-		public virtual RProperty RIsFamily
+		protected RSystem.RBoolean r_IsFamily;
+		public virtual RSystem.RBoolean RIsFamily
 		{
 			get
 			{
@@ -268,8 +268,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// Boolean IsFamilyAndAssembly
 		/// </summary>
-		protected RProperty r_IsFamilyAndAssembly;
-		public virtual RProperty RIsFamilyAndAssembly
+		protected RSystem.RBoolean r_IsFamilyAndAssembly;
+		public virtual RSystem.RBoolean RIsFamilyAndAssembly
 		{
 			get
 			{
@@ -285,8 +285,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// Boolean IsFamilyOrAssembly
 		/// </summary>
-		protected RProperty r_IsFamilyOrAssembly;
-		public virtual RProperty RIsFamilyOrAssembly
+		protected RSystem.RBoolean r_IsFamilyOrAssembly;
+		public virtual RSystem.RBoolean RIsFamilyOrAssembly
 		{
 			get
 			{
@@ -302,8 +302,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// Boolean IsPrivate
 		/// </summary>
-		protected RProperty r_IsPrivate;
-		public virtual RProperty RIsPrivate
+		protected RSystem.RBoolean r_IsPrivate;
+		public virtual RSystem.RBoolean RIsPrivate
 		{
 			get
 			{
@@ -319,8 +319,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// Boolean IsPublic
 		/// </summary>
-		protected RProperty r_IsPublic;
-		public virtual RProperty RIsPublic
+		protected RSystem.RBoolean r_IsPublic;
+		public virtual RSystem.RBoolean RIsPublic
 		{
 			get
 			{
@@ -336,8 +336,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// Boolean IsConstructedGenericMethod
 		/// </summary>
-		protected RProperty r_IsConstructedGenericMethod;
-		public virtual RProperty RIsConstructedGenericMethod
+		protected RSystem.RBoolean r_IsConstructedGenericMethod;
+		public virtual RSystem.RBoolean RIsConstructedGenericMethod
 		{
 			get
 			{
@@ -353,8 +353,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// Boolean IsGenericMethod
 		/// </summary>
-		protected RProperty r_IsGenericMethod;
-		public virtual RProperty RIsGenericMethod
+		protected RSystem.RBoolean r_IsGenericMethod;
+		public virtual RSystem.RBoolean RIsGenericMethod
 		{
 			get
 			{
@@ -370,8 +370,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// Boolean IsGenericMethodDefinition
 		/// </summary>
-		protected RProperty r_IsGenericMethodDefinition;
-		public virtual RProperty RIsGenericMethodDefinition
+		protected RSystem.RBoolean r_IsGenericMethodDefinition;
+		public virtual RSystem.RBoolean RIsGenericMethodDefinition
 		{
 			get
 			{
@@ -387,8 +387,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// Boolean ContainsGenericParameters
 		/// </summary>
-		protected RProperty r_ContainsGenericParameters;
-		public virtual RProperty RContainsGenericParameters
+		protected RSystem.RBoolean r_ContainsGenericParameters;
+		public virtual RSystem.RBoolean RContainsGenericParameters
 		{
 			get
 			{
@@ -421,8 +421,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// Boolean IsSecurityCritical
 		/// </summary>
-		protected RProperty r_IsSecurityCritical;
-		public virtual RProperty RIsSecurityCritical
+		protected RSystem.RBoolean r_IsSecurityCritical;
+		public virtual RSystem.RBoolean RIsSecurityCritical
 		{
 			get
 			{
@@ -438,8 +438,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// Boolean IsSecuritySafeCritical
 		/// </summary>
-		protected RProperty r_IsSecuritySafeCritical;
-		public virtual RProperty RIsSecuritySafeCritical
+		protected RSystem.RBoolean r_IsSecuritySafeCritical;
+		public virtual RSystem.RBoolean RIsSecuritySafeCritical
 		{
 			get
 			{
@@ -455,8 +455,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// Boolean IsSecurityTransparent
 		/// </summary>
-		protected RProperty r_IsSecurityTransparent;
-		public virtual RProperty RIsSecurityTransparent
+		protected RSystem.RBoolean r_IsSecurityTransparent;
+		public virtual RSystem.RBoolean RIsSecurityTransparent
 		{
 			get
 			{
@@ -472,8 +472,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.String Name
 		/// </summary>
-		protected RProperty r_Name;
-		public virtual RProperty RName
+		protected RSystem.RString r_Name;
+		public virtual RSystem.RString RName
 		{
 			get
 			{
@@ -557,8 +557,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// Int32 MetadataToken
 		/// </summary>
-		protected RProperty r_MetadataToken;
-		public virtual RProperty RMetadataToken
+		protected RSystem.RInt32 r_MetadataToken;
+		public virtual RSystem.RInt32 RMetadataToken
 		{
 			get
 			{

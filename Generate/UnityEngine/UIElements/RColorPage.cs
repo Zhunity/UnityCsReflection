@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Boolean isValid
 		/// </summary>
-		protected RField r_isValid;
-		public virtual RField RisValid
+		protected RSystem.RBoolean r_isValid;
+		public virtual RSystem.RBoolean RisValid
 		{
 			get
 			{

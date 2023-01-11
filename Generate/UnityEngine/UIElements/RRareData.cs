@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int32 unitySliceBottom
 		/// </summary>
-		protected RField r_unitySliceBottom;
-		public virtual RField RunitySliceBottom
+		protected RSystem.RInt32 r_unitySliceBottom;
+		public virtual RSystem.RInt32 RunitySliceBottom
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int32 unitySliceLeft
 		/// </summary>
-		protected RField r_unitySliceLeft;
-		public virtual RField RunitySliceLeft
+		protected RSystem.RInt32 r_unitySliceLeft;
+		public virtual RSystem.RInt32 RunitySliceLeft
 		{
 			get
 			{
@@ -115,8 +115,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int32 unitySliceRight
 		/// </summary>
-		protected RField r_unitySliceRight;
-		public virtual RField RunitySliceRight
+		protected RSystem.RInt32 r_unitySliceRight;
+		public virtual RSystem.RInt32 RunitySliceRight
 		{
 			get
 			{
@@ -132,8 +132,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Single unitySliceScale
 		/// </summary>
-		protected RField r_unitySliceScale;
-		public virtual RField RunitySliceScale
+		protected RSystem.RSingle r_unitySliceScale;
+		public virtual RSystem.RSingle RunitySliceScale
 		{
 			get
 			{
@@ -149,8 +149,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int32 unitySliceTop
 		/// </summary>
-		protected RField r_unitySliceTop;
-		public virtual RField RunitySliceTop
+		protected RSystem.RInt32 r_unitySliceTop;
+		public virtual RSystem.RInt32 RunitySliceTop
 		{
 			get
 			{

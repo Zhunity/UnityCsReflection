@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int32 kSize
 		/// </summary>
-		protected static RField r_kSize;
-		public static RField RkSize
+		protected static RSystem.RInt32 r_kSize;
+		public static RSystem.RInt32 RkSize
 		{
 			get
 			{

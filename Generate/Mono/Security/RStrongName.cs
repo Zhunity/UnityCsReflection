@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RMono.RSecurity
 		/// <summary>
 		/// System.Byte[] publicKey
 		/// </summary>
-		protected RFieldArray<RField> r_publicKey;
-		public virtual RFieldArray<RField> RpublicKey
+		protected RFieldArray<RSystem.RByte> r_publicKey;
+		public virtual RFieldArray<RSystem.RByte> RpublicKey
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RMono.RSecurity
 		/// <summary>
 		/// System.Byte[] keyToken
 		/// </summary>
-		protected RFieldArray<RField> r_keyToken;
-		public virtual RFieldArray<RField> RkeyToken
+		protected RFieldArray<RSystem.RByte> r_keyToken;
+		public virtual RFieldArray<RSystem.RByte> RkeyToken
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RMono.RSecurity
 		/// <summary>
 		/// System.String tokenAlgorithm
 		/// </summary>
-		protected RField r_tokenAlgorithm;
-		public virtual RField RtokenAlgorithm
+		protected RSystem.RString r_tokenAlgorithm;
+		public virtual RSystem.RString RtokenAlgorithm
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RMono.RSecurity
 		/// <summary>
 		/// System.Boolean initialized
 		/// </summary>
-		protected static RField r_initialized;
-		public static RField Rinitialized
+		protected static RSystem.RBoolean r_initialized;
+		public static RSystem.RBoolean Rinitialized
 		{
 			get
 			{
@@ -115,8 +115,8 @@ namespace SMFrame.Editor.Refleaction.RMono.RSecurity
 		/// <summary>
 		/// Boolean CanSign
 		/// </summary>
-		protected RProperty r_CanSign;
-		public virtual RProperty RCanSign
+		protected RSystem.RBoolean r_CanSign;
+		public virtual RSystem.RBoolean RCanSign
 		{
 			get
 			{
@@ -149,8 +149,8 @@ namespace SMFrame.Editor.Refleaction.RMono.RSecurity
 		/// <summary>
 		/// Byte[] PublicKey
 		/// </summary>
-		protected RPropertyArray<RProperty> r_PublicKey;
-		public virtual RPropertyArray<RProperty> RPublicKey
+		protected RPropertyArray<RSystem.RByte> r_PublicKey;
+		public virtual RPropertyArray<RSystem.RByte> RPublicKey
 		{
 			get
 			{
@@ -166,8 +166,8 @@ namespace SMFrame.Editor.Refleaction.RMono.RSecurity
 		/// <summary>
 		/// Byte[] PublicKeyToken
 		/// </summary>
-		protected RPropertyArray<RProperty> r_PublicKeyToken;
-		public virtual RPropertyArray<RProperty> RPublicKeyToken
+		protected RPropertyArray<RSystem.RByte> r_PublicKeyToken;
+		public virtual RPropertyArray<RSystem.RByte> RPublicKeyToken
 		{
 			get
 			{
@@ -183,8 +183,8 @@ namespace SMFrame.Editor.Refleaction.RMono.RSecurity
 		/// <summary>
 		/// System.String TokenAlgorithm
 		/// </summary>
-		protected RProperty r_TokenAlgorithm;
-		public virtual RProperty RTokenAlgorithm
+		protected RSystem.RString r_TokenAlgorithm;
+		public virtual RSystem.RString RTokenAlgorithm
 		{
 			get
 			{

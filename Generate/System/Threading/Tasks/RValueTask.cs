@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 		/// <summary>
 		/// System.Int16 _token
 		/// </summary>
-		protected RField r__token;
-		public virtual RField R_token
+		protected RSystem.RInt16 r__token;
+		public virtual RSystem.RInt16 R_token
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 		/// <summary>
 		/// System.Boolean _continueOnCapturedContext
 		/// </summary>
-		protected RField r__continueOnCapturedContext;
-		public virtual RField R_continueOnCapturedContext
+		protected RSystem.RBoolean r__continueOnCapturedContext;
+		public virtual RSystem.RBoolean R_continueOnCapturedContext
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 		/// <summary>
 		/// Boolean IsCompleted
 		/// </summary>
-		protected RProperty r_IsCompleted;
-		public virtual RProperty RIsCompleted
+		protected RSystem.RBoolean r_IsCompleted;
+		public virtual RSystem.RBoolean RIsCompleted
 		{
 			get
 			{
@@ -115,8 +115,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 		/// <summary>
 		/// Boolean IsCompletedSuccessfully
 		/// </summary>
-		protected RProperty r_IsCompletedSuccessfully;
-		public virtual RProperty RIsCompletedSuccessfully
+		protected RSystem.RBoolean r_IsCompletedSuccessfully;
+		public virtual RSystem.RBoolean RIsCompletedSuccessfully
 		{
 			get
 			{
@@ -132,8 +132,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 		/// <summary>
 		/// Boolean IsFaulted
 		/// </summary>
-		protected RProperty r_IsFaulted;
-		public virtual RProperty RIsFaulted
+		protected RSystem.RBoolean r_IsFaulted;
+		public virtual RSystem.RBoolean RIsFaulted
 		{
 			get
 			{
@@ -149,8 +149,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 		/// <summary>
 		/// Boolean IsCanceled
 		/// </summary>
-		protected RProperty r_IsCanceled;
-		public virtual RProperty RIsCanceled
+		protected RSystem.RBoolean r_IsCanceled;
+		public virtual RSystem.RBoolean RIsCanceled
 		{
 			get
 			{

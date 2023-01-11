@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Int32 k_NumLayers
 		/// </summary>
-		protected static RField r_k_NumLayers;
-		public static RField Rk_NumLayers
+		protected static RSystem.RInt32 r_k_NumLayers;
+		public static RSystem.RInt32 Rk_NumLayers
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Single projectionNear
 		/// </summary>
-		protected RField r_projectionNear;
-		public virtual RField RprojectionNear
+		protected RSystem.RSingle r_projectionNear;
+		public virtual RSystem.RSingle RprojectionNear
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Single projectionFar
 		/// </summary>
-		protected RField r_projectionFar;
-		public virtual RField RprojectionFar
+		protected RSystem.RSingle r_projectionFar;
+		public virtual RSystem.RSingle RprojectionFar
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Single cameraNear
 		/// </summary>
-		protected RField r_cameraNear;
-		public virtual RField RcameraNear
+		protected RSystem.RSingle r_cameraNear;
+		public virtual RSystem.RSingle RcameraNear
 		{
 			get
 			{
@@ -115,8 +115,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Single cameraFar
 		/// </summary>
-		protected RField r_cameraFar;
-		public virtual RField RcameraFar
+		protected RSystem.RSingle r_cameraFar;
+		public virtual RSystem.RSingle RcameraFar
 		{
 			get
 			{
@@ -132,8 +132,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Single cameraAspect
 		/// </summary>
-		protected RField r_cameraAspect;
-		public virtual RField RcameraAspect
+		protected RSystem.RSingle r_cameraAspect;
+		public virtual RSystem.RSingle RcameraAspect
 		{
 			get
 			{
@@ -370,8 +370,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Single farPlaneWorldSpaceLength
 		/// </summary>
-		protected RField r_farPlaneWorldSpaceLength;
-		public virtual RField RfarPlaneWorldSpaceLength
+		protected RSystem.RSingle r_farPlaneWorldSpaceLength;
+		public virtual RSystem.RSingle RfarPlaneWorldSpaceLength
 		{
 			get
 			{
@@ -387,8 +387,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.UInt32 rendererCount
 		/// </summary>
-		protected RField r_rendererCount;
-		public virtual RField RrendererCount
+		protected RSystem.RUInt32 r_rendererCount;
+		public virtual RSystem.RUInt32 RrendererCount
 		{
 			get
 			{
@@ -404,8 +404,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Int32 k_PlaneCount
 		/// </summary>
-		protected static RField r_k_PlaneCount;
-		public static RField Rk_PlaneCount
+		protected static RSystem.RInt32 r_k_PlaneCount;
+		public static RSystem.RInt32 Rk_PlaneCount
 		{
 			get
 			{
@@ -455,8 +455,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Single baseFarDistance
 		/// </summary>
-		protected RField r_baseFarDistance;
-		public virtual RField RbaseFarDistance
+		protected RSystem.RSingle r_baseFarDistance;
+		public virtual RSystem.RSingle RbaseFarDistance
 		{
 			get
 			{
@@ -506,8 +506,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Int32 layerCullSpherical
 		/// </summary>
-		protected RField r_layerCullSpherical;
-		public virtual RField RlayerCullSpherical
+		protected RSystem.RInt32 r_layerCullSpherical;
+		public virtual RSystem.RInt32 RlayerCullSpherical
 		{
 			get
 			{
@@ -540,8 +540,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.UInt32 cameraType
 		/// </summary>
-		protected RField r_cameraType;
-		public virtual RField RcameraType
+		protected RSystem.RUInt32 r_cameraType;
+		public virtual RSystem.RUInt32 RcameraType
 		{
 			get
 			{
@@ -557,8 +557,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Int32 projectionIsOblique
 		/// </summary>
-		protected RField r_projectionIsOblique;
-		public virtual RField RprojectionIsOblique
+		protected RSystem.RInt32 r_projectionIsOblique;
+		public virtual RSystem.RInt32 RprojectionIsOblique
 		{
 			get
 			{
@@ -574,8 +574,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Int32 isImplicitProjectionMatrix
 		/// </summary>
-		protected RField r_isImplicitProjectionMatrix;
-		public virtual RField RisImplicitProjectionMatrix
+		protected RSystem.RInt32 r_isImplicitProjectionMatrix;
+		public virtual RSystem.RInt32 RisImplicitProjectionMatrix
 		{
 			get
 			{

@@ -83,8 +83,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Boolean mustApplyMaterial
 		/// </summary>
-		protected RField r_mustApplyMaterial;
-		public virtual RField RmustApplyMaterial
+		protected RSystem.RBoolean r_mustApplyMaterial;
+		public virtual RSystem.RBoolean RmustApplyMaterial
 		{
 			get
 			{
@@ -100,8 +100,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Boolean mustApplyCommonBlock
 		/// </summary>
-		protected RField r_mustApplyCommonBlock;
-		public virtual RField RmustApplyCommonBlock
+		protected RSystem.RBoolean r_mustApplyCommonBlock;
+		public virtual RSystem.RBoolean RmustApplyCommonBlock
 		{
 			get
 			{
@@ -117,8 +117,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Boolean mustApplyStateBlock
 		/// </summary>
-		protected RField r_mustApplyStateBlock;
-		public virtual RField RmustApplyStateBlock
+		protected RSystem.RBoolean r_mustApplyStateBlock;
+		public virtual RSystem.RBoolean RmustApplyStateBlock
 		{
 			get
 			{
@@ -134,8 +134,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Boolean mustApplyStencil
 		/// </summary>
-		protected RField r_mustApplyStencil;
-		public virtual RField RmustApplyStencil
+		protected RSystem.RBoolean r_mustApplyStencil;
+		public virtual RSystem.RBoolean RmustApplyStencil
 		{
 			get
 			{

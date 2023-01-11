@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 		/// <summary>
 		/// System.Byte[] _buffer
 		/// </summary>
-		protected RFieldArray<RField> r__buffer;
-		public virtual RFieldArray<RField> R_buffer
+		protected RFieldArray<RSystem.RByte> r__buffer;
+		public virtual RFieldArray<RSystem.RByte> R_buffer
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 		/// <summary>
 		/// System.Boolean _leaveOpen
 		/// </summary>
-		protected RField r__leaveOpen;
-		public virtual RField R_leaveOpen
+		protected RSystem.RBoolean r__leaveOpen;
+		public virtual RSystem.RBoolean R_leaveOpen
 		{
 			get
 			{
@@ -115,8 +115,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 		/// <summary>
 		/// System.Char[] _tmpOneCharBuffer
 		/// </summary>
-		protected RFieldArray<RField> r__tmpOneCharBuffer;
-		public virtual RFieldArray<RField> R_tmpOneCharBuffer
+		protected RFieldArray<RSystem.RChar> r__tmpOneCharBuffer;
+		public virtual RFieldArray<RSystem.RChar> R_tmpOneCharBuffer
 		{
 			get
 			{
@@ -132,8 +132,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 		/// <summary>
 		/// System.Byte[] _largeByteBuffer
 		/// </summary>
-		protected RFieldArray<RField> r__largeByteBuffer;
-		public virtual RFieldArray<RField> R_largeByteBuffer
+		protected RFieldArray<RSystem.RByte> r__largeByteBuffer;
+		public virtual RFieldArray<RSystem.RByte> R_largeByteBuffer
 		{
 			get
 			{
@@ -149,8 +149,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 		/// <summary>
 		/// System.Int32 _maxChars
 		/// </summary>
-		protected RField r__maxChars;
-		public virtual RField R_maxChars
+		protected RSystem.RInt32 r__maxChars;
+		public virtual RSystem.RInt32 R_maxChars
 		{
 			get
 			{
@@ -166,8 +166,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 		/// <summary>
 		/// System.Int32 LargeByteBufferSize
 		/// </summary>
-		protected static RField r_LargeByteBufferSize;
-		public static RField RLargeByteBufferSize
+		protected static RSystem.RInt32 r_LargeByteBufferSize;
+		public static RSystem.RInt32 RLargeByteBufferSize
 		{
 			get
 			{
@@ -831,6 +831,26 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
         }
 
 
+        public virtual void Write(RSystem.RReadOnlySpan<RSystem.RByte> @buffer)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@buffer.Value};
+            var ___result = RWrite_ReadOnlySpan_d_Byte_p_.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void Write(RSystem.RReadOnlySpan<RSystem.RChar> @buffer)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@buffer.Value};
+            var ___result = RWrite_ReadOnlySpan_d_Char_p_.Invoke(___genericsType, ___parameters);
+
+            
+        }
 
 
         public virtual System.Threading.Tasks.ValueTask DisposeAsync()

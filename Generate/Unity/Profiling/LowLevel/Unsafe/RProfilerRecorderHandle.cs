@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling.RLowLevel.RUnsafe
 		/// <summary>
 		/// System.UInt64 k_InvalidHandle
 		/// </summary>
-		protected static RField r_k_InvalidHandle;
-		public static RField Rk_InvalidHandle
+		protected static RSystem.RUInt64 r_k_InvalidHandle;
+		public static RSystem.RUInt64 Rk_InvalidHandle
 		{
 			get
 			{
@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling.RLowLevel.RUnsafe
 		/// <summary>
 		/// System.UInt64 handle
 		/// </summary>
-		protected RField r_handle;
-		public virtual RField Rhandle
+		protected RSystem.RUInt64 r_handle;
+		public virtual RSystem.RUInt64 Rhandle
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling.RLowLevel.RUnsafe
 		/// <summary>
 		/// Boolean Valid
 		/// </summary>
-		protected RProperty r_Valid;
-		public virtual RProperty RValid
+		protected RSystem.RBoolean r_Valid;
+		public virtual RSystem.RBoolean RValid
 		{
 			get
 			{

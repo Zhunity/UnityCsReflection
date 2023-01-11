@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// Unity.Collections.NativeArray`1[Unity.Jobs.JobHandle] m_Jobs
 		/// </summary>
-		protected RField r_m_Jobs;
-		public virtual RField Rm_Jobs
+		protected RUnity.RCollections.RNativeArray<RUnity.RJobs.RJobHandle> r_m_Jobs;
+		public virtual RUnity.RCollections.RNativeArray<RUnity.RJobs.RJobHandle> Rm_Jobs
 		{
 			get
 			{
@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Int32 m_JobCount
 		/// </summary>
-		protected RField r_m_JobCount;
-		public virtual RField Rm_JobCount
+		protected RSystem.RInt32 r_m_JobCount;
+		public virtual RSystem.RInt32 Rm_JobCount
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Boolean <disposed>k__BackingField
 		/// </summary>
-		protected RField r___0__disposed__1__k__BackingField;
-		public virtual RField R__0__disposed__1__k__BackingField
+		protected RSystem.RBoolean r___0__disposed__1__k__BackingField;
+		public virtual RSystem.RBoolean R__0__disposed__1__k__BackingField
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// Boolean disposed
 		/// </summary>
-		protected RProperty r_disposed;
-		public virtual RProperty Rdisposed
+		protected RSystem.RBoolean r_disposed;
+		public virtual RSystem.RBoolean Rdisposed
 		{
 			get
 			{

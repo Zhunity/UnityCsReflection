@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
 		/// <summary>
 		/// System.String text
 		/// </summary>
-		protected RField r_text;
-		public virtual RField Rtext
+		protected RSystem.RString r_text;
+		public virtual RSystem.RString Rtext
 		{
 			get
 			{
@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
 		/// <summary>
 		/// System.String tag
 		/// </summary>
-		protected RField r_tag;
-		public virtual RField Rtag
+		protected RSystem.RString r_tag;
+		public virtual RSystem.RString Rtag
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
 		/// <summary>
 		/// System.Char[] invalid_tag_chars
 		/// </summary>
-		protected static RFieldArray<RField> r_invalid_tag_chars;
-		public static RFieldArray<RField> Rinvalid_tag_chars
+		protected static RFieldArray<RSystem.RChar> r_invalid_tag_chars;
+		public static RFieldArray<RSystem.RChar> Rinvalid_tag_chars
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
 		/// <summary>
 		/// System.Char[] invalid_text_chars
 		/// </summary>
-		protected static RFieldArray<RField> r_invalid_text_chars;
-		public static RFieldArray<RField> Rinvalid_text_chars
+		protected static RFieldArray<RSystem.RChar> r_invalid_text_chars;
+		public static RFieldArray<RSystem.RChar> Rinvalid_text_chars
 		{
 			get
 			{
@@ -115,8 +115,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
 		/// <summary>
 		/// System.Char[] invalid_attr_name_chars
 		/// </summary>
-		protected static RFieldArray<RField> r_invalid_attr_name_chars;
-		public static RFieldArray<RField> Rinvalid_attr_name_chars
+		protected static RFieldArray<RSystem.RChar> r_invalid_attr_name_chars;
+		public static RFieldArray<RSystem.RChar> Rinvalid_attr_name_chars
 		{
 			get
 			{
@@ -132,8 +132,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
 		/// <summary>
 		/// System.Char[] invalid_attr_value_chars
 		/// </summary>
-		protected static RFieldArray<RField> r_invalid_attr_value_chars;
-		public static RFieldArray<RField> Rinvalid_attr_value_chars
+		protected static RFieldArray<RSystem.RChar> r_invalid_attr_value_chars;
+		public static RFieldArray<RSystem.RChar> Rinvalid_attr_value_chars
 		{
 			get
 			{
@@ -149,8 +149,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
 		/// <summary>
 		/// System.Char[] invalid_chars
 		/// </summary>
-		protected static RFieldArray<RField> r_invalid_chars;
-		public static RFieldArray<RField> Rinvalid_chars
+		protected static RFieldArray<RSystem.RChar> r_invalid_chars;
+		public static RFieldArray<RSystem.RChar> Rinvalid_chars
 		{
 			get
 			{
@@ -200,8 +200,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
 		/// <summary>
 		/// System.String Tag
 		/// </summary>
-		protected RProperty r_Tag;
-		public virtual RProperty RTag
+		protected RSystem.RString r_Tag;
+		public virtual RSystem.RString RTag
 		{
 			get
 			{
@@ -217,8 +217,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
 		/// <summary>
 		/// System.String Text
 		/// </summary>
-		protected RProperty r_Text;
-		public virtual RProperty RText
+		protected RSystem.RString r_Text;
+		public virtual RSystem.RString RText
 		{
 			get
 			{
@@ -234,8 +234,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
 		/// <summary>
 		/// System.String m_strTag
 		/// </summary>
-		protected RProperty r_m_strTag;
-		public virtual RProperty Rm_strTag
+		protected RSystem.RString r_m_strTag;
+		public virtual RSystem.RString Rm_strTag
 		{
 			get
 			{
@@ -251,8 +251,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
 		/// <summary>
 		/// System.String m_strText
 		/// </summary>
-		protected RProperty r_m_strText;
-		public virtual RProperty Rm_strText
+		protected RSystem.RString r_m_strText;
+		public virtual RSystem.RString Rm_strText
 		{
 			get
 			{

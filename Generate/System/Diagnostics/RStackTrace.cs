@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RDiagnostics
 		/// <summary>
 		/// System.Int32 METHODS_TO_SKIP
 		/// </summary>
-		protected static RField r_METHODS_TO_SKIP;
-		public static RField RMETHODS_TO_SKIP
+		protected static RSystem.RInt32 r_METHODS_TO_SKIP;
+		public static RSystem.RInt32 RMETHODS_TO_SKIP
 		{
 			get
 			{
@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RDiagnostics
 		/// <summary>
 		/// System.String prefix
 		/// </summary>
-		protected static RField r_prefix;
-		public static RField Rprefix
+		protected static RSystem.RString r_prefix;
+		public static RSystem.RString Rprefix
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RDiagnostics
 		/// <summary>
 		/// System.Boolean debug_info
 		/// </summary>
-		protected RField r_debug_info;
-		public virtual RField Rdebug_info
+		protected RSystem.RBoolean r_debug_info;
+		public virtual RSystem.RBoolean Rdebug_info
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RDiagnostics
 		/// <summary>
 		/// System.Boolean isAotidSet
 		/// </summary>
-		protected static RField r_isAotidSet;
-		public static RField RisAotidSet
+		protected static RSystem.RBoolean r_isAotidSet;
+		public static RSystem.RBoolean RisAotidSet
 		{
 			get
 			{
@@ -115,8 +115,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RDiagnostics
 		/// <summary>
 		/// System.String aotid
 		/// </summary>
-		protected static RField r_aotid;
-		public static RField Raotid
+		protected static RSystem.RString r_aotid;
+		public static RSystem.RString Raotid
 		{
 			get
 			{
@@ -132,8 +132,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RDiagnostics
 		/// <summary>
 		/// Int32 FrameCount
 		/// </summary>
-		protected RProperty r_FrameCount;
-		public virtual RProperty RFrameCount
+		protected RSystem.RInt32 r_FrameCount;
+		public virtual RSystem.RInt32 RFrameCount
 		{
 			get
 			{

@@ -15,8 +15,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int64 count
 		/// </summary>
-		protected RField r_count;
-		public virtual RField Rcount
+		protected RSystem.RInt64 r_count;
+		public virtual RSystem.RInt64 Rcount
 		{
 			get
 			{
@@ -32,8 +32,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int64 duration
 		/// </summary>
-		protected RField r_duration;
-		public virtual RField Rduration
+		protected RSystem.RInt64 r_duration;
+		public virtual RSystem.RInt64 Rduration
 		{
 			get
 			{

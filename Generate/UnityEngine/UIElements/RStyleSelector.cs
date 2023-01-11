@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int32 pseudoStateMask
 		/// </summary>
-		protected RField r_pseudoStateMask;
-		public virtual RField RpseudoStateMask
+		protected RSystem.RInt32 r_pseudoStateMask;
+		public virtual RSystem.RInt32 RpseudoStateMask
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int32 negatedPseudoStateMask
 		/// </summary>
-		protected RField r_negatedPseudoStateMask;
-		public virtual RField RnegatedPseudoStateMask
+		protected RSystem.RInt32 r_negatedPseudoStateMask;
+		public virtual RSystem.RInt32 RnegatedPseudoStateMask
 		{
 			get
 			{

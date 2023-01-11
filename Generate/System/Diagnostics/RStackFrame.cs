@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RDiagnostics
 		/// <summary>
 		/// System.Int32 OFFSET_UNKNOWN
 		/// </summary>
-		protected static RField r_OFFSET_UNKNOWN;
-		public static RField ROFFSET_UNKNOWN
+		protected static RSystem.RInt32 r_OFFSET_UNKNOWN;
+		public static RSystem.RInt32 ROFFSET_UNKNOWN
 		{
 			get
 			{
@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RDiagnostics
 		/// <summary>
 		/// System.Int32 ilOffset
 		/// </summary>
-		protected RField r_ilOffset;
-		public virtual RField RilOffset
+		protected RSystem.RInt32 r_ilOffset;
+		public virtual RSystem.RInt32 RilOffset
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RDiagnostics
 		/// <summary>
 		/// System.Int32 nativeOffset
 		/// </summary>
-		protected RField r_nativeOffset;
-		public virtual RField RnativeOffset
+		protected RSystem.RInt32 r_nativeOffset;
+		public virtual RSystem.RInt32 RnativeOffset
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RDiagnostics
 		/// <summary>
 		/// System.Int64 methodAddress
 		/// </summary>
-		protected RField r_methodAddress;
-		public virtual RField RmethodAddress
+		protected RSystem.RInt64 r_methodAddress;
+		public virtual RSystem.RInt64 RmethodAddress
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RDiagnostics
 		/// <summary>
 		/// System.UInt32 methodIndex
 		/// </summary>
-		protected RField r_methodIndex;
-		public virtual RField RmethodIndex
+		protected RSystem.RUInt32 r_methodIndex;
+		public virtual RSystem.RUInt32 RmethodIndex
 		{
 			get
 			{
@@ -115,8 +115,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RDiagnostics
 		/// <summary>
 		/// System.String fileName
 		/// </summary>
-		protected RField r_fileName;
-		public virtual RField RfileName
+		protected RSystem.RString r_fileName;
+		public virtual RSystem.RString RfileName
 		{
 			get
 			{
@@ -132,8 +132,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RDiagnostics
 		/// <summary>
 		/// System.Int32 lineNumber
 		/// </summary>
-		protected RField r_lineNumber;
-		public virtual RField RlineNumber
+		protected RSystem.RInt32 r_lineNumber;
+		public virtual RSystem.RInt32 RlineNumber
 		{
 			get
 			{
@@ -149,8 +149,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RDiagnostics
 		/// <summary>
 		/// System.Int32 columnNumber
 		/// </summary>
-		protected RField r_columnNumber;
-		public virtual RField RcolumnNumber
+		protected RSystem.RInt32 r_columnNumber;
+		public virtual RSystem.RInt32 RcolumnNumber
 		{
 			get
 			{
@@ -166,8 +166,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RDiagnostics
 		/// <summary>
 		/// System.String internalMethodName
 		/// </summary>
-		protected RField r_internalMethodName;
-		public virtual RField RinternalMethodName
+		protected RSystem.RString r_internalMethodName;
+		public virtual RSystem.RString RinternalMethodName
 		{
 			get
 			{

@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Int32 k_PoolCapacity
 		/// </summary>
-		protected RField r_k_PoolCapacity;
-		public virtual RField Rk_PoolCapacity
+		protected RSystem.RInt32 r_k_PoolCapacity;
+		public virtual RSystem.RInt32 Rk_PoolCapacity
 		{
 			get
 			{
@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Collections.Generic.List`1[Unity.Collections.NativeArray`1[T]] m_Pages
 		/// </summary>
-		protected RSystem.RCollections.RGeneric.RList<RField> r_m_Pages;
-		public virtual RSystem.RCollections.RGeneric.RList<RField> Rm_Pages
+		protected RSystem.RCollections.RGeneric.RList<RUnity.RCollections.RNativeArray<RField>> r_m_Pages;
+		public virtual RSystem.RCollections.RGeneric.RList<RUnity.RCollections.RNativeArray<RField>> Rm_Pages
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// Unity.Collections.NativeArray`1[T] m_CurrentPage
 		/// </summary>
-		protected RField r_m_CurrentPage;
-		public virtual RField Rm_CurrentPage
+		protected RUnity.RCollections.RNativeArray<RField> r_m_CurrentPage;
+		public virtual RUnity.RCollections.RNativeArray<RField> Rm_CurrentPage
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Int32 m_CurrentPageCount
 		/// </summary>
-		protected RField r_m_CurrentPageCount;
-		public virtual RField Rm_CurrentPageCount
+		protected RSystem.RInt32 r_m_CurrentPageCount;
+		public virtual RSystem.RInt32 Rm_CurrentPageCount
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Collections.Generic.List`1[Unity.Collections.NativeSlice`1[T]] m_Enumerator
 		/// </summary>
-		protected RSystem.RCollections.RGeneric.RList<RField> r_m_Enumerator;
-		public virtual RSystem.RCollections.RGeneric.RList<RField> Rm_Enumerator
+		protected RSystem.RCollections.RGeneric.RList<RUnity.RCollections.RNativeSlice<RField>> r_m_Enumerator;
+		public virtual RSystem.RCollections.RGeneric.RList<RUnity.RCollections.RNativeSlice<RField>> Rm_Enumerator
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Boolean <disposed>k__BackingField
 		/// </summary>
-		protected RField r___0__disposed__1__k__BackingField;
-		public virtual RField R__0__disposed__1__k__BackingField
+		protected RSystem.RBoolean r___0__disposed__1__k__BackingField;
+		public virtual RSystem.RBoolean R__0__disposed__1__k__BackingField
 		{
 			get
 			{
@@ -115,8 +115,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// Boolean disposed
 		/// </summary>
-		protected RProperty r_disposed;
-		public virtual RProperty Rdisposed
+		protected RSystem.RBoolean r_disposed;
+		public virtual RSystem.RBoolean Rdisposed
 		{
 			get
 			{
@@ -351,37 +351,37 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 	    {
 	    }
 
-        public virtual void Add(ref T @data)
+        public virtual void Add(ref RType @data)
         {
 
             var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@data};
+            var ___parameters = new object[]{@data.Value};
             var ___result = RAdd_Ref_T.Invoke(___genericsType, ___parameters);
-			@data = (T)___parameters[0];
+			@data = new RType(___parameters[0]);
 
             
         }
 
 
-        public virtual void Add(T @data)
+        public virtual void Add(RType @data)
         {
 
             var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@data};
+            var ___parameters = new object[]{@data.Value};
             var ___result = RAdd_T.Invoke(___genericsType, ___parameters);
 
             
         }
 
 
-        public virtual System.Object GetPages()
+        public virtual RSystem.RCollections.RGeneric.RList<RUnity.RCollections.RNativeSlice<RType>> GetPages()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RGetPages.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RSystem.RCollections.RGeneric.RList<RUnity.RCollections.RNativeSlice<RType>>(___result);
         }
 
 

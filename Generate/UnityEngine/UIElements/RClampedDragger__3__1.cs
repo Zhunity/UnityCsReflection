@@ -183,8 +183,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Boolean active
 		/// </summary>
-		protected RProperty r_active;
-		public virtual RProperty Ractive
+		protected RSystem.RBoolean r_active;
+		public virtual RSystem.RBoolean Ractive
 		{
 			get
 			{
@@ -217,8 +217,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Boolean acceptClicksIfDisabled
 		/// </summary>
-		protected RProperty r_acceptClicksIfDisabled;
-		public virtual RProperty RacceptClicksIfDisabled
+		protected RSystem.RBoolean r_acceptClicksIfDisabled;
+		public virtual RSystem.RBoolean RacceptClicksIfDisabled
 		{
 			get
 			{

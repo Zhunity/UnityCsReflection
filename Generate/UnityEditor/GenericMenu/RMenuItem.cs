@@ -32,8 +32,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Boolean separator
 		/// </summary>
-		protected RField r_separator;
-		public virtual RField Rseparator
+		protected RSystem.RBoolean r_separator;
+		public virtual RSystem.RBoolean Rseparator
 		{
 			get
 			{
@@ -49,8 +49,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Boolean on
 		/// </summary>
-		protected RField r_on;
-		public virtual RField Ron
+		protected RSystem.RBoolean r_on;
+		public virtual RSystem.RBoolean Ron
 		{
 			get
 			{

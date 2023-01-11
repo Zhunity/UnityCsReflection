@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.String m_Name
 		/// </summary>
-		protected RField r_m_Name;
-		public virtual RField Rm_Name
+		protected RSystem.RString r_m_Name;
+		public virtual RSystem.RString Rm_Name
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Int32 m_HashCode
 		/// </summary>
-		protected RField r_m_HashCode;
-		public virtual RField Rm_HashCode
+		protected RSystem.RInt32 r_m_HashCode;
+		public virtual RSystem.RInt32 Rm_HashCode
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.String m_OpeningDefinition
 		/// </summary>
-		protected RField r_m_OpeningDefinition;
-		public virtual RField Rm_OpeningDefinition
+		protected RSystem.RString r_m_OpeningDefinition;
+		public virtual RSystem.RString Rm_OpeningDefinition
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.String m_ClosingDefinition
 		/// </summary>
-		protected RField r_m_ClosingDefinition;
-		public virtual RField Rm_ClosingDefinition
+		protected RSystem.RString r_m_ClosingDefinition;
+		public virtual RSystem.RString Rm_ClosingDefinition
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.UInt32[] m_OpeningTagArray
 		/// </summary>
-		protected RFieldArray<RField> r_m_OpeningTagArray;
-		public virtual RFieldArray<RField> Rm_OpeningTagArray
+		protected RFieldArray<RSystem.RUInt32> r_m_OpeningTagArray;
+		public virtual RFieldArray<RSystem.RUInt32> Rm_OpeningTagArray
 		{
 			get
 			{
@@ -115,8 +115,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.UInt32[] m_ClosingTagArray
 		/// </summary>
-		protected RFieldArray<RField> r_m_ClosingTagArray;
-		public virtual RFieldArray<RField> Rm_ClosingTagArray
+		protected RFieldArray<RSystem.RUInt32> r_m_ClosingTagArray;
+		public virtual RFieldArray<RSystem.RUInt32> Rm_ClosingTagArray
 		{
 			get
 			{
@@ -132,8 +132,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.UInt32[] m_OpeningTagUnicodeArray
 		/// </summary>
-		protected RFieldArray<RField> r_m_OpeningTagUnicodeArray;
-		public virtual RFieldArray<RField> Rm_OpeningTagUnicodeArray
+		protected RFieldArray<RSystem.RUInt32> r_m_OpeningTagUnicodeArray;
+		public virtual RFieldArray<RSystem.RUInt32> Rm_OpeningTagUnicodeArray
 		{
 			get
 			{
@@ -149,8 +149,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.UInt32[] m_ClosingTagUnicodeArray
 		/// </summary>
-		protected RFieldArray<RField> r_m_ClosingTagUnicodeArray;
-		public virtual RFieldArray<RField> Rm_ClosingTagUnicodeArray
+		protected RFieldArray<RSystem.RUInt32> r_m_ClosingTagUnicodeArray;
+		public virtual RFieldArray<RSystem.RUInt32> Rm_ClosingTagUnicodeArray
 		{
 			get
 			{
@@ -183,8 +183,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.String name
 		/// </summary>
-		protected RProperty r_name;
-		public virtual RProperty Rname
+		protected RSystem.RString r_name;
+		public virtual RSystem.RString Rname
 		{
 			get
 			{
@@ -200,8 +200,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// Int32 hashCode
 		/// </summary>
-		protected RProperty r_hashCode;
-		public virtual RProperty RhashCode
+		protected RSystem.RInt32 r_hashCode;
+		public virtual RSystem.RInt32 RhashCode
 		{
 			get
 			{
@@ -217,8 +217,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.String styleOpeningDefinition
 		/// </summary>
-		protected RProperty r_styleOpeningDefinition;
-		public virtual RProperty RstyleOpeningDefinition
+		protected RSystem.RString r_styleOpeningDefinition;
+		public virtual RSystem.RString RstyleOpeningDefinition
 		{
 			get
 			{
@@ -234,8 +234,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.String styleClosingDefinition
 		/// </summary>
-		protected RProperty r_styleClosingDefinition;
-		public virtual RProperty RstyleClosingDefinition
+		protected RSystem.RString r_styleClosingDefinition;
+		public virtual RSystem.RString RstyleClosingDefinition
 		{
 			get
 			{
@@ -251,8 +251,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UInt32[] styleOpeningTagArray
 		/// </summary>
-		protected RPropertyArray<RProperty> r_styleOpeningTagArray;
-		public virtual RPropertyArray<RProperty> RstyleOpeningTagArray
+		protected RPropertyArray<RSystem.RUInt32> r_styleOpeningTagArray;
+		public virtual RPropertyArray<RSystem.RUInt32> RstyleOpeningTagArray
 		{
 			get
 			{
@@ -268,8 +268,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UInt32[] styleClosingTagArray
 		/// </summary>
-		protected RPropertyArray<RProperty> r_styleClosingTagArray;
-		public virtual RPropertyArray<RProperty> RstyleClosingTagArray
+		protected RPropertyArray<RSystem.RUInt32> r_styleClosingTagArray;
+		public virtual RPropertyArray<RSystem.RUInt32> RstyleClosingTagArray
 		{
 			get
 			{

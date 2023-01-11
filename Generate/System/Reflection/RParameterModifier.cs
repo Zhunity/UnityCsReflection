@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Boolean[] _byRef
 		/// </summary>
-		protected RFieldArray<RField> r__byRef;
-		public virtual RFieldArray<RField> R_byRef
+		protected RFieldArray<RSystem.RBoolean> r__byRef;
+		public virtual RFieldArray<RSystem.RBoolean> R_byRef
 		{
 			get
 			{
@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// Boolean Item [Int32]
 		/// </summary>
-		protected RProperty r_Item_Int32;
-		public virtual RProperty RItem_Int32
+		protected RSystem.RBoolean r_Item_Int32;
+		public virtual RSystem.RBoolean RItem_Int32
 		{
 			get
 			{

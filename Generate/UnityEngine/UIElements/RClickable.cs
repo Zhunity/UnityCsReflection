@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int64 m_Delay
 		/// </summary>
-		protected RField r_m_Delay;
-		public virtual RField Rm_Delay
+		protected RSystem.RInt64 r_m_Delay;
+		public virtual RSystem.RInt64 Rm_Delay
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int64 m_Interval
 		/// </summary>
-		protected RField r_m_Interval;
-		public virtual RField Rm_Interval
+		protected RSystem.RInt64 r_m_Interval;
+		public virtual RSystem.RInt64 Rm_Interval
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Boolean <active>k__BackingField
 		/// </summary>
-		protected RField r___0__active__1__k__BackingField;
-		public virtual RField R__0__active__1__k__BackingField
+		protected RSystem.RBoolean r___0__active__1__k__BackingField;
+		public virtual RSystem.RBoolean R__0__active__1__k__BackingField
 		{
 			get
 			{
@@ -115,8 +115,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int32 m_ActivePointerId
 		/// </summary>
-		protected RField r_m_ActivePointerId;
-		public virtual RField Rm_ActivePointerId
+		protected RSystem.RInt32 r_m_ActivePointerId;
+		public virtual RSystem.RInt32 Rm_ActivePointerId
 		{
 			get
 			{
@@ -132,8 +132,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Boolean m_AcceptClicksIfDisabled
 		/// </summary>
-		protected RField r_m_AcceptClicksIfDisabled;
-		public virtual RField Rm_AcceptClicksIfDisabled
+		protected RSystem.RBoolean r_m_AcceptClicksIfDisabled;
+		public virtual RSystem.RBoolean Rm_AcceptClicksIfDisabled
 		{
 			get
 			{
@@ -166,8 +166,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Boolean active
 		/// </summary>
-		protected RProperty r_active;
-		public virtual RProperty Ractive
+		protected RSystem.RBoolean r_active;
+		public virtual RSystem.RBoolean Ractive
 		{
 			get
 			{
@@ -200,8 +200,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Boolean acceptClicksIfDisabled
 		/// </summary>
-		protected RProperty r_acceptClicksIfDisabled;
-		public virtual RProperty RacceptClicksIfDisabled
+		protected RSystem.RBoolean r_acceptClicksIfDisabled;
+		public virtual RSystem.RBoolean RacceptClicksIfDisabled
 		{
 			get
 			{

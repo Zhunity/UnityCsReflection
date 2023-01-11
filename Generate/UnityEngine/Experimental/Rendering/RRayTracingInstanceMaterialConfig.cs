@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 		/// <summary>
 		/// System.Int32 renderQueueLowerBound
 		/// </summary>
-		protected RField r_renderQueueLowerBound;
-		public virtual RField RrenderQueueLowerBound
+		protected RSystem.RInt32 r_renderQueueLowerBound;
+		public virtual RSystem.RInt32 RrenderQueueLowerBound
 		{
 			get
 			{
@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 		/// <summary>
 		/// System.Int32 renderQueueUpperBound
 		/// </summary>
-		protected RField r_renderQueueUpperBound;
-		public virtual RField RrenderQueueUpperBound
+		protected RSystem.RInt32 r_renderQueueUpperBound;
+		public virtual RSystem.RInt32 RrenderQueueUpperBound
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 		/// <summary>
 		/// System.String[] optionalShaderKeywords
 		/// </summary>
-		protected RFieldArray<RField> r_optionalShaderKeywords;
-		public virtual RFieldArray<RField> RoptionalShaderKeywords
+		protected RFieldArray<RSystem.RString> r_optionalShaderKeywords;
+		public virtual RFieldArray<RSystem.RString> RoptionalShaderKeywords
 		{
 			get
 			{

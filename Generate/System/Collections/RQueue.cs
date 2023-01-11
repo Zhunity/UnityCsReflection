@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections
 		/// <summary>
 		/// System.Int32 _head
 		/// </summary>
-		protected RField r__head;
-		public virtual RField R_head
+		protected RSystem.RInt32 r__head;
+		public virtual RSystem.RInt32 R_head
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections
 		/// <summary>
 		/// System.Int32 _tail
 		/// </summary>
-		protected RField r__tail;
-		public virtual RField R_tail
+		protected RSystem.RInt32 r__tail;
+		public virtual RSystem.RInt32 R_tail
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections
 		/// <summary>
 		/// System.Int32 _size
 		/// </summary>
-		protected RField r__size;
-		public virtual RField R_size
+		protected RSystem.RInt32 r__size;
+		public virtual RSystem.RInt32 R_size
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections
 		/// <summary>
 		/// System.Int32 _growFactor
 		/// </summary>
-		protected RField r__growFactor;
-		public virtual RField R_growFactor
+		protected RSystem.RInt32 r__growFactor;
+		public virtual RSystem.RInt32 R_growFactor
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections
 		/// <summary>
 		/// System.Int32 _version
 		/// </summary>
-		protected RField r__version;
-		public virtual RField R_version
+		protected RSystem.RInt32 r__version;
+		public virtual RSystem.RInt32 R_version
 		{
 			get
 			{
@@ -132,8 +132,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections
 		/// <summary>
 		/// System.Int32 _MinimumGrow
 		/// </summary>
-		protected static RField r__MinimumGrow;
-		public static RField R_MinimumGrow
+		protected static RSystem.RInt32 r__MinimumGrow;
+		public static RSystem.RInt32 R_MinimumGrow
 		{
 			get
 			{
@@ -149,8 +149,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections
 		/// <summary>
 		/// System.Int32 _ShrinkThreshold
 		/// </summary>
-		protected static RField r__ShrinkThreshold;
-		public static RField R_ShrinkThreshold
+		protected static RSystem.RInt32 r__ShrinkThreshold;
+		public static RSystem.RInt32 R_ShrinkThreshold
 		{
 			get
 			{
@@ -166,8 +166,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections
 		/// <summary>
 		/// Int32 Count
 		/// </summary>
-		protected RProperty r_Count;
-		public virtual RProperty RCount
+		protected RSystem.RInt32 r_Count;
+		public virtual RSystem.RInt32 RCount
 		{
 			get
 			{
@@ -183,8 +183,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections
 		/// <summary>
 		/// Boolean IsSynchronized
 		/// </summary>
-		protected RProperty r_IsSynchronized;
-		public virtual RProperty RIsSynchronized
+		protected RSystem.RBoolean r_IsSynchronized;
+		public virtual RSystem.RBoolean RIsSynchronized
 		{
 			get
 			{

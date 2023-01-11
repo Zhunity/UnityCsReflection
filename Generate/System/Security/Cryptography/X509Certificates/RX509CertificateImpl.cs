@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certif
 		/// <summary>
 		/// Boolean IsValid
 		/// </summary>
-		protected RProperty r_IsValid;
-		public virtual RProperty RIsValid
+		protected RSystem.RBoolean r_IsValid;
+		public virtual RSystem.RBoolean RIsValid
 		{
 			get
 			{
@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certif
 		/// <summary>
 		/// IntPtr Handle
 		/// </summary>
-		protected RProperty r_Handle;
-		public virtual RProperty RHandle
+		protected RSystem.RIntPtr r_Handle;
+		public virtual RSystem.RIntPtr RHandle
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certif
 		/// <summary>
 		/// System.String Issuer
 		/// </summary>
-		protected RProperty r_Issuer;
-		public virtual RProperty RIssuer
+		protected RSystem.RString r_Issuer;
+		public virtual RSystem.RString RIssuer
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certif
 		/// <summary>
 		/// System.String Subject
 		/// </summary>
-		protected RProperty r_Subject;
-		public virtual RProperty RSubject
+		protected RSystem.RString r_Subject;
+		public virtual RSystem.RString RSubject
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certif
 		/// <summary>
 		/// System.String LegacyIssuer
 		/// </summary>
-		protected RProperty r_LegacyIssuer;
-		public virtual RProperty RLegacyIssuer
+		protected RSystem.RString r_LegacyIssuer;
+		public virtual RSystem.RString RLegacyIssuer
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certif
 		/// <summary>
 		/// System.String LegacySubject
 		/// </summary>
-		protected RProperty r_LegacySubject;
-		public virtual RProperty RLegacySubject
+		protected RSystem.RString r_LegacySubject;
+		public virtual RSystem.RString RLegacySubject
 		{
 			get
 			{
@@ -115,8 +115,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certif
 		/// <summary>
 		/// Byte[] RawData
 		/// </summary>
-		protected RPropertyArray<RProperty> r_RawData;
-		public virtual RPropertyArray<RProperty> RRawData
+		protected RPropertyArray<RSystem.RByte> r_RawData;
+		public virtual RPropertyArray<RSystem.RByte> RRawData
 		{
 			get
 			{
@@ -166,8 +166,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certif
 		/// <summary>
 		/// Byte[] Thumbprint
 		/// </summary>
-		protected RPropertyArray<RProperty> r_Thumbprint;
-		public virtual RPropertyArray<RProperty> RThumbprint
+		protected RPropertyArray<RSystem.RByte> r_Thumbprint;
+		public virtual RPropertyArray<RSystem.RByte> RThumbprint
 		{
 			get
 			{
@@ -183,8 +183,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certif
 		/// <summary>
 		/// System.String KeyAlgorithm
 		/// </summary>
-		protected RProperty r_KeyAlgorithm;
-		public virtual RProperty RKeyAlgorithm
+		protected RSystem.RString r_KeyAlgorithm;
+		public virtual RSystem.RString RKeyAlgorithm
 		{
 			get
 			{
@@ -200,8 +200,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certif
 		/// <summary>
 		/// Byte[] KeyAlgorithmParameters
 		/// </summary>
-		protected RPropertyArray<RProperty> r_KeyAlgorithmParameters;
-		public virtual RPropertyArray<RProperty> RKeyAlgorithmParameters
+		protected RPropertyArray<RSystem.RByte> r_KeyAlgorithmParameters;
+		public virtual RPropertyArray<RSystem.RByte> RKeyAlgorithmParameters
 		{
 			get
 			{
@@ -217,8 +217,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certif
 		/// <summary>
 		/// Byte[] PublicKeyValue
 		/// </summary>
-		protected RPropertyArray<RProperty> r_PublicKeyValue;
-		public virtual RPropertyArray<RProperty> RPublicKeyValue
+		protected RPropertyArray<RSystem.RByte> r_PublicKeyValue;
+		public virtual RPropertyArray<RSystem.RByte> RPublicKeyValue
 		{
 			get
 			{
@@ -234,8 +234,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certif
 		/// <summary>
 		/// Byte[] SerialNumber
 		/// </summary>
-		protected RPropertyArray<RProperty> r_SerialNumber;
-		public virtual RPropertyArray<RProperty> RSerialNumber
+		protected RPropertyArray<RSystem.RByte> r_SerialNumber;
+		public virtual RPropertyArray<RSystem.RByte> RSerialNumber
 		{
 			get
 			{
@@ -251,8 +251,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certif
 		/// <summary>
 		/// Boolean HasPrivateKey
 		/// </summary>
-		protected RProperty r_HasPrivateKey;
-		public virtual RProperty RHasPrivateKey
+		protected RSystem.RBoolean r_HasPrivateKey;
+		public virtual RSystem.RBoolean RHasPrivateKey
 		{
 			get
 			{

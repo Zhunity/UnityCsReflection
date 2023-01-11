@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Single r
 		/// </summary>
-		protected RField r_r;
-		public virtual RField Rr
+		protected RSystem.RSingle r_r;
+		public virtual RSystem.RSingle Rr
 		{
 			get
 			{
@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Single g
 		/// </summary>
-		protected RField r_g;
-		public virtual RField Rg
+		protected RSystem.RSingle r_g;
+		public virtual RSystem.RSingle Rg
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Single b
 		/// </summary>
-		protected RField r_b;
-		public virtual RField Rb
+		protected RSystem.RSingle r_b;
+		public virtual RSystem.RSingle Rb
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Single a
 		/// </summary>
-		protected RField r_a;
-		public virtual RField Ra
+		protected RSystem.RSingle r_a;
+		public virtual RSystem.RSingle Ra
 		{
 			get
 			{
@@ -268,8 +268,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Single grayscale
 		/// </summary>
-		protected RProperty r_grayscale;
-		public virtual RProperty Rgrayscale
+		protected RSystem.RSingle r_grayscale;
+		public virtual RSystem.RSingle Rgrayscale
 		{
 			get
 			{
@@ -319,8 +319,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Single maxColorComponent
 		/// </summary>
-		protected RProperty r_maxColorComponent;
-		public virtual RProperty RmaxColorComponent
+		protected RSystem.RSingle r_maxColorComponent;
+		public virtual RSystem.RSingle RmaxColorComponent
 		{
 			get
 			{
@@ -336,8 +336,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Single Item [Int32]
 		/// </summary>
-		protected RProperty r_Item_Int32;
-		public virtual RProperty RItem_Int32
+		protected RSystem.RSingle r_Item_Int32;
+		public virtual RSystem.RSingle RItem_Int32
 		{
 			get
 			{

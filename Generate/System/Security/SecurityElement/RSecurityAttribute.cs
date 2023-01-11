@@ -15,8 +15,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
 		/// <summary>
 		/// System.String _name
 		/// </summary>
-		protected RField r__name;
-		public virtual RField R_name
+		protected RSystem.RString r__name;
+		public virtual RSystem.RString R_name
 		{
 			get
 			{
@@ -32,8 +32,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
 		/// <summary>
 		/// System.String _value
 		/// </summary>
-		protected RField r__value;
-		public virtual RField R_value
+		protected RSystem.RString r__value;
+		public virtual RSystem.RString R_value
 		{
 			get
 			{
@@ -49,8 +49,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
 		/// <summary>
 		/// System.String Name
 		/// </summary>
-		protected RProperty r_Name;
-		public virtual RProperty RName
+		protected RSystem.RString r_Name;
+		public virtual RSystem.RString RName
 		{
 			get
 			{
@@ -66,8 +66,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
 		/// <summary>
 		/// System.String Value
 		/// </summary>
-		protected RProperty r_Value;
-		public virtual RProperty RValue
+		protected RSystem.RString r_Value;
+		public virtual RSystem.RString RValue
 		{
 			get
 			{

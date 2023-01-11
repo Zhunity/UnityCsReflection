@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// Boolean IsCancellationRequested
 		/// </summary>
-		protected RProperty r_IsCancellationRequested;
-		public virtual RProperty RIsCancellationRequested
+		protected RSystem.RBoolean r_IsCancellationRequested;
+		public virtual RSystem.RBoolean RIsCancellationRequested
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// Boolean CanBeCanceled
 		/// </summary>
-		protected RProperty r_CanBeCanceled;
-		public virtual RProperty RCanBeCanceled
+		protected RSystem.RBoolean r_CanBeCanceled;
+		public virtual RSystem.RBoolean RCanBeCanceled
 		{
 			get
 			{

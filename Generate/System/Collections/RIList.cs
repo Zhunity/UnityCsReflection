@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections
 		/// <summary>
 		/// Boolean IsReadOnly
 		/// </summary>
-		protected RProperty r_IsReadOnly;
-		public virtual RProperty RIsReadOnly
+		protected RSystem.RBoolean r_IsReadOnly;
+		public virtual RSystem.RBoolean RIsReadOnly
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections
 		/// <summary>
 		/// Boolean IsFixedSize
 		/// </summary>
-		protected RProperty r_IsFixedSize;
-		public virtual RProperty RIsFixedSize
+		protected RSystem.RBoolean r_IsFixedSize;
+		public virtual RSystem.RBoolean RIsFixedSize
 		{
 			get
 			{

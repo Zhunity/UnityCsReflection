@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.UInt32 m_FirstVertex
 		/// </summary>
-		protected RField r_m_FirstVertex;
-		public virtual RField Rm_FirstVertex
+		protected RSystem.RUInt32 r_m_FirstVertex;
+		public virtual RSystem.RUInt32 Rm_FirstVertex
 		{
 			get
 			{
@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.UInt32 m_VertexCount
 		/// </summary>
-		protected RField r_m_VertexCount;
-		public virtual RField Rm_VertexCount
+		protected RSystem.RUInt32 r_m_VertexCount;
+		public virtual RSystem.RUInt32 Rm_VertexCount
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Boolean m_HasNormals
 		/// </summary>
-		protected RField r_m_HasNormals;
-		public virtual RField Rm_HasNormals
+		protected RSystem.RBoolean r_m_HasNormals;
+		public virtual RSystem.RBoolean Rm_HasNormals
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Boolean m_HasTangents
 		/// </summary>
-		protected RField r_m_HasTangents;
-		public virtual RField Rm_HasTangents
+		protected RSystem.RBoolean r_m_HasTangents;
+		public virtual RSystem.RBoolean Rm_HasTangents
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UInt32 firstVertex
 		/// </summary>
-		protected RProperty r_firstVertex;
-		public virtual RProperty RfirstVertex
+		protected RSystem.RUInt32 r_firstVertex;
+		public virtual RSystem.RUInt32 RfirstVertex
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UInt32 vertexCount
 		/// </summary>
-		protected RProperty r_vertexCount;
-		public virtual RProperty RvertexCount
+		protected RSystem.RUInt32 r_vertexCount;
+		public virtual RSystem.RUInt32 RvertexCount
 		{
 			get
 			{
@@ -115,8 +115,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Boolean hasNormals
 		/// </summary>
-		protected RProperty r_hasNormals;
-		public virtual RProperty RhasNormals
+		protected RSystem.RBoolean r_hasNormals;
+		public virtual RSystem.RBoolean RhasNormals
 		{
 			get
 			{
@@ -132,8 +132,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Boolean hasTangents
 		/// </summary>
-		protected RProperty r_hasTangents;
-		public virtual RProperty RhasTangents
+		protected RSystem.RBoolean r_hasTangents;
+		public virtual RSystem.RBoolean RhasTangents
 		{
 			get
 			{

@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization
 		/// <summary>
 		/// System.Int32 defaultSize
 		/// </summary>
-		protected static RField r_defaultSize;
-		public static RField RdefaultSize
+		protected static RSystem.RInt32 r_defaultSize;
+		public static RSystem.RInt32 RdefaultSize
 		{
 			get
 			{
@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization
 		/// <summary>
 		/// System.String s_mscorlibAssemblySimpleName
 		/// </summary>
-		protected static RField r_s_mscorlibAssemblySimpleName;
-		public static RField Rs_mscorlibAssemblySimpleName
+		protected static RSystem.RString r_s_mscorlibAssemblySimpleName;
+		public static RSystem.RString Rs_mscorlibAssemblySimpleName
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization
 		/// <summary>
 		/// System.String s_mscorlibFileName
 		/// </summary>
-		protected static RField r_s_mscorlibFileName;
-		public static RField Rs_mscorlibFileName
+		protected static RSystem.RString r_s_mscorlibFileName;
+		public static RSystem.RString Rs_mscorlibFileName
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization
 		/// <summary>
 		/// System.String[] m_members
 		/// </summary>
-		protected RFieldArray<RField> r_m_members;
-		public virtual RFieldArray<RField> Rm_members
+		protected RFieldArray<RSystem.RString> r_m_members;
+		public virtual RFieldArray<RSystem.RString> Rm_members
 		{
 			get
 			{
@@ -115,8 +115,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization
 		/// <summary>
 		/// System.Collections.Generic.Dictionary`2[System.String,System.Int32] m_nameToIndex
 		/// </summary>
-		protected RSystem.RCollections.RGeneric.RDictionary<RField, RField> r_m_nameToIndex;
-		public virtual RSystem.RCollections.RGeneric.RDictionary<RField, RField> Rm_nameToIndex
+		protected RSystem.RCollections.RGeneric.RDictionary<RSystem.RString, RSystem.RInt32> r_m_nameToIndex;
+		public virtual RSystem.RCollections.RGeneric.RDictionary<RSystem.RString, RSystem.RInt32> Rm_nameToIndex
 		{
 			get
 			{
@@ -132,8 +132,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization
 		/// <summary>
 		/// System.Int32 m_currMember
 		/// </summary>
-		protected RField r_m_currMember;
-		public virtual RField Rm_currMember
+		protected RSystem.RInt32 r_m_currMember;
+		public virtual RSystem.RInt32 Rm_currMember
 		{
 			get
 			{
@@ -166,8 +166,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization
 		/// <summary>
 		/// System.String m_fullTypeName
 		/// </summary>
-		protected RField r_m_fullTypeName;
-		public virtual RField Rm_fullTypeName
+		protected RSystem.RString r_m_fullTypeName;
+		public virtual RSystem.RString Rm_fullTypeName
 		{
 			get
 			{
@@ -183,8 +183,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization
 		/// <summary>
 		/// System.String m_assemName
 		/// </summary>
-		protected RField r_m_assemName;
-		public virtual RField Rm_assemName
+		protected RSystem.RString r_m_assemName;
+		public virtual RSystem.RString Rm_assemName
 		{
 			get
 			{
@@ -217,8 +217,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization
 		/// <summary>
 		/// System.Boolean isFullTypeNameSetExplicit
 		/// </summary>
-		protected RField r_isFullTypeNameSetExplicit;
-		public virtual RField RisFullTypeNameSetExplicit
+		protected RSystem.RBoolean r_isFullTypeNameSetExplicit;
+		public virtual RSystem.RBoolean RisFullTypeNameSetExplicit
 		{
 			get
 			{
@@ -234,8 +234,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization
 		/// <summary>
 		/// System.Boolean isAssemblyNameSetExplicit
 		/// </summary>
-		protected RField r_isAssemblyNameSetExplicit;
-		public virtual RField RisAssemblyNameSetExplicit
+		protected RSystem.RBoolean r_isAssemblyNameSetExplicit;
+		public virtual RSystem.RBoolean RisAssemblyNameSetExplicit
 		{
 			get
 			{
@@ -251,8 +251,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization
 		/// <summary>
 		/// System.Boolean requireSameTokenInPartialTrust
 		/// </summary>
-		protected RField r_requireSameTokenInPartialTrust;
-		public virtual RField RrequireSameTokenInPartialTrust
+		protected RSystem.RBoolean r_requireSameTokenInPartialTrust;
+		public virtual RSystem.RBoolean RrequireSameTokenInPartialTrust
 		{
 			get
 			{
@@ -268,8 +268,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization
 		/// <summary>
 		/// System.String FullTypeName
 		/// </summary>
-		protected RProperty r_FullTypeName;
-		public virtual RProperty RFullTypeName
+		protected RSystem.RString r_FullTypeName;
+		public virtual RSystem.RString RFullTypeName
 		{
 			get
 			{
@@ -285,8 +285,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization
 		/// <summary>
 		/// System.String AssemblyName
 		/// </summary>
-		protected RProperty r_AssemblyName;
-		public virtual RProperty RAssemblyName
+		protected RSystem.RString r_AssemblyName;
+		public virtual RSystem.RString RAssemblyName
 		{
 			get
 			{
@@ -302,8 +302,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization
 		/// <summary>
 		/// Int32 MemberCount
 		/// </summary>
-		protected RProperty r_MemberCount;
-		public virtual RProperty RMemberCount
+		protected RSystem.RInt32 r_MemberCount;
+		public virtual RSystem.RInt32 RMemberCount
 		{
 			get
 			{
@@ -336,8 +336,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization
 		/// <summary>
 		/// Boolean IsFullTypeNameSetExplicit
 		/// </summary>
-		protected RProperty r_IsFullTypeNameSetExplicit;
-		public virtual RProperty RIsFullTypeNameSetExplicit
+		protected RSystem.RBoolean r_IsFullTypeNameSetExplicit;
+		public virtual RSystem.RBoolean RIsFullTypeNameSetExplicit
 		{
 			get
 			{
@@ -353,8 +353,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization
 		/// <summary>
 		/// Boolean IsAssemblyNameSetExplicit
 		/// </summary>
-		protected RProperty r_IsAssemblyNameSetExplicit;
-		public virtual RProperty RIsAssemblyNameSetExplicit
+		protected RSystem.RBoolean r_IsAssemblyNameSetExplicit;
+		public virtual RSystem.RBoolean RIsAssemblyNameSetExplicit
 		{
 			get
 			{
@@ -370,8 +370,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization
 		/// <summary>
 		/// System.String[] MemberNames
 		/// </summary>
-		protected RPropertyArray<RProperty> r_MemberNames;
-		public virtual RPropertyArray<RProperty> RMemberNames
+		protected RPropertyArray<RSystem.RString> r_MemberNames;
+		public virtual RPropertyArray<RSystem.RString> RMemberNames
 		{
 			get
 			{

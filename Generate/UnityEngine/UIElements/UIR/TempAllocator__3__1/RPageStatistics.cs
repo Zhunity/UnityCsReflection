@@ -15,8 +15,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Int32 size
 		/// </summary>
-		protected RField r_size;
-		public virtual RField Rsize
+		protected RSystem.RInt32 r_size;
+		public virtual RSystem.RInt32 Rsize
 		{
 			get
 			{
@@ -32,8 +32,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Int32 used
 		/// </summary>
-		protected RField r_used;
-		public virtual RField Rused
+		protected RSystem.RInt32 r_used;
+		public virtual RSystem.RInt32 Rused
 		{
 			get
 			{

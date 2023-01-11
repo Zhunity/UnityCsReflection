@@ -49,8 +49,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections
 		/// <summary>
 		/// System.Int32 hash_coll
 		/// </summary>
-		protected RField r_hash_coll;
-		public virtual RField Rhash_coll
+		protected RSystem.RInt32 r_hash_coll;
+		public virtual RSystem.RInt32 Rhash_coll
 		{
 			get
 			{

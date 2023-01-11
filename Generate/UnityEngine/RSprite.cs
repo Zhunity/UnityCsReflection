@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Single pixelsPerUnit
 		/// </summary>
-		protected RProperty r_pixelsPerUnit;
-		public virtual RProperty RpixelsPerUnit
+		protected RSystem.RSingle r_pixelsPerUnit;
+		public virtual RSystem.RSingle RpixelsPerUnit
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Single spriteAtlasTextureScale
 		/// </summary>
-		protected RProperty r_spriteAtlasTextureScale;
-		public virtual RProperty RspriteAtlasTextureScale
+		protected RSystem.RSingle r_spriteAtlasTextureScale;
+		public virtual RSystem.RSingle RspriteAtlasTextureScale
 		{
 			get
 			{
@@ -149,8 +149,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Boolean packed
 		/// </summary>
-		protected RProperty r_packed;
-		public virtual RProperty Rpacked
+		protected RSystem.RBoolean r_packed;
+		public virtual RSystem.RBoolean Rpacked
 		{
 			get
 			{
@@ -251,8 +251,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UInt16[] triangles
 		/// </summary>
-		protected RPropertyArray<RProperty> r_triangles;
-		public virtual RPropertyArray<RProperty> Rtriangles
+		protected RPropertyArray<RSystem.RUInt16> r_triangles;
+		public virtual RPropertyArray<RSystem.RUInt16> Rtriangles
 		{
 			get
 			{
@@ -285,8 +285,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.String name
 		/// </summary>
-		protected RProperty r_name;
-		public virtual RProperty Rname
+		protected RSystem.RString r_name;
+		public virtual RSystem.RString Rname
 		{
 			get
 			{

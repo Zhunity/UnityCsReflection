@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 		/// <summary>
 		/// System.Single m_XCoordinate
 		/// </summary>
-		protected RField r_m_XCoordinate;
-		public virtual RField Rm_XCoordinate
+		protected RSystem.RSingle r_m_XCoordinate;
+		public virtual RSystem.RSingle Rm_XCoordinate
 		{
 			get
 			{
@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 		/// <summary>
 		/// System.Single m_YCoordinate
 		/// </summary>
-		protected RField r_m_YCoordinate;
-		public virtual RField Rm_YCoordinate
+		protected RSystem.RSingle r_m_YCoordinate;
+		public virtual RSystem.RSingle Rm_YCoordinate
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 		/// <summary>
 		/// Single xCoordinate
 		/// </summary>
-		protected RProperty r_xCoordinate;
-		public virtual RProperty RxCoordinate
+		protected RSystem.RSingle r_xCoordinate;
+		public virtual RSystem.RSingle RxCoordinate
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 		/// <summary>
 		/// Single yCoordinate
 		/// </summary>
-		protected RProperty r_yCoordinate;
-		public virtual RProperty RyCoordinate
+		protected RSystem.RSingle r_yCoordinate;
+		public virtual RSystem.RSingle RyCoordinate
 		{
 			get
 			{

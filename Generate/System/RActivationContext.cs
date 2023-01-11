@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Boolean _disposed
 		/// </summary>
-		protected RField r__disposed;
-		public virtual RField R_disposed
+		protected RSystem.RBoolean r__disposed;
+		public virtual RSystem.RBoolean R_disposed
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// Byte[] ApplicationManifestBytes
 		/// </summary>
-		protected RPropertyArray<RProperty> r_ApplicationManifestBytes;
-		public virtual RPropertyArray<RProperty> RApplicationManifestBytes
+		protected RPropertyArray<RSystem.RByte> r_ApplicationManifestBytes;
+		public virtual RPropertyArray<RSystem.RByte> RApplicationManifestBytes
 		{
 			get
 			{
@@ -115,8 +115,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// Byte[] DeploymentManifestBytes
 		/// </summary>
-		protected RPropertyArray<RProperty> r_DeploymentManifestBytes;
-		public virtual RPropertyArray<RProperty> RDeploymentManifestBytes
+		protected RPropertyArray<RSystem.RByte> r_DeploymentManifestBytes;
+		public virtual RPropertyArray<RSystem.RByte> RDeploymentManifestBytes
 		{
 			get
 			{

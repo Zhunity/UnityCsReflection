@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Int32 _locked
 		/// </summary>
-		protected RField r__locked;
-		public virtual RField R_locked
+		protected RSystem.RInt32 r__locked;
+		public virtual RSystem.RInt32 R_locked
 		{
 			get
 			{

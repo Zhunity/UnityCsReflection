@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Int32 m_ExcessMinCapacity
 		/// </summary>
-		protected RField r_m_ExcessMinCapacity;
-		public virtual RField Rm_ExcessMinCapacity
+		protected RSystem.RInt32 r_m_ExcessMinCapacity;
+		public virtual RSystem.RInt32 Rm_ExcessMinCapacity
 		{
 			get
 			{
@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Int32 m_ExcessMaxCapacity
 		/// </summary>
-		protected RField r_m_ExcessMaxCapacity;
-		public virtual RField Rm_ExcessMaxCapacity
+		protected RSystem.RInt32 r_m_ExcessMaxCapacity;
+		public virtual RSystem.RInt32 Rm_ExcessMaxCapacity
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Int32 m_NextExcessSize
 		/// </summary>
-		protected RField r_m_NextExcessSize;
-		public virtual RField Rm_NextExcessSize
+		protected RSystem.RInt32 r_m_NextExcessSize;
+		public virtual RSystem.RInt32 Rm_NextExcessSize
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Boolean <disposed>k__BackingField
 		/// </summary>
-		protected RField r___0__disposed__1__k__BackingField;
-		public virtual RField R__0__disposed__1__k__BackingField
+		protected RSystem.RBoolean r___0__disposed__1__k__BackingField;
+		public virtual RSystem.RBoolean R__0__disposed__1__k__BackingField
 		{
 			get
 			{
@@ -115,8 +115,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// Boolean disposed
 		/// </summary>
-		protected RProperty r_disposed;
-		public virtual RProperty Rdisposed
+		protected RSystem.RBoolean r_disposed;
+		public virtual RSystem.RBoolean Rdisposed
 		{
 			get
 			{
@@ -373,14 +373,14 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
         }
 
 
-        public virtual System.Object Alloc(System.Int32 @count)
+        public virtual RUnity.RCollections.RNativeSlice<RType> Alloc(System.Int32 @count)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@count};
             var ___result = RAlloc_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RUnity.RCollections.RNativeSlice<RType>(___result);
         }
 
 

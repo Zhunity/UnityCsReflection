@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
 		/// <summary>
 		/// System.Byte[] Exponent
 		/// </summary>
-		protected RFieldArray<RField> r_Exponent;
-		public virtual RFieldArray<RField> RExponent
+		protected RFieldArray<RSystem.RByte> r_Exponent;
+		public virtual RFieldArray<RSystem.RByte> RExponent
 		{
 			get
 			{
@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
 		/// <summary>
 		/// System.Byte[] Modulus
 		/// </summary>
-		protected RFieldArray<RField> r_Modulus;
-		public virtual RFieldArray<RField> RModulus
+		protected RFieldArray<RSystem.RByte> r_Modulus;
+		public virtual RFieldArray<RSystem.RByte> RModulus
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
 		/// <summary>
 		/// System.Byte[] P
 		/// </summary>
-		protected RFieldArray<RField> r_P;
-		public virtual RFieldArray<RField> RP
+		protected RFieldArray<RSystem.RByte> r_P;
+		public virtual RFieldArray<RSystem.RByte> RP
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
 		/// <summary>
 		/// System.Byte[] Q
 		/// </summary>
-		protected RFieldArray<RField> r_Q;
-		public virtual RFieldArray<RField> RQ
+		protected RFieldArray<RSystem.RByte> r_Q;
+		public virtual RFieldArray<RSystem.RByte> RQ
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
 		/// <summary>
 		/// System.Byte[] DP
 		/// </summary>
-		protected RFieldArray<RField> r_DP;
-		public virtual RFieldArray<RField> RDP
+		protected RFieldArray<RSystem.RByte> r_DP;
+		public virtual RFieldArray<RSystem.RByte> RDP
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
 		/// <summary>
 		/// System.Byte[] DQ
 		/// </summary>
-		protected RFieldArray<RField> r_DQ;
-		public virtual RFieldArray<RField> RDQ
+		protected RFieldArray<RSystem.RByte> r_DQ;
+		public virtual RFieldArray<RSystem.RByte> RDQ
 		{
 			get
 			{
@@ -115,8 +115,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
 		/// <summary>
 		/// System.Byte[] InverseQ
 		/// </summary>
-		protected RFieldArray<RField> r_InverseQ;
-		public virtual RFieldArray<RField> RInverseQ
+		protected RFieldArray<RSystem.RByte> r_InverseQ;
+		public virtual RFieldArray<RSystem.RByte> RInverseQ
 		{
 			get
 			{
@@ -132,8 +132,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
 		/// <summary>
 		/// System.Byte[] D
 		/// </summary>
-		protected RFieldArray<RField> r_D;
-		public virtual RFieldArray<RField> RD
+		protected RFieldArray<RSystem.RByte> r_D;
+		public virtual RFieldArray<RSystem.RByte> RD
 		{
 			get
 			{

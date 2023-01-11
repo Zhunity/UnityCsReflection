@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Boolean isDirty
 		/// </summary>
-		protected RProperty r_isDirty;
-		public virtual RProperty RisDirty
+		protected RSystem.RBoolean r_isDirty;
+		public virtual RSystem.RBoolean RisDirty
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Boolean isLocked
 		/// </summary>
-		protected RProperty r_isLocked;
-		public virtual RProperty RisLocked
+		protected RSystem.RBoolean r_isLocked;
+		public virtual RSystem.RBoolean RisLocked
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Boolean hasUnsavedChanges
 		/// </summary>
-		protected RProperty r_hasUnsavedChanges;
-		public virtual RProperty RhasUnsavedChanges
+		protected RSystem.RBoolean r_hasUnsavedChanges;
+		public virtual RSystem.RBoolean RhasUnsavedChanges
 		{
 			get
 			{
@@ -115,8 +115,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Boolean delayFlushDirtyRebuild
 		/// </summary>
-		protected static RProperty r_delayFlushDirtyRebuild;
-		public static RProperty RdelayFlushDirtyRebuild
+		protected static RSystem.RBoolean r_delayFlushDirtyRebuild;
+		public static RSystem.RBoolean RdelayFlushDirtyRebuild
 		{
 			get
 			{
@@ -149,8 +149,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Boolean hasComponentsWhichCannotBeMultiEdited
 		/// </summary>
-		protected RProperty r_hasComponentsWhichCannotBeMultiEdited;
-		public virtual RProperty RhasComponentsWhichCannotBeMultiEdited
+		protected RSystem.RBoolean r_hasComponentsWhichCannotBeMultiEdited;
+		public virtual RSystem.RBoolean RhasComponentsWhichCannotBeMultiEdited
 		{
 			get
 			{

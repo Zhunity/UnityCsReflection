@@ -15,8 +15,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 		/// <summary>
 		/// System.Int32 itemId
 		/// </summary>
-		protected RField r_itemId;
-		public virtual RField RitemId
+		protected RSystem.RInt32 r_itemId;
+		public virtual RSystem.RInt32 RitemId
 		{
 			get
 			{
@@ -32,8 +32,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 		/// <summary>
 		/// System.Int32 selectedIndex
 		/// </summary>
-		protected RField r_selectedIndex;
-		public virtual RField RselectedIndex
+		protected RSystem.RInt32 r_selectedIndex;
+		public virtual RSystem.RInt32 RselectedIndex
 		{
 			get
 			{

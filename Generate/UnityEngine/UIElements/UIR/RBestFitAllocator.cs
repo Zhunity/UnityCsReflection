@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.UInt32 <totalSize>k__BackingField
 		/// </summary>
-		protected RField r___0__totalSize__1__k__BackingField;
-		public virtual RField R__0__totalSize__1__k__BackingField
+		protected RSystem.RUInt32 r___0__totalSize__1__k__BackingField;
+		public virtual RSystem.RUInt32 R__0__totalSize__1__k__BackingField
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.UInt32 m_HighWatermark
 		/// </summary>
-		protected RField r_m_HighWatermark;
-		public virtual RField Rm_HighWatermark
+		protected RSystem.RUInt32 r_m_HighWatermark;
+		public virtual RSystem.RUInt32 Rm_HighWatermark
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// UInt32 totalSize
 		/// </summary>
-		protected RProperty r_totalSize;
-		public virtual RProperty RtotalSize
+		protected RSystem.RUInt32 r_totalSize;
+		public virtual RSystem.RUInt32 RtotalSize
 		{
 			get
 			{
@@ -115,8 +115,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// UInt32 highWatermark
 		/// </summary>
-		protected RProperty r_highWatermark;
-		public virtual RProperty RhighWatermark
+		protected RSystem.RUInt32 r_highWatermark;
+		public virtual RSystem.RUInt32 RhighWatermark
 		{
 			get
 			{

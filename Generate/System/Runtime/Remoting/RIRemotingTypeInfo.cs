@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting
 		/// <summary>
 		/// System.String TypeName
 		/// </summary>
-		protected RProperty r_TypeName;
-		public virtual RProperty RTypeName
+		protected RSystem.RString r_TypeName;
+		public virtual RSystem.RString RTypeName
 		{
 			get
 			{

@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
 		/// <summary>
 		/// System.String m_description
 		/// </summary>
-		protected RField r_m_description;
-		public virtual RField Rm_description
+		protected RSystem.RString r_m_description;
+		public virtual RSystem.RString Rm_description
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
 		/// <summary>
 		/// System.String m_name
 		/// </summary>
-		protected RField r_m_name;
-		public virtual RField Rm_name
+		protected RSystem.RString r_m_name;
+		public virtual RSystem.RString Rm_name
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
 		/// <summary>
 		/// System.String MergeLogic
 		/// </summary>
-		protected RProperty r_MergeLogic;
-		public virtual RProperty RMergeLogic
+		protected RSystem.RString r_MergeLogic;
+		public virtual RSystem.RString RMergeLogic
 		{
 			get
 			{
@@ -132,8 +132,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
 		/// <summary>
 		/// System.String Description
 		/// </summary>
-		protected RProperty r_Description;
-		public virtual RProperty RDescription
+		protected RSystem.RString r_Description;
+		public virtual RSystem.RString RDescription
 		{
 			get
 			{
@@ -166,8 +166,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
 		/// <summary>
 		/// System.String Name
 		/// </summary>
-		protected RProperty r_Name;
-		public virtual RProperty RName
+		protected RSystem.RString r_Name;
+		public virtual RSystem.RString RName
 		{
 			get
 			{
@@ -200,8 +200,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
 		/// <summary>
 		/// System.String AttributeString
 		/// </summary>
-		protected RProperty r_AttributeString;
-		public virtual RProperty RAttributeString
+		protected RSystem.RString r_AttributeString;
+		public virtual RSystem.RString RAttributeString
 		{
 			get
 			{
@@ -217,8 +217,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
 		/// <summary>
 		/// System.String PermissionSetName
 		/// </summary>
-		protected RProperty r_PermissionSetName;
-		public virtual RProperty RPermissionSetName
+		protected RSystem.RString r_PermissionSetName;
+		public virtual RSystem.RString RPermissionSetName
 		{
 			get
 			{

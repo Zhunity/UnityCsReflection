@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.String m_Name
 		/// </summary>
-		protected RField r_m_Name;
-		public virtual RField Rm_Name
+		protected RSystem.RString r_m_Name;
+		public virtual RSystem.RString Rm_Name
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.UInt32 m_Index
 		/// </summary>
-		protected RField r_m_Index;
-		public virtual RField Rm_Index
+		protected RSystem.RUInt32 r_m_Index;
+		public virtual RSystem.RUInt32 Rm_Index
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.String name
 		/// </summary>
-		protected RProperty r_name;
-		public virtual RProperty Rname
+		protected RSystem.RString r_name;
+		public virtual RSystem.RString Rname
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// Boolean isDynamic
 		/// </summary>
-		protected RProperty r_isDynamic;
-		public virtual RProperty RisDynamic
+		protected RSystem.RBoolean r_isDynamic;
+		public virtual RSystem.RBoolean RisDynamic
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// Boolean isOverridable
 		/// </summary>
-		protected RProperty r_isOverridable;
-		public virtual RProperty RisOverridable
+		protected RSystem.RBoolean r_isOverridable;
+		public virtual RSystem.RBoolean RisOverridable
 		{
 			get
 			{
@@ -115,8 +115,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// Boolean isValid
 		/// </summary>
-		protected RProperty r_isValid;
-		public virtual RProperty RisValid
+		protected RSystem.RBoolean r_isValid;
+		public virtual RSystem.RBoolean RisValid
 		{
 			get
 			{

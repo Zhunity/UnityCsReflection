@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.String tooltip
 		/// </summary>
-		protected RField r_tooltip;
-		public virtual RField Rtooltip
+		protected RSystem.RString r_tooltip;
+		public virtual RSystem.RString Rtooltip
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Int32 m_NestingLevel
 		/// </summary>
-		protected RField r_m_NestingLevel;
-		public virtual RField Rm_NestingLevel
+		protected RSystem.RInt32 r_m_NestingLevel;
+		public virtual RSystem.RInt32 Rm_NestingLevel
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Collections.Generic.Dictionary`2[System.String,UnityEditorInternal.ReorderableListWrapper] s_reorderableLists
 		/// </summary>
-		protected static RSystem.RCollections.RGeneric.RDictionary<RField, RUnityEditorInternal.RReorderableListWrapper> r_s_reorderableLists;
-		public static RSystem.RCollections.RGeneric.RDictionary<RField, RUnityEditorInternal.RReorderableListWrapper> Rs_reorderableLists
+		protected static RSystem.RCollections.RGeneric.RDictionary<RSystem.RString, RUnityEditorInternal.RReorderableListWrapper> r_s_reorderableLists;
+		public static RSystem.RCollections.RGeneric.RDictionary<RSystem.RString, RUnityEditorInternal.RReorderableListWrapper> Rs_reorderableLists
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Int32 s_LastInspectionTarget
 		/// </summary>
-		protected static RField r_s_LastInspectionTarget;
-		public static RField Rs_LastInspectionTarget
+		protected static RSystem.RInt32 r_s_LastInspectionTarget;
+		public static RSystem.RInt32 Rs_LastInspectionTarget
 		{
 			get
 			{
@@ -115,8 +115,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Int32 s_LastInspectorNumComponents
 		/// </summary>
-		protected static RField r_s_LastInspectorNumComponents;
-		public static RField Rs_LastInspectorNumComponents
+		protected static RSystem.RInt32 r_s_LastInspectorNumComponents;
+		public static RSystem.RInt32 Rs_LastInspectorNumComponents
 		{
 			get
 			{
@@ -166,8 +166,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Boolean hasPropertyDrawer
 		/// </summary>
-		protected RProperty r_hasPropertyDrawer;
-		public virtual RProperty RhasPropertyDrawer
+		protected RSystem.RBoolean r_hasPropertyDrawer;
+		public virtual RSystem.RBoolean RhasPropertyDrawer
 		{
 			get
 			{
@@ -217,8 +217,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Boolean isCurrentlyNested
 		/// </summary>
-		protected RProperty r_isCurrentlyNested;
-		public virtual RProperty RisCurrentlyNested
+		protected RSystem.RBoolean r_isCurrentlyNested;
+		public virtual RSystem.RBoolean RisCurrentlyNested
 		{
 			get
 			{
@@ -234,8 +234,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Boolean empty
 		/// </summary>
-		protected RProperty r_empty;
-		public virtual RProperty Rempty
+		protected RSystem.RBoolean r_empty;
+		public virtual RSystem.RBoolean Rempty
 		{
 			get
 			{

@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Boolean <focusable>k__BackingField
 		/// </summary>
-		protected RField r___0__focusable__1__k__BackingField;
-		public virtual RField R__0__focusable__1__k__BackingField
+		protected RSystem.RBoolean r___0__focusable__1__k__BackingField;
+		public virtual RSystem.RBoolean R__0__focusable__1__k__BackingField
 		{
 			get
 			{
@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int32 <tabIndex>k__BackingField
 		/// </summary>
-		protected RField r___0__tabIndex__1__k__BackingField;
-		public virtual RField R__0__tabIndex__1__k__BackingField
+		protected RSystem.RInt32 r___0__tabIndex__1__k__BackingField;
+		public virtual RSystem.RInt32 R__0__tabIndex__1__k__BackingField
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Boolean m_DelegatesFocus
 		/// </summary>
-		protected RField r_m_DelegatesFocus;
-		public virtual RField Rm_DelegatesFocus
+		protected RSystem.RBoolean r_m_DelegatesFocus;
+		public virtual RSystem.RBoolean Rm_DelegatesFocus
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Boolean m_ExcludeFromFocusRing
 		/// </summary>
-		protected RField r_m_ExcludeFromFocusRing;
-		public virtual RField Rm_ExcludeFromFocusRing
+		protected RSystem.RBoolean r_m_ExcludeFromFocusRing;
+		public virtual RSystem.RBoolean Rm_ExcludeFromFocusRing
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Boolean isIMGUIContainer
 		/// </summary>
-		protected RField r_isIMGUIContainer;
-		public virtual RField RisIMGUIContainer
+		protected RSystem.RBoolean r_isIMGUIContainer;
+		public virtual RSystem.RBoolean RisIMGUIContainer
 		{
 			get
 			{
@@ -115,8 +115,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Boolean focusable
 		/// </summary>
-		protected RProperty r_focusable;
-		public virtual RProperty Rfocusable
+		protected RSystem.RBoolean r_focusable;
+		public virtual RSystem.RBoolean Rfocusable
 		{
 			get
 			{
@@ -132,8 +132,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Int32 tabIndex
 		/// </summary>
-		protected RProperty r_tabIndex;
-		public virtual RProperty RtabIndex
+		protected RSystem.RInt32 r_tabIndex;
+		public virtual RSystem.RInt32 RtabIndex
 		{
 			get
 			{
@@ -149,8 +149,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Boolean delegatesFocus
 		/// </summary>
-		protected RProperty r_delegatesFocus;
-		public virtual RProperty RdelegatesFocus
+		protected RSystem.RBoolean r_delegatesFocus;
+		public virtual RSystem.RBoolean RdelegatesFocus
 		{
 			get
 			{
@@ -166,8 +166,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Boolean excludeFromFocusRing
 		/// </summary>
-		protected RProperty r_excludeFromFocusRing;
-		public virtual RProperty RexcludeFromFocusRing
+		protected RSystem.RBoolean r_excludeFromFocusRing;
+		public virtual RSystem.RBoolean RexcludeFromFocusRing
 		{
 			get
 			{
@@ -183,8 +183,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Boolean canGrabFocus
 		/// </summary>
-		protected RProperty r_canGrabFocus;
-		public virtual RProperty RcanGrabFocus
+		protected RSystem.RBoolean r_canGrabFocus;
+		public virtual RSystem.RBoolean RcanGrabFocus
 		{
 			get
 			{

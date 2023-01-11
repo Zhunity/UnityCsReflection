@@ -49,8 +49,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Boolean isLocked
 		/// </summary>
-		protected RProperty r_isLocked;
-		public virtual RProperty RisLocked
+		protected RSystem.RBoolean r_isLocked;
+		public virtual RSystem.RBoolean RisLocked
 		{
 			get
 			{

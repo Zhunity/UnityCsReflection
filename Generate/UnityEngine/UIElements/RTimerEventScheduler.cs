@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Boolean m_TransactionMode
 		/// </summary>
-		protected RField r_m_TransactionMode;
-		public virtual RField Rm_TransactionMode
+		protected RSystem.RBoolean r_m_TransactionMode;
+		public virtual RSystem.RBoolean Rm_TransactionMode
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Boolean disableThrottling
 		/// </summary>
-		protected RField r_disableThrottling;
-		public virtual RField RdisableThrottling
+		protected RSystem.RBoolean r_disableThrottling;
+		public virtual RSystem.RBoolean RdisableThrottling
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int32 m_LastUpdatedIndex
 		/// </summary>
-		protected RField r_m_LastUpdatedIndex;
-		public virtual RField Rm_LastUpdatedIndex
+		protected RSystem.RInt32 r_m_LastUpdatedIndex;
+		public virtual RSystem.RInt32 Rm_LastUpdatedIndex
 		{
 			get
 			{

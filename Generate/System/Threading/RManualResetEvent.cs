@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Boolean hasThreadAffinity
 		/// </summary>
-		protected RField r_hasThreadAffinity;
-		public virtual RField RhasThreadAffinity
+		protected RSystem.RBoolean r_hasThreadAffinity;
+		public virtual RSystem.RBoolean RhasThreadAffinity
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// IntPtr Handle
 		/// </summary>
-		protected RProperty r_Handle;
-		public virtual RProperty RHandle
+		protected RSystem.RIntPtr r_Handle;
+		public virtual RSystem.RIntPtr RHandle
 		{
 			get
 			{

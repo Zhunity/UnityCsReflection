@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 		/// <summary>
 		/// System.String[] optionalDoubleSidedShaderKeywords
 		/// </summary>
-		protected RFieldArray<RField> r_optionalDoubleSidedShaderKeywords;
-		public virtual RFieldArray<RField> RoptionalDoubleSidedShaderKeywords
+		protected RFieldArray<RSystem.RString> r_optionalDoubleSidedShaderKeywords;
+		public virtual RFieldArray<RSystem.RString> RoptionalDoubleSidedShaderKeywords
 		{
 			get
 			{
@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 		/// <summary>
 		/// System.Boolean frontTriangleCounterClockwise
 		/// </summary>
-		protected RField r_frontTriangleCounterClockwise;
-		public virtual RField RfrontTriangleCounterClockwise
+		protected RSystem.RBoolean r_frontTriangleCounterClockwise;
+		public virtual RSystem.RBoolean RfrontTriangleCounterClockwise
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 		/// <summary>
 		/// System.Boolean checkDoubleSidedGIMaterial
 		/// </summary>
-		protected RField r_checkDoubleSidedGIMaterial;
-		public virtual RField RcheckDoubleSidedGIMaterial
+		protected RSystem.RBoolean r_checkDoubleSidedGIMaterial;
+		public virtual RSystem.RBoolean RcheckDoubleSidedGIMaterial
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 		/// <summary>
 		/// System.Boolean forceDoubleSided
 		/// </summary>
-		protected RField r_forceDoubleSided;
-		public virtual RField RforceDoubleSided
+		protected RSystem.RBoolean r_forceDoubleSided;
+		public virtual RSystem.RBoolean RforceDoubleSided
 		{
 			get
 			{

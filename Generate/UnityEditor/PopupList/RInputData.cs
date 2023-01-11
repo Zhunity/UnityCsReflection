@@ -32,8 +32,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Boolean m_CloseOnSelection
 		/// </summary>
-		protected RField r_m_CloseOnSelection;
-		public virtual RField Rm_CloseOnSelection
+		protected RSystem.RBoolean r_m_CloseOnSelection;
+		public virtual RSystem.RBoolean Rm_CloseOnSelection
 		{
 			get
 			{
@@ -49,8 +49,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Boolean m_AllowCustom
 		/// </summary>
-		protected RField r_m_AllowCustom;
-		public virtual RField Rm_AllowCustom
+		protected RSystem.RBoolean r_m_AllowCustom;
+		public virtual RSystem.RBoolean Rm_AllowCustom
 		{
 			get
 			{
@@ -66,8 +66,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Boolean m_EnableAutoCompletion
 		/// </summary>
-		protected RField r_m_EnableAutoCompletion;
-		public virtual RField Rm_EnableAutoCompletion
+		protected RSystem.RBoolean r_m_EnableAutoCompletion;
+		public virtual RSystem.RBoolean Rm_EnableAutoCompletion
 		{
 			get
 			{
@@ -83,8 +83,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Boolean m_SortAlphabetically
 		/// </summary>
-		protected RField r_m_SortAlphabetically;
-		public virtual RField Rm_SortAlphabetically
+		protected RSystem.RBoolean r_m_SortAlphabetically;
+		public virtual RSystem.RBoolean Rm_SortAlphabetically
 		{
 			get
 			{
@@ -117,8 +117,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Int32 m_MaxCount
 		/// </summary>
-		protected RField r_m_MaxCount;
-		public virtual RField Rm_MaxCount
+		protected RSystem.RInt32 r_m_MaxCount;
+		public virtual RSystem.RInt32 Rm_MaxCount
 		{
 			get
 			{

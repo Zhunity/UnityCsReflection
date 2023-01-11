@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String m_listSeparator
 		/// </summary>
-		protected RField r_m_listSeparator;
-		public virtual RField Rm_listSeparator
+		protected RSystem.RString r_m_listSeparator;
+		public virtual RSystem.RString Rm_listSeparator
 		{
 			get
 			{
@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Boolean m_isReadOnly
 		/// </summary>
-		protected RField r_m_isReadOnly;
-		public virtual RField Rm_isReadOnly
+		protected RSystem.RBoolean r_m_isReadOnly;
+		public virtual RSystem.RBoolean Rm_isReadOnly
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String m_cultureName
 		/// </summary>
-		protected RField r_m_cultureName;
-		public virtual RField Rm_cultureName
+		protected RSystem.RString r_m_cultureName;
+		public virtual RSystem.RString Rm_cultureName
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String m_textInfoName
 		/// </summary>
-		protected RField r_m_textInfoName;
-		public virtual RField Rm_textInfoName
+		protected RSystem.RString r_m_textInfoName;
+		public virtual RSystem.RString Rm_textInfoName
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Nullable`1[System.Boolean] m_IsAsciiCasingSameAsInvariant
 		/// </summary>
-		protected RField r_m_IsAsciiCasingSameAsInvariant;
-		public virtual RField Rm_IsAsciiCasingSameAsInvariant
+		protected RSystem.RNullable<RSystem.RBoolean> r_m_IsAsciiCasingSameAsInvariant;
+		public virtual RSystem.RNullable<RSystem.RBoolean> Rm_IsAsciiCasingSameAsInvariant
 		{
 			get
 			{
@@ -132,8 +132,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String customCultureName
 		/// </summary>
-		protected RField r_customCultureName;
-		public virtual RField RcustomCultureName
+		protected RSystem.RString r_customCultureName;
+		public virtual RSystem.RString RcustomCultureName
 		{
 			get
 			{
@@ -149,8 +149,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 m_nDataItem
 		/// </summary>
-		protected RField r_m_nDataItem;
-		public virtual RField Rm_nDataItem
+		protected RSystem.RInt32 r_m_nDataItem;
+		public virtual RSystem.RInt32 Rm_nDataItem
 		{
 			get
 			{
@@ -166,8 +166,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Boolean m_useUserOverride
 		/// </summary>
-		protected RField r_m_useUserOverride;
-		public virtual RField Rm_useUserOverride
+		protected RSystem.RBoolean r_m_useUserOverride;
+		public virtual RSystem.RBoolean Rm_useUserOverride
 		{
 			get
 			{
@@ -183,8 +183,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 m_win32LangID
 		/// </summary>
-		protected RField r_m_win32LangID;
-		public virtual RField Rm_win32LangID
+		protected RSystem.RInt32 r_m_win32LangID;
+		public virtual RSystem.RInt32 Rm_win32LangID
 		{
 			get
 			{
@@ -200,8 +200,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 wordSeparatorMask
 		/// </summary>
-		protected static RField r_wordSeparatorMask;
-		public static RField RwordSeparatorMask
+		protected static RSystem.RInt32 r_wordSeparatorMask;
+		public static RSystem.RInt32 RwordSeparatorMask
 		{
 			get
 			{
@@ -234,8 +234,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// Int32 ANSICodePage
 		/// </summary>
-		protected RProperty r_ANSICodePage;
-		public virtual RProperty RANSICodePage
+		protected RSystem.RInt32 r_ANSICodePage;
+		public virtual RSystem.RInt32 RANSICodePage
 		{
 			get
 			{
@@ -251,8 +251,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// Int32 OEMCodePage
 		/// </summary>
-		protected RProperty r_OEMCodePage;
-		public virtual RProperty ROEMCodePage
+		protected RSystem.RInt32 r_OEMCodePage;
+		public virtual RSystem.RInt32 ROEMCodePage
 		{
 			get
 			{
@@ -268,8 +268,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// Int32 MacCodePage
 		/// </summary>
-		protected RProperty r_MacCodePage;
-		public virtual RProperty RMacCodePage
+		protected RSystem.RInt32 r_MacCodePage;
+		public virtual RSystem.RInt32 RMacCodePage
 		{
 			get
 			{
@@ -285,8 +285,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// Int32 EBCDICCodePage
 		/// </summary>
-		protected RProperty r_EBCDICCodePage;
-		public virtual RProperty REBCDICCodePage
+		protected RSystem.RInt32 r_EBCDICCodePage;
+		public virtual RSystem.RInt32 REBCDICCodePage
 		{
 			get
 			{
@@ -302,8 +302,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// Int32 LCID
 		/// </summary>
-		protected RProperty r_LCID;
-		public virtual RProperty RLCID
+		protected RSystem.RInt32 r_LCID;
+		public virtual RSystem.RInt32 RLCID
 		{
 			get
 			{
@@ -319,8 +319,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String CultureName
 		/// </summary>
-		protected RProperty r_CultureName;
-		public virtual RProperty RCultureName
+		protected RSystem.RString r_CultureName;
+		public virtual RSystem.RString RCultureName
 		{
 			get
 			{
@@ -336,8 +336,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// Boolean IsReadOnly
 		/// </summary>
-		protected RProperty r_IsReadOnly;
-		public virtual RProperty RIsReadOnly
+		protected RSystem.RBoolean r_IsReadOnly;
+		public virtual RSystem.RBoolean RIsReadOnly
 		{
 			get
 			{
@@ -353,8 +353,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String ListSeparator
 		/// </summary>
-		protected RProperty r_ListSeparator;
-		public virtual RProperty RListSeparator
+		protected RSystem.RString r_ListSeparator;
+		public virtual RSystem.RString RListSeparator
 		{
 			get
 			{
@@ -370,8 +370,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// Boolean IsAsciiCasingSameAsInvariant
 		/// </summary>
-		protected RProperty r_IsAsciiCasingSameAsInvariant;
-		public virtual RProperty RIsAsciiCasingSameAsInvariant
+		protected RSystem.RBoolean r_IsAsciiCasingSameAsInvariant;
+		public virtual RSystem.RBoolean RIsAsciiCasingSameAsInvariant
 		{
 			get
 			{
@@ -387,8 +387,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// Boolean IsRightToLeft
 		/// </summary>
-		protected RProperty r_IsRightToLeft;
-		public virtual RProperty RIsRightToLeft
+		protected RSystem.RBoolean r_IsRightToLeft;
+		public virtual RSystem.RBoolean RIsRightToLeft
 		{
 			get
 			{
@@ -1561,7 +1561,37 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
+        public virtual void ToLowerAsciiInvariant(RSystem.RReadOnlySpan<RSystem.RChar> @source, RSystem.RSpan<RSystem.RChar> @destination)
+        {
 
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@source.Value, @destination.Value};
+            var ___result = RToLowerAsciiInvariant_ReadOnlySpan_d_Char_p__Span_d_Char_p_.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void ToUpperAsciiInvariant(RSystem.RReadOnlySpan<RSystem.RChar> @source, RSystem.RSpan<RSystem.RChar> @destination)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@source.Value, @destination.Value};
+            var ___result = RToUpperAsciiInvariant_ReadOnlySpan_d_Char_p__Span_d_Char_p_.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void ChangeCase(RSystem.RReadOnlySpan<RSystem.RChar> @source, RSystem.RSpan<RSystem.RChar> @destination, System.Boolean @toUpper)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@source.Value, @destination.Value, @toUpper};
+            var ___result = RChangeCase_ReadOnlySpan_d_Char_p__Span_d_Char_p__Boolean.Invoke(___genericsType, ___parameters);
+
+            
+        }
 
 
         public virtual void Finalize()

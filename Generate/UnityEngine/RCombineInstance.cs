@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Int32 m_MeshInstanceID
 		/// </summary>
-		protected RField r_m_MeshInstanceID;
-		public virtual RField Rm_MeshInstanceID
+		protected RSystem.RInt32 r_m_MeshInstanceID;
+		public virtual RSystem.RInt32 Rm_MeshInstanceID
 		{
 			get
 			{
@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Int32 m_SubMeshIndex
 		/// </summary>
-		protected RField r_m_SubMeshIndex;
-		public virtual RField Rm_SubMeshIndex
+		protected RSystem.RInt32 r_m_SubMeshIndex;
+		public virtual RSystem.RInt32 Rm_SubMeshIndex
 		{
 			get
 			{
@@ -115,8 +115,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 subMeshIndex
 		/// </summary>
-		protected RProperty r_subMeshIndex;
-		public virtual RProperty RsubMeshIndex
+		protected RSystem.RInt32 r_subMeshIndex;
+		public virtual RSystem.RInt32 RsubMeshIndex
 		{
 			get
 			{

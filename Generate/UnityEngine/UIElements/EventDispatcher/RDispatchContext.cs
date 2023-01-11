@@ -15,8 +15,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.UInt32 m_GateCount
 		/// </summary>
-		protected RField r_m_GateCount;
-		public virtual RField Rm_GateCount
+		protected RSystem.RUInt32 r_m_GateCount;
+		public virtual RSystem.RUInt32 Rm_GateCount
 		{
 			get
 			{

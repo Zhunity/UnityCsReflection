@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.String <eventBaseName>k__BackingField
 		/// </summary>
-		protected RField r___0__eventBaseName__1__k__BackingField;
-		public virtual RField R__0__eventBaseName__1__k__BackingField
+		protected RSystem.RString r___0__eventBaseName__1__k__BackingField;
+		public virtual RSystem.RString R__0__eventBaseName__1__k__BackingField
 		{
 			get
 			{
@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int64 <eventTypeId>k__BackingField
 		/// </summary>
-		protected RField r___0__eventTypeId__1__k__BackingField;
-		public virtual RField R__0__eventTypeId__1__k__BackingField
+		protected RSystem.RInt64 r___0__eventTypeId__1__k__BackingField;
+		public virtual RSystem.RInt64 R__0__eventTypeId__1__k__BackingField
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.UInt64 <eventId>k__BackingField
 		/// </summary>
-		protected RField r___0__eventId__1__k__BackingField;
-		public virtual RField R__0__eventId__1__k__BackingField
+		protected RSystem.RUInt64 r___0__eventId__1__k__BackingField;
+		public virtual RSystem.RUInt64 R__0__eventId__1__k__BackingField
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.UInt64 <triggerEventId>k__BackingField
 		/// </summary>
-		protected RField r___0__triggerEventId__1__k__BackingField;
-		public virtual RField R__0__triggerEventId__1__k__BackingField
+		protected RSystem.RUInt64 r___0__triggerEventId__1__k__BackingField;
+		public virtual RSystem.RUInt64 R__0__triggerEventId__1__k__BackingField
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int64 <timestamp>k__BackingField
 		/// </summary>
-		protected RField r___0__timestamp__1__k__BackingField;
-		public virtual RField R__0__timestamp__1__k__BackingField
+		protected RSystem.RInt64 r___0__timestamp__1__k__BackingField;
+		public virtual RSystem.RInt64 R__0__timestamp__1__k__BackingField
 		{
 			get
 			{
@@ -132,8 +132,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Boolean <hasUnderlyingPhysicalEvent>k__BackingField
 		/// </summary>
-		protected RField r___0__hasUnderlyingPhysicalEvent__1__k__BackingField;
-		public virtual RField R__0__hasUnderlyingPhysicalEvent__1__k__BackingField
+		protected RSystem.RBoolean r___0__hasUnderlyingPhysicalEvent__1__k__BackingField;
+		public virtual RSystem.RBoolean R__0__hasUnderlyingPhysicalEvent__1__k__BackingField
 		{
 			get
 			{
@@ -149,8 +149,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Boolean <isPropagationStopped>k__BackingField
 		/// </summary>
-		protected RField r___0__isPropagationStopped__1__k__BackingField;
-		public virtual RField R__0__isPropagationStopped__1__k__BackingField
+		protected RSystem.RBoolean r___0__isPropagationStopped__1__k__BackingField;
+		public virtual RSystem.RBoolean R__0__isPropagationStopped__1__k__BackingField
 		{
 			get
 			{
@@ -166,8 +166,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Boolean <isImmediatePropagationStopped>k__BackingField
 		/// </summary>
-		protected RField r___0__isImmediatePropagationStopped__1__k__BackingField;
-		public virtual RField R__0__isImmediatePropagationStopped__1__k__BackingField
+		protected RSystem.RBoolean r___0__isImmediatePropagationStopped__1__k__BackingField;
+		public virtual RSystem.RBoolean R__0__isImmediatePropagationStopped__1__k__BackingField
 		{
 			get
 			{
@@ -183,8 +183,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Boolean <isDefaultPrevented>k__BackingField
 		/// </summary>
-		protected RField r___0__isDefaultPrevented__1__k__BackingField;
-		public virtual RField R__0__isDefaultPrevented__1__k__BackingField
+		protected RSystem.RBoolean r___0__isDefaultPrevented__1__k__BackingField;
+		public virtual RSystem.RBoolean R__0__isDefaultPrevented__1__k__BackingField
 		{
 			get
 			{
@@ -234,8 +234,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Boolean <dispatch>k__BackingField
 		/// </summary>
-		protected RField r___0__dispatch__1__k__BackingField;
-		public virtual RField R__0__dispatch__1__k__BackingField
+		protected RSystem.RBoolean r___0__dispatch__1__k__BackingField;
+		public virtual RSystem.RBoolean R__0__dispatch__1__k__BackingField
 		{
 			get
 			{
@@ -302,8 +302,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int32 <clickCount>k__BackingField
 		/// </summary>
-		protected RField r___0__clickCount__1__k__BackingField;
-		public virtual RField R__0__clickCount__1__k__BackingField
+		protected RSystem.RInt32 r___0__clickCount__1__k__BackingField;
+		public virtual RSystem.RInt32 R__0__clickCount__1__k__BackingField
 		{
 			get
 			{
@@ -319,8 +319,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int32 <button>k__BackingField
 		/// </summary>
-		protected RField r___0__button__1__k__BackingField;
-		public virtual RField R__0__button__1__k__BackingField
+		protected RSystem.RInt32 r___0__button__1__k__BackingField;
+		public virtual RSystem.RInt32 R__0__button__1__k__BackingField
 		{
 			get
 			{
@@ -336,8 +336,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int32 <pressedButtons>k__BackingField
 		/// </summary>
-		protected RField r___0__pressedButtons__1__k__BackingField;
-		public virtual RField R__0__pressedButtons__1__k__BackingField
+		protected RSystem.RInt32 r___0__pressedButtons__1__k__BackingField;
+		public virtual RSystem.RInt32 R__0__pressedButtons__1__k__BackingField
 		{
 			get
 			{
@@ -370,8 +370,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Char <character>k__BackingField
 		/// </summary>
-		protected RField r___0__character__1__k__BackingField;
-		public virtual RField R__0__character__1__k__BackingField
+		protected RSystem.RChar r___0__character__1__k__BackingField;
+		public virtual RSystem.RChar R__0__character__1__k__BackingField
 		{
 			get
 			{
@@ -404,8 +404,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.String <commandName>k__BackingField
 		/// </summary>
-		protected RField r___0__commandName__1__k__BackingField;
-		public virtual RField R__0__commandName__1__k__BackingField
+		protected RSystem.RString r___0__commandName__1__k__BackingField;
+		public virtual RSystem.RString R__0__commandName__1__k__BackingField
 		{
 			get
 			{
@@ -455,8 +455,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.String eventBaseName
 		/// </summary>
-		protected RProperty r_eventBaseName;
-		public virtual RProperty ReventBaseName
+		protected RSystem.RString r_eventBaseName;
+		public virtual RSystem.RString ReventBaseName
 		{
 			get
 			{
@@ -472,8 +472,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Int64 eventTypeId
 		/// </summary>
-		protected RProperty r_eventTypeId;
-		public virtual RProperty ReventTypeId
+		protected RSystem.RInt64 r_eventTypeId;
+		public virtual RSystem.RInt64 ReventTypeId
 		{
 			get
 			{
@@ -489,8 +489,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UInt64 eventId
 		/// </summary>
-		protected RProperty r_eventId;
-		public virtual RProperty ReventId
+		protected RSystem.RUInt64 r_eventId;
+		public virtual RSystem.RUInt64 ReventId
 		{
 			get
 			{
@@ -506,8 +506,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UInt64 triggerEventId
 		/// </summary>
-		protected RProperty r_triggerEventId;
-		public virtual RProperty RtriggerEventId
+		protected RSystem.RUInt64 r_triggerEventId;
+		public virtual RSystem.RUInt64 RtriggerEventId
 		{
 			get
 			{
@@ -523,8 +523,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Int64 timestamp
 		/// </summary>
-		protected RProperty r_timestamp;
-		public virtual RProperty Rtimestamp
+		protected RSystem.RInt64 r_timestamp;
+		public virtual RSystem.RInt64 Rtimestamp
 		{
 			get
 			{
@@ -574,8 +574,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Boolean hasUnderlyingPhysicalEvent
 		/// </summary>
-		protected RProperty r_hasUnderlyingPhysicalEvent;
-		public virtual RProperty RhasUnderlyingPhysicalEvent
+		protected RSystem.RBoolean r_hasUnderlyingPhysicalEvent;
+		public virtual RSystem.RBoolean RhasUnderlyingPhysicalEvent
 		{
 			get
 			{
@@ -591,8 +591,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Boolean isPropagationStopped
 		/// </summary>
-		protected RProperty r_isPropagationStopped;
-		public virtual RProperty RisPropagationStopped
+		protected RSystem.RBoolean r_isPropagationStopped;
+		public virtual RSystem.RBoolean RisPropagationStopped
 		{
 			get
 			{
@@ -608,8 +608,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Boolean isImmediatePropagationStopped
 		/// </summary>
-		protected RProperty r_isImmediatePropagationStopped;
-		public virtual RProperty RisImmediatePropagationStopped
+		protected RSystem.RBoolean r_isImmediatePropagationStopped;
+		public virtual RSystem.RBoolean RisImmediatePropagationStopped
 		{
 			get
 			{
@@ -625,8 +625,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Boolean isDefaultPrevented
 		/// </summary>
-		protected RProperty r_isDefaultPrevented;
-		public virtual RProperty RisDefaultPrevented
+		protected RSystem.RBoolean r_isDefaultPrevented;
+		public virtual RSystem.RBoolean RisDefaultPrevented
 		{
 			get
 			{
@@ -676,8 +676,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Boolean dispatch
 		/// </summary>
-		protected RProperty r_dispatch;
-		public virtual RProperty Rdispatch
+		protected RSystem.RBoolean r_dispatch;
+		public virtual RSystem.RBoolean Rdispatch
 		{
 			get
 			{
@@ -744,8 +744,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Int32 clickCount
 		/// </summary>
-		protected RProperty r_clickCount;
-		public virtual RProperty RclickCount
+		protected RSystem.RInt32 r_clickCount;
+		public virtual RSystem.RInt32 RclickCount
 		{
 			get
 			{
@@ -761,8 +761,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Int32 button
 		/// </summary>
-		protected RProperty r_button;
-		public virtual RProperty Rbutton
+		protected RSystem.RInt32 r_button;
+		public virtual RSystem.RInt32 Rbutton
 		{
 			get
 			{
@@ -778,8 +778,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Int32 pressedButtons
 		/// </summary>
-		protected RProperty r_pressedButtons;
-		public virtual RProperty RpressedButtons
+		protected RSystem.RInt32 r_pressedButtons;
+		public virtual RSystem.RInt32 RpressedButtons
 		{
 			get
 			{
@@ -812,8 +812,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Char character
 		/// </summary>
-		protected RProperty r_character;
-		public virtual RProperty Rcharacter
+		protected RSystem.RChar r_character;
+		public virtual RSystem.RChar Rcharacter
 		{
 			get
 			{
@@ -846,8 +846,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.String commandName
 		/// </summary>
-		protected RProperty r_commandName;
-		public virtual RProperty RcommandName
+		protected RSystem.RString r_commandName;
+		public virtual RSystem.RString RcommandName
 		{
 			get
 			{

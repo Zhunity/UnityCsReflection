@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String source
 		/// </summary>
-		protected RField r_source;
-		public virtual RField Rsource
+		protected RSystem.RString r_source;
+		public virtual RSystem.RString Rsource
 		{
 			get
 			{
@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Byte[] key
 		/// </summary>
-		protected RFieldArray<RField> r_key;
-		public virtual RFieldArray<RField> Rkey
+		protected RFieldArray<RSystem.RByte> r_key;
+		public virtual RFieldArray<RSystem.RByte> Rkey
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 lcid
 		/// </summary>
-		protected RField r_lcid;
-		public virtual RField Rlcid
+		protected RSystem.RInt32 r_lcid;
+		public virtual RSystem.RInt32 Rlcid
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String OriginalString
 		/// </summary>
-		protected RProperty r_OriginalString;
-		public virtual RProperty ROriginalString
+		protected RSystem.RString r_OriginalString;
+		public virtual RSystem.RString ROriginalString
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// Byte[] KeyData
 		/// </summary>
-		protected RPropertyArray<RProperty> r_KeyData;
-		public virtual RPropertyArray<RProperty> RKeyData
+		protected RPropertyArray<RSystem.RByte> r_KeyData;
+		public virtual RPropertyArray<RSystem.RByte> RKeyData
 		{
 			get
 			{

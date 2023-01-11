@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Single nearZ
 		/// </summary>
-		protected static RField r_nearZ;
-		public static RField RnearZ
+		protected static RSystem.RSingle r_nearZ;
+		public static RSystem.RSingle RnearZ
 		{
 			get
 			{
@@ -183,8 +183,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Single textureId
 		/// </summary>
-		protected RField r_textureId;
-		public virtual RField RtextureId
+		protected RSystem.RSingle r_textureId;
+		public virtual RSystem.RSingle RtextureId
 		{
 			get
 			{

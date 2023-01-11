@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
 		/// <summary>
 		/// System.Int32 Read
 		/// </summary>
-		protected static RField r_Read;
-		public static RField RRead
+		protected static RSystem.RInt32 r_Read;
+		public static RSystem.RInt32 RRead
 		{
 			get
 			{
@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
 		/// <summary>
 		/// System.Int32 Write
 		/// </summary>
-		protected static RField r_Write;
-		public static RField RWrite
+		protected static RSystem.RInt32 r_Write;
+		public static RSystem.RInt32 RWrite
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
 		/// <summary>
 		/// System.Int32 Dispose
 		/// </summary>
-		protected static RField r_Dispose;
-		public static RField RDispose
+		protected static RSystem.RInt32 r_Dispose;
+		public static RSystem.RInt32 RDispose
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
 		/// <summary>
 		/// System.Int32 ReadCheck
 		/// </summary>
-		protected static RField r_ReadCheck;
-		public static RField RReadCheck
+		protected static RSystem.RInt32 r_ReadCheck;
+		public static RSystem.RInt32 RReadCheck
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
 		/// <summary>
 		/// System.Int32 WriteCheck
 		/// </summary>
-		protected static RField r_WriteCheck;
-		public static RField RWriteCheck
+		protected static RSystem.RInt32 r_WriteCheck;
+		public static RSystem.RInt32 RWriteCheck
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
 		/// <summary>
 		/// System.Int32 DisposeCheck
 		/// </summary>
-		protected static RField r_DisposeCheck;
-		public static RField RDisposeCheck
+		protected static RSystem.RInt32 r_DisposeCheck;
+		public static RSystem.RInt32 RDisposeCheck
 		{
 			get
 			{
@@ -115,8 +115,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
 		/// <summary>
 		/// System.Int32 ReadWriteDisposeCheck
 		/// </summary>
-		protected static RField r_ReadWriteDisposeCheck;
-		public static RField RReadWriteDisposeCheck
+		protected static RSystem.RInt32 r_ReadWriteDisposeCheck;
+		public static RSystem.RInt32 RReadWriteDisposeCheck
 		{
 			get
 			{
@@ -132,8 +132,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
 		/// <summary>
 		/// System.IntPtr versionNode
 		/// </summary>
-		protected RField r_versionNode;
-		public virtual RField RversionNode
+		protected RSystem.RIntPtr r_versionNode;
+		public virtual RSystem.RIntPtr RversionNode
 		{
 			get
 			{
@@ -149,8 +149,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
 		/// <summary>
 		/// System.Int32 version
 		/// </summary>
-		protected RField r_version;
-		public virtual RField Rversion
+		protected RSystem.RInt32 r_version;
+		public virtual RSystem.RInt32 Rversion
 		{
 			get
 			{
@@ -166,8 +166,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
 		/// <summary>
 		/// System.Int32 staticSafetyId
 		/// </summary>
-		protected RField r_staticSafetyId;
-		public virtual RField RstaticSafetyId
+		protected RSystem.RInt32 r_staticSafetyId;
+		public virtual RSystem.RInt32 RstaticSafetyId
 		{
 			get
 			{

@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Boolean m_TouchScreenTextFieldInitialized
 		/// </summary>
-		protected RField r_m_TouchScreenTextFieldInitialized;
-		public virtual RField Rm_TouchScreenTextFieldInitialized
+		protected RSystem.RBoolean r_m_TouchScreenTextFieldInitialized;
+		public virtual RSystem.RBoolean Rm_TouchScreenTextFieldInitialized
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Boolean touchScreenTextFieldChanged
 		/// </summary>
-		protected RProperty r_touchScreenTextFieldChanged;
-		public virtual RProperty RtouchScreenTextFieldChanged
+		protected RSystem.RBoolean r_touchScreenTextFieldChanged;
+		public virtual RSystem.RBoolean RtouchScreenTextFieldChanged
 		{
 			get
 			{
@@ -115,8 +115,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Boolean touchScreenTextField
 		/// </summary>
-		protected RProperty r_touchScreenTextField;
-		public virtual RProperty RtouchScreenTextField
+		protected RSystem.RBoolean r_touchScreenTextField;
+		public virtual RSystem.RBoolean RtouchScreenTextField
 		{
 			get
 			{

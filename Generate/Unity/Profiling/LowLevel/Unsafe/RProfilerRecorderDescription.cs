@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling.RLowLevel.RUnsafe
 		/// <summary>
 		/// System.Int32 reserved0
 		/// </summary>
-		protected RField r_reserved0;
-		public virtual RField Rreserved0
+		protected RSystem.RInt32 r_reserved0;
+		public virtual RSystem.RInt32 Rreserved0
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling.RLowLevel.RUnsafe
 		/// <summary>
 		/// System.Int32 nameUtf8Len
 		/// </summary>
-		protected RField r_nameUtf8Len;
-		public virtual RField RnameUtf8Len
+		protected RSystem.RInt32 r_nameUtf8Len;
+		public virtual RSystem.RInt32 RnameUtf8Len
 		{
 			get
 			{
@@ -115,8 +115,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling.RLowLevel.RUnsafe
 		/// <summary>
 		/// System.Byte* nameUtf8
 		/// </summary>
-		protected RFieldPointer<RField> r_nameUtf8;
-		public virtual RFieldPointer<RField> RnameUtf8
+		protected RFieldPointer<RSystem.RByte> r_nameUtf8;
+		public virtual RFieldPointer<RSystem.RByte> RnameUtf8
 		{
 			get
 			{
@@ -200,8 +200,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling.RLowLevel.RUnsafe
 		/// <summary>
 		/// Int32 NameUtf8Len
 		/// </summary>
-		protected RProperty r_NameUtf8Len;
-		public virtual RProperty RNameUtf8Len
+		protected RSystem.RInt32 r_NameUtf8Len;
+		public virtual RSystem.RInt32 RNameUtf8Len
 		{
 			get
 			{
@@ -217,8 +217,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling.RLowLevel.RUnsafe
 		/// <summary>
 		/// Byte* NameUtf8
 		/// </summary>
-		protected RPropertyPointer<RProperty> r_NameUtf8;
-		public virtual RPropertyPointer<RProperty> RNameUtf8
+		protected RPropertyPointer<RSystem.RByte> r_NameUtf8;
+		public virtual RPropertyPointer<RSystem.RByte> RNameUtf8
 		{
 			get
 			{
@@ -234,8 +234,8 @@ namespace SMFrame.Editor.Refleaction.RUnity.RProfiling.RLowLevel.RUnsafe
 		/// <summary>
 		/// System.String Name
 		/// </summary>
-		protected RProperty r_Name;
-		public virtual RProperty RName
+		protected RSystem.RString r_Name;
+		public virtual RSystem.RString RName
 		{
 			get
 			{

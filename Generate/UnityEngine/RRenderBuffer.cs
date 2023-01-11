@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Int32 m_RenderTextureInstanceID
 		/// </summary>
-		protected RField r_m_RenderTextureInstanceID;
-		public virtual RField Rm_RenderTextureInstanceID
+		protected RSystem.RInt32 r_m_RenderTextureInstanceID;
+		public virtual RSystem.RInt32 Rm_RenderTextureInstanceID
 		{
 			get
 			{
@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.IntPtr m_BufferPtr
 		/// </summary>
-		protected RField r_m_BufferPtr;
-		public virtual RField Rm_BufferPtr
+		protected RSystem.RIntPtr r_m_BufferPtr;
+		public virtual RSystem.RIntPtr Rm_BufferPtr
 		{
 			get
 			{

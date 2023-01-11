@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Single outlineWidth
 		/// </summary>
-		protected RField r_outlineWidth;
-		public virtual RField RoutlineWidth
+		protected RSystem.RSingle r_outlineWidth;
+		public virtual RSystem.RSingle RoutlineWidth
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Single underlaySoftness
 		/// </summary>
-		protected RField r_underlaySoftness;
-		public virtual RField RunderlaySoftness
+		protected RSystem.RSingle r_underlaySoftness;
+		public virtual RSystem.RSingle RunderlaySoftness
 		{
 			get
 			{

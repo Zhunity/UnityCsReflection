@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.REvents
 		/// <summary>
 		/// System.String m_ObjectArgumentAssemblyTypeName
 		/// </summary>
-		protected RField r_m_ObjectArgumentAssemblyTypeName;
-		public virtual RField Rm_ObjectArgumentAssemblyTypeName
+		protected RSystem.RString r_m_ObjectArgumentAssemblyTypeName;
+		public virtual RSystem.RString Rm_ObjectArgumentAssemblyTypeName
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.REvents
 		/// <summary>
 		/// System.Int32 m_IntArgument
 		/// </summary>
-		protected RField r_m_IntArgument;
-		public virtual RField Rm_IntArgument
+		protected RSystem.RInt32 r_m_IntArgument;
+		public virtual RSystem.RInt32 Rm_IntArgument
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.REvents
 		/// <summary>
 		/// System.Single m_FloatArgument
 		/// </summary>
-		protected RField r_m_FloatArgument;
-		public virtual RField Rm_FloatArgument
+		protected RSystem.RSingle r_m_FloatArgument;
+		public virtual RSystem.RSingle Rm_FloatArgument
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.REvents
 		/// <summary>
 		/// System.String m_StringArgument
 		/// </summary>
-		protected RField r_m_StringArgument;
-		public virtual RField Rm_StringArgument
+		protected RSystem.RString r_m_StringArgument;
+		public virtual RSystem.RString Rm_StringArgument
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.REvents
 		/// <summary>
 		/// System.Boolean m_BoolArgument
 		/// </summary>
-		protected RField r_m_BoolArgument;
-		public virtual RField Rm_BoolArgument
+		protected RSystem.RBoolean r_m_BoolArgument;
+		public virtual RSystem.RBoolean Rm_BoolArgument
 		{
 			get
 			{
@@ -132,8 +132,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.REvents
 		/// <summary>
 		/// System.String unityObjectArgumentAssemblyTypeName
 		/// </summary>
-		protected RProperty r_unityObjectArgumentAssemblyTypeName;
-		public virtual RProperty RunityObjectArgumentAssemblyTypeName
+		protected RSystem.RString r_unityObjectArgumentAssemblyTypeName;
+		public virtual RSystem.RString RunityObjectArgumentAssemblyTypeName
 		{
 			get
 			{
@@ -149,8 +149,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.REvents
 		/// <summary>
 		/// Int32 intArgument
 		/// </summary>
-		protected RProperty r_intArgument;
-		public virtual RProperty RintArgument
+		protected RSystem.RInt32 r_intArgument;
+		public virtual RSystem.RInt32 RintArgument
 		{
 			get
 			{
@@ -166,8 +166,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.REvents
 		/// <summary>
 		/// Single floatArgument
 		/// </summary>
-		protected RProperty r_floatArgument;
-		public virtual RProperty RfloatArgument
+		protected RSystem.RSingle r_floatArgument;
+		public virtual RSystem.RSingle RfloatArgument
 		{
 			get
 			{
@@ -183,8 +183,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.REvents
 		/// <summary>
 		/// System.String stringArgument
 		/// </summary>
-		protected RProperty r_stringArgument;
-		public virtual RProperty RstringArgument
+		protected RSystem.RString r_stringArgument;
+		public virtual RSystem.RString RstringArgument
 		{
 			get
 			{
@@ -200,8 +200,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.REvents
 		/// <summary>
 		/// Boolean boolArgument
 		/// </summary>
-		protected RProperty r_boolArgument;
-		public virtual RProperty RboolArgument
+		protected RSystem.RBoolean r_boolArgument;
+		public virtual RSystem.RBoolean RboolArgument
 		{
 			get
 			{

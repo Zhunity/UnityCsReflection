@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Char[] m_ChunkChars
 		/// </summary>
-		protected RFieldArray<RField> r_m_ChunkChars;
-		public virtual RFieldArray<RField> Rm_ChunkChars
+		protected RFieldArray<RSystem.RChar> r_m_ChunkChars;
+		public virtual RFieldArray<RSystem.RChar> Rm_ChunkChars
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Int32 m_ChunkLength
 		/// </summary>
-		protected RField r_m_ChunkLength;
-		public virtual RField Rm_ChunkLength
+		protected RSystem.RInt32 r_m_ChunkLength;
+		public virtual RSystem.RInt32 Rm_ChunkLength
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Int32 m_ChunkOffset
 		/// </summary>
-		protected RField r_m_ChunkOffset;
-		public virtual RField Rm_ChunkOffset
+		protected RSystem.RInt32 r_m_ChunkOffset;
+		public virtual RSystem.RInt32 Rm_ChunkOffset
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Int32 m_MaxCapacity
 		/// </summary>
-		protected RField r_m_MaxCapacity;
-		public virtual RField Rm_MaxCapacity
+		protected RSystem.RInt32 r_m_MaxCapacity;
+		public virtual RSystem.RInt32 Rm_MaxCapacity
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Int32 DefaultCapacity
 		/// </summary>
-		protected static RField r_DefaultCapacity;
-		public static RField RDefaultCapacity
+		protected static RSystem.RInt32 r_DefaultCapacity;
+		public static RSystem.RInt32 RDefaultCapacity
 		{
 			get
 			{
@@ -115,8 +115,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.String CapacityField
 		/// </summary>
-		protected static RField r_CapacityField;
-		public static RField RCapacityField
+		protected static RSystem.RString r_CapacityField;
+		public static RSystem.RString RCapacityField
 		{
 			get
 			{
@@ -132,8 +132,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.String MaxCapacityField
 		/// </summary>
-		protected static RField r_MaxCapacityField;
-		public static RField RMaxCapacityField
+		protected static RSystem.RString r_MaxCapacityField;
+		public static RSystem.RString RMaxCapacityField
 		{
 			get
 			{
@@ -149,8 +149,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.String StringValueField
 		/// </summary>
-		protected static RField r_StringValueField;
-		public static RField RStringValueField
+		protected static RSystem.RString r_StringValueField;
+		public static RSystem.RString RStringValueField
 		{
 			get
 			{
@@ -166,8 +166,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.String ThreadIDField
 		/// </summary>
-		protected static RField r_ThreadIDField;
-		public static RField RThreadIDField
+		protected static RSystem.RString r_ThreadIDField;
+		public static RSystem.RString RThreadIDField
 		{
 			get
 			{
@@ -183,8 +183,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Int32 MaxChunkSize
 		/// </summary>
-		protected static RField r_MaxChunkSize;
-		public static RField RMaxChunkSize
+		protected static RSystem.RInt32 r_MaxChunkSize;
+		public static RSystem.RInt32 RMaxChunkSize
 		{
 			get
 			{
@@ -200,8 +200,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Int32 IndexLimit
 		/// </summary>
-		protected static RField r_IndexLimit;
-		public static RField RIndexLimit
+		protected static RSystem.RInt32 r_IndexLimit;
+		public static RSystem.RInt32 RIndexLimit
 		{
 			get
 			{
@@ -217,8 +217,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Int32 WidthLimit
 		/// </summary>
-		protected static RField r_WidthLimit;
-		public static RField RWidthLimit
+		protected static RSystem.RInt32 r_WidthLimit;
+		public static RSystem.RInt32 RWidthLimit
 		{
 			get
 			{
@@ -234,8 +234,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// Int32 Capacity
 		/// </summary>
-		protected RProperty r_Capacity;
-		public virtual RProperty RCapacity
+		protected RSystem.RInt32 r_Capacity;
+		public virtual RSystem.RInt32 RCapacity
 		{
 			get
 			{
@@ -251,8 +251,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// Int32 MaxCapacity
 		/// </summary>
-		protected RProperty r_MaxCapacity;
-		public virtual RProperty RMaxCapacity
+		protected RSystem.RInt32 r_MaxCapacity;
+		public virtual RSystem.RInt32 RMaxCapacity
 		{
 			get
 			{
@@ -268,8 +268,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// Int32 Length
 		/// </summary>
-		protected RProperty r_Length;
-		public virtual RProperty RLength
+		protected RSystem.RInt32 r_Length;
+		public virtual RSystem.RInt32 RLength
 		{
 			get
 			{
@@ -285,8 +285,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// Char Chars [Int32]
 		/// </summary>
-		protected RProperty r_Chars_Int32;
-		public virtual RProperty RChars_Int32
+		protected RSystem.RChar r_Chars_Int32;
+		public virtual RSystem.RChar RChars_Int32
 		{
 			get
 			{
@@ -302,8 +302,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Span`1[System.Char] RemainingCurrentChunk
 		/// </summary>
-		protected RSystem.RSpan<RProperty> r_RemainingCurrentChunk;
-		public virtual RSystem.RSpan<RProperty> RRemainingCurrentChunk
+		protected RSystem.RSpan<RSystem.RChar> r_RemainingCurrentChunk;
+		public virtual RSystem.RSpan<RSystem.RChar> RRemainingCurrentChunk
 		{
 			get
 			{
@@ -2170,6 +2170,16 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
         }
 
 
+        public virtual void CopyTo(System.Int32 @sourceIndex, RSystem.RSpan<RSystem.RChar> @destination, System.Int32 @count)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@sourceIndex, @destination.Value, @count};
+            var ___result = RCopyTo_Int32_Span_d_Char_p__Int32.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
 
         public virtual System.Text.StringBuilder Insert(System.Int32 @index, System.String @value, System.Int32 @count)
         {
@@ -2368,6 +2378,16 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
             return (System.Text.StringBuilder)___result;
         }
 
+
+        public virtual System.Text.StringBuilder Append(RSystem.RReadOnlySpan<RSystem.RChar> @value)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@value.Value};
+            var ___result = RAppend_ReadOnlySpan_d_Char_p_.Invoke(___genericsType, ___parameters);
+
+            return (System.Text.StringBuilder)___result;
+        }
 
 
         public virtual System.Text.StringBuilder AppendJoin(System.String @separator, System.Object[] @values)
@@ -2645,6 +2665,16 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
         }
 
 
+        public virtual System.Text.StringBuilder Insert(System.Int32 @index, RSystem.RReadOnlySpan<RSystem.RChar> @value)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@index, @value.Value};
+            var ___result = RInsert_Int32_ReadOnlySpan_d_Char_p_.Invoke(___genericsType, ___parameters);
+
+            return (System.Text.StringBuilder)___result;
+        }
+
 
         public virtual System.Text.StringBuilder AppendFormat(System.String @format, System.Object @arg0)
         {
@@ -2778,6 +2808,16 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
         }
 
 
+        public virtual System.Boolean Equals(RSystem.RReadOnlySpan<RSystem.RChar> @span)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@span.Value};
+            var ___result = REquals_ReadOnlySpan_d_Char_p_.Invoke(___genericsType, ___parameters);
+
+            return (System.Boolean)___result;
+        }
+
 
         public virtual System.Text.StringBuilder Replace(System.String @oldValue, System.String @newValue, System.Int32 @startIndex, System.Int32 @count)
         {
@@ -2879,6 +2919,16 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
             
         }
 
+
+        public static void ThreadSafeCopy(System.Char[] @source, System.Int32 @sourceIndex, RSystem.RSpan<RSystem.RChar> @destination, System.Int32 @destinationIndex, System.Int32 @count)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@source, @sourceIndex, @destination.Value, @destinationIndex, @count};
+            var ___result = RThreadSafeCopy_CharArray_Int32_Span_d_Char_p__Int32_Int32.Invoke(___genericsType, ___parameters);
+
+            
+        }
 
 
         public virtual System.Text.StringBuilder FindChunkForIndex(System.Int32 @index)

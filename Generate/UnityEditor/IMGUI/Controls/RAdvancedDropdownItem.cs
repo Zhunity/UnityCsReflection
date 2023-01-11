@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 		/// <summary>
 		/// System.String m_Name
 		/// </summary>
-		protected RField r_m_Name;
-		public virtual RField Rm_Name
+		protected RSystem.RString r_m_Name;
+		public virtual RSystem.RString Rm_Name
 		{
 			get
 			{
@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 		/// <summary>
 		/// System.Int32 m_Id
 		/// </summary>
-		protected RField r_m_Id;
-		public virtual RField Rm_Id
+		protected RSystem.RInt32 r_m_Id;
+		public virtual RSystem.RInt32 Rm_Id
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 		/// <summary>
 		/// System.Int32 m_ElementIndex
 		/// </summary>
-		protected RField r_m_ElementIndex;
-		public virtual RField Rm_ElementIndex
+		protected RSystem.RInt32 r_m_ElementIndex;
+		public virtual RSystem.RInt32 Rm_ElementIndex
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 		/// <summary>
 		/// System.Boolean m_Enabled
 		/// </summary>
-		protected RField r_m_Enabled;
-		public virtual RField Rm_Enabled
+		protected RSystem.RBoolean r_m_Enabled;
+		public virtual RSystem.RBoolean Rm_Enabled
 		{
 			get
 			{
@@ -149,8 +149,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 		/// <summary>
 		/// System.String name
 		/// </summary>
-		protected RProperty r_name;
-		public virtual RProperty Rname
+		protected RSystem.RString r_name;
+		public virtual RSystem.RString Rname
 		{
 			get
 			{
@@ -183,8 +183,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 		/// <summary>
 		/// System.String tooltip
 		/// </summary>
-		protected RProperty r_tooltip;
-		public virtual RProperty Rtooltip
+		protected RSystem.RString r_tooltip;
+		public virtual RSystem.RString Rtooltip
 		{
 			get
 			{
@@ -200,8 +200,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 		/// <summary>
 		/// System.String displayName
 		/// </summary>
-		protected RProperty r_displayName;
-		public virtual RProperty RdisplayName
+		protected RSystem.RString r_displayName;
+		public virtual RSystem.RString RdisplayName
 		{
 			get
 			{
@@ -234,8 +234,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 		/// <summary>
 		/// Int32 id
 		/// </summary>
-		protected RProperty r_id;
-		public virtual RProperty Rid
+		protected RSystem.RInt32 r_id;
+		public virtual RSystem.RInt32 Rid
 		{
 			get
 			{
@@ -251,8 +251,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 		/// <summary>
 		/// Int32 elementIndex
 		/// </summary>
-		protected RProperty r_elementIndex;
-		public virtual RProperty RelementIndex
+		protected RSystem.RInt32 r_elementIndex;
+		public virtual RSystem.RInt32 RelementIndex
 		{
 			get
 			{
@@ -268,8 +268,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 		/// <summary>
 		/// Boolean enabled
 		/// </summary>
-		protected RProperty r_enabled;
-		public virtual RProperty Renabled
+		protected RSystem.RBoolean r_enabled;
+		public virtual RSystem.RBoolean Renabled
 		{
 			get
 			{
@@ -319,8 +319,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 		/// <summary>
 		/// Boolean hasChildren
 		/// </summary>
-		protected RProperty r_hasChildren;
-		public virtual RProperty RhasChildren
+		protected RSystem.RBoolean r_hasChildren;
+		public virtual RSystem.RBoolean RhasChildren
 		{
 			get
 			{

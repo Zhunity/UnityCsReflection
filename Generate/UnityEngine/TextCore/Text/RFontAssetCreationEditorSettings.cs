@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.String sourceFontFileGUID
 		/// </summary>
-		protected RField r_sourceFontFileGUID;
-		public virtual RField RsourceFontFileGUID
+		protected RSystem.RString r_sourceFontFileGUID;
+		public virtual RSystem.RString RsourceFontFileGUID
 		{
 			get
 			{
@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Int32 faceIndex
 		/// </summary>
-		protected RField r_faceIndex;
-		public virtual RField RfaceIndex
+		protected RSystem.RInt32 r_faceIndex;
+		public virtual RSystem.RInt32 RfaceIndex
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Int32 pointSizeSamplingMode
 		/// </summary>
-		protected RField r_pointSizeSamplingMode;
-		public virtual RField RpointSizeSamplingMode
+		protected RSystem.RInt32 r_pointSizeSamplingMode;
+		public virtual RSystem.RInt32 RpointSizeSamplingMode
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Int32 pointSize
 		/// </summary>
-		protected RField r_pointSize;
-		public virtual RField RpointSize
+		protected RSystem.RInt32 r_pointSize;
+		public virtual RSystem.RInt32 RpointSize
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Int32 padding
 		/// </summary>
-		protected RField r_padding;
-		public virtual RField Rpadding
+		protected RSystem.RInt32 r_padding;
+		public virtual RSystem.RInt32 Rpadding
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Int32 paddingMode
 		/// </summary>
-		protected RField r_paddingMode;
-		public virtual RField RpaddingMode
+		protected RSystem.RInt32 r_paddingMode;
+		public virtual RSystem.RInt32 RpaddingMode
 		{
 			get
 			{
@@ -115,8 +115,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Int32 packingMode
 		/// </summary>
-		protected RField r_packingMode;
-		public virtual RField RpackingMode
+		protected RSystem.RInt32 r_packingMode;
+		public virtual RSystem.RInt32 RpackingMode
 		{
 			get
 			{
@@ -132,8 +132,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Int32 atlasWidth
 		/// </summary>
-		protected RField r_atlasWidth;
-		public virtual RField RatlasWidth
+		protected RSystem.RInt32 r_atlasWidth;
+		public virtual RSystem.RInt32 RatlasWidth
 		{
 			get
 			{
@@ -149,8 +149,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Int32 atlasHeight
 		/// </summary>
-		protected RField r_atlasHeight;
-		public virtual RField RatlasHeight
+		protected RSystem.RInt32 r_atlasHeight;
+		public virtual RSystem.RInt32 RatlasHeight
 		{
 			get
 			{
@@ -166,8 +166,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Int32 characterSetSelectionMode
 		/// </summary>
-		protected RField r_characterSetSelectionMode;
-		public virtual RField RcharacterSetSelectionMode
+		protected RSystem.RInt32 r_characterSetSelectionMode;
+		public virtual RSystem.RInt32 RcharacterSetSelectionMode
 		{
 			get
 			{
@@ -183,8 +183,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.String characterSequence
 		/// </summary>
-		protected RField r_characterSequence;
-		public virtual RField RcharacterSequence
+		protected RSystem.RString r_characterSequence;
+		public virtual RSystem.RString RcharacterSequence
 		{
 			get
 			{
@@ -200,8 +200,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.String referencedFontAssetGUID
 		/// </summary>
-		protected RField r_referencedFontAssetGUID;
-		public virtual RField RreferencedFontAssetGUID
+		protected RSystem.RString r_referencedFontAssetGUID;
+		public virtual RSystem.RString RreferencedFontAssetGUID
 		{
 			get
 			{
@@ -217,8 +217,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.String referencedTextAssetGUID
 		/// </summary>
-		protected RField r_referencedTextAssetGUID;
-		public virtual RField RreferencedTextAssetGUID
+		protected RSystem.RString r_referencedTextAssetGUID;
+		public virtual RSystem.RString RreferencedTextAssetGUID
 		{
 			get
 			{
@@ -234,8 +234,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Int32 fontStyle
 		/// </summary>
-		protected RField r_fontStyle;
-		public virtual RField RfontStyle
+		protected RSystem.RInt32 r_fontStyle;
+		public virtual RSystem.RInt32 RfontStyle
 		{
 			get
 			{
@@ -251,8 +251,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Single fontStyleModifier
 		/// </summary>
-		protected RField r_fontStyleModifier;
-		public virtual RField RfontStyleModifier
+		protected RSystem.RSingle r_fontStyleModifier;
+		public virtual RSystem.RSingle RfontStyleModifier
 		{
 			get
 			{
@@ -268,8 +268,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Int32 renderMode
 		/// </summary>
-		protected RField r_renderMode;
-		public virtual RField RrenderMode
+		protected RSystem.RInt32 r_renderMode;
+		public virtual RSystem.RInt32 RrenderMode
 		{
 			get
 			{
@@ -285,8 +285,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Boolean includeFontFeatures
 		/// </summary>
-		protected RField r_includeFontFeatures;
-		public virtual RField RincludeFontFeatures
+		protected RSystem.RBoolean r_includeFontFeatures;
+		public virtual RSystem.RBoolean RincludeFontFeatures
 		{
 			get
 			{

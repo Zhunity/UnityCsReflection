@@ -32,8 +32,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Single <aspect>k__BackingField
 		/// </summary>
-		protected RField r___0__aspect__1__k__BackingField;
-		public virtual RField R__0__aspect__1__k__BackingField
+		protected RSystem.RSingle r___0__aspect__1__k__BackingField;
+		public virtual RSystem.RSingle R__0__aspect__1__k__BackingField
 		{
 			get
 			{
@@ -66,8 +66,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Single aspect
 		/// </summary>
-		protected RProperty r_aspect;
-		public virtual RProperty Raspect
+		protected RSystem.RSingle r_aspect;
+		public virtual RSystem.RSingle Raspect
 		{
 			get
 			{

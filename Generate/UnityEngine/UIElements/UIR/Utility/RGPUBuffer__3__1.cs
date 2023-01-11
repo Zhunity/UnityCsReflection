@@ -15,8 +15,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.IntPtr buffer
 		/// </summary>
-		protected RField r_buffer;
-		public virtual RField Rbuffer
+		protected RSystem.RIntPtr r_buffer;
+		public virtual RSystem.RIntPtr Rbuffer
 		{
 			get
 			{
@@ -32,8 +32,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Int32 elemCount
 		/// </summary>
-		protected RField r_elemCount;
-		public virtual RField RelemCount
+		protected RSystem.RInt32 r_elemCount;
+		public virtual RSystem.RInt32 RelemCount
 		{
 			get
 			{
@@ -49,8 +49,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Int32 elemStride
 		/// </summary>
-		protected RField r_elemStride;
-		public virtual RField RelemStride
+		protected RSystem.RInt32 r_elemStride;
+		public virtual RSystem.RInt32 RelemStride
 		{
 			get
 			{
@@ -66,8 +66,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// Int32 ElementStride
 		/// </summary>
-		protected RProperty r_ElementStride;
-		public virtual RProperty RElementStride
+		protected RSystem.RInt32 r_ElementStride;
+		public virtual RSystem.RInt32 RElementStride
 		{
 			get
 			{
@@ -83,8 +83,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// Int32 Count
 		/// </summary>
-		protected RProperty r_Count;
-		public virtual RProperty RCount
+		protected RSystem.RInt32 r_Count;
+		public virtual RSystem.RInt32 RCount
 		{
 			get
 			{
@@ -100,8 +100,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// IntPtr BufferPointer
 		/// </summary>
-		protected RProperty r_BufferPointer;
-		public virtual RProperty RBufferPointer
+		protected RSystem.RIntPtr r_BufferPointer;
+		public virtual RSystem.RIntPtr RBufferPointer
 		{
 			get
 			{
@@ -278,6 +278,16 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
             
         }
 
+
+        public virtual void UpdateRanges(RUnity.RCollections.RNativeSlice<RUnityEngine.RUIElements.RUIR.RGfxUpdateBufferRange> @ranges, System.Int32 @rangesMin, System.Int32 @rangesMax)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@ranges.Value, @rangesMin, @rangesMax};
+            var ___result = RUpdateRanges_NativeSlice_d_GfxUpdateBufferRange_p__Int32_Int32.Invoke(___genericsType, ___parameters);
+
+            
+        }
 
 
         public virtual System.Boolean Equals(System.Object @obj)

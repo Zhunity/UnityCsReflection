@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Int32 count
 		/// </summary>
-		protected RProperty r_count;
-		public virtual RProperty Rcount
+		protected RSystem.RInt32 r_count;
+		public virtual RSystem.RInt32 Rcount
 		{
 			get
 			{

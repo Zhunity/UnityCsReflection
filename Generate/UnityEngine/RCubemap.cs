@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Boolean isReadable
 		/// </summary>
-		protected RProperty r_isReadable;
-		public virtual RProperty RisReadable
+		protected RSystem.RBoolean r_isReadable;
+		public virtual RSystem.RBoolean RisReadable
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Boolean isPreProcessed
 		/// </summary>
-		protected RProperty r_isPreProcessed;
-		public virtual RProperty RisPreProcessed
+		protected RSystem.RBoolean r_isPreProcessed;
+		public virtual RSystem.RBoolean RisPreProcessed
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Boolean streamingMipmaps
 		/// </summary>
-		protected RProperty r_streamingMipmaps;
-		public virtual RProperty RstreamingMipmaps
+		protected RSystem.RBoolean r_streamingMipmaps;
+		public virtual RSystem.RBoolean RstreamingMipmaps
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 streamingMipmapsPriority
 		/// </summary>
-		protected RProperty r_streamingMipmapsPriority;
-		public virtual RProperty RstreamingMipmapsPriority
+		protected RSystem.RInt32 r_streamingMipmapsPriority;
+		public virtual RSystem.RInt32 RstreamingMipmapsPriority
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 requestedMipmapLevel
 		/// </summary>
-		protected RProperty r_requestedMipmapLevel;
-		public virtual RProperty RrequestedMipmapLevel
+		protected RSystem.RInt32 r_requestedMipmapLevel;
+		public virtual RSystem.RInt32 RrequestedMipmapLevel
 		{
 			get
 			{
@@ -115,8 +115,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Boolean loadAllMips
 		/// </summary>
-		protected RProperty r_loadAllMips;
-		public virtual RProperty RloadAllMips
+		protected RSystem.RBoolean r_loadAllMips;
+		public virtual RSystem.RBoolean RloadAllMips
 		{
 			get
 			{
@@ -132,8 +132,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 desiredMipmapLevel
 		/// </summary>
-		protected RProperty r_desiredMipmapLevel;
-		public virtual RProperty RdesiredMipmapLevel
+		protected RSystem.RInt32 r_desiredMipmapLevel;
+		public virtual RSystem.RInt32 RdesiredMipmapLevel
 		{
 			get
 			{
@@ -149,8 +149,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 loadingMipmapLevel
 		/// </summary>
-		protected RProperty r_loadingMipmapLevel;
-		public virtual RProperty RloadingMipmapLevel
+		protected RSystem.RInt32 r_loadingMipmapLevel;
+		public virtual RSystem.RInt32 RloadingMipmapLevel
 		{
 			get
 			{
@@ -166,8 +166,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 loadedMipmapLevel
 		/// </summary>
-		protected RProperty r_loadedMipmapLevel;
-		public virtual RProperty RloadedMipmapLevel
+		protected RSystem.RInt32 r_loadedMipmapLevel;
+		public virtual RSystem.RInt32 RloadedMipmapLevel
 		{
 			get
 			{
@@ -183,8 +183,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 mipmapCount
 		/// </summary>
-		protected RProperty r_mipmapCount;
-		public virtual RProperty RmipmapCount
+		protected RSystem.RInt32 r_mipmapCount;
+		public virtual RSystem.RInt32 RmipmapCount
 		{
 			get
 			{
@@ -217,8 +217,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 width
 		/// </summary>
-		protected RProperty r_width;
-		public virtual RProperty Rwidth
+		protected RSystem.RInt32 r_width;
+		public virtual RSystem.RInt32 Rwidth
 		{
 			get
 			{
@@ -234,8 +234,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 height
 		/// </summary>
-		protected RProperty r_height;
-		public virtual RProperty Rheight
+		protected RSystem.RInt32 r_height;
+		public virtual RSystem.RInt32 Rheight
 		{
 			get
 			{
@@ -353,8 +353,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 anisoLevel
 		/// </summary>
-		protected RProperty r_anisoLevel;
-		public virtual RProperty RanisoLevel
+		protected RSystem.RInt32 r_anisoLevel;
+		public virtual RSystem.RInt32 RanisoLevel
 		{
 			get
 			{
@@ -370,8 +370,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Single mipMapBias
 		/// </summary>
-		protected RProperty r_mipMapBias;
-		public virtual RProperty RmipMapBias
+		protected RSystem.RSingle r_mipMapBias;
+		public virtual RSystem.RSingle RmipMapBias
 		{
 			get
 			{
@@ -404,8 +404,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UInt32 updateCount
 		/// </summary>
-		protected RProperty r_updateCount;
-		public virtual RProperty RupdateCount
+		protected RSystem.RUInt32 r_updateCount;
+		public virtual RSystem.RUInt32 RupdateCount
 		{
 			get
 			{
@@ -438,8 +438,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Boolean isDataSRGB
 		/// </summary>
-		protected RProperty r_isDataSRGB;
-		public virtual RProperty RisDataSRGB
+		protected RSystem.RBoolean r_isDataSRGB;
+		public virtual RSystem.RBoolean RisDataSRGB
 		{
 			get
 			{
@@ -472,8 +472,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.String name
 		/// </summary>
-		protected RProperty r_name;
-		public virtual RProperty Rname
+		protected RSystem.RString r_name;
+		public virtual RSystem.RString Rname
 		{
 			get
 			{
@@ -1647,15 +1647,25 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
+        public virtual void SetPixelData<T>(RUnity.RCollections.RNativeArray<RType> @data, System.Int32 @mipLevel, UnityEngine.CubemapFace @face, System.Int32 @sourceDataStartIndex) where T : struct
+        {
 
-        public virtual System.Object GetPixelData<T>(System.Int32 @mipLevel, UnityEngine.CubemapFace @face) where T : struct
+            var ___genericsType = new Type[] {typeof(T)};
+            var ___parameters = new object[]{@data.Value, @mipLevel, @face, @sourceDataStartIndex};
+            var ___result = RSetPixelData_GT_NativeArray_d_T_p__Int32_CubemapFace_Int32.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual RUnity.RCollections.RNativeArray<RType> GetPixelData<T>(System.Int32 @mipLevel, UnityEngine.CubemapFace @face) where T : struct
         {
 
             var ___genericsType = new Type[] {typeof(T)};
             var ___parameters = new object[]{@mipLevel, @face};
             var ___result = RGetPixelData_GT_Int32_CubemapFace.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RUnity.RCollections.RNativeArray<RType>(___result);
         }
 
 

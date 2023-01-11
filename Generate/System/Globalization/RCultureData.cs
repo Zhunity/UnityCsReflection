@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String sAM1159
 		/// </summary>
-		protected RField r_sAM1159;
-		public virtual RField RsAM1159
+		protected RSystem.RString r_sAM1159;
+		public virtual RSystem.RString RsAM1159
 		{
 			get
 			{
@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String sPM2359
 		/// </summary>
-		protected RField r_sPM2359;
-		public virtual RField RsPM2359
+		protected RSystem.RString r_sPM2359;
+		public virtual RSystem.RString RsPM2359
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String sTimeSeparator
 		/// </summary>
-		protected RField r_sTimeSeparator;
-		public virtual RField RsTimeSeparator
+		protected RSystem.RString r_sTimeSeparator;
+		public virtual RSystem.RString RsTimeSeparator
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String[] saLongTimes
 		/// </summary>
-		protected RFieldArray<RField> r_saLongTimes;
-		public virtual RFieldArray<RField> RsaLongTimes
+		protected RFieldArray<RSystem.RString> r_saLongTimes;
+		public virtual RFieldArray<RSystem.RString> RsaLongTimes
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String[] saShortTimes
 		/// </summary>
-		protected RFieldArray<RField> r_saShortTimes;
-		public virtual RFieldArray<RField> RsaShortTimes
+		protected RFieldArray<RSystem.RString> r_saShortTimes;
+		public virtual RFieldArray<RSystem.RString> RsaShortTimes
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 iFirstDayOfWeek
 		/// </summary>
-		protected RField r_iFirstDayOfWeek;
-		public virtual RField RiFirstDayOfWeek
+		protected RSystem.RInt32 r_iFirstDayOfWeek;
+		public virtual RSystem.RInt32 RiFirstDayOfWeek
 		{
 			get
 			{
@@ -115,8 +115,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 iFirstWeekOfYear
 		/// </summary>
-		protected RField r_iFirstWeekOfYear;
-		public virtual RField RiFirstWeekOfYear
+		protected RSystem.RInt32 r_iFirstWeekOfYear;
+		public virtual RSystem.RInt32 RiFirstWeekOfYear
 		{
 			get
 			{
@@ -132,8 +132,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32[] waCalendars
 		/// </summary>
-		protected RFieldArray<RField> r_waCalendars;
-		public virtual RFieldArray<RField> RwaCalendars
+		protected RFieldArray<RSystem.RInt32> r_waCalendars;
+		public virtual RFieldArray<RSystem.RInt32> RwaCalendars
 		{
 			get
 			{
@@ -166,8 +166,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String sISO639Language
 		/// </summary>
-		protected RField r_sISO639Language;
-		public virtual RField RsISO639Language
+		protected RSystem.RString r_sISO639Language;
+		public virtual RSystem.RString RsISO639Language
 		{
 			get
 			{
@@ -183,8 +183,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String sRealName
 		/// </summary>
-		protected RField r_sRealName;
-		public virtual RField RsRealName
+		protected RSystem.RString r_sRealName;
+		public virtual RSystem.RString RsRealName
 		{
 			get
 			{
@@ -200,8 +200,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Boolean bUseOverrides
 		/// </summary>
-		protected RField r_bUseOverrides;
-		public virtual RField RbUseOverrides
+		protected RSystem.RBoolean r_bUseOverrides;
+		public virtual RSystem.RBoolean RbUseOverrides
 		{
 			get
 			{
@@ -217,8 +217,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 calendarId
 		/// </summary>
-		protected RField r_calendarId;
-		public virtual RField RcalendarId
+		protected RSystem.RInt32 r_calendarId;
+		public virtual RSystem.RInt32 RcalendarId
 		{
 			get
 			{
@@ -234,8 +234,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 numberIndex
 		/// </summary>
-		protected RField r_numberIndex;
-		public virtual RField RnumberIndex
+		protected RSystem.RInt32 r_numberIndex;
+		public virtual RSystem.RInt32 RnumberIndex
 		{
 			get
 			{
@@ -251,8 +251,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 iDefaultAnsiCodePage
 		/// </summary>
-		protected RField r_iDefaultAnsiCodePage;
-		public virtual RField RiDefaultAnsiCodePage
+		protected RSystem.RInt32 r_iDefaultAnsiCodePage;
+		public virtual RSystem.RInt32 RiDefaultAnsiCodePage
 		{
 			get
 			{
@@ -268,8 +268,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 iDefaultOemCodePage
 		/// </summary>
-		protected RField r_iDefaultOemCodePage;
-		public virtual RField RiDefaultOemCodePage
+		protected RSystem.RInt32 r_iDefaultOemCodePage;
+		public virtual RSystem.RInt32 RiDefaultOemCodePage
 		{
 			get
 			{
@@ -285,8 +285,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 iDefaultMacCodePage
 		/// </summary>
-		protected RField r_iDefaultMacCodePage;
-		public virtual RField RiDefaultMacCodePage
+		protected RSystem.RInt32 r_iDefaultMacCodePage;
+		public virtual RSystem.RInt32 RiDefaultMacCodePage
 		{
 			get
 			{
@@ -302,8 +302,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 iDefaultEbcdicCodePage
 		/// </summary>
-		protected RField r_iDefaultEbcdicCodePage;
-		public virtual RField RiDefaultEbcdicCodePage
+		protected RSystem.RInt32 r_iDefaultEbcdicCodePage;
+		public virtual RSystem.RInt32 RiDefaultEbcdicCodePage
 		{
 			get
 			{
@@ -319,8 +319,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Boolean isRightToLeft
 		/// </summary>
-		protected RField r_isRightToLeft;
-		public virtual RField RisRightToLeft
+		protected RSystem.RBoolean r_isRightToLeft;
+		public virtual RSystem.RBoolean RisRightToLeft
 		{
 			get
 			{
@@ -336,8 +336,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String sListSeparator
 		/// </summary>
-		protected RField r_sListSeparator;
-		public virtual RField RsListSeparator
+		protected RSystem.RString r_sListSeparator;
+		public virtual RSystem.RString RsListSeparator
 		{
 			get
 			{
@@ -387,8 +387,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String[] LongTimes
 		/// </summary>
-		protected RPropertyArray<RProperty> r_LongTimes;
-		public virtual RPropertyArray<RProperty> RLongTimes
+		protected RPropertyArray<RSystem.RString> r_LongTimes;
+		public virtual RPropertyArray<RSystem.RString> RLongTimes
 		{
 			get
 			{
@@ -404,8 +404,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String[] ShortTimes
 		/// </summary>
-		protected RPropertyArray<RProperty> r_ShortTimes;
-		public virtual RPropertyArray<RProperty> RShortTimes
+		protected RPropertyArray<RSystem.RString> r_ShortTimes;
+		public virtual RPropertyArray<RSystem.RString> RShortTimes
 		{
 			get
 			{
@@ -421,8 +421,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String SISO639LANGNAME
 		/// </summary>
-		protected RProperty r_SISO639LANGNAME;
-		public virtual RProperty RSISO639LANGNAME
+		protected RSystem.RString r_SISO639LANGNAME;
+		public virtual RSystem.RString RSISO639LANGNAME
 		{
 			get
 			{
@@ -438,8 +438,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// Int32 IFIRSTDAYOFWEEK
 		/// </summary>
-		protected RProperty r_IFIRSTDAYOFWEEK;
-		public virtual RProperty RIFIRSTDAYOFWEEK
+		protected RSystem.RInt32 r_IFIRSTDAYOFWEEK;
+		public virtual RSystem.RInt32 RIFIRSTDAYOFWEEK
 		{
 			get
 			{
@@ -455,8 +455,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// Int32 IFIRSTWEEKOFYEAR
 		/// </summary>
-		protected RProperty r_IFIRSTWEEKOFYEAR;
-		public virtual RProperty RIFIRSTWEEKOFYEAR
+		protected RSystem.RInt32 r_IFIRSTWEEKOFYEAR;
+		public virtual RSystem.RInt32 RIFIRSTWEEKOFYEAR
 		{
 			get
 			{
@@ -472,8 +472,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String SAM1159
 		/// </summary>
-		protected RProperty r_SAM1159;
-		public virtual RProperty RSAM1159
+		protected RSystem.RString r_SAM1159;
+		public virtual RSystem.RString RSAM1159
 		{
 			get
 			{
@@ -489,8 +489,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String SPM2359
 		/// </summary>
-		protected RProperty r_SPM2359;
-		public virtual RProperty RSPM2359
+		protected RSystem.RString r_SPM2359;
+		public virtual RSystem.RString RSPM2359
 		{
 			get
 			{
@@ -506,8 +506,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String TimeSeparator
 		/// </summary>
-		protected RProperty r_TimeSeparator;
-		public virtual RProperty RTimeSeparator
+		protected RSystem.RString r_TimeSeparator;
+		public virtual RSystem.RString RTimeSeparator
 		{
 			get
 			{
@@ -523,8 +523,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// Int32[] CalendarIds
 		/// </summary>
-		protected RPropertyArray<RProperty> r_CalendarIds;
-		public virtual RPropertyArray<RProperty> RCalendarIds
+		protected RPropertyArray<RSystem.RInt32> r_CalendarIds;
+		public virtual RPropertyArray<RSystem.RInt32> RCalendarIds
 		{
 			get
 			{
@@ -540,8 +540,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// Boolean IsInvariantCulture
 		/// </summary>
-		protected RProperty r_IsInvariantCulture;
-		public virtual RProperty RIsInvariantCulture
+		protected RSystem.RBoolean r_IsInvariantCulture;
+		public virtual RSystem.RBoolean RIsInvariantCulture
 		{
 			get
 			{
@@ -557,8 +557,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String CultureName
 		/// </summary>
-		protected RProperty r_CultureName;
-		public virtual RProperty RCultureName
+		protected RSystem.RString r_CultureName;
+		public virtual RSystem.RString RCultureName
 		{
 			get
 			{
@@ -574,8 +574,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String SCOMPAREINFO
 		/// </summary>
-		protected RProperty r_SCOMPAREINFO;
-		public virtual RProperty RSCOMPAREINFO
+		protected RSystem.RString r_SCOMPAREINFO;
+		public virtual RSystem.RString RSCOMPAREINFO
 		{
 			get
 			{
@@ -591,8 +591,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String STEXTINFO
 		/// </summary>
-		protected RProperty r_STEXTINFO;
-		public virtual RProperty RSTEXTINFO
+		protected RSystem.RString r_STEXTINFO;
+		public virtual RSystem.RString RSTEXTINFO
 		{
 			get
 			{
@@ -608,8 +608,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// Int32 ILANGUAGE
 		/// </summary>
-		protected RProperty r_ILANGUAGE;
-		public virtual RProperty RILANGUAGE
+		protected RSystem.RInt32 r_ILANGUAGE;
+		public virtual RSystem.RInt32 RILANGUAGE
 		{
 			get
 			{
@@ -625,8 +625,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// Int32 IDEFAULTANSICODEPAGE
 		/// </summary>
-		protected RProperty r_IDEFAULTANSICODEPAGE;
-		public virtual RProperty RIDEFAULTANSICODEPAGE
+		protected RSystem.RInt32 r_IDEFAULTANSICODEPAGE;
+		public virtual RSystem.RInt32 RIDEFAULTANSICODEPAGE
 		{
 			get
 			{
@@ -642,8 +642,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// Int32 IDEFAULTOEMCODEPAGE
 		/// </summary>
-		protected RProperty r_IDEFAULTOEMCODEPAGE;
-		public virtual RProperty RIDEFAULTOEMCODEPAGE
+		protected RSystem.RInt32 r_IDEFAULTOEMCODEPAGE;
+		public virtual RSystem.RInt32 RIDEFAULTOEMCODEPAGE
 		{
 			get
 			{
@@ -659,8 +659,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// Int32 IDEFAULTMACCODEPAGE
 		/// </summary>
-		protected RProperty r_IDEFAULTMACCODEPAGE;
-		public virtual RProperty RIDEFAULTMACCODEPAGE
+		protected RSystem.RInt32 r_IDEFAULTMACCODEPAGE;
+		public virtual RSystem.RInt32 RIDEFAULTMACCODEPAGE
 		{
 			get
 			{
@@ -676,8 +676,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// Int32 IDEFAULTEBCDICCODEPAGE
 		/// </summary>
-		protected RProperty r_IDEFAULTEBCDICCODEPAGE;
-		public virtual RProperty RIDEFAULTEBCDICCODEPAGE
+		protected RSystem.RInt32 r_IDEFAULTEBCDICCODEPAGE;
+		public virtual RSystem.RInt32 RIDEFAULTEBCDICCODEPAGE
 		{
 			get
 			{
@@ -693,8 +693,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// Boolean IsRightToLeft
 		/// </summary>
-		protected RProperty r_IsRightToLeft;
-		public virtual RProperty RIsRightToLeft
+		protected RSystem.RBoolean r_IsRightToLeft;
+		public virtual RSystem.RBoolean RIsRightToLeft
 		{
 			get
 			{
@@ -710,8 +710,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String SLIST
 		/// </summary>
-		protected RProperty r_SLIST;
-		public virtual RProperty RSLIST
+		protected RSystem.RString r_SLIST;
+		public virtual RSystem.RString RSLIST
 		{
 			get
 			{
@@ -727,8 +727,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// Boolean UseUserOverride
 		/// </summary>
-		protected RProperty r_UseUserOverride;
-		public virtual RProperty RUseUserOverride
+		protected RSystem.RBoolean r_UseUserOverride;
+		public virtual RSystem.RBoolean RUseUserOverride
 		{
 			get
 			{

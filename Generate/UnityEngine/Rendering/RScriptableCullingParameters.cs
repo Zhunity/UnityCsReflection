@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Int32 m_IsOrthographic
 		/// </summary>
-		protected RField r_m_IsOrthographic;
-		public virtual RField Rm_IsOrthographic
+		protected RSystem.RInt32 r_m_IsOrthographic;
+		public virtual RSystem.RInt32 Rm_IsOrthographic
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Int32 k_MaximumCullingPlaneCount
 		/// </summary>
-		protected static RField r_k_MaximumCullingPlaneCount;
-		public static RField Rk_MaximumCullingPlaneCount
+		protected static RSystem.RInt32 r_k_MaximumCullingPlaneCount;
+		public static RSystem.RInt32 Rk_MaximumCullingPlaneCount
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Int32 maximumCullingPlaneCount
 		/// </summary>
-		protected static RField r_maximumCullingPlaneCount;
-		public static RField RmaximumCullingPlaneCount
+		protected static RSystem.RInt32 r_maximumCullingPlaneCount;
+		public static RSystem.RInt32 RmaximumCullingPlaneCount
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Int32 m_CullingPlaneCount
 		/// </summary>
-		protected RField r_m_CullingPlaneCount;
-		public virtual RField Rm_CullingPlaneCount
+		protected RSystem.RInt32 r_m_CullingPlaneCount;
+		public virtual RSystem.RInt32 Rm_CullingPlaneCount
 		{
 			get
 			{
@@ -115,8 +115,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.UInt32 m_CullingMask
 		/// </summary>
-		protected RField r_m_CullingMask;
-		public virtual RField Rm_CullingMask
+		protected RSystem.RUInt32 r_m_CullingMask;
+		public virtual RSystem.RUInt32 Rm_CullingMask
 		{
 			get
 			{
@@ -132,8 +132,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.UInt64 m_SceneMask
 		/// </summary>
-		protected RField r_m_SceneMask;
-		public virtual RField Rm_SceneMask
+		protected RSystem.RUInt64 r_m_SceneMask;
+		public virtual RSystem.RUInt64 Rm_SceneMask
 		{
 			get
 			{
@@ -149,8 +149,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.UInt64 m_ViewID
 		/// </summary>
-		protected RField r_m_ViewID;
-		public virtual RField Rm_ViewID
+		protected RSystem.RUInt64 r_m_ViewID;
+		public virtual RSystem.RUInt64 Rm_ViewID
 		{
 			get
 			{
@@ -166,8 +166,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Int32 k_LayerCount
 		/// </summary>
-		protected static RField r_k_LayerCount;
-		public static RField Rk_LayerCount
+		protected static RSystem.RInt32 r_k_LayerCount;
+		public static RSystem.RInt32 Rk_LayerCount
 		{
 			get
 			{
@@ -183,8 +183,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Int32 layerCount
 		/// </summary>
-		protected static RField r_layerCount;
-		public static RField RlayerCount
+		protected static RSystem.RInt32 r_layerCount;
+		public static RSystem.RInt32 RlayerCount
 		{
 			get
 			{
@@ -217,8 +217,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Int32 m_LayerCull
 		/// </summary>
-		protected RField r_m_LayerCull;
-		public virtual RField Rm_LayerCull
+		protected RSystem.RInt32 r_m_LayerCull;
+		public virtual RSystem.RInt32 Rm_LayerCull
 		{
 			get
 			{
@@ -268,8 +268,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Single m_ShadowDistance
 		/// </summary>
-		protected RField r_m_ShadowDistance;
-		public virtual RField Rm_ShadowDistance
+		protected RSystem.RSingle r_m_ShadowDistance;
+		public virtual RSystem.RSingle Rm_ShadowDistance
 		{
 			get
 			{
@@ -285,8 +285,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Single m_ShadowNearPlaneOffset
 		/// </summary>
-		protected RField r_m_ShadowNearPlaneOffset;
-		public virtual RField Rm_ShadowNearPlaneOffset
+		protected RSystem.RSingle r_m_ShadowNearPlaneOffset;
+		public virtual RSystem.RSingle Rm_ShadowNearPlaneOffset
 		{
 			get
 			{
@@ -353,8 +353,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Single m_AccurateOcclusionThreshold
 		/// </summary>
-		protected RField r_m_AccurateOcclusionThreshold;
-		public virtual RField Rm_AccurateOcclusionThreshold
+		protected RSystem.RSingle r_m_AccurateOcclusionThreshold;
+		public virtual RSystem.RSingle Rm_AccurateOcclusionThreshold
 		{
 			get
 			{
@@ -370,8 +370,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Int32 m_MaximumPortalCullingJobs
 		/// </summary>
-		protected RField r_m_MaximumPortalCullingJobs;
-		public virtual RField Rm_MaximumPortalCullingJobs
+		protected RSystem.RInt32 r_m_MaximumPortalCullingJobs;
+		public virtual RSystem.RInt32 Rm_MaximumPortalCullingJobs
 		{
 			get
 			{
@@ -387,8 +387,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Int32 k_CullingJobCountLowerLimit
 		/// </summary>
-		protected static RField r_k_CullingJobCountLowerLimit;
-		public static RField Rk_CullingJobCountLowerLimit
+		protected static RSystem.RInt32 r_k_CullingJobCountLowerLimit;
+		public static RSystem.RInt32 Rk_CullingJobCountLowerLimit
 		{
 			get
 			{
@@ -404,8 +404,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Int32 k_CullingJobCountUpperLimit
 		/// </summary>
-		protected static RField r_k_CullingJobCountUpperLimit;
-		public static RField Rk_CullingJobCountUpperLimit
+		protected static RSystem.RInt32 r_k_CullingJobCountUpperLimit;
+		public static RSystem.RInt32 Rk_CullingJobCountUpperLimit
 		{
 			get
 			{
@@ -455,8 +455,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Single m_StereoSeparationDistance
 		/// </summary>
-		protected RField r_m_StereoSeparationDistance;
-		public virtual RField Rm_StereoSeparationDistance
+		protected RSystem.RSingle r_m_StereoSeparationDistance;
+		public virtual RSystem.RSingle Rm_StereoSeparationDistance
 		{
 			get
 			{
@@ -472,8 +472,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Int32 m_maximumVisibleLights
 		/// </summary>
-		protected RField r_m_maximumVisibleLights;
-		public virtual RField Rm_maximumVisibleLights
+		protected RSystem.RInt32 r_m_maximumVisibleLights;
+		public virtual RSystem.RInt32 Rm_maximumVisibleLights
 		{
 			get
 			{
@@ -489,8 +489,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Boolean m_ConservativeEnclosingSphere
 		/// </summary>
-		protected RField r_m_ConservativeEnclosingSphere;
-		public virtual RField Rm_ConservativeEnclosingSphere
+		protected RSystem.RBoolean r_m_ConservativeEnclosingSphere;
+		public virtual RSystem.RBoolean Rm_ConservativeEnclosingSphere
 		{
 			get
 			{
@@ -506,8 +506,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Int32 m_NumIterationsEnclosingSphere
 		/// </summary>
-		protected RField r_m_NumIterationsEnclosingSphere;
-		public virtual RField Rm_NumIterationsEnclosingSphere
+		protected RSystem.RInt32 r_m_NumIterationsEnclosingSphere;
+		public virtual RSystem.RInt32 Rm_NumIterationsEnclosingSphere
 		{
 			get
 			{
@@ -523,8 +523,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// Int32 maximumVisibleLights
 		/// </summary>
-		protected RProperty r_maximumVisibleLights;
-		public virtual RProperty RmaximumVisibleLights
+		protected RSystem.RInt32 r_maximumVisibleLights;
+		public virtual RSystem.RInt32 RmaximumVisibleLights
 		{
 			get
 			{
@@ -540,8 +540,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// Boolean conservativeEnclosingSphere
 		/// </summary>
-		protected RProperty r_conservativeEnclosingSphere;
-		public virtual RProperty RconservativeEnclosingSphere
+		protected RSystem.RBoolean r_conservativeEnclosingSphere;
+		public virtual RSystem.RBoolean RconservativeEnclosingSphere
 		{
 			get
 			{
@@ -557,8 +557,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// Int32 numIterationsEnclosingSphere
 		/// </summary>
-		protected RProperty r_numIterationsEnclosingSphere;
-		public virtual RProperty RnumIterationsEnclosingSphere
+		protected RSystem.RInt32 r_numIterationsEnclosingSphere;
+		public virtual RSystem.RInt32 RnumIterationsEnclosingSphere
 		{
 			get
 			{
@@ -574,8 +574,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// Int32 cullingPlaneCount
 		/// </summary>
-		protected RProperty r_cullingPlaneCount;
-		public virtual RProperty RcullingPlaneCount
+		protected RSystem.RInt32 r_cullingPlaneCount;
+		public virtual RSystem.RInt32 RcullingPlaneCount
 		{
 			get
 			{
@@ -591,8 +591,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// Boolean isOrthographic
 		/// </summary>
-		protected RProperty r_isOrthographic;
-		public virtual RProperty RisOrthographic
+		protected RSystem.RBoolean r_isOrthographic;
+		public virtual RSystem.RBoolean RisOrthographic
 		{
 			get
 			{
@@ -625,8 +625,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UInt32 cullingMask
 		/// </summary>
-		protected RProperty r_cullingMask;
-		public virtual RProperty RcullingMask
+		protected RSystem.RUInt32 r_cullingMask;
+		public virtual RSystem.RUInt32 RcullingMask
 		{
 			get
 			{
@@ -676,8 +676,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// Single shadowDistance
 		/// </summary>
-		protected RProperty r_shadowDistance;
-		public virtual RProperty RshadowDistance
+		protected RSystem.RSingle r_shadowDistance;
+		public virtual RSystem.RSingle RshadowDistance
 		{
 			get
 			{
@@ -693,8 +693,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// Single shadowNearPlaneOffset
 		/// </summary>
-		protected RProperty r_shadowNearPlaneOffset;
-		public virtual RProperty RshadowNearPlaneOffset
+		protected RSystem.RSingle r_shadowNearPlaneOffset;
+		public virtual RSystem.RSingle RshadowNearPlaneOffset
 		{
 			get
 			{
@@ -795,8 +795,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// Single stereoSeparationDistance
 		/// </summary>
-		protected RProperty r_stereoSeparationDistance;
-		public virtual RProperty RstereoSeparationDistance
+		protected RSystem.RSingle r_stereoSeparationDistance;
+		public virtual RSystem.RSingle RstereoSeparationDistance
 		{
 			get
 			{
@@ -812,8 +812,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// Single accurateOcclusionThreshold
 		/// </summary>
-		protected RProperty r_accurateOcclusionThreshold;
-		public virtual RProperty RaccurateOcclusionThreshold
+		protected RSystem.RSingle r_accurateOcclusionThreshold;
+		public virtual RSystem.RSingle RaccurateOcclusionThreshold
 		{
 			get
 			{
@@ -829,8 +829,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// Int32 maximumPortalCullingJobs
 		/// </summary>
-		protected RProperty r_maximumPortalCullingJobs;
-		public virtual RProperty RmaximumPortalCullingJobs
+		protected RSystem.RInt32 r_maximumPortalCullingJobs;
+		public virtual RSystem.RInt32 RmaximumPortalCullingJobs
 		{
 			get
 			{
@@ -846,8 +846,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// Int32 cullingJobsLowerLimit
 		/// </summary>
-		protected static RProperty r_cullingJobsLowerLimit;
-		public static RProperty RcullingJobsLowerLimit
+		protected static RSystem.RInt32 r_cullingJobsLowerLimit;
+		public static RSystem.RInt32 RcullingJobsLowerLimit
 		{
 			get
 			{
@@ -863,8 +863,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// Int32 cullingJobsUpperLimit
 		/// </summary>
-		protected static RProperty r_cullingJobsUpperLimit;
-		public static RProperty RcullingJobsUpperLimit
+		protected static RSystem.RInt32 r_cullingJobsUpperLimit;
+		public static RSystem.RInt32 RcullingJobsUpperLimit
 		{
 			get
 			{

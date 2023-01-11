@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Boolean multiline
 		/// </summary>
-		protected RProperty r_multiline;
-		public virtual RProperty Rmultiline
+		protected RSystem.RBoolean r_multiline;
+		public virtual RSystem.RBoolean Rmultiline
 		{
 			get
 			{
@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Boolean isReadOnly
 		/// </summary>
-		protected RProperty r_isReadOnly;
-		public virtual RProperty RisReadOnly
+		protected RSystem.RBoolean r_isReadOnly;
+		public virtual RSystem.RBoolean RisReadOnly
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Int32 maxLength
 		/// </summary>
-		protected RProperty r_maxLength;
-		public virtual RProperty RmaxLength
+		protected RSystem.RInt32 r_maxLength;
+		public virtual RSystem.RInt32 RmaxLength
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Boolean isDelayed
 		/// </summary>
-		protected RProperty r_isDelayed;
-		public virtual RProperty RisDelayed
+		protected RSystem.RBoolean r_isDelayed;
+		public virtual RSystem.RBoolean RisDelayed
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Func`2[System.Char,System.Boolean] AcceptCharacter
 		/// </summary>
-		protected RSystem.RFunc<RProperty, RProperty> r_AcceptCharacter;
-		public virtual RSystem.RFunc<RProperty, RProperty> RAcceptCharacter
+		protected RSystem.RFunc<RSystem.RChar, RSystem.RBoolean> r_AcceptCharacter;
+		public virtual RSystem.RFunc<RSystem.RChar, RSystem.RBoolean> RAcceptCharacter
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Action`1[System.Boolean] UpdateScrollOffset
 		/// </summary>
-		protected RSystem.RAction<RProperty> r_UpdateScrollOffset;
-		public virtual RSystem.RAction<RProperty> RUpdateScrollOffset
+		protected RSystem.RAction<RSystem.RBoolean> r_UpdateScrollOffset;
+		public virtual RSystem.RAction<RSystem.RBoolean> RUpdateScrollOffset
 		{
 			get
 			{
@@ -166,8 +166,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Boolean hasFocus
 		/// </summary>
-		protected RProperty r_hasFocus;
-		public virtual RProperty RhasFocus
+		protected RSystem.RBoolean r_hasFocus;
+		public virtual RSystem.RBoolean RhasFocus
 		{
 			get
 			{
@@ -183,8 +183,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Char maskChar
 		/// </summary>
-		protected RProperty r_maskChar;
-		public virtual RProperty RmaskChar
+		protected RSystem.RChar r_maskChar;
+		public virtual RSystem.RChar RmaskChar
 		{
 			get
 			{
@@ -200,8 +200,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Boolean isPassword
 		/// </summary>
-		protected RProperty r_isPassword;
-		public virtual RProperty RisPassword
+		protected RSystem.RBoolean r_isPassword;
+		public virtual RSystem.RBoolean RisPassword
 		{
 			get
 			{

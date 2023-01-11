@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32[] numberGroupSizes
 		/// </summary>
-		protected RFieldArray<RField> r_numberGroupSizes;
-		public virtual RFieldArray<RField> RnumberGroupSizes
+		protected RFieldArray<RSystem.RInt32> r_numberGroupSizes;
+		public virtual RFieldArray<RSystem.RInt32> RnumberGroupSizes
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32[] currencyGroupSizes
 		/// </summary>
-		protected RFieldArray<RField> r_currencyGroupSizes;
-		public virtual RFieldArray<RField> RcurrencyGroupSizes
+		protected RFieldArray<RSystem.RInt32> r_currencyGroupSizes;
+		public virtual RFieldArray<RSystem.RInt32> RcurrencyGroupSizes
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32[] percentGroupSizes
 		/// </summary>
-		protected RFieldArray<RField> r_percentGroupSizes;
-		public virtual RFieldArray<RField> RpercentGroupSizes
+		protected RFieldArray<RSystem.RInt32> r_percentGroupSizes;
+		public virtual RFieldArray<RSystem.RInt32> RpercentGroupSizes
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String positiveSign
 		/// </summary>
-		protected RField r_positiveSign;
-		public virtual RField RpositiveSign
+		protected RSystem.RString r_positiveSign;
+		public virtual RSystem.RString RpositiveSign
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String negativeSign
 		/// </summary>
-		protected RField r_negativeSign;
-		public virtual RField RnegativeSign
+		protected RSystem.RString r_negativeSign;
+		public virtual RSystem.RString RnegativeSign
 		{
 			get
 			{
@@ -115,8 +115,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String numberDecimalSeparator
 		/// </summary>
-		protected RField r_numberDecimalSeparator;
-		public virtual RField RnumberDecimalSeparator
+		protected RSystem.RString r_numberDecimalSeparator;
+		public virtual RSystem.RString RnumberDecimalSeparator
 		{
 			get
 			{
@@ -132,8 +132,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String numberGroupSeparator
 		/// </summary>
-		protected RField r_numberGroupSeparator;
-		public virtual RField RnumberGroupSeparator
+		protected RSystem.RString r_numberGroupSeparator;
+		public virtual RSystem.RString RnumberGroupSeparator
 		{
 			get
 			{
@@ -149,8 +149,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String currencyGroupSeparator
 		/// </summary>
-		protected RField r_currencyGroupSeparator;
-		public virtual RField RcurrencyGroupSeparator
+		protected RSystem.RString r_currencyGroupSeparator;
+		public virtual RSystem.RString RcurrencyGroupSeparator
 		{
 			get
 			{
@@ -166,8 +166,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String currencyDecimalSeparator
 		/// </summary>
-		protected RField r_currencyDecimalSeparator;
-		public virtual RField RcurrencyDecimalSeparator
+		protected RSystem.RString r_currencyDecimalSeparator;
+		public virtual RSystem.RString RcurrencyDecimalSeparator
 		{
 			get
 			{
@@ -183,8 +183,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String currencySymbol
 		/// </summary>
-		protected RField r_currencySymbol;
-		public virtual RField RcurrencySymbol
+		protected RSystem.RString r_currencySymbol;
+		public virtual RSystem.RString RcurrencySymbol
 		{
 			get
 			{
@@ -200,8 +200,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String ansiCurrencySymbol
 		/// </summary>
-		protected RField r_ansiCurrencySymbol;
-		public virtual RField RansiCurrencySymbol
+		protected RSystem.RString r_ansiCurrencySymbol;
+		public virtual RSystem.RString RansiCurrencySymbol
 		{
 			get
 			{
@@ -217,8 +217,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String nanSymbol
 		/// </summary>
-		protected RField r_nanSymbol;
-		public virtual RField RnanSymbol
+		protected RSystem.RString r_nanSymbol;
+		public virtual RSystem.RString RnanSymbol
 		{
 			get
 			{
@@ -234,8 +234,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String positiveInfinitySymbol
 		/// </summary>
-		protected RField r_positiveInfinitySymbol;
-		public virtual RField RpositiveInfinitySymbol
+		protected RSystem.RString r_positiveInfinitySymbol;
+		public virtual RSystem.RString RpositiveInfinitySymbol
 		{
 			get
 			{
@@ -251,8 +251,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String negativeInfinitySymbol
 		/// </summary>
-		protected RField r_negativeInfinitySymbol;
-		public virtual RField RnegativeInfinitySymbol
+		protected RSystem.RString r_negativeInfinitySymbol;
+		public virtual RSystem.RString RnegativeInfinitySymbol
 		{
 			get
 			{
@@ -268,8 +268,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String percentDecimalSeparator
 		/// </summary>
-		protected RField r_percentDecimalSeparator;
-		public virtual RField RpercentDecimalSeparator
+		protected RSystem.RString r_percentDecimalSeparator;
+		public virtual RSystem.RString RpercentDecimalSeparator
 		{
 			get
 			{
@@ -285,8 +285,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String percentGroupSeparator
 		/// </summary>
-		protected RField r_percentGroupSeparator;
-		public virtual RField RpercentGroupSeparator
+		protected RSystem.RString r_percentGroupSeparator;
+		public virtual RSystem.RString RpercentGroupSeparator
 		{
 			get
 			{
@@ -302,8 +302,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String percentSymbol
 		/// </summary>
-		protected RField r_percentSymbol;
-		public virtual RField RpercentSymbol
+		protected RSystem.RString r_percentSymbol;
+		public virtual RSystem.RString RpercentSymbol
 		{
 			get
 			{
@@ -319,8 +319,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String perMilleSymbol
 		/// </summary>
-		protected RField r_perMilleSymbol;
-		public virtual RField RperMilleSymbol
+		protected RSystem.RString r_perMilleSymbol;
+		public virtual RSystem.RString RperMilleSymbol
 		{
 			get
 			{
@@ -336,8 +336,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String[] nativeDigits
 		/// </summary>
-		protected RFieldArray<RField> r_nativeDigits;
-		public virtual RFieldArray<RField> RnativeDigits
+		protected RFieldArray<RSystem.RString> r_nativeDigits;
+		public virtual RFieldArray<RSystem.RString> RnativeDigits
 		{
 			get
 			{
@@ -353,8 +353,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 m_dataItem
 		/// </summary>
-		protected RField r_m_dataItem;
-		public virtual RField Rm_dataItem
+		protected RSystem.RInt32 r_m_dataItem;
+		public virtual RSystem.RInt32 Rm_dataItem
 		{
 			get
 			{
@@ -370,8 +370,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 numberDecimalDigits
 		/// </summary>
-		protected RField r_numberDecimalDigits;
-		public virtual RField RnumberDecimalDigits
+		protected RSystem.RInt32 r_numberDecimalDigits;
+		public virtual RSystem.RInt32 RnumberDecimalDigits
 		{
 			get
 			{
@@ -387,8 +387,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 currencyDecimalDigits
 		/// </summary>
-		protected RField r_currencyDecimalDigits;
-		public virtual RField RcurrencyDecimalDigits
+		protected RSystem.RInt32 r_currencyDecimalDigits;
+		public virtual RSystem.RInt32 RcurrencyDecimalDigits
 		{
 			get
 			{
@@ -404,8 +404,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 currencyPositivePattern
 		/// </summary>
-		protected RField r_currencyPositivePattern;
-		public virtual RField RcurrencyPositivePattern
+		protected RSystem.RInt32 r_currencyPositivePattern;
+		public virtual RSystem.RInt32 RcurrencyPositivePattern
 		{
 			get
 			{
@@ -421,8 +421,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 currencyNegativePattern
 		/// </summary>
-		protected RField r_currencyNegativePattern;
-		public virtual RField RcurrencyNegativePattern
+		protected RSystem.RInt32 r_currencyNegativePattern;
+		public virtual RSystem.RInt32 RcurrencyNegativePattern
 		{
 			get
 			{
@@ -438,8 +438,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 numberNegativePattern
 		/// </summary>
-		protected RField r_numberNegativePattern;
-		public virtual RField RnumberNegativePattern
+		protected RSystem.RInt32 r_numberNegativePattern;
+		public virtual RSystem.RInt32 RnumberNegativePattern
 		{
 			get
 			{
@@ -455,8 +455,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 percentPositivePattern
 		/// </summary>
-		protected RField r_percentPositivePattern;
-		public virtual RField RpercentPositivePattern
+		protected RSystem.RInt32 r_percentPositivePattern;
+		public virtual RSystem.RInt32 RpercentPositivePattern
 		{
 			get
 			{
@@ -472,8 +472,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 percentNegativePattern
 		/// </summary>
-		protected RField r_percentNegativePattern;
-		public virtual RField RpercentNegativePattern
+		protected RSystem.RInt32 r_percentNegativePattern;
+		public virtual RSystem.RInt32 RpercentNegativePattern
 		{
 			get
 			{
@@ -489,8 +489,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 percentDecimalDigits
 		/// </summary>
-		protected RField r_percentDecimalDigits;
-		public virtual RField RpercentDecimalDigits
+		protected RSystem.RInt32 r_percentDecimalDigits;
+		public virtual RSystem.RInt32 RpercentDecimalDigits
 		{
 			get
 			{
@@ -506,8 +506,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 digitSubstitution
 		/// </summary>
-		protected RField r_digitSubstitution;
-		public virtual RField RdigitSubstitution
+		protected RSystem.RInt32 r_digitSubstitution;
+		public virtual RSystem.RInt32 RdigitSubstitution
 		{
 			get
 			{
@@ -523,8 +523,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Boolean isReadOnly
 		/// </summary>
-		protected RField r_isReadOnly;
-		public virtual RField RisReadOnly
+		protected RSystem.RBoolean r_isReadOnly;
+		public virtual RSystem.RBoolean RisReadOnly
 		{
 			get
 			{
@@ -540,8 +540,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Boolean m_useUserOverride
 		/// </summary>
-		protected RField r_m_useUserOverride;
-		public virtual RField Rm_useUserOverride
+		protected RSystem.RBoolean r_m_useUserOverride;
+		public virtual RSystem.RBoolean Rm_useUserOverride
 		{
 			get
 			{
@@ -557,8 +557,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Boolean m_isInvariant
 		/// </summary>
-		protected RField r_m_isInvariant;
-		public virtual RField Rm_isInvariant
+		protected RSystem.RBoolean r_m_isInvariant;
+		public virtual RSystem.RBoolean Rm_isInvariant
 		{
 			get
 			{
@@ -574,8 +574,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Boolean validForParseAsNumber
 		/// </summary>
-		protected RField r_validForParseAsNumber;
-		public virtual RField RvalidForParseAsNumber
+		protected RSystem.RBoolean r_validForParseAsNumber;
+		public virtual RSystem.RBoolean RvalidForParseAsNumber
 		{
 			get
 			{
@@ -591,8 +591,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Boolean validForParseAsCurrency
 		/// </summary>
-		protected RField r_validForParseAsCurrency;
-		public virtual RField RvalidForParseAsCurrency
+		protected RSystem.RBoolean r_validForParseAsCurrency;
+		public virtual RSystem.RBoolean RvalidForParseAsCurrency
 		{
 			get
 			{
@@ -642,8 +642,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// Int32 CurrencyDecimalDigits
 		/// </summary>
-		protected RProperty r_CurrencyDecimalDigits;
-		public virtual RProperty RCurrencyDecimalDigits
+		protected RSystem.RInt32 r_CurrencyDecimalDigits;
+		public virtual RSystem.RInt32 RCurrencyDecimalDigits
 		{
 			get
 			{
@@ -659,8 +659,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String CurrencyDecimalSeparator
 		/// </summary>
-		protected RProperty r_CurrencyDecimalSeparator;
-		public virtual RProperty RCurrencyDecimalSeparator
+		protected RSystem.RString r_CurrencyDecimalSeparator;
+		public virtual RSystem.RString RCurrencyDecimalSeparator
 		{
 			get
 			{
@@ -676,8 +676,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// Boolean IsReadOnly
 		/// </summary>
-		protected RProperty r_IsReadOnly;
-		public virtual RProperty RIsReadOnly
+		protected RSystem.RBoolean r_IsReadOnly;
+		public virtual RSystem.RBoolean RIsReadOnly
 		{
 			get
 			{
@@ -693,8 +693,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// Int32[] CurrencyGroupSizes
 		/// </summary>
-		protected RPropertyArray<RProperty> r_CurrencyGroupSizes;
-		public virtual RPropertyArray<RProperty> RCurrencyGroupSizes
+		protected RPropertyArray<RSystem.RInt32> r_CurrencyGroupSizes;
+		public virtual RPropertyArray<RSystem.RInt32> RCurrencyGroupSizes
 		{
 			get
 			{
@@ -710,8 +710,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// Int32[] NumberGroupSizes
 		/// </summary>
-		protected RPropertyArray<RProperty> r_NumberGroupSizes;
-		public virtual RPropertyArray<RProperty> RNumberGroupSizes
+		protected RPropertyArray<RSystem.RInt32> r_NumberGroupSizes;
+		public virtual RPropertyArray<RSystem.RInt32> RNumberGroupSizes
 		{
 			get
 			{
@@ -727,8 +727,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// Int32[] PercentGroupSizes
 		/// </summary>
-		protected RPropertyArray<RProperty> r_PercentGroupSizes;
-		public virtual RPropertyArray<RProperty> RPercentGroupSizes
+		protected RPropertyArray<RSystem.RInt32> r_PercentGroupSizes;
+		public virtual RPropertyArray<RSystem.RInt32> RPercentGroupSizes
 		{
 			get
 			{
@@ -744,8 +744,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String CurrencyGroupSeparator
 		/// </summary>
-		protected RProperty r_CurrencyGroupSeparator;
-		public virtual RProperty RCurrencyGroupSeparator
+		protected RSystem.RString r_CurrencyGroupSeparator;
+		public virtual RSystem.RString RCurrencyGroupSeparator
 		{
 			get
 			{
@@ -761,8 +761,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String CurrencySymbol
 		/// </summary>
-		protected RProperty r_CurrencySymbol;
-		public virtual RProperty RCurrencySymbol
+		protected RSystem.RString r_CurrencySymbol;
+		public virtual RSystem.RString RCurrencySymbol
 		{
 			get
 			{
@@ -795,8 +795,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String NaNSymbol
 		/// </summary>
-		protected RProperty r_NaNSymbol;
-		public virtual RProperty RNaNSymbol
+		protected RSystem.RString r_NaNSymbol;
+		public virtual RSystem.RString RNaNSymbol
 		{
 			get
 			{
@@ -812,8 +812,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// Int32 CurrencyNegativePattern
 		/// </summary>
-		protected RProperty r_CurrencyNegativePattern;
-		public virtual RProperty RCurrencyNegativePattern
+		protected RSystem.RInt32 r_CurrencyNegativePattern;
+		public virtual RSystem.RInt32 RCurrencyNegativePattern
 		{
 			get
 			{
@@ -829,8 +829,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// Int32 NumberNegativePattern
 		/// </summary>
-		protected RProperty r_NumberNegativePattern;
-		public virtual RProperty RNumberNegativePattern
+		protected RSystem.RInt32 r_NumberNegativePattern;
+		public virtual RSystem.RInt32 RNumberNegativePattern
 		{
 			get
 			{
@@ -846,8 +846,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// Int32 PercentPositivePattern
 		/// </summary>
-		protected RProperty r_PercentPositivePattern;
-		public virtual RProperty RPercentPositivePattern
+		protected RSystem.RInt32 r_PercentPositivePattern;
+		public virtual RSystem.RInt32 RPercentPositivePattern
 		{
 			get
 			{
@@ -863,8 +863,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// Int32 PercentNegativePattern
 		/// </summary>
-		protected RProperty r_PercentNegativePattern;
-		public virtual RProperty RPercentNegativePattern
+		protected RSystem.RInt32 r_PercentNegativePattern;
+		public virtual RSystem.RInt32 RPercentNegativePattern
 		{
 			get
 			{
@@ -880,8 +880,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String NegativeInfinitySymbol
 		/// </summary>
-		protected RProperty r_NegativeInfinitySymbol;
-		public virtual RProperty RNegativeInfinitySymbol
+		protected RSystem.RString r_NegativeInfinitySymbol;
+		public virtual RSystem.RString RNegativeInfinitySymbol
 		{
 			get
 			{
@@ -897,8 +897,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String NegativeSign
 		/// </summary>
-		protected RProperty r_NegativeSign;
-		public virtual RProperty RNegativeSign
+		protected RSystem.RString r_NegativeSign;
+		public virtual RSystem.RString RNegativeSign
 		{
 			get
 			{
@@ -914,8 +914,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// Int32 NumberDecimalDigits
 		/// </summary>
-		protected RProperty r_NumberDecimalDigits;
-		public virtual RProperty RNumberDecimalDigits
+		protected RSystem.RInt32 r_NumberDecimalDigits;
+		public virtual RSystem.RInt32 RNumberDecimalDigits
 		{
 			get
 			{
@@ -931,8 +931,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String NumberDecimalSeparator
 		/// </summary>
-		protected RProperty r_NumberDecimalSeparator;
-		public virtual RProperty RNumberDecimalSeparator
+		protected RSystem.RString r_NumberDecimalSeparator;
+		public virtual RSystem.RString RNumberDecimalSeparator
 		{
 			get
 			{
@@ -948,8 +948,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String NumberGroupSeparator
 		/// </summary>
-		protected RProperty r_NumberGroupSeparator;
-		public virtual RProperty RNumberGroupSeparator
+		protected RSystem.RString r_NumberGroupSeparator;
+		public virtual RSystem.RString RNumberGroupSeparator
 		{
 			get
 			{
@@ -965,8 +965,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// Int32 CurrencyPositivePattern
 		/// </summary>
-		protected RProperty r_CurrencyPositivePattern;
-		public virtual RProperty RCurrencyPositivePattern
+		protected RSystem.RInt32 r_CurrencyPositivePattern;
+		public virtual RSystem.RInt32 RCurrencyPositivePattern
 		{
 			get
 			{
@@ -982,8 +982,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String PositiveInfinitySymbol
 		/// </summary>
-		protected RProperty r_PositiveInfinitySymbol;
-		public virtual RProperty RPositiveInfinitySymbol
+		protected RSystem.RString r_PositiveInfinitySymbol;
+		public virtual RSystem.RString RPositiveInfinitySymbol
 		{
 			get
 			{
@@ -999,8 +999,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String PositiveSign
 		/// </summary>
-		protected RProperty r_PositiveSign;
-		public virtual RProperty RPositiveSign
+		protected RSystem.RString r_PositiveSign;
+		public virtual RSystem.RString RPositiveSign
 		{
 			get
 			{
@@ -1016,8 +1016,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// Int32 PercentDecimalDigits
 		/// </summary>
-		protected RProperty r_PercentDecimalDigits;
-		public virtual RProperty RPercentDecimalDigits
+		protected RSystem.RInt32 r_PercentDecimalDigits;
+		public virtual RSystem.RInt32 RPercentDecimalDigits
 		{
 			get
 			{
@@ -1033,8 +1033,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String PercentDecimalSeparator
 		/// </summary>
-		protected RProperty r_PercentDecimalSeparator;
-		public virtual RProperty RPercentDecimalSeparator
+		protected RSystem.RString r_PercentDecimalSeparator;
+		public virtual RSystem.RString RPercentDecimalSeparator
 		{
 			get
 			{
@@ -1050,8 +1050,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String PercentGroupSeparator
 		/// </summary>
-		protected RProperty r_PercentGroupSeparator;
-		public virtual RProperty RPercentGroupSeparator
+		protected RSystem.RString r_PercentGroupSeparator;
+		public virtual RSystem.RString RPercentGroupSeparator
 		{
 			get
 			{
@@ -1067,8 +1067,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String PercentSymbol
 		/// </summary>
-		protected RProperty r_PercentSymbol;
-		public virtual RProperty RPercentSymbol
+		protected RSystem.RString r_PercentSymbol;
+		public virtual RSystem.RString RPercentSymbol
 		{
 			get
 			{
@@ -1084,8 +1084,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String PerMilleSymbol
 		/// </summary>
-		protected RProperty r_PerMilleSymbol;
-		public virtual RProperty RPerMilleSymbol
+		protected RSystem.RString r_PerMilleSymbol;
+		public virtual RSystem.RString RPerMilleSymbol
 		{
 			get
 			{
@@ -1101,8 +1101,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String[] NativeDigits
 		/// </summary>
-		protected RPropertyArray<RProperty> r_NativeDigits;
-		public virtual RPropertyArray<RProperty> RNativeDigits
+		protected RPropertyArray<RSystem.RString> r_NativeDigits;
+		public virtual RPropertyArray<RSystem.RString> RNativeDigits
 		{
 			get
 			{

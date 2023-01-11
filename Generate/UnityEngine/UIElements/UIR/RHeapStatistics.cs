@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.UInt32 numAllocs
 		/// </summary>
-		protected RField r_numAllocs;
-		public virtual RField RnumAllocs
+		protected RSystem.RUInt32 r_numAllocs;
+		public virtual RSystem.RUInt32 RnumAllocs
 		{
 			get
 			{
@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.UInt32 totalSize
 		/// </summary>
-		protected RField r_totalSize;
-		public virtual RField RtotalSize
+		protected RSystem.RUInt32 r_totalSize;
+		public virtual RSystem.RUInt32 RtotalSize
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.UInt32 allocatedSize
 		/// </summary>
-		protected RField r_allocatedSize;
-		public virtual RField RallocatedSize
+		protected RSystem.RUInt32 r_allocatedSize;
+		public virtual RSystem.RUInt32 RallocatedSize
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.UInt32 freeSize
 		/// </summary>
-		protected RField r_freeSize;
-		public virtual RField RfreeSize
+		protected RSystem.RUInt32 r_freeSize;
+		public virtual RSystem.RUInt32 RfreeSize
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.UInt32 largestAvailableBlock
 		/// </summary>
-		protected RField r_largestAvailableBlock;
-		public virtual RField RlargestAvailableBlock
+		protected RSystem.RUInt32 r_largestAvailableBlock;
+		public virtual RSystem.RUInt32 RlargestAvailableBlock
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.UInt32 availableBlocksCount
 		/// </summary>
-		protected RField r_availableBlocksCount;
-		public virtual RField RavailableBlocksCount
+		protected RSystem.RUInt32 r_availableBlocksCount;
+		public virtual RSystem.RUInt32 RavailableBlocksCount
 		{
 			get
 			{
@@ -115,8 +115,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.UInt32 blockCount
 		/// </summary>
-		protected RField r_blockCount;
-		public virtual RField RblockCount
+		protected RSystem.RUInt32 r_blockCount;
+		public virtual RSystem.RUInt32 RblockCount
 		{
 			get
 			{
@@ -132,8 +132,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.UInt32 highWatermark
 		/// </summary>
-		protected RField r_highWatermark;
-		public virtual RField RhighWatermark
+		protected RSystem.RUInt32 r_highWatermark;
+		public virtual RSystem.RUInt32 RhighWatermark
 		{
 			get
 			{
@@ -149,8 +149,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Single fragmentation
 		/// </summary>
-		protected RField r_fragmentation;
-		public virtual RField Rfragmentation
+		protected RSystem.RSingle r_fragmentation;
+		public virtual RSystem.RSingle Rfragmentation
 		{
 			get
 			{

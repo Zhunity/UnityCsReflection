@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Int64 lengthInBytes
 		/// </summary>
-		protected RField r_lengthInBytes;
-		public virtual RField RlengthInBytes
+		protected RSystem.RInt64 r_lengthInBytes;
+		public virtual RSystem.RInt64 RlengthInBytes
 		{
 			get
 			{
@@ -215,6 +215,26 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 	    {
 	    }
 
+        public static RUnityEngine.RRendering.RAsyncRequestNativeArrayData CreateAndCheckAccess<T>(RUnity.RCollections.RNativeArray<RType> @array) where T : struct
+        {
+
+            var ___genericsType = new Type[] {typeof(T)};
+            var ___parameters = new object[]{@array.Value};
+            var ___result = RCreateAndCheckAccess_GT_NativeArray_d_T_p_.Invoke(___genericsType, ___parameters);
+
+            return new RUnityEngine.RRendering.RAsyncRequestNativeArrayData(___result);
+        }
+
+
+        public static RUnityEngine.RRendering.RAsyncRequestNativeArrayData CreateAndCheckAccess<T>(RUnity.RCollections.RNativeSlice<RType> @array) where T : struct
+        {
+
+            var ___genericsType = new Type[] {typeof(T)};
+            var ___parameters = new object[]{@array.Value};
+            var ___result = RCreateAndCheckAccess_GT_NativeSlice_d_T_p_.Invoke(___genericsType, ___parameters);
+
+            return new RUnityEngine.RRendering.RAsyncRequestNativeArrayData(___result);
+        }
 
 
         public virtual System.Boolean Equals(System.Object @obj)

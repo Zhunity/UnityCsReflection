@@ -49,8 +49,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Int32 _count
 		/// </summary>
-		protected RField r__count;
-		public virtual RField R_count
+		protected RSystem.RInt32 r__count;
+		public virtual RSystem.RInt32 R_count
 		{
 			get
 			{
@@ -66,8 +66,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Int32 _capacity
 		/// </summary>
-		protected RField r__capacity;
-		public virtual RField R_capacity
+		protected RSystem.RInt32 r__capacity;
+		public virtual RSystem.RInt32 R_capacity
 		{
 			get
 			{
@@ -100,8 +100,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// Int32 Count
 		/// </summary>
-		protected RProperty r_Count;
-		public virtual RProperty RCount
+		protected RSystem.RInt32 r_Count;
+		public virtual RSystem.RInt32 RCount
 		{
 			get
 			{

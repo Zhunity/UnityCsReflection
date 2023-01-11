@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
 		/// <summary>
 		/// System.IntPtr _ygConfig
 		/// </summary>
-		protected RField r__ygConfig;
-		public virtual RField R_ygConfig
+		protected RSystem.RIntPtr r__ygConfig;
+		public virtual RSystem.RIntPtr R_ygConfig
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
 		/// <summary>
 		/// IntPtr Handle
 		/// </summary>
-		protected RProperty r_Handle;
-		public virtual RProperty RHandle
+		protected RSystem.RIntPtr r_Handle;
+		public virtual RSystem.RIntPtr RHandle
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
 		/// <summary>
 		/// Boolean UseWebDefaults
 		/// </summary>
-		protected RProperty r_UseWebDefaults;
-		public virtual RProperty RUseWebDefaults
+		protected RSystem.RBoolean r_UseWebDefaults;
+		public virtual RSystem.RBoolean RUseWebDefaults
 		{
 			get
 			{
@@ -115,8 +115,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
 		/// <summary>
 		/// Single PointScaleFactor
 		/// </summary>
-		protected RProperty r_PointScaleFactor;
-		public virtual RProperty RPointScaleFactor
+		protected RSystem.RSingle r_PointScaleFactor;
+		public virtual RSystem.RSingle RPointScaleFactor
 		{
 			get
 			{

@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Single m_Weight
 		/// </summary>
-		protected RField r_m_Weight;
-		public virtual RField Rm_Weight
+		protected RSystem.RSingle r_m_Weight;
+		public virtual RSystem.RSingle Rm_Weight
 		{
 			get
 			{
@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Int32 m_BoneIndex
 		/// </summary>
-		protected RField r_m_BoneIndex;
-		public virtual RField Rm_BoneIndex
+		protected RSystem.RInt32 r_m_BoneIndex;
+		public virtual RSystem.RInt32 Rm_BoneIndex
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Single weight
 		/// </summary>
-		protected RProperty r_weight;
-		public virtual RProperty Rweight
+		protected RSystem.RSingle r_weight;
+		public virtual RSystem.RSingle Rweight
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 boneIndex
 		/// </summary>
-		protected RProperty r_boneIndex;
-		public virtual RProperty RboneIndex
+		protected RSystem.RInt32 r_boneIndex;
+		public virtual RSystem.RInt32 RboneIndex
 		{
 			get
 			{

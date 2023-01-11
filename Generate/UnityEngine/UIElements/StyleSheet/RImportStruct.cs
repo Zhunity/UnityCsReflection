@@ -32,8 +32,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.String[] mediaQueries
 		/// </summary>
-		protected RFieldArray<RField> r_mediaQueries;
-		public virtual RFieldArray<RField> RmediaQueries
+		protected RFieldArray<RSystem.RString> r_mediaQueries;
+		public virtual RFieldArray<RSystem.RString> RmediaQueries
 		{
 			get
 			{

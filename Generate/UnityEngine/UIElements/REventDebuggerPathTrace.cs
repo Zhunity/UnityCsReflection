@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Int64 duration
 		/// </summary>
-		protected RProperty r_duration;
-		public virtual RProperty Rduration
+		protected RSystem.RInt64 r_duration;
+		public virtual RSystem.RInt64 Rduration
 		{
 			get
 			{

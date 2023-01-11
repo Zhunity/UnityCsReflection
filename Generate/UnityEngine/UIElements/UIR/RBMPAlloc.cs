@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Int32 page
 		/// </summary>
-		protected RField r_page;
-		public virtual RField Rpage
+		protected RSystem.RInt32 r_page;
+		public virtual RSystem.RInt32 Rpage
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.UInt16 pageLine
 		/// </summary>
-		protected RField r_pageLine;
-		public virtual RField RpageLine
+		protected RSystem.RUInt16 r_pageLine;
+		public virtual RSystem.RUInt16 RpageLine
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Byte bitIndex
 		/// </summary>
-		protected RField r_bitIndex;
-		public virtual RField RbitIndex
+		protected RSystem.RByte r_bitIndex;
+		public virtual RSystem.RByte RbitIndex
 		{
 			get
 			{

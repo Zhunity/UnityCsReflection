@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Int32 runningAnimationCount
 		/// </summary>
-		protected RProperty r_runningAnimationCount;
-		public virtual RProperty RrunningAnimationCount
+		protected RSystem.RInt32 r_runningAnimationCount;
+		public virtual RSystem.RInt32 RrunningAnimationCount
 		{
 			get
 			{
@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Int32 completedAnimationCount
 		/// </summary>
-		protected RProperty r_completedAnimationCount;
-		public virtual RProperty RcompletedAnimationCount
+		protected RSystem.RInt32 r_completedAnimationCount;
+		public virtual RSystem.RInt32 RcompletedAnimationCount
 		{
 			get
 			{

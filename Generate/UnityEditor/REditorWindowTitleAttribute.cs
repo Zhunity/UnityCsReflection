@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.String <title>k__BackingField
 		/// </summary>
-		protected RField r___0__title__1__k__BackingField;
-		public virtual RField R__0__title__1__k__BackingField
+		protected RSystem.RString r___0__title__1__k__BackingField;
+		public virtual RSystem.RString R__0__title__1__k__BackingField
 		{
 			get
 			{
@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.String <icon>k__BackingField
 		/// </summary>
-		protected RField r___0__icon__1__k__BackingField;
-		public virtual RField R__0__icon__1__k__BackingField
+		protected RSystem.RString r___0__icon__1__k__BackingField;
+		public virtual RSystem.RString R__0__icon__1__k__BackingField
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Boolean <useTypeNameAsIconName>k__BackingField
 		/// </summary>
-		protected RField r___0__useTypeNameAsIconName__1__k__BackingField;
-		public virtual RField R__0__useTypeNameAsIconName__1__k__BackingField
+		protected RSystem.RBoolean r___0__useTypeNameAsIconName__1__k__BackingField;
+		public virtual RSystem.RBoolean R__0__useTypeNameAsIconName__1__k__BackingField
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.String title
 		/// </summary>
-		protected RProperty r_title;
-		public virtual RProperty Rtitle
+		protected RSystem.RString r_title;
+		public virtual RSystem.RString Rtitle
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.String icon
 		/// </summary>
-		protected RProperty r_icon;
-		public virtual RProperty Ricon
+		protected RSystem.RString r_icon;
+		public virtual RSystem.RString Ricon
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Boolean useTypeNameAsIconName
 		/// </summary>
-		protected RProperty r_useTypeNameAsIconName;
-		public virtual RProperty RuseTypeNameAsIconName
+		protected RSystem.RBoolean r_useTypeNameAsIconName;
+		public virtual RSystem.RBoolean RuseTypeNameAsIconName
 		{
 			get
 			{

@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.IntPtr vertices
 		/// </summary>
-		protected RField r_vertices;
-		public virtual RField Rvertices
+		protected RSystem.RIntPtr r_vertices;
+		public virtual RSystem.RIntPtr Rvertices
 		{
 			get
 			{
@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.IntPtr indices
 		/// </summary>
-		protected RField r_indices;
-		public virtual RField Rindices
+		protected RSystem.RIntPtr r_indices;
+		public virtual RSystem.RIntPtr Rindices
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int32 vertexCount
 		/// </summary>
-		protected RField r_vertexCount;
-		public virtual RField RvertexCount
+		protected RSystem.RInt32 r_vertexCount;
+		public virtual RSystem.RInt32 RvertexCount
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int32 indexCount
 		/// </summary>
-		protected RField r_indexCount;
-		public virtual RField RindexCount
+		protected RSystem.RInt32 r_indexCount;
+		public virtual RSystem.RInt32 RindexCount
 		{
 			get
 			{

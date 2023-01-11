@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// Boolean AreAccessRulesCanonical
 		/// </summary>
-		protected RProperty r_AreAccessRulesCanonical;
-		public virtual RProperty RAreAccessRulesCanonical
+		protected RSystem.RBoolean r_AreAccessRulesCanonical;
+		public virtual RSystem.RBoolean RAreAccessRulesCanonical
 		{
 			get
 			{
@@ -115,8 +115,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// Boolean AreAccessRulesProtected
 		/// </summary>
-		protected RProperty r_AreAccessRulesProtected;
-		public virtual RProperty RAreAccessRulesProtected
+		protected RSystem.RBoolean r_AreAccessRulesProtected;
+		public virtual RSystem.RBoolean RAreAccessRulesProtected
 		{
 			get
 			{
@@ -132,8 +132,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// Boolean AreAuditRulesCanonical
 		/// </summary>
-		protected RProperty r_AreAuditRulesCanonical;
-		public virtual RProperty RAreAuditRulesCanonical
+		protected RSystem.RBoolean r_AreAuditRulesCanonical;
+		public virtual RSystem.RBoolean RAreAuditRulesCanonical
 		{
 			get
 			{
@@ -149,8 +149,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// Boolean AreAuditRulesProtected
 		/// </summary>
-		protected RProperty r_AreAuditRulesProtected;
-		public virtual RProperty RAreAuditRulesProtected
+		protected RSystem.RBoolean r_AreAuditRulesProtected;
+		public virtual RSystem.RBoolean RAreAuditRulesProtected
 		{
 			get
 			{
@@ -183,8 +183,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// Boolean AccessRulesModified
 		/// </summary>
-		protected RProperty r_AccessRulesModified;
-		public virtual RProperty RAccessRulesModified
+		protected RSystem.RBoolean r_AccessRulesModified;
+		public virtual RSystem.RBoolean RAccessRulesModified
 		{
 			get
 			{
@@ -200,8 +200,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// Boolean AuditRulesModified
 		/// </summary>
-		protected RProperty r_AuditRulesModified;
-		public virtual RProperty RAuditRulesModified
+		protected RSystem.RBoolean r_AuditRulesModified;
+		public virtual RSystem.RBoolean RAuditRulesModified
 		{
 			get
 			{
@@ -217,8 +217,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// Boolean GroupModified
 		/// </summary>
-		protected RProperty r_GroupModified;
-		public virtual RProperty RGroupModified
+		protected RSystem.RBoolean r_GroupModified;
+		public virtual RSystem.RBoolean RGroupModified
 		{
 			get
 			{
@@ -234,8 +234,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// Boolean IsContainer
 		/// </summary>
-		protected RProperty r_IsContainer;
-		public virtual RProperty RIsContainer
+		protected RSystem.RBoolean r_IsContainer;
+		public virtual RSystem.RBoolean RIsContainer
 		{
 			get
 			{
@@ -251,8 +251,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// Boolean IsDS
 		/// </summary>
-		protected RProperty r_IsDS;
-		public virtual RProperty RIsDS
+		protected RSystem.RBoolean r_IsDS;
+		public virtual RSystem.RBoolean RIsDS
 		{
 			get
 			{
@@ -268,8 +268,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// Boolean OwnerModified
 		/// </summary>
-		protected RProperty r_OwnerModified;
-		public virtual RProperty ROwnerModified
+		protected RSystem.RBoolean r_OwnerModified;
+		public virtual RSystem.RBoolean ROwnerModified
 		{
 			get
 			{

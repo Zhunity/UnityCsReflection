@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Boolean isVertical
 		/// </summary>
-		protected RField r_isVertical;
-		public virtual RField RisVertical
+		protected RSystem.RBoolean r_isVertical;
+		public virtual RSystem.RBoolean RisVertical
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Boolean resetCoords
 		/// </summary>
-		protected RField r_resetCoords;
-		public virtual RField RresetCoords
+		protected RSystem.RBoolean r_resetCoords;
+		public virtual RSystem.RBoolean RresetCoords
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Single spacing
 		/// </summary>
-		protected RField r_spacing;
-		public virtual RField Rspacing
+		protected RSystem.RSingle r_spacing;
+		public virtual RSystem.RSingle Rspacing
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Boolean sameSize
 		/// </summary>
-		protected RField r_sameSize;
-		public virtual RField RsameSize
+		protected RSystem.RBoolean r_sameSize;
+		public virtual RSystem.RBoolean RsameSize
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Boolean isWindow
 		/// </summary>
-		protected RField r_isWindow;
-		public virtual RField RisWindow
+		protected RSystem.RBoolean r_isWindow;
+		public virtual RSystem.RBoolean RisWindow
 		{
 			get
 			{
@@ -115,8 +115,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Int32 windowID
 		/// </summary>
-		protected RField r_windowID;
-		public virtual RField RwindowID
+		protected RSystem.RInt32 r_windowID;
+		public virtual RSystem.RInt32 RwindowID
 		{
 			get
 			{
@@ -132,8 +132,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Int32 m_Cursor
 		/// </summary>
-		protected RField r_m_Cursor;
-		public virtual RField Rm_Cursor
+		protected RSystem.RInt32 r_m_Cursor;
+		public virtual RSystem.RInt32 Rm_Cursor
 		{
 			get
 			{
@@ -149,8 +149,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Int32 m_StretchableCountX
 		/// </summary>
-		protected RField r_m_StretchableCountX;
-		public virtual RField Rm_StretchableCountX
+		protected RSystem.RInt32 r_m_StretchableCountX;
+		public virtual RSystem.RInt32 Rm_StretchableCountX
 		{
 			get
 			{
@@ -166,8 +166,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Int32 m_StretchableCountY
 		/// </summary>
-		protected RField r_m_StretchableCountY;
-		public virtual RField Rm_StretchableCountY
+		protected RSystem.RInt32 r_m_StretchableCountY;
+		public virtual RSystem.RInt32 Rm_StretchableCountY
 		{
 			get
 			{
@@ -183,8 +183,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Boolean m_UserSpecifiedWidth
 		/// </summary>
-		protected RField r_m_UserSpecifiedWidth;
-		public virtual RField Rm_UserSpecifiedWidth
+		protected RSystem.RBoolean r_m_UserSpecifiedWidth;
+		public virtual RSystem.RBoolean Rm_UserSpecifiedWidth
 		{
 			get
 			{
@@ -200,8 +200,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Boolean m_UserSpecifiedHeight
 		/// </summary>
-		protected RField r_m_UserSpecifiedHeight;
-		public virtual RField Rm_UserSpecifiedHeight
+		protected RSystem.RBoolean r_m_UserSpecifiedHeight;
+		public virtual RSystem.RBoolean Rm_UserSpecifiedHeight
 		{
 			get
 			{
@@ -217,8 +217,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Single m_ChildMinWidth
 		/// </summary>
-		protected RField r_m_ChildMinWidth;
-		public virtual RField Rm_ChildMinWidth
+		protected RSystem.RSingle r_m_ChildMinWidth;
+		public virtual RSystem.RSingle Rm_ChildMinWidth
 		{
 			get
 			{
@@ -234,8 +234,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Single m_ChildMaxWidth
 		/// </summary>
-		protected RField r_m_ChildMaxWidth;
-		public virtual RField Rm_ChildMaxWidth
+		protected RSystem.RSingle r_m_ChildMaxWidth;
+		public virtual RSystem.RSingle Rm_ChildMaxWidth
 		{
 			get
 			{
@@ -251,8 +251,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Single m_ChildMinHeight
 		/// </summary>
-		protected RField r_m_ChildMinHeight;
-		public virtual RField Rm_ChildMinHeight
+		protected RSystem.RSingle r_m_ChildMinHeight;
+		public virtual RSystem.RSingle Rm_ChildMinHeight
 		{
 			get
 			{
@@ -268,8 +268,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Single m_ChildMaxHeight
 		/// </summary>
-		protected RField r_m_ChildMaxHeight;
-		public virtual RField Rm_ChildMaxHeight
+		protected RSystem.RSingle r_m_ChildMaxHeight;
+		public virtual RSystem.RSingle Rm_ChildMaxHeight
 		{
 			get
 			{
@@ -285,8 +285,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Int32 m_MarginLeft
 		/// </summary>
-		protected RField r_m_MarginLeft;
-		public virtual RField Rm_MarginLeft
+		protected RSystem.RInt32 r_m_MarginLeft;
+		public virtual RSystem.RInt32 Rm_MarginLeft
 		{
 			get
 			{
@@ -302,8 +302,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Int32 m_MarginRight
 		/// </summary>
-		protected RField r_m_MarginRight;
-		public virtual RField Rm_MarginRight
+		protected RSystem.RInt32 r_m_MarginRight;
+		public virtual RSystem.RInt32 Rm_MarginRight
 		{
 			get
 			{
@@ -319,8 +319,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Int32 m_MarginTop
 		/// </summary>
-		protected RField r_m_MarginTop;
-		public virtual RField Rm_MarginTop
+		protected RSystem.RInt32 r_m_MarginTop;
+		public virtual RSystem.RInt32 Rm_MarginTop
 		{
 			get
 			{
@@ -336,8 +336,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Int32 m_MarginBottom
 		/// </summary>
-		protected RField r_m_MarginBottom;
-		public virtual RField Rm_MarginBottom
+		protected RSystem.RInt32 r_m_MarginBottom;
+		public virtual RSystem.RInt32 Rm_MarginBottom
 		{
 			get
 			{
@@ -370,8 +370,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Single minWidth
 		/// </summary>
-		protected RField r_minWidth;
-		public virtual RField RminWidth
+		protected RSystem.RSingle r_minWidth;
+		public virtual RSystem.RSingle RminWidth
 		{
 			get
 			{
@@ -387,8 +387,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Single maxWidth
 		/// </summary>
-		protected RField r_maxWidth;
-		public virtual RField RmaxWidth
+		protected RSystem.RSingle r_maxWidth;
+		public virtual RSystem.RSingle RmaxWidth
 		{
 			get
 			{
@@ -404,8 +404,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Single minHeight
 		/// </summary>
-		protected RField r_minHeight;
-		public virtual RField RminHeight
+		protected RSystem.RSingle r_minHeight;
+		public virtual RSystem.RSingle RminHeight
 		{
 			get
 			{
@@ -421,8 +421,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Single maxHeight
 		/// </summary>
-		protected RField r_maxHeight;
-		public virtual RField RmaxHeight
+		protected RSystem.RSingle r_maxHeight;
+		public virtual RSystem.RSingle RmaxHeight
 		{
 			get
 			{
@@ -455,8 +455,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Int32 stretchWidth
 		/// </summary>
-		protected RField r_stretchWidth;
-		public virtual RField RstretchWidth
+		protected RSystem.RInt32 r_stretchWidth;
+		public virtual RSystem.RInt32 RstretchWidth
 		{
 			get
 			{
@@ -472,8 +472,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Int32 stretchHeight
 		/// </summary>
-		protected RField r_stretchHeight;
-		public virtual RField RstretchHeight
+		protected RSystem.RInt32 r_stretchHeight;
+		public virtual RSystem.RInt32 RstretchHeight
 		{
 			get
 			{
@@ -489,8 +489,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Boolean consideredForMargin
 		/// </summary>
-		protected RField r_consideredForMargin;
-		public virtual RField RconsideredForMargin
+		protected RSystem.RBoolean r_consideredForMargin;
+		public virtual RSystem.RBoolean RconsideredForMargin
 		{
 			get
 			{
@@ -506,8 +506,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 marginLeft
 		/// </summary>
-		protected RProperty r_marginLeft;
-		public virtual RProperty RmarginLeft
+		protected RSystem.RInt32 r_marginLeft;
+		public virtual RSystem.RInt32 RmarginLeft
 		{
 			get
 			{
@@ -523,8 +523,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 marginRight
 		/// </summary>
-		protected RProperty r_marginRight;
-		public virtual RProperty RmarginRight
+		protected RSystem.RInt32 r_marginRight;
+		public virtual RSystem.RInt32 RmarginRight
 		{
 			get
 			{
@@ -540,8 +540,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 marginTop
 		/// </summary>
-		protected RProperty r_marginTop;
-		public virtual RProperty RmarginTop
+		protected RSystem.RInt32 r_marginTop;
+		public virtual RSystem.RInt32 RmarginTop
 		{
 			get
 			{
@@ -557,8 +557,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 marginBottom
 		/// </summary>
-		protected RProperty r_marginBottom;
-		public virtual RProperty RmarginBottom
+		protected RSystem.RInt32 r_marginBottom;
+		public virtual RSystem.RInt32 RmarginBottom
 		{
 			get
 			{
@@ -591,8 +591,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 marginHorizontal
 		/// </summary>
-		protected RProperty r_marginHorizontal;
-		public virtual RProperty RmarginHorizontal
+		protected RSystem.RInt32 r_marginHorizontal;
+		public virtual RSystem.RInt32 RmarginHorizontal
 		{
 			get
 			{
@@ -608,8 +608,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 marginVertical
 		/// </summary>
-		protected RProperty r_marginVertical;
-		public virtual RProperty RmarginVertical
+		protected RSystem.RInt32 r_marginVertical;
+		public virtual RSystem.RInt32 RmarginVertical
 		{
 			get
 			{

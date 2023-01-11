@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// System.String ussClassName
 		/// </summary>
-		protected static RField r_ussClassName;
-		public static RField RussClassName
+		protected static RSystem.RString r_ussClassName;
+		public static RSystem.RString RussClassName
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// System.String k_UxmlPath
 		/// </summary>
-		protected static RField r_k_UxmlPath;
-		public static RField Rk_UxmlPath
+		protected static RSystem.RString r_k_UxmlPath;
+		public static RSystem.RString Rk_UxmlPath
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// System.String k_UxmlPathDropZone
 		/// </summary>
-		protected static RField r_k_UxmlPathDropZone;
-		public static RField Rk_UxmlPathDropZone
+		protected static RSystem.RString r_k_UxmlPathDropZone;
+		public static RSystem.RString Rk_UxmlPathDropZone
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// System.String k_StyleCommon
 		/// </summary>
-		protected static RField r_k_StyleCommon;
-		public static RField Rk_StyleCommon
+		protected static RSystem.RString r_k_StyleCommon;
+		public static RSystem.RString Rk_StyleCommon
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// System.String k_StyleLight
 		/// </summary>
-		protected static RField r_k_StyleLight;
-		public static RField Rk_StyleLight
+		protected static RSystem.RString r_k_StyleLight;
+		public static RSystem.RString Rk_StyleLight
 		{
 			get
 			{
@@ -115,8 +115,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// System.String k_StyleDark
 		/// </summary>
-		protected static RField r_k_StyleDark;
-		public static RField Rk_StyleDark
+		protected static RSystem.RString r_k_StyleDark;
+		public static RSystem.RString Rk_StyleDark
 		{
 			get
 			{
@@ -132,8 +132,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// System.Int32 k_ContainerCount
 		/// </summary>
-		protected static RField r_k_ContainerCount;
-		public static RField Rk_ContainerCount
+		protected static RSystem.RInt32 r_k_ContainerCount;
+		public static RSystem.RInt32 Rk_ContainerCount
 		{
 			get
 			{
@@ -149,8 +149,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// System.String k_FloatingContainer
 		/// </summary>
-		protected static RField r_k_FloatingContainer;
-		public static RField Rk_FloatingContainer
+		protected static RSystem.RString r_k_FloatingContainer;
+		public static RSystem.RString Rk_FloatingContainer
 		{
 			get
 			{
@@ -166,8 +166,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// System.String k_ToolbarZone
 		/// </summary>
-		protected static RField r_k_ToolbarZone;
-		public static RField Rk_ToolbarZone
+		protected static RSystem.RString r_k_ToolbarZone;
+		public static RSystem.RString Rk_ToolbarZone
 		{
 			get
 			{
@@ -183,8 +183,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// System.String k_ToolbarArea
 		/// </summary>
-		protected static RField r_k_ToolbarArea;
-		public static RField Rk_ToolbarArea
+		protected static RSystem.RString r_k_ToolbarArea;
+		public static RSystem.RString Rk_ToolbarArea
 		{
 			get
 			{
@@ -200,8 +200,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// System.String k_DropTargetClassName
 		/// </summary>
-		protected static RField r_k_DropTargetClassName;
-		public static RField Rk_DropTargetClassName
+		protected static RSystem.RString r_k_DropTargetClassName;
+		public static RSystem.RString Rk_DropTargetClassName
 		{
 			get
 			{
@@ -217,8 +217,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// System.String k_GhostClassName
 		/// </summary>
-		protected static RField r_k_GhostClassName;
-		public static RField Rk_GhostClassName
+		protected static RSystem.RString r_k_GhostClassName;
+		public static RSystem.RString Rk_GhostClassName
 		{
 			get
 			{
@@ -234,8 +234,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// System.String k_GhostAreaHovered
 		/// </summary>
-		protected static RField r_k_GhostAreaHovered;
-		public static RField Rk_GhostAreaHovered
+		protected static RSystem.RString r_k_GhostAreaHovered;
+		public static RSystem.RString Rk_GhostAreaHovered
 		{
 			get
 			{
@@ -251,8 +251,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// System.String k_DefaultContainer
 		/// </summary>
-		protected static RField r_k_DefaultContainer;
-		public static RField Rk_DefaultContainer
+		protected static RSystem.RString r_k_DefaultContainer;
+		public static RSystem.RString Rk_DefaultContainer
 		{
 			get
 			{
@@ -302,8 +302,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// System.String[] k_DockZoneContainerIDs
 		/// </summary>
-		protected static RFieldArray<RField> r_k_DockZoneContainerIDs;
-		public static RFieldArray<RField> Rk_DockZoneContainerIDs
+		protected static RFieldArray<RSystem.RString> r_k_DockZoneContainerIDs;
+		public static RFieldArray<RSystem.RString> Rk_DockZoneContainerIDs
 		{
 			get
 			{
@@ -353,8 +353,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// System.String m_LastAppliedPresetName
 		/// </summary>
-		protected RField r_m_LastAppliedPresetName;
-		public virtual RField Rm_LastAppliedPresetName
+		protected RSystem.RString r_m_LastAppliedPresetName;
+		public virtual RSystem.RString Rm_LastAppliedPresetName
 		{
 			get
 			{
@@ -625,8 +625,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// System.String lastAppliedPresetName
 		/// </summary>
-		protected RProperty r_lastAppliedPresetName;
-		public virtual RProperty RlastAppliedPresetName
+		protected RSystem.RString r_lastAppliedPresetName;
+		public virtual RSystem.RString RlastAppliedPresetName
 		{
 			get
 			{
@@ -846,8 +846,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// Boolean overlaysEnabled
 		/// </summary>
-		protected RProperty r_overlaysEnabled;
-		public virtual RProperty RoverlaysEnabled
+		protected RSystem.RBoolean r_overlaysEnabled;
+		public virtual RSystem.RBoolean RoverlaysEnabled
 		{
 			get
 			{
@@ -863,8 +863,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// Boolean menuVisible
 		/// </summary>
-		protected RProperty r_menuVisible;
-		public virtual RProperty RmenuVisible
+		protected RSystem.RBoolean r_menuVisible;
+		public virtual RSystem.RBoolean RmenuVisible
 		{
 			get
 			{

@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Boolean selectAllOnMouseUp
 		/// </summary>
-		protected RField r_selectAllOnMouseUp;
-		public virtual RField RselectAllOnMouseUp
+		protected RSystem.RBoolean r_selectAllOnMouseUp;
+		public virtual RSystem.RBoolean RselectAllOnMouseUp
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Boolean m_Dragged
 		/// </summary>
-		protected RField r_m_Dragged;
-		public virtual RField Rm_Dragged
+		protected RSystem.RBoolean r_m_Dragged;
+		public virtual RSystem.RBoolean Rm_Dragged
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Boolean m_IsClicking
 		/// </summary>
-		protected RField r_m_IsClicking;
-		public virtual RField Rm_IsClicking
+		protected RSystem.RBoolean r_m_IsClicking;
+		public virtual RSystem.RBoolean Rm_IsClicking
 		{
 			get
 			{
@@ -115,8 +115,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int32 k_DragThresholdSqr
 		/// </summary>
-		protected static RField r_k_DragThresholdSqr;
-		public static RField Rk_DragThresholdSqr
+		protected static RSystem.RInt32 r_k_DragThresholdSqr;
+		public static RSystem.RInt32 Rk_DragThresholdSqr
 		{
 			get
 			{
@@ -132,8 +132,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Boolean isClicking
 		/// </summary>
-		protected RProperty r_isClicking;
-		public virtual RProperty RisClicking
+		protected RSystem.RBoolean r_isClicking;
+		public virtual RSystem.RBoolean RisClicking
 		{
 			get
 			{
@@ -149,8 +149,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Int32 cursorIndex
 		/// </summary>
-		protected RProperty r_cursorIndex;
-		public virtual RProperty RcursorIndex
+		protected RSystem.RInt32 r_cursorIndex;
+		public virtual RSystem.RInt32 RcursorIndex
 		{
 			get
 			{
@@ -166,8 +166,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Int32 selectIndex
 		/// </summary>
-		protected RProperty r_selectIndex;
-		public virtual RProperty RselectIndex
+		protected RSystem.RInt32 r_selectIndex;
+		public virtual RSystem.RInt32 RselectIndex
 		{
 			get
 			{

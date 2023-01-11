@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Int32 m_currentCount
 		/// </summary>
-		protected RField r_m_currentCount;
-		public virtual RField Rm_currentCount
+		protected RSystem.RInt32 r_m_currentCount;
+		public virtual RSystem.RInt32 Rm_currentCount
 		{
 			get
 			{
@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Int32 m_maxCount
 		/// </summary>
-		protected RField r_m_maxCount;
-		public virtual RField Rm_maxCount
+		protected RSystem.RInt32 r_m_maxCount;
+		public virtual RSystem.RInt32 Rm_maxCount
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Int32 m_waitCount
 		/// </summary>
-		protected RField r_m_waitCount;
-		public virtual RField Rm_waitCount
+		protected RSystem.RInt32 r_m_waitCount;
+		public virtual RSystem.RInt32 Rm_waitCount
 		{
 			get
 			{
@@ -132,8 +132,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Threading.Tasks.Task`1[System.Boolean] s_trueTask
 		/// </summary>
-		protected static RSystem.RThreading.RTasks.RTask<RField> r_s_trueTask;
-		public static RSystem.RThreading.RTasks.RTask<RField> Rs_trueTask
+		protected static RSystem.RThreading.RTasks.RTask<RSystem.RBoolean> r_s_trueTask;
+		public static RSystem.RThreading.RTasks.RTask<RSystem.RBoolean> Rs_trueTask
 		{
 			get
 			{
@@ -149,8 +149,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Threading.Tasks.Task`1[System.Boolean] s_falseTask
 		/// </summary>
-		protected static RSystem.RThreading.RTasks.RTask<RField> r_s_falseTask;
-		public static RSystem.RThreading.RTasks.RTask<RField> Rs_falseTask
+		protected static RSystem.RThreading.RTasks.RTask<RSystem.RBoolean> r_s_falseTask;
+		public static RSystem.RThreading.RTasks.RTask<RSystem.RBoolean> Rs_falseTask
 		{
 			get
 			{
@@ -166,8 +166,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Int32 NO_MAXIMUM
 		/// </summary>
-		protected static RField r_NO_MAXIMUM;
-		public static RField RNO_MAXIMUM
+		protected static RSystem.RInt32 r_NO_MAXIMUM;
+		public static RSystem.RInt32 RNO_MAXIMUM
 		{
 			get
 			{
@@ -200,8 +200,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// Int32 CurrentCount
 		/// </summary>
-		protected RProperty r_CurrentCount;
-		public virtual RProperty RCurrentCount
+		protected RSystem.RInt32 r_CurrentCount;
+		public virtual RSystem.RInt32 RCurrentCount
 		{
 			get
 			{

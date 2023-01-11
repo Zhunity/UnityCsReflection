@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Int32 code_pos
 		/// </summary>
-		protected RField r_code_pos;
-		public virtual RField Rcode_pos
+		protected RSystem.RInt32 r_code_pos;
+		public virtual RSystem.RInt32 Rcode_pos
 		{
 			get
 			{

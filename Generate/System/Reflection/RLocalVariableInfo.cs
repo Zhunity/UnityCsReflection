@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Boolean is_pinned
 		/// </summary>
-		protected RField r_is_pinned;
-		public virtual RField Ris_pinned
+		protected RSystem.RBoolean r_is_pinned;
+		public virtual RSystem.RBoolean Ris_pinned
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.UInt16 position
 		/// </summary>
-		protected RField r_position;
-		public virtual RField Rposition
+		protected RSystem.RUInt16 r_position;
+		public virtual RSystem.RUInt16 Rposition
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// Boolean IsPinned
 		/// </summary>
-		protected RProperty r_IsPinned;
-		public virtual RProperty RIsPinned
+		protected RSystem.RBoolean r_IsPinned;
+		public virtual RSystem.RBoolean RIsPinned
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// Int32 LocalIndex
 		/// </summary>
-		protected RProperty r_LocalIndex;
-		public virtual RProperty RLocalIndex
+		protected RSystem.RInt32 r_LocalIndex;
+		public virtual RSystem.RInt32 RLocalIndex
 		{
 			get
 			{

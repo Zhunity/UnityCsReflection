@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Boolean isSelectable
 		/// </summary>
-		protected RProperty r_isSelectable;
-		public virtual RProperty RisSelectable
+		protected RSystem.RBoolean r_isSelectable;
+		public virtual RSystem.RBoolean RisSelectable
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Int32 cursorIndex
 		/// </summary>
-		protected RProperty r_cursorIndex;
-		public virtual RProperty RcursorIndex
+		protected RSystem.RInt32 r_cursorIndex;
+		public virtual RSystem.RInt32 RcursorIndex
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Boolean doubleClickSelectsWord
 		/// </summary>
-		protected RProperty r_doubleClickSelectsWord;
-		public virtual RProperty RdoubleClickSelectsWord
+		protected RSystem.RBoolean r_doubleClickSelectsWord;
+		public virtual RSystem.RBoolean RdoubleClickSelectsWord
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Int32 selectIndex
 		/// </summary>
-		protected RProperty r_selectIndex;
-		public virtual RProperty RselectIndex
+		protected RSystem.RInt32 r_selectIndex;
+		public virtual RSystem.RInt32 RselectIndex
 		{
 			get
 			{
@@ -115,8 +115,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Boolean tripleClickSelectsLine
 		/// </summary>
-		protected RProperty r_tripleClickSelectsLine;
-		public virtual RProperty RtripleClickSelectsLine
+		protected RSystem.RBoolean r_tripleClickSelectsLine;
+		public virtual RSystem.RBoolean RtripleClickSelectsLine
 		{
 			get
 			{
@@ -132,8 +132,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Boolean selectAllOnFocus
 		/// </summary>
-		protected RProperty r_selectAllOnFocus;
-		public virtual RProperty RselectAllOnFocus
+		protected RSystem.RBoolean r_selectAllOnFocus;
+		public virtual RSystem.RBoolean RselectAllOnFocus
 		{
 			get
 			{
@@ -149,8 +149,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Boolean selectAllOnMouseUp
 		/// </summary>
-		protected RProperty r_selectAllOnMouseUp;
-		public virtual RProperty RselectAllOnMouseUp
+		protected RSystem.RBoolean r_selectAllOnMouseUp;
+		public virtual RSystem.RBoolean RselectAllOnMouseUp
 		{
 			get
 			{
@@ -183,8 +183,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Single lineHeightAtCursorPosition
 		/// </summary>
-		protected RProperty r_lineHeightAtCursorPosition;
-		public virtual RProperty RlineHeightAtCursorPosition
+		protected RSystem.RSingle r_lineHeightAtCursorPosition;
+		public virtual RSystem.RSingle RlineHeightAtCursorPosition
 		{
 			get
 			{
@@ -200,8 +200,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Single cursorWidth
 		/// </summary>
-		protected RProperty r_cursorWidth;
-		public virtual RProperty RcursorWidth
+		protected RSystem.RSingle r_cursorWidth;
+		public virtual RSystem.RSingle RcursorWidth
 		{
 			get
 			{

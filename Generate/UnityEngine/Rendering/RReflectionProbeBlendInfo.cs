@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Single weight
 		/// </summary>
-		protected RField r_weight;
-		public virtual RField Rweight
+		protected RSystem.RSingle r_weight;
+		public virtual RSystem.RSingle Rweight
 		{
 			get
 			{

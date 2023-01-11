@@ -15,8 +15,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.String name
 		/// </summary>
-		protected RField r_name;
-		public virtual RField Rname
+		protected RSystem.RString r_name;
+		public virtual RSystem.RString Rname
 		{
 			get
 			{
@@ -32,8 +32,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int32 insertionPointId
 		/// </summary>
-		protected RField r_insertionPointId;
-		public virtual RField RinsertionPointId
+		protected RSystem.RInt32 r_insertionPointId;
+		public virtual RSystem.RInt32 RinsertionPointId
 		{
 			get
 			{

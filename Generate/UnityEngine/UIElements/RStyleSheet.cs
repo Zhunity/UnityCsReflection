@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Boolean m_ImportedWithErrors
 		/// </summary>
-		protected RField r_m_ImportedWithErrors;
-		public virtual RField Rm_ImportedWithErrors
+		protected RSystem.RBoolean r_m_ImportedWithErrors;
+		public virtual RSystem.RBoolean Rm_ImportedWithErrors
 		{
 			get
 			{
@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Boolean m_ImportedWithWarnings
 		/// </summary>
-		protected RField r_m_ImportedWithWarnings;
-		public virtual RField Rm_ImportedWithWarnings
+		protected RSystem.RBoolean r_m_ImportedWithWarnings;
+		public virtual RSystem.RBoolean Rm_ImportedWithWarnings
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Single[] floats
 		/// </summary>
-		protected RFieldArray<RField> r_floats;
-		public virtual RFieldArray<RField> Rfloats
+		protected RFieldArray<RSystem.RSingle> r_floats;
+		public virtual RFieldArray<RSystem.RSingle> Rfloats
 		{
 			get
 			{
@@ -132,8 +132,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.String[] strings
 		/// </summary>
-		protected RFieldArray<RField> r_strings;
-		public virtual RFieldArray<RField> Rstrings
+		protected RFieldArray<RSystem.RString> r_strings;
+		public virtual RFieldArray<RSystem.RString> Rstrings
 		{
 			get
 			{
@@ -200,8 +200,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int32 m_ContentHash
 		/// </summary>
-		protected RField r_m_ContentHash;
-		public virtual RField Rm_ContentHash
+		protected RSystem.RInt32 r_m_ContentHash;
+		public virtual RSystem.RInt32 Rm_ContentHash
 		{
 			get
 			{
@@ -234,8 +234,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Collections.Generic.Dictionary`2[System.String,UnityEngine.UIElements.StyleComplexSelector] orderedNameSelectors
 		/// </summary>
-		protected RSystem.RCollections.RGeneric.RDictionary<RField, RUnityEngine.RUIElements.RStyleComplexSelector> r_orderedNameSelectors;
-		public virtual RSystem.RCollections.RGeneric.RDictionary<RField, RUnityEngine.RUIElements.RStyleComplexSelector> RorderedNameSelectors
+		protected RSystem.RCollections.RGeneric.RDictionary<RSystem.RString, RUnityEngine.RUIElements.RStyleComplexSelector> r_orderedNameSelectors;
+		public virtual RSystem.RCollections.RGeneric.RDictionary<RSystem.RString, RUnityEngine.RUIElements.RStyleComplexSelector> RorderedNameSelectors
 		{
 			get
 			{
@@ -251,8 +251,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Collections.Generic.Dictionary`2[System.String,UnityEngine.UIElements.StyleComplexSelector] orderedTypeSelectors
 		/// </summary>
-		protected RSystem.RCollections.RGeneric.RDictionary<RField, RUnityEngine.RUIElements.RStyleComplexSelector> r_orderedTypeSelectors;
-		public virtual RSystem.RCollections.RGeneric.RDictionary<RField, RUnityEngine.RUIElements.RStyleComplexSelector> RorderedTypeSelectors
+		protected RSystem.RCollections.RGeneric.RDictionary<RSystem.RString, RUnityEngine.RUIElements.RStyleComplexSelector> r_orderedTypeSelectors;
+		public virtual RSystem.RCollections.RGeneric.RDictionary<RSystem.RString, RUnityEngine.RUIElements.RStyleComplexSelector> RorderedTypeSelectors
 		{
 			get
 			{
@@ -268,8 +268,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Collections.Generic.Dictionary`2[System.String,UnityEngine.UIElements.StyleComplexSelector] orderedClassSelectors
 		/// </summary>
-		protected RSystem.RCollections.RGeneric.RDictionary<RField, RUnityEngine.RUIElements.RStyleComplexSelector> r_orderedClassSelectors;
-		public virtual RSystem.RCollections.RGeneric.RDictionary<RField, RUnityEngine.RUIElements.RStyleComplexSelector> RorderedClassSelectors
+		protected RSystem.RCollections.RGeneric.RDictionary<RSystem.RString, RUnityEngine.RUIElements.RStyleComplexSelector> r_orderedClassSelectors;
+		public virtual RSystem.RCollections.RGeneric.RDictionary<RSystem.RString, RUnityEngine.RUIElements.RStyleComplexSelector> RorderedClassSelectors
 		{
 			get
 			{
@@ -285,8 +285,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Boolean m_IsDefaultStyleSheet
 		/// </summary>
-		protected RField r_m_IsDefaultStyleSheet;
-		public virtual RField Rm_IsDefaultStyleSheet
+		protected RSystem.RBoolean r_m_IsDefaultStyleSheet;
+		public virtual RSystem.RBoolean Rm_IsDefaultStyleSheet
 		{
 			get
 			{
@@ -302,8 +302,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.String kCustomPropertyMarker
 		/// </summary>
-		protected static RField r_kCustomPropertyMarker;
-		public static RField RkCustomPropertyMarker
+		protected static RSystem.RString r_kCustomPropertyMarker;
+		public static RSystem.RString RkCustomPropertyMarker
 		{
 			get
 			{
@@ -319,8 +319,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Boolean importedWithErrors
 		/// </summary>
-		protected RProperty r_importedWithErrors;
-		public virtual RProperty RimportedWithErrors
+		protected RSystem.RBoolean r_importedWithErrors;
+		public virtual RSystem.RBoolean RimportedWithErrors
 		{
 			get
 			{
@@ -336,8 +336,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Boolean importedWithWarnings
 		/// </summary>
-		protected RProperty r_importedWithWarnings;
-		public virtual RProperty RimportedWithWarnings
+		protected RSystem.RBoolean r_importedWithWarnings;
+		public virtual RSystem.RBoolean RimportedWithWarnings
 		{
 			get
 			{
@@ -404,8 +404,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Int32 contentHash
 		/// </summary>
-		protected RProperty r_contentHash;
-		public virtual RProperty RcontentHash
+		protected RSystem.RInt32 r_contentHash;
+		public virtual RSystem.RInt32 RcontentHash
 		{
 			get
 			{
@@ -421,8 +421,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Boolean isDefaultStyleSheet
 		/// </summary>
-		protected RProperty r_isDefaultStyleSheet;
-		public virtual RProperty RisDefaultStyleSheet
+		protected RSystem.RBoolean r_isDefaultStyleSheet;
+		public virtual RSystem.RBoolean RisDefaultStyleSheet
 		{
 			get
 			{
@@ -438,8 +438,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.String name
 		/// </summary>
-		protected RProperty r_name;
-		public virtual RProperty Rname
+		protected RSystem.RString r_name;
+		public virtual RSystem.RString Rname
 		{
 			get
 			{

@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Int32 count
 		/// </summary>
-		protected RField r_count;
-		public virtual RField Rcount
+		protected RSystem.RInt32 r_count;
+		public virtual RSystem.RInt32 Rcount
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Int32 arrayGrow
 		/// </summary>
-		protected static RField r_arrayGrow;
-		public static RField RarrayGrow
+		protected static RSystem.RInt32 r_arrayGrow;
+		public static RSystem.RInt32 RarrayGrow
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// Int32 StartLine
 		/// </summary>
-		protected RProperty r_StartLine;
-		public virtual RProperty RStartLine
+		protected RSystem.RInt32 r_StartLine;
+		public virtual RSystem.RInt32 RStartLine
 		{
 			get
 			{
@@ -115,8 +115,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// Int32 EndLine
 		/// </summary>
-		protected RProperty r_EndLine;
-		public virtual RProperty REndLine
+		protected RSystem.RInt32 r_EndLine;
+		public virtual RSystem.RInt32 REndLine
 		{
 			get
 			{
@@ -132,8 +132,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// Int32 StartColumn
 		/// </summary>
-		protected RProperty r_StartColumn;
-		public virtual RProperty RStartColumn
+		protected RSystem.RInt32 r_StartColumn;
+		public virtual RSystem.RInt32 RStartColumn
 		{
 			get
 			{
@@ -149,8 +149,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// Int32 EndColumn
 		/// </summary>
-		protected RProperty r_EndColumn;
-		public virtual RProperty REndColumn
+		protected RSystem.RInt32 r_EndColumn;
+		public virtual RSystem.RInt32 REndColumn
 		{
 			get
 			{

@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 		/// <summary>
 		/// System.UInt32 instanceMask
 		/// </summary>
-		protected RField r_instanceMask;
-		public virtual RField RinstanceMask
+		protected RSystem.RUInt32 r_instanceMask;
+		public virtual RSystem.RUInt32 RinstanceMask
 		{
 			get
 			{
@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 		/// <summary>
 		/// System.Int32 layerMask
 		/// </summary>
-		protected RField r_layerMask;
-		public virtual RField RlayerMask
+		protected RSystem.RInt32 r_layerMask;
+		public virtual RSystem.RInt32 RlayerMask
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 		/// <summary>
 		/// System.Int32 shadowCastingModeMask
 		/// </summary>
-		protected RField r_shadowCastingModeMask;
-		public virtual RField RshadowCastingModeMask
+		protected RSystem.RInt32 r_shadowCastingModeMask;
+		public virtual RSystem.RInt32 RshadowCastingModeMask
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 		/// <summary>
 		/// System.Boolean allowOpaqueMaterials
 		/// </summary>
-		protected RField r_allowOpaqueMaterials;
-		public virtual RField RallowOpaqueMaterials
+		protected RSystem.RBoolean r_allowOpaqueMaterials;
+		public virtual RSystem.RBoolean RallowOpaqueMaterials
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 		/// <summary>
 		/// System.Boolean allowTransparentMaterials
 		/// </summary>
-		protected RField r_allowTransparentMaterials;
-		public virtual RField RallowTransparentMaterials
+		protected RSystem.RBoolean r_allowTransparentMaterials;
+		public virtual RSystem.RBoolean RallowTransparentMaterials
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 		/// <summary>
 		/// System.Boolean allowAlphaTestedMaterials
 		/// </summary>
-		protected RField r_allowAlphaTestedMaterials;
-		public virtual RField RallowAlphaTestedMaterials
+		protected RSystem.RBoolean r_allowAlphaTestedMaterials;
+		public virtual RSystem.RBoolean RallowAlphaTestedMaterials
 		{
 			get
 			{

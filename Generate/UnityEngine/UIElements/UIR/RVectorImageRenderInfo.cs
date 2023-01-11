@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Int32 useCount
 		/// </summary>
-		protected RField r_useCount;
-		public virtual RField RuseCount
+		protected RSystem.RInt32 r_useCount;
+		public virtual RSystem.RInt32 RuseCount
 		{
 			get
 			{

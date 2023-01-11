@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Int32 label
 		/// </summary>
-		protected RField r_label;
-		public virtual RField Rlabel
+		protected RSystem.RInt32 r_label;
+		public virtual RSystem.RInt32 Rlabel
 		{
 			get
 			{

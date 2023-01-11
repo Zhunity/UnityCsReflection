@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPermissions
 		/// <summary>
 		/// System.Byte[] pubkey
 		/// </summary>
-		protected RFieldArray<RField> r_pubkey;
-		public virtual RFieldArray<RField> Rpubkey
+		protected RFieldArray<RSystem.RByte> r_pubkey;
+		public virtual RFieldArray<RSystem.RByte> Rpubkey
 		{
 			get
 			{

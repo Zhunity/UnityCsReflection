@@ -166,8 +166,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int32 s_CurrentRuntimePanelCounter
 		/// </summary>
-		protected static RField r_s_CurrentRuntimePanelCounter;
-		public static RField Rs_CurrentRuntimePanelCounter
+		protected static RSystem.RInt32 r_s_CurrentRuntimePanelCounter;
+		public static RSystem.RInt32 Rs_CurrentRuntimePanelCounter
 		{
 			get
 			{
@@ -183,8 +183,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int32 m_RuntimePanelCreationIndex
 		/// </summary>
-		protected RField r_m_RuntimePanelCreationIndex;
-		public virtual RField Rm_RuntimePanelCreationIndex
+		protected RSystem.RInt32 r_m_RuntimePanelCreationIndex;
+		public virtual RSystem.RInt32 Rm_RuntimePanelCreationIndex
 		{
 			get
 			{
@@ -200,8 +200,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Single m_SortingPriority
 		/// </summary>
-		protected RField r_m_SortingPriority;
-		public virtual RField Rm_SortingPriority
+		protected RSystem.RSingle r_m_SortingPriority;
+		public virtual RSystem.RSingle Rm_SortingPriority
 		{
 			get
 			{
@@ -217,8 +217,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int32 resolvedSortingIndex
 		/// </summary>
-		protected RField r_resolvedSortingIndex;
-		public virtual RField RresolvedSortingIndex
+		protected RSystem.RInt32 r_resolvedSortingIndex;
+		public virtual RSystem.RInt32 RresolvedSortingIndex
 		{
 			get
 			{
@@ -251,8 +251,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Boolean m_DrawToCameras
 		/// </summary>
-		protected RField r_m_DrawToCameras;
-		public virtual RField Rm_DrawToCameras
+		protected RSystem.RBoolean r_m_DrawToCameras;
+		public virtual RSystem.RBoolean Rm_DrawToCameras
 		{
 			get
 			{
@@ -302,8 +302,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int32 <targetDisplay>k__BackingField
 		/// </summary>
-		protected RField r___0__targetDisplay__1__k__BackingField;
-		public virtual RField R__0__targetDisplay__1__k__BackingField
+		protected RSystem.RInt32 r___0__targetDisplay__1__k__BackingField;
+		public virtual RSystem.RInt32 R__0__targetDisplay__1__k__BackingField
 		{
 			get
 			{
@@ -404,8 +404,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Single sortingPriority
 		/// </summary>
-		protected RProperty r_sortingPriority;
-		public virtual RProperty RsortingPriority
+		protected RSystem.RSingle r_sortingPriority;
+		public virtual RSystem.RSingle RsortingPriority
 		{
 			get
 			{
@@ -438,8 +438,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Boolean drawToCameras
 		/// </summary>
-		protected RProperty r_drawToCameras;
-		public virtual RProperty RdrawToCameras
+		protected RSystem.RBoolean r_drawToCameras;
+		public virtual RSystem.RBoolean RdrawToCameras
 		{
 			get
 			{
@@ -455,8 +455,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Int32 targetDisplay
 		/// </summary>
-		protected RProperty r_targetDisplay;
-		public virtual RProperty RtargetDisplay
+		protected RSystem.RInt32 r_targetDisplay;
+		public virtual RSystem.RInt32 RtargetDisplay
 		{
 			get
 			{
@@ -472,8 +472,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Int32 screenRenderingWidth
 		/// </summary>
-		protected RProperty r_screenRenderingWidth;
-		public virtual RProperty RscreenRenderingWidth
+		protected RSystem.RInt32 r_screenRenderingWidth;
+		public virtual RSystem.RInt32 RscreenRenderingWidth
 		{
 			get
 			{
@@ -489,8 +489,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Int32 screenRenderingHeight
 		/// </summary>
-		protected RProperty r_screenRenderingHeight;
-		public virtual RProperty RscreenRenderingHeight
+		protected RSystem.RInt32 r_screenRenderingHeight;
+		public virtual RSystem.RInt32 RscreenRenderingHeight
 		{
 			get
 			{
@@ -727,8 +727,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.String name
 		/// </summary>
-		protected RProperty r_name;
-		public virtual RProperty Rname
+		protected RSystem.RString r_name;
+		public virtual RSystem.RString Rname
 		{
 			get
 			{
@@ -744,8 +744,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Int32 IMGUIContainersCount
 		/// </summary>
-		protected RProperty r_IMGUIContainersCount;
-		public virtual RProperty RIMGUIContainersCount
+		protected RSystem.RInt32 r_IMGUIContainersCount;
+		public virtual RSystem.RInt32 RIMGUIContainersCount
 		{
 			get
 			{
@@ -778,8 +778,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UInt32 version
 		/// </summary>
-		protected RProperty r_version;
-		public virtual RProperty Rversion
+		protected RSystem.RUInt32 r_version;
+		public virtual RSystem.RUInt32 Rversion
 		{
 			get
 			{
@@ -795,8 +795,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UInt32 repaintVersion
 		/// </summary>
-		protected RProperty r_repaintVersion;
-		public virtual RProperty RrepaintVersion
+		protected RSystem.RUInt32 r_repaintVersion;
+		public virtual RSystem.RUInt32 RrepaintVersion
 		{
 			get
 			{
@@ -812,8 +812,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UInt32 hierarchyVersion
 		/// </summary>
-		protected RProperty r_hierarchyVersion;
-		public virtual RProperty RhierarchyVersion
+		protected RSystem.RUInt32 r_hierarchyVersion;
+		public virtual RSystem.RUInt32 RhierarchyVersion
 		{
 			get
 			{
@@ -880,8 +880,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Boolean enableAssetReload
 		/// </summary>
-		protected RProperty r_enableAssetReload;
-		public virtual RProperty RenableAssetReload
+		protected RSystem.RBoolean r_enableAssetReload;
+		public virtual RSystem.RBoolean RenableAssetReload
 		{
 			get
 			{
@@ -897,8 +897,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Single scale
 		/// </summary>
-		protected RProperty r_scale;
-		public virtual RProperty Rscale
+		protected RSystem.RSingle r_scale;
+		public virtual RSystem.RSingle Rscale
 		{
 			get
 			{
@@ -914,8 +914,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Single pixelsPerPoint
 		/// </summary>
-		protected RProperty r_pixelsPerPoint;
-		public virtual RProperty RpixelsPerPoint
+		protected RSystem.RSingle r_pixelsPerPoint;
+		public virtual RSystem.RSingle RpixelsPerPoint
 		{
 			get
 			{
@@ -931,8 +931,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Single scaledPixelsPerPoint
 		/// </summary>
-		protected RProperty r_scaledPixelsPerPoint;
-		public virtual RProperty RscaledPixelsPerPoint
+		protected RSystem.RSingle r_scaledPixelsPerPoint;
+		public virtual RSystem.RSingle RscaledPixelsPerPoint
 		{
 			get
 			{
@@ -948,8 +948,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Single referenceSpritePixelsPerUnit
 		/// </summary>
-		protected RProperty r_referenceSpritePixelsPerUnit;
-		public virtual RProperty RreferenceSpritePixelsPerUnit
+		protected RSystem.RSingle r_referenceSpritePixelsPerUnit;
+		public virtual RSystem.RSingle RreferenceSpritePixelsPerUnit
 		{
 			get
 			{
@@ -999,8 +999,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Boolean duringLayoutPhase
 		/// </summary>
-		protected RProperty r_duringLayoutPhase;
-		public virtual RProperty RduringLayoutPhase
+		protected RSystem.RBoolean r_duringLayoutPhase;
+		public virtual RSystem.RBoolean RduringLayoutPhase
 		{
 			get
 			{
@@ -1016,8 +1016,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Boolean isDirty
 		/// </summary>
-		protected RProperty r_isDirty;
-		public virtual RProperty RisDirty
+		protected RSystem.RBoolean r_isDirty;
+		public virtual RSystem.RBoolean RisDirty
 		{
 			get
 			{
@@ -1084,8 +1084,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Boolean disposed
 		/// </summary>
-		protected RProperty r_disposed;
-		public virtual RProperty Rdisposed
+		protected RSystem.RBoolean r_disposed;
+		public virtual RSystem.RBoolean Rdisposed
 		{
 			get
 			{

@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Boolean closing
 		/// </summary>
-		protected RField r_closing;
-		public virtual RField Rclosing
+		protected RSystem.RBoolean r_closing;
+		public virtual RSystem.RBoolean Rclosing
 		{
 			get
 			{
@@ -132,8 +132,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Int32 indexOffset
 		/// </summary>
-		protected RField r_indexOffset;
-		public virtual RField RindexOffset
+		protected RSystem.RInt32 r_indexOffset;
+		public virtual RSystem.RInt32 RindexOffset
 		{
 			get
 			{
@@ -149,8 +149,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Int32 indexCount
 		/// </summary>
-		protected RField r_indexCount;
-		public virtual RField RindexCount
+		protected RSystem.RInt32 r_indexCount;
+		public virtual RSystem.RInt32 RindexCount
 		{
 			get
 			{
@@ -183,8 +183,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Int32 k_ID_MainTex
 		/// </summary>
-		protected static RField r_k_ID_MainTex;
-		public static RField Rk_ID_MainTex
+		protected static RSystem.RInt32 r_k_ID_MainTex;
+		public static RSystem.RInt32 Rk_ID_MainTex
 		{
 			get
 			{

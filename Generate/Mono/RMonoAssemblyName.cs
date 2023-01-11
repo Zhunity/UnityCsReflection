@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RMono
 		/// <summary>
 		/// System.Int32 MONO_PUBLIC_KEY_TOKEN_LENGTH
 		/// </summary>
-		protected static RField r_MONO_PUBLIC_KEY_TOKEN_LENGTH;
-		public static RField RMONO_PUBLIC_KEY_TOKEN_LENGTH
+		protected static RSystem.RInt32 r_MONO_PUBLIC_KEY_TOKEN_LENGTH;
+		public static RSystem.RInt32 RMONO_PUBLIC_KEY_TOKEN_LENGTH
 		{
 			get
 			{
@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RMono
 		/// <summary>
 		/// System.IntPtr name
 		/// </summary>
-		protected RField r_name;
-		public virtual RField Rname
+		protected RSystem.RIntPtr r_name;
+		public virtual RSystem.RIntPtr Rname
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RMono
 		/// <summary>
 		/// System.IntPtr culture
 		/// </summary>
-		protected RField r_culture;
-		public virtual RField Rculture
+		protected RSystem.RIntPtr r_culture;
+		public virtual RSystem.RIntPtr Rculture
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RMono
 		/// <summary>
 		/// System.IntPtr hash_value
 		/// </summary>
-		protected RField r_hash_value;
-		public virtual RField Rhash_value
+		protected RSystem.RIntPtr r_hash_value;
+		public virtual RSystem.RIntPtr Rhash_value
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RMono
 		/// <summary>
 		/// System.IntPtr public_key
 		/// </summary>
-		protected RField r_public_key;
-		public virtual RField Rpublic_key
+		protected RSystem.RIntPtr r_public_key;
+		public virtual RSystem.RIntPtr Rpublic_key
 		{
 			get
 			{
@@ -115,8 +115,8 @@ namespace SMFrame.Editor.Refleaction.RMono
 		/// <summary>
 		/// System.UInt32 hash_alg
 		/// </summary>
-		protected RField r_hash_alg;
-		public virtual RField Rhash_alg
+		protected RSystem.RUInt32 r_hash_alg;
+		public virtual RSystem.RUInt32 Rhash_alg
 		{
 			get
 			{
@@ -132,8 +132,8 @@ namespace SMFrame.Editor.Refleaction.RMono
 		/// <summary>
 		/// System.UInt32 hash_len
 		/// </summary>
-		protected RField r_hash_len;
-		public virtual RField Rhash_len
+		protected RSystem.RUInt32 r_hash_len;
+		public virtual RSystem.RUInt32 Rhash_len
 		{
 			get
 			{
@@ -149,8 +149,8 @@ namespace SMFrame.Editor.Refleaction.RMono
 		/// <summary>
 		/// System.UInt32 flags
 		/// </summary>
-		protected RField r_flags;
-		public virtual RField Rflags
+		protected RSystem.RUInt32 r_flags;
+		public virtual RSystem.RUInt32 Rflags
 		{
 			get
 			{
@@ -166,8 +166,8 @@ namespace SMFrame.Editor.Refleaction.RMono
 		/// <summary>
 		/// System.UInt16 major
 		/// </summary>
-		protected RField r_major;
-		public virtual RField Rmajor
+		protected RSystem.RUInt16 r_major;
+		public virtual RSystem.RUInt16 Rmajor
 		{
 			get
 			{
@@ -183,8 +183,8 @@ namespace SMFrame.Editor.Refleaction.RMono
 		/// <summary>
 		/// System.UInt16 minor
 		/// </summary>
-		protected RField r_minor;
-		public virtual RField Rminor
+		protected RSystem.RUInt16 r_minor;
+		public virtual RSystem.RUInt16 Rminor
 		{
 			get
 			{
@@ -200,8 +200,8 @@ namespace SMFrame.Editor.Refleaction.RMono
 		/// <summary>
 		/// System.UInt16 build
 		/// </summary>
-		protected RField r_build;
-		public virtual RField Rbuild
+		protected RSystem.RUInt16 r_build;
+		public virtual RSystem.RUInt16 Rbuild
 		{
 			get
 			{
@@ -217,8 +217,8 @@ namespace SMFrame.Editor.Refleaction.RMono
 		/// <summary>
 		/// System.UInt16 revision
 		/// </summary>
-		protected RField r_revision;
-		public virtual RField Rrevision
+		protected RSystem.RUInt16 r_revision;
+		public virtual RSystem.RUInt16 Rrevision
 		{
 			get
 			{
@@ -234,8 +234,8 @@ namespace SMFrame.Editor.Refleaction.RMono
 		/// <summary>
 		/// System.UInt16 arch
 		/// </summary>
-		protected RField r_arch;
-		public virtual RField Rarch
+		protected RSystem.RUInt16 r_arch;
+		public virtual RSystem.RUInt16 Rarch
 		{
 			get
 			{

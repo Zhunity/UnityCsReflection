@@ -15,8 +15,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.UInt32 uflags
 		/// </summary>
-		protected RField r_uflags;
-		public virtual RField Ruflags
+		protected RSystem.RUInt32 r_uflags;
+		public virtual RSystem.RUInt32 Ruflags
 		{
 			get
 			{
@@ -32,8 +32,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.UInt32 uhi
 		/// </summary>
-		protected RField r_uhi;
-		public virtual RField Ruhi
+		protected RSystem.RUInt32 r_uhi;
+		public virtual RSystem.RUInt32 Ruhi
 		{
 			get
 			{
@@ -49,8 +49,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.UInt32 ulo
 		/// </summary>
-		protected RField r_ulo;
-		public virtual RField Rulo
+		protected RSystem.RUInt32 r_ulo;
+		public virtual RSystem.RUInt32 Rulo
 		{
 			get
 			{
@@ -66,8 +66,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.UInt32 umid
 		/// </summary>
-		protected RField r_umid;
-		public virtual RField Rumid
+		protected RSystem.RUInt32 r_umid;
+		public virtual RSystem.RUInt32 Rumid
 		{
 			get
 			{
@@ -83,8 +83,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.UInt64 ulomidLE
 		/// </summary>
-		protected RField r_ulomidLE;
-		public virtual RField RulomidLE
+		protected RSystem.RUInt64 r_ulomidLE;
+		public virtual RSystem.RUInt64 RulomidLE
 		{
 			get
 			{
@@ -100,8 +100,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.UInt32 SignMask
 		/// </summary>
-		protected static RField r_SignMask;
-		public static RField RSignMask
+		protected static RSystem.RUInt32 r_SignMask;
+		public static RSystem.RUInt32 RSignMask
 		{
 			get
 			{
@@ -117,8 +117,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.UInt32 ScaleMask
 		/// </summary>
-		protected static RField r_ScaleMask;
-		public static RField RScaleMask
+		protected static RSystem.RUInt32 r_ScaleMask;
+		public static RSystem.RUInt32 RScaleMask
 		{
 			get
 			{
@@ -134,8 +134,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Int32 DEC_SCALE_MAX
 		/// </summary>
-		protected static RField r_DEC_SCALE_MAX;
-		public static RField RDEC_SCALE_MAX
+		protected static RSystem.RInt32 r_DEC_SCALE_MAX;
+		public static RSystem.RInt32 RDEC_SCALE_MAX
 		{
 			get
 			{
@@ -151,8 +151,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.UInt32 TenToPowerNine
 		/// </summary>
-		protected static RField r_TenToPowerNine;
-		public static RField RTenToPowerNine
+		protected static RSystem.RUInt32 r_TenToPowerNine;
+		public static RSystem.RUInt32 RTenToPowerNine
 		{
 			get
 			{
@@ -168,8 +168,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.UInt64 TenToPowerEighteen
 		/// </summary>
-		protected static RField r_TenToPowerEighteen;
-		public static RField RTenToPowerEighteen
+		protected static RSystem.RUInt64 r_TenToPowerEighteen;
+		public static RSystem.RUInt64 RTenToPowerEighteen
 		{
 			get
 			{
@@ -185,8 +185,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Int32 MaxInt32Scale
 		/// </summary>
-		protected static RField r_MaxInt32Scale;
-		public static RField RMaxInt32Scale
+		protected static RSystem.RInt32 r_MaxInt32Scale;
+		public static RSystem.RInt32 RMaxInt32Scale
 		{
 			get
 			{
@@ -202,8 +202,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Int32 MaxInt64Scale
 		/// </summary>
-		protected static RField r_MaxInt64Scale;
-		public static RField RMaxInt64Scale
+		protected static RSystem.RInt32 r_MaxInt64Scale;
+		public static RSystem.RInt32 RMaxInt64Scale
 		{
 			get
 			{
@@ -219,8 +219,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.UInt32[] s_powers10
 		/// </summary>
-		protected static RFieldArray<RField> r_s_powers10;
-		public static RFieldArray<RField> Rs_powers10
+		protected static RFieldArray<RSystem.RUInt32> r_s_powers10;
+		public static RFieldArray<RSystem.RUInt32> Rs_powers10
 		{
 			get
 			{
@@ -236,8 +236,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.UInt64[] s_ulongPowers10
 		/// </summary>
-		protected static RFieldArray<RField> r_s_ulongPowers10;
-		public static RFieldArray<RField> Rs_ulongPowers10
+		protected static RFieldArray<RSystem.RUInt64> r_s_ulongPowers10;
+		public static RFieldArray<RSystem.RUInt64> Rs_ulongPowers10
 		{
 			get
 			{
@@ -253,8 +253,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Double[] s_doublePowers10
 		/// </summary>
-		protected static RFieldArray<RField> r_s_doublePowers10;
-		public static RFieldArray<RField> Rs_doublePowers10
+		protected static RFieldArray<RSystem.RDouble> r_s_doublePowers10;
+		public static RFieldArray<RSystem.RDouble> Rs_doublePowers10
 		{
 			get
 			{
@@ -287,8 +287,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// UInt32 High
 		/// </summary>
-		protected RProperty r_High;
-		public virtual RProperty RHigh
+		protected RSystem.RUInt32 r_High;
+		public virtual RSystem.RUInt32 RHigh
 		{
 			get
 			{
@@ -304,8 +304,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// UInt32 Low
 		/// </summary>
-		protected RProperty r_Low;
-		public virtual RProperty RLow
+		protected RSystem.RUInt32 r_Low;
+		public virtual RSystem.RUInt32 RLow
 		{
 			get
 			{
@@ -321,8 +321,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// UInt32 Mid
 		/// </summary>
-		protected RProperty r_Mid;
-		public virtual RProperty RMid
+		protected RSystem.RUInt32 r_Mid;
+		public virtual RSystem.RUInt32 RMid
 		{
 			get
 			{
@@ -338,8 +338,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// Boolean IsNegative
 		/// </summary>
-		protected RProperty r_IsNegative;
-		public virtual RProperty RIsNegative
+		protected RSystem.RBoolean r_IsNegative;
+		public virtual RSystem.RBoolean RIsNegative
 		{
 			get
 			{
@@ -355,8 +355,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// Int32 Scale
 		/// </summary>
-		protected RProperty r_Scale;
-		public virtual RProperty RScale
+		protected RSystem.RInt32 r_Scale;
+		public virtual RSystem.RInt32 RScale
 		{
 			get
 			{
@@ -372,8 +372,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// UInt64 Low64
 		/// </summary>
-		protected RProperty r_Low64;
-		public virtual RProperty RLow64
+		protected RSystem.RUInt64 r_Low64;
+		public virtual RSystem.RUInt64 RLow64
 		{
 			get
 			{

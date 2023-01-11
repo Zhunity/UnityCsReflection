@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 m_NlsVersion
 		/// </summary>
-		protected RField r_m_NlsVersion;
-		public virtual RField Rm_NlsVersion
+		protected RSystem.RInt32 r_m_NlsVersion;
+		public virtual RSystem.RInt32 Rm_NlsVersion
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// Int32 FullVersion
 		/// </summary>
-		protected RProperty r_FullVersion;
-		public virtual RProperty RFullVersion
+		protected RSystem.RInt32 r_FullVersion;
+		public virtual RSystem.RInt32 RFullVersion
 		{
 			get
 			{

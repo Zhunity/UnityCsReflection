@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.REvents
 		/// <summary>
 		/// System.String m_TargetAssemblyTypeName
 		/// </summary>
-		protected RField r_m_TargetAssemblyTypeName;
-		public virtual RField Rm_TargetAssemblyTypeName
+		protected RSystem.RString r_m_TargetAssemblyTypeName;
+		public virtual RSystem.RString Rm_TargetAssemblyTypeName
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.REvents
 		/// <summary>
 		/// System.String m_MethodName
 		/// </summary>
-		protected RField r_m_MethodName;
-		public virtual RField Rm_MethodName
+		protected RSystem.RString r_m_MethodName;
+		public virtual RSystem.RString Rm_MethodName
 		{
 			get
 			{
@@ -132,8 +132,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.REvents
 		/// <summary>
 		/// System.String targetAssemblyTypeName
 		/// </summary>
-		protected RProperty r_targetAssemblyTypeName;
-		public virtual RProperty RtargetAssemblyTypeName
+		protected RSystem.RString r_targetAssemblyTypeName;
+		public virtual RSystem.RString RtargetAssemblyTypeName
 		{
 			get
 			{
@@ -149,8 +149,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.REvents
 		/// <summary>
 		/// System.String methodName
 		/// </summary>
-		protected RProperty r_methodName;
-		public virtual RProperty RmethodName
+		protected RSystem.RString r_methodName;
+		public virtual RSystem.RString RmethodName
 		{
 			get
 			{

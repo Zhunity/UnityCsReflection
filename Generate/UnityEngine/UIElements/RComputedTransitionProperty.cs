@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int32 durationMs
 		/// </summary>
-		protected RField r_durationMs;
-		public virtual RField RdurationMs
+		protected RSystem.RInt32 r_durationMs;
+		public virtual RSystem.RInt32 RdurationMs
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int32 delayMs
 		/// </summary>
-		protected RField r_delayMs;
-		public virtual RField RdelayMs
+		protected RSystem.RInt32 r_delayMs;
+		public virtual RSystem.RInt32 RdelayMs
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Func`2[System.Single,System.Single] easingCurve
 		/// </summary>
-		protected RSystem.RFunc<RField, RField> r_easingCurve;
-		public virtual RSystem.RFunc<RField, RField> ReasingCurve
+		protected RSystem.RFunc<RSystem.RSingle, RSystem.RSingle> r_easingCurve;
+		public virtual RSystem.RFunc<RSystem.RSingle, RSystem.RSingle> ReasingCurve
 		{
 			get
 			{

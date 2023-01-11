@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.String name
 		/// </summary>
-		protected RField r_name;
-		public virtual RField Rname
+		protected RSystem.RString r_name;
+		public virtual RSystem.RString Rname
 		{
 			get
 			{
@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.String function
 		/// </summary>
-		protected RField r_function;
-		public virtual RField Rfunction
+		protected RSystem.RString r_function;
+		public virtual RSystem.RString Rfunction
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 order
 		/// </summary>
-		protected RProperty r_order;
-		public virtual RProperty Rorder
+		protected RSystem.RInt32 r_order;
+		public virtual RSystem.RInt32 Rorder
 		{
 			get
 			{

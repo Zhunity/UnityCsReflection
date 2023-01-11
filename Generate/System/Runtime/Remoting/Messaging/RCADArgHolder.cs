@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
 		/// <summary>
 		/// System.Int32 index
 		/// </summary>
-		protected RField r_index;
-		public virtual RField Rindex
+		protected RSystem.RInt32 r_index;
+		public virtual RSystem.RInt32 Rindex
 		{
 			get
 			{

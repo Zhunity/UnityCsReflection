@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Boolean <isReplaying>k__BackingField
 		/// </summary>
-		protected RField r___0__isReplaying__1__k__BackingField;
-		public virtual RField R__0__isReplaying__1__k__BackingField
+		protected RSystem.RBoolean r___0__isReplaying__1__k__BackingField;
+		public virtual RSystem.RBoolean R__0__isReplaying__1__k__BackingField
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Single <playbackSpeed>k__BackingField
 		/// </summary>
-		protected RField r___0__playbackSpeed__1__k__BackingField;
-		public virtual RField R__0__playbackSpeed__1__k__BackingField
+		protected RSystem.RSingle r___0__playbackSpeed__1__k__BackingField;
+		public virtual RSystem.RSingle R__0__playbackSpeed__1__k__BackingField
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Boolean <isPlaybackPaused>k__BackingField
 		/// </summary>
-		protected RField r___0__isPlaybackPaused__1__k__BackingField;
-		public virtual RField R__0__isPlaybackPaused__1__k__BackingField
+		protected RSystem.RBoolean r___0__isPlaybackPaused__1__k__BackingField;
+		public virtual RSystem.RBoolean R__0__isPlaybackPaused__1__k__BackingField
 		{
 			get
 			{
@@ -166,8 +166,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Collections.Generic.Dictionary`2[UnityEngine.UIElements.IPanel,System.Collections.Generic.Dictionary`2[System.Int64,System.Int32]] m_EventTypeProcessedCount
 		/// </summary>
-		protected RSystem.RCollections.RGeneric.RDictionary<RUnityEngine.RUIElements.RIPanel, RSystem.RCollections.RGeneric.RDictionary<RField, RField>> r_m_EventTypeProcessedCount;
-		public virtual RSystem.RCollections.RGeneric.RDictionary<RUnityEngine.RUIElements.RIPanel, RSystem.RCollections.RGeneric.RDictionary<RField, RField>> Rm_EventTypeProcessedCount
+		protected RSystem.RCollections.RGeneric.RDictionary<RUnityEngine.RUIElements.RIPanel, RSystem.RCollections.RGeneric.RDictionary<RSystem.RInt64, RSystem.RInt32>> r_m_EventTypeProcessedCount;
+		public virtual RSystem.RCollections.RGeneric.RDictionary<RUnityEngine.RUIElements.RIPanel, RSystem.RCollections.RGeneric.RDictionary<RSystem.RInt64, RSystem.RInt32>> Rm_EventTypeProcessedCount
 		{
 			get
 			{
@@ -183,8 +183,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Collections.Generic.Dictionary`2[UnityEngine.UIElements.IPanel,System.Int64] m_ModificationCount
 		/// </summary>
-		protected RSystem.RCollections.RGeneric.RDictionary<RUnityEngine.RUIElements.RIPanel, RField> r_m_ModificationCount;
-		public virtual RSystem.RCollections.RGeneric.RDictionary<RUnityEngine.RUIElements.RIPanel, RField> Rm_ModificationCount
+		protected RSystem.RCollections.RGeneric.RDictionary<RUnityEngine.RUIElements.RIPanel, RSystem.RInt64> r_m_ModificationCount;
+		public virtual RSystem.RCollections.RGeneric.RDictionary<RUnityEngine.RUIElements.RIPanel, RSystem.RInt64> Rm_ModificationCount
 		{
 			get
 			{
@@ -200,8 +200,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Boolean m_Log
 		/// </summary>
-		protected RField r_m_Log;
-		public virtual RField Rm_Log
+		protected RSystem.RBoolean r_m_Log;
+		public virtual RSystem.RBoolean Rm_Log
 		{
 			get
 			{
@@ -217,8 +217,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Boolean <suspended>k__BackingField
 		/// </summary>
-		protected RField r___0__suspended__1__k__BackingField;
-		public virtual RField R__0__suspended__1__k__BackingField
+		protected RSystem.RBoolean r___0__suspended__1__k__BackingField;
+		public virtual RSystem.RBoolean R__0__suspended__1__k__BackingField
 		{
 			get
 			{
@@ -268,8 +268,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Boolean isReplaying
 		/// </summary>
-		protected RProperty r_isReplaying;
-		public virtual RProperty RisReplaying
+		protected RSystem.RBoolean r_isReplaying;
+		public virtual RSystem.RBoolean RisReplaying
 		{
 			get
 			{
@@ -285,8 +285,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Single playbackSpeed
 		/// </summary>
-		protected RProperty r_playbackSpeed;
-		public virtual RProperty RplaybackSpeed
+		protected RSystem.RSingle r_playbackSpeed;
+		public virtual RSystem.RSingle RplaybackSpeed
 		{
 			get
 			{
@@ -302,8 +302,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Boolean isPlaybackPaused
 		/// </summary>
-		protected RProperty r_isPlaybackPaused;
-		public virtual RProperty RisPlaybackPaused
+		protected RSystem.RBoolean r_isPlaybackPaused;
+		public virtual RSystem.RBoolean RisPlaybackPaused
 		{
 			get
 			{
@@ -319,8 +319,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Collections.Generic.Dictionary`2[System.Int64,System.Int32] eventTypeProcessedCount
 		/// </summary>
-		protected RSystem.RCollections.RGeneric.RDictionary<RProperty, RProperty> r_eventTypeProcessedCount;
-		public virtual RSystem.RCollections.RGeneric.RDictionary<RProperty, RProperty> ReventTypeProcessedCount
+		protected RSystem.RCollections.RGeneric.RDictionary<RSystem.RInt64, RSystem.RInt32> r_eventTypeProcessedCount;
+		public virtual RSystem.RCollections.RGeneric.RDictionary<RSystem.RInt64, RSystem.RInt32> ReventTypeProcessedCount
 		{
 			get
 			{
@@ -336,8 +336,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Boolean suspended
 		/// </summary>
-		protected RProperty r_suspended;
-		public virtual RProperty Rsuspended
+		protected RSystem.RBoolean r_suspended;
+		public virtual RSystem.RBoolean Rsuspended
 		{
 			get
 			{
@@ -1155,14 +1155,14 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual RSystem.RCollections.RGeneric.RDictionary<RType, RUnityEngine.RUIElements.REventDebugger.RHistogramRecord> ComputeHistogram(RSystem.RCollections.RGeneric.RList<RUnityEngine.RUIElements.REventDebuggerEventRecord> @eventBases)
+        public virtual RSystem.RCollections.RGeneric.RDictionary<RSystem.RString, RUnityEngine.RUIElements.REventDebugger.RHistogramRecord> ComputeHistogram(RSystem.RCollections.RGeneric.RList<RUnityEngine.RUIElements.REventDebuggerEventRecord> @eventBases)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@eventBases.Value};
             var ___result = RComputeHistogram_List_d_EventDebuggerEventRecord_p_.Invoke(___genericsType, ___parameters);
 
-            return new RSystem.RCollections.RGeneric.RDictionary<RType, RUnityEngine.RUIElements.REventDebugger.RHistogramRecord>(___result);
+            return new RSystem.RCollections.RGeneric.RDictionary<RSystem.RString, RUnityEngine.RUIElements.REventDebugger.RHistogramRecord>(___result);
         }
 
 

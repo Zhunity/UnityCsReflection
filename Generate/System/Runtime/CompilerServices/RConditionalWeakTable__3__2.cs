@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RCompilerServices
 		/// <summary>
 		/// System.Int32 INITIAL_SIZE
 		/// </summary>
-		protected static RField r_INITIAL_SIZE;
-		public static RField RINITIAL_SIZE
+		protected static RSystem.RInt32 r_INITIAL_SIZE;
+		public static RSystem.RInt32 RINITIAL_SIZE
 		{
 			get
 			{
@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RCompilerServices
 		/// <summary>
 		/// System.Single LOAD_FACTOR
 		/// </summary>
-		protected static RField r_LOAD_FACTOR;
-		public static RField RLOAD_FACTOR
+		protected static RSystem.RSingle r_LOAD_FACTOR;
+		public static RSystem.RSingle RLOAD_FACTOR
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RCompilerServices
 		/// <summary>
 		/// System.Single COMPACT_FACTOR
 		/// </summary>
-		protected static RField r_COMPACT_FACTOR;
-		public static RField RCOMPACT_FACTOR
+		protected static RSystem.RSingle r_COMPACT_FACTOR;
+		public static RSystem.RSingle RCOMPACT_FACTOR
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RCompilerServices
 		/// <summary>
 		/// System.Single EXPAND_FACTOR
 		/// </summary>
-		protected static RField r_EXPAND_FACTOR;
-		public static RField REXPAND_FACTOR
+		protected static RSystem.RSingle r_EXPAND_FACTOR;
+		public static RSystem.RSingle REXPAND_FACTOR
 		{
 			get
 			{
@@ -115,8 +115,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RCompilerServices
 		/// <summary>
 		/// System.Int32 size
 		/// </summary>
-		protected RField r_size;
-		public virtual RField Rsize
+		protected RSystem.RInt32 r_size;
+		public virtual RSystem.RInt32 Rsize
 		{
 			get
 			{

@@ -251,8 +251,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Single opacity
 		/// </summary>
-		protected RField r_opacity;
-		public virtual RField Ropacity
+		protected RSystem.RSingle r_opacity;
+		public virtual RSystem.RSingle Ropacity
 		{
 			get
 			{

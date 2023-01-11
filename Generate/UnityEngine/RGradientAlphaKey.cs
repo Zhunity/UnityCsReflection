@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Single alpha
 		/// </summary>
-		protected RField r_alpha;
-		public virtual RField Ralpha
+		protected RSystem.RSingle r_alpha;
+		public virtual RSystem.RSingle Ralpha
 		{
 			get
 			{
@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Single time
 		/// </summary>
-		protected RField r_time;
-		public virtual RField Rtime
+		protected RSystem.RSingle r_time;
+		public virtual RSystem.RSingle Rtime
 		{
 			get
 			{

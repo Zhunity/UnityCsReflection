@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 		/// <summary>
 		/// System.UInt32 m_GlyphIndex
 		/// </summary>
-		protected RField r_m_GlyphIndex;
-		public virtual RField Rm_GlyphIndex
+		protected RSystem.RUInt32 r_m_GlyphIndex;
+		public virtual RSystem.RUInt32 Rm_GlyphIndex
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 		/// <summary>
 		/// UInt32 glyphIndex
 		/// </summary>
-		protected RProperty r_glyphIndex;
-		public virtual RProperty RglyphIndex
+		protected RSystem.RUInt32 r_glyphIndex;
+		public virtual RSystem.RUInt32 RglyphIndex
 		{
 			get
 			{

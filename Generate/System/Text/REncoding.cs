@@ -149,8 +149,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Collections.Generic.Dictionary`2[System.Int32,System.Text.Encoding] encodings
 		/// </summary>
-		protected static RSystem.RCollections.RGeneric.RDictionary<RField, RSystem.RText.REncoding> r_encodings;
-		public static RSystem.RCollections.RGeneric.RDictionary<RField, RSystem.RText.REncoding> Rencodings
+		protected static RSystem.RCollections.RGeneric.RDictionary<RSystem.RInt32, RSystem.RText.REncoding> r_encodings;
+		public static RSystem.RCollections.RGeneric.RDictionary<RSystem.RInt32, RSystem.RText.REncoding> Rencodings
 		{
 			get
 			{
@@ -166,8 +166,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Int32 MIMECONTF_MAILNEWS
 		/// </summary>
-		protected static RField r_MIMECONTF_MAILNEWS;
-		public static RField RMIMECONTF_MAILNEWS
+		protected static RSystem.RInt32 r_MIMECONTF_MAILNEWS;
+		public static RSystem.RInt32 RMIMECONTF_MAILNEWS
 		{
 			get
 			{
@@ -183,8 +183,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Int32 MIMECONTF_BROWSER
 		/// </summary>
-		protected static RField r_MIMECONTF_BROWSER;
-		public static RField RMIMECONTF_BROWSER
+		protected static RSystem.RInt32 r_MIMECONTF_BROWSER;
+		public static RSystem.RInt32 RMIMECONTF_BROWSER
 		{
 			get
 			{
@@ -200,8 +200,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Int32 MIMECONTF_SAVABLE_MAILNEWS
 		/// </summary>
-		protected static RField r_MIMECONTF_SAVABLE_MAILNEWS;
-		public static RField RMIMECONTF_SAVABLE_MAILNEWS
+		protected static RSystem.RInt32 r_MIMECONTF_SAVABLE_MAILNEWS;
+		public static RSystem.RInt32 RMIMECONTF_SAVABLE_MAILNEWS
 		{
 			get
 			{
@@ -217,8 +217,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Int32 MIMECONTF_SAVABLE_BROWSER
 		/// </summary>
-		protected static RField r_MIMECONTF_SAVABLE_BROWSER;
-		public static RField RMIMECONTF_SAVABLE_BROWSER
+		protected static RSystem.RInt32 r_MIMECONTF_SAVABLE_BROWSER;
+		public static RSystem.RInt32 RMIMECONTF_SAVABLE_BROWSER
 		{
 			get
 			{
@@ -234,8 +234,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Int32 CodePageDefault
 		/// </summary>
-		protected static RField r_CodePageDefault;
-		public static RField RCodePageDefault
+		protected static RSystem.RInt32 r_CodePageDefault;
+		public static RSystem.RInt32 RCodePageDefault
 		{
 			get
 			{
@@ -251,8 +251,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Int32 CodePageNoOEM
 		/// </summary>
-		protected static RField r_CodePageNoOEM;
-		public static RField RCodePageNoOEM
+		protected static RSystem.RInt32 r_CodePageNoOEM;
+		public static RSystem.RInt32 RCodePageNoOEM
 		{
 			get
 			{
@@ -268,8 +268,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Int32 CodePageNoMac
 		/// </summary>
-		protected static RField r_CodePageNoMac;
-		public static RField RCodePageNoMac
+		protected static RSystem.RInt32 r_CodePageNoMac;
+		public static RSystem.RInt32 RCodePageNoMac
 		{
 			get
 			{
@@ -285,8 +285,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Int32 CodePageNoThread
 		/// </summary>
-		protected static RField r_CodePageNoThread;
-		public static RField RCodePageNoThread
+		protected static RSystem.RInt32 r_CodePageNoThread;
+		public static RSystem.RInt32 RCodePageNoThread
 		{
 			get
 			{
@@ -302,8 +302,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Int32 CodePageNoSymbol
 		/// </summary>
-		protected static RField r_CodePageNoSymbol;
-		public static RField RCodePageNoSymbol
+		protected static RSystem.RInt32 r_CodePageNoSymbol;
+		public static RSystem.RInt32 RCodePageNoSymbol
 		{
 			get
 			{
@@ -319,8 +319,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Int32 CodePageUnicode
 		/// </summary>
-		protected static RField r_CodePageUnicode;
-		public static RField RCodePageUnicode
+		protected static RSystem.RInt32 r_CodePageUnicode;
+		public static RSystem.RInt32 RCodePageUnicode
 		{
 			get
 			{
@@ -336,8 +336,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Int32 CodePageBigEndian
 		/// </summary>
-		protected static RField r_CodePageBigEndian;
-		public static RField RCodePageBigEndian
+		protected static RSystem.RInt32 r_CodePageBigEndian;
+		public static RSystem.RInt32 RCodePageBigEndian
 		{
 			get
 			{
@@ -353,8 +353,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Int32 CodePageWindows1252
 		/// </summary>
-		protected static RField r_CodePageWindows1252;
-		public static RField RCodePageWindows1252
+		protected static RSystem.RInt32 r_CodePageWindows1252;
+		public static RSystem.RInt32 RCodePageWindows1252
 		{
 			get
 			{
@@ -370,8 +370,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Int32 CodePageMacGB2312
 		/// </summary>
-		protected static RField r_CodePageMacGB2312;
-		public static RField RCodePageMacGB2312
+		protected static RSystem.RInt32 r_CodePageMacGB2312;
+		public static RSystem.RInt32 RCodePageMacGB2312
 		{
 			get
 			{
@@ -387,8 +387,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Int32 CodePageGB2312
 		/// </summary>
-		protected static RField r_CodePageGB2312;
-		public static RField RCodePageGB2312
+		protected static RSystem.RInt32 r_CodePageGB2312;
+		public static RSystem.RInt32 RCodePageGB2312
 		{
 			get
 			{
@@ -404,8 +404,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Int32 CodePageMacKorean
 		/// </summary>
-		protected static RField r_CodePageMacKorean;
-		public static RField RCodePageMacKorean
+		protected static RSystem.RInt32 r_CodePageMacKorean;
+		public static RSystem.RInt32 RCodePageMacKorean
 		{
 			get
 			{
@@ -421,8 +421,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Int32 CodePageDLLKorean
 		/// </summary>
-		protected static RField r_CodePageDLLKorean;
-		public static RField RCodePageDLLKorean
+		protected static RSystem.RInt32 r_CodePageDLLKorean;
+		public static RSystem.RInt32 RCodePageDLLKorean
 		{
 			get
 			{
@@ -438,8 +438,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Int32 ISO2022JP
 		/// </summary>
-		protected static RField r_ISO2022JP;
-		public static RField RISO2022JP
+		protected static RSystem.RInt32 r_ISO2022JP;
+		public static RSystem.RInt32 RISO2022JP
 		{
 			get
 			{
@@ -455,8 +455,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Int32 ISO2022JPESC
 		/// </summary>
-		protected static RField r_ISO2022JPESC;
-		public static RField RISO2022JPESC
+		protected static RSystem.RInt32 r_ISO2022JPESC;
+		public static RSystem.RInt32 RISO2022JPESC
 		{
 			get
 			{
@@ -472,8 +472,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Int32 ISO2022JPSISO
 		/// </summary>
-		protected static RField r_ISO2022JPSISO;
-		public static RField RISO2022JPSISO
+		protected static RSystem.RInt32 r_ISO2022JPSISO;
+		public static RSystem.RInt32 RISO2022JPSISO
 		{
 			get
 			{
@@ -489,8 +489,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Int32 ISOKorean
 		/// </summary>
-		protected static RField r_ISOKorean;
-		public static RField RISOKorean
+		protected static RSystem.RInt32 r_ISOKorean;
+		public static RSystem.RInt32 RISOKorean
 		{
 			get
 			{
@@ -506,8 +506,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Int32 ISOSimplifiedCN
 		/// </summary>
-		protected static RField r_ISOSimplifiedCN;
-		public static RField RISOSimplifiedCN
+		protected static RSystem.RInt32 r_ISOSimplifiedCN;
+		public static RSystem.RInt32 RISOSimplifiedCN
 		{
 			get
 			{
@@ -523,8 +523,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Int32 EUCJP
 		/// </summary>
-		protected static RField r_EUCJP;
-		public static RField REUCJP
+		protected static RSystem.RInt32 r_EUCJP;
+		public static RSystem.RInt32 REUCJP
 		{
 			get
 			{
@@ -540,8 +540,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Int32 ChineseHZ
 		/// </summary>
-		protected static RField r_ChineseHZ;
-		public static RField RChineseHZ
+		protected static RSystem.RInt32 r_ChineseHZ;
+		public static RSystem.RInt32 RChineseHZ
 		{
 			get
 			{
@@ -557,8 +557,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Int32 DuplicateEUCCN
 		/// </summary>
-		protected static RField r_DuplicateEUCCN;
-		public static RField RDuplicateEUCCN
+		protected static RSystem.RInt32 r_DuplicateEUCCN;
+		public static RSystem.RInt32 RDuplicateEUCCN
 		{
 			get
 			{
@@ -574,8 +574,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Int32 EUCCN
 		/// </summary>
-		protected static RField r_EUCCN;
-		public static RField REUCCN
+		protected static RSystem.RInt32 r_EUCCN;
+		public static RSystem.RInt32 REUCCN
 		{
 			get
 			{
@@ -591,8 +591,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Int32 EUCKR
 		/// </summary>
-		protected static RField r_EUCKR;
-		public static RField REUCKR
+		protected static RSystem.RInt32 r_EUCKR;
+		public static RSystem.RInt32 REUCKR
 		{
 			get
 			{
@@ -608,8 +608,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Int32 CodePageASCII
 		/// </summary>
-		protected static RField r_CodePageASCII;
-		public static RField RCodePageASCII
+		protected static RSystem.RInt32 r_CodePageASCII;
+		public static RSystem.RInt32 RCodePageASCII
 		{
 			get
 			{
@@ -625,8 +625,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Int32 ISO_8859_1
 		/// </summary>
-		protected static RField r_ISO_8859_1;
-		public static RField RISO_8859_1
+		protected static RSystem.RInt32 r_ISO_8859_1;
+		public static RSystem.RInt32 RISO_8859_1
 		{
 			get
 			{
@@ -642,8 +642,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Int32 ISCIIAssemese
 		/// </summary>
-		protected static RField r_ISCIIAssemese;
-		public static RField RISCIIAssemese
+		protected static RSystem.RInt32 r_ISCIIAssemese;
+		public static RSystem.RInt32 RISCIIAssemese
 		{
 			get
 			{
@@ -659,8 +659,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Int32 ISCIIBengali
 		/// </summary>
-		protected static RField r_ISCIIBengali;
-		public static RField RISCIIBengali
+		protected static RSystem.RInt32 r_ISCIIBengali;
+		public static RSystem.RInt32 RISCIIBengali
 		{
 			get
 			{
@@ -676,8 +676,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Int32 ISCIIDevanagari
 		/// </summary>
-		protected static RField r_ISCIIDevanagari;
-		public static RField RISCIIDevanagari
+		protected static RSystem.RInt32 r_ISCIIDevanagari;
+		public static RSystem.RInt32 RISCIIDevanagari
 		{
 			get
 			{
@@ -693,8 +693,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Int32 ISCIIGujarathi
 		/// </summary>
-		protected static RField r_ISCIIGujarathi;
-		public static RField RISCIIGujarathi
+		protected static RSystem.RInt32 r_ISCIIGujarathi;
+		public static RSystem.RInt32 RISCIIGujarathi
 		{
 			get
 			{
@@ -710,8 +710,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Int32 ISCIIKannada
 		/// </summary>
-		protected static RField r_ISCIIKannada;
-		public static RField RISCIIKannada
+		protected static RSystem.RInt32 r_ISCIIKannada;
+		public static RSystem.RInt32 RISCIIKannada
 		{
 			get
 			{
@@ -727,8 +727,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Int32 ISCIIMalayalam
 		/// </summary>
-		protected static RField r_ISCIIMalayalam;
-		public static RField RISCIIMalayalam
+		protected static RSystem.RInt32 r_ISCIIMalayalam;
+		public static RSystem.RInt32 RISCIIMalayalam
 		{
 			get
 			{
@@ -744,8 +744,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Int32 ISCIIOriya
 		/// </summary>
-		protected static RField r_ISCIIOriya;
-		public static RField RISCIIOriya
+		protected static RSystem.RInt32 r_ISCIIOriya;
+		public static RSystem.RInt32 RISCIIOriya
 		{
 			get
 			{
@@ -761,8 +761,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Int32 ISCIIPanjabi
 		/// </summary>
-		protected static RField r_ISCIIPanjabi;
-		public static RField RISCIIPanjabi
+		protected static RSystem.RInt32 r_ISCIIPanjabi;
+		public static RSystem.RInt32 RISCIIPanjabi
 		{
 			get
 			{
@@ -778,8 +778,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Int32 ISCIITamil
 		/// </summary>
-		protected static RField r_ISCIITamil;
-		public static RField RISCIITamil
+		protected static RSystem.RInt32 r_ISCIITamil;
+		public static RSystem.RInt32 RISCIITamil
 		{
 			get
 			{
@@ -795,8 +795,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Int32 ISCIITelugu
 		/// </summary>
-		protected static RField r_ISCIITelugu;
-		public static RField RISCIITelugu
+		protected static RSystem.RInt32 r_ISCIITelugu;
+		public static RSystem.RInt32 RISCIITelugu
 		{
 			get
 			{
@@ -812,8 +812,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Int32 GB18030
 		/// </summary>
-		protected static RField r_GB18030;
-		public static RField RGB18030
+		protected static RSystem.RInt32 r_GB18030;
+		public static RSystem.RInt32 RGB18030
 		{
 			get
 			{
@@ -829,8 +829,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Int32 ISO_8859_8I
 		/// </summary>
-		protected static RField r_ISO_8859_8I;
-		public static RField RISO_8859_8I
+		protected static RSystem.RInt32 r_ISO_8859_8I;
+		public static RSystem.RInt32 RISO_8859_8I
 		{
 			get
 			{
@@ -846,8 +846,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Int32 ISO_8859_8_Visual
 		/// </summary>
-		protected static RField r_ISO_8859_8_Visual;
-		public static RField RISO_8859_8_Visual
+		protected static RSystem.RInt32 r_ISO_8859_8_Visual;
+		public static RSystem.RInt32 RISO_8859_8_Visual
 		{
 			get
 			{
@@ -863,8 +863,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Int32 ENC50229
 		/// </summary>
-		protected static RField r_ENC50229;
-		public static RField RENC50229
+		protected static RSystem.RInt32 r_ENC50229;
+		public static RSystem.RInt32 RENC50229
 		{
 			get
 			{
@@ -880,8 +880,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Int32 CodePageUTF7
 		/// </summary>
-		protected static RField r_CodePageUTF7;
-		public static RField RCodePageUTF7
+		protected static RSystem.RInt32 r_CodePageUTF7;
+		public static RSystem.RInt32 RCodePageUTF7
 		{
 			get
 			{
@@ -897,8 +897,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Int32 CodePageUTF8
 		/// </summary>
-		protected static RField r_CodePageUTF8;
-		public static RField RCodePageUTF8
+		protected static RSystem.RInt32 r_CodePageUTF8;
+		public static RSystem.RInt32 RCodePageUTF8
 		{
 			get
 			{
@@ -914,8 +914,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Int32 CodePageUTF32
 		/// </summary>
-		protected static RField r_CodePageUTF32;
-		public static RField RCodePageUTF32
+		protected static RSystem.RInt32 r_CodePageUTF32;
+		public static RSystem.RInt32 RCodePageUTF32
 		{
 			get
 			{
@@ -931,8 +931,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Int32 CodePageUTF32BE
 		/// </summary>
-		protected static RField r_CodePageUTF32BE;
-		public static RField RCodePageUTF32BE
+		protected static RSystem.RInt32 r_CodePageUTF32BE;
+		public static RSystem.RInt32 RCodePageUTF32BE
 		{
 			get
 			{
@@ -948,8 +948,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Int32 m_codePage
 		/// </summary>
-		protected RField r_m_codePage;
-		public virtual RField Rm_codePage
+		protected RSystem.RInt32 r_m_codePage;
+		public virtual RSystem.RInt32 Rm_codePage
 		{
 			get
 			{
@@ -982,8 +982,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Boolean m_deserializedFromEverett
 		/// </summary>
-		protected RField r_m_deserializedFromEverett;
-		public virtual RField Rm_deserializedFromEverett
+		protected RSystem.RBoolean r_m_deserializedFromEverett;
+		public virtual RSystem.RBoolean Rm_deserializedFromEverett
 		{
 			get
 			{
@@ -999,8 +999,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Boolean m_isReadOnly
 		/// </summary>
-		protected RField r_m_isReadOnly;
-		public virtual RField Rm_isReadOnly
+		protected RSystem.RBoolean r_m_isReadOnly;
+		public virtual RSystem.RBoolean Rm_isReadOnly
 		{
 			get
 			{
@@ -1084,8 +1084,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.ReadOnlySpan`1[System.Byte] Preamble
 		/// </summary>
-		protected RSystem.RReadOnlySpan<RProperty> r_Preamble;
-		public virtual RSystem.RReadOnlySpan<RProperty> RPreamble
+		protected RSystem.RReadOnlySpan<RSystem.RByte> r_Preamble;
+		public virtual RSystem.RReadOnlySpan<RSystem.RByte> RPreamble
 		{
 			get
 			{
@@ -1101,8 +1101,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.String BodyName
 		/// </summary>
-		protected RProperty r_BodyName;
-		public virtual RProperty RBodyName
+		protected RSystem.RString r_BodyName;
+		public virtual RSystem.RString RBodyName
 		{
 			get
 			{
@@ -1118,8 +1118,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.String EncodingName
 		/// </summary>
-		protected RProperty r_EncodingName;
-		public virtual RProperty REncodingName
+		protected RSystem.RString r_EncodingName;
+		public virtual RSystem.RString REncodingName
 		{
 			get
 			{
@@ -1135,8 +1135,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.String HeaderName
 		/// </summary>
-		protected RProperty r_HeaderName;
-		public virtual RProperty RHeaderName
+		protected RSystem.RString r_HeaderName;
+		public virtual RSystem.RString RHeaderName
 		{
 			get
 			{
@@ -1152,8 +1152,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.String WebName
 		/// </summary>
-		protected RProperty r_WebName;
-		public virtual RProperty RWebName
+		protected RSystem.RString r_WebName;
+		public virtual RSystem.RString RWebName
 		{
 			get
 			{
@@ -1169,8 +1169,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// Int32 WindowsCodePage
 		/// </summary>
-		protected RProperty r_WindowsCodePage;
-		public virtual RProperty RWindowsCodePage
+		protected RSystem.RInt32 r_WindowsCodePage;
+		public virtual RSystem.RInt32 RWindowsCodePage
 		{
 			get
 			{
@@ -1186,8 +1186,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// Boolean IsBrowserDisplay
 		/// </summary>
-		protected RProperty r_IsBrowserDisplay;
-		public virtual RProperty RIsBrowserDisplay
+		protected RSystem.RBoolean r_IsBrowserDisplay;
+		public virtual RSystem.RBoolean RIsBrowserDisplay
 		{
 			get
 			{
@@ -1203,8 +1203,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// Boolean IsBrowserSave
 		/// </summary>
-		protected RProperty r_IsBrowserSave;
-		public virtual RProperty RIsBrowserSave
+		protected RSystem.RBoolean r_IsBrowserSave;
+		public virtual RSystem.RBoolean RIsBrowserSave
 		{
 			get
 			{
@@ -1220,8 +1220,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// Boolean IsMailNewsDisplay
 		/// </summary>
-		protected RProperty r_IsMailNewsDisplay;
-		public virtual RProperty RIsMailNewsDisplay
+		protected RSystem.RBoolean r_IsMailNewsDisplay;
+		public virtual RSystem.RBoolean RIsMailNewsDisplay
 		{
 			get
 			{
@@ -1237,8 +1237,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// Boolean IsMailNewsSave
 		/// </summary>
-		protected RProperty r_IsMailNewsSave;
-		public virtual RProperty RIsMailNewsSave
+		protected RSystem.RBoolean r_IsMailNewsSave;
+		public virtual RSystem.RBoolean RIsMailNewsSave
 		{
 			get
 			{
@@ -1254,8 +1254,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// Boolean IsSingleByte
 		/// </summary>
-		protected RProperty r_IsSingleByte;
-		public virtual RProperty RIsSingleByte
+		protected RSystem.RBoolean r_IsSingleByte;
+		public virtual RSystem.RBoolean RIsSingleByte
 		{
 			get
 			{
@@ -1305,8 +1305,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// Boolean IsReadOnly
 		/// </summary>
-		protected RProperty r_IsReadOnly;
-		public virtual RProperty RIsReadOnly
+		protected RSystem.RBoolean r_IsReadOnly;
+		public virtual RSystem.RBoolean RIsReadOnly
 		{
 			get
 			{
@@ -1356,8 +1356,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// Int32 CodePage
 		/// </summary>
-		protected RProperty r_CodePage;
-		public virtual RProperty RCodePage
+		protected RSystem.RInt32 r_CodePage;
+		public virtual RSystem.RInt32 RCodePage
 		{
 			get
 			{
@@ -3142,6 +3142,26 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
         }
 
 
+        public virtual System.Int32 GetChars(RSystem.RReadOnlySpan<RSystem.RByte> @bytes, RSystem.RSpan<RSystem.RChar> @chars)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@bytes.Value, @chars.Value};
+            var ___result = RGetChars_ReadOnlySpan_d_Byte_p__Span_d_Char_p_.Invoke(___genericsType, ___parameters);
+
+            return (System.Int32)___result;
+        }
+
+
+        public virtual System.String GetString(RSystem.RReadOnlySpan<RSystem.RByte> @bytes)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@bytes.Value};
+            var ___result = RGetString_ReadOnlySpan_d_Byte_p_.Invoke(___genericsType, ___parameters);
+
+            return (System.String)___result;
+        }
 
 
         public virtual System.Boolean IsAlwaysNormalized()
@@ -3342,7 +3362,37 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
         }
 
 
+        public virtual System.Int32 GetCharCount(RSystem.RReadOnlySpan<RSystem.RByte> @bytes)
+        {
 
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@bytes.Value};
+            var ___result = RGetCharCount_ReadOnlySpan_d_Byte_p_.Invoke(___genericsType, ___parameters);
+
+            return (System.Int32)___result;
+        }
+
+
+        public virtual System.Int32 GetByteCount(RSystem.RReadOnlySpan<RSystem.RChar> @chars)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@chars.Value};
+            var ___result = RGetByteCount_ReadOnlySpan_d_Char_p_.Invoke(___genericsType, ___parameters);
+
+            return (System.Int32)___result;
+        }
+
+
+        public virtual System.Int32 GetBytes(RSystem.RReadOnlySpan<RSystem.RChar> @chars, RSystem.RSpan<RSystem.RByte> @bytes)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@chars.Value, @bytes.Value};
+            var ___result = RGetBytes_ReadOnlySpan_d_Char_p__Span_d_Byte_p_.Invoke(___genericsType, ___parameters);
+
+            return (System.Int32)___result;
+        }
 
 
         public virtual System.Byte[] GetBytes(System.String @s, System.Int32 @index, System.Int32 @count)

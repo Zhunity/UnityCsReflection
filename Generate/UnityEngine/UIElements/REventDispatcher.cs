@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.UInt32 m_GateCount
 		/// </summary>
-		protected RField r_m_GateCount;
-		public virtual RField Rm_GateCount
+		protected RSystem.RUInt32 r_m_GateCount;
+		public virtual RSystem.RUInt32 Rm_GateCount
 		{
 			get
 			{
@@ -183,8 +183,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Boolean m_Immediate
 		/// </summary>
-		protected RField r_m_Immediate;
-		public virtual RField Rm_Immediate
+		protected RSystem.RBoolean r_m_Immediate;
+		public virtual RSystem.RBoolean Rm_Immediate
 		{
 			get
 			{
@@ -200,8 +200,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Boolean <processingEvents>k__BackingField
 		/// </summary>
-		protected RField r___0__processingEvents__1__k__BackingField;
-		public virtual RField R__0__processingEvents__1__k__BackingField
+		protected RSystem.RBoolean r___0__processingEvents__1__k__BackingField;
+		public virtual RSystem.RBoolean R__0__processingEvents__1__k__BackingField
 		{
 			get
 			{
@@ -251,8 +251,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Boolean dispatchImmediately
 		/// </summary>
-		protected RProperty r_dispatchImmediately;
-		public virtual RProperty RdispatchImmediately
+		protected RSystem.RBoolean r_dispatchImmediately;
+		public virtual RSystem.RBoolean RdispatchImmediately
 		{
 			get
 			{
@@ -268,8 +268,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Boolean processingEvents
 		/// </summary>
-		protected RProperty r_processingEvents;
-		public virtual RProperty RprocessingEvents
+		protected RSystem.RBoolean r_processingEvents;
+		public virtual RSystem.RBoolean RprocessingEvents
 		{
 			get
 			{

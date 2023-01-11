@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 		/// <summary>
 		/// System.Boolean s_failFastOnUnobservedException
 		/// </summary>
-		protected static RField r_s_failFastOnUnobservedException;
-		public static RField Rs_failFastOnUnobservedException
+		protected static RSystem.RBoolean r_s_failFastOnUnobservedException;
+		public static RSystem.RBoolean Rs_failFastOnUnobservedException
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 		/// <summary>
 		/// System.Boolean m_isHandled
 		/// </summary>
-		protected RField r_m_isHandled;
-		public virtual RField Rm_isHandled
+		protected RSystem.RBoolean r_m_isHandled;
+		public virtual RSystem.RBoolean Rm_isHandled
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 		/// <summary>
 		/// Boolean ContainsFaultList
 		/// </summary>
-		protected RProperty r_ContainsFaultList;
-		public virtual RProperty RContainsFaultList
+		protected RSystem.RBoolean r_ContainsFaultList;
+		public virtual RSystem.RBoolean RContainsFaultList
 		{
 			get
 			{

@@ -15,8 +15,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RImplementati
 		/// <summary>
 		/// System.Boolean needsClosing
 		/// </summary>
-		protected RField r_needsClosing;
-		public virtual RField RneedsClosing
+		protected RSystem.RBoolean r_needsClosing;
+		public virtual RSystem.RBoolean RneedsClosing
 		{
 			get
 			{
@@ -32,8 +32,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RImplementati
 		/// <summary>
 		/// System.Boolean popViewMatrix
 		/// </summary>
-		protected RField r_popViewMatrix;
-		public virtual RField RpopViewMatrix
+		protected RSystem.RBoolean r_popViewMatrix;
+		public virtual RSystem.RBoolean RpopViewMatrix
 		{
 			get
 			{
@@ -49,8 +49,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RImplementati
 		/// <summary>
 		/// System.Boolean popScissorClip
 		/// </summary>
-		protected RField r_popScissorClip;
-		public virtual RField RpopScissorClip
+		protected RSystem.RBoolean r_popScissorClip;
+		public virtual RSystem.RBoolean RpopScissorClip
 		{
 			get
 			{
@@ -66,8 +66,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RImplementati
 		/// <summary>
 		/// System.Boolean blitAndPopRenderTexture
 		/// </summary>
-		protected RField r_blitAndPopRenderTexture;
-		public virtual RField RblitAndPopRenderTexture
+		protected RSystem.RBoolean r_blitAndPopRenderTexture;
+		public virtual RSystem.RBoolean RblitAndPopRenderTexture
 		{
 			get
 			{
@@ -83,8 +83,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RImplementati
 		/// <summary>
 		/// System.Boolean PopDefaultMaterial
 		/// </summary>
-		protected RField r_PopDefaultMaterial;
-		public virtual RField RPopDefaultMaterial
+		protected RSystem.RBoolean r_PopDefaultMaterial;
+		public virtual RSystem.RBoolean RPopDefaultMaterial
 		{
 			get
 			{
@@ -117,8 +117,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RImplementati
 		/// <summary>
 		/// Unity.Collections.NativeSlice`1[UnityEngine.UIElements.Vertex] clipperRegisterVertices
 		/// </summary>
-		protected RField r_clipperRegisterVertices;
-		public virtual RField RclipperRegisterVertices
+		protected RUnity.RCollections.RNativeSlice<RUnityEngine.RUIElements.RVertex> r_clipperRegisterVertices;
+		public virtual RUnity.RCollections.RNativeSlice<RUnityEngine.RUIElements.RVertex> RclipperRegisterVertices
 		{
 			get
 			{
@@ -134,8 +134,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RImplementati
 		/// <summary>
 		/// Unity.Collections.NativeSlice`1[System.UInt16] clipperRegisterIndices
 		/// </summary>
-		protected RField r_clipperRegisterIndices;
-		public virtual RField RclipperRegisterIndices
+		protected RUnity.RCollections.RNativeSlice<RSystem.RUInt16> r_clipperRegisterIndices;
+		public virtual RUnity.RCollections.RNativeSlice<RSystem.RUInt16> RclipperRegisterIndices
 		{
 			get
 			{
@@ -151,8 +151,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RImplementati
 		/// <summary>
 		/// System.Int32 clipperRegisterIndexOffset
 		/// </summary>
-		protected RField r_clipperRegisterIndexOffset;
-		public virtual RField RclipperRegisterIndexOffset
+		protected RSystem.RInt32 r_clipperRegisterIndexOffset;
+		public virtual RSystem.RInt32 RclipperRegisterIndexOffset
 		{
 			get
 			{
@@ -168,8 +168,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RImplementati
 		/// <summary>
 		/// System.Int32 maskStencilRef
 		/// </summary>
-		protected RField r_maskStencilRef;
-		public virtual RField RmaskStencilRef
+		protected RSystem.RInt32 r_maskStencilRef;
+		public virtual RSystem.RInt32 RmaskStencilRef
 		{
 			get
 			{

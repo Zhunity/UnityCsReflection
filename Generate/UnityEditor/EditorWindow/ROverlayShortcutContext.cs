@@ -32,8 +32,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Boolean active
 		/// </summary>
-		protected RProperty r_active;
-		public virtual RProperty Ractive
+		protected RSystem.RBoolean r_active;
+		public virtual RSystem.RBoolean Ractive
 		{
 			get
 			{

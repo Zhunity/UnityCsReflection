@@ -32,8 +32,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Single m_FilterScore
 		/// </summary>
-		protected RField r_m_FilterScore;
-		public virtual RField Rm_FilterScore
+		protected RSystem.RSingle r_m_FilterScore;
+		public virtual RSystem.RSingle Rm_FilterScore
 		{
 			get
 			{
@@ -49,8 +49,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Boolean m_Selected
 		/// </summary>
-		protected RField r_m_Selected;
-		public virtual RField Rm_Selected
+		protected RSystem.RBoolean r_m_Selected;
+		public virtual RSystem.RBoolean Rm_Selected
 		{
 			get
 			{
@@ -66,8 +66,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Boolean m_WasSelected
 		/// </summary>
-		protected RField r_m_WasSelected;
-		public virtual RField Rm_WasSelected
+		protected RSystem.RBoolean r_m_WasSelected;
+		public virtual RSystem.RBoolean Rm_WasSelected
 		{
 			get
 			{
@@ -83,8 +83,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Boolean m_PartiallySelected
 		/// </summary>
-		protected RField r_m_PartiallySelected;
-		public virtual RField Rm_PartiallySelected
+		protected RSystem.RBoolean r_m_PartiallySelected;
+		public virtual RSystem.RBoolean Rm_PartiallySelected
 		{
 			get
 			{
@@ -100,8 +100,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Boolean m_Enabled
 		/// </summary>
-		protected RField r_m_Enabled;
-		public virtual RField Rm_Enabled
+		protected RSystem.RBoolean r_m_Enabled;
+		public virtual RSystem.RBoolean Rm_Enabled
 		{
 			get
 			{
@@ -117,8 +117,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.String[] m_Types
 		/// </summary>
-		protected RFieldArray<RField> r_m_Types;
-		public virtual RFieldArray<RField> Rm_Types
+		protected RFieldArray<RSystem.RString> r_m_Types;
+		public virtual RFieldArray<RSystem.RString> Rm_Types
 		{
 			get
 			{
@@ -134,8 +134,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Single filterScore
 		/// </summary>
-		protected RProperty r_filterScore;
-		public virtual RProperty RfilterScore
+		protected RSystem.RSingle r_filterScore;
+		public virtual RSystem.RSingle RfilterScore
 		{
 			get
 			{
@@ -151,8 +151,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Boolean selected
 		/// </summary>
-		protected RProperty r_selected;
-		public virtual RProperty Rselected
+		protected RSystem.RBoolean r_selected;
+		public virtual RSystem.RBoolean Rselected
 		{
 			get
 			{
@@ -168,8 +168,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Boolean enabled
 		/// </summary>
-		protected RProperty r_enabled;
-		public virtual RProperty Renabled
+		protected RSystem.RBoolean r_enabled;
+		public virtual RSystem.RBoolean Renabled
 		{
 			get
 			{
@@ -185,8 +185,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Boolean partiallySelected
 		/// </summary>
-		protected RProperty r_partiallySelected;
-		public virtual RProperty RpartiallySelected
+		protected RSystem.RBoolean r_partiallySelected;
+		public virtual RSystem.RBoolean RpartiallySelected
 		{
 			get
 			{
@@ -202,8 +202,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.String text
 		/// </summary>
-		protected RProperty r_text;
-		public virtual RProperty Rtext
+		protected RSystem.RString r_text;
+		public virtual RSystem.RString Rtext
 		{
 			get
 			{
@@ -219,8 +219,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Collections.Generic.IEnumerable`1[System.String] types
 		/// </summary>
-		protected RSystem.RCollections.RGeneric.RIEnumerable<RProperty> r_types;
-		public virtual RSystem.RCollections.RGeneric.RIEnumerable<RProperty> Rtypes
+		protected RSystem.RCollections.RGeneric.RIEnumerable<RSystem.RString> r_types;
+		public virtual RSystem.RCollections.RGeneric.RIEnumerable<RSystem.RString> Rtypes
 		{
 			get
 			{

@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.UInt32 k_MaxQueuedFrameCount
 		/// </summary>
-		protected static RField r_k_MaxQueuedFrameCount;
-		public static RField Rk_MaxQueuedFrameCount
+		protected static RSystem.RUInt32 r_k_MaxQueuedFrameCount;
+		public static RSystem.RUInt32 Rk_MaxQueuedFrameCount
 		{
 			get
 			{
@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Int32 k_PruneEmptyPageFrameCount
 		/// </summary>
-		protected static RField r_k_PruneEmptyPageFrameCount;
-		public static RField Rk_PruneEmptyPageFrameCount
+		protected static RSystem.RInt32 r_k_PruneEmptyPageFrameCount;
+		public static RSystem.RInt32 Rk_PruneEmptyPageFrameCount
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Boolean m_MockDevice
 		/// </summary>
-		protected RField r_m_MockDevice;
-		public virtual RField Rm_MockDevice
+		protected RSystem.RBoolean r_m_MockDevice;
+		public virtual RSystem.RBoolean Rm_MockDevice
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.IntPtr m_DefaultStencilState
 		/// </summary>
-		protected RField r_m_DefaultStencilState;
-		public virtual RField Rm_DefaultStencilState
+		protected RSystem.RIntPtr r_m_DefaultStencilState;
+		public virtual RSystem.RIntPtr Rm_DefaultStencilState
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.IntPtr m_VertexDecl
 		/// </summary>
-		protected RField r_m_VertexDecl;
-		public virtual RField Rm_VertexDecl
+		protected RSystem.RIntPtr r_m_VertexDecl;
+		public virtual RSystem.RIntPtr Rm_VertexDecl
 		{
 			get
 			{
@@ -115,8 +115,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.UInt32 m_NextPageVertexCount
 		/// </summary>
-		protected RField r_m_NextPageVertexCount;
-		public virtual RField Rm_NextPageVertexCount
+		protected RSystem.RUInt32 r_m_NextPageVertexCount;
+		public virtual RSystem.RUInt32 Rm_NextPageVertexCount
 		{
 			get
 			{
@@ -132,8 +132,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.UInt32 m_LargeMeshVertexCount
 		/// </summary>
-		protected RField r_m_LargeMeshVertexCount;
-		public virtual RField Rm_LargeMeshVertexCount
+		protected RSystem.RUInt32 r_m_LargeMeshVertexCount;
+		public virtual RSystem.RUInt32 Rm_LargeMeshVertexCount
 		{
 			get
 			{
@@ -149,8 +149,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Single m_IndexToVertexCountRatio
 		/// </summary>
-		protected RField r_m_IndexToVertexCountRatio;
-		public virtual RField Rm_IndexToVertexCountRatio
+		protected RSystem.RSingle r_m_IndexToVertexCountRatio;
+		public virtual RSystem.RSingle Rm_IndexToVertexCountRatio
 		{
 			get
 			{
@@ -200,8 +200,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.UInt32[] m_Fences
 		/// </summary>
-		protected RFieldArray<RField> r_m_Fences;
-		public virtual RFieldArray<RField> Rm_Fences
+		protected RFieldArray<RSystem.RUInt32> r_m_Fences;
+		public virtual RFieldArray<RSystem.RUInt32> Rm_Fences
 		{
 			get
 			{
@@ -234,8 +234,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.UInt32 m_FrameIndex
 		/// </summary>
-		protected RField r_m_FrameIndex;
-		public virtual RField Rm_FrameIndex
+		protected RSystem.RUInt32 r_m_FrameIndex;
+		public virtual RSystem.RUInt32 Rm_FrameIndex
 		{
 			get
 			{
@@ -251,8 +251,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.UInt32 m_NextUpdateID
 		/// </summary>
-		protected RField r_m_NextUpdateID;
-		public virtual RField Rm_NextUpdateID
+		protected RSystem.RUInt32 r_m_NextUpdateID;
+		public virtual RSystem.RUInt32 Rm_NextUpdateID
 		{
 			get
 			{
@@ -353,8 +353,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Int32 m_ActiveDeviceCount
 		/// </summary>
-		protected static RField r_m_ActiveDeviceCount;
-		public static RField Rm_ActiveDeviceCount
+		protected static RSystem.RInt32 r_m_ActiveDeviceCount;
+		public static RSystem.RInt32 Rm_ActiveDeviceCount
 		{
 			get
 			{
@@ -370,8 +370,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Boolean m_SubscribedToNotifications
 		/// </summary>
-		protected static RField r_m_SubscribedToNotifications;
-		public static RField Rm_SubscribedToNotifications
+		protected static RSystem.RBoolean r_m_SubscribedToNotifications;
+		public static RSystem.RBoolean Rm_SubscribedToNotifications
 		{
 			get
 			{
@@ -387,8 +387,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Boolean m_SynchronousFree
 		/// </summary>
-		protected static RField r_m_SynchronousFree;
-		public static RField Rm_SynchronousFree
+		protected static RSystem.RBoolean r_m_SynchronousFree;
+		public static RSystem.RBoolean Rm_SynchronousFree
 		{
 			get
 			{
@@ -404,8 +404,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Int32 s_GradientSettingsTexID
 		/// </summary>
-		protected static RField r_s_GradientSettingsTexID;
-		public static RField Rs_GradientSettingsTexID
+		protected static RSystem.RInt32 r_s_GradientSettingsTexID;
+		public static RSystem.RInt32 Rs_GradientSettingsTexID
 		{
 			get
 			{
@@ -421,8 +421,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Int32 s_ShaderInfoTexID
 		/// </summary>
-		protected static RField r_s_ShaderInfoTexID;
-		public static RField Rs_ShaderInfoTexID
+		protected static RSystem.RInt32 r_s_ShaderInfoTexID;
+		public static RSystem.RInt32 Rs_ShaderInfoTexID
 		{
 			get
 			{
@@ -438,8 +438,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Int32 s_TransformsPropID
 		/// </summary>
-		protected static RField r_s_TransformsPropID;
-		public static RField Rs_TransformsPropID
+		protected static RSystem.RInt32 r_s_TransformsPropID;
+		public static RSystem.RInt32 Rs_TransformsPropID
 		{
 			get
 			{
@@ -455,8 +455,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Int32 s_ClipRectsPropID
 		/// </summary>
-		protected static RField r_s_ClipRectsPropID;
-		public static RField Rs_ClipRectsPropID
+		protected static RSystem.RInt32 r_s_ClipRectsPropID;
+		public static RSystem.RInt32 Rs_ClipRectsPropID
 		{
 			get
 			{
@@ -557,8 +557,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Nullable`1[System.Boolean] s_VertexTexturingIsAvailable
 		/// </summary>
-		protected static RField r_s_VertexTexturingIsAvailable;
-		public static RField Rs_VertexTexturingIsAvailable
+		protected static RSystem.RNullable<RSystem.RBoolean> r_s_VertexTexturingIsAvailable;
+		public static RSystem.RNullable<RSystem.RBoolean> Rs_VertexTexturingIsAvailable
 		{
 			get
 			{
@@ -574,8 +574,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.String k_VertexTexturingIsAvailableTag
 		/// </summary>
-		protected static RField r_k_VertexTexturingIsAvailableTag;
-		public static RField Rk_VertexTexturingIsAvailableTag
+		protected static RSystem.RString r_k_VertexTexturingIsAvailableTag;
+		public static RSystem.RString Rk_VertexTexturingIsAvailableTag
 		{
 			get
 			{
@@ -591,8 +591,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.String k_VertexTexturingIsAvailableTrue
 		/// </summary>
-		protected static RField r_k_VertexTexturingIsAvailableTrue;
-		public static RField Rk_VertexTexturingIsAvailableTrue
+		protected static RSystem.RString r_k_VertexTexturingIsAvailableTrue;
+		public static RSystem.RString Rk_VertexTexturingIsAvailableTrue
 		{
 			get
 			{
@@ -608,8 +608,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Nullable`1[System.Boolean] s_ShaderModelIs35
 		/// </summary>
-		protected static RField r_s_ShaderModelIs35;
-		public static RField Rs_ShaderModelIs35
+		protected static RSystem.RNullable<RSystem.RBoolean> r_s_ShaderModelIs35;
+		public static RSystem.RNullable<RSystem.RBoolean> Rs_ShaderModelIs35
 		{
 			get
 			{
@@ -625,8 +625,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.String k_ShaderModelIs35Tag
 		/// </summary>
-		protected static RField r_k_ShaderModelIs35Tag;
-		public static RField Rk_ShaderModelIs35Tag
+		protected static RSystem.RString r_k_ShaderModelIs35Tag;
+		public static RSystem.RString Rk_ShaderModelIs35Tag
 		{
 			get
 			{
@@ -642,8 +642,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.String k_ShaderModelIs35True
 		/// </summary>
-		protected static RField r_k_ShaderModelIs35True;
-		public static RField Rk_ShaderModelIs35True
+		protected static RSystem.RString r_k_ShaderModelIs35True;
+		public static RSystem.RString Rk_ShaderModelIs35True
 		{
 			get
 			{
@@ -659,8 +659,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.UInt32 <maxVerticesPerPage>k__BackingField
 		/// </summary>
-		protected RField r___0__maxVerticesPerPage__1__k__BackingField;
-		public virtual RField R__0__maxVerticesPerPage__1__k__BackingField
+		protected RSystem.RUInt32 r___0__maxVerticesPerPage__1__k__BackingField;
+		public virtual RSystem.RUInt32 R__0__maxVerticesPerPage__1__k__BackingField
 		{
 			get
 			{
@@ -676,8 +676,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Boolean <breakBatches>k__BackingField
 		/// </summary>
-		protected RField r___0__breakBatches__1__k__BackingField;
-		public virtual RField R__0__breakBatches__1__k__BackingField
+		protected RSystem.RBoolean r___0__breakBatches__1__k__BackingField;
+		public virtual RSystem.RBoolean R__0__breakBatches__1__k__BackingField
 		{
 			get
 			{
@@ -744,8 +744,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Boolean <disposed>k__BackingField
 		/// </summary>
-		protected RField r___0__disposed__1__k__BackingField;
-		public virtual RField R__0__disposed__1__k__BackingField
+		protected RSystem.RBoolean r___0__disposed__1__k__BackingField;
+		public virtual RSystem.RBoolean R__0__disposed__1__k__BackingField
 		{
 			get
 			{
@@ -761,8 +761,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// UInt32 maxVerticesPerPage
 		/// </summary>
-		protected RProperty r_maxVerticesPerPage;
-		public virtual RProperty RmaxVerticesPerPage
+		protected RSystem.RUInt32 r_maxVerticesPerPage;
+		public virtual RSystem.RUInt32 RmaxVerticesPerPage
 		{
 			get
 			{
@@ -778,8 +778,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// Boolean breakBatches
 		/// </summary>
-		protected RProperty r_breakBatches;
-		public virtual RProperty RbreakBatches
+		protected RSystem.RBoolean r_breakBatches;
+		public virtual RSystem.RBoolean RbreakBatches
 		{
 			get
 			{
@@ -829,8 +829,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// Boolean vertexTexturingIsAvailable
 		/// </summary>
-		protected static RProperty r_vertexTexturingIsAvailable;
-		public static RProperty RvertexTexturingIsAvailable
+		protected static RSystem.RBoolean r_vertexTexturingIsAvailable;
+		public static RSystem.RBoolean RvertexTexturingIsAvailable
 		{
 			get
 			{
@@ -846,8 +846,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// Boolean shaderModelIs35
 		/// </summary>
-		protected static RProperty r_shaderModelIs35;
-		public static RProperty RshaderModelIs35
+		protected static RSystem.RBoolean r_shaderModelIs35;
+		public static RSystem.RBoolean RshaderModelIs35
 		{
 			get
 			{
@@ -863,8 +863,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// Boolean fullyCreated
 		/// </summary>
-		protected RProperty r_fullyCreated;
-		public virtual RProperty RfullyCreated
+		protected RSystem.RBoolean r_fullyCreated;
+		public virtual RSystem.RBoolean RfullyCreated
 		{
 			get
 			{
@@ -880,8 +880,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// Boolean disposed
 		/// </summary>
-		protected RProperty r_disposed;
-		public virtual RProperty Rdisposed
+		protected RSystem.RBoolean r_disposed;
+		public virtual RSystem.RBoolean Rdisposed
 		{
 			get
 			{
@@ -1613,7 +1613,51 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
         }
 
 
+        public virtual RUnityEngine.RUIElements.RUIR.RMeshHandle Allocate(System.UInt32 @vertexCount, System.UInt32 @indexCount, out RUnity.RCollections.RNativeSlice<RUnityEngine.RUIElements.RVertex> @vertexData, out RUnity.RCollections.RNativeSlice<RSystem.RUInt16> @indexData, out System.UInt16 @indexOffset)
+        {
+			@vertexData = default;
+			@indexData = default;
+			@indexOffset = default;
 
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@vertexCount, @indexCount, @vertexData.Value, @indexData.Value, @indexOffset};
+            var ___result = RAllocate_UInt32_UInt32_Out_NativeSlice_d_Vertex_p__Out_NativeSlice_d_UInt16_p__Out_UInt16.Invoke(___genericsType, ___parameters);
+			@vertexData = new RUnity.RCollections.RNativeSlice<RUnityEngine.RUIElements.RVertex>(___parameters[2]);
+			@indexData = new RUnity.RCollections.RNativeSlice<RSystem.RUInt16>(___parameters[3]);
+			@indexOffset = (System.UInt16)___parameters[4];
+
+            return new RUnityEngine.RUIElements.RUIR.RMeshHandle(___result);
+        }
+
+
+        public virtual void Update(RUnityEngine.RUIElements.RUIR.RMeshHandle @mesh, System.UInt32 @vertexCount, out RUnity.RCollections.RNativeSlice<RUnityEngine.RUIElements.RVertex> @vertexData)
+        {
+			@vertexData = default;
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@mesh.Value, @vertexCount, @vertexData.Value};
+            var ___result = RUpdate_MeshHandle_UInt32_Out_NativeSlice_d_Vertex_p_.Invoke(___genericsType, ___parameters);
+			@vertexData = new RUnity.RCollections.RNativeSlice<RUnityEngine.RUIElements.RVertex>(___parameters[2]);
+
+            
+        }
+
+
+        public virtual void Update(RUnityEngine.RUIElements.RUIR.RMeshHandle @mesh, System.UInt32 @vertexCount, System.UInt32 @indexCount, out RUnity.RCollections.RNativeSlice<RUnityEngine.RUIElements.RVertex> @vertexData, out RUnity.RCollections.RNativeSlice<RSystem.RUInt16> @indexData, out System.UInt16 @indexOffset)
+        {
+			@vertexData = default;
+			@indexData = default;
+			@indexOffset = default;
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@mesh.Value, @vertexCount, @indexCount, @vertexData.Value, @indexData.Value, @indexOffset};
+            var ___result = RUpdate_MeshHandle_UInt32_UInt32_Out_NativeSlice_d_Vertex_p__Out_NativeSlice_d_UInt16_p__Out_UInt16.Invoke(___genericsType, ___parameters);
+			@vertexData = new RUnity.RCollections.RNativeSlice<RUnityEngine.RUIElements.RVertex>(___parameters[3]);
+			@indexData = new RUnity.RCollections.RNativeSlice<RSystem.RUInt16>(___parameters[4]);
+			@indexOffset = (System.UInt16)___parameters[5];
+
+            
+        }
 
 
         public virtual System.Boolean TryAllocFromPage(RUnityEngine.RUIElements.RUIR.RPage @page, System.UInt32 @vertexCount, System.UInt32 @indexCount, ref RUnityEngine.RUIElements.RUIR.RAlloc @va, ref RUnityEngine.RUIElements.RUIR.RAlloc @ia, System.Boolean @shortLived)
@@ -1629,6 +1673,38 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
         }
 
 
+        public virtual void Allocate(RUnityEngine.RUIElements.RUIR.RMeshHandle @meshHandle, System.UInt32 @vertexCount, System.UInt32 @indexCount, out RUnity.RCollections.RNativeSlice<RUnityEngine.RUIElements.RVertex> @vertexData, out RUnity.RCollections.RNativeSlice<RSystem.RUInt16> @indexData, System.Boolean @shortLived)
+        {
+			@vertexData = default;
+			@indexData = default;
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@meshHandle.Value, @vertexCount, @indexCount, @vertexData.Value, @indexData.Value, @shortLived};
+            var ___result = RAllocate_MeshHandle_UInt32_UInt32_Out_NativeSlice_d_Vertex_p__Out_NativeSlice_d_UInt16_p__Boolean.Invoke(___genericsType, ___parameters);
+			@vertexData = new RUnity.RCollections.RNativeSlice<RUnityEngine.RUIElements.RVertex>(___parameters[3]);
+			@indexData = new RUnity.RCollections.RNativeSlice<RSystem.RUInt16>(___parameters[4]);
+
+            
+        }
+
+
+        public virtual void UpdateAfterGPUUsedData(RUnityEngine.RUIElements.RUIR.RMeshHandle @mesh, System.UInt32 @vertexCount, System.UInt32 @indexCount, out RUnity.RCollections.RNativeSlice<RUnityEngine.RUIElements.RVertex> @vertexData, out RUnity.RCollections.RNativeSlice<RSystem.RUInt16> @indexData, out System.UInt16 @indexOffset, out RUnityEngine.RUIElements.RUIR.RUIRenderDevice.RAllocToUpdate @allocToUpdate, System.Boolean @copyBackIndices)
+        {
+			@vertexData = default;
+			@indexData = default;
+			@indexOffset = default;
+			@allocToUpdate = default;
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@mesh.Value, @vertexCount, @indexCount, @vertexData.Value, @indexData.Value, @indexOffset, @allocToUpdate.Value, @copyBackIndices};
+            var ___result = RUpdateAfterGPUUsedData_MeshHandle_UInt32_UInt32_Out_NativeSlice_d_Vertex_p__Out_NativeSlice_d_UInt16_p__Out_UInt16_Out_AllocToUpdate_Boolean.Invoke(___genericsType, ___parameters);
+			@vertexData = new RUnity.RCollections.RNativeSlice<RUnityEngine.RUIElements.RVertex>(___parameters[3]);
+			@indexData = new RUnity.RCollections.RNativeSlice<RSystem.RUInt16>(___parameters[4]);
+			@indexOffset = (System.UInt16)___parameters[5];
+			@allocToUpdate = new RUnityEngine.RUIElements.RUIR.RUIRenderDevice.RAllocToUpdate(___parameters[6]);
+
+            
+        }
 
 
         public virtual void Free(RUnityEngine.RUIElements.RUIR.RMeshHandle @mesh)
@@ -1653,14 +1729,14 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
         }
 
 
-        public unsafe static System.Object PtrToSlice<T>(void* @p, System.Int32 @count) where T : struct
+        public unsafe static RUnity.RCollections.RNativeSlice<RType> PtrToSlice<T>(void* @p, System.Int32 @count) where T : struct
         {
 
             var ___genericsType = new Type[] {typeof(T)};
             var ___parameters = new object[]{Pointer.Box(@p, typeof(void)), @count};
             var ___result = RPtrToSlice_GT_VoidPointer_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RUnity.RCollections.RNativeSlice<RType>(___result);
         }
 
 
@@ -1688,6 +1764,17 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
         }
 
 
+        public virtual void EvaluateChain(RUnityEngine.RUIElements.RUIR.RRenderChainCommand @head, UnityEngine.Material @initialMat, UnityEngine.Material @defaultMat, UnityEngine.Texture @gradientSettings, UnityEngine.Texture @shaderInfo, System.Single @pixelsPerPoint, RUnity.RCollections.RNativeSlice<RUnityEngine.RUIElements.RUIR.RTransform3x4> @transforms, RUnity.RCollections.RNativeSlice<RUnityEngine.RVector4> @clipRects, UnityEngine.MaterialPropertyBlock @stateMatProps, System.Boolean @allowMaterialChange, ref System.Exception @immediateException)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@head.Value, @initialMat, @defaultMat, @gradientSettings, @shaderInfo, @pixelsPerPoint, @transforms.Value, @clipRects.Value, @stateMatProps, @allowMaterialChange, @immediateException};
+            var ___result = REvaluateChain_RenderChainCommand_Material_Material_Texture_Texture_Single_NativeSlice_d_Transform3x4_p__NativeSlice_d_Vector4_p__MaterialPropertyBlock_Boolean_Ref_Exception.Invoke(___genericsType, ___parameters);
+			@immediateException = (System.Exception)___parameters[10];
+
+            
+        }
+
 
         public virtual void UpdateFenceValue()
         {
@@ -1712,6 +1799,16 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
             
         }
 
+
+        public virtual void DrawRanges<I, T>(RUnityEngine.RUIElements.RUIR.RUtility.RGPUBuffer<RType> @ib, RUnityEngine.RUIElements.RUIR.RUtility.RGPUBuffer<RType> @vb, RUnity.RCollections.RNativeSlice<RUnityEngine.RUIElements.RUIR.RDrawBufferRange> @ranges) where I : struct where T : struct
+        {
+
+            var ___genericsType = new Type[] {typeof(I), typeof(T)};
+            var ___parameters = new object[]{@ib.Value, @vb.Value, @ranges.Value};
+            var ___result = RDrawRanges_GI_GT_GPUBuffer_d_I_p__GPUBuffer_d_T_p__NativeSlice_d_DrawBufferRange_p_.Invoke(___genericsType, ___parameters);
+
+            
+        }
 
 
         public virtual void WaitOnAllCpuFences()

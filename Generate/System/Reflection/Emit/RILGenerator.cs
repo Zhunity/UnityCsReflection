@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Byte[] code
 		/// </summary>
-		protected RFieldArray<RField> r_code;
-		public virtual RFieldArray<RField> Rcode
+		protected RFieldArray<RSystem.RByte> r_code;
+		public virtual RFieldArray<RSystem.RByte> Rcode
 		{
 			get
 			{
@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Int32 code_len
 		/// </summary>
-		protected RField r_code_len;
-		public virtual RField Rcode_len
+		protected RSystem.RInt32 r_code_len;
+		public virtual RSystem.RInt32 Rcode_len
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Int32 max_stack
 		/// </summary>
-		protected RField r_max_stack;
-		public virtual RField Rmax_stack
+		protected RSystem.RInt32 r_max_stack;
+		public virtual RSystem.RInt32 Rmax_stack
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Int32 cur_stack
 		/// </summary>
-		protected RField r_cur_stack;
-		public virtual RField Rcur_stack
+		protected RSystem.RInt32 r_cur_stack;
+		public virtual RSystem.RInt32 Rcur_stack
 		{
 			get
 			{
@@ -115,8 +115,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Int32 num_token_fixups
 		/// </summary>
-		protected RField r_num_token_fixups;
-		public virtual RField Rnum_token_fixups
+		protected RSystem.RInt32 r_num_token_fixups;
+		public virtual RSystem.RInt32 Rnum_token_fixups
 		{
 			get
 			{
@@ -166,8 +166,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Int32 num_labels
 		/// </summary>
-		protected RField r_num_labels;
-		public virtual RField Rnum_labels
+		protected RSystem.RInt32 r_num_labels;
+		public virtual RSystem.RInt32 Rnum_labels
 		{
 			get
 			{
@@ -200,8 +200,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Int32 num_fixups
 		/// </summary>
-		protected RField r_num_fixups;
-		public virtual RField Rnum_fixups
+		protected RSystem.RInt32 r_num_fixups;
+		public virtual RSystem.RInt32 Rnum_fixups
 		{
 			get
 			{
@@ -234,8 +234,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Int32 cur_block
 		/// </summary>
-		protected RField r_cur_block;
-		public virtual RField Rcur_block
+		protected RSystem.RInt32 r_cur_block;
+		public virtual RSystem.RInt32 Rcur_block
 		{
 			get
 			{
@@ -285,8 +285,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Int32 defaultFixupSize
 		/// </summary>
-		protected static RField r_defaultFixupSize;
-		public static RField RdefaultFixupSize
+		protected static RSystem.RInt32 r_defaultFixupSize;
+		public static RSystem.RInt32 RdefaultFixupSize
 		{
 			get
 			{
@@ -302,8 +302,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Int32 defaultLabelsSize
 		/// </summary>
-		protected static RField r_defaultLabelsSize;
-		public static RField RdefaultLabelsSize
+		protected static RSystem.RInt32 r_defaultLabelsSize;
+		public static RSystem.RInt32 RdefaultLabelsSize
 		{
 			get
 			{
@@ -319,8 +319,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Int32 defaultExceptionStackSize
 		/// </summary>
-		protected static RField r_defaultExceptionStackSize;
-		public static RField RdefaultExceptionStackSize
+		protected static RSystem.RInt32 r_defaultExceptionStackSize;
+		public static RSystem.RInt32 RdefaultExceptionStackSize
 		{
 			get
 			{
@@ -370,8 +370,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// Boolean HasDebugInfo
 		/// </summary>
-		protected RProperty r_HasDebugInfo;
-		public virtual RProperty RHasDebugInfo
+		protected RSystem.RBoolean r_HasDebugInfo;
+		public virtual RSystem.RBoolean RHasDebugInfo
 		{
 			get
 			{
@@ -404,8 +404,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// Int32 ILOffset
 		/// </summary>
-		protected RProperty r_ILOffset;
-		public virtual RProperty RILOffset
+		protected RSystem.RInt32 r_ILOffset;
+		public virtual RSystem.RInt32 RILOffset
 		{
 			get
 			{

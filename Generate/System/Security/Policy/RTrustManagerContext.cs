@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
 		/// <summary>
 		/// System.Boolean _ignorePersistedDecision
 		/// </summary>
-		protected RField r__ignorePersistedDecision;
-		public virtual RField R_ignorePersistedDecision
+		protected RSystem.RBoolean r__ignorePersistedDecision;
+		public virtual RSystem.RBoolean R_ignorePersistedDecision
 		{
 			get
 			{
@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
 		/// <summary>
 		/// System.Boolean _noPrompt
 		/// </summary>
-		protected RField r__noPrompt;
-		public virtual RField R_noPrompt
+		protected RSystem.RBoolean r__noPrompt;
+		public virtual RSystem.RBoolean R_noPrompt
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
 		/// <summary>
 		/// System.Boolean _keepAlive
 		/// </summary>
-		protected RField r__keepAlive;
-		public virtual RField R_keepAlive
+		protected RSystem.RBoolean r__keepAlive;
+		public virtual RSystem.RBoolean R_keepAlive
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
 		/// <summary>
 		/// System.Boolean _persist
 		/// </summary>
-		protected RField r__persist;
-		public virtual RField R_persist
+		protected RSystem.RBoolean r__persist;
+		public virtual RSystem.RBoolean R_persist
 		{
 			get
 			{
@@ -115,8 +115,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
 		/// <summary>
 		/// Boolean IgnorePersistedDecision
 		/// </summary>
-		protected RProperty r_IgnorePersistedDecision;
-		public virtual RProperty RIgnorePersistedDecision
+		protected RSystem.RBoolean r_IgnorePersistedDecision;
+		public virtual RSystem.RBoolean RIgnorePersistedDecision
 		{
 			get
 			{
@@ -132,8 +132,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
 		/// <summary>
 		/// Boolean KeepAlive
 		/// </summary>
-		protected RProperty r_KeepAlive;
-		public virtual RProperty RKeepAlive
+		protected RSystem.RBoolean r_KeepAlive;
+		public virtual RSystem.RBoolean RKeepAlive
 		{
 			get
 			{
@@ -149,8 +149,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
 		/// <summary>
 		/// Boolean NoPrompt
 		/// </summary>
-		protected RProperty r_NoPrompt;
-		public virtual RProperty RNoPrompt
+		protected RSystem.RBoolean r_NoPrompt;
+		public virtual RSystem.RBoolean RNoPrompt
 		{
 			get
 			{
@@ -166,8 +166,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
 		/// <summary>
 		/// Boolean Persist
 		/// </summary>
-		protected RProperty r_Persist;
-		public virtual RProperty RPersist
+		protected RSystem.RBoolean r_Persist;
+		public virtual RSystem.RBoolean RPersist
 		{
 			get
 			{

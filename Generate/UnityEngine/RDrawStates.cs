@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Int32 controlId
 		/// </summary>
-		protected RField r_controlId;
-		public virtual RField RcontrolId
+		protected RSystem.RInt32 r_controlId;
+		public virtual RSystem.RInt32 RcontrolId
 		{
 			get
 			{
@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Boolean isHover
 		/// </summary>
-		protected RField r_isHover;
-		public virtual RField RisHover
+		protected RSystem.RBoolean r_isHover;
+		public virtual RSystem.RBoolean RisHover
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Boolean isActive
 		/// </summary>
-		protected RField r_isActive;
-		public virtual RField RisActive
+		protected RSystem.RBoolean r_isActive;
+		public virtual RSystem.RBoolean RisActive
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Boolean on
 		/// </summary>
-		protected RField r_on;
-		public virtual RField Ron
+		protected RSystem.RBoolean r_on;
+		public virtual RSystem.RBoolean Ron
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Boolean hasKeyboardFocus
 		/// </summary>
-		protected RField r_hasKeyboardFocus;
-		public virtual RField RhasKeyboardFocus
+		protected RSystem.RBoolean r_hasKeyboardFocus;
+		public virtual RSystem.RBoolean RhasKeyboardFocus
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Boolean hasTextInput
 		/// </summary>
-		protected RField r_hasTextInput;
-		public virtual RField RhasTextInput
+		protected RSystem.RBoolean r_hasTextInput;
+		public virtual RSystem.RBoolean RhasTextInput
 		{
 			get
 			{
@@ -115,8 +115,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Boolean drawSelectionAsComposition
 		/// </summary>
-		protected RField r_drawSelectionAsComposition;
-		public virtual RField RdrawSelectionAsComposition
+		protected RSystem.RBoolean r_drawSelectionAsComposition;
+		public virtual RSystem.RBoolean RdrawSelectionAsComposition
 		{
 			get
 			{
@@ -132,8 +132,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Int32 cursorFirst
 		/// </summary>
-		protected RField r_cursorFirst;
-		public virtual RField RcursorFirst
+		protected RSystem.RInt32 r_cursorFirst;
+		public virtual RSystem.RInt32 RcursorFirst
 		{
 			get
 			{
@@ -149,8 +149,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Int32 cursorLast
 		/// </summary>
-		protected RField r_cursorLast;
-		public virtual RField RcursorLast
+		protected RSystem.RInt32 r_cursorLast;
+		public virtual RSystem.RInt32 RcursorLast
 		{
 			get
 			{

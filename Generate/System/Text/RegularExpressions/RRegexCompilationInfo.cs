@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.String _pattern
 		/// </summary>
-		protected RField r__pattern;
-		public virtual RField R_pattern
+		protected RSystem.RString r__pattern;
+		public virtual RSystem.RString R_pattern
 		{
 			get
 			{
@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.String _name
 		/// </summary>
-		protected RField r__name;
-		public virtual RField R_name
+		protected RSystem.RString r__name;
+		public virtual RSystem.RString R_name
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.String _nspace
 		/// </summary>
-		protected RField r__nspace;
-		public virtual RField R_nspace
+		protected RSystem.RString r__nspace;
+		public virtual RSystem.RString R_nspace
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Boolean <IsPublic>k__BackingField
 		/// </summary>
-		protected RField r___0__IsPublic__1__k__BackingField;
-		public virtual RField R__0__IsPublic__1__k__BackingField
+		protected RSystem.RBoolean r___0__IsPublic__1__k__BackingField;
+		public virtual RSystem.RBoolean R__0__IsPublic__1__k__BackingField
 		{
 			get
 			{
@@ -115,8 +115,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// Boolean IsPublic
 		/// </summary>
-		protected RProperty r_IsPublic;
-		public virtual RProperty RIsPublic
+		protected RSystem.RBoolean r_IsPublic;
+		public virtual RSystem.RBoolean RIsPublic
 		{
 			get
 			{
@@ -149,8 +149,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.String Name
 		/// </summary>
-		protected RProperty r_Name;
-		public virtual RProperty RName
+		protected RSystem.RString r_Name;
+		public virtual RSystem.RString RName
 		{
 			get
 			{
@@ -166,8 +166,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.String Namespace
 		/// </summary>
-		protected RProperty r_Namespace;
-		public virtual RProperty RNamespace
+		protected RSystem.RString r_Namespace;
+		public virtual RSystem.RString RNamespace
 		{
 			get
 			{
@@ -200,8 +200,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.String Pattern
 		/// </summary>
-		protected RProperty r_Pattern;
-		public virtual RProperty RPattern
+		protected RSystem.RString r_Pattern;
+		public virtual RSystem.RString RPattern
 		{
 			get
 			{

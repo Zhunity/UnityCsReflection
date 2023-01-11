@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.IntPtr m_Ptr
 		/// </summary>
-		protected RField r_m_Ptr;
-		public virtual RField Rm_Ptr
+		protected RSystem.RIntPtr r_m_Ptr;
+		public virtual RSystem.RIntPtr Rm_Ptr
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 count
 		/// </summary>
-		protected RProperty r_count;
-		public virtual RProperty Rcount
+		protected RSystem.RInt32 r_count;
+		public virtual RSystem.RInt32 Rcount
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 stride
 		/// </summary>
-		protected RProperty r_stride;
-		public virtual RProperty Rstride
+		protected RSystem.RInt32 r_stride;
+		public virtual RSystem.RInt32 Rstride
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.String name
 		/// </summary>
-		protected RProperty r_name;
-		public virtual RProperty Rname
+		protected RSystem.RString r_name;
+		public virtual RSystem.RString Rname
 		{
 			get
 			{
@@ -807,16 +807,26 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SetData<T>(System.Collections.Generic.List<T> @data) where T : struct
+        public virtual void SetData<T>(RSystem.RCollections.RGeneric.RList<RType> @data) where T : struct
         {
 
             var ___genericsType = new Type[] {typeof(T)};
-            var ___parameters = new object[]{@data};
+            var ___parameters = new object[]{@data.Value};
             var ___result = RSetData_GT_List_d_T_p_.Invoke(___genericsType, ___parameters);
 
             
         }
 
+
+        public virtual void SetData<T>(RUnity.RCollections.RNativeArray<RType> @data) where T : struct
+        {
+
+            var ___genericsType = new Type[] {typeof(T)};
+            var ___parameters = new object[]{@data.Value};
+            var ___result = RSetData_GT_NativeArray_d_T_p_.Invoke(___genericsType, ___parameters);
+
+            
+        }
 
 
         public virtual void SetData(System.Array @data, System.Int32 @managedBufferStartIndex, System.Int32 @computeBufferStartIndex, System.Int32 @count)
@@ -830,16 +840,26 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SetData<T>(System.Collections.Generic.List<T> @data, System.Int32 @managedBufferStartIndex, System.Int32 @computeBufferStartIndex, System.Int32 @count) where T : struct
+        public virtual void SetData<T>(RSystem.RCollections.RGeneric.RList<RType> @data, System.Int32 @managedBufferStartIndex, System.Int32 @computeBufferStartIndex, System.Int32 @count) where T : struct
         {
 
             var ___genericsType = new Type[] {typeof(T)};
-            var ___parameters = new object[]{@data, @managedBufferStartIndex, @computeBufferStartIndex, @count};
+            var ___parameters = new object[]{@data.Value, @managedBufferStartIndex, @computeBufferStartIndex, @count};
             var ___result = RSetData_GT_List_d_T_p__Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
 
             
         }
 
+
+        public virtual void SetData<T>(RUnity.RCollections.RNativeArray<RType> @data, System.Int32 @nativeBufferStartIndex, System.Int32 @computeBufferStartIndex, System.Int32 @count) where T : struct
+        {
+
+            var ___genericsType = new Type[] {typeof(T)};
+            var ___parameters = new object[]{@data.Value, @nativeBufferStartIndex, @computeBufferStartIndex, @count};
+            var ___result = RSetData_GT_NativeArray_d_T_p__Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
+
+            
+        }
 
 
         public virtual void InternalSetNativeData(System.IntPtr @data, System.Int32 @nativeBufferStartIndex, System.Int32 @computeBufferStartIndex, System.Int32 @count, System.Int32 @elemSize)
@@ -908,14 +928,14 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Object BeginWrite<T>(System.Int32 @computeBufferStartIndex, System.Int32 @count) where T : struct
+        public virtual RUnity.RCollections.RNativeArray<RType> BeginWrite<T>(System.Int32 @computeBufferStartIndex, System.Int32 @count) where T : struct
         {
 
             var ___genericsType = new Type[] {typeof(T)};
             var ___parameters = new object[]{@computeBufferStartIndex, @count};
             var ___result = RBeginWrite_GT_Int32_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return new RUnity.RCollections.RNativeArray<RType>(___result);
         }
 
 

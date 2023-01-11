@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Int32 CacheDictionarySwitchLimit
 		/// </summary>
-		protected static RField r_CacheDictionarySwitchLimit;
-		public static RField RCacheDictionarySwitchLimit
+		protected static RSystem.RInt32 r_CacheDictionarySwitchLimit;
+		public static RSystem.RInt32 RCacheDictionarySwitchLimit
 		{
 			get
 			{
@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Int32 s_cacheSize
 		/// </summary>
-		protected static RField r_s_cacheSize;
-		public static RField Rs_cacheSize
+		protected static RSystem.RInt32 r_s_cacheSize;
+		public static RSystem.RInt32 Rs_cacheSize
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Int32 s_cacheCount
 		/// </summary>
-		protected static RField r_s_cacheCount;
-		public static RField Rs_cacheCount
+		protected static RSystem.RInt32 r_s_cacheCount;
+		public static RSystem.RInt32 Rs_cacheCount
 		{
 			get
 			{
@@ -132,8 +132,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.String DefaultMatchTimeout_ConfigKeyName
 		/// </summary>
-		protected static RField r_DefaultMatchTimeout_ConfigKeyName;
-		public static RField RDefaultMatchTimeout_ConfigKeyName
+		protected static RSystem.RString r_DefaultMatchTimeout_ConfigKeyName;
+		public static RSystem.RString RDefaultMatchTimeout_ConfigKeyName
 		{
 			get
 			{
@@ -200,8 +200,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Int32 MaxOptionShift
 		/// </summary>
-		protected static RField r_MaxOptionShift;
-		public static RField RMaxOptionShift
+		protected static RSystem.RInt32 r_MaxOptionShift;
+		public static RSystem.RInt32 RMaxOptionShift
 		{
 			get
 			{
@@ -217,8 +217,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.String pattern
 		/// </summary>
-		protected RField r_pattern;
-		public virtual RField Rpattern
+		protected RSystem.RString r_pattern;
+		public virtual RSystem.RString Rpattern
 		{
 			get
 			{
@@ -302,8 +302,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.String[] capslist
 		/// </summary>
-		protected RFieldArray<RField> r_capslist;
-		public virtual RFieldArray<RField> Rcapslist
+		protected RFieldArray<RSystem.RString> r_capslist;
+		public virtual RFieldArray<RSystem.RString> Rcapslist
 		{
 			get
 			{
@@ -319,8 +319,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Int32 capsize
 		/// </summary>
-		protected RField r_capsize;
-		public virtual RField Rcapsize
+		protected RSystem.RInt32 r_capsize;
+		public virtual RSystem.RInt32 Rcapsize
 		{
 			get
 			{
@@ -387,8 +387,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Boolean _refsInitialized
 		/// </summary>
-		protected RField r__refsInitialized;
-		public virtual RField R_refsInitialized
+		protected RSystem.RBoolean r__refsInitialized;
+		public virtual RSystem.RBoolean R_refsInitialized
 		{
 			get
 			{
@@ -404,8 +404,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// Int32 CacheSize
 		/// </summary>
-		protected static RProperty r_CacheSize;
-		public static RProperty RCacheSize
+		protected static RSystem.RInt32 r_CacheSize;
+		public static RSystem.RInt32 RCacheSize
 		{
 			get
 			{
@@ -489,8 +489,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// Boolean RightToLeft
 		/// </summary>
-		protected RProperty r_RightToLeft;
-		public virtual RProperty RRightToLeft
+		protected RSystem.RBoolean r_RightToLeft;
+		public virtual RSystem.RBoolean RRightToLeft
 		{
 			get
 			{

@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 		/// <summary>
 		/// System.String errorValue
 		/// </summary>
-		protected RField r_errorValue;
-		public virtual RField RerrorValue
+		protected RSystem.RString r_errorValue;
+		public virtual RSystem.RString RerrorValue
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 		/// <summary>
 		/// Boolean success
 		/// </summary>
-		protected RProperty r_success;
-		public virtual RProperty Rsuccess
+		protected RSystem.RBoolean r_success;
+		public virtual RSystem.RBoolean Rsuccess
 		{
 			get
 			{

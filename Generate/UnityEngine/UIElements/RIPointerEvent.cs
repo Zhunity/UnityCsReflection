@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Int32 pointerId
 		/// </summary>
-		protected RProperty r_pointerId;
-		public virtual RProperty RpointerId
+		protected RSystem.RInt32 r_pointerId;
+		public virtual RSystem.RInt32 RpointerId
 		{
 			get
 			{
@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.String pointerType
 		/// </summary>
-		protected RProperty r_pointerType;
-		public virtual RProperty RpointerType
+		protected RSystem.RString r_pointerType;
+		public virtual RSystem.RString RpointerType
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Boolean isPrimary
 		/// </summary>
-		protected RProperty r_isPrimary;
-		public virtual RProperty RisPrimary
+		protected RSystem.RBoolean r_isPrimary;
+		public virtual RSystem.RBoolean RisPrimary
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Int32 button
 		/// </summary>
-		protected RProperty r_button;
-		public virtual RProperty Rbutton
+		protected RSystem.RInt32 r_button;
+		public virtual RSystem.RInt32 Rbutton
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Int32 pressedButtons
 		/// </summary>
-		protected RProperty r_pressedButtons;
-		public virtual RProperty RpressedButtons
+		protected RSystem.RInt32 r_pressedButtons;
+		public virtual RSystem.RInt32 RpressedButtons
 		{
 			get
 			{
@@ -149,8 +149,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Single deltaTime
 		/// </summary>
-		protected RProperty r_deltaTime;
-		public virtual RProperty RdeltaTime
+		protected RSystem.RSingle r_deltaTime;
+		public virtual RSystem.RSingle RdeltaTime
 		{
 			get
 			{
@@ -166,8 +166,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Int32 clickCount
 		/// </summary>
-		protected RProperty r_clickCount;
-		public virtual RProperty RclickCount
+		protected RSystem.RInt32 r_clickCount;
+		public virtual RSystem.RInt32 RclickCount
 		{
 			get
 			{
@@ -183,8 +183,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Single pressure
 		/// </summary>
-		protected RProperty r_pressure;
-		public virtual RProperty Rpressure
+		protected RSystem.RSingle r_pressure;
+		public virtual RSystem.RSingle Rpressure
 		{
 			get
 			{
@@ -200,8 +200,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Single tangentialPressure
 		/// </summary>
-		protected RProperty r_tangentialPressure;
-		public virtual RProperty RtangentialPressure
+		protected RSystem.RSingle r_tangentialPressure;
+		public virtual RSystem.RSingle RtangentialPressure
 		{
 			get
 			{
@@ -217,8 +217,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Single altitudeAngle
 		/// </summary>
-		protected RProperty r_altitudeAngle;
-		public virtual RProperty RaltitudeAngle
+		protected RSystem.RSingle r_altitudeAngle;
+		public virtual RSystem.RSingle RaltitudeAngle
 		{
 			get
 			{
@@ -234,8 +234,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Single azimuthAngle
 		/// </summary>
-		protected RProperty r_azimuthAngle;
-		public virtual RProperty RazimuthAngle
+		protected RSystem.RSingle r_azimuthAngle;
+		public virtual RSystem.RSingle RazimuthAngle
 		{
 			get
 			{
@@ -251,8 +251,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Single twist
 		/// </summary>
-		protected RProperty r_twist;
-		public virtual RProperty Rtwist
+		protected RSystem.RSingle r_twist;
+		public virtual RSystem.RSingle Rtwist
 		{
 			get
 			{
@@ -353,8 +353,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Boolean shiftKey
 		/// </summary>
-		protected RProperty r_shiftKey;
-		public virtual RProperty RshiftKey
+		protected RSystem.RBoolean r_shiftKey;
+		public virtual RSystem.RBoolean RshiftKey
 		{
 			get
 			{
@@ -370,8 +370,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Boolean ctrlKey
 		/// </summary>
-		protected RProperty r_ctrlKey;
-		public virtual RProperty RctrlKey
+		protected RSystem.RBoolean r_ctrlKey;
+		public virtual RSystem.RBoolean RctrlKey
 		{
 			get
 			{
@@ -387,8 +387,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Boolean commandKey
 		/// </summary>
-		protected RProperty r_commandKey;
-		public virtual RProperty RcommandKey
+		protected RSystem.RBoolean r_commandKey;
+		public virtual RSystem.RBoolean RcommandKey
 		{
 			get
 			{
@@ -404,8 +404,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Boolean altKey
 		/// </summary>
-		protected RProperty r_altKey;
-		public virtual RProperty RaltKey
+		protected RSystem.RBoolean r_altKey;
+		public virtual RSystem.RBoolean RaltKey
 		{
 			get
 			{
@@ -421,8 +421,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Boolean actionKey
 		/// </summary>
-		protected RProperty r_actionKey;
-		public virtual RProperty RactionKey
+		protected RSystem.RBoolean r_actionKey;
+		public virtual RSystem.RBoolean RactionKey
 		{
 			get
 			{

@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Collections.Generic.Dictionary`2[System.Int32,UnityEngine.TextCore.Text.TextStyle] m_StyleLookupDictionary
 		/// </summary>
-		protected RSystem.RCollections.RGeneric.RDictionary<RField, RUnityEngine.RTextCore.RText.RTextStyle> r_m_StyleLookupDictionary;
-		public virtual RSystem.RCollections.RGeneric.RDictionary<RField, RUnityEngine.RTextCore.RText.RTextStyle> Rm_StyleLookupDictionary
+		protected RSystem.RCollections.RGeneric.RDictionary<RSystem.RInt32, RUnityEngine.RTextCore.RText.RTextStyle> r_m_StyleLookupDictionary;
+		public virtual RSystem.RCollections.RGeneric.RDictionary<RSystem.RInt32, RUnityEngine.RTextCore.RText.RTextStyle> Rm_StyleLookupDictionary
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.String name
 		/// </summary>
-		protected RProperty r_name;
-		public virtual RProperty Rname
+		protected RSystem.RString r_name;
+		public virtual RSystem.RString Rname
 		{
 			get
 			{

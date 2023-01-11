@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Boolean <IsField>k__BackingField
 		/// </summary>
-		protected RField r___0__IsField__1__k__BackingField;
-		public virtual RField R__0__IsField__1__k__BackingField
+		protected RSystem.RBoolean r___0__IsField__1__k__BackingField;
+		public virtual RSystem.RBoolean R__0__IsField__1__k__BackingField
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.String <MemberName>k__BackingField
 		/// </summary>
-		protected RField r___0__MemberName__1__k__BackingField;
-		public virtual RField R__0__MemberName__1__k__BackingField
+		protected RSystem.RString r___0__MemberName__1__k__BackingField;
+		public virtual RSystem.RString R__0__MemberName__1__k__BackingField
 		{
 			get
 			{
@@ -115,8 +115,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// Boolean IsField
 		/// </summary>
-		protected RProperty r_IsField;
-		public virtual RProperty RIsField
+		protected RSystem.RBoolean r_IsField;
+		public virtual RSystem.RBoolean RIsField
 		{
 			get
 			{
@@ -132,8 +132,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.String MemberName
 		/// </summary>
-		protected RProperty r_MemberName;
-		public virtual RProperty RMemberName
+		protected RSystem.RString r_MemberName;
+		public virtual RSystem.RString RMemberName
 		{
 			get
 			{

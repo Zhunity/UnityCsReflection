@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Int32 m_Limit
 		/// </summary>
-		protected RField r_m_Limit;
-		public virtual RField Rm_Limit
+		protected RSystem.RInt32 r_m_Limit;
+		public virtual RSystem.RInt32 Rm_Limit
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Int32 <Count>k__BackingField
 		/// </summary>
-		protected RField r___0__Count__1__k__BackingField;
-		public virtual RField R__0__Count__1__k__BackingField
+		protected RSystem.RInt32 r___0__Count__1__k__BackingField;
+		public virtual RSystem.RInt32 R__0__Count__1__k__BackingField
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// Int32 Count
 		/// </summary>
-		protected RProperty r_Count;
-		public virtual RProperty RCount
+		protected RSystem.RInt32 r_Count;
+		public virtual RSystem.RInt32 RCount
 		{
 			get
 			{

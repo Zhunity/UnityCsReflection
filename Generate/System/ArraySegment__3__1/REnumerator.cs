@@ -32,8 +32,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Int32 _start
 		/// </summary>
-		protected RField r__start;
-		public virtual RField R_start
+		protected RSystem.RInt32 r__start;
+		public virtual RSystem.RInt32 R_start
 		{
 			get
 			{
@@ -49,8 +49,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Int32 _end
 		/// </summary>
-		protected RField r__end;
-		public virtual RField R_end
+		protected RSystem.RInt32 r__end;
+		public virtual RSystem.RInt32 R_end
 		{
 			get
 			{
@@ -66,8 +66,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Int32 _current
 		/// </summary>
-		protected RField r__current;
-		public virtual RField R_current
+		protected RSystem.RInt32 r__current;
+		public virtual RSystem.RInt32 R_current
 		{
 			get
 			{

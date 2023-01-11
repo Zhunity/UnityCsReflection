@@ -15,8 +15,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Int32 currentFrameIndex
 		/// </summary>
-		protected RField r_currentFrameIndex;
-		public virtual RField RcurrentFrameIndex
+		protected RSystem.RInt32 r_currentFrameIndex;
+		public virtual RSystem.RInt32 RcurrentFrameIndex
 		{
 			get
 			{
@@ -32,8 +32,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.UInt32 totalIndices
 		/// </summary>
-		protected RField r_totalIndices;
-		public virtual RField RtotalIndices
+		protected RSystem.RUInt32 r_totalIndices;
+		public virtual RSystem.RUInt32 RtotalIndices
 		{
 			get
 			{
@@ -49,8 +49,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.UInt32 commandCount
 		/// </summary>
-		protected RField r_commandCount;
-		public virtual RField RcommandCount
+		protected RSystem.RUInt32 r_commandCount;
+		public virtual RSystem.RUInt32 RcommandCount
 		{
 			get
 			{
@@ -66,8 +66,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.UInt32 drawCommandCount
 		/// </summary>
-		protected RField r_drawCommandCount;
-		public virtual RField RdrawCommandCount
+		protected RSystem.RUInt32 r_drawCommandCount;
+		public virtual RSystem.RUInt32 RdrawCommandCount
 		{
 			get
 			{
@@ -83,8 +83,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.UInt32 materialSetCount
 		/// </summary>
-		protected RField r_materialSetCount;
-		public virtual RField RmaterialSetCount
+		protected RSystem.RUInt32 r_materialSetCount;
+		public virtual RSystem.RUInt32 RmaterialSetCount
 		{
 			get
 			{
@@ -100,8 +100,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.UInt32 drawRangeCount
 		/// </summary>
-		protected RField r_drawRangeCount;
-		public virtual RField RdrawRangeCount
+		protected RSystem.RUInt32 r_drawRangeCount;
+		public virtual RSystem.RUInt32 RdrawRangeCount
 		{
 			get
 			{
@@ -117,8 +117,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.UInt32 drawRangeCallCount
 		/// </summary>
-		protected RField r_drawRangeCallCount;
-		public virtual RField RdrawRangeCallCount
+		protected RSystem.RUInt32 r_drawRangeCallCount;
+		public virtual RSystem.RUInt32 RdrawRangeCallCount
 		{
 			get
 			{
@@ -134,8 +134,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.UInt32 immediateDraws
 		/// </summary>
-		protected RField r_immediateDraws;
-		public virtual RField RimmediateDraws
+		protected RSystem.RUInt32 r_immediateDraws;
+		public virtual RSystem.RUInt32 RimmediateDraws
 		{
 			get
 			{
@@ -151,8 +151,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.UInt32 stencilRefChanges
 		/// </summary>
-		protected RField r_stencilRefChanges;
-		public virtual RField RstencilRefChanges
+		protected RSystem.RUInt32 r_stencilRefChanges;
+		public virtual RSystem.RUInt32 RstencilRefChanges
 		{
 			get
 			{

@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Int32 hashCode
 		/// </summary>
-		protected RField r_hashCode;
-		public virtual RField RhashCode
+		protected RSystem.RInt32 r_hashCode;
+		public virtual RSystem.RInt32 RhashCode
 		{
 			get
 			{
@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Int32 linkIdFirstCharacterIndex
 		/// </summary>
-		protected RField r_linkIdFirstCharacterIndex;
-		public virtual RField RlinkIdFirstCharacterIndex
+		protected RSystem.RInt32 r_linkIdFirstCharacterIndex;
+		public virtual RSystem.RInt32 RlinkIdFirstCharacterIndex
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Int32 linkIdLength
 		/// </summary>
-		protected RField r_linkIdLength;
-		public virtual RField RlinkIdLength
+		protected RSystem.RInt32 r_linkIdLength;
+		public virtual RSystem.RInt32 RlinkIdLength
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Int32 linkTextfirstCharacterIndex
 		/// </summary>
-		protected RField r_linkTextfirstCharacterIndex;
-		public virtual RField RlinkTextfirstCharacterIndex
+		protected RSystem.RInt32 r_linkTextfirstCharacterIndex;
+		public virtual RSystem.RInt32 RlinkTextfirstCharacterIndex
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Int32 linkTextLength
 		/// </summary>
-		protected RField r_linkTextLength;
-		public virtual RField RlinkTextLength
+		protected RSystem.RInt32 r_linkTextLength;
+		public virtual RSystem.RInt32 RlinkTextLength
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Char[] linkId
 		/// </summary>
-		protected RFieldArray<RField> r_linkId;
-		public virtual RFieldArray<RField> RlinkId
+		protected RFieldArray<RSystem.RChar> r_linkId;
+		public virtual RFieldArray<RSystem.RChar> RlinkId
 		{
 			get
 			{
@@ -115,8 +115,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.String m_LinkIdString
 		/// </summary>
-		protected RField r_m_LinkIdString;
-		public virtual RField Rm_LinkIdString
+		protected RSystem.RString r_m_LinkIdString;
+		public virtual RSystem.RString Rm_LinkIdString
 		{
 			get
 			{
@@ -132,8 +132,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.String m_LinkTextString
 		/// </summary>
-		protected RField r_m_LinkTextString;
-		public virtual RField Rm_LinkTextString
+		protected RSystem.RString r_m_LinkTextString;
+		public virtual RSystem.RString Rm_LinkTextString
 		{
 			get
 			{

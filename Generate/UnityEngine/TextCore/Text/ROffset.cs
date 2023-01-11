@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Single m_Left
 		/// </summary>
-		protected RField r_m_Left;
-		public virtual RField Rm_Left
+		protected RSystem.RSingle r_m_Left;
+		public virtual RSystem.RSingle Rm_Left
 		{
 			get
 			{
@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Single m_Right
 		/// </summary>
-		protected RField r_m_Right;
-		public virtual RField Rm_Right
+		protected RSystem.RSingle r_m_Right;
+		public virtual RSystem.RSingle Rm_Right
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Single m_Top
 		/// </summary>
-		protected RField r_m_Top;
-		public virtual RField Rm_Top
+		protected RSystem.RSingle r_m_Top;
+		public virtual RSystem.RSingle Rm_Top
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Single m_Bottom
 		/// </summary>
-		protected RField r_m_Bottom;
-		public virtual RField Rm_Bottom
+		protected RSystem.RSingle r_m_Bottom;
+		public virtual RSystem.RSingle Rm_Bottom
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// Single left
 		/// </summary>
-		protected RProperty r_left;
-		public virtual RProperty Rleft
+		protected RSystem.RSingle r_left;
+		public virtual RSystem.RSingle Rleft
 		{
 			get
 			{
@@ -115,8 +115,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// Single right
 		/// </summary>
-		protected RProperty r_right;
-		public virtual RProperty Rright
+		protected RSystem.RSingle r_right;
+		public virtual RSystem.RSingle Rright
 		{
 			get
 			{
@@ -132,8 +132,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// Single top
 		/// </summary>
-		protected RProperty r_top;
-		public virtual RProperty Rtop
+		protected RSystem.RSingle r_top;
+		public virtual RSystem.RSingle Rtop
 		{
 			get
 			{
@@ -149,8 +149,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// Single bottom
 		/// </summary>
-		protected RProperty r_bottom;
-		public virtual RProperty Rbottom
+		protected RSystem.RSingle r_bottom;
+		public virtual RSystem.RSingle Rbottom
 		{
 			get
 			{
@@ -166,8 +166,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// Single horizontal
 		/// </summary>
-		protected RProperty r_horizontal;
-		public virtual RProperty Rhorizontal
+		protected RSystem.RSingle r_horizontal;
+		public virtual RSystem.RSingle Rhorizontal
 		{
 			get
 			{
@@ -183,8 +183,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// Single vertical
 		/// </summary>
-		protected RProperty r_vertical;
-		public virtual RProperty Rvertical
+		protected RSystem.RSingle r_vertical;
+		public virtual RSystem.RSingle Rvertical
 		{
 			get
 			{

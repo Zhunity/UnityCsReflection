@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Char* charStart
 		/// </summary>
-		protected RFieldPointer<RField> r_charStart;
-		public virtual RFieldPointer<RField> RcharStart
+		protected RFieldPointer<RSystem.RChar> r_charStart;
+		public virtual RFieldPointer<RSystem.RChar> RcharStart
 		{
 			get
 			{
@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Char* charEnd
 		/// </summary>
-		protected RFieldPointer<RField> r_charEnd;
-		public virtual RFieldPointer<RField> RcharEnd
+		protected RFieldPointer<RSystem.RChar> r_charEnd;
+		public virtual RFieldPointer<RSystem.RChar> RcharEnd
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Boolean setEncoder
 		/// </summary>
-		protected RField r_setEncoder;
-		public virtual RField RsetEncoder
+		protected RSystem.RBoolean r_setEncoder;
+		public virtual RSystem.RBoolean RsetEncoder
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Boolean bUsedEncoder
 		/// </summary>
-		protected RField r_bUsedEncoder;
-		public virtual RField RbUsedEncoder
+		protected RSystem.RBoolean r_bUsedEncoder;
+		public virtual RSystem.RBoolean RbUsedEncoder
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Boolean bFallingBack
 		/// </summary>
-		protected RField r_bFallingBack;
-		public virtual RField RbFallingBack
+		protected RSystem.RBoolean r_bFallingBack;
+		public virtual RSystem.RBoolean RbFallingBack
 		{
 			get
 			{
@@ -115,8 +115,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Int32 iRecursionCount
 		/// </summary>
-		protected RField r_iRecursionCount;
-		public virtual RField RiRecursionCount
+		protected RSystem.RInt32 r_iRecursionCount;
+		public virtual RSystem.RInt32 RiRecursionCount
 		{
 			get
 			{
@@ -132,8 +132,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Int32 iMaxRecursion
 		/// </summary>
-		protected static RField r_iMaxRecursion;
-		public static RField RiMaxRecursion
+		protected static RSystem.RInt32 r_iMaxRecursion;
+		public static RSystem.RInt32 RiMaxRecursion
 		{
 			get
 			{
@@ -149,8 +149,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// Int32 Remaining
 		/// </summary>
-		protected RProperty r_Remaining;
-		public virtual RProperty RRemaining
+		protected RSystem.RInt32 r_Remaining;
+		public virtual RSystem.RInt32 RRemaining
 		{
 			get
 			{

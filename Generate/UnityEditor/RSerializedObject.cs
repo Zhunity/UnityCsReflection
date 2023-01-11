@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.IntPtr m_NativeObjectPtr
 		/// </summary>
-		protected RField r_m_NativeObjectPtr;
-		public virtual RField Rm_NativeObjectPtr
+		protected RSystem.RIntPtr r_m_NativeObjectPtr;
+		public virtual RSystem.RIntPtr Rm_NativeObjectPtr
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Int32 targetObjectsCount
 		/// </summary>
-		protected RProperty r_targetObjectsCount;
-		public virtual RProperty RtargetObjectsCount
+		protected RSystem.RInt32 r_targetObjectsCount;
+		public virtual RSystem.RInt32 RtargetObjectsCount
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Boolean hasModifiedProperties
 		/// </summary>
-		protected RProperty r_hasModifiedProperties;
-		public virtual RProperty RhasModifiedProperties
+		protected RSystem.RBoolean r_hasModifiedProperties;
+		public virtual RSystem.RBoolean RhasModifiedProperties
 		{
 			get
 			{
@@ -149,8 +149,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Boolean isEditingMultipleObjects
 		/// </summary>
-		protected RProperty r_isEditingMultipleObjects;
-		public virtual RProperty RisEditingMultipleObjects
+		protected RSystem.RBoolean r_isEditingMultipleObjects;
+		public virtual RSystem.RBoolean RisEditingMultipleObjects
 		{
 			get
 			{
@@ -166,8 +166,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Int32 maxArraySizeForMultiEditing
 		/// </summary>
-		protected RProperty r_maxArraySizeForMultiEditing;
-		public virtual RProperty RmaxArraySizeForMultiEditing
+		protected RSystem.RInt32 r_maxArraySizeForMultiEditing;
+		public virtual RSystem.RInt32 RmaxArraySizeForMultiEditing
 		{
 			get
 			{
@@ -183,8 +183,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Boolean isValid
 		/// </summary>
-		protected RProperty r_isValid;
-		public virtual RProperty RisValid
+		protected RSystem.RBoolean r_isValid;
+		public virtual RSystem.RBoolean RisValid
 		{
 			get
 			{
@@ -200,8 +200,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UInt32 objectVersion
 		/// </summary>
-		protected RProperty r_objectVersion;
-		public virtual RProperty RobjectVersion
+		protected RSystem.RUInt32 r_objectVersion;
+		public virtual RSystem.RUInt32 RobjectVersion
 		{
 			get
 			{
@@ -217,8 +217,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Boolean forceChildVisibility
 		/// </summary>
-		protected RProperty r_forceChildVisibility;
-		public virtual RProperty RforceChildVisibility
+		protected RSystem.RBoolean r_forceChildVisibility;
+		public virtual RSystem.RBoolean RforceChildVisibility
 		{
 			get
 			{

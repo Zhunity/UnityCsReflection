@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Int32 iAltCursorPos
 		/// </summary>
-		protected RField r_iAltCursorPos;
-		public virtual RField RiAltCursorPos
+		protected RSystem.RInt32 r_iAltCursorPos;
+		public virtual RSystem.RInt32 RiAltCursorPos
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Boolean hasHorizontalCursorPos
 		/// </summary>
-		protected RField r_hasHorizontalCursorPos;
-		public virtual RField RhasHorizontalCursorPos
+		protected RSystem.RBoolean r_hasHorizontalCursorPos;
+		public virtual RSystem.RBoolean RhasHorizontalCursorPos
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Boolean m_bJustSelected
 		/// </summary>
-		protected RField r_m_bJustSelected;
-		public virtual RField Rm_bJustSelected
+		protected RSystem.RBoolean r_m_bJustSelected;
+		public virtual RSystem.RBoolean Rm_bJustSelected
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Boolean m_MouseDragSelectsWholeWords
 		/// </summary>
-		protected RField r_m_MouseDragSelectsWholeWords;
-		public virtual RField Rm_MouseDragSelectsWholeWords
+		protected RSystem.RBoolean r_m_MouseDragSelectsWholeWords;
+		public virtual RSystem.RBoolean Rm_MouseDragSelectsWholeWords
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Int32 m_DblClickInitPos
 		/// </summary>
-		protected RField r_m_DblClickInitPos;
-		public virtual RField Rm_DblClickInitPos
+		protected RSystem.RInt32 r_m_DblClickInitPos;
+		public virtual RSystem.RInt32 Rm_DblClickInitPos
 		{
 			get
 			{
@@ -132,8 +132,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Int32 kMoveDownHeight
 		/// </summary>
-		protected static RField r_kMoveDownHeight;
-		public static RField RkMoveDownHeight
+		protected static RSystem.RInt32 r_kMoveDownHeight;
+		public static RSystem.RInt32 RkMoveDownHeight
 		{
 			get
 			{
@@ -149,8 +149,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Char kNewLineChar
 		/// </summary>
-		protected static RField r_kNewLineChar;
-		public static RField RkNewLineChar
+		protected static RSystem.RChar r_kNewLineChar;
+		public static RSystem.RChar RkNewLineChar
 		{
 			get
 			{
@@ -166,8 +166,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Boolean m_RevealCursor
 		/// </summary>
-		protected RField r_m_RevealCursor;
-		public virtual RField Rm_RevealCursor
+		protected RSystem.RBoolean r_m_RevealCursor;
+		public virtual RSystem.RBoolean Rm_RevealCursor
 		{
 			get
 			{
@@ -183,8 +183,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Int32 m_CursorIndex
 		/// </summary>
-		protected RField r_m_CursorIndex;
-		public virtual RField Rm_CursorIndex
+		protected RSystem.RInt32 r_m_CursorIndex;
+		public virtual RSystem.RInt32 Rm_CursorIndex
 		{
 			get
 			{
@@ -200,8 +200,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Int32 m_SelectIndex
 		/// </summary>
-		protected RField r_m_SelectIndex;
-		public virtual RField Rm_SelectIndex
+		protected RSystem.RInt32 r_m_SelectIndex;
+		public virtual RSystem.RInt32 Rm_SelectIndex
 		{
 			get
 			{
@@ -268,8 +268,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Boolean hasSelection
 		/// </summary>
-		protected RProperty r_hasSelection;
-		public virtual RProperty RhasSelection
+		protected RSystem.RBoolean r_hasSelection;
+		public virtual RSystem.RBoolean RhasSelection
 		{
 			get
 			{
@@ -285,8 +285,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Boolean revealCursor
 		/// </summary>
-		protected RProperty r_revealCursor;
-		public virtual RProperty RrevealCursor
+		protected RSystem.RBoolean r_revealCursor;
+		public virtual RSystem.RBoolean RrevealCursor
 		{
 			get
 			{
@@ -302,8 +302,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 m_CharacterCount
 		/// </summary>
-		protected RProperty r_m_CharacterCount;
-		public virtual RProperty Rm_CharacterCount
+		protected RSystem.RInt32 r_m_CharacterCount;
+		public virtual RSystem.RInt32 Rm_CharacterCount
 		{
 			get
 			{
@@ -319,8 +319,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 characterCount
 		/// </summary>
-		protected RProperty r_characterCount;
-		public virtual RProperty RcharacterCount
+		protected RSystem.RInt32 r_characterCount;
+		public virtual RSystem.RInt32 RcharacterCount
 		{
 			get
 			{
@@ -353,8 +353,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 cursorIndex
 		/// </summary>
-		protected RProperty r_cursorIndex;
-		public virtual RProperty RcursorIndex
+		protected RSystem.RInt32 r_cursorIndex;
+		public virtual RSystem.RInt32 RcursorIndex
 		{
 			get
 			{
@@ -370,8 +370,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 selectIndex
 		/// </summary>
-		protected RProperty r_selectIndex;
-		public virtual RProperty RselectIndex
+		protected RSystem.RInt32 r_selectIndex;
+		public virtual RSystem.RInt32 RselectIndex
 		{
 			get
 			{
@@ -387,8 +387,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.String selectedText
 		/// </summary>
-		protected RProperty r_selectedText;
-		public virtual RProperty RselectedText
+		protected RSystem.RString r_selectedText;
+		public virtual RSystem.RString RselectedText
 		{
 			get
 			{

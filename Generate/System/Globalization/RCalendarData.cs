@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 MAX_CALENDARS
 		/// </summary>
-		protected static RField r_MAX_CALENDARS;
-		public static RField RMAX_CALENDARS
+		protected static RSystem.RInt32 r_MAX_CALENDARS;
+		public static RSystem.RInt32 RMAX_CALENDARS
 		{
 			get
 			{
@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String sNativeName
 		/// </summary>
-		protected RField r_sNativeName;
-		public virtual RField RsNativeName
+		protected RSystem.RString r_sNativeName;
+		public virtual RSystem.RString RsNativeName
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String[] saShortDates
 		/// </summary>
-		protected RFieldArray<RField> r_saShortDates;
-		public virtual RFieldArray<RField> RsaShortDates
+		protected RFieldArray<RSystem.RString> r_saShortDates;
+		public virtual RFieldArray<RSystem.RString> RsaShortDates
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String[] saYearMonths
 		/// </summary>
-		protected RFieldArray<RField> r_saYearMonths;
-		public virtual RFieldArray<RField> RsaYearMonths
+		protected RFieldArray<RSystem.RString> r_saYearMonths;
+		public virtual RFieldArray<RSystem.RString> RsaYearMonths
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String[] saLongDates
 		/// </summary>
-		protected RFieldArray<RField> r_saLongDates;
-		public virtual RFieldArray<RField> RsaLongDates
+		protected RFieldArray<RSystem.RString> r_saLongDates;
+		public virtual RFieldArray<RSystem.RString> RsaLongDates
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String sMonthDay
 		/// </summary>
-		protected RField r_sMonthDay;
-		public virtual RField RsMonthDay
+		protected RSystem.RString r_sMonthDay;
+		public virtual RSystem.RString RsMonthDay
 		{
 			get
 			{
@@ -115,8 +115,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String[] saEraNames
 		/// </summary>
-		protected RFieldArray<RField> r_saEraNames;
-		public virtual RFieldArray<RField> RsaEraNames
+		protected RFieldArray<RSystem.RString> r_saEraNames;
+		public virtual RFieldArray<RSystem.RString> RsaEraNames
 		{
 			get
 			{
@@ -132,8 +132,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String[] saAbbrevEraNames
 		/// </summary>
-		protected RFieldArray<RField> r_saAbbrevEraNames;
-		public virtual RFieldArray<RField> RsaAbbrevEraNames
+		protected RFieldArray<RSystem.RString> r_saAbbrevEraNames;
+		public virtual RFieldArray<RSystem.RString> RsaAbbrevEraNames
 		{
 			get
 			{
@@ -149,8 +149,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String[] saAbbrevEnglishEraNames
 		/// </summary>
-		protected RFieldArray<RField> r_saAbbrevEnglishEraNames;
-		public virtual RFieldArray<RField> RsaAbbrevEnglishEraNames
+		protected RFieldArray<RSystem.RString> r_saAbbrevEnglishEraNames;
+		public virtual RFieldArray<RSystem.RString> RsaAbbrevEnglishEraNames
 		{
 			get
 			{
@@ -166,8 +166,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String[] saDayNames
 		/// </summary>
-		protected RFieldArray<RField> r_saDayNames;
-		public virtual RFieldArray<RField> RsaDayNames
+		protected RFieldArray<RSystem.RString> r_saDayNames;
+		public virtual RFieldArray<RSystem.RString> RsaDayNames
 		{
 			get
 			{
@@ -183,8 +183,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String[] saAbbrevDayNames
 		/// </summary>
-		protected RFieldArray<RField> r_saAbbrevDayNames;
-		public virtual RFieldArray<RField> RsaAbbrevDayNames
+		protected RFieldArray<RSystem.RString> r_saAbbrevDayNames;
+		public virtual RFieldArray<RSystem.RString> RsaAbbrevDayNames
 		{
 			get
 			{
@@ -200,8 +200,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String[] saSuperShortDayNames
 		/// </summary>
-		protected RFieldArray<RField> r_saSuperShortDayNames;
-		public virtual RFieldArray<RField> RsaSuperShortDayNames
+		protected RFieldArray<RSystem.RString> r_saSuperShortDayNames;
+		public virtual RFieldArray<RSystem.RString> RsaSuperShortDayNames
 		{
 			get
 			{
@@ -217,8 +217,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String[] saMonthNames
 		/// </summary>
-		protected RFieldArray<RField> r_saMonthNames;
-		public virtual RFieldArray<RField> RsaMonthNames
+		protected RFieldArray<RSystem.RString> r_saMonthNames;
+		public virtual RFieldArray<RSystem.RString> RsaMonthNames
 		{
 			get
 			{
@@ -234,8 +234,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String[] saAbbrevMonthNames
 		/// </summary>
-		protected RFieldArray<RField> r_saAbbrevMonthNames;
-		public virtual RFieldArray<RField> RsaAbbrevMonthNames
+		protected RFieldArray<RSystem.RString> r_saAbbrevMonthNames;
+		public virtual RFieldArray<RSystem.RString> RsaAbbrevMonthNames
 		{
 			get
 			{
@@ -251,8 +251,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String[] saMonthGenitiveNames
 		/// </summary>
-		protected RFieldArray<RField> r_saMonthGenitiveNames;
-		public virtual RFieldArray<RField> RsaMonthGenitiveNames
+		protected RFieldArray<RSystem.RString> r_saMonthGenitiveNames;
+		public virtual RFieldArray<RSystem.RString> RsaMonthGenitiveNames
 		{
 			get
 			{
@@ -268,8 +268,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String[] saAbbrevMonthGenitiveNames
 		/// </summary>
-		protected RFieldArray<RField> r_saAbbrevMonthGenitiveNames;
-		public virtual RFieldArray<RField> RsaAbbrevMonthGenitiveNames
+		protected RFieldArray<RSystem.RString> r_saAbbrevMonthGenitiveNames;
+		public virtual RFieldArray<RSystem.RString> RsaAbbrevMonthGenitiveNames
 		{
 			get
 			{
@@ -285,8 +285,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String[] saLeapYearMonthNames
 		/// </summary>
-		protected RFieldArray<RField> r_saLeapYearMonthNames;
-		public virtual RFieldArray<RField> RsaLeapYearMonthNames
+		protected RFieldArray<RSystem.RString> r_saLeapYearMonthNames;
+		public virtual RFieldArray<RSystem.RString> RsaLeapYearMonthNames
 		{
 			get
 			{
@@ -302,8 +302,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 iTwoDigitYearMax
 		/// </summary>
-		protected RField r_iTwoDigitYearMax;
-		public virtual RField RiTwoDigitYearMax
+		protected RSystem.RInt32 r_iTwoDigitYearMax;
+		public virtual RSystem.RInt32 RiTwoDigitYearMax
 		{
 			get
 			{
@@ -319,8 +319,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 iCurrentEra
 		/// </summary>
-		protected RField r_iCurrentEra;
-		public virtual RField RiCurrentEra
+		protected RSystem.RInt32 r_iCurrentEra;
+		public virtual RSystem.RInt32 RiCurrentEra
 		{
 			get
 			{
@@ -336,8 +336,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Boolean bUseUserOverrides
 		/// </summary>
-		protected RField r_bUseUserOverrides;
-		public virtual RField RbUseUserOverrides
+		protected RSystem.RBoolean r_bUseUserOverrides;
+		public virtual RSystem.RBoolean RbUseUserOverrides
 		{
 			get
 			{
@@ -370,8 +370,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String[] HEBREW_MONTH_NAMES
 		/// </summary>
-		protected static RFieldArray<RField> r_HEBREW_MONTH_NAMES;
-		public static RFieldArray<RField> RHEBREW_MONTH_NAMES
+		protected static RFieldArray<RSystem.RString> r_HEBREW_MONTH_NAMES;
+		public static RFieldArray<RSystem.RString> RHEBREW_MONTH_NAMES
 		{
 			get
 			{
@@ -387,8 +387,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String[] HEBREW_LEAP_MONTH_NAMES
 		/// </summary>
-		protected static RFieldArray<RField> r_HEBREW_LEAP_MONTH_NAMES;
-		public static RFieldArray<RField> RHEBREW_LEAP_MONTH_NAMES
+		protected static RFieldArray<RSystem.RString> r_HEBREW_LEAP_MONTH_NAMES;
+		public static RFieldArray<RSystem.RString> RHEBREW_LEAP_MONTH_NAMES
 		{
 			get
 			{

@@ -15,8 +15,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int32 freeIdsCount
 		/// </summary>
-		protected RField r_freeIdsCount;
-		public virtual RField RfreeIdsCount
+		protected RSystem.RInt32 r_freeIdsCount;
+		public virtual RSystem.RInt32 RfreeIdsCount
 		{
 			get
 			{
@@ -32,8 +32,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int32 createdIdsCount
 		/// </summary>
-		protected RField r_createdIdsCount;
-		public virtual RField RcreatedIdsCount
+		protected RSystem.RInt32 r_createdIdsCount;
+		public virtual RSystem.RInt32 RcreatedIdsCount
 		{
 			get
 			{
@@ -49,8 +49,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int32 allocatedIdsTotalCount
 		/// </summary>
-		protected RField r_allocatedIdsTotalCount;
-		public virtual RField RallocatedIdsTotalCount
+		protected RSystem.RInt32 r_allocatedIdsTotalCount;
+		public virtual RSystem.RInt32 RallocatedIdsTotalCount
 		{
 			get
 			{
@@ -66,8 +66,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int32 allocatedIdsDynamicCount
 		/// </summary>
-		protected RField r_allocatedIdsDynamicCount;
-		public virtual RField RallocatedIdsDynamicCount
+		protected RSystem.RInt32 r_allocatedIdsDynamicCount;
+		public virtual RSystem.RInt32 RallocatedIdsDynamicCount
 		{
 			get
 			{
@@ -83,8 +83,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int32 allocatedIdsStaticCount
 		/// </summary>
-		protected RField r_allocatedIdsStaticCount;
-		public virtual RField RallocatedIdsStaticCount
+		protected RSystem.RInt32 r_allocatedIdsStaticCount;
+		public virtual RSystem.RInt32 RallocatedIdsStaticCount
 		{
 			get
 			{
@@ -100,8 +100,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int32 availableIdsCount
 		/// </summary>
-		protected RField r_availableIdsCount;
-		public virtual RField RavailableIdsCount
+		protected RSystem.RInt32 r_availableIdsCount;
+		public virtual RSystem.RInt32 RavailableIdsCount
 		{
 			get
 			{

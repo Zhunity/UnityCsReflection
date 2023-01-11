@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Int64 TicksPerMillisecond
 		/// </summary>
-		protected static RField r_TicksPerMillisecond;
-		public static RField RTicksPerMillisecond
+		protected static RSystem.RInt64 r_TicksPerMillisecond;
+		public static RSystem.RInt64 RTicksPerMillisecond
 		{
 			get
 			{
@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Int64 TicksPerSecond
 		/// </summary>
-		protected static RField r_TicksPerSecond;
-		public static RField RTicksPerSecond
+		protected static RSystem.RInt64 r_TicksPerSecond;
+		public static RSystem.RInt64 RTicksPerSecond
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Int64 TicksPerMinute
 		/// </summary>
-		protected static RField r_TicksPerMinute;
-		public static RField RTicksPerMinute
+		protected static RSystem.RInt64 r_TicksPerMinute;
+		public static RSystem.RInt64 RTicksPerMinute
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Int64 TicksPerHour
 		/// </summary>
-		protected static RField r_TicksPerHour;
-		public static RField RTicksPerHour
+		protected static RSystem.RInt64 r_TicksPerHour;
+		public static RSystem.RInt64 RTicksPerHour
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Int64 TicksPerDay
 		/// </summary>
-		protected static RField r_TicksPerDay;
-		public static RField RTicksPerDay
+		protected static RSystem.RInt64 r_TicksPerDay;
+		public static RSystem.RInt64 RTicksPerDay
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Int32 MillisPerSecond
 		/// </summary>
-		protected static RField r_MillisPerSecond;
-		public static RField RMillisPerSecond
+		protected static RSystem.RInt32 r_MillisPerSecond;
+		public static RSystem.RInt32 RMillisPerSecond
 		{
 			get
 			{
@@ -115,8 +115,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Int32 MillisPerMinute
 		/// </summary>
-		protected static RField r_MillisPerMinute;
-		public static RField RMillisPerMinute
+		protected static RSystem.RInt32 r_MillisPerMinute;
+		public static RSystem.RInt32 RMillisPerMinute
 		{
 			get
 			{
@@ -132,8 +132,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Int32 MillisPerHour
 		/// </summary>
-		protected static RField r_MillisPerHour;
-		public static RField RMillisPerHour
+		protected static RSystem.RInt32 r_MillisPerHour;
+		public static RSystem.RInt32 RMillisPerHour
 		{
 			get
 			{
@@ -149,8 +149,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Int32 MillisPerDay
 		/// </summary>
-		protected static RField r_MillisPerDay;
-		public static RField RMillisPerDay
+		protected static RSystem.RInt32 r_MillisPerDay;
+		public static RSystem.RInt32 RMillisPerDay
 		{
 			get
 			{
@@ -166,8 +166,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Int32 DaysPerYear
 		/// </summary>
-		protected static RField r_DaysPerYear;
-		public static RField RDaysPerYear
+		protected static RSystem.RInt32 r_DaysPerYear;
+		public static RSystem.RInt32 RDaysPerYear
 		{
 			get
 			{
@@ -183,8 +183,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Int32 DaysPer4Years
 		/// </summary>
-		protected static RField r_DaysPer4Years;
-		public static RField RDaysPer4Years
+		protected static RSystem.RInt32 r_DaysPer4Years;
+		public static RSystem.RInt32 RDaysPer4Years
 		{
 			get
 			{
@@ -200,8 +200,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Int32 DaysPer100Years
 		/// </summary>
-		protected static RField r_DaysPer100Years;
-		public static RField RDaysPer100Years
+		protected static RSystem.RInt32 r_DaysPer100Years;
+		public static RSystem.RInt32 RDaysPer100Years
 		{
 			get
 			{
@@ -217,8 +217,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Int32 DaysPer400Years
 		/// </summary>
-		protected static RField r_DaysPer400Years;
-		public static RField RDaysPer400Years
+		protected static RSystem.RInt32 r_DaysPer400Years;
+		public static RSystem.RInt32 RDaysPer400Years
 		{
 			get
 			{
@@ -234,8 +234,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Int32 DaysTo1601
 		/// </summary>
-		protected static RField r_DaysTo1601;
-		public static RField RDaysTo1601
+		protected static RSystem.RInt32 r_DaysTo1601;
+		public static RSystem.RInt32 RDaysTo1601
 		{
 			get
 			{
@@ -251,8 +251,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Int32 DaysTo1899
 		/// </summary>
-		protected static RField r_DaysTo1899;
-		public static RField RDaysTo1899
+		protected static RSystem.RInt32 r_DaysTo1899;
+		public static RSystem.RInt32 RDaysTo1899
 		{
 			get
 			{
@@ -268,8 +268,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Int32 DaysTo1970
 		/// </summary>
-		protected static RField r_DaysTo1970;
-		public static RField RDaysTo1970
+		protected static RSystem.RInt32 r_DaysTo1970;
+		public static RSystem.RInt32 RDaysTo1970
 		{
 			get
 			{
@@ -285,8 +285,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Int32 DaysTo10000
 		/// </summary>
-		protected static RField r_DaysTo10000;
-		public static RField RDaysTo10000
+		protected static RSystem.RInt32 r_DaysTo10000;
+		public static RSystem.RInt32 RDaysTo10000
 		{
 			get
 			{
@@ -302,8 +302,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Int64 MinTicks
 		/// </summary>
-		protected static RField r_MinTicks;
-		public static RField RMinTicks
+		protected static RSystem.RInt64 r_MinTicks;
+		public static RSystem.RInt64 RMinTicks
 		{
 			get
 			{
@@ -319,8 +319,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Int64 MaxTicks
 		/// </summary>
-		protected static RField r_MaxTicks;
-		public static RField RMaxTicks
+		protected static RSystem.RInt64 r_MaxTicks;
+		public static RSystem.RInt64 RMaxTicks
 		{
 			get
 			{
@@ -336,8 +336,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Int64 MaxMillis
 		/// </summary>
-		protected static RField r_MaxMillis;
-		public static RField RMaxMillis
+		protected static RSystem.RInt64 r_MaxMillis;
+		public static RSystem.RInt64 RMaxMillis
 		{
 			get
 			{
@@ -353,8 +353,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Int64 UnixEpochTicks
 		/// </summary>
-		protected static RField r_UnixEpochTicks;
-		public static RField RUnixEpochTicks
+		protected static RSystem.RInt64 r_UnixEpochTicks;
+		public static RSystem.RInt64 RUnixEpochTicks
 		{
 			get
 			{
@@ -370,8 +370,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Int64 FileTimeOffset
 		/// </summary>
-		protected static RField r_FileTimeOffset;
-		public static RField RFileTimeOffset
+		protected static RSystem.RInt64 r_FileTimeOffset;
+		public static RSystem.RInt64 RFileTimeOffset
 		{
 			get
 			{
@@ -387,8 +387,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Int64 DoubleDateOffset
 		/// </summary>
-		protected static RField r_DoubleDateOffset;
-		public static RField RDoubleDateOffset
+		protected static RSystem.RInt64 r_DoubleDateOffset;
+		public static RSystem.RInt64 RDoubleDateOffset
 		{
 			get
 			{
@@ -404,8 +404,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Int64 OADateMinAsTicks
 		/// </summary>
-		protected static RField r_OADateMinAsTicks;
-		public static RField ROADateMinAsTicks
+		protected static RSystem.RInt64 r_OADateMinAsTicks;
+		public static RSystem.RInt64 ROADateMinAsTicks
 		{
 			get
 			{
@@ -421,8 +421,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Double OADateMinAsDouble
 		/// </summary>
-		protected static RField r_OADateMinAsDouble;
-		public static RField ROADateMinAsDouble
+		protected static RSystem.RDouble r_OADateMinAsDouble;
+		public static RSystem.RDouble ROADateMinAsDouble
 		{
 			get
 			{
@@ -438,8 +438,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Double OADateMaxAsDouble
 		/// </summary>
-		protected static RField r_OADateMaxAsDouble;
-		public static RField ROADateMaxAsDouble
+		protected static RSystem.RDouble r_OADateMaxAsDouble;
+		public static RSystem.RDouble ROADateMaxAsDouble
 		{
 			get
 			{
@@ -455,8 +455,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Int32 DatePartYear
 		/// </summary>
-		protected static RField r_DatePartYear;
-		public static RField RDatePartYear
+		protected static RSystem.RInt32 r_DatePartYear;
+		public static RSystem.RInt32 RDatePartYear
 		{
 			get
 			{
@@ -472,8 +472,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Int32 DatePartDayOfYear
 		/// </summary>
-		protected static RField r_DatePartDayOfYear;
-		public static RField RDatePartDayOfYear
+		protected static RSystem.RInt32 r_DatePartDayOfYear;
+		public static RSystem.RInt32 RDatePartDayOfYear
 		{
 			get
 			{
@@ -489,8 +489,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Int32 DatePartMonth
 		/// </summary>
-		protected static RField r_DatePartMonth;
-		public static RField RDatePartMonth
+		protected static RSystem.RInt32 r_DatePartMonth;
+		public static RSystem.RInt32 RDatePartMonth
 		{
 			get
 			{
@@ -506,8 +506,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Int32 DatePartDay
 		/// </summary>
-		protected static RField r_DatePartDay;
-		public static RField RDatePartDay
+		protected static RSystem.RInt32 r_DatePartDay;
+		public static RSystem.RInt32 RDatePartDay
 		{
 			get
 			{
@@ -523,8 +523,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Int32[] s_daysToMonth365
 		/// </summary>
-		protected static RFieldArray<RField> r_s_daysToMonth365;
-		public static RFieldArray<RField> Rs_daysToMonth365
+		protected static RFieldArray<RSystem.RInt32> r_s_daysToMonth365;
+		public static RFieldArray<RSystem.RInt32> Rs_daysToMonth365
 		{
 			get
 			{
@@ -540,8 +540,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Int32[] s_daysToMonth366
 		/// </summary>
-		protected static RFieldArray<RField> r_s_daysToMonth366;
-		public static RFieldArray<RField> Rs_daysToMonth366
+		protected static RFieldArray<RSystem.RInt32> r_s_daysToMonth366;
+		public static RFieldArray<RSystem.RInt32> Rs_daysToMonth366
 		{
 			get
 			{
@@ -608,8 +608,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.UInt64 TicksMask
 		/// </summary>
-		protected static RField r_TicksMask;
-		public static RField RTicksMask
+		protected static RSystem.RUInt64 r_TicksMask;
+		public static RSystem.RUInt64 RTicksMask
 		{
 			get
 			{
@@ -625,8 +625,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.UInt64 FlagsMask
 		/// </summary>
-		protected static RField r_FlagsMask;
-		public static RField RFlagsMask
+		protected static RSystem.RUInt64 r_FlagsMask;
+		public static RSystem.RUInt64 RFlagsMask
 		{
 			get
 			{
@@ -642,8 +642,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.UInt64 LocalMask
 		/// </summary>
-		protected static RField r_LocalMask;
-		public static RField RLocalMask
+		protected static RSystem.RUInt64 r_LocalMask;
+		public static RSystem.RUInt64 RLocalMask
 		{
 			get
 			{
@@ -659,8 +659,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Int64 TicksCeiling
 		/// </summary>
-		protected static RField r_TicksCeiling;
-		public static RField RTicksCeiling
+		protected static RSystem.RInt64 r_TicksCeiling;
+		public static RSystem.RInt64 RTicksCeiling
 		{
 			get
 			{
@@ -676,8 +676,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.UInt64 KindUnspecified
 		/// </summary>
-		protected static RField r_KindUnspecified;
-		public static RField RKindUnspecified
+		protected static RSystem.RUInt64 r_KindUnspecified;
+		public static RSystem.RUInt64 RKindUnspecified
 		{
 			get
 			{
@@ -693,8 +693,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.UInt64 KindUtc
 		/// </summary>
-		protected static RField r_KindUtc;
-		public static RField RKindUtc
+		protected static RSystem.RUInt64 r_KindUtc;
+		public static RSystem.RUInt64 RKindUtc
 		{
 			get
 			{
@@ -710,8 +710,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.UInt64 KindLocal
 		/// </summary>
-		protected static RField r_KindLocal;
-		public static RField RKindLocal
+		protected static RSystem.RUInt64 r_KindLocal;
+		public static RSystem.RUInt64 RKindLocal
 		{
 			get
 			{
@@ -727,8 +727,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.UInt64 KindLocalAmbiguousDst
 		/// </summary>
-		protected static RField r_KindLocalAmbiguousDst;
-		public static RField RKindLocalAmbiguousDst
+		protected static RSystem.RUInt64 r_KindLocalAmbiguousDst;
+		public static RSystem.RUInt64 RKindLocalAmbiguousDst
 		{
 			get
 			{
@@ -744,8 +744,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Int32 KindShift
 		/// </summary>
-		protected static RField r_KindShift;
-		public static RField RKindShift
+		protected static RSystem.RInt32 r_KindShift;
+		public static RSystem.RInt32 RKindShift
 		{
 			get
 			{
@@ -761,8 +761,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.String TicksField
 		/// </summary>
-		protected static RField r_TicksField;
-		public static RField RTicksField
+		protected static RSystem.RString r_TicksField;
+		public static RSystem.RString RTicksField
 		{
 			get
 			{
@@ -778,8 +778,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.String DateDataField
 		/// </summary>
-		protected static RField r_DateDataField;
-		public static RField RDateDataField
+		protected static RSystem.RString r_DateDataField;
+		public static RSystem.RString RDateDataField
 		{
 			get
 			{
@@ -795,8 +795,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.UInt64 _dateData
 		/// </summary>
-		protected RField r__dateData;
-		public virtual RField R_dateData
+		protected RSystem.RUInt64 r__dateData;
+		public virtual RSystem.RUInt64 R_dateData
 		{
 			get
 			{
@@ -812,8 +812,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// Int64 InternalTicks
 		/// </summary>
-		protected RProperty r_InternalTicks;
-		public virtual RProperty RInternalTicks
+		protected RSystem.RInt64 r_InternalTicks;
+		public virtual RSystem.RInt64 RInternalTicks
 		{
 			get
 			{
@@ -829,8 +829,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// UInt64 InternalKind
 		/// </summary>
-		protected RProperty r_InternalKind;
-		public virtual RProperty RInternalKind
+		protected RSystem.RUInt64 r_InternalKind;
+		public virtual RSystem.RUInt64 RInternalKind
 		{
 			get
 			{
@@ -863,8 +863,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// Int32 Day
 		/// </summary>
-		protected RProperty r_Day;
-		public virtual RProperty RDay
+		protected RSystem.RInt32 r_Day;
+		public virtual RSystem.RInt32 RDay
 		{
 			get
 			{
@@ -897,8 +897,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// Int32 DayOfYear
 		/// </summary>
-		protected RProperty r_DayOfYear;
-		public virtual RProperty RDayOfYear
+		protected RSystem.RInt32 r_DayOfYear;
+		public virtual RSystem.RInt32 RDayOfYear
 		{
 			get
 			{
@@ -914,8 +914,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// Int32 Hour
 		/// </summary>
-		protected RProperty r_Hour;
-		public virtual RProperty RHour
+		protected RSystem.RInt32 r_Hour;
+		public virtual RSystem.RInt32 RHour
 		{
 			get
 			{
@@ -948,8 +948,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// Int32 Millisecond
 		/// </summary>
-		protected RProperty r_Millisecond;
-		public virtual RProperty RMillisecond
+		protected RSystem.RInt32 r_Millisecond;
+		public virtual RSystem.RInt32 RMillisecond
 		{
 			get
 			{
@@ -965,8 +965,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// Int32 Minute
 		/// </summary>
-		protected RProperty r_Minute;
-		public virtual RProperty RMinute
+		protected RSystem.RInt32 r_Minute;
+		public virtual RSystem.RInt32 RMinute
 		{
 			get
 			{
@@ -982,8 +982,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// Int32 Month
 		/// </summary>
-		protected RProperty r_Month;
-		public virtual RProperty RMonth
+		protected RSystem.RInt32 r_Month;
+		public virtual RSystem.RInt32 RMonth
 		{
 			get
 			{
@@ -1016,8 +1016,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// Int32 Second
 		/// </summary>
-		protected RProperty r_Second;
-		public virtual RProperty RSecond
+		protected RSystem.RInt32 r_Second;
+		public virtual RSystem.RInt32 RSecond
 		{
 			get
 			{
@@ -1033,8 +1033,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// Int64 Ticks
 		/// </summary>
-		protected RProperty r_Ticks;
-		public virtual RProperty RTicks
+		protected RSystem.RInt64 r_Ticks;
+		public virtual RSystem.RInt64 RTicks
 		{
 			get
 			{
@@ -1084,8 +1084,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// Int32 Year
 		/// </summary>
-		protected RProperty r_Year;
-		public virtual RProperty RYear
+		protected RSystem.RInt32 r_Year;
+		public virtual RSystem.RInt32 RYear
 		{
 			get
 			{
@@ -3314,6 +3314,16 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
+        public static System.DateTime Parse(RSystem.RReadOnlySpan<RSystem.RChar> @s, System.IFormatProvider @provider, System.Globalization.DateTimeStyles @styles)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@s.Value, @provider, @styles};
+            var ___result = RParse_ReadOnlySpan_d_Char_p__IFormatProvider_DateTimeStyles.Invoke(___genericsType, ___parameters);
+
+            return (System.DateTime)___result;
+        }
+
 
         public static System.DateTime ParseExact(System.String @s, System.String @format, System.IFormatProvider @provider)
         {
@@ -3337,6 +3347,16 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
+        public static System.DateTime ParseExact(RSystem.RReadOnlySpan<RSystem.RChar> @s, RSystem.RReadOnlySpan<RSystem.RChar> @format, System.IFormatProvider @provider, System.Globalization.DateTimeStyles @style)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@s.Value, @format.Value, @provider, @style};
+            var ___result = RParseExact_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p__IFormatProvider_DateTimeStyles.Invoke(___genericsType, ___parameters);
+
+            return (System.DateTime)___result;
+        }
+
 
         public static System.DateTime ParseExact(System.String @s, System.String[] @formats, System.IFormatProvider @provider, System.Globalization.DateTimeStyles @style)
         {
@@ -3348,6 +3368,16 @@ namespace SMFrame.Editor.Refleaction.RSystem
             return (System.DateTime)___result;
         }
 
+
+        public static System.DateTime ParseExact(RSystem.RReadOnlySpan<RSystem.RChar> @s, System.String[] @formats, System.IFormatProvider @provider, System.Globalization.DateTimeStyles @style)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@s.Value, @formats, @provider, @style};
+            var ___result = RParseExact_ReadOnlySpan_d_Char_p__StringArray_IFormatProvider_DateTimeStyles.Invoke(___genericsType, ___parameters);
+
+            return (System.DateTime)___result;
+        }
 
 
         public virtual System.TimeSpan Subtract(System.DateTime @value)
@@ -3526,6 +3556,18 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
+        public virtual System.Boolean TryFormat(RSystem.RSpan<RSystem.RChar> @destination, out System.Int32 @charsWritten, RSystem.RReadOnlySpan<RSystem.RChar> @format, System.IFormatProvider @provider)
+        {
+			@charsWritten = default;
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@destination.Value, @charsWritten, @format.Value, @provider};
+            var ___result = RTryFormat_Span_d_Char_p__Out_Int32_ReadOnlySpan_d_Char_p__IFormatProvider.Invoke(___genericsType, ___parameters);
+			@charsWritten = (System.Int32)___parameters[1];
+
+            return (System.Boolean)___result;
+        }
+
 
         public virtual System.DateTime ToUniversalTime()
         {
@@ -3551,6 +3593,18 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
+        public static System.Boolean TryParse(RSystem.RReadOnlySpan<RSystem.RChar> @s, out System.DateTime @result)
+        {
+			@result = default;
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@s.Value, @result};
+            var ___result = RTryParse_ReadOnlySpan_d_Char_p__Out_DateTime.Invoke(___genericsType, ___parameters);
+			@result = (System.DateTime)___parameters[1];
+
+            return (System.Boolean)___result;
+        }
+
 
         public static System.Boolean TryParse(System.String @s, System.IFormatProvider @provider, System.Globalization.DateTimeStyles @styles, out System.DateTime @result)
         {
@@ -3564,6 +3618,18 @@ namespace SMFrame.Editor.Refleaction.RSystem
             return (System.Boolean)___result;
         }
 
+
+        public static System.Boolean TryParse(RSystem.RReadOnlySpan<RSystem.RChar> @s, System.IFormatProvider @provider, System.Globalization.DateTimeStyles @styles, out System.DateTime @result)
+        {
+			@result = default;
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@s.Value, @provider, @styles, @result};
+            var ___result = RTryParse_ReadOnlySpan_d_Char_p__IFormatProvider_DateTimeStyles_Out_DateTime.Invoke(___genericsType, ___parameters);
+			@result = (System.DateTime)___parameters[3];
+
+            return (System.Boolean)___result;
+        }
 
 
         public static System.Boolean TryParseExact(System.String @s, System.String @format, System.IFormatProvider @provider, System.Globalization.DateTimeStyles @style, out System.DateTime @result)
@@ -3579,6 +3645,18 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
+        public static System.Boolean TryParseExact(RSystem.RReadOnlySpan<RSystem.RChar> @s, RSystem.RReadOnlySpan<RSystem.RChar> @format, System.IFormatProvider @provider, System.Globalization.DateTimeStyles @style, out System.DateTime @result)
+        {
+			@result = default;
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@s.Value, @format.Value, @provider, @style, @result};
+            var ___result = RTryParseExact_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p__IFormatProvider_DateTimeStyles_Out_DateTime.Invoke(___genericsType, ___parameters);
+			@result = (System.DateTime)___parameters[4];
+
+            return (System.Boolean)___result;
+        }
+
 
         public static System.Boolean TryParseExact(System.String @s, System.String[] @formats, System.IFormatProvider @provider, System.Globalization.DateTimeStyles @style, out System.DateTime @result)
         {
@@ -3592,6 +3670,18 @@ namespace SMFrame.Editor.Refleaction.RSystem
             return (System.Boolean)___result;
         }
 
+
+        public static System.Boolean TryParseExact(RSystem.RReadOnlySpan<RSystem.RChar> @s, System.String[] @formats, System.IFormatProvider @provider, System.Globalization.DateTimeStyles @style, out System.DateTime @result)
+        {
+			@result = default;
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@s.Value, @formats, @provider, @style, @result};
+            var ___result = RTryParseExact_ReadOnlySpan_d_Char_p__StringArray_IFormatProvider_DateTimeStyles_Out_DateTime.Invoke(___genericsType, ___parameters);
+			@result = (System.DateTime)___parameters[4];
+
+            return (System.Boolean)___result;
+        }
 
 
         public static System.DateTime op_Addition(System.DateTime @d, System.TimeSpan @t)

@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Single s_DraggedPreviewSize
 		/// </summary>
-		protected static RField r_s_DraggedPreviewSize;
-		public static RField Rs_DraggedPreviewSize
+		protected static RSystem.RSingle r_s_DraggedPreviewSize;
+		public static RSystem.RSingle Rs_DraggedPreviewSize
 		{
 			get
 			{
@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Single s_CachedPreviewSizeWhileDragging
 		/// </summary>
-		protected static RField r_s_CachedPreviewSizeWhileDragging;
-		public static RField Rs_CachedPreviewSizeWhileDragging
+		protected static RSystem.RSingle r_s_CachedPreviewSizeWhileDragging;
+		public static RSystem.RSingle Rs_CachedPreviewSizeWhileDragging
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Single s_MouseDownLocation
 		/// </summary>
-		protected static RField r_s_MouseDownLocation;
-		public static RField Rs_MouseDownLocation
+		protected static RSystem.RSingle r_s_MouseDownLocation;
+		public static RSystem.RSingle Rs_MouseDownLocation
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Single s_MouseDownValue
 		/// </summary>
-		protected static RField r_s_MouseDownValue;
-		public static RField Rs_MouseDownValue
+		protected static RSystem.RSingle r_s_MouseDownValue;
+		public static RSystem.RSingle Rs_MouseDownValue
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Boolean s_MouseDragged
 		/// </summary>
-		protected static RField r_s_MouseDragged;
-		public static RField Rs_MouseDragged
+		protected static RSystem.RBoolean r_s_MouseDragged;
+		public static RSystem.RBoolean Rs_MouseDragged
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Single m_CachedPref
 		/// </summary>
-		protected RField r_m_CachedPref;
-		public virtual RField Rm_CachedPref
+		protected RSystem.RSingle r_m_CachedPref;
+		public virtual RSystem.RSingle Rm_CachedPref
 		{
 			get
 			{
@@ -115,8 +115,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Int32 m_ControlHash
 		/// </summary>
-		protected RField r_m_ControlHash;
-		public virtual RField Rm_ControlHash
+		protected RSystem.RInt32 r_m_ControlHash;
+		public virtual RSystem.RInt32 Rm_ControlHash
 		{
 			get
 			{
@@ -132,8 +132,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.String m_PrefName
 		/// </summary>
-		protected RField r_m_PrefName;
-		public virtual RField Rm_PrefName
+		protected RSystem.RString r_m_PrefName;
+		public virtual RSystem.RString Rm_PrefName
 		{
 			get
 			{
@@ -149,8 +149,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Int32 m_Id
 		/// </summary>
-		protected RField r_m_Id;
-		public virtual RField Rm_Id
+		protected RSystem.RInt32 r_m_Id;
+		public virtual RSystem.RInt32 Rm_Id
 		{
 			get
 			{
@@ -166,8 +166,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Boolean <localFrame>k__BackingField
 		/// </summary>
-		protected RField r___0__localFrame__1__k__BackingField;
-		public virtual RField R__0__localFrame__1__k__BackingField
+		protected RSystem.RBoolean r___0__localFrame__1__k__BackingField;
+		public virtual RSystem.RBoolean R__0__localFrame__1__k__BackingField
 		{
 			get
 			{
@@ -200,8 +200,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Single containerMinimumHeightExpanded
 		/// </summary>
-		protected RField r_containerMinimumHeightExpanded;
-		public virtual RField RcontainerMinimumHeightExpanded
+		protected RSystem.RSingle r_containerMinimumHeightExpanded;
+		public virtual RSystem.RSingle RcontainerMinimumHeightExpanded
 		{
 			get
 			{
@@ -217,8 +217,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Single m_ContainerMinimumHeightCollapsed
 		/// </summary>
-		protected RField r_m_ContainerMinimumHeightCollapsed;
-		public virtual RField Rm_ContainerMinimumHeightCollapsed
+		protected RSystem.RSingle r_m_ContainerMinimumHeightCollapsed;
+		public virtual RSystem.RSingle Rm_ContainerMinimumHeightCollapsed
 		{
 			get
 			{
@@ -234,8 +234,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Int32 id
 		/// </summary>
-		protected RProperty r_id;
-		public virtual RProperty Rid
+		protected RSystem.RInt32 r_id;
+		public virtual RSystem.RInt32 Rid
 		{
 			get
 			{
@@ -251,8 +251,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Boolean localFrame
 		/// </summary>
-		protected RProperty r_localFrame;
-		public virtual RProperty RlocalFrame
+		protected RSystem.RBoolean r_localFrame;
+		public virtual RSystem.RBoolean RlocalFrame
 		{
 			get
 			{

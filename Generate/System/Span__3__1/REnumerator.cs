@@ -32,8 +32,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Int32 _index
 		/// </summary>
-		protected RField r__index;
-		public virtual RField R_index
+		protected RSystem.RInt32 r__index;
+		public virtual RSystem.RInt32 R_index
 		{
 			get
 			{

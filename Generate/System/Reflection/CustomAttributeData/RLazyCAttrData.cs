@@ -32,8 +32,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.IntPtr data
 		/// </summary>
-		protected RField r_data;
-		public virtual RField Rdata
+		protected RSystem.RIntPtr r_data;
+		public virtual RSystem.RIntPtr Rdata
 		{
 			get
 			{
@@ -49,8 +49,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.UInt32 data_length
 		/// </summary>
-		protected RField r_data_length;
-		public virtual RField Rdata_length
+		protected RSystem.RUInt32 r_data_length;
+		public virtual RSystem.RUInt32 Rdata_length
 		{
 			get
 			{

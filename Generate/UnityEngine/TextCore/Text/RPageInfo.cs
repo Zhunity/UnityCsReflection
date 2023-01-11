@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Int32 firstCharacterIndex
 		/// </summary>
-		protected RField r_firstCharacterIndex;
-		public virtual RField RfirstCharacterIndex
+		protected RSystem.RInt32 r_firstCharacterIndex;
+		public virtual RSystem.RInt32 RfirstCharacterIndex
 		{
 			get
 			{
@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Int32 lastCharacterIndex
 		/// </summary>
-		protected RField r_lastCharacterIndex;
-		public virtual RField RlastCharacterIndex
+		protected RSystem.RInt32 r_lastCharacterIndex;
+		public virtual RSystem.RInt32 RlastCharacterIndex
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Single ascender
 		/// </summary>
-		protected RField r_ascender;
-		public virtual RField Rascender
+		protected RSystem.RSingle r_ascender;
+		public virtual RSystem.RSingle Rascender
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Single baseLine
 		/// </summary>
-		protected RField r_baseLine;
-		public virtual RField RbaseLine
+		protected RSystem.RSingle r_baseLine;
+		public virtual RSystem.RSingle RbaseLine
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Single descender
 		/// </summary>
-		protected RField r_descender;
-		public virtual RField Rdescender
+		protected RSystem.RSingle r_descender;
+		public virtual RSystem.RSingle Rdescender
 		{
 			get
 			{

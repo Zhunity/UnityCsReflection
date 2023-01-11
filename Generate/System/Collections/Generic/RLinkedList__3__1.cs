@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
 		/// <summary>
 		/// System.Int32 count
 		/// </summary>
-		protected RField r_count;
-		public virtual RField Rcount
+		protected RSystem.RInt32 r_count;
+		public virtual RSystem.RInt32 Rcount
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
 		/// <summary>
 		/// System.Int32 version
 		/// </summary>
-		protected RField r_version;
-		public virtual RField Rversion
+		protected RSystem.RInt32 r_version;
+		public virtual RSystem.RInt32 Rversion
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
 		/// <summary>
 		/// System.String VersionName
 		/// </summary>
-		protected static RField r_VersionName;
-		public static RField RVersionName
+		protected static RSystem.RString r_VersionName;
+		public static RSystem.RString RVersionName
 		{
 			get
 			{
@@ -115,8 +115,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
 		/// <summary>
 		/// System.String CountName
 		/// </summary>
-		protected static RField r_CountName;
-		public static RField RCountName
+		protected static RSystem.RString r_CountName;
+		public static RSystem.RString RCountName
 		{
 			get
 			{
@@ -132,8 +132,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
 		/// <summary>
 		/// System.String ValuesName
 		/// </summary>
-		protected static RField r_ValuesName;
-		public static RField RValuesName
+		protected static RSystem.RString r_ValuesName;
+		public static RSystem.RString RValuesName
 		{
 			get
 			{
@@ -149,8 +149,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
 		/// <summary>
 		/// Int32 Count
 		/// </summary>
-		protected RProperty r_Count;
-		public virtual RProperty RCount
+		protected RSystem.RInt32 r_Count;
+		public virtual RSystem.RInt32 RCount
 		{
 			get
 			{
@@ -200,8 +200,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
 		/// <summary>
 		/// Boolean System.Collections.Generic.ICollection<T>.IsReadOnly
 		/// </summary>
-		protected RProperty r_System__2__Collections__2__Generic__2__ICollection__0__T__1____2__IsReadOnly;
-		public virtual RProperty RSystem__2__Collections__2__Generic__2__ICollection__0__T__1____2__IsReadOnly
+		protected RSystem.RBoolean r_System__2__Collections__2__Generic__2__ICollection__0__T__1____2__IsReadOnly;
+		public virtual RSystem.RBoolean RSystem__2__Collections__2__Generic__2__ICollection__0__T__1____2__IsReadOnly
 		{
 			get
 			{
@@ -217,8 +217,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
 		/// <summary>
 		/// Boolean System.Collections.ICollection.IsSynchronized
 		/// </summary>
-		protected RProperty r_System__2__Collections__2__ICollection__2__IsSynchronized;
-		public virtual RProperty RSystem__2__Collections__2__ICollection__2__IsSynchronized
+		protected RSystem.RBoolean r_System__2__Collections__2__ICollection__2__IsSynchronized;
+		public virtual RSystem.RBoolean RSystem__2__Collections__2__ICollection__2__IsSynchronized
 		{
 			get
 			{

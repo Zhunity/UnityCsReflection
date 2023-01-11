@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.String <FileName>k__BackingField
 		/// </summary>
-		protected RField r___0__FileName__1__k__BackingField;
-		public virtual RField R__0__FileName__1__k__BackingField
+		protected RSystem.RString r___0__FileName__1__k__BackingField;
+		public virtual RSystem.RString R__0__FileName__1__k__BackingField
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.String FileName
 		/// </summary>
-		protected RProperty r_FileName;
-		public virtual RProperty RFileName
+		protected RSystem.RString r_FileName;
+		public virtual RSystem.RString RFileName
 		{
 			get
 			{

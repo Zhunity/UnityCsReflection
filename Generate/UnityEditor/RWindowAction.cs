@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.String id
 		/// </summary>
-		protected RField r_id;
-		public virtual RField Rid
+		protected RSystem.RString r_id;
+		public virtual RSystem.RString Rid
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.String menuPath
 		/// </summary>
-		protected RField r_menuPath;
-		public virtual RField RmenuPath
+		protected RSystem.RString r_menuPath;
+		public virtual RSystem.RString RmenuPath
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Nullable`1[System.Single] width
 		/// </summary>
-		protected RField r_width;
-		public virtual RField Rwidth
+		protected RSystem.RNullable<RSystem.RSingle> r_width;
+		public virtual RSystem.RNullable<RSystem.RSingle> Rwidth
 		{
 			get
 			{
@@ -149,8 +149,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Int32 priority
 		/// </summary>
-		protected RField r_priority;
-		public virtual RField Rpriority
+		protected RSystem.RInt32 r_priority;
+		public virtual RSystem.RInt32 Rpriority
 		{
 			get
 			{

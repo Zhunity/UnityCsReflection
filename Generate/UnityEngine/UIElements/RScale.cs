@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Boolean m_IsNone
 		/// </summary>
-		protected RField r_m_IsNone;
-		public virtual RField Rm_IsNone
+		protected RSystem.RBoolean r_m_IsNone;
+		public virtual RSystem.RBoolean Rm_IsNone
 		{
 			get
 			{

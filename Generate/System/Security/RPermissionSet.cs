@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
 		/// <summary>
 		/// System.String tagName
 		/// </summary>
-		protected static RField r_tagName;
-		public static RField RtagName
+		protected static RSystem.RString r_tagName;
+		public static RSystem.RString RtagName
 		{
 			get
 			{
@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
 		/// <summary>
 		/// System.Int32 version
 		/// </summary>
-		protected static RField r_version;
-		public static RField Rversion
+		protected static RSystem.RInt32 r_version;
+		public static RSystem.RInt32 Rversion
 		{
 			get
 			{
@@ -115,8 +115,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
 		/// <summary>
 		/// System.Boolean _declsec
 		/// </summary>
-		protected RField r__declsec;
-		public virtual RField R_declsec
+		protected RSystem.RBoolean r__declsec;
+		public virtual RSystem.RBoolean R_declsec
 		{
 			get
 			{
@@ -132,8 +132,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
 		/// <summary>
 		/// System.Boolean _readOnly
 		/// </summary>
-		protected RField r__readOnly;
-		public virtual RField R_readOnly
+		protected RSystem.RBoolean r__readOnly;
+		public virtual RSystem.RBoolean R_readOnly
 		{
 			get
 			{
@@ -149,8 +149,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
 		/// <summary>
 		/// System.Boolean[] _ignored
 		/// </summary>
-		protected RFieldArray<RField> r__ignored;
-		public virtual RFieldArray<RField> R_ignored
+		protected RFieldArray<RSystem.RBoolean> r__ignored;
+		public virtual RFieldArray<RSystem.RBoolean> R_ignored
 		{
 			get
 			{
@@ -183,8 +183,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
 		/// <summary>
 		/// Int32 Count
 		/// </summary>
-		protected RProperty r_Count;
-		public virtual RProperty RCount
+		protected RSystem.RInt32 r_Count;
+		public virtual RSystem.RInt32 RCount
 		{
 			get
 			{
@@ -200,8 +200,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
 		/// <summary>
 		/// Boolean IsSynchronized
 		/// </summary>
-		protected RProperty r_IsSynchronized;
-		public virtual RProperty RIsSynchronized
+		protected RSystem.RBoolean r_IsSynchronized;
+		public virtual RSystem.RBoolean RIsSynchronized
 		{
 			get
 			{
@@ -217,8 +217,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
 		/// <summary>
 		/// Boolean IsReadOnly
 		/// </summary>
-		protected RProperty r_IsReadOnly;
-		public virtual RProperty RIsReadOnly
+		protected RSystem.RBoolean r_IsReadOnly;
+		public virtual RSystem.RBoolean RIsReadOnly
 		{
 			get
 			{
@@ -251,8 +251,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity
 		/// <summary>
 		/// Boolean DeclarativeSecurity
 		/// </summary>
-		protected RProperty r_DeclarativeSecurity;
-		public virtual RProperty RDeclarativeSecurity
+		protected RSystem.RBoolean r_DeclarativeSecurity;
+		public virtual RSystem.RBoolean RDeclarativeSecurity
 		{
 			get
 			{

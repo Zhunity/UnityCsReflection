@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Byte op1
 		/// </summary>
-		protected RField r_op1;
-		public virtual RField Rop1
+		protected RSystem.RByte r_op1;
+		public virtual RSystem.RByte Rop1
 		{
 			get
 			{
@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Byte op2
 		/// </summary>
-		protected RField r_op2;
-		public virtual RField Rop2
+		protected RSystem.RByte r_op2;
+		public virtual RSystem.RByte Rop2
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Byte push
 		/// </summary>
-		protected RField r_push;
-		public virtual RField Rpush
+		protected RSystem.RByte r_push;
+		public virtual RSystem.RByte Rpush
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Byte pop
 		/// </summary>
-		protected RField r_pop;
-		public virtual RField Rpop
+		protected RSystem.RByte r_pop;
+		public virtual RSystem.RByte Rpop
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Byte size
 		/// </summary>
-		protected RField r_size;
-		public virtual RField Rsize
+		protected RSystem.RByte r_size;
+		public virtual RSystem.RByte Rsize
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Byte type
 		/// </summary>
-		protected RField r_type;
-		public virtual RField Rtype
+		protected RSystem.RByte r_type;
+		public virtual RSystem.RByte Rtype
 		{
 			get
 			{
@@ -115,8 +115,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Byte args
 		/// </summary>
-		protected RField r_args;
-		public virtual RField Rargs
+		protected RSystem.RByte r_args;
+		public virtual RSystem.RByte Rargs
 		{
 			get
 			{
@@ -132,8 +132,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Byte flow
 		/// </summary>
-		protected RField r_flow;
-		public virtual RField Rflow
+		protected RSystem.RByte r_flow;
+		public virtual RSystem.RByte Rflow
 		{
 			get
 			{
@@ -149,8 +149,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.String Name
 		/// </summary>
-		protected RProperty r_Name;
-		public virtual RProperty RName
+		protected RSystem.RString r_Name;
+		public virtual RSystem.RString RName
 		{
 			get
 			{
@@ -166,8 +166,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// Int32 Size
 		/// </summary>
-		protected RProperty r_Size;
-		public virtual RProperty RSize
+		protected RSystem.RInt32 r_Size;
+		public virtual RSystem.RInt32 RSize
 		{
 			get
 			{
@@ -268,8 +268,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// Int16 Value
 		/// </summary>
-		protected RProperty r_Value;
-		public virtual RProperty RValue
+		protected RSystem.RInt16 r_Value;
+		public virtual RSystem.RInt16 RValue
 		{
 			get
 			{

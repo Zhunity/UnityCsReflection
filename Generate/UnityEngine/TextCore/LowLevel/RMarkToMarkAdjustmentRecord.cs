@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 		/// <summary>
 		/// System.UInt32 m_BaseMarkGlyphID
 		/// </summary>
-		protected RField r_m_BaseMarkGlyphID;
-		public virtual RField Rm_BaseMarkGlyphID
+		protected RSystem.RUInt32 r_m_BaseMarkGlyphID;
+		public virtual RSystem.RUInt32 Rm_BaseMarkGlyphID
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 		/// <summary>
 		/// System.UInt32 m_CombiningMarkGlyphID
 		/// </summary>
-		protected RField r_m_CombiningMarkGlyphID;
-		public virtual RField Rm_CombiningMarkGlyphID
+		protected RSystem.RUInt32 r_m_CombiningMarkGlyphID;
+		public virtual RSystem.RUInt32 Rm_CombiningMarkGlyphID
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 		/// <summary>
 		/// UInt32 baseMarkGlyphID
 		/// </summary>
-		protected RProperty r_baseMarkGlyphID;
-		public virtual RProperty RbaseMarkGlyphID
+		protected RSystem.RUInt32 r_baseMarkGlyphID;
+		public virtual RSystem.RUInt32 RbaseMarkGlyphID
 		{
 			get
 			{
@@ -115,8 +115,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 		/// <summary>
 		/// UInt32 combiningMarkGlyphID
 		/// </summary>
-		protected RProperty r_combiningMarkGlyphID;
-		public virtual RProperty RcombiningMarkGlyphID
+		protected RSystem.RUInt32 r_combiningMarkGlyphID;
+		public virtual RSystem.RUInt32 RcombiningMarkGlyphID
 		{
 			get
 			{

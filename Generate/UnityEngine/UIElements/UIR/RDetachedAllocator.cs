@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// UnityEngine.UIElements.UIR.TempAllocator`1[System.UInt16] m_IndexPool
 		/// </summary>
-		protected RUnityEngine.RUIElements.RUIR.RTempAllocator<RField> r_m_IndexPool;
-		public virtual RUnityEngine.RUIElements.RUIR.RTempAllocator<RField> Rm_IndexPool
+		protected RUnityEngine.RUIElements.RUIR.RTempAllocator<RSystem.RUInt16> r_m_IndexPool;
+		public virtual RUnityEngine.RUIElements.RUIR.RTempAllocator<RSystem.RUInt16> Rm_IndexPool
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Int32 m_MeshWriteDataCount
 		/// </summary>
-		protected RField r_m_MeshWriteDataCount;
-		public virtual RField Rm_MeshWriteDataCount
+		protected RSystem.RInt32 r_m_MeshWriteDataCount;
+		public virtual RSystem.RInt32 Rm_MeshWriteDataCount
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Boolean m_Disposed
 		/// </summary>
-		protected RField r_m_Disposed;
-		public virtual RField Rm_Disposed
+		protected RSystem.RBoolean r_m_Disposed;
+		public virtual RSystem.RBoolean Rm_Disposed
 		{
 			get
 			{

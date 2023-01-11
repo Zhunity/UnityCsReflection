@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RAddComponent
 		/// <summary>
 		/// System.String m_MenuPath
 		/// </summary>
-		protected RField r_m_MenuPath;
-		public virtual RField Rm_MenuPath
+		protected RSystem.RString r_m_MenuPath;
+		public virtual RSystem.RString Rm_MenuPath
 		{
 			get
 			{
@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RAddComponent
 		/// <summary>
 		/// System.Boolean m_IsLegacy
 		/// </summary>
-		protected RField r_m_IsLegacy;
-		public virtual RField Rm_IsLegacy
+		protected RSystem.RBoolean r_m_IsLegacy;
+		public virtual RSystem.RBoolean Rm_IsLegacy
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RAddComponent
 		/// <summary>
 		/// System.String m_LocalizedName
 		/// </summary>
-		protected RField r_m_LocalizedName;
-		public virtual RField Rm_LocalizedName
+		protected RSystem.RString r_m_LocalizedName;
+		public virtual RSystem.RString Rm_LocalizedName
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RAddComponent
 		/// <summary>
 		/// System.String m_SearchableNameLocalized
 		/// </summary>
-		protected RField r_m_SearchableNameLocalized;
-		public virtual RField Rm_SearchableNameLocalized
+		protected RSystem.RString r_m_SearchableNameLocalized;
+		public virtual RSystem.RString Rm_SearchableNameLocalized
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RAddComponent
 		/// <summary>
 		/// System.String m_SearchableName
 		/// </summary>
-		protected RField r_m_SearchableName;
-		public virtual RField Rm_SearchableName
+		protected RSystem.RString r_m_SearchableName;
+		public virtual RSystem.RString Rm_SearchableName
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RAddComponent
 		/// <summary>
 		/// System.String displayName
 		/// </summary>
-		protected RProperty r_displayName;
-		public virtual RProperty RdisplayName
+		protected RSystem.RString r_displayName;
+		public virtual RSystem.RString RdisplayName
 		{
 			get
 			{
@@ -115,8 +115,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RAddComponent
 		/// <summary>
 		/// System.String searchableName
 		/// </summary>
-		protected RProperty r_searchableName;
-		public virtual RProperty RsearchableName
+		protected RSystem.RString r_searchableName;
+		public virtual RSystem.RString RsearchableName
 		{
 			get
 			{
@@ -132,8 +132,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RAddComponent
 		/// <summary>
 		/// System.String searchableNameLocalized
 		/// </summary>
-		protected RProperty r_searchableNameLocalized;
-		public virtual RProperty RsearchableNameLocalized
+		protected RSystem.RString r_searchableNameLocalized;
+		public virtual RSystem.RString RsearchableNameLocalized
 		{
 			get
 			{
@@ -149,8 +149,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RAddComponent
 		/// <summary>
 		/// System.String localizedName
 		/// </summary>
-		protected RProperty r_localizedName;
-		public virtual RProperty RlocalizedName
+		protected RSystem.RString r_localizedName;
+		public virtual RSystem.RString RlocalizedName
 		{
 			get
 			{
@@ -166,8 +166,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RAddComponent
 		/// <summary>
 		/// System.String menuPath
 		/// </summary>
-		protected RProperty r_menuPath;
-		public virtual RProperty RmenuPath
+		protected RSystem.RString r_menuPath;
+		public virtual RSystem.RString RmenuPath
 		{
 			get
 			{
@@ -183,8 +183,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RAddComponent
 		/// <summary>
 		/// System.String name
 		/// </summary>
-		protected RProperty r_name;
-		public virtual RProperty Rname
+		protected RSystem.RString r_name;
+		public virtual RSystem.RString Rname
 		{
 			get
 			{
@@ -217,8 +217,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RAddComponent
 		/// <summary>
 		/// System.String tooltip
 		/// </summary>
-		protected RProperty r_tooltip;
-		public virtual RProperty Rtooltip
+		protected RSystem.RString r_tooltip;
+		public virtual RSystem.RString Rtooltip
 		{
 			get
 			{
@@ -251,8 +251,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RAddComponent
 		/// <summary>
 		/// Int32 id
 		/// </summary>
-		protected RProperty r_id;
-		public virtual RProperty Rid
+		protected RSystem.RInt32 r_id;
+		public virtual RSystem.RInt32 Rid
 		{
 			get
 			{
@@ -268,8 +268,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RAddComponent
 		/// <summary>
 		/// Int32 elementIndex
 		/// </summary>
-		protected RProperty r_elementIndex;
-		public virtual RProperty RelementIndex
+		protected RSystem.RInt32 r_elementIndex;
+		public virtual RSystem.RInt32 RelementIndex
 		{
 			get
 			{
@@ -285,8 +285,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RAddComponent
 		/// <summary>
 		/// Boolean enabled
 		/// </summary>
-		protected RProperty r_enabled;
-		public virtual RProperty Renabled
+		protected RSystem.RBoolean r_enabled;
+		public virtual RSystem.RBoolean Renabled
 		{
 			get
 			{
@@ -336,8 +336,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RAddComponent
 		/// <summary>
 		/// Boolean hasChildren
 		/// </summary>
-		protected RProperty r_hasChildren;
-		public virtual RProperty RhasChildren
+		protected RSystem.RBoolean r_hasChildren;
+		public virtual RSystem.RBoolean RhasChildren
 		{
 			get
 			{

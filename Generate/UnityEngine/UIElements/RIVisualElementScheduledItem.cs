@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Boolean isActive
 		/// </summary>
-		protected RProperty r_isActive;
-		public virtual RProperty RisActive
+		protected RSystem.RBoolean r_isActive;
+		public virtual RSystem.RBoolean RisActive
 		{
 			get
 			{

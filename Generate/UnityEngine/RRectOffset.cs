@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.IntPtr m_Ptr
 		/// </summary>
-		protected RField r_m_Ptr;
-		public virtual RField Rm_Ptr
+		protected RSystem.RIntPtr r_m_Ptr;
+		public virtual RSystem.RIntPtr Rm_Ptr
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 left
 		/// </summary>
-		protected RProperty r_left;
-		public virtual RProperty Rleft
+		protected RSystem.RInt32 r_left;
+		public virtual RSystem.RInt32 Rleft
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 right
 		/// </summary>
-		protected RProperty r_right;
-		public virtual RProperty Rright
+		protected RSystem.RInt32 r_right;
+		public virtual RSystem.RInt32 Rright
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 top
 		/// </summary>
-		protected RProperty r_top;
-		public virtual RProperty Rtop
+		protected RSystem.RInt32 r_top;
+		public virtual RSystem.RInt32 Rtop
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 bottom
 		/// </summary>
-		protected RProperty r_bottom;
-		public virtual RProperty Rbottom
+		protected RSystem.RInt32 r_bottom;
+		public virtual RSystem.RInt32 Rbottom
 		{
 			get
 			{
@@ -115,8 +115,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 horizontal
 		/// </summary>
-		protected RProperty r_horizontal;
-		public virtual RProperty Rhorizontal
+		protected RSystem.RInt32 r_horizontal;
+		public virtual RSystem.RInt32 Rhorizontal
 		{
 			get
 			{
@@ -132,8 +132,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 vertical
 		/// </summary>
-		protected RProperty r_vertical;
-		public virtual RProperty Rvertical
+		protected RSystem.RInt32 r_vertical;
+		public virtual RSystem.RInt32 Rvertical
 		{
 			get
 			{

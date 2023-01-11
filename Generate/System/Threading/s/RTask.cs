@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 		/// <summary>
 		/// System.Int32 s_taskIdCounter
 		/// </summary>
-		protected static RField r_s_taskIdCounter;
-		public static RField Rs_taskIdCounter
+		protected static RSystem.RInt32 r_s_taskIdCounter;
+		public static RSystem.RInt32 Rs_taskIdCounter
 		{
 			get
 			{
@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 		/// <summary>
 		/// System.Int32 m_taskId
 		/// </summary>
-		protected RField r_m_taskId;
-		public virtual RField Rm_taskId
+		protected RSystem.RInt32 r_m_taskId;
+		public virtual RSystem.RInt32 Rm_taskId
 		{
 			get
 			{
@@ -115,8 +115,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 		/// <summary>
 		/// System.Int32 m_stateFlags
 		/// </summary>
-		protected RField r_m_stateFlags;
-		public virtual RField Rm_stateFlags
+		protected RSystem.RInt32 r_m_stateFlags;
+		public virtual RSystem.RInt32 Rm_stateFlags
 		{
 			get
 			{
@@ -132,8 +132,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 		/// <summary>
 		/// System.Int32 OptionsMask
 		/// </summary>
-		protected static RField r_OptionsMask;
-		public static RField ROptionsMask
+		protected static RSystem.RInt32 r_OptionsMask;
+		public static RSystem.RInt32 ROptionsMask
 		{
 			get
 			{
@@ -149,8 +149,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 		/// <summary>
 		/// System.Int32 TASK_STATE_STARTED
 		/// </summary>
-		protected static RField r_TASK_STATE_STARTED;
-		public static RField RTASK_STATE_STARTED
+		protected static RSystem.RInt32 r_TASK_STATE_STARTED;
+		public static RSystem.RInt32 RTASK_STATE_STARTED
 		{
 			get
 			{
@@ -166,8 +166,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 		/// <summary>
 		/// System.Int32 TASK_STATE_DELEGATE_INVOKED
 		/// </summary>
-		protected static RField r_TASK_STATE_DELEGATE_INVOKED;
-		public static RField RTASK_STATE_DELEGATE_INVOKED
+		protected static RSystem.RInt32 r_TASK_STATE_DELEGATE_INVOKED;
+		public static RSystem.RInt32 RTASK_STATE_DELEGATE_INVOKED
 		{
 			get
 			{
@@ -183,8 +183,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 		/// <summary>
 		/// System.Int32 TASK_STATE_DISPOSED
 		/// </summary>
-		protected static RField r_TASK_STATE_DISPOSED;
-		public static RField RTASK_STATE_DISPOSED
+		protected static RSystem.RInt32 r_TASK_STATE_DISPOSED;
+		public static RSystem.RInt32 RTASK_STATE_DISPOSED
 		{
 			get
 			{
@@ -200,8 +200,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 		/// <summary>
 		/// System.Int32 TASK_STATE_EXCEPTIONOBSERVEDBYPARENT
 		/// </summary>
-		protected static RField r_TASK_STATE_EXCEPTIONOBSERVEDBYPARENT;
-		public static RField RTASK_STATE_EXCEPTIONOBSERVEDBYPARENT
+		protected static RSystem.RInt32 r_TASK_STATE_EXCEPTIONOBSERVEDBYPARENT;
+		public static RSystem.RInt32 RTASK_STATE_EXCEPTIONOBSERVEDBYPARENT
 		{
 			get
 			{
@@ -217,8 +217,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 		/// <summary>
 		/// System.Int32 TASK_STATE_CANCELLATIONACKNOWLEDGED
 		/// </summary>
-		protected static RField r_TASK_STATE_CANCELLATIONACKNOWLEDGED;
-		public static RField RTASK_STATE_CANCELLATIONACKNOWLEDGED
+		protected static RSystem.RInt32 r_TASK_STATE_CANCELLATIONACKNOWLEDGED;
+		public static RSystem.RInt32 RTASK_STATE_CANCELLATIONACKNOWLEDGED
 		{
 			get
 			{
@@ -234,8 +234,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 		/// <summary>
 		/// System.Int32 TASK_STATE_FAULTED
 		/// </summary>
-		protected static RField r_TASK_STATE_FAULTED;
-		public static RField RTASK_STATE_FAULTED
+		protected static RSystem.RInt32 r_TASK_STATE_FAULTED;
+		public static RSystem.RInt32 RTASK_STATE_FAULTED
 		{
 			get
 			{
@@ -251,8 +251,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 		/// <summary>
 		/// System.Int32 TASK_STATE_CANCELED
 		/// </summary>
-		protected static RField r_TASK_STATE_CANCELED;
-		public static RField RTASK_STATE_CANCELED
+		protected static RSystem.RInt32 r_TASK_STATE_CANCELED;
+		public static RSystem.RInt32 RTASK_STATE_CANCELED
 		{
 			get
 			{
@@ -268,8 +268,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 		/// <summary>
 		/// System.Int32 TASK_STATE_WAITING_ON_CHILDREN
 		/// </summary>
-		protected static RField r_TASK_STATE_WAITING_ON_CHILDREN;
-		public static RField RTASK_STATE_WAITING_ON_CHILDREN
+		protected static RSystem.RInt32 r_TASK_STATE_WAITING_ON_CHILDREN;
+		public static RSystem.RInt32 RTASK_STATE_WAITING_ON_CHILDREN
 		{
 			get
 			{
@@ -285,8 +285,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 		/// <summary>
 		/// System.Int32 TASK_STATE_RAN_TO_COMPLETION
 		/// </summary>
-		protected static RField r_TASK_STATE_RAN_TO_COMPLETION;
-		public static RField RTASK_STATE_RAN_TO_COMPLETION
+		protected static RSystem.RInt32 r_TASK_STATE_RAN_TO_COMPLETION;
+		public static RSystem.RInt32 RTASK_STATE_RAN_TO_COMPLETION
 		{
 			get
 			{
@@ -302,8 +302,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 		/// <summary>
 		/// System.Int32 TASK_STATE_WAITINGFORACTIVATION
 		/// </summary>
-		protected static RField r_TASK_STATE_WAITINGFORACTIVATION;
-		public static RField RTASK_STATE_WAITINGFORACTIVATION
+		protected static RSystem.RInt32 r_TASK_STATE_WAITINGFORACTIVATION;
+		public static RSystem.RInt32 RTASK_STATE_WAITINGFORACTIVATION
 		{
 			get
 			{
@@ -319,8 +319,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 		/// <summary>
 		/// System.Int32 TASK_STATE_COMPLETION_RESERVED
 		/// </summary>
-		protected static RField r_TASK_STATE_COMPLETION_RESERVED;
-		public static RField RTASK_STATE_COMPLETION_RESERVED
+		protected static RSystem.RInt32 r_TASK_STATE_COMPLETION_RESERVED;
+		public static RSystem.RInt32 RTASK_STATE_COMPLETION_RESERVED
 		{
 			get
 			{
@@ -336,8 +336,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 		/// <summary>
 		/// System.Int32 TASK_STATE_THREAD_WAS_ABORTED
 		/// </summary>
-		protected static RField r_TASK_STATE_THREAD_WAS_ABORTED;
-		public static RField RTASK_STATE_THREAD_WAS_ABORTED
+		protected static RSystem.RInt32 r_TASK_STATE_THREAD_WAS_ABORTED;
+		public static RSystem.RInt32 RTASK_STATE_THREAD_WAS_ABORTED
 		{
 			get
 			{
@@ -353,8 +353,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 		/// <summary>
 		/// System.Int32 TASK_STATE_WAIT_COMPLETION_NOTIFICATION
 		/// </summary>
-		protected static RField r_TASK_STATE_WAIT_COMPLETION_NOTIFICATION;
-		public static RField RTASK_STATE_WAIT_COMPLETION_NOTIFICATION
+		protected static RSystem.RInt32 r_TASK_STATE_WAIT_COMPLETION_NOTIFICATION;
+		public static RSystem.RInt32 RTASK_STATE_WAIT_COMPLETION_NOTIFICATION
 		{
 			get
 			{
@@ -370,8 +370,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 		/// <summary>
 		/// System.Int32 TASK_STATE_COMPLETED_MASK
 		/// </summary>
-		protected static RField r_TASK_STATE_COMPLETED_MASK;
-		public static RField RTASK_STATE_COMPLETED_MASK
+		protected static RSystem.RInt32 r_TASK_STATE_COMPLETED_MASK;
+		public static RSystem.RInt32 RTASK_STATE_COMPLETED_MASK
 		{
 			get
 			{
@@ -387,8 +387,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 		/// <summary>
 		/// System.Int32 CANCELLATION_REQUESTED
 		/// </summary>
-		protected static RField r_CANCELLATION_REQUESTED;
-		public static RField RCANCELLATION_REQUESTED
+		protected static RSystem.RInt32 r_CANCELLATION_REQUESTED;
+		public static RSystem.RInt32 RCANCELLATION_REQUESTED
 		{
 			get
 			{
@@ -438,8 +438,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 		/// <summary>
 		/// System.Boolean s_asyncDebuggingEnabled
 		/// </summary>
-		protected static RField r_s_asyncDebuggingEnabled;
-		public static RField Rs_asyncDebuggingEnabled
+		protected static RSystem.RBoolean r_s_asyncDebuggingEnabled;
+		public static RSystem.RBoolean Rs_asyncDebuggingEnabled
 		{
 			get
 			{
@@ -625,8 +625,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 		/// <summary>
 		/// System.Collections.Generic.Dictionary`2[System.Int32,System.Threading.Tasks.Task] s_currentActiveTasks
 		/// </summary>
-		protected static RSystem.RCollections.RGeneric.RDictionary<RField, RSystem.RThreading.RTasks.RTask> r_s_currentActiveTasks;
-		public static RSystem.RCollections.RGeneric.RDictionary<RField, RSystem.RThreading.RTasks.RTask> Rs_currentActiveTasks
+		protected static RSystem.RCollections.RGeneric.RDictionary<RSystem.RInt32, RSystem.RThreading.RTasks.RTask> r_s_currentActiveTasks;
+		public static RSystem.RCollections.RGeneric.RDictionary<RSystem.RInt32, RSystem.RThreading.RTasks.RTask> Rs_currentActiveTasks
 		{
 			get
 			{
@@ -676,8 +676,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 		/// <summary>
 		/// Int32 StateFlagsForDebugger
 		/// </summary>
-		protected RProperty r_StateFlagsForDebugger;
-		public virtual RProperty RStateFlagsForDebugger
+		protected RSystem.RInt32 r_StateFlagsForDebugger;
+		public virtual RSystem.RInt32 RStateFlagsForDebugger
 		{
 			get
 			{
@@ -693,8 +693,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 		/// <summary>
 		/// System.String DebuggerDisplayMethodDescription
 		/// </summary>
-		protected RProperty r_DebuggerDisplayMethodDescription;
-		public virtual RProperty RDebuggerDisplayMethodDescription
+		protected RSystem.RString r_DebuggerDisplayMethodDescription;
+		public virtual RSystem.RString RDebuggerDisplayMethodDescription
 		{
 			get
 			{
@@ -727,8 +727,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 		/// <summary>
 		/// Boolean IsWaitNotificationEnabledOrNotRanToCompletion
 		/// </summary>
-		protected RProperty r_IsWaitNotificationEnabledOrNotRanToCompletion;
-		public virtual RProperty RIsWaitNotificationEnabledOrNotRanToCompletion
+		protected RSystem.RBoolean r_IsWaitNotificationEnabledOrNotRanToCompletion;
+		public virtual RSystem.RBoolean RIsWaitNotificationEnabledOrNotRanToCompletion
 		{
 			get
 			{
@@ -744,8 +744,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 		/// <summary>
 		/// Boolean ShouldNotifyDebuggerOfWaitCompletion
 		/// </summary>
-		protected RProperty r_ShouldNotifyDebuggerOfWaitCompletion;
-		public virtual RProperty RShouldNotifyDebuggerOfWaitCompletion
+		protected RSystem.RBoolean r_ShouldNotifyDebuggerOfWaitCompletion;
+		public virtual RSystem.RBoolean RShouldNotifyDebuggerOfWaitCompletion
 		{
 			get
 			{
@@ -761,8 +761,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 		/// <summary>
 		/// Boolean IsWaitNotificationEnabled
 		/// </summary>
-		protected RProperty r_IsWaitNotificationEnabled;
-		public virtual RProperty RIsWaitNotificationEnabled
+		protected RSystem.RBoolean r_IsWaitNotificationEnabled;
+		public virtual RSystem.RBoolean RIsWaitNotificationEnabled
 		{
 			get
 			{
@@ -778,8 +778,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 		/// <summary>
 		/// Int32 Id
 		/// </summary>
-		protected RProperty r_Id;
-		public virtual RProperty RId
+		protected RSystem.RInt32 r_Id;
+		public virtual RSystem.RInt32 RId
 		{
 			get
 			{
@@ -795,8 +795,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 		/// <summary>
 		/// System.Nullable`1[System.Int32] CurrentId
 		/// </summary>
-		protected static RProperty r_CurrentId;
-		public static RProperty RCurrentId
+		protected static RSystem.RNullable<RSystem.RInt32> r_CurrentId;
+		public static RSystem.RNullable<RSystem.RInt32> RCurrentId
 		{
 			get
 			{
@@ -880,8 +880,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 		/// <summary>
 		/// Boolean IsCanceled
 		/// </summary>
-		protected RProperty r_IsCanceled;
-		public virtual RProperty RIsCanceled
+		protected RSystem.RBoolean r_IsCanceled;
+		public virtual RSystem.RBoolean RIsCanceled
 		{
 			get
 			{
@@ -897,8 +897,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 		/// <summary>
 		/// Boolean IsCancellationRequested
 		/// </summary>
-		protected RProperty r_IsCancellationRequested;
-		public virtual RProperty RIsCancellationRequested
+		protected RSystem.RBoolean r_IsCancellationRequested;
+		public virtual RSystem.RBoolean RIsCancellationRequested
 		{
 			get
 			{
@@ -931,8 +931,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 		/// <summary>
 		/// Boolean IsCancellationAcknowledged
 		/// </summary>
-		protected RProperty r_IsCancellationAcknowledged;
-		public virtual RProperty RIsCancellationAcknowledged
+		protected RSystem.RBoolean r_IsCancellationAcknowledged;
+		public virtual RSystem.RBoolean RIsCancellationAcknowledged
 		{
 			get
 			{
@@ -948,8 +948,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 		/// <summary>
 		/// Boolean IsCompleted
 		/// </summary>
-		protected RProperty r_IsCompleted;
-		public virtual RProperty RIsCompleted
+		protected RSystem.RBoolean r_IsCompleted;
+		public virtual RSystem.RBoolean RIsCompleted
 		{
 			get
 			{
@@ -965,8 +965,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 		/// <summary>
 		/// Boolean IsCompletedSuccessfully
 		/// </summary>
-		protected RProperty r_IsCompletedSuccessfully;
-		public virtual RProperty RIsCompletedSuccessfully
+		protected RSystem.RBoolean r_IsCompletedSuccessfully;
+		public virtual RSystem.RBoolean RIsCompletedSuccessfully
 		{
 			get
 			{
@@ -1033,8 +1033,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 		/// <summary>
 		/// Boolean System.IAsyncResult.CompletedSynchronously
 		/// </summary>
-		protected RProperty r_System__2__IAsyncResult__2__CompletedSynchronously;
-		public virtual RProperty RSystem__2__IAsyncResult__2__CompletedSynchronously
+		protected RSystem.RBoolean r_System__2__IAsyncResult__2__CompletedSynchronously;
+		public virtual RSystem.RBoolean RSystem__2__IAsyncResult__2__CompletedSynchronously
 		{
 			get
 			{
@@ -1118,8 +1118,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 		/// <summary>
 		/// Boolean ExceptionRecorded
 		/// </summary>
-		protected RProperty r_ExceptionRecorded;
-		public virtual RProperty RExceptionRecorded
+		protected RSystem.RBoolean r_ExceptionRecorded;
+		public virtual RSystem.RBoolean RExceptionRecorded
 		{
 			get
 			{
@@ -1135,8 +1135,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 		/// <summary>
 		/// Boolean IsFaulted
 		/// </summary>
-		protected RProperty r_IsFaulted;
-		public virtual RProperty RIsFaulted
+		protected RSystem.RBoolean r_IsFaulted;
+		public virtual RSystem.RBoolean RIsFaulted
 		{
 			get
 			{
@@ -1169,8 +1169,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 		/// <summary>
 		/// Boolean IsExceptionObservedByParent
 		/// </summary>
-		protected RProperty r_IsExceptionObservedByParent;
-		public virtual RProperty RIsExceptionObservedByParent
+		protected RSystem.RBoolean r_IsExceptionObservedByParent;
+		public virtual RSystem.RBoolean RIsExceptionObservedByParent
 		{
 			get
 			{
@@ -1186,8 +1186,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 		/// <summary>
 		/// Boolean IsDelegateInvoked
 		/// </summary>
-		protected RProperty r_IsDelegateInvoked;
-		public virtual RProperty RIsDelegateInvoked
+		protected RSystem.RBoolean r_IsDelegateInvoked;
+		public virtual RSystem.RBoolean RIsDelegateInvoked
 		{
 			get
 			{

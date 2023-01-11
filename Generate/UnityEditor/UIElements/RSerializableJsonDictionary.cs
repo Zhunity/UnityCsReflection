@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RUIElements
 		/// <summary>
 		/// System.Collections.Generic.List`1[System.String] m_Keys
 		/// </summary>
-		protected RSystem.RCollections.RGeneric.RList<RField> r_m_Keys;
-		public virtual RSystem.RCollections.RGeneric.RList<RField> Rm_Keys
+		protected RSystem.RCollections.RGeneric.RList<RSystem.RString> r_m_Keys;
+		public virtual RSystem.RCollections.RGeneric.RList<RSystem.RString> Rm_Keys
 		{
 			get
 			{
@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RUIElements
 		/// <summary>
 		/// System.Collections.Generic.List`1[System.String] m_Values
 		/// </summary>
-		protected RSystem.RCollections.RGeneric.RList<RField> r_m_Values;
-		public virtual RSystem.RCollections.RGeneric.RList<RField> Rm_Values
+		protected RSystem.RCollections.RGeneric.RList<RSystem.RString> r_m_Values;
+		public virtual RSystem.RCollections.RGeneric.RList<RSystem.RString> Rm_Values
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RUIElements
 		/// <summary>
 		/// System.Collections.Generic.Dictionary`2[System.String,System.Object] m_Dict
 		/// </summary>
-		protected RSystem.RCollections.RGeneric.RDictionary<RField, RSystem.RObject> r_m_Dict;
-		public virtual RSystem.RCollections.RGeneric.RDictionary<RField, RSystem.RObject> Rm_Dict
+		protected RSystem.RCollections.RGeneric.RDictionary<RSystem.RString, RSystem.RObject> r_m_Dict;
+		public virtual RSystem.RCollections.RGeneric.RDictionary<RSystem.RString, RSystem.RObject> Rm_Dict
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RUIElements
 		/// <summary>
 		/// System.String name
 		/// </summary>
-		protected RProperty r_name;
-		public virtual RProperty Rname
+		protected RSystem.RString r_name;
+		public virtual RSystem.RString Rname
 		{
 			get
 			{

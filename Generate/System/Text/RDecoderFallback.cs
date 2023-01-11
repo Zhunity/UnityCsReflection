@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// Int32 MaxCharCount
 		/// </summary>
-		protected RProperty r_MaxCharCount;
-		public virtual RProperty RMaxCharCount
+		protected RSystem.RInt32 r_MaxCharCount;
+		public virtual RSystem.RInt32 RMaxCharCount
 		{
 			get
 			{

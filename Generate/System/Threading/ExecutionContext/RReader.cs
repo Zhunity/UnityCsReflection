@@ -32,8 +32,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// Boolean IsNull
 		/// </summary>
-		protected RProperty r_IsNull;
-		public virtual RProperty RIsNull
+		protected RSystem.RBoolean r_IsNull;
+		public virtual RSystem.RBoolean RIsNull
 		{
 			get
 			{
@@ -49,8 +49,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// Boolean IsFlowSuppressed
 		/// </summary>
-		protected RProperty r_IsFlowSuppressed;
-		public virtual RProperty RIsFlowSuppressed
+		protected RSystem.RBoolean r_IsFlowSuppressed;
+		public virtual RSystem.RBoolean RIsFlowSuppressed
 		{
 			get
 			{

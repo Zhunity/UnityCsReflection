@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.String FullyQualifiedName
 		/// </summary>
-		protected RProperty r_FullyQualifiedName;
-		public virtual RProperty RFullyQualifiedName
+		protected RSystem.RString r_FullyQualifiedName;
+		public virtual RSystem.RString RFullyQualifiedName
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.String Name
 		/// </summary>
-		protected RProperty r_Name;
-		public virtual RProperty RName
+		protected RSystem.RString r_Name;
+		public virtual RSystem.RString RName
 		{
 			get
 			{
@@ -115,8 +115,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// Int32 MDStreamVersion
 		/// </summary>
-		protected RProperty r_MDStreamVersion;
-		public virtual RProperty RMDStreamVersion
+		protected RSystem.RInt32 r_MDStreamVersion;
+		public virtual RSystem.RInt32 RMDStreamVersion
 		{
 			get
 			{
@@ -149,8 +149,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.String ScopeName
 		/// </summary>
-		protected RProperty r_ScopeName;
-		public virtual RProperty RScopeName
+		protected RSystem.RString r_ScopeName;
+		public virtual RSystem.RString RScopeName
 		{
 			get
 			{
@@ -200,8 +200,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// Int32 MetadataToken
 		/// </summary>
-		protected RProperty r_MetadataToken;
-		public virtual RProperty RMetadataToken
+		protected RSystem.RInt32 r_MetadataToken;
+		public virtual RSystem.RInt32 RMetadataToken
 		{
 			get
 			{

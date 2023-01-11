@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.UInt32 start
 		/// </summary>
-		protected RField r_start;
-		public virtual RField Rstart
+		protected RSystem.RUInt32 r_start;
+		public virtual RSystem.RUInt32 Rstart
 		{
 			get
 			{
@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.UInt32 size
 		/// </summary>
-		protected RField r_size;
-		public virtual RField Rsize
+		protected RSystem.RUInt32 r_size;
+		public virtual RSystem.RUInt32 Rsize
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Boolean shortLived
 		/// </summary>
-		protected RField r_shortLived;
-		public virtual RField RshortLived
+		protected RSystem.RBoolean r_shortLived;
+		public virtual RSystem.RBoolean RshortLived
 		{
 			get
 			{

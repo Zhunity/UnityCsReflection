@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.String k_ScriptingPrefix
 		/// </summary>
-		protected static RField r_k_ScriptingPrefix;
-		public static RField Rk_ScriptingPrefix
+		protected static RSystem.RString r_k_ScriptingPrefix;
+		public static RSystem.RString Rk_ScriptingPrefix
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Int32 m_ShowMode
 		/// </summary>
-		protected RField r_m_ShowMode;
-		public virtual RField Rm_ShowMode
+		protected RSystem.RInt32 r_m_ShowMode;
+		public virtual RSystem.RInt32 Rm_ShowMode
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.String m_Title
 		/// </summary>
-		protected RField r_m_Title;
-		public virtual RField Rm_Title
+		protected RSystem.RString r_m_Title;
+		public virtual RSystem.RString Rm_Title
 		{
 			get
 			{
@@ -149,8 +149,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Boolean m_Maximized
 		/// </summary>
-		protected RField r_m_Maximized;
-		public virtual RField Rm_Maximized
+		protected RSystem.RBoolean r_m_Maximized;
+		public virtual RSystem.RBoolean Rm_Maximized
 		{
 			get
 			{
@@ -166,8 +166,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Boolean m_DontSaveToLayout
 		/// </summary>
-		protected RField r_m_DontSaveToLayout;
-		public virtual RField Rm_DontSaveToLayout
+		protected RSystem.RBoolean r_m_DontSaveToLayout;
+		public virtual RSystem.RBoolean Rm_DontSaveToLayout
 		{
 			get
 			{
@@ -183,8 +183,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Boolean m_HasUnsavedChanges
 		/// </summary>
-		protected RField r_m_HasUnsavedChanges;
-		public virtual RField Rm_HasUnsavedChanges
+		protected RSystem.RBoolean r_m_HasUnsavedChanges;
+		public virtual RSystem.RBoolean Rm_HasUnsavedChanges
 		{
 			get
 			{
@@ -217,8 +217,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Int32 m_ButtonCount
 		/// </summary>
-		protected RField r_m_ButtonCount;
-		public virtual RField Rm_ButtonCount
+		protected RSystem.RInt32 r_m_ButtonCount;
+		public virtual RSystem.RInt32 Rm_ButtonCount
 		{
 			get
 			{
@@ -234,8 +234,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Single m_TitleBarWidth
 		/// </summary>
-		protected RField r_m_TitleBarWidth;
-		public virtual RField Rm_TitleBarWidth
+		protected RSystem.RSingle r_m_TitleBarWidth;
+		public virtual RSystem.RSingle Rm_TitleBarWidth
 		{
 			get
 			{
@@ -251,8 +251,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Single kTitleHeight
 		/// </summary>
-		protected static RField r_kTitleHeight;
-		public static RField RkTitleHeight
+		protected static RSystem.RSingle r_kTitleHeight;
+		public static RSystem.RSingle RkTitleHeight
 		{
 			get
 			{
@@ -268,8 +268,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Single kButtonWidth
 		/// </summary>
-		protected static RField r_kButtonWidth;
-		public static RField RkButtonWidth
+		protected static RSystem.RSingle r_kButtonWidth;
+		public static RSystem.RSingle RkButtonWidth
 		{
 			get
 			{
@@ -285,8 +285,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Single kButtonHeight
 		/// </summary>
-		protected static RField r_kButtonHeight;
-		public static RField RkButtonHeight
+		protected static RSystem.RSingle r_kButtonHeight;
+		public static RSystem.RSingle RkButtonHeight
 		{
 			get
 			{
@@ -302,8 +302,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Boolean s_Modal
 		/// </summary>
-		protected static RField r_s_Modal;
-		public static RField Rs_Modal
+		protected static RSystem.RBoolean r_s_Modal;
+		public static RSystem.RBoolean Rs_Modal
 		{
 			get
 			{
@@ -336,8 +336,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Single kButtonCountOSX
 		/// </summary>
-		protected static RField r_kButtonCountOSX;
-		public static RField RkButtonCountOSX
+		protected static RSystem.RSingle r_kButtonCountOSX;
+		public static RSystem.RSingle RkButtonCountOSX
 		{
 			get
 			{
@@ -353,8 +353,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Single kButtonCountWin
 		/// </summary>
-		protected static RField r_kButtonCountWin;
-		public static RField RkButtonCountWin
+		protected static RSystem.RSingle r_kButtonCountWin;
+		public static RSystem.RSingle RkButtonCountWin
 		{
 			get
 			{
@@ -370,8 +370,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.String m_WindowID
 		/// </summary>
-		protected RField r_m_WindowID;
-		public virtual RField Rm_WindowID
+		protected RSystem.RString r_m_WindowID;
+		public virtual RSystem.RString Rm_WindowID
 		{
 			get
 			{
@@ -421,8 +421,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.String <displayedTitle>k__BackingField
 		/// </summary>
-		protected RField r___0__displayedTitle__1__k__BackingField;
-		public virtual RField R__0__displayedTitle__1__k__BackingField
+		protected RSystem.RString r___0__displayedTitle__1__k__BackingField;
+		public virtual RSystem.RString R__0__displayedTitle__1__k__BackingField
 		{
 			get
 			{
@@ -472,8 +472,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Single startDragDpi
 		/// </summary>
-		protected RField r_startDragDpi;
-		public virtual RField RstartDragDpi
+		protected RSystem.RSingle r_startDragDpi;
+		public virtual RSystem.RSingle RstartDragDpi
 		{
 			get
 			{
@@ -489,8 +489,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Boolean m_DraggingNativeTitleBarCaption
 		/// </summary>
-		protected RField r_m_DraggingNativeTitleBarCaption;
-		public virtual RField Rm_DraggingNativeTitleBarCaption
+		protected RSystem.RBoolean r_m_DraggingNativeTitleBarCaption;
+		public virtual RSystem.RBoolean Rm_DraggingNativeTitleBarCaption
 		{
 			get
 			{
@@ -523,8 +523,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Boolean maximized
 		/// </summary>
-		protected RProperty r_maximized;
-		public virtual RProperty Rmaximized
+		protected RSystem.RBoolean r_maximized;
+		public virtual RSystem.RBoolean Rmaximized
 		{
 			get
 			{
@@ -540,8 +540,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Boolean macEditor
 		/// </summary>
-		protected static RProperty r_macEditor;
-		public static RProperty RmacEditor
+		protected static RSystem.RBoolean r_macEditor;
+		public static RSystem.RBoolean RmacEditor
 		{
 			get
 			{
@@ -557,8 +557,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Boolean linuxEditor
 		/// </summary>
-		protected static RProperty r_linuxEditor;
-		public static RProperty RlinuxEditor
+		protected static RSystem.RBoolean r_linuxEditor;
+		public static RSystem.RBoolean RlinuxEditor
 		{
 			get
 			{
@@ -591,8 +591,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Single buttonHorizontalSpace
 		/// </summary>
-		protected static RProperty r_buttonHorizontalSpace;
-		public static RProperty RbuttonHorizontalSpace
+		protected static RSystem.RSingle r_buttonHorizontalSpace;
+		public static RSystem.RSingle RbuttonHorizontalSpace
 		{
 			get
 			{
@@ -608,8 +608,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Single buttonStackWidth
 		/// </summary>
-		protected static RProperty r_buttonStackWidth;
-		public static RProperty RbuttonStackWidth
+		protected static RSystem.RSingle r_buttonStackWidth;
+		public static RSystem.RSingle RbuttonStackWidth
 		{
 			get
 			{
@@ -642,8 +642,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.String windowID
 		/// </summary>
-		protected RProperty r_windowID;
-		public virtual RProperty RwindowID
+		protected RSystem.RString r_windowID;
+		public virtual RSystem.RString RwindowID
 		{
 			get
 			{
@@ -659,8 +659,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Boolean isPopup
 		/// </summary>
-		protected RProperty r_isPopup;
-		public virtual RProperty RisPopup
+		protected RSystem.RBoolean r_isPopup;
+		public virtual RSystem.RBoolean RisPopup
 		{
 			get
 			{
@@ -693,8 +693,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.String displayedTitle
 		/// </summary>
-		protected RProperty r_displayedTitle;
-		public virtual RProperty RdisplayedTitle
+		protected RSystem.RString r_displayedTitle;
+		public virtual RSystem.RString RdisplayedTitle
 		{
 			get
 			{
@@ -710,8 +710,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.String title
 		/// </summary>
-		protected RProperty r_title;
-		public virtual RProperty Rtitle
+		protected RSystem.RString r_title;
+		public virtual RSystem.RString Rtitle
 		{
 			get
 			{
@@ -727,8 +727,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Boolean hasUnsavedChanges
 		/// </summary>
-		protected RProperty r_hasUnsavedChanges;
-		public virtual RProperty RhasUnsavedChanges
+		protected RSystem.RBoolean r_hasUnsavedChanges;
+		public virtual RSystem.RBoolean RhasUnsavedChanges
 		{
 			get
 			{
@@ -795,8 +795,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.String name
 		/// </summary>
-		protected RProperty r_name;
-		public virtual RProperty Rname
+		protected RSystem.RString r_name;
+		public virtual RSystem.RString Rname
 		{
 			get
 			{

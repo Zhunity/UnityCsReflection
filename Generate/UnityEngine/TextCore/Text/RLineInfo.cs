@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Int32 controlCharacterCount
 		/// </summary>
-		protected RField r_controlCharacterCount;
-		public virtual RField RcontrolCharacterCount
+		protected RSystem.RInt32 r_controlCharacterCount;
+		public virtual RSystem.RInt32 RcontrolCharacterCount
 		{
 			get
 			{
@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Int32 characterCount
 		/// </summary>
-		protected RField r_characterCount;
-		public virtual RField RcharacterCount
+		protected RSystem.RInt32 r_characterCount;
+		public virtual RSystem.RInt32 RcharacterCount
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Int32 visibleCharacterCount
 		/// </summary>
-		protected RField r_visibleCharacterCount;
-		public virtual RField RvisibleCharacterCount
+		protected RSystem.RInt32 r_visibleCharacterCount;
+		public virtual RSystem.RInt32 RvisibleCharacterCount
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Int32 spaceCount
 		/// </summary>
-		protected RField r_spaceCount;
-		public virtual RField RspaceCount
+		protected RSystem.RInt32 r_spaceCount;
+		public virtual RSystem.RInt32 RspaceCount
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Int32 visibleSpaceCount
 		/// </summary>
-		protected RField r_visibleSpaceCount;
-		public virtual RField RvisibleSpaceCount
+		protected RSystem.RInt32 r_visibleSpaceCount;
+		public virtual RSystem.RInt32 RvisibleSpaceCount
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Int32 wordCount
 		/// </summary>
-		protected RField r_wordCount;
-		public virtual RField RwordCount
+		protected RSystem.RInt32 r_wordCount;
+		public virtual RSystem.RInt32 RwordCount
 		{
 			get
 			{
@@ -115,8 +115,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Int32 firstCharacterIndex
 		/// </summary>
-		protected RField r_firstCharacterIndex;
-		public virtual RField RfirstCharacterIndex
+		protected RSystem.RInt32 r_firstCharacterIndex;
+		public virtual RSystem.RInt32 RfirstCharacterIndex
 		{
 			get
 			{
@@ -132,8 +132,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Int32 firstVisibleCharacterIndex
 		/// </summary>
-		protected RField r_firstVisibleCharacterIndex;
-		public virtual RField RfirstVisibleCharacterIndex
+		protected RSystem.RInt32 r_firstVisibleCharacterIndex;
+		public virtual RSystem.RInt32 RfirstVisibleCharacterIndex
 		{
 			get
 			{
@@ -149,8 +149,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Int32 lastCharacterIndex
 		/// </summary>
-		protected RField r_lastCharacterIndex;
-		public virtual RField RlastCharacterIndex
+		protected RSystem.RInt32 r_lastCharacterIndex;
+		public virtual RSystem.RInt32 RlastCharacterIndex
 		{
 			get
 			{
@@ -166,8 +166,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Int32 lastVisibleCharacterIndex
 		/// </summary>
-		protected RField r_lastVisibleCharacterIndex;
-		public virtual RField RlastVisibleCharacterIndex
+		protected RSystem.RInt32 r_lastVisibleCharacterIndex;
+		public virtual RSystem.RInt32 RlastVisibleCharacterIndex
 		{
 			get
 			{
@@ -183,8 +183,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Single length
 		/// </summary>
-		protected RField r_length;
-		public virtual RField Rlength
+		protected RSystem.RSingle r_length;
+		public virtual RSystem.RSingle Rlength
 		{
 			get
 			{
@@ -200,8 +200,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Single lineHeight
 		/// </summary>
-		protected RField r_lineHeight;
-		public virtual RField RlineHeight
+		protected RSystem.RSingle r_lineHeight;
+		public virtual RSystem.RSingle RlineHeight
 		{
 			get
 			{
@@ -217,8 +217,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Single ascender
 		/// </summary>
-		protected RField r_ascender;
-		public virtual RField Rascender
+		protected RSystem.RSingle r_ascender;
+		public virtual RSystem.RSingle Rascender
 		{
 			get
 			{
@@ -234,8 +234,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Single baseline
 		/// </summary>
-		protected RField r_baseline;
-		public virtual RField Rbaseline
+		protected RSystem.RSingle r_baseline;
+		public virtual RSystem.RSingle Rbaseline
 		{
 			get
 			{
@@ -251,8 +251,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Single descender
 		/// </summary>
-		protected RField r_descender;
-		public virtual RField Rdescender
+		protected RSystem.RSingle r_descender;
+		public virtual RSystem.RSingle Rdescender
 		{
 			get
 			{
@@ -268,8 +268,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Single maxAdvance
 		/// </summary>
-		protected RField r_maxAdvance;
-		public virtual RField RmaxAdvance
+		protected RSystem.RSingle r_maxAdvance;
+		public virtual RSystem.RSingle RmaxAdvance
 		{
 			get
 			{
@@ -285,8 +285,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Single width
 		/// </summary>
-		protected RField r_width;
-		public virtual RField Rwidth
+		protected RSystem.RSingle r_width;
+		public virtual RSystem.RSingle Rwidth
 		{
 			get
 			{
@@ -302,8 +302,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Single marginLeft
 		/// </summary>
-		protected RField r_marginLeft;
-		public virtual RField RmarginLeft
+		protected RSystem.RSingle r_marginLeft;
+		public virtual RSystem.RSingle RmarginLeft
 		{
 			get
 			{
@@ -319,8 +319,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Single marginRight
 		/// </summary>
-		protected RField r_marginRight;
-		public virtual RField RmarginRight
+		protected RSystem.RSingle r_marginRight;
+		public virtual RSystem.RSingle RmarginRight
 		{
 			get
 			{

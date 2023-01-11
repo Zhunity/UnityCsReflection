@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.String m_ChangedLabel
 		/// </summary>
-		protected RField r_m_ChangedLabel;
-		public virtual RField Rm_ChangedLabel
+		protected RSystem.RString r_m_ChangedLabel;
+		public virtual RSystem.RString Rm_ChangedLabel
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Boolean m_CurrentChanged
 		/// </summary>
-		protected RField r_m_CurrentChanged;
-		public virtual RField Rm_CurrentChanged
+		protected RSystem.RBoolean r_m_CurrentChanged;
+		public virtual RSystem.RBoolean Rm_CurrentChanged
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Boolean m_ChangeWasAdd
 		/// </summary>
-		protected RField r_m_ChangeWasAdd;
-		public virtual RField Rm_ChangeWasAdd
+		protected RSystem.RBoolean r_m_ChangeWasAdd;
+		public virtual RSystem.RBoolean Rm_ChangeWasAdd
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Boolean m_IgnoreNextAssetLabelsChangedCall
 		/// </summary>
-		protected RField r_m_IgnoreNextAssetLabelsChangedCall;
-		public virtual RField Rm_IgnoreNextAssetLabelsChangedCall
+		protected RSystem.RBoolean r_m_IgnoreNextAssetLabelsChangedCall;
+		public virtual RSystem.RBoolean Rm_IgnoreNextAssetLabelsChangedCall
 		{
 			get
 			{
@@ -132,8 +132,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Int32 s_MaxShownLabels
 		/// </summary>
-		protected static RField r_s_MaxShownLabels;
-		public static RField Rs_MaxShownLabels
+		protected static RSystem.RInt32 r_s_MaxShownLabels;
+		public static RSystem.RInt32 Rs_MaxShownLabels
 		{
 			get
 			{

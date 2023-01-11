@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// Int32 BinaryLength
 		/// </summary>
-		protected RProperty r_BinaryLength;
-		public virtual RProperty RBinaryLength
+		protected RSystem.RInt32 r_BinaryLength;
+		public virtual RSystem.RInt32 RBinaryLength
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// Int32 Count
 		/// </summary>
-		protected RProperty r_Count;
-		public virtual RProperty RCount
+		protected RSystem.RInt32 r_Count;
+		public virtual RSystem.RInt32 RCount
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// Boolean IsCanonical
 		/// </summary>
-		protected RProperty r_IsCanonical;
-		public virtual RProperty RIsCanonical
+		protected RSystem.RBoolean r_IsCanonical;
+		public virtual RSystem.RBoolean RIsCanonical
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// Boolean IsContainer
 		/// </summary>
-		protected RProperty r_IsContainer;
-		public virtual RProperty RIsContainer
+		protected RSystem.RBoolean r_IsContainer;
+		public virtual RSystem.RBoolean RIsContainer
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// Boolean IsDS
 		/// </summary>
-		protected RProperty r_IsDS;
-		public virtual RProperty RIsDS
+		protected RSystem.RBoolean r_IsDS;
+		public virtual RSystem.RBoolean RIsDS
 		{
 			get
 			{
@@ -115,8 +115,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// Boolean IsAefa
 		/// </summary>
-		protected RProperty r_IsAefa;
-		public virtual RProperty RIsAefa
+		protected RSystem.RBoolean r_IsAefa;
+		public virtual RSystem.RBoolean RIsAefa
 		{
 			get
 			{
@@ -132,8 +132,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// Byte Revision
 		/// </summary>
-		protected RProperty r_Revision;
-		public virtual RProperty RRevision
+		protected RSystem.RByte r_Revision;
+		public virtual RSystem.RByte RRevision
 		{
 			get
 			{
@@ -166,8 +166,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// Boolean IsSynchronized
 		/// </summary>
-		protected RProperty r_IsSynchronized;
-		public virtual RProperty RIsSynchronized
+		protected RSystem.RBoolean r_IsSynchronized;
+		public virtual RSystem.RBoolean RIsSynchronized
 		{
 			get
 			{

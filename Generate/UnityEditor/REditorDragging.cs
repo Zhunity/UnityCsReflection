@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.String k_DraggingModeKey
 		/// </summary>
-		protected static RField r_k_DraggingModeKey;
-		public static RField Rk_DraggingModeKey
+		protected static RSystem.RString r_k_DraggingModeKey;
+		public static RSystem.RString Rk_DraggingModeKey
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Boolean m_TargetAbove
 		/// </summary>
-		protected RField r_m_TargetAbove;
-		public virtual RField Rm_TargetAbove
+		protected RSystem.RBoolean r_m_TargetAbove;
+		public virtual RSystem.RBoolean Rm_TargetAbove
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Int32 m_TargetIndex
 		/// </summary>
-		protected RField r_m_TargetIndex;
-		public virtual RField Rm_TargetIndex
+		protected RSystem.RInt32 r_m_TargetIndex;
+		public virtual RSystem.RInt32 Rm_TargetIndex
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Int32 m_LastIndex
 		/// </summary>
-		protected RField r_m_LastIndex;
-		public virtual RField Rm_LastIndex
+		protected RSystem.RInt32 r_m_LastIndex;
+		public virtual RSystem.RInt32 Rm_LastIndex
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Int32 m_BottomAreaDropIndex
 		/// </summary>
-		protected RField r_m_BottomAreaDropIndex;
-		public virtual RField Rm_BottomAreaDropIndex
+		protected RSystem.RInt32 r_m_BottomAreaDropIndex;
+		public virtual RSystem.RInt32 Rm_BottomAreaDropIndex
 		{
 			get
 			{

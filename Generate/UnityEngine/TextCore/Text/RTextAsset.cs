@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.String m_Version
 		/// </summary>
-		protected RField r_m_Version;
-		public virtual RField Rm_Version
+		protected RSystem.RString r_m_Version;
+		public virtual RSystem.RString Rm_Version
 		{
 			get
 			{
@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Int32 m_InstanceID
 		/// </summary>
-		protected RField r_m_InstanceID;
-		public virtual RField Rm_InstanceID
+		protected RSystem.RInt32 r_m_InstanceID;
+		public virtual RSystem.RInt32 Rm_InstanceID
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Int32 m_HashCode
 		/// </summary>
-		protected RField r_m_HashCode;
-		public virtual RField Rm_HashCode
+		protected RSystem.RInt32 r_m_HashCode;
+		public virtual RSystem.RInt32 Rm_HashCode
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Int32 m_MaterialHashCode
 		/// </summary>
-		protected RField r_m_MaterialHashCode;
-		public virtual RField Rm_MaterialHashCode
+		protected RSystem.RInt32 r_m_MaterialHashCode;
+		public virtual RSystem.RInt32 Rm_MaterialHashCode
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.String version
 		/// </summary>
-		protected RProperty r_version;
-		public virtual RProperty Rversion
+		protected RSystem.RString r_version;
+		public virtual RSystem.RString Rversion
 		{
 			get
 			{
@@ -115,8 +115,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// Int32 instanceID
 		/// </summary>
-		protected RProperty r_instanceID;
-		public virtual RProperty RinstanceID
+		protected RSystem.RInt32 r_instanceID;
+		public virtual RSystem.RInt32 RinstanceID
 		{
 			get
 			{
@@ -132,8 +132,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// Int32 hashCode
 		/// </summary>
-		protected RProperty r_hashCode;
-		public virtual RProperty RhashCode
+		protected RSystem.RInt32 r_hashCode;
+		public virtual RSystem.RInt32 RhashCode
 		{
 			get
 			{
@@ -166,8 +166,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// Int32 materialHashCode
 		/// </summary>
-		protected RProperty r_materialHashCode;
-		public virtual RProperty RmaterialHashCode
+		protected RSystem.RInt32 r_materialHashCode;
+		public virtual RSystem.RInt32 RmaterialHashCode
 		{
 			get
 			{
@@ -183,8 +183,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.String name
 		/// </summary>
-		protected RProperty r_name;
-		public virtual RProperty Rname
+		protected RSystem.RString r_name;
+		public virtual RSystem.RString Rname
 		{
 			get
 			{

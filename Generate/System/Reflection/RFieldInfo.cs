@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// Boolean IsInitOnly
 		/// </summary>
-		protected RProperty r_IsInitOnly;
-		public virtual RProperty RIsInitOnly
+		protected RSystem.RBoolean r_IsInitOnly;
+		public virtual RSystem.RBoolean RIsInitOnly
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// Boolean IsLiteral
 		/// </summary>
-		protected RProperty r_IsLiteral;
-		public virtual RProperty RIsLiteral
+		protected RSystem.RBoolean r_IsLiteral;
+		public virtual RSystem.RBoolean RIsLiteral
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// Boolean IsNotSerialized
 		/// </summary>
-		protected RProperty r_IsNotSerialized;
-		public virtual RProperty RIsNotSerialized
+		protected RSystem.RBoolean r_IsNotSerialized;
+		public virtual RSystem.RBoolean RIsNotSerialized
 		{
 			get
 			{
@@ -115,8 +115,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// Boolean IsPinvokeImpl
 		/// </summary>
-		protected RProperty r_IsPinvokeImpl;
-		public virtual RProperty RIsPinvokeImpl
+		protected RSystem.RBoolean r_IsPinvokeImpl;
+		public virtual RSystem.RBoolean RIsPinvokeImpl
 		{
 			get
 			{
@@ -132,8 +132,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// Boolean IsSpecialName
 		/// </summary>
-		protected RProperty r_IsSpecialName;
-		public virtual RProperty RIsSpecialName
+		protected RSystem.RBoolean r_IsSpecialName;
+		public virtual RSystem.RBoolean RIsSpecialName
 		{
 			get
 			{
@@ -149,8 +149,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// Boolean IsStatic
 		/// </summary>
-		protected RProperty r_IsStatic;
-		public virtual RProperty RIsStatic
+		protected RSystem.RBoolean r_IsStatic;
+		public virtual RSystem.RBoolean RIsStatic
 		{
 			get
 			{
@@ -166,8 +166,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// Boolean IsAssembly
 		/// </summary>
-		protected RProperty r_IsAssembly;
-		public virtual RProperty RIsAssembly
+		protected RSystem.RBoolean r_IsAssembly;
+		public virtual RSystem.RBoolean RIsAssembly
 		{
 			get
 			{
@@ -183,8 +183,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// Boolean IsFamily
 		/// </summary>
-		protected RProperty r_IsFamily;
-		public virtual RProperty RIsFamily
+		protected RSystem.RBoolean r_IsFamily;
+		public virtual RSystem.RBoolean RIsFamily
 		{
 			get
 			{
@@ -200,8 +200,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// Boolean IsFamilyAndAssembly
 		/// </summary>
-		protected RProperty r_IsFamilyAndAssembly;
-		public virtual RProperty RIsFamilyAndAssembly
+		protected RSystem.RBoolean r_IsFamilyAndAssembly;
+		public virtual RSystem.RBoolean RIsFamilyAndAssembly
 		{
 			get
 			{
@@ -217,8 +217,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// Boolean IsFamilyOrAssembly
 		/// </summary>
-		protected RProperty r_IsFamilyOrAssembly;
-		public virtual RProperty RIsFamilyOrAssembly
+		protected RSystem.RBoolean r_IsFamilyOrAssembly;
+		public virtual RSystem.RBoolean RIsFamilyOrAssembly
 		{
 			get
 			{
@@ -234,8 +234,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// Boolean IsPrivate
 		/// </summary>
-		protected RProperty r_IsPrivate;
-		public virtual RProperty RIsPrivate
+		protected RSystem.RBoolean r_IsPrivate;
+		public virtual RSystem.RBoolean RIsPrivate
 		{
 			get
 			{
@@ -251,8 +251,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// Boolean IsPublic
 		/// </summary>
-		protected RProperty r_IsPublic;
-		public virtual RProperty RIsPublic
+		protected RSystem.RBoolean r_IsPublic;
+		public virtual RSystem.RBoolean RIsPublic
 		{
 			get
 			{
@@ -268,8 +268,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// Boolean IsSecurityCritical
 		/// </summary>
-		protected RProperty r_IsSecurityCritical;
-		public virtual RProperty RIsSecurityCritical
+		protected RSystem.RBoolean r_IsSecurityCritical;
+		public virtual RSystem.RBoolean RIsSecurityCritical
 		{
 			get
 			{
@@ -285,8 +285,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// Boolean IsSecuritySafeCritical
 		/// </summary>
-		protected RProperty r_IsSecuritySafeCritical;
-		public virtual RProperty RIsSecuritySafeCritical
+		protected RSystem.RBoolean r_IsSecuritySafeCritical;
+		public virtual RSystem.RBoolean RIsSecuritySafeCritical
 		{
 			get
 			{
@@ -302,8 +302,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// Boolean IsSecurityTransparent
 		/// </summary>
-		protected RProperty r_IsSecurityTransparent;
-		public virtual RProperty RIsSecurityTransparent
+		protected RSystem.RBoolean r_IsSecurityTransparent;
+		public virtual RSystem.RBoolean RIsSecurityTransparent
 		{
 			get
 			{
@@ -336,8 +336,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.String Name
 		/// </summary>
-		protected RProperty r_Name;
-		public virtual RProperty RName
+		protected RSystem.RString r_Name;
+		public virtual RSystem.RString RName
 		{
 			get
 			{
@@ -421,8 +421,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// Int32 MetadataToken
 		/// </summary>
-		protected RProperty r_MetadataToken;
-		public virtual RProperty RMetadataToken
+		protected RSystem.RInt32 r_MetadataToken;
+		public virtual RSystem.RInt32 RMetadataToken
 		{
 			get
 			{
@@ -1125,6 +1125,26 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
         }
 
 
+        public virtual void SetValueDirect(RSystem.RTypedReference @obj, System.Object @value)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@obj.Value, @value};
+            var ___result = RSetValueDirect_TypedReference_Object.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual System.Object GetValueDirect(RSystem.RTypedReference @obj)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@obj.Value};
+            var ___result = RGetValueDirect_TypedReference.Invoke(___genericsType, ___parameters);
+
+            return (System.Object)___result;
+        }
 
 
         public virtual System.Object GetRawConstantValue()

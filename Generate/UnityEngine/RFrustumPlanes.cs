@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Single left
 		/// </summary>
-		protected RField r_left;
-		public virtual RField Rleft
+		protected RSystem.RSingle r_left;
+		public virtual RSystem.RSingle Rleft
 		{
 			get
 			{
@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Single right
 		/// </summary>
-		protected RField r_right;
-		public virtual RField Rright
+		protected RSystem.RSingle r_right;
+		public virtual RSystem.RSingle Rright
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Single bottom
 		/// </summary>
-		protected RField r_bottom;
-		public virtual RField Rbottom
+		protected RSystem.RSingle r_bottom;
+		public virtual RSystem.RSingle Rbottom
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Single top
 		/// </summary>
-		protected RField r_top;
-		public virtual RField Rtop
+		protected RSystem.RSingle r_top;
+		public virtual RSystem.RSingle Rtop
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Single zNear
 		/// </summary>
-		protected RField r_zNear;
-		public virtual RField RzNear
+		protected RSystem.RSingle r_zNear;
+		public virtual RSystem.RSingle RzNear
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Single zFar
 		/// </summary>
-		protected RField r_zFar;
-		public virtual RField RzFar
+		protected RSystem.RSingle r_zFar;
+		public virtual RSystem.RSingle RzFar
 		{
 			get
 			{

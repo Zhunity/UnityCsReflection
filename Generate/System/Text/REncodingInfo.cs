@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Int32 iCodePage
 		/// </summary>
-		protected RField r_iCodePage;
-		public virtual RField RiCodePage
+		protected RSystem.RInt32 r_iCodePage;
+		public virtual RSystem.RInt32 RiCodePage
 		{
 			get
 			{
@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.String strEncodingName
 		/// </summary>
-		protected RField r_strEncodingName;
-		public virtual RField RstrEncodingName
+		protected RSystem.RString r_strEncodingName;
+		public virtual RSystem.RString RstrEncodingName
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.String strDisplayName
 		/// </summary>
-		protected RField r_strDisplayName;
-		public virtual RField RstrDisplayName
+		protected RSystem.RString r_strDisplayName;
+		public virtual RSystem.RString RstrDisplayName
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// Int32 CodePage
 		/// </summary>
-		protected RProperty r_CodePage;
-		public virtual RProperty RCodePage
+		protected RSystem.RInt32 r_CodePage;
+		public virtual RSystem.RInt32 RCodePage
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.String Name
 		/// </summary>
-		protected RProperty r_Name;
-		public virtual RProperty RName
+		protected RSystem.RString r_Name;
+		public virtual RSystem.RString RName
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.String DisplayName
 		/// </summary>
-		protected RProperty r_DisplayName;
-		public virtual RProperty RDisplayName
+		protected RSystem.RString r_DisplayName;
+		public virtual RSystem.RString RDisplayName
 		{
 			get
 			{

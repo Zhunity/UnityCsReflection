@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RDiagnostics.RSymbolStore
 		/// <summary>
 		/// System.Int32 _token
 		/// </summary>
-		protected RField r__token;
-		public virtual RField R_token
+		protected RSystem.RInt32 r__token;
+		public virtual RSystem.RInt32 R_token
 		{
 			get
 			{

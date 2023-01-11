@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Boolean <ThreadContextChanged>k__BackingField
 		/// </summary>
-		protected RField r___0__ThreadContextChanged__1__k__BackingField;
-		public virtual RField R__0__ThreadContextChanged__1__k__BackingField
+		protected RSystem.RBoolean r___0__ThreadContextChanged__1__k__BackingField;
+		public virtual RSystem.RBoolean R__0__ThreadContextChanged__1__k__BackingField
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// Boolean ThreadContextChanged
 		/// </summary>
-		protected RProperty r_ThreadContextChanged;
-		public virtual RProperty RThreadContextChanged
+		protected RSystem.RBoolean r_ThreadContextChanged;
+		public virtual RSystem.RBoolean RThreadContextChanged
 		{
 			get
 			{

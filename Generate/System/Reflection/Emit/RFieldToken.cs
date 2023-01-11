@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Int32 tokValue
 		/// </summary>
-		protected RField r_tokValue;
-		public virtual RField RtokValue
+		protected RSystem.RInt32 r_tokValue;
+		public virtual RSystem.RInt32 RtokValue
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// Int32 Token
 		/// </summary>
-		protected RProperty r_Token;
-		public virtual RProperty RToken
+		protected RSystem.RInt32 r_Token;
+		public virtual RSystem.RInt32 RToken
 		{
 			get
 			{

@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Single x
 		/// </summary>
-		protected RField r_x;
-		public virtual RField Rx
+		protected RSystem.RSingle r_x;
+		public virtual RSystem.RSingle Rx
 		{
 			get
 			{
@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Single y
 		/// </summary>
-		protected RField r_y;
-		public virtual RField Ry
+		protected RSystem.RSingle r_y;
+		public virtual RSystem.RSingle Ry
 		{
 			get
 			{
@@ -183,8 +183,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Single kEpsilon
 		/// </summary>
-		protected static RField r_kEpsilon;
-		public static RField RkEpsilon
+		protected static RSystem.RSingle r_kEpsilon;
+		public static RSystem.RSingle RkEpsilon
 		{
 			get
 			{
@@ -200,8 +200,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Single kEpsilonNormalSqrt
 		/// </summary>
-		protected static RField r_kEpsilonNormalSqrt;
-		public static RField RkEpsilonNormalSqrt
+		protected static RSystem.RSingle r_kEpsilonNormalSqrt;
+		public static RSystem.RSingle RkEpsilonNormalSqrt
 		{
 			get
 			{
@@ -217,8 +217,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Single Item [Int32]
 		/// </summary>
-		protected RProperty r_Item_Int32;
-		public virtual RProperty RItem_Int32
+		protected RSystem.RSingle r_Item_Int32;
+		public virtual RSystem.RSingle RItem_Int32
 		{
 			get
 			{
@@ -251,8 +251,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Single magnitude
 		/// </summary>
-		protected RProperty r_magnitude;
-		public virtual RProperty Rmagnitude
+		protected RSystem.RSingle r_magnitude;
+		public virtual RSystem.RSingle Rmagnitude
 		{
 			get
 			{
@@ -268,8 +268,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Single sqrMagnitude
 		/// </summary>
-		protected RProperty r_sqrMagnitude;
-		public virtual RProperty RsqrMagnitude
+		protected RSystem.RSingle r_sqrMagnitude;
+		public virtual RSystem.RSingle RsqrMagnitude
 		{
 			get
 			{

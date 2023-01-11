@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Int32 SignMask
 		/// </summary>
-		protected static RField r_SignMask;
-		public static RField RSignMask
+		protected static RSystem.RInt32 r_SignMask;
+		public static RSystem.RInt32 RSignMask
 		{
 			get
 			{
@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Int32 ScaleMask
 		/// </summary>
-		protected static RField r_ScaleMask;
-		public static RField RScaleMask
+		protected static RSystem.RInt32 r_ScaleMask;
+		public static RSystem.RInt32 RScaleMask
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Int32 ScaleShift
 		/// </summary>
-		protected static RField r_ScaleShift;
-		public static RField RScaleShift
+		protected static RSystem.RInt32 r_ScaleShift;
+		public static RSystem.RInt32 RScaleShift
 		{
 			get
 			{
@@ -149,8 +149,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Int32 flags
 		/// </summary>
-		protected RField r_flags;
-		public virtual RField Rflags
+		protected RSystem.RInt32 r_flags;
+		public virtual RSystem.RInt32 Rflags
 		{
 			get
 			{
@@ -166,8 +166,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Int32 hi
 		/// </summary>
-		protected RField r_hi;
-		public virtual RField Rhi
+		protected RSystem.RInt32 r_hi;
+		public virtual RSystem.RInt32 Rhi
 		{
 			get
 			{
@@ -183,8 +183,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Int32 lo
 		/// </summary>
-		protected RField r_lo;
-		public virtual RField Rlo
+		protected RSystem.RInt32 r_lo;
+		public virtual RSystem.RInt32 Rlo
 		{
 			get
 			{
@@ -200,8 +200,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Int32 mid
 		/// </summary>
-		protected RField r_mid;
-		public virtual RField Rmid
+		protected RSystem.RInt32 r_mid;
+		public virtual RSystem.RInt32 Rmid
 		{
 			get
 			{
@@ -217,8 +217,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.UInt64 ulomidLE
 		/// </summary>
-		protected RField r_ulomidLE;
-		public virtual RField RulomidLE
+		protected RSystem.RUInt64 r_ulomidLE;
+		public virtual RSystem.RUInt64 RulomidLE
 		{
 			get
 			{
@@ -234,8 +234,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// UInt32 High
 		/// </summary>
-		protected RProperty r_High;
-		public virtual RProperty RHigh
+		protected RSystem.RUInt32 r_High;
+		public virtual RSystem.RUInt32 RHigh
 		{
 			get
 			{
@@ -251,8 +251,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// UInt32 Low
 		/// </summary>
-		protected RProperty r_Low;
-		public virtual RProperty RLow
+		protected RSystem.RUInt32 r_Low;
+		public virtual RSystem.RUInt32 RLow
 		{
 			get
 			{
@@ -268,8 +268,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// UInt32 Mid
 		/// </summary>
-		protected RProperty r_Mid;
-		public virtual RProperty RMid
+		protected RSystem.RUInt32 r_Mid;
+		public virtual RSystem.RUInt32 RMid
 		{
 			get
 			{
@@ -285,8 +285,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// Boolean IsNegative
 		/// </summary>
-		protected RProperty r_IsNegative;
-		public virtual RProperty RIsNegative
+		protected RSystem.RBoolean r_IsNegative;
+		public virtual RSystem.RBoolean RIsNegative
 		{
 			get
 			{
@@ -302,8 +302,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// Int32 Scale
 		/// </summary>
-		protected RProperty r_Scale;
-		public virtual RProperty RScale
+		protected RSystem.RInt32 r_Scale;
+		public virtual RSystem.RInt32 RScale
 		{
 			get
 			{
@@ -319,8 +319,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// UInt64 Low64
 		/// </summary>
-		protected RProperty r_Low64;
-		public virtual RProperty RLow64
+		protected RSystem.RUInt64 r_Low64;
+		public virtual RSystem.RUInt64 RLow64
 		{
 			get
 			{
@@ -2381,6 +2381,18 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
+        public virtual System.Boolean TryFormat(RSystem.RSpan<RSystem.RChar> @destination, out System.Int32 @charsWritten, RSystem.RReadOnlySpan<RSystem.RChar> @format, System.IFormatProvider @provider)
+        {
+			@charsWritten = default;
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@destination.Value, @charsWritten, @format.Value, @provider};
+            var ___result = RTryFormat_Span_d_Char_p__Out_Int32_ReadOnlySpan_d_Char_p__IFormatProvider.Invoke(___genericsType, ___parameters);
+			@charsWritten = (System.Int32)___parameters[1];
+
+            return (System.Boolean)___result;
+        }
+
 
         public static System.Decimal Parse(System.String @s)
         {
@@ -2426,6 +2438,16 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
+        public static System.Decimal Parse(RSystem.RReadOnlySpan<RSystem.RChar> @s, System.Globalization.NumberStyles @style, System.IFormatProvider @provider)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@s.Value, @style, @provider};
+            var ___result = RParse_ReadOnlySpan_d_Char_p__NumberStyles_IFormatProvider.Invoke(___genericsType, ___parameters);
+
+            return (System.Decimal)___result;
+        }
+
 
         public static System.Boolean TryParse(System.String @s, out System.Decimal @result)
         {
@@ -2440,6 +2462,18 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
+        public static System.Boolean TryParse(RSystem.RReadOnlySpan<RSystem.RChar> @s, out System.Decimal @result)
+        {
+			@result = default;
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@s.Value, @result};
+            var ___result = RTryParse_ReadOnlySpan_d_Char_p__Out_Decimal.Invoke(___genericsType, ___parameters);
+			@result = (System.Decimal)___parameters[1];
+
+            return (System.Boolean)___result;
+        }
+
 
         public static System.Boolean TryParse(System.String @s, System.Globalization.NumberStyles @style, System.IFormatProvider @provider, out System.Decimal @result)
         {
@@ -2453,6 +2487,18 @@ namespace SMFrame.Editor.Refleaction.RSystem
             return (System.Boolean)___result;
         }
 
+
+        public static System.Boolean TryParse(RSystem.RReadOnlySpan<RSystem.RChar> @s, System.Globalization.NumberStyles @style, System.IFormatProvider @provider, out System.Decimal @result)
+        {
+			@result = default;
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@s.Value, @style, @provider, @result};
+            var ___result = RTryParse_ReadOnlySpan_d_Char_p__NumberStyles_IFormatProvider_Out_Decimal.Invoke(___genericsType, ___parameters);
+			@result = (System.Decimal)___parameters[3];
+
+            return (System.Boolean)___result;
+        }
 
 
         public static System.Int32[] GetBits(System.Decimal @d)

@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Single k_MaxValue
 		/// </summary>
-		protected static RField r_k_MaxValue;
-		public static RField Rk_MaxValue
+		protected static RSystem.RSingle r_k_MaxValue;
+		public static RSystem.RSingle Rk_MaxValue
 		{
 			get
 			{
@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Single m_Value
 		/// </summary>
-		protected RField r_m_Value;
-		public virtual RField Rm_Value
+		protected RSystem.RSingle r_m_Value;
+		public virtual RSystem.RSingle Rm_Value
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Single value
 		/// </summary>
-		protected RProperty r_value;
-		public virtual RProperty Rvalue
+		protected RSystem.RSingle r_value;
+		public virtual RSystem.RSingle Rvalue
 		{
 			get
 			{

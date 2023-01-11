@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Int32 res_type
 		/// </summary>
-		protected RField r_res_type;
-		public virtual RField Rres_type
+		protected RSystem.RInt32 r_res_type;
+		public virtual RSystem.RInt32 Rres_type
 		{
 			get
 			{
@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Int32 res_id
 		/// </summary>
-		protected RField r_res_id;
-		public virtual RField Rres_id
+		protected RSystem.RInt32 r_res_id;
+		public virtual RSystem.RInt32 Rres_id
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Int32 lang_id
 		/// </summary>
-		protected RField r_lang_id;
-		public virtual RField Rlang_id
+		protected RSystem.RInt32 r_lang_id;
+		public virtual RSystem.RInt32 Rlang_id
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Byte[] data
 		/// </summary>
-		protected RFieldArray<RField> r_data;
-		public virtual RFieldArray<RField> Rdata
+		protected RFieldArray<RSystem.RByte> r_data;
+		public virtual RFieldArray<RSystem.RByte> Rdata
 		{
 			get
 			{

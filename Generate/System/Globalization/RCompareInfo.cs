@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String m_name
 		/// </summary>
-		protected RField r_m_name;
-		public virtual RField Rm_name
+		protected RSystem.RString r_m_name;
+		public virtual RSystem.RString Rm_name
 		{
 			get
 			{
@@ -115,8 +115,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String _sortName
 		/// </summary>
-		protected RField r__sortName;
-		public virtual RField R_sortName
+		protected RSystem.RString r__sortName;
+		public virtual RSystem.RString R_sortName
 		{
 			get
 			{
@@ -149,8 +149,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 culture
 		/// </summary>
-		protected RField r_culture;
-		public virtual RField Rculture
+		protected RSystem.RInt32 r_culture;
+		public virtual RSystem.RInt32 Rculture
 		{
 			get
 			{
@@ -183,8 +183,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Collections.Generic.Dictionary`2[System.String,System.Globalization.ISimpleCollator] collators
 		/// </summary>
-		protected static RSystem.RCollections.RGeneric.RDictionary<RField, RSystem.RGlobalization.RISimpleCollator> r_collators;
-		public static RSystem.RCollections.RGeneric.RDictionary<RField, RSystem.RGlobalization.RISimpleCollator> Rcollators
+		protected static RSystem.RCollections.RGeneric.RDictionary<RSystem.RString, RSystem.RGlobalization.RISimpleCollator> r_collators;
+		public static RSystem.RCollections.RGeneric.RDictionary<RSystem.RString, RSystem.RGlobalization.RISimpleCollator> Rcollators
 		{
 			get
 			{
@@ -200,8 +200,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Boolean managedCollation
 		/// </summary>
-		protected static RField r_managedCollation;
-		public static RField RmanagedCollation
+		protected static RSystem.RBoolean r_managedCollation;
+		public static RSystem.RBoolean RmanagedCollation
 		{
 			get
 			{
@@ -217,8 +217,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Boolean managedCollationChecked
 		/// </summary>
-		protected static RField r_managedCollationChecked;
-		public static RField RmanagedCollationChecked
+		protected static RSystem.RBoolean r_managedCollationChecked;
+		public static RSystem.RBoolean RmanagedCollationChecked
 		{
 			get
 			{
@@ -234,8 +234,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String Name
 		/// </summary>
-		protected RProperty r_Name;
-		public virtual RProperty RName
+		protected RSystem.RString r_Name;
+		public virtual RSystem.RString RName
 		{
 			get
 			{
@@ -268,8 +268,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// Int32 LCID
 		/// </summary>
-		protected RProperty r_LCID;
-		public virtual RProperty RLCID
+		protected RSystem.RInt32 r_LCID;
+		public virtual RSystem.RInt32 RLCID
 		{
 			get
 			{
@@ -285,8 +285,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// Boolean UseManagedCollation
 		/// </summary>
-		protected static RProperty r_UseManagedCollation;
-		public static RProperty RUseManagedCollation
+		protected static RSystem.RBoolean r_UseManagedCollation;
+		public static RSystem.RBoolean RUseManagedCollation
 		{
 			get
 			{
@@ -2079,6 +2079,16 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
+        public static System.Int32 InvariantIndexOf(RSystem.RReadOnlySpan<RSystem.RChar> @source, RSystem.RReadOnlySpan<RSystem.RChar> @value, System.Boolean @ignoreCase)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@source.Value, @value.Value, @ignoreCase};
+            var ___result = RInvariantIndexOf_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p__Boolean.Invoke(___genericsType, ___parameters);
+
+            return (System.Int32)___result;
+        }
+
 
         public static System.Int32 InvariantLastIndexOf(System.String @source, System.String @value, System.Int32 @startIndex, System.Int32 @count, System.Boolean @ignoreCase)
         {
@@ -2267,7 +2277,37 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
+        public virtual System.Int32 Compare(RSystem.RReadOnlySpan<RSystem.RChar> @string1, System.String @string2, System.Globalization.CompareOptions @options)
+        {
 
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@string1.Value, @string2, @options};
+            var ___result = RCompare_ReadOnlySpan_d_Char_p__String_CompareOptions.Invoke(___genericsType, ___parameters);
+
+            return (System.Int32)___result;
+        }
+
+
+        public virtual System.Int32 CompareOptionNone(RSystem.RReadOnlySpan<RSystem.RChar> @string1, RSystem.RReadOnlySpan<RSystem.RChar> @string2)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@string1.Value, @string2.Value};
+            var ___result = RCompareOptionNone_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p_.Invoke(___genericsType, ___parameters);
+
+            return (System.Int32)___result;
+        }
+
+
+        public virtual System.Int32 CompareOptionIgnoreCase(RSystem.RReadOnlySpan<RSystem.RChar> @string1, RSystem.RReadOnlySpan<RSystem.RChar> @string2)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@string1.Value, @string2.Value};
+            var ___result = RCompareOptionIgnoreCase_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p_.Invoke(___genericsType, ___parameters);
+
+            return (System.Int32)___result;
+        }
 
 
         public virtual System.Int32 Compare(System.String @string1, System.Int32 @offset1, System.Int32 @length1, System.String @string2, System.Int32 @offset2, System.Int32 @length2)
@@ -2325,6 +2365,16 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
+        public static System.Int32 CompareOrdinalIgnoreCase(RSystem.RReadOnlySpan<RSystem.RChar> @strA, RSystem.RReadOnlySpan<RSystem.RChar> @strB)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@strA.Value, @strB.Value};
+            var ___result = RCompareOrdinalIgnoreCase_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p_.Invoke(___genericsType, ___parameters);
+
+            return (System.Int32)___result;
+        }
+
 
         public virtual System.Boolean IsPrefix(System.String @source, System.String @prefix, System.Globalization.CompareOptions @options)
         {
@@ -2336,6 +2386,16 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
             return (System.Boolean)___result;
         }
 
+
+        public virtual System.Boolean IsPrefix(RSystem.RReadOnlySpan<RSystem.RChar> @source, RSystem.RReadOnlySpan<RSystem.RChar> @prefix, System.Globalization.CompareOptions @options)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@source.Value, @prefix.Value, @options};
+            var ___result = RIsPrefix_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p__CompareOptions.Invoke(___genericsType, ___parameters);
+
+            return (System.Boolean)___result;
+        }
 
 
         public virtual System.Boolean IsPrefix(System.String @source, System.String @prefix)
@@ -2359,6 +2419,16 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
             return (System.Boolean)___result;
         }
 
+
+        public virtual System.Boolean IsSuffix(RSystem.RReadOnlySpan<RSystem.RChar> @source, RSystem.RReadOnlySpan<RSystem.RChar> @suffix, System.Globalization.CompareOptions @options)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@source.Value, @suffix.Value, @options};
+            var ___result = RIsSuffix_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p__CompareOptions.Invoke(___genericsType, ___parameters);
+
+            return (System.Boolean)___result;
+        }
 
 
         public virtual System.Boolean IsSuffix(System.String @source, System.String @suffix)
@@ -2504,6 +2574,26 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
+        public virtual System.Int32 IndexOfOrdinal(RSystem.RReadOnlySpan<RSystem.RChar> @source, RSystem.RReadOnlySpan<RSystem.RChar> @value, System.Boolean @ignoreCase)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@source.Value, @value.Value, @ignoreCase};
+            var ___result = RIndexOfOrdinal_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p__Boolean.Invoke(___genericsType, ___parameters);
+
+            return (System.Int32)___result;
+        }
+
+
+        public virtual System.Int32 IndexOf(RSystem.RReadOnlySpan<RSystem.RChar> @source, RSystem.RReadOnlySpan<RSystem.RChar> @value, System.Globalization.CompareOptions @options)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@source.Value, @value.Value, @options};
+            var ___result = RIndexOf_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p__CompareOptions.Invoke(___genericsType, ___parameters);
+
+            return (System.Int32)___result;
+        }
 
 
         public unsafe virtual System.Int32 IndexOf(System.String @source, System.String @value, System.Int32 @startIndex, System.Int32 @count, System.Globalization.CompareOptions @options, System.Int32* @matchLengthPtr)
@@ -2946,8 +3036,48 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
+        public unsafe virtual System.Int32 IndexOfCore(RSystem.RReadOnlySpan<RSystem.RChar> @source, RSystem.RReadOnlySpan<RSystem.RChar> @target, System.Globalization.CompareOptions @options, System.Int32* @matchLengthPtr)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@source.Value, @target.Value, @options, Pointer.Box(@matchLengthPtr, typeof(System.Int32))};
+            var ___result = RIndexOfCore_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p__CompareOptions_Int32Pointer.Invoke(___genericsType, ___parameters);
+
+            return (System.Int32)___result;
+        }
 
 
+        public virtual System.Int32 IndexOfOrdinalCore(RSystem.RReadOnlySpan<RSystem.RChar> @source, RSystem.RReadOnlySpan<RSystem.RChar> @value, System.Boolean @ignoreCase)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@source.Value, @value.Value, @ignoreCase};
+            var ___result = RIndexOfOrdinalCore_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p__Boolean.Invoke(___genericsType, ___parameters);
+
+            return (System.Int32)___result;
+        }
+
+
+        public virtual System.Int32 CompareString(RSystem.RReadOnlySpan<RSystem.RChar> @string1, System.String @string2, System.Globalization.CompareOptions @options)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@string1.Value, @string2, @options};
+            var ___result = RCompareString_ReadOnlySpan_d_Char_p__String_CompareOptions.Invoke(___genericsType, ___parameters);
+
+            return (System.Int32)___result;
+        }
+
+
+        public virtual System.Int32 CompareString(RSystem.RReadOnlySpan<RSystem.RChar> @string1, RSystem.RReadOnlySpan<RSystem.RChar> @string2, System.Globalization.CompareOptions @options)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@string1.Value, @string2.Value, @options};
+            var ___result = RCompareString_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p__CompareOptions.Invoke(___genericsType, ___parameters);
+
+            return (System.Int32)___result;
+        }
 
 
         public unsafe static System.Boolean IsSortable(System.Char* @text, System.Int32 @length)
@@ -2983,6 +3113,16 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
         }
 
 
+        public virtual System.Boolean StartsWith(RSystem.RReadOnlySpan<RSystem.RChar> @source, RSystem.RReadOnlySpan<RSystem.RChar> @prefix, System.Globalization.CompareOptions @options)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@source.Value, @prefix.Value, @options};
+            var ___result = RStartsWith_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p__CompareOptions.Invoke(___genericsType, ___parameters);
+
+            return (System.Boolean)___result;
+        }
+
 
         public virtual System.Boolean EndsWith(System.String @source, System.String @suffix, System.Globalization.CompareOptions @options)
         {
@@ -2994,6 +3134,16 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
             return (System.Boolean)___result;
         }
 
+
+        public virtual System.Boolean EndsWith(RSystem.RReadOnlySpan<RSystem.RChar> @source, RSystem.RReadOnlySpan<RSystem.RChar> @suffix, System.Globalization.CompareOptions @options)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@source.Value, @suffix.Value, @options};
+            var ___result = REndsWith_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p__CompareOptions.Invoke(___genericsType, ___parameters);
+
+            return (System.Boolean)___result;
+        }
 
 
         public virtual System.Int32 GetHashCodeOfStringCore(System.String @source, System.Globalization.CompareOptions @options)

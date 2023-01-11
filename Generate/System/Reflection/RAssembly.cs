@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.String CodeBase
 		/// </summary>
-		protected RProperty r_CodeBase;
-		public virtual RProperty RCodeBase
+		protected RSystem.RString r_CodeBase;
+		public virtual RSystem.RString RCodeBase
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.String EscapedCodeBase
 		/// </summary>
-		protected RProperty r_EscapedCodeBase;
-		public virtual RProperty REscapedCodeBase
+		protected RSystem.RString r_EscapedCodeBase;
+		public virtual RSystem.RString REscapedCodeBase
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.String FullName
 		/// </summary>
-		protected RProperty r_FullName;
-		public virtual RProperty RFullName
+		protected RSystem.RString r_FullName;
+		public virtual RSystem.RString RFullName
 		{
 			get
 			{
@@ -115,8 +115,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// IntPtr MonoAssembly
 		/// </summary>
-		protected RProperty r_MonoAssembly;
-		public virtual RProperty RMonoAssembly
+		protected RSystem.RIntPtr r_MonoAssembly;
+		public virtual RSystem.RIntPtr RMonoAssembly
 		{
 			get
 			{
@@ -132,8 +132,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// Boolean FromByteArray
 		/// </summary>
-		protected RProperty r_FromByteArray;
-		public virtual RProperty RFromByteArray
+		protected RSystem.RBoolean r_FromByteArray;
+		public virtual RSystem.RBoolean RFromByteArray
 		{
 			get
 			{
@@ -149,8 +149,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.String Location
 		/// </summary>
-		protected RProperty r_Location;
-		public virtual RProperty RLocation
+		protected RSystem.RString r_Location;
+		public virtual RSystem.RString RLocation
 		{
 			get
 			{
@@ -166,8 +166,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.String ImageRuntimeVersion
 		/// </summary>
-		protected RProperty r_ImageRuntimeVersion;
-		public virtual RProperty RImageRuntimeVersion
+		protected RSystem.RString r_ImageRuntimeVersion;
+		public virtual RSystem.RString RImageRuntimeVersion
 		{
 			get
 			{
@@ -183,8 +183,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// Int64 HostContext
 		/// </summary>
-		protected RProperty r_HostContext;
-		public virtual RProperty RHostContext
+		protected RSystem.RInt64 r_HostContext;
+		public virtual RSystem.RInt64 RHostContext
 		{
 			get
 			{
@@ -200,8 +200,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// Boolean ReflectionOnly
 		/// </summary>
-		protected RProperty r_ReflectionOnly;
-		public virtual RProperty RReflectionOnly
+		protected RSystem.RBoolean r_ReflectionOnly;
+		public virtual RSystem.RBoolean RReflectionOnly
 		{
 			get
 			{
@@ -285,8 +285,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// Boolean IsFullyTrusted
 		/// </summary>
-		protected RProperty r_IsFullyTrusted;
-		public virtual RProperty RIsFullyTrusted
+		protected RSystem.RBoolean r_IsFullyTrusted;
+		public virtual RSystem.RBoolean RIsFullyTrusted
 		{
 			get
 			{
@@ -319,8 +319,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// Boolean GlobalAssemblyCache
 		/// </summary>
-		protected RProperty r_GlobalAssemblyCache;
-		public virtual RProperty RGlobalAssemblyCache
+		protected RSystem.RBoolean r_GlobalAssemblyCache;
+		public virtual RSystem.RBoolean RGlobalAssemblyCache
 		{
 			get
 			{
@@ -336,8 +336,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// Boolean IsDynamic
 		/// </summary>
-		protected RProperty r_IsDynamic;
-		public virtual RProperty RIsDynamic
+		protected RSystem.RBoolean r_IsDynamic;
+		public virtual RSystem.RBoolean RIsDynamic
 		{
 			get
 			{

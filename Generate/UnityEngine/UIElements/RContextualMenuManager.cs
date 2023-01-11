@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Boolean <displayMenuHandledOSX>k__BackingField
 		/// </summary>
-		protected RField r___0__displayMenuHandledOSX__1__k__BackingField;
-		public virtual RField R__0__displayMenuHandledOSX__1__k__BackingField
+		protected RSystem.RBoolean r___0__displayMenuHandledOSX__1__k__BackingField;
+		public virtual RSystem.RBoolean R__0__displayMenuHandledOSX__1__k__BackingField
 		{
 			get
 			{
@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Boolean displayMenuHandledOSX
 		/// </summary>
-		protected RProperty r_displayMenuHandledOSX;
-		public virtual RProperty RdisplayMenuHandledOSX
+		protected RSystem.RBoolean r_displayMenuHandledOSX;
+		public virtual RSystem.RBoolean RdisplayMenuHandledOSX
 		{
 			get
 			{

@@ -166,8 +166,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// Boolean isNewCapture
 		/// </summary>
-		protected RProperty r_isNewCapture;
-		public virtual RProperty RisNewCapture
+		protected RSystem.RBoolean r_isNewCapture;
+		public virtual RSystem.RBoolean RisNewCapture
 		{
 			get
 			{
@@ -183,8 +183,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// Boolean isFlowSuppressed
 		/// </summary>
-		protected RProperty r_isFlowSuppressed;
-		public virtual RProperty RisFlowSuppressed
+		protected RSystem.RBoolean r_isFlowSuppressed;
+		public virtual RSystem.RBoolean RisFlowSuppressed
 		{
 			get
 			{
@@ -217,8 +217,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// Boolean IsPreAllocatedDefault
 		/// </summary>
-		protected RProperty r_IsPreAllocatedDefault;
-		public virtual RProperty RIsPreAllocatedDefault
+		protected RSystem.RBoolean r_IsPreAllocatedDefault;
+		public virtual RSystem.RBoolean RIsPreAllocatedDefault
 		{
 			get
 			{

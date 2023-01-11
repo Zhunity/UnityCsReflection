@@ -15,8 +15,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String tokenString
 		/// </summary>
-		protected RField r_tokenString;
-		public virtual RField RtokenString
+		protected RSystem.RString r_tokenString;
+		public virtual RSystem.RString RtokenString
 		{
 			get
 			{
@@ -49,8 +49,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 tokenValue
 		/// </summary>
-		protected RField r_tokenValue;
-		public virtual RField RtokenValue
+		protected RSystem.RInt32 r_tokenValue;
+		public virtual RSystem.RInt32 RtokenValue
 		{
 			get
 			{

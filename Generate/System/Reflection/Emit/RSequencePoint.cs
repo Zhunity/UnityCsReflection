@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Int32 Offset
 		/// </summary>
-		protected RField r_Offset;
-		public virtual RField ROffset
+		protected RSystem.RInt32 r_Offset;
+		public virtual RSystem.RInt32 ROffset
 		{
 			get
 			{
@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Int32 Line
 		/// </summary>
-		protected RField r_Line;
-		public virtual RField RLine
+		protected RSystem.RInt32 r_Line;
+		public virtual RSystem.RInt32 RLine
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Int32 Col
 		/// </summary>
-		protected RField r_Col;
-		public virtual RField RCol
+		protected RSystem.RInt32 r_Col;
+		public virtual RSystem.RInt32 RCol
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Int32 EndLine
 		/// </summary>
-		protected RField r_EndLine;
-		public virtual RField REndLine
+		protected RSystem.RInt32 r_EndLine;
+		public virtual RSystem.RInt32 REndLine
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Int32 EndCol
 		/// </summary>
-		protected RField r_EndCol;
-		public virtual RField REndCol
+		protected RSystem.RInt32 r_EndCol;
+		public virtual RSystem.RInt32 REndCol
 		{
 			get
 			{

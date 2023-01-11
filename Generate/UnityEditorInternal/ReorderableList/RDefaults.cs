@@ -202,8 +202,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditorInternal
 		/// <summary>
 		/// System.Int32 padding
 		/// </summary>
-		protected static RField r_padding;
-		public static RField Rpadding
+		protected static RSystem.RInt32 r_padding;
+		public static RSystem.RInt32 Rpadding
 		{
 			get
 			{
@@ -219,8 +219,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditorInternal
 		/// <summary>
 		/// System.Int32 dragHandleWidth
 		/// </summary>
-		protected static RField r_dragHandleWidth;
-		public static RField RdragHandleWidth
+		protected static RSystem.RInt32 r_dragHandleWidth;
+		public static RSystem.RInt32 RdragHandleWidth
 		{
 			get
 			{
@@ -236,8 +236,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditorInternal
 		/// <summary>
 		/// System.Int32 propertyDrawerPadding
 		/// </summary>
-		protected static RField r_propertyDrawerPadding;
-		public static RField RpropertyDrawerPadding
+		protected static RSystem.RInt32 r_propertyDrawerPadding;
+		public static RSystem.RInt32 RpropertyDrawerPadding
 		{
 			get
 			{
@@ -253,8 +253,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditorInternal
 		/// <summary>
 		/// System.Int32 minHeaderHeight
 		/// </summary>
-		protected static RField r_minHeaderHeight;
-		public static RField RminHeaderHeight
+		protected static RSystem.RInt32 r_minHeaderHeight;
+		public static RSystem.RInt32 RminHeaderHeight
 		{
 			get
 			{
@@ -270,8 +270,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditorInternal
 		/// <summary>
 		/// System.Single elementPadding
 		/// </summary>
-		protected static RField r_elementPadding;
-		public static RField RelementPadding
+		protected static RSystem.RSingle r_elementPadding;
+		public static RSystem.RSingle RelementPadding
 		{
 			get
 			{
@@ -304,8 +304,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditorInternal
 		/// <summary>
 		/// System.String undoAdd
 		/// </summary>
-		protected static RField r_undoAdd;
-		public static RField RundoAdd
+		protected static RSystem.RString r_undoAdd;
+		public static RSystem.RString RundoAdd
 		{
 			get
 			{
@@ -321,8 +321,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditorInternal
 		/// <summary>
 		/// System.String undoRemove
 		/// </summary>
-		protected static RField r_undoRemove;
-		public static RField RundoRemove
+		protected static RSystem.RString r_undoRemove;
+		public static RSystem.RString RundoRemove
 		{
 			get
 			{
@@ -338,8 +338,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditorInternal
 		/// <summary>
 		/// System.String undoMove
 		/// </summary>
-		protected static RField r_undoMove;
-		public static RField RundoMove
+		protected static RSystem.RString r_undoMove;
+		public static RSystem.RString RundoMove
 		{
 			get
 			{

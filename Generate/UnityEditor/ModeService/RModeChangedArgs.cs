@@ -15,8 +15,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Int32 prevIndex
 		/// </summary>
-		protected RField r_prevIndex;
-		public virtual RField RprevIndex
+		protected RSystem.RInt32 r_prevIndex;
+		public virtual RSystem.RInt32 RprevIndex
 		{
 			get
 			{
@@ -32,8 +32,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Int32 nextIndex
 		/// </summary>
-		protected RField r_nextIndex;
-		public virtual RField RnextIndex
+		protected RSystem.RInt32 r_nextIndex;
+		public virtual RSystem.RInt32 RnextIndex
 		{
 			get
 			{

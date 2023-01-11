@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Collections.Generic.HashSet`1[System.Int32] editorsWithImportedObjectLabel
 		/// </summary>
-		protected RSystem.RCollections.RGeneric.RHashSet<RProperty> r_editorsWithImportedObjectLabel;
-		public virtual RSystem.RCollections.RGeneric.RHashSet<RProperty> ReditorsWithImportedObjectLabel
+		protected RSystem.RCollections.RGeneric.RHashSet<RSystem.RInt32> r_editorsWithImportedObjectLabel;
+		public virtual RSystem.RCollections.RGeneric.RHashSet<RSystem.RInt32> ReditorsWithImportedObjectLabel
 		{
 			get
 			{

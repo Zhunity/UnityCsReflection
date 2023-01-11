@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Int32 start
 		/// </summary>
-		protected RField r_start;
-		public virtual RField Rstart
+		protected RSystem.RInt32 r_start;
+		public virtual RSystem.RInt32 Rstart
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Int32 len
 		/// </summary>
-		protected RField r_len;
-		public virtual RField Rlen
+		protected RSystem.RInt32 r_len;
+		public virtual RSystem.RInt32 Rlen
 		{
 			get
 			{

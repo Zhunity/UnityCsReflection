@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Int32 kPageWidth
 		/// </summary>
-		protected static RField r_kPageWidth;
-		public static RField RkPageWidth
+		protected static RSystem.RInt32 r_kPageWidth;
+		public static RSystem.RInt32 RkPageWidth
 		{
 			get
 			{
@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Int32 m_PageHeight
 		/// </summary>
-		protected RField r_m_PageHeight;
-		public virtual RField Rm_PageHeight
+		protected RSystem.RInt32 r_m_PageHeight;
+		public virtual RSystem.RInt32 Rm_PageHeight
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Collections.Generic.List`1[System.UInt32] m_AllocMap
 		/// </summary>
-		protected RSystem.RCollections.RGeneric.RList<RField> r_m_AllocMap;
-		public virtual RSystem.RCollections.RGeneric.RList<RField> Rm_AllocMap
+		protected RSystem.RCollections.RGeneric.RList<RSystem.RUInt32> r_m_AllocMap;
+		public virtual RSystem.RCollections.RGeneric.RList<RSystem.RUInt32> Rm_AllocMap
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Int32 m_EntryWidth
 		/// </summary>
-		protected RField r_m_EntryWidth;
-		public virtual RField Rm_EntryWidth
+		protected RSystem.RInt32 r_m_EntryWidth;
+		public virtual RSystem.RInt32 Rm_EntryWidth
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Int32 m_EntryHeight
 		/// </summary>
-		protected RField r_m_EntryHeight;
-		public virtual RField Rm_EntryHeight
+		protected RSystem.RInt32 r_m_EntryHeight;
+		public virtual RSystem.RInt32 Rm_EntryHeight
 		{
 			get
 			{
@@ -115,8 +115,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// Int32 entryWidth
 		/// </summary>
-		protected RProperty r_entryWidth;
-		public virtual RProperty RentryWidth
+		protected RSystem.RInt32 r_entryWidth;
+		public virtual RSystem.RInt32 RentryWidth
 		{
 			get
 			{
@@ -132,8 +132,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// Int32 entryHeight
 		/// </summary>
-		protected RProperty r_entryHeight;
-		public virtual RProperty RentryHeight
+		protected RSystem.RInt32 r_entryHeight;
+		public virtual RSystem.RInt32 RentryHeight
 		{
 			get
 			{

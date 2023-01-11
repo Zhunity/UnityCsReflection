@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RSceneManagement
 		/// <summary>
 		/// System.Int32 m_Handle
 		/// </summary>
-		protected RField r_m_Handle;
-		public virtual RField Rm_Handle
+		protected RSystem.RInt32 r_m_Handle;
+		public virtual RSystem.RInt32 Rm_Handle
 		{
 			get
 			{
@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RSceneManagement
 		/// <summary>
 		/// Int32 handle
 		/// </summary>
-		protected RProperty r_handle;
-		public virtual RProperty Rhandle
+		protected RSystem.RInt32 r_handle;
+		public virtual RSystem.RInt32 Rhandle
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RSceneManagement
 		/// <summary>
 		/// System.String guid
 		/// </summary>
-		protected RProperty r_guid;
-		public virtual RProperty Rguid
+		protected RSystem.RString r_guid;
+		public virtual RSystem.RString Rguid
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RSceneManagement
 		/// <summary>
 		/// System.String path
 		/// </summary>
-		protected RProperty r_path;
-		public virtual RProperty Rpath
+		protected RSystem.RString r_path;
+		public virtual RSystem.RString Rpath
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RSceneManagement
 		/// <summary>
 		/// System.String name
 		/// </summary>
-		protected RProperty r_name;
-		public virtual RProperty Rname
+		protected RSystem.RString r_name;
+		public virtual RSystem.RString Rname
 		{
 			get
 			{
@@ -115,8 +115,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RSceneManagement
 		/// <summary>
 		/// Boolean isLoaded
 		/// </summary>
-		protected RProperty r_isLoaded;
-		public virtual RProperty RisLoaded
+		protected RSystem.RBoolean r_isLoaded;
+		public virtual RSystem.RBoolean RisLoaded
 		{
 			get
 			{
@@ -132,8 +132,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RSceneManagement
 		/// <summary>
 		/// Int32 buildIndex
 		/// </summary>
-		protected RProperty r_buildIndex;
-		public virtual RProperty RbuildIndex
+		protected RSystem.RInt32 r_buildIndex;
+		public virtual RSystem.RInt32 RbuildIndex
 		{
 			get
 			{
@@ -149,8 +149,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RSceneManagement
 		/// <summary>
 		/// Boolean isDirty
 		/// </summary>
-		protected RProperty r_isDirty;
-		public virtual RProperty RisDirty
+		protected RSystem.RBoolean r_isDirty;
+		public virtual RSystem.RBoolean RisDirty
 		{
 			get
 			{
@@ -166,8 +166,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RSceneManagement
 		/// <summary>
 		/// Int32 dirtyID
 		/// </summary>
-		protected RProperty r_dirtyID;
-		public virtual RProperty RdirtyID
+		protected RSystem.RInt32 r_dirtyID;
+		public virtual RSystem.RInt32 RdirtyID
 		{
 			get
 			{
@@ -183,8 +183,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RSceneManagement
 		/// <summary>
 		/// Int32 rootCount
 		/// </summary>
-		protected RProperty r_rootCount;
-		public virtual RProperty RrootCount
+		protected RSystem.RInt32 r_rootCount;
+		public virtual RSystem.RInt32 RrootCount
 		{
 			get
 			{
@@ -200,8 +200,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RSceneManagement
 		/// <summary>
 		/// Boolean isSubScene
 		/// </summary>
-		protected RProperty r_isSubScene;
-		public virtual RProperty RisSubScene
+		protected RSystem.RBoolean r_isSubScene;
+		public virtual RSystem.RBoolean RisSubScene
 		{
 			get
 			{

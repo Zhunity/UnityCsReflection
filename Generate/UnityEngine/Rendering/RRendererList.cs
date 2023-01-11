@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.UIntPtr context
 		/// </summary>
-		protected RField r_context;
-		public virtual RField Rcontext
+		protected RSystem.RUIntPtr r_context;
+		public virtual RSystem.RUIntPtr Rcontext
 		{
 			get
 			{
@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.UInt32 index
 		/// </summary>
-		protected RField r_index;
-		public virtual RField Rindex
+		protected RSystem.RUInt32 r_index;
+		public virtual RSystem.RUInt32 Rindex
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.UInt32 frame
 		/// </summary>
-		protected RField r_frame;
-		public virtual RField Rframe
+		protected RSystem.RUInt32 r_frame;
+		public virtual RSystem.RUInt32 Rframe
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.UInt32 type
 		/// </summary>
-		protected RField r_type;
-		public virtual RField Rtype
+		protected RSystem.RUInt32 r_type;
+		public virtual RSystem.RUInt32 Rtype
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// Boolean isValid
 		/// </summary>
-		protected RProperty r_isValid;
-		public virtual RProperty RisValid
+		protected RSystem.RBoolean r_isValid;
+		public virtual RSystem.RBoolean RisValid
 		{
 			get
 			{

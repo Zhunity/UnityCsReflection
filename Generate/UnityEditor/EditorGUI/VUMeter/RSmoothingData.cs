@@ -17,8 +17,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Single lastValue
 		/// </summary>
-		protected RField r_lastValue;
-		public virtual RField RlastValue
+		protected RSystem.RSingle r_lastValue;
+		public virtual RSystem.RSingle RlastValue
 		{
 			get
 			{
@@ -34,8 +34,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Single peakValue
 		/// </summary>
-		protected RField r_peakValue;
-		public virtual RField RpeakValue
+		protected RSystem.RSingle r_peakValue;
+		public virtual RSystem.RSingle RpeakValue
 		{
 			get
 			{
@@ -51,8 +51,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Single peakValueTime
 		/// </summary>
-		protected RField r_peakValueTime;
-		public virtual RField RpeakValueTime
+		protected RSystem.RSingle r_peakValueTime;
+		public virtual RSystem.RSingle RpeakValueTime
 		{
 			get
 			{

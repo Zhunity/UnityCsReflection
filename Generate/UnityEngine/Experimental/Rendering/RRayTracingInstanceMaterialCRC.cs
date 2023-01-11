@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 		/// <summary>
 		/// System.Int32 instanceID
 		/// </summary>
-		protected RField r_instanceID;
-		public virtual RField RinstanceID
+		protected RSystem.RInt32 r_instanceID;
+		public virtual RSystem.RInt32 RinstanceID
 		{
 			get
 			{
@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 		/// <summary>
 		/// System.Int32 crc
 		/// </summary>
-		protected RField r_crc;
-		public virtual RField Rcrc
+		protected RSystem.RInt32 r_crc;
+		public virtual RSystem.RInt32 Rcrc
 		{
 			get
 			{

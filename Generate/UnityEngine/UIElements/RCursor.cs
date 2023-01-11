@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int32 <defaultCursorId>k__BackingField
 		/// </summary>
-		protected RField r___0__defaultCursorId__1__k__BackingField;
-		public virtual RField R__0__defaultCursorId__1__k__BackingField
+		protected RSystem.RInt32 r___0__defaultCursorId__1__k__BackingField;
+		public virtual RSystem.RInt32 R__0__defaultCursorId__1__k__BackingField
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Int32 defaultCursorId
 		/// </summary>
-		protected RProperty r_defaultCursorId;
-		public virtual RProperty RdefaultCursorId
+		protected RSystem.RInt32 r_defaultCursorId;
+		public virtual RSystem.RInt32 RdefaultCursorId
 		{
 			get
 			{

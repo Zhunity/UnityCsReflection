@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int32 line
 		/// </summary>
-		protected RField r_line;
-		public virtual RField Rline
+		protected RSystem.RInt32 r_line;
+		public virtual RSystem.RInt32 Rline
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int32 customPropertiesCount
 		/// </summary>
-		protected RField r_customPropertiesCount;
-		public virtual RField RcustomPropertiesCount
+		protected RSystem.RInt32 r_customPropertiesCount;
+		public virtual RSystem.RInt32 RcustomPropertiesCount
 		{
 			get
 			{

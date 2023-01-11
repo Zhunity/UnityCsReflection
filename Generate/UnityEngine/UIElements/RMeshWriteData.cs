@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Unity.Collections.NativeSlice`1[UnityEngine.UIElements.Vertex] m_Vertices
 		/// </summary>
-		protected RField r_m_Vertices;
-		public virtual RField Rm_Vertices
+		protected RUnity.RCollections.RNativeSlice<RUnityEngine.RUIElements.RVertex> r_m_Vertices;
+		public virtual RUnity.RCollections.RNativeSlice<RUnityEngine.RUIElements.RVertex> Rm_Vertices
 		{
 			get
 			{
@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Unity.Collections.NativeSlice`1[System.UInt16] m_Indices
 		/// </summary>
-		protected RField r_m_Indices;
-		public virtual RField Rm_Indices
+		protected RUnity.RCollections.RNativeSlice<RSystem.RUInt16> r_m_Indices;
+		public virtual RUnity.RCollections.RNativeSlice<RSystem.RUInt16> Rm_Indices
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int32 currentIndex
 		/// </summary>
-		protected RField r_currentIndex;
-		public virtual RField RcurrentIndex
+		protected RSystem.RInt32 r_currentIndex;
+		public virtual RSystem.RInt32 RcurrentIndex
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int32 currentVertex
 		/// </summary>
-		protected RField r_currentVertex;
-		public virtual RField RcurrentVertex
+		protected RSystem.RInt32 r_currentVertex;
+		public virtual RSystem.RInt32 RcurrentVertex
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Int32 vertexCount
 		/// </summary>
-		protected RProperty r_vertexCount;
-		public virtual RProperty RvertexCount
+		protected RSystem.RInt32 r_vertexCount;
+		public virtual RSystem.RInt32 RvertexCount
 		{
 			get
 			{
@@ -115,8 +115,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Int32 indexCount
 		/// </summary>
-		protected RProperty r_indexCount;
-		public virtual RProperty RindexCount
+		protected RSystem.RInt32 r_indexCount;
+		public virtual RSystem.RInt32 RindexCount
 		{
 			get
 			{
@@ -435,6 +435,16 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
+        public virtual void SetAllVertices(RUnity.RCollections.RNativeSlice<RUnityEngine.RUIElements.RVertex> @vertices)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@vertices.Value};
+            var ___result = RSetAllVertices_NativeSlice_d_Vertex_p_.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
 
         public virtual void SetAllIndices(System.UInt16[] @indices)
         {
@@ -447,7 +457,37 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
+        public virtual void SetAllIndices(RUnity.RCollections.RNativeSlice<RSystem.RUInt16> @indices)
+        {
 
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@indices.Value};
+            var ___result = RSetAllIndices_NativeSlice_d_UInt16_p_.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void Reset(RUnity.RCollections.RNativeSlice<RUnityEngine.RUIElements.RVertex> @vertices, RUnity.RCollections.RNativeSlice<RSystem.RUInt16> @indices)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@vertices.Value, @indices.Value};
+            var ___result = RReset_NativeSlice_d_Vertex_p__NativeSlice_d_UInt16_p_.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void Reset(RUnity.RCollections.RNativeSlice<RUnityEngine.RUIElements.RVertex> @vertices, RUnity.RCollections.RNativeSlice<RSystem.RUInt16> @indices, UnityEngine.Rect @uvRegion)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@vertices.Value, @indices.Value, @uvRegion};
+            var ___result = RReset_NativeSlice_d_Vertex_p__NativeSlice_d_UInt16_p__Rect.Invoke(___genericsType, ___parameters);
+
+            
+        }
 
 
         public virtual System.Boolean Equals(System.Object @obj)

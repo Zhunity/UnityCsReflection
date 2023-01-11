@@ -32,8 +32,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Boolean needReSort
 		/// </summary>
-		protected RField r_needReSort;
-		public virtual RField RneedReSort
+		protected RSystem.RBoolean r_needReSort;
+		public virtual RSystem.RBoolean RneedReSort
 		{
 			get
 			{
@@ -66,8 +66,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Int64 current_next_run
 		/// </summary>
-		protected RField r_current_next_run;
-		public virtual RField Rcurrent_next_run
+		protected RSystem.RInt64 r_current_next_run;
+		public virtual RSystem.RInt64 Rcurrent_next_run
 		{
 			get
 			{

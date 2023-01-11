@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.IntPtr _impl
 		/// </summary>
-		protected RField r__impl;
-		public virtual RField R_impl
+		protected RSystem.RIntPtr r__impl;
+		public virtual RSystem.RIntPtr R_impl
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.String fqname
 		/// </summary>
-		protected RField r_fqname;
-		public virtual RField Rfqname
+		protected RSystem.RString r_fqname;
+		public virtual RSystem.RString Rfqname
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.String name
 		/// </summary>
-		protected RField r_name;
-		public virtual RField Rname
+		protected RSystem.RString r_name;
+		public virtual RSystem.RString Rname
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.String scopename
 		/// </summary>
-		protected RField r_scopename;
-		public virtual RField Rscopename
+		protected RSystem.RString r_scopename;
+		public virtual RSystem.RString Rscopename
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Boolean is_resource
 		/// </summary>
-		protected RField r_is_resource;
-		public virtual RField Ris_resource
+		protected RSystem.RBoolean r_is_resource;
+		public virtual RSystem.RBoolean Ris_resource
 		{
 			get
 			{
@@ -115,8 +115,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Int32 token
 		/// </summary>
-		protected RField r_token;
-		public virtual RField Rtoken
+		protected RSystem.RInt32 r_token;
+		public virtual RSystem.RInt32 Rtoken
 		{
 			get
 			{
@@ -132,8 +132,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.UIntPtr dynamic_image
 		/// </summary>
-		protected RField r_dynamic_image;
-		public virtual RField Rdynamic_image
+		protected RSystem.RUIntPtr r_dynamic_image;
+		public virtual RSystem.RUIntPtr Rdynamic_image
 		{
 			get
 			{
@@ -149,8 +149,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Int32 num_types
 		/// </summary>
-		protected RField r_num_types;
-		public virtual RField Rnum_types
+		protected RSystem.RInt32 r_num_types;
+		public virtual RSystem.RInt32 Rnum_types
 		{
 			get
 			{
@@ -200,8 +200,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Byte[] guid
 		/// </summary>
-		protected RFieldArray<RField> r_guid;
-		public virtual RFieldArray<RField> Rguid
+		protected RFieldArray<RSystem.RByte> r_guid;
+		public virtual RFieldArray<RSystem.RByte> Rguid
 		{
 			get
 			{
@@ -217,8 +217,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Int32 table_idx
 		/// </summary>
-		protected RField r_table_idx;
-		public virtual RField Rtable_idx
+		protected RSystem.RInt32 r_table_idx;
+		public virtual RSystem.RInt32 Rtable_idx
 		{
 			get
 			{
@@ -285,8 +285,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Boolean is_main
 		/// </summary>
-		protected RField r_is_main;
-		public virtual RField Ris_main
+		protected RSystem.RBoolean r_is_main;
+		public virtual RSystem.RBoolean Ris_main
 		{
 			get
 			{
@@ -319,8 +319,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.IntPtr unparented_classes
 		/// </summary>
-		protected RField r_unparented_classes;
-		public virtual RField Runparented_classes
+		protected RSystem.RIntPtr r_unparented_classes;
+		public virtual RSystem.RIntPtr Runparented_classes
 		{
 			get
 			{
@@ -336,8 +336,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Int32[] table_indexes
 		/// </summary>
-		protected RFieldArray<RField> r_table_indexes;
-		public virtual RFieldArray<RField> Rtable_indexes
+		protected RFieldArray<RSystem.RInt32> r_table_indexes;
+		public virtual RFieldArray<RSystem.RInt32> Rtable_indexes
 		{
 			get
 			{
@@ -404,8 +404,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Collections.Generic.Dictionary`2[System.String,System.Int32] us_string_cache
 		/// </summary>
-		protected RSystem.RCollections.RGeneric.RDictionary<RField, RField> r_us_string_cache;
-		public virtual RSystem.RCollections.RGeneric.RDictionary<RField, RField> Rus_string_cache
+		protected RSystem.RCollections.RGeneric.RDictionary<RSystem.RString, RSystem.RInt32> r_us_string_cache;
+		public virtual RSystem.RCollections.RGeneric.RDictionary<RSystem.RString, RSystem.RInt32> Rus_string_cache
 		{
 			get
 			{
@@ -421,8 +421,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Boolean transient
 		/// </summary>
-		protected RField r_transient;
-		public virtual RField Rtransient
+		protected RSystem.RBoolean r_transient;
+		public virtual RSystem.RBoolean Rtransient
 		{
 			get
 			{
@@ -489,8 +489,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Boolean has_warned_about_symbolWriter
 		/// </summary>
-		protected static RField r_has_warned_about_symbolWriter;
-		public static RField Rhas_warned_about_symbolWriter
+		protected static RSystem.RBoolean r_has_warned_about_symbolWriter;
+		public static RSystem.RBoolean Rhas_warned_about_symbolWriter
 		{
 			get
 			{
@@ -506,8 +506,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Int32 typeref_tokengen
 		/// </summary>
-		protected static RField r_typeref_tokengen;
-		public static RField Rtyperef_tokengen
+		protected static RSystem.RInt32 r_typeref_tokengen;
+		public static RSystem.RInt32 Rtyperef_tokengen
 		{
 			get
 			{
@@ -523,8 +523,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Int32 typedef_tokengen
 		/// </summary>
-		protected static RField r_typedef_tokengen;
-		public static RField Rtypedef_tokengen
+		protected static RSystem.RInt32 r_typedef_tokengen;
+		public static RSystem.RInt32 Rtypedef_tokengen
 		{
 			get
 			{
@@ -540,8 +540,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Int32 typespec_tokengen
 		/// </summary>
-		protected static RField r_typespec_tokengen;
-		public static RField Rtypespec_tokengen
+		protected static RSystem.RInt32 r_typespec_tokengen;
+		public static RSystem.RInt32 Rtypespec_tokengen
 		{
 			get
 			{
@@ -557,8 +557,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Int32 memberref_tokengen
 		/// </summary>
-		protected static RField r_memberref_tokengen;
-		public static RField Rmemberref_tokengen
+		protected static RSystem.RInt32 r_memberref_tokengen;
+		public static RSystem.RInt32 Rmemberref_tokengen
 		{
 			get
 			{
@@ -574,8 +574,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Int32 methoddef_tokengen
 		/// </summary>
-		protected static RField r_methoddef_tokengen;
-		public static RField Rmethoddef_tokengen
+		protected static RSystem.RInt32 r_methoddef_tokengen;
+		public static RSystem.RInt32 Rmethoddef_tokengen
 		{
 			get
 			{
@@ -591,8 +591,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Collections.Generic.Dictionary`2[System.Reflection.MemberInfo,System.Int32] inst_tokens
 		/// </summary>
-		protected RSystem.RCollections.RGeneric.RDictionary<RSystem.RReflection.RMemberInfo, RField> r_inst_tokens;
-		public virtual RSystem.RCollections.RGeneric.RDictionary<RSystem.RReflection.RMemberInfo, RField> Rinst_tokens
+		protected RSystem.RCollections.RGeneric.RDictionary<RSystem.RReflection.RMemberInfo, RSystem.RInt32> r_inst_tokens;
+		public virtual RSystem.RCollections.RGeneric.RDictionary<RSystem.RReflection.RMemberInfo, RSystem.RInt32> Rinst_tokens
 		{
 			get
 			{
@@ -608,8 +608,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Collections.Generic.Dictionary`2[System.Reflection.MemberInfo,System.Int32] inst_tokens_open
 		/// </summary>
-		protected RSystem.RCollections.RGeneric.RDictionary<RSystem.RReflection.RMemberInfo, RField> r_inst_tokens_open;
-		public virtual RSystem.RCollections.RGeneric.RDictionary<RSystem.RReflection.RMemberInfo, RField> Rinst_tokens_open
+		protected RSystem.RCollections.RGeneric.RDictionary<RSystem.RReflection.RMemberInfo, RSystem.RInt32> r_inst_tokens_open;
+		public virtual RSystem.RCollections.RGeneric.RDictionary<RSystem.RReflection.RMemberInfo, RSystem.RInt32> Rinst_tokens_open
 		{
 			get
 			{
@@ -625,8 +625,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.String FullyQualifiedName
 		/// </summary>
-		protected RProperty r_FullyQualifiedName;
-		public virtual RProperty RFullyQualifiedName
+		protected RSystem.RString r_FullyQualifiedName;
+		public virtual RSystem.RString RFullyQualifiedName
 		{
 			get
 			{
@@ -642,8 +642,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.String FileName
 		/// </summary>
-		protected RProperty r_FileName;
-		public virtual RProperty RFileName
+		protected RSystem.RString r_FileName;
+		public virtual RSystem.RString RFileName
 		{
 			get
 			{
@@ -659,8 +659,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// Boolean IsMain
 		/// </summary>
-		protected RProperty r_IsMain;
-		public virtual RProperty RIsMain
+		protected RSystem.RBoolean r_IsMain;
+		public virtual RSystem.RBoolean RIsMain
 		{
 			get
 			{
@@ -693,8 +693,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.String Name
 		/// </summary>
-		protected RProperty r_Name;
-		public virtual RProperty RName
+		protected RSystem.RString r_Name;
+		public virtual RSystem.RString RName
 		{
 			get
 			{
@@ -710,8 +710,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.String ScopeName
 		/// </summary>
-		protected RProperty r_ScopeName;
-		public virtual RProperty RScopeName
+		protected RSystem.RString r_ScopeName;
+		public virtual RSystem.RString RScopeName
 		{
 			get
 			{
@@ -744,8 +744,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// Int32 MetadataToken
 		/// </summary>
-		protected RProperty r_MetadataToken;
-		public virtual RProperty RMetadataToken
+		protected RSystem.RInt32 r_MetadataToken;
+		public virtual RSystem.RInt32 RMetadataToken
 		{
 			get
 			{
@@ -761,8 +761,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// Int32 MDStreamVersion
 		/// </summary>
-		protected RProperty r_MDStreamVersion;
-		public virtual RProperty RMDStreamVersion
+		protected RSystem.RInt32 r_MDStreamVersion;
+		public virtual RSystem.RInt32 RMDStreamVersion
 		{
 			get
 			{

@@ -15,8 +15,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 		/// <summary>
 		/// System.Boolean _isRead
 		/// </summary>
-		protected RField r__isRead;
-		public virtual RField R_isRead
+		protected RSystem.RBoolean r__isRead;
+		public virtual RSystem.RBoolean R_isRead
 		{
 			get
 			{
@@ -32,8 +32,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 		/// <summary>
 		/// System.Boolean _apm
 		/// </summary>
-		protected RField r__apm;
-		public virtual RField R_apm
+		protected RSystem.RBoolean r__apm;
+		public virtual RSystem.RBoolean R_apm
 		{
 			get
 			{
@@ -66,8 +66,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 		/// <summary>
 		/// System.Byte[] _buffer
 		/// </summary>
-		protected RFieldArray<RField> r__buffer;
-		public virtual RFieldArray<RField> R_buffer
+		protected RFieldArray<RSystem.RByte> r__buffer;
+		public virtual RFieldArray<RSystem.RByte> R_buffer
 		{
 			get
 			{
@@ -83,8 +83,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 		/// <summary>
 		/// System.Int32 _offset
 		/// </summary>
-		protected RField r__offset;
-		public virtual RField R_offset
+		protected RSystem.RInt32 r__offset;
+		public virtual RSystem.RInt32 R_offset
 		{
 			get
 			{
@@ -100,8 +100,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 		/// <summary>
 		/// System.Int32 _count
 		/// </summary>
-		protected RField r__count;
-		public virtual RField R_count
+		protected RSystem.RInt32 r__count;
+		public virtual RSystem.RInt32 R_count
 		{
 			get
 			{
@@ -168,8 +168,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 		/// <summary>
 		/// System.Int32 m_result
 		/// </summary>
-		protected RField r_m_result;
-		public virtual RField Rm_result
+		protected RSystem.RInt32 r_m_result;
+		public virtual RSystem.RInt32 Rm_result
 		{
 			get
 			{
@@ -253,8 +253,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 		/// <summary>
 		/// System.Int32 m_stateFlags
 		/// </summary>
-		protected RField r_m_stateFlags;
-		public virtual RField Rm_stateFlags
+		protected RSystem.RInt32 r_m_stateFlags;
+		public virtual RSystem.RInt32 Rm_stateFlags
 		{
 			get
 			{
@@ -287,8 +287,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 		/// <summary>
 		/// Boolean System.Threading.Tasks.ITaskCompletionAction.InvokeMayRunArbitraryCode
 		/// </summary>
-		protected RProperty r_System__2__Threading__2__Tasks__2__ITaskCompletionAction__2__InvokeMayRunArbitraryCode;
-		public virtual RProperty RSystem__2__Threading__2__Tasks__2__ITaskCompletionAction__2__InvokeMayRunArbitraryCode
+		protected RSystem.RBoolean r_System__2__Threading__2__Tasks__2__ITaskCompletionAction__2__InvokeMayRunArbitraryCode;
+		public virtual RSystem.RBoolean RSystem__2__Threading__2__Tasks__2__ITaskCompletionAction__2__InvokeMayRunArbitraryCode
 		{
 			get
 			{
@@ -304,8 +304,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 		/// <summary>
 		/// Int32 Result
 		/// </summary>
-		protected RProperty r_Result;
-		public virtual RProperty RResult
+		protected RSystem.RInt32 r_Result;
+		public virtual RSystem.RInt32 RResult
 		{
 			get
 			{
@@ -321,8 +321,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 		/// <summary>
 		/// Int32 ResultOnSuccess
 		/// </summary>
-		protected RProperty r_ResultOnSuccess;
-		public virtual RProperty RResultOnSuccess
+		protected RSystem.RInt32 r_ResultOnSuccess;
+		public virtual RSystem.RInt32 RResultOnSuccess
 		{
 			get
 			{
@@ -355,8 +355,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 		/// <summary>
 		/// Boolean IsWaitNotificationEnabledOrNotRanToCompletion
 		/// </summary>
-		protected RProperty r_IsWaitNotificationEnabledOrNotRanToCompletion;
-		public virtual RProperty RIsWaitNotificationEnabledOrNotRanToCompletion
+		protected RSystem.RBoolean r_IsWaitNotificationEnabledOrNotRanToCompletion;
+		public virtual RSystem.RBoolean RIsWaitNotificationEnabledOrNotRanToCompletion
 		{
 			get
 			{
@@ -372,8 +372,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 		/// <summary>
 		/// Boolean ShouldNotifyDebuggerOfWaitCompletion
 		/// </summary>
-		protected RProperty r_ShouldNotifyDebuggerOfWaitCompletion;
-		public virtual RProperty RShouldNotifyDebuggerOfWaitCompletion
+		protected RSystem.RBoolean r_ShouldNotifyDebuggerOfWaitCompletion;
+		public virtual RSystem.RBoolean RShouldNotifyDebuggerOfWaitCompletion
 		{
 			get
 			{
@@ -389,8 +389,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 		/// <summary>
 		/// Boolean IsWaitNotificationEnabled
 		/// </summary>
-		protected RProperty r_IsWaitNotificationEnabled;
-		public virtual RProperty RIsWaitNotificationEnabled
+		protected RSystem.RBoolean r_IsWaitNotificationEnabled;
+		public virtual RSystem.RBoolean RIsWaitNotificationEnabled
 		{
 			get
 			{
@@ -406,8 +406,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 		/// <summary>
 		/// Int32 Id
 		/// </summary>
-		protected RProperty r_Id;
-		public virtual RProperty RId
+		protected RSystem.RInt32 r_Id;
+		public virtual RSystem.RInt32 RId
 		{
 			get
 			{
@@ -457,8 +457,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 		/// <summary>
 		/// Boolean IsCanceled
 		/// </summary>
-		protected RProperty r_IsCanceled;
-		public virtual RProperty RIsCanceled
+		protected RSystem.RBoolean r_IsCanceled;
+		public virtual RSystem.RBoolean RIsCanceled
 		{
 			get
 			{
@@ -474,8 +474,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 		/// <summary>
 		/// Boolean IsCancellationRequested
 		/// </summary>
-		protected RProperty r_IsCancellationRequested;
-		public virtual RProperty RIsCancellationRequested
+		protected RSystem.RBoolean r_IsCancellationRequested;
+		public virtual RSystem.RBoolean RIsCancellationRequested
 		{
 			get
 			{
@@ -508,8 +508,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 		/// <summary>
 		/// Boolean IsCancellationAcknowledged
 		/// </summary>
-		protected RProperty r_IsCancellationAcknowledged;
-		public virtual RProperty RIsCancellationAcknowledged
+		protected RSystem.RBoolean r_IsCancellationAcknowledged;
+		public virtual RSystem.RBoolean RIsCancellationAcknowledged
 		{
 			get
 			{
@@ -525,8 +525,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 		/// <summary>
 		/// Boolean IsCompleted
 		/// </summary>
-		protected RProperty r_IsCompleted;
-		public virtual RProperty RIsCompleted
+		protected RSystem.RBoolean r_IsCompleted;
+		public virtual RSystem.RBoolean RIsCompleted
 		{
 			get
 			{
@@ -542,8 +542,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 		/// <summary>
 		/// Boolean IsCompletedSuccessfully
 		/// </summary>
-		protected RProperty r_IsCompletedSuccessfully;
-		public virtual RProperty RIsCompletedSuccessfully
+		protected RSystem.RBoolean r_IsCompletedSuccessfully;
+		public virtual RSystem.RBoolean RIsCompletedSuccessfully
 		{
 			get
 			{
@@ -627,8 +627,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 		/// <summary>
 		/// Boolean ExceptionRecorded
 		/// </summary>
-		protected RProperty r_ExceptionRecorded;
-		public virtual RProperty RExceptionRecorded
+		protected RSystem.RBoolean r_ExceptionRecorded;
+		public virtual RSystem.RBoolean RExceptionRecorded
 		{
 			get
 			{
@@ -644,8 +644,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 		/// <summary>
 		/// Boolean IsFaulted
 		/// </summary>
-		protected RProperty r_IsFaulted;
-		public virtual RProperty RIsFaulted
+		protected RSystem.RBoolean r_IsFaulted;
+		public virtual RSystem.RBoolean RIsFaulted
 		{
 			get
 			{
@@ -678,8 +678,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 		/// <summary>
 		/// Boolean IsExceptionObservedByParent
 		/// </summary>
-		protected RProperty r_IsExceptionObservedByParent;
-		public virtual RProperty RIsExceptionObservedByParent
+		protected RSystem.RBoolean r_IsExceptionObservedByParent;
+		public virtual RSystem.RBoolean RIsExceptionObservedByParent
 		{
 			get
 			{
@@ -695,8 +695,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 		/// <summary>
 		/// Boolean IsDelegateInvoked
 		/// </summary>
-		protected RProperty r_IsDelegateInvoked;
-		public virtual RProperty RIsDelegateInvoked
+		protected RSystem.RBoolean r_IsDelegateInvoked;
+		public virtual RSystem.RBoolean RIsDelegateInvoked
 		{
 			get
 			{

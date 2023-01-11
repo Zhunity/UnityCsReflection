@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.String pset
 		/// </summary>
-		protected RField r_pset;
-		public virtual RField Rpset
+		protected RSystem.RString r_pset;
+		public virtual RSystem.RString Rpset
 		{
 			get
 			{

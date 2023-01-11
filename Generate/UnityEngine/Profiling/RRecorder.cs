@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RProfiling
 		/// <summary>
 		/// Boolean isValid
 		/// </summary>
-		protected RProperty r_isValid;
-		public virtual RProperty RisValid
+		protected RSystem.RBoolean r_isValid;
+		public virtual RSystem.RBoolean RisValid
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RProfiling
 		/// <summary>
 		/// Boolean enabled
 		/// </summary>
-		protected RProperty r_enabled;
-		public virtual RProperty Renabled
+		protected RSystem.RBoolean r_enabled;
+		public virtual RSystem.RBoolean Renabled
 		{
 			get
 			{
@@ -115,8 +115,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RProfiling
 		/// <summary>
 		/// Int64 elapsedNanoseconds
 		/// </summary>
-		protected RProperty r_elapsedNanoseconds;
-		public virtual RProperty RelapsedNanoseconds
+		protected RSystem.RInt64 r_elapsedNanoseconds;
+		public virtual RSystem.RInt64 RelapsedNanoseconds
 		{
 			get
 			{
@@ -132,8 +132,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RProfiling
 		/// <summary>
 		/// Int64 gpuElapsedNanoseconds
 		/// </summary>
-		protected RProperty r_gpuElapsedNanoseconds;
-		public virtual RProperty RgpuElapsedNanoseconds
+		protected RSystem.RInt64 r_gpuElapsedNanoseconds;
+		public virtual RSystem.RInt64 RgpuElapsedNanoseconds
 		{
 			get
 			{
@@ -149,8 +149,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RProfiling
 		/// <summary>
 		/// Int32 sampleBlockCount
 		/// </summary>
-		protected RProperty r_sampleBlockCount;
-		public virtual RProperty RsampleBlockCount
+		protected RSystem.RInt32 r_sampleBlockCount;
+		public virtual RSystem.RInt32 RsampleBlockCount
 		{
 			get
 			{
@@ -166,8 +166,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RProfiling
 		/// <summary>
 		/// Int32 gpuSampleBlockCount
 		/// </summary>
-		protected RProperty r_gpuSampleBlockCount;
-		public virtual RProperty RgpuSampleBlockCount
+		protected RSystem.RInt32 r_gpuSampleBlockCount;
+		public virtual RSystem.RInt32 RgpuSampleBlockCount
 		{
 			get
 			{

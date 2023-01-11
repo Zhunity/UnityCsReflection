@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Int32 Onerep
 		/// </summary>
-		protected static RField r_Onerep;
-		public static RField ROnerep
+		protected static RSystem.RInt32 r_Onerep;
+		public static RSystem.RInt32 ROnerep
 		{
 			get
 			{
@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Int32 Notonerep
 		/// </summary>
-		protected static RField r_Notonerep;
-		public static RField RNotonerep
+		protected static RSystem.RInt32 r_Notonerep;
+		public static RSystem.RInt32 RNotonerep
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Int32 Setrep
 		/// </summary>
-		protected static RField r_Setrep;
-		public static RField RSetrep
+		protected static RSystem.RInt32 r_Setrep;
+		public static RSystem.RInt32 RSetrep
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Int32 Oneloop
 		/// </summary>
-		protected static RField r_Oneloop;
-		public static RField ROneloop
+		protected static RSystem.RInt32 r_Oneloop;
+		public static RSystem.RInt32 ROneloop
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Int32 Notoneloop
 		/// </summary>
-		protected static RField r_Notoneloop;
-		public static RField RNotoneloop
+		protected static RSystem.RInt32 r_Notoneloop;
+		public static RSystem.RInt32 RNotoneloop
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Int32 Setloop
 		/// </summary>
-		protected static RField r_Setloop;
-		public static RField RSetloop
+		protected static RSystem.RInt32 r_Setloop;
+		public static RSystem.RInt32 RSetloop
 		{
 			get
 			{
@@ -115,8 +115,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Int32 Onelazy
 		/// </summary>
-		protected static RField r_Onelazy;
-		public static RField ROnelazy
+		protected static RSystem.RInt32 r_Onelazy;
+		public static RSystem.RInt32 ROnelazy
 		{
 			get
 			{
@@ -132,8 +132,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Int32 Notonelazy
 		/// </summary>
-		protected static RField r_Notonelazy;
-		public static RField RNotonelazy
+		protected static RSystem.RInt32 r_Notonelazy;
+		public static RSystem.RInt32 RNotonelazy
 		{
 			get
 			{
@@ -149,8 +149,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Int32 Setlazy
 		/// </summary>
-		protected static RField r_Setlazy;
-		public static RField RSetlazy
+		protected static RSystem.RInt32 r_Setlazy;
+		public static RSystem.RInt32 RSetlazy
 		{
 			get
 			{
@@ -166,8 +166,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Int32 One
 		/// </summary>
-		protected static RField r_One;
-		public static RField ROne
+		protected static RSystem.RInt32 r_One;
+		public static RSystem.RInt32 ROne
 		{
 			get
 			{
@@ -183,8 +183,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Int32 Notone
 		/// </summary>
-		protected static RField r_Notone;
-		public static RField RNotone
+		protected static RSystem.RInt32 r_Notone;
+		public static RSystem.RInt32 RNotone
 		{
 			get
 			{
@@ -200,8 +200,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Int32 Set
 		/// </summary>
-		protected static RField r_Set;
-		public static RField RSet
+		protected static RSystem.RInt32 r_Set;
+		public static RSystem.RInt32 RSet
 		{
 			get
 			{
@@ -217,8 +217,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Int32 Multi
 		/// </summary>
-		protected static RField r_Multi;
-		public static RField RMulti
+		protected static RSystem.RInt32 r_Multi;
+		public static RSystem.RInt32 RMulti
 		{
 			get
 			{
@@ -234,8 +234,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Int32 Ref
 		/// </summary>
-		protected static RField r_Ref;
-		public static RField RRef
+		protected static RSystem.RInt32 r_Ref;
+		public static RSystem.RInt32 RRef
 		{
 			get
 			{
@@ -251,8 +251,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Int32 Bol
 		/// </summary>
-		protected static RField r_Bol;
-		public static RField RBol
+		protected static RSystem.RInt32 r_Bol;
+		public static RSystem.RInt32 RBol
 		{
 			get
 			{
@@ -268,8 +268,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Int32 Eol
 		/// </summary>
-		protected static RField r_Eol;
-		public static RField REol
+		protected static RSystem.RInt32 r_Eol;
+		public static RSystem.RInt32 REol
 		{
 			get
 			{
@@ -285,8 +285,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Int32 Boundary
 		/// </summary>
-		protected static RField r_Boundary;
-		public static RField RBoundary
+		protected static RSystem.RInt32 r_Boundary;
+		public static RSystem.RInt32 RBoundary
 		{
 			get
 			{
@@ -302,8 +302,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Int32 Nonboundary
 		/// </summary>
-		protected static RField r_Nonboundary;
-		public static RField RNonboundary
+		protected static RSystem.RInt32 r_Nonboundary;
+		public static RSystem.RInt32 RNonboundary
 		{
 			get
 			{
@@ -319,8 +319,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Int32 Beginning
 		/// </summary>
-		protected static RField r_Beginning;
-		public static RField RBeginning
+		protected static RSystem.RInt32 r_Beginning;
+		public static RSystem.RInt32 RBeginning
 		{
 			get
 			{
@@ -336,8 +336,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Int32 Start
 		/// </summary>
-		protected static RField r_Start;
-		public static RField RStart
+		protected static RSystem.RInt32 r_Start;
+		public static RSystem.RInt32 RStart
 		{
 			get
 			{
@@ -353,8 +353,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Int32 EndZ
 		/// </summary>
-		protected static RField r_EndZ;
-		public static RField REndZ
+		protected static RSystem.RInt32 r_EndZ;
+		public static RSystem.RInt32 REndZ
 		{
 			get
 			{
@@ -370,8 +370,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Int32 End
 		/// </summary>
-		protected static RField r_End;
-		public static RField REnd
+		protected static RSystem.RInt32 r_End;
+		public static RSystem.RInt32 REnd
 		{
 			get
 			{
@@ -387,8 +387,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Int32 Nothing
 		/// </summary>
-		protected static RField r_Nothing;
-		public static RField RNothing
+		protected static RSystem.RInt32 r_Nothing;
+		public static RSystem.RInt32 RNothing
 		{
 			get
 			{
@@ -404,8 +404,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Int32 Lazybranch
 		/// </summary>
-		protected static RField r_Lazybranch;
-		public static RField RLazybranch
+		protected static RSystem.RInt32 r_Lazybranch;
+		public static RSystem.RInt32 RLazybranch
 		{
 			get
 			{
@@ -421,8 +421,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Int32 Branchmark
 		/// </summary>
-		protected static RField r_Branchmark;
-		public static RField RBranchmark
+		protected static RSystem.RInt32 r_Branchmark;
+		public static RSystem.RInt32 RBranchmark
 		{
 			get
 			{
@@ -438,8 +438,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Int32 Lazybranchmark
 		/// </summary>
-		protected static RField r_Lazybranchmark;
-		public static RField RLazybranchmark
+		protected static RSystem.RInt32 r_Lazybranchmark;
+		public static RSystem.RInt32 RLazybranchmark
 		{
 			get
 			{
@@ -455,8 +455,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Int32 Nullcount
 		/// </summary>
-		protected static RField r_Nullcount;
-		public static RField RNullcount
+		protected static RSystem.RInt32 r_Nullcount;
+		public static RSystem.RInt32 RNullcount
 		{
 			get
 			{
@@ -472,8 +472,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Int32 Setcount
 		/// </summary>
-		protected static RField r_Setcount;
-		public static RField RSetcount
+		protected static RSystem.RInt32 r_Setcount;
+		public static RSystem.RInt32 RSetcount
 		{
 			get
 			{
@@ -489,8 +489,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Int32 Branchcount
 		/// </summary>
-		protected static RField r_Branchcount;
-		public static RField RBranchcount
+		protected static RSystem.RInt32 r_Branchcount;
+		public static RSystem.RInt32 RBranchcount
 		{
 			get
 			{
@@ -506,8 +506,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Int32 Lazybranchcount
 		/// </summary>
-		protected static RField r_Lazybranchcount;
-		public static RField RLazybranchcount
+		protected static RSystem.RInt32 r_Lazybranchcount;
+		public static RSystem.RInt32 RLazybranchcount
 		{
 			get
 			{
@@ -523,8 +523,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Int32 Nullmark
 		/// </summary>
-		protected static RField r_Nullmark;
-		public static RField RNullmark
+		protected static RSystem.RInt32 r_Nullmark;
+		public static RSystem.RInt32 RNullmark
 		{
 			get
 			{
@@ -540,8 +540,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Int32 Setmark
 		/// </summary>
-		protected static RField r_Setmark;
-		public static RField RSetmark
+		protected static RSystem.RInt32 r_Setmark;
+		public static RSystem.RInt32 RSetmark
 		{
 			get
 			{
@@ -557,8 +557,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Int32 Capturemark
 		/// </summary>
-		protected static RField r_Capturemark;
-		public static RField RCapturemark
+		protected static RSystem.RInt32 r_Capturemark;
+		public static RSystem.RInt32 RCapturemark
 		{
 			get
 			{
@@ -574,8 +574,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Int32 Getmark
 		/// </summary>
-		protected static RField r_Getmark;
-		public static RField RGetmark
+		protected static RSystem.RInt32 r_Getmark;
+		public static RSystem.RInt32 RGetmark
 		{
 			get
 			{
@@ -591,8 +591,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Int32 Setjump
 		/// </summary>
-		protected static RField r_Setjump;
-		public static RField RSetjump
+		protected static RSystem.RInt32 r_Setjump;
+		public static RSystem.RInt32 RSetjump
 		{
 			get
 			{
@@ -608,8 +608,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Int32 Backjump
 		/// </summary>
-		protected static RField r_Backjump;
-		public static RField RBackjump
+		protected static RSystem.RInt32 r_Backjump;
+		public static RSystem.RInt32 RBackjump
 		{
 			get
 			{
@@ -625,8 +625,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Int32 Forejump
 		/// </summary>
-		protected static RField r_Forejump;
-		public static RField RForejump
+		protected static RSystem.RInt32 r_Forejump;
+		public static RSystem.RInt32 RForejump
 		{
 			get
 			{
@@ -642,8 +642,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Int32 Testref
 		/// </summary>
-		protected static RField r_Testref;
-		public static RField RTestref
+		protected static RSystem.RInt32 r_Testref;
+		public static RSystem.RInt32 RTestref
 		{
 			get
 			{
@@ -659,8 +659,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Int32 Goto
 		/// </summary>
-		protected static RField r_Goto;
-		public static RField RGoto
+		protected static RSystem.RInt32 r_Goto;
+		public static RSystem.RInt32 RGoto
 		{
 			get
 			{
@@ -676,8 +676,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Int32 Prune
 		/// </summary>
-		protected static RField r_Prune;
-		public static RField RPrune
+		protected static RSystem.RInt32 r_Prune;
+		public static RSystem.RInt32 RPrune
 		{
 			get
 			{
@@ -693,8 +693,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Int32 Stop
 		/// </summary>
-		protected static RField r_Stop;
-		public static RField RStop
+		protected static RSystem.RInt32 r_Stop;
+		public static RSystem.RInt32 RStop
 		{
 			get
 			{
@@ -710,8 +710,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Int32 ECMABoundary
 		/// </summary>
-		protected static RField r_ECMABoundary;
-		public static RField RECMABoundary
+		protected static RSystem.RInt32 r_ECMABoundary;
+		public static RSystem.RInt32 RECMABoundary
 		{
 			get
 			{
@@ -727,8 +727,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Int32 NonECMABoundary
 		/// </summary>
-		protected static RField r_NonECMABoundary;
-		public static RField RNonECMABoundary
+		protected static RSystem.RInt32 r_NonECMABoundary;
+		public static RSystem.RInt32 RNonECMABoundary
 		{
 			get
 			{
@@ -744,8 +744,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Int32 Mask
 		/// </summary>
-		protected static RField r_Mask;
-		public static RField RMask
+		protected static RSystem.RInt32 r_Mask;
+		public static RSystem.RInt32 RMask
 		{
 			get
 			{
@@ -761,8 +761,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Int32 Rtl
 		/// </summary>
-		protected static RField r_Rtl;
-		public static RField RRtl
+		protected static RSystem.RInt32 r_Rtl;
+		public static RSystem.RInt32 RRtl
 		{
 			get
 			{
@@ -778,8 +778,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Int32 Back
 		/// </summary>
-		protected static RField r_Back;
-		public static RField RBack
+		protected static RSystem.RInt32 r_Back;
+		public static RSystem.RInt32 RBack
 		{
 			get
 			{
@@ -795,8 +795,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Int32 Back2
 		/// </summary>
-		protected static RField r_Back2;
-		public static RField RBack2
+		protected static RSystem.RInt32 r_Back2;
+		public static RSystem.RInt32 RBack2
 		{
 			get
 			{
@@ -812,8 +812,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Int32 Ci
 		/// </summary>
-		protected static RField r_Ci;
-		public static RField RCi
+		protected static RSystem.RInt32 r_Ci;
+		public static RSystem.RInt32 RCi
 		{
 			get
 			{
@@ -829,8 +829,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Int32[] Codes
 		/// </summary>
-		protected RFieldArray<RField> r_Codes;
-		public virtual RFieldArray<RField> RCodes
+		protected RFieldArray<RSystem.RInt32> r_Codes;
+		public virtual RFieldArray<RSystem.RInt32> RCodes
 		{
 			get
 			{
@@ -846,8 +846,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.String[] Strings
 		/// </summary>
-		protected RFieldArray<RField> r_Strings;
-		public virtual RFieldArray<RField> RStrings
+		protected RFieldArray<RSystem.RString> r_Strings;
+		public virtual RFieldArray<RSystem.RString> RStrings
 		{
 			get
 			{
@@ -863,8 +863,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Int32 TrackCount
 		/// </summary>
-		protected RField r_TrackCount;
-		public virtual RField RTrackCount
+		protected RSystem.RInt32 r_TrackCount;
+		public virtual RSystem.RInt32 RTrackCount
 		{
 			get
 			{
@@ -897,8 +897,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Int32 CapSize
 		/// </summary>
-		protected RField r_CapSize;
-		public virtual RField RCapSize
+		protected RSystem.RInt32 r_CapSize;
+		public virtual RSystem.RInt32 RCapSize
 		{
 			get
 			{
@@ -914,8 +914,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Nullable`1[System.Text.RegularExpressions.RegexPrefix] FCPrefix
 		/// </summary>
-		protected RField r_FCPrefix;
-		public virtual RField RFCPrefix
+		protected RSystem.RNullable<RSystem.RText.RRegularExpressions.RRegexPrefix> r_FCPrefix;
+		public virtual RSystem.RNullable<RSystem.RText.RRegularExpressions.RRegexPrefix> RFCPrefix
 		{
 			get
 			{
@@ -948,8 +948,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Int32 Anchors
 		/// </summary>
-		protected RField r_Anchors;
-		public virtual RField RAnchors
+		protected RSystem.RInt32 r_Anchors;
+		public virtual RSystem.RInt32 RAnchors
 		{
 			get
 			{
@@ -965,8 +965,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Boolean RightToLeft
 		/// </summary>
-		protected RField r_RightToLeft;
-		public virtual RField RRightToLeft
+		protected RSystem.RBoolean r_RightToLeft;
+		public virtual RSystem.RBoolean RRightToLeft
 		{
 			get
 			{

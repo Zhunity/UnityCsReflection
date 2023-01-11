@@ -15,8 +15,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.UInt32 start
 		/// </summary>
-		protected RField r_start;
-		public virtual RField Rstart
+		protected RSystem.RUInt32 r_start;
+		public virtual RSystem.RUInt32 Rstart
 		{
 			get
 			{
@@ -32,8 +32,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.UInt32 end
 		/// </summary>
-		protected RField r_end;
-		public virtual RField Rend
+		protected RSystem.RUInt32 r_end;
+		public virtual RSystem.RUInt32 Rend
 		{
 			get
 			{
@@ -117,8 +117,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Boolean allocated
 		/// </summary>
-		protected RField r_allocated;
-		public virtual RField Rallocated
+		protected RSystem.RBoolean r_allocated;
+		public virtual RSystem.RBoolean Rallocated
 		{
 			get
 			{
@@ -151,8 +151,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// UInt32 size
 		/// </summary>
-		protected RProperty r_size;
-		public virtual RProperty Rsize
+		protected RSystem.RUInt32 r_size;
+		public virtual RSystem.RUInt32 Rsize
 		{
 			get
 			{

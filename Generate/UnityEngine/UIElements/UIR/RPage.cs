@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Boolean <disposed>k__BackingField
 		/// </summary>
-		protected RField r___0__disposed__1__k__BackingField;
-		public virtual RField R__0__disposed__1__k__BackingField
+		protected RSystem.RBoolean r___0__disposed__1__k__BackingField;
+		public virtual RSystem.RBoolean R__0__disposed__1__k__BackingField
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// UnityEngine.UIElements.UIR.Page+DataSet`1[System.UInt16] indices
 		/// </summary>
-		protected RUnityEngine.RUIElements.RUIR.RPage.RDataSet<RField> r_indices;
-		public virtual RUnityEngine.RUIElements.RUIR.RPage.RDataSet<RField> Rindices
+		protected RUnityEngine.RUIElements.RUIR.RPage.RDataSet<RSystem.RUInt16> r_indices;
+		public virtual RUnityEngine.RUIElements.RUIR.RPage.RDataSet<RSystem.RUInt16> Rindices
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Int32 framesEmpty
 		/// </summary>
-		protected RField r_framesEmpty;
-		public virtual RField RframesEmpty
+		protected RSystem.RInt32 r_framesEmpty;
+		public virtual RSystem.RInt32 RframesEmpty
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// Boolean disposed
 		/// </summary>
-		protected RProperty r_disposed;
-		public virtual RProperty Rdisposed
+		protected RSystem.RBoolean r_disposed;
+		public virtual RSystem.RBoolean Rdisposed
 		{
 			get
 			{
@@ -115,8 +115,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// Boolean isEmpty
 		/// </summary>
-		protected RProperty r_isEmpty;
-		public virtual RProperty RisEmpty
+		protected RSystem.RBoolean r_isEmpty;
+		public virtual RSystem.RBoolean RisEmpty
 		{
 			get
 			{

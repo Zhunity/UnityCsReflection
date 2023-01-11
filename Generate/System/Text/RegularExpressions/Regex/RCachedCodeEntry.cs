@@ -117,8 +117,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.String[] Capslist
 		/// </summary>
-		protected RFieldArray<RField> r_Capslist;
-		public virtual RFieldArray<RField> RCapslist
+		protected RFieldArray<RSystem.RString> r_Capslist;
+		public virtual RFieldArray<RSystem.RString> RCapslist
 		{
 			get
 			{
@@ -151,8 +151,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText.RRegularExpressions
 		/// <summary>
 		/// System.Int32 Capsize
 		/// </summary>
-		protected RField r_Capsize;
-		public virtual RField RCapsize
+		protected RSystem.RInt32 r_Capsize;
+		public virtual RSystem.RInt32 RCapsize
 		{
 			get
 			{

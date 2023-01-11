@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 		/// <summary>
 		/// Single searchHeight
 		/// </summary>
-		protected RProperty r_searchHeight;
-		public virtual RProperty RsearchHeight
+		protected RSystem.RSingle r_searchHeight;
+		public virtual RSystem.RSingle RsearchHeight
 		{
 			get
 			{
@@ -115,8 +115,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 		/// <summary>
 		/// Single headerHeight
 		/// </summary>
-		protected RProperty r_headerHeight;
-		public virtual RProperty RheaderHeight
+		protected RSystem.RSingle r_headerHeight;
+		public virtual RSystem.RSingle RheaderHeight
 		{
 			get
 			{

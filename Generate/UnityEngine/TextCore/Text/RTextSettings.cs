@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.String m_Version
 		/// </summary>
-		protected RField r_m_Version;
-		public virtual RField Rm_Version
+		protected RSystem.RString r_m_Version;
+		public virtual RSystem.RString Rm_Version
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.String m_DefaultFontAssetPath
 		/// </summary>
-		protected RField r_m_DefaultFontAssetPath;
-		public virtual RField Rm_DefaultFontAssetPath
+		protected RSystem.RString r_m_DefaultFontAssetPath;
+		public virtual RSystem.RString Rm_DefaultFontAssetPath
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Boolean m_MatchMaterialPreset
 		/// </summary>
-		protected RField r_m_MatchMaterialPreset;
-		public virtual RField Rm_MatchMaterialPreset
+		protected RSystem.RBoolean r_m_MatchMaterialPreset;
+		public virtual RSystem.RBoolean Rm_MatchMaterialPreset
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Int32 m_MissingCharacterUnicode
 		/// </summary>
-		protected RField r_m_MissingCharacterUnicode;
-		public virtual RField Rm_MissingCharacterUnicode
+		protected RSystem.RInt32 r_m_MissingCharacterUnicode;
+		public virtual RSystem.RInt32 Rm_MissingCharacterUnicode
 		{
 			get
 			{
@@ -115,8 +115,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Boolean m_ClearDynamicDataOnBuild
 		/// </summary>
-		protected RField r_m_ClearDynamicDataOnBuild;
-		public virtual RField Rm_ClearDynamicDataOnBuild
+		protected RSystem.RBoolean r_m_ClearDynamicDataOnBuild;
+		public virtual RSystem.RBoolean Rm_ClearDynamicDataOnBuild
 		{
 			get
 			{
@@ -149,8 +149,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.String m_DefaultSpriteAssetPath
 		/// </summary>
-		protected RField r_m_DefaultSpriteAssetPath;
-		public virtual RField Rm_DefaultSpriteAssetPath
+		protected RSystem.RString r_m_DefaultSpriteAssetPath;
+		public virtual RSystem.RString Rm_DefaultSpriteAssetPath
 		{
 			get
 			{
@@ -183,8 +183,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.UInt32 m_MissingSpriteCharacterUnicode
 		/// </summary>
-		protected RField r_m_MissingSpriteCharacterUnicode;
-		public virtual RField Rm_MissingSpriteCharacterUnicode
+		protected RSystem.RUInt32 r_m_MissingSpriteCharacterUnicode;
+		public virtual RSystem.RUInt32 Rm_MissingSpriteCharacterUnicode
 		{
 			get
 			{
@@ -217,8 +217,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.String m_StyleSheetsResourcePath
 		/// </summary>
-		protected RField r_m_StyleSheetsResourcePath;
-		public virtual RField Rm_StyleSheetsResourcePath
+		protected RSystem.RString r_m_StyleSheetsResourcePath;
+		public virtual RSystem.RString Rm_StyleSheetsResourcePath
 		{
 			get
 			{
@@ -234,8 +234,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.String m_DefaultColorGradientPresetsPath
 		/// </summary>
-		protected RField r_m_DefaultColorGradientPresetsPath;
-		public virtual RField Rm_DefaultColorGradientPresetsPath
+		protected RSystem.RString r_m_DefaultColorGradientPresetsPath;
+		public virtual RSystem.RString Rm_DefaultColorGradientPresetsPath
 		{
 			get
 			{
@@ -268,8 +268,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Boolean m_UseModernHangulLineBreakingRules
 		/// </summary>
-		protected RField r_m_UseModernHangulLineBreakingRules;
-		public virtual RField Rm_UseModernHangulLineBreakingRules
+		protected RSystem.RBoolean r_m_UseModernHangulLineBreakingRules;
+		public virtual RSystem.RBoolean Rm_UseModernHangulLineBreakingRules
 		{
 			get
 			{
@@ -285,8 +285,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Boolean m_DisplayWarnings
 		/// </summary>
-		protected RField r_m_DisplayWarnings;
-		public virtual RField Rm_DisplayWarnings
+		protected RSystem.RBoolean r_m_DisplayWarnings;
+		public virtual RSystem.RBoolean Rm_DisplayWarnings
 		{
 			get
 			{
@@ -302,8 +302,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Collections.Generic.Dictionary`2[System.Int32,UnityEngine.TextCore.Text.FontAsset] m_FontLookup
 		/// </summary>
-		protected RSystem.RCollections.RGeneric.RDictionary<RField, RUnityEngine.RTextCore.RText.RFontAsset> r_m_FontLookup;
-		public virtual RSystem.RCollections.RGeneric.RDictionary<RField, RUnityEngine.RTextCore.RText.RFontAsset> Rm_FontLookup
+		protected RSystem.RCollections.RGeneric.RDictionary<RSystem.RInt32, RUnityEngine.RTextCore.RText.RFontAsset> r_m_FontLookup;
+		public virtual RSystem.RCollections.RGeneric.RDictionary<RSystem.RInt32, RUnityEngine.RTextCore.RText.RFontAsset> Rm_FontLookup
 		{
 			get
 			{
@@ -336,8 +336,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.String version
 		/// </summary>
-		protected RProperty r_version;
-		public virtual RProperty Rversion
+		protected RSystem.RString r_version;
+		public virtual RSystem.RString Rversion
 		{
 			get
 			{
@@ -370,8 +370,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.String defaultFontAssetPath
 		/// </summary>
-		protected RProperty r_defaultFontAssetPath;
-		public virtual RProperty RdefaultFontAssetPath
+		protected RSystem.RString r_defaultFontAssetPath;
+		public virtual RSystem.RString RdefaultFontAssetPath
 		{
 			get
 			{
@@ -404,8 +404,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// Boolean matchMaterialPreset
 		/// </summary>
-		protected RProperty r_matchMaterialPreset;
-		public virtual RProperty RmatchMaterialPreset
+		protected RSystem.RBoolean r_matchMaterialPreset;
+		public virtual RSystem.RBoolean RmatchMaterialPreset
 		{
 			get
 			{
@@ -421,8 +421,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// Int32 missingCharacterUnicode
 		/// </summary>
-		protected RProperty r_missingCharacterUnicode;
-		public virtual RProperty RmissingCharacterUnicode
+		protected RSystem.RInt32 r_missingCharacterUnicode;
+		public virtual RSystem.RInt32 RmissingCharacterUnicode
 		{
 			get
 			{
@@ -438,8 +438,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// Boolean clearDynamicDataOnBuild
 		/// </summary>
-		protected RProperty r_clearDynamicDataOnBuild;
-		public virtual RProperty RclearDynamicDataOnBuild
+		protected RSystem.RBoolean r_clearDynamicDataOnBuild;
+		public virtual RSystem.RBoolean RclearDynamicDataOnBuild
 		{
 			get
 			{
@@ -472,8 +472,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.String defaultSpriteAssetPath
 		/// </summary>
-		protected RProperty r_defaultSpriteAssetPath;
-		public virtual RProperty RdefaultSpriteAssetPath
+		protected RSystem.RString r_defaultSpriteAssetPath;
+		public virtual RSystem.RString RdefaultSpriteAssetPath
 		{
 			get
 			{
@@ -506,8 +506,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// UInt32 missingSpriteCharacterUnicode
 		/// </summary>
-		protected RProperty r_missingSpriteCharacterUnicode;
-		public virtual RProperty RmissingSpriteCharacterUnicode
+		protected RSystem.RUInt32 r_missingSpriteCharacterUnicode;
+		public virtual RSystem.RUInt32 RmissingSpriteCharacterUnicode
 		{
 			get
 			{
@@ -540,8 +540,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.String styleSheetsResourcePath
 		/// </summary>
-		protected RProperty r_styleSheetsResourcePath;
-		public virtual RProperty RstyleSheetsResourcePath
+		protected RSystem.RString r_styleSheetsResourcePath;
+		public virtual RSystem.RString RstyleSheetsResourcePath
 		{
 			get
 			{
@@ -557,8 +557,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.String defaultColorGradientPresetsPath
 		/// </summary>
-		protected RProperty r_defaultColorGradientPresetsPath;
-		public virtual RProperty RdefaultColorGradientPresetsPath
+		protected RSystem.RString r_defaultColorGradientPresetsPath;
+		public virtual RSystem.RString RdefaultColorGradientPresetsPath
 		{
 			get
 			{
@@ -591,8 +591,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// Boolean useModernHangulLineBreakingRules
 		/// </summary>
-		protected RProperty r_useModernHangulLineBreakingRules;
-		public virtual RProperty RuseModernHangulLineBreakingRules
+		protected RSystem.RBoolean r_useModernHangulLineBreakingRules;
+		public virtual RSystem.RBoolean RuseModernHangulLineBreakingRules
 		{
 			get
 			{
@@ -608,8 +608,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// Boolean displayWarnings
 		/// </summary>
-		protected RProperty r_displayWarnings;
-		public virtual RProperty RdisplayWarnings
+		protected RSystem.RBoolean r_displayWarnings;
+		public virtual RSystem.RBoolean RdisplayWarnings
 		{
 			get
 			{
@@ -625,8 +625,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.String name
 		/// </summary>
-		protected RProperty r_name;
-		public virtual RProperty Rname
+		protected RSystem.RString r_name;
+		public virtual RSystem.RString Rname
 		{
 			get
 			{

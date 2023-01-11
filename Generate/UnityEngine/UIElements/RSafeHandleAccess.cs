@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.IntPtr m_Handle
 		/// </summary>
-		protected RField r_m_Handle;
-		public virtual RField Rm_Handle
+		protected RSystem.RIntPtr r_m_Handle;
+		public virtual RSystem.RIntPtr Rm_Handle
 		{
 			get
 			{

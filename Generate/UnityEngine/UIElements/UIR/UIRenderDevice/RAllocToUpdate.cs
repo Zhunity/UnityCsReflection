@@ -15,8 +15,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.UInt32 id
 		/// </summary>
-		protected RField r_id;
-		public virtual RField Rid
+		protected RSystem.RUInt32 r_id;
+		public virtual RSystem.RUInt32 Rid
 		{
 			get
 			{
@@ -32,8 +32,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.UInt32 allocTime
 		/// </summary>
-		protected RField r_allocTime;
-		public virtual RField RallocTime
+		protected RSystem.RUInt32 r_allocTime;
+		public virtual RSystem.RUInt32 RallocTime
 		{
 			get
 			{
@@ -117,8 +117,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Boolean copyBackIndices
 		/// </summary>
-		protected RField r_copyBackIndices;
-		public virtual RField RcopyBackIndices
+		protected RSystem.RBoolean r_copyBackIndices;
+		public virtual RSystem.RBoolean RcopyBackIndices
 		{
 			get
 			{

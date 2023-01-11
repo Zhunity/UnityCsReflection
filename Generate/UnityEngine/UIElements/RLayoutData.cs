@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Single borderBottomWidth
 		/// </summary>
-		protected RField r_borderBottomWidth;
-		public virtual RField RborderBottomWidth
+		protected RSystem.RSingle r_borderBottomWidth;
+		public virtual RSystem.RSingle RborderBottomWidth
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Single borderLeftWidth
 		/// </summary>
-		protected RField r_borderLeftWidth;
-		public virtual RField RborderLeftWidth
+		protected RSystem.RSingle r_borderLeftWidth;
+		public virtual RSystem.RSingle RborderLeftWidth
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Single borderRightWidth
 		/// </summary>
-		protected RField r_borderRightWidth;
-		public virtual RField RborderRightWidth
+		protected RSystem.RSingle r_borderRightWidth;
+		public virtual RSystem.RSingle RborderRightWidth
 		{
 			get
 			{
@@ -115,8 +115,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Single borderTopWidth
 		/// </summary>
-		protected RField r_borderTopWidth;
-		public virtual RField RborderTopWidth
+		protected RSystem.RSingle r_borderTopWidth;
+		public virtual RSystem.RSingle RborderTopWidth
 		{
 			get
 			{
@@ -200,8 +200,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Single flexGrow
 		/// </summary>
-		protected RField r_flexGrow;
-		public virtual RField RflexGrow
+		protected RSystem.RSingle r_flexGrow;
+		public virtual RSystem.RSingle RflexGrow
 		{
 			get
 			{
@@ -217,8 +217,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Single flexShrink
 		/// </summary>
-		protected RField r_flexShrink;
-		public virtual RField RflexShrink
+		protected RSystem.RSingle r_flexShrink;
+		public virtual RSystem.RSingle RflexShrink
 		{
 			get
 			{

@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int32 m_PendingFocusCount
 		/// </summary>
-		protected RField r_m_PendingFocusCount;
-		public virtual RField Rm_PendingFocusCount
+		protected RSystem.RInt32 r_m_PendingFocusCount;
+		public virtual RSystem.RInt32 Rm_PendingFocusCount
 		{
 			get
 			{
@@ -115,8 +115,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int32 <imguiKeyboardControl>k__BackingField
 		/// </summary>
-		protected RField r___0__imguiKeyboardControl__1__k__BackingField;
-		public virtual RField R__0__imguiKeyboardControl__1__k__BackingField
+		protected RSystem.RInt32 r___0__imguiKeyboardControl__1__k__BackingField;
+		public virtual RSystem.RInt32 R__0__imguiKeyboardControl__1__k__BackingField
 		{
 			get
 			{
@@ -183,8 +183,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Int32 imguiKeyboardControl
 		/// </summary>
-		protected RProperty r_imguiKeyboardControl;
-		public virtual RProperty RimguiKeyboardControl
+		protected RSystem.RInt32 r_imguiKeyboardControl;
+		public virtual RSystem.RInt32 RimguiKeyboardControl
 		{
 			get
 			{

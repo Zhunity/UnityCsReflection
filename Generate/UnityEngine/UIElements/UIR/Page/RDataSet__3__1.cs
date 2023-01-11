@@ -15,8 +15,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Boolean <disposed>k__BackingField
 		/// </summary>
-		protected RField r___0__disposed__1__k__BackingField;
-		public virtual RField R__0__disposed__1__k__BackingField
+		protected RSystem.RBoolean r___0__disposed__1__k__BackingField;
+		public virtual RSystem.RBoolean R__0__disposed__1__k__BackingField
 		{
 			get
 			{
@@ -49,8 +49,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// Unity.Collections.NativeArray`1[T] cpuData
 		/// </summary>
-		protected RField r_cpuData;
-		public virtual RField RcpuData
+		protected RUnity.RCollections.RNativeArray<RField> r_cpuData;
+		public virtual RUnity.RCollections.RNativeArray<RField> RcpuData
 		{
 			get
 			{
@@ -66,8 +66,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// Unity.Collections.NativeArray`1[UnityEngine.UIElements.UIR.GfxUpdateBufferRange] updateRanges
 		/// </summary>
-		protected RField r_updateRanges;
-		public virtual RField RupdateRanges
+		protected RUnity.RCollections.RNativeArray<RUnityEngine.RUIElements.RUIR.RGfxUpdateBufferRange> r_updateRanges;
+		public virtual RUnity.RCollections.RNativeArray<RUnityEngine.RUIElements.RUIR.RGfxUpdateBufferRange> RupdateRanges
 		{
 			get
 			{
@@ -100,8 +100,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.UInt32 m_UpdateRangePoolSize
 		/// </summary>
-		protected RField r_m_UpdateRangePoolSize;
-		public virtual RField Rm_UpdateRangePoolSize
+		protected RSystem.RUInt32 r_m_UpdateRangePoolSize;
+		public virtual RSystem.RUInt32 Rm_UpdateRangePoolSize
 		{
 			get
 			{
@@ -117,8 +117,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.UInt32 m_ElemStride
 		/// </summary>
-		protected RField r_m_ElemStride;
-		public virtual RField Rm_ElemStride
+		protected RSystem.RUInt32 r_m_ElemStride;
+		public virtual RSystem.RUInt32 Rm_ElemStride
 		{
 			get
 			{
@@ -134,8 +134,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.UInt32 m_UpdateRangeMin
 		/// </summary>
-		protected RField r_m_UpdateRangeMin;
-		public virtual RField Rm_UpdateRangeMin
+		protected RSystem.RUInt32 r_m_UpdateRangeMin;
+		public virtual RSystem.RUInt32 Rm_UpdateRangeMin
 		{
 			get
 			{
@@ -151,8 +151,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.UInt32 m_UpdateRangeMax
 		/// </summary>
-		protected RField r_m_UpdateRangeMax;
-		public virtual RField Rm_UpdateRangeMax
+		protected RSystem.RUInt32 r_m_UpdateRangeMax;
+		public virtual RSystem.RUInt32 Rm_UpdateRangeMax
 		{
 			get
 			{
@@ -168,8 +168,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.UInt32 m_UpdateRangesEnqueued
 		/// </summary>
-		protected RField r_m_UpdateRangesEnqueued;
-		public virtual RField Rm_UpdateRangesEnqueued
+		protected RSystem.RUInt32 r_m_UpdateRangesEnqueued;
+		public virtual RSystem.RUInt32 Rm_UpdateRangesEnqueued
 		{
 			get
 			{
@@ -185,8 +185,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.UInt32 m_UpdateRangesBatchStart
 		/// </summary>
-		protected RField r_m_UpdateRangesBatchStart;
-		public virtual RField Rm_UpdateRangesBatchStart
+		protected RSystem.RUInt32 r_m_UpdateRangesBatchStart;
+		public virtual RSystem.RUInt32 Rm_UpdateRangesBatchStart
 		{
 			get
 			{
@@ -202,8 +202,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Boolean m_UpdateRangesSaturated
 		/// </summary>
-		protected RField r_m_UpdateRangesSaturated;
-		public virtual RField Rm_UpdateRangesSaturated
+		protected RSystem.RBoolean r_m_UpdateRangesSaturated;
+		public virtual RSystem.RBoolean Rm_UpdateRangesSaturated
 		{
 			get
 			{
@@ -219,8 +219,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// Boolean disposed
 		/// </summary>
-		protected RProperty r_disposed;
-		public virtual RProperty Rdisposed
+		protected RSystem.RBoolean r_disposed;
+		public virtual RSystem.RBoolean Rdisposed
 		{
 			get
 			{

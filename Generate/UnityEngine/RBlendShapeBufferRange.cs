@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.UInt32 m_StartIndex
 		/// </summary>
-		protected RField r_m_StartIndex;
-		public virtual RField Rm_StartIndex
+		protected RSystem.RUInt32 r_m_StartIndex;
+		public virtual RSystem.RUInt32 Rm_StartIndex
 		{
 			get
 			{
@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.UInt32 m_EndIndex
 		/// </summary>
-		protected RField r_m_EndIndex;
-		public virtual RField Rm_EndIndex
+		protected RSystem.RUInt32 r_m_EndIndex;
+		public virtual RSystem.RUInt32 Rm_EndIndex
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UInt32 startIndex
 		/// </summary>
-		protected RProperty r_startIndex;
-		public virtual RProperty RstartIndex
+		protected RSystem.RUInt32 r_startIndex;
+		public virtual RSystem.RUInt32 RstartIndex
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UInt32 endIndex
 		/// </summary>
-		protected RProperty r_endIndex;
-		public virtual RProperty RendIndex
+		protected RSystem.RUInt32 r_endIndex;
+		public virtual RSystem.RUInt32 RendIndex
 		{
 			get
 			{

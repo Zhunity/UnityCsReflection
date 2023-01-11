@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.String <Name>k__BackingField
 		/// </summary>
-		protected RField r___0__Name__1__k__BackingField;
-		public virtual RField R__0__Name__1__k__BackingField
+		protected RSystem.RString r___0__Name__1__k__BackingField;
+		public virtual RSystem.RString R__0__Name__1__k__BackingField
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.String Name
 		/// </summary>
-		protected RProperty r_Name;
-		public virtual RProperty RName
+		protected RSystem.RString r_Name;
+		public virtual RSystem.RString RName
 		{
 			get
 			{

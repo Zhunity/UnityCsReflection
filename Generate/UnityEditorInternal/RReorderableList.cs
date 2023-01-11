@@ -302,8 +302,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditorInternal
 		/// <summary>
 		/// System.Collections.Generic.List`1[System.Int32] m_Selection
 		/// </summary>
-		protected RSystem.RCollections.RGeneric.RList<RField> r_m_Selection;
-		public virtual RSystem.RCollections.RGeneric.RList<RField> Rm_Selection
+		protected RSystem.RCollections.RGeneric.RList<RSystem.RInt32> r_m_Selection;
+		public virtual RSystem.RCollections.RGeneric.RList<RSystem.RInt32> Rm_Selection
 		{
 			get
 			{
@@ -319,8 +319,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditorInternal
 		/// <summary>
 		/// System.Single m_DragOffset
 		/// </summary>
-		protected RField r_m_DragOffset;
-		public virtual RField Rm_DragOffset
+		protected RSystem.RSingle r_m_DragOffset;
+		public virtual RSystem.RSingle Rm_DragOffset
 		{
 			get
 			{
@@ -387,8 +387,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditorInternal
 		/// <summary>
 		/// System.String m_PropertyPath
 		/// </summary>
-		protected RField r_m_PropertyPath;
-		public virtual RField Rm_PropertyPath
+		protected RSystem.RString r_m_PropertyPath;
+		public virtual RSystem.RString Rm_PropertyPath
 		{
 			get
 			{
@@ -421,8 +421,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditorInternal
 		/// <summary>
 		/// System.Boolean m_Draggable
 		/// </summary>
-		protected RField r_m_Draggable;
-		public virtual RField Rm_Draggable
+		protected RSystem.RBoolean r_m_Draggable;
+		public virtual RSystem.RBoolean Rm_Draggable
 		{
 			get
 			{
@@ -438,8 +438,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditorInternal
 		/// <summary>
 		/// System.Single m_DraggedY
 		/// </summary>
-		protected RField r_m_DraggedY;
-		public virtual RField Rm_DraggedY
+		protected RSystem.RSingle r_m_DraggedY;
+		public virtual RSystem.RSingle Rm_DraggedY
 		{
 			get
 			{
@@ -455,8 +455,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditorInternal
 		/// <summary>
 		/// System.Boolean m_Dragging
 		/// </summary>
-		protected RField r_m_Dragging;
-		public virtual RField Rm_Dragging
+		protected RSystem.RBoolean r_m_Dragging;
+		public virtual RSystem.RBoolean Rm_Dragging
 		{
 			get
 			{
@@ -472,8 +472,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditorInternal
 		/// <summary>
 		/// System.Collections.Generic.List`1[System.Int32] m_NonDragTargetIndices
 		/// </summary>
-		protected RSystem.RCollections.RGeneric.RList<RField> r_m_NonDragTargetIndices;
-		public virtual RSystem.RCollections.RGeneric.RList<RField> Rm_NonDragTargetIndices
+		protected RSystem.RCollections.RGeneric.RList<RSystem.RInt32> r_m_NonDragTargetIndices;
+		public virtual RSystem.RCollections.RGeneric.RList<RSystem.RInt32> Rm_NonDragTargetIndices
 		{
 			get
 			{
@@ -489,8 +489,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditorInternal
 		/// <summary>
 		/// System.Boolean m_DisplayHeader
 		/// </summary>
-		protected RField r_m_DisplayHeader;
-		public virtual RField Rm_DisplayHeader
+		protected RSystem.RBoolean r_m_DisplayHeader;
+		public virtual RSystem.RBoolean Rm_DisplayHeader
 		{
 			get
 			{
@@ -506,8 +506,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditorInternal
 		/// <summary>
 		/// System.Boolean displayAdd
 		/// </summary>
-		protected RField r_displayAdd;
-		public virtual RField RdisplayAdd
+		protected RSystem.RBoolean r_displayAdd;
+		public virtual RSystem.RBoolean RdisplayAdd
 		{
 			get
 			{
@@ -523,8 +523,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditorInternal
 		/// <summary>
 		/// System.Boolean displayRemove
 		/// </summary>
-		protected RField r_displayRemove;
-		public virtual RField RdisplayRemove
+		protected RSystem.RBoolean r_displayRemove;
+		public virtual RSystem.RBoolean RdisplayRemove
 		{
 			get
 			{
@@ -540,8 +540,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditorInternal
 		/// <summary>
 		/// System.Boolean m_scheduleRemove
 		/// </summary>
-		protected RField r_m_scheduleRemove;
-		public virtual RField Rm_scheduleRemove
+		protected RSystem.RBoolean r_m_scheduleRemove;
+		public virtual RSystem.RBoolean Rm_scheduleRemove
 		{
 			get
 			{
@@ -557,8 +557,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditorInternal
 		/// <summary>
 		/// System.Boolean m_IsEditable
 		/// </summary>
-		protected RField r_m_IsEditable;
-		public virtual RField Rm_IsEditable
+		protected RSystem.RBoolean r_m_IsEditable;
+		public virtual RSystem.RBoolean Rm_IsEditable
 		{
 			get
 			{
@@ -574,8 +574,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditorInternal
 		/// <summary>
 		/// System.Boolean m_HasPropertyDrawer
 		/// </summary>
-		protected RField r_m_HasPropertyDrawer;
-		public virtual RField Rm_HasPropertyDrawer
+		protected RSystem.RBoolean r_m_HasPropertyDrawer;
+		public virtual RSystem.RBoolean Rm_HasPropertyDrawer
 		{
 			get
 			{
@@ -591,8 +591,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditorInternal
 		/// <summary>
 		/// System.Int32 m_CacheCount
 		/// </summary>
-		protected RField r_m_CacheCount;
-		public virtual RField Rm_CacheCount
+		protected RSystem.RInt32 r_m_CacheCount;
+		public virtual RSystem.RInt32 Rm_CacheCount
 		{
 			get
 			{
@@ -608,8 +608,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditorInternal
 		/// <summary>
 		/// System.Int32 id
 		/// </summary>
-		protected RField r_id;
-		public virtual RField Rid
+		protected RSystem.RInt32 r_id;
+		public virtual RSystem.RInt32 Rid
 		{
 			get
 			{
@@ -625,8 +625,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditorInternal
 		/// <summary>
 		/// System.Boolean m_ScheduleGUIChanged
 		/// </summary>
-		protected RField r_m_ScheduleGUIChanged;
-		public virtual RField Rm_ScheduleGUIChanged
+		protected RSystem.RBoolean r_m_ScheduleGUIChanged;
+		public virtual RSystem.RBoolean Rm_ScheduleGUIChanged
 		{
 			get
 			{
@@ -642,8 +642,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditorInternal
 		/// <summary>
 		/// System.Boolean m_PropertyCacheValid
 		/// </summary>
-		protected RField r_m_PropertyCacheValid;
-		public virtual RField Rm_PropertyCacheValid
+		protected RSystem.RBoolean r_m_PropertyCacheValid;
+		public virtual RSystem.RBoolean Rm_PropertyCacheValid
 		{
 			get
 			{
@@ -676,8 +676,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditorInternal
 		/// <summary>
 		/// System.Collections.Generic.List`1[System.String] m_OutdatedProperties
 		/// </summary>
-		protected static RSystem.RCollections.RGeneric.RList<RField> r_m_OutdatedProperties;
-		public static RSystem.RCollections.RGeneric.RList<RField> Rm_OutdatedProperties
+		protected static RSystem.RCollections.RGeneric.RList<RSystem.RString> r_m_OutdatedProperties;
+		public static RSystem.RCollections.RGeneric.RList<RSystem.RString> Rm_OutdatedProperties
 		{
 			get
 			{
@@ -727,8 +727,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditorInternal
 		/// <summary>
 		/// System.Boolean <multiSelect>k__BackingField
 		/// </summary>
-		protected RField r___0__multiSelect__1__k__BackingField;
-		public virtual RField R__0__multiSelect__1__k__BackingField
+		protected RSystem.RBoolean r___0__multiSelect__1__k__BackingField;
+		public virtual RSystem.RBoolean R__0__multiSelect__1__k__BackingField
 		{
 			get
 			{
@@ -744,8 +744,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditorInternal
 		/// <summary>
 		/// System.Single elementHeight
 		/// </summary>
-		protected RField r_elementHeight;
-		public virtual RField RelementHeight
+		protected RSystem.RSingle r_elementHeight;
+		public virtual RSystem.RSingle RelementHeight
 		{
 			get
 			{
@@ -761,8 +761,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditorInternal
 		/// <summary>
 		/// System.Single headerHeight
 		/// </summary>
-		protected RField r_headerHeight;
-		public virtual RField RheaderHeight
+		protected RSystem.RSingle r_headerHeight;
+		public virtual RSystem.RSingle RheaderHeight
 		{
 			get
 			{
@@ -778,8 +778,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditorInternal
 		/// <summary>
 		/// System.Single footerHeight
 		/// </summary>
-		protected RField r_footerHeight;
-		public virtual RField RfooterHeight
+		protected RSystem.RSingle r_footerHeight;
+		public virtual RSystem.RSingle RfooterHeight
 		{
 			get
 			{
@@ -795,8 +795,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditorInternal
 		/// <summary>
 		/// System.Boolean showDefaultBackground
 		/// </summary>
-		protected RField r_showDefaultBackground;
-		public virtual RField RshowDefaultBackground
+		protected RSystem.RBoolean r_showDefaultBackground;
+		public virtual RSystem.RBoolean RshowDefaultBackground
 		{
 			get
 			{
@@ -812,8 +812,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditorInternal
 		/// <summary>
 		/// System.Single kListElementBottomPadding
 		/// </summary>
-		protected static RField r_kListElementBottomPadding;
-		public static RField RkListElementBottomPadding
+		protected static RSystem.RSingle r_kListElementBottomPadding;
+		public static RSystem.RSingle RkListElementBottomPadding
 		{
 			get
 			{
@@ -829,8 +829,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditorInternal
 		/// <summary>
 		/// System.Int32 m_Count
 		/// </summary>
-		protected RField r_m_Count;
-		public virtual RField Rm_Count
+		protected RSystem.RInt32 r_m_Count;
+		public virtual RSystem.RInt32 Rm_Count
 		{
 			get
 			{
@@ -846,8 +846,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditorInternal
 		/// <summary>
 		/// System.Int32 m_SmallerArraySize
 		/// </summary>
-		protected RField r_m_SmallerArraySize;
-		public virtual RField Rm_SmallerArraySize
+		protected RSystem.RInt32 r_m_SmallerArraySize;
+		public virtual RSystem.RInt32 Rm_SmallerArraySize
 		{
 			get
 			{
@@ -863,8 +863,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditorInternal
 		/// <summary>
 		/// System.Single lastHeight
 		/// </summary>
-		protected RField r_lastHeight;
-		public virtual RField RlastHeight
+		protected RSystem.RSingle r_lastHeight;
+		public virtual RSystem.RSingle RlastHeight
 		{
 			get
 			{
@@ -880,8 +880,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditorInternal
 		/// <summary>
 		/// System.Int32 recursionCounter
 		/// </summary>
-		protected RField r_recursionCounter;
-		public virtual RField RrecursionCounter
+		protected RSystem.RInt32 r_recursionCounter;
+		public virtual RSystem.RInt32 RrecursionCounter
 		{
 			get
 			{
@@ -965,8 +965,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditorInternal
 		/// <summary>
 		/// Int32 index
 		/// </summary>
-		protected RProperty r_index;
-		public virtual RProperty Rindex
+		protected RSystem.RInt32 r_index;
+		public virtual RSystem.RInt32 Rindex
 		{
 			get
 			{
@@ -982,8 +982,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditorInternal
 		/// <summary>
 		/// System.Collections.ObjectModel.ReadOnlyCollection`1[System.Int32] selectedIndices
 		/// </summary>
-		protected RSystem.RCollections.RObjectModel.RReadOnlyCollection<RProperty> r_selectedIndices;
-		public virtual RSystem.RCollections.RObjectModel.RReadOnlyCollection<RProperty> RselectedIndices
+		protected RSystem.RCollections.RObjectModel.RReadOnlyCollection<RSystem.RInt32> r_selectedIndices;
+		public virtual RSystem.RCollections.RObjectModel.RReadOnlyCollection<RSystem.RInt32> RselectedIndices
 		{
 			get
 			{
@@ -999,8 +999,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditorInternal
 		/// <summary>
 		/// Boolean multiSelect
 		/// </summary>
-		protected RProperty r_multiSelect;
-		public virtual RProperty RmultiSelect
+		protected RSystem.RBoolean r_multiSelect;
+		public virtual RSystem.RBoolean RmultiSelect
 		{
 			get
 			{
@@ -1016,8 +1016,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditorInternal
 		/// <summary>
 		/// Single HeaderHeight
 		/// </summary>
-		protected RProperty r_HeaderHeight;
-		public virtual RProperty RHeaderHeight
+		protected RSystem.RSingle r_HeaderHeight;
+		public virtual RSystem.RSingle RHeaderHeight
 		{
 			get
 			{
@@ -1033,8 +1033,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditorInternal
 		/// <summary>
 		/// Single listElementTopPadding
 		/// </summary>
-		protected RProperty r_listElementTopPadding;
-		public virtual RProperty RlistElementTopPadding
+		protected RSystem.RSingle r_listElementTopPadding;
+		public virtual RSystem.RSingle RlistElementTopPadding
 		{
 			get
 			{
@@ -1050,8 +1050,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditorInternal
 		/// <summary>
 		/// Boolean draggable
 		/// </summary>
-		protected RProperty r_draggable;
-		public virtual RProperty Rdraggable
+		protected RSystem.RBoolean r_draggable;
+		public virtual RSystem.RBoolean Rdraggable
 		{
 			get
 			{
@@ -1067,8 +1067,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditorInternal
 		/// <summary>
 		/// Boolean isOverMaxMultiEditLimit
 		/// </summary>
-		protected RProperty r_isOverMaxMultiEditLimit;
-		public virtual RProperty RisOverMaxMultiEditLimit
+		protected RSystem.RBoolean r_isOverMaxMultiEditLimit;
+		public virtual RSystem.RBoolean RisOverMaxMultiEditLimit
 		{
 			get
 			{
@@ -1084,8 +1084,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditorInternal
 		/// <summary>
 		/// Int32 count
 		/// </summary>
-		protected RProperty r_count;
-		public virtual RProperty Rcount
+		protected RSystem.RInt32 r_count;
+		public virtual RSystem.RInt32 Rcount
 		{
 			get
 			{

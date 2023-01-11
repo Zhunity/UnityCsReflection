@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Int64 m_cookie
 		/// </summary>
-		protected RField r_m_cookie;
-		public virtual RField Rm_cookie
+		protected RSystem.RInt64 r_m_cookie;
+		public virtual RSystem.RInt64 Rm_cookie
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// Int64 Cookie
 		/// </summary>
-		protected RProperty r_Cookie;
-		public virtual RProperty RCookie
+		protected RSystem.RInt64 r_Cookie;
+		public virtual RSystem.RInt64 RCookie
 		{
 			get
 			{

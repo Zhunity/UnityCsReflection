@@ -15,8 +15,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 ansi
 		/// </summary>
-		protected RField r_ansi;
-		public virtual RField Ransi
+		protected RSystem.RInt32 r_ansi;
+		public virtual RSystem.RInt32 Ransi
 		{
 			get
 			{
@@ -32,8 +32,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 ebcdic
 		/// </summary>
-		protected RField r_ebcdic;
-		public virtual RField Rebcdic
+		protected RSystem.RInt32 r_ebcdic;
+		public virtual RSystem.RInt32 Rebcdic
 		{
 			get
 			{
@@ -49,8 +49,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 mac
 		/// </summary>
-		protected RField r_mac;
-		public virtual RField Rmac
+		protected RSystem.RInt32 r_mac;
+		public virtual RSystem.RInt32 Rmac
 		{
 			get
 			{
@@ -66,8 +66,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 oem
 		/// </summary>
-		protected RField r_oem;
-		public virtual RField Roem
+		protected RSystem.RInt32 r_oem;
+		public virtual RSystem.RInt32 Roem
 		{
 			get
 			{
@@ -83,8 +83,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Boolean right_to_left
 		/// </summary>
-		protected RField r_right_to_left;
-		public virtual RField Rright_to_left
+		protected RSystem.RBoolean r_right_to_left;
+		public virtual RSystem.RBoolean Rright_to_left
 		{
 			get
 			{
@@ -100,8 +100,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Byte list_sep
 		/// </summary>
-		protected RField r_list_sep;
-		public virtual RField Rlist_sep
+		protected RSystem.RByte r_list_sep;
+		public virtual RSystem.RByte Rlist_sep
 		{
 			get
 			{

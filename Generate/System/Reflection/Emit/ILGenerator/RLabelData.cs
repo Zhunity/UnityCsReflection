@@ -15,8 +15,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Int32 addr
 		/// </summary>
-		protected RField r_addr;
-		public virtual RField Raddr
+		protected RSystem.RInt32 r_addr;
+		public virtual RSystem.RInt32 Raddr
 		{
 			get
 			{
@@ -32,8 +32,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Int32 maxStack
 		/// </summary>
-		protected RField r_maxStack;
-		public virtual RField RmaxStack
+		protected RSystem.RInt32 r_maxStack;
+		public virtual RSystem.RInt32 RmaxStack
 		{
 			get
 			{

@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleEnum`1[UnityEngine.UIElements.Align] alignContent
 		/// </summary>
-		protected RProperty r_alignContent;
-		public virtual RProperty RalignContent
+		protected RUnityEngine.RUIElements.RStyleEnum<RProperty> r_alignContent;
+		public virtual RUnityEngine.RUIElements.RStyleEnum<RProperty> RalignContent
 		{
 			get
 			{
@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleEnum`1[UnityEngine.UIElements.Align] alignItems
 		/// </summary>
-		protected RProperty r_alignItems;
-		public virtual RProperty RalignItems
+		protected RUnityEngine.RUIElements.RStyleEnum<RProperty> r_alignItems;
+		public virtual RUnityEngine.RUIElements.RStyleEnum<RProperty> RalignItems
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleEnum`1[UnityEngine.UIElements.Align] alignSelf
 		/// </summary>
-		protected RProperty r_alignSelf;
-		public virtual RProperty RalignSelf
+		protected RUnityEngine.RUIElements.RStyleEnum<RProperty> r_alignSelf;
+		public virtual RUnityEngine.RUIElements.RStyleEnum<RProperty> RalignSelf
 		{
 			get
 			{
@@ -421,8 +421,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleEnum`1[UnityEngine.UIElements.DisplayStyle] display
 		/// </summary>
-		protected RProperty r_display;
-		public virtual RProperty Rdisplay
+		protected RUnityEngine.RUIElements.RStyleEnum<RProperty> r_display;
+		public virtual RUnityEngine.RUIElements.RStyleEnum<RProperty> Rdisplay
 		{
 			get
 			{
@@ -455,8 +455,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleEnum`1[UnityEngine.UIElements.FlexDirection] flexDirection
 		/// </summary>
-		protected RProperty r_flexDirection;
-		public virtual RProperty RflexDirection
+		protected RUnityEngine.RUIElements.RStyleEnum<RProperty> r_flexDirection;
+		public virtual RUnityEngine.RUIElements.RStyleEnum<RProperty> RflexDirection
 		{
 			get
 			{
@@ -506,8 +506,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleEnum`1[UnityEngine.UIElements.Wrap] flexWrap
 		/// </summary>
-		protected RProperty r_flexWrap;
-		public virtual RProperty RflexWrap
+		protected RUnityEngine.RUIElements.RStyleEnum<RProperty> r_flexWrap;
+		public virtual RUnityEngine.RUIElements.RStyleEnum<RProperty> RflexWrap
 		{
 			get
 			{
@@ -557,8 +557,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleEnum`1[UnityEngine.UIElements.Justify] justifyContent
 		/// </summary>
-		protected RProperty r_justifyContent;
-		public virtual RProperty RjustifyContent
+		protected RUnityEngine.RUIElements.RStyleEnum<RProperty> r_justifyContent;
+		public virtual RUnityEngine.RUIElements.RStyleEnum<RProperty> RjustifyContent
 		{
 			get
 			{
@@ -761,8 +761,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleEnum`1[UnityEngine.UIElements.Overflow] overflow
 		/// </summary>
-		protected RProperty r_overflow;
-		public virtual RProperty Roverflow
+		protected RUnityEngine.RUIElements.RStyleEnum<RProperty> r_overflow;
+		public virtual RUnityEngine.RUIElements.RStyleEnum<RProperty> Roverflow
 		{
 			get
 			{
@@ -846,8 +846,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleEnum`1[UnityEngine.UIElements.Position] position
 		/// </summary>
-		protected RProperty r_position;
-		public virtual RProperty Rposition
+		protected RUnityEngine.RUIElements.RStyleEnum<RProperty> r_position;
+		public virtual RUnityEngine.RUIElements.RStyleEnum<RProperty> Rposition
 		{
 			get
 			{
@@ -914,8 +914,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleEnum`1[UnityEngine.UIElements.TextOverflow] textOverflow
 		/// </summary>
-		protected RProperty r_textOverflow;
-		public virtual RProperty RtextOverflow
+		protected RUnityEngine.RUIElements.RStyleEnum<RProperty> r_textOverflow;
+		public virtual RUnityEngine.RUIElements.RStyleEnum<RProperty> RtextOverflow
 		{
 			get
 			{
@@ -1118,8 +1118,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleEnum`1[UnityEngine.FontStyle] unityFontStyleAndWeight
 		/// </summary>
-		protected RProperty r_unityFontStyleAndWeight;
-		public virtual RProperty RunityFontStyleAndWeight
+		protected RUnityEngine.RUIElements.RStyleEnum<RProperty> r_unityFontStyleAndWeight;
+		public virtual RUnityEngine.RUIElements.RStyleEnum<RProperty> RunityFontStyleAndWeight
 		{
 			get
 			{
@@ -1135,8 +1135,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleEnum`1[UnityEngine.UIElements.OverflowClipBox] unityOverflowClipBox
 		/// </summary>
-		protected RProperty r_unityOverflowClipBox;
-		public virtual RProperty RunityOverflowClipBox
+		protected RUnityEngine.RUIElements.RStyleEnum<RProperty> r_unityOverflowClipBox;
+		public virtual RUnityEngine.RUIElements.RStyleEnum<RProperty> RunityOverflowClipBox
 		{
 			get
 			{
@@ -1254,8 +1254,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleEnum`1[UnityEngine.TextAnchor] unityTextAlign
 		/// </summary>
-		protected RProperty r_unityTextAlign;
-		public virtual RProperty RunityTextAlign
+		protected RUnityEngine.RUIElements.RStyleEnum<RProperty> r_unityTextAlign;
+		public virtual RUnityEngine.RUIElements.RStyleEnum<RProperty> RunityTextAlign
 		{
 			get
 			{
@@ -1305,8 +1305,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleEnum`1[UnityEngine.UIElements.TextOverflowPosition] unityTextOverflowPosition
 		/// </summary>
-		protected RProperty r_unityTextOverflowPosition;
-		public virtual RProperty RunityTextOverflowPosition
+		protected RUnityEngine.RUIElements.RStyleEnum<RProperty> r_unityTextOverflowPosition;
+		public virtual RUnityEngine.RUIElements.RStyleEnum<RProperty> RunityTextOverflowPosition
 		{
 			get
 			{
@@ -1322,8 +1322,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleEnum`1[UnityEngine.UIElements.Visibility] visibility
 		/// </summary>
-		protected RProperty r_visibility;
-		public virtual RProperty Rvisibility
+		protected RUnityEngine.RUIElements.RStyleEnum<RProperty> r_visibility;
+		public virtual RUnityEngine.RUIElements.RStyleEnum<RProperty> Rvisibility
 		{
 			get
 			{
@@ -1339,8 +1339,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleEnum`1[UnityEngine.UIElements.WhiteSpace] whiteSpace
 		/// </summary>
-		protected RProperty r_whiteSpace;
-		public virtual RProperty RwhiteSpace
+		protected RUnityEngine.RUIElements.RStyleEnum<RProperty> r_whiteSpace;
+		public virtual RUnityEngine.RUIElements.RStyleEnum<RProperty> RwhiteSpace
 		{
 			get
 			{
@@ -1390,8 +1390,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UnityEngine.UIElements.StyleEnum`1[UnityEngine.ScaleMode] unityBackgroundScaleMode
 		/// </summary>
-		protected RProperty r_unityBackgroundScaleMode;
-		public virtual RProperty RunityBackgroundScaleMode
+		protected RUnityEngine.RUIElements.RStyleEnum<RProperty> r_unityBackgroundScaleMode;
+		public virtual RUnityEngine.RUIElements.RStyleEnum<RProperty> RunityBackgroundScaleMode
 		{
 			get
 			{

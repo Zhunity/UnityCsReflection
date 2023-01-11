@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
 		/// <summary>
 		/// System.Int32 _head
 		/// </summary>
-		protected RField r__head;
-		public virtual RField R_head
+		protected RSystem.RInt32 r__head;
+		public virtual RSystem.RInt32 R_head
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
 		/// <summary>
 		/// System.Int32 _tail
 		/// </summary>
-		protected RField r__tail;
-		public virtual RField R_tail
+		protected RSystem.RInt32 r__tail;
+		public virtual RSystem.RInt32 R_tail
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
 		/// <summary>
 		/// System.Int32 _size
 		/// </summary>
-		protected RField r__size;
-		public virtual RField R_size
+		protected RSystem.RInt32 r__size;
+		public virtual RSystem.RInt32 R_size
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
 		/// <summary>
 		/// System.Int32 _version
 		/// </summary>
-		protected RField r__version;
-		public virtual RField R_version
+		protected RSystem.RInt32 r__version;
+		public virtual RSystem.RInt32 R_version
 		{
 			get
 			{
@@ -115,8 +115,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
 		/// <summary>
 		/// System.Int32 MinimumGrow
 		/// </summary>
-		protected static RField r_MinimumGrow;
-		public static RField RMinimumGrow
+		protected static RSystem.RInt32 r_MinimumGrow;
+		public static RSystem.RInt32 RMinimumGrow
 		{
 			get
 			{
@@ -132,8 +132,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
 		/// <summary>
 		/// System.Int32 GrowFactor
 		/// </summary>
-		protected static RField r_GrowFactor;
-		public static RField RGrowFactor
+		protected static RSystem.RInt32 r_GrowFactor;
+		public static RSystem.RInt32 RGrowFactor
 		{
 			get
 			{
@@ -149,8 +149,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
 		/// <summary>
 		/// Int32 Count
 		/// </summary>
-		protected RProperty r_Count;
-		public virtual RProperty RCount
+		protected RSystem.RInt32 r_Count;
+		public virtual RSystem.RInt32 RCount
 		{
 			get
 			{
@@ -166,8 +166,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
 		/// <summary>
 		/// Boolean System.Collections.ICollection.IsSynchronized
 		/// </summary>
-		protected RProperty r_System__2__Collections__2__ICollection__2__IsSynchronized;
-		public virtual RProperty RSystem__2__Collections__2__ICollection__2__IsSynchronized
+		protected RSystem.RBoolean r_System__2__Collections__2__ICollection__2__IsSynchronized;
+		public virtual RSystem.RBoolean RSystem__2__Collections__2__ICollection__2__IsSynchronized
 		{
 			get
 			{

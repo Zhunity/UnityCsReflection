@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Collections.Generic.List`1[System.String] m_Properties
 		/// </summary>
-		protected RSystem.RCollections.RGeneric.RList<RField> r_m_Properties;
-		public virtual RSystem.RCollections.RGeneric.RList<RField> Rm_Properties
+		protected RSystem.RCollections.RGeneric.RList<RSystem.RString> r_m_Properties;
+		public virtual RSystem.RCollections.RGeneric.RList<RSystem.RString> Rm_Properties
 		{
 			get
 			{
@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.String fullTypeName
 		/// </summary>
-		protected RProperty r_fullTypeName;
-		public virtual RProperty RfullTypeName
+		protected RSystem.RString r_fullTypeName;
+		public virtual RSystem.RString RfullTypeName
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Int32 id
 		/// </summary>
-		protected RProperty r_id;
-		public virtual RProperty Rid
+		protected RSystem.RInt32 r_id;
+		public virtual RSystem.RInt32 Rid
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Int32 orderInDocument
 		/// </summary>
-		protected RProperty r_orderInDocument;
-		public virtual RProperty RorderInDocument
+		protected RSystem.RInt32 r_orderInDocument;
+		public virtual RSystem.RInt32 RorderInDocument
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Int32 parentId
 		/// </summary>
-		protected RProperty r_parentId;
-		public virtual RProperty RparentId
+		protected RSystem.RInt32 r_parentId;
+		public virtual RSystem.RInt32 RparentId
 		{
 			get
 			{

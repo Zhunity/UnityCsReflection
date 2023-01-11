@@ -217,8 +217,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Boolean m_ExecutionContextBelongsToOuterScope
 		/// </summary>
-		protected RField r_m_ExecutionContextBelongsToOuterScope;
-		public virtual RField Rm_ExecutionContextBelongsToOuterScope
+		protected RSystem.RBoolean r_m_ExecutionContextBelongsToOuterScope;
+		public virtual RSystem.RBoolean Rm_ExecutionContextBelongsToOuterScope
 		{
 			get
 			{
@@ -251,8 +251,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Int32 principal_version
 		/// </summary>
-		protected RField r_principal_version;
-		public virtual RField Rprincipal_version
+		protected RSystem.RInt32 r_principal_version;
+		public virtual RSystem.RInt32 Rprincipal_version
 		{
 			get
 			{
@@ -268,8 +268,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// Boolean ExecutionContextBelongsToCurrentScope
 		/// </summary>
-		protected RProperty r_ExecutionContextBelongsToCurrentScope;
-		public virtual RProperty RExecutionContextBelongsToCurrentScope
+		protected RSystem.RBoolean r_ExecutionContextBelongsToCurrentScope;
+		public virtual RSystem.RBoolean RExecutionContextBelongsToCurrentScope
 		{
 			get
 			{
@@ -438,8 +438,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// Int32 CurrentThreadId
 		/// </summary>
-		protected static RProperty r_CurrentThreadId;
-		public static RProperty RCurrentThreadId
+		protected static RSystem.RInt32 r_CurrentThreadId;
+		public static RSystem.RInt32 RCurrentThreadId
 		{
 			get
 			{
@@ -472,8 +472,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// Boolean IsThreadPoolThread
 		/// </summary>
-		protected RProperty r_IsThreadPoolThread;
-		public virtual RProperty RIsThreadPoolThread
+		protected RSystem.RBoolean r_IsThreadPoolThread;
+		public virtual RSystem.RBoolean RIsThreadPoolThread
 		{
 			get
 			{
@@ -489,8 +489,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// Boolean IsThreadPoolThreadInternal
 		/// </summary>
-		protected RProperty r_IsThreadPoolThreadInternal;
-		public virtual RProperty RIsThreadPoolThreadInternal
+		protected RSystem.RBoolean r_IsThreadPoolThreadInternal;
+		public virtual RSystem.RBoolean RIsThreadPoolThreadInternal
 		{
 			get
 			{
@@ -506,8 +506,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// Boolean IsAlive
 		/// </summary>
-		protected RProperty r_IsAlive;
-		public virtual RProperty RIsAlive
+		protected RSystem.RBoolean r_IsAlive;
+		public virtual RSystem.RBoolean RIsAlive
 		{
 			get
 			{
@@ -523,8 +523,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// Boolean IsBackground
 		/// </summary>
-		protected RProperty r_IsBackground;
-		public virtual RProperty RIsBackground
+		protected RSystem.RBoolean r_IsBackground;
+		public virtual RSystem.RBoolean RIsBackground
 		{
 			get
 			{
@@ -540,8 +540,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.String Name
 		/// </summary>
-		protected RProperty r_Name;
-		public virtual RProperty RName
+		protected RSystem.RString r_Name;
+		public virtual RSystem.RString RName
 		{
 			get
 			{
@@ -591,8 +591,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// Int32 ManagedThreadId
 		/// </summary>
-		protected RProperty r_ManagedThreadId;
-		public virtual RProperty RManagedThreadId
+		protected RSystem.RInt32 r_ManagedThreadId;
+		public virtual RSystem.RInt32 RManagedThreadId
 		{
 			get
 			{

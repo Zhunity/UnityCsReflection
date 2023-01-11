@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Int64 m_LastUpdateWhilePlayingAnimation
 		/// </summary>
-		protected RField r_m_LastUpdateWhilePlayingAnimation;
-		public virtual RField Rm_LastUpdateWhilePlayingAnimation
+		protected RSystem.RInt64 r_m_LastUpdateWhilePlayingAnimation;
+		public virtual RSystem.RInt64 Rm_LastUpdateWhilePlayingAnimation
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Collections.Generic.List`1[System.Int32] m_InstanceIDsLockedBeforeSerialization
 		/// </summary>
-		protected RSystem.RCollections.RGeneric.RList<RField> r_m_InstanceIDsLockedBeforeSerialization;
-		public virtual RSystem.RCollections.RGeneric.RList<RField> Rm_InstanceIDsLockedBeforeSerialization
+		protected RSystem.RCollections.RGeneric.RList<RSystem.RInt32> r_m_InstanceIDsLockedBeforeSerialization;
+		public virtual RSystem.RCollections.RGeneric.RList<RSystem.RInt32> Rm_InstanceIDsLockedBeforeSerialization
 		{
 			get
 			{
@@ -132,8 +132,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Int32 m_LastInspectedObjectInstanceID
 		/// </summary>
-		protected RField r_m_LastInspectedObjectInstanceID;
-		public virtual RField Rm_LastInspectedObjectInstanceID
+		protected RSystem.RInt32 r_m_LastInspectedObjectInstanceID;
+		public virtual RSystem.RInt32 Rm_LastInspectedObjectInstanceID
 		{
 			get
 			{
@@ -149,8 +149,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Single m_LastVerticalScrollValue
 		/// </summary>
-		protected RField r_m_LastVerticalScrollValue;
-		public virtual RField Rm_LastVerticalScrollValue
+		protected RSystem.RSingle r_m_LastVerticalScrollValue;
+		public virtual RSystem.RSingle Rm_LastVerticalScrollValue
 		{
 			get
 			{
@@ -166,8 +166,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.String m_GlobalObjectId
 		/// </summary>
-		protected RField r_m_GlobalObjectId;
-		public virtual RField Rm_GlobalObjectId
+		protected RSystem.RString r_m_GlobalObjectId;
+		public virtual RSystem.RString Rm_GlobalObjectId
 		{
 			get
 			{
@@ -200,8 +200,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Int32 m_LastInitialEditorInstanceID
 		/// </summary>
-		protected RField r_m_LastInitialEditorInstanceID;
-		public virtual RField Rm_LastInitialEditorInstanceID
+		protected RSystem.RInt32 r_m_LastInitialEditorInstanceID;
+		public virtual RSystem.RInt32 Rm_LastInitialEditorInstanceID
 		{
 			get
 			{
@@ -268,8 +268,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Collections.Generic.Dictionary`2[System.Int32,System.Collections.Generic.List`1[UnityEngine.Component]] m_RemovedComponentDict
 		/// </summary>
-		protected RSystem.RCollections.RGeneric.RDictionary<RField, RSystem.RCollections.RGeneric.RList<RUnityEngine.RComponent>> r_m_RemovedComponentDict;
-		public virtual RSystem.RCollections.RGeneric.RDictionary<RField, RSystem.RCollections.RGeneric.RList<RUnityEngine.RComponent>> Rm_RemovedComponentDict
+		protected RSystem.RCollections.RGeneric.RDictionary<RSystem.RInt32, RSystem.RCollections.RGeneric.RList<RUnityEngine.RComponent>> r_m_RemovedComponentDict;
+		public virtual RSystem.RCollections.RGeneric.RDictionary<RSystem.RInt32, RSystem.RCollections.RGeneric.RList<RUnityEngine.RComponent>> Rm_RemovedComponentDict
 		{
 			get
 			{
@@ -302,8 +302,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Boolean m_ResetKeyboardControl
 		/// </summary>
-		protected RField r_m_ResetKeyboardControl;
-		public virtual RField Rm_ResetKeyboardControl
+		protected RSystem.RBoolean r_m_ResetKeyboardControl;
+		public virtual RSystem.RBoolean Rm_ResetKeyboardControl
 		{
 			get
 			{
@@ -319,8 +319,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Boolean m_OpenAddComponentMenu
 		/// </summary>
-		protected RField r_m_OpenAddComponentMenu;
-		public virtual RField Rm_OpenAddComponentMenu
+		protected RSystem.RBoolean r_m_OpenAddComponentMenu;
+		public virtual RSystem.RBoolean Rm_OpenAddComponentMenu
 		{
 			get
 			{
@@ -387,8 +387,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Double m_lastRenderedTime
 		/// </summary>
-		protected RField r_m_lastRenderedTime;
-		public virtual RField Rm_lastRenderedTime
+		protected RSystem.RDouble r_m_lastRenderedTime;
+		public virtual RSystem.RDouble Rm_lastRenderedTime
 		{
 			get
 			{
@@ -557,8 +557,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Boolean m_TrackerResetInserted
 		/// </summary>
-		protected RField r_m_TrackerResetInserted;
-		public virtual RField Rm_TrackerResetInserted
+		protected RSystem.RBoolean r_m_TrackerResetInserted;
+		public virtual RSystem.RBoolean Rm_TrackerResetInserted
 		{
 			get
 			{
@@ -574,8 +574,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Boolean m_FirstInitialize
 		/// </summary>
-		protected RField r_m_FirstInitialize;
-		public virtual RField Rm_FirstInitialize
+		protected RSystem.RBoolean r_m_FirstInitialize;
+		public virtual RSystem.RBoolean Rm_FirstInitialize
 		{
 			get
 			{
@@ -591,8 +591,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Single m_PreviousFooterHeight
 		/// </summary>
-		protected RField r_m_PreviousFooterHeight;
-		public virtual RField Rm_PreviousFooterHeight
+		protected RSystem.RSingle r_m_PreviousFooterHeight;
+		public virtual RSystem.RSingle Rm_PreviousFooterHeight
 		{
 			get
 			{
@@ -608,8 +608,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Boolean m_PreviousPreviewExpandedState
 		/// </summary>
-		protected RField r_m_PreviousPreviewExpandedState;
-		public virtual RField Rm_PreviousPreviewExpandedState
+		protected RSystem.RBoolean r_m_PreviousPreviewExpandedState;
+		public virtual RSystem.RBoolean Rm_PreviousPreviewExpandedState
 		{
 			get
 			{
@@ -625,8 +625,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Boolean m_HasPreview
 		/// </summary>
-		protected RField r_m_HasPreview;
-		public virtual RField Rm_HasPreview
+		protected RSystem.RBoolean r_m_HasPreview;
+		public virtual RSystem.RBoolean Rm_HasPreview
 		{
 			get
 			{
@@ -642,8 +642,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Collections.Generic.HashSet`1[System.Int32] m_DrawnSelection
 		/// </summary>
-		protected RSystem.RCollections.RGeneric.RHashSet<RField> r_m_DrawnSelection;
-		public virtual RSystem.RCollections.RGeneric.RHashSet<RField> Rm_DrawnSelection
+		protected RSystem.RCollections.RGeneric.RHashSet<RSystem.RInt32> r_m_DrawnSelection;
+		public virtual RSystem.RCollections.RGeneric.RHashSet<RSystem.RInt32> Rm_DrawnSelection
 		{
 			get
 			{
@@ -744,8 +744,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Single m_FadeoutTime
 		/// </summary>
-		protected RField r_m_FadeoutTime;
-		public virtual RField Rm_FadeoutTime
+		protected RSystem.RSingle r_m_FadeoutTime;
+		public virtual RSystem.RSingle Rm_FadeoutTime
 		{
 			get
 			{
@@ -778,8 +778,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Boolean isLocked
 		/// </summary>
-		protected RProperty r_isLocked;
-		public virtual RProperty RisLocked
+		protected RSystem.RBoolean r_isLocked;
+		public virtual RSystem.RBoolean RisLocked
 		{
 			get
 			{
@@ -795,8 +795,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Boolean isVisible
 		/// </summary>
-		protected RProperty r_isVisible;
-		public virtual RProperty RisVisible
+		protected RSystem.RBoolean r_isVisible;
+		public virtual RSystem.RBoolean RisVisible
 		{
 			get
 			{
@@ -880,8 +880,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Collections.Generic.HashSet`1[System.Int32] editorsWithImportedObjectLabel
 		/// </summary>
-		protected RSystem.RCollections.RGeneric.RHashSet<RProperty> r_editorsWithImportedObjectLabel;
-		public virtual RSystem.RCollections.RGeneric.RHashSet<RProperty> ReditorsWithImportedObjectLabel
+		protected RSystem.RCollections.RGeneric.RHashSet<RSystem.RInt32> r_editorsWithImportedObjectLabel;
+		public virtual RSystem.RCollections.RGeneric.RHashSet<RSystem.RInt32> ReditorsWithImportedObjectLabel
 		{
 			get
 			{
@@ -914,8 +914,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Int32 inspectorElementModeOverride
 		/// </summary>
-		protected RProperty r_inspectorElementModeOverride;
-		public virtual RProperty RinspectorElementModeOverride
+		protected RSystem.RInt32 r_inspectorElementModeOverride;
+		public virtual RSystem.RInt32 RinspectorElementModeOverride
 		{
 			get
 			{
@@ -1067,8 +1067,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Boolean liveReloadPreferenceDefault
 		/// </summary>
-		protected RProperty r_liveReloadPreferenceDefault;
-		public virtual RProperty RliveReloadPreferenceDefault
+		protected RSystem.RBoolean r_liveReloadPreferenceDefault;
+		public virtual RSystem.RBoolean RliveReloadPreferenceDefault
 		{
 			get
 			{
@@ -1084,8 +1084,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Boolean isUIToolkitWindow
 		/// </summary>
-		protected RProperty r_isUIToolkitWindow;
-		public virtual RProperty RisUIToolkitWindow
+		protected RSystem.RBoolean r_isUIToolkitWindow;
+		public virtual RSystem.RBoolean RisUIToolkitWindow
 		{
 			get
 			{
@@ -1135,8 +1135,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Boolean wantsMouseMove
 		/// </summary>
-		protected RProperty r_wantsMouseMove;
-		public virtual RProperty RwantsMouseMove
+		protected RSystem.RBoolean r_wantsMouseMove;
+		public virtual RSystem.RBoolean RwantsMouseMove
 		{
 			get
 			{
@@ -1152,8 +1152,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Boolean wantsMouseEnterLeaveWindow
 		/// </summary>
-		protected RProperty r_wantsMouseEnterLeaveWindow;
-		public virtual RProperty RwantsMouseEnterLeaveWindow
+		protected RSystem.RBoolean r_wantsMouseEnterLeaveWindow;
+		public virtual RSystem.RBoolean RwantsMouseEnterLeaveWindow
 		{
 			get
 			{
@@ -1169,8 +1169,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Boolean wantsLessLayoutEvents
 		/// </summary>
-		protected RProperty r_wantsLessLayoutEvents;
-		public virtual RProperty RwantsLessLayoutEvents
+		protected RSystem.RBoolean r_wantsLessLayoutEvents;
+		public virtual RSystem.RBoolean RwantsLessLayoutEvents
 		{
 			get
 			{
@@ -1186,8 +1186,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Boolean autoRepaintOnSceneChange
 		/// </summary>
-		protected RProperty r_autoRepaintOnSceneChange;
-		public virtual RProperty RautoRepaintOnSceneChange
+		protected RSystem.RBoolean r_autoRepaintOnSceneChange;
+		public virtual RSystem.RBoolean RautoRepaintOnSceneChange
 		{
 			get
 			{
@@ -1203,8 +1203,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Boolean maximized
 		/// </summary>
-		protected RProperty r_maximized;
-		public virtual RProperty Rmaximized
+		protected RSystem.RBoolean r_maximized;
+		public virtual RSystem.RBoolean Rmaximized
 		{
 			get
 			{
@@ -1220,8 +1220,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Boolean hasFocus
 		/// </summary>
-		protected RProperty r_hasFocus;
-		public virtual RProperty RhasFocus
+		protected RSystem.RBoolean r_hasFocus;
+		public virtual RSystem.RBoolean RhasFocus
 		{
 			get
 			{
@@ -1237,8 +1237,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Boolean docked
 		/// </summary>
-		protected RProperty r_docked;
-		public virtual RProperty Rdocked
+		protected RSystem.RBoolean r_docked;
+		public virtual RSystem.RBoolean Rdocked
 		{
 			get
 			{
@@ -1254,8 +1254,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Boolean disableInputEvents
 		/// </summary>
-		protected RProperty r_disableInputEvents;
-		public virtual RProperty RdisableInputEvents
+		protected RSystem.RBoolean r_disableInputEvents;
+		public virtual RSystem.RBoolean RdisableInputEvents
 		{
 			get
 			{
@@ -1271,8 +1271,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Boolean hasUnsavedChanges
 		/// </summary>
-		protected RProperty r_hasUnsavedChanges;
-		public virtual RProperty RhasUnsavedChanges
+		protected RSystem.RBoolean r_hasUnsavedChanges;
+		public virtual RSystem.RBoolean RhasUnsavedChanges
 		{
 			get
 			{
@@ -1288,8 +1288,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.String saveChangesMessage
 		/// </summary>
-		protected RProperty r_saveChangesMessage;
-		public virtual RProperty RsaveChangesMessage
+		protected RSystem.RString r_saveChangesMessage;
+		public virtual RSystem.RString RsaveChangesMessage
 		{
 			get
 			{
@@ -1339,8 +1339,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.String title
 		/// </summary>
-		protected RProperty r_title;
-		public virtual RProperty Rtitle
+		protected RSystem.RString r_title;
+		public virtual RSystem.RString Rtitle
 		{
 			get
 			{
@@ -1373,8 +1373,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Int32 depthBufferBits
 		/// </summary>
-		protected RProperty r_depthBufferBits;
-		public virtual RProperty RdepthBufferBits
+		protected RSystem.RInt32 r_depthBufferBits;
+		public virtual RSystem.RInt32 RdepthBufferBits
 		{
 			get
 			{
@@ -1390,8 +1390,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Int32 antiAliasing
 		/// </summary>
-		protected RProperty r_antiAliasing;
-		public virtual RProperty RantiAliasing
+		protected RSystem.RInt32 r_antiAliasing;
+		public virtual RSystem.RInt32 RantiAliasing
 		{
 			get
 			{
@@ -1407,8 +1407,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Int32 antiAlias
 		/// </summary>
-		protected RProperty r_antiAlias;
-		public virtual RProperty RantiAlias
+		protected RSystem.RInt32 r_antiAlias;
+		public virtual RSystem.RInt32 RantiAlias
 		{
 			get
 			{
@@ -1441,8 +1441,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.String name
 		/// </summary>
-		protected RProperty r_name;
-		public virtual RProperty Rname
+		protected RSystem.RString r_name;
+		public virtual RSystem.RString Rname
 		{
 			get
 			{

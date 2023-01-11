@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 		/// <summary>
 		/// System.Int32 m_inliningDepth
 		/// </summary>
-		protected RField r_m_inliningDepth;
-		public virtual RField Rm_inliningDepth
+		protected RSystem.RInt32 r_m_inliningDepth;
+		public virtual RSystem.RInt32 Rm_inliningDepth
 		{
 			get
 			{
@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading.RTasks
 		/// <summary>
 		/// System.Int32 MAX_UNCHECKED_INLINING_DEPTH
 		/// </summary>
-		protected static RField r_MAX_UNCHECKED_INLINING_DEPTH;
-		public static RField RMAX_UNCHECKED_INLINING_DEPTH
+		protected static RSystem.RInt32 r_MAX_UNCHECKED_INLINING_DEPTH;
+		public static RSystem.RInt32 RMAX_UNCHECKED_INLINING_DEPTH
 		{
 			get
 			{

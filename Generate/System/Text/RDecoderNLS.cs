@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Boolean _mustFlush
 		/// </summary>
-		protected RField r__mustFlush;
-		public virtual RField R_mustFlush
+		protected RSystem.RBoolean r__mustFlush;
+		public virtual RSystem.RBoolean R_mustFlush
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Boolean _throwOnOverflow
 		/// </summary>
-		protected RField r__throwOnOverflow;
-		public virtual RField R_throwOnOverflow
+		protected RSystem.RBoolean r__throwOnOverflow;
+		public virtual RSystem.RBoolean R_throwOnOverflow
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// System.Int32 _bytesUsed
 		/// </summary>
-		protected RField r__bytesUsed;
-		public virtual RField R_bytesUsed
+		protected RSystem.RInt32 r__bytesUsed;
+		public virtual RSystem.RInt32 R_bytesUsed
 		{
 			get
 			{
@@ -115,8 +115,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// Boolean MustFlush
 		/// </summary>
-		protected RProperty r_MustFlush;
-		public virtual RProperty RMustFlush
+		protected RSystem.RBoolean r_MustFlush;
+		public virtual RSystem.RBoolean RMustFlush
 		{
 			get
 			{
@@ -132,8 +132,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// Boolean HasState
 		/// </summary>
-		protected RProperty r_HasState;
-		public virtual RProperty RHasState
+		protected RSystem.RBoolean r_HasState;
+		public virtual RSystem.RBoolean RHasState
 		{
 			get
 			{
@@ -183,8 +183,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
 		/// <summary>
 		/// Boolean InternalHasFallbackBuffer
 		/// </summary>
-		protected RProperty r_InternalHasFallbackBuffer;
-		public virtual RProperty RInternalHasFallbackBuffer
+		protected RSystem.RBoolean r_InternalHasFallbackBuffer;
+		public virtual RSystem.RBoolean RInternalHasFallbackBuffer
 		{
 			get
 			{
@@ -660,7 +660,43 @@ namespace SMFrame.Editor.Refleaction.RSystem.RText
         }
 
 
+        public virtual System.Int32 GetCharCount(RSystem.RReadOnlySpan<RSystem.RByte> @bytes, System.Boolean @flush)
+        {
 
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@bytes.Value, @flush};
+            var ___result = RGetCharCount_ReadOnlySpan_d_Byte_p__Boolean.Invoke(___genericsType, ___parameters);
+
+            return (System.Int32)___result;
+        }
+
+
+        public virtual System.Int32 GetChars(RSystem.RReadOnlySpan<RSystem.RByte> @bytes, RSystem.RSpan<RSystem.RChar> @chars, System.Boolean @flush)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@bytes.Value, @chars.Value, @flush};
+            var ___result = RGetChars_ReadOnlySpan_d_Byte_p__Span_d_Char_p__Boolean.Invoke(___genericsType, ___parameters);
+
+            return (System.Int32)___result;
+        }
+
+
+        public virtual void Convert(RSystem.RReadOnlySpan<RSystem.RByte> @bytes, RSystem.RSpan<RSystem.RChar> @chars, System.Boolean @flush, out System.Int32 @bytesUsed, out System.Int32 @charsUsed, out System.Boolean @completed)
+        {
+			@bytesUsed = default;
+			@charsUsed = default;
+			@completed = default;
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@bytes.Value, @chars.Value, @flush, @bytesUsed, @charsUsed, @completed};
+            var ___result = RConvert_ReadOnlySpan_d_Byte_p__Span_d_Char_p__Boolean_Out_Int32_Out_Int32_Out_Boolean.Invoke(___genericsType, ___parameters);
+			@bytesUsed = (System.Int32)___parameters[3];
+			@charsUsed = (System.Int32)___parameters[4];
+			@completed = (System.Boolean)___parameters[5];
+
+            
+        }
 
 
         public virtual System.Boolean Equals(System.Object @obj)

@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Boolean castShadows
 		/// </summary>
-		protected RProperty r_castShadows;
-		public virtual RProperty RcastShadows
+		protected RSystem.RBoolean r_castShadows;
+		public virtual RSystem.RBoolean RcastShadows
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Boolean motionVectors
 		/// </summary>
-		protected RProperty r_motionVectors;
-		public virtual RProperty RmotionVectors
+		protected RSystem.RBoolean r_motionVectors;
+		public virtual RSystem.RBoolean RmotionVectors
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Boolean useLightProbes
 		/// </summary>
-		protected RProperty r_useLightProbes;
-		public virtual RProperty RuseLightProbes
+		protected RSystem.RBoolean r_useLightProbes;
+		public virtual RSystem.RBoolean RuseLightProbes
 		{
 			get
 			{
@@ -132,8 +132,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Boolean enabled
 		/// </summary>
-		protected RProperty r_enabled;
-		public virtual RProperty Renabled
+		protected RSystem.RBoolean r_enabled;
+		public virtual RSystem.RBoolean Renabled
 		{
 			get
 			{
@@ -149,8 +149,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Boolean isVisible
 		/// </summary>
-		protected RProperty r_isVisible;
-		public virtual RProperty RisVisible
+		protected RSystem.RBoolean r_isVisible;
+		public virtual RSystem.RBoolean RisVisible
 		{
 			get
 			{
@@ -183,8 +183,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Boolean receiveShadows
 		/// </summary>
-		protected RProperty r_receiveShadows;
-		public virtual RProperty RreceiveShadows
+		protected RSystem.RBoolean r_receiveShadows;
+		public virtual RSystem.RBoolean RreceiveShadows
 		{
 			get
 			{
@@ -200,8 +200,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Boolean forceRenderingOff
 		/// </summary>
-		protected RProperty r_forceRenderingOff;
-		public virtual RProperty RforceRenderingOff
+		protected RSystem.RBoolean r_forceRenderingOff;
+		public virtual RSystem.RBoolean RforceRenderingOff
 		{
 			get
 			{
@@ -217,8 +217,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Boolean staticShadowCaster
 		/// </summary>
-		protected RProperty r_staticShadowCaster;
-		public virtual RProperty RstaticShadowCaster
+		protected RSystem.RBoolean r_staticShadowCaster;
+		public virtual RSystem.RBoolean RstaticShadowCaster
 		{
 			get
 			{
@@ -285,8 +285,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UInt32 renderingLayerMask
 		/// </summary>
-		protected RProperty r_renderingLayerMask;
-		public virtual RProperty RrenderingLayerMask
+		protected RSystem.RUInt32 r_renderingLayerMask;
+		public virtual RSystem.RUInt32 RrenderingLayerMask
 		{
 			get
 			{
@@ -302,8 +302,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 rendererPriority
 		/// </summary>
-		protected RProperty r_rendererPriority;
-		public virtual RProperty RrendererPriority
+		protected RSystem.RInt32 r_rendererPriority;
+		public virtual RSystem.RInt32 RrendererPriority
 		{
 			get
 			{
@@ -336,8 +336,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.String sortingLayerName
 		/// </summary>
-		protected RProperty r_sortingLayerName;
-		public virtual RProperty RsortingLayerName
+		protected RSystem.RString r_sortingLayerName;
+		public virtual RSystem.RString RsortingLayerName
 		{
 			get
 			{
@@ -353,8 +353,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 sortingLayerID
 		/// </summary>
-		protected RProperty r_sortingLayerID;
-		public virtual RProperty RsortingLayerID
+		protected RSystem.RInt32 r_sortingLayerID;
+		public virtual RSystem.RInt32 RsortingLayerID
 		{
 			get
 			{
@@ -370,8 +370,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 sortingOrder
 		/// </summary>
-		protected RProperty r_sortingOrder;
-		public virtual RProperty RsortingOrder
+		protected RSystem.RInt32 r_sortingOrder;
+		public virtual RSystem.RInt32 RsortingOrder
 		{
 			get
 			{
@@ -387,8 +387,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 sortingGroupID
 		/// </summary>
-		protected RProperty r_sortingGroupID;
-		public virtual RProperty RsortingGroupID
+		protected RSystem.RInt32 r_sortingGroupID;
+		public virtual RSystem.RInt32 RsortingGroupID
 		{
 			get
 			{
@@ -404,8 +404,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 sortingGroupOrder
 		/// </summary>
-		protected RProperty r_sortingGroupOrder;
-		public virtual RProperty RsortingGroupOrder
+		protected RSystem.RInt32 r_sortingGroupOrder;
+		public virtual RSystem.RInt32 RsortingGroupOrder
 		{
 			get
 			{
@@ -421,8 +421,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Boolean allowOcclusionWhenDynamic
 		/// </summary>
-		protected RProperty r_allowOcclusionWhenDynamic;
-		public virtual RProperty RallowOcclusionWhenDynamic
+		protected RSystem.RBoolean r_allowOcclusionWhenDynamic;
+		public virtual RSystem.RBoolean RallowOcclusionWhenDynamic
 		{
 			get
 			{
@@ -455,8 +455,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 staticBatchIndex
 		/// </summary>
-		protected RProperty r_staticBatchIndex;
-		public virtual RProperty RstaticBatchIndex
+		protected RSystem.RInt32 r_staticBatchIndex;
+		public virtual RSystem.RInt32 RstaticBatchIndex
 		{
 			get
 			{
@@ -472,8 +472,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Boolean isPartOfStaticBatch
 		/// </summary>
-		protected RProperty r_isPartOfStaticBatch;
-		public virtual RProperty RisPartOfStaticBatch
+		protected RSystem.RBoolean r_isPartOfStaticBatch;
+		public virtual RSystem.RBoolean RisPartOfStaticBatch
 		{
 			get
 			{
@@ -557,8 +557,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 lightmapIndex
 		/// </summary>
-		protected RProperty r_lightmapIndex;
-		public virtual RProperty RlightmapIndex
+		protected RSystem.RInt32 r_lightmapIndex;
+		public virtual RSystem.RInt32 RlightmapIndex
 		{
 			get
 			{
@@ -574,8 +574,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 realtimeLightmapIndex
 		/// </summary>
-		protected RProperty r_realtimeLightmapIndex;
-		public virtual RProperty RrealtimeLightmapIndex
+		protected RSystem.RInt32 r_realtimeLightmapIndex;
+		public virtual RSystem.RInt32 RrealtimeLightmapIndex
 		{
 			get
 			{
@@ -727,8 +727,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.String tag
 		/// </summary>
-		protected RProperty r_tag;
-		public virtual RProperty Rtag
+		protected RSystem.RString r_tag;
+		public virtual RSystem.RString Rtag
 		{
 			get
 			{
@@ -965,8 +965,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.String name
 		/// </summary>
-		protected RProperty r_name;
-		public virtual RProperty Rname
+		protected RSystem.RString r_name;
+		public virtual RSystem.RString Rname
 		{
 			get
 			{

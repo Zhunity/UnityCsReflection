@@ -49,8 +49,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
 		/// <summary>
 		/// System.Int32 _version
 		/// </summary>
-		protected RField r__version;
-		public virtual RField R_version
+		protected RSystem.RInt32 r__version;
+		public virtual RSystem.RInt32 R_version
 		{
 			get
 			{
@@ -83,8 +83,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
 		/// <summary>
 		/// System.Int32 _index
 		/// </summary>
-		protected RField r__index;
-		public virtual RField R_index
+		protected RSystem.RInt32 r__index;
+		public virtual RSystem.RInt32 R_index
 		{
 			get
 			{
@@ -100,8 +100,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
 		/// <summary>
 		/// System.String LinkedListName
 		/// </summary>
-		protected static RField r_LinkedListName;
-		public static RField RLinkedListName
+		protected static RSystem.RString r_LinkedListName;
+		public static RSystem.RString RLinkedListName
 		{
 			get
 			{
@@ -117,8 +117,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
 		/// <summary>
 		/// System.String CurrentValueName
 		/// </summary>
-		protected static RField r_CurrentValueName;
-		public static RField RCurrentValueName
+		protected static RSystem.RString r_CurrentValueName;
+		public static RSystem.RString RCurrentValueName
 		{
 			get
 			{
@@ -134,8 +134,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
 		/// <summary>
 		/// System.String VersionName
 		/// </summary>
-		protected static RField r_VersionName;
-		public static RField RVersionName
+		protected static RSystem.RString r_VersionName;
+		public static RSystem.RString RVersionName
 		{
 			get
 			{
@@ -151,8 +151,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RCollections.RGeneric
 		/// <summary>
 		/// System.String IndexName
 		/// </summary>
-		protected static RField r_IndexName;
-		public static RField RIndexName
+		protected static RSystem.RString r_IndexName;
+		public static RSystem.RString RIndexName
 		{
 			get
 			{

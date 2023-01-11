@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 		/// <summary>
 		/// System.Byte[] buffer
 		/// </summary>
-		protected RFieldArray<RField> r_buffer;
-		public virtual RFieldArray<RField> Rbuffer
+		protected RFieldArray<RSystem.RByte> r_buffer;
+		public virtual RFieldArray<RSystem.RByte> Rbuffer
 		{
 			get
 			{
@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 		/// <summary>
 		/// System.Int32 MaxBinaryLength
 		/// </summary>
-		protected static RField r_MaxBinaryLength;
-		public static RField RMaxBinaryLength
+		protected static RSystem.RInt32 r_MaxBinaryLength;
+		public static RSystem.RInt32 RMaxBinaryLength
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 		/// <summary>
 		/// System.Int32 MinBinaryLength
 		/// </summary>
-		protected static RField r_MinBinaryLength;
-		public static RField RMinBinaryLength
+		protected static RSystem.RInt32 r_MinBinaryLength;
+		public static RSystem.RInt32 RMinBinaryLength
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 		/// <summary>
 		/// Int32 BinaryLength
 		/// </summary>
-		protected RProperty r_BinaryLength;
-		public virtual RProperty RBinaryLength
+		protected RSystem.RInt32 r_BinaryLength;
+		public virtual RSystem.RInt32 RBinaryLength
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 		/// <summary>
 		/// System.String Value
 		/// </summary>
-		protected RProperty r_Value;
-		public virtual RProperty RValue
+		protected RSystem.RString r_Value;
+		public virtual RSystem.RString RValue
 		{
 			get
 			{

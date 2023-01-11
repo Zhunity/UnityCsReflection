@@ -15,8 +15,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.IntPtr* m_Ptrs
 		/// </summary>
-		protected RFieldPointer<RField> r_m_Ptrs;
-		public virtual RFieldPointer<RField> Rm_Ptrs
+		protected RFieldPointer<RSystem.RIntPtr> r_m_Ptrs;
+		public virtual RFieldPointer<RSystem.RIntPtr> Rm_Ptrs
 		{
 			get
 			{
@@ -32,8 +32,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Int32 m_Length
 		/// </summary>
-		protected RField r_m_Length;
-		public virtual RField Rm_Length
+		protected RSystem.RInt32 r_m_Length;
+		public virtual RSystem.RInt32 Rm_Length
 		{
 			get
 			{
@@ -49,8 +49,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Int32 m_MinIndex
 		/// </summary>
-		protected RField r_m_MinIndex;
-		public virtual RField Rm_MinIndex
+		protected RSystem.RInt32 r_m_MinIndex;
+		public virtual RSystem.RInt32 Rm_MinIndex
 		{
 			get
 			{
@@ -66,8 +66,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Int32 m_MaxIndex
 		/// </summary>
-		protected RField r_m_MaxIndex;
-		public virtual RField Rm_MaxIndex
+		protected RSystem.RInt32 r_m_MaxIndex;
+		public virtual RSystem.RInt32 Rm_MaxIndex
 		{
 			get
 			{
@@ -100,8 +100,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 Length
 		/// </summary>
-		protected RProperty r_Length;
-		public virtual RProperty RLength
+		protected RSystem.RInt32 r_Length;
+		public virtual RSystem.RInt32 RLength
 		{
 			get
 			{

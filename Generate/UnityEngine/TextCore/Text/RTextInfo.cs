@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Int32 characterCount
 		/// </summary>
-		protected RField r_characterCount;
-		public virtual RField RcharacterCount
+		protected RSystem.RInt32 r_characterCount;
+		public virtual RSystem.RInt32 RcharacterCount
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Int32 spriteCount
 		/// </summary>
-		protected RField r_spriteCount;
-		public virtual RField RspriteCount
+		protected RSystem.RInt32 r_spriteCount;
+		public virtual RSystem.RInt32 RspriteCount
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Int32 spaceCount
 		/// </summary>
-		protected RField r_spaceCount;
-		public virtual RField RspaceCount
+		protected RSystem.RInt32 r_spaceCount;
+		public virtual RSystem.RInt32 RspaceCount
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Int32 wordCount
 		/// </summary>
-		protected RField r_wordCount;
-		public virtual RField RwordCount
+		protected RSystem.RInt32 r_wordCount;
+		public virtual RSystem.RInt32 RwordCount
 		{
 			get
 			{
@@ -115,8 +115,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Int32 linkCount
 		/// </summary>
-		protected RField r_linkCount;
-		public virtual RField RlinkCount
+		protected RSystem.RInt32 r_linkCount;
+		public virtual RSystem.RInt32 RlinkCount
 		{
 			get
 			{
@@ -132,8 +132,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Int32 lineCount
 		/// </summary>
-		protected RField r_lineCount;
-		public virtual RField RlineCount
+		protected RSystem.RInt32 r_lineCount;
+		public virtual RSystem.RInt32 RlineCount
 		{
 			get
 			{
@@ -149,8 +149,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Int32 pageCount
 		/// </summary>
-		protected RField r_pageCount;
-		public virtual RField RpageCount
+		protected RSystem.RInt32 r_pageCount;
+		public virtual RSystem.RInt32 RpageCount
 		{
 			get
 			{
@@ -166,8 +166,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Int32 materialCount
 		/// </summary>
-		protected RField r_materialCount;
-		public virtual RField RmaterialCount
+		protected RSystem.RInt32 r_materialCount;
+		public virtual RSystem.RInt32 RmaterialCount
 		{
 			get
 			{
@@ -285,8 +285,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// System.Boolean isDirty
 		/// </summary>
-		protected RField r_isDirty;
-		public virtual RField RisDirty
+		protected RSystem.RBoolean r_isDirty;
+		public virtual RSystem.RBoolean RisDirty
 		{
 			get
 			{

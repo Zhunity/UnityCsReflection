@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
 		/// <summary>
 		/// System.Boolean _trustrun
 		/// </summary>
-		protected RField r__trustrun;
-		public virtual RField R_trustrun
+		protected RSystem.RBoolean r__trustrun;
+		public virtual RSystem.RBoolean R_trustrun
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
 		/// <summary>
 		/// System.Boolean _persist
 		/// </summary>
-		protected RField r__persist;
-		public virtual RField R_persist
+		protected RSystem.RBoolean r__persist;
+		public virtual RSystem.RBoolean R_persist
 		{
 			get
 			{
@@ -166,8 +166,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
 		/// <summary>
 		/// Boolean IsApplicationTrustedToRun
 		/// </summary>
-		protected RProperty r_IsApplicationTrustedToRun;
-		public virtual RProperty RIsApplicationTrustedToRun
+		protected RSystem.RBoolean r_IsApplicationTrustedToRun;
+		public virtual RSystem.RBoolean RIsApplicationTrustedToRun
 		{
 			get
 			{
@@ -183,8 +183,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPolicy
 		/// <summary>
 		/// Boolean Persist
 		/// </summary>
-		protected RProperty r_Persist;
-		public virtual RProperty RPersist
+		protected RSystem.RBoolean r_Persist;
+		public virtual RSystem.RBoolean RPersist
 		{
 			get
 			{

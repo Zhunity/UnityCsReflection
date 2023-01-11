@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 		/// <summary>
 		/// System.Int32 DEFAULT_PACKING_SIZE
 		/// </summary>
-		protected static RField r_DEFAULT_PACKING_SIZE;
-		public static RField RDEFAULT_PACKING_SIZE
+		protected static RSystem.RInt32 r_DEFAULT_PACKING_SIZE;
+		public static RSystem.RInt32 RDEFAULT_PACKING_SIZE
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 		/// <summary>
 		/// System.Int32 Pack
 		/// </summary>
-		protected RField r_Pack;
-		public virtual RField RPack
+		protected RSystem.RInt32 r_Pack;
+		public virtual RSystem.RInt32 RPack
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 		/// <summary>
 		/// System.Int32 Size
 		/// </summary>
-		protected RField r_Size;
-		public virtual RField RSize
+		protected RSystem.RInt32 r_Size;
+		public virtual RSystem.RInt32 RSize
 		{
 			get
 			{

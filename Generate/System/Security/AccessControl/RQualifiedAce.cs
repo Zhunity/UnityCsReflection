@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Byte[] opaque
 		/// </summary>
-		protected RFieldArray<RField> r_opaque;
-		public virtual RFieldArray<RField> Ropaque
+		protected RFieldArray<RSystem.RByte> r_opaque;
+		public virtual RFieldArray<RSystem.RByte> Ropaque
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// Boolean IsCallback
 		/// </summary>
-		protected RProperty r_IsCallback;
-		public virtual RProperty RIsCallback
+		protected RSystem.RBoolean r_IsCallback;
+		public virtual RSystem.RBoolean RIsCallback
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// Int32 OpaqueLength
 		/// </summary>
-		protected RProperty r_OpaqueLength;
-		public virtual RProperty ROpaqueLength
+		protected RSystem.RInt32 r_OpaqueLength;
+		public virtual RSystem.RInt32 ROpaqueLength
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// Int32 AccessMask
 		/// </summary>
-		protected RProperty r_AccessMask;
-		public virtual RProperty RAccessMask
+		protected RSystem.RInt32 r_AccessMask;
+		public virtual RSystem.RInt32 RAccessMask
 		{
 			get
 			{
@@ -166,8 +166,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// Int32 BinaryLength
 		/// </summary>
-		protected RProperty r_BinaryLength;
-		public virtual RProperty RBinaryLength
+		protected RSystem.RInt32 r_BinaryLength;
+		public virtual RSystem.RInt32 RBinaryLength
 		{
 			get
 			{
@@ -200,8 +200,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// Boolean IsInherited
 		/// </summary>
-		protected RProperty r_IsInherited;
-		public virtual RProperty RIsInherited
+		protected RSystem.RBoolean r_IsInherited;
+		public virtual RSystem.RBoolean RIsInherited
 		{
 			get
 			{

@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// System.Byte resourcemgr_control
 		/// </summary>
-		protected RField r_resourcemgr_control;
-		public virtual RField Rresourcemgr_control
+		protected RSystem.RByte r_resourcemgr_control;
+		public virtual RSystem.RByte Rresourcemgr_control
 		{
 			get
 			{
@@ -183,8 +183,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// Byte ResourceManagerControl
 		/// </summary>
-		protected RProperty r_ResourceManagerControl;
-		public virtual RProperty RResourceManagerControl
+		protected RSystem.RByte r_ResourceManagerControl;
+		public virtual RSystem.RByte RResourceManagerControl
 		{
 			get
 			{
@@ -251,8 +251,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// Byte InternalReservedField
 		/// </summary>
-		protected RProperty r_InternalReservedField;
-		public virtual RProperty RInternalReservedField
+		protected RSystem.RByte r_InternalReservedField;
+		public virtual RSystem.RByte RInternalReservedField
 		{
 			get
 			{
@@ -268,8 +268,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// Int32 BinaryLength
 		/// </summary>
-		protected RProperty r_BinaryLength;
-		public virtual RProperty RBinaryLength
+		protected RSystem.RInt32 r_BinaryLength;
+		public virtual RSystem.RInt32 RBinaryLength
 		{
 			get
 			{
@@ -285,8 +285,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 		/// <summary>
 		/// Boolean DaclIsUnmodifiedAefa
 		/// </summary>
-		protected RProperty r_DaclIsUnmodifiedAefa;
-		public virtual RProperty RDaclIsUnmodifiedAefa
+		protected RSystem.RBoolean r_DaclIsUnmodifiedAefa;
+		public virtual RSystem.RBoolean RDaclIsUnmodifiedAefa
 		{
 			get
 			{

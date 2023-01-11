@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 		/// <summary>
 		/// System.Int32 DefaultCopyBufferSize
 		/// </summary>
-		protected static RField r_DefaultCopyBufferSize;
-		public static RField RDefaultCopyBufferSize
+		protected static RSystem.RInt32 r_DefaultCopyBufferSize;
+		public static RSystem.RInt32 RDefaultCopyBufferSize
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 		/// <summary>
 		/// Boolean CanRead
 		/// </summary>
-		protected RProperty r_CanRead;
-		public virtual RProperty RCanRead
+		protected RSystem.RBoolean r_CanRead;
+		public virtual RSystem.RBoolean RCanRead
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 		/// <summary>
 		/// Boolean CanSeek
 		/// </summary>
-		protected RProperty r_CanSeek;
-		public virtual RProperty RCanSeek
+		protected RSystem.RBoolean r_CanSeek;
+		public virtual RSystem.RBoolean RCanSeek
 		{
 			get
 			{
@@ -115,8 +115,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 		/// <summary>
 		/// Boolean CanTimeout
 		/// </summary>
-		protected RProperty r_CanTimeout;
-		public virtual RProperty RCanTimeout
+		protected RSystem.RBoolean r_CanTimeout;
+		public virtual RSystem.RBoolean RCanTimeout
 		{
 			get
 			{
@@ -132,8 +132,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 		/// <summary>
 		/// Boolean CanWrite
 		/// </summary>
-		protected RProperty r_CanWrite;
-		public virtual RProperty RCanWrite
+		protected RSystem.RBoolean r_CanWrite;
+		public virtual RSystem.RBoolean RCanWrite
 		{
 			get
 			{
@@ -149,8 +149,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 		/// <summary>
 		/// Int64 Length
 		/// </summary>
-		protected RProperty r_Length;
-		public virtual RProperty RLength
+		protected RSystem.RInt64 r_Length;
+		public virtual RSystem.RInt64 RLength
 		{
 			get
 			{
@@ -166,8 +166,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 		/// <summary>
 		/// Int64 Position
 		/// </summary>
-		protected RProperty r_Position;
-		public virtual RProperty RPosition
+		protected RSystem.RInt64 r_Position;
+		public virtual RSystem.RInt64 RPosition
 		{
 			get
 			{
@@ -183,8 +183,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 		/// <summary>
 		/// Int32 ReadTimeout
 		/// </summary>
-		protected RProperty r_ReadTimeout;
-		public virtual RProperty RReadTimeout
+		protected RSystem.RInt32 r_ReadTimeout;
+		public virtual RSystem.RInt32 RReadTimeout
 		{
 			get
 			{
@@ -200,8 +200,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
 		/// <summary>
 		/// Int32 WriteTimeout
 		/// </summary>
-		protected RProperty r_WriteTimeout;
-		public virtual RProperty RWriteTimeout
+		protected RSystem.RInt32 r_WriteTimeout;
+		public virtual RSystem.RInt32 RWriteTimeout
 		{
 			get
 			{
@@ -1727,6 +1727,16 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
         }
 
 
+        public virtual System.Int32 Read(RSystem.RSpan<RSystem.RByte> @buffer)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@buffer.Value};
+            var ___result = RRead_Span_d_Byte_p_.Invoke(___genericsType, ___parameters);
+
+            return (System.Int32)___result;
+        }
+
 
         public virtual System.Int32 ReadByte()
         {
@@ -1749,6 +1759,16 @@ namespace SMFrame.Editor.Refleaction.RSystem.RIO
             
         }
 
+
+        public virtual void Write(RSystem.RReadOnlySpan<RSystem.RByte> @buffer)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@buffer.Value};
+            var ___result = RWrite_ReadOnlySpan_d_Byte_p_.Invoke(___genericsType, ___parameters);
+
+            
+        }
 
 
         public virtual void WriteByte(System.Byte @value)

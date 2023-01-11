@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 		/// <summary>
 		/// System.UInt32 m_BaseGlyphID
 		/// </summary>
-		protected RField r_m_BaseGlyphID;
-		public virtual RField Rm_BaseGlyphID
+		protected RSystem.RUInt32 r_m_BaseGlyphID;
+		public virtual RSystem.RUInt32 Rm_BaseGlyphID
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 		/// <summary>
 		/// System.UInt32 m_MarkGlyphID
 		/// </summary>
-		protected RField r_m_MarkGlyphID;
-		public virtual RField Rm_MarkGlyphID
+		protected RSystem.RUInt32 r_m_MarkGlyphID;
+		public virtual RSystem.RUInt32 Rm_MarkGlyphID
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 		/// <summary>
 		/// UInt32 baseGlyphID
 		/// </summary>
-		protected RProperty r_baseGlyphID;
-		public virtual RProperty RbaseGlyphID
+		protected RSystem.RUInt32 r_baseGlyphID;
+		public virtual RSystem.RUInt32 RbaseGlyphID
 		{
 			get
 			{
@@ -115,8 +115,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 		/// <summary>
 		/// UInt32 markGlyphID
 		/// </summary>
-		protected RProperty r_markGlyphID;
-		public virtual RProperty RmarkGlyphID
+		protected RSystem.RUInt32 r_markGlyphID;
+		public virtual RSystem.RUInt32 RmarkGlyphID
 		{
 			get
 			{

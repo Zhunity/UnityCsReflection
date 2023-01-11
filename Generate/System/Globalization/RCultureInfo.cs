@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Boolean m_isReadOnly
 		/// </summary>
-		protected RField r_m_isReadOnly;
-		public virtual RField Rm_isReadOnly
+		protected RSystem.RBoolean r_m_isReadOnly;
+		public virtual RSystem.RBoolean Rm_isReadOnly
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 cultureID
 		/// </summary>
-		protected RField r_cultureID;
-		public virtual RField RcultureID
+		protected RSystem.RInt32 r_cultureID;
+		public virtual RSystem.RInt32 RcultureID
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 parent_lcid
 		/// </summary>
-		protected RField r_parent_lcid;
-		public virtual RField Rparent_lcid
+		protected RSystem.RInt32 r_parent_lcid;
+		public virtual RSystem.RInt32 Rparent_lcid
 		{
 			get
 			{
@@ -115,8 +115,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 datetime_index
 		/// </summary>
-		protected RField r_datetime_index;
-		public virtual RField Rdatetime_index
+		protected RSystem.RInt32 r_datetime_index;
+		public virtual RSystem.RInt32 Rdatetime_index
 		{
 			get
 			{
@@ -132,8 +132,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 number_index
 		/// </summary>
-		protected RField r_number_index;
-		public virtual RField Rnumber_index
+		protected RSystem.RInt32 r_number_index;
+		public virtual RSystem.RInt32 Rnumber_index
 		{
 			get
 			{
@@ -149,8 +149,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 default_calendar_type
 		/// </summary>
-		protected RField r_default_calendar_type;
-		public virtual RField Rdefault_calendar_type
+		protected RSystem.RInt32 r_default_calendar_type;
+		public virtual RSystem.RInt32 Rdefault_calendar_type
 		{
 			get
 			{
@@ -166,8 +166,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Boolean m_useUserOverride
 		/// </summary>
-		protected RField r_m_useUserOverride;
-		public virtual RField Rm_useUserOverride
+		protected RSystem.RBoolean r_m_useUserOverride;
+		public virtual RSystem.RBoolean Rm_useUserOverride
 		{
 			get
 			{
@@ -234,8 +234,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String m_name
 		/// </summary>
-		protected RField r_m_name;
-		public virtual RField Rm_name
+		protected RSystem.RString r_m_name;
+		public virtual RSystem.RString Rm_name
 		{
 			get
 			{
@@ -251,8 +251,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String englishname
 		/// </summary>
-		protected RField r_englishname;
-		public virtual RField Renglishname
+		protected RSystem.RString r_englishname;
+		public virtual RSystem.RString Renglishname
 		{
 			get
 			{
@@ -268,8 +268,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String nativename
 		/// </summary>
-		protected RField r_nativename;
-		public virtual RField Rnativename
+		protected RSystem.RString r_nativename;
+		public virtual RSystem.RString Rnativename
 		{
 			get
 			{
@@ -285,8 +285,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String iso3lang
 		/// </summary>
-		protected RField r_iso3lang;
-		public virtual RField Riso3lang
+		protected RSystem.RString r_iso3lang;
+		public virtual RSystem.RString Riso3lang
 		{
 			get
 			{
@@ -302,8 +302,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String iso2lang
 		/// </summary>
-		protected RField r_iso2lang;
-		public virtual RField Riso2lang
+		protected RSystem.RString r_iso2lang;
+		public virtual RSystem.RString Riso2lang
 		{
 			get
 			{
@@ -319,8 +319,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String win3lang
 		/// </summary>
-		protected RField r_win3lang;
-		public virtual RField Rwin3lang
+		protected RSystem.RString r_win3lang;
+		public virtual RSystem.RString Rwin3lang
 		{
 			get
 			{
@@ -336,8 +336,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String territory
 		/// </summary>
-		protected RField r_territory;
-		public virtual RField Rterritory
+		protected RSystem.RString r_territory;
+		public virtual RSystem.RString Rterritory
 		{
 			get
 			{
@@ -353,8 +353,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String[] native_calendar_names
 		/// </summary>
-		protected RFieldArray<RField> r_native_calendar_names;
-		public virtual RFieldArray<RField> Rnative_calendar_names
+		protected RFieldArray<RSystem.RString> r_native_calendar_names;
+		public virtual RFieldArray<RSystem.RString> Rnative_calendar_names
 		{
 			get
 			{
@@ -404,8 +404,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 m_dataItem
 		/// </summary>
-		protected RField r_m_dataItem;
-		public virtual RField Rm_dataItem
+		protected RSystem.RInt32 r_m_dataItem;
+		public virtual RSystem.RInt32 Rm_dataItem
 		{
 			get
 			{
@@ -455,8 +455,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Boolean constructed
 		/// </summary>
-		protected RField r_constructed;
-		public virtual RField Rconstructed
+		protected RSystem.RBoolean r_constructed;
+		public virtual RSystem.RBoolean Rconstructed
 		{
 			get
 			{
@@ -472,8 +472,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Byte[] cached_serialized_form
 		/// </summary>
-		protected RFieldArray<RField> r_cached_serialized_form;
-		public virtual RFieldArray<RField> Rcached_serialized_form
+		protected RFieldArray<RSystem.RByte> r_cached_serialized_form;
+		public virtual RFieldArray<RSystem.RByte> Rcached_serialized_form
 		{
 			get
 			{
@@ -506,8 +506,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Boolean m_isInherited
 		/// </summary>
-		protected RField r_m_isInherited;
-		public virtual RField Rm_isInherited
+		protected RSystem.RBoolean r_m_isInherited;
+		public virtual RSystem.RBoolean Rm_isInherited
 		{
 			get
 			{
@@ -523,8 +523,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 InvariantCultureId
 		/// </summary>
-		protected static RField r_InvariantCultureId;
-		public static RField RInvariantCultureId
+		protected static RSystem.RInt32 r_InvariantCultureId;
+		public static RSystem.RInt32 RInvariantCultureId
 		{
 			get
 			{
@@ -540,8 +540,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 CalendarTypeBits
 		/// </summary>
-		protected static RField r_CalendarTypeBits;
-		public static RField RCalendarTypeBits
+		protected static RSystem.RInt32 r_CalendarTypeBits;
+		public static RSystem.RInt32 RCalendarTypeBits
 		{
 			get
 			{
@@ -557,8 +557,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 LOCALE_INVARIANT
 		/// </summary>
-		protected static RField r_LOCALE_INVARIANT;
-		public static RField RLOCALE_INVARIANT
+		protected static RSystem.RInt32 r_LOCALE_INVARIANT;
+		public static RSystem.RInt32 RLOCALE_INVARIANT
 		{
 			get
 			{
@@ -574,8 +574,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String MSG_READONLY
 		/// </summary>
-		protected static RField r_MSG_READONLY;
-		public static RField RMSG_READONLY
+		protected static RSystem.RString r_MSG_READONLY;
+		public static RSystem.RString RMSG_READONLY
 		{
 			get
 			{
@@ -625,8 +625,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Collections.Generic.Dictionary`2[System.Int32,System.Globalization.CultureInfo] shared_by_number
 		/// </summary>
-		protected static RSystem.RCollections.RGeneric.RDictionary<RField, RSystem.RGlobalization.RCultureInfo> r_shared_by_number;
-		public static RSystem.RCollections.RGeneric.RDictionary<RField, RSystem.RGlobalization.RCultureInfo> Rshared_by_number
+		protected static RSystem.RCollections.RGeneric.RDictionary<RSystem.RInt32, RSystem.RGlobalization.RCultureInfo> r_shared_by_number;
+		public static RSystem.RCollections.RGeneric.RDictionary<RSystem.RInt32, RSystem.RGlobalization.RCultureInfo> Rshared_by_number
 		{
 			get
 			{
@@ -642,8 +642,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Collections.Generic.Dictionary`2[System.String,System.Globalization.CultureInfo] shared_by_name
 		/// </summary>
-		protected static RSystem.RCollections.RGeneric.RDictionary<RField, RSystem.RGlobalization.RCultureInfo> r_shared_by_name;
-		public static RSystem.RCollections.RGeneric.RDictionary<RField, RSystem.RGlobalization.RCultureInfo> Rshared_by_name
+		protected static RSystem.RCollections.RGeneric.RDictionary<RSystem.RString, RSystem.RGlobalization.RCultureInfo> r_shared_by_name;
+		public static RSystem.RCollections.RGeneric.RDictionary<RSystem.RString, RSystem.RGlobalization.RCultureInfo> Rshared_by_name
 		{
 			get
 			{
@@ -676,8 +676,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Boolean IsTaiwanSku
 		/// </summary>
-		protected static RField r_IsTaiwanSku;
-		public static RField RIsTaiwanSku
+		protected static RSystem.RBoolean r_IsTaiwanSku;
+		public static RSystem.RBoolean RIsTaiwanSku
 		{
 			get
 			{
@@ -710,8 +710,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// Boolean _isInherited
 		/// </summary>
-		protected RProperty r__isInherited;
-		public virtual RProperty R_isInherited
+		protected RSystem.RBoolean r__isInherited;
+		public virtual RSystem.RBoolean R_isInherited
 		{
 			get
 			{
@@ -778,8 +778,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String Territory
 		/// </summary>
-		protected RProperty r_Territory;
-		public virtual RProperty RTerritory
+		protected RSystem.RString r_Territory;
+		public virtual RSystem.RString RTerritory
 		{
 			get
 			{
@@ -795,8 +795,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String _name
 		/// </summary>
-		protected RProperty r__name;
-		public virtual RProperty R_name
+		protected RSystem.RString r__name;
+		public virtual RSystem.RString R_name
 		{
 			get
 			{
@@ -829,8 +829,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String IetfLanguageTag
 		/// </summary>
-		protected RProperty r_IetfLanguageTag;
-		public virtual RProperty RIetfLanguageTag
+		protected RSystem.RString r_IetfLanguageTag;
+		public virtual RSystem.RString RIetfLanguageTag
 		{
 			get
 			{
@@ -846,8 +846,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// Int32 KeyboardLayoutId
 		/// </summary>
-		protected RProperty r_KeyboardLayoutId;
-		public virtual RProperty RKeyboardLayoutId
+		protected RSystem.RInt32 r_KeyboardLayoutId;
+		public virtual RSystem.RInt32 RKeyboardLayoutId
 		{
 			get
 			{
@@ -863,8 +863,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// Int32 LCID
 		/// </summary>
-		protected RProperty r_LCID;
-		public virtual RProperty RLCID
+		protected RSystem.RInt32 r_LCID;
+		public virtual RSystem.RInt32 RLCID
 		{
 			get
 			{
@@ -880,8 +880,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String Name
 		/// </summary>
-		protected RProperty r_Name;
-		public virtual RProperty RName
+		protected RSystem.RString r_Name;
+		public virtual RSystem.RString RName
 		{
 			get
 			{
@@ -897,8 +897,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String NativeName
 		/// </summary>
-		protected RProperty r_NativeName;
-		public virtual RProperty RNativeName
+		protected RSystem.RString r_NativeName;
+		public virtual RSystem.RString RNativeName
 		{
 			get
 			{
@@ -914,8 +914,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String NativeCalendarName
 		/// </summary>
-		protected RProperty r_NativeCalendarName;
-		public virtual RProperty RNativeCalendarName
+		protected RSystem.RString r_NativeCalendarName;
+		public virtual RSystem.RString RNativeCalendarName
 		{
 			get
 			{
@@ -999,8 +999,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String ThreeLetterISOLanguageName
 		/// </summary>
-		protected RProperty r_ThreeLetterISOLanguageName;
-		public virtual RProperty RThreeLetterISOLanguageName
+		protected RSystem.RString r_ThreeLetterISOLanguageName;
+		public virtual RSystem.RString RThreeLetterISOLanguageName
 		{
 			get
 			{
@@ -1016,8 +1016,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String ThreeLetterWindowsLanguageName
 		/// </summary>
-		protected RProperty r_ThreeLetterWindowsLanguageName;
-		public virtual RProperty RThreeLetterWindowsLanguageName
+		protected RSystem.RString r_ThreeLetterWindowsLanguageName;
+		public virtual RSystem.RString RThreeLetterWindowsLanguageName
 		{
 			get
 			{
@@ -1033,8 +1033,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String TwoLetterISOLanguageName
 		/// </summary>
-		protected RProperty r_TwoLetterISOLanguageName;
-		public virtual RProperty RTwoLetterISOLanguageName
+		protected RSystem.RString r_TwoLetterISOLanguageName;
+		public virtual RSystem.RString RTwoLetterISOLanguageName
 		{
 			get
 			{
@@ -1050,8 +1050,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// Boolean UseUserOverride
 		/// </summary>
-		protected RProperty r_UseUserOverride;
-		public virtual RProperty RUseUserOverride
+		protected RSystem.RBoolean r_UseUserOverride;
+		public virtual RSystem.RBoolean RUseUserOverride
 		{
 			get
 			{
@@ -1084,8 +1084,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// Boolean IsNeutralCulture
 		/// </summary>
-		protected RProperty r_IsNeutralCulture;
-		public virtual RProperty RIsNeutralCulture
+		protected RSystem.RBoolean r_IsNeutralCulture;
+		public virtual RSystem.RBoolean RIsNeutralCulture
 		{
 			get
 			{
@@ -1135,8 +1135,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String DisplayName
 		/// </summary>
-		protected RProperty r_DisplayName;
-		public virtual RProperty RDisplayName
+		protected RSystem.RString r_DisplayName;
+		public virtual RSystem.RString RDisplayName
 		{
 			get
 			{
@@ -1152,8 +1152,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String EnglishName
 		/// </summary>
-		protected RProperty r_EnglishName;
-		public virtual RProperty REnglishName
+		protected RSystem.RString r_EnglishName;
+		public virtual RSystem.RString REnglishName
 		{
 			get
 			{
@@ -1186,8 +1186,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// Boolean IsReadOnly
 		/// </summary>
-		protected RProperty r_IsReadOnly;
-		public virtual RProperty RIsReadOnly
+		protected RSystem.RBoolean r_IsReadOnly;
+		public virtual RSystem.RBoolean RIsReadOnly
 		{
 			get
 			{
@@ -1203,8 +1203,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// Int32 CalendarType
 		/// </summary>
-		protected RProperty r_CalendarType;
-		public virtual RProperty RCalendarType
+		protected RSystem.RInt32 r_CalendarType;
+		public virtual RSystem.RInt32 RCalendarType
 		{
 			get
 			{
@@ -1254,8 +1254,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.String SortName
 		/// </summary>
-		protected RProperty r_SortName;
-		public virtual RProperty RSortName
+		protected RSystem.RString r_SortName;
+		public virtual RSystem.RString RSortName
 		{
 			get
 			{
@@ -1305,8 +1305,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// Boolean HasInvariantCultureName
 		/// </summary>
-		protected RProperty r_HasInvariantCultureName;
-		public virtual RProperty RHasInvariantCultureName
+		protected RSystem.RBoolean r_HasInvariantCultureName;
+		public virtual RSystem.RBoolean RHasInvariantCultureName
 		{
 			get
 			{

@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 		/// <summary>
 		/// System.String Name
 		/// </summary>
-		protected RProperty r_Name;
-		public virtual RProperty RName
+		protected RSystem.RString r_Name;
+		public virtual RSystem.RString RName
 		{
 			get
 			{
@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 		/// <summary>
 		/// System.String AuthenticationType
 		/// </summary>
-		protected RProperty r_AuthenticationType;
-		public virtual RProperty RAuthenticationType
+		protected RSystem.RString r_AuthenticationType;
+		public virtual RSystem.RString RAuthenticationType
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 		/// <summary>
 		/// Boolean IsAuthenticated
 		/// </summary>
-		protected RProperty r_IsAuthenticated;
-		public virtual RProperty RIsAuthenticated
+		protected RSystem.RBoolean r_IsAuthenticated;
+		public virtual RSystem.RBoolean RIsAuthenticated
 		{
 			get
 			{

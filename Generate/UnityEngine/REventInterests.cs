@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Boolean <wantsMouseMove>k__BackingField
 		/// </summary>
-		protected RField r___0__wantsMouseMove__1__k__BackingField;
-		public virtual RField R__0__wantsMouseMove__1__k__BackingField
+		protected RSystem.RBoolean r___0__wantsMouseMove__1__k__BackingField;
+		public virtual RSystem.RBoolean R__0__wantsMouseMove__1__k__BackingField
 		{
 			get
 			{
@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Boolean <wantsMouseEnterLeaveWindow>k__BackingField
 		/// </summary>
-		protected RField r___0__wantsMouseEnterLeaveWindow__1__k__BackingField;
-		public virtual RField R__0__wantsMouseEnterLeaveWindow__1__k__BackingField
+		protected RSystem.RBoolean r___0__wantsMouseEnterLeaveWindow__1__k__BackingField;
+		public virtual RSystem.RBoolean R__0__wantsMouseEnterLeaveWindow__1__k__BackingField
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Boolean <wantsLessLayoutEvents>k__BackingField
 		/// </summary>
-		protected RField r___0__wantsLessLayoutEvents__1__k__BackingField;
-		public virtual RField R__0__wantsLessLayoutEvents__1__k__BackingField
+		protected RSystem.RBoolean r___0__wantsLessLayoutEvents__1__k__BackingField;
+		public virtual RSystem.RBoolean R__0__wantsLessLayoutEvents__1__k__BackingField
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Boolean wantsMouseMove
 		/// </summary>
-		protected RProperty r_wantsMouseMove;
-		public virtual RProperty RwantsMouseMove
+		protected RSystem.RBoolean r_wantsMouseMove;
+		public virtual RSystem.RBoolean RwantsMouseMove
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Boolean wantsMouseEnterLeaveWindow
 		/// </summary>
-		protected RProperty r_wantsMouseEnterLeaveWindow;
-		public virtual RProperty RwantsMouseEnterLeaveWindow
+		protected RSystem.RBoolean r_wantsMouseEnterLeaveWindow;
+		public virtual RSystem.RBoolean RwantsMouseEnterLeaveWindow
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Boolean wantsLessLayoutEvents
 		/// </summary>
-		protected RProperty r_wantsLessLayoutEvents;
-		public virtual RProperty RwantsLessLayoutEvents
+		protected RSystem.RBoolean r_wantsLessLayoutEvents;
+		public virtual RSystem.RBoolean RwantsLessLayoutEvents
 		{
 			get
 			{

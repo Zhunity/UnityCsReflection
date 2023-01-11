@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
 		/// <summary>
 		/// System.IntPtr _ygNode
 		/// </summary>
-		protected RField r__ygNode;
-		public virtual RField R_ygNode
+		protected RSystem.RIntPtr r__ygNode;
+		public virtual RSystem.RIntPtr R_ygNode
 		{
 			get
 			{
@@ -149,8 +149,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
 		/// <summary>
 		/// Boolean IsDirty
 		/// </summary>
-		protected RProperty r_IsDirty;
-		public virtual RProperty RIsDirty
+		protected RSystem.RBoolean r_IsDirty;
+		public virtual RSystem.RBoolean RIsDirty
 		{
 			get
 			{
@@ -166,8 +166,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
 		/// <summary>
 		/// Boolean HasNewLayout
 		/// </summary>
-		protected RProperty r_HasNewLayout;
-		public virtual RProperty RHasNewLayout
+		protected RSystem.RBoolean r_HasNewLayout;
+		public virtual RSystem.RBoolean RHasNewLayout
 		{
 			get
 			{
@@ -200,8 +200,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
 		/// <summary>
 		/// Boolean IsMeasureDefined
 		/// </summary>
-		protected RProperty r_IsMeasureDefined;
-		public virtual RProperty RIsMeasureDefined
+		protected RSystem.RBoolean r_IsMeasureDefined;
+		public virtual RSystem.RBoolean RIsMeasureDefined
 		{
 			get
 			{
@@ -217,8 +217,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
 		/// <summary>
 		/// Boolean IsBaselineDefined
 		/// </summary>
-		protected RProperty r_IsBaselineDefined;
-		public virtual RProperty RIsBaselineDefined
+		protected RSystem.RBoolean r_IsBaselineDefined;
+		public virtual RSystem.RBoolean RIsBaselineDefined
 		{
 			get
 			{
@@ -387,8 +387,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
 		/// <summary>
 		/// Single Flex
 		/// </summary>
-		protected RProperty r_Flex;
-		public virtual RProperty RFlex
+		protected RSystem.RSingle r_Flex;
+		public virtual RSystem.RSingle RFlex
 		{
 			get
 			{
@@ -404,8 +404,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
 		/// <summary>
 		/// Single FlexGrow
 		/// </summary>
-		protected RProperty r_FlexGrow;
-		public virtual RProperty RFlexGrow
+		protected RSystem.RSingle r_FlexGrow;
+		public virtual RSystem.RSingle RFlexGrow
 		{
 			get
 			{
@@ -421,8 +421,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
 		/// <summary>
 		/// Single FlexShrink
 		/// </summary>
-		protected RProperty r_FlexShrink;
-		public virtual RProperty RFlexShrink
+		protected RSystem.RSingle r_FlexShrink;
+		public virtual RSystem.RSingle RFlexShrink
 		{
 			get
 			{
@@ -557,8 +557,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
 		/// <summary>
 		/// Single AspectRatio
 		/// </summary>
-		protected RProperty r_AspectRatio;
-		public virtual RProperty RAspectRatio
+		protected RSystem.RSingle r_AspectRatio;
+		public virtual RSystem.RSingle RAspectRatio
 		{
 			get
 			{
@@ -574,8 +574,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
 		/// <summary>
 		/// Single LayoutX
 		/// </summary>
-		protected RProperty r_LayoutX;
-		public virtual RProperty RLayoutX
+		protected RSystem.RSingle r_LayoutX;
+		public virtual RSystem.RSingle RLayoutX
 		{
 			get
 			{
@@ -591,8 +591,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
 		/// <summary>
 		/// Single LayoutY
 		/// </summary>
-		protected RProperty r_LayoutY;
-		public virtual RProperty RLayoutY
+		protected RSystem.RSingle r_LayoutY;
+		public virtual RSystem.RSingle RLayoutY
 		{
 			get
 			{
@@ -608,8 +608,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
 		/// <summary>
 		/// Single LayoutRight
 		/// </summary>
-		protected RProperty r_LayoutRight;
-		public virtual RProperty RLayoutRight
+		protected RSystem.RSingle r_LayoutRight;
+		public virtual RSystem.RSingle RLayoutRight
 		{
 			get
 			{
@@ -625,8 +625,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
 		/// <summary>
 		/// Single LayoutBottom
 		/// </summary>
-		protected RProperty r_LayoutBottom;
-		public virtual RProperty RLayoutBottom
+		protected RSystem.RSingle r_LayoutBottom;
+		public virtual RSystem.RSingle RLayoutBottom
 		{
 			get
 			{
@@ -642,8 +642,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
 		/// <summary>
 		/// Single LayoutWidth
 		/// </summary>
-		protected RProperty r_LayoutWidth;
-		public virtual RProperty RLayoutWidth
+		protected RSystem.RSingle r_LayoutWidth;
+		public virtual RSystem.RSingle RLayoutWidth
 		{
 			get
 			{
@@ -659,8 +659,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
 		/// <summary>
 		/// Single LayoutHeight
 		/// </summary>
-		protected RProperty r_LayoutHeight;
-		public virtual RProperty RLayoutHeight
+		protected RSystem.RSingle r_LayoutHeight;
+		public virtual RSystem.RSingle RLayoutHeight
 		{
 			get
 			{
@@ -744,8 +744,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
 		/// <summary>
 		/// Int32 Count
 		/// </summary>
-		protected RProperty r_Count;
-		public virtual RProperty RCount
+		protected RSystem.RInt32 r_Count;
+		public virtual RSystem.RInt32 RCount
 		{
 			get
 			{
@@ -1169,8 +1169,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
 		/// <summary>
 		/// Single BorderLeftWidth
 		/// </summary>
-		protected RProperty r_BorderLeftWidth;
-		public virtual RProperty RBorderLeftWidth
+		protected RSystem.RSingle r_BorderLeftWidth;
+		public virtual RSystem.RSingle RBorderLeftWidth
 		{
 			get
 			{
@@ -1186,8 +1186,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
 		/// <summary>
 		/// Single BorderTopWidth
 		/// </summary>
-		protected RProperty r_BorderTopWidth;
-		public virtual RProperty RBorderTopWidth
+		protected RSystem.RSingle r_BorderTopWidth;
+		public virtual RSystem.RSingle RBorderTopWidth
 		{
 			get
 			{
@@ -1203,8 +1203,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
 		/// <summary>
 		/// Single BorderRightWidth
 		/// </summary>
-		protected RProperty r_BorderRightWidth;
-		public virtual RProperty RBorderRightWidth
+		protected RSystem.RSingle r_BorderRightWidth;
+		public virtual RSystem.RSingle RBorderRightWidth
 		{
 			get
 			{
@@ -1220,8 +1220,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
 		/// <summary>
 		/// Single BorderBottomWidth
 		/// </summary>
-		protected RProperty r_BorderBottomWidth;
-		public virtual RProperty RBorderBottomWidth
+		protected RSystem.RSingle r_BorderBottomWidth;
+		public virtual RSystem.RSingle RBorderBottomWidth
 		{
 			get
 			{
@@ -1237,8 +1237,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
 		/// <summary>
 		/// Single BorderStartWidth
 		/// </summary>
-		protected RProperty r_BorderStartWidth;
-		public virtual RProperty RBorderStartWidth
+		protected RSystem.RSingle r_BorderStartWidth;
+		public virtual RSystem.RSingle RBorderStartWidth
 		{
 			get
 			{
@@ -1254,8 +1254,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
 		/// <summary>
 		/// Single BorderEndWidth
 		/// </summary>
-		protected RProperty r_BorderEndWidth;
-		public virtual RProperty RBorderEndWidth
+		protected RSystem.RSingle r_BorderEndWidth;
+		public virtual RSystem.RSingle RBorderEndWidth
 		{
 			get
 			{
@@ -1271,8 +1271,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
 		/// <summary>
 		/// Single BorderWidth
 		/// </summary>
-		protected RProperty r_BorderWidth;
-		public virtual RProperty RBorderWidth
+		protected RSystem.RSingle r_BorderWidth;
+		public virtual RSystem.RSingle RBorderWidth
 		{
 			get
 			{
@@ -1288,8 +1288,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
 		/// <summary>
 		/// Single LayoutMarginLeft
 		/// </summary>
-		protected RProperty r_LayoutMarginLeft;
-		public virtual RProperty RLayoutMarginLeft
+		protected RSystem.RSingle r_LayoutMarginLeft;
+		public virtual RSystem.RSingle RLayoutMarginLeft
 		{
 			get
 			{
@@ -1305,8 +1305,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
 		/// <summary>
 		/// Single LayoutMarginTop
 		/// </summary>
-		protected RProperty r_LayoutMarginTop;
-		public virtual RProperty RLayoutMarginTop
+		protected RSystem.RSingle r_LayoutMarginTop;
+		public virtual RSystem.RSingle RLayoutMarginTop
 		{
 			get
 			{
@@ -1322,8 +1322,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
 		/// <summary>
 		/// Single LayoutMarginRight
 		/// </summary>
-		protected RProperty r_LayoutMarginRight;
-		public virtual RProperty RLayoutMarginRight
+		protected RSystem.RSingle r_LayoutMarginRight;
+		public virtual RSystem.RSingle RLayoutMarginRight
 		{
 			get
 			{
@@ -1339,8 +1339,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
 		/// <summary>
 		/// Single LayoutMarginBottom
 		/// </summary>
-		protected RProperty r_LayoutMarginBottom;
-		public virtual RProperty RLayoutMarginBottom
+		protected RSystem.RSingle r_LayoutMarginBottom;
+		public virtual RSystem.RSingle RLayoutMarginBottom
 		{
 			get
 			{
@@ -1356,8 +1356,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
 		/// <summary>
 		/// Single LayoutMarginStart
 		/// </summary>
-		protected RProperty r_LayoutMarginStart;
-		public virtual RProperty RLayoutMarginStart
+		protected RSystem.RSingle r_LayoutMarginStart;
+		public virtual RSystem.RSingle RLayoutMarginStart
 		{
 			get
 			{
@@ -1373,8 +1373,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
 		/// <summary>
 		/// Single LayoutMarginEnd
 		/// </summary>
-		protected RProperty r_LayoutMarginEnd;
-		public virtual RProperty RLayoutMarginEnd
+		protected RSystem.RSingle r_LayoutMarginEnd;
+		public virtual RSystem.RSingle RLayoutMarginEnd
 		{
 			get
 			{
@@ -1390,8 +1390,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
 		/// <summary>
 		/// Single LayoutPaddingLeft
 		/// </summary>
-		protected RProperty r_LayoutPaddingLeft;
-		public virtual RProperty RLayoutPaddingLeft
+		protected RSystem.RSingle r_LayoutPaddingLeft;
+		public virtual RSystem.RSingle RLayoutPaddingLeft
 		{
 			get
 			{
@@ -1407,8 +1407,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
 		/// <summary>
 		/// Single LayoutPaddingTop
 		/// </summary>
-		protected RProperty r_LayoutPaddingTop;
-		public virtual RProperty RLayoutPaddingTop
+		protected RSystem.RSingle r_LayoutPaddingTop;
+		public virtual RSystem.RSingle RLayoutPaddingTop
 		{
 			get
 			{
@@ -1424,8 +1424,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
 		/// <summary>
 		/// Single LayoutPaddingRight
 		/// </summary>
-		protected RProperty r_LayoutPaddingRight;
-		public virtual RProperty RLayoutPaddingRight
+		protected RSystem.RSingle r_LayoutPaddingRight;
+		public virtual RSystem.RSingle RLayoutPaddingRight
 		{
 			get
 			{
@@ -1441,8 +1441,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
 		/// <summary>
 		/// Single LayoutPaddingBottom
 		/// </summary>
-		protected RProperty r_LayoutPaddingBottom;
-		public virtual RProperty RLayoutPaddingBottom
+		protected RSystem.RSingle r_LayoutPaddingBottom;
+		public virtual RSystem.RSingle RLayoutPaddingBottom
 		{
 			get
 			{
@@ -1458,8 +1458,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
 		/// <summary>
 		/// Single LayoutBorderLeft
 		/// </summary>
-		protected RProperty r_LayoutBorderLeft;
-		public virtual RProperty RLayoutBorderLeft
+		protected RSystem.RSingle r_LayoutBorderLeft;
+		public virtual RSystem.RSingle RLayoutBorderLeft
 		{
 			get
 			{
@@ -1475,8 +1475,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
 		/// <summary>
 		/// Single LayoutBorderTop
 		/// </summary>
-		protected RProperty r_LayoutBorderTop;
-		public virtual RProperty RLayoutBorderTop
+		protected RSystem.RSingle r_LayoutBorderTop;
+		public virtual RSystem.RSingle RLayoutBorderTop
 		{
 			get
 			{
@@ -1492,8 +1492,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
 		/// <summary>
 		/// Single LayoutBorderRight
 		/// </summary>
-		protected RProperty r_LayoutBorderRight;
-		public virtual RProperty RLayoutBorderRight
+		protected RSystem.RSingle r_LayoutBorderRight;
+		public virtual RSystem.RSingle RLayoutBorderRight
 		{
 			get
 			{
@@ -1509,8 +1509,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
 		/// <summary>
 		/// Single LayoutBorderBottom
 		/// </summary>
-		protected RProperty r_LayoutBorderBottom;
-		public virtual RProperty RLayoutBorderBottom
+		protected RSystem.RSingle r_LayoutBorderBottom;
+		public virtual RSystem.RSingle RLayoutBorderBottom
 		{
 			get
 			{
@@ -1526,8 +1526,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
 		/// <summary>
 		/// Single LayoutPaddingStart
 		/// </summary>
-		protected RProperty r_LayoutPaddingStart;
-		public virtual RProperty RLayoutPaddingStart
+		protected RSystem.RSingle r_LayoutPaddingStart;
+		public virtual RSystem.RSingle RLayoutPaddingStart
 		{
 			get
 			{
@@ -1543,8 +1543,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
 		/// <summary>
 		/// Single LayoutPaddingEnd
 		/// </summary>
-		protected RProperty r_LayoutPaddingEnd;
-		public virtual RProperty RLayoutPaddingEnd
+		protected RSystem.RSingle r_LayoutPaddingEnd;
+		public virtual RSystem.RSingle RLayoutPaddingEnd
 		{
 			get
 			{
@@ -1560,8 +1560,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RYoga
 		/// <summary>
 		/// Single ComputedFlexBasis
 		/// </summary>
-		protected RProperty r_ComputedFlexBasis;
-		public virtual RProperty RComputedFlexBasis
+		protected RSystem.RSingle r_ComputedFlexBasis;
+		public virtual RSystem.RSingle RComputedFlexBasis
 		{
 			get
 			{

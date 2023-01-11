@@ -49,8 +49,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.String[] namedParamNames
 		/// </summary>
-		protected RFieldArray<RField> r_namedParamNames;
-		public virtual RFieldArray<RField> RnamedParamNames
+		protected RFieldArray<RSystem.RString> r_namedParamNames;
+		public virtual RFieldArray<RSystem.RString> RnamedParamNames
 		{
 			get
 			{

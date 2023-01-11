@@ -15,8 +15,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.String k_InvalidHierarchyChangeMsg
 		/// </summary>
-		protected static RField r_k_InvalidHierarchyChangeMsg;
-		public static RField Rk_InvalidHierarchyChangeMsg
+		protected static RSystem.RString r_k_InvalidHierarchyChangeMsg;
+		public static RSystem.RString Rk_InvalidHierarchyChangeMsg
 		{
 			get
 			{
@@ -83,8 +83,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Int32 childCount
 		/// </summary>
-		protected RProperty r_childCount;
-		public virtual RProperty RchildCount
+		protected RSystem.RInt32 r_childCount;
+		public virtual RSystem.RInt32 RchildCount
 		{
 			get
 			{

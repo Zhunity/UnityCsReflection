@@ -32,8 +32,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.String alias
 		/// </summary>
-		protected RField r_alias;
-		public virtual RField Ralias
+		protected RSystem.RString r_alias;
+		public virtual RSystem.RString Ralias
 		{
 			get
 			{
@@ -49,8 +49,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.String path
 		/// </summary>
-		protected RField r_path;
-		public virtual RField Rpath
+		protected RSystem.RString r_path;
+		public virtual RSystem.RString Rpath
 		{
 			get
 			{

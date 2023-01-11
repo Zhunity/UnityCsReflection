@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.IntPtr src
 		/// </summary>
-		protected RField r_src;
-		public virtual RField Rsrc
+		protected RSystem.RIntPtr r_src;
+		public virtual RSystem.RIntPtr Rsrc
 		{
 			get
 			{
@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.IntPtr dst
 		/// </summary>
-		protected RField r_dst;
-		public virtual RField Rdst
+		protected RSystem.RIntPtr r_dst;
+		public virtual RSystem.RIntPtr Rdst
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Int32 count
 		/// </summary>
-		protected RField r_count;
-		public virtual RField Rcount
+		protected RSystem.RInt32 r_count;
+		public virtual RSystem.RInt32 Rcount
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.IntPtr closingSrc
 		/// </summary>
-		protected RField r_closingSrc;
-		public virtual RField RclosingSrc
+		protected RSystem.RIntPtr r_closingSrc;
+		public virtual RSystem.RIntPtr RclosingSrc
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.IntPtr closingDst
 		/// </summary>
-		protected RField r_closingDst;
-		public virtual RField RclosingDst
+		protected RSystem.RIntPtr r_closingDst;
+		public virtual RSystem.RIntPtr RclosingDst
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Int32 closingCount
 		/// </summary>
-		protected RField r_closingCount;
-		public virtual RField RclosingCount
+		protected RSystem.RInt32 r_closingCount;
+		public virtual RSystem.RInt32 RclosingCount
 		{
 			get
 			{
@@ -132,8 +132,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Int32 vertsBeforeUVDisplacement
 		/// </summary>
-		protected RField r_vertsBeforeUVDisplacement;
-		public virtual RField RvertsBeforeUVDisplacement
+		protected RSystem.RInt32 r_vertsBeforeUVDisplacement;
+		public virtual RSystem.RInt32 RvertsBeforeUVDisplacement
 		{
 			get
 			{
@@ -149,8 +149,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Int32 vertsAfterUVDisplacement
 		/// </summary>
-		protected RField r_vertsAfterUVDisplacement;
-		public virtual RField RvertsAfterUVDisplacement
+		protected RSystem.RInt32 r_vertsAfterUVDisplacement;
+		public virtual RSystem.RInt32 RvertsAfterUVDisplacement
 		{
 			get
 			{

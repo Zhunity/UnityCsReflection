@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Boolean useGUILayout
 		/// </summary>
-		protected RProperty r_useGUILayout;
-		public virtual RProperty RuseGUILayout
+		protected RSystem.RBoolean r_useGUILayout;
+		public virtual RSystem.RBoolean RuseGUILayout
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Boolean runInEditMode
 		/// </summary>
-		protected RProperty r_runInEditMode;
-		public virtual RProperty RrunInEditMode
+		protected RSystem.RBoolean r_runInEditMode;
+		public virtual RSystem.RBoolean RrunInEditMode
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Boolean allowPrefabModeInPlayMode
 		/// </summary>
-		protected RProperty r_allowPrefabModeInPlayMode;
-		public virtual RProperty RallowPrefabModeInPlayMode
+		protected RSystem.RBoolean r_allowPrefabModeInPlayMode;
+		public virtual RSystem.RBoolean RallowPrefabModeInPlayMode
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Boolean enabled
 		/// </summary>
-		protected RProperty r_enabled;
-		public virtual RProperty Renabled
+		protected RSystem.RBoolean r_enabled;
+		public virtual RSystem.RBoolean Renabled
 		{
 			get
 			{
@@ -115,8 +115,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Boolean isActiveAndEnabled
 		/// </summary>
-		protected RProperty r_isActiveAndEnabled;
-		public virtual RProperty RisActiveAndEnabled
+		protected RSystem.RBoolean r_isActiveAndEnabled;
+		public virtual RSystem.RBoolean RisActiveAndEnabled
 		{
 			get
 			{
@@ -166,8 +166,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.String tag
 		/// </summary>
-		protected RProperty r_tag;
-		public virtual RProperty Rtag
+		protected RSystem.RString r_tag;
+		public virtual RSystem.RString Rtag
 		{
 			get
 			{
@@ -404,8 +404,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.String name
 		/// </summary>
-		protected RProperty r_name;
-		public virtual RProperty Rname
+		protected RSystem.RString r_name;
+		public virtual RSystem.RString Rname
 		{
 			get
 			{

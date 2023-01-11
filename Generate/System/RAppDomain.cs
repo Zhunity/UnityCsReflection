@@ -166,8 +166,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.IntPtr _mono_app_domain
 		/// </summary>
-		protected RField r__mono_app_domain;
-		public virtual RField R_mono_app_domain
+		protected RSystem.RIntPtr r__mono_app_domain;
+		public virtual RSystem.RIntPtr R_mono_app_domain
 		{
 			get
 			{
@@ -183,8 +183,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.String _process_guid
 		/// </summary>
-		protected static RField r__process_guid;
-		public static RField R_process_guid
+		protected static RSystem.RString r__process_guid;
+		public static RSystem.RString R_process_guid
 		{
 			get
 			{
@@ -200,8 +200,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Collections.Generic.Dictionary`2[System.String,System.Object] type_resolve_in_progress
 		/// </summary>
-		protected static RSystem.RCollections.RGeneric.RDictionary<RField, RSystem.RObject> r_type_resolve_in_progress;
-		public static RSystem.RCollections.RGeneric.RDictionary<RField, RSystem.RObject> Rtype_resolve_in_progress
+		protected static RSystem.RCollections.RGeneric.RDictionary<RSystem.RString, RSystem.RObject> r_type_resolve_in_progress;
+		public static RSystem.RCollections.RGeneric.RDictionary<RSystem.RString, RSystem.RObject> Rtype_resolve_in_progress
 		{
 			get
 			{
@@ -217,8 +217,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Collections.Generic.Dictionary`2[System.String,System.Object] assembly_resolve_in_progress
 		/// </summary>
-		protected static RSystem.RCollections.RGeneric.RDictionary<RField, RSystem.RObject> r_assembly_resolve_in_progress;
-		public static RSystem.RCollections.RGeneric.RDictionary<RField, RSystem.RObject> Rassembly_resolve_in_progress
+		protected static RSystem.RCollections.RGeneric.RDictionary<RSystem.RString, RSystem.RObject> r_assembly_resolve_in_progress;
+		public static RSystem.RCollections.RGeneric.RDictionary<RSystem.RString, RSystem.RObject> Rassembly_resolve_in_progress
 		{
 			get
 			{
@@ -234,8 +234,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Collections.Generic.Dictionary`2[System.String,System.Object] assembly_resolve_in_progress_refonly
 		/// </summary>
-		protected static RSystem.RCollections.RGeneric.RDictionary<RField, RSystem.RObject> r_assembly_resolve_in_progress_refonly;
-		public static RSystem.RCollections.RGeneric.RDictionary<RField, RSystem.RObject> Rassembly_resolve_in_progress_refonly
+		protected static RSystem.RCollections.RGeneric.RDictionary<RSystem.RString, RSystem.RObject> r_assembly_resolve_in_progress_refonly;
+		public static RSystem.RCollections.RGeneric.RDictionary<RSystem.RString, RSystem.RObject> Rassembly_resolve_in_progress_refonly
 		{
 			get
 			{
@@ -387,8 +387,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Collections.Generic.List`1[System.String] compatibility_switch
 		/// </summary>
-		protected RSystem.RCollections.RGeneric.RList<RField> r_compatibility_switch;
-		public virtual RSystem.RCollections.RGeneric.RList<RField> Rcompatibility_switch
+		protected RSystem.RCollections.RGeneric.RList<RSystem.RString> r_compatibility_switch;
+		public virtual RSystem.RCollections.RGeneric.RList<RSystem.RString> Rcompatibility_switch
 		{
 			get
 			{
@@ -455,8 +455,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.String BaseDirectory
 		/// </summary>
-		protected RProperty r_BaseDirectory;
-		public virtual RProperty RBaseDirectory
+		protected RSystem.RString r_BaseDirectory;
+		public virtual RSystem.RString RBaseDirectory
 		{
 			get
 			{
@@ -472,8 +472,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.String RelativeSearchPath
 		/// </summary>
-		protected RProperty r_RelativeSearchPath;
-		public virtual RProperty RRelativeSearchPath
+		protected RSystem.RString r_RelativeSearchPath;
+		public virtual RSystem.RString RRelativeSearchPath
 		{
 			get
 			{
@@ -489,8 +489,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.String DynamicDirectory
 		/// </summary>
-		protected RProperty r_DynamicDirectory;
-		public virtual RProperty RDynamicDirectory
+		protected RSystem.RString r_DynamicDirectory;
+		public virtual RSystem.RString RDynamicDirectory
 		{
 			get
 			{
@@ -506,8 +506,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// Boolean ShadowCopyFiles
 		/// </summary>
-		protected RProperty r_ShadowCopyFiles;
-		public virtual RProperty RShadowCopyFiles
+		protected RSystem.RBoolean r_ShadowCopyFiles;
+		public virtual RSystem.RBoolean RShadowCopyFiles
 		{
 			get
 			{
@@ -523,8 +523,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.String FriendlyName
 		/// </summary>
-		protected RProperty r_FriendlyName;
-		public virtual RProperty RFriendlyName
+		protected RSystem.RString r_FriendlyName;
+		public virtual RSystem.RString RFriendlyName
 		{
 			get
 			{
@@ -642,8 +642,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// Boolean IsHomogenous
 		/// </summary>
-		protected RProperty r_IsHomogenous;
-		public virtual RProperty RIsHomogenous
+		protected RSystem.RBoolean r_IsHomogenous;
+		public virtual RSystem.RBoolean RIsHomogenous
 		{
 			get
 			{
@@ -659,8 +659,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// Boolean IsFullyTrusted
 		/// </summary>
-		protected RProperty r_IsFullyTrusted;
-		public virtual RProperty RIsFullyTrusted
+		protected RSystem.RBoolean r_IsFullyTrusted;
+		public virtual RSystem.RBoolean RIsFullyTrusted
 		{
 			get
 			{
@@ -727,8 +727,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// Int32 Id
 		/// </summary>
-		protected RProperty r_Id;
-		public virtual RProperty RId
+		protected RSystem.RInt32 r_Id;
+		public virtual RSystem.RInt32 RId
 		{
 			get
 			{
@@ -744,8 +744,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// Boolean MonitoringIsEnabled
 		/// </summary>
-		protected static RProperty r_MonitoringIsEnabled;
-		public static RProperty RMonitoringIsEnabled
+		protected static RSystem.RBoolean r_MonitoringIsEnabled;
+		public static RSystem.RBoolean RMonitoringIsEnabled
 		{
 			get
 			{
@@ -761,8 +761,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// Int64 MonitoringSurvivedMemorySize
 		/// </summary>
-		protected RProperty r_MonitoringSurvivedMemorySize;
-		public virtual RProperty RMonitoringSurvivedMemorySize
+		protected RSystem.RInt64 r_MonitoringSurvivedMemorySize;
+		public virtual RSystem.RInt64 RMonitoringSurvivedMemorySize
 		{
 			get
 			{
@@ -778,8 +778,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// Int64 MonitoringSurvivedProcessMemorySize
 		/// </summary>
-		protected static RProperty r_MonitoringSurvivedProcessMemorySize;
-		public static RProperty RMonitoringSurvivedProcessMemorySize
+		protected static RSystem.RInt64 r_MonitoringSurvivedProcessMemorySize;
+		public static RSystem.RInt64 RMonitoringSurvivedProcessMemorySize
 		{
 			get
 			{
@@ -795,8 +795,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// Int64 MonitoringTotalAllocatedMemorySize
 		/// </summary>
-		protected RProperty r_MonitoringTotalAllocatedMemorySize;
-		public virtual RProperty RMonitoringTotalAllocatedMemorySize
+		protected RSystem.RInt64 r_MonitoringTotalAllocatedMemorySize;
+		public virtual RSystem.RInt64 RMonitoringTotalAllocatedMemorySize
 		{
 			get
 			{
@@ -4764,14 +4764,14 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
-        public virtual System.Nullable<System.Boolean> IsCompatibilitySwitchSet(System.String @value)
+        public virtual RSystem.RNullable<RSystem.RBoolean> IsCompatibilitySwitchSet(System.String @value)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@value};
             var ___result = RIsCompatibilitySwitchSet_String.Invoke(___genericsType, ___parameters);
 
-            return (System.Nullable<System.Boolean>)___result;
+            return new RSystem.RNullable<RSystem.RBoolean>(___result);
         }
 
 

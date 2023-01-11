@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// System.Byte[] data
 		/// </summary>
-		protected RFieldArray<RField> r_data;
-		public virtual RFieldArray<RField> Rdata
+		protected RFieldArray<RSystem.RByte> r_data;
+		public virtual RFieldArray<RSystem.RByte> Rdata
 		{
 			get
 			{
@@ -149,8 +149,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection.REmit
 		/// <summary>
 		/// Byte[] Data
 		/// </summary>
-		protected RPropertyArray<RProperty> r_Data;
-		public virtual RPropertyArray<RProperty> RData
+		protected RPropertyArray<RSystem.RByte> r_Data;
+		public virtual RPropertyArray<RSystem.RByte> RData
 		{
 			get
 			{

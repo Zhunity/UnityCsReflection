@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Single kRootDropZoneThickness
 		/// </summary>
-		protected static RField r_kRootDropZoneThickness;
-		public static RField RkRootDropZoneThickness
+		protected static RSystem.RSingle r_kRootDropZoneThickness;
+		public static RSystem.RSingle RkRootDropZoneThickness
 		{
 			get
 			{
@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Single kRootDropZoneOffset
 		/// </summary>
-		protected static RField r_kRootDropZoneOffset;
-		public static RField RkRootDropZoneOffset
+		protected static RSystem.RSingle r_kRootDropZoneOffset;
+		public static RSystem.RSingle RkRootDropZoneOffset
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Single kRootDropDestinationThickness
 		/// </summary>
-		protected static RField r_kRootDropDestinationThickness;
-		public static RField RkRootDropDestinationThickness
+		protected static RSystem.RSingle r_kRootDropDestinationThickness;
+		public static RSystem.RSingle RkRootDropDestinationThickness
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Single kMaxViewDropZoneThickness
 		/// </summary>
-		protected static RField r_kMaxViewDropZoneThickness;
-		public static RField RkMaxViewDropZoneThickness
+		protected static RSystem.RSingle r_kMaxViewDropZoneThickness;
+		public static RSystem.RSingle RkMaxViewDropZoneThickness
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Single kMinViewDropDestinationThickness
 		/// </summary>
-		protected static RField r_kMinViewDropDestinationThickness;
-		public static RField RkMinViewDropDestinationThickness
+		protected static RSystem.RSingle r_kMinViewDropDestinationThickness;
+		public static RSystem.RSingle RkMinViewDropDestinationThickness
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Boolean vertical
 		/// </summary>
-		protected RField r_vertical;
-		public virtual RField Rvertical
+		protected RSystem.RBoolean r_vertical;
+		public virtual RSystem.RBoolean Rvertical
 		{
 			get
 			{
@@ -115,8 +115,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Int32 controlID
 		/// </summary>
-		protected RField r_controlID;
-		public virtual RField RcontrolID
+		protected RSystem.RInt32 r_controlID;
+		public virtual RSystem.RInt32 RcontrolID
 		{
 			get
 			{
@@ -149,8 +149,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Single kGrabDist
 		/// </summary>
-		protected static RField r_kGrabDist;
-		public static RField RkGrabDist
+		protected static RSystem.RSingle r_kGrabDist;
+		public static RSystem.RSingle RkGrabDist
 		{
 			get
 			{
@@ -353,8 +353,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.String name
 		/// </summary>
-		protected RProperty r_name;
-		public virtual RProperty Rname
+		protected RSystem.RString r_name;
+		public virtual RSystem.RString Rname
 		{
 			get
 			{

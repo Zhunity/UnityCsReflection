@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Char <character>k__BackingField
 		/// </summary>
-		protected RField r___0__character__1__k__BackingField;
-		public virtual RField R__0__character__1__k__BackingField
+		protected RSystem.RChar r___0__character__1__k__BackingField;
+		public virtual RSystem.RChar R__0__character__1__k__BackingField
 		{
 			get
 			{
@@ -149,8 +149,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Char character
 		/// </summary>
-		protected RProperty r_character;
-		public virtual RProperty Rcharacter
+		protected RSystem.RChar r_character;
+		public virtual RSystem.RChar Rcharacter
 		{
 			get
 			{

@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Int32 rgba
 		/// </summary>
-		protected RField r_rgba;
-		public virtual RField Rrgba
+		protected RSystem.RInt32 r_rgba;
+		public virtual RSystem.RInt32 Rrgba
 		{
 			get
 			{
@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Byte r
 		/// </summary>
-		protected RField r_r;
-		public virtual RField Rr
+		protected RSystem.RByte r_r;
+		public virtual RSystem.RByte Rr
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Byte g
 		/// </summary>
-		protected RField r_g;
-		public virtual RField Rg
+		protected RSystem.RByte r_g;
+		public virtual RSystem.RByte Rg
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Byte b
 		/// </summary>
-		protected RField r_b;
-		public virtual RField Rb
+		protected RSystem.RByte r_b;
+		public virtual RSystem.RByte Rb
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Byte a
 		/// </summary>
-		protected RField r_a;
-		public virtual RField Ra
+		protected RSystem.RByte r_a;
+		public virtual RSystem.RByte Ra
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Byte Item [Int32]
 		/// </summary>
-		protected RProperty r_Item_Int32;
-		public virtual RProperty RItem_Int32
+		protected RSystem.RByte r_Item_Int32;
+		public virtual RSystem.RByte RItem_Int32
 		{
 			get
 			{

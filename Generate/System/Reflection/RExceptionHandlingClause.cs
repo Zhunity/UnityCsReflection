@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Int32 filter_offset
 		/// </summary>
-		protected RField r_filter_offset;
-		public virtual RField Rfilter_offset
+		protected RSystem.RInt32 r_filter_offset;
+		public virtual RSystem.RInt32 Rfilter_offset
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Int32 try_offset
 		/// </summary>
-		protected RField r_try_offset;
-		public virtual RField Rtry_offset
+		protected RSystem.RInt32 r_try_offset;
+		public virtual RSystem.RInt32 Rtry_offset
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Int32 try_length
 		/// </summary>
-		protected RField r_try_length;
-		public virtual RField Rtry_length
+		protected RSystem.RInt32 r_try_length;
+		public virtual RSystem.RInt32 Rtry_length
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Int32 handler_offset
 		/// </summary>
-		protected RField r_handler_offset;
-		public virtual RField Rhandler_offset
+		protected RSystem.RInt32 r_handler_offset;
+		public virtual RSystem.RInt32 Rhandler_offset
 		{
 			get
 			{
@@ -115,8 +115,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Int32 handler_length
 		/// </summary>
-		protected RField r_handler_length;
-		public virtual RField Rhandler_length
+		protected RSystem.RInt32 r_handler_length;
+		public virtual RSystem.RInt32 Rhandler_length
 		{
 			get
 			{
@@ -149,8 +149,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// Int32 FilterOffset
 		/// </summary>
-		protected RProperty r_FilterOffset;
-		public virtual RProperty RFilterOffset
+		protected RSystem.RInt32 r_FilterOffset;
+		public virtual RSystem.RInt32 RFilterOffset
 		{
 			get
 			{
@@ -183,8 +183,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// Int32 HandlerLength
 		/// </summary>
-		protected RProperty r_HandlerLength;
-		public virtual RProperty RHandlerLength
+		protected RSystem.RInt32 r_HandlerLength;
+		public virtual RSystem.RInt32 RHandlerLength
 		{
 			get
 			{
@@ -200,8 +200,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// Int32 HandlerOffset
 		/// </summary>
-		protected RProperty r_HandlerOffset;
-		public virtual RProperty RHandlerOffset
+		protected RSystem.RInt32 r_HandlerOffset;
+		public virtual RSystem.RInt32 RHandlerOffset
 		{
 			get
 			{
@@ -217,8 +217,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// Int32 TryLength
 		/// </summary>
-		protected RProperty r_TryLength;
-		public virtual RProperty RTryLength
+		protected RSystem.RInt32 r_TryLength;
+		public virtual RSystem.RInt32 RTryLength
 		{
 			get
 			{
@@ -234,8 +234,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// Int32 TryOffset
 		/// </summary>
-		protected RProperty r_TryOffset;
-		public virtual RProperty RTryOffset
+		protected RSystem.RInt32 r_TryOffset;
+		public virtual RSystem.RInt32 RTryOffset
 		{
 			get
 			{

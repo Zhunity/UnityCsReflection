@@ -134,8 +134,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Single dpiScale
 		/// </summary>
-		protected RField r_dpiScale;
-		public virtual RField RdpiScale
+		protected RSystem.RSingle r_dpiScale;
+		public virtual RSystem.RSingle RdpiScale
 		{
 			get
 			{
@@ -151,8 +151,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// Unity.Collections.NativeSlice`1[UnityEngine.UIElements.UIR.Transform3x4] transformConstants
 		/// </summary>
-		protected RField r_transformConstants;
-		public virtual RField RtransformConstants
+		protected RUnity.RCollections.RNativeSlice<RUnityEngine.RUIElements.RUIR.RTransform3x4> r_transformConstants;
+		public virtual RUnity.RCollections.RNativeSlice<RUnityEngine.RUIElements.RUIR.RTransform3x4> RtransformConstants
 		{
 			get
 			{
@@ -168,8 +168,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// Unity.Collections.NativeSlice`1[UnityEngine.Vector4] clipRectConstants
 		/// </summary>
-		protected RField r_clipRectConstants;
-		public virtual RField RclipRectConstants
+		protected RUnity.RCollections.RNativeSlice<RUnityEngine.RVector4> r_clipRectConstants;
+		public virtual RUnity.RCollections.RNativeSlice<RUnityEngine.RVector4> RclipRectConstants
 		{
 			get
 			{

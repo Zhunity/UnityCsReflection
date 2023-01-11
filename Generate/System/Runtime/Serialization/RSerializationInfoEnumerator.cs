@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization
 		/// <summary>
 		/// System.String[] _members
 		/// </summary>
-		protected RFieldArray<RField> r__members;
-		public virtual RFieldArray<RField> R_members
+		protected RFieldArray<RSystem.RString> r__members;
+		public virtual RFieldArray<RSystem.RString> R_members
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization
 		/// <summary>
 		/// System.Int32 _numItems
 		/// </summary>
-		protected RField r__numItems;
-		public virtual RField R_numItems
+		protected RSystem.RInt32 r__numItems;
+		public virtual RSystem.RInt32 R_numItems
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization
 		/// <summary>
 		/// System.Int32 _currItem
 		/// </summary>
-		protected RField r__currItem;
-		public virtual RField R_currItem
+		protected RSystem.RInt32 r__currItem;
+		public virtual RSystem.RInt32 R_currItem
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization
 		/// <summary>
 		/// System.Boolean _current
 		/// </summary>
-		protected RField r__current;
-		public virtual RField R_current
+		protected RSystem.RBoolean r__current;
+		public virtual RSystem.RBoolean R_current
 		{
 			get
 			{
@@ -149,8 +149,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization
 		/// <summary>
 		/// System.String Name
 		/// </summary>
-		protected RProperty r_Name;
-		public virtual RProperty RName
+		protected RSystem.RString r_Name;
+		public virtual RSystem.RString RName
 		{
 			get
 			{

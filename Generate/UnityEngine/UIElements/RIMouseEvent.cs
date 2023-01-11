@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Int32 clickCount
 		/// </summary>
-		protected RProperty r_clickCount;
-		public virtual RProperty RclickCount
+		protected RSystem.RInt32 r_clickCount;
+		public virtual RSystem.RInt32 RclickCount
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Int32 button
 		/// </summary>
-		protected RProperty r_button;
-		public virtual RProperty Rbutton
+		protected RSystem.RInt32 r_button;
+		public virtual RSystem.RInt32 Rbutton
 		{
 			get
 			{
@@ -115,8 +115,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Int32 pressedButtons
 		/// </summary>
-		protected RProperty r_pressedButtons;
-		public virtual RProperty RpressedButtons
+		protected RSystem.RInt32 r_pressedButtons;
+		public virtual RSystem.RInt32 RpressedButtons
 		{
 			get
 			{
@@ -132,8 +132,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Boolean shiftKey
 		/// </summary>
-		protected RProperty r_shiftKey;
-		public virtual RProperty RshiftKey
+		protected RSystem.RBoolean r_shiftKey;
+		public virtual RSystem.RBoolean RshiftKey
 		{
 			get
 			{
@@ -149,8 +149,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Boolean ctrlKey
 		/// </summary>
-		protected RProperty r_ctrlKey;
-		public virtual RProperty RctrlKey
+		protected RSystem.RBoolean r_ctrlKey;
+		public virtual RSystem.RBoolean RctrlKey
 		{
 			get
 			{
@@ -166,8 +166,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Boolean commandKey
 		/// </summary>
-		protected RProperty r_commandKey;
-		public virtual RProperty RcommandKey
+		protected RSystem.RBoolean r_commandKey;
+		public virtual RSystem.RBoolean RcommandKey
 		{
 			get
 			{
@@ -183,8 +183,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Boolean altKey
 		/// </summary>
-		protected RProperty r_altKey;
-		public virtual RProperty RaltKey
+		protected RSystem.RBoolean r_altKey;
+		public virtual RSystem.RBoolean RaltKey
 		{
 			get
 			{
@@ -200,8 +200,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Boolean actionKey
 		/// </summary>
-		protected RProperty r_actionKey;
-		public virtual RProperty RactionKey
+		protected RSystem.RBoolean r_actionKey;
+		public virtual RSystem.RBoolean RactionKey
 		{
 			get
 			{

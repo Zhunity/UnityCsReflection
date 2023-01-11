@@ -15,8 +15,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.UInt32 m_NextId
 		/// </summary>
-		protected static RField r_m_NextId;
-		public static RField Rm_NextId
+		protected static RSystem.RUInt32 r_m_NextId;
+		public static RSystem.RUInt32 Rm_NextId
 		{
 			get
 			{
@@ -32,8 +32,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int32 m_RefCount
 		/// </summary>
-		protected RField r_m_RefCount;
-		public virtual RField Rm_RefCount
+		protected RSystem.RInt32 r_m_RefCount;
+		public virtual RSystem.RInt32 Rm_RefCount
 		{
 			get
 			{
@@ -49,8 +49,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.UInt32 m_Id
 		/// </summary>
-		protected RField r_m_Id;
-		public virtual RField Rm_Id
+		protected RSystem.RUInt32 r_m_Id;
+		public virtual RSystem.RUInt32 Rm_Id
 		{
 			get
 			{
@@ -83,8 +83,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Int32 refCount
 		/// </summary>
-		protected RProperty r_refCount;
-		public virtual RProperty RrefCount
+		protected RSystem.RInt32 r_refCount;
+		public virtual RSystem.RInt32 RrefCount
 		{
 			get
 			{
@@ -100,8 +100,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// UInt32 id
 		/// </summary>
-		protected RProperty r_id;
-		public virtual RProperty Rid
+		protected RSystem.RUInt32 r_id;
+		public virtual RSystem.RUInt32 Rid
 		{
 			get
 			{

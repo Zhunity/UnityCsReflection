@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// Boolean passed
 		/// </summary>
-		protected RProperty r_passed;
-		public virtual RProperty Rpassed
+		protected RSystem.RBoolean r_passed;
+		public virtual RSystem.RBoolean Rpassed
 		{
 			get
 			{

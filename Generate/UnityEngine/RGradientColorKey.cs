@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Single time
 		/// </summary>
-		protected RField r_time;
-		public virtual RField Rtime
+		protected RSystem.RSingle r_time;
+		public virtual RSystem.RSingle Rtime
 		{
 			get
 			{

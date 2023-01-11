@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 		/// <summary>
 		/// Int32 valueCount
 		/// </summary>
-		protected RProperty r_valueCount;
-		public virtual RProperty RvalueCount
+		protected RSystem.RInt32 r_valueCount;
+		public virtual RSystem.RInt32 RvalueCount
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 		/// <summary>
 		/// Boolean isCurrentVariable
 		/// </summary>
-		protected RProperty r_isCurrentVariable;
-		public virtual RProperty RisCurrentVariable
+		protected RSystem.RBoolean r_isCurrentVariable;
+		public virtual RSystem.RBoolean RisCurrentVariable
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 		/// <summary>
 		/// Boolean isCurrentComma
 		/// </summary>
-		protected RProperty r_isCurrentComma;
-		public virtual RProperty RisCurrentComma
+		protected RSystem.RBoolean r_isCurrentComma;
+		public virtual RSystem.RBoolean RisCurrentComma
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 		/// <summary>
 		/// Boolean hasCurrent
 		/// </summary>
-		protected RProperty r_hasCurrent;
-		public virtual RProperty RhasCurrent
+		protected RSystem.RBoolean r_hasCurrent;
+		public virtual RSystem.RBoolean RhasCurrent
 		{
 			get
 			{
@@ -115,8 +115,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 		/// <summary>
 		/// Int32 currentIndex
 		/// </summary>
-		protected RProperty r_currentIndex;
-		public virtual RProperty RcurrentIndex
+		protected RSystem.RInt32 r_currentIndex;
+		public virtual RSystem.RInt32 RcurrentIndex
 		{
 			get
 			{
@@ -132,8 +132,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 		/// <summary>
 		/// Int32 matchedVariableCount
 		/// </summary>
-		protected RProperty r_matchedVariableCount;
-		public virtual RProperty RmatchedVariableCount
+		protected RSystem.RInt32 r_matchedVariableCount;
+		public virtual RSystem.RInt32 RmatchedVariableCount
 		{
 			get
 			{

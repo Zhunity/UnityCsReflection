@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.String _className
 		/// </summary>
-		protected RField r__className;
-		public virtual RField R_className
+		protected RSystem.RString r__className;
+		public virtual RSystem.RString R_className
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.String _message
 		/// </summary>
-		protected RField r__message;
-		public virtual RField R_message
+		protected RSystem.RString r__message;
+		public virtual RSystem.RString R_message
 		{
 			get
 			{
@@ -115,8 +115,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.String _helpURL
 		/// </summary>
-		protected RField r__helpURL;
-		public virtual RField R_helpURL
+		protected RSystem.RString r__helpURL;
+		public virtual RSystem.RString R_helpURL
 		{
 			get
 			{
@@ -149,8 +149,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.String _stackTraceString
 		/// </summary>
-		protected RField r__stackTraceString;
-		public virtual RField R_stackTraceString
+		protected RSystem.RString r__stackTraceString;
+		public virtual RSystem.RString R_stackTraceString
 		{
 			get
 			{
@@ -166,8 +166,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.String _remoteStackTraceString
 		/// </summary>
-		protected RField r__remoteStackTraceString;
-		public virtual RField R_remoteStackTraceString
+		protected RSystem.RString r__remoteStackTraceString;
+		public virtual RSystem.RString R_remoteStackTraceString
 		{
 			get
 			{
@@ -183,8 +183,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Int32 _remoteStackIndex
 		/// </summary>
-		protected RField r__remoteStackIndex;
-		public virtual RField R_remoteStackIndex
+		protected RSystem.RInt32 r__remoteStackIndex;
+		public virtual RSystem.RInt32 R_remoteStackIndex
 		{
 			get
 			{
@@ -217,8 +217,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Int32 _HResult
 		/// </summary>
-		protected RField r__HResult;
-		public virtual RField R_HResult
+		protected RSystem.RInt32 r__HResult;
+		public virtual RSystem.RInt32 R_HResult
 		{
 			get
 			{
@@ -234,8 +234,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.String _source
 		/// </summary>
-		protected RField r__source;
-		public virtual RField R_source
+		protected RSystem.RString r__source;
+		public virtual RSystem.RString R_source
 		{
 			get
 			{
@@ -285,8 +285,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.IntPtr[] native_trace_ips
 		/// </summary>
-		protected RFieldArray<RField> r_native_trace_ips;
-		public virtual RFieldArray<RField> Rnative_trace_ips
+		protected RFieldArray<RSystem.RIntPtr> r_native_trace_ips;
+		public virtual RFieldArray<RSystem.RIntPtr> Rnative_trace_ips
 		{
 			get
 			{
@@ -302,8 +302,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Int32 caught_in_unmanaged
 		/// </summary>
-		protected RField r_caught_in_unmanaged;
-		public virtual RField Rcaught_in_unmanaged
+		protected RSystem.RInt32 r_caught_in_unmanaged;
+		public virtual RSystem.RInt32 Rcaught_in_unmanaged
 		{
 			get
 			{
@@ -319,8 +319,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Int32 _COMPlusExceptionCode
 		/// </summary>
-		protected static RField r__COMPlusExceptionCode;
-		public static RField R_COMPlusExceptionCode
+		protected static RSystem.RInt32 r__COMPlusExceptionCode;
+		public static RSystem.RInt32 R_COMPlusExceptionCode
 		{
 			get
 			{
@@ -336,8 +336,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.String Message
 		/// </summary>
-		protected RProperty r_Message;
-		public virtual RProperty RMessage
+		protected RSystem.RString r_Message;
+		public virtual RSystem.RString RMessage
 		{
 			get
 			{
@@ -404,8 +404,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.String StackTrace
 		/// </summary>
-		protected RProperty r_StackTrace;
-		public virtual RProperty RStackTrace
+		protected RSystem.RString r_StackTrace;
+		public virtual RSystem.RString RStackTrace
 		{
 			get
 			{
@@ -421,8 +421,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.String HelpLink
 		/// </summary>
-		protected RProperty r_HelpLink;
-		public virtual RProperty RHelpLink
+		protected RSystem.RString r_HelpLink;
+		public virtual RSystem.RString RHelpLink
 		{
 			get
 			{
@@ -438,8 +438,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.String Source
 		/// </summary>
-		protected RProperty r_Source;
-		public virtual RProperty RSource
+		protected RSystem.RString r_Source;
+		public virtual RSystem.RString RSource
 		{
 			get
 			{
@@ -455,8 +455,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.String RemoteStackTrace
 		/// </summary>
-		protected RProperty r_RemoteStackTrace;
-		public virtual RProperty RRemoteStackTrace
+		protected RSystem.RString r_RemoteStackTrace;
+		public virtual RSystem.RString RRemoteStackTrace
 		{
 			get
 			{
@@ -472,8 +472,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// Int32 HResult
 		/// </summary>
-		protected RProperty r_HResult;
-		public virtual RProperty RHResult
+		protected RSystem.RInt32 r_HResult;
+		public virtual RSystem.RInt32 RHResult
 		{
 			get
 			{
@@ -489,8 +489,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// Boolean IsTransient
 		/// </summary>
-		protected RProperty r_IsTransient;
-		public virtual RProperty RIsTransient
+		protected RSystem.RBoolean r_IsTransient;
+		public virtual RSystem.RBoolean RIsTransient
 		{
 			get
 			{

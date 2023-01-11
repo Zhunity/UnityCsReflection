@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Single m_Z
 		/// </summary>
-		protected RField r_m_Z;
-		public virtual RField Rm_Z
+		protected RSystem.RSingle r_m_Z;
+		public virtual RSystem.RSingle Rm_Z
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Single z
 		/// </summary>
-		protected RProperty r_z;
-		public virtual RProperty Rz
+		protected RSystem.RSingle r_z;
+		public virtual RSystem.RSingle Rz
 		{
 			get
 			{

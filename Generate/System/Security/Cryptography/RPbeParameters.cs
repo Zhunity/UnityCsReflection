@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
 		/// <summary>
 		/// System.Int32 <IterationCount>k__BackingField
 		/// </summary>
-		protected RField r___0__IterationCount__1__k__BackingField;
-		public virtual RField R__0__IterationCount__1__k__BackingField
+		protected RSystem.RInt32 r___0__IterationCount__1__k__BackingField;
+		public virtual RSystem.RInt32 R__0__IterationCount__1__k__BackingField
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RSecurity.RCryptography
 		/// <summary>
 		/// Int32 IterationCount
 		/// </summary>
-		protected RProperty r_IterationCount;
-		public virtual RProperty RIterationCount
+		protected RSystem.RInt32 r_IterationCount;
+		public virtual RSystem.RInt32 RIterationCount
 		{
 			get
 			{

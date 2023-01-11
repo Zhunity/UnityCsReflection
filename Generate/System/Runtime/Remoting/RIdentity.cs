@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting
 		/// <summary>
 		/// System.String _objectUri
 		/// </summary>
-		protected RField r__objectUri;
-		public virtual RField R_objectUri
+		protected RSystem.RString r__objectUri;
+		public virtual RSystem.RString R_objectUri
 		{
 			get
 			{
@@ -115,8 +115,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting
 		/// <summary>
 		/// System.Boolean _disposed
 		/// </summary>
-		protected RField r__disposed;
-		public virtual RField R_disposed
+		protected RSystem.RBoolean r__disposed;
+		public virtual RSystem.RBoolean R_disposed
 		{
 			get
 			{
@@ -132,8 +132,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting
 		/// <summary>
 		/// Boolean IsFromThisAppDomain
 		/// </summary>
-		protected RProperty r_IsFromThisAppDomain;
-		public virtual RProperty RIsFromThisAppDomain
+		protected RSystem.RBoolean r_IsFromThisAppDomain;
+		public virtual RSystem.RBoolean RIsFromThisAppDomain
 		{
 			get
 			{
@@ -183,8 +183,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting
 		/// <summary>
 		/// System.String ObjectUri
 		/// </summary>
-		protected RProperty r_ObjectUri;
-		public virtual RProperty RObjectUri
+		protected RSystem.RString r_ObjectUri;
+		public virtual RSystem.RString RObjectUri
 		{
 			get
 			{
@@ -200,8 +200,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting
 		/// <summary>
 		/// Boolean IsConnected
 		/// </summary>
-		protected RProperty r_IsConnected;
-		public virtual RProperty RIsConnected
+		protected RSystem.RBoolean r_IsConnected;
+		public virtual RSystem.RBoolean RIsConnected
 		{
 			get
 			{
@@ -217,8 +217,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting
 		/// <summary>
 		/// Boolean Disposed
 		/// </summary>
-		protected RProperty r_Disposed;
-		public virtual RProperty RDisposed
+		protected RSystem.RBoolean r_Disposed;
+		public virtual RSystem.RBoolean RDisposed
 		{
 			get
 			{
@@ -268,8 +268,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting
 		/// <summary>
 		/// Boolean HasClientDynamicSinks
 		/// </summary>
-		protected RProperty r_HasClientDynamicSinks;
-		public virtual RProperty RHasClientDynamicSinks
+		protected RSystem.RBoolean r_HasClientDynamicSinks;
+		public virtual RSystem.RBoolean RHasClientDynamicSinks
 		{
 			get
 			{
@@ -285,8 +285,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting
 		/// <summary>
 		/// Boolean HasServerDynamicSinks
 		/// </summary>
-		protected RProperty r_HasServerDynamicSinks;
-		public virtual RProperty RHasServerDynamicSinks
+		protected RSystem.RBoolean r_HasServerDynamicSinks;
+		public virtual RSystem.RBoolean RHasServerDynamicSinks
 		{
 			get
 			{

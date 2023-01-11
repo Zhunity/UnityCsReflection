@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 		/// <summary>
 		/// System.Boolean transformsChanged
 		/// </summary>
-		protected RField r_transformsChanged;
-		public virtual RField RtransformsChanged
+		protected RSystem.RBoolean r_transformsChanged;
+		public virtual RSystem.RBoolean RtransformsChanged
 		{
 			get
 			{

@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.String kPlayModeDarkenKey
 		/// </summary>
-		protected static RField r_kPlayModeDarkenKey;
-		public static RField RkPlayModeDarkenKey
+		protected static RSystem.RString r_kPlayModeDarkenKey;
+		public static RSystem.RString RkPlayModeDarkenKey
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Boolean <showGenericMenu>k__BackingField
 		/// </summary>
-		protected RField r___0__showGenericMenu__1__k__BackingField;
-		public virtual RField R__0__showGenericMenu__1__k__BackingField
+		protected RSystem.RBoolean r___0__showGenericMenu__1__k__BackingField;
+		public virtual RSystem.RBoolean R__0__showGenericMenu__1__k__BackingField
 		{
 			get
 			{
@@ -404,8 +404,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.String m_ActualViewName
 		/// </summary>
-		protected RField r_m_ActualViewName;
-		public virtual RField Rm_ActualViewName
+		protected RSystem.RString r_m_ActualViewName;
+		public virtual RSystem.RString Rm_ActualViewName
 		{
 			get
 			{
@@ -421,8 +421,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Boolean m_NotificationIsVisible
 		/// </summary>
-		protected RField r_m_NotificationIsVisible;
-		public virtual RField Rm_NotificationIsVisible
+		protected RSystem.RBoolean r_m_NotificationIsVisible;
+		public virtual RSystem.RBoolean Rm_NotificationIsVisible
 		{
 			get
 			{
@@ -455,8 +455,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEditor.StyleSheets.SVC`1[System.Single] genericMenuLeftOffset
 		/// </summary>
-		protected static RUnityEditor.RStyleSheets.RSVC<RField> r_genericMenuLeftOffset;
-		public static RUnityEditor.RStyleSheets.RSVC<RField> RgenericMenuLeftOffset
+		protected static RUnityEditor.RStyleSheets.RSVC<RSystem.RSingle> r_genericMenuLeftOffset;
+		public static RUnityEditor.RStyleSheets.RSVC<RSystem.RSingle> RgenericMenuLeftOffset
 		{
 			get
 			{
@@ -472,8 +472,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// UnityEditor.StyleSheets.SVC`1[System.Single] genericMenuFloatingLeftOffset
 		/// </summary>
-		protected static RUnityEditor.RStyleSheets.RSVC<RField> r_genericMenuFloatingLeftOffset;
-		public static RUnityEditor.RStyleSheets.RSVC<RField> RgenericMenuFloatingLeftOffset
+		protected static RUnityEditor.RStyleSheets.RSVC<RSystem.RSingle> r_genericMenuFloatingLeftOffset;
+		public static RUnityEditor.RStyleSheets.RSVC<RSystem.RSingle> RgenericMenuFloatingLeftOffset
 		{
 			get
 			{
@@ -540,8 +540,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Boolean showGenericMenu
 		/// </summary>
-		protected RProperty r_showGenericMenu;
-		public virtual RProperty RshowGenericMenu
+		protected RSystem.RBoolean r_showGenericMenu;
+		public virtual RSystem.RBoolean RshowGenericMenu
 		{
 			get
 			{
@@ -676,8 +676,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Boolean UnityEditor.IEditorWindowModel.notificationVisible
 		/// </summary>
-		protected RProperty r_UnityEditor__2__IEditorWindowModel__2__notificationVisible;
-		public virtual RProperty RUnityEditor__2__IEditorWindowModel__2__notificationVisible
+		protected RSystem.RBoolean r_UnityEditor__2__IEditorWindowModel__2__notificationVisible;
+		public virtual RSystem.RBoolean RUnityEditor__2__IEditorWindowModel__2__notificationVisible
 		{
 			get
 			{
@@ -744,8 +744,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Boolean hasFocus
 		/// </summary>
-		protected RProperty r_hasFocus;
-		public virtual RProperty RhasFocus
+		protected RSystem.RBoolean r_hasFocus;
+		public virtual RSystem.RBoolean RhasFocus
 		{
 			get
 			{
@@ -761,8 +761,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Boolean mouseRayInvisible
 		/// </summary>
-		protected RProperty r_mouseRayInvisible;
-		public virtual RProperty RmouseRayInvisible
+		protected RSystem.RBoolean r_mouseRayInvisible;
+		public virtual RSystem.RBoolean RmouseRayInvisible
 		{
 			get
 			{
@@ -778,8 +778,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Boolean disableInputEvents
 		/// </summary>
-		protected RProperty r_disableInputEvents;
-		public virtual RProperty RdisableInputEvents
+		protected RSystem.RBoolean r_disableInputEvents;
+		public virtual RSystem.RBoolean RdisableInputEvents
 		{
 			get
 			{
@@ -795,8 +795,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Boolean hdrActive
 		/// </summary>
-		protected RProperty r_hdrActive;
-		public virtual RProperty RhdrActive
+		protected RSystem.RBoolean r_hdrActive;
+		public virtual RSystem.RBoolean RhdrActive
 		{
 			get
 			{
@@ -812,8 +812,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// IntPtr nativeHandle
 		/// </summary>
-		protected RProperty r_nativeHandle;
-		public virtual RProperty RnativeHandle
+		protected RSystem.RIntPtr r_nativeHandle;
+		public virtual RSystem.RIntPtr RnativeHandle
 		{
 			get
 			{
@@ -863,8 +863,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Boolean wantsMouseMove
 		/// </summary>
-		protected RProperty r_wantsMouseMove;
-		public virtual RProperty RwantsMouseMove
+		protected RSystem.RBoolean r_wantsMouseMove;
+		public virtual RSystem.RBoolean RwantsMouseMove
 		{
 			get
 			{
@@ -880,8 +880,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Boolean wantsMouseEnterLeaveWindow
 		/// </summary>
-		protected RProperty r_wantsMouseEnterLeaveWindow;
-		public virtual RProperty RwantsMouseEnterLeaveWindow
+		protected RSystem.RBoolean r_wantsMouseEnterLeaveWindow;
+		public virtual RSystem.RBoolean RwantsMouseEnterLeaveWindow
 		{
 			get
 			{
@@ -897,8 +897,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Boolean autoRepaintOnSceneChange
 		/// </summary>
-		protected RProperty r_autoRepaintOnSceneChange;
-		public virtual RProperty RautoRepaintOnSceneChange
+		protected RSystem.RBoolean r_autoRepaintOnSceneChange;
+		public virtual RSystem.RBoolean RautoRepaintOnSceneChange
 		{
 			get
 			{
@@ -914,8 +914,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Int32 depthBufferBits
 		/// </summary>
-		protected RProperty r_depthBufferBits;
-		public virtual RProperty RdepthBufferBits
+		protected RSystem.RInt32 r_depthBufferBits;
+		public virtual RSystem.RInt32 RdepthBufferBits
 		{
 			get
 			{
@@ -931,8 +931,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Int32 antiAliasing
 		/// </summary>
-		protected RProperty r_antiAliasing;
-		public virtual RProperty RantiAliasing
+		protected RSystem.RInt32 r_antiAliasing;
+		public virtual RSystem.RInt32 RantiAliasing
 		{
 			get
 			{
@@ -948,8 +948,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// Int32 antiAlias
 		/// </summary>
-		protected RProperty r_antiAlias;
-		public virtual RProperty RantiAlias
+		protected RSystem.RInt32 r_antiAlias;
+		public virtual RSystem.RInt32 RantiAlias
 		{
 			get
 			{
@@ -1101,8 +1101,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.String name
 		/// </summary>
-		protected RProperty r_name;
-		public virtual RProperty Rname
+		protected RSystem.RString r_name;
+		public virtual RSystem.RString Rname
 		{
 			get
 			{

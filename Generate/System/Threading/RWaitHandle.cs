@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Int32 WaitTimeout
 		/// </summary>
-		protected static RField r_WaitTimeout;
-		public static RField RWaitTimeout
+		protected static RSystem.RInt32 r_WaitTimeout;
+		public static RSystem.RInt32 RWaitTimeout
 		{
 			get
 			{
@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Int32 MAX_WAITHANDLES
 		/// </summary>
-		protected static RField r_MAX_WAITHANDLES;
-		public static RField RMAX_WAITHANDLES
+		protected static RSystem.RInt32 r_MAX_WAITHANDLES;
+		public static RSystem.RInt32 RMAX_WAITHANDLES
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.IntPtr waitHandle
 		/// </summary>
-		protected RField r_waitHandle;
-		public virtual RField RwaitHandle
+		protected RSystem.RIntPtr r_waitHandle;
+		public virtual RSystem.RIntPtr RwaitHandle
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Boolean hasThreadAffinity
 		/// </summary>
-		protected RField r_hasThreadAffinity;
-		public virtual RField RhasThreadAffinity
+		protected RSystem.RBoolean r_hasThreadAffinity;
+		public virtual RSystem.RBoolean RhasThreadAffinity
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Int32 WAIT_OBJECT_0
 		/// </summary>
-		protected static RField r_WAIT_OBJECT_0;
-		public static RField RWAIT_OBJECT_0
+		protected static RSystem.RInt32 r_WAIT_OBJECT_0;
+		public static RSystem.RInt32 RWAIT_OBJECT_0
 		{
 			get
 			{
@@ -115,8 +115,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Int32 WAIT_ABANDONED
 		/// </summary>
-		protected static RField r_WAIT_ABANDONED;
-		public static RField RWAIT_ABANDONED
+		protected static RSystem.RInt32 r_WAIT_ABANDONED;
+		public static RSystem.RInt32 RWAIT_ABANDONED
 		{
 			get
 			{
@@ -132,8 +132,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Int32 WAIT_FAILED
 		/// </summary>
-		protected static RField r_WAIT_FAILED;
-		public static RField RWAIT_FAILED
+		protected static RSystem.RInt32 r_WAIT_FAILED;
+		public static RSystem.RInt32 RWAIT_FAILED
 		{
 			get
 			{
@@ -149,8 +149,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Int32 ERROR_TOO_MANY_POSTS
 		/// </summary>
-		protected static RField r_ERROR_TOO_MANY_POSTS;
-		public static RField RERROR_TOO_MANY_POSTS
+		protected static RSystem.RInt32 r_ERROR_TOO_MANY_POSTS;
+		public static RSystem.RInt32 RERROR_TOO_MANY_POSTS
 		{
 			get
 			{
@@ -166,8 +166,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Int32 ERROR_NOT_OWNED_BY_CALLER
 		/// </summary>
-		protected static RField r_ERROR_NOT_OWNED_BY_CALLER;
-		public static RField RERROR_NOT_OWNED_BY_CALLER
+		protected static RSystem.RInt32 r_ERROR_NOT_OWNED_BY_CALLER;
+		public static RSystem.RInt32 RERROR_NOT_OWNED_BY_CALLER
 		{
 			get
 			{
@@ -183,8 +183,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.IntPtr InvalidHandle
 		/// </summary>
-		protected static RField r_InvalidHandle;
-		public static RField RInvalidHandle
+		protected static RSystem.RIntPtr r_InvalidHandle;
+		public static RSystem.RIntPtr RInvalidHandle
 		{
 			get
 			{
@@ -200,8 +200,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Int32 MaxWaitHandles
 		/// </summary>
-		protected static RField r_MaxWaitHandles;
-		public static RField RMaxWaitHandles
+		protected static RSystem.RInt32 r_MaxWaitHandles;
+		public static RSystem.RInt32 RMaxWaitHandles
 		{
 			get
 			{
@@ -217,8 +217,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// IntPtr Handle
 		/// </summary>
-		protected RProperty r_Handle;
-		public virtual RProperty RHandle
+		protected RSystem.RIntPtr r_Handle;
+		public virtual RSystem.RIntPtr RHandle
 		{
 			get
 			{

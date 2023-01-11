@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Int32 filterMode
 		/// </summary>
-		protected RField r_filterMode;
-		public virtual RField RfilterMode
+		protected RSystem.RInt32 r_filterMode;
+		public virtual RSystem.RInt32 RfilterMode
 		{
 			get
 			{
@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.UInt32 cullingMask
 		/// </summary>
-		protected RField r_cullingMask;
-		public virtual RField RcullingMask
+		protected RSystem.RUInt32 r_cullingMask;
+		public virtual RSystem.RUInt32 RcullingMask
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.Int32 instanceID
 		/// </summary>
-		protected RField r_instanceID;
-		public virtual RField RinstanceID
+		protected RSystem.RInt32 r_instanceID;
+		public virtual RSystem.RInt32 RinstanceID
 		{
 			get
 			{

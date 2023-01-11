@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.String NameImpl
 		/// </summary>
-		protected RField r_NameImpl;
-		public virtual RField RNameImpl
+		protected RSystem.RString r_NameImpl;
+		public virtual RSystem.RString RNameImpl
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Int32 PositionImpl
 		/// </summary>
-		protected RField r_PositionImpl;
-		public virtual RField RPositionImpl
+		protected RSystem.RInt32 r_PositionImpl;
+		public virtual RSystem.RInt32 RPositionImpl
 		{
 			get
 			{
@@ -115,8 +115,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Int32 MetadataToken_ParamDef
 		/// </summary>
-		protected static RField r_MetadataToken_ParamDef;
-		public static RField RMetadataToken_ParamDef
+		protected static RSystem.RInt32 r_MetadataToken_ParamDef;
+		public static RSystem.RInt32 RMetadataToken_ParamDef
 		{
 			get
 			{
@@ -166,8 +166,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.String Name
 		/// </summary>
-		protected RProperty r_Name;
-		public virtual RProperty RName
+		protected RSystem.RString r_Name;
+		public virtual RSystem.RString RName
 		{
 			get
 			{
@@ -200,8 +200,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// Int32 Position
 		/// </summary>
-		protected RProperty r_Position;
-		public virtual RProperty RPosition
+		protected RSystem.RInt32 r_Position;
+		public virtual RSystem.RInt32 RPosition
 		{
 			get
 			{
@@ -217,8 +217,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// Boolean IsIn
 		/// </summary>
-		protected RProperty r_IsIn;
-		public virtual RProperty RIsIn
+		protected RSystem.RBoolean r_IsIn;
+		public virtual RSystem.RBoolean RIsIn
 		{
 			get
 			{
@@ -234,8 +234,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// Boolean IsLcid
 		/// </summary>
-		protected RProperty r_IsLcid;
-		public virtual RProperty RIsLcid
+		protected RSystem.RBoolean r_IsLcid;
+		public virtual RSystem.RBoolean RIsLcid
 		{
 			get
 			{
@@ -251,8 +251,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// Boolean IsOptional
 		/// </summary>
-		protected RProperty r_IsOptional;
-		public virtual RProperty RIsOptional
+		protected RSystem.RBoolean r_IsOptional;
+		public virtual RSystem.RBoolean RIsOptional
 		{
 			get
 			{
@@ -268,8 +268,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// Boolean IsOut
 		/// </summary>
-		protected RProperty r_IsOut;
-		public virtual RProperty RIsOut
+		protected RSystem.RBoolean r_IsOut;
+		public virtual RSystem.RBoolean RIsOut
 		{
 			get
 			{
@@ -285,8 +285,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// Boolean IsRetval
 		/// </summary>
-		protected RProperty r_IsRetval;
-		public virtual RProperty RIsRetval
+		protected RSystem.RBoolean r_IsRetval;
+		public virtual RSystem.RBoolean RIsRetval
 		{
 			get
 			{
@@ -336,8 +336,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// Boolean HasDefaultValue
 		/// </summary>
-		protected RProperty r_HasDefaultValue;
-		public virtual RProperty RHasDefaultValue
+		protected RSystem.RBoolean r_HasDefaultValue;
+		public virtual RSystem.RBoolean RHasDefaultValue
 		{
 			get
 			{
@@ -370,8 +370,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// Int32 MetadataToken
 		/// </summary>
-		protected RProperty r_MetadataToken;
-		public virtual RProperty RMetadataToken
+		protected RSystem.RInt32 r_MetadataToken;
+		public virtual RSystem.RInt32 RMetadataToken
 		{
 			get
 			{

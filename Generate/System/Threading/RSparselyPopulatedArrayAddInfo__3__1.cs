@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Int32 _index
 		/// </summary>
-		protected RField r__index;
-		public virtual RField R_index
+		protected RSystem.RInt32 r__index;
+		public virtual RSystem.RInt32 R_index
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// Int32 Index
 		/// </summary>
-		protected RProperty r_Index;
-		public virtual RProperty RIndex
+		protected RSystem.RInt32 r_Index;
+		public virtual RSystem.RInt32 RIndex
 		{
 			get
 			{

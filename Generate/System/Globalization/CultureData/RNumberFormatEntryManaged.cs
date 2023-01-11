@@ -15,8 +15,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 currency_decimal_digits
 		/// </summary>
-		protected RField r_currency_decimal_digits;
-		public virtual RField Rcurrency_decimal_digits
+		protected RSystem.RInt32 r_currency_decimal_digits;
+		public virtual RSystem.RInt32 Rcurrency_decimal_digits
 		{
 			get
 			{
@@ -32,8 +32,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 currency_decimal_separator
 		/// </summary>
-		protected RField r_currency_decimal_separator;
-		public virtual RField Rcurrency_decimal_separator
+		protected RSystem.RInt32 r_currency_decimal_separator;
+		public virtual RSystem.RInt32 Rcurrency_decimal_separator
 		{
 			get
 			{
@@ -49,8 +49,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 currency_group_separator
 		/// </summary>
-		protected RField r_currency_group_separator;
-		public virtual RField Rcurrency_group_separator
+		protected RSystem.RInt32 r_currency_group_separator;
+		public virtual RSystem.RInt32 Rcurrency_group_separator
 		{
 			get
 			{
@@ -66,8 +66,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 currency_group_sizes0
 		/// </summary>
-		protected RField r_currency_group_sizes0;
-		public virtual RField Rcurrency_group_sizes0
+		protected RSystem.RInt32 r_currency_group_sizes0;
+		public virtual RSystem.RInt32 Rcurrency_group_sizes0
 		{
 			get
 			{
@@ -83,8 +83,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 currency_group_sizes1
 		/// </summary>
-		protected RField r_currency_group_sizes1;
-		public virtual RField Rcurrency_group_sizes1
+		protected RSystem.RInt32 r_currency_group_sizes1;
+		public virtual RSystem.RInt32 Rcurrency_group_sizes1
 		{
 			get
 			{
@@ -100,8 +100,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 currency_negative_pattern
 		/// </summary>
-		protected RField r_currency_negative_pattern;
-		public virtual RField Rcurrency_negative_pattern
+		protected RSystem.RInt32 r_currency_negative_pattern;
+		public virtual RSystem.RInt32 Rcurrency_negative_pattern
 		{
 			get
 			{
@@ -117,8 +117,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 currency_positive_pattern
 		/// </summary>
-		protected RField r_currency_positive_pattern;
-		public virtual RField Rcurrency_positive_pattern
+		protected RSystem.RInt32 r_currency_positive_pattern;
+		public virtual RSystem.RInt32 Rcurrency_positive_pattern
 		{
 			get
 			{
@@ -134,8 +134,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 currency_symbol
 		/// </summary>
-		protected RField r_currency_symbol;
-		public virtual RField Rcurrency_symbol
+		protected RSystem.RInt32 r_currency_symbol;
+		public virtual RSystem.RInt32 Rcurrency_symbol
 		{
 			get
 			{
@@ -151,8 +151,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 nan_symbol
 		/// </summary>
-		protected RField r_nan_symbol;
-		public virtual RField Rnan_symbol
+		protected RSystem.RInt32 r_nan_symbol;
+		public virtual RSystem.RInt32 Rnan_symbol
 		{
 			get
 			{
@@ -168,8 +168,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 negative_infinity_symbol
 		/// </summary>
-		protected RField r_negative_infinity_symbol;
-		public virtual RField Rnegative_infinity_symbol
+		protected RSystem.RInt32 r_negative_infinity_symbol;
+		public virtual RSystem.RInt32 Rnegative_infinity_symbol
 		{
 			get
 			{
@@ -185,8 +185,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 negative_sign
 		/// </summary>
-		protected RField r_negative_sign;
-		public virtual RField Rnegative_sign
+		protected RSystem.RInt32 r_negative_sign;
+		public virtual RSystem.RInt32 Rnegative_sign
 		{
 			get
 			{
@@ -202,8 +202,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 number_decimal_digits
 		/// </summary>
-		protected RField r_number_decimal_digits;
-		public virtual RField Rnumber_decimal_digits
+		protected RSystem.RInt32 r_number_decimal_digits;
+		public virtual RSystem.RInt32 Rnumber_decimal_digits
 		{
 			get
 			{
@@ -219,8 +219,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 number_decimal_separator
 		/// </summary>
-		protected RField r_number_decimal_separator;
-		public virtual RField Rnumber_decimal_separator
+		protected RSystem.RInt32 r_number_decimal_separator;
+		public virtual RSystem.RInt32 Rnumber_decimal_separator
 		{
 			get
 			{
@@ -236,8 +236,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 number_group_separator
 		/// </summary>
-		protected RField r_number_group_separator;
-		public virtual RField Rnumber_group_separator
+		protected RSystem.RInt32 r_number_group_separator;
+		public virtual RSystem.RInt32 Rnumber_group_separator
 		{
 			get
 			{
@@ -253,8 +253,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 number_group_sizes0
 		/// </summary>
-		protected RField r_number_group_sizes0;
-		public virtual RField Rnumber_group_sizes0
+		protected RSystem.RInt32 r_number_group_sizes0;
+		public virtual RSystem.RInt32 Rnumber_group_sizes0
 		{
 			get
 			{
@@ -270,8 +270,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 number_group_sizes1
 		/// </summary>
-		protected RField r_number_group_sizes1;
-		public virtual RField Rnumber_group_sizes1
+		protected RSystem.RInt32 r_number_group_sizes1;
+		public virtual RSystem.RInt32 Rnumber_group_sizes1
 		{
 			get
 			{
@@ -287,8 +287,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 number_negative_pattern
 		/// </summary>
-		protected RField r_number_negative_pattern;
-		public virtual RField Rnumber_negative_pattern
+		protected RSystem.RInt32 r_number_negative_pattern;
+		public virtual RSystem.RInt32 Rnumber_negative_pattern
 		{
 			get
 			{
@@ -304,8 +304,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 per_mille_symbol
 		/// </summary>
-		protected RField r_per_mille_symbol;
-		public virtual RField Rper_mille_symbol
+		protected RSystem.RInt32 r_per_mille_symbol;
+		public virtual RSystem.RInt32 Rper_mille_symbol
 		{
 			get
 			{
@@ -321,8 +321,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 percent_negative_pattern
 		/// </summary>
-		protected RField r_percent_negative_pattern;
-		public virtual RField Rpercent_negative_pattern
+		protected RSystem.RInt32 r_percent_negative_pattern;
+		public virtual RSystem.RInt32 Rpercent_negative_pattern
 		{
 			get
 			{
@@ -338,8 +338,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 percent_positive_pattern
 		/// </summary>
-		protected RField r_percent_positive_pattern;
-		public virtual RField Rpercent_positive_pattern
+		protected RSystem.RInt32 r_percent_positive_pattern;
+		public virtual RSystem.RInt32 Rpercent_positive_pattern
 		{
 			get
 			{
@@ -355,8 +355,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 percent_symbol
 		/// </summary>
-		protected RField r_percent_symbol;
-		public virtual RField Rpercent_symbol
+		protected RSystem.RInt32 r_percent_symbol;
+		public virtual RSystem.RInt32 Rpercent_symbol
 		{
 			get
 			{
@@ -372,8 +372,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 positive_infinity_symbol
 		/// </summary>
-		protected RField r_positive_infinity_symbol;
-		public virtual RField Rpositive_infinity_symbol
+		protected RSystem.RInt32 r_positive_infinity_symbol;
+		public virtual RSystem.RInt32 Rpositive_infinity_symbol
 		{
 			get
 			{
@@ -389,8 +389,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RGlobalization
 		/// <summary>
 		/// System.Int32 positive_sign
 		/// </summary>
-		protected RField r_positive_sign;
-		public virtual RField Rpositive_sign
+		protected RSystem.RInt32 r_positive_sign;
+		public virtual RSystem.RInt32 Rpositive_sign
 		{
 			get
 			{

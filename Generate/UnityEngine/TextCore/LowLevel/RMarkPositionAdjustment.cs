@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 		/// <summary>
 		/// System.Single m_XPositionAdjustment
 		/// </summary>
-		protected RField r_m_XPositionAdjustment;
-		public virtual RField Rm_XPositionAdjustment
+		protected RSystem.RSingle r_m_XPositionAdjustment;
+		public virtual RSystem.RSingle Rm_XPositionAdjustment
 		{
 			get
 			{
@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 		/// <summary>
 		/// System.Single m_YPositionAdjustment
 		/// </summary>
-		protected RField r_m_YPositionAdjustment;
-		public virtual RField Rm_YPositionAdjustment
+		protected RSystem.RSingle r_m_YPositionAdjustment;
+		public virtual RSystem.RSingle Rm_YPositionAdjustment
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 		/// <summary>
 		/// Single xPositionAdjustment
 		/// </summary>
-		protected RProperty r_xPositionAdjustment;
-		public virtual RProperty RxPositionAdjustment
+		protected RSystem.RSingle r_xPositionAdjustment;
+		public virtual RSystem.RSingle RxPositionAdjustment
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 		/// <summary>
 		/// Single yPositionAdjustment
 		/// </summary>
-		protected RProperty r_yPositionAdjustment;
-		public virtual RProperty RyPositionAdjustment
+		protected RSystem.RSingle r_yPositionAdjustment;
+		public virtual RSystem.RSingle RyPositionAdjustment
 		{
 			get
 			{

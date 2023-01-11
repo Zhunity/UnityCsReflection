@@ -15,8 +15,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.UInt32 runtimeTypeIndex
 		/// </summary>
-		protected RField r_runtimeTypeIndex;
-		public virtual RField RruntimeTypeIndex
+		protected RSystem.RUInt32 r_runtimeTypeIndex;
+		public virtual RSystem.RUInt32 RruntimeTypeIndex
 		{
 			get
 			{
@@ -32,8 +32,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.UInt32 descendantCount
 		/// </summary>
-		protected RField r_descendantCount;
-		public virtual RField RdescendantCount
+		protected RSystem.RUInt32 r_descendantCount;
+		public virtual RSystem.RUInt32 RdescendantCount
 		{
 			get
 			{
@@ -49,8 +49,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.UInt32 baseClassIndex
 		/// </summary>
-		protected RField r_baseClassIndex;
-		public virtual RField RbaseClassIndex
+		protected RSystem.RUInt32 r_baseClassIndex;
+		public virtual RSystem.RUInt32 RbaseClassIndex
 		{
 			get
 			{
@@ -66,8 +66,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.String className
 		/// </summary>
-		protected RField r_className;
-		public virtual RField RclassName
+		protected RSystem.RString r_className;
+		public virtual RSystem.RString RclassName
 		{
 			get
 			{
@@ -83,8 +83,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.String classNamespace
 		/// </summary>
-		protected RField r_classNamespace;
-		public virtual RField RclassNamespace
+		protected RSystem.RString r_classNamespace;
+		public virtual RSystem.RString RclassNamespace
 		{
 			get
 			{
@@ -100,8 +100,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.String module
 		/// </summary>
-		protected RField r_module;
-		public virtual RField Rmodule
+		protected RSystem.RString r_module;
+		public virtual RSystem.RString Rmodule
 		{
 			get
 			{
@@ -117,8 +117,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Int32 persistentTypeID
 		/// </summary>
-		protected RField r_persistentTypeID;
-		public virtual RField RpersistentTypeID
+		protected RSystem.RInt32 r_persistentTypeID;
+		public virtual RSystem.RInt32 RpersistentTypeID
 		{
 			get
 			{
@@ -134,8 +134,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.UInt32 flags
 		/// </summary>
-		protected RField r_flags;
-		public virtual RField Rflags
+		protected RSystem.RUInt32 r_flags;
+		public virtual RSystem.RUInt32 Rflags
 		{
 			get
 			{

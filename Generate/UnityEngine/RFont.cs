@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.String[] fontNames
 		/// </summary>
-		protected RPropertyArray<RProperty> r_fontNames;
-		public virtual RPropertyArray<RProperty> RfontNames
+		protected RPropertyArray<RSystem.RString> r_fontNames;
+		public virtual RPropertyArray<RSystem.RString> RfontNames
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Boolean dynamic
 		/// </summary>
-		protected RProperty r_dynamic;
-		public virtual RProperty Rdynamic
+		protected RSystem.RBoolean r_dynamic;
+		public virtual RSystem.RBoolean Rdynamic
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 ascent
 		/// </summary>
-		protected RProperty r_ascent;
-		public virtual RProperty Rascent
+		protected RSystem.RInt32 r_ascent;
+		public virtual RSystem.RInt32 Rascent
 		{
 			get
 			{
@@ -115,8 +115,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 fontSize
 		/// </summary>
-		protected RProperty r_fontSize;
-		public virtual RProperty RfontSize
+		protected RSystem.RInt32 r_fontSize;
+		public virtual RSystem.RInt32 RfontSize
 		{
 			get
 			{
@@ -149,8 +149,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 lineHeight
 		/// </summary>
-		protected RProperty r_lineHeight;
-		public virtual RProperty RlineHeight
+		protected RSystem.RInt32 r_lineHeight;
+		public virtual RSystem.RInt32 RlineHeight
 		{
 			get
 			{
@@ -183,8 +183,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.String name
 		/// </summary>
-		protected RProperty r_name;
-		public virtual RProperty Rname
+		protected RSystem.RString r_name;
+		public virtual RSystem.RString Rname
 		{
 			get
 			{

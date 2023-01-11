@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.IntPtr m_KeywordSpace
 		/// </summary>
-		protected RField r_m_KeywordSpace;
-		public virtual RField Rm_KeywordSpace
+		protected RSystem.RIntPtr r_m_KeywordSpace;
+		public virtual RSystem.RIntPtr Rm_KeywordSpace
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// System.String[] keywordNames
 		/// </summary>
-		protected RPropertyArray<RProperty> r_keywordNames;
-		public virtual RPropertyArray<RProperty> RkeywordNames
+		protected RPropertyArray<RSystem.RString> r_keywordNames;
+		public virtual RPropertyArray<RSystem.RString> RkeywordNames
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RRendering
 		/// <summary>
 		/// UInt32 keywordCount
 		/// </summary>
-		protected RProperty r_keywordCount;
-		public virtual RProperty RkeywordCount
+		protected RSystem.RUInt32 r_keywordCount;
+		public virtual RSystem.RUInt32 RkeywordCount
 		{
 			get
 			{

@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Int32 firstIndex
 		/// </summary>
-		protected RField r_firstIndex;
-		public virtual RField RfirstIndex
+		protected RSystem.RInt32 r_firstIndex;
+		public virtual RSystem.RInt32 RfirstIndex
 		{
 			get
 			{
@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Int32 indexCount
 		/// </summary>
-		protected RField r_indexCount;
-		public virtual RField RindexCount
+		protected RSystem.RInt32 r_indexCount;
+		public virtual RSystem.RInt32 RindexCount
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Int32 minIndexVal
 		/// </summary>
-		protected RField r_minIndexVal;
-		public virtual RField RminIndexVal
+		protected RSystem.RInt32 r_minIndexVal;
+		public virtual RSystem.RInt32 RminIndexVal
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		/// <summary>
 		/// System.Int32 vertsReferenced
 		/// </summary>
-		protected RField r_vertsReferenced;
-		public virtual RField RvertsReferenced
+		protected RSystem.RInt32 r_vertsReferenced;
+		public virtual RSystem.RInt32 RvertsReferenced
 		{
 			get
 			{

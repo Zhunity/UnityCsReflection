@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Collections.Generic.Dictionary`2[System.Int32,UnityEngine.Rect] animIDs
 		/// </summary>
-		protected RSystem.RCollections.RGeneric.RDictionary<RField, RUnityEngine.RRect> r_animIDs;
-		public virtual RSystem.RCollections.RGeneric.RDictionary<RField, RUnityEngine.RRect> RanimIDs
+		protected RSystem.RCollections.RGeneric.RDictionary<RSystem.RInt32, RUnityEngine.RRect> r_animIDs;
+		public virtual RSystem.RCollections.RGeneric.RDictionary<RSystem.RInt32, RUnityEngine.RRect> RanimIDs
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Single kLerp
 		/// </summary>
-		protected static RField r_kLerp;
-		public static RField RkLerp
+		protected static RSystem.RSingle r_kLerp;
+		public static RSystem.RSingle RkLerp
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor
 		/// <summary>
 		/// System.Single kSnap
 		/// </summary>
-		protected static RField r_kSnap;
-		public static RField RkSnap
+		protected static RSystem.RSingle r_kSnap;
+		public static RSystem.RSingle RkSnap
 		{
 			get
 			{

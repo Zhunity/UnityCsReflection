@@ -183,8 +183,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// System.String k_UxmlPath
 		/// </summary>
-		protected static RField r_k_UxmlPath;
-		public static RField Rk_UxmlPath
+		protected static RSystem.RString r_k_UxmlPath;
+		public static RSystem.RString Rk_UxmlPath
 		{
 			get
 			{
@@ -200,8 +200,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// System.String ussClassName
 		/// </summary>
-		protected static RField r_ussClassName;
-		public static RField RussClassName
+		protected static RSystem.RString r_ussClassName;
+		public static RSystem.RString RussClassName
 		{
 			get
 			{
@@ -217,8 +217,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// System.String k_Highlight
 		/// </summary>
-		protected static RField r_k_Highlight;
-		public static RField Rk_Highlight
+		protected static RSystem.RString r_k_Highlight;
+		public static RSystem.RString Rk_Highlight
 		{
 			get
 			{
@@ -234,8 +234,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// System.String k_Floating
 		/// </summary>
-		protected static RField r_k_Floating;
-		public static RField Rk_Floating
+		protected static RSystem.RString r_k_Floating;
+		public static RSystem.RString Rk_Floating
 		{
 			get
 			{
@@ -251,8 +251,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// System.String headerTitle
 		/// </summary>
-		protected static RField r_headerTitle;
-		public static RField RheaderTitle
+		protected static RSystem.RString r_headerTitle;
+		public static RSystem.RString RheaderTitle
 		{
 			get
 			{
@@ -268,8 +268,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// System.String k_Collapsed
 		/// </summary>
-		protected static RField r_k_Collapsed;
-		public static RField Rk_Collapsed
+		protected static RSystem.RString r_k_Collapsed;
+		public static RSystem.RString Rk_Collapsed
 		{
 			get
 			{
@@ -285,8 +285,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// System.String k_Header
 		/// </summary>
-		protected static RField r_k_Header;
-		public static RField Rk_Header
+		protected static RSystem.RString r_k_Header;
+		public static RSystem.RString Rk_Header
 		{
 			get
 			{
@@ -302,8 +302,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// System.String k_Expanded
 		/// </summary>
-		protected static RField r_k_Expanded;
-		public static RField Rk_Expanded
+		protected static RSystem.RString r_k_Expanded;
+		public static RSystem.RString Rk_Expanded
 		{
 			get
 			{
@@ -319,8 +319,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// System.String k_CollapsedContent
 		/// </summary>
-		protected static RField r_k_CollapsedContent;
-		public static RField Rk_CollapsedContent
+		protected static RSystem.RString r_k_CollapsedContent;
+		public static RSystem.RString Rk_CollapsedContent
 		{
 			get
 			{
@@ -336,8 +336,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// System.String k_CollapsedIconButton
 		/// </summary>
-		protected static RField r_k_CollapsedIconButton;
-		public static RField Rk_CollapsedIconButton
+		protected static RSystem.RString r_k_CollapsedIconButton;
+		public static RSystem.RString Rk_CollapsedIconButton
 		{
 			get
 			{
@@ -353,8 +353,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// System.String k_ToolbarHorizontalLayout
 		/// </summary>
-		protected static RField r_k_ToolbarHorizontalLayout;
-		public static RField Rk_ToolbarHorizontalLayout
+		protected static RSystem.RString r_k_ToolbarHorizontalLayout;
+		public static RSystem.RString Rk_ToolbarHorizontalLayout
 		{
 			get
 			{
@@ -370,8 +370,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// System.String k_ToolbarVerticalLayout
 		/// </summary>
-		protected static RField r_k_ToolbarVerticalLayout;
-		public static RField Rk_ToolbarVerticalLayout
+		protected static RSystem.RString r_k_ToolbarVerticalLayout;
+		public static RSystem.RString Rk_ToolbarVerticalLayout
 		{
 			get
 			{
@@ -387,8 +387,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// System.String k_PanelLayout
 		/// </summary>
-		protected static RField r_k_PanelLayout;
-		public static RField Rk_PanelLayout
+		protected static RSystem.RString r_k_PanelLayout;
+		public static RSystem.RString Rk_PanelLayout
 		{
 			get
 			{
@@ -404,8 +404,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// System.String m_Id
 		/// </summary>
-		protected RField r_m_Id;
-		public virtual RField Rm_Id
+		protected RSystem.RString r_m_Id;
+		public virtual RSystem.RString Rm_Id
 		{
 			get
 			{
@@ -421,8 +421,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// System.String m_RootVisualElementName
 		/// </summary>
-		protected RField r_m_RootVisualElementName;
-		public virtual RField Rm_RootVisualElementName
+		protected RSystem.RString r_m_RootVisualElementName;
+		public virtual RSystem.RString Rm_RootVisualElementName
 		{
 			get
 			{
@@ -438,8 +438,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// System.String m_DisplayName
 		/// </summary>
-		protected RField r_m_DisplayName;
-		public virtual RField Rm_DisplayName
+		protected RSystem.RString r_m_DisplayName;
+		public virtual RSystem.RString Rm_DisplayName
 		{
 			get
 			{
@@ -489,8 +489,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// System.Boolean m_Collapsed
 		/// </summary>
-		protected RField r_m_Collapsed;
-		public virtual RField Rm_Collapsed
+		protected RSystem.RBoolean r_m_Collapsed;
+		public virtual RSystem.RBoolean Rm_Collapsed
 		{
 			get
 			{
@@ -506,8 +506,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// System.Boolean <dontSaveInLayout>k__BackingField
 		/// </summary>
-		protected RField r___0__dontSaveInLayout__1__k__BackingField;
-		public virtual RField R__0__dontSaveInLayout__1__k__BackingField
+		protected RSystem.RBoolean r___0__dontSaveInLayout__1__k__BackingField;
+		public virtual RSystem.RBoolean R__0__dontSaveInLayout__1__k__BackingField
 		{
 			get
 			{
@@ -523,8 +523,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// System.Boolean m_HasMenuEntry
 		/// </summary>
-		protected RField r_m_HasMenuEntry;
-		public virtual RField Rm_HasMenuEntry
+		protected RSystem.RBoolean r_m_HasMenuEntry;
+		public virtual RSystem.RBoolean Rm_HasMenuEntry
 		{
 			get
 			{
@@ -540,8 +540,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// System.Boolean m_Floating
 		/// </summary>
-		protected RField r_m_Floating;
-		public virtual RField Rm_Floating
+		protected RSystem.RBoolean r_m_Floating;
+		public virtual RSystem.RBoolean Rm_Floating
 		{
 			get
 			{
@@ -642,8 +642,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// System.Boolean m_SizeOverridden
 		/// </summary>
-		protected RField r_m_SizeOverridden;
-		public virtual RField Rm_SizeOverridden
+		protected RSystem.RBoolean r_m_SizeOverridden;
+		public virtual RSystem.RBoolean Rm_SizeOverridden
 		{
 			get
 			{
@@ -659,8 +659,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// System.Boolean m_LockAnchor
 		/// </summary>
-		protected RField r_m_LockAnchor;
-		public virtual RField Rm_LockAnchor
+		protected RSystem.RBoolean r_m_LockAnchor;
+		public virtual RSystem.RBoolean Rm_LockAnchor
 		{
 			get
 			{
@@ -676,8 +676,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// System.Boolean m_ContentsChanged
 		/// </summary>
-		protected RField r_m_ContentsChanged;
-		public virtual RField Rm_ContentsChanged
+		protected RSystem.RBoolean r_m_ContentsChanged;
+		public virtual RSystem.RBoolean Rm_ContentsChanged
 		{
 			get
 			{
@@ -693,8 +693,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// System.Boolean m_DisableContentModification
 		/// </summary>
-		protected RField r_m_DisableContentModification;
-		public virtual RField Rm_DisableContentModification
+		protected RSystem.RBoolean r_m_DisableContentModification;
+		public virtual RSystem.RBoolean Rm_DisableContentModification
 		{
 			get
 			{
@@ -931,8 +931,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// Boolean dontSaveInLayout
 		/// </summary>
-		protected RProperty r_dontSaveInLayout;
-		public virtual RProperty RdontSaveInLayout
+		protected RSystem.RBoolean r_dontSaveInLayout;
+		public virtual RSystem.RBoolean RdontSaveInLayout
 		{
 			get
 			{
@@ -999,8 +999,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// System.String id
 		/// </summary>
-		protected RProperty r_id;
-		public virtual RProperty Rid
+		protected RSystem.RString r_id;
+		public virtual RSystem.RString Rid
 		{
 			get
 			{
@@ -1016,8 +1016,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// Boolean hasMenuEntry
 		/// </summary>
-		protected RProperty r_hasMenuEntry;
-		public virtual RProperty RhasMenuEntry
+		protected RSystem.RBoolean r_hasMenuEntry;
+		public virtual RSystem.RBoolean RhasMenuEntry
 		{
 			get
 			{
@@ -1118,8 +1118,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// Boolean collapsed
 		/// </summary>
-		protected RProperty r_collapsed;
-		public virtual RProperty Rcollapsed
+		protected RSystem.RBoolean r_collapsed;
+		public virtual RSystem.RBoolean Rcollapsed
 		{
 			get
 			{
@@ -1135,8 +1135,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// System.String displayName
 		/// </summary>
-		protected RProperty r_displayName;
-		public virtual RProperty RdisplayName
+		protected RSystem.RString r_displayName;
+		public virtual RSystem.RString RdisplayName
 		{
 			get
 			{
@@ -1152,8 +1152,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// Boolean userControlledVisibility
 		/// </summary>
-		protected RProperty r_userControlledVisibility;
-		public virtual RProperty RuserControlledVisibility
+		protected RSystem.RBoolean r_userControlledVisibility;
+		public virtual RSystem.RBoolean RuserControlledVisibility
 		{
 			get
 			{
@@ -1237,8 +1237,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// Boolean displayed
 		/// </summary>
-		protected RProperty r_displayed;
-		public virtual RProperty Rdisplayed
+		protected RSystem.RBoolean r_displayed;
+		public virtual RSystem.RBoolean Rdisplayed
 		{
 			get
 			{
@@ -1305,8 +1305,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// Boolean isInToolbar
 		/// </summary>
-		protected RProperty r_isInToolbar;
-		public virtual RProperty RisInToolbar
+		protected RSystem.RBoolean r_isInToolbar;
+		public virtual RSystem.RBoolean RisInToolbar
 		{
 			get
 			{
@@ -1322,8 +1322,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// Boolean sizeOverridden
 		/// </summary>
-		protected RProperty r_sizeOverridden;
-		public virtual RProperty RsizeOverridden
+		protected RSystem.RBoolean r_sizeOverridden;
+		public virtual RSystem.RBoolean RsizeOverridden
 		{
 			get
 			{
@@ -1458,8 +1458,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEditor.ROverlays
 		/// <summary>
 		/// Boolean floating
 		/// </summary>
-		protected RProperty r_floating;
-		public virtual RProperty Rfloating
+		protected RSystem.RBoolean r_floating;
+		public virtual RSystem.RBoolean Rfloating
 		{
 			get
 			{

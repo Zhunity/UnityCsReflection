@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization
 		/// <summary>
 		/// System.String RealTypeSerializationName
 		/// </summary>
-		protected static RField r_RealTypeSerializationName;
-		public static RField RRealTypeSerializationName
+		protected static RSystem.RString r_RealTypeSerializationName;
+		public static RSystem.RString RRealTypeSerializationName
 		{
 			get
 			{
@@ -115,8 +115,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RSerialization
 		/// <summary>
 		/// Boolean IsActive
 		/// </summary>
-		protected RProperty r_IsActive;
-		public virtual RProperty RIsActive
+		protected RSystem.RBoolean r_IsActive;
+		public virtual RSystem.RBoolean RIsActive
 		{
 			get
 			{

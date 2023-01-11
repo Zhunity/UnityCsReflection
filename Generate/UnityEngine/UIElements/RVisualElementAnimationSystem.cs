@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Boolean m_HasNewAnimations
 		/// </summary>
-		protected RField r_m_HasNewAnimations;
-		public virtual RField Rm_HasNewAnimations
+		protected RSystem.RBoolean r_m_HasNewAnimations;
+		public virtual RSystem.RBoolean Rm_HasNewAnimations
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Boolean m_IterationListDirty
 		/// </summary>
-		protected RField r_m_IterationListDirty;
-		public virtual RField Rm_IterationListDirty
+		protected RSystem.RBoolean r_m_IterationListDirty;
+		public virtual RSystem.RBoolean Rm_IterationListDirty
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.String s_Description
 		/// </summary>
-		protected static RField r_s_Description;
-		public static RField Rs_Description
+		protected static RSystem.RString r_s_Description;
+		public static RSystem.RString Rs_Description
 		{
 			get
 			{
@@ -132,8 +132,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.String s_StylePropertyAnimationDescription
 		/// </summary>
-		protected static RField r_s_StylePropertyAnimationDescription;
-		public static RField Rs_StylePropertyAnimationDescription
+		protected static RSystem.RString r_s_StylePropertyAnimationDescription;
+		public static RSystem.RString Rs_StylePropertyAnimationDescription
 		{
 			get
 			{
@@ -166,8 +166,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int64 lastUpdate
 		/// </summary>
-		protected RField r_lastUpdate;
-		public virtual RField RlastUpdate
+		protected RSystem.RInt64 r_lastUpdate;
+		public virtual RSystem.RInt64 RlastUpdate
 		{
 			get
 			{

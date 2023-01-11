@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int32 m_VariableHash
 		/// </summary>
-		protected RField r_m_VariableHash;
-		public virtual RField Rm_VariableHash
+		protected RSystem.RInt32 r_m_VariableHash;
+		public virtual RSystem.RInt32 Rm_VariableHash
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Collections.Generic.List`1[System.Int32] m_SortedHash
 		/// </summary>
-		protected RSystem.RCollections.RGeneric.RList<RField> r_m_SortedHash;
-		public virtual RSystem.RCollections.RGeneric.RList<RField> Rm_SortedHash
+		protected RSystem.RCollections.RGeneric.RList<RSystem.RInt32> r_m_SortedHash;
+		public virtual RSystem.RCollections.RGeneric.RList<RSystem.RInt32> Rm_SortedHash
 		{
 			get
 			{

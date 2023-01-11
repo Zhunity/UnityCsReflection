@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int32 m_Index
 		/// </summary>
-		protected RField r_m_Index;
-		public virtual RField Rm_Index
+		protected RSystem.RInt32 r_m_Index;
+		public virtual RSystem.RInt32 Rm_Index
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Int32 index
 		/// </summary>
-		protected RProperty r_index;
-		public virtual RProperty Rindex
+		protected RSystem.RInt32 r_index;
+		public virtual RSystem.RInt32 Rindex
 		{
 			get
 			{

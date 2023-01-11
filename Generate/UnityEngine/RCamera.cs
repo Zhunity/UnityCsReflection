@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Single kMinAperture
 		/// </summary>
-		protected static RField r_kMinAperture;
-		public static RField RkMinAperture
+		protected static RSystem.RSingle r_kMinAperture;
+		public static RSystem.RSingle RkMinAperture
 		{
 			get
 			{
@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Single kMaxAperture
 		/// </summary>
-		protected static RField r_kMaxAperture;
-		public static RField RkMaxAperture
+		protected static RSystem.RSingle r_kMaxAperture;
+		public static RSystem.RSingle RkMaxAperture
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Int32 kMinBladeCount
 		/// </summary>
-		protected static RField r_kMinBladeCount;
-		public static RField RkMinBladeCount
+		protected static RSystem.RInt32 r_kMinBladeCount;
+		public static RSystem.RInt32 RkMinBladeCount
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.Int32 kMaxBladeCount
 		/// </summary>
-		protected static RField r_kMaxBladeCount;
-		public static RField RkMaxBladeCount
+		protected static RSystem.RInt32 r_kMaxBladeCount;
+		public static RSystem.RInt32 RkMaxBladeCount
 		{
 			get
 			{
@@ -132,8 +132,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Single nearClipPlane
 		/// </summary>
-		protected RProperty r_nearClipPlane;
-		public virtual RProperty RnearClipPlane
+		protected RSystem.RSingle r_nearClipPlane;
+		public virtual RSystem.RSingle RnearClipPlane
 		{
 			get
 			{
@@ -149,8 +149,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Single farClipPlane
 		/// </summary>
-		protected RProperty r_farClipPlane;
-		public virtual RProperty RfarClipPlane
+		protected RSystem.RSingle r_farClipPlane;
+		public virtual RSystem.RSingle RfarClipPlane
 		{
 			get
 			{
@@ -166,8 +166,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Single fieldOfView
 		/// </summary>
-		protected RProperty r_fieldOfView;
-		public virtual RProperty RfieldOfView
+		protected RSystem.RSingle r_fieldOfView;
+		public virtual RSystem.RSingle RfieldOfView
 		{
 			get
 			{
@@ -217,8 +217,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Boolean allowHDR
 		/// </summary>
-		protected RProperty r_allowHDR;
-		public virtual RProperty RallowHDR
+		protected RSystem.RBoolean r_allowHDR;
+		public virtual RSystem.RBoolean RallowHDR
 		{
 			get
 			{
@@ -234,8 +234,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Boolean allowMSAA
 		/// </summary>
-		protected RProperty r_allowMSAA;
-		public virtual RProperty RallowMSAA
+		protected RSystem.RBoolean r_allowMSAA;
+		public virtual RSystem.RBoolean RallowMSAA
 		{
 			get
 			{
@@ -251,8 +251,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Boolean allowDynamicResolution
 		/// </summary>
-		protected RProperty r_allowDynamicResolution;
-		public virtual RProperty RallowDynamicResolution
+		protected RSystem.RBoolean r_allowDynamicResolution;
+		public virtual RSystem.RBoolean RallowDynamicResolution
 		{
 			get
 			{
@@ -268,8 +268,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Boolean forceIntoRenderTexture
 		/// </summary>
-		protected RProperty r_forceIntoRenderTexture;
-		public virtual RProperty RforceIntoRenderTexture
+		protected RSystem.RBoolean r_forceIntoRenderTexture;
+		public virtual RSystem.RBoolean RforceIntoRenderTexture
 		{
 			get
 			{
@@ -285,8 +285,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Single orthographicSize
 		/// </summary>
-		protected RProperty r_orthographicSize;
-		public virtual RProperty RorthographicSize
+		protected RSystem.RSingle r_orthographicSize;
+		public virtual RSystem.RSingle RorthographicSize
 		{
 			get
 			{
@@ -302,8 +302,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Boolean orthographic
 		/// </summary>
-		protected RProperty r_orthographic;
-		public virtual RProperty Rorthographic
+		protected RSystem.RBoolean r_orthographic;
+		public virtual RSystem.RBoolean Rorthographic
 		{
 			get
 			{
@@ -370,8 +370,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Single depth
 		/// </summary>
-		protected RProperty r_depth;
-		public virtual RProperty Rdepth
+		protected RSystem.RSingle r_depth;
+		public virtual RSystem.RSingle Rdepth
 		{
 			get
 			{
@@ -387,8 +387,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Single aspect
 		/// </summary>
-		protected RProperty r_aspect;
-		public virtual RProperty Raspect
+		protected RSystem.RSingle r_aspect;
+		public virtual RSystem.RSingle Raspect
 		{
 			get
 			{
@@ -421,8 +421,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 cullingMask
 		/// </summary>
-		protected RProperty r_cullingMask;
-		public virtual RProperty RcullingMask
+		protected RSystem.RInt32 r_cullingMask;
+		public virtual RSystem.RInt32 RcullingMask
 		{
 			get
 			{
@@ -438,8 +438,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 eventMask
 		/// </summary>
-		protected RProperty r_eventMask;
-		public virtual RProperty ReventMask
+		protected RSystem.RInt32 r_eventMask;
+		public virtual RSystem.RInt32 ReventMask
 		{
 			get
 			{
@@ -455,8 +455,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Boolean layerCullSpherical
 		/// </summary>
-		protected RProperty r_layerCullSpherical;
-		public virtual RProperty RlayerCullSpherical
+		protected RSystem.RBoolean r_layerCullSpherical;
+		public virtual RSystem.RBoolean RlayerCullSpherical
 		{
 			get
 			{
@@ -506,8 +506,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UInt64 overrideSceneCullingMask
 		/// </summary>
-		protected RProperty r_overrideSceneCullingMask;
-		public virtual RProperty RoverrideSceneCullingMask
+		protected RSystem.RUInt64 r_overrideSceneCullingMask;
+		public virtual RSystem.RUInt64 RoverrideSceneCullingMask
 		{
 			get
 			{
@@ -523,8 +523,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// UInt64 sceneCullingMask
 		/// </summary>
-		protected RProperty r_sceneCullingMask;
-		public virtual RProperty RsceneCullingMask
+		protected RSystem.RUInt64 r_sceneCullingMask;
+		public virtual RSystem.RUInt64 RsceneCullingMask
 		{
 			get
 			{
@@ -540,8 +540,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Single[] layerCullDistances
 		/// </summary>
-		protected RPropertyArray<RProperty> r_layerCullDistances;
-		public virtual RPropertyArray<RProperty> RlayerCullDistances
+		protected RPropertyArray<RSystem.RSingle> r_layerCullDistances;
+		public virtual RPropertyArray<RSystem.RSingle> RlayerCullDistances
 		{
 			get
 			{
@@ -557,8 +557,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 PreviewCullingLayer
 		/// </summary>
-		protected static RProperty r_PreviewCullingLayer;
-		public static RProperty RPreviewCullingLayer
+		protected static RSystem.RInt32 r_PreviewCullingLayer;
+		public static RSystem.RInt32 RPreviewCullingLayer
 		{
 			get
 			{
@@ -574,8 +574,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Boolean useOcclusionCulling
 		/// </summary>
-		protected RProperty r_useOcclusionCulling;
-		public virtual RProperty RuseOcclusionCulling
+		protected RSystem.RBoolean r_useOcclusionCulling;
+		public virtual RSystem.RBoolean RuseOcclusionCulling
 		{
 			get
 			{
@@ -659,8 +659,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Boolean clearStencilAfterLightingPass
 		/// </summary>
-		protected RProperty r_clearStencilAfterLightingPass;
-		public virtual RProperty RclearStencilAfterLightingPass
+		protected RSystem.RBoolean r_clearStencilAfterLightingPass;
+		public virtual RSystem.RBoolean RclearStencilAfterLightingPass
 		{
 			get
 			{
@@ -693,8 +693,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Boolean usePhysicalProperties
 		/// </summary>
-		protected RProperty r_usePhysicalProperties;
-		public virtual RProperty RusePhysicalProperties
+		protected RSystem.RBoolean r_usePhysicalProperties;
+		public virtual RSystem.RBoolean RusePhysicalProperties
 		{
 			get
 			{
@@ -710,8 +710,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 iso
 		/// </summary>
-		protected RProperty r_iso;
-		public virtual RProperty Riso
+		protected RSystem.RInt32 r_iso;
+		public virtual RSystem.RInt32 Riso
 		{
 			get
 			{
@@ -727,8 +727,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Single shutterSpeed
 		/// </summary>
-		protected RProperty r_shutterSpeed;
-		public virtual RProperty RshutterSpeed
+		protected RSystem.RSingle r_shutterSpeed;
+		public virtual RSystem.RSingle RshutterSpeed
 		{
 			get
 			{
@@ -744,8 +744,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Single aperture
 		/// </summary>
-		protected RProperty r_aperture;
-		public virtual RProperty Raperture
+		protected RSystem.RSingle r_aperture;
+		public virtual RSystem.RSingle Raperture
 		{
 			get
 			{
@@ -761,8 +761,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Single focusDistance
 		/// </summary>
-		protected RProperty r_focusDistance;
-		public virtual RProperty RfocusDistance
+		protected RSystem.RSingle r_focusDistance;
+		public virtual RSystem.RSingle RfocusDistance
 		{
 			get
 			{
@@ -778,8 +778,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Single focalLength
 		/// </summary>
-		protected RProperty r_focalLength;
-		public virtual RProperty RfocalLength
+		protected RSystem.RSingle r_focalLength;
+		public virtual RSystem.RSingle RfocalLength
 		{
 			get
 			{
@@ -795,8 +795,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 bladeCount
 		/// </summary>
-		protected RProperty r_bladeCount;
-		public virtual RProperty RbladeCount
+		protected RSystem.RInt32 r_bladeCount;
+		public virtual RSystem.RInt32 RbladeCount
 		{
 			get
 			{
@@ -829,8 +829,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Single barrelClipping
 		/// </summary>
-		protected RProperty r_barrelClipping;
-		public virtual RProperty RbarrelClipping
+		protected RSystem.RSingle r_barrelClipping;
+		public virtual RSystem.RSingle RbarrelClipping
 		{
 			get
 			{
@@ -846,8 +846,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Single anamorphism
 		/// </summary>
-		protected RProperty r_anamorphism;
-		public virtual RProperty Ranamorphism
+		protected RSystem.RSingle r_anamorphism;
+		public virtual RSystem.RSingle Ranamorphism
 		{
 			get
 			{
@@ -948,8 +948,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 pixelWidth
 		/// </summary>
-		protected RProperty r_pixelWidth;
-		public virtual RProperty RpixelWidth
+		protected RSystem.RInt32 r_pixelWidth;
+		public virtual RSystem.RInt32 RpixelWidth
 		{
 			get
 			{
@@ -965,8 +965,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 pixelHeight
 		/// </summary>
-		protected RProperty r_pixelHeight;
-		public virtual RProperty RpixelHeight
+		protected RSystem.RInt32 r_pixelHeight;
+		public virtual RSystem.RInt32 RpixelHeight
 		{
 			get
 			{
@@ -982,8 +982,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 scaledPixelWidth
 		/// </summary>
-		protected RProperty r_scaledPixelWidth;
-		public virtual RProperty RscaledPixelWidth
+		protected RSystem.RInt32 r_scaledPixelWidth;
+		public virtual RSystem.RInt32 RscaledPixelWidth
 		{
 			get
 			{
@@ -999,8 +999,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 scaledPixelHeight
 		/// </summary>
-		protected RProperty r_scaledPixelHeight;
-		public virtual RProperty RscaledPixelHeight
+		protected RSystem.RInt32 r_scaledPixelHeight;
+		public virtual RSystem.RInt32 RscaledPixelHeight
 		{
 			get
 			{
@@ -1050,8 +1050,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 targetDisplay
 		/// </summary>
-		protected RProperty r_targetDisplay;
-		public virtual RProperty RtargetDisplay
+		protected RSystem.RInt32 r_targetDisplay;
+		public virtual RSystem.RInt32 RtargetDisplay
 		{
 			get
 			{
@@ -1135,8 +1135,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Boolean useJitteredProjectionMatrixForTransparentRendering
 		/// </summary>
-		protected RProperty r_useJitteredProjectionMatrixForTransparentRendering;
-		public virtual RProperty RuseJitteredProjectionMatrixForTransparentRendering
+		protected RSystem.RBoolean r_useJitteredProjectionMatrixForTransparentRendering;
+		public virtual RSystem.RBoolean RuseJitteredProjectionMatrixForTransparentRendering
 		{
 			get
 			{
@@ -1220,8 +1220,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Boolean stereoEnabled
 		/// </summary>
-		protected RProperty r_stereoEnabled;
-		public virtual RProperty RstereoEnabled
+		protected RSystem.RBoolean r_stereoEnabled;
+		public virtual RSystem.RBoolean RstereoEnabled
 		{
 			get
 			{
@@ -1237,8 +1237,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Single stereoSeparation
 		/// </summary>
-		protected RProperty r_stereoSeparation;
-		public virtual RProperty RstereoSeparation
+		protected RSystem.RSingle r_stereoSeparation;
+		public virtual RSystem.RSingle RstereoSeparation
 		{
 			get
 			{
@@ -1254,8 +1254,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Single stereoConvergence
 		/// </summary>
-		protected RProperty r_stereoConvergence;
-		public virtual RProperty RstereoConvergence
+		protected RSystem.RSingle r_stereoConvergence;
+		public virtual RSystem.RSingle RstereoConvergence
 		{
 			get
 			{
@@ -1271,8 +1271,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Boolean areVRStereoViewMatricesWithinSingleCullTolerance
 		/// </summary>
-		protected RProperty r_areVRStereoViewMatricesWithinSingleCullTolerance;
-		public virtual RProperty RareVRStereoViewMatricesWithinSingleCullTolerance
+		protected RSystem.RBoolean r_areVRStereoViewMatricesWithinSingleCullTolerance;
+		public virtual RSystem.RBoolean RareVRStereoViewMatricesWithinSingleCullTolerance
 		{
 			get
 			{
@@ -1322,8 +1322,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 allCamerasCount
 		/// </summary>
-		protected static RProperty r_allCamerasCount;
-		public static RProperty RallCamerasCount
+		protected static RSystem.RInt32 r_allCamerasCount;
+		public static RSystem.RInt32 RallCamerasCount
 		{
 			get
 			{
@@ -1373,8 +1373,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 commandBufferCount
 		/// </summary>
-		protected RProperty r_commandBufferCount;
-		public virtual RProperty RcommandBufferCount
+		protected RSystem.RInt32 r_commandBufferCount;
+		public virtual RSystem.RInt32 RcommandBufferCount
 		{
 			get
 			{
@@ -1390,8 +1390,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Boolean isOrthoGraphic
 		/// </summary>
-		protected RProperty r_isOrthoGraphic;
-		public virtual RProperty RisOrthoGraphic
+		protected RSystem.RBoolean r_isOrthoGraphic;
+		public virtual RSystem.RBoolean RisOrthoGraphic
 		{
 			get
 			{
@@ -1424,8 +1424,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Single near
 		/// </summary>
-		protected RProperty r_near;
-		public virtual RProperty Rnear
+		protected RSystem.RSingle r_near;
+		public virtual RSystem.RSingle Rnear
 		{
 			get
 			{
@@ -1441,8 +1441,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Single far
 		/// </summary>
-		protected RProperty r_far;
-		public virtual RProperty Rfar
+		protected RSystem.RSingle r_far;
+		public virtual RSystem.RSingle Rfar
 		{
 			get
 			{
@@ -1458,8 +1458,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Single fov
 		/// </summary>
-		protected RProperty r_fov;
-		public virtual RProperty Rfov
+		protected RSystem.RSingle r_fov;
+		public virtual RSystem.RSingle Rfov
 		{
 			get
 			{
@@ -1475,8 +1475,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Boolean hdr
 		/// </summary>
-		protected RProperty r_hdr;
-		public virtual RProperty Rhdr
+		protected RSystem.RBoolean r_hdr;
+		public virtual RSystem.RBoolean Rhdr
 		{
 			get
 			{
@@ -1492,8 +1492,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Boolean stereoMirrorMode
 		/// </summary>
-		protected RProperty r_stereoMirrorMode;
-		public virtual RProperty RstereoMirrorMode
+		protected RSystem.RBoolean r_stereoMirrorMode;
+		public virtual RSystem.RBoolean RstereoMirrorMode
 		{
 			get
 			{
@@ -1509,8 +1509,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Boolean enabled
 		/// </summary>
-		protected RProperty r_enabled;
-		public virtual RProperty Renabled
+		protected RSystem.RBoolean r_enabled;
+		public virtual RSystem.RBoolean Renabled
 		{
 			get
 			{
@@ -1526,8 +1526,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Boolean isActiveAndEnabled
 		/// </summary>
-		protected RProperty r_isActiveAndEnabled;
-		public virtual RProperty RisActiveAndEnabled
+		protected RSystem.RBoolean r_isActiveAndEnabled;
+		public virtual RSystem.RBoolean RisActiveAndEnabled
 		{
 			get
 			{
@@ -1577,8 +1577,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.String tag
 		/// </summary>
-		protected RProperty r_tag;
-		public virtual RProperty Rtag
+		protected RSystem.RString r_tag;
+		public virtual RSystem.RString Rtag
 		{
 			get
 			{
@@ -1815,8 +1815,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.String name
 		/// </summary>
-		protected RProperty r_name;
-		public virtual RProperty Rname
+		protected RSystem.RString r_name;
+		public virtual RSystem.RString Rname
 		{
 			get
 			{

@@ -15,8 +15,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.String path
 		/// </summary>
-		protected RField r_path;
-		public virtual RField Rpath
+		protected RSystem.RString r_path;
+		public virtual RSystem.RString Rpath
 		{
 			get
 			{
@@ -32,8 +32,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.String typeFullName
 		/// </summary>
-		protected RField r_typeFullName;
-		public virtual RField RtypeFullName
+		protected RSystem.RString r_typeFullName;
+		public virtual RSystem.RString RtypeFullName
 		{
 			get
 			{

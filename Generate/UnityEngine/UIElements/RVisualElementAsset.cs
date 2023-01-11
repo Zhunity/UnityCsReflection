@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.String m_Name
 		/// </summary>
-		protected RField r_m_Name;
-		public virtual RField Rm_Name
+		protected RSystem.RString r_m_Name;
+		public virtual RSystem.RString Rm_Name
 		{
 			get
 			{
@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int32 m_RuleIndex
 		/// </summary>
-		protected RField r_m_RuleIndex;
-		public virtual RField Rm_RuleIndex
+		protected RSystem.RInt32 r_m_RuleIndex;
+		public virtual RSystem.RInt32 Rm_RuleIndex
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.String m_Text
 		/// </summary>
-		protected RField r_m_Text;
-		public virtual RField Rm_Text
+		protected RSystem.RString r_m_Text;
+		public virtual RSystem.RString Rm_Text
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.String[] m_Classes
 		/// </summary>
-		protected RFieldArray<RField> r_m_Classes;
-		public virtual RFieldArray<RField> Rm_Classes
+		protected RFieldArray<RSystem.RString> r_m_Classes;
+		public virtual RFieldArray<RSystem.RString> Rm_Classes
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Collections.Generic.List`1[System.String] m_StylesheetPaths
 		/// </summary>
-		protected RSystem.RCollections.RGeneric.RList<RField> r_m_StylesheetPaths;
-		public virtual RSystem.RCollections.RGeneric.RList<RField> Rm_StylesheetPaths
+		protected RSystem.RCollections.RGeneric.RList<RSystem.RString> r_m_StylesheetPaths;
+		public virtual RSystem.RCollections.RGeneric.RList<RSystem.RString> Rm_StylesheetPaths
 		{
 			get
 			{
@@ -132,8 +132,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Collections.Generic.List`1[System.String] m_Properties
 		/// </summary>
-		protected RSystem.RCollections.RGeneric.RList<RField> r_m_Properties;
-		public virtual RSystem.RCollections.RGeneric.RList<RField> Rm_Properties
+		protected RSystem.RCollections.RGeneric.RList<RSystem.RString> r_m_Properties;
+		public virtual RSystem.RCollections.RGeneric.RList<RSystem.RString> Rm_Properties
 		{
 			get
 			{
@@ -149,8 +149,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Int32 ruleIndex
 		/// </summary>
-		protected RProperty r_ruleIndex;
-		public virtual RProperty RruleIndex
+		protected RSystem.RInt32 r_ruleIndex;
+		public virtual RSystem.RInt32 RruleIndex
 		{
 			get
 			{
@@ -166,8 +166,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.String[] classes
 		/// </summary>
-		protected RPropertyArray<RProperty> r_classes;
-		public virtual RPropertyArray<RProperty> Rclasses
+		protected RPropertyArray<RSystem.RString> r_classes;
+		public virtual RPropertyArray<RSystem.RString> Rclasses
 		{
 			get
 			{
@@ -183,8 +183,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Collections.Generic.List`1[System.String] stylesheetPaths
 		/// </summary>
-		protected RSystem.RCollections.RGeneric.RList<RProperty> r_stylesheetPaths;
-		public virtual RSystem.RCollections.RGeneric.RList<RProperty> RstylesheetPaths
+		protected RSystem.RCollections.RGeneric.RList<RSystem.RString> r_stylesheetPaths;
+		public virtual RSystem.RCollections.RGeneric.RList<RSystem.RString> RstylesheetPaths
 		{
 			get
 			{
@@ -200,8 +200,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Boolean hasStylesheetPaths
 		/// </summary>
-		protected RProperty r_hasStylesheetPaths;
-		public virtual RProperty RhasStylesheetPaths
+		protected RSystem.RBoolean r_hasStylesheetPaths;
+		public virtual RSystem.RBoolean RhasStylesheetPaths
 		{
 			get
 			{
@@ -234,8 +234,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Boolean hasStylesheets
 		/// </summary>
-		protected RProperty r_hasStylesheets;
-		public virtual RProperty RhasStylesheets
+		protected RSystem.RBoolean r_hasStylesheets;
+		public virtual RSystem.RBoolean RhasStylesheets
 		{
 			get
 			{
@@ -251,8 +251,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.String fullTypeName
 		/// </summary>
-		protected RProperty r_fullTypeName;
-		public virtual RProperty RfullTypeName
+		protected RSystem.RString r_fullTypeName;
+		public virtual RSystem.RString RfullTypeName
 		{
 			get
 			{
@@ -268,8 +268,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Int32 id
 		/// </summary>
-		protected RProperty r_id;
-		public virtual RProperty Rid
+		protected RSystem.RInt32 r_id;
+		public virtual RSystem.RInt32 Rid
 		{
 			get
 			{
@@ -285,8 +285,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Int32 orderInDocument
 		/// </summary>
-		protected RProperty r_orderInDocument;
-		public virtual RProperty RorderInDocument
+		protected RSystem.RInt32 r_orderInDocument;
+		public virtual RSystem.RInt32 RorderInDocument
 		{
 			get
 			{
@@ -302,8 +302,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Int32 parentId
 		/// </summary>
-		protected RProperty r_parentId;
-		public virtual RProperty RparentId
+		protected RSystem.RInt32 r_parentId;
+		public virtual RSystem.RInt32 RparentId
 		{
 			get
 			{

@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.String targetName
 		/// </summary>
-		protected RProperty r_targetName;
-		public virtual RProperty RtargetName
+		protected RSystem.RString r_targetName;
+		public virtual RSystem.RString RtargetName
 		{
 			get
 			{
@@ -115,8 +115,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Int64 duration
 		/// </summary>
-		protected RProperty r_duration;
-		public virtual RProperty Rduration
+		protected RSystem.RInt64 r_duration;
+		public virtual RSystem.RInt64 Rduration
 		{
 			get
 			{

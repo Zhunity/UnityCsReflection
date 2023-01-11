@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting
 		/// <summary>
 		/// System.String uri
 		/// </summary>
-		protected RField r_uri;
-		public virtual RField Ruri
+		protected RSystem.RString r_uri;
+		public virtual RSystem.RString Ruri
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting
 		/// <summary>
 		/// System.Int32 flags
 		/// </summary>
-		protected RField r_flags;
-		public virtual RField Rflags
+		protected RSystem.RInt32 r_flags;
+		public virtual RSystem.RInt32 Rflags
 		{
 			get
 			{
@@ -115,8 +115,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting
 		/// <summary>
 		/// System.Int32 MarshalledObjectRef
 		/// </summary>
-		protected static RField r_MarshalledObjectRef;
-		public static RField RMarshalledObjectRef
+		protected static RSystem.RInt32 r_MarshalledObjectRef;
+		public static RSystem.RInt32 RMarshalledObjectRef
 		{
 			get
 			{
@@ -132,8 +132,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting
 		/// <summary>
 		/// System.Int32 WellKnowObjectRef
 		/// </summary>
-		protected static RField r_WellKnowObjectRef;
-		public static RField RWellKnowObjectRef
+		protected static RSystem.RInt32 r_WellKnowObjectRef;
+		public static RSystem.RInt32 RWellKnowObjectRef
 		{
 			get
 			{
@@ -149,8 +149,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting
 		/// <summary>
 		/// Boolean IsReferenceToWellKnow
 		/// </summary>
-		protected RProperty r_IsReferenceToWellKnow;
-		public virtual RProperty RIsReferenceToWellKnow
+		protected RSystem.RBoolean r_IsReferenceToWellKnow;
+		public virtual RSystem.RBoolean RIsReferenceToWellKnow
 		{
 			get
 			{
@@ -217,8 +217,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RRuntime.RRemoting
 		/// <summary>
 		/// System.String URI
 		/// </summary>
-		protected RProperty r_URI;
-		public virtual RProperty RURI
+		protected RSystem.RString r_URI;
+		public virtual RSystem.RString RURI
 		{
 			get
 			{

@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.ReadOnlySpan`1[System.Char] s
 		/// </summary>
-		protected RSystem.RReadOnlySpan<RField> r_s;
-		public virtual RSystem.RReadOnlySpan<RField> Rs
+		protected RSystem.RReadOnlySpan<RSystem.RChar> r_s;
+		public virtual RSystem.RReadOnlySpan<RSystem.RChar> Rs
 		{
 			get
 			{
@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Int32 index
 		/// </summary>
-		protected RField r_index;
-		public virtual RField Rindex
+		protected RSystem.RInt32 r_index;
+		public virtual RSystem.RInt32 Rindex
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Int32 length
 		/// </summary>
-		protected RField r_length;
-		public virtual RField Rlength
+		protected RSystem.RInt32 r_length;
+		public virtual RSystem.RInt32 Rlength
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Int32 value
 		/// </summary>
-		protected RField r_value;
-		public virtual RField Rvalue
+		protected RSystem.RInt32 r_value;
+		public virtual RSystem.RInt32 Rvalue
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// Char Item [Int32]
 		/// </summary>
-		protected RProperty r_Item_Int32;
-		public virtual RProperty RItem_Int32
+		protected RSystem.RChar r_Item_Int32;
+		public virtual RSystem.RChar RItem_Int32
 		{
 			get
 			{

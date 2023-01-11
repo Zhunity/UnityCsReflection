@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Int32 kMaxResolves
 		/// </summary>
-		protected static RField r_kMaxResolves;
-		public static RField RkMaxResolves
+		protected static RSystem.RInt32 r_kMaxResolves;
+		public static RSystem.RInt32 RkMaxResolves
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// System.Collections.Generic.Stack`1[System.String] m_ResolvedVarStack
 		/// </summary>
-		protected RSystem.RCollections.RGeneric.RStack<RField> r_m_ResolvedVarStack;
-		public virtual RSystem.RCollections.RGeneric.RStack<RField> Rm_ResolvedVarStack
+		protected RSystem.RCollections.RGeneric.RStack<RSystem.RString> r_m_ResolvedVarStack;
+		public virtual RSystem.RCollections.RGeneric.RStack<RSystem.RString> Rm_ResolvedVarStack
 		{
 			get
 			{

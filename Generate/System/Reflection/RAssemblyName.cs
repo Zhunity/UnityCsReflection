@@ -13,8 +13,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.String name
 		/// </summary>
-		protected RField r_name;
-		public virtual RField Rname
+		protected RSystem.RString r_name;
+		public virtual RSystem.RString Rname
 		{
 			get
 			{
@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.String codebase
 		/// </summary>
-		protected RField r_codebase;
-		public virtual RField Rcodebase
+		protected RSystem.RString r_codebase;
+		public virtual RSystem.RString Rcodebase
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Int32 major
 		/// </summary>
-		protected RField r_major;
-		public virtual RField Rmajor
+		protected RSystem.RInt32 r_major;
+		public virtual RSystem.RInt32 Rmajor
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Int32 minor
 		/// </summary>
-		protected RField r_minor;
-		public virtual RField Rminor
+		protected RSystem.RInt32 r_minor;
+		public virtual RSystem.RInt32 Rminor
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Int32 build
 		/// </summary>
-		protected RField r_build;
-		public virtual RField Rbuild
+		protected RSystem.RInt32 r_build;
+		public virtual RSystem.RInt32 Rbuild
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Int32 revision
 		/// </summary>
-		protected RField r_revision;
-		public virtual RField Rrevision
+		protected RSystem.RInt32 r_revision;
+		public virtual RSystem.RInt32 Rrevision
 		{
 			get
 			{
@@ -183,8 +183,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Byte[] publicKey
 		/// </summary>
-		protected RFieldArray<RField> r_publicKey;
-		public virtual RFieldArray<RField> RpublicKey
+		protected RFieldArray<RSystem.RByte> r_publicKey;
+		public virtual RFieldArray<RSystem.RByte> RpublicKey
 		{
 			get
 			{
@@ -200,8 +200,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.Byte[] keyToken
 		/// </summary>
-		protected RFieldArray<RField> r_keyToken;
-		public virtual RFieldArray<RField> RkeyToken
+		protected RFieldArray<RSystem.RByte> r_keyToken;
+		public virtual RFieldArray<RSystem.RByte> RkeyToken
 		{
 			get
 			{
@@ -302,8 +302,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.String Name
 		/// </summary>
-		protected RProperty r_Name;
-		public virtual RProperty RName
+		protected RSystem.RString r_Name;
+		public virtual RSystem.RString RName
 		{
 			get
 			{
@@ -319,8 +319,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.String CodeBase
 		/// </summary>
-		protected RProperty r_CodeBase;
-		public virtual RProperty RCodeBase
+		protected RSystem.RString r_CodeBase;
+		public virtual RSystem.RString RCodeBase
 		{
 			get
 			{
@@ -336,8 +336,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.String EscapedCodeBase
 		/// </summary>
-		protected RProperty r_EscapedCodeBase;
-		public virtual RProperty REscapedCodeBase
+		protected RSystem.RString r_EscapedCodeBase;
+		public virtual RSystem.RString REscapedCodeBase
 		{
 			get
 			{
@@ -387,8 +387,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.String FullName
 		/// </summary>
-		protected RProperty r_FullName;
-		public virtual RProperty RFullName
+		protected RSystem.RString r_FullName;
+		public virtual RSystem.RString RFullName
 		{
 			get
 			{
@@ -472,8 +472,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// Boolean IsPublicKeyValid
 		/// </summary>
-		protected RProperty r_IsPublicKeyValid;
-		public virtual RProperty RIsPublicKeyValid
+		protected RSystem.RBoolean r_IsPublicKeyValid;
+		public virtual RSystem.RBoolean RIsPublicKeyValid
 		{
 			get
 			{
@@ -489,8 +489,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RReflection
 		/// <summary>
 		/// System.String CultureName
 		/// </summary>
-		protected RProperty r_CultureName;
-		public virtual RProperty RCultureName
+		protected RSystem.RString r_CultureName;
+		public virtual RSystem.RString RCultureName
 		{
 			get
 			{

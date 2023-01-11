@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Int32 s_nLists
 		/// </summary>
-		protected static RField r_s_nLists;
-		public static RField Rs_nLists
+		protected static RSystem.RInt32 r_s_nLists;
+		public static RSystem.RInt32 Rs_nLists
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Int32 CannotBeCanceled
 		/// </summary>
-		protected static RField r_CannotBeCanceled;
-		public static RField RCannotBeCanceled
+		protected static RSystem.RInt32 r_CannotBeCanceled;
+		public static RSystem.RInt32 RCannotBeCanceled
 		{
 			get
 			{
@@ -115,8 +115,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Int32 NotCanceledState
 		/// </summary>
-		protected static RField r_NotCanceledState;
-		public static RField RNotCanceledState
+		protected static RSystem.RInt32 r_NotCanceledState;
+		public static RSystem.RInt32 RNotCanceledState
 		{
 			get
 			{
@@ -132,8 +132,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Int32 NotifyingState
 		/// </summary>
-		protected static RField r_NotifyingState;
-		public static RField RNotifyingState
+		protected static RSystem.RInt32 r_NotifyingState;
+		public static RSystem.RInt32 RNotifyingState
 		{
 			get
 			{
@@ -149,8 +149,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Int32 NotifyingCompleteState
 		/// </summary>
-		protected static RField r_NotifyingCompleteState;
-		public static RField RNotifyingCompleteState
+		protected static RSystem.RInt32 r_NotifyingCompleteState;
+		public static RSystem.RInt32 RNotifyingCompleteState
 		{
 			get
 			{
@@ -166,8 +166,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Int32 _state
 		/// </summary>
-		protected RField r__state;
-		public virtual RField R_state
+		protected RSystem.RInt32 r__state;
+		public virtual RSystem.RInt32 R_state
 		{
 			get
 			{
@@ -183,8 +183,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Int32 _threadIDExecutingCallbacks
 		/// </summary>
-		protected RField r__threadIDExecutingCallbacks;
-		public virtual RField R_threadIDExecutingCallbacks
+		protected RSystem.RInt32 r__threadIDExecutingCallbacks;
+		public virtual RSystem.RInt32 R_threadIDExecutingCallbacks
 		{
 			get
 			{
@@ -200,8 +200,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// System.Boolean _disposed
 		/// </summary>
-		protected RField r__disposed;
-		public virtual RField R_disposed
+		protected RSystem.RBoolean r__disposed;
+		public virtual RSystem.RBoolean R_disposed
 		{
 			get
 			{
@@ -268,8 +268,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// Boolean IsCancellationRequested
 		/// </summary>
-		protected RProperty r_IsCancellationRequested;
-		public virtual RProperty RIsCancellationRequested
+		protected RSystem.RBoolean r_IsCancellationRequested;
+		public virtual RSystem.RBoolean RIsCancellationRequested
 		{
 			get
 			{
@@ -285,8 +285,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// Boolean IsCancellationCompleted
 		/// </summary>
-		protected RProperty r_IsCancellationCompleted;
-		public virtual RProperty RIsCancellationCompleted
+		protected RSystem.RBoolean r_IsCancellationCompleted;
+		public virtual RSystem.RBoolean RIsCancellationCompleted
 		{
 			get
 			{
@@ -302,8 +302,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// Boolean IsDisposed
 		/// </summary>
-		protected RProperty r_IsDisposed;
-		public virtual RProperty RIsDisposed
+		protected RSystem.RBoolean r_IsDisposed;
+		public virtual RSystem.RBoolean RIsDisposed
 		{
 			get
 			{
@@ -319,8 +319,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// Int32 ThreadIDExecutingCallbacks
 		/// </summary>
-		protected RProperty r_ThreadIDExecutingCallbacks;
-		public virtual RProperty RThreadIDExecutingCallbacks
+		protected RSystem.RInt32 r_ThreadIDExecutingCallbacks;
+		public virtual RSystem.RInt32 RThreadIDExecutingCallbacks
 		{
 			get
 			{
@@ -353,8 +353,8 @@ namespace SMFrame.Editor.Refleaction.RSystem.RThreading
 		/// <summary>
 		/// Boolean CanBeCanceled
 		/// </summary>
-		protected RProperty r_CanBeCanceled;
-		public virtual RProperty RCanBeCanceled
+		protected RSystem.RBoolean r_CanBeCanceled;
+		public virtual RSystem.RBoolean RCanBeCanceled
 		{
 			get
 			{

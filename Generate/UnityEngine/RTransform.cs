@@ -285,8 +285,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 childCount
 		/// </summary>
-		protected RProperty r_childCount;
-		public virtual RProperty RchildCount
+		protected RSystem.RInt32 r_childCount;
+		public virtual RSystem.RInt32 RchildCount
 		{
 			get
 			{
@@ -319,8 +319,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Boolean hasChanged
 		/// </summary>
-		protected RProperty r_hasChanged;
-		public virtual RProperty RhasChanged
+		protected RSystem.RBoolean r_hasChanged;
+		public virtual RSystem.RBoolean RhasChanged
 		{
 			get
 			{
@@ -336,8 +336,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 hierarchyCapacity
 		/// </summary>
-		protected RProperty r_hierarchyCapacity;
-		public virtual RProperty RhierarchyCapacity
+		protected RSystem.RInt32 r_hierarchyCapacity;
+		public virtual RSystem.RInt32 RhierarchyCapacity
 		{
 			get
 			{
@@ -353,8 +353,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Int32 hierarchyCount
 		/// </summary>
-		protected RProperty r_hierarchyCount;
-		public virtual RProperty RhierarchyCount
+		protected RSystem.RInt32 r_hierarchyCount;
+		public virtual RSystem.RInt32 RhierarchyCount
 		{
 			get
 			{
@@ -370,8 +370,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// Boolean constrainProportionsScale
 		/// </summary>
-		protected RProperty r_constrainProportionsScale;
-		public virtual RProperty RconstrainProportionsScale
+		protected RSystem.RBoolean r_constrainProportionsScale;
+		public virtual RSystem.RBoolean RconstrainProportionsScale
 		{
 			get
 			{
@@ -421,8 +421,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.String tag
 		/// </summary>
-		protected RProperty r_tag;
-		public virtual RProperty Rtag
+		protected RSystem.RString r_tag;
+		public virtual RSystem.RString Rtag
 		{
 			get
 			{
@@ -659,8 +659,8 @@ namespace SMFrame.Editor.Refleaction.RUnityEngine
 		/// <summary>
 		/// System.String name
 		/// </summary>
-		protected RProperty r_name;
-		public virtual RProperty Rname
+		protected RSystem.RString r_name;
+		public virtual RSystem.RString Rname
 		{
 			get
 			{

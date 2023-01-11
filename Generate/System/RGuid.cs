@@ -30,8 +30,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Int32 _a
 		/// </summary>
-		protected RField r__a;
-		public virtual RField R_a
+		protected RSystem.RInt32 r__a;
+		public virtual RSystem.RInt32 R_a
 		{
 			get
 			{
@@ -47,8 +47,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Int16 _b
 		/// </summary>
-		protected RField r__b;
-		public virtual RField R_b
+		protected RSystem.RInt16 r__b;
+		public virtual RSystem.RInt16 R_b
 		{
 			get
 			{
@@ -64,8 +64,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Int16 _c
 		/// </summary>
-		protected RField r__c;
-		public virtual RField R_c
+		protected RSystem.RInt16 r__c;
+		public virtual RSystem.RInt16 R_c
 		{
 			get
 			{
@@ -81,8 +81,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Byte _d
 		/// </summary>
-		protected RField r__d;
-		public virtual RField R_d
+		protected RSystem.RByte r__d;
+		public virtual RSystem.RByte R_d
 		{
 			get
 			{
@@ -98,8 +98,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Byte _e
 		/// </summary>
-		protected RField r__e;
-		public virtual RField R_e
+		protected RSystem.RByte r__e;
+		public virtual RSystem.RByte R_e
 		{
 			get
 			{
@@ -115,8 +115,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Byte _f
 		/// </summary>
-		protected RField r__f;
-		public virtual RField R_f
+		protected RSystem.RByte r__f;
+		public virtual RSystem.RByte R_f
 		{
 			get
 			{
@@ -132,8 +132,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Byte _g
 		/// </summary>
-		protected RField r__g;
-		public virtual RField R_g
+		protected RSystem.RByte r__g;
+		public virtual RSystem.RByte R_g
 		{
 			get
 			{
@@ -149,8 +149,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Byte _h
 		/// </summary>
-		protected RField r__h;
-		public virtual RField R_h
+		protected RSystem.RByte r__h;
+		public virtual RSystem.RByte R_h
 		{
 			get
 			{
@@ -166,8 +166,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Byte _i
 		/// </summary>
-		protected RField r__i;
-		public virtual RField R_i
+		protected RSystem.RByte r__i;
+		public virtual RSystem.RByte R_i
 		{
 			get
 			{
@@ -183,8 +183,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Byte _j
 		/// </summary>
-		protected RField r__j;
-		public virtual RField R_j
+		protected RSystem.RByte r__j;
+		public virtual RSystem.RByte R_j
 		{
 			get
 			{
@@ -200,8 +200,8 @@ namespace SMFrame.Editor.Refleaction.RSystem
 		/// <summary>
 		/// System.Byte _k
 		/// </summary>
-		protected RField r__k;
-		public virtual RField R_k
+		protected RSystem.RByte r__k;
+		public virtual RSystem.RByte R_k
 		{
 			get
 			{
@@ -985,6 +985,16 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
+        public static System.Guid Parse(RSystem.RReadOnlySpan<RSystem.RChar> @input)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@input.Value};
+            var ___result = RParse_ReadOnlySpan_d_Char_p_.Invoke(___genericsType, ___parameters);
+
+            return (System.Guid)___result;
+        }
+
 
         public static System.Boolean TryParse(System.String @input, out System.Guid @result)
         {
@@ -999,6 +1009,18 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
+        public static System.Boolean TryParse(RSystem.RReadOnlySpan<RSystem.RChar> @input, out System.Guid @result)
+        {
+			@result = default;
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@input.Value, @result};
+            var ___result = RTryParse_ReadOnlySpan_d_Char_p__Out_Guid.Invoke(___genericsType, ___parameters);
+			@result = (System.Guid)___parameters[1];
+
+            return (System.Boolean)___result;
+        }
+
 
         public static System.Guid ParseExact(System.String @input, System.String @format)
         {
@@ -1010,6 +1032,16 @@ namespace SMFrame.Editor.Refleaction.RSystem
             return (System.Guid)___result;
         }
 
+
+        public static System.Guid ParseExact(RSystem.RReadOnlySpan<RSystem.RChar> @input, RSystem.RReadOnlySpan<RSystem.RChar> @format)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@input.Value, @format.Value};
+            var ___result = RParseExact_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p_.Invoke(___genericsType, ___parameters);
+
+            return (System.Guid)___result;
+        }
 
 
         public static System.Boolean TryParseExact(System.String @input, System.String @format, out System.Guid @result)
@@ -1025,17 +1057,171 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
+        public static System.Boolean TryParseExact(RSystem.RReadOnlySpan<RSystem.RChar> @input, RSystem.RReadOnlySpan<RSystem.RChar> @format, out System.Guid @result)
+        {
+			@result = default;
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@input.Value, @format.Value, @result};
+            var ___result = RTryParseExact_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p__Out_Guid.Invoke(___genericsType, ___parameters);
+			@result = (System.Guid)___parameters[2];
+
+            return (System.Boolean)___result;
+        }
 
 
+        public static System.Boolean TryParseGuid(RSystem.RReadOnlySpan<RSystem.RChar> @guidString, RType @flags, ref RSystem.RGuid.RGuidResult @result)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@guidString.Value, @flags.Value, @result.Value};
+            var ___result = RTryParseGuid_ReadOnlySpan_d_Char_p__GuidStyles_Ref_GuidResult.Invoke(___genericsType, ___parameters);
+			@result = new RSystem.RGuid.RGuidResult(___parameters[2]);
+
+            return (System.Boolean)___result;
+        }
 
 
+        public static System.Boolean TryParseGuidWithHexPrefix(RSystem.RReadOnlySpan<RSystem.RChar> @guidString, ref RSystem.RGuid.RGuidResult @result)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@guidString.Value, @result.Value};
+            var ___result = RTryParseGuidWithHexPrefix_ReadOnlySpan_d_Char_p__Ref_GuidResult.Invoke(___genericsType, ___parameters);
+			@result = new RSystem.RGuid.RGuidResult(___parameters[1]);
+
+            return (System.Boolean)___result;
+        }
 
 
+        public static System.Boolean TryParseGuidWithNoStyle(RSystem.RReadOnlySpan<RSystem.RChar> @guidString, ref RSystem.RGuid.RGuidResult @result)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@guidString.Value, @result.Value};
+            var ___result = RTryParseGuidWithNoStyle_ReadOnlySpan_d_Char_p__Ref_GuidResult.Invoke(___genericsType, ___parameters);
+			@result = new RSystem.RGuid.RGuidResult(___parameters[1]);
+
+            return (System.Boolean)___result;
+        }
 
 
+        public static System.Boolean TryParseGuidWithDashes(RSystem.RReadOnlySpan<RSystem.RChar> @guidString, ref RSystem.RGuid.RGuidResult @result)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@guidString.Value, @result.Value};
+            var ___result = RTryParseGuidWithDashes_ReadOnlySpan_d_Char_p__Ref_GuidResult.Invoke(___genericsType, ___parameters);
+			@result = new RSystem.RGuid.RGuidResult(___parameters[1]);
+
+            return (System.Boolean)___result;
+        }
 
 
+        public static System.Boolean StringToShort(RSystem.RReadOnlySpan<RSystem.RChar> @str, System.Int32 @requiredLength, System.Int32 @flags, out System.Int16 @result, ref RSystem.RGuid.RGuidResult @parseResult)
+        {
+			@result = default;
 
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@str.Value, @requiredLength, @flags, @result, @parseResult.Value};
+            var ___result = RStringToShort_ReadOnlySpan_d_Char_p__Int32_Int32_Out_Int16_Ref_GuidResult.Invoke(___genericsType, ___parameters);
+			@result = (System.Int16)___parameters[3];
+			@parseResult = new RSystem.RGuid.RGuidResult(___parameters[4]);
+
+            return (System.Boolean)___result;
+        }
+
+
+        public static System.Boolean StringToShort(RSystem.RReadOnlySpan<RSystem.RChar> @str, ref System.Int32 @parsePos, System.Int32 @requiredLength, System.Int32 @flags, out System.Int16 @result, ref RSystem.RGuid.RGuidResult @parseResult)
+        {
+			@result = default;
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@str.Value, @parsePos, @requiredLength, @flags, @result, @parseResult.Value};
+            var ___result = RStringToShort_ReadOnlySpan_d_Char_p__Ref_Int32_Int32_Int32_Out_Int16_Ref_GuidResult.Invoke(___genericsType, ___parameters);
+			@parsePos = (System.Int32)___parameters[1];
+			@result = (System.Int16)___parameters[4];
+			@parseResult = new RSystem.RGuid.RGuidResult(___parameters[5]);
+
+            return (System.Boolean)___result;
+        }
+
+
+        public static System.Boolean StringToInt(RSystem.RReadOnlySpan<RSystem.RChar> @str, System.Int32 @requiredLength, System.Int32 @flags, out System.Int32 @result, ref RSystem.RGuid.RGuidResult @parseResult)
+        {
+			@result = default;
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@str.Value, @requiredLength, @flags, @result, @parseResult.Value};
+            var ___result = RStringToInt_ReadOnlySpan_d_Char_p__Int32_Int32_Out_Int32_Ref_GuidResult.Invoke(___genericsType, ___parameters);
+			@result = (System.Int32)___parameters[3];
+			@parseResult = new RSystem.RGuid.RGuidResult(___parameters[4]);
+
+            return (System.Boolean)___result;
+        }
+
+
+        public static System.Boolean StringToInt(RSystem.RReadOnlySpan<RSystem.RChar> @str, ref System.Int32 @parsePos, System.Int32 @requiredLength, System.Int32 @flags, out System.Int32 @result, ref RSystem.RGuid.RGuidResult @parseResult)
+        {
+			@result = default;
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@str.Value, @parsePos, @requiredLength, @flags, @result, @parseResult.Value};
+            var ___result = RStringToInt_ReadOnlySpan_d_Char_p__Ref_Int32_Int32_Int32_Out_Int32_Ref_GuidResult.Invoke(___genericsType, ___parameters);
+			@parsePos = (System.Int32)___parameters[1];
+			@result = (System.Int32)___parameters[4];
+			@parseResult = new RSystem.RGuid.RGuidResult(___parameters[5]);
+
+            return (System.Boolean)___result;
+        }
+
+
+        public static System.Boolean StringToLong(RSystem.RReadOnlySpan<RSystem.RChar> @str, ref System.Int32 @parsePos, System.Int32 @flags, out System.Int64 @result, ref RSystem.RGuid.RGuidResult @parseResult)
+        {
+			@result = default;
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@str.Value, @parsePos, @flags, @result, @parseResult.Value};
+            var ___result = RStringToLong_ReadOnlySpan_d_Char_p__Ref_Int32_Int32_Out_Int64_Ref_GuidResult.Invoke(___genericsType, ___parameters);
+			@parsePos = (System.Int32)___parameters[1];
+			@result = (System.Int64)___parameters[3];
+			@parseResult = new RSystem.RGuid.RGuidResult(___parameters[4]);
+
+            return (System.Boolean)___result;
+        }
+
+
+        public static RSystem.RReadOnlySpan<RSystem.RChar> EatAllWhitespace(RSystem.RReadOnlySpan<RSystem.RChar> @str)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@str.Value};
+            var ___result = REatAllWhitespace_ReadOnlySpan_d_Char_p_.Invoke(___genericsType, ___parameters);
+
+            return new RSystem.RReadOnlySpan<RSystem.RChar>(___result);
+        }
+
+
+        public static System.Boolean IsHexPrefix(RSystem.RReadOnlySpan<RSystem.RChar> @str, System.Int32 @i)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@str.Value, @i};
+            var ___result = RIsHexPrefix_ReadOnlySpan_d_Char_p__Int32.Invoke(___genericsType, ___parameters);
+
+            return (System.Boolean)___result;
+        }
+
+
+        public virtual void WriteByteHelper(RSystem.RSpan<RSystem.RByte> @destination)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@destination.Value};
+            var ___result = RWriteByteHelper_Span_d_Byte_p_.Invoke(___genericsType, ___parameters);
+
+            
+        }
 
 
         public virtual System.Byte[] ToByteArray()
@@ -1048,6 +1234,16 @@ namespace SMFrame.Editor.Refleaction.RSystem
             return (System.Byte[])___result;
         }
 
+
+        public virtual System.Boolean TryWriteBytes(RSystem.RSpan<RSystem.RByte> @destination)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@destination.Value};
+            var ___result = RTryWriteBytes_Span_d_Byte_p_.Invoke(___genericsType, ___parameters);
+
+            return (System.Boolean)___result;
+        }
 
 
         public virtual System.String ToString()
@@ -1204,6 +1400,30 @@ namespace SMFrame.Editor.Refleaction.RSystem
         }
 
 
+        public virtual System.Boolean TryFormat(RSystem.RSpan<RSystem.RChar> @destination, out System.Int32 @charsWritten, RSystem.RReadOnlySpan<RSystem.RChar> @format)
+        {
+			@charsWritten = default;
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@destination.Value, @charsWritten, @format.Value};
+            var ___result = RTryFormat_Span_d_Char_p__Out_Int32_ReadOnlySpan_d_Char_p_.Invoke(___genericsType, ___parameters);
+			@charsWritten = (System.Int32)___parameters[1];
+
+            return (System.Boolean)___result;
+        }
+
+
+        public virtual System.Boolean System__2__ISpanFormattable__2__TryFormat(RSystem.RSpan<RSystem.RChar> @destination, out System.Int32 @charsWritten, RSystem.RReadOnlySpan<RSystem.RChar> @format, System.IFormatProvider @provider)
+        {
+			@charsWritten = default;
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@destination.Value, @charsWritten, @format.Value, @provider};
+            var ___result = RSystem__2__ISpanFormattable__2__TryFormat_Span_d_Char_p__Out_Int32_ReadOnlySpan_d_Char_p__IFormatProvider.Invoke(___genericsType, ___parameters);
+			@charsWritten = (System.Int32)___parameters[1];
+
+            return (System.Boolean)___result;
+        }
 
 
         public static System.Byte[] FastNewGuidArray()
