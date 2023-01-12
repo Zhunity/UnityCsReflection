@@ -386,8 +386,10 @@ namespace SMFrame.Editor.Refleaction
 			var ms = e.GetFields();
 			foreach(var m in ms)
 			{
-				Debug.Log(m + "  " + m.MemberType + "  " + m.FieldType + "  " + m.IsStatic);
+				Debug.Log(m + " 111 " + m.MemberType + " 222 " + m.FieldType + " 333 " + m.IsStatic);
 			}
+
+			Debug.Log(RUnityEngine.RUIElements.RWrap.RFWrap.Value + "  " + RUnityEngine.RUIElements.RWrap.RFWrap.Value.GetType() + "  " + a.a);
 		}
 	}
 }
